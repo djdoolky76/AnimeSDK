@@ -4,10 +4,10 @@
 class NBPHDOPHNKH;
 namespace System { class String; }
 
-#define KNLEMBFCBCO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8DB910)
-#define KNLEMBFCBCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DB9A0)
+#define KNLEMBFCBCO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D635790)
+#define KNLEMBFCBCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D635820)
 
-inline static constexpr unsigned int KNLEMBFCBCO_TypeDefinitionIndex = 43418;
+inline static constexpr unsigned int KNLEMBFCBCO_TypeDefinitionIndex = 44400;
 
 	class KNLEMBFCBCO : public ::System::Object
 	{

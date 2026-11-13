@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D317B50)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D3170B0)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D316F40)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D316C30)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D316EE0)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D317220)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D316CB0)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D317260)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D317430)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D317830)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D317390)
-#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3172F0)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4F4E30)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E4F4390)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E4F4220)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E4F3F10)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E4F41C0)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E4F4500)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E4F3F90)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E4F4540)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4F4710)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E4F4B10)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E4F4670)
+#define RPG_GAMECORE_ACTIONGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E4F45D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionGroupExcelTable_TypeDefinitionIndex = 13816;
+	inline static constexpr unsigned int ActionGroupExcelTable_TypeDefinitionIndex = 13973;
 
 	class ActionGroupExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActionGroupRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActionGroupRow*>**)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0x543A0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActionGroupRow*>**)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0x486F0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0x543A8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0x486F8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0x543B0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0x48700);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0x12BA0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0xE0E0);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0x12BA1);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActionGroupExcelTable")->GetStaticField(0xE0E1);
 		}
 
 		static ::System::Void _cctor()

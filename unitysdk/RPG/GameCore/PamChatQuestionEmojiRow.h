@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PamChatQuestionEmojiRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BE6C0)
-#define RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BE590)
+#define RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F13FC10)
+#define RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F13FAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatQuestionEmojiRow_TypeDefinitionIndex = 14317;
+	inline static constexpr unsigned int PamChatQuestionEmojiRow_TypeDefinitionIndex = 14474;
 
 	class PamChatQuestionEmojiRow : public ::System::Object
 	{

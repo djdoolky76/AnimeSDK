@@ -5,11 +5,11 @@ class GMPLIFIKJGC;
 namespace RPG::Client { class MainMissionData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LCPNALBMKIB_CTOR_OFFSET UNITYSDK_OFFSET(0xB614DC0)
-#define LCPNALBMKIB_DANKHPIIDOH_OFFSET UNITYSDK_OFFSET(0xB615030)
-#define LCPNALBMKIB_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0xB614E60)
+#define LCPNALBMKIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC75440)
+#define LCPNALBMKIB_DANKHPIIDOH_OFFSET UNITYSDK_OFFSET(0x1AC756B0)
+#define LCPNALBMKIB_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0x1AC754E0)
 
-inline static constexpr unsigned int LCPNALBMKIB_TypeDefinitionIndex = 66171;
+inline static constexpr unsigned int LCPNALBMKIB_TypeDefinitionIndex = 68107;
 
 	class LCPNALBMKIB : public ::System::Object
 	{

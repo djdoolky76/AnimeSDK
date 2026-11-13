@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define LJKHNIGEEBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F2EE0)
+#define LJKHNIGEEBD_CTOR_OFFSET UNITYSDK_OFFSET(0x20965700)
 
-inline static constexpr unsigned int LJKHNIGEEBD_TypeDefinitionIndex = 5083;
+inline static constexpr unsigned int LJKHNIGEEBD_TypeDefinitionIndex = 5088;
 
 	class LJKHNIGEEBD : public ::System::Attribute
 	{

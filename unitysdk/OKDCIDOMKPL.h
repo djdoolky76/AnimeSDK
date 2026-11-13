@@ -4,19 +4,19 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define OKDCIDOMKPL_CTOR_OFFSET UNITYSDK_OFFSET(0xBECC1F0)
-#define OKDCIDOMKPL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xBECC250)
-#define OKDCIDOMKPL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBECC200)
+#define OKDCIDOMKPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1786F030)
+#define OKDCIDOMKPL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1786F090)
+#define OKDCIDOMKPL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1786F040)
 
-inline static constexpr unsigned int OKDCIDOMKPL_TypeDefinitionIndex = 56631;
+inline static constexpr unsigned int OKDCIDOMKPL_TypeDefinitionIndex = 57853;
 
 	class OKDCIDOMKPL : public ::System::Object
 	{
 	public:
-		::System::UInt32 DOCIPOEABOM; // 0x10
-		::System::Boolean MAAKDJAOJGJ; // 0x14
-		::System::Boolean EEOIILCKPNH; // 0x15
+		::System::Boolean MAAKDJAOJGJ; // 0x10
+		::System::Boolean EEOIILCKPNH; // 0x11
 		::System::Byte _padding0[0x2];
+		::System::UInt32 DOCIPOEABOM; // 0x14
 		::RPG::GameCore::AttackDamageType HPADLBCEKOG; // 0x18
 		::System::UInt32 GNOCBLOMLAC; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)

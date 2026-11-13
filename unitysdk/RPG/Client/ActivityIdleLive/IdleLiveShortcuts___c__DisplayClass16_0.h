@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class FHFCJKKKNLP;
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4E93D0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS16_0__INITANDENTERBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0xC4E9700)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D1240)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS16_0__INITANDENTERBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x1D6D1570)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveShortcuts___c__DisplayClass16_0_TypeDefinitionIndex = 75317;
+	inline static constexpr unsigned int IdleLiveShortcuts___c__DisplayClass16_0_TypeDefinitionIndex = 77644;
 
 	class IdleLiveShortcuts___c__DisplayClass16_0 : public ::System::Object
 	{

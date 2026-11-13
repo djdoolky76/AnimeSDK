@@ -4,29 +4,29 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define EHBKEOKCMOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15496560)
-#define EHBKEOKCMOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154965A0)
-#define EHBKEOKCMOF___C___ONLANGUAGECHANGED_B__23_0_OFFSET UNITYSDK_OFFSET(0x154965B0)
-#define EHBKEOKCMOF___C___ONLOGINFAILED_B__25_0_OFFSET UNITYSDK_OFFSET(0x15496660)
+#define EHBKEOKCMOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18BC6F30)
+#define EHBKEOKCMOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18BC6F70)
+#define EHBKEOKCMOF___C___ONLANGUAGECHANGED_B__23_0_OFFSET UNITYSDK_OFFSET(0x18BC6F80)
+#define EHBKEOKCMOF___C___ONLOGINFAILED_B__25_0_OFFSET UNITYSDK_OFFSET(0x18BC7030)
 
-inline static constexpr unsigned int EHBKEOKCMOF___c_TypeDefinitionIndex = 61111;
+inline static constexpr unsigned int EHBKEOKCMOF___c_TypeDefinitionIndex = 62496;
 
 	class EHBKEOKCMOF___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12870);
+		}
+
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E610);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12878);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__23_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E618);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E620);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12880);
 		}
 
 		static ::System::Void _cctor()

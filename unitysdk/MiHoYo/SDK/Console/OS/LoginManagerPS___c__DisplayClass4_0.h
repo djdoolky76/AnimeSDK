@@ -5,18 +5,18 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class LoginManagerPS; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA3670)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__ONCONSOLELOGINCALLBACK_G__FAILEDCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1BCA49A0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18628F50)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__ONCONSOLELOGINCALLBACK_G__FAILEDCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1862A280)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass4_0_TypeDefinitionIndex = 9084;
+	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass4_0_TypeDefinitionIndex = 9093;
 
 	class LoginManagerPS___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::NetworkResponseModel* response; // 0x10
-		::MiHoYo::SDK::Console::OS::LoginManagerPS* __4__this; // 0x18
+		::MiHoYo::SDK::Console::OS::LoginManagerPS* __4__this; // 0x10
+		::MiHoYo::SDK::NetworkResponseModel* response; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

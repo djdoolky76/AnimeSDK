@@ -7,20 +7,21 @@ class GFODFDCBFJF;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define GFODFDCBFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE10280)
-#define GFODFDCBFJF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE10290)
-#define GFODFDCBFJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE10240)
+#define GFODFDCBFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E631D40)
+#define GFODFDCBFJF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E631D50)
+#define GFODFDCBFJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E631D00)
 
-inline static constexpr unsigned int GFODFDCBFJF_TypeDefinitionIndex = 23278;
+inline static constexpr unsigned int GFODFDCBFJF_TypeDefinitionIndex = 23718;
 
 	class GFODFDCBFJF : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::RPG::GameCore::TargetEvaluator* HKFBIPNCBII; // 0x20
-		::System::String* OEOMFBFJHDM; // 0x28
-		::RPG::GameCore::ActionDelayChangeTypeMask KHGGDOMNEJA; // 0x30
-		::System::Boolean PBNJDHFCHHC; // 0x32
+		::RPG::GameCore::TargetEvaluator* HKFBIPNCBII; // 0x18
+		::System::String* OEOMFBFJHDM; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::System::Boolean PBNJDHFCHHC; // 0x30
+		::System::Byte _padding0[0x1];
+		::RPG::GameCore::ActionDelayChangeTypeMask KHGGDOMNEJA; // 0x32
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GFODFDCBFJF_CTOR_OFFSET))(this);

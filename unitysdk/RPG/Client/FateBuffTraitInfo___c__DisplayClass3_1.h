@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class FateBuffData; }
 
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCE7A410)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_1__SYNCBUFFUPDATE_B__1_OFFSET UNITYSDK_OFFSET(0xCE7D3D0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB6D40)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_1__SYNCBUFFUPDATE_B__1_OFFSET UNITYSDK_OFFSET(0x1CBB9CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass3_1_TypeDefinitionIndex = 64003;
+	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass3_1_TypeDefinitionIndex = 65448;
 
 	template <typename T>
 	class FateBuffTraitInfo___c__DisplayClass3_1 : public ::System::Object

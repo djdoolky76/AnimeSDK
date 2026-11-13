@@ -3,9 +3,9 @@
 class PHHBNPBBKGE;
 namespace System { class Object; }
 
-#define GJKGIDHMMNE_BFFMACICCGC_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7D410)
+#define GJKGIDHMMNE_BFFMACICCGC_CTOR_OFFSET UNITYSDK_OFFSET(0x3E64050)
 
-inline static constexpr unsigned int GJKGIDHMMNE_BFFMACICCGC_TypeDefinitionIndex = 69367;
+inline static constexpr unsigned int GJKGIDHMMNE_BFFMACICCGC_TypeDefinitionIndex = 71321;
 
 	struct alignas(8) GJKGIDHMMNE_BFFMACICCGC
 	{

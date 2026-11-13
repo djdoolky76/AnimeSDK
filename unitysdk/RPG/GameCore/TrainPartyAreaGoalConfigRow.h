@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyAreaGoalConfigRow; }
 
-#define RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC003B0)
-#define RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC00230)
+#define RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D95A0)
+#define RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5D9420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyAreaGoalConfigRow_TypeDefinitionIndex = 15327;
+	inline static constexpr unsigned int TrainPartyAreaGoalConfigRow_TypeDefinitionIndex = 15483;
 
 	class TrainPartyAreaGoalConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* StepGroupList; // 0x10
-		::System::UInt32 AreaID; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 AreaID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_CTOR_OFFSET))(this);

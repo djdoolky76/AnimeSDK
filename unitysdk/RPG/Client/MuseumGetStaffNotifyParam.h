@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MuseumStaffData; }
 
-#define RPG_CLIENT_MUSEUMGETSTAFFNOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD8EBD00)
+#define RPG_CLIENT_MUSEUMGETSTAFFNOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A21C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumGetStaffNotifyParam_TypeDefinitionIndex = 66342;
+	inline static constexpr unsigned int MuseumGetStaffNotifyParam_TypeDefinitionIndex = 68278;
 
 	class MuseumGetStaffNotifyParam : public ::System::Object
 	{

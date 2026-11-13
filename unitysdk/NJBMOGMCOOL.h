@@ -6,20 +6,20 @@
 class NJBMOGMCOOL;
 namespace RPG::Client { class MatchThreeBoard; }
 
-#define NJBMOGMCOOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC02CF0)
-#define NJBMOGMCOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC02E40)
-#define NJBMOGMCOOL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xBC02DE0)
-#define NJBMOGMCOOL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBC02D70)
+#define NJBMOGMCOOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x148E1F40)
+#define NJBMOGMCOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x148E2090)
+#define NJBMOGMCOOL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x148E2030)
+#define NJBMOGMCOOL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x148E1FC0)
 
-inline static constexpr unsigned int NJBMOGMCOOL_TypeDefinitionIndex = 65870;
+inline static constexpr unsigned int NJBMOGMCOOL_TypeDefinitionIndex = 67802;
 
 	class NJBMOGMCOOL : public ::FNIDIOCNBBI
 	{
 	public:
-		::System::UInt32 KLOEJIMMPJM; // 0x28
-		::System::UInt32 MNDFOPKBHKP; // 0x2C
-		::RPG::GameCore::Match3::BombType FEKGEPDLOCE; // 0x30
-		::UnityEngine::Vector2 GMDBHJKEAEI; // 0x34
+		::UnityEngine::Vector2 GMDBHJKEAEI; // 0x28
+		::System::UInt32 KLOEJIMMPJM; // 0x30
+		::RPG::GameCore::Match3::BombType FEKGEPDLOCE; // 0x34
+		::System::UInt32 MNDFOPKBHKP; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJBMOGMCOOL_CTOR_OFFSET))(this);

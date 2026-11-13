@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D847F70)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D847650)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D8474E0)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D8471D0)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D847480)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D8477E0)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D847250)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D847820)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8479F0)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D847C00)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D847950)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8478B0)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6DA7E0)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E6D9EC0)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E6D9D50)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E6D9A40)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E6D9CF0)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E6DA050)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E6D9AC0)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E6DA090)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6DA260)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E6DA470)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E6DA1C0)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E6DA120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageContactsCampExcelTable_TypeDefinitionIndex = 14476;
+	inline static constexpr unsigned int MessageContactsCampExcelTable_TypeDefinitionIndex = 14631;
 
 	class MessageContactsCampExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageContactsCampRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageContactsCampRow*>**)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0x38900);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageContactsCampRow*>**)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0x3EFD0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0x38908);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0x3EFD8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0x38910);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0x3EFE0);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0xB560);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0xCA60);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0xB561);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "MessageContactsCampExcelTable")->GetStaticField(0xCA61);
 		}
 
 		static ::System::Void _cctor()

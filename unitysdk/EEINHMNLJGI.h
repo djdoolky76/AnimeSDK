@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EEINHMNLJGI_PFIMEIAAPEH_1_OFFSET UNITYSDK_OFFSET(0x1DD0C850)
-#define EEINHMNLJGI_PFIMEIAAPEH_OFFSET UNITYSDK_OFFSET(0x1DD0C840)
+#define EEINHMNLJGI_PFIMEIAAPEH_1_OFFSET UNITYSDK_OFFSET(0x179B0460)
+#define EEINHMNLJGI_PFIMEIAAPEH_OFFSET UNITYSDK_OFFSET(0x179B0450)
 
-inline static constexpr unsigned int EEINHMNLJGI_TypeDefinitionIndex = 6410;
+inline static constexpr unsigned int EEINHMNLJGI_TypeDefinitionIndex = 6417;
 
 	class EEINHMNLJGI : public ::System::Object
 	{

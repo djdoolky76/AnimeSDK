@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC0D460)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC0D4A0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C___REGENERATENOREUSE_B__11_2_OFFSET UNITYSDK_OFFSET(0xDC0D4B0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19BF0CD0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19BF0D10)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C___REGENERATENOREUSE_B__11_2_OFFSET UNITYSDK_OFFSET(0x19BF0D20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdjustContainer_ContainerInstance___c_TypeDefinitionIndex = 78194;
+	inline static constexpr unsigned int AdjustContainer_ContainerInstance___c_TypeDefinitionIndex = 80929;
 
 	class AdjustContainer_ContainerInstance___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>** StaticGet___9__11_2()
-		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x325F0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x325F8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x511F0);
+		}
+
+		static ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>** StaticGet___9__11_2()
+		{
+			return (::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x511F8);
 		}
 
 		static ::System::Void _cctor()

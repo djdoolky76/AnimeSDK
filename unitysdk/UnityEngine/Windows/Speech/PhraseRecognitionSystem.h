@@ -6,8 +6,8 @@
 namespace UnityEngine::Windows::Speech { class PhraseRecognitionSystem_ErrorDelegate; }
 namespace UnityEngine::Windows::Speech { class PhraseRecognitionSystem_StatusDelegate; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_PHRASERECOGNITIONSYSTEM_INVOKEERROREVENT_OFFSET UNITYSDK_OFFSET(0x1F413560)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_PHRASERECOGNITIONSYSTEM_INVOKESTATUSCHANGEDEVENT_OFFSET UNITYSDK_OFFSET(0x1F4135A0)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_PHRASERECOGNITIONSYSTEM_INVOKEERROREVENT_OFFSET UNITYSDK_OFFSET(0x2084F5C0)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_PHRASERECOGNITIONSYSTEM_INVOKESTATUSCHANGEDEVENT_OFFSET UNITYSDK_OFFSET(0x2084F600)
 
 namespace UnityEngine::Windows::Speech
 {
@@ -18,12 +18,12 @@ namespace UnityEngine::Windows::Speech
 	public:
 		static ::UnityEngine::Windows::Speech::PhraseRecognitionSystem_StatusDelegate** StaticGet_OnStatusChanged()
 		{
-			return (::UnityEngine::Windows::Speech::PhraseRecognitionSystem_StatusDelegate**)UnitySDK::FromName("UnityEngine.Windows.Speech", "PhraseRecognitionSystem")->GetStaticField(0x17B30);
+			return (::UnityEngine::Windows::Speech::PhraseRecognitionSystem_StatusDelegate**)UnitySDK::FromName("UnityEngine.Windows.Speech", "PhraseRecognitionSystem")->GetStaticField(0x15DB0);
 		}
 
 		static ::UnityEngine::Windows::Speech::PhraseRecognitionSystem_ErrorDelegate** StaticGet_OnError()
 		{
-			return (::UnityEngine::Windows::Speech::PhraseRecognitionSystem_ErrorDelegate**)UnitySDK::FromName("UnityEngine.Windows.Speech", "PhraseRecognitionSystem")->GetStaticField(0x17B38);
+			return (::UnityEngine::Windows::Speech::PhraseRecognitionSystem_ErrorDelegate**)UnitySDK::FromName("UnityEngine.Windows.Speech", "PhraseRecognitionSystem")->GetStaticField(0x15DB8);
 		}
 
 		static ::System::Void PhraseRecognitionSystem_InvokeErrorEvent(::UnityEngine::Windows::Speech::SpeechError a1)

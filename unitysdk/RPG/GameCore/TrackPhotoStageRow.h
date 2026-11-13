@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrackPhotoStageRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRACKPHOTOSTAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFD9D0)
-#define RPG_GAMECORE_TRACKPHOTOSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DBFD3B0)
+#define RPG_GAMECORE_TRACKPHOTOSTAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D6C90)
+#define RPG_GAMECORE_TRACKPHOTOSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5D6670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoStageRow_TypeDefinitionIndex = 12508;
+	inline static constexpr unsigned int TrackPhotoStageRow_TypeDefinitionIndex = 12575;
 
 	class TrackPhotoStageRow : public ::System::Object
 	{
@@ -20,19 +20,19 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::Single>* XYRange; // 0x18
 		::System::String* ImagePath; // 0x20
 		::Il2CppArray<::System::UInt32>* StarList; // 0x28
-		::RPG::Client::TextID StageDesc; // 0x30
-		::RPG::Client::TextID StageName; // 0x40
-		::System::Single TrackMoveSpeed; // 0x50
-		::System::UInt32 UnlockSubMissionID; // 0x54
-		::RPG::Client::TextID StageLocation; // 0x58
+		::RPG::Client::TextID StageName; // 0x30
+		::System::UInt32 ActivityModuleID; // 0x40
+		::System::UInt32 TotalTrashCanNum; // 0x44
+		::RPG::Client::TextID StageLocation; // 0x48
+		::System::UInt32 MaxScore; // 0x58
+		::System::UInt32 UnlockSubMissionID; // 0x5C
+		::System::UInt32 RaidID; // 0x60
+		::System::UInt32 MainMissionID; // 0x64
 		::System::UInt32 StageID; // 0x68
-		::System::UInt32 MainMissionID; // 0x6C
-		::System::Single DisLimit; // 0x70
-		::System::UInt32 ActivityModuleID; // 0x74
-		::System::UInt32 RaidID; // 0x78
-		::System::UInt32 TotalTrashCanNum; // 0x7C
+		::System::Single DisLimit; // 0x6C
+		::RPG::Client::TextID StageDesc; // 0x70
 		::System::Single Fov; // 0x80
-		::System::UInt32 MaxScore; // 0x84
+		::System::Single TrackMoveSpeed; // 0x84
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOSTAGEROW_CTOR_OFFSET))(this);

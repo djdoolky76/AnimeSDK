@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtBehaviorFlagList; }
 
-#define RPG_GAMECORE_RTBEHAVIORFLAGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA22E20)
-#define RPG_GAMECORE_RTBEHAVIORFLAGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA22D60)
+#define RPG_GAMECORE_RTBEHAVIORFLAGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF44100)
+#define RPG_GAMECORE_RTBEHAVIORFLAGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF44040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBehaviorFlagList_TypeDefinitionIndex = 17645;
+	inline static constexpr unsigned int RtBehaviorFlagList_TypeDefinitionIndex = 17814;
 
 	class RtBehaviorFlagList : public ::RPG::GameCore::JsonConfig
 	{

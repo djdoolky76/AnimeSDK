@@ -4,20 +4,21 @@
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 class FCOEMCEDLNL;
 class KBJOCDJJIKG;
+namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define KBJOCDJJIKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D033DD0)
-#define KBJOCDJJIKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D033DE0)
-#define KBJOCDJJIKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D033DA0)
+#define KBJOCDJJIKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F941230)
+#define KBJOCDJJIKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F941240)
+#define KBJOCDJJIKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F941200)
 
-inline static constexpr unsigned int KBJOCDJJIKG_TypeDefinitionIndex = 23753;
+inline static constexpr unsigned int KBJOCDJJIKG_TypeDefinitionIndex = 24209;
 
 	class KBJOCDJJIKG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::FormatString ECNKCCNJNPJ; // 0x18
-		::RPG::GameCore::TargetEvaluator* JACJMOPEPDA; // 0x20
-		::System::UInt32 PJJDMBCIBDM; // 0x28
+		::RPG::GameCore::TargetEvaluator* JACJMOPEPDA; // 0x18
+		::RPG::GameCore::DynamicFloat* PJJDMBCIBDM; // 0x20
+		::RPG::GameCore::FormatString ECNKCCNJNPJ; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KBJOCDJJIKG_CTOR_OFFSET))(this);

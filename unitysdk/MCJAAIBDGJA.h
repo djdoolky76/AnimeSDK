@@ -9,19 +9,19 @@ class PBGNKMMDBGD;
 class PBIGEJHGLEH;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MCJAAIBDGJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C719EE0)
-#define MCJAAIBDGJA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C719FB0)
-#define MCJAAIBDGJA_GLJFNIPPLKE_OFFSET UNITYSDK_OFFSET(0x1C71A000)
-#define MCJAAIBDGJA_PHOHPFCEGMM_OFFSET UNITYSDK_OFFSET(0x1C71A460)
+#define MCJAAIBDGJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC296D0)
+#define MCJAAIBDGJA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC29780)
+#define MCJAAIBDGJA_GLJFNIPPLKE_OFFSET UNITYSDK_OFFSET(0x1AC297D0)
+#define MCJAAIBDGJA_PHOHPFCEGMM_OFFSET UNITYSDK_OFFSET(0x1AC29C30)
 
-inline static constexpr unsigned int MCJAAIBDGJA_TypeDefinitionIndex = 37291;
+inline static constexpr unsigned int MCJAAIBDGJA_TypeDefinitionIndex = 38219;
 
 	class MCJAAIBDGJA : public ::System::Object
 	{
 	public:
-		::GMIFBFGDGJK* EEFMDEHLLFI; // 0x10
-		::PBGNKMMDBGD* PDENFEFCAGN; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt64>* JLMHOPJLPMM; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt64>* JLMHOPJLPMM; // 0x10
+		::GMIFBFGDGJK* EEFMDEHLLFI; // 0x18
+		::PBGNKMMDBGD* PDENFEFCAGN; // 0x20
 		::System::Void _ctor(::PBGNKMMDBGD* a1, ::GMIFBFGDGJK* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::PBGNKMMDBGD*, ::GMIFBFGDGJK*))((::PBYTE)hIl2Cpp + MCJAAIBDGJA_CTOR_OFFSET))(this, a1, a2);

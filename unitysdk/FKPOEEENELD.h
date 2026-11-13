@@ -7,12 +7,12 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define FKPOEEENELD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1581AD40)
-#define FKPOEEENELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1581AC40)
-#define FKPOEEENELD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1581AD70)
-#define FKPOEEENELD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1581AD30)
+#define FKPOEEENELD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18955160)
+#define FKPOEEENELD_CTOR_OFFSET UNITYSDK_OFFSET(0x18955060)
+#define FKPOEEENELD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18955190)
+#define FKPOEEENELD_INVOKE_OFFSET UNITYSDK_OFFSET(0x18955150)
 
-inline static constexpr unsigned int FKPOEEENELD_TypeDefinitionIndex = 74939;
+inline static constexpr unsigned int FKPOEEENELD_TypeDefinitionIndex = 77266;
 
 	class FKPOEEENELD : public ::System::MulticastDelegate
 	{

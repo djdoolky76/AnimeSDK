@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_AUTODOLLY_CTOR_OFFSET UNITYSDK_OFFSET(0x2E88C30)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_AUTODOLLY_CTOR_OFFSET UNITYSDK_OFFSET(0x3E4DB90)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTrackedDolly_AutoDolly_TypeDefinitionIndex = 39791;
+	inline static constexpr unsigned int CinemachineTrackedDolly_AutoDolly_TypeDefinitionIndex = 40720;
 
 	struct alignas(4) CinemachineTrackedDolly_AutoDolly
 	{

@@ -4,18 +4,18 @@
 class KDMANLNDIOA;
 namespace System { class Object; }
 
-#define KDMANLNDIOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7D5E60)
-#define KDMANLNDIOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D5EA0)
-#define KDMANLNDIOA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7D5EB0)
+#define KDMANLNDIOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203CCDF0)
+#define KDMANLNDIOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203CCE30)
+#define KDMANLNDIOA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x203CCE40)
 
-inline static constexpr unsigned int KDMANLNDIOA___c_TypeDefinitionIndex = 35114;
+inline static constexpr unsigned int KDMANLNDIOA___c_TypeDefinitionIndex = 36042;
 
 	class KDMANLNDIOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10980);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F0B0);
 		}
 
 		static ::System::Void _cctor()

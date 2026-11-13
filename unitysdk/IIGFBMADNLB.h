@@ -10,27 +10,27 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IIGFBMADNLB_AODGNFHAPBL_OFFSET UNITYSDK_OFFSET(0x1642DE00)
-#define IIGFBMADNLB_CLEKEFOPJEO_OFFSET UNITYSDK_OFFSET(0x1642DD40)
-#define IIGFBMADNLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1642E240)
-#define IIGFBMADNLB_GET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x1642DCA0)
-#define IIGFBMADNLB_OGADKAPHHFD_OFFSET UNITYSDK_OFFSET(0x1642DCC0)
-#define IIGFBMADNLB_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x1642DCB0)
+#define IIGFBMADNLB_AODGNFHAPBL_OFFSET UNITYSDK_OFFSET(0x193CE1D0)
+#define IIGFBMADNLB_CLEKEFOPJEO_OFFSET UNITYSDK_OFFSET(0x193CE110)
+#define IIGFBMADNLB_CTOR_OFFSET UNITYSDK_OFFSET(0x193CE610)
+#define IIGFBMADNLB_GET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x193CE070)
+#define IIGFBMADNLB_OGADKAPHHFD_OFFSET UNITYSDK_OFFSET(0x193CE090)
+#define IIGFBMADNLB_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x193CE080)
 
-inline static constexpr unsigned int IIGFBMADNLB_TypeDefinitionIndex = 55144;
+inline static constexpr unsigned int IIGFBMADNLB_TypeDefinitionIndex = 56325;
 
 	class IIGFBMADNLB : public ::System::Object
 	{
 	public:
-		::System::String* _LockKey_k__BackingField; // 0x10
-		::RPG::GameCore::TargetEvaluator* JGCIICKCGJA; // 0x18
+		::RPG::GameCore::TargetEvaluator* JGCIICKCGJA; // 0x10
+		::System::String* _LockKey_k__BackingField; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* NBOHOMJKOJH; // 0x20
 		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x28
-		::RPG::GameCore::ActionDelayChangeReasonMask EHIGPNKFIGJ; // 0x30
+		::System::Boolean LHECFFMIBNL; // 0x30
+		::System::Boolean JCBAHCGLNLP; // 0x31
 		::RPG::GameCore::ActionDelayChangeTypeMask OLBPNAHNNKD; // 0x32
-		::RPG::GameCore::ActionDelayChangeTypeMask AFAAIDLOEHE; // 0x34
-		::System::Boolean JCBAHCGLNLP; // 0x36
-		::System::Boolean LHECFFMIBNL; // 0x37
+		::RPG::GameCore::ActionDelayChangeReasonMask EHIGPNKFIGJ; // 0x34
+		::RPG::GameCore::ActionDelayChangeTypeMask AFAAIDLOEHE; // 0x36
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IIGFBMADNLB_CTOR_OFFSET))(this);

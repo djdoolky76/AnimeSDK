@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MunicipalChatNPCInfo; }
 namespace RPG::GameCore { class MunicipalChatNodeInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUNICIPALCHATCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D893D20)
-#define RPG_GAMECORE_MUNICIPALCHATCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D893AC0)
+#define RPG_GAMECORE_MUNICIPALCHATCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E484A60)
+#define RPG_GAMECORE_MUNICIPALCHATCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E484800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalChatConfig_TypeDefinitionIndex = 16934;
+	inline static constexpr unsigned int MunicipalChatConfig_TypeDefinitionIndex = 17101;
 
 	class MunicipalChatConfig : public ::RPG::GameCore::JsonConfig
 	{

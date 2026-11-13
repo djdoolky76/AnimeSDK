@@ -8,22 +8,23 @@ class FMDCBILJCGE;
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define GPJNFHKJOIC_CTOR_OFFSET UNITYSDK_OFFSET(0x15B4F910)
-#define GPJNFHKJOIC_KHFJAKGCILD_OFFSET UNITYSDK_OFFSET(0x15B4F6B0)
-#define GPJNFHKJOIC_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x15B4F8B0)
-#define GPJNFHKJOIC_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15B4F210)
+#define GPJNFHKJOIC_CTOR_OFFSET UNITYSDK_OFFSET(0x17DBCD60)
+#define GPJNFHKJOIC_KHFJAKGCILD_OFFSET UNITYSDK_OFFSET(0x17DBCB00)
+#define GPJNFHKJOIC_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x17DBCD00)
+#define GPJNFHKJOIC_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x17DBC660)
 
-inline static constexpr unsigned int GPJNFHKJOIC_TypeDefinitionIndex = 74968;
+inline static constexpr unsigned int GPJNFHKJOIC_TypeDefinitionIndex = 77295;
 
 	class GPJNFHKJOIC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::UnityEngine::Transform* GKNBCPMJHMN; // 0x10
-		::UnityEngine::Transform* OAKPFPKNNBI; // 0x18
-		::UnityEngine::Transform* MFFPFAAMKLM; // 0x20
+		::UnityEngine::Transform* MFFPFAAMKLM; // 0x10
+		::UnityEngine::Transform* GKNBCPMJHMN; // 0x18
+		::UnityEngine::Transform* OAKPFPKNNBI; // 0x20
 		::UnityEngine::Vector3 AELNGFIBDLB; // 0x28
-		::UnityEngine::Vector3 CFOPAPAGLDK; // 0x34
-		::System::Boolean BFDJMNFOMLL; // 0x40
+		::System::Boolean BFDJMNFOMLL; // 0x34
+		::System::Byte _padding0[0x3];
+		::UnityEngine::Vector3 CFOPAPAGLDK; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GPJNFHKJOIC_CTOR_OFFSET))(this);

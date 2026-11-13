@@ -7,19 +7,19 @@ class OIHNAJFFFKB;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EKJLLMDCNPO_BJEIGEOOFOA_OFFSET UNITYSDK_OFFSET(0x15500330)
-#define EKJLLMDCNPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15500970)
-#define EKJLLMDCNPO_DIINAFAMNON_OFFSET UNITYSDK_OFFSET(0x15500790)
-#define EKJLLMDCNPO_GIBGHDHCHHG_OFFSET UNITYSDK_OFFSET(0x155006E0)
-#define EKJLLMDCNPO_ODGBJHIDJKD_OFFSET UNITYSDK_OFFSET(0x155001F0)
+#define EKJLLMDCNPO_BJEIGEOOFOA_OFFSET UNITYSDK_OFFSET(0x19995B80)
+#define EKJLLMDCNPO_CTOR_OFFSET UNITYSDK_OFFSET(0x199961C0)
+#define EKJLLMDCNPO_DIINAFAMNON_OFFSET UNITYSDK_OFFSET(0x19995FE0)
+#define EKJLLMDCNPO_GIBGHDHCHHG_OFFSET UNITYSDK_OFFSET(0x19995F30)
+#define EKJLLMDCNPO_ODGBJHIDJKD_OFFSET UNITYSDK_OFFSET(0x19995A40)
 
-inline static constexpr unsigned int EKJLLMDCNPO_TypeDefinitionIndex = 68275;
+inline static constexpr unsigned int EKJLLMDCNPO_TypeDefinitionIndex = 70221;
 
 	class EKJLLMDCNPO : public ::System::Object
 	{
 	public:
-		::DPKCGMGFJAD* CEFLLELKFOP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OIHNAJFFFKB*>* MHENFLMFDBK; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OIHNAJFFFKB*>* MHENFLMFDBK; // 0x10
+		::DPKCGMGFJAD* CEFLLELKFOP; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKJLLMDCNPO_CTOR_OFFSET))(this);

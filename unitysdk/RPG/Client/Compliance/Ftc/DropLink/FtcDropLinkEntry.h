@@ -6,23 +6,23 @@ namespace RPG::Client::Compliance::Ftc::DropLink { class IFtcDropLinkJumpCommand
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_CTOR_1_OFFSET UNITYSDK_OFFSET(0xCBA6510)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xCBA6410)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xCBA6600)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_GET_ISDISCOUNT_OFFSET UNITYSDK_OFFSET(0xCBA6610)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_GET_JUMPCOMMAND_OFFSET UNITYSDK_OFFSET(0xCBA6620)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCBA65A0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C988D60)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C988C60)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1C988E50)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_GET_ISDISCOUNT_OFFSET UNITYSDK_OFFSET(0x1C988E60)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_GET_JUMPCOMMAND_OFFSET UNITYSDK_OFFSET(0x1C988E70)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C988DF0)
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int FtcDropLinkEntry_TypeDefinitionIndex = 74816;
+	inline static constexpr unsigned int FtcDropLinkEntry_TypeDefinitionIndex = 76986;
 
 	class FtcDropLinkEntry : public ::System::Object
 	{
 	public:
 		::System::Func_1<::System::String*>* _NameProvider; // 0x10
-		::System::String* _IconPath_k__BackingField; // 0x18
-		::RPG::Client::Compliance::Ftc::DropLink::IFtcDropLinkJumpCommand* _JumpCommand_k__BackingField; // 0x20
+		::RPG::Client::Compliance::Ftc::DropLink::IFtcDropLinkJumpCommand* _JumpCommand_k__BackingField; // 0x18
+		::System::String* _IconPath_k__BackingField; // 0x20
 		::System::Boolean _IsDiscount_k__BackingField; // 0x28
 		::System::Void _ctor(::RPG::Client::TextID a1, ::System::String* a2, ::System::Boolean a3, ::RPG::Client::Compliance::Ftc::DropLink::IFtcDropLinkJumpCommand* a4)
 		{

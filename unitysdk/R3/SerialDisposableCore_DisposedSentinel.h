@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace R3 { class SerialDisposableCore_DisposedSentinel; }
 
-#define R3_SERIALDISPOSABLECORE_DISPOSEDSENTINEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3F6B70)
-#define R3_SERIALDISPOSABLECORE_DISPOSEDSENTINEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F6B50)
-#define R3_SERIALDISPOSABLECORE_DISPOSEDSENTINEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C3F6B60)
+#define R3_SERIALDISPOSABLECORE_DISPOSEDSENTINEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x2091D230)
+#define R3_SERIALDISPOSABLECORE_DISPOSEDSENTINEL_CTOR_OFFSET UNITYSDK_OFFSET(0x2091D210)
+#define R3_SERIALDISPOSABLECORE_DISPOSEDSENTINEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2091D220)
 
 namespace R3
 {
-	inline static constexpr unsigned int SerialDisposableCore_DisposedSentinel_TypeDefinitionIndex = 35968;
+	inline static constexpr unsigned int SerialDisposableCore_DisposedSentinel_TypeDefinitionIndex = 36896;
 
 	class SerialDisposableCore_DisposedSentinel : public ::System::Object
 	{
 	public:
 		static ::R3::SerialDisposableCore_DisposedSentinel** StaticGet_Instance()
 		{
-			return (::R3::SerialDisposableCore_DisposedSentinel**)UnitySDK::FromName("R3", "DisposedSentinel")->GetStaticField(0xA70);
+			return (::R3::SerialDisposableCore_DisposedSentinel**)UnitySDK::FromName("R3", "DisposedSentinel")->GetStaticField(0xA20);
 		}
 
 		::System::Void _ctor()

@@ -8,21 +8,21 @@ namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { class UnobservedTaskExceptionEventArgs; }
 
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_ADDTOACTIVETASKSCHEDULERS_OFFSET UNITYSDK_OFFSET(0x1C12EB50)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C12ED80)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C121A20)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_FROMCURRENTSYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C12ECC0)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C128140)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1C12EC90)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_ID_OFFSET UNITYSDK_OFFSET(0x1C12ED10)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_INTERNALCURRENT_OFFSET UNITYSDK_OFFSET(0x1C126F40)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_REQUIRESATOMICSTARTTRANSITION_OFFSET UNITYSDK_OFFSET(0x1C12EB40)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_INTERNALQUEUETASK_OFFSET UNITYSDK_OFFSET(0x1C123D20)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_NOTIFYWORKITEMPROGRESS_OFFSET UNITYSDK_OFFSET(0x1C12EB30)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_PUBLISHUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C12D530)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_TRYDEQUEUE_OFFSET UNITYSDK_OFFSET(0x1C12EB20)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_TRYEXECUTETASK_OFFSET UNITYSDK_OFFSET(0x1C121C10)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_TRYRUNINLINE_OFFSET UNITYSDK_OFFSET(0x1C1274A0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_ADDTOACTIVETASKSCHEDULERS_OFFSET UNITYSDK_OFFSET(0x1DD7A580)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD7A7B0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6D4A0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_FROMCURRENTSYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1DD7A6F0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DD73B70)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1DD7A6C0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_ID_OFFSET UNITYSDK_OFFSET(0x1DD7A740)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_INTERNALCURRENT_OFFSET UNITYSDK_OFFSET(0x1DD72970)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_GET_REQUIRESATOMICSTARTTRANSITION_OFFSET UNITYSDK_OFFSET(0x1DD7A570)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_INTERNALQUEUETASK_OFFSET UNITYSDK_OFFSET(0x1DD6F7A0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_NOTIFYWORKITEMPROGRESS_OFFSET UNITYSDK_OFFSET(0x1DD7A560)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_PUBLISHUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1DD78F60)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_TRYDEQUEUE_OFFSET UNITYSDK_OFFSET(0x1DD7A550)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_TRYEXECUTETASK_OFFSET UNITYSDK_OFFSET(0x1DD6D690)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULER_TRYRUNINLINE_OFFSET UNITYSDK_OFFSET(0x1DD72ED0)
 
 namespace System::Threading::Tasks
 {
@@ -34,27 +34,27 @@ namespace System::Threading::Tasks
 		::System::Int32 m_taskSchedulerId; // 0x10
 		static ::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>** StaticGet__unobservedTaskException()
 		{
-			return (::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x1BD50);
-		}
-
-		static ::System::Object** StaticGet__unobservedTaskExceptionLockObject()
-		{
-			return (::System::Object**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x1BD58);
+			return (::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x12500);
 		}
 
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>** StaticGet_s_activeTaskSchedulers()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x1BD60);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x12508);
 		}
 
 		static ::System::Threading::Tasks::TaskScheduler** StaticGet_s_defaultTaskScheduler()
 		{
-			return (::System::Threading::Tasks::TaskScheduler**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x1BD68);
+			return (::System::Threading::Tasks::TaskScheduler**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x12510);
+		}
+
+		static ::System::Object** StaticGet__unobservedTaskExceptionLockObject()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x12518);
 		}
 
 		static ::System::Int32* StaticGet_s_taskSchedulerIdCounter()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x6010);
+			return (::System::Int32*)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x3B10);
 		}
 
 		::System::Void _ctor()

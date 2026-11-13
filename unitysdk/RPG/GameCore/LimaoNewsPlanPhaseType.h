@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimaoNewsPlanPhaseType_TypeDefinitionIndex = 13958;
+	inline static constexpr unsigned int LimaoNewsPlanPhaseType_TypeDefinitionIndex = 14115;
 
 	enum class LimaoNewsPlanPhaseType : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClockParkTakePhotoReport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KABCDOBJOMN_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CA160)
-#define KABCDOBJOMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2CA190)
+#define KABCDOBJOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x19DA6480)
+#define KABCDOBJOMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DA64B0)
 
-inline static constexpr unsigned int KABCDOBJOMN_TypeDefinitionIndex = 52696;
+inline static constexpr unsigned int KABCDOBJOMN_TypeDefinitionIndex = 53803;
 
 	class KABCDOBJOMN
 	{

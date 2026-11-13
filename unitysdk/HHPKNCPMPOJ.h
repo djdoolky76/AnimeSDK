@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define HHPKNCPMPOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15CC97D0)
+#define HHPKNCPMPOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19021F80)
 
-inline static constexpr unsigned int HHPKNCPMPOJ_TypeDefinitionIndex = 78699;
+inline static constexpr unsigned int HHPKNCPMPOJ_TypeDefinitionIndex = 81434;
 
 	class HHPKNCPMPOJ : public ::System::Object
 	{

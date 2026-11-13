@@ -5,23 +5,23 @@ namespace RPG::Client { class FightPlayer; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PLJNHHAFBMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC300F50)
-#define PLJNHHAFBMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC300F90)
-#define PLJNHHAFBMB___C__GETPLAYERUIDS_B__15_0_OFFSET UNITYSDK_OFFSET(0xC300FA0)
+#define PLJNHHAFBMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1888DCD0)
+#define PLJNHHAFBMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1888DD10)
+#define PLJNHHAFBMB___C__GETPLAYERUIDS_B__15_0_OFFSET UNITYSDK_OFFSET(0x1888DD20)
 
-inline static constexpr unsigned int PLJNHHAFBMB___c_TypeDefinitionIndex = 69361;
+inline static constexpr unsigned int PLJNHHAFBMB___c_TypeDefinitionIndex = 71315;
 
 	class PLJNHHAFBMB___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70030);
-		}
-
 		static ::System::Func_2<::RPG::Client::FightPlayer*, ::System::UInt32>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::RPG::Client::FightPlayer*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70038);
+			return (::System::Func_2<::RPG::Client::FightPlayer*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73CA0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73CA8);
 		}
 
 		static ::System::Void _cctor()

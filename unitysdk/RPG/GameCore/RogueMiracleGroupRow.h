@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMiracleGroupRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMIRACLEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AF770)
-#define RPG_GAMECORE_ROGUEMIRACLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9AF620)
+#define RPG_GAMECORE_ROGUEMIRACLEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2077D2C0)
+#define RPG_GAMECORE_ROGUEMIRACLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2077D170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleGroupRow_TypeDefinitionIndex = 14725;
+	inline static constexpr unsigned int RogueMiracleGroupRow_TypeDefinitionIndex = 14881;
 
 	class RogueMiracleGroupRow : public ::System::Object
 	{

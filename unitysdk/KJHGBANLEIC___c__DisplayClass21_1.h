@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define KJHGBANLEIC___C__DISPLAYCLASS21_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB448C80)
-#define KJHGBANLEIC___C__DISPLAYCLASS21_1___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0xB44F470)
-#define KJHGBANLEIC___C__DISPLAYCLASS21_1___DOACTION_B__1_OFFSET UNITYSDK_OFFSET(0xB44F560)
+#define KJHGBANLEIC___C__DISPLAYCLASS21_1_CTOR_OFFSET UNITYSDK_OFFSET(0x19F0FC50)
+#define KJHGBANLEIC___C__DISPLAYCLASS21_1___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0x19F164F0)
+#define KJHGBANLEIC___C__DISPLAYCLASS21_1___DOACTION_B__1_OFFSET UNITYSDK_OFFSET(0x19F165E0)
 
-inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass21_1_TypeDefinitionIndex = 59594;
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass21_1_TypeDefinitionIndex = 60871;
 
 	template <typename T>
 	class KJHGBANLEIC___c__DisplayClass21_1 : public ::System::Object

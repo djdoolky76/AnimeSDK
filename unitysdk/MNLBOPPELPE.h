@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MNLBOPPELPE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0BE80)
-#define MNLBOPPELPE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA0BEB0)
+#define MNLBOPPELPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F8CE0)
+#define MNLBOPPELPE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B1F8D10)
 
-inline static constexpr unsigned int MNLBOPPELPE_TypeDefinitionIndex = 55148;
+inline static constexpr unsigned int MNLBOPPELPE_TypeDefinitionIndex = 56329;
 
 	class MNLBOPPELPE
 	{

@@ -5,22 +5,22 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class NJGDIEAIHPD;
 
-#define DABOACKDKDI_ANOGKEGBNJE_OFFSET UNITYSDK_OFFSET(0xDFB2040)
-#define DABOACKDKDI_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB1910)
-#define DABOACKDKDI_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xDFB1940)
+#define DABOACKDKDI_ANOGKEGBNJE_OFFSET UNITYSDK_OFFSET(0x1993D0B0)
+#define DABOACKDKDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1993C980)
+#define DABOACKDKDI_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0x1993C9B0)
 
-inline static constexpr unsigned int DABOACKDKDI_TypeDefinitionIndex = 62521;
+inline static constexpr unsigned int DABOACKDKDI_TypeDefinitionIndex = 63934;
 
 	class DABOACKDKDI : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AvatarPropertyType GBKKAELNFAO; // 0x10
 		::RPG::GameCore::AvatarPropertyType ANPAHODBCOB; // 0x14
-		::RPG::GameCore::AvatarPropertyType BFPOCEDAOMA; // 0x18
+		::RPG::GameCore::AvatarPropertyType KNBEPFPCEBB; // 0x18
 		::RPG::GameCore::AvatarPropertyType GBPCKJBAAAA; // 0x1C
-		::RPG::GameCore::AvatarPropertyType GGKLKCAMNJK; // 0x20
-		::RPG::GameCore::AvatarPropertyType KNBEPFPCEBB; // 0x24
-		::RPG::GameCore::AvatarPropertyType DJIPGJLJLDP; // 0x28
+		::RPG::GameCore::AvatarPropertyType BFPOCEDAOMA; // 0x20
+		::RPG::GameCore::AvatarPropertyType DJIPGJLJLDP; // 0x24
+		::RPG::GameCore::AvatarPropertyType GGKLKCAMNJK; // 0x28
 		::System::Void _ctor(::RPG::GameCore::AvatarPropertyType a1, ::RPG::GameCore::AvatarPropertyType a2, ::RPG::GameCore::AvatarPropertyType a3, ::RPG::GameCore::AvatarPropertyType a4, ::RPG::GameCore::AvatarPropertyType a5, ::RPG::GameCore::AvatarPropertyType a6, ::RPG::GameCore::AvatarPropertyType a7)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + DABOACKDKDI_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);

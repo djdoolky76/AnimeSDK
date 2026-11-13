@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-inline static constexpr unsigned int NJIMHPJHICM_FIAIJOAHJHC_TypeDefinitionIndex = 49467;
+inline static constexpr unsigned int NJIMHPJHICM_FIAIJOAHJHC_TypeDefinitionIndex = 50543;
 
 	class NJIMHPJHICM_FIAIJOAHJHC : public ::System::MulticastDelegate
 	{

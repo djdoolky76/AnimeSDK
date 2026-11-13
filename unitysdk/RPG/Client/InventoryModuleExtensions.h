@@ -5,11 +5,11 @@ namespace RPG::Client { class InventoryModule; }
 namespace RPG::Client { class ItemData; }
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_INVENTORYMODULEEXTENSIONS_GETITEMDATABYITEMDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0xD36A3E0)
+#define RPG_CLIENT_INVENTORYMODULEEXTENSIONS_GETITEMDATABYITEMDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0x17091450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModuleExtensions_TypeDefinitionIndex = 65691;
+	inline static constexpr unsigned int InventoryModuleExtensions_TypeDefinitionIndex = 67617;
 
 	class InventoryModuleExtensions : public ::System::Object
 	{

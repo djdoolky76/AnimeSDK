@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HAHINJAEOMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B6CAB0)
+#define HAHINJAEOMB_CTOR_OFFSET UNITYSDK_OFFSET(0x17DDA230)
 
-inline static constexpr unsigned int HAHINJAEOMB_TypeDefinitionIndex = 55544;
+inline static constexpr unsigned int HAHINJAEOMB_TypeDefinitionIndex = 56736;
 
 	class HAHINJAEOMB : public ::System::Object
 	{

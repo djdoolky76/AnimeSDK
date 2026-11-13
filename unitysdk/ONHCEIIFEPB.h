@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ONHCEIIFEPB_TypeDefinitionIndex = 65703;
+inline static constexpr unsigned int ONHCEIIFEPB_TypeDefinitionIndex = 67629;
 
 	class ONHCEIIFEPB
 	{

@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx3dTransceiver_Config_TypeDefinitionIndex = 40014;
+	inline static constexpr unsigned int CriAtomEx3dTransceiver_Config_TypeDefinitionIndex = 40989;
 
 	struct alignas(4) CriAtomEx3dTransceiver_Config
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DPFOOEAMHID_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF7250)
+#define DPFOOEAMHID_CTOR_OFFSET UNITYSDK_OFFSET(0x191BC1B0)
 
-inline static constexpr unsigned int DPFOOEAMHID_TypeDefinitionIndex = 64344;
+inline static constexpr unsigned int DPFOOEAMHID_TypeDefinitionIndex = 65791;
 
 	class DPFOOEAMHID : public ::System::Object
 	{

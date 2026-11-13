@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongDropItemConfig; }
 namespace RPG::GameCore { class PingPongDropItemInfo; }
 
-#define RPG_GAMECORE_PINGPONGDROPITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E7B40)
-#define RPG_GAMECORE_PINGPONGDROPITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E7990)
+#define RPG_GAMECORE_PINGPONGDROPITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE563D0)
+#define RPG_GAMECORE_PINGPONGDROPITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE56220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongDropItemConfig_TypeDefinitionIndex = 16990;
+	inline static constexpr unsigned int PingPongDropItemConfig_TypeDefinitionIndex = 17157;
 
 	class PingPongDropItemConfig : public ::RPG::GameCore::JsonConfig
 	{

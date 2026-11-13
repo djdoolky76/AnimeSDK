@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENTDEPRECATED_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B1B60)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENTDEPRECATED_CTOR_OFFSET UNITYSDK_OFFSET(0x1F665350)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeComponentDeprecated_TypeDefinitionIndex = 35616;
+	inline static constexpr unsigned int VolumeComponentDeprecated_TypeDefinitionIndex = 36544;
 
 	class VolumeComponentDeprecated : public ::System::Attribute
 	{

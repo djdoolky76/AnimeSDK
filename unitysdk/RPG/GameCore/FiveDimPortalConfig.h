@@ -9,13 +9,13 @@ namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A50D0)
-#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6A50E0)
-#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A50A0)
+#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7992B0)
+#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F7992C0)
+#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F799280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPortalConfig_TypeDefinitionIndex = 18560;
+	inline static constexpr unsigned int FiveDimPortalConfig_TypeDefinitionIndex = 18720;
 
 	class FiveDimPortalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

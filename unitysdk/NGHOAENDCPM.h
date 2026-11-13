@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareLineupAvatarHpRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGHOAENDCPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA1C20)
-#define NGHOAENDCPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA1C50)
+#define NGHOAENDCPM_CTOR_OFFSET UNITYSDK_OFFSET(0x18E8BA60)
+#define NGHOAENDCPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18E8BA90)
 
-inline static constexpr unsigned int NGHOAENDCPM_TypeDefinitionIndex = 52086;
+inline static constexpr unsigned int NGHOAENDCPM_TypeDefinitionIndex = 53191;
 
 	class NGHOAENDCPM
 	{

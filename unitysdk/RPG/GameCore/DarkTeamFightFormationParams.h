@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DarkTeamFightFormationParams; }
 
-#define RPG_GAMECORE_DARKTEAMFIGHTFORMATIONPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C6CB0)
-#define RPG_GAMECORE_DARKTEAMFIGHTFORMATIONPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C6AC0)
+#define RPG_GAMECORE_DARKTEAMFIGHTFORMATIONPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F000080)
+#define RPG_GAMECORE_DARKTEAMFIGHTFORMATIONPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFFFE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DarkTeamFightFormationParams_TypeDefinitionIndex = 16577;
+	inline static constexpr unsigned int DarkTeamFightFormationParams_TypeDefinitionIndex = 16743;
 
 	class DarkTeamFightFormationParams : public ::RPG::GameCore::JsonConfig
 	{

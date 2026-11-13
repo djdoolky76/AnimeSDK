@@ -4,11 +4,11 @@
 namespace RPG::Client { class BAPartVariantRef; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BAPARTVARIANTARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0xC7CB990)
+#define RPG_CLIENT_BAPARTVARIANTARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA8BBB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BAPartVariantArray_TypeDefinitionIndex = 69519;
+	inline static constexpr unsigned int BAPartVariantArray_TypeDefinitionIndex = 71476;
 
 	class BAPartVariantArray : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveModifierBuilder_1_TypeDefinitionIndex = 75130;
+	inline static constexpr unsigned int IdleLiveModifierBuilder_1_TypeDefinitionIndex = 77457;
 
 	template <typename T>
 	class IdleLiveModifierBuilder_1 : public ::System::Object

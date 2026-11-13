@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PMENAJEGBJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C8640)
+#define PMENAJEGBJK_CTOR_OFFSET UNITYSDK_OFFSET(0x20700B60)
 
-inline static constexpr unsigned int PMENAJEGBJK_TypeDefinitionIndex = 43454;
+inline static constexpr unsigned int PMENAJEGBJK_TypeDefinitionIndex = 44436;
 
 	class PMENAJEGBJK : public ::System::Object
 	{

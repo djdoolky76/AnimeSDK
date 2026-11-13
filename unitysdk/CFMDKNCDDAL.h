@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CFMDKNCDDAL_TypeDefinitionIndex = 26302;
+inline static constexpr unsigned int CFMDKNCDDAL_TypeDefinitionIndex = 26829;
 
 	enum class CFMDKNCDDAL : ::System::Int32
 	{

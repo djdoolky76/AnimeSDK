@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchPhotographDragMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJJDCOODOAK_CTOR_OFFSET UNITYSDK_OFFSET(0xB200F30)
-#define JJJDCOODOAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB200F60)
+#define JJJDCOODOAK_CTOR_OFFSET UNITYSDK_OFFSET(0x17B07940)
+#define JJJDCOODOAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B07970)
 
-inline static constexpr unsigned int JJJDCOODOAK_TypeDefinitionIndex = 53323;
+inline static constexpr unsigned int JJJDCOODOAK_TypeDefinitionIndex = 54485;
 
 	class JJJDCOODOAK
 	{

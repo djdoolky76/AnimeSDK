@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ChenLingBattle { class CardConfig; }
 
-#define RPG_CLIENT_CHENLINGBATTLEDECKDATA___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA64D70)
-#define RPG_CLIENT_CHENLINGBATTLEDECKDATA___C__DISPLAYCLASS11_0__GETCARDSBYTYPEWITHDISPLAYONLY_B__0_OFFSET UNITYSDK_OFFSET(0xCA65580)
+#define RPG_CLIENT_CHENLINGBATTLEDECKDATA___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2651E0)
+#define RPG_CLIENT_CHENLINGBATTLEDECKDATA___C__DISPLAYCLASS11_0__GETCARDSBYTYPEWITHDISPLAYONLY_B__0_OFFSET UNITYSDK_OFFSET(0x1E2659C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleDeckData___c__DisplayClass11_0_TypeDefinitionIndex = 61426;
+	inline static constexpr unsigned int ChenLingBattleDeckData___c__DisplayClass11_0_TypeDefinitionIndex = 62811;
 
 	class ChenLingBattleDeckData___c__DisplayClass11_0 : public ::System::Object
 	{

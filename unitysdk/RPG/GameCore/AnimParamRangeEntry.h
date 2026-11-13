@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AnimParamRangeEntry; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMPARAMRANGEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C5090)
-#define RPG_GAMECORE_ANIMPARAMRANGEENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3C4F40)
+#define RPG_GAMECORE_ANIMPARAMRANGEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAA340)
+#define RPG_GAMECORE_ANIMPARAMRANGEENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEAA1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimParamRangeEntry_TypeDefinitionIndex = 16289;
+	inline static constexpr unsigned int AnimParamRangeEntry_TypeDefinitionIndex = 16452;
 
 	class AnimParamRangeEntry : public ::RPG::GameCore::JsonConfig
 	{

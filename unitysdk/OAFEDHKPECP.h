@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RecordUseAvatarGlobalBuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OAFEDHKPECP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD178E0)
-#define OAFEDHKPECP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD17910)
+#define OAFEDHKPECP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB592D0)
+#define OAFEDHKPECP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AB59300)
 
-inline static constexpr unsigned int OAFEDHKPECP_TypeDefinitionIndex = 55286;
+inline static constexpr unsigned int OAFEDHKPECP_TypeDefinitionIndex = 56467;
 
 	class OAFEDHKPECP
 	{

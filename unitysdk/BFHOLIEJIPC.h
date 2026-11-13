@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CustomMonsterWaveInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BFHOLIEJIPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB162C80)
-#define BFHOLIEJIPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB162CB0)
+#define BFHOLIEJIPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A958D20)
+#define BFHOLIEJIPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A958D50)
 
-inline static constexpr unsigned int BFHOLIEJIPC_TypeDefinitionIndex = 55118;
+inline static constexpr unsigned int BFHOLIEJIPC_TypeDefinitionIndex = 56295;
 
 	class BFHOLIEJIPC
 	{

@@ -4,7 +4,7 @@
 #include "unitysdk/System/ValueTuple_3.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int LOHLDEIBJLO_TypeDefinitionIndex = 69575;
+inline static constexpr unsigned int LOHLDEIBJLO_TypeDefinitionIndex = 71532;
 
 	struct alignas(8) LOHLDEIBJLO
 	{

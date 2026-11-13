@@ -4,23 +4,23 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EICCEOONIEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD58E70)
-#define EICCEOONIEM_HFBAFEEPOLN_OFFSET UNITYSDK_OFFSET(0x1CD58D00)
-#define EICCEOONIEM_OCDAEECDMCF_OFFSET UNITYSDK_OFFSET(0x1CD58B90)
+#define EICCEOONIEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F110CE0)
+#define EICCEOONIEM_HFBAFEEPOLN_OFFSET UNITYSDK_OFFSET(0x1F110B50)
+#define EICCEOONIEM_OCDAEECDMCF_OFFSET UNITYSDK_OFFSET(0x1F1109C0)
 
-inline static constexpr unsigned int EICCEOONIEM_TypeDefinitionIndex = 15462;
+inline static constexpr unsigned int EICCEOONIEM_TypeDefinitionIndex = 15620;
 
 	class EICCEOONIEM : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_OAFDNADLKAO()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("", "EICCEOONIEM")->GetStaticField(0x4DB80);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("", "EICCEOONIEM")->GetStaticField(0x476A0);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_DCNMPCPPHJO()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("", "EICCEOONIEM")->GetStaticField(0x4DB88);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("", "EICCEOONIEM")->GetStaticField(0x476A8);
 		}
 
 		static ::System::Void _cctor()

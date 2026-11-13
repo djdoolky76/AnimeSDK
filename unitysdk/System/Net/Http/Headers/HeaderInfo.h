@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Net::Http::Headers { class HttpHeaders; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CREATECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1EE21390)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE21380)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE21430)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_SEPARATOR_OFFSET UNITYSDK_OFFSET(0x1EE21450)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_SET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE21440)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CREATECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1FFBFE20)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFBFE10)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1FFBFEC0)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_SEPARATOR_OFFSET UNITYSDK_OFFSET(0x1FFBFEE0)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_SET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1FFBFED0)
 
 namespace System::Net::Http::Headers
 {
@@ -20,8 +20,8 @@ namespace System::Net::Http::Headers
 	class HeaderInfo : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::Object*, ::System::String*>* _CustomToString_k__BackingField; // 0x10
-		::System::String* Name; // 0x18
+		::System::String* Name; // 0x10
+		::System::Func_2<::System::Object*, ::System::String*>* _CustomToString_k__BackingField; // 0x18
 		::System::Boolean AllowsMany; // 0x20
 		::System::Byte _padding0[0x3];
 		::System::Net::Http::Headers::HttpHeaderKind HeaderKind; // 0x24

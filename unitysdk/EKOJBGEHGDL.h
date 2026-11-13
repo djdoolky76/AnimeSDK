@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/Prop/BoxmanCoord.h"
 #include "unitysdk/System/Object.h"
 
-#define EKOJBGEHGDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1550C560)
+#define EKOJBGEHGDL_CTOR_OFFSET UNITYSDK_OFFSET(0x199A1C70)
 
-inline static constexpr unsigned int EKOJBGEHGDL_TypeDefinitionIndex = 78847;
+inline static constexpr unsigned int EKOJBGEHGDL_TypeDefinitionIndex = 81618;
 
 	class EKOJBGEHGDL : public ::System::Object
 	{

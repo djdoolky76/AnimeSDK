@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChimeraTalkData; }
 
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_ACCWEIGHTEDTALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4E060)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_ACCWEIGHTEDTALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8CF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_AccWeightedTalkData_TypeDefinitionIndex = 63498;
+	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_AccWeightedTalkData_TypeDefinitionIndex = 64936;
 
 	class ChimeraPeriodRandomTalkData_AccWeightedTalkData : public ::System::Object
 	{

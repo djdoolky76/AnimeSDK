@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class ANDGGDFGMGK;
 
-#define BEPPJBGFPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88A730)
+#define BEPPJBGFPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B4F10)
 
-inline static constexpr unsigned int BEPPJBGFPNN_TypeDefinitionIndex = 43229;
+inline static constexpr unsigned int BEPPJBGFPNN_TypeDefinitionIndex = 44210;
 
 	class BEPPJBGFPNN : public ::System::Object
 	{

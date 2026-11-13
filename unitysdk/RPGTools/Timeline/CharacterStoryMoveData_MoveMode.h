@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStoryMoveData_MoveMode_TypeDefinitionIndex = 48001;
+	inline static constexpr unsigned int CharacterStoryMoveData_MoveMode_TypeDefinitionIndex = 49032;
 
 	enum class CharacterStoryMoveData_MoveMode : ::System::Int32
 	{

@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define LMGAOOEJHIJ_NABCFOILKJN_AKGEFMLNFIC_OFFSET UNITYSDK_OFFSET(0xB778FA0)
-#define LMGAOOEJHIJ_NABCFOILKJN_CLOJHADCIIK_OFFSET UNITYSDK_OFFSET(0xB779890)
-#define LMGAOOEJHIJ_NABCFOILKJN_CTOR_OFFSET UNITYSDK_OFFSET(0xB778CD0)
-#define LMGAOOEJHIJ_NABCFOILKJN_ILCJKPFHDCP_OFFSET UNITYSDK_OFFSET(0xB7791A0)
-#define LMGAOOEJHIJ_NABCFOILKJN_KMAAFBPPINO_OFFSET UNITYSDK_OFFSET(0xB778DA0)
-#define LMGAOOEJHIJ_NABCFOILKJN_MJEBNLCHNEB_OFFSET UNITYSDK_OFFSET(0xB778CE0)
+#define LMGAOOEJHIJ_NABCFOILKJN_AKGEFMLNFIC_OFFSET UNITYSDK_OFFSET(0x1AFC9210)
+#define LMGAOOEJHIJ_NABCFOILKJN_CLOJHADCIIK_OFFSET UNITYSDK_OFFSET(0x1AFC9B00)
+#define LMGAOOEJHIJ_NABCFOILKJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC8F40)
+#define LMGAOOEJHIJ_NABCFOILKJN_ILCJKPFHDCP_OFFSET UNITYSDK_OFFSET(0x1AFC9410)
+#define LMGAOOEJHIJ_NABCFOILKJN_KMAAFBPPINO_OFFSET UNITYSDK_OFFSET(0x1AFC9010)
+#define LMGAOOEJHIJ_NABCFOILKJN_MJEBNLCHNEB_OFFSET UNITYSDK_OFFSET(0x1AFC8F50)
 
-inline static constexpr unsigned int LMGAOOEJHIJ_NABCFOILKJN_TypeDefinitionIndex = 70363;
+inline static constexpr unsigned int LMGAOOEJHIJ_NABCFOILKJN_TypeDefinitionIndex = 72329;
 
 	class LMGAOOEJHIJ_NABCFOILKJN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>* JGHCMAFNNHO; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GICNGBKIMMF; // 0x18
-		::UnityEngine::MaterialPropertyBlock* COHNLCNKKND; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Single>*>* OJFPHAODBJK; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Single>*>* OJFPHAODBJK; // 0x10
+		::UnityEngine::MaterialPropertyBlock* COHNLCNKKND; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>* JGHCMAFNNHO; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GICNGBKIMMF; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* CADKJJELDNH; // 0x30
 		::System::Int32 CNMCPNKMNLK; // 0x38
 		::System::Void _ctor()

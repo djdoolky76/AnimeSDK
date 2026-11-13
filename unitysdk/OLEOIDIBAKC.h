@@ -3,10 +3,10 @@
 class GCBOEGEPENO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLEOIDIBAKC_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFBD40)
-#define OLEOIDIBAKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEFBD70)
+#define OLEOIDIBAKC_CTOR_OFFSET UNITYSDK_OFFSET(0x178A2490)
+#define OLEOIDIBAKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178A24C0)
 
-inline static constexpr unsigned int OLEOIDIBAKC_TypeDefinitionIndex = 58165;
+inline static constexpr unsigned int OLEOIDIBAKC_TypeDefinitionIndex = 59418;
 
 	class OLEOIDIBAKC
 	{

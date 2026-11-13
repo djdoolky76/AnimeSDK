@@ -3,10 +3,10 @@
 #include "unitysdk/PJPIEKNGCMC.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define ADHAJOLFCNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF470)
-#define ADHAJOLFCNH_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF460)
+#define ADHAJOLFCNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3DFDE90)
+#define ADHAJOLFCNH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3DFDE80)
 
-inline static constexpr unsigned int ADHAJOLFCNH_TypeDefinitionIndex = 71091;
+inline static constexpr unsigned int ADHAJOLFCNH_TypeDefinitionIndex = 73074;
 
 	struct alignas(8) ADHAJOLFCNH
 	{

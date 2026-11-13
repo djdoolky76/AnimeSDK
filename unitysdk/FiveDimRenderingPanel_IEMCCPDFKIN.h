@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class DEBEAKKOHLN;
 
-inline static constexpr unsigned int FiveDimRenderingPanel_IEMCCPDFKIN_TypeDefinitionIndex = 47121;
+inline static constexpr unsigned int FiveDimRenderingPanel_IEMCCPDFKIN_TypeDefinitionIndex = 48149;
 
 	struct alignas(8) FiveDimRenderingPanel_IEMCCPDFKIN
 	{

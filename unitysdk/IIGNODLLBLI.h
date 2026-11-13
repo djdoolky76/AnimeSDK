@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearEntityDamageText; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IIGNODLLBLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1642E7A0)
-#define IIGNODLLBLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1642E7D0)
+#define IIGNODLLBLI_CTOR_OFFSET UNITYSDK_OFFSET(0x193CEB70)
+#define IIGNODLLBLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193CEBA0)
 
-inline static constexpr unsigned int IIGNODLLBLI_TypeDefinitionIndex = 54960;
+inline static constexpr unsigned int IIGNODLLBLI_TypeDefinitionIndex = 56134;
 
 	class IIGNODLLBLI
 	{

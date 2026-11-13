@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KNCMHNDHKMG;
 
-#define KNCMHNDHKMG___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB577220)
-#define KNCMHNDHKMG___C__DISPLAYCLASS18_0___SHOWEQUIPORBPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xB578570)
+#define KNCMHNDHKMG___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18F9F510)
+#define KNCMHNDHKMG___C__DISPLAYCLASS18_0___SHOWEQUIPORBPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0x18FA0850)
 
-inline static constexpr unsigned int KNCMHNDHKMG___c__DisplayClass18_0_TypeDefinitionIndex = 75303;
+inline static constexpr unsigned int KNCMHNDHKMG___c__DisplayClass18_0_TypeDefinitionIndex = 77630;
 
 	class KNCMHNDHKMG___c__DisplayClass18_0 : public ::System::Object
 	{

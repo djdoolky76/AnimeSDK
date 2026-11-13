@@ -5,18 +5,18 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateVerificationDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA3EA0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS37_0__ONBIRTHDAYINPUTNEXTBUTTONPRESSED_B__0_OFFSET UNITYSDK_OFFSET(0x1BEA6C60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C35A520)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS37_0__ONBIRTHDAYINPUTNEXTBUTTONPRESSED_B__0_OFFSET UNITYSDK_OFFSET(0x1C35D2E0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass37_0_TypeDefinitionIndex = 8728;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass37_0_TypeDefinitionIndex = 8737;
 
 	class AgeGateManager___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::CXHandheld::AgeGateManager* __4__this; // 0x10
-		::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog* dialog; // 0x18
+		::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog* dialog; // 0x10
+		::MiHoYo::SDK::PC::OS::CXHandheld::AgeGateManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS37_0_CTOR_OFFSET))(this);

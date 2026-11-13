@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_Heal; }
 
-#define GAGMDLFLBBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F9BD0)
-#define GAGMDLFLBBM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5F9BE0)
+#define GAGMDLFLBBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA36D80)
+#define GAGMDLFLBBM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1AA36D90)
 
-inline static constexpr unsigned int GAGMDLFLBBM_TypeDefinitionIndex = 36314;
+inline static constexpr unsigned int GAGMDLFLBBM_TypeDefinitionIndex = 37242;
 
 	class GAGMDLFLBBM : public ::AJBKGPOEBFG
 	{

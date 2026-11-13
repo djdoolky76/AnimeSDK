@@ -3,71 +3,71 @@
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/System/Object.h"
 
-#define EIFHKEAKKBA_CCTOR_OFFSET UNITYSDK_OFFSET(0x154B5C50)
+#define EIFHKEAKKBA_CCTOR_OFFSET UNITYSDK_OFFSET(0x19A8F2C0)
 
-inline static constexpr unsigned int EIFHKEAKKBA_TypeDefinitionIndex = 59048;
+inline static constexpr unsigned int EIFHKEAKKBA_TypeDefinitionIndex = 60323;
 
 	class EIFHKEAKKBA : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::StringHash* StaticGet_KOIDNCGGBJL()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA010);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_DPLLEEOPMDI()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA014);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_NIKJFHGIKAK()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA018);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_PLCCLDHJHPJ()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA01C);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_OFNCOGMODLM()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA020);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_DGPDHFPICAF()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA024);
-		}
-
 		static ::RPG::GameCore::StringHash* StaticGet_EGGKMEHHAEH()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA028);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x50F0);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_KOIDNCGGBJL()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x50F4);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_BOOMKPKGBME()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA02C);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x50F8);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_DGPDHFPICAF()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x50FC);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_PICEKONJFEA()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA030);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x5100);
 		}
 
-		static ::RPG::GameCore::StringHash* StaticGet_KPPLNGEDLOP()
+		static ::RPG::GameCore::StringHash* StaticGet_NIKJFHGIKAK()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA034);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x5104);
 		}
 
-		static ::RPG::GameCore::StringHash* StaticGet_KFCEBLGCKCF()
+		static ::RPG::GameCore::StringHash* StaticGet_PLCCLDHJHPJ()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA038);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x5108);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_CKBMBAEIFPN()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0xA03C);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x510C);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_DPLLEEOPMDI()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x5110);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_KFCEBLGCKCF()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x5114);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_OFNCOGMODLM()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x5118);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_KPPLNGEDLOP()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EIFHKEAKKBA")->GetStaticField(0x511C);
 		}
 
 		static ::System::Void _cctor()

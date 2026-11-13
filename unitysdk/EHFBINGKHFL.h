@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowPuzzleHudWolfBroInBox; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EHFBINGKHFL_CTOR_OFFSET UNITYSDK_OFFSET(0x154986C0)
-#define EHFBINGKHFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154986D0)
-#define EHFBINGKHFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15498710)
-#define EHFBINGKHFL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15498790)
-#define EHFBINGKHFL_TICK_OFFSET UNITYSDK_OFFSET(0x154987E0)
+#define EHFBINGKHFL_CTOR_OFFSET UNITYSDK_OFFSET(0x18BC9090)
+#define EHFBINGKHFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18BC90A0)
+#define EHFBINGKHFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BC90E0)
+#define EHFBINGKHFL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18BC9150)
+#define EHFBINGKHFL_TICK_OFFSET UNITYSDK_OFFSET(0x18BC91A0)
 
-inline static constexpr unsigned int EHFBINGKHFL_TypeDefinitionIndex = 58679;
+inline static constexpr unsigned int EHFBINGKHFL_TypeDefinitionIndex = 59946;
 
 	class EHFBINGKHFL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowPuzzleHudWolfBroInBox* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowPuzzleHudWolfBroInBox* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowPuzzleHudWolfBroInBox*))((::PBYTE)hIl2Cpp + EHFBINGKHFL_CTOR_OFFSET))(this, a1, a2);

@@ -3,10 +3,10 @@
 #include "unitysdk/NADABFJHEHM.h"
 namespace RPG::Client { class AnniversaryCollectionPanelData; }
 
-#define NKNHLLEFDOM_CTOR_OFFSET UNITYSDK_OFFSET(0xBC38B70)
-#define NKNHLLEFDOM_MNFDJHCGKNE_OFFSET UNITYSDK_OFFSET(0xBC38B80)
+#define NKNHLLEFDOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7BBE20)
+#define NKNHLLEFDOM_MNFDJHCGKNE_OFFSET UNITYSDK_OFFSET(0x1A7BBE30)
 
-inline static constexpr unsigned int NKNHLLEFDOM_TypeDefinitionIndex = 62393;
+inline static constexpr unsigned int NKNHLLEFDOM_TypeDefinitionIndex = 63806;
 
 	class NKNHLLEFDOM : public ::NADABFJHEHM
 	{

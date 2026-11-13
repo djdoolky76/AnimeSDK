@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-#define EDNFOIODAHO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA04F00)
-#define EDNFOIODAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA04F50)
+#define EDNFOIODAHO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB37220)
+#define EDNFOIODAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB37270)
 
-inline static constexpr unsigned int EDNFOIODAHO_TypeDefinitionIndex = 43383;
+inline static constexpr unsigned int EDNFOIODAHO_TypeDefinitionIndex = 44364;
 
 	class EDNFOIODAHO : public ::System::Object
 	{

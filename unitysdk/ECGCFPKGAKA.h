@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ECGCFPKGAKA_CLEAR_OFFSET UNITYSDK_OFFSET(0x12D075C0)
-#define ECGCFPKGAKA_CTOR_OFFSET UNITYSDK_OFFSET(0x12D076B0)
-#define ECGCFPKGAKA_MHBLLKEIDOE_OFFSET UNITYSDK_OFFSET(0x12D07630)
+#define ECGCFPKGAKA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C3D5840)
+#define ECGCFPKGAKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D5930)
+#define ECGCFPKGAKA_MHBLLKEIDOE_OFFSET UNITYSDK_OFFSET(0x1C3D58B0)
 
-inline static constexpr unsigned int ECGCFPKGAKA_TypeDefinitionIndex = 57812;
+inline static constexpr unsigned int ECGCFPKGAKA_TypeDefinitionIndex = 59047;
 
 	class ECGCFPKGAKA : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/EnviromentSystemV2Space/EnvConfigType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PBHDNKMHKLG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE6440)
+#define PBHDNKMHKLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AABCAA0)
 
-inline static constexpr unsigned int PBHDNKMHKLG_TypeDefinitionIndex = 49330;
+inline static constexpr unsigned int PBHDNKMHKLG_TypeDefinitionIndex = 50406;
 
 	class PBHDNKMHKLG : public ::System::Attribute
 	{

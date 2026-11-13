@@ -3,9 +3,9 @@
 #include "unitysdk/GHGLHLNCMBC_InspectType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define GHGLHLNCMBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE18670)
+#define GHGLHLNCMBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E63A1F0)
 
-inline static constexpr unsigned int GHGLHLNCMBC_TypeDefinitionIndex = 25037;
+inline static constexpr unsigned int GHGLHLNCMBC_TypeDefinitionIndex = 25515;
 
 	class GHGLHLNCMBC : public ::System::Attribute
 	{

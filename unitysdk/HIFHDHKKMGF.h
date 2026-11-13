@@ -3,10 +3,10 @@
 class LKAKGGLAHGA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIFHDHKKMGF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD78A0)
-#define HIFHDHKKMGF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CD78D0)
+#define HIFHDHKKMGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1902FFE0)
+#define HIFHDHKKMGF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19030010)
 
-inline static constexpr unsigned int HIFHDHKKMGF_TypeDefinitionIndex = 54661;
+inline static constexpr unsigned int HIFHDHKKMGF_TypeDefinitionIndex = 55827;
 
 	class HIFHDHKKMGF
 	{

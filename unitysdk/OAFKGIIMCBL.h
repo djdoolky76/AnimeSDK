@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define OAFKGIIMCBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD190C0)
+#define OAFKGIIMCBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB5AAC0)
 
-inline static constexpr unsigned int OAFKGIIMCBL_TypeDefinitionIndex = 65513;
+inline static constexpr unsigned int OAFKGIIMCBL_TypeDefinitionIndex = 67429;
 
 	class OAFKGIIMCBL : public ::System::Object
 	{

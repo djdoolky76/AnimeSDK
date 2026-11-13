@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define HPIJDELNNNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C65AB90)
+#define HPIJDELNNNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C943160)
 
-inline static constexpr unsigned int HPIJDELNNNE_TypeDefinitionIndex = 36840;
+inline static constexpr unsigned int HPIJDELNNNE_TypeDefinitionIndex = 37768;
 
 	class HPIJDELNNNE : public ::System::Attribute
 	{

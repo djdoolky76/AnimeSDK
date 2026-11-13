@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LMLNNHKJEIP;
 
-#define EFJKLLCCABF___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A51A70)
-#define EFJKLLCCABF___C__DISPLAYCLASS17_0___CREATEALLYPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x13A51F50)
+#define EFJKLLCCABF___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A33AC30)
+#define EFJKLLCCABF___C__DISPLAYCLASS17_0___CREATEALLYPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x1A33B110)
 
-inline static constexpr unsigned int EFJKLLCCABF___c__DisplayClass17_0_TypeDefinitionIndex = 60410;
+inline static constexpr unsigned int EFJKLLCCABF___c__DisplayClass17_0_TypeDefinitionIndex = 61700;
 
 	class EFJKLLCCABF___c__DisplayClass17_0 : public ::System::Object
 	{

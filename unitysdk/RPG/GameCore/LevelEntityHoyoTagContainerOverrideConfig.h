@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class LevelEntityHoyoTagContainerOverrideConfig; }
 
-#define RPG_GAMECORE_LEVELENTITYHOYOTAGCONTAINEROVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77E310)
-#define RPG_GAMECORE_LEVELENTITYHOYOTAGCONTAINEROVERRIDECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77E1D0)
+#define RPG_GAMECORE_LEVELENTITYHOYOTAGCONTAINEROVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D930F50)
+#define RPG_GAMECORE_LEVELENTITYHOYOTAGCONTAINEROVERRIDECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D930E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityHoyoTagContainerOverrideConfig_TypeDefinitionIndex = 17205;
+	inline static constexpr unsigned int LevelEntityHoyoTagContainerOverrideConfig_TypeDefinitionIndex = 17373;
 
 	class LevelEntityHoyoTagContainerOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

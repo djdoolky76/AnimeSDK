@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class DeployPuzzleBoard; }
 
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC872C0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS29_0__PICKUPSTONE_B__0_OFFSET UNITYSDK_OFFSET(0xDC8A270)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FCFA0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS29_0__PICKUPSTONE_B__0_OFFSET UNITYSDK_OFFSET(0x1A4FFF40)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleBoard___c__DisplayClass29_0_TypeDefinitionIndex = 78531;
+	inline static constexpr unsigned int DeployPuzzleBoard___c__DisplayClass29_0_TypeDefinitionIndex = 81266;
 
 	class DeployPuzzleBoard___c__DisplayClass29_0 : public ::System::Object
 	{

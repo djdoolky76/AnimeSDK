@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class ByTargetContainerRatioInRect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CMJCJGOBAPL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA30960)
-#define CMJCJGOBAPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA30A40)
+#define CMJCJGOBAPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B19D350)
+#define CMJCJGOBAPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B19D430)
 
-inline static constexpr unsigned int CMJCJGOBAPL_TypeDefinitionIndex = 53166;
+inline static constexpr unsigned int CMJCJGOBAPL_TypeDefinitionIndex = 54328;
 
 	class CMJCJGOBAPL
 	{

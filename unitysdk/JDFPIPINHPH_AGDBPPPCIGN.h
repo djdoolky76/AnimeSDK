@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JDFPIPINHPH_AGDBPPPCIGN_TypeDefinitionIndex = 72796;
+inline static constexpr unsigned int JDFPIPINHPH_AGDBPPPCIGN_TypeDefinitionIndex = 74875;
 
 	class JDFPIPINHPH_AGDBPPPCIGN
 	{

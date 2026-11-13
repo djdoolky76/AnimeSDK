@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_OverseaVerifyPhoneNumberElements_TypeDefinitionIndex = 9230;
+	inline static constexpr unsigned int PluginUIConstants_OverseaVerifyPhoneNumberElements_TypeDefinitionIndex = 9239;
 
 	class PluginUIConstants_OverseaVerifyPhoneNumberElements : public ::System::Object
 	{

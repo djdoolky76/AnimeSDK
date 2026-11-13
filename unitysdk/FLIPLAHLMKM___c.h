@@ -4,18 +4,18 @@
 class FLIPLAHLMKM;
 namespace System { class Object; }
 
-#define FLIPLAHLMKM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E38FDB0)
-#define FLIPLAHLMKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E38FDF0)
-#define FLIPLAHLMKM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E38FE00)
+#define FLIPLAHLMKM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE422E0)
+#define FLIPLAHLMKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE42320)
+#define FLIPLAHLMKM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE42330)
 
-inline static constexpr unsigned int FLIPLAHLMKM___c_TypeDefinitionIndex = 28344;
+inline static constexpr unsigned int FLIPLAHLMKM___c_TypeDefinitionIndex = 28934;
 
 	class FLIPLAHLMKM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BAE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B1A0);
 		}
 
 		static ::System::Void _cctor()

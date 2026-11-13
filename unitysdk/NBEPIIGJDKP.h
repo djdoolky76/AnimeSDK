@@ -7,12 +7,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NBEPIIGJDKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9069A0)
-#define NBEPIIGJDKP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C906C40)
-#define NBEPIIGJDKP_FILTER_OFFSET UNITYSDK_OFFSET(0x1C906B40)
-#define NBEPIIGJDKP_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C906A20)
+#define NBEPIIGJDKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C26BB30)
+#define NBEPIIGJDKP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C26BDD0)
+#define NBEPIIGJDKP_FILTER_OFFSET UNITYSDK_OFFSET(0x1C26BCD0)
+#define NBEPIIGJDKP_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C26BBB0)
 
-inline static constexpr unsigned int NBEPIIGJDKP_TypeDefinitionIndex = 42874;
+inline static constexpr unsigned int NBEPIIGJDKP_TypeDefinitionIndex = 43855;
 
 	class NBEPIIGJDKP
 	{

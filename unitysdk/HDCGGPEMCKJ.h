@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MappingAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HDCGGPEMCKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C23470)
-#define HDCGGPEMCKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C234A0)
+#define HDCGGPEMCKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C3B70)
+#define HDCGGPEMCKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7C3BA0)
 
-inline static constexpr unsigned int HDCGGPEMCKJ_TypeDefinitionIndex = 55170;
+inline static constexpr unsigned int HDCGGPEMCKJ_TypeDefinitionIndex = 56351;
 
 	class HDCGGPEMCKJ
 	{

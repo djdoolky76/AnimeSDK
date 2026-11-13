@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceOwlbertAnim; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEOWLBERTANIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D524090)
-#define RPG_GAMECORE_CAKERACEOWLBERTANIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D523EA0)
+#define RPG_GAMECORE_CAKERACEOWLBERTANIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFCEB0)
+#define RPG_GAMECORE_CAKERACEOWLBERTANIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBFCCC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceOwlbertAnim_TypeDefinitionIndex = 18371;
+	inline static constexpr unsigned int CakeRaceOwlbertAnim_TypeDefinitionIndex = 18531;
 
 	class CakeRaceOwlbertAnim : public ::RPG::GameCore::JsonConfig
 	{

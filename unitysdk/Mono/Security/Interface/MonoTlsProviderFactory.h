@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace Mono::Security::Interface { class MonoTlsProvider; }
 
-#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDERFACTORY_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C005400)
+#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDERFACTORY_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1EB299E0)
 
 namespace Mono::Security::Interface
 {

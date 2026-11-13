@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BCMNLOPKLDO_TypeDefinitionIndex = 59347;
+inline static constexpr unsigned int BCMNLOPKLDO_TypeDefinitionIndex = 60624;
 
 	struct alignas(4) BCMNLOPKLDO
 	{

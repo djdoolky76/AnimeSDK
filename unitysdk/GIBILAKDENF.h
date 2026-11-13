@@ -5,19 +5,19 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class BattleQTEBaseConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GIBILAKDENF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A24A10)
+#define GIBILAKDENF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D4A20)
 
-inline static constexpr unsigned int GIBILAKDENF_TypeDefinitionIndex = 56187;
+inline static constexpr unsigned int GIBILAKDENF_TypeDefinitionIndex = 57399;
 
 	class GIBILAKDENF : public ::System::Object
 	{
 	public:
-		::KFELGAIGHAP* CMFJBFKOFDC; // 0x10
-		::RPG::GameCore::BattleQTEBaseConfig* COKHBDEGLIA; // 0x18
-		::KFELGAIGHAP* CGJEGFIAMIK; // 0x20
-		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x28
-		::KFELGAIGHAP* MGEBFBDCNHM; // 0x30
-		::KFELGAIGHAP* JGNEPMDIHEC; // 0x38
+		::KFELGAIGHAP* CGJEGFIAMIK; // 0x10
+		::KFELGAIGHAP* JGNEPMDIHEC; // 0x18
+		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x20
+		::KFELGAIGHAP* MGEBFBDCNHM; // 0x28
+		::KFELGAIGHAP* CMFJBFKOFDC; // 0x30
+		::RPG::GameCore::BattleQTEBaseConfig* COKHBDEGLIA; // 0x38
 		::System::Single MCEAIMBIHGH; // 0x40
 		::System::Void _ctor(::RPG::GameCore::BattleQTEBaseConfig* a1, ::RPG::GameCore::TaskContext* a2)
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_ReceiverMaterialType_TypeDefinitionIndex = 71066;
+	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_ReceiverMaterialType_TypeDefinitionIndex = 73047;
 
 	enum class EnvWindReceiverMonoPlugin_ReceiverMaterialType : ::System::Int32
 	{

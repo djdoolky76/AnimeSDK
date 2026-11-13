@@ -5,13 +5,13 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET UNITYSDK_OFFSET(0x1ED0B8E0)
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED0BA70)
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x1ED0B980)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET UNITYSDK_OFFSET(0x1D426F50)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4270E0)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x1D426FF0)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int InternalOptionsRegistry_TypeDefinitionIndex = 38102;
+	inline static constexpr unsigned int InternalOptionsRegistry_TypeDefinitionIndex = 39031;
 
 	class InternalOptionsRegistry : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IGamePhase_TypeDefinitionIndex = 61125;
+	inline static constexpr unsigned int IGamePhase_TypeDefinitionIndex = 62510;
 
 	class IGamePhase
 	{

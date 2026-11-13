@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelMinimapVolume; }
 namespace RPG::GameCore { class LevelNavmapArea; }
 
-#define RPG_GAMECORE_LEVELNAVMAPAREA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7913A0)
-#define RPG_GAMECORE_LEVELNAVMAPAREA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D790E90)
+#define RPG_GAMECORE_LEVELNAVMAPAREA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D942990)
+#define RPG_GAMECORE_LEVELNAVMAPAREA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D942520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavmapArea_TypeDefinitionIndex = 17223;
+	inline static constexpr unsigned int LevelNavmapArea_TypeDefinitionIndex = 17391;
 
 	class LevelNavmapArea : public ::RPG::GameCore::JsonConfig
 	{

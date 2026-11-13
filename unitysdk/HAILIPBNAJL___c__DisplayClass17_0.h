@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HAILIPBNAJL___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C627C10)
-#define HAILIPBNAJL___C__DISPLAYCLASS17_0__AICONFIRMDICE_B__0_OFFSET UNITYSDK_OFFSET(0x1C62C490)
+#define HAILIPBNAJL___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA654E0)
+#define HAILIPBNAJL___C__DISPLAYCLASS17_0__AICONFIRMDICE_B__0_OFFSET UNITYSDK_OFFSET(0x1AA69D70)
 
-inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass17_0_TypeDefinitionIndex = 36410;
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass17_0_TypeDefinitionIndex = 37338;
 
 	class HAILIPBNAJL___c__DisplayClass17_0 : public ::System::Object
 	{

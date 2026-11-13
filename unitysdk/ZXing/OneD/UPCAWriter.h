@@ -9,12 +9,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace ZXing::Common { class BitMatrix; }
 namespace ZXing::OneD { class EAN13Writer; }
 
-#define ZXING_ONED_UPCAWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F689580)
-#define ZXING_ONED_UPCAWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F699490)
+#define ZXING_ONED_UPCAWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x17A839C0)
+#define ZXING_ONED_UPCAWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x17A938C0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int UPCAWriter_TypeDefinitionIndex = 7006;
+	inline static constexpr unsigned int UPCAWriter_TypeDefinitionIndex = 7017;
 
 	class UPCAWriter : public ::System::Object
 	{

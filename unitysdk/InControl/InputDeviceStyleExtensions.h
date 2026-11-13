@@ -4,12 +4,12 @@
 #include "unitysdk/InControl/InputDeviceStyle.h"
 #include "unitysdk/System/Object.h"
 
-#define INCONTROL_INPUTDEVICESTYLEEXTENSIONS_LEFTCOMMANDCONTROL_OFFSET UNITYSDK_OFFSET(0x1B9D0120)
-#define INCONTROL_INPUTDEVICESTYLEEXTENSIONS_RIGHTCOMMANDCONTROL_OFFSET UNITYSDK_OFFSET(0x1B9D0140)
+#define INCONTROL_INPUTDEVICESTYLEEXTENSIONS_LEFTCOMMANDCONTROL_OFFSET UNITYSDK_OFFSET(0x19F9E240)
+#define INCONTROL_INPUTDEVICESTYLEEXTENSIONS_RIGHTCOMMANDCONTROL_OFFSET UNITYSDK_OFFSET(0x19F9E260)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceStyleExtensions_TypeDefinitionIndex = 40847;
+	inline static constexpr unsigned int InputDeviceStyleExtensions_TypeDefinitionIndex = 41822;
 
 	class InputDeviceStyleExtensions : public ::System::Object
 	{

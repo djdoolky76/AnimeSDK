@@ -3,10 +3,10 @@
 class BLPDNBMFBDH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JCBMGHDOEME_CTOR_OFFSET UNITYSDK_OFFSET(0x1656D0D0)
-#define JCBMGHDOEME_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1656D100)
+#define JCBMGHDOEME_CTOR_OFFSET UNITYSDK_OFFSET(0x19A7D8D0)
+#define JCBMGHDOEME_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A7D900)
 
-inline static constexpr unsigned int JCBMGHDOEME_TypeDefinitionIndex = 52884;
+inline static constexpr unsigned int JCBMGHDOEME_TypeDefinitionIndex = 54040;
 
 	class JCBMGHDOEME
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define OMCOBFCGAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBF19E70)
+#define OMCOBFCGAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17D49440)
 
-inline static constexpr unsigned int OMCOBFCGAFJ_TypeDefinitionIndex = 52066;
+inline static constexpr unsigned int OMCOBFCGAFJ_TypeDefinitionIndex = 53171;
 
 	class OMCOBFCGAFJ : public ::System::Attribute
 	{

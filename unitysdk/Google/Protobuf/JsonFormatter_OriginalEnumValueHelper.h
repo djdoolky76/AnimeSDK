@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B83FF70)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_GETNAMEMAPPING_OFFSET UNITYSDK_OFFSET(0x1B83FAD0)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_GETORIGINALNAME_OFFSET UNITYSDK_OFFSET(0x1B83BA30)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEB72C0)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_GETNAMEMAPPING_OFFSET UNITYSDK_OFFSET(0x1BEB6E20)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_GETORIGINALNAME_OFFSET UNITYSDK_OFFSET(0x1BEB2D80)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper_TypeDefinitionIndex = 5404;
+	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper_TypeDefinitionIndex = 5409;
 
 	class JsonFormatter_OriginalEnumValueHelper : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>*>** StaticGet_dictionaries()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>*>**)UnitySDK::FromName("Google.Protobuf", "OriginalEnumValueHelper")->GetStaticField(0x1EAD0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>*>**)UnitySDK::FromName("Google.Protobuf", "OriginalEnumValueHelper")->GetStaticField(0x1DEB0);
 		}
 
 		static ::System::Void _cctor()

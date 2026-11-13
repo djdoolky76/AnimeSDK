@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PJPHDHBAADE.h"
 
-#define DDFGPDKMMKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCDFA80)
+#define DDFGPDKMMKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F62F160)
 
-inline static constexpr unsigned int DDFGPDKMMKH_TypeDefinitionIndex = 25022;
+inline static constexpr unsigned int DDFGPDKMMKH_TypeDefinitionIndex = 25500;
 
 	class DDFGPDKMMKH : public ::PJPHDHBAADE
 	{

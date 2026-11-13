@@ -3,10 +3,10 @@
 class GNJOOFCEGAG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LHCCENLOJDL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A0EE0)
-#define LHCCENLOJDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6A0F10)
+#define LHCCENLOJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB8BA0)
+#define LHCCENLOJDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCB8BD0)
 
-inline static constexpr unsigned int LHCCENLOJDL_TypeDefinitionIndex = 55399;
+inline static constexpr unsigned int LHCCENLOJDL_TypeDefinitionIndex = 56584;
 
 	class LHCCENLOJDL
 	{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetFetchPosWithMaxTargetCount; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FKNMDCOEFKI_CTOR_OFFSET UNITYSDK_OFFSET(0x15806560)
-#define FKNMDCOEFKI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158065D0)
+#define FKNMDCOEFKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1893F1D0)
+#define FKNMDCOEFKI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1893F240)
 
-inline static constexpr unsigned int FKNMDCOEFKI_TypeDefinitionIndex = 53797;
+inline static constexpr unsigned int FKNMDCOEFKI_TypeDefinitionIndex = 54961;
 
 	class FKNMDCOEFKI
 	{

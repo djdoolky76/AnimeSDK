@@ -4,18 +4,18 @@
 class CDNPKGOKEPK;
 namespace System { class Object; }
 
-#define CDNPKGOKEPK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E05EA90)
-#define CDNPKGOKEPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E05EAC0)
-#define CDNPKGOKEPK___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E05EAD0)
+#define CDNPKGOKEPK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204C25C0)
+#define CDNPKGOKEPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204C25F0)
+#define CDNPKGOKEPK___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x204C2600)
 
-inline static constexpr unsigned int CDNPKGOKEPK___c_TypeDefinitionIndex = 31345;
+inline static constexpr unsigned int CDNPKGOKEPK___c_TypeDefinitionIndex = 32258;
 
 	class CDNPKGOKEPK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF720);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x625E0);
 		}
 
 		static ::System::Void _cctor()

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CalcYawAngle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CALCYAWANGLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D527110)
-#define RPG_GAMECORE_CALCYAWANGLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D527120)
-#define RPG_GAMECORE_CALCYAWANGLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5270E0)
+#define RPG_GAMECORE_CALCYAWANGLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFFD30)
+#define RPG_GAMECORE_CALCYAWANGLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBFFD40)
+#define RPG_GAMECORE_CALCYAWANGLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBFFD00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalcYawAngle_TypeDefinitionIndex = 20245;
+	inline static constexpr unsigned int CalcYawAngle_TypeDefinitionIndex = 20580;
 
 	class CalcYawAngle : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,10 +4,10 @@
 class PMIAJMPNJOO;
 namespace RPG::GameCore { class GridFightAssistantMessageConfigRow; }
 
-#define ADHEDCNFFKN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB137BE0)
-#define ADHEDCNFFKN_CTOR_OFFSET UNITYSDK_OFFSET(0xB137CB0)
+#define ADHEDCNFFKN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x182A98C0)
+#define ADHEDCNFFKN_CTOR_OFFSET UNITYSDK_OFFSET(0x182A9990)
 
-inline static constexpr unsigned int ADHEDCNFFKN_TypeDefinitionIndex = 64368;
+inline static constexpr unsigned int ADHEDCNFFKN_TypeDefinitionIndex = 65815;
 
 	class ADHEDCNFFKN : public ::System::Object
 	{

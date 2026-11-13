@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HitBoxConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HITBOXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D742570)
-#define RPG_GAMECORE_HITBOXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7422B0)
+#define RPG_GAMECORE_HITBOXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7B3D0)
+#define RPG_GAMECORE_HITBOXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE7B190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitBoxConfig_TypeDefinitionIndex = 16506;
+	inline static constexpr unsigned int HitBoxConfig_TypeDefinitionIndex = 16670;
 
 	class HitBoxConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -9,19 +9,19 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DGMEMEIIMEE_CACDLKIPHHB_OFFSET UNITYSDK_OFFSET(0xE848BF0)
-#define DGMEMEIIMEE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE849960)
-#define DGMEMEIIMEE_EDCECJADAHE_OFFSET UNITYSDK_OFFSET(0xE849430)
-#define DGMEMEIIMEE_FODBNKINJEC_OFFSET UNITYSDK_OFFSET(0xE848DB0)
+#define DGMEMEIIMEE_CACDLKIPHHB_OFFSET UNITYSDK_OFFSET(0x1ADBD690)
+#define DGMEMEIIMEE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADBE400)
+#define DGMEMEIIMEE_EDCECJADAHE_OFFSET UNITYSDK_OFFSET(0x1ADBDED0)
+#define DGMEMEIIMEE_FODBNKINJEC_OFFSET UNITYSDK_OFFSET(0x1ADBD850)
 
-inline static constexpr unsigned int DGMEMEIIMEE_TypeDefinitionIndex = 60113;
+inline static constexpr unsigned int DGMEMEIIMEE_TypeDefinitionIndex = 61397;
 
 	class DGMEMEIIMEE : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_JEBACNHEEPO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "DGMEMEIIMEE")->GetStaticField(0x57710);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "DGMEMEIIMEE")->GetStaticField(0x4E6A0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class FCEHCMIGCNC;
 namespace System { class Object; }
 
-#define FCEHCMIGCNC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3171C0)
-#define FCEHCMIGCNC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E317200)
-#define FCEHCMIGCNC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E317210)
+#define FCEHCMIGCNC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8A43E0)
+#define FCEHCMIGCNC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8A4420)
+#define FCEHCMIGCNC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F8A4430)
 
-inline static constexpr unsigned int FCEHCMIGCNC___c_TypeDefinitionIndex = 30419;
+inline static constexpr unsigned int FCEHCMIGCNC___c_TypeDefinitionIndex = 31325;
 
 	class FCEHCMIGCNC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50990);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43240);
 		}
 
 		static ::System::Void _cctor()

@@ -6,10 +6,10 @@ class CANFMMJEBJG;
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MHBFAJJCDBO_CREATE_OFFSET UNITYSDK_OFFSET(0xB9296B0)
-#define MHBFAJJCDBO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9297A0)
+#define MHBFAJJCDBO_CREATE_OFFSET UNITYSDK_OFFSET(0x1B34F6A0)
+#define MHBFAJJCDBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B34F790)
 
-inline static constexpr unsigned int MHBFAJJCDBO_TypeDefinitionIndex = 73151;
+inline static constexpr unsigned int MHBFAJJCDBO_TypeDefinitionIndex = 75265;
 
 	class MHBFAJJCDBO : public ::System::Object
 	{

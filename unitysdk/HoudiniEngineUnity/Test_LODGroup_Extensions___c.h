@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class LODGroup; }
 
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9926F0)
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B992730)
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B992740)
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B992780)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2087C920)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2087C960)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x2087C970)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x2087C9B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_LODGroup_Extensions___c_TypeDefinitionIndex = 40712;
+	inline static constexpr unsigned int Test_LODGroup_Extensions___c_TypeDefinitionIndex = 41687;
 
 	class Test_LODGroup_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x641F0);
-		}
-
 		static ::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x641F8);
+			return (::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x692F0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x692F8);
 		}
 
 		static ::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64200);
+			return (::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x69300);
 		}
 
 		static ::System::Void _cctor()

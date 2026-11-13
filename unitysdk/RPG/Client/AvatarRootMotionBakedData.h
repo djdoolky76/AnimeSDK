@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/CharacterRootMotionBakedData.h"
 #include "unitysdk/RPG/GameCore/BodySize.h"
 
-#define RPG_CLIENT_AVATARROOTMOTIONBAKEDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC70ADA0)
+#define RPG_CLIENT_AVATARROOTMOTIONBAKEDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0FB0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarRootMotionBakedData_TypeDefinitionIndex = 60058;
+	inline static constexpr unsigned int AvatarRootMotionBakedData_TypeDefinitionIndex = 61342;
 
 	class AvatarRootMotionBakedData : public ::RPG::Client::CharacterRootMotionBakedData
 	{

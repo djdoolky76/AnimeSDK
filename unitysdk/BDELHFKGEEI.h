@@ -7,16 +7,16 @@ class BDELHFKGEEI;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define BDELHFKGEEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCEDB0)
-#define BDELHFKGEEI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCCEA60)
+#define BDELHFKGEEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCA090)
+#define BDELHFKGEEI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC9D40)
 
-inline static constexpr unsigned int BDELHFKGEEI_TypeDefinitionIndex = 12495;
+inline static constexpr unsigned int BDELHFKGEEI_TypeDefinitionIndex = 12562;
 
 	class BDELHFKGEEI : public ::System::Object
 	{
 	public:
-		::System::String* PNCFJGFAEMA; // 0x10
-		::System::String* OLOIFNNLKJP; // 0x18
+		::System::String* OLOIFNNLKJP; // 0x10
+		::System::String* PNCFJGFAEMA; // 0x18
 		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x20
 		::System::String* GINFOPOAKHK; // 0x28
 		::RPG::Client::TextID NMAHGFAPENI; // 0x30

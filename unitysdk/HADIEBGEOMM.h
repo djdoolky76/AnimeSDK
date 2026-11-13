@@ -8,22 +8,22 @@ namespace RPG::GameCore { class AnchorInfo; }
 namespace RPG::GameCore { class LevelAnchorCoin40Parameter; }
 namespace UnityEngine { class GameObject; }
 
-#define HADIEBGEOMM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B66630)
-#define HADIEBGEOMM_HHMFILFAMNA_OFFSET UNITYSDK_OFFSET(0x15B66580)
+#define HADIEBGEOMM_CTOR_OFFSET UNITYSDK_OFFSET(0x17DD3CB0)
+#define HADIEBGEOMM_HHMFILFAMNA_OFFSET UNITYSDK_OFFSET(0x17DD3C00)
 
-inline static constexpr unsigned int HADIEBGEOMM_TypeDefinitionIndex = 78187;
+inline static constexpr unsigned int HADIEBGEOMM_TypeDefinitionIndex = 80922;
 
 	class HADIEBGEOMM : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LevelAnchorCoin40Parameter* HGCAPCENLLP; // 0x10
-		::FiveDimRenderingItem* FJCJGFGMCCP; // 0x18
+		::FiveDimRenderingItem* FJCJGFGMCCP; // 0x10
+		::UnityEngine::GameObject* JGOOCFAJAFF; // 0x18
 		::RPG::GameCore::AnchorInfo* FEEBOGKKGIG; // 0x20
 		::FCLMONFLHFP* LBLEOKEHLBB; // 0x28
-		::UnityEngine::GameObject* JGOOCFAJAFF; // 0x30
-		::System::UInt32 NOPJJBBDMGO; // 0x38
+		::RPG::GameCore::LevelAnchorCoin40Parameter* HGCAPCENLLP; // 0x30
+		::System::Single CECJJKAFJAI; // 0x38
 		::System::Single FMHACCBKEPP; // 0x3C
-		::System::Single CECJJKAFJAI; // 0x40
+		::System::UInt32 NOPJJBBDMGO; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HADIEBGEOMM_CTOR_OFFSET))(this);

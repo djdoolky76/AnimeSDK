@@ -4,18 +4,18 @@
 class LEHBIBDGEHG;
 namespace System { class Object; }
 
-#define LEHBIBDGEHG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E903C40)
-#define LEHBIBDGEHG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E903C70)
-#define LEHBIBDGEHG___C___CCTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1E903C80)
+#define LEHBIBDGEHG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F81FF00)
+#define LEHBIBDGEHG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F81FF30)
+#define LEHBIBDGEHG___C___CCTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1F81FF40)
 
-inline static constexpr unsigned int LEHBIBDGEHG___c_TypeDefinitionIndex = 33266;
+inline static constexpr unsigned int LEHBIBDGEHG___c_TypeDefinitionIndex = 34181;
 
 	class LEHBIBDGEHG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31AB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FA20);
 		}
 
 		static ::System::Void _cctor()

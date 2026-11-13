@@ -6,12 +6,12 @@
 class KLEFGGIHGMI;
 namespace System { class String; }
 
-#define RPG_CLIENT_FLIPDEVICEPOINT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD03BE20)
-#define RPG_CLIENT_FLIPDEVICEPOINT___C__DISPLAYCLASS7_0__ONSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xD03C370)
+#define RPG_CLIENT_FLIPDEVICEPOINT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19AE7F80)
+#define RPG_CLIENT_FLIPDEVICEPOINT___C__DISPLAYCLASS7_0__ONSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x19AE84D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlipDevicePoint___c__DisplayClass7_0_TypeDefinitionIndex = 73317;
+	inline static constexpr unsigned int FlipDevicePoint___c__DisplayClass7_0_TypeDefinitionIndex = 75434;
 
 	class FlipDevicePoint___c__DisplayClass7_0 : public ::System::Object
 	{

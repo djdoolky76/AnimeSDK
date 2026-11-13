@@ -7,9 +7,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define POOHLADAKBD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC36D810)
+#define POOHLADAKBD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1B899C30)
 
-inline static constexpr unsigned int POOHLADAKBD_TypeDefinitionIndex = 64351;
+inline static constexpr unsigned int POOHLADAKBD_TypeDefinitionIndex = 65798;
 
 	class POOHLADAKBD : public ::System::Object
 	{

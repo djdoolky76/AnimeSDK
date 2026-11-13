@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NGLNKDHIFCH_TypeDefinitionIndex = 77589;
+inline static constexpr unsigned int NGLNKDHIFCH_TypeDefinitionIndex = 80324;
 
 	class NGLNKDHIFCH
 	{

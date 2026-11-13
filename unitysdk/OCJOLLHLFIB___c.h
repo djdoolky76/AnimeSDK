@@ -4,18 +4,18 @@
 class OCJOLLHLFIB;
 namespace System { class Object; }
 
-#define OCJOLLHLFIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDE84B0)
-#define OCJOLLHLFIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE84E0)
-#define OCJOLLHLFIB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDE84F0)
+#define OCJOLLHLFIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDB0C40)
+#define OCJOLLHLFIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDB0C70)
+#define OCJOLLHLFIB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FDB0C80)
 
-inline static constexpr unsigned int OCJOLLHLFIB___c_TypeDefinitionIndex = 30782;
+inline static constexpr unsigned int OCJOLLHLFIB___c_TypeDefinitionIndex = 31695;
 
 	class OCJOLLHLFIB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11890);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCD90);
 		}
 
 		static ::System::Void _cctor()

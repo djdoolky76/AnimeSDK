@@ -4,18 +4,18 @@
 class POBLGKIGINE;
 namespace System { class Object; }
 
-#define POBLGKIGINE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF974C0)
-#define POBLGKIGINE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF97500)
-#define POBLGKIGINE___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x1DF97510)
+#define POBLGKIGINE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCBB150)
+#define POBLGKIGINE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCBB190)
+#define POBLGKIGINE___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x1FCBB1A0)
 
-inline static constexpr unsigned int POBLGKIGINE___c_TypeDefinitionIndex = 25926;
+inline static constexpr unsigned int POBLGKIGINE___c_TypeDefinitionIndex = 26423;
 
 	class POBLGKIGINE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43A70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4F210);
 		}
 
 		static ::System::Void _cctor()

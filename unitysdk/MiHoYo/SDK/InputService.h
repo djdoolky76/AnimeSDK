@@ -1,32 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/IMECompositionMode.h"
 #include "unitysdk/UnityEngine/KeyCode.h"
 namespace MiHoYo::SDK { class InputService; }
 
-#define MIHOYO_SDK_INPUTSERVICE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE55750)
-#define MIHOYO_SDK_INPUTSERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE55570)
-#define MIHOYO_SDK_INPUTSERVICE_DISABLEIME_OFFSET UNITYSDK_OFFSET(0x1BE556E0)
-#define MIHOYO_SDK_INPUTSERVICE_ENABLEIME_OFFSET UNITYSDK_OFFSET(0x1BE55720)
-#define MIHOYO_SDK_INPUTSERVICE_GETKEYDOWN_OFFSET UNITYSDK_OFFSET(0x1BE555C0)
-#define MIHOYO_SDK_INPUTSERVICE_GETKEYUP_OFFSET UNITYSDK_OFFSET(0x1BE55630)
-#define MIHOYO_SDK_INPUTSERVICE_GETKEY_OFFSET UNITYSDK_OFFSET(0x1BE55600)
-#define MIHOYO_SDK_INPUTSERVICE_GET_IMECOMPOSITIONMODE_OFFSET UNITYSDK_OFFSET(0x1BE55660)
-#define MIHOYO_SDK_INPUTSERVICE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE554C0)
-#define MIHOYO_SDK_INPUTSERVICE_SET_IMECOMPOSITIONMODE_OFFSET UNITYSDK_OFFSET(0x1BE556A0)
-#define MIHOYO_SDK_INPUTSERVICE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE55580)
+#define MIHOYO_SDK_INPUTSERVICE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B69E3C0)
+#define MIHOYO_SDK_INPUTSERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B69E2D0)
+#define MIHOYO_SDK_INPUTSERVICE_GETKEYDOWN_OFFSET UNITYSDK_OFFSET(0x1B69E320)
+#define MIHOYO_SDK_INPUTSERVICE_GETKEYUP_OFFSET UNITYSDK_OFFSET(0x1B69E390)
+#define MIHOYO_SDK_INPUTSERVICE_GETKEY_OFFSET UNITYSDK_OFFSET(0x1B69E360)
+#define MIHOYO_SDK_INPUTSERVICE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B69E220)
+#define MIHOYO_SDK_INPUTSERVICE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B69E2E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int InputService_TypeDefinitionIndex = 7948;
+	inline static constexpr unsigned int InputService_TypeDefinitionIndex = 7957;
 
 	class InputService : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::InputService** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::InputService**)UnitySDK::FromName("MiHoYo.SDK", "InputService")->GetStaticField(0x10E90);
+			return (::MiHoYo::SDK::InputService**)UnitySDK::FromName("MiHoYo.SDK", "InputService")->GetStaticField(0x504E0);
 		}
 
 		::System::Void _ctor()
@@ -62,26 +57,6 @@ namespace MiHoYo::SDK
 		::System::Boolean GetKeyUp(::UnityEngine::KeyCode a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::KeyCode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSERVICE_GETKEYUP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::IMECompositionMode get_IMECompositionMode()
-		{
-			return ((::UnityEngine::IMECompositionMode(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSERVICE_GET_IMECOMPOSITIONMODE_OFFSET))(this);
-		}
-
-		::System::Void set_IMECompositionMode(::UnityEngine::IMECompositionMode a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::IMECompositionMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSERVICE_SET_IMECOMPOSITIONMODE_OFFSET))(this, a1);
-		}
-
-		::System::Void DisableIME()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSERVICE_DISABLEIME_OFFSET))(this);
-		}
-
-		::System::Void EnableIME()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSERVICE_ENABLEIME_OFFSET))(this);
 		}
 
 	};

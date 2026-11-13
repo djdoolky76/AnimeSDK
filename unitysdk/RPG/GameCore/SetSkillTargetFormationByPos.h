@@ -8,14 +8,15 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetSkillTargetFormationByPos; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TargetFormationPosConfig; }
+namespace System { class String; }
 
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA94190)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA941D0)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA94130)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E19F0)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9E1A30)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9E1990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 22497;
+	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 22906;
 
 	class SetSkillTargetFormationByPos : public ::RPG::GameCore::TaskConfig
 	{
@@ -40,10 +41,12 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TargetFormationPosConfig*>* RightSideFormations; // 0x60
 		::RPG::GameCore::TargetEvaluator* SpecifyTargetFormationEntity; // 0x68
 		::System::Boolean IgnoreCharacterRootOffset; // 0x70
-		::System::Byte _padding3[0x7];
-		::Il2CppArray<::System::Single>* DeltaMultiplier; // 0x78
-		::RPG::MVector3 FormationDeltaMaxRange; // 0x80
-		::RPG::MVector3 FormationDeltaMinRange; // 0x8C
+		::System::Byte _padding3[0x3];
+		::System::Single YOffsetRatioByHeight; // 0x74
+		::System::String* YOffsetRefAttachPoint; // 0x78
+		::Il2CppArray<::System::Single>* DeltaMultiplier; // 0x80
+		::RPG::MVector3 FormationDeltaMaxRange; // 0x88
+		::RPG::MVector3 FormationDeltaMinRange; // 0x94
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_CTOR_OFFSET))(this);

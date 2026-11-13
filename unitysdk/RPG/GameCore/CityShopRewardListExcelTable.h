@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5877C0)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D586E00)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D586C90)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D586980)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D586C30)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D586FD0)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D586A00)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D587010)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5871E0)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D587420)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D587140)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5870A0)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4FDFC0)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F4FD600)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F4FD490)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1F4FD180)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1F4FD430)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1F4FD7D0)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1F4FD200)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1F4FD810)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F4FD9E0)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1F4FDC20)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1F4FD940)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1F4FD8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CityShopRewardListExcelTable_TypeDefinitionIndex = 13063;
+	inline static constexpr unsigned int CityShopRewardListExcelTable_TypeDefinitionIndex = 13131;
 
 	class CityShopRewardListExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CityShopRewardListRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CityShopRewardListRow*>**)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x17F40);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x17F48);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CityShopRewardListRow*>**)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x12FC0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x17F50);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x12FC8);
 		}
 
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x5240);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x12FD0);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x5241);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x3CC0);
+		}
+
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "CityShopRewardListExcelTable")->GetStaticField(0x3CC1);
 		}
 
 		static ::System::Void _cctor()

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChangeMonsterHeadIcon; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D539E10)
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D539E20)
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D539DE0)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1F33B640)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F33B650)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F33B610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeMonsterHeadIcon_TypeDefinitionIndex = 23672;
+	inline static constexpr unsigned int ChangeMonsterHeadIcon_TypeDefinitionIndex = 24126;
 
 	class ChangeMonsterHeadIcon : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,6 +21,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* IconFromTarget; // 0x20
 		::System::String* IconPath; // 0x28
 		::System::String* RoundIconPath; // 0x30
+		::System::String* ManikinImagePath; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON_CTOR_OFFSET))(this);

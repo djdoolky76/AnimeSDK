@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int ILinkableNode_1_TypeDefinitionIndex = 6375;
+	inline static constexpr unsigned int ILinkableNode_1_TypeDefinitionIndex = 6382;
 
 	template <typename T>
 	class ILinkableNode_1

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_PS5PORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x166BE4C0)
+#define CRIWARE_CRIATOMCONFIG_PS5PORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BFF40)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_Ps5PortConfig_TypeDefinitionIndex = 40163;
+	inline static constexpr unsigned int CriAtomConfig_Ps5PortConfig_TypeDefinitionIndex = 41138;
 
 	class CriAtomConfig_Ps5PortConfig : public ::System::Object
 	{

@@ -1,16 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class StackRedStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJMFGJMGIJH_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC0C40)
-#define AJMFGJMGIJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC0C50)
-#define AJMFGJMGIJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CC0D40)
-#define AJMFGJMGIJH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CC0C90)
-#define AJMFGJMGIJH_TICK_OFFSET UNITYSDK_OFFSET(0x12CC0CE0)
+#define AJMFGJMGIJH_CTOR_OFFSET UNITYSDK_OFFSET(0x19D47500)
+#define AJMFGJMGIJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19D47510)
+#define AJMFGJMGIJH_GHBALPBMLJE_OFFSET UNITYSDK_OFFSET(0x19D478D0)
+#define AJMFGJMGIJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D47600)
+#define AJMFGJMGIJH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19D47550)
+#define AJMFGJMGIJH_TICK_OFFSET UNITYSDK_OFFSET(0x19D475A0)
 
-inline static constexpr unsigned int AJMFGJMGIJH_TypeDefinitionIndex = 55647;
+inline static constexpr unsigned int AJMFGJMGIJH_TypeDefinitionIndex = 56845;
 
 	class AJMFGJMGIJH : public ::GELIALJDFBL
 	{
@@ -40,6 +42,11 @@ inline static constexpr unsigned int AJMFGJMGIJH_TypeDefinitionIndex = 55647;
 		::System::Void OnTaskBegin()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJMFGJMGIJH_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Boolean GHBALPBMLJE(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + AJMFGJMGIJH_GHBALPBMLJE_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

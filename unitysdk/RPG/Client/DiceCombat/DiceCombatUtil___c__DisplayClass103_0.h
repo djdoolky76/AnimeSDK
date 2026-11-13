@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS103_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC3B070)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS103_0__TRANSFERTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0xCC3B8F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS103_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C51E640)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS103_0__TRANSFERTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1C5211B0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass103_0_TypeDefinitionIndex = 76100;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass103_0_TypeDefinitionIndex = 78427;
 
 	class DiceCombatUtil___c__DisplayClass103_0 : public ::System::Object
 	{

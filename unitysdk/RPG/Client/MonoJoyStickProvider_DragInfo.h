@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_MONOJOYSTICKPROVIDER_DRAGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0)
+#define RPG_CLIENT_MONOJOYSTICKPROVIDER_DRAGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x7EFA30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoJoyStickProvider_DragInfo_TypeDefinitionIndex = 61317;
+	inline static constexpr unsigned int MonoJoyStickProvider_DragInfo_TypeDefinitionIndex = 62702;
 
 	struct alignas(4) MonoJoyStickProvider_DragInfo
 	{

@@ -3,7 +3,7 @@
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int ValueQueue_1_TypeDefinitionIndex = 6158;
+	inline static constexpr unsigned int ValueQueue_1_TypeDefinitionIndex = 6165;
 
 	template <typename T>
 	struct alignas(8) ValueQueue_1

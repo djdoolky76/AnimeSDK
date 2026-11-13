@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_SetAIVariableBool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EJPKMKJEJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x154EE230)
-#define EJPKMKJEJGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154EE260)
+#define EJPKMKJEJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x199831D0)
+#define EJPKMKJEJGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19983200)
 
-inline static constexpr unsigned int EJPKMKJEJGB_TypeDefinitionIndex = 52101;
+inline static constexpr unsigned int EJPKMKJEJGB_TypeDefinitionIndex = 53206;
 
 	class EJPKMKJEJGB
 	{

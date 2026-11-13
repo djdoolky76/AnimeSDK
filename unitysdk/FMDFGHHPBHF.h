@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCustomLocationConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FMDFGHHPBHF_CTOR_OFFSET UNITYSDK_OFFSET(0x15843020)
-#define FMDFGHHPBHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15843050)
+#define FMDFGHHPBHF_CTOR_OFFSET UNITYSDK_OFFSET(0x17EF4170)
+#define FMDFGHHPBHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17EF41A0)
 
-inline static constexpr unsigned int FMDFGHHPBHF_TypeDefinitionIndex = 56401;
+inline static constexpr unsigned int FMDFGHHPBHF_TypeDefinitionIndex = 57619;
 
 	class FMDFGHHPBHF
 	{

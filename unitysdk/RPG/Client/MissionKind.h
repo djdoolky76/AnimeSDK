@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionKind_TypeDefinitionIndex = 66166;
+	inline static constexpr unsigned int MissionKind_TypeDefinitionIndex = 68102;
 
 	enum class MissionKind : ::System::Int32
 	{

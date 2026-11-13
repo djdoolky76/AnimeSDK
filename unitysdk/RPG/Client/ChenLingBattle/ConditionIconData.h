@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/ChenLingIconType.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CONDITIONICONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
+#define RPG_CLIENT_CHENLINGBATTLE_CONDITIONICONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x3D9DFE0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ConditionIconData_TypeDefinitionIndex = 76347;
+	inline static constexpr unsigned int ConditionIconData_TypeDefinitionIndex = 78678;
 
 	struct alignas(8) ConditionIconData
 	{

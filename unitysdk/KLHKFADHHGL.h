@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/FixVec3.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int KLHKFADHHGL_TypeDefinitionIndex = 54049;
+inline static constexpr unsigned int KLHKFADHHGL_TypeDefinitionIndex = 55213;
 
 	struct alignas(8) KLHKFADHHGL
 	{

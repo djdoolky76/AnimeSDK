@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HipplenRequireStatGrade; }
 
-#define RPG_GAMECORE_HIPPLENREQUIRESTATGRADE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D741D90)
-#define RPG_GAMECORE_HIPPLENREQUIRESTATGRADE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73EE00)
+#define RPG_GAMECORE_HIPPLENREQUIRESTATGRADE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7ACE0)
+#define RPG_GAMECORE_HIPPLENREQUIRESTATGRADE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE77DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenRequireStatGrade_TypeDefinitionIndex = 16787;
+	inline static constexpr unsigned int HipplenRequireStatGrade_TypeDefinitionIndex = 16954;
 
 	class HipplenRequireStatGrade : public ::RPG::GameCore::JsonConfig
 	{

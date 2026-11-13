@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleRegisterGhostFire; }
 
-#define LFDEICBDLEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DF100)
-#define LFDEICBDLEN_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C8DF110)
+#define LFDEICBDLEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6391D0)
+#define LFDEICBDLEN_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1D6391E0)
 
-inline static constexpr unsigned int LFDEICBDLEN_TypeDefinitionIndex = 43118;
+inline static constexpr unsigned int LFDEICBDLEN_TypeDefinitionIndex = 44099;
 
 	class LFDEICBDLEN : public ::BKABEBEPPJK
 	{

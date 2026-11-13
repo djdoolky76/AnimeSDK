@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_AntiAddictionMessage_TypeDefinitionIndex = 46193;
+	inline static constexpr unsigned int MHYSDKC_AntiAddictionMessage_TypeDefinitionIndex = 47222;
 
 	class MHYSDKC_AntiAddictionMessage : public ::System::Object
 	{

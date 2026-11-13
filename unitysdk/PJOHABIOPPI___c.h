@@ -4,18 +4,18 @@
 class PJOHABIOPPI;
 namespace System { class Object; }
 
-#define PJOHABIOPPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF557F0)
-#define PJOHABIOPPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF55830)
-#define PJOHABIOPPI___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DF55840)
+#define PJOHABIOPPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F490C70)
+#define PJOHABIOPPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F490CB0)
+#define PJOHABIOPPI___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F490CC0)
 
-inline static constexpr unsigned int PJOHABIOPPI___c_TypeDefinitionIndex = 29832;
+inline static constexpr unsigned int PJOHABIOPPI___c_TypeDefinitionIndex = 30730;
 
 	class PJOHABIOPPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37510);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x408D0);
 		}
 
 		static ::System::Void _cctor()

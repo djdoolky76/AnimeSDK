@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartTarotBookTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EJAGPIKHDPN_CTOR_OFFSET UNITYSDK_OFFSET(0x154C99A0)
-#define EJAGPIKHDPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154C99D0)
+#define EJAGPIKHDPN_CTOR_OFFSET UNITYSDK_OFFSET(0x19AA50B0)
+#define EJAGPIKHDPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19AA50E0)
 
-inline static constexpr unsigned int EJAGPIKHDPN_TypeDefinitionIndex = 58730;
+inline static constexpr unsigned int EJAGPIKHDPN_TypeDefinitionIndex = 59998;
 
 	class EJAGPIKHDPN
 	{

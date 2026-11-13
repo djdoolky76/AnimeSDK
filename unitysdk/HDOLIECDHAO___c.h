@@ -4,18 +4,18 @@
 class HDOLIECDHAO;
 namespace System { class Object; }
 
-#define HDOLIECDHAO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5264D0)
-#define HDOLIECDHAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E526510)
-#define HDOLIECDHAO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E526520)
+#define HDOLIECDHAO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F87C6E0)
+#define HDOLIECDHAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F87C720)
+#define HDOLIECDHAO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F87C730)
 
-inline static constexpr unsigned int HDOLIECDHAO___c_TypeDefinitionIndex = 29281;
+inline static constexpr unsigned int HDOLIECDHAO___c_TypeDefinitionIndex = 29944;
 
 	class HDOLIECDHAO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C750);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28750);
 		}
 
 		static ::System::Void _cctor()

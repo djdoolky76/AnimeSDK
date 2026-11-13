@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetLittleGameLevelVarShort; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IOPAKPFMOEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1650DB10)
-#define IOPAKPFMOEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1650DB40)
+#define IOPAKPFMOEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x192FABF0)
+#define IOPAKPFMOEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x192FAC20)
 
-inline static constexpr unsigned int IOPAKPFMOEJ_TypeDefinitionIndex = 52968;
+inline static constexpr unsigned int IOPAKPFMOEJ_TypeDefinitionIndex = 54127;
 
 	class IOPAKPFMOEJ
 	{

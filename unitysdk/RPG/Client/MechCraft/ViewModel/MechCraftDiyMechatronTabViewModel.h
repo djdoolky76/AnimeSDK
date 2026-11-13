@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONTABVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD674110)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONTABVIEWMODEL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xD674E70)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONTABVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E912700)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONTABVIEWMODEL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1E913460)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftDiyMechatronTabViewModel_TypeDefinitionIndex = 79611;
+	inline static constexpr unsigned int MechCraftDiyMechatronTabViewModel_TypeDefinitionIndex = 82388;
 
 	class MechCraftDiyMechatronTabViewModel : public ::System::Object
 	{

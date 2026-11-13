@@ -4,11 +4,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PlayVoice; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JGOPLLFPDAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A12C0)
-#define JGOPLLFPDAA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1A12F0)
-#define JGOPLLFPDAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1A1450)
+#define JGOPLLFPDAA_CTOR_OFFSET UNITYSDK_OFFSET(0x19360360)
+#define JGOPLLFPDAA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19360390)
+#define JGOPLLFPDAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193604F0)
 
-inline static constexpr unsigned int JGOPLLFPDAA_TypeDefinitionIndex = 56379;
+inline static constexpr unsigned int JGOPLLFPDAA_TypeDefinitionIndex = 57593;
 
 	class JGOPLLFPDAA
 	{

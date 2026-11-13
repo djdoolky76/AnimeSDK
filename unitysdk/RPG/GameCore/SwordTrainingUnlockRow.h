@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingUnlockRow; }
 
-#define RPG_GAMECORE_SWORDTRAININGUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB22180)
-#define RPG_GAMECORE_SWORDTRAININGUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB21FC0)
+#define RPG_GAMECORE_SWORDTRAININGUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E691C60)
+#define RPG_GAMECORE_SWORDTRAININGUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E691AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingUnlockRow_TypeDefinitionIndex = 12462;
+	inline static constexpr unsigned int SwordTrainingUnlockRow_TypeDefinitionIndex = 12529;
 
 	class SwordTrainingUnlockRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FinishWayID; // 0x10
-		::System::UInt32 UnlockID; // 0x14
+		::System::UInt32 UnlockID; // 0x10
+		::System::UInt32 FinishWayID; // 0x14
 		::RPG::Client::TextID UnlockDesc; // 0x18
 		::System::Void _ctor()
 		{

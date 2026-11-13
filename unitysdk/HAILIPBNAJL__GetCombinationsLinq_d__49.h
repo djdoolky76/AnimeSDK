@@ -7,33 +7,33 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_CTOR_OFFSET UNITYSDK_OFFSET(0x1C62C120)
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C62CEE0)
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_LITTLEGAMESHARE_DICECOMBATCORE_AISYSTEMSERVER_DICECOMBINATION__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C62D920)
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_LITTLEGAMESHARE_DICECOMBATCORE_AISYSTEMSERVER_DICECOMBINATION__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C62D8B0)
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C62D9B0)
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C62D910)
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C62D8C0)
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C62CDA0)
-#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1C62CDE0)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA69A00)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1AA6A7C0)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_LITTLEGAMESHARE_DICECOMBATCORE_AISYSTEMSERVER_DICECOMBINATION__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AA6B200)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_LITTLEGAMESHARE_DICECOMBATCORE_AISYSTEMSERVER_DICECOMBINATION__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1AA6B190)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AA6B290)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1AA6B1F0)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1AA6B1A0)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AA6A680)
+#define HAILIPBNAJL__GETCOMBINATIONSLINQ_D__49___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1AA6A6C0)
 
-inline static constexpr unsigned int HAILIPBNAJL__GetCombinationsLinq_d__49_TypeDefinitionIndex = 36419;
+inline static constexpr unsigned int HAILIPBNAJL__GetCombinationsLinq_d__49_TypeDefinitionIndex = 37347;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41, typename T42, typename T43, typename T44, typename T45, typename T46, typename T47, typename T48, typename T49>
 	class HAILIPBNAJL__GetCombinationsLinq_d__49 : public ::System::Object
 	{
 	public:
-		::HAILIPBNAJL_CELAFJHKDBO* __2__current; // 0x10
-		::System::Collections::Generic::IEnumerator_1<::System::Object*>* __7__wrap3; // 0x18
-		::System::Collections::Generic::IEnumerable_1<::System::Int32>* items; // 0x20
-		::System::Collections::Generic::IEnumerable_1<::System::Int32>* __3__items; // 0x28
-		::System::Int32 __1__state; // 0x30
-		::System::Int32 count; // 0x34
-		::System::Int32 __3__startIndex; // 0x38
-		::System::Int32 _item_5__3; // 0x3C
-		::System::Int32 _i_5__2; // 0x40
-		::System::Int32 __l__initialThreadId; // 0x44
-		::System::Int32 startIndex; // 0x48
+		::System::Collections::Generic::IEnumerable_1<::System::Int32>* items; // 0x10
+		::System::Collections::Generic::IEnumerable_1<::System::Int32>* __3__items; // 0x18
+		::HAILIPBNAJL_CELAFJHKDBO* __2__current; // 0x20
+		::System::Collections::Generic::IEnumerator_1<::System::Object*>* __7__wrap3; // 0x28
+		::System::Int32 startIndex; // 0x30
+		::System::Int32 __3__startIndex; // 0x34
+		::System::Int32 __1__state; // 0x38
+		::System::Int32 _i_5__2; // 0x3C
+		::System::Int32 __l__initialThreadId; // 0x40
+		::System::Int32 _item_5__3; // 0x44
+		::System::Int32 count; // 0x48
 		::System::Int32 __3__count; // 0x4C
 		::System::Void _ctor(::System::Int32 a1)
 		{

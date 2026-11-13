@@ -6,21 +6,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class Int32Formatter; }
 
-#define MESSAGEPACK_FORMATTERS_INT32FORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB56070)
-#define MESSAGEPACK_FORMATTERS_INT32FORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB55FB0)
-#define MESSAGEPACK_FORMATTERS_INT32FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB55FD0)
-#define MESSAGEPACK_FORMATTERS_INT32FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB55FC0)
+#define MESSAGEPACK_FORMATTERS_INT32FORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17494F30)
+#define MESSAGEPACK_FORMATTERS_INT32FORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x17494E70)
+#define MESSAGEPACK_FORMATTERS_INT32FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17494E90)
+#define MESSAGEPACK_FORMATTERS_INT32FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17494E80)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Int32Formatter_TypeDefinitionIndex = 7447;
+	inline static constexpr unsigned int Int32Formatter_TypeDefinitionIndex = 7458;
 
 	class Int32Formatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::Int32Formatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::Int32Formatter**)UnitySDK::FromName("MessagePack.Formatters", "Int32Formatter")->GetStaticField(0x486D0);
+			return (::MessagePack::Formatters::Int32Formatter**)UnitySDK::FromName("MessagePack.Formatters", "Int32Formatter")->GetStaticField(0x2C630);
 		}
 
 		::System::Void _ctor()

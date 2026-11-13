@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByIsTriggeredBlockDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCLLFGOIMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156C29F0)
-#define FCLLFGOIMPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156C2A20)
+#define FCLLFGOIMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C028BF0)
+#define FCLLFGOIMPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C028C20)
 
-inline static constexpr unsigned int FCLLFGOIMPJ_TypeDefinitionIndex = 53843;
+inline static constexpr unsigned int FCLLFGOIMPJ_TypeDefinitionIndex = 55007;
 
 	class FCLLFGOIMPJ
 	{

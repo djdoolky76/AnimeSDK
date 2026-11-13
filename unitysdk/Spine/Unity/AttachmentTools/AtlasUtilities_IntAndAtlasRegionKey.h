@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace Spine { class AtlasRegion; }
 
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INTANDATLASREGIONKEY_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INTANDATLASREGIONKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C53840)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INTANDATLASREGIONKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3D9DFE0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INTANDATLASREGIONKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3E335D0)
 
 namespace Spine::Unity::AttachmentTools
 {
-	inline static constexpr unsigned int AtlasUtilities_IntAndAtlasRegionKey_TypeDefinitionIndex = 45113;
+	inline static constexpr unsigned int AtlasUtilities_IntAndAtlasRegionKey_TypeDefinitionIndex = 46188;
 
 	struct alignas(8) AtlasUtilities_IntAndAtlasRegionKey
 	{

@@ -6,21 +6,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleBuffConditionRow; }
 
-#define RPG_GAMECORE_MARBLEBUFFCONDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D809C40)
-#define RPG_GAMECORE_MARBLEBUFFCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D809A20)
+#define RPG_GAMECORE_MARBLEBUFFCONDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F093CF0)
+#define RPG_GAMECORE_MARBLEBUFFCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F093AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleBuffConditionRow_TypeDefinitionIndex = 11884;
+	inline static constexpr unsigned int MarbleBuffConditionRow_TypeDefinitionIndex = 11941;
 
 	class MarbleBuffConditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::Single DrawTypeParameter; // 0x18
-		::RPG::GameCore::MarbleBuffConditionType DrawType; // 0x1C
-		::System::UInt32 ID; // 0x20
-		::RPG::GameCore::MarbleBuffOperationType OperationType; // 0x24
+		::System::UInt32 ID; // 0x18
+		::RPG::GameCore::MarbleBuffOperationType OperationType; // 0x1C
+		::System::Single DrawTypeParameter; // 0x20
+		::RPG::GameCore::MarbleBuffConditionType DrawType; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBUFFCONDITIONROW_CTOR_OFFSET))(this);

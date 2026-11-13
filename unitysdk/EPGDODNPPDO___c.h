@@ -4,18 +4,18 @@
 class EPGDODNPPDO;
 namespace System { class Object; }
 
-#define EPGDODNPPDO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2DDD70)
-#define EPGDODNPPDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2DDDA0)
-#define EPGDODNPPDO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2DDDB0)
+#define EPGDODNPPDO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD92B10)
+#define EPGDODNPPDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD92B40)
+#define EPGDODNPPDO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FD92B50)
 
-inline static constexpr unsigned int EPGDODNPPDO___c_TypeDefinitionIndex = 30399;
+inline static constexpr unsigned int EPGDODNPPDO___c_TypeDefinitionIndex = 31305;
 
 	class EPGDODNPPDO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48DE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x519B0);
 		}
 
 		static ::System::Void _cctor()

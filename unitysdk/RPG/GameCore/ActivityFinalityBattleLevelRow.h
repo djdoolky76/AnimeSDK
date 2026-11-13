@@ -5,24 +5,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityFinalityBattleLevelRow; }
 
-#define RPG_GAMECORE_ACTIVITYFINALITYBATTLELEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D336EA0)
-#define RPG_GAMECORE_ACTIVITYFINALITYBATTLELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D336BE0)
+#define RPG_GAMECORE_ACTIVITYFINALITYBATTLELEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E514160)
+#define RPG_GAMECORE_ACTIVITYFINALITYBATTLELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E513EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFinalityBattleLevelRow_TypeDefinitionIndex = 11609;
+	inline static constexpr unsigned int ActivityFinalityBattleLevelRow_TypeDefinitionIndex = 11660;
 
 	class ActivityFinalityBattleLevelRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* SupportingAllRoleList; // 0x10
+		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x10
 		::Il2CppArray<::System::UInt32>* SupportingRoleList; // 0x18
-		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x20
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 BattleAreaID; // 0x2C
-		::System::UInt32 StageID; // 0x30
-		::RPG::GameCore::FinalityBattleDifficultyLevel DifficultyLevel; // 0x34
-		::System::UInt32 UnlockQuest; // 0x38
+		::Il2CppArray<::System::UInt32>* SupportingAllRoleList; // 0x20
+		::RPG::GameCore::FinalityBattleDifficultyLevel DifficultyLevel; // 0x28
+		::System::UInt32 UnlockQuest; // 0x2C
+		::System::UInt32 BattleAreaID; // 0x30
+		::System::UInt32 ID; // 0x34
+		::System::UInt32 StageID; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYFINALITYBATTLELEVELROW_CTOR_OFFSET))(this);

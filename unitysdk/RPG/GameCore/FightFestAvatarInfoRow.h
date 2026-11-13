@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FightFestAvatarInfoRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTAVATARINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6736B0)
-#define RPG_GAMECORE_FIGHTFESTAVATARINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6733F0)
+#define RPG_GAMECORE_FIGHTFESTAVATARINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC98D40)
+#define RPG_GAMECORE_FIGHTFESTAVATARINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1FC98A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestAvatarInfoRow_TypeDefinitionIndex = 13279;
+	inline static constexpr unsigned int FightFestAvatarInfoRow_TypeDefinitionIndex = 13351;
 
 	class FightFestAvatarInfoRow : public ::System::Object
 	{
 	public:
-		::System::String* FullFigurePath; // 0x10
-		::Il2CppArray<::System::Single>* FigureOffset; // 0x18
-		::System::String* VSImgPath; // 0x20
+		::Il2CppArray<::System::Single>* FigureOffset; // 0x10
+		::System::String* VSImgPath; // 0x18
+		::System::String* FullFigurePath; // 0x20
 		::System::String* IconPath; // 0x28
 		::System::String* HalfFigurePath; // 0x30
 		::RPG::Client::TextID AvatarName; // 0x38

@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCAREMITTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6AC60)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCAREMITTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFE2B0)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarEmitter_TypeDefinitionIndex = 82224;
+	inline static constexpr unsigned int MonoCityCarEmitter_TypeDefinitionIndex = 85097;
 
 	class MonoCityCarEmitter : public ::UnityEngine::MonoBehaviour
 	{

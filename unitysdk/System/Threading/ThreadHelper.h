@@ -6,12 +6,12 @@ namespace System { class Object; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_THREADING_THREADHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C131720)
-#define SYSTEM_THREADING_THREADHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C130740)
-#define SYSTEM_THREADING_THREADHELPER_SETEXECUTIONCONTEXTHELPER_OFFSET UNITYSDK_OFFSET(0x1C131780)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_1_OFFSET UNITYSDK_OFFSET(0x1C1318F0)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C131790)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_OFFSET UNITYSDK_OFFSET(0x1C131840)
+#define SYSTEM_THREADING_THREADHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD7D180)
+#define SYSTEM_THREADING_THREADHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD7C1A0)
+#define SYSTEM_THREADING_THREADHELPER_SETEXECUTIONCONTEXTHELPER_OFFSET UNITYSDK_OFFSET(0x1DD7D1E0)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_1_OFFSET UNITYSDK_OFFSET(0x1DD7D3A0)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1DD7D1F0)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_OFFSET UNITYSDK_OFFSET(0x1DD7D2D0)
 
 namespace System::Threading
 {
@@ -20,12 +20,12 @@ namespace System::Threading
 	class ThreadHelper : public ::System::Object
 	{
 	public:
-		::System::Delegate* _start; // 0x10
-		::System::Threading::ExecutionContext* _executionContext; // 0x18
+		::System::Threading::ExecutionContext* _executionContext; // 0x10
+		::System::Delegate* _start; // 0x18
 		::System::Object* _startArg; // 0x20
 		static ::System::Threading::ContextCallback** StaticGet__ccb()
 		{
-			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading", "ThreadHelper")->GetStaticField(0x2A860);
+			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading", "ThreadHelper")->GetStaticField(0x18CE0);
 		}
 
 		static ::System::Void _cctor()

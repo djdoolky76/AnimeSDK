@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyVersusBarProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FAGLPPJIPIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1566F7D0)
-#define FAGLPPJIPIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1566F800)
+#define FAGLPPJIPIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA276C0)
+#define FAGLPPJIPIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BA276F0)
 
-inline static constexpr unsigned int FAGLPPJIPIN_TypeDefinitionIndex = 55801;
+inline static constexpr unsigned int FAGLPPJIPIN_TypeDefinitionIndex = 57004;
 
 	class FAGLPPJIPIN
 	{

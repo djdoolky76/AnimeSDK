@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int TextMotionState_TypeDefinitionIndex = 73541;
+	inline static constexpr unsigned int TextMotionState_TypeDefinitionIndex = 75664;
 
 	enum class TextMotionState : ::System::Int32
 	{

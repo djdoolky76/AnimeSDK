@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BoxingClubLevelInstance; }
 
-#define DGEKJJIIKAD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE83B1A0)
-#define DGEKJJIIKAD_CTOR_OFFSET UNITYSDK_OFFSET(0xE83B2E0)
+#define DGEKJJIIKAD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1ADAF9A0)
+#define DGEKJJIIKAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAFAE0)
 
-inline static constexpr unsigned int DGEKJJIIKAD_TypeDefinitionIndex = 62950;
+inline static constexpr unsigned int DGEKJJIIKAD_TypeDefinitionIndex = 64388;
 
 	class DGEKJJIIKAD : public ::System::Object
 	{

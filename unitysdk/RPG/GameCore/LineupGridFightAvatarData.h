@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LineupGridFightAvatarData; }
 
-#define RPG_GAMECORE_LINEUPGRIDFIGHTAVATARDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A79D0)
-#define RPG_GAMECORE_LINEUPGRIDFIGHTAVATARDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A7810)
+#define RPG_GAMECORE_LINEUPGRIDFIGHTAVATARDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2568A0)
+#define RPG_GAMECORE_LINEUPGRIDFIGHTAVATARDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F2566E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupGridFightAvatarData_TypeDefinitionIndex = 18127;
+	inline static constexpr unsigned int LineupGridFightAvatarData_TypeDefinitionIndex = 18289;
 
 	class LineupGridFightAvatarData : public ::RPG::GameCore::JsonConfig
 	{

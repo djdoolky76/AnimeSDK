@@ -4,43 +4,43 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define LAPOLFIKCCF_AKBJLLBEAJL_OFFSET UNITYSDK_OFFSET(0xB5E3630)
-#define LAPOLFIKCCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E39E0)
-#define LAPOLFIKCCF_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB5E34D0)
+#define LAPOLFIKCCF_AKBJLLBEAJL_OFFSET UNITYSDK_OFFSET(0x1B286B30)
+#define LAPOLFIKCCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B286EE0)
+#define LAPOLFIKCCF_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x1B2869D0)
 
-inline static constexpr unsigned int LAPOLFIKCCF_TypeDefinitionIndex = 62317;
+inline static constexpr unsigned int LAPOLFIKCCF_TypeDefinitionIndex = 63730;
 
 	class LAPOLFIKCCF : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Queue_1<::System::String*>** StaticGet_LCCALPJDKAH()
 		{
-			return (::System::Collections::Generic::Queue_1<::System::String*>**)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x2E000);
+			return (::System::Collections::Generic::Queue_1<::System::String*>**)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x2CDC0);
 		}
 
 		static ::System::Single* StaticGet_GLOLNLDCKEM()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x98A0);
-		}
-
-		static ::System::Single* StaticGet_CENECBNFGLD()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x98A4);
-		}
-
-		static ::System::Single* StaticGet_PGFBFDJIDLM()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x98A8);
+			return (::System::Single*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x8FB0);
 		}
 
 		static ::System::Boolean* StaticGet_IJCDEINGADN()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x98AC);
+			return (::System::Boolean*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x8FB4);
+		}
+
+		static ::System::Single* StaticGet_PGFBFDJIDLM()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x8FB8);
 		}
 
 		static ::System::Single* StaticGet_EPFHHGKHJOG()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x98B0);
+			return (::System::Single*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x8FBC);
+		}
+
+		static ::System::Single* StaticGet_CENECBNFGLD()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "LAPOLFIKCCF")->GetStaticField(0x8FC0);
 		}
 
 		// static const ::System::Object GELOACJEJCL; // 0x0

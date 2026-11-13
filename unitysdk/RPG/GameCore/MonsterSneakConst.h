@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterSneakConst; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERSNEAKCONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88C970)
-#define RPG_GAMECORE_MONSTERSNEAKCONST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88C5A0)
+#define RPG_GAMECORE_MONSTERSNEAKCONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E47D720)
+#define RPG_GAMECORE_MONSTERSNEAKCONST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E47D350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterSneakConst_TypeDefinitionIndex = 17122;
+	inline static constexpr unsigned int MonsterSneakConst_TypeDefinitionIndex = 17289;
 
 	class MonsterSneakConst : public ::RPG::GameCore::JsonConfig
 	{

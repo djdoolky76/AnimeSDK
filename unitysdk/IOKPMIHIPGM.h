@@ -4,9 +4,10 @@
 #include "unitysdk/RPG/GameCore/ElationTimeAtmosphereType.h"
 class LCJPDOOLBEC;
 class NEPOAOEADBE;
+namespace RPG::Client { class BattleAvatarNihiluxCustomUIData; }
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int IOKPMIHIPGM_TypeDefinitionIndex = 55613;
+inline static constexpr unsigned int IOKPMIHIPGM_TypeDefinitionIndex = 56809;
 
 	struct alignas(8) IOKPMIHIPGM
 	{
@@ -19,4 +20,5 @@ inline static constexpr unsigned int IOKPMIHIPGM_TypeDefinitionIndex = 55613;
 		::RPG::GameCore::GameEntity* BBMMBAKDJBC; // 0x20
 		::NEPOAOEADBE* KHPBHJFMPHN; // 0x28
 		::LCJPDOOLBEC* LPPKJFNJJKO; // 0x30
+		::RPG::Client::BattleAvatarNihiluxCustomUIData* NPDCLPNMNMN; // 0x38
 	};

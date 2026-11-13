@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableDynamicSkillTargetSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCFHBCAKBKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB32DD30)
-#define KCFHBCAKBKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB32DD60)
+#define KCFHBCAKBKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A480F10)
+#define KCFHBCAKBKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A480F40)
 
-inline static constexpr unsigned int KCFHBCAKBKO_TypeDefinitionIndex = 55013;
+inline static constexpr unsigned int KCFHBCAKBKO_TypeDefinitionIndex = 56187;
 
 	class KCFHBCAKBKO
 	{

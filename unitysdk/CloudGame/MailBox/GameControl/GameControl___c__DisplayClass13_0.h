@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFE5D0)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__DISPLAYCLASS13_0__CONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x1BBFE5E0)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B439BF0)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__DISPLAYCLASS13_0__CONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x1B439C00)
 
 namespace CloudGame::MailBox::GameControl
 {
-	inline static constexpr unsigned int GameControl___c__DisplayClass13_0_TypeDefinitionIndex = 7548;
+	inline static constexpr unsigned int GameControl___c__DisplayClass13_0_TypeDefinitionIndex = 7559;
 
 	class GameControl___c__DisplayClass13_0 : public ::System::Object
 	{

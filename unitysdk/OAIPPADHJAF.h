@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFilterAliveState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OAIPPADHJAF_CTOR_OFFSET UNITYSDK_OFFSET(0xBD201D0)
-#define OAIPPADHJAF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBD201F0)
+#define OAIPPADHJAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB62230)
+#define OAIPPADHJAF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1AB62250)
 
-inline static constexpr unsigned int OAIPPADHJAF_TypeDefinitionIndex = 59256;
+inline static constexpr unsigned int OAIPPADHJAF_TypeDefinitionIndex = 60533;
 
 	class OAIPPADHJAF
 	{

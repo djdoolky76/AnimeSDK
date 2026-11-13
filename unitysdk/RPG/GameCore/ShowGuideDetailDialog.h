@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class ShowGuideDetailDialog; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB08D0)
-#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB08E0)
-#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB08A0)
+#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3E9A40)
+#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3E9A50)
+#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3E9A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideDetailDialog_TypeDefinitionIndex = 24348;
+	inline static constexpr unsigned int ShowGuideDetailDialog_TypeDefinitionIndex = 24807;
 
 	class ShowGuideDetailDialog : public ::RPG::GameCore::TaskConfig
 	{

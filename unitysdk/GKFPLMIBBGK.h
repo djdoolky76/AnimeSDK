@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define GKFPLMIBBGK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A8AE50)
+#define GKFPLMIBBGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8D1F60)
 
-inline static constexpr unsigned int GKFPLMIBBGK_TypeDefinitionIndex = 48362;
+inline static constexpr unsigned int GKFPLMIBBGK_TypeDefinitionIndex = 49403;
 
 	class GKFPLMIBBGK : public ::UnityEngine::Playables::PlayableBehaviour
 	{

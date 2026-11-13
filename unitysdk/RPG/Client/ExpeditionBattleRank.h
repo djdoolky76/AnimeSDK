@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleRank_TypeDefinitionIndex = 63846;
+	inline static constexpr unsigned int ExpeditionBattleRank_TypeDefinitionIndex = 65288;
 
 	enum class ExpeditionBattleRank : ::System::Int32
 	{

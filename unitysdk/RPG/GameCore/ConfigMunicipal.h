@@ -10,12 +10,12 @@ namespace RPG::GameCore { class MunicipalQualitySetting; }
 namespace RPG::GameCore { class NpcWalkStyleWeightInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONFIGMUNICIPAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A8520)
-#define RPG_GAMECORE_CONFIGMUNICIPAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A82F0)
+#define RPG_GAMECORE_CONFIGMUNICIPAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE1D80)
+#define RPG_GAMECORE_CONFIGMUNICIPAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFE1B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigMunicipal_TypeDefinitionIndex = 16917;
+	inline static constexpr unsigned int ConfigMunicipal_TypeDefinitionIndex = 17084;
 
 	class ConfigMunicipal : public ::RPG::GameCore::JsonConfig
 	{

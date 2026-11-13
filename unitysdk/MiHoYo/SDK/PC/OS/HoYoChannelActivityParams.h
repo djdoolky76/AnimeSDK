@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS { class XboxActivityParamExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEEEB0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BEF6E90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0E7970)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACTIVITYPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1B0EF950)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelActivityParams_TypeDefinitionIndex = 8635;
+	inline static constexpr unsigned int HoYoChannelActivityParams_TypeDefinitionIndex = 8644;
 
 	class HoYoChannelActivityParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

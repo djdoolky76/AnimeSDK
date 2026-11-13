@@ -4,18 +4,18 @@
 class KFFNAEDMDOD;
 namespace System { class Object; }
 
-#define KFFNAEDMDOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7EB420)
-#define KFFNAEDMDOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7EB460)
-#define KFFNAEDMDOD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7EB470)
+#define KFFNAEDMDOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9AB530)
+#define KFFNAEDMDOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9AB570)
+#define KFFNAEDMDOD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F9AB580)
 
-inline static constexpr unsigned int KFFNAEDMDOD___c_TypeDefinitionIndex = 27344;
+inline static constexpr unsigned int KFFNAEDMDOD___c_TypeDefinitionIndex = 27875;
 
 	class KFFNAEDMDOD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12970);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC170);
 		}
 
 		static ::System::Void _cctor()

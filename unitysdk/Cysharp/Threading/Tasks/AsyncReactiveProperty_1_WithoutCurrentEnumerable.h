@@ -5,7 +5,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class AsyncReactiveP
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AsyncReactiveProperty_1_WithoutCurrentEnumerable_TypeDefinitionIndex = 38123;
+	inline static constexpr unsigned int AsyncReactiveProperty_1_WithoutCurrentEnumerable_TypeDefinitionIndex = 39052;
 
 	template <typename T>
 	class AsyncReactiveProperty_1_WithoutCurrentEnumerable : public ::System::Object

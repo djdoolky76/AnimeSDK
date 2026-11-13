@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpenTarotBookletPageForCharater; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HDLNFMINMBN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C30B80)
-#define HDLNFMINMBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C30BB0)
+#define HDLNFMINMBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7D1AA0)
+#define HDLNFMINMBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7D1AD0)
 
-inline static constexpr unsigned int HDLNFMINMBN_TypeDefinitionIndex = 53330;
+inline static constexpr unsigned int HDLNFMINMBN_TypeDefinitionIndex = 54492;
 
 	class HDLNFMINMBN
 	{

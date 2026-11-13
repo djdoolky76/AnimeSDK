@@ -3,10 +3,10 @@
 class INBHPLNBIOC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJFHMHKLFBG_CTOR_OFFSET UNITYSDK_OFFSET(0x157B7AD0)
-#define FJFHMHKLFBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157B7B00)
+#define FJFHMHKLFBG_CTOR_OFFSET UNITYSDK_OFFSET(0x19821DC0)
+#define FJFHMHKLFBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19821DF0)
 
-inline static constexpr unsigned int FJFHMHKLFBG_TypeDefinitionIndex = 55780;
+inline static constexpr unsigned int FJFHMHKLFBG_TypeDefinitionIndex = 56983;
 
 	class FJFHMHKLFBG
 	{

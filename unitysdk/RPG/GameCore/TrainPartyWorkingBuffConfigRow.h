@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyWorkingBuffConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC08D00)
-#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC08AA0)
+#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3125E0)
+#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E312380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyWorkingBuffConfigRow_TypeDefinitionIndex = 15320;
+	inline static constexpr unsigned int TrainPartyWorkingBuffConfigRow_TypeDefinitionIndex = 15476;
 
 	class TrainPartyWorkingBuffConfigRow : public ::System::Object
 	{

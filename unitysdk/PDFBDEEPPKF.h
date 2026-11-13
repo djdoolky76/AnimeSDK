@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 
-#define PDFBDEEPPKF_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x1CC660C0)
-#define PDFBDEEPPKF_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC66010)
-#define PDFBDEEPPKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC65CA0)
+#define PDFBDEEPPKF_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x20938CA0)
+#define PDFBDEEPPKF_CONVERT_OFFSET UNITYSDK_OFFSET(0x20938BF0)
+#define PDFBDEEPPKF_CTOR_OFFSET UNITYSDK_OFFSET(0x20938880)
 
-inline static constexpr unsigned int PDFBDEEPPKF_TypeDefinitionIndex = 43894;
+inline static constexpr unsigned int PDFBDEEPPKF_TypeDefinitionIndex = 44969;
 
 	class PDFBDEEPPKF : public ::System::Object
 	{

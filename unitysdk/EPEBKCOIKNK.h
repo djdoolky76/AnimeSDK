@@ -8,18 +8,18 @@ class PNNPEPDNFEA_PEAIKOGICOC;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EPEBKCOIKNK_CTOR_OFFSET UNITYSDK_OFFSET(0x155C6A60)
-#define EPEBKCOIKNK_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x155C6800)
-#define EPEBKCOIKNK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x155C6930)
+#define EPEBKCOIKNK_CTOR_OFFSET UNITYSDK_OFFSET(0x16B35300)
+#define EPEBKCOIKNK_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x16B350A0)
+#define EPEBKCOIKNK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x16B351D0)
 
-inline static constexpr unsigned int EPEBKCOIKNK_TypeDefinitionIndex = 54136;
+inline static constexpr unsigned int EPEBKCOIKNK_TypeDefinitionIndex = 55300;
 
 	class EPEBKCOIKNK : public ::System::Object
 	{
 	public:
 		::AGOFDNJAOMA* EMOAGCAHICO; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CIKDOOGLNDF; // 0x18
-		::PNNPEPDNFEA_PEAIKOGICOC* NKCPNIPOACB; // 0x20
+		::PNNPEPDNFEA_PEAIKOGICOC* NKCPNIPOACB; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CIKDOOGLNDF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPEBKCOIKNK_CTOR_OFFSET))(this);

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitEnterBattleTransitionFinish; }
 
-#define GHCKBFDGAEB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A09AD0)
-#define GHCKBFDGAEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A09AE0)
-#define GHCKBFDGAEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A09B70)
-#define GHCKBFDGAEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A09B20)
-#define GHCKBFDGAEB_TICK_OFFSET UNITYSDK_OFFSET(0x15A09CF0)
+#define GHCKBFDGAEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B2FF0)
+#define GHCKBFDGAEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B4B3000)
+#define GHCKBFDGAEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4B3090)
+#define GHCKBFDGAEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B4B3040)
+#define GHCKBFDGAEB_TICK_OFFSET UNITYSDK_OFFSET(0x1B4B3250)
 
-inline static constexpr unsigned int GHCKBFDGAEB_TypeDefinitionIndex = 55809;
+inline static constexpr unsigned int GHCKBFDGAEB_TypeDefinitionIndex = 57012;
 
 	class GHCKBFDGAEB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::WaitEnterBattleTransitionFinish* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::WaitEnterBattleTransitionFinish* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitEnterBattleTransitionFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitEnterBattleTransitionFinish*))((::PBYTE)hIl2Cpp + GHCKBFDGAEB_CTOR_OFFSET))(this, a1, a2);

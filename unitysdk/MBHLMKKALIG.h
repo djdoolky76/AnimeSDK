@@ -5,11 +5,11 @@ class NDPFOOJIAIJ;
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MBHLMKKALIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB854710)
-#define MBHLMKKALIG_GDGIANNMOKP_OFFSET UNITYSDK_OFFSET(0xB854D90)
-#define MBHLMKKALIG_JODCDEFKKOM_OFFSET UNITYSDK_OFFSET(0xB854720)
+#define MBHLMKKALIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B820BA0)
+#define MBHLMKKALIG_GDGIANNMOKP_OFFSET UNITYSDK_OFFSET(0x1B8211A0)
+#define MBHLMKKALIG_JODCDEFKKOM_OFFSET UNITYSDK_OFFSET(0x1B820BB0)
 
-inline static constexpr unsigned int MBHLMKKALIG_TypeDefinitionIndex = 65458;
+inline static constexpr unsigned int MBHLMKKALIG_TypeDefinitionIndex = 67354;
 
 	class MBHLMKKALIG : public ::System::Object
 	{

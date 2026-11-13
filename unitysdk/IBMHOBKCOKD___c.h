@@ -7,29 +7,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IBMHOBKCOKD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E342B0)
-#define IBMHOBKCOKD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E342F0)
-#define IBMHOBKCOKD___C__DEEPCOPY_B__3_0_OFFSET UNITYSDK_OFFSET(0x15E34300)
-#define IBMHOBKCOKD___C__DEEPCOPY_B__3_1_OFFSET UNITYSDK_OFFSET(0x15E34310)
+#define IBMHOBKCOKD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x188BE560)
+#define IBMHOBKCOKD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x188BE5A0)
+#define IBMHOBKCOKD___C__DEEPCOPY_B__3_0_OFFSET UNITYSDK_OFFSET(0x188BE5B0)
+#define IBMHOBKCOKD___C__DEEPCOPY_B__3_1_OFFSET UNITYSDK_OFFSET(0x188BE5C0)
 
-inline static constexpr unsigned int IBMHOBKCOKD___c_TypeDefinitionIndex = 78736;
+inline static constexpr unsigned int IBMHOBKCOKD___c_TypeDefinitionIndex = 81471;
 
 	class IBMHOBKCOKD___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>** StaticGet___9__3_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CA10);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CA18);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x356C0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Int32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CA20);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x356C8);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>** StaticGet___9__3_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x356D0);
 		}
 
 		static ::System::Void _cctor()

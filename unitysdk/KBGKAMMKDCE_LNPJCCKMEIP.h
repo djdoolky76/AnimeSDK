@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class LevelPedestrianFlowInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KBGKAMMKDCE_LNPJCCKMEIP_CTOR_OFFSET UNITYSDK_OFFSET(0xB2FA390)
-#define KBGKAMMKDCE_LNPJCCKMEIP_EPKMKNKGDDF_OFFSET UNITYSDK_OFFSET(0xB2FA4C0)
+#define KBGKAMMKDCE_LNPJCCKMEIP_CTOR_OFFSET UNITYSDK_OFFSET(0x19DDBD10)
+#define KBGKAMMKDCE_LNPJCCKMEIP_EPKMKNKGDDF_OFFSET UNITYSDK_OFFSET(0x19DDBE40)
 
-inline static constexpr unsigned int KBGKAMMKDCE_LNPJCCKMEIP_TypeDefinitionIndex = 69225;
+inline static constexpr unsigned int KBGKAMMKDCE_LNPJCCKMEIP_TypeDefinitionIndex = 71179;
 
 	class KBGKAMMKDCE_LNPJCCKMEIP : public ::System::Object
 	{

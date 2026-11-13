@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LIFAJCCCGAD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0C9240)
-#define LIFAJCCCGAD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0C97C0)
-#define LIFAJCCCGAD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D0C93B0)
-#define LIFAJCCCGAD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D0C8CF0)
-#define LIFAJCCCGAD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0C8F80)
-#define LIFAJCCCGAD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0C9450)
-#define LIFAJCCCGAD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0C94A0)
-#define LIFAJCCCGAD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0C9280)
-#define LIFAJCCCGAD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D0C8F20)
-#define LIFAJCCCGAD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D0C90F0)
-#define LIFAJCCCGAD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0C9310)
-#define LIFAJCCCGAD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0C8C70)
+#define LIFAJCCCGAD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E964E80)
+#define LIFAJCCCGAD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E965400)
+#define LIFAJCCCGAD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E964FF0)
+#define LIFAJCCCGAD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E964930)
+#define LIFAJCCCGAD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E964BC0)
+#define LIFAJCCCGAD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E965090)
+#define LIFAJCCCGAD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E9650E0)
+#define LIFAJCCCGAD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E964EC0)
+#define LIFAJCCCGAD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E964B60)
+#define LIFAJCCCGAD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E964D30)
+#define LIFAJCCCGAD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E964F50)
+#define LIFAJCCCGAD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E9648B0)
 
-inline static constexpr unsigned int LIFAJCCCGAD_TypeDefinitionIndex = 14700;
+inline static constexpr unsigned int LIFAJCCCGAD_TypeDefinitionIndex = 14856;
 
 	class LIFAJCCCGAD : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleEffectRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleEffectRow*>**)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0x3BAB0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0x3A0E0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0x3BAB8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0x3A0E8);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleEffectRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0x3BAC0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleEffectRow*>**)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0x3A0F0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0xBFB0);
+			return (::System::Boolean*)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0xB8E0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0xBFB1);
+			return (::System::Byte*)UnitySDK::FromName("", "LIFAJCCCGAD")->GetStaticField(0xB8E1);
 		}
 
 		static ::System::Void _cctor()

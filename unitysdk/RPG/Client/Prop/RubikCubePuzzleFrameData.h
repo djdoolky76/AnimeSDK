@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAMEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDDAA1C0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAMEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x17487F60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleFrameData_TypeDefinitionIndex = 78836;
+	inline static constexpr unsigned int RubikCubePuzzleFrameData_TypeDefinitionIndex = 81607;
 
 	class RubikCubePuzzleFrameData : public ::System::Object
 	{

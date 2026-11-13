@@ -5,27 +5,26 @@
 class JFDPLMMJDJD;
 namespace System { class String; }
 
-#define DBDIHLMEFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD30A0)
-#define DBDIHLMEFAJ_GET_CMT_OFFSET UNITYSDK_OFFSET(0xDFD3070)
-#define DBDIHLMEFAJ_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0xDFD3050)
-#define DBDIHLMEFAJ_GET_ID_OFFSET UNITYSDK_OFFSET(0xDFD3040)
-#define DBDIHLMEFAJ_GET_ISPOSTER_OFFSET UNITYSDK_OFFSET(0xDFD3090)
-#define DBDIHLMEFAJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDFD3060)
-#define DBDIHLMEFAJ_GET_PARENT_OFFSET UNITYSDK_OFFSET(0xDFD3080)
+#define DBDIHLMEFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B144A80)
+#define DBDIHLMEFAJ_GET_CMT_OFFSET UNITYSDK_OFFSET(0x1B144A50)
+#define DBDIHLMEFAJ_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0x1B144A30)
+#define DBDIHLMEFAJ_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B144A20)
+#define DBDIHLMEFAJ_GET_ISPOSTER_OFFSET UNITYSDK_OFFSET(0x1B144A70)
+#define DBDIHLMEFAJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B144A40)
+#define DBDIHLMEFAJ_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1B144A60)
 
-inline static constexpr unsigned int DBDIHLMEFAJ_TypeDefinitionIndex = 80141;
+inline static constexpr unsigned int DBDIHLMEFAJ_TypeDefinitionIndex = 82918;
 
 	class DBDIHLMEFAJ : public ::System::Object
 	{
 	public:
 		::System::String* _HeadIcon_k__BackingField; // 0x10
-		::System::UInt32 _Parent_k__BackingField; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _Name_k__BackingField; // 0x20
-		::RPG::Client::TextID _Cmt_k__BackingField; // 0x30
-		::System::Boolean _IsPoster_k__BackingField; // 0x40
-		::System::Byte _padding1[0x3];
-		::System::UInt32 _ID_k__BackingField; // 0x44
+		::RPG::Client::TextID _Cmt_k__BackingField; // 0x18
+		::System::Boolean _IsPoster_k__BackingField; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _Parent_k__BackingField; // 0x2C
+		::RPG::Client::TextID _Name_k__BackingField; // 0x30
+		::System::UInt32 _ID_k__BackingField; // 0x40
 		::System::Void _ctor(::JFDPLMMJDJD* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::JFDPLMMJDJD*))((::PBYTE)hIl2Cpp + DBDIHLMEFAJ_CTOR_OFFSET))(this, a1);

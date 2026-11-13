@@ -5,31 +5,31 @@ class BJAPDDEENCN;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC11A30)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC11A70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C___DOFORCEREFRESHDICEBATTLEGAMEPAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0xCC11A80)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C___DOFORCEREFRESHDICEBATTLEGAMEPAGE_B__5_1_OFFSET UNITYSDK_OFFSET(0xCC11AA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB65DA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB65DE0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C___DOFORCEREFRESHDICEBATTLEGAMEPAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1CB65DF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C___DOFORCEREFRESHDICEBATTLEGAMEPAGE_B__5_1_OFFSET UNITYSDK_OFFSET(0x1CB65E10)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattleContext___c_TypeDefinitionIndex = 76034;
+	inline static constexpr unsigned int DiceCombatBattleContext___c_TypeDefinitionIndex = 78361;
 
 	class DiceCombatBattleContext___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x28D50);
+		}
+
 		static ::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x1DFD0);
+			return (::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x28D58);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x1DFD8);
-		}
-
-		static ::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x1DFE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x28D60);
 		}
 
 		static ::System::Void _cctor()

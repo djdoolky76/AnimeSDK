@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DynamicResScalePolicyType_TypeDefinitionIndex = 35482;
+	inline static constexpr unsigned int DynamicResScalePolicyType_TypeDefinitionIndex = 36410;
 
 	enum class DynamicResScalePolicyType : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 class HDLCAPDIKJI;
 namespace System { class Object; }
 
-#define HDLCAPDIKJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E523CD0)
-#define HDLCAPDIKJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E523D10)
-#define HDLCAPDIKJI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E523D20)
+#define HDLCAPDIKJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F879EE0)
+#define HDLCAPDIKJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F879F20)
+#define HDLCAPDIKJI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F879F30)
 
-inline static constexpr unsigned int HDLCAPDIKJI___c_TypeDefinitionIndex = 25763;
+inline static constexpr unsigned int HDLCAPDIKJI___c_TypeDefinitionIndex = 26260;
 
 	class HDLCAPDIKJI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C2D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28420);
 		}
 
 		static ::System::Void _cctor()

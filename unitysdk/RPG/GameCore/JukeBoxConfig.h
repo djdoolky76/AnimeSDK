@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class JukeBoxConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_JUKEBOXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D775480)
-#define RPG_GAMECORE_JUKEBOXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D775330)
+#define RPG_GAMECORE_JUKEBOXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D928190)
+#define RPG_GAMECORE_JUKEBOXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D928040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JukeBoxConfig_TypeDefinitionIndex = 16397;
+	inline static constexpr unsigned int JukeBoxConfig_TypeDefinitionIndex = 16561;
 
 	class JukeBoxConfig : public ::RPG::GameCore::JsonConfig
 	{

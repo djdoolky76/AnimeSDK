@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletContainer_1_TypeDefinitionIndex = 72385;
+	inline static constexpr unsigned int BookletContainer_1_TypeDefinitionIndex = 74464;
 
 	template <typename T>
 	class BookletContainer_1

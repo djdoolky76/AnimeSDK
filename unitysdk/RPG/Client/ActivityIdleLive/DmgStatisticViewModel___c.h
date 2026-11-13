@@ -5,25 +5,25 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDmgStatisticsUiData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC44ED40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC44ED80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C___REFRESHDMGSTATISTICS_B__7_0_OFFSET UNITYSDK_OFFSET(0xC44ED90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D135E60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D135EA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C___REFRESHDMGSTATISTICS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D135EB0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 75417;
+	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 77744;
 
 	class DmgStatisticViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1C080);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1C088);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1DCC0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1DCC8);
 		}
 
 		static ::System::Void _cctor()

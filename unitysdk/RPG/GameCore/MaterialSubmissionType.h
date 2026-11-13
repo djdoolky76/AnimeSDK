@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialSubmissionType_TypeDefinitionIndex = 11958;
+	inline static constexpr unsigned int MaterialSubmissionType_TypeDefinitionIndex = 12015;
 
 	enum class MaterialSubmissionType : ::System::Int32
 	{

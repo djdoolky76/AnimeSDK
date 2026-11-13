@@ -4,18 +4,18 @@
 class KJIGKPHPELI;
 namespace System { class Object; }
 
-#define KJIGKPHPELI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E840690)
-#define KJIGKPHPELI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8406D0)
-#define KJIGKPHPELI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8406E0)
+#define KJIGKPHPELI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFDEB30)
+#define KJIGKPHPELI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFDEB70)
+#define KJIGKPHPELI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FFDEB80)
 
-inline static constexpr unsigned int KJIGKPHPELI___c_TypeDefinitionIndex = 34569;
+inline static constexpr unsigned int KJIGKPHPELI___c_TypeDefinitionIndex = 35497;
 
 	class KJIGKPHPELI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A930);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16170);
 		}
 
 		static ::System::Void _cctor()

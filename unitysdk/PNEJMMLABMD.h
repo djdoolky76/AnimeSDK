@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class GGJFAFONDHN;
 
-#define PNEJMMLABMD_BAPELIFOAID_OFFSET UNITYSDK_OFFSET(0xC32DE60)
-#define PNEJMMLABMD_GDGOFPCGLIH_OFFSET UNITYSDK_OFFSET(0xC32DF90)
+#define PNEJMMLABMD_BAPELIFOAID_OFFSET UNITYSDK_OFFSET(0x184AC5C0)
+#define PNEJMMLABMD_GDGOFPCGLIH_OFFSET UNITYSDK_OFFSET(0x184AC6F0)
 
-inline static constexpr unsigned int PNEJMMLABMD_TypeDefinitionIndex = 49364;
+inline static constexpr unsigned int PNEJMMLABMD_TypeDefinitionIndex = 50440;
 
 	class PNEJMMLABMD : public ::System::Object
 	{

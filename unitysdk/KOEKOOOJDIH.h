@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RecordCameraRootPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KOEKOOOJDIH_CTOR_OFFSET UNITYSDK_OFFSET(0xB58C770)
-#define KOEKOOOJDIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB58C7A0)
+#define KOEKOOOJDIH_CTOR_OFFSET UNITYSDK_OFFSET(0x190FB910)
+#define KOEKOOOJDIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x190FB940)
 
-inline static constexpr unsigned int KOEKOOOJDIH_TypeDefinitionIndex = 55281;
+inline static constexpr unsigned int KOEKOOOJDIH_TypeDefinitionIndex = 56462;
 
 	class KOEKOOOJDIH
 	{

@@ -5,9 +5,9 @@
 class JNECDENNOOB;
 class OFKKIMABHJD;
 
-#define DMADJEDDOLM_IPGNDDNDKLI_OFFSET UNITYSDK_OFFSET(0xFEB0080)
+#define DMADJEDDOLM_IPGNDDNDKLI_OFFSET UNITYSDK_OFFSET(0x1868D880)
 
-inline static constexpr unsigned int DMADJEDDOLM_TypeDefinitionIndex = 64041;
+inline static constexpr unsigned int DMADJEDDOLM_TypeDefinitionIndex = 65486;
 
 	class DMADJEDDOLM : public ::System::Object
 	{

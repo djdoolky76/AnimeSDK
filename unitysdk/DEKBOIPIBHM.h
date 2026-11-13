@@ -6,10 +6,10 @@
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace System { class Object; }
 
-#define DEKBOIPIBHM_CTOR_OFFSET UNITYSDK_OFFSET(0xE510DB0)
-#define DEKBOIPIBHM_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE510D20)
+#define DEKBOIPIBHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B377D80)
+#define DEKBOIPIBHM_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B377CF0)
 
-inline static constexpr unsigned int DEKBOIPIBHM_TypeDefinitionIndex = 48759;
+inline static constexpr unsigned int DEKBOIPIBHM_TypeDefinitionIndex = 49805;
 
 	class DEKBOIPIBHM : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS108_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCCBCAE0)
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS108_0___GENSHOWADDITEMDIALOGDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0xCCBD060)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS108_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA45C00)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS108_0___GENSHOWADDITEMDIALOGDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x1DA45C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass108_0_TypeDefinitionIndex = 63559;
+	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass108_0_TypeDefinitionIndex = 65001;
 
 	class DiceCombatModule___c__DisplayClass108_0 : public ::System::Object
 	{
 	public:
 		::System::Object* itemConfig; // 0x10
-		::System::Boolean isAvatar; // 0x18
-		::System::Boolean isNewItem; // 0x19
+		::System::Boolean isNewItem; // 0x18
+		::System::Boolean isAvatar; // 0x19
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS108_0_CTOR_OFFSET))(this);

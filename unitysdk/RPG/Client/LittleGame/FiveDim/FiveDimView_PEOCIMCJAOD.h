@@ -8,29 +8,29 @@ namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW_PEOCIMCJAOD_CLEAR_OFFSET UNITYSDK_OFFSET(0xD44D500)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW_PEOCIMCJAOD_CTOR_OFFSET UNITYSDK_OFFSET(0xD44D560)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW_PEOCIMCJAOD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C3A44A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW_PEOCIMCJAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A4500)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimView_PEOCIMCJAOD_TypeDefinitionIndex = 77192;
+	inline static constexpr unsigned int FiveDimView_PEOCIMCJAOD_TypeDefinitionIndex = 79526;
 
 	class FiveDimView_PEOCIMCJAOD : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* DICDJJOJKGF; // 0x10
-		::System::String* AHCPFFKPOMG; // 0x18
-		::UnityEngine::Transform* PLEHLKEICMD; // 0x20
-		::FiveDimRenderingItem* ODEKPKCDCJJ; // 0x28
+		::UnityEngine::Transform* PLEHLKEICMD; // 0x10
+		::FiveDimRenderingItem* ODEKPKCDCJJ; // 0x18
+		::UnityEngine::Transform* DICDJJOJKGF; // 0x20
+		::System::String* AHCPFFKPOMG; // 0x28
 		::UnityEngine::Renderer* ONEFCLJPGLE; // 0x30
-		::System::Boolean GFNOCJNENHI; // 0x38
-		::System::Boolean NMKBHPCCGOJ; // 0x39
-		::System::Boolean OMEPBAIGEJN; // 0x3A
+		::System::Boolean NMKBHPCCGOJ; // 0x38
+		::System::Boolean OMEPBAIGEJN; // 0x39
+		::System::Boolean MCMPDHLFNPG; // 0x3A
 		::System::Boolean LGNDLIGICAH; // 0x3B
-		::System::Boolean JCEBFAEIBFJ; // 0x3C
-		::System::Boolean MCMPDHLFNPG; // 0x3D
+		::UnityEngine::Vector3 HONCCBNOKHB; // 0x3C
+		::System::Boolean GFNOCJNENHI; // 0x48
+		::System::Boolean JCEBFAEIBFJ; // 0x49
 		::System::Byte _padding0[0x2];
-		::UnityEngine::Vector3 HONCCBNOKHB; // 0x40
 		::UnityEngine::Quaternion NDBGHJDHFLH; // 0x4C
 		::System::Void _ctor()
 		{

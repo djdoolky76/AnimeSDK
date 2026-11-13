@@ -5,15 +5,15 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define HGEFPDEGLEN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C87FF0)
+#define HGEFPDEGLEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C43C080)
 
-inline static constexpr unsigned int HGEFPDEGLEN_TypeDefinitionIndex = 69781;
+inline static constexpr unsigned int HGEFPDEGLEN_TypeDefinitionIndex = 71740;
 
 	class HGEFPDEGLEN : public ::System::Object
 	{
 	public:
-		::EnviromentSystem::EnviromentProfile* EJHLGMEBPBG; // 0x10
-		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* LDANGAKKLHM; // 0x18
+		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* LDANGAKKLHM; // 0x10
+		::EnviromentSystem::EnviromentProfile* EJHLGMEBPBG; // 0x18
 		::RPG::GameCore::EnviromentControlPriority JGLBEJOIDLK; // 0x20
 		::System::Int32 PHCHCBKAEFH; // 0x24
 		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1, ::RPG::GameCore::EnviromentControlPriority a2, ::System::Int32 a3, ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* a4)

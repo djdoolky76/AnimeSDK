@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameWayPointGraphEdge; }
 
-#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHEDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BA0F0)
-#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHEDGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B9FD0)
+#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHEDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F06C6D0)
+#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHEDGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F06C5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameWayPointGraphEdge_TypeDefinitionIndex = 18877;
+	inline static constexpr unsigned int LittleGameWayPointGraphEdge_TypeDefinitionIndex = 19039;
 
 	class LittleGameWayPointGraphEdge : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NotifyHandler; }
 
-inline static constexpr unsigned int JCLLCEJLODJ___O_TypeDefinitionIndex = 62199;
+inline static constexpr unsigned int JCLLCEJLODJ___O_TypeDefinitionIndex = 63612;
 
 	class JCLLCEJLODJ___O : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::NotifyHandler** StaticGet__1___OnAdventureHideLoadingPage()
 		{
-			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6B6D0);
+			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("", "<>O")->GetStaticField(0x66710);
 		}
 
 		static ::RPG::Client::NotifyHandler** StaticGet__0___OnAdventureEntered()
 		{
-			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6B6D8);
+			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("", "<>O")->GetStaticField(0x66718);
 		}
 
 	};

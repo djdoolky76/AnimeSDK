@@ -5,23 +5,23 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
-#define LAFGBJEFHPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5D8F80)
-#define LAFGBJEFHPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D8FB0)
-#define LAFGBJEFHPA___C___TRYCLOSEROGUETOURNENTRANCEPAGEINSTACK_B__11_0_OFFSET UNITYSDK_OFFSET(0xB5D8FC0)
+#define LAFGBJEFHPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B27CED0)
+#define LAFGBJEFHPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B27CF00)
+#define LAFGBJEFHPA___C___TRYCLOSEROGUETOURNENTRANCEPAGEINSTACK_B__11_0_OFFSET UNITYSDK_OFFSET(0x1B27CF10)
 
-inline static constexpr unsigned int LAFGBJEFHPA___c_TypeDefinitionIndex = 67826;
+inline static constexpr unsigned int LAFGBJEFHPA___c_TypeDefinitionIndex = 69771;
 
 	class LAFGBJEFHPA___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64010);
-		}
-
 		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__11_0()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64018);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FBA0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FBA8);
 		}
 
 		static ::System::Void _cctor()

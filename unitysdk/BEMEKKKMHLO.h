@@ -5,10 +5,10 @@ namespace RPG::Client::ActivityMarble { class IMarbleData; }
 namespace RPG::Client::PetMarble { class PetMarbleData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BEMEKKKMHLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB156090)
-#define BEMEKKKMHLO_GETMARBLEBYIDINTERFACE_OFFSET UNITYSDK_OFFSET(0xB156120)
+#define BEMEKKKMHLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A94BAE0)
+#define BEMEKKKMHLO_GETMARBLEBYIDINTERFACE_OFFSET UNITYSDK_OFFSET(0x1A94BB70)
 
-inline static constexpr unsigned int BEMEKKKMHLO_TypeDefinitionIndex = 74735;
+inline static constexpr unsigned int BEMEKKKMHLO_TypeDefinitionIndex = 76883;
 
 	class BEMEKKKMHLO : public ::System::Object
 	{

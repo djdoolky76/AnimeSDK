@@ -8,13 +8,13 @@ namespace RPG::GameCore { class CommonBoardPuzzleInBoard; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGEICDIHIJN_CTOR_OFFSET UNITYSDK_OFFSET(0xCC81B40)
-#define CGEICDIHIJN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC81D30)
-#define CGEICDIHIJN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC82160)
-#define CGEICDIHIJN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC821B0)
-#define CGEICDIHIJN_TICK_OFFSET UNITYSDK_OFFSET(0xCC81EB0)
+#define CGEICDIHIJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1785AB80)
+#define CGEICDIHIJN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1785AD70)
+#define CGEICDIHIJN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1785B1A0)
+#define CGEICDIHIJN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1785B1F0)
+#define CGEICDIHIJN_TICK_OFFSET UNITYSDK_OFFSET(0x1785AEF0)
 
-inline static constexpr unsigned int CGEICDIHIJN_TypeDefinitionIndex = 58034;
+inline static constexpr unsigned int CGEICDIHIJN_TypeDefinitionIndex = 59273;
 
 	class CGEICDIHIJN : public ::GELIALJDFBL
 	{
@@ -22,11 +22,11 @@ inline static constexpr unsigned int CGEICDIHIJN_TypeDefinitionIndex = 58034;
 		::RPG::GameCore::CommonBoardPuzzleInBoard* IGHAHBNLIJA; // 0x18
 		::KFELGAIGHAP* BHENBGMFOLJ; // 0x20
 		::KFELGAIGHAP* GBEAGJJBPAN; // 0x28
-		::KDJNAAOFMMJ* KLOAHJPKECK; // 0x30
-		::RPG::Client::Prop::BlockPuzzleBase* CCAHGFIABKE; // 0x38
-		::KDJNAAOFMMJ* EEMAFOMJMEB; // 0x40
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x48
-		::RPG::GameCore::PropComponent* ALMDGNBNPLB; // 0x50
+		::RPG::Client::Prop::BlockPuzzleBase* CCAHGFIABKE; // 0x30
+		::KDJNAAOFMMJ* KLOAHJPKECK; // 0x38
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x40
+		::RPG::GameCore::PropComponent* ALMDGNBNPLB; // 0x48
+		::KDJNAAOFMMJ* EEMAFOMJMEB; // 0x50
 		::System::Boolean OGIMPEPMDIL; // 0x58
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CommonBoardPuzzleInBoard* a2)
 		{

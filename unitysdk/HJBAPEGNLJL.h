@@ -6,21 +6,21 @@ namespace RPG::GameCore { class MonsterDieCheck; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HJBAPEGNLJL_AIEBAFCKIMJ_OFFSET UNITYSDK_OFFSET(0x15CF5950)
-#define HJBAPEGNLJL_CTOR_OFFSET UNITYSDK_OFFSET(0x15CF5680)
-#define HJBAPEGNLJL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CF56D0)
-#define HJBAPEGNLJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CF5710)
-#define HJBAPEGNLJL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15CF5BA0)
-#define HJBAPEGNLJL_TICK_OFFSET UNITYSDK_OFFSET(0x15CF5C10)
+#define HJBAPEGNLJL_AIEBAFCKIMJ_OFFSET UNITYSDK_OFFSET(0x181F24B0)
+#define HJBAPEGNLJL_CTOR_OFFSET UNITYSDK_OFFSET(0x181F21E0)
+#define HJBAPEGNLJL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x181F2230)
+#define HJBAPEGNLJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x181F2270)
+#define HJBAPEGNLJL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x181F2700)
+#define HJBAPEGNLJL_TICK_OFFSET UNITYSDK_OFFSET(0x181F2770)
 
-inline static constexpr unsigned int HJBAPEGNLJL_TypeDefinitionIndex = 58229;
+inline static constexpr unsigned int HJBAPEGNLJL_TypeDefinitionIndex = 59485;
 
 	class HJBAPEGNLJL : public ::GELIALJDFBL
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CLOPCKJCLMD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::MonsterDieCheck* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::MonsterDieCheck* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonsterDieCheck* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MonsterDieCheck*))((::PBYTE)hIl2Cpp + HJBAPEGNLJL_CTOR_OFFSET))(this, a1, a2);

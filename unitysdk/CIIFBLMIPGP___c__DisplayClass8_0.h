@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class CIIFBLMIPGP;
 
-#define CIIFBLMIPGP___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF74D40)
-#define CIIFBLMIPGP___C__DISPLAYCLASS8_0__TRIGGERWAVETRANSFERPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xCF77A90)
+#define CIIFBLMIPGP___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16E50690)
+#define CIIFBLMIPGP___C__DISPLAYCLASS8_0__TRIGGERWAVETRANSFERPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0x16E533E0)
 
-inline static constexpr unsigned int CIIFBLMIPGP___c__DisplayClass8_0_TypeDefinitionIndex = 69863;
+inline static constexpr unsigned int CIIFBLMIPGP___c__DisplayClass8_0_TypeDefinitionIndex = 71822;
 
 	class CIIFBLMIPGP___c__DisplayClass8_0 : public ::System::Object
 	{

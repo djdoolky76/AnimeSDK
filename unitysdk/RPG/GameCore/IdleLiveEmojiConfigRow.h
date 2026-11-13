@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 class JICLAHGGFJL;
 namespace RPG::GameCore { class IdleLiveEmojiConfigRow; }
 
-#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74C480)
-#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74C330)
+#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE852D0)
+#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE85180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEmojiConfigRow_TypeDefinitionIndex = 11697;
+	inline static constexpr unsigned int IdleLiveEmojiConfigRow_TypeDefinitionIndex = 11754;
 
 	class IdleLiveEmojiConfigRow : public ::System::Object
 	{

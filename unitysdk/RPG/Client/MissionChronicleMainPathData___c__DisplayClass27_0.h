@@ -4,18 +4,18 @@
 namespace RPG::Client { class MissionChronicleSubPathData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C3BD0)
-#define RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS27_0___SETCONNECTIONWAYDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD6C46F0)
+#define RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19665E50)
+#define RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS27_0___SETCONNECTIONWAYDATA_B__0_OFFSET UNITYSDK_OFFSET(0x19666890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionChronicleMainPathData___c__DisplayClass27_0_TypeDefinitionIndex = 66086;
+	inline static constexpr unsigned int MissionChronicleMainPathData___c__DisplayClass27_0_TypeDefinitionIndex = 68019;
 
 	class MissionChronicleMainPathData___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::System::Predicate_1<::RPG::Client::MissionChronicleSubPathData*>* __9__0; // 0x10
-		::RPG::Client::MissionChronicleSubPathData* subPathSingleNodeData; // 0x18
+		::RPG::Client::MissionChronicleSubPathData* subPathSingleNodeData; // 0x10
+		::System::Predicate_1<::RPG::Client::MissionChronicleSubPathData*>* __9__0; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);

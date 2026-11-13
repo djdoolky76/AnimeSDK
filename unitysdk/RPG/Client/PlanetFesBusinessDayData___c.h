@@ -7,31 +7,31 @@ namespace RPG::Client { class PlanetFesEventDataBase; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PLANETFESBUSINESSDAYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB82870)
-#define RPG_CLIENT_PLANETFESBUSINESSDAYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB828B0)
-#define RPG_CLIENT_PLANETFESBUSINESSDAYDATA___C__GET_CUREVENTCOUNT_B__12_0_OFFSET UNITYSDK_OFFSET(0xDB828C0)
-#define RPG_CLIENT_PLANETFESBUSINESSDAYDATA___C__GET_TOTALEVENTCOUNT_B__14_0_OFFSET UNITYSDK_OFFSET(0xDB82980)
+#define RPG_CLIENT_PLANETFESBUSINESSDAYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D84C060)
+#define RPG_CLIENT_PLANETFESBUSINESSDAYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84C0A0)
+#define RPG_CLIENT_PLANETFESBUSINESSDAYDATA___C__GET_CUREVENTCOUNT_B__12_0_OFFSET UNITYSDK_OFFSET(0x1D84C0B0)
+#define RPG_CLIENT_PLANETFESBUSINESSDAYDATA___C__GET_TOTALEVENTCOUNT_B__14_0_OFFSET UNITYSDK_OFFSET(0x1D84C120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesBusinessDayData___c_TypeDefinitionIndex = 66563;
+	inline static constexpr unsigned int PlanetFesBusinessDayData___c_TypeDefinitionIndex = 68499;
 
 	class PlanetFesBusinessDayData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::PlanetFesEventType, ::RPG::Client::PlanetFesEventDataBase*>, ::System::Int64>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::PlanetFesEventType, ::RPG::Client::PlanetFesEventDataBase*>, ::System::Int64>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24230);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::PlanetFesEventType, ::RPG::Client::PlanetFesEventDataBase*>, ::System::Int64>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3E0C0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::PlanetFesEventType, ::RPG::Client::PlanetFesEventDataBase*>, ::System::Int64>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::PlanetFesEventType, ::RPG::Client::PlanetFesEventDataBase*>, ::System::Int64>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24238);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::PlanetFesEventType, ::RPG::Client::PlanetFesEventDataBase*>, ::System::Int64>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3E0C8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24240);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3E0D0);
 		}
 
 		static ::System::Void _cctor()

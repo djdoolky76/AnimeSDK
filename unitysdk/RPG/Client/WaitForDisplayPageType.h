@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaitForDisplayPageType_TypeDefinitionIndex = 62957;
+	inline static constexpr unsigned int WaitForDisplayPageType_TypeDefinitionIndex = 64395;
 
 	enum class WaitForDisplayPageType : ::System::Int32
 	{

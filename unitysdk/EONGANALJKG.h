@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockFov; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EONGANALJKG_CTOR_OFFSET UNITYSDK_OFFSET(0x155BD1F0)
-#define EONGANALJKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155BD220)
+#define EONGANALJKG_CTOR_OFFSET UNITYSDK_OFFSET(0x16B2B6E0)
+#define EONGANALJKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B2B710)
 
-inline static constexpr unsigned int EONGANALJKG_TypeDefinitionIndex = 52986;
+inline static constexpr unsigned int EONGANALJKG_TypeDefinitionIndex = 54145;
 
 	class EONGANALJKG
 	{

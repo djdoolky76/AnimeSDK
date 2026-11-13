@@ -5,31 +5,31 @@ namespace RPG::Client { class EvolveBuildStage; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE158F0)
-#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE15930)
-#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWMAPPINGINFONEWCONTENTREDDOT_B__4_0_OFFSET UNITYSDK_OFFSET(0xCE15960)
-#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE15940)
+#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB41550)
+#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB41590)
+#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWMAPPINGINFONEWCONTENTREDDOT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1DB417C0)
+#define RPG_CLIENT_EVOLVEBUILDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1DB415A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildActivityData___c_TypeDefinitionIndex = 63785;
+	inline static constexpr unsigned int EvolveBuildActivityData___c_TypeDefinitionIndex = 65227;
 
 	class EvolveBuildActivityData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>** StaticGet___9__1_0()
+		static ::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x429A0);
+			return (::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56830);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x429A8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56838);
 		}
 
-		static ::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>** StaticGet___9__4_0()
+		static ::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x429B0);
+			return (::System::Func_2<::RPG::Client::EvolveBuildStage*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56840);
 		}
 
 		static ::System::Void _cctor()

@@ -29,61 +29,61 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define CFNALNFLBIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC531A0)
-#define CFNALNFLBIN_CNHNHPCLBGE_OFFSET UNITYSDK_OFFSET(0xCC50DA0)
-#define CFNALNFLBIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4FD40)
-#define CFNALNFLBIN_DBIELBAPKIK_OFFSET UNITYSDK_OFFSET(0xCC4FB50)
-#define CFNALNFLBIN_DNAAPLBBBIF_OFFSET UNITYSDK_OFFSET(0xCC51030)
-#define CFNALNFLBIN_FBFLKNGNCOC_OFFSET UNITYSDK_OFFSET(0xCC504C0)
-#define CFNALNFLBIN_JKHBCAMJMNL_1_OFFSET UNITYSDK_OFFSET(0xCC52D00)
-#define CFNALNFLBIN_JKHBCAMJMNL_2_OFFSET UNITYSDK_OFFSET(0xCC52F20)
-#define CFNALNFLBIN_JKHBCAMJMNL_OFFSET UNITYSDK_OFFSET(0xCC52250)
-#define CFNALNFLBIN_JPIJDLDKGHM_OFFSET UNITYSDK_OFFSET(0xCC50AB0)
-#define CFNALNFLBIN_LMKKGAHJKBP_1_OFFSET UNITYSDK_OFFSET(0xCC51350)
-#define CFNALNFLBIN_LMKKGAHJKBP_OFFSET UNITYSDK_OFFSET(0xCC50DF0)
-#define CFNALNFLBIN_LNPEPBEIABL_OFFSET UNITYSDK_OFFSET(0xCC50D30)
-#define CFNALNFLBIN_MLDBCKDDOMI_OFFSET UNITYSDK_OFFSET(0xCC526C0)
-#define CFNALNFLBIN_NNGJOACGKLC_OFFSET UNITYSDK_OFFSET(0xCC518B0)
-#define CFNALNFLBIN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCC502C0)
+#define CFNALNFLBIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1782BED0)
+#define CFNALNFLBIN_CNHNHPCLBGE_OFFSET UNITYSDK_OFFSET(0x17829AD0)
+#define CFNALNFLBIN_CTOR_OFFSET UNITYSDK_OFFSET(0x17828A90)
+#define CFNALNFLBIN_DBIELBAPKIK_OFFSET UNITYSDK_OFFSET(0x178288A0)
+#define CFNALNFLBIN_DNAAPLBBBIF_OFFSET UNITYSDK_OFFSET(0x17829D60)
+#define CFNALNFLBIN_FBFLKNGNCOC_OFFSET UNITYSDK_OFFSET(0x178291F0)
+#define CFNALNFLBIN_JKHBCAMJMNL_1_OFFSET UNITYSDK_OFFSET(0x1782BA30)
+#define CFNALNFLBIN_JKHBCAMJMNL_2_OFFSET UNITYSDK_OFFSET(0x1782BC50)
+#define CFNALNFLBIN_JKHBCAMJMNL_OFFSET UNITYSDK_OFFSET(0x1782AF80)
+#define CFNALNFLBIN_JPIJDLDKGHM_OFFSET UNITYSDK_OFFSET(0x178297E0)
+#define CFNALNFLBIN_LMKKGAHJKBP_1_OFFSET UNITYSDK_OFFSET(0x1782A080)
+#define CFNALNFLBIN_LMKKGAHJKBP_OFFSET UNITYSDK_OFFSET(0x17829B20)
+#define CFNALNFLBIN_LNPEPBEIABL_OFFSET UNITYSDK_OFFSET(0x17829A60)
+#define CFNALNFLBIN_MLDBCKDDOMI_OFFSET UNITYSDK_OFFSET(0x1782B3F0)
+#define CFNALNFLBIN_NNGJOACGKLC_OFFSET UNITYSDK_OFFSET(0x1782A5E0)
+#define CFNALNFLBIN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x17828FF0)
 
-inline static constexpr unsigned int CFNALNFLBIN_TypeDefinitionIndex = 73746;
+inline static constexpr unsigned int CFNALNFLBIN_TypeDefinitionIndex = 75870;
 
 	class CFNALNFLBIN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* BNKFDJOMHFN; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::String*>>* EGJHCKFCCLE; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::Object*>* AGCJFLAOLFN; // 0x20
-		::System::Collections::Generic::List_1<::System::Boolean>* PEFHBJPPOHJ; // 0x28
-		::System::Collections::Generic::List_1<::System::UInt32>* FBJGGCHDBJJ; // 0x30
-		::NFJIADFIJKO* PFOBDINCJDI; // 0x38
-		::RPG::Client::ChunkedStructList_1<::UnityEngine::Matrix4x4>* AKMMPPFIMOO; // 0x40
-		::LJFHKAJPFNE* BJPKBELGNCM; // 0x48
-		::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* MOMCBHDNIMK; // 0x50
-		::System::Collections::Generic::List_1<::System::Single>* AECKIHDLIOG; // 0x58
-		::System::Collections::Generic::List_1<::System::UInt32>* EBPCLMPIBJO; // 0x60
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* IKFOOBKMDHI; // 0x68
-		::LJFHKAJPFNE_DMPFJOFLMEM* HLKKIMJKPEA; // 0x70
-		::System::Collections::Generic::List_1<::System::UInt32>* KMABJFMFLIG; // 0x78
-		::System::String* ELNJHIBMKEF; // 0x80
-		::System::Collections::Generic::List_1<::System::UInt32>* INKMMAPGEMP; // 0x88
-		::System::Collections::Generic::List_1<::System::Object*>* FPLKKCHBNMB; // 0x90
-		::System::Collections::Generic::List_1<::System::Int64>* MLIGICGFBGK; // 0x98
-		::System::UInt64 PJDJNFIMJFK; // 0xA0
-		::System::UInt32 FMHPFJMFICI; // 0xA8
-		::System::UInt32 JEMPFNHDPIA; // 0xAC
-		::System::Int32 CJNKMEPBEEM; // 0xB0
-		::System::UInt32 FBIJDBKFNMM; // 0xB4
-		::UnityEngine::Matrix4x4 KHFINMBNGBE; // 0xB8
-		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> OFFNNNKILLA; // 0xF8
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* IKFOOBKMDHI; // 0x10
+		::System::Collections::Generic::List_1<::System::Int64>* MLIGICGFBGK; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* KMABJFMFLIG; // 0x20
+		::RPG::Client::ChunkedStructList_1<::UnityEngine::Matrix4x4>* AKMMPPFIMOO; // 0x28
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::String*>>* EGJHCKFCCLE; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::Object*>* AGCJFLAOLFN; // 0x38
+		::LJFHKAJPFNE* BJPKBELGNCM; // 0x40
+		::NFJIADFIJKO* PFOBDINCJDI; // 0x48
+		::System::Collections::Generic::List_1<::System::UInt32>* EBPCLMPIBJO; // 0x50
+		::System::Collections::Generic::List_1<::System::Object*>* FPLKKCHBNMB; // 0x58
+		::System::Collections::Generic::List_1<::System::Single>* AECKIHDLIOG; // 0x60
+		::System::Collections::Generic::List_1<::System::UInt32>* BNKFDJOMHFN; // 0x68
+		::System::Collections::Generic::List_1<::System::Boolean>* PEFHBJPPOHJ; // 0x70
+		::LJFHKAJPFNE_DMPFJOFLMEM* HLKKIMJKPEA; // 0x78
+		::System::Collections::Generic::List_1<::System::UInt32>* FBJGGCHDBJJ; // 0x80
+		::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* MOMCBHDNIMK; // 0x88
+		::System::String* ELNJHIBMKEF; // 0x90
+		::System::Collections::Generic::List_1<::System::UInt32>* INKMMAPGEMP; // 0x98
+		::System::Int32 CJNKMEPBEEM; // 0xA0
+		::System::UInt32 JEMPFNHDPIA; // 0xA4
+		::UnityEngine::Matrix4x4 KHFINMBNGBE; // 0xA8
+		::System::UInt32 FBIJDBKFNMM; // 0xE8
+		::System::UInt32 MFHCPLBEBHI; // 0xEC
+		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> OFFNNNKILLA; // 0xF0
 		::System::Byte _padding0[0x8];
+		::System::UInt64 PJDJNFIMJFK; // 0x100
 		::Unity::Collections::NativeArray_1<::System::Single> COLDFNHHFLA; // 0x108
 		::System::Byte _padding1[0x8];
-		::System::UInt32 MFHCPLBEBHI; // 0x118
-		::UnityEngine::Bounds JHACKAOENJJ; // 0x11C
+		::UnityEngine::Bounds JHACKAOENJJ; // 0x118
+		::System::UInt32 FMHPFJMFICI; // 0x130
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_AEFKMILECGM()
 		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("", "CFNALNFLBIN")->GetStaticField(0x21E70);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("", "CFNALNFLBIN")->GetStaticField(0xFF00);
 		}
 
 		::System::Void _ctor(::LJFHKAJPFNE* a1)

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int EKnockUpDirection_TypeDefinitionIndex = 42902;
+	inline static constexpr unsigned int EKnockUpDirection_TypeDefinitionIndex = 43883;
 
 	enum class EKnockUpDirection : ::System::Int32
 	{

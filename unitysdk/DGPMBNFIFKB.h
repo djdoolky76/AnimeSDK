@@ -6,25 +6,25 @@ namespace RPG::GameCore { class RequestSetServerGroupProperty; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define DGPMBNFIFKB_CTOR_OFFSET UNITYSDK_OFFSET(0xE851330)
-#define DGPMBNFIFKB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE8518B0)
-#define DGPMBNFIFKB_OBBAMDNOEHC_OFFSET UNITYSDK_OFFSET(0xE851A10)
-#define DGPMBNFIFKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE851480)
-#define DGPMBNFIFKB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE851420)
-#define DGPMBNFIFKB_TICK_OFFSET UNITYSDK_OFFSET(0xE851850)
+#define DGPMBNFIFKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADC62A0)
+#define DGPMBNFIFKB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ADC6820)
+#define DGPMBNFIFKB_OBBAMDNOEHC_OFFSET UNITYSDK_OFFSET(0x1ADC6980)
+#define DGPMBNFIFKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1ADC63F0)
+#define DGPMBNFIFKB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1ADC6390)
+#define DGPMBNFIFKB_TICK_OFFSET UNITYSDK_OFFSET(0x1ADC67C0)
 
-inline static constexpr unsigned int DGPMBNFIFKB_TypeDefinitionIndex = 53203;
+inline static constexpr unsigned int DGPMBNFIFKB_TypeDefinitionIndex = 54365;
 
 	class DGPMBNFIFKB : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* BCEOFGNHABE; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::KFELGAIGHAP* MACKGFGJMLE; // 0x28
-		::RPG::GameCore::RequestSetServerGroupProperty* OFKGLJOAMLD; // 0x30
-		::System::UInt32 DLHOKIMOHFG; // 0x38
-		::System::UInt32 PEEFHNHDBMF; // 0x3C
-		::System::UInt32 GILPDKAEMGP; // 0x40
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RequestSetServerGroupProperty* OFKGLJOAMLD; // 0x20
+		::KFELGAIGHAP* BCEOFGNHABE; // 0x28
+		::KFELGAIGHAP* MACKGFGJMLE; // 0x30
+		::System::UInt32 PEEFHNHDBMF; // 0x38
+		::System::UInt32 GILPDKAEMGP; // 0x3C
+		::System::UInt32 DLHOKIMOHFG; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RequestSetServerGroupProperty* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RequestSetServerGroupProperty*))((::PBYTE)hIl2Cpp + DGPMBNFIFKB_CTOR_OFFSET))(this, a1, a2);

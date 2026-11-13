@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEraFlipSpotOutlineEdgeParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EINFHIFAAHP_CTOR_OFFSET UNITYSDK_OFFSET(0x154C7490)
-#define EINFHIFAAHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154C74C0)
+#define EINFHIFAAHP_CTOR_OFFSET UNITYSDK_OFFSET(0x19AA2B90)
+#define EINFHIFAAHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19AA2BC0)
 
-inline static constexpr unsigned int EINFHIFAAHP_TypeDefinitionIndex = 52771;
+inline static constexpr unsigned int EINFHIFAAHP_TypeDefinitionIndex = 53915;
 
 	class EINFHIFAAHP
 	{

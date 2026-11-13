@@ -4,9 +4,9 @@
 class GDHCJAOOKDB;
 class HGGENLBDAPM;
 
-#define JDNEAIDOOAN_DKNIKHENHFG_CTOR_OFFSET UNITYSDK_OFFSET(0x2E864C0)
+#define JDNEAIDOOAN_DKNIKHENHFG_CTOR_OFFSET UNITYSDK_OFFSET(0x3DA9DD0)
 
-inline static constexpr unsigned int JDNEAIDOOAN_DKNIKHENHFG_TypeDefinitionIndex = 48941;
+inline static constexpr unsigned int JDNEAIDOOAN_DKNIKHENHFG_TypeDefinitionIndex = 50000;
 
 	struct alignas(8) JDNEAIDOOAN_DKNIKHENHFG
 	{

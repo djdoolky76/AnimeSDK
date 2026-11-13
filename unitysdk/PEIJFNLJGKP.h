@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByPlayerHide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PEIJFNLJGKP_CTOR_OFFSET UNITYSDK_OFFSET(0xC036750)
-#define PEIJFNLJGKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC036780)
+#define PEIJFNLJGKP_CTOR_OFFSET UNITYSDK_OFFSET(0x10455C40)
+#define PEIJFNLJGKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10455C70)
 
-inline static constexpr unsigned int PEIJFNLJGKP_TypeDefinitionIndex = 53119;
+inline static constexpr unsigned int PEIJFNLJGKP_TypeDefinitionIndex = 54281;
 
 	class PEIJFNLJGKP
 	{

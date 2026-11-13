@@ -5,25 +5,25 @@ namespace RPG::Client { class MonsterData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONLEVEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5A6380)
-#define RPG_CLIENT_ACTIVITYSUMMONLEVEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5A63C0)
-#define RPG_CLIENT_ACTIVITYSUMMONLEVEL___C__GETSORTEDMONSTERS_B__23_0_OFFSET UNITYSDK_OFFSET(0xC5A63D0)
+#define RPG_CLIENT_ACTIVITYSUMMONLEVEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCC4D80)
+#define RPG_CLIENT_ACTIVITYSUMMONLEVEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC4DC0)
+#define RPG_CLIENT_ACTIVITYSUMMONLEVEL___C__GETSORTEDMONSTERS_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DCC4DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonLevel___c_TypeDefinitionIndex = 61922;
+	inline static constexpr unsigned int ActivitySummonLevel___c_TypeDefinitionIndex = 63334;
 
 	class ActivitySummonLevel___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x33790);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x33798);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3D510);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3D518);
 		}
 
 		static ::System::Void _cctor()

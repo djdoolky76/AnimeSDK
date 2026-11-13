@@ -7,21 +7,21 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define MIGHECALOGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB951190)
-#define MIGHECALOGL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB9507E0)
-#define MIGHECALOGL_INIJCJJLPKM_OFFSET UNITYSDK_OFFSET(0xB9509D0)
-#define MIGHECALOGL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB950740)
-#define MIGHECALOGL_LGBHGOKNJNF_OFFSET UNITYSDK_OFFSET(0xB950A70)
-#define MIGHECALOGL_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0xB9510E0)
+#define MIGHECALOGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A390D40)
+#define MIGHECALOGL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1A390390)
+#define MIGHECALOGL_INIJCJJLPKM_OFFSET UNITYSDK_OFFSET(0x1A390580)
+#define MIGHECALOGL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1A3902F0)
+#define MIGHECALOGL_LGBHGOKNJNF_OFFSET UNITYSDK_OFFSET(0x1A390620)
+#define MIGHECALOGL_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x1A390C90)
 
-inline static constexpr unsigned int MIGHECALOGL_TypeDefinitionIndex = 60946;
+inline static constexpr unsigned int MIGHECALOGL_TypeDefinitionIndex = 62322;
 
 	class MIGHECALOGL : public ::System::Object
 	{
 	public:
-		::System::String* LBMJJOOCCBD; // 0x10
-		::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>* HAHBLPNJOKL; // 0x18
-		::UnityEngine::Transform* IDPCOKGLMMB; // 0x20
+		::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>* HAHBLPNJOKL; // 0x10
+		::UnityEngine::Transform* IDPCOKGLMMB; // 0x18
+		::System::String* LBMJJOOCCBD; // 0x20
 		::UnityEngine::Object* NCPNKDBIINJ; // 0x28
 		::System::Void _ctor()
 		{

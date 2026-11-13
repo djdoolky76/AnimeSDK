@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BNKGHGJDBIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88F550)
+#define BNKGHGJDBIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B9D10)
 
-inline static constexpr unsigned int BNKGHGJDBIL_TypeDefinitionIndex = 43741;
+inline static constexpr unsigned int BNKGHGJDBIL_TypeDefinitionIndex = 44816;
 
 	class BNKGHGJDBIL : public ::System::Object
 	{

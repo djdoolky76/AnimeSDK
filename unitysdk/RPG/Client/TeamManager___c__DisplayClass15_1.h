@@ -4,12 +4,12 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C7F10)
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__LOADBACKGROUNDPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xE1D2FE0)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1ACC9590)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__LOADBACKGROUNDPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x1ACD44D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamManager___c__DisplayClass15_1_TypeDefinitionIndex = 60783;
+	inline static constexpr unsigned int TeamManager___c__DisplayClass15_1_TypeDefinitionIndex = 62162;
 
 	template <typename T>
 	class TeamManager___c__DisplayClass15_1 : public ::System::Object

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ContainerStateToSeedStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONTAINERSTATETOSEEDSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AE040)
-#define RPG_GAMECORE_CONTAINERSTATETOSEEDSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5ADF10)
+#define RPG_GAMECORE_CONTAINERSTATETOSEEDSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE78C0)
+#define RPG_GAMECORE_CONTAINERSTATETOSEEDSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFE7790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ContainerStateToSeedStateConfig_TypeDefinitionIndex = 17573;
+	inline static constexpr unsigned int ContainerStateToSeedStateConfig_TypeDefinitionIndex = 17741;
 
 	class ContainerStateToSeedStateConfig : public ::RPG::GameCore::JsonConfig
 	{

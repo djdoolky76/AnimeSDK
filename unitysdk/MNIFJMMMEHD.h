@@ -3,9 +3,9 @@
 namespace RPG::GameCore { class AdventureTriggerMoveApplyRunSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MNIFJMMMEHD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA07390)
+#define MNIFJMMMEHD_CTOR_OFFSET UNITYSDK_OFFSET(0x18937040)
 
-inline static constexpr unsigned int MNIFJMMMEHD_TypeDefinitionIndex = 57926;
+inline static constexpr unsigned int MNIFJMMMEHD_TypeDefinitionIndex = 59163;
 
 	class MNIFJMMMEHD
 	{

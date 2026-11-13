@@ -8,35 +8,35 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define NNHAHDEBIJB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCA7910)
-#define NNHAHDEBIJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA7940)
-#define NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_0_OFFSET UNITYSDK_OFFSET(0xBCA7950)
-#define NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_1_OFFSET UNITYSDK_OFFSET(0xBCA7980)
-#define NNHAHDEBIJB___C___LISTENLEVELVAR_B__23_0_OFFSET UNITYSDK_OFFSET(0xBCA79B0)
+#define NNHAHDEBIJB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x179E9770)
+#define NNHAHDEBIJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x179E97A0)
+#define NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_0_OFFSET UNITYSDK_OFFSET(0x179E97B0)
+#define NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_1_OFFSET UNITYSDK_OFFSET(0x179E97E0)
+#define NNHAHDEBIJB___C___LISTENLEVELVAR_B__23_0_OFFSET UNITYSDK_OFFSET(0x179E9810)
 
-inline static constexpr unsigned int NNHAHDEBIJB___c_TypeDefinitionIndex = 77153;
+inline static constexpr unsigned int NNHAHDEBIJB___c_TypeDefinitionIndex = 79487;
 
 	class NNHAHDEBIJB___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__9_1()
 		{
-			return (::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D930);
+			return (::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58550);
 		}
 
 		static ::System::Action_3<::NNHAHDEBIJB*, ::System::Int32, ::System::String*>** StaticGet___9__23_0()
 		{
-			return (::System::Action_3<::NNHAHDEBIJB*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D938);
+			return (::System::Action_3<::NNHAHDEBIJB*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58558);
 		}
 
 		static ::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__9_0()
 		{
-			return (::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D940);
+			return (::System::Action_3<::NNHAHDEBIJB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58560);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D948);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58568);
 		}
 
 		static ::System::Void _cctor()

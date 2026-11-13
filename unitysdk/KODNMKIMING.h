@@ -9,18 +9,18 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KODNMKIMING_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C6E2160)
-#define KODNMKIMING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6EE580)
-#define KODNMKIMING_FJCMHEKLOBD_OFFSET UNITYSDK_OFFSET(0x1C6EE3A0)
+#define KODNMKIMING_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1ABF1A50)
+#define KODNMKIMING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ABFDE30)
+#define KODNMKIMING_FJCMHEKLOBD_OFFSET UNITYSDK_OFFSET(0x1ABFDC50)
 
-inline static constexpr unsigned int KODNMKIMING_TypeDefinitionIndex = 37407;
+inline static constexpr unsigned int KODNMKIMING_TypeDefinitionIndex = 38335;
 
 	class KODNMKIMING : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_IMKPIEFOLHB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "KODNMKIMING")->GetStaticField(0x134B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "KODNMKIMING")->GetStaticField(0xACA0);
 		}
 
 		static ::System::Void _cctor()

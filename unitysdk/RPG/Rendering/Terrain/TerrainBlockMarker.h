@@ -5,13 +5,13 @@ namespace RPG::Rendering::Terrain { class TerrainGridData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_COLLECTBLOCKAUTOTAGS_OFFSET UNITYSDK_OFFSET(0xE879FF0)
-#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0xE87A0E0)
-#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_GET_TERRAINGRIDDATA_OFFSET UNITYSDK_OFFSET(0xE87A0D0)
+#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_COLLECTBLOCKAUTOTAGS_OFFSET UNITYSDK_OFFSET(0x1BD28050)
+#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD28140)
+#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_GET_TERRAINGRIDDATA_OFFSET UNITYSDK_OFFSET(0x1BD28130)
 
 namespace RPG::Rendering::Terrain
 {
-	inline static constexpr unsigned int TerrainBlockMarker_TypeDefinitionIndex = 51798;
+	inline static constexpr unsigned int TerrainBlockMarker_TypeDefinitionIndex = 52884;
 
 	class TerrainBlockMarker : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkNode_1_TypeDefinitionIndex = 61062;
+	inline static constexpr unsigned int WorkNode_1_TypeDefinitionIndex = 62447;
 
 	template <typename T>
 	class WorkNode_1 : public ::JDKNLNLGODN

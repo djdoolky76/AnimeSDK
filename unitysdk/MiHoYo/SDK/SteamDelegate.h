@@ -8,39 +8,39 @@ namespace MiHoYo::SDK { class SteamDelegate_RegisterCallbackDelegate; }
 namespace MiHoYo::SDK { class SteamDelegate_SetAppIdDelegate; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_STEAMDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB5590)
-#define MIHOYO_SDK_STEAMDELEGATE_DEDUCT_OFFSET UNITYSDK_OFFSET(0x1BFB5530)
+#define MIHOYO_SDK_STEAMDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04A2D0)
+#define MIHOYO_SDK_STEAMDELEGATE_DEDUCT_OFFSET UNITYSDK_OFFSET(0x1D04A270)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SteamDelegate_TypeDefinitionIndex = 7695;
+	inline static constexpr unsigned int SteamDelegate_TypeDefinitionIndex = 7704;
 
 	class SteamDelegate : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::SteamDelegate_SetAppIdDelegate** StaticGet_SetAppId()
+		static ::MiHoYo::SDK::SteamDelegate_RegisterCallbackDelegate** StaticGet_RegisterCallback()
 		{
-			return (::MiHoYo::SDK::SteamDelegate_SetAppIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x2EDC0);
-		}
-
-		static ::MiHoYo::SDK::SteamDelegate_GetSteamIdDelegate** StaticGet_GetSteamId()
-		{
-			return (::MiHoYo::SDK::SteamDelegate_GetSteamIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x2EDC8);
+			return (::MiHoYo::SDK::SteamDelegate_RegisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x217A0);
 		}
 
 		static ::MiHoYo::SDK::SteamDelegate_GetNickNameDelegate** StaticGet_GetNickName()
 		{
-			return (::MiHoYo::SDK::SteamDelegate_GetNickNameDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x2EDD0);
+			return (::MiHoYo::SDK::SteamDelegate_GetNickNameDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x217A8);
 		}
 
 		static ::MiHoYo::SDK::SteamDelegate_GetTicketDelegate** StaticGet_GetTicket()
 		{
-			return (::MiHoYo::SDK::SteamDelegate_GetTicketDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x2EDD8);
+			return (::MiHoYo::SDK::SteamDelegate_GetTicketDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x217B0);
 		}
 
-		static ::MiHoYo::SDK::SteamDelegate_RegisterCallbackDelegate** StaticGet_RegisterCallback()
+		static ::MiHoYo::SDK::SteamDelegate_GetSteamIdDelegate** StaticGet_GetSteamId()
 		{
-			return (::MiHoYo::SDK::SteamDelegate_RegisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x2EDE0);
+			return (::MiHoYo::SDK::SteamDelegate_GetSteamIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x217B8);
+		}
+
+		static ::MiHoYo::SDK::SteamDelegate_SetAppIdDelegate** StaticGet_SetAppId()
+		{
+			return (::MiHoYo::SDK::SteamDelegate_SetAppIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "SteamDelegate")->GetStaticField(0x217C0);
 		}
 
 		::System::Void _ctor()

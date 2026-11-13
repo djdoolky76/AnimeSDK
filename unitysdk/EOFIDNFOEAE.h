@@ -5,19 +5,19 @@
 class PGCCFHFDEDG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EOFIDNFOEAE_BJCJOFCCAHB_OFFSET UNITYSDK_OFFSET(0x155B2720)
-#define EOFIDNFOEAE_CTOR_OFFSET UNITYSDK_OFFSET(0x155B2650)
-#define EOFIDNFOEAE_EKMPMMLBNEL_OFFSET UNITYSDK_OFFSET(0x155B2A70)
-#define EOFIDNFOEAE_FMNBMCGKKDJ_OFFSET UNITYSDK_OFFSET(0x155B2A20)
-#define EOFIDNFOEAE_KJGGIOFBIPD_OFFSET UNITYSDK_OFFSET(0x155B26D0)
+#define EOFIDNFOEAE_BJCJOFCCAHB_OFFSET UNITYSDK_OFFSET(0x16B20AD0)
+#define EOFIDNFOEAE_CTOR_OFFSET UNITYSDK_OFFSET(0x16B20A00)
+#define EOFIDNFOEAE_EKMPMMLBNEL_OFFSET UNITYSDK_OFFSET(0x16B20E20)
+#define EOFIDNFOEAE_FMNBMCGKKDJ_OFFSET UNITYSDK_OFFSET(0x16B20DD0)
+#define EOFIDNFOEAE_KJGGIOFBIPD_OFFSET UNITYSDK_OFFSET(0x16B20A80)
 
-inline static constexpr unsigned int EOFIDNFOEAE_TypeDefinitionIndex = 51906;
+inline static constexpr unsigned int EOFIDNFOEAE_TypeDefinitionIndex = 52992;
 
 	class EOFIDNFOEAE : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CombatPowerSource, ::System::Single>* FGGPJCJAJBG; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CombatPowerSource, ::PGCCFHFDEDG*>* OGHCLELFCDB; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CombatPowerSource, ::PGCCFHFDEDG*>* OGHCLELFCDB; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CombatPowerSource, ::System::Single>* FGGPJCJAJBG; // 0x18
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CombatPowerSource, ::PGCCFHFDEDG*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CombatPowerSource, ::PGCCFHFDEDG*>*))((::PBYTE)hIl2Cpp + EOFIDNFOEAE_CTOR_OFFSET))(this, a1);

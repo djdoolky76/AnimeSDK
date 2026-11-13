@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BOKGLIFLEMA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D9C4EA0)
-#define BOKGLIFLEMA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9C5470)
-#define BOKGLIFLEMA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D9C5010)
-#define BOKGLIFLEMA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D9C4910)
-#define BOKGLIFLEMA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D9C4BA0)
-#define BOKGLIFLEMA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D9C50B0)
-#define BOKGLIFLEMA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D9C5100)
-#define BOKGLIFLEMA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D9C4EE0)
-#define BOKGLIFLEMA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D9C4B40)
-#define BOKGLIFLEMA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D9C4D10)
-#define BOKGLIFLEMA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9C4F70)
-#define BOKGLIFLEMA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9C4890)
+#define BOKGLIFLEMA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1EB01D20)
+#define BOKGLIFLEMA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB022F0)
+#define BOKGLIFLEMA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1EB01E90)
+#define BOKGLIFLEMA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1EB01790)
+#define BOKGLIFLEMA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1EB01A20)
+#define BOKGLIFLEMA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1EB01F30)
+#define BOKGLIFLEMA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1EB01F80)
+#define BOKGLIFLEMA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1EB01D60)
+#define BOKGLIFLEMA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1EB019C0)
+#define BOKGLIFLEMA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1EB01B90)
+#define BOKGLIFLEMA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1EB01DF0)
+#define BOKGLIFLEMA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EB01710)
 
-inline static constexpr unsigned int BOKGLIFLEMA_TypeDefinitionIndex = 13482;
+inline static constexpr unsigned int BOKGLIFLEMA_TypeDefinitionIndex = 13558;
 
 	class BOKGLIFLEMA : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0x38C20);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightModuleSwitchTraitConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightModuleSwitchTraitConfigRow*>**)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0x38C28);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightModuleSwitchTraitConfigRow*>**)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0x4D8C0);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0x4D8C8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0x38C30);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0x4D8D0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0xB6E0);
+			return (::System::Boolean*)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0x11090);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0xB6E1);
+			return (::System::Byte*)UnitySDK::FromName("", "BOKGLIFLEMA")->GetStaticField(0x11091);
 		}
 
 		static ::System::Void _cctor()

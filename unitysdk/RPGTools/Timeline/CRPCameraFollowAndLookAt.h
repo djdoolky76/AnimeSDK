@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERAFOLLOWANDLOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B3620)
+#define RPGTOOLS_TIMELINE_CRPCAMERAFOLLOWANDLOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E1780)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraFollowAndLookAt_TypeDefinitionIndex = 47884;
+	inline static constexpr unsigned int CRPCameraFollowAndLookAt_TypeDefinitionIndex = 48915;
 
 	class CRPCameraFollowAndLookAt : public ::System::Object
 	{

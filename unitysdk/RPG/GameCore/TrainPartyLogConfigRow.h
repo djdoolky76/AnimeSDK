@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyLogConfigRow; }
 
-#define RPG_GAMECORE_TRAINPARTYLOGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC044F0)
-#define RPG_GAMECORE_TRAINPARTYLOGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC04320)
+#define RPG_GAMECORE_TRAINPARTYLOGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DCCF0)
+#define RPG_GAMECORE_TRAINPARTYLOGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5DCB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyLogConfigRow_TypeDefinitionIndex = 15322;
+	inline static constexpr unsigned int TrainPartyLogConfigRow_TypeDefinitionIndex = 15478;
 
 	class TrainPartyLogConfigRow : public ::System::Object
 	{

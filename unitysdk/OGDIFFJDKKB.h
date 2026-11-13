@@ -4,16 +4,16 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AddCurrentTurnMaxRollCount; }
 
-#define OGDIFFJDKKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79FE90)
-#define OGDIFFJDKKB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C79FEA0)
+#define OGDIFFJDKKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0815E0)
+#define OGDIFFJDKKB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1B0815F0)
 
-inline static constexpr unsigned int OGDIFFJDKKB_TypeDefinitionIndex = 36319;
+inline static constexpr unsigned int OGDIFFJDKKB_TypeDefinitionIndex = 37247;
 
 	class OGDIFFJDKKB : public ::AJBKGPOEBFG
 	{
 	public:
-		::EHMBINMCDGN* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::DiceCombatTaskConfig_AddCurrentTurnMaxRollCount* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::DiceCombatTaskConfig_AddCurrentTurnMaxRollCount* IGHAHBNLIJA; // 0x18
+		::EHMBINMCDGN* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AddCurrentTurnMaxRollCount* a1, ::EHMBINMCDGN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_AddCurrentTurnMaxRollCount*, ::EHMBINMCDGN*))((::PBYTE)hIl2Cpp + OGDIFFJDKKB_CTOR_OFFSET))(this, a1, a2);

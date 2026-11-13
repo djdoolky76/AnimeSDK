@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define TMPRO_TMP_TEXTUTILITIES_LINESEGMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0)
+#define TMPRO_TMP_TEXTUTILITIES_LINESEGMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x655790)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextUtilities_LineSegment_TypeDefinitionIndex = 44672;
+	inline static constexpr unsigned int TMP_TextUtilities_LineSegment_TypeDefinitionIndex = 45747;
 
 	struct alignas(4) TMP_TextUtilities_LineSegment
 	{

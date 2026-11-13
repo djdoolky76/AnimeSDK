@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define OPPEGLOCAGH_CCMBOGFDEII_CTOR_OFFSET UNITYSDK_OFFSET(0x10400)
+#define OPPEGLOCAGH_CCMBOGFDEII_CTOR_OFFSET UNITYSDK_OFFSET(0x6516D0)
 
-inline static constexpr unsigned int OPPEGLOCAGH_CCMBOGFDEII_TypeDefinitionIndex = 41694;
+inline static constexpr unsigned int OPPEGLOCAGH_CCMBOGFDEII_TypeDefinitionIndex = 42669;
 
 	struct alignas(8) OPPEGLOCAGH_CCMBOGFDEII
 	{

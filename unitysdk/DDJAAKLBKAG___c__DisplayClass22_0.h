@@ -5,17 +5,17 @@ class BICOIIAPJKC;
 class DDJAAKLBKAG;
 namespace System { class Action; }
 
-#define DDJAAKLBKAG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE4DEF90)
-#define DDJAAKLBKAG___C__DISPLAYCLASS22_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xE4DFCB0)
+#define DDJAAKLBKAG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1773E190)
+#define DDJAAKLBKAG___C__DISPLAYCLASS22_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1773EEB0)
 
-inline static constexpr unsigned int DDJAAKLBKAG___c__DisplayClass22_0_TypeDefinitionIndex = 79596;
+inline static constexpr unsigned int DDJAAKLBKAG___c__DisplayClass22_0_TypeDefinitionIndex = 82373;
 
 	class DDJAAKLBKAG___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::BICOIIAPJKC* windowService; // 0x10
-		::DDJAAKLBKAG* __4__this; // 0x18
-		::System::Action* onExit; // 0x20
+		::System::Action* onExit; // 0x10
+		::BICOIIAPJKC* windowService; // 0x18
+		::DDJAAKLBKAG* __4__this; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDJAAKLBKAG___C__DISPLAYCLASS22_0_CTOR_OFFSET))(this);

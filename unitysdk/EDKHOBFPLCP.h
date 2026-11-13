@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KODIMAJKOMJ.h"
 
-#define EDKHOBFPLCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD42EB0)
+#define EDKHOBFPLCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B9F90)
 
-inline static constexpr unsigned int EDKHOBFPLCP_TypeDefinitionIndex = 25009;
+inline static constexpr unsigned int EDKHOBFPLCP_TypeDefinitionIndex = 25487;
 
 	class EDKHOBFPLCP : public ::KODIMAJKOMJ
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FDOICPJGACI;
 
-#define FDOICPJGACI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156D45B0)
-#define FDOICPJGACI___C__DISPLAYCLASS6_0__SETSIBLINGINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x156D5300)
+#define FDOICPJGACI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C03AE50)
+#define FDOICPJGACI___C__DISPLAYCLASS6_0__SETSIBLINGINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1C03BBA0)
 
-inline static constexpr unsigned int FDOICPJGACI___c__DisplayClass6_0_TypeDefinitionIndex = 72018;
+inline static constexpr unsigned int FDOICPJGACI___c__DisplayClass6_0_TypeDefinitionIndex = 74047;
 
 	class FDOICPJGACI___c__DisplayClass6_0 : public ::System::Object
 	{

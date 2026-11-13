@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class CEKGGHILKPC;
 
-#define MMIEDEIIAND___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9CAEC0)
-#define MMIEDEIIAND___C__DISPLAYCLASS6_0___QUERYBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xB9CB0C0)
+#define MMIEDEIIAND___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x188F9420)
+#define MMIEDEIIAND___C__DISPLAYCLASS6_0___QUERYBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x188F9620)
 
-inline static constexpr unsigned int MMIEDEIIAND___c__DisplayClass6_0_TypeDefinitionIndex = 81222;
+inline static constexpr unsigned int MMIEDEIIAND___c__DisplayClass6_0_TypeDefinitionIndex = 84002;
 
 	class MMIEDEIIAND___c__DisplayClass6_0 : public ::System::Object
 	{

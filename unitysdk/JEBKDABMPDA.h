@@ -3,10 +3,10 @@
 #include "unitysdk/EGFGCOMABKB.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PropMoveState.h"
 
-#define JEBKDABMPDA_BPMGPFLHPLC_OFFSET UNITYSDK_OFFSET(0x1660A110)
-#define JEBKDABMPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1660A160)
+#define JEBKDABMPDA_BPMGPFLHPLC_OFFSET UNITYSDK_OFFSET(0x13062280)
+#define JEBKDABMPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x130622D0)
 
-inline static constexpr unsigned int JEBKDABMPDA_TypeDefinitionIndex = 77033;
+inline static constexpr unsigned int JEBKDABMPDA_TypeDefinitionIndex = 79367;
 
 	class JEBKDABMPDA : public ::EGFGCOMABKB
 	{

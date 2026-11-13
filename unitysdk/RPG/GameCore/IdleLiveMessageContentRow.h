@@ -6,22 +6,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveMessageContentRow; }
 
-#define RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74F3E0)
-#define RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74F180)
+#define RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE88230)
+#define RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE87FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveMessageContentRow_TypeDefinitionIndex = 11792;
+	inline static constexpr unsigned int IdleLiveMessageContentRow_TypeDefinitionIndex = 11849;
 
 	class IdleLiveMessageContentRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* NextContentID; // 0x10
-		::System::UInt32 SenderID; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID MainText; // 0x20
-		::RPG::GameCore::IdleLiveMessageContentType ContentType; // 0x30
-		::System::UInt32 ContentID; // 0x34
+		::RPG::Client::TextID MainText; // 0x18
+		::RPG::GameCore::IdleLiveMessageContentType ContentType; // 0x28
+		::System::UInt32 ContentID; // 0x2C
+		::System::UInt32 SenderID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW_CTOR_OFFSET))(this);

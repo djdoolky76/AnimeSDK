@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IAJLELNJPEA.h"
 
-#define KJDOCHFMDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB4406A0)
-#define KJDOCHFMDIJ_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB4406B0)
+#define KJDOCHFMDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19F07680)
+#define KJDOCHFMDIJ_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x19F07690)
 
-inline static constexpr unsigned int KJDOCHFMDIJ_TypeDefinitionIndex = 74842;
+inline static constexpr unsigned int KJDOCHFMDIJ_TypeDefinitionIndex = 77169;
 
 	class KJDOCHFMDIJ : public ::IAJLELNJPEA
 	{

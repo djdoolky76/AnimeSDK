@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareDamageCustomName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LCAFHCNNGJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB609BE0)
-#define LCAFHCNNGJL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB609C10)
+#define LCAFHCNNGJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AE0E0)
+#define LCAFHCNNGJL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B2AE110)
 
-inline static constexpr unsigned int LCAFHCNNGJL_TypeDefinitionIndex = 54882;
+inline static constexpr unsigned int LCAFHCNNGJL_TypeDefinitionIndex = 56053;
 
 	class LCAFHCNNGJL
 	{

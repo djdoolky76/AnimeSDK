@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore::Match3 { class MatchThree1v1AILevelConfig; }
 
-#define HEOAAAKKHLC___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA91300)
-#define HEOAAAKKHLC___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1CA99070)
+#define HEOAAAKKHLC___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA98450)
+#define HEOAAAKKHLC___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1DAA0110)
 
-inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass0_0_TypeDefinitionIndex = 43033;
+inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass0_0_TypeDefinitionIndex = 44014;
 
 	class HEOAAAKKHLC___c__DisplayClass0_0 : public ::System::Object
 	{

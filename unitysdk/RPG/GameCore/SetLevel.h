@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetLevel; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETLEVEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA89FF0)
-#define RPG_GAMECORE_SETLEVEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8A030)
-#define RPG_GAMECORE_SETLEVEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA89F90)
+#define RPG_GAMECORE_SETLEVEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D7900)
+#define RPG_GAMECORE_SETLEVEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D7940)
+#define RPG_GAMECORE_SETLEVEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D78A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLevel_TypeDefinitionIndex = 23665;
+	inline static constexpr unsigned int SetLevel_TypeDefinitionIndex = 24118;
 
 	class SetLevel : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowRogueTalkBg; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMHBBNANINK_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB9DC0)
-#define DMHBBNANINK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEB9DF0)
+#define DMHBBNANINK_CTOR_OFFSET UNITYSDK_OFFSET(0x18697DE0)
+#define DMHBBNANINK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18697E10)
 
-inline static constexpr unsigned int DMHBBNANINK_TypeDefinitionIndex = 58688;
+inline static constexpr unsigned int DMHBBNANINK_TypeDefinitionIndex = 59955;
 
 	class DMHBBNANINK
 	{

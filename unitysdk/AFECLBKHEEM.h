@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AFECLBKHEEM_TypeDefinitionIndex = 72944;
+inline static constexpr unsigned int AFECLBKHEEM_TypeDefinitionIndex = 75054;
 
 	struct alignas(4) AFECLBKHEEM
 	{

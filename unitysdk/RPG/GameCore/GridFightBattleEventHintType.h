@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBattleEventHintType_TypeDefinitionIndex = 24719;
+	inline static constexpr unsigned int GridFightBattleEventHintType_TypeDefinitionIndex = 25194;
 
 	enum class GridFightBattleEventHintType : ::System::Int32
 	{
@@ -14,5 +14,8 @@ namespace RPG::GameCore
 		AvatarHintSpecialPreOut = 4,
 		AvatarHintSpecialFadeIn = 5,
 		AvatarHintSpecialFadeOut = 6,
+		AvatarHintXueYiLock = 7,
+		AvatarHintXueYiLockPreIn = 8,
+		AvatarHintXueYiLockPreOut = 9,
 	};
 }

@@ -7,21 +7,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class SharedVertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1DACA0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__BEVELEDGES_B__7_OFFSET UNITYSDK_OFFSET(0x1F1DDA10)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__BEVELEDGES_B__8_OFFSET UNITYSDK_OFFSET(0x1F1DDA60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6F3590)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__BEVELEDGES_B__7_OFFSET UNITYSDK_OFFSET(0xD6F6300)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__BEVELEDGES_B__8_OFFSET UNITYSDK_OFFSET(0xD6F6350)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int Bevel___c__DisplayClass0_0_TypeDefinitionIndex = 44479;
+	inline static constexpr unsigned int Bevel___c__DisplayClass0_0_TypeDefinitionIndex = 45554;
 
 	class Bevel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::System::Int32>*>* ignore; // 0x10
-		::System::Func_2<::System::Int32, ::System::Int32>* __9__7; // 0x18
+		::System::Func_2<::System::Int32, ::System::Int32>* __9__8; // 0x10
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::System::Int32>*>* ignore; // 0x18
 		::Il2CppArray<::UnityEngine::ProBuilder::SharedVertex*>* sharedIndexes; // 0x20
-		::System::Func_2<::System::Int32, ::System::Int32>* __9__8; // 0x28
+		::System::Func_2<::System::Int32, ::System::Int32>* __9__7; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

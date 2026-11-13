@@ -3,7 +3,7 @@
 
 namespace RPGTools::LDWhiteBox
 {
-	inline static constexpr unsigned int ShapeType_TypeDefinitionIndex = 48922;
+	inline static constexpr unsigned int ShapeType_TypeDefinitionIndex = 49980;
 
 	enum class ShapeType : ::System::Int32
 	{

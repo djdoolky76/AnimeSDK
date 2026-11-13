@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class IPromise; }
 
-#define LAFGBJEFHPA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D86E0)
-#define LAFGBJEFHPA___C__DISPLAYCLASS8_0___SHOWROGUETOURNENTRANCEPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xB5D9210)
+#define LAFGBJEFHPA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B27C630)
+#define LAFGBJEFHPA___C__DISPLAYCLASS8_0___SHOWROGUETOURNENTRANCEPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x1B27D160)
 
-inline static constexpr unsigned int LAFGBJEFHPA___c__DisplayClass8_0_TypeDefinitionIndex = 67831;
+inline static constexpr unsigned int LAFGBJEFHPA___c__DisplayClass8_0_TypeDefinitionIndex = 69776;
 
 	class LAFGBJEFHPA___c__DisplayClass8_0 : public ::System::Object
 	{

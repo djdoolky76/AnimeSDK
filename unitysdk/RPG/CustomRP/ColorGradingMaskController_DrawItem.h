@@ -5,7 +5,7 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingMaskController_DrawItem_TypeDefinitionIndex = 37766;
+	inline static constexpr unsigned int ColorGradingMaskController_DrawItem_TypeDefinitionIndex = 38695;
 
 	struct alignas(8) ColorGradingMaskController_DrawItem
 	{

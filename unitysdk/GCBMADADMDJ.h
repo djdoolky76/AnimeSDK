@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GCBMADADMDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15955100)
-#define GCBMADADMDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15955110)
-#define GCBMADADMDJ_FPFPPFDFDEP_OFFSET UNITYSDK_OFFSET(0x15955150)
+#define GCBMADADMDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19E99BE0)
+#define GCBMADADMDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E99BF0)
+#define GCBMADADMDJ_FPFPPFDFDEP_OFFSET UNITYSDK_OFFSET(0x19E99C30)
 
-inline static constexpr unsigned int GCBMADADMDJ_TypeDefinitionIndex = 52259;
+inline static constexpr unsigned int GCBMADADMDJ_TypeDefinitionIndex = 53365;
 
 	class GCBMADADMDJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x20
+		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::RPG::GameCore::AIActionType BCMKMNHPPPK; // 0x28
 		::System::Boolean MEPJIFHMCJF; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1)

@@ -4,38 +4,40 @@
 #include "unitysdk/RPG/GameCore/PlayerOutfitSlotType.h"
 #include "unitysdk/System/Object.h"
 class AGELKCPKEPJ;
+namespace RPG::AvatarSystem { class AvatarPath; }
 namespace RPG::Client { class AvatarOutfitSlot; }
 namespace RPG::Client { class AvatarOutfitUnit; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AGELKCPKEPJ_AHKMECBPJLH_OFFSET UNITYSDK_OFFSET(0xCF20E20)
-#define AGELKCPKEPJ_AKNMPKDGMNC_OFFSET UNITYSDK_OFFSET(0xCF20E70)
-#define AGELKCPKEPJ_BNLEOGDNCOH_OFFSET UNITYSDK_OFFSET(0xCF21A80)
-#define AGELKCPKEPJ_CGEIJCDMNEP_OFFSET UNITYSDK_OFFSET(0xCF215A0)
-#define AGELKCPKEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCF20C80)
-#define AGELKCPKEPJ_DAGIDDGMLDH_OFFSET UNITYSDK_OFFSET(0xCF21D00)
-#define AGELKCPKEPJ_DHCECDODIJN_OFFSET UNITYSDK_OFFSET(0xCF20EC0)
-#define AGELKCPKEPJ_EBLLKCGHCNH_OFFSET UNITYSDK_OFFSET(0xCF21510)
-#define AGELKCPKEPJ_GAJMJHBFPMM_OFFSET UNITYSDK_OFFSET(0xCF21020)
-#define AGELKCPKEPJ_GFNNOLEIBPC_OFFSET UNITYSDK_OFFSET(0xCF210B0)
-#define AGELKCPKEPJ_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xCF20C00)
-#define AGELKCPKEPJ_JHBDGIOCLNP_OFFSET UNITYSDK_OFFSET(0xCF21900)
-#define AGELKCPKEPJ_NCNPOOHGBNO_OFFSET UNITYSDK_OFFSET(0xCF20F90)
-#define AGELKCPKEPJ_PHOBAIDKKJN_OFFSET UNITYSDK_OFFSET(0xCF20DD0)
+#define AGELKCPKEPJ_AHKMECBPJLH_OFFSET UNITYSDK_OFFSET(0x18DD1420)
+#define AGELKCPKEPJ_AKNMPKDGMNC_OFFSET UNITYSDK_OFFSET(0x18DD1470)
+#define AGELKCPKEPJ_BNLEOGDNCOH_OFFSET UNITYSDK_OFFSET(0x18DD2550)
+#define AGELKCPKEPJ_CGEIJCDMNEP_OFFSET UNITYSDK_OFFSET(0x18DD2070)
+#define AGELKCPKEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18DD1280)
+#define AGELKCPKEPJ_DAGIDDGMLDH_OFFSET UNITYSDK_OFFSET(0x18DD27D0)
+#define AGELKCPKEPJ_DHCECDODIJN_OFFSET UNITYSDK_OFFSET(0x18DD14C0)
+#define AGELKCPKEPJ_EBLLKCGHCNH_OFFSET UNITYSDK_OFFSET(0x18DD1FE0)
+#define AGELKCPKEPJ_GAJMJHBFPMM_OFFSET UNITYSDK_OFFSET(0x18DD1620)
+#define AGELKCPKEPJ_GFNNOLEIBPC_1_OFFSET UNITYSDK_OFFSET(0x18DD1B80)
+#define AGELKCPKEPJ_GFNNOLEIBPC_OFFSET UNITYSDK_OFFSET(0x18DD16B0)
+#define AGELKCPKEPJ_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x18DD1200)
+#define AGELKCPKEPJ_JHBDGIOCLNP_OFFSET UNITYSDK_OFFSET(0x18DD23D0)
+#define AGELKCPKEPJ_NCNPOOHGBNO_OFFSET UNITYSDK_OFFSET(0x18DD1590)
+#define AGELKCPKEPJ_PHOBAIDKKJN_OFFSET UNITYSDK_OFFSET(0x18DD13D0)
 
-inline static constexpr unsigned int AGELKCPKEPJ_TypeDefinitionIndex = 62507;
+inline static constexpr unsigned int AGELKCPKEPJ_TypeDefinitionIndex = 63920;
 
 	class AGELKCPKEPJ : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitSlot*>* MFGEADHPLHO; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::AvatarOutfitUnit*>* KHFBEGBEDAN; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::AvatarOutfitUnit*>* EPLDLBFJODK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::AvatarOutfitUnit*>* EPLDLBFJODK; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::AvatarOutfitUnit*>* KHFBEGBEDAN; // 0x20
 		static ::AGELKCPKEPJ** StaticGet_FLMODBLFAGD()
 		{
-			return (::AGELKCPKEPJ**)UnitySDK::FromName("", "AGELKCPKEPJ")->GetStaticField(0x4AEE0);
+			return (::AGELKCPKEPJ**)UnitySDK::FromName("", "AGELKCPKEPJ")->GetStaticField(0x4ECE0);
 		}
 
 		::System::Void _ctor()
@@ -73,9 +75,14 @@ inline static constexpr unsigned int AGELKCPKEPJ_TypeDefinitionIndex = 62507;
 			return ((::RPG::Client::AvatarOutfitUnit*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AGELKCPKEPJ_GAJMJHBFPMM_OFFSET))(this, a1);
 		}
 
-		::System::Void GFNNOLEIBPC(::System::Collections::Generic::ICollection_1<::RPG::Client::AvatarOutfitUnit*>* a1, ::RPG::GameCore::AvatarBaseType a2, ::System::Collections::Generic::ICollection_1<::RPG::GameCore::PlayerOutfitSlotType>* a3)
+		::System::Void GFNNOLEIBPC(::System::Collections::Generic::ICollection_1<::RPG::Client::AvatarOutfitUnit*>* a1, ::RPG::AvatarSystem::AvatarPath* a2, ::System::Collections::Generic::ICollection_1<::RPG::GameCore::PlayerOutfitSlotType>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::ICollection_1<::RPG::Client::AvatarOutfitUnit*>*, ::RPG::GameCore::AvatarBaseType, ::System::Collections::Generic::ICollection_1<::RPG::GameCore::PlayerOutfitSlotType>*))((::PBYTE)hIl2Cpp + AGELKCPKEPJ_GFNNOLEIBPC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::ICollection_1<::RPG::Client::AvatarOutfitUnit*>*, ::RPG::AvatarSystem::AvatarPath*, ::System::Collections::Generic::ICollection_1<::RPG::GameCore::PlayerOutfitSlotType>*))((::PBYTE)hIl2Cpp + AGELKCPKEPJ_GFNNOLEIBPC_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void GFNNOLEIBPC_1(::System::Collections::Generic::ICollection_1<::RPG::Client::AvatarOutfitUnit*>* a1, ::RPG::GameCore::AvatarBaseType a2, ::System::Collections::Generic::ICollection_1<::RPG::GameCore::PlayerOutfitSlotType>* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::ICollection_1<::RPG::Client::AvatarOutfitUnit*>*, ::RPG::GameCore::AvatarBaseType, ::System::Collections::Generic::ICollection_1<::RPG::GameCore::PlayerOutfitSlotType>*))((::PBYTE)hIl2Cpp + AGELKCPKEPJ_GFNNOLEIBPC_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::AvatarOutfitSlot* EBLLKCGHCNH(::System::Int32 a1)

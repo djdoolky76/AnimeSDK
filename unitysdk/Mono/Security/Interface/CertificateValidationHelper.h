@@ -5,8 +5,8 @@ namespace Mono::Security::Interface { class ICertificateValidator2; }
 namespace Mono::Security::Interface { class MonoTlsProvider; }
 namespace Mono::Security::Interface { class MonoTlsSettings; }
 
-#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C004F70)
-#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1C005010)
+#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB29550)
+#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1EB295F0)
 
 namespace Mono::Security::Interface
 {
@@ -17,12 +17,12 @@ namespace Mono::Security::Interface
 	public:
 		static ::System::Boolean* StaticGet_supportsTrustAnchors()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Mono.Security.Interface", "CertificateValidationHelper")->GetStaticField(0x80A0);
+			return (::System::Boolean*)UnitySDK::FromName("Mono.Security.Interface", "CertificateValidationHelper")->GetStaticField(0x9280);
 		}
 
 		static ::System::Boolean* StaticGet_noX509Chain()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Mono.Security.Interface", "CertificateValidationHelper")->GetStaticField(0x80A1);
+			return (::System::Boolean*)UnitySDK::FromName("Mono.Security.Interface", "CertificateValidationHelper")->GetStaticField(0x9281);
 		}
 
 		static ::System::Void _cctor()

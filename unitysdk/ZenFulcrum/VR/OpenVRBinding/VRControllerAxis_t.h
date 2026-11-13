@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VRControllerAxis_t_TypeDefinitionIndex = 39305;
+	inline static constexpr unsigned int VRControllerAxis_t_TypeDefinitionIndex = 40234;
 
 	struct alignas(4) VRControllerAxis_t
 	{

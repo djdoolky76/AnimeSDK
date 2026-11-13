@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int ViewGravityInterpolationFlag_TypeDefinitionIndex = 43442;
+	inline static constexpr unsigned int ViewGravityInterpolationFlag_TypeDefinitionIndex = 44424;
 
 	enum class ViewGravityInterpolationFlag : ::System::Byte
 	{

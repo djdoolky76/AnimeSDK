@@ -5,20 +5,20 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define IMPABJLBFGK_CTOR_OFFSET UNITYSDK_OFFSET(0x164D5D80)
-#define IMPABJLBFGK_PGJGDNBDHIL_OFFSET UNITYSDK_OFFSET(0x164D5E00)
-#define IMPABJLBFGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x164D5EC0)
+#define IMPABJLBFGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E2600)
+#define IMPABJLBFGK_PGJGDNBDHIL_OFFSET UNITYSDK_OFFSET(0x1A5E2680)
+#define IMPABJLBFGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A5E2740)
 
-inline static constexpr unsigned int IMPABJLBFGK_TypeDefinitionIndex = 70177;
+inline static constexpr unsigned int IMPABJLBFGK_TypeDefinitionIndex = 72143;
 
 	class IMPABJLBFGK : public ::System::Object
 	{
 	public:
-		::UnityEngine::Renderer* JAMDAALMOAL; // 0x10
-		::UnityEngine::MaterialPropertyBlock* DMOKGPMOFGM; // 0x18
+		::UnityEngine::MaterialPropertyBlock* DMOKGPMOFGM; // 0x10
+		::UnityEngine::Renderer* JAMDAALMOAL; // 0x18
 		::System::Int32 LAPPEBCGDEG; // 0x20
-		::System::Single NHGFCDCCBNL; // 0x24
-		::System::Single NEHMFKCDKDI; // 0x28
+		::System::Single NEHMFKCDKDI; // 0x24
+		::System::Single NHGFCDCCBNL; // 0x28
 		::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::String* a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + IMPABJLBFGK_CTOR_OFFSET))(this, a1, a2, a3);

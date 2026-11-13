@@ -4,16 +4,16 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerDiceUpgrade; }
 
-#define JILHKIOBAPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6CB3F0)
-#define JILHKIOBAPF_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6CB400)
+#define JILHKIOBAPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C135B90)
+#define JILHKIOBAPF_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C135BA0)
 
-inline static constexpr unsigned int JILHKIOBAPF_TypeDefinitionIndex = 36329;
+inline static constexpr unsigned int JILHKIOBAPF_TypeDefinitionIndex = 37257;
 
 	class JILHKIOBAPF : public ::AJBKGPOEBFG
 	{
 	public:
-		::EHMBINMCDGN* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::DiceCombatTaskConfig_TriggerDiceUpgrade* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::DiceCombatTaskConfig_TriggerDiceUpgrade* IGHAHBNLIJA; // 0x18
+		::EHMBINMCDGN* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_TriggerDiceUpgrade* a1, ::EHMBINMCDGN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_TriggerDiceUpgrade*, ::EHMBINMCDGN*))((::PBYTE)hIl2Cpp + JILHKIOBAPF_CTOR_OFFSET))(this, a1, a2);

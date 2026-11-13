@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengeGroupExtraConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEGROUPEXTRACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D531F50)
-#define RPG_GAMECORE_CHALLENGEGROUPEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D531960)
+#define RPG_GAMECORE_CHALLENGEGROUPEXTRACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC0A410)
+#define RPG_GAMECORE_CHALLENGEGROUPEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC09E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeGroupExtraConfigRow_TypeDefinitionIndex = 12967;
+	inline static constexpr unsigned int ChallengeGroupExtraConfigRow_TypeDefinitionIndex = 13035;
 
 	class ChallengeGroupExtraConfigRow : public ::System::Object
 	{

@@ -12,13 +12,13 @@ namespace RPG::GameCore { class GridFightPrepTutorialSubToastHintParam; }
 namespace RPG::GameCore { class GridFightPrepTutorialToastHintParam; }
 namespace RPG::GameCore { class GridFightPrepTutorialTopHintParam; }
 
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70CAD0)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D70CAE0)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D70CAA0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA58AF0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA58B00)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA58AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialOP_TypeDefinitionIndex = 19971;
+	inline static constexpr unsigned int GridFightPrepTutorialOP_TypeDefinitionIndex = 20301;
 
 	class GridFightPrepTutorialOP : public ::RPG::GameCore::TaskConfig
 	{

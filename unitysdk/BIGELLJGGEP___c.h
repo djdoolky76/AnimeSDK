@@ -4,18 +4,18 @@
 class BIGELLJGGEP;
 namespace System { class Object; }
 
-#define BIGELLJGGEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDD4E50)
-#define BIGELLJGGEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD4E90)
-#define BIGELLJGGEP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDD4EA0)
+#define BIGELLJGGEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAC7810)
+#define BIGELLJGGEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAC7850)
+#define BIGELLJGGEP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FAC7860)
 
-inline static constexpr unsigned int BIGELLJGGEP___c_TypeDefinitionIndex = 32547;
+inline static constexpr unsigned int BIGELLJGGEP___c_TypeDefinitionIndex = 33462;
 
 	class BIGELLJGGEP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x577D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x537E0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define JJLHJLBOFON_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10D90)
-#define JJLHJLBOFON_PBPMJBMJPPL_OFFSET UNITYSDK_OFFSET(0xB202110)
+#define JJLHJLBOFON_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3DEB470)
+#define JJLHJLBOFON_PBPMJBMJPPL_OFFSET UNITYSDK_OFFSET(0x17B09590)
 
-inline static constexpr unsigned int JJLHJLBOFON_TypeDefinitionIndex = 70471;
+inline static constexpr unsigned int JJLHJLBOFON_TypeDefinitionIndex = 72445;
 
 	struct alignas(8) JJLHJLBOFON
 	{

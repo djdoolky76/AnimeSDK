@@ -8,26 +8,25 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class MultiplePathAvatarConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MULTIPLEPATHAVATARCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D892830)
-#define RPG_GAMECORE_MULTIPLEPATHAVATARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D892440)
+#define RPG_GAMECORE_MULTIPLEPATHAVATARCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E483570)
+#define RPG_GAMECORE_MULTIPLEPATHAVATARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E483180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiplePathAvatarConfigRow_TypeDefinitionIndex = 12799;
+	inline static constexpr unsigned int MultiplePathAvatarConfigRow_TypeDefinitionIndex = 12871;
 
 	class MultiplePathAvatarConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ChangeConfigPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockConditions; // 0x18
-		::RPG::Client::TextID Desc; // 0x20
-		::RPG::Client::TextID UnlockToast; // 0x30
-		::System::UInt32 AvatarID; // 0x40
-		::RPG::GameCore::GenderType Gender; // 0x44
-		::System::Boolean AllowRepeatUnlockReward; // 0x48
-		::System::Boolean IsEarlyUnlock; // 0x49
-		::System::Byte _padding0[0x2];
-		::System::UInt32 BaseAvatarID; // 0x4C
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockConditions; // 0x10
+		::System::String* ChangeConfigPath; // 0x18
+		::System::UInt32 BaseAvatarID; // 0x20
+		::System::UInt32 AvatarID; // 0x24
+		::RPG::Client::TextID UnlockToast; // 0x28
+		::RPG::Client::TextID Desc; // 0x38
+		::RPG::GameCore::GenderType Gender; // 0x48
+		::System::Boolean IsEarlyUnlock; // 0x4C
+		::System::Boolean AllowRepeatUnlockReward; // 0x4D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTIPLEPATHAVATARCONFIGROW_CTOR_OFFSET))(this);

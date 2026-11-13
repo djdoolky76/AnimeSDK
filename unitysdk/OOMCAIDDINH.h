@@ -6,10 +6,10 @@ namespace RPG::GameCore { class RtTargetMapEntityInGrid; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OOMCAIDDINH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF85A40)
-#define OOMCAIDDINH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBF85A60)
+#define OOMCAIDDINH_CTOR_OFFSET UNITYSDK_OFFSET(0x196ACC70)
+#define OOMCAIDDINH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x196ACC90)
 
-inline static constexpr unsigned int OOMCAIDDINH_TypeDefinitionIndex = 53814;
+inline static constexpr unsigned int OOMCAIDDINH_TypeDefinitionIndex = 54978;
 
 	class OOMCAIDDINH
 	{

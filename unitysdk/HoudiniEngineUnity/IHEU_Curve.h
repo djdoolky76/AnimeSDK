@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_Curve_TypeDefinitionIndex = 40554;
+	inline static constexpr unsigned int IHEU_Curve_TypeDefinitionIndex = 41529;
 
 	class IHEU_Curve
 	{

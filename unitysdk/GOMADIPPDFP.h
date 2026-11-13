@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class RtSetDynamicValueByDamageDataProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GOMADIPPDFP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2E1E0)
-#define GOMADIPPDFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B2E2C0)
+#define GOMADIPPDFP_CTOR_OFFSET UNITYSDK_OFFSET(0x187BECF0)
+#define GOMADIPPDFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187BEDD0)
 
-inline static constexpr unsigned int GOMADIPPDFP_TypeDefinitionIndex = 53865;
+inline static constexpr unsigned int GOMADIPPDFP_TypeDefinitionIndex = 55029;
 
 	class GOMADIPPDFP
 	{

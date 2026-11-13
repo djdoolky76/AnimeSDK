@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_OPENWORLD_STREAMINGLODSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0xDA03590)
+#define RPG_CLIENT_OPENWORLD_STREAMINGLODSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF01520)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingLodSetting_TypeDefinitionIndex = 73760;
+	inline static constexpr unsigned int StreamingLodSetting_TypeDefinitionIndex = 75884;
 
 	class StreamingLodSetting : public ::System::Object
 	{

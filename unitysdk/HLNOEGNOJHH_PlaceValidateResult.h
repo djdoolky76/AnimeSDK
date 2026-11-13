@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HLNOEGNOJHH_PlaceValidateResult_TypeDefinitionIndex = 77757;
+inline static constexpr unsigned int HLNOEGNOJHH_PlaceValidateResult_TypeDefinitionIndex = 80492;
 
 	enum class HLNOEGNOJHH_PlaceValidateResult : ::System::Int32
 	{

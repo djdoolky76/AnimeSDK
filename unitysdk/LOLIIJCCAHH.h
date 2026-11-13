@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropPuzzleViewEventSender; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOLIIJCCAHH_CTOR_OFFSET UNITYSDK_OFFSET(0xB8063A0)
-#define LOLIIJCCAHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8063D0)
+#define LOLIIJCCAHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BBA70)
+#define LOLIIJCCAHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5BBAA0)
 
-inline static constexpr unsigned int LOLIIJCCAHH_TypeDefinitionIndex = 58340;
+inline static constexpr unsigned int LOLIIJCCAHH_TypeDefinitionIndex = 59596;
 
 	class LOLIIJCCAHH
 	{

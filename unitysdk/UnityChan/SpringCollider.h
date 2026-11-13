@@ -5,13 +5,13 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Mesh; }
 
-#define UNITYCHAN_SPRINGCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE9DDC00)
-#define UNITYCHAN_SPRINGCOLLIDER_IMNFJGLHNDJ_OFFSET UNITYSDK_OFFSET(0xE9DCF10)
-#define UNITYCHAN_SPRINGCOLLIDER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xE9DD940)
+#define UNITYCHAN_SPRINGCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x171472E0)
+#define UNITYCHAN_SPRINGCOLLIDER_IMNFJGLHNDJ_OFFSET UNITYSDK_OFFSET(0x171465F0)
+#define UNITYCHAN_SPRINGCOLLIDER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x17147020)
 
 namespace UnityChan
 {
-	inline static constexpr unsigned int SpringCollider_TypeDefinitionIndex = 47684;
+	inline static constexpr unsigned int SpringCollider_TypeDefinitionIndex = 48714;
 
 	class SpringCollider : public ::UnityEngine::MonoBehaviour
 	{

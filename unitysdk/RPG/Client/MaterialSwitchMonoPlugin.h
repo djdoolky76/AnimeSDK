@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD5D7810)
+#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7331E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialSwitchMonoPlugin_TypeDefinitionIndex = 70724;
+	inline static constexpr unsigned int MaterialSwitchMonoPlugin_TypeDefinitionIndex = 72703;
 
 	class MaterialSwitchMonoPlugin
 	{

@@ -5,9 +5,9 @@ class GKDAANCFPGO;
 class PAPOPANPGIJ;
 namespace RPG::GameCore { class StateTreeStateConfig; }
 
-#define EKHKOPBMGMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D4C70)
+#define EKHKOPBMGMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA89490)
 
-inline static constexpr unsigned int EKHKOPBMGMF_TypeDefinitionIndex = 36969;
+inline static constexpr unsigned int EKHKOPBMGMF_TypeDefinitionIndex = 37897;
 
 	class EKHKOPBMGMF : public ::GKDAANCFPGO
 	{

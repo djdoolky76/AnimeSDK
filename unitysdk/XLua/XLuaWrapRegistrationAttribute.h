@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/XLua/XLuaWrapRegistrationKind.h"
 
-#define XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x153CD2A0)
-#define XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_GET_REGISTRATIONKIND_OFFSET UNITYSDK_OFFSET(0x153CD290)
+#define XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F060830)
+#define XLUA_XLUAWRAPREGISTRATIONATTRIBUTE_GET_REGISTRATIONKIND_OFFSET UNITYSDK_OFFSET(0x1F060820)
 
 namespace XLua
 {
-	inline static constexpr unsigned int XLuaWrapRegistrationAttribute_TypeDefinitionIndex = 50282;
+	inline static constexpr unsigned int XLuaWrapRegistrationAttribute_TypeDefinitionIndex = 51333;
 
 	class XLuaWrapRegistrationAttribute : public ::System::Attribute
 	{

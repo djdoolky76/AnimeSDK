@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/GameCore/B51RacingContentType.h"
 #include "unitysdk/System/Object.h"
 
-#define HKHEDJKACGK_CTOR_OFFSET UNITYSDK_OFFSET(0x15D38490)
-#define HKHEDJKACGK_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x15D38470)
-#define HKHEDJKACGK_GET_CYCLEID_OFFSET UNITYSDK_OFFSET(0x15D38430)
-#define HKHEDJKACGK_GET_DAY_OFFSET UNITYSDK_OFFSET(0x15D38450)
-#define HKHEDJKACGK_SET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x15D38480)
-#define HKHEDJKACGK_SET_CYCLEID_OFFSET UNITYSDK_OFFSET(0x15D38440)
-#define HKHEDJKACGK_SET_DAY_OFFSET UNITYSDK_OFFSET(0x15D38460)
+#define HKHEDJKACGK_CTOR_OFFSET UNITYSDK_OFFSET(0x19881C80)
+#define HKHEDJKACGK_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x19881C60)
+#define HKHEDJKACGK_GET_CYCLEID_OFFSET UNITYSDK_OFFSET(0x19881C20)
+#define HKHEDJKACGK_GET_DAY_OFFSET UNITYSDK_OFFSET(0x19881C40)
+#define HKHEDJKACGK_SET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x19881C70)
+#define HKHEDJKACGK_SET_CYCLEID_OFFSET UNITYSDK_OFFSET(0x19881C30)
+#define HKHEDJKACGK_SET_DAY_OFFSET UNITYSDK_OFFSET(0x19881C50)
 
-inline static constexpr unsigned int HKHEDJKACGK_TypeDefinitionIndex = 81661;
+inline static constexpr unsigned int HKHEDJKACGK_TypeDefinitionIndex = 84442;
 
 	class HKHEDJKACGK : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::B51RacingContentType _ContentType_k__BackingField; // 0x10
-		::System::UInt32 _Day_k__BackingField; // 0x14
-		::System::UInt32 _CycleID_k__BackingField; // 0x18
+		::System::UInt32 _CycleID_k__BackingField; // 0x10
+		::RPG::GameCore::B51RacingContentType _ContentType_k__BackingField; // 0x14
+		::System::UInt32 _Day_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HKHEDJKACGK_CTOR_OFFSET))(this);

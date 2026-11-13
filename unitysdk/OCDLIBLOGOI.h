@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetMapTargetInTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OCDLIBLOGOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBD53480)
-#define OCDLIBLOGOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBD534A0)
+#define OCDLIBLOGOI_CTOR_OFFSET UNITYSDK_OFFSET(0x19A054C0)
+#define OCDLIBLOGOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x19A054E0)
 
-inline static constexpr unsigned int OCDLIBLOGOI_TypeDefinitionIndex = 53802;
+inline static constexpr unsigned int OCDLIBLOGOI_TypeDefinitionIndex = 54966;
 
 	class OCDLIBLOGOI
 	{

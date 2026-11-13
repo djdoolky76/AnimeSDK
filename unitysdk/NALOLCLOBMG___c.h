@@ -4,18 +4,18 @@
 class NALOLCLOBMG;
 namespace System { class Object; }
 
-#define NALOLCLOBMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA996C0)
-#define NALOLCLOBMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA99700)
-#define NALOLCLOBMG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA99710)
+#define NALOLCLOBMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2014EF00)
+#define NALOLCLOBMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2014EF40)
+#define NALOLCLOBMG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2014EF50)
 
-inline static constexpr unsigned int NALOLCLOBMG___c_TypeDefinitionIndex = 27948;
+inline static constexpr unsigned int NALOLCLOBMG___c_TypeDefinitionIndex = 28538;
 
 	class NALOLCLOBMG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CE40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57260);
 		}
 
 		static ::System::Void _cctor()

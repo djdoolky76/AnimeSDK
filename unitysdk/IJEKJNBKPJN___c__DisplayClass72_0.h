@@ -4,10 +4,10 @@
 class IJEKJNBKPJN;
 namespace UnityEngine { class Material; }
 
-#define IJEKJNBKPJN___C__DISPLAYCLASS72_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16456000)
-#define IJEKJNBKPJN___C__DISPLAYCLASS72_0__ASYNCLOADMATERIAL_B__0_OFFSET UNITYSDK_OFFSET(0x16458610)
+#define IJEKJNBKPJN___C__DISPLAYCLASS72_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1804A3A0)
+#define IJEKJNBKPJN___C__DISPLAYCLASS72_0__ASYNCLOADMATERIAL_B__0_OFFSET UNITYSDK_OFFSET(0x1804C960)
 
-inline static constexpr unsigned int IJEKJNBKPJN___c__DisplayClass72_0_TypeDefinitionIndex = 57149;
+inline static constexpr unsigned int IJEKJNBKPJN___c__DisplayClass72_0_TypeDefinitionIndex = 58378;
 
 	class IJEKJNBKPJN___c__DisplayClass72_0 : public ::System::Object
 	{

@@ -19,34 +19,34 @@ namespace System::ComponentModel { class TypeDescriptor_TypeDescriptionNode; }
 namespace System::ComponentModel { class WeakHashtable; }
 namespace System::Diagnostics { class BooleanSwitch; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ADDPROVIDER_OFFSET UNITYSDK_OFFSET(0x1EFCC350)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5910)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_CHECKDEFAULTPROVIDER_OFFSET UNITYSDK_OFFSET(0x1EFCD550)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1EFC9170)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETATTRIBUTES_2_OFFSET UNITYSDK_OFFSET(0x1EFCDF00)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1EFC8FC0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETCACHE_OFFSET UNITYSDK_OFFSET(0x1EFD3DA0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1EFD4E30)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETDESCRIPTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFCE700)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EFCDDF0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETEXTENDEDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EFCE8C0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETEXTENDERCOLLISIONSUFFIX_OFFSET UNITYSDK_OFFSET(0x1EFD5020)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETNODEFORBASETYPE_OFFSET UNITYSDK_OFFSET(0x1EFD5520)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETPROVIDERRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1EFD5640)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETREFLECTIONTYPE_OFFSET UNITYSDK_OFFSET(0x1EFBCBD0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GET_COMOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1EFCC2C0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GET_INTERFACETYPE_OFFSET UNITYSDK_OFFSET(0x1EFCC2F0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GET_METADATAVERSION_OFFSET UNITYSDK_OFFSET(0x1EFCC320)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_NODEFOR_1_OFFSET UNITYSDK_OFFSET(0x1EFCC5E0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_NODEFOR_2_OFFSET UNITYSDK_OFFSET(0x1EFD4D10)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_NODEFOR_3_OFFSET UNITYSDK_OFFSET(0x1EFD5670)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_NODEFOR_OFFSET UNITYSDK_OFFSET(0x1EFD4F50)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_PIPELINEFILTER_OFFSET UNITYSDK_OFFSET(0x1EFD10C0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_PIPELINEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EFD3E00)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_PIPELINEMERGE_OFFSET UNITYSDK_OFFSET(0x1EFCE9C0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_RAISEREFRESH_OFFSET UNITYSDK_OFFSET(0x1EFD5860)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_REFRESH_OFFSET UNITYSDK_OFFSET(0x1EFCCC30)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_SORTDESCRIPTORARRAY_OFFSET UNITYSDK_OFFSET(0x1EFBDFF0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ADDPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C188C10)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C192230)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_CHECKDEFAULTPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C189E10)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1C185980)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETATTRIBUTES_2_OFFSET UNITYSDK_OFFSET(0x1C18A820)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1C1857D0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETCACHE_OFFSET UNITYSDK_OFFSET(0x1C1906C0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1C191750)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETDESCRIPTOR_1_OFFSET UNITYSDK_OFFSET(0x1C18B020)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1C18A710)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETEXTENDEDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1C18B1E0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETEXTENDERCOLLISIONSUFFIX_OFFSET UNITYSDK_OFFSET(0x1C191940)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETNODEFORBASETYPE_OFFSET UNITYSDK_OFFSET(0x1C191E40)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETPROVIDERRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1C191F60)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GETREFLECTIONTYPE_OFFSET UNITYSDK_OFFSET(0x1C179300)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GET_COMOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C188B80)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GET_INTERFACETYPE_OFFSET UNITYSDK_OFFSET(0x1C188BB0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_GET_METADATAVERSION_OFFSET UNITYSDK_OFFSET(0x1C188BE0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_NODEFOR_1_OFFSET UNITYSDK_OFFSET(0x1C188EA0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_NODEFOR_2_OFFSET UNITYSDK_OFFSET(0x1C191630)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_NODEFOR_3_OFFSET UNITYSDK_OFFSET(0x1C191F90)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_NODEFOR_OFFSET UNITYSDK_OFFSET(0x1C191870)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_PIPELINEFILTER_OFFSET UNITYSDK_OFFSET(0x1C18D9E0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_PIPELINEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C190720)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_PIPELINEMERGE_OFFSET UNITYSDK_OFFSET(0x1C18B2E0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_RAISEREFRESH_OFFSET UNITYSDK_OFFSET(0x1C192180)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_REFRESH_OFFSET UNITYSDK_OFFSET(0x1C1894F0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_SORTDESCRIPTORARRAY_OFFSET UNITYSDK_OFFSET(0x1C17A720)
 
 namespace System::ComponentModel
 {
@@ -55,64 +55,64 @@ namespace System::ComponentModel
 	class TypeDescriptor : public ::System::Object
 	{
 	public:
-		static ::System::Diagnostics::BooleanSwitch** StaticGet_TraceDescriptor()
+		static ::System::ComponentModel::RefreshEventHandler** StaticGet_Refreshed()
 		{
-			return (::System::Diagnostics::BooleanSwitch**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C520);
+			return (::System::ComponentModel::RefreshEventHandler**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36400);
 		}
 
 		static ::Il2CppArray<::System::Guid>** StaticGet__pipelineInitializeKeys()
 		{
-			return (::Il2CppArray<::System::Guid>**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C528);
-		}
-
-		static ::Il2CppArray<::System::Guid>** StaticGet__pipelineFilterKeys()
-		{
-			return (::Il2CppArray<::System::Guid>**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C530);
+			return (::Il2CppArray<::System::Guid>**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36408);
 		}
 
 		static ::System::ComponentModel::WeakHashtable** StaticGet__providerTable()
 		{
-			return (::System::ComponentModel::WeakHashtable**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C538);
-		}
-
-		static ::System::ComponentModel::RefreshEventHandler** StaticGet_Refreshed()
-		{
-			return (::System::ComponentModel::RefreshEventHandler**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C540);
+			return (::System::ComponentModel::WeakHashtable**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36410);
 		}
 
 		static ::Il2CppArray<::System::Guid>** StaticGet__pipelineMergeKeys()
 		{
-			return (::Il2CppArray<::System::Guid>**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C548);
+			return (::Il2CppArray<::System::Guid>**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36418);
 		}
 
 		static ::System::Collections::Hashtable** StaticGet__providerTypeTable()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C550);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36420);
 		}
 
-		static ::System::Object** StaticGet__internalSyncObject()
+		static ::Il2CppArray<::System::Guid>** StaticGet__pipelineFilterKeys()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C558);
+			return (::Il2CppArray<::System::Guid>**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36428);
 		}
 
 		static ::System::Collections::Hashtable** StaticGet__defaultProviders()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C560);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36430);
+		}
+
+		static ::System::Diagnostics::BooleanSwitch** StaticGet_TraceDescriptor()
+		{
+			return (::System::Diagnostics::BooleanSwitch**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36438);
 		}
 
 		static ::Il2CppArray<::System::Guid>** StaticGet__pipelineAttributeFilterKeys()
 		{
-			return (::Il2CppArray<::System::Guid>**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x2C568);
+			return (::Il2CppArray<::System::Guid>**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36440);
+		}
+
+		static ::System::Object** StaticGet__internalSyncObject()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x36448);
 		}
 
 		static ::System::Int32* StaticGet__collisionIndex()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x9510);
+			return (::System::Int32*)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0xA9A0);
 		}
 
 		static ::System::Int32* StaticGet__metadataVersion()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0x9514);
+			return (::System::Int32*)UnitySDK::FromName("System.ComponentModel", "TypeDescriptor")->GetStaticField(0xA9A4);
 		}
 
 		static ::System::Void _cctor()

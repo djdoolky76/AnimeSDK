@@ -4,9 +4,9 @@
 namespace RPG::Client::FateRin::Card { class IFateRinCardViewModel; }
 namespace System { class String; }
 
-#define NBDKFMMEMGP_NIHPBABLPBP_OFFSET UNITYSDK_OFFSET(0xBAB83C0)
+#define NBDKFMMEMGP_NIHPBABLPBP_OFFSET UNITYSDK_OFFSET(0x1BB12020)
 
-inline static constexpr unsigned int NBDKFMMEMGP_TypeDefinitionIndex = 80663;
+inline static constexpr unsigned int NBDKFMMEMGP_TypeDefinitionIndex = 83443;
 
 	class NBDKFMMEMGP : public ::System::Object
 	{

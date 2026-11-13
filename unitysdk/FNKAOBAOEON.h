@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class InventoryModule; }
 
-#define FNKAOBAOEON_CTOR_OFFSET UNITYSDK_OFFSET(0x158694E0)
-#define FNKAOBAOEON_EMLGPKHMCAA_OFFSET UNITYSDK_OFFSET(0x158694F0)
+#define FNKAOBAOEON_CTOR_OFFSET UNITYSDK_OFFSET(0x17F1CC70)
+#define FNKAOBAOEON_EMLGPKHMCAA_OFFSET UNITYSDK_OFFSET(0x17F1CC80)
 
-inline static constexpr unsigned int FNKAOBAOEON_TypeDefinitionIndex = 74944;
+inline static constexpr unsigned int FNKAOBAOEON_TypeDefinitionIndex = 77271;
 
 	class FNKAOBAOEON : public ::System::Object
 	{

@@ -8,41 +8,41 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define HAILIPBNAJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C62C230)
-#define HAILIPBNAJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C62C270)
-#define HAILIPBNAJL___C___CALCDICESCOREBYAILEVEL_B__37_0_OFFSET UNITYSDK_OFFSET(0x1C62C280)
-#define HAILIPBNAJL___C___CALCSELECTEDDICESCORE_B__38_0_OFFSET UNITYSDK_OFFSET(0x1C62C300)
-#define HAILIPBNAJL___C___CALCSELECTEDDICESCORE_B__38_1_OFFSET UNITYSDK_OFFSET(0x1C62C3C0)
-#define HAILIPBNAJL___C___GETDICECONTENTWEIGHTLISTMAP_B__41_0_OFFSET UNITYSDK_OFFSET(0x1C62C480)
+#define HAILIPBNAJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA69B10)
+#define HAILIPBNAJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA69B50)
+#define HAILIPBNAJL___C___CALCDICESCOREBYAILEVEL_B__37_0_OFFSET UNITYSDK_OFFSET(0x1AA69B60)
+#define HAILIPBNAJL___C___CALCSELECTEDDICESCORE_B__38_0_OFFSET UNITYSDK_OFFSET(0x1AA69BE0)
+#define HAILIPBNAJL___C___CALCSELECTEDDICESCORE_B__38_1_OFFSET UNITYSDK_OFFSET(0x1AA69CA0)
+#define HAILIPBNAJL___C___GETDICECONTENTWEIGHTLISTMAP_B__41_0_OFFSET UNITYSDK_OFFSET(0x1AA69D60)
 
-inline static constexpr unsigned int HAILIPBNAJL___c_TypeDefinitionIndex = 36409;
+inline static constexpr unsigned int HAILIPBNAJL___c_TypeDefinitionIndex = 37337;
 
 	class HAILIPBNAJL___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64>>** StaticGet___9__37_0()
-		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69E00);
-		}
-
-		static ::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>** StaticGet___9__38_1()
-		{
-			return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69E08);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69E10);
-		}
-
-		static ::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>** StaticGet___9__38_0()
-		{
-			return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69E18);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70730);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Int64>** StaticGet___9__41_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69E20);
+			return (::System::Func_2<::System::UInt32, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70738);
+		}
+
+		static ::System::Comparison_1<::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64>>** StaticGet___9__37_0()
+		{
+			return (::System::Comparison_1<::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70740);
+		}
+
+		static ::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>** StaticGet___9__38_1()
+		{
+			return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70748);
+		}
+
+		static ::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>** StaticGet___9__38_0()
+		{
+			return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70750);
 		}
 
 		static ::System::Void _cctor()

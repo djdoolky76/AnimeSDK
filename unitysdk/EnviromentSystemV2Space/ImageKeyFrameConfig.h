@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 
-#define ENVIROMENTSYSTEMV2SPACE_IMAGEKEYFRAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15648090)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGEKEYFRAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x136CE6A0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ImageKeyFrameConfig_TypeDefinitionIndex = 49483;
+	inline static constexpr unsigned int ImageKeyFrameConfig_TypeDefinitionIndex = 50559;
 
 	class ImageKeyFrameConfig : public ::System::Object
 	{

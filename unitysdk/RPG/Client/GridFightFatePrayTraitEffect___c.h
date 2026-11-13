@@ -5,31 +5,31 @@ namespace RPG::Client { class GridFightPrayQuest; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD126430)
-#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD126470)
-#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__GET_COMPLETEDQUESTCOUNT_B__18_0_OFFSET UNITYSDK_OFFSET(0xD1264A0)
-#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__ONUPDATE_B__1_0_OFFSET UNITYSDK_OFFSET(0xD126480)
+#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D667FF0)
+#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D668030)
+#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__GET_COMPLETEDQUESTCOUNT_B__18_0_OFFSET UNITYSDK_OFFSET(0x1D668060)
+#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__ONUPDATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D668040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFatePrayTraitEffect___c_TypeDefinitionIndex = 65388;
+	inline static constexpr unsigned int GridFightFatePrayTraitEffect___c_TypeDefinitionIndex = 67211;
 
 	class GridFightFatePrayTraitEffect___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69620);
-		}
-
 		static ::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69628);
+			return (::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x712A0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x712A8);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69630);
+			return (::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x712B0);
 		}
 
 		static ::System::Void _cctor()

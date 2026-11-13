@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class FDPOCBGDLGA;
 
-#define FDPOCBGDLGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB0AC0)
-#define FDPOCBGDLGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDB09A0)
+#define FDPOCBGDLGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E444C40)
+#define FDPOCBGDLGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E444B20)
 
-inline static constexpr unsigned int FDPOCBGDLGA_TypeDefinitionIndex = 12934;
+inline static constexpr unsigned int FDPOCBGDLGA_TypeDefinitionIndex = 13006;
 
 	class FDPOCBGDLGA : public ::System::Object
 	{
 	public:
-		::System::UInt32 PHFMCACHFIJ; // 0x10
-		::System::UInt32 HCDEOKNIGKG; // 0x14
+		::System::UInt32 HCDEOKNIGKG; // 0x10
+		::System::UInt32 PHFMCACHFIJ; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDPOCBGDLGA_CTOR_OFFSET))(this);

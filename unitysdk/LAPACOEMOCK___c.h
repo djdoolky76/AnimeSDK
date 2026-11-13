@@ -4,18 +4,18 @@
 class LAPACOEMOCK;
 namespace System { class Object; }
 
-#define LAPACOEMOCK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8A71C0)
-#define LAPACOEMOCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A7200)
-#define LAPACOEMOCK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E8A7210)
+#define LAPACOEMOCK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203906F0)
+#define LAPACOEMOCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20390730)
+#define LAPACOEMOCK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x20390740)
 
-inline static constexpr unsigned int LAPACOEMOCK___c_TypeDefinitionIndex = 32001;
+inline static constexpr unsigned int LAPACOEMOCK___c_TypeDefinitionIndex = 32914;
 
 	class LAPACOEMOCK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25240);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28620);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class NJMHBOMPING;
 namespace System { class Object; }
 
-#define NJMHBOMPING___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB20880)
-#define NJMHBOMPING___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB208C0)
-#define NJMHBOMPING___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB208D0)
+#define NJMHBOMPING___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA102E0)
+#define NJMHBOMPING___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA10320)
+#define NJMHBOMPING___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FA10330)
 
-inline static constexpr unsigned int NJMHBOMPING___c_TypeDefinitionIndex = 29786;
+inline static constexpr unsigned int NJMHBOMPING___c_TypeDefinitionIndex = 30684;
 
 	class NJMHBOMPING___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69020);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67A90);
 		}
 
 		static ::System::Void _cctor()

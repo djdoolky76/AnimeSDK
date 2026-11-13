@@ -4,21 +4,20 @@
 namespace RPG::GameCore { class LevelDialogInfo; }
 namespace System { class String; }
 
-#define JMCHDIEPEJP_CTOR_OFFSET UNITYSDK_OFFSET(0xB2581D0)
-#define JMCHDIEPEJP_GNCMNBHMIPE_OFFSET UNITYSDK_OFFSET(0xB258160)
+#define JMCHDIEPEJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A6AC0)
+#define JMCHDIEPEJP_GNCMNBHMIPE_OFFSET UNITYSDK_OFFSET(0x1A0A6A50)
 
-inline static constexpr unsigned int JMCHDIEPEJP_TypeDefinitionIndex = 65657;
+inline static constexpr unsigned int JMCHDIEPEJP_TypeDefinitionIndex = 67579;
 
 	class JMCHDIEPEJP : public ::System::Object
 	{
 	public:
-		::System::String* OJDMHBKCEEM; // 0x10
+		::RPG::GameCore::LevelDialogInfo* ONHHCMNCOLI; // 0x10
 		::System::String* KIAOBNHIAPO; // 0x18
-		::RPG::GameCore::LevelDialogInfo* ONHHCMNCOLI; // 0x20
-		::System::Boolean CFEFFDMCKKO; // 0x28
-		::System::Boolean PDNGFBJEDCL; // 0x29
-		::System::Byte _padding0[0x2];
-		::System::UInt32 DLIBPIIIAIB; // 0x2C
+		::System::String* OJDMHBKCEEM; // 0x20
+		::System::UInt32 DLIBPIIIAIB; // 0x28
+		::System::Boolean CFEFFDMCKKO; // 0x2C
+		::System::Boolean PDNGFBJEDCL; // 0x2D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMCHDIEPEJP_CTOR_OFFSET))(this);

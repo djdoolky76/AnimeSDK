@@ -3,10 +3,10 @@
 class ELBMEFNEMHP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IAEFDOENKIP_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF5460)
-#define IAEFDOENKIP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DF5490)
+#define IAEFDOENKIP_CTOR_OFFSET UNITYSDK_OFFSET(0x19415E60)
+#define IAEFDOENKIP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19415E90)
 
-inline static constexpr unsigned int IAEFDOENKIP_TypeDefinitionIndex = 53299;
+inline static constexpr unsigned int IAEFDOENKIP_TypeDefinitionIndex = 54461;
 
 	class IAEFDOENKIP
 	{

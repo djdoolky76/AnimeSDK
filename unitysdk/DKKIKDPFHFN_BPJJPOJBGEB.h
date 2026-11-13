@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class DKKIKDPFHFN;
 
-inline static constexpr unsigned int DKKIKDPFHFN_BPJJPOJBGEB_TypeDefinitionIndex = 50007;
+inline static constexpr unsigned int DKKIKDPFHFN_BPJJPOJBGEB_TypeDefinitionIndex = 51055;
 
 	struct alignas(8) DKKIKDPFHFN_BPJJPOJBGEB
 	{

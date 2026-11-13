@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LGLEBDPBHHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E0840)
+#define LGLEBDPBHHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63A920)
 
-inline static constexpr unsigned int LGLEBDPBHHM_TypeDefinitionIndex = 42332;
+inline static constexpr unsigned int LGLEBDPBHHM_TypeDefinitionIndex = 43307;
 
 	class LGLEBDPBHHM : public ::System::Object
 	{

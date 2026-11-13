@@ -6,10 +6,10 @@
 #include "unitysdk/AkiOSSettings_PlatformAdvancedSettings_Mode.h"
 class AkPlatformInitSettings;
 
-#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F5F0CD0)
-#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F0D20)
+#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1EBC8BD0)
+#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC8C20)
 
-inline static constexpr unsigned int AkiOSSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 44903;
+inline static constexpr unsigned int AkiOSSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 45978;
 
 	class AkiOSSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 	{

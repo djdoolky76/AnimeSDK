@@ -7,20 +7,20 @@ namespace RPG::GameCore { class BaseExpeditionBattleAction; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BDAFNKJPDFD_AFKAFAPJLBB_OFFSET UNITYSDK_OFFSET(0x162DFC10)
-#define BDAFNKJPDFD_CTOR_OFFSET UNITYSDK_OFFSET(0x162DF650)
-#define BDAFNKJPDFD_EPODAGHCEKF_OFFSET UNITYSDK_OFFSET(0x162DFCE0)
-#define BDAFNKJPDFD_GET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x162DF560)
-#define BDAFNKJPDFD_HDEJDHKBCPN_OFFSET UNITYSDK_OFFSET(0x162DFC70)
-#define BDAFNKJPDFD_IJJMIMJMNBN_OFFSET UNITYSDK_OFFSET(0x162DF570)
+#define BDAFNKJPDFD_AFKAFAPJLBB_OFFSET UNITYSDK_OFFSET(0x19D891F0)
+#define BDAFNKJPDFD_CTOR_OFFSET UNITYSDK_OFFSET(0x19D88C30)
+#define BDAFNKJPDFD_EPODAGHCEKF_OFFSET UNITYSDK_OFFSET(0x19D892C0)
+#define BDAFNKJPDFD_GET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x19D88B40)
+#define BDAFNKJPDFD_HDEJDHKBCPN_OFFSET UNITYSDK_OFFSET(0x19D89250)
+#define BDAFNKJPDFD_IJJMIMJMNBN_OFFSET UNITYSDK_OFFSET(0x19D88B50)
 
-inline static constexpr unsigned int BDAFNKJPDFD_TypeDefinitionIndex = 63904;
+inline static constexpr unsigned int BDAFNKJPDFD_TypeDefinitionIndex = 65346;
 
 	class BDAFNKJPDFD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::BaseExpeditionBattleAction*>* LGMJPAADBME; // 0x10
-		::ENMOCEFKBFI* CGHHNAEKHIO; // 0x18
+		::ENMOCEFKBFI* CGHHNAEKHIO; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::BaseExpeditionBattleAction*>* LGMJPAADBME; // 0x18
 		::RPG::GameCore::ExpeditionBattleFlowStateType _StageType_k__BackingField; // 0x20
 		::System::Void _ctor(::RPG::GameCore::ExpeditionBattleFlowStateType a1, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::BaseExpeditionBattleAction*>* a2)
 		{

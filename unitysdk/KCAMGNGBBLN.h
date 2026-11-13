@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KCAMGNGBBLN_CTOR_OFFSET UNITYSDK_OFFSET(0xB327DE0)
-#define KCAMGNGBBLN_DEOFKLDKNMJ_OFFSET UNITYSDK_OFFSET(0xB327F90)
-#define KCAMGNGBBLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB327E60)
-#define KCAMGNGBBLN_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB327EF0)
+#define KCAMGNGBBLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A47AB90)
+#define KCAMGNGBBLN_DEOFKLDKNMJ_OFFSET UNITYSDK_OFFSET(0x1A47AD40)
+#define KCAMGNGBBLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A47AC10)
+#define KCAMGNGBBLN_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1A47ACA0)
 
-inline static constexpr unsigned int KCAMGNGBBLN_TypeDefinitionIndex = 66982;
+inline static constexpr unsigned int KCAMGNGBBLN_TypeDefinitionIndex = 68926;
 
 	class KCAMGNGBBLN : public ::System::Object
 	{

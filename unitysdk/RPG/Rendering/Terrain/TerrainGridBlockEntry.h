@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Rendering::Terrain
 {
-	inline static constexpr unsigned int TerrainGridBlockEntry_TypeDefinitionIndex = 51799;
+	inline static constexpr unsigned int TerrainGridBlockEntry_TypeDefinitionIndex = 52885;
 
 	struct alignas(8) TerrainGridBlockEntry
 	{

@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 
-#define MHJMINBCLPJ_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x1CC65D40)
-#define MHJMINBCLPJ_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC65CC0)
-#define MHJMINBCLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC65C90)
+#define MHJMINBCLPJ_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x20938920)
+#define MHJMINBCLPJ_CONVERT_OFFSET UNITYSDK_OFFSET(0x209388A0)
+#define MHJMINBCLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x20938870)
 
-inline static constexpr unsigned int MHJMINBCLPJ_TypeDefinitionIndex = 43892;
+inline static constexpr unsigned int MHJMINBCLPJ_TypeDefinitionIndex = 44967;
 
 	class MHJMINBCLPJ : public ::System::Object
 	{

@@ -7,25 +7,25 @@ namespace System { class String; }
 namespace UnityEngine { class AssetBundle; }
 namespace UnityEngine { class AssetBundleCreateRequest; }
 
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x16704EC0)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16705030)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_GET_ASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x16704EA0)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_GET_PATH_OFFSET UNITYSDK_OFFSET(0x16704E80)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_SET_ASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x16704EB0)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_SET_PATH_OFFSET UNITYSDK_OFFSET(0x16704E90)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x16704F30)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC70620)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC70790)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_GET_ASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x1EC70600)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_GET_PATH_OFFSET UNITYSDK_OFFSET(0x1EC705E0)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_SET_ASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x1EC70610)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1EC705F0)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EC70690)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsLoadAssetBundleRequest_TypeDefinitionIndex = 40110;
+	inline static constexpr unsigned int CriFsLoadAssetBundleRequest_TypeDefinitionIndex = 41085;
 
 	class CriFsLoadAssetBundleRequest : public ::CriWare::CriFsRequest
 	{
 	public:
-		::UnityEngine::AssetBundleCreateRequest* assetBundleReq; // 0x38
-		::CriWare::CriFsLoadFileRequest* loadFileReq; // 0x40
-		::System::String* _path_k__BackingField; // 0x48
-		::UnityEngine::AssetBundle* _assetBundle_k__BackingField; // 0x50
+		::CriWare::CriFsLoadFileRequest* loadFileReq; // 0x38
+		::System::String* _path_k__BackingField; // 0x40
+		::UnityEngine::AssetBundle* _assetBundle_k__BackingField; // 0x48
+		::UnityEngine::AssetBundleCreateRequest* assetBundleReq; // 0x50
 		::System::Void _ctor(::CriWare::CriFsBinder* a1, ::System::String* a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_CTOR_OFFSET))(this, a1, a2, a3);

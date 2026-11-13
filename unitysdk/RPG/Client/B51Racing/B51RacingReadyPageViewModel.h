@@ -4,20 +4,20 @@
 namespace RPG::Client::B51Racing { class B51RacingReadyDriverPanelViewModel; }
 namespace RPG::Client::B51Racing { class B51RacingReadyPageViewModel; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGREADYPAGEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xC7AE5A0)
-#define RPG_CLIENT_B51RACING_B51RACINGREADYPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7AE710)
+#define RPG_CLIENT_B51RACING_B51RACINGREADYPAGEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x1CA6F280)
+#define RPG_CLIENT_B51RACING_B51RACINGREADYPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6F3F0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingReadyPageViewModel_TypeDefinitionIndex = 82047;
+	inline static constexpr unsigned int B51RacingReadyPageViewModel_TypeDefinitionIndex = 84828;
 
 	class B51RacingReadyPageViewModel : public ::System::Object
 	{
 	public:
 		::RPG::Client::B51Racing::B51RacingReadyDriverPanelViewModel* DriverPanel; // 0x10
-		::System::UInt32 LevelIndex; // 0x18
-		::System::UInt32 TrackConfigId; // 0x1C
-		::System::UInt32 LevelConfigId; // 0x20
+		::System::UInt32 TrackConfigId; // 0x18
+		::System::UInt32 LevelConfigId; // 0x1C
+		::System::UInt32 LevelIndex; // 0x20
 		::System::Int32 CurrentTabIndex; // 0x24
 		::System::Boolean IsChallenge; // 0x28
 		::System::Void _ctor()

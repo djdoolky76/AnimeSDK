@@ -6,31 +6,31 @@ namespace System { class EventArgs; }
 namespace System { class EventHandler; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F621430)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F621470)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__INITWEBVIEWASYNC_B__45_1_OFFSET UNITYSDK_OFFSET(0x1F621480)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__LOADNATIVECORE_B__50_0_OFFSET UNITYSDK_OFFSET(0x1F6215A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDBB900)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBB940)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__INITWEBVIEWASYNC_B__45_1_OFFSET UNITYSDK_OFFSET(0x1DDBB950)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__LOADNATIVECORE_B__50_0_OFFSET UNITYSDK_OFFSET(0x1DDBBA70)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative___c_TypeDefinitionIndex = 39462;
+	inline static constexpr unsigned int BrowserNative___c_TypeDefinitionIndex = 40391;
 
 	class BrowserNative___c : public ::System::Object
 	{
 	public:
+		static ::System::EventHandler** StaticGet___9__50_0()
+		{
+			return (::System::EventHandler**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x42470);
+		}
+
 		static ::System::Action** StaticGet___9__45_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x42760);
+			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x42478);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x42768);
-		}
-
-		static ::System::EventHandler** StaticGet___9__50_0()
-		{
-			return (::System::EventHandler**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x42770);
+			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x42480);
 		}
 
 		static ::System::Void _cctor()

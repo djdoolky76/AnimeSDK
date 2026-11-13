@@ -7,31 +7,31 @@ namespace System { template <typename T> class Action_1; }
 namespace TMPro { class TMP_TextInfo; }
 namespace UnityEngine { class Mesh; }
 
-#define TMPRO_TMP_TEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F316F20)
-#define TMPRO_TMP_TEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F316F50)
-#define TMPRO_TMP_TEXT___C___CTOR_B__625_0_OFFSET UNITYSDK_OFFSET(0x1F316F60)
-#define TMPRO_TMP_TEXT___C___CTOR_B__625_1_OFFSET UNITYSDK_OFFSET(0x1F316F70)
+#define TMPRO_TMP_TEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x13F33F40)
+#define TMPRO_TMP_TEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x13F33F70)
+#define TMPRO_TMP_TEXT___C___CTOR_B__625_0_OFFSET UNITYSDK_OFFSET(0x13F33F80)
+#define TMPRO_TMP_TEXT___C___CTOR_B__625_1_OFFSET UNITYSDK_OFFSET(0x13F33F90)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Text___c_TypeDefinitionIndex = 44661;
+	inline static constexpr unsigned int TMP_Text___c_TypeDefinitionIndex = 45736;
 
 	class TMP_Text___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::TMPro::TMP_TextInfo*>** StaticGet___9__625_0()
-		{
-			return (::System::Action_1<::TMPro::TMP_TextInfo*>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x5A580);
-		}
-
 		static ::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>** StaticGet___9__625_1()
 		{
-			return (::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x5A588);
+			return (::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x6F600);
+		}
+
+		static ::System::Action_1<::TMPro::TMP_TextInfo*>** StaticGet___9__625_0()
+		{
+			return (::System::Action_1<::TMPro::TMP_TextInfo*>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x6F608);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x5A590);
+			return (::System::Object**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x6F610);
 		}
 
 		static ::System::Void _cctor()

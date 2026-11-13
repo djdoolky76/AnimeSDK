@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SpecialVisionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SPECIALVISIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD39D0)
-#define RPG_GAMECORE_SPECIALVISIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD3660)
+#define RPG_GAMECORE_SPECIALVISIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A6C50)
+#define RPG_GAMECORE_SPECIALVISIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3A68E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialVisionConfig_TypeDefinitionIndex = 17589;
+	inline static constexpr unsigned int SpecialVisionConfig_TypeDefinitionIndex = 17757;
 
 	class SpecialVisionConfig : public ::RPG::GameCore::JsonConfig
 	{

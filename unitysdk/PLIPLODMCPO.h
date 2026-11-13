@@ -4,10 +4,10 @@
 class JOBNNLAEHCO;
 namespace RPG::GameCore { class FiveDimGravityFieldRingConfig; }
 
-#define PLIPLODMCPO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9C8060)
-#define PLIPLODMCPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C80C0)
+#define PLIPLODMCPO_CLEAR_OFFSET UNITYSDK_OFFSET(0x20700580)
+#define PLIPLODMCPO_CTOR_OFFSET UNITYSDK_OFFSET(0x207005E0)
 
-inline static constexpr unsigned int PLIPLODMCPO_TypeDefinitionIndex = 43512;
+inline static constexpr unsigned int PLIPLODMCPO_TypeDefinitionIndex = 44494;
 
 	class PLIPLODMCPO : public ::System::Object
 	{

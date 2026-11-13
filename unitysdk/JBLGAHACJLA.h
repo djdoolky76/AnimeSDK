@@ -7,29 +7,29 @@ namespace RPG::GameCore { class ComplexSkillAIFactorGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JBLGAHACJLA_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0x16563FE0)
-#define JBLGAHACJLA_AADOIGAFMJF_OFFSET UNITYSDK_OFFSET(0x16563DF0)
-#define JBLGAHACJLA_CCTOR_OFFSET UNITYSDK_OFFSET(0x165646C0)
-#define JBLGAHACJLA_ECKLJGMMCAI_OFFSET UNITYSDK_OFFSET(0x165642B0)
-#define JBLGAHACJLA_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x16563C00)
-#define JBLGAHACJLA_GGPKCNGMMEG_OFFSET UNITYSDK_OFFSET(0x165640B0)
-#define JBLGAHACJLA_HBAELKMEFAM_OFFSET UNITYSDK_OFFSET(0x16563D90)
-#define JBLGAHACJLA_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0x16564640)
-#define JBLGAHACJLA_NGEAGIFJDMK_OFFSET UNITYSDK_OFFSET(0x16564440)
+#define JBLGAHACJLA_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0x19A74530)
+#define JBLGAHACJLA_AADOIGAFMJF_OFFSET UNITYSDK_OFFSET(0x19A74340)
+#define JBLGAHACJLA_CCTOR_OFFSET UNITYSDK_OFFSET(0x19A74C10)
+#define JBLGAHACJLA_ECKLJGMMCAI_OFFSET UNITYSDK_OFFSET(0x19A74800)
+#define JBLGAHACJLA_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x19A74150)
+#define JBLGAHACJLA_GGPKCNGMMEG_OFFSET UNITYSDK_OFFSET(0x19A74600)
+#define JBLGAHACJLA_HBAELKMEFAM_OFFSET UNITYSDK_OFFSET(0x19A742E0)
+#define JBLGAHACJLA_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0x19A74B90)
+#define JBLGAHACJLA_NGEAGIFJDMK_OFFSET UNITYSDK_OFFSET(0x19A74990)
 
-inline static constexpr unsigned int JBLGAHACJLA_TypeDefinitionIndex = 56484;
+inline static constexpr unsigned int JBLGAHACJLA_TypeDefinitionIndex = 57704;
 
 	class JBLGAHACJLA : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::AIGlobalVarsConfig** StaticGet_PBMPIJFLNIA()
-		{
-			return (::RPG::GameCore::AIGlobalVarsConfig**)UnitySDK::FromName("", "JBLGAHACJLA")->GetStaticField(0x69F30);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::GDFCJJAAOPJ*>** StaticGet_ENICAPCDPEK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::GDFCJJAAOPJ*>**)UnitySDK::FromName("", "JBLGAHACJLA")->GetStaticField(0x69F38);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::GDFCJJAAOPJ*>**)UnitySDK::FromName("", "JBLGAHACJLA")->GetStaticField(0x5EB40);
+		}
+
+		static ::RPG::GameCore::AIGlobalVarsConfig** StaticGet_PBMPIJFLNIA()
+		{
+			return (::RPG::GameCore::AIGlobalVarsConfig**)UnitySDK::FromName("", "JBLGAHACJLA")->GetStaticField(0x5EB48);
 		}
 
 		static ::System::Void _cctor()

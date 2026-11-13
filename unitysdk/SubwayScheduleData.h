@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define SUBWAYSCHEDULEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE98EC20)
+#define SUBWAYSCHEDULEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC586C0)
 
-inline static constexpr unsigned int SubwayScheduleData_TypeDefinitionIndex = 47093;
+inline static constexpr unsigned int SubwayScheduleData_TypeDefinitionIndex = 48121;
 
 	class SubwayScheduleData : public ::System::Object
 	{

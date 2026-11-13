@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class MonopolyDestroyWorld; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DINELBLNPLP_CTOR_OFFSET UNITYSDK_OFFSET(0xF21F410)
-#define DINELBLNPLP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF21F540)
-#define DINELBLNPLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF21F420)
-#define DINELBLNPLP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF21F4F0)
-#define DINELBLNPLP_TICK_OFFSET UNITYSDK_OFFSET(0xF21F580)
+#define DINELBLNPLP_CTOR_OFFSET UNITYSDK_OFFSET(0x18ED9FE0)
+#define DINELBLNPLP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18EDA110)
+#define DINELBLNPLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18ED9FF0)
+#define DINELBLNPLP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18EDA0C0)
+#define DINELBLNPLP_TICK_OFFSET UNITYSDK_OFFSET(0x18EDA150)
 
-inline static constexpr unsigned int DINELBLNPLP_TypeDefinitionIndex = 58220;
+inline static constexpr unsigned int DINELBLNPLP_TypeDefinitionIndex = 59476;
 
 	class DINELBLNPLP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::MonopolyDestroyWorld* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::MonopolyDestroyWorld* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyDestroyWorld* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MonopolyDestroyWorld*))((::PBYTE)hIl2Cpp + DINELBLNPLP_CTOR_OFFSET))(this, a1, a2);

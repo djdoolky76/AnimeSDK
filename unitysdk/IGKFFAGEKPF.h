@@ -5,17 +5,17 @@ class DHCNDENHLGO;
 class PEOKJEOOOJD;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultBase; }
 
-#define IGKFFAGEKPF_CTOR_OFFSET UNITYSDK_OFFSET(0x16403200)
-#define IGKFFAGEKPF_GET_NEWRESULT_OFFSET UNITYSDK_OFFSET(0x164031F0)
-#define IGKFFAGEKPF_GET_OLDRESULT_OFFSET UNITYSDK_OFFSET(0x164031E0)
+#define IGKFFAGEKPF_CTOR_OFFSET UNITYSDK_OFFSET(0x19F5F080)
+#define IGKFFAGEKPF_GET_NEWRESULT_OFFSET UNITYSDK_OFFSET(0x19F5F070)
+#define IGKFFAGEKPF_GET_OLDRESULT_OFFSET UNITYSDK_OFFSET(0x19F5F060)
 
-inline static constexpr unsigned int IGKFFAGEKPF_TypeDefinitionIndex = 81451;
+inline static constexpr unsigned int IGKFFAGEKPF_TypeDefinitionIndex = 84231;
 
 	class IGKFFAGEKPF : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase* _OldResult_k__BackingField; // 0x10
-		::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase* _NewResult_k__BackingField; // 0x18
+		::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase* _NewResult_k__BackingField; // 0x10
+		::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase* _OldResult_k__BackingField; // 0x18
 		::System::Void _ctor(::DHCNDENHLGO* a1, ::PEOKJEOOOJD* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::DHCNDENHLGO*, ::PEOKJEOOOJD*))((::PBYTE)hIl2Cpp + IGKFFAGEKPF_CTOR_OFFSET))(this, a1, a2);

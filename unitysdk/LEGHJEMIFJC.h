@@ -4,11 +4,11 @@ namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class ST_Side_DisablePlayerLock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LEGHJEMIFJC_CTOR_OFFSET UNITYSDK_OFFSET(0xB64B280)
-#define LEGHJEMIFJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB64B340)
-#define LEGHJEMIFJC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB64B3D0)
+#define LEGHJEMIFJC_CTOR_OFFSET UNITYSDK_OFFSET(0x18C317A0)
+#define LEGHJEMIFJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C31860)
+#define LEGHJEMIFJC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18C318F0)
 
-inline static constexpr unsigned int LEGHJEMIFJC_TypeDefinitionIndex = 52231;
+inline static constexpr unsigned int LEGHJEMIFJC_TypeDefinitionIndex = 53337;
 
 	class LEGHJEMIFJC
 	{

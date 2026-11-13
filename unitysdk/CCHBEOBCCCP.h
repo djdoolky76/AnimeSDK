@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CCHBEOBCCCP_CTOR_OFFSET UNITYSDK_OFFSET(0xC7392E0)
+#define CCHBEOBCCCP_CTOR_OFFSET UNITYSDK_OFFSET(0x18FFB8E0)
 
-inline static constexpr unsigned int CCHBEOBCCCP_TypeDefinitionIndex = 48928;
+inline static constexpr unsigned int CCHBEOBCCCP_TypeDefinitionIndex = 49987;
 
 	class CCHBEOBCCCP : public ::System::Object
 	{

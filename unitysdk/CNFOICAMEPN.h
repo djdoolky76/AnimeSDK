@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CNFOICAMEPN_TypeDefinitionIndex = 60973;
+inline static constexpr unsigned int CNFOICAMEPN_TypeDefinitionIndex = 62349;
 
 	struct alignas(4) CNFOICAMEPN
 	{

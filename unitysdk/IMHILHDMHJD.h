@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CreateAirline; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMHILHDMHJD_CTOR_OFFSET UNITYSDK_OFFSET(0x164C6B30)
-#define IMHILHDMHJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164C6B60)
+#define IMHILHDMHJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D32B0)
+#define IMHILHDMHJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5D32E0)
 
-inline static constexpr unsigned int IMHILHDMHJD_TypeDefinitionIndex = 58037;
+inline static constexpr unsigned int IMHILHDMHJD_TypeDefinitionIndex = 59276;
 
 	class IMHILHDMHJD
 	{

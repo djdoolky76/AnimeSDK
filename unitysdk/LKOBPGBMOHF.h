@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerSkillHint; }
 
-#define LKOBPGBMOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70EA70)
-#define LKOBPGBMOHF_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C70EA80)
+#define LKOBPGBMOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC1E2C0)
+#define LKOBPGBMOHF_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1AC1E2D0)
 
-inline static constexpr unsigned int LKOBPGBMOHF_TypeDefinitionIndex = 36303;
+inline static constexpr unsigned int LKOBPGBMOHF_TypeDefinitionIndex = 37231;
 
 	class LKOBPGBMOHF : public ::AJBKGPOEBFG
 	{

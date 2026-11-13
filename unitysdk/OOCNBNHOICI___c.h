@@ -4,18 +4,18 @@
 class OOCNBNHOICI;
 namespace System { class Object; }
 
-#define OOCNBNHOICI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEAA120)
-#define OOCNBNHOICI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAA160)
-#define OOCNBNHOICI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEAA170)
+#define OOCNBNHOICI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2035D730)
+#define OOCNBNHOICI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2035D770)
+#define OOCNBNHOICI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2035D780)
 
-inline static constexpr unsigned int OOCNBNHOICI___c_TypeDefinitionIndex = 28501;
+inline static constexpr unsigned int OOCNBNHOICI___c_TypeDefinitionIndex = 29091;
 
 	class OOCNBNHOICI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29F80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29CF0);
 		}
 
 		static ::System::Void _cctor()

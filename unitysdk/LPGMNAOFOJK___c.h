@@ -4,18 +4,18 @@
 class LPGMNAOFOJK;
 namespace System { class Object; }
 
-#define LPGMNAOFOJK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E99FE40)
-#define LPGMNAOFOJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E99FE80)
-#define LPGMNAOFOJK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E99FE90)
+#define LPGMNAOFOJK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200E3EA0)
+#define LPGMNAOFOJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200E3EE0)
+#define LPGMNAOFOJK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x200E3EF0)
 
-inline static constexpr unsigned int LPGMNAOFOJK___c_TypeDefinitionIndex = 28116;
+inline static constexpr unsigned int LPGMNAOFOJK___c_TypeDefinitionIndex = 28706;
 
 	class LPGMNAOFOJK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44420);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45DB0);
 		}
 
 		static ::System::Void _cctor()

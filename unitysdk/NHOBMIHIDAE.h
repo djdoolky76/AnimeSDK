@@ -5,11 +5,11 @@ class NHOBMIHIDAE;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NHOBMIHIDAE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBD4470)
-#define NHOBMIHIDAE_CTOR_OFFSET UNITYSDK_OFFSET(0xBBD44E0)
-#define NHOBMIHIDAE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBBD44F0)
+#define NHOBMIHIDAE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x148B11D0)
+#define NHOBMIHIDAE_CTOR_OFFSET UNITYSDK_OFFSET(0x148B1240)
+#define NHOBMIHIDAE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x148B1250)
 
-inline static constexpr unsigned int NHOBMIHIDAE_TypeDefinitionIndex = 62557;
+inline static constexpr unsigned int NHOBMIHIDAE_TypeDefinitionIndex = 63970;
 
 	class NHOBMIHIDAE : public ::System::Object
 	{

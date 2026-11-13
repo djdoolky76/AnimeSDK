@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingBattleEffectTier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECTTIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D555C50)
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECTTIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D555A50)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECTTIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F357070)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECTTIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F356EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleEffectTier_TypeDefinitionIndex = 15706;
+	inline static constexpr unsigned int ChenLingBattleEffectTier_TypeDefinitionIndex = 15864;
 
 	class ChenLingBattleEffectTier : public ::RPG::GameCore::JsonConfig
 	{

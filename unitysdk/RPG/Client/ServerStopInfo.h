@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_SERVERSTOPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE0A7CB0)
+#define RPG_CLIENT_SERVERSTOPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A2DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ServerStopInfo_TypeDefinitionIndex = 69413;
+	inline static constexpr unsigned int ServerStopInfo_TypeDefinitionIndex = 71367;
 
 	class ServerStopInfo : public ::System::Object
 	{
 	public:
 		::System::String* StopDesc; // 0x10
-		::System::Int64 StopEndTime; // 0x18
-		::System::Int64 StopBeginTime; // 0x20
+		::System::Int64 StopBeginTime; // 0x18
+		::System::Int64 StopEndTime; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SERVERSTOPINFO_CTOR_OFFSET))(this);

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SkillMaxHitConfig; }
 namespace RPG::GameCore { class SkillMaxHitConfigList; }
 
-#define RPG_GAMECORE_SKILLMAXHITCONFIGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC21F0)
-#define RPG_GAMECORE_SKILLMAXHITCONFIGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC2130)
+#define RPG_GAMECORE_SKILLMAXHITCONFIGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FB2A0)
+#define RPG_GAMECORE_SKILLMAXHITCONFIGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3FB1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillMaxHitConfigList_TypeDefinitionIndex = 16530;
+	inline static constexpr unsigned int SkillMaxHitConfigList_TypeDefinitionIndex = 16696;
 
 	class SkillMaxHitConfigList : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InitFlipperLightDevice; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BLIILGPDPPI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA743A0)
-#define BLIILGPDPPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA743D0)
+#define BLIILGPDPPI_CTOR_OFFSET UNITYSDK_OFFSET(0x18B52D50)
+#define BLIILGPDPPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18B52D80)
 
-inline static constexpr unsigned int BLIILGPDPPI_TypeDefinitionIndex = 52766;
+inline static constexpr unsigned int BLIILGPDPPI_TypeDefinitionIndex = 53910;
 
 	class BLIILGPDPPI
 	{

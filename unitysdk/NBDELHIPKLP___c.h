@@ -4,18 +4,18 @@
 class NBDELHIPKLP;
 namespace System { class Object; }
 
-#define NBDELHIPKLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAA0DA0)
-#define NBDELHIPKLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA0DD0)
-#define NBDELHIPKLP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAA0DE0)
+#define NBDELHIPKLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201571B0)
+#define NBDELHIPKLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201571E0)
+#define NBDELHIPKLP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x201571F0)
 
-inline static constexpr unsigned int NBDELHIPKLP___c_TypeDefinitionIndex = 30973;
+inline static constexpr unsigned int NBDELHIPKLP___c_TypeDefinitionIndex = 31886;
 
 	class NBDELHIPKLP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DBB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x580D0);
 		}
 
 		static ::System::Void _cctor()

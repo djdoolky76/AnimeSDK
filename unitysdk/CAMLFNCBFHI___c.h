@@ -4,18 +4,18 @@
 class CAMLFNCBFHI;
 namespace System { class Object; }
 
-#define CAMLFNCBFHI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E031420)
-#define CAMLFNCBFHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E031460)
-#define CAMLFNCBFHI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E031470)
+#define CAMLFNCBFHI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20352F20)
+#define CAMLFNCBFHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20352F60)
+#define CAMLFNCBFHI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20352F70)
 
-inline static constexpr unsigned int CAMLFNCBFHI___c_TypeDefinitionIndex = 27747;
+inline static constexpr unsigned int CAMLFNCBFHI___c_TypeDefinitionIndex = 28278;
 
 	class CAMLFNCBFHI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FB50);
 		}
 
 		static ::System::Void _cctor()

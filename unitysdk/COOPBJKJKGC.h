@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareCountOfBaseType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define COOPBJKJKGC_CTOR_OFFSET UNITYSDK_OFFSET(0xDCBF010)
-#define COOPBJKJKGC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDCBF040)
+#define COOPBJKJKGC_CTOR_OFFSET UNITYSDK_OFFSET(0x19170160)
+#define COOPBJKJKGC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19170190)
 
-inline static constexpr unsigned int COOPBJKJKGC_TypeDefinitionIndex = 55412;
+inline static constexpr unsigned int COOPBJKJKGC_TypeDefinitionIndex = 56597;
 
 	class COOPBJKJKGC
 	{

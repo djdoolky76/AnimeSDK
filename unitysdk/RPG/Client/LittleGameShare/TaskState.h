@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int TaskState_TypeDefinitionIndex = 37007;
+	inline static constexpr unsigned int TaskState_TypeDefinitionIndex = 37935;
 
 	enum class TaskState : ::System::Int32
 	{

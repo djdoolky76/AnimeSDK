@@ -6,13 +6,13 @@ namespace RPG::GameCore { class HideSkillDisplayInfo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73BB50)
-#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D73BB60)
-#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73BB20)
+#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE74CD0)
+#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE74CE0)
+#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE74CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideSkillDisplayInfo_TypeDefinitionIndex = 22821;
+	inline static constexpr unsigned int HideSkillDisplayInfo_TypeDefinitionIndex = 23244;
 
 	class HideSkillDisplayInfo : public ::RPG::GameCore::TaskConfig
 	{

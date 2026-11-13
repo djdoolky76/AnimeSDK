@@ -4,11 +4,11 @@
 namespace RPG::Client { class PerStateParamSpectrum; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PERMUSICPARAMETERSPECTRUM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA91E50)
+#define RPG_CLIENT_PERMUSICPARAMETERSPECTRUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC30460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerMusicParameterSpectrum_TypeDefinitionIndex = 70824;
+	inline static constexpr unsigned int PerMusicParameterSpectrum_TypeDefinitionIndex = 72803;
 
 	class PerMusicParameterSpectrum : public ::System::Object
 	{

@@ -4,7 +4,7 @@ class GGJFAFONDHN_ABBHOAPACDI;
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-inline static constexpr unsigned int CNKMBDHCJAO_TypeDefinitionIndex = 49530;
+inline static constexpr unsigned int CNKMBDHCJAO_TypeDefinitionIndex = 50606;
 
 	class CNKMBDHCJAO
 	{

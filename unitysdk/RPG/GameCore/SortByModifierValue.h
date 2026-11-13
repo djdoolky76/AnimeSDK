@@ -9,13 +9,13 @@ namespace RPG::GameCore { class SortByModifierValue; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SORTBYMODIFIERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC3D40)
-#define RPG_GAMECORE_SORTBYMODIFIERVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC3D50)
-#define RPG_GAMECORE_SORTBYMODIFIERVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC3D00)
+#define RPG_GAMECORE_SORTBYMODIFIERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FCFA0)
+#define RPG_GAMECORE_SORTBYMODIFIERVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3FCFB0)
+#define RPG_GAMECORE_SORTBYMODIFIERVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3FCF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SortByModifierValue_TypeDefinitionIndex = 18260;
+	inline static constexpr unsigned int SortByModifierValue_TypeDefinitionIndex = 18422;
 
 	class SortByModifierValue : public ::RPG::GameCore::BaseSortConfig
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KHEOBHMINFI_CTOR_OFFSET UNITYSDK_OFFSET(0xB3FFC90)
+#define KHEOBHMINFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1978F750)
 
-inline static constexpr unsigned int KHEOBHMINFI_TypeDefinitionIndex = 72206;
+inline static constexpr unsigned int KHEOBHMINFI_TypeDefinitionIndex = 74273;
 
 	class KHEOBHMINFI : public ::System::Object
 	{

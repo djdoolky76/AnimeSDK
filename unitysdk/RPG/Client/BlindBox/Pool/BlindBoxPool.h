@@ -13,45 +13,45 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xC880150)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_FULLUPDATECURRENTSETOPENED_OFFSET UNITYSDK_OFFSET(0xC8805A0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GETCLOSEDREASON_OFFSET UNITYSDK_OFFSET(0xC880B20)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_BUBBLETEXTS_OFFSET UNITYSDK_OFFSET(0xC880D40)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_COINITEM_OFFSET UNITYSDK_OFFSET(0xC880CD0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_CONTENTS_OFFSET UNITYSDK_OFFSET(0xC880CF0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_CURRENTSET_OFFSET UNITYSDK_OFFSET(0xC880C80)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_FTCPRICEDESCRIPTION_OFFSET UNITYSDK_OFFSET(0xC880D20)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_FTCPROBABILITYDESCRIPTION_OFFSET UNITYSDK_OFFSET(0xC880D10)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_HISTORYPAGEURL_OFFSET UNITYSDK_OFFSET(0xC880CE0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_POOLID_OFFSET UNITYSDK_OFFSET(0xC880C70)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_PROBABILITYDESCRIPTION_OFFSET UNITYSDK_OFFSET(0xC880D00)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_RECHARGESHOPFTCPRICEDESCRIPTION_OFFSET UNITYSDK_OFFSET(0xC880D30)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_SCHEDULE_OFFSET UNITYSDK_OFFSET(0xC880D80)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_TICKETITEM_OFFSET UNITYSDK_OFFSET(0xC880CC0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_UPDATECURRENTSETOPENED_OFFSET UNITYSDK_OFFSET(0xC880450)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAF170)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_FULLUPDATECURRENTSETOPENED_OFFSET UNITYSDK_OFFSET(0x1CDAF440)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GETCLOSEDREASON_OFFSET UNITYSDK_OFFSET(0x1CDAF4A0)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_BUBBLETEXTS_OFFSET UNITYSDK_OFFSET(0x1C54F260)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_COINITEM_OFFSET UNITYSDK_OFFSET(0x1CDAF650)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_CONTENTS_OFFSET UNITYSDK_OFFSET(0x1C54F210)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_CURRENTSET_OFFSET UNITYSDK_OFFSET(0x1CDAF600)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_FTCPRICEDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C54F240)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_FTCPROBABILITYDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C54F230)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_HISTORYPAGEURL_OFFSET UNITYSDK_OFFSET(0x1C54F200)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_POOLID_OFFSET UNITYSDK_OFFSET(0x1CDAF5F0)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_PROBABILITYDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C54F220)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_RECHARGESHOPFTCPRICEDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C54F250)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_SCHEDULE_OFFSET UNITYSDK_OFFSET(0x1C54F2A0)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_GET_TICKETITEM_OFFSET UNITYSDK_OFFSET(0x1CDAF640)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_UPDATECURRENTSETOPENED_OFFSET UNITYSDK_OFFSET(0x1CDAF3D0)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int BlindBoxPool_TypeDefinitionIndex = 74907;
+	inline static constexpr unsigned int BlindBoxPool_TypeDefinitionIndex = 77234;
 
 	class BlindBoxPool : public ::System::Object
 	{
 	public:
-		::RPG::Client::BlindBox::Pool::IPoolContents* _Contents_k__BackingField; // 0x10
-		::RPG::Client::BlindBox::Pool::BlindBoxSet* _CurrentSet; // 0x18
-		::RPG::Client::ScheduleData* _Schedule_k__BackingField; // 0x20
-		::RPG::Client::ItemData* _TicketItem_k__BackingField; // 0x28
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::TextID>* _BubbleTextsReadOnly; // 0x30
-		::Il2CppArray<::RPG::Client::TextID>* _BubbleTexts; // 0x38
-		::RPG::Client::ItemData* _CoinItem_k__BackingField; // 0x40
-		::EGILMOEBHPN* _ClosedReasonProvider; // 0x48
-		::System::String* _HistoryPageUrl_k__BackingField; // 0x50
-		::System::UInt32 _PoolId_k__BackingField; // 0x58
+		::RPG::Client::ItemData* _TicketItem_k__BackingField; // 0x10
+		::RPG::Client::ScheduleData* _Schedule_k__BackingField; // 0x18
+		::RPG::Client::BlindBox::Pool::BlindBoxSet* _CurrentSet; // 0x20
+		::RPG::Client::ItemData* _CoinItem_k__BackingField; // 0x28
+		::Il2CppArray<::RPG::Client::TextID>* _BubbleTexts; // 0x30
+		::EGILMOEBHPN* _ClosedReasonProvider; // 0x38
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::TextID>* _BubbleTextsReadOnly; // 0x40
+		::System::String* _HistoryPageUrl_k__BackingField; // 0x48
+		::RPG::Client::BlindBox::Pool::IPoolContents* _Contents_k__BackingField; // 0x50
+		::RPG::Client::TextID _FtcPriceDescription_k__BackingField; // 0x58
+		::RPG::Client::TextID _RechargeShopFtcPriceDescription_k__BackingField; // 0x68
+		::RPG::Client::TextID _ProbabilityDescription_k__BackingField; // 0x78
+		::System::UInt32 _PoolId_k__BackingField; // 0x88
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _ProbabilityDescription_k__BackingField; // 0x60
-		::RPG::Client::TextID _FtcPriceDescription_k__BackingField; // 0x70
-		::RPG::Client::TextID _FtcProbabilityDescription_k__BackingField; // 0x80
-		::RPG::Client::TextID _RechargeShopFtcPriceDescription_k__BackingField; // 0x90
+		::RPG::Client::TextID _FtcProbabilityDescription_k__BackingField; // 0x90
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::ItemData* a3, ::RPG::Client::ItemData* a4, ::System::String* a5, ::RPG::Client::BlindBox::Pool::IPoolContents* a6, ::RPG::Client::TextID a7, ::RPG::Client::TextID a8, ::RPG::Client::TextID a9, ::RPG::Client::TextID a10, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::TextID>* a11, ::EGILMOEBHPN* a12, ::RPG::Client::ScheduleData* a13)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::ItemData*, ::RPG::Client::ItemData*, ::System::String*, ::RPG::Client::BlindBox::Pool::IPoolContents*, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::TextID>*, ::EGILMOEBHPN*, ::RPG::Client::ScheduleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);

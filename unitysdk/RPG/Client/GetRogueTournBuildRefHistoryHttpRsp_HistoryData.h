@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/DateTimePro.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_HISTORYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0AE9D0)
-#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_HISTORYDATA_GET_TIME_OFFSET UNITYSDK_OFFSET(0xD0AE920)
+#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_HISTORYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C704980)
+#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_HISTORYDATA_GET_TIME_OFFSET UNITYSDK_OFFSET(0x1C7048D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GetRogueTournBuildRefHistoryHttpRsp_HistoryData_TypeDefinitionIndex = 67793;
+	inline static constexpr unsigned int GetRogueTournBuildRefHistoryHttpRsp_HistoryData_TypeDefinitionIndex = 69738;
 
 	class GetRogueTournBuildRefHistoryHttpRsp_HistoryData : public ::System::Object
 	{

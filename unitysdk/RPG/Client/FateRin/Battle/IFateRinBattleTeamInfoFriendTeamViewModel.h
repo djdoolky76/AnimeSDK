@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleTeamInfoFriendTeamViewModel_TypeDefinitionIndex = 80972;
+	inline static constexpr unsigned int IFateRinBattleTeamInfoFriendTeamViewModel_TypeDefinitionIndex = 83752;
 
 	class IFateRinBattleTeamInfoFriendTeamViewModel
 	{

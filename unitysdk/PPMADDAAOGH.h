@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByCheckNeedWaitServerCheckSkillResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PPMADDAAOGH_CTOR_OFFSET UNITYSDK_OFFSET(0xC38A6D0)
-#define PPMADDAAOGH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC38A700)
+#define PPMADDAAOGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B6EC0)
+#define PPMADDAAOGH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B8B6EF0)
 
-inline static constexpr unsigned int PPMADDAAOGH_TypeDefinitionIndex = 52336;
+inline static constexpr unsigned int PPMADDAAOGH_TypeDefinitionIndex = 53442;
 
 	class PPMADDAAOGH
 	{

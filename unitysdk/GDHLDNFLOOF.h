@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GDHLDNFLOOF_TypeDefinitionIndex = 27262;
+inline static constexpr unsigned int GDHLDNFLOOF_TypeDefinitionIndex = 27793;
 
 	enum class GDHLDNFLOOF : ::System::Int32
 	{

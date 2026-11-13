@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphLogoConfig; }
 namespace RPG::GameCore { class PhotoGraphWaterMarkConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHWATERMARKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E6C70)
-#define RPG_GAMECORE_PHOTOGRAPHWATERMARKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E5160)
+#define RPG_GAMECORE_PHOTOGRAPHWATERMARKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE55500)
+#define RPG_GAMECORE_PHOTOGRAPHWATERMARKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE539F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphWaterMarkConfig_TypeDefinitionIndex = 19060;
+	inline static constexpr unsigned int PhotoGraphWaterMarkConfig_TypeDefinitionIndex = 19247;
 
 	class PhotoGraphWaterMarkConfig : public ::RPG::GameCore::JsonConfig
 	{

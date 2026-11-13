@@ -7,20 +7,20 @@ class LOLCJIIIHIM;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DBHGOLFACFL_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD76D0)
-#define DBHGOLFACFL_GET_PARTNERS_OFFSET UNITYSDK_OFFSET(0xDFD7600)
-#define DBHGOLFACFL_LHJGHPBAMLE_OFFSET UNITYSDK_OFFSET(0xDFD7C10)
-#define DBHGOLFACFL_NPBCEMBHEBC_OFFSET UNITYSDK_OFFSET(0xDFD7610)
-#define DBHGOLFACFL__GET_SHOWDETAILCOMMAND_B__6_0_OFFSET UNITYSDK_OFFSET(0xDFD7D10)
+#define DBHGOLFACFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1490C0)
+#define DBHGOLFACFL_GET_PARTNERS_OFFSET UNITYSDK_OFFSET(0x1B148FF0)
+#define DBHGOLFACFL_LHJGHPBAMLE_OFFSET UNITYSDK_OFFSET(0x1B149600)
+#define DBHGOLFACFL_NPBCEMBHEBC_OFFSET UNITYSDK_OFFSET(0x1B149000)
+#define DBHGOLFACFL__GET_SHOWDETAILCOMMAND_B__6_0_OFFSET UNITYSDK_OFFSET(0x1B149700)
 
-inline static constexpr unsigned int DBHGOLFACFL_TypeDefinitionIndex = 79433;
+inline static constexpr unsigned int DBHGOLFACFL_TypeDefinitionIndex = 82210;
 
 	class DBHGOLFACFL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::FKKIAHNJCBC*>* _Partners_k__BackingField; // 0x10
-		::LOLCJIIIHIM* MPFFGNPIDOA; // 0x18
-		::CEEGMMCFCBG* EENAJHAKPBO; // 0x20
+		::CEEGMMCFCBG* EENAJHAKPBO; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::FKKIAHNJCBC*>* _Partners_k__BackingField; // 0x18
+		::LOLCJIIIHIM* MPFFGNPIDOA; // 0x20
 		::System::Void _ctor(::System::Collections::Generic::List_1<::FKKIAHNJCBC*>* a1, ::LOLCJIIIHIM* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::FKKIAHNJCBC*>*, ::LOLCJIIIHIM*))((::PBYTE)hIl2Cpp + DBHGOLFACFL_CTOR_OFFSET))(this, a1, a2);

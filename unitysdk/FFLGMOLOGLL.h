@@ -10,12 +10,12 @@ namespace RPG::GameCore { class ChimeraDuelRandomEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FFLGMOLOGLL_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x15739CC0)
-#define FFLGMOLOGLL_CTOR_OFFSET UNITYSDK_OFFSET(0x15739F10)
-#define FFLGMOLOGLL_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x15739D80)
-#define FFLGMOLOGLL_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0x15739C60)
+#define FFLGMOLOGLL_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x130EEE70)
+#define FFLGMOLOGLL_CTOR_OFFSET UNITYSDK_OFFSET(0x130EF0C0)
+#define FFLGMOLOGLL_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x130EEF30)
+#define FFLGMOLOGLL_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0x130EEE10)
 
-inline static constexpr unsigned int FFLGMOLOGLL_TypeDefinitionIndex = 77535;
+inline static constexpr unsigned int FFLGMOLOGLL_TypeDefinitionIndex = 80270;
 
 	class FFLGMOLOGLL : public ::System::Object
 	{

@@ -5,21 +5,21 @@ class EEBCIMFFFJF;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FunctionConfigRow; }
 
-#define RPG_GAMECORE_FUNCTIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CAE10)
-#define RPG_GAMECORE_FUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6CAC10)
+#define RPG_GAMECORE_FUNCTIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5D650)
+#define RPG_GAMECORE_FUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED5D450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunctionConfigRow_TypeDefinitionIndex = 13315;
+	inline static constexpr unsigned int FunctionConfigRow_TypeDefinitionIndex = 13387;
 
 	class FunctionConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::EEBCIMFFFJF*>* OverrideUnlockID; // 0x10
 		::Il2CppArray<::EEBCIMFFFJF*>* OverrideGotoID; // 0x18
-		::System::UInt32 UnlockID; // 0x20
-		::System::UInt32 ID; // 0x24
-		::System::UInt32 GotoID; // 0x28
+		::System::UInt32 GotoID; // 0x20
+		::System::UInt32 UnlockID; // 0x24
+		::System::UInt32 ID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNCTIONCONFIGROW_CTOR_OFFSET))(this);

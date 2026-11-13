@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetDynamicStageBattleEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LFKPAGEOAGI_CTOR_OFFSET UNITYSDK_OFFSET(0xB67B670)
-#define LFKPAGEOAGI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB67B680)
-#define LFKPAGEOAGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB67B6C0)
-#define LFKPAGEOAGI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB67BCE0)
-#define LFKPAGEOAGI_TICK_OFFSET UNITYSDK_OFFSET(0xB67BD30)
+#define LFKPAGEOAGI_CTOR_OFFSET UNITYSDK_OFFSET(0x18C612A0)
+#define LFKPAGEOAGI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C612B0)
+#define LFKPAGEOAGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C612F0)
+#define LFKPAGEOAGI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18C61910)
+#define LFKPAGEOAGI_TICK_OFFSET UNITYSDK_OFFSET(0x18C61960)
 
-inline static constexpr unsigned int LFKPAGEOAGI_TypeDefinitionIndex = 55402;
+inline static constexpr unsigned int LFKPAGEOAGI_TypeDefinitionIndex = 56587;
 
 	class LFKPAGEOAGI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetDynamicStageBattleEvent* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetDynamicStageBattleEvent* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicStageBattleEvent* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDynamicStageBattleEvent*))((::PBYTE)hIl2Cpp + LFKPAGEOAGI_CTOR_OFFSET))(this, a1, a2);

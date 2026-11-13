@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LEODIDNFCKO_TypeDefinitionIndex = 41677;
+inline static constexpr unsigned int LEODIDNFCKO_TypeDefinitionIndex = 42652;
 
 	class LEODIDNFCKO
 	{

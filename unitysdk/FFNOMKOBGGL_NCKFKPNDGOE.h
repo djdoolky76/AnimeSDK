@@ -4,7 +4,7 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtDefenceUnitRow; }
 
-inline static constexpr unsigned int FFNOMKOBGGL_NCKFKPNDGOE_TypeDefinitionIndex = 73279;
+inline static constexpr unsigned int FFNOMKOBGGL_NCKFKPNDGOE_TypeDefinitionIndex = 75395;
 
 	struct alignas(8) FFNOMKOBGGL_NCKFKPNDGOE
 	{

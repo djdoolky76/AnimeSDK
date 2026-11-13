@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDE2090)
-#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__GETEMOJIIDS_B__0_OFFSET UNITYSDK_OFFSET(0xCDE22E0)
+#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6CF330)
+#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__GETEMOJIIDS_B__0_OFFSET UNITYSDK_OFFSET(0x1A6CF580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmojiUtils___c__DisplayClass5_0_TypeDefinitionIndex = 63230;
+	inline static constexpr unsigned int EmojiUtils___c__DisplayClass5_0_TypeDefinitionIndex = 64668;
 
 	class EmojiUtils___c__DisplayClass5_0 : public ::System::Object
 	{

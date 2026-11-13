@@ -9,15 +9,15 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_AJAKNGPDHEN_OFFSET UNITYSDK_OFFSET(0xD7FD8F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_BICKNMHHGOC_OFFSET UNITYSDK_OFFSET(0xD7FD730)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7FDAA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD7FDA90)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xD7FD560)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_AJAKNGPDHEN_OFFSET UNITYSDK_OFFSET(0x193ADD80)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_BICKNMHHGOC_OFFSET UNITYSDK_OFFSET(0x193ADBC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_CCTOR_OFFSET UNITYSDK_OFFSET(0x193ADF30)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x193ADF20)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x193AD9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyMaterialParam_TypeDefinitionIndex = 70098;
+	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyMaterialParam_TypeDefinitionIndex = 72063;
 
 	class MonoEffectPluginProgress_ModifyMaterialParam : public ::System::Object
 	{
@@ -34,7 +34,7 @@ namespace RPG::Client
 		::UnityEngine::Vector4 VectorDataOnEnd; // 0x60
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_s_PropertyIDCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "ModifyMaterialParam")->GetStaticField(0x683B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "ModifyMaterialParam")->GetStaticField(0x6F4C0);
 		}
 
 		::System::Void _ctor()

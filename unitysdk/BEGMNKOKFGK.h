@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-#define BEGMNKOKFGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1630EF90)
+#define BEGMNKOKFGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A93D680)
 
-inline static constexpr unsigned int BEGMNKOKFGK_TypeDefinitionIndex = 73578;
+inline static constexpr unsigned int BEGMNKOKFGK_TypeDefinitionIndex = 75701;
 
 	class BEGMNKOKFGK : public ::RPG::Client::TABehaviorBase
 	{

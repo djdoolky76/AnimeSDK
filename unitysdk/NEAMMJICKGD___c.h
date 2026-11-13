@@ -4,18 +4,18 @@
 class NEAMMJICKGD;
 namespace System { class Object; }
 
-#define NEAMMJICKGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAC1DF0)
-#define NEAMMJICKGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC1E30)
-#define NEAMMJICKGD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAC1E40)
+#define NEAMMJICKGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE89420)
+#define NEAMMJICKGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE89460)
+#define NEAMMJICKGD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FE89470)
 
-inline static constexpr unsigned int NEAMMJICKGD___c_TypeDefinitionIndex = 27093;
+inline static constexpr unsigned int NEAMMJICKGD___c_TypeDefinitionIndex = 27624;
 
 	class NEAMMJICKGD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60290);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E730);
 		}
 
 		static ::System::Void _cctor()

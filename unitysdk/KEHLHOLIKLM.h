@@ -4,9 +4,9 @@
 #include "unitysdk/System/ValueTuple_2.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KEHLHOLIKLM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB899D0)
+#define KEHLHOLIKLM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C95F0)
 
-inline static constexpr unsigned int KEHLHOLIKLM_TypeDefinitionIndex = 42243;
+inline static constexpr unsigned int KEHLHOLIKLM_TypeDefinitionIndex = 43218;
 
 	class KEHLHOLIKLM : public ::System::Object
 	{

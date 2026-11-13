@@ -3,10 +3,10 @@
 class MFDGMNBPMLI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGOIEEDBBHL_CTOR_OFFSET UNITYSDK_OFFSET(0xCC87460)
-#define CGOIEEDBBHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC87490)
+#define CGOIEEDBBHL_CTOR_OFFSET UNITYSDK_OFFSET(0x17860790)
+#define CGOIEEDBBHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178607C0)
 
-inline static constexpr unsigned int CGOIEEDBBHL_TypeDefinitionIndex = 52864;
+inline static constexpr unsigned int CGOIEEDBBHL_TypeDefinitionIndex = 54019;
 
 	class CGOIEEDBBHL
 	{

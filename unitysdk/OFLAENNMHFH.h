@@ -5,11 +5,11 @@ class NJKFOJJDGGG;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OFLAENNMHFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3E560)
-#define OFLAENNMHFH_GET_RICHTEXTMESSAGENAME_OFFSET UNITYSDK_OFFSET(0xBE3E570)
-#define OFLAENNMHFH_GET_RICHTEXTVALUEMAP_OFFSET UNITYSDK_OFFSET(0xBE3E5E0)
+#define OFLAENNMHFH_CTOR_OFFSET UNITYSDK_OFFSET(0x18DEBF50)
+#define OFLAENNMHFH_GET_RICHTEXTMESSAGENAME_OFFSET UNITYSDK_OFFSET(0x18DEBF60)
+#define OFLAENNMHFH_GET_RICHTEXTVALUEMAP_OFFSET UNITYSDK_OFFSET(0x18DEBFD0)
 
-inline static constexpr unsigned int OFLAENNMHFH_TypeDefinitionIndex = 65038;
+inline static constexpr unsigned int OFLAENNMHFH_TypeDefinitionIndex = 66643;
 
 	class OFLAENNMHFH : public ::RPG::Client::GridFightGameModifier
 	{

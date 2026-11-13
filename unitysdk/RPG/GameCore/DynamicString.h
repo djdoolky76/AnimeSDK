@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FBEF0)
-#define RPG_GAMECORE_DYNAMICSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5F9740)
+#define RPG_GAMECORE_DYNAMICSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D2EF0)
+#define RPG_GAMECORE_DYNAMICSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D2D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicString_TypeDefinitionIndex = 16479;
+	inline static constexpr unsigned int DynamicString_TypeDefinitionIndex = 16643;
 
 	class DynamicString : public ::RPG::GameCore::JsonConfig
 	{

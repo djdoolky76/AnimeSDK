@@ -4,23 +4,23 @@
 namespace System { class Object; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define FKDOJIKMFLG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x157E2B70)
-#define FKDOJIKMFLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x157E2BB0)
-#define FKDOJIKMFLG___C___ONBINDHANDLERS_B__6_0_OFFSET UNITYSDK_OFFSET(0x157E2BC0)
+#define FKDOJIKMFLG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA99270)
+#define FKDOJIKMFLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA992B0)
+#define FKDOJIKMFLG___C___ONBINDHANDLERS_B__6_0_OFFSET UNITYSDK_OFFSET(0x1AA992C0)
 
-inline static constexpr unsigned int FKDOJIKMFLG___c_TypeDefinitionIndex = 72351;
+inline static constexpr unsigned int FKDOJIKMFLG___c_TypeDefinitionIndex = 74430;
 
 	class FKDOJIKMFLG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x682C0);
-		}
-
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__6_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("", "<>c")->GetStaticField(0x682C8);
+			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66920);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66928);
 		}
 
 		static ::System::Void _cctor()

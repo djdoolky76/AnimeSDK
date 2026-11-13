@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MLKDDLHNNHH.h"
 
-#define FFEFEHPIFDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15727F70)
-#define FFEFEHPIFDJ_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15727F80)
+#define FFEFEHPIFDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x130D9C30)
+#define FFEFEHPIFDJ_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x130D9C40)
 
-inline static constexpr unsigned int FFEFEHPIFDJ_TypeDefinitionIndex = 75359;
+inline static constexpr unsigned int FFEFEHPIFDJ_TypeDefinitionIndex = 77686;
 
 	class FFEFEHPIFDJ : public ::MLKDDLHNNHH
 	{

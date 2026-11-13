@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelAudienceInfo; }
 namespace RPG::GameCore { class LevelAudienceMemberInfo; }
 
-#define RPG_GAMECORE_LEVELAUDIENCEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D777AC0)
-#define RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D777AD0)
-#define RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D777A70)
+#define RPG_GAMECORE_LEVELAUDIENCEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92A4C0)
+#define RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D92A4D0)
+#define RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D92A470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudienceInfo_TypeDefinitionIndex = 17328;
+	inline static constexpr unsigned int LevelAudienceInfo_TypeDefinitionIndex = 17496;
 
 	class LevelAudienceInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

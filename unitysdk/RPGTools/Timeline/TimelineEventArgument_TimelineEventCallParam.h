@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TIMELINEEVENTARGUMENT_TIMELINEEVENTCALLPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE9420C0)
+#define RPGTOOLS_TIMELINE_TIMELINEEVENTARGUMENT_TIMELINEEVENTCALLPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2DC20)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TimelineEventArgument_TimelineEventCallParam_TypeDefinitionIndex = 48433;
+	inline static constexpr unsigned int TimelineEventArgument_TimelineEventCallParam_TypeDefinitionIndex = 49474;
 
 	class TimelineEventArgument_TimelineEventCallParam : public ::System::Object
 	{

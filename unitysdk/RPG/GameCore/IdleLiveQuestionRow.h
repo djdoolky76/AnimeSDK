@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveQuestionRow; }
 
-#define RPG_GAMECORE_IDLELIVEQUESTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D750E80)
-#define RPG_GAMECORE_IDLELIVEQUESTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D750C00)
+#define RPG_GAMECORE_IDLELIVEQUESTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE89CD0)
+#define RPG_GAMECORE_IDLELIVEQUESTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE89A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestionRow_TypeDefinitionIndex = 11824;
+	inline static constexpr unsigned int IdleLiveQuestionRow_TypeDefinitionIndex = 11881;
 
 	class IdleLiveQuestionRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SenderID; // 0x10
-		::System::UInt32 Option1; // 0x14
-		::System::UInt32 Option2; // 0x18
-		::System::Single Duration; // 0x1C
-		::System::UInt32 ID; // 0x20
+		::System::Single Duration; // 0x10
+		::System::UInt32 ID; // 0x14
+		::System::UInt32 SenderID; // 0x18
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Content; // 0x28
+		::RPG::Client::TextID Content; // 0x20
+		::System::UInt32 Option1; // 0x30
+		::System::UInt32 Option2; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEQUESTIONROW_CTOR_OFFSET))(this);

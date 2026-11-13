@@ -8,25 +8,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA85280)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA852C0)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET UNITYSDK_OFFSET(0xDA852D0)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC23870)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC238B0)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET UNITYSDK_OFFSET(0x1DC238C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PartialFlipDeviceComponent___c_TypeDefinitionIndex = 73319;
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c_TypeDefinitionIndex = 75436;
 
 	class PartialFlipDeviceComponent___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12400);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27C60);
 		}
 
 		static ::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12408);
+			return (::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27C68);
 		}
 
 		static ::System::Void _cctor()

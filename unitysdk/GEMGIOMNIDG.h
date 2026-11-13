@@ -4,20 +4,20 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define GEMGIOMNIDG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC406C0)
-#define GEMGIOMNIDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC405B0)
-#define GEMGIOMNIDG_GET_ID_OFFSET UNITYSDK_OFFSET(0x1EC407C0)
-#define GEMGIOMNIDG_GET_MESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1EC407B0)
-#define GEMGIOMNIDG_GET_SUBSCRIBER_OFFSET UNITYSDK_OFFSET(0x1EC407A0)
+#define GEMGIOMNIDG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E52A200)
+#define GEMGIOMNIDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E52A0F0)
+#define GEMGIOMNIDG_GET_ID_OFFSET UNITYSDK_OFFSET(0x1E52A300)
+#define GEMGIOMNIDG_GET_MESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1E52A2F0)
+#define GEMGIOMNIDG_GET_SUBSCRIBER_OFFSET UNITYSDK_OFFSET(0x1E52A2E0)
 
-inline static constexpr unsigned int GEMGIOMNIDG_TypeDefinitionIndex = 44259;
+inline static constexpr unsigned int GEMGIOMNIDG_TypeDefinitionIndex = 45334;
 
 	class GEMGIOMNIDG : public ::System::Exception
 	{
 	public:
-		::System::Type* _MessageType_k__BackingField; // 0x88
-		::System::Object* _Subscriber_k__BackingField; // 0x90
-		::System::Object* _Id_k__BackingField; // 0x98
+		::System::Object* _Subscriber_k__BackingField; // 0x88
+		::System::Object* _Id_k__BackingField; // 0x90
+		::System::Type* _MessageType_k__BackingField; // 0x98
 		::System::Void _ctor(::System::Object* a1, ::System::Type* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + GEMGIOMNIDG_CTOR_OFFSET))(this, a1, a2);

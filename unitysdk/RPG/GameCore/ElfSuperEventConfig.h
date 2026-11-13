@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfSuperEventConfig; }
 namespace RPG::GameCore { class ElfSuperEventTypeConfig; }
 
-#define RPG_GAMECORE_ELFSUPEREVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D60BA80)
-#define RPG_GAMECORE_ELFSUPEREVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D60A8B0)
+#define RPG_GAMECORE_ELFSUPEREVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E2530)
+#define RPG_GAMECORE_ELFSUPEREVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E1360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfSuperEventConfig_TypeDefinitionIndex = 18466;
+	inline static constexpr unsigned int ElfSuperEventConfig_TypeDefinitionIndex = 18626;
 
 	class ElfSuperEventConfig : public ::RPG::GameCore::JsonConfig
 	{

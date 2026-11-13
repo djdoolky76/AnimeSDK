@@ -6,16 +6,16 @@
 class ALDMDBEKHPL;
 class FJOADPKDFLC;
 
-#define ALDMDBEKHPL___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C510A70)
-#define ALDMDBEKHPL___C__DISPLAYCLASS6_0__DETERMINEPRODUCTTRAITS_B__0_OFFSET UNITYSDK_OFFSET(0x1C510DC0)
+#define ALDMDBEKHPL___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E773C30)
+#define ALDMDBEKHPL___C__DISPLAYCLASS6_0__DETERMINEPRODUCTTRAITS_B__0_OFFSET UNITYSDK_OFFSET(0x1E773F80)
 
-inline static constexpr unsigned int ALDMDBEKHPL___c__DisplayClass6_0_TypeDefinitionIndex = 41741;
+inline static constexpr unsigned int ALDMDBEKHPL___c__DisplayClass6_0_TypeDefinitionIndex = 42716;
 
 	class ALDMDBEKHPL___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::ALDMDBEKHPL* __4__this; // 0x10
-		::FJOADPKDFLC* targetTraitTypes; // 0x18
+		::FJOADPKDFLC* targetTraitTypes; // 0x10
+		::ALDMDBEKHPL* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALDMDBEKHPL___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);

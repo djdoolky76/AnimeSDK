@@ -5,14 +5,14 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::ComponentModel { class DesignerCategoryAttribute; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFB9EB0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFB9C10)
-#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB9BF0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFB9CE0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFB9D60)
-#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1EFB9C20)
-#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1EFB9C30)
-#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EFB9DF0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C176560)
+#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DB0D360)
+#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0D340)
+#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C176390)
+#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C176410)
+#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1C1762D0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1C1762E0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERCATEGORYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C1764A0)
 
 namespace System::ComponentModel
 {
@@ -23,24 +23,24 @@ namespace System::ComponentModel
 	public:
 		::System::String* category; // 0x10
 		::System::String* typeId; // 0x18
-		static ::System::ComponentModel::DesignerCategoryAttribute** StaticGet_Component()
+		static ::System::ComponentModel::DesignerCategoryAttribute** StaticGet_Generic()
 		{
-			return (::System::ComponentModel::DesignerCategoryAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerCategoryAttribute")->GetStaticField(0x2BDE0);
-		}
-
-		static ::System::ComponentModel::DesignerCategoryAttribute** StaticGet_Default()
-		{
-			return (::System::ComponentModel::DesignerCategoryAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerCategoryAttribute")->GetStaticField(0x2BDE8);
+			return (::System::ComponentModel::DesignerCategoryAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerCategoryAttribute")->GetStaticField(0x34800);
 		}
 
 		static ::System::ComponentModel::DesignerCategoryAttribute** StaticGet_Form()
 		{
-			return (::System::ComponentModel::DesignerCategoryAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerCategoryAttribute")->GetStaticField(0x2BDF0);
+			return (::System::ComponentModel::DesignerCategoryAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerCategoryAttribute")->GetStaticField(0x34808);
 		}
 
-		static ::System::ComponentModel::DesignerCategoryAttribute** StaticGet_Generic()
+		static ::System::ComponentModel::DesignerCategoryAttribute** StaticGet_Default()
 		{
-			return (::System::ComponentModel::DesignerCategoryAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerCategoryAttribute")->GetStaticField(0x2BDF8);
+			return (::System::ComponentModel::DesignerCategoryAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerCategoryAttribute")->GetStaticField(0x34810);
+		}
+
+		static ::System::ComponentModel::DesignerCategoryAttribute** StaticGet_Component()
+		{
+			return (::System::ComponentModel::DesignerCategoryAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerCategoryAttribute")->GetStaticField(0x34818);
 		}
 
 		::System::Void _ctor()

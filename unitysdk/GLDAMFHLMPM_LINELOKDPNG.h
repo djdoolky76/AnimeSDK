@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class GLDAMFHLMPM_BCDMCGDEKNP;
 
-#define GLDAMFHLMPM_LINELOKDPNG_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA2EC0)
+#define GLDAMFHLMPM_LINELOKDPNG_CTOR_OFFSET UNITYSDK_OFFSET(0x16C5AFB0)
 
-inline static constexpr unsigned int GLDAMFHLMPM_LINELOKDPNG_TypeDefinitionIndex = 59855;
+inline static constexpr unsigned int GLDAMFHLMPM_LINELOKDPNG_TypeDefinitionIndex = 61136;
 
 	class GLDAMFHLMPM_LINELOKDPNG : public ::System::Object
 	{

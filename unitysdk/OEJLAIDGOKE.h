@@ -4,10 +4,10 @@
 class AHOKLDGHMFG;
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define OEJLAIDGOKE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBE29580)
-#define OEJLAIDGOKE_COEMCOBPMKD_OFFSET UNITYSDK_OFFSET(0xBE297B0)
+#define OEJLAIDGOKE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x17657110)
+#define OEJLAIDGOKE_COEMCOBPMKD_OFFSET UNITYSDK_OFFSET(0x17657340)
 
-inline static constexpr unsigned int OEJLAIDGOKE_TypeDefinitionIndex = 75013;
+inline static constexpr unsigned int OEJLAIDGOKE_TypeDefinitionIndex = 77340;
 
 	class OEJLAIDGOKE : public ::System::Object
 	{

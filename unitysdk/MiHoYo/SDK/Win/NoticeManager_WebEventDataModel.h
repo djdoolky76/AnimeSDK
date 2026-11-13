@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_WIN_NOTICEMANAGER_WEBEVENTDATAMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD7B6B0)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER_WEBEVENTDATAMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x19CCBCC0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NoticeManager_WebEventDataModel_TypeDefinitionIndex = 9395;
+	inline static constexpr unsigned int NoticeManager_WebEventDataModel_TypeDefinitionIndex = 9403;
 
 	class NoticeManager_WebEventDataModel : public ::System::Object
 	{

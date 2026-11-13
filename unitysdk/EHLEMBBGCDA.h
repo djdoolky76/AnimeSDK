@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EHLEMBBGCDA_BFLBPOAJAOJ_OFFSET UNITYSDK_OFFSET(0x154A2D30)
-#define EHLEMBBGCDA_CTOR_OFFSET UNITYSDK_OFFSET(0x154A2C60)
-#define EHLEMBBGCDA_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x154A3BA0)
-#define EHLEMBBGCDA_IDPLONBBHAH_OFFSET UNITYSDK_OFFSET(0x154A3EC0)
-#define EHLEMBBGCDA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x154A37B0)
-#define EHLEMBBGCDA_PKKADDCLLGK_OFFSET UNITYSDK_OFFSET(0x154A2E40)
+#define EHLEMBBGCDA_BFLBPOAJAOJ_OFFSET UNITYSDK_OFFSET(0x18BD3AE0)
+#define EHLEMBBGCDA_CTOR_OFFSET UNITYSDK_OFFSET(0x18BD3A10)
+#define EHLEMBBGCDA_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x18BD4950)
+#define EHLEMBBGCDA_IDPLONBBHAH_OFFSET UNITYSDK_OFFSET(0x18BD4C70)
+#define EHLEMBBGCDA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x18BD4560)
+#define EHLEMBBGCDA_PKKADDCLLGK_OFFSET UNITYSDK_OFFSET(0x18BD3BF0)
 
-inline static constexpr unsigned int EHLEMBBGCDA_TypeDefinitionIndex = 79173;
+inline static constexpr unsigned int EHLEMBBGCDA_TypeDefinitionIndex = 81950;
 
 	class EHLEMBBGCDA : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* HOJNACIFLKB; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::LCDEEKNHPBG*>* EEMPAAFDLAP; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::LCDEEKNHPBG*>* EEMPAAFDLAP; // 0x10
+		::System::Action_1<::System::String*>* HOJNACIFLKB; // 0x18
 		::System::Boolean EJDEKKEOHBE; // 0x20
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::LCDEEKNHPBG*>* a1)
 		{

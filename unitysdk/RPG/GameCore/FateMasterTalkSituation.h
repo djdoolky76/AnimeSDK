@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateMasterTalkSituation_TypeDefinitionIndex = 11502;
+	inline static constexpr unsigned int FateMasterTalkSituation_TypeDefinitionIndex = 11553;
 
 	enum class FateMasterTalkSituation : ::System::Int32
 	{

@@ -4,21 +4,21 @@
 #include "unitysdk/System/Object.h"
 class EKFMIDBJDIA;
 
-#define DGCNFOOAFPO_CTOR_OFFSET UNITYSDK_OFFSET(0xE8391C0)
-#define DGCNFOOAFPO_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE8391F0)
-#define DGCNFOOAFPO_GET_MUTED_OFFSET UNITYSDK_OFFSET(0xE8391D0)
-#define DGCNFOOAFPO_GET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE839200)
-#define DGCNFOOAFPO_INVOKE_OFFSET UNITYSDK_OFFSET(0xE839210)
-#define DGCNFOOAFPO_SET_MUTED_OFFSET UNITYSDK_OFFSET(0xE8391E0)
+#define DGCNFOOAFPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAD7A0)
+#define DGCNFOOAFPO_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1ADAD7D0)
+#define DGCNFOOAFPO_GET_MUTED_OFFSET UNITYSDK_OFFSET(0x1ADAD7B0)
+#define DGCNFOOAFPO_GET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1ADAD7E0)
+#define DGCNFOOAFPO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ADAD7F0)
+#define DGCNFOOAFPO_SET_MUTED_OFFSET UNITYSDK_OFFSET(0x1ADAD7C0)
 
-inline static constexpr unsigned int DGCNFOOAFPO_TypeDefinitionIndex = 73143;
+inline static constexpr unsigned int DGCNFOOAFPO_TypeDefinitionIndex = 75257;
 
 	class DGCNFOOAFPO : public ::System::Object
 	{
 	public:
-		::System::Boolean _Muted_k__BackingField; // 0x10
+		::RPG::GameCore::EventType _EventType_k__BackingField; // 0x10
+		::System::Boolean _Muted_k__BackingField; // 0x14
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::EventType _EventType_k__BackingField; // 0x14
 		::System::UInt32 _RuntimeID_k__BackingField; // 0x18
 		::System::Void _ctor(::RPG::GameCore::EventType a1, ::System::UInt32 a2)
 		{

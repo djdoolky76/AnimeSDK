@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/RtPropertyModifyData.h"
 
-#define IMJEMBJBNBL_KBNJDPKPIKB_OFFSET UNITYSDK_OFFSET(0x164CE730)
+#define IMJEMBJBNBL_KBNJDPKPIKB_OFFSET UNITYSDK_OFFSET(0x1A5DAF10)
 
-inline static constexpr unsigned int IMJEMBJBNBL_TypeDefinitionIndex = 53733;
+inline static constexpr unsigned int IMJEMBJBNBL_TypeDefinitionIndex = 54897;
 
 	class IMJEMBJBNBL : public ::System::Object
 	{

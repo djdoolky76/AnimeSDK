@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-#define HAGLEMEGDCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC41C30)
+#define HAGLEMEGDCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E52B770)
 
-inline static constexpr unsigned int HAGLEMEGDCB_TypeDefinitionIndex = 44257;
+inline static constexpr unsigned int HAGLEMEGDCB_TypeDefinitionIndex = 45332;
 
 	class HAGLEMEGDCB : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::R3::Result>** StaticGet_JPKKNEJFEBJ()
 		{
-			return (::System::Action_1<::R3::Result>**)UnitySDK::FromName("", "HAGLEMEGDCB")->GetStaticField(0x47B20);
+			return (::System::Action_1<::R3::Result>**)UnitySDK::FromName("", "HAGLEMEGDCB")->GetStaticField(0x60E20);
 		}
 
 		static ::System::Void _cctor()

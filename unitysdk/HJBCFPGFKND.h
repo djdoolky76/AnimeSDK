@@ -3,52 +3,52 @@
 #include "unitysdk/RPG/GameCore/TurnState.h"
 #include "unitysdk/System/Object.h"
 
-#define HJBCFPGFKND_GET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x15CF5E00)
-#define HJBCFPGFKND_GET_LASTINSERTACTIONTURNCOUNT_OFFSET UNITYSDK_OFFSET(0x15CF5DA0)
-#define HJBCFPGFKND_GET_LASTONEMORETURNCOUNT_OFFSET UNITYSDK_OFFSET(0x15CF5D80)
-#define HJBCFPGFKND_GET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x15CF5DE0)
-#define HJBCFPGFKND_GET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x15CF5DC0)
-#define HJBCFPGFKND_LFMHPLEKINH_OFFSET UNITYSDK_OFFSET(0x15CF5E20)
-#define HJBCFPGFKND_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15CF5D30)
-#define HJBCFPGFKND_SET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x15CF5E10)
-#define HJBCFPGFKND_SET_LASTINSERTACTIONTURNCOUNT_OFFSET UNITYSDK_OFFSET(0x15CF5DB0)
-#define HJBCFPGFKND_SET_LASTONEMORETURNCOUNT_OFFSET UNITYSDK_OFFSET(0x15CF5D90)
-#define HJBCFPGFKND_SET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x15CF5DF0)
-#define HJBCFPGFKND_SET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x15CF5DD0)
+#define HJBCFPGFKND_GET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x181F2960)
+#define HJBCFPGFKND_GET_LASTINSERTACTIONTURNCOUNT_OFFSET UNITYSDK_OFFSET(0x181F2900)
+#define HJBCFPGFKND_GET_LASTONEMORETURNCOUNT_OFFSET UNITYSDK_OFFSET(0x181F28E0)
+#define HJBCFPGFKND_GET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x181F2940)
+#define HJBCFPGFKND_GET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x181F2920)
+#define HJBCFPGFKND_LFMHPLEKINH_OFFSET UNITYSDK_OFFSET(0x181F2980)
+#define HJBCFPGFKND_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x181F2890)
+#define HJBCFPGFKND_SET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x181F2970)
+#define HJBCFPGFKND_SET_LASTINSERTACTIONTURNCOUNT_OFFSET UNITYSDK_OFFSET(0x181F2910)
+#define HJBCFPGFKND_SET_LASTONEMORETURNCOUNT_OFFSET UNITYSDK_OFFSET(0x181F28F0)
+#define HJBCFPGFKND_SET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x181F2950)
+#define HJBCFPGFKND_SET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x181F2930)
 
-inline static constexpr unsigned int HJBCFPGFKND_TypeDefinitionIndex = 56198;
+inline static constexpr unsigned int HJBCFPGFKND_TypeDefinitionIndex = 57410;
 
 	class HJBCFPGFKND : public ::System::Object
 	{
 	public:
-		static ::System::UInt32* StaticGet_ONPPBOKMMKL()
+		static ::System::Int32* StaticGet__RandomCounter_k__BackingField()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6DB0);
-		}
-
-		static ::System::UInt32* StaticGet__LastOneMoreTurnCount_k__BackingField()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6DB4);
+			return (::System::Int32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x3320);
 		}
 
 		static ::System::UInt32* StaticGet__OperationCounter_k__BackingField()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6DB8);
+			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x3324);
+		}
+
+		static ::System::UInt32* StaticGet__LastOneMoreTurnCount_k__BackingField()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x3328);
 		}
 
 		static ::RPG::GameCore::TurnState* StaticGet__CurrentTurnState_k__BackingField()
 		{
-			return (::RPG::GameCore::TurnState*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6DBC);
-		}
-
-		static ::System::Int32* StaticGet__RandomCounter_k__BackingField()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6DC0);
+			return (::RPG::GameCore::TurnState*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x332C);
 		}
 
 		static ::System::UInt32* StaticGet__LastInsertActionTurnCount_k__BackingField()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6DC4);
+			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x3330);
+		}
+
+		static ::System::UInt32* StaticGet_ONPPBOKMMKL()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x3334);
 		}
 
 		static ::System::Void PJPFIHFAHGO()

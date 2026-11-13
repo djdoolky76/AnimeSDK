@@ -5,12 +5,12 @@ namespace RPG::Client { class SceneTV; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MODFAMJCMAH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA216B0)
-#define MODFAMJCMAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA21990)
-#define MODFAMJCMAH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBA21730)
-#define MODFAMJCMAH_PDOKCIFFKIC_OFFSET UNITYSDK_OFFSET(0xBA21B20)
+#define MODFAMJCMAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B20E640)
+#define MODFAMJCMAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B20E920)
+#define MODFAMJCMAH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1B20E6C0)
+#define MODFAMJCMAH_PDOKCIFFKIC_OFFSET UNITYSDK_OFFSET(0x1B20EAB0)
 
-inline static constexpr unsigned int MODFAMJCMAH_TypeDefinitionIndex = 57361;
+inline static constexpr unsigned int MODFAMJCMAH_TypeDefinitionIndex = 58589;
 
 	class MODFAMJCMAH : public ::RPG::GameCore::GameComponentBase
 	{

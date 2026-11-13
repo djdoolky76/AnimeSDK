@@ -6,25 +6,25 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE314040)
-#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE314080)
-#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT___C__CREATESETTLEMENT_B__0_0_OFFSET UNITYSDK_OFFSET(0xE314090)
+#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE66070)
+#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE660B0)
+#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT___C__CREATESETTLEMENT_B__0_0_OFFSET UNITYSDK_OFFSET(0x1CE660C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureChallengeSettlement___c_TypeDefinitionIndex = 66786;
+	inline static constexpr unsigned int TreasureChallengeSettlement___c_TypeDefinitionIndex = 68722;
 
 	class TreasureChallengeSettlement___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x22430);
-		}
-
 		static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::RPG::GameCore::ItemRarity>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::RPG::GameCore::ItemRarity>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x22438);
+			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::RPG::GameCore::ItemRarity>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x36F50);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x36F58);
 		}
 
 		static ::System::Void _cctor()

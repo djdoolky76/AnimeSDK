@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ResolutionAdaptionConfigMapping; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIGMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95FD90)
-#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIGMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95FCC0)
+#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIGMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x207241F0)
+#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIGMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20724120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResolutionAdaptionConfigMapping_TypeDefinitionIndex = 17140;
+	inline static constexpr unsigned int ResolutionAdaptionConfigMapping_TypeDefinitionIndex = 17307;
 
 	class ResolutionAdaptionConfigMapping : public ::RPG::GameCore::JsonConfig
 	{

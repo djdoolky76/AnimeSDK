@@ -4,12 +4,12 @@
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGRADIALBLUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC30E60)
-#define RPG_CUSTOMRP_RPGRADIALBLUR_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC30CD0)
+#define RPG_CUSTOMRP_RPGRADIALBLUR_CTOR_OFFSET UNITYSDK_OFFSET(0x198F7E50)
+#define RPG_CUSTOMRP_RPGRADIALBLUR_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x198F7CC0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGRadialBlur_TypeDefinitionIndex = 37839;
+	inline static constexpr unsigned int RPGRadialBlur_TypeDefinitionIndex = 38768;
 
 	class RPGRadialBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsPropLockable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOODMOGDPOG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB1560)
-#define HOODMOGDPOG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DB1590)
+#define HOODMOGDPOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2B100)
+#define HOODMOGDPOG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AF2B130)
 
-inline static constexpr unsigned int HOODMOGDPOG_TypeDefinitionIndex = 52601;
+inline static constexpr unsigned int HOODMOGDPOG_TypeDefinitionIndex = 53708;
 
 	class HOODMOGDPOG
 	{

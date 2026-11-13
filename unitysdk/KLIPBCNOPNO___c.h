@@ -4,18 +4,18 @@
 class KLIPBCNOPNO;
 namespace System { class Object; }
 
-#define KLIPBCNOPNO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8601E0)
-#define KLIPBCNOPNO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E860210)
-#define KLIPBCNOPNO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E860220)
+#define KLIPBCNOPNO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDBC830)
+#define KLIPBCNOPNO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDBC860)
+#define KLIPBCNOPNO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FDBC870)
 
-inline static constexpr unsigned int KLIPBCNOPNO___c_TypeDefinitionIndex = 30246;
+inline static constexpr unsigned int KLIPBCNOPNO___c_TypeDefinitionIndex = 31148;
 
 	class KLIPBCNOPNO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DBE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BDE0);
 		}
 
 		static ::System::Void _cctor()

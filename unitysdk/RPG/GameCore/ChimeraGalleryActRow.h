@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraGalleryActRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAGALLERYACTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57FBD0)
-#define RPG_GAMECORE_CHIMERAGALLERYACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D57F9E0)
+#define RPG_GAMECORE_CHIMERAGALLERYACTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F935390)
+#define RPG_GAMECORE_CHIMERAGALLERYACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F9351A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraGalleryActRow_TypeDefinitionIndex = 13054;
+	inline static constexpr unsigned int ChimeraGalleryActRow_TypeDefinitionIndex = 13122;
 
 	class ChimeraGalleryActRow : public ::System::Object
 	{

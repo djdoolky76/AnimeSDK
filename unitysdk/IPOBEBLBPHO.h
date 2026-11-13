@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HAFCMNPMFGO;
 
-#define IPOBEBLBPHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B78A0)
+#define IPOBEBLBPHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C122180)
 
-inline static constexpr unsigned int IPOBEBLBPHO_TypeDefinitionIndex = 36453;
+inline static constexpr unsigned int IPOBEBLBPHO_TypeDefinitionIndex = 37381;
 
 	class IPOBEBLBPHO : public ::System::Object
 	{

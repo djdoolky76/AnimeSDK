@@ -4,18 +4,18 @@
 class JALACKKFDEG;
 namespace System { class Object; }
 
-#define JALACKKFDEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C3540)
-#define JALACKKFDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C3580)
-#define JALACKKFDEG___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E6C3590)
+#define JALACKKFDEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEF23D0)
+#define JALACKKFDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEF2410)
+#define JALACKKFDEG___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1FEF2420)
 
-inline static constexpr unsigned int JALACKKFDEG___c_TypeDefinitionIndex = 27944;
+inline static constexpr unsigned int JALACKKFDEG___c_TypeDefinitionIndex = 28534;
 
 	class JALACKKFDEG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57840);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B60);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterEyeBloomConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTEREYEBLOOMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D542B00)
-#define RPG_GAMECORE_CHARACTEREYEBLOOMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D542940)
+#define RPG_GAMECORE_CHARACTEREYEBLOOMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3447E0)
+#define RPG_GAMECORE_CHARACTEREYEBLOOMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F344620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEyeBloomConfig_TypeDefinitionIndex = 17452;
+	inline static constexpr unsigned int CharacterEyeBloomConfig_TypeDefinitionIndex = 17620;
 
 	class CharacterEyeBloomConfig : public ::RPG::GameCore::JsonConfig
 	{

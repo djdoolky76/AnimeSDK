@@ -9,12 +9,12 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftObtainMechatronView
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DLKHNPDOOIC_BNLBKCICNHE_OFFSET UNITYSDK_OFFSET(0xF89BB40)
-#define DLKHNPDOOIC_CTOR_OFFSET UNITYSDK_OFFSET(0xF89B940)
-#define DLKHNPDOOIC_DPGLDMBLBIL_OFFSET UNITYSDK_OFFSET(0xF89B950)
-#define DLKHNPDOOIC_NEDOKDOGAAO_OFFSET UNITYSDK_OFFSET(0xF89BA40)
+#define DLKHNPDOOIC_BNLBKCICNHE_OFFSET UNITYSDK_OFFSET(0x1866FA60)
+#define DLKHNPDOOIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1866F860)
+#define DLKHNPDOOIC_DPGLDMBLBIL_OFFSET UNITYSDK_OFFSET(0x1866F870)
+#define DLKHNPDOOIC_NEDOKDOGAAO_OFFSET UNITYSDK_OFFSET(0x1866F960)
 
-inline static constexpr unsigned int DLKHNPDOOIC_TypeDefinitionIndex = 79654;
+inline static constexpr unsigned int DLKHNPDOOIC_TypeDefinitionIndex = 82431;
 
 	class DLKHNPDOOIC : public ::System::Object
 	{

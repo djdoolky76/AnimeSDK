@@ -5,11 +5,11 @@ class HMEKPIAPOND;
 namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace UnityEngine { class Transform; }
 
-#define JDGOFBPECPM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB61B30)
-#define JDGOFBPECPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB61BE0)
-#define JDGOFBPECPM_LJAPEFGODCD_OFFSET UNITYSDK_OFFSET(0x1CB619B0)
+#define JDGOFBPECPM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DDFF3E0)
+#define JDGOFBPECPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFF490)
+#define JDGOFBPECPM_LJAPEFGODCD_OFFSET UNITYSDK_OFFSET(0x1DDFF260)
 
-inline static constexpr unsigned int JDGOFBPECPM_TypeDefinitionIndex = 43350;
+inline static constexpr unsigned int JDGOFBPECPM_TypeDefinitionIndex = 44331;
 
 	class JDGOFBPECPM : public ::System::Object
 	{

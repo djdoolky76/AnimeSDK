@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BFBCFAIOIEK_TypeDefinitionIndex = 25192;
+inline static constexpr unsigned int BFBCFAIOIEK_TypeDefinitionIndex = 25670;
 
 	enum class BFBCFAIOIEK : ::System::Int32
 	{

@@ -6,23 +6,23 @@ class GBOMMAHOJPG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IAFCNCDOJEG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF8210)
-#define IAFCNCDOJEG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DF8100)
-#define IAFCNCDOJEG_EFNBAEBBHPP_OFFSET UNITYSDK_OFFSET(0x15DF7730)
-#define IAFCNCDOJEG_EMHAECOEFJD_OFFSET UNITYSDK_OFFSET(0x15DF7930)
-#define IAFCNCDOJEG_GPKJHCPJKEL_OFFSET UNITYSDK_OFFSET(0x15DF7850)
-#define IAFCNCDOJEG_KMPCPKMKJNE_OFFSET UNITYSDK_OFFSET(0x15DF7EF0)
-#define IAFCNCDOJEG_LNMIEBBHDGF_OFFSET UNITYSDK_OFFSET(0x15DF7DB0)
-#define IAFCNCDOJEG_PHDNDNECHMM_OFFSET UNITYSDK_OFFSET(0x15DF6FF0)
+#define IAFCNCDOJEG_CTOR_OFFSET UNITYSDK_OFFSET(0x19418A20)
+#define IAFCNCDOJEG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19418910)
+#define IAFCNCDOJEG_EFNBAEBBHPP_OFFSET UNITYSDK_OFFSET(0x19417F40)
+#define IAFCNCDOJEG_EMHAECOEFJD_OFFSET UNITYSDK_OFFSET(0x19418140)
+#define IAFCNCDOJEG_GPKJHCPJKEL_OFFSET UNITYSDK_OFFSET(0x19418060)
+#define IAFCNCDOJEG_KMPCPKMKJNE_OFFSET UNITYSDK_OFFSET(0x19418700)
+#define IAFCNCDOJEG_LNMIEBBHDGF_OFFSET UNITYSDK_OFFSET(0x194185C0)
+#define IAFCNCDOJEG_PHDNDNECHMM_OFFSET UNITYSDK_OFFSET(0x19417800)
 
-inline static constexpr unsigned int IAFCNCDOJEG_TypeDefinitionIndex = 60636;
+inline static constexpr unsigned int IAFCNCDOJEG_TypeDefinitionIndex = 62013;
 
 	class IAFCNCDOJEG : public ::System::Object
 	{
 	public:
-		::GBOMMAHOJPG* BDPEEAECBDK; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::CompetitiveGamePlaySystemPriority, ::System::Int32>* JHGBDLHCBOO; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::CompetitiveGamePlaySystemPriority, ::GBOMMAHOJPG*>* KAMBJAODFFO; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::CompetitiveGamePlaySystemPriority, ::System::Int32>* JHGBDLHCBOO; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::CompetitiveGamePlaySystemPriority, ::GBOMMAHOJPG*>* KAMBJAODFFO; // 0x18
+		::GBOMMAHOJPG* BDPEEAECBDK; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::CompetitiveGamePlaySystemPriority>* LHIGHMJOGCF; // 0x28
 		::System::Void _ctor()
 		{

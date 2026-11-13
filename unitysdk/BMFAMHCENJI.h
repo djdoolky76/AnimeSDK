@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BMFAMHCENJI_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D9B40C0)
+#define BMFAMHCENJI_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1EAEFD00)
 
-inline static constexpr unsigned int BMFAMHCENJI_TypeDefinitionIndex = 10685;
+inline static constexpr unsigned int BMFAMHCENJI_TypeDefinitionIndex = 10701;
 
 	class BMFAMHCENJI : public ::System::Object
 	{

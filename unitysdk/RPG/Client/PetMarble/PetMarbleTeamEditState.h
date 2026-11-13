@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarbleTeamEditState_TypeDefinitionIndex = 74728;
+	inline static constexpr unsigned int PetMarbleTeamEditState_TypeDefinitionIndex = 76876;
 
 	enum class PetMarbleTeamEditState : ::System::Int32
 	{

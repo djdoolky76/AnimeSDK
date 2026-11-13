@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CNKEOOAMELC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E4DE0)
+#define CNKEOOAMELC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17040)
 
-inline static constexpr unsigned int CNKEOOAMELC_TypeDefinitionIndex = 42190;
+inline static constexpr unsigned int CNKEOOAMELC_TypeDefinitionIndex = 43165;
 
 	class CNKEOOAMELC : public ::System::Object
 	{

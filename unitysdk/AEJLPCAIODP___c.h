@@ -4,18 +4,18 @@
 class AEJLPCAIODP;
 namespace System { class Object; }
 
-#define AEJLPCAIODP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDBFE90)
-#define AEJLPCAIODP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBFED0)
-#define AEJLPCAIODP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDBFEE0)
+#define AEJLPCAIODP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5DF8B0)
+#define AEJLPCAIODP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DF8F0)
+#define AEJLPCAIODP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F5DF900)
 
-inline static constexpr unsigned int AEJLPCAIODP___c_TypeDefinitionIndex = 32849;
+inline static constexpr unsigned int AEJLPCAIODP___c_TypeDefinitionIndex = 33764;
 
 	class AEJLPCAIODP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34080);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CD40);
 		}
 
 		static ::System::Void _cctor()

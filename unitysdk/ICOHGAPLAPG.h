@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ICOHGAPLAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEB6000)
+#define ICOHGAPLAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B0900)
 
-inline static constexpr unsigned int ICOHGAPLAPG_TypeDefinitionIndex = 10812;
+inline static constexpr unsigned int ICOHGAPLAPG_TypeDefinitionIndex = 10828;
 
 	class ICOHGAPLAPG : public ::System::Attribute
 	{

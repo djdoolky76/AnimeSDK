@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DFGEPHCKAHM_CTOR_OFFSET UNITYSDK_OFFSET(0xE8226D0)
-#define DFGEPHCKAHM_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0xE822620)
+#define DFGEPHCKAHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B392B00)
+#define DFGEPHCKAHM_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0x1B392A50)
 
-inline static constexpr unsigned int DFGEPHCKAHM_TypeDefinitionIndex = 67326;
+inline static constexpr unsigned int DFGEPHCKAHM_TypeDefinitionIndex = 69270;
 
 	class DFGEPHCKAHM : public ::System::Object
 	{

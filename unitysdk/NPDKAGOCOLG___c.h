@@ -4,18 +4,18 @@
 class NPDKAGOCOLG;
 namespace System { class Object; }
 
-#define NPDKAGOCOLG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB67BB0)
-#define NPDKAGOCOLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB67BF0)
-#define NPDKAGOCOLG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB67C00)
+#define NPDKAGOCOLG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB78CF0)
+#define NPDKAGOCOLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB78D30)
+#define NPDKAGOCOLG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FB78D40)
 
-inline static constexpr unsigned int NPDKAGOCOLG___c_TypeDefinitionIndex = 27501;
+inline static constexpr unsigned int NPDKAGOCOLG___c_TypeDefinitionIndex = 28032;
 
 	class NPDKAGOCOLG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC8D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54590);
 		}
 
 		static ::System::Void _cctor()

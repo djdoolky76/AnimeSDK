@@ -13,14 +13,14 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTBATTLECONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1FC10)
-#define RPG_GAMECORE_RTBATTLECONST_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1DA202E0)
-#define RPG_GAMECORE_RTBATTLECONST_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x1DA20360)
-#define RPG_GAMECORE_RTBATTLECONST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1F3D0)
+#define RPG_GAMECORE_RTBATTLECONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF40F00)
+#define RPG_GAMECORE_RTBATTLECONST_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1EF415D0)
+#define RPG_GAMECORE_RTBATTLECONST_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x1EF41650)
+#define RPG_GAMECORE_RTBATTLECONST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF406C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleConst_TypeDefinitionIndex = 18044;
+	inline static constexpr unsigned int RtBattleConst_TypeDefinitionIndex = 18210;
 
 	class RtBattleConst : public ::RPG::GameCore::JsonConfig
 	{
@@ -51,7 +51,7 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::RtAbilityProperty>* SummonCharacterInheritPropertyList; // 0xA0
 		static ::RPG::GameCore::RtBattleConst** StaticGet_Config()
 		{
-			return (::RPG::GameCore::RtBattleConst**)UnitySDK::FromName("RPG.GameCore", "RtBattleConst")->GetStaticField(0x10AB0);
+			return (::RPG::GameCore::RtBattleConst**)UnitySDK::FromName("RPG.GameCore", "RtBattleConst")->GetStaticField(0xB140);
 		}
 
 		::System::Void _ctor()

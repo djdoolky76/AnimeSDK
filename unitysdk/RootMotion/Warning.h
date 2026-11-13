@@ -5,19 +5,19 @@ namespace RootMotion { class Warning_Logger; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_WARNING_LOG_1_OFFSET UNITYSDK_OFFSET(0xB099070)
-#define ROOTMOTION_WARNING_LOG_OFFSET UNITYSDK_OFFSET(0xB0BD470)
+#define ROOTMOTION_WARNING_LOG_1_OFFSET UNITYSDK_OFFSET(0x1F0AD080)
+#define ROOTMOTION_WARNING_LOG_OFFSET UNITYSDK_OFFSET(0x1F0D1070)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Warning_TypeDefinitionIndex = 45981;
+	inline static constexpr unsigned int Warning_TypeDefinitionIndex = 47010;
 
 	class Warning : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_logged()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RootMotion", "Warning")->GetStaticField(0xBC40);
+			return (::System::Boolean*)UnitySDK::FromName("RootMotion", "Warning")->GetStaticField(0x9DA0);
 		}
 
 		static ::System::Void Log(::System::String* a1, ::RootMotion::Warning_Logger* a2, ::System::Boolean a3)

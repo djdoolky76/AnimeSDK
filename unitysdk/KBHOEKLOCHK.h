@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KBHOEKLOCHK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D032960)
-#define KBHOEKLOCHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D032EE0)
-#define KBHOEKLOCHK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D032AD0)
-#define KBHOEKLOCHK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D032410)
-#define KBHOEKLOCHK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0326A0)
-#define KBHOEKLOCHK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D032B70)
-#define KBHOEKLOCHK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D032BC0)
-#define KBHOEKLOCHK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0329A0)
-#define KBHOEKLOCHK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D032640)
-#define KBHOEKLOCHK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D032810)
-#define KBHOEKLOCHK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D032A30)
-#define KBHOEKLOCHK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D032390)
+#define KBHOEKLOCHK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F93FDC0)
+#define KBHOEKLOCHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F940340)
+#define KBHOEKLOCHK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F93FF30)
+#define KBHOEKLOCHK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F93F870)
+#define KBHOEKLOCHK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F93FB00)
+#define KBHOEKLOCHK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F93FFD0)
+#define KBHOEKLOCHK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F940020)
+#define KBHOEKLOCHK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F93FE00)
+#define KBHOEKLOCHK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F93FAA0)
+#define KBHOEKLOCHK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F93FC70)
+#define KBHOEKLOCHK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F93FE90)
+#define KBHOEKLOCHK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F93F7F0)
 
-inline static constexpr unsigned int KBHOEKLOCHK_TypeDefinitionIndex = 12863;
+inline static constexpr unsigned int KBHOEKLOCHK_TypeDefinitionIndex = 12935;
 
 	class KBHOEKLOCHK : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0x31AE0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0x306E0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattleEventButtonTypeConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattleEventButtonTypeConfigRow*>**)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0x31AE8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattleEventButtonTypeConfigRow*>**)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0x306E8);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0x31AF0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0xA3D0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0x306F0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0xA3D1);
+			return (::System::Boolean*)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0x97A0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "KBHOEKLOCHK")->GetStaticField(0x97A1);
 		}
 
 		static ::System::Void _cctor()

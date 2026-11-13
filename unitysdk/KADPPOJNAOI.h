@@ -8,16 +8,16 @@ class PMBMFHMKBNC;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define KADPPOJNAOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CD1B0)
-#define KADPPOJNAOI_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xB2CD1C0)
+#define KADPPOJNAOI_CTOR_OFFSET UNITYSDK_OFFSET(0x19DA9440)
+#define KADPPOJNAOI_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x19DA9450)
 
-inline static constexpr unsigned int KADPPOJNAOI_TypeDefinitionIndex = 80242;
+inline static constexpr unsigned int KADPPOJNAOI_TypeDefinitionIndex = 83019;
 
 	class KADPPOJNAOI : public ::System::Object
 	{
 	public:
-		::GHGAFIIFPEC* DOIMIHLLDGH; // 0x10
-		::GAGKMDGBGFL* MJHHLOPFDNK; // 0x18
+		::GAGKMDGBGFL* MJHHLOPFDNK; // 0x10
+		::GHGAFIIFPEC* DOIMIHLLDGH; // 0x18
 		::System::Void _ctor(::GAGKMDGBGFL* a1, ::GHGAFIIFPEC* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::GAGKMDGBGFL*, ::GHGAFIIFPEC*))((::PBYTE)hIl2Cpp + KADPPOJNAOI_CTOR_OFFSET))(this, a1, a2);

@@ -4,12 +4,12 @@
 class GFCJIPKABEF;
 namespace RPG::Client { class CakeCatchModule; }
 
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8E1360)
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS31_0___ONTRAINCAKECATCHSEARCHSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xC8E5400)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD807C0)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS31_0___ONTRAINCAKECATCHSEARCHSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x1BD84860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass31_0_TypeDefinitionIndex = 62968;
+	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass31_0_TypeDefinitionIndex = 64406;
 
 	class CakeCatchModule___c__DisplayClass31_0 : public ::System::Object
 	{

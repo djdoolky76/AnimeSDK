@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack { class IFormatterResolver; }
 
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7CA270)
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CA1E0)
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x1C7CA1F0)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC893AB0)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0xC893A20)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0xC893A30)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int RpcFormatterResolver_TypeDefinitionIndex = 37061;
+	inline static constexpr unsigned int RpcFormatterResolver_TypeDefinitionIndex = 37989;
 
 	class RpcFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::IFormatterResolver** StaticGet_FMJPMFEDIJL()
 		{
-			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("RPG.Client.LittleGameShare", "RpcFormatterResolver")->GetStaticField(0x1E5B0);
+			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("RPG.Client.LittleGameShare", "RpcFormatterResolver")->GetStaticField(0x16FA0);
 		}
 
 		::System::Void _ctor()

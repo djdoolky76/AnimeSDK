@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SummonPartner; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONPARTNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0CA70)
-#define RPG_GAMECORE_SUMMONPARTNER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB0CA80)
-#define RPG_GAMECORE_SUMMONPARTNER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0CA30)
+#define RPG_GAMECORE_SUMMONPARTNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67C8A0)
+#define RPG_GAMECORE_SUMMONPARTNER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E67C8B0)
+#define RPG_GAMECORE_SUMMONPARTNER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E67C860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonPartner_TypeDefinitionIndex = 22695;
+	inline static constexpr unsigned int SummonPartner_TypeDefinitionIndex = 23117;
 
 	class SummonPartner : public ::RPG::GameCore::TaskConfig
 	{

@@ -7,20 +7,20 @@ namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace RPG::GameCore { class ChimeraDuelLeaveNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PNKJDAJGIGJ_CAHAODODOLL_CTOR_OFFSET UNITYSDK_OFFSET(0xC336020)
-#define PNKJDAJGIGJ_CAHAODODOLL_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC336270)
-#define PNKJDAJGIGJ_CAHAODODOLL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC336290)
-#define PNKJDAJGIGJ_CAHAODODOLL_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC336280)
+#define PNKJDAJGIGJ_CAHAODODOLL_CTOR_OFFSET UNITYSDK_OFFSET(0x184B4A60)
+#define PNKJDAJGIGJ_CAHAODODOLL_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x184B4CB0)
+#define PNKJDAJGIGJ_CAHAODODOLL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x184B4CD0)
+#define PNKJDAJGIGJ_CAHAODODOLL_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x184B4CC0)
 
-inline static constexpr unsigned int PNKJDAJGIGJ_CAHAODODOLL_TypeDefinitionIndex = 78247;
+inline static constexpr unsigned int PNKJDAJGIGJ_CAHAODODOLL_TypeDefinitionIndex = 80982;
 
 	class PNKJDAJGIGJ_CAHAODODOLL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* KHOPAIPODLM; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* HGCNLFIMDKL; // 0x10
 		::DLECIKAMKEG* EEFMDEHLLFI; // 0x18
 		::RPG::GameCore::ChimeraDuelLeaveNode* JKLBAAHFJDJ; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* HGCNLFIMDKL; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* KHOPAIPODLM; // 0x28
 		::System::Single FOMCKBAHCFM; // 0x30
 		::System::Boolean _IsFinished_k__BackingField; // 0x34
 		::System::Void _ctor(::RPG::GameCore::ChimeraDuelLeaveNode* a1, ::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* a2, ::DLECIKAMKEG* a3)

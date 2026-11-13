@@ -6,28 +6,27 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityHipplenTraitRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33BA10)
-#define RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33B590)
+#define RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E518CD0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E518850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenTraitRow_TypeDefinitionIndex = 11667;
+	inline static constexpr unsigned int ActivityHipplenTraitRow_TypeDefinitionIndex = 11718;
 
 	class ActivityHipplenTraitRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* Effects; // 0x10
+		::Il2CppArray<::System::Int32>* TraitUnlockDescParam; // 0x10
 		::Il2CppArray<::System::Int32>* TraitDescParam; // 0x18
 		::System::String* ImagePath; // 0x20
-		::Il2CppArray<::System::Int32>* TraitUnlockDescParam; // 0x28
-		::System::UInt32 ID; // 0x30
-		::System::Boolean IsEffectDelay; // 0x34
-		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID TraitTitle; // 0x38
-		::RPG::Client::TextID TraitUnlockDesc; // 0x48
-		::System::UInt32 Rarity; // 0x58
-		::System::Byte _padding1[0x4];
-		::RPG::Client::TextID TraitDesc; // 0x60
+		::Il2CppArray<::System::UInt32>* Effects; // 0x28
+		::RPG::Client::TextID TraitDesc; // 0x30
+		::System::UInt32 Rarity; // 0x40
+		::System::UInt32 ID; // 0x44
+		::RPG::Client::TextID TraitTitle; // 0x48
+		::System::Boolean IsEffectDelay; // 0x58
+		::System::Byte _padding0[0x7];
+		::RPG::Client::TextID TraitUnlockDesc; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW_CTOR_OFFSET))(this);

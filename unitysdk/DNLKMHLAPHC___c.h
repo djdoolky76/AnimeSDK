@@ -4,18 +4,18 @@
 class DNLKMHLAPHC;
 namespace System { class Object; }
 
-#define DNLKMHLAPHC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1CBBB0)
-#define DNLKMHLAPHC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CBBE0)
-#define DNLKMHLAPHC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1CBBF0)
+#define DNLKMHLAPHC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201E92A0)
+#define DNLKMHLAPHC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201E92D0)
+#define DNLKMHLAPHC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x201E92E0)
 
-inline static constexpr unsigned int DNLKMHLAPHC___c_TypeDefinitionIndex = 33074;
+inline static constexpr unsigned int DNLKMHLAPHC___c_TypeDefinitionIndex = 33989;
 
 	class DNLKMHLAPHC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37520);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36C80);
 		}
 
 		static ::System::Void _cctor()

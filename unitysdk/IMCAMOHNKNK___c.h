@@ -4,18 +4,18 @@
 class IMCAMOHNKNK;
 namespace System { class Object; }
 
-#define IMCAMOHNKNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6872E0)
-#define IMCAMOHNKNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E687320)
-#define IMCAMOHNKNK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E687330)
+#define IMCAMOHNKNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206BB0F0)
+#define IMCAMOHNKNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206BB130)
+#define IMCAMOHNKNK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x206BB140)
 
-inline static constexpr unsigned int IMCAMOHNKNK___c_TypeDefinitionIndex = 29802;
+inline static constexpr unsigned int IMCAMOHNKNK___c_TypeDefinitionIndex = 30700;
 
 	class IMCAMOHNKNK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52710);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DB70);
 		}
 
 		static ::System::Void _cctor()

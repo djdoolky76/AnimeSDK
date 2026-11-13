@@ -7,18 +7,18 @@ class OHGIOJLKBJD;
 namespace System { class String; }
 namespace System { class Type; }
 
-#define ECIAICDLAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC37EE0)
-#define ECIAICDLAHO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC3BB30)
-#define ECIAICDLAHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EC3BA60)
+#define ECIAICDLAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E521A20)
+#define ECIAICDLAHO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E525670)
+#define ECIAICDLAHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5255A0)
 
-inline static constexpr unsigned int ECIAICDLAHO_TypeDefinitionIndex = 44281;
+inline static constexpr unsigned int ECIAICDLAHO_TypeDefinitionIndex = 45356;
 
 	class ECIAICDLAHO : public ::System::Object
 	{
 	public:
-		::HCHOPEJMBPP* FNDHDEOILCK; // 0x10
-		::System::Type* DNJCEPOHKGN; // 0x18
-		::OHGIOJLKBJD* CGFMKDGPGHP; // 0x20
+		::System::Type* DNJCEPOHKGN; // 0x10
+		::OHGIOJLKBJD* CGFMKDGPGHP; // 0x18
+		::HCHOPEJMBPP* FNDHDEOILCK; // 0x20
 		::System::Guid DKHNNMHCBPJ; // 0x28
 		::System::Void _ctor()
 		{

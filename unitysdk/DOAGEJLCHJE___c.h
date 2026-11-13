@@ -4,18 +4,18 @@
 class DOAGEJLCHJE;
 namespace System { class Object; }
 
-#define DOAGEJLCHJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1CF620)
-#define DOAGEJLCHJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CF660)
-#define DOAGEJLCHJE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1CF670)
+#define DOAGEJLCHJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201ECD40)
+#define DOAGEJLCHJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201ECD80)
+#define DOAGEJLCHJE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201ECD90)
 
-inline static constexpr unsigned int DOAGEJLCHJE___c_TypeDefinitionIndex = 30011;
+inline static constexpr unsigned int DOAGEJLCHJE___c_TypeDefinitionIndex = 30909;
 
 	class DOAGEJLCHJE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x379F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37510);
 		}
 
 		static ::System::Void _cctor()

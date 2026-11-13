@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsForbidChangeOthersActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IBOHCAOHNGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15E365A0)
-#define IBOHCAOHNGN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E365D0)
+#define IBOHCAOHNGN_CTOR_OFFSET UNITYSDK_OFFSET(0x188C0860)
+#define IBOHCAOHNGN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x188C0890)
 
-inline static constexpr unsigned int IBOHCAOHNGN_TypeDefinitionIndex = 55070;
+inline static constexpr unsigned int IBOHCAOHNGN_TypeDefinitionIndex = 56246;
 
 	class IBOHCAOHNGN
 	{

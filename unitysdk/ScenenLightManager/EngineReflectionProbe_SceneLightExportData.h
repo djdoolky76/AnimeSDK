@@ -4,12 +4,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class EngineReflectionProbe_ExportData; }
 
-#define SCENENLIGHTMANAGER_ENGINEREFLECTIONPROBE_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE959880)
-#define SCENENLIGHTMANAGER_ENGINEREFLECTIONPROBE_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xE959870)
+#define SCENENLIGHTMANAGER_ENGINEREFLECTIONPROBE_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC2C520)
+#define SCENENLIGHTMANAGER_ENGINEREFLECTIONPROBE_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DA45640)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineReflectionProbe_SceneLightExportData_TypeDefinitionIndex = 49057;
+	inline static constexpr unsigned int EngineReflectionProbe_SceneLightExportData_TypeDefinitionIndex = 50133;
 
 	class EngineReflectionProbe_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

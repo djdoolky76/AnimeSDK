@@ -3,20 +3,20 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Action; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONESHUTDOWN_CREATE_OFFSET UNITYSDK_OFFSET(0x1F6403A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONESHUTDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F640520)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONESHUTDOWN_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x1F640410)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONESHUTDOWN_CREATE_OFFSET UNITYSDK_OFFSET(0x1F1BF700)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONESHUTDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1BF880)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONESHUTDOWN_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x1F1BF770)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int StandaloneShutdown_TypeDefinitionIndex = 39562;
+	inline static constexpr unsigned int StandaloneShutdown_TypeDefinitionIndex = 40491;
 
 	class StandaloneShutdown : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Action** StaticGet_OnShutDown()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "StandaloneShutdown")->GetStaticField(0x2DAC0);
+			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "StandaloneShutdown")->GetStaticField(0x22680);
 		}
 
 		::System::Void _ctor()

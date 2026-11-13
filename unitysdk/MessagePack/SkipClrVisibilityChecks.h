@@ -15,45 +15,45 @@ namespace System::Reflection { class TypeInfo; }
 namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB6F80)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB5610)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_EMITMAGICATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BBB6F10)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETMAGICATTRIBUTECTOR_OFFSET UNITYSDK_OFFSET(0x1BBB6E90)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETSKIPVISIBILITYCHECKSREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x1BBB5720)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_1_OFFSET UNITYSDK_OFFSET(0x1BBB6D80)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_OFFSET UNITYSDK_OFFSET(0x1BBB6900)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__ADDTYPEIFNONPUBLIC_9_1_OFFSET UNITYSDK_OFFSET(0x1BBB5A80)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__SCANDIRECTTYPE_9_0_OFFSET UNITYSDK_OFFSET(0x1BBB5E60)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF6BED0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6A5A0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_EMITMAGICATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EF6BE60)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETMAGICATTRIBUTECTOR_OFFSET UNITYSDK_OFFSET(0x1EF6BDE0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETSKIPVISIBILITYCHECKSREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x1EF6A670)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_1_OFFSET UNITYSDK_OFFSET(0x1EF6BCD0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_OFFSET UNITYSDK_OFFSET(0x1EF6B850)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__ADDTYPEIFNONPUBLIC_9_1_OFFSET UNITYSDK_OFFSET(0x1EF6A9D0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__SCANDIRECTTYPE_9_0_OFFSET UNITYSDK_OFFSET(0x1EF6ADB0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SkipClrVisibilityChecks_TypeDefinitionIndex = 7236;
+	inline static constexpr unsigned int SkipClrVisibilityChecks_TypeDefinitionIndex = 7247;
 
 	class SkipClrVisibilityChecks : public ::System::Object
 	{
 	public:
-		::System::Reflection::ConstructorInfo* magicAttributeCtor; // 0x10
-		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::String*>* attributedAssemblyNames; // 0x20
-		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x28
-		static ::System::Reflection::PropertyInfo** StaticGet_AttributeUsageAllowMultipleProperty()
-		{
-			return (::System::Reflection::PropertyInfo**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x49C60);
-		}
-
-		static ::System::Reflection::ConstructorInfo** StaticGet_AttributeBaseClassCtor()
-		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x49C68);
-		}
-
+		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::String*>* attributedAssemblyNames; // 0x18
+		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x20
+		::System::Reflection::ConstructorInfo* magicAttributeCtor; // 0x28
 		static ::System::Reflection::ConstructorInfo** StaticGet_AttributeUsageCtor()
 		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x49C70);
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x2DA10);
 		}
 
 		static ::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>** StaticGet_EmptySet()
 		{
-			return (::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x49C78);
+			return (::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x2DA18);
+		}
+
+		static ::System::Reflection::PropertyInfo** StaticGet_AttributeUsageAllowMultipleProperty()
+		{
+			return (::System::Reflection::PropertyInfo**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x2DA20);
+		}
+
+		static ::System::Reflection::ConstructorInfo** StaticGet_AttributeBaseClassCtor()
+		{
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x2DA28);
 		}
 
 		::System::Void _ctor(::System::Reflection::Emit::AssemblyBuilder* a1, ::System::Reflection::Emit::ModuleBuilder* a2)

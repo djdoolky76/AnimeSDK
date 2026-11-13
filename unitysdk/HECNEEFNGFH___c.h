@@ -4,18 +4,18 @@
 class HECNEEFNGFH;
 namespace System { class Object; }
 
-#define HECNEEFNGFH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E52A7C0)
-#define HECNEEFNGFH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E52A800)
-#define HECNEEFNGFH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E52A810)
+#define HECNEEFNGFH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8816B0)
+#define HECNEEFNGFH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8816F0)
+#define HECNEEFNGFH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F881700)
 
-inline static constexpr unsigned int HECNEEFNGFH___c_TypeDefinitionIndex = 33843;
+inline static constexpr unsigned int HECNEEFNGFH___c_TypeDefinitionIndex = 34758;
 
 	class HECNEEFNGFH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CD50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29120);
 		}
 
 		static ::System::Void _cctor()

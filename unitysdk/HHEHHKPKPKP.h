@@ -5,10 +5,10 @@
 class NBFAGOOJIOB;
 namespace RPG::Client { class RogueTournTitanBlessInfo; }
 
-#define HHEHHKPKPKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15CBD060)
-#define HHEHHKPKPKP_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x15CBD070)
+#define HHEHHKPKPKP_CTOR_OFFSET UNITYSDK_OFFSET(0x19015870)
+#define HHEHHKPKPKP_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x19015880)
 
-inline static constexpr unsigned int HHEHHKPKPKP_TypeDefinitionIndex = 67122;
+inline static constexpr unsigned int HHEHHKPKPKP_TypeDefinitionIndex = 69066;
 
 	class HHEHHKPKPKP : public ::DBJKFNLCOJI
 	{

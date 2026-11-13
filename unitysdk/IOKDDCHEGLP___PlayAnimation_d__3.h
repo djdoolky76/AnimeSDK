@@ -5,10 +5,10 @@
 class IOKDDCHEGLP;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define IOKDDCHEGLP___PLAYANIMATION_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2E847A0)
-#define IOKDDCHEGLP___PLAYANIMATION_D__3_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define IOKDDCHEGLP___PLAYANIMATION_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3E35060)
+#define IOKDDCHEGLP___PLAYANIMATION_D__3_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xB480)
 
-inline static constexpr unsigned int IOKDDCHEGLP___PlayAnimation_d__3_TypeDefinitionIndex = 49760;
+inline static constexpr unsigned int IOKDDCHEGLP___PlayAnimation_d__3_TypeDefinitionIndex = 50808;
 
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) IOKDDCHEGLP___PlayAnimation_d__3

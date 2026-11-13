@@ -4,18 +4,18 @@
 class MDBOGJINCFP;
 namespace System { class String; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC1D30)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS12_0___CREATEPLAYAUDIOCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCFC1E50)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F17F0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS12_0___CREATEPLAYAUDIOCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1C4F1910)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass12_0_TypeDefinitionIndex = 80684;
+	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass12_0_TypeDefinitionIndex = 83464;
 
 	class FateRinDrawCardFlowView___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::String* eventName; // 0x10
-		::MDBOGJINCFP* audioService; // 0x18
+		::MDBOGJINCFP* audioService; // 0x10
+		::System::String* eventName; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS12_0_CTOR_OFFSET))(this);

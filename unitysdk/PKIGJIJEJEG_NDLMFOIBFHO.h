@@ -4,15 +4,15 @@
 class BILNKKBKIAN;
 class KAPEMBCNNIG;
 
-#define PKIGJIJEJEG_NDLMFOIBFHO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B7F70)
+#define PKIGJIJEJEG_NDLMFOIBFHO_CTOR_OFFSET UNITYSDK_OFFSET(0x147C3830)
 
-inline static constexpr unsigned int PKIGJIJEJEG_NDLMFOIBFHO_TypeDefinitionIndex = 71574;
+inline static constexpr unsigned int PKIGJIJEJEG_NDLMFOIBFHO_TypeDefinitionIndex = 73561;
 
 	class PKIGJIJEJEG_NDLMFOIBFHO : public ::System::Object
 	{
 	public:
-		::BILNKKBKIAN* INMBPMCLJDO; // 0x10
-		::KAPEMBCNNIG* EABKOHGCHFP; // 0x18
+		::KAPEMBCNNIG* EABKOHGCHFP; // 0x10
+		::BILNKKBKIAN* INMBPMCLJDO; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PKIGJIJEJEG_NDLMFOIBFHO_CTOR_OFFSET))(this);

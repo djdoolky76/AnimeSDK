@@ -5,18 +5,18 @@ class GDCJNKCNJDL;
 class PBHBHNNFDCM;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveChatService; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC467BA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__DISPLAYCLASS17_0__ADDSPECIALCHAT_B__0_OFFSET UNITYSDK_OFFSET(0xC4680B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D14ECD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__DISPLAYCLASS17_0__ADDSPECIALCHAT_B__0_OFFSET UNITYSDK_OFFSET(0x1D14F1E0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveChatService___c__DisplayClass17_0_TypeDefinitionIndex = 75282;
+	inline static constexpr unsigned int IdleLiveChatService___c__DisplayClass17_0_TypeDefinitionIndex = 77609;
 
 	class IdleLiveChatService___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::GDCJNKCNJDL* specialChatData; // 0x10
-		::RPG::Client::ActivityIdleLive::IdleLiveChatService* __4__this; // 0x18
+		::RPG::Client::ActivityIdleLive::IdleLiveChatService* __4__this; // 0x10
+		::GDCJNKCNJDL* specialChatData; // 0x18
 		::PBHBHNNFDCM* trigger; // 0x20
 		::System::Void _ctor()
 		{

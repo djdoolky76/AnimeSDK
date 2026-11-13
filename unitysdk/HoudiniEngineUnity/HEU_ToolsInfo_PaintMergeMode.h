@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ToolsInfo_PaintMergeMode_TypeDefinitionIndex = 40767;
+	inline static constexpr unsigned int HEU_ToolsInfo_PaintMergeMode_TypeDefinitionIndex = 41742;
 
 	enum class HEU_ToolsInfo_PaintMergeMode : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int TakeWhileIntAwaitWithCancellation_1__TakeWhileIntAwaitWithCancellation_TypeDefinitionIndex = 45670;
+	inline static constexpr unsigned int TakeWhileIntAwaitWithCancellation_1__TakeWhileIntAwaitWithCancellation_TypeDefinitionIndex = 46699;
 
 	template <typename T>
 	class TakeWhileIntAwaitWithCancellation_1__TakeWhileIntAwaitWithCancellation

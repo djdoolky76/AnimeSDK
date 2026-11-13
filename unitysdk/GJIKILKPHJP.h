@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CDIAEAMFDIB.h"
 
-#define GJIKILKPHJP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A5E600)
+#define GJIKILKPHJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8A5310)
 
-inline static constexpr unsigned int GJIKILKPHJP_TypeDefinitionIndex = 49509;
+inline static constexpr unsigned int GJIKILKPHJP_TypeDefinitionIndex = 50585;
 
 	class GJIKILKPHJP : public ::CDIAEAMFDIB
 	{

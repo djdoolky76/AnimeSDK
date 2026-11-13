@@ -3,9 +3,9 @@
 namespace RPG::GameCore { class MapRotationEntityEffect; }
 namespace System { class String; }
 
-#define PEBBBNOOCFO_DNCHPFDFAHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x10400)
+#define PEBBBNOOCFO_DNCHPFDFAHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x6516D0)
 
-inline static constexpr unsigned int PEBBBNOOCFO_DNCHPFDFAHJ_TypeDefinitionIndex = 60602;
+inline static constexpr unsigned int PEBBBNOOCFO_DNCHPFDFAHJ_TypeDefinitionIndex = 61979;
 
 	struct alignas(8) PEBBBNOOCFO_DNCHPFDFAHJ
 	{

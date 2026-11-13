@@ -8,28 +8,28 @@ namespace RPG::GameCore { class SwordTrainingActionRow; }
 namespace RPG::GameCore { class SwordTrainingStatusConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB19CF0)
-#define RPG_GAMECORE_SWORDTRAININGACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB19880)
+#define RPG_GAMECORE_SWORDTRAININGACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6897C0)
+#define RPG_GAMECORE_SWORDTRAININGACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E689350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingActionRow_TypeDefinitionIndex = 12433;
+	inline static constexpr unsigned int SwordTrainingActionRow_TypeDefinitionIndex = 12500;
 
 	class SwordTrainingActionRow : public ::System::Object
 	{
 	public:
-		::System::String* ActionPlanImage; // 0x10
-		::Il2CppArray<::System::String*>* ActionPerformPrefab; // 0x18
-		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x20
-		::System::String* ActionImage; // 0x28
-		::System::String* ActionIcon; // 0x30
-		::Il2CppArray<::RPG::GameCore::SwordTrainingStatusConfig*>* DisplayEffectHintList; // 0x38
+		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x10
+		::System::String* ActionImage; // 0x18
+		::Il2CppArray<::RPG::GameCore::SwordTrainingStatusConfig*>* DisplayEffectHintList; // 0x20
+		::Il2CppArray<::System::String*>* ActionPerformPrefab; // 0x28
+		::System::String* ActionPlanImage; // 0x30
+		::System::String* ActionIcon; // 0x38
 		::System::UInt32 ActionID; // 0x40
+		::System::UInt32 ActionLevel; // 0x44
+		::RPG::GameCore::SwordTrainingActionType ActionType; // 0x48
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID ActionSubName; // 0x48
-		::RPG::Client::TextID ActionName; // 0x58
-		::System::UInt32 ActionLevel; // 0x68
-		::RPG::GameCore::SwordTrainingActionType ActionType; // 0x6C
+		::RPG::Client::TextID ActionSubName; // 0x50
+		::RPG::Client::TextID ActionName; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGACTIONROW_CTOR_OFFSET))(this);

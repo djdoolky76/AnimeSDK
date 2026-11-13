@@ -1,7 +1,7 @@
 #pragma once
-// AnimeSDK 4.6 name-resolution core (public SDK style).
+// AnimeSDK 4.7 name-resolution core (public SDK style).
 // Class lookups resolve through the il2cpp dispatch table anchored at the
-// byte-verified class-name getter (GameAssembly + 0x94D0). Only il2cpp runtime
+// byte-verified class-name getter (GameAssembly + 0x6C9390). Only il2cpp runtime
 // APIs are used; no external tooling is required to use generated headers.
 #include <stdint.h>
 #include <windows.h>
@@ -15,8 +15,8 @@
 #define UNITYSDK_OFFSET(offset) offset
 #endif
 
-// 4.6 static field pool pointer (GameAssembly global).
-#define STATICFIELDSPOOL_OFFSET UNITYSDK_OFFSET(0x93434B8)
+// 4.7 static field pool pointer (GameAssembly global).
+#define STATICFIELDSPOOL_OFFSET UNITYSDK_OFFSET(0x9FA9868)
 
 inline HMODULE hIl2Cpp = NULL;
 
@@ -55,7 +55,7 @@ namespace UnitySDK
 
 		hIl2Cpp = gameAssembly;
 		const ULONGLONG gaBase = reinterpret_cast<ULONGLONG>(gameAssembly);
-		const ULONGLONG nameGetter = gaBase + 0x94D0;
+		const ULONGLONG nameGetter = gaBase + 0x6C9390;
 
 		const BYTE* code = reinterpret_cast<const BYTE*>(nameGetter);
 		if (code[0] != 0x48 || code[1] != 0x8B || code[2] != 0x41 || code[3] != 0x20 || code[4] != 0xC3)

@@ -3,7 +3,7 @@
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int ResponsiveResize_Element_SizeDefinition_TypeDefinitionIndex = 35389;
+	inline static constexpr unsigned int ResponsiveResize_Element_SizeDefinition_TypeDefinitionIndex = 36317;
 
 	struct alignas(4) ResponsiveResize_Element_SizeDefinition
 	{

@@ -10,23 +10,23 @@ namespace RPG::GameCore { class ProjectileData; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define KKJABONKCAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D06F570)
-#define KKJABONKCAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D06F590)
-#define KKJABONKCAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D06F530)
+#define KKJABONKCAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F42A4E0)
+#define KKJABONKCAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F42A500)
+#define KKJABONKCAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F42A4A0)
 
-inline static constexpr unsigned int KKJABONKCAI_TypeDefinitionIndex = 24136;
+inline static constexpr unsigned int KKJABONKCAI_TypeDefinitionIndex = 24595;
 
 	class KKJABONKCAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::PredicateConfig* FHAAHMEJMCI; // 0x18
-		::RPG::GameCore::ProjectileData* PJCICCBNBEI; // 0x20
+		::RPG::GameCore::ProjectileData* PJCICCBNBEI; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BKNDLCGHANK; // 0x20
 		::RPG::GameCore::NewProjectileConfig* FJFCBBOCICK; // 0x28
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BKNDLCGHANK; // 0x38
-		::System::Boolean JGJPOFCDKFM; // 0x40
-		::System::Boolean FKJPBMMCHFL; // 0x41
-		::RPG::GameCore::AliveStateMask MJKLBHBEDJH; // 0x42
+		::RPG::GameCore::PredicateConfig* FHAAHMEJMCI; // 0x38
+		::RPG::GameCore::AliveStateMask MJKLBHBEDJH; // 0x40
+		::System::Boolean FKJPBMMCHFL; // 0x42
+		::System::Boolean JGJPOFCDKFM; // 0x43
 		::System::Int32 LNNLLMKBAGL; // 0x44
 		::System::Int32 MGKPADCJGIM; // 0x48
 		::System::Void _ctor()

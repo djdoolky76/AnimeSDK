@@ -7,16 +7,16 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ELJDJAOHEAD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1551A350)
-#define ELJDJAOHEAD_CTOR_OFFSET UNITYSDK_OFFSET(0x15519890)
-#define ELJDJAOHEAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1551A150)
-#define ELJDJAOHEAD_GDOOPBKPNLN_OFFSET UNITYSDK_OFFSET(0x1551A1C0)
-#define ELJDJAOHEAD_GPKIFEONPLF_OFFSET UNITYSDK_OFFSET(0x15519E60)
-#define ELJDJAOHEAD_NAJOPNMPHPF_OFFSET UNITYSDK_OFFSET(0x15519B00)
-#define ELJDJAOHEAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155198C0)
-#define ELJDJAOHEAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15519E10)
+#define ELJDJAOHEAD_CCTOR_OFFSET UNITYSDK_OFFSET(0x199AFC20)
+#define ELJDJAOHEAD_CTOR_OFFSET UNITYSDK_OFFSET(0x199AF160)
+#define ELJDJAOHEAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x199AFA20)
+#define ELJDJAOHEAD_GDOOPBKPNLN_OFFSET UNITYSDK_OFFSET(0x199AFA90)
+#define ELJDJAOHEAD_GPKIFEONPLF_OFFSET UNITYSDK_OFFSET(0x199AF730)
+#define ELJDJAOHEAD_NAJOPNMPHPF_OFFSET UNITYSDK_OFFSET(0x199AF3D0)
+#define ELJDJAOHEAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199AF190)
+#define ELJDJAOHEAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x199AF6E0)
 
-inline static constexpr unsigned int ELJDJAOHEAD_TypeDefinitionIndex = 58412;
+inline static constexpr unsigned int ELJDJAOHEAD_TypeDefinitionIndex = 59668;
 
 	class ELJDJAOHEAD
 	{
@@ -25,7 +25,7 @@ inline static constexpr unsigned int ELJDJAOHEAD_TypeDefinitionIndex = 58412;
 		::System::Boolean AMBLEJEBOIA; // 0x30
 		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityCoolDown*, ::System::Object*>** StaticGet_FEDCFHONDGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityCoolDown*, ::System::Object*>**)UnitySDK::FromName("", "ELJDJAOHEAD")->GetStaticField(0x398F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityCoolDown*, ::System::Object*>**)UnitySDK::FromName("", "ELJDJAOHEAD")->GetStaticField(0x21400);
 		}
 
 		// static const ::System::Object JICIBKFAMEG; // 0x0

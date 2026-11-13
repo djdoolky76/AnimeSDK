@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchCurrentPlayerMazeSkillLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BGIEEPJLBOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB187F90)
-#define BGIEEPJLBOG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB188000)
+#define BGIEEPJLBOG_CTOR_OFFSET UNITYSDK_OFFSET(0x151C6A50)
+#define BGIEEPJLBOG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x151C6AC0)
 
-inline static constexpr unsigned int BGIEEPJLBOG_TypeDefinitionIndex = 59097;
+inline static constexpr unsigned int BGIEEPJLBOG_TypeDefinitionIndex = 60372;
 
 	class BGIEEPJLBOG
 	{

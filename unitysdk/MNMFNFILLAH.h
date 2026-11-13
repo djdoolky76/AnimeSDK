@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MNMFNFILLAH_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1AAF50)
-#define MNMFNFILLAH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1AB520)
-#define MNMFNFILLAH_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1AB0C0)
-#define MNMFNFILLAH_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1AA9C0)
-#define MNMFNFILLAH_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1AAC50)
-#define MNMFNFILLAH_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1AB160)
-#define MNMFNFILLAH_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1AB1B0)
-#define MNMFNFILLAH_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1AAF90)
-#define MNMFNFILLAH_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1AABF0)
-#define MNMFNFILLAH_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1AADC0)
-#define MNMFNFILLAH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1AB020)
-#define MNMFNFILLAH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1AA940)
+#define MNMFNFILLAH_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E87D890)
+#define MNMFNFILLAH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E87DE60)
+#define MNMFNFILLAH_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E87DA00)
+#define MNMFNFILLAH_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E87D300)
+#define MNMFNFILLAH_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E87D590)
+#define MNMFNFILLAH_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E87DAA0)
+#define MNMFNFILLAH_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E87DAF0)
+#define MNMFNFILLAH_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E87D8D0)
+#define MNMFNFILLAH_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E87D530)
+#define MNMFNFILLAH_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E87D700)
+#define MNMFNFILLAH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E87D960)
+#define MNMFNFILLAH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E87D280)
 
-inline static constexpr unsigned int MNMFNFILLAH_TypeDefinitionIndex = 11154;
+inline static constexpr unsigned int MNMFNFILLAH_TypeDefinitionIndex = 11170;
 
 	class MNMFNFILLAH : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelMasterChallengeRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0x3C7D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelMasterChallengeRow*>**)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0x4C140);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0x3C7D8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0x4C148);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelMasterChallengeRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelMasterChallengeRow*>**)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0x3C7E0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0x4C150);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0xC130);
+			return (::System::Boolean*)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0xE7F0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0xC131);
+			return (::System::Byte*)UnitySDK::FromName("", "MNMFNFILLAH")->GetStaticField(0xE7F1);
 		}
 
 		static ::System::Void _cctor()

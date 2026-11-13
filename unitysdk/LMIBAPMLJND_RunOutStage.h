@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LMIBAPMLJND_RunOutStage_TypeDefinitionIndex = 78441;
+inline static constexpr unsigned int LMIBAPMLJND_RunOutStage_TypeDefinitionIndex = 81176;
 
 	enum class LMIBAPMLJND_RunOutStage : ::System::Int32
 	{

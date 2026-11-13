@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRewardRogueEndlessRow; }
 
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D350370)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34FD30)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA98210)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA97B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRewardRogueEndlessRow_TypeDefinitionIndex = 12339;
+	inline static constexpr unsigned int ActivityRewardRogueEndlessRow_TypeDefinitionIndex = 12406;
 
 	class ActivityRewardRogueEndlessRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RewardID; // 0x10
-		::System::UInt32 RewardLevel; // 0x14
-		::RPG::Client::TextID RewardLevelName; // 0x18
-		::System::UInt32 RewardPoint; // 0x28
+		::RPG::Client::TextID RewardLevelName; // 0x10
+		::System::UInt32 RewardPoint; // 0x20
+		::System::UInt32 RewardLevel; // 0x24
+		::System::UInt32 RewardID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW_CTOR_OFFSET))(this);

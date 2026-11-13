@@ -7,11 +7,11 @@ namespace MiHoYo::SDK::PC::OS { class EpicPayInfo; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_EPICPAYMENTNETWORKREQUEST_DETECTPAY_OFFSET UNITYSDK_OFFSET(0x1BEE4D30)
+#define MIHOYO_SDK_PC_OS_EPICPAYMENTNETWORKREQUEST_DETECTPAY_OFFSET UNITYSDK_OFFSET(0x1B0DD7C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int EpicPaymentNetworkRequest_TypeDefinitionIndex = 8535;
+	inline static constexpr unsigned int EpicPaymentNetworkRequest_TypeDefinitionIndex = 8544;
 
 	class EpicPaymentNetworkRequest : public ::System::Object
 	{

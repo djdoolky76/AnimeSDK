@@ -4,18 +4,18 @@
 class DLEIPLCFMHK;
 namespace System { class Object; }
 
-#define DLEIPLCFMHK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1B8C40)
-#define DLEIPLCFMHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B8C80)
-#define DLEIPLCFMHK___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1E1B8C90)
+#define DLEIPLCFMHK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201D58C0)
+#define DLEIPLCFMHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201D5900)
+#define DLEIPLCFMHK___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x201D5910)
 
-inline static constexpr unsigned int DLEIPLCFMHK___c_TypeDefinitionIndex = 25123;
+inline static constexpr unsigned int DLEIPLCFMHK___c_TypeDefinitionIndex = 25601;
 
 	class DLEIPLCFMHK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35570);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32A70);
 		}
 
 		static ::System::Void _cctor()

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYOPERATEITEMCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA900D0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYOPERATEITEMCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA90110)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYOPERATEITEMCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC60FC0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYOPERATEITEMCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC61000)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayOperateItemControl___c_TypeDefinitionIndex = 81315;
+	inline static constexpr unsigned int ChenLingFesGameplayOperateItemControl___c_TypeDefinitionIndex = 84095;
 
 	class ChenLingFesGameplayOperateItemControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingFes", "<>c")->GetStaticField(0x6F620);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingFes", "<>c")->GetStaticField(0x72900);
 		}
 
 		static ::System::Void _cctor()

@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LAALMAHICIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F0FC0)
-#define LAALMAHICIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F1000)
-#define LAALMAHICIC___C___TRIGGERNEWWEATHEREFFECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C6F1010)
+#define LAALMAHICIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC00870)
+#define LAALMAHICIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC008B0)
+#define LAALMAHICIC___C___TRIGGERNEWWEATHEREFFECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1AC008C0)
 
-inline static constexpr unsigned int LAALMAHICIC___c_TypeDefinitionIndex = 36531;
+inline static constexpr unsigned int LAALMAHICIC___c_TypeDefinitionIndex = 37459;
 
 	class LAALMAHICIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13690);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB010);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13698);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB018);
 		}
 
 		static ::System::Void _cctor()

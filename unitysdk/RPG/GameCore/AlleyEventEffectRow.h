@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyEventEffectRow; }
 
-#define RPG_GAMECORE_ALLEYEVENTEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B4A60)
-#define RPG_GAMECORE_ALLEYEVENTEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B4390)
+#define RPG_GAMECORE_ALLEYEVENTEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE99E20)
+#define RPG_GAMECORE_ALLEYEVENTEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DE99750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyEventEffectRow_TypeDefinitionIndex = 12612;
+	inline static constexpr unsigned int AlleyEventEffectRow_TypeDefinitionIndex = 12679;
 
 	class AlleyEventEffectRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 EventEffectID; // 0x10
-		::System::Single Param1; // 0x14
+		::System::Single Param1; // 0x10
+		::RPG::GameCore::EventEffectEnum EventEffectType; // 0x14
 		::System::Single Param3; // 0x18
 		::System::Single Param2; // 0x1C
-		::RPG::GameCore::EventEffectEnum EventEffectType; // 0x20
+		::System::UInt32 EventEffectID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYEVENTEFFECTROW_CTOR_OFFSET))(this);

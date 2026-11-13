@@ -13,43 +13,43 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class IRampColor; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL0_OFFSET UNITYSDK_OFFSET(0x1F4FF2F0)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL1_OFFSET UNITYSDK_OFFSET(0x1F4FFB70)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL2_OFFSET UNITYSDK_OFFSET(0x1F501240)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORSIMPLE_OFFSET UNITYSDK_OFFSET(0x1F5030C0)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLORNOSCALE_OFFSET UNITYSDK_OFFSET(0x1F503A10)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLOR_OFFSET UNITYSDK_OFFSET(0x1F4DDE60)
-#define UNITYENGINE_UI_RAMPCOLOREXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F504D20)
-#define UNITYENGINE_UI_RAMPCOLOREXT_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1F503CC0)
-#define UNITYENGINE_UI_RAMPCOLOREXT_GETVERTEX_OFFSET UNITYSDK_OFFSET(0x1F5049E0)
-#define UNITYENGINE_UI_RAMPCOLOREXT__APPLYCOLORIMPL2_G__SETCOLOR_6_0_OFFSET UNITYSDK_OFFSET(0x1F504C40)
-#define UNITYENGINE_UI_RAMPCOLOREXT__GETCOLOR_G__ROT_3_0_OFFSET UNITYSDK_OFFSET(0x1F504940)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL0_OFFSET UNITYSDK_OFFSET(0x185756D0)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL1_OFFSET UNITYSDK_OFFSET(0x18575F50)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL2_OFFSET UNITYSDK_OFFSET(0x18577620)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORSIMPLE_OFFSET UNITYSDK_OFFSET(0x185794A0)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLORNOSCALE_OFFSET UNITYSDK_OFFSET(0x18579DF0)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLOR_OFFSET UNITYSDK_OFFSET(0x18554220)
+#define UNITYENGINE_UI_RAMPCOLOREXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1857B100)
+#define UNITYENGINE_UI_RAMPCOLOREXT_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1857A0A0)
+#define UNITYENGINE_UI_RAMPCOLOREXT_GETVERTEX_OFFSET UNITYSDK_OFFSET(0x1857ADC0)
+#define UNITYENGINE_UI_RAMPCOLOREXT__APPLYCOLORIMPL2_G__SETCOLOR_6_0_OFFSET UNITYSDK_OFFSET(0x1857B020)
+#define UNITYENGINE_UI_RAMPCOLOREXT__GETCOLOR_G__ROT_3_0_OFFSET UNITYSDK_OFFSET(0x1857AD20)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RampColorExt_TypeDefinitionIndex = 6804;
+	inline static constexpr unsigned int RampColorExt_TypeDefinitionIndex = 6815;
 
 	class RampColorExt : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_s_Verts()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x3FC60);
-		}
-
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices2()
-		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x3FC68);
+			return (::Il2CppArray<::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x2FDC0);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices0()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x3FC70);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x2FDC8);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices1()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x3FC78);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x2FDD0);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices2()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x2FDD8);
 		}
 
 		static ::System::Void _cctor()

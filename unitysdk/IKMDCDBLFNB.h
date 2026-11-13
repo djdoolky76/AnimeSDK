@@ -5,9 +5,9 @@ class KGKDMDDAMLH;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IKMDCDBLFNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1648D090)
+#define IKMDCDBLFNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B57BEB0)
 
-inline static constexpr unsigned int IKMDCDBLFNB_TypeDefinitionIndex = 68459;
+inline static constexpr unsigned int IKMDCDBLFNB_TypeDefinitionIndex = 70406;
 
 	class IKMDCDBLFNB : public ::System::Object
 	{

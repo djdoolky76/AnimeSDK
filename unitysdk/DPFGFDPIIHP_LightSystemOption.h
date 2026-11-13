@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DPFGFDPIIHP_LightSystemOption_TypeDefinitionIndex = 49097;
+inline static constexpr unsigned int DPFGFDPIIHP_LightSystemOption_TypeDefinitionIndex = 50173;
 
 	enum class DPFGFDPIIHP_LightSystemOption : ::System::Int32
 	{

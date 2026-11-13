@@ -6,21 +6,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class UInt16ArrayFormatter; }
 
-#define MESSAGEPACK_FORMATTERS_UINT16ARRAYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB5FD10)
-#define MESSAGEPACK_FORMATTERS_UINT16ARRAYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB5F950)
-#define MESSAGEPACK_FORMATTERS_UINT16ARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB5FB20)
-#define MESSAGEPACK_FORMATTERS_UINT16ARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB5F960)
+#define MESSAGEPACK_FORMATTERS_UINT16ARRAYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1749EC10)
+#define MESSAGEPACK_FORMATTERS_UINT16ARRAYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1749E850)
+#define MESSAGEPACK_FORMATTERS_UINT16ARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1749EA20)
+#define MESSAGEPACK_FORMATTERS_UINT16ARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1749E860)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int UInt16ArrayFormatter_TypeDefinitionIndex = 7455;
+	inline static constexpr unsigned int UInt16ArrayFormatter_TypeDefinitionIndex = 7466;
 
 	class UInt16ArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::UInt16ArrayFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::UInt16ArrayFormatter**)UnitySDK::FromName("MessagePack.Formatters", "UInt16ArrayFormatter")->GetStaticField(0x490E0);
+			return (::MessagePack::Formatters::UInt16ArrayFormatter**)UnitySDK::FromName("MessagePack.Formatters", "UInt16ArrayFormatter")->GetStaticField(0x2D330);
 		}
 
 		::System::Void _ctor()

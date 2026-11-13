@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirshipSubwayCarriage_AnchorsAnimGroupMap_TypeDefinitionIndex = 82201;
+	inline static constexpr unsigned int AirshipSubwayCarriage_AnchorsAnimGroupMap_TypeDefinitionIndex = 85074;
 
 	struct alignas(8) AirshipSubwayCarriage_AnchorsAnimGroupMap
 	{

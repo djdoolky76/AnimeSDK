@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int IPropertyPreview_TypeDefinitionIndex = 38876;
+	inline static constexpr unsigned int IPropertyPreview_TypeDefinitionIndex = 39805;
 
 	class IPropertyPreview
 	{

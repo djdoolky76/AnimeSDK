@@ -6,18 +6,18 @@ class PBGNKMMDBGD;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOFNMPIEAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F7F80)
-#define FOFNMPIEAGK_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C5F8040)
+#define FOFNMPIEAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA35140)
+#define FOFNMPIEAGK_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1AA35200)
 
-inline static constexpr unsigned int FOFNMPIEAGK_TypeDefinitionIndex = 37428;
+inline static constexpr unsigned int FOFNMPIEAGK_TypeDefinitionIndex = 38356;
 
 	class FOFNMPIEAGK : public ::LMIOHCMPBJB
 	{
 	public:
-		::IFBFJDCECML* KKFCJOJLGCO; // 0x20
-		::System::Collections::Generic::List_1<::IFBFJDCECML*>* CHJLIMFAGPJ; // 0x28
-		::System::UInt32 DCBJLCHENHJ; // 0x30
-		::System::UInt32 HDHPNOOMAGE; // 0x34
+		::System::Collections::Generic::List_1<::IFBFJDCECML*>* CHJLIMFAGPJ; // 0x20
+		::IFBFJDCECML* KKFCJOJLGCO; // 0x28
+		::System::UInt32 HDHPNOOMAGE; // 0x30
+		::System::UInt32 DCBJLCHENHJ; // 0x34
 		::System::Void _ctor(::IFBFJDCECML* a1, ::PBGNKMMDBGD* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::IFBFJDCECML*, ::PBGNKMMDBGD*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + FOFNMPIEAGK_CTOR_OFFSET))(this, a1, a2, a3, a4);

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchParamEntityList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OHNBCLNAGNM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE6D290)
-#define OHNBCLNAGNM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE6D2E0)
+#define OHNBCLNAGNM_CTOR_OFFSET UNITYSDK_OFFSET(0x18E1C2A0)
+#define OHNBCLNAGNM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18E1C2F0)
 
-inline static constexpr unsigned int OHNBCLNAGNM_TypeDefinitionIndex = 59220;
+inline static constexpr unsigned int OHNBCLNAGNM_TypeDefinitionIndex = 60497;
 
 	class OHNBCLNAGNM
 	{

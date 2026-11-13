@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4213E0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__GETFILTERSELECTABLEWORKLIST_B__0_OFFSET UNITYSDK_OFFSET(0xC421730)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCBC160)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__GETFILTERSELECTABLEWORKLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1CCBC4B0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenRoutineManager___c__DisplayClass11_0_TypeDefinitionIndex = 75607;
+	inline static constexpr unsigned int ActivityHipplenRoutineManager___c__DisplayClass11_0_TypeDefinitionIndex = 77934;
 
 	class ActivityHipplenRoutineManager___c__DisplayClass11_0 : public ::System::Object
 	{

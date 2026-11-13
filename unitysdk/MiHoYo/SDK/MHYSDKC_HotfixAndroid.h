@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_HotfixAndroid_TypeDefinitionIndex = 46216;
+	inline static constexpr unsigned int MHYSDKC_HotfixAndroid_TypeDefinitionIndex = 47245;
 
 	class MHYSDKC_HotfixAndroid : public ::System::Object
 	{

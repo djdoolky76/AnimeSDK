@@ -11,26 +11,26 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class PolygonPoint; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationContext; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDHOLE_OFFSET UNITYSDK_OFFSET(0x1F1636D0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1F163860)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1F1637C0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F163640)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_CTOR_OFFSET UNITYSDK_OFFSET(0x1F162F20)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x1F1637B0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_GET_TRIANGULATIONMODE_OFFSET UNITYSDK_OFFSET(0x1F1636C0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_PREPARE_OFFSET UNITYSDK_OFFSET(0x1F1638E0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDHOLE_OFFSET UNITYSDK_OFFSET(0x208A2F10)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDTRIANGLES_OFFSET UNITYSDK_OFFSET(0x208A30A0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x208A3000)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_CTOR_1_OFFSET UNITYSDK_OFFSET(0x208A2E80)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_CTOR_OFFSET UNITYSDK_OFFSET(0x208A2760)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x208A2FF0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_GET_TRIANGULATIONMODE_OFFSET UNITYSDK_OFFSET(0x208A2F00)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_PREPARE_OFFSET UNITYSDK_OFFSET(0x208A3120)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int Polygon_TypeDefinitionIndex = 38735;
+	inline static constexpr unsigned int Polygon_TypeDefinitionIndex = 39664;
 
 	class Polygon : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _holes; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _steinerPoints; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* _triangles; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _points; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _points; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _holes; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _steinerPoints; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* _triangles; // 0x28
 		::System::Void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_CTOR_OFFSET))(this, a1);

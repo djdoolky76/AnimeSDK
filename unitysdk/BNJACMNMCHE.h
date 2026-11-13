@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasInsertAbilityExecutingDuringGameModePause; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BNJACMNMCHE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDD7A50)
-#define BNJACMNMCHE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBDD7A80)
+#define BNJACMNMCHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A76E7F0)
+#define BNJACMNMCHE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A76E820)
 
-inline static constexpr unsigned int BNJACMNMCHE_TypeDefinitionIndex = 54613;
+inline static constexpr unsigned int BNJACMNMCHE_TypeDefinitionIndex = 55779;
 
 	class BNJACMNMCHE
 	{

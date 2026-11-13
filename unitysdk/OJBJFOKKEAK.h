@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeMonsterHeadIcon; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OJBJFOKKEAK_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA2B80)
-#define OJBJFOKKEAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA2BB0)
+#define OJBJFOKKEAK_CTOR_OFFSET UNITYSDK_OFFSET(0x194A6330)
+#define OJBJFOKKEAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x194A6360)
 
-inline static constexpr unsigned int OJBJFOKKEAK_TypeDefinitionIndex = 54925;
+inline static constexpr unsigned int OJBJFOKKEAK_TypeDefinitionIndex = 56097;
 
 	class OJBJFOKKEAK
 	{

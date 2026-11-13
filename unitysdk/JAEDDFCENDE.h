@@ -8,19 +8,19 @@ class OMNJCDDMLHI;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JAEDDFCENDE_CTOR_OFFSET UNITYSDK_OFFSET(0x16533290)
-#define JAEDDFCENDE_ELOKBDDIPJP_OFFSET UNITYSDK_OFFSET(0x16533620)
-#define JAEDDFCENDE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x165335E0)
-#define JAEDDFCENDE_KGDLPJGFLFM_OFFSET UNITYSDK_OFFSET(0x16533670)
+#define JAEDDFCENDE_CTOR_OFFSET UNITYSDK_OFFSET(0x19321C40)
+#define JAEDDFCENDE_ELOKBDDIPJP_OFFSET UNITYSDK_OFFSET(0x19321FD0)
+#define JAEDDFCENDE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x19321F90)
+#define JAEDDFCENDE_KGDLPJGFLFM_OFFSET UNITYSDK_OFFSET(0x19322020)
 
-inline static constexpr unsigned int JAEDDFCENDE_TypeDefinitionIndex = 77950;
+inline static constexpr unsigned int JAEDDFCENDE_TypeDefinitionIndex = 80685;
 
 	class JAEDDFCENDE : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>* ENOJCDIEPHA; // 0x10
-		::LMFOOOLDECA* PDENFEFCAGN; // 0x18
-		::OMNJCDDMLHI* EEFMDEHLLFI; // 0x20
+		::OMNJCDDMLHI* EEFMDEHLLFI; // 0x18
+		::LMFOOOLDECA* PDENFEFCAGN; // 0x20
 		::System::Void _ctor(::OMNJCDDMLHI* a1, ::LMFOOOLDECA* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::OMNJCDDMLHI*, ::LMFOOOLDECA*))((::PBYTE)hIl2Cpp + JAEDDFCENDE_CTOR_OFFSET))(this, a1, a2);

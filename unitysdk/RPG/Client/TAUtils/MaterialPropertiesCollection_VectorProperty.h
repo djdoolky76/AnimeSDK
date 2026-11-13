@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xE1832B0)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE186150)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A38F0)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_VECTORPROPERTY_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x1C5A6790)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_VectorProperty_TypeDefinitionIndex = 73618;
+	inline static constexpr unsigned int MaterialPropertiesCollection_VectorProperty_TypeDefinitionIndex = 75741;
 
 	class MaterialPropertiesCollection_VectorProperty
 	{

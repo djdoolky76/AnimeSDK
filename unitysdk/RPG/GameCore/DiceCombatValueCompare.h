@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatValueCompare_TypeDefinitionIndex = 16111;
+	inline static constexpr unsigned int DiceCombatValueCompare_TypeDefinitionIndex = 16269;
 
 	enum class DiceCombatValueCompare : ::System::Int32
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StagePVSOfflineBakeSamplerData; }
 namespace RPG::GameCore { class StagePVSOfflineVolumeInfo; }
 
-#define RPG_GAMECORE_STAGEPVSOFFLINEBAKESAMPLERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE44A0)
-#define RPG_GAMECORE_STAGEPVSOFFLINEBAKESAMPLERDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE4330)
+#define RPG_GAMECORE_STAGEPVSOFFLINEBAKESAMPLERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B7A00)
+#define RPG_GAMECORE_STAGEPVSOFFLINEBAKESAMPLERDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B7890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePVSOfflineBakeSamplerData_TypeDefinitionIndex = 19181;
+	inline static constexpr unsigned int StagePVSOfflineBakeSamplerData_TypeDefinitionIndex = 19371;
 
 	class StagePVSOfflineBakeSamplerData : public ::RPG::GameCore::JsonConfig
 	{

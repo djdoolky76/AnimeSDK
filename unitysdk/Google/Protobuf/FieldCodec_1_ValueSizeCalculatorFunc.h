@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1_ValueSizeCalculatorFunc_TypeDefinitionIndex = 5389;
+	inline static constexpr unsigned int FieldCodec_1_ValueSizeCalculatorFunc_TypeDefinitionIndex = 5394;
 
 	template <typename T>
 	class FieldCodec_1_ValueSizeCalculatorFunc : public ::System::MulticastDelegate

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DNKAAIFEKNP_MissionResManagerReportType_TypeDefinitionIndex = 59986;
+inline static constexpr unsigned int DNKAAIFEKNP_MissionResManagerReportType_TypeDefinitionIndex = 61270;
 
 	enum class DNKAAIFEKNP_MissionResManagerReportType : ::System::Int32
 	{

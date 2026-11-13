@@ -3,10 +3,10 @@
 #include "unitysdk/MAAGBGMIOAL.h"
 #include "unitysdk/System/Object.h"
 
-#define NAEKFHMAHNL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C906590)
-#define NAEKFHMAHNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9068D0)
+#define NAEKFHMAHNL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C26B720)
+#define NAEKFHMAHNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C26BA60)
 
-inline static constexpr unsigned int NAEKFHMAHNL_TypeDefinitionIndex = 43359;
+inline static constexpr unsigned int NAEKFHMAHNL_TypeDefinitionIndex = 44340;
 
 	class NAEKFHMAHNL : public ::System::Object
 	{

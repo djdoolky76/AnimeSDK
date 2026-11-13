@@ -6,32 +6,32 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingGameBoyCaseRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGGAMEBOYCASEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D563C80)
-#define RPG_GAMECORE_CHENLINGGAMEBOYCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5636A0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCASEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9192A0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F918CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyCaseRow_TypeDefinitionIndex = 14098;
+	inline static constexpr unsigned int ChenLingGameBoyCaseRow_TypeDefinitionIndex = 14255;
 
 	class ChenLingGameBoyCaseRow : public ::System::Object
 	{
 	public:
 		::System::String* GameBoyThemeID; // 0x10
-		::System::String* CheatCodeList; // 0x18
-		::Il2CppArray<::System::UInt32>* GameBoyChallengeIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* RankingsNPCList; // 0x28
-		::System::String* CoverImagePath; // 0x30
-		::RPG::Client::TextID SettlementTitleID; // 0x38
-		::RPG::Client::TextID GameBoyNameID; // 0x48
-		::System::UInt32 FDHardInstanceID; // 0x58
-		::System::UInt32 GameBoyCaseID; // 0x5C
-		::RPG::Client::TextID CheatSettlementTitleID; // 0x60
-		::System::UInt32 FDCheatInstanceID; // 0x70
-		::System::UInt32 FDCheatEntityID; // 0x74
-		::System::UInt32 CheatQuestID; // 0x78
-		::System::Single ChallengeTimeLimit; // 0x7C
-		::System::UInt32 FDGroupID; // 0x80
-		::System::UInt32 FDHardEntityID; // 0x84
+		::Il2CppArray<::System::UInt32>* RankingsNPCList; // 0x18
+		::System::String* CoverImagePath; // 0x20
+		::System::String* CheatCodeList; // 0x28
+		::Il2CppArray<::System::UInt32>* GameBoyChallengeIDList; // 0x30
+		::System::UInt32 FDHardInstanceID; // 0x38
+		::System::Single ChallengeTimeLimit; // 0x3C
+		::System::UInt32 GameBoyCaseID; // 0x40
+		::System::UInt32 FDCheatInstanceID; // 0x44
+		::System::UInt32 CheatQuestID; // 0x48
+		::System::UInt32 FDHardEntityID; // 0x4C
+		::RPG::Client::TextID SettlementTitleID; // 0x50
+		::RPG::Client::TextID GameBoyNameID; // 0x60
+		::System::UInt32 FDCheatEntityID; // 0x70
+		::System::UInt32 FDGroupID; // 0x74
+		::RPG::Client::TextID CheatSettlementTitleID; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGGAMEBOYCASEROW_CTOR_OFFSET))(this);

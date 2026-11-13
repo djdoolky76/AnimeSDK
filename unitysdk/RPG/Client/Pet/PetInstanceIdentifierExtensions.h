@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/Pet/PetInstanceIdentifier.h"
 
-#define RPG_CLIENT_PET_PETINSTANCEIDENTIFIEREXTENSIONS_ISINVALID_OFFSET UNITYSDK_OFFSET(0xDAAD770)
+#define RPG_CLIENT_PET_PETINSTANCEIDENTIFIEREXTENSIONS_ISINVALID_OFFSET UNITYSDK_OFFSET(0x1C1CF240)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetInstanceIdentifierExtensions_TypeDefinitionIndex = 75682;
+	inline static constexpr unsigned int PetInstanceIdentifierExtensions_TypeDefinitionIndex = 78009;
 
 	class PetInstanceIdentifierExtensions : public ::System::Object
 	{

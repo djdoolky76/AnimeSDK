@@ -4,18 +4,18 @@
 class HCHDLMIOOIP;
 namespace System { class Object; }
 
-#define HCHDLMIOOIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E511960)
-#define HCHDLMIOOIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5119A0)
-#define HCHDLMIOOIP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E5119B0)
+#define HCHDLMIOOIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200BFC60)
+#define HCHDLMIOOIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200BFCA0)
+#define HCHDLMIOOIP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x200BFCB0)
 
-inline static constexpr unsigned int HCHDLMIOOIP___c_TypeDefinitionIndex = 25115;
+inline static constexpr unsigned int HCHDLMIOOIP___c_TypeDefinitionIndex = 25593;
 
 	class HCHDLMIOOIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22960);
 		}
 
 		static ::System::Void _cctor()

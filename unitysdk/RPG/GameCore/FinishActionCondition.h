@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FinishActionCondition; }
 
-#define RPG_GAMECORE_FINISHACTIONCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67B0B0)
-#define RPG_GAMECORE_FINISHACTIONCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D67B070)
+#define RPG_GAMECORE_FINISHACTIONCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E847E20)
+#define RPG_GAMECORE_FINISHACTIONCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E847DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishActionCondition_TypeDefinitionIndex = 19013;
+	inline static constexpr unsigned int FinishActionCondition_TypeDefinitionIndex = 19200;
 
 	class FinishActionCondition : public ::RPG::GameCore::JsonConfig
 	{

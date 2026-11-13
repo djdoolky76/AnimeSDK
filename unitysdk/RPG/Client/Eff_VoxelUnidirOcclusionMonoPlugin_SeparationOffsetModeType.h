@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Eff_VoxelUnidirOcclusionMonoPlugin_SeparationOffsetModeType_TypeDefinitionIndex = 70408;
+	inline static constexpr unsigned int Eff_VoxelUnidirOcclusionMonoPlugin_SeparationOffsetModeType_TypeDefinitionIndex = 72375;
 
 	enum class Eff_VoxelUnidirOcclusionMonoPlugin_SeparationOffsetModeType : ::System::Int32
 	{

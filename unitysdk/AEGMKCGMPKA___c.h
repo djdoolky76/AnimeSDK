@@ -6,29 +6,29 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define AEGMKCGMPKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB14F4E0)
-#define AEGMKCGMPKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB14F520)
-#define AEGMKCGMPKA___C__SENDSETLINEUPCSREQ_B__8_1_OFFSET UNITYSDK_OFFSET(0xB14F530)
-#define AEGMKCGMPKA___C__SENDSTARTCSREQ_B__9_0_OFFSET UNITYSDK_OFFSET(0xB14F540)
+#define AEGMKCGMPKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18D9EEE0)
+#define AEGMKCGMPKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18D9EF20)
+#define AEGMKCGMPKA___C__SENDSETLINEUPCSREQ_B__8_1_OFFSET UNITYSDK_OFFSET(0x18D9EF30)
+#define AEGMKCGMPKA___C__SENDSTARTCSREQ_B__9_0_OFFSET UNITYSDK_OFFSET(0x18D9EF40)
 
-inline static constexpr unsigned int AEGMKCGMPKA___c_TypeDefinitionIndex = 63938;
+inline static constexpr unsigned int AEGMKCGMPKA___c_TypeDefinitionIndex = 65380;
 
 	class AEGMKCGMPKA___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::AAKFAEEILGA*>** StaticGet___9__9_0()
 		{
-			return (::System::Action_1<::AAKFAEEILGA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x477C0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x477C8);
+			return (::System::Action_1<::AAKFAEEILGA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45130);
 		}
 
 		static ::System::Action** StaticGet___9__8_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x477D0);
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45138);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45140);
 		}
 
 		static ::System::Void _cctor()

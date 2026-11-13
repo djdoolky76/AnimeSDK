@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Merge_1__Merge__DisposeAsync_d__13_TypeDefinitionIndex = 45468;
+	inline static constexpr unsigned int Merge_1__Merge__DisposeAsync_d__13_TypeDefinitionIndex = 46497;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	struct alignas(8) Merge_1__Merge__DisposeAsync_d__13

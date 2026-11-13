@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBuffInBattleBindingType_TypeDefinitionIndex = 10569;
+	inline static constexpr unsigned int MazeBuffInBattleBindingType_TypeDefinitionIndex = 10585;
 
 	enum class MazeBuffInBattleBindingType : ::System::Int32
 	{

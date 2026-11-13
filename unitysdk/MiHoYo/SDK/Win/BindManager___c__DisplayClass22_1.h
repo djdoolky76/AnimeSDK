@@ -6,12 +6,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS22_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD2BE0)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS22_1__SHOWBINDMAILPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x1BCD3030)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS22_1_CTOR_OFFSET UNITYSDK_OFFSET(0x17225C20)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS22_1__SHOWBINDMAILPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x17226070)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass22_1_TypeDefinitionIndex = 9385;
+	inline static constexpr unsigned int BindManager___c__DisplayClass22_1_TypeDefinitionIndex = 9393;
 
 	template <typename T>
 	class BindManager___c__DisplayClass22_1 : public ::System::Object

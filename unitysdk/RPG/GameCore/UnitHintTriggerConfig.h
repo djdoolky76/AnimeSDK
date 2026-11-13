@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class UnitHintTriggerConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNITHINTTRIGGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC465D0)
-#define RPG_GAMECORE_UNITHINTTRIGGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC46400)
+#define RPG_GAMECORE_UNITHINTTRIGGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED32080)
+#define RPG_GAMECORE_UNITHINTTRIGGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED31EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnitHintTriggerConfig_TypeDefinitionIndex = 17601;
+	inline static constexpr unsigned int UnitHintTriggerConfig_TypeDefinitionIndex = 17770;
 
 	class UnitHintTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{

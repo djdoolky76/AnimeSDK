@@ -6,9 +6,9 @@ class KPIMOBENENM;
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class TwoKeyDictionary_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DAIPCBAPIGD_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBA460)
+#define DAIPCBAPIGD_CTOR_OFFSET UNITYSDK_OFFSET(0x19945C60)
 
-inline static constexpr unsigned int DAIPCBAPIGD_TypeDefinitionIndex = 62094;
+inline static constexpr unsigned int DAIPCBAPIGD_TypeDefinitionIndex = 63507;
 
 	class DAIPCBAPIGD : public ::System::Object
 	{

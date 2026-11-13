@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeartDialConditionRow; }
 
-#define RPG_GAMECORE_HEARTDIALCONDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D729B90)
-#define RPG_GAMECORE_HEARTDIALCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7299A0)
+#define RPG_GAMECORE_HEARTDIALCONDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA78CF0)
+#define RPG_GAMECORE_HEARTDIALCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA78B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialConditionRow_TypeDefinitionIndex = 13722;
+	inline static constexpr unsigned int HeartDialConditionRow_TypeDefinitionIndex = 13879;
 
 	class HeartDialConditionRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ParamUint1; // 0x10
-		::System::UInt32 ParamUint3; // 0x14
-		::RPG::GameCore::HeartDialFinishType FinishType; // 0x18
-		::System::UInt32 ParamUint2; // 0x1C
+		::RPG::GameCore::HeartDialFinishType FinishType; // 0x10
+		::System::UInt32 ParamUint1; // 0x14
+		::System::UInt32 ParamUint2; // 0x18
+		::System::UInt32 ParamUint3; // 0x1C
 		::System::UInt32 ID; // 0x20
 		::System::Void _ctor()
 		{

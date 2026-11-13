@@ -3,7 +3,7 @@
 #include "unitysdk/NGHKLMAIFFB.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-inline static constexpr unsigned int KHIBAJFMCOH_TypeDefinitionIndex = 68496;
+inline static constexpr unsigned int KHIBAJFMCOH_TypeDefinitionIndex = 70444;
 
 	struct alignas(8) KHIBAJFMCOH
 	{

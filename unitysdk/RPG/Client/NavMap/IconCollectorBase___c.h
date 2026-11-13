@@ -5,31 +5,31 @@ namespace RPG::Client { class SubMissionData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD94D410)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD94D450)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C___COLLECTMAINNAVMAPTRACKINGMISSIONICON_B__23_0_OFFSET UNITYSDK_OFFSET(0xD94D460)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C___COLLECTSUBNAVMAPTRACKINGMISSIONICON_B__24_0_OFFSET UNITYSDK_OFFSET(0xD94D4D0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19E54080)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19E540B0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C___COLLECTMAINNAVMAPTRACKINGMISSIONICON_B__23_0_OFFSET UNITYSDK_OFFSET(0x19E540C0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C___COLLECTSUBNAVMAPTRACKINGMISSIONICON_B__24_0_OFFSET UNITYSDK_OFFSET(0x19E54130)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IconCollectorBase___c_TypeDefinitionIndex = 74526;
+	inline static constexpr unsigned int IconCollectorBase___c_TypeDefinitionIndex = 76674;
 
 	class IconCollectorBase___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EFC0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xAFE0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__24_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EFC8);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xAFE8);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EFD0);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xAFF0);
 		}
 
 		static ::System::Void _cctor()

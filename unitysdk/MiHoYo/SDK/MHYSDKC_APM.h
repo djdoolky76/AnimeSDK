@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_APM_TypeDefinitionIndex = 46180;
+	inline static constexpr unsigned int MHYSDKC_APM_TypeDefinitionIndex = 47209;
 
 	class MHYSDKC_APM : public ::System::Object
 	{

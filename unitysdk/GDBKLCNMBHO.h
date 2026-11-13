@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PlanetFesTradingCardFriendsItem; }
 
-#define GDBKLCNMBHO_COMPARE_OFFSET UNITYSDK_OFFSET(0x15989410)
-#define GDBKLCNMBHO_CTOR_OFFSET UNITYSDK_OFFSET(0x159897E0)
+#define GDBKLCNMBHO_COMPARE_OFFSET UNITYSDK_OFFSET(0x19ECEFA0)
+#define GDBKLCNMBHO_CTOR_OFFSET UNITYSDK_OFFSET(0x19ECF370)
 
-inline static constexpr unsigned int GDBKLCNMBHO_TypeDefinitionIndex = 66594;
+inline static constexpr unsigned int GDBKLCNMBHO_TypeDefinitionIndex = 68530;
 
 	class GDBKLCNMBHO : public ::System::Object
 	{

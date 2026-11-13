@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ModifyActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKGKGBIKFLP_CTOR_OFFSET UNITYSDK_OFFSET(0xD753CF0)
-#define CKGKGBIKFLP_GEJNOLBPEBO_OFFSET UNITYSDK_OFFSET(0xD754220)
-#define CKGKGBIKFLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD753D20)
+#define CKGKGBIKFLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD3C300)
+#define CKGKGBIKFLP_GEJNOLBPEBO_OFFSET UNITYSDK_OFFSET(0x1AD3C830)
+#define CKGKGBIKFLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD3C330)
 
-inline static constexpr unsigned int CKGKGBIKFLP_TypeDefinitionIndex = 55186;
+inline static constexpr unsigned int CKGKGBIKFLP_TypeDefinitionIndex = 56367;
 
 	class CKGKGBIKFLP
 	{

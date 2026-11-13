@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDifficulty_TypeDefinitionIndex = 18516;
+	inline static constexpr unsigned int FiveDimDifficulty_TypeDefinitionIndex = 18676;
 
 	enum class FiveDimDifficulty : ::System::Int32
 	{

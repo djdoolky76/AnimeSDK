@@ -5,11 +5,11 @@ class AGKHOGNMPMO;
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Action_1; }
 
-#define CCPFCJOHICG_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7510F0)
-#define CCPFCJOHICG_CTOR_OFFSET UNITYSDK_OFFSET(0xC7510E0)
-#define CCPFCJOHICG_DCAJKPMEDDB_OFFSET UNITYSDK_OFFSET(0xC751020)
+#define CCPFCJOHICG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1739BDA0)
+#define CCPFCJOHICG_CTOR_OFFSET UNITYSDK_OFFSET(0x1739BD90)
+#define CCPFCJOHICG_DCAJKPMEDDB_OFFSET UNITYSDK_OFFSET(0x1739BCD0)
 
-inline static constexpr unsigned int CCPFCJOHICG_TypeDefinitionIndex = 49259;
+inline static constexpr unsigned int CCPFCJOHICG_TypeDefinitionIndex = 50335;
 
 	class CCPFCJOHICG : public ::JHPHMGHKGEN
 	{
@@ -17,7 +17,7 @@ inline static constexpr unsigned int CCPFCJOHICG_TypeDefinitionIndex = 49259;
 		::System::Action_1<::System::Boolean>* EOPEGKLDLLK; // 0x18
 		static ::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>** StaticGet_PNAMDCHGGEH()
 		{
-			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "CCPFCJOHICG")->GetStaticField(0x16B60);
+			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "CCPFCJOHICG")->GetStaticField(0x59040);
 		}
 
 		::System::Void _ctor()

@@ -4,18 +4,18 @@
 class IODAFIBPAGM;
 namespace System { class Object; }
 
-#define IODAFIBPAGM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E69E080)
-#define IODAFIBPAGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E69E0B0)
-#define IODAFIBPAGM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E69E0C0)
+#define IODAFIBPAGM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6750A0)
+#define IODAFIBPAGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6750D0)
+#define IODAFIBPAGM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F6750E0)
 
-inline static constexpr unsigned int IODAFIBPAGM___c_TypeDefinitionIndex = 26235;
+inline static constexpr unsigned int IODAFIBPAGM___c_TypeDefinitionIndex = 26762;
 
 	class IODAFIBPAGM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54490);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51C80);
 		}
 
 		static ::System::Void _cctor()

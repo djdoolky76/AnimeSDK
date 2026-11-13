@@ -7,28 +7,28 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class B51RacingSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_B51RACINGSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D406E50)
-#define RPG_GAMECORE_B51RACINGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D406960)
+#define RPG_GAMECORE_B51RACINGSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2FAD90)
+#define RPG_GAMECORE_B51RACINGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2FA8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingSkillRow_TypeDefinitionIndex = 10968;
+	inline static constexpr unsigned int B51RacingSkillRow_TypeDefinitionIndex = 10984;
 
 	class B51RacingSkillRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
+		::System::String* IconPath_128; // 0x10
 		::Il2CppArray<::System::UInt32>* PassiveParamList; // 0x18
-		::System::String* IconPath_128; // 0x20
-		::Il2CppArray<::System::String*>* PassiveList; // 0x28
-		::System::UInt32 ID; // 0x30
+		::Il2CppArray<::System::String*>* PassiveList; // 0x20
+		::System::String* IconPath; // 0x28
+		::RPG::Client::TextID Desc; // 0x30
+		::RPG::GameCore::B51RacingSkillType Type; // 0x40
+		::System::UInt32 ID; // 0x44
+		::System::UInt32 Level; // 0x48
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Desc; // 0x38
-		::RPG::Client::TextID Name; // 0x48
-		::RPG::Client::TextID Desc_Back; // 0x58
-		::RPG::GameCore::B51RacingSkillType Type; // 0x68
-		::System::UInt32 Level; // 0x6C
-		::RPG::Client::TextID Desc_Front; // 0x70
+		::RPG::Client::TextID Desc_Front; // 0x50
+		::RPG::Client::TextID Desc_Back; // 0x60
+		::RPG::Client::TextID Name; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_B51RACINGSKILLROW_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerWorldLevelUpgradeData_TypeDefinitionIndex = 66679;
+	inline static constexpr unsigned int PlayerWorldLevelUpgradeData_TypeDefinitionIndex = 68615;
 
 	struct alignas(4) PlayerWorldLevelUpgradeData
 	{

@@ -11,19 +11,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HAHFIGMDCFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B6BE10)
-#define HAHFIGMDCFH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x15B6C230)
-#define HAHFIGMDCFH_IMDLGFPMPEK_OFFSET UNITYSDK_OFFSET(0x15B6C370)
-#define HAHFIGMDCFH_JIJEOJIJEBA_OFFSET UNITYSDK_OFFSET(0x15B6C820)
+#define HAHFIGMDCFH_CTOR_OFFSET UNITYSDK_OFFSET(0x17DD9590)
+#define HAHFIGMDCFH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x17DD99B0)
+#define HAHFIGMDCFH_IMDLGFPMPEK_OFFSET UNITYSDK_OFFSET(0x17DD9AF0)
+#define HAHFIGMDCFH_JIJEOJIJEBA_OFFSET UNITYSDK_OFFSET(0x17DD9FA0)
 
-inline static constexpr unsigned int HAHFIGMDCFH_TypeDefinitionIndex = 82280;
+inline static constexpr unsigned int HAHFIGMDCFH_TypeDefinitionIndex = 85153;
 
 	class HAHFIGMDCFH : public ::KAANKGHDHCB
 	{
 	public:
-		::HFCOGLIEHFB* FPAHLFBBNMK; // 0x20
-		::System::String* GKHIHPGCLIK; // 0x28
-		::System::Collections::Generic::List_1<::KAANKGHDHCB*>* HIMBONECCJK; // 0x30
+		::System::Collections::Generic::List_1<::KAANKGHDHCB*>* HIMBONECCJK; // 0x20
+		::HFCOGLIEHFB* FPAHLFBBNMK; // 0x28
+		::System::String* GKHIHPGCLIK; // 0x30
 		::RPG::Client::AssetEventPort IGMPALOKGKF; // 0x38
 		::RPG::Client::AssetEventType GMCNLFICNOB; // 0x3C
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)

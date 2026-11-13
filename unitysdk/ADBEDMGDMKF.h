@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PropMoveState.h"
 #include "unitysdk/System/Object.h"
 
-#define ADBEDMGDMKF_DNPIOGOPBAD_OFFSET UNITYSDK_OFFSET(0x1C849F30)
+#define ADBEDMGDMKF_DNPIOGOPBAD_OFFSET UNITYSDK_OFFSET(0x1D84E1C0)
 
-inline static constexpr unsigned int ADBEDMGDMKF_TypeDefinitionIndex = 43573;
+inline static constexpr unsigned int ADBEDMGDMKF_TypeDefinitionIndex = 44555;
 
 	class ADBEDMGDMKF : public ::System::Object
 	{

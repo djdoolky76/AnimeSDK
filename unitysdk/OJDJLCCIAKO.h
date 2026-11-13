@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckLastBattleSkillDrop; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OJDJLCCIAKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA62E0)
-#define OJDJLCCIAKO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEA6310)
+#define OJDJLCCIAKO_CTOR_OFFSET UNITYSDK_OFFSET(0x194AA700)
+#define OJDJLCCIAKO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x194AA730)
 
-inline static constexpr unsigned int OJDJLCCIAKO_TypeDefinitionIndex = 53130;
+inline static constexpr unsigned int OJDJLCCIAKO_TypeDefinitionIndex = 54292;
 
 	class OJDJLCCIAKO
 	{

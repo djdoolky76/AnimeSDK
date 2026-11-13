@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::Console { class ConsoleWelcomeDialog; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC77D50)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC77D90)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__SHOW_B__24_0_OFFSET UNITYSDK_OFFSET(0x1BC77DA0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x185FD680)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x185FD6C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__SHOW_B__24_0_OFFSET UNITYSDK_OFFSET(0x185FD6D0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleWelcomeDialog___c_TypeDefinitionIndex = 9016;
+	inline static constexpr unsigned int ConsoleWelcomeDialog___c_TypeDefinitionIndex = 9025;
 
 	class ConsoleWelcomeDialog___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleWelcomeDialog*>** StaticGet___9__24_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleWelcomeDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x56560);
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleWelcomeDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x40880);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x56568);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x40888);
 		}
 
 		static ::System::Void _cctor()

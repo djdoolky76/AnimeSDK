@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideMonsterSkillInViewMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJFKGGGBBOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FE030)
-#define JJFKGGGBBOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1FE060)
+#define JJFKGGGBBOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1742CAC0)
+#define JJFKGGGBBOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1742CAF0)
 
-inline static constexpr unsigned int JJFKGGGBBOM_TypeDefinitionIndex = 58150;
+inline static constexpr unsigned int JJFKGGGBBOM_TypeDefinitionIndex = 59403;
 
 	class JJFKGGGBBOM
 	{

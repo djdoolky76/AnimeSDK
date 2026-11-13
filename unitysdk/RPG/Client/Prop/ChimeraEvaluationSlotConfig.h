@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERAEVALUATIONSLOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6F810)
+#define RPG_CLIENT_PROP_CHIMERAEVALUATIONSLOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E5500)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraEvaluationSlotConfig_TypeDefinitionIndex = 78452;
+	inline static constexpr unsigned int ChimeraEvaluationSlotConfig_TypeDefinitionIndex = 81187;
 
 	class ChimeraEvaluationSlotConfig : public ::System::Object
 	{

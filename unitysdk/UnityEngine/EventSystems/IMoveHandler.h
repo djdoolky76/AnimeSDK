@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IMoveHandler_TypeDefinitionIndex = 6925;
+	inline static constexpr unsigned int IMoveHandler_TypeDefinitionIndex = 6936;
 
 	class IMoveHandler
 	{

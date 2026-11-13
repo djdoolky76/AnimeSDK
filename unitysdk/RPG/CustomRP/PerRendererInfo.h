@@ -4,7 +4,7 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PerRendererInfo_TypeDefinitionIndex = 37581;
+	inline static constexpr unsigned int PerRendererInfo_TypeDefinitionIndex = 38509;
 
 	struct alignas(8) PerRendererInfo
 	{

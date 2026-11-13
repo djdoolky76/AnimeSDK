@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class SkillData; }
 
-#define PCAHBEILAIO_HHFDAIJIIJN_OFFSET UNITYSDK_OFFSET(0xBFBD5E0)
+#define PCAHBEILAIO_HHFDAIJIIJN_OFFSET UNITYSDK_OFFSET(0x1AAC91C0)
 
-inline static constexpr unsigned int PCAHBEILAIO_TypeDefinitionIndex = 57669;
+inline static constexpr unsigned int PCAHBEILAIO_TypeDefinitionIndex = 58899;
 
 	class PCAHBEILAIO : public ::System::Object
 	{

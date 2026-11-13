@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StoryCharacterRow; }
 namespace System { class Action; }
 
-#define GPLMEFBGGGM___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B53E50)
-#define GPLMEFBGGGM___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x15B546B0)
-#define GPLMEFBGGGM___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__2_OFFSET UNITYSDK_OFFSET(0x15B54700)
+#define GPLMEFBGGGM___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17DC0510)
+#define GPLMEFBGGGM___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x17DC0D80)
+#define GPLMEFBGGGM___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__2_OFFSET UNITYSDK_OFFSET(0x17DC0DD0)
 
-inline static constexpr unsigned int GPLMEFBGGGM___c__DisplayClass4_0_TypeDefinitionIndex = 60762;
+inline static constexpr unsigned int GPLMEFBGGGM___c__DisplayClass4_0_TypeDefinitionIndex = 62139;
 
 	class GPLMEFBGGGM___c__DisplayClass4_0 : public ::System::Object
 	{

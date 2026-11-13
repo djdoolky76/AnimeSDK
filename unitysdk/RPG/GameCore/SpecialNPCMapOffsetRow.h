@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpecialNPCMapOffsetRow; }
 
-#define RPG_GAMECORE_SPECIALNPCMAPOFFSETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD34D0)
-#define RPG_GAMECORE_SPECIALNPCMAPOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAD2B00)
+#define RPG_GAMECORE_SPECIALNPCMAPOFFSETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A6750)
+#define RPG_GAMECORE_SPECIALNPCMAPOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3A5E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialNPCMapOffsetRow_TypeDefinitionIndex = 15129;
+	inline static constexpr unsigned int SpecialNPCMapOffsetRow_TypeDefinitionIndex = 15285;
 
 	class SpecialNPCMapOffsetRow : public ::System::Object
 	{

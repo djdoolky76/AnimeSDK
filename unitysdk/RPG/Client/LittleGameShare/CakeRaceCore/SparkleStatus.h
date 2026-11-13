@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
-	inline static constexpr unsigned int SparkleStatus_TypeDefinitionIndex = 37299;
+	inline static constexpr unsigned int SparkleStatus_TypeDefinitionIndex = 38227;
 
 	enum class SparkleStatus : ::System::Int32
 	{

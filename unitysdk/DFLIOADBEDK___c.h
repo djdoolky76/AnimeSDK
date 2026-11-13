@@ -4,18 +4,18 @@
 class DFLIOADBEDK;
 namespace System { class Object; }
 
-#define DFLIOADBEDK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1793B0)
-#define DFLIOADBEDK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1793F0)
-#define DFLIOADBEDK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E179400)
+#define DFLIOADBEDK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFBAB70)
+#define DFLIOADBEDK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFBABB0)
+#define DFLIOADBEDK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FFBABC0)
 
-inline static constexpr unsigned int DFLIOADBEDK___c_TypeDefinitionIndex = 27917;
+inline static constexpr unsigned int DFLIOADBEDK___c_TypeDefinitionIndex = 28507;
 
 	class DFLIOADBEDK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E690);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28FD0);
 		}
 
 		static ::System::Void _cctor()

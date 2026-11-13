@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFE4520)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFE4550)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETINSCHEDULEFIGHTGROUPS_B__0_0_OFFSET UNITYSDK_OFFSET(0xCFE4560)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETMONSTERIDSBYSTAGEID_B__2_0_OFFSET UNITYSDK_OFFSET(0xCFE4680)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2F6D60)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F6D90)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETINSCHEDULEFIGHTGROUPS_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B2F6DA0)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETMONSTERIDSBYSTAGEID_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B2F6EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightActivityUtils___c_TypeDefinitionIndex = 64172;
+	inline static constexpr unsigned int FightActivityUtils___c_TypeDefinitionIndex = 65617;
 
 	class FightActivityUtils___c : public ::System::Object
 	{
 	public:
+		static ::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62480);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B500);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62488);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B508);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B510);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62490);
 		}
 
 		static ::System::Void _cctor()

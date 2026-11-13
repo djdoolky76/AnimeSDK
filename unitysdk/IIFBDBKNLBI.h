@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IIFBDBKNLBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1642D9A0)
-#define IIFBDBKNLBI_MDPBONJCHDL_OFFSET UNITYSDK_OFFSET(0x1642D8E0)
+#define IIFBDBKNLBI_CTOR_OFFSET UNITYSDK_OFFSET(0x193CDD70)
+#define IIFBDBKNLBI_MDPBONJCHDL_OFFSET UNITYSDK_OFFSET(0x193CDCB0)
 
-inline static constexpr unsigned int IIFBDBKNLBI_TypeDefinitionIndex = 68258;
+inline static constexpr unsigned int IIFBDBKNLBI_TypeDefinitionIndex = 70204;
 
 	class IIFBDBKNLBI : public ::System::Object
 	{

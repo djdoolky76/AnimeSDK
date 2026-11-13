@@ -7,21 +7,21 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLIEDEPABOD_CTOR_OFFSET UNITYSDK_OFFSET(0xD785BA0)
-#define CLIEDEPABOD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD785CF0)
-#define CLIEDEPABOD_ECEACGGFAOP_OFFSET UNITYSDK_OFFSET(0xD785FF0)
-#define CLIEDEPABOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD785D30)
-#define CLIEDEPABOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD7860B0)
-#define CLIEDEPABOD_TICK_OFFSET UNITYSDK_OFFSET(0xD786100)
+#define CLIEDEPABOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B17AD40)
+#define CLIEDEPABOD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B17AE90)
+#define CLIEDEPABOD_ECEACGGFAOP_OFFSET UNITYSDK_OFFSET(0x1B17B190)
+#define CLIEDEPABOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B17AED0)
+#define CLIEDEPABOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B17B250)
+#define CLIEDEPABOD_TICK_OFFSET UNITYSDK_OFFSET(0x1B17B2A0)
 
-inline static constexpr unsigned int CLIEDEPABOD_TypeDefinitionIndex = 56439;
+inline static constexpr unsigned int CLIEDEPABOD_TypeDefinitionIndex = 57657;
 
 	class CLIEDEPABOD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowAttackTime* OFKGLJOAMLD; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ShowAttackTimeType, ::System::String*>* HPEFOLCMDHD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ShowAttackTimeType, ::System::String*>* HPEFOLCMDHD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::ShowAttackTime* OFKGLJOAMLD; // 0x28
 		// static const ::System::String* BJDEMECMDFO; // 0x0
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowAttackTime* a2)
 		{

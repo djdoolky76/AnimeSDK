@@ -8,12 +8,12 @@ namespace RPG::GameCore { class PetPartyInteractionDefinition; }
 namespace RPG::GameCore { class PetPartySingleCombinationConfig; }
 namespace RPG::GameCore { class PetPartySingleDoubleCombinationConfig; }
 
-#define RPG_GAMECORE_PETPARTYINTERACTIONCATEGORYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DBC20)
-#define RPG_GAMECORE_PETPARTYINTERACTIONCATEGORYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DBA40)
+#define RPG_GAMECORE_PETPARTYINTERACTIONCATEGORYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4A5F0)
+#define RPG_GAMECORE_PETPARTYINTERACTIONCATEGORYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE4A410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetPartyInteractionCategoryConfig_TypeDefinitionIndex = 17553;
+	inline static constexpr unsigned int PetPartyInteractionCategoryConfig_TypeDefinitionIndex = 17721;
 
 	class PetPartyInteractionCategoryConfig : public ::RPG::GameCore::JsonConfig
 	{

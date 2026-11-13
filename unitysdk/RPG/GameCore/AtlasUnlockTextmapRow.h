@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AtlasUnlockTextmapRow; }
 
-#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D3950)
-#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D37D0)
+#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB8BF0)
+#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEB8A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AtlasUnlockTextmapRow_TypeDefinitionIndex = 12690;
+	inline static constexpr unsigned int AtlasUnlockTextmapRow_TypeDefinitionIndex = 12757;
 
 	class AtlasUnlockTextmapRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID UnlockDesc; // 0x18
+		::RPG::Client::TextID UnlockDesc; // 0x10
+		::System::UInt32 UnlockID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_CTOR_OFFSET))(this);

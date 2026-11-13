@@ -4,18 +4,18 @@
 class PEIGLFGGMJH;
 namespace System { class Object; }
 
-#define PEIGLFGGMJH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEED080)
-#define PEIGLFGGMJH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEED0C0)
-#define PEIGLFGGMJH___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DEED0D0)
+#define PEIGLFGGMJH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2066DFA0)
+#define PEIGLFGGMJH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2066DFE0)
+#define PEIGLFGGMJH___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2066DFF0)
 
-inline static constexpr unsigned int PEIGLFGGMJH___c_TypeDefinitionIndex = 28197;
+inline static constexpr unsigned int PEIGLFGGMJH___c_TypeDefinitionIndex = 28787;
 
 	class PEIGLFGGMJH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30DE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33BA0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 namespace RPG::Client::UI::UIStateCtrl { class SwitchColorData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE342D70)
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xE3420F0)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CA3C0)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x1C9C9740)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int SwitchColorAction_TypeDefinitionIndex = 74055;
+	inline static constexpr unsigned int SwitchColorAction_TypeDefinitionIndex = 76201;
 
 	class SwitchColorAction : public ::RPG::Client::UI::UIStateCtrl::InstantAction
 	{

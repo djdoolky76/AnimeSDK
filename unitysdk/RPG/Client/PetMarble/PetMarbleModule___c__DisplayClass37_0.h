@@ -4,12 +4,12 @@
 class BAPHDHLHJNP;
 namespace System { class String; }
 
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDADD160)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__DISPLAYCLASS37_0___ONPETMARBLEPVELEVELBEGINSTAT_B__0_OFFSET UNITYSDK_OFFSET(0xDADD4B0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18D54380)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__DISPLAYCLASS37_0___ONPETMARBLEPVELEVELBEGINSTAT_B__0_OFFSET UNITYSDK_OFFSET(0x18D54390)
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarbleModule___c__DisplayClass37_0_TypeDefinitionIndex = 74720;
+	inline static constexpr unsigned int PetMarbleModule___c__DisplayClass37_0_TypeDefinitionIndex = 76868;
 
 	class PetMarbleModule___c__DisplayClass37_0 : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HBFIBDGJLHE_OCJKOIKBNIN;
 
-#define PDPOIMKMEFG_AFEKGOIEHLE_OFFSET UNITYSDK_OFFSET(0xC01C2B0)
+#define PDPOIMKMEFG_AFEKGOIEHLE_OFFSET UNITYSDK_OFFSET(0x1AAF47A0)
 
-inline static constexpr unsigned int PDPOIMKMEFG_TypeDefinitionIndex = 82191;
+inline static constexpr unsigned int PDPOIMKMEFG_TypeDefinitionIndex = 85064;
 
 	class PDPOIMKMEFG : public ::System::Object
 	{

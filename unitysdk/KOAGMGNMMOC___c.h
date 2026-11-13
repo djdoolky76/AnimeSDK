@@ -4,18 +4,18 @@
 class KOAGMGNMMOC;
 namespace System { class Object; }
 
-#define KOAGMGNMMOC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E87E500)
-#define KOAGMGNMMOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E87E540)
-#define KOAGMGNMMOC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E87E550)
+#define KOAGMGNMMOC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205A9680)
+#define KOAGMGNMMOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205A96C0)
+#define KOAGMGNMMOC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x205A96D0)
 
-inline static constexpr unsigned int KOAGMGNMMOC___c_TypeDefinitionIndex = 32469;
+inline static constexpr unsigned int KOAGMGNMMOC___c_TypeDefinitionIndex = 33384;
 
 	class KOAGMGNMMOC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20DA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x202A0);
 		}
 
 		static ::System::Void _cctor()

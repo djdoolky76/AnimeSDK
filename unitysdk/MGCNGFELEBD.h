@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LeaveLoopScene; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGCNGFELEBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB9110B0)
-#define MGCNGFELEBD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9110C0)
-#define MGCNGFELEBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB911100)
-#define MGCNGFELEBD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9113B0)
-#define MGCNGFELEBD_TICK_OFFSET UNITYSDK_OFFSET(0xB911400)
+#define MGCNGFELEBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B336010)
+#define MGCNGFELEBD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B336020)
+#define MGCNGFELEBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B336060)
+#define MGCNGFELEBD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B336310)
+#define MGCNGFELEBD_TICK_OFFSET UNITYSDK_OFFSET(0x1B336360)
 
-inline static constexpr unsigned int MGCNGFELEBD_TypeDefinitionIndex = 58178;
+inline static constexpr unsigned int MGCNGFELEBD_TypeDefinitionIndex = 59432;
 
 	class MGCNGFELEBD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::LeaveLoopScene* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::LeaveLoopScene* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LeaveLoopScene* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LeaveLoopScene*))((::PBYTE)hIl2Cpp + MGCNGFELEBD_CTOR_OFFSET))(this, a1, a2);

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack::Unity::Extension { class UnityBlitResolver; }
 
-#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB43060)
-#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB43050)
+#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x208F23C0)
+#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x208F23B0)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int UnityBlitResolver_TypeDefinitionIndex = 10147;
+	inline static constexpr unsigned int UnityBlitResolver_TypeDefinitionIndex = 10155;
 
 	class UnityBlitResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Unity::Extension::UnityBlitResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Unity::Extension::UnityBlitResolver**)UnitySDK::FromName("MessagePack.Unity.Extension", "UnityBlitResolver")->GetStaticField(0x760);
+			return (::MessagePack::Unity::Extension::UnityBlitResolver**)UnitySDK::FromName("MessagePack.Unity.Extension", "UnityBlitResolver")->GetStaticField(0x710);
 		}
 
 		::System::Void _ctor()

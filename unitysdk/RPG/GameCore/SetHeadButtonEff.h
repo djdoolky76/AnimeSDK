@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetHeadButtonEff; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETHEADBUTTONEFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA88520)
-#define RPG_GAMECORE_SETHEADBUTTONEFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA88560)
-#define RPG_GAMECORE_SETHEADBUTTONEFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA884C0)
+#define RPG_GAMECORE_SETHEADBUTTONEFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D5E30)
+#define RPG_GAMECORE_SETHEADBUTTONEFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D5E70)
+#define RPG_GAMECORE_SETHEADBUTTONEFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D5DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetHeadButtonEff_TypeDefinitionIndex = 22743;
+	inline static constexpr unsigned int SetHeadButtonEff_TypeDefinitionIndex = 23165;
 
 	class SetHeadButtonEff : public ::RPG::GameCore::TaskConfig
 	{

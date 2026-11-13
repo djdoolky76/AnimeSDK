@@ -6,29 +6,29 @@ class PHCMIJEDENP;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PAEKOKFPOIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFBF8B0)
-#define PAEKOKFPOIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBF8F0)
-#define PAEKOKFPOIM___C__ENTERCRAFT_B__7_0_OFFSET UNITYSDK_OFFSET(0xBFBF900)
-#define PAEKOKFPOIM___C__ENTERCRAFT_B__7_1_OFFSET UNITYSDK_OFFSET(0xBFBF920)
+#define PAEKOKFPOIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18AD7390)
+#define PAEKOKFPOIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18AD73D0)
+#define PAEKOKFPOIM___C__ENTERCRAFT_B__7_0_OFFSET UNITYSDK_OFFSET(0x18AD73E0)
+#define PAEKOKFPOIM___C__ENTERCRAFT_B__7_1_OFFSET UNITYSDK_OFFSET(0x18AD7400)
 
-inline static constexpr unsigned int PAEKOKFPOIM___c_TypeDefinitionIndex = 79692;
+inline static constexpr unsigned int PAEKOKFPOIM___c_TypeDefinitionIndex = 82469;
 
 	class PAEKOKFPOIM___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::PHCMIJEDENP*, ::KNHCNPDALBB*>** StaticGet___9__7_1()
-		{
-			return (::System::Func_2<::PHCMIJEDENP*, ::KNHCNPDALBB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x681F0);
-		}
-
 		static ::System::Func_2<::PHCMIJEDENP*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::PHCMIJEDENP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x681F8);
+			return (::System::Func_2<::PHCMIJEDENP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6AAF0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68200);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6AAF8);
+		}
+
+		static ::System::Func_2<::PHCMIJEDENP*, ::KNHCNPDALBB*>** StaticGet___9__7_1()
+		{
+			return (::System::Func_2<::PHCMIJEDENP*, ::KNHCNPDALBB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6AB00);
 		}
 
 		static ::System::Void _cctor()

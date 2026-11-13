@@ -4,31 +4,31 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDBBA30)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBBA70)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__SHOWGRANTMAIL_B__38_4_OFFSET UNITYSDK_OFFSET(0x1BDBBAF0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__SHOWGRANTPHONE_B__35_4_OFFSET UNITYSDK_OFFSET(0x1BDBBA80)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19606B30)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19606B70)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__SHOWGRANTMAIL_B__38_4_OFFSET UNITYSDK_OFFSET(0x19606BF0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__SHOWGRANTPHONE_B__35_4_OFFSET UNITYSDK_OFFSET(0x19606B80)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c_TypeDefinitionIndex = 9358;
+	inline static constexpr unsigned int RealNameManager___c_TypeDefinitionIndex = 9366;
 
 	class RealNameManager___c : public ::System::Object
 	{
 	public:
+		static ::System::Action** StaticGet___9__35_4()
+		{
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x205E0);
+		}
+
 		static ::System::Action** StaticGet___9__38_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2E080);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x205E8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2E088);
-		}
-
-		static ::System::Action** StaticGet___9__35_4()
-		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2E090);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x205F0);
 		}
 
 		static ::System::Void _cctor()

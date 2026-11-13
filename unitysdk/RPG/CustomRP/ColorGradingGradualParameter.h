@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CUSTOMRP_COLORGRADINGGRADUALPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEF5D0)
+#define RPG_CUSTOMRP_COLORGRADINGGRADUALPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E3010)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingGradualParameter_TypeDefinitionIndex = 37796;
+	inline static constexpr unsigned int ColorGradingGradualParameter_TypeDefinitionIndex = 38725;
 
 	class ColorGradingGradualParameter
 	{

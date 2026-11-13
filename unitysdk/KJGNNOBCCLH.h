@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTriggerBattleAttacker; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KJGNNOBCCLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB443240)
-#define KJGNNOBCCLH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB443270)
+#define KJGNNOBCCLH_CTOR_OFFSET UNITYSDK_OFFSET(0x19F0A220)
+#define KJGNNOBCCLH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19F0A250)
 
-inline static constexpr unsigned int KJGNNOBCCLH_TypeDefinitionIndex = 54696;
+inline static constexpr unsigned int KJGNNOBCCLH_TypeDefinitionIndex = 55862;
 
 	class KJGNNOBCCLH
 	{

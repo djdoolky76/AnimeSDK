@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-inline static constexpr unsigned int HAGAFPDHLCK_SectionPoint_TypeDefinitionIndex = 73632;
+inline static constexpr unsigned int HAGAFPDHLCK_SectionPoint_TypeDefinitionIndex = 75755;
 
 	struct alignas(4) HAGAFPDHLCK_SectionPoint
 	{

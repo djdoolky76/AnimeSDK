@@ -4,20 +4,20 @@
 namespace Google::Protobuf::Reflection { class FileDescriptorSet; }
 namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORSET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B866B50)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORSET___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B866B90)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORSET___C___CCTOR_B__25_0_OFFSET UNITYSDK_OFFSET(0x1B866BA0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORSET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEDDEC0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORSET___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEDDF00)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORSET___C___CCTOR_B__25_0_OFFSET UNITYSDK_OFFSET(0x1BEDDF10)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptorSet___c_TypeDefinitionIndex = 5458;
+	inline static constexpr unsigned int FileDescriptorSet___c_TypeDefinitionIndex = 5463;
 
 	class FileDescriptorSet___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21970);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21690);
 		}
 
 		static ::System::Void _cctor()

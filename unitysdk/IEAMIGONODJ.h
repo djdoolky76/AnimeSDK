@@ -7,11 +7,11 @@ namespace RPG::Client { class CloudUIPosReporterMono; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IEAMIGONODJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15EDB980)
-#define IEAMIGONODJ_DNLHBKDMIHI_OFFSET UNITYSDK_OFFSET(0x15EDB160)
-#define IEAMIGONODJ_OOGADPGOAIK_OFFSET UNITYSDK_OFFSET(0x15EDB8B0)
+#define IEAMIGONODJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1779FCF0)
+#define IEAMIGONODJ_DNLHBKDMIHI_OFFSET UNITYSDK_OFFSET(0x1779F4D0)
+#define IEAMIGONODJ_OOGADPGOAIK_OFFSET UNITYSDK_OFFSET(0x1779FC20)
 
-inline static constexpr unsigned int IEAMIGONODJ_TypeDefinitionIndex = 59862;
+inline static constexpr unsigned int IEAMIGONODJ_TypeDefinitionIndex = 61143;
 
 	class IEAMIGONODJ : public ::System::Object
 	{

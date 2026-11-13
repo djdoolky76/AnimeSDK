@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EDNECKFHLEM;
 
-#define MDKDPJEFJDG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A6E10)
-#define MDKDPJEFJDG___C__DISPLAYCLASS5_0___HOOK_B__0_OFFSET UNITYSDK_OFFSET(0xB8A7480)
+#define MDKDPJEFJDG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x183E6E80)
+#define MDKDPJEFJDG___C__DISPLAYCLASS5_0___HOOK_B__0_OFFSET UNITYSDK_OFFSET(0x183E74F0)
 
-inline static constexpr unsigned int MDKDPJEFJDG___c__DisplayClass5_0_TypeDefinitionIndex = 49822;
+inline static constexpr unsigned int MDKDPJEFJDG___c__DisplayClass5_0_TypeDefinitionIndex = 50870;
 
 	class MDKDPJEFJDG___c__DisplayClass5_0 : public ::System::Object
 	{

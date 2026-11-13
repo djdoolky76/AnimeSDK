@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_PETMARBLESTARTTALKNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0xDAE3080)
+#define RPG_CLIENT_PETMARBLESTARTTALKNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x18D5B2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PetMarbleStartTalkNotify_TypeDefinitionIndex = 65829;
+	inline static constexpr unsigned int PetMarbleStartTalkNotify_TypeDefinitionIndex = 67761;
 
 	class PetMarbleStartTalkNotify : public ::System::Object
 	{

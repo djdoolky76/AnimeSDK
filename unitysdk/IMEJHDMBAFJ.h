@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AbortInsertAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMEJHDMBAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x164C4190)
-#define IMEJHDMBAFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164C41C0)
+#define IMEJHDMBAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D0580)
+#define IMEJHDMBAFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5D05B0)
 
-inline static constexpr unsigned int IMEJHDMBAFJ_TypeDefinitionIndex = 54794;
+inline static constexpr unsigned int IMEJHDMBAFJ_TypeDefinitionIndex = 55963;
 
 	class IMEJHDMBAFJ
 	{

@@ -4,20 +4,19 @@
 #include "unitysdk/System/Object.h"
 class MJNGFEGNCOA;
 
-#define MJNGFEGNCOA_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9693F0)
-#define MJNGFEGNCOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB9693E0)
+#define MJNGFEGNCOA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3AE330)
+#define MJNGFEGNCOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AE320)
 
-inline static constexpr unsigned int MJNGFEGNCOA_TypeDefinitionIndex = 54125;
+inline static constexpr unsigned int MJNGFEGNCOA_TypeDefinitionIndex = 55289;
 
 	class MJNGFEGNCOA : public ::System::Object
 	{
 	public:
-		::System::Single LLBFAIGNNEC; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint BMBLJAEBOPK; // 0x18
+		::RPG::GameCore::FixPoint BMBLJAEBOPK; // 0x10
+		::System::Single LLBFAIGNNEC; // 0x18
 		static ::MJNGFEGNCOA** StaticGet_COAHELMPGLI()
 		{
-			return (::MJNGFEGNCOA**)UnitySDK::FromName("", "MJNGFEGNCOA")->GetStaticField(0x2F5E0);
+			return (::MJNGFEGNCOA**)UnitySDK::FromName("", "MJNGFEGNCOA")->GetStaticField(0x2E340);
 		}
 
 		::System::Void _ctor()

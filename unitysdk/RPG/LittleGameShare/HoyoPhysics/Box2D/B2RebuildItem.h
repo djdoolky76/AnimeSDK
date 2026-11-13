@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2RebuildItem_TypeDefinitionIndex = 36737;
+	inline static constexpr unsigned int B2RebuildItem_TypeDefinitionIndex = 37665;
 
 	struct alignas(4) B2RebuildItem
 	{

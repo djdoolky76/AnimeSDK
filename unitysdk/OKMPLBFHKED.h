@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define OKMPLBFHKED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C284F0)
+#define OKMPLBFHKED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3EAC280)
 
-inline static constexpr unsigned int OKMPLBFHKED_TypeDefinitionIndex = 41471;
+inline static constexpr unsigned int OKMPLBFHKED_TypeDefinitionIndex = 42446;
 
 	struct alignas(4) OKMPLBFHKED
 	{

@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightTraitSPBattleAreaRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITSPBATTLEAREAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71AF40)
-#define RPG_GAMECORE_GRIDFIGHTTRAITSPBATTLEAREAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71ADC0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITSPBATTLEAREAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA69CE0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITSPBATTLEAREAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA69B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitSPBattleAreaRow_TypeDefinitionIndex = 13682;
+	inline static constexpr unsigned int GridFightTraitSPBattleAreaRow_TypeDefinitionIndex = 13809;
 
 	class GridFightTraitSPBattleAreaRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BattleAreaNumList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 TraitLayer; // 0x1C
+		::System::UInt32 TraitLayer; // 0x18
+		::System::UInt32 ID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTTRAITSPBATTLEAREAROW_CTOR_OFFSET))(this);

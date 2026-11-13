@@ -4,18 +4,18 @@
 class LOMPEEDFPLE;
 namespace System { class Object; }
 
-#define LOMPEEDFPLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E998D20)
-#define LOMPEEDFPLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E998D60)
-#define LOMPEEDFPLE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E998D70)
+#define LOMPEEDFPLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200DC480)
+#define LOMPEEDFPLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200DC4C0)
+#define LOMPEEDFPLE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x200DC4D0)
 
-inline static constexpr unsigned int LOMPEEDFPLE___c_TypeDefinitionIndex = 30023;
+inline static constexpr unsigned int LOMPEEDFPLE___c_TypeDefinitionIndex = 30921;
 
 	class LOMPEEDFPLE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42F90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45A70);
 		}
 
 		static ::System::Void _cctor()

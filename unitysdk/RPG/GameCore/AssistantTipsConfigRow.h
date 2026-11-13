@@ -6,20 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AssistantTipsConfigRow; }
 
-#define RPG_GAMECORE_ASSISTANTTIPSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D34C0)
-#define RPG_GAMECORE_ASSISTANTTIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D32C0)
+#define RPG_GAMECORE_ASSISTANTTIPSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB8760)
+#define RPG_GAMECORE_ASSISTANTTIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEB8560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistantTipsConfigRow_TypeDefinitionIndex = 12676;
+	inline static constexpr unsigned int AssistantTipsConfigRow_TypeDefinitionIndex = 12743;
 
 	class AssistantTipsConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::RPG::Client::TextID Content; // 0x18
-		::System::UInt32 TipsID; // 0x28
-		::RPG::GameCore::AssistantRuleType TipsRule; // 0x2C
+		::System::UInt32 TipsID; // 0x18
+		::RPG::GameCore::AssistantRuleType TipsRule; // 0x1C
+		::RPG::Client::TextID Content; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTANTTIPSCONFIGROW_CTOR_OFFSET))(this);

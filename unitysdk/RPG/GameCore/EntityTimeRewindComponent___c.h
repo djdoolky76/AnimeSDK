@@ -6,25 +6,25 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE66CA60)
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE66CAA0)
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__MANUALSNAPLOOPREWINDRATIO_B__269_0_OFFSET UNITYSDK_OFFSET(0xE66CAB0)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x174F7ED0)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x174F7F10)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__MANUALSNAPLOOPREWINDRATIO_B__269_0_OFFSET UNITYSDK_OFFSET(0x174F7F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTimeRewindComponent___c_TypeDefinitionIndex = 57471;
+	inline static constexpr unsigned int EntityTimeRewindComponent___c_TypeDefinitionIndex = 58699;
 
 	class EntityTimeRewindComponent___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x5C310);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x70480);
 		}
 
 		static ::System::Action_2<::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*>** StaticGet___9__269_0()
 		{
-			return (::System::Action_2<::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x5C318);
+			return (::System::Action_2<::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x70488);
 		}
 
 		static ::System::Void _cctor()

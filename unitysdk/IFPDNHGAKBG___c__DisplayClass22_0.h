@@ -4,10 +4,10 @@
 class IFPDNHGAKBG;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define IFPDNHGAKBG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15F25F70)
-#define IFPDNHGAKBG___C__DISPLAYCLASS22_0___PERFORMELITEANDBOSSSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15F26E30)
+#define IFPDNHGAKBG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2E390)
+#define IFPDNHGAKBG___C__DISPLAYCLASS22_0___PERFORMELITEANDBOSSSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1BC2F260)
 
-inline static constexpr unsigned int IFPDNHGAKBG___c__DisplayClass22_0_TypeDefinitionIndex = 75264;
+inline static constexpr unsigned int IFPDNHGAKBG___c__DisplayClass22_0_TypeDefinitionIndex = 77591;
 
 	class IFPDNHGAKBG___c__DisplayClass22_0 : public ::System::Object
 	{

@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapSpaceTypeConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8054A0)
-#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D804DB0)
+#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08F560)
+#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F08EE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapSpaceTypeConfigRow_TypeDefinitionIndex = 14010;
+	inline static constexpr unsigned int MapSpaceTypeConfigRow_TypeDefinitionIndex = 14167;
 
 	class MapSpaceTypeConfigRow : public ::System::Object
 	{

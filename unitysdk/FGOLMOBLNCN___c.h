@@ -6,23 +6,23 @@ namespace RPG::GameCore { class RelicRecommendProperty; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FGOLMOBLNCN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15762C20)
-#define FGOLMOBLNCN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15762C60)
-#define FGOLMOBLNCN___C__GETRECOMMENDMAINAFFIXS_B__4_0_OFFSET UNITYSDK_OFFSET(0x15762C70)
+#define FGOLMOBLNCN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18A98440)
+#define FGOLMOBLNCN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18A98480)
+#define FGOLMOBLNCN___C__GETRECOMMENDMAINAFFIXS_B__4_0_OFFSET UNITYSDK_OFFSET(0x18A98490)
 
-inline static constexpr unsigned int FGOLMOBLNCN___c_TypeDefinitionIndex = 66862;
+inline static constexpr unsigned int FGOLMOBLNCN___c_TypeDefinitionIndex = 68808;
 
 	class FGOLMOBLNCN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60060);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D600);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::RelicRecommendProperty*, ::RPG::GameCore::AvatarPropertyType>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::RelicRecommendProperty*, ::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60068);
+			return (::System::Func_2<::RPG::GameCore::RelicRecommendProperty*, ::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D608);
 		}
 
 		static ::System::Void _cctor()

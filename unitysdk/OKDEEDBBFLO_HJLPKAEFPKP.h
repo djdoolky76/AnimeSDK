@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define OKDEEDBBFLO_HJLPKAEFPKP_CTOR_OFFSET UNITYSDK_OFFSET(0xBECCE90)
+#define OKDEEDBBFLO_HJLPKAEFPKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1786FD50)
 
-inline static constexpr unsigned int OKDEEDBBFLO_HJLPKAEFPKP_TypeDefinitionIndex = 71793;
+inline static constexpr unsigned int OKDEEDBBFLO_HJLPKAEFPKP_TypeDefinitionIndex = 73812;
 
 	class OKDEEDBBFLO_HJLPKAEFPKP : public ::System::Object
 	{

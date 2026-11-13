@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int FBIKChain_Smoothing_TypeDefinitionIndex = 74228;
+	inline static constexpr unsigned int FBIKChain_Smoothing_TypeDefinitionIndex = 76376;
 
 	enum class FBIKChain_Smoothing : ::System::Int32
 	{

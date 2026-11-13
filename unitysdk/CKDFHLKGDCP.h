@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToastPileIgnore; }
 
-#define CKDFHLKGDCP_CTOR_OFFSET UNITYSDK_OFFSET(0xD74FF40)
-#define CKDFHLKGDCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD74FF70)
+#define CKDFHLKGDCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD37F00)
+#define CKDFHLKGDCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD37F30)
 
-inline static constexpr unsigned int CKDFHLKGDCP_TypeDefinitionIndex = 53408;
+inline static constexpr unsigned int CKDFHLKGDCP_TypeDefinitionIndex = 54570;
 
 	class CKDFHLKGDCP
 	{

@@ -9,17 +9,17 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_ANFFLAJPOMN_OFFSET UNITYSDK_OFFSET(0xCD553F0)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_CBJBIPNAAKF_OFFSET UNITYSDK_OFFSET(0xCD551A0)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD55560)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xCD55550)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCD55080)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_MMFIOKJJMJO_OFFSET UNITYSDK_OFFSET(0xCD54D80)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD54D30)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_ANFFLAJPOMN_OFFSET UNITYSDK_OFFSET(0x1899A660)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_CBJBIPNAAKF_OFFSET UNITYSDK_OFFSET(0x1899A410)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1899A7D0)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1899A7C0)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1899A2F0)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_MMFIOKJJMJO_OFFSET UNITYSDK_OFFSET(0x18999FF0)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18999FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PetalInstanceManager_TypeDefinitionIndex = 70531;
+	inline static constexpr unsigned int Effect_PetalInstanceManager_TypeDefinitionIndex = 72506;
 
 	class Effect_PetalInstanceManager : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,14 +31,14 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::Single>* PEIKACKENHJ; // 0x40
 		::System::Collections::Generic::List_1<::RPG::Client::Effect_PetalInstance*>* GBGADBJMECH; // 0x48
 		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x50
-		static ::System::Int32* StaticGet_AMMOIPKBFIM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PetalInstanceManager")->GetStaticField(0xA800);
-		}
-
 		static ::System::Int32* StaticGet_PNLOFMICNKO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PetalInstanceManager")->GetStaticField(0xA804);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PetalInstanceManager")->GetStaticField(0xD350);
+		}
+
+		static ::System::Int32* StaticGet_AMMOIPKBFIM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PetalInstanceManager")->GetStaticField(0xD354);
 		}
 
 		::System::Void _ctor()

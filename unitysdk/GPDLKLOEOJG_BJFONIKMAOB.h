@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class KGAHHFHMPBP;
 
-#define GPDLKLOEOJG_BJFONIKMAOB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B417D0)
+#define GPDLKLOEOJG_BJFONIKMAOB_CTOR_OFFSET UNITYSDK_OFFSET(0x17DAE9F0)
 
-inline static constexpr unsigned int GPDLKLOEOJG_BJFONIKMAOB_TypeDefinitionIndex = 60318;
+inline static constexpr unsigned int GPDLKLOEOJG_BJFONIKMAOB_TypeDefinitionIndex = 61603;
 
 	class GPDLKLOEOJG_BJFONIKMAOB : public ::System::Object
 	{

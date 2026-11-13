@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchProjectileHitPos; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NELAJPKAHLM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB699D0)
-#define NELAJPKAHLM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB69A20)
+#define NELAJPKAHLM_CTOR_OFFSET UNITYSDK_OFFSET(0x16FE9280)
+#define NELAJPKAHLM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16FE92D0)
 
-inline static constexpr unsigned int NELAJPKAHLM_TypeDefinitionIndex = 59225;
+inline static constexpr unsigned int NELAJPKAHLM_TypeDefinitionIndex = 60502;
 
 	class NELAJPKAHLM
 	{

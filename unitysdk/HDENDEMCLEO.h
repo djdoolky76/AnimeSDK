@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HDENDEMCLEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA8ECB0)
+#define HDENDEMCLEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA95E10)
 
-inline static constexpr unsigned int HDENDEMCLEO_TypeDefinitionIndex = 42335;
+inline static constexpr unsigned int HDENDEMCLEO_TypeDefinitionIndex = 43310;
 
 	class HDENDEMCLEO : public ::System::Object
 	{

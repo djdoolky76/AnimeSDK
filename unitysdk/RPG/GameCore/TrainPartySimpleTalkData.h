@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartySimpleTalkData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYSIMPLETALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC07740)
-#define RPG_GAMECORE_TRAINPARTYSIMPLETALKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC07620)
+#define RPG_GAMECORE_TRAINPARTYSIMPLETALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E311020)
+#define RPG_GAMECORE_TRAINPARTYSIMPLETALKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E310F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartySimpleTalkData_TypeDefinitionIndex = 22361;
+	inline static constexpr unsigned int TrainPartySimpleTalkData_TypeDefinitionIndex = 22770;
 
 	class TrainPartySimpleTalkData : public ::RPG::GameCore::JsonConfig
 	{

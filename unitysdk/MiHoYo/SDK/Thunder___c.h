@@ -8,31 +8,31 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MIHOYO_SDK_THUNDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB054540)
-#define MIHOYO_SDK_THUNDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB054570)
-#define MIHOYO_SDK_THUNDER___C__NOTIFY_B__35_0_OFFSET UNITYSDK_OFFSET(0xB054590)
-#define MIHOYO_SDK_THUNDER___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xB054580)
+#define MIHOYO_SDK_THUNDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD30F70)
+#define MIHOYO_SDK_THUNDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD30FA0)
+#define MIHOYO_SDK_THUNDER___C__NOTIFY_B__35_0_OFFSET UNITYSDK_OFFSET(0x1DD30FC0)
+#define MIHOYO_SDK_THUNDER___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0x1DD30FB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 46298;
+	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 47326;
 
 	class Thunder___c : public ::System::Object
 	{
 	public:
 		static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__17_0()
 		{
-			return (::System::Net::Security::RemoteCertificateValidationCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x33490);
-		}
-
-		static ::System::Action** StaticGet___9__35_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x33498);
+			return (::System::Net::Security::RemoteCertificateValidationCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2B4A0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x334A0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2B4A8);
+		}
+
+		static ::System::Action** StaticGet___9__35_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2B4B0);
 		}
 
 		static ::System::Void _cctor()

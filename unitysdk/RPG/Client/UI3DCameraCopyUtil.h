@@ -5,26 +5,26 @@ namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering { class VolumeProfile; }
 
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_COPYCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xE3479D0)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xE348660)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_OVERRIDEDOFOFENVVOLUME_OFFSET UNITYSDK_OFFSET(0xE347D30)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_SWITCHVOLUMEPROFILE_OFFSET UNITYSDK_OFFSET(0xE348540)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_COPYCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x1C9CF060)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CFCF0)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_OVERRIDEDOFOFENVVOLUME_OFFSET UNITYSDK_OFFSET(0x1C9CF3C0)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_SWITCHVOLUMEPROFILE_OFFSET UNITYSDK_OFFSET(0x1C9CFBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DCameraCopyUtil_TypeDefinitionIndex = 72996;
+	inline static constexpr unsigned int UI3DCameraCopyUtil_TypeDefinitionIndex = 75108;
 
 	class UI3DCameraCopyUtil : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::VolumeProfile** StaticGet__DefaultVolumeProfile()
 		{
-			return (::UnityEngine::Rendering::VolumeProfile**)UnitySDK::FromName("RPG.Client", "UI3DCameraCopyUtil")->GetStaticField(0x25D60);
+			return (::UnityEngine::Rendering::VolumeProfile**)UnitySDK::FromName("RPG.Client", "UI3DCameraCopyUtil")->GetStaticField(0x3BAD0);
 		}
 
 		static ::UnityEngine::Rendering::VolumeProfile** StaticGet__3DUIInstanceVolumeProfile()
 		{
-			return (::UnityEngine::Rendering::VolumeProfile**)UnitySDK::FromName("RPG.Client", "UI3DCameraCopyUtil")->GetStaticField(0x25D68);
+			return (::UnityEngine::Rendering::VolumeProfile**)UnitySDK::FromName("RPG.Client", "UI3DCameraCopyUtil")->GetStaticField(0x3BAD8);
 		}
 
 		::System::Void _ctor()

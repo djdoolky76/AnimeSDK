@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IAvatarPromotionCommonRowWrap_TypeDefinitionIndex = 56548;
+	inline static constexpr unsigned int IAvatarPromotionCommonRowWrap_TypeDefinitionIndex = 57768;
 
 	class IAvatarPromotionCommonRowWrap
 	{

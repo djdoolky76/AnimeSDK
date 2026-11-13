@@ -7,20 +7,20 @@ namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client { class MatchThreeCopyPieceEffect; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD57E290)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS35_0__DOPLAYCOPYPIECEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD584460)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS35_0__DOPLAYCOPYPIECEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xD584530)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS35_0__DOPLAYCOPYPIECEEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0xD584500)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BD5A0)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS35_0__DOPLAYCOPYPIECEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1D8C4EC0)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS35_0__DOPLAYCOPYPIECEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x1D8C4F90)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS35_0__DOPLAYCOPYPIECEEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0x1D8C4F60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass35_0_TypeDefinitionIndex = 65915;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass35_0_TypeDefinitionIndex = 67847;
 
 	class MatchThreeBoard___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MatchThreeCopyPieceEffect* effect; // 0x10
-		::System::Action* __9__2; // 0x18
+		::System::Action* __9__2; // 0x10
+		::RPG::Client::MatchThreeCopyPieceEffect* effect; // 0x18
 		::RPG::Client::MatchThreeBoard* __4__this; // 0x20
 		::System::Action* onFinish; // 0x28
 		::JEANAIHDCAA* pieceData; // 0x30

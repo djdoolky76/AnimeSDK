@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class COHADEJAPEF;
 
-inline static constexpr unsigned int BDGFDMIAEAA_KMGKLEAABIB_TypeDefinitionIndex = 43135;
+inline static constexpr unsigned int BDGFDMIAEAA_KMGKLEAABIB_TypeDefinitionIndex = 44116;
 
 	struct alignas(8) BDGFDMIAEAA_KMGKLEAABIB
 	{

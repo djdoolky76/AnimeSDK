@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 class FENHNPHBIBA;
 namespace System { class String; }
 
-#define FENHNPHBIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB46C0)
-#define FENHNPHBIBA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDB46D0)
-#define FENHNPHBIBA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDB4670)
+#define FENHNPHBIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E44A440)
+#define FENHNPHBIBA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E44A450)
+#define FENHNPHBIBA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E44A3F0)
 
-inline static constexpr unsigned int FENHNPHBIBA_TypeDefinitionIndex = 16834;
+inline static constexpr unsigned int FENHNPHBIBA_TypeDefinitionIndex = 17001;
 
 	class FENHNPHBIBA : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:
 		::System::String* HEOANNBNGEI; // 0x10
 		::System::String* BJFKIIAHHJA; // 0x18
-		::System::Int32 ICGEPEDFMAL; // 0x20
+		::RPG::GameCore::MarbleTarget HILNFHCPEAD; // 0x20
 		::System::UInt32 MAGEFLCHECM; // 0x24
 		::System::Int32 IANALINIBNG; // 0x28
-		::RPG::GameCore::MarbleTarget HILNFHCPEAD; // 0x2C
+		::System::Int32 ICGEPEDFMAL; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FENHNPHBIBA_CTOR_OFFSET))(this);

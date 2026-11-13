@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define MIHOYO_SDK_HREFCLICKEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE53B30)
+#define MIHOYO_SDK_HREFCLICKEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B69C7E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HrefClickEvent_TypeDefinitionIndex = 8021;
+	inline static constexpr unsigned int HrefClickEvent_TypeDefinitionIndex = 8030;
 
 	class HrefClickEvent
 	{

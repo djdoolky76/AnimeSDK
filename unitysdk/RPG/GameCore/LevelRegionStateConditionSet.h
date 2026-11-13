@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelRegionStateCondition; }
 namespace RPG::GameCore { class LevelRegionStateConditionSet; }
 
-#define RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79E9C0)
-#define RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79E890)
+#define RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24D7C0)
+#define RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F24D690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionStateConditionSet_TypeDefinitionIndex = 17384;
+	inline static constexpr unsigned int LevelRegionStateConditionSet_TypeDefinitionIndex = 17552;
 
 	class LevelRegionStateConditionSet : public ::RPG::GameCore::JsonConfig
 	{

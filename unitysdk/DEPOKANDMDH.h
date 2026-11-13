@@ -4,10 +4,10 @@
 namespace RPG::Client { class AlleyOrderData; }
 namespace RPG::Client { class AlleySpecialOrderData; }
 
-#define DEPOKANDMDH_JOLJKLAFHEP_OFFSET UNITYSDK_OFFSET(0xE51F940)
-#define DEPOKANDMDH_OHFNGKOCCIO_OFFSET UNITYSDK_OFFSET(0xE51F9D0)
+#define DEPOKANDMDH_JOLJKLAFHEP_OFFSET UNITYSDK_OFFSET(0x1B387290)
+#define DEPOKANDMDH_OHFNGKOCCIO_OFFSET UNITYSDK_OFFSET(0x1B387310)
 
-inline static constexpr unsigned int DEPOKANDMDH_TypeDefinitionIndex = 62263;
+inline static constexpr unsigned int DEPOKANDMDH_TypeDefinitionIndex = 63676;
 
 	class DEPOKANDMDH : public ::System::Object
 	{

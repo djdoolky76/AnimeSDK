@@ -7,26 +7,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerCupRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERCUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EF2B0)
-#define RPG_GAMECORE_DRINKMAKERCUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5EEF00)
+#define RPG_GAMECORE_DRINKMAKERCUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CCD00)
+#define RPG_GAMECORE_DRINKMAKERCUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3CC950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCupRow_TypeDefinitionIndex = 13166;
+	inline static constexpr unsigned int DrinkMakerCupRow_TypeDefinitionIndex = 13240;
 
 	class DrinkMakerCupRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x10
-		::Il2CppArray<::System::UInt32>* IceCount; // 0x18
-		::System::String* PrefabPath; // 0x20
-		::System::String* AudioEvent; // 0x28
-		::Il2CppArray<::System::Single>* PerLayerHeight; // 0x30
-		::System::String* IconPath; // 0x38
+		::Il2CppArray<::System::UInt32>* IceCount; // 0x10
+		::System::String* PrefabPath; // 0x18
+		::System::String* AudioEvent; // 0x20
+		::System::String* IconPath; // 0x28
+		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x30
+		::Il2CppArray<::System::Single>* PerLayerHeight; // 0x38
 		::System::UInt32 CupID; // 0x40
-		::System::UInt32 Capacity; // 0x44
+		::RPG::GameCore::DrinkMakerCupType Type; // 0x44
 		::RPG::Client::TextID CupName; // 0x48
-		::RPG::GameCore::DrinkMakerCupType Type; // 0x58
+		::System::UInt32 Capacity; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERCUPROW_CTOR_OFFSET))(this);

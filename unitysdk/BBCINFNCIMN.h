@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByActionCountDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBCINFNCIMN_CTOR_OFFSET UNITYSDK_OFFSET(0x15E76070)
-#define BBCINFNCIMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E76150)
+#define BBCINFNCIMN_CTOR_OFFSET UNITYSDK_OFFSET(0x199EE7A0)
+#define BBCINFNCIMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199EE880)
 
-inline static constexpr unsigned int BBCINFNCIMN_TypeDefinitionIndex = 54799;
+inline static constexpr unsigned int BBCINFNCIMN_TypeDefinitionIndex = 55968;
 
 	class BBCINFNCIMN
 	{

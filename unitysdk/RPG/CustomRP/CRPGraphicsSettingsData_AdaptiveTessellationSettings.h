@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/AdaptiveTessellationDrawControl.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_ADAPTIVETESSELLATIONSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD4F80)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_ADAPTIVETESSELLATIONSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C8850)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_AdaptiveTessellationSettings_TypeDefinitionIndex = 37669;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_AdaptiveTessellationSettings_TypeDefinitionIndex = 38598;
 
 	class CRPGraphicsSettingsData_AdaptiveTessellationSettings : public ::System::Object
 	{

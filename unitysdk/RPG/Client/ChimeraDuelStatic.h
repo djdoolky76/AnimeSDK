@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChimeraDuelInfoCollectionService; }
 
-#define RPG_CLIENT_CHIMERADUELSTATIC_DISPOSEINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCB37F30)
-#define RPG_CLIENT_CHIMERADUELSTATIC_GET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCB3A030)
-#define RPG_CLIENT_CHIMERADUELSTATIC_INITINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCB375D0)
-#define RPG_CLIENT_CHIMERADUELSTATIC_SET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCB3A040)
+#define RPG_CLIENT_CHIMERADUELSTATIC_DISPOSEINFOSERVICE_OFFSET UNITYSDK_OFFSET(0x1CE75710)
+#define RPG_CLIENT_CHIMERADUELSTATIC_GET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0x1CE78090)
+#define RPG_CLIENT_CHIMERADUELSTATIC_INITINFOSERVICE_OFFSET UNITYSDK_OFFSET(0x1CE74DB0)
+#define RPG_CLIENT_CHIMERADUELSTATIC_SET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0x1CE780A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelStatic_TypeDefinitionIndex = 63308;
+	inline static constexpr unsigned int ChimeraDuelStatic_TypeDefinitionIndex = 64746;
 
 	class ChimeraDuelStatic : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChimeraDuelInfoCollectionService** StaticGet__InfoService_k__BackingField()
 		{
-			return (::RPG::Client::ChimeraDuelInfoCollectionService**)UnitySDK::FromName("RPG.Client", "ChimeraDuelStatic")->GetStaticField(0xE1E0);
+			return (::RPG::Client::ChimeraDuelInfoCollectionService**)UnitySDK::FromName("RPG.Client", "ChimeraDuelStatic")->GetStaticField(0x10DF0);
 		}
 
 		static ::RPG::Client::ChimeraDuelInfoCollectionService* get_InfoService()

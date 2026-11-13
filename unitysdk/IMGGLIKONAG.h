@@ -3,33 +3,33 @@
 #include "unitysdk/RPG/GameCore/SwordTrainingProperty.h"
 #include "unitysdk/System/Object.h"
 
-#define IMGGLIKONAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x164C6620)
-#define IMGGLIKONAG_FMHOOKOBIBK_OFFSET UNITYSDK_OFFSET(0x164C6480)
-#define IMGGLIKONAG_LEJJJLKKCBC_OFFSET UNITYSDK_OFFSET(0x164C6400)
+#define IMGGLIKONAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5D2DA0)
+#define IMGGLIKONAG_FMHOOKOBIBK_OFFSET UNITYSDK_OFFSET(0x1A5D2C00)
+#define IMGGLIKONAG_LEJJJLKKCBC_OFFSET UNITYSDK_OFFSET(0x1A5D2B80)
 
-inline static constexpr unsigned int IMGGLIKONAG_TypeDefinitionIndex = 54407;
+inline static constexpr unsigned int IMGGLIKONAG_TypeDefinitionIndex = 55571;
 
 	class IMGGLIKONAG : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_KEPDKKAIMGJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "IMGGLIKONAG")->GetStaticField(0x14DD0);
-		}
-
-		static ::System::Int32* StaticGet_MOHIJBKOFDA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "IMGGLIKONAG")->GetStaticField(0x14DD4);
-		}
-
 		static ::System::Int32* StaticGet_OFKBAHANNEC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "IMGGLIKONAG")->GetStaticField(0x14DD8);
+			return (::System::Int32*)UnitySDK::FromName("", "IMGGLIKONAG")->GetStaticField(0x120C0);
 		}
 
 		static ::System::Int32* StaticGet_DKJECKNBKCA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "IMGGLIKONAG")->GetStaticField(0x14DDC);
+			return (::System::Int32*)UnitySDK::FromName("", "IMGGLIKONAG")->GetStaticField(0x120C4);
+		}
+
+		static ::System::Int32* StaticGet_KEPDKKAIMGJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "IMGGLIKONAG")->GetStaticField(0x120C8);
+		}
+
+		static ::System::Int32* StaticGet_MOHIJBKOFDA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "IMGGLIKONAG")->GetStaticField(0x120CC);
 		}
 
 		static ::System::Void _cctor()

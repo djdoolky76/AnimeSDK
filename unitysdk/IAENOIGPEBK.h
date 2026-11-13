@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KDFFHMDFALG;
 
-#define IAENOIGPEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF6E00)
-#define IAENOIGPEBK_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x15DF6E10)
+#define IAENOIGPEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x19417610)
+#define IAENOIGPEBK_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x19417620)
 
-inline static constexpr unsigned int IAENOIGPEBK_TypeDefinitionIndex = 60633;
+inline static constexpr unsigned int IAENOIGPEBK_TypeDefinitionIndex = 62010;
 
 	class IAENOIGPEBK : public ::System::Object
 	{

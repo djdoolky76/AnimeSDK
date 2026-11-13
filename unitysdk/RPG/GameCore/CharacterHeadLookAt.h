@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CharacterHeadConstraint; }
 namespace RPG::GameCore { class CharacterHeadLookAt; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERHEADLOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5440B0)
-#define RPG_GAMECORE_CHARACTERHEADLOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5440C0)
-#define RPG_GAMECORE_CHARACTERHEADLOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D544070)
+#define RPG_GAMECORE_CHARACTERHEADLOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F345860)
+#define RPG_GAMECORE_CHARACTERHEADLOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F345870)
+#define RPG_GAMECORE_CHARACTERHEADLOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F345820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterHeadLookAt_TypeDefinitionIndex = 20865;
+	inline static constexpr unsigned int CharacterHeadLookAt_TypeDefinitionIndex = 21202;
 
 	class CharacterHeadLookAt : public ::RPG::GameCore::TaskConfig
 	{

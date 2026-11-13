@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/X509Certificates/X509CertificateImpl.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2IMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F080830)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2IMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7A1A0)
 
 namespace System::Security::Cryptography::X509Certificates
 {

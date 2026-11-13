@@ -3,12 +3,12 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define UNITYENGINE_EXITGUIEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F417400)
-#define UNITYENGINE_EXITGUIEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4173A0)
+#define UNITYENGINE_EXITGUIEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E22EB30)
+#define UNITYENGINE_EXITGUIEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E22EAD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ExitGUIException_TypeDefinitionIndex = 5188;
+	inline static constexpr unsigned int ExitGUIException_TypeDefinitionIndex = 5193;
 
 	class ExitGUIException : public ::System::Exception
 	{

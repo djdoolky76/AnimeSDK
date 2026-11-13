@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/GroupCategory.h"
 #include "unitysdk/System/Object.h"
 
-#define MALIFMHGNFC_AOBBAOPIHHB_OFFSET UNITYSDK_OFFSET(0xB84C650)
+#define MALIFMHGNFC_AOBBAOPIHHB_OFFSET UNITYSDK_OFFSET(0x1B8141B0)
 
-inline static constexpr unsigned int MALIFMHGNFC_TypeDefinitionIndex = 62195;
+inline static constexpr unsigned int MALIFMHGNFC_TypeDefinitionIndex = 63608;
 
 	class MALIFMHGNFC : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/Entitas/EntitasException.h"
 namespace System { class String; }
 
-#define ENTITAS_ENTITYISNOTDESTROYEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1674D9A0)
+#define ENTITAS_ENTITYISNOTDESTROYEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x20854C30)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityIsNotDestroyedException_TypeDefinitionIndex = 9995;
+	inline static constexpr unsigned int EntityIsNotDestroyedException_TypeDefinitionIndex = 10003;
 
 	class EntityIsNotDestroyedException : public ::Entitas::EntitasException
 	{

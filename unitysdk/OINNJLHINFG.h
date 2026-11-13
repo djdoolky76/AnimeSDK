@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class NCDOCGFHEEL;
 
-#define OINNJLHINFG_NCJLIOPPOJB_OFFSET UNITYSDK_OFFSET(0xBE9B370)
+#define OINNJLHINFG_NCJLIOPPOJB_OFFSET UNITYSDK_OFFSET(0x1949EC00)
 
-inline static constexpr unsigned int OINNJLHINFG_TypeDefinitionIndex = 62440;
+inline static constexpr unsigned int OINNJLHINFG_TypeDefinitionIndex = 63853;
 
 	class OINNJLHINFG : public ::System::Object
 	{

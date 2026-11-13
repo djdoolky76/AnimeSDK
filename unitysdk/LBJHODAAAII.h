@@ -7,44 +7,44 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LBJHODAAAII_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5F8EC0)
-#define LBJHODAAAII_CJMELJFNFKL_OFFSET UNITYSDK_OFFSET(0xB5F7510)
-#define LBJHODAAAII_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F8CA0)
-#define LBJHODAAAII_EDCIHLKGGNH_OFFSET UNITYSDK_OFFSET(0xB5F76A0)
-#define LBJHODAAAII_GNLHEAGBDJP_OFFSET UNITYSDK_OFFSET(0xB5F7580)
-#define LBJHODAAAII_HLIEALDJAKG_OFFSET UNITYSDK_OFFSET(0xB5F6B90)
-#define LBJHODAAAII_HLLIMGHEIHI_OFFSET UNITYSDK_OFFSET(0xB5F7C50)
-#define LBJHODAAAII_JKKEHLJODPN_OFFSET UNITYSDK_OFFSET(0xB5F8800)
-#define LBJHODAAAII_LJOAIGAJGEB_OFFSET UNITYSDK_OFFSET(0xB5F6B00)
-#define LBJHODAAAII_LKPFKCEKOFJ_OFFSET UNITYSDK_OFFSET(0xB5F68F0)
-#define LBJHODAAAII_LLAAACJBCLJ_OFFSET UNITYSDK_OFFSET(0xB5F8080)
-#define LBJHODAAAII_MELPHDNOFGH_OFFSET UNITYSDK_OFFSET(0xB5F7960)
-#define LBJHODAAAII_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xB5F7790)
-#define LBJHODAAAII_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB5F7C10)
-#define LBJHODAAAII_NPNGMPJGJHB_OFFSET UNITYSDK_OFFSET(0xB5F86B0)
-#define LBJHODAAAII_PGFLJCIDFKE_OFFSET UNITYSDK_OFFSET(0xB5F83A0)
+#define LBJHODAAAII_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B29D3C0)
+#define LBJHODAAAII_CJMELJFNFKL_OFFSET UNITYSDK_OFFSET(0x1B29BA10)
+#define LBJHODAAAII_CTOR_OFFSET UNITYSDK_OFFSET(0x1B29D1A0)
+#define LBJHODAAAII_EDCIHLKGGNH_OFFSET UNITYSDK_OFFSET(0x1B29BBA0)
+#define LBJHODAAAII_GNLHEAGBDJP_OFFSET UNITYSDK_OFFSET(0x1B29BA80)
+#define LBJHODAAAII_HLIEALDJAKG_OFFSET UNITYSDK_OFFSET(0x1B29B090)
+#define LBJHODAAAII_HLLIMGHEIHI_OFFSET UNITYSDK_OFFSET(0x1B29C150)
+#define LBJHODAAAII_JKKEHLJODPN_OFFSET UNITYSDK_OFFSET(0x1B29CD00)
+#define LBJHODAAAII_LJOAIGAJGEB_OFFSET UNITYSDK_OFFSET(0x1B29B000)
+#define LBJHODAAAII_LKPFKCEKOFJ_OFFSET UNITYSDK_OFFSET(0x1B29ADF0)
+#define LBJHODAAAII_LLAAACJBCLJ_OFFSET UNITYSDK_OFFSET(0x1B29C580)
+#define LBJHODAAAII_MELPHDNOFGH_OFFSET UNITYSDK_OFFSET(0x1B29BE60)
+#define LBJHODAAAII_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0x1B29BC90)
+#define LBJHODAAAII_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1B29C110)
+#define LBJHODAAAII_NPNGMPJGJHB_OFFSET UNITYSDK_OFFSET(0x1B29CBB0)
+#define LBJHODAAAII_PGFLJCIDFKE_OFFSET UNITYSDK_OFFSET(0x1B29C8A0)
 
-inline static constexpr unsigned int LBJHODAAAII_TypeDefinitionIndex = 47270;
+inline static constexpr unsigned int LBJHODAAAII_TypeDefinitionIndex = 48298;
 
 	class LBJHODAAAII : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* LNFAGKMDDLE; // 0x10
-		::System::Collections::Generic::List_1<::System::Object*>* EHHNMIAHFCI; // 0x18
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* IMOCKKGEHMB; // 0x20
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Boolean>*>* GMLFCKNGLHF; // 0x28
-		::System::Collections::Generic::List_1<::System::Object*>* APDHIPDCDEE; // 0x30
-		::System::Collections::Generic::List_1<::System::Object*>* GJHCOKJAGBH; // 0x38
-		::System::Int32 ICLJBKKCPOG; // 0x40
-		::System::Int32 KPODIDAJNJJ; // 0x44
-		::System::Single FMCAINKKPCL; // 0x48
+		::System::Collections::Generic::List_1<::System::Object*>* EHHNMIAHFCI; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* APDHIPDCDEE; // 0x18
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* LNFAGKMDDLE; // 0x20
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* IMOCKKGEHMB; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* GJHCOKJAGBH; // 0x30
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Boolean>*>* GMLFCKNGLHF; // 0x38
+		::System::Int32 LCDIMCNJPLL; // 0x40
+		::System::Int32 AJIGOJPKIHM; // 0x44
+		::System::Single FDCIFIADELD; // 0x48
 		::UnityEngine::Vector3 AEBBBLPDDDP; // 0x4C
-		::System::Single FDCIFIADELD; // 0x58
-		::System::Int32 LCDIMCNJPLL; // 0x5C
-		::System::Int32 AJIGOJPKIHM; // 0x60
+		::System::Single FMCAINKKPCL; // 0x58
+		::System::Int32 ICLJBKKCPOG; // 0x5C
+		::System::Int32 KPODIDAJNJJ; // 0x60
 		static ::System::Single* StaticGet_GDOIDDOHJKC()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "LBJHODAAAII")->GetStaticField(0x12AA0);
+			return (::System::Single*)UnitySDK::FromName("", "LBJHODAAAII")->GetStaticField(0x157B0);
 		}
 
 		::System::Void _ctor()

@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ADLHEPFKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C849F80)
+#define ADLHEPFKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84E210)
 
-inline static constexpr unsigned int ADLHEPFKAGE_TypeDefinitionIndex = 43781;
+inline static constexpr unsigned int ADLHEPFKAGE_TypeDefinitionIndex = 44856;
 
 	class ADLHEPFKAGE : public ::System::Object
 	{

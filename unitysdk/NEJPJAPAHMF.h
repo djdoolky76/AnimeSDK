@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class OBJANKHLNGO;
 
-#define NEJPJAPAHMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB630D0)
-#define NEJPJAPAHMF_NAKIGFCHAMF_OFFSET UNITYSDK_OFFSET(0xBB63140)
+#define NEJPJAPAHMF_CTOR_OFFSET UNITYSDK_OFFSET(0x16FE2A00)
+#define NEJPJAPAHMF_NAKIGFCHAMF_OFFSET UNITYSDK_OFFSET(0x16FE2A70)
 
-inline static constexpr unsigned int NEJPJAPAHMF_TypeDefinitionIndex = 80501;
+inline static constexpr unsigned int NEJPJAPAHMF_TypeDefinitionIndex = 83281;
 
 	class NEJPJAPAHMF : public ::System::Object
 	{

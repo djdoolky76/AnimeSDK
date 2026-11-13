@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATIONREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B887BE0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATIONREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B887B80)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATIONREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F39F8B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATIONREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F39F850)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int DurationReflection_TypeDefinitionIndex = 5420;
+	inline static constexpr unsigned int DurationReflection_TypeDefinitionIndex = 5425;
 
 	class DurationReflection : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "DurationReflection")->GetStaticField(0x24B80);
+			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "DurationReflection")->GetStaticField(0x27B30);
 		}
 
 		static ::System::Void _cctor()

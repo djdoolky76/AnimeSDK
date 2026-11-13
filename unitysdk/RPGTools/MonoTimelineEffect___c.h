@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define RPGTOOLS_MONOTIMELINEEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE89AED0)
-#define RPGTOOLS_MONOTIMELINEEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE89AF00)
-#define RPGTOOLS_MONOTIMELINEEFFECT___C__ONENABALEPOSM_B__47_0_OFFSET UNITYSDK_OFFSET(0xE89AF10)
+#define RPGTOOLS_MONOTIMELINEEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD4D8B0)
+#define RPGTOOLS_MONOTIMELINEEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD4D8E0)
+#define RPGTOOLS_MONOTIMELINEEFFECT___C__ONENABALEPOSM_B__47_0_OFFSET UNITYSDK_OFFSET(0x1BD4D8F0)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int MonoTimelineEffect___c_TypeDefinitionIndex = 47780;
+	inline static constexpr unsigned int MonoTimelineEffect___c_TypeDefinitionIndex = 48811;
 
 	class MonoTimelineEffect___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__47_0()
 		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)UnitySDK::FromName("RPGTools", "<>c")->GetStaticField(0x6F7C0);
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)UnitySDK::FromName("RPGTools", "<>c")->GetStaticField(0x739E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPGTools", "<>c")->GetStaticField(0x6F7C8);
+			return (::System::Object**)UnitySDK::FromName("RPGTools", "<>c")->GetStaticField(0x739E8);
 		}
 
 		static ::System::Void _cctor()

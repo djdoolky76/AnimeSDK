@@ -5,16 +5,16 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define EFKIODJNHHJ___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A56D10)
-#define EFKIODJNHHJ___C__DISPLAYCLASS3_0__FILTERMODIFIERTOINFECT_B__0_OFFSET UNITYSDK_OFFSET(0x13A56DF0)
+#define EFKIODJNHHJ___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A340C50)
+#define EFKIODJNHHJ___C__DISPLAYCLASS3_0__FILTERMODIFIERTOINFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1A340D30)
 
-inline static constexpr unsigned int EFKIODJNHHJ___c__DisplayClass3_0_TypeDefinitionIndex = 55110;
+inline static constexpr unsigned int EFKIODJNHHJ___c__DisplayClass3_0_TypeDefinitionIndex = 56287;
 
 	class EFKIODJNHHJ___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* flags; // 0x10
-		::Il2CppArray<::RPG::GameCore::EnumStatusType>* status; // 0x18
+		::Il2CppArray<::RPG::GameCore::EnumStatusType>* status; // 0x10
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* flags; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFKIODJNHHJ___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class OFCMIIFENGK;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define OFCMIIFENGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2385D0)
-#define OFCMIIFENGK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2385E0)
-#define OFCMIIFENGK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2385A0)
+#define OFCMIIFENGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E611FE0)
+#define OFCMIIFENGK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E611FF0)
+#define OFCMIIFENGK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E611FB0)
 
-inline static constexpr unsigned int OFCMIIFENGK_TypeDefinitionIndex = 10198;
+inline static constexpr unsigned int OFCMIIFENGK_TypeDefinitionIndex = 10207;
 
 	class OFCMIIFENGK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* FENLJGPOGJP; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KEHEFLHCENE; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KEHEFLHCENE; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* FENLJGPOGJP; // 0x20
 		::System::Boolean DIOGHCPEMMB; // 0x28
 		::System::Void _ctor()
 		{

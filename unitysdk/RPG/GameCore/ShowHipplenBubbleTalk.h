@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class ShowHipplenBubbleTalk; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB34D0)
-#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB34E0)
-#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB3490)
+#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EC640)
+#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3EC650)
+#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3EC600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHipplenBubbleTalk_TypeDefinitionIndex = 21300;
+	inline static constexpr unsigned int ShowHipplenBubbleTalk_TypeDefinitionIndex = 21643;
 
 	class ShowHipplenBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavVertexType_TypeDefinitionIndex = 74557;
+	inline static constexpr unsigned int NavVertexType_TypeDefinitionIndex = 76705;
 
 	enum class NavVertexType : ::System::Int32
 	{

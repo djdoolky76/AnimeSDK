@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_NAVMESHOBSTACLEPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xD9726C0)
+#define RPG_CLIENT_NAVMESHOBSTACLEPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C5AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NavMeshObstacleParams_TypeDefinitionIndex = 68638;
+	inline static constexpr unsigned int NavMeshObstacleParams_TypeDefinitionIndex = 70586;
 
 	class NavMeshObstacleParams : public ::System::Object
 	{

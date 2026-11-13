@@ -5,23 +5,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MEDCLDPMDAA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8B6020)
-#define MEDCLDPMDAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B6060)
-#define MEDCLDPMDAA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xB8B6070)
+#define MEDCLDPMDAA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x183F7C40)
+#define MEDCLDPMDAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x183F7C80)
+#define MEDCLDPMDAA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x183F7C90)
 
-inline static constexpr unsigned int MEDCLDPMDAA___c_TypeDefinitionIndex = 73459;
+inline static constexpr unsigned int MEDCLDPMDAA___c_TypeDefinitionIndex = 75582;
 
 	class MEDCLDPMDAA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FFD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72F50);
 		}
 
 		static ::System::Func_2<::System::Boolean, ::System::String*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FFD8);
+			return (::System::Func_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72F58);
 		}
 
 		static ::System::Void _cctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BIHGIFHFOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88CDB0)
+#define BIHGIFHFOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B7570)
 
-inline static constexpr unsigned int BIHGIFHFOGJ_TypeDefinitionIndex = 43245;
+inline static constexpr unsigned int BIHGIFHFOGJ_TypeDefinitionIndex = 44226;
 
 	class BIHGIFHFOGJ : public ::System::Attribute
 	{

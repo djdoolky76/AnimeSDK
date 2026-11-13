@@ -8,23 +8,23 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDE67A0)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1BDEAEB0)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x1BDEB410)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__2_OFFSET UNITYSDK_OFFSET(0x1BDEB050)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x196318A0)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x19636420)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x19636980)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__2_OFFSET UNITYSDK_OFFSET(0x196365C0)
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass47_0_TypeDefinitionIndex = 8364;
+	inline static constexpr unsigned int BindManager___c__DisplayClass47_0_TypeDefinitionIndex = 8373;
 
 	class BindManager___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::Windows::OS::Channel::BindManager* __4__this; // 0x10
-		::System::String* reactivateTicket; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* __9__2; // 0x18
 		::MiHoYo::SDK::UI::OS::IAlertDialog* alertDialog; // 0x20
 		::System::Action* completeCallback; // 0x28
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* __9__2; // 0x30
+		::System::String* reactivateTicket; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS47_0_CTOR_OFFSET))(this);

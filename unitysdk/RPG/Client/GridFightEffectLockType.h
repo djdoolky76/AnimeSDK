@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectLockType_TypeDefinitionIndex = 64574;
+	inline static constexpr unsigned int GridFightEffectLockType_TypeDefinitionIndex = 66104;
 
 	enum class GridFightEffectLockType : ::System::Int32
 	{

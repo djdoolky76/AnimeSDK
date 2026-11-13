@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_ORBSPAWNCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDA10030)
+#define RPG_CLIENT_ORBSPAWNCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0E0A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OrbSpawnConfig_TypeDefinitionIndex = 64459;
+	inline static constexpr unsigned int OrbSpawnConfig_TypeDefinitionIndex = 65945;
 
 	class OrbSpawnConfig : public ::System::Object
 	{

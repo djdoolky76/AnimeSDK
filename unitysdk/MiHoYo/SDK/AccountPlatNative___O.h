@@ -7,24 +7,24 @@ namespace MiHoYo::SDK { class AccountPlatNative_HoYoSDKPluginUICallback; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative___O_TypeDefinitionIndex = 46092;
+	inline static constexpr unsigned int AccountPlatNative___O_TypeDefinitionIndex = 47121;
 
 	class AccountPlatNative___O : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::AccountPlatNative_HoYoSDKNotification** StaticGet__0___HoYoSDKInternalNotification()
-		{
-			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKNotification**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1DD30);
-		}
-
 		static ::MiHoYo::SDK::AccountPlatNative_HoYoSDKNativeCallback** StaticGet__2___HoYoSDKInternalCallback()
 		{
-			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKNativeCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1DD38);
+			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKNativeCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x17390);
+		}
+
+		static ::MiHoYo::SDK::AccountPlatNative_HoYoSDKNotification** StaticGet__0___HoYoSDKInternalNotification()
+		{
+			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKNotification**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x17398);
 		}
 
 		static ::MiHoYo::SDK::AccountPlatNative_HoYoSDKPluginUICallback** StaticGet__1___HoYoSDKInternalPluginUICallback()
 		{
-			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKPluginUICallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1DD40);
+			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKPluginUICallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x173A0);
 		}
 
 	};

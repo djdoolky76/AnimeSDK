@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHaveLockTargetInCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DPIJJFDKCMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1263BAC0)
-#define DPIJJFDKCMB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1263BAF0)
+#define DPIJJFDKCMB_CTOR_OFFSET UNITYSDK_OFFSET(0x191CA250)
+#define DPIJJFDKCMB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x191CA280)
 
-inline static constexpr unsigned int DPIJJFDKCMB_TypeDefinitionIndex = 54627;
+inline static constexpr unsigned int DPIJJFDKCMB_TypeDefinitionIndex = 55793;
 
 	class DPIJJFDKCMB
 	{

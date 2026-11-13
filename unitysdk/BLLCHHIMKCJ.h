@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 
-#define BLLCHHIMKCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C591FB0)
+#define BLLCHHIMKCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1702E0D0)
 
-inline static constexpr unsigned int BLLCHHIMKCJ_TypeDefinitionIndex = 36563;
+inline static constexpr unsigned int BLLCHHIMKCJ_TypeDefinitionIndex = 37491;
 
 	class BLLCHHIMKCJ : public ::System::Object
 	{

@@ -5,22 +5,22 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace XLua { class ObjectCast; }
 
-#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2_CTOR_OFFSET UNITYSDK_OFFSET(0x14DC0DB0)
-#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2__GENCASTER_B__8_OFFSET UNITYSDK_OFFSET(0x14DC3360)
+#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2_CTOR_OFFSET UNITYSDK_OFFSET(0x12BB4200)
+#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2__GENCASTER_B__8_OFFSET UNITYSDK_OFFSET(0x12BB67B0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCasters___c__DisplayClass24_2_TypeDefinitionIndex = 50240;
+	inline static constexpr unsigned int ObjectCasters___c__DisplayClass24_2_TypeDefinitionIndex = 51291;
 
 	template <typename T1, typename T2>
 	class ObjectCasters___c__DisplayClass24_2 : public ::System::Object
 	{
 	public:
 		::XLua::ObjectCast* valueCaster; // 0x10
-		::System::Object* CS___8__locals2; // 0x18
+		::System::Type* valueType; // 0x18
 		::XLua::ObjectCast* keyCaster; // 0x20
-		::System::Type* keyType; // 0x28
-		::System::Type* valueType; // 0x30
+		::System::Object* CS___8__locals2; // 0x28
+		::System::Type* keyType; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2_CTOR_OFFSET))(this);

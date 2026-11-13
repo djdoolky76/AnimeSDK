@@ -9,14 +9,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MemberInfo; }
 
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB881F0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_B__3_OFFSET UNITYSDK_OFFSET(0x1BB89BE0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_G__ADDEMITTABLEMEMBERORIGNORE_0_OFFSET UNITYSDK_OFFSET(0x1BB882B0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_G__CREATEEMITTABLEMEMBER_1_OFFSET UNITYSDK_OFFSET(0x1BB894C0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x174C7280)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_B__3_OFFSET UNITYSDK_OFFSET(0x174C8C70)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_G__ADDEMITTABLEMEMBERORIGNORE_0_OFFSET UNITYSDK_OFFSET(0x174C7340)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_G__CREATEEMITTABLEMEMBER_1_OFFSET UNITYSDK_OFFSET(0x174C8550)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ObjectSerializationInfo___c__DisplayClass27_0_TypeDefinitionIndex = 7339;
+	inline static constexpr unsigned int ObjectSerializationInfo___c__DisplayClass27_0_TypeDefinitionIndex = 7350;
 
 	class ObjectSerializationInfo___c__DisplayClass27_0 : public ::System::Object
 	{
@@ -24,8 +24,8 @@ namespace MessagePack::Internal
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* intMembers; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* stringMembers; // 0x18
 		::System::Type* type; // 0x20
-		::System::Boolean allowPrivate; // 0x28
-		::System::Boolean isClassRecord; // 0x29
+		::System::Boolean isClassRecord; // 0x28
+		::System::Boolean allowPrivate; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);

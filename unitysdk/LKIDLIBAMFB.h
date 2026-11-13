@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/RtModifierEvent.h"
 class MNBNFBAMKKI;
 
-inline static constexpr unsigned int LKIDLIBAMFB_TypeDefinitionIndex = 53792;
+inline static constexpr unsigned int LKIDLIBAMFB_TypeDefinitionIndex = 54956;
 
 	struct alignas(8) LKIDLIBAMFB
 	{

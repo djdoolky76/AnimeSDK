@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define CINEMACHINE_CINEMACHINEPATHBASE_APPEARANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1668A4B0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_APPEARANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x19C649A0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachinePathBase_Appearance_TypeDefinitionIndex = 39820;
+	inline static constexpr unsigned int CinemachinePathBase_Appearance_TypeDefinitionIndex = 40749;
 
 	class CinemachinePathBase_Appearance : public ::System::Object
 	{

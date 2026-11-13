@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class FHNFCAKPADM;
 namespace System { class String; }
 
-#define FHNFCAKPADM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC33F0)
-#define FHNFCAKPADM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC32C0)
+#define FHNFCAKPADM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E458280)
+#define FHNFCAKPADM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E458150)
 
-inline static constexpr unsigned int FHNFCAKPADM_TypeDefinitionIndex = 23207;
+inline static constexpr unsigned int FHNFCAKPADM_TypeDefinitionIndex = 23639;
 
 	class FHNFCAKPADM : public ::RPG::GameCore::JsonConfig
 	{

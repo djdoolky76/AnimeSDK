@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RuntimeProfiler_AndroidMemoryMetricType_TypeDefinitionIndex = 37926;
+	inline static constexpr unsigned int RuntimeProfiler_AndroidMemoryMetricType_TypeDefinitionIndex = 38855;
 
 	enum class RuntimeProfiler_AndroidMemoryMetricType : ::System::Int32
 	{

@@ -11,22 +11,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CKKEOJAEBFD_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0xD75A4A0)
-#define CKKEOJAEBFD_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xD75A2A0)
-#define CKKEOJAEBFD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD759C70)
-#define CKKEOJAEBFD_CTOR_OFFSET UNITYSDK_OFFSET(0xD759D20)
-#define CKKEOJAEBFD_FHFMMFPGNOF_1_OFFSET UNITYSDK_OFFSET(0xD759D60)
-#define CKKEOJAEBFD_FHFMMFPGNOF_OFFSET UNITYSDK_OFFSET(0xD75A350)
-#define CKKEOJAEBFD_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xD75A720)
+#define CKKEOJAEBFD_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x1AD42870)
+#define CKKEOJAEBFD_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x1AD42670)
+#define CKKEOJAEBFD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1AD42040)
+#define CKKEOJAEBFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD420F0)
+#define CKKEOJAEBFD_FHFMMFPGNOF_1_OFFSET UNITYSDK_OFFSET(0x1AD42130)
+#define CKKEOJAEBFD_FHFMMFPGNOF_OFFSET UNITYSDK_OFFSET(0x1AD42720)
+#define CKKEOJAEBFD_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x1AD42AF0)
 
-inline static constexpr unsigned int CKKEOJAEBFD_TypeDefinitionIndex = 74596;
+inline static constexpr unsigned int CKKEOJAEBFD_TypeDefinitionIndex = 76744;
 
 	class CKKEOJAEBFD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::NHLGPCOOCMA*>* GGGKAACPPJF; // 0x10
-		::RPG::Client::NavMap::IMapDataSource* PBDGDLLLHMA; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* ILDKEOAMPAO; // 0x20
+		::RPG::Client::NavMap::IMapDataSource* PBDGDLLLHMA; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* ILDKEOAMPAO; // 0x18
+		::System::Collections::Generic::List_1<::NHLGPCOOCMA*>* GGGKAACPPJF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKKEOJAEBFD_CTOR_OFFSET))(this);

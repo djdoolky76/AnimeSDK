@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayVoice_Sequence; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PLAYVOICE_SEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D905890)
-#define RPG_GAMECORE_PLAYVOICE_SEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9058A0)
-#define RPG_GAMECORE_PLAYVOICE_SEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D905850)
+#define RPG_GAMECORE_PLAYVOICE_SEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6FA80)
+#define RPG_GAMECORE_PLAYVOICE_SEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF6FA90)
+#define RPG_GAMECORE_PLAYVOICE_SEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF6FA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayVoice_Sequence_TypeDefinitionIndex = 20617;
+	inline static constexpr unsigned int PlayVoice_Sequence_TypeDefinitionIndex = 20954;
 
 	class PlayVoice_Sequence : public ::RPG::GameCore::TaskConfig
 	{

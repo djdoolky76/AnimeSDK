@@ -4,20 +4,20 @@
 namespace RPG::Client { class UIController; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCF9E010)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_1__SHOWCARDREWARDREPLACEDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0xCF9E020)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_1__SHOWCARDREWARDREPLACEDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0xCF9E090)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CA040)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_1__SHOWCARDREWARDREPLACEDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x1E0CA050)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_1__SHOWCARDREWARDREPLACEDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x1E0CA0C0)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinHost___c__DisplayClass17_1_TypeDefinitionIndex = 80525;
+	inline static constexpr unsigned int FateRinHost___c__DisplayClass17_1_TypeDefinitionIndex = 83305;
 
 	template <typename T>
 	class FateRinHost___c__DisplayClass17_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::UIController* view; // 0x10
-		::System::Object* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::RPG::Client::UIController* view; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_1_CTOR_OFFSET))(this);

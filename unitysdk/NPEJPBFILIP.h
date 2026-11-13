@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Version; }
 
-#define NPEJPBFILIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF5150)
+#define NPEJPBFILIP_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF7140)
 
-inline static constexpr unsigned int NPEJPBFILIP_TypeDefinitionIndex = 82239;
+inline static constexpr unsigned int NPEJPBFILIP_TypeDefinitionIndex = 85112;
 
 	class NPEJPBFILIP : public ::System::Object
 	{

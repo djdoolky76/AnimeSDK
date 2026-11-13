@@ -4,18 +4,18 @@
 class BANELIGFLCO;
 namespace System { class Object; }
 
-#define BANELIGFLCO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E78F780)
-#define BANELIGFLCO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78F7C0)
-#define BANELIGFLCO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E78F7D0)
+#define BANELIGFLCO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2057D580)
+#define BANELIGFLCO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2057D5C0)
+#define BANELIGFLCO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2057D5D0)
 
-inline static constexpr unsigned int BANELIGFLCO___c_TypeDefinitionIndex = 31168;
+inline static constexpr unsigned int BANELIGFLCO___c_TypeDefinitionIndex = 32081;
 
 	class BANELIGFLCO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CFB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42A00);
 		}
 
 		static ::System::Void _cctor()

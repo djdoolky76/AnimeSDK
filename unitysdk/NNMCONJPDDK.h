@@ -3,10 +3,10 @@
 class JFEFADICJCM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNMCONJPDDK_CTOR_OFFSET UNITYSDK_OFFSET(0xBCC4ED0)
-#define NNMCONJPDDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCC4F00)
+#define NNMCONJPDDK_CTOR_OFFSET UNITYSDK_OFFSET(0x17A0A290)
+#define NNMCONJPDDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17A0A2C0)
 
-inline static constexpr unsigned int NNMCONJPDDK_TypeDefinitionIndex = 52833;
+inline static constexpr unsigned int NNMCONJPDDK_TypeDefinitionIndex = 53986;
 
 	class NNMCONJPDDK
 	{

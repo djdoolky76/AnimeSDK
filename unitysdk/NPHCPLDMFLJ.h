@@ -6,18 +6,18 @@ class NPHCPLDMFLJ;
 namespace RPG::GameCore { class EventManager; }
 namespace RPG::GameCore { class OnEventCallBack; }
 
-#define NPHCPLDMFLJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF6D20)
-#define NPHCPLDMFLJ_ECGALHNIEOC_OFFSET UNITYSDK_OFFSET(0xBCF6D30)
-#define NPHCPLDMFLJ_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0xBCF6D90)
-#define NPHCPLDMFLJ_ONFCJOECHHJ_OFFSET UNITYSDK_OFFSET(0xBCF6C30)
+#define NPHCPLDMFLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF90F0)
+#define NPHCPLDMFLJ_ECGALHNIEOC_OFFSET UNITYSDK_OFFSET(0x19CF9100)
+#define NPHCPLDMFLJ_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0x19CF9160)
+#define NPHCPLDMFLJ_ONFCJOECHHJ_OFFSET UNITYSDK_OFFSET(0x19CF9000)
 
-inline static constexpr unsigned int NPHCPLDMFLJ_TypeDefinitionIndex = 68238;
+inline static constexpr unsigned int NPHCPLDMFLJ_TypeDefinitionIndex = 70184;
 
 	class NPHCPLDMFLJ : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::EventManager* BIOMICKJCKG; // 0x10
-		::RPG::GameCore::OnEventCallBack* DALPPBMDAMD; // 0x18
+		::RPG::GameCore::OnEventCallBack* DALPPBMDAMD; // 0x10
+		::RPG::GameCore::EventManager* BIOMICKJCKG; // 0x18
 		::RPG::GameCore::EventType JNPBFPGIMOC; // 0x20
 		::System::UInt32 LEMGPNFEFJD; // 0x24
 		::System::Void _ctor()

@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Aggregate_TypeDefinitionIndex = 45204;
+	inline static constexpr unsigned int Aggregate_TypeDefinitionIndex = 46233;
 
 	class Aggregate : public ::System::Object
 	{

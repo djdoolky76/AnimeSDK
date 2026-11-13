@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HGGPGICGHCL_TypeDefinitionIndex = 24451;
+inline static constexpr unsigned int HGGPGICGHCL_TypeDefinitionIndex = 24910;
 
 	enum class HGGPGICGHCL : ::System::Int32
 	{

@@ -5,25 +5,25 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ILBattleStageConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLESTAGECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7492B0)
-#define RPG_GAMECORE_ILBATTLESTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D748F60)
+#define RPG_GAMECORE_ILBATTLESTAGECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE82100)
+#define RPG_GAMECORE_ILBATTLESTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE81DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleStageConfigRow_TypeDefinitionIndex = 13797;
+	inline static constexpr unsigned int ILBattleStageConfigRow_TypeDefinitionIndex = 13954;
 
 	class ILBattleStageConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonConfigPath; // 0x10
-		::Il2CppArray<::System::String*>* StageAbilityConfig; // 0x18
-		::System::UInt16 RecommendDungeonFloor; // 0x20
+		::Il2CppArray<::System::String*>* StageAbilityConfig; // 0x10
+		::System::String* JsonConfigPath; // 0x18
+		::System::UInt32 HardLevelGroup; // 0x20
+		::System::UInt32 ID; // 0x24
+		::System::UInt16 RecommendDungeonFloor; // 0x28
 		::System::Byte _padding0[0x2];
-		::System::UInt32 HardLevelGroup; // 0x24
-		::System::UInt32 CombatAdvantageGroup; // 0x28
-		::System::UInt32 EliteGroup; // 0x2C
-		::System::UInt32 Level; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 Level; // 0x2C
+		::System::UInt32 EliteGroup; // 0x30
+		::System::UInt32 CombatAdvantageGroup; // 0x34
 		::System::UInt64 RecommendIdleCrystal; // 0x38
 		::System::UInt64 CombatValue; // 0x40
 		::System::Void _ctor()

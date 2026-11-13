@@ -3,10 +3,10 @@
 class HBCJLHBBDAB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHOAJKPABPB_CTOR_OFFSET UNITYSDK_OFFSET(0x15CC8260)
-#define HHOAJKPABPB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CC8290)
+#define HHOAJKPABPB_CTOR_OFFSET UNITYSDK_OFFSET(0x19020A50)
+#define HHOAJKPABPB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19020A80)
 
-inline static constexpr unsigned int HHOAJKPABPB_TypeDefinitionIndex = 53863;
+inline static constexpr unsigned int HHOAJKPABPB_TypeDefinitionIndex = 55027;
 
 	class HHOAJKPABPB
 	{

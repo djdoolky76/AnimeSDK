@@ -6,31 +6,31 @@ namespace RPG::Client::AstraFX { class AstraFX_SkinnedMesh_PassSettingByMesh; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC69FF60)
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC69FFA0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__RESETSIMULATIONSTATE_B__5_0_OFFSET UNITYSDK_OFFSET(0xC69FFB0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__RESETSIMULATIONSTATE_B__5_1_OFFSET UNITYSDK_OFFSET(0xC6A00D0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAAA4A0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAAA4E0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__RESETSIMULATIONSTATE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1CAAA4F0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__RESETSIMULATIONSTATE_B__5_1_OFFSET UNITYSDK_OFFSET(0x1CAAA610)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFX_SkinnedMesh___c_TypeDefinitionIndex = 73694;
+	inline static constexpr unsigned int AstraFX_SkinnedMesh___c_TypeDefinitionIndex = 75817;
 
 	class AstraFX_SkinnedMesh___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x47D30);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x47D38);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x57DC0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x47D40);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x57DC8);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x57DD0);
 		}
 
 		static ::System::Void _cctor()

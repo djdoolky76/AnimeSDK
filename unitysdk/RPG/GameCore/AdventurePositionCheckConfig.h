@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventurePositionCheckConfig; }
 
-#define RPG_GAMECORE_ADVENTUREPOSITIONCHECKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39ECD0)
-#define RPG_GAMECORE_ADVENTUREPOSITIONCHECKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39E8C0)
+#define RPG_GAMECORE_ADVENTUREPOSITIONCHECKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E900060)
+#define RPG_GAMECORE_ADVENTUREPOSITIONCHECKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FFC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePositionCheckConfig_TypeDefinitionIndex = 16283;
+	inline static constexpr unsigned int AdventurePositionCheckConfig_TypeDefinitionIndex = 16446;
 
 	class AdventurePositionCheckConfig : public ::RPG::GameCore::JsonConfig
 	{

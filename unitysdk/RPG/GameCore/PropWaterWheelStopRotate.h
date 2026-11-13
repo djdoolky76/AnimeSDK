@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropWaterWheelStopRotate; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPWATERWHEELSTOPROTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92E8C0)
-#define RPG_GAMECORE_PROPWATERWHEELSTOPROTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D92E940)
-#define RPG_GAMECORE_PROPWATERWHEELSTOPROTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92E820)
+#define RPG_GAMECORE_PROPWATERWHEELSTOPROTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF97CF0)
+#define RPG_GAMECORE_PROPWATERWHEELSTOPROTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF97D70)
+#define RPG_GAMECORE_PROPWATERWHEELSTOPROTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF97C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropWaterWheelStopRotate_TypeDefinitionIndex = 22154;
+	inline static constexpr unsigned int PropWaterWheelStopRotate_TypeDefinitionIndex = 22559;
 
 	class PropWaterWheelStopRotate : public ::RPG::GameCore::TaskConfig
 	{

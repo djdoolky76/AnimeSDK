@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NOFHLJCOKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C947F70)
+#define NOFHLJCOKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E056650)
 
-inline static constexpr unsigned int NOFHLJCOKJP_TypeDefinitionIndex = 42446;
+inline static constexpr unsigned int NOFHLJCOKJP_TypeDefinitionIndex = 43421;
 
 	class NOFHLJCOKJP : public ::System::Object
 	{

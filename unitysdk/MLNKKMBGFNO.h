@@ -4,9 +4,9 @@
 class BPDKJKJGECM;
 class FLJEGMGCIOG;
 
-#define MLNKKMBGFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C721640)
+#define MLNKKMBGFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x16061FD0)
 
-inline static constexpr unsigned int MLNKKMBGFNO_TypeDefinitionIndex = 37245;
+inline static constexpr unsigned int MLNKKMBGFNO_TypeDefinitionIndex = 38173;
 
 	class MLNKKMBGFNO : public ::System::Object
 	{

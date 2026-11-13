@@ -5,25 +5,25 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Event; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6374A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETUNITYKEYCODE_OFFSET UNITYSDK_OFFSET(0x1F639130)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETWINDOWSKEYCODE_OFFSET UNITYSDK_OFFSET(0x1F638F70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1B67F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETUNITYKEYCODE_OFFSET UNITYSDK_OFFSET(0x1F1B8480)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETWINDOWSKEYCODE_OFFSET UNITYSDK_OFFSET(0x1F1B82C0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int KeyMappings_TypeDefinitionIndex = 39512;
+	inline static constexpr unsigned int KeyMappings_TypeDefinitionIndex = 40441;
 
 	class KeyMappings : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>** StaticGet_reverseMappings()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "KeyMappings")->GetStaticField(0x457C0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>** StaticGet_mappings()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "KeyMappings")->GetStaticField(0x457C8);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "KeyMappings")->GetStaticField(0x46B80);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>** StaticGet_reverseMappings()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "KeyMappings")->GetStaticField(0x46B88);
 		}
 
 		static ::System::Void _cctor()

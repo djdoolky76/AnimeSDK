@@ -6,22 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_CHECKWITHAVATARID_OFFSET UNITYSDK_OFFSET(0xCA2EB40)
-#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCA2E9E0)
-#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xCA2EAB0)
-#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCA2ECA0)
-#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xCA2EBF0)
+#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_CHECKWITHAVATARID_OFFSET UNITYSDK_OFFSET(0x1D7B9B40)
+#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B99E0)
+#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x1D7B9AB0)
+#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D7B9CA0)
+#define RPG_CLIENT_CHECKITEMREACHAVATARLEVEL__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x1D7B9BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CheckItemReachAvatarLevel_TypeDefinitionIndex = 59886;
+	inline static constexpr unsigned int CheckItemReachAvatarLevel_TypeDefinitionIndex = 61170;
 
 	class CheckItemReachAvatarLevel : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:
-		::System::UInt32 _TargetLevel; // 0x10
+		::System::Boolean _IsParamValid; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::UInt32 _AvatarID; // 0x14
-		::System::Boolean _IsParamValid; // 0x18
+		::System::UInt32 _TargetLevel; // 0x18
 		::System::Void _ctor(::System::Object* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMREACHAVATARLEVEL_CTOR_OFFSET))(this, a1);

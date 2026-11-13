@@ -4,12 +4,12 @@
 namespace RPG::Client { class ActivityAetherDivideData; }
 namespace RPG::Client { class ActivityAetherDivideModuleRedDotFilter; }
 
-#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC3B41E0)
-#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_0___RECONSTRUCTTYPEGROUPIDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xC3B45A0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B77E430)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_0___RECONSTRUCTTYPEGROUPIDLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1B77E7F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityAetherDivideModuleRedDotFilter___c__DisplayClass35_0_TypeDefinitionIndex = 66820;
+	inline static constexpr unsigned int ActivityAetherDivideModuleRedDotFilter___c__DisplayClass35_0_TypeDefinitionIndex = 68756;
 
 	class ActivityAetherDivideModuleRedDotFilter___c__DisplayClass35_0 : public ::System::Object
 	{

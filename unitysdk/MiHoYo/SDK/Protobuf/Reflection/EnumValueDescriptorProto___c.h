@@ -4,20 +4,20 @@
 namespace MiHoYo::SDK::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBD9D20)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD9D60)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C___CCTOR_B__34_0_OFFSET UNITYSDK_OFFSET(0x1BBD9D70)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C698860)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6988A0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C___CCTOR_B__34_0_OFFSET UNITYSDK_OFFSET(0x1C6988B0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumValueDescriptorProto___c_TypeDefinitionIndex = 35779;
+	inline static constexpr unsigned int EnumValueDescriptorProto___c_TypeDefinitionIndex = 36707;
 
 	class EnumValueDescriptorProto___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x5DC30);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x66A70);
 		}
 
 		static ::System::Void _cctor()

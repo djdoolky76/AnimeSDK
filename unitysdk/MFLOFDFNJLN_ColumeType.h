@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MFLOFDFNJLN_ColumeType_TypeDefinitionIndex = 54255;
+inline static constexpr unsigned int MFLOFDFNJLN_ColumeType_TypeDefinitionIndex = 55419;
 
 	enum class MFLOFDFNJLN_ColumeType : ::System::Int32
 	{

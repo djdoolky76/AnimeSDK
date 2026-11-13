@@ -5,12 +5,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net { class CaseInsensitiveAscii; }
 
-#define SYSTEM_NET_CASEINSENSITIVEASCII_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF2B30)
-#define SYSTEM_NET_CASEINSENSITIVEASCII_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EFF2640)
-#define SYSTEM_NET_CASEINSENSITIVEASCII_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF2B20)
-#define SYSTEM_NET_CASEINSENSITIVEASCII_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFF2980)
-#define SYSTEM_NET_CASEINSENSITIVEASCII_FASTGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFF2880)
-#define SYSTEM_NET_CASEINSENSITIVEASCII_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFF2540)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1AF2A0)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C1AEDB0)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1AF290)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C1AF0F0)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_FASTGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C1AEFF0)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C1AECB0)
 
 namespace System::Net
 {
@@ -21,12 +21,12 @@ namespace System::Net
 	public:
 		static ::System::Net::CaseInsensitiveAscii** StaticGet_StaticInstance()
 		{
-			return (::System::Net::CaseInsensitiveAscii**)UnitySDK::FromName("System.Net", "CaseInsensitiveAscii")->GetStaticField(0x2DE40);
+			return (::System::Net::CaseInsensitiveAscii**)UnitySDK::FromName("System.Net", "CaseInsensitiveAscii")->GetStaticField(0x1EDE0);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_AsciiToLower()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("System.Net", "CaseInsensitiveAscii")->GetStaticField(0x2DE48);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("System.Net", "CaseInsensitiveAscii")->GetStaticField(0x1EDE8);
 		}
 
 		::System::Void _ctor()

@@ -7,10 +7,10 @@ class CGEOCOPMJGI;
 class MFFPHMCGEOJ;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define MFFPHMCGEOJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8EEE20)
-#define MFFPHMCGEOJ___C__DISPLAYCLASS8_0__SUBMITEXAM_B__0_OFFSET UNITYSDK_OFFSET(0xB8EF8B0)
+#define MFFPHMCGEOJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17C7F070)
+#define MFFPHMCGEOJ___C__DISPLAYCLASS8_0__SUBMITEXAM_B__0_OFFSET UNITYSDK_OFFSET(0x17C7FB00)
 
-inline static constexpr unsigned int MFFPHMCGEOJ___c__DisplayClass8_0_TypeDefinitionIndex = 80246;
+inline static constexpr unsigned int MFFPHMCGEOJ___c__DisplayClass8_0_TypeDefinitionIndex = 83023;
 
 	class MFFPHMCGEOJ___c__DisplayClass8_0 : public ::System::Object
 	{

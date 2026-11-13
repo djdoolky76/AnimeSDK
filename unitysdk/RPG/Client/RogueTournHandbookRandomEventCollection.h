@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_ROGUETOURNHANDBOOKRANDOMEVENTCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE6C00)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKRANDOMEVENTCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEADC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookRandomEventCollection_TypeDefinitionIndex = 67658;
+	inline static constexpr unsigned int RogueTournHandbookRandomEventCollection_TypeDefinitionIndex = 69602;
 
 	class RogueTournHandbookRandomEventCollection
 	{

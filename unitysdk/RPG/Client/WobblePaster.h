@@ -6,14 +6,14 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_WOBBLEPASTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE45D180)
-#define RPG_CLIENT_WOBBLEPASTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE45D120)
-#define RPG_CLIENT_WOBBLEPASTER_START_OFFSET UNITYSDK_OFFSET(0xE45BA70)
-#define RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE45BF50)
+#define RPG_CLIENT_WOBBLEPASTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC8DAB0)
+#define RPG_CLIENT_WOBBLEPASTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC8DA50)
+#define RPG_CLIENT_WOBBLEPASTER_START_OFFSET UNITYSDK_OFFSET(0x1BC8C3A0)
+#define RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BC8C880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WobblePaster_TypeDefinitionIndex = 70277;
+	inline static constexpr unsigned int WobblePaster_TypeDefinitionIndex = 72243;
 
 	class WobblePaster : public ::UnityEngine::MonoBehaviour
 	{
@@ -55,47 +55,47 @@ namespace RPG::Client
 		::UnityEngine::MaterialPropertyBlock* HFCGFGDABGJ; // 0x110
 		static ::System::Int32* StaticGet_DDADGDLKMJC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF520);
-		}
-
-		static ::System::Int32* StaticGet_HEJJEJPOEJB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF524);
-		}
-
-		static ::System::Int32* StaticGet_GKHLKFONLMJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF528);
-		}
-
-		static ::System::Int32* StaticGet_JNMEMOEDEMM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF52C);
-		}
-
-		static ::System::Int32* StaticGet_EMJKNNNJOLA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF530);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134D0);
 		}
 
 		static ::System::Int32* StaticGet_AAAPPKLCENA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF534);
-		}
-
-		static ::System::Int32* StaticGet_OHNCIOPAJNL()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF538);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134D4);
 		}
 
 		static ::System::Int32* StaticGet_CFBOCKJLFCK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF53C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134D8);
+		}
+
+		static ::System::Int32* StaticGet_EMJKNNNJOLA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134DC);
+		}
+
+		static ::System::Int32* StaticGet_OHNCIOPAJNL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134E0);
+		}
+
+		static ::System::Int32* StaticGet_GKHLKFONLMJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134E4);
+		}
+
+		static ::System::Int32* StaticGet_JNMEMOEDEMM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134E8);
 		}
 
 		static ::System::Int32* StaticGet_BKEDALEHLJF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0xF540);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134EC);
+		}
+
+		static ::System::Int32* StaticGet_HEJJEJPOEJB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WobblePaster")->GetStaticField(0x134F0);
 		}
 
 		::System::Void _ctor()

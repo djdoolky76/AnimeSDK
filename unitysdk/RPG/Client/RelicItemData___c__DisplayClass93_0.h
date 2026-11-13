@@ -6,12 +6,12 @@ class AJLNGGEEFKD;
 namespace RPG::Client { class RelicItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_RELICITEMDATA___C__DISPLAYCLASS93_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE6D210)
-#define RPG_CLIENT_RELICITEMDATA___C__DISPLAYCLASS93_0___SORTREFORGESUBAFFIXES_B__0_OFFSET UNITYSDK_OFFSET(0xDE6D2C0)
+#define RPG_CLIENT_RELICITEMDATA___C__DISPLAYCLASS93_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0931E0)
+#define RPG_CLIENT_RELICITEMDATA___C__DISPLAYCLASS93_0___SORTREFORGESUBAFFIXES_B__0_OFFSET UNITYSDK_OFFSET(0x1D093280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicItemData___c__DisplayClass93_0_TypeDefinitionIndex = 66884;
+	inline static constexpr unsigned int RelicItemData___c__DisplayClass93_0_TypeDefinitionIndex = 68828;
 
 	class RelicItemData___c__DisplayClass93_0 : public ::System::Object
 	{

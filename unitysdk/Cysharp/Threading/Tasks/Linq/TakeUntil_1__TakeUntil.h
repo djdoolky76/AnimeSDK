@@ -11,7 +11,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int TakeUntil_1__TakeUntil_TypeDefinitionIndex = 45655;
+	inline static constexpr unsigned int TakeUntil_1__TakeUntil_TypeDefinitionIndex = 46684;
 
 	template <typename T>
 	class TakeUntil_1__TakeUntil : public ::Cysharp::Threading::Tasks::MoveNextSource

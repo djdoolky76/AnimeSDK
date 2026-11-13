@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapCreatedBattleEvent; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOONMGBJLEH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB2180)
-#define HOONMGBJLEH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15DB21A0)
+#define HOONMGBJLEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2BF50)
+#define HOONMGBJLEH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1AF2BF70)
 
-inline static constexpr unsigned int HOONMGBJLEH_TypeDefinitionIndex = 59232;
+inline static constexpr unsigned int HOONMGBJLEH_TypeDefinitionIndex = 60509;
 
 	class HOONMGBJLEH
 	{

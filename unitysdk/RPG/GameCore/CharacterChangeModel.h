@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53CE90)
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D53CED0)
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D53CE30)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F33EC20)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F33EC60)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F33EBC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterChangeModel_TypeDefinitionIndex = 23199;
+	inline static constexpr unsigned int CharacterChangeModel_TypeDefinitionIndex = 23630;
 
 	class CharacterChangeModel : public ::RPG::GameCore::TaskConfig
 	{

@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointDef_TypeDefinitionIndex = 36694;
+	inline static constexpr unsigned int B2JointDef_TypeDefinitionIndex = 37622;
 
 	struct alignas(8) B2JointDef
 	{

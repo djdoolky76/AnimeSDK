@@ -5,8 +5,8 @@ namespace System { class Object; }
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Remoting::Metadata { class SoapAttribute; }
 
-#define SYSTEM_RUNTIME_REMOTING_INTERNALREMOTINGSERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2AFB70)
-#define SYSTEM_RUNTIME_REMOTING_INTERNALREMOTINGSERVICES_GETCACHEDSOAPATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C2AF440)
+#define SYSTEM_RUNTIME_REMOTING_INTERNALREMOTINGSERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A703180)
+#define SYSTEM_RUNTIME_REMOTING_INTERNALREMOTINGSERVICES_GETCACHEDSOAPATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A702A50)
 
 namespace System::Runtime::Remoting
 {
@@ -17,7 +17,7 @@ namespace System::Runtime::Remoting
 	public:
 		static ::System::Collections::Hashtable** StaticGet__soapAttributes()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "InternalRemotingServices")->GetStaticField(0x1C6A0);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "InternalRemotingServices")->GetStaticField(0x170C0);
 		}
 
 		static ::System::Void _cctor()

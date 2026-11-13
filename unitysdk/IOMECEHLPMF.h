@@ -9,12 +9,12 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultDat
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IOMECEHLPMF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x165040C0)
-#define IOMECEHLPMF_CTOR_OFFSET UNITYSDK_OFFSET(0x16504130)
-#define IOMECEHLPMF_EPJAEILEOGN_OFFSET UNITYSDK_OFFSET(0x16504260)
-#define IOMECEHLPMF_GCKBLOBMHMG_OFFSET UNITYSDK_OFFSET(0x16504140)
+#define IOMECEHLPMF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x192F1260)
+#define IOMECEHLPMF_CTOR_OFFSET UNITYSDK_OFFSET(0x192F12D0)
+#define IOMECEHLPMF_EPJAEILEOGN_OFFSET UNITYSDK_OFFSET(0x192F1400)
+#define IOMECEHLPMF_GCKBLOBMHMG_OFFSET UNITYSDK_OFFSET(0x192F12E0)
 
-inline static constexpr unsigned int IOMECEHLPMF_TypeDefinitionIndex = 74434;
+inline static constexpr unsigned int IOMECEHLPMF_TypeDefinitionIndex = 76582;
 
 	class IOMECEHLPMF : public ::System::Object
 	{

@@ -5,11 +5,11 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Exception; }
 
-#define ANLGFGNKPHL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1588EC20)
-#define ANLGFGNKPHL___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1588F450)
-#define ANLGFGNKPHL___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x1588F470)
+#define ANLGFGNKPHL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A831B50)
+#define ANLGFGNKPHL___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1A8323D0)
+#define ANLGFGNKPHL___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x1A8323F0)
 
-inline static constexpr unsigned int ANLGFGNKPHL___c__DisplayClass1_0_TypeDefinitionIndex = 78395;
+inline static constexpr unsigned int ANLGFGNKPHL___c__DisplayClass1_0_TypeDefinitionIndex = 81130;
 
 	class ANLGFGNKPHL___c__DisplayClass1_0 : public ::System::Object
 	{

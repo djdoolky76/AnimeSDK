@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KKJMAOMDCAE_ELIIEJCNHLN;
 
-#define DPFBIPPLJAP_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF6180)
+#define DPFBIPPLJAP_CTOR_OFFSET UNITYSDK_OFFSET(0x191BB0A0)
 
-inline static constexpr unsigned int DPFBIPPLJAP_TypeDefinitionIndex = 64783;
+inline static constexpr unsigned int DPFBIPPLJAP_TypeDefinitionIndex = 66327;
 
 	class DPFBIPPLJAP : public ::System::Object
 	{

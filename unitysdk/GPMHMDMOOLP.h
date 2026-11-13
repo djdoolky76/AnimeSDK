@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int GPMHMDMOOLP_TypeDefinitionIndex = 42008;
+inline static constexpr unsigned int GPMHMDMOOLP_TypeDefinitionIndex = 42983;
 
 	struct alignas(8) GPMHMDMOOLP
 	{

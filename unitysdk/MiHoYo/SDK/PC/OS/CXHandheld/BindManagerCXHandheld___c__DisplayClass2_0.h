@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAC1C0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__DISPLAYCLASS2_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BEACD00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C362650)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__DISPLAYCLASS2_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1C363190)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int BindManagerCXHandheld___c__DisplayClass2_0_TypeDefinitionIndex = 8743;
+	inline static constexpr unsigned int BindManagerCXHandheld___c__DisplayClass2_0_TypeDefinitionIndex = 8752;
 
 	class BindManagerCXHandheld___c__DisplayClass2_0 : public ::System::Object
 	{

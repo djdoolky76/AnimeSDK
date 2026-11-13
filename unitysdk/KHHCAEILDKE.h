@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSwitchHandCatchItem; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KHHCAEILDKE_CTOR_OFFSET UNITYSDK_OFFSET(0xB4027C0)
-#define KHHCAEILDKE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4027F0)
+#define KHHCAEILDKE_CTOR_OFFSET UNITYSDK_OFFSET(0x19793B70)
+#define KHHCAEILDKE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19793BA0)
 
-inline static constexpr unsigned int KHHCAEILDKE_TypeDefinitionIndex = 53137;
+inline static constexpr unsigned int KHHCAEILDKE_TypeDefinitionIndex = 54299;
 
 	class KHHCAEILDKE
 	{

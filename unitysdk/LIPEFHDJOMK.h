@@ -4,9 +4,9 @@
 class NHBPBPEINCA;
 namespace System { class String; }
 
-#define LIPEFHDJOMK_IPKDBIFDMHJ_OFFSET UNITYSDK_OFFSET(0xB6D5530)
+#define LIPEFHDJOMK_IPKDBIFDMHJ_OFFSET UNITYSDK_OFFSET(0x172F2530)
 
-inline static constexpr unsigned int LIPEFHDJOMK_TypeDefinitionIndex = 49694;
+inline static constexpr unsigned int LIPEFHDJOMK_TypeDefinitionIndex = 50770;
 
 	class LIPEFHDJOMK : public ::System::Object
 	{

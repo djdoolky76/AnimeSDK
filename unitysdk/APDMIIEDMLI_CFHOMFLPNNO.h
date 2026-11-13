@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define APDMIIEDMLI_CFHOMFLPNNO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B9B0A0)
+#define APDMIIEDMLI_CFHOMFLPNNO_CTOR_OFFSET UNITYSDK_OFFSET(0x18500990)
 
-inline static constexpr unsigned int APDMIIEDMLI_CFHOMFLPNNO_TypeDefinitionIndex = 59938;
+inline static constexpr unsigned int APDMIIEDMLI_CFHOMFLPNNO_TypeDefinitionIndex = 61222;
 
 	class APDMIIEDMLI_CFHOMFLPNNO : public ::System::Object
 	{

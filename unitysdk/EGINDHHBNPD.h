@@ -11,19 +11,19 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EGINDHHBNPD_BDBBOLPMGAM_OFFSET UNITYSDK_OFFSET(0x14516F20)
-#define EGINDHHBNPD_CJPBDEOHOGF_OFFSET UNITYSDK_OFFSET(0x14517220)
-#define EGINDHHBNPD_CTOR_OFFSET UNITYSDK_OFFSET(0x14517470)
-#define EGINDHHBNPD_IJOAKGDPLPL_OFFSET UNITYSDK_OFFSET(0x145170D0)
-#define EGINDHHBNPD_KKFKKOPCLBG_OFFSET UNITYSDK_OFFSET(0x14517130)
+#define EGINDHHBNPD_BDBBOLPMGAM_OFFSET UNITYSDK_OFFSET(0x17C12480)
+#define EGINDHHBNPD_CJPBDEOHOGF_OFFSET UNITYSDK_OFFSET(0x17C12780)
+#define EGINDHHBNPD_CTOR_OFFSET UNITYSDK_OFFSET(0x17C12980)
+#define EGINDHHBNPD_IJOAKGDPLPL_OFFSET UNITYSDK_OFFSET(0x17C12630)
+#define EGINDHHBNPD_KKFKKOPCLBG_OFFSET UNITYSDK_OFFSET(0x17C12690)
 
-inline static constexpr unsigned int EGINDHHBNPD_TypeDefinitionIndex = 53736;
+inline static constexpr unsigned int EGINDHHBNPD_TypeDefinitionIndex = 54900;
 
 	class EGINDHHBNPD : public ::KIFCLJJAOFJ
 	{
 	public:
-		::System::Action* HPNACLGCGPB; // 0x20
-		::System::Collections::Generic::List_1<::CBLPNGOLFGM*>* IHDKHABKMDI; // 0x28
+		::System::Collections::Generic::List_1<::CBLPNGOLFGM*>* IHDKHABKMDI; // 0x20
+		::System::Action* HPNACLGCGPB; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGINDHHBNPD_CTOR_OFFSET))(this);

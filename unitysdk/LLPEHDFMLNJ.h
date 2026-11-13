@@ -4,16 +4,16 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class HFALLFOEHKN;
 
-#define LLPEHDFMLNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB76F160)
+#define LLPEHDFMLNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBF350)
 
-inline static constexpr unsigned int LLPEHDFMLNJ_TypeDefinitionIndex = 57626;
+inline static constexpr unsigned int LLPEHDFMLNJ_TypeDefinitionIndex = 58855;
 
 	class LLPEHDFMLNJ : public ::BIMHOGHOCKP
 	{
 	public:
 		::HFALLFOEHKN* LJLDPJFOKCE; // 0x98
-		::RPG::GameCore::FixPoint HKLPHLBFGAD; // 0xA0
-		::RPG::GameCore::FixPoint CCMEMJGPOGE; // 0xA8
+		::RPG::GameCore::FixPoint CCMEMJGPOGE; // 0xA0
+		::RPG::GameCore::FixPoint HKLPHLBFGAD; // 0xA8
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLPEHDFMLNJ_CTOR_OFFSET))(this);

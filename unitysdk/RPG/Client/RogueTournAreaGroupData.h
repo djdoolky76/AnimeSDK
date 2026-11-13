@@ -8,38 +8,38 @@ namespace RPG::Client { class RogueTournAreaGroupData; }
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class RogueInstanceCacheManager_3; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF72E30)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDF72A00)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0xDF71400)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GET_AREAGROUP_OFFSET UNITYSDK_OFFSET(0xDF72DD0)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GET_NAMEWITHROGUEMODE_OFFSET UNITYSDK_OFFSET(0xDF72E10)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDF72DF0)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GET_NULL_OFFSET UNITYSDK_OFFSET(0xDF72A10)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_SET_AREAGROUP_OFFSET UNITYSDK_OFFSET(0xDF72DE0)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_SET_NAMEWITHROGUEMODE_OFFSET UNITYSDK_OFFSET(0xDF72E20)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0xDF72E00)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDF72CE0)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA__CREATEDATA_OFFSET UNITYSDK_OFFSET(0xDF72B10)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C863E30)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C863A00)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C862400)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GET_AREAGROUP_OFFSET UNITYSDK_OFFSET(0x1C863DD0)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GET_NAMEWITHROGUEMODE_OFFSET UNITYSDK_OFFSET(0x1C863E10)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C863DF0)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1C863A10)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_SET_AREAGROUP_OFFSET UNITYSDK_OFFSET(0x1C863DE0)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_SET_NAMEWITHROGUEMODE_OFFSET UNITYSDK_OFFSET(0x1C863E20)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1C863E00)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C863CE0)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATA__CREATEDATA_OFFSET UNITYSDK_OFFSET(0x1C863B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAreaGroupData_TypeDefinitionIndex = 67498;
+	inline static constexpr unsigned int RogueTournAreaGroupData_TypeDefinitionIndex = 69442;
 
 	class RogueTournAreaGroupData : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID _Name_k__BackingField; // 0x10
-		::RPG::GameCore::RogueTournAreaGroupID _AreaGroup_k__BackingField; // 0x20
+		::RPG::GameCore::RogueTournAreaGroupID _AreaGroup_k__BackingField; // 0x10
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _NameWithRogueMode_k__BackingField; // 0x28
+		::RPG::Client::TextID _NameWithRogueMode_k__BackingField; // 0x18
+		::RPG::Client::TextID _Name_k__BackingField; // 0x28
 		static ::RPG::Client::RogueInstanceCacheManager_3<::RPG::GameCore::RogueTournAreaGroupID, ::RPG::GameCore::RogueTournMode, ::RPG::Client::RogueTournAreaGroupData*>** StaticGet__CacheManager()
 		{
-			return (::RPG::Client::RogueInstanceCacheManager_3<::RPG::GameCore::RogueTournAreaGroupID, ::RPG::GameCore::RogueTournMode, ::RPG::Client::RogueTournAreaGroupData*>**)UnitySDK::FromName("RPG.Client", "RogueTournAreaGroupData")->GetStaticField(0x69590);
+			return (::RPG::Client::RogueInstanceCacheManager_3<::RPG::GameCore::RogueTournAreaGroupID, ::RPG::GameCore::RogueTournMode, ::RPG::Client::RogueTournAreaGroupData*>**)UnitySDK::FromName("RPG.Client", "RogueTournAreaGroupData")->GetStaticField(0x724D0);
 		}
 
 		static ::RPG::Client::RogueTournAreaGroupData** StaticGet__Null()
 		{
-			return (::RPG::Client::RogueTournAreaGroupData**)UnitySDK::FromName("RPG.Client", "RogueTournAreaGroupData")->GetStaticField(0x69598);
+			return (::RPG::Client::RogueTournAreaGroupData**)UnitySDK::FromName("RPG.Client", "RogueTournAreaGroupData")->GetStaticField(0x724D8);
 		}
 
 		::System::Void _ctor()

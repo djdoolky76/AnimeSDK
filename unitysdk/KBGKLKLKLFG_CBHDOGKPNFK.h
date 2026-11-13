@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KBGKLKLKLFG_CBHDOGKPNFK_TypeDefinitionIndex = 25902;
+inline static constexpr unsigned int KBGKLKLKLFG_CBHDOGKPNFK_TypeDefinitionIndex = 26399;
 
 	enum class KBGKLKLKLFG_CBHDOGKPNFK : ::System::Int32
 	{

@@ -4,10 +4,10 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFF740)
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EDFF750)
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EDFF760)
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EDFF770)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F78E890)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1F78E8A0)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F78E8B0)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F78E8C0)
 
 namespace System::Linq::Expressions
 {
@@ -16,8 +16,8 @@ namespace System::Linq::Expressions
 	class LabelTarget : public ::System::Object
 	{
 	public:
-		::System::Type* _Type_k__BackingField; // 0x10
-		::System::String* _Name_k__BackingField; // 0x18
+		::System::String* _Name_k__BackingField; // 0x10
+		::System::Type* _Type_k__BackingField; // 0x18
 		::System::Void _ctor(::System::Type* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_CTOR_OFFSET))(this, a1, a2);

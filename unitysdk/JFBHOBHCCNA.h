@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JFBHOBHCCNA_CTOR_OFFSET UNITYSDK_OFFSET(0x16631F50)
+#define JFBHOBHCCNA_CTOR_OFFSET UNITYSDK_OFFSET(0x19328610)
 
-inline static constexpr unsigned int JFBHOBHCCNA_TypeDefinitionIndex = 77432;
+inline static constexpr unsigned int JFBHOBHCCNA_TypeDefinitionIndex = 80167;
 
 	class JFBHOBHCCNA : public ::System::Object
 	{

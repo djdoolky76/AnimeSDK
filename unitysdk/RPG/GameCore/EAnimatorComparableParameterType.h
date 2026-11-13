@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAnimatorComparableParameterType_TypeDefinitionIndex = 10495;
+	inline static constexpr unsigned int EAnimatorComparableParameterType_TypeDefinitionIndex = 10506;
 
 	enum class EAnimatorComparableParameterType : ::System::Int32
 	{

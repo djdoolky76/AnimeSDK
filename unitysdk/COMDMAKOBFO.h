@@ -5,10 +5,10 @@
 class EDDEOKAIJAB;
 namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 
-#define COMDMAKOBFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB82D0)
-#define COMDMAKOBFO_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xDCB82E0)
+#define COMDMAKOBFO_CTOR_OFFSET UNITYSDK_OFFSET(0x191691B0)
+#define COMDMAKOBFO_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x191691C0)
 
-inline static constexpr unsigned int COMDMAKOBFO_TypeDefinitionIndex = 67107;
+inline static constexpr unsigned int COMDMAKOBFO_TypeDefinitionIndex = 69051;
 
 	class COMDMAKOBFO : public ::OBDGDODGFAM
 	{

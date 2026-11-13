@@ -4,18 +4,18 @@
 class HIDPFIAALLB;
 namespace System { class Object; }
 
-#define HIDPFIAALLB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E563560)
-#define HIDPFIAALLB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5635A0)
-#define HIDPFIAALLB___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E5635B0)
+#define HIDPFIAALLB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2051AC90)
+#define HIDPFIAALLB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2051ACD0)
+#define HIDPFIAALLB___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x2051ACE0)
 
-inline static constexpr unsigned int HIDPFIAALLB___c_TypeDefinitionIndex = 28707;
+inline static constexpr unsigned int HIDPFIAALLB___c_TypeDefinitionIndex = 29297;
 
 	class HIDPFIAALLB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x336C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F2B0);
 		}
 
 		static ::System::Void _cctor()

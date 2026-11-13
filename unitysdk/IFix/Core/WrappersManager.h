@@ -3,7 +3,7 @@
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int WrappersManager_TypeDefinitionIndex = 7143;
+	inline static constexpr unsigned int WrappersManager_TypeDefinitionIndex = 7154;
 
 	class WrappersManager
 	{

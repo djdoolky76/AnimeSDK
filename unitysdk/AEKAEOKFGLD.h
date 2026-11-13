@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HDJIGMBHENE.h"
 
-#define AEKAEOKFGLD_CTOR_OFFSET UNITYSDK_OFFSET(0xCEF8920)
+#define AEKAEOKFGLD_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA3F80)
 
-inline static constexpr unsigned int AEKAEOKFGLD_TypeDefinitionIndex = 61186;
+inline static constexpr unsigned int AEKAEOKFGLD_TypeDefinitionIndex = 62571;
 
 	class AEKAEOKFGLD : public ::HDJIGMBHENE
 	{

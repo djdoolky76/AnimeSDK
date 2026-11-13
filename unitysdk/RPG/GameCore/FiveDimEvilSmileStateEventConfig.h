@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEvilSmileStateEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68FC10)
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68FAE0)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85C9E0)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E85C8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEvilSmileStateEventConfig_TypeDefinitionIndex = 16699;
+	inline static constexpr unsigned int FiveDimEvilSmileStateEventConfig_TypeDefinitionIndex = 16865;
 
 	class FiveDimEvilSmileStateEventConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMissionBattleWin; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NOJOECCKHAD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEB710)
-#define NOJOECCKHAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCEB740)
+#define NOJOECCKHAD_CTOR_OFFSET UNITYSDK_OFFSET(0x19CEA810)
+#define NOJOECCKHAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19CEA840)
 
-inline static constexpr unsigned int NOJOECCKHAD_TypeDefinitionIndex = 52578;
+inline static constexpr unsigned int NOJOECCKHAD_TypeDefinitionIndex = 53684;
 
 	class NOJOECCKHAD
 	{

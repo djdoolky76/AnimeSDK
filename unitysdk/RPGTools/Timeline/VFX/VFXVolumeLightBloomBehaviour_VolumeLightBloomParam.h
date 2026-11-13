@@ -4,7 +4,7 @@
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXVolumeLightBloomBehaviour_VolumeLightBloomParam_TypeDefinitionIndex = 48695;
+	inline static constexpr unsigned int VFXVolumeLightBloomBehaviour_VolumeLightBloomParam_TypeDefinitionIndex = 49741;
 
 	struct alignas(4) VFXVolumeLightBloomBehaviour_VolumeLightBloomParam
 	{

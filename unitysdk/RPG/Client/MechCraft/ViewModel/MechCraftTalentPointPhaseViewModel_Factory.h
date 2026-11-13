@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointPhaseViewModel; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD67D7E0)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD67D890)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1E91C090)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E91C140)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftTalentPointPhaseViewModel_Factory_TypeDefinitionIndex = 79765;
+	inline static constexpr unsigned int MechCraftTalentPointPhaseViewModel_Factory_TypeDefinitionIndex = 82542;
 
 	class MechCraftTalentPointPhaseViewModel_Factory : public ::System::Object
 	{

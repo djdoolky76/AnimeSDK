@@ -3,10 +3,10 @@
 class LDMOAIJBDBP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MMGBCFIDLGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9BEE40)
-#define MMGBCFIDLGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9BEE70)
+#define MMGBCFIDLGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B934890)
+#define MMGBCFIDLGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B9348C0)
 
-inline static constexpr unsigned int MMGBCFIDLGL_TypeDefinitionIndex = 52877;
+inline static constexpr unsigned int MMGBCFIDLGL_TypeDefinitionIndex = 54033;
 
 	class MMGBCFIDLGL
 	{

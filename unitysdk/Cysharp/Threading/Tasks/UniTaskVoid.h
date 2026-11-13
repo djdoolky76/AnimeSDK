@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CYSHARP_THREADING_TASKS_UNITASKVOID_FORGET_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define CYSHARP_THREADING_TASKS_UNITASKVOID_FORGET_OFFSET UNITYSDK_OFFSET(0xB480)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskVoid_TypeDefinitionIndex = 38448;
+	inline static constexpr unsigned int UniTaskVoid_TypeDefinitionIndex = 39377;
 
 	struct alignas(4) UniTaskVoid
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/Prop/OICubeType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLECUBE_CTOR_OFFSET UNITYSDK_OFFSET(0xDD43EC0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLECUBE_RESETKEYINFO_OFFSET UNITYSDK_OFFSET(0xDD43E70)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLECUBE_CTOR_OFFSET UNITYSDK_OFFSET(0x171F3ED0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLECUBE_RESETKEYINFO_OFFSET UNITYSDK_OFFSET(0x171F3E80)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleCube_TypeDefinitionIndex = 78713;
+	inline static constexpr unsigned int OpticalIllusionPuzzleCube_TypeDefinitionIndex = 81448;
 
 	class OpticalIllusionPuzzleCube : public ::UnityEngine::MonoBehaviour
 	{

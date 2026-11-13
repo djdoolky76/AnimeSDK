@@ -6,10 +6,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define LKAPHINNOGA_CTOR_OFFSET UNITYSDK_OFFSET(0xB721BD0)
-#define LKAPHINNOGA_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB721B30)
+#define LKAPHINNOGA_CTOR_OFFSET UNITYSDK_OFFSET(0x18CCA460)
+#define LKAPHINNOGA_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x18CCA3C0)
 
-inline static constexpr unsigned int LKAPHINNOGA_TypeDefinitionIndex = 77673;
+inline static constexpr unsigned int LKAPHINNOGA_TypeDefinitionIndex = 80408;
 
 	class LKAPHINNOGA : public ::HBLDGJCDJPF
 	{

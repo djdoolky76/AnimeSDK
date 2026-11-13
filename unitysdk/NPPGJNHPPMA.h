@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 class JNHEPGLMAFE;
 
-#define NPPGJNHPPMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79C050)
-#define NPPGJNHPPMA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C79C080)
+#define NPPGJNHPPMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B07D790)
+#define NPPGJNHPPMA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B07D7B0)
 
-inline static constexpr unsigned int NPPGJNHPPMA_TypeDefinitionIndex = 37192;
+inline static constexpr unsigned int NPPGJNHPPMA_TypeDefinitionIndex = 38120;
 
 	class NPPGJNHPPMA : public ::System::Object
 	{
 	public:
 		::JNHEPGLMAFE* PDENFEFCAGN; // 0x10
-		::System::Int32 KKHNLKAKJGB; // 0x18
-		::RPG::MVector3 NMGOJMADLOH; // 0x1C
-		::System::Int32 AJCODAIHEDA; // 0x28
+		::System::Int32 AJCODAIHEDA; // 0x18
+		::System::Int32 KKHNLKAKJGB; // 0x1C
+		::RPG::MVector3 NMGOJMADLOH; // 0x20
 		::System::Void _ctor(::JNHEPGLMAFE* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::JNHEPGLMAFE*))((::PBYTE)hIl2Cpp + NPPGJNHPPMA_CTOR_OFFSET))(this, a1);

@@ -6,25 +6,25 @@ namespace RPG::Client { class TimeRewindSingleTarget; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE27E800)
-#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE27E840)
-#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C__MANUALSNAPLOOPREWINDRATIO_B__9_0_OFFSET UNITYSDK_OFFSET(0xE27E850)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A137F80)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A137FC0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C__MANUALSNAPLOOPREWINDRATIO_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A137FD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindSingleTarget___c_TypeDefinitionIndex = 60821;
+	inline static constexpr unsigned int TimeRewindSingleTarget___c_TypeDefinitionIndex = 62200;
 
 	class TimeRewindSingleTarget___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19200);
-		}
-
 		static ::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::KJFIKOKBCCA>** StaticGet___9__9_0()
 		{
-			return (::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::KJFIKOKBCCA>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19208);
+			return (::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::KJFIKOKBCCA>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x23830);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x23838);
 		}
 
 		static ::System::Void _cctor()

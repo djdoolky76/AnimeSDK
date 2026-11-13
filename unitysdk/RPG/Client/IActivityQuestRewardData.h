@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IActivityQuestRewardData_TypeDefinitionIndex = 61739;
+	inline static constexpr unsigned int IActivityQuestRewardData_TypeDefinitionIndex = 63145;
 
 	class IActivityQuestRewardData
 	{

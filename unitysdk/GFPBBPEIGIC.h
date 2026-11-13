@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropUnloadHitBoxGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GFPBBPEIGIC_CTOR_OFFSET UNITYSDK_OFFSET(0x159F4710)
-#define GFPBBPEIGIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159F4740)
+#define GFPBBPEIGIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B49DC00)
+#define GFPBBPEIGIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B49DC30)
 
-inline static constexpr unsigned int GFPBBPEIGIC_TypeDefinitionIndex = 58364;
+inline static constexpr unsigned int GFPBBPEIGIC_TypeDefinitionIndex = 59620;
 
 	class GFPBBPEIGIC
 	{

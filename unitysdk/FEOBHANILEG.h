@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InitIsometricRoadLinker; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FEOBHANILEG_CTOR_OFFSET UNITYSDK_OFFSET(0x157211D0)
-#define FEOBHANILEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15721200)
+#define FEOBHANILEG_CTOR_OFFSET UNITYSDK_OFFSET(0x130D17E0)
+#define FEOBHANILEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x130D1810)
 
-inline static constexpr unsigned int FEOBHANILEG_TypeDefinitionIndex = 52928;
+inline static constexpr unsigned int FEOBHANILEG_TypeDefinitionIndex = 54084;
 
 	class FEOBHANILEG
 	{

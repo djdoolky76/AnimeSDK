@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetupRotatableRegionAirlock; }
 
-#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA09F0)
-#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA0A00)
-#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA09C0)
+#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D9A60)
+#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3D9A70)
+#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3D9A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupRotatableRegionAirlock_TypeDefinitionIndex = 21250;
+	inline static constexpr unsigned int SetupRotatableRegionAirlock_TypeDefinitionIndex = 21593;
 
 	class SetupRotatableRegionAirlock : public ::RPG::GameCore::TaskConfig
 	{

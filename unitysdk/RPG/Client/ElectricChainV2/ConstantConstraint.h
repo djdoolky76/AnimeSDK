@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ElectricChainV2/Constraint.h"
 
-#define RPG_CLIENT_ELECTRICCHAINV2_CONSTANTCONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0xCD734D0)
-#define RPG_CLIENT_ELECTRICCHAINV2_CONSTANTCONSTRAINT_PKGJKCHPMJF_OFFSET UNITYSDK_OFFSET(0xCD73470)
+#define RPG_CLIENT_ELECTRICCHAINV2_CONSTANTCONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x189B8DF0)
+#define RPG_CLIENT_ELECTRICCHAINV2_CONSTANTCONSTRAINT_PKGJKCHPMJF_OFFSET UNITYSDK_OFFSET(0x189B8D90)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int ConstantConstraint_TypeDefinitionIndex = 73604;
+	inline static constexpr unsigned int ConstantConstraint_TypeDefinitionIndex = 75727;
 
 	class ConstantConstraint : public ::RPG::Client::ElectricChainV2::Constraint
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class LittleGameEntityVar; }
 namespace RPG::GameCore { class LittleGameLevelVariable; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEENTITYVAR_ACHDNIGNJIO_OFFSET UNITYSDK_OFFSET(0x1D7B34A0)
-#define RPG_GAMECORE_LITTLEGAMEENTITYVAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B4630)
-#define RPG_GAMECORE_LITTLEGAMEENTITYVAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B4320)
+#define RPG_GAMECORE_LITTLEGAMEENTITYVAR_ACHDNIGNJIO_OFFSET UNITYSDK_OFFSET(0x1F261680)
+#define RPG_GAMECORE_LITTLEGAMEENTITYVAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F262710)
+#define RPG_GAMECORE_LITTLEGAMEENTITYVAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F262400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameEntityVar_TypeDefinitionIndex = 18868;
+	inline static constexpr unsigned int LittleGameEntityVar_TypeDefinitionIndex = 19030;
 
 	class LittleGameEntityVar : public ::RPG::GameCore::JsonConfig
 	{

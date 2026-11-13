@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CharacterNavigateTo; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERNAVIGATETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5462E0)
-#define RPG_GAMECORE_CHARACTERNAVIGATETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5462F0)
-#define RPG_GAMECORE_CHARACTERNAVIGATETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5462A0)
+#define RPG_GAMECORE_CHARACTERNAVIGATETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F347A90)
+#define RPG_GAMECORE_CHARACTERNAVIGATETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F347AA0)
+#define RPG_GAMECORE_CHARACTERNAVIGATETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F347A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterNavigateTo_TypeDefinitionIndex = 20855;
+	inline static constexpr unsigned int CharacterNavigateTo_TypeDefinitionIndex = 21192;
 
 	class CharacterNavigateTo : public ::RPG::GameCore::TaskConfig
 	{

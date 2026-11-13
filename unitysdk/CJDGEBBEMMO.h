@@ -6,17 +6,17 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CJDGEBBEMMO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8CDE0)
-#define CJDGEBBEMMO_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xCF8D330)
+#define CJDGEBBEMMO_CTOR_OFFSET UNITYSDK_OFFSET(0x177BA490)
+#define CJDGEBBEMMO_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x177BA9E0)
 
-inline static constexpr unsigned int CJDGEBBEMMO_TypeDefinitionIndex = 82289;
+inline static constexpr unsigned int CJDGEBBEMMO_TypeDefinitionIndex = 85162;
 
 	class CJDGEBBEMMO : public ::KAANKGHDHCB
 	{
 	public:
 		::System::String* JIBMHCAGPNC; // 0x20
-		::System::Type* EPGPJMHNBON; // 0x28
-		::System::String* GKHIHPGCLIK; // 0x30
+		::System::String* GKHIHPGCLIK; // 0x28
+		::System::Type* EPGPJMHNBON; // 0x30
 		::System::Boolean KMFBLKGDMFF; // 0x38
 		::System::Byte _padding0[0x3];
 		::RPG::Client::CachedAssetLogicType HEOJLHCIINP; // 0x3C

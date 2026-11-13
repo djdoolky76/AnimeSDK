@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntityList; }
 
-#define KIDLBJAKOOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB415BC0)
+#define KIDLBJAKOOP_CTOR_OFFSET UNITYSDK_OFFSET(0x19EDC080)
 
-inline static constexpr unsigned int KIDLBJAKOOP_TypeDefinitionIndex = 54423;
+inline static constexpr unsigned int KIDLBJAKOOP_TypeDefinitionIndex = 55587;
 
 	class KIDLBJAKOOP : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntityList* GJBOOKGKBIH; // 0x10
-		::RPG::GameCore::FixPoint OBIMLGBGCNO; // 0x18
-		::System::Boolean BPPMLJPOLAL; // 0x20
+		::System::Boolean BPPMLJPOLAL; // 0x18
 		::System::Byte _padding0[0x7];
-		::RPG::GameCore::FixPoint GBCIHEMICFM; // 0x28
+		::RPG::GameCore::FixPoint GBCIHEMICFM; // 0x20
+		::RPG::GameCore::FixPoint OBIMLGBGCNO; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KIDLBJAKOOP_CTOR_OFFSET))(this);

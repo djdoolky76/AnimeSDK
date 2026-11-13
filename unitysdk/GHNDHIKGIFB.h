@@ -2,28 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/IGKFNIEJGLM.h"
+namespace RPG::Client { class UIStateCtrl; }
 namespace RPG::GameCore { class BattleGridFightAvatarData; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define GHNDHIKGIFB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1F2E0)
-#define GHNDHIKGIFB_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x15A1EEF0)
-#define GHNDHIKGIFB_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x15A1F060)
-#define GHNDHIKGIFB_HJPCBAMPHPC_OFFSET UNITYSDK_OFFSET(0x15A1F180)
-#define GHNDHIKGIFB_KGJAMKFPOAB_OFFSET UNITYSDK_OFFSET(0x15A1EFD0)
-#define GHNDHIKGIFB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15A1F130)
-#define GHNDHIKGIFB__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A1EE60)
-#define GHNDHIKGIFB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15A1EF80)
+#define GHNDHIKGIFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3CF2D0)
+#define GHNDHIKGIFB_HJPCBAMPHPC_OFFSET UNITYSDK_OFFSET(0x1A3CF170)
+#define GHNDHIKGIFB_KGJAMKFPOAB_OFFSET UNITYSDK_OFFSET(0x1A3CEEF0)
+#define GHNDHIKGIFB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1A3CF120)
+#define GHNDHIKGIFB__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A3CED00)
+#define GHNDHIKGIFB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1A3CEEA0)
+#define GHNDHIKGIFB__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x1A3CEE10)
+#define GHNDHIKGIFB__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1A3CEF80)
 
-inline static constexpr unsigned int GHNDHIKGIFB_TypeDefinitionIndex = 72256;
+inline static constexpr unsigned int GHNDHIKGIFB_TypeDefinitionIndex = 74326;
 
 	class GHNDHIKGIFB : public ::FMPCODLIOLG
 	{
 	public:
 		::System::String* LEGDNFGIKLA; // 0x60
-		::RPG::GameCore::BattleGridFightAvatarData* OAEOLANBFMB; // 0x68
-		::UnityEngine::Transform* MNLKGBMNIBH; // 0x70
+		::UnityEngine::Transform* MNLKGBMNIBH; // 0x68
+		::RPG::Client::UIStateCtrl* JINLLOBAGML; // 0x70
+		::RPG::GameCore::BattleGridFightAvatarData* OAEOLANBFMB; // 0x78
 		// static const ::System::String* DJCBDJMACFH; // 0x0
+		// static const ::System::String* PGOLNGFHMGH; // 0x0
+		// static const ::System::String* EMOCHLJIGOL; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDHIKGIFB_CTOR_OFFSET))(this);
@@ -34,9 +38,9 @@ inline static constexpr unsigned int GHNDHIKGIFB_TypeDefinitionIndex = 72256;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDHIKGIFB__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + GHNDHIKGIFB_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + GHNDHIKGIFB__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnDispose()
@@ -44,9 +48,9 @@ inline static constexpr unsigned int GHNDHIKGIFB_TypeDefinitionIndex = 72256;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDHIKGIFB__ONDISPOSE_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDHIKGIFB_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDHIKGIFB__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void NKPPGDENJAE(::RPG::GameCore::BattleGridFightAvatarData* a1)

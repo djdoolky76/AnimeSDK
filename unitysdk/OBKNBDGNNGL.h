@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTargetUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OBKNBDGNNGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD44950)
-#define OBKNBDGNNGL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD44980)
+#define OBKNBDGNNGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB8BA60)
+#define OBKNBDGNNGL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AB8BA90)
 
-inline static constexpr unsigned int OBKNBDGNNGL_TypeDefinitionIndex = 54690;
+inline static constexpr unsigned int OBKNBDGNNGL_TypeDefinitionIndex = 55856;
 
 	class OBKNBDGNNGL
 	{

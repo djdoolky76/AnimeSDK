@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_LONG_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE2A080)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_LONG_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1FFC8A30)
 
 namespace System::Net::Http::Headers
 {

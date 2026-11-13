@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAvatarSkinData_TypeDefinitionIndex = 62484;
+	inline static constexpr unsigned int IAvatarSkinData_TypeDefinitionIndex = 63897;
 
 	class IAvatarSkinData
 	{

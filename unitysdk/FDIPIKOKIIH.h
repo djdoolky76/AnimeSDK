@@ -4,10 +4,10 @@
 namespace System::Collections { class IEnumerable; }
 namespace System::Collections { class IEnumerator; }
 
-#define FDIPIKOKIIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C444F50)
-#define FDIPIKOKIIH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C445150)
+#define FDIPIKOKIIH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B052C0)
+#define FDIPIKOKIIH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B054C0)
 
-inline static constexpr unsigned int FDIPIKOKIIH_TypeDefinitionIndex = 41439;
+inline static constexpr unsigned int FDIPIKOKIIH_TypeDefinitionIndex = 42414;
 
 	class FDIPIKOKIIH : public ::System::Object
 	{

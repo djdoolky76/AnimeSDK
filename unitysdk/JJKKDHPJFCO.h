@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetSwitchMascotLockDistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJKKDHPJFCO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2018F0)
-#define JJKKDHPJFCO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB201920)
+#define JJKKDHPJFCO_CTOR_OFFSET UNITYSDK_OFFSET(0x17B08760)
+#define JJKKDHPJFCO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B08790)
 
-inline static constexpr unsigned int JJKKDHPJFCO_TypeDefinitionIndex = 58582;
+inline static constexpr unsigned int JJKKDHPJFCO_TypeDefinitionIndex = 59847;
 
 	class JJKKDHPJFCO
 	{

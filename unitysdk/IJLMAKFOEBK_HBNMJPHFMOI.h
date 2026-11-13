@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 
-#define IJLMAKFOEBK_HBNMJPHFMOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1645F2D0)
+#define IJLMAKFOEBK_HBNMJPHFMOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1805D550)
 
-inline static constexpr unsigned int IJLMAKFOEBK_HBNMJPHFMOI_TypeDefinitionIndex = 72255;
+inline static constexpr unsigned int IJLMAKFOEBK_HBNMJPHFMOI_TypeDefinitionIndex = 74325;
 
 	class IJLMAKFOEBK_HBNMJPHFMOI : public ::System::Object
 	{

@@ -8,45 +8,45 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Object; }
 
-#define MLLBMBEIAAB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9B1030)
-#define MLLBMBEIAAB_CJEHEGCIPEI_OFFSET UNITYSDK_OFFSET(0xB9B1CD0)
-#define MLLBMBEIAAB_COEGMANAPMH_OFFSET UNITYSDK_OFFSET(0xB9B19D0)
-#define MLLBMBEIAAB_DBLGGMAKPAN_OFFSET UNITYSDK_OFFSET(0xB9B0FA0)
-#define MLLBMBEIAAB_DNLBJCEIIKD_OFFSET UNITYSDK_OFFSET(0xB9B1600)
-#define MLLBMBEIAAB_FBFKNPNNFMA_OFFSET UNITYSDK_OFFSET(0xB9B1DB0)
-#define MLLBMBEIAAB_HBGPFEKCEBO_OFFSET UNITYSDK_OFFSET(0xB9B1000)
-#define MLLBMBEIAAB_HGOCMNGFGHM_OFFSET UNITYSDK_OFFSET(0xB9B0FD0)
-#define MLLBMBEIAAB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB9B11A0)
-#define MLLBMBEIAAB_LBPMGNJELMI_OFFSET UNITYSDK_OFFSET(0xB9B1BC0)
+#define MLLBMBEIAAB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B926780)
+#define MLLBMBEIAAB_CJEHEGCIPEI_OFFSET UNITYSDK_OFFSET(0x1B9273B0)
+#define MLLBMBEIAAB_COEGMANAPMH_OFFSET UNITYSDK_OFFSET(0x1B9270C0)
+#define MLLBMBEIAAB_DBLGGMAKPAN_OFFSET UNITYSDK_OFFSET(0x1B9266F0)
+#define MLLBMBEIAAB_DNLBJCEIIKD_OFFSET UNITYSDK_OFFSET(0x1B926D20)
+#define MLLBMBEIAAB_FBFKNPNNFMA_OFFSET UNITYSDK_OFFSET(0x1B927490)
+#define MLLBMBEIAAB_HBGPFEKCEBO_OFFSET UNITYSDK_OFFSET(0x1B926750)
+#define MLLBMBEIAAB_HGOCMNGFGHM_OFFSET UNITYSDK_OFFSET(0x1B926720)
+#define MLLBMBEIAAB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1B9268C0)
+#define MLLBMBEIAAB_LBPMGNJELMI_OFFSET UNITYSDK_OFFSET(0x1B9272B0)
 
-inline static constexpr unsigned int MLLBMBEIAAB_TypeDefinitionIndex = 49172;
+inline static constexpr unsigned int MLLBMBEIAAB_TypeDefinitionIndex = 50248;
 
 	class MLLBMBEIAAB : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_NILAHIDKPLD()
+		static ::System::Collections::Generic::Queue_1<::System::Int32>** StaticGet_NCANFFGFJFK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0xD250);
+			return (::System::Collections::Generic::Queue_1<::System::Int32>**)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0x73B90);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_FOAEINPDJEI()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::String*>*>**)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0xD258);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::String*>*>**)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0x73B98);
 		}
 
-		static ::System::Collections::Generic::Queue_1<::System::Int32>** StaticGet_NCANFFGFJFK()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_NILAHIDKPLD()
 		{
-			return (::System::Collections::Generic::Queue_1<::System::Int32>**)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0xD260);
-		}
-
-		static ::System::Int32* StaticGet_PFMHLJPBNDP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0x2B90);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0x73BA0);
 		}
 
 		static ::System::Int32* StaticGet_NOOOMLAMJKA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0x2B94);
+			return (::System::Int32*)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0x16400);
+		}
+
+		static ::System::Int32* StaticGet_PFMHLJPBNDP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "MLLBMBEIAAB")->GetStaticField(0x16404);
 		}
 
 		static ::System::Void _cctor()

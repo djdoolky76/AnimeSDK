@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
 
-#define JFPMHAIENHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x166493A0)
-#define JFPMHAIENHJ_EIOOHNDIEMN_OFFSET UNITYSDK_OFFSET(0x16649310)
+#define JFPMHAIENHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1933FA40)
+#define JFPMHAIENHJ_EIOOHNDIEMN_OFFSET UNITYSDK_OFFSET(0x1933F9B0)
 
-inline static constexpr unsigned int JFPMHAIENHJ_TypeDefinitionIndex = 81049;
+inline static constexpr unsigned int JFPMHAIENHJ_TypeDefinitionIndex = 83829;
 
 	class JFPMHAIENHJ : public ::System::Object
 	{

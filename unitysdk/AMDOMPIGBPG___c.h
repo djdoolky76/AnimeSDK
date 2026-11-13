@@ -4,18 +4,18 @@
 class AMDOMPIGBPG;
 namespace System { class Object; }
 
-#define AMDOMPIGBPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4ED410)
-#define AMDOMPIGBPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4ED450)
-#define AMDOMPIGBPG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E4ED460)
+#define AMDOMPIGBPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200276A0)
+#define AMDOMPIGBPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200276E0)
+#define AMDOMPIGBPG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x200276F0)
 
-inline static constexpr unsigned int AMDOMPIGBPG___c_TypeDefinitionIndex = 34870;
+inline static constexpr unsigned int AMDOMPIGBPG___c_TypeDefinitionIndex = 35798;
 
 	class AMDOMPIGBPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44810);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39560);
 		}
 
 		static ::System::Void _cctor()

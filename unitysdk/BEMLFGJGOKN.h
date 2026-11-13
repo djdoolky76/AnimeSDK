@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame { class TimelineControlGameWorld_LevelGroupAction; }
 
-#define BEMLFGJGOKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88A710)
+#define BEMLFGJGOKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B4EF0)
 
-inline static constexpr unsigned int BEMLFGJGOKN_TypeDefinitionIndex = 42525;
+inline static constexpr unsigned int BEMLFGJGOKN_TypeDefinitionIndex = 43500;
 
 	class BEMLFGJGOKN : public ::System::Object
 	{

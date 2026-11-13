@@ -7,12 +7,12 @@
 namespace HoudiniEngineUnity { class HEU_ToolsInfo; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_TOOLSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B979730)
-#define HOUDINIENGINEUNITY_HEU_TOOLSINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9791E0)
+#define HOUDINIENGINEUNITY_HEU_TOOLSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C83BB80)
+#define HOUDINIENGINEUNITY_HEU_TOOLSINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1C83B630)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ToolsInfo_TypeDefinitionIndex = 40766;
+	inline static constexpr unsigned int HEU_ToolsInfo_TypeDefinitionIndex = 41741;
 
 	class HEU_ToolsInfo : public ::UnityEngine::ScriptableObject
 	{

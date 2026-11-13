@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DriftComponentData; }
 
-#define RPG_GAMECORE_DRIFTCOMPONENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EBB00)
-#define RPG_GAMECORE_DRIFTCOMPONENTDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5EB490)
+#define RPG_GAMECORE_DRIFTCOMPONENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C9550)
+#define RPG_GAMECORE_DRIFTCOMPONENTDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3C8E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DriftComponentData_TypeDefinitionIndex = 19188;
+	inline static constexpr unsigned int DriftComponentData_TypeDefinitionIndex = 19378;
 
 	class DriftComponentData : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,6 +30,8 @@ namespace RPG::GameCore
 		::System::Single RotateSpeed; // 0x2C
 		::System::Single RotateNoise3DSpeed; // 0x30
 		::System::Single WobbyScale; // 0x34
+		::System::Boolean UseLocalWobblyPosition; // 0x38
+		::System::Boolean UseLocalWobblyRotation; // 0x39
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRIFTCOMPONENTDATA_CTOR_OFFSET))(this);

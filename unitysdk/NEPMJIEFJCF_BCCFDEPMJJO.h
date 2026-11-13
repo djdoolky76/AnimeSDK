@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NEPMJIEFJCF_BCCFDEPMJJO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6F190)
+#define NEPMJIEFJCF_BCCFDEPMJJO_CTOR_OFFSET UNITYSDK_OFFSET(0x18E58520)
 
-inline static constexpr unsigned int NEPMJIEFJCF_BCCFDEPMJJO_TypeDefinitionIndex = 55951;
+inline static constexpr unsigned int NEPMJIEFJCF_BCCFDEPMJJO_TypeDefinitionIndex = 57154;
 
 	class NEPMJIEFJCF_BCCFDEPMJJO : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
-		::System::Int32 EDMKJDNECNE; // 0x18
-		::System::Int32 HOCLANAJNII; // 0x1C
+		::System::Int32 HOCLANAJNII; // 0x18
+		::System::Int32 EDMKJDNECNE; // 0x1C
 		::NEPMJIEFJCF_EDIPKPAGLJA FHJHBBCBGEG; // 0x20
 		::System::Void _ctor()
 		{

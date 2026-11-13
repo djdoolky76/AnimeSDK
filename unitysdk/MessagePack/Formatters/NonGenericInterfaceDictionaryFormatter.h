@@ -7,21 +7,21 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Collections { class IDictionary; }
 
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB58CB0)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB582C0)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB58770)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB582D0)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17497B70)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x17497180)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17497630)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17497190)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NonGenericInterfaceDictionaryFormatter_TypeDefinitionIndex = 7405;
+	inline static constexpr unsigned int NonGenericInterfaceDictionaryFormatter_TypeDefinitionIndex = 7416;
 
 	class NonGenericInterfaceDictionaryFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IDictionary*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IDictionary*>**)UnitySDK::FromName("MessagePack.Formatters", "NonGenericInterfaceDictionaryFormatter")->GetStaticField(0x488A0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IDictionary*>**)UnitySDK::FromName("MessagePack.Formatters", "NonGenericInterfaceDictionaryFormatter")->GetStaticField(0x2CA00);
 		}
 
 		::System::Void _ctor()

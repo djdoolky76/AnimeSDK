@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HGBGJIPLILP;
 
-#define CBCPEACIJIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC498220)
+#define CBCPEACIJIE_CTOR_OFFSET UNITYSDK_OFFSET(0x18FD5330)
 
-inline static constexpr unsigned int CBCPEACIJIE_TypeDefinitionIndex = 54287;
+inline static constexpr unsigned int CBCPEACIJIE_TypeDefinitionIndex = 55451;
 
 	class CBCPEACIJIE : public ::System::Object
 	{

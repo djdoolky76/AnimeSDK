@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_OUTLINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDC532A0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_OUTLINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEF5F0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_OutlineConfig_TypeDefinitionIndex = 78329;
+	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_OutlineConfig_TypeDefinitionIndex = 81064;
 
 	class ChimeraDuelChimeraOutlineDrawer_OutlineConfig : public ::System::Object
 	{

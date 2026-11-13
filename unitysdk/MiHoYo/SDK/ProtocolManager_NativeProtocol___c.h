@@ -5,25 +5,25 @@ namespace MiHoYo::SDK { class AccountPlatformPlugin_MessageHandler; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF90F30)
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF90F70)
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__TRYSHOWLAUNCHERPROTOCOLCOMPLIANCE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1BF90F80)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFA2C80)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFA2CC0)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__TRYSHOWLAUNCHERPROTOCOLCOMPLIANCE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1AFA2CD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager_NativeProtocol___c_TypeDefinitionIndex = 8044;
+	inline static constexpr unsigned int ProtocolManager_NativeProtocol___c_TypeDefinitionIndex = 8053;
 
 	class ProtocolManager_NativeProtocol___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__13_0()
 		{
-			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x243C0);
+			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C510);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x243C8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C518);
 		}
 
 		static ::System::Void _cctor()

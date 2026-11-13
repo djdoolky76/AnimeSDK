@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetMapSkillTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OPBKLMOLCHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBF98FF0)
-#define OPBKLMOLCHB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBF99010)
+#define OPBKLMOLCHB_CTOR_OFFSET UNITYSDK_OFFSET(0x196C0BF0)
+#define OPBKLMOLCHB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x196C0C10)
 
-inline static constexpr unsigned int OPBKLMOLCHB_TypeDefinitionIndex = 53804;
+inline static constexpr unsigned int OPBKLMOLCHB_TypeDefinitionIndex = 54968;
 
 	class OPBKLMOLCHB
 	{

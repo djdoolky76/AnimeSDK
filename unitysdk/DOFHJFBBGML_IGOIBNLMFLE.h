@@ -5,10 +5,10 @@ class SerializedWarmupPSO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Shader; }
 
-#define DOFHJFBBGML_IGOIBNLMFLE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDF0B0)
-#define DOFHJFBBGML_IGOIBNLMFLE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x11FE16E0)
+#define DOFHJFBBGML_IGOIBNLMFLE_CTOR_OFFSET UNITYSDK_OFFSET(0x191A2650)
+#define DOFHJFBBGML_IGOIBNLMFLE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x191A4C80)
 
-inline static constexpr unsigned int DOFHJFBBGML_IGOIBNLMFLE_TypeDefinitionIndex = 47424;
+inline static constexpr unsigned int DOFHJFBBGML_IGOIBNLMFLE_TypeDefinitionIndex = 48453;
 
 	class DOFHJFBBGML_IGOIBNLMFLE : public ::System::Object
 	{

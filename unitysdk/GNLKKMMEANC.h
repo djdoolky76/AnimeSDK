@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define GNLKKMMEANC_CHGAODBJPBE_OFFSET UNITYSDK_OFFSET(0x15B0A7A0)
+#define GNLKKMMEANC_CHGAODBJPBE_OFFSET UNITYSDK_OFFSET(0x1879A720)
 
-inline static constexpr unsigned int GNLKKMMEANC_TypeDefinitionIndex = 63468;
+inline static constexpr unsigned int GNLKKMMEANC_TypeDefinitionIndex = 64906;
 
 	class GNLKKMMEANC : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_IKCPCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB1ED0)
+#define MIHOYO_SDK_IKCPCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2E63D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int IKCPClient_TypeDefinitionIndex = 46126;
+	inline static constexpr unsigned int IKCPClient_TypeDefinitionIndex = 47155;
 
 	class IKCPClient : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int ExecuteEvents_EventFunction_1_TypeDefinitionIndex = 6936;
+	inline static constexpr unsigned int ExecuteEvents_EventFunction_1_TypeDefinitionIndex = 6947;
 
 	template <typename T>
 	class ExecuteEvents_EventFunction_1 : public ::System::MulticastDelegate

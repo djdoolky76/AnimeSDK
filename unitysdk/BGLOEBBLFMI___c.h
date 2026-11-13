@@ -4,18 +4,18 @@
 class BGLOEBBLFMI;
 namespace System { class Object; }
 
-#define BGLOEBBLFMI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA4FA80)
-#define BGLOEBBLFMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4FAC0)
-#define BGLOEBBLFMI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA4FAD0)
+#define BGLOEBBLFMI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2010F990)
+#define BGLOEBBLFMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2010F9D0)
+#define BGLOEBBLFMI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2010F9E0)
 
-inline static constexpr unsigned int BGLOEBBLFMI___c_TypeDefinitionIndex = 27364;
+inline static constexpr unsigned int BGLOEBBLFMI___c_TypeDefinitionIndex = 27895;
 
 	class BGLOEBBLFMI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55580);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4F7B0);
 		}
 
 		static ::System::Void _cctor()

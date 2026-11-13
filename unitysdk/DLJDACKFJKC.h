@@ -6,23 +6,23 @@ class EOHNDDIAKOA;
 class NPMAIAEDIHK;
 namespace System { class String; }
 
-#define DLJDACKFJKC_CCTOR_OFFSET UNITYSDK_OFFSET(0xF89B840)
-#define DLJDACKFJKC_CTOR_OFFSET UNITYSDK_OFFSET(0xF89B830)
-#define DLJDACKFJKC_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xF89B470)
+#define DLJDACKFJKC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1866F760)
+#define DLJDACKFJKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1866F750)
+#define DLJDACKFJKC_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1866F390)
 
-inline static constexpr unsigned int DLJDACKFJKC_TypeDefinitionIndex = 63276;
+inline static constexpr unsigned int DLJDACKFJKC_TypeDefinitionIndex = 64714;
 
 	class DLJDACKFJKC : public ::System::Object
 	{
 	public:
-		static ::EOHNDDIAKOA** StaticGet_ILBAIDFFNEC()
-		{
-			return (::EOHNDDIAKOA**)UnitySDK::FromName("", "DLJDACKFJKC")->GetStaticField(0x59200);
-		}
-
 		static ::EGDPGOHKLPI** StaticGet_IFCMENDDFIK()
 		{
-			return (::EGDPGOHKLPI**)UnitySDK::FromName("", "DLJDACKFJKC")->GetStaticField(0x59208);
+			return (::EGDPGOHKLPI**)UnitySDK::FromName("", "DLJDACKFJKC")->GetStaticField(0x53B70);
+		}
+
+		static ::EOHNDDIAKOA** StaticGet_ILBAIDFFNEC()
+		{
+			return (::EOHNDDIAKOA**)UnitySDK::FromName("", "DLJDACKFJKC")->GetStaticField(0x53B78);
 		}
 
 		::System::Void _ctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimMonoCamera.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xD42BFE0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C385830)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFixedCamera_TypeDefinitionIndex = 76862;
+	inline static constexpr unsigned int FiveDimFixedCamera_TypeDefinitionIndex = 79196;
 
 	class FiveDimFixedCamera : public ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera
 	{

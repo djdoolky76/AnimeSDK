@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C3400)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F0FE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopFullBodyData_TypeDefinitionIndex = 47967;
+	inline static constexpr unsigned int CharacterStopFullBodyData_TypeDefinitionIndex = 48998;
 
 	class CharacterStopFullBodyData : public ::System::Object
 	{

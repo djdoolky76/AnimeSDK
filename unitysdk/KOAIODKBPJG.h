@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Behaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define KOAIODKBPJG_CTOR_OFFSET UNITYSDK_OFFSET(0xB588B60)
-#define KOAIODKBPJG_DBNCJFBIHAL_OFFSET UNITYSDK_OFFSET(0xB588C30)
-#define KOAIODKBPJG_JNACBACPDEM_OFFSET UNITYSDK_OFFSET(0xB5890A0)
-#define KOAIODKBPJG_KEDKMLMOPDB_OFFSET UNITYSDK_OFFSET(0xB588BE0)
-#define KOAIODKBPJG_OOOAAALPEGJ_OFFSET UNITYSDK_OFFSET(0xB588C80)
-#define KOAIODKBPJG_PFMHCPFPMIM_OFFSET UNITYSDK_OFFSET(0xB588E40)
+#define KOAIODKBPJG_CTOR_OFFSET UNITYSDK_OFFSET(0x18FB58D0)
+#define KOAIODKBPJG_DBNCJFBIHAL_OFFSET UNITYSDK_OFFSET(0x18FB59A0)
+#define KOAIODKBPJG_JNACBACPDEM_OFFSET UNITYSDK_OFFSET(0x18FB5E10)
+#define KOAIODKBPJG_KEDKMLMOPDB_OFFSET UNITYSDK_OFFSET(0x18FB5950)
+#define KOAIODKBPJG_OOOAAALPEGJ_OFFSET UNITYSDK_OFFSET(0x18FB59F0)
+#define KOAIODKBPJG_PFMHCPFPMIM_OFFSET UNITYSDK_OFFSET(0x18FB5BB0)
 
-inline static constexpr unsigned int KOAIODKBPJG_TypeDefinitionIndex = 72629;
+inline static constexpr unsigned int KOAIODKBPJG_TypeDefinitionIndex = 74708;
 
 	class KOAIODKBPJG : public ::System::Object
 	{
 	public:
-		::UnityEngine::Behaviour* EOIJBPGPNAE; // 0x10
-		::UnityEngine::GameObject* GGOPIDNLIJJ; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::RecordPropertyType, ::BHNGBMGOPIA*>* OLLHMJJAMCK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::RecordPropertyType, ::BHNGBMGOPIA*>* OLLHMJJAMCK; // 0x10
+		::UnityEngine::Behaviour* EOIJBPGPNAE; // 0x18
+		::UnityEngine::GameObject* GGOPIDNLIJJ; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOAIODKBPJG_CTOR_OFFSET))(this);

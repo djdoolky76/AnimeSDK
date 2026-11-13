@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JLEOKIJIJAN_AnimStateListenerMode_TypeDefinitionIndex = 58853;
+inline static constexpr unsigned int JLEOKIJIJAN_AnimStateListenerMode_TypeDefinitionIndex = 60125;
 
 	enum class JLEOKIJIJAN_AnimStateListenerMode : ::System::Int32
 	{

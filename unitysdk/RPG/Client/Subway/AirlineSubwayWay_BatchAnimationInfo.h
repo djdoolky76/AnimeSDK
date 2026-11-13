@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_BatchAnimationInfo_TypeDefinitionIndex = 82196;
+	inline static constexpr unsigned int AirlineSubwayWay_BatchAnimationInfo_TypeDefinitionIndex = 85069;
 
 	struct alignas(8) AirlineSubwayWay_BatchAnimationInfo
 	{

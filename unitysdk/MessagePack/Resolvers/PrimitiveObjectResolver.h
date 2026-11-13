@@ -4,24 +4,24 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Resolvers { class PrimitiveObjectResolver; }
 
-#define MESSAGEPACK_RESOLVERS_PRIMITIVEOBJECTRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4AD0)
-#define MESSAGEPACK_RESOLVERS_PRIMITIVEOBJECTRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4B40)
+#define MESSAGEPACK_RESOLVERS_PRIMITIVEOBJECTRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF69A60)
+#define MESSAGEPACK_RESOLVERS_PRIMITIVEOBJECTRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF69AD0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int PrimitiveObjectResolver_TypeDefinitionIndex = 7270;
+	inline static constexpr unsigned int PrimitiveObjectResolver_TypeDefinitionIndex = 7281;
 
 	class PrimitiveObjectResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack.Resolvers", "PrimitiveObjectResolver")->GetStaticField(0x4EB40);
+			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack.Resolvers", "PrimitiveObjectResolver")->GetStaticField(0x33E20);
 		}
 
 		static ::MessagePack::Resolvers::PrimitiveObjectResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::PrimitiveObjectResolver**)UnitySDK::FromName("MessagePack.Resolvers", "PrimitiveObjectResolver")->GetStaticField(0x4EB48);
+			return (::MessagePack::Resolvers::PrimitiveObjectResolver**)UnitySDK::FromName("MessagePack.Resolvers", "PrimitiveObjectResolver")->GetStaticField(0x33E28);
 		}
 
 		static ::System::Void _cctor()

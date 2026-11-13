@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersBrickModifierTypeConfig_TypeDefinitionIndex = 18947;
+	inline static constexpr unsigned int TeamTowersBrickModifierTypeConfig_TypeDefinitionIndex = 19134;
 
 	enum class TeamTowersBrickModifierTypeConfig : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/Entitas/EntitasException.h"
 namespace System { class String; }
 
-#define ENTITAS_COLLECTOREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x16749420)
+#define ENTITAS_COLLECTOREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x208506C0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int CollectorException_TypeDefinitionIndex = 9981;
+	inline static constexpr unsigned int CollectorException_TypeDefinitionIndex = 9989;
 
 	class CollectorException : public ::Entitas::EntitasException
 	{

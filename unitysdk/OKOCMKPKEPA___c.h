@@ -5,23 +5,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Material; }
 
-#define OKOCMKPKEPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBEEB840)
-#define OKOCMKPKEPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBEEB880)
-#define OKOCMKPKEPA___C___CTOR_B__30_0_OFFSET UNITYSDK_OFFSET(0xBEEB890)
+#define OKOCMKPKEPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17891D40)
+#define OKOCMKPKEPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17891D80)
+#define OKOCMKPKEPA___C___CTOR_B__30_0_OFFSET UNITYSDK_OFFSET(0x17891D90)
 
-inline static constexpr unsigned int OKOCMKPKEPA___c_TypeDefinitionIndex = 47772;
+inline static constexpr unsigned int OKOCMKPKEPA___c_TypeDefinitionIndex = 48802;
 
 	class OKOCMKPKEPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::Material*, ::UnityEngine::Material*>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::UnityEngine::Material*, ::UnityEngine::Material*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C4C0);
+			return (::System::Func_2<::UnityEngine::Material*, ::UnityEngine::Material*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0A0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C4C8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0A8);
 		}
 
 		static ::System::Void _cctor()

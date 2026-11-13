@@ -6,17 +6,17 @@ class INBHPLNBIOC;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define INBHPLNBIOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF7D40)
-#define INBHPLNBIOC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEF7D80)
-#define INBHPLNBIOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEF7CE0)
+#define INBHPLNBIOC_CTOR_OFFSET UNITYSDK_OFFSET(0xC99CD10)
+#define INBHPLNBIOC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0xC99CD50)
+#define INBHPLNBIOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC99CCB0)
 
-inline static constexpr unsigned int INBHPLNBIOC_TypeDefinitionIndex = 22612;
+inline static constexpr unsigned int INBHPLNBIOC_TypeDefinitionIndex = 23027;
 
 	class INBHPLNBIOC : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* KBAPBCNJHDB; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::RPG::GameCore::DynamicFloat* KBAPBCNJHDB; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INBHPLNBIOC_CTOR_OFFSET))(this);

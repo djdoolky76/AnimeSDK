@@ -4,10 +4,10 @@
 class JGKJJJCOICJ;
 namespace UnityEngine { class GameObject; }
 
-#define JGKJJJCOICJ___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB196450)
-#define JGKJJJCOICJ___C__DISPLAYCLASS9_0___UPDATEGEAR_B__0_OFFSET UNITYSDK_OFFSET(0xB196460)
+#define JGKJJJCOICJ___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19350340)
+#define JGKJJJCOICJ___C__DISPLAYCLASS9_0___UPDATEGEAR_B__0_OFFSET UNITYSDK_OFFSET(0x19350350)
 
-inline static constexpr unsigned int JGKJJJCOICJ___c__DisplayClass9_0_TypeDefinitionIndex = 78721;
+inline static constexpr unsigned int JGKJJJCOICJ___c__DisplayClass9_0_TypeDefinitionIndex = 81456;
 
 	class JGKJJJCOICJ___c__DisplayClass9_0 : public ::System::Object
 	{

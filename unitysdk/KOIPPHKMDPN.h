@@ -11,53 +11,53 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KOIPPHKMDPN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D092270)
-#define KOIPPHKMDPN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D092E30)
-#define KOIPPHKMDPN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D0923E0)
-#define KOIPPHKMDPN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D091CE0)
-#define KOIPPHKMDPN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D091F70)
-#define KOIPPHKMDPN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D092480)
-#define KOIPPHKMDPN_JNGNHBFGOOB_OFFSET UNITYSDK_OFFSET(0x1D092830)
-#define KOIPPHKMDPN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0924D0)
-#define KOIPPHKMDPN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0922B0)
-#define KOIPPHKMDPN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D091F10)
-#define KOIPPHKMDPN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D0920A0)
-#define KOIPPHKMDPN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D092340)
-#define KOIPPHKMDPN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D091C60)
+#define KOIPPHKMDPN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1ECF25E0)
+#define KOIPPHKMDPN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECF31A0)
+#define KOIPPHKMDPN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1ECF2750)
+#define KOIPPHKMDPN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1ECF2050)
+#define KOIPPHKMDPN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1ECF22E0)
+#define KOIPPHKMDPN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1ECF27F0)
+#define KOIPPHKMDPN_JNGNHBFGOOB_OFFSET UNITYSDK_OFFSET(0x1ECF2BA0)
+#define KOIPPHKMDPN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1ECF2840)
+#define KOIPPHKMDPN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1ECF2620)
+#define KOIPPHKMDPN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1ECF2280)
+#define KOIPPHKMDPN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1ECF2410)
+#define KOIPPHKMDPN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1ECF26B0)
+#define KOIPPHKMDPN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1ECF1FD0)
 
-inline static constexpr unsigned int KOIPPHKMDPN_TypeDefinitionIndex = 13671;
+inline static constexpr unsigned int KOIPPHKMDPN_TypeDefinitionIndex = 13798;
 
 	class KOIPPHKMDPN : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitLayerConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitLayerConfigRow*>**)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0x37190);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet_NLLNMBAKJEK()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0x37198);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0x371A0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0x39D80);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitLayerConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitLayerConfigRow*>**)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0x39D88);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0x371A8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0x39D90);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet_NLLNMBAKJEK()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0xB200);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0x39D98);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0xB201);
+			return (::System::Byte*)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0xB7C0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "KOIPPHKMDPN")->GetStaticField(0xB7C1);
 		}
 
 		static ::System::Void _cctor()

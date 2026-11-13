@@ -10,18 +10,18 @@ class JACIBMLLOFE;
 class OCKFDCAINLB;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KOGNDOEELHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB5900E0)
-#define KOGNDOEELHI_LMFPDGFALML_OFFSET UNITYSDK_OFFSET(0xB5901F0)
-#define KOGNDOEELHI_ODAOBOJBMMH_OFFSET UNITYSDK_OFFSET(0xB590380)
+#define KOGNDOEELHI_CTOR_OFFSET UNITYSDK_OFFSET(0x190FF330)
+#define KOGNDOEELHI_LMFPDGFALML_OFFSET UNITYSDK_OFFSET(0x190FF440)
+#define KOGNDOEELHI_ODAOBOJBMMH_OFFSET UNITYSDK_OFFSET(0x190FF5D0)
 
-inline static constexpr unsigned int KOGNDOEELHI_TypeDefinitionIndex = 80128;
+inline static constexpr unsigned int KOGNDOEELHI_TypeDefinitionIndex = 82905;
 
 	class KOGNDOEELHI : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::UInt32, ::RPG::Client::MechCraft::MechCraftPartType>, ::JACIBMLLOFE*>* LHFHFJBKJDK; // 0x10
-		::HNMIPBLIAJA* CEFLLELKFOP; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::MechCraft::MechCraftPartType>, ::OCKFDCAINLB*>* HJLKLEMKDNI; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::MechCraft::MechCraftPartType>, ::OCKFDCAINLB*>* HJLKLEMKDNI; // 0x18
+		::HNMIPBLIAJA* CEFLLELKFOP; // 0x20
 		::System::Void _ctor(::HNMIPBLIAJA* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::HNMIPBLIAJA*))((::PBYTE)hIl2Cpp + KOGNDOEELHI_CTOR_OFFSET))(this, a1);

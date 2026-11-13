@@ -5,18 +5,17 @@
 class DHNANCPBEPK;
 class FCOEMCEDLNL;
 
-#define DHNANCPBEPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF54F0)
-#define DHNANCPBEPK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCF5500)
-#define DHNANCPBEPK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF54C0)
+#define DHNANCPBEPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7EA260)
+#define DHNANCPBEPK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7EA270)
+#define DHNANCPBEPK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7EA230)
 
-inline static constexpr unsigned int DHNANCPBEPK_TypeDefinitionIndex = 19922;
+inline static constexpr unsigned int DHNANCPBEPK_TypeDefinitionIndex = 20251;
 
 	class DHNANCPBEPK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::Boolean BJDOINAHDLN; // 0x18
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::FateRinCaseBoardTeamType JCDIEKGKCPP; // 0x1C
+		::RPG::GameCore::FateRinCaseBoardTeamType JCDIEKGKCPP; // 0x18
+		::System::Boolean BJDOINAHDLN; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DHNANCPBEPK_CTOR_OFFSET))(this);

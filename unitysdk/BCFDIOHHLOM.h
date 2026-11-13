@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define BCFDIOHHLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x15E996E0)
+#define BCFDIOHHLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x19D743B0)
 
-inline static constexpr unsigned int BCFDIOHHLOM_TypeDefinitionIndex = 57541;
+inline static constexpr unsigned int BCFDIOHHLOM_TypeDefinitionIndex = 58769;
 
 	class BCFDIOHHLOM : public ::System::Object
 	{

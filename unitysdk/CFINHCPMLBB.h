@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CFINHCPMLBB_CTOR_OFFSET UNITYSDK_OFFSET(0xCC49E30)
+#define CFINHCPMLBB_CTOR_OFFSET UNITYSDK_OFFSET(0x17822BC0)
 
-inline static constexpr unsigned int CFINHCPMLBB_TypeDefinitionIndex = 69677;
+inline static constexpr unsigned int CFINHCPMLBB_TypeDefinitionIndex = 71634;
 
 	class CFINHCPMLBB : public ::System::Object
 	{

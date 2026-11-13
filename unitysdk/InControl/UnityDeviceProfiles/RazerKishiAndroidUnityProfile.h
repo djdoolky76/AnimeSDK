@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_RAZERKISHIANDROIDUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB029E0)
-#define INCONTROL_UNITYDEVICEPROFILES_RAZERKISHIANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BB016F0)
+#define INCONTROL_UNITYDEVICEPROFILES_RAZERKISHIANDROIDUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xC67C320)
+#define INCONTROL_UNITYDEVICEPROFILES_RAZERKISHIANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC67B030)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int RazerKishiAndroidUnityProfile_TypeDefinitionIndex = 40985;
+	inline static constexpr unsigned int RazerKishiAndroidUnityProfile_TypeDefinitionIndex = 41960;
 
 	class RazerKishiAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PJPHDHBAADE.h"
 
-#define FCAOIABPCJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA0F30)
+#define FCAOIABPCJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E434650)
 
-inline static constexpr unsigned int FCAOIABPCJL_TypeDefinitionIndex = 25023;
+inline static constexpr unsigned int FCAOIABPCJL_TypeDefinitionIndex = 25501;
 
 	class FCAOIABPCJL : public ::PJPHDHBAADE
 	{

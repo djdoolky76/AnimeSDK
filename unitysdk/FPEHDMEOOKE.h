@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class JOOHEPGEHNK;
 
-#define FPEHDMEOOKE_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x1C527650)
+#define FPEHDMEOOKE_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x1E78A810)
 
-inline static constexpr unsigned int FPEHDMEOOKE_TypeDefinitionIndex = 41908;
+inline static constexpr unsigned int FPEHDMEOOKE_TypeDefinitionIndex = 42883;
 
 	class FPEHDMEOOKE : public ::System::Object
 	{

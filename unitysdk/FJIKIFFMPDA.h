@@ -8,24 +8,24 @@ namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define FJIKIFFMPDA_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0x157C3EA0)
-#define FJIKIFFMPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x157C3BE0)
-#define FJIKIFFMPDA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x157C43F0)
-#define FJIKIFFMPDA_INGPMHHKAGG_OFFSET UNITYSDK_OFFSET(0x157C5000)
-#define FJIKIFFMPDA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x157C4050)
-#define FJIKIFFMPDA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x157C4090)
+#define FJIKIFFMPDA_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0x1AA780F0)
+#define FJIKIFFMPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA77E20)
+#define FJIKIFFMPDA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AA78640)
+#define FJIKIFFMPDA_INGPMHHKAGG_OFFSET UNITYSDK_OFFSET(0x1AA79270)
+#define FJIKIFFMPDA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1AA782A0)
+#define FJIKIFFMPDA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1AA782E0)
 
-inline static constexpr unsigned int FJIKIFFMPDA_TypeDefinitionIndex = 76826;
+inline static constexpr unsigned int FJIKIFFMPDA_TypeDefinitionIndex = 79160;
 
 	class FJIKIFFMPDA : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup_1<::INMMPMDELKE*>* HKJNGDKDMNN; // 0x10
-		::Entitas::IGroup_1<::INMMPMDELKE*>* KFBHHFIFHCJ; // 0x18
-		::MNCOPNHONHO* PDENFEFCAGN; // 0x20
+		::MNCOPNHONHO* PDENFEFCAGN; // 0x10
+		::Entitas::IGroup_1<::INMMPMDELKE*>* HKJNGDKDMNN; // 0x18
+		::Entitas::IGroup_1<::INMMPMDELKE*>* KFBHHFIFHCJ; // 0x20
 		::BABNOKHOBCF* FKINCGODJEP; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::String*>* AHIFNJJGHOJ; // 0x30
-		::System::Collections::Generic::HashSet_1<::System::String*>* GPAGLKMGBCK; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::String*>* GPAGLKMGBCK; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::String*>* AHIFNJJGHOJ; // 0x38
 		::System::Void _ctor(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::BABNOKHOBCF*, ::MNCOPNHONHO*))((::PBYTE)hIl2Cpp + FJIKIFFMPDA_CTOR_OFFSET))(this, a1, a2);

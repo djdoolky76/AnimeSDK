@@ -6,22 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingFesLevelAbilityRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESLEVELABILITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5617C0)
-#define RPG_GAMECORE_CHENLINGFESLEVELABILITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D561510)
+#define RPG_GAMECORE_CHENLINGFESLEVELABILITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F916EF0)
+#define RPG_GAMECORE_CHENLINGFESLEVELABILITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F916C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesLevelAbilityRow_TypeDefinitionIndex = 11111;
+	inline static constexpr unsigned int ChenLingFesLevelAbilityRow_TypeDefinitionIndex = 11127;
 
 	class ChenLingFesLevelAbilityRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
-		::RPG::Client::TextID AbilityName; // 0x20
-		::System::UInt32 ID; // 0x30
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID AbilityDesc; // 0x38
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::Client::TextID AbilityDesc; // 0x20
+		::RPG::Client::TextID AbilityName; // 0x30
+		::System::UInt32 ID; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESLEVELABILITYROW_CTOR_OFFSET))(this);

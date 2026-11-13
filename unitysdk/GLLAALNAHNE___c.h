@@ -4,18 +4,18 @@
 class GLLAALNAHNE;
 namespace System { class Object; }
 
-#define GLLAALNAHNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4953C0)
-#define GLLAALNAHNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4953F0)
-#define GLLAALNAHNE___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E495400)
+#define GLLAALNAHNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA402B0)
+#define GLLAALNAHNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA402E0)
+#define GLLAALNAHNE___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1FA402F0)
 
-inline static constexpr unsigned int GLLAALNAHNE___c_TypeDefinitionIndex = 33936;
+inline static constexpr unsigned int GLLAALNAHNE___c_TypeDefinitionIndex = 34851;
 
 	class GLLAALNAHNE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1CFD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x167C0);
 		}
 
 		static ::System::Void _cctor()

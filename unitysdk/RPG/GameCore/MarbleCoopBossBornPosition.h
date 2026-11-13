@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleCoopBossBornPosition; }
 
-#define RPG_GAMECORE_MARBLECOOPBOSSBORNPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80E980)
-#define RPG_GAMECORE_MARBLECOOPBOSSBORNPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D80E840)
+#define RPG_GAMECORE_MARBLECOOPBOSSBORNPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB42E00)
+#define RPG_GAMECORE_MARBLECOOPBOSSBORNPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB42CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleCoopBossBornPosition_TypeDefinitionIndex = 18915;
+	inline static constexpr unsigned int MarbleCoopBossBornPosition_TypeDefinitionIndex = 19077;
 
 	class MarbleCoopBossBornPosition : public ::RPG::GameCore::JsonConfig
 	{

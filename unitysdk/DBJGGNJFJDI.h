@@ -5,23 +5,23 @@
 namespace System { class String; }
 namespace UnityEngine { class GUILayoutOption; }
 
-#define DBJGGNJFJDI_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD9A20)
-#define DBJGGNJFJDI_FHKHOKLDGIC_OFFSET UNITYSDK_OFFSET(0xDFD9A90)
-#define DBJGGNJFJDI_HAFBDMJEGAG_OFFSET UNITYSDK_OFFSET(0xDFD9BD0)
-#define DBJGGNJFJDI_HPCPFBKDDAL_OFFSET UNITYSDK_OFFSET(0xDFD9B30)
+#define DBJGGNJFJDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B14C730)
+#define DBJGGNJFJDI_FHKHOKLDGIC_OFFSET UNITYSDK_OFFSET(0x1B14C7A0)
+#define DBJGGNJFJDI_HAFBDMJEGAG_OFFSET UNITYSDK_OFFSET(0x1B14C8E0)
+#define DBJGGNJFJDI_HPCPFBKDDAL_OFFSET UNITYSDK_OFFSET(0x1B14C840)
 
-inline static constexpr unsigned int DBJGGNJFJDI_TypeDefinitionIndex = 49556;
+inline static constexpr unsigned int DBJGGNJFJDI_TypeDefinitionIndex = 50632;
 
 	class DBJGGNJFJDI : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* PMNMJEKKIJP; // 0x10
-		::System::String* IOCBBJLGEAJ; // 0x18
-		::System::Int32 MDBPILHONEH; // 0x20
-		::System::Single KHBCIBHMIOG; // 0x24
-		::System::Boolean LOFJANMAILC; // 0x28
+		::System::String* IOCBBJLGEAJ; // 0x10
+		::Il2CppArray<::System::String*>* PMNMJEKKIJP; // 0x18
+		::System::Boolean LOFJANMAILC; // 0x20
 		::System::Byte _padding0[0x3];
-		::UnityEngine::Vector2 BKIHBBGJAPK; // 0x2C
+		::System::Single KHBCIBHMIOG; // 0x24
+		::UnityEngine::Vector2 BKIHBBGJAPK; // 0x28
+		::System::Int32 MDBPILHONEH; // 0x30
 		::System::Void _ctor(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + DBJGGNJFJDI_CTOR_OFFSET))(this, a1, a2);

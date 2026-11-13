@@ -9,30 +9,30 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MMMFONOLFAE_ANEDHKJABMN_OFFSET UNITYSDK_OFFSET(0xB9D3660)
-#define MMMFONOLFAE_BAJLGLADHKD_OFFSET UNITYSDK_OFFSET(0xB9D3B00)
-#define MMMFONOLFAE_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0xB9D3B80)
-#define MMMFONOLFAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D46D0)
-#define MMMFONOLFAE_DNCAILFJGHN_OFFSET UNITYSDK_OFFSET(0xB9D4330)
-#define MMMFONOLFAE_HDNPLMPOEOA_OFFSET UNITYSDK_OFFSET(0xB9D4030)
-#define MMMFONOLFAE_MOFKDLANDGM_OFFSET UNITYSDK_OFFSET(0xB9D40F0)
-#define MMMFONOLFAE_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0xB9D3650)
-#define MMMFONOLFAE_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xB9D36D0)
+#define MMMFONOLFAE_ANEDHKJABMN_OFFSET UNITYSDK_OFFSET(0x18902190)
+#define MMMFONOLFAE_BAJLGLADHKD_OFFSET UNITYSDK_OFFSET(0x18902630)
+#define MMMFONOLFAE_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x189026B0)
+#define MMMFONOLFAE_CTOR_OFFSET UNITYSDK_OFFSET(0x18903200)
+#define MMMFONOLFAE_DNCAILFJGHN_OFFSET UNITYSDK_OFFSET(0x18902E60)
+#define MMMFONOLFAE_HDNPLMPOEOA_OFFSET UNITYSDK_OFFSET(0x18902B60)
+#define MMMFONOLFAE_MOFKDLANDGM_OFFSET UNITYSDK_OFFSET(0x18902C20)
+#define MMMFONOLFAE_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0x18902180)
+#define MMMFONOLFAE_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x18902200)
 
-inline static constexpr unsigned int MMMFONOLFAE_TypeDefinitionIndex = 68444;
+inline static constexpr unsigned int MMMFONOLFAE_TypeDefinitionIndex = 70391;
 
 	class MMMFONOLFAE : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* PAJFNAGPJKL; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* PIOADIJCHJC; // 0x18
-		::System::Collections::Generic::List_1<::System::Object*>* JKGCHADBJMD; // 0x20
-		::UnityEngine::Transform* BBNNHIGNKNL; // 0x28
-		::System::Single CLKJEOCKGKE; // 0x30
-		::MMMFONOLFAE_EEffectorSpace DFHAONBGOAN; // 0x34
-		::UnityEngine::Vector3 IIGNDIILFMI; // 0x38
+		::UnityEngine::Transform* BBNNHIGNKNL; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* JKGCHADBJMD; // 0x18
+		::UnityEngine::Transform* PAJFNAGPJKL; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* PIOADIJCHJC; // 0x28
+		::MMMFONOLFAE_EEffectorSpace DFHAONBGOAN; // 0x30
 		::System::Byte _padding0[0x4];
-		::System::Double AFHBAFMFFDA; // 0x48
+		::System::Double AFHBAFMFFDA; // 0x38
+		::UnityEngine::Vector3 IIGNDIILFMI; // 0x40
+		::System::Single CLKJEOCKGKE; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMMFONOLFAE_CTOR_OFFSET))(this);

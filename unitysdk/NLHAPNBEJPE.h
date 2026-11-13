@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PauseGameModeToState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NLHAPNBEJPE_CTOR_OFFSET UNITYSDK_OFFSET(0xBC65030)
-#define NLHAPNBEJPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC65040)
-#define NLHAPNBEJPE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC65080)
-#define NLHAPNBEJPE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC65110)
-#define NLHAPNBEJPE_TICK_OFFSET UNITYSDK_OFFSET(0xBC65160)
+#define NLHAPNBEJPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4285B0)
+#define NLHAPNBEJPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A4285C0)
+#define NLHAPNBEJPE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A428600)
+#define NLHAPNBEJPE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A428690)
+#define NLHAPNBEJPE_TICK_OFFSET UNITYSDK_OFFSET(0x1A4286E0)
 
-inline static constexpr unsigned int NLHAPNBEJPE_TypeDefinitionIndex = 58248;
+inline static constexpr unsigned int NLHAPNBEJPE_TypeDefinitionIndex = 59504;
 
 	class NLHAPNBEJPE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::PauseGameModeToState* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::PauseGameModeToState* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PauseGameModeToState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PauseGameModeToState*))((::PBYTE)hIl2Cpp + NLHAPNBEJPE_CTOR_OFFSET))(this, a1, a2);

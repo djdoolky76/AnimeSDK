@@ -3,10 +3,10 @@
 class CPFPIKGBLFK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ANBCFPDKCBD_CTOR_OFFSET UNITYSDK_OFFSET(0x15586690)
-#define ANBCFPDKCBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155866C0)
+#define ANBCFPDKCBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A81C640)
+#define ANBCFPDKCBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A81C670)
 
-inline static constexpr unsigned int ANBCFPDKCBD_TypeDefinitionIndex = 55553;
+inline static constexpr unsigned int ANBCFPDKCBD_TypeDefinitionIndex = 56745;
 
 	class ANBCFPDKCBD
 	{

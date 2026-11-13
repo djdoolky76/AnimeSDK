@@ -12,13 +12,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETUPUITRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9290B0)
-#define RPG_GAMECORE_PROPSETUPUITRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D929110)
-#define RPG_GAMECORE_PROPSETUPUITRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D929030)
+#define RPG_GAMECORE_PROPSETUPUITRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF92B70)
+#define RPG_GAMECORE_PROPSETUPUITRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF92BD0)
+#define RPG_GAMECORE_PROPSETUPUITRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF92AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupUITrigger_TypeDefinitionIndex = 20383;
+	inline static constexpr unsigned int PropSetupUITrigger_TypeDefinitionIndex = 20718;
 
 	class PropSetupUITrigger : public ::RPG::GameCore::TaskConfig
 	{

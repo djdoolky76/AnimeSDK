@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BaseGachaGroupData; }
 
-#define NHDIDLJECBI_IKOHPADGMJL_OFFSET UNITYSDK_OFFSET(0xBBB8750)
+#define NHDIDLJECBI_IKOHPADGMJL_OFFSET UNITYSDK_OFFSET(0x14890AD0)
 
-inline static constexpr unsigned int NHDIDLJECBI_TypeDefinitionIndex = 64320;
+inline static constexpr unsigned int NHDIDLJECBI_TypeDefinitionIndex = 65765;
 
 	class NHDIDLJECBI : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_ENGINEVOLUMETRICLIGHT_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE959890)
+#define SCENENLIGHTMANAGER_ENGINEVOLUMETRICLIGHT_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC2C530)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineVolumetricLight_ExportData_TypeDefinitionIndex = 49101;
+	inline static constexpr unsigned int EngineVolumetricLight_ExportData_TypeDefinitionIndex = 50177;
 
 	class EngineVolumetricLight_ExportData : public ::System::Object
 	{

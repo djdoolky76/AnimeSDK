@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-inline static constexpr unsigned int KCFLAKLHFMI_TypeDefinitionIndex = 55830;
+inline static constexpr unsigned int KCFLAKLHFMI_TypeDefinitionIndex = 57033;
 
 	struct alignas(8) KCFLAKLHFMI
 	{

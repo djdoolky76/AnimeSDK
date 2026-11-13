@@ -6,17 +6,17 @@ class GOOGNAIABBN;
 namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 
-#define GOOGNAIABBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE47E40)
-#define GOOGNAIABBN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE47E50)
-#define GOOGNAIABBN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE47E10)
+#define GOOGNAIABBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C8600)
+#define GOOGNAIABBN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9C8610)
+#define GOOGNAIABBN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9C85D0)
 
-inline static constexpr unsigned int GOOGNAIABBN_TypeDefinitionIndex = 21394;
+inline static constexpr unsigned int GOOGNAIABBN_TypeDefinitionIndex = 21737;
 
 	class GOOGNAIABBN : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:
-		::RPG::GameCore::BaseLittleGameAbilityEffectConfig* HPBAMMEFDMK; // 0x18
-		::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* GLGKAHCEPIL; // 0x20
+		::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* GLGKAHCEPIL; // 0x18
+		::RPG::GameCore::BaseLittleGameAbilityEffectConfig* HPBAMMEFDMK; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGNAIABBN_CTOR_OFFSET))(this);

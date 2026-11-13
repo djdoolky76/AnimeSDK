@@ -5,11 +5,11 @@ namespace DesperateDevs::Utils { class PublicMemberInfo; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DESPERATEDEVS_UTILS_ATTRIBUTEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x167287E0)
+#define DESPERATEDEVS_UTILS_ATTRIBUTEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x209702A0)
 
 namespace DesperateDevs::Utils
 {
-	inline static constexpr unsigned int AttributeInfo_TypeDefinitionIndex = 7096;
+	inline static constexpr unsigned int AttributeInfo_TypeDefinitionIndex = 7107;
 
 	class AttributeInfo : public ::System::Object
 	{

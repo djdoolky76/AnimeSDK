@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 
-#define IEBGPFKGBOP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15EDBE00)
-#define IEBGPFKGBOP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15EDBE10)
+#define IEBGPFKGBOP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x177A0170)
+#define IEBGPFKGBOP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x177A0180)
 
-inline static constexpr unsigned int IEBGPFKGBOP___c__DisplayClass1_0_TypeDefinitionIndex = 58553;
+inline static constexpr unsigned int IEBGPFKGBOP___c__DisplayClass1_0_TypeDefinitionIndex = 59818;
 
 	class IEBGPFKGBOP___c__DisplayClass1_0 : public ::System::Object
 	{

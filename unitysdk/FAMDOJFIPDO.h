@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define FAMDOJFIPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD992C0)
+#define FAMDOJFIPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED29D90)
 
-inline static constexpr unsigned int FAMDOJFIPDO_TypeDefinitionIndex = 25020;
+inline static constexpr unsigned int FAMDOJFIPDO_TypeDefinitionIndex = 25498;
 
 	class FAMDOJFIPDO : public ::System::Attribute
 	{

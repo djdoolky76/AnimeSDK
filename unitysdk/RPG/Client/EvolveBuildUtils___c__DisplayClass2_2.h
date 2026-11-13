@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2_CTOR_OFFSET UNITYSDK_OFFSET(0xCE3BC10)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__3_OFFSET UNITYSDK_OFFSET(0xCE3BC80)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__4_OFFSET UNITYSDK_OFFSET(0xCE3BC90)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB67640)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__3_OFFSET UNITYSDK_OFFSET(0x1DB676B0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__4_OFFSET UNITYSDK_OFFSET(0x1DB676C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_2_TypeDefinitionIndex = 63819;
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_2_TypeDefinitionIndex = 65261;
 
 	template <typename T1, typename T2>
 	class EvolveBuildUtils___c__DisplayClass2_2 : public ::System::Object

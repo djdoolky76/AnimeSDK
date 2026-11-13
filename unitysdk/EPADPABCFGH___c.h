@@ -4,18 +4,18 @@
 class EPADPABCFGH;
 namespace System { class Object; }
 
-#define EPADPABCFGH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2D3F30)
-#define EPADPABCFGH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D3F70)
-#define EPADPABCFGH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2D3F80)
+#define EPADPABCFGH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD88C90)
+#define EPADPABCFGH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD88CD0)
+#define EPADPABCFGH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FD88CE0)
 
-inline static constexpr unsigned int EPADPABCFGH___c_TypeDefinitionIndex = 31653;
+inline static constexpr unsigned int EPADPABCFGH___c_TypeDefinitionIndex = 32566;
 
 	class EPADPABCFGH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x477B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FB40);
 		}
 
 		static ::System::Void _cctor()

@@ -7,25 +7,25 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerRequestRow; }
 
-#define RPG_GAMECORE_DRINKMAKERREQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F7EA0)
-#define RPG_GAMECORE_DRINKMAKERREQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F76D0)
+#define RPG_GAMECORE_DRINKMAKERREQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D5930)
+#define RPG_GAMECORE_DRINKMAKERREQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3D5160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerRequestRow_TypeDefinitionIndex = 13150;
+	inline static constexpr unsigned int DrinkMakerRequestRow_TypeDefinitionIndex = 13224;
 
 	class DrinkMakerRequestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 RequestID; // 0x18
+		::RPG::Client::TextID RequestShortDesc; // 0x18
+		::System::UInt32 SuccessTip; // 0x28
+		::RPG::GameCore::DrinkMakerBanModEntranceType BanModeEntrance; // 0x2C
+		::System::UInt32 FailTip; // 0x30
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID RequestDesc; // 0x20
-		::System::UInt32 SuccessTip; // 0x30
-		::System::UInt32 FailTip; // 0x34
-		::RPG::GameCore::DrinkMakerBanModEntranceType BanModeEntrance; // 0x38
-		::RPG::GameCore::DrinkMakerRequestMode Mode; // 0x3C
-		::RPG::Client::TextID RequestShortDesc; // 0x40
+		::RPG::Client::TextID RequestDesc; // 0x38
+		::RPG::GameCore::DrinkMakerRequestMode Mode; // 0x48
+		::System::UInt32 RequestID; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERREQUESTROW_CTOR_OFFSET))(this);

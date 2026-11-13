@@ -5,29 +5,29 @@ class EBMMGODFEEO;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define HPPNAAGGAMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DD4D10)
-#define HPPNAAGGAMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD4D40)
-#define HPPNAAGGAMP___C__BORROW_B__4_1_OFFSET UNITYSDK_OFFSET(0x15DD4D50)
-#define HPPNAAGGAMP___C___ONPRELOADTIMELINEASSETFINISH_B__33_0_OFFSET UNITYSDK_OFFSET(0x15DD4D80)
+#define HPPNAAGGAMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF4F990)
+#define HPPNAAGGAMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF4F9C0)
+#define HPPNAAGGAMP___C__BORROW_B__4_1_OFFSET UNITYSDK_OFFSET(0x1AF4F9D0)
+#define HPPNAAGGAMP___C___ONPRELOADTIMELINEASSETFINISH_B__33_0_OFFSET UNITYSDK_OFFSET(0x1AF4FA00)
 
-inline static constexpr unsigned int HPPNAAGGAMP___c_TypeDefinitionIndex = 48480;
+inline static constexpr unsigned int HPPNAAGGAMP___c_TypeDefinitionIndex = 49521;
 
 	class HPPNAAGGAMP___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::EBMMGODFEEO*>** StaticGet___9__4_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::EBMMGODFEEO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33510);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A7D0);
 		}
 
 		static ::System::Predicate_1<::EBMMGODFEEO*>** StaticGet___9__33_0()
 		{
-			return (::System::Predicate_1<::EBMMGODFEEO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33518);
+			return (::System::Predicate_1<::EBMMGODFEEO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A7D8);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Predicate_1<::EBMMGODFEEO*>** StaticGet___9__4_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33520);
+			return (::System::Predicate_1<::EBMMGODFEEO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A7E0);
 		}
 
 		static ::System::Void _cctor()

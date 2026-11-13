@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FCOEMCEDLNL;
 
-#define MOMNMLHNPLH_BIKABOFADBP_OFFSET UNITYSDK_OFFSET(0x1D1AED60)
-#define MOMNMLHNPLH_DCDDKNNINEB_OFFSET UNITYSDK_OFFSET(0x1D1AECB0)
+#define MOMNMLHNPLH_BIKABOFADBP_OFFSET UNITYSDK_OFFSET(0x1E8816A0)
+#define MOMNMLHNPLH_DCDDKNNINEB_OFFSET UNITYSDK_OFFSET(0x1E8815F0)
 
-inline static constexpr unsigned int MOMNMLHNPLH_TypeDefinitionIndex = 10815;
+inline static constexpr unsigned int MOMNMLHNPLH_TypeDefinitionIndex = 10831;
 
 	class MOMNMLHNPLH : public ::System::Object
 	{

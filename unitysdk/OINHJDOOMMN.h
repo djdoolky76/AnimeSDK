@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/GameCore/SkillPropertyType.h"
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int OINHJDOOMMN_TypeDefinitionIndex = 55835;
+inline static constexpr unsigned int OINHJDOOMMN_TypeDefinitionIndex = 57038;
 
 	struct alignas(8) OINHJDOOMMN
 	{

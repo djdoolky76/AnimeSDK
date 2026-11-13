@@ -5,18 +5,17 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CJJOKFFBHFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DB290)
+#define CJJOKFFBHFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0D4C0)
 
-inline static constexpr unsigned int CJJOKFFBHFH_TypeDefinitionIndex = 43757;
+inline static constexpr unsigned int CJJOKFFBHFH_TypeDefinitionIndex = 44832;
 
 	class CJJOKFFBHFH : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint IBNKNGGMANN; // 0x10
-		::UnityEngine::Vector3 LPPIHKNHFGF; // 0x18
-		::UnityEngine::Quaternion HFOMPEEAPCG; // 0x24
-		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint GCJMFBKLGHI; // 0x38
+		::RPG::GameCore::FixPoint GCJMFBKLGHI; // 0x10
+		::RPG::GameCore::FixPoint IBNKNGGMANN; // 0x18
+		::UnityEngine::Vector3 LPPIHKNHFGF; // 0x20
+		::UnityEngine::Quaternion HFOMPEEAPCG; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJJOKFFBHFH_CTOR_OFFSET))(this);

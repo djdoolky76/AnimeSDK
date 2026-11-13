@@ -5,20 +5,20 @@ namespace RPG::GameCore { class MonopolyShowPlayerBubbleTalk; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define FKEGJFIOCIM_CTOR_OFFSET UNITYSDK_OFFSET(0x157E2E70)
-#define FKEGJFIOCIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157E30B0)
-#define FKEGJFIOCIM_NJGMLKIBPKP_OFFSET UNITYSDK_OFFSET(0x157E3270)
-#define FKEGJFIOCIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157E2E80)
-#define FKEGJFIOCIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157E3020)
-#define FKEGJFIOCIM_TICK_OFFSET UNITYSDK_OFFSET(0x157E3140)
+#define FKEGJFIOCIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA99570)
+#define FKEGJFIOCIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AA997B0)
+#define FKEGJFIOCIM_NJGMLKIBPKP_OFFSET UNITYSDK_OFFSET(0x1AA99970)
+#define FKEGJFIOCIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AA99580)
+#define FKEGJFIOCIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AA99720)
+#define FKEGJFIOCIM_TICK_OFFSET UNITYSDK_OFFSET(0x1AA99840)
 
-inline static constexpr unsigned int FKEGJFIOCIM_TypeDefinitionIndex = 58221;
+inline static constexpr unsigned int FKEGJFIOCIM_TypeDefinitionIndex = 59477;
 
 	class FKEGJFIOCIM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::MonopolyShowPlayerBubbleTalk* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::MonopolyShowPlayerBubbleTalk* OFKGLJOAMLD; // 0x20
 		::System::Single LLNIGIGFCEA; // 0x28
 		// static const ::System::Object ACKMEJMBELK; // 0x0
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyShowPlayerBubbleTalk* a2)

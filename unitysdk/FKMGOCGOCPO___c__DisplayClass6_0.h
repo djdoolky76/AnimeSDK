@@ -4,16 +4,16 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define FKMGOCGOCPO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15804620)
-#define FKMGOCGOCPO___C__DISPLAYCLASS6_0__BUILDANIMGROUPEVENTTASKISCLIENTONLYERRORLOG_B__0_OFFSET UNITYSDK_OFFSET(0x15804EE0)
+#define FKMGOCGOCPO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1893D360)
+#define FKMGOCGOCPO___C__DISPLAYCLASS6_0__BUILDANIMGROUPEVENTTASKISCLIENTONLYERRORLOG_B__0_OFFSET UNITYSDK_OFFSET(0x1893DC20)
 
-inline static constexpr unsigned int FKMGOCGOCPO___c__DisplayClass6_0_TypeDefinitionIndex = 55910;
+inline static constexpr unsigned int FKMGOCGOCPO___c__DisplayClass6_0_TypeDefinitionIndex = 57113;
 
 	class FKMGOCGOCPO___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::Text::StringBuilder* stringBuilder; // 0x10
-		::System::String* ownerName; // 0x18
+		::System::String* ownerName; // 0x10
+		::System::Text::StringBuilder* stringBuilder; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FKMGOCGOCPO___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class TaskContext; }
 
-#define FAAEKAHOPFH_JNCEJPDOGDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1564F5F0)
+#define FAAEKAHOPFH_JNCEJPDOGDI_CTOR_OFFSET UNITYSDK_OFFSET(0x136D5BB0)
 
-inline static constexpr unsigned int FAAEKAHOPFH_JNCEJPDOGDI_TypeDefinitionIndex = 58191;
+inline static constexpr unsigned int FAAEKAHOPFH_JNCEJPDOGDI_TypeDefinitionIndex = 59446;
 
 	class FAAEKAHOPFH_JNCEJPDOGDI : public ::System::Object
 	{

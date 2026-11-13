@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Counters_TypeDefinitionIndex = 36638;
+	inline static constexpr unsigned int B2Counters_TypeDefinitionIndex = 37566;
 
 	struct alignas(8) B2Counters
 	{

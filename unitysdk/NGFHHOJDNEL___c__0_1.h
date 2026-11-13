@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI { class InputField; }
 
-inline static constexpr unsigned int NGFHHOJDNEL___c__0_1_TypeDefinitionIndex = 49925;
+inline static constexpr unsigned int NGFHHOJDNEL___c__0_1_TypeDefinitionIndex = 50973;
 
 	template <typename T>
 	class NGFHHOJDNEL___c__0_1 : public ::System::Object

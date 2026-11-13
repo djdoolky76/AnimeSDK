@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/CurveEdgePointSetting.h"
 #include "unitysdk/RPG/Client/ECurveMoveDirection.h"
 
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xEB9E0)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x3DADE30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveMovementManager_StateInfo_TypeDefinitionIndex = 68547;
+	inline static constexpr unsigned int MonoCurveMovementManager_StateInfo_TypeDefinitionIndex = 70495;
 
 	struct alignas(4) MonoCurveMovementManager_StateInfo
 	{

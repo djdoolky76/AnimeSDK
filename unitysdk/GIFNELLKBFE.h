@@ -4,9 +4,9 @@
 class EOLDAGHJDPI;
 class GNNEHBBAGND;
 
-#define GIFNELLKBFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7D520)
+#define GIFNELLKBFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA835D0)
 
-inline static constexpr unsigned int GIFNELLKBFE_TypeDefinitionIndex = 42160;
+inline static constexpr unsigned int GIFNELLKBFE_TypeDefinitionIndex = 43135;
 
 	class GIFNELLKBFE : public ::EMJIDLCDFMI
 	{

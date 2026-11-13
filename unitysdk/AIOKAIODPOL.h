@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define AIOKAIODPOL_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define AIOKAIODPOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2308D60)
+#define AIOKAIODPOL_CTOR_OFFSET UNITYSDK_OFFSET(0xADCE20)
+#define AIOKAIODPOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3E4E530)
 
-inline static constexpr unsigned int AIOKAIODPOL_TypeDefinitionIndex = 67860;
+inline static constexpr unsigned int AIOKAIODPOL_TypeDefinitionIndex = 69805;
 
 	struct alignas(4) AIOKAIODPOL
 	{

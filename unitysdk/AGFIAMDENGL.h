@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroGunFire; }
 
-#define AGFIAMDENGL_CTOR_OFFSET UNITYSDK_OFFSET(0xCF22920)
-#define AGFIAMDENGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF22950)
+#define AGFIAMDENGL_CTOR_OFFSET UNITYSDK_OFFSET(0x18DD33F0)
+#define AGFIAMDENGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DD3420)
 
-inline static constexpr unsigned int AGFIAMDENGL_TypeDefinitionIndex = 58954;
+inline static constexpr unsigned int AGFIAMDENGL_TypeDefinitionIndex = 60227;
 
 	class AGFIAMDENGL
 	{

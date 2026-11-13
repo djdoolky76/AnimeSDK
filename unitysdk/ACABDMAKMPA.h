@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialHideNodes; }
 
-#define ACABDMAKMPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB10EA90)
-#define ACABDMAKMPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB10EAC0)
+#define ACABDMAKMPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1827C850)
+#define ACABDMAKMPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1827C880)
 
-inline static constexpr unsigned int ACABDMAKMPA_TypeDefinitionIndex = 58823;
+inline static constexpr unsigned int ACABDMAKMPA_TypeDefinitionIndex = 60091;
 
 	class ACABDMAKMPA
 	{

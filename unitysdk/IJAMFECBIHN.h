@@ -5,20 +5,20 @@ namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define IJAMFECBIHN_CTOR_OFFSET UNITYSDK_OFFSET(0x1644B080)
-#define IJAMFECBIHN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1644B4E0)
-#define IJAMFECBIHN_GCCDBBHLLMO_OFFSET UNITYSDK_OFFSET(0x1644B5E0)
-#define IJAMFECBIHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1644B090)
-#define IJAMFECBIHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1644B440)
-#define IJAMFECBIHN_TICK_OFFSET UNITYSDK_OFFSET(0x1644B580)
+#define IJAMFECBIHN_CTOR_OFFSET UNITYSDK_OFFSET(0x1803F460)
+#define IJAMFECBIHN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1803F8C0)
+#define IJAMFECBIHN_GCCDBBHLLMO_OFFSET UNITYSDK_OFFSET(0x1803F9C0)
+#define IJAMFECBIHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1803F470)
+#define IJAMFECBIHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1803F820)
+#define IJAMFECBIHN_TICK_OFFSET UNITYSDK_OFFSET(0x1803F960)
 
-inline static constexpr unsigned int IJAMFECBIHN_TypeDefinitionIndex = 58330;
+inline static constexpr unsigned int IJAMFECBIHN_TypeDefinitionIndex = 59586;
 
 	class IJAMFECBIHN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::PropInitPuzzle* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::PropInitPuzzle* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropInitPuzzle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + IJAMFECBIHN_CTOR_OFFSET))(this, a1, a2);

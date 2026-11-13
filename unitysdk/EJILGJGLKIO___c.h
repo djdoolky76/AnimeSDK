@@ -4,18 +4,18 @@
 class EJILGJGLKIO;
 namespace System { class Object; }
 
-#define EJILGJGLKIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E28B810)
-#define EJILGJGLKIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E28B850)
-#define EJILGJGLKIO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E28B860)
+#define EJILGJGLKIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE4F5B0)
+#define EJILGJGLKIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE4F5F0)
+#define EJILGJGLKIO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE4F600)
 
-inline static constexpr unsigned int EJILGJGLKIO___c_TypeDefinitionIndex = 32576;
+inline static constexpr unsigned int EJILGJGLKIO___c_TypeDefinitionIndex = 33491;
 
 	class EJILGJGLKIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CCC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40D20);
 		}
 
 		static ::System::Void _cctor()

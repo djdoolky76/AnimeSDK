@@ -8,18 +8,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define LAJIKDENEOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A5350)
-#define LAJIKDENEOO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0A5360)
-#define LAJIKDENEOO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0A5310)
+#define LAJIKDENEOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E93AB60)
+#define LAJIKDENEOO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E93AB70)
+#define LAJIKDENEOO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E93AB20)
 
-inline static constexpr unsigned int LAJIKDENEOO_TypeDefinitionIndex = 22603;
+inline static constexpr unsigned int LAJIKDENEOO_TypeDefinitionIndex = 23018;
 
 	class LAJIKDENEOO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x18
-		::System::String* FHLJGDGMMHK; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::System::String* FHLJGDGMMHK; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x28
 		::RPG::GameCore::PropertyModifyFunction FKCKKFALPBK; // 0x30
 		::System::Boolean CMNJPIMBMMI; // 0x34
 		::System::Void _ctor()

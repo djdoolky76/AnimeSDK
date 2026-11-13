@@ -4,11 +4,11 @@
 namespace System::Linq::Expressions { class LambdaExpression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_INTERNAL_EXPRESSIONUTILITY_GETMETHODINFOCORE_OFFSET UNITYSDK_OFFSET(0x1BB86D00)
+#define MESSAGEPACK_INTERNAL_EXPRESSIONUTILITY_GETMETHODINFOCORE_OFFSET UNITYSDK_OFFSET(0x174C5D90)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 7292;
+	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 7303;
 
 	class ExpressionUtility : public ::System::Object
 	{

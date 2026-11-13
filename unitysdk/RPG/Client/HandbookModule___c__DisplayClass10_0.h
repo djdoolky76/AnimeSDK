@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class HandbookChapterData; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2F0C50)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS10_0__GETCHAPTERDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD2FB8D0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D5340)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS10_0__GETCHAPTERDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1C5DEF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass10_0_TypeDefinitionIndex = 65632;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass10_0_TypeDefinitionIndex = 67555;
 
 	class HandbookModule___c__DisplayClass10_0 : public ::System::Object
 	{

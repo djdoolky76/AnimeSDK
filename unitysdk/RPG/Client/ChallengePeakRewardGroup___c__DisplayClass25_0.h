@@ -4,12 +4,12 @@
 namespace RPG::Client { class ChallengePeakReward; }
 namespace RPG::Client { class ChallengePeakRewardGroup; }
 
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9ACAD0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP___C__DISPLAYCLASS25_0___GETSORTEDREWARDDATABYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xC9ACAE0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C04D1B0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP___C__DISPLAYCLASS25_0___GETSORTEDREWARDDATABYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1C04D1C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakRewardGroup___c__DisplayClass25_0_TypeDefinitionIndex = 63185;
+	inline static constexpr unsigned int ChallengePeakRewardGroup___c__DisplayClass25_0_TypeDefinitionIndex = 64623;
 
 	class ChallengePeakRewardGroup___c__DisplayClass25_0 : public ::System::Object
 	{

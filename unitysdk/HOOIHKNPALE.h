@@ -4,21 +4,25 @@
 class GIDHOABFFFP;
 class GJABEBPIGDN;
 class KCLIKAPODAD;
+namespace RPG::AvatarSystem { class AvatarPath; }
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class EquipmentItemData; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HOOIHKNPALE_CFHMMIFLAKP_OFFSET UNITYSDK_OFFSET(0x15DB1780)
-#define HOOIHKNPALE_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB1C60)
-#define HOOIHKNPALE_IGLBGKKAJMF_OFFSET UNITYSDK_OFFSET(0x15DB1A80)
-#define HOOIHKNPALE_LFCBKAKLHJM_OFFSET UNITYSDK_OFFSET(0x15DB1B70)
-#define HOOIHKNPALE_MPBNBBOLFBK_OFFSET UNITYSDK_OFFSET(0x15DB1880)
-#define HOOIHKNPALE_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0x15DB1700)
+#define HOOIHKNPALE_CFHMMIFLAKP_OFFSET UNITYSDK_OFFSET(0x1AF2B320)
+#define HOOIHKNPALE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2B9C0)
+#define HOOIHKNPALE_IGLBGKKAJMF_OFFSET UNITYSDK_OFFSET(0x1AF2B620)
+#define HOOIHKNPALE_LFCBKAKLHJM_OFFSET UNITYSDK_OFFSET(0x1AF2B6E0)
+#define HOOIHKNPALE_MPBNBBOLFBK_OFFSET UNITYSDK_OFFSET(0x1AF2B420)
+#define HOOIHKNPALE_NICDDFJAKAF_OFFSET UNITYSDK_OFFSET(0x1AF2B7D0)
+#define HOOIHKNPALE_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0x1AF2B2A0)
 
-inline static constexpr unsigned int HOOIHKNPALE_TypeDefinitionIndex = 62855;
+inline static constexpr unsigned int HOOIHKNPALE_TypeDefinitionIndex = 64293;
 
 	class HOOIHKNPALE : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::Dictionary_2<::RPG::AvatarSystem::AvatarPath*, ::System::UInt32>* LHBBGJMEBNG; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOOIHKNPALE_CTOR_OFFSET))(this);
@@ -42,6 +46,11 @@ inline static constexpr unsigned int HOOIHKNPALE_TypeDefinitionIndex = 62855;
 		::RPG::Client::EquipmentItemData* IGLBGKKAJMF(::RPG::AvatarSystem::IAvatar* a1, ::KCLIKAPODAD* a2)
 		{
 			return ((::RPG::Client::EquipmentItemData*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::KCLIKAPODAD*))((::PBYTE)hIl2Cpp + HOOIHKNPALE_IGLBGKKAJMF_OFFSET))(this, a1, a2);
+		}
+
+		::System::UInt32 NICDDFJAKAF(::RPG::AvatarSystem::AvatarPath* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::RPG::AvatarSystem::AvatarPath*))((::PBYTE)hIl2Cpp + HOOIHKNPALE_NICDDFJAKAF_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::EquipmentItemData* LFCBKAKLHJM(::RPG::AvatarSystem::IAvatar* a1, ::RPG::Client::EquipmentItemData* a2, ::KCLIKAPODAD* a3)

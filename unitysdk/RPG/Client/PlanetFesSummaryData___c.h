@@ -5,37 +5,37 @@ namespace RPG::Client { class PlanetFesAvatarStatsData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define RPG_CLIENT_PLANETFESSUMMARYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDBC7E20)
-#define RPG_CLIENT_PLANETFESSUMMARYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDBC7E60)
-#define RPG_CLIENT_PLANETFESSUMMARYDATA___C__GETMOSTINCOMEAVATAR_B__1_0_OFFSET UNITYSDK_OFFSET(0xDBC7E70)
-#define RPG_CLIENT_PLANETFESSUMMARYDATA___C__GETMOSTPAMEVENTAVATAR_B__4_0_OFFSET UNITYSDK_OFFSET(0xDBC7F20)
-#define RPG_CLIENT_PLANETFESSUMMARYDATA___C__GETMOSTWORKTIMEAVATAR_B__3_0_OFFSET UNITYSDK_OFFSET(0xDBC7EF0)
+#define RPG_CLIENT_PLANETFESSUMMARYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E298690)
+#define RPG_CLIENT_PLANETFESSUMMARYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2986D0)
+#define RPG_CLIENT_PLANETFESSUMMARYDATA___C__GETMOSTINCOMEAVATAR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1E2986E0)
+#define RPG_CLIENT_PLANETFESSUMMARYDATA___C__GETMOSTPAMEVENTAVATAR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1E298790)
+#define RPG_CLIENT_PLANETFESSUMMARYDATA___C__GETMOSTWORKTIMEAVATAR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1E298760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesSummaryData___c_TypeDefinitionIndex = 66642;
+	inline static constexpr unsigned int PlanetFesSummaryData___c_TypeDefinitionIndex = 68578;
 
 	class PlanetFesSummaryData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2CBD0);
-		}
-
-		static ::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>** StaticGet___9__3_0()
-		{
-			return (::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2CBD8);
-		}
-
 		static ::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2CBE0);
+			return (::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47710);
 		}
 
 		static ::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2CBE8);
+			return (::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47718);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47720);
+		}
+
+		static ::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>** StaticGet___9__3_0()
+		{
+			return (::System::Func_3<::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*, ::RPG::Client::PlanetFesAvatarStatsData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47728);
 		}
 
 		static ::System::Void _cctor()

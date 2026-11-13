@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByAttackTargetCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCLNMDFJOLJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB336EC0)
-#define KCLNMDFJOLJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB336FA0)
+#define KCLNMDFJOLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A48A190)
+#define KCLNMDFJOLJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A48A270)
 
-inline static constexpr unsigned int KCLNMDFJOLJ_TypeDefinitionIndex = 55421;
+inline static constexpr unsigned int KCLNMDFJOLJ_TypeDefinitionIndex = 56606;
 
 	class KCLNMDFJOLJ
 	{

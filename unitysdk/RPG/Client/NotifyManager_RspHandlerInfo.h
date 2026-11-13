@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RspHandler; }
 
-#define RPG_CLIENT_NOTIFYMANAGER_RSPHANDLERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD9CDE60)
+#define RPG_CLIENT_NOTIFYMANAGER_RSPHANDLERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD90E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyManager_RspHandlerInfo_TypeDefinitionIndex = 59288;
+	inline static constexpr unsigned int NotifyManager_RspHandlerInfo_TypeDefinitionIndex = 60565;
 
 	class NotifyManager_RspHandlerInfo : public ::System::Object
 	{

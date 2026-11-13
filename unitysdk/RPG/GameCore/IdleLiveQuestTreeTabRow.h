@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveQuestTreeTabRow; }
 
-#define RPG_GAMECORE_IDLELIVEQUESTTREETABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7506D0)
-#define RPG_GAMECORE_IDLELIVEQUESTTREETABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7504A0)
+#define RPG_GAMECORE_IDLELIVEQUESTTREETABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE89520)
+#define RPG_GAMECORE_IDLELIVEQUESTTREETABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE892F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestTreeTabRow_TypeDefinitionIndex = 11733;
+	inline static constexpr unsigned int IdleLiveQuestTreeTabRow_TypeDefinitionIndex = 11790;
 
 	class IdleLiveQuestTreeTabRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 TabQuestID; // 0x18
-		::System::UInt32 UnlockChapter; // 0x1C
+		::System::UInt32 UnlockChapter; // 0x18
+		::System::UInt32 TabQuestID; // 0x1C
 		::RPG::Client::TextID Name; // 0x20
 		::System::UInt32 ID; // 0x30
 		::System::Void _ctor()

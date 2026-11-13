@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define R3_EMPTYDISPOSABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F5130)
-#define R3_EMPTYDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C3F5140)
+#define R3_EMPTYDISPOSABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x2091B7F0)
+#define R3_EMPTYDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2091B800)
 
 namespace R3
 {
-	inline static constexpr unsigned int EmptyDisposable_TypeDefinitionIndex = 35904;
+	inline static constexpr unsigned int EmptyDisposable_TypeDefinitionIndex = 36832;
 
 	class EmptyDisposable : public ::System::Object
 	{

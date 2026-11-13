@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleReportCustomValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEREPORTCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4398C0)
-#define RPG_GAMECORE_BATTLEREPORTCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D439760)
+#define RPG_GAMECORE_BATTLEREPORTCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C31C0E0)
+#define RPG_GAMECORE_BATTLEREPORTCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C31BF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleReportCustomValue_TypeDefinitionIndex = 17116;
+	inline static constexpr unsigned int BattleReportCustomValue_TypeDefinitionIndex = 17283;
 
 	class BattleReportCustomValue : public ::RPG::GameCore::JsonConfig
 	{

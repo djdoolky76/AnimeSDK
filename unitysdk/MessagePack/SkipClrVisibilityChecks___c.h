@@ -4,20 +4,20 @@
 namespace System { class Object; }
 namespace System::Reflection { class ConstructorInfo; }
 
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB7290)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB72D0)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x1BBB72E0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF6C1E0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6C220)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x1EF6C230)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SkipClrVisibilityChecks___c_TypeDefinitionIndex = 7238;
+	inline static constexpr unsigned int SkipClrVisibilityChecks___c_TypeDefinitionIndex = 7249;
 
 	class SkipClrVisibilityChecks___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MessagePack", "<>c")->GetStaticField(0x4ECF0);
+			return (::System::Object**)UnitySDK::FromName("MessagePack", "<>c")->GetStaticField(0x341D0);
 		}
 
 		static ::System::Void _cctor()

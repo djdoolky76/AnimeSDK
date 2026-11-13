@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareUnusedUltraSkillCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HPANFBIADLG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB4260)
-#define HPANFBIADLG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DB4290)
+#define HPANFBIADLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2E860)
+#define HPANFBIADLG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AF2E890)
 
-inline static constexpr unsigned int HPANFBIADLG_TypeDefinitionIndex = 54586;
+inline static constexpr unsigned int HPANFBIADLG_TypeDefinitionIndex = 55751;
 
 	class HPANFBIADLG
 	{

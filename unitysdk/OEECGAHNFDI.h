@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OEECGAHNFDI_TypeDefinitionIndex = 75560;
+inline static constexpr unsigned int OEECGAHNFDI_TypeDefinitionIndex = 77887;
 
 	class OEECGAHNFDI
 	{

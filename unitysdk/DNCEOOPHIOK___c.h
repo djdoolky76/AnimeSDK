@@ -4,18 +4,18 @@
 class DNCEOOPHIOK;
 namespace System { class Object; }
 
-#define DNCEOOPHIOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1C6B90)
-#define DNCEOOPHIOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C6BD0)
-#define DNCEOOPHIOK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1C6BE0)
+#define DNCEOOPHIOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201E37E0)
+#define DNCEOOPHIOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201E3820)
+#define DNCEOOPHIOK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201E3830)
 
-inline static constexpr unsigned int DNCEOOPHIOK___c_TypeDefinitionIndex = 33805;
+inline static constexpr unsigned int DNCEOOPHIOK___c_TypeDefinitionIndex = 34720;
 
 	class DNCEOOPHIOK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36BE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35450);
 		}
 
 		static ::System::Void _cctor()

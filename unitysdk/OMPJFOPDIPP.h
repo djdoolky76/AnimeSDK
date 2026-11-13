@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DestroySummonUnit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OMPJFOPDIPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF42640)
-#define OMPJFOPDIPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF42670)
+#define OMPJFOPDIPP_CTOR_OFFSET UNITYSDK_OFFSET(0x17D71110)
+#define OMPJFOPDIPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17D71140)
 
-inline static constexpr unsigned int OMPJFOPDIPP_TypeDefinitionIndex = 58079;
+inline static constexpr unsigned int OMPJFOPDIPP_TypeDefinitionIndex = 59318;
 
 	class OMPJFOPDIPP
 	{

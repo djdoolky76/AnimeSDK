@@ -5,18 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveAvatarRarityRow; }
 
-#define RPG_GAMECORE_IDLELIVEAVATARRARITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74A860)
-#define RPG_GAMECORE_IDLELIVEAVATARRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74A6E0)
+#define RPG_GAMECORE_IDLELIVEAVATARRARITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE836B0)
+#define RPG_GAMECORE_IDLELIVEAVATARRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE83530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAvatarRarityRow_TypeDefinitionIndex = 11722;
+	inline static constexpr unsigned int IdleLiveAvatarRarityRow_TypeDefinitionIndex = 11779;
 
 	class IdleLiveAvatarRarityRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::System::UInt32 Rarity; // 0x20
+		::System::UInt32 Rarity; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Name; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEAVATARRARITYROW_CTOR_OFFSET))(this);

@@ -4,7 +4,7 @@
 #include "unitysdk/System/ValueTuple_4.h"
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int AGEJMDMLAKO___c__DisplayClass4_1_4_TypeDefinitionIndex = 49996;
+inline static constexpr unsigned int AGEJMDMLAKO___c__DisplayClass4_1_4_TypeDefinitionIndex = 51044;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	class AGEJMDMLAKO___c__DisplayClass4_1_4 : public ::System::Object

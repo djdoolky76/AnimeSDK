@@ -6,14 +6,14 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUtils___O_TypeDefinitionIndex = 59866;
+	inline static constexpr unsigned int CloudUtils___O_TypeDefinitionIndex = 61147;
 
 	class CloudUtils___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::String*>** StaticGet__0___OnGetClipBoardData()
 		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x15F70);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x18240);
 		}
 
 	};

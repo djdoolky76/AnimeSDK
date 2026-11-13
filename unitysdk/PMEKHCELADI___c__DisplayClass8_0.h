@@ -5,10 +5,10 @@ class PMEKHCELADI;
 namespace RPG::Client { class ActivityBenefitV2Round; }
 namespace RPG::Client { class ScheduleData; }
 
-#define PMEKHCELADI___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC311570)
-#define PMEKHCELADI___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xC311B00)
+#define PMEKHCELADI___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1889E0C0)
+#define PMEKHCELADI___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x1889E650)
 
-inline static constexpr unsigned int PMEKHCELADI___c__DisplayClass8_0_TypeDefinitionIndex = 61406;
+inline static constexpr unsigned int PMEKHCELADI___c__DisplayClass8_0_TypeDefinitionIndex = 62791;
 
 	class PMEKHCELADI___c__DisplayClass8_0 : public ::System::Object
 	{

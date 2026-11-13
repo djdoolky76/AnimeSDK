@@ -4,7 +4,7 @@
 class AGKHOGNMPMO;
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-inline static constexpr unsigned int LFMPNPBFIOH_TypeDefinitionIndex = 49255;
+inline static constexpr unsigned int LFMPNPBFIOH_TypeDefinitionIndex = 50331;
 
 	class LFMPNPBFIOH : public ::System::Object
 	{

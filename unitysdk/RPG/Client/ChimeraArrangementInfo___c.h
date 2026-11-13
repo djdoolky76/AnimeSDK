@@ -4,31 +4,31 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB06B50)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB06B80)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___FILTERARRANGEMENTBYDEATH_B__55_0_OFFSET UNITYSDK_OFFSET(0xCB06BA0)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___SYNCARRANGEDCOMMON_B__50_0_OFFSET UNITYSDK_OFFSET(0xCB06B90)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFDCD30)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFDCD60)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___FILTERARRANGEMENTBYDEATH_B__55_0_OFFSET UNITYSDK_OFFSET(0x1DFDCD80)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___SYNCARRANGEDCOMMON_B__50_0_OFFSET UNITYSDK_OFFSET(0x1DFDCD70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraArrangementInfo___c_TypeDefinitionIndex = 63404;
+	inline static constexpr unsigned int ChimeraArrangementInfo___c_TypeDefinitionIndex = 64842;
 
 	class ChimeraArrangementInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__50_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF3F0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE430);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__55_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF3F8);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE438);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__50_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF400);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE440);
 		}
 
 		static ::System::Void _cctor()

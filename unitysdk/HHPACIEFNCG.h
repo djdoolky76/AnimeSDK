@@ -5,9 +5,9 @@
 class OPEJFIDCNPO;
 namespace RPG::GameCore { class ComplexSkillAIFactorGroup; }
 
-#define HHPACIEFNCG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15CC9620)
+#define HHPACIEFNCG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x19021DD0)
 
-inline static constexpr unsigned int HHPACIEFNCG_TypeDefinitionIndex = 54347;
+inline static constexpr unsigned int HHPACIEFNCG_TypeDefinitionIndex = 55511;
 
 	class HHPACIEFNCG : public ::System::Object
 	{

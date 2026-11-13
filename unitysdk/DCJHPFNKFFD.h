@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class BattleCollegeAimShow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DCJHPFNKFFD_CTOR_OFFSET UNITYSDK_OFFSET(0xE242270)
-#define DCJHPFNKFFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE242280)
-#define DCJHPFNKFFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE242320)
-#define DCJHPFNKFFD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE2425B0)
-#define DCJHPFNKFFD_TICK_OFFSET UNITYSDK_OFFSET(0xE2422C0)
+#define DCJHPFNKFFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B170EC0)
+#define DCJHPFNKFFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B170ED0)
+#define DCJHPFNKFFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B170F70)
+#define DCJHPFNKFFD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B171200)
+#define DCJHPFNKFFD_TICK_OFFSET UNITYSDK_OFFSET(0x1B170F10)
 
-inline static constexpr unsigned int DCJHPFNKFFD_TypeDefinitionIndex = 57949;
+inline static constexpr unsigned int DCJHPFNKFFD_TypeDefinitionIndex = 59186;
 
 	class DCJHPFNKFFD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::BattleCollegeAimShow* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::BattleCollegeAimShow* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Boolean DOCIDMKAAGA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::BattleCollegeAimShow* a2)
 		{

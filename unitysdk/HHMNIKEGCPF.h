@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsDirectKillBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHMNIKEGCPF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CC7B30)
-#define HHMNIKEGCPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CC7B60)
+#define HHMNIKEGCPF_CTOR_OFFSET UNITYSDK_OFFSET(0x19020320)
+#define HHMNIKEGCPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19020350)
 
-inline static constexpr unsigned int HHMNIKEGCPF_TypeDefinitionIndex = 54650;
+inline static constexpr unsigned int HHMNIKEGCPF_TypeDefinitionIndex = 55816;
 
 	class HHMNIKEGCPF
 	{

@@ -13,67 +13,66 @@ namespace Proto { class Shop; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_SHOP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFE58C0)
-#define PROTO_SHOP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE5F60)
-#define PROTO_SHOP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFE52C0)
-#define PROTO_SHOP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFE5200)
-#define PROTO_SHOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE51C0)
-#define PROTO_SHOP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFE53F0)
-#define PROTO_SHOP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFE53C0)
-#define PROTO_SHOP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFE54B0)
-#define PROTO_SHOP_GET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x1DFE5330)
-#define PROTO_SHOP_GET_CITYEXP_OFFSET UNITYSDK_OFFSET(0x1DFE53A0)
-#define PROTO_SHOP_GET_CITYLEVEL_OFFSET UNITYSDK_OFFSET(0x1DFE5310)
-#define PROTO_SHOP_GET_CITYTAKENLEVELREWARD_OFFSET UNITYSDK_OFFSET(0x1DFE5380)
-#define PROTO_SHOP_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1DFE52F0)
-#define PROTO_SHOP_GET_GOODSLIST_OFFSET UNITYSDK_OFFSET(0x1DFE5370)
-#define PROTO_SHOP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFE5180)
-#define PROTO_SHOP_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1DFE5350)
-#define PROTO_SHOP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFE5E20)
-#define PROTO_SHOP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFE5D30)
-#define PROTO_SHOP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFE51B0)
-#define PROTO_SHOP_SET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x1DFE5340)
-#define PROTO_SHOP_SET_CITYEXP_OFFSET UNITYSDK_OFFSET(0x1DFE53B0)
-#define PROTO_SHOP_SET_CITYLEVEL_OFFSET UNITYSDK_OFFSET(0x1DFE5320)
-#define PROTO_SHOP_SET_CITYTAKENLEVELREWARD_OFFSET UNITYSDK_OFFSET(0x1DFE5390)
-#define PROTO_SHOP_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1DFE5300)
-#define PROTO_SHOP_SET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1DFE5360)
-#define PROTO_SHOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE5590)
-#define PROTO_SHOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE55F0)
+#define PROTO_SHOP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x2021E3C0)
+#define PROTO_SHOP_CCTOR_OFFSET UNITYSDK_OFFSET(0x2021EA80)
+#define PROTO_SHOP_CLONE_OFFSET UNITYSDK_OFFSET(0x2021DDB0)
+#define PROTO_SHOP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2021DD00)
+#define PROTO_SHOP_CTOR_OFFSET UNITYSDK_OFFSET(0x2021DCC0)
+#define PROTO_SHOP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2021DEE0)
+#define PROTO_SHOP_EQUALS_OFFSET UNITYSDK_OFFSET(0x2021DEB0)
+#define PROTO_SHOP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2021DFA0)
+#define PROTO_SHOP_GET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x2021DDE0)
+#define PROTO_SHOP_GET_CITYEXP_OFFSET UNITYSDK_OFFSET(0x2021DE70)
+#define PROTO_SHOP_GET_CITYLEVEL_OFFSET UNITYSDK_OFFSET(0x2021DE90)
+#define PROTO_SHOP_GET_CITYTAKENLEVELREWARD_OFFSET UNITYSDK_OFFSET(0x2021DE00)
+#define PROTO_SHOP_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x2021DE50)
+#define PROTO_SHOP_GET_GOODSLIST_OFFSET UNITYSDK_OFFSET(0x2021DE40)
+#define PROTO_SHOP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x2021DC80)
+#define PROTO_SHOP_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x2021DE20)
+#define PROTO_SHOP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x2021E920)
+#define PROTO_SHOP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x2021E830)
+#define PROTO_SHOP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x2021DCB0)
+#define PROTO_SHOP_SET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x2021DDF0)
+#define PROTO_SHOP_SET_CITYEXP_OFFSET UNITYSDK_OFFSET(0x2021DE80)
+#define PROTO_SHOP_SET_CITYLEVEL_OFFSET UNITYSDK_OFFSET(0x2021DEA0)
+#define PROTO_SHOP_SET_CITYTAKENLEVELREWARD_OFFSET UNITYSDK_OFFSET(0x2021DE10)
+#define PROTO_SHOP_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x2021DE60)
+#define PROTO_SHOP_SET_SHOPID_OFFSET UNITYSDK_OFFSET(0x2021DE30)
+#define PROTO_SHOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2021E080)
+#define PROTO_SHOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x2021E0E0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int Shop_TypeDefinitionIndex = 34171;
+	inline static constexpr unsigned int Shop_TypeDefinitionIndex = 35086;
 
 	class Shop : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::Goods*>* goodsList_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::System::UInt32 cityExp_; // 0x20
-		::System::Byte _padding0[0x4];
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::Goods*>* goodsList_; // 0x18
+		::System::Int64 endTime_; // 0x20
 		::System::Int64 beginTime_; // 0x28
 		::System::UInt64 cityTakenLevelReward_; // 0x30
-		::System::Int64 endTime_; // 0x38
-		::System::UInt32 cityLevel_; // 0x40
-		::System::UInt32 shopId_; // 0x44
-		static ::Google::Protobuf::FieldCodec_1<::Proto::Goods*>** StaticGet__repeated_goodsList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::Goods*>**)UnitySDK::FromName("Proto", "Shop")->GetStaticField(0x33020);
-		}
-
+		::System::UInt32 shopId_; // 0x38
+		::System::UInt32 cityLevel_; // 0x3C
+		::System::UInt32 cityExp_; // 0x40
 		static ::Google::Protobuf::MessageParser_1<::Proto::Shop*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::Shop*>**)UnitySDK::FromName("Proto", "Shop")->GetStaticField(0x33028);
+			return (::Google::Protobuf::MessageParser_1<::Proto::Shop*>**)UnitySDK::FromName("Proto", "Shop")->GetStaticField(0x3F010);
 		}
 
-		// static const ::System::Object EndTimeFieldNumber; // 0x0
-		// static const ::System::Object CityLevelFieldNumber; // 0x0
+		static ::Google::Protobuf::FieldCodec_1<::Proto::Goods*>** StaticGet__repeated_goodsList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Proto::Goods*>**)UnitySDK::FromName("Proto", "Shop")->GetStaticField(0x3F018);
+		}
+
 		// static const ::System::Object BeginTimeFieldNumber; // 0x0
+		// static const ::System::Object CityTakenLevelRewardFieldNumber; // 0x0
 		// static const ::System::Object ShopIdFieldNumber; // 0x0
 		// static const ::System::Object GoodsListFieldNumber; // 0x0
-		// static const ::System::Object CityTakenLevelRewardFieldNumber; // 0x0
+		// static const ::System::Object EndTimeFieldNumber; // 0x0
 		// static const ::System::Object CityExpFieldNumber; // 0x0
+		// static const ::System::Object CityLevelFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_CTOR_OFFSET))(this);
@@ -104,26 +103,6 @@ namespace Proto
 			return ((::Proto::Shop*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_CLONE_OFFSET))(this);
 		}
 
-		::System::Int64 get_EndTime()
-		{
-			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_GET_ENDTIME_OFFSET))(this);
-		}
-
-		::System::Void set_EndTime(::System::Int64 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_SHOP_SET_ENDTIME_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_CityLevel()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_GET_CITYLEVEL_OFFSET))(this);
-		}
-
-		::System::Void set_CityLevel(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SHOP_SET_CITYLEVEL_OFFSET))(this, a1);
-		}
-
 		::System::Int64 get_BeginTime()
 		{
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_GET_BEGINTIME_OFFSET))(this);
@@ -132,6 +111,16 @@ namespace Proto
 		::System::Void set_BeginTime(::System::Int64 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_SHOP_SET_BEGINTIME_OFFSET))(this, a1);
+		}
+
+		::System::UInt64 get_CityTakenLevelReward()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_GET_CITYTAKENLEVELREWARD_OFFSET))(this);
+		}
+
+		::System::Void set_CityTakenLevelReward(::System::UInt64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + PROTO_SHOP_SET_CITYTAKENLEVELREWARD_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ShopId()
@@ -149,14 +138,14 @@ namespace Proto
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::Goods*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_GET_GOODSLIST_OFFSET))(this);
 		}
 
-		::System::UInt64 get_CityTakenLevelReward()
+		::System::Int64 get_EndTime()
 		{
-			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_GET_CITYTAKENLEVELREWARD_OFFSET))(this);
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_GET_ENDTIME_OFFSET))(this);
 		}
 
-		::System::Void set_CityTakenLevelReward(::System::UInt64 a1)
+		::System::Void set_EndTime(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + PROTO_SHOP_SET_CITYTAKENLEVELREWARD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_SHOP_SET_ENDTIME_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CityExp()
@@ -167,6 +156,16 @@ namespace Proto
 		::System::Void set_CityExp(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SHOP_SET_CITYEXP_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_CityLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SHOP_GET_CITYLEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_CityLevel(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SHOP_SET_CITYLEVEL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

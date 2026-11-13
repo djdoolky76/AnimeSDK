@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ChangeCharacterSkillRowDataItem; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D537DC0)
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D537E00)
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D537D50)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC10060)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC100A0)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC0FFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterRowData_TypeDefinitionIndex = 23677;
+	inline static constexpr unsigned int ChangeCharacterRowData_TypeDefinitionIndex = 24131;
 
 	class ChangeCharacterRowData : public ::RPG::GameCore::TaskConfig
 	{

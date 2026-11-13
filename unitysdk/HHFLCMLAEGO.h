@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureForbidAttackTriggerBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHFLCMLAEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x15CBDB60)
-#define HHFLCMLAEGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CBDB90)
+#define HHFLCMLAEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x19016370)
+#define HHFLCMLAEGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x190163A0)
 
-inline static constexpr unsigned int HHFLCMLAEGO_TypeDefinitionIndex = 57899;
+inline static constexpr unsigned int HHFLCMLAEGO_TypeDefinitionIndex = 59136;
 
 	class HHFLCMLAEGO
 	{

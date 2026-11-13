@@ -6,14 +6,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BattleShowTalksParam___O_TypeDefinitionIndex = 76194;
+	inline static constexpr unsigned int DiceCombatV2BattleShowTalksParam___O_TypeDefinitionIndex = 78521;
 
 	class DiceCombatV2BattleShowTalksParam___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData*>** StaticGet__0___Create()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>O")->GetStaticField(0x21F80);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>O")->GetStaticField(0x2BEA0);
 		}
 
 	};

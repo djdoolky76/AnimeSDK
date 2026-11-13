@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 class BBGMIOOFEOC;
 
-#define BBGMIOOFEOC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C406F60)
-#define BBGMIOOFEOC___C__DISPLAYCLASS19_0___CHECK_DUPLICATES_B__0_OFFSET UNITYSDK_OFFSET(0x1C407070)
+#define BBGMIOOFEOC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC99F0)
+#define BBGMIOOFEOC___C__DISPLAYCLASS19_0___CHECK_DUPLICATES_B__0_OFFSET UNITYSDK_OFFSET(0x15AC9B00)
 
-inline static constexpr unsigned int BBGMIOOFEOC___c__DisplayClass19_0_TypeDefinitionIndex = 41520;
+inline static constexpr unsigned int BBGMIOOFEOC___c__DisplayClass19_0_TypeDefinitionIndex = 42495;
 
 	class BBGMIOOFEOC___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::CIGLFKLHBGD>* edges; // 0x10
-		::BBGMIOOFEOC* __4__this; // 0x18
+		::BBGMIOOFEOC* __4__this; // 0x10
+		::Il2CppArray<::CIGLFKLHBGD>* edges; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BBGMIOOFEOC___C__DISPLAYCLASS19_0_CTOR_OFFSET))(this);

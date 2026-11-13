@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System::ComponentModel { class DesignerSerializationVisibilityAttribute; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFBA0C0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB9F70)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFB9F90)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFB9FF0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1EFB9F80)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EFBA000)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C176770)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C176620)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C176640)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C1766A0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1C176630)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C1766B0)
 
 namespace System::ComponentModel
 {
@@ -20,24 +20,24 @@ namespace System::ComponentModel
 	{
 	public:
 		::System::ComponentModel::DesignerSerializationVisibility visibility; // 0x10
-		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Hidden()
-		{
-			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerSerializationVisibilityAttribute")->GetStaticField(0x2BE70);
-		}
-
-		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Default()
-		{
-			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerSerializationVisibilityAttribute")->GetStaticField(0x2BE78);
-		}
-
 		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Visible()
 		{
-			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerSerializationVisibilityAttribute")->GetStaticField(0x2BE80);
+			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerSerializationVisibilityAttribute")->GetStaticField(0x34830);
+		}
+
+		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Hidden()
+		{
+			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerSerializationVisibilityAttribute")->GetStaticField(0x34838);
 		}
 
 		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Content()
 		{
-			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerSerializationVisibilityAttribute")->GetStaticField(0x2BE88);
+			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerSerializationVisibilityAttribute")->GetStaticField(0x34840);
+		}
+
+		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Default()
+		{
+			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)UnitySDK::FromName("System.ComponentModel", "DesignerSerializationVisibilityAttribute")->GetStaticField(0x34848);
 		}
 
 		::System::Void _ctor(::System::ComponentModel::DesignerSerializationVisibility a1)

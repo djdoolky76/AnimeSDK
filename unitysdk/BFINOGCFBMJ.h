@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define BFINOGCFBMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB16B7A0)
+#define BFINOGCFBMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A962220)
 
-inline static constexpr unsigned int BFINOGCFBMJ_TypeDefinitionIndex = 53654;
+inline static constexpr unsigned int BFINOGCFBMJ_TypeDefinitionIndex = 54818;
 
 	class BFINOGCFBMJ : public ::System::Object
 	{

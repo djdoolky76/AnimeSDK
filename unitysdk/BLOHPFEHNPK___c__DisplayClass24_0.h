@@ -4,10 +4,10 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace RPG::Client { class GridFightFormationRole; }
 
-#define BLOHPFEHNPK___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7D670)
-#define BLOHPFEHNPK___C__DISPLAYCLASS24_0__CONTAINSROLEID_B__0_OFFSET UNITYSDK_OFFSET(0xBA7E7E0)
+#define BLOHPFEHNPK___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18B5C060)
+#define BLOHPFEHNPK___C__DISPLAYCLASS24_0__CONTAINSROLEID_B__0_OFFSET UNITYSDK_OFFSET(0x18B5D1D0)
 
-inline static constexpr unsigned int BLOHPFEHNPK___c__DisplayClass24_0_TypeDefinitionIndex = 64687;
+inline static constexpr unsigned int BLOHPFEHNPK___c__DisplayClass24_0_TypeDefinitionIndex = 66224;
 
 	class BLOHPFEHNPK___c__DisplayClass24_0 : public ::System::Object
 	{

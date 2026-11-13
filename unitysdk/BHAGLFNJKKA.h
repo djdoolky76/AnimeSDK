@@ -8,10 +8,10 @@ class MDIMPDIOOIE;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define BHAGLFNJKKA_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C407F30)
-#define BHAGLFNJKKA_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C4076A0)
+#define BHAGLFNJKKA_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x15ACA9C0)
+#define BHAGLFNJKKA_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x15ACA130)
 
-inline static constexpr unsigned int BHAGLFNJKKA_TypeDefinitionIndex = 41498;
+inline static constexpr unsigned int BHAGLFNJKKA_TypeDefinitionIndex = 42473;
 
 	class BHAGLFNJKKA : public ::System::Object
 	{

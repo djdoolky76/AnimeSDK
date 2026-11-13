@@ -4,11 +4,11 @@
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATA_CRPDEBUGRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD9EB0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_CRPDEBUGRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CD790)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererData_CRPDebugResources_TypeDefinitionIndex = 37865;
+	inline static constexpr unsigned int CRPRendererData_CRPDebugResources_TypeDefinitionIndex = 38794;
 
 	class CRPRendererData_CRPDebugResources : public ::System::Object
 	{

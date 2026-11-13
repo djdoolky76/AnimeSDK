@@ -12,51 +12,51 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define GCECAGOELDP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E40DD50)
-#define GCECAGOELDP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E40E070)
-#define GCECAGOELDP_CIHIACBANKF_OFFSET UNITYSDK_OFFSET(0x1E40D840)
-#define GCECAGOELDP_CLONE_OFFSET UNITYSDK_OFFSET(0x1E40D7E0)
-#define GCECAGOELDP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E40D6F0)
-#define GCECAGOELDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E40D660)
-#define GCECAGOELDP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E40D8D0)
-#define GCECAGOELDP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E40D870)
-#define GCECAGOELDP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E40D9F0)
-#define GCECAGOELDP_HAHFLCFONPK_OFFSET UNITYSDK_OFFSET(0x1E40D850)
-#define GCECAGOELDP_IEOLFBBEDKH_OFFSET UNITYSDK_OFFSET(0x1E40D830)
-#define GCECAGOELDP_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E40D5F0)
-#define GCECAGOELDP_KBKDIKHBIGF_OFFSET UNITYSDK_OFFSET(0x1E40D860)
-#define GCECAGOELDP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E40DF30)
-#define GCECAGOELDP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E40DEC0)
-#define GCECAGOELDP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E40D650)
-#define GCECAGOELDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E40DBB0)
-#define GCECAGOELDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E40DC10)
+#define GCECAGOELDP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1FC5B810)
+#define GCECAGOELDP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC5BAF0)
+#define GCECAGOELDP_CIHIACBANKF_OFFSET UNITYSDK_OFFSET(0x1FC5B2E0)
+#define GCECAGOELDP_CLONE_OFFSET UNITYSDK_OFFSET(0x1FC5B290)
+#define GCECAGOELDP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FC5B1A0)
+#define GCECAGOELDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC5B110)
+#define GCECAGOELDP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1FC5B380)
+#define GCECAGOELDP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1FC5B320)
+#define GCECAGOELDP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1FC5B4A0)
+#define GCECAGOELDP_HAHFLCFONPK_OFFSET UNITYSDK_OFFSET(0x1FC5B2F0)
+#define GCECAGOELDP_IEOLFBBEDKH_OFFSET UNITYSDK_OFFSET(0x1FC5B300)
+#define GCECAGOELDP_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1FC5B0A0)
+#define GCECAGOELDP_KBKDIKHBIGF_OFFSET UNITYSDK_OFFSET(0x1FC5B310)
+#define GCECAGOELDP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1FC5B9B0)
+#define GCECAGOELDP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1FC5B940)
+#define GCECAGOELDP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1FC5B100)
+#define GCECAGOELDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FC5B670)
+#define GCECAGOELDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1FC5B6D0)
 
-inline static constexpr unsigned int GCECAGOELDP_TypeDefinitionIndex = 28372;
+inline static constexpr unsigned int GCECAGOELDP_TypeDefinitionIndex = 28962;
 
 	class GCECAGOELDP : public ::System::Object
 	{
 	public:
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* POPNFGLOLKC; // 0x10
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* AMJJOFBMPFM; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* AMJJOFBMPFM; // 0x18
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x20
 		::System::UInt32 GJJDLFJNHFJ; // 0x28
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_HCHKMBHHOLF()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "GCECAGOELDP")->GetStaticField(0xDFF0);
-		}
-
 		static ::Google::Protobuf::MessageParser_1<::GCECAGOELDP*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::GCECAGOELDP*>**)UnitySDK::FromName("", "GCECAGOELDP")->GetStaticField(0xDFF8);
+			return (::Google::Protobuf::MessageParser_1<::GCECAGOELDP*>**)UnitySDK::FromName("", "GCECAGOELDP")->GetStaticField(0x58920);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_HCHKMBHHOLF()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "GCECAGOELDP")->GetStaticField(0x58928);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_IEDANNMKBMN()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "GCECAGOELDP")->GetStaticField(0xE000);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "GCECAGOELDP")->GetStaticField(0x58930);
 		}
 
-		// static const ::System::Object DKODICHDMKP; // 0x0
 		// static const ::System::Object ACLKHKBOAIH; // 0x0
+		// static const ::System::Object DKODICHDMKP; // 0x0
 		// static const ::System::Object IGJKBDMDNON; // 0x0
 		::System::Void _ctor()
 		{
@@ -88,11 +88,6 @@ inline static constexpr unsigned int GCECAGOELDP_TypeDefinitionIndex = 28372;
 			return ((::GCECAGOELDP*(*)(::PVOID))((::PBYTE)hIl2Cpp + GCECAGOELDP_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* IEOLFBBEDKH()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GCECAGOELDP_IEOLFBBEDKH_OFFSET))(this);
-		}
-
 		::System::UInt32 CIHIACBANKF()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + GCECAGOELDP_CIHIACBANKF_OFFSET))(this);
@@ -101,6 +96,11 @@ inline static constexpr unsigned int GCECAGOELDP_TypeDefinitionIndex = 28372;
 		::System::Void HAHFLCFONPK(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + GCECAGOELDP_HAHFLCFONPK_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* IEOLFBBEDKH()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GCECAGOELDP_IEOLFBBEDKH_OFFSET))(this);
 		}
 
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* KBKDIKHBIGF()

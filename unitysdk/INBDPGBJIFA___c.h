@@ -5,20 +5,20 @@
 class INBDPGBJIFA;
 namespace System { class Object; }
 
-#define INBDPGBJIFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E691A10)
-#define INBDPGBJIFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E691A40)
-#define INBDPGBJIFA___C___CCTOR_B__73_0_OFFSET UNITYSDK_OFFSET(0x1E691A50)
-#define INBDPGBJIFA___C___CCTOR_B__73_1_OFFSET UNITYSDK_OFFSET(0x1E691A80)
-#define INBDPGBJIFA___C___CCTOR_B__73_2_OFFSET UNITYSDK_OFFSET(0x1E691A90)
+#define INBDPGBJIFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206C5850)
+#define INBDPGBJIFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206C5880)
+#define INBDPGBJIFA___C___CCTOR_B__73_0_OFFSET UNITYSDK_OFFSET(0x206C5890)
+#define INBDPGBJIFA___C___CCTOR_B__73_1_OFFSET UNITYSDK_OFFSET(0x206C58C0)
+#define INBDPGBJIFA___C___CCTOR_B__73_2_OFFSET UNITYSDK_OFFSET(0x206C58D0)
 
-inline static constexpr unsigned int INBDPGBJIFA___c_TypeDefinitionIndex = 33981;
+inline static constexpr unsigned int INBDPGBJIFA___c_TypeDefinitionIndex = 34896;
 
 	class INBDPGBJIFA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x533B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FB70);
 		}
 
 		static ::System::Void _cctor()

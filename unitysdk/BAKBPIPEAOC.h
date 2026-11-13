@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define BAKBPIPEAOC_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0x15E64340)
-#define BAKBPIPEAOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E64300)
+#define BAKBPIPEAOC_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0x199DC1D0)
+#define BAKBPIPEAOC_CTOR_OFFSET UNITYSDK_OFFSET(0x199DC190)
 
-inline static constexpr unsigned int BAKBPIPEAOC_TypeDefinitionIndex = 68899;
+inline static constexpr unsigned int BAKBPIPEAOC_TypeDefinitionIndex = 70852;
 
 	class BAKBPIPEAOC : public ::System::Object
 	{

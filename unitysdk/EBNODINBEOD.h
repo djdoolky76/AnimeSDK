@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_CurrentHPCompare; }
 
-#define EBNODINBEOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B2A00)
-#define EBNODINBEOD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5CC9F0)
+#define EBNODINBEOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA67370)
+#define EBNODINBEOD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1BA81280)
 
-inline static constexpr unsigned int EBNODINBEOD_TypeDefinitionIndex = 36355;
+inline static constexpr unsigned int EBNODINBEOD_TypeDefinitionIndex = 37283;
 
 	class EBNODINBEOD : public ::HHOHBHGLHHF
 	{

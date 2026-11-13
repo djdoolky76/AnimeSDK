@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_UI_STARTPOSITIONOFFSETCOMPENSATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xC888C50)
-#define RPG_CLIENT_BLINDBOX_POOL_UI_STARTPOSITIONOFFSETCOMPENSATIONTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xC888D50)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_STARTPOSITIONOFFSETCOMPENSATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1C557820)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_STARTPOSITIONOFFSETCOMPENSATIONTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C557920)
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
-	inline static constexpr unsigned int StartPositionOffsetCompensationTrack_TypeDefinitionIndex = 74969;
+	inline static constexpr unsigned int StartPositionOffsetCompensationTrack_TypeDefinitionIndex = 77296;
 
 	class StartPositionOffsetCompensationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

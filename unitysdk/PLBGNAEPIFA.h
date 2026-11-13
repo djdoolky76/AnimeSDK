@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerMazeMiniMapUI; }
 
-#define PLBGNAEPIFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E5040)
-#define PLBGNAEPIFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2E5050)
-#define PLBGNAEPIFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2E5090)
-#define PLBGNAEPIFA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2E5110)
-#define PLBGNAEPIFA_TICK_OFFSET UNITYSDK_OFFSET(0xC2E5160)
+#define PLBGNAEPIFA_CTOR_OFFSET UNITYSDK_OFFSET(0x188719E0)
+#define PLBGNAEPIFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x188719F0)
+#define PLBGNAEPIFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18871A30)
+#define PLBGNAEPIFA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18871AB0)
+#define PLBGNAEPIFA_TICK_OFFSET UNITYSDK_OFFSET(0x18871B00)
 
-inline static constexpr unsigned int PLBGNAEPIFA_TypeDefinitionIndex = 53451;
+inline static constexpr unsigned int PLBGNAEPIFA_TypeDefinitionIndex = 54613;
 
 	class PLBGNAEPIFA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::TriggerMazeMiniMapUI* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TriggerMazeMiniMapUI* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerMazeMiniMapUI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerMazeMiniMapUI*))((::PBYTE)hIl2Cpp + PLBGNAEPIFA_CTOR_OFFSET))(this, a1, a2);

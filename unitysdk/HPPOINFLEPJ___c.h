@@ -4,18 +4,18 @@
 class HPPOINFLEPJ;
 namespace System { class Object; }
 
-#define HPPOINFLEPJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5D4150)
-#define HPPOINFLEPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D4190)
-#define HPPOINFLEPJ___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E5D41A0)
+#define HPPOINFLEPJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2039A5E0)
+#define HPPOINFLEPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2039A620)
+#define HPPOINFLEPJ___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2039A630)
 
-inline static constexpr unsigned int HPPOINFLEPJ___c_TypeDefinitionIndex = 32566;
+inline static constexpr unsigned int HPPOINFLEPJ___c_TypeDefinitionIndex = 33481;
 
 	class HPPOINFLEPJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40240);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41B90);
 		}
 
 		static ::System::Void _cctor()

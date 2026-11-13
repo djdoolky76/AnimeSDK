@@ -5,18 +5,18 @@ namespace MiHoYo::SDK::UI { class Alert; }
 namespace MiHoYo::SDK::UI { class Alert_OnAlertDelegate; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC2FA0)
-#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BFC3750)
+#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D057C10)
+#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D0583E0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int Alert___c__DisplayClass21_0_TypeDefinitionIndex = 8399;
+	inline static constexpr unsigned int Alert___c__DisplayClass21_0_TypeDefinitionIndex = 8408;
 
 	class Alert___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::System::String* button; // 0x10
-		::MiHoYo::SDK::UI::Alert_OnAlertDelegate* callback; // 0x18
+		::MiHoYo::SDK::UI::Alert_OnAlertDelegate* callback; // 0x10
+		::System::String* button; // 0x18
 		::System::String* content; // 0x20
 		::System::Boolean isShowClose; // 0x28
 		::System::Void _ctor()

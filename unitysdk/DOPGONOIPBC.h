@@ -4,19 +4,19 @@
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define DOPGONOIPBC_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x11FEF640)
-#define DOPGONOIPBC_AONEONHEHNA_OFFSET UNITYSDK_OFFSET(0x11FEF5A0)
-#define DOPGONOIPBC_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FEF730)
-#define DOPGONOIPBC_CTOR_OFFSET UNITYSDK_OFFSET(0x11FEF720)
+#define DOPGONOIPBC_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x191B45F0)
+#define DOPGONOIPBC_AONEONHEHNA_OFFSET UNITYSDK_OFFSET(0x191B4550)
+#define DOPGONOIPBC_CCTOR_OFFSET UNITYSDK_OFFSET(0x191B46E0)
+#define DOPGONOIPBC_CTOR_OFFSET UNITYSDK_OFFSET(0x191B46D0)
 
-inline static constexpr unsigned int DOPGONOIPBC_TypeDefinitionIndex = 57123;
+inline static constexpr unsigned int DOPGONOIPBC_TypeDefinitionIndex = 58352;
 
 	class DOPGONOIPBC : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Queue_1<::UnityEngine::AI::NavMeshPath*>** StaticGet_CEHKIFGGMGI()
 		{
-			return (::System::Collections::Generic::Queue_1<::UnityEngine::AI::NavMeshPath*>**)UnitySDK::FromName("", "DOPGONOIPBC")->GetStaticField(0x6F6B0);
+			return (::System::Collections::Generic::Queue_1<::UnityEngine::AI::NavMeshPath*>**)UnitySDK::FromName("", "DOPGONOIPBC")->GetStaticField(0x70250);
 		}
 
 		::System::Void _ctor()

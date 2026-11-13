@@ -6,11 +6,11 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AMJPKALDLMI_CTOR_OFFSET UNITYSDK_OFFSET(0x15579090)
-#define AMJPKALDLMI_GOBLKKJBMHK_OFFSET UNITYSDK_OFFSET(0x155784D0)
-#define AMJPKALDLMI_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x15578430)
+#define AMJPKALDLMI_CTOR_OFFSET UNITYSDK_OFFSET(0x197DECF0)
+#define AMJPKALDLMI_GOBLKKJBMHK_OFFSET UNITYSDK_OFFSET(0x197DE130)
+#define AMJPKALDLMI_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x197DE090)
 
-inline static constexpr unsigned int AMJPKALDLMI_TypeDefinitionIndex = 53729;
+inline static constexpr unsigned int AMJPKALDLMI_TypeDefinitionIndex = 54893;
 
 	class AMJPKALDLMI : public ::KIFCLJJAOFJ
 	{

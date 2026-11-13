@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EntityScoreConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTITYSCORECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D64C300)
-#define RPG_GAMECORE_ENTITYSCORECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D64C190)
+#define RPG_GAMECORE_ENTITYSCORECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F1790)
+#define RPG_GAMECORE_ENTITYSCORECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0F1620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityScoreConfig_TypeDefinitionIndex = 16572;
+	inline static constexpr unsigned int EntityScoreConfig_TypeDefinitionIndex = 16738;
 
 	class EntityScoreConfig : public ::RPG::GameCore::JsonConfig
 	{

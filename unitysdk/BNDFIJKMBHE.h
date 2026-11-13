@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BNDFIJKMBHE_TypeDefinitionIndex = 26584;
+inline static constexpr unsigned int BNDFIJKMBHE_TypeDefinitionIndex = 27115;
 
 	enum class BNDFIJKMBHE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		DGDFAKFHKFA = 9823,
-		NIJIGHHGKIO = 9824,
-		DIPCCGHFJAA = 9829,
-		JGAJJBNCIKK = 9827,
-		NDGINIGLHFG = 9822,
-		MOHCJNIMHJM = 9830,
+		NDGINIGLHFG = 9823,
+		DGDFAKFHKFA = 9826,
+		JGAJJBNCIKK = 9824,
+		NIJIGHHGKIO = 9828,
+		DIPCCGHFJAA = 9830,
+		MOHCJNIMHJM = 9827,
 	};

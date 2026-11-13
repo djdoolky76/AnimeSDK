@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define KBIMMCCLOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB82B30)
+#define KBIMMCCLOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2B6E0)
 
-inline static constexpr unsigned int KBIMMCCLOJM_TypeDefinitionIndex = 42954;
+inline static constexpr unsigned int KBIMMCCLOJM_TypeDefinitionIndex = 43935;
 
 	class KBIMMCCLOJM : public ::System::Object
 	{

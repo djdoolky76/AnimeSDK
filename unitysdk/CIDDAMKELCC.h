@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AITryInsertUltra; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CIDDAMKELCC_CTOR_OFFSET UNITYSDK_OFFSET(0xCF5E370)
-#define CIDDAMKELCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF5E3A0)
+#define CIDDAMKELCC_CTOR_OFFSET UNITYSDK_OFFSET(0x16E37CE0)
+#define CIDDAMKELCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E37D10)
 
-inline static constexpr unsigned int CIDDAMKELCC_TypeDefinitionIndex = 54793;
+inline static constexpr unsigned int CIDDAMKELCC_TypeDefinitionIndex = 55962;
 
 	class CIDDAMKELCC
 	{

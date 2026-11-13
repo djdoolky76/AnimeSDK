@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGSERVICES_CACD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DA7A0)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGSERVICES_CACD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A72DF50)
 
 namespace System::Runtime::Remoting
 {

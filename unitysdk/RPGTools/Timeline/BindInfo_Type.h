@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BindInfo_Type_TypeDefinitionIndex = 48508;
+	inline static constexpr unsigned int BindInfo_Type_TypeDefinitionIndex = 49549;
 
 	enum class BindInfo_Type : ::System::Int32
 	{

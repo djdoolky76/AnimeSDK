@@ -5,10 +5,10 @@ class LOCGLAAGEFC;
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class String; }
 
-#define DDFLAIAOEKC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9ED4D0)
-#define DDFLAIAOEKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9ED560)
+#define DDFLAIAOEKC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB1F770)
+#define DDFLAIAOEKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1F800)
 
-inline static constexpr unsigned int DDFLAIAOEKC_TypeDefinitionIndex = 43403;
+inline static constexpr unsigned int DDFLAIAOEKC_TypeDefinitionIndex = 44384;
 
 	class DDFLAIAOEKC : public ::System::Object
 	{

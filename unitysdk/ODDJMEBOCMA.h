@@ -5,10 +5,10 @@
 class IKHMHNOIGAB;
 namespace RPG::Client { class IRogueMiracleInfo; }
 
-#define ODDJMEBOCMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD89CC0)
-#define ODDJMEBOCMA_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xBD89CD0)
+#define ODDJMEBOCMA_CTOR_OFFSET UNITYSDK_OFFSET(0x19A3E010)
+#define ODDJMEBOCMA_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x19A3E020)
 
-inline static constexpr unsigned int ODDJMEBOCMA_TypeDefinitionIndex = 67094;
+inline static constexpr unsigned int ODDJMEBOCMA_TypeDefinitionIndex = 69038;
 
 	class ODDJMEBOCMA : public ::DOLNICOMJJM
 	{

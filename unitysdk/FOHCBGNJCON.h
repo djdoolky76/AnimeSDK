@@ -6,10 +6,10 @@ namespace RPG::GameCore { class TargetMapActionBarAdjoinEntityList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOHCBGNJCON_CTOR_OFFSET UNITYSDK_OFFSET(0x158DFC80)
-#define FOHCBGNJCON_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x158DFCA0)
+#define FOHCBGNJCON_CTOR_OFFSET UNITYSDK_OFFSET(0x1874AF20)
+#define FOHCBGNJCON_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1874AF40)
 
-inline static constexpr unsigned int FOHCBGNJCON_TypeDefinitionIndex = 59110;
+inline static constexpr unsigned int FOHCBGNJCON_TypeDefinitionIndex = 60386;
 
 	class FOHCBGNJCON
 	{

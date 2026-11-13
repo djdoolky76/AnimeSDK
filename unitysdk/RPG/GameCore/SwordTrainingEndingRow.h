@@ -6,24 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingEndingRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGENDINGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1BE70)
-#define RPG_GAMECORE_SWORDTRAININGENDINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB1BB40)
+#define RPG_GAMECORE_SWORDTRAININGENDINGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68B950)
+#define RPG_GAMECORE_SWORDTRAININGENDINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E68B620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingEndingRow_TypeDefinitionIndex = 12430;
+	inline static constexpr unsigned int SwordTrainingEndingRow_TypeDefinitionIndex = 12497;
 
 	class SwordTrainingEndingRow : public ::System::Object
 	{
 	public:
-		::System::String* StoryUnlockImage; // 0x10
-		::System::String* StoryImage; // 0x18
-		::RPG::Client::TextID StoryTitle; // 0x20
-		::System::UInt32 RewardID; // 0x30
-		::System::UInt32 StoryID; // 0x34
+		::System::String* StoryImage; // 0x10
+		::System::String* StoryUnlockImage; // 0x18
+		::System::UInt32 RewardID; // 0x20
+		::System::UInt32 EndingID; // 0x24
+		::RPG::Client::TextID StoryTitle; // 0x28
 		::RPG::Client::TextID UnlockDesc; // 0x38
-		::System::UInt32 QuestID; // 0x48
-		::System::UInt32 EndingID; // 0x4C
+		::System::UInt32 StoryID; // 0x48
+		::System::UInt32 QuestID; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGENDINGROW_CTOR_OFFSET))(this);

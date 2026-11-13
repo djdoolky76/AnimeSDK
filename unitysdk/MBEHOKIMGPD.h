@@ -3,10 +3,10 @@
 class CAHCLMHKGKG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MBEHOKIMGPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB852CD0)
-#define MBEHOKIMGPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB852D00)
+#define MBEHOKIMGPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B81E510)
+#define MBEHOKIMGPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B81E540)
 
-inline static constexpr unsigned int MBEHOKIMGPD_TypeDefinitionIndex = 52860;
+inline static constexpr unsigned int MBEHOKIMGPD_TypeDefinitionIndex = 54015;
 
 	class MBEHOKIMGPD
 	{

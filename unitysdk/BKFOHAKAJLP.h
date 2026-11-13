@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BLLEONBDOMJ.h"
 
-#define BKFOHAKAJLP_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7AECB0)
-#define BKFOHAKAJLP_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AECA0)
-#define BKFOHAKAJLP_FGFNHDKKJBA_OFFSET UNITYSDK_OFFSET(0xB7AE900)
+#define BKFOHAKAJLP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A64EE40)
+#define BKFOHAKAJLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A64EE30)
+#define BKFOHAKAJLP_FGFNHDKKJBA_OFFSET UNITYSDK_OFFSET(0x1A64EA90)
 
-inline static constexpr unsigned int BKFOHAKAJLP_TypeDefinitionIndex = 78004;
+inline static constexpr unsigned int BKFOHAKAJLP_TypeDefinitionIndex = 80739;
 
 	class BKFOHAKAJLP : public ::BLLEONBDOMJ
 	{
 	public:
 		static ::System::Int32* StaticGet_OCBKNPAHODJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "BKFOHAKAJLP")->GetStaticField(0x155D0);
+			return (::System::Int32*)UnitySDK::FromName("", "BKFOHAKAJLP")->GetStaticField(0x14850);
 		}
 
 		::System::Void _ctor()

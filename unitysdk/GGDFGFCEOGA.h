@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class LOHBCIPAIPI;
 
-#define GGDFGFCEOGA_CTOR_OFFSET UNITYSDK_OFFSET(0x159F7720)
-#define GGDFGFCEOGA_HBAHPOFEDDI_OFFSET UNITYSDK_OFFSET(0x159F7710)
+#define GGDFGFCEOGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A0C00)
+#define GGDFGFCEOGA_HBAHPOFEDDI_OFFSET UNITYSDK_OFFSET(0x1B4A0BF0)
 
-inline static constexpr unsigned int GGDFGFCEOGA_TypeDefinitionIndex = 57628;
+inline static constexpr unsigned int GGDFGFCEOGA_TypeDefinitionIndex = 58857;
 
 	class GGDFGFCEOGA : public ::OMAHHACEANO
 	{

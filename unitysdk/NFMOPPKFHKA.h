@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBreakBaseDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NFMOPPKFHKA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB95970)
-#define NFMOPPKFHKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB95A50)
+#define NFMOPPKFHKA_CTOR_OFFSET UNITYSDK_OFFSET(0x18E7D8B0)
+#define NFMOPPKFHKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E7D990)
 
-inline static constexpr unsigned int NFMOPPKFHKA_TypeDefinitionIndex = 55417;
+inline static constexpr unsigned int NFMOPPKFHKA_TypeDefinitionIndex = 56602;
 
 	class NFMOPPKFHKA
 	{

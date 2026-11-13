@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PlayerSelectMotionMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ODKJHABCAIF_CTOR_OFFSET UNITYSDK_OFFSET(0xBD91540)
-#define ODKJHABCAIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD91570)
+#define ODKJHABCAIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1760E210)
+#define ODKJHABCAIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1760E240)
 
-inline static constexpr unsigned int ODKJHABCAIF_TypeDefinitionIndex = 58294;
+inline static constexpr unsigned int ODKJHABCAIF_TypeDefinitionIndex = 59550;
 
 	class ODKJHABCAIF
 	{

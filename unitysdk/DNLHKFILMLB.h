@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DNLHKFILMLB_TypeDefinitionIndex = 28676;
+inline static constexpr unsigned int DNLHKFILMLB_TypeDefinitionIndex = 29266;
 
 	enum class DNLHKFILMLB : ::System::Int32
 	{

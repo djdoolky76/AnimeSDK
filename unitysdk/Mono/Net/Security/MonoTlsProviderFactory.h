@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF9ECB0)
-#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_CREATEDEFAULTPROVIDERIMPL_OFFSET UNITYSDK_OFFSET(0x1EF9E350)
-#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_GETPROVIDERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EF9D870)
-#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1EF968B0)
-#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_INITIALIZEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EF9D970)
-#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_INITIALIZEPROVIDERREGISTRATION_OFFSET UNITYSDK_OFFSET(0x1EF9DDB0)
-#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_LOOKUPPROVIDER_OFFSET UNITYSDK_OFFSET(0x1EF9E440)
+#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAF23D0)
+#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_CREATEDEFAULTPROVIDERIMPL_OFFSET UNITYSDK_OFFSET(0x1DAF1B70)
+#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_GETPROVIDERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1DAF1090)
+#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1DAEA280)
+#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_INITIALIZEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1DAF1190)
+#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_INITIALIZEPROVIDERREGISTRATION_OFFSET UNITYSDK_OFFSET(0x1DAF15D0)
+#define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_LOOKUPPROVIDER_OFFSET UNITYSDK_OFFSET(0x1DAF1C60)
 
 namespace Mono::Net::Security
 {
@@ -23,49 +23,49 @@ namespace Mono::Net::Security
 	class MonoTlsProviderFactory : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Guid, ::System::String*>*>** StaticGet_providerRegistration()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Guid, ::System::String*>*>**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x2A770);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Security::Interface::MonoTlsProvider*>** StaticGet_providerCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Security::Interface::MonoTlsProvider*>**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x2A778);
+			return (::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Security::Interface::MonoTlsProvider*>**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x31880);
 		}
 
 		static ::System::Object** StaticGet_locker()
 		{
-			return (::System::Object**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x2A780);
+			return (::System::Object**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x31888);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Guid, ::System::String*>*>** StaticGet_providerRegistration()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Guid, ::System::String*>*>**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x31890);
 		}
 
 		static ::Mono::Security::Interface::MonoTlsProvider** StaticGet_defaultProvider()
 		{
-			return (::Mono::Security::Interface::MonoTlsProvider**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x2A788);
-		}
-
-		static ::System::Guid* StaticGet_AppleTlsId()
-		{
-			return (::System::Guid*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x8AF0);
-		}
-
-		static ::System::Guid* StaticGet_UnityTlsId()
-		{
-			return (::System::Guid*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x8B00);
-		}
-
-		static ::System::Boolean* StaticGet_initialized()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x8B10);
+			return (::Mono::Security::Interface::MonoTlsProvider**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x31898);
 		}
 
 		static ::System::Guid* StaticGet_BtlsId()
 		{
-			return (::System::Guid*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x8B14);
+			return (::System::Guid*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x9AD0);
+		}
+
+		static ::System::Guid* StaticGet_UnityTlsId()
+		{
+			return (::System::Guid*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x9AE0);
+		}
+
+		static ::System::Boolean* StaticGet_initialized()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x9AF0);
 		}
 
 		static ::System::Guid* StaticGet_LegacyId()
 		{
-			return (::System::Guid*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x8B24);
+			return (::System::Guid*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x9AF4);
+		}
+
+		static ::System::Guid* StaticGet_AppleTlsId()
+		{
+			return (::System::Guid*)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x9B04);
 		}
 
 		static ::System::Void _cctor()

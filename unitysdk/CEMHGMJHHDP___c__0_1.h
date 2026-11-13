@@ -6,7 +6,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int CEMHGMJHHDP___c__0_1_TypeDefinitionIndex = 49910;
+inline static constexpr unsigned int CEMHGMJHHDP___c__0_1_TypeDefinitionIndex = 50958;
 
 	template <typename T>
 	class CEMHGMJHHDP___c__0_1 : public ::System::Object

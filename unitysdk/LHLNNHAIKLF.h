@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class NotifyVersusBarQuestChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LHLNNHAIKLF_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B59E0)
-#define LHLNNHAIKLF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6B5A10)
+#define LHLNNHAIKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCE280)
+#define LHLNNHAIKLF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCCE2B0)
 
-inline static constexpr unsigned int LHLNNHAIKLF_TypeDefinitionIndex = 55804;
+inline static constexpr unsigned int LHLNNHAIKLF_TypeDefinitionIndex = 57007;
 
 	class LHLNNHAIKLF
 	{

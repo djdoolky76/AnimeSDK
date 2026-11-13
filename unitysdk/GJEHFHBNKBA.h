@@ -6,21 +6,21 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class PredicateToMakeFail; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GJEHFHBNKBA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A56920)
-#define GJEHFHBNKBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A56A80)
-#define GJEHFHBNKBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A56BE0)
-#define GJEHFHBNKBA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A56F00)
-#define GJEHFHBNKBA_TICK_OFFSET UNITYSDK_OFFSET(0x15A571C0)
+#define GJEHFHBNKBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4077D0)
+#define GJEHFHBNKBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A407930)
+#define GJEHFHBNKBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A407A90)
+#define GJEHFHBNKBA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A407CF0)
+#define GJEHFHBNKBA_TICK_OFFSET UNITYSDK_OFFSET(0x1A407F40)
 
-inline static constexpr unsigned int GJEHFHBNKBA_TypeDefinitionIndex = 55265;
+inline static constexpr unsigned int GJEHFHBNKBA_TypeDefinitionIndex = 56446;
 
 	class GJEHFHBNKBA : public ::GELIALJDFBL
 	{
 	public:
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x18
-		::KFELGAIGHAP* CHOOMNGLJHI; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::RPG::GameCore::PredicateToMakeFail* OFKGLJOAMLD; // 0x30
+		::RPG::GameCore::PredicateToMakeFail* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x28
+		::KFELGAIGHAP* CHOOMNGLJHI; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PredicateToMakeFail* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PredicateToMakeFail*))((::PBYTE)hIl2Cpp + GJEHFHBNKBA_CTOR_OFFSET))(this, a1, a2);

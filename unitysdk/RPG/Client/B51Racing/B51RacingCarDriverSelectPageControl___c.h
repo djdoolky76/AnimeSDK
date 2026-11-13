@@ -5,25 +5,25 @@ namespace RPG::Client::B51Racing { class B51RacingDriverTabViewModel; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC724BB0)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC724BF0)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C___REFRESHBTNARROWVIEW_B__19_0_OFFSET UNITYSDK_OFFSET(0xC724C00)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B115C00)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B115C40)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C___REFRESHBTNARROWVIEW_B__19_0_OFFSET UNITYSDK_OFFSET(0x1B115C50)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDriverSelectPageControl___c_TypeDefinitionIndex = 81833;
+	inline static constexpr unsigned int B51RacingCarDriverSelectPageControl___c_TypeDefinitionIndex = 84614;
 
 	class B51RacingCarDriverSelectPageControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x53550);
-		}
-
 		static ::System::Func_2<::RPG::Client::B51Racing::B51RacingDriverTabViewModel*, ::System::Boolean>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDriverTabViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x53558);
+			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDriverTabViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x57BB0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x57BB8);
 		}
 
 		static ::System::Void _cctor()

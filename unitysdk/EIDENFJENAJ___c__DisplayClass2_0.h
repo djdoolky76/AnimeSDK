@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::Events { class UnityAction; }
 
-#define EIDENFJENAJ___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154B1610)
-#define EIDENFJENAJ___C__DISPLAYCLASS2_0__BINDVIEWCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x154B2400)
+#define EIDENFJENAJ___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A8ABF0)
+#define EIDENFJENAJ___C__DISPLAYCLASS2_0__BINDVIEWCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x19A8B980)
 
-inline static constexpr unsigned int EIDENFJENAJ___c__DisplayClass2_0_TypeDefinitionIndex = 71356;
+inline static constexpr unsigned int EIDENFJENAJ___c__DisplayClass2_0_TypeDefinitionIndex = 73333;
 
 	class EIDENFJENAJ___c__DisplayClass2_0 : public ::System::Object
 	{

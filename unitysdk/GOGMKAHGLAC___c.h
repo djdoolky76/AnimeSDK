@@ -6,23 +6,23 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define GOGMKAHGLAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B25060)
-#define GOGMKAHGLAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B250A0)
-#define GOGMKAHGLAC___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x15B250B0)
+#define GOGMKAHGLAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x187B5B30)
+#define GOGMKAHGLAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x187B5B70)
+#define GOGMKAHGLAC___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x187B5B80)
 
-inline static constexpr unsigned int GOGMKAHGLAC___c_TypeDefinitionIndex = 58739;
+inline static constexpr unsigned int GOGMKAHGLAC___c_TypeDefinitionIndex = 60007;
 
 	class GOGMKAHGLAC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E6E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71E20);
 		}
 
 		static ::System::Converter_2<::RPG::GameCore::GameEntity*, ::PDHLJJCMEDJ>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::RPG::GameCore::GameEntity*, ::PDHLJJCMEDJ>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E6E8);
+			return (::System::Converter_2<::RPG::GameCore::GameEntity*, ::PDHLJJCMEDJ>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71E28);
 		}
 
 		static ::System::Void _cctor()

@@ -4,9 +4,9 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipmentData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LONLABFNMJF_NOOAOPKBDKN_OFFSET UNITYSDK_OFFSET(0xB808040)
+#define LONLABFNMJF_NOOAOPKBDKN_OFFSET UNITYSDK_OFFSET(0x1A5BD7E0)
 
-inline static constexpr unsigned int LONLABFNMJF_TypeDefinitionIndex = 75247;
+inline static constexpr unsigned int LONLABFNMJF_TypeDefinitionIndex = 77574;
 
 	class LONLABFNMJF : public ::System::Object
 	{

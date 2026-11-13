@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCurrentRogueHasMiracle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CCAANKIAPKC_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B2E20)
-#define CCAANKIAPKC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4B2E50)
+#define CCAANKIAPKC_CTOR_OFFSET UNITYSDK_OFFSET(0x18FF0100)
+#define CCAANKIAPKC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18FF0130)
 
-inline static constexpr unsigned int CCAANKIAPKC_TypeDefinitionIndex = 53140;
+inline static constexpr unsigned int CCAANKIAPKC_TypeDefinitionIndex = 54302;
 
 	class CCAANKIAPKC
 	{

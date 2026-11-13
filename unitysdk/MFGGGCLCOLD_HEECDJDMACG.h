@@ -6,17 +6,17 @@
 class MFGGGCLCOLD_HEECDJDMACG;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MFGGGCLCOLD_HEECDJDMACG_AEOIKFNKAAP_OFFSET UNITYSDK_OFFSET(0xB8F43A0)
-#define MFGGGCLCOLD_HEECDJDMACG_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F28F0)
+#define MFGGGCLCOLD_HEECDJDMACG_AEOIKFNKAAP_OFFSET UNITYSDK_OFFSET(0x17C845F0)
+#define MFGGGCLCOLD_HEECDJDMACG_CTOR_OFFSET UNITYSDK_OFFSET(0x17C82B40)
 
-inline static constexpr unsigned int MFGGGCLCOLD_HEECDJDMACG_TypeDefinitionIndex = 62173;
+inline static constexpr unsigned int MFGGGCLCOLD_HEECDJDMACG_TypeDefinitionIndex = 63586;
 
 	class MFGGGCLCOLD_HEECDJDMACG : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Int32>* EPLHAPLELCI; // 0x10
-		::UnityEngine::Vector3 ODFBGABAEBM; // 0x18
-		::MFGGGCLCOLD_IntersectType GMPGDEINODK; // 0x24
+		::MFGGGCLCOLD_IntersectType GMPGDEINODK; // 0x18
+		::UnityEngine::Vector3 ODFBGABAEBM; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MFGGGCLCOLD_HEECDJDMACG_CTOR_OFFSET))(this);

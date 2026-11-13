@@ -3,7 +3,7 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int EntityIndexType_TypeDefinitionIndex = 10080;
+	inline static constexpr unsigned int EntityIndexType_TypeDefinitionIndex = 10088;
 
 	enum class EntityIndexType : ::System::Int32
 	{

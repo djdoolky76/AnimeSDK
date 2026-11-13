@@ -4,12 +4,12 @@
 class DLCJPINDIAC;
 namespace RPG::Client { class FriendRankingInfo; }
 
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD8DAFB0)
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__UPDATESELFRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0xD8DB5C0)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A191A80)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__UPDATESELFRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1A1921B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiplayerCareerData___c__DisplayClass8_0_TypeDefinitionIndex = 66309;
+	inline static constexpr unsigned int MultiplayerCareerData___c__DisplayClass8_0_TypeDefinitionIndex = 68245;
 
 	class MultiplayerCareerData___c__DisplayClass8_0 : public ::System::Object
 	{

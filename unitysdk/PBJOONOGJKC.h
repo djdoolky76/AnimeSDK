@@ -3,10 +3,10 @@
 class DFDELJOIGBJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBJOONOGJKC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEA550)
-#define PBJOONOGJKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFEA580)
+#define PBJOONOGJKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC0B70)
+#define PBJOONOGJKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AAC0BA0)
 
-inline static constexpr unsigned int PBJOONOGJKC_TypeDefinitionIndex = 54996;
+inline static constexpr unsigned int PBJOONOGJKC_TypeDefinitionIndex = 56170;
 
 	class PBJOONOGJKC
 	{

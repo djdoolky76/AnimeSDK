@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateGameMasterInfoItem_TypeDefinitionIndex = 64098;
+	inline static constexpr unsigned int IFateGameMasterInfoItem_TypeDefinitionIndex = 65543;
 
 	class IFateGameMasterInfoItem
 	{

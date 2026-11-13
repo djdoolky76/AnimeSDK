@@ -6,7 +6,7 @@ namespace RPG::Client { class LongPressEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-inline static constexpr unsigned int ACGPDGCGLCP_TypeDefinitionIndex = 49905;
+inline static constexpr unsigned int ACGPDGCGLCP_TypeDefinitionIndex = 50953;
 
 	class ACGPDGCGLCP : public ::System::Object
 	{

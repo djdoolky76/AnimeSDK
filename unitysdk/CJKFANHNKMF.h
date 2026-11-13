@@ -5,17 +5,17 @@ namespace RPG::Client { class NetPacket; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CJKFANHNKMF_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2103C0)
-#define CJKFANHNKMF_EFAGHKBHDAK_OFFSET UNITYSDK_OFFSET(0xD2450E0)
+#define CJKFANHNKMF_CCTOR_OFFSET UNITYSDK_OFFSET(0x177DB770)
+#define CJKFANHNKMF_EFAGHKBHDAK_OFFSET UNITYSDK_OFFSET(0x178114E0)
 
-inline static constexpr unsigned int CJKFANHNKMF_TypeDefinitionIndex = 59294;
+inline static constexpr unsigned int CJKFANHNKMF_TypeDefinitionIndex = 60571;
 
 	class CJKFANHNKMF : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Object*>** StaticGet_IBBEEEIHJEJ()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Object*>**)UnitySDK::FromName("", "CJKFANHNKMF")->GetStaticField(0x344B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Object*>**)UnitySDK::FromName("", "CJKFANHNKMF")->GetStaticField(0x20940);
 		}
 
 		static ::System::Void _cctor()

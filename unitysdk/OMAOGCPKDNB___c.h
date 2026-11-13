@@ -4,18 +4,18 @@
 class OMAOGCPKDNB;
 namespace System { class Object; }
 
-#define OMAOGCPKDNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE82490)
-#define OMAOGCPKDNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE824D0)
-#define OMAOGCPKDNB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DE824E0)
+#define OMAOGCPKDNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD6E800)
+#define OMAOGCPKDNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD6E840)
+#define OMAOGCPKDNB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD6E850)
 
-inline static constexpr unsigned int OMAOGCPKDNB___c_TypeDefinitionIndex = 32989;
+inline static constexpr unsigned int OMAOGCPKDNB___c_TypeDefinitionIndex = 33904;
 
 	class OMAOGCPKDNB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x220B0);
 		}
 
 		static ::System::Void _cctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GIJAMLAHLMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7D620)
+#define GIJAMLAHLMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA836D0)
 
-inline static constexpr unsigned int GIJAMLAHLMC_TypeDefinitionIndex = 42351;
+inline static constexpr unsigned int GIJAMLAHLMC_TypeDefinitionIndex = 43326;
 
 	class GIJAMLAHLMC : public ::System::Object
 	{

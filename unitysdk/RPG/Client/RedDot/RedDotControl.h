@@ -3,12 +3,12 @@
 class CHLKFLECHIP;
 class HIKAAGHELPH;
 
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDE58680)
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xDE57FA0)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D07E550)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0x1D07DE70)
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int RedDotControl_TypeDefinitionIndex = 79180;
+	inline static constexpr unsigned int RedDotControl_TypeDefinitionIndex = 81957;
 
 	class RedDotControl
 	{

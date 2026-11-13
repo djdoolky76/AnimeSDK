@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int MergeNullValueHandling_TypeDefinitionIndex = 9757;
+	inline static constexpr unsigned int MergeNullValueHandling_TypeDefinitionIndex = 9765;
 
 	enum class MergeNullValueHandling : ::System::Int32
 	{

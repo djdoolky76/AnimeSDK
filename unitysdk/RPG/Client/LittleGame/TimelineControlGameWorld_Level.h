@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_Level_TypeDefinitionIndex = 42516;
+	inline static constexpr unsigned int TimelineControlGameWorld_Level_TypeDefinitionIndex = 43491;
 
 	struct alignas(8) TimelineControlGameWorld_Level
 	{

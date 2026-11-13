@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToUniTaskAsyncEnumerableObservable_1__ToUniTaskAsyncEnumerableObservable_TypeDefinitionIndex = 45711;
+	inline static constexpr unsigned int ToUniTaskAsyncEnumerableObservable_1__ToUniTaskAsyncEnumerableObservable_TypeDefinitionIndex = 46740;
 
 	template <typename T>
 	class ToUniTaskAsyncEnumerableObservable_1__ToUniTaskAsyncEnumerableObservable : public ::Cysharp::Threading::Tasks::MoveNextSource

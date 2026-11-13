@@ -8,15 +8,15 @@ namespace RPG::Client { class IGridFightTraitShowEffect; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JNJAFADPJKH_BIHLHLDJOGG_OFFSET UNITYSDK_OFFSET(0xB27F9A0)
-#define JNJAFADPJKH_BKOEHLMMGLP_OFFSET UNITYSDK_OFFSET(0xB27E400)
-#define JNJAFADPJKH_CTOR_OFFSET UNITYSDK_OFFSET(0xB27CBE0)
-#define JNJAFADPJKH_DAIOGJNMBCO_OFFSET UNITYSDK_OFFSET(0xB27CC70)
-#define JNJAFADPJKH_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xB27CAB0)
-#define JNJAFADPJKH_MNKBANHFBND_OFFSET UNITYSDK_OFFSET(0xB27EEA0)
-#define JNJAFADPJKH_PPDFNIHBFOG_OFFSET UNITYSDK_OFFSET(0xB27D750)
+#define JNJAFADPJKH_BIHLHLDJOGG_OFFSET UNITYSDK_OFFSET(0x1A0CD660)
+#define JNJAFADPJKH_BKOEHLMMGLP_OFFSET UNITYSDK_OFFSET(0x1A0CC0C0)
+#define JNJAFADPJKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0CA8A0)
+#define JNJAFADPJKH_DAIOGJNMBCO_OFFSET UNITYSDK_OFFSET(0x1A0CA930)
+#define JNJAFADPJKH_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1A0CA770)
+#define JNJAFADPJKH_MNKBANHFBND_OFFSET UNITYSDK_OFFSET(0x1A0CCB60)
+#define JNJAFADPJKH_PPDFNIHBFOG_OFFSET UNITYSDK_OFFSET(0x1A0CB410)
 
-inline static constexpr unsigned int JNJAFADPJKH_TypeDefinitionIndex = 65133;
+inline static constexpr unsigned int JNJAFADPJKH_TypeDefinitionIndex = 66817;
 
 	class JNJAFADPJKH : public ::System::Object
 	{
@@ -24,7 +24,7 @@ inline static constexpr unsigned int JNJAFADPJKH_TypeDefinitionIndex = 65133;
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::IGridFightTraitShowEffect*>*>* CBHLKGEDNCN; // 0x10
 		static ::JNJAFADPJKH** StaticGet_FLMODBLFAGD()
 		{
-			return (::JNJAFADPJKH**)UnitySDK::FromName("", "JNJAFADPJKH")->GetStaticField(0x23010);
+			return (::JNJAFADPJKH**)UnitySDK::FromName("", "JNJAFADPJKH")->GetStaticField(0x223A0);
 		}
 
 		::System::Void _ctor()

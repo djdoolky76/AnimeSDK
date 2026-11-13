@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FICCGIBAOJK_TypeDefinitionIndex = 72448;
+inline static constexpr unsigned int FICCGIBAOJK_TypeDefinitionIndex = 74527;
 
 	class FICCGIBAOJK
 	{

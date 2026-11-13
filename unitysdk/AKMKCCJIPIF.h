@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AKMKCCJIPIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C862050)
+#define AKMKCCJIPIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8663A0)
 
-inline static constexpr unsigned int AKMKCCJIPIF_TypeDefinitionIndex = 42278;
+inline static constexpr unsigned int AKMKCCJIPIF_TypeDefinitionIndex = 43253;
 
 	class AKMKCCJIPIF : public ::System::Object
 	{

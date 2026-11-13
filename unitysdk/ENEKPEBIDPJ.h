@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchMascotSetSectionVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ENEKPEBIDPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1559D310)
-#define ENEKPEBIDPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1559D340)
+#define ENEKPEBIDPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18807E50)
+#define ENEKPEBIDPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18807E80)
 
-inline static constexpr unsigned int ENEKPEBIDPJ_TypeDefinitionIndex = 58751;
+inline static constexpr unsigned int ENEKPEBIDPJ_TypeDefinitionIndex = 60019;
 
 	class ENEKPEBIDPJ
 	{

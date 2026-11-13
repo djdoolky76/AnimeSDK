@@ -4,18 +4,18 @@
 class HENHAIFODIG;
 namespace System { class Object; }
 
-#define HENHAIFODIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5301C0)
-#define HENHAIFODIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E530200)
-#define HENHAIFODIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E530210)
+#define HENHAIFODIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F887010)
+#define HENHAIFODIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F887050)
+#define HENHAIFODIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F887060)
 
-inline static constexpr unsigned int HENHAIFODIG___c_TypeDefinitionIndex = 31677;
+inline static constexpr unsigned int HENHAIFODIG___c_TypeDefinitionIndex = 32590;
 
 	class HENHAIFODIG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D7E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29A20);
 		}
 
 		static ::System::Void _cctor()

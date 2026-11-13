@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OCLNFBEAGMM_TypeDefinitionIndex = 26199;
+inline static constexpr unsigned int OCLNFBEAGMM_TypeDefinitionIndex = 26726;
 
 	enum class OCLNFBEAGMM : ::System::Int32
 	{

@@ -6,18 +6,18 @@ namespace RPG::GameCore { class StopSound; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define LBFFGDMHKPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F3A00)
-#define LBFFGDMHKPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5F3A30)
-#define LBFFGDMHKPH_LEGKMLGLAKD_OFFSET UNITYSDK_OFFSET(0xB5F3C50)
-#define LBFFGDMHKPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5F3A70)
+#define LBFFGDMHKPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B297860)
+#define LBFFGDMHKPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B297890)
+#define LBFFGDMHKPH_LEGKMLGLAKD_OFFSET UNITYSDK_OFFSET(0x1B297AB0)
+#define LBFFGDMHKPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B2978D0)
 
-inline static constexpr unsigned int LBFFGDMHKPH_TypeDefinitionIndex = 56476;
+inline static constexpr unsigned int LBFFGDMHKPH_TypeDefinitionIndex = 57696;
 
 	class LBFFGDMHKPH
 	{
 	public:
-		::RPG::GameCore::GameEntity* ONIACPBDNMH; // 0x28
-		::System::String* CBBKMNEHIMB; // 0x30
+		::System::String* CBBKMNEHIMB; // 0x28
+		::RPG::GameCore::GameEntity* ONIACPBDNMH; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StopSound* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopSound*))((::PBYTE)hIl2Cpp + LBFFGDMHKPH_CTOR_OFFSET))(this, a1, a2);

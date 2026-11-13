@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BGJHKACIPKH_VariableFormat_TypeDefinitionIndex = 65283;
+inline static constexpr unsigned int BGJHKACIPKH_VariableFormat_TypeDefinitionIndex = 67038;
 
 	enum class BGJHKACIPKH_VariableFormat : ::System::Int32
 	{

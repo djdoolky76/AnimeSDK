@@ -6,10 +6,10 @@
 class HIOAMIPNLIN;
 class NHCIKNHHHOO;
 
-#define NHCIKNHHHOO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBBB80D0)
-#define NHCIKNHHHOO___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0xBBB80E0)
+#define NHCIKNHHHOO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14890450)
+#define NHCIKNHHHOO___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0x14890460)
 
-inline static constexpr unsigned int NHCIKNHHHOO___c__DisplayClass1_0_TypeDefinitionIndex = 54544;
+inline static constexpr unsigned int NHCIKNHHHOO___c__DisplayClass1_0_TypeDefinitionIndex = 55709;
 
 	class NHCIKNHHHOO___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureSubmitSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ALGDMNMOPPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1555D8B0)
-#define ALGDMNMOPPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1555D8E0)
+#define ALGDMNMOPPK_CTOR_OFFSET UNITYSDK_OFFSET(0x197C1D30)
+#define ALGDMNMOPPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197C1D60)
 
-inline static constexpr unsigned int ALGDMNMOPPK_TypeDefinitionIndex = 57915;
+inline static constexpr unsigned int ALGDMNMOPPK_TypeDefinitionIndex = 59152;
 
 	class ALGDMNMOPPK
 	{

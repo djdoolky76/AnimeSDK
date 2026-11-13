@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LHGAEBPLFFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C53FD90)
+#define LHGAEBPLFFK_CTOR_OFFSET UNITYSDK_OFFSET(0x207B78B0)
 
-inline static constexpr unsigned int LHGAEBPLFFK_TypeDefinitionIndex = 41748;
+inline static constexpr unsigned int LHGAEBPLFFK_TypeDefinitionIndex = 42723;
 
 	class LHGAEBPLFFK : public ::System::Object
 	{

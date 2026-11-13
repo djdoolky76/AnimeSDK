@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureCameraToOrthographic; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFJIHKJDNBO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C704F0)
-#define HFJIHKJDNBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C70520)
+#define HFJIHKJDNBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A229F80)
+#define HFJIHKJDNBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A229FB0)
 
-inline static constexpr unsigned int HFJIHKJDNBO_TypeDefinitionIndex = 54833;
+inline static constexpr unsigned int HFJIHKJDNBO_TypeDefinitionIndex = 56003;
 
 	class HFJIHKJDNBO
 	{

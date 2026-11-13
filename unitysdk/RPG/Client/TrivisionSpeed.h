@@ -6,15 +6,15 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TRIVISIONSPEED_CCTOR_OFFSET UNITYSDK_OFFSET(0xE327380)
-#define RPG_CLIENT_TRIVISIONSPEED_CTOR_OFFSET UNITYSDK_OFFSET(0xE327370)
-#define RPG_CLIENT_TRIVISIONSPEED_GETTEXTURENUM_OFFSET UNITYSDK_OFFSET(0xE327110)
-#define RPG_CLIENT_TRIVISIONSPEED_MFGBCAMBEAJ_OFFSET UNITYSDK_OFFSET(0xE327220)
-#define RPG_CLIENT_TRIVISIONSPEED_UPDATE_OFFSET UNITYSDK_OFFSET(0xE326F40)
+#define RPG_CLIENT_TRIVISIONSPEED_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9AEA70)
+#define RPG_CLIENT_TRIVISIONSPEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9AEA60)
+#define RPG_CLIENT_TRIVISIONSPEED_GETTEXTURENUM_OFFSET UNITYSDK_OFFSET(0x1C9AE800)
+#define RPG_CLIENT_TRIVISIONSPEED_MFGBCAMBEAJ_OFFSET UNITYSDK_OFFSET(0x1C9AE910)
+#define RPG_CLIENT_TRIVISIONSPEED_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C9AE630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrivisionSpeed_TypeDefinitionIndex = 70710;
+	inline static constexpr unsigned int TrivisionSpeed_TypeDefinitionIndex = 72687;
 
 	class TrivisionSpeed : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,17 +34,17 @@ namespace RPG::Client
 		::System::Int32 EFHJOCLFEFD; // 0x58
 		static ::System::Int32* StaticGet_DJJLMOOBPLP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TrivisionSpeed")->GetStaticField(0x7D20);
-		}
-
-		static ::System::Int32* StaticGet_FNGOBPOJMMD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TrivisionSpeed")->GetStaticField(0x7D24);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TrivisionSpeed")->GetStaticField(0xB670);
 		}
 
 		static ::System::Int32* StaticGet_BIKDJFJELDN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TrivisionSpeed")->GetStaticField(0x7D28);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TrivisionSpeed")->GetStaticField(0xB674);
+		}
+
+		static ::System::Int32* StaticGet_FNGOBPOJMMD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TrivisionSpeed")->GetStaticField(0xB678);
 		}
 
 		::System::Void _ctor()

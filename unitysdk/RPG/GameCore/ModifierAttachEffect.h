@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ModifierAttachEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERATTACHEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85E6F0)
-#define RPG_GAMECORE_MODIFIERATTACHEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D85E700)
-#define RPG_GAMECORE_MODIFIERATTACHEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D85E6B0)
+#define RPG_GAMECORE_MODIFIERATTACHEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F0C60)
+#define RPG_GAMECORE_MODIFIERATTACHEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6F0C70)
+#define RPG_GAMECORE_MODIFIERATTACHEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6F0C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierAttachEffect_TypeDefinitionIndex = 23466;
+	inline static constexpr unsigned int ModifierAttachEffect_TypeDefinitionIndex = 23912;
 
 	class ModifierAttachEffect : public ::RPG::GameCore::TaskConfig
 	{

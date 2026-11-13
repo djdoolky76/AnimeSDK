@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class IJKJDMEMJND;
 
-#define DICAKOGDNAD_BEDEBOCHANL_OFFSET UNITYSDK_OFFSET(0xEBEA2E0)
+#define DICAKOGDNAD_BEDEBOCHANL_OFFSET UNITYSDK_OFFSET(0x18EB1920)
 
-inline static constexpr unsigned int DICAKOGDNAD_TypeDefinitionIndex = 60071;
+inline static constexpr unsigned int DICAKOGDNAD_TypeDefinitionIndex = 61355;
 
 	class DICAKOGDNAD : public ::System::Object
 	{

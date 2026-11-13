@@ -7,18 +7,18 @@
 class CIEHGAHJDFN;
 namespace RPG::GameCore { class GameEntity; }
 
-#define OBALPFEHAAK_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBD2B2E0)
-#define OBALPFEHAAK_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2B2C0)
+#define OBALPFEHAAK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB71BD0)
+#define OBALPFEHAAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB71BB0)
 
-inline static constexpr unsigned int OBALPFEHAAK_TypeDefinitionIndex = 60932;
+inline static constexpr unsigned int OBALPFEHAAK_TypeDefinitionIndex = 62308;
 
 	class OBALPFEHAAK : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
-		::CIEHGAHJDFN* BJOANNFMNEO; // 0x18
-		::RPG::GameCore::PhotoGraphAimIdentifyType BDHPOJCKPIM; // 0x20
-		::UnityEngine::Vector3 KKLDLLOJEFN; // 0x24
+		::CIEHGAHJDFN* BJOANNFMNEO; // 0x10
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
+		::UnityEngine::Vector3 KKLDLLOJEFN; // 0x20
+		::RPG::GameCore::PhotoGraphAimIdentifyType BDHPOJCKPIM; // 0x2C
 		::RPG::Client::AimEntityInfoType HGIABLHMGPB; // 0x30
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::RPG::GameCore::PhotoGraphAimIdentifyType a3)
 		{

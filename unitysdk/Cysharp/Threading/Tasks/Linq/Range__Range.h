@@ -5,22 +5,22 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 
-#define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD4C0)
-#define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F0DD5E0)
-#define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0DD4E0)
-#define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1F0DD4F0)
+#define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E3DE0)
+#define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1E5E3F00)
+#define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E5E3E00)
+#define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1E5E3E10)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Range__Range_TypeDefinitionIndex = 45543;
+	inline static constexpr unsigned int Range__Range_TypeDefinitionIndex = 46572;
 
 	class Range__Range : public ::System::Object
 	{
 	public:
 		::System::Threading::CancellationToken cancellationToken; // 0x10
 		::System::Int32 current; // 0x18
-		::System::Int32 start; // 0x1C
-		::System::Int32 end; // 0x20
+		::System::Int32 end; // 0x1C
+		::System::Int32 start; // 0x20
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Threading::CancellationToken a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_CTOR_OFFSET))(this, a1, a2, a3);

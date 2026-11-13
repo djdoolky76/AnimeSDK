@@ -10,37 +10,37 @@ namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HELIOBUSMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD315AE0)
-#define RPG_CLIENT_HELIOBUSMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD315B10)
-#define RPG_CLIENT_HELIOBUSMODULE___C___INITHELIOBUSSKILLDATA_B__66_0_OFFSET UNITYSDK_OFFSET(0xD315B20)
-#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_0_OFFSET UNITYSDK_OFFSET(0xD315B70)
-#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_1_OFFSET UNITYSDK_OFFSET(0xD315B80)
+#define RPG_CLIENT_HELIOBUSMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5F9250)
+#define RPG_CLIENT_HELIOBUSMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F9280)
+#define RPG_CLIENT_HELIOBUSMODULE___C___INITHELIOBUSSKILLDATA_B__66_0_OFFSET UNITYSDK_OFFSET(0x1C5F9290)
+#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_0_OFFSET UNITYSDK_OFFSET(0x1C5F92E0)
+#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_1_OFFSET UNITYSDK_OFFSET(0x1C5F92F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusModule___c_TypeDefinitionIndex = 65664;
+	inline static constexpr unsigned int HeliobusModule___c_TypeDefinitionIndex = 67586;
 
 	class HeliobusModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::HeliobusSkillData*>** StaticGet___9__66_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::HeliobusSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12DE0);
-		}
-
 		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>** StaticGet___9__97_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12DE8);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FAC0);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::HeliobusSkillData*>** StaticGet___9__66_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12DF0);
+			return (::System::Comparison_1<::RPG::Client::HeliobusSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FAC8);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__97_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12DF8);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FAD0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FAD8);
 		}
 
 		static ::System::Void _cctor()

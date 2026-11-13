@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByContainOpInSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OPCPFKCFILF_CTOR_OFFSET UNITYSDK_OFFSET(0xBF9DF00)
-#define OPCPFKCFILF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF9DF30)
+#define OPCPFKCFILF_CTOR_OFFSET UNITYSDK_OFFSET(0x18AB4680)
+#define OPCPFKCFILF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18AB46B0)
 
-inline static constexpr unsigned int OPCPFKCFILF_TypeDefinitionIndex = 54593;
+inline static constexpr unsigned int OPCPFKCFILF_TypeDefinitionIndex = 55758;
 
 	class OPCPFKCFILF
 	{

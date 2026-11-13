@@ -8,62 +8,62 @@ class GNFIJNAMOHD;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class ComputeBuffer; }
 
-#define FAAADOEIMIB_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x1564DB30)
-#define FAAADOEIMIB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1564E4B0)
-#define FAAADOEIMIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1564E410)
-#define FAAADOEIMIB_FCDOGEAHNFM_OFFSET UNITYSDK_OFFSET(0x1564E290)
-#define FAAADOEIMIB_HBDDPBAJJJI_OFFSET UNITYSDK_OFFSET(0x1564E390)
-#define FAAADOEIMIB_KHBMJJKJLGO_OFFSET UNITYSDK_OFFSET(0x1564DC40)
-#define FAAADOEIMIB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1564D9B0)
-#define FAAADOEIMIB_NDPNAEDIBOC_OFFSET UNITYSDK_OFFSET(0x1564D970)
+#define FAAADOEIMIB_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x136D4100)
+#define FAAADOEIMIB_CCTOR_OFFSET UNITYSDK_OFFSET(0x136D4A40)
+#define FAAADOEIMIB_CTOR_OFFSET UNITYSDK_OFFSET(0x136D49A0)
+#define FAAADOEIMIB_FCDOGEAHNFM_OFFSET UNITYSDK_OFFSET(0x136D4820)
+#define FAAADOEIMIB_HBDDPBAJJJI_OFFSET UNITYSDK_OFFSET(0x136D4920)
+#define FAAADOEIMIB_KHBMJJKJLGO_OFFSET UNITYSDK_OFFSET(0x136D41E0)
+#define FAAADOEIMIB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x136D3F80)
+#define FAAADOEIMIB_NDPNAEDIBOC_OFFSET UNITYSDK_OFFSET(0x136D3F40)
 
-inline static constexpr unsigned int FAAADOEIMIB_TypeDefinitionIndex = 49540;
+inline static constexpr unsigned int FAAADOEIMIB_TypeDefinitionIndex = 50616;
 
 	class FAAADOEIMIB : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Vector4>* OLMJIPHFFJG; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector4>* LBGOPGBNMEO; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector4>* LBGOPGBNMEO; // 0x10
+		::Il2CppArray<::UnityEngine::Vector4>* OLMJIPHFFJG; // 0x18
 		::DHCAOJAKHIG* PKKKBFMCDBG; // 0x20
 		::UnityEngine::ComputeBuffer* OJMJMDKEAAI; // 0x28
-		::System::Boolean GIPHDPLKAIM; // 0x30
-		::System::Boolean BBJHDLLJBIL; // 0x31
+		::System::Int32 BONGHKFGFLN; // 0x30
+		::System::Boolean BBJHDLLJBIL; // 0x34
+		::System::Boolean GIPHDPLKAIM; // 0x35
 		::System::Byte _padding0[0x2];
-		::System::Int32 BONGHKFGFLN; // 0x34
 		::System::Int32 PPLKDEIGAGM; // 0x38
-		static ::System::Int32* StaticGet_HPCGFLCLAPC()
+		static ::System::Int32* StaticGet_PJIFBJPFLEE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0x12100);
+			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0xB3E0);
 		}
 
 		static ::System::Int32* StaticGet_MBMENEBJBOI()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0x12104);
-		}
-
-		static ::System::Int32* StaticGet_CEMHPKPOOGB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0x12108);
-		}
-
-		static ::System::Int32* StaticGet_CMOGMGOPHJA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0x1210C);
-		}
-
-		static ::System::Int32* StaticGet_JCHFCNFHCMM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0x12110);
-		}
-
-		static ::System::Int32* StaticGet_PJIFBJPFLEE()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0x12114);
+			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0xB3E4);
 		}
 
 		static ::System::Int32* StaticGet_FBAAJMMGCPK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0x12118);
+			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0xB3E8);
+		}
+
+		static ::System::Int32* StaticGet_JCHFCNFHCMM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0xB3EC);
+		}
+
+		static ::System::Int32* StaticGet_CMOGMGOPHJA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0xB3F0);
+		}
+
+		static ::System::Int32* StaticGet_CEMHPKPOOGB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0xB3F4);
+		}
+
+		static ::System::Int32* StaticGet_HPCGFLCLAPC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "FAAADOEIMIB")->GetStaticField(0xB3F8);
 		}
 
 		::System::Void _ctor()

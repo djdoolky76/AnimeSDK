@@ -16,36 +16,36 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ADDEXTRARENDERERTOSINGLECHARACTER_OFFSET UNITYSDK_OFFSET(0x1CBE9DE0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBEBD70)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEB9C0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CBE9F80)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GETSINGLECHARACTERSHADOWDIR_OFFSET UNITYSDK_OFFSET(0x1CBEB6B0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GETTEAMCHARACTERSHADOWDIR_OFFSET UNITYSDK_OFFSET(0x1CBEB8B0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_CHARACTERBODYSIZESHADOW_OFFSET UNITYSDK_OFFSET(0x1CBE8970)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_ISHIGHQUALITYEFFECT_OFFSET UNITYSDK_OFFSET(0x1CBE8EC0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_ISNEEDTHREESHADOW_OFFSET UNITYSDK_OFFSET(0x1CBE8D90)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1CBE9F70)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_TEAMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1CBE8EA0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INITHIGHQUALITYSHADOW_OFFSET UNITYSDK_OFFSET(0x1CBE8DB0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INITLOWQUALITYSHADOW_OFFSET UNITYSDK_OFFSET(0x1CBE95C0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INIT_OFFSET UNITYSDK_OFFSET(0x1CBE8F10)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1CBE9EF0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CBE93F0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CBE9240)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CBE8F30)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_REMOVEEXTRARENDERERTOSINGLECHARACTER_OFFSET UNITYSDK_OFFSET(0x1CBE9E70)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SETMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CBE89A0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_CHARACTERBODYSIZESHADOW_OFFSET UNITYSDK_OFFSET(0x1CBE8980)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_ISNEEDTHREESHADOW_OFFSET UNITYSDK_OFFSET(0x1CBE8DA0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_TEAMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1CBE8EB0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_START_OFFSET UNITYSDK_OFFSET(0x1CBE8ED0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__DRAWSINGLECHARACTERRENDERERS_OFFSET UNITYSDK_OFFSET(0x1CBEA300)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__GETMATERIALSYNCEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CBEAB00)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ADDEXTRARENDERERTOSINGLECHARACTER_OFFSET UNITYSDK_OFFSET(0x1A1DD8C0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1DF800)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1DF470)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A1DDA60)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GETSINGLECHARACTERSHADOWDIR_OFFSET UNITYSDK_OFFSET(0x1A1DF160)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GETTEAMCHARACTERSHADOWDIR_OFFSET UNITYSDK_OFFSET(0x1A1DF360)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_CHARACTERBODYSIZESHADOW_OFFSET UNITYSDK_OFFSET(0x1A1DC450)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_ISHIGHQUALITYEFFECT_OFFSET UNITYSDK_OFFSET(0x1A1DC9A0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_ISNEEDTHREESHADOW_OFFSET UNITYSDK_OFFSET(0x1A1DC870)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1A1DDA50)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_TEAMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1A1DC980)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INITHIGHQUALITYSHADOW_OFFSET UNITYSDK_OFFSET(0x1A1DC890)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INITLOWQUALITYSHADOW_OFFSET UNITYSDK_OFFSET(0x1A1DD0A0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INIT_OFFSET UNITYSDK_OFFSET(0x1A1DC9F0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A1DD9D0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A1DCED0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A1DCD20)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A1DCA10)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_REMOVEEXTRARENDERERTOSINGLECHARACTER_OFFSET UNITYSDK_OFFSET(0x1A1DD950)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SETMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A1DC480)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_CHARACTERBODYSIZESHADOW_OFFSET UNITYSDK_OFFSET(0x1A1DC460)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_ISNEEDTHREESHADOW_OFFSET UNITYSDK_OFFSET(0x1A1DC880)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_TEAMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1A1DC990)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_START_OFFSET UNITYSDK_OFFSET(0x1A1DC9B0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__DRAWSINGLECHARACTERRENDERERS_OFFSET UNITYSDK_OFFSET(0x1A1DDDE0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__GETMATERIALSYNCEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A1DE5E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CharacterModelShadowCmd_TypeDefinitionIndex = 37604;
+	inline static constexpr unsigned int CharacterModelShadowCmd_TypeDefinitionIndex = 38532;
 
 	class CharacterModelShadowCmd : public ::UnityEngine::MonoBehaviour
 	{
@@ -85,102 +85,102 @@ namespace RPG::CustomRP
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _singleCharacterShadowDir; // 0xF0
 		static ::ICmdExecuteCb** StaticGet_current()
 		{
-			return (::ICmdExecuteCb**)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x2B3A0);
-		}
-
-		static ::System::Int32* StaticGet__OpacityShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DA0);
-		}
-
-		static ::System::Int32* StaticGet__ModelShadowColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DA4);
-		}
-
-		static ::System::Int32* StaticGet__ShadowGroundShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DA8);
-		}
-
-		static ::System::Int32* StaticGet__DitherAlpha()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DAC);
-		}
-
-		static ::System::Int32* StaticGet__DissolveMapShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DB0);
-		}
-
-		static ::System::Int32* StaticGet__UseDitherAlpha()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DB4);
-		}
-
-		static ::System::Int32* StaticGet__DissolveRateShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DB8);
-		}
-
-		static ::System::Int32* StaticGet__DissolveOnShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DBC);
-		}
-
-		static ::System::Int32* StaticGet__DistortionSTShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DC0);
-		}
-
-		static ::System::Int32* StaticGet__ShadowDirAttenShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DC4);
-		}
-
-		static ::System::Int32* StaticGet__DissolveUVShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DC8);
-		}
-
-		static ::System::Int32* StaticGet__ShadowAttenStartPosShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DCC);
-		}
-
-		static ::System::Int32* StaticGet__DissolveDistortionIntensityShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DD0);
+			return (::ICmdExecuteCb**)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x22700);
 		}
 
 		static ::System::Int32* StaticGet__DissolveSTShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DD4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D00);
 		}
 
-		static ::System::Int32* StaticGet__DissolveUVSpeedShaderProperty()
+		static ::System::Int32* StaticGet__DistortionSTShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DD8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D04);
 		}
 
-		static ::System::Int32* StaticGet__HideCharaPartsShaderProperty()
+		static ::System::Int32* StaticGet__DitherAlpha()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DDC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D08);
 		}
 
-		static ::System::Int32* StaticGet__ShowPartIDShaderProperty()
+		static ::System::Int32* StaticGet__UseDitherAlpha()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DE0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D0C);
+		}
+
+		static ::System::Int32* StaticGet__ModelShadowColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D10);
+		}
+
+		static ::System::Int32* StaticGet__ShadowDirAttenShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D14);
+		}
+
+		static ::System::Int32* StaticGet__DissolveMapShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D18);
+		}
+
+		static ::System::Int32* StaticGet__DissolveRateShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D1C);
+		}
+
+		static ::System::Int32* StaticGet__DissolveUVShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D20);
+		}
+
+		static ::System::Int32* StaticGet__ShadowGroundShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D24);
 		}
 
 		static ::System::Int32* StaticGet__ShadowAttenScaleShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DE4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D28);
+		}
+
+		static ::System::Int32* StaticGet__DissolveUVSpeedShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D2C);
+		}
+
+		static ::System::Int32* StaticGet__DissolveDistortionIntensityShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D30);
+		}
+
+		static ::System::Int32* StaticGet__ShowPartIDShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D34);
 		}
 
 		static ::System::Int32* StaticGet__DissolveMapAddShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x8DE8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D38);
+		}
+
+		static ::System::Int32* StaticGet__ShadowAttenStartPosShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D3C);
+		}
+
+		static ::System::Int32* StaticGet__DissolveOnShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D40);
+		}
+
+		static ::System::Int32* StaticGet__OpacityShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D44);
+		}
+
+		static ::System::Int32* StaticGet__HideCharaPartsShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterModelShadowCmd")->GetStaticField(0x7D48);
 		}
 
 		::System::Void _ctor()

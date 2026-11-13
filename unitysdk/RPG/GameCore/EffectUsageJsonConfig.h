@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EffectUsageJsonConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTUSAGEJSONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D603E40)
-#define RPG_GAMECORE_EFFECTUSAGEJSONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D603D50)
+#define RPG_GAMECORE_EFFECTUSAGEJSONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DA800)
+#define RPG_GAMECORE_EFFECTUSAGEJSONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DA710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectUsageJsonConfig_TypeDefinitionIndex = 16495;
+	inline static constexpr unsigned int EffectUsageJsonConfig_TypeDefinitionIndex = 16659;
 
 	class EffectUsageJsonConfig : public ::RPG::GameCore::JsonConfig
 	{

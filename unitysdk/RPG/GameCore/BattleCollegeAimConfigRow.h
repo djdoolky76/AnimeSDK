@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleCollegeAimConfigRow; }
 
-#define RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D426420)
-#define RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4261D0)
+#define RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C309070)
+#define RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C308E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCollegeAimConfigRow_TypeDefinitionIndex = 12842;
+	inline static constexpr unsigned int BattleCollegeAimConfigRow_TypeDefinitionIndex = 12914;
 
 	class BattleCollegeAimConfigRow : public ::System::Object
 	{

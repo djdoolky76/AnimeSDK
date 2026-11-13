@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class NetDefineConstValue; }
 
-#define RPG_GAMECORE_NETDEFINECONSTVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A8490)
-#define RPG_GAMECORE_NETDEFINECONSTVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8A7DC0)
+#define RPG_GAMECORE_NETDEFINECONSTVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E499100)
+#define RPG_GAMECORE_NETDEFINECONSTVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E498A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NetDefineConstValue_TypeDefinitionIndex = 19036;
+	inline static constexpr unsigned int NetDefineConstValue_TypeDefinitionIndex = 19223;
 
 	class NetDefineConstValue : public ::RPG::GameCore::JsonConfig
 	{

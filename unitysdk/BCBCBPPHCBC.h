@@ -4,10 +4,10 @@
 class NDPFOOJIAIJ;
 namespace System { class String; }
 
-#define BCBCBPPHCBC_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x15E94D90)
-#define BCBCBPPHCBC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E95280)
+#define BCBCBPPHCBC_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x19D6F990)
+#define BCBCBPPHCBC_CTOR_OFFSET UNITYSDK_OFFSET(0x19D6FE90)
 
-inline static constexpr unsigned int BCBCBPPHCBC_TypeDefinitionIndex = 64981;
+inline static constexpr unsigned int BCBCBPPHCBC_TypeDefinitionIndex = 66578;
 
 	class BCBCBPPHCBC : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCDiceSurfaceRarityRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D992ED0)
-#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D992890)
+#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F578D90)
+#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F578750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCDiceSurfaceRarityRow_TypeDefinitionIndex = 14745;
+	inline static constexpr unsigned int RogueDLCDiceSurfaceRarityRow_TypeDefinitionIndex = 14901;
 
 	class RogueDLCDiceSurfaceRarityRow : public ::System::Object
 	{

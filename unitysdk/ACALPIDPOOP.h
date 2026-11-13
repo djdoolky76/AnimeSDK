@@ -5,9 +5,9 @@
 class BAPEECBHOID;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ACALPIDPOOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C849A30)
+#define ACALPIDPOOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84DCC0)
 
-inline static constexpr unsigned int ACALPIDPOOP_TypeDefinitionIndex = 43774;
+inline static constexpr unsigned int ACALPIDPOOP_TypeDefinitionIndex = 44849;
 
 	class ACALPIDPOOP : public ::System::Object
 	{

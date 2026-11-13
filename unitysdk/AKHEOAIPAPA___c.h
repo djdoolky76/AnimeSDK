@@ -4,18 +4,18 @@
 class AKHEOAIPAPA;
 namespace System { class Object; }
 
-#define AKHEOAIPAPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E39F640)
-#define AKHEOAIPAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E39F680)
-#define AKHEOAIPAPA___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E39F690)
+#define AKHEOAIPAPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2063DA40)
+#define AKHEOAIPAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2063DA80)
+#define AKHEOAIPAPA___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x2063DA90)
 
-inline static constexpr unsigned int AKHEOAIPAPA___c_TypeDefinitionIndex = 27045;
+inline static constexpr unsigned int AKHEOAIPAPA___c_TypeDefinitionIndex = 27576;
 
 	class AKHEOAIPAPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F140);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33EA0);
 		}
 
 		static ::System::Void _cctor()

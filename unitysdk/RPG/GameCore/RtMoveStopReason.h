@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtMoveStopReason_TypeDefinitionIndex = 54035;
+	inline static constexpr unsigned int RtMoveStopReason_TypeDefinitionIndex = 55199;
 
 	enum class RtMoveStopReason : ::System::Int32
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINE_TIMELINE_CINEMACHINESHOTPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x166A00E0)
-#define CINEMACHINE_TIMELINE_CINEMACHINESHOTPLAYABLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1669FD40)
+#define CINEMACHINE_TIMELINE_CINEMACHINESHOTPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x20887390)
+#define CINEMACHINE_TIMELINE_CINEMACHINESHOTPLAYABLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x20886FF0)
 
 namespace Cinemachine::Timeline
 {
-	inline static constexpr unsigned int CinemachineShotPlayable_TypeDefinitionIndex = 39882;
+	inline static constexpr unsigned int CinemachineShotPlayable_TypeDefinitionIndex = 40811;
 
 	class CinemachineShotPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{

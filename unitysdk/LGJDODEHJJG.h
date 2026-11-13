@@ -6,11 +6,11 @@ namespace RPG::Client { class LuaUIGameFlowContext; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { class Object; }
 
-#define LGJDODEHJJG_CTOR_OFFSET UNITYSDK_OFFSET(0xB692990)
-#define LGJDODEHJJG_ONENTER_OFFSET UNITYSDK_OFFSET(0xB6929A0)
-#define LGJDODEHJJG_ONLEAVE_OFFSET UNITYSDK_OFFSET(0xB692C20)
+#define LGJDODEHJJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAA590)
+#define LGJDODEHJJG_ONENTER_OFFSET UNITYSDK_OFFSET(0x1BCAA5A0)
+#define LGJDODEHJJG_ONLEAVE_OFFSET UNITYSDK_OFFSET(0x1BCAA820)
 
-inline static constexpr unsigned int LGJDODEHJJG_TypeDefinitionIndex = 76310;
+inline static constexpr unsigned int LGJDODEHJJG_TypeDefinitionIndex = 78641;
 
 	class LGJDODEHJJG : public ::RPG::Client::ChenLingBattle::GamePhase
 	{

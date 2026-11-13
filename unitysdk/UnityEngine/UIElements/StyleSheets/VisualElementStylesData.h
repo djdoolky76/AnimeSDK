@@ -8,12 +8,12 @@
 namespace UnityEngine::UIElements::StyleSheets { class StyleValuePropertyReader; }
 namespace UnityEngine::UIElements::StyleSheets { class VisualElementStylesData; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F497EE0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F496A00)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFDB020)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD9B40)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int VisualElementStylesData_TypeDefinitionIndex = 6017;
+	inline static constexpr unsigned int VisualElementStylesData_TypeDefinitionIndex = 6025;
 
 	class VisualElementStylesData : public ::System::Object
 	{
@@ -47,14 +47,14 @@ namespace UnityEngine::UIElements::StyleSheets
 		::UnityEngine::UIElements::StyleInt visibility; // 0x1A8
 		::UnityEngine::UIElements::StyleInt display; // 0x1B4
 		::System::Single dpiScaling; // 0x1C0
-		static ::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader** StaticGet_s_StyleValuePropertyReader()
-		{
-			return (::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "VisualElementStylesData")->GetStaticField(0x2E640);
-		}
-
 		static ::UnityEngine::UIElements::StyleSheets::VisualElementStylesData** StaticGet_none()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::VisualElementStylesData**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "VisualElementStylesData")->GetStaticField(0x2E648);
+			return (::UnityEngine::UIElements::StyleSheets::VisualElementStylesData**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "VisualElementStylesData")->GetStaticField(0x1BED0);
+		}
+
+		static ::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader** StaticGet_s_StyleValuePropertyReader()
+		{
+			return (::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "VisualElementStylesData")->GetStaticField(0x1BED8);
 		}
 
 		::System::Void _ctor(::System::Boolean a1)

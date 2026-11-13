@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetFloorCustomBool; }
 namespace RPG::GameCore { class SetFloorCustomValueExtraInfo; }
 
-#define RPG_GAMECORE_SETFLOORCUSTOMBOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA85D20)
-#define RPG_GAMECORE_SETFLOORCUSTOMBOOL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA85D30)
-#define RPG_GAMECORE_SETFLOORCUSTOMBOOL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA85CF0)
+#define RPG_GAMECORE_SETFLOORCUSTOMBOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D3590)
+#define RPG_GAMECORE_SETFLOORCUSTOMBOOL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D35A0)
+#define RPG_GAMECORE_SETFLOORCUSTOMBOOL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D3560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFloorCustomBool_TypeDefinitionIndex = 20691;
+	inline static constexpr unsigned int SetFloorCustomBool_TypeDefinitionIndex = 21028;
 
 	class SetFloorCustomBool : public ::RPG::GameCore::TaskConfig
 	{

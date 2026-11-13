@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewModel; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPOINTCONTROL___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6631B0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPOINTCONTROL___C__DISPLAYCLASS21_0___REFRESHCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0xD6638F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPOINTCONTROL___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF039E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPOINTCONTROL___C__DISPLAYCLASS21_0___REFRESHCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0x1DF04120)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentPointControl___c__DisplayClass21_0_TypeDefinitionIndex = 80071;
+	inline static constexpr unsigned int MechCraftTalentPointControl___c__DisplayClass21_0_TypeDefinitionIndex = 82848;
 
 	class MechCraftTalentPointControl___c__DisplayClass21_0 : public ::System::Object
 	{

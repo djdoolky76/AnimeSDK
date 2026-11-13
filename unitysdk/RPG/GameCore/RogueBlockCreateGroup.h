@@ -7,12 +7,12 @@ namespace RPG::GameCore { class RogueBlockCreateGroup; }
 namespace RPG::GameCore { class RogueDLCBlockWeight; }
 namespace RPG::GameCore { class RogueDLCMarkType; }
 
-#define RPG_GAMECORE_ROGUEBLOCKCREATEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D97DC80)
-#define RPG_GAMECORE_ROGUEBLOCKCREATEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D97DA50)
+#define RPG_GAMECORE_ROGUEBLOCKCREATEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F563460)
+#define RPG_GAMECORE_ROGUEBLOCKCREATEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F563230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBlockCreateGroup_TypeDefinitionIndex = 17913;
+	inline static constexpr unsigned int RogueBlockCreateGroup_TypeDefinitionIndex = 18082;
 
 	class RogueBlockCreateGroup : public ::RPG::GameCore::JsonConfig
 	{

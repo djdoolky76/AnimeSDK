@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_E1A5E202CA41D5D1_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1C000560)
-#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_E1A5E202CA41D5D1_KEY_OFFSET UNITYSDK_OFFSET(0x1BFFF0F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_E1A5E202CA41D5D1_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1EB24AD0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_E1A5E202CA41D5D1_KEY_OFFSET UNITYSDK_OFFSET(0x1EB23660)
 
 namespace Mono::Security::Cryptography
 {
@@ -15,7 +15,7 @@ namespace Mono::Security::Cryptography
 	public:
 		static ::System::Security::Cryptography::RandomNumberGenerator** StaticGet_rng()
 		{
-			return (::System::Security::Cryptography::RandomNumberGenerator**)UnitySDK::FromName("Mono.Security.Cryptography", "KeyBuilder")->GetStaticField(0x25460);
+			return (::System::Security::Cryptography::RandomNumberGenerator**)UnitySDK::FromName("Mono.Security.Cryptography", "KeyBuilder")->GetStaticField(0x2DBF0);
 		}
 
 		static ::System::Security::Cryptography::RandomNumberGenerator* get_Rng()

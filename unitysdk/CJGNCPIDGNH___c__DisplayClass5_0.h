@@ -8,19 +8,19 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define CJGNCPIDGNH___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD205390)
-#define CJGNCPIDGNH___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD20A710)
-#define CJGNCPIDGNH___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xD20A7C0)
-#define CJGNCPIDGNH___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0xD20AA80)
+#define CJGNCPIDGNH___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x177D06A0)
+#define CJGNCPIDGNH___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x177D5A60)
+#define CJGNCPIDGNH___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0x177D5B10)
+#define CJGNCPIDGNH___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0x177D5DD0)
 
-inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass5_0_TypeDefinitionIndex = 80273;
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass5_0_TypeDefinitionIndex = 83050;
 
 	class CJGNCPIDGNH___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::CJGNCPIDGNH* __4__this; // 0x10
-		::MBJOEPEGLII* session; // 0x18
-		::System::Action_1<::System::Exception*>* __9__2; // 0x20
+		::System::Action_1<::System::Exception*>* __9__2; // 0x18
+		::MBJOEPEGLII* session; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJGNCPIDGNH___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

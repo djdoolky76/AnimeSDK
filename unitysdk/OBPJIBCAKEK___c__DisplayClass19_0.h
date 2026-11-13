@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class DFBAHCICJNE;
 
-#define OBPJIBCAKEK___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C49AD50)
-#define OBPJIBCAKEK___C__DISPLAYCLASS19_0__GETBLOCKITEMBYNAMEORHASH_B__0_OFFSET UNITYSDK_OFFSET(0x1C49DDE0)
+#define OBPJIBCAKEK___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD12FC0)
+#define OBPJIBCAKEK___C__DISPLAYCLASS19_0__GETBLOCKITEMBYNAMEORHASH_B__0_OFFSET UNITYSDK_OFFSET(0x1BD16050)
 
-inline static constexpr unsigned int OBPJIBCAKEK___c__DisplayClass19_0_TypeDefinitionIndex = 41424;
+inline static constexpr unsigned int OBPJIBCAKEK___c__DisplayClass19_0_TypeDefinitionIndex = 42399;
 
 	class OBPJIBCAKEK___c__DisplayClass19_0 : public ::System::Object
 	{

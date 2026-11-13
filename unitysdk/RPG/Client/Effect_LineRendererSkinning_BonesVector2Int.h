@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRendererSkinning_BonesVector2Int_TypeDefinitionIndex = 70506;
+	inline static constexpr unsigned int Effect_LineRendererSkinning_BonesVector2Int_TypeDefinitionIndex = 72481;
 
 	struct alignas(4) Effect_LineRendererSkinning_BonesVector2Int
 	{

@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class SpritePresetRecord; }
 namespace UnityEngine { class Component; }
 
-#define OBBFAMMHKGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2FD90)
-#define OBBFAMMHKGC_DPGCMNFJCOH_OFFSET UNITYSDK_OFFSET(0xBD2FB60)
-#define OBBFAMMHKGC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBD2F890)
+#define OBBFAMMHKGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB766A0)
+#define OBBFAMMHKGC_DPGCMNFJCOH_OFFSET UNITYSDK_OFFSET(0x1AB76470)
+#define OBBFAMMHKGC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x1AB761A0)
 
-inline static constexpr unsigned int OBBFAMMHKGC_TypeDefinitionIndex = 69029;
+inline static constexpr unsigned int OBBFAMMHKGC_TypeDefinitionIndex = 70982;
 
 	class OBBFAMMHKGC : public ::System::Object
 	{

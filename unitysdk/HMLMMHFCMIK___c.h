@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace System { class Action; }
+namespace System { class Object; }
+
+#define HMLMMHFCMIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A35DBC0)
+#define HMLMMHFCMIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A35DC00)
+#define HMLMMHFCMIK___C___REQUESTOWNERVISIBILITYRESTORERETRY_B__19_0_OFFSET UNITYSDK_OFFSET(0x1A35DC10)
+#define HMLMMHFCMIK___C___REQUESTREFRESH_B__22_0_OFFSET UNITYSDK_OFFSET(0x1A35DEB0)
+
+inline static constexpr unsigned int HMLMMHFCMIK___c_TypeDefinitionIndex = 61911;
+
+	class HMLMMHFCMIK___c : public ::System::Object
+	{
+	public:
+		static ::System::Action** StaticGet___9__22_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1EA70);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1EA78);
+		}
+
+		static ::System::Action** StaticGet___9__19_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1EA80);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HMLMMHFCMIK___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HMLMMHFCMIK___C_CTOR_OFFSET))(this);
+		}
+
+		::System::Void __RequestOwnerVisibilityRestoreRetry_b__19_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HMLMMHFCMIK___C___REQUESTOWNERVISIBILITYRESTORERETRY_B__19_0_OFFSET))(this);
+		}
+
+		::System::Void __RequestRefresh_b__22_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HMLMMHFCMIK___C___REQUESTREFRESH_B__22_0_OFFSET))(this);
+		}
+
+	};

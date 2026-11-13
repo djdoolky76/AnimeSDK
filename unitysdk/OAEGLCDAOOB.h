@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeSkillUIDisplay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OAEGLCDAOOB_CTOR_OFFSET UNITYSDK_OFFSET(0xBD16C30)
-#define OAEGLCDAOOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD16C60)
+#define OAEGLCDAOOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB58620)
+#define OAEGLCDAOOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AB58650)
 
-inline static constexpr unsigned int OAEGLCDAOOB_TypeDefinitionIndex = 54930;
+inline static constexpr unsigned int OAEGLCDAOOB_TypeDefinitionIndex = 56102;
 
 	class OAEGLCDAOOB
 	{

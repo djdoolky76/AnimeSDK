@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LinearQuestRow; }
 
-#define RPG_GAMECORE_LINEARQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A66A0)
-#define RPG_GAMECORE_LINEARQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A6020)
+#define RPG_GAMECORE_LINEARQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F255780)
+#define RPG_GAMECORE_LINEARQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F255100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LinearQuestRow_TypeDefinitionIndex = 14572;
+	inline static constexpr unsigned int LinearQuestRow_TypeDefinitionIndex = 14727;
 
 	class LinearQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 MinLevel; // 0x18
-		::System::UInt32 MaxLevel; // 0x1C
+		::System::UInt32 MaxLevel; // 0x18
+		::System::UInt32 MinLevel; // 0x1C
 		::System::UInt32 LinearID; // 0x20
 		::System::Void _ctor()
 		{

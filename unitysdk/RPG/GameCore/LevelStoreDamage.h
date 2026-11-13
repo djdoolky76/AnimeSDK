@@ -5,19 +5,19 @@
 class HPBAKOEHBHJ;
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELSTOREDAMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EAF00)
-#define RPG_GAMECORE_LEVELSTOREDAMAGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EAF60)
-#define RPG_GAMECORE_LEVELSTOREDAMAGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EAF10)
+#define RPG_GAMECORE_LEVELSTOREDAMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA9A250)
+#define RPG_GAMECORE_LEVELSTOREDAMAGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1FA9A2B0)
+#define RPG_GAMECORE_LEVELSTOREDAMAGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1FA9A260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelStoreDamage_TypeDefinitionIndex = 56742;
+	inline static constexpr unsigned int LevelStoreDamage_TypeDefinitionIndex = 57966;
 
 	class LevelStoreDamage : public ::System::Object
 	{
 	public:
-		::HPBAKOEHBHJ* StoreData; // 0x10
-		::RPG::GameCore::GameEntity* Target; // 0x18
+		::RPG::GameCore::GameEntity* Target; // 0x10
+		::HPBAKOEHBHJ* StoreData; // 0x18
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::HPBAKOEHBHJ* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::HPBAKOEHBHJ*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSTOREDAMAGE_CTOR_OFFSET))(this, a1, a2);

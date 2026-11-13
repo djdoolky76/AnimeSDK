@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class CCLFKMFJLPB;
 
-#define PGEMELICKOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BA730)
+#define PGEMELICKOP_CTOR_OFFSET UNITYSDK_OFFSET(0x176BD690)
 
-inline static constexpr unsigned int PGEMELICKOP_TypeDefinitionIndex = 42926;
+inline static constexpr unsigned int PGEMELICKOP_TypeDefinitionIndex = 43907;
 
 	class PGEMELICKOP : public ::System::Object
 	{

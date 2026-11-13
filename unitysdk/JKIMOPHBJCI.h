@@ -5,19 +5,19 @@ namespace RPG::Client { class QuestData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define JKIMOPHBJCI_ALMJOFLGNKF_OFFSET UNITYSDK_OFFSET(0xB2181A0)
-#define JKIMOPHBJCI_CTOR_OFFSET UNITYSDK_OFFSET(0xB217F60)
-#define JKIMOPHBJCI_JHAGLGHIPIA_OFFSET UNITYSDK_OFFSET(0xB2184C0)
-#define JKIMOPHBJCI_MPBPPONPAHF_OFFSET UNITYSDK_OFFSET(0xB218470)
-#define JKIMOPHBJCI_OFANBDMFMED_OFFSET UNITYSDK_OFFSET(0xB2186F0)
+#define JKIMOPHBJCI_ALMJOFLGNKF_OFFSET UNITYSDK_OFFSET(0x17B23FD0)
+#define JKIMOPHBJCI_CTOR_OFFSET UNITYSDK_OFFSET(0x17B23D90)
+#define JKIMOPHBJCI_JHAGLGHIPIA_OFFSET UNITYSDK_OFFSET(0x17B242F0)
+#define JKIMOPHBJCI_MPBPPONPAHF_OFFSET UNITYSDK_OFFSET(0x17B242A0)
+#define JKIMOPHBJCI_OFANBDMFMED_OFFSET UNITYSDK_OFFSET(0x17B24520)
 
-inline static constexpr unsigned int JKIMOPHBJCI_TypeDefinitionIndex = 80730;
+inline static constexpr unsigned int JKIMOPHBJCI_TypeDefinitionIndex = 83510;
 
 	class JKIMOPHBJCI : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* CLDMPGEBPKN; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::System::UInt32>*>* LHCJLCMMLKK; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::System::UInt32>*>* LHCJLCMMLKK; // 0x10
+		::Il2CppArray<::System::UInt32>* CLDMPGEBPKN; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JKIMOPHBJCI_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft
 {
-	inline static constexpr unsigned int MechCraftDirectionType_TypeDefinitionIndex = 41654;
+	inline static constexpr unsigned int MechCraftDirectionType_TypeDefinitionIndex = 42629;
 
 	enum class MechCraftDirectionType : ::System::Int32
 	{

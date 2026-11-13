@@ -3,10 +3,10 @@
 class LCBCNOJNFHE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EOLIAAOOOEE_CTOR_OFFSET UNITYSDK_OFFSET(0x155B9DD0)
-#define EOLIAAOOOEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155B9E00)
+#define EOLIAAOOOEE_CTOR_OFFSET UNITYSDK_OFFSET(0x16B282C0)
+#define EOLIAAOOOEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B282F0)
 
-inline static constexpr unsigned int EOLIAAOOOEE_TypeDefinitionIndex = 54950;
+inline static constexpr unsigned int EOLIAAOOOEE_TypeDefinitionIndex = 56124;
 
 	class EOLIAAOOOEE
 	{

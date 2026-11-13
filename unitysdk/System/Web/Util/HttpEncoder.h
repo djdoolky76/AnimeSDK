@@ -10,18 +10,18 @@ namespace System::IO { class Stream; }
 namespace System::IO { class TextWriter; }
 namespace System::Web::Util { class HttpEncoder; }
 
-#define SYSTEM_WEB_UTIL_HTTPENCODER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0C8ED0)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0C9150)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_GETCUSTOMENCODERFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x1F0CA7F0)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0C4F20)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_GET_ENTITIES_OFFSET UNITYSDK_OFFSET(0x1F0C5940)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_HTMLDECODE_1_OFFSET UNITYSDK_OFFSET(0x1F0C9260)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_HTMLDECODE_OFFSET UNITYSDK_OFFSET(0x1F0C9160)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_INITENTITIES_OFFSET UNITYSDK_OFFSET(0x1F0C5AC0)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_NOTENCODED_OFFSET UNITYSDK_OFFSET(0x1F0C4E10)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_URLENCODECHAR_OFFSET UNITYSDK_OFFSET(0x1F0CA870)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_URLENCODETOBYTES_OFFSET UNITYSDK_OFFSET(0x1F0CA5B0)
-#define SYSTEM_WEB_UTIL_HTTPENCODER_URLENCODE_OFFSET UNITYSDK_OFFSET(0x1F0CA540)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_CCTOR_OFFSET UNITYSDK_OFFSET(0x190F6590)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x190F6810)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_GETCUSTOMENCODERFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x190F7E90)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x190F25E0)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_GET_ENTITIES_OFFSET UNITYSDK_OFFSET(0x190F3000)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_HTMLDECODE_1_OFFSET UNITYSDK_OFFSET(0x190F6920)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_HTMLDECODE_OFFSET UNITYSDK_OFFSET(0x190F6820)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_INITENTITIES_OFFSET UNITYSDK_OFFSET(0x190F3180)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_NOTENCODED_OFFSET UNITYSDK_OFFSET(0x190F24D0)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_URLENCODECHAR_OFFSET UNITYSDK_OFFSET(0x190F7F10)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_URLENCODETOBYTES_OFFSET UNITYSDK_OFFSET(0x190F7C50)
+#define SYSTEM_WEB_UTIL_HTTPENCODER_URLENCODE_OFFSET UNITYSDK_OFFSET(0x190F7BE0)
 
 namespace System::Web::Util
 {
@@ -30,34 +30,34 @@ namespace System::Web::Util
 	class HttpEncoder : public ::System::Object
 	{
 	public:
-		static ::System::Lazy_1<::System::Web::Util::HttpEncoder*>** StaticGet_currentEncoderLazy()
-		{
-			return (::System::Lazy_1<::System::Web::Util::HttpEncoder*>**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x38790);
-		}
-
-		static ::System::Object** StaticGet_entitiesLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x38798);
-		}
-
-		static ::Il2CppArray<::System::Char>** StaticGet_hexChars()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x387A0);
-		}
-
 		static ::System::Web::Util::HttpEncoder** StaticGet_currentEncoder()
 		{
-			return (::System::Web::Util::HttpEncoder**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x387A8);
-		}
-
-		static ::System::Collections::Generic::SortedDictionary_2<::System::String*, ::System::Char>** StaticGet_entities()
-		{
-			return (::System::Collections::Generic::SortedDictionary_2<::System::String*, ::System::Char>**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x387B0);
+			return (::System::Web::Util::HttpEncoder**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x2D750);
 		}
 
 		static ::System::Lazy_1<::System::Web::Util::HttpEncoder*>** StaticGet_defaultEncoder()
 		{
-			return (::System::Lazy_1<::System::Web::Util::HttpEncoder*>**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x387B8);
+			return (::System::Lazy_1<::System::Web::Util::HttpEncoder*>**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x2D758);
+		}
+
+		static ::System::Collections::Generic::SortedDictionary_2<::System::String*, ::System::Char>** StaticGet_entities()
+		{
+			return (::System::Collections::Generic::SortedDictionary_2<::System::String*, ::System::Char>**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x2D760);
+		}
+
+		static ::System::Lazy_1<::System::Web::Util::HttpEncoder*>** StaticGet_currentEncoderLazy()
+		{
+			return (::System::Lazy_1<::System::Web::Util::HttpEncoder*>**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x2D768);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_hexChars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x2D770);
+		}
+
+		static ::System::Object** StaticGet_entitiesLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.Web.Util", "HttpEncoder")->GetStaticField(0x2D778);
 		}
 
 		static ::System::Void _cctor()

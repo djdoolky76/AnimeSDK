@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class LittleGameAbilityPixAirFireLaser; }
 namespace RPG::GameCore { class PixAirLaserConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIRELASER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AC180)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIRELASER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7AC190)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIRELASER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7AC150)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIRELASER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F25A730)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIRELASER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F25A740)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIRELASER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F25A700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityPixAirFireLaser_TypeDefinitionIndex = 21398;
+	inline static constexpr unsigned int LittleGameAbilityPixAirFireLaser_TypeDefinitionIndex = 21741;
 
 	class LittleGameAbilityPixAirFireLaser : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{

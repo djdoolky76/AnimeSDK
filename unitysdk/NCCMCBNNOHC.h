@@ -16,33 +16,33 @@ namespace System::Collections::Generic { template <typename T> class LinkedListN
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NCCMCBNNOHC_BKAJENBJGGG_OFFSET UNITYSDK_OFFSET(0xBAFB850)
-#define NCCMCBNNOHC_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF9CC0)
-#define NCCMCBNNOHC_DGOPIGCHPCE_OFFSET UNITYSDK_OFFSET(0xBAFC360)
-#define NCCMCBNNOHC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAF9DA0)
-#define NCCMCBNNOHC_ICMONKPLCMH_OFFSET UNITYSDK_OFFSET(0xBAFB970)
-#define NCCMCBNNOHC_JHBFMCLNBAM_OFFSET UNITYSDK_OFFSET(0xBAFC000)
-#define NCCMCBNNOHC_MICODGJPHAE_OFFSET UNITYSDK_OFFSET(0xBAFC520)
-#define NCCMCBNNOHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAF9FB0)
-#define NCCMCBNNOHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAFCC50)
-#define NCCMCBNNOHC_TICK_OFFSET UNITYSDK_OFFSET(0xBAF9F50)
+#define NCCMCBNNOHC_BKAJENBJGGG_OFFSET UNITYSDK_OFFSET(0x150ED940)
+#define NCCMCBNNOHC_CTOR_OFFSET UNITYSDK_OFFSET(0x150EBBE0)
+#define NCCMCBNNOHC_DGOPIGCHPCE_OFFSET UNITYSDK_OFFSET(0x150EE450)
+#define NCCMCBNNOHC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x150EBCD0)
+#define NCCMCBNNOHC_ICMONKPLCMH_OFFSET UNITYSDK_OFFSET(0x150EDA70)
+#define NCCMCBNNOHC_JHBFMCLNBAM_OFFSET UNITYSDK_OFFSET(0x150EE130)
+#define NCCMCBNNOHC_MICODGJPHAE_OFFSET UNITYSDK_OFFSET(0x150EE610)
+#define NCCMCBNNOHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x150EBEF0)
+#define NCCMCBNNOHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x150EED50)
+#define NCCMCBNNOHC_TICK_OFFSET UNITYSDK_OFFSET(0x150EBE90)
 
-inline static constexpr unsigned int NCCMCBNNOHC_TypeDefinitionIndex = 56421;
+inline static constexpr unsigned int NCCMCBNNOHC_TypeDefinitionIndex = 57639;
 
 	class NCCMCBNNOHC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::PoolList_1<::ALCOGHNNPMF>* FJHJNKHLPNP; // 0x18
-		::OLABFALNLJM* JBDCABFMHNC; // 0x20
-		::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::TargetFormationPosConfig*>* BPOPEEOIBEG; // 0x28
-		::RPG::GameCore::GameEntity* DPGHBJPAAEN; // 0x30
-		::AGDFBGCMLEG GEOGOILLHKO; // 0x38
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x60
-		::System::Collections::Generic::LinkedList_1<::System::Object*>* LMLLIFFMOMC; // 0x68
+		::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::TargetFormationPosConfig*>* BPOPEEOIBEG; // 0x18
+		::System::Collections::Generic::LinkedList_1<::RPG::GameCore::TargetFormationPosConfig*>* GBMAIEBEKGM; // 0x20
+		::OLABFALNLJM* JBDCABFMHNC; // 0x28
+		::System::Collections::Generic::LinkedListNode_1<::System::Object*>* JBJLKAEGGDG; // 0x30
+		::RPG::PoolList_1<::ALCOGHNNPMF>* FJHJNKHLPNP; // 0x38
+		::RPG::GameCore::GameEntity* DPGHBJPAAEN; // 0x40
+		::AGDFBGCMLEG GEOGOILLHKO; // 0x48
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*>* LGBOLNEKFML; // 0x70
-		::System::Collections::Generic::LinkedList_1<::RPG::GameCore::TargetFormationPosConfig*>* GBMAIEBEKGM; // 0x78
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x78
 		::RPG::GameCore::SetSkillTargetFormationByPos* OFKGLJOAMLD; // 0x80
-		::System::Collections::Generic::LinkedListNode_1<::System::Object*>* JBJLKAEGGDG; // 0x88
+		::System::Collections::Generic::LinkedList_1<::System::Object*>* LMLLIFFMOMC; // 0x88
 		::System::Boolean OEEOPDMIBNC; // 0x90
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetSkillTargetFormationByPos* a2)
 		{

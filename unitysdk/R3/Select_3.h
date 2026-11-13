@@ -5,7 +5,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace R3
 {
-	inline static constexpr unsigned int Select_3_TypeDefinitionIndex = 35945;
+	inline static constexpr unsigned int Select_3_TypeDefinitionIndex = 36873;
 
 	template <typename T1, typename T2, typename T3>
 	class Select_3

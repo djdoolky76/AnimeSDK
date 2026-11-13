@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IActivityQuestRewardTabInfo; }
 
-#define FLAPOADCDCE_CREATE_OFFSET UNITYSDK_OFFSET(0x1581BB70)
-#define FLAPOADCDCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1581BC30)
+#define FLAPOADCDCE_CREATE_OFFSET UNITYSDK_OFFSET(0x18955F90)
+#define FLAPOADCDCE_CTOR_OFFSET UNITYSDK_OFFSET(0x18956050)
 
-inline static constexpr unsigned int FLAPOADCDCE_TypeDefinitionIndex = 61736;
+inline static constexpr unsigned int FLAPOADCDCE_TypeDefinitionIndex = 63142;
 
 	class FLAPOADCDCE : public ::System::Object
 	{

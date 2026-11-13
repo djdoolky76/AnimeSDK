@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD505F0)
-#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD505A0)
+#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x18995860)
+#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x18995810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticleBackwardMonoPlugin_TypeDefinitionIndex = 70520;
+	inline static constexpr unsigned int Effect_ParticleBackwardMonoPlugin_TypeDefinitionIndex = 72495;
 
 	class Effect_ParticleBackwardMonoPlugin
 	{

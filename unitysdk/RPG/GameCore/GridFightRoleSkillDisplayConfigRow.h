@@ -8,21 +8,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightRoleSkillDisplayConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D711680)
-#define RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D711410)
+#define RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5DD80)
+#define RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA5DB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleSkillDisplayConfigRow_TypeDefinitionIndex = 13523;
+	inline static constexpr unsigned int GridFightRoleSkillDisplayConfigRow_TypeDefinitionIndex = 13618;
 
 	class GridFightRoleSkillDisplayConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::GridFightRoleSkillTag>* CategoryTagList; // 0x10
 		::System::String* IconPath; // 0x18
-		::RPG::GameCore::GridFightPreset FrontBackType; // 0x20
-		::System::UInt32 RoleID; // 0x24
-		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID Name; // 0x20
+		::System::UInt32 RoleID; // 0x30
+		::RPG::GameCore::GridFightPreset FrontBackType; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_CTOR_OFFSET))(this);

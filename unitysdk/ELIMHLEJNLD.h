@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ELIMHLEJNLD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD756A0)
-#define ELIMHLEJNLD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD75C70)
-#define ELIMHLEJNLD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD75810)
-#define ELIMHLEJNLD_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1CD75490)
-#define ELIMHLEJNLD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD75090)
-#define ELIMHLEJNLD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD75320)
-#define ELIMHLEJNLD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD758B0)
-#define ELIMHLEJNLD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD75900)
-#define ELIMHLEJNLD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD756E0)
-#define ELIMHLEJNLD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD752C0)
-#define ELIMHLEJNLD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD75510)
-#define ELIMHLEJNLD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD75770)
-#define ELIMHLEJNLD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD75010)
+#define ELIMHLEJNLD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1ED03B70)
+#define ELIMHLEJNLD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED04140)
+#define ELIMHLEJNLD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1ED03CE0)
+#define ELIMHLEJNLD_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1ED03960)
+#define ELIMHLEJNLD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1ED03560)
+#define ELIMHLEJNLD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1ED037F0)
+#define ELIMHLEJNLD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1ED03D80)
+#define ELIMHLEJNLD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1ED03DD0)
+#define ELIMHLEJNLD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1ED03BB0)
+#define ELIMHLEJNLD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1ED03790)
+#define ELIMHLEJNLD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1ED039E0)
+#define ELIMHLEJNLD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1ED03C40)
+#define ELIMHLEJNLD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1ED034E0)
 
-inline static constexpr unsigned int ELIMHLEJNLD_TypeDefinitionIndex = 11573;
+inline static constexpr unsigned int ELIMHLEJNLD_TypeDefinitionIndex = 11624;
 
 	class ELIMHLEJNLD : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0xA990);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0x4BAC0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::CEKGGHILKPC*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::CEKGGHILKPC*>**)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0xA998);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::CEKGGHILKPC*>**)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0x4BAC8);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0xA9A0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0x2440);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0x4BAD0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0x2441);
+			return (::System::Byte*)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0xE6E0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "ELIMHLEJNLD")->GetStaticField(0xE6E1);
 		}
 
 		static ::System::Void _cctor()

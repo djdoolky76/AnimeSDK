@@ -3,10 +3,10 @@
 #include "unitysdk/ODLJOLJDLNI.h"
 namespace System { class String; }
 
-#define NEFPADIOLPB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB57650)
-#define NEFPADIOLPB_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0xBB57400)
+#define NEFPADIOLPB_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD67D0)
+#define NEFPADIOLPB_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0x16FD65A0)
 
-inline static constexpr unsigned int NEFPADIOLPB_TypeDefinitionIndex = 76350;
+inline static constexpr unsigned int NEFPADIOLPB_TypeDefinitionIndex = 78681;
 
 	class NEFPADIOLPB : public ::ODLJOLJDLNI
 	{

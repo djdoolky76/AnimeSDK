@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class RetargetPerSequence; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RETARGETPERSEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96B5C0)
-#define RPG_GAMECORE_RETARGETPERSEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D96B5D0)
-#define RPG_GAMECORE_RETARGETPERSEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D96B590)
+#define RPG_GAMECORE_RETARGETPERSEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x2072FA20)
+#define RPG_GAMECORE_RETARGETPERSEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x2072FA30)
+#define RPG_GAMECORE_RETARGETPERSEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x2072F9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RetargetPerSequence_TypeDefinitionIndex = 22449;
+	inline static constexpr unsigned int RetargetPerSequence_TypeDefinitionIndex = 22858;
 
 	class RetargetPerSequence : public ::RPG::GameCore::TaskConfig
 	{

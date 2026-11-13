@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXTREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B890BC0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXTREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B890B60)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXTREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A8870)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXTREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F3A8810)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int SourceContextReflection_TypeDefinitionIndex = 5426;
+	inline static constexpr unsigned int SourceContextReflection_TypeDefinitionIndex = 5431;
 
 	class SourceContextReflection : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "SourceContextReflection")->GetStaticField(0x255E0);
+			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "SourceContextReflection")->GetStaticField(0x28640);
 		}
 
 		static ::System::Void _cctor()

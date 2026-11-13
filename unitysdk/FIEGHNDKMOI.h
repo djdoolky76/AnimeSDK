@@ -4,17 +4,18 @@
 class FCOEMCEDLNL;
 class FIEGHNDKMOI;
 
-#define FIEGHNDKMOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC7F20)
-#define FIEGHNDKMOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC7D90)
+#define FIEGHNDKMOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E45CD70)
+#define FIEGHNDKMOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E45CBE0)
 
-inline static constexpr unsigned int FIEGHNDKMOI_TypeDefinitionIndex = 13955;
+inline static constexpr unsigned int FIEGHNDKMOI_TypeDefinitionIndex = 14112;
 
 	class FIEGHNDKMOI : public ::System::Object
 	{
 	public:
-		::System::UInt32 AEDOBNFDODI; // 0x10
+		::System::Boolean GNDCCBNILML; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::UInt32 IFAGMAOMHCL; // 0x14
-		::System::Boolean GNDCCBNILML; // 0x18
+		::System::UInt32 AEDOBNFDODI; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIEGHNDKMOI_CTOR_OFFSET))(this);

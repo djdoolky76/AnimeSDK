@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AetherDivideMonsterRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A8E00)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3A8740)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8DAD0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DE8D410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideMonsterRow_TypeDefinitionIndex = 10924;
+	inline static constexpr unsigned int AetherDivideMonsterRow_TypeDefinitionIndex = 10940;
 
 	class AetherDivideMonsterRow : public ::System::Object
 	{

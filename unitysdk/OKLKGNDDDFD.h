@@ -3,10 +3,10 @@
 #include "unitysdk/HBIAKFCLCIG.h"
 #include "unitysdk/CAHKKMIFGGB.h"
 
-#define OKLKGNDDDFD_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE6390)
-#define OKLKGNDDDFD_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xBEE6330)
+#define OKLKGNDDDFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1788C890)
+#define OKLKGNDDDFD_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x1788C830)
 
-inline static constexpr unsigned int OKLKGNDDDFD_TypeDefinitionIndex = 64927;
+inline static constexpr unsigned int OKLKGNDDDFD_TypeDefinitionIndex = 66498;
 
 	class OKLKGNDDDFD : public ::HBIAKFCLCIG
 	{

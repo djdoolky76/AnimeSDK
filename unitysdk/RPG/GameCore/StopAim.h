@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StopAim; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF6B30)
-#define RPG_GAMECORE_STOPAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF6B40)
-#define RPG_GAMECORE_STOPAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF6AF0)
+#define RPG_GAMECORE_STOPAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C9750)
+#define RPG_GAMECORE_STOPAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3C9760)
+#define RPG_GAMECORE_STOPAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C9710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopAim_TypeDefinitionIndex = 22406;
+	inline static constexpr unsigned int StopAim_TypeDefinitionIndex = 22815;
 
 	class StopAim : public ::RPG::GameCore::TaskConfig
 	{

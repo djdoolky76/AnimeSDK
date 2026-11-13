@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OKGHALPIAFP_DashPhaseState_TypeDefinitionIndex = 77905;
+inline static constexpr unsigned int OKGHALPIAFP_DashPhaseState_TypeDefinitionIndex = 80640;
 
 	enum class OKGHALPIAFP_DashPhaseState : ::System::Int32
 	{

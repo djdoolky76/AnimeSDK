@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FKCBNBAENIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA42B80)
+#define FKCBNBAENIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D340)
 
-inline static constexpr unsigned int FKCBNBAENIL_TypeDefinitionIndex = 42122;
+inline static constexpr unsigned int FKCBNBAENIL_TypeDefinitionIndex = 43097;
 
 	class FKCBNBAENIL : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/RogueBlackboardResultHandleTime.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PBLOLDMAMOD_CTOR_OFFSET UNITYSDK_OFFSET(0xBFED690)
-#define PBLOLDMAMOD_GET_HANDLETIME_OFFSET UNITYSDK_OFFSET(0xBFED6A0)
+#define PBLOLDMAMOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC4090)
+#define PBLOLDMAMOD_GET_HANDLETIME_OFFSET UNITYSDK_OFFSET(0x1AAC40A0)
 
-inline static constexpr unsigned int PBLOLDMAMOD_TypeDefinitionIndex = 67127;
+inline static constexpr unsigned int PBLOLDMAMOD_TypeDefinitionIndex = 69071;
 
 	class PBLOLDMAMOD : public ::System::Attribute
 	{

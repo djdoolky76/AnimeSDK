@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ISREADONLYATTRIBUTE_6A2A5EC8E322D3B9_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBBDD10)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ISREADONLYATTRIBUTE_6A2A5EC8E322D3B9_CTOR_OFFSET UNITYSDK_OFFSET(0x20975690)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int IsReadOnlyAttribute_6A2A5EC8E322D3B9_TypeDefinitionIndex = 5066;
+	inline static constexpr unsigned int IsReadOnlyAttribute_6A2A5EC8E322D3B9_TypeDefinitionIndex = 5071;
 
 	class IsReadOnlyAttribute_6A2A5EC8E322D3B9 : public ::System::Attribute
 	{

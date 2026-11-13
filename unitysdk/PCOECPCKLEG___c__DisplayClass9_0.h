@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class ENDEAPMHAOI;
 
-#define PCOECPCKLEG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BDEA0)
-#define PCOECPCKLEG___C__DISPLAYCLASS9_0__REMOVEBUFFSBYNAMES_B__0_OFFSET UNITYSDK_OFFSET(0x1C7BDFC0)
+#define PCOECPCKLEG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B09F6C0)
+#define PCOECPCKLEG___C__DISPLAYCLASS9_0__REMOVEBUFFSBYNAMES_B__0_OFFSET UNITYSDK_OFFSET(0x1B09F7E0)
 
-inline static constexpr unsigned int PCOECPCKLEG___c__DisplayClass9_0_TypeDefinitionIndex = 37290;
+inline static constexpr unsigned int PCOECPCKLEG___c__DisplayClass9_0_TypeDefinitionIndex = 38218;
 
 	class PCOECPCKLEG___c__DisplayClass9_0 : public ::System::Object
 	{

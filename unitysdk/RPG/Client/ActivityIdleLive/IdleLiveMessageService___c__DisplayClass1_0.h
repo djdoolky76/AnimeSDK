@@ -7,18 +7,18 @@ class FAKDJHMJOHF;
 namespace Proto { class ItemList; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveMessageService; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4E1490)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE___C__DISPLAYCLASS1_0__TAKEMESSAGEREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xC4E14B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C9300)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE___C__DISPLAYCLASS1_0__TAKEMESSAGEREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x1D6C9320)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveMessageService___c__DisplayClass1_0_TypeDefinitionIndex = 75371;
+	inline static constexpr unsigned int IdleLiveMessageService___c__DisplayClass1_0_TypeDefinitionIndex = 77698;
 
 	class IdleLiveMessageService___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::IdleLiveMessageService* __4__this; // 0x10
-		::FAKDJHMJOHF* contentRewardService; // 0x18
+		::FAKDJHMJOHF* contentRewardService; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveMessageService* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

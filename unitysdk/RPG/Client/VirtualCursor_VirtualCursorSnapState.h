@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client { class VirtualCursor; }
 
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORSNAPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE44CAC0)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORSNAPSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xE44D270)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORSNAPSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xE44D5E0)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORSNAPSTATE_TICK_OFFSET UNITYSDK_OFFSET(0xE44D2E0)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORSNAPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC7CEC0)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORSNAPSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0x1BC7D6D0)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORSNAPSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0x1BC7DA50)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORSNAPSTATE_TICK_OFFSET UNITYSDK_OFFSET(0x1BC7D740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursor_VirtualCursorSnapState_TypeDefinitionIndex = 73236;
+	inline static constexpr unsigned int VirtualCursor_VirtualCursorSnapState_TypeDefinitionIndex = 75352;
 
 	class VirtualCursor_VirtualCursorSnapState : public ::System::Object
 	{
 	public:
 		::RPG::Client::VirtualCursor* _Owner; // 0x10
-		::UnityEngine::Vector2 _Velocity; // 0x18
-		::UnityEngine::Vector2 _Target; // 0x20
+		::UnityEngine::Vector2 _Target; // 0x18
+		::UnityEngine::Vector2 _Velocity; // 0x20
 		// static const ::System::Object EPSILON; // 0x0
 		::System::Void _ctor()
 		{

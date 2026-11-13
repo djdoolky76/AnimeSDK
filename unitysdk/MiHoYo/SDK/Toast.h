@@ -7,33 +7,33 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_TOAST_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFB7D90)
-#define MIHOYO_SDK_TOAST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFB88D0)
-#define MIHOYO_SDK_TOAST_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB8890)
-#define MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x1BFB87C0)
-#define MIHOYO_SDK_TOAST_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFB8490)
-#define MIHOYO_SDK_TOAST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BFB8700)
-#define MIHOYO_SDK_TOAST_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BFB7F60)
-#define MIHOYO_SDK_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFA34E0)
-#define MIHOYO_SDK_TOAST_START_OFFSET UNITYSDK_OFFSET(0x1BFB7EC0)
+#define MIHOYO_SDK_TOAST_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D04CAD0)
+#define MIHOYO_SDK_TOAST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D04D5D0)
+#define MIHOYO_SDK_TOAST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04D590)
+#define MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x1D04D4C0)
+#define MIHOYO_SDK_TOAST_HIDE_OFFSET UNITYSDK_OFFSET(0x1D04D190)
+#define MIHOYO_SDK_TOAST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D04D400)
+#define MIHOYO_SDK_TOAST_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1D04CC60)
+#define MIHOYO_SDK_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x1D0383A0)
+#define MIHOYO_SDK_TOAST_START_OFFSET UNITYSDK_OFFSET(0x1D04CBC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 8228;
+	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 8237;
 
 	class Toast : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		::System::String* content; // 0x58
 		::UnityEngine::UI::Text* contentText; // 0x60
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_autoHideTask()
-		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Toast")->GetStaticField(0x2A9D0);
-		}
-
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "Toast")->GetStaticField(0x2A9D8);
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "Toast")->GetStaticField(0x1C890);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_autoHideTask()
+		{
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Toast")->GetStaticField(0x1C898);
 		}
 
 		// static const ::System::String* PrefabName; // 0x0

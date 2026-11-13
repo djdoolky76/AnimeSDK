@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimBakedLevelConfig; }
+namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
 namespace RPG::GameCore { class FiveDimRenderingItemStateMappingConfig; }
 namespace RPG::GameCore { class FiveDimSurfaceBakedInfo; }
 namespace RPG::GameCore { class FiveDimViewBakedInfo; }
@@ -11,12 +12,12 @@ namespace RPG::GameCore { class StatisticsBakedInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D682C20)
-#define RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D682880)
+#define RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84FB60)
+#define RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E84F740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBakedLevelConfig_TypeDefinitionIndex = 16725;
+	inline static constexpr unsigned int FiveDimBakedLevelConfig_TypeDefinitionIndex = 16891;
 
 	class FiveDimBakedLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,6 +31,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::StatisticsBakedInfo* StatisticsBakedInfo; // 0x40
 		::RPG::GameCore::MeshBound* LevelBound; // 0x48
 		::System::Boolean DelayLoad; // 0x50
+		::System::Byte _padding0[0x3];
+		::System::Single JumpGravityScale; // 0x54
+		::RPG::GameCore::FiveDimMoveBakedConfig* OverrideMoveBakedConfig; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG_CTOR_OFFSET))(this);

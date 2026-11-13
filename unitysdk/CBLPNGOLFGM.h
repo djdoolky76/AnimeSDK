@@ -6,20 +6,20 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define CBLPNGOLFGM_CLEAR_OFFSET UNITYSDK_OFFSET(0xC4A82E0)
-#define CBLPNGOLFGM_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A8330)
+#define CBLPNGOLFGM_CLEAR_OFFSET UNITYSDK_OFFSET(0x18FE57A0)
+#define CBLPNGOLFGM_CTOR_OFFSET UNITYSDK_OFFSET(0x18FE57F0)
 
-inline static constexpr unsigned int CBLPNGOLFGM_TypeDefinitionIndex = 53737;
+inline static constexpr unsigned int CBLPNGOLFGM_TypeDefinitionIndex = 54901;
 
 	class CBLPNGOLFGM : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
-		::RPG::GameCore::TeamTypeMask OBMPNGFPNMG; // 0x18
-		::RPG::GameCore::RtStackSkillTargetRedirectPhase IFDLJDHLPJM; // 0x1C
-		::System::Int32 NALMBOOCCIN; // 0x20
+		::RPG::GameCore::EntityTypeMask PCBEIEAONIF; // 0x18
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::EntityTypeMask PCBEIEAONIF; // 0x28
+		::System::Int32 NALMBOOCCIN; // 0x20
+		::RPG::GameCore::RtStackSkillTargetRedirectPhase IFDLJDHLPJM; // 0x24
+		::RPG::GameCore::TeamTypeMask OBMPNGFPNMG; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CBLPNGOLFGM_CTOR_OFFSET))(this);

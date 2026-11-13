@@ -4,9 +4,9 @@
 #include "unitysdk/KLNKLOMDIIC.h"
 namespace RPG::GameCore { class FiveDimSurfacePoint; }
 
-#define GEOADLJHBHG_KIFAGHIPEDN_OFFSET UNITYSDK_OFFSET(0x1CA5B240)
+#define GEOADLJHBHG_KIFAGHIPEDN_OFFSET UNITYSDK_OFFSET(0x1C2259E0)
 
-inline static constexpr unsigned int GEOADLJHBHG_TypeDefinitionIndex = 43592;
+inline static constexpr unsigned int GEOADLJHBHG_TypeDefinitionIndex = 44574;
 
 	class GEOADLJHBHG : public ::System::Object
 	{

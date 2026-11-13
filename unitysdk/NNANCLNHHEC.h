@@ -6,11 +6,11 @@ namespace RPG::GameCore { class StageVolumeComponentData; }
 namespace RPG::GameCore { class StreamingBlockVolumeComponentData; }
 namespace RPG::GameCore { class StreamingBlockVolumeComponentEditorData; }
 
-#define NNANCLNHHEC_BLNHFKBCGBL_OFFSET UNITYSDK_OFFSET(0xBC94880)
-#define NNANCLNHHEC_CMDDLDKDIKP_OFFSET UNITYSDK_OFFSET(0xBC94510)
-#define NNANCLNHHEC_EMNLOKEJEFB_OFFSET UNITYSDK_OFFSET(0xBC94920)
+#define NNANCLNHHEC_BLNHFKBCGBL_OFFSET UNITYSDK_OFFSET(0x179D6470)
+#define NNANCLNHHEC_CMDDLDKDIKP_OFFSET UNITYSDK_OFFSET(0x179D6100)
+#define NNANCLNHHEC_EMNLOKEJEFB_OFFSET UNITYSDK_OFFSET(0x179D6510)
 
-inline static constexpr unsigned int NNANCLNHHEC_TypeDefinitionIndex = 53595;
+inline static constexpr unsigned int NNANCLNHHEC_TypeDefinitionIndex = 54759;
 
 	class NNANCLNHHEC : public ::System::Object
 	{

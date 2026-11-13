@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_Parameters_TypeDefinitionIndex = 40575;
+	inline static constexpr unsigned int IHEU_Parameters_TypeDefinitionIndex = 41550;
 
 	class IHEU_Parameters
 	{

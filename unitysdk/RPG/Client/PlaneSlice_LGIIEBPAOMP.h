@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_PLANESLICE_LGIIEBPAOMP_CTOR_OFFSET UNITYSDK_OFFSET(0xEE6E0)
+#define RPG_CLIENT_PLANESLICE_LGIIEBPAOMP_CTOR_OFFSET UNITYSDK_OFFSET(0x3F02500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaneSlice_LGIIEBPAOMP_TypeDefinitionIndex = 70699;
+	inline static constexpr unsigned int PlaneSlice_LGIIEBPAOMP_TypeDefinitionIndex = 72676;
 
 	struct alignas(4) PlaneSlice_LGIIEBPAOMP
 	{

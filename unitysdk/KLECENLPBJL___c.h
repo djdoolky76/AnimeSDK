@@ -4,18 +4,18 @@
 class KLECENLPBJL;
 namespace System { class Object; }
 
-#define KLECENLPBJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E85B480)
-#define KLECENLPBJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85B4C0)
-#define KLECENLPBJL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E85B4D0)
+#define KLECENLPBJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDB7920)
+#define KLECENLPBJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDB7960)
+#define KLECENLPBJL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FDB7970)
 
-inline static constexpr unsigned int KLECENLPBJL___c_TypeDefinitionIndex = 26940;
+inline static constexpr unsigned int KLECENLPBJL___c_TypeDefinitionIndex = 27471;
 
 	class KLECENLPBJL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D550);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B9C0);
 		}
 
 		static ::System::Void _cctor()

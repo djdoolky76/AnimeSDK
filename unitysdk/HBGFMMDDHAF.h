@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapCharacterChangeTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HBGFMMDDHAF_CTOR_OFFSET UNITYSDK_OFFSET(0x15BF61E0)
-#define HBGFMMDDHAF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15BF6200)
+#define HBGFMMDDHAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C16E0E0)
+#define HBGFMMDDHAF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C16E100)
 
-inline static constexpr unsigned int HBGFMMDDHAF_TypeDefinitionIndex = 59184;
+inline static constexpr unsigned int HBGFMMDDHAF_TypeDefinitionIndex = 60461;
 
 	class HBGFMMDDHAF
 	{

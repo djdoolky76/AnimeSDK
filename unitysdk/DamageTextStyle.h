@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define DAMAGETEXTSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x126616C0)
+#define DAMAGETEXTSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x181BB8F0)
 
-inline static constexpr unsigned int DamageTextStyle_TypeDefinitionIndex = 47569;
+inline static constexpr unsigned int DamageTextStyle_TypeDefinitionIndex = 48598;
 
 	class DamageTextStyle : public ::UnityEngine::ScriptableObject
 	{

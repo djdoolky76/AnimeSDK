@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTitleExtremType_TypeDefinitionIndex = 11010;
+	inline static constexpr unsigned int CakeRaceTitleExtremType_TypeDefinitionIndex = 11026;
 
 	enum class CakeRaceTitleExtremType : ::System::Int32
 	{

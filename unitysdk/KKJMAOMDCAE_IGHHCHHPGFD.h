@@ -4,11 +4,16 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KKJMAOMDCAE_IGHHCHHPGFD_CTOR_OFFSET UNITYSDK_OFFSET(0xB4C7FA0)
-#define KKJMAOMDCAE_IGHHCHHPGFD_NCGNACLNJMF_OFFSET UNITYSDK_OFFSET(0xB4C7E00)
-#define KKJMAOMDCAE_IGHHCHHPGFD_OMPFMLOCLEO_OFFSET UNITYSDK_OFFSET(0xB4C7CB0)
+#define KKJMAOMDCAE_IGHHCHHPGFD_AIPBECDIDJE_OFFSET UNITYSDK_OFFSET(0x17354840)
+#define KKJMAOMDCAE_IGHHCHHPGFD_ANONFIEJIMA_OFFSET UNITYSDK_OFFSET(0x173546B0)
+#define KKJMAOMDCAE_IGHHCHHPGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x17354C00)
+#define KKJMAOMDCAE_IGHHCHHPGFD_GACKEJICMEF_OFFSET UNITYSDK_OFFSET(0x17354A60)
+#define KKJMAOMDCAE_IGHHCHHPGFD_GFNCDBDMGPA_OFFSET UNITYSDK_OFFSET(0x17354640)
+#define KKJMAOMDCAE_IGHHCHHPGFD_NCGNACLNJMF_OFFSET UNITYSDK_OFFSET(0x173548C0)
+#define KKJMAOMDCAE_IGHHCHHPGFD_OMPFMLOCLEO_OFFSET UNITYSDK_OFFSET(0x173544F0)
+#define KKJMAOMDCAE_IGHHCHHPGFD_ONNKKJJFNME_OFFSET UNITYSDK_OFFSET(0x173547A0)
 
-inline static constexpr unsigned int KKJMAOMDCAE_IGHHCHHPGFD_TypeDefinitionIndex = 64774;
+inline static constexpr unsigned int KKJMAOMDCAE_IGHHCHHPGFD_TypeDefinitionIndex = 66316;
 
 	class KKJMAOMDCAE_IGHHCHHPGFD : public ::System::Object
 	{
@@ -26,9 +31,34 @@ inline static constexpr unsigned int KKJMAOMDCAE_IGHHCHHPGFD_TypeDefinitionIndex
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD_OMPFMLOCLEO_OFFSET))(this, a1);
 		}
 
+		::System::Boolean GFNCDBDMGPA(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD_GFNCDBDMGPA_OFFSET))(this, a1);
+		}
+
+		::System::Boolean ONNKKJJFNME(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD_ONNKKJJFNME_OFFSET))(this, a1);
+		}
+
+		static ::System::Boolean ANONFIEJIMA(::Il2CppArray<::System::Object*>* a1, ::System::UInt32 a2)
+		{
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Object*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD_ANONFIEJIMA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean AIPBECDIDJE(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::Boolean(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD_AIPBECDIDJE_OFFSET))(a1);
+		}
+
 		::System::Collections::Generic::List_1<::System::UInt32>* NCGNACLNJMF(::System::UInt32 a1)
 		{
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD_NCGNACLNJMF_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GACKEJICMEF(::System::UInt32 a1)
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KKJMAOMDCAE_IGHHCHHPGFD_GACKEJICMEF_OFFSET))(this, a1);
 		}
 
 	};

@@ -6,12 +6,12 @@
 class NGLFOJKOKBH;
 namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 
-#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CURVE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE89C250)
-#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CURVE___C__DISPLAYCLASS2_0__BUILDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xE89C270)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CURVE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD4EC30)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CURVE___C__DISPLAYCLASS2_0__BUILDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1BD4EC50)
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeManager_AreaData_Curve___c__DisplayClass2_0_TypeDefinitionIndex = 48888;
+	inline static constexpr unsigned int OctreeManager_AreaData_Curve___c__DisplayClass2_0_TypeDefinitionIndex = 49945;
 
 	class OctreeManager_AreaData_Curve___c__DisplayClass2_0 : public ::System::Object
 	{

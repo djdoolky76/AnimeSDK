@@ -10,13 +10,13 @@ namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4A3C0)
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC47DD0)
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC47080)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED35E70)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1ED33880)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED32B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniversalHotFixTaskConfig_TypeDefinitionIndex = 23354;
+	inline static constexpr unsigned int UniversalHotFixTaskConfig_TypeDefinitionIndex = 23796;
 
 	class UniversalHotFixTaskConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,11 +4,11 @@ namespace RPG::Client::ScreenSpaceGPUParticles { class ScreenSpaceGPUParticlesEm
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GPUParticlesRenderer; }
 
-#define RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0xE09E560)
+#define RPG_CLIENT_SCREENSPACEGPUPARTICLES_SCREENSPACEGPUPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C099640)
 
 namespace RPG::Client::ScreenSpaceGPUParticles
 {
-	inline static constexpr unsigned int ScreenSpaceGPUParticles_TypeDefinitionIndex = 73704;
+	inline static constexpr unsigned int ScreenSpaceGPUParticles_TypeDefinitionIndex = 75827;
 
 	class ScreenSpaceGPUParticles
 	{

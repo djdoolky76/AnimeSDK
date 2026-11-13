@@ -4,10 +4,10 @@
 class OCIECNDOAKF;
 namespace RPG::GameCore { class TextJoinConfigRow; }
 
-#define PJPFMNKCHCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC296C70)
-#define PJPFMNKCHCN_KIGIDKAFKEG_OFFSET UNITYSDK_OFFSET(0xC296B90)
+#define PJPFMNKCHCN_CTOR_OFFSET UNITYSDK_OFFSET(0x147A2020)
+#define PJPFMNKCHCN_KIGIDKAFKEG_OFFSET UNITYSDK_OFFSET(0x147A1F40)
 
-inline static constexpr unsigned int PJPFMNKCHCN_TypeDefinitionIndex = 74385;
+inline static constexpr unsigned int PJPFMNKCHCN_TypeDefinitionIndex = 76533;
 
 	class PJPFMNKCHCN : public ::System::Object
 	{

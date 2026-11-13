@@ -8,12 +8,12 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebHeaderCollection; }
 
-#define SYSTEM_NET_WEBCONNECTIONDATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0664E0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F060D00)
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1F069A70)
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1F069A50)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1F065630)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1F069A60)
+#define SYSTEM_NET_WEBCONNECTIONDATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CF5FC60)
+#define SYSTEM_NET_WEBCONNECTIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF5A3A0)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1CF631B0)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1CF63190)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1CF5ED80)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1CF631A0)
 
 namespace System::Net
 {
@@ -23,14 +23,14 @@ namespace System::Net
 	{
 	public:
 		::System::Version* Version; // 0x10
-		::System::String* StatusDescription; // 0x18
-		::System::Net::WebHeaderCollection* Headers; // 0x20
-		::System::IO::Stream* stream; // 0x28
+		::System::Version* ProxyVersion; // 0x18
+		::System::IO::Stream* stream; // 0x20
+		::System::Net::WebHeaderCollection* Headers; // 0x28
 		::System::Net::HttpWebRequest* _request; // 0x30
 		::Il2CppArray<::System::String*>* Challenge; // 0x38
-		::System::Version* ProxyVersion; // 0x40
-		::System::Net::ReadState _readState; // 0x48
-		::System::Int32 StatusCode; // 0x4C
+		::System::String* StatusDescription; // 0x40
+		::System::Int32 StatusCode; // 0x48
+		::System::Net::ReadState _readState; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA_CTOR_OFFSET))(this);

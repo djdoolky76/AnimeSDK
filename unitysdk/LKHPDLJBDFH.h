@@ -10,39 +10,39 @@ namespace RPG::GameCore { class FreeStyleTriggerGraphInfo; }
 namespace RPG::GameCore { class FreeStyleTriggerGraphTemplateConfig; }
 namespace System { class String; }
 
-#define LKHPDLJBDFH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB748C60)
-#define LKHPDLJBDFH_CFALPACOIGA_OFFSET UNITYSDK_OFFSET(0xB748890)
-#define LKHPDLJBDFH_CNELPPNJOEG_OFFSET UNITYSDK_OFFSET(0xB748BB0)
-#define LKHPDLJBDFH_GFOCGLHMLMC_OFFSET UNITYSDK_OFFSET(0xB747960)
-#define LKHPDLJBDFH_GIOLPDJCKMM_OFFSET UNITYSDK_OFFSET(0xB7487E0)
-#define LKHPDLJBDFH_HINAPKNHOJE_OFFSET UNITYSDK_OFFSET(0xB7476B0)
-#define LKHPDLJBDFH_HJOLPIEGCEN_OFFSET UNITYSDK_OFFSET(0xB748B10)
-#define LKHPDLJBDFH_LBOJJBOMKDD_OFFSET UNITYSDK_OFFSET(0xB747760)
-#define LKHPDLJBDFH_PNBMIDHBPLD_OFFSET UNITYSDK_OFFSET(0xB747AD0)
+#define LKHPDLJBDFH_CCTOR_OFFSET UNITYSDK_OFFSET(0x18CF21E0)
+#define LKHPDLJBDFH_CFALPACOIGA_OFFSET UNITYSDK_OFFSET(0x18CF1E10)
+#define LKHPDLJBDFH_CNELPPNJOEG_OFFSET UNITYSDK_OFFSET(0x18CF2130)
+#define LKHPDLJBDFH_GFOCGLHMLMC_OFFSET UNITYSDK_OFFSET(0x18CF0EE0)
+#define LKHPDLJBDFH_GIOLPDJCKMM_OFFSET UNITYSDK_OFFSET(0x18CF1D60)
+#define LKHPDLJBDFH_HINAPKNHOJE_OFFSET UNITYSDK_OFFSET(0x18CF0C30)
+#define LKHPDLJBDFH_HJOLPIEGCEN_OFFSET UNITYSDK_OFFSET(0x18CF2090)
+#define LKHPDLJBDFH_LBOJJBOMKDD_OFFSET UNITYSDK_OFFSET(0x18CF0CE0)
+#define LKHPDLJBDFH_PNBMIDHBPLD_OFFSET UNITYSDK_OFFSET(0x18CF1050)
 
-inline static constexpr unsigned int LKHPDLJBDFH_TypeDefinitionIndex = 57271;
+inline static constexpr unsigned int LKHPDLJBDFH_TypeDefinitionIndex = 58498;
 
 	class LKHPDLJBDFH : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::LRUCache_2<::System::String*, ::FJDDMMEHBLE*>** StaticGet_AOAPMGJGHOC()
+		static ::RPG::GameCore::FreeStyleCharacterIDMappingConfig** StaticGet_HLGKFCGLCPG()
 		{
-			return (::RPG::Client::LRUCache_2<::System::String*, ::FJDDMMEHBLE*>**)UnitySDK::FromName("", "LKHPDLJBDFH")->GetStaticField(0x698E0);
+			return (::RPG::GameCore::FreeStyleCharacterIDMappingConfig**)UnitySDK::FromName("", "LKHPDLJBDFH")->GetStaticField(0x6EF40);
 		}
 
 		static ::RPG::Client::LRUCache_2<::System::String*, ::RPG::GameCore::FreeStyleTriggerGraphTemplateConfig*>** StaticGet_EOLPHFHNKMI()
 		{
-			return (::RPG::Client::LRUCache_2<::System::String*, ::RPG::GameCore::FreeStyleTriggerGraphTemplateConfig*>**)UnitySDK::FromName("", "LKHPDLJBDFH")->GetStaticField(0x698E8);
+			return (::RPG::Client::LRUCache_2<::System::String*, ::RPG::GameCore::FreeStyleTriggerGraphTemplateConfig*>**)UnitySDK::FromName("", "LKHPDLJBDFH")->GetStaticField(0x6EF48);
 		}
 
 		static ::System::String** StaticGet_HABAOLGJMBI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "LKHPDLJBDFH")->GetStaticField(0x698F0);
+			return (::System::String**)UnitySDK::FromName("", "LKHPDLJBDFH")->GetStaticField(0x6EF50);
 		}
 
-		static ::RPG::GameCore::FreeStyleCharacterIDMappingConfig** StaticGet_HLGKFCGLCPG()
+		static ::RPG::Client::LRUCache_2<::System::String*, ::FJDDMMEHBLE*>** StaticGet_AOAPMGJGHOC()
 		{
-			return (::RPG::GameCore::FreeStyleCharacterIDMappingConfig**)UnitySDK::FromName("", "LKHPDLJBDFH")->GetStaticField(0x698F8);
+			return (::RPG::Client::LRUCache_2<::System::String*, ::FJDDMMEHBLE*>**)UnitySDK::FromName("", "LKHPDLJBDFH")->GetStaticField(0x6EF58);
 		}
 
 		static ::System::Void _cctor()

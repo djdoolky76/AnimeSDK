@@ -4,16 +4,16 @@
 class CDEONHDIGJG;
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
-#define CDEONHDIGJG___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7630D0)
-#define CDEONHDIGJG___C__DISPLAYCLASS13_0___TRYDESTORYMODIFIEREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC763310)
+#define CDEONHDIGJG___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x173ADC10)
+#define CDEONHDIGJG___C__DISPLAYCLASS13_0___TRYDESTORYMODIFIEREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x173ADE50)
 
-inline static constexpr unsigned int CDEONHDIGJG___c__DisplayClass13_0_TypeDefinitionIndex = 53743;
+inline static constexpr unsigned int CDEONHDIGJG___c__DisplayClass13_0_TypeDefinitionIndex = 54907;
 
 	class CDEONHDIGJG___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::CDEONHDIGJG* __4__this; // 0x10
-		::RPG::GameCore::BaseModifierInstance_ModifierEffectData* effectData; // 0x18
+		::RPG::GameCore::BaseModifierInstance_ModifierEffectData* effectData; // 0x10
+		::CDEONHDIGJG* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CDEONHDIGJG___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);

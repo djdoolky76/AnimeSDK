@@ -3,44 +3,44 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_DEFINES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8C0F40)
-#define HOUDINIENGINEUNITY_HEU_DEFINES_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C0F30)
+#define HOUDINIENGINEUNITY_HEU_DEFINES_CCTOR_OFFSET UNITYSDK_OFFSET(0x175E8F70)
+#define HOUDINIENGINEUNITY_HEU_DEFINES_CTOR_OFFSET UNITYSDK_OFFSET(0x175E8F60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Defines_TypeDefinitionIndex = 40433;
+	inline static constexpr unsigned int HEU_Defines_TypeDefinitionIndex = 41408;
 
 	class HEU_Defines : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_HEU_PLUGIN_PATH()
+		static ::System::String** StaticGet_HEU_BAKED_ASSETS_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x5BF70);
+			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x61A90);
 		}
 
 		static ::System::String** StaticGet_HEU_TEXTURES_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x5BF78);
-		}
-
-		static ::System::String** StaticGet_HEU_BAKED_ASSETS_PATH()
-		{
-			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x5BF80);
+			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x61A98);
 		}
 
 		static ::System::String** StaticGet_HEU_ENGINE_ASSETS()
 		{
-			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x5BF88);
+			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x61AA0);
 		}
 
-		static ::System::Int32* StaticGet_EDITABLE_MATERIAL_KEY()
+		static ::System::String** StaticGet_HEU_PLUGIN_PATH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x13DA0);
+			return (::System::String**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x61AA8);
 		}
 
 		static ::System::Int32* StaticGet_DEFAULT_MATERIAL_KEY()
 		{
-			return (::System::Int32*)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x13DA4);
+			return (::System::Int32*)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x14180);
+		}
+
+		static ::System::Int32* StaticGet_EDITABLE_MATERIAL_KEY()
+		{
+			return (::System::Int32*)UnitySDK::FromName("HoudiniEngineUnity", "HEU_Defines")->GetStaticField(0x14184);
 		}
 
 		// static const ::System::String* HEU_PRODUCT_NAME; // 0x0

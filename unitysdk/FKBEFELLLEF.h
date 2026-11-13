@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DrinkMakerCheersCancelMakerDrinkAfterPerformance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FKBEFELLLEF_CTOR_OFFSET UNITYSDK_OFFSET(0x157DA5E0)
-#define FKBEFELLLEF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157DA610)
+#define FKBEFELLLEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA90030)
+#define FKBEFELLLEF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AA90060)
 
-inline static constexpr unsigned int FKBEFELLLEF_TypeDefinitionIndex = 58088;
+inline static constexpr unsigned int FKBEFELLLEF_TypeDefinitionIndex = 59327;
 
 	class FKBEFELLLEF
 	{

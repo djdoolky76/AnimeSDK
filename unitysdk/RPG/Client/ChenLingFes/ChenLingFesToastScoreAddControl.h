@@ -8,14 +8,14 @@ namespace UnityEngine::UI { class ContentSizeFitter; }
 namespace UnityEngine::UI { class HorizontalLayoutGroup; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xCAC2C00)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCAC2BD0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCAC2780)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCAC2680)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC93AA0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC93A70)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1CC93620)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1CC93520)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesToastScoreAddControl_TypeDefinitionIndex = 81360;
+	inline static constexpr unsigned int ChenLingFesToastScoreAddControl_TypeDefinitionIndex = 84140;
 
 	class ChenLingFesToastScoreAddControl : public ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl
 	{
@@ -27,7 +27,7 @@ namespace RPG::Client::ChenLingFes
 		::UnityEngine::RectTransform* _ContentRect; // 0x78
 		static ::UnityEngine::Color* StaticGet__NumInitialColor()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client.ChenLingFes", "ChenLingFesToastScoreAddControl")->GetStaticField(0x15A60);
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client.ChenLingFes", "ChenLingFesToastScoreAddControl")->GetStaticField(0x15F80);
 		}
 
 		// static const ::System::String* PREFAB_PATH; // 0x0

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TravelShipPowerSprint; }
 
-#define PJLBOLGHINE_CTOR_OFFSET UNITYSDK_OFFSET(0xC2920D0)
-#define PJLBOLGHINE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2920E0)
-#define PJLBOLGHINE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC292180)
-#define PJLBOLGHINE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2921D0)
-#define PJLBOLGHINE_TICK_OFFSET UNITYSDK_OFFSET(0xC292120)
+#define PJLBOLGHINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1479D2E0)
+#define PJLBOLGHINE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1479D2F0)
+#define PJLBOLGHINE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1479D390)
+#define PJLBOLGHINE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1479D3E0)
+#define PJLBOLGHINE_TICK_OFFSET UNITYSDK_OFFSET(0x1479D330)
 
-inline static constexpr unsigned int PJLBOLGHINE_TypeDefinitionIndex = 53440;
+inline static constexpr unsigned int PJLBOLGHINE_TypeDefinitionIndex = 54602;
 
 	class PJLBOLGHINE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TravelShipPowerSprint* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::TravelShipPowerSprint* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TravelShipPowerSprint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TravelShipPowerSprint*))((::PBYTE)hIl2Cpp + PJLBOLGHINE_CTOR_OFFSET))(this, a1, a2);

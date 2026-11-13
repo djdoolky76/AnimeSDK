@@ -3,7 +3,7 @@
 
 namespace RPGTools::RoadGenerator
 {
-	inline static constexpr unsigned int CurveCreateMode_TypeDefinitionIndex = 48862;
+	inline static constexpr unsigned int CurveCreateMode_TypeDefinitionIndex = 49908;
 
 	enum class CurveCreateMode : ::System::Int32
 	{

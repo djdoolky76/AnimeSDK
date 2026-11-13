@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ParallelConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PARALLELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BF5A0)
-#define RPG_GAMECORE_PARALLELCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8BF5B0)
-#define RPG_GAMECORE_PARALLELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8BF570)
+#define RPG_GAMECORE_PARALLELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F141640)
+#define RPG_GAMECORE_PARALLELCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F141650)
+#define RPG_GAMECORE_PARALLELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F141610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelConfig_TypeDefinitionIndex = 23781;
+	inline static constexpr unsigned int ParallelConfig_TypeDefinitionIndex = 24237;
 
 	class ParallelConfig : public ::RPG::GameCore::CompositeConfig
 	{

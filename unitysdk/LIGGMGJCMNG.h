@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ConvinceSplitLine; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LIGGMGJCMNG_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C4A80)
-#define LIGGMGJCMNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6C4AB0)
+#define LIGGMGJCMNG_CTOR_OFFSET UNITYSDK_OFFSET(0x172DFEE0)
+#define LIGGMGJCMNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172DFF10)
 
-inline static constexpr unsigned int LIGGMGJCMNG_TypeDefinitionIndex = 52714;
+inline static constexpr unsigned int LIGGMGJCMNG_TypeDefinitionIndex = 53858;
 
 	class LIGGMGJCMNG
 	{

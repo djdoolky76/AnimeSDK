@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class TalkSimpleData; }
 
-#define RPG_CLIENT_TALKSIMPLEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xE19EA70)
-#define RPG_CLIENT_TALKSIMPLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE19E960)
-#define RPG_CLIENT_TALKSIMPLEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE19EA60)
+#define RPG_CLIENT_TALKSIMPLEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1C5BEF40)
+#define RPG_CLIENT_TALKSIMPLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C5BEE30)
+#define RPG_CLIENT_TALKSIMPLEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BEF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkSimpleData_TypeDefinitionIndex = 68043;
+	inline static constexpr unsigned int TalkSimpleData_TypeDefinitionIndex = 69989;
 
 	class TalkSimpleData : public ::System::Object
 	{
 	public:
-		::System::UInt32 VoiceID; // 0x10
-		::System::UInt32 TalkSentenceID; // 0x14
+		::System::UInt32 TalkSentenceID; // 0x10
+		::System::UInt32 VoiceID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKSIMPLEDATA_CTOR_OFFSET))(this);

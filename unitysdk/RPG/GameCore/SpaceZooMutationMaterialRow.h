@@ -4,21 +4,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpaceZooMutationMaterialRow; }
 
-#define RPG_GAMECORE_SPACEZOOMUTATIONMATERIALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC96D0)
-#define RPG_GAMECORE_SPACEZOOMUTATIONMATERIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAC8FE0)
+#define RPG_GAMECORE_SPACEZOOMUTATIONMATERIALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E39CA10)
+#define RPG_GAMECORE_SPACEZOOMUTATIONMATERIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E39C360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooMutationMaterialRow_TypeDefinitionIndex = 12366;
+	inline static constexpr unsigned int SpaceZooMutationMaterialRow_TypeDefinitionIndex = 12433;
 
 	class SpaceZooMutationMaterialRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* FeatureConditionList; // 0x10
-		::Il2CppArray<::System::UInt32>* ChangeChannelList; // 0x18
+		::Il2CppArray<::System::UInt32>* ChangeChannelList; // 0x10
+		::Il2CppArray<::System::UInt32>* FeatureConditionList; // 0x18
 		::Il2CppArray<::System::UInt32>* ChangeFeatureList; // 0x20
-		::System::UInt32 ItemID; // 0x28
-		::System::UInt32 UnlockMissionID; // 0x2C
+		::System::UInt32 UnlockMissionID; // 0x28
+		::System::UInt32 ItemID; // 0x2C
 		::System::UInt32 ExchangeCost; // 0x30
 		::System::Void _ctor()
 		{

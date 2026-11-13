@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define CJNOAEEPECN_CTOR_OFFSET UNITYSDK_OFFSET(0xD4D00A0)
+#define CJNOAEEPECN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD32760)
 
-inline static constexpr unsigned int CJNOAEEPECN_TypeDefinitionIndex = 61136;
+inline static constexpr unsigned int CJNOAEEPECN_TypeDefinitionIndex = 62521;
 
 	class CJNOAEEPECN : public ::System::Exception
 	{

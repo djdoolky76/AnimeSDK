@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::ConstValueMapping::Converter
 {
-	inline static constexpr unsigned int IDynamicValueConverter_1_TypeDefinitionIndex = 43897;
+	inline static constexpr unsigned int IDynamicValueConverter_1_TypeDefinitionIndex = 44972;
 
 	template <typename T>
 	class IDynamicValueConverter_1

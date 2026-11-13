@@ -4,18 +4,18 @@
 class AJDPPONBABG;
 namespace System { class Object; }
 
-#define AJDPPONBABG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E393000)
-#define AJDPPONBABG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E393040)
-#define AJDPPONBABG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E393050)
+#define AJDPPONBABG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2062FD00)
+#define AJDPPONBABG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2062FD40)
+#define AJDPPONBABG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2062FD50)
 
-inline static constexpr unsigned int AJDPPONBABG___c_TypeDefinitionIndex = 35126;
+inline static constexpr unsigned int AJDPPONBABG___c_TypeDefinitionIndex = 36054;
 
 	class AJDPPONBABG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D800);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31990);
 		}
 
 		static ::System::Void _cctor()

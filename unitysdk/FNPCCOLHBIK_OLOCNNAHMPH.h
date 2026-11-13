@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define FNPCCOLHBIK_OLOCNNAHMPH_CTOR_OFFSET UNITYSDK_OFFSET(0x158D0EB0)
+#define FNPCCOLHBIK_OLOCNNAHMPH_CTOR_OFFSET UNITYSDK_OFFSET(0x17F3ADD0)
 
-inline static constexpr unsigned int FNPCCOLHBIK_OLOCNNAHMPH_TypeDefinitionIndex = 60266;
+inline static constexpr unsigned int FNPCCOLHBIK_OLOCNNAHMPH_TypeDefinitionIndex = 61550;
 
 	class FNPCCOLHBIK_OLOCNNAHMPH : public ::System::Object
 	{

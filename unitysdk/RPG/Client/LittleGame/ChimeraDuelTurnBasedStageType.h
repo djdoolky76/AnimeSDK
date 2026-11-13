@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraDuelTurnBasedStageType_TypeDefinitionIndex = 41965;
+	inline static constexpr unsigned int ChimeraDuelTurnBasedStageType_TypeDefinitionIndex = 42940;
 
 	enum class ChimeraDuelTurnBasedStageType : ::System::Int32
 	{

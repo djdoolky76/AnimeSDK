@@ -6,29 +6,29 @@ namespace RPG::Client { class GridFightRole; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FALOGMPHKKH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15678380)
-#define FALOGMPHKKH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156783C0)
-#define FALOGMPHKKH___C__GET_ISVALID_B__5_0_OFFSET UNITYSDK_OFFSET(0x156783D0)
-#define FALOGMPHKKH___C__GET_ISVALID_B__5_1_OFFSET UNITYSDK_OFFSET(0x15678490)
+#define FALOGMPHKKH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA30B60)
+#define FALOGMPHKKH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA30BA0)
+#define FALOGMPHKKH___C__GET_ISVALID_B__5_0_OFFSET UNITYSDK_OFFSET(0x1BA30BB0)
+#define FALOGMPHKKH___C__GET_ISVALID_B__5_1_OFFSET UNITYSDK_OFFSET(0x1BA30C70)
 
-inline static constexpr unsigned int FALOGMPHKKH___c_TypeDefinitionIndex = 65178;
+inline static constexpr unsigned int FALOGMPHKKH___c_TypeDefinitionIndex = 66875;
 
 	class FALOGMPHKKH___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightProjection*, ::System::Boolean>** StaticGet___9__5_1()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightProjection*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51B00);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51B08);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F410);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51B10);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F418);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightProjection*, ::System::Boolean>** StaticGet___9__5_1()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightProjection*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F420);
 		}
 
 		static ::System::Void _cctor()

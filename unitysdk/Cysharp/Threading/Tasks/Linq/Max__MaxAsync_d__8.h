@@ -8,25 +8,25 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_MAX__MAXASYNC_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5ECE0)
-#define CYSHARP_THREADING_TASKS_LINQ_MAX__MAXASYNC_D__8_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define CYSHARP_THREADING_TASKS_LINQ_MAX__MAXASYNC_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3F29370)
+#define CYSHARP_THREADING_TASKS_LINQ_MAX__MAXASYNC_D__8_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xB480)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Max__MaxAsync_d__8_TypeDefinitionIndex = 45441;
+	inline static constexpr unsigned int Max__MaxAsync_d__8_TypeDefinitionIndex = 46470;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	struct alignas(8) Max__MaxAsync_d__8
 	{
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x18
-		::System::Object* __u__1; // 0x28
-		::System::Byte _padding0[0x8];
-		::System::Object* __7__wrap3; // 0x38
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Int64>* _e_5__3; // 0x40
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Int64> __t__builder; // 0x48
-		::System::Byte _padding1[0x10];
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Int64>* source; // 0x60
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Int64>* _e_5__3; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Int64> __t__builder; // 0x18
+		::System::Byte _padding0[0x10];
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Int64>* source; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x38
+		::System::Threading::CancellationToken cancellationToken; // 0x48
+		::System::Object* __7__wrap3; // 0x50
+		::System::Object* __u__1; // 0x58
+		::System::Byte _padding1[0x8];
 		::System::Int32 __1__state; // 0x68
 		::System::Int32 __7__wrap4; // 0x6C
 		::System::Int64 _value_5__2; // 0x70

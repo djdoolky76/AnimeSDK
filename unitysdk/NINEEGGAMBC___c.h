@@ -4,18 +4,18 @@
 class NINEEGGAMBC;
 namespace System { class Object; }
 
-#define NINEEGGAMBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB0AA10)
-#define NINEEGGAMBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0AA50)
-#define NINEEGGAMBC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB0AA60)
+#define NINEEGGAMBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EACE320)
+#define NINEEGGAMBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EACE360)
+#define NINEEGGAMBC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EACE370)
 
-inline static constexpr unsigned int NINEEGGAMBC___c_TypeDefinitionIndex = 31979;
+inline static constexpr unsigned int NINEEGGAMBC___c_TypeDefinitionIndex = 32892;
 
 	class NINEEGGAMBC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68580);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66020);
 		}
 
 		static ::System::Void _cctor()

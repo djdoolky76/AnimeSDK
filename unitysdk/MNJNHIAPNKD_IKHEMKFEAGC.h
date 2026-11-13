@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class BattleInstance; }
 
-#define MNJNHIAPNKD_IKHEMKFEAGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0A400)
+#define MNJNHIAPNKD_IKHEMKFEAGC_CTOR_OFFSET UNITYSDK_OFFSET(0x18939BE0)
 
-inline static constexpr unsigned int MNJNHIAPNKD_IKHEMKFEAGC_TypeDefinitionIndex = 71951;
+inline static constexpr unsigned int MNJNHIAPNKD_IKHEMKFEAGC_TypeDefinitionIndex = 73975;
 
 	class MNJNHIAPNKD_IKHEMKFEAGC : public ::System::Object
 	{

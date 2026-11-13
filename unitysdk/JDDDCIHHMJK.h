@@ -5,10 +5,10 @@
 class DLNGPHPNPAN;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JDDDCIHHMJK_CTOR_OFFSET UNITYSDK_OFFSET(0x165B0370)
-#define JDDDCIHHMJK_IHCMPLNLICP_OFFSET UNITYSDK_OFFSET(0x165B0380)
+#define JDDDCIHHMJK_CTOR_OFFSET UNITYSDK_OFFSET(0x16981B80)
+#define JDDDCIHHMJK_IHCMPLNLICP_OFFSET UNITYSDK_OFFSET(0x16981B90)
 
-inline static constexpr unsigned int JDDDCIHHMJK_TypeDefinitionIndex = 74778;
+inline static constexpr unsigned int JDDDCIHHMJK_TypeDefinitionIndex = 76932;
 
 	class JDDDCIHHMJK : public ::ONNMFEFHFMD
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MHKDMEIDFBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB93ED90)
+#define MHKDMEIDFBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B365E70)
 
-inline static constexpr unsigned int MHKDMEIDFBC_TypeDefinitionIndex = 81269;
+inline static constexpr unsigned int MHKDMEIDFBC_TypeDefinitionIndex = 84049;
 
 	class MHKDMEIDFBC : public ::System::Object
 	{

@@ -10,21 +10,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define OKOHGMMFPLF_KAKCGFHNEEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBEEC3C0)
+#define OKOHGMMFPLF_KAKCGFHNEEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x178928C0)
 
-inline static constexpr unsigned int OKOHGMMFPLF_KAKCGFHNEEJ_TypeDefinitionIndex = 71026;
+inline static constexpr unsigned int OKOHGMMFPLF_KAKCGFHNEEJ_TypeDefinitionIndex = 73005;
 
 	class OKOHGMMFPLF_KAKCGFHNEEJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::Collections::Generic::List_1<::System::Object*>*>* IKNPEONKANB; // 0x10
-		::Il2CppArray<::UnityEngine::Renderer*>* HBDHMCEOMIA; // 0x18
-		::System::Collections::Generic::List_1<::KMMGJIFCBHL>* HNLPIMGCPOP; // 0x20
-		::DEBEAKKOHLN* EGOMDGLJIGG; // 0x28
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::UnityEngine::MaterialPropertyBlock*>* JFALBIAGHEE; // 0x30
-		::System::Collections::Generic::HashSet_1<::UnityEngine::Renderer*>* GJIJLFGEEFC; // 0x38
-		::System::Boolean KHPDMOINFOM; // 0x40
-		::System::Boolean AHKNHOCAKBG; // 0x41
+		::System::Collections::Generic::List_1<::KMMGJIFCBHL>* HNLPIMGCPOP; // 0x10
+		::DEBEAKKOHLN* EGOMDGLJIGG; // 0x18
+		::System::Collections::Generic::HashSet_1<::UnityEngine::Renderer*>* GJIJLFGEEFC; // 0x20
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::Collections::Generic::List_1<::System::Object*>*>* IKNPEONKANB; // 0x28
+		::Il2CppArray<::UnityEngine::Renderer*>* HBDHMCEOMIA; // 0x30
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::UnityEngine::MaterialPropertyBlock*>* JFALBIAGHEE; // 0x38
+		::System::Boolean AHKNHOCAKBG; // 0x40
+		::System::Boolean KHPDMOINFOM; // 0x41
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OKOHGMMFPLF_KAKCGFHNEEJ_CTOR_OFFSET))(this);

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EffectMutexConfigData; }
 
-#define RPG_GAMECORE_EFFECTMUTEXCONFIGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6034E0)
-#define RPG_GAMECORE_EFFECTMUTEXCONFIGDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D603390)
+#define RPG_GAMECORE_EFFECTMUTEXCONFIGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D9FA0)
+#define RPG_GAMECORE_EFFECTMUTEXCONFIGDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D9E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectMutexConfigData_TypeDefinitionIndex = 16488;
+	inline static constexpr unsigned int EffectMutexConfigData_TypeDefinitionIndex = 16652;
 
 	class EffectMutexConfigData : public ::RPG::GameCore::JsonConfig
 	{

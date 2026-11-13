@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Compliance::Ftc::DirectPurchase
 {
-	inline static constexpr unsigned int IFtcDirectPurchaseRepository_TypeDefinitionIndex = 74837;
+	inline static constexpr unsigned int IFtcDirectPurchaseRepository_TypeDefinitionIndex = 77008;
 
 	class IFtcDirectPurchaseRepository
 	{

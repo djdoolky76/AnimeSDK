@@ -4,17 +4,17 @@
 class BMAMHANEEKD;
 namespace System { class String; }
 
-#define BMAMHANEEKD_COMPARETO_OFFSET UNITYSDK_OFFSET(0xBA822E0)
-#define BMAMHANEEKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA82290)
-#define BMAMHANEEKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA82360)
+#define BMAMHANEEKD_COMPARETO_OFFSET UNITYSDK_OFFSET(0x18B610B0)
+#define BMAMHANEEKD_CTOR_OFFSET UNITYSDK_OFFSET(0x18B61060)
+#define BMAMHANEEKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18B61130)
 
-inline static constexpr unsigned int BMAMHANEEKD_TypeDefinitionIndex = 62026;
+inline static constexpr unsigned int BMAMHANEEKD_TypeDefinitionIndex = 63438;
 
 	class BMAMHANEEKD : public ::MAOPBKPKCEK
 	{
 	public:
-		::System::UInt32 OKHLEGENBBJ; // 0x18
-		::System::UInt32 KDDAMPAMLNN; // 0x1C
+		::System::UInt32 KDDAMPAMLNN; // 0x18
+		::System::UInt32 OKHLEGENBBJ; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + BMAMHANEEKD_CTOR_OFFSET))(this, a1, a2);

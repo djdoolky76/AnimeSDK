@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace TMPro { class TMP_SpriteAnimator; }
 namespace TMPro { class TMP_SpriteAsset; }
 
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F1F50)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F2F1FD0)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F2F2DA0)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F2F2E00)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F2F2DB0)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F2F1FA0)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_CTOR_OFFSET UNITYSDK_OFFSET(0x19BC5160)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19BC5200)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19BC5FE0)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19BC6040)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19BC5FF0)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19BC51B0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7_TypeDefinitionIndex = 44634;
+	inline static constexpr unsigned int TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7_TypeDefinitionIndex = 45709;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7 : public ::System::Object
 	{
 	public:
-		::TMPro::TMP_MeshInfo _meshInfo_5__6; // 0x10
-		::TMPro::TMP_CharacterInfo _charInfo_5__3; // 0x60
-		::TMPro::TMP_SpriteAnimator* __4__this; // 0x1D8
-		::System::Object* __2__current; // 0x1E0
+		::TMPro::TMP_CharacterInfo _charInfo_5__3; // 0x10
+		::System::Object* __2__current; // 0x188
+		::TMPro::TMP_MeshInfo _meshInfo_5__6; // 0x190
+		::TMPro::TMP_SpriteAnimator* __4__this; // 0x1E0
 		::TMPro::TMP_SpriteAsset* spriteAsset; // 0x1E8
-		::System::Int32 __1__state; // 0x1F0
-		::System::Int32 currentCharacter; // 0x1F4
-		::System::Single _targetTime_5__9; // 0x1F8
-		::System::Single _elapsedTime_5__8; // 0x1FC
-		::System::Int32 framerate; // 0x200
-		::System::Int32 _currentFrame_5__2; // 0x204
-		::System::Single _baseSpriteScale_5__7; // 0x208
-		::System::Int32 _vertexIndex_5__5; // 0x20C
-		::System::Int32 start; // 0x210
-		::System::Int32 _materialIndex_5__4; // 0x214
-		::System::Int32 end; // 0x218
+		::System::Single _baseSpriteScale_5__7; // 0x1F0
+		::System::Int32 framerate; // 0x1F4
+		::System::Int32 _materialIndex_5__4; // 0x1F8
+		::System::Single _targetTime_5__9; // 0x1FC
+		::System::Int32 currentCharacter; // 0x200
+		::System::Int32 __1__state; // 0x204
+		::System::Single _elapsedTime_5__8; // 0x208
+		::System::Int32 _currentFrame_5__2; // 0x20C
+		::System::Int32 _vertexIndex_5__5; // 0x210
+		::System::Int32 end; // 0x214
+		::System::Int32 start; // 0x218
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_CTOR_OFFSET))(this, a1);

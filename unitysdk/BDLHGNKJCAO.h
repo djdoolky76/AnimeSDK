@@ -7,13 +7,13 @@ namespace RPG::GameCore { class StageAutoGenConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BDLHGNKJCAO_CTOR_OFFSET UNITYSDK_OFFSET(0x162F18F0)
-#define BDLHGNKJCAO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x162F1970)
-#define BDLHGNKJCAO_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x162F1810)
-#define BDLHGNKJCAO_GINEJPKCMAN_OFFSET UNITYSDK_OFFSET(0x162F1A10)
-#define BDLHGNKJCAO_JEAMMEEKNKE_OFFSET UNITYSDK_OFFSET(0x162F1B30)
+#define BDLHGNKJCAO_CTOR_OFFSET UNITYSDK_OFFSET(0x19D9B350)
+#define BDLHGNKJCAO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19D9B3D0)
+#define BDLHGNKJCAO_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x19D9B270)
+#define BDLHGNKJCAO_GINEJPKCMAN_OFFSET UNITYSDK_OFFSET(0x19D9B470)
+#define BDLHGNKJCAO_JEAMMEEKNKE_OFFSET UNITYSDK_OFFSET(0x19D9B590)
 
-inline static constexpr unsigned int BDLHGNKJCAO_TypeDefinitionIndex = 69504;
+inline static constexpr unsigned int BDLHGNKJCAO_TypeDefinitionIndex = 71458;
 
 	class BDLHGNKJCAO : public ::System::Object
 	{
@@ -21,7 +21,7 @@ inline static constexpr unsigned int BDLHGNKJCAO_TypeDefinitionIndex = 69504;
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::IRIFBXLodSizeConfig*>* JKEENOKCDGJ; // 0x10
 		static ::BDLHGNKJCAO** StaticGet_EMLNOINPICJ()
 		{
-			return (::BDLHGNKJCAO**)UnitySDK::FromName("", "BDLHGNKJCAO")->GetStaticField(0x68F00);
+			return (::BDLHGNKJCAO**)UnitySDK::FromName("", "BDLHGNKJCAO")->GetStaticField(0x56970);
 		}
 
 		::System::Void _ctor()

@@ -6,10 +6,10 @@ namespace RPG::Client { class TeamBuildSynopsis; }
 namespace RPG::Client { class TeamModule; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GIKFAOJHKOL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A355A0)
-#define GIKFAOJHKOL___C__DISPLAYCLASS2_0__SYNCTRIALBUILDTOMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x15A356A0)
+#define GIKFAOJHKOL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E5E00)
+#define GIKFAOJHKOL___C__DISPLAYCLASS2_0__SYNCTRIALBUILDTOMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x1A3E5F00)
 
-inline static constexpr unsigned int GIKFAOJHKOL___c__DisplayClass2_0_TypeDefinitionIndex = 61896;
+inline static constexpr unsigned int GIKFAOJHKOL___c__DisplayClass2_0_TypeDefinitionIndex = 63303;
 
 	class GIKFAOJHKOL___c__DisplayClass2_0 : public ::System::Object
 	{

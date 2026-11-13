@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SingleMazeBuffToastConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLEMAZEBUFFTOASTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABDFF0)
-#define RPG_GAMECORE_SINGLEMAZEBUFFTOASTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DABDD90)
+#define RPG_GAMECORE_SINGLEMAZEBUFFTOASTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F70A0)
+#define RPG_GAMECORE_SINGLEMAZEBUFFTOASTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3F6E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleMazeBuffToastConfig_TypeDefinitionIndex = 17634;
+	inline static constexpr unsigned int SingleMazeBuffToastConfig_TypeDefinitionIndex = 17803;
 
 	class SingleMazeBuffToastConfig : public ::RPG::GameCore::JsonConfig
 	{

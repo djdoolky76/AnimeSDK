@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SimulateAvatarLineupConfig; }
 namespace RPG::GameCore { class SimulateLineupConfig; }
 
-#define RPG_GAMECORE_SIMULATELINEUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABD230)
-#define RPG_GAMECORE_SIMULATELINEUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABD140)
+#define RPG_GAMECORE_SIMULATELINEUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F6260)
+#define RPG_GAMECORE_SIMULATELINEUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3F6170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimulateLineupConfig_TypeDefinitionIndex = 18143;
+	inline static constexpr unsigned int SimulateLineupConfig_TypeDefinitionIndex = 18305;
 
 	class SimulateLineupConfig : public ::RPG::GameCore::JsonConfig
 	{

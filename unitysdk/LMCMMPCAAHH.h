@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define LMCMMPCAAHH_CLEAR_OFFSET UNITYSDK_OFFSET(0xB773E30)
-#define LMCMMPCAAHH_CTOR_OFFSET UNITYSDK_OFFSET(0xB773E80)
+#define LMCMMPCAAHH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1AFC40A0)
+#define LMCMMPCAAHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC40F0)
 
-inline static constexpr unsigned int LMCMMPCAAHH_TypeDefinitionIndex = 55690;
+inline static constexpr unsigned int LMCMMPCAAHH_TypeDefinitionIndex = 56892;
 
 	class LMCMMPCAAHH : public ::System::Object
 	{

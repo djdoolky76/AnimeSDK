@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtDefenceValueIncreasement; }
 
-#define RPG_GAMECORE_RTDEFENCEVALUEINCREASEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2F100)
-#define RPG_GAMECORE_RTDEFENCEVALUEINCREASEMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2D6D0)
+#define RPG_GAMECORE_RTDEFENCEVALUEINCREASEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC74110)
+#define RPG_GAMECORE_RTDEFENCEVALUEINCREASEMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC726E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceValueIncreasement_TypeDefinitionIndex = 18061;
+	inline static constexpr unsigned int RtDefenceValueIncreasement_TypeDefinitionIndex = 18227;
 
 	class RtDefenceValueIncreasement : public ::RPG::GameCore::JsonConfig
 	{

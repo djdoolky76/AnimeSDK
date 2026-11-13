@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace System { class Action; }
+namespace System { class Object; }
+
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF241F0)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_FINISH_OFFSET UNITYSDK_OFFSET(0x1DF1BE40)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_GET_ISPAUSED_OFFSET UNITYSDK_OFFSET(0x1DF36C00)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_GET_NEEDSWAITEFFECTBEFORESTART_OFFSET UNITYSDK_OFFSET(0x1DF36C40)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_HANDLE_OFFSET UNITYSDK_OFFSET(0x1DF36C80)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1DF1C400)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_PAUSE_OFFSET UNITYSDK_OFFSET(0x1DF36D40)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_REGISTERFINISHACTION_OFFSET UNITYSDK_OFFSET(0x1DF1DFE0)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_RESUME_OFFSET UNITYSDK_OFFSET(0x1DF36EE0)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION__ONFINISH_OFFSET UNITYSDK_OFFSET(0x1DF370B0)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION__ONSTART_OFFSET UNITYSDK_OFFSET(0x1DF37070)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightPreparationPendingAction_TypeDefinitionIndex = 66715;
+
+	class GridFightPreparationPendingAction : public ::System::Object
+	{
+	public:
+		::System::Action* _OnFinishEvent; // 0x10
+		::System::Boolean _IsFinished; // 0x18
+		::System::Boolean _IsPaused; // 0x19
+		::System::Boolean _IsHandled; // 0x1A
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean IsFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_ISFINISHED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsPaused()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_GET_ISPAUSED_OFFSET))(this);
+		}
+
+		::System::Boolean get_NeedsWaitEffectBeforeStart()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_GET_NEEDSWAITEFFECTBEFORESTART_OFFSET))(this);
+		}
+
+		::System::Void Handle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_HANDLE_OFFSET))(this);
+		}
+
+		::System::Void Finish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_FINISH_OFFSET))(this);
+		}
+
+		::System::Void RegisterFinishAction(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_REGISTERFINISHACTION_OFFSET))(this, a1);
+		}
+
+		::System::Void Pause(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_PAUSE_OFFSET))(this, a1);
+		}
+
+		::System::Void Resume()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION_RESUME_OFFSET))(this);
+		}
+
+		::System::Void _OnStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION__ONSTART_OFFSET))(this);
+		}
+
+		::System::Void _OnFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONPENDINGACTION__ONFINISH_OFFSET))(this);
+		}
+
+	};
+}

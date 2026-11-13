@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define BNFHFJMLEMO_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xBDC7730)
-#define BNFHFJMLEMO_CCLOABELDPG_OFFSET UNITYSDK_OFFSET(0xBDC7320)
-#define BNFHFJMLEMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC84F0)
-#define BNFHFJMLEMO_FINOLDPFEOO_OFFSET UNITYSDK_OFFSET(0xBDC75C0)
-#define BNFHFJMLEMO_IDPFIMKAMDN_OFFSET UNITYSDK_OFFSET(0xBDC7EB0)
-#define BNFHFJMLEMO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBDC8060)
-#define BNFHFJMLEMO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBDC7AD0)
+#define BNFHFJMLEMO_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x1A75E1A0)
+#define BNFHFJMLEMO_CCLOABELDPG_OFFSET UNITYSDK_OFFSET(0x1A75DD90)
+#define BNFHFJMLEMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A75EF80)
+#define BNFHFJMLEMO_FINOLDPFEOO_OFFSET UNITYSDK_OFFSET(0x1A75E030)
+#define BNFHFJMLEMO_IDPFIMKAMDN_OFFSET UNITYSDK_OFFSET(0x1A75E920)
+#define BNFHFJMLEMO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1A75EAD0)
+#define BNFHFJMLEMO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1A75E540)
 
-inline static constexpr unsigned int BNFHFJMLEMO_TypeDefinitionIndex = 49265;
+inline static constexpr unsigned int BNFHFJMLEMO_TypeDefinitionIndex = 50341;
 
 	class BNFHFJMLEMO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* HMKHIAFJIOM; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* LCILLAHPLGC; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* JHCNCBIIPGF; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* LCILLAHPLGC; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* HMKHIAFJIOM; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_CTOR_OFFSET))(this);

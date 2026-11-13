@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfBehaviorState; }
 namespace RPG::GameCore { class ElfBehaviorStateConfig; }
 
-#define RPG_GAMECORE_ELFBEHAVIORSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D606190)
-#define RPG_GAMECORE_ELFBEHAVIORSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6060E0)
+#define RPG_GAMECORE_ELFBEHAVIORSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DCC40)
+#define RPG_GAMECORE_ELFBEHAVIORSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DCB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfBehaviorStateConfig_TypeDefinitionIndex = 18500;
+	inline static constexpr unsigned int ElfBehaviorStateConfig_TypeDefinitionIndex = 18660;
 
 	class ElfBehaviorStateConfig : public ::RPG::GameCore::JsonConfig
 	{

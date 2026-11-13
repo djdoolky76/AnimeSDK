@@ -7,31 +7,31 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC5D760)
-#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5D7A0)
-#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C__REQUESTREDPOINT_B__21_0_OFFSET UNITYSDK_OFFSET(0x1BC5D800)
-#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C__SIGNCOMBOBODY_B__16_0_OFFSET UNITYSDK_OFFSET(0x1BC5D7B0)
+#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x185E2FE0)
+#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x185E3020)
+#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C__REQUESTREDPOINT_B__21_0_OFFSET UNITYSDK_OFFSET(0x185E3080)
+#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C__SIGNCOMBOBODY_B__16_0_OFFSET UNITYSDK_OFFSET(0x185E3030)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ComboManager___c_TypeDefinitionIndex = 8970;
+	inline static constexpr unsigned int ComboManager___c_TypeDefinitionIndex = 8979;
 
 	class ComboManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::String*>** StaticGet___9__16_0()
-		{
-			return (::System::Comparison_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x55800);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x55808);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x3FAC0);
 		}
 
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__21_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x55810);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x3FAC8);
+		}
+
+		static ::System::Comparison_1<::System::String*>** StaticGet___9__16_0()
+		{
+			return (::System::Comparison_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x3FAD0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByStanceCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CHKIGOMLMKB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF4D800)
-#define CHKIGOMLMKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF4D8E0)
+#define CHKIGOMLMKB_CTOR_OFFSET UNITYSDK_OFFSET(0x16E21DB0)
+#define CHKIGOMLMKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E21E90)
 
-inline static constexpr unsigned int CHKIGOMLMKB_TypeDefinitionIndex = 55469;
+inline static constexpr unsigned int CHKIGOMLMKB_TypeDefinitionIndex = 56657;
 
 	class CHKIGOMLMKB
 	{

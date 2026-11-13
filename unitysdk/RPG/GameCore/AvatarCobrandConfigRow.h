@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarCobrandConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DFE00)
-#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DFC20)
+#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC50C0)
+#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEC4EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarCobrandConfigRow_TypeDefinitionIndex = 12705;
+	inline static constexpr unsigned int AvatarCobrandConfigRow_TypeDefinitionIndex = 12772;
 
 	class AvatarCobrandConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* OffStateName; // 0x10
-		::System::String* OnStateName; // 0x18
-		::System::String* StateGroupName; // 0x20
+		::System::String* StateGroupName; // 0x10
+		::System::String* OffStateName; // 0x18
+		::System::String* OnStateName; // 0x20
 		::System::String* AudioLanguage; // 0x28
 		::System::UInt32 ID; // 0x30
 		::System::Void _ctor()

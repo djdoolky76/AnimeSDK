@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleSwallow; }
 
-#define NDDCCIPGCFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C901AF0)
-#define NDDCCIPGCFH_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C915F20)
+#define NDDCCIPGCFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C266C80)
+#define NDDCCIPGCFH_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C27B580)
 
-inline static constexpr unsigned int NDDCCIPGCFH_TypeDefinitionIndex = 43121;
+inline static constexpr unsigned int NDDCCIPGCFH_TypeDefinitionIndex = 44102;
 
 	class NDDCCIPGCFH : public ::BKABEBEPPJK
 	{

@@ -4,18 +4,18 @@
 class DNOLOCILBDG;
 namespace System { class Object; }
 
-#define DNOLOCILBDG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1CDB90)
-#define DNOLOCILBDG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CDBD0)
-#define DNOLOCILBDG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1CDBE0)
+#define DNOLOCILBDG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201EB2B0)
+#define DNOLOCILBDG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201EB2F0)
+#define DNOLOCILBDG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x201EB300)
 
-inline static constexpr unsigned int DNOLOCILBDG___c_TypeDefinitionIndex = 35011;
+inline static constexpr unsigned int DNOLOCILBDG___c_TypeDefinitionIndex = 35939;
 
 	class DNOLOCILBDG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37870);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x371E0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_PROMISES_PROMISECANCELLEDEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CBB63A0)
-#define RPG_CLIENT_PROMISES_PROMISECANCELLEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB6340)
+#define RPG_CLIENT_PROMISES_PROMISECANCELLEDEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2093DDA0)
+#define RPG_CLIENT_PROMISES_PROMISECANCELLEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x2093DD40)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseCancelledException_TypeDefinitionIndex = 9900;
+	inline static constexpr unsigned int PromiseCancelledException_TypeDefinitionIndex = 9908;
 
 	class PromiseCancelledException : public ::System::Exception
 	{

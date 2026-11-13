@@ -4,15 +4,15 @@
 #include "unitysdk/VLB/VolumetricDustParticles_ParticleType.h"
 namespace UnityEngine { class ParticleSystem; }
 
-#define VLB_VOLUMETRICDUSTPARTICLES_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9E8FC0)
-#define VLB_VOLUMETRICDUSTPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E8F80)
-#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xE9E8F10)
-#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0xE9E8F30)
-#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xE9E8F20)
+#define VLB_VOLUMETRICDUSTPARTICLES_CCTOR_OFFSET UNITYSDK_OFFSET(0x171529C0)
+#define VLB_VOLUMETRICDUSTPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0x17152980)
+#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0x17152910)
+#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x17152930)
+#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0x17152920)
 
 namespace VLB
 {
-	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 49012;
+	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 50081;
 
 	class VolumetricDustParticles
 	{
@@ -32,7 +32,7 @@ namespace VLB
 		::System::Boolean _isCulled_k__BackingField; // 0x60
 		static ::System::Boolean* StaticGet_isFeatureSupported()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("VLB", "VolumetricDustParticles")->GetStaticField(0x4440);
+			return (::System::Boolean*)UnitySDK::FromName("VLB", "VolumetricDustParticles")->GetStaticField(0x5F00);
 		}
 
 		::System::Void _ctor()

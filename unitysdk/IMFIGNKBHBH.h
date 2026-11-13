@@ -4,9 +4,9 @@
 class MKNPPBCJPCO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IMFIGNKBHBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB4A5E0)
+#define IMFIGNKBHBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC37420)
 
-inline static constexpr unsigned int IMFIGNKBHBH_TypeDefinitionIndex = 42834;
+inline static constexpr unsigned int IMFIGNKBHBH_TypeDefinitionIndex = 43815;
 
 	class IMFIGNKBHBH : public ::System::Object
 	{

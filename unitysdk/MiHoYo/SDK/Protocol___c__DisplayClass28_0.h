@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class Protocol; }
 
-#define MIHOYO_SDK_PROTOCOL___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF80DD0)
-#define MIHOYO_SDK_PROTOCOL___C__DISPLAYCLASS28_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BF82400)
+#define MIHOYO_SDK_PROTOCOL___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF92B20)
+#define MIHOYO_SDK_PROTOCOL___C__DISPLAYCLASS28_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1AF94150)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Protocol___c__DisplayClass28_0_TypeDefinitionIndex = 8249;
+	inline static constexpr unsigned int Protocol___c__DisplayClass28_0_TypeDefinitionIndex = 8258;
 
 	class Protocol___c__DisplayClass28_0 : public ::System::Object
 	{

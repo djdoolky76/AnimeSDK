@@ -7,43 +7,43 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD93ABE0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD93AC10)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__GETTRACKINGENTITYICON_B__65_0_OFFSET UNITYSDK_OFFSET(0xD93AC70)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__GETTRACKINGMISSIONICON_B__66_0_OFFSET UNITYSDK_OFFSET(0xD93ACE0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__HASCHESTICON_B__67_0_OFFSET UNITYSDK_OFFSET(0xD93ADB0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__SORTENTITYICONS_B__59_0_OFFSET UNITYSDK_OFFSET(0xD93AC20)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19E3FB10)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19E3FB40)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__GETTRACKINGENTITYICON_B__65_0_OFFSET UNITYSDK_OFFSET(0x19E3FBA0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__GETTRACKINGMISSIONICON_B__66_0_OFFSET UNITYSDK_OFFSET(0x19E3FC10)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__HASCHESTICON_B__67_0_OFFSET UNITYSDK_OFFSET(0x19E3FCE0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__SORTENTITYICONS_B__59_0_OFFSET UNITYSDK_OFFSET(0x19E3FB50)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int Face___c_TypeDefinitionIndex = 74661;
+	inline static constexpr unsigned int Face___c_TypeDefinitionIndex = 76809;
 
 	class Face___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__59_0()
+		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::MissionIcon*>** StaticGet___9__66_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0x6EF10);
+			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::MissionIcon*>**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0xA290);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__59_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0x6EF18);
+			return (::System::Comparison_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0xA298);
 		}
 
 		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__67_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0x6EF20);
+			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0xA2A0);
 		}
 
 		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__65_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0x6EF28);
+			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0xA2A8);
 		}
 
-		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::MissionIcon*>** StaticGet___9__66_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::MissionIcon*>**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0x6EF30);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap.FiveDim", "<>c")->GetStaticField(0xA2B0);
 		}
 
 		static ::System::Void _cctor()

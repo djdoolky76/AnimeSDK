@@ -8,61 +8,61 @@ namespace RPG::Client { class ActivityBenefitDailyInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3D2720)
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3D2750)
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETFIRSTSELECTTABINDEX_B__6_0_OFFSET UNITYSDK_OFFSET(0xC3D2760)
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETFIRSTSELECTTABINDEX_B__6_1_OFFSET UNITYSDK_OFFSET(0xC3D2770)
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETFIRSTSELECTTABINDEX_B__6_2_OFFSET UNITYSDK_OFFSET(0xC3D2780)
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETLUCKYKOIINFOLIST_B__25_0_OFFSET UNITYSDK_OFFSET(0xC3D2790)
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETLUCKYKOIINFOLIST_B__25_1_OFFSET UNITYSDK_OFFSET(0xC3D27A0)
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETLUCKYKOIINFOLIST_B__25_2_OFFSET UNITYSDK_OFFSET(0xC3D27B0)
-#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETLUCKYKOIINFOLIST_B__25_3_OFFSET UNITYSDK_OFFSET(0xC3D27C0)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B79C8A0)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B79C8D0)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETFIRSTSELECTTABINDEX_B__6_0_OFFSET UNITYSDK_OFFSET(0x1B79C8E0)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETFIRSTSELECTTABINDEX_B__6_1_OFFSET UNITYSDK_OFFSET(0x1B79C8F0)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETFIRSTSELECTTABINDEX_B__6_2_OFFSET UNITYSDK_OFFSET(0x1B79C900)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETLUCKYKOIINFOLIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x1B79C910)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETLUCKYKOIINFOLIST_B__25_1_OFFSET UNITYSDK_OFFSET(0x1B79C920)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETLUCKYKOIINFOLIST_B__25_2_OFFSET UNITYSDK_OFFSET(0x1B79C930)
+#define RPG_CLIENT_ACTIVITYBENEFITMODULE___C__GETLUCKYKOIINFOLIST_B__25_3_OFFSET UNITYSDK_OFFSET(0x1B79C940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitModule___c_TypeDefinitionIndex = 61395;
+	inline static constexpr unsigned int ActivityBenefitModule___c_TypeDefinitionIndex = 62780;
 
 	class ActivityBenefitModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13DD0);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13DD8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11ED0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::RPG::Client::ActivityBenefitDailyInfo*>** StaticGet___9__25_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::RPG::Client::ActivityBenefitDailyInfo*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13DE0);
-		}
-
-		static ::System::Func_2<::NDJDKPMKDJD*, ::RPG::Client::ActivityBenefitLuckyKoiInfo>** StaticGet___9__25_3()
-		{
-			return (::System::Func_2<::NDJDKPMKDJD*, ::RPG::Client::ActivityBenefitLuckyKoiInfo>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13DE8);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::RPG::Client::ActivityBenefitDailyInfo*>** StaticGet___9__6_2()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::RPG::Client::ActivityBenefitDailyInfo*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13DF0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13DF8);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>** StaticGet___9__25_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13E00);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::RPG::Client::ActivityBenefitDailyInfo*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11ED8);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13E08);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11EE0);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11EE8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11EF0);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::RPG::Client::ActivityBenefitDailyInfo*>** StaticGet___9__6_2()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::RPG::Client::ActivityBenefitDailyInfo*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11EF8);
+		}
+
+		static ::System::Func_2<::NDJDKPMKDJD*, ::RPG::Client::ActivityBenefitLuckyKoiInfo>** StaticGet___9__25_3()
+		{
+			return (::System::Func_2<::NDJDKPMKDJD*, ::RPG::Client::ActivityBenefitLuckyKoiInfo>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11F00);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>** StaticGet___9__25_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11F08);
 		}
 
 		static ::System::Void _cctor()

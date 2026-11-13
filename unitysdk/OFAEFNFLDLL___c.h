@@ -5,23 +5,23 @@ namespace RPG::Client { class GridFightRole; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define OFAEFNFLDLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE32380)
-#define OFAEFNFLDLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBE323C0)
-#define OFAEFNFLDLL___C__TOEFFECT_B__0_0_OFFSET UNITYSDK_OFFSET(0xBE323D0)
+#define OFAEFNFLDLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17661670)
+#define OFAEFNFLDLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x176616B0)
+#define OFAEFNFLDLL___C__TOEFFECT_B__0_0_OFFSET UNITYSDK_OFFSET(0x176616C0)
 
-inline static constexpr unsigned int OFAEFNFLDLL___c_TypeDefinitionIndex = 64395;
+inline static constexpr unsigned int OFAEFNFLDLL___c_TypeDefinitionIndex = 65842;
 
 	class OFAEFNFLDLL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60570);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6A0);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60578);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6A8);
 		}
 
 		static ::System::Void _cctor()

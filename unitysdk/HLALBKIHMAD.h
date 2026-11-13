@@ -6,20 +6,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define HLALBKIHMAD_AKAMIKMOPMD_OFFSET UNITYSDK_OFFSET(0x15D4A330)
-#define HLALBKIHMAD_CKPJFFIINAP_OFFSET UNITYSDK_OFFSET(0x15D49F00)
-#define HLALBKIHMAD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4A510)
-#define HLALBKIHMAD_FJPEEFLJEEP_OFFSET UNITYSDK_OFFSET(0x15D49C00)
-#define HLALBKIHMAD_IODILAIIBEP_OFFSET UNITYSDK_OFFSET(0x15D49DA0)
+#define HLALBKIHMAD_AKAMIKMOPMD_OFFSET UNITYSDK_OFFSET(0x19897550)
+#define HLALBKIHMAD_CKPJFFIINAP_OFFSET UNITYSDK_OFFSET(0x19897120)
+#define HLALBKIHMAD_CTOR_OFFSET UNITYSDK_OFFSET(0x19897730)
+#define HLALBKIHMAD_FJPEEFLJEEP_OFFSET UNITYSDK_OFFSET(0x19896E10)
+#define HLALBKIHMAD_IODILAIIBEP_OFFSET UNITYSDK_OFFSET(0x19896FC0)
 
-inline static constexpr unsigned int HLALBKIHMAD_TypeDefinitionIndex = 73335;
+inline static constexpr unsigned int HLALBKIHMAD_TypeDefinitionIndex = 75452;
 
 	class HLALBKIHMAD : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x10
-		::RPG::GameCore::GameEntity* KNMIMHIBENA; // 0x18
-		::UnityEngine::Transform* OIGGFCOBKCG; // 0x20
+		::RPG::GameCore::GameEntity* KNMIMHIBENA; // 0x10
+		::UnityEngine::Transform* OIGGFCOBKCG; // 0x18
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x20
 		::System::Boolean MHEAIOMEGCA; // 0x28
 		::System::Void _ctor()
 		{

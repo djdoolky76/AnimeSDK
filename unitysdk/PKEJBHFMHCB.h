@@ -7,19 +7,19 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PKEJBHFMHCB_CTOR_OFFSET UNITYSDK_OFFSET(0xC2AC560)
-#define PKEJBHFMHCB_DLPJABADHDE_OFFSET UNITYSDK_OFFSET(0xC2AC050)
-#define PKEJBHFMHCB_GET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0xC2AC030)
-#define PKEJBHFMHCB_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xC2AC2B0)
-#define PKEJBHFMHCB_SET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0xC2AC040)
+#define PKEJBHFMHCB_CTOR_OFFSET UNITYSDK_OFFSET(0x147B7BE0)
+#define PKEJBHFMHCB_DLPJABADHDE_OFFSET UNITYSDK_OFFSET(0x147B76D0)
+#define PKEJBHFMHCB_GET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0x147B76B0)
+#define PKEJBHFMHCB_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x147B7930)
+#define PKEJBHFMHCB_SET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0x147B76C0)
 
-inline static constexpr unsigned int PKEJBHFMHCB_TypeDefinitionIndex = 77617;
+inline static constexpr unsigned int PKEJBHFMHCB_TypeDefinitionIndex = 80352;
 
 	class PKEJBHFMHCB : public ::MHALMEEDBAO
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::HBLDGJCDJPF*>*>* PEDAMHCDJGF; // 0x10
-		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* JKLAOBHMFHN; // 0x18
+		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* JKLAOBHMFHN; // 0x10
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::HBLDGJCDJPF*>*>* PEDAMHCDJGF; // 0x18
 		::System::Nullable_1<::System::Int32> _RepeatCount_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{

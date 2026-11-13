@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameplayBubbleType_TypeDefinitionIndex = 78134;
+	inline static constexpr unsigned int CakeRaceGameplayBubbleType_TypeDefinitionIndex = 80869;
 
 	enum class CakeRaceGameplayBubbleType : ::System::Int32
 	{

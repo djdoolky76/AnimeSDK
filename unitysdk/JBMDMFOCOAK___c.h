@@ -4,18 +4,18 @@
 class JBMDMFOCOAK;
 namespace System { class Object; }
 
-#define JBMDMFOCOAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6CD0C0)
-#define JBMDMFOCOAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CD100)
-#define JBMDMFOCOAK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E6CD110)
+#define JBMDMFOCOAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEFDB20)
+#define JBMDMFOCOAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEFDB60)
+#define JBMDMFOCOAK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FEFDB70)
 
-inline static constexpr unsigned int JBMDMFOCOAK___c_TypeDefinitionIndex = 29913;
+inline static constexpr unsigned int JBMDMFOCOAK___c_TypeDefinitionIndex = 30811;
 
 	class JBMDMFOCOAK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59B20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58240);
 		}
 
 		static ::System::Void _cctor()

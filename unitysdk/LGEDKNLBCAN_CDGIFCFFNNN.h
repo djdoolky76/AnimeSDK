@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LGEDKNLBCAN_CDGIFCFFNNN_TypeDefinitionIndex = 27635;
+inline static constexpr unsigned int LGEDKNLBCAN_CDGIFCFFNNN_TypeDefinitionIndex = 28166;
 
 	enum class LGEDKNLBCAN_CDGIFCFFNNN : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		ALPKKNKAFBG = 3,
-		PBCGHKNGBFC = 14,
+		ALPKKNKAFBG = 15,
+		PBCGHKNGBFC = 2,
 		PFOBPLCGGGI = 9,
-		KBPJKIEBBON = 10,
-		KJHMPBOIGGE = 11,
-		FICFIOENBEN = 2,
-		GCKFOOIEHHA = 15,
-		HFOKEKMCOBP = 8,
-		CIFFLEBCFGK = 13,
-		BHPPAPONGOE = 6,
-		NGBAKCIGBMN = 7,
+		KBPJKIEBBON = 3,
+		KJHMPBOIGGE = 8,
+		FICFIOENBEN = 10,
+		GCKFOOIEHHA = 12,
+		HFOKEKMCOBP = 5,
+		CIFFLEBCFGK = 7,
+		BHPPAPONGOE = 1,
+		NGBAKCIGBMN = 13,
 	};

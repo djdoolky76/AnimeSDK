@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueMiracleWithDynamicHint_TypeDefinitionIndex = 67271;
+	inline static constexpr unsigned int IRogueMiracleWithDynamicHint_TypeDefinitionIndex = 69215;
 
 	class IRogueMiracleWithDynamicHint
 	{

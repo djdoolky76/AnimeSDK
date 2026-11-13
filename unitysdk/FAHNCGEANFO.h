@@ -4,9 +4,9 @@
 class HKOEAOPNEAC;
 namespace RPG::Client { class RogueGambleBaseFunc; }
 
-#define FAHNCGEANFO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15670220)
+#define FAHNCGEANFO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1BA280C0)
 
-inline static constexpr unsigned int FAHNCGEANFO_TypeDefinitionIndex = 67225;
+inline static constexpr unsigned int FAHNCGEANFO_TypeDefinitionIndex = 69169;
 
 	class FAHNCGEANFO : public ::System::Object
 	{

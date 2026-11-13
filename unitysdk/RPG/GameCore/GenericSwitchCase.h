@@ -7,13 +7,13 @@ namespace RPG::GameCore { class GenericSwitchCase; }
 namespace RPG::GameCore { class SwitchRefBase; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_GENERICSWITCHCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EFED0)
-#define RPG_GAMECORE_GENERICSWITCHCASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6EFEE0)
-#define RPG_GAMECORE_GENERICSWITCHCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EFEA0)
+#define RPG_GAMECORE_GENERICSWITCHCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED827F0)
+#define RPG_GAMECORE_GENERICSWITCHCASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED82800)
+#define RPG_GAMECORE_GENERICSWITCHCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED827C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GenericSwitchCase_TypeDefinitionIndex = 23770;
+	inline static constexpr unsigned int GenericSwitchCase_TypeDefinitionIndex = 24226;
 
 	class GenericSwitchCase : public ::RPG::GameCore::TaskConfig
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PlayVideoSequence; }
 namespace RPG::GameCore { class VideoSequenceItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYVIDEOSEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9053A0)
-#define RPG_GAMECORE_PLAYVIDEOSEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9053B0)
-#define RPG_GAMECORE_PLAYVIDEOSEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D905370)
+#define RPG_GAMECORE_PLAYVIDEOSEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6F590)
+#define RPG_GAMECORE_PLAYVIDEOSEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF6F5A0)
+#define RPG_GAMECORE_PLAYVIDEOSEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF6F560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayVideoSequence_TypeDefinitionIndex = 21923;
+	inline static constexpr unsigned int PlayVideoSequence_TypeDefinitionIndex = 22314;
 
 	class PlayVideoSequence : public ::RPG::GameCore::TaskConfig
 	{

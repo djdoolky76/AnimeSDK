@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IEPAEJLBHPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CADC070)
+#define IEPAEJLBHPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95A1A0)
 
-inline static constexpr unsigned int IEPAEJLBHPP_TypeDefinitionIndex = 43332;
+inline static constexpr unsigned int IEPAEJLBHPP_TypeDefinitionIndex = 44313;
 
 	class IEPAEJLBHPP : public ::System::Object
 	{

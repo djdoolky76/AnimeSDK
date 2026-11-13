@@ -7,13 +7,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class ModifySPNew; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYSPNEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86B260)
-#define RPG_GAMECORE_MODIFYSPNEW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86B270)
-#define RPG_GAMECORE_MODIFYSPNEW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86B220)
+#define RPG_GAMECORE_MODIFYSPNEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FD840)
+#define RPG_GAMECORE_MODIFYSPNEW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6FD850)
+#define RPG_GAMECORE_MODIFYSPNEW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6FD800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySPNew_TypeDefinitionIndex = 22625;
+	inline static constexpr unsigned int ModifySPNew_TypeDefinitionIndex = 23047;
 
 	class ModifySPNew : public ::RPG::GameCore::TaskConfig
 	{

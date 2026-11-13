@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveGachaAvatarTextRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARTEXTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74E230)
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74E060)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARTEXTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE87080)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE86EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGachaAvatarTextRow_TypeDefinitionIndex = 11776;
+	inline static constexpr unsigned int IdleLiveGachaAvatarTextRow_TypeDefinitionIndex = 11833;
 
 	class IdleLiveGachaAvatarTextRow : public ::System::Object
 	{

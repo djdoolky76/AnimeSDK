@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class ChangeMonsterUIDisplay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFEICGEJNLL_CTOR_OFFSET UNITYSDK_OFFSET(0x15F002F0)
-#define IFEICGEJNLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F00320)
+#define IFEICGEJNLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC08230)
+#define IFEICGEJNLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BC08260)
 
-inline static constexpr unsigned int IFEICGEJNLL_TypeDefinitionIndex = 54928;
+inline static constexpr unsigned int IFEICGEJNLL_TypeDefinitionIndex = 56100;
 
 	class IFEICGEJNLL : public ::ODDAPNFHBCN
 	{

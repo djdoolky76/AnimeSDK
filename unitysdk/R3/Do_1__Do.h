@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Do_1__Do_TypeDefinitionIndex = 35942;
+	inline static constexpr unsigned int Do_1__Do_TypeDefinitionIndex = 36870;
 
 	template <typename T>
 	class Do_1__Do

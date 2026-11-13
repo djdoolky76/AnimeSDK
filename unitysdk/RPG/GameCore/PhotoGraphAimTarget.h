@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PhotoGraphAimTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PHOTOGRAPHAIMTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E2180)
-#define RPG_GAMECORE_PHOTOGRAPHAIMTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E2190)
-#define RPG_GAMECORE_PHOTOGRAPHAIMTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E2150)
+#define RPG_GAMECORE_PHOTOGRAPHAIMTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE50AA0)
+#define RPG_GAMECORE_PHOTOGRAPHAIMTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE50AB0)
+#define RPG_GAMECORE_PHOTOGRAPHAIMTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE50A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAimTarget_TypeDefinitionIndex = 21660;
+	inline static constexpr unsigned int PhotoGraphAimTarget_TypeDefinitionIndex = 22048;
 
 	class PhotoGraphAimTarget : public ::RPG::GameCore::TaskConfig
 	{

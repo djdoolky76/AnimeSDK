@@ -5,25 +5,25 @@ class OGGELMMFPKP;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROUNDSETTLEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE064030)
-#define RPG_CLIENT_ROUNDSETTLEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE064070)
-#define RPG_CLIENT_ROUNDSETTLEINFO___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xE064080)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD13820)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD13860)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1AD13870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoundSettleInfo___c_TypeDefinitionIndex = 61441;
+	inline static constexpr unsigned int RoundSettleInfo___c_TypeDefinitionIndex = 62826;
 
 	class RoundSettleInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::OGGELMMFPKP*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::OGGELMMFPKP*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B9E0);
+			return (::System::Func_2<::OGGELMMFPKP*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x733C0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B9E8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x733C8);
 		}
 
 		static ::System::Void _cctor()

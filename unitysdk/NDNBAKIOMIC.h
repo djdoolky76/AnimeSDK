@@ -4,17 +4,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define NDNBAKIOMIC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4CF70)
-#define NDNBAKIOMIC_GET_STRINGPARAMS_OFFSET UNITYSDK_OFFSET(0xBB4CF60)
-#define NDNBAKIOMIC_GET_UINTPARAMS_OFFSET UNITYSDK_OFFSET(0xBB4CF50)
+#define NDNBAKIOMIC_CTOR_OFFSET UNITYSDK_OFFSET(0x16FCBFF0)
+#define NDNBAKIOMIC_GET_STRINGPARAMS_OFFSET UNITYSDK_OFFSET(0x16FCBFE0)
+#define NDNBAKIOMIC_GET_UINTPARAMS_OFFSET UNITYSDK_OFFSET(0x16FCBFD0)
 
-inline static constexpr unsigned int NDNBAKIOMIC_TypeDefinitionIndex = 64353;
+inline static constexpr unsigned int NDNBAKIOMIC_TypeDefinitionIndex = 65800;
 
 	class NDNBAKIOMIC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _UintParams_k__BackingField; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::System::String*>* _StringParams_k__BackingField; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::System::String*>* _StringParams_k__BackingField; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _UintParams_k__BackingField; // 0x18
 		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>*))((::PBYTE)hIl2Cpp + NDNBAKIOMIC_CTOR_OFFSET))(this, a1, a2);

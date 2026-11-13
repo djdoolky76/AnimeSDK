@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NANHNCFECGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C906960)
+#define NANHNCFECGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C26BAF0)
 
-inline static constexpr unsigned int NANHNCFECGJ_TypeDefinitionIndex = 42455;
+inline static constexpr unsigned int NANHNCFECGJ_TypeDefinitionIndex = 43430;
 
 	class NANHNCFECGJ : public ::System::Object
 	{

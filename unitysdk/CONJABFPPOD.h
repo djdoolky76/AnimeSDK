@@ -6,10 +6,10 @@ class CONJABFPPOD;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define CONJABFPPOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8DBC0)
-#define CONJABFPPOD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC8DAB0)
+#define CONJABFPPOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8EDC0)
+#define CONJABFPPOD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB8ECB0)
 
-inline static constexpr unsigned int CONJABFPPOD_TypeDefinitionIndex = 11544;
+inline static constexpr unsigned int CONJABFPPOD_TypeDefinitionIndex = 11595;
 
 	class CONJABFPPOD : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int IAmbientVolumne_TypeDefinitionIndex = 37578;
+	inline static constexpr unsigned int IAmbientVolumne_TypeDefinitionIndex = 38506;
 
 	class IAmbientVolumne
 	{

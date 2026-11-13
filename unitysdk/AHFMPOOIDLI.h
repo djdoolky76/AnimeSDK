@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define AHFMPOOIDLI_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7B570)
+#define AHFMPOOIDLI_CTOR_OFFSET UNITYSDK_OFFSET(0x19B20AF0)
 
-inline static constexpr unsigned int AHFMPOOIDLI_TypeDefinitionIndex = 61270;
+inline static constexpr unsigned int AHFMPOOIDLI_TypeDefinitionIndex = 62655;
 
 	class AHFMPOOIDLI : public ::System::Exception
 	{

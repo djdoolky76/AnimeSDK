@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowCableUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MCNIJAKJEBL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8824E0)
-#define MCNIJAKJEBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB882510)
+#define MCNIJAKJEBL_CTOR_OFFSET UNITYSDK_OFFSET(0x183BF250)
+#define MCNIJAKJEBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x183BF280)
 
-inline static constexpr unsigned int MCNIJAKJEBL_TypeDefinitionIndex = 58623;
+inline static constexpr unsigned int MCNIJAKJEBL_TypeDefinitionIndex = 59888;
 
 	class MCNIJAKJEBL
 	{

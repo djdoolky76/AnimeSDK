@@ -3,7 +3,7 @@
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int LLKJMAGEOEK_TypeDefinitionIndex = 49974;
+inline static constexpr unsigned int LLKJMAGEOEK_TypeDefinitionIndex = 51022;
 
 	class LLKJMAGEOEK
 	{

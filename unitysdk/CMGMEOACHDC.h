@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-inline static constexpr unsigned int CMGMEOACHDC_TypeDefinitionIndex = 44263;
+inline static constexpr unsigned int CMGMEOACHDC_TypeDefinitionIndex = 45338;
 
 	class CMGMEOACHDC : public ::System::MulticastDelegate
 	{

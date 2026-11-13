@@ -5,23 +5,23 @@ namespace RPG::Client { class MonoClockParkStoryCharacter; }
 namespace RPG::GameCore { class ClockParkStoryCharacterTriggerAnimState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HEPKLBCNDOO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C57A70)
-#define HEPKLBCNDOO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C57A80)
-#define HEPKLBCNDOO_DNCFBGANPCD_OFFSET UNITYSDK_OFFSET(0x15C57EF0)
-#define HEPKLBCNDOO_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x15C57AD0)
-#define HEPKLBCNDOO_ONSKIP_OFFSET UNITYSDK_OFFSET(0x15C57AE0)
-#define HEPKLBCNDOO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C58000)
-#define HEPKLBCNDOO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C581D0)
-#define HEPKLBCNDOO_TICK_OFFSET UNITYSDK_OFFSET(0x15C57C30)
+#define HEPKLBCNDOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A20E300)
+#define HEPKLBCNDOO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A20E310)
+#define HEPKLBCNDOO_DNCFBGANPCD_OFFSET UNITYSDK_OFFSET(0x1A20E780)
+#define HEPKLBCNDOO_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x1A20E360)
+#define HEPKLBCNDOO_ONSKIP_OFFSET UNITYSDK_OFFSET(0x1A20E370)
+#define HEPKLBCNDOO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A20E890)
+#define HEPKLBCNDOO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A20EA60)
+#define HEPKLBCNDOO_TICK_OFFSET UNITYSDK_OFFSET(0x1A20E4C0)
 
-inline static constexpr unsigned int HEPKLBCNDOO_TypeDefinitionIndex = 52689;
+inline static constexpr unsigned int HEPKLBCNDOO_TypeDefinitionIndex = 53796;
 
 	class HEPKLBCNDOO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::MonoClockParkStoryCharacter* PFECGMGNMEN; // 0x18
-		::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState* IGHAHBNLIJA; // 0x20
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::Client::MonoClockParkStoryCharacter* PFECGMGNMEN; // 0x20
+		::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState* IGHAHBNLIJA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState*))((::PBYTE)hIl2Cpp + HEPKLBCNDOO_CTOR_OFFSET))(this, a1, a2);

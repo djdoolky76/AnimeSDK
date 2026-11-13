@@ -5,12 +5,12 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveGemFly; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveRewardFlyService; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYSERVICE___C__DISPLAYCLASS63_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4E89C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYSERVICE___C__DISPLAYCLASS63_0___SHOWGEMREWARDFLY_B__0_OFFSET UNITYSDK_OFFSET(0xC4E8A60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYSERVICE___C__DISPLAYCLASS63_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D0820)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYSERVICE___C__DISPLAYCLASS63_0___SHOWGEMREWARDFLY_B__0_OFFSET UNITYSDK_OFFSET(0x1D6D08C0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveRewardFlyService___c__DisplayClass63_0_TypeDefinitionIndex = 75314;
+	inline static constexpr unsigned int IdleLiveRewardFlyService___c__DisplayClass63_0_TypeDefinitionIndex = 77641;
 
 	class IdleLiveRewardFlyService___c__DisplayClass63_0 : public ::System::Object
 	{

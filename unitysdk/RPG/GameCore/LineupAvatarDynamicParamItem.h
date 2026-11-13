@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicParam; }
 namespace RPG::GameCore { class LineupAvatarDynamicParamItem; }
 
-#define RPG_GAMECORE_LINEUPAVATARDYNAMICPARAMITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A7800)
-#define RPG_GAMECORE_LINEUPAVATARDYNAMICPARAMITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A76B0)
+#define RPG_GAMECORE_LINEUPAVATARDYNAMICPARAMITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2566D0)
+#define RPG_GAMECORE_LINEUPAVATARDYNAMICPARAMITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F256580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupAvatarDynamicParamItem_TypeDefinitionIndex = 18125;
+	inline static constexpr unsigned int LineupAvatarDynamicParamItem_TypeDefinitionIndex = 18287;
 
 	class LineupAvatarDynamicParamItem : public ::RPG::GameCore::JsonConfig
 	{

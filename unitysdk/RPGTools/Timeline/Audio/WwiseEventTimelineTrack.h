@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8A83E0)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A85E0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1E3D6440)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D6640)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseEventTimelineTrack_TypeDefinitionIndex = 48839;
+	inline static constexpr unsigned int WwiseEventTimelineTrack_TypeDefinitionIndex = 49885;
 
 	class WwiseEventTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

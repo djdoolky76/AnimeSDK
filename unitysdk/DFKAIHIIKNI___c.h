@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DFKAIHIIKNI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE826130)
-#define DFKAIHIIKNI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE826170)
-#define DFKAIHIIKNI___C__GET_DESC_B__2_0_OFFSET UNITYSDK_OFFSET(0xE826180)
+#define DFKAIHIIKNI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B396590)
+#define DFKAIHIIKNI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3965D0)
+#define DFKAIHIIKNI___C__GET_DESC_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B3965E0)
 
-inline static constexpr unsigned int DFKAIHIIKNI___c_TypeDefinitionIndex = 79666;
+inline static constexpr unsigned int DFKAIHIIKNI___c_TypeDefinitionIndex = 82443;
 
 	class DFKAIHIIKNI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63070);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EAA0);
 		}
 
 		static ::System::Func_2<::FKLECLLJCEH*, ::System::String*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::FKLECLLJCEH*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63078);
+			return (::System::Func_2<::FKLECLLJCEH*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EAA8);
 		}
 
 		static ::System::Void _cctor()

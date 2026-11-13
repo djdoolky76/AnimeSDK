@@ -4,21 +4,21 @@ class DEEGAJPPPBG;
 namespace RPG::GameCore { class ST_Side_MuteVision; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPPMNFFLANH_CTOR_OFFSET UNITYSDK_OFFSET(0xB82FEA0)
-#define LPPMNFFLANH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB82FF60)
-#define LPPMNFFLANH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB830000)
-#define LPPMNFFLANH_PFINFACFMKI_OFFSET UNITYSDK_OFFSET(0xB830050)
-#define LPPMNFFLANH_TICK_OFFSET UNITYSDK_OFFSET(0xB830110)
+#define LPPMNFFLANH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CA060)
+#define LPPMNFFLANH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B6CA120)
+#define LPPMNFFLANH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B6CA1C0)
+#define LPPMNFFLANH_PFINFACFMKI_OFFSET UNITYSDK_OFFSET(0x1B6CA210)
+#define LPPMNFFLANH_TICK_OFFSET UNITYSDK_OFFSET(0x1B6CA2D0)
 
-inline static constexpr unsigned int LPPMNFFLANH_TypeDefinitionIndex = 52240;
+inline static constexpr unsigned int LPPMNFFLANH_TypeDefinitionIndex = 53346;
 
 	class LPPMNFFLANH
 	{
 	public:
 		::DEEGAJPPPBG* HLGFDFNJILI; // 0x28
 		::System::Single PGMIOKKLHIE; // 0x30
-		::System::Boolean PNPLGMGKDBP; // 0x34
-		::System::Boolean JJKCNLBCNHN; // 0x35
+		::System::Boolean JJKCNLBCNHN; // 0x34
+		::System::Boolean PNPLGMGKDBP; // 0x35
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_MuteVision* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Side_MuteVision*))((::PBYTE)hIl2Cpp + LPPMNFFLANH_CTOR_OFFSET))(this, a1, a2);

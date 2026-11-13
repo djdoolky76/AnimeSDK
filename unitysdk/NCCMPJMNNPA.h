@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NCCMPJMNNPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9155D0)
+#define NCCMPJMNNPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27AC50)
 
-inline static constexpr unsigned int NCCMPJMNNPA_TypeDefinitionIndex = 42349;
+inline static constexpr unsigned int NCCMPJMNNPA_TypeDefinitionIndex = 43324;
 
 	class NCCMPJMNNPA : public ::System::Object
 	{

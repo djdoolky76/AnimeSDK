@@ -4,18 +4,18 @@
 class DONHOEBBNNG;
 namespace System { class Object; }
 
-#define DONHOEBBNNG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1D80C0)
-#define DONHOEBBNNG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D80F0)
-#define DONHOEBBNNG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E1D8100)
+#define DONHOEBBNNG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F75F650)
+#define DONHOEBBNNG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F75F680)
+#define DONHOEBBNNG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F75F690)
 
-inline static constexpr unsigned int DONHOEBBNNG___c_TypeDefinitionIndex = 30244;
+inline static constexpr unsigned int DONHOEBBNNG___c_TypeDefinitionIndex = 31146;
 
 	class DONHOEBBNNG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x382D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39270);
 		}
 
 		static ::System::Void _cctor()

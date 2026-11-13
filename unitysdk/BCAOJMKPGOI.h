@@ -6,19 +6,19 @@ class EDFANOKAAPJ;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BCAOJMKPGOI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E94110)
-#define BCAOJMKPGOI_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x15E94930)
-#define BCAOJMKPGOI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E94820)
-#define BCAOJMKPGOI_KELLMBGNIJE_OFFSET UNITYSDK_OFFSET(0x15E94B30)
-#define BCAOJMKPGOI_MMAEFKBHOOH_OFFSET UNITYSDK_OFFSET(0x15E94BE0)
+#define BCAOJMKPGOI_CTOR_OFFSET UNITYSDK_OFFSET(0x19D6ED10)
+#define BCAOJMKPGOI_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x19D6F530)
+#define BCAOJMKPGOI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19D6F420)
+#define BCAOJMKPGOI_KELLMBGNIJE_OFFSET UNITYSDK_OFFSET(0x19D6F730)
+#define BCAOJMKPGOI_MMAEFKBHOOH_OFFSET UNITYSDK_OFFSET(0x19D6F7E0)
 
-inline static constexpr unsigned int BCAOJMKPGOI_TypeDefinitionIndex = 50057;
+inline static constexpr unsigned int BCAOJMKPGOI_TypeDefinitionIndex = 51105;
 
 	class BCAOJMKPGOI : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Collections::Generic::HashSet_1<::EDFANOKAAPJ*>*>* IDJPMKDPMKJ; // 0x10
-		::System::Collections::Generic::List_1<::EDFANOKAAPJ*>* ECIKLDGMMNJ; // 0x18
+		::System::Collections::Generic::List_1<::EDFANOKAAPJ*>* ECIKLDGMMNJ; // 0x10
+		::Il2CppArray<::System::Collections::Generic::HashSet_1<::EDFANOKAAPJ*>*>* IDJPMKDPMKJ; // 0x18
 		::System::Boolean IKCCLIAIGCL; // 0x20
 		::System::Void _ctor()
 		{

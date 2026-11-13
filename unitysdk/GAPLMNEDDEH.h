@@ -4,17 +4,17 @@
 class LBJLBMOOJGM;
 namespace System { template <typename T> class Action_1; }
 
-#define GAPLMNEDDEH_CCTOR_OFFSET UNITYSDK_OFFSET(0x15939DA0)
-#define GAPLMNEDDEH_PDBFIPDHACD_OFFSET UNITYSDK_OFFSET(0x15939D10)
+#define GAPLMNEDDEH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8756D0)
+#define GAPLMNEDDEH_PDBFIPDHACD_OFFSET UNITYSDK_OFFSET(0x1B875640)
 
-inline static constexpr unsigned int GAPLMNEDDEH_TypeDefinitionIndex = 49768;
+inline static constexpr unsigned int GAPLMNEDDEH_TypeDefinitionIndex = 50816;
 
 	class GAPLMNEDDEH : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::LBJLBMOOJGM*>** StaticGet_BEJJCPGEMIG()
 		{
-			return (::System::Action_1<::LBJLBMOOJGM*>**)UnitySDK::FromName("", "GAPLMNEDDEH")->GetStaticField(0x56BE0);
+			return (::System::Action_1<::LBJLBMOOJGM*>**)UnitySDK::FromName("", "GAPLMNEDDEH")->GetStaticField(0x59550);
 		}
 
 		static ::System::Void _cctor()

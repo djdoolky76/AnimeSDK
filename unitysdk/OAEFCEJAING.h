@@ -3,10 +3,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/HGBCMFANCOE.h"
 
-#define OAEFCEJAING_CTOR_OFFSET UNITYSDK_OFFSET(0x3C309A0)
-#define OAEFCEJAING_NPIIEBDOBAE_OFFSET UNITYSDK_OFFSET(0x3C30A70)
+#define OAEFCEJAING_CTOR_OFFSET UNITYSDK_OFFSET(0x3F0F350)
+#define OAEFCEJAING_NPIIEBDOBAE_OFFSET UNITYSDK_OFFSET(0x3F0F420)
 
-inline static constexpr unsigned int OAEFCEJAING_TypeDefinitionIndex = 43445;
+inline static constexpr unsigned int OAEFCEJAING_TypeDefinitionIndex = 44427;
 
 	struct alignas(4) OAEFCEJAING
 	{

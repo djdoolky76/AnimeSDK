@@ -6,11 +6,11 @@ namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorSubVersionProp
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORCATEGORYSUBVERSION_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A0450)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORCATEGORYSUBVERSION_CTOR_OFFSET UNITYSDK_OFFSET(0x18265190)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorCategorySubVersion_TypeDefinitionIndex = 52072;
+	inline static constexpr unsigned int EnvEditorCategorySubVersion_TypeDefinitionIndex = 53177;
 
 	class EnvEditorCategorySubVersion : public ::System::Object
 	{

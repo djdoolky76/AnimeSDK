@@ -5,21 +5,21 @@
 class OOAJJMEGIFO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DKMEDMFIDEA_CTOR_OFFSET UNITYSDK_OFFSET(0xF884670)
-#define DKMEDMFIDEA_GCMLDLLJGDJ_OFFSET UNITYSDK_OFFSET(0xF8845B0)
-#define DKMEDMFIDEA_JOFFCDIHLIK_OFFSET UNITYSDK_OFFSET(0xF8845F0)
-#define DKMEDMFIDEA_LLEHLNAOELI_OFFSET UNITYSDK_OFFSET(0xF884630)
-#define DKMEDMFIDEA_MDKIONKAKON_OFFSET UNITYSDK_OFFSET(0xF884570)
+#define DKMEDMFIDEA_CTOR_OFFSET UNITYSDK_OFFSET(0x18C22830)
+#define DKMEDMFIDEA_GCMLDLLJGDJ_OFFSET UNITYSDK_OFFSET(0x18C22770)
+#define DKMEDMFIDEA_JOFFCDIHLIK_OFFSET UNITYSDK_OFFSET(0x18C227B0)
+#define DKMEDMFIDEA_LLEHLNAOELI_OFFSET UNITYSDK_OFFSET(0x18C227F0)
+#define DKMEDMFIDEA_MDKIONKAKON_OFFSET UNITYSDK_OFFSET(0x18C22730)
 
-inline static constexpr unsigned int DKMEDMFIDEA_TypeDefinitionIndex = 61918;
+inline static constexpr unsigned int DKMEDMFIDEA_TypeDefinitionIndex = 63330;
 
 	class DKMEDMFIDEA : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::OOAJJMEGIFO*>* JEELPKHNHAE; // 0x10
-		::OOAJJMEGIFO* GINDHBFCHJP; // 0x18
-		::System::UInt32 KGEAHKJKNHB; // 0x20
-		::RPG::GameCore::ActivitySummonDifficulty IPGNDOIMBMN; // 0x24
+		::OOAJJMEGIFO* GINDHBFCHJP; // 0x10
+		::System::Collections::Generic::List_1<::OOAJJMEGIFO*>* JEELPKHNHAE; // 0x18
+		::RPG::GameCore::ActivitySummonDifficulty IPGNDOIMBMN; // 0x20
+		::System::UInt32 KGEAHKJKNHB; // 0x24
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::ActivitySummonDifficulty a2, ::OOAJJMEGIFO* a3, ::System::Collections::Generic::List_1<::OOAJJMEGIFO*>* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ActivitySummonDifficulty, ::OOAJJMEGIFO*, ::System::Collections::Generic::List_1<::OOAJJMEGIFO*>*))((::PBYTE)hIl2Cpp + DKMEDMFIDEA_CTOR_OFFSET))(this, a1, a2, a3, a4);

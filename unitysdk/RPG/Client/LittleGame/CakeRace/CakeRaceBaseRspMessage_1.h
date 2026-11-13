@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceBaseRspMessage_1_TypeDefinitionIndex = 78053;
+	inline static constexpr unsigned int CakeRaceBaseRspMessage_1_TypeDefinitionIndex = 80788;
 
 	template <typename T>
 	class CakeRaceBaseRspMessage_1 : public ::BHCEEHPIGFL

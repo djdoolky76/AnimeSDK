@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDDATASTORAGE___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6F8F0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDDATASTORAGE___C__DISPLAYCLASS11_0__GETCLIPBOARDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1BE71290)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDDATASTORAGE___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C327470)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDDATASTORAGE___C__DISPLAYCLASS11_0__GETCLIPBOARDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1C328DE0)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int CloudDataStorage___c__DisplayClass11_0_TypeDefinitionIndex = 9133;
+	inline static constexpr unsigned int CloudDataStorage___c__DisplayClass11_0_TypeDefinitionIndex = 9142;
 
 	class CloudDataStorage___c__DisplayClass11_0 : public ::System::Object
 	{

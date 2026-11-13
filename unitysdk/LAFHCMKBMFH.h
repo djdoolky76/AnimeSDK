@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GKPDKBNFDGM;
 
-#define LAFHCMKBMFH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D94E0)
-#define LAFHCMKBMFH_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xB5D9470)
+#define LAFHCMKBMFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B27D430)
+#define LAFHCMKBMFH_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0x1B27D3C0)
 
-inline static constexpr unsigned int LAFHCMKBMFH_TypeDefinitionIndex = 61955;
+inline static constexpr unsigned int LAFHCMKBMFH_TypeDefinitionIndex = 63367;
 
 	class LAFHCMKBMFH : public ::System::Object
 	{

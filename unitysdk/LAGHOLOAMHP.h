@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/AdvancedFollowType.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int LAGHOLOAMHP_TypeDefinitionIndex = 53540;
+inline static constexpr unsigned int LAGHOLOAMHP_TypeDefinitionIndex = 54703;
 
 	struct alignas(8) LAGHOLOAMHP
 	{

@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace UnityEngine { class Object; }
 
-#define JHOEALGPJGB_CMMLLEFOFFK_OFFSET UNITYSDK_OFFSET(0x1EC4BF10)
-#define JHOEALGPJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3B710)
-#define JHOEALGPJGB_IAOBNBCAAIB_OFFSET UNITYSDK_OFFSET(0x1EC4B0B0)
-#define JHOEALGPJGB_OIGBGHMDMLL_OFFSET UNITYSDK_OFFSET(0x1EC4B830)
+#define JHOEALGPJGB_CMMLLEFOFFK_OFFSET UNITYSDK_OFFSET(0x1E535AA0)
+#define JHOEALGPJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E525250)
+#define JHOEALGPJGB_IAOBNBCAAIB_OFFSET UNITYSDK_OFFSET(0x1E534C40)
+#define JHOEALGPJGB_OIGBGHMDMLL_OFFSET UNITYSDK_OFFSET(0x1E5353C0)
 
-inline static constexpr unsigned int JHOEALGPJGB_TypeDefinitionIndex = 44112;
+inline static constexpr unsigned int JHOEALGPJGB_TypeDefinitionIndex = 45187;
 
 	class JHOEALGPJGB : public ::System::Object
 	{

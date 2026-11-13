@@ -11,41 +11,41 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define IAJGGEMFOMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E06510)
-#define IAJGGEMFOMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E06550)
-#define IAJGGEMFOMB___C___CTOR_B__57_11_OFFSET UNITYSDK_OFFSET(0x15E06580)
-#define IAJGGEMFOMB___C___CTOR_B__57_3_OFFSET UNITYSDK_OFFSET(0x15E06560)
-#define IAJGGEMFOMB___C___GETBUFFAFFECTINGCELLS_B__63_0_OFFSET UNITYSDK_OFFSET(0x15E065B0)
-#define IAJGGEMFOMB___C___GETBUFFAFFECTINGCELLS_B__63_1_OFFSET UNITYSDK_OFFSET(0x15E06620)
+#define IAJGGEMFOMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19426C60)
+#define IAJGGEMFOMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19426CA0)
+#define IAJGGEMFOMB___C___CTOR_B__57_11_OFFSET UNITYSDK_OFFSET(0x19426CD0)
+#define IAJGGEMFOMB___C___CTOR_B__57_3_OFFSET UNITYSDK_OFFSET(0x19426CB0)
+#define IAJGGEMFOMB___C___GETBUFFAFFECTINGCELLS_B__63_0_OFFSET UNITYSDK_OFFSET(0x19426D00)
+#define IAJGGEMFOMB___C___GETBUFFAFFECTINGCELLS_B__63_1_OFFSET UNITYSDK_OFFSET(0x19426D70)
 
-inline static constexpr unsigned int IAJGGEMFOMB___c_TypeDefinitionIndex = 79480;
+inline static constexpr unsigned int IAJGGEMFOMB___c_TypeDefinitionIndex = 82257;
 
 	class IAJGGEMFOMB___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::DIGCDGKOBMK*, ::FBKKFMONGAA*>** StaticGet___9__63_0()
+		static ::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>** StaticGet___9__63_1()
 		{
-			return (::System::Func_2<::DIGCDGKOBMK*, ::FBKKFMONGAA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37FC0);
-		}
-
-		static ::System::Func_4<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean, ::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean>>** StaticGet___9__57_11()
-		{
-			return (::System::Func_4<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean, ::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37FC8);
+			return (::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F3E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37FD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F3E8);
+		}
+
+		static ::System::Func_4<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean, ::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean>>** StaticGet___9__57_11()
+		{
+			return (::System::Func_4<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean, ::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F3F0);
+		}
+
+		static ::System::Func_2<::DIGCDGKOBMK*, ::FBKKFMONGAA*>** StaticGet___9__63_0()
+		{
+			return (::System::Func_2<::DIGCDGKOBMK*, ::FBKKFMONGAA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F3F8);
 		}
 
 		static ::System::Func_3<::PLHLAIJKMOD, ::System::Boolean, ::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean>>** StaticGet___9__57_3()
 		{
-			return (::System::Func_3<::PLHLAIJKMOD, ::System::Boolean, ::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37FD8);
-		}
-
-		static ::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>** StaticGet___9__63_1()
-		{
-			return (::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37FE0);
+			return (::System::Func_3<::PLHLAIJKMOD, ::System::Boolean, ::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F400);
 		}
 
 		static ::System::Void _cctor()

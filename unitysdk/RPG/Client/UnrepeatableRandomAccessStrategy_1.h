@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UnrepeatableRandomAccessStrategy_1_TypeDefinitionIndex = 59962;
+	inline static constexpr unsigned int UnrepeatableRandomAccessStrategy_1_TypeDefinitionIndex = 61246;
 
 	template <typename T>
 	class UnrepeatableRandomAccessStrategy_1 : public ::System::Object

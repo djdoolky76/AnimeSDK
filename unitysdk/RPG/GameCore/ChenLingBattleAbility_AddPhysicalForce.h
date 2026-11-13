@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleAbility_AddPhysicalForce; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ADDPHYSICALFORCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D551720)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ADDPHYSICALFORCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D551730)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ADDPHYSICALFORCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5516D0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ADDPHYSICALFORCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F352C30)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ADDPHYSICALFORCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F352C40)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ADDPHYSICALFORCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F352BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_AddPhysicalForce_TypeDefinitionIndex = 15735;
+	inline static constexpr unsigned int ChenLingBattleAbility_AddPhysicalForce_TypeDefinitionIndex = 15893;
 
 	class ChenLingBattleAbility_AddPhysicalForce : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

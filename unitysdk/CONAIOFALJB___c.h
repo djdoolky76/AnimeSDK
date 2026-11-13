@@ -5,23 +5,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define CONAIOFALJB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCB8EF0)
-#define CONAIOFALJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB8F30)
-#define CONAIOFALJB___C__ISFOCUSED_B__3_0_OFFSET UNITYSDK_OFFSET(0xDCB8F40)
+#define CONAIOFALJB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19169DD0)
+#define CONAIOFALJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19169E10)
+#define CONAIOFALJB___C__ISFOCUSED_B__3_0_OFFSET UNITYSDK_OFFSET(0x19169E20)
 
-inline static constexpr unsigned int CONAIOFALJB___c_TypeDefinitionIndex = 49830;
+inline static constexpr unsigned int CONAIOFALJB___c_TypeDefinitionIndex = 50878;
 
 	class CONAIOFALJB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x525B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40100);
 		}
 
 		static ::System::Func_2<::System::Action_1<::System::Boolean>*, ::System::Action_1<::System::Boolean>*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Action_1<::System::Boolean>*, ::System::Action_1<::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x525B8);
+			return (::System::Func_2<::System::Action_1<::System::Boolean>*, ::System::Action_1<::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40108);
 		}
 
 		static ::System::Void _cctor()

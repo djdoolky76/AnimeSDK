@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class WhiteBoxFuncCommand; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC79AF0)
-#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC79B30)
-#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC79A90)
+#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0x20807470)
+#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x208074B0)
+#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20807410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WhiteBoxFuncCommand_TypeDefinitionIndex = 22814;
+	inline static constexpr unsigned int WhiteBoxFuncCommand_TypeDefinitionIndex = 23237;
 
 	class WhiteBoxFuncCommand : public ::RPG::GameCore::TaskConfig
 	{

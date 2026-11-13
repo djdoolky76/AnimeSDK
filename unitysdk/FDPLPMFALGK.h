@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasStanceWeak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FDPLPMFALGK_CTOR_OFFSET UNITYSDK_OFFSET(0x156D7910)
-#define FDPLPMFALGK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156D7940)
+#define FDPLPMFALGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C03E180)
+#define FDPLPMFALGK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C03E1B0)
 
-inline static constexpr unsigned int FDPLPMFALGK_TypeDefinitionIndex = 54621;
+inline static constexpr unsigned int FDPLPMFALGK_TypeDefinitionIndex = 55787;
 
 	class FDPLPMFALGK
 	{

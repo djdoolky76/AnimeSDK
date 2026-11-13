@@ -4,8 +4,8 @@
 namespace System { class String; }
 namespace System::Security::Cryptography { class HashAlgorithm; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_A149AE361CDC7E3E_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C001FA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_A149AE361CDC7E3E_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1C001B50)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_A149AE361CDC7E3E_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB26560)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_A149AE361CDC7E3E_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1EB260C0)
 
 namespace Mono::Security::Cryptography
 {
@@ -14,24 +14,24 @@ namespace Mono::Security::Cryptography
 	class PKCS1_A149AE361CDC7E3E : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
-		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x25490);
-		}
-
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA384()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x25498);
-		}
-
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
-		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x254A0);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x2DED0);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA512()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x254A8);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x2DED8);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x2DEE0);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x2DEE8);
 		}
 
 		static ::System::Void _cctor()

@@ -5,35 +5,35 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define NAKENCHKLAJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA9D2D0)
-#define NAKENCHKLAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9D300)
-#define NAKENCHKLAJ___C___GETMEMBERSTOPARSE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBA9D310)
-#define NAKENCHKLAJ___C___GETMEMBERSTOPARSE_B__1_1_OFFSET UNITYSDK_OFFSET(0xBA9D3D0)
-#define NAKENCHKLAJ___C___GETMEMBERSTOPARSE_B__1_2_OFFSET UNITYSDK_OFFSET(0xBA9D400)
+#define NAKENCHKLAJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAF6820)
+#define NAKENCHKLAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF6850)
+#define NAKENCHKLAJ___C___GETMEMBERSTOPARSE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1BAF6860)
+#define NAKENCHKLAJ___C___GETMEMBERSTOPARSE_B__1_1_OFFSET UNITYSDK_OFFSET(0x1BAF6920)
+#define NAKENCHKLAJ___C___GETMEMBERSTOPARSE_B__1_2_OFFSET UNITYSDK_OFFSET(0x1BAF6950)
 
-inline static constexpr unsigned int NAKENCHKLAJ___c_TypeDefinitionIndex = 67244;
+inline static constexpr unsigned int NAKENCHKLAJ___c_TypeDefinitionIndex = 69188;
 
 	class NAKENCHKLAJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__1_0()
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C5D0);
-		}
-
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>** StaticGet___9__1_2()
-		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C5D8);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16480);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C5E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16488);
 		}
 
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>** StaticGet___9__1_1()
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C5E8);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16490);
+		}
+
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>** StaticGet___9__1_2()
+		{
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16498);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropSetupHitBoxGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DDFGKAPAFJI_CTOR_OFFSET UNITYSDK_OFFSET(0xE25A6A0)
-#define DDFGKAPAFJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE25A6D0)
+#define DDFGKAPAFJI_CTOR_OFFSET UNITYSDK_OFFSET(0x17734CA0)
+#define DDFGKAPAFJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17734CD0)
 
-inline static constexpr unsigned int DDFGKAPAFJI_TypeDefinitionIndex = 58351;
+inline static constexpr unsigned int DDFGKAPAFJI_TypeDefinitionIndex = 59607;
 
 	class DDFGKAPAFJI
 	{

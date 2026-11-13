@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyPhaseRewardRow; }
 
-#define RPG_GAMECORE_MONOPOLYPHASEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D876FE0)
-#define RPG_GAMECORE_MONOPOLYPHASEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D876970)
+#define RPG_GAMECORE_MONOPOLYPHASEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E468150)
+#define RPG_GAMECORE_MONOPOLYPHASEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E467AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyPhaseRewardRow_TypeDefinitionIndex = 12054;
+	inline static constexpr unsigned int MonopolyPhaseRewardRow_TypeDefinitionIndex = 12111;
 
 	class MonopolyPhaseRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ProgressValue; // 0x10
-		::System::UInt32 RewardID; // 0x14
+		::System::UInt32 RewardID; // 0x10
+		::System::UInt32 ProgressValue; // 0x14
 		::System::UInt32 PhaseRewardID; // 0x18
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSONNode_Enumerator_Type_TypeDefinitionIndex = 40670;
+	inline static constexpr unsigned int JSONNode_Enumerator_Type_TypeDefinitionIndex = 41645;
 
 	enum class JSONNode_Enumerator_Type : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExpeditionTeamConfigRow; }
 
-#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D666C70)
-#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D666B50)
+#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC8C110)
+#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1FC8BFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionTeamConfigRow_TypeDefinitionIndex = 13255;
+	inline static constexpr unsigned int ExpeditionTeamConfigRow_TypeDefinitionIndex = 13327;
 
 	class ExpeditionTeamConfigRow : public ::System::Object
 	{

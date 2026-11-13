@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVSETAILEADWAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3804B0)
-#define RPG_GAMECORE_ADVSETAILEADWAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3804F0)
-#define RPG_GAMECORE_ADVSETAILEADWAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D380450)
+#define RPG_GAMECORE_ADVSETAILEADWAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E1E60)
+#define RPG_GAMECORE_ADVSETAILEADWAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8E1EA0)
+#define RPG_GAMECORE_ADVSETAILEADWAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E1E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetAILeadWay_TypeDefinitionIndex = 22200;
+	inline static constexpr unsigned int AdvSetAILeadWay_TypeDefinitionIndex = 22605;
 
 	class AdvSetAILeadWay : public ::RPG::GameCore::TaskConfig
 	{

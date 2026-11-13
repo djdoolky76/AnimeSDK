@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class CIGJBHFHHAD;
 
-#define CIGJBHFHHAD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF69EA0)
-#define CIGJBHFHHAD___C__DISPLAYCLASS2_0___ONGROUPLOADED_B__0_OFFSET UNITYSDK_OFFSET(0xCF6A400)
+#define CIGJBHFHHAD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16E43E70)
+#define CIGJBHFHHAD___C__DISPLAYCLASS2_0___ONGROUPLOADED_B__0_OFFSET UNITYSDK_OFFSET(0x16E443D0)
 
-inline static constexpr unsigned int CIGJBHFHHAD___c__DisplayClass2_0_TypeDefinitionIndex = 57309;
+inline static constexpr unsigned int CIGJBHFHHAD___c__DisplayClass2_0_TypeDefinitionIndex = 58537;
 
 	class CIGJBHFHHAD___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class ABIEGBANPEE;
 namespace System { class Object; }
 
-#define ABIEGBANPEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD9F860)
-#define ABIEGBANPEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD9F890)
-#define ABIEGBANPEE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DD9F8A0)
+#define ABIEGBANPEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2031D130)
+#define ABIEGBANPEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2031D160)
+#define ABIEGBANPEE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2031D170)
 
-inline static constexpr unsigned int ABIEGBANPEE___c_TypeDefinitionIndex = 25482;
+inline static constexpr unsigned int ABIEGBANPEE___c_TypeDefinitionIndex = 25961;
 
 	class ABIEGBANPEE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30CB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x350F0);
 		}
 
 		static ::System::Void _cctor()

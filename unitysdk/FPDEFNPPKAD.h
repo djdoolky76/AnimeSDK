@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TravelShipHideDockMapIcon; }
 
-#define FPDEFNPPKAD_CTOR_OFFSET UNITYSDK_OFFSET(0x159056C0)
-#define FPDEFNPPKAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159056D0)
-#define FPDEFNPPKAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15905770)
-#define FPDEFNPPKAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15905AE0)
-#define FPDEFNPPKAD_TICK_OFFSET UNITYSDK_OFFSET(0x15905710)
+#define FPDEFNPPKAD_CTOR_OFFSET UNITYSDK_OFFSET(0x18773210)
+#define FPDEFNPPKAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18773220)
+#define FPDEFNPPKAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187732C0)
+#define FPDEFNPPKAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18773630)
+#define FPDEFNPPKAD_TICK_OFFSET UNITYSDK_OFFSET(0x18773260)
 
-inline static constexpr unsigned int FPDEFNPPKAD_TypeDefinitionIndex = 53436;
+inline static constexpr unsigned int FPDEFNPPKAD_TypeDefinitionIndex = 54598;
 
 	class FPDEFNPPKAD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TravelShipHideDockMapIcon* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::TravelShipHideDockMapIcon* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TravelShipHideDockMapIcon* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TravelShipHideDockMapIcon*))((::PBYTE)hIl2Cpp + FPDEFNPPKAD_CTOR_OFFSET))(this, a1, a2);

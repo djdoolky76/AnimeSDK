@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphSetSingleTargetUniqueName; }
 namespace RPG::GameCore { class PhotoGraphSetUniqueNameConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E4DD0)
-#define RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E4080)
+#define RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE53660)
+#define RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE52910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphSetUniqueNameConfig_TypeDefinitionIndex = 21627;
+	inline static constexpr unsigned int PhotoGraphSetUniqueNameConfig_TypeDefinitionIndex = 22015;
 
 	class PhotoGraphSetUniqueNameConfig : public ::RPG::GameCore::JsonConfig
 	{

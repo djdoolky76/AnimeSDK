@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD70F520)
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_1__TRYASSISTWAYPOINTONECLICKCOMPLETETRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xD7140A0)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_1_CTOR_OFFSET UNITYSDK_OFFSET(0x19861CE0)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_1__TRYASSISTWAYPOINTONECLICKCOMPLETETRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0x19866040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils___c__DisplayClass10_1_TypeDefinitionIndex = 66195;
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass10_1_TypeDefinitionIndex = 68131;
 
 	template <typename T>
 	class MissionUtils___c__DisplayClass10_1 : public ::System::Object

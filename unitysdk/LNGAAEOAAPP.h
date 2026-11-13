@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LNGAAEOAAPP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0EDAA0)
-#define LNGAAEOAAPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0EE070)
-#define LNGAAEOAAPP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D0EDC10)
-#define LNGAAEOAAPP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D0ED510)
-#define LNGAAEOAAPP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0ED7A0)
-#define LNGAAEOAAPP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0EDCB0)
-#define LNGAAEOAAPP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0EDD00)
-#define LNGAAEOAAPP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0EDAE0)
-#define LNGAAEOAAPP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D0ED740)
-#define LNGAAEOAAPP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D0ED910)
-#define LNGAAEOAAPP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0EDB70)
-#define LNGAAEOAAPP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0ED490)
+#define LNGAAEOAAPP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E417300)
+#define LNGAAEOAAPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4178D0)
+#define LNGAAEOAAPP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E417470)
+#define LNGAAEOAAPP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E416D70)
+#define LNGAAEOAAPP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E417000)
+#define LNGAAEOAAPP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E417510)
+#define LNGAAEOAAPP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E417560)
+#define LNGAAEOAAPP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E417340)
+#define LNGAAEOAAPP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E416FA0)
+#define LNGAAEOAAPP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E417170)
+#define LNGAAEOAAPP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E4173D0)
+#define LNGAAEOAAPP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E416CF0)
 
-inline static constexpr unsigned int LNGAAEOAAPP_TypeDefinitionIndex = 14696;
+inline static constexpr unsigned int LNGAAEOAAPP_TypeDefinitionIndex = 14852;
 
 	class LNGAAEOAAPP : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueCommonDialogueRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueCommonDialogueRow*>**)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0x3D440);
+		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0x3EF40);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0x3D448);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0x3EF48);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueCommonDialogueRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueCommonDialogueRow*>**)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0x3EF50);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0xED50);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0x3D450);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0xED51);
+			return (::System::Byte*)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0xC330);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "LNGAAEOAAPP")->GetStaticField(0xC331);
 		}
 
 		static ::System::Void _cctor()

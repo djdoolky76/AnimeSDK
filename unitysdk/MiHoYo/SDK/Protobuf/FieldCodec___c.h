@@ -8,43 +8,43 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBC35B0)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC35F0)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_0_OFFSET UNITYSDK_OFFSET(0x1BBC3640)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_1_OFFSET UNITYSDK_OFFSET(0x1BBC3660)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_0_OFFSET UNITYSDK_OFFSET(0x1BBC3600)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_1_OFFSET UNITYSDK_OFFSET(0x1BBC3620)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C682100)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C682140)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C682190)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_1_OFFSET UNITYSDK_OFFSET(0x1C6821B0)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C682150)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C682170)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec___c_TypeDefinitionIndex = 35715;
+	inline static constexpr unsigned int FieldCodec___c_TypeDefinitionIndex = 36643;
 
 	class FieldCodec___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x5CEA0);
-		}
-
-		static ::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::Int32>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::Int32>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x5CEA8);
-		}
-
 		static ::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::String*>** StaticGet___9__0_1()
 		{
-			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x5CEB0);
+			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x631E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x5CEB8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x631E8);
+		}
+
+		static ::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x631F0);
 		}
 
 		static ::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::Int32>** StaticGet___9__3_1()
 		{
-			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::Int32>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x5CEC0);
+			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::Int32>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x631F8);
+		}
+
+		static ::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::Int32>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::Int32>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x63200);
 		}
 
 		static ::System::Void _cctor()

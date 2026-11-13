@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetHLODSwitchDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BNDCIIPAEMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC4CE0)
-#define BNDCIIPAEMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDC4D10)
+#define BNDCIIPAEMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A75B740)
+#define BNDCIIPAEMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A75B770)
 
-inline static constexpr unsigned int BNDCIIPAEMC_TypeDefinitionIndex = 55896;
+inline static constexpr unsigned int BNDCIIPAEMC_TypeDefinitionIndex = 57099;
 
 	class BNDCIIPAEMC
 	{

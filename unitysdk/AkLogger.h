@@ -5,17 +5,17 @@ class AkLogger;
 class AkLogger_ErrorLoggerInteropDelegate;
 namespace System { class String; }
 
-#define AKLOGGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F56F590)
-#define AKLOGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F56EDA0)
-#define AKLOGGER_ERROR_OFFSET UNITYSDK_OFFSET(0x1F56F420)
-#define AKLOGGER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F56EF80)
-#define AKLOGGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F56EF50)
-#define AKLOGGER_INIT_OFFSET UNITYSDK_OFFSET(0x1F56F100)
-#define AKLOGGER_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1F56F140)
-#define AKLOGGER_WARNING_OFFSET UNITYSDK_OFFSET(0x1F56F2B0)
-#define AKLOGGER_WWISEINTERNALLOGERROR_OFFSET UNITYSDK_OFFSET(0x1F56EC30)
+#define AKLOGGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF1DD10)
+#define AKLOGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF1D520)
+#define AKLOGGER_ERROR_OFFSET UNITYSDK_OFFSET(0x1EF1DBA0)
+#define AKLOGGER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1EF1D700)
+#define AKLOGGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EF1D6D0)
+#define AKLOGGER_INIT_OFFSET UNITYSDK_OFFSET(0x1EF1D880)
+#define AKLOGGER_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1EF1D8C0)
+#define AKLOGGER_WARNING_OFFSET UNITYSDK_OFFSET(0x1EF1DA30)
+#define AKLOGGER_WWISEINTERNALLOGERROR_OFFSET UNITYSDK_OFFSET(0x1EF1D3B0)
 
-inline static constexpr unsigned int AkLogger_TypeDefinitionIndex = 44846;
+inline static constexpr unsigned int AkLogger_TypeDefinitionIndex = 45921;
 
 	class AkLogger : public ::System::Object
 	{
@@ -23,7 +23,7 @@ inline static constexpr unsigned int AkLogger_TypeDefinitionIndex = 44846;
 		::AkLogger_ErrorLoggerInteropDelegate* errorLoggerDelegate; // 0x10
 		static ::AkLogger** StaticGet_ms_Instance()
 		{
-			return (::AkLogger**)UnitySDK::FromName("", "AkLogger")->GetStaticField(0xCA90);
+			return (::AkLogger**)UnitySDK::FromName("", "AkLogger")->GetStaticField(0x70CB0);
 		}
 
 		::System::Void _ctor()

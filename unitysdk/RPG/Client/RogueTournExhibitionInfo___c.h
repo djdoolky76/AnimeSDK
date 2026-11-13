@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTournExhibitionData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFDED40)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFDED80)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C__GET_UNLOCKEDEXHIBITIONCOUNT_B__26_0_OFFSET UNITYSDK_OFFSET(0xDFDED90)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEA5DF0)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA5E30)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C__GET_UNLOCKEDEXHIBITIONCOUNT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1CEA5E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournExhibitionInfo___c_TypeDefinitionIndex = 67576;
+	inline static constexpr unsigned int RogueTournExhibitionInfo___c_TypeDefinitionIndex = 69520;
 
 	class RogueTournExhibitionInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A270);
-		}
-
 		static ::System::Func_2<::RPG::Client::RogueTournExhibitionData*, ::System::Boolean>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournExhibitionData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A278);
+			return (::System::Func_2<::RPG::Client::RogueTournExhibitionData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72970);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72978);
 		}
 
 		static ::System::Void _cctor()

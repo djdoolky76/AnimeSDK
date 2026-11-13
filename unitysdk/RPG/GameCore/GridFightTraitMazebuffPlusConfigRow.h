@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightTraitMazebuffPlusConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71A660)
-#define RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71A480)
+#define RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA693B0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA69200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitMazebuffPlusConfigRow_TypeDefinitionIndex = 13672;
+	inline static constexpr unsigned int GridFightTraitMazebuffPlusConfigRow_TypeDefinitionIndex = 13799;
 
 	class GridFightTraitMazebuffPlusConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* BEParamList; // 0x10
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ShowStanceList; // 0x18
-		::System::UInt32 StanceDamageDisplay; // 0x20
-		::System::UInt32 MazebuffID; // 0x24
+		::System::UInt32 MazebuffID; // 0x20
+		::System::UInt32 StanceDamageDisplay; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW_CTOR_OFFSET))(this);

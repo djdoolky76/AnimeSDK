@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ONDGOPEKJNF_CTOR_OFFSET UNITYSDK_OFFSET(0xBF47FF0)
+#define ONDGOPEKJNF_CTOR_OFFSET UNITYSDK_OFFSET(0x17D76EF0)
 
-inline static constexpr unsigned int ONDGOPEKJNF_TypeDefinitionIndex = 80196;
+inline static constexpr unsigned int ONDGOPEKJNF_TypeDefinitionIndex = 82973;
 
 	class ONDGOPEKJNF : public ::System::Object
 	{

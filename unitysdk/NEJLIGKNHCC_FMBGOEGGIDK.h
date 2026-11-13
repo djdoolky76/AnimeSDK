@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JOGBIBJLPJB.h"
 
-#define NEJLIGKNHCC_FMBGOEGGIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x34A0)
+#define NEJLIGKNHCC_FMBGOEGGIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x7EFA20)
 
-inline static constexpr unsigned int NEJLIGKNHCC_FMBGOEGGIDK_TypeDefinitionIndex = 69290;
+inline static constexpr unsigned int NEJLIGKNHCC_FMBGOEGGIDK_TypeDefinitionIndex = 71244;
 
 	struct alignas(4) NEJLIGKNHCC_FMBGOEGGIDK
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class UnlockTargetHP; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNLOCKTARGETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4ACE0)
-#define RPG_GAMECORE_UNLOCKTARGETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC4ACF0)
-#define RPG_GAMECORE_UNLOCKTARGETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4ACB0)
+#define RPG_GAMECORE_UNLOCKTARGETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED36790)
+#define RPG_GAMECORE_UNLOCKTARGETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED367A0)
+#define RPG_GAMECORE_UNLOCKTARGETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED36760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnlockTargetHP_TypeDefinitionIndex = 23620;
+	inline static constexpr unsigned int UnlockTargetHP_TypeDefinitionIndex = 24067;
 
 	class UnlockTargetHP : public ::RPG::GameCore::TaskConfig
 	{

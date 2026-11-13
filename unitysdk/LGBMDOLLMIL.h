@@ -4,16 +4,16 @@
 class AOIAGGGHHBD;
 namespace RPG::GameCore { class GameEntity; }
 
-#define LGBMDOLLMIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB687EE0)
+#define LGBMDOLLMIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9E710)
 
-inline static constexpr unsigned int LGBMDOLLMIL_TypeDefinitionIndex = 73285;
+inline static constexpr unsigned int LGBMDOLLMIL_TypeDefinitionIndex = 75401;
 
 	class LGBMDOLLMIL : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* NPGHFOOPAIJ; // 0x10
+		::Il2CppArray<::AOIAGGGHHBD*>* HPBAMMEFDMK; // 0x10
 		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
-		::Il2CppArray<::AOIAGGGHHBD*>* HPBAMMEFDMK; // 0x20
+		::Il2CppArray<::System::Int32>* NPGHFOOPAIJ; // 0x20
 		::System::Boolean GNDCCBNILML; // 0x28
 		::System::Void _ctor()
 		{

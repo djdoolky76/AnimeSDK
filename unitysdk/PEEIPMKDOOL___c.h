@@ -4,18 +4,18 @@
 class PEEIPMKDOOL;
 namespace System { class Object; }
 
-#define PEEIPMKDOOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEE8F10)
-#define PEEIPMKDOOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE8F50)
-#define PEEIPMKDOOL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEE8F60)
+#define PEEIPMKDOOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20668B60)
+#define PEEIPMKDOOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20668BA0)
+#define PEEIPMKDOOL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20668BB0)
 
-inline static constexpr unsigned int PEEIPMKDOOL___c_TypeDefinitionIndex = 30489;
+inline static constexpr unsigned int PEEIPMKDOOL___c_TypeDefinitionIndex = 31395;
 
 	class PEEIPMKDOOL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x309E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32750);
 		}
 
 		static ::System::Void _cctor()

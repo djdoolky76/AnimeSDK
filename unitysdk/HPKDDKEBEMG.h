@@ -4,9 +4,9 @@
 class CIIKBJFOKHL;
 namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 
-#define HPKDDKEBEMG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC4B90)
+#define HPKDDKEBEMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3EC50)
 
-inline static constexpr unsigned int HPKDDKEBEMG_TypeDefinitionIndex = 77858;
+inline static constexpr unsigned int HPKDDKEBEMG_TypeDefinitionIndex = 80593;
 
 	class HPKDDKEBEMG : public ::LKFPICOFNDF
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetPerformanceResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OJMHFDKFAKN_CTOR_OFFSET UNITYSDK_OFFSET(0xBEC03F0)
-#define OJMHFDKFAKN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEC0420)
+#define OJMHFDKFAKN_CTOR_OFFSET UNITYSDK_OFFSET(0x194C4F10)
+#define OJMHFDKFAKN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x194C4F40)
 
-inline static constexpr unsigned int OJMHFDKFAKN_TypeDefinitionIndex = 53252;
+inline static constexpr unsigned int OJMHFDKFAKN_TypeDefinitionIndex = 54414;
 
 	class OJMHFDKFAKN
 	{

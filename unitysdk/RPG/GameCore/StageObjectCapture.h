@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageObjectCapture; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEOBJECTCAPTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE3BD0)
-#define RPG_GAMECORE_STAGEOBJECTCAPTURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE3990)
+#define RPG_GAMECORE_STAGEOBJECTCAPTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B7130)
+#define RPG_GAMECORE_STAGEOBJECTCAPTURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B6EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageObjectCapture_TypeDefinitionIndex = 17227;
+	inline static constexpr unsigned int StageObjectCapture_TypeDefinitionIndex = 17395;
 
 	class StageObjectCapture : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define OKICIAPALHL_CTOR_OFFSET UNITYSDK_OFFSET(0xBED4500)
+#define OKICIAPALHL_CTOR_OFFSET UNITYSDK_OFFSET(0x17878EC0)
 
-inline static constexpr unsigned int OKICIAPALHL_TypeDefinitionIndex = 70239;
+inline static constexpr unsigned int OKICIAPALHL_TypeDefinitionIndex = 72205;
 
 	class OKICIAPALHL : public ::System::Attribute
 	{

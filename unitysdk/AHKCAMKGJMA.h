@@ -5,24 +5,23 @@ class CAPKINMFNIL;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define AHKCAMKGJMA_AKEKJNJAKAA_OFFSET UNITYSDK_OFFSET(0xEB7FBE0)
-#define AHKCAMKGJMA_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7FB60)
-#define AHKCAMKGJMA_EDMBKEEHHPJ_OFFSET UNITYSDK_OFFSET(0xEB803D0)
-#define AHKCAMKGJMA_MDAOCEGHBBN_OFFSET UNITYSDK_OFFSET(0xEB80150)
-#define AHKCAMKGJMA_MNKDMDIPPPO_OFFSET UNITYSDK_OFFSET(0xEB802C0)
-#define AHKCAMKGJMA_PLCGLGKMLMA_OFFSET UNITYSDK_OFFSET(0xEB80320)
+#define AHKCAMKGJMA_AKEKJNJAKAA_OFFSET UNITYSDK_OFFSET(0x19B25310)
+#define AHKCAMKGJMA_CTOR_OFFSET UNITYSDK_OFFSET(0x19B25290)
+#define AHKCAMKGJMA_EDMBKEEHHPJ_OFFSET UNITYSDK_OFFSET(0x19B25B00)
+#define AHKCAMKGJMA_MDAOCEGHBBN_OFFSET UNITYSDK_OFFSET(0x19B25880)
+#define AHKCAMKGJMA_MNKDMDIPPPO_OFFSET UNITYSDK_OFFSET(0x19B259F0)
+#define AHKCAMKGJMA_PLCGLGKMLMA_OFFSET UNITYSDK_OFFSET(0x19B25A50)
 
-inline static constexpr unsigned int AHKCAMKGJMA_TypeDefinitionIndex = 82101;
+inline static constexpr unsigned int AHKCAMKGJMA_TypeDefinitionIndex = 84974;
 
 	class AHKCAMKGJMA : public ::System::Object
 	{
 	public:
-		::CAPKINMFNIL* MPJBKABBEEP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::CAPKINMFNIL*>* DGJIGNNCIHK; // 0x18
-		::CAPKINMFNIL* INOBONGIJMA; // 0x20
-		::System::Boolean APJILDFJCGJ; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::UInt32 NIKPKOALLML; // 0x2C
+		::CAPKINMFNIL* INOBONGIJMA; // 0x10
+		::CAPKINMFNIL* MPJBKABBEEP; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::CAPKINMFNIL*>* DGJIGNNCIHK; // 0x20
+		::System::UInt32 NIKPKOALLML; // 0x28
+		::System::Boolean APJILDFJCGJ; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AHKCAMKGJMA_CTOR_OFFSET))(this);

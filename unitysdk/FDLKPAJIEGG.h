@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelCellSaver.h"
 #include "unitysdk/System/Object.h"
 
-#define FDLKPAJIEGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA387E0)
+#define FDLKPAJIEGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C202EE0)
 
-inline static constexpr unsigned int FDLKPAJIEGG_TypeDefinitionIndex = 42504;
+inline static constexpr unsigned int FDLKPAJIEGG_TypeDefinitionIndex = 43479;
 
 	class FDLKPAJIEGG : public ::System::Object
 	{

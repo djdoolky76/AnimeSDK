@@ -7,25 +7,25 @@ namespace UnityEngine::Rendering { class BAGraphAsset; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define BADEFAULTGRAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB6C20)
-#define BADEFAULTGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x1CBB6E50)
-#define BADEFAULTGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x1CBB6D40)
-#define BADEFAULTGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1CBB6CB0)
-#define BADEFAULTGRAPH_PLAYCLIPS_OFFSET UNITYSDK_OFFSET(0x1CBB6D50)
-#define BADEFAULTGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1CBB6DA0)
+#define BADEFAULTGRAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1AA310)
+#define BADEFAULTGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x1A1AA540)
+#define BADEFAULTGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x1A1AA430)
+#define BADEFAULTGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1A1AA3A0)
+#define BADEFAULTGRAPH_PLAYCLIPS_OFFSET UNITYSDK_OFFSET(0x1A1AA440)
+#define BADEFAULTGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1A1AA490)
 
-inline static constexpr unsigned int BADefaultGraph_TypeDefinitionIndex = 37465;
+inline static constexpr unsigned int BADefaultGraph_TypeDefinitionIndex = 38393;
 
 	class BADefaultGraph : public ::System::Object
 	{
 	public:
-		::UnityEngine::Rendering::BANodeHash clipNode1; // 0x10
-		::UnityEngine::Rendering::BANodeHash outputNode; // 0x18
-		::UnityEngine::Rendering::BANodeHash blendNode; // 0x20
-		::UnityEngine::Rendering::BANodeHash clipNode0; // 0x28
+		::UnityEngine::Rendering::BANodeHash clipNode0; // 0x10
+		::UnityEngine::Rendering::BANodeHash blendNode; // 0x18
+		::UnityEngine::Rendering::BANodeHash clipNode1; // 0x20
+		::UnityEngine::Rendering::BANodeHash outputNode; // 0x28
 		static ::BADefaultGraph** StaticGet__Graph()
 		{
-			return (::BADefaultGraph**)UnitySDK::FromName("", "BADefaultGraph")->GetStaticField(0x25920);
+			return (::BADefaultGraph**)UnitySDK::FromName("", "BADefaultGraph")->GetStaticField(0x1F360);
 		}
 
 		::System::Void _ctor()

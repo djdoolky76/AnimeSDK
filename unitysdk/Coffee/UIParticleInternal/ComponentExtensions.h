@@ -4,7 +4,7 @@
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int ComponentExtensions_TypeDefinitionIndex = 45123;
+	inline static constexpr unsigned int ComponentExtensions_TypeDefinitionIndex = 40836;
 
 	class ComponentExtensions : public ::System::Object
 	{

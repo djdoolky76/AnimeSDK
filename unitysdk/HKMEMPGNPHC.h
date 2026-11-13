@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetIndex; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HKMEMPGNPHC_CTOR_OFFSET UNITYSDK_OFFSET(0x15D421F0)
-#define HKMEMPGNPHC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15D42210)
+#define HKMEMPGNPHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1988CD20)
+#define HKMEMPGNPHC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1988CD40)
 
-inline static constexpr unsigned int HKMEMPGNPHC_TypeDefinitionIndex = 59204;
+inline static constexpr unsigned int HKMEMPGNPHC_TypeDefinitionIndex = 60481;
 
 	class HKMEMPGNPHC
 	{

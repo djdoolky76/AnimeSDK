@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define OIGLHNJBHED_CLEAR_OFFSET UNITYSDK_OFFSET(0xBE89840)
-#define OIGLHNJBHED_CTOR_OFFSET UNITYSDK_OFFSET(0xBE89890)
-#define OIGLHNJBHED_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE897E0)
+#define OIGLHNJBHED_CLEAR_OFFSET UNITYSDK_OFFSET(0x1948CF60)
+#define OIGLHNJBHED_CTOR_OFFSET UNITYSDK_OFFSET(0x1948CFB0)
+#define OIGLHNJBHED_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1948CF00)
 
-inline static constexpr unsigned int OIGLHNJBHED_TypeDefinitionIndex = 55246;
+inline static constexpr unsigned int OIGLHNJBHED_TypeDefinitionIndex = 56427;
 
 	class OIGLHNJBHED : public ::System::Object
 	{

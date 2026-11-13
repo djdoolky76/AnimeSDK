@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressExamConstraintControl; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD62A9A0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROLBINDER_GET_CONSTRAINT_OFFSET UNITYSDK_OFFSET(0xD62A8E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DECA160)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROLBINDER_GET_CONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1DECA0A0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftProgressExamConstraintsControlBinder_TypeDefinitionIndex = 79934;
+	inline static constexpr unsigned int MechCraftCraftProgressExamConstraintsControlBinder_TypeDefinitionIndex = 82711;
 
 	class MechCraftCraftProgressExamConstraintsControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

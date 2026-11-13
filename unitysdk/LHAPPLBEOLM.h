@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class CakeRaceWaitFinishLineTip; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LHAPPLBEOLM_CTOR_OFFSET UNITYSDK_OFFSET(0xB69D700)
-#define LHAPPLBEOLM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB69D710)
-#define LHAPPLBEOLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB69D8D0)
-#define LHAPPLBEOLM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB69DB30)
-#define LHAPPLBEOLM_TICK_OFFSET UNITYSDK_OFFSET(0xB69DB80)
-#define LHAPPLBEOLM__ONTASKBEGIN_B__4_0_OFFSET UNITYSDK_OFFSET(0xB69DBE0)
+#define LHAPPLBEOLM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB5220)
+#define LHAPPLBEOLM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCB5230)
+#define LHAPPLBEOLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCB53F0)
+#define LHAPPLBEOLM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BCB5640)
+#define LHAPPLBEOLM_TICK_OFFSET UNITYSDK_OFFSET(0x1BCB5690)
+#define LHAPPLBEOLM__ONTASKBEGIN_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BCB56F0)
 
-inline static constexpr unsigned int LHAPPLBEOLM_TypeDefinitionIndex = 52621;
+inline static constexpr unsigned int LHAPPLBEOLM_TypeDefinitionIndex = 53728;
 
 	class LHAPPLBEOLM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CakeRaceWaitFinishLineTip* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::CakeRaceWaitFinishLineTip* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CakeRaceWaitFinishLineTip* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CakeRaceWaitFinishLineTip*))((::PBYTE)hIl2Cpp + LHAPPLBEOLM_CTOR_OFFSET))(this, a1, a2);

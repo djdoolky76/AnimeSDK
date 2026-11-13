@@ -4,18 +4,18 @@
 class LMEBOJEOJPD;
 namespace System { class Object; }
 
-#define LMEBOJEOJPD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E976520)
-#define LMEBOJEOJPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E976560)
-#define LMEBOJEOJPD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E976570)
+#define LMEBOJEOJPD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF50650)
+#define LMEBOJEOJPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF50690)
+#define LMEBOJEOJPD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FF506A0)
 
-inline static constexpr unsigned int LMEBOJEOJPD___c_TypeDefinitionIndex = 26858;
+inline static constexpr unsigned int LMEBOJEOJPD___c_TypeDefinitionIndex = 27389;
 
 	class LMEBOJEOJPD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D8D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42300);
 		}
 
 		static ::System::Void _cctor()

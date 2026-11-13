@@ -4,20 +4,20 @@
 namespace Proto { class GetMissionStatusScRsp; }
 namespace System { class Object; }
 
-#define PROTO_GETMISSIONSTATUSSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCA7F0)
-#define PROTO_GETMISSIONSTATUSSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCA820)
-#define PROTO_GETMISSIONSTATUSSCRSP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1DFCA830)
+#define PROTO_GETMISSIONSTATUSSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C8DB0)
+#define PROTO_GETMISSIONSTATUSSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C8DE0)
+#define PROTO_GETMISSIONSTATUSSCRSP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F4C8DF0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetMissionStatusScRsp___c_TypeDefinitionIndex = 30961;
+	inline static constexpr unsigned int GetMissionStatusScRsp___c_TypeDefinitionIndex = 31874;
 
 	class GetMissionStatusScRsp___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4B0B0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x50880);
 		}
 
 		static ::System::Void _cctor()

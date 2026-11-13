@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TrainPartyPerformance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FJIEGMAKIMA_KALJNIHFLGK_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x2E78180)
-#define FJIEGMAKIMA_KALJNIHFLGK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x2E78170)
+#define FJIEGMAKIMA_KALJNIHFLGK_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x3E3BF20)
+#define FJIEGMAKIMA_KALJNIHFLGK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x3E3BF10)
 
-inline static constexpr unsigned int FJIEGMAKIMA_KALJNIHFLGK_TypeDefinitionIndex = 60232;
+inline static constexpr unsigned int FJIEGMAKIMA_KALJNIHFLGK_TypeDefinitionIndex = 61516;
 
 	struct alignas(8) FJIEGMAKIMA_KALJNIHFLGK
 	{

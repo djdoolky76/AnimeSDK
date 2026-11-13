@@ -7,7 +7,7 @@ namespace RPG::GCFreeClosure { template <typename T1, typename T2, typename T3, 
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int FuncClosure_2_FuncClosureWrapper_VoidResult_TypeDefinitionIndex = 6465;
+	inline static constexpr unsigned int FuncClosure_2_FuncClosureWrapper_VoidResult_TypeDefinitionIndex = 6472;
 
 	template <typename T1, typename T2>
 	class FuncClosure_2_FuncClosureWrapper_VoidResult : public ::System::Object

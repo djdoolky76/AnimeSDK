@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NGPJANBCPDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C932BB0)
+#define NGPJANBCPDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C298090)
 
-inline static constexpr unsigned int NGPJANBCPDG_TypeDefinitionIndex = 42389;
+inline static constexpr unsigned int NGPJANBCPDG_TypeDefinitionIndex = 43364;
 
 	class NGPJANBCPDG : public ::System::Object
 	{

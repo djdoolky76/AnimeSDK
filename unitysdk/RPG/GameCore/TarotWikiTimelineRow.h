@@ -5,22 +5,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TarotWikiTimelineRow; }
 
-#define RPG_GAMECORE_TAROTWIKITIMELINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4B490)
-#define RPG_GAMECORE_TAROTWIKITIMELINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4B200)
+#define RPG_GAMECORE_TAROTWIKITIMELINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C01D0)
+#define RPG_GAMECORE_TAROTWIKITIMELINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5BFF40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotWikiTimelineRow_TypeDefinitionIndex = 15242;
+	inline static constexpr unsigned int TarotWikiTimelineRow_TypeDefinitionIndex = 15398;
 
 	class TarotWikiTimelineRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* DataList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 UnlockID; // 0x1C
-		::RPG::Client::TextID Title; // 0x20
-		::System::UInt32 SpecialType; // 0x30
-		::System::Single Progress; // 0x34
+		::System::UInt32 UnlockID; // 0x18
+		::System::Single Progress; // 0x1C
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 SpecialType; // 0x24
+		::RPG::Client::TextID Title; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTWIKITIMELINEROW_CTOR_OFFSET))(this);

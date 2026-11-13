@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KBDBCACNCJF_WaitState_TypeDefinitionIndex = 53095;
+inline static constexpr unsigned int KBDBCACNCJF_WaitState_TypeDefinitionIndex = 54256;
 
 	enum class KBDBCACNCJF_WaitState : ::System::Int32
 	{

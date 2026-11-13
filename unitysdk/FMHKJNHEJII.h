@@ -9,26 +9,26 @@ class NGNJJJDFFKF;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FMHKJNHEJII_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x1584D450)
-#define FMHKJNHEJII_CTOR_OFFSET UNITYSDK_OFFSET(0x1584E050)
-#define FMHKJNHEJII_FCDOGEAHNFM_OFFSET UNITYSDK_OFFSET(0x1584DED0)
-#define FMHKJNHEJII_HBDDPBAJJJI_OFFSET UNITYSDK_OFFSET(0x1584DFD0)
-#define FMHKJNHEJII_KHBMJJKJLGO_OFFSET UNITYSDK_OFFSET(0x1584D4C0)
-#define FMHKJNHEJII_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1584D2A0)
-#define FMHKJNHEJII_NDPNAEDIBOC_OFFSET UNITYSDK_OFFSET(0x1584D410)
+#define FMHKJNHEJII_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x17EFE850)
+#define FMHKJNHEJII_CTOR_OFFSET UNITYSDK_OFFSET(0x17EFF420)
+#define FMHKJNHEJII_FCDOGEAHNFM_OFFSET UNITYSDK_OFFSET(0x17EFF2A0)
+#define FMHKJNHEJII_HBDDPBAJJJI_OFFSET UNITYSDK_OFFSET(0x17EFF3A0)
+#define FMHKJNHEJII_KHBMJJKJLGO_OFFSET UNITYSDK_OFFSET(0x17EFE8C0)
+#define FMHKJNHEJII_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x17EFE6A0)
+#define FMHKJNHEJII_NDPNAEDIBOC_OFFSET UNITYSDK_OFFSET(0x17EFE810)
 
-inline static constexpr unsigned int FMHKJNHEJII_TypeDefinitionIndex = 49538;
+inline static constexpr unsigned int FMHKJNHEJII_TypeDefinitionIndex = 50614;
 
 	class FMHKJNHEJII : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::UnityEngine::Color32>* JHHALJMJCJB; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* DAGOGJIHEPF; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector4>* LBGOPGBNMEO; // 0x20
-		::NGNJJJDFFKF* PKKKBFMCDBG; // 0x28
-		::Il2CppArray<::UnityEngine::Color32>* CKJEOJCEHIC; // 0x30
-		::System::Boolean BBJHDLLJBIL; // 0x38
-		::System::Boolean GIPHDPLKAIM; // 0x39
+		::Il2CppArray<::UnityEngine::Color32>* CKJEOJCEHIC; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector4>* LBGOPGBNMEO; // 0x28
+		::NGNJJJDFFKF* PKKKBFMCDBG; // 0x30
+		::System::Boolean GIPHDPLKAIM; // 0x38
+		::System::Boolean BBJHDLLJBIL; // 0x39
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FMHKJNHEJII_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int CollectDataType_TypeDefinitionIndex = 75500;
+	inline static constexpr unsigned int CollectDataType_TypeDefinitionIndex = 77827;
 
 	enum class CollectDataType : ::System::Int32
 	{

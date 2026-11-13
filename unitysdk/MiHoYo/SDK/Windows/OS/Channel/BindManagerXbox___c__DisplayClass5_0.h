@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDEC450)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX___C__DISPLAYCLASS5_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BDEC820)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19637AB0)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX___C__DISPLAYCLASS5_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x19637E80)
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
-	inline static constexpr unsigned int BindManagerXbox___c__DisplayClass5_0_TypeDefinitionIndex = 8370;
+	inline static constexpr unsigned int BindManagerXbox___c__DisplayClass5_0_TypeDefinitionIndex = 8379;
 
 	class BindManagerXbox___c__DisplayClass5_0 : public ::System::Object
 	{

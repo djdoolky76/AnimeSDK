@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameEnergyType_TypeDefinitionIndex = 24558;
+	inline static constexpr unsigned int HipplenGameEnergyType_TypeDefinitionIndex = 25019;
 
 	enum class HipplenGameEnergyType : ::System::Int32
 	{

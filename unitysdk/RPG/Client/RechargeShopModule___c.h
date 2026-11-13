@@ -8,49 +8,49 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_RECHARGESHOPMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE4F4D0)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE4F500)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__37_0_OFFSET UNITYSDK_OFFSET(0xDE4F570)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__37_1_OFFSET UNITYSDK_OFFSET(0xDE4F580)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__REQUESTDATA_B__24_0_OFFSET UNITYSDK_OFFSET(0xDE4F510)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C___ONGETRECHARGEGIFTINFOSCRSP_B__32_0_OFFSET UNITYSDK_OFFSET(0xDE4F550)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C___REQUESTDATA_B__26_1_OFFSET UNITYSDK_OFFSET(0xDE4F540)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D075380)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0753B0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__37_0_OFFSET UNITYSDK_OFFSET(0x1D075420)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__37_1_OFFSET UNITYSDK_OFFSET(0x1D075430)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__REQUESTDATA_B__24_0_OFFSET UNITYSDK_OFFSET(0x1D0753C0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C___ONGETRECHARGEGIFTINFOSCRSP_B__32_0_OFFSET UNITYSDK_OFFSET(0x1D075400)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C___REQUESTDATA_B__26_1_OFFSET UNITYSDK_OFFSET(0x1D0753F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopModule___c_TypeDefinitionIndex = 66798;
+	inline static constexpr unsigned int RechargeShopModule___c_TypeDefinitionIndex = 68734;
 
 	class RechargeShopModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>** StaticGet___9__37_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B580);
-		}
-
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__24_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B588);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69FD0);
 		}
 
 		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::RPG::Client::RechargeGiftData*>** StaticGet___9__37_1()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::RPG::Client::RechargeGiftData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B590);
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::RPG::Client::RechargeGiftData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69FD8);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>** StaticGet___9__37_0()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69FE0);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__24_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69FE8);
 		}
 
 		static ::System::Func_2<::JBNGCJJDLHL*, ::System::UInt32>** StaticGet___9__32_0()
 		{
-			return (::System::Func_2<::JBNGCJJDLHL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B598);
+			return (::System::Func_2<::JBNGCJJDLHL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69FF0);
 		}
 
 		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__26_1()
 		{
-			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B5A0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B5A8);
+			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69FF8);
 		}
 
 		static ::System::Void _cctor()

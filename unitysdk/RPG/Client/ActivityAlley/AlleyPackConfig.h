@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC3C0020)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B78A280)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackConfig_TypeDefinitionIndex = 74097;
+	inline static constexpr unsigned int AlleyPackConfig_TypeDefinitionIndex = 76245;
 
 	class AlleyPackConfig : public ::System::Object
 	{

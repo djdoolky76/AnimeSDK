@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class GravityBallPuzzleStart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPDDFFONCPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB814430)
-#define LPDDFFONCPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB814460)
+#define LPDDFFONCPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6AE4F0)
+#define LPDDFFONCPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B6AE520)
 
-inline static constexpr unsigned int LPDDFFONCPC_TypeDefinitionIndex = 52914;
+inline static constexpr unsigned int LPDDFFONCPC_TypeDefinitionIndex = 54070;
 
 	class LPDDFFONCPC
 	{

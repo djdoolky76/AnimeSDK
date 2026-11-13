@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CharacterReenterStage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERREENTERSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54A120)
-#define RPG_GAMECORE_CHARACTERREENTERSTAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D54A130)
-#define RPG_GAMECORE_CHARACTERREENTERSTAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D54A0E0)
+#define RPG_GAMECORE_CHARACTERREENTERSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F34B6B0)
+#define RPG_GAMECORE_CHARACTERREENTERSTAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F34B6C0)
+#define RPG_GAMECORE_CHARACTERREENTERSTAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F34B670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReenterStage_TypeDefinitionIndex = 22748;
+	inline static constexpr unsigned int CharacterReenterStage_TypeDefinitionIndex = 23170;
 
 	class CharacterReenterStage : public ::RPG::GameCore::TaskConfig
 	{

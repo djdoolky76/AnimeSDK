@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::NavMap { class AreaData; }
 
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD94D1C0)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS38_0___INSHOWAREA_B__0_OFFSET UNITYSDK_OFFSET(0xD94D7A0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19E53980)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS38_0___INSHOWAREA_B__0_OFFSET UNITYSDK_OFFSET(0x19E54400)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IconCollectorBase___c__DisplayClass38_0_TypeDefinitionIndex = 74528;
+	inline static constexpr unsigned int IconCollectorBase___c__DisplayClass38_0_TypeDefinitionIndex = 76676;
 
 	class IconCollectorBase___c__DisplayClass38_0 : public ::System::Object
 	{

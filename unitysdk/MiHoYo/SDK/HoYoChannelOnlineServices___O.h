@@ -5,24 +5,24 @@ namespace MiHoYo::SDK { class HoYoChannelSDK_CallBack; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelOnlineServices___O_TypeDefinitionIndex = 46539;
+	inline static constexpr unsigned int HoYoChannelOnlineServices___O_TypeDefinitionIndex = 47567;
 
 	class HoYoChannelOnlineServices___O : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__2___OnCheckPermissionCallback()
-		{
-			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x235D0);
-		}
-
 		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__0___OnCheckPrivilegeCallback()
 		{
-			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x235D8);
+			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1A8C0);
 		}
 
 		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__1___OnResolvePrivilegeCallback()
 		{
-			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x235E0);
+			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1A8C8);
+		}
+
+		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__2___OnCheckPermissionCallback()
+		{
+			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1A8D0);
 		}
 
 	};

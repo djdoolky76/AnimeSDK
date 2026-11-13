@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameEventSourceType_TypeDefinitionIndex = 18885;
+	inline static constexpr unsigned int LittleGameEventSourceType_TypeDefinitionIndex = 19047;
 
 	enum class LittleGameEventSourceType : ::System::Int32
 	{

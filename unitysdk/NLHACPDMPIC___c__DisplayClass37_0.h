@@ -7,20 +7,20 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define NLHACPDMPIC___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC63720)
-#define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xBC64D40)
-#define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__1_OFFSET UNITYSDK_OFFSET(0xBC64F90)
-#define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__2_OFFSET UNITYSDK_OFFSET(0xBC64F50)
-#define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__3_OFFSET UNITYSDK_OFFSET(0xBC64F70)
+#define NLHACPDMPIC___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A426CA0)
+#define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1A4282C0)
+#define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__1_OFFSET UNITYSDK_OFFSET(0x1A428510)
+#define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__2_OFFSET UNITYSDK_OFFSET(0x1A4284D0)
+#define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__3_OFFSET UNITYSDK_OFFSET(0x1A4284F0)
 
-inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass37_0_TypeDefinitionIndex = 76188;
+inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass37_0_TypeDefinitionIndex = 78515;
 
 	class NLHACPDMPIC___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
-		::System::Action_1<::System::Exception*>* __9__3; // 0x20
+		::RPG::Client::Promises::Promise* promise; // 0x10
+		::System::Action_1<::System::Exception*>* __9__3; // 0x18
+		::System::Action* __9__2; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLHACPDMPIC___C__DISPLAYCLASS37_0_CTOR_OFFSET))(this);

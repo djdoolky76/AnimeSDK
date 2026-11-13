@@ -4,16 +4,16 @@
 class EPLMOIMGMIH;
 namespace RPG::Client { class PlayGoManager; }
 
-#define EPLMOIMGMIH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x155CCF00)
-#define EPLMOIMGMIH___C__DISPLAYCLASS4_0__ONPLAYGOFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x155CD050)
+#define EPLMOIMGMIH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16B3BEE0)
+#define EPLMOIMGMIH___C__DISPLAYCLASS4_0__ONPLAYGOFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x16B3C030)
 
-inline static constexpr unsigned int EPLMOIMGMIH___c__DisplayClass4_0_TypeDefinitionIndex = 58678;
+inline static constexpr unsigned int EPLMOIMGMIH___c__DisplayClass4_0_TypeDefinitionIndex = 59945;
 
 	class EPLMOIMGMIH___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlayGoManager* manager; // 0x10
-		::EPLMOIMGMIH* __4__this; // 0x18
+		::EPLMOIMGMIH* __4__this; // 0x10
+		::RPG::Client::PlayGoManager* manager; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPLMOIMGMIH___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

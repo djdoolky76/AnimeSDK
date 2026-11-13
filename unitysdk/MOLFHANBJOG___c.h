@@ -4,18 +4,18 @@
 class MOLFHANBJOG;
 namespace System { class Object; }
 
-#define MOLFHANBJOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA82000)
-#define MOLFHANBJOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA82040)
-#define MOLFHANBJOG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA82050)
+#define MOLFHANBJOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF18420)
+#define MOLFHANBJOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF18460)
+#define MOLFHANBJOG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FF18470)
 
-inline static constexpr unsigned int MOLFHANBJOG___c_TypeDefinitionIndex = 32283;
+inline static constexpr unsigned int MOLFHANBJOG___c_TypeDefinitionIndex = 33196;
 
 	class MOLFHANBJOG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AF00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54A50);
 		}
 
 		static ::System::Void _cctor()

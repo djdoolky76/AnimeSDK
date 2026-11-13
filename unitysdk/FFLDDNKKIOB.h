@@ -4,15 +4,15 @@
 class DIDMPBAABII;
 namespace RPG::GameCore { class FiveDimMusicDirectorComponentConfig; }
 
-#define FFLDDNKKIOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA3FE80)
+#define FFLDDNKKIOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20A640)
 
-inline static constexpr unsigned int FFLDDNKKIOB_TypeDefinitionIndex = 43402;
+inline static constexpr unsigned int FFLDDNKKIOB_TypeDefinitionIndex = 44383;
 
 	class FFLDDNKKIOB : public ::System::Object
 	{
 	public:
-		::DIDMPBAABII* MEPFOEEGBEA; // 0x10
-		::RPG::GameCore::FiveDimMusicDirectorComponentConfig* EABKOHGCHFP; // 0x18
+		::RPG::GameCore::FiveDimMusicDirectorComponentConfig* EABKOHGCHFP; // 0x10
+		::DIDMPBAABII* MEPFOEEGBEA; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFLDDNKKIOB_CTOR_OFFSET))(this);

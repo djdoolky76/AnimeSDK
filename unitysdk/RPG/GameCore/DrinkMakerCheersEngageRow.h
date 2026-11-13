@@ -6,22 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerCheersEngageRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ED870)
-#define RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5ED600)
+#define RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CB2C0)
+#define RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3CB050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCheersEngageRow_TypeDefinitionIndex = 13207;
+	inline static constexpr unsigned int DrinkMakerCheersEngageRow_TypeDefinitionIndex = 13281;
 
 	class DrinkMakerCheersEngageRow : public ::System::Object
 	{
 	public:
 		::System::String* HeadIconPath; // 0x10
 		::RPG::Client::TextID Engage; // 0x18
-		::System::Boolean IsProtagonist; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::UInt32 IngredientID; // 0x2C
-		::System::UInt32 MatchGroupID; // 0x30
+		::System::UInt32 IngredientID; // 0x28
+		::System::UInt32 MatchGroupID; // 0x2C
+		::System::Boolean IsProtagonist; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW_CTOR_OFFSET))(this);

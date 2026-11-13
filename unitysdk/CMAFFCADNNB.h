@@ -5,17 +5,17 @@
 class BAIBJGAMDAI;
 class EOLPGHDBJNF;
 
-#define CMAFFCADNNB_CTOR_OFFSET UNITYSDK_OFFSET(0xDA1CE10)
-#define CMAFFCADNNB_GBKONKDBJAK_OFFSET UNITYSDK_OFFSET(0xDA1CE70)
+#define CMAFFCADNNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B18A1C0)
+#define CMAFFCADNNB_GBKONKDBJAK_OFFSET UNITYSDK_OFFSET(0x1B18A220)
 
-inline static constexpr unsigned int CMAFFCADNNB_TypeDefinitionIndex = 63903;
+inline static constexpr unsigned int CMAFFCADNNB_TypeDefinitionIndex = 65345;
 
 	class CMAFFCADNNB : public ::System::Object
 	{
 	public:
 		::BAIBJGAMDAI* JIHBGMMGJCE; // 0x10
-		::System::UInt32 GKEIEIBAKBK; // 0x18
-		::System::UInt32 BBJKFHDHCPK; // 0x1C
+		::System::UInt32 BBJKFHDHCPK; // 0x18
+		::System::UInt32 GKEIEIBAKBK; // 0x1C
 		::System::Void _ctor(::BAIBJGAMDAI* a1, ::EOLPGHDBJNF* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::BAIBJGAMDAI*, ::EOLPGHDBJNF*))((::PBYTE)hIl2Cpp + CMAFFCADNNB_CTOR_OFFSET))(this, a1, a2);

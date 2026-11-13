@@ -4,18 +4,18 @@
 class DKPHAFPGDLO;
 namespace System { class Object; }
 
-#define DKPHAFPGDLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1AE2B0)
-#define DKPHAFPGDLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1AE2F0)
-#define DKPHAFPGDLO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1AE300)
+#define DKPHAFPGDLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB427B0)
+#define DKPHAFPGDLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB427F0)
+#define DKPHAFPGDLO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB42800)
 
-inline static constexpr unsigned int DKPHAFPGDLO___c_TypeDefinitionIndex = 25484;
+inline static constexpr unsigned int DKPHAFPGDLO___c_TypeDefinitionIndex = 25963;
 
 	class DKPHAFPGDLO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34580);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DFB0);
 		}
 
 		static ::System::Void _cctor()

@@ -9,23 +9,23 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace Sofa::Core { class SimpleCommand; }
 
-#define HEKHHNONGAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4C3B0)
-#define HEKHHNONGAJ_EGBIEAKMHEO_OFFSET UNITYSDK_OFFSET(0x15C4C510)
-#define HEKHHNONGAJ_GDNNPIMGEHH_OFFSET UNITYSDK_OFFSET(0x15C4C5D0)
-#define HEKHHNONGAJ_GET_SELECTEDINDEX_OFFSET UNITYSDK_OFFSET(0x15C4C4F0)
-#define HEKHHNONGAJ_GET_TABS_OFFSET UNITYSDK_OFFSET(0x15C4C500)
-#define HEKHHNONGAJ__GET_ADDTABCOMMAND_B__9_0_OFFSET UNITYSDK_OFFSET(0x15C4C690)
-#define HEKHHNONGAJ__GET_REMOVETABCOMMAND_B__12_0_OFFSET UNITYSDK_OFFSET(0x15C4C780)
+#define HEKHHNONGAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A203240)
+#define HEKHHNONGAJ_EGBIEAKMHEO_OFFSET UNITYSDK_OFFSET(0x1A2033A0)
+#define HEKHHNONGAJ_GDNNPIMGEHH_OFFSET UNITYSDK_OFFSET(0x1A203460)
+#define HEKHHNONGAJ_GET_SELECTEDINDEX_OFFSET UNITYSDK_OFFSET(0x1A203380)
+#define HEKHHNONGAJ_GET_TABS_OFFSET UNITYSDK_OFFSET(0x1A203390)
+#define HEKHHNONGAJ__GET_ADDTABCOMMAND_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A203520)
+#define HEKHHNONGAJ__GET_REMOVETABCOMMAND_B__12_0_OFFSET UNITYSDK_OFFSET(0x1A203610)
 
-inline static constexpr unsigned int HEKHHNONGAJ_TypeDefinitionIndex = 73466;
+inline static constexpr unsigned int HEKHHNONGAJ_TypeDefinitionIndex = 75589;
 
 	class HEKHHNONGAJ : public ::System::Object
 	{
 	public:
-		::PEKFHPMIPDD* NGIPIHLGKAG; // 0x10
-		::ObservableCollections::ObservableList_1<::BFKICIPPEBD*>* _Tabs_k__BackingField; // 0x18
-		::Sofa::Core::SimpleCommand* BAGBHEDOJLG; // 0x20
-		::R3::ReactiveProperty_1<::System::Int32>* _SelectedIndex_k__BackingField; // 0x28
+		::Sofa::Core::SimpleCommand* BAGBHEDOJLG; // 0x10
+		::PEKFHPMIPDD* NGIPIHLGKAG; // 0x18
+		::R3::ReactiveProperty_1<::System::Int32>* _SelectedIndex_k__BackingField; // 0x20
+		::ObservableCollections::ObservableList_1<::BFKICIPPEBD*>* _Tabs_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEKHHNONGAJ_CTOR_OFFSET))(this);

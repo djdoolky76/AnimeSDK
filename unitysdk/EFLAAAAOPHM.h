@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByCopying; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EFLAAAAOPHM_CTOR_OFFSET UNITYSDK_OFFSET(0x13A57030)
-#define EFLAAAAOPHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A57060)
+#define EFLAAAAOPHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A340FB0)
+#define EFLAAAAOPHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A340FE0)
 
-inline static constexpr unsigned int EFLAAAAOPHM_TypeDefinitionIndex = 55423;
+inline static constexpr unsigned int EFLAAAAOPHM_TypeDefinitionIndex = 56608;
 
 	class EFLAAAAOPHM
 	{

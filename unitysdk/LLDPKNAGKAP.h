@@ -4,11 +4,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define LLDPKNAGKAP_CTOR_OFFSET UNITYSDK_OFFSET(0xB75D690)
-#define LLDPKNAGKAP_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xB75D600)
-#define LLDPKNAGKAP_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xB75D580)
+#define LLDPKNAGKAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFACF10)
+#define LLDPKNAGKAP_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x1AFACE80)
+#define LLDPKNAGKAP_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x1AFACE00)
 
-inline static constexpr unsigned int LLDPKNAGKAP_TypeDefinitionIndex = 69828;
+inline static constexpr unsigned int LLDPKNAGKAP_TypeDefinitionIndex = 71787;
 
 	class LLDPKNAGKAP : public ::System::Object
 	{

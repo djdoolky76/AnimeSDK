@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class PropComponent; }
 
-#define HDHODAPAOMM_CTOR_OFFSET UNITYSDK_OFFSET(0x15C26F90)
+#define HDHODAPAOMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C7970)
 
-inline static constexpr unsigned int HDHODAPAOMM_TypeDefinitionIndex = 57382;
+inline static constexpr unsigned int HDHODAPAOMM_TypeDefinitionIndex = 58610;
 
 	class HDHODAPAOMM : public ::System::Object
 	{

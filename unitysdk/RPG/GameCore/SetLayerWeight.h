@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetLayerWeight; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETLAYERWEIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA89D30)
-#define RPG_GAMECORE_SETLAYERWEIGHT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA89DA0)
-#define RPG_GAMECORE_SETLAYERWEIGHT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA89CA0)
+#define RPG_GAMECORE_SETLAYERWEIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D7640)
+#define RPG_GAMECORE_SETLAYERWEIGHT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D76B0)
+#define RPG_GAMECORE_SETLAYERWEIGHT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D75B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLayerWeight_TypeDefinitionIndex = 23089;
+	inline static constexpr unsigned int SetLayerWeight_TypeDefinitionIndex = 23518;
 
 	class SetLayerWeight : public ::RPG::GameCore::TaskConfig
 	{

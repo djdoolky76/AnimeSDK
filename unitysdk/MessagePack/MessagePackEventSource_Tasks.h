@@ -4,7 +4,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackEventSource_Tasks_TypeDefinitionIndex = 7170;
+	inline static constexpr unsigned int MessagePackEventSource_Tasks_TypeDefinitionIndex = 7181;
 
 	class MessagePackEventSource_Tasks : public ::System::Object
 	{

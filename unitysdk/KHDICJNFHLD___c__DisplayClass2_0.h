@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class AddMenuItem; }
 
-#define KHDICJNFHLD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB3F94B0)
-#define KHDICJNFHLD___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xB3F9570)
+#define KHDICJNFHLD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19788EF0)
+#define KHDICJNFHLD___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x19788FB0)
 
-inline static constexpr unsigned int KHDICJNFHLD___c__DisplayClass2_0_TypeDefinitionIndex = 57866;
+inline static constexpr unsigned int KHDICJNFHLD___c__DisplayClass2_0_TypeDefinitionIndex = 59103;
 
 	class KHDICJNFHLD___c__DisplayClass2_0 : public ::System::Object
 	{

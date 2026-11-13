@@ -7,22 +7,22 @@ namespace MiHoYo::SDK::Win { class OverseaPayManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD95990)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__0_OFFSET UNITYSDK_OFFSET(0x1BD9E4B0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__1_OFFSET UNITYSDK_OFFSET(0x1BD9E5A0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__2_OFFSET UNITYSDK_OFFSET(0x1BD9E620)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x195E13B0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__0_OFFSET UNITYSDK_OFFSET(0x195E9ED0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__1_OFFSET UNITYSDK_OFFSET(0x195E9FC0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0__OPENAGELIMITWEBPASSPORT_B__2_OFFSET UNITYSDK_OFFSET(0x195EA040)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass43_0_TypeDefinitionIndex = 9345;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass43_0_TypeDefinitionIndex = 9353;
 
 	class OverseaPayManager___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
-		::System::Action* closeCallback; // 0x10
-		::System::String* accountId; // 0x18
-		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x20
-		::System::String* cookieToken; // 0x28
+		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x10
+		::System::Action* closeCallback; // 0x18
+		::System::String* cookieToken; // 0x20
+		::System::String* accountId; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS43_0_CTOR_OFFSET))(this);

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EJGKOIFAFIL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD60D10)
-#define EJGKOIFAFIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD61860)
-#define EJGKOIFAFIL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD610B0)
-#define EJGKOIFAFIL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD60D50)
-#define EJGKOIFAFIL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD615A0)
-#define EJGKOIFAFIL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD61150)
-#define EJGKOIFAFIL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD611A0)
-#define EJGKOIFAFIL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD60F80)
-#define EJGKOIFAFIL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD61540)
-#define EJGKOIFAFIL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD616D0)
-#define EJGKOIFAFIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD61010)
-#define EJGKOIFAFIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD614C0)
+#define EJGKOIFAFIL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F119AF0)
+#define EJGKOIFAFIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11A640)
+#define EJGKOIFAFIL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F119E90)
+#define EJGKOIFAFIL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F119B30)
+#define EJGKOIFAFIL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F11A380)
+#define EJGKOIFAFIL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F119F30)
+#define EJGKOIFAFIL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F119F80)
+#define EJGKOIFAFIL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F119D60)
+#define EJGKOIFAFIL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F11A320)
+#define EJGKOIFAFIL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F11A4B0)
+#define EJGKOIFAFIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F119DF0)
+#define EJGKOIFAFIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F11A2A0)
 
-inline static constexpr unsigned int EJGKOIFAFIL_TypeDefinitionIndex = 15301;
+inline static constexpr unsigned int EJGKOIFAFIL_TypeDefinitionIndex = 15457;
 
 	class EJGKOIFAFIL : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TitanAtlasGroupRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TitanAtlasGroupRow*>**)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0x1260);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0x485C0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0x1268);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0x485C8);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TitanAtlasGroupRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0x1270);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0x720);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TitanAtlasGroupRow*>**)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0x485D0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0x721);
+			return (::System::Boolean*)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0xE0C0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "EJGKOIFAFIL")->GetStaticField(0xE0C1);
 		}
 
 		static ::System::Void _cctor()

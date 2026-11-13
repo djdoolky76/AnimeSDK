@@ -5,13 +5,13 @@ namespace RPG::Client { class GridFightGameRefData; }
 namespace RPG::Client { class GridFightGameRefFilter_GameRefComparer; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER_GAMEREFCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xD16F5C0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER_GAMEREFCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xD16F5B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER_GAMEREFCOMPARER_GETCOMPARER_OFFSET UNITYSDK_OFFSET(0xD16B190)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER_GAMEREFCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CD537B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER_GAMEREFCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD537A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER_GAMEREFCOMPARER_GETCOMPARER_OFFSET UNITYSDK_OFFSET(0x1CD4F390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefFilter_GameRefComparer_TypeDefinitionIndex = 64758;
+	inline static constexpr unsigned int GridFightGameRefFilter_GameRefComparer_TypeDefinitionIndex = 66300;
 
 	class GridFightGameRefFilter_GameRefComparer : public ::System::Object
 	{

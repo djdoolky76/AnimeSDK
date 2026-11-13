@@ -8,13 +8,13 @@ namespace RPG::GameCore { class EntityMoveTrack; }
 namespace RPG::GameCore { class SetTargetTrackMove; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETTRACKMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA98AA0)
-#define RPG_GAMECORE_SETTARGETTRACKMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA98B00)
-#define RPG_GAMECORE_SETTARGETTRACKMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA98A20)
+#define RPG_GAMECORE_SETTARGETTRACKMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E6080)
+#define RPG_GAMECORE_SETTARGETTRACKMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9E60E0)
+#define RPG_GAMECORE_SETTARGETTRACKMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9E6000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetTrackMove_TypeDefinitionIndex = 20171;
+	inline static constexpr unsigned int SetTargetTrackMove_TypeDefinitionIndex = 20505;
 
 	class SetTargetTrackMove : public ::RPG::GameCore::TaskConfig
 	{

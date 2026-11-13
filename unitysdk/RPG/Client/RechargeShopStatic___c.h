@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RECHARGESHOPSTATIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE4F980)
-#define RPG_CLIENT_RECHARGESHOPSTATIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE4F9B0)
-#define RPG_CLIENT_RECHARGESHOPSTATIC___C__COLLECTANDSORTITEMS_B__16_0_OFFSET UNITYSDK_OFFSET(0xDE4F9C0)
-#define RPG_CLIENT_RECHARGESHOPSTATIC___C__COLLECTANDSORTITEMS_B__16_1_OFFSET UNITYSDK_OFFSET(0xDE4F9F0)
+#define RPG_CLIENT_RECHARGESHOPSTATIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D075830)
+#define RPG_CLIENT_RECHARGESHOPSTATIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D075860)
+#define RPG_CLIENT_RECHARGESHOPSTATIC___C__COLLECTANDSORTITEMS_B__16_0_OFFSET UNITYSDK_OFFSET(0x1D075870)
+#define RPG_CLIENT_RECHARGESHOPSTATIC___C__COLLECTANDSORTITEMS_B__16_1_OFFSET UNITYSDK_OFFSET(0x1D0758A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopStatic___c_TypeDefinitionIndex = 66802;
+	inline static constexpr unsigned int RechargeShopStatic___c_TypeDefinitionIndex = 68738;
 
 	class RechargeShopStatic___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ItemConfig*>** StaticGet___9__16_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B790);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A100);
 		}
 
 		static ::System::Comparison_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__16_1()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B798);
+			return (::System::Comparison_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A108);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ItemConfig*>** StaticGet___9__16_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7A0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A110);
 		}
 
 		static ::System::Void _cctor()

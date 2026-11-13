@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FourRotateVoxelLevelCustomCameraParameterConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELCUSTOMCAMERAPARAMETERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C20A0)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELCUSTOMCAMERAPARAMETERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C1F30)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELCUSTOMCAMERAPARAMETERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B5C40)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELCUSTOMCAMERAPARAMETERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B5AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelCustomCameraParameterConfig_TypeDefinitionIndex = 16749;
+	inline static constexpr unsigned int FourRotateVoxelLevelCustomCameraParameterConfig_TypeDefinitionIndex = 16915;
 
 	class FourRotateVoxelLevelCustomCameraParameterConfig : public ::RPG::GameCore::JsonConfig
 	{

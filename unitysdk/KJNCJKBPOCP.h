@@ -6,22 +6,22 @@
 namespace RPG::Client::Prop { class AlchemyItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KJNCJKBPOCP_BHFPNFDCFML_OFFSET UNITYSDK_OFFSET(0xB455F70)
-#define KJNCJKBPOCP_CTOR_OFFSET UNITYSDK_OFFSET(0xB455CB0)
-#define KJNCJKBPOCP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB455C60)
-#define KJNCJKBPOCP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB455D30)
-#define KJNCJKBPOCP_LMKANOGIGIC_OFFSET UNITYSDK_OFFSET(0xB455E50)
-#define KJNCJKBPOCP_MOOHPGOJJNA_OFFSET UNITYSDK_OFFSET(0xB4560A0)
-#define KJNCJKBPOCP_PKJHOCOCGPO_OFFSET UNITYSDK_OFFSET(0xB456110)
+#define KJNCJKBPOCP_BHFPNFDCFML_OFFSET UNITYSDK_OFFSET(0x19F1DBF0)
+#define KJNCJKBPOCP_CTOR_OFFSET UNITYSDK_OFFSET(0x19F1D930)
+#define KJNCJKBPOCP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19F1D8E0)
+#define KJNCJKBPOCP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x19F1D9B0)
+#define KJNCJKBPOCP_LMKANOGIGIC_OFFSET UNITYSDK_OFFSET(0x19F1DAD0)
+#define KJNCJKBPOCP_MOOHPGOJJNA_OFFSET UNITYSDK_OFFSET(0x19F1DD20)
+#define KJNCJKBPOCP_PKJHOCOCGPO_OFFSET UNITYSDK_OFFSET(0x19F1DD90)
 
-inline static constexpr unsigned int KJNCJKBPOCP_TypeDefinitionIndex = 78204;
+inline static constexpr unsigned int KJNCJKBPOCP_TypeDefinitionIndex = 80939;
 
 	class KJNCJKBPOCP : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::Client::Prop::AlchemyLogicType>* EANPEMBGMNC; // 0x10
-		::Il2CppArray<::System::Int32>* ICGHDHFLAKH; // 0x18
-		::Il2CppArray<::System::Int32>* DENCGKDEAHM; // 0x20
+		::Il2CppArray<::System::Int32>* ICGHDHFLAKH; // 0x10
+		::Il2CppArray<::System::Int32>* DENCGKDEAHM; // 0x18
+		::Il2CppArray<::RPG::Client::Prop::AlchemyLogicType>* EANPEMBGMNC; // 0x20
 		::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::Client::Prop::AlchemyItem*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::Prop::AlchemyItem*>*))((::PBYTE)hIl2Cpp + KJNCJKBPOCP_CTOR_OFFSET))(this, a1);

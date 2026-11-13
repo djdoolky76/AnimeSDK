@@ -18,41 +18,41 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1F13C120)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_ABCSYNCDATABEGIN_OFFSET UNITYSDK_OFFSET(0x1F13C240)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1F13DD90)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_ADDMESHCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1F13F330)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_CLEARMOTIONVECTORS_OFFSET UNITYSDK_OFFSET(0x1F13F590)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F13F850)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F13B980)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F13F750)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1F13B920)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GET_SAMPLESUMMARY_OFFSET UNITYSDK_OFFSET(0x1F13B960)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GET_SUMMARY_OFFSET UNITYSDK_OFFSET(0x1F13B940)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1F13B930)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_UPDATESPLITS_OFFSET UNITYSDK_OFFSET(0x1F13BD00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1E57BE70)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_ABCSYNCDATABEGIN_OFFSET UNITYSDK_OFFSET(0x1E57BF90)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1E57DAC0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_ADDMESHCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1E57F070)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_CLEARMOTIONVECTORS_OFFSET UNITYSDK_OFFSET(0x1E57F2D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E57F590)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E57B6C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E57F490)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1E57B660)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GET_SAMPLESUMMARY_OFFSET UNITYSDK_OFFSET(0x1E57B6A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GET_SUMMARY_OFFSET UNITYSDK_OFFSET(0x1E57B680)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1E57B670)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_UPDATESPLITS_OFFSET UNITYSDK_OFFSET(0x1E57BA30)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicMesh_TypeDefinitionIndex = 45854;
+	inline static constexpr unsigned int AlembicMesh_TypeDefinitionIndex = 46883;
 
 	class AlembicMesh : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* m_splits; // 0x28
-		::System::Collections::Generic::List_1<::System::Object*>* m_submeshes; // 0x30
-		::System::Collections::Generic::List_1<::Unity::Jobs::JobHandle>* m_PostProcessJobs; // 0x38
-		::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiMeshSplitSummary> m_splitSummaries; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* m_submeshes; // 0x28
+		::System::Collections::Generic::List_1<::Unity::Jobs::JobHandle>* m_PostProcessJobs; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* m_splits; // 0x38
+		::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshData> m_splitData; // 0x40
 		::System::Byte _padding0[0x8];
-		::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiSubmeshData> m_submeshData; // 0x50
+		::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiSubmeshSummary> m_submeshSummaries; // 0x50
 		::System::Byte _padding1[0x8];
-		::UnityEngine::Formats::Alembic::Sdk::aiPolyMesh m_abcSchema; // 0x60
-		::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiSubmeshSummary> m_submeshSummaries; // 0x68
+		::Unity::Jobs::JobHandle fillVertexBufferHandle; // 0x60
+		::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiSubmeshData> m_submeshData; // 0x70
 		::System::Byte _padding2[0x8];
-		::Unity::Jobs::JobHandle fillVertexBufferHandle; // 0x78
-		::UnityEngine::Formats::Alembic::Sdk::aiMeshSampleSummary m_sampleSummary; // 0x88
-		::UnityEngine::Formats::Alembic::Sdk::aiMeshSummary m_summary; // 0xA0
-		::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshData> m_splitData; // 0xB8
+		::UnityEngine::Formats::Alembic::Sdk::aiMeshSummary m_summary; // 0x80
+		::UnityEngine::Formats::Alembic::Sdk::aiMeshSampleSummary m_sampleSummary; // 0x98
+		::UnityEngine::Formats::Alembic::Sdk::aiPolyMesh m_abcSchema; // 0xB0
+		::Unity::Collections::NativeArray_1<::UnityEngine::Formats::Alembic::Sdk::aiMeshSplitSummary> m_splitSummaries; // 0xB8
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define LCHGNDPBLFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB60F0D0)
-#define LCHGNDPBLFF_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB60F040)
+#define LCHGNDPBLFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC6D9A0)
+#define LCHGNDPBLFF_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x1AC6D910)
 
-inline static constexpr unsigned int LCHGNDPBLFF_TypeDefinitionIndex = 62145;
+inline static constexpr unsigned int LCHGNDPBLFF_TypeDefinitionIndex = 63558;
 
 	class LCHGNDPBLFF : public ::System::Object
 	{

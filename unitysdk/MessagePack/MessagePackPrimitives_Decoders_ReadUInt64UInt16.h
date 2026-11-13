@@ -5,20 +5,20 @@
 #include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 namespace MessagePack { class MessagePackPrimitives_Decoders_ReadUInt64UInt16; }
 
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT16_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB97930)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT16_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB978B0)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT16_READ_OFFSET UNITYSDK_OFFSET(0x1BB978C0)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT16_CCTOR_OFFSET UNITYSDK_OFFSET(0x174D69C0)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT16_CTOR_OFFSET UNITYSDK_OFFSET(0x174D6940)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT16_READ_OFFSET UNITYSDK_OFFSET(0x174D6950)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadUInt64UInt16_TypeDefinitionIndex = 7192;
+	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadUInt64UInt16_TypeDefinitionIndex = 7203;
 
 	class MessagePackPrimitives_Decoders_ReadUInt64UInt16 : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64UInt16** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64UInt16**)UnitySDK::FromName("MessagePack", "ReadUInt64UInt16")->GetStaticField(0x4C7B0);
+			return (::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64UInt16**)UnitySDK::FromName("MessagePack", "ReadUInt64UInt16")->GetStaticField(0x2F810);
 		}
 
 		::System::Void _ctor()

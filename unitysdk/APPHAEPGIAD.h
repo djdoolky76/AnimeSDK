@@ -9,21 +9,21 @@ class PDJAKJNKAJJ;
 class PMHEBAFMEEG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define APPHAEPGIAD_BFFKAFKPCIG_OFFSET UNITYSDK_OFFSET(0x15BB4C20)
-#define APPHAEPGIAD_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB48A0)
-#define APPHAEPGIAD_DHOCFJDCLLN_OFFSET UNITYSDK_OFFSET(0x15BB49F0)
-#define APPHAEPGIAD_FMMFJECBKGP_OFFSET UNITYSDK_OFFSET(0x15BB5190)
-#define APPHAEPGIAD_LIMOIKOOHNP_OFFSET UNITYSDK_OFFSET(0x15BB4EE0)
-#define APPHAEPGIAD_PIMCHDILMMJ_OFFSET UNITYSDK_OFFSET(0x15BB4C90)
+#define APPHAEPGIAD_BFFKAFKPCIG_OFFSET UNITYSDK_OFFSET(0x1851A870)
+#define APPHAEPGIAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1851A4F0)
+#define APPHAEPGIAD_DHOCFJDCLLN_OFFSET UNITYSDK_OFFSET(0x1851A640)
+#define APPHAEPGIAD_FMMFJECBKGP_OFFSET UNITYSDK_OFFSET(0x1851ADE0)
+#define APPHAEPGIAD_LIMOIKOOHNP_OFFSET UNITYSDK_OFFSET(0x1851AB30)
+#define APPHAEPGIAD_PIMCHDILMMJ_OFFSET UNITYSDK_OFFSET(0x1851A8E0)
 
-inline static constexpr unsigned int APPHAEPGIAD_TypeDefinitionIndex = 80778;
+inline static constexpr unsigned int APPHAEPGIAD_TypeDefinitionIndex = 83558;
 
 	class APPHAEPGIAD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCaseBoardAvatarType, ::HFBADOAGDHH*>* EBEAGIAHMOO; // 0x10
-		::EPAAAILJEKE* HPNDAEDOHNN; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCaseBoardAvatarType, ::PMHEBAFMEEG*>* PGHLCHEOBIA; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCaseBoardAvatarType, ::PMHEBAFMEEG*>* PGHLCHEOBIA; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCaseBoardAvatarType, ::HFBADOAGDHH*>* EBEAGIAHMOO; // 0x18
+		::EPAAAILJEKE* HPNDAEDOHNN; // 0x20
 		::System::Void _ctor(::EPAAAILJEKE* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::EPAAAILJEKE*))((::PBYTE)hIl2Cpp + APPHAEPGIAD_CTOR_OFFSET))(this, a1);

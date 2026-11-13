@@ -4,10 +4,10 @@
 class KBMDCFONPMP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KBMDCFONPMP___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB3187E0)
-#define KBMDCFONPMP___C__DISPLAYCLASS3_0__SHOWDATAINFODIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xB31A570)
+#define KBMDCFONPMP___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A46B160)
+#define KBMDCFONPMP___C__DISPLAYCLASS3_0__SHOWDATAINFODIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1A46CEF0)
 
-inline static constexpr unsigned int KBMDCFONPMP___c__DisplayClass3_0_TypeDefinitionIndex = 75320;
+inline static constexpr unsigned int KBMDCFONPMP___c__DisplayClass3_0_TypeDefinitionIndex = 77647;
 
 	class KBMDCFONPMP___c__DisplayClass3_0 : public ::System::Object
 	{

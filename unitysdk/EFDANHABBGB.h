@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ConvinceSplitLineChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EFDANHABBGB_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4A6F0)
-#define EFDANHABBGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A4A720)
+#define EFDANHABBGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A333480)
+#define EFDANHABBGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A3334B0)
 
-inline static constexpr unsigned int EFDANHABBGB_TypeDefinitionIndex = 52713;
+inline static constexpr unsigned int EFDANHABBGB_TypeDefinitionIndex = 53857;
 
 	class EFDANHABBGB
 	{

@@ -5,18 +5,18 @@ class INNLEDLNDNN;
 class KBGHNFJMHHO;
 namespace RPG::GameCore { class GameEntity; }
 
-#define KBGHNFJMHHO___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2F5180)
-#define KBGHNFJMHHO___C__DISPLAYCLASS22_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0xB2F6590)
-#define KBGHNFJMHHO___C__DISPLAYCLASS22_0___CREATEBATTLEEVENTPANEL_B__1_OFFSET UNITYSDK_OFFSET(0xB2F6550)
+#define KBGHNFJMHHO___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19DD6B20)
+#define KBGHNFJMHHO___C__DISPLAYCLASS22_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x19DD7F20)
+#define KBGHNFJMHHO___C__DISPLAYCLASS22_0___CREATEBATTLEEVENTPANEL_B__1_OFFSET UNITYSDK_OFFSET(0x19DD7EE0)
 
-inline static constexpr unsigned int KBGHNFJMHHO___c__DisplayClass22_0_TypeDefinitionIndex = 71628;
+inline static constexpr unsigned int KBGHNFJMHHO___c__DisplayClass22_0_TypeDefinitionIndex = 73616;
 
 	class KBGHNFJMHHO___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* entity; // 0x10
-		::KBGHNFJMHHO* __4__this; // 0x18
-		::INNLEDLNDNN* battleEventPanel; // 0x20
+		::INNLEDLNDNN* battleEventPanel; // 0x18
+		::KBGHNFJMHHO* __4__this; // 0x20
 		::System::UInt32 slotIndex; // 0x28
 		::System::Void _ctor()
 		{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FIGHTFESTLINEUPSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0xCFE6F80)
-#define RPG_CLIENT_FIGHTFESTLINEUPSNAPSHOT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xCFE6F20)
+#define RPG_CLIENT_FIGHTFESTLINEUPSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F97C0)
+#define RPG_CLIENT_FIGHTFESTLINEUPSNAPSHOT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B2F9760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestLineupSnapShot_TypeDefinitionIndex = 64194;
+	inline static constexpr unsigned int FightFestLineupSnapShot_TypeDefinitionIndex = 65639;
 
 	class FightFestLineupSnapShot : public ::System::Object
 	{

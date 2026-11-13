@@ -4,18 +4,18 @@
 class MCJANHINPDO;
 namespace System { class Object; }
 
-#define MCJANHINPDO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9CCBF0)
-#define MCJANHINPDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9CCC30)
-#define MCJANHINPDO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E9CCC40)
+#define MCJANHINPDO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD43C40)
+#define MCJANHINPDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD43C80)
+#define MCJANHINPDO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FD43C90)
 
-inline static constexpr unsigned int MCJANHINPDO___c_TypeDefinitionIndex = 32419;
+inline static constexpr unsigned int MCJANHINPDO___c_TypeDefinitionIndex = 33332;
 
 	class MCJANHINPDO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AA00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49BE0);
 		}
 
 		static ::System::Void _cctor()

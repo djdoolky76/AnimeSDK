@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBA5A00)
-#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0xCBA5B80)
-#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_GET_ITEM__OFFSET UNITYSDK_OFFSET(0xCBA5B60)
-#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_GET_RESBARPAGEKEY_OFFSET UNITYSDK_OFFSET(0xCBA5B70)
+#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C988250)
+#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0x1C9883D0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_GET_ITEM__OFFSET UNITYSDK_OFFSET(0x1C9883B0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_GET_RESBARPAGEKEY_OFFSET UNITYSDK_OFFSET(0x1C9883C0)
 
 namespace RPG::Client::Compliance::Ftc::DirectPurchase
 {
-	inline static constexpr unsigned int FtcDirectPurchase_TypeDefinitionIndex = 74830;
+	inline static constexpr unsigned int FtcDirectPurchase_TypeDefinitionIndex = 77001;
 
 	class FtcDirectPurchase : public ::System::Object
 	{
 	public:
-		::System::String* _ResBarPageKey_k__BackingField; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchaseEntry*>* _EntriesReadOnly; // 0x10
 		::RPG::Client::ItemData* _Item__k__BackingField; // 0x18
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchaseEntry*>* _EntriesReadOnly; // 0x20
-		::Il2CppArray<::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchaseEntry*>* _Entries; // 0x28
+		::Il2CppArray<::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchaseEntry*>* _Entries; // 0x20
+		::System::String* _ResBarPageKey_k__BackingField; // 0x28
 		::System::Void _ctor(::RPG::Client::ItemData* a1, ::System::String* a2, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchaseEntry*>* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchaseEntry*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASE_CTOR_OFFSET))(this, a1, a2, a3);

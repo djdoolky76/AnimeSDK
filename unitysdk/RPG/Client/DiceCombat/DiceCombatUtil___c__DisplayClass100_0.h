@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS100_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC3AC20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS100_0__TRYACCEPTMATCHINVITATION_B__0_OFFSET UNITYSDK_OFFSET(0xCC3B830)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS100_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C51E1F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS100_0__TRYACCEPTMATCHINVITATION_B__0_OFFSET UNITYSDK_OFFSET(0x1C5210F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass100_0_TypeDefinitionIndex = 76099;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass100_0_TypeDefinitionIndex = 78426;
 
 	class DiceCombatUtil___c__DisplayClass100_0 : public ::System::Object
 	{

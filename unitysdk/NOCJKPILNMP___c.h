@@ -4,18 +4,18 @@
 class NOCJKPILNMP;
 namespace System { class Object; }
 
-#define NOCJKPILNMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB5BBD0)
-#define NOCJKPILNMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5BC10)
-#define NOCJKPILNMP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB5BC20)
+#define NOCJKPILNMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB6B660)
+#define NOCJKPILNMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB6B6A0)
+#define NOCJKPILNMP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FB6B6B0)
 
-inline static constexpr unsigned int NOCJKPILNMP___c_TypeDefinitionIndex = 33389;
+inline static constexpr unsigned int NOCJKPILNMP___c_TypeDefinitionIndex = 34304;
 
 	class NOCJKPILNMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAFB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52E80);
 		}
 
 		static ::System::Void _cctor()

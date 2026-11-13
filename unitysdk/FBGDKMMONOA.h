@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckRoleTrialNormalWaveShowDetail; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBGDKMMONOA_CTOR_OFFSET UNITYSDK_OFFSET(0x156900B0)
-#define FBGDKMMONOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156900E0)
+#define FBGDKMMONOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA4C3F0)
+#define FBGDKMMONOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BA4C420)
 
-inline static constexpr unsigned int FBGDKMMONOA_TypeDefinitionIndex = 54508;
+inline static constexpr unsigned int FBGDKMMONOA_TypeDefinitionIndex = 55673;
 
 	class FBGDKMMONOA
 	{

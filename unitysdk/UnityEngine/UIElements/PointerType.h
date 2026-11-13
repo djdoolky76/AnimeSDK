@@ -3,35 +3,35 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_POINTERTYPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F492340)
-#define UNITYENGINE_UIELEMENTS_POINTERTYPE_GETPOINTERTYPE_OFFSET UNITYSDK_OFFSET(0x1F4922A0)
-#define UNITYENGINE_UIELEMENTS_POINTERTYPE_ISDIRECTMANIPULATIONDEVICE_OFFSET UNITYSDK_OFFSET(0x1F48F240)
+#define UNITYENGINE_UIELEMENTS_POINTERTYPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD54B0)
+#define UNITYENGINE_UIELEMENTS_POINTERTYPE_GETPOINTERTYPE_OFFSET UNITYSDK_OFFSET(0x1EFD5410)
+#define UNITYENGINE_UIELEMENTS_POINTERTYPE_ISDIRECTMANIPULATIONDEVICE_OFFSET UNITYSDK_OFFSET(0x1EFD23B0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerType_TypeDefinitionIndex = 5976;
+	inline static constexpr unsigned int PointerType_TypeDefinitionIndex = 5984;
 
 	class PointerType : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_mouse()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "PointerType")->GetStaticField(0x2E190);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "PointerType")->GetStaticField(0x1BA60);
 		}
 
 		static ::System::String** StaticGet_pen()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "PointerType")->GetStaticField(0x2E198);
-		}
-
-		static ::System::String** StaticGet_touch()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "PointerType")->GetStaticField(0x2E1A0);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "PointerType")->GetStaticField(0x1BA68);
 		}
 
 		static ::System::String** StaticGet_unknown()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "PointerType")->GetStaticField(0x2E1A8);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "PointerType")->GetStaticField(0x1BA70);
+		}
+
+		static ::System::String** StaticGet_touch()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "PointerType")->GetStaticField(0x1BA78);
 		}
 
 		static ::System::Void _cctor()

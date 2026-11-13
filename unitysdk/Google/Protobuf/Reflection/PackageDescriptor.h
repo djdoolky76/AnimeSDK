@@ -4,21 +4,21 @@
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1B877530)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1B877560)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1B877550)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B877540)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F38F200)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1F38F230)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1F38F220)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1F38F210)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 5558;
+	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 5563;
 
 	class PackageDescriptor : public ::System::Object
 	{
 	public:
-		::System::String* fullName; // 0x10
+		::System::String* name; // 0x10
 		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x18
-		::System::String* name; // 0x20
+		::System::String* fullName; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::Google::Protobuf::Reflection::FileDescriptor* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Google::Protobuf::Reflection::FileDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_CTOR_OFFSET))(this, a1, a2, a3);

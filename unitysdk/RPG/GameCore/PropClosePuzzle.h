@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropClosePuzzle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCLOSEPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D918330)
-#define RPG_GAMECORE_PROPCLOSEPUZZLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D918360)
-#define RPG_GAMECORE_PROPCLOSEPUZZLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9182E0)
+#define RPG_GAMECORE_PROPCLOSEPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF820F0)
+#define RPG_GAMECORE_PROPCLOSEPUZZLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF82120)
+#define RPG_GAMECORE_PROPCLOSEPUZZLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF820A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropClosePuzzle_TypeDefinitionIndex = 20367;
+	inline static constexpr unsigned int PropClosePuzzle_TypeDefinitionIndex = 20702;
 
 	class PropClosePuzzle : public ::RPG::GameCore::TaskConfig
 	{

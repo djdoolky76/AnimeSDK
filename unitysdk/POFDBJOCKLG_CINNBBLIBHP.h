@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/QingQueEnergyBarIconType.h"
 
-#define POFDBJOCKLG_CINNBBLIBHP_COMPARETO_OFFSET UNITYSDK_OFFSET(0xDF480)
+#define POFDBJOCKLG_CINNBBLIBHP_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3E00170)
 
-inline static constexpr unsigned int POFDBJOCKLG_CINNBBLIBHP_TypeDefinitionIndex = 55293;
+inline static constexpr unsigned int POFDBJOCKLG_CINNBBLIBHP_TypeDefinitionIndex = 56474;
 
 	struct alignas(4) POFDBJOCKLG_CINNBBLIBHP
 	{

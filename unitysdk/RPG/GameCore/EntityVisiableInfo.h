@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EntityVisiableInfo; }
 
-#define RPG_GAMECORE_ENTITYVISIABLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D64D740)
-#define RPG_GAMECORE_ENTITYVISIABLEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D64D650)
+#define RPG_GAMECORE_ENTITYVISIABLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F2B40)
+#define RPG_GAMECORE_ENTITYVISIABLEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0F2A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityVisiableInfo_TypeDefinitionIndex = 21853;
+	inline static constexpr unsigned int EntityVisiableInfo_TypeDefinitionIndex = 22244;
 
 	class EntityVisiableInfo : public ::RPG::GameCore::JsonConfig
 	{

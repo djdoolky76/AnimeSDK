@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 class NPCKPMGEFLE;
 namespace RPG::GameCore { class HeliobusSpecialPostRow; }
 
-#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D737E60)
-#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D737C50)
+#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA870A0)
+#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA86E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusSpecialPostRow_TypeDefinitionIndex = 13745;
+	inline static constexpr unsigned int HeliobusSpecialPostRow_TypeDefinitionIndex = 13902;
 
 	class HeliobusSpecialPostRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TemplateIDList; // 0x10
-		::Il2CppArray<::NPCKPMGEFLE*>* Likes; // 0x18
-		::Il2CppArray<::System::UInt32>* PostImgIDList; // 0x20
+		::Il2CppArray<::NPCKPMGEFLE*>* Likes; // 0x10
+		::Il2CppArray<::System::UInt32>* PostImgIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* TemplateIDList; // 0x20
 		::System::UInt32 HeliobusSpecialPostID; // 0x28
 		::System::UInt32 SubMissionID; // 0x2C
 		::System::Void _ctor()

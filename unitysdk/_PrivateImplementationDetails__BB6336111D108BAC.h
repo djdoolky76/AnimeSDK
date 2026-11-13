@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define _PRIVATEIMPLEMENTATIONDETAILS__BB6336111D108BAC_COMPUTESTRINGHASH_OFFSET UNITYSDK_OFFSET(0x1EE537F0)
+#define _PRIVATEIMPLEMENTATIONDETAILS__BB6336111D108BAC_COMPUTESTRINGHASH_OFFSET UNITYSDK_OFFSET(0x208294E0)
 
 inline static constexpr unsigned int _PrivateImplementationDetails__BB6336111D108BAC_TypeDefinitionIndex = 3912;
 

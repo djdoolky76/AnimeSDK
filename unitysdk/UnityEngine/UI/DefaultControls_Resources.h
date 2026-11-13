@@ -4,7 +4,7 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int DefaultControls_Resources_TypeDefinitionIndex = 6706;
+	inline static constexpr unsigned int DefaultControls_Resources_TypeDefinitionIndex = 6717;
 
 	struct alignas(8) DefaultControls_Resources
 	{

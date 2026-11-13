@@ -4,12 +4,12 @@
 class GKCNOIGHOPM;
 namespace RPG::Client { class CakeRaceHandbookCatItem; }
 
-#define RPG_CLIENT_CAKERACEHANDBOOKINFO___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC916B80)
-#define RPG_CLIENT_CAKERACEHANDBOOKINFO___C__DISPLAYCLASS11_0___SYNCLIST_B__1_OFFSET UNITYSDK_OFFSET(0xC916CB0)
+#define RPG_CLIENT_CAKERACEHANDBOOKINFO___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FC200)
+#define RPG_CLIENT_CAKERACEHANDBOOKINFO___C__DISPLAYCLASS11_0___SYNCLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1D2FC330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceHandbookInfo___c__DisplayClass11_0_TypeDefinitionIndex = 63048;
+	inline static constexpr unsigned int CakeRaceHandbookInfo___c__DisplayClass11_0_TypeDefinitionIndex = 64486;
 
 	class CakeRaceHandbookInfo___c__DisplayClass11_0 : public ::System::Object
 	{

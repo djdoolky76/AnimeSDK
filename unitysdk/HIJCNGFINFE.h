@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CreateAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIJCNGFINFE_CTOR_OFFSET UNITYSDK_OFFSET(0x15CDE540)
-#define HIJCNGFINFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CDE570)
+#define HIJCNGFINFE_CTOR_OFFSET UNITYSDK_OFFSET(0x19038250)
+#define HIJCNGFINFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19038280)
 
-inline static constexpr unsigned int HIJCNGFINFE_TypeDefinitionIndex = 54976;
+inline static constexpr unsigned int HIJCNGFINFE_TypeDefinitionIndex = 56150;
 
 	class HIJCNGFINFE
 	{

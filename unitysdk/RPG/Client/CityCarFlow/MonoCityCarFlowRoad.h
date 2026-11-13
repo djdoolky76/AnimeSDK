@@ -5,12 +5,12 @@ namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWROAD_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB6ACE0)
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWROAD_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6AD90)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWROAD_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CFFE320)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWROAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFE3D0)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarFlowRoad_TypeDefinitionIndex = 82232;
+	inline static constexpr unsigned int MonoCityCarFlowRoad_TypeDefinitionIndex = 85105;
 
 	class MonoCityCarFlowRoad : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimAvatarMoveAbilityConfig; }
 
-#define RPG_GAMECORE_FIVEDIMAVATARMOVEABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D682870)
-#define RPG_GAMECORE_FIVEDIMAVATARMOVEABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D682440)
+#define RPG_GAMECORE_FIVEDIMAVATARMOVEABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84F730)
+#define RPG_GAMECORE_FIVEDIMAVATARMOVEABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E84F300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAvatarMoveAbilityConfig_TypeDefinitionIndex = 16708;
+	inline static constexpr unsigned int FiveDimAvatarMoveAbilityConfig_TypeDefinitionIndex = 16874;
 
 	class FiveDimAvatarMoveAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{

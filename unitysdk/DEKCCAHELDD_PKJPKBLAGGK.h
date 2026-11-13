@@ -4,9 +4,9 @@
 class AFOPMEOBPCM;
 class KANKEPCJION_JNLBIIDFHMK;
 
-#define DEKCCAHELDD_PKJPKBLAGGK_CTOR_OFFSET UNITYSDK_OFFSET(0xE511430)
+#define DEKCCAHELDD_PKJPKBLAGGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B378400)
 
-inline static constexpr unsigned int DEKCCAHELDD_PKJPKBLAGGK_TypeDefinitionIndex = 71873;
+inline static constexpr unsigned int DEKCCAHELDD_PKJPKBLAGGK_TypeDefinitionIndex = 73894;
 
 	class DEKCCAHELDD_PKJPKBLAGGK : public ::System::Object
 	{

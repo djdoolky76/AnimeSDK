@@ -9,17 +9,17 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class BlockNodeConfig; }
 namespace System { class String; }
 
-#define PBLLFGEOEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEB3F0)
-#define PBLLFGEOEDE_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0xBFEB590)
-#define PBLLFGEOEDE_GETASSETPATH_OFFSET UNITYSDK_OFFSET(0xBFEB430)
+#define PBLLFGEOEDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC1DE0)
+#define PBLLFGEOEDE_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0x1AAC1F80)
+#define PBLLFGEOEDE_GETASSETPATH_OFFSET UNITYSDK_OFFSET(0x1AAC1E20)
 
-inline static constexpr unsigned int PBLLFGEOEDE_TypeDefinitionIndex = 73801;
+inline static constexpr unsigned int PBLLFGEOEDE_TypeDefinitionIndex = 75927;
 
 	class PBLLFGEOEDE : public ::GDKHHPPIFBC
 	{
 	public:
-		::FCFKPLDONLO* PBLAJAEOCCM; // 0xD8
-		::FCFKPLDONLO* PNMDLMPDMCL; // 0xE0
+		::FCFKPLDONLO* PNMDLMPDMCL; // 0xD8
+		::FCFKPLDONLO* PBLAJAEOCCM; // 0xE0
 		::System::Void _ctor(::RPG::GameCore::BlockNodeConfig* a1, ::GEEOPFIMJEM a2, ::DGPKLNNFELK* a3, ::KDEFLDJHDEB* a4, ::System::String* a5, ::RPG::Client::OpenWorld::StreamingItemData* a6)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BlockNodeConfig*, ::GEEOPFIMJEM, ::DGPKLNNFELK*, ::KDEFLDJHDEB*, ::System::String*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + PBLLFGEOEDE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);

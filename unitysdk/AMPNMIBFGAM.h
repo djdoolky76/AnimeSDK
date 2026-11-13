@@ -9,23 +9,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define AMPNMIBFGAM_CTOR_OFFSET UNITYSDK_OFFSET(0x15583300)
-#define AMPNMIBFGAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15583D30)
-#define AMPNMIBFGAM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15583C40)
-#define AMPNMIBFGAM_KEAFKKMLOKE_OFFSET UNITYSDK_OFFSET(0x155835A0)
-#define AMPNMIBFGAM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15583510)
-#define AMPNMIBFGAM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15583550)
+#define AMPNMIBFGAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A818E30)
+#define AMPNMIBFGAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A819860)
+#define AMPNMIBFGAM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1A819770)
+#define AMPNMIBFGAM_KEAFKKMLOKE_OFFSET UNITYSDK_OFFSET(0x1A8190D0)
+#define AMPNMIBFGAM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1A819040)
+#define AMPNMIBFGAM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1A819080)
 
-inline static constexpr unsigned int AMPNMIBFGAM_TypeDefinitionIndex = 78470;
+inline static constexpr unsigned int AMPNMIBFGAM_TypeDefinitionIndex = 81205;
 
 	class AMPNMIBFGAM : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraPreparationStateControllerBase* DDCEKHJGMMJ; // 0x10
-		::NOKCGCNICDJ* IPLGCJPLIKH; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::UnityEngine::GameObject*>* MEELBMCGOFK; // 0x20
-		::UnityEngine::Transform* GKNBCPMJHMN; // 0x28
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* IAIHPPPOMFD; // 0x30
+		::UnityEngine::Transform* GKNBCPMJHMN; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* IAIHPPPOMFD; // 0x18
+		::NOKCGCNICDJ* IPLGCJPLIKH; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::UnityEngine::GameObject*>* MEELBMCGOFK; // 0x28
+		::RPG::Client::Prop::ChimeraPreparationStateControllerBase* DDCEKHJGMMJ; // 0x30
 		::System::Void _ctor(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a1, ::UnityEngine::Transform* a2, ::NOKCGCNICDJ* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::UnityEngine::Transform*, ::NOKCGCNICDJ*))((::PBYTE)hIl2Cpp + AMPNMIBFGAM_CTOR_OFFSET))(this, a1, a2, a3);

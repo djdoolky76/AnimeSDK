@@ -4,10 +4,10 @@
 class FMMKENDGOPH;
 class NJCHNLINLMK;
 
-#define ILFMALDFDGO___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164A2C20)
-#define ILFMALDFDGO___C__DISPLAYCLASS7_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x164A2C30)
+#define ILFMALDFDGO___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B593710)
+#define ILFMALDFDGO___C__DISPLAYCLASS7_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1B593720)
 
-inline static constexpr unsigned int ILFMALDFDGO___c__DisplayClass7_0_TypeDefinitionIndex = 82283;
+inline static constexpr unsigned int ILFMALDFDGO___c__DisplayClass7_0_TypeDefinitionIndex = 85156;
 
 	class ILFMALDFDGO___c__DisplayClass7_0 : public ::System::Object
 	{

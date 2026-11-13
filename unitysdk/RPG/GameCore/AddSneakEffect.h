@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AddSneakEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDSNEAKEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35DED0)
-#define RPG_GAMECORE_ADDSNEAKEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35DEE0)
-#define RPG_GAMECORE_ADDSNEAKEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35DEA0)
+#define RPG_GAMECORE_ADDSNEAKEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA5CE0)
+#define RPG_GAMECORE_ADDSNEAKEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAA5CF0)
+#define RPG_GAMECORE_ADDSNEAKEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA5CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddSneakEffect_TypeDefinitionIndex = 22232;
+	inline static constexpr unsigned int AddSneakEffect_TypeDefinitionIndex = 22637;
 
 	class AddSneakEffect : public ::RPG::GameCore::TaskConfig
 	{

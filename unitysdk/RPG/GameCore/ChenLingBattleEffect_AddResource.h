@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleResource; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleEffect_AddResource; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECT_ADDRESOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5563C0)
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECT_ADDRESOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5563D0)
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECT_ADDRESOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D556370)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECT_ADDRESOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F357850)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECT_ADDRESOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F357860)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECT_ADDRESOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F357800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleEffect_AddResource_TypeDefinitionIndex = 15794;
+	inline static constexpr unsigned int ChenLingBattleEffect_AddResource_TypeDefinitionIndex = 15952;
 
 	class ChenLingBattleEffect_AddResource : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{

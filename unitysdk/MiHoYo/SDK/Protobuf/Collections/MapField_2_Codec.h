@@ -5,7 +5,7 @@ namespace MiHoYo::SDK::Protobuf { template <typename T> class FieldCodec_1; }
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_Codec_TypeDefinitionIndex = 35860;
+	inline static constexpr unsigned int MapField_2_Codec_TypeDefinitionIndex = 36788;
 
 	template <typename T1, typename T2>
 	class MapField_2_Codec : public ::System::Object

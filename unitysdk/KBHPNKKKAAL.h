@@ -3,7 +3,7 @@
 class BJHMBGLPOLB;
 class OOCCBMLAELL;
 
-inline static constexpr unsigned int KBHPNKKKAAL_TypeDefinitionIndex = 55998;
+inline static constexpr unsigned int KBHPNKKKAAL_TypeDefinitionIndex = 57201;
 
 	struct alignas(8) KBHPNKKKAAL
 	{

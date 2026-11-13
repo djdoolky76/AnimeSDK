@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NOIBOPEACAC_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE9700)
-#define NOIBOPEACAC_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBCE96C0)
-#define NOIBOPEACAC_GET_NUM_OFFSET UNITYSDK_OFFSET(0xBCE96E0)
-#define NOIBOPEACAC_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBCE96D0)
-#define NOIBOPEACAC_SET_NUM_OFFSET UNITYSDK_OFFSET(0xBCE96F0)
+#define NOIBOPEACAC_CTOR_OFFSET UNITYSDK_OFFSET(0x19CE85B0)
+#define NOIBOPEACAC_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19CE8570)
+#define NOIBOPEACAC_GET_NUM_OFFSET UNITYSDK_OFFSET(0x19CE8590)
+#define NOIBOPEACAC_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19CE8580)
+#define NOIBOPEACAC_SET_NUM_OFFSET UNITYSDK_OFFSET(0x19CE85A0)
 
-inline static constexpr unsigned int NOIBOPEACAC_TypeDefinitionIndex = 79631;
+inline static constexpr unsigned int NOIBOPEACAC_TypeDefinitionIndex = 82408;
 
 	class NOIBOPEACAC : public ::System::Object
 	{
 	public:
-		::System::Boolean _IsActive_k__BackingField; // 0x10
-		::System::Byte _padding0[0x3];
-		::System::Int32 _Num_k__BackingField; // 0x14
+		::System::Int32 _Num_k__BackingField; // 0x10
+		::System::Boolean _IsActive_k__BackingField; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NOIBOPEACAC_CTOR_OFFSET))(this);

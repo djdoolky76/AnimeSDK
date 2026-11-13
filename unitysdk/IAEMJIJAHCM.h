@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IAEMJIJAHCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEABE10)
+#define IAEMJIJAHCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6A59E0)
 
-inline static constexpr unsigned int IAEMJIJAHCM_TypeDefinitionIndex = 25033;
+inline static constexpr unsigned int IAEMJIJAHCM_TypeDefinitionIndex = 25511;
 
 	class IAEMJIJAHCM : public ::System::Attribute
 	{

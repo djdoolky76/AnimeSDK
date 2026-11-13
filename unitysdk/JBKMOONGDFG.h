@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AdvModifyMaxMazeMP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBKMOONGDFG_CTOR_OFFSET UNITYSDK_OFFSET(0x16563890)
-#define JBKMOONGDFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x165638A0)
-#define JBKMOONGDFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165638E0)
-#define JBKMOONGDFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16563A10)
-#define JBKMOONGDFG_TICK_OFFSET UNITYSDK_OFFSET(0x16563A60)
+#define JBKMOONGDFG_CTOR_OFFSET UNITYSDK_OFFSET(0x19A73DE0)
+#define JBKMOONGDFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19A73DF0)
+#define JBKMOONGDFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A73E30)
+#define JBKMOONGDFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19A73F60)
+#define JBKMOONGDFG_TICK_OFFSET UNITYSDK_OFFSET(0x19A73FB0)
 
-inline static constexpr unsigned int JBKMOONGDFG_TypeDefinitionIndex = 57879;
+inline static constexpr unsigned int JBKMOONGDFG_TypeDefinitionIndex = 59116;
 
 	class JBKMOONGDFG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::AdvModifyMaxMazeMP* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::AdvModifyMaxMazeMP* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvModifyMaxMazeMP* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvModifyMaxMazeMP*))((::PBYTE)hIl2Cpp + JBKMOONGDFG_CTOR_OFFSET))(this, a1, a2);

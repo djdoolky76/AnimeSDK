@@ -4,10 +4,10 @@
 class MLEHLBPAAKM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ICEDIJHDAIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C662D80)
-#define ICEDIJHDAIA_FGLGLHDAEDE_OFFSET UNITYSDK_OFFSET(0x1C63A330)
+#define ICEDIJHDAIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C94B3C0)
+#define ICEDIJHDAIA_FGLGLHDAEDE_OFFSET UNITYSDK_OFFSET(0x1C922B30)
 
-inline static constexpr unsigned int ICEDIJHDAIA_TypeDefinitionIndex = 36513;
+inline static constexpr unsigned int ICEDIJHDAIA_TypeDefinitionIndex = 37441;
 
 	class ICEDIJHDAIA : public ::System::Object
 	{

@@ -4,23 +4,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightRandomBonusPoolConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70E290)
-#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D70E060)
-#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_GETRUNTIMERANDOMRECORDARR_OFFSET UNITYSDK_OFFSET(0x1D70E300)
-#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_GETRUNTIMEWEIGHTARR_OFFSET UNITYSDK_OFFSET(0x1D70E2A0)
+#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5A2B0)
+#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA5A080)
+#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_GETRUNTIMERANDOMRECORDARR_OFFSET UNITYSDK_OFFSET(0x1EA5A320)
+#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_GETRUNTIMEWEIGHTARR_OFFSET UNITYSDK_OFFSET(0x1EA5A2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRandomBonusPoolConfigRow_TypeDefinitionIndex = 13416;
+	inline static constexpr unsigned int GridFightRandomBonusPoolConfigRow_TypeDefinitionIndex = 13488;
 
 	class GridFightRandomBonusPoolConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* BonusWeightList; // 0x10
-		::Il2CppArray<::System::UInt32>* BonusList; // 0x18
-		::Il2CppArray<::System::UInt32>* _RuntimeRandomWeightArr; // 0x20
+		::Il2CppArray<::System::UInt32>* _RuntimeRandomWeightArr; // 0x10
+		::Il2CppArray<::System::UInt32>* _RuntimeRandomRecordArr; // 0x18
+		::Il2CppArray<::System::UInt32>* BonusWeightList; // 0x20
 		::Il2CppArray<::System::UInt32>* BonusMaxNumberList; // 0x28
-		::Il2CppArray<::System::UInt32>* _RuntimeRandomRecordArr; // 0x30
+		::Il2CppArray<::System::UInt32>* BonusList; // 0x30
 		::System::UInt32 TotalValue; // 0x38
 		::System::UInt32 RandomBonusID; // 0x3C
 		::System::Void _ctor()

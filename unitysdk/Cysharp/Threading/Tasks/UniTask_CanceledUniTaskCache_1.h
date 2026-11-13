@@ -5,7 +5,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_CanceledUniTaskCache_1_TypeDefinitionIndex = 38242;
+	inline static constexpr unsigned int UniTask_CanceledUniTaskCache_1_TypeDefinitionIndex = 39171;
 
 	template <typename T>
 	class UniTask_CanceledUniTaskCache_1 : public ::System::Object

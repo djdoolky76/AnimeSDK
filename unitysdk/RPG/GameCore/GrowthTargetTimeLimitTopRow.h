@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GrowthTargetTimeLimitTopRow; }
 
-#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71F6D0)
-#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71F5B0)
+#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6E940)
+#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA6E820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GrowthTargetTimeLimitTopRow_TypeDefinitionIndex = 13369;
+	inline static constexpr unsigned int GrowthTargetTimeLimitTopRow_TypeDefinitionIndex = 13441;
 
 	class GrowthTargetTimeLimitTopRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ActivityModule; // 0x10
-		::System::UInt32 GachaID; // 0x14
+		::System::UInt32 GachaID; // 0x10
+		::System::UInt32 ActivityModule; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_CTOR_OFFSET))(this);

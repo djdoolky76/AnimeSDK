@@ -6,12 +6,12 @@ namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class FourRotateVoxelEntityStateActionConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATEACTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C0000)
-#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATEACTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BFE00)
+#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATEACTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B3C80)
+#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATEACTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B3A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelEntityStateActionConfig_TypeDefinitionIndex = 16764;
+	inline static constexpr unsigned int FourRotateVoxelEntityStateActionConfig_TypeDefinitionIndex = 16930;
 
 	class FourRotateVoxelEntityStateActionConfig : public ::RPG::GameCore::JsonConfig
 	{

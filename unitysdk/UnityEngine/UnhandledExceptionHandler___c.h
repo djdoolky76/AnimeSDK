@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class UnhandledExceptionEventArgs; }
 namespace System { class UnhandledExceptionEventHandler; }
 
-#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F40D0C0)
-#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F40D0F0)
-#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C__REGISTERUECATCHER_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F40D100)
+#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20745DC0)
+#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20745DF0)
+#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C__REGISTERUECATCHER_B__0_0_OFFSET UNITYSDK_OFFSET(0x20745E00)
 
 namespace UnityEngine
 {
@@ -16,14 +16,14 @@ namespace UnityEngine
 	class UnhandledExceptionHandler___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0x16DA0);
-		}
-
 		static ::System::UnhandledExceptionEventHandler** StaticGet___9__0_0()
 		{
-			return (::System::UnhandledExceptionEventHandler**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0x16DA8);
+			return (::System::UnhandledExceptionEventHandler**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0x14F00);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0x14F08);
 		}
 
 		static ::System::Void _cctor()

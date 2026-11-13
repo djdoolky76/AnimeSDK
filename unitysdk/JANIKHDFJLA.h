@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LevelCurveInstance; }
 
-#define JANIKHDFJLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1654DF40)
+#define JANIKHDFJLA_CTOR_OFFSET UNITYSDK_OFFSET(0x19A5DE00)
 
-inline static constexpr unsigned int JANIKHDFJLA_TypeDefinitionIndex = 64239;
+inline static constexpr unsigned int JANIKHDFJLA_TypeDefinitionIndex = 65684;
 
 	class JANIKHDFJLA : public ::System::Object
 	{

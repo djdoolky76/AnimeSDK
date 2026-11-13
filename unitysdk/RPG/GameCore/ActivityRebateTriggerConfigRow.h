@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRebateTriggerConfigRow; }
 
-#define RPG_GAMECORE_ACTIVITYREBATETRIGGERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D34ED30)
-#define RPG_GAMECORE_ACTIVITYREBATETRIGGERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34EBF0)
+#define RPG_GAMECORE_ACTIVITYREBATETRIGGERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA96B90)
+#define RPG_GAMECORE_ACTIVITYREBATETRIGGERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA96A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRebateTriggerConfigRow_TypeDefinitionIndex = 12331;
+	inline static constexpr unsigned int ActivityRebateTriggerConfigRow_TypeDefinitionIndex = 12398;
 
 	class ActivityRebateTriggerConfigRow : public ::System::Object
 	{

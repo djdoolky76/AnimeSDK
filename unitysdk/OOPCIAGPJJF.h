@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasInsertAbilityPending; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOPCIAGPJJF_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8DE10)
-#define OOPCIAGPJJF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF8DE40)
+#define OOPCIAGPJJF_CTOR_OFFSET UNITYSDK_OFFSET(0x196B55D0)
+#define OOPCIAGPJJF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x196B5600)
 
-inline static constexpr unsigned int OOPCIAGPJJF_TypeDefinitionIndex = 54614;
+inline static constexpr unsigned int OOPCIAGPJJF_TypeDefinitionIndex = 55780;
 
 	class OOPCIAGPJJF
 	{

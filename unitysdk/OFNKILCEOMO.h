@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define OFNKILCEOMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE42A10)
+#define OFNKILCEOMO_CTOR_OFFSET UNITYSDK_OFFSET(0x18DEFD10)
 
-inline static constexpr unsigned int OFNKILCEOMO_TypeDefinitionIndex = 67788;
+inline static constexpr unsigned int OFNKILCEOMO_TypeDefinitionIndex = 69733;
 
 	class OFNKILCEOMO : public ::System::Object
 	{

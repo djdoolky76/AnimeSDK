@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LimaoNews { class LimaoNewsPostViewModel; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSFORUMVIEWMODEL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3A0A50)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSFORUMVIEWMODEL___C__DISPLAYCLASS8_0__TRYOPENPOSTDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0xD3A1510)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSFORUMVIEWMODEL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFED50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSFORUMVIEWMODEL___C__DISPLAYCLASS8_0__TRYOPENPOSTDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1CEFF810)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsForumViewModel___c__DisplayClass8_0_TypeDefinitionIndex = 80461;
+	inline static constexpr unsigned int LimaoNewsForumViewModel___c__DisplayClass8_0_TypeDefinitionIndex = 83241;
 
 	class LimaoNewsForumViewModel___c__DisplayClass8_0 : public ::System::Object
 	{

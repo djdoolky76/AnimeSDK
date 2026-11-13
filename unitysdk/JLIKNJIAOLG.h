@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByTargetToTeamCenterDistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JLIKNJIAOLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB245B70)
-#define JLIKNJIAOLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB245C50)
+#define JLIKNJIAOLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A094300)
+#define JLIKNJIAOLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A0943E0)
 
-inline static constexpr unsigned int JLIKNJIAOLG_TypeDefinitionIndex = 55473;
+inline static constexpr unsigned int JLIKNJIAOLG_TypeDefinitionIndex = 56661;
 
 	class JLIKNJIAOLG
 	{

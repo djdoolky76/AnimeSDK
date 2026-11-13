@@ -3,7 +3,7 @@
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SDLPlayStation5NativeProfile_ProductId_TypeDefinitionIndex = 41289;
+	inline static constexpr unsigned int SDLPlayStation5NativeProfile_ProductId_TypeDefinitionIndex = 42264;
 
 	enum class SDLPlayStation5NativeProfile_ProductId : ::System::UInt16
 	{

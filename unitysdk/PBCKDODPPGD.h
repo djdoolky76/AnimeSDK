@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RebuildTimeRewindEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBCKDODPPGD_CTOR_OFFSET UNITYSDK_OFFSET(0xBFDB4B0)
-#define PBCKDODPPGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFDB4E0)
+#define PBCKDODPPGD_CTOR_OFFSET UNITYSDK_OFFSET(0x18AF3440)
+#define PBCKDODPPGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AF3470)
 
-inline static constexpr unsigned int PBCKDODPPGD_TypeDefinitionIndex = 53383;
+inline static constexpr unsigned int PBCKDODPPGD_TypeDefinitionIndex = 54545;
 
 	class PBCKDODPPGD
 	{

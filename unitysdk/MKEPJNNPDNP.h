@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 class AEHGMMGLPAB;
 
-#define MKEPJNNPDNP_CAIMHGNFNOF_OFFSET UNITYSDK_OFFSET(0xB98D6E0)
-#define MKEPJNNPDNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB98D780)
+#define MKEPJNNPDNP_CAIMHGNFNOF_OFFSET UNITYSDK_OFFSET(0x1B901800)
+#define MKEPJNNPDNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9018A0)
 
-inline static constexpr unsigned int MKEPJNNPDNP_TypeDefinitionIndex = 78882;
+inline static constexpr unsigned int MKEPJNNPDNP_TypeDefinitionIndex = 81653;
 
 	class MKEPJNNPDNP
 	{

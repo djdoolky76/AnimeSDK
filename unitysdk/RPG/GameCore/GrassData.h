@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GrassData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRASSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F5790)
-#define RPG_GAMECORE_GRASSDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F53A0)
+#define RPG_GAMECORE_GRASSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x205F8590)
+#define RPG_GAMECORE_GRASSDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x205F82A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GrassData_TypeDefinitionIndex = 19116;
+	inline static constexpr unsigned int GrassData_TypeDefinitionIndex = 19304;
 
 	class GrassData : public ::RPG::GameCore::JsonConfig
 	{

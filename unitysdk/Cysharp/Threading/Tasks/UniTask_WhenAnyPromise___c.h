@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11F090)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F11F0D0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1F11F0E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E55EB20)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55EB60)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANYPROMISE___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E55EB70)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WhenAnyPromise___c_TypeDefinitionIndex = 38331;
+	inline static constexpr unsigned int UniTask_WhenAnyPromise___c_TypeDefinitionIndex = 39260;
 
 	class UniTask_WhenAnyPromise___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet___9__2_0()
-		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A310);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A318);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x386F0);
+		}
+
+		static ::System::Action_1<::System::Object*>** StaticGet___9__2_0()
+		{
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x386F8);
 		}
 
 		static ::System::Void _cctor()

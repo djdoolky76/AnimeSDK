@@ -4,17 +4,17 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define CLGELFNKAFL_CTOR_OFFSET UNITYSDK_OFFSET(0xD778720)
-#define CLGELFNKAFL_GET_ALIAS_OFFSET UNITYSDK_OFFSET(0xD778700)
-#define CLGELFNKAFL_GET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0xD778710)
+#define CLGELFNKAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD61F40)
+#define CLGELFNKAFL_GET_ALIAS_OFFSET UNITYSDK_OFFSET(0x1AD61F20)
+#define CLGELFNKAFL_GET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0x1AD61F30)
 
-inline static constexpr unsigned int CLGELFNKAFL_TypeDefinitionIndex = 49035;
+inline static constexpr unsigned int CLGELFNKAFL_TypeDefinitionIndex = 50111;
 
 	class CLGELFNKAFL : public ::System::Attribute
 	{
 	public:
-		::System::String* _Alias_k__BackingField; // 0x10
-		::System::Type* _ComponentType_k__BackingField; // 0x18
+		::System::Type* _ComponentType_k__BackingField; // 0x10
+		::System::String* _Alias_k__BackingField; // 0x18
 		::System::Void _ctor(::System::String* a1, ::System::Type* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + CLGELFNKAFL_CTOR_OFFSET))(this, a1, a2);

@@ -6,18 +6,18 @@ namespace System { class Object; }
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GNLAIADPCFM_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B0A660)
-#define GNLAIADPCFM_HGHCGAENJDJ_OFFSET UNITYSDK_OFFSET(0x15B09F60)
-#define GNLAIADPCFM_NEIMPLFMLAL_OFFSET UNITYSDK_OFFSET(0x15B0A0D0)
+#define GNLAIADPCFM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1879A5E0)
+#define GNLAIADPCFM_HGHCGAENJDJ_OFFSET UNITYSDK_OFFSET(0x18799EE0)
+#define GNLAIADPCFM_NEIMPLFMLAL_OFFSET UNITYSDK_OFFSET(0x1879A050)
 
-inline static constexpr unsigned int GNLAIADPCFM_TypeDefinitionIndex = 80534;
+inline static constexpr unsigned int GNLAIADPCFM_TypeDefinitionIndex = 83314;
 
 	class GNLAIADPCFM : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Object*>*>** StaticGet_NPIPNPBCKGF()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Object*>*>**)UnitySDK::FromName("", "GNLAIADPCFM")->GetStaticField(0x6B770);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Object*>*>**)UnitySDK::FromName("", "GNLAIADPCFM")->GetStaticField(0x71A10);
 		}
 
 		static ::System::Void _cctor()

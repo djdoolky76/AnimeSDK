@@ -4,10 +4,10 @@
 class HFEONGANBHM;
 namespace RPG::Client { class AvatarOutfit; }
 
-#define IAAANEIPGFC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15DE8CA0)
-#define IAAANEIPGFC_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE8D00)
+#define IAAANEIPGFC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19403B60)
+#define IAAANEIPGFC_CTOR_OFFSET UNITYSDK_OFFSET(0x19403BC0)
 
-inline static constexpr unsigned int IAAANEIPGFC_TypeDefinitionIndex = 62614;
+inline static constexpr unsigned int IAAANEIPGFC_TypeDefinitionIndex = 64038;
 
 	class IAAANEIPGFC : public ::System::Object
 	{

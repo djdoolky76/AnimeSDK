@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetupCustomTaskTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIJLJEPOFGB_CTOR_OFFSET UNITYSDK_OFFSET(0x15CDEFC0)
-#define HIJLJEPOFGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CDEFF0)
+#define HIJLJEPOFGB_CTOR_OFFSET UNITYSDK_OFFSET(0x190390C0)
+#define HIJLJEPOFGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x190390F0)
 
-inline static constexpr unsigned int HIJLJEPOFGB_TypeDefinitionIndex = 52507;
+inline static constexpr unsigned int HIJLJEPOFGB_TypeDefinitionIndex = 53613;
 
 	class HIJLJEPOFGB
 	{

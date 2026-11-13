@@ -10,29 +10,29 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ServantConfig; }
 
-#define RPG_GAMECORE_SERVANTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5FA30)
-#define RPG_GAMECORE_SERVANTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA5FB50)
-#define RPG_GAMECORE_SERVANTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5F6C0)
+#define RPG_GAMECORE_SERVANTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F851750)
+#define RPG_GAMECORE_SERVANTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F851870)
+#define RPG_GAMECORE_SERVANTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F8513E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 16528;
+	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 16694;
 
 	class ServantConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:
-		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x220
-		::RPG::GameCore::TeamLocationType LocationType; // 0x224
-		::System::Boolean AddToTeamFormation; // 0x228
+		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x238
+		::RPG::GameCore::TeamLocationType LocationType; // 0x23C
+		::System::Boolean AddToTeamFormation; // 0x240
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::AttackDamageType DamageType; // 0x22C
-		::System::Boolean EffectAttachToSummonerTimeline; // 0x230
+		::RPG::GameCore::AttackDamageType DamageType; // 0x244
+		::System::Boolean EffectAttachToSummonerTimeline; // 0x248
 		::System::Byte _padding1[0x3];
-		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x234
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x238
-		::RPG::MVector3 ViewModeServantFollowOffset; // 0x240
-		::System::Single ViewModeServantFollowYawAngle; // 0x24C
-		::System::Boolean IsPlayerControlled; // 0x250
+		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x24C
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x250
+		::RPG::MVector3 ViewModeServantFollowOffset; // 0x258
+		::System::Single ViewModeServantFollowYawAngle; // 0x264
+		::System::Boolean IsPlayerControlled; // 0x268
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTCONFIG_CTOR_OFFSET))(this);

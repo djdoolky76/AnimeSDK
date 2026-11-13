@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionBarUIConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONBARUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D316260)
-#define RPG_GAMECORE_ACTIONBARUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D316150)
+#define RPG_GAMECORE_ACTIONBARUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F3540)
+#define RPG_GAMECORE_ACTIONBARUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4F3430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarUIConfig_TypeDefinitionIndex = 22665;
+	inline static constexpr unsigned int ActionBarUIConfig_TypeDefinitionIndex = 23087;
 
 	class ActionBarUIConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KAINFBAJFMB;
 
-#define KAINFBAJFMB___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D4050)
-#define KAINFBAJFMB___C__DISPLAYCLASS8_0___SHOWNEXT_B__0_OFFSET UNITYSDK_OFFSET(0xB2D4060)
+#define KAINFBAJFMB___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19DB0CC0)
+#define KAINFBAJFMB___C__DISPLAYCLASS8_0___SHOWNEXT_B__0_OFFSET UNITYSDK_OFFSET(0x19DB0CD0)
 
-inline static constexpr unsigned int KAINFBAJFMB___c__DisplayClass8_0_TypeDefinitionIndex = 79710;
+inline static constexpr unsigned int KAINFBAJFMB___c__DisplayClass8_0_TypeDefinitionIndex = 82487;
 
 	class KAINFBAJFMB___c__DisplayClass8_0 : public ::System::Object
 	{

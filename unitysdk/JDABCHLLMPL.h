@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define JDABCHLLMPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB60F20)
-#define JDABCHLLMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB60F70)
+#define JDABCHLLMPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DDFE7D0)
+#define JDABCHLLMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFE820)
 
-inline static constexpr unsigned int JDABCHLLMPL_TypeDefinitionIndex = 42963;
+inline static constexpr unsigned int JDABCHLLMPL_TypeDefinitionIndex = 43944;
 
 	class JDABCHLLMPL : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* FLEOJOGLCBD; // 0x10
-		::UnityEngine::Transform* GFOOBKCLNAD; // 0x18
+		::UnityEngine::Transform* GFOOBKCLNAD; // 0x10
+		::UnityEngine::Transform* FLEOJOGLCBD; // 0x18
 		::System::Single KKHAELMENEH; // 0x20
 		::System::Void _ctor()
 		{

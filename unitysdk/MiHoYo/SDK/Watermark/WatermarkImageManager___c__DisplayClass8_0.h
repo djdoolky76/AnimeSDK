@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEA320)
-#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0__REQUESTSCREENSHOTWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0x1BFED110)
+#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4DD280)
+#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0__REQUESTSCREENSHOTWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0x1E4E0060)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkImageManager___c__DisplayClass8_0_TypeDefinitionIndex = 8868;
+	inline static constexpr unsigned int WatermarkImageManager___c__DisplayClass8_0_TypeDefinitionIndex = 8877;
 
 	class WatermarkImageManager___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>* callback; // 0x10
-		::System::String* requestCacheKey; // 0x18
-		::MiHoYo::SDK::Watermark::WatermarkImageManager* __4__this; // 0x20
+		::System::String* requestCacheKey; // 0x10
+		::MiHoYo::SDK::Watermark::WatermarkImageManager* __4__this; // 0x18
+		::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>* callback; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);

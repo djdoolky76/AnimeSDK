@@ -3,10 +3,10 @@
 class AKNGLJOKHJN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CAPLPBFKMHF_CTOR_OFFSET UNITYSDK_OFFSET(0xC495B70)
-#define CAPLPBFKMHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC495BA0)
+#define CAPLPBFKMHF_CTOR_OFFSET UNITYSDK_OFFSET(0x18FD2B80)
+#define CAPLPBFKMHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FD2BB0)
 
-inline static constexpr unsigned int CAPLPBFKMHF_TypeDefinitionIndex = 55893;
+inline static constexpr unsigned int CAPLPBFKMHF_TypeDefinitionIndex = 57096;
 
 	class CAPLPBFKMHF
 	{

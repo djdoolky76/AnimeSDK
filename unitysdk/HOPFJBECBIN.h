@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsShowInActionBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOPFJBECBIN_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB24B0)
-#define HOPFJBECBIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DB24E0)
+#define HOPFJBECBIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2C280)
+#define HOPFJBECBIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AF2C2B0)
 
-inline static constexpr unsigned int HOPFJBECBIN_TypeDefinitionIndex = 54682;
+inline static constexpr unsigned int HOPFJBECBIN_TypeDefinitionIndex = 55848;
 
 	class HOPFJBECBIN
 	{

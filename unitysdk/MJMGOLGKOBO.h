@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SwitchUIMenuBGM; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MJMGOLGKOBO_CTOR_OFFSET UNITYSDK_OFFSET(0xB969110)
-#define MJMGOLGKOBO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB969120)
-#define MJMGOLGKOBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB969160)
-#define MJMGOLGKOBO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB969330)
-#define MJMGOLGKOBO_TICK_OFFSET UNITYSDK_OFFSET(0xB969380)
+#define MJMGOLGKOBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3ADEB0)
+#define MJMGOLGKOBO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A3ADEC0)
+#define MJMGOLGKOBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A3ADF00)
+#define MJMGOLGKOBO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A3AE0D0)
+#define MJMGOLGKOBO_TICK_OFFSET UNITYSDK_OFFSET(0x1A3AE120)
 
-inline static constexpr unsigned int MJMGOLGKOBO_TypeDefinitionIndex = 58754;
+inline static constexpr unsigned int MJMGOLGKOBO_TypeDefinitionIndex = 60022;
 
 	class MJMGOLGKOBO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SwitchUIMenuBGM* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SwitchUIMenuBGM* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchUIMenuBGM* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchUIMenuBGM*))((::PBYTE)hIl2Cpp + MJMGOLGKOBO_CTOR_OFFSET))(this, a1, a2);

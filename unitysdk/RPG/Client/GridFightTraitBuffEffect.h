@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitBuffEffect_TypeDefinitionIndex = 65462;
+	inline static constexpr unsigned int GridFightTraitBuffEffect_TypeDefinitionIndex = 67364;
 
 	class GridFightTraitBuffEffect
 	{

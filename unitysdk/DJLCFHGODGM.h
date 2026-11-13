@@ -5,9 +5,9 @@ class AIMNKMEFBKE;
 class BPHJOOGJPKD;
 class IJFIHJJPHNA;
 
-#define DJLCFHGODGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C4490)
+#define DJLCFHGODGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA78DB0)
 
-inline static constexpr unsigned int DJLCFHGODGM_TypeDefinitionIndex = 36540;
+inline static constexpr unsigned int DJLCFHGODGM_TypeDefinitionIndex = 37468;
 
 	class DJLCFHGODGM : public ::DHAIADCDCCG
 	{

@@ -18,13 +18,14 @@ namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D698530)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D698550)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6984E0)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E865270)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1E8652A0)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E865220)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_GETDIFFICULTYDISPLAYTEXTID_OFFSET UNITYSDK_OFFSET(0x1E865F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 18517;
+	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 18677;
 
 	class FiveDimLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
@@ -36,29 +37,38 @@ namespace RPG::GameCore
 		::System::Boolean UseLevelSpaceGravity; // 0x28
 		::System::Boolean ReverseCameraGravity; // 0x29
 		::System::Boolean LightFollowCameraDir; // 0x2A
-		::System::Byte _padding1[0x1];
+		::System::Boolean AcceptFog; // 0x2B
 		::System::UInt32 AvatarID; // 0x2C
 		::RPG::GameCore::FiveDimLevelAudioConfig* LevelAudioConfig; // 0x30
 		::RPG::GameCore::FiveDimMusicJumpConfig* MusicJumpConfig; // 0x38
-		::RPG::GameCore::FiveDimGameplayMode GameplayMode; // 0x40
-		::System::Single WaterLevel; // 0x44
-		::RPG::GameCore::FiveDimWaterReflectionLevelConfig* WaterLevelConfig; // 0x48
-		::RPG::GameCore::MiniGameCollectCoinConfig* CollectCoinConfig; // 0x50
-		::RPG::GameCore::MiniGameFlappyBirdConfig* FlappyBirdConfig; // 0x58
-		::RPG::GameCore::FiveDimEditorLoadStageConfig* EditorLoadStageConfig; // 0x60
-		::RPG::GameCore::FiveDimTrainLevelConfig* TrainConfig; // 0x68
-		::RPG::GameCore::MiniGameHundredFloorConfig* HundredFloorConfig; // 0x70
-		::RPG::GameCore::FiveDimDifficulty Difficulty; // 0x78
+		::System::Single MusicEventMaxLateness; // 0x40
+		::RPG::GameCore::FiveDimGameplayMode GameplayMode; // 0x44
+		::System::Single WaterLevel; // 0x48
+		::System::Byte _padding1[0x4];
+		::RPG::GameCore::FiveDimWaterReflectionLevelConfig* WaterLevelConfig; // 0x50
+		::RPG::GameCore::MiniGameCollectCoinConfig* CollectCoinConfig; // 0x58
+		::RPG::GameCore::MiniGameFlappyBirdConfig* FlappyBirdConfig; // 0x60
+		::RPG::GameCore::FiveDimEditorLoadStageConfig* EditorLoadStageConfig; // 0x68
+		::RPG::GameCore::FiveDimTrainLevelConfig* TrainConfig; // 0x70
+		::RPG::GameCore::MiniGameHundredFloorConfig* HundredFloorConfig; // 0x78
+		::RPG::GameCore::FiveDimDifficulty Difficulty; // 0x80
 		::System::Byte _padding2[0x4];
-		::RPG::Client::TextID SimpleGameLevelTips; // 0x80
-		::RPG::Client::TextID SimepleGameLevelDesc; // 0x90
-		::System::Boolean CameraCullingOptimization; // 0xA0
+		::RPG::Client::TextID OverrideLevelDisplayName; // 0x88
+		::RPG::Client::TextID SimpleGameLevelTips; // 0x98
+		::RPG::Client::TextID SimepleGameLevelDesc; // 0xA8
+		::System::Boolean CameraCullingOptimization; // 0xB8
 		::System::Byte _padding3[0x3];
-		::System::Single CameraCullingFovScale; // 0xA4
-		::System::Boolean EnableEffectSimulateInSurface; // 0xA8
-		::System::Boolean UnlimitedJumpEnergy; // 0xA9
+		::System::Single CameraCullingFovScale; // 0xBC
+		::System::Boolean EnableEffectSimulateInSurface; // 0xC0
+		::System::Boolean UnlimitedJumpEnergy; // 0xC1
 		::System::Byte _padding4[0x2];
-		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0xAC
+		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0xC4
+		::System::Boolean OverrideMoveConfig; // 0xC8
+		::System::Byte _padding5[0x3];
+		::System::Single OverrideJumpHeight; // 0xCC
+		::System::Single OverrideJumpDuration; // 0xD0
+		::System::Single OverrideMaxSpeed; // 0xD4
+		::System::Single OverrideMaxFallSpeed; // 0xD8
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS_CTOR_OFFSET))(this);
@@ -72,6 +82,11 @@ namespace RPG::GameCore
 		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimLevelSettings* a2)
 		{
 			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimLevelSettings*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET))(a1, a2);
+		}
+
+		::RPG::Client::TextID GetDifficultyDisplayTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELSETTINGS_GETDIFFICULTYDISPLAYTEXTID_OFFSET))(this);
 		}
 
 	};

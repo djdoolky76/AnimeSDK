@@ -6,12 +6,12 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ECNIGIDPNGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12D10D10)
-#define ECNIGIDPNGJ_FLKJFAFEPOM_OFFSET UNITYSDK_OFFSET(0x12D10B40)
-#define ECNIGIDPNGJ_LACLJCPCOEI_OFFSET UNITYSDK_OFFSET(0x12D10200)
-#define ECNIGIDPNGJ_OLCJBIANECH_OFFSET UNITYSDK_OFFSET(0x12D10120)
+#define ECNIGIDPNGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E04D0)
+#define ECNIGIDPNGJ_FLKJFAFEPOM_OFFSET UNITYSDK_OFFSET(0x1C3E0300)
+#define ECNIGIDPNGJ_LACLJCPCOEI_OFFSET UNITYSDK_OFFSET(0x1C3DF9B0)
+#define ECNIGIDPNGJ_OLCJBIANECH_OFFSET UNITYSDK_OFFSET(0x1C3DF8E0)
 
-inline static constexpr unsigned int ECNIGIDPNGJ_TypeDefinitionIndex = 68277;
+inline static constexpr unsigned int ECNIGIDPNGJ_TypeDefinitionIndex = 70223;
 
 	class ECNIGIDPNGJ : public ::RPG::Client::BaseModule
 	{

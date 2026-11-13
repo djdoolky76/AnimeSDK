@@ -6,10 +6,10 @@
 #include "unitysdk/GCACCBNIGKA.h"
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define FABEHFILGBH_ELOBECJCAHO_OFFSET UNITYSDK_OFFSET(0x156584E0)
-#define FABEHFILGBH_MNPFDFDBMNG_OFFSET UNITYSDK_OFFSET(0x15657B40)
+#define FABEHFILGBH_ELOBECJCAHO_OFFSET UNITYSDK_OFFSET(0x136DED10)
+#define FABEHFILGBH_MNPFDFDBMNG_OFFSET UNITYSDK_OFFSET(0x136DE370)
 
-inline static constexpr unsigned int FABEHFILGBH_TypeDefinitionIndex = 62167;
+inline static constexpr unsigned int FABEHFILGBH_TypeDefinitionIndex = 63580;
 
 	class FABEHFILGBH : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class QuestKeyPointRewardRow; }
 
-#define RPG_GAMECORE_QUESTKEYPOINTREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9334F0)
-#define RPG_GAMECORE_QUESTKEYPOINTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D933340)
+#define RPG_GAMECORE_QUESTKEYPOINTREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F21CF40)
+#define RPG_GAMECORE_QUESTKEYPOINTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F21CD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestKeyPointRewardRow_TypeDefinitionIndex = 14531;
+	inline static constexpr unsigned int QuestKeyPointRewardRow_TypeDefinitionIndex = 14686;
 
 	class QuestKeyPointRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 QuestKeyPointReward; // 0x14
-		::System::UInt32 QuestKeyPoint; // 0x18
+		::System::UInt32 QuestKeyPoint; // 0x10
+		::System::UInt32 ID; // 0x14
+		::System::UInt32 QuestKeyPointReward; // 0x18
 		::System::UInt32 QuestKeyPointItem; // 0x1C
 		::System::Void _ctor()
 		{

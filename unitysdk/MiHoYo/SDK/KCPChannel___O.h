@@ -5,14 +5,14 @@ namespace MiHoYo::SDK { class KcpOutput; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KCPChannel___O_TypeDefinitionIndex = 46128;
+	inline static constexpr unsigned int KCPChannel___O_TypeDefinitionIndex = 47157;
 
 	class KCPChannel___O : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::KcpOutput** StaticGet__0___KcpOutput()
 		{
-			return (::MiHoYo::SDK::KcpOutput**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x262D0);
+			return (::MiHoYo::SDK::KcpOutput**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1D3F0);
 		}
 
 	};

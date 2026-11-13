@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelEntityComparerBase; }
 namespace RPG::GameCore { class ChimeraDuelOrderedEntitiesSelectorConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELORDEREDENTITIESSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D578BD0)
-#define RPG_GAMECORE_CHIMERADUELORDEREDENTITIESSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D578BE0)
-#define RPG_GAMECORE_CHIMERADUELORDEREDENTITIESSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D578B80)
+#define RPG_GAMECORE_CHIMERADUELORDEREDENTITIESSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F92EC20)
+#define RPG_GAMECORE_CHIMERADUELORDEREDENTITIESSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F92EC30)
+#define RPG_GAMECORE_CHIMERADUELORDEREDENTITIESSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F92EBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelOrderedEntitiesSelectorConfig_TypeDefinitionIndex = 15928;
+	inline static constexpr unsigned int ChimeraDuelOrderedEntitiesSelectorConfig_TypeDefinitionIndex = 16086;
 
 	class ChimeraDuelOrderedEntitiesSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{

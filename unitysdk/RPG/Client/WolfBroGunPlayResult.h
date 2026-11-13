@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayResult_TypeDefinitionIndex = 68741;
+	inline static constexpr unsigned int WolfBroGunPlayResult_TypeDefinitionIndex = 70693;
 
 	struct alignas(4) WolfBroGunPlayResult
 	{

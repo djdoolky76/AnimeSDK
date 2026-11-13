@@ -5,10 +5,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class BJIACBNKCCJ;
 
-#define ACFJLOONPMA_GFCMFODMAPF_OFFSET UNITYSDK_OFFSET(0xB11BC40)
-#define ACFJLOONPMA_PLJCOHFLCKA_OFFSET UNITYSDK_OFFSET(0xB11C000)
+#define ACFJLOONPMA_GFCMFODMAPF_OFFSET UNITYSDK_OFFSET(0x1828C760)
+#define ACFJLOONPMA_PLJCOHFLCKA_OFFSET UNITYSDK_OFFSET(0x1828CB20)
 
-inline static constexpr unsigned int ACFJLOONPMA_TypeDefinitionIndex = 75924;
+inline static constexpr unsigned int ACFJLOONPMA_TypeDefinitionIndex = 78251;
 
 	class ACFJLOONPMA : public ::System::Object
 	{

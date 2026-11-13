@@ -7,21 +7,21 @@
 class KPCDEJGJHBK;
 namespace UnityEngine { class Transform; }
 
-#define DNCOLDFBNMD_CGNOBOOCGNB_OFFSET UNITYSDK_OFFSET(0x1193BD00)
-#define DNCOLDFBNMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1193C040)
-#define DNCOLDFBNMD_IGKLKLJCMBI_OFFSET UNITYSDK_OFFSET(0x1193BB80)
-#define DNCOLDFBNMD_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x1193BD50)
+#define DNCOLDFBNMD_CGNOBOOCGNB_OFFSET UNITYSDK_OFFSET(0x12CB0D70)
+#define DNCOLDFBNMD_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB10B0)
+#define DNCOLDFBNMD_IGKLKLJCMBI_OFFSET UNITYSDK_OFFSET(0x12CB0BF0)
+#define DNCOLDFBNMD_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x12CB0DC0)
 
-inline static constexpr unsigned int DNCOLDFBNMD_TypeDefinitionIndex = 76544;
+inline static constexpr unsigned int DNCOLDFBNMD_TypeDefinitionIndex = 78875;
 
 	class DNCOLDFBNMD : public ::MKHNMHOHEAK
 	{
 	public:
 		::UnityEngine::Transform* PDJGEDNLBKJ; // 0x18
 		::RPG::Client::LittleGame::TransformInterpolateMode PHOKGMINOOB; // 0x20
-		::UnityEngine::Vector3 PGJJCGGBCKK; // 0x24
-		::System::Single GGBKHGGBIBA; // 0x30
-		::UnityEngine::Quaternion NMBCMMJMIPA; // 0x34
+		::UnityEngine::Quaternion NMBCMMJMIPA; // 0x24
+		::System::Single GGBKHGGBIBA; // 0x34
+		::UnityEngine::Vector3 PGJJCGGBCKK; // 0x38
 		::UnityEngine::Vector3 PIDMDPCMHKE; // 0x44
 		::System::Void _ctor()
 		{

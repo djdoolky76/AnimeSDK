@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_CutinAnimation; }
 
-#define CONILLPEMHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A9A00)
-#define CONILLPEMHP_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5A9A10)
+#define CONILLPEMHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5E400)
+#define CONILLPEMHP_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1BA5E410)
 
-inline static constexpr unsigned int CONILLPEMHP_TypeDefinitionIndex = 36307;
+inline static constexpr unsigned int CONILLPEMHP_TypeDefinitionIndex = 37235;
 
 	class CONILLPEMHP : public ::AJBKGPOEBFG
 	{

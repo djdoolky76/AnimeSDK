@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JPBLFPBPHOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D02AC60)
+#define JPBLFPBPHOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F936F70)
 
-inline static constexpr unsigned int JPBLFPBPHOL_TypeDefinitionIndex = 24994;
+inline static constexpr unsigned int JPBLFPBPHOL_TypeDefinitionIndex = 25474;
 
 	class JPBLFPBPHOL : public ::System::Attribute
 	{

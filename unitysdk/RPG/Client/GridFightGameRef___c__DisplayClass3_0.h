@@ -10,23 +10,23 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD153210)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD15D630)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD15D6A0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD15D6D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D695F40)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__0_OFFSET UNITYSDK_OFFSET(0x1D69F270)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__1_OFFSET UNITYSDK_OFFSET(0x1CD40010)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__2_OFFSET UNITYSDK_OFFSET(0x1CD40040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass3_0_TypeDefinitionIndex = 64709;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass3_0_TypeDefinitionIndex = 66252;
 
 	class GridFightGameRef___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::GHHJNCOAIJF* req; // 0x10
-		::RPG::Client::GridFightGameRef* __4__this; // 0x18
-		::Il2CppArray<::System::String*>* ids; // 0x20
-		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x28
-		::System::Action_1<::System::Boolean>* callback; // 0x30
+		::Il2CppArray<::System::String*>* ids; // 0x10
+		::GHHJNCOAIJF* req; // 0x18
+		::System::Action_1<::System::Boolean>* callback; // 0x20
+		::RPG::Client::GridFightGameRef* __4__this; // 0x28
+		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

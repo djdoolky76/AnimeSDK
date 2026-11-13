@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Manifold.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2C9A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x7EF520)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactData_TypeDefinitionIndex = 36622;
+	inline static constexpr unsigned int B2ContactData_TypeDefinitionIndex = 37550;
 
 	struct alignas(4) B2ContactData
 	{

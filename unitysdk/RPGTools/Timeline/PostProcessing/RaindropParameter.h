@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xE91DF70)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF9020)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0x1C768E80)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3EEF850)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int RaindropParameter_TypeDefinitionIndex = 48603;
+	inline static constexpr unsigned int RaindropParameter_TypeDefinitionIndex = 49644;
 
 	struct alignas(4) RaindropParameter
 	{

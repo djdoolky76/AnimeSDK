@@ -6,17 +6,17 @@ class MIBPJLAGBLD;
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define MIBPJLAGBLD___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB94A430)
-#define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xB94B480)
-#define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0xB94B520)
+#define MIBPJLAGBLD___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A389FC0)
+#define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0x1A38B010)
+#define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0x1A38B0B0)
 
-inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass7_0_TypeDefinitionIndex = 76462;
+inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass7_0_TypeDefinitionIndex = 78793;
 
 	class MIBPJLAGBLD___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::MIBPJLAGBLD* __4__this; // 0x10
-		::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x18
+		::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x10
+		::MIBPJLAGBLD* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIBPJLAGBLD___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);

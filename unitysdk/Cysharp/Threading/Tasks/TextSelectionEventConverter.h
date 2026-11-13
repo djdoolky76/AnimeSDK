@@ -4,19 +4,19 @@ namespace System { class String; }
 namespace UnityEngine::Events { template <typename T1, typename T2, typename T3> class UnityAction_3; }
 namespace UnityEngine::Events { template <typename T1, typename T2, typename T3> class UnityEvent_3; }
 
-#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F85C0)
-#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F0F86F0)
-#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_INVOKECORE_OFFSET UNITYSDK_OFFSET(0x1F0F8690)
+#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F16BB30)
+#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F16BC60)
+#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_INVOKECORE_OFFSET UNITYSDK_OFFSET(0x1F16BC00)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TextSelectionEventConverter_TypeDefinitionIndex = 38480;
+	inline static constexpr unsigned int TextSelectionEventConverter_TypeDefinitionIndex = 39409;
 
 	class TextSelectionEventConverter
 	{
 	public:
-		::UnityEngine::Events::UnityAction_3<::System::String*, ::System::Int32, ::System::Int32>* invokeDelegate; // 0x30
-		::UnityEngine::Events::UnityEvent_3<::System::String*, ::System::Int32, ::System::Int32>* innerEvent; // 0x38
+		::UnityEngine::Events::UnityEvent_3<::System::String*, ::System::Int32, ::System::Int32>* innerEvent; // 0x30
+		::UnityEngine::Events::UnityAction_3<::System::String*, ::System::Int32, ::System::Int32>* invokeDelegate; // 0x38
 		::System::Void _ctor(::UnityEngine::Events::UnityEvent_3<::System::String*, ::System::Int32, ::System::Int32>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityEvent_3<::System::String*, ::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_CTOR_OFFSET))(this, a1);

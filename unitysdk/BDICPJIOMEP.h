@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::BlindBox::Trade { class IBlindBoxTradeOrder; }
 
-#define BDICPJIOMEP_MPGGAADKOOC_OFFSET UNITYSDK_OFFSET(0x162EF000)
-#define BDICPJIOMEP_PDMMLIOBDOB_OFFSET UNITYSDK_OFFSET(0x162EED00)
+#define BDICPJIOMEP_MPGGAADKOOC_OFFSET UNITYSDK_OFFSET(0x19D98A70)
+#define BDICPJIOMEP_PDMMLIOBDOB_OFFSET UNITYSDK_OFFSET(0x19D98770)
 
-inline static constexpr unsigned int BDICPJIOMEP_TypeDefinitionIndex = 74866;
+inline static constexpr unsigned int BDICPJIOMEP_TypeDefinitionIndex = 77193;
 
 	class BDICPJIOMEP : public ::System::Object
 	{

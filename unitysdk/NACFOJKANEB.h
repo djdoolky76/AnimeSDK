@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SwordTrainingSetDynamicValueByAllyRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NACFOJKANEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA50040)
-#define NACFOJKANEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA50120)
+#define NACFOJKANEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE6C10)
+#define NACFOJKANEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BAE6CF0)
 
-inline static constexpr unsigned int NACFOJKANEB_TypeDefinitionIndex = 55699;
+inline static constexpr unsigned int NACFOJKANEB_TypeDefinitionIndex = 56901;
 
 	class NACFOJKANEB
 	{

@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define GNJBNBIOLAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15B06B10)
-#define GNJBNBIOLAJ_DKDLBLLMPNE_OFFSET UNITYSDK_OFFSET(0x15B06B90)
-#define GNJBNBIOLAJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15B06C10)
-#define GNJBNBIOLAJ_MNLDMBGAJIF_OFFSET UNITYSDK_OFFSET(0x15B06C20)
+#define GNJBNBIOLAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18794360)
+#define GNJBNBIOLAJ_DKDLBLLMPNE_OFFSET UNITYSDK_OFFSET(0x187943E0)
+#define GNJBNBIOLAJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18794460)
+#define GNJBNBIOLAJ_MNLDMBGAJIF_OFFSET UNITYSDK_OFFSET(0x18794470)
 
-inline static constexpr unsigned int GNJBNBIOLAJ_TypeDefinitionIndex = 62092;
+inline static constexpr unsigned int GNJBNBIOLAJ_TypeDefinitionIndex = 63505;
 
 	class GNJBNBIOLAJ : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* PBJAENMIKEJ; // 0x10
-		::System::String* _Name_k__BackingField; // 0x18
+		::System::String* _Name_k__BackingField; // 0x10
+		::System::Action_1<::System::String*>* PBJAENMIKEJ; // 0x18
 		::System::Int16 AIKAPJELHNK; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::Int16 a2)
 		{

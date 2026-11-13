@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BLIPALAJNDD_DataType_TypeDefinitionIndex = 43916;
+inline static constexpr unsigned int BLIPALAJNDD_DataType_TypeDefinitionIndex = 44991;
 
 	enum class BLIPALAJNDD_DataType : ::System::Int32
 	{

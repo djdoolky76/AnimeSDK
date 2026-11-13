@@ -7,32 +7,31 @@
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F254700)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F253380)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2546F0)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F253490)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_SUBDIVIDEICOSAHEDRON_OFFSET UNITYSDK_OFFSET(0x1F254210)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F253400)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2AB160)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2A9E20)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2AB150)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2A9F30)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_SUBDIVIDEICOSAHEDRON_OFFSET UNITYSDK_OFFSET(0x1A2AAC70)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPHERE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A2A9EA0)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 44469;
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 45544;
 
 	class Sphere : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Boolean m_Smooth; // 0x10
-		::System::Byte _padding0[0x3];
+		::System::Int32 m_BottomMostVertexIndex; // 0x10
 		::System::Int32 m_Subdivisions; // 0x14
-		::System::Int32 m_BottomMostVertexIndex; // 0x18
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_k_IcosphereVertices()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Sphere")->GetStaticField(0x53050);
-		}
-
+		::System::Boolean m_Smooth; // 0x18
 		static ::Il2CppArray<::System::Int32>** StaticGet_k_IcosphereTriangles()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Sphere")->GetStaticField(0x53058);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Sphere")->GetStaticField(0x68FF0);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_k_IcosphereVertices()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Sphere")->GetStaticField(0x68FF8);
 		}
 
 		::System::Void _ctor()

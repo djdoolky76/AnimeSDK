@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NUMERICS_HASHING_HASHHELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C25F3D0)
-#define SYSTEM_NUMERICS_HASHING_HASHHELPERS_COMBINE_OFFSET UNITYSDK_OFFSET(0x1C25F3C0)
+#define SYSTEM_NUMERICS_HASHING_HASHHELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E37E370)
+#define SYSTEM_NUMERICS_HASHING_HASHHELPERS_COMBINE_OFFSET UNITYSDK_OFFSET(0x1E37E360)
 
 namespace System::Numerics::Hashing
 {
@@ -14,7 +14,7 @@ namespace System::Numerics::Hashing
 	public:
 		static ::System::Int32* StaticGet_RandomSeed()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Numerics.Hashing", "HashHelpers")->GetStaticField(0x6300);
+			return (::System::Int32*)UnitySDK::FromName("System.Numerics.Hashing", "HashHelpers")->GetStaticField(0x3B20);
 		}
 
 		static ::System::Void _cctor()

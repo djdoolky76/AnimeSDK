@@ -6,12 +6,12 @@ namespace RPG::CustomRP { class RPGDepthOfField_DepthOfFieldDebugMethodParameter
 namespace RPG::CustomRP { class RPGDepthOfField_DepthOfFieldMethodParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC15690)
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC15630)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x198DC5E0)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x198DC580)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfField_TypeDefinitionIndex = 37798;
+	inline static constexpr unsigned int RPGDepthOfField_TypeDefinitionIndex = 38727;
 
 	class RPGDepthOfField : public ::RPG::CustomRP::CustomVolumeComponent
 	{

@@ -4,8 +4,8 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2ECBF0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO_ISCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1C2ECC10)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7402C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO_ISCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1A7402E0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -16,8 +16,8 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	public:
 		::Il2CppArray<::System::String*>* memberNames; // 0x10
 		::Il2CppArray<::System::Type*>* memberTypes; // 0x18
-		::System::Int32 objectId; // 0x20
-		::System::Int32 numMembers; // 0x24
+		::System::Int32 numMembers; // 0x20
+		::System::Int32 objectId; // 0x24
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::String*>* a3, ::Il2CppArray<::System::Type*>* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO_CTOR_OFFSET))(this, a1, a2, a3, a4);

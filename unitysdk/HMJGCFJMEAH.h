@@ -6,12 +6,12 @@
 #include "unitysdk/RPG/GameCore/MonsterEnergyBarType.h"
 #include "unitysdk/System/Nullable_1.h"
 class MDDJNELCOMK;
-namespace RPG::GameCore { class MonsterEnergyBarBaseClickConfig; }
+namespace RPG::GameCore { class BossInfoBarCustomizedBaseClickConfig; }
 namespace RPG::GameCore { class MonsterEnergyBarCustomColor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int HMJGCFJMEAH_TypeDefinitionIndex = 55539;
+inline static constexpr unsigned int HMJGCFJMEAH_TypeDefinitionIndex = 56731;
 
 	struct alignas(8) HMJGCFJMEAH
 	{
@@ -39,5 +39,5 @@ inline static constexpr unsigned int HMJGCFJMEAH_TypeDefinitionIndex = 55539;
 		::System::Byte _padding4[0x4];
 		::RPG::GameCore::MonsterEnergyBarCustomColor* OCHLDEHBDOL; // 0xA0
 		::System::Collections::Generic::List_1<::MDDJNELCOMK*>* BNCNCFMAMIG; // 0xA8
-		::RPG::GameCore::MonsterEnergyBarBaseClickConfig* LBNFEKIPKCL; // 0xB0
+		::RPG::GameCore::BossInfoBarCustomizedBaseClickConfig* LBNFEKIPKCL; // 0xB0
 	};

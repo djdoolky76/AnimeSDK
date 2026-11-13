@@ -3,7 +3,7 @@
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IPinnedUIService_TypeDefinitionIndex = 38067;
+	inline static constexpr unsigned int IPinnedUIService_TypeDefinitionIndex = 38996;
 
 	class IPinnedUIService
 	{

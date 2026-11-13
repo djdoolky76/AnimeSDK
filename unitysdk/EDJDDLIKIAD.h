@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RotateRubikCube; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDJDDLIKIAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1331C7B0)
-#define EDJDDLIKIAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1331C7E0)
+#define EDJDDLIKIAD_CTOR_OFFSET UNITYSDK_OFFSET(0x186C51E0)
+#define EDJDDLIKIAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x186C5210)
 
-inline static constexpr unsigned int EDJDDLIKIAD_TypeDefinitionIndex = 58501;
+inline static constexpr unsigned int EDJDDLIKIAD_TypeDefinitionIndex = 59765;
 
 	class EDJDDLIKIAD
 	{

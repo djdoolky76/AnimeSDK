@@ -5,25 +5,25 @@ namespace RPG::Client { class PlayerDiaryItemData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PLAYERDIARYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDBE6200)
-#define RPG_CLIENT_PLAYERDIARYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDBE6240)
-#define RPG_CLIENT_PLAYERDIARYDATA___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0xDBE6250)
+#define RPG_CLIENT_PLAYERDIARYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2B8380)
+#define RPG_CLIENT_PLAYERDIARYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B83C0)
+#define RPG_CLIENT_PLAYERDIARYDATA___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0x1E2B83D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerDiaryData___c_TypeDefinitionIndex = 64283;
+	inline static constexpr unsigned int PlayerDiaryData___c_TypeDefinitionIndex = 65728;
 
 	class PlayerDiaryData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::PlayerDiaryItemData*>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::PlayerDiaryItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2F900);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2F908);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4AD10);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::PlayerDiaryItemData*>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::PlayerDiaryItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4AD18);
 		}
 
 		static ::System::Void _cctor()

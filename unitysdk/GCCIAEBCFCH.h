@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EKFKFEBANDA;
 
-#define GCCIAEBCFCH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1595AC40)
-#define GCCIAEBCFCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1595ACF0)
+#define GCCIAEBCFCH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19E9F770)
+#define GCCIAEBCFCH_CTOR_OFFSET UNITYSDK_OFFSET(0x19E9F820)
 
-inline static constexpr unsigned int GCCIAEBCFCH_TypeDefinitionIndex = 80103;
+inline static constexpr unsigned int GCCIAEBCFCH_TypeDefinitionIndex = 82880;
 
 	class GCCIAEBCFCH : public ::System::Object
 	{

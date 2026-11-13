@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverridePerformanceEndScreenCut; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PGOCDDIJMEF_CTOR_OFFSET UNITYSDK_OFFSET(0xC223D00)
-#define PGOCDDIJMEF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC223D30)
+#define PGOCDDIJMEF_CTOR_OFFSET UNITYSDK_OFFSET(0x16DA0890)
+#define PGOCDDIJMEF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DA08C0)
 
-inline static constexpr unsigned int PGOCDDIJMEF_TypeDefinitionIndex = 53054;
+inline static constexpr unsigned int PGOCDDIJMEF_TypeDefinitionIndex = 54214;
 
 	class PGOCDDIJMEF
 	{

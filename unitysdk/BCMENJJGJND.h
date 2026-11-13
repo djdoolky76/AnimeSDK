@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTimeRewindEntityActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BCMENJJGJND_CTOR_OFFSET UNITYSDK_OFFSET(0x162D76E0)
-#define BCMENJJGJND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162D7710)
+#define BCMENJJGJND_CTOR_OFFSET UNITYSDK_OFFSET(0x19D7F850)
+#define BCMENJJGJND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D7F880)
 
-inline static constexpr unsigned int BCMENJJGJND_TypeDefinitionIndex = 53392;
+inline static constexpr unsigned int BCMENJJGJND_TypeDefinitionIndex = 54554;
 
 	class BCMENJJGJND
 	{

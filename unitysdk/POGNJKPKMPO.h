@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByLocalWin; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define POGNJKPKMPO_CTOR_OFFSET UNITYSDK_OFFSET(0xC359830)
-#define POGNJKPKMPO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC359860)
+#define POGNJKPKMPO_CTOR_OFFSET UNITYSDK_OFFSET(0x184D7B60)
+#define POGNJKPKMPO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x184D7B90)
 
-inline static constexpr unsigned int POGNJKPKMPO_TypeDefinitionIndex = 54700;
+inline static constexpr unsigned int POGNJKPKMPO_TypeDefinitionIndex = 55866;
 
 	class POGNJKPKMPO
 	{

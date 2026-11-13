@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HLGICBNPGOO_LOFLKAKANFN_1_OFFSET UNITYSDK_OFFSET(0x15D52DD0)
-#define HLGICBNPGOO_LOFLKAKANFN_OFFSET UNITYSDK_OFFSET(0x15D52D90)
+#define HLGICBNPGOO_LOFLKAKANFN_1_OFFSET UNITYSDK_OFFSET(0x198A06B0)
+#define HLGICBNPGOO_LOFLKAKANFN_OFFSET UNITYSDK_OFFSET(0x198A0670)
 
-inline static constexpr unsigned int HLGICBNPGOO_TypeDefinitionIndex = 57160;
+inline static constexpr unsigned int HLGICBNPGOO_TypeDefinitionIndex = 58389;
 
 	struct alignas(4) HLGICBNPGOO
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class STTaskConfig; }
 namespace RPG::GameCore { class ST_Main_Predicate_Behaviour; }
 
-#define RPG_GAMECORE_ST_MAIN_PREDICATE_BEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA53A20)
-#define RPG_GAMECORE_ST_MAIN_PREDICATE_BEHAVIOUR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA53A30)
-#define RPG_GAMECORE_ST_MAIN_PREDICATE_BEHAVIOUR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA539F0)
+#define RPG_GAMECORE_ST_MAIN_PREDICATE_BEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC98CC0)
+#define RPG_GAMECORE_ST_MAIN_PREDICATE_BEHAVIOUR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC98CD0)
+#define RPG_GAMECORE_ST_MAIN_PREDICATE_BEHAVIOUR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC98C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_Predicate_Behaviour_TypeDefinitionIndex = 20121;
+	inline static constexpr unsigned int ST_Main_Predicate_Behaviour_TypeDefinitionIndex = 20455;
 
 	class ST_Main_Predicate_Behaviour : public ::RPG::GameCore::STTaskConfig
 	{

@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int DGGAHDPDKMA_TypeDefinitionIndex = 50011;
+inline static constexpr unsigned int DGGAHDPDKMA_TypeDefinitionIndex = 51059;
 
 	class DGGAHDPDKMA : public ::System::Object
 	{

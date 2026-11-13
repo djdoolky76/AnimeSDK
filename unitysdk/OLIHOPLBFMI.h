@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OLIHOPLBFMI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF05F60)
+#define OLIHOPLBFMI_CTOR_OFFSET UNITYSDK_OFFSET(0x178AC6B0)
 
-inline static constexpr unsigned int OLIHOPLBFMI_TypeDefinitionIndex = 49036;
+inline static constexpr unsigned int OLIHOPLBFMI_TypeDefinitionIndex = 50112;
 
 	class OLIHOPLBFMI : public ::System::Object
 	{

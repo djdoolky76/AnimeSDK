@@ -5,12 +5,12 @@ class CBBPDLPAIPL;
 namespace Proto { class AlleyPlacingShip; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_CLIENTALLEYPLACINGSHIP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3CD270)
-#define RPG_CLIENT_ACTIVITYALLEY_CLIENTALLEYPLACINGSHIP_TOPROTO_OFFSET UNITYSDK_OFFSET(0xC3CD180)
+#define RPG_CLIENT_ACTIVITYALLEY_CLIENTALLEYPLACINGSHIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7973C0)
+#define RPG_CLIENT_ACTIVITYALLEY_CLIENTALLEYPLACINGSHIP_TOPROTO_OFFSET UNITYSDK_OFFSET(0x1B7972D0)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int ClientAlleyPlacingShip_TypeDefinitionIndex = 74075;
+	inline static constexpr unsigned int ClientAlleyPlacingShip_TypeDefinitionIndex = 76223;
 
 	class ClientAlleyPlacingShip : public ::System::Object
 	{

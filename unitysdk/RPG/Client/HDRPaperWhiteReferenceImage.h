@@ -6,14 +6,14 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2DCC60)
-#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD2DCC50)
-#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_START_OFFSET UNITYSDK_OFFSET(0xD2DC8A0)
-#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD2DCA20)
+#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA25600)
+#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA255F0)
+#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_START_OFFSET UNITYSDK_OFFSET(0x1CA25210)
+#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CA253C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HDRPaperWhiteReferenceImage_TypeDefinitionIndex = 72804;
+	inline static constexpr unsigned int HDRPaperWhiteReferenceImage_TypeDefinitionIndex = 74883;
 
 	class HDRPaperWhiteReferenceImage : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,44 +22,44 @@ namespace RPG::Client
 		::UnityEngine::Material* PCANJIIKLDC; // 0x20
 		::UnityEngine::TextAsset* curveParamsJson; // 0x28
 		::RPG::CustomRP::CurveData OHNILEIAFEB; // 0x30
-		static ::System::Int32* StaticGet_PEJDNHPLHKK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x33D0);
-		}
-
-		static ::System::Int32* StaticGet_IOOLDFFILPI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x33D4);
-		}
-
 		static ::System::Int32* StaticGet_FMDDHMGJBPG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x33D8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x5C80);
+		}
+
+		static ::System::Int32* StaticGet_PEJDNHPLHKK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x5C84);
 		}
 
 		static ::System::Int32* StaticGet_ILHCDFBNEHN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x33DC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x5C88);
 		}
 
 		static ::System::Int32* StaticGet_JANJLLAJLGF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x33E0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x5C8C);
 		}
 
 		static ::System::Int32* StaticGet_LHPECKJBPFB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x33E4);
-		}
-
-		static ::System::Int32* StaticGet_ECMJLFALECH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x33E8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x5C90);
 		}
 
 		static ::System::Int32* StaticGet_CJLICPBKFGB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x33EC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x5C94);
+		}
+
+		static ::System::Int32* StaticGet_ECMJLFALECH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x5C98);
+		}
+
+		static ::System::Int32* StaticGet_IOOLDFFILPI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HDRPaperWhiteReferenceImage")->GetStaticField(0x5C9C);
 		}
 
 		::System::Void _ctor()

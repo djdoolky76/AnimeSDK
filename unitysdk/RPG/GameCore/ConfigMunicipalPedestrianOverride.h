@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ConfigMunicipalPedestrianOverride; }
 
-#define RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A8720)
-#define RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A85F0)
+#define RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE1FB0)
+#define RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFE1E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigMunicipalPedestrianOverride_TypeDefinitionIndex = 16919;
+	inline static constexpr unsigned int ConfigMunicipalPedestrianOverride_TypeDefinitionIndex = 17086;
 
 	class ConfigMunicipalPedestrianOverride : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class JCMJBMIKIFO;
 
-#define CNAIFPCCALI_CTOR_OFFSET UNITYSDK_OFFSET(0xDA3FA10)
-#define CNAIFPCCALI_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xDA3F950)
+#define CNAIFPCCALI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B0830)
+#define CNAIFPCCALI_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0x1B1B0770)
 
-inline static constexpr unsigned int CNAIFPCCALI_TypeDefinitionIndex = 80092;
+inline static constexpr unsigned int CNAIFPCCALI_TypeDefinitionIndex = 82869;
 
 	class CNAIFPCCALI : public ::System::Object
 	{

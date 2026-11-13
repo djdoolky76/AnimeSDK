@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachinePathBase_PositionUnits_TypeDefinitionIndex = 39821;
+	inline static constexpr unsigned int CinemachinePathBase_PositionUnits_TypeDefinitionIndex = 40750;
 
 	enum class CinemachinePathBase_PositionUnits : ::System::Int32
 	{

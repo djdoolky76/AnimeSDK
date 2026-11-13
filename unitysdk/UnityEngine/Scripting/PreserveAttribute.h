@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SCRIPTING_PRESERVEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FC840)
+#define UNITYENGINE_SCRIPTING_PRESERVEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F52D4B0)
 
 namespace UnityEngine::Scripting
 {

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MDBCOLDGIKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F68A0)
+#define MDBCOLDGIKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25BA40)
 
-inline static constexpr unsigned int MDBCOLDGIKO_TypeDefinitionIndex = 42365;
+inline static constexpr unsigned int MDBCOLDGIKO_TypeDefinitionIndex = 43340;
 
 	class MDBCOLDGIKO : public ::System::Object
 	{

@@ -4,35 +4,35 @@
 namespace RPG::GameCore { class MeshBound; }
 namespace System { class String; }
 
-#define PFBILMDGFHE_CTOR_OFFSET UNITYSDK_OFFSET(0xC2000A0)
+#define PFBILMDGFHE_CTOR_OFFSET UNITYSDK_OFFSET(0x16D75440)
 
-inline static constexpr unsigned int PFBILMDGFHE_TypeDefinitionIndex = 73902;
+inline static constexpr unsigned int PFBILMDGFHE_TypeDefinitionIndex = 76030;
 
 	class PFBILMDGFHE : public ::System::Object
 	{
 	public:
-		::System::String* MACHCHJDBBH; // 0x10
-		::System::String* ANMKMDHFDAG; // 0x18
-		::RPG::GameCore::MeshBound* PPKHNNBEOEL; // 0x20
-		::System::String* CDMFNHJGGKF; // 0x28
-		::System::String* OENAMINOLLF; // 0x30
-		::System::Int32 GMDBHJKEAEI; // 0x38
-		::System::Single PDKOHKKMKLF; // 0x3C
-		::System::Single PHHJGMPBAKK; // 0x40
-		::System::Single CNDABONKHMH; // 0x44
-		::System::Single FOANGAFDLDJ; // 0x48
-		::System::Single OCKOLFPPGDF; // 0x4C
-		::System::Single PDJLNAILECG; // 0x50
-		::System::Single PEGKLICCBKF; // 0x54
-		::System::Single JCHKEBPNHDG; // 0x58
-		::System::Boolean MLMKJGOIONL; // 0x5C
-		::System::Boolean NAADMOMMNAL; // 0x5D
-		::System::Boolean EKHICICMCBI; // 0x5E
+		::System::String* OENAMINOLLF; // 0x10
+		::System::String* CDMFNHJGGKF; // 0x18
+		::System::String* MACHCHJDBBH; // 0x20
+		::System::String* ANMKMDHFDAG; // 0x28
+		::RPG::GameCore::MeshBound* PPKHNNBEOEL; // 0x30
+		::System::Boolean MLMKJGOIONL; // 0x38
+		::System::Boolean EKHICICMCBI; // 0x39
+		::System::Boolean NAADMOMMNAL; // 0x3A
 		::System::Byte _padding0[0x1];
-		::System::Single JMPMDGJLIPF; // 0x60
-		::System::Single HDOJAFAAIKM; // 0x64
-		::System::Int32 IOBJFEJFLJP; // 0x68
-		::System::Int32 INKGKILNLFB; // 0x6C
+		::System::Int32 GMDBHJKEAEI; // 0x3C
+		::System::Single PHHJGMPBAKK; // 0x40
+		::System::Single JMPMDGJLIPF; // 0x44
+		::System::Int32 INKGKILNLFB; // 0x48
+		::System::Single CNDABONKHMH; // 0x4C
+		::System::Single PEGKLICCBKF; // 0x50
+		::System::Int32 IOBJFEJFLJP; // 0x54
+		::System::Single PDKOHKKMKLF; // 0x58
+		::System::Single FOANGAFDLDJ; // 0x5C
+		::System::Single JCHKEBPNHDG; // 0x60
+		::System::Single OCKOLFPPGDF; // 0x64
+		::System::Single PDJLNAILECG; // 0x68
+		::System::Single HDOJAFAAIKM; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PFBILMDGFHE_CTOR_OFFSET))(this);

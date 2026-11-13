@@ -6,47 +6,47 @@ class NINEMEMDNBK;
 namespace System { class Random; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define BBGMIOOFEOC_AAACJMLFNMM_OFFSET UNITYSDK_OFFSET(0x1C406110)
-#define BBGMIOOFEOC_ABPFENDKAME_OFFSET UNITYSDK_OFFSET(0x1C406700)
-#define BBGMIOOFEOC_ADAJBOAFNNB_OFFSET UNITYSDK_OFFSET(0x1C406280)
-#define BBGMIOOFEOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C406FC0)
-#define BBGMIOOFEOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C406F70)
-#define BBGMIOOFEOC_FGDKCJPMBEG_OFFSET UNITYSDK_OFFSET(0x1C4069F0)
-#define BBGMIOOFEOC_HCGIKFPKLOE_OFFSET UNITYSDK_OFFSET(0x1C406100)
-#define BBGMIOOFEOC_LBNFHLPFFLD_OFFSET UNITYSDK_OFFSET(0x1C406CD0)
-#define BBGMIOOFEOC_OCNMECOOLON_OFFSET UNITYSDK_OFFSET(0x1C4068F0)
+#define BBGMIOOFEOC_AAACJMLFNMM_OFFSET UNITYSDK_OFFSET(0x15AC8BA0)
+#define BBGMIOOFEOC_ABPFENDKAME_OFFSET UNITYSDK_OFFSET(0x15AC9190)
+#define BBGMIOOFEOC_ADAJBOAFNNB_OFFSET UNITYSDK_OFFSET(0x15AC8D10)
+#define BBGMIOOFEOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x15AC9A50)
+#define BBGMIOOFEOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC9A00)
+#define BBGMIOOFEOC_FGDKCJPMBEG_OFFSET UNITYSDK_OFFSET(0x15AC9480)
+#define BBGMIOOFEOC_HCGIKFPKLOE_OFFSET UNITYSDK_OFFSET(0x15AC8B90)
+#define BBGMIOOFEOC_LBNFHLPFFLD_OFFSET UNITYSDK_OFFSET(0x15AC9760)
+#define BBGMIOOFEOC_OCNMECOOLON_OFFSET UNITYSDK_OFFSET(0x15AC9380)
 
-inline static constexpr unsigned int BBGMIOOFEOC_TypeDefinitionIndex = 41519;
+inline static constexpr unsigned int BBGMIOOFEOC_TypeDefinitionIndex = 42494;
 
 	class BBGMIOOFEOC : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IList_1<::System::UInt64>* GMIODKLGJHD; // 0x10
-		::Il2CppArray<::System::UInt32>* EMKFBDEACMI; // 0x18
-		::NINEMEMDNBK* DCOPELFHOLO; // 0x20
-		::System::Double MDDJDEINLPM; // 0x28
-		::System::Boolean HKMGIBJNCFE; // 0x30
-		::System::Boolean BANLOOPBKLF; // 0x31
+		::NINEMEMDNBK* DCOPELFHOLO; // 0x18
+		::Il2CppArray<::System::UInt32>* EMKFBDEACMI; // 0x20
+		::System::Boolean BANLOOPBKLF; // 0x28
+		::System::Boolean HKMGIBJNCFE; // 0x29
 		::System::Byte _padding0[0x2];
-		::System::UInt32 CMFNKDKKGGI; // 0x34
+		::System::UInt32 CMFNKDKKGGI; // 0x2C
+		::System::Double MDDJDEINLPM; // 0x30
 		static ::System::Random** StaticGet_OLEEIPHBJKB()
 		{
-			return (::System::Random**)UnitySDK::FromName("", "BBGMIOOFEOC")->GetStaticField(0x130D0);
-		}
-
-		static ::System::Boolean* StaticGet_FKDBKPHFEKF()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BBGMIOOFEOC")->GetStaticField(0x3E00);
-		}
-
-		static ::System::UInt32* StaticGet_PCJLEJGEGGD()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("", "BBGMIOOFEOC")->GetStaticField(0x3E04);
+			return (::System::Random**)UnitySDK::FromName("", "BBGMIOOFEOC")->GetStaticField(0xBE90);
 		}
 
 		static ::System::UInt32* StaticGet_MMIPPDHLFFC()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "BBGMIOOFEOC")->GetStaticField(0x3E08);
+			return (::System::UInt32*)UnitySDK::FromName("", "BBGMIOOFEOC")->GetStaticField(0x17C0);
+		}
+
+		static ::System::Boolean* StaticGet_FKDBKPHFEKF()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "BBGMIOOFEOC")->GetStaticField(0x17C4);
+		}
+
+		static ::System::UInt32* StaticGet_PCJLEJGEGGD()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("", "BBGMIOOFEOC")->GetStaticField(0x17C8);
 		}
 
 		// static const ::System::Object HAMBMFPEOOK; // 0x0

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KLEFGGIHGMI_RegionBlockVisibilityStatusPriority_TypeDefinitionIndex = 73908;
+inline static constexpr unsigned int KLEFGGIHGMI_RegionBlockVisibilityStatusPriority_TypeDefinitionIndex = 76036;
 
 	enum class KLEFGGIHGMI_RegionBlockVisibilityStatusPriority : ::System::Int32
 	{

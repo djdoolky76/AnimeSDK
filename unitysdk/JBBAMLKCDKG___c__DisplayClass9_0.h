@@ -5,17 +5,17 @@ class FOACJPEHDKO;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JBBAMLKCDKG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16552520)
-#define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__0_OFFSET UNITYSDK_OFFSET(0x16552570)
-#define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__1_OFFSET UNITYSDK_OFFSET(0x16552710)
+#define JBBAMLKCDKG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A623A0)
+#define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__0_OFFSET UNITYSDK_OFFSET(0x19A623F0)
+#define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__1_OFFSET UNITYSDK_OFFSET(0x19A62590)
 
-inline static constexpr unsigned int JBBAMLKCDKG___c__DisplayClass9_0_TypeDefinitionIndex = 79768;
+inline static constexpr unsigned int JBBAMLKCDKG___c__DisplayClass9_0_TypeDefinitionIndex = 82545;
 
 	class JBBAMLKCDKG___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel* point; // 0x10
-		::System::Func_2<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*, ::System::Boolean>* __9__1; // 0x18
+		::System::Func_2<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*, ::System::Boolean>* __9__1; // 0x10
+		::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel* point; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JBBAMLKCDKG___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);

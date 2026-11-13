@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournHexInfoProvider_TypeDefinitionIndex = 67303;
+	inline static constexpr unsigned int IRogueTournHexInfoProvider_TypeDefinitionIndex = 69247;
 
 	class IRogueTournHexInfoProvider
 	{

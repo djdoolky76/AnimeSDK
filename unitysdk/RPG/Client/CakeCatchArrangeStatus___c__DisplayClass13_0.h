@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class CakeCatchFreeAreaPosition; }
 
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8D64D0)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS___C__DISPLAYCLASS13_0__ISPLACEDINFREEAREA_B__0_OFFSET UNITYSDK_OFFSET(0xC8D65F0)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD75960)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS___C__DISPLAYCLASS13_0__ISPLACEDINFREEAREA_B__0_OFFSET UNITYSDK_OFFSET(0x1BD75A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchArrangeStatus___c__DisplayClass13_0_TypeDefinitionIndex = 62979;
+	inline static constexpr unsigned int CakeCatchArrangeStatus___c__DisplayClass13_0_TypeDefinitionIndex = 64417;
 
 	class CakeCatchArrangeStatus___c__DisplayClass13_0 : public ::System::Object
 	{

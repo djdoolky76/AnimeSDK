@@ -5,10 +5,10 @@ namespace RPG::Client { class LuaSystem; }
 namespace RPG::Client { class LuaUIController; }
 namespace System { class Object; }
 
-#define LAMGIGDFIPA_AKCIMDNCGDO_OFFSET UNITYSDK_OFFSET(0xB5E1070)
-#define LAMGIGDFIPA_JLGNNDPPHNC_OFFSET UNITYSDK_OFFSET(0xB5E0AE0)
+#define LAMGIGDFIPA_AKCIMDNCGDO_OFFSET UNITYSDK_OFFSET(0x1B284DE0)
+#define LAMGIGDFIPA_JLGNNDPPHNC_OFFSET UNITYSDK_OFFSET(0x1B284850)
 
-inline static constexpr unsigned int LAMGIGDFIPA_TypeDefinitionIndex = 81038;
+inline static constexpr unsigned int LAMGIGDFIPA_TypeDefinitionIndex = 83818;
 
 	class LAMGIGDFIPA : public ::System::Object
 	{

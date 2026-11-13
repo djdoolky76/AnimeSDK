@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EACFPDHBLNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA020E0)
-#define EACFPDHBLNC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1CA02090)
+#define EACFPDHBLNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB34440)
+#define EACFPDHBLNC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1DB343F0)
 
-inline static constexpr unsigned int EACFPDHBLNC_TypeDefinitionIndex = 42114;
+inline static constexpr unsigned int EACFPDHBLNC_TypeDefinitionIndex = 43089;
 
 	class EACFPDHBLNC : public ::System::Object
 	{

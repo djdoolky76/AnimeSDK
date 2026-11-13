@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAdvLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JDPLPAPMIDA_CTOR_OFFSET UNITYSDK_OFFSET(0x166029A0)
-#define JDPLPAPMIDA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16602A10)
+#define JDPLPAPMIDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1305A9C0)
+#define JDPLPAPMIDA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1305AA30)
 
-inline static constexpr unsigned int JDPLPAPMIDA_TypeDefinitionIndex = 59212;
+inline static constexpr unsigned int JDPLPAPMIDA_TypeDefinitionIndex = 60489;
 
 	class JDPLPAPMIDA
 	{

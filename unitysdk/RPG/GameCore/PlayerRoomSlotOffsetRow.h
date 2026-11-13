@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerRoomSlotOffsetRow; }
 
-#define RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90E4E0)
-#define RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D90E3A0)
+#define RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF786E0)
+#define RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF785A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRoomSlotOffsetRow_TypeDefinitionIndex = 14551;
+	inline static constexpr unsigned int PlayerRoomSlotOffsetRow_TypeDefinitionIndex = 14706;
 
 	class PlayerRoomSlotOffsetRow : public ::System::Object
 	{

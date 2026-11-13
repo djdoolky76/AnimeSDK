@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5F4BA0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS18_0___ONTUTORIALTARGETCELLSCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0xD5F7D10)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS18_0___ONTUTORIALTARGETCELLSCHANGED_B__1_OFFSET UNITYSDK_OFFSET(0xD5F7E50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6CB200)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS18_0___ONTUTORIALTARGETCELLSCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x1C6CE370)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS18_0___ONTUTORIALTARGETCELLSCHANGED_B__1_OFFSET UNITYSDK_OFFSET(0x1C6CE4B0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftBoardGroundControl___c__DisplayClass18_0_TypeDefinitionIndex = 79845;
+	inline static constexpr unsigned int MechCraftCraftBoardGroundControl___c__DisplayClass18_0_TypeDefinitionIndex = 82622;
 
 	class MechCraftCraftBoardGroundControl___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Immutable::IImmutableSet_1<::UnityEngine::Vector2Int>* oldCells; // 0x10
-		::System::Collections::Immutable::IImmutableSet_1<::UnityEngine::Vector2Int>* newCells; // 0x18
+		::System::Collections::Immutable::IImmutableSet_1<::UnityEngine::Vector2Int>* newCells; // 0x10
+		::System::Collections::Immutable::IImmutableSet_1<::UnityEngine::Vector2Int>* oldCells; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS18_0_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KMIIPKCBNIE;
 
-#define KMIIPKCBNIE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB554D40)
-#define KMIIPKCBNIE___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xB5551A0)
+#define KMIIPKCBNIE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18F7AB10)
+#define KMIIPKCBNIE___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x18F7AF70)
 
-inline static constexpr unsigned int KMIIPKCBNIE___c__DisplayClass1_0_TypeDefinitionIndex = 52724;
+inline static constexpr unsigned int KMIIPKCBNIE___c__DisplayClass1_0_TypeDefinitionIndex = 53868;
 
 	class KMIIPKCBNIE___c__DisplayClass1_0 : public ::System::Object
 	{

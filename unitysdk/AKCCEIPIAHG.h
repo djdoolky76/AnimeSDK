@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class ColliderConfig; }
 namespace UnityEngine { class Collider; }
 
-#define AKCCEIPIAHG_ELDFJHFKAFP_OFFSET UNITYSDK_OFFSET(0x12CC63C0)
-#define AKCCEIPIAHG_IMOKMCCOCEP_OFFSET UNITYSDK_OFFSET(0x12CC6180)
+#define AKCCEIPIAHG_ELDFJHFKAFP_OFFSET UNITYSDK_OFFSET(0x19D54650)
+#define AKCCEIPIAHG_IMOKMCCOCEP_OFFSET UNITYSDK_OFFSET(0x19D54410)
 
-inline static constexpr unsigned int AKCCEIPIAHG_TypeDefinitionIndex = 57194;
+inline static constexpr unsigned int AKCCEIPIAHG_TypeDefinitionIndex = 58421;
 
 	class AKCCEIPIAHG : public ::System::Object
 	{

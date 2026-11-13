@@ -5,25 +5,25 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenInteractPropData; 
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4132C0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC413300)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C__GETINTERACTPROPS_B__9_0_OFFSET UNITYSDK_OFFSET(0xC413310)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCADB70)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCADBB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C__GETINTERACTPROPS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1CCADBC0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenInteractController___c_TypeDefinitionIndex = 75574;
+	inline static constexpr unsigned int ActivityHipplenInteractController___c_TypeDefinitionIndex = 77901;
 
 	class ActivityHipplenInteractController___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityHipplen", "<>c")->GetStaticField(0x175E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityHipplen", "<>c")->GetStaticField(0x18010);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>**)UnitySDK::FromName("RPG.Client.ActivityHipplen", "<>c")->GetStaticField(0x175E8);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>**)UnitySDK::FromName("RPG.Client.ActivityHipplen", "<>c")->GetStaticField(0x18018);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IEIEAAJCDNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C664890)
+#define IEIEAAJCDNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C94CEC0)
 
-inline static constexpr unsigned int IEIEAAJCDNP_TypeDefinitionIndex = 36527;
+inline static constexpr unsigned int IEIEAAJCDNP_TypeDefinitionIndex = 37455;
 
 	class IEIEAAJCDNP : public ::System::Object
 	{

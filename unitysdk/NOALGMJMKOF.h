@@ -8,12 +8,12 @@ namespace Entitas { template <typename T> class IContext_1; }
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NOALGMJMKOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C946510)
-#define NOALGMJMKOF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C946810)
-#define NOALGMJMKOF_FILTER_OFFSET UNITYSDK_OFFSET(0x1C946760)
-#define NOALGMJMKOF_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C946640)
+#define NOALGMJMKOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E054BF0)
+#define NOALGMJMKOF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E054EF0)
+#define NOALGMJMKOF_FILTER_OFFSET UNITYSDK_OFFSET(0x1E054E40)
+#define NOALGMJMKOF_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1E054D20)
 
-inline static constexpr unsigned int NOALGMJMKOF_TypeDefinitionIndex = 42865;
+inline static constexpr unsigned int NOALGMJMKOF_TypeDefinitionIndex = 43846;
 
 	class NOALGMJMKOF
 	{

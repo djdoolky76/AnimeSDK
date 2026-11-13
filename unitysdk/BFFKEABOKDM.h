@@ -4,11 +4,11 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraDeleteEffect; }
 
-#define BFFKEABOKDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB160E70)
-#define BFFKEABOKDM_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB160EA0)
-#define BFFKEABOKDM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB160EE0)
+#define BFFKEABOKDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A956D80)
+#define BFFKEABOKDM_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x1A956DB0)
+#define BFFKEABOKDM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1A956DF0)
 
-inline static constexpr unsigned int BFFKEABOKDM_TypeDefinitionIndex = 78410;
+inline static constexpr unsigned int BFFKEABOKDM_TypeDefinitionIndex = 81145;
 
 	class BFFKEABOKDM : public ::System::Object
 	{

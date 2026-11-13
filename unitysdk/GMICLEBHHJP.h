@@ -7,15 +7,15 @@ class IBPGDJEBPFN;
 class JCLBAEHIBLA;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GMICLEBHHJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C619530)
+#define GMICLEBHHJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA56E00)
 
-inline static constexpr unsigned int GMICLEBHHJP_TypeDefinitionIndex = 36488;
+inline static constexpr unsigned int GMICLEBHHJP_TypeDefinitionIndex = 37416;
 
 	class GMICLEBHHJP : public ::System::Object
 	{
 	public:
-		::JCLBAEHIBLA* JBMJPJEKNGN; // 0x10
-		::System::Collections::Generic::List_1<::GHLNPFDIJLF*>* PIBKHIILLLF; // 0x18
+		::System::Collections::Generic::List_1<::GHLNPFDIJLF*>* PIBKHIILLLF; // 0x10
+		::JCLBAEHIBLA* JBMJPJEKNGN; // 0x18
 		::IBPGDJEBPFN* MLLNOGKNHNL; // 0x20
 		::System::UInt32 LJMNNBMALLL; // 0x28
 		::System::UInt32 HJPBAJEPAGE; // 0x2C

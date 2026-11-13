@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DDPLLJEOLHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F70C0)
+#define DDPLLJEOLHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB293A0)
 
-inline static constexpr unsigned int DDPLLJEOLHD_TypeDefinitionIndex = 43693;
+inline static constexpr unsigned int DDPLLJEOLHD_TypeDefinitionIndex = 44676;
 
 	class DDPLLJEOLHD : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEQTEUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4396F0)
-#define RPG_GAMECORE_BATTLEQTEUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D439420)
+#define RPG_GAMECORE_BATTLEQTEUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C31BF10)
+#define RPG_GAMECORE_BATTLEQTEUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C31BC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleQTEUIConfig_TypeDefinitionIndex = 23347;
+	inline static constexpr unsigned int BattleQTEUIConfig_TypeDefinitionIndex = 23789;
 
 	class BattleQTEUIConfig : public ::RPG::GameCore::JsonConfig
 	{

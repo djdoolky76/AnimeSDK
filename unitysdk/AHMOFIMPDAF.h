@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPropIsCreateByActiveSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHMOFIMPDAF_CTOR_OFFSET UNITYSDK_OFFSET(0xEB83110)
-#define AHMOFIMPDAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xEB83140)
+#define AHMOFIMPDAF_CTOR_OFFSET UNITYSDK_OFFSET(0x19B28E00)
+#define AHMOFIMPDAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19B28E30)
 
-inline static constexpr unsigned int AHMOFIMPDAF_TypeDefinitionIndex = 52606;
+inline static constexpr unsigned int AHMOFIMPDAF_TypeDefinitionIndex = 53713;
 
 	class AHMOFIMPDAF
 	{

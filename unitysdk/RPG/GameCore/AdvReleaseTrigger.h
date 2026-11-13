@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvReleaseTrigger; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVRELEASETRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37EA60)
-#define RPG_GAMECORE_ADVRELEASETRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D37EA90)
-#define RPG_GAMECORE_ADVRELEASETRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D37EA10)
+#define RPG_GAMECORE_ADVRELEASETRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E0410)
+#define RPG_GAMECORE_ADVRELEASETRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8E0440)
+#define RPG_GAMECORE_ADVRELEASETRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E03C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvReleaseTrigger_TypeDefinitionIndex = 20542;
+	inline static constexpr unsigned int AdvReleaseTrigger_TypeDefinitionIndex = 20878;
 
 	class AdvReleaseTrigger : public ::RPG::GameCore::TaskConfig
 	{

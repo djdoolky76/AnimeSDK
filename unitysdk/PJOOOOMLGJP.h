@@ -3,10 +3,10 @@
 class EGIOICBKPIE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PJOOOOMLGJP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2969D0)
-#define PJOOOOMLGJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC296A00)
+#define PJOOOOMLGJP_CTOR_OFFSET UNITYSDK_OFFSET(0x147A1D80)
+#define PJOOOOMLGJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147A1DB0)
 
-inline static constexpr unsigned int PJOOOOMLGJP_TypeDefinitionIndex = 52811;
+inline static constexpr unsigned int PJOOOOMLGJP_TypeDefinitionIndex = 53955;
 
 	class PJOOOOMLGJP
 	{

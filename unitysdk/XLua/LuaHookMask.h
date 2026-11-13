@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define XLUA_LUAHOOKMASK_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB6850)
+#define XLUA_LUAHOOKMASK_CTOR_OFFSET UNITYSDK_OFFSET(0x12BA9CB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaHookMask_TypeDefinitionIndex = 50249;
+	inline static constexpr unsigned int LuaHookMask_TypeDefinitionIndex = 51300;
 
 	class LuaHookMask : public ::System::Object
 	{

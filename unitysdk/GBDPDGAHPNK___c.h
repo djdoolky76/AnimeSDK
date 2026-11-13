@@ -4,18 +4,18 @@
 class GBDPDGAHPNK;
 namespace System { class Object; }
 
-#define GBDPDGAHPNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3FBF70)
-#define GBDPDGAHPNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3FBFB0)
-#define GBDPDGAHPNK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3FBFC0)
+#define GBDPDGAHPNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC49920)
+#define GBDPDGAHPNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC49960)
+#define GBDPDGAHPNK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC49970)
 
-inline static constexpr unsigned int GBDPDGAHPNK___c_TypeDefinitionIndex = 27370;
+inline static constexpr unsigned int GBDPDGAHPNK___c_TypeDefinitionIndex = 27901;
 
 	class GBDPDGAHPNK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC320);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56D10);
 		}
 
 		static ::System::Void _cctor()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BDOHIOEMGCI_TypeDefinitionIndex = 71529;
+inline static constexpr unsigned int BDOHIOEMGCI_TypeDefinitionIndex = 73516;
 
 	class BDOHIOEMGCI
 	{

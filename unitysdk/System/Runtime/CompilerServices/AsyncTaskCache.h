@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C298980)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CREATEINT32TASKS_OFFSET UNITYSDK_OFFSET(0x1C298850)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAC93D0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CREATEINT32TASKS_OFFSET UNITYSDK_OFFSET(0x1DAC92A0)
 
 namespace System::Runtime::CompilerServices
 {
@@ -13,19 +13,19 @@ namespace System::Runtime::CompilerServices
 	class AsyncTaskCache : public ::System::Object
 	{
 	public:
-		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_FalseTask()
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_TrueTask()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x1B6E0);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x15D10);
 		}
 
 		static ::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>** StaticGet_Int32Tasks()
 		{
-			return (::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x1B6E8);
+			return (::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x15D18);
 		}
 
-		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_TrueTask()
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_FalseTask()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x1B6F0);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x15D20);
 		}
 
 		static ::System::Void _cctor()

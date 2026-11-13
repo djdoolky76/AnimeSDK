@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_IEvolveBuildSeasonStrategy_TypeDefinitionIndex = 56069;
+	inline static constexpr unsigned int EvolveBuildGearManager_IEvolveBuildSeasonStrategy_TypeDefinitionIndex = 57281;
 
 	class EvolveBuildGearManager_IEvolveBuildSeasonStrategy
 	{

@@ -4,7 +4,7 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int EHPKGDKAKBE_TypeDefinitionIndex = 49827;
+inline static constexpr unsigned int EHPKGDKAKBE_TypeDefinitionIndex = 50875;
 
 	class EHPKGDKAKBE : public ::System::Object
 	{

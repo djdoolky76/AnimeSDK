@@ -4,18 +4,18 @@
 class GEBBMDCOLCH;
 namespace System { class Object; }
 
-#define GEBBMDCOLCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E423DD0)
-#define GEBBMDCOLCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E423E10)
-#define GEBBMDCOLCH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E423E20)
+#define GEBBMDCOLCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2023C790)
+#define GEBBMDCOLCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2023C7D0)
+#define GEBBMDCOLCH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2023C7E0)
 
-inline static constexpr unsigned int GEBBMDCOLCH___c_TypeDefinitionIndex = 29355;
+inline static constexpr unsigned int GEBBMDCOLCH___c_TypeDefinitionIndex = 30066;
 
 	class GEBBMDCOLCH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10790);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D430);
 		}
 
 		static ::System::Void _cctor()

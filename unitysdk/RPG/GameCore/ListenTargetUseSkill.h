@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ListenTargetUseSkill; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LISTENTARGETUSESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A86F0)
-#define RPG_GAMECORE_LISTENTARGETUSESKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7A8700)
-#define RPG_GAMECORE_LISTENTARGETUSESKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A86C0)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2575C0)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F2575D0)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F257590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ListenTargetUseSkill_TypeDefinitionIndex = 21745;
+	inline static constexpr unsigned int ListenTargetUseSkill_TypeDefinitionIndex = 22135;
 
 	class ListenTargetUseSkill : public ::RPG::GameCore::TaskConfig
 	{

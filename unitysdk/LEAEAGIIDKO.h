@@ -5,19 +5,19 @@
 class LEAEAGIIDKO;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define LEAEAGIIDKO_ANAHFGMKJMB_OFFSET UNITYSDK_OFFSET(0xB642CE0)
-#define LEAEAGIIDKO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB642D80)
-#define LEAEAGIIDKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB642C80)
-#define LEAEAGIIDKO_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0xB642C90)
+#define LEAEAGIIDKO_ANAHFGMKJMB_OFFSET UNITYSDK_OFFSET(0x1ACA5A10)
+#define LEAEAGIIDKO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ACA5AB0)
+#define LEAEAGIIDKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ACA59B0)
+#define LEAEAGIIDKO_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0x1ACA59C0)
 
-inline static constexpr unsigned int LEAEAGIIDKO_TypeDefinitionIndex = 51995;
+inline static constexpr unsigned int LEAEAGIIDKO_TypeDefinitionIndex = 53100;
 
 	class LEAEAGIIDKO : public ::System::Object
 	{
 	public:
 		static ::LEAEAGIIDKO** StaticGet_FMJPMFEDIJL()
 		{
-			return (::LEAEAGIIDKO**)UnitySDK::FromName("", "LEAEAGIIDKO")->GetStaticField(0x30E0);
+			return (::LEAEAGIIDKO**)UnitySDK::FromName("", "LEAEAGIIDKO")->GetStaticField(0x587C0);
 		}
 
 		::System::Void _ctor()

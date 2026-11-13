@@ -3,9 +3,9 @@
 #include "unitysdk/DJJKNHPLHDI.h"
 class FDPALAEIHPB;
 
-#define ELCFEAACNPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA32F10)
+#define ELCFEAACNPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F6AC0)
 
-inline static constexpr unsigned int ELCFEAACNPA_TypeDefinitionIndex = 42881;
+inline static constexpr unsigned int ELCFEAACNPA_TypeDefinitionIndex = 43862;
 
 	class ELCFEAACNPA : public ::DJJKNHPLHDI
 	{

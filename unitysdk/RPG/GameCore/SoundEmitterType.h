@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SoundEmitterType_TypeDefinitionIndex = 24522;
+	inline static constexpr unsigned int SoundEmitterType_TypeDefinitionIndex = 24982;
 
 	enum class SoundEmitterType : ::System::Int32
 	{

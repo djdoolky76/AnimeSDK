@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CheckLastPhotoGraphResult; }
 namespace RPG::GameCore { class PhotoGraphResultContainer; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54E360)
-#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D54E370)
-#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D54E330)
+#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F34F870)
+#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F34F880)
+#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F34F840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckLastPhotoGraphResult_TypeDefinitionIndex = 21622;
+	inline static constexpr unsigned int CheckLastPhotoGraphResult_TypeDefinitionIndex = 22010;
 
 	class CheckLastPhotoGraphResult : public ::RPG::GameCore::TaskConfig
 	{

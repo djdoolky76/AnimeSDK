@@ -10,13 +10,13 @@ namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameLevelVarCondition; }
 namespace RPG::GameCore { class LittleGameSubMissionCondition; }
 
-#define RPG_GAMECORE_LITTLEGAMECUSTOMLOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B2750)
-#define RPG_GAMECORE_LITTLEGAMECUSTOMLOADCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7B2790)
-#define RPG_GAMECORE_LITTLEGAMECUSTOMLOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B25B0)
+#define RPG_GAMECORE_LITTLEGAMECUSTOMLOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F260930)
+#define RPG_GAMECORE_LITTLEGAMECUSTOMLOADCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F260970)
+#define RPG_GAMECORE_LITTLEGAMECUSTOMLOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F260790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameCustomLoadConfig_TypeDefinitionIndex = 18869;
+	inline static constexpr unsigned int LittleGameCustomLoadConfig_TypeDefinitionIndex = 19031;
 
 	class LittleGameCustomLoadConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

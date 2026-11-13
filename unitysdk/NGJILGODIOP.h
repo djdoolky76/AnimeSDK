@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define NGJILGODIOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5B050)
-#define NGJILGODIOP_GET_STAGESTEPTYPE_OFFSET UNITYSDK_OFFSET(0x1EC5B260)
+#define NGJILGODIOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E544BA0)
+#define NGJILGODIOP_GET_STAGESTEPTYPE_OFFSET UNITYSDK_OFFSET(0x1E544DB0)
 
-inline static constexpr unsigned int NGJILGODIOP_TypeDefinitionIndex = 44218;
+inline static constexpr unsigned int NGJILGODIOP_TypeDefinitionIndex = 45293;
 
 	class NGJILGODIOP : public ::System::Attribute
 	{

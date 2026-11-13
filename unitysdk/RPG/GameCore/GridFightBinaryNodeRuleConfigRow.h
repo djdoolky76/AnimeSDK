@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightBinaryNodeRuleConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F9BB0)
-#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6F9A40)
+#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x205FCD90)
+#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x205FCC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBinaryNodeRuleConfigRow_TypeDefinitionIndex = 13619;
+	inline static constexpr unsigned int GridFightBinaryNodeRuleConfigRow_TypeDefinitionIndex = 13739;
 
 	class GridFightBinaryNodeRuleConfigRow : public ::System::Object
 	{

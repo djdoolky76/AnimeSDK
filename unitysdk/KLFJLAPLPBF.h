@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KLFJLAPLPBF_TypeDefinitionIndex = 28669;
+inline static constexpr unsigned int KLFJLAPLPBF_TypeDefinitionIndex = 29259;
 
 	enum class KLFJLAPLPBF : ::System::Int32
 	{

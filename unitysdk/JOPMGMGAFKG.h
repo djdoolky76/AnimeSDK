@@ -7,11 +7,11 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define JOPMGMGAFKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D02AA10)
-#define JOPMGMGAFKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D02AAA0)
-#define JOPMGMGAFKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D02A960)
+#define JOPMGMGAFKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F936D20)
+#define JOPMGMGAFKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F936DB0)
+#define JOPMGMGAFKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F936C70)
 
-inline static constexpr unsigned int JOPMGMGAFKG_TypeDefinitionIndex = 24087;
+inline static constexpr unsigned int JOPMGMGAFKG_TypeDefinitionIndex = 24546;
 
 	class JOPMGMGAFKG : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,23 +5,23 @@ class EPFHDFJPECH;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define AJOECLJGDKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CC3890)
-#define AJOECLJGDKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC38D0)
-#define AJOECLJGDKO___C___CTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x12CC38E0)
+#define AJOECLJGDKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19D4A6A0)
+#define AJOECLJGDKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19D4A6E0)
+#define AJOECLJGDKO___C___CTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x19D4A6F0)
 
-inline static constexpr unsigned int AJOECLJGDKO___c_TypeDefinitionIndex = 79398;
+inline static constexpr unsigned int AJOECLJGDKO___c_TypeDefinitionIndex = 82175;
 
 	class AJOECLJGDKO___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x574B0);
-		}
-
 		static ::System::Func_2<::EPFHDFJPECH*, ::System::Int32>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::EPFHDFJPECH*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x574B8);
+			return (::System::Func_2<::EPFHDFJPECH*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x597C0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x597C8);
 		}
 
 		static ::System::Void _cctor()

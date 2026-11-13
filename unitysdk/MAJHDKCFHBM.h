@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::PixAir { class PixAirPlaneStatistics; }
 
-#define MAJHDKCFHBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F5000)
+#define MAJHDKCFHBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25A0F0)
 
-inline static constexpr unsigned int MAJHDKCFHBM_TypeDefinitionIndex = 43674;
+inline static constexpr unsigned int MAJHDKCFHBM_TypeDefinitionIndex = 44657;
 
 	class MAJHDKCFHBM : public ::System::Object
 	{

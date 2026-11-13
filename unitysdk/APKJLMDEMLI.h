@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define APKJLMDEMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5743C0)
+#define APKJLMDEMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x170104A0)
 
-inline static constexpr unsigned int APKJLMDEMLI_TypeDefinitionIndex = 37296;
+inline static constexpr unsigned int APKJLMDEMLI_TypeDefinitionIndex = 38224;
 
 	class APKJLMDEMLI : public ::System::Object
 	{

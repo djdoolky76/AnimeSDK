@@ -5,10 +5,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define KNOOGHJPPBL___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB584C70)
-#define KNOOGHJPPBL___C__DISPLAYCLASS19_0__FILLSPECIFICPATHAVATARSBYROLETO_B__0_OFFSET UNITYSDK_OFFSET(0xB584D90)
+#define KNOOGHJPPBL___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18FB19E0)
+#define KNOOGHJPPBL___C__DISPLAYCLASS19_0__FILLSPECIFICPATHAVATARSBYROLETO_B__0_OFFSET UNITYSDK_OFFSET(0x18FB1B00)
 
-inline static constexpr unsigned int KNOOGHJPPBL___c__DisplayClass19_0_TypeDefinitionIndex = 62674;
+inline static constexpr unsigned int KNOOGHJPPBL___c__DisplayClass19_0_TypeDefinitionIndex = 64108;
 
 	class KNOOGHJPPBL___c__DisplayClass19_0 : public ::System::Object
 	{

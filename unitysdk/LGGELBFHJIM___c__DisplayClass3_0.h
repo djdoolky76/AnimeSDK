@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::TeamTowers { class TeamTowersDepartmentData; }
 
-#define LGGELBFHJIM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB68C840)
-#define LGGELBFHJIM___C__DISPLAYCLASS3_0__GETDEPARTMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB68E9F0)
+#define LGGELBFHJIM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA31B0)
+#define LGGELBFHJIM___C__DISPLAYCLASS3_0__GETDEPARTMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1BCA5360)
 
-inline static constexpr unsigned int LGGELBFHJIM___c__DisplayClass3_0_TypeDefinitionIndex = 79036;
+inline static constexpr unsigned int LGGELBFHJIM___c__DisplayClass3_0_TypeDefinitionIndex = 81812;
 
 	class LGGELBFHJIM___c__DisplayClass3_0 : public ::System::Object
 	{

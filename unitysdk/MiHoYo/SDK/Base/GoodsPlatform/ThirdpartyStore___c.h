@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC18D40)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC18D80)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__GETGOODSIDLIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x1BC18D90)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__GETGOODSIDLIST_B__20_1_OFFSET UNITYSDK_OFFSET(0x1BC18E70)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B454350)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B454390)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__GETGOODSIDLIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x1B4543A0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__GETGOODSIDLIST_B__20_1_OFFSET UNITYSDK_OFFSET(0x1B454480)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int ThirdpartyStore___c_TypeDefinitionIndex = 8854;
+	inline static constexpr unsigned int ThirdpartyStore___c_TypeDefinitionIndex = 8863;
 
 	class ThirdpartyStore___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__20_1()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x51680);
-		}
-
-		static ::System::Func_2<::MiHoYo::SDK::JSONNode*, ::System::String*>** StaticGet___9__20_0()
-		{
-			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x51688);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x39990);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x51690);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x39998);
+		}
+
+		static ::System::Func_2<::MiHoYo::SDK::JSONNode*, ::System::String*>** StaticGet___9__20_0()
+		{
+			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x399A0);
 		}
 
 		static ::System::Void _cctor()

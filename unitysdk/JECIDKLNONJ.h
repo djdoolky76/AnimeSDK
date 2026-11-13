@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockVersusBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JECIDKLNONJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1660A270)
-#define JECIDKLNONJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1660A2A0)
+#define JECIDKLNONJ_CTOR_OFFSET UNITYSDK_OFFSET(0x13062F60)
+#define JECIDKLNONJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13062F90)
 
-inline static constexpr unsigned int JECIDKLNONJ_TypeDefinitionIndex = 55803;
+inline static constexpr unsigned int JECIDKLNONJ_TypeDefinitionIndex = 57006;
 
 	class JECIDKLNONJ
 	{

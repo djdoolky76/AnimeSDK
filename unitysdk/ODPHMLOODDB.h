@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int ODPHMLOODDB_TypeDefinitionIndex = 79099;
+inline static constexpr unsigned int ODPHMLOODDB_TypeDefinitionIndex = 81875;
 
 	class ODPHMLOODDB : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class EquipmentItemData; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD391310)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS49_0___COLLECTPILEEQUIPMENTS_B__0_OFFSET UNITYSDK_OFFSET(0xD391A20)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEEF7C0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS49_0___COLLECTPILEEQUIPMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1CEEFED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass49_0_TypeDefinitionIndex = 65729;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass49_0_TypeDefinitionIndex = 67655;
 
 	class LightConeQuickGrowCalculator___c__DisplayClass49_0 : public ::System::Object
 	{

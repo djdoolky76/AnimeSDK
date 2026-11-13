@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FOAKMDKBOJJ;
 
-#define OPLCGFKGEIO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFA8A10)
-#define OPLCGFKGEIO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA8DF0)
+#define OPLCGFKGEIO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18ABF270)
+#define OPLCGFKGEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x18ABF650)
 
-inline static constexpr unsigned int OPLCGFKGEIO_TypeDefinitionIndex = 54294;
+inline static constexpr unsigned int OPLCGFKGEIO_TypeDefinitionIndex = 55458;
 
 	class OPLCGFKGEIO : public ::System::Object
 	{

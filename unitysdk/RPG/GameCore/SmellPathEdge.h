@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SmellPathEdge; }
 
-#define RPG_GAMECORE_SMELLPATHEDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC3650)
-#define RPG_GAMECORE_SMELLPATHEDGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC3480)
+#define RPG_GAMECORE_SMELLPATHEDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FC8B0)
+#define RPG_GAMECORE_SMELLPATHEDGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3FC710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SmellPathEdge_TypeDefinitionIndex = 17580;
+	inline static constexpr unsigned int SmellPathEdge_TypeDefinitionIndex = 17748;
 
 	class SmellPathEdge : public ::RPG::GameCore::JsonConfig
 	{

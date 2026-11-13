@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PFKHKAMBHBN_TypeDefinitionIndex = 33475;
+inline static constexpr unsigned int PFKHKAMBHBN_TypeDefinitionIndex = 34390;
 
 	enum class PFKHKAMBHBN : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define AKTIMELINERTPCTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1F5E6330)
-#define AKTIMELINERTPCTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5E6F60)
-#define AKTIMELINERTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F5E69A0)
+#define AKTIMELINERTPCTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1EBBE280)
+#define AKTIMELINERTPCTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBEEB0)
+#define AKTIMELINERTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1EBBE8F0)
 
-inline static constexpr unsigned int AkTimelineRtpcTrack_TypeDefinitionIndex = 44880;
+inline static constexpr unsigned int AkTimelineRtpcTrack_TypeDefinitionIndex = 45955;
 
 	class AkTimelineRtpcTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

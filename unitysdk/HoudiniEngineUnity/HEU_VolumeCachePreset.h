@@ -5,11 +5,11 @@ namespace HoudiniEngineUnity { class HEU_VolumeLayerPreset; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHEPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1B97E540)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHEPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8409E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_VolumeCachePreset_TypeDefinitionIndex = 40370;
+	inline static constexpr unsigned int HEU_VolumeCachePreset_TypeDefinitionIndex = 41345;
 
 	class HEU_VolumeCachePreset : public ::System::Object
 	{

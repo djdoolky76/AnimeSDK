@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Textmap::Parameter::Compiler::Syntax
 {
-	inline static constexpr unsigned int SyntaxKind_TypeDefinitionIndex = 73411;
+	inline static constexpr unsigned int SyntaxKind_TypeDefinitionIndex = 75534;
 
 	enum class SyntaxKind : ::System::Int32
 	{

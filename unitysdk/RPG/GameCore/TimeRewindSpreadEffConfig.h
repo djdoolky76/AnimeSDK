@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimeRewindSpreadEffConfig; }
 
-#define RPG_GAMECORE_TIMEREWINDSPREADEFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5BF90)
-#define RPG_GAMECORE_TIMEREWINDSPREADEFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB590B0)
+#define RPG_GAMECORE_TIMEREWINDSPREADEFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D0740)
+#define RPG_GAMECORE_TIMEREWINDSPREADEFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5CDC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindSpreadEffConfig_TypeDefinitionIndex = 16608;
+	inline static constexpr unsigned int TimeRewindSpreadEffConfig_TypeDefinitionIndex = 16774;
 
 	class TimeRewindSpreadEffConfig : public ::RPG::GameCore::JsonConfig
 	{

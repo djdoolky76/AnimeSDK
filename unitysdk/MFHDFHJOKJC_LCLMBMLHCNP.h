@@ -7,21 +7,21 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define MFHDFHJOKJC_LCLMBMLHCNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F8410)
-#define MFHDFHJOKJC_LCLMBMLHCNP_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0xB8F7940)
-#define MFHDFHJOKJC_LCLMBMLHCNP_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB8F8800)
-#define MFHDFHJOKJC_LCLMBMLHCNP_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xB8F7DD0)
+#define MFHDFHJOKJC_LCLMBMLHCNP_CTOR_OFFSET UNITYSDK_OFFSET(0x17C88660)
+#define MFHDFHJOKJC_LCLMBMLHCNP_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0x17C87B90)
+#define MFHDFHJOKJC_LCLMBMLHCNP_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x17C88A50)
+#define MFHDFHJOKJC_LCLMBMLHCNP_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x17C88020)
 
-inline static constexpr unsigned int MFHDFHJOKJC_LCLMBMLHCNP_TypeDefinitionIndex = 69867;
+inline static constexpr unsigned int MFHDFHJOKJC_LCLMBMLHCNP_TypeDefinitionIndex = 71826;
 
 	class MFHDFHJOKJC_LCLMBMLHCNP : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* GIGLHCOCKMP; // 0x10
-		::UnityEngine::Material* EEOCHLOPPCH; // 0x18
-		::UnityEngine::Material* DOLIHDOBGEI; // 0x20
-		::UnityEngine::Transform* LEMMBOLAPII; // 0x28
-		::RPG::Client::CharacterEffect* FIJPFBNGMJL; // 0x30
+		::RPG::Client::CharacterEffect* FIJPFBNGMJL; // 0x10
+		::UnityEngine::Material* DOLIHDOBGEI; // 0x18
+		::UnityEngine::Material* EEOCHLOPPCH; // 0x20
+		::UnityEngine::GameObject* GIGLHCOCKMP; // 0x28
+		::UnityEngine::Transform* LEMMBOLAPII; // 0x30
 		::UnityEngine::Vector3 GBELOEHECEC; // 0x38
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Transform* a3, ::System::Single a4, ::RPG::Client::CharacterEffect* a5)
 		{

@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 namespace SWRT { class BVH2_HNode; }
 
-#define SWRT_BVH2_HNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC529B0)
-#define SWRT_BVH2_HNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x1CC529A0)
+#define SWRT_BVH2_HNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x20756810)
+#define SWRT_BVH2_HNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x20756800)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH2_HNode_TypeDefinitionIndex = 37494;
+	inline static constexpr unsigned int BVH2_HNode_TypeDefinitionIndex = 38422;
 
 	class BVH2_HNode : public ::System::Object
 	{
 	public:
 		::SWRT::BVH2_HNode* RChild; // 0x10
 		::SWRT::BVH2_HNode* LChild; // 0x18
-		::System::Int32 PrimIndex; // 0x20
-		::SWRT::AABB AABB; // 0x24
+		::SWRT::AABB AABB; // 0x20
+		::System::Int32 PrimIndex; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SWRT_BVH2_HNODE_CTOR_OFFSET))(this);

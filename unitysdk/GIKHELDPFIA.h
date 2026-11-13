@@ -6,17 +6,17 @@ class GIKHELDPFIA;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define GIKHELDPFIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE22030)
-#define GIKHELDPFIA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE22040)
-#define GIKHELDPFIA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE22000)
+#define GIKHELDPFIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E643D00)
+#define GIKHELDPFIA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E643D10)
+#define GIKHELDPFIA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E643CD0)
 
-inline static constexpr unsigned int GIKHELDPFIA_TypeDefinitionIndex = 21462;
+inline static constexpr unsigned int GIKHELDPFIA_TypeDefinitionIndex = 21805;
 
 	class GIKHELDPFIA : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* CIHDMACAGPN; // 0x18
-		::System::String* DHMDAEKJENF; // 0x20
+		::System::String* DHMDAEKJENF; // 0x18
+		::RPG::GameCore::DynamicString* CIHDMACAGPN; // 0x20
 		::System::Boolean PPONJDIBNBB; // 0x28
 		::System::Void _ctor()
 		{

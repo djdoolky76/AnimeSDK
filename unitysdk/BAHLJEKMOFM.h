@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialClearAllHideNodes; }
 
-#define BAHLJEKMOFM_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD64D0)
-#define BAHLJEKMOFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BD6500)
+#define BAHLJEKMOFM_CTOR_OFFSET UNITYSDK_OFFSET(0x199D5BD0)
+#define BAHLJEKMOFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199D5C00)
 
-inline static constexpr unsigned int BAHLJEKMOFM_TypeDefinitionIndex = 58819;
+inline static constexpr unsigned int BAHLJEKMOFM_TypeDefinitionIndex = 60087;
 
 	class BAHLJEKMOFM
 	{

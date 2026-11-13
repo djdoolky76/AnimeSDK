@@ -7,12 +7,12 @@ namespace System { class IDisposable; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MDKDPJEFJDG_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A67D0)
-#define MDKDPJEFJDG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8A7040)
-#define MDKDPJEFJDG_GDEJKMCGIMO_OFFSET UNITYSDK_OFFSET(0xB8A6E20)
-#define MDKDPJEFJDG_GELCGNKGEMN_OFFSET UNITYSDK_OFFSET(0xB8A6C30)
+#define MDKDPJEFJDG_CTOR_OFFSET UNITYSDK_OFFSET(0x183E6840)
+#define MDKDPJEFJDG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x183E70B0)
+#define MDKDPJEFJDG_GDEJKMCGIMO_OFFSET UNITYSDK_OFFSET(0x183E6E90)
+#define MDKDPJEFJDG_GELCGNKGEMN_OFFSET UNITYSDK_OFFSET(0x183E6CA0)
 
-inline static constexpr unsigned int MDKDPJEFJDG_TypeDefinitionIndex = 49821;
+inline static constexpr unsigned int MDKDPJEFJDG_TypeDefinitionIndex = 50869;
 
 	class MDKDPJEFJDG : public ::System::Object
 	{

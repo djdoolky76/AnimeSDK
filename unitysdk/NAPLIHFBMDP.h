@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class EndUseSharedSummonUnit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NAPLIHFBMDP_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB2DB0)
-#define NAPLIHFBMDP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAB2DC0)
-#define NAPLIHFBMDP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB2E00)
-#define NAPLIHFBMDP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAB3070)
-#define NAPLIHFBMDP_TICK_OFFSET UNITYSDK_OFFSET(0xBAB30C0)
+#define NAPLIHFBMDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0C3A0)
+#define NAPLIHFBMDP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BB0C3B0)
+#define NAPLIHFBMDP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BB0C3F0)
+#define NAPLIHFBMDP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BB0C660)
+#define NAPLIHFBMDP_TICK_OFFSET UNITYSDK_OFFSET(0x1BB0C6B0)
 
-inline static constexpr unsigned int NAPLIHFBMDP_TypeDefinitionIndex = 58118;
+inline static constexpr unsigned int NAPLIHFBMDP_TypeDefinitionIndex = 59357;
 
 	class NAPLIHFBMDP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::EndUseSharedSummonUnit* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::EndUseSharedSummonUnit* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EndUseSharedSummonUnit* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::EndUseSharedSummonUnit*))((::PBYTE)hIl2Cpp + NAPLIHFBMDP_CTOR_OFFSET))(this, a1, a2);

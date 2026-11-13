@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int IPAGLJGIIJB_TypeDefinitionIndex = 47687;
+inline static constexpr unsigned int IPAGLJGIIJB_TypeDefinitionIndex = 48717;
 
 	struct alignas(4) IPAGLJGIIJB
 	{

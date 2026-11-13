@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 
-#define IPFEAOONHGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B7720)
+#define IPFEAOONHGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C122000)
 
-inline static constexpr unsigned int IPFEAOONHGI_TypeDefinitionIndex = 36830;
+inline static constexpr unsigned int IPFEAOONHGI_TypeDefinitionIndex = 37758;
 
 	class IPFEAOONHGI : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRDependencyServiceBase_1_TypeDefinitionIndex = 35411;
+	inline static constexpr unsigned int SRDependencyServiceBase_1_TypeDefinitionIndex = 36339;
 
 	template <typename T>
 	class SRDependencyServiceBase_1

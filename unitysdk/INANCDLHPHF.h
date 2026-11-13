@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define INANCDLHPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB4A5F0)
+#define INANCDLHPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC37440)
 
-inline static constexpr unsigned int INANCDLHPHF_TypeDefinitionIndex = 42284;
+inline static constexpr unsigned int INANCDLHPHF_TypeDefinitionIndex = 43259;
 
 	class INANCDLHPHF : public ::System::Object
 	{

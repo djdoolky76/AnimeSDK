@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PlaySerialBells; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYSERIALBELLS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D903F20)
-#define RPG_GAMECORE_PLAYSERIALBELLS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D903F30)
-#define RPG_GAMECORE_PLAYSERIALBELLS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D903EE0)
+#define RPG_GAMECORE_PLAYSERIALBELLS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6E110)
+#define RPG_GAMECORE_PLAYSERIALBELLS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF6E120)
+#define RPG_GAMECORE_PLAYSERIALBELLS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF6E0D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlaySerialBells_TypeDefinitionIndex = 22195;
+	inline static constexpr unsigned int PlaySerialBells_TypeDefinitionIndex = 22600;
 
 	class PlaySerialBells : public ::RPG::GameCore::TaskConfig
 	{

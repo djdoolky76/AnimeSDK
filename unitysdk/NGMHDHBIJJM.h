@@ -3,10 +3,10 @@
 class DBLFKIDDKDO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGMHDHBIJJM_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA9270)
-#define NGMHDHBIJJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBA92A0)
+#define NGMHDHBIJJM_CTOR_OFFSET UNITYSDK_OFFSET(0x18E93850)
+#define NGMHDHBIJJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E93880)
 
-inline static constexpr unsigned int NGMHDHBIJJM_TypeDefinitionIndex = 55048;
+inline static constexpr unsigned int NGMHDHBIJJM_TypeDefinitionIndex = 56224;
 
 	class NGMHDHBIJJM
 	{

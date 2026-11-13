@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PBNONKAIAMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEE880)
+#define PBNONKAIAMK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC5290)
 
-inline static constexpr unsigned int PBNONKAIAMK_TypeDefinitionIndex = 56309;
+inline static constexpr unsigned int PBNONKAIAMK_TypeDefinitionIndex = 57523;
 
 	class PBNONKAIAMK : public ::System::Object
 	{

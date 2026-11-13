@@ -15,73 +15,73 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D84CCC0)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D84BA50)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D84B800)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1D84B440)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D84B560)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D84B790)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D84BD60)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D84B5E0)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1D84BF90)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1D84B4F0)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1D84BAE0)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D84BDA0)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D84C7F0)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D84C840)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D84C790)
-#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D84BF30)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6DF500)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E6DE290)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E6DE040)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1E6DDC80)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E6DDDA0)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E6DDFD0)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E6DE5A0)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E6DDE20)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1E6DE7D0)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1E6DDD30)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1E6DE320)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E6DE5E0)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6DF030)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E6DF080)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E6DEFD0)
+#define RPG_GAMECORE_MESSAGEITEMEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E6DE770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageItemExcelTable_TypeDefinitionIndex = 14464;
+	inline static constexpr unsigned int MessageItemExcelTable_TypeDefinitionIndex = 14619;
 
 	class MessageItemExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x49F90);
-		}
-
-		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::MessageItemRow*>** StaticGet_LRUCache()
-		{
-			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::MessageItemRow*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x49F98);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x49FA0);
-		}
-
-		static ::System::String** StaticGet_srcFileName()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x49FA8);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::MessageItemRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::MessageItemRow*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x49FB0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::MessageItemRow*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x3F2D0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x49FB8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x3F2D8);
+		}
+
+		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::MessageItemRow*>** StaticGet_LRUCache()
+		{
+			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::MessageItemRow*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x3F2E0);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x3F2E8);
 		}
 
 		static ::OFLIAAOJPJC** StaticGet_headers()
 		{
-			return (::OFLIAAOJPJC**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x49FC0);
+			return (::OFLIAAOJPJC**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x3F2F0);
+		}
+
+		static ::System::String** StaticGet_srcFileName()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x3F2F8);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x3F300);
 		}
 
 		static ::System::Boolean* StaticGet_IsLoadReverseMap()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x110F0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0xCAF0);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0x110F1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "MessageItemExcelTable")->GetStaticField(0xCAF1);
 		}
 
 		static ::System::Void _cctor()

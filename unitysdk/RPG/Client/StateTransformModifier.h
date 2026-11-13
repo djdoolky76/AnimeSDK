@@ -6,13 +6,13 @@
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATETRANSFORMMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xE1297A0)
-#define RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE129520)
-#define RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE129660)
+#define RPG_CLIENT_STATETRANSFORMMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1A917180)
+#define RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x1A916F00)
+#define RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A917040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateTransformModifier_TypeDefinitionIndex = 68847;
+	inline static constexpr unsigned int StateTransformModifier_TypeDefinitionIndex = 70800;
 
 	class StateTransformModifier : public ::UnityEngine::StateMachineBehaviour
 	{

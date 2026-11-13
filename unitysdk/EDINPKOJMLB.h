@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/OpenWorld/StreamingLightEnum.h"
 
-#define EDINPKOJMLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1331C770)
+#define EDINPKOJMLB_CTOR_OFFSET UNITYSDK_OFFSET(0x186C51A0)
 
-inline static constexpr unsigned int EDINPKOJMLB_TypeDefinitionIndex = 74031;
+inline static constexpr unsigned int EDINPKOJMLB_TypeDefinitionIndex = 76167;
 
 	class EDINPKOJMLB
 	{

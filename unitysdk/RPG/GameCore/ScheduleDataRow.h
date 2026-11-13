@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ScheduleDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCHEDULEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5BE00)
-#define RPG_GAMECORE_SCHEDULEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA5BCB0)
+#define RPG_GAMECORE_SCHEDULEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F84DB20)
+#define RPG_GAMECORE_SCHEDULEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F84D9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScheduleDataRow_TypeDefinitionIndex = 15087;
+	inline static constexpr unsigned int ScheduleDataRow_TypeDefinitionIndex = 15243;
 
 	class ScheduleDataRow : public ::System::Object
 	{
 	public:
-		::System::String* BeginTime; // 0x10
-		::System::String* EndTime; // 0x18
+		::System::String* EndTime; // 0x10
+		::System::String* BeginTime; // 0x18
 		::System::UInt32 ID; // 0x20
 		::System::Void _ctor()
 		{

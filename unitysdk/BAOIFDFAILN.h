@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BAOIFDFAILN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F0410)
+#define BAOIFDFAILN_CTOR_OFFSET UNITYSDK_OFFSET(0x20962C30)
 
-inline static constexpr unsigned int BAOIFDFAILN_TypeDefinitionIndex = 5077;
+inline static constexpr unsigned int BAOIFDFAILN_TypeDefinitionIndex = 5082;
 
 	class BAOIFDFAILN : public ::System::Attribute
 	{

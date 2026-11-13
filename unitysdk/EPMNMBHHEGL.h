@@ -4,16 +4,17 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define EPMNMBHHEGL_CTOR_OFFSET UNITYSDK_OFFSET(0x155CD5E0)
-#define EPMNMBHHEGL_GMKENGMMLKP_OFFSET UNITYSDK_OFFSET(0x155CD5D0)
+#define EPMNMBHHEGL_CTOR_OFFSET UNITYSDK_OFFSET(0x16B3C5C0)
+#define EPMNMBHHEGL_GMKENGMMLKP_OFFSET UNITYSDK_OFFSET(0x16B3C5B0)
 
-inline static constexpr unsigned int EPMNMBHHEGL_TypeDefinitionIndex = 55392;
+inline static constexpr unsigned int EPMNMBHHEGL_TypeDefinitionIndex = 56577;
 
 	class EPMNMBHHEGL : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint FIJLEDEKBJP; // 0x10
-		::System::Boolean JIKMGAHLNMF; // 0x18
+		::System::Boolean JIKMGAHLNMF; // 0x10
+		::System::Byte _padding0[0x7];
+		::RPG::GameCore::FixPoint FIJLEDEKBJP; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPMNMBHHEGL_CTOR_OFFSET))(this);

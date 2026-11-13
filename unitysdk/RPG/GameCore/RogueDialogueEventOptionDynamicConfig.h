@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDialogueEventOptionDynamicConfig; }
 
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONDYNAMICCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99AAB0)
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONDYNAMICCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D99A990)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONDYNAMICCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F580A20)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONDYNAMICCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F580900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueEventOptionDynamicConfig_TypeDefinitionIndex = 17915;
+	inline static constexpr unsigned int RogueDialogueEventOptionDynamicConfig_TypeDefinitionIndex = 18084;
 
 	class RogueDialogueEventOptionDynamicConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class DamagePerformFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GPGKOFENFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B4D270)
-#define GPGKOFENFEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B4D2A0)
+#define GPGKOFENFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x17DBA6C0)
+#define GPGKOFENFEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17DBA6F0)
 
-inline static constexpr unsigned int GPGKOFENFEI_TypeDefinitionIndex = 55742;
+inline static constexpr unsigned int GPGKOFENFEI_TypeDefinitionIndex = 56944;
 
 	class GPGKOFENFEI : public ::HIPAIGMJNOE
 	{

@@ -5,10 +5,10 @@ class CKHCKLBELFK;
 namespace RPG::Client { class VoracityInvasionProgressBuffData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EEDKHIFBBDM_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2ACC0)
-#define EEDKHIFBBDM_DILPNAHOJJE_OFFSET UNITYSDK_OFFSET(0x1334AE70)
+#define EEDKHIFBBDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A312560)
+#define EEDKHIFBBDM_DILPNAHOJJE_OFFSET UNITYSDK_OFFSET(0x1A3121E0)
 
-inline static constexpr unsigned int EEDKHIFBBDM_TypeDefinitionIndex = 68268;
+inline static constexpr unsigned int EEDKHIFBBDM_TypeDefinitionIndex = 70214;
 
 	class EEDKHIFBBDM : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class LDBOCEIMACL;
 namespace System { class Object; }
 
-#define LDBOCEIMACL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8C5360)
-#define LDBOCEIMACL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C53A0)
-#define LDBOCEIMACL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8C53B0)
+#define LDBOCEIMACL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F90F4A0)
+#define LDBOCEIMACL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F90F4E0)
+#define LDBOCEIMACL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F90F4F0)
 
-inline static constexpr unsigned int LDBOCEIMACL___c_TypeDefinitionIndex = 27239;
+inline static constexpr unsigned int LDBOCEIMACL___c_TypeDefinitionIndex = 27770;
 
 	class LDBOCEIMACL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CF70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BBC0);
 		}
 
 		static ::System::Void _cctor()

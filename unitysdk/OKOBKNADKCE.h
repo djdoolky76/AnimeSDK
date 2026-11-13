@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByContainCustomString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OKOBKNADKCE_CTOR_OFFSET UNITYSDK_OFFSET(0xBEEA250)
-#define OKOBKNADKCE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEEA280)
+#define OKOBKNADKCE_CTOR_OFFSET UNITYSDK_OFFSET(0x17890750)
+#define OKOBKNADKCE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17890780)
 
-inline static constexpr unsigned int OKOBKNADKCE_TypeDefinitionIndex = 54591;
+inline static constexpr unsigned int OKOBKNADKCE_TypeDefinitionIndex = 55756;
 
 	class OKOBKNADKCE
 	{

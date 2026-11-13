@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define PKCFIMPMAAK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2A9A30)
+#define PKCFIMPMAAK_CTOR_OFFSET UNITYSDK_OFFSET(0x147B4FC0)
 
-inline static constexpr unsigned int PKCFIMPMAAK_TypeDefinitionIndex = 48275;
+inline static constexpr unsigned int PKCFIMPMAAK_TypeDefinitionIndex = 49316;
 
 	class PKCFIMPMAAK : public ::UnityEngine::Playables::PlayableBehaviour
 	{

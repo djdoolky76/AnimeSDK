@@ -6,12 +6,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TimelineEntityConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMELINEENTITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5C0D0)
-#define RPG_GAMECORE_TIMELINEENTITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5BFA0)
+#define RPG_GAMECORE_TIMELINEENTITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D0880)
+#define RPG_GAMECORE_TIMELINEENTITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D0750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimelineEntityConfig_TypeDefinitionIndex = 20631;
+	inline static constexpr unsigned int TimelineEntityConfig_TypeDefinitionIndex = 20968;
 
 	class TimelineEntityConfig : public ::RPG::GameCore::JsonConfig
 	{

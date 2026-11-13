@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AFAPNIFHDAC_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFDEE0)
-#define AFAPNIFHDAC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xCEFDE40)
+#define AFAPNIFHDAC_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA9530)
+#define AFAPNIFHDAC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x18DA9490)
 
-inline static constexpr unsigned int AFAPNIFHDAC_TypeDefinitionIndex = 62452;
+inline static constexpr unsigned int AFAPNIFHDAC_TypeDefinitionIndex = 63865;
 
 	class AFAPNIFHDAC : public ::System::Object
 	{

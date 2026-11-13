@@ -6,18 +6,18 @@ class FLGDGCPIHBP;
 class JAODHHPIKGJ;
 namespace UnityEngine { class GameObject; }
 
-#define DGMLPCOHFLK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9FB040)
-#define DGMLPCOHFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9FB0C0)
+#define DGMLPCOHFLK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB2D310)
+#define DGMLPCOHFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2D390)
 
-inline static constexpr unsigned int DGMLPCOHFLK_TypeDefinitionIndex = 43195;
+inline static constexpr unsigned int DGMLPCOHFLK_TypeDefinitionIndex = 44176;
 
 	class DGMLPCOHFLK : public ::System::Object
 	{
 	public:
-		::GDJPCNLFDLN NMIOHOIPNKL; // 0x10
-		::UnityEngine::GameObject* HMFEPLJKFBA; // 0x40
-		::JAODHHPIKGJ* MEALLCOMFFH; // 0x48
-		::FLGDGCPIHBP* BKCDCIOHEJO; // 0x50
+		::UnityEngine::GameObject* HMFEPLJKFBA; // 0x10
+		::FLGDGCPIHBP* BKCDCIOHEJO; // 0x18
+		::GDJPCNLFDLN NMIOHOIPNKL; // 0x20
+		::JAODHHPIKGJ* MEALLCOMFFH; // 0x50
 		::System::Boolean LGLHFIKGEAH; // 0x58
 		::System::Void _ctor()
 		{

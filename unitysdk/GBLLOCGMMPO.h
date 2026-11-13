@@ -5,18 +5,18 @@ class FFLCBCBGMLI;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
-#define GBLLOCGMMPO_CTOR_OFFSET UNITYSDK_OFFSET(0x159474E0)
+#define GBLLOCGMMPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B884480)
 
-inline static constexpr unsigned int GBLLOCGMMPO_TypeDefinitionIndex = 55382;
+inline static constexpr unsigned int GBLLOCGMMPO_TypeDefinitionIndex = 56565;
 
 	class GBLLOCGMMPO : public ::System::Object
 	{
 	public:
-		::System::String* JCCECKDNGKH; // 0x10
+		::RPG::GameCore::TurnBasedModifierInstance* NGBAPOEDIOJ; // 0x10
 		::FFLCBCBGMLI* MIPCILCJBMP; // 0x18
 		::System::String* MPKMGIEAFCO; // 0x20
-		::RPG::GameCore::TurnBasedModifierInstance* NGBAPOEDIOJ; // 0x28
-		::System::String* BOGKOCFEIBL; // 0x30
+		::System::String* BOGKOCFEIBL; // 0x28
+		::System::String* JCCECKDNGKH; // 0x30
 		::System::Boolean KLOCJMNLBOP; // 0x38
 		::System::Void _ctor()
 		{

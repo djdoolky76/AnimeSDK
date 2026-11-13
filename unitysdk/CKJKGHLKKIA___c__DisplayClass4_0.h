@@ -5,10 +5,10 @@
 class AkCallbackInfo;
 class CKJKGHLKKIA;
 
-#define CKJKGHLKKIA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD759180)
-#define CKJKGHLKKIA___C__DISPLAYCLASS4_0__POSTVOICE_B__0_OFFSET UNITYSDK_OFFSET(0xD7594A0)
+#define CKJKGHLKKIA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD41550)
+#define CKJKGHLKKIA___C__DISPLAYCLASS4_0__POSTVOICE_B__0_OFFSET UNITYSDK_OFFSET(0x1AD41870)
 
-inline static constexpr unsigned int CKJKGHLKKIA___c__DisplayClass4_0_TypeDefinitionIndex = 48848;
+inline static constexpr unsigned int CKJKGHLKKIA___c__DisplayClass4_0_TypeDefinitionIndex = 49894;
 
 	class CKJKGHLKKIA___c__DisplayClass4_0 : public ::System::Object
 	{

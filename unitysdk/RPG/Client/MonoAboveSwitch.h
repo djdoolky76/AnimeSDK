@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MONOABOVESWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0xD723F60)
+#define RPG_CLIENT_MONOABOVESWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x19875E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAboveSwitch_TypeDefinitionIndex = 73107;
+	inline static constexpr unsigned int MonoAboveSwitch_TypeDefinitionIndex = 75221;
 
 	class MonoAboveSwitch : public ::UnityEngine::MonoBehaviour
 	{

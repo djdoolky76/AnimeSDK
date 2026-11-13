@@ -5,25 +5,25 @@ namespace RPG::Client { class QuestData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_VORACITYINVASIONPERSONALPROGRESS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4531A0)
-#define RPG_CLIENT_VORACITYINVASIONPERSONALPROGRESS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE4531E0)
-#define RPG_CLIENT_VORACITYINVASIONPERSONALPROGRESS___C__GET_QUESTDATALIST_B__6_0_OFFSET UNITYSDK_OFFSET(0xE4531F0)
+#define RPG_CLIENT_VORACITYINVASIONPERSONALPROGRESS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC83C90)
+#define RPG_CLIENT_VORACITYINVASIONPERSONALPROGRESS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC83CD0)
+#define RPG_CLIENT_VORACITYINVASIONPERSONALPROGRESS___C__GET_QUESTDATALIST_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BC83CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VoracityInvasionPersonalProgress___c_TypeDefinitionIndex = 68264;
+	inline static constexpr unsigned int VoracityInvasionPersonalProgress___c_TypeDefinitionIndex = 70210;
 
 	class VoracityInvasionPersonalProgress___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3FB00);
-		}
-
 		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3FB08);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C8A0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C8A8);
 		}
 
 		static ::System::Void _cctor()

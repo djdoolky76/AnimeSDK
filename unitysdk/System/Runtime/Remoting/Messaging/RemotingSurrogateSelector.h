@@ -8,9 +8,9 @@ namespace System::Runtime::Remoting::Messaging { class RemotingSurrogate; }
 namespace System::Runtime::Serialization { class ISerializationSurrogate; }
 namespace System::Runtime::Serialization { class ISurrogateSelector; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2C75E0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C72B0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR_GETSURROGATE_OFFSET UNITYSDK_OFFSET(0x1C2C72C0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A71AD40)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1A71AA10)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR_GETSURROGATE_OFFSET UNITYSDK_OFFSET(0x1A71AA20)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -22,17 +22,17 @@ namespace System::Runtime::Remoting::Messaging
 		::System::Runtime::Serialization::ISurrogateSelector* _next; // 0x10
 		static ::System::Type** StaticGet_s_cachedTypeObjRef()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector")->GetStaticField(0x1D110);
-		}
-
-		static ::System::Runtime::Remoting::Messaging::ObjRefSurrogate** StaticGet__objRefSurrogate()
-		{
-			return (::System::Runtime::Remoting::Messaging::ObjRefSurrogate**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector")->GetStaticField(0x1D118);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector")->GetStaticField(0x17FF0);
 		}
 
 		static ::System::Runtime::Remoting::Messaging::RemotingSurrogate** StaticGet__objRemotingSurrogate()
 		{
-			return (::System::Runtime::Remoting::Messaging::RemotingSurrogate**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector")->GetStaticField(0x1D120);
+			return (::System::Runtime::Remoting::Messaging::RemotingSurrogate**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector")->GetStaticField(0x17FF8);
+		}
+
+		static ::System::Runtime::Remoting::Messaging::ObjRefSurrogate** StaticGet__objRefSurrogate()
+		{
+			return (::System::Runtime::Remoting::Messaging::ObjRefSurrogate**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector")->GetStaticField(0x18000);
 		}
 
 		::System::Void _ctor()

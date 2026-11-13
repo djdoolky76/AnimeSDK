@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define KAAINOANDNB_NHLFAAMAGKN_OFFSET UNITYSDK_OFFSET(0x12C10)
+#define KAAINOANDNB_NHLFAAMAGKN_OFFSET UNITYSDK_OFFSET(0x3E4EE80)
 
-inline static constexpr unsigned int KAAINOANDNB_TypeDefinitionIndex = 56287;
+inline static constexpr unsigned int KAAINOANDNB_TypeDefinitionIndex = 57501;
 
 	struct alignas(4) KAAINOANDNB
 	{

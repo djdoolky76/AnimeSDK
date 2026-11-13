@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ProjectileBezierControlPoint; }
 
-#define RPG_GAMECORE_PROJECTILEBEZIERCONTROLPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9156A0)
-#define RPG_GAMECORE_PROJECTILEBEZIERCONTROLPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D915570)
+#define RPG_GAMECORE_PROJECTILEBEZIERCONTROLPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7F8A0)
+#define RPG_GAMECORE_PROJECTILEBEZIERCONTROLPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF7F770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileBezierControlPoint_TypeDefinitionIndex = 15652;
+	inline static constexpr unsigned int ProjectileBezierControlPoint_TypeDefinitionIndex = 15810;
 
 	class ProjectileBezierControlPoint : public ::RPG::GameCore::JsonConfig
 	{

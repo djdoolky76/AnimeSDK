@@ -4,24 +4,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TreasureDungeonFloorConfigRow; }
 
-#define RPG_GAMECORE_TREASUREDUNGEONFLOORCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC125F0)
-#define RPG_GAMECORE_TREASUREDUNGEONFLOORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC12310)
+#define RPG_GAMECORE_TREASUREDUNGEONFLOORCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31BE70)
+#define RPG_GAMECORE_TREASUREDUNGEONFLOORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E31BB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonFloorConfigRow_TypeDefinitionIndex = 12524;
+	inline static constexpr unsigned int TreasureDungeonFloorConfigRow_TypeDefinitionIndex = 12591;
 
 	class TreasureDungeonFloorConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* HardLevelList; // 0x10
-		::Il2CppArray<::System::UInt32>* DungeonBuffID; // 0x18
-		::Il2CppArray<::System::UInt32>* MapID; // 0x20
-		::System::UInt32 FloorID; // 0x28
-		::System::UInt32 DungeonID; // 0x2C
+		::Il2CppArray<::System::UInt32>* MapID; // 0x10
+		::Il2CppArray<::System::UInt32>* HardLevelList; // 0x18
+		::Il2CppArray<::System::UInt32>* DungeonBuffID; // 0x20
+		::System::UInt32 DungeonID; // 0x28
+		::System::UInt32 EliteGroup2; // 0x2C
 		::System::UInt32 AddExploreValue; // 0x30
-		::System::UInt32 HardLevelGroupID; // 0x34
-		::System::UInt32 EliteGroup2; // 0x38
+		::System::UInt32 FloorID; // 0x34
+		::System::UInt32 HardLevelGroupID; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TREASUREDUNGEONFLOORCONFIGROW_CTOR_OFFSET))(this);

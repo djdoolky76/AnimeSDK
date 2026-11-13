@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SetEntityPosition; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA837A0)
-#define RPG_GAMECORE_SETENTITYPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA837E0)
-#define RPG_GAMECORE_SETENTITYPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA83740)
+#define RPG_GAMECORE_SETENTITYPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D1140)
+#define RPG_GAMECORE_SETENTITYPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D1180)
+#define RPG_GAMECORE_SETENTITYPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D10E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityPosition_TypeDefinitionIndex = 23755;
+	inline static constexpr unsigned int SetEntityPosition_TypeDefinitionIndex = 24211;
 
 	class SetEntityPosition : public ::RPG::GameCore::TaskConfig
 	{

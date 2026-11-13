@@ -6,23 +6,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define OEHEJMNBMMK_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE26750)
-#define OEHEJMNBMMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBE26740)
-#define OEHEJMNBMMK_HPEMGKPBDMB_OFFSET UNITYSDK_OFFSET(0xBE265A0)
+#define OEHEJMNBMMK_CCTOR_OFFSET UNITYSDK_OFFSET(0x17653EE0)
+#define OEHEJMNBMMK_CTOR_OFFSET UNITYSDK_OFFSET(0x17653ED0)
+#define OEHEJMNBMMK_HPEMGKPBDMB_OFFSET UNITYSDK_OFFSET(0x17653D30)
 
-inline static constexpr unsigned int OEHEJMNBMMK_TypeDefinitionIndex = 73897;
+inline static constexpr unsigned int OEHEJMNBMMK_TypeDefinitionIndex = 76025;
 
 	class OEHEJMNBMMK : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_HDINMFOOIEK()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "OEHEJMNBMMK")->GetStaticField(0x5FD70);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>** StaticGet_AKPBPAGFPCP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>**)UnitySDK::FromName("", "OEHEJMNBMMK")->GetStaticField(0x5FD78);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>**)UnitySDK::FromName("", "OEHEJMNBMMK")->GetStaticField(0x6F420);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_HDINMFOOIEK()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "OEHEJMNBMMK")->GetStaticField(0x6F428);
 		}
 
 		::System::Void _ctor()

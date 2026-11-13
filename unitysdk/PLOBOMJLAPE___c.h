@@ -4,18 +4,18 @@
 class PLOBOMJLAPE;
 namespace System { class Object; }
 
-#define PLOBOMJLAPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF77020)
-#define PLOBOMJLAPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF77060)
-#define PLOBOMJLAPE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF77070)
+#define PLOBOMJLAPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201F03B0)
+#define PLOBOMJLAPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201F03F0)
+#define PLOBOMJLAPE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201F0400)
 
-inline static constexpr unsigned int PLOBOMJLAPE___c_TypeDefinitionIndex = 26367;
+inline static constexpr unsigned int PLOBOMJLAPE___c_TypeDefinitionIndex = 26894;
 
 	class PLOBOMJLAPE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DD90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47A00);
 		}
 
 		static ::System::Void _cctor()

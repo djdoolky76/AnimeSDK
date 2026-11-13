@@ -6,17 +6,17 @@ class IFNMPBPNBIF;
 class LADCEAIPJIO;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkRecommendDice; }
 
-#define PMHANPGENDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C7210)
-#define PMHANPGENDG_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7C72C0)
+#define PMHANPGENDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A89D0)
+#define PMHANPGENDG_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1B0A8A80)
 
-inline static constexpr unsigned int PMHANPGENDG_TypeDefinitionIndex = 36290;
+inline static constexpr unsigned int PMHANPGENDG_TypeDefinitionIndex = 37218;
 
 	class PMHANPGENDG : public ::AJBKGPOEBFG
 	{
 	public:
-		::IFNMPBPNBIF* LMDHPABCOAB; // 0x18
+		::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice* IGHAHBNLIJA; // 0x18
 		::LADCEAIPJIO* EEFMDEHLLFI; // 0x20
-		::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice* IGHAHBNLIJA; // 0x28
+		::IFNMPBPNBIF* LMDHPABCOAB; // 0x28
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice* a1, ::EGDGOMKKEJI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*, ::EGDGOMKKEJI*))((::PBYTE)hIl2Cpp + PMHANPGENDG_CTOR_OFFSET))(this, a1, a2);

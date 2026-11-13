@@ -6,7 +6,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodyStateW_TypeDefinitionIndex = 36599;
+	inline static constexpr unsigned int B2BodyStateW_TypeDefinitionIndex = 37527;
 
 	struct alignas(4) B2BodyStateW
 	{

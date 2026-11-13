@@ -4,18 +4,18 @@
 class CEDCCCCMOCL;
 namespace System { class Object; }
 
-#define CEDCCCCMOCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E062A70)
-#define CEDCCCCMOCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E062AB0)
-#define CEDCCCCMOCL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E062AC0)
+#define CEDCCCCMOCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204C6540)
+#define CEDCCCCMOCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204C6580)
+#define CEDCCCCMOCL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x204C6590)
 
-inline static constexpr unsigned int CEDCCCCMOCL___c_TypeDefinitionIndex = 26148;
+inline static constexpr unsigned int CEDCCCCMOCL___c_TypeDefinitionIndex = 26675;
 
 	class CEDCCCCMOCL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFC90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62970);
 		}
 
 		static ::System::Void _cctor()

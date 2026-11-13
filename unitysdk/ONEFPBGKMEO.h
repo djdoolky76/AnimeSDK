@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRelayFlameSetSpecialFinalLevel; }
 
-#define ONEFPBGKMEO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF489F0)
-#define ONEFPBGKMEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF48A20)
+#define ONEFPBGKMEO_CTOR_OFFSET UNITYSDK_OFFSET(0x17D77AE0)
+#define ONEFPBGKMEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17D77B10)
 
-inline static constexpr unsigned int ONEFPBGKMEO_TypeDefinitionIndex = 53357;
+inline static constexpr unsigned int ONEFPBGKMEO_TypeDefinitionIndex = 54519;
 
 	class ONEFPBGKMEO
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ILineupRecommendation_TypeDefinitionIndex = 68110;
+	inline static constexpr unsigned int ILineupRecommendation_TypeDefinitionIndex = 70056;
 
 	class ILineupRecommendation
 	{

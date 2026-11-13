@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int EAGMKMPNDKH_TypeDefinitionIndex = 76699;
+inline static constexpr unsigned int EAGMKMPNDKH_TypeDefinitionIndex = 79030;
 
 	class EAGMKMPNDKH : public ::System::Object
 	{

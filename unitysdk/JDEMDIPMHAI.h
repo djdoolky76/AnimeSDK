@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindOverrideMaxRewindTime; }
 
-#define JDEMDIPMHAI_CTOR_OFFSET UNITYSDK_OFFSET(0x165B2480)
-#define JDEMDIPMHAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165B24B0)
+#define JDEMDIPMHAI_CTOR_OFFSET UNITYSDK_OFFSET(0x16983FE0)
+#define JDEMDIPMHAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16984010)
 
-inline static constexpr unsigned int JDEMDIPMHAI_TypeDefinitionIndex = 53403;
+inline static constexpr unsigned int JDEMDIPMHAI_TypeDefinitionIndex = 54565;
 
 	class JDEMDIPMHAI
 	{

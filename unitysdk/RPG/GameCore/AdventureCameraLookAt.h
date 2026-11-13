@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D395910)
-#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D395920)
-#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3958D0)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F7100)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8F7110)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F70C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCameraLookAt_TypeDefinitionIndex = 20509;
+	inline static constexpr unsigned int AdventureCameraLookAt_TypeDefinitionIndex = 20845;
 
 	class AdventureCameraLookAt : public ::RPG::GameCore::BaseAdventureCameraLookAt
 	{

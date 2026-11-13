@@ -4,9 +4,9 @@
 class PMDPEENJIHC;
 namespace System { class String; }
 
-#define LJDINJEOLCC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DAD30)
+#define LJDINJEOLCC_CTOR_OFFSET UNITYSDK_OFFSET(0x172F7C70)
 
-inline static constexpr unsigned int LJDINJEOLCC_TypeDefinitionIndex = 64782;
+inline static constexpr unsigned int LJDINJEOLCC_TypeDefinitionIndex = 66326;
 
 	class LJDINJEOLCC : public ::System::Object
 	{

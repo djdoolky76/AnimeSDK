@@ -6,20 +6,21 @@ namespace RPG::GameCore { class FourRotateVoxelLevelEnvConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GIDMPPHIGIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7D4C0)
+#define GIDMPPHIGIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA83570)
 
-inline static constexpr unsigned int GIDMPPHIGIA_TypeDefinitionIndex = 43210;
+inline static constexpr unsigned int GIDMPPHIGIA_TypeDefinitionIndex = 44191;
 
 	class GIDMPPHIGIA : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FourRotateVoxelLevelEnvConfig* EOLEFDMJNNE; // 0x10
-		::System::Collections::Generic::List_1<::OMJDPLIKJEM*>* PJIAPLDJHDL; // 0x18
-		::System::String* NKNKNFNGHJC; // 0x20
-		::System::Int32 OCPMLIBCHPD; // 0x28
-		::System::Int32 DKMLGHNPODM; // 0x2C
-		::System::Boolean OJPDDAOJJKC; // 0x30
-		::System::Boolean PJGOCPDOAOL; // 0x31
+		::System::String* NKNKNFNGHJC; // 0x10
+		::RPG::GameCore::FourRotateVoxelLevelEnvConfig* EOLEFDMJNNE; // 0x18
+		::System::Collections::Generic::List_1<::OMJDPLIKJEM*>* PJIAPLDJHDL; // 0x20
+		::System::Int32 DKMLGHNPODM; // 0x28
+		::System::Boolean PJGOCPDOAOL; // 0x2C
+		::System::Boolean OJPDDAOJJKC; // 0x2D
+		::System::Byte _padding0[0x2];
+		::System::Int32 OCPMLIBCHPD; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIDMPPHIGIA_CTOR_OFFSET))(this);

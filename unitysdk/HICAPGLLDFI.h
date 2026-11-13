@@ -6,7 +6,7 @@ namespace RPG::UINavigation { class UINavigationArea; }
 namespace RPG::UINavigation { class UINavigationArea_FirstSelectableDelegate; }
 namespace System { class IDisposable; }
 
-inline static constexpr unsigned int HICAPGLLDFI_TypeDefinitionIndex = 49825;
+inline static constexpr unsigned int HICAPGLLDFI_TypeDefinitionIndex = 50873;
 
 	class HICAPGLLDFI : public ::System::Object
 	{

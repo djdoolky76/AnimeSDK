@@ -4,12 +4,12 @@
 class HPILDGEHMCF;
 namespace RPG::Client::Pet { class PetModule; }
 
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAB6E40)
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS35_0___ONSWITCHBLINDBOXPETCHROMASCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xDAB7970)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D8D50)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS35_0___ONSWITCHBLINDBOXPETCHROMASCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x1C1D9880)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetModule___c__DisplayClass35_0_TypeDefinitionIndex = 75701;
+	inline static constexpr unsigned int PetModule___c__DisplayClass35_0_TypeDefinitionIndex = 78028;
 
 	class PetModule___c__DisplayClass35_0 : public ::System::Object
 	{

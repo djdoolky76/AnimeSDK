@@ -5,23 +5,23 @@ namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconItemViewModel;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PJDHMMEEBBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC27BB10)
-#define PJDHMMEEBBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC27BB50)
-#define PJDHMMEEBBC___C___SETICONLISTTARGETSTATEBYPARTCONFIG_B__40_0_OFFSET UNITYSDK_OFFSET(0xC27BB60)
+#define PJDHMMEEBBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9E7CC0)
+#define PJDHMMEEBBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9E7D00)
+#define PJDHMMEEBBC___C___SETICONLISTTARGETSTATEBYPARTCONFIG_B__40_0_OFFSET UNITYSDK_OFFSET(0x1A9E7D10)
 
-inline static constexpr unsigned int PJDHMMEEBBC___c_TypeDefinitionIndex = 81986;
+inline static constexpr unsigned int PJDHMMEEBBC___c_TypeDefinitionIndex = 84767;
 
 	class PJDHMMEEBBC___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD70);
-		}
-
 		static ::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::System::Boolean>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD78);
+			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73940);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73948);
 		}
 
 		static ::System::Void _cctor()

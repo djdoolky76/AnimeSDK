@@ -6,7 +6,7 @@ namespace ObservableCollections { template <typename T> class IObservableCollect
 namespace RPG::Client { class TabView; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int FILFOMBEFHK_TypeDefinitionIndex = 49811;
+inline static constexpr unsigned int FILFOMBEFHK_TypeDefinitionIndex = 50859;
 
 	class FILFOMBEFHK : public ::System::Object
 	{

@@ -7,50 +7,50 @@ namespace UnityEngine { class Component; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI { class LayoutRebuilder; }
 
-#define UNITYENGINE_UI_LAYOUTREBUILDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4F6FF0)
-#define UNITYENGINE_UI_LAYOUTREBUILDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F7020)
-#define UNITYENGINE_UI_LAYOUTREBUILDER___C__REBUILD_B__13_0_OFFSET UNITYSDK_OFFSET(0x1F4F70B0)
-#define UNITYENGINE_UI_LAYOUTREBUILDER___C__REBUILD_B__13_1_OFFSET UNITYSDK_OFFSET(0x1F4F71F0)
-#define UNITYENGINE_UI_LAYOUTREBUILDER___C__REBUILD_B__13_2_OFFSET UNITYSDK_OFFSET(0x1F4F7330)
-#define UNITYENGINE_UI_LAYOUTREBUILDER___C__REBUILD_B__13_3_OFFSET UNITYSDK_OFFSET(0x1F4F7480)
-#define UNITYENGINE_UI_LAYOUTREBUILDER___C__STRIPDISABLEDBEHAVIOURSFROMLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F4F7060)
-#define UNITYENGINE_UI_LAYOUTREBUILDER___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F4F7030)
+#define UNITYENGINE_UI_LAYOUTREBUILDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1856D3D0)
+#define UNITYENGINE_UI_LAYOUTREBUILDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1856D400)
+#define UNITYENGINE_UI_LAYOUTREBUILDER___C__REBUILD_B__13_0_OFFSET UNITYSDK_OFFSET(0x1856D490)
+#define UNITYENGINE_UI_LAYOUTREBUILDER___C__REBUILD_B__13_1_OFFSET UNITYSDK_OFFSET(0x1856D5D0)
+#define UNITYENGINE_UI_LAYOUTREBUILDER___C__REBUILD_B__13_2_OFFSET UNITYSDK_OFFSET(0x1856D710)
+#define UNITYENGINE_UI_LAYOUTREBUILDER___C__REBUILD_B__13_3_OFFSET UNITYSDK_OFFSET(0x1856D860)
+#define UNITYENGINE_UI_LAYOUTREBUILDER___C__STRIPDISABLEDBEHAVIOURSFROMLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x1856D440)
+#define UNITYENGINE_UI_LAYOUTREBUILDER___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x1856D410)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutRebuilder___c_TypeDefinitionIndex = 6785;
+	inline static constexpr unsigned int LayoutRebuilder___c_TypeDefinitionIndex = 6796;
 
 	class LayoutRebuilder___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_2()
+		static ::System::Predicate_1<::UnityEngine::Component*>** StaticGet___9__11_0()
 		{
-			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3E940);
+			return (::System::Predicate_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F450);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3E948);
-		}
-
-		static ::System::Predicate_1<::UnityEngine::Component*>** StaticGet___9__11_0()
-		{
-			return (::System::Predicate_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3E950);
-		}
-
-		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_3()
-		{
-			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3E958);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F458);
 		}
 
 		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_0()
 		{
-			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3E960);
+			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F460);
+		}
+
+		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_2()
+		{
+			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F468);
 		}
 
 		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_1()
 		{
-			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3E968);
+			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F470);
+		}
+
+		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_3()
+		{
+			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F478);
 		}
 
 		static ::System::Void _cctor()

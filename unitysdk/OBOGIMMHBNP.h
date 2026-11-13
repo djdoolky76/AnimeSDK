@@ -4,9 +4,9 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define OBOGIMMHBNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC631B0)
+#define OBOGIMMHBNP_CTOR_OFFSET UNITYSDK_OFFSET(0x20935D90)
 
-inline static constexpr unsigned int OBOGIMMHBNP_TypeDefinitionIndex = 43875;
+inline static constexpr unsigned int OBOGIMMHBNP_TypeDefinitionIndex = 44950;
 
 	class OBOGIMMHBNP : public ::System::Exception
 	{

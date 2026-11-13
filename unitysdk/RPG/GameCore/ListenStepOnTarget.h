@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ListenStepOnTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LISTENSTEPONTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A83E0)
-#define RPG_GAMECORE_LISTENSTEPONTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7A83F0)
-#define RPG_GAMECORE_LISTENSTEPONTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A83A0)
+#define RPG_GAMECORE_LISTENSTEPONTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2572B0)
+#define RPG_GAMECORE_LISTENSTEPONTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F2572C0)
+#define RPG_GAMECORE_LISTENSTEPONTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F257270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ListenStepOnTarget_TypeDefinitionIndex = 20645;
+	inline static constexpr unsigned int ListenStepOnTarget_TypeDefinitionIndex = 20982;
 
 	class ListenStepOnTarget : public ::RPG::GameCore::TaskConfig
 	{

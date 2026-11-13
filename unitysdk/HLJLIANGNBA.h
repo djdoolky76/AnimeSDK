@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AttachPreshowDamageTypeForSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HLJLIANGNBA_CTOR_OFFSET UNITYSDK_OFFSET(0x15D56470)
-#define HLJLIANGNBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D564A0)
+#define HLJLIANGNBA_CTOR_OFFSET UNITYSDK_OFFSET(0x198A3D30)
+#define HLJLIANGNBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x198A3D60)
 
-inline static constexpr unsigned int HLJLIANGNBA_TypeDefinitionIndex = 54860;
+inline static constexpr unsigned int HLJLIANGNBA_TypeDefinitionIndex = 56030;
 
 	class HLJLIANGNBA
 	{

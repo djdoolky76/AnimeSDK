@@ -8,7 +8,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ShapeUnion_TypeDefinitionIndex = 36770;
+	inline static constexpr unsigned int B2ShapeUnion_TypeDefinitionIndex = 37698;
 
 	struct alignas(4) B2ShapeUnion
 	{

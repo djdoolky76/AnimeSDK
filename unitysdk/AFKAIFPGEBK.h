@@ -4,12 +4,15 @@
 #include "unitysdk/CPNCJIABDNP.h"
 class BANDDFEHONE;
 class GEDMHFPPBHN;
+class ICCCNAJCCLE;
+namespace RPG::Client { class BattleAvatarNihiluxCustomUIData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AFKAIFPGEBK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCF08150)
-#define AFKAIFPGEBK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF085B0)
+#define AFKAIFPGEBK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18DB3FE0)
+#define AFKAIFPGEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x18DB4540)
+#define AFKAIFPGEBK_FMDHMPHHAAE_OFFSET UNITYSDK_OFFSET(0x18DB44C0)
 
-inline static constexpr unsigned int AFKAIFPGEBK_TypeDefinitionIndex = 72161;
+inline static constexpr unsigned int AFKAIFPGEBK_TypeDefinitionIndex = 74225;
 
 	class AFKAIFPGEBK : public ::System::Object
 	{
@@ -19,9 +22,14 @@ inline static constexpr unsigned int AFKAIFPGEBK_TypeDefinitionIndex = 72161;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFKAIFPGEBK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Collections::Generic::List_1<::BANDDFEHONE*>* BPLPBPMEODA(::GEDMHFPPBHN* a1, ::System::Collections::Generic::List_1<::CPNCJIABDNP>* a2)
+		static ::System::Collections::Generic::List_1<::BANDDFEHONE*>* BPLPBPMEODA(::GEDMHFPPBHN* a1, ::System::Collections::Generic::List_1<::CPNCJIABDNP>* a2, ::RPG::Client::BattleAvatarNihiluxCustomUIData* a3)
 		{
-			return ((::System::Collections::Generic::List_1<::BANDDFEHONE*>*(*)(::GEDMHFPPBHN*, ::System::Collections::Generic::List_1<::CPNCJIABDNP>*))((::PBYTE)hIl2Cpp + AFKAIFPGEBK_BPLPBPMEODA_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::List_1<::BANDDFEHONE*>*(*)(::GEDMHFPPBHN*, ::System::Collections::Generic::List_1<::CPNCJIABDNP>*, ::RPG::Client::BattleAvatarNihiluxCustomUIData*))((::PBYTE)hIl2Cpp + AFKAIFPGEBK_BPLPBPMEODA_OFFSET))(a1, a2, a3);
+		}
+
+		static ::ICCCNAJCCLE* FMDHMPHHAAE(::GEDMHFPPBHN* a1, ::RPG::Client::BattleAvatarNihiluxCustomUIData* a2)
+		{
+			return ((::ICCCNAJCCLE*(*)(::GEDMHFPPBHN*, ::RPG::Client::BattleAvatarNihiluxCustomUIData*))((::PBYTE)hIl2Cpp + AFKAIFPGEBK_FMDHMPHHAAE_OFFSET))(a1, a2);
 		}
 
 	};

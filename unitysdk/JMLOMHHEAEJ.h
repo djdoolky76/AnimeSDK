@@ -7,13 +7,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JMLOMHHEAEJ_ALHKLLOHLOI_OFFSET UNITYSDK_OFFSET(0xB26A700)
-#define JMLOMHHEAEJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xB26B790)
-#define JMLOMHHEAEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB26B710)
-#define JMLOMHHEAEJ_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0xB26A580)
-#define JMLOMHHEAEJ_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0xB26B570)
+#define JMLOMHHEAEJ_ALHKLLOHLOI_OFFSET UNITYSDK_OFFSET(0x1A0B8DC0)
+#define JMLOMHHEAEJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0B9E50)
+#define JMLOMHHEAEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B9DD0)
+#define JMLOMHHEAEJ_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x1A0B8C40)
+#define JMLOMHHEAEJ_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0x1A0B9C30)
 
-inline static constexpr unsigned int JMLOMHHEAEJ_TypeDefinitionIndex = 57201;
+inline static constexpr unsigned int JMLOMHHEAEJ_TypeDefinitionIndex = 58428;
 
 	class JMLOMHHEAEJ : public ::MDAMCBDNMKL
 	{
@@ -21,22 +21,22 @@ inline static constexpr unsigned int JMLOMHHEAEJ_TypeDefinitionIndex = 57201;
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* DAGOAIPECKG; // 0x20
 		static ::Il2CppArray<::System::Int32>** StaticGet_INDALFDGAGD()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "JMLOMHHEAEJ")->GetStaticField(0x20B70);
-		}
-
-		static ::System::Int32* StaticGet_FOEMGBMLAJJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "JMLOMHHEAEJ")->GetStaticField(0x74C0);
-		}
-
-		static ::System::Int32* StaticGet_FCLPNFEHLFB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "JMLOMHHEAEJ")->GetStaticField(0x74C4);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "JMLOMHHEAEJ")->GetStaticField(0x20AF0);
 		}
 
 		static ::System::Int32* StaticGet_JHIMOHCAMCK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JMLOMHHEAEJ")->GetStaticField(0x74C8);
+			return (::System::Int32*)UnitySDK::FromName("", "JMLOMHHEAEJ")->GetStaticField(0x70D0);
+		}
+
+		static ::System::Int32* StaticGet_FOEMGBMLAJJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "JMLOMHHEAEJ")->GetStaticField(0x70D4);
+		}
+
+		static ::System::Int32* StaticGet_FCLPNFEHLFB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "JMLOMHHEAEJ")->GetStaticField(0x70D8);
 		}
 
 		// static const ::System::Object OHCMDJEPCIN; // 0x0

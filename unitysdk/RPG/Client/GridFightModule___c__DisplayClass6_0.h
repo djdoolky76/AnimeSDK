@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightArchiveData; }
 
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD19AF00)
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS6_0__ISFAVOURARCHIVE_B__0_OFFSET UNITYSDK_OFFSET(0xD1B3870)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC38160)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS6_0__ISFAVOURARCHIVE_B__0_OFFSET UNITYSDK_OFFSET(0x1CC55D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModule___c__DisplayClass6_0_TypeDefinitionIndex = 64875;
+	inline static constexpr unsigned int GridFightModule___c__DisplayClass6_0_TypeDefinitionIndex = 66428;
 
 	class GridFightModule___c__DisplayClass6_0 : public ::System::Object
 	{

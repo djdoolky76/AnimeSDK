@@ -5,31 +5,31 @@ class KDLEIHJGDAP;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_BASEPHASECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7EA760)
-#define RPG_CLIENT_BASEPHASECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC7EA790)
-#define RPG_CLIENT_BASEPHASECONTEXT___C__DISPOSE_B__10_0_OFFSET UNITYSDK_OFFSET(0xC7EA7C0)
-#define RPG_CLIENT_BASEPHASECONTEXT___C__INIT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC7EA7A0)
+#define RPG_CLIENT_BASEPHASECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFFDF70)
+#define RPG_CLIENT_BASEPHASECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFFDFA0)
+#define RPG_CLIENT_BASEPHASECONTEXT___C__DISPOSE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1AFFDFD0)
+#define RPG_CLIENT_BASEPHASECONTEXT___C__INIT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1AFFDFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BasePhaseContext___c_TypeDefinitionIndex = 61114;
+	inline static constexpr unsigned int BasePhaseContext___c_TypeDefinitionIndex = 62499;
 
 	class BasePhaseContext___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5AD40);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x614F0);
 		}
 
 		static ::System::Action_1<::KDLEIHJGDAP*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5AD48);
+			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x614F8);
 		}
 
 		static ::System::Action_1<::KDLEIHJGDAP*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5AD50);
+			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x61500);
 		}
 
 		static ::System::Void _cctor()

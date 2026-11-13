@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Linq/JsonPath/QueryExpression.h"
 
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_BOOLEANQUERYEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A21E0)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_BOOLEANQUERYEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x184156E0)
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int BooleanQueryExpression_TypeDefinitionIndex = 9808;
+	inline static constexpr unsigned int BooleanQueryExpression_TypeDefinitionIndex = 9816;
 
 	class BooleanQueryExpression : public ::Newtonsoft::Json::Linq::JsonPath::QueryExpression
 	{

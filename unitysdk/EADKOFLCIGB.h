@@ -3,10 +3,10 @@
 #include "unitysdk/BOIKIMJHDHK.h"
 #include "unitysdk/CAHKKMIFGGB.h"
 
-#define EADKOFLCIGB_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x1266E9D0)
-#define EADKOFLCIGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1266EAC0)
+#define EADKOFLCIGB_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x181C9450)
+#define EADKOFLCIGB_CTOR_OFFSET UNITYSDK_OFFSET(0x181C95E0)
 
-inline static constexpr unsigned int EADKOFLCIGB_TypeDefinitionIndex = 64935;
+inline static constexpr unsigned int EADKOFLCIGB_TypeDefinitionIndex = 66506;
 
 	class EADKOFLCIGB : public ::BOIKIMJHDHK
 	{

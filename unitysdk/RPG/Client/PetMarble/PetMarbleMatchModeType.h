@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarbleMatchModeType_TypeDefinitionIndex = 74705;
+	inline static constexpr unsigned int PetMarbleMatchModeType_TypeDefinitionIndex = 76853;
 
 	enum class PetMarbleMatchModeType : ::System::Int32
 	{

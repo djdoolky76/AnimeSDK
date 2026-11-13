@@ -7,19 +7,19 @@ namespace RPG::GameCore { class RtProjectileDataList; }
 namespace RPG::GameCore { class RtProjectileOnHitList; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define BIDMHFBILIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D9140)
-#define BIDMHFBILIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7D9150)
-#define BIDMHFBILIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D9110)
+#define BIDMHFBILIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F192A70)
+#define BIDMHFBILIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F192A80)
+#define BIDMHFBILIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F192A40)
 
-inline static constexpr unsigned int BIDMHFBILIO_TypeDefinitionIndex = 24138;
+inline static constexpr unsigned int BIDMHFBILIO_TypeDefinitionIndex = 24597;
 
 	class BIDMHFBILIO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::RtProjectileOnHitList*>* IFGDJCJIECP; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::RPG::GameCore::TargetEvaluator* FHMKCLNLGOP; // 0x28
-		::Il2CppArray<::RPG::GameCore::RtProjectileDataList*>* JIAEPDIHNCH; // 0x30
+		::Il2CppArray<::RPG::GameCore::RtProjectileDataList*>* JIAEPDIHNCH; // 0x18
+		::RPG::GameCore::TargetEvaluator* FHMKCLNLGOP; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::Il2CppArray<::RPG::GameCore::RtProjectileOnHitList*>* IFGDJCJIECP; // 0x30
 		::System::Boolean FKJPBMMCHFL; // 0x38
 		::System::Void _ctor()
 		{

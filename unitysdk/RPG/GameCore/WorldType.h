@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldType_TypeDefinitionIndex = 10488;
+	inline static constexpr unsigned int WorldType_TypeDefinitionIndex = 10499;
 
 	enum class WorldType : ::System::Int32
 	{

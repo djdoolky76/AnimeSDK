@@ -6,18 +6,18 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define JHKMDPDHINO_CTOR_OFFSET UNITYSDK_OFFSET(0xB1B4390)
-#define JHKMDPDHINO_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB1B4430)
-#define JHKMDPDHINO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB1B4610)
-#define JHKMDPDHINO__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB1B44C0)
+#define JHKMDPDHINO_CTOR_OFFSET UNITYSDK_OFFSET(0x173E2E60)
+#define JHKMDPDHINO_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x173E2F00)
+#define JHKMDPDHINO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x173E30E0)
+#define JHKMDPDHINO__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x173E2F90)
 
-inline static constexpr unsigned int JHKMDPDHINO_TypeDefinitionIndex = 59877;
+inline static constexpr unsigned int JHKMDPDHINO_TypeDefinitionIndex = 61161;
 
 	class JHKMDPDHINO : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:
-		::System::UInt32 CDOCEMFOMAI; // 0x10
-		::System::UInt32 CIBIJLKEIMN; // 0x14
+		::System::UInt32 CIBIJLKEIMN; // 0x10
+		::System::UInt32 CDOCEMFOMAI; // 0x14
 		::System::Void _ctor(::System::Object* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + JHKMDPDHINO_CTOR_OFFSET))(this, a1);

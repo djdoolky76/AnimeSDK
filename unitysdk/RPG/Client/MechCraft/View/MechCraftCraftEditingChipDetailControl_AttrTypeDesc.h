@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_ATTRTYPEDESC_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD619DA0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_ATTRTYPEDESC_CTOR_OFFSET UNITYSDK_OFFSET(0xD619DE0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_ATTRTYPEDESC_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C6F0460)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_ATTRTYPEDESC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F04A0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftEditingChipDetailControl_AttrTypeDesc_TypeDefinitionIndex = 79886;
+	inline static constexpr unsigned int MechCraftCraftEditingChipDetailControl_AttrTypeDesc_TypeDefinitionIndex = 82663;
 
 	class MechCraftCraftEditingChipDetailControl_AttrTypeDesc : public ::System::Object
 	{

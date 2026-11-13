@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int SampleType_TypeDefinitionIndex = 73598;
+	inline static constexpr unsigned int SampleType_TypeDefinitionIndex = 75721;
 
 	enum class SampleType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int FixedArray3_1_TypeDefinitionIndex = 38757;
+	inline static constexpr unsigned int FixedArray3_1_TypeDefinitionIndex = 39686;
 
 	template <typename T>
 	struct alignas(8) FixedArray3_1

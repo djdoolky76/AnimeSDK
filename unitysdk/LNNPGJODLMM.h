@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareVersionFinalMainMission; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LNNPGJODLMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E3450)
-#define LNNPGJODLMM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7E3480)
+#define LNNPGJODLMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A596E60)
+#define LNNPGJODLMM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A596E90)
 
-inline static constexpr unsigned int LNNPGJODLMM_TypeDefinitionIndex = 54588;
+inline static constexpr unsigned int LNNPGJODLMM_TypeDefinitionIndex = 55753;
 
 	class LNNPGJODLMM
 	{

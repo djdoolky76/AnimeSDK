@@ -4,18 +4,18 @@
 class GCIPPFFMEDI;
 namespace System { class Object; }
 
-#define GCIPPFFMEDI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E411990)
-#define GCIPPFFMEDI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4119D0)
-#define GCIPPFFMEDI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4119E0)
+#define GCIPPFFMEDI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2022A2A0)
+#define GCIPPFFMEDI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2022A2E0)
+#define GCIPPFFMEDI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2022A2F0)
 
-inline static constexpr unsigned int GCIPPFFMEDI___c_TypeDefinitionIndex = 31576;
+inline static constexpr unsigned int GCIPPFFMEDI___c_TypeDefinitionIndex = 32489;
 
 	class GCIPPFFMEDI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xEAB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BF00);
 		}
 
 		static ::System::Void _cctor()

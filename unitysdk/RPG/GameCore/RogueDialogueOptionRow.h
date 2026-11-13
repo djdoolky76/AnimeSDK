@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDialogueOptionRow; }
 
-#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99BAB0)
-#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99B960)
+#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20769640)
+#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x207694F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueOptionRow_TypeDefinitionIndex = 14818;
+	inline static constexpr unsigned int RogueDialogueOptionRow_TypeDefinitionIndex = 14974;
 
 	class RogueDialogueOptionRow : public ::System::Object
 	{

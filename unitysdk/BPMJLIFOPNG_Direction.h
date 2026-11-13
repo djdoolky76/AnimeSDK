@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BPMJLIFOPNG_Direction_TypeDefinitionIndex = 72409;
+inline static constexpr unsigned int BPMJLIFOPNG_Direction_TypeDefinitionIndex = 74488;
 
 	enum class BPMJLIFOPNG_Direction : ::System::Int32
 	{

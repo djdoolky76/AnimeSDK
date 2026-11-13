@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_BOXINGCLUBFAILINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC8B1880)
+#define RPG_CLIENT_BOXINGCLUBFAILINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C580370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoxingClubFailInfo_TypeDefinitionIndex = 62958;
+	inline static constexpr unsigned int BoxingClubFailInfo_TypeDefinitionIndex = 64396;
 
 	class BoxingClubFailInfo : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* Weakness; // 0x10
-		::System::UInt32 CurStageIndex; // 0x18
-		::System::UInt32 RecommendLevel; // 0x1C
-		::System::UInt32 TotalStageIndex; // 0x20
+		::System::UInt32 RecommendLevel; // 0x18
+		::System::UInt32 TotalStageIndex; // 0x1C
+		::System::UInt32 CurStageIndex; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOXINGCLUBFAILINFO_CTOR_OFFSET))(this);

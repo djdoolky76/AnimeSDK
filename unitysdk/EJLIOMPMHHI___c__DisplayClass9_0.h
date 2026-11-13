@@ -7,17 +7,17 @@ class HGDELEAHIJO;
 class KGPCBBIOGLB;
 namespace RPG::Client { template <typename T> class DataActionProgress_1; }
 
-#define EJLIOMPMHHI___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154D8C10)
-#define EJLIOMPMHHI___C__DISPLAYCLASS9_0__ADDVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x154DEF80)
-#define EJLIOMPMHHI___C__DISPLAYCLASS9_0__ADDVERIFY_B__1_OFFSET UNITYSDK_OFFSET(0x154DEF10)
+#define EJLIOMPMHHI___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19ABB300)
+#define EJLIOMPMHHI___C__DISPLAYCLASS9_0__ADDVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x19AC1790)
+#define EJLIOMPMHHI___C__DISPLAYCLASS9_0__ADDVERIFY_B__1_OFFSET UNITYSDK_OFFSET(0x19AC16F0)
 
-inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass9_0_TypeDefinitionIndex = 59569;
+inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass9_0_TypeDefinitionIndex = 60846;
 
 	class EJLIOMPMHHI___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::EJLIOMPMHHI* __4__this; // 0x10
-		::RPG::Client::DataActionProgress_1<::HGDELEAHIJO*>* progress; // 0x18
+		::RPG::Client::DataActionProgress_1<::HGDELEAHIJO*>* progress; // 0x10
+		::EJLIOMPMHHI* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJLIOMPMHHI___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);

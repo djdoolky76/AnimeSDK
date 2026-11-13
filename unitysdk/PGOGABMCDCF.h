@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ReadOnlyMemory_1.h"
 
-#define PGOGABMCDCF_CTOR_OFFSET UNITYSDK_OFFSET(0x2EDF140)
+#define PGOGABMCDCF_CTOR_OFFSET UNITYSDK_OFFSET(0x6A7F10)
 
-inline static constexpr unsigned int PGOGABMCDCF_TypeDefinitionIndex = 36889;
+inline static constexpr unsigned int PGOGABMCDCF_TypeDefinitionIndex = 37817;
 
 	struct alignas(8) PGOGABMCDCF
 	{

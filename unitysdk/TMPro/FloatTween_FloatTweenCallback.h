@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define TMPRO_FLOATTWEEN_FLOATTWEENCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B7BC0)
+#define TMPRO_FLOATTWEEN_FLOATTWEENCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x19B8AF20)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FloatTween_FloatTweenCallback_TypeDefinitionIndex = 44555;
+	inline static constexpr unsigned int FloatTween_FloatTweenCallback_TypeDefinitionIndex = 45630;
 
 	class FloatTween_FloatTweenCallback
 	{

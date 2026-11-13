@@ -5,24 +5,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazePuzzleSpecialUIInfoRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D841230)
-#define RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D840AD0)
+#define RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6D3A50)
+#define RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6D32F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleSpecialUIInfoRow_TypeDefinitionIndex = 14037;
+	inline static constexpr unsigned int MazePuzzleSpecialUIInfoRow_TypeDefinitionIndex = 14194;
 
 	class MazePuzzleSpecialUIInfoRow : public ::System::Object
 	{
 	public:
 		::System::String* Desc03; // 0x10
 		::System::String* Title; // 0x18
-		::System::String* Desc01; // 0x20
-		::System::String* Desc02; // 0x28
+		::System::String* Desc02; // 0x20
+		::System::String* Desc01; // 0x28
 		::System::Boolean IsUImode; // 0x30
 		::System::Byte _padding0[0x3];
-		::System::UInt32 PuzzleType; // 0x34
-		::System::UInt32 SpecialModeID; // 0x38
+		::System::UInt32 SpecialModeID; // 0x34
+		::System::UInt32 PuzzleType; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW_CTOR_OFFSET))(this);

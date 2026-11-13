@@ -4,18 +4,18 @@
 class BHMEPBAGOFF;
 namespace System { class Object; }
 
-#define BHMEPBAGOFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDCDDC0)
-#define BHMEPBAGOFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDCDE00)
-#define BHMEPBAGOFF___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1DDCDE10)
+#define BHMEPBAGOFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2011CAC0)
+#define BHMEPBAGOFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2011CB00)
+#define BHMEPBAGOFF___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x2011CB10)
 
-inline static constexpr unsigned int BHMEPBAGOFF___c_TypeDefinitionIndex = 28777;
+inline static constexpr unsigned int BHMEPBAGOFF___c_TypeDefinitionIndex = 29367;
 
 	class BHMEPBAGOFF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56D70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x524E0);
 		}
 
 		static ::System::Void _cctor()

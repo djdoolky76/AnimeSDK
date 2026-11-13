@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EGPPOPJCAAE_TypeDefinitionIndex = 80710;
+inline static constexpr unsigned int EGPPOPJCAAE_TypeDefinitionIndex = 83490;
 
 	class EGPPOPJCAAE
 	{

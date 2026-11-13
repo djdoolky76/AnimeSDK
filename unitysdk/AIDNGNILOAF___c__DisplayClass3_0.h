@@ -4,10 +4,10 @@
 class AIDNGNILOAF_NIMOMCPNPMN;
 namespace System { class String; }
 
-#define AIDNGNILOAF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEB9C950)
-#define AIDNGNILOAF___C__DISPLAYCLASS3_0__GETMCVINFO_B__0_OFFSET UNITYSDK_OFFSET(0xEB9C9E0)
+#define AIDNGNILOAF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19B41D80)
+#define AIDNGNILOAF___C__DISPLAYCLASS3_0__GETMCVINFO_B__0_OFFSET UNITYSDK_OFFSET(0x19B41E10)
 
-inline static constexpr unsigned int AIDNGNILOAF___c__DisplayClass3_0_TypeDefinitionIndex = 72942;
+inline static constexpr unsigned int AIDNGNILOAF___c__DisplayClass3_0_TypeDefinitionIndex = 75052;
 
 	class AIDNGNILOAF___c__DisplayClass3_0 : public ::System::Object
 	{

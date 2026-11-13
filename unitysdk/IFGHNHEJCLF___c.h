@@ -7,29 +7,29 @@ class FKLECLLJCEH;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define IFGHNHEJCLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15F0B1C0)
-#define IFGHNHEJCLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15F0B200)
-#define IFGHNHEJCLF___C___CREATEREQUIREINFOS_B__26_0_OFFSET UNITYSDK_OFFSET(0x15F0B210)
-#define IFGHNHEJCLF___C___CREATEREQUIREINFOS_B__26_2_OFFSET UNITYSDK_OFFSET(0x15F0B220)
+#define IFGHNHEJCLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC13040)
+#define IFGHNHEJCLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC13080)
+#define IFGHNHEJCLF___C___CREATEREQUIREINFOS_B__26_0_OFFSET UNITYSDK_OFFSET(0x1BC13090)
+#define IFGHNHEJCLF___C___CREATEREQUIREINFOS_B__26_2_OFFSET UNITYSDK_OFFSET(0x1BC130A0)
 
-inline static constexpr unsigned int IFGHNHEJCLF___c_TypeDefinitionIndex = 79670;
+inline static constexpr unsigned int IFGHNHEJCLF___c_TypeDefinitionIndex = 82447;
 
 	class IFGHNHEJCLF___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::FKLECLLJCEH*, ::System::Boolean>** StaticGet___9__26_2()
+		{
+			return (::System::Func_2<::FKLECLLJCEH*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B0D0);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CDE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B0D8);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CDE8);
-		}
-
-		static ::System::Func_2<::FKLECLLJCEH*, ::System::Boolean>** StaticGet___9__26_2()
-		{
-			return (::System::Func_2<::FKLECLLJCEH*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CDF0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B0E0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyPlayerTalkConfigRow; }
 
-#define RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D877EE0)
-#define RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D877860)
+#define RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E469050)
+#define RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4689D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyPlayerTalkConfigRow_TypeDefinitionIndex = 12083;
+	inline static constexpr unsigned int MonopolyPlayerTalkConfigRow_TypeDefinitionIndex = 12140;
 
 	class MonopolyPlayerTalkConfigRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID ContentTextID; // 0x10
-		::System::UInt32 Priority; // 0x20
-		::System::UInt32 ID; // 0x24
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 Priority; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW_CTOR_OFFSET))(this);

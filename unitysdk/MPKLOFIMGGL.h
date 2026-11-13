@@ -3,10 +3,10 @@
 class GFJHLACJMNK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPKLOFIMGGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3ADC0)
-#define MPKLOFIMGGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA3ADF0)
+#define MPKLOFIMGGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2289E0)
+#define MPKLOFIMGGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B228A10)
 
-inline static constexpr unsigned int MPKLOFIMGGL_TypeDefinitionIndex = 58374;
+inline static constexpr unsigned int MPKLOFIMGGL_TypeDefinitionIndex = 59630;
 
 	class MPKLOFIMGGL
 	{

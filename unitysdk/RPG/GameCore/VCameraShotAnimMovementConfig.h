@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class VCameraShotAnimMovementConfig; }
 
-#define RPG_GAMECORE_VCAMERASHOTANIMMOVEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC522C0)
-#define RPG_GAMECORE_VCAMERASHOTANIMMOVEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4E860)
+#define RPG_GAMECORE_VCAMERASHOTANIMMOVEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3D580)
+#define RPG_GAMECORE_VCAMERASHOTANIMMOVEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED3A100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraShotAnimMovementConfig_TypeDefinitionIndex = 16412;
+	inline static constexpr unsigned int VCameraShotAnimMovementConfig_TypeDefinitionIndex = 16576;
 
 	class VCameraShotAnimMovementConfig : public ::RPG::GameCore::JsonConfig
 	{

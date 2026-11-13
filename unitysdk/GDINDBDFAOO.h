@@ -4,9 +4,9 @@
 #include "unitysdk/DNFDBKCPBNM.h"
 #include "unitysdk/OIPMNNAHIFP.h"
 
-#define GDINDBDFAOO_IKJLFOGCMKM_OFFSET UNITYSDK_OFFSET(0x159927A0)
+#define GDINDBDFAOO_IKJLFOGCMKM_OFFSET UNITYSDK_OFFSET(0x19ED9410)
 
-inline static constexpr unsigned int GDINDBDFAOO_TypeDefinitionIndex = 62576;
+inline static constexpr unsigned int GDINDBDFAOO_TypeDefinitionIndex = 63997;
 
 	class GDINDBDFAOO : public ::System::Object
 	{

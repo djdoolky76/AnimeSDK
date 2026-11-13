@@ -4,26 +4,26 @@
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace UnityEngine { class Animator; }
 
-#define STATEWHEELMOVE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE98E7F0)
-#define STATEWHEELMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0xE98E7E0)
-#define STATEWHEELMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE98E5B0)
-#define STATEWHEELMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE98E620)
+#define STATEWHEELMOVE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC58290)
+#define STATEWHEELMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC58280)
+#define STATEWHEELMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x1AC58050)
+#define STATEWHEELMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1AC580C0)
 
-inline static constexpr unsigned int StateWheelMove_TypeDefinitionIndex = 47275;
+inline static constexpr unsigned int StateWheelMove_TypeDefinitionIndex = 48303;
 
 	class StateWheelMove : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:
 		::System::Single fadeTime; // 0x18
 		::System::Single MoveAnimSpeed; // 0x1C
-		static ::System::Int32* StaticGet__WheelSpeedScale()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "StateWheelMove")->GetStaticField(0x35F0);
-		}
-
 		static ::System::Int32* StaticGet__IsMove()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "StateWheelMove")->GetStaticField(0x35F4);
+			return (::System::Int32*)UnitySDK::FromName("", "StateWheelMove")->GetStaticField(0x4B60);
+		}
+
+		static ::System::Int32* StaticGet__WheelSpeedScale()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "StateWheelMove")->GetStaticField(0x4B64);
 		}
 
 		::System::Void _ctor()

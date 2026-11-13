@@ -7,26 +7,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GameplayGuideTabConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EFE90)
-#define RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6EEFE0)
+#define RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED827B0)
+#define RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED818F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameplayGuideTabConfigRow_TypeDefinitionIndex = 13379;
+	inline static constexpr unsigned int GameplayGuideTabConfigRow_TypeDefinitionIndex = 13451;
 
 	class GameplayGuideTabConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ResBarKey; // 0x10
 		::System::String* IconPath; // 0x18
-		::RPG::GameCore::GuideType GuideType; // 0x20
-		::System::UInt32 Priority; // 0x24
-		::RPG::Client::TextID Desc; // 0x28
+		::RPG::Client::TextID Desc; // 0x20
+		::System::UInt32 IntroDataID; // 0x30
+		::System::UInt32 ID; // 0x34
 		::System::UInt32 UnlockID; // 0x38
-		::System::UInt32 ID; // 0x3C
-		::System::UInt32 IntroDataID; // 0x40
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x48
+		::RPG::Client::TextID Name; // 0x40
+		::System::UInt32 Priority; // 0x50
+		::RPG::GameCore::GuideType GuideType; // 0x54
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_CTOR_OFFSET))(this);

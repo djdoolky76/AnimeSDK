@@ -3,11 +3,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD6C820)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x189B1950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialMonoPlugin_TypeDefinitionIndex = 70584;
+	inline static constexpr unsigned int Effect_TransformToMaterialMonoPlugin_TypeDefinitionIndex = 72561;
 
 	class Effect_TransformToMaterialMonoPlugin
 	{

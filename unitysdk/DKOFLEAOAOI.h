@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareRogueMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DKOFLEAOAOI_CTOR_OFFSET UNITYSDK_OFFSET(0xF886CD0)
-#define DKOFLEAOAOI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF886D00)
+#define DKOFLEAOAOI_CTOR_OFFSET UNITYSDK_OFFSET(0x18C24EB0)
+#define DKOFLEAOAOI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18C24EE0)
 
-inline static constexpr unsigned int DKOFLEAOAOI_TypeDefinitionIndex = 54561;
+inline static constexpr unsigned int DKOFLEAOAOI_TypeDefinitionIndex = 55726;
 
 	class DKOFLEAOAOI
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindCheckSetStateResult_TypeDefinitionIndex = 60790;
+	inline static constexpr unsigned int TimeRewindCheckSetStateResult_TypeDefinitionIndex = 62169;
 
 	enum class TimeRewindCheckSetStateResult : ::System::Int32
 	{

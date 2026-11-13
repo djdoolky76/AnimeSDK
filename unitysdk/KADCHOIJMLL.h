@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KADCHOIJMLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB7A4A0)
+#define KADCHOIJMLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE23060)
 
-inline static constexpr unsigned int KADCHOIJMLL_TypeDefinitionIndex = 42348;
+inline static constexpr unsigned int KADCHOIJMLL_TypeDefinitionIndex = 43323;
 
 	class KADCHOIJMLL : public ::System::Object
 	{

@@ -10,15 +10,15 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/TimeSpan.h"
 
-#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E2190)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F0E25A0)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0E24A0)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1F0E24B0)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F0E25F0)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E8AE0)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1E5E8EE0)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E5E8DF0)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1E5E8E00)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E5E8F30)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Timer__Timer_TypeDefinitionIndex = 45722;
+	inline static constexpr unsigned int Timer__Timer_TypeDefinitionIndex = 46751;
 
 	class Timer__Timer : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
@@ -26,14 +26,14 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Threading::CancellationToken cancellationToken; // 0x30
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x38
 		::System::Single elapsed; // 0x50
-		::System::Int32 initialFrame; // 0x54
-		::System::Boolean dueTimePhase; // 0x58
-		::System::Boolean disposed; // 0x59
-		::System::Boolean ignoreTimeScale; // 0x5A
-		::System::Boolean completed; // 0x5B
-		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x5C
-		::System::Single dueTime; // 0x60
-		::System::Nullable_1<::System::Single> period; // 0x64
+		::System::Single dueTime; // 0x54
+		::System::Int32 initialFrame; // 0x58
+		::System::Nullable_1<::System::Single> period; // 0x5C
+		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x64
+		::System::Boolean completed; // 0x68
+		::System::Boolean disposed; // 0x69
+		::System::Boolean dueTimePhase; // 0x6A
+		::System::Boolean ignoreTimeScale; // 0x6B
 		::System::Void _ctor(::System::TimeSpan a1, ::System::Nullable_1<::System::TimeSpan> a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Boolean a4, ::System::Threading::CancellationToken a5, ::System::Boolean a6)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::System::Nullable_1<::System::TimeSpan>, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean, ::System::Threading::CancellationToken, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);

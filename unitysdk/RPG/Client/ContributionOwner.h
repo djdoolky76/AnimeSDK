@@ -3,12 +3,13 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ContributionOwner_TypeDefinitionIndex = 62152;
+	inline static constexpr unsigned int ContributionOwner_TypeDefinitionIndex = 63565;
 
 	enum class ContributionOwner : ::System::Int32
 	{
 		SystemDefault = 0,
 		SourceDist = 1,
 		ForceOverride = 2,
+		DirectMode = 3,
 	};
 }

@@ -8,18 +8,18 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB8240)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__MEMORYLEAKREPORT_B__5_OFFSET UNITYSDK_OFFSET(0x14DB8320)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x12BAB6A0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__MEMORYLEAKREPORT_B__5_OFFSET UNITYSDK_OFFSET(0x12BAB780)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_0_TypeDefinitionIndex = 50063;
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_0_TypeDefinitionIndex = 51111;
 
 	class LuaMemoryLeakChecker___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Collections::Generic::List_1<::System::Object*>*>* relationshipInfo; // 0x10
-		::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* __9__5; // 0x18
+		::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* __9__5; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Collections::Generic::List_1<::System::Object*>*>* relationshipInfo; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);

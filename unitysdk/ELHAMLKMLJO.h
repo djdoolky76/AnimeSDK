@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ELHAMLKMLJO_CTOR_OFFSET UNITYSDK_OFFSET(0x15513DF0)
-#define ELHAMLKMLJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15513E20)
+#define ELHAMLKMLJO_CTOR_OFFSET UNITYSDK_OFFSET(0x199A9450)
+#define ELHAMLKMLJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199A9480)
 
-inline static constexpr unsigned int ELHAMLKMLJO_TypeDefinitionIndex = 55147;
+inline static constexpr unsigned int ELHAMLKMLJO_TypeDefinitionIndex = 56328;
 
 	class ELHAMLKMLJO
 	{

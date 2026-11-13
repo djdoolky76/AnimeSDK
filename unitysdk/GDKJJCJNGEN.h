@@ -8,18 +8,18 @@ namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class RtLifeBindingConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDKJJCJNGEN_CTOR_OFFSET UNITYSDK_OFFSET(0x15998DF0)
-#define GDKJJCJNGEN_GBCNCENLMPA_OFFSET UNITYSDK_OFFSET(0x15998B00)
-#define GDKJJCJNGEN_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x15998A20)
-#define GDKJJCJNGEN_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x15998AB0)
+#define GDKJJCJNGEN_CTOR_OFFSET UNITYSDK_OFFSET(0x17CA5E20)
+#define GDKJJCJNGEN_GBCNCENLMPA_OFFSET UNITYSDK_OFFSET(0x17CA5B30)
+#define GDKJJCJNGEN_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x17CA5A50)
+#define GDKJJCJNGEN_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x17CA5AE0)
 
-inline static constexpr unsigned int GDKJJCJNGEN_TypeDefinitionIndex = 54123;
+inline static constexpr unsigned int GDKJJCJNGEN_TypeDefinitionIndex = 55287;
 
 	class GDKJJCJNGEN : public ::System::Object
 	{
 	public:
-		::ACBDGIHICCD* PJKNMFIDFLF; // 0x10
-		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x18
+		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x10
+		::ACBDGIHICCD* PJKNMFIDFLF; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDKJJCJNGEN_CTOR_OFFSET))(this);

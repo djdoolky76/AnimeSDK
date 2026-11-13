@@ -3,7 +3,7 @@
 #include "unitysdk/System/DTSubStringType.h"
 namespace System { class String; }
 
-#define SYSTEM_DTSUBSTRING_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C1BEA0)
+#define SYSTEM_DTSUBSTRING_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3E8F190)
 
 namespace System
 {

@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_DiceAllEven; }
 
-#define ILEHPNIIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B37D0)
-#define ILEHPNIIAFL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6B37F0)
+#define ILEHPNIIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C11E0B0)
+#define ILEHPNIIAFL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C11E0D0)
 
-inline static constexpr unsigned int ILEHPNIIAFL_TypeDefinitionIndex = 36343;
+inline static constexpr unsigned int ILEHPNIIAFL_TypeDefinitionIndex = 37271;
 
 	class ILEHPNIIAFL : public ::HHOHBHGLHHF
 	{

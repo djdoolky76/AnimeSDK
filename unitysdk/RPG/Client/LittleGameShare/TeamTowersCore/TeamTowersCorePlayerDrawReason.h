@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int TeamTowersCorePlayerDrawReason_TypeDefinitionIndex = 37083;
+	inline static constexpr unsigned int TeamTowersCorePlayerDrawReason_TypeDefinitionIndex = 38011;
 
 	enum class TeamTowersCorePlayerDrawReason : ::System::Byte
 	{

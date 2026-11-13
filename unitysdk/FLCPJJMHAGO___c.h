@@ -4,18 +4,18 @@
 class FLCPJJMHAGO;
 namespace System { class Object; }
 
-#define FLCPJJMHAGO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E389A80)
-#define FLCPJJMHAGO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E389AC0)
-#define FLCPJJMHAGO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E389AD0)
+#define FLCPJJMHAGO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE3B840)
+#define FLCPJJMHAGO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE3B880)
+#define FLCPJJMHAGO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FE3B890)
 
-inline static constexpr unsigned int FLCPJJMHAGO___c_TypeDefinitionIndex = 32691;
+inline static constexpr unsigned int FLCPJJMHAGO___c_TypeDefinitionIndex = 33606;
 
 	class FLCPJJMHAGO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B4D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A550);
 		}
 
 		static ::System::Void _cctor()

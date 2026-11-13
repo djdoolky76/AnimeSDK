@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RestoreTrackingMission; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBKCKFDEDOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15695620)
-#define FBKCKFDEDOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15695630)
-#define FBKCKFDEDOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15695670)
-#define FBKCKFDEDOL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15695770)
-#define FBKCKFDEDOL_TICK_OFFSET UNITYSDK_OFFSET(0x156957C0)
+#define FBKCKFDEDOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA51880)
+#define FBKCKFDEDOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BA51890)
+#define FBKCKFDEDOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BA518D0)
+#define FBKCKFDEDOL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BA519D0)
+#define FBKCKFDEDOL_TICK_OFFSET UNITYSDK_OFFSET(0x1BA51A20)
 
-inline static constexpr unsigned int FBKCKFDEDOL_TypeDefinitionIndex = 53210;
+inline static constexpr unsigned int FBKCKFDEDOL_TypeDefinitionIndex = 54372;
 
 	class FBKCKFDEDOL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RestoreTrackingMission* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RestoreTrackingMission* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RestoreTrackingMission* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RestoreTrackingMission*))((::PBYTE)hIl2Cpp + FBKCKFDEDOL_CTOR_OFFSET))(this, a1, a2);

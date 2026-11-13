@@ -4,18 +4,18 @@
 class MPKPFCNKECG;
 namespace System { class Object; }
 
-#define MPKPFCNKECG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA8D5D0)
-#define MPKPFCNKECG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8D610)
-#define MPKPFCNKECG___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EA8D620)
+#define MPKPFCNKECG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20142500)
+#define MPKPFCNKECG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20142540)
+#define MPKPFCNKECG___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x20142550)
 
-inline static constexpr unsigned int MPKPFCNKECG___c_TypeDefinitionIndex = 28565;
+inline static constexpr unsigned int MPKPFCNKECG___c_TypeDefinitionIndex = 29155;
 
 	class MPKPFCNKECG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BDD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55E20);
 		}
 
 		static ::System::Void _cctor()

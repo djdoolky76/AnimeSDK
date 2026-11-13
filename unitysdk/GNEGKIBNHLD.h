@@ -9,19 +9,19 @@ class JIHILNOBAPH;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GNEGKIBNHLD_BDFPECFMJAB_OFFSET UNITYSDK_OFFSET(0x1C619A50)
-#define GNEGKIBNHLD_CHCHMLMONJO_OFFSET UNITYSDK_OFFSET(0x1C5EDC90)
-#define GNEGKIBNHLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C619980)
-#define GNEGKIBNHLD_PPCHPMFPHJA_OFFSET UNITYSDK_OFFSET(0x1C5ECE70)
+#define GNEGKIBNHLD_BDFPECFMJAB_OFFSET UNITYSDK_OFFSET(0x1AA57320)
+#define GNEGKIBNHLD_CHCHMLMONJO_OFFSET UNITYSDK_OFFSET(0x1AA2AEC0)
+#define GNEGKIBNHLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA57250)
+#define GNEGKIBNHLD_PPCHPMFPHJA_OFFSET UNITYSDK_OFFSET(0x1AA2A0A0)
 
-inline static constexpr unsigned int GNEGKIBNHLD_TypeDefinitionIndex = 36492;
+inline static constexpr unsigned int GNEGKIBNHLD_TypeDefinitionIndex = 37420;
 
 	class GNEGKIBNHLD : public ::System::Object
 	{
 	public:
-		::AIMNKMEFBKE* EEFMDEHLLFI; // 0x10
-		::BPHJOOGJPKD* FLMODBLFAGD; // 0x18
-		::System::Collections::Generic::List_1<::IJFIHJJPHNA*>* HAEOILBDBLB; // 0x20
+		::BPHJOOGJPKD* FLMODBLFAGD; // 0x10
+		::System::Collections::Generic::List_1<::IJFIHJJPHNA*>* HAEOILBDBLB; // 0x18
+		::AIMNKMEFBKE* EEFMDEHLLFI; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::IJFIHJJPHNA*>* JCDFGOGAPCC; // 0x28
 		::System::Void _ctor(::BPHJOOGJPKD* a1, ::AIMNKMEFBKE* a2)
 		{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_NULLABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED59370)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_NULLABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20974930)
 
 namespace System::Runtime::CompilerServices
 {

@@ -5,20 +5,20 @@
 class IIEEOLPONJM;
 namespace System { class Object; }
 
-#define IIEEOLPONJM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E657FA0)
-#define IIEEOLPONJM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E657FE0)
-#define IIEEOLPONJM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E657FF0)
-#define IIEEOLPONJM___C___CCTOR_B__38_1_OFFSET UNITYSDK_OFFSET(0x1E658040)
-#define IIEEOLPONJM___C___CCTOR_B__38_2_OFFSET UNITYSDK_OFFSET(0x1E658050)
+#define IIEEOLPONJM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7FFDC0)
+#define IIEEOLPONJM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7FFE00)
+#define IIEEOLPONJM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F7FFE10)
+#define IIEEOLPONJM___C___CCTOR_B__38_1_OFFSET UNITYSDK_OFFSET(0x1F7FFE60)
+#define IIEEOLPONJM___C___CCTOR_B__38_2_OFFSET UNITYSDK_OFFSET(0x1F7FFE70)
 
-inline static constexpr unsigned int IIEEOLPONJM___c_TypeDefinitionIndex = 26377;
+inline static constexpr unsigned int IIEEOLPONJM___c_TypeDefinitionIndex = 26904;
 
 	class IIEEOLPONJM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x467A0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_CustomValueCompareEX; }
 
-#define MAABFBBEMNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C718400)
-#define MAABFBBEMNI_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C718420)
+#define MAABFBBEMNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC27C20)
+#define MAABFBBEMNI_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1AC27C40)
 
-inline static constexpr unsigned int MAABFBBEMNI_TypeDefinitionIndex = 36360;
+inline static constexpr unsigned int MAABFBBEMNI_TypeDefinitionIndex = 37288;
 
 	class MAABFBBEMNI : public ::HHOHBHGLHHF
 	{

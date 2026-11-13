@@ -9,12 +9,12 @@ namespace RPG::GameCore { class SummonUnitGroupConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SUMMONUNITGLOBALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB109D0)
-#define RPG_GAMECORE_SUMMONUNITGLOBALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB10710)
+#define RPG_GAMECORE_SUMMONUNITGLOBALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E680410)
+#define RPG_GAMECORE_SUMMONUNITGLOBALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E680150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitGlobalConfig_TypeDefinitionIndex = 17609;
+	inline static constexpr unsigned int SummonUnitGlobalConfig_TypeDefinitionIndex = 17778;
 
 	class SummonUnitGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFC3870)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BFC4370)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BFC4390)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC4530)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFC44C0)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFC43B0)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D058510)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_CLOSE_OFFSET UNITYSDK_OFFSET(0x1D059010)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1D059030)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0591D0)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_HIDE_OFFSET UNITYSDK_OFFSET(0x1D059160)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_SHOW_OFFSET UNITYSDK_OFFSET(0x1D059050)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingSuccess_TypeDefinitionIndex = 8386;
+	inline static constexpr unsigned int BindingSuccess_TypeDefinitionIndex = 8395;
 
 	class BindingSuccess : public ::MiHoYo::SDK::UIElement
 	{
@@ -32,7 +32,7 @@ namespace MiHoYo::SDK::UI
 		::System::Action* OnConfirmBtnClicked; // 0x98
 		static ::MiHoYo::SDK::UI::BindingSuccess** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::UI::BindingSuccess**)UnitySDK::FromName("MiHoYo.SDK.UI", "BindingSuccess")->GetStaticField(0x2AD30);
+			return (::MiHoYo::SDK::UI::BindingSuccess**)UnitySDK::FromName("MiHoYo.SDK.UI", "BindingSuccess")->GetStaticField(0x1D300);
 		}
 
 		// static const ::System::String* PrefabName; // 0x0

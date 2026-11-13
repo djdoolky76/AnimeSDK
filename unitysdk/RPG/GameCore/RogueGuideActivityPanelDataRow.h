@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueGuideActivityPanelDataRow; }
 
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99FFC0)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99FA10)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2076DB50)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2076D5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueGuideActivityPanelDataRow_TypeDefinitionIndex = 14722;
+	inline static constexpr unsigned int RogueGuideActivityPanelDataRow_TypeDefinitionIndex = 14878;
 
 	class RogueGuideActivityPanelDataRow : public ::System::Object
 	{

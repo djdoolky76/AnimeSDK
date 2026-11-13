@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KFAGEHPLMJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E09B0)
+#define KFAGEHPLMJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF02A0)
 
-inline static constexpr unsigned int KFAGEHPLMJB_TypeDefinitionIndex = 36405;
+inline static constexpr unsigned int KFAGEHPLMJB_TypeDefinitionIndex = 37333;
 
 	class KFAGEHPLMJB : public ::System::Object
 	{

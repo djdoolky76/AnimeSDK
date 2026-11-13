@@ -4,18 +4,18 @@
 class GCFGCHAMNOL;
 namespace System { class Object; }
 
-#define GCFGCHAMNOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E410190)
-#define GCFGCHAMNOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4101C0)
-#define GCFGCHAMNOL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4101D0)
+#define GCFGCHAMNOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20228AA0)
+#define GCFGCHAMNOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20228AD0)
+#define GCFGCHAMNOL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20228AE0)
 
-inline static constexpr unsigned int GCFGCHAMNOL___c_TypeDefinitionIndex = 27505;
+inline static constexpr unsigned int GCFGCHAMNOL___c_TypeDefinitionIndex = 28036;
 
 	class GCFGCHAMNOL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE6F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BD90);
 		}
 
 		static ::System::Void _cctor()

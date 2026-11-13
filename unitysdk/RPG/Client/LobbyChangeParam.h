@@ -5,18 +5,18 @@
 namespace RPG::Client { class LobbyMemberData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOBBYCHANGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD488DB0)
+#define RPG_CLIENT_LOBBYCHANGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE33C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LobbyChangeParam_TypeDefinitionIndex = 65774;
+	inline static constexpr unsigned int LobbyChangeParam_TypeDefinitionIndex = 67706;
 
 	class LobbyChangeParam : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::LobbyMemberData*>* PreviousMembers; // 0x10
+		::RPG::Client::LobbyMemberData* ChangeOwner; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::LobbyMemberData*>* CurrentMembers; // 0x18
-		::RPG::Client::LobbyMemberData* ChangeOwner; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::LobbyMemberData*>* PreviousMembers; // 0x20
 		::CJHHGHKGAIL ChangeType; // 0x28
 		::System::Void _ctor()
 		{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PJNLKIIAIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C5AE0)
+#define PJNLKIIAIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x206FE010)
 
-inline static constexpr unsigned int PJNLKIIAIBA_TypeDefinitionIndex = 43301;
+inline static constexpr unsigned int PJNLKIIAIBA_TypeDefinitionIndex = 44282;
 
 	class PJNLKIIAIBA : public ::System::Object
 	{

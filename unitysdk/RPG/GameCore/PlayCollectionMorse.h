@@ -8,13 +8,13 @@ namespace RPG::GameCore { class PlayCollectionMorse; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8FF430)
-#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8FF440)
-#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8FF400)
+#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6DBC0)
+#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE6DBD0)
+#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE6DB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayCollectionMorse_TypeDefinitionIndex = 20413;
+	inline static constexpr unsigned int PlayCollectionMorse_TypeDefinitionIndex = 20748;
 
 	class PlayCollectionMorse : public ::RPG::GameCore::TaskConfig
 	{

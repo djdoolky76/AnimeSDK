@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NMHBFNBMFIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C944B10)
+#define NMHBFNBMFIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E053230)
 
-inline static constexpr unsigned int NMHBFNBMFIH_TypeDefinitionIndex = 41987;
+inline static constexpr unsigned int NMHBFNBMFIH_TypeDefinitionIndex = 42962;
 
 	class NMHBFNBMFIH : public ::System::Object
 	{

@@ -7,12 +7,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingDeathEffectConfig; }
 
-#define RPG_GAMECORE_CHENLINGDEATHEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D55D8A0)
-#define RPG_GAMECORE_CHENLINGDEATHEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D557580)
+#define RPG_GAMECORE_CHENLINGDEATHEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F35E480)
+#define RPG_GAMECORE_CHENLINGDEATHEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F358860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingDeathEffectConfig_TypeDefinitionIndex = 15687;
+	inline static constexpr unsigned int ChenLingDeathEffectConfig_TypeDefinitionIndex = 15845;
 
 	class ChenLingDeathEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

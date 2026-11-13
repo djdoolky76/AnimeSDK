@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BJNAPLKBEEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88E0A0)
+#define BJNAPLKBEEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B8860)
 
-inline static constexpr unsigned int BJNAPLKBEEA_TypeDefinitionIndex = 42360;
+inline static constexpr unsigned int BJNAPLKBEEA_TypeDefinitionIndex = 43335;
 
 	class BJNAPLKBEEA : public ::System::Object
 	{

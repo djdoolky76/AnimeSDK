@@ -5,10 +5,10 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Reflection { class MemberInfo; }
 
-#define AHLEHGIMEHE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC34E50)
-#define AHLEHGIMEHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC34E20)
+#define AHLEHGIMEHE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E51E9B0)
+#define AHLEHGIMEHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E51E980)
 
-inline static constexpr unsigned int AHLEHGIMEHE_TypeDefinitionIndex = 44302;
+inline static constexpr unsigned int AHLEHGIMEHE_TypeDefinitionIndex = 45377;
 
 	class AHLEHGIMEHE : public ::System::Exception
 	{

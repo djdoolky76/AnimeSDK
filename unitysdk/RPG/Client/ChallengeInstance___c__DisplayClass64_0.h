@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class IGLLJCAMGMO;
 
-#define RPG_CLIENT_CHALLENGEINSTANCE___C__DISPLAYCLASS64_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC981BD0)
-#define RPG_CLIENT_CHALLENGEINSTANCE___C__DISPLAYCLASS64_0__REFRESHCHALLENGETARGET_B__0_OFFSET UNITYSDK_OFFSET(0xC9829D0)
+#define RPG_CLIENT_CHALLENGEINSTANCE___C__DISPLAYCLASS64_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B709610)
+#define RPG_CLIENT_CHALLENGEINSTANCE___C__DISPLAYCLASS64_0__REFRESHCHALLENGETARGET_B__0_OFFSET UNITYSDK_OFFSET(0x1B70A410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeInstance___c__DisplayClass64_0_TypeDefinitionIndex = 63091;
+	inline static constexpr unsigned int ChallengeInstance___c__DisplayClass64_0_TypeDefinitionIndex = 64529;
 
 	class ChallengeInstance___c__DisplayClass64_0 : public ::System::Object
 	{

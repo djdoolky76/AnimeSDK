@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetOverrideColliderCamera; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA90F10)
-#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA90F20)
-#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA90EE0)
+#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9DE7A0)
+#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9DE7B0)
+#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9DE770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetOverrideColliderCamera_TypeDefinitionIndex = 22396;
+	inline static constexpr unsigned int SetOverrideColliderCamera_TypeDefinitionIndex = 22805;
 
 	class SetOverrideColliderCamera : public ::RPG::GameCore::TaskConfig
 	{

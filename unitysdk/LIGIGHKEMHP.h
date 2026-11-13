@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LIGIGHKEMHP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0C9F40)
-#define LIGIGHKEMHP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0CA510)
-#define LIGIGHKEMHP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D0CA0B0)
-#define LIGIGHKEMHP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D0C99B0)
-#define LIGIGHKEMHP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0C9C40)
-#define LIGIGHKEMHP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0CA150)
-#define LIGIGHKEMHP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0CA1A0)
-#define LIGIGHKEMHP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0C9F80)
-#define LIGIGHKEMHP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D0C9BE0)
-#define LIGIGHKEMHP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D0C9DB0)
-#define LIGIGHKEMHP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0CA010)
-#define LIGIGHKEMHP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0C9930)
+#define LIGIGHKEMHP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E965B80)
+#define LIGIGHKEMHP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E966150)
+#define LIGIGHKEMHP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E965CF0)
+#define LIGIGHKEMHP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E9655F0)
+#define LIGIGHKEMHP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E965880)
+#define LIGIGHKEMHP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E965D90)
+#define LIGIGHKEMHP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E965DE0)
+#define LIGIGHKEMHP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E965BC0)
+#define LIGIGHKEMHP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E965820)
+#define LIGIGHKEMHP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E9659F0)
+#define LIGIGHKEMHP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E965C50)
+#define LIGIGHKEMHP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E965570)
 
-inline static constexpr unsigned int LIGIGHKEMHP_TypeDefinitionIndex = 11706;
+inline static constexpr unsigned int LIGIGHKEMHP_TypeDefinitionIndex = 11763;
 
 	class LIGIGHKEMHP : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveEventRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveEventRow*>**)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0x3BB10);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0x3BB18);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0x3A150);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0x3BB20);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0x3A158);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveEventRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveEventRow*>**)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0x3A160);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0xBFC0);
+			return (::System::Boolean*)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0xB910);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0xBFC1);
+			return (::System::Byte*)UnitySDK::FromName("", "LIGIGHKEMHP")->GetStaticField(0xB911);
 		}
 
 		static ::System::Void _cctor()

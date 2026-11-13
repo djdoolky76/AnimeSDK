@@ -6,20 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MuseumItemSkillConfigRow; }
 
-#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8990D0)
-#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D898EE0)
+#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E489E10)
+#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E489C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumItemSkillConfigRow_TypeDefinitionIndex = 14230;
+	inline static constexpr unsigned int MuseumItemSkillConfigRow_TypeDefinitionIndex = 14387;
 
 	class MuseumItemSkillConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TypeParameter; // 0x10
-		::System::UInt32 ItemSkillID; // 0x18
-		::RPG::GameCore::MuseumItemSkillType Type; // 0x1C
-		::RPG::Client::TextID SkillDesc; // 0x20
+		::RPG::Client::TextID SkillDesc; // 0x18
+		::System::UInt32 ItemSkillID; // 0x28
+		::RPG::GameCore::MuseumItemSkillType Type; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_CTOR_OFFSET))(this);

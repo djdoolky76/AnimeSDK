@@ -4,16 +4,16 @@
 class AJOGKBGIPGN;
 class GIPFFGFJCBF;
 
-#define GIPFFGFJCBF___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A47370)
-#define GIPFFGFJCBF___C__DISPLAYCLASS41_0___ONBATTLESHOWAVATARHUDSPECIALEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x15A47830)
+#define GIPFFGFJCBF___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F8330)
+#define GIPFFGFJCBF___C__DISPLAYCLASS41_0___ONBATTLESHOWAVATARHUDSPECIALEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1A3F8800)
 
-inline static constexpr unsigned int GIPFFGFJCBF___c__DisplayClass41_0_TypeDefinitionIndex = 71432;
+inline static constexpr unsigned int GIPFFGFJCBF___c__DisplayClass41_0_TypeDefinitionIndex = 73414;
 
 	class GIPFFGFJCBF___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:
-		::GIPFFGFJCBF* __4__this; // 0x10
-		::AJOGKBGIPGN* notifyParam; // 0x18
+		::AJOGKBGIPGN* notifyParam; // 0x10
+		::GIPFFGFJCBF* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIPFFGFJCBF___C__DISPLAYCLASS41_0_CTOR_OFFSET))(this);

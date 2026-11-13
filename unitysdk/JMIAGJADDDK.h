@@ -6,10 +6,10 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewMode
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudInputBrain; }
 namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 
-#define JMIAGJADDDK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB260C70)
-#define JMIAGJADDDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB260D10)
+#define JMIAGJADDDK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1A0AF550)
+#define JMIAGJADDDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AF5F0)
 
-inline static constexpr unsigned int JMIAGJADDDK_TypeDefinitionIndex = 80900;
+inline static constexpr unsigned int JMIAGJADDDK_TypeDefinitionIndex = 83680;
 
 	class JMIAGJADDDK : public ::System::Object
 	{

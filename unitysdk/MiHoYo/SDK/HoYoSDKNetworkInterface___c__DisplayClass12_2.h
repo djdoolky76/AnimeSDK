@@ -4,19 +4,19 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA75B0)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__3_OFFSET UNITYSDK_OFFSET(0xAFA75C0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB49540)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__3_OFFSET UNITYSDK_OFFSET(0x1AB49550)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_2_TypeDefinitionIndex = 46114;
+	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_2_TypeDefinitionIndex = 47143;
 
 	template <typename T1, typename T2>
 	class HoYoSDKNetworkInterface___c__DisplayClass12_2 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals2; // 0x10
-		::System::String* strIpAddr; // 0x18
+		::System::String* strIpAddr; // 0x10
+		::System::Object* CS___8__locals2; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2_CTOR_OFFSET))(this);

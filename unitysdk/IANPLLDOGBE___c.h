@@ -4,29 +4,29 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define IANPLLDOGBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E15370)
-#define IANPLLDOGBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E153A0)
-#define IANPLLDOGBE___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x15E153B0)
-#define IANPLLDOGBE___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x15E154D0)
+#define IANPLLDOGBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x194357C0)
+#define IANPLLDOGBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x194357F0)
+#define IANPLLDOGBE___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x19435800)
+#define IANPLLDOGBE___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x194358E0)
 
-inline static constexpr unsigned int IANPLLDOGBE___c_TypeDefinitionIndex = 52779;
+inline static constexpr unsigned int IANPLLDOGBE___c_TypeDefinitionIndex = 53923;
 
 	class IANPLLDOGBE___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__1_1()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38550);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38558);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FCB0);
+		}
+
+		static ::System::Action** StaticGet___9__1_1()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FCB8);
 		}
 
 		static ::System::Action** StaticGet___9__1_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38560);
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FCC0);
 		}
 
 		static ::System::Void _cctor()

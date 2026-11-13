@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define AFPFAGANDKO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF19CE0)
-#define AFPFAGANDKO___C__DISPLAYCLASS6_0__ADDSPHERETRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xCF1BB40)
+#define AFPFAGANDKO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18DC99D0)
+#define AFPFAGANDKO___C__DISPLAYCLASS6_0__ADDSPHERETRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x18DCB830)
 
-inline static constexpr unsigned int AFPFAGANDKO___c__DisplayClass6_0_TypeDefinitionIndex = 73960;
+inline static constexpr unsigned int AFPFAGANDKO___c__DisplayClass6_0_TypeDefinitionIndex = 76096;
 
 	class AFPFAGANDKO___c__DisplayClass6_0 : public ::System::Object
 	{

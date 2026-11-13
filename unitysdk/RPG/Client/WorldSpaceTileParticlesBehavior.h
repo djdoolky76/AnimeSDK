@@ -6,23 +6,23 @@ namespace RPG::Client { class WorldSpaceTileParticlesMonoPlugin; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xE47AAD0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xE479960)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE47AAC0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xE47A9E0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xE4799C0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE479040)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xE479A80)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xE479840)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE47AA60)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xE479A20)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xE479140)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xE4790D0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xE47AA20)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1823F520)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0x1823E3B0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1823F510)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x1823F430)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0x1823E410)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1823DAE0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0x1823E4D0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x1823E2B0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0x1823F4B0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0x1823E470)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1823DBE0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x1823DB70)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0x1823F470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorldSpaceTileParticlesBehavior_TypeDefinitionIndex = 70716;
+	inline static constexpr unsigned int WorldSpaceTileParticlesBehavior_TypeDefinitionIndex = 72693;
 
 	class WorldSpaceTileParticlesBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -31,54 +31,54 @@ namespace RPG::Client
 		::UnityEngine::ComputeBuffer* IndirectDrawArgsBuffer; // 0x40
 		::UnityEngine::Bounds _Bounds; // 0x48
 		::UnityEngine::MaterialPropertyBlock* _MPB; // 0x60
-		static ::System::Int32* StaticGet__ParticleColorID()
+		static ::System::Int32* StaticGet__BoundSizeID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDD0);
-		}
-
-		static ::System::Int32* StaticGet__ParticleVelocityID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDD4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13D80);
 		}
 
 		static ::System::Int32* StaticGet__BoundRotationID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDD8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13D84);
 		}
 
-		static ::System::Int32* StaticGet__BoundCenterID()
+		static ::System::Int32* StaticGet__ParticleVelocityID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDDC);
-		}
-
-		static ::System::Int32* StaticGet__BoundSizeID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDE0);
-		}
-
-		static ::System::Int32* StaticGet__ParticleSize()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDE4);
-		}
-
-		static ::System::Int32* StaticGet__FogScale()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDE8);
-		}
-
-		static ::System::Int32* StaticGet__RandomSeed()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDEC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13D88);
 		}
 
 		static ::System::Int32* StaticGet__RandomseedID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDF0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13D8C);
+		}
+
+		static ::System::Int32* StaticGet__RandomSeed()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13D90);
+		}
+
+		static ::System::Int32* StaticGet__BoundCenterID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13D94);
+		}
+
+		static ::System::Int32* StaticGet__FogScale()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13D98);
+		}
+
+		static ::System::Int32* StaticGet__ParticleColorID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13D9C);
+		}
+
+		static ::System::Int32* StaticGet__ParticleSize()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13DA0);
 		}
 
 		static ::System::Int32* StaticGet__FlickerFrequency()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0xFDF4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WorldSpaceTileParticlesBehavior")->GetStaticField(0x13DA4);
 		}
 
 		::System::Void _ctor()

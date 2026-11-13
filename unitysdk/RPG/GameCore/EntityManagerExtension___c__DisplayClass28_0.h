@@ -8,23 +8,23 @@ namespace RPG::GameCore { class StoryCharacterRow; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE63BA10)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS28_0__CLIENTCREATESTORYNPCENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xE658D60)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS28_0__CLIENTCREATESTORYNPCENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xE658FA0)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS28_0__CLIENTCREATESTORYNPCENTITY_B__2_OFFSET UNITYSDK_OFFSET(0xE658FF0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x174E3CF0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS28_0__CLIENTCREATESTORYNPCENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x174E3D00)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS28_0__CLIENTCREATESTORYNPCENTITY_B__1_OFFSET UNITYSDK_OFFSET(0x174E3F40)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS28_0__CLIENTCREATESTORYNPCENTITY_B__2_OFFSET UNITYSDK_OFFSET(0x174E3F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass28_0_TypeDefinitionIndex = 57777;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass28_0_TypeDefinitionIndex = 59012;
 
 	class EntityManagerExtension___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::System::String* appearancePreset; // 0x10
+		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x10
 		::RPG::GameCore::StoryCharacterRow* storyCharacterRow; // 0x18
 		::Il2CppArray<::System::String*>* overrideReplaceMaterialKeyList; // 0x20
 		::RPG::GameCore::EntityManager* pManager; // 0x28
-		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x30
+		::System::String* appearancePreset; // 0x30
 		::RPG::GameCore::NPCSubType subType; // 0x38
 		::System::Void _ctor()
 		{

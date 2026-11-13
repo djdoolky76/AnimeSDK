@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityDiceCombatShopRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D325650)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D325400)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5028F0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5026A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatShopRow_TypeDefinitionIndex = 11245;
+	inline static constexpr unsigned int ActivityDiceCombatShopRow_TypeDefinitionIndex = 11296;
 
 	class ActivityDiceCombatShopRow : public ::System::Object
 	{
 	public:
-		::System::String* IMGPath; // 0x10
-		::Il2CppArray<::System::UInt32>* GoodsList; // 0x18
-		::System::UInt32 DiceShopID; // 0x20
-		::System::UInt32 ShopSortID; // 0x24
-		::RPG::Client::TextID Name; // 0x28
+		::Il2CppArray<::System::UInt32>* GoodsList; // 0x10
+		::System::String* IMGPath; // 0x18
+		::RPG::Client::TextID Name; // 0x20
+		::System::UInt32 ShopSortID; // 0x30
+		::System::UInt32 DiceShopID; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int GameState_TypeDefinitionIndex = 42974;
+	inline static constexpr unsigned int GameState_TypeDefinitionIndex = 43955;
 
 	enum class GameState : ::System::Int32
 	{

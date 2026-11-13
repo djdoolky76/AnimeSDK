@@ -10,21 +10,21 @@ namespace RPG::AvatarSystem { class AvatarSkin; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define IDACDDHLPKI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E5A130)
-#define IDACDDHLPKI_EXPORTPROFILE_OFFSET UNITYSDK_OFFSET(0x15E5A1F0)
-#define IDACDDHLPKI_GET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x15E5A110)
-#define IDACDDHLPKI_GET_SKINIDS_OFFSET UNITYSDK_OFFSET(0x15E5A100)
-#define IDACDDHLPKI_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0x15E5A140)
-#define IDACDDHLPKI_SET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x15E5A120)
+#define IDACDDHLPKI_CTOR_OFFSET UNITYSDK_OFFSET(0x188E7410)
+#define IDACDDHLPKI_EXPORTPROFILE_OFFSET UNITYSDK_OFFSET(0x188E74D0)
+#define IDACDDHLPKI_GET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x188E73F0)
+#define IDACDDHLPKI_GET_SKINIDS_OFFSET UNITYSDK_OFFSET(0x188E73E0)
+#define IDACDDHLPKI_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0x188E7420)
+#define IDACDDHLPKI_SET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x188E7400)
 
-inline static constexpr unsigned int IDACDDHLPKI_TypeDefinitionIndex = 51945;
+inline static constexpr unsigned int IDACDDHLPKI_TypeDefinitionIndex = 53046;
 
 	class IDACDDHLPKI : public ::System::Object
 	{
 	public:
-		::NOIACLKKLBJ* ONAJFBCPFGO; // 0x10
+		::RPG::AvatarSystem::AvatarSkin* _DressedSkin_k__BackingField; // 0x10
 		::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkinType, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*>* _SkinIDs_k__BackingField; // 0x18
-		::RPG::AvatarSystem::AvatarSkin* _DressedSkin_k__BackingField; // 0x20
+		::NOIACLKKLBJ* ONAJFBCPFGO; // 0x20
 		::APCGKBOPGJL ODMGLBEOBDP; // 0x28
 		::System::Void _ctor(::APCGKBOPGJL a1, ::NOIACLKKLBJ* a2, ::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkinType, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*>* a3)
 		{

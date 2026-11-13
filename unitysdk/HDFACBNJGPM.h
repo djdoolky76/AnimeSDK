@@ -3,10 +3,10 @@
 #include "unitysdk/KABEJCFNEJA.h"
 class BKFDFLNHKIF;
 
-#define HDFACBNJGPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C850)
-#define HDFACBNJGPM_JACCIPIIGNO_OFFSET UNITYSDK_OFFSET(0x3C2A940)
+#define HDFACBNJGPM_CTOR_OFFSET UNITYSDK_OFFSET(0x64F970)
+#define HDFACBNJGPM_JACCIPIIGNO_OFFSET UNITYSDK_OFFSET(0x3E65840)
 
-inline static constexpr unsigned int HDFACBNJGPM_TypeDefinitionIndex = 36947;
+inline static constexpr unsigned int HDFACBNJGPM_TypeDefinitionIndex = 37875;
 
 	struct alignas(8) HDFACBNJGPM
 	{

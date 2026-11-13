@@ -4,18 +4,18 @@
 class GBMAHPJPGLM;
 namespace System { class Object; }
 
-#define GBMAHPJPGLM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4038D0)
-#define GBMAHPJPGLM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E403910)
-#define GBMAHPJPGLM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E403920)
+#define GBMAHPJPGLM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC51430)
+#define GBMAHPJPGLM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC51470)
+#define GBMAHPJPGLM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC51480)
 
-inline static constexpr unsigned int GBMAHPJPGLM___c_TypeDefinitionIndex = 31717;
+inline static constexpr unsigned int GBMAHPJPGLM___c_TypeDefinitionIndex = 32630;
 
 	class GBMAHPJPGLM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCB30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57BF0);
 		}
 
 		static ::System::Void _cctor()

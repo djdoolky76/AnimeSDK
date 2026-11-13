@@ -4,18 +4,18 @@
 class OBEBKODGODB;
 namespace System { class Object; }
 
-#define OBEBKODGODB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB7FE80)
-#define OBEBKODGODB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7FEC0)
-#define OBEBKODGODB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB7FED0)
+#define OBEBKODGODB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD9D020)
+#define OBEBKODGODB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD9D060)
+#define OBEBKODGODB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FD9D070)
 
-inline static constexpr unsigned int OBEBKODGODB___c_TypeDefinitionIndex = 31742;
+inline static constexpr unsigned int OBEBKODGODB___c_TypeDefinitionIndex = 32655;
 
 	class OBEBKODGODB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFB70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB390);
 		}
 
 		static ::System::Void _cctor()

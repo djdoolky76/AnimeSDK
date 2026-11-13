@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowBossInfoBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DPINEFIMELG_CTOR_OFFSET UNITYSDK_OFFSET(0x1263BBF0)
-#define DPINEFIMELG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1263BC00)
-#define DPINEFIMELG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1263BC40)
-#define DPINEFIMELG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1263BD30)
-#define DPINEFIMELG_TICK_OFFSET UNITYSDK_OFFSET(0x1263BD80)
+#define DPINEFIMELG_CTOR_OFFSET UNITYSDK_OFFSET(0x191CA380)
+#define DPINEFIMELG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x191CA390)
+#define DPINEFIMELG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x191CA3D0)
+#define DPINEFIMELG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x191CA4F0)
+#define DPINEFIMELG_TICK_OFFSET UNITYSDK_OFFSET(0x191CA540)
 
-inline static constexpr unsigned int DPINEFIMELG_TypeDefinitionIndex = 56451;
+inline static constexpr unsigned int DPINEFIMELG_TypeDefinitionIndex = 57669;
 
 	class DPINEFIMELG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowBossInfoBar* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShowBossInfoBar* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowBossInfoBar* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowBossInfoBar*))((::PBYTE)hIl2Cpp + DPINEFIMELG_CTOR_OFFSET))(this, a1, a2);

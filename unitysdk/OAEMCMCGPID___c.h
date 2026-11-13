@@ -4,18 +4,18 @@
 class OAEMCMCGPID;
 namespace System { class Object; }
 
-#define OAEMCMCGPID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB797A0)
-#define OAEMCMCGPID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB797E0)
-#define OAEMCMCGPID___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EB797F0)
+#define OAEMCMCGPID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD96A10)
+#define OAEMCMCGPID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD96A50)
+#define OAEMCMCGPID___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FD96A60)
 
-inline static constexpr unsigned int OAEMCMCGPID___c_TypeDefinitionIndex = 33681;
+inline static constexpr unsigned int OAEMCMCGPID___c_TypeDefinitionIndex = 34596;
 
 	class OAEMCMCGPID___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xECF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA2C0);
 		}
 
 		static ::System::Void _cctor()

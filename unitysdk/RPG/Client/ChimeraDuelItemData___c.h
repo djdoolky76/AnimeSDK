@@ -5,31 +5,31 @@ namespace RPG::Client { class IChimeraDuelSkillData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CHIMERADUELITEMDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB2C810)
-#define RPG_CLIENT_CHIMERADUELITEMDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB2C850)
-#define RPG_CLIENT_CHIMERADUELITEMDATA___C__TRYGETBATTLESKILLDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0xCB2C910)
-#define RPG_CLIENT_CHIMERADUELITEMDATA___C__TRYGETSHOPSKILLDATA_B__37_0_OFFSET UNITYSDK_OFFSET(0xCB2C860)
+#define RPG_CLIENT_CHIMERADUELITEMDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E002130)
+#define RPG_CLIENT_CHIMERADUELITEMDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E002170)
+#define RPG_CLIENT_CHIMERADUELITEMDATA___C__TRYGETBATTLESKILLDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E0021E0)
+#define RPG_CLIENT_CHIMERADUELITEMDATA___C__TRYGETSHOPSKILLDATA_B__37_0_OFFSET UNITYSDK_OFFSET(0x1E002180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelItemData___c_TypeDefinitionIndex = 63365;
+	inline static constexpr unsigned int ChimeraDuelItemData___c_TypeDefinitionIndex = 64803;
 
 	class ChimeraDuelItemData___c : public ::System::Object
 	{
 	public:
+		static ::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>** StaticGet___9__37_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10A70);
+		}
+
 		static ::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>** StaticGet___9__38_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11840);
+			return (::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10A78);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11848);
-		}
-
-		static ::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>** StaticGet___9__37_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11850);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10A80);
 		}
 
 		static ::System::Void _cctor()

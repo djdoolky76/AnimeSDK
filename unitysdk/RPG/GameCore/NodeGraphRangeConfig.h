@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class NodeGraphRangeConfig; }
 
-#define RPG_GAMECORE_NODEGRAPHRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8ABA80)
-#define RPG_GAMECORE_NODEGRAPHRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8ABA40)
+#define RPG_GAMECORE_NODEGRAPHRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E49B740)
+#define RPG_GAMECORE_NODEGRAPHRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E49B700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NodeGraphRangeConfig_TypeDefinitionIndex = 16449;
+	inline static constexpr unsigned int NodeGraphRangeConfig_TypeDefinitionIndex = 16613;
 
 	class NodeGraphRangeConfig : public ::RPG::GameCore::JsonConfig
 	{

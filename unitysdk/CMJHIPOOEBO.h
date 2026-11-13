@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerLittleGameCustomEvent; }
 
-#define CMJHIPOOEBO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA316A0)
-#define CMJHIPOOEBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA316D0)
+#define CMJHIPOOEBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B19F5B0)
+#define CMJHIPOOEBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B19F5E0)
 
-inline static constexpr unsigned int CMJHIPOOEBO_TypeDefinitionIndex = 52964;
+inline static constexpr unsigned int CMJHIPOOEBO_TypeDefinitionIndex = 54123;
 
 	class CMJHIPOOEBO
 	{

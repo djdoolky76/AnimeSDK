@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNBASEDABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC34140)
-#define RPG_GAMECORE_TURNBASEDABILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC34150)
-#define RPG_GAMECORE_TURNBASEDABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC34110)
+#define RPG_GAMECORE_TURNBASEDABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33D330)
+#define RPG_GAMECORE_TURNBASEDABILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E33D340)
+#define RPG_GAMECORE_TURNBASEDABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33D300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedAbilityConfig_TypeDefinitionIndex = 18197;
+	inline static constexpr unsigned int TurnBasedAbilityConfig_TypeDefinitionIndex = 18359;
 
 	class TurnBasedAbilityConfig : public ::RPG::GameCore::AbilityConfig
 	{

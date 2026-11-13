@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AdventureMonsterTriggerMove; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39CF20)
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D39CF30)
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39CEF0)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FE2B0)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8FE2C0)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FE280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMonsterTriggerMove_TypeDefinitionIndex = 20188;
+	inline static constexpr unsigned int AdventureMonsterTriggerMove_TypeDefinitionIndex = 20522;
 
 	class AdventureMonsterTriggerMove : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,12 +4,12 @@
 class JNKPPLPLFOM;
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE46B640)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE46B5C0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9BE30)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0x1BC9BDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_WaitAnimState_TypeDefinitionIndex = 68707;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_WaitAnimState_TypeDefinitionIndex = 70659;
 
 	class WolfBroGunPlayTargetActionConfig_WaitAnimState : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

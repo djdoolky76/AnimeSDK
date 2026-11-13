@@ -4,7 +4,7 @@
 class GJPNHIMNPMD;
 class IFKBGBPINCO;
 
-inline static constexpr unsigned int GJPNHIMNPMD___c__DisplayClass4_0_TypeDefinitionIndex = 44147;
+inline static constexpr unsigned int GJPNHIMNPMD___c__DisplayClass4_0_TypeDefinitionIndex = 45222;
 
 	class GJPNHIMNPMD___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -5,29 +5,29 @@ namespace RPG::Client { class ExpeditionBattleTeam; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BAIBJGAMDAI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E5F5F0)
-#define BAIBJGAMDAI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E5F630)
-#define BAIBJGAMDAI___C__GETTEAMMEMBERCOUNTMAP_B__35_0_OFFSET UNITYSDK_OFFSET(0x15E5F640)
-#define BAIBJGAMDAI___C__GETTEAMMEMBERCOUNTMAP_B__35_1_OFFSET UNITYSDK_OFFSET(0x15E5F660)
+#define BAIBJGAMDAI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x199D6E10)
+#define BAIBJGAMDAI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x199D6E50)
+#define BAIBJGAMDAI___C__GETTEAMMEMBERCOUNTMAP_B__35_0_OFFSET UNITYSDK_OFFSET(0x199D6E60)
+#define BAIBJGAMDAI___C__GETTEAMMEMBERCOUNTMAP_B__35_1_OFFSET UNITYSDK_OFFSET(0x199D6E80)
 
-inline static constexpr unsigned int BAIBJGAMDAI___c_TypeDefinitionIndex = 63880;
+inline static constexpr unsigned int BAIBJGAMDAI___c_TypeDefinitionIndex = 65322;
 
 	class BAIBJGAMDAI___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66440);
+		}
+
 		static ::System::Func_2<::RPG::Client::ExpeditionBattleTeam*, ::System::UInt32>** StaticGet___9__35_1()
 		{
-			return (::System::Func_2<::RPG::Client::ExpeditionBattleTeam*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64AE0);
+			return (::System::Func_2<::RPG::Client::ExpeditionBattleTeam*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66448);
 		}
 
 		static ::System::Func_2<::RPG::Client::ExpeditionBattleTeam*, ::System::UInt32>** StaticGet___9__35_0()
 		{
-			return (::System::Func_2<::RPG::Client::ExpeditionBattleTeam*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64AE8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64AF0);
+			return (::System::Func_2<::RPG::Client::ExpeditionBattleTeam*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66450);
 		}
 
 		static ::System::Void _cctor()

@@ -7,11 +7,11 @@ class FCOEMCEDLNL;
 class MFHGBPDJJPE;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define MFHGBPDJJPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D12B500)
-#define MFHGBPDJJPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D12B510)
-#define MFHGBPDJJPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D12B4C0)
+#define MFHGBPDJJPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA1860)
+#define MFHGBPDJJPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1BBA1870)
+#define MFHGBPDJJPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1BBA1820)
 
-inline static constexpr unsigned int MFHGBPDJJPE_TypeDefinitionIndex = 22620;
+inline static constexpr unsigned int MFHGBPDJJPE_TypeDefinitionIndex = 23035;
 
 	class MFHGBPDJJPE : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,8 +19,8 @@ inline static constexpr unsigned int MFHGBPDJJPE_TypeDefinitionIndex = 22620;
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
 		::RPG::GameCore::ElationTimeAtmosphereShowNumberType CBFGKOPANAK; // 0x20
 		::RPG::GameCore::ElationTimeAtmosphereType GMPGDEINODK; // 0x24
-		::System::Boolean GNDCCBNILML; // 0x28
-		::System::Boolean FGFILICHKOH; // 0x29
+		::System::Boolean FGFILICHKOH; // 0x28
+		::System::Boolean GNDCCBNILML; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MFHGBPDJJPE_CTOR_OFFSET))(this);

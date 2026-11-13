@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int JJLLMEENHJC___c__DisplayClass8_0_1_TypeDefinitionIndex = 44158;
+inline static constexpr unsigned int JJLLMEENHJC___c__DisplayClass8_0_1_TypeDefinitionIndex = 45233;
 
 	template <typename T>
 	class JJLLMEENHJC___c__DisplayClass8_0_1 : public ::System::Object

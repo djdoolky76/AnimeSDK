@@ -3,10 +3,10 @@
 class PCMMMJCEELO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEDKBOCEPOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB14AF40)
-#define AEDKBOCEPOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB14AF70)
+#define AEDKBOCEPOP_CTOR_OFFSET UNITYSDK_OFFSET(0x182BADC0)
+#define AEDKBOCEPOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182BADF0)
 
-inline static constexpr unsigned int AEDKBOCEPOP_TypeDefinitionIndex = 53215;
+inline static constexpr unsigned int AEDKBOCEPOP_TypeDefinitionIndex = 54377;
 
 	class AEDKBOCEPOP
 	{

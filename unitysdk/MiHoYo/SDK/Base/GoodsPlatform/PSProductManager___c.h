@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC17B40)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC17B80)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__FORCEUPDATEPSPRODUCTSCACHE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1BC17B90)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B453150)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B453190)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__FORCEUPDATEPSPRODUCTSCACHE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1B4531A0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int PSProductManager___c_TypeDefinitionIndex = 8848;
+	inline static constexpr unsigned int PSProductManager___c_TypeDefinitionIndex = 8857;
 
 	class PSProductManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x514D0);
-		}
-
 		static ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>** StaticGet___9__12_0()
 		{
-			return (::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x514D8);
+			return (::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x39530);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Base.GoodsPlatform", "<>c")->GetStaticField(0x39538);
 		}
 
 		static ::System::Void _cctor()

@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define OOKFEOBBJPI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1DD59910)
-#define OOKFEOBBJPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5B340)
-#define OOKFEOBBJPI_KPHCAJNLJBM_OFFSET UNITYSDK_OFFSET(0x1DD5AFF0)
-#define OOKFEOBBJPI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DD5A570)
+#define OOKFEOBBJPI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16F8F0B0)
+#define OOKFEOBBJPI_CTOR_OFFSET UNITYSDK_OFFSET(0x16F90AE0)
+#define OOKFEOBBJPI_KPHCAJNLJBM_OFFSET UNITYSDK_OFFSET(0x16F90790)
+#define OOKFEOBBJPI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16F8FD10)
 
-inline static constexpr unsigned int OOKFEOBBJPI_TypeDefinitionIndex = 6192;
+inline static constexpr unsigned int OOKFEOBBJPI_TypeDefinitionIndex = 6199;
 
 	class OOKFEOBBJPI : public ::System::Object
 	{

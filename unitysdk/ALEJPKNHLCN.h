@@ -8,30 +8,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define ALEJPKNHLCN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1555A790)
-#define ALEJPKNHLCN_DEMJNHFOHLB_OFFSET UNITYSDK_OFFSET(0x1555A5F0)
-#define ALEJPKNHLCN_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x1555A300)
-#define ALEJPKNHLCN_IODAJBGLBNL_OFFSET UNITYSDK_OFFSET(0x1555A3C0)
-#define ALEJPKNHLCN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1555A1C0)
+#define ALEJPKNHLCN_CCTOR_OFFSET UNITYSDK_OFFSET(0x197BEB90)
+#define ALEJPKNHLCN_DEMJNHFOHLB_OFFSET UNITYSDK_OFFSET(0x197BE9F0)
+#define ALEJPKNHLCN_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x197BE700)
+#define ALEJPKNHLCN_IODAJBGLBNL_OFFSET UNITYSDK_OFFSET(0x197BE7C0)
+#define ALEJPKNHLCN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x197BE5C0)
 
-inline static constexpr unsigned int ALEJPKNHLCN_TypeDefinitionIndex = 50046;
+inline static constexpr unsigned int ALEJPKNHLCN_TypeDefinitionIndex = 51094;
 
 	class ALEJPKNHLCN : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>** StaticGet_GJEMIPOHMJF()
-		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x5AF80);
-		}
-
 		static ::System::Collections::Generic::Stack_1<::System::Diagnostics::Stopwatch*>** StaticGet_IMNLIHHEAKE()
 		{
-			return (::System::Collections::Generic::Stack_1<::System::Diagnostics::Stopwatch*>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x5AF88);
+			return (::System::Collections::Generic::Stack_1<::System::Diagnostics::Stopwatch*>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x53010);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>** StaticGet_GJEMIPOHMJF()
+		{
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x53018);
 		}
 
 		static ::System::Collections::Generic::Stack_1<::System::String*>** StaticGet_KPPMDCAFMLG()
 		{
-			return (::System::Collections::Generic::Stack_1<::System::String*>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x5AF90);
+			return (::System::Collections::Generic::Stack_1<::System::String*>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x53020);
 		}
 
 		static ::System::Void _cctor()

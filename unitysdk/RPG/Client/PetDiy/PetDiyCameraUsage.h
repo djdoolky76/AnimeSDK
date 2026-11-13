@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PetDiy
 {
-	inline static constexpr unsigned int PetDiyCameraUsage_TypeDefinitionIndex = 74474;
+	inline static constexpr unsigned int PetDiyCameraUsage_TypeDefinitionIndex = 76622;
 
 	enum class PetDiyCameraUsage : ::System::Int32
 	{

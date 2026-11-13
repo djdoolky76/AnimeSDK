@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideFieldEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOPPGDHPNLN_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB3950)
-#define HOPPGDHPNLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DB3980)
+#define HOPPGDHPNLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2D720)
+#define HOPPGDHPNLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AF2D750)
 
-inline static constexpr unsigned int HOPPGDHPNLN_TypeDefinitionIndex = 55098;
+inline static constexpr unsigned int HOPPGDHPNLN_TypeDefinitionIndex = 56275;
 
 	class HOPPGDHPNLN
 	{

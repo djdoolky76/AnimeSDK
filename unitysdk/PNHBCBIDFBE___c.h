@@ -4,18 +4,18 @@
 class PNHBCBIDFBE;
 namespace System { class Object; }
 
-#define PNHBCBIDFBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF8C3F0)
-#define PNHBCBIDFBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF8C430)
-#define PNHBCBIDFBE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF8C440)
+#define PNHBCBIDFBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202055C0)
+#define PNHBCBIDFBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20205600)
+#define PNHBCBIDFBE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x20205610)
 
-inline static constexpr unsigned int PNHBCBIDFBE___c_TypeDefinitionIndex = 28569;
+inline static constexpr unsigned int PNHBCBIDFBE___c_TypeDefinitionIndex = 29159;
 
 	class PNHBCBIDFBE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42370);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BA30);
 		}
 
 		static ::System::Void _cctor()

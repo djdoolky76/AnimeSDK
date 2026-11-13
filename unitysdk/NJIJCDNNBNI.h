@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MJJIFGINJAJ.h"
 
-inline static constexpr unsigned int NJIJCDNNBNI_TypeDefinitionIndex = 56302;
+inline static constexpr unsigned int NJIJCDNNBNI_TypeDefinitionIndex = 57516;
 
 	struct alignas(4) NJIJCDNNBNI
 	{

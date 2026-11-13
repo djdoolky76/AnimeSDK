@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
+#include "unitysdk/RPG/GameCore/GridFightGamePlayResType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class FCOEMCEDLNL;
@@ -10,47 +11,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FNBEGAJLEIL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CDDE950)
-#define FNBEGAJLEIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDDEF20)
-#define FNBEGAJLEIL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CDDEAC0)
-#define FNBEGAJLEIL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CDDE3C0)
-#define FNBEGAJLEIL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CDDE650)
-#define FNBEGAJLEIL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CDDEB60)
-#define FNBEGAJLEIL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CDDEBB0)
-#define FNBEGAJLEIL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CDDE990)
-#define FNBEGAJLEIL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CDDE5F0)
-#define FNBEGAJLEIL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CDDE7C0)
-#define FNBEGAJLEIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDDEA20)
-#define FNBEGAJLEIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDDE340)
+#define FNBEGAJLEIL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1EA2ECC0)
+#define FNBEGAJLEIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA2F290)
+#define FNBEGAJLEIL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1EA2EE30)
+#define FNBEGAJLEIL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1EA2E730)
+#define FNBEGAJLEIL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1EA2E9C0)
+#define FNBEGAJLEIL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1EA2EED0)
+#define FNBEGAJLEIL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1EA2EF20)
+#define FNBEGAJLEIL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1EA2ED00)
+#define FNBEGAJLEIL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1EA2E960)
+#define FNBEGAJLEIL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1EA2EB30)
+#define FNBEGAJLEIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1EA2ED90)
+#define FNBEGAJLEIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EA2E6B0)
 
-inline static constexpr unsigned int FNBEGAJLEIL_TypeDefinitionIndex = 13458;
+inline static constexpr unsigned int FNBEGAJLEIL_TypeDefinitionIndex = 13534;
 
 	class FNBEGAJLEIL : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGamePlayResConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0x12F70);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGamePlayResConfigRow*>**)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0x9F70);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0x12F78);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0x9F78);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGamePlayResConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGamePlayResConfigRow*>**)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0x12F80);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0x3DE0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0x9F80);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0x3DE1);
+			return (::System::Boolean*)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0xF20);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "FNBEGAJLEIL")->GetStaticField(0xF21);
 		}
 
 		static ::System::Void _cctor()
@@ -73,9 +74,9 @@ inline static constexpr unsigned int FNBEGAJLEIL_TypeDefinitionIndex = 13458;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGamePlayResConfigRow*>(*)())((::PBYTE)hIl2Cpp + FNBEGAJLEIL_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::RPG::GameCore::GridFightGamePlayResConfigRow* LMBKNCAIDLC(::System::UInt32 a1)
+		static ::RPG::GameCore::GridFightGamePlayResConfigRow* LMBKNCAIDLC(::RPG::GameCore::GridFightGamePlayResType a1)
 		{
-			return ((::RPG::GameCore::GridFightGamePlayResConfigRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + FNBEGAJLEIL_LMBKNCAIDLC_OFFSET))(a1);
+			return ((::RPG::GameCore::GridFightGamePlayResConfigRow*(*)(::RPG::GameCore::GridFightGamePlayResType))((::PBYTE)hIl2Cpp + FNBEGAJLEIL_LMBKNCAIDLC_OFFSET))(a1);
 		}
 
 		static ::System::Boolean ANPPJFBBJFP()

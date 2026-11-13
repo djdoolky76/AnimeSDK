@@ -4,10 +4,10 @@
 class KAAMFILLIND;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange; }
 
-#define HIBAJBOCOON_CTOR_OFFSET UNITYSDK_OFFSET(0x1C639100)
-#define HIBAJBOCOON_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C639110)
+#define HIBAJBOCOON_CTOR_OFFSET UNITYSDK_OFFSET(0x1C921900)
+#define HIBAJBOCOON_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C921910)
 
-inline static constexpr unsigned int HIBAJBOCOON_TypeDefinitionIndex = 36218;
+inline static constexpr unsigned int HIBAJBOCOON_TypeDefinitionIndex = 37146;
 
 	class HIBAJBOCOON : public ::PNECKGBKMEL
 	{

@@ -5,25 +5,25 @@ namespace SimpleJSON { class JSONNode; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SIMPLEJSON_JSONARRAY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC28DB0)
-#define SIMPLEJSON_JSONARRAY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC28DF0)
-#define SIMPLEJSON_JSONARRAY___C__CLONE_B__19_0_OFFSET UNITYSDK_OFFSET(0x1EC28E00)
+#define SIMPLEJSON_JSONARRAY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2086A0C0)
+#define SIMPLEJSON_JSONARRAY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2086A100)
+#define SIMPLEJSON_JSONARRAY___C__CLONE_B__19_0_OFFSET UNITYSDK_OFFSET(0x2086A110)
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSONArray___c_TypeDefinitionIndex = 9957;
+	inline static constexpr unsigned int JSONArray___c_TypeDefinitionIndex = 9965;
 
 	class JSONArray___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("SimpleJSON", "<>c")->GetStaticField(0x6D0);
-		}
-
 		static ::System::Func_2<::SimpleJSON::JSONNode*, ::SimpleJSON::JSONNode*>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::SimpleJSON::JSONNode*, ::SimpleJSON::JSONNode*>**)UnitySDK::FromName("SimpleJSON", "<>c")->GetStaticField(0x6D8);
+			return (::System::Func_2<::SimpleJSON::JSONNode*, ::SimpleJSON::JSONNode*>**)UnitySDK::FromName("SimpleJSON", "<>c")->GetStaticField(0x680);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("SimpleJSON", "<>c")->GetStaticField(0x688);
 		}
 
 		static ::System::Void _cctor()

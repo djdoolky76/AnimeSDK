@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGraphType_TypeDefinitionIndex = 18313;
+	inline static constexpr unsigned int LevelGraphType_TypeDefinitionIndex = 18475;
 
 	enum class LevelGraphType : ::System::Int32
 	{

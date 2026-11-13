@@ -7,16 +7,16 @@ namespace RPG::Client::FateRin::Avatar { class IFateRinAvatarViewModel; }
 namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 
-#define PCPLDNFFLMF_CTOR_OFFSET UNITYSDK_OFFSET(0xC003DB0)
-#define PCPLDNFFLMF_OKABKEJCCNN_OFFSET UNITYSDK_OFFSET(0xC003E60)
+#define PCPLDNFFLMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AADBF80)
+#define PCPLDNFFLMF_OKABKEJCCNN_OFFSET UNITYSDK_OFFSET(0x1AADC030)
 
-inline static constexpr unsigned int PCPLDNFFLMF_TypeDefinitionIndex = 81232;
+inline static constexpr unsigned int PCPLDNFFLMF_TypeDefinitionIndex = 84012;
 
 	class PCPLDNFFLMF : public ::System::Object
 	{
 	public:
-		::FEIPLKMMIOI* DEEMJACOGII; // 0x10
-		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x18
+		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x10
+		::FEIPLKMMIOI* DEEMJACOGII; // 0x18
 		::System::Void _ctor(::FEIPLKMMIOI* a1, ::RPG::Client::FateRin::Logging::ILoggerFactory* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::FEIPLKMMIOI*, ::RPG::Client::FateRin::Logging::ILoggerFactory*))((::PBYTE)hIl2Cpp + PCPLDNFFLMF_CTOR_OFFSET))(this, a1, a2);

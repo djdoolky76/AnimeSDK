@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentGotoBlock_IGotoCommand_TypeDefinitionIndex = 63242;
+	inline static constexpr unsigned int MessageContentGotoBlock_IGotoCommand_TypeDefinitionIndex = 64680;
 
 	class MessageContentGotoBlock_IGotoCommand
 	{

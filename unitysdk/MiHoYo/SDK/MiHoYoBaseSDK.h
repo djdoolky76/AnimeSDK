@@ -15,45 +15,45 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class InputField; }
 
-#define MIHOYO_SDK_MIHOYOBASESDK_BASEINSTANCE_OFFSET UNITYSDK_OFFSET(0xAFC0DA0)
-#define MIHOYO_SDK_MIHOYOBASESDK_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFC2B00)
-#define MIHOYO_SDK_MIHOYOBASESDK_CHECKPLATFORM_OFFSET UNITYSDK_OFFSET(0xAFC1BB0)
-#define MIHOYO_SDK_MIHOYOBASESDK_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC2AF0)
-#define MIHOYO_SDK_MIHOYOBASESDK_DESTORY_OFFSET UNITYSDK_OFFSET(0xAFC18D0)
-#define MIHOYO_SDK_MIHOYOBASESDK_DESTROYALLUI_OFFSET UNITYSDK_OFFSET(0xAFC1950)
-#define MIHOYO_SDK_MIHOYOBASESDK_ENABLEAUTOTEST_OFFSET UNITYSDK_OFFSET(0xAFC2050)
-#define MIHOYO_SDK_MIHOYOBASESDK_FETCHDIRECTWATERMARKIMAGEBYTES_OFFSET UNITYSDK_OFFSET(0xAFC1F10)
-#define MIHOYO_SDK_MIHOYOBASESDK_FETCHDIRECTWATERMARKIMAGE_OFFSET UNITYSDK_OFFSET(0xAFC1E90)
-#define MIHOYO_SDK_MIHOYOBASESDK_FINDINIGNOREMODULELIST_OFFSET UNITYSDK_OFFSET(0xAFC28F0)
-#define MIHOYO_SDK_MIHOYOBASESDK_FINDINMOCKFUNCLIST_OFFSET UNITYSDK_OFFSET(0xAFC27F0)
-#define MIHOYO_SDK_MIHOYOBASESDK_GAMECONTROLSEND_OFFSET UNITYSDK_OFFSET(0xAFC1FD0)
-#define MIHOYO_SDK_MIHOYOBASESDK_GET_RUNTIMEFONT_OFFSET UNITYSDK_OFFSET(0xAFC17A0)
-#define MIHOYO_SDK_MIHOYOBASESDK_GET_UITRACKING_OFFSET UNITYSDK_OFFSET(0xAFC17C0)
-#define MIHOYO_SDK_MIHOYOBASESDK_INIT_OFFSET UNITYSDK_OFFSET(0xAFC1850)
-#define MIHOYO_SDK_MIHOYOBASESDK_INVOKERETURN_OFFSET UNITYSDK_OFFSET(0xAFC19D0)
-#define MIHOYO_SDK_MIHOYOBASESDK_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFC1A50)
-#define MIHOYO_SDK_MIHOYOBASESDK_ISCURFUNCAUTOTEST_OFFSET UNITYSDK_OFFSET(0xAFC2700)
-#define MIHOYO_SDK_MIHOYOBASESDK_ISEDITOR_OFFSET UNITYSDK_OFFSET(0xAFC1FC0)
-#define MIHOYO_SDK_MIHOYOBASESDK_ISENABLEDCUSTOMAUTOTEST_OFFSET UNITYSDK_OFFSET(0xAFC26C0)
-#define MIHOYO_SDK_MIHOYOBASESDK_ISEXISTS_OFFSET UNITYSDK_OFFSET(0xAFC1680)
-#define MIHOYO_SDK_MIHOYOBASESDK_ONADDINPUTFIELD_OFFSET UNITYSDK_OFFSET(0xAFC1780)
-#define MIHOYO_SDK_MIHOYOBASESDK_ONDOWNLOADNOTIFICATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xAFC1760)
-#define MIHOYO_SDK_MIHOYOBASESDK_ONGETRESOURCEPATH_OFFSET UNITYSDK_OFFSET(0xAFC1F90)
-#define MIHOYO_SDK_MIHOYOBASESDK_ONINVOKE_OFFSET UNITYSDK_OFFSET(0xAFC1AD0)
-#define MIHOYO_SDK_MIHOYOBASESDK_ONNOTIFICATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xAFC1740)
-#define MIHOYO_SDK_MIHOYOBASESDK_REGISTERINPUTSYSTEM_OFFSET UNITYSDK_OFFSET(0xAFC1240)
-#define MIHOYO_SDK_MIHOYOBASESDK_REPORTACTION_OFFSET UNITYSDK_OFFSET(0xAFC1D10)
-#define MIHOYO_SDK_MIHOYOBASESDK_REQUESTWATERMARKDATA_OFFSET UNITYSDK_OFFSET(0xAFC1E10)
-#define MIHOYO_SDK_MIHOYOBASESDK_REQUESTWATERMARK_OFFSET UNITYSDK_OFFSET(0xAFC1D90)
-#define MIHOYO_SDK_MIHOYOBASESDK_SETCLOUDPLAT_OFFSET UNITYSDK_OFFSET(0xAFC16E0)
-#define MIHOYO_SDK_MIHOYOBASESDK_SETMIHOYOCLOUDPLAT_OFFSET UNITYSDK_OFFSET(0xAFC1710)
-#define MIHOYO_SDK_MIHOYOBASESDK_SET_RUNTIMEFONT_OFFSET UNITYSDK_OFFSET(0xAFC17B0)
-#define MIHOYO_SDK_MIHOYOBASESDK_SET_UITRACKING_OFFSET UNITYSDK_OFFSET(0xAFC17D0)
-#define MIHOYO_SDK_MIHOYOBASESDK_TOCUSTOMAUTOTESTUNIQUEINFO_OFFSET UNITYSDK_OFFSET(0xAFC21D0)
+#define MIHOYO_SDK_MIHOYOBASESDK_BASEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1E2F52A0)
+#define MIHOYO_SDK_MIHOYOBASESDK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2F6EA0)
+#define MIHOYO_SDK_MIHOYOBASESDK_CHECKPLATFORM_OFFSET UNITYSDK_OFFSET(0x1E2F5F30)
+#define MIHOYO_SDK_MIHOYOBASESDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F6E90)
+#define MIHOYO_SDK_MIHOYOBASESDK_DESTORY_OFFSET UNITYSDK_OFFSET(0x1E2F5C50)
+#define MIHOYO_SDK_MIHOYOBASESDK_DESTROYALLUI_OFFSET UNITYSDK_OFFSET(0x1E2F5CD0)
+#define MIHOYO_SDK_MIHOYOBASESDK_ENABLEAUTOTEST_OFFSET UNITYSDK_OFFSET(0x1E2F63D0)
+#define MIHOYO_SDK_MIHOYOBASESDK_FETCHDIRECTWATERMARKIMAGEBYTES_OFFSET UNITYSDK_OFFSET(0x1E2F6290)
+#define MIHOYO_SDK_MIHOYOBASESDK_FETCHDIRECTWATERMARKIMAGE_OFFSET UNITYSDK_OFFSET(0x1E2F6210)
+#define MIHOYO_SDK_MIHOYOBASESDK_FINDINIGNOREMODULELIST_OFFSET UNITYSDK_OFFSET(0x1E2F6C70)
+#define MIHOYO_SDK_MIHOYOBASESDK_FINDINMOCKFUNCLIST_OFFSET UNITYSDK_OFFSET(0x1E2F6B70)
+#define MIHOYO_SDK_MIHOYOBASESDK_GAMECONTROLSEND_OFFSET UNITYSDK_OFFSET(0x1E2F6350)
+#define MIHOYO_SDK_MIHOYOBASESDK_GET_RUNTIMEFONT_OFFSET UNITYSDK_OFFSET(0x1E2F5B20)
+#define MIHOYO_SDK_MIHOYOBASESDK_GET_UITRACKING_OFFSET UNITYSDK_OFFSET(0x1E2F5B40)
+#define MIHOYO_SDK_MIHOYOBASESDK_INIT_OFFSET UNITYSDK_OFFSET(0x1E2F5BD0)
+#define MIHOYO_SDK_MIHOYOBASESDK_INVOKERETURN_OFFSET UNITYSDK_OFFSET(0x1E2F5D50)
+#define MIHOYO_SDK_MIHOYOBASESDK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E2F5DD0)
+#define MIHOYO_SDK_MIHOYOBASESDK_ISCURFUNCAUTOTEST_OFFSET UNITYSDK_OFFSET(0x1E2F6A80)
+#define MIHOYO_SDK_MIHOYOBASESDK_ISEDITOR_OFFSET UNITYSDK_OFFSET(0x1E2F6340)
+#define MIHOYO_SDK_MIHOYOBASESDK_ISENABLEDCUSTOMAUTOTEST_OFFSET UNITYSDK_OFFSET(0x1E2F6A40)
+#define MIHOYO_SDK_MIHOYOBASESDK_ISEXISTS_OFFSET UNITYSDK_OFFSET(0x1E2F5A00)
+#define MIHOYO_SDK_MIHOYOBASESDK_ONADDINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x1E2F5B00)
+#define MIHOYO_SDK_MIHOYOBASESDK_ONDOWNLOADNOTIFICATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E2F5AE0)
+#define MIHOYO_SDK_MIHOYOBASESDK_ONGETRESOURCEPATH_OFFSET UNITYSDK_OFFSET(0x1E2F6310)
+#define MIHOYO_SDK_MIHOYOBASESDK_ONINVOKE_OFFSET UNITYSDK_OFFSET(0x1E2F5E50)
+#define MIHOYO_SDK_MIHOYOBASESDK_ONNOTIFICATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E2F5AC0)
+#define MIHOYO_SDK_MIHOYOBASESDK_REGISTERINPUTSYSTEM_OFFSET UNITYSDK_OFFSET(0x1E2F5740)
+#define MIHOYO_SDK_MIHOYOBASESDK_REPORTACTION_OFFSET UNITYSDK_OFFSET(0x1E2F6090)
+#define MIHOYO_SDK_MIHOYOBASESDK_REQUESTWATERMARKDATA_OFFSET UNITYSDK_OFFSET(0x1E2F6190)
+#define MIHOYO_SDK_MIHOYOBASESDK_REQUESTWATERMARK_OFFSET UNITYSDK_OFFSET(0x1E2F6110)
+#define MIHOYO_SDK_MIHOYOBASESDK_SETCLOUDPLAT_OFFSET UNITYSDK_OFFSET(0x1E2F5A60)
+#define MIHOYO_SDK_MIHOYOBASESDK_SETMIHOYOCLOUDPLAT_OFFSET UNITYSDK_OFFSET(0x1E2F5A90)
+#define MIHOYO_SDK_MIHOYOBASESDK_SET_RUNTIMEFONT_OFFSET UNITYSDK_OFFSET(0x1E2F5B30)
+#define MIHOYO_SDK_MIHOYOBASESDK_SET_UITRACKING_OFFSET UNITYSDK_OFFSET(0x1E2F5B50)
+#define MIHOYO_SDK_MIHOYOBASESDK_TOCUSTOMAUTOTESTUNIQUEINFO_OFFSET UNITYSDK_OFFSET(0x1E2F6550)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoBaseSDK_TypeDefinitionIndex = 46259;
+	inline static constexpr unsigned int MiHoYoBaseSDK_TypeDefinitionIndex = 47288;
 
 	class MiHoYoBaseSDK : public ::UnityEngine::MonoBehaviour
 	{
@@ -65,69 +65,69 @@ namespace MiHoYo::SDK
 		::System::Boolean m_bEnableUITracking; // 0x31
 		::System::Byte _padding0[0x6];
 		::MiHoYo::SDK::MiHoYoBaseSDK_CustomAutoTestUniqueInfo* m_customeAutoTestInfo; // 0x38
-		static ::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>** StaticGet_OnGyroEvent()
+		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet_OnGameControlReceive()
 		{
-			return (::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ECD0);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate** StaticGet_LoadResource()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ECD8);
-		}
-
-		static ::MiHoYo::SDK::MiHoYoSDK** StaticGet__baseInstance()
-		{
-			return (::MiHoYo::SDK::MiHoYoSDK**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ECE0);
-		}
-
-		static ::System::Action_1<::CloudGame::MailBox::GameControl::Gyroscope>** StaticGet_OnGyroscope()
-		{
-			return (::System::Action_1<::CloudGame::MailBox::GameControl::Gyroscope>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ECE8);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180A0);
 		}
 
 		static ::System::String** StaticGet_resourcePath()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ECF0);
-		}
-
-		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet_OnGameControlReceive()
-		{
-			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ECF8);
-		}
-
-		static ::System::Action_1<::System::String*>** StaticGet_OnInvokeReturnEnd()
-		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ED00);
-		}
-
-		static ::MiHoYo::SDK::MiHoYoBaseSDK_LoadAsbDelegate** StaticGet_LoadAsb()
-		{
-			return (::MiHoYo::SDK::MiHoYoBaseSDK_LoadAsbDelegate**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ED08);
-		}
-
-		static ::System::Action_1<::System::String*>** StaticGet_OnInvokeReturnStart()
-		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ED10);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180A8);
 		}
 
 		static ::System::String** StaticGet_asbPath()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1ED18);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180B0);
 		}
 
-		static ::System::Boolean* StaticGet_isAllAutoTest()
+		static ::System::Action_1<::CloudGame::MailBox::GameControl::Gyroscope>** StaticGet_OnGyroscope()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x6F60);
+			return (::System::Action_1<::CloudGame::MailBox::GameControl::Gyroscope>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180B8);
 		}
 
-		static ::System::Boolean* StaticGet_isMiHoYoCloudPlat()
+		static ::MiHoYo::SDK::MiHoYoBaseSDK_LoadAsbDelegate** StaticGet_LoadAsb()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x6F61);
+			return (::MiHoYo::SDK::MiHoYoBaseSDK_LoadAsbDelegate**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180C0);
+		}
+
+		static ::System::Action_1<::System::String*>** StaticGet_OnInvokeReturnEnd()
+		{
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180C8);
+		}
+
+		static ::System::Action_1<::System::String*>** StaticGet_OnInvokeReturnStart()
+		{
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180D0);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate** StaticGet_LoadResource()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180D8);
+		}
+
+		static ::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>** StaticGet_OnGyroEvent()
+		{
+			return (::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180E0);
+		}
+
+		static ::MiHoYo::SDK::MiHoYoSDK** StaticGet__baseInstance()
+		{
+			return (::MiHoYo::SDK::MiHoYoSDK**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x180E8);
 		}
 
 		static ::System::Boolean* StaticGet_isCloudPlat()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x6F62);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x5670);
+		}
+
+		static ::System::Boolean* StaticGet_isAllAutoTest()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x5671);
+		}
+
+		static ::System::Boolean* StaticGet_isMiHoYoCloudPlat()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x5672);
 		}
 
 		// static const ::System::String* CanvasName; // 0x0

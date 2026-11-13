@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int EffectConfig_TypeDefinitionIndex = 74136;
+	inline static constexpr unsigned int EffectConfig_TypeDefinitionIndex = 76284;
 
 	struct alignas(8) EffectConfig
 	{

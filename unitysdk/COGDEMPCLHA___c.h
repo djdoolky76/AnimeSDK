@@ -4,18 +4,18 @@
 class COGDEMPCLHA;
 namespace System { class Object; }
 
-#define COGDEMPCLHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1061A0)
-#define COGDEMPCLHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1061E0)
-#define COGDEMPCLHA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1061F0)
+#define COGDEMPCLHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204DC050)
+#define COGDEMPCLHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204DC090)
+#define COGDEMPCLHA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x204DC0A0)
 
-inline static constexpr unsigned int COGDEMPCLHA___c_TypeDefinitionIndex = 29487;
+inline static constexpr unsigned int COGDEMPCLHA___c_TypeDefinitionIndex = 30217;
 
 	class COGDEMPCLHA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E3D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17940);
 		}
 
 		static ::System::Void _cctor()

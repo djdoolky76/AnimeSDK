@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int IModel_TypeDefinitionIndex = 76368;
+	inline static constexpr unsigned int IModel_TypeDefinitionIndex = 78699;
 
 	class IModel
 	{

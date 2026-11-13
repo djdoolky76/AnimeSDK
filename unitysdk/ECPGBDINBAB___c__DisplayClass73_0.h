@@ -5,16 +5,16 @@ class ECPGBDINBAB;
 class PJPAOLMBKEC;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define ECPGBDINBAB___C__DISPLAYCLASS73_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13306AA0)
-#define ECPGBDINBAB___C__DISPLAYCLASS73_0__SYNCOVERRIDEGRIDS_B__0_OFFSET UNITYSDK_OFFSET(0x13308160)
+#define ECPGBDINBAB___C__DISPLAYCLASS73_0_CTOR_OFFSET UNITYSDK_OFFSET(0x186AE8A0)
+#define ECPGBDINBAB___C__DISPLAYCLASS73_0__SYNCOVERRIDEGRIDS_B__0_OFFSET UNITYSDK_OFFSET(0x186AFF60)
 
-inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass73_0_TypeDefinitionIndex = 78014;
+inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass73_0_TypeDefinitionIndex = 80749;
 
 	class ECPGBDINBAB___c__DisplayClass73_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::PJPAOLMBKEC*>* overrideGrids; // 0x10
-		::ECPGBDINBAB* __4__this; // 0x18
+		::ECPGBDINBAB* __4__this; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::PJPAOLMBKEC*>* overrideGrids; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ECPGBDINBAB___C__DISPLAYCLASS73_0_CTOR_OFFSET))(this);

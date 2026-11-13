@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMPREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B893980)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMPREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B893920)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMPREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3AB630)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMPREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F3AB5D0)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int TimestampReflection_TypeDefinitionIndex = 5438;
+	inline static constexpr unsigned int TimestampReflection_TypeDefinitionIndex = 5443;
 
 	class TimestampReflection : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "TimestampReflection")->GetStaticField(0x25860);
+			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "TimestampReflection")->GetStaticField(0x288A0);
 		}
 
 		static ::System::Void _cctor()

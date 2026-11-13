@@ -4,10 +4,10 @@
 class KNHCNPDALBB;
 class PJPPGJEDCOG;
 
-#define BAPFAMNOEGE___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E73B80)
-#define BAPFAMNOEGE___C__DISPLAYCLASS68_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x15E73F90)
+#define BAPFAMNOEGE___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0x199EBC60)
+#define BAPFAMNOEGE___C__DISPLAYCLASS68_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x199EC070)
 
-inline static constexpr unsigned int BAPFAMNOEGE___c__DisplayClass68_0_TypeDefinitionIndex = 79543;
+inline static constexpr unsigned int BAPFAMNOEGE___c__DisplayClass68_0_TypeDefinitionIndex = 82320;
 
 	class BAPFAMNOEGE___c__DisplayClass68_0 : public ::System::Object
 	{

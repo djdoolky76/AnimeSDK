@@ -17,39 +17,39 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_BNDKOEBPIMD_OFFSET UNITYSDK_OFFSET(0xC7CF2B0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7D6BA0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xC7D1950)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xC7D6B50)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_DGOEJIFHDAM_OFFSET UNITYSDK_OFFSET(0xC7D4990)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_EEEIBPHBFIJ_OFFSET UNITYSDK_OFFSET(0xC7D0BB0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_EFKAILBFHCK_OFFSET UNITYSDK_OFFSET(0xC7D55E0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC7D4930)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0xC7D4920)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xC7CF230)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET__CSCULLINGKERNELID_OFFSET UNITYSDK_OFFSET(0xC7D5530)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET__INSTANCEDATABUFFER_OFFSET UNITYSDK_OFFSET(0xC7D5480)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GGDJFKABHKA_OFFSET UNITYSDK_OFFSET(0xC7D1B90)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_HIDAALFMDKH_OFFSET UNITYSDK_OFFSET(0xC7CFF30)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_HLPJGOKDIBN_OFFSET UNITYSDK_OFFSET(0xC7D1450)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xC7D1990)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC7CF010)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_LNHONNLJNPD_OFFSET UNITYSDK_OFFSET(0xC7D1900)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_MBAAHHDMMOF_OFFSET UNITYSDK_OFFSET(0xC7D5590)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xC7D1170)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_MFPLOPBPAHL_OFFSET UNITYSDK_OFFSET(0xC7D1EB0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xC7D1A70)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_NJBIPPEOFJI_OFFSET UNITYSDK_OFFSET(0xC7D1600)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xC7D19E0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xC7CF080)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_PLKHFLLDMFG_OFFSET UNITYSDK_OFFSET(0xC7D68E0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xC7D1A30)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xC7D1AB0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR___DRAWMESHES_G___GETMPB_22_0_OFFSET UNITYSDK_OFFSET(0xC7D6860)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_BNDKOEBPIMD_OFFSET UNITYSDK_OFFSET(0x1AFE2C80)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFEA440)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0x1AFE51F0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFEA3F0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_DGOEJIFHDAM_OFFSET UNITYSDK_OFFSET(0x1AFE8230)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_EEEIBPHBFIJ_OFFSET UNITYSDK_OFFSET(0x1AFE4580)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_EFKAILBFHCK_OFFSET UNITYSDK_OFFSET(0x1AFE8E80)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AFE81D0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1AFE81C0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x1AFE2C00)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET__CSCULLINGKERNELID_OFFSET UNITYSDK_OFFSET(0x1AFE8DD0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET__INSTANCEDATABUFFER_OFFSET UNITYSDK_OFFSET(0x1AFE8D20)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GGDJFKABHKA_OFFSET UNITYSDK_OFFSET(0x1AFE5430)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_HIDAALFMDKH_OFFSET UNITYSDK_OFFSET(0x1AFE3900)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_HLPJGOKDIBN_OFFSET UNITYSDK_OFFSET(0x1AFE4DD0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0x1AFE5230)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1AFE29E0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_LNHONNLJNPD_OFFSET UNITYSDK_OFFSET(0x1AFE51A0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_MBAAHHDMMOF_OFFSET UNITYSDK_OFFSET(0x1AFE8E30)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x1AFE4B40)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_MFPLOPBPAHL_OFFSET UNITYSDK_OFFSET(0x1AFE5750)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0x1AFE5310)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_NJBIPPEOFJI_OFFSET UNITYSDK_OFFSET(0x1AFE4F20)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0x1AFE5280)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x1AFE2A50)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_PLKHFLLDMFG_OFFSET UNITYSDK_OFFSET(0x1AFEA180)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0x1AFE52D0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x1AFE5350)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR___DRAWMESHES_G___GETMPB_22_0_OFFSET UNITYSDK_OFFSET(0x1AFEA100)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATRendererBehavior_TypeDefinitionIndex = 73673;
+	inline static constexpr unsigned int BATRendererBehavior_TypeDefinitionIndex = 75796;
 
 	class BATRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -80,104 +80,104 @@ namespace RPG::Client::BAT
 		::System::Boolean _Visible; // 0xE4
 		::System::Boolean _Culling; // 0xE5
 		::System::Boolean _CullingWithHiz; // 0xE6
-		static ::System::Int32* StaticGet__InstanceDataIndexTextureTexelSizeShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x138F0);
-		}
-
-		static ::System::Int32* StaticGet__ArgsTotalCountBufferShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x138F4);
-		}
-
-		static ::System::Int32* StaticGet__IsLinearDepthShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x138F8);
-		}
-
-		static ::System::Int32* StaticGet__InstanceDataIndexBufferShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x138FC);
-		}
-
-		static ::System::Int32* StaticGet__InstanceDataIndexTextureShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13900);
-		}
-
 		static ::System::Int32* StaticGet__NumberOfBonesShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13904);
-		}
-
-		static ::System::Int32* StaticGet__InstanceDataBufferShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13908);
-		}
-
-		static ::System::Int32* StaticGet__FrameIndexShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x1390C);
-		}
-
-		static ::System::Int32* StaticGet__InstanceDataTextureShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13910);
-		}
-
-		static ::System::Int32* StaticGet__TotalCountShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13914);
-		}
-
-		static ::System::Int32* StaticGet__InstanceCountsBufferShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13918);
-		}
-
-		static ::System::Int32* StaticGet__CullingDataBufferShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x1391C);
-		}
-
-		static ::System::Int32* StaticGet__AnimationTextureShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13920);
-		}
-
-		static ::System::Int32* StaticGet__ArgsBufferShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13924);
-		}
-
-		static ::System::Int32* StaticGet__VertexCountShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13928);
-		}
-
-		static ::System::Int32* StaticGet__ArgsCountsBufferShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x1392C);
-		}
-
-		static ::System::Int32* StaticGet__InstanceDataTextureTexelSizeShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13930);
-		}
-
-		static ::System::Int32* StaticGet__FrustumPlaneParamsShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13934);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F70);
 		}
 
 		static ::System::Int32* StaticGet__BoneIndicesWeightsTextureShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13938);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F74);
+		}
+
+		static ::System::Int32* StaticGet__ArgsTotalCountBufferShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F78);
+		}
+
+		static ::System::Int32* StaticGet__InstanceDataTextureShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F7C);
+		}
+
+		static ::System::Int32* StaticGet__InstanceDataIndexTextureShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F80);
+		}
+
+		static ::System::Int32* StaticGet__FrameIndexShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F84);
+		}
+
+		static ::System::Int32* StaticGet__InstanceDataIndexTextureTexelSizeShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F88);
+		}
+
+		static ::System::Int32* StaticGet__InstanceCountsBufferShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F8C);
+		}
+
+		static ::System::Int32* StaticGet__ArgsCountsBufferShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F90);
+		}
+
+		static ::System::Int32* StaticGet__InstanceDataTextureTexelSizeShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F94);
+		}
+
+		static ::System::Int32* StaticGet__IsLinearDepthShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F98);
+		}
+
+		static ::System::Int32* StaticGet__FrustumPlaneParamsShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13F9C);
+		}
+
+		static ::System::Int32* StaticGet__TotalCountShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13FA0);
+		}
+
+		static ::System::Int32* StaticGet__ArgsBufferShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13FA4);
+		}
+
+		static ::System::Int32* StaticGet__InstanceDataBufferShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13FA8);
+		}
+
+		static ::System::Int32* StaticGet__InstanceDataIndexBufferShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13FAC);
+		}
+
+		static ::System::Int32* StaticGet__AnimationTextureShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13FB0);
+		}
+
+		static ::System::Int32* StaticGet__VertexCountShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13FB4);
+		}
+
+		static ::System::Int32* StaticGet__CullingDataBufferShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13FB8);
 		}
 
 		static ::System::Int32* StaticGet__PrototypeCountShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x1393C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.BAT", "BATRendererBehavior")->GetStaticField(0x13FBC);
 		}
 
 		// static const ::System::String* _BATRendererComputeShaderPath; // 0x0

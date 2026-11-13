@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_OutPutPortType_TypeDefinitionIndex = 46215;
+	inline static constexpr unsigned int MHYSDKC_OutPutPortType_TypeDefinitionIndex = 47244;
 
 	class MHYSDKC_OutPutPortType : public ::System::Object
 	{

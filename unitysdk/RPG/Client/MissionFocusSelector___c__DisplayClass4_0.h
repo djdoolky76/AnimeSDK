@@ -4,12 +4,12 @@
 namespace RPG::Client { class MainMissionData; }
 namespace RPG::Client { class MissionFocusSelector_MissionMatchPredicate; }
 
-#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6D00E0)
-#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C__DISPLAYCLASS4_0___TRYGETMOSTRELEVANTMAINMISSIONID_B__0_OFFSET UNITYSDK_OFFSET(0xD6D0350)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19670F30)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C__DISPLAYCLASS4_0___TRYGETMOSTRELEVANTMAINMISSIONID_B__0_OFFSET UNITYSDK_OFFSET(0x196711A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionFocusSelector___c__DisplayClass4_0_TypeDefinitionIndex = 66165;
+	inline static constexpr unsigned int MissionFocusSelector___c__DisplayClass4_0_TypeDefinitionIndex = 68101;
 
 	class MissionFocusSelector___c__DisplayClass4_0 : public ::System::Object
 	{

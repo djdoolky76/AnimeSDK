@@ -6,29 +6,29 @@ namespace RPG::Client { class ChimeraDuelItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define OFIAIIJCJMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE3ADE0)
-#define OFIAIIJCJMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3AE20)
-#define OFIAIIJCJMP___C___GETCHIMERAPOOLMAXRARITY_B__14_1_OFFSET UNITYSDK_OFFSET(0xBE3AE30)
-#define OFIAIIJCJMP___C___GETITEMPOOLMAXRARITY_B__15_1_OFFSET UNITYSDK_OFFSET(0xBE3AE90)
+#define OFIAIIJCJMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1766A890)
+#define OFIAIIJCJMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1766A8D0)
+#define OFIAIIJCJMP___C___GETCHIMERAPOOLMAXRARITY_B__14_1_OFFSET UNITYSDK_OFFSET(0x1766A8E0)
+#define OFIAIIJCJMP___C___GETITEMPOOLMAXRARITY_B__15_1_OFFSET UNITYSDK_OFFSET(0x1766A940)
 
-inline static constexpr unsigned int OFIAIIJCJMP___c_TypeDefinitionIndex = 63383;
+inline static constexpr unsigned int OFIAIIJCJMP___c_TypeDefinitionIndex = 64821;
 
 	class OFIAIIJCJMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62890);
-		}
-
-		static ::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>** StaticGet___9__15_1()
-		{
-			return (::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62898);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F940);
 		}
 
 		static ::System::Func_2<::RPG::Client::ChimeraDuelChimeraData*, ::System::UInt32>** StaticGet___9__14_1()
 		{
-			return (::System::Func_2<::RPG::Client::ChimeraDuelChimeraData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x628A0);
+			return (::System::Func_2<::RPG::Client::ChimeraDuelChimeraData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F948);
+		}
+
+		static ::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>** StaticGet___9__15_1()
+		{
+			return (::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F950);
 		}
 
 		static ::System::Void _cctor()

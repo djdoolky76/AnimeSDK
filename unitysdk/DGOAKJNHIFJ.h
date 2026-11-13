@@ -8,10 +8,10 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DGOAKJNHIFJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xE84E120)
-#define DGOAKJNHIFJ_MHAHLFKCLKI_OFFSET UNITYSDK_OFFSET(0xF68E0)
+#define DGOAKJNHIFJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADC3090)
+#define DGOAKJNHIFJ_MHAHLFKCLKI_OFFSET UNITYSDK_OFFSET(0x3E6E380)
 
-inline static constexpr unsigned int DGOAKJNHIFJ_TypeDefinitionIndex = 69400;
+inline static constexpr unsigned int DGOAKJNHIFJ_TypeDefinitionIndex = 71354;
 
 	struct alignas(8) DGOAKJNHIFJ
 	{
@@ -26,19 +26,19 @@ inline static constexpr unsigned int DGOAKJNHIFJ_TypeDefinitionIndex = 69400;
 		::RPG::MVector3 BBFOLEOPPPL; // 0x40
 		::RPG::MVector3 NMELCPIOKNO; // 0x4C
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* GBPHKOAFCNE; // 0x58
-		static ::Il2CppArray<::MEEPKFKOAHA>** StaticGet_HKHKOPBHOBF()
+		static ::Il2CppArray<::MEEPKFKOAHA>** StaticGet_KDHKBFENLDH()
 		{
-			return (::Il2CppArray<::MEEPKFKOAHA>**)UnitySDK::FromName("", "DGOAKJNHIFJ")->GetStaticField(0x63F30);
+			return (::Il2CppArray<::MEEPKFKOAHA>**)UnitySDK::FromName("", "DGOAKJNHIFJ")->GetStaticField(0x66360);
 		}
 
 		static ::Il2CppArray<::MEEPKFKOAHA>** StaticGet_JJGGODNBFKK()
 		{
-			return (::Il2CppArray<::MEEPKFKOAHA>**)UnitySDK::FromName("", "DGOAKJNHIFJ")->GetStaticField(0x63F38);
+			return (::Il2CppArray<::MEEPKFKOAHA>**)UnitySDK::FromName("", "DGOAKJNHIFJ")->GetStaticField(0x66368);
 		}
 
-		static ::Il2CppArray<::MEEPKFKOAHA>** StaticGet_KDHKBFENLDH()
+		static ::Il2CppArray<::MEEPKFKOAHA>** StaticGet_HKHKOPBHOBF()
 		{
-			return (::Il2CppArray<::MEEPKFKOAHA>**)UnitySDK::FromName("", "DGOAKJNHIFJ")->GetStaticField(0x63F40);
+			return (::Il2CppArray<::MEEPKFKOAHA>**)UnitySDK::FromName("", "DGOAKJNHIFJ")->GetStaticField(0x66370);
 		}
 
 		static ::System::Void _cctor()

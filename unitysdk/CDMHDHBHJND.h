@@ -3,10 +3,10 @@
 class PMFOAOOBHAL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CDMHDHBHJND_CTOR_OFFSET UNITYSDK_OFFSET(0xC76A630)
-#define CDMHDHBHJND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC76A660)
+#define CDMHDHBHJND_CTOR_OFFSET UNITYSDK_OFFSET(0x173B6620)
+#define CDMHDHBHJND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173B6650)
 
-inline static constexpr unsigned int CDMHDHBHJND_TypeDefinitionIndex = 58809;
+inline static constexpr unsigned int CDMHDHBHJND_TypeDefinitionIndex = 60077;
 
 	class CDMHDHBHJND
 	{

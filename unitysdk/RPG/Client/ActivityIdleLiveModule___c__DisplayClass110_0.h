@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS110_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC51CA10)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS110_0___INITFINALACTDICT_B__0_OFFSET UNITYSDK_OFFSET(0xC524580)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS110_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BCE70)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS110_0___INITFINALACTDICT_B__0_OFFSET UNITYSDK_OFFSET(0x1D3C47B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass110_0_TypeDefinitionIndex = 61539;
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass110_0_TypeDefinitionIndex = 62936;
 
 	class ActivityIdleLiveModule___c__DisplayClass110_0 : public ::System::Object
 	{

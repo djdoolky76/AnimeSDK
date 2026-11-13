@@ -5,23 +5,23 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BPLGOIIIKOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC1A9280)
-#define BPLGOIIIKOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A92C0)
-#define BPLGOIIIKOH___C__UPDATEROLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xC1A92D0)
+#define BPLGOIIIKOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6079B0)
+#define BPLGOIIIKOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6079F0)
+#define BPLGOIIIKOH___C__UPDATEROLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B607A00)
 
-inline static constexpr unsigned int BPLGOIIIKOH___c_TypeDefinitionIndex = 64957;
+inline static constexpr unsigned int BPLGOIIIKOH___c_TypeDefinitionIndex = 66564;
 
 	class BPLGOIIIKOH___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBDA0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBDA8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70510);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70518);
 		}
 
 		static ::System::Void _cctor()

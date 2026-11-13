@@ -6,11 +6,11 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElationCharacterUIConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define AFGOLNPFJIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC86D80)
-#define AFGOLNPFJIF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CC86D90)
-#define AFGOLNPFJIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC86D50)
+#define AFGOLNPFJIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0259F0)
+#define AFGOLNPFJIF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E025A00)
+#define AFGOLNPFJIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0259C0)
 
-inline static constexpr unsigned int AFGOLNPFJIF_TypeDefinitionIndex = 23171;
+inline static constexpr unsigned int AFGOLNPFJIF_TypeDefinitionIndex = 23602;
 
 	class AFGOLNPFJIF : public ::RPG::GameCore::TaskConfig
 	{

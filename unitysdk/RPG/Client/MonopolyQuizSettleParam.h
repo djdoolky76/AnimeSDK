@@ -4,18 +4,18 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYQUIZSETTLEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD8A3720)
+#define RPG_CLIENT_MONOPOLYQUIZSETTLEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F6D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyQuizSettleParam_TypeDefinitionIndex = 66275;
+	inline static constexpr unsigned int MonopolyQuizSettleParam_TypeDefinitionIndex = 68211;
 
 	class MonopolyQuizSettleParam : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* PlayerIDs; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* ExtraItemDisplayDatas; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* ItemDisplayDatas; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* ItemDisplayDatas; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* ExtraItemDisplayDatas; // 0x20
 		::System::UInt32 QuizID; // 0x28
 		::System::Void _ctor()
 		{

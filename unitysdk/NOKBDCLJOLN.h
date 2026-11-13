@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int NOKBDCLJOLN_TypeDefinitionIndex = 78149;
+inline static constexpr unsigned int NOKBDCLJOLN_TypeDefinitionIndex = 80884;
 
 	class NOKBDCLJOLN : public ::System::Object
 	{

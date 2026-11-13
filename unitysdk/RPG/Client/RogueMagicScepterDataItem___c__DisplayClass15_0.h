@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueMagicUnitDataItem; }
 
-#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF27B30)
-#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__FINDHAVINGUNITBYUNITID_B__0_OFFSET UNITYSDK_OFFSET(0xDF28950)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1D9F0)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__FINDHAVINGUNITBYUNITID_B__0_OFFSET UNITYSDK_OFFSET(0x1CC1E810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicScepterDataItem___c__DisplayClass15_0_TypeDefinitionIndex = 67424;
+	inline static constexpr unsigned int RogueMagicScepterDataItem___c__DisplayClass15_0_TypeDefinitionIndex = 69368;
 
 	class RogueMagicScepterDataItem___c__DisplayClass15_0 : public ::System::Object
 	{

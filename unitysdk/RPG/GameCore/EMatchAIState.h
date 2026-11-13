@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EMatchAIState_TypeDefinitionIndex = 58420;
+	inline static constexpr unsigned int EMatchAIState_TypeDefinitionIndex = 59676;
 
 	enum class EMatchAIState : ::System::Int32
 	{

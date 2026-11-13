@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class HBIAKFCLCIG;
 
-#define INFGDNHDOLB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164DD740)
-#define INFGDNHDOLB___C__DISPLAYCLASS1_0___GETCOMPAREGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x164DD9F0)
+#define INFGDNHDOLB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5EB650)
+#define INFGDNHDOLB___C__DISPLAYCLASS1_0___GETCOMPAREGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x1A5EB900)
 
-inline static constexpr unsigned int INFGDNHDOLB___c__DisplayClass1_0_TypeDefinitionIndex = 64925;
+inline static constexpr unsigned int INFGDNHDOLB___c__DisplayClass1_0_TypeDefinitionIndex = 66496;
 
 	class INFGDNHDOLB___c__DisplayClass1_0 : public ::System::Object
 	{

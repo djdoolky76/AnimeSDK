@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerModelShake; }
 
-#define IGOPMGPDILB_CTOR_OFFSET UNITYSDK_OFFSET(0x16409340)
-#define IGOPMGPDILB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16409370)
+#define IGOPMGPDILB_CTOR_OFFSET UNITYSDK_OFFSET(0x19F66BE0)
+#define IGOPMGPDILB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F66C10)
 
-inline static constexpr unsigned int IGOPMGPDILB_TypeDefinitionIndex = 55745;
+inline static constexpr unsigned int IGOPMGPDILB_TypeDefinitionIndex = 56947;
 
 	class IGOPMGPDILB
 	{

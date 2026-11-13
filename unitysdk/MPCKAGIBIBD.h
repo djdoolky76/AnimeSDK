@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IAJLELNJPEA.h"
 
-#define MPCKAGIBIBD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA33A90)
-#define MPCKAGIBIBD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xBA339D0)
+#define MPCKAGIBIBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B220DD0)
+#define MPCKAGIBIBD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1B220D10)
 
-inline static constexpr unsigned int MPCKAGIBIBD_TypeDefinitionIndex = 74841;
+inline static constexpr unsigned int MPCKAGIBIBD_TypeDefinitionIndex = 77168;
 
 	class MPCKAGIBIBD : public ::IAJLELNJPEA
 	{

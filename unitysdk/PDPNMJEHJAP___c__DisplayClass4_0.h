@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define PDPNMJEHJAP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC01C180)
-#define PDPNMJEHJAP___C__DISPLAYCLASS4_0___SHOWCHESSROGUENEWLEVELDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xC01C290)
+#define PDPNMJEHJAP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF4670)
+#define PDPNMJEHJAP___C__DISPLAYCLASS4_0___SHOWCHESSROGUENEWLEVELDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1AAF4780)
 
-inline static constexpr unsigned int PDPNMJEHJAP___c__DisplayClass4_0_TypeDefinitionIndex = 66965;
+inline static constexpr unsigned int PDPNMJEHJAP___c__DisplayClass4_0_TypeDefinitionIndex = 68909;
 
 	class PDPNMJEHJAP___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleWheelSelectConfigRow; }
 
-#define RPG_GAMECORE_LITTLEWHEELSELECTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BC090)
-#define RPG_GAMECORE_LITTLEWHEELSELECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7BB840)
+#define RPG_GAMECORE_LITTLEWHEELSELECTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F06E670)
+#define RPG_GAMECORE_LITTLEWHEELSELECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F06DE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleWheelSelectConfigRow_TypeDefinitionIndex = 13323;
+	inline static constexpr unsigned int LittleWheelSelectConfigRow_TypeDefinitionIndex = 13395;
 
 	class LittleWheelSelectConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* Left1; // 0x10
-		::Il2CppArray<::System::UInt32>* Left2; // 0x18
-		::Il2CppArray<::System::UInt32>* Left3; // 0x20
-		::Il2CppArray<::System::UInt32>* Right3; // 0x28
-		::Il2CppArray<::System::UInt32>* Left4; // 0x30
-		::Il2CppArray<::System::UInt32>* Right2; // 0x38
-		::Il2CppArray<::System::UInt32>* Right1; // 0x40
+		::Il2CppArray<::System::UInt32>* Right2; // 0x10
+		::Il2CppArray<::System::UInt32>* Left1; // 0x18
+		::Il2CppArray<::System::UInt32>* Left4; // 0x20
+		::Il2CppArray<::System::UInt32>* Left3; // 0x28
+		::Il2CppArray<::System::UInt32>* Right3; // 0x30
+		::Il2CppArray<::System::UInt32>* Right1; // 0x38
+		::Il2CppArray<::System::UInt32>* Left2; // 0x40
 		::Il2CppArray<::System::UInt32>* Right4; // 0x48
 		::RPG::GameCore::GameModeType GameMode; // 0x50
 		::System::Void _ctor()

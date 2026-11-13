@@ -6,22 +6,22 @@ namespace RPG::GameCore { class PropCurveReadMoveRatio; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define INNAJJPEGPM_CTOR_OFFSET UNITYSDK_OFFSET(0x164E9C60)
-#define INNAJJPEGPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164E9C70)
-#define INNAJJPEGPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164E9CC0)
-#define INNAJJPEGPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164EA280)
-#define INNAJJPEGPM_TICK_OFFSET UNITYSDK_OFFSET(0x164E9D90)
+#define INNAJJPEGPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F8000)
+#define INNAJJPEGPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5F8010)
+#define INNAJJPEGPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5F8060)
+#define INNAJJPEGPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A5F8620)
+#define INNAJJPEGPM_TICK_OFFSET UNITYSDK_OFFSET(0x1A5F8130)
 
-inline static constexpr unsigned int INNAJJPEGPM_TypeDefinitionIndex = 58316;
+inline static constexpr unsigned int INNAJJPEGPM_TypeDefinitionIndex = 59572;
 
 	class INNAJJPEGPM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::GameEntity* FFPOIKCEIDI; // 0x20
-		::RPG::GameCore::PropCurveReadMoveRatio* IGHAHBNLIJA; // 0x28
-		::RPG::GameCore::GameEntity* DCOOJFFNBMH; // 0x30
-		::System::String* CHMOJFKDIMF; // 0x38
+		::RPG::GameCore::GameEntity* FFPOIKCEIDI; // 0x18
+		::System::String* CHMOJFKDIMF; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
+		::RPG::GameCore::PropCurveReadMoveRatio* IGHAHBNLIJA; // 0x30
+		::RPG::GameCore::GameEntity* DCOOJFFNBMH; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropCurveReadMoveRatio* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropCurveReadMoveRatio*))((::PBYTE)hIl2Cpp + INNAJJPEGPM_CTOR_OFFSET))(this, a1, a2);

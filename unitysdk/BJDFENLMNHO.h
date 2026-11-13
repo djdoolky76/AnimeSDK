@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareChallengeGroupType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJDFENLMNHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB793B10)
-#define BJDFENLMNHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB793B40)
+#define BJDFENLMNHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD7030)
+#define BJDFENLMNHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BAD7060)
 
-inline static constexpr unsigned int BJDFENLMNHO_TypeDefinitionIndex = 54518;
+inline static constexpr unsigned int BJDFENLMNHO_TypeDefinitionIndex = 55683;
 
 	class BJDFENLMNHO
 	{

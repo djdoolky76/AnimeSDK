@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define FHCFPENPFOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157673A0)
+#define FHCFPENPFOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18A9CCA0)
 
-inline static constexpr unsigned int FHCFPENPFOJ_TypeDefinitionIndex = 55234;
+inline static constexpr unsigned int FHCFPENPFOJ_TypeDefinitionIndex = 56415;
 
 	class FHCFPENPFOJ : public ::System::Object
 	{

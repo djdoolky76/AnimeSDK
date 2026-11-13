@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGMAINPAGEENTRANCEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7A9200)
+#define RPG_CLIENT_B51RACING_B51RACINGMAINPAGEENTRANCEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA69F20)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingMainPageEntranceViewModel_TypeDefinitionIndex = 82035;
+	inline static constexpr unsigned int B51RacingMainPageEntranceViewModel_TypeDefinitionIndex = 84816;
 
 	class B51RacingMainPageEntranceViewModel : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID CycleNameText; // 0x10
-		::System::UInt32 CurrentDay; // 0x20
-		::System::UInt32 CycleID; // 0x24
+		::System::UInt32 CycleID; // 0x20
+		::System::UInt32 CurrentDay; // 0x24
 		::RPG::Client::TextID EntranceHintText; // 0x28
 		::System::Void _ctor()
 		{

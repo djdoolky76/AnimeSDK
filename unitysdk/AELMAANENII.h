@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowBattleEventTips; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AELMAANENII_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFB1E0)
-#define AELMAANENII_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCEFB1F0)
-#define AELMAANENII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCEFB230)
-#define AELMAANENII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCEFB290)
-#define AELMAANENII_TICK_OFFSET UNITYSDK_OFFSET(0xCEFB2E0)
+#define AELMAANENII_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA6860)
+#define AELMAANENII_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DA6870)
+#define AELMAANENII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DA68B0)
+#define AELMAANENII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18DA6910)
+#define AELMAANENII_TICK_OFFSET UNITYSDK_OFFSET(0x18DA6960)
 
-inline static constexpr unsigned int AELMAANENII_TypeDefinitionIndex = 56445;
+inline static constexpr unsigned int AELMAANENII_TypeDefinitionIndex = 57663;
 
 	class AELMAANENII : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowBattleEventTips* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShowBattleEventTips* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowBattleEventTips* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowBattleEventTips*))((::PBYTE)hIl2Cpp + AELMAANENII_CTOR_OFFSET))(this, a1, a2);

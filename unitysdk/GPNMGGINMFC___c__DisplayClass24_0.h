@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class LoopCGConfigRow; }
 namespace System { class String; }
 
-#define GPNMGGINMFC___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B586D0)
-#define GPNMGGINMFC___C__DISPLAYCLASS24_0__GETLOOPCGKEYBYPATH_B__0_OFFSET UNITYSDK_OFFSET(0x15B58B00)
+#define GPNMGGINMFC___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17DC50A0)
+#define GPNMGGINMFC___C__DISPLAYCLASS24_0__GETLOOPCGKEYBYPATH_B__0_OFFSET UNITYSDK_OFFSET(0x17DC5540)
 
-inline static constexpr unsigned int GPNMGGINMFC___c__DisplayClass24_0_TypeDefinitionIndex = 73224;
+inline static constexpr unsigned int GPNMGGINMFC___c__DisplayClass24_0_TypeDefinitionIndex = 75340;
 
 	class GPNMGGINMFC___c__DisplayClass24_0 : public ::System::Object
 	{

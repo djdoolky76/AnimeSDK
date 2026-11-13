@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOCHANNELHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF875E0)
-#define MIHOYO_SDK_HOYOCHANNELHELPER_EXTRACTREQUESTID_OFFSET UNITYSDK_OFFSET(0xAF812C0)
-#define MIHOYO_SDK_HOYOCHANNELHELPER_GENERATEREQUESTID_OFFSET UNITYSDK_OFFSET(0xAF810B0)
+#define MIHOYO_SDK_HOYOCHANNELHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB29570)
+#define MIHOYO_SDK_HOYOCHANNELHELPER_EXTRACTREQUESTID_OFFSET UNITYSDK_OFFSET(0x1AB23230)
+#define MIHOYO_SDK_HOYOCHANNELHELPER_GENERATEREQUESTID_OFFSET UNITYSDK_OFFSET(0x1AB23020)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelHelper_TypeDefinitionIndex = 46521;
+	inline static constexpr unsigned int HoYoChannelHelper_TypeDefinitionIndex = 47549;
 
 	class HoYoChannelHelper : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_s_requestIdLock()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelHelper")->GetStaticField(0x228C0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelHelper")->GetStaticField(0x1A670);
 		}
 
 		static ::System::Int64* StaticGet_s_requestIdCounter()
 		{
-			return (::System::Int64*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelHelper")->GetStaticField(0x7830);
+			return (::System::Int64*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelHelper")->GetStaticField(0x5DF0);
 		}
 
 		static ::System::Void _cctor()

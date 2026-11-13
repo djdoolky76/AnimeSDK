@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareScepterMainUnitEffectTag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFGAFLCIOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C6C790)
-#define HFGAFLCIOGJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C6C7C0)
+#define HFGAFLCIOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2260A0)
+#define HFGAFLCIOGJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A2260D0)
 
-inline static constexpr unsigned int HFGAFLCIOGJ_TypeDefinitionIndex = 54890;
+inline static constexpr unsigned int HFGAFLCIOGJ_TypeDefinitionIndex = 56061;
 
 	class HFGAFLCIOGJ
 	{

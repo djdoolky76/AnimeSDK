@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CKHDHADBMCF_IdleLiveBattleState_TypeDefinitionIndex = 75278;
+inline static constexpr unsigned int CKHDHADBMCF_IdleLiveBattleState_TypeDefinitionIndex = 77605;
 
 	enum class CKHDHADBMCF_IdleLiveBattleState : ::System::Int32
 	{

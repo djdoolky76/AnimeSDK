@@ -12,39 +12,39 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MDBJAAAEJDA_CCTOR_OFFSET UNITYSDK_OFFSET(0xB896130)
-#define MDBJAAAEJDA_CNMFKACONIP_OFFSET UNITYSDK_OFFSET(0xB894CC0)
-#define MDBJAAAEJDA_FPOHLMBPOIA_OFFSET UNITYSDK_OFFSET(0xB895320)
-#define MDBJAAAEJDA_GNDFGJBIMLG_OFFSET UNITYSDK_OFFSET(0xB896090)
-#define MDBJAAAEJDA_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xB8949C0)
-#define MDBJAAAEJDA_HJDNLDJEECI_OFFSET UNITYSDK_OFFSET(0xB895D10)
-#define MDBJAAAEJDA_KOPAOPHKFPM_OFFSET UNITYSDK_OFFSET(0xB895B60)
-#define MDBJAAAEJDA_LBGIEFCNMNH_OFFSET UNITYSDK_OFFSET(0xB895650)
-#define MDBJAAAEJDA_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0xB895510)
-#define MDBJAAAEJDA_MJPBGAONBPJ_OFFSET UNITYSDK_OFFSET(0xB895E90)
-#define MDBJAAAEJDA_NELKDODDOOH_OFFSET UNITYSDK_OFFSET(0xB895120)
-#define MDBJAAAEJDA_NJAJKFDIGBG_OFFSET UNITYSDK_OFFSET(0xB8959A0)
-#define MDBJAAAEJDA_OLGEBOGLFBH_OFFSET UNITYSDK_OFFSET(0xB895F10)
-#define MDBJAAAEJDA_OPKIILEJGNN_OFFSET UNITYSDK_OFFSET(0xB895800)
+#define MDBJAAAEJDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x183D3280)
+#define MDBJAAAEJDA_CNMFKACONIP_OFFSET UNITYSDK_OFFSET(0x183D1DE0)
+#define MDBJAAAEJDA_FPOHLMBPOIA_OFFSET UNITYSDK_OFFSET(0x183D2470)
+#define MDBJAAAEJDA_GNDFGJBIMLG_OFFSET UNITYSDK_OFFSET(0x183D31E0)
+#define MDBJAAAEJDA_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x183D1AE0)
+#define MDBJAAAEJDA_HJDNLDJEECI_OFFSET UNITYSDK_OFFSET(0x183D2E60)
+#define MDBJAAAEJDA_KOPAOPHKFPM_OFFSET UNITYSDK_OFFSET(0x183D2CB0)
+#define MDBJAAAEJDA_LBGIEFCNMNH_OFFSET UNITYSDK_OFFSET(0x183D27A0)
+#define MDBJAAAEJDA_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x183D2660)
+#define MDBJAAAEJDA_MJPBGAONBPJ_OFFSET UNITYSDK_OFFSET(0x183D2FE0)
+#define MDBJAAAEJDA_NELKDODDOOH_OFFSET UNITYSDK_OFFSET(0x183D2240)
+#define MDBJAAAEJDA_NJAJKFDIGBG_OFFSET UNITYSDK_OFFSET(0x183D2AF0)
+#define MDBJAAAEJDA_OLGEBOGLFBH_OFFSET UNITYSDK_OFFSET(0x183D3060)
+#define MDBJAAAEJDA_OPKIILEJGNN_OFFSET UNITYSDK_OFFSET(0x183D2950)
 
-inline static constexpr unsigned int MDBJAAAEJDA_TypeDefinitionIndex = 56504;
+inline static constexpr unsigned int MDBJAAAEJDA_TypeDefinitionIndex = 57724;
 
 	class MDBJAAAEJDA : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::EntityColliderConfig** StaticGet_ACGBLPGJIBJ()
-		{
-			return (::RPG::GameCore::EntityColliderConfig**)UnitySDK::FromName("", "MDBJAAAEJDA")->GetStaticField(0x5E770);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::GOHKGHGNKGE*>** StaticGet_DEDIANPMNAM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::GOHKGHGNKGE*>**)UnitySDK::FromName("", "MDBJAAAEJDA")->GetStaticField(0x5E778);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::GOHKGHGNKGE*>**)UnitySDK::FromName("", "MDBJAAAEJDA")->GetStaticField(0x72B10);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterEntityColliderConfig*>** StaticGet_FIONBDLMHBL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterEntityColliderConfig*>**)UnitySDK::FromName("", "MDBJAAAEJDA")->GetStaticField(0x5E780);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterEntityColliderConfig*>**)UnitySDK::FromName("", "MDBJAAAEJDA")->GetStaticField(0x72B18);
+		}
+
+		static ::RPG::GameCore::EntityColliderConfig** StaticGet_ACGBLPGJIBJ()
+		{
+			return (::RPG::GameCore::EntityColliderConfig**)UnitySDK::FromName("", "MDBJAAAEJDA")->GetStaticField(0x72B20);
 		}
 
 		// static const ::System::String* GNEINLIJOBC; // 0x0

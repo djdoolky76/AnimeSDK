@@ -13,37 +13,37 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NIFNAMDEPIL_AFABEKGPANM_OFFSET UNITYSDK_OFFSET(0x1EAFFE50)
-#define NIFNAMDEPIL_AFNIJILCJFI_OFFSET UNITYSDK_OFFSET(0x1EAFFED0)
-#define NIFNAMDEPIL_ALFPFPODCFB_OFFSET UNITYSDK_OFFSET(0x1EAFFF00)
-#define NIFNAMDEPIL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1EB00640)
-#define NIFNAMDEPIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB00C30)
-#define NIFNAMDEPIL_CLONE_OFFSET UNITYSDK_OFFSET(0x1EAFFDE0)
-#define NIFNAMDEPIL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EAFFCD0)
-#define NIFNAMDEPIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAFFC80)
-#define NIFNAMDEPIL_DIDKBJLLACC_OFFSET UNITYSDK_OFFSET(0x1EAFFE40)
-#define NIFNAMDEPIL_DPFLPFADJNK_OFFSET UNITYSDK_OFFSET(0x1EAFFEB0)
-#define NIFNAMDEPIL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1EAFFF80)
-#define NIFNAMDEPIL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EAFFF20)
-#define NIFNAMDEPIL_FOPLDCBOMFM_OFFSET UNITYSDK_OFFSET(0x1EAFFEF0)
-#define NIFNAMDEPIL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EB000E0)
-#define NIFNAMDEPIL_ILHJGCAKCOL_OFFSET UNITYSDK_OFFSET(0x1EAFFEC0)
-#define NIFNAMDEPIL_JIFPIGBJFEH_OFFSET UNITYSDK_OFFSET(0x1EAFFE80)
-#define NIFNAMDEPIL_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1EAFFC10)
-#define NIFNAMDEPIL_JKLDHNNGNCK_OFFSET UNITYSDK_OFFSET(0x1EAFFEA0)
-#define NIFNAMDEPIL_JMCKDONFHGB_OFFSET UNITYSDK_OFFSET(0x1EAFFF10)
-#define NIFNAMDEPIL_KGJIBECMMCG_OFFSET UNITYSDK_OFFSET(0x1EAFFE30)
-#define NIFNAMDEPIL_KGNEKEHJDCC_OFFSET UNITYSDK_OFFSET(0x1EAFFE70)
-#define NIFNAMDEPIL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1EB00A30)
-#define NIFNAMDEPIL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1EB00900)
-#define NIFNAMDEPIL_MIILIPJBOKO_OFFSET UNITYSDK_OFFSET(0x1EAFFE90)
-#define NIFNAMDEPIL_NNBHOEMFHIF_OFFSET UNITYSDK_OFFSET(0x1EAFFEE0)
-#define NIFNAMDEPIL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EAFFC70)
-#define NIFNAMDEPIL_PEFHFBFAIPA_OFFSET UNITYSDK_OFFSET(0x1EAFFE60)
-#define NIFNAMDEPIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB00260)
-#define NIFNAMDEPIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB002C0)
+#define NIFNAMDEPIL_AFABEKGPANM_OFFSET UNITYSDK_OFFSET(0x1EAC2D40)
+#define NIFNAMDEPIL_AFNIJILCJFI_OFFSET UNITYSDK_OFFSET(0x1EAC2DD0)
+#define NIFNAMDEPIL_ALFPFPODCFB_OFFSET UNITYSDK_OFFSET(0x1EAC2E00)
+#define NIFNAMDEPIL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1EAC3540)
+#define NIFNAMDEPIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAC3B30)
+#define NIFNAMDEPIL_CLONE_OFFSET UNITYSDK_OFFSET(0x1EAC2CE0)
+#define NIFNAMDEPIL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EAC2BE0)
+#define NIFNAMDEPIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC2B90)
+#define NIFNAMDEPIL_DIDKBJLLACC_OFFSET UNITYSDK_OFFSET(0x1EAC2D90)
+#define NIFNAMDEPIL_DPFLPFADJNK_OFFSET UNITYSDK_OFFSET(0x1EAC2DF0)
+#define NIFNAMDEPIL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1EAC2E80)
+#define NIFNAMDEPIL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EAC2E20)
+#define NIFNAMDEPIL_FOPLDCBOMFM_OFFSET UNITYSDK_OFFSET(0x1EAC2DB0)
+#define NIFNAMDEPIL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EAC2FE0)
+#define NIFNAMDEPIL_ILHJGCAKCOL_OFFSET UNITYSDK_OFFSET(0x1EAC2DC0)
+#define NIFNAMDEPIL_JIFPIGBJFEH_OFFSET UNITYSDK_OFFSET(0x1EAC2D60)
+#define NIFNAMDEPIL_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1EAC2B20)
+#define NIFNAMDEPIL_JKLDHNNGNCK_OFFSET UNITYSDK_OFFSET(0x1EAC2DE0)
+#define NIFNAMDEPIL_JMCKDONFHGB_OFFSET UNITYSDK_OFFSET(0x1EAC2E10)
+#define NIFNAMDEPIL_KGJIBECMMCG_OFFSET UNITYSDK_OFFSET(0x1EAC2D80)
+#define NIFNAMDEPIL_KGNEKEHJDCC_OFFSET UNITYSDK_OFFSET(0x1EAC2D30)
+#define NIFNAMDEPIL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1EAC3940)
+#define NIFNAMDEPIL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1EAC3810)
+#define NIFNAMDEPIL_MIILIPJBOKO_OFFSET UNITYSDK_OFFSET(0x1EAC2D70)
+#define NIFNAMDEPIL_NNBHOEMFHIF_OFFSET UNITYSDK_OFFSET(0x1EAC2DA0)
+#define NIFNAMDEPIL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EAC2B80)
+#define NIFNAMDEPIL_PEFHFBFAIPA_OFFSET UNITYSDK_OFFSET(0x1EAC2D50)
+#define NIFNAMDEPIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC3150)
+#define NIFNAMDEPIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC31B0)
 
-inline static constexpr unsigned int NIFNAMDEPIL_TypeDefinitionIndex = 28920;
+inline static constexpr unsigned int NIFNAMDEPIL_TypeDefinitionIndex = 29510;
 
 	class NIFNAMDEPIL : public ::System::Object
 	{
@@ -52,29 +52,29 @@ inline static constexpr unsigned int NIFNAMDEPIL_TypeDefinitionIndex = 28920;
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* BBJDNPLDEPH; // 0x18
 		::JOCIBBFJPMP* MNJNMPKLFAI; // 0x20
 		::System::UInt32 IDPMGABNGKO; // 0x28
-		::System::Boolean AEEMDCGFPKB; // 0x2C
-		::System::Boolean COAAJCJJFKB; // 0x2D
+		::System::UInt32 EJIECBFGPAJ; // 0x2C
+		::System::UInt32 GFMHFBDKDOE; // 0x30
+		::System::Boolean AEEMDCGFPKB; // 0x34
+		::System::Boolean COAAJCJJFKB; // 0x35
 		::System::Byte _padding0[0x2];
-		::System::UInt32 EJIECBFGPAJ; // 0x30
-		::System::UInt32 LNANIJGDKHP; // 0x34
-		::System::UInt32 GFMHFBDKDOE; // 0x38
+		::System::UInt32 LNANIJGDKHP; // 0x38
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_BHCGHOEAPBO()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "NIFNAMDEPIL")->GetStaticField(0x653E0);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "NIFNAMDEPIL")->GetStaticField(0x627D0);
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::NIFNAMDEPIL*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::NIFNAMDEPIL*>**)UnitySDK::FromName("", "NIFNAMDEPIL")->GetStaticField(0x653E8);
+			return (::Google::Protobuf::MessageParser_1<::NIFNAMDEPIL*>**)UnitySDK::FromName("", "NIFNAMDEPIL")->GetStaticField(0x627D8);
 		}
 
-		// static const ::System::Object ENMIFGCLINI; // 0x0
-		// static const ::System::Object PKLGJOBKFBO; // 0x0
 		// static const ::System::Object BBFFKFBONFO; // 0x0
+		// static const ::System::Object PKLGJOBKFBO; // 0x0
 		// static const ::System::Object KBMGGGHELJP; // 0x0
-		// static const ::System::Object OOGKNMKNJNI; // 0x0
-		// static const ::System::Object AMCAPJJBPAB; // 0x0
+		// static const ::System::Object ENMIFGCLINI; // 0x0
 		// static const ::System::Object CPDECFMCKEM; // 0x0
+		// static const ::System::Object AMCAPJJBPAB; // 0x0
+		// static const ::System::Object OOGKNMKNJNI; // 0x0
 		// static const ::System::Object PKJAEOKJADC; // 0x0
 		::System::Void _ctor()
 		{
@@ -106,14 +106,9 @@ inline static constexpr unsigned int NIFNAMDEPIL_TypeDefinitionIndex = 28920;
 			return ((::NIFNAMDEPIL*(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_CLONE_OFFSET))(this);
 		}
 
-		::System::Boolean KGJIBECMMCG()
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* KGNEKEHJDCC()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_KGJIBECMMCG_OFFSET))(this);
-		}
-
-		::System::Void DIDKBJLLACC(::System::Boolean a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_DIDKBJLLACC_OFFSET))(this, a1);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_KGNEKEHJDCC_OFFSET))(this);
 		}
 
 		::System::UInt32 AFABEKGPANM()
@@ -126,11 +121,6 @@ inline static constexpr unsigned int NIFNAMDEPIL_TypeDefinitionIndex = 28920;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_PEFHFBFAIPA_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* KGNEKEHJDCC()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_KGNEKEHJDCC_OFFSET))(this);
-		}
-
 		::JOCIBBFJPMP* JIFPIGBJFEH()
 		{
 			return ((::JOCIBBFJPMP*(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_JIFPIGBJFEH_OFFSET))(this);
@@ -141,14 +131,24 @@ inline static constexpr unsigned int NIFNAMDEPIL_TypeDefinitionIndex = 28920;
 			return ((::System::Void(*)(::PVOID, ::JOCIBBFJPMP*))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_MIILIPJBOKO_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 JKLDHNNGNCK()
+		::System::Boolean KGJIBECMMCG()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_JKLDHNNGNCK_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_KGJIBECMMCG_OFFSET))(this);
 		}
 
-		::System::Void DPFLPFADJNK(::System::UInt32 a1)
+		::System::Void DIDKBJLLACC(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_DPFLPFADJNK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_DIDKBJLLACC_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 NNBHOEMFHIF()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_NNBHOEMFHIF_OFFSET))(this);
+		}
+
+		::System::Void FOPLDCBOMFM(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_FOPLDCBOMFM_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 ILHJGCAKCOL()
@@ -161,14 +161,14 @@ inline static constexpr unsigned int NIFNAMDEPIL_TypeDefinitionIndex = 28920;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_AFNIJILCJFI_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 NNBHOEMFHIF()
+		::System::UInt32 JKLDHNNGNCK()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_NNBHOEMFHIF_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_JKLDHNNGNCK_OFFSET))(this);
 		}
 
-		::System::Void FOPLDCBOMFM(::System::UInt32 a1)
+		::System::Void DPFLPFADJNK(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_FOPLDCBOMFM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NIFNAMDEPIL_DPFLPFADJNK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean ALFPFPODCFB()

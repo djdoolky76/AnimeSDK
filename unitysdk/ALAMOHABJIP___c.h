@@ -4,18 +4,18 @@
 class ALAMOHABJIP;
 namespace System { class Object; }
 
-#define ALAMOHABJIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3A4B40)
-#define ALAMOHABJIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A4B70)
-#define ALAMOHABJIP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E3A4B80)
+#define ALAMOHABJIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20642ED0)
+#define ALAMOHABJIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20642F00)
+#define ALAMOHABJIP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x20642F10)
 
-inline static constexpr unsigned int ALAMOHABJIP___c_TypeDefinitionIndex = 30703;
+inline static constexpr unsigned int ALAMOHABJIP___c_TypeDefinitionIndex = 31609;
 
 	class ALAMOHABJIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x404D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34FE0);
 		}
 
 		static ::System::Void _cctor()

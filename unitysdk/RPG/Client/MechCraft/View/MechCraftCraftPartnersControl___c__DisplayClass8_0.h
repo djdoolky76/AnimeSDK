@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class DBHGOLFACFL;
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPARTNERSCONTROL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD61DAB0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPARTNERSCONTROL___C__DISPLAYCLASS8_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xD61DB80)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPARTNERSCONTROL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F4170)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPARTNERSCONTROL___C__DISPLAYCLASS8_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x1C6F4240)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftPartnersControl___c__DisplayClass8_0_TypeDefinitionIndex = 79908;
+	inline static constexpr unsigned int MechCraftCraftPartnersControl___c__DisplayClass8_0_TypeDefinitionIndex = 82685;
 
 	class MechCraftCraftPartnersControl___c__DisplayClass8_0 : public ::System::Object
 	{

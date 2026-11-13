@@ -3,7 +3,7 @@
 
 namespace RPGTools::LDWhiteBox
 {
-	inline static constexpr unsigned int WhiteBoxValidationSeverity_TypeDefinitionIndex = 48949;
+	inline static constexpr unsigned int WhiteBoxValidationSeverity_TypeDefinitionIndex = 50008;
 
 	enum class WhiteBoxValidationSeverity : ::System::Int32
 	{

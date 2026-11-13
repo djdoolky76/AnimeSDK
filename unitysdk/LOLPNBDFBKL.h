@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PlayerForceRush; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOLPNBDFBKL_CTOR_OFFSET UNITYSDK_OFFSET(0xB806C90)
-#define LOLPNBDFBKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB806CC0)
+#define LOLPNBDFBKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BC360)
+#define LOLPNBDFBKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5BC390)
 
-inline static constexpr unsigned int LOLPNBDFBKL_TypeDefinitionIndex = 58289;
+inline static constexpr unsigned int LOLPNBDFBKL_TypeDefinitionIndex = 59545;
 
 	class LOLPNBDFBKL
 	{

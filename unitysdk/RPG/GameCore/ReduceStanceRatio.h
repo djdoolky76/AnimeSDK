@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ReduceStanceRatio; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REDUCESTANCERATIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D948210)
-#define RPG_GAMECORE_REDUCESTANCERATIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D948220)
-#define RPG_GAMECORE_REDUCESTANCERATIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9481D0)
+#define RPG_GAMECORE_REDUCESTANCERATIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F231C50)
+#define RPG_GAMECORE_REDUCESTANCERATIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F231C60)
+#define RPG_GAMECORE_REDUCESTANCERATIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F231C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReduceStanceRatio_TypeDefinitionIndex = 23566;
+	inline static constexpr unsigned int ReduceStanceRatio_TypeDefinitionIndex = 24012;
 
 	class ReduceStanceRatio : public ::RPG::GameCore::TaskConfig
 	{

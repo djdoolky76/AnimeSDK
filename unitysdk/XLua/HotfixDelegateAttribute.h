@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_HOTFIXDELEGATEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B48E0)
+#define XLUA_HOTFIXDELEGATEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x209779C0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int HotfixDelegateAttribute_TypeDefinitionIndex = 5614;
+	inline static constexpr unsigned int HotfixDelegateAttribute_TypeDefinitionIndex = 5619;
 
 	class HotfixDelegateAttribute : public ::System::Attribute
 	{

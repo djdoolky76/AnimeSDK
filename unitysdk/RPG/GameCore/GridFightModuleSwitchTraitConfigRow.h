@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightModuleSwitchTraitConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTMODULESWITCHTRAITCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D708F30)
-#define RPG_GAMECORE_GRIDFIGHTMODULESWITCHTRAITCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D708DC0)
+#define RPG_GAMECORE_GRIDFIGHTMODULESWITCHTRAITCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x208BD020)
+#define RPG_GAMECORE_GRIDFIGHTMODULESWITCHTRAITCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x208BCEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModuleSwitchTraitConfigRow_TypeDefinitionIndex = 13481;
+	inline static constexpr unsigned int GridFightModuleSwitchTraitConfigRow_TypeDefinitionIndex = 13557;
 
 	class GridFightModuleSwitchTraitConfigRow : public ::System::Object
 	{

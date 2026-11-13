@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_FLOATPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xE182900)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_FLOATPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A2F40)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int ComputeMaterial_FloatProperty_TypeDefinitionIndex = 73610;
+	inline static constexpr unsigned int ComputeMaterial_FloatProperty_TypeDefinitionIndex = 75733;
 
 	class ComputeMaterial_FloatProperty : public ::System::Object
 	{

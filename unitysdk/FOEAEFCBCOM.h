@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 class FOEAEFCBCOM;
 
-#define FOEAEFCBCOM_CCTOR_OFFSET UNITYSDK_OFFSET(0x158DA800)
-#define FOEAEFCBCOM_COMPARETO_OFFSET UNITYSDK_OFFSET(0x158DA780)
-#define FOEAEFCBCOM_CTOR_OFFSET UNITYSDK_OFFSET(0x158DA7F0)
+#define FOEAEFCBCOM_CCTOR_OFFSET UNITYSDK_OFFSET(0x187454B0)
+#define FOEAEFCBCOM_COMPARETO_OFFSET UNITYSDK_OFFSET(0x18745430)
+#define FOEAEFCBCOM_CTOR_OFFSET UNITYSDK_OFFSET(0x187454A0)
 
-inline static constexpr unsigned int FOEAEFCBCOM_TypeDefinitionIndex = 55640;
+inline static constexpr unsigned int FOEAEFCBCOM_TypeDefinitionIndex = 56838;
 
 	class FOEAEFCBCOM : public ::System::Object
 	{
@@ -20,7 +20,7 @@ inline static constexpr unsigned int FOEAEFCBCOM_TypeDefinitionIndex = 55640;
 		::System::Int32 NALMBOOCCIN; // 0x1C
 		static ::FOEAEFCBCOM** StaticGet_HGLIFJGHADE()
 		{
-			return (::FOEAEFCBCOM**)UnitySDK::FromName("", "FOEAEFCBCOM")->GetStaticField(0x42D70);
+			return (::FOEAEFCBCOM**)UnitySDK::FromName("", "FOEAEFCBCOM")->GetStaticField(0x4B2C0);
 		}
 
 		::System::Void _ctor()

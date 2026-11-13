@@ -4,18 +4,18 @@
 class HJELNANIFIE;
 namespace System { class Object; }
 
-#define HJELNANIFIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E579A40)
-#define HJELNANIFIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E579A80)
-#define HJELNANIFIE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E579A90)
+#define HJELNANIFIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201626C0)
+#define HJELNANIFIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20162700)
+#define HJELNANIFIE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20162710)
 
-inline static constexpr unsigned int HJELNANIFIE___c_TypeDefinitionIndex = 31486;
+inline static constexpr unsigned int HJELNANIFIE___c_TypeDefinitionIndex = 32399;
 
 	class HJELNANIFIE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35780);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x318F0);
 		}
 
 		static ::System::Void _cctor()

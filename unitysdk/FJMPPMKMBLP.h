@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareResistChance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJMPPMKMBLP_CTOR_OFFSET UNITYSDK_OFFSET(0x157CED10)
-#define FJMPPMKMBLP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157CED40)
+#define FJMPPMKMBLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA83D20)
+#define FJMPPMKMBLP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AA83D50)
 
-inline static constexpr unsigned int FJMPPMKMBLP_TypeDefinitionIndex = 54560;
+inline static constexpr unsigned int FJMPPMKMBLP_TypeDefinitionIndex = 55725;
 
 	class FJMPPMKMBLP
 	{

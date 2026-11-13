@@ -4,18 +4,18 @@
 class NCLGCOEMLIF;
 namespace System { class Object; }
 
-#define NCLGCOEMLIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAB38C0)
-#define NCLGCOEMLIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB3900)
-#define NCLGCOEMLIF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAB3910)
+#define NCLGCOEMLIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202F5480)
+#define NCLGCOEMLIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202F54C0)
+#define NCLGCOEMLIF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x202F54D0)
 
-inline static constexpr unsigned int NCLGCOEMLIF___c_TypeDefinitionIndex = 31524;
+inline static constexpr unsigned int NCLGCOEMLIF___c_TypeDefinitionIndex = 32437;
 
 	class NCLGCOEMLIF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F230);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D0C0);
 		}
 
 		static ::System::Void _cctor()

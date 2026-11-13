@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingFesAwardTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESAWARDTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D55FAE0)
-#define RPG_GAMECORE_CHENLINGFESAWARDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D55F900)
+#define RPG_GAMECORE_CHENLINGFESAWARDTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F914CB0)
+#define RPG_GAMECORE_CHENLINGFESAWARDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F914AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesAwardTypeRow_TypeDefinitionIndex = 11109;
+	inline static constexpr unsigned int ChenLingFesAwardTypeRow_TypeDefinitionIndex = 11125;
 
 	class ChenLingFesAwardTypeRow : public ::System::Object
 	{

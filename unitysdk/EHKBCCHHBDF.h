@@ -5,11 +5,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define EHKBCCHHBDF_CTOR_OFFSET UNITYSDK_OFFSET(0x154A1370)
-#define EHKBCCHHBDF_JJNLKPGLJHF_OFFSET UNITYSDK_OFFSET(0x154A1620)
-#define EHKBCCHHBDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154A13A0)
+#define EHKBCCHHBDF_CTOR_OFFSET UNITYSDK_OFFSET(0x18BD1D70)
+#define EHKBCCHHBDF_JJNLKPGLJHF_OFFSET UNITYSDK_OFFSET(0x18BD2030)
+#define EHKBCCHHBDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BD1DA0)
 
-inline static constexpr unsigned int EHKBCCHHBDF_TypeDefinitionIndex = 58716;
+inline static constexpr unsigned int EHKBCCHHBDF_TypeDefinitionIndex = 59984;
 
 	class EHKBCCHHBDF
 	{

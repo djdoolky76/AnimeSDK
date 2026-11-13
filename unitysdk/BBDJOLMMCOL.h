@@ -10,25 +10,24 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenIncidentOption; }
 namespace RPG::GameCore { class HipplenIncidentOptionStepConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BBDJOLMMCOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15E786B0)
-#define BBDJOLMMCOL_CNKLGPEIBGI_OFFSET UNITYSDK_OFFSET(0x15E78950)
-#define BBDJOLMMCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15E78750)
-#define BBDJOLMMCOL_EPGNFOIJHAK_OFFSET UNITYSDK_OFFSET(0x15E78B10)
-#define BBDJOLMMCOL_EPJPICKMJLF_OFFSET UNITYSDK_OFFSET(0x15E78D80)
-#define BBDJOLMMCOL_JJHHOJFLOAK_OFFSET UNITYSDK_OFFSET(0x15E78A80)
-#define BBDJOLMMCOL_OKAAGEKIOCD_OFFSET UNITYSDK_OFFSET(0x15E789A0)
+#define BBDJOLMMCOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x199F0DE0)
+#define BBDJOLMMCOL_CNKLGPEIBGI_OFFSET UNITYSDK_OFFSET(0x199F1080)
+#define BBDJOLMMCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x199F0E80)
+#define BBDJOLMMCOL_EPGNFOIJHAK_OFFSET UNITYSDK_OFFSET(0x199F1240)
+#define BBDJOLMMCOL_EPJPICKMJLF_OFFSET UNITYSDK_OFFSET(0x199F14B0)
+#define BBDJOLMMCOL_JJHHOJFLOAK_OFFSET UNITYSDK_OFFSET(0x199F11B0)
+#define BBDJOLMMCOL_OKAAGEKIOCD_OFFSET UNITYSDK_OFFSET(0x199F10D0)
 
-inline static constexpr unsigned int BBDJOLMMCOL_TypeDefinitionIndex = 75550;
+inline static constexpr unsigned int BBDJOLMMCOL_TypeDefinitionIndex = 77877;
 
 	class BBDJOLMMCOL : public ::JCHBFEIOIHA
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* DAKADOEFDKC; // 0x30
+		::RPG::GameCore::HipplenIncidentOptionStepConfig* IGHAHBNLIJA; // 0x30
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption*>* AMDDFDJAHCG; // 0x38
-		::RPG::GameCore::HipplenIncidentOptionStepConfig* IGHAHBNLIJA; // 0x40
-		::System::Boolean JABLOGLPLOP; // 0x48
-		::System::Byte _padding0[0x3];
-		::System::Int32 ANBBJKEFNJH; // 0x4C
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* DAKADOEFDKC; // 0x40
+		::System::Int32 ANBBJKEFNJH; // 0x48
+		::System::Boolean JABLOGLPLOP; // 0x4C
 		::System::Void _ctor(::RPG::GameCore::HipplenIncidentOptionStepConfig* a1, ::PKBOFOOJCGL* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenIncidentOptionStepConfig*, ::PKBOFOOJCGL*))((::PBYTE)hIl2Cpp + BBDJOLMMCOL_CTOR_OFFSET))(this, a1, a2);

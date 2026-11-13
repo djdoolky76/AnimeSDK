@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Cloud_TypeDefinitionIndex = 46167;
+	inline static constexpr unsigned int MHYSDKC_Cloud_TypeDefinitionIndex = 47196;
 
 	class MHYSDKC_Cloud : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ModifierPlayerChangeEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOCMJCNACAC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF689E0)
-#define OOCMJCNACAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF68AC0)
-#define OOCMJCNACAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF68B00)
-#define OOCMJCNACAC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF68E80)
-#define OOCMJCNACAC_TICK_OFFSET UNITYSDK_OFFSET(0xBF68ED0)
+#define OOCMJCNACAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1968DD00)
+#define OOCMJCNACAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1968DDE0)
+#define OOCMJCNACAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1968DE20)
+#define OOCMJCNACAC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1968E1A0)
+#define OOCMJCNACAC_TICK_OFFSET UNITYSDK_OFFSET(0x1968E1F0)
 
-inline static constexpr unsigned int OOCMJCNACAC_TypeDefinitionIndex = 55184;
+inline static constexpr unsigned int OOCMJCNACAC_TypeDefinitionIndex = 56365;
 
 	class OOCMJCNACAC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ModifierPlayerChangeEffect* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ModifierPlayerChangeEffect* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifierPlayerChangeEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifierPlayerChangeEffect*))((::PBYTE)hIl2Cpp + OOCMJCNACAC_CTOR_OFFSET))(this, a1, a2);

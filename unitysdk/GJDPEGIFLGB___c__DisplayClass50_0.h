@@ -4,16 +4,16 @@
 class GJDPEGIFLGB;
 namespace RPG::GameCore { class AdventureCharacterController; }
 
-#define GJDPEGIFLGB___C__DISPLAYCLASS50_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A56170)
-#define GJDPEGIFLGB___C__DISPLAYCLASS50_0___GETORCREATEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x15A56340)
+#define GJDPEGIFLGB___C__DISPLAYCLASS50_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A407000)
+#define GJDPEGIFLGB___C__DISPLAYCLASS50_0___GETORCREATEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x1A4071E0)
 
-inline static constexpr unsigned int GJDPEGIFLGB___c__DisplayClass50_0_TypeDefinitionIndex = 75539;
+inline static constexpr unsigned int GJDPEGIFLGB___c__DisplayClass50_0_TypeDefinitionIndex = 77866;
 
 	class GJDPEGIFLGB___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AdventureCharacterController* characterCtrl; // 0x10
-		::GJDPEGIFLGB* __4__this; // 0x18
+		::GJDPEGIFLGB* __4__this; // 0x10
+		::RPG::GameCore::AdventureCharacterController* characterCtrl; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJDPEGIFLGB___C__DISPLAYCLASS50_0_CTOR_OFFSET))(this);

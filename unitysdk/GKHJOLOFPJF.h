@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 class GKHJOLOFPJF;
 
-#define GKHJOLOFPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE300A0)
-#define GKHJOLOFPJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE2FF20)
+#define GKHJOLOFPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E650ED0)
+#define GKHJOLOFPJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E650D50)
 
-inline static constexpr unsigned int GKHJOLOFPJF_TypeDefinitionIndex = 11513;
+inline static constexpr unsigned int GKHJOLOFPJF_TypeDefinitionIndex = 11564;
 
 	class GKHJOLOFPJF : public ::System::Object
 	{
 	public:
-		::System::UInt32 KNIMCDCHFFN; // 0x10
-		::System::UInt32 PJNNPOKJEFD; // 0x14
-		::System::UInt32 DOHPJPEMDON; // 0x18
-		::System::UInt32 AAGKEBFHLMC; // 0x1C
+		::System::UInt32 PJNNPOKJEFD; // 0x10
+		::System::UInt32 KNIMCDCHFFN; // 0x14
+		::System::UInt32 AAGKEBFHLMC; // 0x18
+		::System::UInt32 DOHPJPEMDON; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKHJOLOFPJF_CTOR_OFFSET))(this);

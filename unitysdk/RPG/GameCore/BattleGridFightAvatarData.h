@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/GridFightPreset.h"
 #include "unitysdk/System/Object.h"
 class FNNMLBJJPBJ;
+class JGOBLAHOHLB;
 class JJHJCIAPADP;
 namespace RPG::GameCore { class BattleGridFightAvatarData; }
 namespace RPG::GameCore { class BattleGridFightEquipData; }
@@ -13,44 +14,54 @@ namespace RPG::GameCore { class GridFightRoleBackendRankConfigRow; }
 namespace RPG::GameCore { class GridFightRoleConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE5B66A0)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0xE5B6430)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_FULLEQUIPLIST_OFFSET UNITYSDK_OFFSET(0xE5B5FD0)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GETROLECONFIG_OFFSET UNITYSDK_OFFSET(0xE5B5EC0)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GETTRAITLIST_OFFSET UNITYSDK_OFFSET(0xE5B5E30)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_ISBACKENDAVATAR_OFFSET UNITYSDK_OFFSET(0xE5B63D0)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_POWER_GRIDFIGHT_OFFSET UNITYSDK_OFFSET(0xE5B6230)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_PRESETLOCATION_OFFSET UNITYSDK_OFFSET(0xE5B6380)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_PRESET_OFFSET UNITYSDK_OFFSET(0xE5B63E0)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_ROLEPRESETTYPE_OFFSET UNITYSDK_OFFSET(0xE5B5F40)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_HASEQUIP_OFFSET UNITYSDK_OFFSET(0xE5B6110)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AE65040)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0x1AE64DD0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_FULLEQUIPLIST_OFFSET UNITYSDK_OFFSET(0x1AE64950)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GETROLECONFIG_OFFSET UNITYSDK_OFFSET(0x1AE64840)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GETTRAITLIST_OFFSET UNITYSDK_OFFSET(0x1AE647B0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_ISBACKENDAVATAR_OFFSET UNITYSDK_OFFSET(0x1AE64D70)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_POWER_GRIDFIGHT_OFFSET UNITYSDK_OFFSET(0x1AE64BB0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_PRESETLOCATION_OFFSET UNITYSDK_OFFSET(0x1AE64D20)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_PRESET_OFFSET UNITYSDK_OFFSET(0x1AE64D80)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_ROLEPRESETTYPE_OFFSET UNITYSDK_OFFSET(0x1AE648C0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_SPOTLIGHTID_OFFSET UNITYSDK_OFFSET(0x1AE64750)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_HASEQUIP_OFFSET UNITYSDK_OFFSET(0x1AE64A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleGridFightAvatarData_TypeDefinitionIndex = 56291;
+	inline static constexpr unsigned int BattleGridFightAvatarData_TypeDefinitionIndex = 57505;
 
 	class BattleGridFightAvatarData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GridFightBackendRoleEquipmentConfigRow* ActiveBackendEquipmentConfig; // 0x10
-		::RPG::GameCore::GridFightManager* MgrRef; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightEquipData*>* NormalEquip; // 0x10
+		::RPG::GameCore::GridFightRoleConfigRow* _RoleRow; // 0x18
 		::JJHJCIAPADP* BattleExtInfo; // 0x20
-		::RPG::GameCore::GridFightRoleConfigRow* _RoleRow; // 0x28
-		::FNNMLBJJPBJ* AdditionalPropertyMap; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::GridFightRoleBackendRankConfigRow*>* ActiveBackendRankList; // 0x38
-		::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightEquipData*>* NormalEquip; // 0x40
-		::System::UInt32 AvatarStar; // 0x48
-		::System::UInt32 ID; // 0x4C
-		::RPG::GameCore::FixPoint Power_Quality; // 0x50
-		::RPG::GameCore::FixPoint Power_Trait; // 0x58
-		::RPG::GameCore::FixPoint Power_Equip; // 0x60
-		::RPG::GameCore::FixPoint Power_Star; // 0x68
-		::System::UInt32 UniqueID; // 0x70
-		::System::UInt32 AvatarID; // 0x74
-		::System::UInt32 AvatarLocation; // 0x78
+		::RPG::GameCore::GridFightBackendRoleEquipmentConfigRow* ActiveBackendEquipmentConfig; // 0x28
+		::RPG::GameCore::GridFightManager* MgrRef; // 0x30
+		::FNNMLBJJPBJ* AdditionalPropertyMap; // 0x38
+		::System::Collections::Generic::List_1<::RPG::GameCore::GridFightRoleBackendRankConfigRow*>* ActiveBackendRankList; // 0x40
+		::JGOBLAHOHLB* CustomValueMap; // 0x48
+		::RPG::GameCore::FixPoint Power_Star; // 0x50
+		::RPG::GameCore::FixPoint Power_SpotLight; // 0x58
+		::System::UInt32 AvatarLocation; // 0x60
+		::System::UInt32 AvatarStar; // 0x64
+		::RPG::GameCore::FixPoint Power_Equip; // 0x68
+		::System::UInt32 ID; // 0x70
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint Power_Quality; // 0x78
+		::RPG::GameCore::FixPoint Power_FormationPlace; // 0x80
+		::RPG::GameCore::FixPoint Power_Trait; // 0x88
+		::System::UInt32 UniqueID; // 0x90
+		::System::UInt32 AvatarID; // 0x94
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SpotLightID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTAVATARDATA_GET_SPOTLIGHTID_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::UInt32>* GetTraitList()

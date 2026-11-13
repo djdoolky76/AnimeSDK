@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-inline static constexpr unsigned int OPPNDCNMGKO___O_TypeDefinitionIndex = 75559;
+inline static constexpr unsigned int OPPNDCNMGKO___O_TypeDefinitionIndex = 77886;
 
 	class OPPNDCNMGKO___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>** StaticGet__0___RangeInt()
 		{
-			return (::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x64DC0);
+			return (::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6A520);
 		}
 
 	};

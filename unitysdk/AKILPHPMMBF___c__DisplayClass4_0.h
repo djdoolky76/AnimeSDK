@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define AKILPHPMMBF___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCFEB0)
-#define AKILPHPMMBF___C__DISPLAYCLASS4_0___GETGLOBALVALUEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x12CCFED0)
+#define AKILPHPMMBF___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19D5DD60)
+#define AKILPHPMMBF___C__DISPLAYCLASS4_0___GETGLOBALVALUEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x19D5DD80)
 
-inline static constexpr unsigned int AKILPHPMMBF___c__DisplayClass4_0_TypeDefinitionIndex = 65295;
+inline static constexpr unsigned int AKILPHPMMBF___c__DisplayClass4_0_TypeDefinitionIndex = 67055;
 
 	class AKILPHPMMBF___c__DisplayClass4_0 : public ::System::Object
 	{

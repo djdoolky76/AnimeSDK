@@ -3,10 +3,10 @@
 class HDGLGNMBEKO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDBEDHLMNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB3401A0)
-#define KDBEDHLMNPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3400E0)
+#define KDBEDHLMNPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A493140)
+#define KDBEDHLMNPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A4930A0)
 
-inline static constexpr unsigned int KDBEDHLMNPM_TypeDefinitionIndex = 52886;
+inline static constexpr unsigned int KDBEDHLMNPM_TypeDefinitionIndex = 54042;
 
 	class KDBEDHLMNPM
 	{

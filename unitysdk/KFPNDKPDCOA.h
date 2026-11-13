@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPhotoGraphConditionSuccess; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KFPNDKPDCOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C2AD0)
-#define KFPNDKPDCOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB3C2B00)
+#define KFPNDKPDCOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1770BF20)
+#define KFPNDKPDCOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1770BF50)
 
-inline static constexpr unsigned int KFPNDKPDCOA_TypeDefinitionIndex = 53162;
+inline static constexpr unsigned int KFPNDKPDCOA_TypeDefinitionIndex = 54324;
 
 	class KFPNDKPDCOA
 	{

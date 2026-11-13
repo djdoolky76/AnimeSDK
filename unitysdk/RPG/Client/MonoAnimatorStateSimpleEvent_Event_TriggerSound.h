@@ -4,12 +4,12 @@
 namespace RPG::Client { class MonoAnimatorStateSimpleEvent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_TRIGGERSOUND_CTOR_OFFSET UNITYSDK_OFFSET(0xD725B30)
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_TRIGGERSOUND_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0xD725A20)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_TRIGGERSOUND_CTOR_OFFSET UNITYSDK_OFFSET(0x19877A00)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_TRIGGERSOUND_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0x198778F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_TriggerSound_TypeDefinitionIndex = 68524;
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_TriggerSound_TypeDefinitionIndex = 70472;
 
 	class MonoAnimatorStateSimpleEvent_Event_TriggerSound : public ::RPG::Client::MonoAnimatorStateSimpleEvent_Event
 	{

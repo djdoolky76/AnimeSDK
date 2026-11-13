@@ -5,25 +5,25 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengeBossGroupExtraConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEBOSSGROUPEXTRACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D52EED0)
-#define RPG_GAMECORE_CHALLENGEBOSSGROUPEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D52E700)
+#define RPG_GAMECORE_CHALLENGEBOSSGROUPEXTRACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC07390)
+#define RPG_GAMECORE_CHALLENGEBOSSGROUPEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC06BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeBossGroupExtraConfigRow_TypeDefinitionIndex = 12958;
+	inline static constexpr unsigned int ChallengeBossGroupExtraConfigRow_TypeDefinitionIndex = 13026;
 
 	class ChallengeBossGroupExtraConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* BossPositionPrefabPath1; // 0x10
-		::Il2CppArray<::System::UInt32>* BuffList1; // 0x18
-		::Il2CppArray<::System::UInt32>* BuffList3; // 0x20
-		::System::String* BossPositionDetailPrefabPath3; // 0x28
-		::Il2CppArray<::System::UInt32>* BuffList2; // 0x30
-		::System::String* ThemeIconPicPath; // 0x38
+		::System::String* ThemePosterTabPicPath; // 0x10
+		::Il2CppArray<::System::UInt32>* BuffList3; // 0x18
+		::System::String* BossPositionPrefabPath2; // 0x20
+		::Il2CppArray<::System::UInt32>* BuffList2; // 0x28
+		::Il2CppArray<::System::UInt32>* BuffList1; // 0x30
+		::System::String* BossPositionPrefabPath1; // 0x38
 		::System::String* BossPositionEntrancePrefabPath3; // 0x40
-		::System::String* ThemePosterTabPicPath; // 0x48
-		::System::String* BossPositionPrefabPath2; // 0x50
+		::System::String* ThemeIconPicPath; // 0x48
+		::System::String* BossPositionDetailPrefabPath3; // 0x50
 		::System::UInt32 GroupID; // 0x58
 		::System::Void _ctor()
 		{

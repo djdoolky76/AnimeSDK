@@ -4,18 +4,18 @@
 class ELPPDAHKLBE;
 namespace System { class Object; }
 
-#define ELPPDAHKLBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2AEC90)
-#define ELPPDAHKLBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2AECD0)
-#define ELPPDAHKLBE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E2AECE0)
+#define ELPPDAHKLBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206D32F0)
+#define ELPPDAHKLBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206D3330)
+#define ELPPDAHKLBE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x206D3340)
 
-inline static constexpr unsigned int ELPPDAHKLBE___c_TypeDefinitionIndex = 29275;
+inline static constexpr unsigned int ELPPDAHKLBE___c_TypeDefinitionIndex = 29938;
 
 	class ELPPDAHKLBE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52920);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x482C0);
 		}
 
 		static ::System::Void _cctor()

@@ -9,12 +9,12 @@ namespace RPG::GameCore { class FiveDimViewBakedInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIVEDIMBAKEDPRESETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D682E10)
-#define RPG_GAMECORE_FIVEDIMBAKEDPRESETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D682C30)
+#define RPG_GAMECORE_FIVEDIMBAKEDPRESETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84FD80)
+#define RPG_GAMECORE_FIVEDIMBAKEDPRESETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E84FBA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBakedPresetConfig_TypeDefinitionIndex = 16727;
+	inline static constexpr unsigned int FiveDimBakedPresetConfig_TypeDefinitionIndex = 16893;
 
 	class FiveDimBakedPresetConfig : public ::RPG::GameCore::JsonConfig
 	{

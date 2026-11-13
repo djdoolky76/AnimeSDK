@@ -5,25 +5,25 @@ namespace RPG::Client::MechCraft::View { class MechCraftTalentPointControl; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD666E40)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD666E80)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C___FINDPOINTCONTROL_B__14_1_OFFSET UNITYSDK_OFFSET(0xD666E90)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF07650)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF07690)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C___FINDPOINTCONTROL_B__14_1_OFFSET UNITYSDK_OFFSET(0x1DF076A0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentTreeControl___c_TypeDefinitionIndex = 80054;
+	inline static constexpr unsigned int MechCraftTalentTreeControl___c_TypeDefinitionIndex = 82831;
 
 	class MechCraftTalentTreeControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x4DA00);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x617E0);
 		}
 
 		static ::System::Func_2<::RPG::Client::MechCraft::View::MechCraftTalentPointControl*, ::System::Boolean>** StaticGet___9__14_1()
 		{
-			return (::System::Func_2<::RPG::Client::MechCraft::View::MechCraftTalentPointControl*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x4DA08);
+			return (::System::Func_2<::RPG::Client::MechCraft::View::MechCraftTalentPointControl*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x617E8);
 		}
 
 		static ::System::Void _cctor()

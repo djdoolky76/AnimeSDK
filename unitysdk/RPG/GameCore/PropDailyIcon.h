@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropDailyIcon; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPDAILYICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91B670)
-#define RPG_GAMECORE_PROPDAILYICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91B4D0)
+#define RPG_GAMECORE_PROPDAILYICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF856D0)
+#define RPG_GAMECORE_PROPDAILYICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF85530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDailyIcon_TypeDefinitionIndex = 12547;
+	inline static constexpr unsigned int PropDailyIcon_TypeDefinitionIndex = 12614;
 
 	class PropDailyIcon : public ::System::Object
 	{

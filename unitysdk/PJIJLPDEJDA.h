@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowBattleAvatarPanel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PJIJLPDEJDA_CTOR_OFFSET UNITYSDK_OFFSET(0xC284440)
-#define PJIJLPDEJDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC284470)
+#define PJIJLPDEJDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1478CDE0)
+#define PJIJLPDEJDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1478CE10)
 
-inline static constexpr unsigned int PJIJLPDEJDA_TypeDefinitionIndex = 58605;
+inline static constexpr unsigned int PJIJLPDEJDA_TypeDefinitionIndex = 59870;
 
 	class PJIJLPDEJDA
 	{

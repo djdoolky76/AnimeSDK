@@ -10,29 +10,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 
-#define HAMCAOCNLGB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B87610)
-#define HAMCAOCNLGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B87650)
-#define HAMCAOCNLGB___C__INIT_B__58_11_OFFSET UNITYSDK_OFFSET(0x15B87740)
-#define HAMCAOCNLGB___C__INIT_B__58_6_OFFSET UNITYSDK_OFFSET(0x15B87660)
+#define HAMCAOCNLGB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1434C0)
+#define HAMCAOCNLGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C143500)
+#define HAMCAOCNLGB___C__INIT_B__58_11_OFFSET UNITYSDK_OFFSET(0x1C1435F0)
+#define HAMCAOCNLGB___C__INIT_B__58_6_OFFSET UNITYSDK_OFFSET(0x1C143510)
 
-inline static constexpr unsigned int HAMCAOCNLGB___c_TypeDefinitionIndex = 79540;
+inline static constexpr unsigned int HAMCAOCNLGB___c_TypeDefinitionIndex = 82317;
 
 	class HAMCAOCNLGB___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::IALBJEGDCFI*, ::R3::Observable_1<::NKIJFPHFJCO*>*>** StaticGet___9__58_11()
+		{
+			return (::System::Func_2<::IALBJEGDCFI*, ::R3::Observable_1<::NKIJFPHFJCO*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73000);
+		}
+
 		static ::System::Func_2<::DGHDHELLBBC*, ::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>*>** StaticGet___9__58_6()
 		{
-			return (::System::Func_2<::DGHDHELLBBC*, ::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F1C0);
+			return (::System::Func_2<::DGHDHELLBBC*, ::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73008);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F1C8);
-		}
-
-		static ::System::Func_2<::IALBJEGDCFI*, ::R3::Observable_1<::NKIJFPHFJCO*>*>** StaticGet___9__58_11()
-		{
-			return (::System::Func_2<::IALBJEGDCFI*, ::R3::Observable_1<::NKIJFPHFJCO*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F1D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73010);
 		}
 
 		static ::System::Void _cctor()

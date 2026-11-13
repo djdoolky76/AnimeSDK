@@ -3,10 +3,10 @@
 #include "unitysdk/LEMPCCICHAA.h"
 namespace System { class String; }
 
-#define IGEFJPHFMII_CTOR_OFFSET UNITYSDK_OFFSET(0x163FD2D0)
-#define IGEFJPHFMII_KAJOBJFIAMJ_OFFSET UNITYSDK_OFFSET(0x163FD260)
+#define IGEFJPHFMII_CTOR_OFFSET UNITYSDK_OFFSET(0x19F59180)
+#define IGEFJPHFMII_KAJOBJFIAMJ_OFFSET UNITYSDK_OFFSET(0x19F59110)
 
-inline static constexpr unsigned int IGEFJPHFMII_TypeDefinitionIndex = 77568;
+inline static constexpr unsigned int IGEFJPHFMII_TypeDefinitionIndex = 80303;
 
 	class IGEFJPHFMII : public ::LEMPCCICHAA
 	{

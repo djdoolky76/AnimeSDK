@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimCrystalConfig; }
 
-#define MNJFHFEFFGF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8FF900)
-#define MNJFHFEFFGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FF950)
+#define MNJFHFEFFGF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C264A60)
+#define MNJFHFEFFGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C264AB0)
 
-inline static constexpr unsigned int MNJFHFEFFGF_TypeDefinitionIndex = 43515;
+inline static constexpr unsigned int MNJFHFEFFGF_TypeDefinitionIndex = 44497;
 
 	class MNJFHFEFFGF : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FiveDimCrystalConfig* EABKOHGCHFP; // 0x10
-		::MGHOGONCDLM BPAPBAFOMCH; // 0x18
+		::MGHOGONCDLM BPAPBAFOMCH; // 0x10
+		::RPG::GameCore::FiveDimCrystalConfig* EABKOHGCHFP; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MNJFHFEFFGF_CTOR_OFFSET))(this);

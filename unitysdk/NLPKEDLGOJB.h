@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RelateTimeRewindTargetMaterial; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NLPKEDLGOJB_CTOR_OFFSET UNITYSDK_OFFSET(0xBC72D80)
-#define NLPKEDLGOJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC72DB0)
+#define NLPKEDLGOJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A438D40)
+#define NLPKEDLGOJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A438D70)
 
-inline static constexpr unsigned int NLPKEDLGOJB_TypeDefinitionIndex = 53384;
+inline static constexpr unsigned int NLPKEDLGOJB_TypeDefinitionIndex = 54546;
 
 	class NLPKEDLGOJB
 	{

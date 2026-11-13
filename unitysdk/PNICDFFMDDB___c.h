@@ -4,18 +4,18 @@
 class PNICDFFMDDB;
 namespace System { class Object; }
 
-#define PNICDFFMDDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF8E180)
-#define PNICDFFMDDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF8E1C0)
-#define PNICDFFMDDB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF8E1D0)
+#define PNICDFFMDDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20207350)
+#define PNICDFFMDDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20207390)
+#define PNICDFFMDDB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x202073A0)
 
-inline static constexpr unsigned int PNICDFFMDDB___c_TypeDefinitionIndex = 34642;
+inline static constexpr unsigned int PNICDFFMDDB___c_TypeDefinitionIndex = 35570;
 
 	class PNICDFFMDDB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42640);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CF60);
 		}
 
 		static ::System::Void _cctor()

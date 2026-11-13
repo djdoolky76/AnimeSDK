@@ -4,18 +4,18 @@
 class NICENHFMLNE;
 namespace System { class Object; }
 
-#define NICENHFMLNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAF90E0)
-#define NICENHFMLNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF9110)
-#define NICENHFMLNE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EAF9120)
+#define NICENHFMLNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20416CB0)
+#define NICENHFMLNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20416CE0)
+#define NICENHFMLNE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x20416CF0)
 
-inline static constexpr unsigned int NICENHFMLNE___c_TypeDefinitionIndex = 34516;
+inline static constexpr unsigned int NICENHFMLNE___c_TypeDefinitionIndex = 35444;
 
 	class NICENHFMLNE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x650D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61570);
 		}
 
 		static ::System::Void _cctor()

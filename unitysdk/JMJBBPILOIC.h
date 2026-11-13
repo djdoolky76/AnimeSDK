@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JMJBBPILOIC_CTOR_OFFSET UNITYSDK_OFFSET(0xB262990)
+#define JMJBBPILOIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B1270)
 
-inline static constexpr unsigned int JMJBBPILOIC_TypeDefinitionIndex = 72402;
+inline static constexpr unsigned int JMJBBPILOIC_TypeDefinitionIndex = 74481;
 
 	class JMJBBPILOIC : public ::System::Object
 	{

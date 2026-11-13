@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int AGHJGIKJCNI_TypeDefinitionIndex = 6239;
+inline static constexpr unsigned int AGHJGIKJCNI_TypeDefinitionIndex = 6246;
 
 	struct alignas(4) AGHJGIKJCNI
 	{

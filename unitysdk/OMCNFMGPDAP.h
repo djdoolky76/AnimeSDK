@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OMCNFMGPDAP_TypeDefinitionIndex = 35079;
+inline static constexpr unsigned int OMCNFMGPDAP_TypeDefinitionIndex = 36007;
 
 	enum class OMCNFMGPDAP : ::System::Int32
 	{

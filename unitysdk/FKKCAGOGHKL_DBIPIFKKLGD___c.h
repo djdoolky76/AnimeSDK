@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define FKKCAGOGHKL_DBIPIFKKLGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x157F7930)
-#define FKKCAGOGHKL_DBIPIFKKLGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x157F7960)
-#define FKKCAGOGHKL_DBIPIFKKLGD___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x157F7970)
-#define FKKCAGOGHKL_DBIPIFKKLGD___C___CCTOR_B__6_1_OFFSET UNITYSDK_OFFSET(0x157F79D0)
-#define FKKCAGOGHKL_DBIPIFKKLGD___C___CCTOR_B__6_2_OFFSET UNITYSDK_OFFSET(0x157F7A30)
+#define FKKCAGOGHKL_DBIPIFKKLGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAADF90)
+#define FKKCAGOGHKL_DBIPIFKKLGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAADFC0)
+#define FKKCAGOGHKL_DBIPIFKKLGD___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x1AAADFD0)
+#define FKKCAGOGHKL_DBIPIFKKLGD___C___CCTOR_B__6_1_OFFSET UNITYSDK_OFFSET(0x1AAAE030)
+#define FKKCAGOGHKL_DBIPIFKKLGD___C___CCTOR_B__6_2_OFFSET UNITYSDK_OFFSET(0x1AAAE090)
 
-inline static constexpr unsigned int FKKCAGOGHKL_DBIPIFKKLGD___c_TypeDefinitionIndex = 59343;
+inline static constexpr unsigned int FKKCAGOGHKL_DBIPIFKKLGD___c_TypeDefinitionIndex = 60620;
 
 	class FKKCAGOGHKL_DBIPIFKKLGD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FB80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67540);
 		}
 
 		static ::System::Void _cctor()

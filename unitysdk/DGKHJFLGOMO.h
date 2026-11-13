@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define DGKHJFLGOMO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5BE4B0)
+#define DGKHJFLGOMO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA72DE0)
 
-inline static constexpr unsigned int DGKHJFLGOMO_TypeDefinitionIndex = 37051;
+inline static constexpr unsigned int DGKHJFLGOMO_TypeDefinitionIndex = 37979;
 
 	class DGKHJFLGOMO : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DGKHJFLGOMO")->GetStaticField(0x683A0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DGKHJFLGOMO")->GetStaticField(0x6F660);
 		}
 
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "DGKHJFLGOMO")->GetStaticField(0x683A8);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "DGKHJFLGOMO")->GetStaticField(0x6F668);
 		}
 
 		// static const ::System::Object JFPNDGAKHGH; // 0x0

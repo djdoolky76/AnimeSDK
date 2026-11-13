@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Challenge::Story { class ChallengeStoryFeverMazeBuffIconGroupControl; }
 
-#define RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC93AB00)
-#define RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL___C__DISPLAYCLASS15_0___ENSUREINITIALIZEINTERACTION_B__2_OFFSET UNITYSDK_OFFSET(0xC93AF40)
+#define RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD8070)
+#define RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL___C__DISPLAYCLASS15_0___ENSUREINITIALIZEINTERACTION_B__2_OFFSET UNITYSDK_OFFSET(0x1DDD84B0)
 
 namespace RPG::Client::Challenge::Story
 {
-	inline static constexpr unsigned int ChallengeStoryFeverMazeBuffIconGroupControl___c__DisplayClass15_0_TypeDefinitionIndex = 81637;
+	inline static constexpr unsigned int ChallengeStoryFeverMazeBuffIconGroupControl___c__DisplayClass15_0_TypeDefinitionIndex = 84418;
 
 	class ChallengeStoryFeverMazeBuffIconGroupControl___c__DisplayClass15_0 : public ::System::Object
 	{

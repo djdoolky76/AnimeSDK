@@ -10,14 +10,14 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml::Schema { class FacetsChecker; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE8FA10)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EE8F610)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE82B90)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EE8F5A0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE8F760)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EE8F600)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE8F700)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EE8F7C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2224D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D2220D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D215650)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1D222060)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1D222220)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1D2220C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1D2221C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDSHORT_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1D222280)
 
 namespace System::Xml::Schema
 {
@@ -28,17 +28,17 @@ namespace System::Xml::Schema
 	public:
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_unsignedShort")->GetStaticField(0x2DEF0);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_unsignedShort")->GetStaticField(0x1DE40);
 		}
 
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_unsignedShort")->GetStaticField(0x2DEF8);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_unsignedShort")->GetStaticField(0x1DE48);
 		}
 
 		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "Datatype_unsignedShort")->GetStaticField(0x2DF00);
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "Datatype_unsignedShort")->GetStaticField(0x1DE50);
 		}
 
 		::System::Void _ctor()

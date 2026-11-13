@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ConvinceHpChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IOIELMGKFAM_CTOR_OFFSET UNITYSDK_OFFSET(0x164F4E40)
-#define IOIELMGKFAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164F4E70)
+#define IOIELMGKFAM_CTOR_OFFSET UNITYSDK_OFFSET(0x192E2150)
+#define IOIELMGKFAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x192E2180)
 
-inline static constexpr unsigned int IOIELMGKFAM_TypeDefinitionIndex = 52704;
+inline static constexpr unsigned int IOIELMGKFAM_TypeDefinitionIndex = 53848;
 
 	class IOIELMGKFAM
 	{

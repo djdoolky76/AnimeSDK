@@ -4,8 +4,8 @@
 namespace System::Net::NetworkInformation { class NetworkInterface; }
 namespace System::Net::NetworkInformation { class NetworkInterfaceFactory; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMNETWORKINTERFACE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F043320)
-#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMNETWORKINTERFACE_GETNETWORKINTERFACES_OFFSET UNITYSDK_OFFSET(0x1F03FD20)
+#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMNETWORKINTERFACE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4225F0)
+#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMNETWORKINTERFACE_GETNETWORKINTERFACES_OFFSET UNITYSDK_OFFSET(0x1C41F080)
 
 namespace System::Net::NetworkInformation
 {
@@ -16,7 +16,7 @@ namespace System::Net::NetworkInformation
 	public:
 		static ::System::Net::NetworkInformation::NetworkInterfaceFactory** StaticGet_nif()
 		{
-			return (::System::Net::NetworkInformation::NetworkInterfaceFactory**)UnitySDK::FromName("System.Net.NetworkInformation", "SystemNetworkInterface")->GetStaticField(0x31BF0);
+			return (::System::Net::NetworkInformation::NetworkInterfaceFactory**)UnitySDK::FromName("System.Net.NetworkInformation", "SystemNetworkInterface")->GetStaticField(0x21C20);
 		}
 
 		static ::System::Void _cctor()

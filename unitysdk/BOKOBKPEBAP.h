@@ -3,10 +3,10 @@
 namespace RPG::Client { class FateGameData; }
 namespace System { class String; }
 
-#define BOKOBKPEBAP_CTOR_OFFSET UNITYSDK_OFFSET(0xC193B60)
-#define BOKOBKPEBAP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xC193940)
+#define BOKOBKPEBAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5EF150)
+#define BOKOBKPEBAP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x1B5EEF30)
 
-inline static constexpr unsigned int BOKOBKPEBAP_TypeDefinitionIndex = 63996;
+inline static constexpr unsigned int BOKOBKPEBAP_TypeDefinitionIndex = 65441;
 
 	class BOKOBKPEBAP
 	{

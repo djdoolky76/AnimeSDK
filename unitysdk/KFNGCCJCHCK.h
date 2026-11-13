@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SkipPopupUIOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KFNGCCJCHCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB3BEE50)
-#define KFNGCCJCHCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3BEE80)
+#define KFNGCCJCHCK_CTOR_OFFSET UNITYSDK_OFFSET(0x177083E0)
+#define KFNGCCJCHCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17708410)
 
-inline static constexpr unsigned int KFNGCCJCHCK_TypeDefinitionIndex = 55623;
+inline static constexpr unsigned int KFNGCCJCHCK_TypeDefinitionIndex = 56821;
 
 	class KFNGCCJCHCK
 	{

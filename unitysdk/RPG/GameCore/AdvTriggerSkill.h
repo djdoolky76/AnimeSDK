@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvTriggerSkill; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVTRIGGERSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D386A50)
-#define RPG_GAMECORE_ADVTRIGGERSKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D386A60)
-#define RPG_GAMECORE_ADVTRIGGERSKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D386A20)
+#define RPG_GAMECORE_ADVTRIGGERSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E85F0)
+#define RPG_GAMECORE_ADVTRIGGERSKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8E8600)
+#define RPG_GAMECORE_ADVTRIGGERSKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E85C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvTriggerSkill_TypeDefinitionIndex = 20535;
+	inline static constexpr unsigned int AdvTriggerSkill_TypeDefinitionIndex = 20871;
 
 	class AdvTriggerSkill : public ::RPG::GameCore::TaskConfig
 	{

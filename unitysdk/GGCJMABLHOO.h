@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int GGCJMABLHOO_TypeDefinitionIndex = 6284;
+inline static constexpr unsigned int GGCJMABLHOO_TypeDefinitionIndex = 6291;
 
 	struct alignas(4) GGCJMABLHOO
 	{

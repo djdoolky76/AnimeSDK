@@ -4,23 +4,23 @@
 class FDPALAEIHPB;
 class PEMFMPIPNJN;
 
-#define BJGDNAEJHLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88CF00)
-#define BJGDNAEJHLB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C88CF20)
-#define BJGDNAEJHLB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1C88D460)
+#define BJGDNAEJHLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B76C0)
+#define BJGDNAEJHLB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D2B76E0)
+#define BJGDNAEJHLB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1D2B7C20)
 
-inline static constexpr unsigned int BJGDNAEJHLB_TypeDefinitionIndex = 42466;
+inline static constexpr unsigned int BJGDNAEJHLB_TypeDefinitionIndex = 43441;
 
 	class BJGDNAEJHLB : public ::System::Object
 	{
 	public:
-		static ::PEMFMPIPNJN** StaticGet_FKGGBEAELPE()
-		{
-			return (::PEMFMPIPNJN**)UnitySDK::FromName("", "BJGDNAEJHLB")->GetStaticField(0x2CEC0);
-		}
-
 		static ::FDPALAEIHPB** StaticGet_BJPFDPILDDK()
 		{
-			return (::FDPALAEIHPB**)UnitySDK::FromName("", "BJGDNAEJHLB")->GetStaticField(0x2CEC8);
+			return (::FDPALAEIHPB**)UnitySDK::FromName("", "BJGDNAEJHLB")->GetStaticField(0x17020);
+		}
+
+		static ::PEMFMPIPNJN** StaticGet_FKGGBEAELPE()
+		{
+			return (::PEMFMPIPNJN**)UnitySDK::FromName("", "BJGDNAEJHLB")->GetStaticField(0x17028);
 		}
 
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::PEMFMPIPNJN* a2)

@@ -7,31 +7,31 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterProcessEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKJAGJJCHGJ_APCGKNBLMPE_OFFSET UNITYSDK_OFFSET(0x154FBEB0)
-#define EKJAGJJCHGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x154FAAA0)
-#define EKJAGJJCHGJ_GEJCDMKONEB_OFFSET UNITYSDK_OFFSET(0x154FADA0)
-#define EKJAGJJCHGJ_JAHEGOPGECP_OFFSET UNITYSDK_OFFSET(0x154FBC10)
-#define EKJAGJJCHGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154FAAC0)
-#define EKJAGJJCHGJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x154FB9E0)
-#define EKJAGJJCHGJ_TICK_OFFSET UNITYSDK_OFFSET(0x154FBA30)
+#define EKJAGJJCHGJ_APCGKNBLMPE_OFFSET UNITYSDK_OFFSET(0x19991980)
+#define EKJAGJJCHGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19990580)
+#define EKJAGJJCHGJ_GEJCDMKONEB_OFFSET UNITYSDK_OFFSET(0x19990870)
+#define EKJAGJJCHGJ_JAHEGOPGECP_OFFSET UNITYSDK_OFFSET(0x199916E0)
+#define EKJAGJJCHGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199905A0)
+#define EKJAGJJCHGJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x199914B0)
+#define EKJAGJJCHGJ_TICK_OFFSET UNITYSDK_OFFSET(0x19991500)
 
-inline static constexpr unsigned int EKJAGJJCHGJ_TypeDefinitionIndex = 52171;
+inline static constexpr unsigned int EKJAGJJCHGJ_TypeDefinitionIndex = 53276;
 
 	class EKJAGJJCHGJ
 	{
 	public:
 		::RPG::Client::ElfRestaurantGameInstance* OFLDOAIGGDH; // 0x28
 		::RPG::Client::LittleGame::ElfRestaurantGameEntity* PBCEKCMKJNB; // 0x30
-		::UnityEngine::Quaternion HBAIICJGPGC; // 0x38
-		::System::Single PGMIOKKLHIE; // 0x48
-		::System::Single KLBFFEFFJID; // 0x4C
-		::System::Single FMLMBCPKBMC; // 0x50
-		::UnityEngine::Vector3 OIMMGKNHKOA; // 0x54
-		::UnityEngine::Vector3 FCAOOKFEOHC; // 0x60
-		::System::Single ILENJCMADMG; // 0x6C
-		::System::Boolean ADLOALLJMOB; // 0x70
+		::UnityEngine::Quaternion ACDOFFNEDEF; // 0x38
+		::System::Single FMLMBCPKBMC; // 0x48
+		::System::Single PGMIOKKLHIE; // 0x4C
+		::UnityEngine::Vector3 OIMMGKNHKOA; // 0x50
+		::System::Single ILENJCMADMG; // 0x5C
+		::UnityEngine::Quaternion HBAIICJGPGC; // 0x60
+		::System::Single KLBFFEFFJID; // 0x70
+		::System::Boolean ADLOALLJMOB; // 0x74
 		::System::Byte _padding0[0x3];
-		::UnityEngine::Quaternion ACDOFFNEDEF; // 0x74
+		::UnityEngine::Vector3 FCAOOKFEOHC; // 0x78
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterProcessEvent* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_ElfWaiterProcessEvent*))((::PBYTE)hIl2Cpp + EKJAGJJCHGJ_CTOR_OFFSET))(this, a1, a2);

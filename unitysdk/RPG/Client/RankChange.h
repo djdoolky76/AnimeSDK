@@ -6,23 +6,23 @@ namespace RPG::GameCore { class AvatarRankConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RANKCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE48F20)
-#define RPG_CLIENT_RANKCHANGE_GETCOMMENTS_OFFSET UNITYSDK_OFFSET(0xDE492D0)
-#define RPG_CLIENT_RANKCHANGE_GET_DESCAFTER_OFFSET UNITYSDK_OFFSET(0xDE491A0)
-#define RPG_CLIENT_RANKCHANGE_GET_DESCBEFORE_OFFSET UNITYSDK_OFFSET(0xDE49070)
-#define RPG_CLIENT_RANKCHANGE_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xDE48F80)
-#define RPG_CLIENT_RANKCHANGE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDE48FD0)
-#define RPG_CLIENT_RANKCHANGE_GET_RANK_OFFSET UNITYSDK_OFFSET(0xDE48F30)
+#define RPG_CLIENT_RANKCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D06B670)
+#define RPG_CLIENT_RANKCHANGE_GETCOMMENTS_OFFSET UNITYSDK_OFFSET(0x1D06BA20)
+#define RPG_CLIENT_RANKCHANGE_GET_DESCAFTER_OFFSET UNITYSDK_OFFSET(0x1D06B8F0)
+#define RPG_CLIENT_RANKCHANGE_GET_DESCBEFORE_OFFSET UNITYSDK_OFFSET(0x1D06B7C0)
+#define RPG_CLIENT_RANKCHANGE_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1D06B6D0)
+#define RPG_CLIENT_RANKCHANGE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1D06B720)
+#define RPG_CLIENT_RANKCHANGE_GET_RANK_OFFSET UNITYSDK_OFFSET(0x1D06B680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RankChange_TypeDefinitionIndex = 62492;
+	inline static constexpr unsigned int RankChange_TypeDefinitionIndex = 63905;
 
 	class RankChange : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarRankConfigRow* BeforeRank; // 0x10
-		::RPG::GameCore::AvatarRankConfigRow* AfterRank; // 0x18
+		::RPG::GameCore::AvatarRankConfigRow* AfterRank; // 0x10
+		::RPG::GameCore::AvatarRankConfigRow* BeforeRank; // 0x18
 		::System::Void _ctor(::RPG::GameCore::AvatarRankConfigRow* a1, ::RPG::GameCore::AvatarRankConfigRow* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarRankConfigRow*, ::RPG::GameCore::AvatarRankConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANKCHANGE_CTOR_OFFSET))(this, a1, a2);

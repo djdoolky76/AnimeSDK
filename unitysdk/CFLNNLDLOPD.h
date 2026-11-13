@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleSpecialSkillMark; }
 
-#define CFLNNLDLOPD_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4E110)
-#define CFLNNLDLOPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC4E140)
+#define CFLNNLDLOPD_CTOR_OFFSET UNITYSDK_OFFSET(0x17826E60)
+#define CFLNNLDLOPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17826E90)
 
-inline static constexpr unsigned int CFLNNLDLOPD_TypeDefinitionIndex = 47619;
+inline static constexpr unsigned int CFLNNLDLOPD_TypeDefinitionIndex = 48649;
 
 	class CFLNNLDLOPD
 	{

@@ -7,7 +7,7 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournWeekChallengeData_ObjectLevelSegmentedList_1___c_TypeDefinitionIndex = 67882;
+	inline static constexpr unsigned int RogueTournWeekChallengeData_ObjectLevelSegmentedList_1___c_TypeDefinitionIndex = 69827;
 
 	template <typename T>
 	class RogueTournWeekChallengeData_ObjectLevelSegmentedList_1___c : public ::System::Object

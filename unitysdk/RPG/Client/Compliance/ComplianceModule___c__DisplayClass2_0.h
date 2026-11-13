@@ -5,18 +5,18 @@
 namespace RPG::Client::Compliance { class ComplianceModule; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBA4480)
-#define RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE___C__DISPLAYCLASS2_0__DOFTCDIRECTPURCHASE_B__0_OFFSET UNITYSDK_OFFSET(0xCBA4C30)
+#define RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C986C90)
+#define RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE___C__DISPLAYCLASS2_0__DOFTCDIRECTPURCHASE_B__0_OFFSET UNITYSDK_OFFSET(0x1C987490)
 
 namespace RPG::Client::Compliance
 {
-	inline static constexpr unsigned int ComplianceModule___c__DisplayClass2_0_TypeDefinitionIndex = 74810;
+	inline static constexpr unsigned int ComplianceModule___c__DisplayClass2_0_TypeDefinitionIndex = 76980;
 
 	class ComplianceModule___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::RPG::Client::PayProductResult>* onResult; // 0x10
-		::RPG::Client::Compliance::ComplianceModule* __4__this; // 0x18
+		::RPG::Client::Compliance::ComplianceModule* __4__this; // 0x10
+		::System::Action_1<::RPG::Client::PayProductResult>* onResult; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

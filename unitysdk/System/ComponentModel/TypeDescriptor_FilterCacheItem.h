@@ -4,8 +4,8 @@
 namespace System::Collections { class ICollection; }
 namespace System::ComponentModel::Design { class ITypeDescriptorFilterService; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5850)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EFD5840)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C192170)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C192160)
 
 namespace System::ComponentModel
 {
@@ -14,8 +14,8 @@ namespace System::ComponentModel
 	class TypeDescriptor_FilterCacheItem : public ::System::Object
 	{
 	public:
-		::System::Collections::ICollection* FilteredMembers; // 0x10
-		::System::ComponentModel::Design::ITypeDescriptorFilterService* _filterService; // 0x18
+		::System::ComponentModel::Design::ITypeDescriptorFilterService* _filterService; // 0x10
+		::System::Collections::ICollection* FilteredMembers; // 0x18
 		::System::Void _ctor(::System::ComponentModel::Design::ITypeDescriptorFilterService* a1, ::System::Collections::ICollection* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::Design::ITypeDescriptorFilterService*, ::System::Collections::ICollection*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_FILTERCACHEITEM_CTOR_OFFSET))(this, a1, a2);

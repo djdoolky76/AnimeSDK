@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimMoneyConfig; }
 
-#define GGDLAMHKDLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73960)
+#define GGDLAMHKDLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA79A20)
 
-inline static constexpr unsigned int GGDLAMHKDLA_TypeDefinitionIndex = 43481;
+inline static constexpr unsigned int GGDLAMHKDLA_TypeDefinitionIndex = 44463;
 
 	class GGDLAMHKDLA : public ::System::Object
 	{

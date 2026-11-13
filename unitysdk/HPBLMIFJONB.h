@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_SetAIVariableFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HPBLMIFJONB_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB4F90)
-#define HPBLMIFJONB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DB4FC0)
+#define HPBLMIFJONB_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2F4F0)
+#define HPBLMIFJONB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AF2F520)
 
-inline static constexpr unsigned int HPBLMIFJONB_TypeDefinitionIndex = 52102;
+inline static constexpr unsigned int HPBLMIFJONB_TypeDefinitionIndex = 53207;
 
 	class HPBLMIFJONB
 	{

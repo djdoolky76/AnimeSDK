@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_UPLOADER_BASEUPLOADERWORKER_CTOR_OFFSET UNITYSDK_OFFSET(0xB064730)
+#define MIHOYO_SDK_UPLOADER_BASEUPLOADERWORKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0BC90)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int BaseUploaderWorker_TypeDefinitionIndex = 46658;
+	inline static constexpr unsigned int BaseUploaderWorker_TypeDefinitionIndex = 47686;
 
 	class BaseUploaderWorker : public ::System::Object
 	{

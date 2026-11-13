@@ -4,18 +4,18 @@
 class NAGIOAKDDMJ;
 namespace System { class Object; }
 
-#define NAGIOAKDDMJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA956E0)
-#define NAGIOAKDDMJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA95720)
-#define NAGIOAKDDMJ___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1EA95730)
+#define NAGIOAKDDMJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2014AE90)
+#define NAGIOAKDDMJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2014AED0)
+#define NAGIOAKDDMJ___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x2014AEE0)
 
-inline static constexpr unsigned int NAGIOAKDDMJ___c_TypeDefinitionIndex = 25119;
+inline static constexpr unsigned int NAGIOAKDDMJ___c_TypeDefinitionIndex = 25597;
 
 	class NAGIOAKDDMJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B20);
 		}
 
 		static ::System::Void _cctor()

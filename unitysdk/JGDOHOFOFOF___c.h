@@ -4,18 +4,18 @@
 class JGDOHOFOFOF;
 namespace System { class Object; }
 
-#define JGDOHOFOFOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E70B500)
-#define JGDOHOFOFOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E70B530)
-#define JGDOHOFOFOF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E70B540)
+#define JGDOHOFOFOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2049FF90)
+#define JGDOHOFOFOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2049FFC0)
+#define JGDOHOFOFOF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2049FFD0)
 
-inline static constexpr unsigned int JGDOHOFOFOF___c_TypeDefinitionIndex = 31506;
+inline static constexpr unsigned int JGDOHOFOFOF___c_TypeDefinitionIndex = 32419;
 
 	class JGDOHOFOFOF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E3F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x601A0);
 		}
 
 		static ::System::Void _cctor()

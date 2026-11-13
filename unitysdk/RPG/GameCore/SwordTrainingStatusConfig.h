@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingStatusConfig; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTATUSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB20120)
-#define RPG_GAMECORE_SWORDTRAININGSTATUSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB20000)
+#define RPG_GAMECORE_SWORDTRAININGSTATUSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68FC00)
+#define RPG_GAMECORE_SWORDTRAININGSTATUSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E68FAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStatusConfig_TypeDefinitionIndex = 12422;
+	inline static constexpr unsigned int SwordTrainingStatusConfig_TypeDefinitionIndex = 12489;
 
 	class SwordTrainingStatusConfig : public ::System::Object
 	{

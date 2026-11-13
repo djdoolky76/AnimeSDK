@@ -5,16 +5,16 @@ class JBKNCCIENIP;
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIMCPBPFGMB___C__DISPLAYCLASS53_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC267EB0)
-#define PIMCPBPFGMB___C__DISPLAYCLASS53_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC268860)
+#define PIMCPBPFGMB___C__DISPLAYCLASS53_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D4410)
+#define PIMCPBPFGMB___C__DISPLAYCLASS53_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1A9D4DC0)
 
-inline static constexpr unsigned int PIMCPBPFGMB___c__DisplayClass53_0_TypeDefinitionIndex = 81613;
+inline static constexpr unsigned int PIMCPBPFGMB___c__DisplayClass53_0_TypeDefinitionIndex = 84394;
 
 	class PIMCPBPFGMB___c__DisplayClass53_0 : public ::System::Object
 	{
 	public:
-		::JBKNCCIENIP* windowService; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* rewardItems; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* rewardItems; // 0x10
+		::JBKNCCIENIP* windowService; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMCPBPFGMB___C__DISPLAYCLASS53_0_CTOR_OFFSET))(this);

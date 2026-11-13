@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPERMISSIONREASON_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF05D90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPERMISSIONREASON_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF82400)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelPermissionReason_TypeDefinitionIndex = 8694;
+	inline static constexpr unsigned int HoYoChannelPermissionReason_TypeDefinitionIndex = 8703;
 
 	class HoYoChannelPermissionReason : public ::System::Object
 	{

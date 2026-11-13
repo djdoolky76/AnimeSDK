@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CMIJJCMEOHI_MixerType_TypeDefinitionIndex = 73566;
+inline static constexpr unsigned int CMIJJCMEOHI_MixerType_TypeDefinitionIndex = 75689;
 
 	enum class CMIJJCMEOHI_MixerType : ::System::Int32
 	{

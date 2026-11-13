@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_TIMEDURATIONDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB6D80)
+#define MIHOYO_SDK_TIMEDURATIONDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04BB00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TimeDurationDefine_TypeDefinitionIndex = 7599;
+	inline static constexpr unsigned int TimeDurationDefine_TypeDefinitionIndex = 7608;
 
 	class TimeDurationDefine : public ::System::Object
 	{

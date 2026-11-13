@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropCurveMoveRecover; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LADEKGAKNMN_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D47E0)
-#define LADEKGAKNMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5D4810)
+#define LADEKGAKNMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B278710)
+#define LADEKGAKNMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B278740)
 
-inline static constexpr unsigned int LADEKGAKNMN_TypeDefinitionIndex = 58308;
+inline static constexpr unsigned int LADEKGAKNMN_TypeDefinitionIndex = 59564;
 
 	class LADEKGAKNMN
 	{

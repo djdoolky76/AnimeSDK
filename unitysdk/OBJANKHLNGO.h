@@ -7,18 +7,18 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define OBJANKHLNGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5D100)
-#define OBJANKHLNGO_IKLFLLHAODA_OFFSET UNITYSDK_OFFSET(0x1EC5CF30)
-#define OBJANKHLNGO_JFIAEFHJCEP_OFFSET UNITYSDK_OFFSET(0x1EC5C790)
-#define OBJANKHLNGO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1EC5CF70)
+#define OBJANKHLNGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E546C50)
+#define OBJANKHLNGO_IKLFLLHAODA_OFFSET UNITYSDK_OFFSET(0x1E546A80)
+#define OBJANKHLNGO_JFIAEFHJCEP_OFFSET UNITYSDK_OFFSET(0x1E5462E0)
+#define OBJANKHLNGO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1E546AC0)
 
-inline static constexpr unsigned int OBJANKHLNGO_TypeDefinitionIndex = 44264;
+inline static constexpr unsigned int OBJANKHLNGO_TypeDefinitionIndex = 45339;
 
 	class OBJANKHLNGO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, ::System::Type*>, ::System::Object*>* FNBNFCIKKEA; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::System::Object*>*>* LKPPOEGEPIG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::System::Object*>*>* LKPPOEGEPIG; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, ::System::Type*>, ::System::Object*>* FNBNFCIKKEA; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJANKHLNGO_CTOR_OFFSET))(this);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class NFCPIKFFCNA;
 
-#define EMEJJBKGBHI_OGEOKMHLJCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4436E0)
+#define EMEJJBKGBHI_OGEOKMHLJCI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B03BE0)
 
-inline static constexpr unsigned int EMEJJBKGBHI_OGEOKMHLJCI_TypeDefinitionIndex = 41587;
+inline static constexpr unsigned int EMEJJBKGBHI_OGEOKMHLJCI_TypeDefinitionIndex = 42562;
 
 	class EMEJJBKGBHI_OGEOKMHLJCI : public ::System::Object
 	{

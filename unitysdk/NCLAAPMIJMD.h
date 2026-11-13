@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace ScenenLightManager { class Tup; }
 
-#define NCLAAPMIJMD_COMPARE_OFFSET UNITYSDK_OFFSET(0xBB0EB70)
-#define NCLAAPMIJMD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0EC00)
+#define NCLAAPMIJMD_COMPARE_OFFSET UNITYSDK_OFFSET(0x15100970)
+#define NCLAAPMIJMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15100A00)
 
-inline static constexpr unsigned int NCLAAPMIJMD_TypeDefinitionIndex = 49165;
+inline static constexpr unsigned int NCLAAPMIJMD_TypeDefinitionIndex = 50241;
 
 	class NCLAAPMIJMD : public ::System::Object
 	{

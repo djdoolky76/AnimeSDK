@@ -3,10 +3,10 @@
 #include "unitysdk/UnityEngine/Rendering/CullMode.h"
 #include "unitysdk/UnityEngine/Rendering/RasterState.h"
 
-#define SERIALIZEDRASTERSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0xF97A0)
-#define SERIALIZEDRASTERSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0xF9830)
+#define SERIALIZEDRASTERSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0x3E6CBC0)
+#define SERIALIZEDRASTERSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0x3E6CC50)
 
-inline static constexpr unsigned int SerializedRasterState_TypeDefinitionIndex = 47416;
+inline static constexpr unsigned int SerializedRasterState_TypeDefinitionIndex = 48445;
 
 	struct alignas(4) SerializedRasterState
 	{

@@ -5,11 +5,11 @@ class CIFFEJCJFDJ;
 class LBPCONKMBIK;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CJFNPDDFAMB_CTOR_OFFSET UNITYSDK_OFFSET(0xD1FDA30)
-#define CJFNPDDFAMB_GET_RECORDS_OFFSET UNITYSDK_OFFSET(0xD1FDA20)
-#define CJFNPDDFAMB_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xD1FDAB0)
+#define CJFNPDDFAMB_CTOR_OFFSET UNITYSDK_OFFSET(0x177C8D40)
+#define CJFNPDDFAMB_GET_RECORDS_OFFSET UNITYSDK_OFFSET(0x177C8D30)
+#define CJFNPDDFAMB_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0x177C8DC0)
 
-inline static constexpr unsigned int CJFNPDDFAMB_TypeDefinitionIndex = 63928;
+inline static constexpr unsigned int CJFNPDDFAMB_TypeDefinitionIndex = 65370;
 
 	class CJFNPDDFAMB : public ::System::Object
 	{

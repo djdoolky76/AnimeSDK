@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareControlSkillEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOOCMABPNDM_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB1370)
-#define HOOCMABPNDM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DB13A0)
+#define HOOCMABPNDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2AF10)
+#define HOOCMABPNDM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AF2AF40)
 
-inline static constexpr unsigned int HOOCMABPNDM_TypeDefinitionIndex = 54524;
+inline static constexpr unsigned int HOOCMABPNDM_TypeDefinitionIndex = 55689;
 
 	class HOOCMABPNDM
 	{

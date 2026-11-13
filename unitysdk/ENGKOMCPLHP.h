@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePreShowStanceBreakMonsterRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ENGKOMCPLHP_CTOR_OFFSET UNITYSDK_OFFSET(0x155A0C40)
-#define ENGKOMCPLHP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155A0C70)
+#define ENGKOMCPLHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1880BC50)
+#define ENGKOMCPLHP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1880BC80)
 
-inline static constexpr unsigned int ENGKOMCPLHP_TypeDefinitionIndex = 54708;
+inline static constexpr unsigned int ENGKOMCPLHP_TypeDefinitionIndex = 55875;
 
 	class ENGKOMCPLHP
 	{

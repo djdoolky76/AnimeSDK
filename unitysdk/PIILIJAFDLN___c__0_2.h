@@ -5,7 +5,7 @@ class AOBICCEGAMM;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-inline static constexpr unsigned int PIILIJAFDLN___c__0_2_TypeDefinitionIndex = 67154;
+inline static constexpr unsigned int PIILIJAFDLN___c__0_2_TypeDefinitionIndex = 69098;
 
 	template <typename T1, typename T2>
 	class PIILIJAFDLN___c__0_2 : public ::System::Object

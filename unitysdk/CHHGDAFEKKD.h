@@ -7,27 +7,27 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CHHGDAFEKKD_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xCF43590)
-#define CHHGDAFEKKD_AHBJHKPHOKC_OFFSET UNITYSDK_OFFSET(0xCF436C0)
-#define CHHGDAFEKKD_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF437F0)
-#define CHHGDAFEKKD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF437E0)
-#define CHHGDAFEKKD_DBCJCOGGODF_OFFSET UNITYSDK_OFFSET(0xCF43120)
-#define CHHGDAFEKKD_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0xCF42BC0)
-#define CHHGDAFEKKD_KADJIDHNIEM_OFFSET UNITYSDK_OFFSET(0xCF42F30)
+#define CHHGDAFEKKD_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x16E17B30)
+#define CHHGDAFEKKD_AHBJHKPHOKC_OFFSET UNITYSDK_OFFSET(0x16E17C60)
+#define CHHGDAFEKKD_CCTOR_OFFSET UNITYSDK_OFFSET(0x16E17D90)
+#define CHHGDAFEKKD_CTOR_OFFSET UNITYSDK_OFFSET(0x16E17D80)
+#define CHHGDAFEKKD_DBCJCOGGODF_OFFSET UNITYSDK_OFFSET(0x16E176C0)
+#define CHHGDAFEKKD_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x16E17160)
+#define CHHGDAFEKKD_KADJIDHNIEM_OFFSET UNITYSDK_OFFSET(0x16E174D0)
 
-inline static constexpr unsigned int CHHGDAFEKKD_TypeDefinitionIndex = 48643;
+inline static constexpr unsigned int CHHGDAFEKKD_TypeDefinitionIndex = 49685;
 
 	class CHHGDAFEKKD : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_DEIAMJBMIJC()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("", "CHHGDAFEKKD")->GetStaticField(0x2C090);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("", "CHHGDAFEKKD")->GetStaticField(0x15E70);
 		}
 
 		static ::System::Int32* StaticGet_BJFDNCIIEJH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "CHHGDAFEKKD")->GetStaticField(0x9410);
+			return (::System::Int32*)UnitySDK::FromName("", "CHHGDAFEKKD")->GetStaticField(0x4E10);
 		}
 
 		::System::Void _ctor()

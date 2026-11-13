@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GJPBCNIIEOB_Mode_TypeDefinitionIndex = 71262;
+inline static constexpr unsigned int GJPBCNIIEOB_Mode_TypeDefinitionIndex = 73239;
 
 	enum class GJPBCNIIEOB_Mode : ::System::Int32
 	{

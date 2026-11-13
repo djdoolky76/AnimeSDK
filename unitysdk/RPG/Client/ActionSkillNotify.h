@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_ACTIONSKILLNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0xC3AC880)
+#define RPG_CLIENT_ACTIONSKILLNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1B776AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActionSkillNotify_TypeDefinitionIndex = 72353;
+	inline static constexpr unsigned int ActionSkillNotify_TypeDefinitionIndex = 74432;
 
 	class ActionSkillNotify : public ::System::Object
 	{

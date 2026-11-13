@@ -6,31 +6,31 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::IO { class FileInfo; }
 namespace ZenFulcrum::EmbeddedBrowser { class WebResources_ResponsePreamble; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F643280)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6405F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1F6426B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDEND_OFFSET UNITYSDK_OFFSET(0x1F642E80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDERROR_OFFSET UNITYSDK_OFFSET(0x1F640DB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDFILE_OFFSET UNITYSDK_OFFSET(0x1F643180)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDPREAMBLE_OFFSET UNITYSDK_OFFSET(0x1F642080)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDRESPONSE_1_OFFSET UNITYSDK_OFFSET(0x1F642FA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDRESPONSE_OFFSET UNITYSDK_OFFSET(0x1F642D40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1C25E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1BF950)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1F1C1A10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDEND_OFFSET UNITYSDK_OFFSET(0x1F1C21E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDERROR_OFFSET UNITYSDK_OFFSET(0x1F1C0110)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDFILE_OFFSET UNITYSDK_OFFSET(0x1F1C24E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDPREAMBLE_OFFSET UNITYSDK_OFFSET(0x1F1C13E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDRESPONSE_1_OFFSET UNITYSDK_OFFSET(0x1F1C2300)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDRESPONSE_OFFSET UNITYSDK_OFFSET(0x1F1C20A0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int WebResources_TypeDefinitionIndex = 39572;
+	inline static constexpr unsigned int WebResources_TypeDefinitionIndex = 40501;
 
 	class WebResources : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_statusTexts()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "WebResources")->GetStaticField(0x467D0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "WebResources")->GetStaticField(0x48110);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_extensionMimeTypes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "WebResources")->GetStaticField(0x467D8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "WebResources")->GetStaticField(0x48118);
 		}
 
 		::System::Void _ctor()

@@ -5,25 +5,26 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::GameCore { class AdventureWaitCameraLookAtTransition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMNGDAIMCEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1557B560)
-#define AMNGDAIMCEK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1557B570)
-#define AMNGDAIMCEK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1557B5C0)
-#define AMNGDAIMCEK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1557B7E0)
-#define AMNGDAIMCEK_TICK_OFFSET UNITYSDK_OFFSET(0x1557B830)
+#define AMNGDAIMCEK_CTOR_OFFSET UNITYSDK_OFFSET(0x197E1430)
+#define AMNGDAIMCEK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x197E1440)
+#define AMNGDAIMCEK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197E1490)
+#define AMNGDAIMCEK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x197E16B0)
+#define AMNGDAIMCEK_TICK_OFFSET UNITYSDK_OFFSET(0x197E1700)
 
-inline static constexpr unsigned int AMNGDAIMCEK_TypeDefinitionIndex = 54835;
+inline static constexpr unsigned int AMNGDAIMCEK_TypeDefinitionIndex = 56005;
 
 	class AMNGDAIMCEK : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::Client::CameraDataAndFlags* OEPENBEJDCN; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::AdventureWaitCameraLookAtTransition* OFKGLJOAMLD; // 0x28
-		::System::Single IPNKKELPHFI; // 0x30
-		::System::Single HEOGMNJDFAH; // 0x34
-		::System::Single ENDEDGKHCCO; // 0x38
-		::System::Boolean AOFHEKMDFKA; // 0x3C
-		::System::Boolean JOJNLNCPKFB; // 0x3D
+		::RPG::GameCore::AdventureWaitCameraLookAtTransition* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::System::Single ENDEDGKHCCO; // 0x30
+		::System::Boolean AOFHEKMDFKA; // 0x34
+		::System::Boolean JOJNLNCPKFB; // 0x35
+		::System::Byte _padding0[0x2];
+		::System::Single IPNKKELPHFI; // 0x38
+		::System::Single HEOGMNJDFAH; // 0x3C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdventureWaitCameraLookAtTransition* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdventureWaitCameraLookAtTransition*))((::PBYTE)hIl2Cpp + AMNGDAIMCEK_CTOR_OFFSET))(this, a1, a2);

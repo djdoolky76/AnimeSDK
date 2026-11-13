@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsIndirectDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNDJAKIIDPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1585F3A0)
-#define FNDJAKIIDPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1585F3D0)
+#define FNDJAKIIDPF_CTOR_OFFSET UNITYSDK_OFFSET(0x17F121D0)
+#define FNDJAKIIDPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17F12200)
 
-inline static constexpr unsigned int FNDJAKIIDPF_TypeDefinitionIndex = 54672;
+inline static constexpr unsigned int FNDJAKIIDPF_TypeDefinitionIndex = 55838;
 
 	class FNDJAKIIDPF
 	{

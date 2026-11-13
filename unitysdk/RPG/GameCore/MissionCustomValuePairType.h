@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValuePairType_TypeDefinitionIndex = 18984;
+	inline static constexpr unsigned int MissionCustomValuePairType_TypeDefinitionIndex = 19171;
 
 	enum class MissionCustomValuePairType : ::System::Int32
 	{

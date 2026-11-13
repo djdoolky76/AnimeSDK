@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class AccountPlatABTestInfo; }
 
-#define MIHOYO_SDK_ACCOUNTPLATCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC08B90)
+#define MIHOYO_SDK_ACCOUNTPLATCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4441B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatConfig_TypeDefinitionIndex = 7903;
+	inline static constexpr unsigned int AccountPlatConfig_TypeDefinitionIndex = 7912;
 
 	class AccountPlatConfig : public ::System::Object
 	{

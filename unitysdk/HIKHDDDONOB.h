@@ -8,25 +8,25 @@ namespace RPG::GameCore { class WaitPropCurveMoveFinish; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define HIKHDDDONOB_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE3430)
-#define HIKHDDDONOB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CE34B0)
-#define HIKHDDDONOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CE36D0)
-#define HIKHDDDONOB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15CE3600)
-#define HIKHDDDONOB_PMNFDCPMFHI_OFFSET UNITYSDK_OFFSET(0x15CE3950)
-#define HIKHDDDONOB_TICK_OFFSET UNITYSDK_OFFSET(0x15CE3870)
+#define HIKHDDDONOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1903D530)
+#define HIKHDDDONOB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1903D5B0)
+#define HIKHDDDONOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1903D820)
+#define HIKHDDDONOB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1903D720)
+#define HIKHDDDONOB_PMNFDCPMFHI_OFFSET UNITYSDK_OFFSET(0x1903DA80)
+#define HIKHDDDONOB_TICK_OFFSET UNITYSDK_OFFSET(0x1903D9E0)
 
-inline static constexpr unsigned int HIKHDDDONOB_TypeDefinitionIndex = 58915;
+inline static constexpr unsigned int HIKHDDDONOB_TypeDefinitionIndex = 60188;
 
 	class HIKHDDDONOB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x18
-		::System::String* IJMGEMMNNPI; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x20
 		::RPG::GameCore::WaitPropCurveMoveFinish* OFKGLJOAMLD; // 0x28
-		::KFELGAIGHAP* HFOFIODMFGB; // 0x30
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
-		::System::UInt32 NNGMJFCCMAI; // 0x40
-		::System::UInt32 MDFOOOPHGKC; // 0x44
+		::System::String* IJMGEMMNNPI; // 0x30
+		::KFELGAIGHAP* HFOFIODMFGB; // 0x38
+		::System::UInt32 MDFOOOPHGKC; // 0x40
+		::System::UInt32 NNGMJFCCMAI; // 0x44
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitPropCurveMoveFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitPropCurveMoveFinish*))((::PBYTE)hIl2Cpp + HIKHDDDONOB_CTOR_OFFSET))(this, a1, a2);

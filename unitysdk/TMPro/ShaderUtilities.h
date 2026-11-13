@@ -6,353 +6,353 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define TMPRO_SHADERUTILITIES_ARERUNTIMESHADERREFSREADY_OFFSET UNITYSDK_OFFSET(0x1F2BA610)
-#define TMPRO_SHADERUTILITIES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2BA7B0)
-#define TMPRO_SHADERUTILITIES_GETFONTEXTENT_OFFSET UNITYSDK_OFFSET(0x1F2BB140)
-#define TMPRO_SHADERUTILITIES_GETPADDING_1_OFFSET UNITYSDK_OFFSET(0x1F2BB9A0)
-#define TMPRO_SHADERUTILITIES_GETPADDING_OFFSET UNITYSDK_OFFSET(0x1F2BB2A0)
-#define TMPRO_SHADERUTILITIES_GETSHADERPROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x1F2BA860)
-#define TMPRO_SHADERUTILITIES_GET_SHADERREF_MOBILEBITMAP_OFFSET UNITYSDK_OFFSET(0x1F2BA5E0)
-#define TMPRO_SHADERUTILITIES_GET_SHADERREF_MOBILESDF_OFFSET UNITYSDK_OFFSET(0x1F2BA5B0)
-#define TMPRO_SHADERUTILITIES_ISMASKINGENABLED_OFFSET UNITYSDK_OFFSET(0x1F2BB150)
-#define TMPRO_SHADERUTILITIES_SETRUNTIMESHADERREFS_OFFSET UNITYSDK_OFFSET(0x1F2BA6A0)
-#define TMPRO_SHADERUTILITIES_UPDATESHADERRATIOS_OFFSET UNITYSDK_OFFSET(0x1F2BACA0)
+#define TMPRO_SHADERUTILITIES_ARERUNTIMESHADERREFSREADY_OFFSET UNITYSDK_OFFSET(0x19B8D970)
+#define TMPRO_SHADERUTILITIES_CCTOR_OFFSET UNITYSDK_OFFSET(0x19B8DB10)
+#define TMPRO_SHADERUTILITIES_GETFONTEXTENT_OFFSET UNITYSDK_OFFSET(0x19B8E4A0)
+#define TMPRO_SHADERUTILITIES_GETPADDING_1_OFFSET UNITYSDK_OFFSET(0x19B8ED00)
+#define TMPRO_SHADERUTILITIES_GETPADDING_OFFSET UNITYSDK_OFFSET(0x19B8E600)
+#define TMPRO_SHADERUTILITIES_GETSHADERPROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x19B8DBC0)
+#define TMPRO_SHADERUTILITIES_GET_SHADERREF_MOBILEBITMAP_OFFSET UNITYSDK_OFFSET(0x19B8D940)
+#define TMPRO_SHADERUTILITIES_GET_SHADERREF_MOBILESDF_OFFSET UNITYSDK_OFFSET(0x19B8D910)
+#define TMPRO_SHADERUTILITIES_ISMASKINGENABLED_OFFSET UNITYSDK_OFFSET(0x19B8E4B0)
+#define TMPRO_SHADERUTILITIES_SETRUNTIMESHADERREFS_OFFSET UNITYSDK_OFFSET(0x19B8DA00)
+#define TMPRO_SHADERUTILITIES_UPDATESHADERRATIOS_OFFSET UNITYSDK_OFFSET(0x19B8E000)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int ShaderUtilities_TypeDefinitionIndex = 44631;
+	inline static constexpr unsigned int ShaderUtilities_TypeDefinitionIndex = 45706;
 
 	class ShaderUtilities : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_Keyword_MASK_SOFT()
-		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54430);
-		}
-
-		static ::System::String** StaticGet_Keyword_Underlay()
-		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54438);
-		}
-
-		static ::System::String** StaticGet_Keyword_MASK_HARD()
-		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54440);
-		}
-
-		static ::UnityEngine::Shader** StaticGet_k_ShaderRef_MobileSDF()
-		{
-			return (::UnityEngine::Shader**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54448);
-		}
-
-		static ::UnityEngine::Shader** StaticGet_k_ShaderRef_MobileBitmap()
-		{
-			return (::UnityEngine::Shader**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54450);
-		}
-
 		static ::System::String** StaticGet_Keyword_Ratios()
 		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54458);
-		}
-
-		static ::System::String** StaticGet_ShaderTag_CullMode()
-		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54460);
-		}
-
-		static ::System::String** StaticGet_ShaderTag_ZTestMode()
-		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54468);
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58720);
 		}
 
 		static ::System::String** StaticGet_Keyword_Glow()
 		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54470);
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58728);
 		}
 
-		static ::System::String** StaticGet_Keyword_Outline()
+		static ::UnityEngine::Shader** StaticGet_k_ShaderRef_MobileSDF()
 		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54478);
+			return (::UnityEngine::Shader**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58730);
 		}
 
-		static ::System::String** StaticGet_Keyword_MASK_TEX()
+		static ::System::String** StaticGet_Keyword_MASK_SOFT()
 		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54480);
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58738);
 		}
 
 		static ::System::String** StaticGet_Keyword_Bevel()
 		{
-			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x54488);
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58740);
 		}
 
-		static ::System::Int32* StaticGet_ID_Shininess()
+		static ::System::String** StaticGet_Keyword_Underlay()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C00);
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58748);
 		}
 
-		static ::System::Int32* StaticGet_ID_ShaderFlags()
+		static ::UnityEngine::Shader** StaticGet_k_ShaderRef_MobileBitmap()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C04);
+			return (::UnityEngine::Shader**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58750);
 		}
 
-		static ::System::Int32* StaticGet_ID_MaskCoord()
+		static ::System::String** StaticGet_Keyword_MASK_TEX()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C08);
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58758);
 		}
 
-		static ::System::Int32* StaticGet_ID_LightAngle()
+		static ::System::String** StaticGet_ShaderTag_CullMode()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C0C);
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58760);
 		}
 
-		static ::System::Int32* StaticGet_ID_FaceTex()
+		static ::System::String** StaticGet_ShaderTag_ZTestMode()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C10);
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58768);
+		}
+
+		static ::System::String** StaticGet_Keyword_Outline()
+		{
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58770);
+		}
+
+		static ::System::String** StaticGet_Keyword_MASK_HARD()
+		{
+			return (::System::String**)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x58778);
 		}
 
 		static ::System::Int32* StaticGet_ID_OutlineTex()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C14);
-		}
-
-		static ::System::Int32* StaticGet_ID_GlowPower()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C18);
-		}
-
-		static ::System::Int32* StaticGet_ID_MaskSoftnessY()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C1C);
-		}
-
-		static ::System::Single* StaticGet_m_clamp()
-		{
-			return (::System::Single*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C20);
-		}
-
-		static ::System::Int32* StaticGet_ID_FaceDilate()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C24);
-		}
-
-		static ::System::Int32* StaticGet_ID_StencilOp()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C28);
-		}
-
-		static ::System::Int32* StaticGet_ID_VertexOffsetX()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C2C);
-		}
-
-		static ::System::Int32* StaticGet_ID_StencilID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C30);
-		}
-
-		static ::System::Int32* StaticGet_ID_UnderlayOffsetY()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C34);
-		}
-
-		static ::System::Int32* StaticGet_ID_BevelAmount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C38);
-		}
-
-		static ::System::Int32* StaticGet_ID_EnvMatrix()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C3C);
-		}
-
-		static ::System::Int32* StaticGet_ID_TextureHeight()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C40);
-		}
-
-		static ::System::Int32* StaticGet_ID_UnderlayDilate()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C44);
-		}
-
-		static ::System::Int32* StaticGet_ID_WeightNormal()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C48);
-		}
-
-		static ::System::Boolean* StaticGet_isInitialized()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C4C);
-		}
-
-		static ::System::Int32* StaticGet_ID_OutlineSoftness()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C50);
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CE0);
 		}
 
 		static ::System::Int32* StaticGet_ID_UseClipRect()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C54);
-		}
-
-		static ::System::Int32* StaticGet_ID_EnvMatrixRotation()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C58);
-		}
-
-		static ::System::Int32* StaticGet_ID_OutlineColor()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C5C);
-		}
-
-		static ::System::Int32* StaticGet_ID_StencilReadMask()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C60);
-		}
-
-		static ::System::Int32* StaticGet_ID_UnderlayColor()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C64);
-		}
-
-		static ::System::Int32* StaticGet_ID_ScaleX()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C68);
-		}
-
-		static ::System::Int32* StaticGet_ID_Sharpness()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C6C);
-		}
-
-		static ::System::Int32* StaticGet_ID_Padding()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C70);
-		}
-
-		static ::System::Int32* StaticGet_ID_GlowColor()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C74);
-		}
-
-		static ::System::Int32* StaticGet_ID_GlowOuter()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C78);
-		}
-
-		static ::System::Int32* StaticGet_ID_GradientScale()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C7C);
-		}
-
-		static ::System::Int32* StaticGet_ID_Outline2Width()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C80);
-		}
-
-		static ::System::Int32* StaticGet_ID_MaskSoftnessX()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C84);
-		}
-
-		static ::System::Int32* StaticGet_ID_OutlineWidth()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C88);
-		}
-
-		static ::System::Int32* StaticGet_ID_GlowInner()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C8C);
-		}
-
-		static ::System::Int32* StaticGet_ID_ScaleRatio_A()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C90);
-		}
-
-		static ::System::Int32* StaticGet_ID_UnderlaySoftness()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C94);
-		}
-
-		static ::System::Int32* StaticGet_ID_TextureWidth()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C98);
-		}
-
-		static ::System::Int32* StaticGet_ID_WeightBold()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12C9C);
-		}
-
-		static ::System::Int32* StaticGet_ID_StencilComp()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CA0);
-		}
-
-		static ::System::Int32* StaticGet_ID_VertexOffsetY()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CA4);
-		}
-
-		static ::System::Int32* StaticGet_ID_ScaleY()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CA8);
-		}
-
-		static ::System::Int32* StaticGet_ID_Outline2Color()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CAC);
-		}
-
-		static ::System::Int32* StaticGet_ID_UnderlayOffsetX()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CB0);
-		}
-
-		static ::System::Int32* StaticGet_ID_GlowOffset()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CB4);
-		}
-
-		static ::System::Int32* StaticGet_ID_MainTex()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CB8);
-		}
-
-		static ::System::Int32* StaticGet_ID_ScaleRatio_B()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CBC);
-		}
-
-		static ::System::Int32* StaticGet_ID_ScaleRatio_C()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CC0);
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CE4);
 		}
 
 		static ::System::Int32* StaticGet_ID_FaceColor()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CC4);
-		}
-
-		static ::System::Int32* StaticGet_ID_ClipRect()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CC8);
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CE8);
 		}
 
 		static ::System::Int32* StaticGet_ID_StencilWriteMask()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CCC);
-		}
-
-		static ::System::Int32* StaticGet_ID_EnvMap()
-		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CD0);
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CEC);
 		}
 
 		static ::System::Int32* StaticGet_ID_PerspectiveFilter()
 		{
-			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CD4);
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CF0);
+		}
+
+		static ::System::Int32* StaticGet_ID_EnvMatrix()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CF4);
+		}
+
+		static ::System::Int32* StaticGet_ID_ScaleRatio_B()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CF8);
+		}
+
+		static ::System::Int32* StaticGet_ID_ScaleRatio_C()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12CFC);
+		}
+
+		static ::System::Int32* StaticGet_ID_VertexOffsetY()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D00);
+		}
+
+		static ::System::Int32* StaticGet_ID_GlowPower()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D04);
+		}
+
+		static ::System::Int32* StaticGet_ID_Outline2Color()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D08);
+		}
+
+		static ::System::Int32* StaticGet_ID_OutlineColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D0C);
+		}
+
+		static ::System::Int32* StaticGet_ID_TextureWidth()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D10);
+		}
+
+		static ::System::Int32* StaticGet_ID_ScaleRatio_A()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D14);
+		}
+
+		static ::System::Int32* StaticGet_ID_MainTex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D18);
+		}
+
+		static ::System::Int32* StaticGet_ID_GlowColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D1C);
+		}
+
+		static ::System::Int32* StaticGet_ID_EnvMap()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D20);
+		}
+
+		static ::System::Int32* StaticGet_ID_StencilID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D24);
+		}
+
+		static ::System::Int32* StaticGet_ID_BevelAmount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D28);
+		}
+
+		static ::System::Int32* StaticGet_ID_FaceDilate()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D2C);
+		}
+
+		static ::System::Int32* StaticGet_ID_MaskSoftnessY()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D30);
+		}
+
+		static ::System::Int32* StaticGet_ID_WeightBold()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D34);
+		}
+
+		static ::System::Int32* StaticGet_ID_GradientScale()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D38);
+		}
+
+		static ::System::Int32* StaticGet_ID_UnderlayDilate()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D3C);
+		}
+
+		static ::System::Int32* StaticGet_ID_Shininess()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D40);
+		}
+
+		static ::System::Int32* StaticGet_ID_UnderlayOffsetX()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D44);
+		}
+
+		static ::System::Int32* StaticGet_ID_MaskCoord()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D48);
+		}
+
+		static ::System::Int32* StaticGet_ID_OutlineWidth()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D4C);
+		}
+
+		static ::System::Int32* StaticGet_ID_MaskSoftnessX()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D50);
+		}
+
+		static ::System::Int32* StaticGet_ID_UnderlayOffsetY()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D54);
+		}
+
+		static ::System::Int32* StaticGet_ID_Outline2Width()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D58);
+		}
+
+		static ::System::Int32* StaticGet_ID_GlowOffset()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D5C);
+		}
+
+		static ::System::Int32* StaticGet_ID_ScaleX()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D60);
+		}
+
+		static ::System::Int32* StaticGet_ID_UnderlaySoftness()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D64);
+		}
+
+		static ::System::Boolean* StaticGet_isInitialized()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D68);
+		}
+
+		static ::System::Int32* StaticGet_ID_Padding()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D6C);
+		}
+
+		static ::System::Int32* StaticGet_ID_FaceTex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D70);
+		}
+
+		static ::System::Int32* StaticGet_ID_GlowInner()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D74);
+		}
+
+		static ::System::Int32* StaticGet_ID_ScaleY()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D78);
+		}
+
+		static ::System::Int32* StaticGet_ID_EnvMatrixRotation()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D7C);
+		}
+
+		static ::System::Int32* StaticGet_ID_UnderlayColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D80);
+		}
+
+		static ::System::Int32* StaticGet_ID_LightAngle()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D84);
+		}
+
+		static ::System::Int32* StaticGet_ID_WeightNormal()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D88);
+		}
+
+		static ::System::Int32* StaticGet_ID_StencilReadMask()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D8C);
+		}
+
+		static ::System::Int32* StaticGet_ID_ClipRect()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D90);
+		}
+
+		static ::System::Int32* StaticGet_ID_OutlineSoftness()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D94);
+		}
+
+		static ::System::Int32* StaticGet_ID_TextureHeight()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D98);
+		}
+
+		static ::System::Int32* StaticGet_ID_Sharpness()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12D9C);
+		}
+
+		static ::System::Int32* StaticGet_ID_GlowOuter()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12DA0);
+		}
+
+		static ::System::Single* StaticGet_m_clamp()
+		{
+			return (::System::Single*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12DA4);
+		}
+
+		static ::System::Int32* StaticGet_ID_VertexOffsetX()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12DA8);
+		}
+
+		static ::System::Int32* StaticGet_ID_StencilComp()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12DAC);
+		}
+
+		static ::System::Int32* StaticGet_ID_ShaderFlags()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12DB0);
+		}
+
+		static ::System::Int32* StaticGet_ID_StencilOp()
+		{
+			return (::System::Int32*)UnitySDK::FromName("TMPro", "ShaderUtilities")->GetStaticField(0x12DB4);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2_CTOR_OFFSET UNITYSDK_OFFSET(0xE439000)
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2__STARTLOCALASSETVERIFY_B__4_OFFSET UNITYSDK_OFFSET(0xE439070)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC67350)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_2__STARTLOCALASSETVERIFY_B__4_OFFSET UNITYSDK_OFFSET(0x1BC673C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_2_TypeDefinitionIndex = 61261;
+	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_2_TypeDefinitionIndex = 62646;
 
 	template <typename T1, typename T2>
 	class VersionUpdateCheck___c__DisplayClass22_2 : public ::System::Object

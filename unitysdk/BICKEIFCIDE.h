@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BICKEIFCIDE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D7D89B0)
-#define BICKEIFCIDE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7D8F80)
-#define BICKEIFCIDE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D7D8B20)
-#define BICKEIFCIDE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D7D8420)
-#define BICKEIFCIDE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D7D86B0)
-#define BICKEIFCIDE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D7D8BC0)
-#define BICKEIFCIDE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D7D8C10)
-#define BICKEIFCIDE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D7D89F0)
-#define BICKEIFCIDE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D7D8650)
-#define BICKEIFCIDE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D7D8820)
-#define BICKEIFCIDE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D7D8A80)
-#define BICKEIFCIDE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D7D83A0)
+#define BICKEIFCIDE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F192320)
+#define BICKEIFCIDE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1928F0)
+#define BICKEIFCIDE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F192490)
+#define BICKEIFCIDE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F191D90)
+#define BICKEIFCIDE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F192020)
+#define BICKEIFCIDE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F192530)
+#define BICKEIFCIDE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F192580)
+#define BICKEIFCIDE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F192360)
+#define BICKEIFCIDE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F191FC0)
+#define BICKEIFCIDE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F192190)
+#define BICKEIFCIDE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F1923F0)
+#define BICKEIFCIDE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F191D10)
 
-inline static constexpr unsigned int BICKEIFCIDE_TypeDefinitionIndex = 11957;
+inline static constexpr unsigned int BICKEIFCIDE_TypeDefinitionIndex = 12014;
 
 	class BICKEIFCIDE : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0x48C00);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0x41F80);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0x48C08);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeV2DmgLimitRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeV2DmgLimitRow*>**)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0x41F88);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0x41F90);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0xFB00);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeV2DmgLimitRow*>**)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0x48C10);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0xFB01);
+			return (::System::Byte*)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0xE180);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "BICKEIFCIDE")->GetStaticField(0xE181);
 		}
 
 		static ::System::Void _cctor()

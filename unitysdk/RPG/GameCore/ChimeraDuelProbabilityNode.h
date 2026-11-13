@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ChimeraDuelPredicateBase; }
 namespace RPG::GameCore { class ChimeraDuelProbabilityNode; }
 namespace RPG::GameCore { class ChimeraDuelProbilityComparePredicate; }
 
-#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D579C40)
-#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D579C50)
-#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D579BF0)
+#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F92FA90)
+#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F92FAA0)
+#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F92FA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelProbabilityNode_TypeDefinitionIndex = 15980;
+	inline static constexpr unsigned int ChimeraDuelProbabilityNode_TypeDefinitionIndex = 16138;
 
 	class ChimeraDuelProbabilityNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{

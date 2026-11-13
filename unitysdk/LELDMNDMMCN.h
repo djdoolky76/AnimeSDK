@@ -3,10 +3,10 @@
 class HEPJEEHMABM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LELDMNDMMCN_CTOR_OFFSET UNITYSDK_OFFSET(0xB6567E0)
-#define LELDMNDMMCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB656810)
+#define LELDMNDMMCN_CTOR_OFFSET UNITYSDK_OFFSET(0x18C398B0)
+#define LELDMNDMMCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C398E0)
 
-inline static constexpr unsigned int LELDMNDMMCN_TypeDefinitionIndex = 52312;
+inline static constexpr unsigned int LELDMNDMMCN_TypeDefinitionIndex = 53418;
 
 	class LELDMNDMMCN
 	{

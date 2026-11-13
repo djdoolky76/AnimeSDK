@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfShowUI; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFSHOWUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D60ACC0)
-#define RPG_GAMECORE_ELFSHOWUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D60ACD0)
-#define RPG_GAMECORE_ELFSHOWUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D60AC90)
+#define RPG_GAMECORE_ELFSHOWUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E1770)
+#define RPG_GAMECORE_ELFSHOWUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0E1780)
+#define RPG_GAMECORE_ELFSHOWUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E1740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfShowUI_TypeDefinitionIndex = 21738;
+	inline static constexpr unsigned int ElfShowUI_TypeDefinitionIndex = 22127;
 
 	class ElfShowUI : public ::RPG::GameCore::TaskConfig
 	{

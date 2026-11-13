@@ -9,17 +9,17 @@ namespace RPG::Client { template <typename T> class AsyncActionProgress_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define EJLIOMPMHHI___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154D9570)
-#define EJLIOMPMHHI___C__DISPLAYCLASS12_0__ADDLOCALVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x154DEBE0)
-#define EJLIOMPMHHI___C__DISPLAYCLASS12_0__ADDLOCALVERIFY_B__1_OFFSET UNITYSDK_OFFSET(0x154DEB70)
+#define EJLIOMPMHHI___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19ABBC50)
+#define EJLIOMPMHHI___C__DISPLAYCLASS12_0__ADDLOCALVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x19AC13C0)
+#define EJLIOMPMHHI___C__DISPLAYCLASS12_0__ADDLOCALVERIFY_B__1_OFFSET UNITYSDK_OFFSET(0x19AC1320)
 
-inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass12_0_TypeDefinitionIndex = 59565;
+inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass12_0_TypeDefinitionIndex = 60842;
 
 	class EJLIOMPMHHI___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::EJLIOMPMHHI* __4__this; // 0x10
-		::RPG::Client::AsyncActionProgress_1<::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*>* progress; // 0x18
+		::RPG::Client::AsyncActionProgress_1<::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*>* progress; // 0x10
+		::EJLIOMPMHHI* __4__this; // 0x18
 		::System::Boolean isThrow; // 0x20
 		::System::Void _ctor()
 		{

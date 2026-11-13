@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PropSetupSceneSelection; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PROPSETUPSCENESELECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D927D30)
-#define RPG_GAMECORE_PROPSETUPSCENESELECTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D927D60)
-#define RPG_GAMECORE_PROPSETUPSCENESELECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D927CE0)
+#define RPG_GAMECORE_PROPSETUPSCENESELECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF917F0)
+#define RPG_GAMECORE_PROPSETUPSCENESELECTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF91820)
+#define RPG_GAMECORE_PROPSETUPSCENESELECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF917A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupSceneSelection_TypeDefinitionIndex = 22023;
+	inline static constexpr unsigned int PropSetupSceneSelection_TypeDefinitionIndex = 22428;
 
 	class PropSetupSceneSelection : public ::RPG::GameCore::TaskConfig
 	{

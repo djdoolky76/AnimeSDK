@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HGEIMLHFMJF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C89750)
-#define HGEIMLHFMJF_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15C896B0)
+#define HGEIMLHFMJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C43D800)
+#define HGEIMLHFMJF_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x1C43D760)
 
-inline static constexpr unsigned int HGEIMLHFMJF_TypeDefinitionIndex = 62456;
+inline static constexpr unsigned int HGEIMLHFMJF_TypeDefinitionIndex = 63869;
 
 	class HGEIMLHFMJF : public ::System::Object
 	{

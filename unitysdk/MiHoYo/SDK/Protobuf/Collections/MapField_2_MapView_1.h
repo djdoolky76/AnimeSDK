@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_MapView_1_TypeDefinitionIndex = 35862;
+	inline static constexpr unsigned int MapField_2_MapView_1_TypeDefinitionIndex = 36790;
 
 	template <typename T1, typename T2>
 	class MapField_2_MapView_1 : public ::System::Object

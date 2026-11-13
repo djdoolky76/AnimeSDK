@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareBaseTypeCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKKBGEEBILA_CTOR_OFFSET UNITYSDK_OFFSET(0x15500AE0)
-#define EKKBGEEBILA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15500B10)
+#define EKKBGEEBILA_CTOR_OFFSET UNITYSDK_OFFSET(0x19996320)
+#define EKKBGEEBILA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19996350)
 
-inline static constexpr unsigned int EKKBGEEBILA_TypeDefinitionIndex = 55411;
+inline static constexpr unsigned int EKKBGEEBILA_TypeDefinitionIndex = 56596;
 
 	class EKKBGEEBILA
 	{

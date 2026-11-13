@@ -4,7 +4,7 @@
 class BAELEMCBLGE;
 class IFKBGBPINCO;
 
-inline static constexpr unsigned int BAELEMCBLGE___c__DisplayClass7_0_TypeDefinitionIndex = 44126;
+inline static constexpr unsigned int BAELEMCBLGE___c__DisplayClass7_0_TypeDefinitionIndex = 45201;
 
 	class BAELEMCBLGE___c__DisplayClass7_0 : public ::System::Object
 	{

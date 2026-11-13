@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A6990)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1F4A69B0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD12E10)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1CD12E30)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int Physics2DRaycaster_TypeDefinitionIndex = 6951;
+	inline static constexpr unsigned int Physics2DRaycaster_TypeDefinitionIndex = 6962;
 
 	class Physics2DRaycaster : public ::UnityEngine::EventSystems::PhysicsRaycaster
 	{

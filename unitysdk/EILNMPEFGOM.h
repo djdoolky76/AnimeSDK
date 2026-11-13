@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EILNMPEFGOM_TypeDefinitionIndex = 28537;
+inline static constexpr unsigned int EILNMPEFGOM_TypeDefinitionIndex = 29127;
 
 	enum class EILNMPEFGOM : ::System::Int32
 	{

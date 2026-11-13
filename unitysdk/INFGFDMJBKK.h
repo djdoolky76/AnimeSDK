@@ -8,11 +8,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define INFGFDMJBKK_ANAHFGMKJMB_OFFSET UNITYSDK_OFFSET(0x164DE190)
-#define INFGFDMJBKK_CTOR_OFFSET UNITYSDK_OFFSET(0x164DDAB0)
-#define INFGFDMJBKK_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0x164DDB40)
+#define INFGFDMJBKK_ANAHFGMKJMB_OFFSET UNITYSDK_OFFSET(0x1A5EC0A0)
+#define INFGFDMJBKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5EB9C0)
+#define INFGFDMJBKK_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0x1A5EBA50)
 
-inline static constexpr unsigned int INFGFDMJBKK_TypeDefinitionIndex = 62789;
+inline static constexpr unsigned int INFGFDMJBKK_TypeDefinitionIndex = 64227;
 
 	class INFGFDMJBKK : public ::System::Object
 	{

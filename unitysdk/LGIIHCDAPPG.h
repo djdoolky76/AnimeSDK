@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGIIHCDAPPG_CTOR_OFFSET UNITYSDK_OFFSET(0xB6928D0)
-#define LGIIHCDAPPG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB692900)
+#define LGIIHCDAPPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAA4D0)
+#define LGIIHCDAPPG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BCAA500)
 
-inline static constexpr unsigned int LGIIHCDAPPG_TypeDefinitionIndex = 56410;
+inline static constexpr unsigned int LGIIHCDAPPG_TypeDefinitionIndex = 57628;
 
 	class LGIIHCDAPPG
 	{

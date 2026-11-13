@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvWaitArtLoad; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVWAITARTLOAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D386C50)
-#define RPG_GAMECORE_ADVWAITARTLOAD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D386C80)
-#define RPG_GAMECORE_ADVWAITARTLOAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D386C00)
+#define RPG_GAMECORE_ADVWAITARTLOAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E87F0)
+#define RPG_GAMECORE_ADVWAITARTLOAD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8E8820)
+#define RPG_GAMECORE_ADVWAITARTLOAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E87A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvWaitArtLoad_TypeDefinitionIndex = 22049;
+	inline static constexpr unsigned int AdvWaitArtLoad_TypeDefinitionIndex = 22454;
 
 	class AdvWaitArtLoad : public ::RPG::GameCore::TaskConfig
 	{

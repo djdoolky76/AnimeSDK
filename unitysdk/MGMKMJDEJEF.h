@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class ChimeraDuelBubbleData; }
 
-#define MGMKMJDEJEF_CTOR_OFFSET UNITYSDK_OFFSET(0xB922BC0)
-#define MGMKMJDEJEF_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0xB922B60)
+#define MGMKMJDEJEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B348B80)
+#define MGMKMJDEJEF_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0x1B348B20)
 
-inline static constexpr unsigned int MGMKMJDEJEF_TypeDefinitionIndex = 78289;
+inline static constexpr unsigned int MGMKMJDEJEF_TypeDefinitionIndex = 81024;
 
 	class MGMKMJDEJEF : public ::System::Object
 	{

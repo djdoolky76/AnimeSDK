@@ -4,10 +4,10 @@
 class GCBOJGNGLGO;
 namespace RPG::Client::Promises { class Promise; }
 
-#define GCBOJGNGLGO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15955640)
-#define GCBOJGNGLGO___C__DISPLAYCLASS5_0___SHOWWORLDFINISHTOAST_B__0_OFFSET UNITYSDK_OFFSET(0x159556E0)
+#define GCBOJGNGLGO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19E9A120)
+#define GCBOJGNGLGO___C__DISPLAYCLASS5_0___SHOWWORLDFINISHTOAST_B__0_OFFSET UNITYSDK_OFFSET(0x19E9A1C0)
 
-inline static constexpr unsigned int GCBOJGNGLGO___c__DisplayClass5_0_TypeDefinitionIndex = 66959;
+inline static constexpr unsigned int GCBOJGNGLGO___c__DisplayClass5_0_TypeDefinitionIndex = 68903;
 
 	class GCBOJGNGLGO___c__DisplayClass5_0 : public ::System::Object
 	{

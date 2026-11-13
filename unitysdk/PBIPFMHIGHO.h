@@ -11,21 +11,21 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define PBIPFMHIGHO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE9F10)
-#define PBIPFMHIGHO_FHDILCJNFPJ_OFFSET UNITYSDK_OFFSET(0xBFE9650)
-#define PBIPFMHIGHO_IFDDMGPJGNF_OFFSET UNITYSDK_OFFSET(0xBFE9D70)
-#define PBIPFMHIGHO_JGJGGEPMFPJ_OFFSET UNITYSDK_OFFSET(0xBFE93C0)
-#define PBIPFMHIGHO_LCHLAAJDHHO_OFFSET UNITYSDK_OFFSET(0xBFE9540)
-#define PBIPFMHIGHO_LLPOJJDPAAC_OFFSET UNITYSDK_OFFSET(0xBFE9D00)
+#define PBIPFMHIGHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC0570)
+#define PBIPFMHIGHO_FHDILCJNFPJ_OFFSET UNITYSDK_OFFSET(0x1AABFCB0)
+#define PBIPFMHIGHO_IFDDMGPJGNF_OFFSET UNITYSDK_OFFSET(0x1AAC03D0)
+#define PBIPFMHIGHO_JGJGGEPMFPJ_OFFSET UNITYSDK_OFFSET(0x1AABFA20)
+#define PBIPFMHIGHO_LCHLAAJDHHO_OFFSET UNITYSDK_OFFSET(0x1AABFBA0)
+#define PBIPFMHIGHO_LLPOJJDPAAC_OFFSET UNITYSDK_OFFSET(0x1AAC0360)
 
-inline static constexpr unsigned int PBIPFMHIGHO_TypeDefinitionIndex = 62832;
+inline static constexpr unsigned int PBIPFMHIGHO_TypeDefinitionIndex = 64270;
 
 	class PBIPFMHIGHO : public ::System::Object
 	{
 	public:
-		::PBIPFMHIGHO_KHPIOJENIFE* CMGIJEHHCPH; // 0x10
-		::GIDHOABFFFP* FAGBIGDLJGA; // 0x18
-		::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::BKCGMKLGCGB*>* FOPLDIDNJAJ; // 0x20
+		::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::BKCGMKLGCGB*>* FOPLDIDNJAJ; // 0x10
+		::PBIPFMHIGHO_KHPIOJENIFE* CMGIJEHHCPH; // 0x18
+		::GIDHOABFFFP* FAGBIGDLJGA; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBIPFMHIGHO_CTOR_OFFSET))(this);

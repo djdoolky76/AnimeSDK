@@ -4,18 +4,18 @@
 class NIFNAMDEPIL;
 namespace System { class Object; }
 
-#define NIFNAMDEPIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB00D90)
-#define NIFNAMDEPIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB00DD0)
-#define NIFNAMDEPIL___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1EB00DE0)
+#define NIFNAMDEPIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAC3C90)
+#define NIFNAMDEPIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC3CD0)
+#define NIFNAMDEPIL___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1EAC3CE0)
 
-inline static constexpr unsigned int NIFNAMDEPIL___c_TypeDefinitionIndex = 28921;
+inline static constexpr unsigned int NIFNAMDEPIL___c_TypeDefinitionIndex = 29511;
 
 	class NIFNAMDEPIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65440);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x628D0);
 		}
 
 		static ::System::Void _cctor()

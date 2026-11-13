@@ -4,11 +4,11 @@
 #include "unitysdk/System/TermInfoStrings.h"
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_BYTEMATCHER_ADDMAPPING_OFFSET UNITYSDK_OFFSET(0x1C0846A0)
-#define SYSTEM_BYTEMATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0850F0)
-#define SYSTEM_BYTEMATCHER_MATCH_OFFSET UNITYSDK_OFFSET(0x1C084940)
-#define SYSTEM_BYTEMATCHER_SORT_OFFSET UNITYSDK_OFFSET(0x1C084880)
-#define SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1C084890)
+#define SYSTEM_BYTEMATCHER_ADDMAPPING_OFFSET UNITYSDK_OFFSET(0x1E10D010)
+#define SYSTEM_BYTEMATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E10DA60)
+#define SYSTEM_BYTEMATCHER_MATCH_OFFSET UNITYSDK_OFFSET(0x1E10D2B0)
+#define SYSTEM_BYTEMATCHER_SORT_OFFSET UNITYSDK_OFFSET(0x1E10D1F0)
+#define SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1E10D200)
 
 namespace System
 {
@@ -17,8 +17,8 @@ namespace System
 	class ByteMatcher : public ::System::Object
 	{
 	public:
-		::System::Collections::Hashtable* starts; // 0x10
-		::System::Collections::Hashtable* map; // 0x18
+		::System::Collections::Hashtable* map; // 0x10
+		::System::Collections::Hashtable* starts; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_BYTEMATCHER_CTOR_OFFSET))(this);

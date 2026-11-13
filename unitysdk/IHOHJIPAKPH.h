@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IHOHJIPAKPH_TypeDefinitionIndex = 64286;
+inline static constexpr unsigned int IHOHJIPAKPH_TypeDefinitionIndex = 65731;
 
 	class IHOHJIPAKPH
 	{

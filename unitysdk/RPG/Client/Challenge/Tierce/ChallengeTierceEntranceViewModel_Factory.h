@@ -5,12 +5,12 @@ class HKJEGBONDGA;
 class NHCHDKJLNBJ;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceEntranceViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC93EAD0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC93EAC0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1DDDC230)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDC220)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceEntranceViewModel_Factory_TypeDefinitionIndex = 81587;
+	inline static constexpr unsigned int ChallengeTierceEntranceViewModel_Factory_TypeDefinitionIndex = 84368;
 
 	class ChallengeTierceEntranceViewModel_Factory : public ::System::Object
 	{

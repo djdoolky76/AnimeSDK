@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_NAVMESHLINKPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xD9726B0)
+#define RPG_CLIENT_NAVMESHLINKPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C5AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NavMeshLinkParams_TypeDefinitionIndex = 68639;
+	inline static constexpr unsigned int NavMeshLinkParams_TypeDefinitionIndex = 70587;
 
 	class NavMeshLinkParams : public ::System::Object
 	{

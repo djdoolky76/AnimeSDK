@@ -5,21 +5,21 @@ namespace RPG::GameCore { class DevPlayPerformanceE; }
 namespace RPG::GameCore { class LevelGraphComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKEMAKDLHMK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2AC5D0)
-#define PKEMAKDLHMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2AC5E0)
-#define PKEMAKDLHMK_LCLJHMOCHJD_OFFSET UNITYSDK_OFFSET(0xC2AC810)
-#define PKEMAKDLHMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2AC690)
-#define PKEMAKDLHMK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2AC750)
-#define PKEMAKDLHMK_TICK_OFFSET UNITYSDK_OFFSET(0xC2AC7A0)
+#define PKEMAKDLHMK_CTOR_OFFSET UNITYSDK_OFFSET(0x147B7C50)
+#define PKEMAKDLHMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x147B7C60)
+#define PKEMAKDLHMK_LCLJHMOCHJD_OFFSET UNITYSDK_OFFSET(0x147B7E90)
+#define PKEMAKDLHMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147B7D10)
+#define PKEMAKDLHMK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x147B7DD0)
+#define PKEMAKDLHMK_TICK_OFFSET UNITYSDK_OFFSET(0x147B7E20)
 
-inline static constexpr unsigned int PKEMAKDLHMK_TypeDefinitionIndex = 52734;
+inline static constexpr unsigned int PKEMAKDLHMK_TypeDefinitionIndex = 53878;
 
 	class PKEMAKDLHMK : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::LevelGraphComponent* HDHOHOOHBPF; // 0x18
-		::RPG::GameCore::TaskContext* APKCDIIEJLO; // 0x20
-		::RPG::GameCore::DevPlayPerformanceE* EJJEEJENLDA; // 0x28
+		::RPG::GameCore::DevPlayPerformanceE* EJJEEJENLDA; // 0x20
+		::RPG::GameCore::TaskContext* APKCDIIEJLO; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DevPlayPerformanceE* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::DevPlayPerformanceE*))((::PBYTE)hIl2Cpp + PKEMAKDLHMK_CTOR_OFFSET))(this, a1, a2);

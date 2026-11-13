@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HNPHKCCICPM_TypeDefinitionIndex = 32632;
+inline static constexpr unsigned int HNPHKCCICPM_TypeDefinitionIndex = 33547;
 
 	enum class HNPHKCCICPM : ::System::Int32
 	{

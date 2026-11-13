@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ICMANPMBAAO_Casing_TypeDefinitionIndex = 82255;
+inline static constexpr unsigned int ICMANPMBAAO_Casing_TypeDefinitionIndex = 85128;
 
 	enum class ICMANPMBAAO_Casing : ::System::UInt32
 	{

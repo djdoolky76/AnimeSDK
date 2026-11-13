@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WriteFsvToDynamicValue; }
 
-#define FHOIJDCMNJD_CTOR_OFFSET UNITYSDK_OFFSET(0x157878E0)
-#define FHOIJDCMNJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15787910)
+#define FHOIJDCMNJD_CTOR_OFFSET UNITYSDK_OFFSET(0x197F0830)
+#define FHOIJDCMNJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197F0860)
 
-inline static constexpr unsigned int FHOIJDCMNJD_TypeDefinitionIndex = 53499;
+inline static constexpr unsigned int FHOIJDCMNJD_TypeDefinitionIndex = 54661;
 
 	class FHOIJDCMNJD
 	{

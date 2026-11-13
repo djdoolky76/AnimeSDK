@@ -4,25 +4,25 @@
 class OGIFJNIGHBO;
 namespace RPG::Client { class PreAvatarGrowthMaterialData; }
 
-#define RPG_CLIENT_PREAVATARGROWTHMATERIALDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xDBFCCC0)
-#define RPG_CLIENT_PREAVATARGROWTHMATERIALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDBFCD80)
+#define RPG_CLIENT_PREAVATARGROWTHMATERIALDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x19BE0510)
+#define RPG_CLIENT_PREAVATARGROWTHMATERIALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x19BE05D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PreAvatarGrowthMaterialData_TypeDefinitionIndex = 66722;
+	inline static constexpr unsigned int PreAvatarGrowthMaterialData_TypeDefinitionIndex = 68658;
 
 	class PreAvatarGrowthMaterialData : public ::System::Object
 	{
 	public:
-		::System::UInt32 PromotionMaterial; // 0x10
-		::System::UInt32 SkillMaterialMedium; // 0x14
-		::System::UInt32 WorldMaterialSmall; // 0x18
-		::System::UInt32 AvatarTemplateID; // 0x1C
+		::System::UInt32 SkillMaterialLarge; // 0x10
+		::System::UInt32 BossMaterial; // 0x14
+		::System::UInt32 WorldMaterialLarge; // 0x18
+		::System::UInt32 SkillMaterialSmall; // 0x1C
 		::System::UInt32 WorldMaterialMedium; // 0x20
-		::System::UInt32 BossMaterial; // 0x24
-		::System::UInt32 SkillMaterialLarge; // 0x28
-		::System::UInt32 SkillMaterialSmall; // 0x2C
-		::System::UInt32 WorldMaterialLarge; // 0x30
+		::System::UInt32 PromotionMaterial; // 0x24
+		::System::UInt32 AvatarTemplateID; // 0x28
+		::System::UInt32 SkillMaterialMedium; // 0x2C
+		::System::UInt32 WorldMaterialSmall; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREAVATARGROWTHMATERIALDATA_CTOR_OFFSET))(this);

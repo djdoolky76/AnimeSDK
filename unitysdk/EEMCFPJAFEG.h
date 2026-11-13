@@ -4,16 +4,16 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_ModifierAdditivePropertyCompare; }
 
-#define EEMCFPJAFEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B1370)
-#define EEMCFPJAFEG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5CD120)
+#define EEMCFPJAFEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA65CE0)
+#define EEMCFPJAFEG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1BA819B0)
 
-inline static constexpr unsigned int EEMCFPJAFEG_TypeDefinitionIndex = 36323;
+inline static constexpr unsigned int EEMCFPJAFEG_TypeDefinitionIndex = 37251;
 
 	class EEMCFPJAFEG : public ::HHOHBHGLHHF
 	{
 	public:
-		::EHMBINMCDGN* JFBABKALCPJ; // 0x30
-		::RPG::GameCore::DiceCombatPredicateConfig_ModifierAdditivePropertyCompare* KGKOAFLCCAC; // 0x38
+		::RPG::GameCore::DiceCombatPredicateConfig_ModifierAdditivePropertyCompare* KGKOAFLCCAC; // 0x30
+		::EHMBINMCDGN* JFBABKALCPJ; // 0x38
 		::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_ModifierAdditivePropertyCompare* a1, ::EHMBINMCDGN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatPredicateConfig_ModifierAdditivePropertyCompare*, ::EHMBINMCDGN*))((::PBYTE)hIl2Cpp + EEMCFPJAFEG_CTOR_OFFSET))(this, a1, a2);

@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define UNITYENGINE_ASSETFILENAMEEXTENSIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F46EE10)
+#define UNITYENGINE_ASSETFILENAMEEXTENSIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20972030)
 
 namespace UnityEngine
 {

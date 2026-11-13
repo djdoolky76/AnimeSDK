@@ -3,10 +3,10 @@
 class CKCOFEAAJII;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IEAKHOOENCO_CTOR_OFFSET UNITYSDK_OFFSET(0x15EDABD0)
-#define IEAKHOOENCO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EDAC00)
+#define IEAKHOOENCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1779EF20)
+#define IEAKHOOENCO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1779EF50)
 
-inline static constexpr unsigned int IEAKHOOENCO_TypeDefinitionIndex = 55266;
+inline static constexpr unsigned int IEAKHOOENCO_TypeDefinitionIndex = 56447;
 
 	class IEAKHOOENCO
 	{

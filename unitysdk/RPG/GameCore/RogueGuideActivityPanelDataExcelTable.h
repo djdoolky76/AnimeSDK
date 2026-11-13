@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D99FE70)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D99F660)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D99F4F0)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D99F1E0)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D99F490)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D99F7B0)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D99F260)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D99F7F0)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99F9C0)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D99FB50)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D99F920)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D99F880)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x2076DA00)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x2076D1F0)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x2076D080)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x2076CD70)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x2076D020)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x2076D340)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x2076CDF0)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x2076D380)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x2076D550)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x2076D6E0)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x2076D4B0)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x2076D410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueGuideActivityPanelDataExcelTable_TypeDefinitionIndex = 14723;
+	inline static constexpr unsigned int RogueGuideActivityPanelDataExcelTable_TypeDefinitionIndex = 14879;
 
 	class RogueGuideActivityPanelDataExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0xAF80);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0xAF88);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0x4D660);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueGuideActivityPanelDataRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueGuideActivityPanelDataRow*>**)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0xAF90);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueGuideActivityPanelDataRow*>**)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0x4D668);
 		}
 
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0x2590);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0x4D670);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0x2591);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0xEC60);
+		}
+
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "RogueGuideActivityPanelDataExcelTable")->GetStaticField(0xEC61);
 		}
 
 		static ::System::Void _cctor()

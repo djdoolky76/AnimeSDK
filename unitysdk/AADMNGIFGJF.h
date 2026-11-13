@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CakeRacePauseGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AADMNGIFGJF_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C0780)
-#define AADMNGIFGJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0C07B0)
+#define AADMNGIFGJF_CTOR_OFFSET UNITYSDK_OFFSET(0x18C70A00)
+#define AADMNGIFGJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C70A30)
 
-inline static constexpr unsigned int AADMNGIFGJF_TypeDefinitionIndex = 52623;
+inline static constexpr unsigned int AADMNGIFGJF_TypeDefinitionIndex = 53730;
 
 	class AADMNGIFGJF
 	{

@@ -7,24 +7,23 @@ class DHOKPKHPKCH;
 class GGJBEDDBAJH;
 namespace RPG::Client { class MatchThreeBoard; }
 
-#define GGJBEDDBAJH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x159FC010)
-#define GGJBEDDBAJH_CTOR_OFFSET UNITYSDK_OFFSET(0x159FC600)
-#define GGJBEDDBAJH_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x159FC5B0)
-#define GGJBEDDBAJH_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x159FC0A0)
-#define GGJBEDDBAJH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x159FC130)
+#define GGJBEDDBAJH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1B4A54C0)
+#define GGJBEDDBAJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A5AA0)
+#define GGJBEDDBAJH_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x1B4A5A50)
+#define GGJBEDDBAJH_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1B4A5550)
+#define GGJBEDDBAJH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4A55D0)
 
-inline static constexpr unsigned int GGJBEDDBAJH_TypeDefinitionIndex = 65863;
+inline static constexpr unsigned int GGJBEDDBAJH_TypeDefinitionIndex = 67795;
 
 	class GGJBEDDBAJH : public ::FNIDIOCNBBI
 	{
 	public:
 		::DHOKPKHPKCH* MJKBBDNJFDN; // 0x28
-		::UnityEngine::Vector2 ICGKFDEILKA; // 0x30
-		::System::Boolean AELFMDGFAIK; // 0x38
-		::System::Boolean LLMLOGNFFCD; // 0x39
-		::System::Byte _padding0[0x2];
-		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x3C
-		::System::UInt32 IGDOFKLAILH; // 0x40
+		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x30
+		::System::UInt32 IGDOFKLAILH; // 0x34
+		::UnityEngine::Vector2 ICGKFDEILKA; // 0x38
+		::System::Boolean AELFMDGFAIK; // 0x40
+		::System::Boolean LLMLOGNFFCD; // 0x41
 		// static const ::System::Object JCENJMALKBB; // 0x0
 		// static const ::System::Object KMINGMBCIBI; // 0x0
 		::System::Void _ctor()

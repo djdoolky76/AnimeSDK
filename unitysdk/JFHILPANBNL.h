@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JFHILPANBNL_TypeDefinitionIndex = 25270;
+inline static constexpr unsigned int JFHILPANBNL_TypeDefinitionIndex = 25748;
 
 	enum class JFHILPANBNL : ::System::Int32
 	{

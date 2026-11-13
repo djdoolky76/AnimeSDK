@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC50420)
-#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC50460)
-#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BC50470)
+#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x185D5C80)
+#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x185D5CC0)
+#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x185D5CD0)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int LoginManagerPS___c_TypeDefinitionIndex = 9116;
+	inline static constexpr unsigned int LoginManagerPS___c_TypeDefinitionIndex = 9125;
 
 	class LoginManagerPS___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.CN", "<>c")->GetStaticField(0x54940);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.CN", "<>c")->GetStaticField(0x3E430);
 		}
 
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Console.CN", "<>c")->GetStaticField(0x54948);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Console.CN", "<>c")->GetStaticField(0x3E438);
 		}
 
 		static ::System::Void _cctor()

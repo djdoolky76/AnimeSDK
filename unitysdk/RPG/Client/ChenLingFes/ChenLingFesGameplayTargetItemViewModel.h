@@ -5,29 +5,29 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayStarViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCAA5850)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__INITSTARVMS_OFFSET UNITYSDK_OFFSET(0xCAA5970)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC767A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__INITSTARVMS_OFFSET UNITYSDK_OFFSET(0x1CC768C0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayTargetItemViewModel_TypeDefinitionIndex = 81389;
+	inline static constexpr unsigned int ChenLingFesGameplayTargetItemViewModel_TypeDefinitionIndex = 84169;
 
 	class ChenLingFesGameplayTargetItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
 		::System::String* TitleStr; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayStarViewModel*>* StarVMs; // 0x28
-		::System::Int32 WeekIndex; // 0x30
+		::System::Int32 TargetScore; // 0x30
 		::System::Int32 Star; // 0x34
-		::System::Int32 RequiredStarCount; // 0x38
-		::System::Int32 DayCount; // 0x3C
-		::System::Boolean IsCurWeek; // 0x40
-		::System::Boolean IsEndlessModeForBoss; // 0x41
-		::System::Boolean IsEndlessMode; // 0x42
+		::System::Int32 DayCount; // 0x38
+		::System::Int32 RequiredStarCount; // 0x3C
+		::System::Boolean IsEndlessModeForBoss; // 0x40
+		::System::Boolean IsFinished; // 0x41
+		::System::Boolean IsCurWeek; // 0x42
 		::System::Boolean IsShowGlobalTarget; // 0x43
-		::System::Boolean IsFinished; // 0x44
+		::System::Boolean IsEndlessMode; // 0x44
 		::System::Byte _padding0[0x3];
-		::System::Int32 TargetScore; // 0x48
+		::System::Int32 WeekIndex; // 0x48
 		// static const ::System::Object MaxStarDisplayCount; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Boolean a9, ::System::Boolean a10, ::System::String* a11)
 		{

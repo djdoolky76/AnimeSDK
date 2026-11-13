@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 class GHNMNFHDCME;
 
-#define BAEOHMGMIJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56D220)
+#define BAEOHMGMIJN_CTOR_OFFSET UNITYSDK_OFFSET(0x17009290)
 
-inline static constexpr unsigned int BAEOHMGMIJN_TypeDefinitionIndex = 36443;
+inline static constexpr unsigned int BAEOHMGMIJN_TypeDefinitionIndex = 37371;
 
 	class BAEOHMGMIJN : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* FNMJIJOGMKM; // 0x10
-		::GHNMNFHDCME* ILIIOLJMKME; // 0x18
+		::GHNMNFHDCME* ILIIOLJMKME; // 0x10
+		::Il2CppArray<::System::Byte>* FNMJIJOGMKM; // 0x18
 		::System::UInt32 NJGKCPOOHDM; // 0x20
 		::System::UInt32 CABBFBKCBCE; // 0x24
 		::System::Void _ctor()

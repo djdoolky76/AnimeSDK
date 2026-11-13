@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class AlleyBuffGridItemData; }
 
-#define OABLCMFIHIC___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD12470)
-#define OABLCMFIHIC___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBD13030)
+#define OABLCMFIHIC___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB53B90)
+#define OABLCMFIHIC___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1AB54750)
 
-inline static constexpr unsigned int OABLCMFIHIC___c__DisplayClass1_0_TypeDefinitionIndex = 62352;
+inline static constexpr unsigned int OABLCMFIHIC___c__DisplayClass1_0_TypeDefinitionIndex = 63765;
 
 	class OABLCMFIHIC___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 y; // 0x10
-		::System::UInt32 x; // 0x14
+		::System::UInt32 x; // 0x10
+		::System::UInt32 y; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OABLCMFIHIC___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

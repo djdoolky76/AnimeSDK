@@ -8,41 +8,41 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define BDPDNAECJII___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C588A30)
-#define BDPDNAECJII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C588A70)
-#define BDPDNAECJII___C___FILLPLAYERACHIEVEMENTLIST_B__68_0_OFFSET UNITYSDK_OFFSET(0x1C588B40)
-#define BDPDNAECJII___C___GETACTIVESKILLINFOLIST_B__82_0_OFFSET UNITYSDK_OFFSET(0x1C588B60)
-#define BDPDNAECJII___C___INITPLAYER_B__47_0_OFFSET UNITYSDK_OFFSET(0x1C588A80)
-#define BDPDNAECJII___C___INITPLAYER_B__47_1_OFFSET UNITYSDK_OFFSET(0x1C588AF0)
+#define BDPDNAECJII___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17024B70)
+#define BDPDNAECJII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17024BB0)
+#define BDPDNAECJII___C___FILLPLAYERACHIEVEMENTLIST_B__68_0_OFFSET UNITYSDK_OFFSET(0x17024C80)
+#define BDPDNAECJII___C___GETACTIVESKILLINFOLIST_B__82_0_OFFSET UNITYSDK_OFFSET(0x17024CA0)
+#define BDPDNAECJII___C___INITPLAYER_B__47_0_OFFSET UNITYSDK_OFFSET(0x17024BC0)
+#define BDPDNAECJII___C___INITPLAYER_B__47_1_OFFSET UNITYSDK_OFFSET(0x17024C30)
 
-inline static constexpr unsigned int BDPDNAECJII___c_TypeDefinitionIndex = 37160;
+inline static constexpr unsigned int BDPDNAECJII___c_TypeDefinitionIndex = 38088;
 
 	class BDPDNAECJII___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>** StaticGet___9__47_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x640A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A010);
 		}
 
 		static ::System::Comparison_1<::OEOFKECAJEB>** StaticGet___9__82_0()
 		{
-			return (::System::Comparison_1<::OEOFKECAJEB>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x640A8);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>** StaticGet___9__47_1()
-		{
-			return (::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x640B0);
+			return (::System::Comparison_1<::OEOFKECAJEB>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A018);
 		}
 
 		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__68_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x640B8);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A020);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>** StaticGet___9__47_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x640C0);
+			return (::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A028);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>** StaticGet___9__47_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A030);
 		}
 
 		static ::System::Void _cctor()

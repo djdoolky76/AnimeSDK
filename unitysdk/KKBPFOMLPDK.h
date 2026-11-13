@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TalkFigure; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKBPFOMLPDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB45EE00)
-#define KKBPFOMLPDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB45EE30)
+#define KKBPFOMLPDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1733ABC0)
+#define KKBPFOMLPDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1733ABF0)
 
-inline static constexpr unsigned int KKBPFOMLPDK_TypeDefinitionIndex = 53329;
+inline static constexpr unsigned int KKBPFOMLPDK_TypeDefinitionIndex = 54491;
 
 	class KKBPFOMLPDK
 	{

@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VolumeConfig_TypeDefinitionIndex = 46234;
+	inline static constexpr unsigned int MHYSDKC_VolumeConfig_TypeDefinitionIndex = 47263;
 
 	class MHYSDKC_VolumeConfig : public ::System::Object
 	{

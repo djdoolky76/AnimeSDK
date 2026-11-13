@@ -4,10 +4,10 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define HCPOGOIJDHI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x15C22900)
-#define HCPOGOIJDHI_CTOR_OFFSET UNITYSDK_OFFSET(0x15C228A0)
+#define HCPOGOIJDHI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B7C2F00)
+#define HCPOGOIJDHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C2EA0)
 
-inline static constexpr unsigned int HCPOGOIJDHI_TypeDefinitionIndex = 67509;
+inline static constexpr unsigned int HCPOGOIJDHI_TypeDefinitionIndex = 69453;
 
 	class HCPOGOIJDHI : public ::System::Exception
 	{

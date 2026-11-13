@@ -4,23 +4,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantFieldConfigRow; }
 
-#define RPG_GAMECORE_RESTAURANTFIELDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D964740)
-#define RPG_GAMECORE_RESTAURANTFIELDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D964460)
+#define RPG_GAMECORE_RESTAURANTFIELDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20728BA0)
+#define RPG_GAMECORE_RESTAURANTFIELDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x207288C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantFieldConfigRow_TypeDefinitionIndex = 11369;
+	inline static constexpr unsigned int RestaurantFieldConfigRow_TypeDefinitionIndex = 11420;
 
 	class RestaurantFieldConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PropGroupIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* BigCropsReplaceConfigIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* ConfigIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* PropConfigIDList; // 0x28
-		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x30
-		::System::UInt32 Price; // 0x38
-		::System::UInt32 BigCropsConfigID; // 0x3C
+		::Il2CppArray<::System::UInt32>* BigCropsReplaceConfigIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* PropConfigIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* PropGroupIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x28
+		::Il2CppArray<::System::UInt32>* ConfigIDList; // 0x30
+		::System::UInt32 BigCropsConfigID; // 0x38
+		::System::UInt32 Price; // 0x3C
 		::System::UInt32 FieldID; // 0x40
 		::System::Void _ctor()
 		{

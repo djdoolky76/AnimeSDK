@@ -4,12 +4,12 @@ namespace RPG::Client { class VolumeData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA0FE60)
-#define RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDA0FE10)
+#define RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0DE40)
+#define RPG_CLIENT_OPTIMZIEVOLUMEBASEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1BF0DDF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OptimzieVolumeBaseMonoPlugin_TypeDefinitionIndex = 70836;
+	inline static constexpr unsigned int OptimzieVolumeBaseMonoPlugin_TypeDefinitionIndex = 72815;
 
 	class OptimzieVolumeBaseMonoPlugin
 	{

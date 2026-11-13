@@ -5,15 +5,15 @@
 class DamageTextStyle;
 namespace System { class String; }
 
-#define BODMMAAAOCE_BHMDNOJDCEF_CTOR_OFFSET UNITYSDK_OFFSET(0xC18DA50)
+#define BODMMAAAOCE_BHMDNOJDCEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A783320)
 
-inline static constexpr unsigned int BODMMAAAOCE_BHMDNOJDCEF_TypeDefinitionIndex = 72375;
+inline static constexpr unsigned int BODMMAAAOCE_BHMDNOJDCEF_TypeDefinitionIndex = 74454;
 
 	class BODMMAAAOCE_BHMDNOJDCEF : public ::System::Object
 	{
 	public:
-		::DamageTextStyle* CFNAKPADAEB; // 0x10
-		::System::String* BDACPPLKLGL; // 0x18
+		::System::String* BDACPPLKLGL; // 0x10
+		::DamageTextStyle* CFNAKPADAEB; // 0x18
 		::RPG::Client::TextID MJOOFPBABEA; // 0x20
 		::System::Void _ctor()
 		{

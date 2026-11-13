@@ -5,36 +5,36 @@ namespace Spine { class AtlasPage; }
 namespace Spine { class AtlasRegion; }
 namespace System { class String; }
 
-#define SPINE_ATLASREGION_CLONE_OFFSET UNITYSDK_OFFSET(0x1EC712F0)
-#define SPINE_ATLASREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6F240)
-#define SPINE_ATLASREGION_GET_ORIGINALHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EC712E0)
-#define SPINE_ATLASREGION_GET_ORIGINALWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC712D0)
-#define SPINE_ATLASREGION_GET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EC712B0)
-#define SPINE_ATLASREGION_GET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC71290)
-#define SPINE_ATLASREGION_SET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EC712C0)
-#define SPINE_ATLASREGION_SET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC712A0)
+#define SPINE_ATLASREGION_CLONE_OFFSET UNITYSDK_OFFSET(0x16CBC020)
+#define SPINE_ATLASREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x16CB9F60)
+#define SPINE_ATLASREGION_GET_ORIGINALHEIGHT_OFFSET UNITYSDK_OFFSET(0x16CBC010)
+#define SPINE_ATLASREGION_GET_ORIGINALWIDTH_OFFSET UNITYSDK_OFFSET(0x16CBC000)
+#define SPINE_ATLASREGION_GET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x16CBBFE0)
+#define SPINE_ATLASREGION_GET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x16CBBFC0)
+#define SPINE_ATLASREGION_SET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x16CBBFF0)
+#define SPINE_ATLASREGION_SET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x16CBBFD0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AtlasRegion_TypeDefinitionIndex = 39647;
+	inline static constexpr unsigned int AtlasRegion_TypeDefinitionIndex = 40576;
 
 	class AtlasRegion : public ::Spine::TextureRegion
 	{
 	public:
-		::Il2CppArray<::Il2CppArray<::System::Int32>*>* values; // 0x28
-		::Il2CppArray<::System::String*>* names; // 0x30
-		::Spine::AtlasPage* page; // 0x38
-		::System::String* name; // 0x40
-		::System::Int32 y; // 0x48
+		::Spine::AtlasPage* page; // 0x28
+		::System::String* name; // 0x30
+		::Il2CppArray<::System::String*>* names; // 0x38
+		::Il2CppArray<::Il2CppArray<::System::Int32>*>* values; // 0x40
+		::System::Single offsetX; // 0x48
 		::System::Int32 x; // 0x4C
-		::System::Int32 degrees; // 0x50
-		::System::Single offsetY; // 0x54
-		::System::Int32 originalHeight; // 0x58
-		::System::Boolean rotate; // 0x5C
+		::System::Int32 y; // 0x50
+		::System::Int32 degrees; // 0x54
+		::System::Single offsetY; // 0x58
+		::System::Int32 index; // 0x5C
+		::System::Int32 originalWidth; // 0x60
+		::System::Boolean rotate; // 0x64
 		::System::Byte _padding0[0x3];
-		::System::Single offsetX; // 0x60
-		::System::Int32 originalWidth; // 0x64
-		::System::Int32 index; // 0x68
+		::System::Int32 originalHeight; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ATLASREGION_CTOR_OFFSET))(this);

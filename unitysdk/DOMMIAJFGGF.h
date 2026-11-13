@@ -6,10 +6,10 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DOMMIAJFGGF_IMHBALDLAHP_OFFSET UNITYSDK_OFFSET(0x11FECCF0)
-#define DOMMIAJFGGF_KGLOPGFNBMI_OFFSET UNITYSDK_OFFSET(0x11FED120)
+#define DOMMIAJFGGF_IMHBALDLAHP_OFFSET UNITYSDK_OFFSET(0x191B07B0)
+#define DOMMIAJFGGF_KGLOPGFNBMI_OFFSET UNITYSDK_OFFSET(0x191B0BE0)
 
-inline static constexpr unsigned int DOMMIAJFGGF_TypeDefinitionIndex = 66466;
+inline static constexpr unsigned int DOMMIAJFGGF_TypeDefinitionIndex = 68402;
 
 	class DOMMIAJFGGF : public ::System::Object
 	{

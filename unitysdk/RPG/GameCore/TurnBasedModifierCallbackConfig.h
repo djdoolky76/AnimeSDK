@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TurnBasedModifierCallbackConfig; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC34DC0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC34C30)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33DFB0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33DE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierCallbackConfig_TypeDefinitionIndex = 18235;
+	inline static constexpr unsigned int TurnBasedModifierCallbackConfig_TypeDefinitionIndex = 18397;
 
 	class TurnBasedModifierCallbackConfig : public ::RPG::GameCore::JsonConfig
 	{

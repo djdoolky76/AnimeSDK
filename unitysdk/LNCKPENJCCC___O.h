@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int LNCKPENJCCC___O_TypeDefinitionIndex = 24180;
+inline static constexpr unsigned int LNCKPENJCCC___O_TypeDefinitionIndex = 24639;
 
 	class LNCKPENJCCC___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3EDE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3CF20);
 		}
 
 	};

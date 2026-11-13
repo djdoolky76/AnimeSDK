@@ -5,27 +5,27 @@
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 
-#define PPJEOLNBABF_CCTOR_OFFSET UNITYSDK_OFFSET(0xC384B90)
-#define PPJEOLNBABF_CTOR_OFFSET UNITYSDK_OFFSET(0xC3847D0)
-#define PPJEOLNBABF_GET_FINISH_OFFSET UNITYSDK_OFFSET(0xC384B70)
-#define PPJEOLNBABF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC384940)
-#define PPJEOLNBABF_SET_FINISH_OFFSET UNITYSDK_OFFSET(0xC384B80)
+#define PPJEOLNBABF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8B1180)
+#define PPJEOLNBABF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B0DC0)
+#define PPJEOLNBABF_GET_FINISH_OFFSET UNITYSDK_OFFSET(0x1B8B1160)
+#define PPJEOLNBABF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1B8B0F30)
+#define PPJEOLNBABF_SET_FINISH_OFFSET UNITYSDK_OFFSET(0x1B8B1170)
 
-inline static constexpr unsigned int PPJEOLNBABF_TypeDefinitionIndex = 78527;
+inline static constexpr unsigned int PPJEOLNBABF_TypeDefinitionIndex = 81262;
 
 	class PPJEOLNBABF : public ::System::Object
 	{
 	public:
-		::UnityEngine::LineRenderer* ONEFCLJPGLE; // 0x10
-		::Il2CppArray<::UnityEngine::Color>* NJCPOOIKDGH; // 0x18
-		::Il2CppArray<::UnityEngine::Material*>* BOMHPPBMBPN; // 0x20
+		::Il2CppArray<::UnityEngine::Color>* NJCPOOIKDGH; // 0x10
+		::Il2CppArray<::UnityEngine::Material*>* BOMHPPBMBPN; // 0x18
+		::UnityEngine::LineRenderer* ONEFCLJPGLE; // 0x20
 		::System::Single ELCEJCOGOFJ; // 0x28
-		::System::Single IEHPFADHJFD; // 0x2C
-		::System::Single PMHMEGEJDGP; // 0x30
+		::System::Single PMHMEGEJDGP; // 0x2C
+		::System::Single IEHPFADHJFD; // 0x30
 		::System::Boolean _Finish_k__BackingField; // 0x34
 		static ::System::Int32* StaticGet_MFEFDCONKCC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "PPJEOLNBABF")->GetStaticField(0x2C80);
+			return (::System::Int32*)UnitySDK::FromName("", "PPJEOLNBABF")->GetStaticField(0x1620);
 		}
 
 		::System::Void _ctor(::UnityEngine::LineRenderer* a1, ::System::Single a2, ::System::Single a3)

@@ -6,33 +6,33 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2BodySim; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C7D2A50)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1C7DC730)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7DC7C0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_CLEAR_OFFSET UNITYSDK_OFFSET(0xC89C2E0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_COPYFROM_OFFSET UNITYSDK_OFFSET(0xC8A5F00)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A5F90)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodySim_TypeDefinitionIndex = 36597;
+	inline static constexpr unsigned int B2BodySim_TypeDefinitionIndex = 37525;
 
 	class B2BodySim : public ::System::Object
 	{
 	public:
-		::System::Single maxExtent; // 0x10
-		::System::Single gravityScale; // 0x14
-		::System::Single angularDamping; // 0x18
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform transform; // 0x1C
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 force; // 0x2C
-		::System::Single linearDamping; // 0x34
-		::System::Single invInertia; // 0x38
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Rot rotation0; // 0x3C
-		::System::Single torque; // 0x44
-		::System::UInt32 flags; // 0x48
-		::System::Single minExtent; // 0x4C
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 localCenter; // 0x50
-		::System::Int32 bodyId; // 0x58
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center; // 0x5C
-		::System::Single invMass; // 0x64
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center0; // 0x68
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center0; // 0x10
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 localCenter; // 0x18
+		::System::Single invMass; // 0x20
+		::System::Single gravityScale; // 0x24
+		::System::Single maxExtent; // 0x28
+		::System::UInt32 flags; // 0x2C
+		::System::Single linearDamping; // 0x30
+		::System::Single minExtent; // 0x34
+		::System::Single angularDamping; // 0x38
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform transform; // 0x3C
+		::System::Int32 bodyId; // 0x4C
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center; // 0x50
+		::System::Single torque; // 0x58
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 force; // 0x5C
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Rot rotation0; // 0x64
+		::System::Single invInertia; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_CTOR_OFFSET))(this);

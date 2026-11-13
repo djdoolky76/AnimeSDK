@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Collider; }
 
-#define PDHLJJCMEDJ_CTOR_1_OFFSET UNITYSDK_OFFSET(0x26970)
-#define PDHLJJCMEDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x26930)
+#define PDHLJJCMEDJ_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3E665D0)
+#define PDHLJJCMEDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x3E66590)
 
-inline static constexpr unsigned int PDHLJJCMEDJ_TypeDefinitionIndex = 71111;
+inline static constexpr unsigned int PDHLJJCMEDJ_TypeDefinitionIndex = 73094;
 
 	struct alignas(8) PDHLJJCMEDJ
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DeployPuzzleBasePointAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPDOJKMACOL_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF4110)
-#define NPDOJKMACOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF4140)
+#define NPDOJKMACOL_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF5D90)
+#define NPDOJKMACOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19CF5DC0)
 
-inline static constexpr unsigned int NPDOJKMACOL_TypeDefinitionIndex = 58066;
+inline static constexpr unsigned int NPDOJKMACOL_TypeDefinitionIndex = 59305;
 
 	class NPDOJKMACOL
 	{

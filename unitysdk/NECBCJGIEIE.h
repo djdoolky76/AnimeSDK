@@ -10,21 +10,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NECBCJGIEIE_AFMOOIOMNGK_OFFSET UNITYSDK_OFFSET(0x1C75B500)
-#define NECBCJGIEIE_ALHFALBOLOE_OFFSET UNITYSDK_OFFSET(0x1C75A5E0)
-#define NECBCJGIEIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C75A000)
-#define NECBCJGIEIE_GAPIKLPFMLD_OFFSET UNITYSDK_OFFSET(0x1C75A460)
-#define NECBCJGIEIE_MIMPOIOIOFM_OFFSET UNITYSDK_OFFSET(0x1C75AF60)
-#define NECBCJGIEIE_OIPHGBIAPMI_OFFSET UNITYSDK_OFFSET(0x1C75A110)
-#define NECBCJGIEIE_OKPFCDEKBCJ_OFFSET UNITYSDK_OFFSET(0x1C75B2C0)
+#define NECBCJGIEIE_AFMOOIOMNGK_OFFSET UNITYSDK_OFFSET(0x1609BE10)
+#define NECBCJGIEIE_ALHFALBOLOE_OFFSET UNITYSDK_OFFSET(0x1609AF60)
+#define NECBCJGIEIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1609A980)
+#define NECBCJGIEIE_GAPIKLPFMLD_OFFSET UNITYSDK_OFFSET(0x1609ADE0)
+#define NECBCJGIEIE_MIMPOIOIOFM_OFFSET UNITYSDK_OFFSET(0x1609B8B0)
+#define NECBCJGIEIE_OIPHGBIAPMI_OFFSET UNITYSDK_OFFSET(0x1609AA90)
+#define NECBCJGIEIE_OKPFCDEKBCJ_OFFSET UNITYSDK_OFFSET(0x1609BBD0)
 
-inline static constexpr unsigned int NECBCJGIEIE_TypeDefinitionIndex = 37301;
+inline static constexpr unsigned int NECBCJGIEIE_TypeDefinitionIndex = 38229;
 
 	class NECBCJGIEIE : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::SortedDictionary_2<::System::UInt64, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>>*>* FEGAFKJJHCO; // 0x10
-		::System::Collections::Generic::SortedDictionary_2<::System::UInt32, ::System::Object*>* HJCOANHJMMO; // 0x18
+		::System::Collections::Generic::SortedDictionary_2<::System::UInt32, ::System::Object*>* HJCOANHJMMO; // 0x10
+		::System::Collections::Generic::SortedDictionary_2<::System::UInt64, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>>*>* FEGAFKJJHCO; // 0x18
 		::PBGNKMMDBGD* PDENFEFCAGN; // 0x20
 		::System::Void _ctor(::PBGNKMMDBGD* a1)
 		{

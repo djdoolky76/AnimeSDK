@@ -11,25 +11,25 @@ namespace RPG::GameCore { class HipplenIncidentConfig; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PKBOFOOJCGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC2A9010)
-#define PKBOFOOJCGL_EJACOFEBELP_OFFSET UNITYSDK_OFFSET(0xC2A8FC0)
-#define PKBOFOOJCGL_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xC2A9300)
-#define PKBOFOOJCGL_HKNMMIABJIN_OFFSET UNITYSDK_OFFSET(0xC2A9390)
-#define PKBOFOOJCGL_JJBFKJEGJPN_OFFSET UNITYSDK_OFFSET(0xC2A9210)
-#define PKBOFOOJCGL_KFAELPMFCNE_OFFSET UNITYSDK_OFFSET(0xC2A9630)
-#define PKBOFOOJCGL_LOMALBDODND_OFFSET UNITYSDK_OFFSET(0xC2A9270)
-#define PKBOFOOJCGL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC2A9020)
+#define PKBOFOOJCGL_CTOR_OFFSET UNITYSDK_OFFSET(0x147B4590)
+#define PKBOFOOJCGL_EJACOFEBELP_OFFSET UNITYSDK_OFFSET(0x147B4540)
+#define PKBOFOOJCGL_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x147B4880)
+#define PKBOFOOJCGL_HKNMMIABJIN_OFFSET UNITYSDK_OFFSET(0x147B4920)
+#define PKBOFOOJCGL_JJBFKJEGJPN_OFFSET UNITYSDK_OFFSET(0x147B4790)
+#define PKBOFOOJCGL_KFAELPMFCNE_OFFSET UNITYSDK_OFFSET(0x147B4BC0)
+#define PKBOFOOJCGL_LOMALBDODND_OFFSET UNITYSDK_OFFSET(0x147B47F0)
+#define PKBOFOOJCGL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x147B45A0)
 
-inline static constexpr unsigned int PKBOFOOJCGL_TypeDefinitionIndex = 75544;
+inline static constexpr unsigned int PKBOFOOJCGL_TypeDefinitionIndex = 77871;
 
 	class PKBOFOOJCGL : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* KJEDGKFEPLM; // 0x10
-		::RPG::GameCore::ActivityHipplenIncidentRow* POBMBPIIJND; // 0x18
+		::RPG::GameCore::ActivityHipplenIncidentRow* POBMBPIIJND; // 0x10
+		::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* KJEDGKFEPLM; // 0x18
 		::JCHBFEIOIHA* EOMLMNOEKDJ; // 0x20
-		::System::Action* JCGCCGDNFFI; // 0x28
-		::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator* EOFFAMLLEJK; // 0x30
+		::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator* EOFFAMLLEJK; // 0x28
+		::System::Action* JCGCCGDNFFI; // 0x30
 		::System::Void _ctor(::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* a1, ::RPG::GameCore::ActivityHipplenIncidentRow* a2, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData*, ::RPG::GameCore::ActivityHipplenIncidentRow*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator*))((::PBYTE)hIl2Cpp + PKBOFOOJCGL_CTOR_OFFSET))(this, a1, a2, a3);

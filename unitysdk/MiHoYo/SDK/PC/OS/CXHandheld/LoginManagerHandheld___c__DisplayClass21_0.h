@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class LoginManagerHandheld; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED8EF0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS21_0__HANDLEAGEGATECOMPLETEDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1BEDB270)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0D1950)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS21_0__HANDLEAGEGATECOMPLETEDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1B0D3CD0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int LoginManagerHandheld___c__DisplayClass21_0_TypeDefinitionIndex = 8756;
+	inline static constexpr unsigned int LoginManagerHandheld___c__DisplayClass21_0_TypeDefinitionIndex = 8765;
 
 	class LoginManagerHandheld___c__DisplayClass21_0 : public ::System::Object
 	{

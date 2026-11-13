@@ -6,20 +6,20 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class OwnerEntityAddAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJPGMCPMHGL_BHPIFFHAPHB_OFFSET UNITYSDK_OFFSET(0xB2062F0)
-#define JJPGMCPMHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2060E0)
-#define JJPGMCPMHGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2060F0)
-#define JJPGMCPMHGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB206130)
-#define JJPGMCPMHGL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2065F0)
-#define JJPGMCPMHGL_TICK_OFFSET UNITYSDK_OFFSET(0xB206640)
+#define JJPGMCPMHGL_BHPIFFHAPHB_OFFSET UNITYSDK_OFFSET(0x17B11A50)
+#define JJPGMCPMHGL_CTOR_OFFSET UNITYSDK_OFFSET(0x17B11840)
+#define JJPGMCPMHGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B11850)
+#define JJPGMCPMHGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B11890)
+#define JJPGMCPMHGL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17B11D50)
+#define JJPGMCPMHGL_TICK_OFFSET UNITYSDK_OFFSET(0x17B11DA0)
 
-inline static constexpr unsigned int JJPGMCPMHGL_TypeDefinitionIndex = 55250;
+inline static constexpr unsigned int JJPGMCPMHGL_TypeDefinitionIndex = 56432;
 
 	class JJPGMCPMHGL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::OwnerEntityAddAbility* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::OwnerEntityAddAbility* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OwnerEntityAddAbility* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::OwnerEntityAddAbility*))((::PBYTE)hIl2Cpp + JJPGMCPMHGL_CTOR_OFFSET))(this, a1, a2);

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ProjectileTemplateConfig; }
 namespace RPG::GameCore { class ProjectileTemplateData; }
 
-#define RPG_GAMECORE_PROJECTILETEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D917220)
-#define RPG_GAMECORE_PROJECTILETEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D917140)
+#define RPG_GAMECORE_PROJECTILETEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF810E0)
+#define RPG_GAMECORE_PROJECTILETEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF81000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileTemplateConfig_TypeDefinitionIndex = 15654;
+	inline static constexpr unsigned int ProjectileTemplateConfig_TypeDefinitionIndex = 15812;
 
 	class ProjectileTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

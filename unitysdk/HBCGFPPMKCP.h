@@ -4,10 +4,10 @@
 class LMFOOOLDECA;
 class OMNJCDDMLHI;
 
-#define HBCGFPPMKCP_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD9880)
-#define HBCGFPPMKCP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15BD9890)
+#define HBCGFPPMKCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C151F30)
+#define HBCGFPPMKCP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C151F40)
 
-inline static constexpr unsigned int HBCGFPPMKCP_TypeDefinitionIndex = 77948;
+inline static constexpr unsigned int HBCGFPPMKCP_TypeDefinitionIndex = 80683;
 
 	class HBCGFPPMKCP : public ::System::Object
 	{

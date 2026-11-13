@@ -4,10 +4,10 @@
 namespace RPG::Client { class ScheduleData; }
 namespace System { class Action; }
 
-#define BFBKEIJIFEL___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB15CF60)
-#define BFBKEIJIFEL___C__DISPLAYCLASS6_0__REGISTERSCHEDULECLOSEWATCH_B__0_OFFSET UNITYSDK_OFFSET(0xB15DE20)
+#define BFBKEIJIFEL___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A952A90)
+#define BFBKEIJIFEL___C__DISPLAYCLASS6_0__REGISTERSCHEDULECLOSEWATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1A953960)
 
-inline static constexpr unsigned int BFBKEIJIFEL___c__DisplayClass6_0_TypeDefinitionIndex = 66714;
+inline static constexpr unsigned int BFBKEIJIFEL___c__DisplayClass6_0_TypeDefinitionIndex = 68650;
 
 	class BFBKEIJIFEL___c__DisplayClass6_0 : public ::System::Object
 	{

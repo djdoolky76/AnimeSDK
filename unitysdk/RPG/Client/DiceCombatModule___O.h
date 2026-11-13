@@ -6,14 +6,14 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatModule___O_TypeDefinitionIndex = 63557;
+	inline static constexpr unsigned int DiceCombatModule___O_TypeDefinitionIndex = 64999;
 
 	class DiceCombatModule___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatShopData*>** StaticGet__0___SortShopList()
 		{
-			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatShopData*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x24850);
+			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatShopData*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x2D840);
 		}
 
 	};

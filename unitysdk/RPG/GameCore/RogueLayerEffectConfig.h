@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueLayerEffectConfig; }
 
-#define RPG_GAMECORE_ROGUELAYEREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A4940)
-#define RPG_GAMECORE_ROGUELAYEREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9A4900)
+#define RPG_GAMECORE_ROGUELAYEREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x20772510)
+#define RPG_GAMECORE_ROGUELAYEREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207724D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueLayerEffectConfig_TypeDefinitionIndex = 17922;
+	inline static constexpr unsigned int RogueLayerEffectConfig_TypeDefinitionIndex = 18091;
 
 	class RogueLayerEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

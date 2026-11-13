@@ -5,9 +5,9 @@ class KFELGAIGHAP;
 class PAADPKGPFMJ;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define ICGCEKCDCAI_GEHGFKCEKII_OFFSET UNITYSDK_OFFSET(0x15E409D0)
+#define ICGCEKCDCAI_GEHGFKCEKII_OFFSET UNITYSDK_OFFSET(0x188CB510)
 
-inline static constexpr unsigned int ICGCEKCDCAI_TypeDefinitionIndex = 57267;
+inline static constexpr unsigned int ICGCEKCDCAI_TypeDefinitionIndex = 58494;
 
 	class ICGCEKCDCAI : public ::System::Object
 	{

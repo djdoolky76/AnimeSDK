@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define KBBOACOPFPL_OMLEGBGDEAC_OFFSET UNITYSDK_OFFSET(0xB2E6F90)
+#define KBBOACOPFPL_OMLEGBGDEAC_OFFSET UNITYSDK_OFFSET(0x19DC71D0)
 
-inline static constexpr unsigned int KBBOACOPFPL_TypeDefinitionIndex = 60112;
+inline static constexpr unsigned int KBBOACOPFPL_TypeDefinitionIndex = 61396;
 
 	class KBBOACOPFPL : public ::System::Object
 	{

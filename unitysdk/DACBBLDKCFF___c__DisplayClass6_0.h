@@ -5,11 +5,11 @@ class DACBBLDKCFF;
 class FKNABMFHPCN;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define DACBBLDKCFF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB2620)
-#define DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xDFB2850)
-#define DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0xDFB2880)
+#define DACBBLDKCFF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1993D690)
+#define DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1993D8C0)
+#define DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x1993D8F0)
 
-inline static constexpr unsigned int DACBBLDKCFF___c__DisplayClass6_0_TypeDefinitionIndex = 79646;
+inline static constexpr unsigned int DACBBLDKCFF___c__DisplayClass6_0_TypeDefinitionIndex = 82423;
 
 	class DACBBLDKCFF___c__DisplayClass6_0 : public ::System::Object
 	{

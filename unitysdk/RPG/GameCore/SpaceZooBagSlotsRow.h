@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpaceZooBagSlotsRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPACEZOOBAGSLOTSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC5400)
-#define RPG_GAMECORE_SPACEZOOBAGSLOTSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAC4DC0)
+#define RPG_GAMECORE_SPACEZOOBAGSLOTSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FE660)
+#define RPG_GAMECORE_SPACEZOOBAGSLOTSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3FE020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooBagSlotsRow_TypeDefinitionIndex = 12377;
+	inline static constexpr unsigned int SpaceZooBagSlotsRow_TypeDefinitionIndex = 12444;
 
 	class SpaceZooBagSlotsRow : public ::System::Object
 	{

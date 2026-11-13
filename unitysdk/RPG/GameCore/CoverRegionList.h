@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CoverRegionList; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_COVERREGIONLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B2A10)
-#define RPG_GAMECORE_COVERREGIONLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B2920)
+#define RPG_GAMECORE_COVERREGIONLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEC290)
+#define RPG_GAMECORE_COVERREGIONLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFEC1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CoverRegionList_TypeDefinitionIndex = 19219;
+	inline static constexpr unsigned int CoverRegionList_TypeDefinitionIndex = 19409;
 
 	class CoverRegionList : public ::RPG::GameCore::JsonConfig
 	{

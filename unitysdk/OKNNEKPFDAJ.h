@@ -4,9 +4,9 @@
 class DKFLMHICIJG;
 namespace System { class String; }
 
-#define OKNNEKPFDAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE9750)
+#define OKNNEKPFDAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1788FC50)
 
-inline static constexpr unsigned int OKNNEKPFDAJ_TypeDefinitionIndex = 75947;
+inline static constexpr unsigned int OKNNEKPFDAJ_TypeDefinitionIndex = 78274;
 
 	class OKNNEKPFDAJ : public ::ILEDHBPJGFC
 	{

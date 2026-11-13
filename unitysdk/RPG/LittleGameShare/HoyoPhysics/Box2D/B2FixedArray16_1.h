@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2FixedArray16_1_TypeDefinitionIndex = 36672;
+	inline static constexpr unsigned int B2FixedArray16_1_TypeDefinitionIndex = 37600;
 
 	template <typename T>
 	struct alignas(8) B2FixedArray16_1

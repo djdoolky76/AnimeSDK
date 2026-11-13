@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyLoseHPData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BEEDNKALPFB_CTOR_OFFSET UNITYSDK_OFFSET(0x163054C0)
-#define BEEDNKALPFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163054F0)
+#define BEEDNKALPFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A933A70)
+#define BEEDNKALPFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A933AA0)
 
-inline static constexpr unsigned int BEEDNKALPFB_TypeDefinitionIndex = 55205;
+inline static constexpr unsigned int BEEDNKALPFB_TypeDefinitionIndex = 56386;
 
 	class BEEDNKALPFB
 	{

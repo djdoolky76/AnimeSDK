@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class TrainPartyPerformanceDefineCharacter; }
 namespace System { class String; }
 
-#define GHNBPDKKBFE_MGKONMGHOKE_OFFSET UNITYSDK_OFFSET(0x15A1EC70)
+#define GHNBPDKKBFE_MGKONMGHOKE_OFFSET UNITYSDK_OFFSET(0x1A3CEB10)
 
-inline static constexpr unsigned int GHNBPDKKBFE_TypeDefinitionIndex = 60233;
+inline static constexpr unsigned int GHNBPDKKBFE_TypeDefinitionIndex = 61517;
 
 	class GHNBPDKKBFE : public ::System::Object
 	{

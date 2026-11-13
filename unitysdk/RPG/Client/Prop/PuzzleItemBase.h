@@ -5,13 +5,13 @@ class FJDBIPNBNEE;
 namespace RPG::GameCore { class GameComponentBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_PUZZLEITEMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xDD7ED80)
-#define RPG_CLIENT_PROP_PUZZLEITEMBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD7ECC0)
-#define RPG_CLIENT_PROP_PUZZLEITEMBASE_INITPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0xDD7EC80)
+#define RPG_CLIENT_PROP_PUZZLEITEMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x174567E0)
+#define RPG_CLIENT_PROP_PUZZLEITEMBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17456720)
+#define RPG_CLIENT_PROP_PUZZLEITEMBASE_INITPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0x174566E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleItemBase_TypeDefinitionIndex = 78789;
+	inline static constexpr unsigned int PuzzleItemBase_TypeDefinitionIndex = 81524;
 
 	class PuzzleItemBase : public ::UnityEngine::MonoBehaviour
 	{

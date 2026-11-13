@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearFormationFaceDeltaRecord; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKFNMDIOACH_CTOR_OFFSET UNITYSDK_OFFSET(0xD753850)
-#define CKFNMDIOACH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD753880)
+#define CKFNMDIOACH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD3BE60)
+#define CKFNMDIOACH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD3BE90)
 
-inline static constexpr unsigned int CKFNMDIOACH_TypeDefinitionIndex = 54921;
+inline static constexpr unsigned int CKFNMDIOACH_TypeDefinitionIndex = 56093;
 
 	class CKFNMDIOACH
 	{

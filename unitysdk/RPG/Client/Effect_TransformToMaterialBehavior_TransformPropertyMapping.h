@@ -5,12 +5,12 @@ namespace RPG::Client::TAUtils { class RendererSlots; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0xCD6C280)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xCD6B3F0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x189B13B0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x189B0520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyMapping_TypeDefinitionIndex = 70582;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyMapping_TypeDefinitionIndex = 72559;
 
 	class Effect_TransformToMaterialBehavior_TransformPropertyMapping : public ::System::Object
 	{

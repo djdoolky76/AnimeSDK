@@ -5,18 +5,18 @@ class NDPFOOJIAIJ;
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::GameCore { class AvatarPropertyValue; }
 
-#define MENGFKEAEMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DB590)
-#define MENGFKEAEMB_FIPJEMDGMAO_OFFSET UNITYSDK_OFFSET(0xB8DC410)
-#define MENGFKEAEMB_JKHEOBBHGNH_OFFSET UNITYSDK_OFFSET(0xB8DBD60)
-#define MENGFKEAEMB_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xB8DB5C0)
+#define MENGFKEAEMB_CTOR_OFFSET UNITYSDK_OFFSET(0x17C6B6A0)
+#define MENGFKEAEMB_FIPJEMDGMAO_OFFSET UNITYSDK_OFFSET(0x17C6C520)
+#define MENGFKEAEMB_JKHEOBBHGNH_OFFSET UNITYSDK_OFFSET(0x17C6BE70)
+#define MENGFKEAEMB_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0x17C6B6D0)
 
-inline static constexpr unsigned int MENGFKEAEMB_TypeDefinitionIndex = 65141;
+inline static constexpr unsigned int MENGFKEAEMB_TypeDefinitionIndex = 66825;
 
 	class MENGFKEAEMB : public ::KKPPDDOFADO
 	{
 	public:
-		::NDPFOOJIAIJ* BABBJILOOAL; // 0x20
-		::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x28
+		::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x20
+		::NDPFOOJIAIJ* BABBJILOOAL; // 0x28
 		::System::Void _ctor(::RPG::Client::GridFightRole* a1, ::NDPFOOJIAIJ* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*, ::NDPFOOJIAIJ*))((::PBYTE)hIl2Cpp + MENGFKEAEMB_CTOR_OFFSET))(this, a1, a2);

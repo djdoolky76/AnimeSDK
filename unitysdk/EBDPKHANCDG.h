@@ -7,15 +7,15 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EBDPKHANCDG_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x12CE87E0)
-#define EBDPKHANCDG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CE8560)
-#define EBDPKHANCDG_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x12CE8CA0)
-#define EBDPKHANCDG_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x12CE8F40)
-#define EBDPKHANCDG_LMGLHEKNHKD_OFFSET UNITYSDK_OFFSET(0x12CE8DA0)
-#define EBDPKHANCDG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x12CE89A0)
-#define EBDPKHANCDG_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x12CE8F50)
+#define EBDPKHANCDG_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x1C3B6370)
+#define EBDPKHANCDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B60F0)
+#define EBDPKHANCDG_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x1C3B6830)
+#define EBDPKHANCDG_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1C3B6AD0)
+#define EBDPKHANCDG_LMGLHEKNHKD_OFFSET UNITYSDK_OFFSET(0x1C3B6930)
+#define EBDPKHANCDG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C3B6530)
+#define EBDPKHANCDG_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1C3B6AE0)
 
-inline static constexpr unsigned int EBDPKHANCDG_TypeDefinitionIndex = 78443;
+inline static constexpr unsigned int EBDPKHANCDG_TypeDefinitionIndex = 81178;
 
 	class EBDPKHANCDG : public ::System::Object
 	{
@@ -25,8 +25,9 @@ inline static constexpr unsigned int EBDPKHANCDG_TypeDefinitionIndex = 78443;
 		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x20
 		::System::Action* MECKBKLEHAN; // 0x28
 		::System::Single MFLNKDOADDG; // 0x30
-		::System::Single FOMCKBAHCFM; // 0x34
-		::System::Boolean _IsFinished_k__BackingField; // 0x38
+		::System::Boolean _IsFinished_k__BackingField; // 0x34
+		::System::Byte _padding0[0x3];
+		::System::Single FOMCKBAHCFM; // 0x38
 		::System::Void _ctor(::System::Collections::Generic::HashSet_1<::System::UInt32>* a1, ::System::Action* a2, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a3, ::System::Single a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Action*, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Single))((::PBYTE)hIl2Cpp + EBDPKHANCDG_CTOR_OFFSET))(this, a1, a2, a3, a4);

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DimensionIncrementsConfig; }
 
-#define RPG_GAMECORE_DIMENSIONINCREMENTSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E8D50)
-#define RPG_GAMECORE_DIMENSIONINCREMENTSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E8C60)
+#define RPG_GAMECORE_DIMENSIONINCREMENTSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C6890)
+#define RPG_GAMECORE_DIMENSIONINCREMENTSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3C67A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DimensionIncrementsConfig_TypeDefinitionIndex = 14736;
+	inline static constexpr unsigned int DimensionIncrementsConfig_TypeDefinitionIndex = 14892;
 
 	class DimensionIncrementsConfig : public ::System::Object
 	{

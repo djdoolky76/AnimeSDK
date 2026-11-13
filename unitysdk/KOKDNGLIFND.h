@@ -5,17 +5,17 @@
 class FCOEMCEDLNL;
 class KOKDNGLIFND;
 
-#define KOKDNGLIFND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D093FA0)
-#define KOKDNGLIFND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D093E30)
+#define KOKDNGLIFND_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF4350)
+#define KOKDNGLIFND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECF41E0)
 
-inline static constexpr unsigned int KOKDNGLIFND_TypeDefinitionIndex = 14985;
+inline static constexpr unsigned int KOKDNGLIFND_TypeDefinitionIndex = 15141;
 
 	class KOKDNGLIFND : public ::System::Object
 	{
 	public:
-		::System::UInt32 ADHGMAGMGJE; // 0x10
-		::System::UInt32 AAGKEBFHLMC; // 0x14
-		::RPG::GameCore::RogueTournMode HILINOJPLGA; // 0x18
+		::System::UInt32 AAGKEBFHLMC; // 0x10
+		::RPG::GameCore::RogueTournMode HILINOJPLGA; // 0x14
+		::System::UInt32 ADHGMAGMGJE; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOKDNGLIFND_CTOR_OFFSET))(this);

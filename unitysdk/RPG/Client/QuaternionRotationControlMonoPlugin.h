@@ -4,12 +4,12 @@
 namespace RPG::Client { class QuaternionRotationControlBehavior_SingleRotation; }
 namespace System { class String; }
 
-#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDE04520)
-#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDE044D0)
+#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1904F950)
+#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1904F900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QuaternionRotationControlMonoPlugin_TypeDefinitionIndex = 70757;
+	inline static constexpr unsigned int QuaternionRotationControlMonoPlugin_TypeDefinitionIndex = 72736;
 
 	class QuaternionRotationControlMonoPlugin
 	{

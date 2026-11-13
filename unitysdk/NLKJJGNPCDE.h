@@ -5,19 +5,19 @@ class NLKJJGNPCDE_NKDMOIIGLLP;
 namespace System { class Action; }
 namespace System { class IDisposable; }
 
-#define NLKJJGNPCDE_BIDDPPEHBEC_OFFSET UNITYSDK_OFFSET(0x1EC5C310)
-#define NLKJJGNPCDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5C260)
-#define NLKJJGNPCDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC5C4C0)
-#define NLKJJGNPCDE_GBMLHDDJMJM_OFFSET UNITYSDK_OFFSET(0x1EC5C600)
+#define NLKJJGNPCDE_BIDDPPEHBEC_OFFSET UNITYSDK_OFFSET(0x1E545E60)
+#define NLKJJGNPCDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E545DB0)
+#define NLKJJGNPCDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E546010)
+#define NLKJJGNPCDE_GBMLHDDJMJM_OFFSET UNITYSDK_OFFSET(0x1E546150)
 
-inline static constexpr unsigned int NLKJJGNPCDE_TypeDefinitionIndex = 44187;
+inline static constexpr unsigned int NLKJJGNPCDE_TypeDefinitionIndex = 45262;
 
 	class NLKJJGNPCDE : public ::System::Object
 	{
 	public:
-		::System::IDisposable* HDAKHNOIENL; // 0x10
-		::System::Action* IOGFELMDNEK; // 0x18
-		::System::Action* EDGCAOBECGF; // 0x20
+		::System::Action* EDGCAOBECGF; // 0x10
+		::System::IDisposable* HDAKHNOIENL; // 0x18
+		::System::Action* IOGFELMDNEK; // 0x20
 		::System::Void _ctor(::System::Action* a1, ::System::Action* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + NLKJJGNPCDE_CTOR_OFFSET))(this, a1, a2);

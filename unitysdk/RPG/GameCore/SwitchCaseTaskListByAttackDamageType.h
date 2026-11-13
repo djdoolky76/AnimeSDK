@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwitchCaseTaskListByAttackDamageType; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SWITCHCASETASKLISTBYATTACKDAMAGETYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB13030)
-#define RPG_GAMECORE_SWITCHCASETASKLISTBYATTACKDAMAGETYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB12F10)
+#define RPG_GAMECORE_SWITCHCASETASKLISTBYATTACKDAMAGETYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E682B30)
+#define RPG_GAMECORE_SWITCHCASETASKLISTBYATTACKDAMAGETYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E682A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCaseTaskListByAttackDamageType_TypeDefinitionIndex = 23774;
+	inline static constexpr unsigned int SwitchCaseTaskListByAttackDamageType_TypeDefinitionIndex = 24230;
 
 	class SwitchCaseTaskListByAttackDamageType : public ::RPG::GameCore::JsonConfig
 	{

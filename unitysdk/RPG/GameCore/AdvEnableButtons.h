@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvEnableButtons; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENABLEBUTTONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36E8E0)
-#define RPG_GAMECORE_ADVENABLEBUTTONS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D36E8F0)
-#define RPG_GAMECORE_ADVENABLEBUTTONS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D36E8B0)
+#define RPG_GAMECORE_ADVENABLEBUTTONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB6250)
+#define RPG_GAMECORE_ADVENABLEBUTTONS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAB6260)
+#define RPG_GAMECORE_ADVENABLEBUTTONS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB6220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnableButtons_TypeDefinitionIndex = 20540;
+	inline static constexpr unsigned int AdvEnableButtons_TypeDefinitionIndex = 20876;
 
 	class AdvEnableButtons : public ::RPG::GameCore::TaskConfig
 	{

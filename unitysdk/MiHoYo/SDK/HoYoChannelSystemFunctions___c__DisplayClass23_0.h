@@ -5,12 +5,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelShowErrorDialogResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA0360)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS23_0__ONSHOWERRORDIALOGCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xAFA0920)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB423C0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS23_0__ONSHOWERRORDIALOGCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1AB42980)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSystemFunctions___c__DisplayClass23_0_TypeDefinitionIndex = 46562;
+	inline static constexpr unsigned int HoYoChannelSystemFunctions___c__DisplayClass23_0_TypeDefinitionIndex = 47590;
 
 	class HoYoChannelSystemFunctions___c__DisplayClass23_0 : public ::System::Object
 	{

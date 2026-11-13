@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int NBIBJILIFIG_TypedHandlerInfo_1_TypeDefinitionIndex = 36961;
+inline static constexpr unsigned int NBIBJILIFIG_TypedHandlerInfo_1_TypeDefinitionIndex = 37889;
 
 	template <typename T>
 	class NBIBJILIFIG_TypedHandlerInfo_1 : public ::System::Object

@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightOrbTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTORBTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70A200)
-#define RPG_GAMECORE_GRIDFIGHTORBTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D70A080)
+#define RPG_GAMECORE_GRIDFIGHTORBTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x208BE730)
+#define RPG_GAMECORE_GRIDFIGHTORBTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x208BE5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightOrbTypeRow_TypeDefinitionIndex = 13424;
+	inline static constexpr unsigned int GridFightOrbTypeRow_TypeDefinitionIndex = 13496;
 
 	class GridFightOrbTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* PrefabPath; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::System::String* PrefabPath; // 0x18
 		::RPG::GameCore::GridFightOrbType OrbType; // 0x20
 		::System::Void _ctor()
 		{

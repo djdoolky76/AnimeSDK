@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_MUSICRHYTHMBUBBLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD905BC0)
+#define RPG_CLIENT_MUSICRHYTHMBUBBLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2AB9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmBubbleInfo_TypeDefinitionIndex = 60171;
+	inline static constexpr unsigned int MusicRhythmBubbleInfo_TypeDefinitionIndex = 61455;
 
 	class MusicRhythmBubbleInfo : public ::System::Object
 	{
 	public:
 		::System::String* PeppyText; // 0x10
 		::System::String* Text; // 0x18
-		::System::Single Duration; // 0x20
+		::System::UInt32 RuntimeId; // 0x20
 		::System::UInt32 TextId; // 0x24
-		::System::UInt32 RuntimeId; // 0x28
-		::UnityEngine::Vector3 Position; // 0x2C
+		::UnityEngine::Vector3 Position; // 0x28
+		::System::Single Duration; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICRHYTHMBUBBLEINFO_CTOR_OFFSET))(this);

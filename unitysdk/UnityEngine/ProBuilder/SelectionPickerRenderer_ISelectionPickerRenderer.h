@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer_ISelectionPickerRenderer_TypeDefinitionIndex = 44421;
+	inline static constexpr unsigned int SelectionPickerRenderer_ISelectionPickerRenderer_TypeDefinitionIndex = 45496;
 
 	class SelectionPickerRenderer_ISelectionPickerRenderer
 	{

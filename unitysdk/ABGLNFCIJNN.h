@@ -3,10 +3,10 @@
 class CGHBOOLNOOJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ABGLNFCIJNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F2040)
-#define ABGLNFCIJNN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0F2070)
+#define ABGLNFCIJNN_CTOR_OFFSET UNITYSDK_OFFSET(0x18CA3190)
+#define ABGLNFCIJNN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CA31C0)
 
-inline static constexpr unsigned int ABGLNFCIJNN_TypeDefinitionIndex = 55734;
+inline static constexpr unsigned int ABGLNFCIJNN_TypeDefinitionIndex = 56936;
 
 	class ABGLNFCIJNN
 	{

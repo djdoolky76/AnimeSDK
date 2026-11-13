@@ -5,12 +5,12 @@ class EAODNLIPMEO;
 class MKEGPKOGFIE;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterDataProvider; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC94DC90)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC94DC80)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1DDEB430)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEB420)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageMonsterDataProvider_Factory_TypeDefinitionIndex = 81574;
+	inline static constexpr unsigned int ChallengeTierceStageMonsterDataProvider_Factory_TypeDefinitionIndex = 84355;
 
 	class ChallengeTierceStageMonsterDataProvider_Factory : public ::System::Object
 	{

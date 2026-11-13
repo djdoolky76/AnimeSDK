@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ICameraViewLinkContext_1_TypeDefinitionIndex = 42737;
+	inline static constexpr unsigned int ICameraViewLinkContext_1_TypeDefinitionIndex = 43716;
 
 	template <typename T>
 	class ICameraViewLinkContext_1

@@ -4,18 +4,18 @@
 class FGOPLKFEJAP;
 namespace System { class Object; }
 
-#define FGOPLKFEJAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E356FB0)
-#define FGOPLKFEJAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E356FE0)
-#define FGOPLKFEJAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E356FF0)
+#define FGOPLKFEJAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8C9410)
+#define FGOPLKFEJAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8C9440)
+#define FGOPLKFEJAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F8C9450)
 
-inline static constexpr unsigned int FGOPLKFEJAP___c_TypeDefinitionIndex = 32757;
+inline static constexpr unsigned int FGOPLKFEJAP___c_TypeDefinitionIndex = 33672;
 
 	class FGOPLKFEJAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55C70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x511C0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_GameServiceParameters_TypeDefinitionIndex = 46249;
+	inline static constexpr unsigned int MHYSDKC_GameServiceParameters_TypeDefinitionIndex = 47278;
 
 	class MHYSDKC_GameServiceParameters : public ::System::Object
 	{

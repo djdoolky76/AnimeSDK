@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvGameplayTrackNpcEnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MMICHHFBBFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C9740)
-#define MMICHHFBBFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9C9770)
+#define MMICHHFBBFF_CTOR_OFFSET UNITYSDK_OFFSET(0x188F7CA0)
+#define MMICHHFBBFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188F7CD0)
 
-inline static constexpr unsigned int MMICHHFBBFF_TypeDefinitionIndex = 52378;
+inline static constexpr unsigned int MMICHHFBBFF_TypeDefinitionIndex = 53484;
 
 	class MMICHHFBBFF
 	{

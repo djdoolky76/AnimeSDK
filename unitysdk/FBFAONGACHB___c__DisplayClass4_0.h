@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 class FBFAONGACHB;
 
-inline static constexpr unsigned int FBFAONGACHB___c__DisplayClass4_0_TypeDefinitionIndex = 44255;
+inline static constexpr unsigned int FBFAONGACHB___c__DisplayClass4_0_TypeDefinitionIndex = 45330;
 
 	class FBFAONGACHB___c__DisplayClass4_0 : public ::System::Object
 	{

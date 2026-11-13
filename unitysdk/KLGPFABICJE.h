@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionChangeWaitTimeByVote; }
 
-#define KLGPFABICJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E7810)
-#define KLGPFABICJE_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C6E7820)
+#define KLGPFABICJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF70E0)
+#define KLGPFABICJE_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1ABF70F0)
 
-inline static constexpr unsigned int KLGPFABICJE_TypeDefinitionIndex = 37383;
+inline static constexpr unsigned int KLGPFABICJE_TypeDefinitionIndex = 38311;
 
 	class KLGPFABICJE : public ::GPLOFONGBGI
 	{

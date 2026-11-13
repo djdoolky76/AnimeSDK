@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KOAOAKKCCPK;
 
-#define AIFAHLNOMGK_ALCAAMGHIJD_CTOR_OFFSET UNITYSDK_OFFSET(0xEB9DE10)
+#define AIFAHLNOMGK_ALCAAMGHIJD_CTOR_OFFSET UNITYSDK_OFFSET(0x19B43410)
 
-inline static constexpr unsigned int AIFAHLNOMGK_ALCAAMGHIJD_TypeDefinitionIndex = 72180;
+inline static constexpr unsigned int AIFAHLNOMGK_ALCAAMGHIJD_TypeDefinitionIndex = 74242;
 
 	class AIFAHLNOMGK_ALCAAMGHIJD : public ::System::Object
 	{

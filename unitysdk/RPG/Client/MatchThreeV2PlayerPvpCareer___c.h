@@ -6,43 +6,43 @@ class APAMFCKFHLL;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5BDE70)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5BDEB0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_0_OFFSET UNITYSDK_OFFSET(0xD5BDF00)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_1_OFFSET UNITYSDK_OFFSET(0xD5BDF20)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_0_OFFSET UNITYSDK_OFFSET(0xD5BDEC0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_1_OFFSET UNITYSDK_OFFSET(0xD5BDEE0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D719890)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7198D0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_0_OFFSET UNITYSDK_OFFSET(0x1D719920)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_1_OFFSET UNITYSDK_OFFSET(0x1D719940)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_0_OFFSET UNITYSDK_OFFSET(0x1D7198E0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_1_OFFSET UNITYSDK_OFFSET(0x1D719900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex = 66013;
+	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex = 67945;
 
 	class MatchThreeV2PlayerPvpCareer___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>** StaticGet___9__19_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x41FB0);
-		}
-
-		static ::System::Func_2<::APAMFCKFHLL*, ::JHGPKBIJHDE>** StaticGet___9__19_0()
-		{
-			return (::System::Func_2<::APAMFCKFHLL*, ::JHGPKBIJHDE>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x41FB8);
-		}
-
-		static ::System::Func_2<::APAMFCKFHLL*, ::JHGPKBIJHDE>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::APAMFCKFHLL*, ::JHGPKBIJHDE>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x41FC0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EAD0);
 		}
 
 		static ::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>** StaticGet___9__18_1()
 		{
-			return (::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x41FC8);
+			return (::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EAD8);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::APAMFCKFHLL*, ::JHGPKBIJHDE>** StaticGet___9__19_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x41FD0);
+			return (::System::Func_2<::APAMFCKFHLL*, ::JHGPKBIJHDE>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EAE0);
+		}
+
+		static ::System::Func_2<::APAMFCKFHLL*, ::JHGPKBIJHDE>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::APAMFCKFHLL*, ::JHGPKBIJHDE>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EAE8);
+		}
+
+		static ::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>** StaticGet___9__19_1()
+		{
+			return (::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EAF0);
 		}
 
 		static ::System::Void _cctor()

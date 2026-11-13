@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FPJDAJBKDMN.h"
 
-#define GCACCBNIGKA_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7AE20)
-#define GCACCBNIGKA_GET_INTENT_OFFSET UNITYSDK_OFFSET(0x2E7AE30)
+#define GCACCBNIGKA_CTOR_OFFSET UNITYSDK_OFFSET(0xAD9EE0)
+#define GCACCBNIGKA_GET_INTENT_OFFSET UNITYSDK_OFFSET(0xADA190)
 
-inline static constexpr unsigned int GCACCBNIGKA_TypeDefinitionIndex = 62165;
+inline static constexpr unsigned int GCACCBNIGKA_TypeDefinitionIndex = 63578;
 
 	struct alignas(4) GCACCBNIGKA
 	{

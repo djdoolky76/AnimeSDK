@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class MFFFJIIIMNH;
 
-#define NFFHMOLDPEH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB77EE0)
+#define NFFHMOLDPEH_CTOR_OFFSET UNITYSDK_OFFSET(0x18E60090)
 
-inline static constexpr unsigned int NFFHMOLDPEH_TypeDefinitionIndex = 53656;
+inline static constexpr unsigned int NFFHMOLDPEH_TypeDefinitionIndex = 54820;
 
 	class NFFHMOLDPEH : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OIDMIGBONBL_Section_TypeDefinitionIndex = 41532;
+inline static constexpr unsigned int OIDMIGBONBL_Section_TypeDefinitionIndex = 42507;
 
 	enum class OIDMIGBONBL_Section : ::System::Int32
 	{

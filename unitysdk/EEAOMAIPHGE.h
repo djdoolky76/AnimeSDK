@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define EEAOMAIPHGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD440A0)
-#define EEAOMAIPHGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD43F00)
+#define EEAOMAIPHGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9BB180)
+#define EEAOMAIPHGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9BAFE0)
 
-inline static constexpr unsigned int EEAOMAIPHGE_TypeDefinitionIndex = 18157;
+inline static constexpr unsigned int EEAOMAIPHGE_TypeDefinitionIndex = 18319;
 
 	class EEAOMAIPHGE : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* GMACMKDGHPP; // 0x10
-		::System::String* IFNAGLOMHBK; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* NKCKAJPAJCJ; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* NKCKAJPAJCJ; // 0x18
+		::System::String* IFNAGLOMHBK; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEAOMAIPHGE_CTOR_OFFSET))(this);

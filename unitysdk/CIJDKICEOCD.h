@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CIJDKICEOCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCFC2E0)
+#define CIJDKICEOCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1799FEE0)
 
-inline static constexpr unsigned int CIJDKICEOCD_TypeDefinitionIndex = 6314;
+inline static constexpr unsigned int CIJDKICEOCD_TypeDefinitionIndex = 6321;
 
 	class CIJDKICEOCD : public ::System::Attribute
 	{

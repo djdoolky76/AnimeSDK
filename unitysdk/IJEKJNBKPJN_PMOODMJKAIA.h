@@ -8,30 +8,30 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define IJEKJNBKPJN_PMOODMJKAIA_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x16455B10)
-#define IJEKJNBKPJN_PMOODMJKAIA_CTOR_OFFSET UNITYSDK_OFFSET(0x16457910)
-#define IJEKJNBKPJN_PMOODMJKAIA_GPIEBCBBEJJ_OFFSET UNITYSDK_OFFSET(0x16458460)
-#define IJEKJNBKPJN_PMOODMJKAIA_KCPLMOPGCIN_OFFSET UNITYSDK_OFFSET(0x16459BA0)
-#define IJEKJNBKPJN_PMOODMJKAIA_KFLFMKLBEKL_OFFSET UNITYSDK_OFFSET(0x16458330)
-#define IJEKJNBKPJN_PMOODMJKAIA_LNOBKLDNDIB_OFFSET UNITYSDK_OFFSET(0x16457F10)
-#define IJEKJNBKPJN_PMOODMJKAIA_MNHMLCKKGIP_OFFSET UNITYSDK_OFFSET(0x164583D0)
+#define IJEKJNBKPJN_PMOODMJKAIA_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x18049EB0)
+#define IJEKJNBKPJN_PMOODMJKAIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1804BC60)
+#define IJEKJNBKPJN_PMOODMJKAIA_GPIEBCBBEJJ_OFFSET UNITYSDK_OFFSET(0x1804C7B0)
+#define IJEKJNBKPJN_PMOODMJKAIA_KCPLMOPGCIN_OFFSET UNITYSDK_OFFSET(0x1804DEE0)
+#define IJEKJNBKPJN_PMOODMJKAIA_KFLFMKLBEKL_OFFSET UNITYSDK_OFFSET(0x1804C680)
+#define IJEKJNBKPJN_PMOODMJKAIA_LNOBKLDNDIB_OFFSET UNITYSDK_OFFSET(0x1804C260)
+#define IJEKJNBKPJN_PMOODMJKAIA_MNHMLCKKGIP_OFFSET UNITYSDK_OFFSET(0x1804C720)
 
-inline static constexpr unsigned int IJEKJNBKPJN_PMOODMJKAIA_TypeDefinitionIndex = 57148;
+inline static constexpr unsigned int IJEKJNBKPJN_PMOODMJKAIA_TypeDefinitionIndex = 58377;
 
 	class IJEKJNBKPJN_PMOODMJKAIA : public ::System::Object
 	{
 	public:
-		::UnityEngine::Mesh* CPNJMKDCAJI; // 0x10
-		::System::Action_1<::UnityEngine::Mesh*>* PCPCKNGGMKD; // 0x18
-		::UnityEngine::SkinnedMeshRenderer* JFHOEPIHNIO; // 0x20
-		::System::Action_1<::UnityEngine::Mesh*>* ENENBMJGLKM; // 0x28
-		::System::Action_1<::UnityEngine::Material*>* ACDCPCEJALF; // 0x30
-		::Il2CppArray<::System::String*>* PDPEPGJPNCA; // 0x38
-		::System::String* HMJEPBGJMMO; // 0x40
+		::System::Action_1<::UnityEngine::Material*>* ACDCPCEJALF; // 0x10
+		::UnityEngine::SkinnedMeshRenderer* JFHOEPIHNIO; // 0x18
+		::System::Action_1<::UnityEngine::Mesh*>* PCPCKNGGMKD; // 0x20
+		::Il2CppArray<::System::String*>* PDPEPGJPNCA; // 0x28
+		::System::Action_1<::UnityEngine::Mesh*>* ENENBMJGLKM; // 0x30
+		::System::String* HMJEPBGJMMO; // 0x38
+		::UnityEngine::Mesh* CPNJMKDCAJI; // 0x40
 		::System::Int32 AJNEPIPLOFJ; // 0x48
 		::System::Int32 JGGELKCKKKM; // 0x4C
-		::System::Boolean NEPADOGCPCA; // 0x50
-		::System::Boolean IMIBEPFNFLD; // 0x51
+		::System::Boolean IMIBEPFNFLD; // 0x50
+		::System::Boolean NEPADOGCPCA; // 0x51
 		::System::Void _ctor(::UnityEngine::SkinnedMeshRenderer* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::UnityEngine::Mesh*>* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*, ::System::String*, ::System::String*, ::System::Action_1<::UnityEngine::Mesh*>*))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_PMOODMJKAIA_CTOR_OFFSET))(this, a1, a2, a3, a4);

@@ -7,17 +7,17 @@ class IIFNNEDICFK;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class JsonEnum; }
 
-#define IIFNNEDICFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE4850)
-#define IIFNNEDICFK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEE4860)
-#define IIFNNEDICFK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEE4820)
+#define IIFNNEDICFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CECC0)
+#define IIFNNEDICFK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6CECD0)
+#define IIFNNEDICFK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6CEC90)
 
-inline static constexpr unsigned int IIFNNEDICFK_TypeDefinitionIndex = 23240;
+inline static constexpr unsigned int IIFNNEDICFK_TypeDefinitionIndex = 23680;
 
 	class IIFNNEDICFK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::JsonEnum* NOCCJLJPLKJ; // 0x18
-		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x20
+		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x18
+		::RPG::GameCore::JsonEnum* NOCCJLJPLKJ; // 0x20
 		::RPG::GameCore::PropertyModifyFunction FKCKKFALPBK; // 0x28
 		::System::Void _ctor()
 		{

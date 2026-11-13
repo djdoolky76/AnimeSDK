@@ -4,18 +4,18 @@
 namespace RPG::Client { class BattleGamePhase; }
 namespace RPG::Client { class ServerDispatchData; }
 
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS176_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC833D70)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS176_0___CHECKKICKOFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0xC834C60)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS176_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1DA5B0)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS176_0___CHECKKICKOFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0x1B1DB4A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass176_0_TypeDefinitionIndex = 60966;
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass176_0_TypeDefinitionIndex = 62342;
 
 	class BattleGamePhase___c__DisplayClass176_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ServerDispatchData* serverDispatchData; // 0x10
-		::RPG::Client::BattleGamePhase* __4__this; // 0x18
+		::RPG::Client::BattleGamePhase* __4__this; // 0x10
+		::RPG::Client::ServerDispatchData* serverDispatchData; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS176_0_CTOR_OFFSET))(this);

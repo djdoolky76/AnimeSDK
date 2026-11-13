@@ -5,25 +5,25 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimFluteDataGroup; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD42F390)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD42F3D0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C__GETUNLOCKFIVEDIMFLUTEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xD42F3E0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C389440)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C389480)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C__GETUNLOCKFIVEDIMFLUTEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C389490)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFluteDataManager___c_TypeDefinitionIndex = 77214;
+	inline static constexpr unsigned int FiveDimFluteDataManager___c_TypeDefinitionIndex = 79548;
 
 	class FiveDimFluteDataManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup*>** StaticGet___9__7_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup*>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x24F60);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x24F68);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x44F50);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup*>** StaticGet___9__7_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup*>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x44F58);
 		}
 
 		static ::System::Void _cctor()

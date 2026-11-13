@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Threading { class OSSpecificSynchronizationContext; }
 
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C11AE90)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C11AEC0)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C__GET_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C11AED0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8F9F80)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F9FB0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C__GET_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C8F9FC0)
 
 namespace System::Threading
 {
@@ -17,12 +17,12 @@ namespace System::Threading
 	public:
 		static ::System::Object** StaticGet___9__3_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Threading", "<>c")->GetStaticField(0x25820);
+			return (::System::Object**)UnitySDK::FromName("System.Threading", "<>c")->GetStaticField(0x17AD0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Threading", "<>c")->GetStaticField(0x25828);
+			return (::System::Object**)UnitySDK::FromName("System.Threading", "<>c")->GetStaticField(0x17AD8);
 		}
 
 		static ::System::Void _cctor()

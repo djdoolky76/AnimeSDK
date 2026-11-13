@@ -15,73 +15,73 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3EE4C0)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D3EBCE0)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D3EBA90)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1D3EB6D0)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D3EB7F0)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D3EBA20)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D3EC080)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3EB870)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1D3EC2B0)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1D3EB780)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1D3EBD90)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3EC0C0)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3EDF80)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D3EDFD0)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D3EDF20)
-#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3EC250)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2E1E50)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C2DF680)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C2DF430)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1C2DF070)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1C2DF190)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1C2DF3C0)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1C2DFA20)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C2DF210)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1C2DFC50)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1C2DF120)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1C2DF730)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1C2DFA60)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2E1910)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1C2E1960)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1C2E18B0)
+#define RPG_GAMECORE_AVATARPROMOTIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C2DFBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPromotionExcelTable_TypeDefinitionIndex = 12734;
+	inline static constexpr unsigned int AvatarPromotionExcelTable_TypeDefinitionIndex = 12801;
 
 	class AvatarPromotionExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x5DCE0);
-		}
-
-		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::AvatarPromotionRow*>** StaticGet_LRUCache()
-		{
-			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::AvatarPromotionRow*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x5DCE8);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x5DCF0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x11E20);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::AvatarPromotionRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::AvatarPromotionRow*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x5DCF8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::AvatarPromotionRow*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x11E28);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x11E30);
 		}
 
 		static ::OFLIAAOJPJC** StaticGet_headers()
 		{
-			return (::OFLIAAOJPJC**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x5DD00);
+			return (::OFLIAAOJPJC**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x11E38);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x5DD08);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x11E40);
 		}
 
 		static ::System::String** StaticGet_srcFileName()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x5DD10);
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x11E48);
+		}
+
+		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::AvatarPromotionRow*>** StaticGet_LRUCache()
+		{
+			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::AvatarPromotionRow*>**)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x11E50);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x14190);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x3980);
 		}
 
 		static ::System::Boolean* StaticGet_IsLoadReverseMap()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x14191);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AvatarPromotionExcelTable")->GetStaticField(0x3981);
 		}
 
 		static ::System::Void _cctor()

@@ -4,11 +4,11 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define ENVIROMENTSYSTEM_ENVIROMENTPROFILE___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15622BF0)
+#define ENVIROMENTSYSTEM_ENVIROMENTPROFILE___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0x136A8B90)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentProfile___c__DisplayClass31_0_TypeDefinitionIndex = 49588;
+	inline static constexpr unsigned int EnviromentProfile___c__DisplayClass31_0_TypeDefinitionIndex = 50664;
 
 	class EnviromentProfile___c__DisplayClass31_0 : public ::System::Object
 	{

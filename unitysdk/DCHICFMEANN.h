@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DCHICFMEANN_TypeDefinitionIndex = 74729;
+inline static constexpr unsigned int DCHICFMEANN_TypeDefinitionIndex = 76877;
 
 	struct alignas(4) DCHICFMEANN
 	{

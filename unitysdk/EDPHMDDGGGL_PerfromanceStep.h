@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EDPHMDDGGGL_PerfromanceStep_TypeDefinitionIndex = 60720;
+inline static constexpr unsigned int EDPHMDDGGGL_PerfromanceStep_TypeDefinitionIndex = 62097;
 
 	enum class EDPHMDDGGGL_PerfromanceStep : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::Native::OS
 {
-	inline static constexpr unsigned int Win32_TOKEN_INFORMATION_CLASS_TypeDefinitionIndex = 8478;
+	inline static constexpr unsigned int Win32_TOKEN_INFORMATION_CLASS_TypeDefinitionIndex = 8487;
 
 	enum class Win32_TOKEN_INFORMATION_CLASS : ::System::Int32
 	{

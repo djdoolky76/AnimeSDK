@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D34A620)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D349D60)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D349C30)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D349920)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D349BD0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D349EB0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3499A0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D349EF0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34A0C0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D34A300)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D34A020)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D349F80)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA91940)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EA91080)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EA90F50)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1EA90C40)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1EA90EF0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1EA911D0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1EA90CC0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1EA91210)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA913E0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1EA91620)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1EA91340)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1EA912A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionInfoExcelTable_TypeDefinitionIndex = 12319;
+	inline static constexpr unsigned int ActivityRaidCollectionInfoExcelTable_TypeDefinitionIndex = 12376;
 
 	class ActivityRaidCollectionInfoExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0x55FD0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRaidCollectionInfoRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRaidCollectionInfoRow*>**)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0x55FD8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRaidCollectionInfoRow*>**)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0x4D610);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0x4D618);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0x55FE0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0x4D620);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0x130B0);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0xEC50);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0x130B1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActivityRaidCollectionInfoExcelTable")->GetStaticField(0xEC51);
 		}
 
 		static ::System::Void _cctor()

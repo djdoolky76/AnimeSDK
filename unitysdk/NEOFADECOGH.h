@@ -6,22 +6,22 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NEOFADECOGH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6EE00)
-#define NEOFADECOGH_DBIELBAPKIK_OFFSET UNITYSDK_OFFSET(0xBB6EC20)
-#define NEOFADECOGH_FKHMPOKCFOJ_OFFSET UNITYSDK_OFFSET(0xBB6E200)
-#define NEOFADECOGH_FLAAIBEJDOI_OFFSET UNITYSDK_OFFSET(0xBB6E610)
-#define NEOFADECOGH_GGKNGCOPLKH_OFFSET UNITYSDK_OFFSET(0xBB6ECE0)
-#define NEOFADECOGH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBB6E250)
-#define NEOFADECOGH_NAJDKFDDPCC_OFFSET UNITYSDK_OFFSET(0xBB6ED70)
+#define NEOFADECOGH_CTOR_OFFSET UNITYSDK_OFFSET(0x18E581B0)
+#define NEOFADECOGH_DBIELBAPKIK_OFFSET UNITYSDK_OFFSET(0x18E57FD0)
+#define NEOFADECOGH_FKHMPOKCFOJ_OFFSET UNITYSDK_OFFSET(0x18E575B0)
+#define NEOFADECOGH_FLAAIBEJDOI_OFFSET UNITYSDK_OFFSET(0x18E579C0)
+#define NEOFADECOGH_GGKNGCOPLKH_OFFSET UNITYSDK_OFFSET(0x18E58090)
+#define NEOFADECOGH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x18E57600)
+#define NEOFADECOGH_NAJDKFDDPCC_OFFSET UNITYSDK_OFFSET(0x18E58120)
 
-inline static constexpr unsigned int NEOFADECOGH_TypeDefinitionIndex = 49288;
+inline static constexpr unsigned int NEOFADECOGH_TypeDefinitionIndex = 50364;
 
 	class NEOFADECOGH
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ALKHDILAGKC; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* KMOANAPHMPG; // 0x10
 		::System::Collections::Generic::List_1<::System::Int32>* BAAMMJNKAKI; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* KMOANAPHMPG; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ALKHDILAGKC; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* JPAHBNOGAEI; // 0x28
 		::System::Int32 BJOKJMLJMKE; // 0x30
 		::System::Void _ctor()

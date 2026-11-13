@@ -5,10 +5,10 @@ class ELENICENJKP;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 
-#define BGIPKMPPBAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB1887B0)
-#define BGIPKMPPBAL_GET_NODES_OFFSET UNITYSDK_OFFSET(0xB1887C0)
+#define BGIPKMPPBAL_CTOR_OFFSET UNITYSDK_OFFSET(0x151C7270)
+#define BGIPKMPPBAL_GET_NODES_OFFSET UNITYSDK_OFFSET(0x151C7280)
 
-inline static constexpr unsigned int BGIPKMPPBAL_TypeDefinitionIndex = 79160;
+inline static constexpr unsigned int BGIPKMPPBAL_TypeDefinitionIndex = 81936;
 
 	class BGIPKMPPBAL : public ::System::Object
 	{

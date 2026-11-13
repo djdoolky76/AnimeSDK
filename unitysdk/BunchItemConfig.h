@@ -3,10 +3,10 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define BUNCHITEMCONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xC1B8870)
-#define BUNCHITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B8A50)
+#define BUNCHITEMCONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B617590)
+#define BUNCHITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B617770)
 
-inline static constexpr unsigned int BunchItemConfig_TypeDefinitionIndex = 47322;
+inline static constexpr unsigned int BunchItemConfig_TypeDefinitionIndex = 48351;
 
 	class BunchItemConfig : public ::UnityEngine::MonoBehaviour
 	{

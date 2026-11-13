@@ -5,13 +5,13 @@
 namespace RPG::Client { class PlayerBriefDisplayData; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_INVITEFRIENDGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xD36C9C0)
-#define RPG_CLIENT_INVITEFRIENDGROUP_GET_FRIENDLIST_OFFSET UNITYSDK_OFFSET(0xD36C9B0)
-#define RPG_CLIENT_INVITEFRIENDGROUP_GET_TITLETEXTID_OFFSET UNITYSDK_OFFSET(0xD36C9A0)
+#define RPG_CLIENT_INVITEFRIENDGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x170939E0)
+#define RPG_CLIENT_INVITEFRIENDGROUP_GET_FRIENDLIST_OFFSET UNITYSDK_OFFSET(0x170939D0)
+#define RPG_CLIENT_INVITEFRIENDGROUP_GET_TITLETEXTID_OFFSET UNITYSDK_OFFSET(0x170939C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InviteFriendGroup_TypeDefinitionIndex = 64260;
+	inline static constexpr unsigned int InviteFriendGroup_TypeDefinitionIndex = 65705;
 
 	class InviteFriendGroup : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 class NJKMPJGBNMK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HMAGPIIGHPI_CTOR_OFFSET UNITYSDK_OFFSET(0x15D6BD60)
-#define HMAGPIIGHPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D6BD90)
+#define HMAGPIIGHPI_CTOR_OFFSET UNITYSDK_OFFSET(0x198BBC00)
+#define HMAGPIIGHPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x198BBC30)
 
-inline static constexpr unsigned int HMAGPIIGHPI_TypeDefinitionIndex = 52865;
+inline static constexpr unsigned int HMAGPIIGHPI_TypeDefinitionIndex = 54020;
 
 	class HMAGPIIGHPI
 	{

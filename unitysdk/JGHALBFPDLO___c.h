@@ -4,18 +4,18 @@
 class JGHALBFPDLO;
 namespace System { class Object; }
 
-#define JGHALBFPDLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E70C4D0)
-#define JGHALBFPDLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E70C510)
-#define JGHALBFPDLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E70C520)
+#define JGHALBFPDLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204A0F60)
+#define JGHALBFPDLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204A0FA0)
+#define JGHALBFPDLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x204A0FB0)
 
-inline static constexpr unsigned int JGHALBFPDLO___c_TypeDefinitionIndex = 33387;
+inline static constexpr unsigned int JGHALBFPDLO___c_TypeDefinitionIndex = 34302;
 
 	class JGHALBFPDLO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E4D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60260);
 		}
 
 		static ::System::Void _cctor()

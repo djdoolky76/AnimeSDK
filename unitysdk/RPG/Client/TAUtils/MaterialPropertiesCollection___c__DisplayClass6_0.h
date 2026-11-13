@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::TAUtils { class MaterialPropertiesCollection_Property; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE182EA0)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION___C__DISPLAYCLASS6_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xE185B50)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A34E0)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION___C__DISPLAYCLASS6_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1C5A6190)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection___c__DisplayClass6_0_TypeDefinitionIndex = 73629;
+	inline static constexpr unsigned int MaterialPropertiesCollection___c__DisplayClass6_0_TypeDefinitionIndex = 75752;
 
 	class MaterialPropertiesCollection___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightGameModifier; }
 
-#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD198650)
-#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS17_0__UPDATEREMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xD199BB0)
+#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC35640)
+#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS17_0__UPDATEREMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1CC36BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass17_0_TypeDefinitionIndex = 65043;
+	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass17_0_TypeDefinitionIndex = 66667;
 
 	class GridFightModifierInfo___c__DisplayClass17_0 : public ::System::Object
 	{

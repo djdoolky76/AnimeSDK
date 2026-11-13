@@ -8,23 +8,24 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D0580)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F0D0810)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0D0730)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1F0D0740)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F0D0860)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D6EC0)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1E5D7150)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E5D7070)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1E5D7080)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E5D71A0)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int EveryUpdate__EveryUpdate_TypeDefinitionIndex = 45713;
+	inline static constexpr unsigned int EveryUpdate__EveryUpdate_TypeDefinitionIndex = 46742;
 
 	class EveryUpdate__EveryUpdate : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
 	public:
-		::System::Threading::CancellationToken cancellationToken; // 0x30
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x38
-		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x50
-		::System::Boolean disposed; // 0x54
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x30
+		::System::Threading::CancellationToken cancellationToken; // 0x48
+		::System::Boolean disposed; // 0x50
+		::System::Byte _padding0[0x3];
+		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x54
 		::System::Void _ctor(::Cysharp::Threading::Tasks::PlayerLoopTiming a1, ::System::Threading::CancellationToken a2, ::System::Boolean a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_CTOR_OFFSET))(this, a1, a2, a3);

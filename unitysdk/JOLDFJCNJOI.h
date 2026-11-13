@@ -4,9 +4,9 @@
 class ECIIEBFKNMJ;
 class LMJPODEEGKK;
 
-#define JOLDFJCNJOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0BF0)
+#define JOLDFJCNJOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E2D50)
 
-inline static constexpr unsigned int JOLDFJCNJOI_TypeDefinitionIndex = 77415;
+inline static constexpr unsigned int JOLDFJCNJOI_TypeDefinitionIndex = 80150;
 
 	class JOLDFJCNJOI : public ::DJJKNHPLHDI
 	{

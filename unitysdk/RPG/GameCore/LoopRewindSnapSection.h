@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LoopRewindSnapSection; }
 
-#define RPG_GAMECORE_LOOPREWINDSNAPSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C8920)
-#define RPG_GAMECORE_LOOPREWINDSNAPSECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C87A0)
+#define RPG_GAMECORE_LOOPREWINDSNAPSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07AB20)
+#define RPG_GAMECORE_LOOPREWINDSNAPSECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F07A9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopRewindSnapSection_TypeDefinitionIndex = 20639;
+	inline static constexpr unsigned int LoopRewindSnapSection_TypeDefinitionIndex = 20976;
 
 	class LoopRewindSnapSection : public ::RPG::GameCore::JsonConfig
 	{

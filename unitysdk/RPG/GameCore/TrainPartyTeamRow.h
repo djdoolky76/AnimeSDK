@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyTeamRow; }
 
-#define RPG_GAMECORE_TRAINPARTYTEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC08A90)
-#define RPG_GAMECORE_TRAINPARTYTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC08800)
+#define RPG_GAMECORE_TRAINPARTYTEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E312370)
+#define RPG_GAMECORE_TRAINPARTYTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3120E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyTeamRow_TypeDefinitionIndex = 15308;
+	inline static constexpr unsigned int TrainPartyTeamRow_TypeDefinitionIndex = 15464;
 
 	class TrainPartyTeamRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PassengerList; // 0x10
-		::System::UInt32 GridNum; // 0x18
-		::System::UInt32 LeaderWorkingBuffID; // 0x1C
+		::System::UInt32 TeamID; // 0x18
+		::System::UInt32 GridNum; // 0x1C
 		::System::UInt32 InitialMeetingSkill; // 0x20
-		::System::UInt32 TeamID; // 0x24
+		::System::UInt32 LeaderWorkingBuffID; // 0x24
 		::RPG::Client::TextID TeamName; // 0x28
 		::System::Void _ctor()
 		{

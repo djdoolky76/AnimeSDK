@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OOCCBMLAELL;
 
-#define POOJGAMDHHI_CTOR_OFFSET UNITYSDK_OFFSET(0xC36E680)
+#define POOJGAMDHHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B89AAA0)
 
-inline static constexpr unsigned int POOJGAMDHHI_TypeDefinitionIndex = 80582;
+inline static constexpr unsigned int POOJGAMDHHI_TypeDefinitionIndex = 83362;
 
 	class POOJGAMDHHI : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define GGPBKJPBELC_CTOR_OFFSET UNITYSDK_OFFSET(0x15A06F70)
-#define GGPBKJPBELC_TRIGGER_OFFSET UNITYSDK_OFFSET(0x15A07000)
+#define GGPBKJPBELC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B0470)
+#define GGPBKJPBELC_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1B4B0500)
 
-inline static constexpr unsigned int GGPBKJPBELC_TypeDefinitionIndex = 66241;
+inline static constexpr unsigned int GGPBKJPBELC_TypeDefinitionIndex = 68177;
 
 	class GGPBKJPBELC : public ::System::Object
 	{

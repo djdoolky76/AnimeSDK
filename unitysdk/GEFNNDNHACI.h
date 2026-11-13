@@ -3,10 +3,10 @@
 #include "unitysdk/EJLNMFOPGOP.h"
 namespace System { class String; }
 
-#define GEFNNDNHACI_CTOR_OFFSET UNITYSDK_OFFSET(0x159C9380)
-#define GEFNNDNHACI_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x159C92E0)
+#define GEFNNDNHACI_CTOR_OFFSET UNITYSDK_OFFSET(0x17CD5AE0)
+#define GEFNNDNHACI_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x17CD5A40)
 
-inline static constexpr unsigned int GEFNNDNHACI_TypeDefinitionIndex = 72358;
+inline static constexpr unsigned int GEFNNDNHACI_TypeDefinitionIndex = 74437;
 
 	class GEFNNDNHACI : public ::EJLNMFOPGOP
 	{

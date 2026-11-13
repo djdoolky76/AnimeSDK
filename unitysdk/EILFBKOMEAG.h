@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/System/Object.h"
 
-#define EILFBKOMEAG_FNCNMCEOALF_1_OFFSET UNITYSDK_OFFSET(0x154C3BB0)
-#define EILFBKOMEAG_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0x154C3B40)
+#define EILFBKOMEAG_FNCNMCEOALF_1_OFFSET UNITYSDK_OFFSET(0x19A9F2F0)
+#define EILFBKOMEAG_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0x19A9F280)
 
-inline static constexpr unsigned int EILFBKOMEAG_TypeDefinitionIndex = 81437;
+inline static constexpr unsigned int EILFBKOMEAG_TypeDefinitionIndex = 84217;
 
 	class EILFBKOMEAG : public ::System::Object
 	{

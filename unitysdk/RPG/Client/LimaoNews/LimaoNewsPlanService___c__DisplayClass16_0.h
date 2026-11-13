@@ -8,20 +8,20 @@ namespace RPG::Client::LimaoNews { class LimaoNewsPlanService; }
 namespace RPG::Client::LimaoNews { class LimaoNewsPostSubmitViewModel; }
 namespace RPG::Client::LimaoNews { class LimaoNewsWorkProgressResultViewModel; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3C93B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0___FINISHCURRENTPLANPHASEANDSHOWRESULTPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xD3CB540)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0___FINISHCURRENTPLANPHASEANDSHOWRESULTPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xD3CB770)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC6F50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0___FINISHCURRENTPLANPHASEANDSHOWRESULTPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1DFC8020)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0___FINISHCURRENTPLANPHASEANDSHOWRESULTPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x1DFC8250)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPlanService___c__DisplayClass16_0_TypeDefinitionIndex = 80333;
+	inline static constexpr unsigned int LimaoNewsPlanService___c__DisplayClass16_0_TypeDefinitionIndex = 83110;
 
 	class LimaoNewsPlanService___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LimaoNews::LimaoNewsWorkProgressResultViewModel* resultViewModel; // 0x10
-		::RPG::Client::LimaoNews::LimaoNewsPlanService* __4__this; // 0x18
-		::RPG::Client::LimaoNews::LimaoNewsModule* limaoModule; // 0x20
+		::RPG::Client::LimaoNews::LimaoNewsPlanService* __4__this; // 0x10
+		::RPG::Client::LimaoNews::LimaoNewsModule* limaoModule; // 0x18
+		::RPG::Client::LimaoNews::LimaoNewsWorkProgressResultViewModel* resultViewModel; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0_CTOR_OFFSET))(this);

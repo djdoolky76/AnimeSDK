@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_SELECTORLABELINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E8C5D0)
+#define CRIWARE_CRIATOMEXACF_SELECTORLABELINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x3F1D9C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_SelectorLabelInfo_TypeDefinitionIndex = 40038;
+	inline static constexpr unsigned int CriAtomExAcf_SelectorLabelInfo_TypeDefinitionIndex = 41013;
 
 	struct alignas(8) CriAtomExAcf_SelectorLabelInfo
 	{

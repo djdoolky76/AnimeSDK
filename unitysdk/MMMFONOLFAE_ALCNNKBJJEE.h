@@ -4,15 +4,15 @@
 namespace RootMotion::FinalIK { class RotationLimit; }
 namespace UnityEngine { class Transform; }
 
-#define MMMFONOLFAE_ALCNNKBJJEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D3AF0)
+#define MMMFONOLFAE_ALCNNKBJJEE_CTOR_OFFSET UNITYSDK_OFFSET(0x18902620)
 
-inline static constexpr unsigned int MMMFONOLFAE_ALCNNKBJJEE_TypeDefinitionIndex = 68446;
+inline static constexpr unsigned int MMMFONOLFAE_ALCNNKBJJEE_TypeDefinitionIndex = 70393;
 
 	class MMMFONOLFAE_ALCNNKBJJEE : public ::System::Object
 	{
 	public:
-		::RootMotion::FinalIK::RotationLimit* JMJOBHDKNBC; // 0x10
-		::UnityEngine::Transform* EEHPALPMDPG; // 0x18
+		::UnityEngine::Transform* EEHPALPMDPG; // 0x10
+		::RootMotion::FinalIK::RotationLimit* JMJOBHDKNBC; // 0x18
 		::System::Single APAKCBFMCAB; // 0x20
 		::System::Void _ctor()
 		{

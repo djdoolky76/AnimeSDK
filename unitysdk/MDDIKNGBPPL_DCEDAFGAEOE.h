@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MDDIKNGBPPL_DCEDAFGAEOE_TypeDefinitionIndex = 27730;
+inline static constexpr unsigned int MDDIKNGBPPL_DCEDAFGAEOE_TypeDefinitionIndex = 28261;
 
 	enum class MDDIKNGBPPL_DCEDAFGAEOE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		ICPMABKBLCD = 5,
-		FDNLIPKGBLM = 8,
-		ABIPNABIDPE = 14,
-		BPMEBJHDOFC = 11,
-		HGHBDACDJKP = 10,
-		DLNGPBMGMKM = 13,
-		BELJJJLLCBK = 15,
-		ALFNNIIMBLM = 2,
+		ICPMABKBLCD = 9,
+		FDNLIPKGBLM = 3,
+		ABIPNABIDPE = 7,
+		BPMEBJHDOFC = 5,
+		HGHBDACDJKP = 13,
+		DLNGPBMGMKM = 12,
+		BELJJJLLCBK = 10,
+		ALFNNIIMBLM = 4,
 	};

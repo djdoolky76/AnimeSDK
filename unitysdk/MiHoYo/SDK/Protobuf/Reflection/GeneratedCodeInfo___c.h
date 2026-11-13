@@ -4,20 +4,20 @@
 namespace MiHoYo::SDK::Protobuf::Reflection { class GeneratedCodeInfo; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBE6FD0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE7010)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C___CCTOR_B__25_0_OFFSET UNITYSDK_OFFSET(0x1BBE7020)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6A5AE0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6A5B20)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C___CCTOR_B__25_0_OFFSET UNITYSDK_OFFSET(0x1C6A5B30)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int GeneratedCodeInfo___c_TypeDefinitionIndex = 35819;
+	inline static constexpr unsigned int GeneratedCodeInfo___c_TypeDefinitionIndex = 36747;
 
 	class GeneratedCodeInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x5E870);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x67180);
 		}
 
 		static ::System::Void _cctor()

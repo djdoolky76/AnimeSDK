@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasSpareTeamFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IODEFIMLAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x164F0FD0)
-#define IODEFIMLAJO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164F1000)
+#define IODEFIMLAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A600EA0)
+#define IODEFIMLAJO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A600ED0)
 
-inline static constexpr unsigned int IODEFIMLAJO_TypeDefinitionIndex = 54900;
+inline static constexpr unsigned int IODEFIMLAJO_TypeDefinitionIndex = 56072;
 
 	class IODEFIMLAJO
 	{

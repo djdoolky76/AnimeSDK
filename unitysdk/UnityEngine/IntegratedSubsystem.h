@@ -4,12 +4,12 @@
 namespace UnityEngine { class ISubsystemDescriptor; }
 namespace UnityEngine { class IntegratedSubsystem; }
 
-#define UNITYENGINE_INTEGRATEDSUBSYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F46F830)
-#define UNITYENGINE_INTEGRATEDSUBSYSTEM_SETHANDLE_OFFSET UNITYSDK_OFFSET(0x1F46F820)
+#define UNITYENGINE_INTEGRATEDSUBSYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0x20971130)
+#define UNITYENGINE_INTEGRATEDSUBSYSTEM_SETHANDLE_OFFSET UNITYSDK_OFFSET(0x20971120)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IntegratedSubsystem_TypeDefinitionIndex = 5832;
+	inline static constexpr unsigned int IntegratedSubsystem_TypeDefinitionIndex = 5840;
 
 	class IntegratedSubsystem : public ::System::Object
 	{

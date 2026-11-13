@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System::Text { class DecoderFallback; }
 
-#define SYSTEM_TEXT_DECODERFALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E5630)
-#define SYSTEM_TEXT_DECODERFALLBACK_GET_EXCEPTIONFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C0E5B70)
-#define SYSTEM_TEXT_DECODERFALLBACK_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1C0E5B20)
-#define SYSTEM_TEXT_DECODERFALLBACK_GET_REPLACEMENTFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C0E1C00)
+#define SYSTEM_TEXT_DECODERFALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1756D2E0)
+#define SYSTEM_TEXT_DECODERFALLBACK_GET_EXCEPTIONFALLBACK_OFFSET UNITYSDK_OFFSET(0x1756D820)
+#define SYSTEM_TEXT_DECODERFALLBACK_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1756D7D0)
+#define SYSTEM_TEXT_DECODERFALLBACK_GET_REPLACEMENTFALLBACK_OFFSET UNITYSDK_OFFSET(0x175698B0)
 
 namespace System::Text
 {
@@ -17,19 +17,19 @@ namespace System::Text
 	{
 	public:
 		::System::Boolean bIsMicrosoftBestFitFallback; // 0x10
-		static ::System::Text::DecoderFallback** StaticGet_replacementFallback()
-		{
-			return (::System::Text::DecoderFallback**)UnitySDK::FromName("System.Text", "DecoderFallback")->GetStaticField(0x22B30);
-		}
-
 		static ::System::Text::DecoderFallback** StaticGet_exceptionFallback()
 		{
-			return (::System::Text::DecoderFallback**)UnitySDK::FromName("System.Text", "DecoderFallback")->GetStaticField(0x22B38);
+			return (::System::Text::DecoderFallback**)UnitySDK::FromName("System.Text", "DecoderFallback")->GetStaticField(0x15660);
+		}
+
+		static ::System::Text::DecoderFallback** StaticGet_replacementFallback()
+		{
+			return (::System::Text::DecoderFallback**)UnitySDK::FromName("System.Text", "DecoderFallback")->GetStaticField(0x15668);
 		}
 
 		static ::System::Object** StaticGet_s_InternalSyncObject()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Text", "DecoderFallback")->GetStaticField(0x22B40);
+			return (::System::Object**)UnitySDK::FromName("System.Text", "DecoderFallback")->GetStaticField(0x15670);
 		}
 
 		::System::Void _ctor()

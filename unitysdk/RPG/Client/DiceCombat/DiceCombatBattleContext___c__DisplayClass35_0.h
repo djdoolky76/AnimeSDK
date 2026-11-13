@@ -5,12 +5,12 @@ namespace RPG::Client::DiceCombat { class DiceCombatForceRefreshEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC10870)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS35_0__APPENDFORCEREFRESHEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xCC11AF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB64250)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS35_0__APPENDFORCEREFRESHEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x1CB65E60)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattleContext___c__DisplayClass35_0_TypeDefinitionIndex = 76036;
+	inline static constexpr unsigned int DiceCombatBattleContext___c__DisplayClass35_0_TypeDefinitionIndex = 78363;
 
 	class DiceCombatBattleContext___c__DisplayClass35_0 : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HDJIGMBHENE.h"
 
-#define JKHCLOAJILN_CTOR_OFFSET UNITYSDK_OFFSET(0xB216A00)
+#define JKHCLOAJILN_CTOR_OFFSET UNITYSDK_OFFSET(0x17B225A0)
 
-inline static constexpr unsigned int JKHCLOAJILN_TypeDefinitionIndex = 61197;
+inline static constexpr unsigned int JKHCLOAJILN_TypeDefinitionIndex = 62582;
 
 	class JKHCLOAJILN : public ::HDJIGMBHENE
 	{

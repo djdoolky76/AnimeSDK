@@ -3,11 +3,11 @@
 #include "unitysdk/Entitas/CodeGeneration/Attributes/CleanupMode.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_CLEANUPATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x167490B0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_CLEANUPATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20850350)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int CleanupAttribute_TypeDefinitionIndex = 10069;
+	inline static constexpr unsigned int CleanupAttribute_TypeDefinitionIndex = 10077;
 
 	class CleanupAttribute : public ::System::Attribute
 	{

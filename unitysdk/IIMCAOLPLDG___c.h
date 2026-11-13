@@ -5,29 +5,29 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define IIMCAOLPLDG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x164406C0)
-#define IIMCAOLPLDG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16440700)
-#define IIMCAOLPLDG___C__GETEQUIPMENTPROPERTYLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x16440790)
-#define IIMCAOLPLDG___C___TOPROPERTYMODIFYDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x16440710)
+#define IIMCAOLPLDG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x193E2BE0)
+#define IIMCAOLPLDG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x193E2C20)
+#define IIMCAOLPLDG___C__GETEQUIPMENTPROPERTYLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x193E2CB0)
+#define IIMCAOLPLDG___C___TOPROPERTYMODIFYDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x193E2C30)
 
-inline static constexpr unsigned int IIMCAOLPLDG___c_TypeDefinitionIndex = 73267;
+inline static constexpr unsigned int IIMCAOLPLDG___c_TypeDefinitionIndex = 75383;
 
 	class IIMCAOLPLDG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60160);
-		}
-
-		static ::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>** StaticGet___9__11_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60168);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66FA0);
 		}
 
 		static ::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60170);
+			return (::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66FA8);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>** StaticGet___9__11_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66FB0);
 		}
 
 		static ::System::Void _cctor()

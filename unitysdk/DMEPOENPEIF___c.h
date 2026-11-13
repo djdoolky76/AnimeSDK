@@ -4,18 +4,18 @@
 class DMEPOENPEIF;
 namespace System { class Object; }
 
-#define DMEPOENPEIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1BDF90)
-#define DMEPOENPEIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BDFD0)
-#define DMEPOENPEIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1BDFE0)
+#define DMEPOENPEIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201DAC50)
+#define DMEPOENPEIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201DAC90)
+#define DMEPOENPEIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201DACA0)
 
-inline static constexpr unsigned int DMEPOENPEIF___c_TypeDefinitionIndex = 29999;
+inline static constexpr unsigned int DMEPOENPEIF___c_TypeDefinitionIndex = 30897;
 
 	class DMEPOENPEIF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35F80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33900);
 		}
 
 		static ::System::Void _cctor()

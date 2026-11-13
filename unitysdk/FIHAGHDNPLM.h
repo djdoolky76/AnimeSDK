@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvForceHideBillboard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FIHAGHDNPLM_CTOR_OFFSET UNITYSDK_OFFSET(0x1579A6D0)
-#define FIHAGHDNPLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1579A700)
+#define FIHAGHDNPLM_CTOR_OFFSET UNITYSDK_OFFSET(0x19803DB0)
+#define FIHAGHDNPLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19803DE0)
 
-inline static constexpr unsigned int FIHAGHDNPLM_TypeDefinitionIndex = 52375;
+inline static constexpr unsigned int FIHAGHDNPLM_TypeDefinitionIndex = 53481;
 
 	class FIHAGHDNPLM
 	{

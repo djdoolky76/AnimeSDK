@@ -9,27 +9,27 @@ namespace RPG::GameCore { class RogueDLC1Dot3AdventureRoomManage; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LHNOMKDOJJH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6B8E60)
-#define LHNOMKDOJJH_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B5EE0)
-#define LHNOMKDOJJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6B5F30)
-#define LHNOMKDOJJH_KALFLJGAONC_OFFSET UNITYSDK_OFFSET(0xB6B6410)
-#define LHNOMKDOJJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6B5FD0)
-#define LHNOMKDOJJH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6B88F0)
-#define LHNOMKDOJJH_PGAJCEEHBBA_OFFSET UNITYSDK_OFFSET(0xB6B8940)
-#define LHNOMKDOJJH_TICK_OFFSET UNITYSDK_OFFSET(0xB6B5F70)
+#define LHNOMKDOJJH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCD1700)
+#define LHNOMKDOJJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCE7C0)
+#define LHNOMKDOJJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCCE810)
+#define LHNOMKDOJJH_KALFLJGAONC_OFFSET UNITYSDK_OFFSET(0x1BCCECE0)
+#define LHNOMKDOJJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCCE8B0)
+#define LHNOMKDOJJH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BCD1190)
+#define LHNOMKDOJJH_PGAJCEEHBBA_OFFSET UNITYSDK_OFFSET(0x1BCD11E0)
+#define LHNOMKDOJJH_TICK_OFFSET UNITYSDK_OFFSET(0x1BCCE850)
 
-inline static constexpr unsigned int LHNOMKDOJJH_TypeDefinitionIndex = 58446;
+inline static constexpr unsigned int LHNOMKDOJJH_TypeDefinitionIndex = 59702;
 
 	class LHNOMKDOJJH : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage* OFKGLJOAMLD; // 0x18
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OLHGEGCKCBE; // 0x20
+		::RPG::Client::AdventurePhase* FPILJLGACHP; // 0x20
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::RPG::Client::AdventurePhase* FPILJLGACHP; // 0x30
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OLHGEGCKCBE; // 0x30
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_LGCFDMOGACA()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "LHNOMKDOJJH")->GetStaticField(0x63570);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "LHNOMKDOJJH")->GetStaticField(0x67070);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage* a2)

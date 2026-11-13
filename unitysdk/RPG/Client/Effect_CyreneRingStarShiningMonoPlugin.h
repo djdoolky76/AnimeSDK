@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD1C260)
-#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD1C210)
+#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x17BD9670)
+#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17BD9620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_CyreneRingStarShiningMonoPlugin_TypeDefinitionIndex = 70440;
+	inline static constexpr unsigned int Effect_CyreneRingStarShiningMonoPlugin_TypeDefinitionIndex = 72411;
 
 	class Effect_CyreneRingStarShiningMonoPlugin
 	{

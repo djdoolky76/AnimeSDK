@@ -4,18 +4,18 @@
 class OILCMCPNBEO;
 namespace System { class Object; }
 
-#define OILCMCPNBEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE469B0)
-#define OILCMCPNBEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE469F0)
-#define OILCMCPNBEO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE46A00)
+#define OILCMCPNBEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F68FDE0)
+#define OILCMCPNBEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F68FE20)
+#define OILCMCPNBEO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F68FE30)
 
-inline static constexpr unsigned int OILCMCPNBEO___c_TypeDefinitionIndex = 29396;
+inline static constexpr unsigned int OILCMCPNBEO___c_TypeDefinitionIndex = 30112;
 
 	class OILCMCPNBEO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1AFE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1AEE0);
 		}
 
 		static ::System::Void _cctor()

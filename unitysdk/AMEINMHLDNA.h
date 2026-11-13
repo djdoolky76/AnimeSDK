@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AMEINMHLDNA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CCACD60)
-#define AMEINMHLDNA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD8B0)
-#define AMEINMHLDNA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CCAD100)
-#define AMEINMHLDNA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CCACDA0)
-#define AMEINMHLDNA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CCAD5F0)
-#define AMEINMHLDNA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CCAD1A0)
-#define AMEINMHLDNA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CCAD1F0)
-#define AMEINMHLDNA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CCACFD0)
-#define AMEINMHLDNA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CCAD590)
-#define AMEINMHLDNA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CCAD760)
-#define AMEINMHLDNA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCAD060)
-#define AMEINMHLDNA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCAD510)
+#define AMEINMHLDNA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1ECA8690)
+#define AMEINMHLDNA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECA91E0)
+#define AMEINMHLDNA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1ECA8A30)
+#define AMEINMHLDNA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1ECA86D0)
+#define AMEINMHLDNA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1ECA8F20)
+#define AMEINMHLDNA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1ECA8AD0)
+#define AMEINMHLDNA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1ECA8B20)
+#define AMEINMHLDNA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1ECA8900)
+#define AMEINMHLDNA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1ECA8EC0)
+#define AMEINMHLDNA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1ECA9090)
+#define AMEINMHLDNA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1ECA8990)
+#define AMEINMHLDNA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1ECA8E40)
 
-inline static constexpr unsigned int AMEINMHLDNA_TypeDefinitionIndex = 15165;
+inline static constexpr unsigned int AMEINMHLDNA_TypeDefinitionIndex = 15321;
 
 	class AMEINMHLDNA : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0x325E0);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0x41D00);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0x325E8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionConfigRow*>**)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0x41D08);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0x41D10);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0xFA90);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionConfigRow*>**)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0x325F0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0xFA91);
+			return (::System::Byte*)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0x9C20);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "AMEINMHLDNA")->GetStaticField(0x9C21);
 		}
 
 		static ::System::Void _cctor()

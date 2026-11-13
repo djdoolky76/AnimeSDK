@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class DynamicValueRoundToInt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EBMMNOKNFJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFEB90)
-#define EBMMNOKNFJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CFEC70)
+#define EBMMNOKNFJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3CC8E0)
+#define EBMMNOKNFJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C3CC9C0)
 
-inline static constexpr unsigned int EBMMNOKNFJJ_TypeDefinitionIndex = 56355;
+inline static constexpr unsigned int EBMMNOKNFJJ_TypeDefinitionIndex = 57569;
 
 	class EBMMNOKNFJJ
 	{

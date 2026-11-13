@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ScheduleData; }
 
-#define DNBKKHBNFPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1193B550)
-#define DNBKKHBNFPE_EMMPCNEIFGM_OFFSET UNITYSDK_OFFSET(0x1193B5C0)
+#define DNBKKHBNFPE_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB05C0)
+#define DNBKKHBNFPE_EMMPCNEIFGM_OFFSET UNITYSDK_OFFSET(0x12CB0630)
 
-inline static constexpr unsigned int DNBKKHBNFPE_TypeDefinitionIndex = 74926;
+inline static constexpr unsigned int DNBKKHBNFPE_TypeDefinitionIndex = 77253;
 
 	class DNBKKHBNFPE : public ::System::Object
 	{

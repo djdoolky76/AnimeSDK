@@ -6,112 +6,112 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F16B750)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16AC30)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GETLEGACYDIFFUSE_OFFSET UNITYSDK_OFFSET(0x1F16B380)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_COLLIDERMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16B1E0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16AF30)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_EDGEPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16B0B0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_FACEPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16AFF0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_GEOMETRYSHADERSSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1F16AED0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_NODRAWMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16B2B0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_SELECTIONPICKERSHADER_OFFSET UNITYSDK_OFFSET(0x1F16AF90)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_SHAPEPREVIEWMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16B6F0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_TRIGGERMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16B110)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_UNLITVERTEXCOLOR_OFFSET UNITYSDK_OFFSET(0x1F16B690)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_VERTEXPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F16B050)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_INIT_OFFSET UNITYSDK_OFFSET(0x1F16A380)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_CCTOR_OFFSET UNITYSDK_OFFSET(0xD684150)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0xD683630)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GETLEGACYDIFFUSE_OFFSET UNITYSDK_OFFSET(0xD683D80)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_COLLIDERMATERIAL_OFFSET UNITYSDK_OFFSET(0xD683BE0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0xD683930)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_EDGEPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0xD683AB0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_FACEPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0xD6839F0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_GEOMETRYSHADERSSUPPORTED_OFFSET UNITYSDK_OFFSET(0xD6838D0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_NODRAWMATERIAL_OFFSET UNITYSDK_OFFSET(0xD683CB0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_SELECTIONPICKERSHADER_OFFSET UNITYSDK_OFFSET(0xD683990)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_SHAPEPREVIEWMATERIAL_OFFSET UNITYSDK_OFFSET(0xD6840F0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_TRIGGERMATERIAL_OFFSET UNITYSDK_OFFSET(0xD683B10)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_UNLITVERTEXCOLOR_OFFSET UNITYSDK_OFFSET(0xD684090)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_VERTEXPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0xD683A50)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_INIT_OFFSET UNITYSDK_OFFSET(0xD682D80)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int BuiltinMaterials_TypeDefinitionIndex = 44340;
+	inline static constexpr unsigned int BuiltinMaterials_TypeDefinitionIndex = 45415;
 
 	class BuiltinMaterials : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_k_VertexPickerShader()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B620);
-		}
-
-		static ::UnityEngine::Material** StaticGet_s_UnlitVertexColorMaterial()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B628);
-		}
-
-		static ::UnityEngine::Material** StaticGet_s_UnityDefaultDiffuse()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B630);
-		}
-
-		static ::UnityEngine::Material** StaticGet_s_EdgePickerMaterial()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B638);
-		}
-
-		static ::UnityEngine::Material** StaticGet_s_FacePickerMaterial()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B640);
-		}
-
-		static ::System::String** StaticGet_k_FacePickerMaterial()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B648);
-		}
-
-		static ::System::String** StaticGet_k_FacePickerShader()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B650);
-		}
-
-		static ::System::String** StaticGet_k_EdgePickerShader()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B658);
-		}
-
 		static ::UnityEngine::Material** StaticGet_s_ShapePreviewMaterial()
 		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B660);
-		}
-
-		static ::UnityEngine::Material** StaticGet_s_VertexPickerMaterial()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B668);
-		}
-
-		static ::System::String** StaticGet_k_EdgePickerMaterial()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B670);
-		}
-
-		static ::UnityEngine::Material** StaticGet_s_DefaultMaterial()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B678);
-		}
-
-		static ::System::String** StaticGet_k_VertexPickerMaterial()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B680);
+			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62310);
 		}
 
 		static ::UnityEngine::Shader** StaticGet_s_SelectionPickerShader()
 		{
-			return (::UnityEngine::Shader**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x4B688);
+			return (::UnityEngine::Shader**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62318);
+		}
+
+		static ::System::String** StaticGet_k_VertexPickerMaterial()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62320);
+		}
+
+		static ::UnityEngine::Material** StaticGet_s_UnityDefaultDiffuse()
+		{
+			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62328);
+		}
+
+		static ::System::String** StaticGet_k_EdgePickerMaterial()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62330);
+		}
+
+		static ::System::String** StaticGet_k_FacePickerMaterial()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62338);
+		}
+
+		static ::UnityEngine::Material** StaticGet_s_FacePickerMaterial()
+		{
+			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62340);
+		}
+
+		static ::System::String** StaticGet_k_FacePickerShader()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62348);
+		}
+
+		static ::System::String** StaticGet_k_EdgePickerShader()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62350);
+		}
+
+		static ::UnityEngine::Material** StaticGet_s_EdgePickerMaterial()
+		{
+			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62358);
+		}
+
+		static ::System::String** StaticGet_k_VertexPickerShader()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62360);
+		}
+
+		static ::UnityEngine::Material** StaticGet_s_VertexPickerMaterial()
+		{
+			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62368);
+		}
+
+		static ::UnityEngine::Material** StaticGet_s_UnlitVertexColorMaterial()
+		{
+			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62370);
+		}
+
+		static ::UnityEngine::Material** StaticGet_s_DefaultMaterial()
+		{
+			return (::UnityEngine::Material**)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x62378);
 		}
 
 		static ::UnityEngine::Color* StaticGet_previewColor()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x11450);
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x14260);
 		}
 
 		static ::System::Boolean* StaticGet_s_IsInitialized()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x11460);
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x14270);
 		}
 
 		static ::System::Boolean* StaticGet_s_GeometryShadersSupported()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x11461);
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.ProBuilder", "BuiltinMaterials")->GetStaticField(0x14271);
 		}
 
 		// static const ::System::String* faceShader; // 0x0

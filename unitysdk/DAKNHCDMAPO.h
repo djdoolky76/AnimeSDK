@@ -7,18 +7,18 @@
 class DAKNHCDMAPO;
 class FCOEMCEDLNL;
 
-#define DAKNHCDMAPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9D560)
-#define DAKNHCDMAPO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9D320)
+#define DAKNHCDMAPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9F730)
+#define DAKNHCDMAPO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9F4F0)
 
-inline static constexpr unsigned int DAKNHCDMAPO_TypeDefinitionIndex = 14948;
+inline static constexpr unsigned int DAKNHCDMAPO_TypeDefinitionIndex = 15104;
 
 	class DAKNHCDMAPO : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueTournAreaGroupID JFMBIOOCPIL; // 0x10
-		::RPG::GameCore::RogueTournMode HILINOJPLGA; // 0x14
-		::RPG::Client::TextID OENAMINOLLF; // 0x18
-		::RPG::Client::TextID ANBDGFJDBPF; // 0x28
+		::RPG::Client::TextID ANBDGFJDBPF; // 0x10
+		::RPG::GameCore::RogueTournAreaGroupID JFMBIOOCPIL; // 0x20
+		::RPG::GameCore::RogueTournMode HILINOJPLGA; // 0x24
+		::RPG::Client::TextID OENAMINOLLF; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DAKNHCDMAPO_CTOR_OFFSET))(this);

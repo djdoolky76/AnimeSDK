@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartAdvSkillCombo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define COCGJPIDHNE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCAC1B0)
-#define COCGJPIDHNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCAC1E0)
+#define COCGJPIDHNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1915D1B0)
+#define COCGJPIDHNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1915D1E0)
 
-inline static constexpr unsigned int COCGJPIDHNE_TypeDefinitionIndex = 58714;
+inline static constexpr unsigned int COCGJPIDHNE_TypeDefinitionIndex = 59982;
 
 	class COCGJPIDHNE
 	{

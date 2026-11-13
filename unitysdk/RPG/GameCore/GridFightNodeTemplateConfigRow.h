@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightNodeTemplateConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7096A0)
-#define RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D709420)
+#define RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x208BDAA0)
+#define RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x208BD820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightNodeTemplateConfigRow_TypeDefinitionIndex = 13615;
+	inline static constexpr unsigned int GridFightNodeTemplateConfigRow_TypeDefinitionIndex = 13735;
 
 	class GridFightNodeTemplateConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 BasicGoldRewardNum; // 0x18
-		::System::UInt32 StageID; // 0x1C
-		::System::UInt32 NodeTemplateID; // 0x20
-		::RPG::GameCore::GridFightNodeType NodeType; // 0x24
+		::System::UInt32 IsAugment; // 0x18
+		::RPG::GameCore::GridFightNodeType NodeType; // 0x1C
+		::System::UInt32 BasicGoldRewardNum; // 0x20
+		::System::UInt32 StageID; // 0x24
 		::System::UInt32 PenaltyBonusRuleID; // 0x28
-		::System::UInt32 IsAugment; // 0x2C
+		::System::UInt32 NodeTemplateID; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW_CTOR_OFFSET))(this);

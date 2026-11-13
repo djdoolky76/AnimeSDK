@@ -3,11 +3,11 @@
 #include "unitysdk/FDPFMFINJCO.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HCJAIOODMPC_CLEAR_OFFSET UNITYSDK_OFFSET(0x15C13000)
-#define HCJAIOODMPC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C130D0)
-#define HCJAIOODMPC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C13060)
+#define HCJAIOODMPC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B7B2DF0)
+#define HCJAIOODMPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7B2EC0)
+#define HCJAIOODMPC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B7B2E50)
 
-inline static constexpr unsigned int HCJAIOODMPC_TypeDefinitionIndex = 67557;
+inline static constexpr unsigned int HCJAIOODMPC_TypeDefinitionIndex = 69501;
 
 	class HCJAIOODMPC : public ::FDPFMFINJCO
 	{

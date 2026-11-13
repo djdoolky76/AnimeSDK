@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MuseumMissionRow; }
 
-#define RPG_GAMECORE_MUSEUMMISSIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D899270)
-#define RPG_GAMECORE_MUSEUMMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8990E0)
+#define RPG_GAMECORE_MUSEUMMISSIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E489FB0)
+#define RPG_GAMECORE_MUSEUMMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E489E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumMissionRow_TypeDefinitionIndex = 14243;
+	inline static constexpr unsigned int MuseumMissionRow_TypeDefinitionIndex = 14400;
 
 	class MuseumMissionRow : public ::System::Object
 	{

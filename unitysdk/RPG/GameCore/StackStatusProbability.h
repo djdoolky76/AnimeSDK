@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class StackStatusProbability; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKSTATUSPROBABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD6E60)
-#define RPG_GAMECORE_STACKSTATUSPROBABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD6E70)
-#define RPG_GAMECORE_STACKSTATUSPROBABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD6E30)
+#define RPG_GAMECORE_STACKSTATUSPROBABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3AA1F0)
+#define RPG_GAMECORE_STACKSTATUSPROBABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3AA200)
+#define RPG_GAMECORE_STACKSTATUSPROBABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3AA1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackStatusProbability_TypeDefinitionIndex = 22683;
+	inline static constexpr unsigned int StackStatusProbability_TypeDefinitionIndex = 23105;
 
 	class StackStatusProbability : public ::RPG::GameCore::TaskConfig
 	{

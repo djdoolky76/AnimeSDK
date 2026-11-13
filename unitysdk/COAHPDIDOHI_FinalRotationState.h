@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int COAHPDIDOHI_FinalRotationState_TypeDefinitionIndex = 52215;
+inline static constexpr unsigned int COAHPDIDOHI_FinalRotationState_TypeDefinitionIndex = 53320;
 
 	enum class COAHPDIDOHI_FinalRotationState : ::System::Byte
 	{

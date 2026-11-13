@@ -4,16 +4,16 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define EFEPGAKGNBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA053B0)
+#define EFEPGAKGNBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB376D0)
 
-inline static constexpr unsigned int EFEPGAKGNBM_TypeDefinitionIndex = 43770;
+inline static constexpr unsigned int EFEPGAKGNBM_TypeDefinitionIndex = 44845;
 
 	class EFEPGAKGNBM : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10
-		::UnityEngine::Vector3 ELHCMMCHDOB; // 0x1C
-		::UnityEngine::Quaternion NMELCPIOKNO; // 0x28
+		::UnityEngine::Quaternion NMELCPIOKNO; // 0x10
+		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x20
+		::UnityEngine::Vector3 ELHCMMCHDOB; // 0x2C
 		::System::Boolean IJCDEINGADN; // 0x38
 		::System::Void _ctor()
 		{

@@ -5,17 +5,17 @@ namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class MonoInControlTip; }
 namespace System { class String; }
 
-#define LOMPCFJNJBP_CTOR_OFFSET UNITYSDK_OFFSET(0xB808010)
-#define LOMPCFJNJBP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB807D80)
-#define LOMPCFJNJBP__ONBIND_OFFSET UNITYSDK_OFFSET(0xB807D00)
+#define LOMPCFJNJBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BD7B0)
+#define LOMPCFJNJBP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1A5BD530)
+#define LOMPCFJNJBP__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A5BD400)
 
-inline static constexpr unsigned int LOMPCFJNJBP_TypeDefinitionIndex = 72345;
+inline static constexpr unsigned int LOMPCFJNJBP_TypeDefinitionIndex = 74424;
 
 	class LOMPCFJNJBP : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::LocalizedText* GBFKFBCCLKK; // 0x60
-		::RPG::Client::MonoInControlTip* OOBBOFLHLDH; // 0x68
+		::RPG::Client::MonoInControlTip* OOBBOFLHLDH; // 0x60
+		::RPG::Client::LocalizedText* GBFKFBCCLKK; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOMPCFJNJBP_CTOR_OFFSET))(this);

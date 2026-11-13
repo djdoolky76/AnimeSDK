@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareGroupState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CPLFIMCFJDL_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD2DE0)
-#define CPLFIMCFJDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDCD2E10)
+#define CPLFIMCFJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1990C1B0)
+#define CPLFIMCFJDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1990C1E0)
 
-inline static constexpr unsigned int CPLFIMCFJDL_TypeDefinitionIndex = 52568;
+inline static constexpr unsigned int CPLFIMCFJDL_TypeDefinitionIndex = 53674;
 
 	class CPLFIMCFJDL
 	{

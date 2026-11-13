@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JOKHNGEGILA_CTOR_OFFSET UNITYSDK_OFFSET(0xB29FEE0)
+#define JOKHNGEGILA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E2040)
 
-inline static constexpr unsigned int JOKHNGEGILA_TypeDefinitionIndex = 59967;
+inline static constexpr unsigned int JOKHNGEGILA_TypeDefinitionIndex = 61251;
 
 	class JOKHNGEGILA : public ::System::Object
 	{

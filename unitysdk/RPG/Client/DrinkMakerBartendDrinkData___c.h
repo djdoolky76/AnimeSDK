@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCD2130)
-#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD2160)
-#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C__GETALLVISIBLETAGS_B__15_0_OFFSET UNITYSDK_OFFSET(0xCCD2170)
-#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C___CALCULATEQUANTIFYTAGS_B__35_0_OFFSET UNITYSDK_OFFSET(0xCCD2230)
+#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA5B790)
+#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5B7C0)
+#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C__GETALLVISIBLETAGS_B__15_0_OFFSET UNITYSDK_OFFSET(0x1DA5B7D0)
+#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C___CALCULATEQUANTIFYTAGS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1DA5B830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBartendDrinkData___c_TypeDefinitionIndex = 63597;
+	inline static constexpr unsigned int DrinkMakerBartendDrinkData___c_TypeDefinitionIndex = 65039;
 
 	class DrinkMakerBartendDrinkData___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::DrinkMakerTag*>** StaticGet___9__35_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::DrinkMakerTag*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C370);
+			return (::System::Comparison_1<::RPG::Client::DrinkMakerTag*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x341B0);
 		}
 
 		static ::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C378);
+			return (::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x341B8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C380);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x341C0);
 		}
 
 		static ::System::Void _cctor()

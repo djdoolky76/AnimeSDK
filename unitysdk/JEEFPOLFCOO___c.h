@@ -4,18 +4,18 @@
 class JEEFPOLFCOO;
 namespace System { class Object; }
 
-#define JEEFPOLFCOO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6E9010)
-#define JEEFPOLFCOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E9050)
-#define JEEFPOLFCOO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E6E9060)
+#define JEEFPOLFCOO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20432330)
+#define JEEFPOLFCOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20432370)
+#define JEEFPOLFCOO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x20432380)
 
-inline static constexpr unsigned int JEEFPOLFCOO___c_TypeDefinitionIndex = 26729;
+inline static constexpr unsigned int JEEFPOLFCOO___c_TypeDefinitionIndex = 27260;
 
 	class JEEFPOLFCOO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C470);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DB30);
 		}
 
 		static ::System::Void _cctor()

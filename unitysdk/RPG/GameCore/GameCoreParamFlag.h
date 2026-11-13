@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreParamFlag_TypeDefinitionIndex = 10505;
+	inline static constexpr unsigned int GameCoreParamFlag_TypeDefinitionIndex = 10516;
 
 	enum class GameCoreParamFlag : ::System::UInt32
 	{

@@ -8,27 +8,27 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define GPPAJJILOHB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B5A190)
-#define GPPAJJILOHB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B5A280)
-#define GPPAJJILOHB_DNOPHAKEEIE_OFFSET UNITYSDK_OFFSET(0x15B5B390)
-#define GPPAJJILOHB_EGLKDKFFLBN_OFFSET UNITYSDK_OFFSET(0x15B5B340)
-#define GPPAJJILOHB_JKDEMMFKOJN_OFFSET UNITYSDK_OFFSET(0x15B5A670)
-#define GPPAJJILOHB_KMGCNLKPJAI_OFFSET UNITYSDK_OFFSET(0x15B5A600)
-#define GPPAJJILOHB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15B5AB70)
-#define GPPAJJILOHB_PLNCKDADELF_OFFSET UNITYSDK_OFFSET(0x15B5B2E0)
+#define GPPAJJILOHB_CTOR_OFFSET UNITYSDK_OFFSET(0x17DC6B80)
+#define GPPAJJILOHB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17DC6C70)
+#define GPPAJJILOHB_DNOPHAKEEIE_OFFSET UNITYSDK_OFFSET(0x17DC7D80)
+#define GPPAJJILOHB_EGLKDKFFLBN_OFFSET UNITYSDK_OFFSET(0x17DC7D30)
+#define GPPAJJILOHB_JKDEMMFKOJN_OFFSET UNITYSDK_OFFSET(0x17DC7060)
+#define GPPAJJILOHB_KMGCNLKPJAI_OFFSET UNITYSDK_OFFSET(0x17DC6FF0)
+#define GPPAJJILOHB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x17DC7560)
+#define GPPAJJILOHB_PLNCKDADELF_OFFSET UNITYSDK_OFFSET(0x17DC7CD0)
 
-inline static constexpr unsigned int GPPAJJILOHB_TypeDefinitionIndex = 60839;
+inline static constexpr unsigned int GPPAJJILOHB_TypeDefinitionIndex = 62218;
 
 	class GPPAJJILOHB : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* LNOPCAPDCKM; // 0x10
-		::RPG::GameCore::TimeRewindMaterialOverlayConfig* OODHJJMGKMP; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TimeRewindView, ::System::Object*>* IOMMOLEMMJI; // 0x20
-		::System::Single CEFJACGKOLE; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TimeRewindView, ::System::Object*>* IOMMOLEMMJI; // 0x10
+		::UnityEngine::GameObject* LNOPCAPDCKM; // 0x18
+		::RPG::GameCore::TimeRewindMaterialOverlayConfig* OODHJJMGKMP; // 0x20
+		::RPG::GameCore::EraStateType HFOLIOPFEGF; // 0x28
 		::System::Single GOAHNHLBFGE; // 0x2C
-		::RPG::GameCore::TimeRewindView FGLFCBNJCPA; // 0x30
-		::RPG::GameCore::EraStateType HFOLIOPFEGF; // 0x34
+		::System::Single CEFJACGKOLE; // 0x30
+		::RPG::GameCore::TimeRewindView FGLFCBNJCPA; // 0x34
 		::System::Void _ctor(::RPG::GameCore::TimeRewindMaterialOverlayConfig* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TimeRewindMaterialOverlayConfig*))((::PBYTE)hIl2Cpp + GPPAJJILOHB_CTOR_OFFSET))(this, a1);

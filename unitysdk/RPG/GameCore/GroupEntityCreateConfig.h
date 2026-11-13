@@ -8,12 +8,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GroupEntityCreateConfig; }
 namespace RPG::GameCore { class LevelGraphValueSource; }
 
-#define RPG_GAMECORE_GROUPENTITYCREATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71CC80)
-#define RPG_GAMECORE_GROUPENTITYCREATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71C890)
+#define RPG_GAMECORE_GROUPENTITYCREATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6C030)
+#define RPG_GAMECORE_GROUPENTITYCREATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA6BCB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupEntityCreateConfig_TypeDefinitionIndex = 21225;
+	inline static constexpr unsigned int GroupEntityCreateConfig_TypeDefinitionIndex = 21568;
 
 	class GroupEntityCreateConfig : public ::RPG::GameCore::JsonConfig
 	{

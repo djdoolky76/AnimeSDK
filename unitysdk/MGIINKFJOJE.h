@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByContainsParamFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGIINKFJOJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB91A700)
-#define MGIINKFJOJE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB91A730)
+#define MGIINKFJOJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3406A0)
+#define MGIINKFJOJE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B3406D0)
 
-inline static constexpr unsigned int MGIINKFJOJE_TypeDefinitionIndex = 54594;
+inline static constexpr unsigned int MGIINKFJOJE_TypeDefinitionIndex = 55759;
 
 	class MGIINKFJOJE
 	{

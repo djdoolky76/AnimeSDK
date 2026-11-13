@@ -4,18 +4,18 @@
 class NDLNIKCCALK;
 namespace System { class Object; }
 
-#define NDLNIKCCALK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EABE820)
-#define NDLNIKCCALK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EABE860)
-#define NDLNIKCCALK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EABE870)
+#define NDLNIKCCALK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20302110)
+#define NDLNIKCCALK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20302150)
+#define NDLNIKCCALK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x20302160)
 
-inline static constexpr unsigned int NDLNIKCCALK___c_TypeDefinitionIndex = 29681;
+inline static constexpr unsigned int NDLNIKCCALK___c_TypeDefinitionIndex = 30499;
 
 	class NDLNIKCCALK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FF50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DF90);
 		}
 
 		static ::System::Void _cctor()

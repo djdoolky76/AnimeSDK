@@ -6,10 +6,10 @@ class AkAmbient;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKMULTIPOSEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5792C0)
-#define AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET UNITYSDK_OFFSET(0x1F579260)
+#define AKMULTIPOSEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F309DF0)
+#define AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET UNITYSDK_OFFSET(0x1F309D90)
 
-inline static constexpr unsigned int AkMultiPosEvent_TypeDefinitionIndex = 44908;
+inline static constexpr unsigned int AkMultiPosEvent_TypeDefinitionIndex = 45983;
 
 	class AkMultiPosEvent : public ::System::Object
 	{

@@ -6,10 +6,10 @@ class EKOJBGEHGDL;
 namespace RPG::Client::Prop { class BoxmanPuzzleBoard; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CFJNHKNKPNN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC4A010)
-#define CFJNHKNKPNN_CTOR_OFFSET UNITYSDK_OFFSET(0xCC49FA0)
+#define CFJNHKNKPNN_CCTOR_OFFSET UNITYSDK_OFFSET(0x17822DA0)
+#define CFJNHKNKPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x17822D30)
 
-inline static constexpr unsigned int CFJNHKNKPNN_TypeDefinitionIndex = 78938;
+inline static constexpr unsigned int CFJNHKNKPNN_TypeDefinitionIndex = 81714;
 
 	class CFJNHKNKPNN : public ::ENLNFBCDEIO
 	{
@@ -19,7 +19,7 @@ inline static constexpr unsigned int CFJNHKNKPNN_TypeDefinitionIndex = 78938;
 		::System::Int32 IFEPJHGNCOI; // 0x20
 		static ::System::Collections::Generic::List_1<::JOHKNMBNPOD>** StaticGet_PHBNPGOELBP()
 		{
-			return (::System::Collections::Generic::List_1<::JOHKNMBNPOD>**)UnitySDK::FromName("", "CFJNHKNKPNN")->GetStaticField(0x21900);
+			return (::System::Collections::Generic::List_1<::JOHKNMBNPOD>**)UnitySDK::FromName("", "CFJNHKNKPNN")->GetStaticField(0xF930);
 		}
 
 		::System::Void _ctor(::RPG::Client::Prop::BoxmanPuzzleBoard* a1)

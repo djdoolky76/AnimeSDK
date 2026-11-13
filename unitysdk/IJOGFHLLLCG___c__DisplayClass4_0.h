@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class IFKBGBPINCO;
 
-inline static constexpr unsigned int IJOGFHLLLCG___c__DisplayClass4_0_TypeDefinitionIndex = 44130;
+inline static constexpr unsigned int IJOGFHLLLCG___c__DisplayClass4_0_TypeDefinitionIndex = 45205;
 
 	class IJOGFHLLLCG___c__DisplayClass4_0 : public ::System::Object
 	{

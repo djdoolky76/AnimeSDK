@@ -3,10 +3,10 @@
 class PLEFHKNEOCE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOFBBOHGCMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F8290)
-#define LOFBBOHGCMF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7F82C0)
+#define LOFBBOHGCMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5AC810)
+#define LOFBBOHGCMF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A5AC840)
 
-inline static constexpr unsigned int LOFBBOHGCMF_TypeDefinitionIndex = 57987;
+inline static constexpr unsigned int LOFBBOHGCMF_TypeDefinitionIndex = 59226;
 
 	class LOFBBOHGCMF
 	{

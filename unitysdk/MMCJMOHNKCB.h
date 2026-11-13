@@ -7,30 +7,30 @@ class FCOEMCEDLNL;
 class MMCJMOHNKCB;
 namespace System { class String; }
 
-#define MMCJMOHNKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A22A0)
-#define MMCJMOHNKCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1A1C50)
+#define MMCJMOHNKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E873780)
+#define MMCJMOHNKCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E873130)
 
-inline static constexpr unsigned int MMCJMOHNKCB_TypeDefinitionIndex = 15061;
+inline static constexpr unsigned int MMCJMOHNKCB_TypeDefinitionIndex = 15217;
 
 	class MMCJMOHNKCB : public ::System::Object
 	{
 	public:
-		::System::String* LCNLDGGAOBH; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x18
-		::System::String* DOKOMKFGOOC; // 0x20
-		::Il2CppArray<::System::UInt32>* JEHDKAKMCGC; // 0x28
-		::System::String* OHBMLDNKGMD; // 0x30
-		::System::String* BCGJNNDCIFH; // 0x38
-		::System::UInt32 JJKLIJNFIBB; // 0x40
-		::System::UInt32 KLOEJIMMPJM; // 0x44
-		::RPG::Client::TextID PJNNPOKJEFD; // 0x48
-		::RPG::Client::TextID NMAHGFAPENI; // 0x58
-		::RPG::Client::TextID MJOOFPBABEA; // 0x68
-		::System::UInt32 PILOLAAEAHB; // 0x78
-		::System::Boolean GIFCDPFAKKP; // 0x7C
+		::System::String* DOKOMKFGOOC; // 0x10
+		::System::String* OHBMLDNKGMD; // 0x18
+		::System::String* LCNLDGGAOBH; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x28
+		::System::String* BCGJNNDCIFH; // 0x30
+		::Il2CppArray<::System::UInt32>* JEHDKAKMCGC; // 0x38
+		::RPG::Client::TextID MJOOFPBABEA; // 0x40
+		::RPG::Client::TextID DDGDJCKKHPH; // 0x50
+		::System::UInt32 JJKLIJNFIBB; // 0x60
+		::System::Boolean GIFCDPFAKKP; // 0x64
 		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID DDGDJCKKHPH; // 0x80
-		::RPG::Client::TextID FBOICELIKNJ; // 0x90
+		::RPG::Client::TextID PJNNPOKJEFD; // 0x68
+		::RPG::Client::TextID FBOICELIKNJ; // 0x78
+		::System::UInt32 KLOEJIMMPJM; // 0x88
+		::System::UInt32 PILOLAAEAHB; // 0x8C
+		::RPG::Client::TextID NMAHGFAPENI; // 0x90
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMCJMOHNKCB_CTOR_OFFSET))(this);

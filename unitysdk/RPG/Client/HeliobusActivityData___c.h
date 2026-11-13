@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD30B350)
-#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD30B390)
-#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C___GETCONDITION_B__16_0_OFFSET UNITYSDK_OFFSET(0xD30B3A0)
+#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5EED80)
+#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5EEDC0)
+#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C___GETCONDITION_B__16_0_OFFSET UNITYSDK_OFFSET(0x1C5EEDD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusActivityData___c_TypeDefinitionIndex = 61634;
+	inline static constexpr unsigned int HeliobusActivityData___c_TypeDefinitionIndex = 63032;
 
 	class HeliobusActivityData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12910);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1F270);
 		}
 
 		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>** StaticGet___9__16_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12918);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1F278);
 		}
 
 		static ::System::Void _cctor()

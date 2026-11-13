@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class BANDDFEHONE;
 
-#define LFDHNLHJOCH_ABNMKAPKMGF_OFFSET UNITYSDK_OFFSET(0xB660810)
+#define LFDHNLHJOCH_ABNMKAPKMGF_OFFSET UNITYSDK_OFFSET(0x18C45A10)
 
-inline static constexpr unsigned int LFDHNLHJOCH_TypeDefinitionIndex = 72160;
+inline static constexpr unsigned int LFDHNLHJOCH_TypeDefinitionIndex = 74224;
 
 	class LFDHNLHJOCH : public ::System::Object
 	{

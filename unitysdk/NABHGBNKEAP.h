@@ -3,10 +3,10 @@
 #include "unitysdk/EHDCFBBIJIM.h"
 namespace System { class String; }
 
-#define NABHGBNKEAP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4D2A0)
-#define NABHGBNKEAP_GAGLFGLKEOJ_OFFSET UNITYSDK_OFFSET(0xBA4D1A0)
+#define NABHGBNKEAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE3DB0)
+#define NABHGBNKEAP_GAGLFGLKEOJ_OFFSET UNITYSDK_OFFSET(0x1BAE3CB0)
 
-inline static constexpr unsigned int NABHGBNKEAP_TypeDefinitionIndex = 77556;
+inline static constexpr unsigned int NABHGBNKEAP_TypeDefinitionIndex = 80291;
 
 	class NABHGBNKEAP : public ::EHDCFBBIJIM
 	{

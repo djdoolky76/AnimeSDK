@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TestHotUpdateRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TESTHOTUPDATEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB537A0)
-#define RPG_GAMECORE_TESTHOTUPDATEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB52C70)
+#define RPG_GAMECORE_TESTHOTUPDATEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C8420)
+#define RPG_GAMECORE_TESTHOTUPDATEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5C78F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TestHotUpdateRow_TypeDefinitionIndex = 15281;
+	inline static constexpr unsigned int TestHotUpdateRow_TypeDefinitionIndex = 15437;
 
 	class TestHotUpdateRow : public ::System::Object
 	{

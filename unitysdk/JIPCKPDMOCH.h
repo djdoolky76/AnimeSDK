@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KNBMAPNNDJL;
 
-#define JIPCKPDMOCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB1F9FA0)
-#define JIPCKPDMOCH_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xB1F9F40)
+#define JIPCKPDMOCH_CTOR_OFFSET UNITYSDK_OFFSET(0x174284B0)
+#define JIPCKPDMOCH_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0x17428440)
 
-inline static constexpr unsigned int JIPCKPDMOCH_TypeDefinitionIndex = 56054;
+inline static constexpr unsigned int JIPCKPDMOCH_TypeDefinitionIndex = 57266;
 
 	class JIPCKPDMOCH : public ::System::Object
 	{

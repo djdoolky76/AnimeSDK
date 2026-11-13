@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirEffectRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PIXAIREFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EC0A0)
-#define RPG_GAMECORE_PIXAIREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EBE70)
+#define RPG_GAMECORE_PIXAIREFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5A930)
+#define RPG_GAMECORE_PIXAIREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE5A700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEffectRow_TypeDefinitionIndex = 12169;
+	inline static constexpr unsigned int PixAirEffectRow_TypeDefinitionIndex = 12226;
 
 	class PixAirEffectRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* ParamMap; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* ParamMap; // 0x10
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
 		::RPG::Client::TextID Desc; // 0x20
 		::System::UInt32 EffectID; // 0x30
 		::System::Void _ctor()

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HANGFOPEJAG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE51410)
-#define HANGFOPEJAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE519E0)
-#define HANGFOPEJAG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE51580)
-#define HANGFOPEJAG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE50E80)
-#define HANGFOPEJAG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE51110)
-#define HANGFOPEJAG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE51620)
-#define HANGFOPEJAG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE51670)
-#define HANGFOPEJAG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE51450)
-#define HANGFOPEJAG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE510B0)
-#define HANGFOPEJAG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE51280)
-#define HANGFOPEJAG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE514E0)
-#define HANGFOPEJAG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE50E00)
+#define HANGFOPEJAG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E9D3880)
+#define HANGFOPEJAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9D3E50)
+#define HANGFOPEJAG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E9D39F0)
+#define HANGFOPEJAG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E9D32F0)
+#define HANGFOPEJAG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E9D3580)
+#define HANGFOPEJAG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E9D3A90)
+#define HANGFOPEJAG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E9D3AE0)
+#define HANGFOPEJAG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E9D38C0)
+#define HANGFOPEJAG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E9D3520)
+#define HANGFOPEJAG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E9D36F0)
+#define HANGFOPEJAG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E9D3950)
+#define HANGFOPEJAG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E9D3270)
 
-inline static constexpr unsigned int HANGFOPEJAG_TypeDefinitionIndex = 11654;
+inline static constexpr unsigned int HANGFOPEJAG_TypeDefinitionIndex = 11705;
 
 	class HANGFOPEJAG : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x18830);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x18838);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x13640);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x13648);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenSentenceRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenSentenceRow*>**)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x18840);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x5440);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenSentenceRow*>**)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x13650);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x5441);
+			return (::System::Byte*)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x3E60);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "HANGFOPEJAG")->GetStaticField(0x3E61);
 		}
 
 		static ::System::Void _cctor()

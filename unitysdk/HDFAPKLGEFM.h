@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HDFAPKLGEFM_TypeDefinitionIndex = 25374;
+inline static constexpr unsigned int HDFAPKLGEFM_TypeDefinitionIndex = 25852;
 
 	enum class HDFAPKLGEFM : ::System::Int32
 	{

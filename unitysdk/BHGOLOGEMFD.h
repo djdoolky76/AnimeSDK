@@ -6,21 +6,21 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropStartPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHGOLOGEMFD_CTOR_OFFSET UNITYSDK_OFFSET(0xB474F10)
-#define BHGOLOGEMFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB475290)
-#define BHGOLOGEMFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB474FA0)
-#define BHGOLOGEMFD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB475210)
-#define BHGOLOGEMFD_TICK_OFFSET UNITYSDK_OFFSET(0xB4753B0)
+#define BHGOLOGEMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x151E6F80)
+#define BHGOLOGEMFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x151E7300)
+#define BHGOLOGEMFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151E7010)
+#define BHGOLOGEMFD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x151E7280)
+#define BHGOLOGEMFD_TICK_OFFSET UNITYSDK_OFFSET(0x151E7420)
 
-inline static constexpr unsigned int BHGOLOGEMFD_TypeDefinitionIndex = 58358;
+inline static constexpr unsigned int BHGOLOGEMFD_TypeDefinitionIndex = 59614;
 
 	class BHGOLOGEMFD : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::PropComponent* IKHBMOJMEEM; // 0x18
-		::KFELGAIGHAP* EDBPHODBFCP; // 0x20
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
-		::RPG::GameCore::PropStartPuzzle* IGHAHBNLIJA; // 0x30
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::PropStartPuzzle* IGHAHBNLIJA; // 0x28
+		::KFELGAIGHAP* EDBPHODBFCP; // 0x30
 		::System::Boolean KBJACNAMHBA; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropStartPuzzle* a2)
 		{

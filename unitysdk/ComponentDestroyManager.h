@@ -5,33 +5,33 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 
-#define COMPONENTDESTROYMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF97DF0)
-#define COMPONENTDESTROYMANAGER_HGOIEFILIAJ_OFFSET UNITYSDK_OFFSET(0xDF97760)
-#define COMPONENTDESTROYMANAGER__INIT_OFFSET UNITYSDK_OFFSET(0xDF97AB0)
+#define COMPONENTDESTROYMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x19922EA0)
+#define COMPONENTDESTROYMANAGER_HGOIEFILIAJ_OFFSET UNITYSDK_OFFSET(0x19922840)
+#define COMPONENTDESTROYMANAGER__INIT_OFFSET UNITYSDK_OFFSET(0x19922B60)
 
-inline static constexpr unsigned int ComponentDestroyManager_TypeDefinitionIndex = 47241;
+inline static constexpr unsigned int ComponentDestroyManager_TypeDefinitionIndex = 48269;
 
 	class ComponentDestroyManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Component*>** StaticGet_FOHNJMBEFAB()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Component*>**)UnitySDK::FromName("", "ComponentDestroyManager")->GetStaticField(0x55160);
-		}
-
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Component*>** StaticGet_GEKBMLGPPGA()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Component*>**)UnitySDK::FromName("", "ComponentDestroyManager")->GetStaticField(0x55168);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Component*>**)UnitySDK::FromName("", "ComponentDestroyManager")->GetStaticField(0x4A9E0);
 		}
 
-		static ::System::Boolean* StaticGet_FEIDGDOGBLM()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Component*>** StaticGet_FOHNJMBEFAB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "ComponentDestroyManager")->GetStaticField(0x12E90);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Component*>**)UnitySDK::FromName("", "ComponentDestroyManager")->GetStaticField(0x4A9E8);
 		}
 
 		static ::System::Boolean* StaticGet_GBPGOEKLKGO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "ComponentDestroyManager")->GetStaticField(0x12E91);
+			return (::System::Boolean*)UnitySDK::FromName("", "ComponentDestroyManager")->GetStaticField(0xE570);
+		}
+
+		static ::System::Boolean* StaticGet_FEIDGDOGBLM()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "ComponentDestroyManager")->GetStaticField(0xE571);
 		}
 
 		static ::System::Void _cctor()

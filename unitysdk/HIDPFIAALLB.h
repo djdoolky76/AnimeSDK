@@ -14,35 +14,35 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define HIDPFIAALLB_BLMFNNEAODF_OFFSET UNITYSDK_OFFSET(0x1E562810)
-#define HIDPFIAALLB_BMOOOFIGOAA_OFFSET UNITYSDK_OFFSET(0x1E562880)
-#define HIDPFIAALLB_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E562E30)
-#define HIDPFIAALLB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E563370)
-#define HIDPFIAALLB_CHHNKMFCBEJ_OFFSET UNITYSDK_OFFSET(0x1E562820)
-#define HIDPFIAALLB_CLONE_OFFSET UNITYSDK_OFFSET(0x1E562780)
-#define HIDPFIAALLB_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E562690)
-#define HIDPFIAALLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E562640)
-#define HIDPFIAALLB_DIEOGCNMMEP_OFFSET UNITYSDK_OFFSET(0x1E562850)
-#define HIDPFIAALLB_EGOPIELOBLC_OFFSET UNITYSDK_OFFSET(0x1E5627D0)
-#define HIDPFIAALLB_ENAKDIANONN_OFFSET UNITYSDK_OFFSET(0x1E562840)
-#define HIDPFIAALLB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E562900)
-#define HIDPFIAALLB_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E5628A0)
-#define HIDPFIAALLB_FJIFBIACNPL_OFFSET UNITYSDK_OFFSET(0x1E562890)
-#define HIDPFIAALLB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E5629E0)
-#define HIDPFIAALLB_IKBIIFPHPCM_OFFSET UNITYSDK_OFFSET(0x1E562800)
-#define HIDPFIAALLB_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E5625D0)
-#define HIDPFIAALLB_LHOPHLMOHMJ_OFFSET UNITYSDK_OFFSET(0x1E562870)
-#define HIDPFIAALLB_LMOEADOMINM_OFFSET UNITYSDK_OFFSET(0x1E5627E0)
-#define HIDPFIAALLB_MABODBAKGMP_OFFSET UNITYSDK_OFFSET(0x1E5627F0)
-#define HIDPFIAALLB_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E563220)
-#define HIDPFIAALLB_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E563130)
-#define HIDPFIAALLB_OGGIEJLNGHO_OFFSET UNITYSDK_OFFSET(0x1E562860)
-#define HIDPFIAALLB_OLECFAFKDLG_OFFSET UNITYSDK_OFFSET(0x1E562830)
-#define HIDPFIAALLB_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E562630)
-#define HIDPFIAALLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E562A60)
-#define HIDPFIAALLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E562AC0)
+#define HIDPFIAALLB_BLMFNNEAODF_OFFSET UNITYSDK_OFFSET(0x20519F40)
+#define HIDPFIAALLB_BMOOOFIGOAA_OFFSET UNITYSDK_OFFSET(0x20519F70)
+#define HIDPFIAALLB_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x2051A550)
+#define HIDPFIAALLB_CCTOR_OFFSET UNITYSDK_OFFSET(0x2051AAA0)
+#define HIDPFIAALLB_CHHNKMFCBEJ_OFFSET UNITYSDK_OFFSET(0x20519F90)
+#define HIDPFIAALLB_CLONE_OFFSET UNITYSDK_OFFSET(0x20519EB0)
+#define HIDPFIAALLB_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20519DC0)
+#define HIDPFIAALLB_CTOR_OFFSET UNITYSDK_OFFSET(0x20519D70)
+#define HIDPFIAALLB_DIEOGCNMMEP_OFFSET UNITYSDK_OFFSET(0x20519F10)
+#define HIDPFIAALLB_EGOPIELOBLC_OFFSET UNITYSDK_OFFSET(0x20519F20)
+#define HIDPFIAALLB_ENAKDIANONN_OFFSET UNITYSDK_OFFSET(0x20519F00)
+#define HIDPFIAALLB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2051A030)
+#define HIDPFIAALLB_EQUALS_OFFSET UNITYSDK_OFFSET(0x20519FD0)
+#define HIDPFIAALLB_FJIFBIACNPL_OFFSET UNITYSDK_OFFSET(0x20519F80)
+#define HIDPFIAALLB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2051A100)
+#define HIDPFIAALLB_IKBIIFPHPCM_OFFSET UNITYSDK_OFFSET(0x20519F60)
+#define HIDPFIAALLB_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x20519D00)
+#define HIDPFIAALLB_LHOPHLMOHMJ_OFFSET UNITYSDK_OFFSET(0x20519FC0)
+#define HIDPFIAALLB_LMOEADOMINM_OFFSET UNITYSDK_OFFSET(0x20519F30)
+#define HIDPFIAALLB_MABODBAKGMP_OFFSET UNITYSDK_OFFSET(0x20519F50)
+#define HIDPFIAALLB_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x2051A940)
+#define HIDPFIAALLB_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x2051A850)
+#define HIDPFIAALLB_OGGIEJLNGHO_OFFSET UNITYSDK_OFFSET(0x20519FB0)
+#define HIDPFIAALLB_OLECFAFKDLG_OFFSET UNITYSDK_OFFSET(0x20519FA0)
+#define HIDPFIAALLB_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x20519D60)
+#define HIDPFIAALLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2051A180)
+#define HIDPFIAALLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x2051A1E0)
 
-inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 28706;
+inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 29296;
 
 	class HIDPFIAALLB : public ::System::Object
 	{
@@ -50,29 +50,29 @@ inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 28706;
 		::Google::Protobuf::Collections::RepeatedField_1<::LNDNIBFBGAC*>* FNNEKPAFCFJ; // 0x10
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
 		::System::UInt32 ALMFIMJGMIJ; // 0x20
-		::System::Boolean OEKIMCLMBKI; // 0x24
-		::System::Boolean BBJIDLMAPDF; // 0x25
+		::HEJPHKGCNBA EKFNBEPMCLD; // 0x24
+		::System::Boolean BBJIDLMAPDF; // 0x28
+		::System::Boolean OEKIMCLMBKI; // 0x29
 		::System::Byte _padding0[0x2];
-		::System::UInt32 NAOCMEBMMNJ; // 0x28
 		::System::Int32 POFMMAEEEMC; // 0x2C
-		::HEJPHKGCNBA EKFNBEPMCLD; // 0x30
+		::System::UInt32 NAOCMEBMMNJ; // 0x30
 		static ::Google::Protobuf::FieldCodec_1<::LNDNIBFBGAC*>** StaticGet_OHIHELJBGGL()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::LNDNIBFBGAC*>**)UnitySDK::FromName("", "HIDPFIAALLB")->GetStaticField(0x334E0);
+			return (::Google::Protobuf::FieldCodec_1<::LNDNIBFBGAC*>**)UnitySDK::FromName("", "HIDPFIAALLB")->GetStaticField(0x2F210);
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::HIDPFIAALLB*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::HIDPFIAALLB*>**)UnitySDK::FromName("", "HIDPFIAALLB")->GetStaticField(0x334E8);
+			return (::Google::Protobuf::MessageParser_1<::HIDPFIAALLB*>**)UnitySDK::FromName("", "HIDPFIAALLB")->GetStaticField(0x2F218);
 		}
 
-		// static const ::System::Object OANKGHBGEIG; // 0x0
-		// static const ::System::Object EGHBEABPHPA; // 0x0
-		// static const ::System::Object ADCFMCCOLLF; // 0x0
-		// static const ::System::Object IDHBHIFMIEJ; // 0x0
 		// static const ::System::Object IHBBLPAGEJD; // 0x0
-		// static const ::System::Object EKJIPCEFPOG; // 0x0
+		// static const ::System::Object OANKGHBGEIG; // 0x0
+		// static const ::System::Object ADCFMCCOLLF; // 0x0
+		// static const ::System::Object EGHBEABPHPA; // 0x0
 		// static const ::System::Object LFGMICHAPCJ; // 0x0
+		// static const ::System::Object IDHBHIFMIEJ; // 0x0
+		// static const ::System::Object EKJIPCEFPOG; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_CTOR_OFFSET))(this);
@@ -103,6 +103,16 @@ inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 28706;
 			return ((::HIDPFIAALLB*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_CLONE_OFFSET))(this);
 		}
 
+		::System::Boolean ENAKDIANONN()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_ENAKDIANONN_OFFSET))(this);
+		}
+
+		::System::Void DIEOGCNMMEP(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HIDPFIAALLB_DIEOGCNMMEP_OFFSET))(this, a1);
+		}
+
 		::HEJPHKGCNBA EGOPIELOBLC()
 		{
 			return ((::HEJPHKGCNBA(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_EGOPIELOBLC_OFFSET))(this);
@@ -111,6 +121,11 @@ inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 28706;
 		::System::Void LMOEADOMINM(::HEJPHKGCNBA a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::HEJPHKGCNBA))((::PBYTE)hIl2Cpp + HIDPFIAALLB_LMOEADOMINM_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::LNDNIBFBGAC*>* BLMFNNEAODF()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::LNDNIBFBGAC*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_BLMFNNEAODF_OFFSET))(this);
 		}
 
 		::System::Int32 MABODBAKGMP()
@@ -123,9 +138,14 @@ inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 28706;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HIDPFIAALLB_IKBIIFPHPCM_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::LNDNIBFBGAC*>* BLMFNNEAODF()
+		::System::UInt32 BMOOOFIGOAA()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::LNDNIBFBGAC*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_BLMFNNEAODF_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_BMOOOFIGOAA_OFFSET))(this);
+		}
+
+		::System::Void FJIFBIACNPL(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + HIDPFIAALLB_FJIFBIACNPL_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 CHHNKMFCBEJ()
@@ -138,16 +158,6 @@ inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 28706;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + HIDPFIAALLB_OLECFAFKDLG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ENAKDIANONN()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_ENAKDIANONN_OFFSET))(this);
-		}
-
-		::System::Void DIEOGCNMMEP(::System::Boolean a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HIDPFIAALLB_DIEOGCNMMEP_OFFSET))(this, a1);
-		}
-
 		::System::Boolean OGGIEJLNGHO()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_OGGIEJLNGHO_OFFSET))(this);
@@ -156,16 +166,6 @@ inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 28706;
 		::System::Void LHOPHLMOHMJ(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HIDPFIAALLB_LHOPHLMOHMJ_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 BMOOOFIGOAA()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIDPFIAALLB_BMOOOFIGOAA_OFFSET))(this);
-		}
-
-		::System::Void FJIFBIACNPL(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + HIDPFIAALLB_FJIFBIACNPL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

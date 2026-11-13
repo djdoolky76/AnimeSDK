@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HAMADBEECBL_CTOR_OFFSET UNITYSDK_OFFSET(0x15B84540)
-#define HAMADBEECBL_GET_ORDERIDLIST_OFFSET UNITYSDK_OFFSET(0x15B84520)
-#define HAMADBEECBL_SET_ORDERIDLIST_OFFSET UNITYSDK_OFFSET(0x15B84530)
+#define HAMADBEECBL_CTOR_OFFSET UNITYSDK_OFFSET(0x17DF1A90)
+#define HAMADBEECBL_GET_ORDERIDLIST_OFFSET UNITYSDK_OFFSET(0x17DF1A70)
+#define HAMADBEECBL_SET_ORDERIDLIST_OFFSET UNITYSDK_OFFSET(0x17DF1A80)
 
-inline static constexpr unsigned int HAMADBEECBL_TypeDefinitionIndex = 79671;
+inline static constexpr unsigned int HAMADBEECBL_TypeDefinitionIndex = 82448;
 
 	class HAMADBEECBL : public ::System::Object
 	{

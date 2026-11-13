@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SummonUnitMiscConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITMISCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB110A0)
-#define RPG_GAMECORE_SUMMONUNITMISCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0FDB0)
+#define RPG_GAMECORE_SUMMONUNITMISCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E680AE0)
+#define RPG_GAMECORE_SUMMONUNITMISCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E67F7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitMiscConfig_TypeDefinitionIndex = 17602;
+	inline static constexpr unsigned int SummonUnitMiscConfig_TypeDefinitionIndex = 17771;
 
 	class SummonUnitMiscConfig : public ::RPG::GameCore::JsonConfig
 	{

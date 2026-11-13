@@ -3,9 +3,9 @@
 #include "unitysdk/KKHKACBICMH.h"
 #include "unitysdk/System/Object.h"
 
-#define DMCEKKPFNPL_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB2240)
+#define DMCEKKPFNPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1868FA40)
 
-inline static constexpr unsigned int DMCEKKPFNPL_TypeDefinitionIndex = 75934;
+inline static constexpr unsigned int DMCEKKPFNPL_TypeDefinitionIndex = 78261;
 
 	class DMCEKKPFNPL : public ::System::Object
 	{

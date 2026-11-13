@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtModifierCallbackConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTMODIFIERCALLBACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA34090)
-#define RPG_GAMECORE_RTMODIFIERCALLBACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA33F00)
+#define RPG_GAMECORE_RTMODIFIERCALLBACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC790A0)
+#define RPG_GAMECORE_RTMODIFIERCALLBACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC78F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtModifierCallbackConfig_TypeDefinitionIndex = 17659;
+	inline static constexpr unsigned int RtModifierCallbackConfig_TypeDefinitionIndex = 17828;
 
 	class RtModifierCallbackConfig : public ::RPG::GameCore::JsonConfig
 	{

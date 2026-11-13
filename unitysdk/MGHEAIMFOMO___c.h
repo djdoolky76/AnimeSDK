@@ -4,18 +4,18 @@
 class MGHEAIMFOMO;
 namespace System { class Object; }
 
-#define MGHEAIMFOMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9F84B0)
-#define MGHEAIMFOMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F84F0)
-#define MGHEAIMFOMO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E9F8500)
+#define MGHEAIMFOMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA4D790)
+#define MGHEAIMFOMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA4D7D0)
+#define MGHEAIMFOMO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FA4D7E0)
 
-inline static constexpr unsigned int MGHEAIMFOMO___c_TypeDefinitionIndex = 31238;
+inline static constexpr unsigned int MGHEAIMFOMO___c_TypeDefinitionIndex = 32151;
 
 	class MGHEAIMFOMO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x501B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46E50);
 		}
 
 		static ::System::Void _cctor()

@@ -4,26 +4,26 @@
 class BJPKCHPDJBO;
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define DBBPKLDLOIN_ANGADOLNKHO_OFFSET UNITYSDK_OFFSET(0xDFCD3F0)
-#define DBBPKLDLOIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFCD520)
-#define DBBPKLDLOIN_ENMMKMCIEHB_OFFSET UNITYSDK_OFFSET(0xDFCD190)
-#define DBBPKLDLOIN_FLJBINCFIOD_OFFSET UNITYSDK_OFFSET(0xDFCD330)
-#define DBBPKLDLOIN_HHFNCDMNHAC_OFFSET UNITYSDK_OFFSET(0xDFCD2A0)
-#define DBBPKLDLOIN_JBEAGPLPBAH_OFFSET UNITYSDK_OFFSET(0xDFCD0E0)
+#define DBBPKLDLOIN_ANGADOLNKHO_OFFSET UNITYSDK_OFFSET(0x1B13EBB0)
+#define DBBPKLDLOIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B13ECD0)
+#define DBBPKLDLOIN_ENMMKMCIEHB_OFFSET UNITYSDK_OFFSET(0x1B13E950)
+#define DBBPKLDLOIN_FLJBINCFIOD_OFFSET UNITYSDK_OFFSET(0x1B13EAF0)
+#define DBBPKLDLOIN_HHFNCDMNHAC_OFFSET UNITYSDK_OFFSET(0x1B13EA60)
+#define DBBPKLDLOIN_JBEAGPLPBAH_OFFSET UNITYSDK_OFFSET(0x1B13E8A0)
 
-inline static constexpr unsigned int DBBPKLDLOIN_TypeDefinitionIndex = 68465;
+inline static constexpr unsigned int DBBPKLDLOIN_TypeDefinitionIndex = 70412;
 
 	class DBBPKLDLOIN : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::BJPKCHPDJBO*>** StaticGet_CIMODNKAAPF()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::BJPKCHPDJBO*>**)UnitySDK::FromName("", "DBBPKLDLOIN")->GetStaticField(0x575B0);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::BJPKCHPDJBO*>**)UnitySDK::FromName("", "DBBPKLDLOIN")->GetStaticField(0x53210);
 		}
 
 		static ::System::UInt32* StaticGet_AEGGLFIFGML()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "DBBPKLDLOIN")->GetStaticField(0x133B0);
+			return (::System::UInt32*)UnitySDK::FromName("", "DBBPKLDLOIN")->GetStaticField(0x11DB0);
 		}
 
 		// static const ::System::Object PMIDCJIDKKD; // 0x0

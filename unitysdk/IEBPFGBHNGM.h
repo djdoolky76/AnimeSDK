@@ -5,19 +5,19 @@ class IEIPFBGBBMH;
 namespace RPG::Client::NavMap::FiveDim { class CartographyFiveDim; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IEBPFGBHNGM_CPLDCCJBDOH_OFFSET UNITYSDK_OFFSET(0x15EE0EE0)
-#define IEBPFGBHNGM_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE0790)
-#define IEBPFGBHNGM_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15EE0F30)
-#define IEBPFGBHNGM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15EE0D50)
-#define IEBPFGBHNGM_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15EE0F40)
+#define IEBPFGBHNGM_CPLDCCJBDOH_OFFSET UNITYSDK_OFFSET(0x177A54E0)
+#define IEBPFGBHNGM_CTOR_OFFSET UNITYSDK_OFFSET(0x177A4D90)
+#define IEBPFGBHNGM_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x177A5530)
+#define IEBPFGBHNGM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x177A5350)
+#define IEBPFGBHNGM_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x177A5540)
 
-inline static constexpr unsigned int IEBPFGBHNGM_TypeDefinitionIndex = 74656;
+inline static constexpr unsigned int IEBPFGBHNGM_TypeDefinitionIndex = 76804;
 
 	class IEBPFGBHNGM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::IEIPFBGBBMH*>* LFMPGKONJCH; // 0x10
-		::RPG::Client::NavMap::FiveDim::CartographyFiveDim* NJEIIMCMDFN; // 0x18
+		::RPG::Client::NavMap::FiveDim::CartographyFiveDim* NJEIIMCMDFN; // 0x10
+		::System::Collections::Generic::List_1<::IEIPFBGBBMH*>* LFMPGKONJCH; // 0x18
 		::System::Int32 _Current_k__BackingField; // 0x20
 		::System::Void _ctor(::RPG::Client::NavMap::FiveDim::CartographyFiveDim* a1)
 		{

@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleRandomRevive; }
 
-#define PLHFOADCAFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C7E90)
-#define PLHFOADCAFB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C9C7EA0)
+#define PLHFOADCAFB_CTOR_OFFSET UNITYSDK_OFFSET(0x207003B0)
+#define PLHFOADCAFB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x207003C0)
 
-inline static constexpr unsigned int PLHFOADCAFB_TypeDefinitionIndex = 43120;
+inline static constexpr unsigned int PLHFOADCAFB_TypeDefinitionIndex = 44101;
 
 	class PLHFOADCAFB : public ::BKABEBEPPJK
 	{

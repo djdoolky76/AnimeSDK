@@ -5,23 +5,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemConfig; }
 namespace RPG::GameCore { class RelicComposeConfigRow; }
 
-#define RPG_GAMECORE_RELICCOMPOSECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94B9E0)
-#define RPG_GAMECORE_RELICCOMPOSECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D94B760)
+#define RPG_GAMECORE_RELICCOMPOSECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F235480)
+#define RPG_GAMECORE_RELICCOMPOSECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F235200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicComposeConfigRow_TypeDefinitionIndex = 13844;
+	inline static constexpr unsigned int RelicComposeConfigRow_TypeDefinitionIndex = 14001;
 
 	class RelicComposeConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MaterialCost; // 0x10
-		::System::UInt32 WorldLevelRequire; // 0x18
-		::System::UInt32 ItemID; // 0x1C
-		::System::UInt32 Type; // 0x20
+		::System::UInt32 Order; // 0x18
+		::System::UInt32 WorldLevelRequire; // 0x1C
+		::System::UInt32 CoinCost; // 0x20
 		::System::UInt32 ID; // 0x24
-		::System::UInt32 Order; // 0x28
-		::System::UInt32 CoinCost; // 0x2C
+		::System::UInt32 ItemID; // 0x28
+		::System::UInt32 Type; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICCOMPOSECONFIGROW_CTOR_OFFSET))(this);

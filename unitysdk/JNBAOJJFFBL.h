@@ -5,11 +5,11 @@
 class PAFAJPKOLCN;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JNBAOJJFFBL_CTOR_OFFSET UNITYSDK_OFFSET(0xB26FB50)
-#define JNBAOJJFFBL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB26FC50)
-#define JNBAOJJFFBL_OGDMAKFJMKA_OFFSET UNITYSDK_OFFSET(0xB26FCF0)
+#define JNBAOJJFFBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BE790)
+#define JNBAOJJFFBL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A0BE890)
+#define JNBAOJJFFBL_OGDMAKFJMKA_OFFSET UNITYSDK_OFFSET(0x1A0BE930)
 
-inline static constexpr unsigned int JNBAOJJFFBL_TypeDefinitionIndex = 77434;
+inline static constexpr unsigned int JNBAOJJFFBL_TypeDefinitionIndex = 80169;
 
 	class JNBAOJJFFBL : public ::System::Object
 	{

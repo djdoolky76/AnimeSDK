@@ -4,18 +4,18 @@
 class HCMFPHICBOI;
 namespace System { class Object; }
 
-#define HCMFPHICBOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5160F0)
-#define HCMFPHICBOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E516130)
-#define HCMFPHICBOI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E516140)
+#define HCMFPHICBOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200C4400)
+#define HCMFPHICBOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200C4440)
+#define HCMFPHICBOI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x200C4450)
 
-inline static constexpr unsigned int HCMFPHICBOI___c_TypeDefinitionIndex = 33689;
+inline static constexpr unsigned int HCMFPHICBOI___c_TypeDefinitionIndex = 34604;
 
 	class HCMFPHICBOI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B0E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22F90);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class HEKHCLACHJE;
 
-#define JEJIMOEPDIO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1661E2B0)
-#define JEJIMOEPDIO___C__DISPLAYCLASS0_0__SHOULDEMPHASIZEWRONGLYPEAKED_B__1_OFFSET UNITYSDK_OFFSET(0x1661EA80)
+#define JEJIMOEPDIO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13073240)
+#define JEJIMOEPDIO___C__DISPLAYCLASS0_0__SHOULDEMPHASIZEWRONGLYPEAKED_B__1_OFFSET UNITYSDK_OFFSET(0x13073A10)
 
-inline static constexpr unsigned int JEJIMOEPDIO___c__DisplayClass0_0_TypeDefinitionIndex = 79416;
+inline static constexpr unsigned int JEJIMOEPDIO___c__DisplayClass0_0_TypeDefinitionIndex = 82193;
 
 	class JEJIMOEPDIO___c__DisplayClass0_0 : public ::System::Object
 	{

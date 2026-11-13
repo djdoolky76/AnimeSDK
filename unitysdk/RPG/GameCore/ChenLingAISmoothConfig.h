@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingAISmoothConfig; }
 
-#define RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D550360)
-#define RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5500F0)
+#define RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F351870)
+#define RPG_GAMECORE_CHENLINGAISMOOTHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F351600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingAISmoothConfig_TypeDefinitionIndex = 15697;
+	inline static constexpr unsigned int ChenLingAISmoothConfig_TypeDefinitionIndex = 15855;
 
 	class ChenLingAISmoothConfig : public ::RPG::GameCore::JsonConfig
 	{

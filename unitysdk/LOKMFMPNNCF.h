@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByVariateType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOKMFMPNNCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB800E10)
-#define LOKMFMPNNCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB800EF0)
+#define LOKMFMPNNCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B6540)
+#define LOKMFMPNNCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5B6620)
 
-inline static constexpr unsigned int LOKMFMPNNCF_TypeDefinitionIndex = 55478;
+inline static constexpr unsigned int LOKMFMPNNCF_TypeDefinitionIndex = 56666;
 
 	class LOKMFMPNNCF
 	{

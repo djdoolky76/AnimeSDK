@@ -15,14 +15,14 @@ namespace EnviromentSystemV2Space { class LayoutVector4PropertyData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_CCTOR_OFFSET UNITYSDK_OFFSET(0x15630560)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x156303F0)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_EMCKLAMMBFC_OFFSET UNITYSDK_OFFSET(0x1562F180)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1562EF20)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_CCTOR_OFFSET UNITYSDK_OFFSET(0x136B6AF0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x136B6980)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_EMCKLAMMBFC_OFFSET UNITYSDK_OFFSET(0x136B5710)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x136B54B0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 49379;
+	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 50455;
 
 	class EnvDynamicPropLayoutProfile : public ::UnityEngine::ScriptableObject
 	{
@@ -39,7 +39,7 @@ namespace EnviromentSystemV2Space
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutTextPropertyData*>* textPropertyDatas; // 0x60
 		static ::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>** StaticGet__tempList()
 		{
-			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>**)UnitySDK::FromName("EnviromentSystemV2Space", "EnvDynamicPropLayoutProfile")->GetStaticField(0x4C060);
+			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>**)UnitySDK::FromName("EnviromentSystemV2Space", "EnvDynamicPropLayoutProfile")->GetStaticField(0x36F70);
 		}
 
 		::System::Void _ctor()

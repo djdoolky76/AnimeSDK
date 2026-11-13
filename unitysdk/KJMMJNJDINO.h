@@ -8,7 +8,7 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int KJMMJNJDINO_TypeDefinitionIndex = 49967;
+inline static constexpr unsigned int KJMMJNJDINO_TypeDefinitionIndex = 51015;
 
 	class KJMMJNJDINO : public ::System::Object
 	{

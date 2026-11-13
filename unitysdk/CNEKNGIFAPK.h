@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int CNEKNGIFAPK_TypeDefinitionIndex = 71082;
+inline static constexpr unsigned int CNEKNGIFAPK_TypeDefinitionIndex = 73065;
 
 	struct alignas(4) CNEKNGIFAPK
 	{

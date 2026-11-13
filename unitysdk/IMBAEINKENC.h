@@ -4,10 +4,10 @@
 class EKFLDPIEPAE;
 namespace RPG::GameCore { class FiveDimTriggerEventEmitterListConfig; }
 
-#define IMBAEINKENC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB4A240)
-#define IMBAEINKENC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB4A2C0)
+#define IMBAEINKENC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EC37080)
+#define IMBAEINKENC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC37100)
 
-inline static constexpr unsigned int IMBAEINKENC_TypeDefinitionIndex = 43311;
+inline static constexpr unsigned int IMBAEINKENC_TypeDefinitionIndex = 44292;
 
 	class IMBAEINKENC : public ::System::Object
 	{

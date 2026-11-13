@@ -6,23 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimFluteTalkConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D691FB0)
-#define RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D691C40)
+#define RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85EA80)
+#define RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E85E710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFluteTalkConfigRow_TypeDefinitionIndex = 14107;
+	inline static constexpr unsigned int FiveDimFluteTalkConfigRow_TypeDefinitionIndex = 14264;
 
 	class FiveDimFluteTalkConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* IconPathErrorTIps; // 0x18
-		::System::String* IconPathInputTips; // 0x20
+		::System::String* IconPathInputTips; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::String* IconPathErrorTIps; // 0x20
 		::RPG::Client::TextID InputTipsTextID; // 0x28
-		::RPG::Client::TextID ErrorTIpsTextID; // 0x38
-		::RPG::Client::TextID EnterTipsTextID; // 0x48
-		::System::UInt32 FluteID; // 0x58
+		::System::UInt32 FluteID; // 0x38
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID ErrorTIpsTextID; // 0x40
+		::RPG::Client::TextID EnterTipsTextID; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW_CTOR_OFFSET))(this);

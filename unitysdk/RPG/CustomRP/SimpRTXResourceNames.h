@@ -2,238 +2,238 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_SIMPRTXRESOURCENAMES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC4AA10)
+#define RPG_CUSTOMRP_SIMPRTXRESOURCENAMES_CCTOR_OFFSET UNITYSDK_OFFSET(0x2074E8B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SimpRTXResourceNames_TypeDefinitionIndex = 37875;
+	inline static constexpr unsigned int SimpRTXResourceNames_TypeDefinitionIndex = 38804;
 
 	class SimpRTXResourceNames : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_IDAlbedoTex()
+		static ::System::Int32* StaticGet_IDSpatialHashValidMaskTex()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA280);
-		}
-
-		static ::System::Int32* StaticGet_IDTriangle8()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA284);
-		}
-
-		static ::System::Int32* StaticGet_IDBakedSH2()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA288);
-		}
-
-		static ::System::Int32* StaticGet_IDBlasIndex()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA28C);
-		}
-
-		static ::System::Int32* StaticGet_IDWorldToLocals()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA290);
-		}
-
-		static ::System::Int32* StaticGet_IDPositions()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA294);
-		}
-
-		static ::System::Int32* StaticGet_IDBVHNodes8()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA298);
-		}
-
-		static ::System::Int32* StaticGet_IDNormals()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA29C);
-		}
-
-		static ::System::Int32* StaticGet_IDObjectCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2A0);
-		}
-
-		static ::System::Int32* StaticGet_IDNormalTex()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2A4);
-		}
-
-		static ::System::Int32* StaticGet_IDUVs()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2A8);
-		}
-
-		static ::System::Int32* StaticGet_IDLocalToWorlds()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2AC);
-		}
-
-		static ::System::Int32* StaticGet_IDSimpRTXAtlas()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2B0);
-		}
-
-		static ::System::Int32* StaticGet_IDSimpRTXCylinderGroupCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2B4);
-		}
-
-		static ::System::Int32* StaticGet_IDBakedSH1()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2B8);
-		}
-
-		static ::System::Int32* StaticGet_IDBlasOffsets8()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2BC);
-		}
-
-		static ::System::Int32* StaticGet_IDBakedSH0()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2C0);
-		}
-
-		static ::System::Int32* StaticGet_IDCardBoundsExpand()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2C4);
-		}
-
-		static ::System::Int32* StaticGet_IDIndices()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2C8);
-		}
-
-		static ::System::Int32* StaticGet_IDTangents()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2CC);
-		}
-
-		static ::System::Int32* StaticGet_IDBVHMaxDepth()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2D0);
-		}
-
-		static ::System::Int32* StaticGet_IDSimpRTXIntensity()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2D4);
-		}
-
-		static ::System::Int32* StaticGet_IDSimpRTXDatas()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2D8);
-		}
-
-		static ::System::Int32* StaticGet_IDTriangleIndex8()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2DC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DC0);
 		}
 
 		static ::System::Int32* StaticGet_IDSimpRTXQuadGroupCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2E0);
-		}
-
-		static ::System::Int32* StaticGet_IDSpatialHashOffsetTableSize()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2E4);
-		}
-
-		static ::System::Int32* StaticGet_IDInvValidMaskIdExtents()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2E8);
-		}
-
-		static ::System::Int32* StaticGet_IDSpatialHashValidMaskTex()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2EC);
-		}
-
-		static ::System::Int32* StaticGet_IDSimpRTXAtlasDimension()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2F0);
-		}
-
-		static ::System::Int32* StaticGet_IDRendererIndex8()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2F4);
-		}
-
-		static ::System::Int32* StaticGet_IDBVHNodeCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2F8);
-		}
-
-		static ::System::Int32* StaticGet_IDSDFAtlasArray()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA2FC);
-		}
-
-		static ::System::Int32* StaticGet_IDBVHNodes()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA300);
-		}
-
-		static ::System::Int32* StaticGet_IDSurfaceCardInfoArray()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA304);
-		}
-
-		static ::System::Int32* StaticGet_IDSpatialHashOffsetTexture()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA308);
-		}
-
-		static ::System::Int32* StaticGet_IDBakedSH3()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA30C);
-		}
-
-		static ::System::Int32* StaticGet_IDVoxelIrradianceNormalOffset()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA310);
-		}
-
-		static ::System::Int32* StaticGet_IDVoxelLightStrength()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA314);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DC4);
 		}
 
 		static ::System::Int32* StaticGet_IDSurfaceCardAtlasArray()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA318);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DC8);
 		}
 
-		static ::System::Int32* StaticGet_IDFallbackVoxelIndexMapping()
+		static ::System::Int32* StaticGet_IDSpatialHashOffsetTexture()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA31C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DCC);
+		}
+
+		static ::System::Int32* StaticGet_IDBakedSH1()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DD0);
+		}
+
+		static ::System::Int32* StaticGet_IDBakedSH3()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DD4);
 		}
 
 		static ::System::Int32* StaticGet_IDObjectData()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA320);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DD8);
 		}
 
-		static ::System::Int32* StaticGet_IDMaxCardsPerDirection()
+		static ::System::Int32* StaticGet_IDTangents()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA324);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DDC);
 		}
 
-		static ::System::Int32* StaticGet_IDVoxelIrradianceRoughnessBias()
+		static ::System::Int32* StaticGet_IDIndices()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA328);
-		}
-
-		static ::System::Int32* StaticGet_IDVoxelIndexMappingParams()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA32C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DE0);
 		}
 
 		static ::System::Int32* StaticGet_IDMaterials()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0xA330);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DE4);
+		}
+
+		static ::System::Int32* StaticGet_IDBVHMaxDepth()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DE8);
+		}
+
+		static ::System::Int32* StaticGet_IDSDFAtlasArray()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DEC);
+		}
+
+		static ::System::Int32* StaticGet_IDVoxelIrradianceRoughnessBias()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DF0);
+		}
+
+		static ::System::Int32* StaticGet_IDSurfaceCardInfoArray()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DF4);
+		}
+
+		static ::System::Int32* StaticGet_IDSimpRTXAtlasDimension()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DF8);
+		}
+
+		static ::System::Int32* StaticGet_IDMaxCardsPerDirection()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8DFC);
+		}
+
+		static ::System::Int32* StaticGet_IDBlasIndex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E00);
+		}
+
+		static ::System::Int32* StaticGet_IDLocalToWorlds()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E04);
+		}
+
+		static ::System::Int32* StaticGet_IDCardBoundsExpand()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E08);
+		}
+
+		static ::System::Int32* StaticGet_IDTriangleIndex8()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E0C);
+		}
+
+		static ::System::Int32* StaticGet_IDBakedSH2()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E10);
+		}
+
+		static ::System::Int32* StaticGet_IDInvValidMaskIdExtents()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E14);
+		}
+
+		static ::System::Int32* StaticGet_IDFallbackVoxelIndexMapping()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E18);
+		}
+
+		static ::System::Int32* StaticGet_IDAlbedoTex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E1C);
+		}
+
+		static ::System::Int32* StaticGet_IDSimpRTXCylinderGroupCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E20);
+		}
+
+		static ::System::Int32* StaticGet_IDBVHNodeCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E24);
+		}
+
+		static ::System::Int32* StaticGet_IDBVHNodes8()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E28);
+		}
+
+		static ::System::Int32* StaticGet_IDVoxelIndexMappingParams()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E2C);
+		}
+
+		static ::System::Int32* StaticGet_IDNormalTex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E30);
+		}
+
+		static ::System::Int32* StaticGet_IDBakedSH0()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E34);
+		}
+
+		static ::System::Int32* StaticGet_IDVoxelIrradianceNormalOffset()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E38);
+		}
+
+		static ::System::Int32* StaticGet_IDSpatialHashOffsetTableSize()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E3C);
+		}
+
+		static ::System::Int32* StaticGet_IDWorldToLocals()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E40);
+		}
+
+		static ::System::Int32* StaticGet_IDVoxelLightStrength()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E44);
+		}
+
+		static ::System::Int32* StaticGet_IDSimpRTXAtlas()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E48);
+		}
+
+		static ::System::Int32* StaticGet_IDBlasOffsets8()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E4C);
+		}
+
+		static ::System::Int32* StaticGet_IDNormals()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E50);
+		}
+
+		static ::System::Int32* StaticGet_IDUVs()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E54);
+		}
+
+		static ::System::Int32* StaticGet_IDBVHNodes()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E58);
+		}
+
+		static ::System::Int32* StaticGet_IDPositions()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E5C);
+		}
+
+		static ::System::Int32* StaticGet_IDRendererIndex8()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E60);
+		}
+
+		static ::System::Int32* StaticGet_IDTriangle8()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E64);
+		}
+
+		static ::System::Int32* StaticGet_IDObjectCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E68);
+		}
+
+		static ::System::Int32* StaticGet_IDSimpRTXDatas()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E6C);
+		}
+
+		static ::System::Int32* StaticGet_IDSimpRTXIntensity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "SimpRTXResourceNames")->GetStaticField(0x8E70);
 		}
 
 		// static const ::System::String* NameObjectData; // 0x0

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ReplaceCharacterEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BNNJGIKCLCD_CTOR_OFFSET UNITYSDK_OFFSET(0xBDDEB20)
-#define BNNJGIKCLCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDDEB50)
+#define BNNJGIKCLCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A776EA0)
+#define BNNJGIKCLCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A776ED0)
 
-inline static constexpr unsigned int BNNJGIKCLCD_TypeDefinitionIndex = 55882;
+inline static constexpr unsigned int BNNJGIKCLCD_TypeDefinitionIndex = 57085;
 
 	class BNNJGIKCLCD
 	{

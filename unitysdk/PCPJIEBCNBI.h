@@ -7,17 +7,17 @@ class BJCNEJFNIID;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PCPJIEBCNBI_CLEAR_OFFSET UNITYSDK_OFFSET(0xC003D50)
-#define PCPJIEBCNBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC003DA0)
+#define PCPJIEBCNBI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1AADBF20)
+#define PCPJIEBCNBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AADBF70)
 
-inline static constexpr unsigned int PCPJIEBCNBI_TypeDefinitionIndex = 56057;
+inline static constexpr unsigned int PCPJIEBCNBI_TypeDefinitionIndex = 57269;
 
 	class PCPJIEBCNBI : public ::System::Object
 	{
 	public:
-		::BJCNEJFNIID* OLOKHEMMGOH; // 0x10
-		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x18
-		::RPG::GameCore::GameEntity* MFIEDDGBIPH; // 0x20
+		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x10
+		::RPG::GameCore::GameEntity* MFIEDDGBIPH; // 0x18
+		::BJCNEJFNIID* OLOKHEMMGOH; // 0x20
 		::RPG::GameCore::FixPoint AJHHCOHFIFA; // 0x28
 		::HAFGAIKHMMG FKCKKFALPBK; // 0x30
 		::System::Void _ctor()

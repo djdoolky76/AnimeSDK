@@ -3,7 +3,7 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_KNOWNTYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE537A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_KNOWNTYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x209787E0)
 
 namespace System::Runtime::Serialization
 {

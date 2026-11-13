@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChimeraDuelRankData; }
 
-#define POBNHFMGBMO___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC34FDE0)
-#define POBNHFMGBMO___C__DISPLAYCLASS2_0__GETRANKDATABYSCORE_B__0_OFFSET UNITYSDK_OFFSET(0xC350010)
+#define POBNHFMGBMO___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x184CE7B0)
+#define POBNHFMGBMO___C__DISPLAYCLASS2_0__GETRANKDATABYSCORE_B__0_OFFSET UNITYSDK_OFFSET(0x184CE9E0)
 
-inline static constexpr unsigned int POBNHFMGBMO___c__DisplayClass2_0_TypeDefinitionIndex = 63380;
+inline static constexpr unsigned int POBNHFMGBMO___c__DisplayClass2_0_TypeDefinitionIndex = 64818;
 
 	class POBNHFMGBMO___c__DisplayClass2_0 : public ::System::Object
 	{

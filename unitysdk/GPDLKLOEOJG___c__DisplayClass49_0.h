@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class IFLICGOLBIG;
 
-#define GPDLKLOEOJG___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B3CBE0)
-#define GPDLKLOEOJG___C__DISPLAYCLASS49_0__CHANGEDICE_B__0_OFFSET UNITYSDK_OFFSET(0x15B42A50)
+#define GPDLKLOEOJG___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17DA9E30)
+#define GPDLKLOEOJG___C__DISPLAYCLASS49_0__CHANGEDICE_B__0_OFFSET UNITYSDK_OFFSET(0x17DAFEA0)
 
-inline static constexpr unsigned int GPDLKLOEOJG___c__DisplayClass49_0_TypeDefinitionIndex = 60320;
+inline static constexpr unsigned int GPDLKLOEOJG___c__DisplayClass49_0_TypeDefinitionIndex = 61605;
 
 	class GPDLKLOEOJG___c__DisplayClass49_0 : public ::System::Object
 	{

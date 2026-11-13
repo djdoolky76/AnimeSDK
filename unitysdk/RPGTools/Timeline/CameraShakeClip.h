@@ -8,13 +8,13 @@ namespace RPGTools::Timeline { class CameraShakeConfig; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CAMERASHAKECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B8E30)
-#define RPGTOOLS_TIMELINE_CAMERASHAKECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B9310)
-#define RPGTOOLS_TIMELINE_CAMERASHAKECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B9300)
+#define RPGTOOLS_TIMELINE_CAMERASHAKECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1E3E6CE0)
+#define RPGTOOLS_TIMELINE_CAMERASHAKECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E71C0)
+#define RPGTOOLS_TIMELINE_CAMERASHAKECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1E3E71B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CameraShakeClip_TypeDefinitionIndex = 47809;
+	inline static constexpr unsigned int CameraShakeClip_TypeDefinitionIndex = 48840;
 
 	class CameraShakeClip : public ::UnityEngine::Playables::PlayableAsset
 	{

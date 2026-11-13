@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_CURVEGENERATESETTING_CCTOR_OFFSET UNITYSDK_OFFSET(0xE495610)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_CURVEGENERATESETTING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1825A300)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting_TypeDefinitionIndex = 52019;
+	inline static constexpr unsigned int BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting_TypeDefinitionIndex = 53124;
 
 	struct alignas(4) BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting
 	{
@@ -17,7 +17,7 @@ namespace RPG::Editor
 		::System::Single HandleControl; // 0x28
 		static ::RPG::Editor::BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting* StaticGet_init()
 		{
-			return (::RPG::Editor::BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting*)UnitySDK::FromName("RPG.Editor", "CurveGenerateSetting")->GetStaticField(0x105D0);
+			return (::RPG::Editor::BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting*)UnitySDK::FromName("RPG.Editor", "CurveGenerateSetting")->GetStaticField(0x140B0);
 		}
 
 		static ::System::Void _cctor()

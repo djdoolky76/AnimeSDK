@@ -5,24 +5,24 @@
 class CJEEJFDPPNG;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE79C230)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_RESET_OFFSET UNITYSDK_OFFSET(0xE79C2A0)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE79C240)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x125CDC10)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_RESET_OFFSET UNITYSDK_OFFSET(0x125CDC80)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x125CDC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_RowFormationLocationData_TypeDefinitionIndex = 57705;
+	inline static constexpr unsigned int TeamFormationComponent_RowFormationLocationData_TypeDefinitionIndex = 58938;
 
 	class TeamFormationComponent_RowFormationLocationData : public ::System::Object
 	{
 	public:
 		::CJEEJFDPPNG* FormationComponent; // 0x10
-		::System::Single FixedZOffset; // 0x18
-		::System::Boolean IgnoreFormationRefresh; // 0x1C
+		::System::Int32 RowIndex; // 0x18
+		::System::Single FixedZOffset; // 0x1C
+		::RPG::MVector3 LocalFormationOffset; // 0x20
+		::System::Boolean IgnoreFormationRefresh; // 0x2C
 		::System::Byte _padding0[0x3];
-		::System::Single RandomZOffset; // 0x20
-		::RPG::MVector3 LocalFormationOffset; // 0x24
-		::System::Int32 RowIndex; // 0x30
+		::System::Single RandomZOffset; // 0x30
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_CTOR_OFFSET))(this, a1);

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PFGDFMBOOLK_GroupCbState_TypeDefinitionIndex = 69816;
+inline static constexpr unsigned int PFGDFMBOOLK_GroupCbState_TypeDefinitionIndex = 71775;
 
 	enum class PFGDFMBOOLK_GroupCbState : ::System::Int32
 	{

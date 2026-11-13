@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetIsBetweenCameraAndAnother; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNMPPNELDBD_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD5500)
-#define DNMPPNELDBD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FD5530)
+#define DNMPPNELDBD_CTOR_OFFSET UNITYSDK_OFFSET(0x19198690)
+#define DNMPPNELDBD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x191986C0)
 
-inline static constexpr unsigned int DNMPPNELDBD_TypeDefinitionIndex = 54719;
+inline static constexpr unsigned int DNMPPNELDBD_TypeDefinitionIndex = 55886;
 
 	class DNMPPNELDBD
 	{

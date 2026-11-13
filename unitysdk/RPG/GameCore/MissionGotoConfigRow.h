@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionGotoConfigRow; }
 
-#define RPG_GAMECORE_MISSIONGOTOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D859980)
-#define RPG_GAMECORE_MISSIONGOTOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8593B0)
+#define RPG_GAMECORE_MISSIONGOTOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6EBF30)
+#define RPG_GAMECORE_MISSIONGOTOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6EB960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionGotoConfigRow_TypeDefinitionIndex = 14162;
+	inline static constexpr unsigned int MissionGotoConfigRow_TypeDefinitionIndex = 14319;
 
 	class MissionGotoConfigRow : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class NCBOENDMDIC;
 namespace System { class Object; }
 
-#define NCBOENDMDIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAAAE70)
-#define NCBOENDMDIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAAAEA0)
-#define NCBOENDMDIC___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1EAAAEB0)
+#define NCBOENDMDIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202EAE60)
+#define NCBOENDMDIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202EAE90)
+#define NCBOENDMDIC___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x202EAEA0)
 
-inline static constexpr unsigned int NCBOENDMDIC___c_TypeDefinitionIndex = 28438;
+inline static constexpr unsigned int NCBOENDMDIC___c_TypeDefinitionIndex = 29028;
 
 	class NCBOENDMDIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E680);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C4F0);
 		}
 
 		static ::System::Void _cctor()

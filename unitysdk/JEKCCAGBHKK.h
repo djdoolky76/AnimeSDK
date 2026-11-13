@@ -8,26 +8,26 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JEKCCAGBHKK_CJPBPKNJKBO_OFFSET UNITYSDK_OFFSET(0x16628ED0)
-#define JEKCCAGBHKK_CTOR_OFFSET UNITYSDK_OFFSET(0x16628C90)
-#define JEKCCAGBHKK_DHCHEEMKLPM_OFFSET UNITYSDK_OFFSET(0x16629830)
-#define JEKCCAGBHKK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16628DA0)
-#define JEKCCAGBHKK_GEEBFEPLEEC_OFFSET UNITYSDK_OFFSET(0x166291D0)
-#define JEKCCAGBHKK_HECMALHOJPH_OFFSET UNITYSDK_OFFSET(0x166295C0)
-#define JEKCCAGBHKK_KKEJBMCDBAO_OFFSET UNITYSDK_OFFSET(0x16629900)
-#define JEKCCAGBHKK_OHBHFKJKNOB_OFFSET UNITYSDK_OFFSET(0x16629050)
-#define JEKCCAGBHKK_PLLALDFCJNC_OFFSET UNITYSDK_OFFSET(0x16629330)
+#define JEKCCAGBHKK_CJPBPKNJKBO_OFFSET UNITYSDK_OFFSET(0x13080FF0)
+#define JEKCCAGBHKK_CTOR_OFFSET UNITYSDK_OFFSET(0x13080DB0)
+#define JEKCCAGBHKK_DHCHEEMKLPM_OFFSET UNITYSDK_OFFSET(0x13081950)
+#define JEKCCAGBHKK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13080EC0)
+#define JEKCCAGBHKK_GEEBFEPLEEC_OFFSET UNITYSDK_OFFSET(0x130812F0)
+#define JEKCCAGBHKK_HECMALHOJPH_OFFSET UNITYSDK_OFFSET(0x130816E0)
+#define JEKCCAGBHKK_KKEJBMCDBAO_OFFSET UNITYSDK_OFFSET(0x13081A20)
+#define JEKCCAGBHKK_OHBHFKJKNOB_OFFSET UNITYSDK_OFFSET(0x13081170)
+#define JEKCCAGBHKK_PLLALDFCJNC_OFFSET UNITYSDK_OFFSET(0x13081450)
 
-inline static constexpr unsigned int JEKCCAGBHKK_TypeDefinitionIndex = 57921;
+inline static constexpr unsigned int JEKCCAGBHKK_TypeDefinitionIndex = 59158;
 
 	class JEKCCAGBHKK : public ::GELIALJDFBL
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OAAPOHICNBM; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::ILKJANNKCJO*>* EPPMCDAFBEM; // 0x20
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* DLMJNPLGJLG; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* PEKOIBEMINM; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* EJFJFNHPJOP; // 0x38
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* PEKOIBEMINM; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* DLMJNPLGJLG; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OAAPOHICNBM; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* EJFJFNHPJOP; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::ILKJANNKCJO*>* EPPMCDAFBEM; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JEKCCAGBHKK_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MCNEHNAAICP_CTOR_OFFSET UNITYSDK_OFFSET(0xB882310)
-#define MCNEHNAAICP_DFIDFBPLEGF_OFFSET UNITYSDK_OFFSET(0xB8822A0)
+#define MCNEHNAAICP_CTOR_OFFSET UNITYSDK_OFFSET(0x183BF080)
+#define MCNEHNAAICP_DFIDFBPLEGF_OFFSET UNITYSDK_OFFSET(0x183BF010)
 
-inline static constexpr unsigned int MCNEHNAAICP_TypeDefinitionIndex = 71470;
+inline static constexpr unsigned int MCNEHNAAICP_TypeDefinitionIndex = 73455;
 
 	class MCNEHNAAICP : public ::System::Object
 	{

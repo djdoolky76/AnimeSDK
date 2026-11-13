@@ -4,18 +4,18 @@
 namespace RPG::Client::LimaoNews { class LimaoNewsMainEntrance3DViewModel; }
 namespace RPG::Client::LimaoNews { class LimaoNewsMainLimaoControl; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3B7020)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0___SWITCHTOVIEWMODELWITHFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xD3B7EF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB40C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0___SWITCHTOVIEWMODELWITHFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x1DFB4F90)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsMainLimaoControl___c__DisplayClass4_0_TypeDefinitionIndex = 80368;
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl___c__DisplayClass4_0_TypeDefinitionIndex = 83148;
 
 	class LimaoNewsMainLimaoControl___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LimaoNews::LimaoNewsMainEntrance3DViewModel* viewModel; // 0x10
-		::RPG::Client::LimaoNews::LimaoNewsMainLimaoControl* __4__this; // 0x18
+		::RPG::Client::LimaoNews::LimaoNewsMainLimaoControl* __4__this; // 0x10
+		::RPG::Client::LimaoNews::LimaoNewsMainEntrance3DViewModel* viewModel; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

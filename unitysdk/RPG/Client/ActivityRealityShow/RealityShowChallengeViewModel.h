@@ -1,0 +1,310 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+class JOEHFJMCKLA;
+class KDOPLFDBBGD;
+class KLIEPBLDOHF;
+class MJCMGOEMKCC;
+class NEIHDJONAKB;
+class OBJANKHLNGO;
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class MonsterData; }
+namespace RPG::Client::ActivityRealityShow { class RealityShowChallengeStartViewModel; }
+namespace RPG::Client::ActivityRealityShow { class RealityShowFirstStageViewModel; }
+namespace RPG::Client::ActivityRealityShow { class RealityShowLineupViewModel; }
+namespace RPG::Client::ActivityRealityShow { class RealityShowSecondStageViewModel; }
+namespace Sofa::Core { class SimpleCommand; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_ONACTIVITYCLOSE_OFFSET UNITYSDK_OFFSET(0x1C8C4CE0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_ONFIRSTSTAGERESET_OFFSET UNITYSDK_OFFSET(0x1C8C4AA0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_ONLINEUPCHANGED_OFFSET UNITYSDK_OFFSET(0x1C8C4B60)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_ONTEAMEDITOPENCHANGED_OFFSET UNITYSDK_OFFSET(0x1C8C4C20)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_TEAMEDITREQUESTED_OFFSET UNITYSDK_OFFSET(0x1C8C4EA0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_TUTORIALREQUESTED_OFFSET UNITYSDK_OFFSET(0x1C8C4DC0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8C4460)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DCA91B0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_ACTIVITYNAME_OFFSET UNITYSDK_OFFSET(0x1DCA8EC0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_CHALLENGEID_OFFSET UNITYSDK_OFFSET(0x1DCA8E40)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_CHALLENGESTART_OFFSET UNITYSDK_OFFSET(0x1DCA9170)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_FIRSTSTAGE_OFFSET UNITYSDK_OFFSET(0x1DCA8FE0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_ISTEAMEDITOPEN_OFFSET UNITYSDK_OFFSET(0x1DCA9150)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_LINEUPAVATARS_OFFSET UNITYSDK_OFFSET(0x1DCA9100)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_LINEUP_OFFSET UNITYSDK_OFFSET(0x1DCA9000)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_MONSTERMODELCONFIGPATH_OFFSET UNITYSDK_OFFSET(0x1DCA8F70)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_MONSTERMODELPREFABPATH_OFFSET UNITYSDK_OFFSET(0x1DCA8F60)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_MONSTERPORTRAITPATH_OFFSET UNITYSDK_OFFSET(0x1DCA8F50)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_OBTAINEDAVATARS_OFFSET UNITYSDK_OFFSET(0x1DCA9070)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_OPENTEAMEDIT_OFFSET UNITYSDK_OFFSET(0x1DCA9190)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_OPENTUTORIAL_OFFSET UNITYSDK_OFFSET(0x1DCA91A0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_RESETFIRSTSTAGE_OFFSET UNITYSDK_OFFSET(0x1DCA9180)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_SECONDSTAGE_OFFSET UNITYSDK_OFFSET(0x1DCA8FF0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1DCA8ED0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_TRIALAVATARS_OFFSET UNITYSDK_OFFSET(0x1DCA9010)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_TUTORIALGUIDEID_OFFSET UNITYSDK_OFFSET(0x1DCA8F80)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_ONACTIVITYCLOSE_OFFSET UNITYSDK_OFFSET(0x1C8C4D50)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_ONFIRSTSTAGERESET_OFFSET UNITYSDK_OFFSET(0x1C8C4B00)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_ONLINEUPCHANGED_OFFSET UNITYSDK_OFFSET(0x1C8C4BC0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_ONTEAMEDITOPENCHANGED_OFFSET UNITYSDK_OFFSET(0x1C8C4C80)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_TEAMEDITREQUESTED_OFFSET UNITYSDK_OFFSET(0x1C8C4F00)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_TUTORIALREQUESTED_OFFSET UNITYSDK_OFFSET(0x1C8C4E30)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_SET_ISTEAMEDITOPEN_OFFSET UNITYSDK_OFFSET(0x1DCA9160)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONACTIVITYCLOSEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1DCA9880)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONLINEUPCHANGEDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1DCA98F0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONOPENTEAMEDIT_OFFSET UNITYSDK_OFFSET(0x1DCA94F0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONOPENTUTORIAL_OFFSET UNITYSDK_OFFSET(0x1DCA97D0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONRESETFIRSTSTAGE_OFFSET UNITYSDK_OFFSET(0x1DCA92A0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONTEAMEDITCLOSED_OFFSET UNITYSDK_OFFSET(0x1DCA9730)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__REFRESHLINEUPAVATARS_OFFSET UNITYSDK_OFFSET(0x1DCA9F60)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__SETTEAMEDITOPEN_OFFSET UNITYSDK_OFFSET(0x1DCA96B0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL___ONRESETFIRSTSTAGE_B__69_0_OFFSET UNITYSDK_OFFSET(0x1DCAA3C0)
+
+namespace RPG::Client::ActivityRealityShow
+{
+	inline static constexpr unsigned int RealityShowChallengeViewModel_TypeDefinitionIndex = 84901;
+
+	class RealityShowChallengeViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::Sofa::Core::SimpleCommand* _OpenTeamEdit_k__BackingField; // 0x20
+		::System::Action* OnLineupChanged; // 0x28
+		::System::Action* OnFirstStageReset; // 0x30
+		::System::String* _MonsterPortraitPath_k__BackingField; // 0x38
+		::System::String* _MonsterModelConfigPath_k__BackingField; // 0x40
+		::System::Action* OnTeamEditOpenChanged; // 0x48
+		::Sofa::Core::SimpleCommand* _ResetFirstStage_k__BackingField; // 0x50
+		::OBJANKHLNGO* _Messenger; // 0x58
+		::KDOPLFDBBGD* _ChallengeService; // 0x60
+		::RPG::Client::ActivityRealityShow::RealityShowChallengeStartViewModel* _ChallengeStart_k__BackingField; // 0x68
+		::RPG::Client::ActivityRealityShow::RealityShowSecondStageViewModel* _SecondStage_k__BackingField; // 0x70
+		::System::Action_2<::System::UInt32, ::System::Action*>* TeamEditRequested; // 0x78
+		::System::Action_1<::System::UInt32>* TutorialRequested; // 0x80
+		::RPG::Client::ActivityRealityShow::RealityShowLineupViewModel* _Lineup_k__BackingField; // 0x88
+		::RPG::Client::ActivityRealityShow::RealityShowFirstStageViewModel* _FirstStage_k__BackingField; // 0x90
+		::Sofa::Core::SimpleCommand* _OpenTutorial_k__BackingField; // 0x98
+		::System::Action* OnActivityClose; // 0xA0
+		::JOEHFJMCKLA* _AvatarSet; // 0xA8
+		::MJCMGOEMKCC* _Challenge; // 0xB0
+		::System::String* _MonsterModelPrefabPath_k__BackingField; // 0xB8
+		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* _LineupAvatars; // 0xC0
+		::RPG::Client::TextID _ActivityName_k__BackingField; // 0xC8
+		::System::Boolean _IsTeamEditOpen_k__BackingField; // 0xD8
+		::System::Boolean _IsDisposed; // 0xD9
+		::System::Void _ctor(::MJCMGOEMKCC* a1, ::RPG::Client::MonsterData* a2, ::RPG::Client::ActivityRealityShow::RealityShowFirstStageViewModel* a3, ::RPG::Client::ActivityRealityShow::RealityShowSecondStageViewModel* a4, ::RPG::Client::ActivityRealityShow::RealityShowLineupViewModel* a5, ::RPG::Client::ActivityRealityShow::RealityShowChallengeStartViewModel* a6, ::RPG::Client::TextID a7, ::KDOPLFDBBGD* a8, ::OBJANKHLNGO* a9)
+		{
+			return ((::System::Void(*)(::PVOID, ::MJCMGOEMKCC*, ::RPG::Client::MonsterData*, ::RPG::Client::ActivityRealityShow::RealityShowFirstStageViewModel*, ::RPG::Client::ActivityRealityShow::RealityShowSecondStageViewModel*, ::RPG::Client::ActivityRealityShow::RealityShowLineupViewModel*, ::RPG::Client::ActivityRealityShow::RealityShowChallengeStartViewModel*, ::RPG::Client::TextID, ::KDOPLFDBBGD*, ::OBJANKHLNGO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+		}
+
+		::System::Void add_OnFirstStageReset(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_ONFIRSTSTAGERESET_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnFirstStageReset(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_ONFIRSTSTAGERESET_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnLineupChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_ONLINEUPCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnLineupChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_ONLINEUPCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnTeamEditOpenChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_ONTEAMEDITOPENCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnTeamEditOpenChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_ONTEAMEDITOPENCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnActivityClose(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_ONACTIVITYCLOSE_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnActivityClose(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_ONACTIVITYCLOSE_OFFSET))(this, a1);
+		}
+
+		::System::Void add_TutorialRequested(::System::Action_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_TUTORIALREQUESTED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_TutorialRequested(::System::Action_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_TUTORIALREQUESTED_OFFSET))(this, a1);
+		}
+
+		::System::Void add_TeamEditRequested(::System::Action_2<::System::UInt32, ::System::Action*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::System::Action*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_ADD_TEAMEDITREQUESTED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_TeamEditRequested(::System::Action_2<::System::UInt32, ::System::Action*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::System::Action*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_REMOVE_TEAMEDITREQUESTED_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ChallengeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_CHALLENGEID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_ActivityName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_ACTIVITYNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Title()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_TITLE_OFFSET))(this);
+		}
+
+		::System::String* get_MonsterPortraitPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_MONSTERPORTRAITPATH_OFFSET))(this);
+		}
+
+		::System::String* get_MonsterModelPrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_MONSTERMODELPREFABPATH_OFFSET))(this);
+		}
+
+		::System::String* get_MonsterModelConfigPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_MONSTERMODELCONFIGPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TutorialGuideID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_TUTORIALGUIDEID_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityRealityShow::RealityShowFirstStageViewModel* get_FirstStage()
+		{
+			return ((::RPG::Client::ActivityRealityShow::RealityShowFirstStageViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_FIRSTSTAGE_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityRealityShow::RealityShowSecondStageViewModel* get_SecondStage()
+		{
+			return ((::RPG::Client::ActivityRealityShow::RealityShowSecondStageViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_SECONDSTAGE_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityRealityShow::RealityShowLineupViewModel* get_Lineup()
+		{
+			return ((::RPG::Client::ActivityRealityShow::RealityShowLineupViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_LINEUP_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>* get_TrialAvatars()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_TRIALAVATARS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>* get_ObtainedAvatars()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_OBTAINEDAVATARS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>* get_LineupAvatars()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_LINEUPAVATARS_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsTeamEditOpen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_ISTEAMEDITOPEN_OFFSET))(this);
+		}
+
+		::System::Void set_IsTeamEditOpen(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_SET_ISTEAMEDITOPEN_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ActivityRealityShow::RealityShowChallengeStartViewModel* get_ChallengeStart()
+		{
+			return ((::RPG::Client::ActivityRealityShow::RealityShowChallengeStartViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_CHALLENGESTART_OFFSET))(this);
+		}
+
+		::Sofa::Core::SimpleCommand* get_ResetFirstStage()
+		{
+			return ((::Sofa::Core::SimpleCommand*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_RESETFIRSTSTAGE_OFFSET))(this);
+		}
+
+		::Sofa::Core::SimpleCommand* get_OpenTeamEdit()
+		{
+			return ((::Sofa::Core::SimpleCommand*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_OPENTEAMEDIT_OFFSET))(this);
+		}
+
+		::Sofa::Core::SimpleCommand* get_OpenTutorial()
+		{
+			return ((::Sofa::Core::SimpleCommand*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_GET_OPENTUTORIAL_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void _OnResetFirstStage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONRESETFIRSTSTAGE_OFFSET))(this);
+		}
+
+		::System::Void _OnOpenTeamEdit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONOPENTEAMEDIT_OFFSET))(this);
+		}
+
+		::System::Void _OnTeamEditClosed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONTEAMEDITCLOSED_OFFSET))(this);
+		}
+
+		::System::Void _SetTeamEditOpen(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__SETTEAMEDITOPEN_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnOpenTutorial()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONOPENTUTORIAL_OFFSET))(this);
+		}
+
+		::System::Void _OnActivityCloseMessage(::KLIEPBLDOHF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KLIEPBLDOHF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONACTIVITYCLOSEMESSAGE_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnLineupChangedMessage(::NEIHDJONAKB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NEIHDJONAKB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__ONLINEUPCHANGEDMESSAGE_OFFSET))(this, a1);
+		}
+
+		::System::Void _RefreshLineupAvatars()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL__REFRESHLINEUPAVATARS_OFFSET))(this);
+		}
+
+		::System::Void __OnResetFirstStage_b__69_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWCHALLENGEVIEWMODEL___ONRESETFIRSTSTAGE_B__69_0_OFFSET))(this);
+		}
+
+	};
+}

@@ -5,18 +5,18 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class String; }
 
-#define MKEEPBFBNDH_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB98A270)
-#define MKEEPBFBNDH_CTOR_OFFSET UNITYSDK_OFFSET(0xB98A260)
-#define MKEEPBFBNDH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB98A280)
-#define MKEEPBFBNDH_OMMPJHHHIHA_OFFSET UNITYSDK_OFFSET(0xB98A5A0)
+#define MKEEPBFBNDH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B8FE3E0)
+#define MKEEPBFBNDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8FE3D0)
+#define MKEEPBFBNDH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1B8FE3F0)
+#define MKEEPBFBNDH_OMMPJHHHIHA_OFFSET UNITYSDK_OFFSET(0x1B8FE710)
 
-inline static constexpr unsigned int MKEEPBFBNDH_TypeDefinitionIndex = 73117;
+inline static constexpr unsigned int MKEEPBFBNDH_TypeDefinitionIndex = 75231;
 
 	class MKEEPBFBNDH : public ::System::Object
 	{
 	public:
-		::RPG::Client::UIController* HKJLKMCDMGB; // 0x10
-		::RPG::Client::UIController* IBLBKLNHKLL; // 0x18
+		::RPG::Client::UIController* IBLBKLNHKLL; // 0x10
+		::RPG::Client::UIController* HKJLKMCDMGB; // 0x18
 		::System::Void _ctor(::RPG::Client::UIController* a1, ::RPG::Client::UIController* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + MKEEPBFBNDH_CTOR_OFFSET))(this, a1, a2);

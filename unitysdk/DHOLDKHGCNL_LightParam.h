@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DHOLDKHGCNL_LightParam_TypeDefinitionIndex = 47383;
+inline static constexpr unsigned int DHOLDKHGCNL_LightParam_TypeDefinitionIndex = 48412;
 
 	enum class DHOLDKHGCNL_LightParam : ::System::Int32
 	{

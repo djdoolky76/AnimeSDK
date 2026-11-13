@@ -6,17 +6,17 @@ class LHNLECHOKMG;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define LHNLECHOKMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C67B0)
-#define LHNLECHOKMG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0C67C0)
-#define LHNLECHOKMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0C6780)
+#define LHNLECHOKMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9624E0)
+#define LHNLECHOKMG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9624F0)
+#define LHNLECHOKMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9624B0)
 
-inline static constexpr unsigned int LHNLECHOKMG_TypeDefinitionIndex = 21441;
+inline static constexpr unsigned int LHNLECHOKMG_TypeDefinitionIndex = 21784;
 
 	class LHNLECHOKMG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* ODMPMJCAHPN; // 0x18
-		::Il2CppArray<::System::String*>* MMMJJJOGBBI; // 0x20
+		::Il2CppArray<::System::String*>* MMMJJJOGBBI; // 0x18
+		::RPG::GameCore::DynamicString* ODMPMJCAHPN; // 0x20
 		::System::Boolean GEOPPFCKACN; // 0x28
 		::System::Void _ctor()
 		{

@@ -4,18 +4,18 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define MGIKEJFECDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB91ABA0)
-#define MGIKEJFECDM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB91AB00)
-#define MGIKEJFECDM_EPJNHIIKAEJ_OFFSET UNITYSDK_OFFSET(0xB91AB40)
-#define MGIKEJFECDM_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB91AB90)
+#define MGIKEJFECDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B340B40)
+#define MGIKEJFECDM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B340AA0)
+#define MGIKEJFECDM_EPJNHIIKAEJ_OFFSET UNITYSDK_OFFSET(0x1B340AE0)
+#define MGIKEJFECDM_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x1B340B30)
 
-inline static constexpr unsigned int MGIKEJFECDM_TypeDefinitionIndex = 53630;
+inline static constexpr unsigned int MGIKEJFECDM_TypeDefinitionIndex = 54794;
 
 	class MGIKEJFECDM : public ::System::Object
 	{
 	public:
-		::System::String* GIDAEFPOGHI; // 0x10
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x10
+		::System::String* GIDAEFPOGHI; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MGIKEJFECDM_CTOR_OFFSET))(this);

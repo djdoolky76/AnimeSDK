@@ -6,12 +6,12 @@ namespace RPG::GameCore { class LineupMazeBuffConfig; }
 namespace RPG::GameCore { class LineupMazeBuffData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LINEUPMAZEBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A7F80)
-#define RPG_GAMECORE_LINEUPMAZEBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A7DF0)
+#define RPG_GAMECORE_LINEUPMAZEBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F256E50)
+#define RPG_GAMECORE_LINEUPMAZEBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F256CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupMazeBuffConfig_TypeDefinitionIndex = 18132;
+	inline static constexpr unsigned int LineupMazeBuffConfig_TypeDefinitionIndex = 18294;
 
 	class LineupMazeBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

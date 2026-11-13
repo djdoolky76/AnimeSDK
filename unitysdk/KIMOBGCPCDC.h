@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ST_ByInAttackAngle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KIMOBGCPCDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB42F1F0)
-#define KIMOBGCPCDC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB42F2E0)
+#define KIMOBGCPCDC_CTOR_OFFSET UNITYSDK_OFFSET(0x19EF5920)
+#define KIMOBGCPCDC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19EF5A10)
 
-inline static constexpr unsigned int KIMOBGCPCDC_TypeDefinitionIndex = 52199;
+inline static constexpr unsigned int KIMOBGCPCDC_TypeDefinitionIndex = 53304;
 
 	class KIMOBGCPCDC
 	{

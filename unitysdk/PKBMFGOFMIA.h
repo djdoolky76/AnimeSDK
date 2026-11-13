@@ -5,20 +5,20 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define PKBMFGOFMIA_IDOGNCKEJOK_OFFSET UNITYSDK_OFFSET(0xC2A4770)
-#define PKBMFGOFMIA_JPKNMGAMPDI_OFFSET UNITYSDK_OFFSET(0xC2A4920)
-#define PKBMFGOFMIA_LFLABJGDCBE_OFFSET UNITYSDK_OFFSET(0xC2A47D0)
-#define PKBMFGOFMIA_OHNHFLKMONK_OFFSET UNITYSDK_OFFSET(0xC2A46E0)
-#define PKBMFGOFMIA_PCPEHHEHLPH_OFFSET UNITYSDK_OFFSET(0xC2A48C0)
+#define PKBMFGOFMIA_IDOGNCKEJOK_OFFSET UNITYSDK_OFFSET(0x147AFD50)
+#define PKBMFGOFMIA_JPKNMGAMPDI_OFFSET UNITYSDK_OFFSET(0x147AFEE0)
+#define PKBMFGOFMIA_LFLABJGDCBE_OFFSET UNITYSDK_OFFSET(0x147AFD90)
+#define PKBMFGOFMIA_OHNHFLKMONK_OFFSET UNITYSDK_OFFSET(0x147AFCE0)
+#define PKBMFGOFMIA_PCPEHHEHLPH_OFFSET UNITYSDK_OFFSET(0x147AFE80)
 
-inline static constexpr unsigned int PKBMFGOFMIA_TypeDefinitionIndex = 80930;
+inline static constexpr unsigned int PKBMFGOFMIA_TypeDefinitionIndex = 83710;
 
 	class PKBMFGOFMIA : public ::System::Object
 	{
 	public:
 		static ::System::Nullable_1<::RPG::Client::FateRin::Battle::FateRinBattleHudInputMode>* StaticGet_LIFJGCHKADB()
 		{
-			return (::System::Nullable_1<::RPG::Client::FateRin::Battle::FateRinBattleHudInputMode>*)UnitySDK::FromName("", "PKBMFGOFMIA")->GetStaticField(0x15BD0);
+			return (::System::Nullable_1<::RPG::Client::FateRin::Battle::FateRinBattleHudInputMode>*)UnitySDK::FromName("", "PKBMFGOFMIA")->GetStaticField(0x163D0);
 		}
 
 		static ::RPG::Client::FateRin::Battle::FateRinBattleHudInputMode OHNHFLKMONK()

@@ -10,18 +10,18 @@ class PIPDCBLLPDI;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DBKBPMNNGKG_CTOR_OFFSET UNITYSDK_OFFSET(0xE2212E0)
-#define DBKBPMNNGKG_HCOIJJKNAJF_OFFSET UNITYSDK_OFFSET(0xE2217D0)
-#define DBKBPMNNGKG_IFIDJPHDEHI_OFFSET UNITYSDK_OFFSET(0xE221390)
+#define DBKBPMNNGKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B14D3B0)
+#define DBKBPMNNGKG_HCOIJJKNAJF_OFFSET UNITYSDK_OFFSET(0x1B14D8A0)
+#define DBKBPMNNGKG_IFIDJPHDEHI_OFFSET UNITYSDK_OFFSET(0x1B14D460)
 
-inline static constexpr unsigned int DBKBPMNNGKG_TypeDefinitionIndex = 79693;
+inline static constexpr unsigned int DBKBPMNNGKG_TypeDefinitionIndex = 82470;
 
 	class DBKBPMNNGKG : public ::System::Object
 	{
 	public:
-		::PIPDCBLLPDI* NEADLJNICHM; // 0x10
-		::JOOHEPGEHNK* PONKAEHCHGF; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftConstraintConditionStatType, ::DAPLFNJDOAA*>* JMGKEICPACE; // 0x20
+		::JOOHEPGEHNK* PONKAEHCHGF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftConstraintConditionStatType, ::DAPLFNJDOAA*>* JMGKEICPACE; // 0x18
+		::PIPDCBLLPDI* NEADLJNICHM; // 0x20
 		::CGEAHGGAADH* CKFIMAJPOOA; // 0x28
 		::System::Void _ctor(::PIPDCBLLPDI* a1, ::JOOHEPGEHNK* a2, ::CGEAHGGAADH* a3)
 		{

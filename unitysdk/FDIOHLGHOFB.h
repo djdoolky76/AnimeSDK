@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetIsometricRoadLinkerEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FDIOHLGHOFB_CTOR_OFFSET UNITYSDK_OFFSET(0x156D1BB0)
-#define FDIOHLGHOFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156D1BE0)
+#define FDIOHLGHOFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0380E0)
+#define FDIOHLGHOFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C038110)
 
-inline static constexpr unsigned int FDIOHLGHOFB_TypeDefinitionIndex = 53241;
+inline static constexpr unsigned int FDIOHLGHOFB_TypeDefinitionIndex = 54403;
 
 	class FDIOHLGHOFB
 	{

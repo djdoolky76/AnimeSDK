@@ -9,43 +9,43 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B860FF0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B861030)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DETERMINEPUBLICDEPENDENCIES_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B861040)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLDEPENDEDEXTENSIONSFROMMESSAGE_B__52_0_OFFSET UNITYSDK_OFFSET(0x1B8610F0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLDEPENDEDEXTENSIONS_B__51_0_OFFSET UNITYSDK_OFFSET(0x1B8610D0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLGENERATEDEXTENSIONS_B__50_0_OFFSET UNITYSDK_OFFSET(0x1B8610C0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BED82E0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED8320)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DETERMINEPUBLICDEPENDENCIES_B__9_0_OFFSET UNITYSDK_OFFSET(0x1BED8330)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLDEPENDEDEXTENSIONSFROMMESSAGE_B__52_0_OFFSET UNITYSDK_OFFSET(0x1BED83E0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLDEPENDEDEXTENSIONS_B__51_0_OFFSET UNITYSDK_OFFSET(0x1BED83C0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLGENERATEDEXTENSIONS_B__50_0_OFFSET UNITYSDK_OFFSET(0x1BED83B0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptor___c_TypeDefinitionIndex = 5544;
+	inline static constexpr unsigned int FileDescriptor___c_TypeDefinitionIndex = 5549;
 
 	class FileDescriptor___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>** StaticGet___9__51_0()
 		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21050);
+			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21040);
 		}
 
 		static ::System::Func_2<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*, ::System::Boolean>** StaticGet___9__50_0()
 		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21058);
+			return (::System::Func_2<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21048);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21050);
+		}
+
+		static ::System::Func_2<::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21058);
 		}
 
 		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>** StaticGet___9__52_0()
 		{
 			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21060);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21068);
-		}
-
-		static ::System::Func_2<::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x21070);
 		}
 
 		static ::System::Void _cctor()

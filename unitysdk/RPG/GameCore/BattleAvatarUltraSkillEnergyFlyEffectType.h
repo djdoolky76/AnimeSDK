@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleAvatarUltraSkillEnergyFlyEffectType_TypeDefinitionIndex = 24624;
+	inline static constexpr unsigned int BattleAvatarUltraSkillEnergyFlyEffectType_TypeDefinitionIndex = 25092;
 
 	enum class BattleAvatarUltraSkillEnergyFlyEffectType : ::System::Int32
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RPGColorGradingCurveEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNCENMHNDKG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC96BD0)
-#define NNCENMHNDKG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC96BE0)
-#define NNCENMHNDKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC96C20)
-#define NNCENMHNDKG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC96ED0)
-#define NNCENMHNDKG_TICK_OFFSET UNITYSDK_OFFSET(0xBC96F20)
+#define NNCENMHNDKG_CTOR_OFFSET UNITYSDK_OFFSET(0x179D87D0)
+#define NNCENMHNDKG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x179D87E0)
+#define NNCENMHNDKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179D8820)
+#define NNCENMHNDKG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x179D8AD0)
+#define NNCENMHNDKG_TICK_OFFSET UNITYSDK_OFFSET(0x179D8B20)
 
-inline static constexpr unsigned int NNCENMHNDKG_TypeDefinitionIndex = 55272;
+inline static constexpr unsigned int NNCENMHNDKG_TypeDefinitionIndex = 56453;
 
 	class NNCENMHNDKG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::RPGColorGradingCurveEffect* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::RPGColorGradingCurveEffect* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RPGColorGradingCurveEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RPGColorGradingCurveEffect*))((::PBYTE)hIl2Cpp + NNCENMHNDKG_CTOR_OFFSET))(this, a1, a2);

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityActiveBenefitConfigRow; }
 
-#define RPG_GAMECORE_ACTIVITYACTIVEBENEFITCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31F680)
-#define RPG_GAMECORE_ACTIVITYACTIVEBENEFITCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D31F510)
+#define RPG_GAMECORE_ACTIVITYACTIVEBENEFITCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FC8E0)
+#define RPG_GAMECORE_ACTIVITYACTIVEBENEFITCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4FC770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityActiveBenefitConfigRow_TypeDefinitionIndex = 10898;
+	inline static constexpr unsigned int ActivityActiveBenefitConfigRow_TypeDefinitionIndex = 10914;
 
 	class ActivityActiveBenefitConfigRow : public ::System::Object
 	{

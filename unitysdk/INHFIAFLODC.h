@@ -5,10 +5,10 @@
 class OAHMMNKIOFD;
 namespace System { class String; }
 
-#define INHFIAFLODC_CLDGGINEOFD_OFFSET UNITYSDK_OFFSET(0x1CC578E0)
-#define INHFIAFLODC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC5F200)
+#define INHFIAFLODC_CLDGGINEOFD_OFFSET UNITYSDK_OFFSET(0x208D78A0)
+#define INHFIAFLODC_CTOR_OFFSET UNITYSDK_OFFSET(0x208DF1C0)
 
-inline static constexpr unsigned int INHFIAFLODC_TypeDefinitionIndex = 43839;
+inline static constexpr unsigned int INHFIAFLODC_TypeDefinitionIndex = 44914;
 
 	class INHFIAFLODC : public ::DCMGMHEFMNH
 	{

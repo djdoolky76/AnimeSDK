@@ -4,11 +4,11 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class HitDamageSplit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEALFONCGGD_CTOR_OFFSET UNITYSDK_OFFSET(0xB148540)
-#define AEALFONCGGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB148570)
-#define AEALFONCGGD_POBOCAFKFMA_OFFSET UNITYSDK_OFFSET(0xB148BA0)
+#define AEALFONCGGD_CTOR_OFFSET UNITYSDK_OFFSET(0x182B83B0)
+#define AEALFONCGGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182B83E0)
+#define AEALFONCGGD_POBOCAFKFMA_OFFSET UNITYSDK_OFFSET(0x182B8A20)
 
-inline static constexpr unsigned int AEALFONCGGD_TypeDefinitionIndex = 55103;
+inline static constexpr unsigned int AEALFONCGGD_TypeDefinitionIndex = 56280;
 
 	class AEALFONCGGD
 	{

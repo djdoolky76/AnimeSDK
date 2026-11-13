@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InitActivityTelevisionBuffInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKHMAGBGPIP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A8C080)
-#define GKHMAGBGPIP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A8C0B0)
+#define GKHMAGBGPIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8D3190)
+#define GKHMAGBGPIP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A8D31C0)
 
-inline static constexpr unsigned int GKHMAGBGPIP_TypeDefinitionIndex = 47601;
+inline static constexpr unsigned int GKHMAGBGPIP_TypeDefinitionIndex = 48630;
 
 	class GKHMAGBGPIP
 	{

@@ -4,18 +4,18 @@
 class GMIFBFGDGJK;
 namespace Entitas { class IContext; }
 
-#define HKJBGGODPLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C639410)
-#define HKJBGGODPLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C6394E0)
-#define HKJBGGODPLG_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C6395E0)
-#define HKJBGGODPLG_GET_CAKERACECORE_OFFSET UNITYSDK_OFFSET(0x1C6395D0)
+#define HKJBGGODPLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C921C10)
+#define HKJBGGODPLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C921CE0)
+#define HKJBGGODPLG_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C921DE0)
+#define HKJBGGODPLG_GET_CAKERACECORE_OFFSET UNITYSDK_OFFSET(0x1C921DD0)
 
-inline static constexpr unsigned int HKJBGGODPLG_TypeDefinitionIndex = 36828;
+inline static constexpr unsigned int HKJBGGODPLG_TypeDefinitionIndex = 37756;
 
 	class HKJBGGODPLG : public ::System::Object
 	{
 	public:
-		::GMIFBFGDGJK* _cakeRaceCore_k__BackingField; // 0x10
-		::Il2CppArray<::Entitas::IContext*>* _allContexts_k__BackingField; // 0x18
+		::Il2CppArray<::Entitas::IContext*>* _allContexts_k__BackingField; // 0x10
+		::GMIFBFGDGJK* _cakeRaceCore_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HKJBGGODPLG_CTOR_OFFSET))(this);

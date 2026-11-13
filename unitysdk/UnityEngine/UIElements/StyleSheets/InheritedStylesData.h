@@ -8,15 +8,15 @@
 namespace System { class Object; }
 namespace UnityEngine::UIElements::StyleSheets { class InheritedStylesData; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F493B50)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4935B0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F4939B0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F493850)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F493A30)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD6C90)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD66F0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1EFD6AF0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFD6990)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFD6B70)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int InheritedStylesData_TypeDefinitionIndex = 6010;
+	inline static constexpr unsigned int InheritedStylesData_TypeDefinitionIndex = 6018;
 
 	class InheritedStylesData : public ::System::Object
 	{
@@ -30,7 +30,7 @@ namespace UnityEngine::UIElements::StyleSheets
 		::UnityEngine::UIElements::StyleInt whiteSpace; // 0x74
 		static ::UnityEngine::UIElements::StyleSheets::InheritedStylesData** StaticGet_none()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::InheritedStylesData**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "InheritedStylesData")->GetStaticField(0x2E470);
+			return (::UnityEngine::UIElements::StyleSheets::InheritedStylesData**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "InheritedStylesData")->GetStaticField(0x1BDA0);
 		}
 
 		::System::Void _ctor()

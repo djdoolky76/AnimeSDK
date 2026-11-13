@@ -7,13 +7,13 @@ namespace RPG::Client { class RoadRashGameAbility_ReleaseCharging; }
 namespace RPG::Client { class RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FE780)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2FE790)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FE750)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CE130)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7CE140)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7CE100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbility_ReleaseCharging_TypeDefinitionIndex = 10286;
+	inline static constexpr unsigned int RoadRashGameAbility_ReleaseCharging_TypeDefinitionIndex = 10296;
 
 	class RoadRashGameAbility_ReleaseCharging : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{

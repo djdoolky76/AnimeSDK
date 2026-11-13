@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PropInteractOverrideData01; }
 namespace RPG::GameCore { class StartPropInteractMode; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STARTPROPINTERACTMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF0270)
-#define RPG_GAMECORE_STARTPROPINTERACTMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF02A0)
-#define RPG_GAMECORE_STARTPROPINTERACTMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF0220)
+#define RPG_GAMECORE_STARTPROPINTERACTMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C31B0)
+#define RPG_GAMECORE_STARTPROPINTERACTMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3C31E0)
+#define RPG_GAMECORE_STARTPROPINTERACTMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C3160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartPropInteractMode_TypeDefinitionIndex = 20387;
+	inline static constexpr unsigned int StartPropInteractMode_TypeDefinitionIndex = 20722;
 
 	class StartPropInteractMode : public ::RPG::GameCore::TaskConfig
 	{

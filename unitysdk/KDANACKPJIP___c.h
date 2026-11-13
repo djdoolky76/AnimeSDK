@@ -4,18 +4,18 @@
 class KDANACKPJIP;
 namespace System { class Object; }
 
-#define KDANACKPJIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7CFBA0)
-#define KDANACKPJIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CFBD0)
-#define KDANACKPJIP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7CFBE0)
+#define KDANACKPJIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203C6280)
+#define KDANACKPJIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203C62B0)
+#define KDANACKPJIP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x203C62C0)
 
-inline static constexpr unsigned int KDANACKPJIP___c_TypeDefinitionIndex = 28434;
+inline static constexpr unsigned int KDANACKPJIP___c_TypeDefinitionIndex = 29024;
 
 	class KDANACKPJIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFD70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ABF0);
 		}
 
 		static ::System::Void _cctor()

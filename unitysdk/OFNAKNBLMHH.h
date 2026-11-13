@@ -5,17 +5,18 @@
 class FCOEMCEDLNL;
 class OFNAKNBLMHH;
 
-#define OFNAKNBLMHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D23D3C0)
-#define OFNAKNBLMHH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D23D3D0)
-#define OFNAKNBLMHH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D23D390)
+#define OFNAKNBLMHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E616E00)
+#define OFNAKNBLMHH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E616E10)
+#define OFNAKNBLMHH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E616DD0)
 
-inline static constexpr unsigned int OFNAKNBLMHH_TypeDefinitionIndex = 19945;
+inline static constexpr unsigned int OFNAKNBLMHH_TypeDefinitionIndex = 20274;
 
 	class OFNAKNBLMHH : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::FateRinBattleHudAreaType ANKBAKDHDJD; // 0x18
-		::System::Boolean GNDCCBNILML; // 0x1C
+		::System::Boolean GNDCCBNILML; // 0x18
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::FateRinBattleHudAreaType ANKBAKDHDJD; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFNAKNBLMHH_CTOR_OFFSET))(this);

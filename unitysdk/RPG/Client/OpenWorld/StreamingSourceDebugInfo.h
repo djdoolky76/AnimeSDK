@@ -6,15 +6,15 @@
 class APLEMBNFLAA;
 namespace System { class String; }
 
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA03CB0)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA03CA0)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_EDFJBMNKAHA_OFFSET UNITYSDK_OFFSET(0xDA037D0)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_HEJIJGENIFL_OFFSET UNITYSDK_OFFSET(0xDA03A10)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0xDA035A0)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF01C40)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF01C30)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_EDFJBMNKAHA_OFFSET UNITYSDK_OFFSET(0x1BF01760)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_HEJIJGENIFL_OFFSET UNITYSDK_OFFSET(0x1BF019A0)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0x1BF01530)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingSourceDebugInfo_TypeDefinitionIndex = 73943;
+	inline static constexpr unsigned int StreamingSourceDebugInfo_TypeDefinitionIndex = 76079;
 
 	class StreamingSourceDebugInfo : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,12 +27,12 @@ namespace RPG::Client::OpenWorld
 		::UnityEngine::Vector3 _AttachPosition; // 0x38
 		static ::Il2CppArray<::System::Int32>** StaticGet_DIIOBHMCNMN()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client.OpenWorld", "StreamingSourceDebugInfo")->GetStaticField(0xD8D0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client.OpenWorld", "StreamingSourceDebugInfo")->GetStaticField(0x1EC20);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_MMDBIBADGPK()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "StreamingSourceDebugInfo")->GetStaticField(0xD8D8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "StreamingSourceDebugInfo")->GetStaticField(0x1EC28);
 		}
 
 		::System::Void _ctor()

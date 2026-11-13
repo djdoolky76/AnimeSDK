@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int VolumeParameter_1_TypeDefinitionIndex = 74002;
+	inline static constexpr unsigned int VolumeParameter_1_TypeDefinitionIndex = 76138;
 
 	template <typename T>
 	class VolumeParameter_1 : public ::MHBIHCBKKMB

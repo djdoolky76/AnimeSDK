@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMInfo_TypeDefinitionIndex = 7566;
+	inline static constexpr unsigned int APMInfo_TypeDefinitionIndex = 7575;
 
 	class APMInfo : public ::System::Object
 	{

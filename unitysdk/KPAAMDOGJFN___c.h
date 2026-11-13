@@ -7,29 +7,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define KPAAMDOGJFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5A0D40)
-#define KPAAMDOGJFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB5A0D70)
-#define KPAAMDOGJFN___C___INITONESIDEPASSPROP_B__5_0_OFFSET UNITYSDK_OFFSET(0xB5A0D80)
-#define KPAAMDOGJFN___C___INITONESIDEPASSPROP_B__5_1_OFFSET UNITYSDK_OFFSET(0xB5A0DB0)
+#define KPAAMDOGJFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19111100)
+#define KPAAMDOGJFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19111130)
+#define KPAAMDOGJFN___C___INITONESIDEPASSPROP_B__5_0_OFFSET UNITYSDK_OFFSET(0x19111140)
+#define KPAAMDOGJFN___C___INITONESIDEPASSPROP_B__5_1_OFFSET UNITYSDK_OFFSET(0x19111170)
 
-inline static constexpr unsigned int KPAAMDOGJFN___c_TypeDefinitionIndex = 77133;
+inline static constexpr unsigned int KPAAMDOGJFN___c_TypeDefinitionIndex = 79467;
 
 	class KPAAMDOGJFN___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_3<::KPAAMDOGJFN*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__5_0()
 		{
-			return (::System::Action_3<::KPAAMDOGJFN*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60640);
+			return (::System::Action_3<::KPAAMDOGJFN*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A720);
 		}
 
 		static ::System::Action_3<::KPAAMDOGJFN*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__5_1()
 		{
-			return (::System::Action_3<::KPAAMDOGJFN*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60648);
+			return (::System::Action_3<::KPAAMDOGJFN*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A728);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60650);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A730);
 		}
 
 		static ::System::Void _cctor()

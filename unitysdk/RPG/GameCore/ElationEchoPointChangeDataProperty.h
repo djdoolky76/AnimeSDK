@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationEchoPointChangeDataProperty_TypeDefinitionIndex = 24657;
+	inline static constexpr unsigned int ElationEchoPointChangeDataProperty_TypeDefinitionIndex = 25129;
 
 	enum class ElationEchoPointChangeDataProperty : ::System::Int32
 	{

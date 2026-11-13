@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CNHJODGMHPN_CustomDataChannel_TypeDefinitionIndex = 70632;
+inline static constexpr unsigned int CNHJODGMHPN_CustomDataChannel_TypeDefinitionIndex = 72609;
 
 	enum class CNHJODGMHPN_CustomDataChannel : ::System::Int32
 	{

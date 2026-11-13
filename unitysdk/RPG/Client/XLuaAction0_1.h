@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int XLuaAction0_1_TypeDefinitionIndex = 59403;
+	inline static constexpr unsigned int XLuaAction0_1_TypeDefinitionIndex = 60680;
 
 	template <typename T>
 	class XLuaAction0_1 : public ::System::MulticastDelegate

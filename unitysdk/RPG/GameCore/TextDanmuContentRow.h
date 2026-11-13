@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TextDanmuContentRow; }
 
-#define RPG_GAMECORE_TEXTDANMUCONTENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB53930)
-#define RPG_GAMECORE_TEXTDANMUCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB537B0)
+#define RPG_GAMECORE_TEXTDANMUCONTENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C8590)
+#define RPG_GAMECORE_TEXTDANMUCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5C8430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextDanmuContentRow_TypeDefinitionIndex = 15190;
+	inline static constexpr unsigned int TextDanmuContentRow_TypeDefinitionIndex = 15346;
 
 	class TextDanmuContentRow : public ::System::Object
 	{

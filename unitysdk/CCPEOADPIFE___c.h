@@ -5,23 +5,23 @@ namespace RPG::GameCore { class PlanetFesAnimComposite; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CCPEOADPIFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC750C50)
-#define CCPEOADPIFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC750C90)
-#define CCPEOADPIFE___C___GETRANDOMANIMCOMPOSITE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC750CA0)
+#define CCPEOADPIFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1739B900)
+#define CCPEOADPIFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1739B940)
+#define CCPEOADPIFE___C___GETRANDOMANIMCOMPOSITE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1739B950)
 
-inline static constexpr unsigned int CCPEOADPIFE___c_TypeDefinitionIndex = 58261;
+inline static constexpr unsigned int CCPEOADPIFE___c_TypeDefinitionIndex = 59517;
 
 	class CCPEOADPIFE___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16A70);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::PlanetFesAnimComposite*, ::System::Int32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::PlanetFesAnimComposite*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16A78);
+			return (::System::Func_2<::RPG::GameCore::PlanetFesAnimComposite*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58FD0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58FD8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverridePerformanceEndCrack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBBJIKDLIFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15689570)
-#define FBBJIKDLIFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156895A0)
+#define FBBJIKDLIFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA41E60)
+#define FBBJIKDLIFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BA41E90)
 
-inline static constexpr unsigned int FBBJIKDLIFH_TypeDefinitionIndex = 53052;
+inline static constexpr unsigned int FBBJIKDLIFH_TypeDefinitionIndex = 54212;
 
 	class FBBJIKDLIFH
 	{

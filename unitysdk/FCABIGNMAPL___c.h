@@ -4,18 +4,18 @@
 class FCABIGNMAPL;
 namespace System { class Object; }
 
-#define FCABIGNMAPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E30FE80)
-#define FCABIGNMAPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E30FEC0)
-#define FCABIGNMAPL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E30FED0)
+#define FCABIGNMAPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F89D0E0)
+#define FCABIGNMAPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F89D120)
+#define FCABIGNMAPL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F89D130)
 
-inline static constexpr unsigned int FCABIGNMAPL___c_TypeDefinitionIndex = 29311;
+inline static constexpr unsigned int FCABIGNMAPL___c_TypeDefinitionIndex = 30002;
 
 	class FCABIGNMAPL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EFD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42640);
 		}
 
 		static ::System::Void _cctor()

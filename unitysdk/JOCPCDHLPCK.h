@@ -4,10 +4,10 @@
 class BABNOKHOBCF;
 class MNCOPNHONHO;
 
-#define JOCPCDHLPCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB298590)
-#define JOCPCDHLPCK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB2985A0)
+#define JOCPCDHLPCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9C10)
+#define JOCPCDHLPCK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4D9C20)
 
-inline static constexpr unsigned int JOCPCDHLPCK_TypeDefinitionIndex = 76768;
+inline static constexpr unsigned int JOCPCDHLPCK_TypeDefinitionIndex = 79101;
 
 	class JOCPCDHLPCK : public ::System::Object
 	{

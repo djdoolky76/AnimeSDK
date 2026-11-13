@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchCaster; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KCFPGFDHIEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB32EBB0)
-#define KCFPGFDHIEO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB32EC00)
+#define KCFPGFDHIEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A481D90)
+#define KCFPGFDHIEO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A481DE0)
 
-inline static constexpr unsigned int KCFPGFDHIEO_TypeDefinitionIndex = 59207;
+inline static constexpr unsigned int KCFPGFDHIEO_TypeDefinitionIndex = 60484;
 
 	class KCFPGFDHIEO
 	{

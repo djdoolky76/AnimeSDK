@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudDragBrain_DragIntent_TypeDefinitionIndex = 80899;
+	inline static constexpr unsigned int FateRinBattleHudDragBrain_DragIntent_TypeDefinitionIndex = 83679;
 
 	enum class FateRinBattleHudDragBrain_DragIntent : ::System::Int32
 	{

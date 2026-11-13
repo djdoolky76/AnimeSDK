@@ -4,18 +4,18 @@
 class LOOPILHHNFD;
 namespace System { class Object; }
 
-#define LOOPILHHNFD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E999B20)
-#define LOOPILHHNFD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E999B60)
-#define LOOPILHHNFD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E999B70)
+#define LOOPILHHNFD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200DD310)
+#define LOOPILHHNFD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200DD350)
+#define LOOPILHHNFD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x200DD360)
 
-inline static constexpr unsigned int LOOPILHHNFD___c_TypeDefinitionIndex = 28095;
+inline static constexpr unsigned int LOOPILHHNFD___c_TypeDefinitionIndex = 28685;
 
 	class LOOPILHHNFD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43560);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45AF0);
 		}
 
 		static ::System::Void _cctor()

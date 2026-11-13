@@ -3,10 +3,10 @@
 #include "unitysdk/MLKDDLHNNHH.h"
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define KNOBILGOMNE_CTOR_OFFSET UNITYSDK_OFFSET(0xB583C20)
-#define KNOBILGOMNE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB583BB0)
+#define KNOBILGOMNE_CTOR_OFFSET UNITYSDK_OFFSET(0x18FB0990)
+#define KNOBILGOMNE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x18FB0920)
 
-inline static constexpr unsigned int KNOBILGOMNE_TypeDefinitionIndex = 76249;
+inline static constexpr unsigned int KNOBILGOMNE_TypeDefinitionIndex = 78580;
 
 	class KNOBILGOMNE : public ::MLKDDLHNNHH
 	{

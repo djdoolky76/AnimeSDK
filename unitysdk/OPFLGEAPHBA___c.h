@@ -4,18 +4,18 @@
 class OPFLGEAPHBA;
 namespace System { class Object; }
 
-#define OPFLGEAPHBA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEB2C70)
-#define OPFLGEAPHBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB2CA0)
-#define OPFLGEAPHBA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DEB2CB0)
+#define OPFLGEAPHBA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20366260)
+#define OPFLGEAPHBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20366290)
+#define OPFLGEAPHBA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x203662A0)
 
-inline static constexpr unsigned int OPFLGEAPHBA___c_TypeDefinitionIndex = 27008;
+inline static constexpr unsigned int OPFLGEAPHBA___c_TypeDefinitionIndex = 27539;
 
 	class OPFLGEAPHBA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AE30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A640);
 		}
 
 		static ::System::Void _cctor()

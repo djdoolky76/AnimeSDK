@@ -4,18 +4,18 @@
 class JMFPICAMLIG;
 namespace System { class Object; }
 
-#define JMFPICAMLIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E75E140)
-#define JMFPICAMLIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E75E180)
-#define JMFPICAMLIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E75E190)
+#define JMFPICAMLIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE86000)
+#define JMFPICAMLIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE86040)
+#define JMFPICAMLIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE86050)
 
-inline static constexpr unsigned int JMFPICAMLIG___c_TypeDefinitionIndex = 25743;
+inline static constexpr unsigned int JMFPICAMLIG___c_TypeDefinitionIndex = 26240;
 
 	class JMFPICAMLIG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65050);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66600);
 		}
 
 		static ::System::Void _cctor()

@@ -4,21 +4,21 @@
 class OONKKNLPGCF;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define EHHNHIHFGEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1549CB90)
-#define EHHNHIHFGEL_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0x1549CB50)
-#define EHHNHIHFGEL_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1549CB60)
-#define EHHNHIHFGEL_GET_MINEXP_OFFSET UNITYSDK_OFFSET(0x1549CB70)
-#define EHHNHIHFGEL_GET_UNLOCKCHIPIDLIST_OFFSET UNITYSDK_OFFSET(0x1549CB80)
+#define EHHNHIHFGEL_CTOR_OFFSET UNITYSDK_OFFSET(0x18BCD5E0)
+#define EHHNHIHFGEL_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0x18BCD5A0)
+#define EHHNHIHFGEL_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x18BCD5B0)
+#define EHHNHIHFGEL_GET_MINEXP_OFFSET UNITYSDK_OFFSET(0x18BCD5C0)
+#define EHHNHIHFGEL_GET_UNLOCKCHIPIDLIST_OFFSET UNITYSDK_OFFSET(0x18BCD5D0)
 
-inline static constexpr unsigned int EHHNHIHFGEL_TypeDefinitionIndex = 80102;
+inline static constexpr unsigned int EHHNHIHFGEL_TypeDefinitionIndex = 82879;
 
 	class EHHNHIHFGEL : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _UnlockChipIDList_k__BackingField; // 0x10
-		::System::Int32 _CacheKey_k__BackingField; // 0x18
-		::System::UInt32 _Level_k__BackingField; // 0x1C
-		::System::UInt32 _MinExp_k__BackingField; // 0x20
+		::System::UInt32 _MinExp_k__BackingField; // 0x18
+		::System::Int32 _CacheKey_k__BackingField; // 0x1C
+		::System::UInt32 _Level_k__BackingField; // 0x20
 		::System::Void _ctor(::OONKKNLPGCF* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::OONKKNLPGCF*))((::PBYTE)hIl2Cpp + EHHNHIHFGEL_CTOR_OFFSET))(this, a1);

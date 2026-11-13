@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/PhysicsCollider2DConfig.h"
 #include "unitysdk/RPG/MVector2.h"
 
-#define ILANFHMPMOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B3610)
+#define ILANFHMPMOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C11DEF0)
 
-inline static constexpr unsigned int ILANFHMPMOP_TypeDefinitionIndex = 36569;
+inline static constexpr unsigned int ILANFHMPMOP_TypeDefinitionIndex = 37497;
 
 	class ILANFHMPMOP : public ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DConfig
 	{

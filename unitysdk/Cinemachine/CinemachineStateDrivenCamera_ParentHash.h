@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CINEMACHINE_CINEMACHINESTATEDRIVENCAMERA_PARENTHASH_CTOR_OFFSET UNITYSDK_OFFSET(0x11150)
+#define CINEMACHINE_CINEMACHINESTATEDRIVENCAMERA_PARENTHASH_CTOR_OFFSET UNITYSDK_OFFSET(0x650320)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStateDrivenCamera_ParentHash_TypeDefinitionIndex = 39752;
+	inline static constexpr unsigned int CinemachineStateDrivenCamera_ParentHash_TypeDefinitionIndex = 40681;
 
 	struct alignas(4) CinemachineStateDrivenCamera_ParentHash
 	{

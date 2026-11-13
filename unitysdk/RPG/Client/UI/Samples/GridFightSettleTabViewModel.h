@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-#define RPG_CLIENT_UI_SAMPLES_GRIDFIGHTSETTLETABVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE405BE0)
+#define RPG_CLIENT_UI_SAMPLES_GRIDFIGHTSETTLETABVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBC7CF0)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int GridFightSettleTabViewModel_TypeDefinitionIndex = 73454;
+	inline static constexpr unsigned int GridFightSettleTabViewModel_TypeDefinitionIndex = 75577;
 
 	class GridFightSettleTabViewModel : public ::Sofa::BaseViewModel
 	{

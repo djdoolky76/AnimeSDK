@@ -8,13 +8,13 @@ namespace RPG::GameCore { class FiveDimLightningConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D699650)
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D699670)
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D699610)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8669B0)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8669D0)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E866970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLightningConfig_TypeDefinitionIndex = 18603;
+	inline static constexpr unsigned int FiveDimLightningConfig_TypeDefinitionIndex = 18763;
 
 	class FiveDimLightningConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

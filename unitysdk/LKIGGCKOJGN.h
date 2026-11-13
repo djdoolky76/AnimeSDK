@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define LKIGGCKOJGN_INBMMHFFHEC_OFFSET UNITYSDK_OFFSET(0xB748CF0)
+#define LKIGGCKOJGN_INBMMHFFHEC_OFFSET UNITYSDK_OFFSET(0x18CF2270)
 
-inline static constexpr unsigned int LKIGGCKOJGN_TypeDefinitionIndex = 60115;
+inline static constexpr unsigned int LKIGGCKOJGN_TypeDefinitionIndex = 61399;
 
 	class LKIGGCKOJGN : public ::System::Object
 	{

@@ -6,12 +6,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EGGLKGAEBAN_CTOR_OFFSET UNITYSDK_OFFSET(0x145154F0)
-#define EGGLKGAEBAN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14515750)
-#define EGGLKGAEBAN_FILTER_OFFSET UNITYSDK_OFFSET(0x14515610)
-#define EGGLKGAEBAN_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x14515540)
+#define EGGLKGAEBAN_CTOR_OFFSET UNITYSDK_OFFSET(0x17C10BE0)
+#define EGGLKGAEBAN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17C10E40)
+#define EGGLKGAEBAN_FILTER_OFFSET UNITYSDK_OFFSET(0x17C10D00)
+#define EGGLKGAEBAN_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x17C10C30)
 
-inline static constexpr unsigned int EGGLKGAEBAN_TypeDefinitionIndex = 75778;
+inline static constexpr unsigned int EGGLKGAEBAN_TypeDefinitionIndex = 78105;
 
 	class EGGLKGAEBAN
 	{

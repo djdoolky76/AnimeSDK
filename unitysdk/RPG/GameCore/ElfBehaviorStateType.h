@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfBehaviorStateType_TypeDefinitionIndex = 10533;
+	inline static constexpr unsigned int ElfBehaviorStateType_TypeDefinitionIndex = 10544;
 
 	enum class ElfBehaviorStateType : ::System::Int32
 	{

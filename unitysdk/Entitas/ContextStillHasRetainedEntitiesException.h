@@ -4,11 +4,11 @@
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x16749FD0)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x20851270)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException_TypeDefinitionIndex = 9993;
+	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException_TypeDefinitionIndex = 10001;
 
 	class ContextStillHasRetainedEntitiesException : public ::Entitas::EntitasException
 	{

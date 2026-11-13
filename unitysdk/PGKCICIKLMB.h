@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PGKCICIKLMB_TypeDefinitionIndex = 80206;
+inline static constexpr unsigned int PGKCICIKLMB_TypeDefinitionIndex = 82983;
 
 	class PGKCICIKLMB
 	{

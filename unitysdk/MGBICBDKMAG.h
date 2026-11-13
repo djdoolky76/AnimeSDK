@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SyncBattleEventPropertyValues; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGBICBDKMAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB90ED20)
-#define MGBICBDKMAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB90ED50)
+#define MGBICBDKMAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B333CB0)
+#define MGBICBDKMAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B333CE0)
 
-inline static constexpr unsigned int MGBICBDKMAG_TypeDefinitionIndex = 58760;
+inline static constexpr unsigned int MGBICBDKMAG_TypeDefinitionIndex = 60028;
 
 	class MGBICBDKMAG
 	{

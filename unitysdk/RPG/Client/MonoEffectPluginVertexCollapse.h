@@ -8,19 +8,19 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_CBKPMHCOCMH_OFFSET UNITYSDK_OFFSET(0xD806660)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD806850)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_CTOR_OFFSET UNITYSDK_OFFSET(0xD806800)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_GBAHDJFPPBC_OFFSET UNITYSDK_OFFSET(0xD8066D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD805F00)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_IJICJDNHKHN_OFFSET UNITYSDK_OFFSET(0xD805C30)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0xD805F80)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_KEPMMNEBKCD_OFFSET UNITYSDK_OFFSET(0xD805C80)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_MGNJAGHDOFI_OFFSET UNITYSDK_OFFSET(0xD806710)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_CBKPMHCOCMH_OFFSET UNITYSDK_OFFSET(0x1ADF01B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADF03B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADF0360)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_GBAHDJFPPBC_OFFSET UNITYSDK_OFFSET(0x1ADF0220)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0x1ADEFA50)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_IJICJDNHKHN_OFFSET UNITYSDK_OFFSET(0x1ADEF780)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0x1ADEFAD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_KEPMMNEBKCD_OFFSET UNITYSDK_OFFSET(0x1ADEF7D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_MGNJAGHDOFI_OFFSET UNITYSDK_OFFSET(0x1ADF0260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginVertexCollapse_TypeDefinitionIndex = 70016;
+	inline static constexpr unsigned int MonoEffectPluginVertexCollapse_TypeDefinitionIndex = 71980;
 
 	class MonoEffectPluginVertexCollapse : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
@@ -44,64 +44,64 @@ namespace RPG::Client
 		::System::Boolean CalculateBoundsCenter; // 0x1D8
 		::System::Byte _padding1[0x7];
 		::Il2CppArray<::UnityEngine::Renderer*>* DCKEKFGKLAI; // 0x1E0
-		static ::System::Int32* StaticGet_FFPFIACIHCO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D30);
-		}
-
-		static ::System::Int32* StaticGet_PLGMEIIGODB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D34);
-		}
-
-		static ::System::Int32* StaticGet_POFIFNFHOJL()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D38);
-		}
-
 		static ::System::Int32* StaticGet_CKCDNANPOLH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D3C);
-		}
-
-		static ::System::Int32* StaticGet_APGBOCGHFEM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D40);
-		}
-
-		static ::System::Int32* StaticGet_MINBIGDKJLM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D44);
-		}
-
-		static ::System::Int32* StaticGet_EBMNHHLMBAO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D48);
-		}
-
-		static ::System::Int32* StaticGet_CEFHFLAELPM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D4C);
-		}
-
-		static ::System::Int32* StaticGet_HCHELLNOELG()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D50);
-		}
-
-		static ::System::Int32* StaticGet_IEHLNCMDNEK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D54);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15420);
 		}
 
 		static ::System::Int32* StaticGet_OJGJABCDGOM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D58);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15424);
+		}
+
+		static ::System::Int32* StaticGet_EBMNHHLMBAO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15428);
+		}
+
+		static ::System::Int32* StaticGet_HCHELLNOELG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x1542C);
+		}
+
+		static ::System::Int32* StaticGet_APGBOCGHFEM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15430);
+		}
+
+		static ::System::Int32* StaticGet_POFIFNFHOJL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15434);
+		}
+
+		static ::System::Int32* StaticGet_MINBIGDKJLM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15438);
+		}
+
+		static ::System::Int32* StaticGet_CEFHFLAELPM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x1543C);
+		}
+
+		static ::System::Int32* StaticGet_PLGMEIIGODB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15440);
+		}
+
+		static ::System::Int32* StaticGet_IEHLNCMDNEK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15444);
+		}
+
+		static ::System::Int32* StaticGet_FFPFIACIHCO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x15448);
 		}
 
 		static ::System::Int32* StaticGet_OJOIHDCPFDJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x14D5C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginVertexCollapse")->GetStaticField(0x1544C);
 		}
 
 		::System::Void _ctor()

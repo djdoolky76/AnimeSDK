@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TutorialTriggerParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALTRIGGERPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC41100)
-#define RPG_GAMECORE_TUTORIALTRIGGERPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC40FF0)
+#define RPG_GAMECORE_TUTORIALTRIGGERPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2CC80)
+#define RPG_GAMECORE_TUTORIALTRIGGERPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED2CB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialTriggerParam_TypeDefinitionIndex = 15379;
+	inline static constexpr unsigned int TutorialTriggerParam_TypeDefinitionIndex = 15535;
 
 	class TutorialTriggerParam : public ::System::Object
 	{

@@ -15,73 +15,73 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC65010)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DC64F80)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DC64D30)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1DC64B20)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DC64C40)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DC64CC0)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DC63B20)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DC63B60)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1DC63F00)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1DC64BD0)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1DC641A0)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DC63D10)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC64650)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DC646A0)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DC645F0)
-#define RPG_GAMECORE_VOICECONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DC63EA0)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED50580)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1ED504F0)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1ED502A0)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1ED50090)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1ED501B0)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1ED50230)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1ED4F090)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1ED4F0D0)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1ED4F470)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1ED50140)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1ED4F710)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1ED4F280)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED4FBC0)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1ED4FC10)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1ED4FB60)
+#define RPG_GAMECORE_VOICECONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1ED4F410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VoiceConfigExcelTable_TypeDefinitionIndex = 15424;
+	inline static constexpr unsigned int VoiceConfigExcelTable_TypeDefinitionIndex = 15581;
 
 	class VoiceConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2C1A0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::VoiceConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::VoiceConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2C1A8);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2C1B0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2D420);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2D428);
 		}
 
 		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::VoiceConfigRow*>** StaticGet_LRUCache()
 		{
-			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::VoiceConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2C1B8);
-		}
-
-		static ::System::String** StaticGet_srcFileName()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2C1C0);
+			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::VoiceConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2D430);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2C1C8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2D438);
+		}
+
+		static ::System::String** StaticGet_srcFileName()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2D440);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::VoiceConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::VoiceConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2D448);
 		}
 
 		static ::OFLIAAOJPJC** StaticGet_headers()
 		{
-			return (::OFLIAAOJPJC**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2C1D0);
-		}
-
-		static ::System::Boolean* StaticGet_IsLoadReverseMap()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x9460);
+			return (::OFLIAAOJPJC**)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x2D450);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x9461);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x90A0);
+		}
+
+		static ::System::Boolean* StaticGet_IsLoadReverseMap()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "VoiceConfigExcelTable")->GetStaticField(0x90A1);
 		}
 
 		static ::System::Void _cctor()

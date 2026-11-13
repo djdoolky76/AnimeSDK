@@ -5,18 +5,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_SILVERWOLFUNLOCKMISSIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0BED00)
+#define RPG_CLIENT_SILVERWOLFUNLOCKMISSIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3FF260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SilverWolfUnlockMissionData_TypeDefinitionIndex = 67956;
+	inline static constexpr unsigned int SilverWolfUnlockMissionData_TypeDefinitionIndex = 69902;
 
 	class SilverWolfUnlockMissionData : public ::System::Object
 	{
 	public:
 		::System::Object* Param; // 0x10
-		::RPG::Client::TextID MissionName; // 0x18
-		::RPG::GameCore::MainMissionType MissionType; // 0x28
+		::RPG::GameCore::MainMissionType MissionType; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID MissionName; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SILVERWOLFUNLOCKMISSIONDATA_CTOR_OFFSET))(this);

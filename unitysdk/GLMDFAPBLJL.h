@@ -3,9 +3,9 @@
 #include "unitysdk/ICBHGLKDANP.h"
 #include "unitysdk/System/Object.h"
 
-#define GLMDFAPBLJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA83810)
+#define GLMDFAPBLJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA89920)
 
-inline static constexpr unsigned int GLMDFAPBLJL_TypeDefinitionIndex = 42269;
+inline static constexpr unsigned int GLMDFAPBLJL_TypeDefinitionIndex = 43244;
 
 	class GLMDFAPBLJL : public ::System::Object
 	{

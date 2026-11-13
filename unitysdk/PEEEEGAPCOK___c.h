@@ -4,18 +4,18 @@
 class PEEEEGAPCOK;
 namespace System { class Object; }
 
-#define PEEEEGAPCOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEE86F0)
-#define PEEEEGAPCOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE8730)
-#define PEEEEGAPCOK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DEE8740)
+#define PEEEEGAPCOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20668340)
+#define PEEEEGAPCOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20668380)
+#define PEEEEGAPCOK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x20668390)
 
-inline static constexpr unsigned int PEEEEGAPCOK___c_TypeDefinitionIndex = 25893;
+inline static constexpr unsigned int PEEEEGAPCOK___c_TypeDefinitionIndex = 26390;
 
 	class PEEEEGAPCOK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30990);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x325B0);
 		}
 
 		static ::System::Void _cctor()

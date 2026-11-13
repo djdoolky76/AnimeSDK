@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_MOVEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD0C0900)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_MOVEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7162F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridBasedMovement_MoveEvent_TypeDefinitionIndex = 72535;
+	inline static constexpr unsigned int GridBasedMovement_MoveEvent_TypeDefinitionIndex = 74614;
 
 	class GridBasedMovement_MoveEvent
 	{

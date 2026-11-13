@@ -12,18 +12,18 @@ namespace RPG::GameCore { class RtModifierConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTMODIFIERCONFIG_AHMHJEBHFLE_OFFSET UNITYSDK_OFFSET(0x1DA348C0)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA34100)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_GKOKGHOCPOA_1_OFFSET UNITYSDK_OFFSET(0x1DA347B0)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_GKOKGHOCPOA_OFFSET UNITYSDK_OFFSET(0x1DA34710)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA34140)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_OHHMDHPILFB_OFFSET UNITYSDK_OFFSET(0x1DA34970)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA340A0)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_PDOJECDDPAA_OFFSET UNITYSDK_OFFSET(0x1DA34910)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_AHMHJEBHFLE_OFFSET UNITYSDK_OFFSET(0x1EC798D0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC79110)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_GKOKGHOCPOA_1_OFFSET UNITYSDK_OFFSET(0x1EC797C0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_GKOKGHOCPOA_OFFSET UNITYSDK_OFFSET(0x1EC79720)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC79150)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_OHHMDHPILFB_OFFSET UNITYSDK_OFFSET(0x1EC79980)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC790B0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_PDOJECDDPAA_OFFSET UNITYSDK_OFFSET(0x1EC79920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtModifierConfig_TypeDefinitionIndex = 17658;
+	inline static constexpr unsigned int RtModifierConfig_TypeDefinitionIndex = 17827;
 
 	class RtModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
@@ -40,12 +40,12 @@ namespace RPG::GameCore
 		::System::Boolean IsGlobalModifier; // 0x78
 		static ::Il2CppArray<::System::String*>** StaticGet__RtModifierEventPriorityNameList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RtModifierConfig")->GetStaticField(0x70120);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RtModifierConfig")->GetStaticField(0x73DE0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet__RtModifierEventNameList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RtModifierConfig")->GetStaticField(0x70128);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RtModifierConfig")->GetStaticField(0x73DE8);
 		}
 
 		::System::Void _ctor()

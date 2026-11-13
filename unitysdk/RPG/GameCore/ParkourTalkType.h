@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourTalkType_TypeDefinitionIndex = 12094;
+	inline static constexpr unsigned int ParkourTalkType_TypeDefinitionIndex = 12151;
 
 	enum class ParkourTalkType : ::System::Int32
 	{

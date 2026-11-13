@@ -4,12 +4,12 @@
 namespace RPG::Client { class MonoUIPivotContainmentDetect; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MONOUIPIVOTCONTAINMENTDETECT___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD874280)
-#define RPG_CLIENT_MONOUIPIVOTCONTAINMENTDETECT___C__DISPLAYCLASS17_0__SUBSCRIBEISCONTAINEDCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0xD8744C0)
+#define RPG_CLIENT_MONOUIPIVOTCONTAINMENTDETECT___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D294530)
+#define RPG_CLIENT_MONOUIPIVOTCONTAINMENTDETECT___C__DISPLAYCLASS17_0__SUBSCRIBEISCONTAINEDCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x1D294770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIPivotContainmentDetect___c__DisplayClass17_0_TypeDefinitionIndex = 72616;
+	inline static constexpr unsigned int MonoUIPivotContainmentDetect___c__DisplayClass17_0_TypeDefinitionIndex = 74695;
 
 	class MonoUIPivotContainmentDetect___c__DisplayClass17_0 : public ::System::Object
 	{

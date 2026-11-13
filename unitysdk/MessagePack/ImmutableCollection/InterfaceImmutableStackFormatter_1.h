@@ -3,7 +3,7 @@
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int InterfaceImmutableStackFormatter_1_TypeDefinitionIndex = 7366;
+	inline static constexpr unsigned int InterfaceImmutableStackFormatter_1_TypeDefinitionIndex = 7377;
 
 	template <typename T>
 	class InterfaceImmutableStackFormatter_1

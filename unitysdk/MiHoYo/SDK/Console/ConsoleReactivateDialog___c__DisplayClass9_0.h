@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Console { class ConsoleReactivateDialog; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEREACTIVATEDIALOG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6DC70)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREACTIVATEDIALOG___C__DISPLAYCLASS9_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BC6E850)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREACTIVATEDIALOG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x185F35A0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREACTIVATEDIALOG___C__DISPLAYCLASS9_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x185F4180)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleReactivateDialog___c__DisplayClass9_0_TypeDefinitionIndex = 9007;
+	inline static constexpr unsigned int ConsoleReactivateDialog___c__DisplayClass9_0_TypeDefinitionIndex = 9016;
 
 	class ConsoleReactivateDialog___c__DisplayClass9_0 : public ::System::Object
 	{

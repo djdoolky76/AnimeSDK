@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int StateInfoIndex_TypeDefinitionIndex = 5697;
+	inline static constexpr unsigned int StateInfoIndex_TypeDefinitionIndex = 5703;
 
 	enum class StateInfoIndex : ::System::Int32
 	{

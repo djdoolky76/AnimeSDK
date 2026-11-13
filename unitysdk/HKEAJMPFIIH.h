@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/BoolEx.h"
 #include "unitysdk/System/Object.h"
 
-#define HKEAJMPFIIH_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x15D33AA0)
+#define HKEAJMPFIIH_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x19879D80)
 
-inline static constexpr unsigned int HKEAJMPFIIH_TypeDefinitionIndex = 56335;
+inline static constexpr unsigned int HKEAJMPFIIH_TypeDefinitionIndex = 57549;
 
 	class HKEAJMPFIIH : public ::System::Object
 	{

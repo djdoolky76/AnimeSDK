@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICJOYSTICK_DRAGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE9CB0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICJOYSTICK_DRAGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x3EE95F0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimDynamicJoyStick_DragInfo_TypeDefinitionIndex = 77219;
+	inline static constexpr unsigned int FiveDimDynamicJoyStick_DragInfo_TypeDefinitionIndex = 79553;
 
 	struct alignas(4) FiveDimDynamicJoyStick_DragInfo
 	{

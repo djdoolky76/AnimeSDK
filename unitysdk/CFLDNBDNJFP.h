@@ -3,7 +3,7 @@
 #include "unitysdk/DIFEEJPHMJC.h"
 #include "unitysdk/RPG/GameCore/TargetAliasTokenType.h"
 
-inline static constexpr unsigned int CFLDNBDNJFP_TypeDefinitionIndex = 59077;
+inline static constexpr unsigned int CFLDNBDNJFP_TypeDefinitionIndex = 60352;
 
 	struct alignas(4) CFLDNBDNJFP
 	{

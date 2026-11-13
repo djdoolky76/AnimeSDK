@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ActivityElationShowCutIn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NDMHBKDLPFM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4B470)
-#define NDMHBKDLPFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB4B4A0)
+#define NDMHBKDLPFM_CTOR_OFFSET UNITYSDK_OFFSET(0x16FCA4A0)
+#define NDMHBKDLPFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FCA4D0)
 
-inline static constexpr unsigned int NDMHBKDLPFM_TypeDefinitionIndex = 56341;
+inline static constexpr unsigned int NDMHBKDLPFM_TypeDefinitionIndex = 57555;
 
 	class NDMHBKDLPFM
 	{

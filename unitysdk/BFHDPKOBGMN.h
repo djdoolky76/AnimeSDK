@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_InsertAbility; }
 
-#define BFHDPKOBGMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C589020)
-#define BFHDPKOBGMN_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C589030)
+#define BFHDPKOBGMN_CTOR_OFFSET UNITYSDK_OFFSET(0x17025160)
+#define BFHDPKOBGMN_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x17025170)
 
-inline static constexpr unsigned int BFHDPKOBGMN_TypeDefinitionIndex = 36312;
+inline static constexpr unsigned int BFHDPKOBGMN_TypeDefinitionIndex = 37240;
 
 	class BFHDPKOBGMN : public ::AJBKGPOEBFG
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvBlockRewardToast; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MIONMHDMGNH_CTOR_OFFSET UNITYSDK_OFFSET(0xB95AAC0)
-#define MIONMHDMGNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB95AAF0)
+#define MIONMHDMGNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A39BD80)
+#define MIONMHDMGNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A39BDB0)
 
-inline static constexpr unsigned int MIONMHDMGNH_TypeDefinitionIndex = 57870;
+inline static constexpr unsigned int MIONMHDMGNH_TypeDefinitionIndex = 59107;
 
 	class MIONMHDMGNH
 	{

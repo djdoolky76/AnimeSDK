@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define AAOELAHKJDG_CTOR_OFFSET UNITYSDK_OFFSET(0xB0D6C30)
+#define AAOELAHKJDG_CTOR_OFFSET UNITYSDK_OFFSET(0x18C86DB0)
 
-inline static constexpr unsigned int AAOELAHKJDG_TypeDefinitionIndex = 48042;
+inline static constexpr unsigned int AAOELAHKJDG_TypeDefinitionIndex = 49073;
 
 	class AAOELAHKJDG : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -7,30 +7,29 @@
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class FreeStyleComponent; }
 
-#define NKPNJJMCJNB_CTOR_OFFSET UNITYSDK_OFFSET(0xBC46DE0)
-#define NKPNJJMCJNB_EPJFIHHDMAK_OFFSET UNITYSDK_OFFSET(0xBC46C70)
-#define NKPNJJMCJNB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBC464B0)
-#define NKPNJJMCJNB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC46370)
-#define NKPNJJMCJNB_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBC46790)
-#define NKPNJJMCJNB_MGJLINFADJK_OFFSET UNITYSDK_OFFSET(0xBC46D00)
-#define NKPNJJMCJNB_PODJJPBKLDC_OFFSET UNITYSDK_OFFSET(0xBC46D90)
+#define NKPNJJMCJNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7CA100)
+#define NKPNJJMCJNB_EPJFIHHDMAK_OFFSET UNITYSDK_OFFSET(0x1A7C9F90)
+#define NKPNJJMCJNB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1A7C97C0)
+#define NKPNJJMCJNB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1A78AEE0)
+#define NKPNJJMCJNB_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x1A7C9AB0)
+#define NKPNJJMCJNB_MGJLINFADJK_OFFSET UNITYSDK_OFFSET(0x1A7CA020)
+#define NKPNJJMCJNB_PODJJPBKLDC_OFFSET UNITYSDK_OFFSET(0x1A7CA0B0)
 
-inline static constexpr unsigned int NKPNJJMCJNB_TypeDefinitionIndex = 56985;
+inline static constexpr unsigned int NKPNJJMCJNB_TypeDefinitionIndex = 58211;
 
 	class NKPNJJMCJNB : public ::ADKFPNMPIDD
 	{
 	public:
 		::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x28
 		::RPG::GameCore::FreeStyleComponent* KADINPKIGIB; // 0x30
-		::System::Single HDKKECHDBCN; // 0x38
-		::System::UInt32 EBJLPAFFKOM; // 0x3C
-		::System::Boolean OAPHDBCJOPJ; // 0x40
-		::System::Byte _padding0[0x3];
-		::System::Nullable_1<::UnityEngine::Vector3> HGCCAGKEONO; // 0x44
-		::System::Byte _padding1[0x8];
-		::System::Nullable_1<::UnityEngine::Quaternion> HACHBGJADBI; // 0x54
-		::System::Byte _padding2[0xC];
-		::System::Single HBDJCFFDGDD; // 0x68
+		::System::Nullable_1<::UnityEngine::Quaternion> HACHBGJADBI; // 0x38
+		::System::Byte _padding0[0xC];
+		::System::Single HBDJCFFDGDD; // 0x4C
+		::System::UInt32 EBJLPAFFKOM; // 0x50
+		::System::Boolean OAPHDBCJOPJ; // 0x54
+		::System::Byte _padding1[0x3];
+		::System::Single HDKKECHDBCN; // 0x58
+		::System::Nullable_1<::UnityEngine::Vector3> HGCCAGKEONO; // 0x5C
 		// static const ::System::Object FOJFHNENCHJ; // 0x0
 		// static const ::System::Object DGBGMMKGMHF; // 0x0
 		::System::Void _ctor()

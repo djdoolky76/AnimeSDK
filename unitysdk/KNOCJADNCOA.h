@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define KNOCJADNCOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB583C30)
+#define KNOCJADNCOA_CTOR_OFFSET UNITYSDK_OFFSET(0x18FB09A0)
 
-inline static constexpr unsigned int KNOCJADNCOA_TypeDefinitionIndex = 71982;
+inline static constexpr unsigned int KNOCJADNCOA_TypeDefinitionIndex = 74011;
 
 	class KNOCJADNCOA : public ::System::Object
 	{

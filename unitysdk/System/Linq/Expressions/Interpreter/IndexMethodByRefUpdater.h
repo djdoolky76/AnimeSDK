@@ -9,9 +9,9 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDBE710)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x1EDBEA70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EDBE730)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C46D890)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x1C46DBF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C46D8B0)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -20,10 +20,9 @@ namespace System::Linq::Expressions::Interpreter
 	class IndexMethodByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{
 	public:
-		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _obj; // 0x18
-		::System::Byte _padding0[0x10];
-		::System::Reflection::MethodInfo* _indexer; // 0x30
-		::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* _args; // 0x38
+		::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* _args; // 0x18
+		::System::Reflection::MethodInfo* _indexer; // 0x20
+		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _obj; // 0x28
 		::System::Void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> a1, ::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* a2, ::System::Reflection::MethodInfo* a3, ::System::Int32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>, ::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>*, ::System::Reflection::MethodInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_CTOR_OFFSET))(this, a1, a2, a3, a4);

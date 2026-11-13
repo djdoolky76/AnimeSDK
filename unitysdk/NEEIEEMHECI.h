@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define NEEIEEMHECI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB54F70)
+#define NEEIEEMHECI_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD4100)
 
-inline static constexpr unsigned int NEEIEEMHECI_TypeDefinitionIndex = 55514;
+inline static constexpr unsigned int NEEIEEMHECI_TypeDefinitionIndex = 56706;
 
 	class NEEIEEMHECI : public ::System::Object
 	{

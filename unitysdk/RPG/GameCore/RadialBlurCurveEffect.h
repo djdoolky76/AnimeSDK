@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RadialBlurCurveEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RADIALBLURCURVEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D938C30)
-#define RPG_GAMECORE_RADIALBLURCURVEEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D938CA0)
-#define RPG_GAMECORE_RADIALBLURCURVEEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D938BA0)
+#define RPG_GAMECORE_RADIALBLURCURVEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F222680)
+#define RPG_GAMECORE_RADIALBLURCURVEEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F2226F0)
+#define RPG_GAMECORE_RADIALBLURCURVEEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F2225F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RadialBlurCurveEffect_TypeDefinitionIndex = 20259;
+	inline static constexpr unsigned int RadialBlurCurveEffect_TypeDefinitionIndex = 20594;
 
 	class RadialBlurCurveEffect : public ::RPG::GameCore::TaskConfig
 	{

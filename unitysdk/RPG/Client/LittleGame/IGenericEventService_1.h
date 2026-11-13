@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGenericEventService_1_TypeDefinitionIndex = 42407;
+	inline static constexpr unsigned int IGenericEventService_1_TypeDefinitionIndex = 43382;
 
 	template <typename T>
 	class IGenericEventService_1

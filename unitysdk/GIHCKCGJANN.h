@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FateBattleArcherProgressReachLimit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GIHCKCGJANN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2BD00)
-#define GIHCKCGJANN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A2BD30)
+#define GIHCKCGJANN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3DBD10)
+#define GIHCKCGJANN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A3DBD40)
 
-inline static constexpr unsigned int GIHCKCGJANN_TypeDefinitionIndex = 55029;
+inline static constexpr unsigned int GIHCKCGJANN_TypeDefinitionIndex = 56205;
 
 	class GIHCKCGJANN
 	{

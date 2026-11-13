@@ -11,34 +11,35 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define IHAJEPBCCFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB48310)
-#define IHAJEPBCCFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB48790)
-#define IHAJEPBCCFP_EMAMCEEHNAH_OFFSET UNITYSDK_OFFSET(0x1CB486F0)
-#define IHAJEPBCCFP_FHCKGKJCMAA_OFFSET UNITYSDK_OFFSET(0x1CB48630)
-#define IHAJEPBCCFP_JIFPPKNBGMH_OFFSET UNITYSDK_OFFSET(0x1CB48410)
-#define IHAJEPBCCFP_MMNDFOADHLB_OFFSET UNITYSDK_OFFSET(0x1CB48570)
-#define IHAJEPBCCFP_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CB48250)
-#define IHAJEPBCCFP_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CB482B0)
+#define IHAJEPBCCFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EC35190)
+#define IHAJEPBCCFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC35610)
+#define IHAJEPBCCFP_EMAMCEEHNAH_OFFSET UNITYSDK_OFFSET(0x1EC35570)
+#define IHAJEPBCCFP_FHCKGKJCMAA_OFFSET UNITYSDK_OFFSET(0x1EC354B0)
+#define IHAJEPBCCFP_JIFPPKNBGMH_OFFSET UNITYSDK_OFFSET(0x1EC35290)
+#define IHAJEPBCCFP_MMNDFOADHLB_OFFSET UNITYSDK_OFFSET(0x1EC353F0)
+#define IHAJEPBCCFP_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1EC350D0)
+#define IHAJEPBCCFP_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1EC35130)
 
-inline static constexpr unsigned int IHAJEPBCCFP_TypeDefinitionIndex = 43556;
+inline static constexpr unsigned int IHAJEPBCCFP_TypeDefinitionIndex = 44538;
 
 	class IHAJEPBCCFP : public ::System::Object
 	{
 	public:
 		::JHHIMNANJHP MMNBDLPBJAG; // 0x10
-		::System::String* ODMGJKCAICF; // 0x38
-		::RPG::PoolList_1<::RPG::Client::LittleGame::FiveDim::SplineMoveEvent>* BBAAGLNGLAB; // 0x40
-		::System::Single HLIBNBMOCIC; // 0x48
-		::RPG::Client::LittleGame::FiveDim::SplineMoveState EOCKCIGOFMG; // 0x4C
-		::System::Single JBCFPAEELBL; // 0x50
-		::System::Single JEJEAABCFLB; // 0x54
-		::RPG::Client::LittleGame::FiveDim::SplineMoveState MEPFOEEGBEA; // 0x58
-		::RPG::Client::LittleGame::FiveDim::SplineMoveHideLineTraceReason BPJGFIHELIF; // 0x5C
-		::RPG::GameCore::FiveDimSplineMoveDirection LJDHGFECMHJ; // 0x60
-		::System::Single LBHOAPLLECN; // 0x64
-		::OOKOJKPGDDP KOLJBCGKDJP; // 0x68
-		::UnityEngine::Vector3 IPECNJCOCLC; // 0x88
-		::System::Boolean NOOJOFHAIAA; // 0x94
+		::RPG::PoolList_1<::RPG::Client::LittleGame::FiveDim::SplineMoveEvent>* BBAAGLNGLAB; // 0x38
+		::System::String* ODMGJKCAICF; // 0x40
+		::System::Single JEJEAABCFLB; // 0x48
+		::RPG::GameCore::FiveDimSplineMoveDirection LJDHGFECMHJ; // 0x4C
+		::RPG::Client::LittleGame::FiveDim::SplineMoveHideLineTraceReason BPJGFIHELIF; // 0x50
+		::System::Boolean NOOJOFHAIAA; // 0x54
+		::System::Byte _padding0[0x3];
+		::OOKOJKPGDDP KOLJBCGKDJP; // 0x58
+		::System::Single HLIBNBMOCIC; // 0x78
+		::RPG::Client::LittleGame::FiveDim::SplineMoveState MEPFOEEGBEA; // 0x7C
+		::RPG::Client::LittleGame::FiveDim::SplineMoveState EOCKCIGOFMG; // 0x80
+		::System::Single LBHOAPLLECN; // 0x84
+		::System::Single JBCFPAEELBL; // 0x88
+		::UnityEngine::Vector3 IPECNJCOCLC; // 0x8C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IHAJEPBCCFP_CTOR_OFFSET))(this);

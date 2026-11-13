@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEF880)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS38_0__SHOWSESSIONINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x1BEF6170)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0E8340)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS38_0__SHOWSESSIONINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x1B0EEC30)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannel___c__DisplayClass38_0_TypeDefinitionIndex = 8514;
+	inline static constexpr unsigned int HoYoChannel___c__DisplayClass38_0_TypeDefinitionIndex = 8523;
 
 	class HoYoChannel___c__DisplayClass38_0 : public ::System::Object
 	{

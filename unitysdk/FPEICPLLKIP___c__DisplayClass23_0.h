@@ -5,10 +5,10 @@ class FPEICPLLKIP;
 class NGFHCJIAOLH;
 namespace UnityEngine { class Transform; }
 
-#define FPEICPLLKIP___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15909870)
-#define FPEICPLLKIP___C__DISPLAYCLASS23_0__LOCKCELL_B__0_OFFSET UNITYSDK_OFFSET(0x1590CC00)
+#define FPEICPLLKIP___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x187773D0)
+#define FPEICPLLKIP___C__DISPLAYCLASS23_0__LOCKCELL_B__0_OFFSET UNITYSDK_OFFSET(0x1877A760)
 
-inline static constexpr unsigned int FPEICPLLKIP___c__DisplayClass23_0_TypeDefinitionIndex = 77765;
+inline static constexpr unsigned int FPEICPLLKIP___c__DisplayClass23_0_TypeDefinitionIndex = 80500;
 
 	class FPEICPLLKIP___c__DisplayClass23_0 : public ::System::Object
 	{

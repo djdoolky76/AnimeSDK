@@ -7,7 +7,7 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int EILBHOAEMMI_TypeDefinitionIndex = 44141;
+inline static constexpr unsigned int EILBHOAEMMI_TypeDefinitionIndex = 45216;
 
 	class EILBHOAEMMI : public ::System::Object
 	{

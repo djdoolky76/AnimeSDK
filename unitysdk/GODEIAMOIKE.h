@@ -4,10 +4,10 @@
 class FDPALAEIHPB;
 namespace UnityEngine { class AnimationCurve; }
 
-#define GODEIAMOIKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1ED10)
-#define GODEIAMOIKE_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15B1ED20)
+#define GODEIAMOIKE_CTOR_OFFSET UNITYSDK_OFFSET(0x187AF190)
+#define GODEIAMOIKE_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x187AF1A0)
 
-inline static constexpr unsigned int GODEIAMOIKE_TypeDefinitionIndex = 76616;
+inline static constexpr unsigned int GODEIAMOIKE_TypeDefinitionIndex = 78947;
 
 	class GODEIAMOIKE : public ::HLFHMKMJNPK
 	{

@@ -4,20 +4,20 @@
 namespace Proto { class DelMailScRsp; }
 namespace System { class Object; }
 
-#define PROTO_DELMAILSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFBEAB0)
-#define PROTO_DELMAILSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBEAF0)
-#define PROTO_DELMAILSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFBEB00)
+#define PROTO_DELMAILSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4BD1B0)
+#define PROTO_DELMAILSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4BD1F0)
+#define PROTO_DELMAILSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F4BD200)
 
 namespace Proto
 {
-	inline static constexpr unsigned int DelMailScRsp___c_TypeDefinitionIndex = 30495;
+	inline static constexpr unsigned int DelMailScRsp___c_TypeDefinitionIndex = 31401;
 
 	class DelMailScRsp___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x498C0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4EB90);
 		}
 
 		static ::System::Void _cctor()

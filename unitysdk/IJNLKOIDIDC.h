@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PumanHuntTriggerEscapeEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IJNLKOIDIDC_CTOR_OFFSET UNITYSDK_OFFSET(0x16464180)
-#define IJNLKOIDIDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164641B0)
+#define IJNLKOIDIDC_CTOR_OFFSET UNITYSDK_OFFSET(0x18062380)
+#define IJNLKOIDIDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x180623B0)
 
-inline static constexpr unsigned int IJNLKOIDIDC_TypeDefinitionIndex = 53188;
+inline static constexpr unsigned int IJNLKOIDIDC_TypeDefinitionIndex = 54350;
 
 	class IJNLKOIDIDC
 	{

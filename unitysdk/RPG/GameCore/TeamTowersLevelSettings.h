@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TeamTowersInfiniteModeConfig; }
 namespace RPG::GameCore { class TeamTowersLevelSettings; }
 namespace RPG::GameCore { class TeamTowersRaceModeConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSLEVELSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4FE70)
-#define RPG_GAMECORE_TEAMTOWERSLEVELSETTINGS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB4FE90)
-#define RPG_GAMECORE_TEAMTOWERSLEVELSETTINGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4FE30)
+#define RPG_GAMECORE_TEAMTOWERSLEVELSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C49B0)
+#define RPG_GAMECORE_TEAMTOWERSLEVELSETTINGS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F5C49D0)
+#define RPG_GAMECORE_TEAMTOWERSLEVELSETTINGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C4970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersLevelSettings_TypeDefinitionIndex = 18955;
+	inline static constexpr unsigned int TeamTowersLevelSettings_TypeDefinitionIndex = 19142;
 
 	class TeamTowersLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{

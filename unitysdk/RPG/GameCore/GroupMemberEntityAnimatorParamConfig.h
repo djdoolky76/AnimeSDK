@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class GroupMemberEntityAnimatorParamConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GROUPMEMBERENTITYANIMATORPARAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71E240)
-#define RPG_GAMECORE_GROUPMEMBERENTITYANIMATORPARAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71E030)
+#define RPG_GAMECORE_GROUPMEMBERENTITYANIMATORPARAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6D4B0)
+#define RPG_GAMECORE_GROUPMEMBERENTITYANIMATORPARAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA6D2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupMemberEntityAnimatorParamConfig_TypeDefinitionIndex = 20738;
+	inline static constexpr unsigned int GroupMemberEntityAnimatorParamConfig_TypeDefinitionIndex = 21075;
 
 	class GroupMemberEntityAnimatorParamConfig : public ::RPG::GameCore::JsonConfig
 	{

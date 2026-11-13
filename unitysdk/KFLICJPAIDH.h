@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define KFLICJPAIDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC208D0)
-#define KFLICJPAIDH_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1EC208E0)
-#define KFLICJPAIDH_SET_REASON_OFFSET UNITYSDK_OFFSET(0x1EC208F0)
+#define KFLICJPAIDH_CTOR_OFFSET UNITYSDK_OFFSET(0x208C7A40)
+#define KFLICJPAIDH_GET_REASON_OFFSET UNITYSDK_OFFSET(0x208C7A50)
+#define KFLICJPAIDH_SET_REASON_OFFSET UNITYSDK_OFFSET(0x208C7A60)
 
-inline static constexpr unsigned int KFLICJPAIDH_TypeDefinitionIndex = 44041;
+inline static constexpr unsigned int KFLICJPAIDH_TypeDefinitionIndex = 45116;
 
 	class KFLICJPAIDH : public ::System::Object
 	{

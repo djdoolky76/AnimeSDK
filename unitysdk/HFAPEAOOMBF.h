@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchStanceBreakTargetEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HFAPEAOOMBF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5AF30)
-#define HFAPEAOOMBF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C5AF80)
+#define HFAPEAOOMBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A211970)
+#define HFAPEAOOMBF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A2119C0)
 
-inline static constexpr unsigned int HFAPEAOOMBF_TypeDefinitionIndex = 59113;
+inline static constexpr unsigned int HFAPEAOOMBF_TypeDefinitionIndex = 60389;
 
 	class HFAPEAOOMBF
 	{

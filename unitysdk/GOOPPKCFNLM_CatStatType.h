@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GOOPPKCFNLM_CatStatType_TypeDefinitionIndex = 37328;
+inline static constexpr unsigned int GOOPPKCFNLM_CatStatType_TypeDefinitionIndex = 38256;
 
 	enum class GOOPPKCFNLM_CatStatType : ::System::Int32
 	{

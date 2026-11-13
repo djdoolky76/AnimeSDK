@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IInputGetter_TypeDefinitionIndex = 6874;
+	inline static constexpr unsigned int IInputGetter_TypeDefinitionIndex = 6885;
 
 	class IInputGetter
 	{

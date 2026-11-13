@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int BLDNOJLNAJB_TypeDefinitionIndex = 6211;
+inline static constexpr unsigned int BLDNOJLNAJB_TypeDefinitionIndex = 6218;
 
 	struct alignas(4) BLDNOJLNAJB
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class CreateBattleEventEntityFromStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AGJGPBHEPDO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF2C140)
-#define AGJGPBHEPDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF2C160)
+#define AGJGPBHEPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x18DDCF40)
+#define AGJGPBHEPDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DDCF60)
 
-inline static constexpr unsigned int AGJGPBHEPDO_TypeDefinitionIndex = 58039;
+inline static constexpr unsigned int AGJGPBHEPDO_TypeDefinitionIndex = 59278;
 
 	class AGJGPBHEPDO : public ::NAPIKMAGDDI
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::PetMarble { class PetMarbleBattlePetTalkController_PetMarbleBattlePetTalkConfig; }
 
-#define RPG_CLIENT_PETMARBLE_PETMARBLEBATTLEPETTALKCONTROLLER___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDACA910)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEBATTLEPETTALKCONTROLLER___C__DISPLAYCLASS14_0___GETORCREATETALKCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xDACA920)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEBATTLEPETTALKCONTROLLER___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1EC5F0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEBATTLEPETTALKCONTROLLER___C__DISPLAYCLASS14_0___GETORCREATETALKCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1C1EC600)
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarbleBattlePetTalkController___c__DisplayClass14_0_TypeDefinitionIndex = 74704;
+	inline static constexpr unsigned int PetMarbleBattlePetTalkController___c__DisplayClass14_0_TypeDefinitionIndex = 76852;
 
 	class PetMarbleBattlePetTalkController___c__DisplayClass14_0 : public ::System::Object
 	{

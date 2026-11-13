@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PinballPuzzleEnableControlMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKGAHCBMEGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB4B4E90)
-#define KKGAHCBMEGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4B4EC0)
+#define KKGAHCBMEGE_CTOR_OFFSET UNITYSDK_OFFSET(0x17341B70)
+#define KKGAHCBMEGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17341BA0)
 
-inline static constexpr unsigned int KKGAHCBMEGE_TypeDefinitionIndex = 58255;
+inline static constexpr unsigned int KKGAHCBMEGE_TypeDefinitionIndex = 59511;
 
 	class KKGAHCBMEGE
 	{

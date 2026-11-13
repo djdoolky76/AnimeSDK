@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TeamAction; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEAMACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4B990)
-#define RPG_GAMECORE_TEAMACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB4B9A0)
-#define RPG_GAMECORE_TEAMACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4B950)
+#define RPG_GAMECORE_TEAMACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C06D0)
+#define RPG_GAMECORE_TEAMACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F5C06E0)
+#define RPG_GAMECORE_TEAMACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C0690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamAction_TypeDefinitionIndex = 23140;
+	inline static constexpr unsigned int TeamAction_TypeDefinitionIndex = 23569;
 
 	class TeamAction : public ::RPG::GameCore::TaskConfig
 	{

@@ -9,18 +9,18 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define AEBOGHAOMGP_CCTOR_OFFSET UNITYSDK_OFFSET(0xB14A760)
-#define AEBOGHAOMGP_OEBACHHOCII_OFFSET UNITYSDK_OFFSET(0xB149BE0)
-#define AEBOGHAOMGP_OEPCGHPGFOK_OFFSET UNITYSDK_OFFSET(0xB149A80)
+#define AEBOGHAOMGP_CCTOR_OFFSET UNITYSDK_OFFSET(0x182BA5E0)
+#define AEBOGHAOMGP_OEBACHHOCII_OFFSET UNITYSDK_OFFSET(0x182B9A60)
+#define AEBOGHAOMGP_OEPCGHPGFOK_OFFSET UNITYSDK_OFFSET(0x182B9900)
 
-inline static constexpr unsigned int AEBOGHAOMGP_TypeDefinitionIndex = 67238;
+inline static constexpr unsigned int AEBOGHAOMGP_TypeDefinitionIndex = 69182;
 
 	class AEBOGHAOMGP : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>** StaticGet_LFEOEENNDBB()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>**)UnitySDK::FromName("", "AEBOGHAOMGP")->GetStaticField(0x472E0);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>**)UnitySDK::FromName("", "AEBOGHAOMGP")->GetStaticField(0x44CF0);
 		}
 
 		// static const ::System::String* IBOJIJDDBHF; // 0x0

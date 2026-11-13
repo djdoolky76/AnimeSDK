@@ -5,17 +5,17 @@ class DIHIHAPJLPK;
 namespace EffectPlugin { class Effect_CustomFollowPlugin; }
 namespace RPG::Client { class MonoEffectPluginPerformEventListener; }
 
-#define DIHIHAPJLPK___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBF7750)
-#define DIHIHAPJLPK___C__DISPLAYCLASS13_0___ONTRAILEFFECTCOMPLETE_B__0_OFFSET UNITYSDK_OFFSET(0xEBF7B50)
+#define DIHIHAPJLPK___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18EBF9D0)
+#define DIHIHAPJLPK___C__DISPLAYCLASS13_0___ONTRAILEFFECTCOMPLETE_B__0_OFFSET UNITYSDK_OFFSET(0x18EBFDD0)
 
-inline static constexpr unsigned int DIHIHAPJLPK___c__DisplayClass13_0_TypeDefinitionIndex = 57312;
+inline static constexpr unsigned int DIHIHAPJLPK___c__DisplayClass13_0_TypeDefinitionIndex = 58540;
 
 	class DIHIHAPJLPK___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::DIHIHAPJLPK* __4__this; // 0x10
-		::EffectPlugin::Effect_CustomFollowPlugin* followPlugin; // 0x18
-		::RPG::Client::MonoEffectPluginPerformEventListener* performPlugin; // 0x20
+		::RPG::Client::MonoEffectPluginPerformEventListener* performPlugin; // 0x10
+		::DIHIHAPJLPK* __4__this; // 0x18
+		::EffectPlugin::Effect_CustomFollowPlugin* followPlugin; // 0x20
 		::System::UInt32 energyNum; // 0x28
 		::System::Void _ctor()
 		{

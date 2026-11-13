@@ -3,10 +3,10 @@
 class FEOGAJHIAIO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOAGBNEDLHE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA16280)
-#define MOAGBNEDLHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA162B0)
+#define MOAGBNEDLHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2030D0)
+#define MOAGBNEDLHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B203100)
 
-inline static constexpr unsigned int MOAGBNEDLHE_TypeDefinitionIndex = 52906;
+inline static constexpr unsigned int MOAGBNEDLHE_TypeDefinitionIndex = 54062;
 
 	class MOAGBNEDLHE
 	{

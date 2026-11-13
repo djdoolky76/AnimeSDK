@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace miHoYoEmotion { class SequenceBakeData_BakeData; }
 
-#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BE700)
-#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_GET_BAKEDATA_OFFSET UNITYSDK_OFFSET(0xB0BE6F0)
-#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_SET_BAKEDATA_OFFSET UNITYSDK_OFFSET(0xB0BE6E0)
+#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D2330)
+#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_GET_BAKEDATA_OFFSET UNITYSDK_OFFSET(0x1F0D2320)
+#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_SET_BAKEDATA_OFFSET UNITYSDK_OFFSET(0x1F0D2310)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SubSequenceBakeData_TypeDefinitionIndex = 45968;
+	inline static constexpr unsigned int SubSequenceBakeData_TypeDefinitionIndex = 46997;
 
 	class SubSequenceBakeData : public ::UnityEngine::ScriptableObject
 	{

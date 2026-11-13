@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PropPlayGachaMachine; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PROPPLAYGACHAMACHINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D923300)
-#define RPG_GAMECORE_PROPPLAYGACHAMACHINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D923330)
-#define RPG_GAMECORE_PROPPLAYGACHAMACHINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9232A0)
+#define RPG_GAMECORE_PROPPLAYGACHAMACHINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8CF50)
+#define RPG_GAMECORE_PROPPLAYGACHAMACHINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF8CF80)
+#define RPG_GAMECORE_PROPPLAYGACHAMACHINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF8CEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropPlayGachaMachine_TypeDefinitionIndex = 21969;
+	inline static constexpr unsigned int PropPlayGachaMachine_TypeDefinitionIndex = 22360;
 
 	class PropPlayGachaMachine : public ::RPG::GameCore::TaskConfig
 	{

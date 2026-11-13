@@ -5,25 +5,25 @@ namespace RPG::Client::Mono { class FiveDimTriggerRegionPlugin; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD723A20)
-#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD723A60)
-#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C__GET__ONTRANSFORMCHANGECLOSURE_B__5_0_OFFSET UNITYSDK_OFFSET(0xD723A70)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x198758F0)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19875930)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C__GET__ONTRANSFORMCHANGECLOSURE_B__5_0_OFFSET UNITYSDK_OFFSET(0x19875940)
 
 namespace RPG::Client::Mono
 {
-	inline static constexpr unsigned int FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex = 76027;
+	inline static constexpr unsigned int FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex = 78354;
 
 	class FiveDimTriggerRegionPlugin___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Mono", "<>c")->GetStaticField(0x59C00);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Mono", "<>c")->GetStaticField(0x672D0);
 		}
 
 		static ::System::Action_1<::RPG::Client::Mono::FiveDimTriggerRegionPlugin*>** StaticGet___9__5_0()
 		{
-			return (::System::Action_1<::RPG::Client::Mono::FiveDimTriggerRegionPlugin*>**)UnitySDK::FromName("RPG.Client.Mono", "<>c")->GetStaticField(0x59C08);
+			return (::System::Action_1<::RPG::Client::Mono::FiveDimTriggerRegionPlugin*>**)UnitySDK::FromName("RPG.Client.Mono", "<>c")->GetStaticField(0x672D8);
 		}
 
 		static ::System::Void _cctor()

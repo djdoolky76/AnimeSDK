@@ -7,11 +7,11 @@ namespace RPG::Client::Pet { class IPet; }
 namespace RPG::Client::Pet { class IPetInstance; }
 namespace RPG::Client::Pet { class PetModule; }
 
-#define MLPPCBFKEMK_CCOMJBKFCNC_OFFSET UNITYSDK_OFFSET(0xB9B7220)
-#define MLPPCBFKEMK_JJELHPOFJIH_OFFSET UNITYSDK_OFFSET(0xB9B6FF0)
-#define MLPPCBFKEMK_NIPDCHOJNHJ_OFFSET UNITYSDK_OFFSET(0xB9B71A0)
+#define MLPPCBFKEMK_CCOMJBKFCNC_OFFSET UNITYSDK_OFFSET(0x1B92C830)
+#define MLPPCBFKEMK_JJELHPOFJIH_OFFSET UNITYSDK_OFFSET(0x1B92C600)
+#define MLPPCBFKEMK_NIPDCHOJNHJ_OFFSET UNITYSDK_OFFSET(0x1B92C7B0)
 
-inline static constexpr unsigned int MLPPCBFKEMK_TypeDefinitionIndex = 75716;
+inline static constexpr unsigned int MLPPCBFKEMK_TypeDefinitionIndex = 78043;
 
 	class MLPPCBFKEMK : public ::System::Object
 	{

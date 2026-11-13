@@ -9,27 +9,27 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FFGPIHAHBAD_COAEMMEJAIM_OFFSET UNITYSDK_OFFSET(0x15731690)
-#define FFGPIHAHBAD_COGELOEIOOO_OFFSET UNITYSDK_OFFSET(0x15731560)
-#define FFGPIHAHBAD_CTOR_OFFSET UNITYSDK_OFFSET(0x15730D80)
-#define FFGPIHAHBAD_DDCFCGPIDFL_OFFSET UNITYSDK_OFFSET(0x15730F70)
-#define FFGPIHAHBAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15731370)
-#define FFGPIHAHBAD_DKCKCGPAEHK_OFFSET UNITYSDK_OFFSET(0x15731320)
-#define FFGPIHAHBAD_FBNIPFMJHKD_OFFSET UNITYSDK_OFFSET(0x15730FC0)
-#define FFGPIHAHBAD_GCDCKFOMLIK_OFFSET UNITYSDK_OFFSET(0x15731140)
-#define FFGPIHAHBAD_HHHJELHJNEA_OFFSET UNITYSDK_OFFSET(0x15731410)
-#define FFGPIHAHBAD_LDKABPKGHDG_OFFSET UNITYSDK_OFFSET(0x15731610)
+#define FFGPIHAHBAD_COAEMMEJAIM_OFFSET UNITYSDK_OFFSET(0x130E3C50)
+#define FFGPIHAHBAD_COGELOEIOOO_OFFSET UNITYSDK_OFFSET(0x130E3B20)
+#define FFGPIHAHBAD_CTOR_OFFSET UNITYSDK_OFFSET(0x130E3350)
+#define FFGPIHAHBAD_DDCFCGPIDFL_OFFSET UNITYSDK_OFFSET(0x130E3530)
+#define FFGPIHAHBAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x130E3930)
+#define FFGPIHAHBAD_DKCKCGPAEHK_OFFSET UNITYSDK_OFFSET(0x130E38E0)
+#define FFGPIHAHBAD_FBNIPFMJHKD_OFFSET UNITYSDK_OFFSET(0x130E3580)
+#define FFGPIHAHBAD_GCDCKFOMLIK_OFFSET UNITYSDK_OFFSET(0x130E3700)
+#define FFGPIHAHBAD_HHHJELHJNEA_OFFSET UNITYSDK_OFFSET(0x130E39D0)
+#define FFGPIHAHBAD_LDKABPKGHDG_OFFSET UNITYSDK_OFFSET(0x130E3BD0)
 
-inline static constexpr unsigned int FFGPIHAHBAD_TypeDefinitionIndex = 78909;
+inline static constexpr unsigned int FFGPIHAHBAD_TypeDefinitionIndex = 81680;
 
 	class FFGPIHAHBAD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* MAIMBGHPIIJ; // 0x10
-		::RPG::Client::TimeRewindContainerAndSeedTarget* GFKOKFOHJBI; // 0x18
-		::RPG::GameCore::GameEntity* BJIIHGMHHBE; // 0x20
+		::RPG::Client::TimeRewindContainerAndSeedTarget* GFKOKFOHJBI; // 0x10
+		::RPG::GameCore::GameEntity* BJIIHGMHHBE; // 0x18
+		::RPG::Client::Prop::TimeRewindParterrePuzzleBoard* COAMCKILKPH; // 0x20
 		::DHAEANMEFLE* PCGKMHCKMDL; // 0x28
-		::RPG::Client::Prop::TimeRewindParterrePuzzleBoard* COAMCKILKPH; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* MAIMBGHPIIJ; // 0x30
 		::System::Void _ctor(::RPG::GameCore::EntityTimeRewindComponent* a1, ::RPG::Client::Prop::TimeRewindParterrePuzzleBoard* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EntityTimeRewindComponent*, ::RPG::Client::Prop::TimeRewindParterrePuzzleBoard*))((::PBYTE)hIl2Cpp + FFGPIHAHBAD_CTOR_OFFSET))(this, a1, a2);

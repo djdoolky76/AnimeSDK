@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GGLKJLLMHBN.h"
-#include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/System/ValueTuple_3.h"
 class GJABEBPIGDN;
 class GJHNDAONNGP;
+namespace RPG::AvatarSystem { class AvatarPath; }
 
-#define EOLFEOCGDPK_CTOR_OFFSET UNITYSDK_OFFSET(0x155B90E0)
-#define EOLFEOCGDPK_DGBMKOOLGID_OFFSET UNITYSDK_OFFSET(0x155B9170)
-#define EOLFEOCGDPK_DMIDAHCJIOA_OFFSET UNITYSDK_OFFSET(0x155B9C10)
-#define EOLFEOCGDPK_EKCKFBLHHIO_OFFSET UNITYSDK_OFFSET(0x155B9950)
-#define EOLFEOCGDPK__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0x155B9200)
-#define EOLFEOCGDPK__REBUILD_OFFSET UNITYSDK_OFFSET(0x155B93E0)
+#define EOLFEOCGDPK_CTOR_OFFSET UNITYSDK_OFFSET(0x16B27560)
+#define EOLFEOCGDPK_DGBMKOOLGID_OFFSET UNITYSDK_OFFSET(0x16B27600)
+#define EOLFEOCGDPK_DMIDAHCJIOA_OFFSET UNITYSDK_OFFSET(0x16B28100)
+#define EOLFEOCGDPK_EKCKFBLHHIO_OFFSET UNITYSDK_OFFSET(0x16B27E40)
+#define EOLFEOCGDPK__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0x16B27690)
+#define EOLFEOCGDPK__REBUILD_OFFSET UNITYSDK_OFFSET(0x16B27870)
 
-inline static constexpr unsigned int EOLFEOCGDPK_TypeDefinitionIndex = 62719;
+inline static constexpr unsigned int EOLFEOCGDPK_TypeDefinitionIndex = 64153;
 
 	class EOLFEOCGDPK : public ::GGLKJLLMHBN
 	{
 	public:
 		::GJHNDAONNGP* EOEACGLNPMC; // 0x28
-		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> FFFFJCOACPK; // 0x30
-		::System::Byte _padding0[0x4];
-		::RPG::GameCore::AvatarBaseType GIEAOGNLGFP; // 0x3C
-		::System::Void _ctor(::RPG::GameCore::AvatarBaseType a1)
+		::RPG::AvatarSystem::AvatarPath* KEHGPOKIJND; // 0x30
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> FFFFJCOACPK; // 0x38
+		::System::Void _ctor(::RPG::AvatarSystem::AvatarPath* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + EOLFEOCGDPK_CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::AvatarPath*))((::PBYTE)hIl2Cpp + EOLFEOCGDPK_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void DGBMKOOLGID(::GJHNDAONNGP* a1)

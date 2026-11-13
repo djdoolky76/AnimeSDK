@@ -4,18 +4,18 @@
 class PJPMBOBAMIC;
 namespace System { class Object; }
 
-#define PJPMBOBAMIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF57B90)
-#define PJPMBOBAMIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF57BC0)
-#define PJPMBOBAMIC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF57BD0)
+#define PJPMBOBAMIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F493030)
+#define PJPMBOBAMIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F493060)
+#define PJPMBOBAMIC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F493070)
 
-inline static constexpr unsigned int PJPMBOBAMIC___c_TypeDefinitionIndex = 30272;
+inline static constexpr unsigned int PJPMBOBAMIC___c_TypeDefinitionIndex = 31174;
 
 	class PJPMBOBAMIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37800);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41010);
 		}
 
 		static ::System::Void _cctor()

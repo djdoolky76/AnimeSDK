@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUI_ToolbarButtonSize_TypeDefinitionIndex = 5166;
+	inline static constexpr unsigned int GUI_ToolbarButtonSize_TypeDefinitionIndex = 5171;
 
 	enum class GUI_ToolbarButtonSize : ::System::Int32
 	{

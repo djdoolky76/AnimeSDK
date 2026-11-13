@@ -3,7 +3,7 @@
 
 namespace AstraFX::Fireworks
 {
-	inline static constexpr unsigned int AstraFX_FireworksBehavior_EAECKDMFPHM_TypeDefinitionIndex = 49023;
+	inline static constexpr unsigned int AstraFX_FireworksBehavior_EAECKDMFPHM_TypeDefinitionIndex = 50093;
 
 	struct alignas(4) AstraFX_FireworksBehavior_EAECKDMFPHM
 	{

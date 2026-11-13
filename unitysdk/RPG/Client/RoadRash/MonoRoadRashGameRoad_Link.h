@@ -4,7 +4,7 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameRoad; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashGameRoad_Link_TypeDefinitionIndex = 75863;
+	inline static constexpr unsigned int MonoRoadRashGameRoad_Link_TypeDefinitionIndex = 78190;
 
 	struct alignas(8) MonoRoadRashGameRoad_Link
 	{

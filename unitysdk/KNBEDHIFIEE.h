@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define KNBEDHIFIEE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB571FF0)
-#define KNBEDHIFIEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB571FB0)
-#define KNBEDHIFIEE_GET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0xB571C30)
-#define KNBEDHIFIEE_GMIKIGIODJD_OFFSET UNITYSDK_OFFSET(0xB571C50)
-#define KNBEDHIFIEE_KIHMEBLNKBI_OFFSET UNITYSDK_OFFSET(0xB571DF0)
-#define KNBEDHIFIEE_SET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0xB571C40)
+#define KNBEDHIFIEE_CCTOR_OFFSET UNITYSDK_OFFSET(0x18F9A310)
+#define KNBEDHIFIEE_CTOR_OFFSET UNITYSDK_OFFSET(0x18F9A2D0)
+#define KNBEDHIFIEE_GET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0x18F99F50)
+#define KNBEDHIFIEE_GMIKIGIODJD_OFFSET UNITYSDK_OFFSET(0x18F99F70)
+#define KNBEDHIFIEE_KIHMEBLNKBI_OFFSET UNITYSDK_OFFSET(0x18F9A110)
+#define KNBEDHIFIEE_SET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0x18F99F60)
 
-inline static constexpr unsigned int KNBEDHIFIEE_TypeDefinitionIndex = 73547;
+inline static constexpr unsigned int KNBEDHIFIEE_TypeDefinitionIndex = 75670;
 
 	class KNBEDHIFIEE : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::UIVertex>* IPACDKEBGIJ; // 0x10
-		::UnityEngine::UI::VertexHelper* _VertexHelper_k__BackingField; // 0x18
+		::UnityEngine::UI::VertexHelper* _VertexHelper_k__BackingField; // 0x10
+		::Il2CppArray<::UnityEngine::UIVertex>* IPACDKEBGIJ; // 0x18
 		static ::System::Int32* StaticGet_LKLHOEPPMOK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KNBEDHIFIEE")->GetStaticField(0x14210);
+			return (::System::Int32*)UnitySDK::FromName("", "KNBEDHIFIEE")->GetStaticField(0x14AF0);
 		}
 
 		::System::Void _ctor()

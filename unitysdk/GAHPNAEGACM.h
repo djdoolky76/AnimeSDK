@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 class GEDMHFPPBHN;
 
-#define GAHPNAEGACM_CTOR_OFFSET UNITYSDK_OFFSET(0x159312B0)
+#define GAHPNAEGACM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B86CCC0)
 
-inline static constexpr unsigned int GAHPNAEGACM_TypeDefinitionIndex = 71199;
+inline static constexpr unsigned int GAHPNAEGACM_TypeDefinitionIndex = 73181;
 
 	class GAHPNAEGACM : public ::System::Object
 	{
 	public:
 		::GEDMHFPPBHN* NLFCABFPJHD; // 0x10
-		::System::Int32 IDONJMPLIKG; // 0x18
-		::System::Int32 JMJKEDNMDEI; // 0x1C
+		::System::Int32 JMJKEDNMDEI; // 0x18
+		::System::Int32 IDONJMPLIKG; // 0x1C
 		::RPG::Client::ActionBarItemAction ENGGCENAFPM; // 0x20
 		::System::Int32 OKGAHAGDONO; // 0x24
 		::System::Void _ctor(::RPG::Client::ActionBarItemAction a1, ::GEDMHFPPBHN* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)

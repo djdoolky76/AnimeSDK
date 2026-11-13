@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IMCPKODGAEO_DepthBlend_TypeDefinitionIndex = 49001;
+inline static constexpr unsigned int IMCPKODGAEO_DepthBlend_TypeDefinitionIndex = 50070;
 
 	enum class IMCPKODGAEO_DepthBlend : ::System::Int32
 	{

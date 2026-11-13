@@ -5,20 +5,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SetCharacterVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGPGEAIPAAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB6990F0)
-#define LGPGEAIPAAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB699100)
-#define LGPGEAIPAAD_KJDBJDIBIBK_OFFSET UNITYSDK_OFFSET(0xB699320)
-#define LGPGEAIPAAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB699140)
-#define LGPGEAIPAAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6993B0)
-#define LGPGEAIPAAD_TICK_OFFSET UNITYSDK_OFFSET(0xB699400)
+#define LGPGEAIPAAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB0D70)
+#define LGPGEAIPAAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCB0D80)
+#define LGPGEAIPAAD_KJDBJDIBIBK_OFFSET UNITYSDK_OFFSET(0x1BCB0FA0)
+#define LGPGEAIPAAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCB0DC0)
+#define LGPGEAIPAAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BCB1030)
+#define LGPGEAIPAAD_TICK_OFFSET UNITYSDK_OFFSET(0x1BCB1080)
 
-inline static constexpr unsigned int LGPGEAIPAAD_TypeDefinitionIndex = 56398;
+inline static constexpr unsigned int LGPGEAIPAAD_TypeDefinitionIndex = 57616;
 
 	class LGPGEAIPAAD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetCharacterVisible* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetCharacterVisible* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetCharacterVisible* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetCharacterVisible*))((::PBYTE)hIl2Cpp + LGPGEAIPAAD_CTOR_OFFSET))(this, a1, a2);

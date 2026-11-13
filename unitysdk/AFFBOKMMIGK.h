@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define AFFBOKMMIGK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF01CD0)
+#define AFFBOKMMIGK_CTOR_OFFSET UNITYSDK_OFFSET(0x18DAD340)
 
-inline static constexpr unsigned int AFFBOKMMIGK_TypeDefinitionIndex = 48136;
+inline static constexpr unsigned int AFFBOKMMIGK_TypeDefinitionIndex = 49167;
 
 	class AFFBOKMMIGK : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -5,10 +5,10 @@
 class MKNALGLEBNA;
 namespace RPG::Client { class RogueFormulaInfo; }
 
-#define BEHCDNCDGNP_CTOR_OFFSET UNITYSDK_OFFSET(0x16315CA0)
-#define BEHCDNCDGNP_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x16315CB0)
+#define BEHCDNCDGNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A944390)
+#define BEHCDNCDGNP_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x1A9443A0)
 
-inline static constexpr unsigned int BEHCDNCDGNP_TypeDefinitionIndex = 67080;
+inline static constexpr unsigned int BEHCDNCDGNP_TypeDefinitionIndex = 69024;
 
 	class BEHCDNCDGNP : public ::KJNJKIMNDMH
 	{

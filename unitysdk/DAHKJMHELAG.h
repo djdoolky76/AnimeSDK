@@ -4,10 +4,10 @@
 class HMBJNEDIDHB;
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define DAHKJMHELAG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9E5880)
-#define DAHKJMHELAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E59B0)
+#define DAHKJMHELAG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB17AF0)
+#define DAHKJMHELAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17C20)
 
-inline static constexpr unsigned int DAHKJMHELAG_TypeDefinitionIndex = 43652;
+inline static constexpr unsigned int DAHKJMHELAG_TypeDefinitionIndex = 44635;
 
 	class DAHKJMHELAG : public ::System::Object
 	{

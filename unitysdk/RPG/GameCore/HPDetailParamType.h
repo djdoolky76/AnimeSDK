@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HPDetailParamType_TypeDefinitionIndex = 24678;
+	inline static constexpr unsigned int HPDetailParamType_TypeDefinitionIndex = 25151;
 
 	enum class HPDetailParamType : ::System::Int32
 	{

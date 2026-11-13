@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int JEMDGBKPCDK_TypeDefinitionIndex = 47529;
+inline static constexpr unsigned int JEMDGBKPCDK_TypeDefinitionIndex = 48558;
 
 	struct alignas(4) JEMDGBKPCDK
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpticalIllusionSwitchCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGAFPGHEPPP_CTOR_OFFSET UNITYSDK_OFFSET(0xB6850F0)
-#define LGAFPGHEPPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB685120)
+#define LGAFPGHEPPP_CTOR_OFFSET UNITYSDK_OFFSET(0x18C6ACB0)
+#define LGAFPGHEPPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C6ACE0)
 
-inline static constexpr unsigned int LGAFPGHEPPP_TypeDefinitionIndex = 53045;
+inline static constexpr unsigned int LGAFPGHEPPP_TypeDefinitionIndex = 54205;
 
 	class LGAFPGHEPPP
 	{

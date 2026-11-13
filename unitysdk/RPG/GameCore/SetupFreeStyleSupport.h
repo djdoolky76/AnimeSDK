@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetupFreeStyleSupport; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9FAD0)
-#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9FB10)
-#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9FA70)
+#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9ECF10)
+#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9ECF50)
+#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9ECEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupFreeStyleSupport_TypeDefinitionIndex = 21906;
+	inline static constexpr unsigned int SetupFreeStyleSupport_TypeDefinitionIndex = 22297;
 
 	class SetupFreeStyleSupport : public ::RPG::GameCore::TaskConfig
 	{

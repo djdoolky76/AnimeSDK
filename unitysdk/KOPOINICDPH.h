@@ -4,28 +4,28 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KOPOINICDPH_BKGOMALDIDH_OFFSET UNITYSDK_OFFSET(0x1EC04E60)
-#define KOPOINICDPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC05580)
-#define KOPOINICDPH_HLHHCMCHBOO_OFFSET UNITYSDK_OFFSET(0x1EC05220)
-#define KOPOINICDPH_IMBDJBBOLGF_OFFSET UNITYSDK_OFFSET(0x1EC05450)
-#define KOPOINICDPH_JCEKFPNHOCB_OFFSET UNITYSDK_OFFSET(0x1EC05350)
-#define KOPOINICDPH_KDCNBBIPNJL_OFFSET UNITYSDK_OFFSET(0x1EC04D80)
-#define KOPOINICDPH_LKPHONPDJMK_OFFSET UNITYSDK_OFFSET(0x1EC05090)
-#define KOPOINICDPH_MCKJFEGPDHF_OFFSET UNITYSDK_OFFSET(0x1EC04FE0)
+#define KOPOINICDPH_BKGOMALDIDH_OFFSET UNITYSDK_OFFSET(0x1CB11010)
+#define KOPOINICDPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB11730)
+#define KOPOINICDPH_HLHHCMCHBOO_OFFSET UNITYSDK_OFFSET(0x1CB113D0)
+#define KOPOINICDPH_IMBDJBBOLGF_OFFSET UNITYSDK_OFFSET(0x1CB11600)
+#define KOPOINICDPH_JCEKFPNHOCB_OFFSET UNITYSDK_OFFSET(0x1CB11500)
+#define KOPOINICDPH_KDCNBBIPNJL_OFFSET UNITYSDK_OFFSET(0x1CB10F30)
+#define KOPOINICDPH_LKPHONPDJMK_OFFSET UNITYSDK_OFFSET(0x1CB11240)
+#define KOPOINICDPH_MCKJFEGPDHF_OFFSET UNITYSDK_OFFSET(0x1CB11190)
 
-inline static constexpr unsigned int KOPOINICDPH_TypeDefinitionIndex = 35171;
+inline static constexpr unsigned int KOPOINICDPH_TypeDefinitionIndex = 36099;
 
 	class KOPOINICDPH : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>** StaticGet_DLNBIKBHBDL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("", "KOPOINICDPH")->GetStaticField(0x54710);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("", "KOPOINICDPH")->GetStaticField(0x59300);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_EMHABLFBAEB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("", "KOPOINICDPH")->GetStaticField(0x54718);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("", "KOPOINICDPH")->GetStaticField(0x59308);
 		}
 
 		static ::System::Void _cctor()

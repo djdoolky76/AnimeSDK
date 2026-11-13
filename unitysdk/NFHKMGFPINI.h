@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NFHKMGFPINI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB8DCA0)
-#define NFHKMGFPINI_GET_ACTIVEACTIONIDLIST_OFFSET UNITYSDK_OFFSET(0xBB8DC80)
-#define NFHKMGFPINI_GET_ACTIVEPARTIDLIST_OFFSET UNITYSDK_OFFSET(0xBB8DC60)
-#define NFHKMGFPINI_GET_FINISHEDACTIONNUM_OFFSET UNITYSDK_OFFSET(0xBB8DC40)
-#define NFHKMGFPINI_SET_ACTIVEACTIONIDLIST_OFFSET UNITYSDK_OFFSET(0xBB8DC90)
-#define NFHKMGFPINI_SET_ACTIVEPARTIDLIST_OFFSET UNITYSDK_OFFSET(0xBB8DC70)
-#define NFHKMGFPINI_SET_FINISHEDACTIONNUM_OFFSET UNITYSDK_OFFSET(0xBB8DC50)
+#define NFHKMGFPINI_CTOR_OFFSET UNITYSDK_OFFSET(0x18E757E0)
+#define NFHKMGFPINI_GET_ACTIVEACTIONIDLIST_OFFSET UNITYSDK_OFFSET(0x18E757C0)
+#define NFHKMGFPINI_GET_ACTIVEPARTIDLIST_OFFSET UNITYSDK_OFFSET(0x18E757A0)
+#define NFHKMGFPINI_GET_FINISHEDACTIONNUM_OFFSET UNITYSDK_OFFSET(0x18E75780)
+#define NFHKMGFPINI_SET_ACTIVEACTIONIDLIST_OFFSET UNITYSDK_OFFSET(0x18E757D0)
+#define NFHKMGFPINI_SET_ACTIVEPARTIDLIST_OFFSET UNITYSDK_OFFSET(0x18E757B0)
+#define NFHKMGFPINI_SET_FINISHEDACTIONNUM_OFFSET UNITYSDK_OFFSET(0x18E75790)
 
-inline static constexpr unsigned int NFHKMGFPINI_TypeDefinitionIndex = 81664;
+inline static constexpr unsigned int NFHKMGFPINI_TypeDefinitionIndex = 84445;
 
 	class NFHKMGFPINI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _ActiveActionIDList_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _ActivePartIDList_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _ActivePartIDList_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _ActiveActionIDList_k__BackingField; // 0x18
 		::System::UInt32 _FinishedActionNum_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{

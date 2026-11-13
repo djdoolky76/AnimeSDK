@@ -8,21 +8,21 @@ namespace RPG::Client::ActivityFinalityBattle::Level { class FinalityBattleBattl
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC3F18C0)
-#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_GET_BATTLETARGETS_OFFSET UNITYSDK_OFFSET(0xC3F5350)
-#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_GET_ID_OFFSET UNITYSDK_OFFSET(0xC3F4B20)
-#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_GET_PREVIEWMONSTERS_OFFSET UNITYSDK_OFFSET(0xC3F5450)
+#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF58E0)
+#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_GET_BATTLETARGETS_OFFSET UNITYSDK_OFFSET(0x1DBF9390)
+#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1DBF8B40)
+#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_GET_PREVIEWMONSTERS_OFFSET UNITYSDK_OFFSET(0x1DBF9490)
 
 namespace RPG::Client::ActivityFinalityBattle::Level
 {
-	inline static constexpr unsigned int FinalityBattleLevelInfoViewModel_TypeDefinitionIndex = 82092;
+	inline static constexpr unsigned int FinalityBattleLevelInfoViewModel_TypeDefinitionIndex = 84965;
 
 	class FinalityBattleLevelInfoViewModel : public ::System::Object
 	{
 	public:
-		::EONDIOOGHIA* _Model; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityFinalityBattle::Level::FinalityBattleBattleTargetItem*>* _BattleTargets; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::MonsterData*>* _PreviewMonsters; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::MonsterData*>* _PreviewMonsters; // 0x10
+		::EONDIOOGHIA* _Model; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityFinalityBattle::Level::FinalityBattleBattleTargetItem*>* _BattleTargets; // 0x20
 		::System::Void _ctor(::EONDIOOGHIA* a1, ::EBGGEOGBOGN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::EONDIOOGHIA*, ::EBGGEOGBOGN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLELEVELINFOVIEWMODEL_CTOR_OFFSET))(this, a1, a2);

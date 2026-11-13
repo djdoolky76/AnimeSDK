@@ -4,22 +4,21 @@
 namespace HoudiniEngineUnity { class HEU_GeneratedOutput; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B924C60)
-#define HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE_INITIALIZEBUFFER_OFFSET UNITYSDK_OFFSET(0x1B924C40)
+#define HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x126C3170)
+#define HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE_INITIALIZEBUFFER_OFFSET UNITYSDK_OFFSET(0x126C3150)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_LoadBufferBase_TypeDefinitionIndex = 40607;
+	inline static constexpr unsigned int HEU_LoadBufferBase_TypeDefinitionIndex = 41582;
 
 	class HEU_LoadBufferBase : public ::System::Object
 	{
 	public:
-		::HoudiniEngineUnity::HEU_GeneratedOutput* _generatedOutput; // 0x10
-		::System::String* _name; // 0x18
-		::System::Boolean _bInstancer; // 0x20
-		::System::Boolean _bInstanced; // 0x21
-		::System::Byte _padding0[0x2];
-		::System::Int32 _id; // 0x24
+		::System::String* _name; // 0x10
+		::HoudiniEngineUnity::HEU_GeneratedOutput* _generatedOutput; // 0x18
+		::System::Int32 _id; // 0x20
+		::System::Boolean _bInstancer; // 0x24
+		::System::Boolean _bInstanced; // 0x25
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE_CTOR_OFFSET))(this);

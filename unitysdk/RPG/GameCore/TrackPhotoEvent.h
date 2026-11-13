@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TrackPhotoEvent; }
 
-#define RPG_GAMECORE_TRACKPHOTOEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFD170)
-#define RPG_GAMECORE_TRACKPHOTOEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBFD020)
+#define RPG_GAMECORE_TRACKPHOTOEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D6430)
+#define RPG_GAMECORE_TRACKPHOTOEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D62E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoEvent_TypeDefinitionIndex = 21644;
+	inline static constexpr unsigned int TrackPhotoEvent_TypeDefinitionIndex = 22032;
 
 	class TrackPhotoEvent : public ::RPG::GameCore::JsonConfig
 	{

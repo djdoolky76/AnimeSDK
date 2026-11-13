@@ -4,18 +4,18 @@
 class KENIHFGIDEO;
 namespace System { class Object; }
 
-#define KENIHFGIDEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7E48D0)
-#define KENIHFGIDEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E4910)
-#define KENIHFGIDEO___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E7E4920)
+#define KENIHFGIDEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9A49F0)
+#define KENIHFGIDEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9A4A30)
+#define KENIHFGIDEO___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F9A4A40)
 
-inline static constexpr unsigned int KENIHFGIDEO___c_TypeDefinitionIndex = 34985;
+inline static constexpr unsigned int KENIHFGIDEO___c_TypeDefinitionIndex = 35913;
 
 	class KENIHFGIDEO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11F90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB580);
 		}
 
 		static ::System::Void _cctor()

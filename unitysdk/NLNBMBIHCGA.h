@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SkillPerformFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NLNBMBIHCGA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC6F5D0)
-#define NLNBMBIHCGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC6F5E0)
-#define NLNBMBIHCGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC6F620)
-#define NLNBMBIHCGA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC6F820)
-#define NLNBMBIHCGA_TICK_OFFSET UNITYSDK_OFFSET(0xBC6F870)
+#define NLNBMBIHCGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A435590)
+#define NLNBMBIHCGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A4355A0)
+#define NLNBMBIHCGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A4355E0)
+#define NLNBMBIHCGA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A4357E0)
+#define NLNBMBIHCGA_TICK_OFFSET UNITYSDK_OFFSET(0x1A435830)
 
-inline static constexpr unsigned int NLNBMBIHCGA_TypeDefinitionIndex = 55622;
+inline static constexpr unsigned int NLNBMBIHCGA_TypeDefinitionIndex = 56820;
 
 	class NLNBMBIHCGA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SkillPerformFinish* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SkillPerformFinish* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SkillPerformFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SkillPerformFinish*))((::PBYTE)hIl2Cpp + NLNBMBIHCGA_CTOR_OFFSET))(this, a1, a2);

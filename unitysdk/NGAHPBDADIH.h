@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ForceMakeCharacterActionable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGAHPBDADIH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB9AAF0)
-#define NGAHPBDADIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB9AB20)
+#define NGAHPBDADIH_CTOR_OFFSET UNITYSDK_OFFSET(0x18E840A0)
+#define NGAHPBDADIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E840D0)
 
-inline static constexpr unsigned int NGAHPBDADIH_TypeDefinitionIndex = 55074;
+inline static constexpr unsigned int NGAHPBDADIH_TypeDefinitionIndex = 56250;
 
 	class NGAHPBDADIH
 	{

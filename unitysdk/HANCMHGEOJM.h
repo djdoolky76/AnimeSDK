@@ -11,22 +11,22 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HANCMHGEOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B8BB50)
-#define HANCMHGEOJM_HCNNNELBIBC_OFFSET UNITYSDK_OFFSET(0x15B8BC90)
-#define HANCMHGEOJM_HFHLAHLONIJ_OFFSET UNITYSDK_OFFSET(0x15B8C2E0)
-#define HANCMHGEOJM_KGOMOMECIHL_OFFSET UNITYSDK_OFFSET(0x15B8BD90)
-#define HANCMHGEOJM_LBHFAIAKKBO_OFFSET UNITYSDK_OFFSET(0x15B8BBE0)
-#define HANCMHGEOJM_OCELGEGCHLH_OFFSET UNITYSDK_OFFSET(0x15B8BC20)
-#define HANCMHGEOJM___N__0_OFFSET UNITYSDK_OFFSET(0x15B8CB60)
+#define HANCMHGEOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C147A00)
+#define HANCMHGEOJM_HCNNNELBIBC_OFFSET UNITYSDK_OFFSET(0x1C147B40)
+#define HANCMHGEOJM_HFHLAHLONIJ_OFFSET UNITYSDK_OFFSET(0x1C148190)
+#define HANCMHGEOJM_KGOMOMECIHL_OFFSET UNITYSDK_OFFSET(0x1C147C40)
+#define HANCMHGEOJM_LBHFAIAKKBO_OFFSET UNITYSDK_OFFSET(0x1C147A90)
+#define HANCMHGEOJM_OCELGEGCHLH_OFFSET UNITYSDK_OFFSET(0x1C147AD0)
+#define HANCMHGEOJM___N__0_OFFSET UNITYSDK_OFFSET(0x1C148A10)
 
-inline static constexpr unsigned int HANCMHGEOJM_TypeDefinitionIndex = 73883;
+inline static constexpr unsigned int HANCMHGEOJM_TypeDefinitionIndex = 76009;
 
 	class HANCMHGEOJM : public ::BMIKHDAIIMO
 	{
 	public:
-		::System::Int32 KHBFNMDLILM; // 0x288
-		::System::Int32 ENNBKAEMKHD; // 0x28C
-		::System::Nullable_1<::UnityEngine::Vector3> ONAFKLJMHIH; // 0x290
+		::System::Int32 ENNBKAEMKHD; // 0x290
+		::System::Int32 KHBFNMDLILM; // 0x294
+		::System::Nullable_1<::UnityEngine::Vector3> ONAFKLJMHIH; // 0x298
 		::System::Void _ctor(::RPG::Client::OpenWorld::StreamingLayerDetail* a1, ::LJFHKAJPFNE* a2, ::KLEFGGIHGMI* a3, ::UnityEngine::GameObject* a4, ::UnityEngine::GameObject* a5, ::System::Nullable_1<::UnityEngine::Vector3> a6)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingLayerDetail*, ::LJFHKAJPFNE*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + HANCMHGEOJM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/CFObject.h"
 
-#define MONO_NET_CFDICTIONARY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF8D9A0)
-#define MONO_NET_CFDICTIONARY_CFDICTIONARYGETVALUE_OFFSET UNITYSDK_OFFSET(0x1EF8DCF0)
-#define MONO_NET_CFDICTIONARY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8DC60)
-#define MONO_NET_CFDICTIONARY_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1EF8DD80)
-#define MONO_NET_CFDICTIONARY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EF8DE70)
+#define MONO_NET_CFDICTIONARY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAE1280)
+#define MONO_NET_CFDICTIONARY_CFDICTIONARYGETVALUE_OFFSET UNITYSDK_OFFSET(0x1DAE15D0)
+#define MONO_NET_CFDICTIONARY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE1540)
+#define MONO_NET_CFDICTIONARY_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1DAE1660)
+#define MONO_NET_CFDICTIONARY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1DAE1750)
 
 namespace Mono::Net
 {
@@ -15,14 +15,14 @@ namespace Mono::Net
 	class CFDictionary : public ::Mono::Net::CFObject
 	{
 	public:
-		static ::System::IntPtr* StaticGet_ValueCallbacks()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFDictionary")->GetStaticField(0x8390);
-		}
-
 		static ::System::IntPtr* StaticGet_KeyCallbacks()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFDictionary")->GetStaticField(0x8398);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFDictionary")->GetStaticField(0x99B0);
+		}
+
+		static ::System::IntPtr* StaticGet_ValueCallbacks()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFDictionary")->GetStaticField(0x99B8);
 		}
 
 		static ::System::Void _cctor()

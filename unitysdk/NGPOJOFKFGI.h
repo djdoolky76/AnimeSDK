@@ -7,11 +7,11 @@ class NGPOJOFKFGI_GEOEFGOJLCF;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define NGPOJOFKFGI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1DD51B20)
-#define NGPOJOFKFGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD52670)
-#define NGPOJOFKFGI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DD522B0)
+#define NGPOJOFKFGI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16F872C0)
+#define NGPOJOFKFGI_CTOR_OFFSET UNITYSDK_OFFSET(0x16F87E10)
+#define NGPOJOFKFGI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16F87A50)
 
-inline static constexpr unsigned int NGPOJOFKFGI_TypeDefinitionIndex = 6190;
+inline static constexpr unsigned int NGPOJOFKFGI_TypeDefinitionIndex = 6197;
 
 	class NGPOJOFKFGI : public ::System::Object
 	{

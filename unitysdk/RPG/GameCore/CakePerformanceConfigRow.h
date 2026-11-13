@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakePerformanceConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKEPERFORMANCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D519590)
-#define RPG_GAMECORE_CAKEPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D519320)
+#define RPG_GAMECORE_CAKEPERFORMANCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF2410)
+#define RPG_GAMECORE_CAKEPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBF21A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakePerformanceConfigRow_TypeDefinitionIndex = 12930;
+	inline static constexpr unsigned int CakePerformanceConfigRow_TypeDefinitionIndex = 13002;
 
 	class CakePerformanceConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ActorsList; // 0x10
-		::System::String* MoviePicPath; // 0x18
-		::RPG::Client::TextID PerformanceName; // 0x20
-		::System::UInt32 QuestID; // 0x30
-		::System::UInt32 PerformanceID; // 0x34
+		::System::String* MoviePicPath; // 0x10
+		::Il2CppArray<::System::UInt32>* ActorsList; // 0x18
+		::System::UInt32 QuestID; // 0x20
+		::System::UInt32 PerformanceID; // 0x24
+		::RPG::Client::TextID PerformanceName; // 0x28
 		::System::UInt32 ID; // 0x38
 		::System::Void _ctor()
 		{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OBGPJKCJIEC;
 
-#define HEOGGJHDOMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15C56960)
+#define HEOGGJHDOMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A20D7B0)
 
-inline static constexpr unsigned int HEOGGJHDOMP_TypeDefinitionIndex = 71556;
+inline static constexpr unsigned int HEOGGJHDOMP_TypeDefinitionIndex = 73540;
 
 	class HEOGGJHDOMP : public ::System::Object
 	{

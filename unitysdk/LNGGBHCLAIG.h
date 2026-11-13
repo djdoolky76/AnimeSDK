@@ -5,49 +5,36 @@
 #include "unitysdk/IOKPMIHIPGM.h"
 class NHIPPCAPNPI;
 class PFCHNCGHGNI;
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace RPG::Client { class BattleAvatarNihiluxCustomUIData; }
 
-#define LNGGBHCLAIG_AACNHMNELFI_OFFSET UNITYSDK_OFFSET(0xB7D7050)
-#define LNGGBHCLAIG_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7D7980)
-#define LNGGBHCLAIG_CLEAR_OFFSET UNITYSDK_OFFSET(0xB7D6DB0)
-#define LNGGBHCLAIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D7940)
-#define LNGGBHCLAIG_GET_ATMOSPHERECONFIG_OFFSET UNITYSDK_OFFSET(0xB7D7920)
-#define LNGGBHCLAIG_GET_SHOWEFFECT_OFFSET UNITYSDK_OFFSET(0xB7D77E0)
-#define LNGGBHCLAIG_NHEBCDDLGCO_OFFSET UNITYSDK_OFFSET(0xB7D7800)
-#define LNGGBHCLAIG_NPMOELCNLAI_OFFSET UNITYSDK_OFFSET(0xB7D7360)
-#define LNGGBHCLAIG_OGMNFCJBNIF_OFFSET UNITYSDK_OFFSET(0xB7D71F0)
-#define LNGGBHCLAIG_OIGGGIMOGKI_OFFSET UNITYSDK_OFFSET(0xB7D6E20)
-#define LNGGBHCLAIG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB7D6F60)
-#define LNGGBHCLAIG_PGKHBBDFGDO_OFFSET UNITYSDK_OFFSET(0xB7D7310)
-#define LNGGBHCLAIG_SET_ATMOSPHERECONFIG_OFFSET UNITYSDK_OFFSET(0xB7D7930)
-#define LNGGBHCLAIG_SET_SHOWEFFECT_OFFSET UNITYSDK_OFFSET(0xB7D77F0)
+#define LNGGBHCLAIG_AACNHMNELFI_OFFSET UNITYSDK_OFFSET(0x1A589040)
+#define LNGGBHCLAIG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A588D20)
+#define LNGGBHCLAIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A589550)
+#define LNGGBHCLAIG_FBBKOEIBGNM_OFFSET UNITYSDK_OFFSET(0x1A5893C0)
+#define LNGGBHCLAIG_GET_ATMOSPHERECONFIG_OFFSET UNITYSDK_OFFSET(0x1A589530)
+#define LNGGBHCLAIG_GET_SHOWEFFECT_OFFSET UNITYSDK_OFFSET(0x1A5893A0)
+#define LNGGBHCLAIG_IJDECGEOHBM_OFFSET UNITYSDK_OFFSET(0x1A589300)
+#define LNGGBHCLAIG_NHEBCDDLGCO_OFFSET UNITYSDK_OFFSET(0x1A589410)
+#define LNGGBHCLAIG_OGMNFCJBNIF_OFFSET UNITYSDK_OFFSET(0x1A5891E0)
+#define LNGGBHCLAIG_OIGGGIMOGKI_OFFSET UNITYSDK_OFFSET(0x1A588DA0)
+#define LNGGBHCLAIG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1A588EE0)
+#define LNGGBHCLAIG_PGKHBBDFGDO_OFFSET UNITYSDK_OFFSET(0x1A589250)
+#define LNGGBHCLAIG_PHMIHONCBCP_OFFSET UNITYSDK_OFFSET(0x1A5892A0)
+#define LNGGBHCLAIG_SET_ATMOSPHERECONFIG_OFFSET UNITYSDK_OFFSET(0x1A589540)
+#define LNGGBHCLAIG_SET_SHOWEFFECT_OFFSET UNITYSDK_OFFSET(0x1A5893B0)
 
-inline static constexpr unsigned int LNGGBHCLAIG_TypeDefinitionIndex = 72193;
+inline static constexpr unsigned int LNGGBHCLAIG_TypeDefinitionIndex = 74255;
 
 	class LNGGBHCLAIG : public ::System::Object
 	{
 	public:
-		::NHIPPCAPNPI* APCENCANDNM; // 0x10
-		::PFCHNCGHGNI* _AtmosphereConfig_k__BackingField; // 0x18
-		::System::Boolean _ShowEffect_k__BackingField; // 0x20
-		static ::PFCHNCGHGNI** StaticGet_HNJFINNACLG()
-		{
-			return (::PFCHNCGHGNI**)UnitySDK::FromName("", "LNGGBHCLAIG")->GetStaticField(0x6AD10);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ElationTimeAtmosphereType, ::PFCHNCGHGNI*>** StaticGet_JLJLOEGKLGJ()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ElationTimeAtmosphereType, ::PFCHNCGHGNI*>**)UnitySDK::FromName("", "LNGGBHCLAIG")->GetStaticField(0x6AD18);
-		}
-
+		::RPG::Client::BattleAvatarNihiluxCustomUIData* EHNOGCBHACN; // 0x10
+		::NHIPPCAPNPI* APCENCANDNM; // 0x18
+		::PFCHNCGHGNI* _AtmosphereConfig_k__BackingField; // 0x20
+		::System::Boolean _ShowEffect_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LNGGBHCLAIG_CTOR_OFFSET))(this);
-		}
-
-		static ::System::Void _cctor()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LNGGBHCLAIG_CCTOR_OFFSET))();
 		}
 
 		::System::Void Clear()
@@ -58,6 +45,16 @@ inline static constexpr unsigned int LNGGBHCLAIG_TypeDefinitionIndex = 72193;
 		::System::Void PAGKOAEOLKA(::IOKPMIHIPGM a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::IOKPMIHIPGM))((::PBYTE)hIl2Cpp + LNGGBHCLAIG_PAGKOAEOLKA_OFFSET))(this, a1);
+		}
+
+		::System::Boolean PHMIHONCBCP()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LNGGBHCLAIG_PHMIHONCBCP_OFFSET))(this);
+		}
+
+		::System::Void IJDECGEOHBM(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + LNGGBHCLAIG_IJDECGEOHBM_OFFSET))(this, a1);
 		}
 
 		::System::Void OIGGGIMOGKI()
@@ -80,11 +77,6 @@ inline static constexpr unsigned int LNGGBHCLAIG_TypeDefinitionIndex = 72193;
 			return ((::PFCHNCGHGNI*(*)(::PVOID, ::RPG::GameCore::ElationTimeAtmosphereType))((::PBYTE)hIl2Cpp + LNGGBHCLAIG_OGMNFCJBNIF_OFFSET))(this, a1);
 		}
 
-		static ::System::Void NPMOELCNLAI()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LNGGBHCLAIG_NPMOELCNLAI_OFFSET))();
-		}
-
 		::System::Boolean get_ShowEffect()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LNGGBHCLAIG_GET_SHOWEFFECT_OFFSET))(this);
@@ -93,6 +85,11 @@ inline static constexpr unsigned int LNGGBHCLAIG_TypeDefinitionIndex = 72193;
 		::System::Void set_ShowEffect(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + LNGGBHCLAIG_SET_SHOWEFFECT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean FBBKOEIBGNM()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LNGGBHCLAIG_FBBKOEIBGNM_OFFSET))(this);
 		}
 
 		::System::Int32 NHEBCDDLGCO()

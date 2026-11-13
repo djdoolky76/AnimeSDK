@@ -5,14 +5,14 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureCharacterIdleShowConfig; }
 namespace RPG::GameCore { class AdventureCharacterIdleShowShapeConfig; }
 
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D399C50)
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D399A50)
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1D399C20)
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D398F00)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8FB200)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FB090)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1E8FB1D0)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FA4D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterIdleShowConfig_TypeDefinitionIndex = 17436;
+	inline static constexpr unsigned int AdventureCharacterIdleShowConfig_TypeDefinitionIndex = 17604;
 
 	class AdventureCharacterIdleShowConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,9 +21,10 @@ namespace RPG::GameCore
 		::System::Single IdleShow2DetectDistance; // 0x14
 		::RPG::GameCore::AdventureCharacterIdleShowShapeConfig* IdleShow1ShapeConfig; // 0x18
 		::RPG::GameCore::AdventureCharacterIdleShowShapeConfig* IdleShow2ShapeConfig; // 0x20
+		::System::Boolean ForbidIdleShowInVirtualCamera; // 0x28
 		static ::RPG::GameCore::AdventureCharacterIdleShowConfig** StaticGet__Default_k__BackingField()
 		{
-			return (::RPG::GameCore::AdventureCharacterIdleShowConfig**)UnitySDK::FromName("RPG.GameCore", "AdventureCharacterIdleShowConfig")->GetStaticField(0x1D660);
+			return (::RPG::GameCore::AdventureCharacterIdleShowConfig**)UnitySDK::FromName("RPG.GameCore", "AdventureCharacterIdleShowConfig")->GetStaticField(0x1F690);
 		}
 
 		::System::Void _ctor()

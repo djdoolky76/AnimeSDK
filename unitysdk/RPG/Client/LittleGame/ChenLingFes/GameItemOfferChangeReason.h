@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int GameItemOfferChangeReason_TypeDefinitionIndex = 77740;
+	inline static constexpr unsigned int GameItemOfferChangeReason_TypeDefinitionIndex = 80475;
 
 	enum class GameItemOfferChangeReason : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/EnviromentSystemV2Space/EnvCustomCurveType.h"
 #include "unitysdk/EnviromentSystemV2Space/PropertyDataBase.h"
 
-#define ENVIROMENTSYSTEMV2SPACE_CUSTOMCURVEPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15628ED0)
+#define ENVIROMENTSYSTEMV2SPACE_CUSTOMCURVEPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x136AF450)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int CustomCurvePropertyData_TypeDefinitionIndex = 49398;
+	inline static constexpr unsigned int CustomCurvePropertyData_TypeDefinitionIndex = 50474;
 
 	class CustomCurvePropertyData : public ::EnviromentSystemV2Space::PropertyDataBase
 	{

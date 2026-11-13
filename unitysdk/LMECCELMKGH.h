@@ -6,22 +6,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LMECCELMKGH_ADLCFKNCGCE_OFFSET UNITYSDK_OFFSET(0xB775330)
-#define LMECCELMKGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB774FB0)
-#define LMECCELMKGH_DDCNPPLPGNH_OFFSET UNITYSDK_OFFSET(0xB7755B0)
-#define LMECCELMKGH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB775490)
-#define LMECCELMKGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB774FC0)
-#define LMECCELMKGH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB775440)
-#define LMECCELMKGH_TICK_OFFSET UNITYSDK_OFFSET(0xB775550)
+#define LMECCELMKGH_ADLCFKNCGCE_OFFSET UNITYSDK_OFFSET(0x1AFC55A0)
+#define LMECCELMKGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC5220)
+#define LMECCELMKGH_DDCNPPLPGNH_OFFSET UNITYSDK_OFFSET(0x1AFC5820)
+#define LMECCELMKGH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AFC5700)
+#define LMECCELMKGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFC5230)
+#define LMECCELMKGH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AFC56B0)
+#define LMECCELMKGH_TICK_OFFSET UNITYSDK_OFFSET(0x1AFC57C0)
 
-inline static constexpr unsigned int LMECCELMKGH_TypeDefinitionIndex = 58369;
+inline static constexpr unsigned int LMECCELMKGH_TypeDefinitionIndex = 59625;
 
 	class LMECCELMKGH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::QuestGetReward* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* NINPFFIMKLJ; // 0x28
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* NINPFFIMKLJ; // 0x20
+		::RPG::GameCore::QuestGetReward* IGHAHBNLIJA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::QuestGetReward* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::QuestGetReward*))((::PBYTE)hIl2Cpp + LMECCELMKGH_CTOR_OFFSET))(this, a1, a2);

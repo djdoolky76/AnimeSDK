@@ -5,19 +5,19 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleEffectController; }
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleParticleEffect; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA34C30)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__DISPLAYCLASS7_0__PLAYPARTICLEEFFECTBYPATH_B__0_OFFSET UNITYSDK_OFFSET(0xCA35570)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BFC60)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__DISPLAYCLASS7_0__PLAYPARTICLEEFFECTBYPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1D7C05A0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleEffectController___c__DisplayClass7_0_TypeDefinitionIndex = 76403;
+	inline static constexpr unsigned int ChenLingBattleEffectController___c__DisplayClass7_0_TypeDefinitionIndex = 78734;
 
 	class ChenLingBattleEffectController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::RPG::Client::ChenLingBattle::ChenLingBattleEffectController* __4__this; // 0x10
 		::RPG::Client::ChenLingBattle::ChenLingBattleParticleEffect* effect; // 0x18
-		::RPG::Client::ChenLingBattle::ChenLingBattleEffectController* __4__this; // 0x20
+		::System::Action* callback; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);

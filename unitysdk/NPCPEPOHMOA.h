@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RewindTimeRewindTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPCPEPOHMOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF3960)
-#define NPCPEPOHMOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF3990)
+#define NPCPEPOHMOA_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF5460)
+#define NPCPEPOHMOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19CF5490)
 
-inline static constexpr unsigned int NPCPEPOHMOA_TypeDefinitionIndex = 53388;
+inline static constexpr unsigned int NPCPEPOHMOA_TypeDefinitionIndex = 54550;
 
 	class NPCPEPOHMOA
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TraceHeartDialNPC; }
 
-#define RPG_GAMECORE_TRACEHEARTDIALNPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFAC80)
-#define RPG_GAMECORE_TRACEHEARTDIALNPC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DBFAC90)
-#define RPG_GAMECORE_TRACEHEARTDIALNPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBFAC50)
+#define RPG_GAMECORE_TRACEHEARTDIALNPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D40D0)
+#define RPG_GAMECORE_TRACEHEARTDIALNPC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F5D40E0)
+#define RPG_GAMECORE_TRACEHEARTDIALNPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D40A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TraceHeartDialNPC_TypeDefinitionIndex = 21222;
+	inline static constexpr unsigned int TraceHeartDialNPC_TypeDefinitionIndex = 21565;
 
 	class TraceHeartDialNPC : public ::RPG::GameCore::TaskConfig
 	{

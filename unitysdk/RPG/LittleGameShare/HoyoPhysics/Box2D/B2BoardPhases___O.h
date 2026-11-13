@@ -7,19 +7,19 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { template <typename T> class
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BoardPhases___O_TypeDefinitionIndex = 36589;
+	inline static constexpr unsigned int B2BoardPhases___O_TypeDefinitionIndex = 37517;
 
 	class B2BoardPhases___O : public ::System::Object
 	{
 	public:
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__1___b2FindPairsTask()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1E870);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x173B0);
 		}
 
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryPairContext>** StaticGet__0___b2PairQueryCallback()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryPairContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1E878);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryPairContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x173B8);
 		}
 
 	};

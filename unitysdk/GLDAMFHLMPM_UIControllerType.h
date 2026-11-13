@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GLDAMFHLMPM_UIControllerType_TypeDefinitionIndex = 59852;
+inline static constexpr unsigned int GLDAMFHLMPM_UIControllerType_TypeDefinitionIndex = 61133;
 
 	enum class GLDAMFHLMPM_UIControllerType : ::System::Int32
 	{

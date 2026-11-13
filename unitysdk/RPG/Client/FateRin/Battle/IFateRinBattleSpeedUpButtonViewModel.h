@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleSpeedUpButtonViewModel_TypeDefinitionIndex = 80950;
+	inline static constexpr unsigned int IFateRinBattleSpeedUpButtonViewModel_TypeDefinitionIndex = 83730;
 
 	class IFateRinBattleSpeedUpButtonViewModel
 	{

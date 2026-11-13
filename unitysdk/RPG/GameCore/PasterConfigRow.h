@@ -7,25 +7,25 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PasterConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PASTERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C4D90)
-#define RPG_GAMECORE_PASTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C3620)
+#define RPG_GAMECORE_PASTERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F146E70)
+#define RPG_GAMECORE_PASTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F145720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PasterConfigRow_TypeDefinitionIndex = 15371;
+	inline static constexpr unsigned int PasterConfigRow_TypeDefinitionIndex = 15527;
 
 	class PasterConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TravelBrochureID; // 0x10
-		::System::String* TextPasterPrefab; // 0x18
-		::RPG::Client::TextID PasterUnlockDesc; // 0x20
-		::RPG::Client::TextID PasterTextmap; // 0x30
-		::System::Boolean DefaultUnlock; // 0x40
+		::System::String* TextPasterPrefab; // 0x10
+		::Il2CppArray<::System::UInt32>* TravelBrochureID; // 0x18
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 IncreaseCompletion; // 0x24
+		::RPG::Client::TextID PasterUnlockDesc; // 0x28
+		::System::Boolean DefaultUnlock; // 0x38
 		::System::Byte _padding0[0x3];
-		::System::UInt32 IncreaseCompletion; // 0x44
-		::RPG::GameCore::TravelBrochurePasterType Type; // 0x48
-		::System::UInt32 ID; // 0x4C
+		::RPG::GameCore::TravelBrochurePasterType Type; // 0x3C
+		::RPG::Client::TextID PasterTextmap; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PASTERCONFIGROW_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PBBHMJFLBGC;
 
-#define DNIHJEFNKKO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA01650)
-#define DNIHJEFNKKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA016D0)
+#define DNIHJEFNKKO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB33990)
+#define DNIHJEFNKKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB33A10)
 
-inline static constexpr unsigned int DNIHJEFNKKO_TypeDefinitionIndex = 43658;
+inline static constexpr unsigned int DNIHJEFNKKO_TypeDefinitionIndex = 44641;
 
 	class DNIHJEFNKKO : public ::System::Object
 	{

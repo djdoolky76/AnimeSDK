@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfPhaseConfig; }
 namespace RPG::GameCore { class ElfPhaseItem; }
 
-#define RPG_GAMECORE_ELFPHASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D609A20)
-#define RPG_GAMECORE_ELFPHASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D609930)
+#define RPG_GAMECORE_ELFPHASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E04D0)
+#define RPG_GAMECORE_ELFPHASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E03E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfPhaseConfig_TypeDefinitionIndex = 18457;
+	inline static constexpr unsigned int ElfPhaseConfig_TypeDefinitionIndex = 18617;
 
 	class ElfPhaseConfig : public ::RPG::GameCore::JsonConfig
 	{

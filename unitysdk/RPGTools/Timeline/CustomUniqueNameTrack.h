@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_CUSTOMUNIQUENAMETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C8AE0)
-#define RPGTOOLS_TIMELINE_CUSTOMUNIQUENAMETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xE8CCA30)
+#define RPGTOOLS_TIMELINE_CUSTOMUNIQUENAMETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E93E0)
+#define RPGTOOLS_TIMELINE_CUSTOMUNIQUENAMETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x1D8ED2E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CustomUniqueNameTrack_TypeDefinitionIndex = 47870;
+	inline static constexpr unsigned int CustomUniqueNameTrack_TypeDefinitionIndex = 48901;
 
 	class CustomUniqueNameTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

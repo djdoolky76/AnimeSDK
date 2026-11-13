@@ -7,17 +7,17 @@ class PEGCILIIKEE;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define PEGCILIIKEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A7930)
-#define PEGCILIIKEE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2A7940)
-#define PEGCILIIKEE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2A7900)
+#define PEGCILIIKEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E712F40)
+#define PEGCILIIKEE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E712F50)
+#define PEGCILIIKEE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E712F10)
 
-inline static constexpr unsigned int PEGCILIIKEE_TypeDefinitionIndex = 22784;
+inline static constexpr unsigned int PEGCILIIKEE_TypeDefinitionIndex = 23206;
 
 	class PEGCILIIKEE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x18
-		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x20
+		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x18
+		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x20
 		::HAFGAIKHMMG FKCKKFALPBK; // 0x28
 		::System::Void _ctor()
 		{

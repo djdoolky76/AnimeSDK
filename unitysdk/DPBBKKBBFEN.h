@@ -7,11 +7,11 @@ namespace RPG::GameCore { class RtTargetMapPosWithMaxTargetCount; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DPBBKKBBFEN_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF3300)
-#define DPBBKKBBFEN_LEMEKFPJJFL_OFFSET UNITYSDK_OFFSET(0x11FF35F0)
-#define DPBBKKBBFEN_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x11FF3320)
+#define DPBBKKBBFEN_CTOR_OFFSET UNITYSDK_OFFSET(0x191B8330)
+#define DPBBKKBBFEN_LEMEKFPJJFL_OFFSET UNITYSDK_OFFSET(0x191B8620)
+#define DPBBKKBBFEN_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x191B8350)
 
-inline static constexpr unsigned int DPBBKKBBFEN_TypeDefinitionIndex = 53815;
+inline static constexpr unsigned int DPBBKKBBFEN_TypeDefinitionIndex = 54979;
 
 	class DPBBKKBBFEN
 	{

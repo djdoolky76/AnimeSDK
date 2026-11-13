@@ -10,43 +10,43 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3ED730)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3ED760)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETCHILDPRIVATEFIELDS_B__39_0_OFFSET UNITYSDK_OFFSET(0x1C3ED950)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETDEFAULTCONSTRUCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C3ED770)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETFIELDSANDPROPERTIES_B__29_0_OFFSET UNITYSDK_OFFSET(0x1C3ED830)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETMEMBERINFOFROMTYPE_B__37_0_OFFSET UNITYSDK_OFFSET(0x1C3ED8C0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20864DA0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20864DD0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETCHILDPRIVATEFIELDS_B__39_0_OFFSET UNITYSDK_OFFSET(0x20864FC0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETDEFAULTCONSTRUCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x20864DE0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETFIELDSANDPROPERTIES_B__29_0_OFFSET UNITYSDK_OFFSET(0x20864EA0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETMEMBERINFOFROMTYPE_B__37_0_OFFSET UNITYSDK_OFFSET(0x20864F30)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionUtils___c_TypeDefinitionIndex = 9680;
+	inline static constexpr unsigned int ReflectionUtils___c_TypeDefinitionIndex = 9688;
 
 	class ReflectionUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__39_0()
-		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x670);
-		}
-
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet___9__29_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x678);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x620);
+		}
+
+		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__39_0()
+		{
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x628);
 		}
 
 		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x680);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x688);
+			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x630);
 		}
 
 		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___9__37_0()
 		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x690);
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x638);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x640);
 		}
 
 		static ::System::Void _cctor()

@@ -4,24 +4,24 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define EPBHHKLMKNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA339C0)
-#define EPBHHKLMKNK_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x1CA337B0)
-#define EPBHHKLMKNK_GKMDJFIGIID_OFFSET UNITYSDK_OFFSET(0x1CA33940)
+#define EPBHHKLMKNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1FE0B0)
+#define EPBHHKLMKNK_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x1C1FDE80)
+#define EPBHHKLMKNK_GKMDJFIGIID_OFFSET UNITYSDK_OFFSET(0x1C1FE030)
 
-inline static constexpr unsigned int EPBHHKLMKNK_TypeDefinitionIndex = 43716;
+inline static constexpr unsigned int EPBHHKLMKNK_TypeDefinitionIndex = 44791;
 
 	class EPBHHKLMKNK : public ::System::Object
 	{
 	public:
-		::System::String* KBEPAIAFLHL; // 0x10
+		::System::String* OLOIFNNLKJP; // 0x10
 		::System::String* NMMKDFFHOLL; // 0x18
-		::System::String* OLOIFNNLKJP; // 0x20
-		::System::Single MJLPOEMDNHD; // 0x28
+		::System::String* KBEPAIAFLHL; // 0x20
+		::RPG::GameCore::ChenLingFesToastStyleType KICGKFDELJP; // 0x28
 		::System::Boolean IEHMINGBCOH; // 0x2C
 		::System::Boolean HCBMABMLFPG; // 0x2D
 		::System::Byte _padding0[0x2];
 		::System::Single KIPAGNCANAJ; // 0x30
-		::RPG::GameCore::ChenLingFesToastStyleType KICGKFDELJP; // 0x34
+		::System::Single MJLPOEMDNHD; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPBHHKLMKNK_CTOR_OFFSET))(this);

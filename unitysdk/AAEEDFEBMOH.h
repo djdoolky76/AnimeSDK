@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class GroupInitMemberEntityPropState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AAEEDFEBMOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C23C0)
-#define AAEEDFEBMOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0C23F0)
+#define AAEEDFEBMOH_CTOR_OFFSET UNITYSDK_OFFSET(0x18C72640)
+#define AAEEDFEBMOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C72670)
 
-inline static constexpr unsigned int AAEEDFEBMOH_TypeDefinitionIndex = 52919;
+inline static constexpr unsigned int AAEEDFEBMOH_TypeDefinitionIndex = 54075;
 
 	class AAEEDFEBMOH
 	{

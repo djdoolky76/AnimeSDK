@@ -4,16 +4,16 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define DFOAEBGJJJG_AHNKMGDIHCG_CTOR_OFFSET UNITYSDK_OFFSET(0xE828A20)
-#define DFOAEBGJJJG_AHNKMGDIHCG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xE8292C0)
+#define DFOAEBGJJJG_AHNKMGDIHCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3A0F80)
+#define DFOAEBGJJJG_AHNKMGDIHCG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1B3A1820)
 
-inline static constexpr unsigned int DFOAEBGJJJG_AHNKMGDIHCG_TypeDefinitionIndex = 76715;
+inline static constexpr unsigned int DFOAEBGJJJG_AHNKMGDIHCG_TypeDefinitionIndex = 79048;
 
 	class DFOAEBGJJJG_AHNKMGDIHCG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::Int32>* KLJCLIKJGCC; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* KDNHCODKFKJ; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* KDNHCODKFKJ; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::Int32>* KLJCLIKJGCC; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* CPPHAKMCBLI; // 0x20
 		::System::Boolean AHMFFJBDHLL; // 0x28
 		::System::Void _ctor()

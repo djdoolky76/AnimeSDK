@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_SCENEQUADDEFORMDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE08A8C0)
+#define RPG_CLIENT_SCENEQUADDEFORMDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0857C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneQuadDeformData_TypeDefinitionIndex = 70849;
+	inline static constexpr unsigned int SceneQuadDeformData_TypeDefinitionIndex = 72828;
 
 	struct alignas(4) SceneQuadDeformData
 	{
@@ -20,7 +20,7 @@ namespace RPG::Client
 		::System::Int32 AtlasID; // 0x30
 		static ::RPG::Client::SceneQuadDeformData* StaticGet_Default()
 		{
-			return (::RPG::Client::SceneQuadDeformData*)UnitySDK::FromName("RPG.Client", "SceneQuadDeformData")->GetStaticField(0x156B0);
+			return (::RPG::Client::SceneQuadDeformData*)UnitySDK::FromName("RPG.Client", "SceneQuadDeformData")->GetStaticField(0x160A0);
 		}
 
 		static ::System::Void _cctor()

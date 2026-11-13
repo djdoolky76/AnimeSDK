@@ -7,10 +7,10 @@ class MBBEKGBEEFJ;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceAbilityConfig; }
 
-#define MBBEKGBEEFJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C6DDBA0)
-#define MBBEKGBEEFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C719930)
+#define MBBEKGBEEFJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1ABED480)
+#define MBBEKGBEEFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC29140)
 
-inline static constexpr unsigned int MBBEKGBEEFJ_TypeDefinitionIndex = 37362;
+inline static constexpr unsigned int MBBEKGBEEFJ_TypeDefinitionIndex = 38290;
 
 	class MBBEKGBEEFJ : public ::KIGLHBEPNOG
 	{

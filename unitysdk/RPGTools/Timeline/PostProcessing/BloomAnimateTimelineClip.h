@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE913290)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C75DE20)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomAnimateTimelineClip_TypeDefinitionIndex = 48548;
+	inline static constexpr unsigned int BloomAnimateTimelineClip_TypeDefinitionIndex = 49589;
 
 	class BloomAnimateTimelineClip
 	{

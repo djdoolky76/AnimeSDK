@@ -5,16 +5,16 @@ class GIPELBHHIHI;
 class GIPELBHHIHI_AEHOOFFKNCB;
 namespace RPG::GameCore { class GameEntity; }
 
-#define GIPELBHHIHI___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A434A0)
-#define GIPELBHHIHI___C__DISPLAYCLASS11_0__TRYCREATEPOSESWITCHER_B__0_OFFSET UNITYSDK_OFFSET(0x15A44E10)
+#define GIPELBHHIHI___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F4130)
+#define GIPELBHHIHI___C__DISPLAYCLASS11_0__TRYCREATEPOSESWITCHER_B__0_OFFSET UNITYSDK_OFFSET(0x1A3F5B80)
 
-inline static constexpr unsigned int GIPELBHHIHI___c__DisplayClass11_0_TypeDefinitionIndex = 60630;
+inline static constexpr unsigned int GIPELBHHIHI___c__DisplayClass11_0_TypeDefinitionIndex = 62007;
 
 	class GIPELBHHIHI___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::GIPELBHHIHI* __4__this; // 0x10
-		::GIPELBHHIHI_AEHOOFFKNCB* volumeV2; // 0x18
+		::GIPELBHHIHI_AEHOOFFKNCB* volumeV2; // 0x10
+		::GIPELBHHIHI* __4__this; // 0x18
 		::System::UInt32 groupID; // 0x20
 		::System::UInt32 instanceID; // 0x24
 		::System::Void _ctor()

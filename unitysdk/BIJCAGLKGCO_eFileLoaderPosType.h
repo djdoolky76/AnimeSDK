@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BIJCAGLKGCO_eFileLoaderPosType_TypeDefinitionIndex = 35281;
+inline static constexpr unsigned int BIJCAGLKGCO_eFileLoaderPosType_TypeDefinitionIndex = 36209;
 
 	enum class BIJCAGLKGCO_eFileLoaderPosType : ::System::Int32
 	{

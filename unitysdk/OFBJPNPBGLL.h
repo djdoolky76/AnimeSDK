@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace ScenenLightManager { class BlockEnvExportDataHeader; }
 
-#define OFBJPNPBGLL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE35840)
-#define OFBJPNPBGLL_HKGGINIOJOG_OFFSET UNITYSDK_OFFSET(0xBE35620)
+#define OFBJPNPBGLL_CTOR_OFFSET UNITYSDK_OFFSET(0x17664B50)
+#define OFBJPNPBGLL_HKGGINIOJOG_OFFSET UNITYSDK_OFFSET(0x17664930)
 
-inline static constexpr unsigned int OFBJPNPBGLL_TypeDefinitionIndex = 49167;
+inline static constexpr unsigned int OFBJPNPBGLL_TypeDefinitionIndex = 50243;
 
 	class OFBJPNPBGLL : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PJMGBLIFDFP_IIEFIMPLAIK_TypeDefinitionIndex = 25796;
+inline static constexpr unsigned int PJMGBLIFDFP_IIEFIMPLAIK_TypeDefinitionIndex = 26293;
 
 	enum class PJMGBLIFDFP_IIEFIMPLAIK : ::System::Int32
 	{

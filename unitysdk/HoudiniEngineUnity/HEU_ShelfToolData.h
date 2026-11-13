@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_SHELFTOOLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B962EB0)
+#define HOUDINIENGINEUNITY_HEU_SHELFTOOLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8252F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ShelfToolData_TypeDefinitionIndex = 40661;
+	inline static constexpr unsigned int HEU_ShelfToolData_TypeDefinitionIndex = 41636;
 
 	class HEU_ShelfToolData : public ::System::Object
 	{

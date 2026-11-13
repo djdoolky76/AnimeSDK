@@ -8,23 +8,23 @@ namespace RPG::Client { class RelicItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DIPAOFKGPMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF220F80)
-#define DIPAOFKGPMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF220FC0)
-#define DIPAOFKGPMG___C__GETPREVIEWAVATARWITHVIRTUALRELICS_B__19_0_OFFSET UNITYSDK_OFFSET(0xF220FD0)
+#define DIPAOFKGPMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18EDBB60)
+#define DIPAOFKGPMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18EDBBA0)
+#define DIPAOFKGPMG___C__GETPREVIEWAVATARWITHVIRTUALRELICS_B__19_0_OFFSET UNITYSDK_OFFSET(0x18EDBBB0)
 
-inline static constexpr unsigned int DIPAOFKGPMG___c_TypeDefinitionIndex = 62699;
+inline static constexpr unsigned int DIPAOFKGPMG___c_TypeDefinitionIndex = 64133;
 
 	class DIPAOFKGPMG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69600);
 		}
 
 		static ::System::Func_2<::RPG::Client::RelicItemData*, ::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::RPG::Client::RelicItemData*, ::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AB8);
+			return (::System::Func_2<::RPG::Client::RelicItemData*, ::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69608);
 		}
 
 		static ::System::Void _cctor()

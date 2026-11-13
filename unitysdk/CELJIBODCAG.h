@@ -7,10 +7,10 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CELJIBODCAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC9DEE00)
-#define CELJIBODCAG_DNLHBKDMIHI_OFFSET UNITYSDK_OFFSET(0xC9DEBD0)
+#define CELJIBODCAG_CTOR_OFFSET UNITYSDK_OFFSET(0x188218F0)
+#define CELJIBODCAG_DNLHBKDMIHI_OFFSET UNITYSDK_OFFSET(0x188216C0)
 
-inline static constexpr unsigned int CELJIBODCAG_TypeDefinitionIndex = 59858;
+inline static constexpr unsigned int CELJIBODCAG_TypeDefinitionIndex = 61139;
 
 	class CELJIBODCAG : public ::System::Object
 	{

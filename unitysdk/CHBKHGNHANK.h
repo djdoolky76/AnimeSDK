@@ -3,10 +3,10 @@
 class PEFPDGCHBCL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CHBKHGNHANK_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8BA40)
-#define CHBKHGNHANK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC8BA70)
+#define CHBKHGNHANK_CTOR_OFFSET UNITYSDK_OFFSET(0x17864D70)
+#define CHBKHGNHANK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17864DA0)
 
-inline static constexpr unsigned int CHBKHGNHANK_TypeDefinitionIndex = 52553;
+inline static constexpr unsigned int CHBKHGNHANK_TypeDefinitionIndex = 53659;
 
 	class CHBKHGNHANK
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define BOJFLDBPCJJ_AAFKDOFODJB_OFFSET UNITYSDK_OFFSET(0xC192AF0)
+#define BOJFLDBPCJJ_AAFKDOFODJB_OFFSET UNITYSDK_OFFSET(0x1A7883C0)
 
-inline static constexpr unsigned int BOJFLDBPCJJ_TypeDefinitionIndex = 48897;
+inline static constexpr unsigned int BOJFLDBPCJJ_TypeDefinitionIndex = 49954;
 
 	class BOJFLDBPCJJ : public ::System::Object
 	{

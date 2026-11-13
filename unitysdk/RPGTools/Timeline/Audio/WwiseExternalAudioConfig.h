@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8980)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D69E0)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseExternalAudioConfig_TypeDefinitionIndex = 48843;
+	inline static constexpr unsigned int WwiseExternalAudioConfig_TypeDefinitionIndex = 49889;
 
 	class WwiseExternalAudioConfig : public ::System::Object
 	{

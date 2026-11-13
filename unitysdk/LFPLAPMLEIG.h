@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LFPLAPMLEIG_TypeDefinitionIndex = 42646;
+inline static constexpr unsigned int LFPLAPMLEIG_TypeDefinitionIndex = 43625;
 
 	class LFPLAPMLEIG
 	{

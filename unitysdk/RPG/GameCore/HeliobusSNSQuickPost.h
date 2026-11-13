@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class HeliobusSNSQuickPost; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_HELIOBUSSNSQUICKPOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D736A90)
-#define RPG_GAMECORE_HELIOBUSSNSQUICKPOST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D736AA0)
-#define RPG_GAMECORE_HELIOBUSSNSQUICKPOST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D736A60)
+#define RPG_GAMECORE_HELIOBUSSNSQUICKPOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA85C90)
+#define RPG_GAMECORE_HELIOBUSSNSQUICKPOST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA85CA0)
+#define RPG_GAMECORE_HELIOBUSSNSQUICKPOST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA85C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusSNSQuickPost_TypeDefinitionIndex = 20449;
+	inline static constexpr unsigned int HeliobusSNSQuickPost_TypeDefinitionIndex = 20784;
 
 	class HeliobusSNSQuickPost : public ::RPG::GameCore::TaskConfig
 	{

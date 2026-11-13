@@ -4,36 +4,36 @@
 namespace System { class String; }
 namespace ZXing::Datamatrix::Encoder { class SymbolInfo; }
 
-#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F684B50)
-#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CREATEECCBLOCK_1_OFFSET UNITYSDK_OFFSET(0x1F685770)
-#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CREATEECCBLOCK_OFFSET UNITYSDK_OFFSET(0x1F685700)
-#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_ENCODEECC200_OFFSET UNITYSDK_OFFSET(0x1F67CE50)
+#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x17A7EF90)
+#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CREATEECCBLOCK_1_OFFSET UNITYSDK_OFFSET(0x17A7FBB0)
+#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CREATEECCBLOCK_OFFSET UNITYSDK_OFFSET(0x17A7FB40)
+#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_ENCODEECC200_OFFSET UNITYSDK_OFFSET(0x17A772B0)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int ErrorCorrection_TypeDefinitionIndex = 7051;
+	inline static constexpr unsigned int ErrorCorrection_TypeDefinitionIndex = 7062;
 
 	class ErrorCorrection : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_FACTORS()
-		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "ErrorCorrection")->GetStaticField(0x454E0);
-		}
-
 		static ::Il2CppArray<::System::Int32>** StaticGet_ALOG()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "ErrorCorrection")->GetStaticField(0x454E8);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "ErrorCorrection")->GetStaticField(0x2A350);
 		}
 
-		static ::Il2CppArray<::System::Int32>** StaticGet_FACTOR_SETS()
+		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_FACTORS()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "ErrorCorrection")->GetStaticField(0x454F0);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "ErrorCorrection")->GetStaticField(0x2A358);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_LOG()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "ErrorCorrection")->GetStaticField(0x454F8);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "ErrorCorrection")->GetStaticField(0x2A360);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_FACTOR_SETS()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.Datamatrix.Encoder", "ErrorCorrection")->GetStaticField(0x2A368);
 		}
 
 		static ::System::Void _cctor()

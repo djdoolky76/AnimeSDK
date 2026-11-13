@@ -7,19 +7,19 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewMode
 namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_CARDANIMATIONEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0xCEA6AA0)
+#define RPG_CLIENT_FATERIN_BATTLE_CARDANIMATIONEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB98E20)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int CardAnimationEventArgs_TypeDefinitionIndex = 80882;
+	inline static constexpr unsigned int CardAnimationEventArgs_TypeDefinitionIndex = 83662;
 
 	class CardAnimationEventArgs : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::IPendingPromise* PendingPromise; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardDisplayViewModel*>* AddedCardVMs; // 0x10
 		::RPG::Client::FateRin::CardStateChangeContext* Context; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardDisplayViewModel*>* AddedCardVMs; // 0x20
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel*>* AffectedHandCardVMs; // 0x28
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel*>* AffectedHandCardVMs; // 0x20
+		::RPG::Client::Promises::IPendingPromise* PendingPromise; // 0x28
 		::System::Void _ctor(::RPG::Client::FateRin::CardStateChangeContext* a1, ::RPG::Client::Promises::IPendingPromise* a2, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel*>* a3, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardDisplayViewModel*>* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::CardStateChangeContext*, ::RPG::Client::Promises::IPendingPromise*, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel*>*, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardDisplayViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_CARDANIMATIONEVENTARGS_CTOR_OFFSET))(this, a1, a2, a3, a4);

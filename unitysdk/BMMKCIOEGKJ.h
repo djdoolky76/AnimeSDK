@@ -5,10 +5,10 @@
 namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define BMMKCIOEGKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBACB0)
-#define BMMKCIOEGKJ_NDGMNPMNPAD_OFFSET UNITYSDK_OFFSET(0xBDBACD0)
+#define BMMKCIOEGKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A751970)
+#define BMMKCIOEGKJ_NDGMNPMNPAD_OFFSET UNITYSDK_OFFSET(0x1A751990)
 
-inline static constexpr unsigned int BMMKCIOEGKJ_TypeDefinitionIndex = 75014;
+inline static constexpr unsigned int BMMKCIOEGKJ_TypeDefinitionIndex = 77341;
 
 	class BMMKCIOEGKJ : public ::BNAIELOHEFF
 	{

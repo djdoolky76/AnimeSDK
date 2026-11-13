@@ -6,10 +6,10 @@ class BLFLMBHILEO;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define BLFLMBHILEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F6960)
-#define BLFLMBHILEO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F6820)
+#define BLFLMBHILEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1AF750)
+#define BLFLMBHILEO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F1AF610)
 
-inline static constexpr unsigned int BLFLMBHILEO_TypeDefinitionIndex = 11937;
+inline static constexpr unsigned int BLFLMBHILEO_TypeDefinitionIndex = 11994;
 
 	class BLFLMBHILEO : public ::System::Object
 	{

@@ -1,48 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client { class GridFightGuideChapter; }
+namespace RPG::GameCore { class GridFightGuideQuestConfigRow; }
+namespace RPG::GameCore { class GridFightSeasonGuideQuestConfigRow; }
 namespace System { class Object; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD18F4B0)
-#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD18F4F0)
-#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__GET_ALLCHAPTERQUESTIDS_B__23_0_OFFSET UNITYSDK_OFFSET(0xD18F810)
-#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__GET_COMPLETEDCHAPTERCNT_B__13_0_OFFSET UNITYSDK_OFFSET(0xD18F500)
-#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__GET_CURCHAPTER_B__19_0_OFFSET UNITYSDK_OFFSET(0xD18F790)
-#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__GET_ISALLCHAPTERGOT_B__15_0_OFFSET UNITYSDK_OFFSET(0xD18F5F0)
+#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD7B800)
+#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7B830)
+#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__SYNC_B__35_0_OFFSET UNITYSDK_OFFSET(0x1CD7B840)
+#define RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__SYNC_B__35_1_OFFSET UNITYSDK_OFFSET(0x1CD7B880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGuideBook___c_TypeDefinitionIndex = 64891;
+	inline static constexpr unsigned int GridFightGuideBook___c_TypeDefinitionIndex = 66447;
 
 	class GridFightGuideBook___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightGuideChapter*, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*>** StaticGet___9__23_0()
+		static ::System::Comparison_1<::RPG::GameCore::GridFightGuideQuestConfigRow*>** StaticGet___9__35_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightGuideChapter*, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AE00);
+			return (::System::Comparison_1<::RPG::GameCore::GridFightGuideQuestConfigRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71ED0);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightGuideChapter*, ::System::Boolean>** StaticGet___9__15_0()
+		static ::System::Comparison_1<::RPG::GameCore::GridFightSeasonGuideQuestConfigRow*>** StaticGet___9__35_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightGuideChapter*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AE08);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightGuideChapter*, ::System::Boolean>** StaticGet___9__13_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightGuideChapter*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AE10);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightGuideChapter*, ::System::Boolean>** StaticGet___9__19_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightGuideChapter*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AE18);
+			return (::System::Comparison_1<::RPG::GameCore::GridFightSeasonGuideQuestConfigRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71ED8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AE20);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71EE0);
 		}
 
 		static ::System::Void _cctor()
@@ -55,24 +43,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _get_CompletedChapterCnt_b__13_0(::RPG::Client::GridFightGuideChapter* a1)
+		::System::Int32 _Sync_b__35_0(::RPG::GameCore::GridFightGuideQuestConfigRow* a1, ::RPG::GameCore::GridFightGuideQuestConfigRow* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGuideChapter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__GET_COMPLETEDCHAPTERCNT_B__13_0_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GridFightGuideQuestConfigRow*, ::RPG::GameCore::GridFightGuideQuestConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__SYNC_B__35_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _get_IsAllChapterGot_b__15_0(::RPG::Client::GridFightGuideChapter* a1)
+		::System::Int32 _Sync_b__35_1(::RPG::GameCore::GridFightSeasonGuideQuestConfigRow* a1, ::RPG::GameCore::GridFightSeasonGuideQuestConfigRow* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGuideChapter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__GET_ISALLCHAPTERGOT_B__15_0_OFFSET))(this, a1);
-		}
-
-		::System::Boolean _get_CurChapter_b__19_0(::RPG::Client::GridFightGuideChapter* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGuideChapter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__GET_CURCHAPTER_B__19_0_OFFSET))(this, a1);
-		}
-
-		::System::Collections::Generic::IEnumerable_1<::System::UInt32>* _get_AllChapterQuestIDs_b__23_0(::RPG::Client::GridFightGuideChapter* a1)
-		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::UInt32>*(*)(::PVOID, ::RPG::Client::GridFightGuideChapter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__GET_ALLCHAPTERQUESTIDS_B__23_0_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GridFightSeasonGuideQuestConfigRow*, ::RPG::GameCore::GridFightSeasonGuideQuestConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGUIDEBOOK___C__SYNC_B__35_1_OFFSET))(this, a1, a2);
 		}
 
 	};

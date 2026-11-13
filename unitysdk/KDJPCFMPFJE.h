@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearActionBarHighlightEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDJPCFMPFJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB35E450)
-#define KDJPCFMPFJE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB35E480)
+#define KDJPCFMPFJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C7FF0)
+#define KDJPCFMPFJE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B5C8020)
 
-inline static constexpr unsigned int KDJPCFMPFJE_TypeDefinitionIndex = 55102;
+inline static constexpr unsigned int KDJPCFMPFJE_TypeDefinitionIndex = 56279;
 
 	class KDJPCFMPFJE
 	{

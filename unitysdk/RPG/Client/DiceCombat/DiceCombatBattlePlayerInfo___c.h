@@ -5,25 +5,25 @@ class BJAPDDEENCN;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC15AD0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC15B10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__HASROLLEDDICERESULT_B__25_0_OFFSET UNITYSDK_OFFSET(0xCC15B20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB69F00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB69F40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__HASROLLEDDICERESULT_B__25_0_OFFSET UNITYSDK_OFFSET(0x1CB69F50)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex = 76044;
+	inline static constexpr unsigned int DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex = 78371;
 
 	class DiceCombatBattlePlayerInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x1E6C0);
+			return (::System::Func_2<::BJAPDDEENCN*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x29010);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x1E6C8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x29018);
 		}
 
 		static ::System::Void _cctor()

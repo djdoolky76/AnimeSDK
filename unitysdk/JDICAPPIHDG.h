@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Action; }
 
-inline static constexpr unsigned int JDICAPPIHDG_TypeDefinitionIndex = 43385;
+inline static constexpr unsigned int JDICAPPIHDG_TypeDefinitionIndex = 44366;
 
 	struct alignas(8) JDICAPPIHDG
 	{

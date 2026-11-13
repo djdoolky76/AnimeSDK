@@ -7,24 +7,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace RPG::GameCore { class GridFightTraitOldLayerConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71A960)
-#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71A670)
+#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA696B0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA693C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitOldLayerConfigRow_TypeDefinitionIndex = 13703;
+	inline static constexpr unsigned int GridFightTraitOldLayerConfigRow_TypeDefinitionIndex = 13830;
 
 	class GridFightTraitOldLayerConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x18
-		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x20
-		::System::UInt32 ExistSeason; // 0x24
-		::System::UInt32 TraitID; // 0x28
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x18
+		::System::UInt32 ExistSeason; // 0x20
+		::System::UInt32 TraitID; // 0x24
+		::System::UInt32 Layer; // 0x28
 		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x2C
-		::System::UInt32 Layer; // 0x30
-		::System::UInt32 MazebuffID; // 0x34
+		::System::UInt32 MazebuffID; // 0x30
+		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_CTOR_OFFSET))(this);

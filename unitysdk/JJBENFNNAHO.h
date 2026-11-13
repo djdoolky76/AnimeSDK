@@ -5,20 +5,20 @@ namespace RPG::GameCore { class CharmUseSkill; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJBENFNNAHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FAB30)
-#define JJBENFNNAHO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1FAB40)
-#define JJBENFNNAHO_IBCBIAKDGMO_OFFSET UNITYSDK_OFFSET(0xB1FB110)
-#define JJBENFNNAHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1FAB80)
-#define JJBENFNNAHO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1FB060)
-#define JJBENFNNAHO_TICK_OFFSET UNITYSDK_OFFSET(0xB1FB0B0)
+#define JJBENFNNAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x17429320)
+#define JJBENFNNAHO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17429330)
+#define JJBENFNNAHO_IBCBIAKDGMO_OFFSET UNITYSDK_OFFSET(0x17429AE0)
+#define JJBENFNNAHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17429370)
+#define JJBENFNNAHO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17429D40)
+#define JJBENFNNAHO_TICK_OFFSET UNITYSDK_OFFSET(0x17429D90)
 
-inline static constexpr unsigned int JJBENFNNAHO_TypeDefinitionIndex = 54948;
+inline static constexpr unsigned int JJBENFNNAHO_TypeDefinitionIndex = 56121;
 
 	class JJBENFNNAHO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CharmUseSkill* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CharmUseSkill* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharmUseSkill* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharmUseSkill*))((::PBYTE)hIl2Cpp + JJBENFNNAHO_CTOR_OFFSET))(this, a1, a2);

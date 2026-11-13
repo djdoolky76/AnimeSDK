@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchLastKillCaster; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HKANBNFIKMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D2F480)
-#define HKANBNFIKMP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D2F4F0)
+#define HKANBNFIKMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1822F9C0)
+#define HKANBNFIKMP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1822FA30)
 
-inline static constexpr unsigned int HKANBNFIKMP_TypeDefinitionIndex = 59124;
+inline static constexpr unsigned int HKANBNFIKMP_TypeDefinitionIndex = 60400;
 
 	class HKANBNFIKMP
 	{

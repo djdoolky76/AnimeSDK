@@ -6,20 +6,19 @@
 class FCOEMCEDLNL;
 class OJNEALELKJB;
 
-#define OJNEALELKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D25D490)
-#define OJNEALELKJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D25D200)
+#define OJNEALELKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA03C30)
+#define OJNEALELKJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA039A0)
 
-inline static constexpr unsigned int OJNEALELKJB_TypeDefinitionIndex = 12479;
+inline static constexpr unsigned int OJNEALELKJB_TypeDefinitionIndex = 12546;
 
 	class OJNEALELKJB : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PBLPLDJKPEI; // 0x10
-		::System::Boolean GNLGHALIPLD; // 0x18
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x1C
-		::RPG::Client::TextID NMAHGFAPENI; // 0x20
-		::System::UInt32 PHFMCACHFIJ; // 0x30
+		::RPG::Client::TextID NMAHGFAPENI; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x28
+		::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x2C
+		::System::Boolean GNLGHALIPLD; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJNEALELKJB_CTOR_OFFSET))(this);

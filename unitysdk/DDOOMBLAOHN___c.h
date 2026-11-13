@@ -4,18 +4,18 @@
 class DDOOMBLAOHN;
 namespace System { class Object; }
 
-#define DDOOMBLAOHN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E15F960)
-#define DDOOMBLAOHN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E15F990)
-#define DDOOMBLAOHN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E15F9A0)
+#define DDOOMBLAOHN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF9FF20)
+#define DDOOMBLAOHN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF9FF50)
+#define DDOOMBLAOHN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FF9FF60)
 
-inline static constexpr unsigned int DDOOMBLAOHN___c_TypeDefinitionIndex = 32699;
+inline static constexpr unsigned int DDOOMBLAOHN___c_TypeDefinitionIndex = 33614;
 
 	class DDOOMBLAOHN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A850);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22FB0);
 		}
 
 		static ::System::Void _cctor()

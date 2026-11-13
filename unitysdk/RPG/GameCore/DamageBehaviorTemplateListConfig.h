@@ -8,15 +8,15 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_BAFDPPAFIKE_1_OFFSET UNITYSDK_OFFSET(0x1D5C22F0)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_BAFDPPAFIKE_OFFSET UNITYSDK_OFFSET(0x1D5C2210)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5C2360)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C2200)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C2120)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_BAFDPPAFIKE_1_OFFSET UNITYSDK_OFFSET(0x1EFFB730)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_BAFDPPAFIKE_OFFSET UNITYSDK_OFFSET(0x1EFFB650)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFFB7A0)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFFB640)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFFB560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageBehaviorTemplateListConfig_TypeDefinitionIndex = 15647;
+	inline static constexpr unsigned int DamageBehaviorTemplateListConfig_TypeDefinitionIndex = 15805;
 
 	class DamageBehaviorTemplateListConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,7 +24,7 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DamageBehaviorTemplate*>* ConfigList; // 0x10
 		static ::RPG::GameCore::DamageBehaviorTemplate** StaticGet_S_Default()
 		{
-			return (::RPG::GameCore::DamageBehaviorTemplate**)UnitySDK::FromName("RPG.GameCore", "DamageBehaviorTemplateListConfig")->GetStaticField(0x1C430);
+			return (::RPG::GameCore::DamageBehaviorTemplate**)UnitySDK::FromName("RPG.GameCore", "DamageBehaviorTemplateListConfig")->GetStaticField(0x17690);
 		}
 
 		::System::Void _ctor()

@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftDiySignal_1___c__DisplayClass2_0_TypeDefinitionIndex = 79621;
+	inline static constexpr unsigned int MechCraftDiySignal_1___c__DisplayClass2_0_TypeDefinitionIndex = 82398;
 
 	template <typename T>
 	class MechCraftDiySignal_1___c__DisplayClass2_0 : public ::System::Object

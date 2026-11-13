@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchTrailblazer; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BABNMOPGGFG_CTOR_OFFSET UNITYSDK_OFFSET(0x15BC25D0)
-#define BABNMOPGGFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15BC2620)
+#define BABNMOPGGFG_CTOR_OFFSET UNITYSDK_OFFSET(0x199C13C0)
+#define BABNMOPGGFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x199C1410)
 
-inline static constexpr unsigned int BABNMOPGGFG_TypeDefinitionIndex = 59152;
+inline static constexpr unsigned int BABNMOPGGFG_TypeDefinitionIndex = 60428;
 
 	class BABNMOPGGFG
 	{

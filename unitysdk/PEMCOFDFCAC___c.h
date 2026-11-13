@@ -4,18 +4,18 @@
 class PEMCOFDFCAC;
 namespace System { class Object; }
 
-#define PEMCOFDFCAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF00B0)
-#define PEMCOFDFCAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF00F0)
-#define PEMCOFDFCAC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEF0100)
+#define PEMCOFDFCAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20670FD0)
+#define PEMCOFDFCAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20671010)
+#define PEMCOFDFCAC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20671020)
 
-inline static constexpr unsigned int PEMCOFDFCAC___c_TypeDefinitionIndex = 31807;
+inline static constexpr unsigned int PEMCOFDFCAC___c_TypeDefinitionIndex = 32720;
 
 	class PEMCOFDFCAC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x310E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34270);
 		}
 
 		static ::System::Void _cctor()

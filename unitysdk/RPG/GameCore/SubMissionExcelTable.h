@@ -15,73 +15,73 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB031F0)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DB02250)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DB02000)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1DB01C40)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DB01D60)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DB01F90)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DB02580)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB01DE0)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1DB027B0)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1DB01CF0)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1DB022E0)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB025C0)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB02D10)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DB02D70)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DB02CB0)
-#define RPG_GAMECORE_SUBMISSIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB02750)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6730A0)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E672100)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E671EB0)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1E671AF0)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E671C10)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E671E40)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E672430)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E671C90)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1E672660)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1E671BA0)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1E672190)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E672470)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E672BC0)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E672C20)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E672B60)
+#define RPG_GAMECORE_SUBMISSIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E672600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionExcelTable_TypeDefinitionIndex = 14140;
+	inline static constexpr unsigned int SubMissionExcelTable_TypeDefinitionIndex = 14297;
 
 	class SubMissionExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1BC60);
+		}
+
 		static ::OFLIAAOJPJC** StaticGet_headers()
 		{
-			return (::OFLIAAOJPJC**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1C470);
+			return (::OFLIAAOJPJC**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1BC68);
 		}
 
 		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::SubMissionRow*>** StaticGet_LRUCache()
 		{
-			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::SubMissionRow*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1C478);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::SubMissionRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::SubMissionRow*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1C480);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1C488);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1C490);
+			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::SubMissionRow*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1BC70);
 		}
 
 		static ::System::String** StaticGet_srcFileName()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1C498);
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1BC78);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1C4A0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1BC80);
 		}
 
-		static ::System::Boolean* StaticGet_IsLoadReverseMap()
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::SubMissionRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x61C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::SubMissionRow*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1BC88);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1BC90);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x61C1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x6220);
+		}
+
+		static ::System::Boolean* StaticGet_IsLoadReverseMap()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x6221);
 		}
 
 		static ::System::Void _cctor()

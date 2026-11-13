@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BindTimeRewindController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCHICPGEBHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB32FE50)
-#define KCHICPGEBHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB32FE80)
+#define KCHICPGEBHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A483110)
+#define KCHICPGEBHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A483140)
 
-inline static constexpr unsigned int KCHICPGEBHO_TypeDefinitionIndex = 53362;
+inline static constexpr unsigned int KCHICPGEBHO_TypeDefinitionIndex = 54524;
 
 	class KCHICPGEBHO
 	{

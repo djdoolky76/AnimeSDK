@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OHAPDILPEAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBE57290)
-#define OHAPDILPEAO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE576F0)
+#define OHAPDILPEAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18E056A0)
+#define OHAPDILPEAO_CCTOR_OFFSET UNITYSDK_OFFSET(0x18E05B00)
 
-inline static constexpr unsigned int OHAPDILPEAO_TypeDefinitionIndex = 75331;
+inline static constexpr unsigned int OHAPDILPEAO_TypeDefinitionIndex = 77658;
 
 	struct alignas(8) OHAPDILPEAO
 	{
@@ -23,7 +23,7 @@ inline static constexpr unsigned int OHAPDILPEAO_TypeDefinitionIndex = 75331;
 		::RPG::Client::ActivityIdleLive::IdleLiveDecimal PKFJKABCKFB; // 0x58
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OHAPDILPEAO>** StaticGet_HGOEHHJCCIC()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OHAPDILPEAO>**)UnitySDK::FromName("", "OHAPDILPEAO")->GetStaticField(0x63730);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OHAPDILPEAO>**)UnitySDK::FromName("", "OHAPDILPEAO")->GetStaticField(0x702A0);
 		}
 
 		static ::System::Void _cctor()

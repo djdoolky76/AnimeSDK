@@ -12,31 +12,31 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDENUMVALUEBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1BBCEF40)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1BBCEAF0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDPACKAGE_OFFSET UNITYSDK_OFFSET(0x1BBCD9F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDSYMBOL_OFFSET UNITYSDK_OFFSET(0x1BBCE080)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBCF570)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBCD1C0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1BBCE970)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_IMPORTPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1BBCD4F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_LOOKUPSYMBOL_OFFSET UNITYSDK_OFFSET(0x1BBCF210)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_VALIDATESYMBOLNAME_OFFSET UNITYSDK_OFFSET(0x1BBCE620)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDENUMVALUEBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1C68DA80)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1C68D630)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDPACKAGE_OFFSET UNITYSDK_OFFSET(0x1C68C530)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDSYMBOL_OFFSET UNITYSDK_OFFSET(0x1C68CBC0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C68E0B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C68BD00)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1C68D4B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_IMPORTPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1C68C030)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_LOOKUPSYMBOL_OFFSET UNITYSDK_OFFSET(0x1C68DD50)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_VALIDATESYMBOLNAME_OFFSET UNITYSDK_OFFSET(0x1C68D160)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorPool_TypeDefinitionIndex = 35821;
+	inline static constexpr unsigned int DescriptorPool_TypeDefinitionIndex = 36749;
 
 	class DescriptorPool : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IDictionary_2<::System::Object*, ::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptor*>* enumValuesByNumber; // 0x10
-		::System::Collections::Generic::HashSet_1<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* dependencies; // 0x18
-		::System::Collections::Generic::IDictionary_2<::System::Object*, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fieldsByNumber; // 0x20
-		::System::Collections::Generic::IDictionary_2<::System::String*, ::MiHoYo::SDK::Protobuf::Reflection::IDescriptor*>* descriptorsByName; // 0x28
+		::System::Collections::Generic::IDictionary_2<::System::Object*, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fieldsByNumber; // 0x10
+		::System::Collections::Generic::IDictionary_2<::System::String*, ::MiHoYo::SDK::Protobuf::Reflection::IDescriptor*>* descriptorsByName; // 0x18
+		::System::Collections::Generic::IDictionary_2<::System::Object*, ::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptor*>* enumValuesByNumber; // 0x20
+		::System::Collections::Generic::HashSet_1<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* dependencies; // 0x28
 		static ::System::Text::RegularExpressions::Regex** StaticGet_ValidationRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "DescriptorPool")->GetStaticField(0x5D260);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "DescriptorPool")->GetStaticField(0x662D0);
 		}
 
 		::System::Void _ctor(::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* a1)

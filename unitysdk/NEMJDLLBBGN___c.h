@@ -4,18 +4,18 @@
 class NEMJDLLBBGN;
 namespace System { class Object; }
 
-#define NEMJDLLBBGN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAD1050)
-#define NEMJDLLBBGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD1090)
-#define NEMJDLLBBGN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAD10A0)
+#define NEMJDLLBBGN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE99310)
+#define NEMJDLLBBGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE99350)
+#define NEMJDLLBBGN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FE99360)
 
-inline static constexpr unsigned int NEMJDLLBBGN___c_TypeDefinitionIndex = 33094;
+inline static constexpr unsigned int NEMJDLLBBGN___c_TypeDefinitionIndex = 34009;
 
 	class NEMJDLLBBGN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62D50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FA10);
 		}
 
 		static ::System::Void _cctor()

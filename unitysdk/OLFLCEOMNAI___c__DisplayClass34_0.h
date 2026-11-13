@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EDEPICFGMDM;
 
-#define OLFLCEOMNAI___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFE490)
-#define OLFLCEOMNAI___C__DISPLAYCLASS34_0__GETINSTANTIATEOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0xBF00D10)
+#define OLFLCEOMNAI___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x178A4BE0)
+#define OLFLCEOMNAI___C__DISPLAYCLASS34_0__GETINSTANTIATEOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0x178A7460)
 
-inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass34_0_TypeDefinitionIndex = 82260;
+inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass34_0_TypeDefinitionIndex = 85133;
 
 	class OLFLCEOMNAI___c__DisplayClass34_0 : public ::System::Object
 	{

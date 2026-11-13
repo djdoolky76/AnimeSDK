@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/DataPoolType.h"
 #include "unitysdk/RPG/GameCore/HashTableKeyType.h"
 
-inline static constexpr unsigned int DPCMKJNCCOC_TypeDefinitionIndex = 10737;
+inline static constexpr unsigned int DPCMKJNCCOC_TypeDefinitionIndex = 10753;
 
 	struct alignas(4) DPCMKJNCCOC
 	{

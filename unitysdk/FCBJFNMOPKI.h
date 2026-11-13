@@ -4,10 +4,10 @@ class HJCOLAEIJFM;
 namespace RPG::GameCore { class ST_ByForceExitCombat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCBJFNMOPKI_CTOR_OFFSET UNITYSDK_OFFSET(0x156A3E90)
-#define FCBJFNMOPKI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156A3F50)
+#define FCBJFNMOPKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0086C0)
+#define FCBJFNMOPKI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C008780)
 
-inline static constexpr unsigned int FCBJFNMOPKI_TypeDefinitionIndex = 52191;
+inline static constexpr unsigned int FCBJFNMOPKI_TypeDefinitionIndex = 53296;
 
 	class FCBJFNMOPKI
 	{

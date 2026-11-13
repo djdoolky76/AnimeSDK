@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class MemberToMemberEntityDataConfig; }
 
-#define RPG_GAMECORE_MEMBERTOMEMBERENTITYDATACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D844850)
-#define RPG_GAMECORE_MEMBERTOMEMBERENTITYDATACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8446D0)
+#define RPG_GAMECORE_MEMBERTOMEMBERENTITYDATACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6D71C0)
+#define RPG_GAMECORE_MEMBERTOMEMBERENTITYDATACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6D7040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MemberToMemberEntityDataConfig_TypeDefinitionIndex = 20742;
+	inline static constexpr unsigned int MemberToMemberEntityDataConfig_TypeDefinitionIndex = 21079;
 
 	class MemberToMemberEntityDataConfig : public ::RPG::GameCore::JsonConfig
 	{

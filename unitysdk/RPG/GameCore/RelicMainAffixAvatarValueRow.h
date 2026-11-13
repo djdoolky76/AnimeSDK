@@ -4,26 +4,26 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicMainAffixAvatarValueRow; }
 
-#define RPG_GAMECORE_RELICMAINAFFIXAVATARVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D951280)
-#define RPG_GAMECORE_RELICMAINAFFIXAVATARVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9509E0)
+#define RPG_GAMECORE_RELICMAINAFFIXAVATARVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F23AD20)
+#define RPG_GAMECORE_RELICMAINAFFIXAVATARVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F23A480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicMainAffixAvatarValueRow_TypeDefinitionIndex = 10879;
+	inline static constexpr unsigned int RelicMainAffixAvatarValueRow_TypeDefinitionIndex = 10895;
 
 	class RelicMainAffixAvatarValueRow : public ::System::Object
 	{
 	public:
-		::System::Single Defence; // 0x10
-		::System::Single DamageAddedRatio; // 0x14
-		::System::Single Speed; // 0x18
-		::System::Single HealRatio; // 0x1C
-		::System::UInt32 AvatarID; // 0x20
-		::System::Single Attack; // 0x24
-		::System::Single HP; // 0x28
-		::System::Single SPRatio; // 0x2C
-		::System::Single StatusProbability; // 0x30
-		::System::Single CriticalDamage; // 0x34
+		::System::Single HealRatio; // 0x10
+		::System::Single Speed; // 0x14
+		::System::Single DamageAddedRatio; // 0x18
+		::System::Single StatusProbability; // 0x1C
+		::System::Single SPRatio; // 0x20
+		::System::Single HP; // 0x24
+		::System::Single Attack; // 0x28
+		::System::Single CriticalDamage; // 0x2C
+		::System::UInt32 AvatarID; // 0x30
+		::System::Single Defence; // 0x34
 		::System::Single BreakDamage; // 0x38
 		::System::Single CriticalChance; // 0x3C
 		::System::Void _ctor()

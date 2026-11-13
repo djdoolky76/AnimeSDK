@@ -7,25 +7,24 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCommonConfig; }
 namespace RPG::Client { class CameraFightStateUseSkillPerformConfig; }
 
-#define IJNIDMMGEOE_CTOR_OFFSET UNITYSDK_OFFSET(0x16464100)
-#define IJNIDMMGEOE_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x164640C0)
-#define IJNIDMMGEOE_INIT_OFFSET UNITYSDK_OFFSET(0x16462700)
-#define IJNIDMMGEOE_MCAEIGBDBEC_OFFSET UNITYSDK_OFFSET(0x16463500)
-#define IJNIDMMGEOE_REFRESH_OFFSET UNITYSDK_OFFSET(0x16462840)
-#define IJNIDMMGEOE_RESET_OFFSET UNITYSDK_OFFSET(0x164627A0)
+#define IJNIDMMGEOE_CTOR_OFFSET UNITYSDK_OFFSET(0x18062300)
+#define IJNIDMMGEOE_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x180622C0)
+#define IJNIDMMGEOE_INIT_OFFSET UNITYSDK_OFFSET(0x18060980)
+#define IJNIDMMGEOE_MCAEIGBDBEC_OFFSET UNITYSDK_OFFSET(0x18061780)
+#define IJNIDMMGEOE_REFRESH_OFFSET UNITYSDK_OFFSET(0x18060AC0)
+#define IJNIDMMGEOE_RESET_OFFSET UNITYSDK_OFFSET(0x18060A20)
 
-inline static constexpr unsigned int IJNIDMMGEOE_TypeDefinitionIndex = 69606;
+inline static constexpr unsigned int IJNIDMMGEOE_TypeDefinitionIndex = 71563;
 
 	class IJNIDMMGEOE : public ::System::Object
 	{
 	public:
-		::RPG::Client::CameraFightStateUseSkillPerformConfig* MAFIONBKPIE; // 0x10
+		::ACBFNEKJDNP* LEOGIKABIGF; // 0x10
 		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x18
-		::ACBFNEKJDNP* LEOGIKABIGF; // 0x20
-		::System::Boolean LBIALNNCLMH; // 0x28
-		::System::Byte _padding0[0x3];
-		::UnityEngine::Vector3 OEGAAMGHNCP; // 0x2C
-		::UnityEngine::Vector3 EBJIPOAJLBG; // 0x38
+		::RPG::Client::CameraFightStateUseSkillPerformConfig* MAFIONBKPIE; // 0x20
+		::UnityEngine::Vector3 EBJIPOAJLBG; // 0x28
+		::UnityEngine::Vector3 OEGAAMGHNCP; // 0x34
+		::System::Boolean LBIALNNCLMH; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJNIDMMGEOE_CTOR_OFFSET))(this);

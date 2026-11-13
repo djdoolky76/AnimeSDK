@@ -3,10 +3,10 @@
 #include "unitysdk/KKPPDDOFADO.h"
 namespace RPG::Client { class GridFightRole; }
 
-#define EEAMJIKIMHO_CTOR_OFFSET UNITYSDK_OFFSET(0x13348CB0)
-#define EEAMJIKIMHO_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0x13348CD0)
+#define EEAMJIKIMHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A310020)
+#define EEAMJIKIMHO_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0x1A310040)
 
-inline static constexpr unsigned int EEAMJIKIMHO_TypeDefinitionIndex = 65136;
+inline static constexpr unsigned int EEAMJIKIMHO_TypeDefinitionIndex = 66820;
 
 	class EEAMJIKIMHO : public ::KKPPDDOFADO
 	{

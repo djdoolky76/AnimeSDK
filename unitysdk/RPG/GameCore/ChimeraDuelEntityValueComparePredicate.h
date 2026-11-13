@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 namespace RPG::GameCore { class ChimeraDuelEntityValueComparePredicate; }
 namespace RPG::GameCore { class ChimeraDuelEntityValueGetterBase; }
 
-#define RPG_GAMECORE_CHIMERADUELENTITYVALUECOMPAREPREDICATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5726D0)
-#define RPG_GAMECORE_CHIMERADUELENTITYVALUECOMPAREPREDICATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5726E0)
-#define RPG_GAMECORE_CHIMERADUELENTITYVALUECOMPAREPREDICATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D572870)
+#define RPG_GAMECORE_CHIMERADUELENTITYVALUECOMPAREPREDICATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F928930)
+#define RPG_GAMECORE_CHIMERADUELENTITYVALUECOMPAREPREDICATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F928940)
+#define RPG_GAMECORE_CHIMERADUELENTITYVALUECOMPAREPREDICATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F928AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEntityValueComparePredicate_TypeDefinitionIndex = 15919;
+	inline static constexpr unsigned int ChimeraDuelEntityValueComparePredicate_TypeDefinitionIndex = 16077;
 
 	class ChimeraDuelEntityValueComparePredicate : public ::RPG::GameCore::ChimeraDuelEntityPredicateBase
 	{

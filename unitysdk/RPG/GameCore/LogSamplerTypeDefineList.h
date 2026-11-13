@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LogSamplerTypeDefine; }
 namespace RPG::GameCore { class LogSamplerTypeDefineList; }
 
-#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C6120)
-#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C6030)
+#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0784A0)
+#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0783B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogSamplerTypeDefineList_TypeDefinitionIndex = 18161;
+	inline static constexpr unsigned int LogSamplerTypeDefineList_TypeDefinitionIndex = 18323;
 
 	class LogSamplerTypeDefineList : public ::RPG::GameCore::JsonConfig
 	{

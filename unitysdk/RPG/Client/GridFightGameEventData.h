@@ -19,34 +19,34 @@ namespace RPG::Client { class GridFightTraitChangeCollector; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD13A900)
-#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_DISPATCH_OFFSET UNITYSDK_OFFSET(0xD13B010)
-#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_GETCOLLECTOR_OFFSET UNITYSDK_OFFSET(0xD13B070)
-#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_REGISTERCOLLECTOR_OFFSET UNITYSDK_OFFSET(0xD13B150)
-#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_RESET_OFFSET UNITYSDK_OFFSET(0xD13AD30)
-#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA__INITDATACHANGECOLLECTOR_OFFSET UNITYSDK_OFFSET(0xD13ABB0)
+#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D678160)
+#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1D678850)
+#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_GETCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x1D6788B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_REGISTERCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x1D678990)
+#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1D6785B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEEVENTDATA__INITDATACHANGECOLLECTOR_OFFSET UNITYSDK_OFFSET(0x1D678430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameEventData_TypeDefinitionIndex = 64557;
+	inline static constexpr unsigned int GridFightGameEventData_TypeDefinitionIndex = 66087;
 
 	class GridFightGameEventData : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightAugmentChangeCollector* AugmentData; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::FBFODNFGMKG*>* _CollectorsLUT; // 0x18
-		::RPG::Client::GridFightProjectionChangeCollector* ProjData; // 0x20
-		::RPG::Client::GridFightTrackChangeCollector* TrackData; // 0x28
-		::RPG::Client::GridFightPlayerChangeCollector* PlayerData; // 0x30
-		::RPG::Client::GridFightRoleChangeCollector* RoleData; // 0x38
-		::RPG::Client::GridFightNPCChangeCollector* NPCData; // 0x40
+		::RPG::Client::GridFightProjectionChangeCollector* ProjData; // 0x10
+		::RPG::Client::GridFightPlayerChangeCollector* PlayerData; // 0x18
+		::RPG::Client::GridFightTrackChangeCollector* TrackData; // 0x20
+		::RPG::Client::GridFightOrbChangeCollector* OrbData; // 0x28
+		::RPG::Client::GridFightShopChangeCollector* ShopData; // 0x30
+		::RPG::Client::GridFightForgeChangeCollector* ForgeData; // 0x38
+		::RPG::Client::GridFightTraitChangeCollector* TraitData; // 0x40
 		::RPG::Client::GridFightEquipChangeCollector* EquipData; // 0x48
-		::RPG::Client::GridFightTraitChangeCollector* TraitData; // 0x50
-		::RPG::Client::GridFightPrayQuestChangeCollector* PrayQuestData; // 0x58
-		::RPG::Client::GridFightStageChangeCollector* StageData; // 0x60
-		::RPG::Client::GridFightShopChangeCollector* ShopData; // 0x68
-		::RPG::Client::GridFightOrbChangeCollector* OrbData; // 0x70
-		::RPG::Client::GridFightForgeChangeCollector* ForgeData; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::FBFODNFGMKG*>* _CollectorsLUT; // 0x50
+		::RPG::Client::GridFightStageChangeCollector* StageData; // 0x58
+		::RPG::Client::GridFightNPCChangeCollector* NPCData; // 0x60
+		::RPG::Client::GridFightRoleChangeCollector* RoleData; // 0x68
+		::RPG::Client::GridFightPrayQuestChangeCollector* PrayQuestData; // 0x70
+		::RPG::Client::GridFightAugmentChangeCollector* AugmentData; // 0x78
 		::RPG::Client::GridFightConsumableChangeCollector* ConsumableData; // 0x80
 		// static const ::System::String* COLLECTOR_DATATYPE_EQUIP; // 0x0
 		// static const ::System::String* COLLECTOR_DATATYPE_CONSUMABLE; // 0x0

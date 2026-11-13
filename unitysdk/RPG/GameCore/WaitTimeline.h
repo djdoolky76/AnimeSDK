@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class WaitTimeline; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC75C30)
-#define RPG_GAMECORE_WAITTIMELINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC75C40)
-#define RPG_GAMECORE_WAITTIMELINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC75BF0)
+#define RPG_GAMECORE_WAITTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x20803640)
+#define RPG_GAMECORE_WAITTIMELINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x20803650)
+#define RPG_GAMECORE_WAITTIMELINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20803600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTimeline_TypeDefinitionIndex = 22504;
+	inline static constexpr unsigned int WaitTimeline_TypeDefinitionIndex = 22913;
 
 	class WaitTimeline : public ::RPG::GameCore::TaskConfig
 	{

@@ -12,13 +12,13 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define PKABGPKKMHL_FPOIPMGLHBF_CTOR_OFFSET UNITYSDK_OFFSET(0xC29D880)
-#define PKABGPKKMHL_FPOIPMGLHBF_FIPDBFMPEKH_OFFSET UNITYSDK_OFFSET(0xC29EA00)
-#define PKABGPKKMHL_FPOIPMGLHBF_NAGADEEMABM_OFFSET UNITYSDK_OFFSET(0xC29F080)
-#define PKABGPKKMHL_FPOIPMGLHBF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC29FEC0)
-#define PKABGPKKMHL_FPOIPMGLHBF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC29DAB0)
+#define PKABGPKKMHL_FPOIPMGLHBF_CTOR_OFFSET UNITYSDK_OFFSET(0x147A8E90)
+#define PKABGPKKMHL_FPOIPMGLHBF_FIPDBFMPEKH_OFFSET UNITYSDK_OFFSET(0x147AA000)
+#define PKABGPKKMHL_FPOIPMGLHBF_NAGADEEMABM_OFFSET UNITYSDK_OFFSET(0x147AA680)
+#define PKABGPKKMHL_FPOIPMGLHBF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x147AB4C0)
+#define PKABGPKKMHL_FPOIPMGLHBF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x147A90C0)
 
-inline static constexpr unsigned int PKABGPKKMHL_FPOIPMGLHBF_TypeDefinitionIndex = 73852;
+inline static constexpr unsigned int PKABGPKKMHL_FPOIPMGLHBF_TypeDefinitionIndex = 75978;
 
 	class PKABGPKKMHL_FPOIPMGLHBF : public ::System::Object
 	{
@@ -26,10 +26,10 @@ inline static constexpr unsigned int PKABGPKKMHL_FPOIPMGLHBF_TypeDefinitionIndex
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::LPHOEFFEOBD*>*>* PMBENGEOJLN; // 0x10
 		::System::Collections::Generic::Dictionary_2<::LPHOEFFEOBD*, ::System::Int32>* CODINANPDLG; // 0x18
 		::System::Single EMNAKHEHDPG; // 0x20
-		::System::Int32 FANAHCMOOMJ; // 0x24
-		::System::Single EJHOLDPPAEE; // 0x28
+		::System::Single EJHOLDPPAEE; // 0x24
+		::System::Single PLBAAHBFELH; // 0x28
 		::System::Single ADHEMNOPMIM; // 0x2C
-		::System::Single PLBAAHBFELH; // 0x30
+		::System::Int32 FANAHCMOOMJ; // 0x30
 		::System::Void _ctor(::System::Int32 a1, ::System::Single a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + PKABGPKKMHL_FPOIPMGLHBF_CTOR_OFFSET))(this, a1, a2, a3);

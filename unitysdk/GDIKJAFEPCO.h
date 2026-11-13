@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RogueWolfGunRandomCase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDIKJAFEPCO_CTOR_OFFSET UNITYSDK_OFFSET(0x15992630)
-#define GDIKJAFEPCO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15992660)
+#define GDIKJAFEPCO_CTOR_OFFSET UNITYSDK_OFFSET(0x19ED92A0)
+#define GDIKJAFEPCO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19ED92D0)
 
-inline static constexpr unsigned int GDIKJAFEPCO_TypeDefinitionIndex = 58498;
+inline static constexpr unsigned int GDIKJAFEPCO_TypeDefinitionIndex = 59754;
 
 	class GDIKJAFEPCO
 	{

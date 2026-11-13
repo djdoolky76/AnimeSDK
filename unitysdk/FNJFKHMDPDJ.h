@@ -4,18 +4,18 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define FNJFKHMDPDJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA43650)
-#define FNJFKHMDPDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA436D0)
-#define FNJFKHMDPDJ_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA43570)
-#define FNJFKHMDPDJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA43610)
+#define FNJFKHMDPDJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C20DE20)
+#define FNJFKHMDPDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20DEA0)
+#define FNJFKHMDPDJ_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C20DD40)
+#define FNJFKHMDPDJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C20DDE0)
 
-inline static constexpr unsigned int FNJFKHMDPDJ_TypeDefinitionIndex = 43500;
+inline static constexpr unsigned int FNJFKHMDPDJ_TypeDefinitionIndex = 44482;
 
 	class FNJFKHMDPDJ : public ::System::Object
 	{
 	public:
-		::RPG::PoolList_1<::System::String*>* OPNCNAGOGPI; // 0x10
-		::RPG::PoolList_1<::System::Int32>* PECDILDCFKF; // 0x18
+		::RPG::PoolList_1<::System::Int32>* PECDILDCFKF; // 0x10
+		::RPG::PoolList_1<::System::String*>* OPNCNAGOGPI; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNJFKHMDPDJ_CTOR_OFFSET))(this);

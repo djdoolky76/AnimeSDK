@@ -10,14 +10,14 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml::Schema { class FacetsChecker; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_INT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE8CF50)
-#define SYSTEM_XML_SCHEMA_DATATYPE_INT_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EE8CB40)
-#define SYSTEM_XML_SCHEMA_DATATYPE_INT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE81C10)
-#define SYSTEM_XML_SCHEMA_DATATYPE_INT_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EE8CAD0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_INT_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE8CCA0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_INT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EE8CB30)
-#define SYSTEM_XML_SCHEMA_DATATYPE_INT_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE8CC40)
-#define SYSTEM_XML_SCHEMA_DATATYPE_INT_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EE8CD00)
+#define SYSTEM_XML_SCHEMA_DATATYPE_INT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D21FA10)
+#define SYSTEM_XML_SCHEMA_DATATYPE_INT_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D21F600)
+#define SYSTEM_XML_SCHEMA_DATATYPE_INT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2146D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_INT_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1D21F590)
+#define SYSTEM_XML_SCHEMA_DATATYPE_INT_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1D21F760)
+#define SYSTEM_XML_SCHEMA_DATATYPE_INT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1D21F5F0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_INT_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1D21F700)
+#define SYSTEM_XML_SCHEMA_DATATYPE_INT_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1D21F7C0)
 
 namespace System::Xml::Schema
 {
@@ -26,19 +26,19 @@ namespace System::Xml::Schema
 	class Datatype_int : public ::System::Xml::Schema::Datatype_long
 	{
 	public:
-		static ::System::Type** StaticGet_atomicValueType()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_int")->GetStaticField(0x2DCB0);
-		}
-
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_int")->GetStaticField(0x2DCB8);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_int")->GetStaticField(0x1DB70);
 		}
 
 		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "Datatype_int")->GetStaticField(0x2DCC0);
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "Datatype_int")->GetStaticField(0x1DB78);
+		}
+
+		static ::System::Type** StaticGet_atomicValueType()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_int")->GetStaticField(0x1DB80);
 		}
 
 		::System::Void _ctor()

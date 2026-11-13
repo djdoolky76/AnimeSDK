@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByHasSelectSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBLMCAHPGBE_CTOR_OFFSET UNITYSDK_OFFSET(0x156973F0)
-#define FBLMCAHPGBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15697420)
+#define FBLMCAHPGBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA53650)
+#define FBLMCAHPGBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BA53680)
 
-inline static constexpr unsigned int FBLMCAHPGBE_TypeDefinitionIndex = 53921;
+inline static constexpr unsigned int FBLMCAHPGBE_TypeDefinitionIndex = 55085;
 
 	class FBLMCAHPGBE
 	{

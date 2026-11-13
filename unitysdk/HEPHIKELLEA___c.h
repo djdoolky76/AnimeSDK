@@ -4,18 +4,18 @@
 class HEPHIKELLEA;
 namespace System { class Object; }
 
-#define HEPHIKELLEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E531E90)
-#define HEPHIKELLEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E531ED0)
-#define HEPHIKELLEA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E531EE0)
+#define HEPHIKELLEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F888CE0)
+#define HEPHIKELLEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F888D20)
+#define HEPHIKELLEA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F888D30)
 
-inline static constexpr unsigned int HEPHIKELLEA___c_TypeDefinitionIndex = 26556;
+inline static constexpr unsigned int HEPHIKELLEA___c_TypeDefinitionIndex = 27087;
 
 	class HEPHIKELLEA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DBB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29C20);
 		}
 
 		static ::System::Void _cctor()

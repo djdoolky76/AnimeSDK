@@ -4,18 +4,18 @@
 class MOLCKKMNHAE;
 namespace System { class Object; }
 
-#define MOLCKKMNHAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA81500)
-#define MOLCKKMNHAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA81540)
-#define MOLCKKMNHAE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA81550)
+#define MOLCKKMNHAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF178F0)
+#define MOLCKKMNHAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF17930)
+#define MOLCKKMNHAE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FF17940)
 
-inline static constexpr unsigned int MOLCKKMNHAE___c_TypeDefinitionIndex = 32695;
+inline static constexpr unsigned int MOLCKKMNHAE___c_TypeDefinitionIndex = 33610;
 
 	class MOLCKKMNHAE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AEB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54850);
 		}
 
 		static ::System::Void _cctor()

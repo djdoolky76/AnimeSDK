@@ -4,10 +4,10 @@
 class JIGPGHCDBOE;
 class JLOEANPJEHC;
 
-#define JLOEANPJEHC___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB24BB80)
-#define JLOEANPJEHC___C__DISPLAYCLASS5_0__PERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xB24C420)
+#define JLOEANPJEHC___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A09A2E0)
+#define JLOEANPJEHC___C__DISPLAYCLASS5_0__PERFORM_B__0_OFFSET UNITYSDK_OFFSET(0x1A09AB80)
 
-inline static constexpr unsigned int JLOEANPJEHC___c__DisplayClass5_0_TypeDefinitionIndex = 79797;
+inline static constexpr unsigned int JLOEANPJEHC___c__DisplayClass5_0_TypeDefinitionIndex = 82574;
 
 	class JLOEANPJEHC___c__DisplayClass5_0 : public ::System::Object
 	{

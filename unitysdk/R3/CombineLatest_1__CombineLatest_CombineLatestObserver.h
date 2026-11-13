@@ -4,7 +4,7 @@ namespace System { class Object; }
 
 namespace R3
 {
-	inline static constexpr unsigned int CombineLatest_1__CombineLatest_CombineLatestObserver_TypeDefinitionIndex = 35909;
+	inline static constexpr unsigned int CombineLatest_1__CombineLatest_CombineLatestObserver_TypeDefinitionIndex = 36837;
 
 	template <typename T>
 	class CombineLatest_1__CombineLatest_CombineLatestObserver

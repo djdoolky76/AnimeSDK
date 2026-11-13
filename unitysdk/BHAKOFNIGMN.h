@@ -10,38 +10,38 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define BHAKOFNIGMN_ALDHLIEAJCI_OFFSET UNITYSDK_OFFSET(0xB46A820)
-#define BHAKOFNIGMN_CTOR_OFFSET UNITYSDK_OFFSET(0xB46A950)
-#define BHAKOFNIGMN_DDPPBKPJGJN_OFFSET UNITYSDK_OFFSET(0xB46A8A0)
-#define BHAKOFNIGMN_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xB46A390)
-#define BHAKOFNIGMN_DINMEPJKOGP_OFFSET UNITYSDK_OFFSET(0xB46A760)
-#define BHAKOFNIGMN_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB46A510)
-#define BHAKOFNIGMN_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB46A610)
-#define BHAKOFNIGMN_ONCNALEHHKK_OFFSET UNITYSDK_OFFSET(0xB46A8F0)
-#define BHAKOFNIGMN__ONBIND_OFFSET UNITYSDK_OFFSET(0xB46A3E0)
+#define BHAKOFNIGMN_ALDHLIEAJCI_OFFSET UNITYSDK_OFFSET(0x151DC4C0)
+#define BHAKOFNIGMN_CTOR_OFFSET UNITYSDK_OFFSET(0x151DC5E0)
+#define BHAKOFNIGMN_DDPPBKPJGJN_OFFSET UNITYSDK_OFFSET(0x151DC540)
+#define BHAKOFNIGMN_DINMEPJKOGP_OFFSET UNITYSDK_OFFSET(0x151DC400)
+#define BHAKOFNIGMN_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x151DC2A0)
+#define BHAKOFNIGMN_ONCNALEHHKK_OFFSET UNITYSDK_OFFSET(0x151DC590)
+#define BHAKOFNIGMN__ONBIND_OFFSET UNITYSDK_OFFSET(0x151DBEF0)
+#define BHAKOFNIGMN__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x151DBEA0)
+#define BHAKOFNIGMN__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x151DC1A0)
 
-inline static constexpr unsigned int BHAKOFNIGMN_TypeDefinitionIndex = 71271;
+inline static constexpr unsigned int BHAKOFNIGMN_TypeDefinitionIndex = 73248;
 
 	class BHAKOFNIGMN : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* ENDLNPJJCNO; // 0x60
-		::HEKAMNMEEOK* APPIHABBCGK; // 0x68
-		::RPG::Client::AnimatorButton* PFBLCICMBBK; // 0x70
-		::IGKFNIEJGLM PMECLILMEDH; // 0x78
-		::OJGHGPNOOFL* DNAIDBLIPNH; // 0x80
-		::UnityEngine::UI::Image* MKOCDHEFAME; // 0x88
-		::UnityEngine::Animation* KCOAILOHDND; // 0x90
-		::RPG::Client::RPGAnimationEvent* MEDGLNFKGDC; // 0x98
+		::OJGHGPNOOFL* DNAIDBLIPNH; // 0x60
+		::RPG::Client::RPGAnimationEvent* MEDGLNFKGDC; // 0x68
+		::UnityEngine::Animation* KCOAILOHDND; // 0x70
+		::RPG::Client::AnimatorButton* PFBLCICMBBK; // 0x78
+		::UnityEngine::UI::Image* MKOCDHEFAME; // 0x80
+		::IGKFNIEJGLM PMECLILMEDH; // 0x88
+		::UnityEngine::Transform* ENDLNPJJCNO; // 0x90
+		::HEKAMNMEEOK* APPIHABBCGK; // 0x98
 		// static const ::System::String* FOHFALFBMAP; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHAKOFNIGMN_CTOR_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + BHAKOFNIGMN_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + BHAKOFNIGMN__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnBind()
@@ -49,9 +49,9 @@ inline static constexpr unsigned int BHAKOFNIGMN_TypeDefinitionIndex = 71271;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHAKOFNIGMN__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHAKOFNIGMN_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHAKOFNIGMN__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void NKPPGDENJAE(::HEKAMNMEEOK* a1)

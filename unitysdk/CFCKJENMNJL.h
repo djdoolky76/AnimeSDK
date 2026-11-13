@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CFCKJENMNJL_CTOR_OFFSET UNITYSDK_OFFSET(0xCA03130)
-#define CFCKJENMNJL_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0xCA02B90)
+#define CFCKJENMNJL_CTOR_OFFSET UNITYSDK_OFFSET(0x188468E0)
+#define CFCKJENMNJL_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0x18846340)
 
-inline static constexpr unsigned int CFCKJENMNJL_TypeDefinitionIndex = 68698;
+inline static constexpr unsigned int CFCKJENMNJL_TypeDefinitionIndex = 70650;
 
 	class CFCKJENMNJL
 	{

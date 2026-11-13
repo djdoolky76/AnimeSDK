@@ -10,28 +10,28 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB5E260)
-#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB5C0A0)
-#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_DESERIALIZEMAP_OFFSET UNITYSDK_OFFSET(0x1BB5DF20)
-#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB5D2F0)
-#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_ISSUPPORTEDTYPE_OFFSET UNITYSDK_OFFSET(0x1BB527C0)
-#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB5C0B0)
+#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1749D160)
+#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1749AFA0)
+#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_DESERIALIZEMAP_OFFSET UNITYSDK_OFFSET(0x1749CE20)
+#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1749C1F0)
+#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_ISSUPPORTEDTYPE_OFFSET UNITYSDK_OFFSET(0x17491680)
+#define MESSAGEPACK_FORMATTERS_PRIMITIVEOBJECTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1749AFB0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int PrimitiveObjectFormatter_TypeDefinitionIndex = 7482;
+	inline static constexpr unsigned int PrimitiveObjectFormatter_TypeDefinitionIndex = 7493;
 
 	class PrimitiveObjectFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>** StaticGet_Instance()
-		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>**)UnitySDK::FromName("MessagePack.Formatters", "PrimitiveObjectFormatter")->GetStaticField(0x48580);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>** StaticGet_TypeToJumpCode()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Formatters", "PrimitiveObjectFormatter")->GetStaticField(0x48588);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Formatters", "PrimitiveObjectFormatter")->GetStaticField(0x2C500);
+		}
+
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>** StaticGet_Instance()
+		{
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>**)UnitySDK::FromName("MessagePack.Formatters", "PrimitiveObjectFormatter")->GetStaticField(0x2C508);
 		}
 
 		::System::Void _ctor()

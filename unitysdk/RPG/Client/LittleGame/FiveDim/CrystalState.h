@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int CrystalState_TypeDefinitionIndex = 43513;
+	inline static constexpr unsigned int CrystalState_TypeDefinitionIndex = 44495;
 
 	enum class CrystalState : ::System::Int32
 	{

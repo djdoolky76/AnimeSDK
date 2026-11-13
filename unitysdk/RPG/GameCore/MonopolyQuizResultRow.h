@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyQuizResultRow; }
 
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87BD50)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D87B640)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E46CEC0)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E46C7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyQuizResultRow_TypeDefinitionIndex = 12065;
+	inline static constexpr unsigned int MonopolyQuizResultRow_TypeDefinitionIndex = 12122;
 
 	class MonopolyQuizResultRow : public ::System::Object
 	{

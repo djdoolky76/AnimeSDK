@@ -5,9 +5,9 @@ namespace Mono::Http { class NtlmSession; }
 namespace System { class Object; }
 namespace System::Net { class HttpWebRequest; }
 
-#define MONO_HTTP_NTLMCLIENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF8D110)
-#define MONO_HTTP_NTLMCLIENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8D150)
-#define MONO_HTTP_NTLMCLIENT___C__AUTHENTICATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EF8D160)
+#define MONO_HTTP_NTLMCLIENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAE09F0)
+#define MONO_HTTP_NTLMCLIENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE0A30)
+#define MONO_HTTP_NTLMCLIENT___C__AUTHENTICATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1DAE0A40)
 
 namespace Mono::Http
 {
@@ -16,14 +16,14 @@ namespace Mono::Http
 	class NtlmClient___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9__1_0()
-		{
-			return (::System::Object**)UnitySDK::FromName("Mono.Http", "<>c")->GetStaticField(0x2A010);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Mono.Http", "<>c")->GetStaticField(0x2A018);
+			return (::System::Object**)UnitySDK::FromName("Mono.Http", "<>c")->GetStaticField(0x31140);
+		}
+
+		static ::System::Object** StaticGet___9__1_0()
+		{
+			return (::System::Object**)UnitySDK::FromName("Mono.Http", "<>c")->GetStaticField(0x31148);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PenaconyEndmostChronicleMissionPackRow; }
 
-#define RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C7670)
-#define RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C7560)
+#define RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F149750)
+#define RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F149640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PenaconyEndmostChronicleMissionPackRow_TypeDefinitionIndex = 14129;
+	inline static constexpr unsigned int PenaconyEndmostChronicleMissionPackRow_TypeDefinitionIndex = 14286;
 
 	class PenaconyEndmostChronicleMissionPackRow : public ::System::Object
 	{

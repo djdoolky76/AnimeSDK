@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Type; }
 
-inline static constexpr unsigned int OBJANKHLNGO_JGIDMPHIPAL_TypeDefinitionIndex = 44268;
+inline static constexpr unsigned int OBJANKHLNGO_JGIDMPHIPAL_TypeDefinitionIndex = 45343;
 
 	class OBJANKHLNGO_JGIDMPHIPAL
 	{

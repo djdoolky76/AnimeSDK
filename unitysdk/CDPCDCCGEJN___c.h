@@ -5,35 +5,35 @@ class CDPCDCCGEJN_CFLILJECMKA;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CDPCDCCGEJN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC775600)
-#define CDPCDCCGEJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC775630)
-#define CDPCDCCGEJN___C__GET_FAILURECOUNT_B__20_0_OFFSET UNITYSDK_OFFSET(0xC775660)
-#define CDPCDCCGEJN___C__GET_FINISHCOUNT_B__22_0_OFFSET UNITYSDK_OFFSET(0xC775680)
-#define CDPCDCCGEJN___C__GET_SUCCESSCOUNT_B__18_0_OFFSET UNITYSDK_OFFSET(0xC775640)
+#define CDPCDCCGEJN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x173C16C0)
+#define CDPCDCCGEJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x173C16F0)
+#define CDPCDCCGEJN___C__GET_FAILURECOUNT_B__20_0_OFFSET UNITYSDK_OFFSET(0x173C1720)
+#define CDPCDCCGEJN___C__GET_FINISHCOUNT_B__22_0_OFFSET UNITYSDK_OFFSET(0x173C1740)
+#define CDPCDCCGEJN___C__GET_SUCCESSCOUNT_B__18_0_OFFSET UNITYSDK_OFFSET(0x173C1700)
 
-inline static constexpr unsigned int CDPCDCCGEJN___c_TypeDefinitionIndex = 59574;
+inline static constexpr unsigned int CDPCDCCGEJN___c_TypeDefinitionIndex = 60851;
 
 	class CDPCDCCGEJN___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18BA0);
-		}
-
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18BA8);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x598B0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18BB0);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x598B8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x598C0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18BB8);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x598C8);
 		}
 
 		static ::System::Void _cctor()

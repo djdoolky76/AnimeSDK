@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattlePostureConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPOSTURECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D438420)
-#define RPG_GAMECORE_BATTLEPOSTURECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4381E0)
+#define RPG_GAMECORE_BATTLEPOSTURECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C31B450)
+#define RPG_GAMECORE_BATTLEPOSTURECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C31B210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePostureConfig_TypeDefinitionIndex = 17616;
+	inline static constexpr unsigned int BattlePostureConfig_TypeDefinitionIndex = 17785;
 
 	class BattlePostureConfig : public ::RPG::GameCore::JsonConfig
 	{

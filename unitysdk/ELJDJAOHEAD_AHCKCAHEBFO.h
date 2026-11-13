@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class ELJDJAOHEAD;
 
-#define ELJDJAOHEAD_AHCKCAHEBFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1551A1B0)
+#define ELJDJAOHEAD_AHCKCAHEBFO_CTOR_OFFSET UNITYSDK_OFFSET(0x199AFA80)
 
-inline static constexpr unsigned int ELJDJAOHEAD_AHCKCAHEBFO_TypeDefinitionIndex = 58414;
+inline static constexpr unsigned int ELJDJAOHEAD_AHCKCAHEBFO_TypeDefinitionIndex = 59670;
 
 	class ELJDJAOHEAD_AHCKCAHEBFO : public ::System::Object
 	{

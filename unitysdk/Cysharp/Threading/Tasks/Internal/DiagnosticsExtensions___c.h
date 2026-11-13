@@ -7,37 +7,37 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0EF5D0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0EF610)
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__BEAUTIFYTYPE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F0EF780)
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__BEAUTIFYTYPE_B__6_1_OFFSET UNITYSDK_OFFSET(0x1F0EF7E0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__CLEANUPASYNCSTACKTRACE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1F0EF620)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F162B40)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F162B80)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__BEAUTIFYTYPE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F162CF0)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__BEAUTIFYTYPE_B__6_1_OFFSET UNITYSDK_OFFSET(0x1F162D50)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__CLEANUPASYNCSTACKTRACE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1F162B90)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int DiagnosticsExtensions___c_TypeDefinitionIndex = 38658;
+	inline static constexpr unsigned int DiagnosticsExtensions___c_TypeDefinitionIndex = 39587;
 
 	class DiagnosticsExtensions___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x36C30);
-		}
-
-		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::System::Type*, ::System::String*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x36C38);
-		}
-
-		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::System::Type*, ::System::String*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x36C40);
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x32570);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x36C48);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x32578);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::System::Type*, ::System::String*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x32580);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::System::Type*, ::System::String*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x32588);
 		}
 
 		static ::System::Void _cctor()

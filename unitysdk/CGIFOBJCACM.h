@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerCustomPhotoGraphCondition; }
 
-#define CGIFOBJCACM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC847E0)
-#define CGIFOBJCACM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC84810)
+#define CGIFOBJCACM_CTOR_OFFSET UNITYSDK_OFFSET(0x1785DB00)
+#define CGIFOBJCACM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1785DB30)
 
-inline static constexpr unsigned int CGIFOBJCACM_TypeDefinitionIndex = 53445;
+inline static constexpr unsigned int CGIFOBJCACM_TypeDefinitionIndex = 54607;
 
 	class CGIFOBJCACM
 	{

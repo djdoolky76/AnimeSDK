@@ -5,11 +5,11 @@ namespace RPG::Client { class TriggerEffectParams; }
 namespace RPG::GameCore { class SetAdvEffectTowardAnchor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PIEEJDLLACD_CTOR_OFFSET UNITYSDK_OFFSET(0xC255E40)
-#define PIEEJDLLACD_NPILIHHBAFA_OFFSET UNITYSDK_OFFSET(0xC2560E0)
-#define PIEEJDLLACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC255E70)
+#define PIEEJDLLACD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9C2250)
+#define PIEEJDLLACD_NPILIHHBAFA_OFFSET UNITYSDK_OFFSET(0x1A9C24F0)
+#define PIEEJDLLACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9C2280)
 
-inline static constexpr unsigned int PIEEJDLLACD_TypeDefinitionIndex = 53220;
+inline static constexpr unsigned int PIEEJDLLACD_TypeDefinitionIndex = 54382;
 
 	class PIEEJDLLACD
 	{

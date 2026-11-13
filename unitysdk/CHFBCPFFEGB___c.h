@@ -5,23 +5,23 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CHFBCPFFEGB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC90E90)
-#define CHFBCPFFEGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC90ED0)
-#define CHFBCPFFEGB___C___REFRESHVIEW_B__19_1_OFFSET UNITYSDK_OFFSET(0xCC90EE0)
+#define CHFBCPFFEGB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1786A430)
+#define CHFBCPFFEGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1786A470)
+#define CHFBCPFFEGB___C___REFRESHVIEW_B__19_1_OFFSET UNITYSDK_OFFSET(0x1786A480)
 
-inline static constexpr unsigned int CHFBCPFFEGB___c_TypeDefinitionIndex = 72320;
+inline static constexpr unsigned int CHFBCPFFEGB___c_TypeDefinitionIndex = 74397;
 
 	class CHFBCPFFEGB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25530);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x133E0);
 		}
 
 		static ::System::Comparison_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__19_1()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25538);
+			return (::System::Comparison_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x133E8);
 		}
 
 		static ::System::Void _cctor()

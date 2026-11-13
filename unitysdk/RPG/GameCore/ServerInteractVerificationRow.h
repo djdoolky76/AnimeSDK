@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ServerInteractVerificationRow; }
 
-#define RPG_GAMECORE_SERVERINTERACTVERIFICATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA64370)
-#define RPG_GAMECORE_SERVERINTERACTVERIFICATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA64160)
+#define RPG_GAMECORE_SERVERINTERACTVERIFICATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F855F20)
+#define RPG_GAMECORE_SERVERINTERACTVERIFICATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F855D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerInteractVerificationRow_TypeDefinitionIndex = 15091;
+	inline static constexpr unsigned int ServerInteractVerificationRow_TypeDefinitionIndex = 15247;
 
 	class ServerInteractVerificationRow : public ::System::Object
 	{

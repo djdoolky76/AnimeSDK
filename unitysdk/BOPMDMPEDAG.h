@@ -5,10 +5,10 @@
 class OPEJFIDCNPO;
 namespace RPG::GameCore { class ComplexSkillAISourceValueOverflow; }
 
-#define BOPMDMPEDAG_BDABKMEMACN_OFFSET UNITYSDK_OFFSET(0xC199BE0)
-#define BOPMDMPEDAG_OEEOKDNDKCI_OFFSET UNITYSDK_OFFSET(0xC199EE0)
+#define BOPMDMPEDAG_BDABKMEMACN_OFFSET UNITYSDK_OFFSET(0x1B5F7900)
+#define BOPMDMPEDAG_OEEOKDNDKCI_OFFSET UNITYSDK_OFFSET(0x1B5F7C00)
 
-inline static constexpr unsigned int BOPMDMPEDAG_TypeDefinitionIndex = 54359;
+inline static constexpr unsigned int BOPMDMPEDAG_TypeDefinitionIndex = 55523;
 
 	class BOPMDMPEDAG : public ::System::Object
 	{

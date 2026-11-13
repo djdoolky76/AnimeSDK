@@ -12,34 +12,34 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JGLBFMKIFGJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xB197A80)
-#define JGLBFMKIFGJ_CJHOKFDDMAD_OFFSET UNITYSDK_OFFSET(0xB196FE0)
-#define JGLBFMKIFGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB196970)
-#define JGLBFMKIFGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1969C0)
-#define JGLBFMKIFGJ_EILJDOKJADD_OFFSET UNITYSDK_OFFSET(0xB197430)
-#define JGLBFMKIFGJ_FFIPPBBDFIK_OFFSET UNITYSDK_OFFSET(0xB197110)
-#define JGLBFMKIFGJ_IEDEPMNGMJP_OFFSET UNITYSDK_OFFSET(0xB197920)
-#define JGLBFMKIFGJ_LGOJDJBABID_OFFSET UNITYSDK_OFFSET(0xB1978C0)
-#define JGLBFMKIFGJ_LMNCCLONKAA_OFFSET UNITYSDK_OFFSET(0xB1979B0)
-#define JGLBFMKIFGJ_MPANPKKMDOI_OFFSET UNITYSDK_OFFSET(0xB197570)
-#define JGLBFMKIFGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB196A80)
-#define JGLBFMKIFGJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB197060)
-#define JGLBFMKIFGJ_TICK_OFFSET UNITYSDK_OFFSET(0xB1970B0)
+#define JGLBFMKIFGJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x193519B0)
+#define JGLBFMKIFGJ_CJHOKFDDMAD_OFFSET UNITYSDK_OFFSET(0x19350F10)
+#define JGLBFMKIFGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x193508A0)
+#define JGLBFMKIFGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x193508F0)
+#define JGLBFMKIFGJ_EILJDOKJADD_OFFSET UNITYSDK_OFFSET(0x19351360)
+#define JGLBFMKIFGJ_FFIPPBBDFIK_OFFSET UNITYSDK_OFFSET(0x19351040)
+#define JGLBFMKIFGJ_IEDEPMNGMJP_OFFSET UNITYSDK_OFFSET(0x19351850)
+#define JGLBFMKIFGJ_LGOJDJBABID_OFFSET UNITYSDK_OFFSET(0x193517F0)
+#define JGLBFMKIFGJ_LMNCCLONKAA_OFFSET UNITYSDK_OFFSET(0x193518E0)
+#define JGLBFMKIFGJ_MPANPKKMDOI_OFFSET UNITYSDK_OFFSET(0x193514A0)
+#define JGLBFMKIFGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193509B0)
+#define JGLBFMKIFGJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19350F90)
+#define JGLBFMKIFGJ_TICK_OFFSET UNITYSDK_OFFSET(0x19350FE0)
 
-inline static constexpr unsigned int JGLBFMKIFGJ_TypeDefinitionIndex = 53186;
+inline static constexpr unsigned int JGLBFMKIFGJ_TypeDefinitionIndex = 54348;
 
 	class JGLBFMKIFGJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::MazePuzzleOrigamiColonyRow* OPEGEBLMMII; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::PropsReqInteractByColonyMirrorTakenDiff* OFKGLJOAMLD; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::MapPropDef*>* PKJBOFFIELG; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* IHPLGIBHEPE; // 0x38
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::MazePuzzleOrigamiColonyRow* OPEGEBLMMII; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::MapPropDef*>* PKJBOFFIELG; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* IHPLGIBHEPE; // 0x30
+		::RPG::GameCore::PropsReqInteractByColonyMirrorTakenDiff* OFKGLJOAMLD; // 0x38
 		::System::UInt32 FMJAHJGAKNE; // 0x40
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PropState, ::System::UInt32>** StaticGet_BFIPCKLFEPA()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PropState, ::System::UInt32>**)UnitySDK::FromName("", "JGLBFMKIFGJ")->GetStaticField(0x10DD0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PropState, ::System::UInt32>**)UnitySDK::FromName("", "JGLBFMKIFGJ")->GetStaticField(0x6D7B0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropsReqInteractByColonyMirrorTakenDiff* a2)

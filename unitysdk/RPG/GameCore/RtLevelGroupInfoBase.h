@@ -36,13 +36,13 @@ namespace RPG::GameCore { class RtLevelGroupInfoBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA323E0)
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA325C0)
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA32400)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC773F0)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC775D0)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC77410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelGroupInfoBase_TypeDefinitionIndex = 17343;
+	inline static constexpr unsigned int RtLevelGroupInfoBase_TypeDefinitionIndex = 17511;
 
 	class RtLevelGroupInfoBase : public ::RPG::GameCore::JsonConfig
 	{

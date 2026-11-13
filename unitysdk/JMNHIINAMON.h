@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JMNHIINAMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB75050)
+#define JMNHIINAMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE1DCD0)
 
-inline static constexpr unsigned int JMNHIINAMON_TypeDefinitionIndex = 42378;
+inline static constexpr unsigned int JMNHIINAMON_TypeDefinitionIndex = 43353;
 
 	class JMNHIINAMON : public ::System::Object
 	{

@@ -4,9 +4,9 @@
 class KEOAHACPAFG;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define GGONIJIDEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73980)
+#define GGONIJIDEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA79A50)
 
-inline static constexpr unsigned int GGONIJIDEED_TypeDefinitionIndex = 41975;
+inline static constexpr unsigned int GGONIJIDEED_TypeDefinitionIndex = 42950;
 
 	class GGONIJIDEED : public ::System::Object
 	{

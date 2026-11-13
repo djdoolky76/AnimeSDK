@@ -7,20 +7,20 @@ namespace RPG::GameCore { class LevelEntityActionDelayExceed; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BHLMIOBOBDP_CTOR_OFFSET UNITYSDK_OFFSET(0xB48A780)
-#define BHLMIOBOBDP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB48A820)
-#define BHLMIOBOBDP_KHLOKFOANJC_OFFSET UNITYSDK_OFFSET(0xB48AFA0)
-#define BHLMIOBOBDP_MPDFIJBHKEC_OFFSET UNITYSDK_OFFSET(0xB48A9C0)
-#define BHLMIOBOBDP_PPDEMFDGEIC_OFFSET UNITYSDK_OFFSET(0xB48A900)
+#define BHLMIOBOBDP_CTOR_OFFSET UNITYSDK_OFFSET(0x151FCC40)
+#define BHLMIOBOBDP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x151FCCE0)
+#define BHLMIOBOBDP_KHLOKFOANJC_OFFSET UNITYSDK_OFFSET(0x151FD460)
+#define BHLMIOBOBDP_MPDFIJBHKEC_OFFSET UNITYSDK_OFFSET(0x151FCE80)
+#define BHLMIOBOBDP_PPDEMFDGEIC_OFFSET UNITYSDK_OFFSET(0x151FCDC0)
 
-inline static constexpr unsigned int BHLMIOBOBDP_TypeDefinitionIndex = 55953;
+inline static constexpr unsigned int BHLMIOBOBDP_TypeDefinitionIndex = 57156;
 
 	class BHLMIOBOBDP : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BCLGAEGFJOD; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* MFOPKHCEOPJ; // 0x18
-		::RPG::GameCore::TurnBasedGameMode* GICHGNGMBGD; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* MFOPKHCEOPJ; // 0x10
+		::RPG::GameCore::TurnBasedGameMode* GICHGNGMBGD; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BCLGAEGFJOD; // 0x20
 		::RPG::GameCore::LevelEntityActionDelayExceed* DMPNBHDEMMG; // 0x28
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CMJMLNKOOEA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TurnBasedGameMode* a1)

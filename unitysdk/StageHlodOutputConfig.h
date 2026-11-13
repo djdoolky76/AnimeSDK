@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define STAGEHLODOUTPUTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE98DD80)
+#define STAGEHLODOUTPUTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC57820)
 
-inline static constexpr unsigned int StageHlodOutputConfig_TypeDefinitionIndex = 47564;
+inline static constexpr unsigned int StageHlodOutputConfig_TypeDefinitionIndex = 48593;
 
 	class StageHlodOutputConfig : public ::UnityEngine::MonoBehaviour
 	{

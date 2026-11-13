@@ -4,19 +4,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int AGFFMOLFPEF___O_TypeDefinitionIndex = 41750;
+inline static constexpr unsigned int AGFFMOLFPEF___O_TypeDefinitionIndex = 42725;
 
 	class AGFFMOLFPEF___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Int32, ::ONPKMMDCDAN>** StaticGet__1___CreateColumn()
 		{
-			return (::System::Func_2<::System::Int32, ::ONPKMMDCDAN>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1F290);
+			return (::System::Func_2<::System::Int32, ::ONPKMMDCDAN>**)UnitySDK::FromName("", "<>O")->GetStaticField(0xDBA0);
 		}
 
 		static ::System::Func_2<::System::Int32, ::ONPKMMDCDAN>** StaticGet__0___CreateRow()
 		{
-			return (::System::Func_2<::System::Int32, ::ONPKMMDCDAN>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1F298);
+			return (::System::Func_2<::System::Int32, ::ONPKMMDCDAN>**)UnitySDK::FromName("", "<>O")->GetStaticField(0xDBA8);
 		}
 
 	};

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChimeraWorkFireBullet; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAWORKFIREBULLET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D583740)
-#define RPG_GAMECORE_CHIMERAWORKFIREBULLET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D583750)
-#define RPG_GAMECORE_CHIMERAWORKFIREBULLET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5836F0)
+#define RPG_GAMECORE_CHIMERAWORKFIREBULLET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F9F40)
+#define RPG_GAMECORE_CHIMERAWORKFIREBULLET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F4F9F50)
+#define RPG_GAMECORE_CHIMERAWORKFIREBULLET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F4F9EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkFireBullet_TypeDefinitionIndex = 15868;
+	inline static constexpr unsigned int ChimeraWorkFireBullet_TypeDefinitionIndex = 16026;
 
 	class ChimeraWorkFireBullet : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

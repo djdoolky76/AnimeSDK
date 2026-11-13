@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OBGAECGPEFF_IterState_TypeDefinitionIndex = 54992;
+inline static constexpr unsigned int OBGAECGPEFF_IterState_TypeDefinitionIndex = 56166;
 
 	enum class OBGAECGPEFF_IterState : ::System::Int32
 	{

@@ -5,20 +5,20 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class ShowPuzzleHudWolfBro; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OJEMNPEPCFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA7450)
-#define OJEMNPEPCFH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEA7460)
-#define OJEMNPEPCFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA74A0)
-#define OJEMNPEPCFH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEA7730)
-#define OJEMNPEPCFH_TICK_OFFSET UNITYSDK_OFFSET(0xBEA7780)
+#define OJEMNPEPCFH_CTOR_OFFSET UNITYSDK_OFFSET(0x194AB870)
+#define OJEMNPEPCFH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x194AB880)
+#define OJEMNPEPCFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x194AB8C0)
+#define OJEMNPEPCFH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x194ABB50)
+#define OJEMNPEPCFH_TICK_OFFSET UNITYSDK_OFFSET(0x194ABBA0)
 
-inline static constexpr unsigned int OJEMNPEPCFH_TypeDefinitionIndex = 58680;
+inline static constexpr unsigned int OJEMNPEPCFH_TypeDefinitionIndex = 59947;
 
 	class OJEMNPEPCFH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowPuzzleHudWolfBro* OFKGLJOAMLD; // 0x20
-		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x28
+		::RPG::GameCore::ShowPuzzleHudWolfBro* OFKGLJOAMLD; // 0x18
+		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowPuzzleHudWolfBro* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowPuzzleHudWolfBro*))((::PBYTE)hIl2Cpp + OJEMNPEPCFH_CTOR_OFFSET))(this, a1, a2);

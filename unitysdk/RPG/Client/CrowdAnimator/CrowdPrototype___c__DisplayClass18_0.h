@@ -4,12 +4,12 @@
 namespace RPG::Client::CrowdAnimator { class SkinnedMeshData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC3A20)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS18_0__GETSKINNEDMESHDATABYNAME_B__0_OFFSET UNITYSDK_OFFSET(0xCBC3AA0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7DB9C0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS18_0__GETSKINNEDMESHDATABYNAME_B__0_OFFSET UNITYSDK_OFFSET(0x1B7DBA40)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdPrototype___c__DisplayClass18_0_TypeDefinitionIndex = 73721;
+	inline static constexpr unsigned int CrowdPrototype___c__DisplayClass18_0_TypeDefinitionIndex = 75844;
 
 	class CrowdPrototype___c__DisplayClass18_0 : public ::System::Object
 	{

@@ -5,20 +5,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TryShowSpaceZooNewCatDialog; }
 namespace System { class Object; }
 
-#define GBGDKGIMIPG_CTOR_OFFSET UNITYSDK_OFFSET(0x159416F0)
-#define GBGDKGIMIPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15941700)
-#define GBGDKGIMIPG_MAABOAEONEP_OFFSET UNITYSDK_OFFSET(0x15941930)
-#define GBGDKGIMIPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159417C0)
-#define GBGDKGIMIPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15941880)
-#define GBGDKGIMIPG_TICK_OFFSET UNITYSDK_OFFSET(0x159418D0)
+#define GBGDKGIMIPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B87DF10)
+#define GBGDKGIMIPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B87DF20)
+#define GBGDKGIMIPG_MAABOAEONEP_OFFSET UNITYSDK_OFFSET(0x1B87E150)
+#define GBGDKGIMIPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B87DFE0)
+#define GBGDKGIMIPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B87E0A0)
+#define GBGDKGIMIPG_TICK_OFFSET UNITYSDK_OFFSET(0x1B87E0F0)
 
-inline static constexpr unsigned int GBGDKGIMIPG_TypeDefinitionIndex = 58807;
+inline static constexpr unsigned int GBGDKGIMIPG_TypeDefinitionIndex = 60075;
 
 	class GBGDKGIMIPG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TryShowSpaceZooNewCatDialog* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TryShowSpaceZooNewCatDialog* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TryShowSpaceZooNewCatDialog* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TryShowSpaceZooNewCatDialog*))((::PBYTE)hIl2Cpp + GBGDKGIMIPG_CTOR_OFFSET))(this, a1, a2);

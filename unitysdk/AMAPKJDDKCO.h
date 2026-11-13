@@ -6,10 +6,10 @@ class MLEMMDNMHCG;
 class PHCMIJEDENP;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define AMAPKJDDKCO_BFCFPLCLCIG_OFFSET UNITYSDK_OFFSET(0x1C510F20)
-#define AMAPKJDDKCO_NNLJPBMDOGC_OFFSET UNITYSDK_OFFSET(0x1C510FF0)
+#define AMAPKJDDKCO_BFCFPLCLCIG_OFFSET UNITYSDK_OFFSET(0x1E7740E0)
+#define AMAPKJDDKCO_NNLJPBMDOGC_OFFSET UNITYSDK_OFFSET(0x1E7741B0)
 
-inline static constexpr unsigned int AMAPKJDDKCO_TypeDefinitionIndex = 41905;
+inline static constexpr unsigned int AMAPKJDDKCO_TypeDefinitionIndex = 42880;
 
 	class AMAPKJDDKCO : public ::System::Object
 	{

@@ -7,20 +7,20 @@ namespace RPG::Client { class PlanetFesFloatingController; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define KKBMBCNKKNL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB45EB00)
-#define KKBMBCNKKNL_CTOR_OFFSET UNITYSDK_OFFSET(0xB45EDE0)
-#define KKBMBCNKKNL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB45ED60)
-#define KKBMBCNKKNL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB45EBC0)
-#define KKBMBCNKKNL__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB45EDF0)
+#define KKBMBCNKKNL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1733A8C0)
+#define KKBMBCNKKNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1733ABA0)
+#define KKBMBCNKKNL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1733AB20)
+#define KKBMBCNKKNL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1733A980)
+#define KKBMBCNKKNL__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1733ABB0)
 
-inline static constexpr unsigned int KKBMBCNKKNL_TypeDefinitionIndex = 74467;
+inline static constexpr unsigned int KKBMBCNKKNL_TypeDefinitionIndex = 76615;
 
 	class KKBMBCNKKNL : public ::MFDDEJCPLON
 	{
 	public:
-		::System::String* MJPKBIGCFOM; // 0x28
-		::System::String* GJEAIKIINML; // 0x30
-		::UnityEngine::Transform* NPAFMEBNFOB; // 0x38
+		::UnityEngine::Transform* NPAFMEBNFOB; // 0x28
+		::System::String* MJPKBIGCFOM; // 0x30
+		::System::String* GJEAIKIINML; // 0x38
 		::RPG::Client::PlanetFesFloatingController_ItemType LINLNNHIBAK; // 0x40
 		::System::Void _ctor()
 		{

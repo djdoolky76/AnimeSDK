@@ -5,19 +5,19 @@ namespace RPG::GameCore { class StopSummonUnitGameplay; }
 namespace RPG::GameCore { class SummonUnitGameplayConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFLCIFJJMGB_CTOR_OFFSET UNITYSDK_OFFSET(0x15F13880)
-#define IFLCIFJJMGB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F13970)
-#define IFLCIFJJMGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F13AA0)
-#define IFLCIFJJMGB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15F139F0)
-#define IFLCIFJJMGB_TICK_OFFSET UNITYSDK_OFFSET(0x15F13A40)
+#define IFLCIFJJMGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B9D0)
+#define IFLCIFJJMGB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BC1BAC0)
+#define IFLCIFJJMGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BC1BBF0)
+#define IFLCIFJJMGB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BC1BB40)
+#define IFLCIFJJMGB_TICK_OFFSET UNITYSDK_OFFSET(0x1BC1BB90)
 
-inline static constexpr unsigned int IFLCIFJJMGB_TypeDefinitionIndex = 58737;
+inline static constexpr unsigned int IFLCIFJJMGB_TypeDefinitionIndex = 60005;
 
 	class IFLCIFJJMGB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SummonUnitGameplayConfig* IOFNMCBADNM; // 0x18
-		::RPG::GameCore::StopSummonUnitGameplay* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::StopSummonUnitGameplay* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::SummonUnitGameplayConfig* IOFNMCBADNM; // 0x20
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StopSummonUnitGameplay* a2)
 		{

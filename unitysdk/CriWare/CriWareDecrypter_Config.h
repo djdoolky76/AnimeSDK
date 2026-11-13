@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIWAREDECRYPTER_CONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x16724D80)
+#define CRIWARE_CRIWAREDECRYPTER_CONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F464790)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWareDecrypter_Config_TypeDefinitionIndex = 40140;
+	inline static constexpr unsigned int CriWareDecrypter_Config_TypeDefinitionIndex = 41115;
 
 	class CriWareDecrypter_Config : public ::System::Object
 	{

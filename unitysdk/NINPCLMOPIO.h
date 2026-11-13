@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTimeRewindTargetCurrentState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NINPCLMOPIO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBFF2B0)
-#define NINPCLMOPIO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBFF2E0)
+#define NINPCLMOPIO_CTOR_OFFSET UNITYSDK_OFFSET(0x148DE520)
+#define NINPCLMOPIO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x148DE550)
 
-inline static constexpr unsigned int NINPCLMOPIO_TypeDefinitionIndex = 53368;
+inline static constexpr unsigned int NINPCLMOPIO_TypeDefinitionIndex = 54530;
 
 	class NINPCLMOPIO
 	{

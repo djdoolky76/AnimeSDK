@@ -4,16 +4,16 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define PKHDFPFPOEA_ACJMKBDMOFM_OFFSET UNITYSDK_OFFSET(0xC2B3400)
-#define PKHDFPFPOEA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B34C0)
+#define PKHDFPFPOEA_ACJMKBDMOFM_OFFSET UNITYSDK_OFFSET(0x147BEAB0)
+#define PKHDFPFPOEA_CTOR_OFFSET UNITYSDK_OFFSET(0x147BEB70)
 
-inline static constexpr unsigned int PKHDFPFPOEA_TypeDefinitionIndex = 72499;
+inline static constexpr unsigned int PKHDFPFPOEA_TypeDefinitionIndex = 74578;
 
 	class PKHDFPFPOEA : public ::System::Object
 	{
 	public:
-		::System::String* CNBLKCIPEMA; // 0x10
-		::System::String* ECJAFCIFGNJ; // 0x18
+		::System::String* ECJAFCIFGNJ; // 0x10
+		::System::String* CNBLKCIPEMA; // 0x18
 		::System::String* JEPECKPOBNI; // 0x20
 		::System::Void _ctor()
 		{

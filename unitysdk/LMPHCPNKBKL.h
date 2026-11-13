@@ -3,10 +3,10 @@
 class LAIOFACKOGL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMPHCPNKBKL_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CCFF0)
-#define LMPHCPNKBKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7CD020)
+#define LMPHCPNKBKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD9650)
+#define LMPHCPNKBKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFD9680)
 
-inline static constexpr unsigned int LMPHCPNKBKL_TypeDefinitionIndex = 55035;
+inline static constexpr unsigned int LMPHCPNKBKL_TypeDefinitionIndex = 56211;
 
 	class LMPHCPNKBKL
 	{

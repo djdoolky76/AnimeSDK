@@ -4,18 +4,18 @@
 class OFMCKLEMOMP;
 namespace System { class Object; }
 
-#define OFMCKLEMOMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE1D340)
-#define OFMCKLEMOMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE1D370)
-#define OFMCKLEMOMP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DE1D380)
+#define OFMCKLEMOMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F20CFB0)
+#define OFMCKLEMOMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F20CFE0)
+#define OFMCKLEMOMP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F20CFF0)
 
-inline static constexpr unsigned int OFMCKLEMOMP___c_TypeDefinitionIndex = 33052;
+inline static constexpr unsigned int OFMCKLEMOMP___c_TypeDefinitionIndex = 33967;
 
 	class OFMCKLEMOMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16FC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13DF0);
 		}
 
 		static ::System::Void _cctor()

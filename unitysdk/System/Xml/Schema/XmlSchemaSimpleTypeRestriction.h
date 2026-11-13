@@ -4,8 +4,8 @@
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEBC450)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_SET_BASETYPENAME_OFFSET UNITYSDK_OFFSET(0x1EEBC3B0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C65F470)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_SET_BASETYPENAME_OFFSET UNITYSDK_OFFSET(0x1C65F3D0)
 
 namespace System::Xml::Schema
 {
@@ -14,8 +14,8 @@ namespace System::Xml::Schema
 	class XmlSchemaSimpleTypeRestriction : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{
 	public:
-		::System::Xml::XmlQualifiedName* baseTypeName; // 0x10
-		::System::Xml::Schema::XmlSchemaObjectCollection* facets; // 0x18
+		::System::Xml::Schema::XmlSchemaObjectCollection* facets; // 0x10
+		::System::Xml::XmlQualifiedName* baseTypeName; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_CTOR_OFFSET))(this);

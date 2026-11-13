@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByEntityTimeScaleZero; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOIDFENGNJG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7F850)
-#define OOIDFENGNJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF7F880)
+#define OOIDFENGNJG_CTOR_OFFSET UNITYSDK_OFFSET(0x196A6AA0)
+#define OOIDFENGNJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x196A6AD0)
 
-inline static constexpr unsigned int OOIDFENGNJG_TypeDefinitionIndex = 53143;
+inline static constexpr unsigned int OOIDFENGNJG_TypeDefinitionIndex = 54305;
 
 	class OOIDFENGNJG
 	{

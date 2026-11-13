@@ -5,11 +5,11 @@
 class DPDHMOALAFG;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define PMCMFJMFOCH_CTOR_OFFSET UNITYSDK_OFFSET(0xC30F2F0)
-#define PMCMFJMFOCH_HONGLJECAAC_OFFSET UNITYSDK_OFFSET(0xC30F290)
-#define PMCMFJMFOCH_PNLLINHJDJF_OFFSET UNITYSDK_OFFSET(0xC30F220)
+#define PMCMFJMFOCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1889BE40)
+#define PMCMFJMFOCH_HONGLJECAAC_OFFSET UNITYSDK_OFFSET(0x1889BDE0)
+#define PMCMFJMFOCH_PNLLINHJDJF_OFFSET UNITYSDK_OFFSET(0x1889BD70)
 
-inline static constexpr unsigned int PMCMFJMFOCH_TypeDefinitionIndex = 79659;
+inline static constexpr unsigned int PMCMFJMFOCH_TypeDefinitionIndex = 82436;
 
 	class PMCMFJMFOCH : public ::System::Object
 	{

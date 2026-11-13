@@ -4,18 +4,18 @@
 class NACEGIAMJMG;
 namespace System { class Object; }
 
-#define NACEGIAMJMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA91330)
-#define NACEGIAMJMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA91370)
-#define NACEGIAMJMG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA91380)
+#define NACEGIAMJMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20146220)
+#define NACEGIAMJMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20146260)
+#define NACEGIAMJMG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20146270)
 
-inline static constexpr unsigned int NACEGIAMJMG___c_TypeDefinitionIndex = 27932;
+inline static constexpr unsigned int NACEGIAMJMG___c_TypeDefinitionIndex = 28522;
 
 	class NACEGIAMJMG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C7F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x565C0);
 		}
 
 		static ::System::Void _cctor()

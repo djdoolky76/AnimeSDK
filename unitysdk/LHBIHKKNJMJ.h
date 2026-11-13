@@ -5,11 +5,11 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleSwapPosition; }
 
-#define LHBIHKKNJMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A0780)
-#define LHBIHKKNJMJ_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB6A0B40)
-#define LHBIHKKNJMJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB6A07E0)
+#define LHBIHKKNJMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB8250)
+#define LHBIHKKNJMJ_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x1BCB8610)
+#define LHBIHKKNJMJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1BCB82B0)
 
-inline static constexpr unsigned int LHBIHKKNJMJ_TypeDefinitionIndex = 78409;
+inline static constexpr unsigned int LHBIHKKNJMJ_TypeDefinitionIndex = 81144;
 
 	class LHBIHKKNJMJ : public ::System::Object
 	{

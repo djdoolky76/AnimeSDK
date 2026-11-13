@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define DPDEPLLPIKC_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF5380)
-#define DPDEPLLPIKC_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x11FF5300)
-#define DPDEPLLPIKC_INTERP_OFFSET UNITYSDK_OFFSET(0x11FF5410)
-#define DPDEPLLPIKC_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x11FF5310)
+#define DPDEPLLPIKC_CTOR_OFFSET UNITYSDK_OFFSET(0x191BA2A0)
+#define DPDEPLLPIKC_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x191BA220)
+#define DPDEPLLPIKC_INTERP_OFFSET UNITYSDK_OFFSET(0x191BA330)
+#define DPDEPLLPIKC_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x191BA230)
 
-inline static constexpr unsigned int DPDEPLLPIKC_TypeDefinitionIndex = 74021;
+inline static constexpr unsigned int DPDEPLLPIKC_TypeDefinitionIndex = 76157;
 
 	class DPDEPLLPIKC
 	{
 	public:
-		::System::Single PJKFLONMKED; // 0x18
-		::System::Single ENMIPOPKOOL; // 0x1C
+		::System::Single ENMIPOPKOOL; // 0x18
+		::System::Single PJKFLONMKED; // 0x1C
 		::System::Void _ctor(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + DPDEPLLPIKC_CTOR_OFFSET))(this, a1, a2, a3);

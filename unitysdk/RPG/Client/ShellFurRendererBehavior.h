@@ -8,29 +8,29 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_AAENNFFBBGL_OFFSET UNITYSDK_OFFSET(0xE0B0AE0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xE0B0420)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_BAAJHOAAMIC_OFFSET UNITYSDK_OFFSET(0xE0B04B0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0B1050)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xE0B0340)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B0FE0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xE0B0A50)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_EOOLBBIDBNN_OFFSET UNITYSDK_OFFSET(0xE0AF8F0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xE0B0A10)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_HABJKLPECBB_OFFSET UNITYSDK_OFFSET(0xE0AF9B0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xE0B0660)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE0AF850)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_LMMHOIHABLD_OFFSET UNITYSDK_OFFSET(0xE0B0780)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xE0B02E0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE0B0600)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xE0B0720)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xE0B0270)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_PFMHCPFPMIM_OFFSET UNITYSDK_OFFSET(0xE0B0540)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xE0B05C0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_AAENNFFBBGL_OFFSET UNITYSDK_OFFSET(0x1C0ABC70)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x1C0AB5B0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_BAAJHOAAMIC_OFFSET UNITYSDK_OFFSET(0x1C0AB640)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0AC1E0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0x1C0AB4D0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0AC170)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x1C0ABBE0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_EOOLBBIDBNN_OFFSET UNITYSDK_OFFSET(0x1C0AAA80)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1C0ABBA0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_HABJKLPECBB_OFFSET UNITYSDK_OFFSET(0x1C0AAB40)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0x1C0AB7F0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C0AA9E0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_LMMHOIHABLD_OFFSET UNITYSDK_OFFSET(0x1C0AB910)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x1C0AB470)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0x1C0AB790)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0x1C0AB8B0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x1C0AB400)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_PFMHCPFPMIM_OFFSET UNITYSDK_OFFSET(0x1C0AB6D0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0x1C0AB750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShellFurRendererBehavior_TypeDefinitionIndex = 70945;
+	inline static constexpr unsigned int ShellFurRendererBehavior_TypeDefinitionIndex = 72924;
 
 	class ShellFurRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -42,64 +42,64 @@ namespace RPG::Client
 		::UnityEngine::Material* m_Material; // 0x50
 		::UnityEngine::MeshRenderer* m_TargetRenderer; // 0x58
 		::Il2CppArray<::UnityEngine::Matrix4x4>* renderMatrices; // 0x60
-		static ::System::Int32* StaticGet__FurLength_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15820);
-		}
-
-		static ::System::Int32* StaticGet__WindDir_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15824);
-		}
-
-		static ::System::Int32* StaticGet__MainTex_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15828);
-		}
-
-		static ::System::Int32* StaticGet__FurDitherID_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x1582C);
-		}
-
-		static ::System::Int32* StaticGet__WindNoiseScale_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15830);
-		}
-
-		static ::System::Int32* StaticGet__TopColor_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15834);
-		}
-
 		static ::System::Int32* StaticGet__NoiseMap_ID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15838);
-		}
-
-		static ::System::Int32* StaticGet__FurDither_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x1583C);
-		}
-
-		static ::System::Int32* StaticGet__FurMaskTex_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15840);
-		}
-
-		static ::System::Int32* StaticGet__RootSmoothnessScale_ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15844);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161B0);
 		}
 
 		static ::System::Int32* StaticGet__SmoothnessScale_ID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x15848);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161B4);
+		}
+
+		static ::System::Int32* StaticGet__FurDitherID_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161B8);
+		}
+
+		static ::System::Int32* StaticGet__FurDither_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161BC);
+		}
+
+		static ::System::Int32* StaticGet__WindDir_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161C0);
+		}
+
+		static ::System::Int32* StaticGet__TopColor_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161C4);
+		}
+
+		static ::System::Int32* StaticGet__MainTex_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161C8);
 		}
 
 		static ::System::Int32* StaticGet__RootColor_ID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x1584C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161CC);
+		}
+
+		static ::System::Int32* StaticGet__WindNoiseScale_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161D0);
+		}
+
+		static ::System::Int32* StaticGet__FurMaskTex_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161D4);
+		}
+
+		static ::System::Int32* StaticGet__RootSmoothnessScale_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161D8);
+		}
+
+		static ::System::Int32* StaticGet__FurLength_ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ShellFurRendererBehavior")->GetStaticField(0x161DC);
 		}
 
 		::System::Void _ctor()

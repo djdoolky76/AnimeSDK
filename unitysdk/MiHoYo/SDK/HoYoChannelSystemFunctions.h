@@ -15,83 +15,83 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFA03B0)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0xAF93B90)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0xAF89A50)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_ONSHOWERRORDIALOGCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9E460)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_ONSHOWMESSAGEDIALOGCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9E010)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_ONSHOWPROFILECARDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9DBC0)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_ONSHOWTEXTENTRYCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9D770)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_SHOWERRORDIALOG_OFFSET UNITYSDK_OFFSET(0xAF9FCC0)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_SHOWMESSAGEDIALOG_OFFSET UNITYSDK_OFFSET(0xAF9F610)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_SHOWPROFILECARD_OFFSET UNITYSDK_OFFSET(0xAF9EF60)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_SHOWTEXTENTRY_OFFSET UNITYSDK_OFFSET(0xAF9E8B0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB42410)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1AB35BB0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB2B9E0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_ONSHOWERRORDIALOGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB404C0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_ONSHOWMESSAGEDIALOGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB40070)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_ONSHOWPROFILECARDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3FC20)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_ONSHOWTEXTENTRYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3F7D0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_SHOWERRORDIALOG_OFFSET UNITYSDK_OFFSET(0x1AB41D20)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_SHOWMESSAGEDIALOG_OFFSET UNITYSDK_OFFSET(0x1AB41670)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_SHOWPROFILECARD_OFFSET UNITYSDK_OFFSET(0x1AB40FC0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS_SHOWTEXTENTRY_OFFSET UNITYSDK_OFFSET(0x1AB40910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSystemFunctions_TypeDefinitionIndex = 46558;
+	inline static constexpr unsigned int HoYoChannelSystemFunctions_TypeDefinitionIndex = 47586;
 
 	class HoYoChannelSystemFunctions : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_showProfileCardTimeouts()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B00);
-		}
-
-		static ::System::Object** StaticGet_s_showProfileCardLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B08);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowErrorDialogResult*>*>** StaticGet_s_showErrorDialogCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowErrorDialogResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B10);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowMessageDialogResult*>*>** StaticGet_s_showMessageDialogCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowMessageDialogResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B18);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_showTextEntryTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B20);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_showErrorDialogTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B28);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AAC0);
 		}
 
 		static ::System::Object** StaticGet_s_showTextEntryLock()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B30);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AAC8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_showErrorDialogTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AAD0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_showMessageDialogTimeouts()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B38);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowProfileCardResult*>*>** StaticGet_s_showProfileCardCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowProfileCardResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B40);
-		}
-
-		static ::System::Object** StaticGet_s_showErrorDialogLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B48);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AAD8);
 		}
 
 		static ::System::Object** StaticGet_s_showMessageDialogLock()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B50);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AAE0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_showTextEntryTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AAE8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowProfileCardResult*>*>** StaticGet_s_showProfileCardCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowProfileCardResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AAF0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowMessageDialogResult*>*>** StaticGet_s_showMessageDialogCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowMessageDialogResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AAF8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowErrorDialogResult*>*>** StaticGet_s_showErrorDialogCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowErrorDialogResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AB00);
+		}
+
+		static ::System::Object** StaticGet_s_showErrorDialogLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AB08);
+		}
+
+		static ::System::Object** StaticGet_s_showProfileCardLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AB10);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowTextEntryResult*>*>** StaticGet_s_showTextEntryCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowTextEntryResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x23B58);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowTextEntryResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSystemFunctions")->GetStaticField(0x1AB18);
 		}
 
 		// static const ::System::Object SHOW_TEXT_ENTRY_TIMEOUT_SECONDS; // 0x0

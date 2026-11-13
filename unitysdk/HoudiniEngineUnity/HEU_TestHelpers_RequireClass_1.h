@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_TestHelpers_RequireClass_1_TypeDefinitionIndex = 40693;
+	inline static constexpr unsigned int HEU_TestHelpers_RequireClass_1_TypeDefinitionIndex = 41668;
 
 	template <typename T>
 	class HEU_TestHelpers_RequireClass_1 : public ::System::Object

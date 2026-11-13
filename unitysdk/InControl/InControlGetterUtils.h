@@ -4,20 +4,20 @@
 #include "unitysdk/UnityEngine/EventSystems/MoveDirection.h"
 namespace InControl { class IInControlGetter; }
 
-#define INCONTROL_INCONTROLGETTERUTILS_NAVIGATIONFAILPROCESS_OFFSET UNITYSDK_OFFSET(0x1B9C8040)
-#define INCONTROL_INCONTROLGETTERUTILS_PLAYNAVIGATIONAUDIO_OFFSET UNITYSDK_OFFSET(0x1B9C8020)
-#define INCONTROL_INCONTROLGETTERUTILS_SETINCONTROLGETTERIMPL_OFFSET UNITYSDK_OFFSET(0x1B9C8010)
+#define INCONTROL_INCONTROLGETTERUTILS_NAVIGATIONFAILPROCESS_OFFSET UNITYSDK_OFFSET(0x19F96110)
+#define INCONTROL_INCONTROLGETTERUTILS_PLAYNAVIGATIONAUDIO_OFFSET UNITYSDK_OFFSET(0x19F960F0)
+#define INCONTROL_INCONTROLGETTERUTILS_SETINCONTROLGETTERIMPL_OFFSET UNITYSDK_OFFSET(0x19F960E0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlGetterUtils_TypeDefinitionIndex = 40850;
+	inline static constexpr unsigned int InControlGetterUtils_TypeDefinitionIndex = 41825;
 
 	class InControlGetterUtils : public ::System::Object
 	{
 	public:
 		static ::InControl::IInControlGetter** StaticGet_mGetter()
 		{
-			return (::InControl::IInControlGetter**)UnitySDK::FromName("InControl", "InControlGetterUtils")->GetStaticField(0x64640);
+			return (::InControl::IInControlGetter**)UnitySDK::FromName("InControl", "InControlGetterUtils")->GetStaticField(0x5F0A0);
 		}
 
 		static ::System::Void SetInControlGetterImpl(::InControl::IInControlGetter* a1)

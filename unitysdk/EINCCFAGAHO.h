@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/EGameDevPhasePage.h"
 #include "unitysdk/System/Object.h"
 
-#define EINCCFAGAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x154C6EA0)
+#define EINCCFAGAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x19AA25A0)
 
-inline static constexpr unsigned int EINCCFAGAHO_TypeDefinitionIndex = 61119;
+inline static constexpr unsigned int EINCCFAGAHO_TypeDefinitionIndex = 62504;
 
 	class EINCCFAGAHO : public ::System::Object
 	{

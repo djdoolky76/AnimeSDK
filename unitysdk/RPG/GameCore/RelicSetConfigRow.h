@@ -6,27 +6,27 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicSetConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICSETCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D953730)
-#define RPG_GAMECORE_RELICSETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D952EF0)
+#define RPG_GAMECORE_RELICSETCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F23D210)
+#define RPG_GAMECORE_RELICSETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F23C9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicSetConfigRow_TypeDefinitionIndex = 14640;
+	inline static constexpr unsigned int RelicSetConfigRow_TypeDefinitionIndex = 14796;
 
 	class RelicSetConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* SetIconFigurePath; // 0x10
-		::System::String* SetIconPath; // 0x18
+		::System::String* SetIconPath; // 0x10
+		::System::String* SetIconFigurePath; // 0x18
 		::System::String* ReleaseVersion; // 0x20
 		::Il2CppArray<::System::UInt32>* SetSkillList; // 0x28
-		::System::UInt32 DisplayItemIDRarity4; // 0x30
-		::System::UInt32 DisplayItemID; // 0x34
-		::System::Boolean Release; // 0x38
-		::System::Boolean IsPlanarSuit; // 0x39
+		::RPG::Client::TextID SetName; // 0x30
+		::System::UInt32 SetID; // 0x40
+		::System::UInt32 DisplayItemIDRarity4; // 0x44
+		::System::Boolean IsPlanarSuit; // 0x48
+		::System::Boolean Release; // 0x49
 		::System::Byte _padding0[0x2];
-		::System::UInt32 SetID; // 0x3C
-		::RPG::Client::TextID SetName; // 0x40
+		::System::UInt32 DisplayItemID; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICSETCONFIGROW_CTOR_OFFSET))(this);

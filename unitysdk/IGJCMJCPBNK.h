@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class IMPNGAFPDLJ;
 
-#define IGJCMJCPBNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB48240)
+#define IGJCMJCPBNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC350C0)
 
-inline static constexpr unsigned int IGJCMJCPBNK_TypeDefinitionIndex = 42189;
+inline static constexpr unsigned int IGJCMJCPBNK_TypeDefinitionIndex = 43164;
 
 	class IGJCMJCPBNK : public ::System::Object
 	{

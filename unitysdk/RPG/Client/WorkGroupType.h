@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkGroupType_TypeDefinitionIndex = 61056;
+	inline static constexpr unsigned int WorkGroupType_TypeDefinitionIndex = 62441;
 
 	enum class WorkGroupType : ::System::Int32
 	{

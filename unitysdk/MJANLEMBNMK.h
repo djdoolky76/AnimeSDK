@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define MJANLEMBNMK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D700)
+#define MJANLEMBNMK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3E5C0C0)
 
-inline static constexpr unsigned int MJANLEMBNMK_TypeDefinitionIndex = 71100;
+inline static constexpr unsigned int MJANLEMBNMK_TypeDefinitionIndex = 73083;
 
 	struct alignas(4) MJANLEMBNMK
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityLocalLegendDifficulty_TypeDefinitionIndex = 11839;
+	inline static constexpr unsigned int ActivityLocalLegendDifficulty_TypeDefinitionIndex = 11896;
 
 	enum class ActivityLocalLegendDifficulty : ::System::Int32
 	{

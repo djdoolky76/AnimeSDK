@@ -4,18 +4,18 @@
 class GFGEMCJLGPP;
 namespace System { class Object; }
 
-#define GFGEMCJLGPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E43C700)
-#define GFGEMCJLGPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E43C740)
-#define GFGEMCJLGPP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E43C750)
+#define GFGEMCJLGPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2007D380)
+#define GFGEMCJLGPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2007D3C0)
+#define GFGEMCJLGPP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2007D3D0)
 
-inline static constexpr unsigned int GFGEMCJLGPP___c_TypeDefinitionIndex = 30842;
+inline static constexpr unsigned int GFGEMCJLGPP___c_TypeDefinitionIndex = 31755;
 
 	class GFGEMCJLGPP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x132E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB660);
 		}
 
 		static ::System::Void _cctor()

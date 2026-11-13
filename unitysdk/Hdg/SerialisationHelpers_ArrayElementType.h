@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int SerialisationHelpers_ArrayElementType_TypeDefinitionIndex = 46943;
+	inline static constexpr unsigned int SerialisationHelpers_ArrayElementType_TypeDefinitionIndex = 47971;
 
 	enum class SerialisationHelpers_ArrayElementType : ::System::Int32
 	{

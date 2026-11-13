@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellSaver_TypeDefinitionIndex = 42503;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellSaver_TypeDefinitionIndex = 43478;
 
 	struct alignas(4) TimelineControlGameWorld_LevelCellSaver
 	{

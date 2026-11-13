@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_BROOKPS2CONVERTERMACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E5F50)
-#define INCONTROL_NATIVEDEVICEPROFILES_BROOKPS2CONVERTERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B9E5ED0)
+#define INCONTROL_NATIVEDEVICEPROFILES_BROOKPS2CONVERTERMACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x19FB4120)
+#define INCONTROL_NATIVEDEVICEPROFILES_BROOKPS2CONVERTERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x19FB40A0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int BrookPS2ConverterMacNativeProfile_TypeDefinitionIndex = 41112;
+	inline static constexpr unsigned int BrookPS2ConverterMacNativeProfile_TypeDefinitionIndex = 42087;
 
 	class BrookPS2ConverterMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

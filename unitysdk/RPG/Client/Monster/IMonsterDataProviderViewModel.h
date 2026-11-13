@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Monster
 {
-	inline static constexpr unsigned int IMonsterDataProviderViewModel_TypeDefinitionIndex = 79408;
+	inline static constexpr unsigned int IMonsterDataProviderViewModel_TypeDefinitionIndex = 82185;
 
 	class IMonsterDataProviderViewModel
 	{

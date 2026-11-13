@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateRinStageSpecifiedDeckEntry; }
 
-#define RPG_GAMECORE_FATERINSTAGESPECIFIEDDECKENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D671170)
-#define RPG_GAMECORE_FATERINSTAGESPECIFIEDDECKENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D670FD0)
+#define RPG_GAMECORE_FATERINSTAGESPECIFIEDDECKENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC96A00)
+#define RPG_GAMECORE_FATERINSTAGESPECIFIEDDECKENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1FC96860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinStageSpecifiedDeckEntry_TypeDefinitionIndex = 18153;
+	inline static constexpr unsigned int FateRinStageSpecifiedDeckEntry_TypeDefinitionIndex = 18315;
 
 	class FateRinStageSpecifiedDeckEntry : public ::RPG::GameCore::JsonConfig
 	{

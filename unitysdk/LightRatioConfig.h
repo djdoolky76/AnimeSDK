@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LIGHTRATIOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB831B20)
+#define LIGHTRATIOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CBCE0)
 
-inline static constexpr unsigned int LightRatioConfig_TypeDefinitionIndex = 47561;
+inline static constexpr unsigned int LightRatioConfig_TypeDefinitionIndex = 48590;
 
 	class LightRatioConfig : public ::UnityEngine::ScriptableObject
 	{

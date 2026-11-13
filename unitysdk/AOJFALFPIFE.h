@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class ParticleSystem; }
 
-#define AOJFALFPIFE_LLHPBDPNHMA_OFFSET UNITYSDK_OFFSET(0x158A5500)
+#define AOJFALFPIFE_LLHPBDPNHMA_OFFSET UNITYSDK_OFFSET(0x1A84A780)
 
-inline static constexpr unsigned int AOJFALFPIFE_TypeDefinitionIndex = 73175;
+inline static constexpr unsigned int AOJFALFPIFE_TypeDefinitionIndex = 75289;
 
 	class AOJFALFPIFE : public ::System::Object
 	{

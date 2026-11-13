@@ -5,10 +5,10 @@
 namespace Entitas { class ICleanupSystem; }
 namespace Entitas { class ISystem; }
 
-#define JJHADOIAEOG_CLEANUP_OFFSET UNITYSDK_OFFSET(0xB1FF9C0)
-#define JJHADOIAEOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FF8D0)
+#define JJHADOIAEOG_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1742EBD0)
+#define JJHADOIAEOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1742EAE0)
 
-inline static constexpr unsigned int JJHADOIAEOG_TypeDefinitionIndex = 76772;
+inline static constexpr unsigned int JJHADOIAEOG_TypeDefinitionIndex = 79105;
 
 	class JJHADOIAEOG : public ::System::Object
 	{

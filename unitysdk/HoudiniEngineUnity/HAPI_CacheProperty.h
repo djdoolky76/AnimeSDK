@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_CacheProperty_TypeDefinitionIndex = 40482;
+	inline static constexpr unsigned int HAPI_CacheProperty_TypeDefinitionIndex = 41457;
 
 	enum class HAPI_CacheProperty : ::System::Int32
 	{

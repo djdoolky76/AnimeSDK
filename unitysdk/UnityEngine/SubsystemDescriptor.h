@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4705A0)
-#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_GET_ID_OFFSET UNITYSDK_OFFSET(0x1F470590)
+#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x20971EA0)
+#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_GET_ID_OFFSET UNITYSDK_OFFSET(0x20971E90)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SubsystemDescriptor_TypeDefinitionIndex = 5827;
+	inline static constexpr unsigned int SubsystemDescriptor_TypeDefinitionIndex = 5835;
 
 	class SubsystemDescriptor : public ::System::Object
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int PPLKNABLNGH_TypeDefinitionIndex = 81193;
+inline static constexpr unsigned int PPLKNABLNGH_TypeDefinitionIndex = 83973;
 
 	class PPLKNABLNGH : public ::System::Object
 	{

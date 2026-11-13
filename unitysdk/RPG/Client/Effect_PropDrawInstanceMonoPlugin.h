@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_PROPDRAWINSTANCEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD58DF0)
-#define RPG_CLIENT_EFFECT_PROPDRAWINSTANCEMONOPLUGIN_SETINSTANCEMATRICES_OFFSET UNITYSDK_OFFSET(0xCD58D40)
+#define RPG_CLIENT_EFFECT_PROPDRAWINSTANCEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1899E000)
+#define RPG_CLIENT_EFFECT_PROPDRAWINSTANCEMONOPLUGIN_SETINSTANCEMATRICES_OFFSET UNITYSDK_OFFSET(0x1899DF50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PropDrawInstanceMonoPlugin_TypeDefinitionIndex = 70539;
+	inline static constexpr unsigned int Effect_PropDrawInstanceMonoPlugin_TypeDefinitionIndex = 72514;
 
 	class Effect_PropDrawInstanceMonoPlugin
 	{

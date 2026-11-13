@@ -7,9 +7,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define KPEBKEODGAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB5AD890)
+#define KPEBKEODGAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1911E020)
 
-inline static constexpr unsigned int KPEBKEODGAO_TypeDefinitionIndex = 58147;
+inline static constexpr unsigned int KPEBKEODGAO_TypeDefinitionIndex = 59395;
 
 	class KPEBKEODGAO : public ::System::Object
 	{
@@ -17,8 +17,8 @@ inline static constexpr unsigned int KPEBKEODGAO_TypeDefinitionIndex = 58147;
 		::System::String* LHOJDELAMJL; // 0x10
 		::RPG::GameCore::FixPoint APMCPIPIJOI; // 0x18
 		::RPG::Client::TextID MPIEEPEGFGA; // 0x20
-		::RPG::GameCore::GridFightTraitEffectChangeHintType HMOAIJEANAP; // 0x30
-		::RPG::GameCore::GridFightTraitEffectChargeType MJPHFBALDBM; // 0x34
+		::RPG::GameCore::GridFightTraitEffectChargeType MJPHFBALDBM; // 0x30
+		::RPG::GameCore::GridFightTraitEffectChangeHintType HMOAIJEANAP; // 0x34
 		::RPG::GameCore::FixPoint JIAOEIMMPBB; // 0x38
 		::System::Void _ctor()
 		{

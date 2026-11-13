@@ -5,25 +5,25 @@ namespace RPG::Client::LittleGame::PixAir { class PixAirEquipStatistics; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9DAF50)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DAF90)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__GETEQUIPSTATSSORTEDBYUSECOUNT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C9DAFA0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20713520)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20713560)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__GETEQUIPSTATSSORTEDBYUSECOUNT_B__7_0_OFFSET UNITYSDK_OFFSET(0x20713570)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 43677;
+	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 44660;
 
 	class PixAirPlaneStatistics___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x5E430);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x5E438);
+			return (::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x5D320);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x5D328);
 		}
 
 		static ::System::Void _cctor()

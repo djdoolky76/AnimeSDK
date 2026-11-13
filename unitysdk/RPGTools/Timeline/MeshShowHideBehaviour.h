@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE903970)
-#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE9036F0)
+#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74E240)
+#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1C74DFC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MeshShowHideBehaviour_TypeDefinitionIndex = 48185;
+	inline static constexpr unsigned int MeshShowHideBehaviour_TypeDefinitionIndex = 49223;
 
 	class MeshShowHideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

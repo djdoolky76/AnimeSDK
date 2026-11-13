@@ -4,7 +4,7 @@
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int AssetUtil_TypeDefinitionIndex = 35422;
+	inline static constexpr unsigned int AssetUtil_TypeDefinitionIndex = 36350;
 
 	class AssetUtil : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class ByCompareModifierCallBackDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PMHIGHHKBKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC3159E0)
-#define PMHIGHHKBKJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC315AC0)
+#define PMHIGHHKBKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x188A2510)
+#define PMHIGHHKBKJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x188A25F0)
 
-inline static constexpr unsigned int PMHIGHHKBKJ_TypeDefinitionIndex = 54541;
+inline static constexpr unsigned int PMHIGHHKBKJ_TypeDefinitionIndex = 55706;
 
 	class PMHIGHHKBKJ
 	{

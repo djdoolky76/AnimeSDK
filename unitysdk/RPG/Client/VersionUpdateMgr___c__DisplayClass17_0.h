@@ -5,12 +5,12 @@ class EJLIOMPMHHI;
 class JIAFOPELMJJ;
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE43C8E0)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS17_0__GETPREDOWNLOADALLSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xE440480)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6AC50)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS17_0__GETPREDOWNLOADALLSIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1BC6E7F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass17_0_TypeDefinitionIndex = 61280;
+	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass17_0_TypeDefinitionIndex = 62665;
 
 	class VersionUpdateMgr___c__DisplayClass17_0 : public ::System::Object
 	{

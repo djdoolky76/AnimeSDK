@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39B090)
-#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D39B0E0)
-#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39B020)
+#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FC3D0)
+#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8FC420)
+#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FC360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureLoopAttackDetect_TypeDefinitionIndex = 20199;
+	inline static constexpr unsigned int AdventureLoopAttackDetect_TypeDefinitionIndex = 20534;
 
 	class AdventureLoopAttackDetect : public ::RPG::GameCore::TaskConfig
 	{

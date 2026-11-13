@@ -4,18 +4,18 @@
 class OCOJEHPINMN;
 namespace System { class Object; }
 
-#define OCOJEHPINMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDEBFE0)
-#define OCOJEHPINMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEC020)
-#define OCOJEHPINMN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DDEC030)
+#define OCOJEHPINMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB49F50)
+#define OCOJEHPINMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB49F90)
+#define OCOJEHPINMN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FB49FA0)
 
-inline static constexpr unsigned int OCOJEHPINMN___c_TypeDefinitionIndex = 26801;
+inline static constexpr unsigned int OCOJEHPINMN___c_TypeDefinitionIndex = 27332;
 
 	class OCOJEHPINMN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11C80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xDD20);
 		}
 
 		static ::System::Void _cctor()

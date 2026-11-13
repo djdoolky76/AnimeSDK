@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/ActionDelayLinkExtraBehaviorMask.h"
 namespace RPG::GameCore { class ActionDelayLinkExtraBehaviorGroup; }
 
-#define NEPMJIEFJCF_EDIPKPAGLJA_CTOR_OFFSET UNITYSDK_OFFSET(0x20460)
+#define NEPMJIEFJCF_EDIPKPAGLJA_CTOR_OFFSET UNITYSDK_OFFSET(0x3E0DF80)
 
-inline static constexpr unsigned int NEPMJIEFJCF_EDIPKPAGLJA_TypeDefinitionIndex = 55952;
+inline static constexpr unsigned int NEPMJIEFJCF_EDIPKPAGLJA_TypeDefinitionIndex = 57155;
 
 	struct alignas(4) NEPMJIEFJCF_EDIPKPAGLJA
 	{

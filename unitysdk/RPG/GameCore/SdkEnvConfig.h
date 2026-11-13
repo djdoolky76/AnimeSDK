@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SdkEnvConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SDKENVCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5E350)
-#define RPG_GAMECORE_SDKENVCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA5E140)
+#define RPG_GAMECORE_SDKENVCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F850070)
+#define RPG_GAMECORE_SDKENVCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F84FE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SdkEnvConfig_TypeDefinitionIndex = 19037;
+	inline static constexpr unsigned int SdkEnvConfig_TypeDefinitionIndex = 19224;
 
 	class SdkEnvConfig : public ::RPG::GameCore::JsonConfig
 	{

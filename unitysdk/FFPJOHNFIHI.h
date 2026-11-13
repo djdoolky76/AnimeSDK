@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define FFPJOHNFIHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBC7D0)
+#define FFPJOHNFIHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E452550)
 
-inline static constexpr unsigned int FFPJOHNFIHI_TypeDefinitionIndex = 25029;
+inline static constexpr unsigned int FFPJOHNFIHI_TypeDefinitionIndex = 25507;
 
 	class FFPJOHNFIHI : public ::System::Attribute
 	{

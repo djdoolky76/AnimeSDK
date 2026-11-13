@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetSkillSlotData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGJNNFOFONN_CTOR_OFFSET UNITYSDK_OFFSET(0xB693230)
-#define LGJNNFOFONN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB693260)
+#define LGJNNFOFONN_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAAE30)
+#define LGJNNFOFONN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCAAE60)
 
-inline static constexpr unsigned int LGJNNFOFONN_TypeDefinitionIndex = 57889;
+inline static constexpr unsigned int LGJNNFOFONN_TypeDefinitionIndex = 59126;
 
 	class LGJNNFOFONN
 	{

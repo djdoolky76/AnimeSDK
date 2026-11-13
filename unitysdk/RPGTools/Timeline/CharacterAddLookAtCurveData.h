@@ -4,11 +4,11 @@
 namespace RPG::Client { class LookAtAdditiveCurveConstraint; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BB0F0)
+#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E8E20)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterAddLookAtCurveData_TypeDefinitionIndex = 47971;
+	inline static constexpr unsigned int CharacterAddLookAtCurveData_TypeDefinitionIndex = 49002;
 
 	class CharacterAddLookAtCurveData : public ::System::Object
 	{

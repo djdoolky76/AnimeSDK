@@ -5,37 +5,37 @@ namespace RPG::Client { class SwordTrainingEndingDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE160A30)
-#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE160A70)
-#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C__GETENDINGFINISHEDCOUNT_B__8_0_OFFSET UNITYSDK_OFFSET(0xE160AC0)
-#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C__ISALLFINISHED_B__6_0_OFFSET UNITYSDK_OFFSET(0xE160A80)
-#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C__ISANYENDINGFINISHED_B__7_0_OFFSET UNITYSDK_OFFSET(0xE160AA0)
+#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD03410)
+#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD03450)
+#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C__GETENDINGFINISHEDCOUNT_B__8_0_OFFSET UNITYSDK_OFFSET(0x1CD034A0)
+#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C__ISALLFINISHED_B__6_0_OFFSET UNITYSDK_OFFSET(0x1CD03460)
+#define RPG_CLIENT_SWORDTRAININGENDINGINFO___C__ISANYENDINGFINISHED_B__7_0_OFFSET UNITYSDK_OFFSET(0x1CD03480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingEndingInfo___c_TypeDefinitionIndex = 61938;
+	inline static constexpr unsigned int SwordTrainingEndingInfo___c_TypeDefinitionIndex = 63350;
 
 	class SwordTrainingEndingInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FBB0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FBB8);
-		}
-
 		static ::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FBC0);
+			return (::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11370);
+		}
+
+		static ::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11378);
 		}
 
 		static ::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FBC8);
+			return (::System::Func_2<::RPG::Client::SwordTrainingEndingDataItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11380);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11388);
 		}
 
 		static ::System::Void _cctor()

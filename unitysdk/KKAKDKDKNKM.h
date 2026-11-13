@@ -8,60 +8,60 @@ class WaterInteractor;
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define KKAKDKDKNKM_CCTOR_OFFSET UNITYSDK_OFFSET(0xB45C840)
-#define KKAKDKDKNKM_CLEAR_OFFSET UNITYSDK_OFFSET(0xB45B5B0)
-#define KKAKDKDKNKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB45C830)
-#define KKAKDKDKNKM_EODFHGBDNEA_OFFSET UNITYSDK_OFFSET(0xB45BA20)
-#define KKAKDKDKNKM_FAEFAINILLC_OFFSET UNITYSDK_OFFSET(0xB45C5D0)
-#define KKAKDKDKNKM_FFHLEIFNIPN_OFFSET UNITYSDK_OFFSET(0xB45B180)
-#define KKAKDKDKNKM_HDPIMCPNAJH_OFFSET UNITYSDK_OFFSET(0xB45B020)
-#define KKAKDKDKNKM_IPJFEMIIAKI_OFFSET UNITYSDK_OFFSET(0xB45BF20)
-#define KKAKDKDKNKM_LBLBHFKOCOK_OFFSET UNITYSDK_OFFSET(0xB45B520)
-#define KKAKDKDKNKM_MDHPGMKIHPA_OFFSET UNITYSDK_OFFSET(0xB45C790)
-#define KKAKDKDKNKM_NHFPEIJIILB_OFFSET UNITYSDK_OFFSET(0xB45C360)
-#define KKAKDKDKNKM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB45B880)
-#define KKAKDKDKNKM_OKFHEEFCPBI_OFFSET UNITYSDK_OFFSET(0xB45B060)
-#define KKAKDKDKNKM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB45BC60)
-#define KKAKDKDKNKM_POMAEIJODAB_OFFSET UNITYSDK_OFFSET(0xB45C310)
-#define KKAKDKDKNKM_PPGHECKLLLN_OFFSET UNITYSDK_OFFSET(0xB45C550)
+#define KKAKDKDKNKM_CCTOR_OFFSET UNITYSDK_OFFSET(0x17338550)
+#define KKAKDKDKNKM_CLEAR_OFFSET UNITYSDK_OFFSET(0x173372A0)
+#define KKAKDKDKNKM_CTOR_OFFSET UNITYSDK_OFFSET(0x17338540)
+#define KKAKDKDKNKM_EODFHGBDNEA_OFFSET UNITYSDK_OFFSET(0x17337720)
+#define KKAKDKDKNKM_FAEFAINILLC_OFFSET UNITYSDK_OFFSET(0x173382E0)
+#define KKAKDKDKNKM_FFHLEIFNIPN_OFFSET UNITYSDK_OFFSET(0x17336E70)
+#define KKAKDKDKNKM_HDPIMCPNAJH_OFFSET UNITYSDK_OFFSET(0x17336D10)
+#define KKAKDKDKNKM_IPJFEMIIAKI_OFFSET UNITYSDK_OFFSET(0x17337C20)
+#define KKAKDKDKNKM_LBLBHFKOCOK_OFFSET UNITYSDK_OFFSET(0x17337210)
+#define KKAKDKDKNKM_MDHPGMKIHPA_OFFSET UNITYSDK_OFFSET(0x173384A0)
+#define KKAKDKDKNKM_NHFPEIJIILB_OFFSET UNITYSDK_OFFSET(0x17338060)
+#define KKAKDKDKNKM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x17337580)
+#define KKAKDKDKNKM_OKFHEEFCPBI_OFFSET UNITYSDK_OFFSET(0x17336D50)
+#define KKAKDKDKNKM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x17337960)
+#define KKAKDKDKNKM_POMAEIJODAB_OFFSET UNITYSDK_OFFSET(0x17338010)
+#define KKAKDKDKNKM_PPGHECKLLLN_OFFSET UNITYSDK_OFFSET(0x17338260)
 
-inline static constexpr unsigned int KKAKDKDKNKM_TypeDefinitionIndex = 70865;
+inline static constexpr unsigned int KKAKDKDKNKM_TypeDefinitionIndex = 72844;
 
 	class KKAKDKDKNKM : public ::System::Object
 	{
 	public:
-		::WaterInteractor* CEODOONOFBM; // 0x10
-		::UnityEngine::Transform* GKNBCPMJHMN; // 0x18
-		::UnityEngine::Transform* FGOBKIJPCIK; // 0x20
-		::UnityEngine::Transform* GLFDLJONMLM; // 0x28
-		::System::Single NFKALJLCLNN; // 0x30
-		::System::Boolean IHCNKCIBCGC; // 0x34
+		::UnityEngine::Transform* FGOBKIJPCIK; // 0x10
+		::UnityEngine::Transform* GLFDLJONMLM; // 0x18
+		::WaterInteractor* CEODOONOFBM; // 0x20
+		::UnityEngine::Transform* GKNBCPMJHMN; // 0x28
+		::System::Boolean IHCNKCIBCGC; // 0x30
 		::System::Byte _padding0[0x3];
-		::System::UInt32 PIIDBIMBGPE; // 0x38
-		::System::Nullable_1<::System::Single> OLFJGCDNAOP; // 0x3C
-		static ::Il2CppArray<::System::Single>** StaticGet_MIJKLKKKOEP()
-		{
-			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x52080);
-		}
-
+		::System::Nullable_1<::System::Single> OLFJGCDNAOP; // 0x34
+		::System::Single NFKALJLCLNN; // 0x3C
+		::System::UInt32 PIIDBIMBGPE; // 0x40
 		static ::System::String** StaticGet_JNPGMADIPCD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x52088);
+			return (::System::String**)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x56A30);
 		}
 
-		static ::System::Single* StaticGet_OGBKBJMKGFD()
+		static ::Il2CppArray<::System::Single>** StaticGet_MIJKLKKKOEP()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x12740);
+			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x56A38);
 		}
 
 		static ::System::Single* StaticGet_LBDDNMCBJFA()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x12744);
+			return (::System::Single*)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x12770);
+		}
+
+		static ::System::Single* StaticGet_OGBKBJMKGFD()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x12774);
 		}
 
 		static ::System::Single* StaticGet_CPNHPGCFMBJ()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x12748);
+			return (::System::Single*)UnitySDK::FromName("", "KKAKDKDKNKM")->GetStaticField(0x12778);
 		}
 
 		// static const ::System::Object BEGPGJHNADD; // 0x0

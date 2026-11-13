@@ -3,10 +3,10 @@
 #include "unitysdk/MMFOGJPOHGJ.h"
 namespace System { class String; }
 
-#define EEDKGBHGAPN_EMFHJDICJKL_OFFSET UNITYSDK_OFFSET(0x1334AD20)
-#define EEDKGBHGAPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x26A33C0)
+#define EEDKGBHGAPN_EMFHJDICJKL_OFFSET UNITYSDK_OFFSET(0x1A312090)
+#define EEDKGBHGAPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3E5B530)
 
-inline static constexpr unsigned int EEDKGBHGAPN_TypeDefinitionIndex = 67176;
+inline static constexpr unsigned int EEDKGBHGAPN_TypeDefinitionIndex = 69120;
 
 	struct alignas(4) EEDKGBHGAPN
 	{

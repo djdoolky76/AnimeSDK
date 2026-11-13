@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetMainLightOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CDKCNNJNMGP_CTOR_OFFSET UNITYSDK_OFFSET(0xC768800)
-#define CDKCNNJNMGP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC768DC0)
-#define CDKCNNJNMGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC768810)
-#define CDKCNNJNMGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC768D10)
-#define CDKCNNJNMGP_TICK_OFFSET UNITYSDK_OFFSET(0xC768D60)
+#define CDKCNNJNMGP_CTOR_OFFSET UNITYSDK_OFFSET(0x173B3320)
+#define CDKCNNJNMGP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x173B38E0)
+#define CDKCNNJNMGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173B3330)
+#define CDKCNNJNMGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x173B3830)
+#define CDKCNNJNMGP_TICK_OFFSET UNITYSDK_OFFSET(0x173B3880)
 
-inline static constexpr unsigned int CDKCNNJNMGP_TypeDefinitionIndex = 56412;
+inline static constexpr unsigned int CDKCNNJNMGP_TypeDefinitionIndex = 57630;
 
 	class CDKCNNJNMGP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetMainLightOffset* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetMainLightOffset* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetMainLightOffset* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetMainLightOffset*))((::PBYTE)hIl2Cpp + CDKCNNJNMGP_CTOR_OFFSET))(this, a1, a2);

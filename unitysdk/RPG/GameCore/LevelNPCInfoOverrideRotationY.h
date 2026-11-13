@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelNPCInfoOverrideRotationY; }
 
-#define RPG_GAMECORE_LEVELNPCINFOOVERRIDEROTATIONY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D78A520)
-#define RPG_GAMECORE_LEVELNPCINFOOVERRIDEROTATIONY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D78A050)
+#define RPG_GAMECORE_LEVELNPCINFOOVERRIDEROTATIONY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93BEE0)
+#define RPG_GAMECORE_LEVELNPCINFOOVERRIDEROTATIONY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93BA10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCInfoOverrideRotationY_TypeDefinitionIndex = 17362;
+	inline static constexpr unsigned int LevelNPCInfoOverrideRotationY_TypeDefinitionIndex = 17530;
 
 	class LevelNPCInfoOverrideRotationY : public ::RPG::GameCore::JsonConfig
 	{

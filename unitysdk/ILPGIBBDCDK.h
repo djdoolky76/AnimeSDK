@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetWaypointIgnoreLock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILPGIBBDCDK_CTOR_OFFSET UNITYSDK_OFFSET(0x164BDD80)
-#define ILPGIBBDCDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164BDDB0)
+#define ILPGIBBDCDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C9500)
+#define ILPGIBBDCDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5C9530)
 
-inline static constexpr unsigned int ILPGIBBDCDK_TypeDefinitionIndex = 58591;
+inline static constexpr unsigned int ILPGIBBDCDK_TypeDefinitionIndex = 59856;
 
 	class ILPGIBBDCDK
 	{

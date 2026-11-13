@@ -8,24 +8,24 @@ class MCJMNJGBCLI;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class SortedSet_1; }
 
-#define KHOJFFEPLEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB40E2A0)
-#define KHOJFFEPLEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB40DB40)
-#define KHOJFFEPLEO_EDAMFBHFEGE_OFFSET UNITYSDK_OFFSET(0xB40DFE0)
-#define KHOJFFEPLEO_GET_ANCHORGRIDSETS_OFFSET UNITYSDK_OFFSET(0xB40E280)
-#define KHOJFFEPLEO_GET_GRIDANCHORDATADICT_OFFSET UNITYSDK_OFFSET(0xB40E260)
-#define KHOJFFEPLEO_GJDLGDJOHGE_OFFSET UNITYSDK_OFFSET(0xB40DC70)
-#define KHOJFFEPLEO_JCLNBGMJGPB_OFFSET UNITYSDK_OFFSET(0xB40DD90)
-#define KHOJFFEPLEO_PCFGDALHJCA_OFFSET UNITYSDK_OFFSET(0xB40D990)
-#define KHOJFFEPLEO_SET_ANCHORGRIDSETS_OFFSET UNITYSDK_OFFSET(0xB40E290)
-#define KHOJFFEPLEO_SET_GRIDANCHORDATADICT_OFFSET UNITYSDK_OFFSET(0xB40E270)
+#define KHOJFFEPLEO_CTOR_OFFSET UNITYSDK_OFFSET(0x197A0050)
+#define KHOJFFEPLEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1979F8F0)
+#define KHOJFFEPLEO_EDAMFBHFEGE_OFFSET UNITYSDK_OFFSET(0x1979FD90)
+#define KHOJFFEPLEO_GET_ANCHORGRIDSETS_OFFSET UNITYSDK_OFFSET(0x197A0030)
+#define KHOJFFEPLEO_GET_GRIDANCHORDATADICT_OFFSET UNITYSDK_OFFSET(0x197A0010)
+#define KHOJFFEPLEO_GJDLGDJOHGE_OFFSET UNITYSDK_OFFSET(0x1979FA20)
+#define KHOJFFEPLEO_JCLNBGMJGPB_OFFSET UNITYSDK_OFFSET(0x1979FB40)
+#define KHOJFFEPLEO_PCFGDALHJCA_OFFSET UNITYSDK_OFFSET(0x1979F740)
+#define KHOJFFEPLEO_SET_ANCHORGRIDSETS_OFFSET UNITYSDK_OFFSET(0x197A0040)
+#define KHOJFFEPLEO_SET_GRIDANCHORDATADICT_OFFSET UNITYSDK_OFFSET(0x197A0020)
 
-inline static constexpr unsigned int KHOJFFEPLEO_TypeDefinitionIndex = 74112;
+inline static constexpr unsigned int KHOJFFEPLEO_TypeDefinitionIndex = 76260;
 
 	class KHOJFFEPLEO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::SortedSet_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>* _AnchorGridSets_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>, ::MCJMNJGBCLI*>* _GridAnchorDataDict_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>, ::MCJMNJGBCLI*>* _GridAnchorDataDict_k__BackingField; // 0x10
+		::System::Collections::Generic::SortedSet_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>* _AnchorGridSets_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_CTOR_OFFSET))(this);

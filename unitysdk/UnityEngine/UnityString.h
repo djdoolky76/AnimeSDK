@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UNITYSTRING_FORMAT_OFFSET UNITYSDK_OFFSET(0x1F46F560)
+#define UNITYENGINE_UNITYSTRING_FORMAT_OFFSET UNITYSDK_OFFSET(0x20972780)
 
 namespace UnityEngine
 {

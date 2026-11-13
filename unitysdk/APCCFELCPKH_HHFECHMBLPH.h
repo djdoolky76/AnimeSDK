@@ -10,27 +10,27 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define APCCFELCPKH_HHFECHMBLPH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B95180)
-#define APCCFELCPKH_HHFECHMBLPH_DDCBDPBGNCB_OFFSET UNITYSDK_OFFSET(0x15B95B40)
-#define APCCFELCPKH_HHFECHMBLPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B95750)
-#define APCCFELCPKH_HHFECHMBLPH_NJAJMEMGLGH_OFFSET UNITYSDK_OFFSET(0x15B95EF0)
+#define APCCFELCPKH_HHFECHMBLPH_CTOR_OFFSET UNITYSDK_OFFSET(0x184F6700)
+#define APCCFELCPKH_HHFECHMBLPH_DDCBDPBGNCB_OFFSET UNITYSDK_OFFSET(0x184FB910)
+#define APCCFELCPKH_HHFECHMBLPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x184F5FF0)
+#define APCCFELCPKH_HHFECHMBLPH_NJAJMEMGLGH_OFFSET UNITYSDK_OFFSET(0x184FBB80)
 
-inline static constexpr unsigned int APCCFELCPKH_HHFECHMBLPH_TypeDefinitionIndex = 60240;
+inline static constexpr unsigned int APCCFELCPKH_HHFECHMBLPH_TypeDefinitionIndex = 61524;
 
 	class APCCFELCPKH_HHFECHMBLPH : public ::System::Object
 	{
 	public:
-		::RPG::Client::Stage* PPANBKDPFFK; // 0x10
-		::APCCFELCPKH_BMILOCEDDIE* POOGHHFHIAN; // 0x18
-		::APCCFELCPKH_MJFEMPECGGL* MIPCILCJBMP; // 0x20
-		::UnityEngine::PassTagID NMJHGJGNJEH; // 0x28
-		::RPG::Client::OpenWorld::StreamingItemData* BGFPGNDIOII; // 0x38
-		::System::String* BDACPPLKLGL; // 0x40
-		::UnityEngine::Material* IMOHCDHKBAJ; // 0x48
+		::UnityEngine::PassTagID NMJHGJGNJEH; // 0x10
+		::UnityEngine::Material* IMOHCDHKBAJ; // 0x20
+		::APCCFELCPKH_BMILOCEDDIE* POOGHHFHIAN; // 0x28
+		::System::String* BDACPPLKLGL; // 0x30
+		::RPG::Client::Stage* PPANBKDPFFK; // 0x38
+		::RPG::Client::OpenWorld::StreamingItemData* BGFPGNDIOII; // 0x40
+		::APCCFELCPKH_MJFEMPECGGL* MIPCILCJBMP; // 0x48
 		::System::Boolean ALDHKBIELOG; // 0x50
 		::System::Byte _padding0[0x3];
-		::System::UInt32 CMNOEFFFNPE; // 0x54
-		::System::UInt32 FMLGGKAFMKC; // 0x58
+		::System::UInt32 FMLGGKAFMKC; // 0x54
+		::System::UInt32 CMNOEFFFNPE; // 0x58
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::APCCFELCPKH_MJFEMPECGGL* a3, ::System::String* a4, ::RPG::Client::Stage* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::APCCFELCPKH_MJFEMPECGGL*, ::System::String*, ::RPG::Client::Stage*))((::PBYTE)hIl2Cpp + APCCFELCPKH_HHFECHMBLPH_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

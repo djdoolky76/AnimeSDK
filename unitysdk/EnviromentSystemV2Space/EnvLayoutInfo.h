@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVLAYOUTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x156305A0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVLAYOUTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x136B6B30)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvLayoutInfo_TypeDefinitionIndex = 49405;
+	inline static constexpr unsigned int EnvLayoutInfo_TypeDefinitionIndex = 50481;
 
 	class EnvLayoutInfo : public ::System::Object
 	{

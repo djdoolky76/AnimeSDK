@@ -5,10 +5,10 @@ class CIBPNBHDDHD;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CIBPNBHDDHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBE6A00)
-#define CIBPNBHDDHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBE67C0)
+#define CIBPNBHDDHD_CTOR_OFFSET UNITYSDK_OFFSET(0x115FA580)
+#define CIBPNBHDDHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x115FA340)
 
-inline static constexpr unsigned int CIBPNBHDDHD_TypeDefinitionIndex = 22722;
+inline static constexpr unsigned int CIBPNBHDDHD_TypeDefinitionIndex = 23144;
 
 	class CIBPNBHDDHD : public ::RPG::GameCore::JsonConfig
 	{

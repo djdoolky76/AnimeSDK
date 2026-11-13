@@ -4,9 +4,9 @@
 class KMGAJHEGPDG;
 namespace UnityEngine { class Transform; }
 
-#define GFLODGKPLOC_HCLHNCAMGHL_OFFSET UNITYSDK_OFFSET(0x159F1070)
+#define GFLODGKPLOC_HCLHNCAMGHL_OFFSET UNITYSDK_OFFSET(0x1B49A560)
 
-inline static constexpr unsigned int GFLODGKPLOC_TypeDefinitionIndex = 79188;
+inline static constexpr unsigned int GFLODGKPLOC_TypeDefinitionIndex = 81965;
 
 	class GFLODGKPLOC : public ::System::Object
 	{

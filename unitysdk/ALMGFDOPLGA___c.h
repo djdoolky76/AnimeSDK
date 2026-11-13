@@ -4,18 +4,18 @@
 class ALMGFDOPLGA;
 namespace System { class Object; }
 
-#define ALMGFDOPLGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4E57E0)
-#define ALMGFDOPLGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E5810)
-#define ALMGFDOPLGA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4E5820)
+#define ALMGFDOPLGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2001FA80)
+#define ALMGFDOPLGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2001FAB0)
+#define ALMGFDOPLGA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2001FAC0)
 
-inline static constexpr unsigned int ALMGFDOPLGA___c_TypeDefinitionIndex = 33135;
+inline static constexpr unsigned int ALMGFDOPLGA___c_TypeDefinitionIndex = 34050;
 
 	class ALMGFDOPLGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x430B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38450);
 		}
 
 		static ::System::Void _cctor()

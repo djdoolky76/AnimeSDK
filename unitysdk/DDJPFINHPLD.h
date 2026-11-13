@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnterTrainPartyGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DDJPFINHPLD_CTOR_OFFSET UNITYSDK_OFFSET(0xE4E2EE0)
-#define DDJPFINHPLD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4E2F10)
+#define DDJPFINHPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x17741050)
+#define DDJPFINHPLD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17741080)
 
-inline static constexpr unsigned int DDJPFINHPLD_TypeDefinitionIndex = 53414;
+inline static constexpr unsigned int DDJPFINHPLD_TypeDefinitionIndex = 54576;
 
 	class DDJPFINHPLD
 	{

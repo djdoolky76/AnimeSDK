@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyGlobalVisionParams; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KADLKJCMEEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CC290)
-#define KADLKJCMEEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2CC2C0)
+#define KADLKJCMEEN_CTOR_OFFSET UNITYSDK_OFFSET(0x19DA8520)
+#define KADLKJCMEEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DA8550)
 
-inline static constexpr unsigned int KADLKJCMEEN_TypeDefinitionIndex = 53027;
+inline static constexpr unsigned int KADLKJCMEEN_TypeDefinitionIndex = 54187;
 
 	class KADLKJCMEEN
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Challenge::Boss { class ChallengeBossGuideTagListControl; }
 
-#define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSGUIDETAGLISTCONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC935C40)
-#define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSGUIDETAGLISTCONTROL___C__DISPLAYCLASS13_0___ONITEMCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xC935E90)
+#define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSGUIDETAGLISTCONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD3200)
+#define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSGUIDETAGLISTCONTROL___C__DISPLAYCLASS13_0___ONITEMCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1DDD3460)
 
 namespace RPG::Client::Challenge::Boss
 {
-	inline static constexpr unsigned int ChallengeBossGuideTagListControl___c__DisplayClass13_0_TypeDefinitionIndex = 81642;
+	inline static constexpr unsigned int ChallengeBossGuideTagListControl___c__DisplayClass13_0_TypeDefinitionIndex = 84423;
 
 	class ChallengeBossGuideTagListControl___c__DisplayClass13_0 : public ::System::Object
 	{

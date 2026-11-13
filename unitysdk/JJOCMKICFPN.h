@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopElevationDither; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJOCMKICFPN_CTOR_OFFSET UNITYSDK_OFFSET(0xB203CD0)
-#define JJOCMKICFPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB203D00)
+#define JJOCMKICFPN_CTOR_OFFSET UNITYSDK_OFFSET(0x17B0B1A0)
+#define JJOCMKICFPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B0B1D0)
 
-inline static constexpr unsigned int JJOCMKICFPN_TypeDefinitionIndex = 53296;
+inline static constexpr unsigned int JJOCMKICFPN_TypeDefinitionIndex = 54458;
 
 	class JJOCMKICFPN
 	{

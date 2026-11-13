@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define TMPRO_TMP_INPUTVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2E8230)
+#define TMPRO_TMP_INPUTVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x19BBB460)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputValidator_TypeDefinitionIndex = 44608;
+	inline static constexpr unsigned int TMP_InputValidator_TypeDefinitionIndex = 45683;
 
 	class TMP_InputValidator : public ::UnityEngine::ScriptableObject
 	{

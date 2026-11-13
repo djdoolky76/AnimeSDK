@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HHDDFBJLHDM;
 
-#define CAMAJOHGKPC_CTOR_OFFSET UNITYSDK_OFFSET(0xC485630)
+#define CAMAJOHGKPC_CTOR_OFFSET UNITYSDK_OFFSET(0x18FC1C40)
 
-inline static constexpr unsigned int CAMAJOHGKPC_TypeDefinitionIndex = 81097;
+inline static constexpr unsigned int CAMAJOHGKPC_TypeDefinitionIndex = 83877;
 
 	class CAMAJOHGKPC : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareNextUnusedInsertAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KABIHDKFPKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CA7E0)
-#define KABIHDKFPKB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2CA810)
+#define KABIHDKFPKB_CTOR_OFFSET UNITYSDK_OFFSET(0x19DA6B00)
+#define KABIHDKFPKB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19DA6B30)
 
-inline static constexpr unsigned int KABIHDKFPKB_TypeDefinitionIndex = 54552;
+inline static constexpr unsigned int KABIHDKFPKB_TypeDefinitionIndex = 55717;
 
 	class KABIHDKFPKB
 	{

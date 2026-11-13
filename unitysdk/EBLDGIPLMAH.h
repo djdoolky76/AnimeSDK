@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PPFilterStackEffectUpdate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EBLDGIPLMAH_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFBD10)
-#define EBLDGIPLMAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CFBD20)
-#define EBLDGIPLMAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CFBD60)
-#define EBLDGIPLMAH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CFC130)
-#define EBLDGIPLMAH_TICK_OFFSET UNITYSDK_OFFSET(0x12CFC180)
+#define EBLDGIPLMAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C9970)
+#define EBLDGIPLMAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C3C9980)
+#define EBLDGIPLMAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C3C99C0)
+#define EBLDGIPLMAH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C3C9D90)
+#define EBLDGIPLMAH_TICK_OFFSET UNITYSDK_OFFSET(0x1C3C9DE0)
 
-inline static constexpr unsigned int EBLDGIPLMAH_TypeDefinitionIndex = 55255;
+inline static constexpr unsigned int EBLDGIPLMAH_TypeDefinitionIndex = 56437;
 
 	class EBLDGIPLMAH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::PPFilterStackEffectUpdate* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::PPFilterStackEffectUpdate* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PPFilterStackEffectUpdate* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PPFilterStackEffectUpdate*))((::PBYTE)hIl2Cpp + EBLDGIPLMAH_CTOR_OFFSET))(this, a1, a2);

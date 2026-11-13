@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerAnimatorLayerEmotion; }
 
-#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC16360)
-#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC16370)
-#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC16320)
+#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31FBE0)
+#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E31FBF0)
+#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E31FBA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAnimatorLayerEmotion_TypeDefinitionIndex = 20599;
+	inline static constexpr unsigned int TriggerAnimatorLayerEmotion_TypeDefinitionIndex = 20935;
 
 	class TriggerAnimatorLayerEmotion : public ::RPG::GameCore::TaskConfig
 	{

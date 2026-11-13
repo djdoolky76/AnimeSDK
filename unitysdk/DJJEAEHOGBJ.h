@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 namespace System { class String; }
 
-#define DJJEAEHOGBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD01810)
+#define DJJEAEHOGBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F6490)
 
-inline static constexpr unsigned int DJJEAEHOGBJ_TypeDefinitionIndex = 25043;
+inline static constexpr unsigned int DJJEAEHOGBJ_TypeDefinitionIndex = 25521;
 
 	class DJJEAEHOGBJ : public ::UnityEngine::PropertyAttribute
 	{

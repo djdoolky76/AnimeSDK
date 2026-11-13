@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByHealDataProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLNNDPONAMC_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B4490)
-#define DLNNDPONAMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8B4570)
+#define DLNNDPONAMC_CTOR_OFFSET UNITYSDK_OFFSET(0x18688A50)
+#define DLNNDPONAMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18688B30)
 
-inline static constexpr unsigned int DLNNDPONAMC_TypeDefinitionIndex = 55448;
+inline static constexpr unsigned int DLNNDPONAMC_TypeDefinitionIndex = 56636;
 
 	class DLNNDPONAMC
 	{

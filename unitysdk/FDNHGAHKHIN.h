@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class GravityBallPuzzleSwitchBoardWaitFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FDNHGAHKHIN_CTOR_OFFSET UNITYSDK_OFFSET(0x156D36B0)
-#define FDNHGAHKHIN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156D36C0)
-#define FDNHGAHKHIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156D3700)
-#define FDNHGAHKHIN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156D38B0)
-#define FDNHGAHKHIN_TICK_OFFSET UNITYSDK_OFFSET(0x156D38F0)
-#define FDNHGAHKHIN__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x156D3950)
+#define FDNHGAHKHIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C039B60)
+#define FDNHGAHKHIN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C039B70)
+#define FDNHGAHKHIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C039BB0)
+#define FDNHGAHKHIN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C039D60)
+#define FDNHGAHKHIN_TICK_OFFSET UNITYSDK_OFFSET(0x1C039DA0)
+#define FDNHGAHKHIN__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C039E00)
 
-inline static constexpr unsigned int FDNHGAHKHIN_TypeDefinitionIndex = 52916;
+inline static constexpr unsigned int FDNHGAHKHIN_TypeDefinitionIndex = 54072;
 
 	class FDNHGAHKHIN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::GravityBallPuzzleSwitchBoardWaitFinish* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::GravityBallPuzzleSwitchBoardWaitFinish* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GravityBallPuzzleSwitchBoardWaitFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::GravityBallPuzzleSwitchBoardWaitFinish*))((::PBYTE)hIl2Cpp + FDNHGAHKHIN_CTOR_OFFSET))(this, a1, a2);

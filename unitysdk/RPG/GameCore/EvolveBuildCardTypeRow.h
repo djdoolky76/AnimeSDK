@@ -7,21 +7,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EvolveBuildCardTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D656130)
-#define RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D655F20)
+#define RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0FB420)
+#define RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0FB210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildCardTypeRow_TypeDefinitionIndex = 11436;
+	inline static constexpr unsigned int EvolveBuildCardTypeRow_TypeDefinitionIndex = 11487;
 
 	class EvolveBuildCardTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* CardBuffItemBgMid; // 0x10
-		::System::String* CardBuffItemBgSmall; // 0x18
-		::System::String* CardBuffItemBgBig; // 0x20
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x28
-		::RPG::GameCore::EvolveBuildCardType Type; // 0x2C
+		::System::String* CardBuffItemBgSmall; // 0x10
+		::System::String* CardBuffItemBgBig; // 0x18
+		::System::String* CardBuffItemBgMid; // 0x20
+		::RPG::GameCore::EvolveBuildCardType Type; // 0x28
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW_CTOR_OFFSET))(this);

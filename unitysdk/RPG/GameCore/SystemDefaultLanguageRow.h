@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SystemDefaultLanguageRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB25610)
-#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB254C0)
+#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E694E50)
+#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E694D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SystemDefaultLanguageRow_TypeDefinitionIndex = 12652;
+	inline static constexpr unsigned int SystemDefaultLanguageRow_TypeDefinitionIndex = 12719;
 
 	class SystemDefaultLanguageRow : public ::System::Object
 	{

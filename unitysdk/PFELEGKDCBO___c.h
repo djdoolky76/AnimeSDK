@@ -4,18 +4,18 @@
 class PFELEGKDCBO;
 namespace System { class Object; }
 
-#define PFELEGKDCBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF6F80)
-#define PFELEGKDCBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF6FC0)
-#define PFELEGKDCBO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEF6FD0)
+#define PFELEGKDCBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20677EF0)
+#define PFELEGKDCBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20677F30)
+#define PFELEGKDCBO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20677F40)
 
-inline static constexpr unsigned int PFELEGKDCBO___c_TypeDefinitionIndex = 27113;
+inline static constexpr unsigned int PFELEGKDCBO___c_TypeDefinitionIndex = 27644;
 
 	class PFELEGKDCBO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31AD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35660);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 #include "unitysdk/IGCJIEGAOLH.h"
 class KHDJLEELKHD;
 
-#define EHKNLKAPGLG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x154A2630)
-#define EHKNLKAPGLG_CTOR_OFFSET UNITYSDK_OFFSET(0x154A2780)
+#define EHKNLKAPGLG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18BD33F0)
+#define EHKNLKAPGLG_CTOR_OFFSET UNITYSDK_OFFSET(0x18BD3530)
 
-inline static constexpr unsigned int EHKNLKAPGLG_TypeDefinitionIndex = 62633;
+inline static constexpr unsigned int EHKNLKAPGLG_TypeDefinitionIndex = 64060;
 
 	class EHKNLKAPGLG : public ::System::Object
 	{

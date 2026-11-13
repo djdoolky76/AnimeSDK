@@ -4,10 +4,10 @@
 class IGPLBKLFLED;
 namespace System { class String; }
 
-#define NKMIDHGFCDI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C498D10)
-#define NKMIDHGFCDI___C__DISPLAYCLASS6_0__ISFILEEXISTBYCONTENTHASH_B__0_OFFSET UNITYSDK_OFFSET(0x1C499250)
+#define NKMIDHGFCDI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD10FF0)
+#define NKMIDHGFCDI___C__DISPLAYCLASS6_0__ISFILEEXISTBYCONTENTHASH_B__0_OFFSET UNITYSDK_OFFSET(0x1BD11530)
 
-inline static constexpr unsigned int NKMIDHGFCDI___c__DisplayClass6_0_TypeDefinitionIndex = 41504;
+inline static constexpr unsigned int NKMIDHGFCDI___c__DisplayClass6_0_TypeDefinitionIndex = 42479;
 
 	class NKMIDHGFCDI___c__DisplayClass6_0 : public ::System::Object
 	{

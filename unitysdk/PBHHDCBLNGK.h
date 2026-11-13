@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ComplexSkillAISourceWeaknessCompare; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define PBHHDCBLNGK_ABBKNAHINIG_OFFSET UNITYSDK_OFFSET(0xBFE6DA0)
-#define PBHHDCBLNGK_JMPDCKBCPND_OFFSET UNITYSDK_OFFSET(0xBFE7170)
+#define PBHHDCBLNGK_ABBKNAHINIG_OFFSET UNITYSDK_OFFSET(0x1AABD400)
+#define PBHHDCBLNGK_JMPDCKBCPND_OFFSET UNITYSDK_OFFSET(0x1AABD7D0)
 
-inline static constexpr unsigned int PBHHDCBLNGK_TypeDefinitionIndex = 54358;
+inline static constexpr unsigned int PBHHDCBLNGK_TypeDefinitionIndex = 55522;
 
 	class PBHHDCBLNGK : public ::System::Object
 	{

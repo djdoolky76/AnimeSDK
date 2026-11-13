@@ -5,11 +5,11 @@
 namespace RPG::Client { class LookAtAdditiveCurveConstraint; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ABKMDDDHPCG_GHCBGCMCIIO_OFFSET UNITYSDK_OFFSET(0xF020)
-#define ABKMDDDHPCG_HMOGJKLNPMA_OFFSET UNITYSDK_OFFSET(0xF000)
-#define ABKMDDDHPCG_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xF040)
+#define ABKMDDDHPCG_GHCBGCMCIIO_OFFSET UNITYSDK_OFFSET(0x3E0AE60)
+#define ABKMDDDHPCG_HMOGJKLNPMA_OFFSET UNITYSDK_OFFSET(0x3E0AE40)
+#define ABKMDDDHPCG_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x3E0AE80)
 
-inline static constexpr unsigned int ABKMDDDHPCG_TypeDefinitionIndex = 68484;
+inline static constexpr unsigned int ABKMDDDHPCG_TypeDefinitionIndex = 70432;
 
 	struct alignas(8) ABKMDDDHPCG
 	{

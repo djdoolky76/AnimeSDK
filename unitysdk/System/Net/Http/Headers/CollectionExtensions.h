@@ -5,7 +5,7 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONEXTENSIONS_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1EE1F1E0)
+#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONEXTENSIONS_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1FFBDC70)
 
 namespace System::Net::Http::Headers
 {

@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace System::Reflection { class MethodInfo; }
 
-#define SOFA_CORE_MESSAGING_INTERNALS_OPENDELEGATEHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC635A0)
+#define SOFA_CORE_MESSAGING_INTERNALS_OPENDELEGATEHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E54D0C0)
 
 namespace Sofa::Core::Messaging::Internals
 {
-	inline static constexpr unsigned int OpenDelegateHelper_TypeDefinitionIndex = 44276;
+	inline static constexpr unsigned int OpenDelegateHelper_TypeDefinitionIndex = 45351;
 
 	class OpenDelegateHelper : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet__CreateOpenHandlerCoreMethod()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("Sofa.Core.Messaging.Internals", "OpenDelegateHelper")->GetStaticField(0x4A6F0);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("Sofa.Core.Messaging.Internals", "OpenDelegateHelper")->GetStaticField(0x62020);
 		}
 
 		static ::System::Void _cctor()

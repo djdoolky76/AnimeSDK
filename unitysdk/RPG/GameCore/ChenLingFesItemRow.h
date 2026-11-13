@@ -7,31 +7,31 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingFesItemRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5612B0)
-#define RPG_GAMECORE_CHENLINGFESITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D560D30)
+#define RPG_GAMECORE_CHENLINGFESITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F916730)
+#define RPG_GAMECORE_CHENLINGFESITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F9161B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesItemRow_TypeDefinitionIndex = 11100;
+	inline static constexpr unsigned int ChenLingFesItemRow_TypeDefinitionIndex = 11116;
 
 	class ChenLingFesItemRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EffectItemTypeList; // 0x10
-		::System::String* BaseLoopInterval; // 0x18
-		::Il2CppArray<::System::Int32>* ParamList; // 0x20
-		::System::String* BaseProbability; // 0x28
-		::System::String* LogicJsonPath; // 0x30
-		::Il2CppArray<::System::UInt32>* TagList; // 0x38
-		::System::String* ViewJsonPath; // 0x40
-		::System::String* IconPath; // 0x48
-		::System::String* BaseMaxEffectTriggerNum; // 0x50
-		::System::String* BaseCoinNum; // 0x58
-		::System::UInt32 MaxPutDownNum; // 0x60
-		::RPG::GameCore::ChenLingFesItemRare Rare; // 0x64
-		::System::UInt32 ID; // 0x68
+		::System::String* BaseLoopInterval; // 0x10
+		::System::String* BaseProbability; // 0x18
+		::Il2CppArray<::System::UInt32>* TagList; // 0x20
+		::System::String* BaseMaxEffectTriggerNum; // 0x28
+		::System::String* BaseCoinNum; // 0x30
+		::System::String* ViewJsonPath; // 0x38
+		::System::String* IconPath; // 0x40
+		::Il2CppArray<::System::UInt32>* EffectItemTypeList; // 0x48
+		::System::String* LogicJsonPath; // 0x50
+		::Il2CppArray<::System::Int32>* ParamList; // 0x58
+		::RPG::Client::TextID ItemDesc; // 0x60
+		::System::UInt32 ID; // 0x70
+		::System::UInt32 MaxPutDownNum; // 0x74
+		::RPG::GameCore::ChenLingFesItemRare Rare; // 0x78
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID ItemDesc; // 0x70
 		::RPG::Client::TextID ItemName; // 0x80
 		::System::Void _ctor()
 		{

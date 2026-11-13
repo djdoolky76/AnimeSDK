@@ -4,9 +4,9 @@
 class EFJCOMHLIDO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MMBKDDEKHGM_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B9790)
+#define MMBKDDEKHGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B92EDB0)
 
-inline static constexpr unsigned int MMBKDDEKHGM_TypeDefinitionIndex = 82240;
+inline static constexpr unsigned int MMBKDDEKHGM_TypeDefinitionIndex = 85113;
 
 	class MMBKDDEKHGM : public ::NPEJPBFILIP
 	{

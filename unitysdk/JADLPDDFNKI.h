@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class AdventureCharacterFloatingConfig; }
 namespace System { class String; }
 
-#define JADLPDDFNKI_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x165331E0)
-#define JADLPDDFNKI_CTOR_OFFSET UNITYSDK_OFFSET(0x16533280)
-#define JADLPDDFNKI_FHGHOENCEJL_OFFSET UNITYSDK_OFFSET(0x16533120)
+#define JADLPDDFNKI_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x19321B90)
+#define JADLPDDFNKI_CTOR_OFFSET UNITYSDK_OFFSET(0x19321C30)
+#define JADLPDDFNKI_FHGHOENCEJL_OFFSET UNITYSDK_OFFSET(0x19321AD0)
 
-inline static constexpr unsigned int JADLPDDFNKI_TypeDefinitionIndex = 47951;
+inline static constexpr unsigned int JADLPDDFNKI_TypeDefinitionIndex = 48982;
 
 	class JADLPDDFNKI : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityNewbiePromoteRow; }
 
-#define RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33FE60)
-#define RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33F7D0)
+#define RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E51D970)
+#define RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E51D2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityNewbiePromoteRow_TypeDefinitionIndex = 11225;
+	inline static constexpr unsigned int ActivityNewbiePromoteRow_TypeDefinitionIndex = 11276;
 
 	class ActivityNewbiePromoteRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Desc; // 0x10
-		::System::UInt32 FinishQuest; // 0x20
-		::System::UInt32 SortID; // 0x24
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 DisplayItem; // 0x2C
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 FinishQuest; // 0x14
+		::System::UInt32 SortID; // 0x18
+		::System::UInt32 DisplayItem; // 0x1C
+		::RPG::Client::TextID Desc; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW_CTOR_OFFSET))(this);

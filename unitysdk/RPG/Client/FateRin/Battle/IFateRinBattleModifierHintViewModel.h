@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleModifierHintViewModel_TypeDefinitionIndex = 80944;
+	inline static constexpr unsigned int IFateRinBattleModifierHintViewModel_TypeDefinitionIndex = 83724;
 
 	class IFateRinBattleModifierHintViewModel
 	{

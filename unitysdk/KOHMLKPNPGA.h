@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareCurrentModifierStatusType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KOHMLKPNPGA_CTOR_OFFSET UNITYSDK_OFFSET(0xB5909B0)
-#define KOHMLKPNPGA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB5909E0)
+#define KOHMLKPNPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x190FFC00)
+#define KOHMLKPNPGA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x190FFC30)
 
-inline static constexpr unsigned int KOHMLKPNPGA_TypeDefinitionIndex = 54527;
+inline static constexpr unsigned int KOHMLKPNPGA_TypeDefinitionIndex = 55692;
 
 	class KOHMLKPNPGA
 	{

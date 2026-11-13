@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define HCAGNJAIIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C093E0)
+#define HCAGNJAIIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7A83C0)
 
-inline static constexpr unsigned int HCAGNJAIIDK_TypeDefinitionIndex = 49660;
+inline static constexpr unsigned int HCAGNJAIIDK_TypeDefinitionIndex = 50736;
 
 	class HCAGNJAIIDK : public ::System::Attribute
 	{

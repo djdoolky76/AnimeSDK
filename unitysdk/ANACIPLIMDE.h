@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define ANACIPLIMDE_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0x15586470)
+#define ANACIPLIMDE_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0x1A81C420)
 
-inline static constexpr unsigned int ANACIPLIMDE_TypeDefinitionIndex = 56405;
+inline static constexpr unsigned int ANACIPLIMDE_TypeDefinitionIndex = 57623;
 
 	struct alignas(8) ANACIPLIMDE
 	{

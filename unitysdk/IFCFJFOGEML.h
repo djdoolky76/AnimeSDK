@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define IFCFJFOGEML_CTOR_OFFSET UNITYSDK_OFFSET(0x15EFD7E0)
+#define IFCFJFOGEML_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC054A0)
 
-inline static constexpr unsigned int IFCFJFOGEML_TypeDefinitionIndex = 48244;
+inline static constexpr unsigned int IFCFJFOGEML_TypeDefinitionIndex = 49285;
 
 	class IFCFJFOGEML : public ::UnityEngine::Playables::PlayableBehaviour
 	{

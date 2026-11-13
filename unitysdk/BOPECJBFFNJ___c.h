@@ -7,53 +7,53 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define BOPECJBFFNJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C41C4E0)
-#define BOPECJBFFNJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C41C520)
-#define BOPECJBFFNJ___C__FORCELOADALLASYNC_B__63_0_OFFSET UNITYSDK_OFFSET(0x1C41C530)
-#define BOPECJBFFNJ___C__FORCELOADALLASYNC_B__63_1_OFFSET UNITYSDK_OFFSET(0x1C41C540)
-#define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_0_OFFSET UNITYSDK_OFFSET(0x1C41C6A0)
-#define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_1_OFFSET UNITYSDK_OFFSET(0x1C41C6B0)
-#define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_2_OFFSET UNITYSDK_OFFSET(0x1C41C6F0)
-#define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_3_OFFSET UNITYSDK_OFFSET(0x1C41CA20)
+#define BOPECJBFFNJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15ADCCF0)
+#define BOPECJBFFNJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15ADCD30)
+#define BOPECJBFFNJ___C__FORCELOADALLASYNC_B__63_0_OFFSET UNITYSDK_OFFSET(0x15ADCD40)
+#define BOPECJBFFNJ___C__FORCELOADALLASYNC_B__63_1_OFFSET UNITYSDK_OFFSET(0x15ADCD50)
+#define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_0_OFFSET UNITYSDK_OFFSET(0x15ADCD90)
+#define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_1_OFFSET UNITYSDK_OFFSET(0x15ADCDA0)
+#define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_2_OFFSET UNITYSDK_OFFSET(0x15ADCDE0)
+#define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_3_OFFSET UNITYSDK_OFFSET(0x15ADCFE0)
 
-inline static constexpr unsigned int BOPECJBFFNJ___c_TypeDefinitionIndex = 41575;
+inline static constexpr unsigned int BOPECJBFFNJ___c_TypeDefinitionIndex = 42550;
 
 	class BOPECJBFFNJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::BOCEFFDMFPM*>** StaticGet___9__72_1()
-		{
-			return (::System::Action_1<::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13BC0);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt64, ::BOCEFFDMFPM*>, ::BOCEFFDMFPM*>** StaticGet___9__72_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt64, ::BOCEFFDMFPM*>, ::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13BC8);
-		}
-
-		static ::System::Func_2<::BOCEFFDMFPM*, ::System::Boolean>** StaticGet___9__63_1()
-		{
-			return (::System::Func_2<::BOCEFFDMFPM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13BD0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13BD8);
-		}
-
-		static ::System::Action_1<::BOCEFFDMFPM*>** StaticGet___9__72_2()
-		{
-			return (::System::Action_1<::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13BE0);
-		}
-
-		static ::System::Action_1<::BOCEFFDMFPM*>** StaticGet___9__72_3()
-		{
-			return (::System::Action_1<::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13BE8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt64, ::BOCEFFDMFPM*>, ::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70B40);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt64, ::BOCEFFDMFPM*>, ::BOCEFFDMFPM*>** StaticGet___9__63_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt64, ::BOCEFFDMFPM*>, ::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13BF0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt64, ::BOCEFFDMFPM*>, ::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70B48);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70B50);
+		}
+
+		static ::System::Action_1<::BOCEFFDMFPM*>** StaticGet___9__72_3()
+		{
+			return (::System::Action_1<::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70B58);
+		}
+
+		static ::System::Action_1<::BOCEFFDMFPM*>** StaticGet___9__72_1()
+		{
+			return (::System::Action_1<::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70B60);
+		}
+
+		static ::System::Action_1<::BOCEFFDMFPM*>** StaticGet___9__72_2()
+		{
+			return (::System::Action_1<::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70B68);
+		}
+
+		static ::System::Func_2<::BOCEFFDMFPM*, ::System::Boolean>** StaticGet___9__63_1()
+		{
+			return (::System::Func_2<::BOCEFFDMFPM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70B70);
 		}
 
 		static ::System::Void _cctor()

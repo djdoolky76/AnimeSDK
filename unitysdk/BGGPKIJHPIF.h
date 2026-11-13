@@ -4,9 +4,9 @@
 class PNKOJKOOLNO;
 namespace RPG::Client { class MaterialSubmitterGroup; }
 
-#define BGGPKIJHPIF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB187220)
+#define BGGPKIJHPIF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x151C5CB0)
 
-inline static constexpr unsigned int BGGPKIJHPIF_TypeDefinitionIndex = 61797;
+inline static constexpr unsigned int BGGPKIJHPIF_TypeDefinitionIndex = 63203;
 
 	class BGGPKIJHPIF : public ::System::Object
 	{

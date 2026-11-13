@@ -4,12 +4,12 @@
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftCoinViewModel; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentDetailViewModel; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTDETAILVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD67D650)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTDETAILVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD67D640)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTDETAILVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1E91BF00)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTDETAILVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E91BEF0)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftTalentDetailViewModel_Factory_TypeDefinitionIndex = 79771;
+	inline static constexpr unsigned int MechCraftTalentDetailViewModel_Factory_TypeDefinitionIndex = 82548;
 
 	class MechCraftTalentDetailViewModel_Factory : public ::System::Object
 	{

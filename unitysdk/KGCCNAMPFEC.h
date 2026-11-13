@@ -6,10 +6,10 @@ class IOGNBKGNPFD;
 namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 
-#define KGCCNAMPFEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C74F0)
-#define KGCCNAMPFEC_GETVALUE_OFFSET UNITYSDK_OFFSET(0xB3C7110)
+#define KGCCNAMPFEC_CTOR_OFFSET UNITYSDK_OFFSET(0x17710820)
+#define KGCCNAMPFEC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x17710440)
 
-inline static constexpr unsigned int KGCCNAMPFEC_TypeDefinitionIndex = 77396;
+inline static constexpr unsigned int KGCCNAMPFEC_TypeDefinitionIndex = 79730;
 
 	class KGCCNAMPFEC : public ::System::Object
 	{

@@ -12,24 +12,24 @@ namespace System::Runtime::Remoting { class ProviderData; }
 namespace System::Runtime::Remoting { class WellKnownClientTypeEntry; }
 namespace System::Runtime::Remoting { class WellKnownServiceTypeEntry; }
 
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2D6B00)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_CUSTOMERRORSENABLED_OFFSET UNITYSDK_OFFSET(0x1C2D68A0)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_GET_APPLICATIONNAME_OFFSET UNITYSDK_OFFSET(0x1C2D3380)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_GET_PROCESSID_OFFSET UNITYSDK_OFFSET(0x1C2D3440)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_ISREMOTELYACTIVATEDCLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2D3890)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_ISWELLKNOWNCLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2D3AB0)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_LOADDEFAULTDELAYEDCHANNELS_OFFSET UNITYSDK_OFFSET(0x1C2D3530)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERACTIVATEDCLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2D3CD0)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERACTIVATEDSERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1C2D4130)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERCHANNELS_OFFSET UNITYSDK_OFFSET(0x1C2D4D80)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERCHANNELTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1C2D4A80)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERCLIENTPROVIDERTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1C2D4B80)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERSERVERPROVIDERTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1C2D4C80)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERTYPES_OFFSET UNITYSDK_OFFSET(0x1C2D61A0)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERWELLKNOWNCLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2D4300)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERWELLKNOWNSERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1C2D4760)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_SETCUSTOMERRORSMODE_OFFSET UNITYSDK_OFFSET(0x1C2D69A0)
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_SET_APPLICATIONNAME_OFFSET UNITYSDK_OFFSET(0x1C2D33E0)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A72A2C0)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_CUSTOMERRORSENABLED_OFFSET UNITYSDK_OFFSET(0x1A72A060)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_GET_APPLICATIONNAME_OFFSET UNITYSDK_OFFSET(0x1A726B40)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_GET_PROCESSID_OFFSET UNITYSDK_OFFSET(0x1A726C00)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_ISREMOTELYACTIVATEDCLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A727050)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_ISWELLKNOWNCLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A727270)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_LOADDEFAULTDELAYEDCHANNELS_OFFSET UNITYSDK_OFFSET(0x1A726CF0)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERACTIVATEDCLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A727490)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERACTIVATEDSERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1A7278F0)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERCHANNELS_OFFSET UNITYSDK_OFFSET(0x1A728540)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERCHANNELTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1A728240)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERCLIENTPROVIDERTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1A728340)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERSERVERPROVIDERTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1A728440)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERTYPES_OFFSET UNITYSDK_OFFSET(0x1A729960)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERWELLKNOWNCLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A727AC0)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_REGISTERWELLKNOWNSERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1A727F20)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_SETCUSTOMERRORSMODE_OFFSET UNITYSDK_OFFSET(0x1A72A160)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGCONFIGURATION_SET_APPLICATIONNAME_OFFSET UNITYSDK_OFFSET(0x1A726BA0)
 
 namespace System::Runtime::Remoting
 {
@@ -38,69 +38,69 @@ namespace System::Runtime::Remoting
 	class RemotingConfiguration : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Hashtable** StaticGet_activatedServiceEntries()
+		static ::System::Collections::Hashtable** StaticGet_activatedClientEntries()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C2C0);
-		}
-
-		static ::System::Collections::Hashtable** StaticGet_serverProviderTemplates()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C2C8);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D20);
 		}
 
 		static ::System::String** StaticGet_applicationName()
 		{
-			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C2D0);
-		}
-
-		static ::System::Collections::Hashtable** StaticGet_channelTemplates()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C2D8);
-		}
-
-		static ::System::Collections::Hashtable** StaticGet_wellKnownServiceEntries()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C2E0);
+			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D28);
 		}
 
 		static ::System::Collections::Hashtable** StaticGet_wellKnownClientEntries()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C2E8);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D30);
 		}
 
 		static ::System::Collections::Hashtable** StaticGet_clientProviderTemplates()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C2F0);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D38);
 		}
 
-		static ::System::Collections::Hashtable** StaticGet_activatedClientEntries()
+		static ::System::Collections::Hashtable** StaticGet_serverProviderTemplates()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C2F8);
-		}
-
-		static ::System::String** StaticGet_applicationID()
-		{
-			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C300);
-		}
-
-		static ::System::String** StaticGet__errorMode()
-		{
-			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C308);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D40);
 		}
 
 		static ::System::String** StaticGet_processGuid()
 		{
-			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x1C310);
+			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D48);
+		}
+
+		static ::System::String** StaticGet_applicationID()
+		{
+			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D50);
+		}
+
+		static ::System::Collections::Hashtable** StaticGet_activatedServiceEntries()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D58);
+		}
+
+		static ::System::String** StaticGet__errorMode()
+		{
+			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D60);
+		}
+
+		static ::System::Collections::Hashtable** StaticGet_wellKnownServiceEntries()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D68);
+		}
+
+		static ::System::Collections::Hashtable** StaticGet_channelTemplates()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x16D70);
 		}
 
 		static ::System::Boolean* StaticGet_defaultConfigRead()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x6160);
+			return (::System::Boolean*)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x5140);
 		}
 
 		static ::System::Boolean* StaticGet_defaultDelayedConfigRead()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x6161);
+			return (::System::Boolean*)UnitySDK::FromName("System.Runtime.Remoting", "RemotingConfiguration")->GetStaticField(0x5141);
 		}
 
 		static ::System::Void _cctor()

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleAddBullet; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEADDBULLET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D808F80)
-#define RPG_GAMECORE_MARBLEADDBULLET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D808F90)
-#define RPG_GAMECORE_MARBLEADDBULLET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D808F30)
+#define RPG_GAMECORE_MARBLEADDBULLET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F093030)
+#define RPG_GAMECORE_MARBLEADDBULLET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F093040)
+#define RPG_GAMECORE_MARBLEADDBULLET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F092FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleAddBullet_TypeDefinitionIndex = 16847;
+	inline static constexpr unsigned int MarbleAddBullet_TypeDefinitionIndex = 17014;
 
 	class MarbleAddBullet : public ::RPG::GameCore::MarbleTaskConfig
 	{

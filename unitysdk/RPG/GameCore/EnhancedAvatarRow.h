@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EnhancedAvatarRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENHANCEDAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D616970)
-#define RPG_GAMECORE_ENHANCEDAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D615D90)
+#define RPG_GAMECORE_ENHANCEDAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0ED330)
+#define RPG_GAMECORE_ENHANCEDAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0EC780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnhancedAvatarRow_TypeDefinitionIndex = 12711;
+	inline static constexpr unsigned int EnhancedAvatarRow_TypeDefinitionIndex = 12778;
 
 	class EnhancedAvatarRow : public ::System::Object
 	{
 	public:
 		::System::String* AIPath; // 0x10
 		::Il2CppArray<::System::UInt32>* SkillList; // 0x18
-		::Il2CppArray<::System::UInt32>* RankIDList; // 0x20
-		::System::String* JsonPath; // 0x28
-		::System::UInt32 EnhancedID; // 0x30
-		::System::UInt32 AvatarID; // 0x34
+		::System::String* JsonPath; // 0x20
+		::Il2CppArray<::System::UInt32>* RankIDList; // 0x28
+		::System::UInt32 AvatarID; // 0x30
+		::System::UInt32 EnhancedID; // 0x34
 		::RPG::GameCore::FixPoint SPNeed; // 0x38
 		::System::Void _ctor()
 		{

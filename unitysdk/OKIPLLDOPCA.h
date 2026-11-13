@@ -3,10 +3,10 @@
 #include "unitysdk/PFDHDMPMEGE.h"
 #include "unitysdk/System/Object.h"
 
-#define OKIPLLDOPCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBED4600)
-#define OKIPLLDOPCA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBED4610)
+#define OKIPLLDOPCA_CTOR_OFFSET UNITYSDK_OFFSET(0x17878ED0)
+#define OKIPLLDOPCA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17878EE0)
 
-inline static constexpr unsigned int OKIPLLDOPCA_TypeDefinitionIndex = 47692;
+inline static constexpr unsigned int OKIPLLDOPCA_TypeDefinitionIndex = 48722;
 
 	class OKIPLLDOPCA : public ::System::Object
 	{

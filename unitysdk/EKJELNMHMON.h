@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FourRotateVoxelAnimalAttachBillboardConfig; }
 
-#define EKJELNMHMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA32F00)
+#define EKJELNMHMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F6AB0)
 
-inline static constexpr unsigned int EKJELNMHMON_TypeDefinitionIndex = 43234;
+inline static constexpr unsigned int EKJELNMHMON_TypeDefinitionIndex = 44215;
 
 	class EKJELNMHMON : public ::System::Object
 	{

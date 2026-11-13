@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define TMPRO_SPRITEASSETUTILITIES_TEXTUREPACKER_JSONARRAY_SPRITEDATAOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2BC490)
+#define TMPRO_SPRITEASSETUTILITIES_TEXTUREPACKER_JSONARRAY_SPRITEDATAOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x19B8F7F0)
 
 namespace TMPro::SpriteAssetUtilities
 {
-	inline static constexpr unsigned int TexturePacker_JsonArray_SpriteDataObject_TypeDefinitionIndex = 44703;
+	inline static constexpr unsigned int TexturePacker_JsonArray_SpriteDataObject_TypeDefinitionIndex = 45778;
 
 	class TexturePacker_JsonArray_SpriteDataObject : public ::System::Object
 	{

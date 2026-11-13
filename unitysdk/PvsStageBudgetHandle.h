@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define PVSSTAGEBUDGETHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC394F90)
+#define PVSSTAGEBUDGETHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C1FA0)
 
-inline static constexpr unsigned int PvsStageBudgetHandle_TypeDefinitionIndex = 47400;
+inline static constexpr unsigned int PvsStageBudgetHandle_TypeDefinitionIndex = 48429;
 
 	class PvsStageBudgetHandle : public ::UnityEngine::MonoBehaviour
 	{

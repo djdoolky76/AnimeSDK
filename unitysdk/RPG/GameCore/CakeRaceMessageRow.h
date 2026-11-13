@@ -6,22 +6,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceMessageRow; }
 
-#define RPG_GAMECORE_CAKERACEMESSAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D523680)
-#define RPG_GAMECORE_CAKERACEMESSAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D523440)
+#define RPG_GAMECORE_CAKERACEMESSAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFC4A0)
+#define RPG_GAMECORE_CAKERACEMESSAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBFC260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceMessageRow_TypeDefinitionIndex = 11003;
+	inline static constexpr unsigned int CakeRaceMessageRow_TypeDefinitionIndex = 11019;
 
 	class CakeRaceMessageRow : public ::System::Object
 	{
 	public:
-		::System::Boolean CanPlayerUse; // 0x10
-		::System::Byte _padding0[0x3];
-		::System::UInt32 CatID; // 0x14
-		::RPG::Client::TextID MessageText; // 0x18
-		::System::UInt32 MessageID; // 0x28
-		::RPG::GameCore::CakeRaceMessageType MessageType; // 0x2C
+		::RPG::Client::TextID MessageText; // 0x10
+		::System::UInt32 CatID; // 0x20
+		::System::UInt32 MessageID; // 0x24
+		::RPG::GameCore::CakeRaceMessageType MessageType; // 0x28
+		::System::Boolean CanPlayerUse; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEMESSAGEROW_CTOR_OFFSET))(this);

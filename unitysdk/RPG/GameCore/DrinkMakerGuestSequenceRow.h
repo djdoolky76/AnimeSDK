@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerGuestSequenceRow; }
 
-#define RPG_GAMECORE_DRINKMAKERGUESTSEQUENCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F2B50)
-#define RPG_GAMECORE_DRINKMAKERGUESTSEQUENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F2530)
+#define RPG_GAMECORE_DRINKMAKERGUESTSEQUENCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D05A0)
+#define RPG_GAMECORE_DRINKMAKERGUESTSEQUENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3CFF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerGuestSequenceRow_TypeDefinitionIndex = 13180;
+	inline static constexpr unsigned int DrinkMakerGuestSequenceRow_TypeDefinitionIndex = 13254;
 
 	class DrinkMakerGuestSequenceRow : public ::System::Object
 	{

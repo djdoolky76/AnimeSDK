@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityDiceCombatGoodsUnlockTipsRow; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATGOODSUNLOCKTIPSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D324150)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATGOODSUNLOCKTIPSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D323FD0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATGOODSUNLOCKTIPSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5013F0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATGOODSUNLOCKTIPSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E501270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatGoodsUnlockTipsRow_TypeDefinitionIndex = 11249;
+	inline static constexpr unsigned int ActivityDiceCombatGoodsUnlockTipsRow_TypeDefinitionIndex = 11300;
 
 	class ActivityDiceCombatGoodsUnlockTipsRow : public ::System::Object
 	{

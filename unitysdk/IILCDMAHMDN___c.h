@@ -4,18 +4,18 @@
 class IILCDMAHMDN;
 namespace System { class Object; }
 
-#define IILCDMAHMDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E65DB70)
-#define IILCDMAHMDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E65DBB0)
-#define IILCDMAHMDN___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E65DBC0)
+#define IILCDMAHMDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F805AB0)
+#define IILCDMAHMDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F805AF0)
+#define IILCDMAHMDN___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F805B00)
 
-inline static constexpr unsigned int IILCDMAHMDN___c_TypeDefinitionIndex = 29040;
+inline static constexpr unsigned int IILCDMAHMDN___c_TypeDefinitionIndex = 29630;
 
 	class IILCDMAHMDN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4F370);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46850);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FreeStyleObsoleteMotionList; }
 
-#define RPG_GAMECORE_FREESTYLEOBSOLETEMOTIONLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C6D90)
-#define RPG_GAMECORE_FREESTYLEOBSOLETEMOTIONLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C6D50)
+#define RPG_GAMECORE_FREESTYLEOBSOLETEMOTIONLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED59620)
+#define RPG_GAMECORE_FREESTYLEOBSOLETEMOTIONLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED595E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleObsoleteMotionList_TypeDefinitionIndex = 16317;
+	inline static constexpr unsigned int FreeStyleObsoleteMotionList_TypeDefinitionIndex = 16480;
 
 	class FreeStyleObsoleteMotionList : public ::RPG::GameCore::JsonConfig
 	{

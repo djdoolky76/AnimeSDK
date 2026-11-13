@@ -5,16 +5,16 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIIGDBJFNCP_CKDDNLNKPNM_CTOR_OFFSET UNITYSDK_OFFSET(0xC261300)
+#define PIIGDBJFNCP_CKDDNLNKPNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9CD7B0)
 
-inline static constexpr unsigned int PIIGDBJFNCP_CKDDNLNKPNM_TypeDefinitionIndex = 55961;
+inline static constexpr unsigned int PIIGDBJFNCP_CKDDNLNKPNM_TypeDefinitionIndex = 57164;
 
 	class PIIGDBJFNCP_CKDDNLNKPNM : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Object*>* LGEMLFLOBKL; // 0x10
-		::System::UInt32 HFLPDCJDIAC; // 0x18
-		::System::UInt32 DOBKKDIECDO; // 0x1C
+		::System::UInt32 DOBKKDIECDO; // 0x18
+		::System::UInt32 HFLPDCJDIAC; // 0x1C
 		::RPG::GameCore::FixPoint LIDEOEDABPL; // 0x20
 		::System::Void _ctor()
 		{

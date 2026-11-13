@@ -8,21 +8,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RaidTypeConfigRow; }
 
-#define RPG_GAMECORE_RAIDTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93DB80)
-#define RPG_GAMECORE_RAIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93D960)
+#define RPG_GAMECORE_RAIDTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2275D0)
+#define RPG_GAMECORE_RAIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F2273B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidTypeConfigRow_TypeDefinitionIndex = 14605;
+	inline static constexpr unsigned int RaidTypeConfigRow_TypeDefinitionIndex = 14760;
 
 	class RaidTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FinishCountDown; // 0x10
-		::RPG::GameCore::RaidConfigType RaidType; // 0x14
-		::RPG::GameCore::RaidFailedResult FailedResult; // 0x18
+		::RPG::GameCore::RaidConfigType RaidType; // 0x10
+		::System::UInt32 FinishCountDown; // 0x14
+		::RPG::GameCore::RaidFinishType FinishType; // 0x18
 		::RPG::GameCore::RaidFailedType FailedType; // 0x1C
-		::RPG::GameCore::RaidFinishType FinishType; // 0x20
+		::RPG::GameCore::RaidFailedResult FailedResult; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDTYPECONFIGROW_CTOR_OFFSET))(this);

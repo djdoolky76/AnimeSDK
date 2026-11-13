@@ -9,20 +9,20 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD749460)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_CTOR_OFFSET UNITYSDK_OFFSET(0xD749450)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD749240)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD7477D0)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xD748B80)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7481D0)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CHECKTICK_OFFSET UNITYSDK_OFFSET(0xD748890)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CLOSEDISSOLVE_OFFSET UNITYSDK_OFFSET(0xD7485B0)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__INCAMERA_OFFSET UNITYSDK_OFFSET(0xD748820)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__OPENDISSOLVE_OFFSET UNITYSDK_OFFSET(0xD748260)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1402A0F0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1402A0E0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x14029ED0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x14028460)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x14029810)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x14028E60)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CHECKTICK_OFFSET UNITYSDK_OFFSET(0x14029520)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CLOSEDISSOLVE_OFFSET UNITYSDK_OFFSET(0x14029240)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__INCAMERA_OFFSET UNITYSDK_OFFSET(0x140294B0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__OPENDISSOLVE_OFFSET UNITYSDK_OFFSET(0x14028EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDirectionDissolve_TypeDefinitionIndex = 69848;
+	inline static constexpr unsigned int MonoDirectionDissolve_TypeDefinitionIndex = 71807;
 
 	class MonoDirectionDissolve : public ::UnityEngine::MonoBehaviour
 	{
@@ -40,39 +40,39 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::Single>* _EnableDissolve; // 0x48
 		::System::Collections::Generic::List_1<::System::Boolean>* _KeywordEnabled; // 0x50
 		::UnityEngine::Bounds _Bounds; // 0x58
-		static ::System::Int32* StaticGet__DissoveOnShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x13B80);
-		}
-
-		static ::System::Int32* StaticGet__DirectionDissolveCenterShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x13B84);
-		}
-
 		static ::System::Int32* StaticGet__SimpEmissionOnShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x13B88);
-		}
-
-		static ::System::Int32* StaticGet__UseDirectionDissolveShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x13B8C);
-		}
-
-		static ::System::Int32* StaticGet__DissolveOnShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x13B90);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x149F0);
 		}
 
 		static ::System::Int32* StaticGet__DirectionDissolveParamsShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x13B94);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x149F4);
+		}
+
+		static ::System::Int32* StaticGet__DissolveOnShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x149F8);
+		}
+
+		static ::System::Int32* StaticGet__DirectionDissolveCenterShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x149FC);
+		}
+
+		static ::System::Int32* StaticGet__UseDirectionDissolveShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x14A00);
 		}
 
 		static ::System::Int32* StaticGet__DirectionDissolveDirectionShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x13B98);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x14A04);
+		}
+
+		static ::System::Int32* StaticGet__DissoveOnShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDirectionDissolve")->GetStaticField(0x14A08);
 		}
 
 		::System::Void _ctor()

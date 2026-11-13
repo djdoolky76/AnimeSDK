@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIAnimatorStateSync_StatePair_TypeDefinitionIndex = 68973;
+	inline static constexpr unsigned int MonoUIAnimatorStateSync_StatePair_TypeDefinitionIndex = 70926;
 
 	struct alignas(8) MonoUIAnimatorStateSync_StatePair
 	{

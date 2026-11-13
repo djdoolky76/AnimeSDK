@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Entitas { class IEntity; }
 
-#define OPIEELJKGKM_BFGOLGGEKOD_OFFSET UNITYSDK_OFFSET(0x1C7B7ED0)
+#define OPIEELJKGKM_BFGOLGGEKOD_OFFSET UNITYSDK_OFFSET(0x1B099660)
 
-inline static constexpr unsigned int OPIEELJKGKM_TypeDefinitionIndex = 37012;
+inline static constexpr unsigned int OPIEELJKGKM_TypeDefinitionIndex = 37940;
 
 	class OPIEELJKGKM : public ::System::Object
 	{

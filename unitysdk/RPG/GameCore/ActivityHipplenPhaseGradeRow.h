@@ -7,20 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityHipplenPhaseGradeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33AB70)
-#define RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33A990)
+#define RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E517E30)
+#define RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E517C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenPhaseGradeRow_TypeDefinitionIndex = 11635;
+	inline static constexpr unsigned int ActivityHipplenPhaseGradeRow_TypeDefinitionIndex = 11686;
 
 	class ActivityHipplenPhaseGradeRow : public ::System::Object
 	{
 	public:
 		::System::String* GradeIcon; // 0x10
-		::RPG::GameCore::HipplenStatGradeType GradeType; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID GradeShowText; // 0x20
+		::RPG::Client::TextID GradeShowText; // 0x18
+		::RPG::GameCore::HipplenStatGradeType GradeType; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_CTOR_OFFSET))(this);

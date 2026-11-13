@@ -3,10 +3,10 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class Action; }
 
-#define CHBCJGDEBNA_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8B2B0)
-#define CHBCJGDEBNA_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xCC8B310)
+#define CHBCJGDEBNA_CTOR_OFFSET UNITYSDK_OFFSET(0x178645E0)
+#define CHBCJGDEBNA_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x17864640)
 
-inline static constexpr unsigned int CHBCJGDEBNA_TypeDefinitionIndex = 61143;
+inline static constexpr unsigned int CHBCJGDEBNA_TypeDefinitionIndex = 62528;
 
 	class CHBCJGDEBNA : public ::System::Exception
 	{

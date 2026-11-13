@@ -4,18 +4,18 @@
 class CANHNOJACGI;
 namespace System { class Object; }
 
-#define CANHNOJACGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E031FD0)
-#define CANHNOJACGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E032010)
-#define CANHNOJACGI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E032020)
+#define CANHNOJACGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20353AE0)
+#define CANHNOJACGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20353B20)
+#define CANHNOJACGI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20353B30)
 
-inline static constexpr unsigned int CANHNOJACGI___c_TypeDefinitionIndex = 33737;
+inline static constexpr unsigned int CANHNOJACGI___c_TypeDefinitionIndex = 34652;
 
 	class CANHNOJACGI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2940);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FB90);
 		}
 
 		static ::System::Void _cctor()

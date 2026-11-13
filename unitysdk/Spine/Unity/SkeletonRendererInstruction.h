@@ -6,22 +6,22 @@ namespace Spine { class Attachment; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace Spine::Unity { class SkeletonRendererInstruction; }
 
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ECDA8E0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE2640)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ECFB790)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x1ECED410)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SETWITHSUBSET_OFFSET UNITYSDK_OFFSET(0x1ECF6C30)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SET_OFFSET UNITYSDK_OFFSET(0x1ECED700)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x191E4EA0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x191ECC20)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19205D60)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x191F79E0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SETWITHSUBSET_OFFSET UNITYSDK_OFFSET(0x192011F0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SET_OFFSET UNITYSDK_OFFSET(0x191F7CD0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 45085;
+	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 46160;
 
 	class SkeletonRendererInstruction : public ::System::Object
 	{
 	public:
-		::Spine::ExposedList_1<::Spine::Attachment*>* attachments; // 0x10
-		::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* submeshInstructions; // 0x18
+		::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* submeshInstructions; // 0x10
+		::Spine::ExposedList_1<::Spine::Attachment*>* attachments; // 0x18
 		::System::Int32 rawVertexCount; // 0x20
 		::System::Boolean immutableTriangles; // 0x24
 		::System::Boolean hasActiveClipping; // 0x25

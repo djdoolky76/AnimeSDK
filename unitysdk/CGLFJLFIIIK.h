@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByPerceiveValueReachMax; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGLFJLFIIIK_CTOR_OFFSET UNITYSDK_OFFSET(0xCC85EE0)
-#define CGLFJLFIIIK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC85F10)
+#define CGLFJLFIIIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1785F200)
+#define CGLFJLFIIIK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1785F230)
 
-inline static constexpr unsigned int CGLFJLFIIIK_TypeDefinitionIndex = 53118;
+inline static constexpr unsigned int CGLFJLFIIIK_TypeDefinitionIndex = 54280;
 
 	class CGLFJLFIIIK
 	{

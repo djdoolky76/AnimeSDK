@@ -7,7 +7,7 @@ namespace UnityEngine { class Collider; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ControllerColliderHit_TypeDefinitionIndex = 5304;
+	inline static constexpr unsigned int ControllerColliderHit_TypeDefinitionIndex = 5309;
 
 	class ControllerColliderHit : public ::System::Object
 	{

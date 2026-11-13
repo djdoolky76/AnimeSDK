@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomQueryType_TypeDefinitionIndex = 37532;
+	inline static constexpr unsigned int CustomQueryType_TypeDefinitionIndex = 38460;
 
 	enum class CustomQueryType : ::System::Int32
 	{
@@ -29,12 +29,13 @@ namespace RPG::CustomRP
 		kQueryFogEmissionBakeVolume = 18,
 		kQueryFogVolume = 19,
 		kQueryVoxelIrradianceCache = 20,
-		kOcclusionQueryCount = 21,
-		kQueryDecalLow = 21,
-		kQueryDecalMiddle = 22,
-		kQueryDecalHigh = 23,
-		kQueryDecalVeryHigh = 24,
-		kQuerySSGI = 25,
-		kQueryCount = 26,
+		kQueryGPUParticles = 21,
+		kOcclusionQueryCount = 22,
+		kQueryDecalLow = 22,
+		kQueryDecalMiddle = 23,
+		kQueryDecalHigh = 24,
+		kQueryDecalVeryHigh = 25,
+		kQuerySSGI = 26,
+		kQueryCount = 27,
 	};
 }

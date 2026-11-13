@@ -6,17 +6,17 @@ class IKPALOKEGAA;
 namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 namespace System { class String; }
 
-#define IKPALOKEGAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEEF760)
-#define IKPALOKEGAA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEEF770)
-#define IKPALOKEGAA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEEF730)
+#define IKPALOKEGAA_CTOR_OFFSET UNITYSDK_OFFSET(0xC994520)
+#define IKPALOKEGAA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0xC994530)
+#define IKPALOKEGAA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC9944F0)
 
-inline static constexpr unsigned int IKPALOKEGAA_TypeDefinitionIndex = 21518;
+inline static constexpr unsigned int IKPALOKEGAA_TypeDefinitionIndex = 21871;
 
 	class IKPALOKEGAA : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* MNDFOPKBHKP; // 0x18
-		::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x20
+		::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x18
+		::System::String* MNDFOPKBHKP; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKPALOKEGAA_CTOR_OFFSET))(this);

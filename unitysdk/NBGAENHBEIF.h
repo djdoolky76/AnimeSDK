@@ -6,19 +6,19 @@ class EHOAJJIDGFF;
 class KHNFFHCLLIF;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NBGAENHBEIF_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xBABA1A0)
-#define NBGAENHBEIF_CTOR_OFFSET UNITYSDK_OFFSET(0xBABA2C0)
-#define NBGAENHBEIF_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0xBABA180)
-#define NBGAENHBEIF_IIJPAELMEEF_OFFSET UNITYSDK_OFFSET(0xBABA340)
-#define NBGAENHBEIF_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xBABA190)
+#define NBGAENHBEIF_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1BB14020)
+#define NBGAENHBEIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB14140)
+#define NBGAENHBEIF_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0x1BB14000)
+#define NBGAENHBEIF_IIJPAELMEEF_OFFSET UNITYSDK_OFFSET(0x1BB141C0)
+#define NBGAENHBEIF_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0x1BB14010)
 
-inline static constexpr unsigned int NBGAENHBEIF_TypeDefinitionIndex = 62744;
+inline static constexpr unsigned int NBGAENHBEIF_TypeDefinitionIndex = 64178;
 
 	class NBGAENHBEIF : public ::System::Object
 	{
 	public:
-		::EHOAJJIDGFF* _Factory_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::DEPCKFHMMHD, ::KHNFFHCLLIF*>* IEHKMMAEDMH; // 0x18
+		::System::Collections::Generic::Dictionary_2<::DEPCKFHMMHD, ::KHNFFHCLLIF*>* IEHKMMAEDMH; // 0x10
+		::EHOAJJIDGFF* _Factory_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NBGAENHBEIF_CTOR_OFFSET))(this);

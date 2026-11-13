@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchMascotTriggerUIShootEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GALAMNFNOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x159360B0)
-#define GALAMNFNOMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159360E0)
+#define GALAMNFNOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8719D0)
+#define GALAMNFNOMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B871A00)
 
-inline static constexpr unsigned int GALAMNFNOMN_TypeDefinitionIndex = 58752;
+inline static constexpr unsigned int GALAMNFNOMN_TypeDefinitionIndex = 60020;
 
 	class GALAMNFNOMN
 	{

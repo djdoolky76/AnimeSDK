@@ -4,18 +4,18 @@
 class BEDLDBOAPPM;
 namespace System { class Object; }
 
-#define BEDLDBOAPPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F5A00)
-#define BEDLDBOAPPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F5A40)
-#define BEDLDBOAPPM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8F5A50)
+#define BEDLDBOAPPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9F9630)
+#define BEDLDBOAPPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9F9670)
+#define BEDLDBOAPPM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F9F9680)
 
-inline static constexpr unsigned int BEDLDBOAPPM___c_TypeDefinitionIndex = 26053;
+inline static constexpr unsigned int BEDLDBOAPPM___c_TypeDefinitionIndex = 26580;
 
 	class BEDLDBOAPPM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52F80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48A10);
 		}
 
 		static ::System::Void _cctor()

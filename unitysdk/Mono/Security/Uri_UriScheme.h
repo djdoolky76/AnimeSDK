@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define MONO_SECURITY_URI_URISCHEME_CTOR_OFFSET UNITYSDK_OFFSET(0x34A0)
+#define MONO_SECURITY_URI_URISCHEME_CTOR_OFFSET UNITYSDK_OFFSET(0x7EFA20)
 
 namespace Mono::Security
 {

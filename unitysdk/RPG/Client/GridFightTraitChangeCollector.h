@@ -6,21 +6,21 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A6AC0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD2A6A70)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD2A63A0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xD2A6260)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E8190)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1D3E8140)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1D3E7B30)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D3E79F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitChangeCollector_TypeDefinitionIndex = 64569;
+	inline static constexpr unsigned int GridFightTraitChangeCollector_TypeDefinitionIndex = 66099;
 
 	class GridFightTraitChangeCollector : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedUIDs; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedTraitEffectIDs; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedTraitIDs; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedTraitEffectIDs; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedTraitIDs; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedUIDs; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_CTOR_OFFSET))(this);

@@ -6,12 +6,12 @@
 namespace RPGTools::Timeline { class SetStageItemStateBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SETSTAGEITEMSTATEEVENTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92CB50)
-#define RPGTOOLS_TIMELINE_SETSTAGEITEMSTATEEVENTCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92CCF0)
+#define RPGTOOLS_TIMELINE_SETSTAGEITEMSTATEEVENTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1C777810)
+#define RPGTOOLS_TIMELINE_SETSTAGEITEMSTATEEVENTCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7779B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetStageItemStateEventClip_TypeDefinitionIndex = 48407;
+	inline static constexpr unsigned int SetStageItemStateEventClip_TypeDefinitionIndex = 49448;
 
 	class SetStageItemStateEventClip : public ::RPGTools::Timeline::CustomEventClip
 	{

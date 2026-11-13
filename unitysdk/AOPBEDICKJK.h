@@ -5,17 +5,17 @@ class IFBFJDCECML;
 class PAPOPANPGIJ;
 namespace RPG::Client::LittleGameShare { class ST_Side_CakeRaceFall; }
 
-#define AOPBEDICKJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C573E90)
-#define AOPBEDICKJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C573EB0)
-#define AOPBEDICKJK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C573FB0)
+#define AOPBEDICKJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1700FF70)
+#define AOPBEDICKJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1700FF90)
+#define AOPBEDICKJK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17010090)
 
-inline static constexpr unsigned int AOPBEDICKJK_TypeDefinitionIndex = 36998;
+inline static constexpr unsigned int AOPBEDICKJK_TypeDefinitionIndex = 37926;
 
 	class AOPBEDICKJK
 	{
 	public:
-		::IFBFJDCECML* JMMECHDFLKH; // 0x28
-		::AGENEONNBML* HEJHGJIGEGK; // 0x30
+		::AGENEONNBML* HEJHGJIGEGK; // 0x28
+		::IFBFJDCECML* JMMECHDFLKH; // 0x30
 		::System::Void _ctor(::PAPOPANPGIJ* a1, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceFall* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::PAPOPANPGIJ*, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceFall*))((::PBYTE)hIl2Cpp + AOPBEDICKJK_CTOR_OFFSET))(this, a1, a2);

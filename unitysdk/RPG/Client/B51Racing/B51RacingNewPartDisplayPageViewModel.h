@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTDISPLAYPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7ABFA0)
+#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTDISPLAYPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6CCD0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingNewPartDisplayPageViewModel_TypeDefinitionIndex = 82006;
+	inline static constexpr unsigned int B51RacingNewPartDisplayPageViewModel_TypeDefinitionIndex = 84787;
 
 	class B51RacingNewPartDisplayPageViewModel : public ::System::Object
 	{

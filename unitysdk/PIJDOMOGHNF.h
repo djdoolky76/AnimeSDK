@@ -5,19 +5,19 @@ namespace RPG::GameCore { class CharacterReplaceMaterialVariant; }
 namespace RPG::GameCore { class CharacterReplaceMaterialVariantConfig; }
 namespace System { class String; }
 
-#define PIJDOMOGHNF_CMFEGAGLPGM_OFFSET UNITYSDK_OFFSET(0xC261CD0)
-#define PIJDOMOGHNF_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xC261DB0)
-#define PIJDOMOGHNF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xC261BE0)
-#define PIJDOMOGHNF_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xC261C80)
+#define PIJDOMOGHNF_CMFEGAGLPGM_OFFSET UNITYSDK_OFFSET(0x1A9CE210)
+#define PIJDOMOGHNF_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x1A9CE2F0)
+#define PIJDOMOGHNF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1A9CE120)
+#define PIJDOMOGHNF_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0x1A9CE1C0)
 
-inline static constexpr unsigned int PIJDOMOGHNF_TypeDefinitionIndex = 73297;
+inline static constexpr unsigned int PIJDOMOGHNF_TypeDefinitionIndex = 75413;
 
 	class PIJDOMOGHNF : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::CharacterReplaceMaterialVariantConfig** StaticGet_IGHAHBNLIJA()
 		{
-			return (::RPG::GameCore::CharacterReplaceMaterialVariantConfig**)UnitySDK::FromName("", "PIJDOMOGHNF")->GetStaticField(0x6FCD0);
+			return (::RPG::GameCore::CharacterReplaceMaterialVariantConfig**)UnitySDK::FromName("", "PIJDOMOGHNF")->GetStaticField(0x73740);
 		}
 
 		static ::System::Void HCFINLKPIHL()

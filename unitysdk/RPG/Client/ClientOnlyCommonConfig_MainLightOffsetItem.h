@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_MAINLIGHTOFFSETITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6E180)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_MAINLIGHTOFFSETITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D001790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientOnlyCommonConfig_MainLightOffsetItem_TypeDefinitionIndex = 60018;
+	inline static constexpr unsigned int ClientOnlyCommonConfig_MainLightOffsetItem_TypeDefinitionIndex = 61302;
 
 	class ClientOnlyCommonConfig_MainLightOffsetItem : public ::System::Object
 	{

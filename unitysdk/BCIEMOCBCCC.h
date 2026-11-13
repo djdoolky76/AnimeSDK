@@ -7,19 +7,19 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define BCIEMOCBCCC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E9AF90)
-#define BCIEMOCBCCC_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15E9AF50)
-#define BCIEMOCBCCC_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15E9AFF0)
+#define BCIEMOCBCCC_CTOR_OFFSET UNITYSDK_OFFSET(0x19D75F00)
+#define BCIEMOCBCCC_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x19D75EC0)
+#define BCIEMOCBCCC_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x19D75F60)
 
-inline static constexpr unsigned int BCIEMOCBCCC_TypeDefinitionIndex = 72363;
+inline static constexpr unsigned int BCIEMOCBCCC_TypeDefinitionIndex = 74442;
 
 	class BCIEMOCBCCC : public ::LBAMBIMMJKB
 	{
 	public:
-		::System::String* GEJIJFFILEB; // 0x18
-		::UnityEngine::Animator* CKDKOONONCG; // 0x20
-		::UnityEngine::UI::RawImage* NEECNLPLKJG; // 0x28
-		::UnityEngine::Transform* NAGNPIOHKEF; // 0x30
+		::UnityEngine::Animator* CKDKOONONCG; // 0x18
+		::UnityEngine::UI::RawImage* NEECNLPLKJG; // 0x20
+		::UnityEngine::Transform* NAGNPIOHKEF; // 0x28
+		::System::String* GEJIJFFILEB; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TeamType a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamType))((::PBYTE)hIl2Cpp + BCIEMOCBCCC_CTOR_OFFSET))(this, a1);

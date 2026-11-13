@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BFEOAPAHKLC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1602C0)
-#define BFEOAPAHKLC_DEOFKLDKNMJ_OFFSET UNITYSDK_OFFSET(0xB160470)
-#define BFEOAPAHKLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB160340)
-#define BFEOAPAHKLC_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB1603D0)
+#define BFEOAPAHKLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9561D0)
+#define BFEOAPAHKLC_DEOFKLDKNMJ_OFFSET UNITYSDK_OFFSET(0x1A956380)
+#define BFEOAPAHKLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A956250)
+#define BFEOAPAHKLC_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1A9562E0)
 
-inline static constexpr unsigned int BFEOAPAHKLC_TypeDefinitionIndex = 66979;
+inline static constexpr unsigned int BFEOAPAHKLC_TypeDefinitionIndex = 68923;
 
 	class BFEOAPAHKLC : public ::System::Object
 	{

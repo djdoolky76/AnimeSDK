@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IFNPKBOEJJO_SizeSetting_TypeDefinitionIndex = 48981;
+inline static constexpr unsigned int IFNPKBOEJJO_SizeSetting_TypeDefinitionIndex = 50050;
 
 	enum class IFNPKBOEJJO_SizeSetting : ::System::Int32
 	{

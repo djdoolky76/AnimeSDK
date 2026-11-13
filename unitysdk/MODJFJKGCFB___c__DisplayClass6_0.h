@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class HKAJMEMCBLC;
 
-#define MODJFJKGCFB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA23020)
-#define MODJFJKGCFB___C__DISPLAYCLASS6_0__GETACQUIREDBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xBA24190)
+#define MODJFJKGCFB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B20FF90)
+#define MODJFJKGCFB___C__DISPLAYCLASS6_0__GETACQUIREDBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1B211100)
 
-inline static constexpr unsigned int MODJFJKGCFB___c__DisplayClass6_0_TypeDefinitionIndex = 81094;
+inline static constexpr unsigned int MODJFJKGCFB___c__DisplayClass6_0_TypeDefinitionIndex = 83874;
 
 	class MODJFJKGCFB___c__DisplayClass6_0 : public ::System::Object
 	{

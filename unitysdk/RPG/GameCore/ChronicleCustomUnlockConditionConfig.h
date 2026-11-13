@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChronicleCustomUnlockConditionConfig; }
 
-#define RPG_GAMECORE_CHRONICLECUSTOMUNLOCKCONDITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D584BC0)
-#define RPG_GAMECORE_CHRONICLECUSTOMUNLOCKCONDITIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D584A80)
+#define RPG_GAMECORE_CHRONICLECUSTOMUNLOCKCONDITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4FB3C0)
+#define RPG_GAMECORE_CHRONICLECUSTOMUNLOCKCONDITIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F4FB280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleCustomUnlockConditionConfig_TypeDefinitionIndex = 18974;
+	inline static constexpr unsigned int ChronicleCustomUnlockConditionConfig_TypeDefinitionIndex = 19161;
 
 	class ChronicleCustomUnlockConditionConfig : public ::RPG::GameCore::JsonConfig
 	{

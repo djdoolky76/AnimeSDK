@@ -6,21 +6,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class Int16Formatter; }
 
-#define MESSAGEPACK_FORMATTERS_INT16FORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB55B70)
-#define MESSAGEPACK_FORMATTERS_INT16FORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB55AB0)
-#define MESSAGEPACK_FORMATTERS_INT16FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB55AD0)
-#define MESSAGEPACK_FORMATTERS_INT16FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB55AC0)
+#define MESSAGEPACK_FORMATTERS_INT16FORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17494A30)
+#define MESSAGEPACK_FORMATTERS_INT16FORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x17494970)
+#define MESSAGEPACK_FORMATTERS_INT16FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17494990)
+#define MESSAGEPACK_FORMATTERS_INT16FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17494980)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Int16Formatter_TypeDefinitionIndex = 7444;
+	inline static constexpr unsigned int Int16Formatter_TypeDefinitionIndex = 7455;
 
 	class Int16Formatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::Int16Formatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::Int16Formatter**)UnitySDK::FromName("MessagePack.Formatters", "Int16Formatter")->GetStaticField(0x48670);
+			return (::MessagePack::Formatters::Int16Formatter**)UnitySDK::FromName("MessagePack.Formatters", "Int16Formatter")->GetStaticField(0x2C610);
 		}
 
 		::System::Void _ctor()

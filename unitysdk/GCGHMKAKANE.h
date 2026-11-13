@@ -5,10 +5,10 @@
 class GBKILNHHGLB;
 namespace RPG::Client { class RogueTournHexInfo; }
 
-#define GCGHMKAKANE_CTOR_OFFSET UNITYSDK_OFFSET(0x1595FE40)
-#define GCGHMKAKANE_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x1595FE50)
+#define GCGHMKAKANE_CTOR_OFFSET UNITYSDK_OFFSET(0x19EA4DC0)
+#define GCGHMKAKANE_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x19EA4DD0)
 
-inline static constexpr unsigned int GCGHMKAKANE_TypeDefinitionIndex = 67083;
+inline static constexpr unsigned int GCGHMKAKANE_TypeDefinitionIndex = 69027;
 
 	class GCGHMKAKANE : public ::JNDMECNAEDF
 	{

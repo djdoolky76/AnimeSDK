@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class HIAHLINDEHP;
 
-#define LONLABFNMJF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB808620)
-#define LONLABFNMJF___C__DISPLAYCLASS0_0__GETEQUIPPROPERTYCOMPARERESULT_B__0_OFFSET UNITYSDK_OFFSET(0xB808630)
+#define LONLABFNMJF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BDDC0)
+#define LONLABFNMJF___C__DISPLAYCLASS0_0__GETEQUIPPROPERTYCOMPARERESULT_B__0_OFFSET UNITYSDK_OFFSET(0x1A5BDDD0)
 
-inline static constexpr unsigned int LONLABFNMJF___c__DisplayClass0_0_TypeDefinitionIndex = 75248;
+inline static constexpr unsigned int LONLABFNMJF___c__DisplayClass0_0_TypeDefinitionIndex = 77575;
 
 	class LONLABFNMJF___c__DisplayClass0_0 : public ::System::Object
 	{

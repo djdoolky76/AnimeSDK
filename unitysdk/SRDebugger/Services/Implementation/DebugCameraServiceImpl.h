@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Camera; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGCAMERASERVICEIMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED14160)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGCAMERASERVICEIMPL_GET_CAMERA_OFFSET UNITYSDK_OFFSET(0x1ED14380)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGCAMERASERVICEIMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D42F890)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGCAMERASERVICEIMPL_GET_CAMERA_OFFSET UNITYSDK_OFFSET(0x1D42FAB0)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int DebugCameraServiceImpl_TypeDefinitionIndex = 38075;
+	inline static constexpr unsigned int DebugCameraServiceImpl_TypeDefinitionIndex = 39004;
 
 	class DebugCameraServiceImpl : public ::System::Object
 	{

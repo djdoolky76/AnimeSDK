@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_EFFECTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D3260)
+#define RPGTOOLS_TIMELINE_EFFECTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F3B20)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EffectParameter_TypeDefinitionIndex = 48422;
+	inline static constexpr unsigned int EffectParameter_TypeDefinitionIndex = 49463;
 
 	class EffectParameter : public ::System::Object
 	{

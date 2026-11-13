@@ -5,23 +5,23 @@ namespace RPG::Client { class MonoEffect; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define LDLCIEJKBNH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6359E0)
-#define LDLCIEJKBNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB635A20)
-#define LDLCIEJKBNH___C___COMPACTORDEREDSTATEFORKEY_B__27_0_OFFSET UNITYSDK_OFFSET(0xB635A30)
+#define LDLCIEJKBNH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC979B0)
+#define LDLCIEJKBNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC979F0)
+#define LDLCIEJKBNH___C___COMPACTORDEREDSTATEFORKEY_B__27_0_OFFSET UNITYSDK_OFFSET(0x1AC97A00)
 
-inline static constexpr unsigned int LDLCIEJKBNH___c_TypeDefinitionIndex = 77812;
+inline static constexpr unsigned int LDLCIEJKBNH___c_TypeDefinitionIndex = 80547;
 
 	class LDLCIEJKBNH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59340);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57940);
 		}
 
 		static ::System::Predicate_1<::RPG::Client::MonoEffect*>** StaticGet___9__27_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::MonoEffect*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59348);
+			return (::System::Predicate_1<::RPG::Client::MonoEffect*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57948);
 		}
 
 		static ::System::Void _cctor()

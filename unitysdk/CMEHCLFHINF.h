@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define CMEHCLFHINF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C426770)
+#define CMEHCLFHINF_CTOR_OFFSET UNITYSDK_OFFSET(0x15AE6D30)
 
-inline static constexpr unsigned int CMEHCLFHINF_TypeDefinitionIndex = 41409;
+inline static constexpr unsigned int CMEHCLFHINF_TypeDefinitionIndex = 42384;
 
 	class CMEHCLFHINF : public ::System::Attribute
 	{

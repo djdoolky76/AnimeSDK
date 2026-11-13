@@ -4,18 +4,18 @@
 class HDDLALFAMKO;
 namespace System { class Object; }
 
-#define HDDLALFAMKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E51C7F0)
-#define HDDLALFAMKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E51C830)
-#define HDDLALFAMKO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E51C840)
+#define HDDLALFAMKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F871B80)
+#define HDDLALFAMKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F871BC0)
+#define HDDLALFAMKO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F871BD0)
 
-inline static constexpr unsigned int HDDLALFAMKO___c_TypeDefinitionIndex = 30999;
+inline static constexpr unsigned int HDDLALFAMKO___c_TypeDefinitionIndex = 31912;
 
 	class HDDLALFAMKO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B540);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27910);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FormationMoveSetStreamSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OBAKDHIMJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2B180)
-#define OBAKDHIMJOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD2B1B0)
+#define OBAKDHIMJOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB71A70)
+#define OBAKDHIMJOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AB71AA0)
 
-inline static constexpr unsigned int OBAKDHIMJOM_TypeDefinitionIndex = 58134;
+inline static constexpr unsigned int OBAKDHIMJOM_TypeDefinitionIndex = 59373;
 
 	class OBAKDHIMJOM
 	{

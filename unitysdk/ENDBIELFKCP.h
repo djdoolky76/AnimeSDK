@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ENDBIELFKCP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD7D440)
-#define ENDBIELFKCP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD7D9C0)
-#define ENDBIELFKCP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD7D5B0)
-#define ENDBIELFKCP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD7CF30)
-#define ENDBIELFKCP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD7D1C0)
-#define ENDBIELFKCP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD7D650)
-#define ENDBIELFKCP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD7D6A0)
-#define ENDBIELFKCP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD7D480)
-#define ENDBIELFKCP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD7D160)
-#define ENDBIELFKCP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD7D2F0)
-#define ENDBIELFKCP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD7D510)
-#define ENDBIELFKCP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD7CEB0)
+#define ENDBIELFKCP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1ED0BF50)
+#define ENDBIELFKCP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED0C4D0)
+#define ENDBIELFKCP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1ED0C0C0)
+#define ENDBIELFKCP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1ED0BA40)
+#define ENDBIELFKCP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1ED0BCD0)
+#define ENDBIELFKCP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1ED0C160)
+#define ENDBIELFKCP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1ED0C1B0)
+#define ENDBIELFKCP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1ED0BF90)
+#define ENDBIELFKCP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1ED0BC70)
+#define ENDBIELFKCP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1ED0BE00)
+#define ENDBIELFKCP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1ED0C020)
+#define ENDBIELFKCP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1ED0B9C0)
 
-inline static constexpr unsigned int ENDBIELFKCP_TypeDefinitionIndex = 12057;
+inline static constexpr unsigned int ENDBIELFKCP_TypeDefinitionIndex = 12114;
 
 	class ENDBIELFKCP : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyGameConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0xB500);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyGameConfigRow*>**)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0x4CE80);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0xB508);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0x4CE88);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyGameConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyGameConfigRow*>**)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0xB510);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0x4CE90);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0x26F0);
+			return (::System::Boolean*)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0xEB10);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0x26F1);
+			return (::System::Byte*)UnitySDK::FromName("", "ENDBIELFKCP")->GetStaticField(0xEB11);
 		}
 
 		static ::System::Void _cctor()

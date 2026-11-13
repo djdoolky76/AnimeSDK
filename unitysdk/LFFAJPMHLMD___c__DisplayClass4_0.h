@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class CBHMKEHIDCA;
 
-#define LFFAJPMHLMD___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC58730)
-#define LFFAJPMHLMD___C__DISPLAYCLASS4_0___ONTICKIMPLEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1EC58E40)
+#define LFFAJPMHLMD___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E542280)
+#define LFFAJPMHLMD___C__DISPLAYCLASS4_0___ONTICKIMPLEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1E542990)
 
-inline static constexpr unsigned int LFFAJPMHLMD___c__DisplayClass4_0_TypeDefinitionIndex = 44204;
+inline static constexpr unsigned int LFFAJPMHLMD___c__DisplayClass4_0_TypeDefinitionIndex = 45279;
 
 	class LFFAJPMHLMD___c__DisplayClass4_0 : public ::System::Object
 	{

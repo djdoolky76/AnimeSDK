@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAbilityGroup; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GLAFMOFLEDK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A9DBF0)
-#define GLAFMOFLEDK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A9DC40)
+#define GLAFMOFLEDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E45C0)
+#define GLAFMOFLEDK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A8E4610)
 
-inline static constexpr unsigned int GLAFMOFLEDK_TypeDefinitionIndex = 59215;
+inline static constexpr unsigned int GLAFMOFLEDK_TypeDefinitionIndex = 60492;
 
 	class GLAFMOFLEDK
 	{

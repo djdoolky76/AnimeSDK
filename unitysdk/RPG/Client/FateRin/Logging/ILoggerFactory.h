@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Logging
 {
-	inline static constexpr unsigned int ILoggerFactory_TypeDefinitionIndex = 81035;
+	inline static constexpr unsigned int ILoggerFactory_TypeDefinitionIndex = 83815;
 
 	class ILoggerFactory
 	{

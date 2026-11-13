@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client { class GridFightGameRef; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS101_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD15B920)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS101_0__UNFAVOUR_B__0_OFFSET UNITYSDK_OFFSET(0xD15CFB0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS101_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69D350)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS101_0__PENDINGREADUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1D69EBA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass101_0_TypeDefinitionIndex = 64703;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass101_0_TypeDefinitionIndex = 66245;
 
 	class GridFightGameRef___c__DisplayClass101_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightGameRef* __4__this; // 0x10
-		::System::String* id; // 0x18
-		::System::Action_1<::System::Boolean>* callback; // 0x20
+		::System::String* id; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS101_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Unfavour_b__0(::System::Boolean a1)
+		::System::Boolean _PendingReadUpdate_b__0(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS101_0__UNFAVOUR_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS101_0__PENDINGREADUPDATE_B__0_OFFSET))(this, a1);
 		}
 
 	};

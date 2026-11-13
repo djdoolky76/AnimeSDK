@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesRankData_IServerAgent_TypeDefinitionIndex = 66639;
+	inline static constexpr unsigned int PlanetFesRankData_IServerAgent_TypeDefinitionIndex = 68575;
 
 	class PlanetFesRankData_IServerAgent
 	{

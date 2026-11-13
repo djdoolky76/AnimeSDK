@@ -3,17 +3,18 @@
 #include "unitysdk/System/Object.h"
 class AGAGNDEHIOI;
 
-#define AGAGNDEHIOI___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF1D1E0)
-#define AGAGNDEHIOI___C__DISPLAYCLASS9_0__SETMINUSSHOWBUFFCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xCF1DF40)
+#define AGAGNDEHIOI___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18DCCEE0)
+#define AGAGNDEHIOI___C__DISPLAYCLASS9_0__SETMINUSSHOWBUFFCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x18DCDC40)
 
-inline static constexpr unsigned int AGAGNDEHIOI___c__DisplayClass9_0_TypeDefinitionIndex = 71437;
+inline static constexpr unsigned int AGAGNDEHIOI___c__DisplayClass9_0_TypeDefinitionIndex = 73419;
 
 	class AGAGNDEHIOI___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
 		::AGAGNDEHIOI* __4__this; // 0x10
-		::System::Int32 count; // 0x18
-		::System::Boolean isDirty; // 0x1C
+		::System::Boolean isDirty; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Int32 count; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AGAGNDEHIOI___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);

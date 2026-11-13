@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DeactiveFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BNEMFONKCFO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC6B70)
-#define BNEMFONKCFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDC6BA0)
+#define BNEMFONKCFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A75D5E0)
+#define BNEMFONKCFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A75D610)
 
-inline static constexpr unsigned int BNEMFONKCFO_TypeDefinitionIndex = 55874;
+inline static constexpr unsigned int BNEMFONKCFO_TypeDefinitionIndex = 57077;
 
 	class BNEMFONKCFO
 	{

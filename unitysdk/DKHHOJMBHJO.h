@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsStageBuffAffectCurrentWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DKHHOJMBHJO_CTOR_OFFSET UNITYSDK_OFFSET(0xF87ACA0)
-#define DKHHOJMBHJO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF87ACD0)
+#define DKHHOJMBHJO_CTOR_OFFSET UNITYSDK_OFFSET(0x18C18D90)
+#define DKHHOJMBHJO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18C18DC0)
 
-inline static constexpr unsigned int DKHHOJMBHJO_TypeDefinitionIndex = 54685;
+inline static constexpr unsigned int DKHHOJMBHJO_TypeDefinitionIndex = 55851;
 
 	class DKHHOJMBHJO
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseExpeditionBattleNode; }
 namespace RPG::GameCore { class ExpeditionBattleRandomBranchCase; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLERANDOMBRANCHCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D662590)
-#define RPG_GAMECORE_EXPEDITIONBATTLERANDOMBRANCHCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D662400)
+#define RPG_GAMECORE_EXPEDITIONBATTLERANDOMBRANCHCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC87A30)
+#define RPG_GAMECORE_EXPEDITIONBATTLERANDOMBRANCHCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1FC878A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleRandomBranchCase_TypeDefinitionIndex = 16203;
+	inline static constexpr unsigned int ExpeditionBattleRandomBranchCase_TypeDefinitionIndex = 16361;
 
 	class ExpeditionBattleRandomBranchCase : public ::RPG::GameCore::JsonConfig
 	{

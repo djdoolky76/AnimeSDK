@@ -5,31 +5,31 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE348670)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE3486B0)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL___C__OVERRIDEDOFOFENVVOLUME_B__1_0_OFFSET UNITYSDK_OFFSET(0xE3486C0)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL___C__OVERRIDEDOFOFENVVOLUME_B__1_1_OFFSET UNITYSDK_OFFSET(0xE3486E0)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9CFD00)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CFD40)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL___C__OVERRIDEDOFOFENVVOLUME_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C9CFD50)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL___C__OVERRIDEDOFOFENVVOLUME_B__1_1_OFFSET UNITYSDK_OFFSET(0x1C9CFD70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DCameraCopyUtil___c_TypeDefinitionIndex = 72997;
+	inline static constexpr unsigned int UI3DCameraCopyUtil___c_TypeDefinitionIndex = 75109;
 
 	class UI3DCameraCopyUtil___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>** StaticGet___9__1_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25D80);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3BB50);
 		}
 
 		static ::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>** StaticGet___9__1_1()
 		{
-			return (::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25D88);
+			return (::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3BB58);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>** StaticGet___9__1_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25D90);
+			return (::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3BB60);
 		}
 
 		static ::System::Void _cctor()

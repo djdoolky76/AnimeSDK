@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvEntitySyncFreeStyleWithSound; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CCBHOJDKLKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC733830)
-#define CCBHOJDKLKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC733860)
+#define CCBHOJDKLKB_CTOR_OFFSET UNITYSDK_OFFSET(0x18FF4030)
+#define CCBHOJDKLKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FF4060)
 
-inline static constexpr unsigned int CCBHOJDKLKB_TypeDefinitionIndex = 52372;
+inline static constexpr unsigned int CCBHOJDKLKB_TypeDefinitionIndex = 53478;
 
 	class CCBHOJDKLKB
 	{

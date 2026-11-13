@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicTrailModule_GBBLLBAMFPC_TypeDefinitionIndex = 70442;
+	inline static constexpr unsigned int DynamicTrailModule_GBBLLBAMFPC_TypeDefinitionIndex = 72413;
 
 	struct alignas(8) DynamicTrailModule_GBBLLBAMFPC
 	{

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DestroyCharacter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DESTROYCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CEEF0)
-#define RPG_GAMECORE_DESTROYCHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CEF00)
-#define RPG_GAMECORE_DESTROYCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CEEC0)
+#define RPG_GAMECORE_DESTROYCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0095C0)
+#define RPG_GAMECORE_DESTROYCHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0095D0)
+#define RPG_GAMECORE_DESTROYCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F009590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyCharacter_TypeDefinitionIndex = 21693;
+	inline static constexpr unsigned int DestroyCharacter_TypeDefinitionIndex = 22082;
 
 	class DestroyCharacter : public ::RPG::GameCore::TaskConfig
 	{

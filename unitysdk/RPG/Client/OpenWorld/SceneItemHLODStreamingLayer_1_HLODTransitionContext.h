@@ -4,7 +4,7 @@ class OIDDJJLHGKO;
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionContext_TypeDefinitionIndex = 73823;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionContext_TypeDefinitionIndex = 75949;
 
 	template <typename T>
 	struct alignas(8) SceneItemHLODStreamingLayer_1_HLODTransitionContext

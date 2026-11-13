@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopTowerAnimBehavior_TowerDirectionType_TypeDefinitionIndex = 70919;
+	inline static constexpr unsigned int LoopTowerAnimBehavior_TowerDirectionType_TypeDefinitionIndex = 72898;
 
 	enum class LoopTowerAnimBehavior_TowerDirectionType : ::System::Int32
 	{

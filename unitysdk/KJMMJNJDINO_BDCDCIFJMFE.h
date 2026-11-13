@@ -4,7 +4,7 @@
 class KJMMJNJDINO;
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int KJMMJNJDINO_BDCDCIFJMFE_TypeDefinitionIndex = 49969;
+inline static constexpr unsigned int KJMMJNJDINO_BDCDCIFJMFE_TypeDefinitionIndex = 51017;
 
 	class KJMMJNJDINO_BDCDCIFJMFE : public ::System::Object
 	{

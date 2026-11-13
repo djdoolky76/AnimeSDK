@@ -8,14 +8,14 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___O_TypeDefinitionIndex = 65685;
+	inline static constexpr unsigned int InventoryModule___O_TypeDefinitionIndex = 67611;
 
 	class InventoryModule___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemComefromRow*>>** StaticGet__0___GetEnumerator()
 		{
-			return (::System::Func_1<::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemComefromRow*>>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x16820);
+			return (::System::Func_1<::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemComefromRow*>>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x28610);
 		}
 
 	};

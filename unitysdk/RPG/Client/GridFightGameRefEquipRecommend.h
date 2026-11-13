@@ -5,19 +5,19 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightGameRefEquipRecommend; }
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD169540)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_CTOR_OFFSET UNITYSDK_OFFSET(0xD166A20)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1CD4D740)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4B050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefEquipRecommend_TypeDefinitionIndex = 64743;
+	inline static constexpr unsigned int GridFightGameRefEquipRecommend_TypeDefinitionIndex = 66285;
 
 	class GridFightGameRefEquipRecommend : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::Client::GridFightEquipItemData*>* SecondaryEquips; // 0x10
-		::RPG::Client::GridFightRole* Role; // 0x18
-		::Il2CppArray<::RPG::Client::GridFightEquipItemData*>* PrimaryEquips; // 0x20
+		::RPG::Client::GridFightRole* Role; // 0x10
+		::Il2CppArray<::RPG::Client::GridFightEquipItemData*>* PrimaryEquips; // 0x18
+		::Il2CppArray<::RPG::Client::GridFightEquipItemData*>* SecondaryEquips; // 0x20
 		::System::Boolean IsMain; // 0x28
 		::System::Byte _padding0[0x3];
 		::System::Int32 Index; // 0x2C

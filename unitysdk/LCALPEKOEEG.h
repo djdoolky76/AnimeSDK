@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LCALPEKOEEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DEB20)
+#define LCALPEKOEEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D638BC0)
 
-inline static constexpr unsigned int LCALPEKOEEG_TypeDefinitionIndex = 42105;
+inline static constexpr unsigned int LCALPEKOEEG_TypeDefinitionIndex = 43080;
 
 	class LCALPEKOEEG : public ::System::Object
 	{

@@ -6,10 +6,10 @@ class FCOEMCEDLNL;
 class LPKGCDELJML;
 namespace System { class String; }
 
-#define LPKGCDELJML_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FCB60)
-#define LPKGCDELJML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0FC960)
+#define LPKGCDELJML_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4269A0)
+#define LPKGCDELJML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4267A0)
 
-inline static constexpr unsigned int LPKGCDELJML_TypeDefinitionIndex = 11258;
+inline static constexpr unsigned int LPKGCDELJML_TypeDefinitionIndex = 11309;
 
 	class LPKGCDELJML : public ::System::Object
 	{

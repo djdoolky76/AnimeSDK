@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int IKeyboardProvider_TypeDefinitionIndex = 40857;
+	inline static constexpr unsigned int IKeyboardProvider_TypeDefinitionIndex = 41832;
 
 	class IKeyboardProvider
 	{

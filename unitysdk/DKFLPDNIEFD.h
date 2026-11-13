@@ -4,24 +4,24 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DKFLPDNIEFD_CTOR_OFFSET UNITYSDK_OFFSET(0xF875770)
+#define DKFLPDNIEFD_CTOR_OFFSET UNITYSDK_OFFSET(0x18C13850)
 
-inline static constexpr unsigned int DKFLPDNIEFD_TypeDefinitionIndex = 69620;
+inline static constexpr unsigned int DKFLPDNIEFD_TypeDefinitionIndex = 71577;
 
 	class DKFLPDNIEFD : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::VCameraState FIOICBCELHD; // 0x10
-		::System::Single EOJHKLHPGAM; // 0x14
-		::System::Single CDCLODPBBFM; // 0x18
+		::UnityEngine::Vector3 NKEIBNDEAOE; // 0x10
 		::System::Boolean JFAELDAFPKG; // 0x1C
 		::System::Byte _padding0[0x3];
-		::System::Single IDKONBFPBLH; // 0x20
-		::System::Single FOOAENGFEFH; // 0x24
-		::UnityEngine::Vector3 HOLEMFENGNB; // 0x28
-		::System::Single LIPGDJLDNOJ; // 0x34
-		::UnityEngine::Vector3 BNGJDBHHMFO; // 0x38
-		::UnityEngine::Vector3 NKEIBNDEAOE; // 0x44
+		::System::Single LIPGDJLDNOJ; // 0x20
+		::UnityEngine::Vector3 HOLEMFENGNB; // 0x24
+		::System::Single IDKONBFPBLH; // 0x30
+		::RPG::GameCore::VCameraState FIOICBCELHD; // 0x34
+		::System::Single CDCLODPBBFM; // 0x38
+		::UnityEngine::Vector3 BNGJDBHHMFO; // 0x3C
+		::System::Single EOJHKLHPGAM; // 0x48
+		::System::Single FOOAENGFEFH; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DKFLPDNIEFD_CTOR_OFFSET))(this);

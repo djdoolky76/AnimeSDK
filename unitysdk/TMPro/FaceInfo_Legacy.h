@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define TMPRO_FACEINFO_LEGACY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B7760)
+#define TMPRO_FACEINFO_LEGACY_CTOR_OFFSET UNITYSDK_OFFSET(0x19B8AAC0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FaceInfo_Legacy_TypeDefinitionIndex = 44572;
+	inline static constexpr unsigned int FaceInfo_Legacy_TypeDefinitionIndex = 45647;
 
 	class FaceInfo_Legacy : public ::System::Object
 	{

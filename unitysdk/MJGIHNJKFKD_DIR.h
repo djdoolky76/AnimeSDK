@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MJGIHNJKFKD_DIR_TypeDefinitionIndex = 72959;
+inline static constexpr unsigned int MJGIHNJKFKD_DIR_TypeDefinitionIndex = 75071;
 
 	enum class MJGIHNJKFKD_DIR : ::System::Int32
 	{

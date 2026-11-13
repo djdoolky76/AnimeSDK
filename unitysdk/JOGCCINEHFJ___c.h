@@ -4,18 +4,18 @@
 class JOGCCINEHFJ;
 namespace System { class Object; }
 
-#define JOGCCINEHFJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E774590)
-#define JOGCCINEHFJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7745D0)
-#define JOGCCINEHFJ___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E7745E0)
+#define JOGCCINEHFJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2000AC50)
+#define JOGCCINEHFJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2000AC90)
+#define JOGCCINEHFJ___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x2000ACA0)
 
-inline static constexpr unsigned int JOGCCINEHFJ___c_TypeDefinitionIndex = 28264;
+inline static constexpr unsigned int JOGCCINEHFJ___c_TypeDefinitionIndex = 28854;
 
 	class JOGCCINEHFJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68930);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67C30);
 		}
 
 		static ::System::Void _cctor()

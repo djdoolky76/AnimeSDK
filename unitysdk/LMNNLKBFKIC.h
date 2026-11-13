@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class MJFEDNFDKDO;
 
-#define LMNNLKBFKIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8EDC70)
+#define LMNNLKBFKIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D647E90)
 
-inline static constexpr unsigned int LMNNLKBFKIC_TypeDefinitionIndex = 42557;
+inline static constexpr unsigned int LMNNLKBFKIC_TypeDefinitionIndex = 43532;
 
 	class LMNNLKBFKIC : public ::System::Object
 	{

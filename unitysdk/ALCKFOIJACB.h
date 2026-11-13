@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureSetAttackTargetWithoutBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ALCKFOIJACB_CTOR_OFFSET UNITYSDK_OFFSET(0x15556FD0)
-#define ALCKFOIJACB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15557000)
+#define ALCKFOIJACB_CTOR_OFFSET UNITYSDK_OFFSET(0x197BAFC0)
+#define ALCKFOIJACB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197BAFF0)
 
-inline static constexpr unsigned int ALCKFOIJACB_TypeDefinitionIndex = 52532;
+inline static constexpr unsigned int ALCKFOIJACB_TypeDefinitionIndex = 53638;
 
 	class ALCKFOIJACB
 	{

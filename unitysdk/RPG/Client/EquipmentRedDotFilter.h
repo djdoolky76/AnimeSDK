@@ -9,27 +9,27 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EQUIPMENTREDDOTFILTER_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0xCE0B950)
-#define RPG_CLIENT_EQUIPMENTREDDOTFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCE0BC90)
-#define RPG_CLIENT_EQUIPMENTREDDOTFILTER_UPDATEREDDOT_OFFSET UNITYSDK_OFFSET(0xCE0A7C0)
-#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__CHECKEQUIPMENTREDDOT_OFFSET UNITYSDK_OFFSET(0xCE0B060)
-#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__CHECKHASCANUSEEQUIPMENTANDRELIC_OFFSET UNITYSDK_OFFSET(0xCE0AD20)
-#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__CHECKRELICREDDOT_OFFSET UNITYSDK_OFFSET(0xCE0B1B0)
-#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__ONITEMCHANGED_OFFSET UNITYSDK_OFFSET(0xCE0BA50)
-#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__TRYREFRESHITEMDATALIST_OFFSET UNITYSDK_OFFSET(0xCE0BAA0)
+#define RPG_CLIENT_EQUIPMENTREDDOTFILTER_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0x1A6F93D0)
+#define RPG_CLIENT_EQUIPMENTREDDOTFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F9710)
+#define RPG_CLIENT_EQUIPMENTREDDOTFILTER_UPDATEREDDOT_OFFSET UNITYSDK_OFFSET(0x1A6F8230)
+#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__CHECKEQUIPMENTREDDOT_OFFSET UNITYSDK_OFFSET(0x1A6F8AE0)
+#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__CHECKHASCANUSEEQUIPMENTANDRELIC_OFFSET UNITYSDK_OFFSET(0x1A6F8790)
+#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__CHECKRELICREDDOT_OFFSET UNITYSDK_OFFSET(0x1A6F8C30)
+#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__ONITEMCHANGED_OFFSET UNITYSDK_OFFSET(0x1A6F94D0)
+#define RPG_CLIENT_EQUIPMENTREDDOTFILTER__TRYREFRESHITEMDATALIST_OFFSET UNITYSDK_OFFSET(0x1A6F9520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EquipmentRedDotFilter_TypeDefinitionIndex = 66835;
+	inline static constexpr unsigned int EquipmentRedDotFilter_TypeDefinitionIndex = 68771;
 
 	class EquipmentRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* RelicQuickDressAvatarIDs; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* RelicSmartSuitAvatarIDs; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* EquipmentTagAvatarIDs; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* _ItemDataList; // 0x28
-		::Il2CppArray<::RPG::GameCore::ItemMainType>* _ItemMainTypes; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* EquipmentTagAvatarIDs; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* _ItemDataList; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* RelicQuickDressAvatarIDs; // 0x20
+		::Il2CppArray<::RPG::GameCore::ItemMainType>* _ItemMainTypes; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* RelicSmartSuitAvatarIDs; // 0x30
 		::System::Collections::Generic::HashSet_1<::RPG::GameCore::RelicType>* _HasCanUseRelic; // 0x38
 		::System::Boolean _HasCanUseEquipment; // 0x40
 		::System::Boolean _NeedRefreshItems; // 0x41

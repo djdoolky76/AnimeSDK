@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetBillboardInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJINBNMKDLK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0AEF0)
-#define NJINBNMKDLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC0AF20)
+#define NJINBNMKDLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A78D430)
+#define NJINBNMKDLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A78D460)
 
-inline static constexpr unsigned int NJINBNMKDLK_TypeDefinitionIndex = 58394;
+inline static constexpr unsigned int NJINBNMKDLK_TypeDefinitionIndex = 59650;
 
 	class NJINBNMKDLK
 	{

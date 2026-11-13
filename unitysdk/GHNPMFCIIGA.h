@@ -8,12 +8,12 @@ namespace RPG::Client { class PlanetFesMiniGameBetUp; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GHNPMFCIIGA_BIMPIILOION_OFFSET UNITYSDK_OFFSET(0x15A20F20)
-#define GHNPMFCIIGA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A20FB0)
-#define GHNPMFCIIGA_FIJHAOKHGDJ_OFFSET UNITYSDK_OFFSET(0x15A20860)
-#define GHNPMFCIIGA_OGJEADJKMNF_OFFSET UNITYSDK_OFFSET(0x15A20B40)
+#define GHNPMFCIIGA_BIMPIILOION_OFFSET UNITYSDK_OFFSET(0x1A3D0F10)
+#define GHNPMFCIIGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D0FA0)
+#define GHNPMFCIIGA_FIJHAOKHGDJ_OFFSET UNITYSDK_OFFSET(0x1A3D0850)
+#define GHNPMFCIIGA_OGJEADJKMNF_OFFSET UNITYSDK_OFFSET(0x1A3D0B30)
 
-inline static constexpr unsigned int GHNPMFCIIGA_TypeDefinitionIndex = 66611;
+inline static constexpr unsigned int GHNPMFCIIGA_TypeDefinitionIndex = 68547;
 
 	class GHNPMFCIIGA : public ::System::Object
 	{

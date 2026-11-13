@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1564BF50)
+#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x136D2540)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int TextCurveData_TypeDefinitionIndex = 49397;
+	inline static constexpr unsigned int TextCurveData_TypeDefinitionIndex = 50473;
 
 	class TextCurveData : public ::System::Object
 	{

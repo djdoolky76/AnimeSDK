@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_DEBUGGING_LOCATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE49C0)
+#define RPG_CLIENT_DEBUGGING_LOCATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FCD10)
 
 namespace RPG::Client::Debugging
 {
-	inline static constexpr unsigned int LocationData_TypeDefinitionIndex = 82125;
+	inline static constexpr unsigned int LocationData_TypeDefinitionIndex = 84998;
 
 	class LocationData : public ::System::Object
 	{

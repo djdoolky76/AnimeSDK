@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int RewardFlyType_TypeDefinitionIndex = 75309;
+	inline static constexpr unsigned int RewardFlyType_TypeDefinitionIndex = 77636;
 
 	enum class RewardFlyType : ::System::Int32
 	{

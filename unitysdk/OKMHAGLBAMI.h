@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define OKMHAGLBAMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96F810)
+#define OKMHAGLBAMI_CTOR_OFFSET UNITYSDK_OFFSET(0x17671570)
 
-inline static constexpr unsigned int OKMHAGLBAMI_TypeDefinitionIndex = 42818;
+inline static constexpr unsigned int OKMHAGLBAMI_TypeDefinitionIndex = 43798;
 
 	class OKMHAGLBAMI : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

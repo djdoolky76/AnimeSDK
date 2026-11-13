@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BoolVariableConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOOLVARIABLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D448650)
-#define RPG_GAMECORE_BOOLVARIABLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4484F0)
+#define RPG_GAMECORE_BOOLVARIABLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF4F050)
+#define RPG_GAMECORE_BOOLVARIABLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF4EEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoolVariableConfig_TypeDefinitionIndex = 15490;
+	inline static constexpr unsigned int BoolVariableConfig_TypeDefinitionIndex = 15648;
 
 	class BoolVariableConfig : public ::RPG::GameCore::JsonConfig
 	{

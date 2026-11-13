@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_COCDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC15AA0)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_COCDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x198DC9F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfField_CoCDescriptor_TypeDefinitionIndex = 37803;
+	inline static constexpr unsigned int RPGDepthOfField_CoCDescriptor_TypeDefinitionIndex = 38732;
 
 	class RPGDepthOfField_CoCDescriptor : public ::System::Object
 	{

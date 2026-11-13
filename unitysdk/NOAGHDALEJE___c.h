@@ -4,18 +4,18 @@
 class NOAGHDALEJE;
 namespace System { class Object; }
 
-#define NOAGHDALEJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB59CC0)
-#define NOAGHDALEJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB59D00)
-#define NOAGHDALEJE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB59D10)
+#define NOAGHDALEJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB69740)
+#define NOAGHDALEJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB69780)
+#define NOAGHDALEJE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB69790)
 
-inline static constexpr unsigned int NOAGHDALEJE___c_TypeDefinitionIndex = 29026;
+inline static constexpr unsigned int NOAGHDALEJE___c_TypeDefinitionIndex = 29616;
 
 	class NOAGHDALEJE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAAB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AF0);
 		}
 
 		static ::System::Void _cctor()

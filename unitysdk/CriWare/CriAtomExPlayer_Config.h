@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomEx_VoiceAllocationMethod.h"
 
-#define CRIWARE_CRIATOMEXPLAYER_CONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166E5640)
+#define CRIWARE_CRIATOMEXPLAYER_CONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1EC50DA0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlayer_Config_TypeDefinitionIndex = 40058;
+	inline static constexpr unsigned int CriAtomExPlayer_Config_TypeDefinitionIndex = 41033;
 
 	struct alignas(4) CriAtomExPlayer_Config
 	{

@@ -5,18 +5,18 @@ class GPPAJJILOHB_LKAEJCFKLMO;
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define HBMNNCAGMMO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C04540)
-#define HBMNNCAGMMO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C045E0)
-#define HBMNNCAGMMO_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15C04720)
-#define HBMNNCAGMMO_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x15C04660)
+#define HBMNNCAGMMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7A3280)
+#define HBMNNCAGMMO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B7A3320)
+#define HBMNNCAGMMO_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1B7A3460)
+#define HBMNNCAGMMO_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x1B7A33A0)
 
-inline static constexpr unsigned int HBMNNCAGMMO_TypeDefinitionIndex = 78597;
+inline static constexpr unsigned int HBMNNCAGMMO_TypeDefinitionIndex = 81332;
 
 	class HBMNNCAGMMO : public ::System::Object
 	{
 	public:
-		::GPPAJJILOHB_LKAEJCFKLMO* GCJINNEANCH; // 0x10
-		::UnityEngine::Material* IMOHCDHKBAJ; // 0x18
+		::UnityEngine::Material* IMOHCDHKBAJ; // 0x10
+		::GPPAJJILOHB_LKAEJCFKLMO* GCJINNEANCH; // 0x18
 		// static const ::System::Object OKFMABJGOPI; // 0x0
 		// static const ::System::String* IJIFHOEEBHJ; // 0x0
 		::System::Void _ctor(::UnityEngine::GameObject* a1)

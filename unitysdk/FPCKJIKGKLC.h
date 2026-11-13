@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowOfferingClockieUpgradeHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPCKJIKGKLC_CTOR_OFFSET UNITYSDK_OFFSET(0x15904800)
-#define FPCKJIKGKLC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15904810)
-#define FPCKJIKGKLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15904850)
-#define FPCKJIKGKLC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15904A90)
-#define FPCKJIKGKLC_TICK_OFFSET UNITYSDK_OFFSET(0x15904AE0)
+#define FPCKJIKGKLC_CTOR_OFFSET UNITYSDK_OFFSET(0x18772340)
+#define FPCKJIKGKLC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18772350)
+#define FPCKJIKGKLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18772390)
+#define FPCKJIKGKLC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x187725D0)
+#define FPCKJIKGKLC_TICK_OFFSET UNITYSDK_OFFSET(0x18772620)
 
-inline static constexpr unsigned int FPCKJIKGKLC_TypeDefinitionIndex = 53281;
+inline static constexpr unsigned int FPCKJIKGKLC_TypeDefinitionIndex = 54443;
 
 	class FPCKJIKGKLC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowOfferingClockieUpgradeHint* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowOfferingClockieUpgradeHint* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowOfferingClockieUpgradeHint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowOfferingClockieUpgradeHint*))((::PBYTE)hIl2Cpp + FPCKJIKGKLC_CTOR_OFFSET))(this, a1, a2);

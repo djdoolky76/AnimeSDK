@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LockActionDelayChange; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C1F60)
-#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C1F70)
-#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C1F20)
+#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0742E0)
+#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0742F0)
+#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0742A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockActionDelayChange_TypeDefinitionIndex = 23277;
+	inline static constexpr unsigned int LockActionDelayChange_TypeDefinitionIndex = 23717;
 
 	class LockActionDelayChange : public ::RPG::GameCore::TaskConfig
 	{

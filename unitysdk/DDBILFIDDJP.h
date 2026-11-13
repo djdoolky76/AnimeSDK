@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DDBILFIDDJP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCAEE00)
-#define DDBILFIDDJP_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DCAEA90)
+#define DDBILFIDDJP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F60C780)
+#define DDBILFIDDJP_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1F60C410)
 
-inline static constexpr unsigned int DDBILFIDDJP_TypeDefinitionIndex = 23856;
+inline static constexpr unsigned int DDBILFIDDJP_TypeDefinitionIndex = 24313;
 
 	class DDBILFIDDJP : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::PredicateConfig*>*>** StaticGet_MGJGAOOJLCJ()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::PredicateConfig*>*>**)UnitySDK::FromName("", "DDBILFIDDJP")->GetStaticField(0x419D0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::PredicateConfig*>*>**)UnitySDK::FromName("", "DDBILFIDDJP")->GetStaticField(0x3AAE0);
 		}
 
 		static ::System::Void _cctor()

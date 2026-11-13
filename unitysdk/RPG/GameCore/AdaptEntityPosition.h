@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdaptEntityPosition; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADAPTENTITYPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D357250)
-#define RPG_GAMECORE_ADAPTENTITYPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D357290)
-#define RPG_GAMECORE_ADAPTENTITYPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3571F0)
+#define RPG_GAMECORE_ADAPTENTITYPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9F100)
+#define RPG_GAMECORE_ADAPTENTITYPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA9F140)
+#define RPG_GAMECORE_ADAPTENTITYPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA9F0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdaptEntityPosition_TypeDefinitionIndex = 20168;
+	inline static constexpr unsigned int AdaptEntityPosition_TypeDefinitionIndex = 20502;
 
 	class AdaptEntityPosition : public ::RPG::GameCore::TaskConfig
 	{

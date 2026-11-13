@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightEquipUpgradeConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FFFC0)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6FFA60)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20605330)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x20604D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipUpgradeConfigRow_TypeDefinitionIndex = 13455;
+	inline static constexpr unsigned int GridFightEquipUpgradeConfigRow_TypeDefinitionIndex = 13531;
 
 	class GridFightEquipUpgradeConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PreID; // 0x10
-		::System::UInt32 UpgradeID; // 0x14
+		::System::UInt32 UpgradeID; // 0x10
+		::System::UInt32 PreID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGROW_CTOR_OFFSET))(this);

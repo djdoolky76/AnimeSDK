@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int BIICFLJFNFC_TypeDefinitionIndex = 43330;
+inline static constexpr unsigned int BIICFLJFNFC_TypeDefinitionIndex = 44311;
 
 	struct alignas(8) BIICFLJFNFC
 	{

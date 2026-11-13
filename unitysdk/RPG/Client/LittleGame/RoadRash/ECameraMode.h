@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int ECameraMode_TypeDefinitionIndex = 42891;
+	inline static constexpr unsigned int ECameraMode_TypeDefinitionIndex = 43872;
 
 	enum class ECameraMode : ::System::Int32
 	{

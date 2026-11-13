@@ -4,19 +4,19 @@
 namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 namespace MiHoYo::SDK { class SecurityTunnel_ResponseCallbackAction; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB042080)
-#define MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0xB0426A0)
+#define MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD1EAC0)
+#define MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD1F0D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_DataWrapper_TypeDefinitionIndex = 46388;
+	inline static constexpr unsigned int SecurityTunnel_DataWrapper_TypeDefinitionIndex = 47416;
 
 	class SecurityTunnel_DataWrapper : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* Bytes; // 0x10
+		::MiHoYo::SDK::SecurityTunnel_Packet* Packet; // 0x10
 		::MiHoYo::SDK::SecurityTunnel_ResponseCallbackAction* Callback; // 0x18
-		::MiHoYo::SDK::SecurityTunnel_Packet* Packet; // 0x20
+		::Il2CppArray<::System::Byte>* Bytes; // 0x20
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER_CTOR_OFFSET))(this, a1);

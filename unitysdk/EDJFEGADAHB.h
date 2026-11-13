@@ -5,10 +5,10 @@
 class CJAFLDKHDAF;
 namespace RPG::Client { class RogueFormulaInfo; }
 
-#define EDJFEGADAHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1331CE40)
-#define EDJFEGADAHB_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x1331CE50)
+#define EDJFEGADAHB_CTOR_OFFSET UNITYSDK_OFFSET(0x186C5870)
+#define EDJFEGADAHB_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x186C5880)
 
-inline static constexpr unsigned int EDJFEGADAHB_TypeDefinitionIndex = 67081;
+inline static constexpr unsigned int EDJFEGADAHB_TypeDefinitionIndex = 69025;
 
 	class EDJFEGADAHB : public ::KJNJKIMNDMH
 	{

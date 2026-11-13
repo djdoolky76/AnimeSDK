@@ -4,16 +4,16 @@
 namespace RPG::GameCore { class GameEntityList; }
 namespace System { class String; }
 
-#define FBPOKMHMGKO_CTOR_OFFSET UNITYSDK_OFFSET(0x156A2AE0)
+#define FBPOKMHMGKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C007140)
 
-inline static constexpr unsigned int FBPOKMHMGKO_TypeDefinitionIndex = 71487;
+inline static constexpr unsigned int FBPOKMHMGKO_TypeDefinitionIndex = 73472;
 
 	class FBPOKMHMGKO : public ::System::Object
 	{
 	public:
-		::System::String* BDACPPLKLGL; // 0x10
+		::System::String* PHAJKALJLFP; // 0x10
 		::RPG::GameCore::GameEntityList* GKHDCODGAMF; // 0x18
-		::System::String* PHAJKALJLFP; // 0x20
+		::System::String* BDACPPLKLGL; // 0x20
 		::System::Boolean CAGCHKJHMPD; // 0x28
 		::System::Void _ctor()
 		{

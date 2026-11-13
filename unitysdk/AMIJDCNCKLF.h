@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define AMIJDCNCKLF_BGGIFMCPKBB_OFFSET UNITYSDK_OFFSET(0x15576260)
+#define AMIJDCNCKLF_BGGIFMCPKBB_OFFSET UNITYSDK_OFFSET(0x197DC270)
 
-inline static constexpr unsigned int AMIJDCNCKLF_TypeDefinitionIndex = 56212;
+inline static constexpr unsigned int AMIJDCNCKLF_TypeDefinitionIndex = 57424;
 
 	class AMIJDCNCKLF : public ::System::Object
 	{

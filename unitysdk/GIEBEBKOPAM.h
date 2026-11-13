@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define GIEBEBKOPAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F2E80)
-#define GIEBEBKOPAM_GET_PARAMETERNAME_OFFSET UNITYSDK_OFFSET(0x1C3F2E90)
+#define GIEBEBKOPAM_CTOR_OFFSET UNITYSDK_OFFSET(0x209656A0)
+#define GIEBEBKOPAM_GET_PARAMETERNAME_OFFSET UNITYSDK_OFFSET(0x209656B0)
 
-inline static constexpr unsigned int GIEBEBKOPAM_TypeDefinitionIndex = 5082;
+inline static constexpr unsigned int GIEBEBKOPAM_TypeDefinitionIndex = 5087;
 
 	class GIEBEBKOPAM : public ::System::Attribute
 	{

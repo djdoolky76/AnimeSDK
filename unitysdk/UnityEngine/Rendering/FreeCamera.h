@@ -3,15 +3,15 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_FREECAMERA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F294B30)
-#define UNITYENGINE_RENDERING_FREECAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F294B10)
-#define UNITYENGINE_RENDERING_FREECAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F2940B0)
-#define UNITYENGINE_RENDERING_FREECAMERA_REGISTERINPUTS_OFFSET UNITYSDK_OFFSET(0x1F2940C0)
-#define UNITYENGINE_RENDERING_FREECAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F2940D0)
+#define UNITYENGINE_RENDERING_FREECAMERA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4C2C20)
+#define UNITYENGINE_RENDERING_FREECAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C2C00)
+#define UNITYENGINE_RENDERING_FREECAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E4C21A0)
+#define UNITYENGINE_RENDERING_FREECAMERA_REGISTERINPUTS_OFFSET UNITYSDK_OFFSET(0x1E4C21B0)
+#define UNITYENGINE_RENDERING_FREECAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E4C21C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 35469;
+	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 36397;
 
 	class FreeCamera : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,44 +21,44 @@ namespace UnityEngine::Rendering
 		::System::Single m_MoveSpeed; // 0x20
 		::System::Single m_MoveSpeedIncrement; // 0x24
 		::System::Single m_Turbo; // 0x28
-		static ::System::String** StaticGet_kRightStickX()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x5AC60);
-		}
-
-		static ::System::String** StaticGet_kMouseY()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x5AC68);
-		}
-
 		static ::System::String** StaticGet_kHorizontal()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x5AC70);
-		}
-
-		static ::System::String** StaticGet_kSpeedAxis()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x5AC78);
-		}
-
-		static ::System::String** StaticGet_kRightStickY()
-		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x5AC80);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x611D0);
 		}
 
 		static ::System::String** StaticGet_kVertical()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x5AC88);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x611D8);
+		}
+
+		static ::System::String** StaticGet_kMouseY()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x611E0);
+		}
+
+		static ::System::String** StaticGet_kRightStickY()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x611E8);
 		}
 
 		static ::System::String** StaticGet_kMouseX()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x5AC90);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x611F0);
+		}
+
+		static ::System::String** StaticGet_kRightStickX()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x611F8);
 		}
 
 		static ::System::String** StaticGet_kYAxis()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x5AC98);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x61200);
+		}
+
+		static ::System::String** StaticGet_kSpeedAxis()
+		{
+			return (::System::String**)UnitySDK::FromName("UnityEngine.Rendering", "FreeCamera")->GetStaticField(0x61208);
 		}
 
 		::System::Void _ctor()

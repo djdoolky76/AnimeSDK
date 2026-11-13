@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTrainVisitorIsMeet; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KGPCIGFHDGB_CTOR_OFFSET UNITYSDK_OFFSET(0xB3F27C0)
-#define KGPCIGFHDGB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB3F27F0)
+#define KGPCIGFHDGB_CTOR_OFFSET UNITYSDK_OFFSET(0x19782270)
+#define KGPCIGFHDGB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x197822A0)
 
-inline static constexpr unsigned int KGPCIGFHDGB_TypeDefinitionIndex = 53168;
+inline static constexpr unsigned int KGPCIGFHDGB_TypeDefinitionIndex = 54330;
 
 	class KGPCIGFHDGB
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class NpcPerfStatConfig; }
 
-#define RPG_GAMECORE_NPCPERFSTATCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AFC10)
-#define RPG_GAMECORE_NPCPERFSTATCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8AFBD0)
+#define RPG_GAMECORE_NPCPERFSTATCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1313E0)
+#define RPG_GAMECORE_NPCPERFSTATCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F1313A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcPerfStatConfig_TypeDefinitionIndex = 19112;
+	inline static constexpr unsigned int NpcPerfStatConfig_TypeDefinitionIndex = 19299;
 
 	class NpcPerfStatConfig : public ::RPG::GameCore::JsonConfig
 	{

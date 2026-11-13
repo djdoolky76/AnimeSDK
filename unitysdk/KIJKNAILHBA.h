@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EndReShaSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KIJKNAILHBA_CTOR_OFFSET UNITYSDK_OFFSET(0xB42BA40)
-#define KIJKNAILHBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB42BA70)
+#define KIJKNAILHBA_CTOR_OFFSET UNITYSDK_OFFSET(0x19EF1FE0)
+#define KIJKNAILHBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19EF2010)
 
-inline static constexpr unsigned int KIJKNAILHBA_TypeDefinitionIndex = 52749;
+inline static constexpr unsigned int KIJKNAILHBA_TypeDefinitionIndex = 53893;
 
 	class KIJKNAILHBA
 	{

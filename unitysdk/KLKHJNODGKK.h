@@ -4,16 +4,16 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerSpecialHint; }
 
-#define KLKHJNODGKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E7A60)
-#define KLKHJNODGKK_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6E7A70)
+#define KLKHJNODGKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF7330)
+#define KLKHJNODGKK_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1ABF7340)
 
-inline static constexpr unsigned int KLKHJNODGKK_TypeDefinitionIndex = 36305;
+inline static constexpr unsigned int KLKHJNODGKK_TypeDefinitionIndex = 37233;
 
 	class KLKHJNODGKK : public ::AJBKGPOEBFG
 	{
 	public:
-		::RPG::GameCore::DiceCombatTaskConfig_TriggerSpecialHint* IGHAHBNLIJA; // 0x18
-		::EHMBINMCDGN* EEFMDEHLLFI; // 0x20
+		::EHMBINMCDGN* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::DiceCombatTaskConfig_TriggerSpecialHint* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_TriggerSpecialHint* a1, ::EHMBINMCDGN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_TriggerSpecialHint*, ::EHMBINMCDGN*))((::PBYTE)hIl2Cpp + KLKHJNODGKK_CTOR_OFFSET))(this, a1, a2);

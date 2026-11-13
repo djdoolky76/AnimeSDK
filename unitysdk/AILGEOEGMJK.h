@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ChimeraDuelEventListener; }
 
-#define AILGEOEGMJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C85F830)
+#define AILGEOEGMJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D863B60)
 
-inline static constexpr unsigned int AILGEOEGMJK_TypeDefinitionIndex = 41930;
+inline static constexpr unsigned int AILGEOEGMJK_TypeDefinitionIndex = 42905;
 
 	class AILGEOEGMJK : public ::System::Object
 	{

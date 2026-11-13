@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define HALFODCJNDE_COHMJPDBLPK_HKLDNDMJCLH_OFFSET UNITYSDK_OFFSET(0x15B7EAC0)
+#define HALFODCJNDE_COHMJPDBLPK_HKLDNDMJCLH_OFFSET UNITYSDK_OFFSET(0x17DEC040)
 
-inline static constexpr unsigned int HALFODCJNDE_COHMJPDBLPK_TypeDefinitionIndex = 51780;
+inline static constexpr unsigned int HALFODCJNDE_COHMJPDBLPK_TypeDefinitionIndex = 52866;
 
 	struct alignas(4) HALFODCJNDE_COHMJPDBLPK
 	{

@@ -5,17 +5,17 @@ class IDGNPKGEKGA;
 class NJMLJBNICND;
 namespace System { class Action; }
 
-#define NJMLJBNICND___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC19B70)
-#define NJMLJBNICND___C__DISPLAYCLASS9_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xBC19D60)
+#define NJMLJBNICND___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A79C060)
+#define NJMLJBNICND___C__DISPLAYCLASS9_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1A79C250)
 
-inline static constexpr unsigned int NJMLJBNICND___c__DisplayClass9_0_TypeDefinitionIndex = 78230;
+inline static constexpr unsigned int NJMLJBNICND___c__DisplayClass9_0_TypeDefinitionIndex = 80965;
 
 	class NJMLJBNICND___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onComplete; // 0x10
+		::IDGNPKGEKGA* command; // 0x10
 		::NJMLJBNICND* __4__this; // 0x18
-		::IDGNPKGEKGA* command; // 0x20
+		::System::Action* onComplete; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMLJBNICND___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);

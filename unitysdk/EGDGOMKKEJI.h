@@ -9,87 +9,87 @@ class IJFIHJJPHNA;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EGDGOMKKEJI_AKPBOOEELBC_OFFSET UNITYSDK_OFFSET(0x1C5CFD80)
-#define EGDGOMKKEJI_BHEMCMFHINL_OFFSET UNITYSDK_OFFSET(0x1C5CFB10)
-#define EGDGOMKKEJI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5D01C0)
-#define EGDGOMKKEJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AD690)
-#define EGDGOMKKEJI_EFKCHBJPNCE_OFFSET UNITYSDK_OFFSET(0x1C5CE8B0)
-#define EGDGOMKKEJI_ENNKDANHLCH_OFFSET UNITYSDK_OFFSET(0x1C5CF6B0)
-#define EGDGOMKKEJI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C5BA8F0)
-#define EGDGOMKKEJI_GET_ABILITYTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x1C5CE1E0)
-#define EGDGOMKKEJI_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C5CE1B0)
-#define EGDGOMKKEJI_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x1C5CE1C0)
-#define EGDGOMKKEJI_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x1C5CE1D0)
-#define EGDGOMKKEJI_HFDHNPKKBBJ_OFFSET UNITYSDK_OFFSET(0x1C5CF9F0)
-#define EGDGOMKKEJI_KKILBCEMLOI_OFFSET UNITYSDK_OFFSET(0x1C5CEBC0)
-#define EGDGOMKKEJI_LFOCGKOJIGB_OFFSET UNITYSDK_OFFSET(0x1C5CE400)
-#define EGDGOMKKEJI_LGICBGOHKNE_OFFSET UNITYSDK_OFFSET(0x1C5CFA80)
-#define EGDGOMKKEJI_LOHICDMHPBJ_OFFSET UNITYSDK_OFFSET(0x1C5CF410)
-#define EGDGOMKKEJI_MAMCGFMOFIK_OFFSET UNITYSDK_OFFSET(0x1C5CF060)
-#define EGDGOMKKEJI_NAFJICONCNI_OFFSET UNITYSDK_OFFSET(0x1C5BF8F0)
-#define EGDGOMKKEJI_NHIILBAILML_OFFSET UNITYSDK_OFFSET(0x1C5CF960)
-#define EGDGOMKKEJI_PHCOMCAIDOL_OFFSET UNITYSDK_OFFSET(0x1C5CF0F0)
-#define EGDGOMKKEJI_PMNNDDAPAPB_OFFSET UNITYSDK_OFFSET(0x1C5CE200)
-#define EGDGOMKKEJI_SET_ABILITYTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x1C5CE1F0)
+#define EGDGOMKKEJI_AKPBOOEELBC_OFFSET UNITYSDK_OFFSET(0x1BA845B0)
+#define EGDGOMKKEJI_BHEMCMFHINL_OFFSET UNITYSDK_OFFSET(0x1BA84340)
+#define EGDGOMKKEJI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA849F0)
+#define EGDGOMKKEJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA62000)
+#define EGDGOMKKEJI_EFKCHBJPNCE_OFFSET UNITYSDK_OFFSET(0x1BA83110)
+#define EGDGOMKKEJI_ENNKDANHLCH_OFFSET UNITYSDK_OFFSET(0x1BA83EE0)
+#define EGDGOMKKEJI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BA6F220)
+#define EGDGOMKKEJI_GET_ABILITYTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x1BA82A60)
+#define EGDGOMKKEJI_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BA82A30)
+#define EGDGOMKKEJI_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x1BA82A40)
+#define EGDGOMKKEJI_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x1BA82A50)
+#define EGDGOMKKEJI_HFDHNPKKBBJ_OFFSET UNITYSDK_OFFSET(0x1BA84220)
+#define EGDGOMKKEJI_KKILBCEMLOI_OFFSET UNITYSDK_OFFSET(0x1BA83420)
+#define EGDGOMKKEJI_LFOCGKOJIGB_OFFSET UNITYSDK_OFFSET(0x1BA82C80)
+#define EGDGOMKKEJI_LGICBGOHKNE_OFFSET UNITYSDK_OFFSET(0x1BA842B0)
+#define EGDGOMKKEJI_LOHICDMHPBJ_OFFSET UNITYSDK_OFFSET(0x1BA83C40)
+#define EGDGOMKKEJI_MAMCGFMOFIK_OFFSET UNITYSDK_OFFSET(0x1BA83890)
+#define EGDGOMKKEJI_NAFJICONCNI_OFFSET UNITYSDK_OFFSET(0x1BA74210)
+#define EGDGOMKKEJI_NHIILBAILML_OFFSET UNITYSDK_OFFSET(0x1BA84190)
+#define EGDGOMKKEJI_PHCOMCAIDOL_OFFSET UNITYSDK_OFFSET(0x1BA83920)
+#define EGDGOMKKEJI_PMNNDDAPAPB_OFFSET UNITYSDK_OFFSET(0x1BA82A80)
+#define EGDGOMKKEJI_SET_ABILITYTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x1BA82A70)
 
-inline static constexpr unsigned int EGDGOMKKEJI_TypeDefinitionIndex = 36392;
+inline static constexpr unsigned int EGDGOMKKEJI_TypeDefinitionIndex = 37320;
 
 	class EGDGOMKKEJI : public ::System::Object
 	{
 	public:
-		::IJFIHJJPHNA* _AbilityTargetEntity_k__BackingField; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _ParamList_k__BackingField; // 0x10
 		::IJFIHJJPHNA* _Owner_k__BackingField; // 0x18
 		::BPHJOOGJPKD* _Instance_k__BackingField; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::FixPoint>* ADGCHLFGGGB; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _ParamList_k__BackingField; // 0x30
-		static ::RPG::GameCore::StringHash* StaticGet_GOFPMAECICK()
+		::IJFIHJJPHNA* _AbilityTargetEntity_k__BackingField; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::FixPoint>* ADGCHLFGGGB; // 0x30
+		static ::RPG::GameCore::StringHash* StaticGet_PMHDIGAKEEN()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14D90);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154C0);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_MDOAJGBBOOI()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14D94);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_ONHCEJLJHAC()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14D98);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_GMBCFNFKDLK()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14D9C);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154C4);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_DOLMNCLFKIE()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14DA0);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154C8);
 		}
 
-		static ::RPG::GameCore::StringHash* StaticGet_KBHKLKIMAOH()
+		static ::RPG::GameCore::StringHash* StaticGet_GMBCFNFKDLK()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14DA4);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_BOLHCIBPOMG()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14DA8);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_PMHDIGAKEEN()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14DAC);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_AEMNJPLONOB()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14DB0);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154CC);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_LBNKCOEFJKG()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x14DB4);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154D0);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_BOLHCIBPOMG()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154D4);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_ONHCEJLJHAC()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154D8);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_AEMNJPLONOB()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154DC);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_KBHKLKIMAOH()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154E0);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_GOFPMAECICK()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "EGDGOMKKEJI")->GetStaticField(0x154E4);
 		}
 
 		::System::Void _ctor(::BPHJOOGJPKD* a1, ::IJFIHJJPHNA* a2, ::Il2CppArray<::RPG::GameCore::FixPoint>* a3)

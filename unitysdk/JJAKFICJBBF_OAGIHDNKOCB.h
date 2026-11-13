@@ -4,19 +4,19 @@
 class IFBFJDCECML;
 class JJAKFICJBBF_OAGIHDNKOCB;
 
-#define JJAKFICJBBF_OAGIHDNKOCB_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1C6CDF20)
-#define JJAKFICJBBF_OAGIHDNKOCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6CC5C0)
+#define JJAKFICJBBF_OAGIHDNKOCB_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1C1386B0)
+#define JJAKFICJBBF_OAGIHDNKOCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C136D40)
 
-inline static constexpr unsigned int JJAKFICJBBF_OAGIHDNKOCB_TypeDefinitionIndex = 37279;
+inline static constexpr unsigned int JJAKFICJBBF_OAGIHDNKOCB_TypeDefinitionIndex = 38207;
 
 	class JJAKFICJBBF_OAGIHDNKOCB : public ::System::Object
 	{
 	public:
 		::IFBFJDCECML* CKLPGEPGCMJ; // 0x10
-		::System::UInt32 IHJJCCLGPJH; // 0x18
+		::System::Single BNGDECGNLJF; // 0x18
 		::System::Single BDCFLFPLDAN; // 0x1C
-		::System::Single IDGNLJPNCFD; // 0x20
-		::System::Single BNGDECGNLJF; // 0x24
+		::System::UInt32 IHJJCCLGPJH; // 0x20
+		::System::Single IDGNLJPNCFD; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JJAKFICJBBF_OAGIHDNKOCB_CTOR_OFFSET))(this);

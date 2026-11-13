@@ -10,34 +10,34 @@ namespace RPG::GameCore { class GridFightTraitBaseConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7190F0)
-#define RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D718AF0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA67A20)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA67420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitBaseConfigRow_TypeDefinitionIndex = 13665;
+	inline static constexpr unsigned int GridFightTraitBaseConfigRow_TypeDefinitionIndex = 13791;
 
 	class GridFightTraitBaseConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* TraitSearchKey; // 0x10
-		::Il2CppArray<::System::UInt32>* TraitEffectList; // 0x18
-		::System::String* CutinPath; // 0x20
-		::Il2CppArray<::System::UInt32>* BEIDList; // 0x28
-		::System::String* MiniIconPath; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* TraitLayerList; // 0x38
-		::System::String* LevelGraphPath; // 0x40
-		::System::String* IconPath; // 0x48
-		::Il2CppArray<::RPG::GameCore::FixPoint>* BaseDescParamList; // 0x50
+		::System::Collections::Generic::List_1<::System::UInt32>* TraitLayerList; // 0x10
+		::Il2CppArray<::System::UInt32>* BEIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* TraitEffectList; // 0x20
+		::System::String* MiniIconPath; // 0x28
+		::System::String* LevelGraphPath; // 0x30
+		::Il2CppArray<::RPG::GameCore::FixPoint>* BaseDescParamList; // 0x38
+		::System::String* CutinPath; // 0x40
+		::System::String* TraitSearchKey; // 0x48
+		::System::String* IconPath; // 0x50
 		::RPG::Client::TextID TraitName; // 0x58
-		::System::UInt32 SeasonID; // 0x68
+		::RPG::GameCore::GridFightTraitType TraitType; // 0x68
+		::System::UInt32 SeasonID; // 0x6C
+		::RPG::Client::TextID TraitBaseDesc; // 0x70
+		::System::UInt32 ID; // 0x80
+		::RPG::GameCore::GridFightActivationType ActivationType; // 0x84
+		::System::UInt32 TraitSortPriority; // 0x88
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID TraitBaseSimpleDesc; // 0x70
-		::RPG::Client::TextID TraitBaseDesc; // 0x80
-		::RPG::GameCore::GridFightActivationType ActivationType; // 0x90
-		::RPG::GameCore::GridFightTraitType TraitType; // 0x94
-		::System::UInt32 ID; // 0x98
-		::System::UInt32 TraitSortPriority; // 0x9C
+		::RPG::Client::TextID TraitBaseSimpleDesc; // 0x90
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW_CTOR_OFFSET))(this);

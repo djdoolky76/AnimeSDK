@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtGridTransmitToPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GOPBFGHEJCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B307A0)
-#define GOPBFGHEJCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B307D0)
+#define GOPBFGHEJCH_CTOR_OFFSET UNITYSDK_OFFSET(0x187C16F0)
+#define GOPBFGHEJCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187C1720)
 
-inline static constexpr unsigned int GOPBFGHEJCH_TypeDefinitionIndex = 54177;
+inline static constexpr unsigned int GOPBFGHEJCH_TypeDefinitionIndex = 55341;
 
 	class GOPBFGHEJCH
 	{

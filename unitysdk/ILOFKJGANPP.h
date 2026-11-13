@@ -5,10 +5,10 @@
 class AOBICCEGAMM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ILOFKJGANPP_CTOR_OFFSET UNITYSDK_OFFSET(0x164BAD30)
-#define ILOFKJGANPP_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x164BAD40)
+#define ILOFKJGANPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AF4C0)
+#define ILOFKJGANPP_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x1B5AF4D0)
 
-inline static constexpr unsigned int ILOFKJGANPP_TypeDefinitionIndex = 67136;
+inline static constexpr unsigned int ILOFKJGANPP_TypeDefinitionIndex = 69080;
 
 	class ILOFKJGANPP : public ::System::Object
 	{

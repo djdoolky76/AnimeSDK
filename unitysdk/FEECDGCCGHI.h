@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTextJoinValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FEECDGCCGHI_CTOR_OFFSET UNITYSDK_OFFSET(0x156DBDE0)
-#define FEECDGCCGHI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156DBE10)
+#define FEECDGCCGHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1308C1C0)
+#define FEECDGCCGHI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1308C1F0)
 
-inline static constexpr unsigned int FEECDGCCGHI_TypeDefinitionIndex = 52595;
+inline static constexpr unsigned int FEECDGCCGHI_TypeDefinitionIndex = 53701;
 
 	class FEECDGCCGHI
 	{

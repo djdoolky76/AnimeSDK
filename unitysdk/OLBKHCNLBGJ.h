@@ -5,18 +5,18 @@
 namespace RPGTools::Timeline { class LifeCycleEventArgument; }
 namespace System { class String; }
 
-#define OLBKHCNLBGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF8990)
-#define OLBKHCNLBGJ_FNHGCHHJJLL_OFFSET UNITYSDK_OFFSET(0xBEF8810)
-#define OLBKHCNLBGJ_KHIDIKCNPFK_OFFSET UNITYSDK_OFFSET(0xBEF86F0)
+#define OLBKHCNLBGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1789EF20)
+#define OLBKHCNLBGJ_FNHGCHHJJLL_OFFSET UNITYSDK_OFFSET(0x1789EDA0)
+#define OLBKHCNLBGJ_KHIDIKCNPFK_OFFSET UNITYSDK_OFFSET(0x1789EC80)
 
-inline static constexpr unsigned int OLBKHCNLBGJ_TypeDefinitionIndex = 48154;
+inline static constexpr unsigned int OLBKHCNLBGJ_TypeDefinitionIndex = 49185;
 
 	class OLBKHCNLBGJ : public ::System::Object
 	{
 	public:
 		::System::String* KNAPCKONKFE; // 0x10
-		::UnityEngine::Color ILBNGMLDGJG; // 0x18
-		::System::Single DIJAPAFKAIC; // 0x28
+		::System::Single DIJAPAFKAIC; // 0x18
+		::UnityEngine::Color ILBNGMLDGJG; // 0x1C
 		::UnityEngine::Color AALKAGBOONM; // 0x2C
 		::System::Void _ctor()
 		{

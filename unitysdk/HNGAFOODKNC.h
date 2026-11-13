@@ -4,22 +4,22 @@ namespace RPG::GameCore { class ByHaveObstacle; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Transform; }
 
-#define HNGAFOODKNC_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D86F80)
-#define HNGAFOODKNC_CTOR_OFFSET UNITYSDK_OFFSET(0x15D86810)
-#define HNGAFOODKNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D86990)
+#define HNGAFOODKNC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A36A280)
+#define HNGAFOODKNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A369B00)
+#define HNGAFOODKNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A369C90)
 
-inline static constexpr unsigned int HNGAFOODKNC_TypeDefinitionIndex = 54628;
+inline static constexpr unsigned int HNGAFOODKNC_TypeDefinitionIndex = 55794;
 
 	class HNGAFOODKNC
 	{
 	public:
-		::UnityEngine::Transform* HKJLKMCDMGB; // 0x28
+		::UnityEngine::Transform* IBLBKLNHKLL; // 0x28
 		::UnityEngine::Transform* LPAHJLLOJJP; // 0x30
-		::UnityEngine::Transform* IBLBKLNHKLL; // 0x38
+		::UnityEngine::Transform* HKJLKMCDMGB; // 0x38
 		::UnityEngine::Transform* PBAHKJBADEO; // 0x40
 		static ::System::Int32* StaticGet_GBFKGJFHEDM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "HNGAFOODKNC")->GetStaticField(0x98E0);
+			return (::System::Int32*)UnitySDK::FromName("", "HNGAFOODKNC")->GetStaticField(0x6B10);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByHaveObstacle* a2)

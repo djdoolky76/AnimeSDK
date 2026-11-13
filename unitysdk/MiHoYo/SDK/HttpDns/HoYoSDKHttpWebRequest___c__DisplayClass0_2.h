@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK { class HoYoSDKNetworkInterface_CustomHttpRequestHandler; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_2_CTOR_OFFSET UNITYSDK_OFFSET(0xAFAFA20)
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_2__GETRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0xAFB09D0)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2E3F30)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_2__GETRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0x1E2E4ED0)
 
 namespace MiHoYo::SDK::HttpDns
 {
-	inline static constexpr unsigned int HoYoSDKHttpWebRequest___c__DisplayClass0_2_TypeDefinitionIndex = 46706;
+	inline static constexpr unsigned int HoYoSDKHttpWebRequest___c__DisplayClass0_2_TypeDefinitionIndex = 47734;
 
 	template <typename T1, typename T2>
 	class HoYoSDKHttpWebRequest___c__DisplayClass0_2 : public ::System::Object

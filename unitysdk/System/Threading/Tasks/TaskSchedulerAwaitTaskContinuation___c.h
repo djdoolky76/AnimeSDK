@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C12F2C0)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C12F300)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__RUN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C12F310)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD7ACF0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD7AD30)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__RUN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1DD7AD40)
 
 namespace System::Threading::Tasks
 {
@@ -17,12 +17,12 @@ namespace System::Threading::Tasks
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x2A760);
+			return (::System::Object**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x18870);
 		}
 
 		static ::System::Action_1<::System::Object*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x2A768);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x18878);
 		}
 
 		static ::System::Void _cctor()

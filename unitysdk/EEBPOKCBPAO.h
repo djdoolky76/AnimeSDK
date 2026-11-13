@@ -3,10 +3,10 @@
 #include "unitysdk/MNCOAAIIANF.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define EEBPOKCBPAO_CTOR_OFFSET UNITYSDK_OFFSET(0x13349D80)
-#define EEBPOKCBPAO_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x13349D70)
+#define EEBPOKCBPAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3110F0)
+#define EEBPOKCBPAO_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x1A3110E0)
 
-inline static constexpr unsigned int EEBPOKCBPAO_TypeDefinitionIndex = 76987;
+inline static constexpr unsigned int EEBPOKCBPAO_TypeDefinitionIndex = 79321;
 
 	class EEBPOKCBPAO : public ::MNCOAAIIANF
 	{

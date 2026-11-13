@@ -6,10 +6,10 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2E70F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E7180)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_DUMP_OFFSET UNITYSDK_OFFSET(0x1C2E75C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_WRITE_OFFSET UNITYSDK_OFFSET(0x1C2E7190)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A73A810)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A73A8A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_DUMP_OFFSET UNITYSDK_OFFSET(0x1A73ACE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_WRITE_OFFSET UNITYSDK_OFFSET(0x1A73A8B0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -18,16 +18,16 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	class BinaryMethodReturn : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Object*>* args; // 0x10
-		::System::Object* returnValue; // 0x18
-		::System::Type* returnType; // 0x20
-		::Il2CppArray<::System::Type*>* argTypes; // 0x28
-		::System::Object* callContext; // 0x30
+		::System::Object* returnValue; // 0x10
+		::System::Type* returnType; // 0x18
+		::Il2CppArray<::System::Object*>* args; // 0x20
+		::System::Object* callContext; // 0x28
+		::Il2CppArray<::System::Type*>* argTypes; // 0x30
 		::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum; // 0x38
 		::System::Boolean bArgsPrimitive; // 0x3C
 		static ::System::Object** StaticGet_instanceOfVoid()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn")->GetStaticField(0x1E350);
+			return (::System::Object**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn")->GetStaticField(0x19570);
 		}
 
 		static ::System::Void _cctor()

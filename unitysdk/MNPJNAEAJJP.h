@@ -8,22 +8,22 @@ namespace RPG::GameCore { class GameWorld; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MNPJNAEAJJP_AALCFBOGFKP_OFFSET UNITYSDK_OFFSET(0xBA144E0)
-#define MNPJNAEAJJP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xBA14660)
-#define MNPJNAEAJJP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA14790)
-#define MNPJNAEAJJP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBA14320)
-#define MNPJNAEAJJP_OFGFCCPIOAJ_OFFSET UNITYSDK_OFFSET(0xBA14740)
-#define MNPJNAEAJJP_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xBA14220)
-#define MNPJNAEAJJP_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xBA142D0)
+#define MNPJNAEAJJP_AALCFBOGFKP_OFFSET UNITYSDK_OFFSET(0x1B201360)
+#define MNPJNAEAJJP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1B2014D0)
+#define MNPJNAEAJJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B201600)
+#define MNPJNAEAJJP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1B2011B0)
+#define MNPJNAEAJJP_OFGFCCPIOAJ_OFFSET UNITYSDK_OFFSET(0x1B2015B0)
+#define MNPJNAEAJJP_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x1B2010B0)
+#define MNPJNAEAJJP_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x1B201160)
 
-inline static constexpr unsigned int MNPJNAEAJJP_TypeDefinitionIndex = 57817;
+inline static constexpr unsigned int MNPJNAEAJJP_TypeDefinitionIndex = 59052;
 
 	class MNPJNAEAJJP : public ::System::Object
 	{
 	public:
-		::System::Action_1<::RPG::GameCore::GameEntity*>* DGAAGLAGFID; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::IMENCDLHKAI*>* HAGAFPFAONA; // 0x10
 		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::IMENCDLHKAI*>* HAGAFPFAONA; // 0x20
+		::System::Action_1<::RPG::GameCore::GameEntity*>* DGAAGLAGFID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MNPJNAEAJJP_CTOR_OFFSET))(this);

@@ -9,12 +9,12 @@ namespace RPG::GameCore { class ChronicleCustomUnlockConditionConfig; }
 namespace RPG::GameCore { class ChronicleNodeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHRONICLENODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D585420)
-#define RPG_GAMECORE_CHRONICLENODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D584DC0)
+#define RPG_GAMECORE_CHRONICLENODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4FBC20)
+#define RPG_GAMECORE_CHRONICLENODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F4FB5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleNodeConfig_TypeDefinitionIndex = 18977;
+	inline static constexpr unsigned int ChronicleNodeConfig_TypeDefinitionIndex = 19164;
 
 	class ChronicleNodeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class OptionTriggerInfo; }
 
-#define RPG_GAMECORE_PROPOPTIONTRIGGER_BUTTONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE72A7A0)
+#define RPG_GAMECORE_PROPOPTIONTRIGGER_BUTTONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1928E740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropOptionTrigger_ButtonParam_TypeDefinitionIndex = 57527;
+	inline static constexpr unsigned int PropOptionTrigger_ButtonParam_TypeDefinitionIndex = 58755;
 
 	class PropOptionTrigger_ButtonParam : public ::System::Object
 	{

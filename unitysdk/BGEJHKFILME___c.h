@@ -4,18 +4,18 @@
 class BGEJHKFILME;
 namespace System { class Object; }
 
-#define BGEJHKFILME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA46000)
-#define BGEJHKFILME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA46040)
-#define BGEJHKFILME___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EA46050)
+#define BGEJHKFILME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20105F40)
+#define BGEJHKFILME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20105F80)
+#define BGEJHKFILME___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x20105F90)
 
-inline static constexpr unsigned int BGEJHKFILME___c_TypeDefinitionIndex = 28805;
+inline static constexpr unsigned int BGEJHKFILME___c_TypeDefinitionIndex = 29395;
 
 	class BGEJHKFILME___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54770);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E1A0);
 		}
 
 		static ::System::Void _cctor()

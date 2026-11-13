@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PetDiy
 {
-	inline static constexpr unsigned int PetDiyStatus_TypeDefinitionIndex = 74482;
+	inline static constexpr unsigned int PetDiyStatus_TypeDefinitionIndex = 76630;
 
 	enum class PetDiyStatus : ::System::Int32
 	{

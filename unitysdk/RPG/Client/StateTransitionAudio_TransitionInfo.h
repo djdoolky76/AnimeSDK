@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_STATETRANSITIONAUDIO_TRANSITIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE12A210)
-#define RPG_CLIENT_STATETRANSITIONAUDIO_TRANSITIONINFO_GET_STATEHASH_OFFSET UNITYSDK_OFFSET(0xE12A040)
+#define RPG_CLIENT_STATETRANSITIONAUDIO_TRANSITIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A917BF0)
+#define RPG_CLIENT_STATETRANSITIONAUDIO_TRANSITIONINFO_GET_STATEHASH_OFFSET UNITYSDK_OFFSET(0x1A917A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateTransitionAudio_TransitionInfo_TypeDefinitionIndex = 68849;
+	inline static constexpr unsigned int StateTransitionAudio_TransitionInfo_TypeDefinitionIndex = 70802;
 
 	class StateTransitionAudio_TransitionInfo : public ::System::Object
 	{

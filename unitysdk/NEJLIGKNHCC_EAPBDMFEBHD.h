@@ -9,30 +9,30 @@ namespace Collections::Pooled { template <typename T1, typename T2> class Pooled
 namespace Collections::Pooled { template <typename T> class PooledList_1; }
 namespace System { class Object; }
 
-#define NEJLIGKNHCC_EAPBDMFEBHD_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xBB5F170)
-#define NEJLIGKNHCC_EAPBDMFEBHD_AGDLFBIPEIP_OFFSET UNITYSDK_OFFSET(0xBB5CA50)
-#define NEJLIGKNHCC_EAPBDMFEBHD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB60C90)
-#define NEJLIGKNHCC_EAPBDMFEBHD_DAALMLAPAMJ_OFFSET UNITYSDK_OFFSET(0xBB60660)
+#define NEJLIGKNHCC_EAPBDMFEBHD_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x16FDEA70)
+#define NEJLIGKNHCC_EAPBDMFEBHD_AGDLFBIPEIP_OFFSET UNITYSDK_OFFSET(0x16FDC330)
+#define NEJLIGKNHCC_EAPBDMFEBHD_CTOR_OFFSET UNITYSDK_OFFSET(0x16FE05B0)
+#define NEJLIGKNHCC_EAPBDMFEBHD_DAALMLAPAMJ_OFFSET UNITYSDK_OFFSET(0x16FDFF80)
 
-inline static constexpr unsigned int NEJLIGKNHCC_EAPBDMFEBHD_TypeDefinitionIndex = 69288;
+inline static constexpr unsigned int NEJLIGKNHCC_EAPBDMFEBHD_TypeDefinitionIndex = 71242;
 
 	class NEJLIGKNHCC_EAPBDMFEBHD : public ::System::Object
 	{
 	public:
-		::Collections::Pooled::PooledList_1<::System::Object*>* LBOEBHOGBOD; // 0x10
-		::Collections::Pooled::PooledDictionary_2<::JOGBIBJLPJB, ::System::Byte>* LFLJEGHMEGC; // 0x18
-		::Collections::Pooled::PooledDictionary_2<::System::Int64, ::System::Object*>* MNJECHNPHAK; // 0x20
-		::Collections::Pooled::PooledList_1<::System::Object*>* OPEAFKKJKMN; // 0x28
-		::NEJLIGKNHCC_GONOHDPNHKO* JDIIEBLDKDH; // 0x30
-		::NEJLIGKNHCC_BAIGKBAJFJE* JBNLICMBCKH; // 0x38
-		::Collections::Pooled::PooledDictionary_2<::JOGBIBJLPJB, ::System::Byte>* EMBOIJGLEDC; // 0x40
-		::Collections::Pooled::PooledList_1<::JOGBIBJLPJB>* FBPHIMNIMJD; // 0x48
+		::NEJLIGKNHCC_BAIGKBAJFJE* FACGBNAEFNH; // 0x10
+		::NEJLIGKNHCC_GONOHDPNHKO* JDIIEBLDKDH; // 0x18
+		::Collections::Pooled::PooledList_1<::JOGBIBJLPJB>* FBPHIMNIMJD; // 0x20
+		::NEJLIGKNHCC_GONOHDPNHKO* OMECMPAHBOM; // 0x28
+		::Collections::Pooled::PooledDictionary_2<::JOGBIBJLPJB, ::System::Byte>* LFLJEGHMEGC; // 0x30
+		::Collections::Pooled::PooledList_1<::JOGBIBJLPJB>* NDGFIHNIHCO; // 0x38
+		::Collections::Pooled::PooledList_1<::System::Object*>* JMNBALPGILH; // 0x40
+		::NEJLIGKNHCC_BAIGKBAJFJE* JBNLICMBCKH; // 0x48
 		::Collections::Pooled::PooledDictionary_2<::System::Int64, ::UnityEngine::Vector3>* IJAFBEGHKLP; // 0x50
-		::Collections::Pooled::PooledList_1<::System::Object*>* JMNBALPGILH; // 0x58
-		::NEJLIGKNHCC_BAIGKBAJFJE* FACGBNAEFNH; // 0x60
-		::Collections::Pooled::PooledList_1<::JOGBIBJLPJB>* NDGFIHNIHCO; // 0x68
-		::Collections::Pooled::PooledList_1<::System::Object*>* HLFEABKPKDM; // 0x70
-		::NEJLIGKNHCC_GONOHDPNHKO* OMECMPAHBOM; // 0x78
+		::Collections::Pooled::PooledDictionary_2<::JOGBIBJLPJB, ::System::Byte>* EMBOIJGLEDC; // 0x58
+		::Collections::Pooled::PooledList_1<::System::Object*>* HLFEABKPKDM; // 0x60
+		::Collections::Pooled::PooledList_1<::System::Object*>* LBOEBHOGBOD; // 0x68
+		::Collections::Pooled::PooledList_1<::System::Object*>* OPEAFKKJKMN; // 0x70
+		::Collections::Pooled::PooledDictionary_2<::System::Int64, ::System::Object*>* MNJECHNPHAK; // 0x78
 		::System::Boolean CEAHAJKOKFJ; // 0x80
 		::System::Void _ctor()
 		{

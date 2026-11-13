@@ -5,23 +5,23 @@ namespace RPG::Client::TeamTowers { class TeamTowersDepartmentData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LGGELBFHJIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB68E980)
-#define LGGELBFHJIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB68E9C0)
-#define LGGELBFHJIM___C__GET_PVECOMPLETE_B__24_0_OFFSET UNITYSDK_OFFSET(0xB68E9D0)
+#define LGGELBFHJIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCA52F0)
+#define LGGELBFHJIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA5330)
+#define LGGELBFHJIM___C__GET_PVECOMPLETE_B__24_0_OFFSET UNITYSDK_OFFSET(0x1BCA5340)
 
-inline static constexpr unsigned int LGGELBFHJIM___c_TypeDefinitionIndex = 79035;
+inline static constexpr unsigned int LGGELBFHJIM___c_TypeDefinitionIndex = 81811;
 
 	class LGGELBFHJIM___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersDepartmentData*, ::System::Boolean>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersDepartmentData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FD80);
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersDepartmentData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62B70);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FD88);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62B78);
 		}
 
 		static ::System::Void _cctor()

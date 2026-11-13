@@ -4,9 +4,9 @@
 class LMFOOOLDECA;
 class OMNJCDDMLHI;
 
-#define KCFBBDGOBEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB32D980)
+#define KCFBBDGOBEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A480B60)
 
-inline static constexpr unsigned int KCFBBDGOBEN_TypeDefinitionIndex = 77799;
+inline static constexpr unsigned int KCFBBDGOBEN_TypeDefinitionIndex = 80534;
 
 	class KCFBBDGOBEN : public ::DJJKNHPLHDI
 	{

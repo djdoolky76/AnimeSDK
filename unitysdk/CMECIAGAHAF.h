@@ -3,10 +3,10 @@
 class AFONHNKGNLD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CMECIAGAHAF_CTOR_OFFSET UNITYSDK_OFFSET(0xDA220A0)
-#define CMECIAGAHAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA220D0)
+#define CMECIAGAHAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B18F450)
+#define CMECIAGAHAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B18F480)
 
-inline static constexpr unsigned int CMECIAGAHAF_TypeDefinitionIndex = 58812;
+inline static constexpr unsigned int CMECIAGAHAF_TypeDefinitionIndex = 60080;
 
 	class CMECIAGAHAF
 	{

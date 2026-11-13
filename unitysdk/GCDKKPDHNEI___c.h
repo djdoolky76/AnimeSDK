@@ -4,18 +4,18 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 
-#define GCDKKPDHNEI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1595E970)
-#define GCDKKPDHNEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1595E9A0)
-#define GCDKKPDHNEI___C___CCTOR_B__37_0_OFFSET UNITYSDK_OFFSET(0x1595E9B0)
+#define GCDKKPDHNEI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19EA34A0)
+#define GCDKKPDHNEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19EA34D0)
+#define GCDKKPDHNEI___C___CCTOR_B__37_0_OFFSET UNITYSDK_OFFSET(0x19EA34E0)
 
-inline static constexpr unsigned int GCDKKPDHNEI___c_TypeDefinitionIndex = 60495;
+inline static constexpr unsigned int GCDKKPDHNEI___c_TypeDefinitionIndex = 61785;
 
 	class GCDKKPDHNEI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A480);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D300);
 		}
 
 		static ::System::Void _cctor()

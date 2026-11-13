@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class GameObject; }
 
-#define GOICJLNIBPA_CTOR_OFFSET UNITYSDK_OFFSET(0x15B27CF0)
-#define GOICJLNIBPA_GETBOUNDCENTER_OFFSET UNITYSDK_OFFSET(0x15B27EF0)
-#define GOICJLNIBPA_GETRECT_OFFSET UNITYSDK_OFFSET(0x15B27F60)
+#define GOICJLNIBPA_CTOR_OFFSET UNITYSDK_OFFSET(0x187B87C0)
+#define GOICJLNIBPA_GETBOUNDCENTER_OFFSET UNITYSDK_OFFSET(0x187B89C0)
+#define GOICJLNIBPA_GETRECT_OFFSET UNITYSDK_OFFSET(0x187B8A30)
 
-inline static constexpr unsigned int GOICJLNIBPA_TypeDefinitionIndex = 47504;
+inline static constexpr unsigned int GOICJLNIBPA_TypeDefinitionIndex = 48533;
 
 	class GOICJLNIBPA : public ::System::Object
 	{

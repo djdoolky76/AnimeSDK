@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ShowSDFText; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWSDFTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB66F0)
-#define RPG_GAMECORE_SHOWSDFTEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB6760)
-#define RPG_GAMECORE_SHOWSDFTEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB6660)
+#define RPG_GAMECORE_SHOWSDFTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EF800)
+#define RPG_GAMECORE_SHOWSDFTEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3EF890)
+#define RPG_GAMECORE_SHOWSDFTEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3EF750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSDFText_TypeDefinitionIndex = 20910;
+	inline static constexpr unsigned int ShowSDFText_TypeDefinitionIndex = 21248;
 
 	class ShowSDFText : public ::RPG::GameCore::TaskConfig
 	{

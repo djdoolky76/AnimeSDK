@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int EnumerableAsyncExtensions_TypeDefinitionIndex = 38152;
+	inline static constexpr unsigned int EnumerableAsyncExtensions_TypeDefinitionIndex = 39081;
 
 	class EnumerableAsyncExtensions : public ::System::Object
 	{

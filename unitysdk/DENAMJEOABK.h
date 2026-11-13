@@ -3,10 +3,10 @@
 class EGAMINIBAKN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DENAMJEOABK_CTOR_OFFSET UNITYSDK_OFFSET(0xE51B580)
-#define DENAMJEOABK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE51B5B0)
+#define DENAMJEOABK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3825B0)
+#define DENAMJEOABK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B3825E0)
 
-inline static constexpr unsigned int DENAMJEOABK_TypeDefinitionIndex = 52605;
+inline static constexpr unsigned int DENAMJEOABK_TypeDefinitionIndex = 53712;
 
 	class DENAMJEOABK
 	{

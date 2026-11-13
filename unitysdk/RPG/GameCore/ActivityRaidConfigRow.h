@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRaidConfigRow; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D34D610)
-#define RPG_GAMECORE_ACTIVITYRAIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34CFE0)
+#define RPG_GAMECORE_ACTIVITYRAIDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA949B0)
+#define RPG_GAMECORE_ACTIVITYRAIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA94380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidConfigRow_TypeDefinitionIndex = 14599;
+	inline static constexpr unsigned int ActivityRaidConfigRow_TypeDefinitionIndex = 14754;
 
 	class ActivityRaidConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ActivityQuestID; // 0x10
-		::System::UInt32 ActivityModuleID; // 0x14
-		::System::UInt32 RaidID; // 0x18
-		::System::UInt32 HardLevel; // 0x1C
+		::System::UInt32 HardLevel; // 0x10
+		::System::UInt32 RaidID; // 0x14
+		::System::UInt32 ActivityModuleID; // 0x18
+		::System::UInt32 ActivityQuestID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYRAIDCONFIGROW_CTOR_OFFSET))(this);

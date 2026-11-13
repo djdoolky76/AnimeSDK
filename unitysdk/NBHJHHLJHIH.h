@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvCharacterSetMotionBlendTime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NBHJHHLJHIH_CTOR_OFFSET UNITYSDK_OFFSET(0xBABDC90)
-#define NBHJHHLJHIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBABDCC0)
+#define NBHJHHLJHIH_CTOR_OFFSET UNITYSDK_OFFSET(0x150AE5B0)
+#define NBHJHHLJHIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x150AE5E0)
 
-inline static constexpr unsigned int NBHJHHLJHIH_TypeDefinitionIndex = 52339;
+inline static constexpr unsigned int NBHJHHLJHIH_TypeDefinitionIndex = 53445;
 
 	class NBHJHHLJHIH
 	{

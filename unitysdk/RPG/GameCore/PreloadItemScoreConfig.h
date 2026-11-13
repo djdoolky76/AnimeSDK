@@ -6,12 +6,12 @@ namespace RPG::GameCore { class PreloadItemScoreConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PRELOADITEMSCORECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D912310)
-#define RPG_GAMECORE_PRELOADITEMSCORECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D912230)
+#define RPG_GAMECORE_PRELOADITEMSCORECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7C510)
+#define RPG_GAMECORE_PRELOADITEMSCORECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF7C430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadItemScoreConfig_TypeDefinitionIndex = 16372;
+	inline static constexpr unsigned int PreloadItemScoreConfig_TypeDefinitionIndex = 16536;
 
 	class PreloadItemScoreConfig : public ::RPG::GameCore::JsonConfig
 	{

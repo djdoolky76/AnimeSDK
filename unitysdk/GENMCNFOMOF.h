@@ -4,10 +4,10 @@
 #include "unitysdk/NOJEJFMMCEG.h"
 class FPNHGPEICOG;
 
-#define GENMCNFOMOF_CTOR_OFFSET UNITYSDK_OFFSET(0x159D71F0)
-#define GENMCNFOMOF_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0x159D6A30)
+#define GENMCNFOMOF_CTOR_OFFSET UNITYSDK_OFFSET(0x17CE4540)
+#define GENMCNFOMOF_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0x17CE3D80)
 
-inline static constexpr unsigned int GENMCNFOMOF_TypeDefinitionIndex = 53683;
+inline static constexpr unsigned int GENMCNFOMOF_TypeDefinitionIndex = 54847;
 
 	class GENMCNFOMOF : public ::System::Object
 	{

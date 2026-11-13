@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define CINEMACHINETOUCHINPUTMAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x166A7070)
-#define CINEMACHINETOUCHINPUTMAPPER_GETINPUTAXIS_OFFSET UNITYSDK_OFFSET(0x166A6FA0)
-#define CINEMACHINETOUCHINPUTMAPPER_START_OFFSET UNITYSDK_OFFSET(0x166A6F00)
+#define CINEMACHINETOUCHINPUTMAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x2088E3C0)
+#define CINEMACHINETOUCHINPUTMAPPER_GETINPUTAXIS_OFFSET UNITYSDK_OFFSET(0x2088E2F0)
+#define CINEMACHINETOUCHINPUTMAPPER_START_OFFSET UNITYSDK_OFFSET(0x2088E250)
 
-inline static constexpr unsigned int CinemachineTouchInputMapper_TypeDefinitionIndex = 39713;
+inline static constexpr unsigned int CinemachineTouchInputMapper_TypeDefinitionIndex = 40642;
 
 	class CinemachineTouchInputMapper : public ::UnityEngine::MonoBehaviour
 	{

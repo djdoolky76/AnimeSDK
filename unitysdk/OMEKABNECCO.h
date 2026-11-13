@@ -9,21 +9,21 @@
 #include "unitysdk/RPG/GameCore/PauseAbilityReason.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define OMEKABNECCO_ADALJLPBDOE_OFFSET UNITYSDK_OFFSET(0xBF1D320)
-#define OMEKABNECCO_BBGDOBDNAOB_OFFSET UNITYSDK_OFFSET(0xBF1D2D0)
-#define OMEKABNECCO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF1D140)
-#define OMEKABNECCO_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xBF1D370)
-#define OMEKABNECCO_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0xBF1D380)
-#define OMEKABNECCO_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0xBF1D280)
-#define OMEKABNECCO_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0xBF1D1B0)
+#define OMEKABNECCO_ADALJLPBDOE_OFFSET UNITYSDK_OFFSET(0x17D4CAA0)
+#define OMEKABNECCO_BBGDOBDNAOB_OFFSET UNITYSDK_OFFSET(0x17D4CA50)
+#define OMEKABNECCO_CTOR_OFFSET UNITYSDK_OFFSET(0x17D4C8D0)
+#define OMEKABNECCO_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x17D4CAF0)
+#define OMEKABNECCO_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0x17D4CB00)
+#define OMEKABNECCO_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0x17D4CA00)
+#define OMEKABNECCO_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0x17D4C940)
 
-inline static constexpr unsigned int OMEKABNECCO_TypeDefinitionIndex = 57031;
+inline static constexpr unsigned int OMEKABNECCO_TypeDefinitionIndex = 58258;
 
 	class OMEKABNECCO : public ::CMJCPMOPHJJ
 	{
 	public:
-		::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x80
-		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x84
+		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x80
+		::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x84
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + OMEKABNECCO_CTOR_OFFSET))(this, a1);

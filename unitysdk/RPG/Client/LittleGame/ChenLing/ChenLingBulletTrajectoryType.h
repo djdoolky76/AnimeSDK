@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingBulletTrajectoryType_TypeDefinitionIndex = 43735;
+	inline static constexpr unsigned int ChenLingBulletTrajectoryType_TypeDefinitionIndex = 44810;
 
 	enum class ChenLingBulletTrajectoryType : ::System::Int32
 	{

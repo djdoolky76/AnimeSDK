@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class ExpeditionBattleFlowStateConfig; }
 namespace System { class String; }
 
-#define EOLPGHDBJNF_CTOR_OFFSET UNITYSDK_OFFSET(0x155BA170)
-#define EOLPGHDBJNF_EKBGBBACMFL_OFFSET UNITYSDK_OFFSET(0x155BA010)
-#define EOLPGHDBJNF_KPOBDDBABJG_OFFSET UNITYSDK_OFFSET(0x155B9FA0)
+#define EOLPGHDBJNF_CTOR_OFFSET UNITYSDK_OFFSET(0x16B28660)
+#define EOLPGHDBJNF_EKBGBBACMFL_OFFSET UNITYSDK_OFFSET(0x16B28500)
+#define EOLPGHDBJNF_KPOBDDBABJG_OFFSET UNITYSDK_OFFSET(0x16B28490)
 
-inline static constexpr unsigned int EOLPGHDBJNF_TypeDefinitionIndex = 63874;
+inline static constexpr unsigned int EOLPGHDBJNF_TypeDefinitionIndex = 65316;
 
 	class EOLPGHDBJNF : public ::System::Object
 	{

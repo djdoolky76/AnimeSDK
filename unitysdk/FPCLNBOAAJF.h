@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AudioSetRTPCValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPCLNBOAAJF_CTOR_OFFSET UNITYSDK_OFFSET(0x15904D40)
-#define FPCLNBOAAJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15904D70)
+#define FPCLNBOAAJF_CTOR_OFFSET UNITYSDK_OFFSET(0x18772880)
+#define FPCLNBOAAJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187728B0)
 
-inline static constexpr unsigned int FPCLNBOAAJF_TypeDefinitionIndex = 56345;
+inline static constexpr unsigned int FPCLNBOAAJF_TypeDefinitionIndex = 57559;
 
 	class FPCLNBOAAJF
 	{

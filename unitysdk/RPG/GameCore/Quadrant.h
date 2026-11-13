@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Quadrant_TypeDefinitionIndex = 18570;
+	inline static constexpr unsigned int Quadrant_TypeDefinitionIndex = 18730;
 
 	enum class Quadrant : ::System::Int32
 	{

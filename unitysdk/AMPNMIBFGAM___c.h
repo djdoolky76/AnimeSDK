@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define AMPNMIBFGAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15584070)
-#define AMPNMIBFGAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x155840B0)
-#define AMPNMIBFGAM___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x155840C0)
+#define AMPNMIBFGAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A819BA0)
+#define AMPNMIBFGAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A819BE0)
+#define AMPNMIBFGAM___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1A819BF0)
 
-inline static constexpr unsigned int AMPNMIBFGAM___c_TypeDefinitionIndex = 78471;
+inline static constexpr unsigned int AMPNMIBFGAM___c_TypeDefinitionIndex = 81206;
 
 	class AMPNMIBFGAM___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::GameObject*, ::RPG::Client::Prop::ChimeraPreparationState>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::UnityEngine::GameObject*, ::RPG::Client::Prop::ChimeraPreparationState>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C0B0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C0B8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56930);
+		}
+
+		static ::System::Func_2<::UnityEngine::GameObject*, ::RPG::Client::Prop::ChimeraPreparationState>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::UnityEngine::GameObject*, ::RPG::Client::Prop::ChimeraPreparationState>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56938);
 		}
 
 		static ::System::Void _cctor()

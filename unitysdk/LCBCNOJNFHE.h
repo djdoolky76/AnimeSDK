@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class LCBCNOJNFHE;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define LCBCNOJNFHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A97C0)
-#define LCBCNOJNFHE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0A97D0)
-#define LCBCNOJNFHE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0A9790)
+#define LCBCNOJNFHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E940F30)
+#define LCBCNOJNFHE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E940F40)
+#define LCBCNOJNFHE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E940F00)
 
-inline static constexpr unsigned int LCBCNOJNFHE_TypeDefinitionIndex = 23719;
+inline static constexpr unsigned int LCBCNOJNFHE_TypeDefinitionIndex = 24175;
 
 	class LCBCNOJNFHE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::RPG::GameCore::TargetEvaluator* DAFDBGCICHA; // 0x20
+		::RPG::GameCore::TargetEvaluator* DAFDBGCICHA; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LCBCNOJNFHE_CTOR_OFFSET))(this);

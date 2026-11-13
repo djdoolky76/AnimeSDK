@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AFHOPECDEFA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF05490)
-#define AFHOPECDEFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF054A0)
+#define AFHOPECDEFA_CTOR_OFFSET UNITYSDK_OFFSET(0x18DB0F00)
+#define AFHOPECDEFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DB0F10)
 
-inline static constexpr unsigned int AFHOPECDEFA_TypeDefinitionIndex = 61323;
+inline static constexpr unsigned int AFHOPECDEFA_TypeDefinitionIndex = 62708;
 
 	class AFHOPECDEFA : public ::System::Object
 	{

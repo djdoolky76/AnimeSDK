@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MABHMGJMHFC.h"
 
-#define FDEEAPALFKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAD730)
+#define FDEEAPALFKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E440EF0)
 
-inline static constexpr unsigned int FDEEAPALFKE_TypeDefinitionIndex = 25017;
+inline static constexpr unsigned int FDEEAPALFKE_TypeDefinitionIndex = 25495;
 
 	class FDEEAPALFKE : public ::MABHMGJMHFC
 	{

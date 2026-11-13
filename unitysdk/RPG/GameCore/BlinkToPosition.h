@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BlinkToPosition; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_BLINKTOPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4409A0)
-#define RPG_GAMECORE_BLINKTOPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4409E0)
-#define RPG_GAMECORE_BLINKTOPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D440940)
+#define RPG_GAMECORE_BLINKTOPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF474B0)
+#define RPG_GAMECORE_BLINKTOPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF474F0)
+#define RPG_GAMECORE_BLINKTOPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF47450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlinkToPosition_TypeDefinitionIndex = 23134;
+	inline static constexpr unsigned int BlinkToPosition_TypeDefinitionIndex = 23563;
 
 	class BlinkToPosition : public ::RPG::GameCore::TaskConfig
 	{

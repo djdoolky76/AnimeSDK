@@ -4,10 +4,10 @@
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OPPNDCNMGKO_EAFFFCIIBMF_OFFSET UNITYSDK_OFFSET(0xBFAF400)
-#define OPPNDCNMGKO_FLHPDOLCBDN_OFFSET UNITYSDK_OFFSET(0xBFAF220)
+#define OPPNDCNMGKO_EAFFFCIIBMF_OFFSET UNITYSDK_OFFSET(0x18AC5BE0)
+#define OPPNDCNMGKO_FLHPDOLCBDN_OFFSET UNITYSDK_OFFSET(0x18AC5A00)
 
-inline static constexpr unsigned int OPPNDCNMGKO_TypeDefinitionIndex = 75558;
+inline static constexpr unsigned int OPPNDCNMGKO_TypeDefinitionIndex = 77885;
 
 	class OPPNDCNMGKO : public ::System::Object
 	{

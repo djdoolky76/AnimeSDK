@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRSubmitFlags_TypeDefinitionIndex = 39223;
+	inline static constexpr unsigned int EVRSubmitFlags_TypeDefinitionIndex = 40152;
 
 	enum class EVRSubmitFlags : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/Story/BaseStoryMoveData.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPGTOOLS_TIMELINE_STORY_BASESTORYMOVERUNDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE931F30)
+#define RPGTOOLS_TIMELINE_STORY_BASESTORYMOVERUNDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1D1F0)
 
 namespace RPGTools::Timeline::Story
 {
-	inline static constexpr unsigned int BaseStoryMoveRunData_TypeDefinitionIndex = 48705;
+	inline static constexpr unsigned int BaseStoryMoveRunData_TypeDefinitionIndex = 49751;
 
 	class BaseStoryMoveRunData : public ::RPGTools::Timeline::Story::BaseStoryMoveData
 	{

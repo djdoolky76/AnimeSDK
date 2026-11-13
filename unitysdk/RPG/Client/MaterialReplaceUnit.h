@@ -5,7 +5,7 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialReplaceUnit_TypeDefinitionIndex = 70103;
+	inline static constexpr unsigned int MaterialReplaceUnit_TypeDefinitionIndex = 72068;
 
 	struct alignas(8) MaterialReplaceUnit
 	{

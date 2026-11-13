@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define OOGENIBLDEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBF75170)
-#define OOGENIBLDEB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBF750E0)
+#define OOGENIBLDEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1969C390)
+#define OOGENIBLDEB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x1969C300)
 
-inline static constexpr unsigned int OOGENIBLDEB_TypeDefinitionIndex = 82111;
+inline static constexpr unsigned int OOGENIBLDEB_TypeDefinitionIndex = 84984;
 
 	class OOGENIBLDEB : public ::System::Object
 	{

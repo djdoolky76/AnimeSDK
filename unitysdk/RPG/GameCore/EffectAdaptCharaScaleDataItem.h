@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EffectAdaptCharaScaleDataItem; }
 
-#define RPG_GAMECORE_EFFECTADAPTCHARASCALEDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D600D00)
-#define RPG_GAMECORE_EFFECTADAPTCHARASCALEDATAITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D600BA0)
+#define RPG_GAMECORE_EFFECTADAPTCHARASCALEDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D7AF0)
+#define RPG_GAMECORE_EFFECTADAPTCHARASCALEDATAITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D7990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectAdaptCharaScaleDataItem_TypeDefinitionIndex = 16492;
+	inline static constexpr unsigned int EffectAdaptCharaScaleDataItem_TypeDefinitionIndex = 16656;
 
 	class EffectAdaptCharaScaleDataItem : public ::RPG::GameCore::JsonConfig
 	{

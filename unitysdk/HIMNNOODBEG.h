@@ -4,13 +4,13 @@
 #include "unitysdk/RPG/Client/BattleTargetStatus.h"
 namespace UnityEngine { class Transform; }
 
-#define HIMNNOODBEG_CTOR_OFFSET UNITYSDK_OFFSET(0x15CEC900)
-#define HIMNNOODBEG_EDIAINOHBOG_OFFSET UNITYSDK_OFFSET(0x15CEC890)
-#define HIMNNOODBEG_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x15CEC6B0)
-#define HIMNNOODBEG_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15CEC6F0)
-#define HIMNNOODBEG__ONBIND_OFFSET UNITYSDK_OFFSET(0x15CEC590)
+#define HIMNNOODBEG_CTOR_OFFSET UNITYSDK_OFFSET(0x181E92A0)
+#define HIMNNOODBEG_EDIAINOHBOG_OFFSET UNITYSDK_OFFSET(0x181E9230)
+#define HIMNNOODBEG_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x181E9090)
+#define HIMNNOODBEG__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x181E9050)
+#define HIMNNOODBEG__ONBIND_OFFSET UNITYSDK_OFFSET(0x181E8F30)
 
-inline static constexpr unsigned int HIMNNOODBEG_TypeDefinitionIndex = 71845;
+inline static constexpr unsigned int HIMNNOODBEG_TypeDefinitionIndex = 73866;
 
 	class HIMNNOODBEG : public ::FMPCODLIOLG
 	{
@@ -29,9 +29,9 @@ inline static constexpr unsigned int HIMNNOODBEG_TypeDefinitionIndex = 71845;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIMNNOODBEG__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIMNNOODBEG_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIMNNOODBEG__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void NKPPGDENJAE(::RPG::Client::BattleTargetStatus a1)

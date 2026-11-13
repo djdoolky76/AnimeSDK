@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int InterfaceListFormatter2_1_TypeDefinitionIndex = 7393;
+	inline static constexpr unsigned int InterfaceListFormatter2_1_TypeDefinitionIndex = 7404;
 
 	template <typename T>
 	class InterfaceListFormatter2_1

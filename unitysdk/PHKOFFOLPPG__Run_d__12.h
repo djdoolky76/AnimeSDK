@@ -10,22 +10,22 @@ class PHKOFFOLPPG_HFFPHANAHLP;
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define PHKOFFOLPPG__RUN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C534C0)
-#define PHKOFFOLPPG__RUN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define PHKOFFOLPPG__RUN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3F251D0)
+#define PHKOFFOLPPG__RUN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xB480)
 
-inline static constexpr unsigned int PHKOFFOLPPG__Run_d__12_TypeDefinitionIndex = 44172;
+inline static constexpr unsigned int PHKOFFOLPPG__Run_d__12_TypeDefinitionIndex = 45247;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	struct alignas(8) PHKOFFOLPPG__Run_d__12
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::PHKOFFOLPPG* __4__this; // 0x28
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
-		::DEIPGFGBEMG* stageStep; // 0x40
+		::DEIPGFGBEMG* stageStep; // 0x10
+		::PHKOFFOLPPG* __4__this; // 0x18
+		::PHKOFFOLPPG_HFFPHANAHLP* _activeStageStep_5__2; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::System::Threading::CancellationToken cancellationToken; // 0x38
+		::System::Object* owner; // 0x40
 		::System::Threading::CancellationTokenRegistration _cancellationRegistration_5__3; // 0x48
-		::System::Object* owner; // 0x60
-		::PHKOFFOLPPG_HFFPHANAHLP* _activeStageStep_5__2; // 0x68
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x60
 		::System::Int32 __1__state; // 0x70
 		::System::Void MoveNext()
 		{

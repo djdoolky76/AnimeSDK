@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetupPropagateBeingAttackInTeam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IHBGGDMGAGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1640A430)
-#define IHBGGDMGAGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1640A460)
+#define IHBGGDMGAGB_CTOR_OFFSET UNITYSDK_OFFSET(0x19F67E70)
+#define IHBGGDMGAGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F67EA0)
 
-inline static constexpr unsigned int IHBGGDMGAGB_TypeDefinitionIndex = 55270;
+inline static constexpr unsigned int IHBGGDMGAGB_TypeDefinitionIndex = 56451;
 
 	class IHBGGDMGAGB
 	{

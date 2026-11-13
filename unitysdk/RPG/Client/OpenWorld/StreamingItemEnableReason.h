@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingItemEnableReason_TypeDefinitionIndex = 73929;
+	inline static constexpr unsigned int StreamingItemEnableReason_TypeDefinitionIndex = 76065;
 
 	enum class StreamingItemEnableReason : ::System::Int32
 	{

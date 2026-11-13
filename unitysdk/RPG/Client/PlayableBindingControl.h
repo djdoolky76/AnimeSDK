@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Object; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET UNITYSDK_OFFSET(0xDBD83A0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CLEAR_OFFSET UNITYSDK_OFFSET(0xDBD7A60)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDBD79E0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDBD7B40)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET UNITYSDK_OFFSET(0xDBD7BF0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0xDBD7B00)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET UNITYSDK_OFFSET(0x1E2AAE90)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E2AA550)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2AA4D0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E2AA630)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET UNITYSDK_OFFSET(0x1E2AA6E0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0x1E2AA5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 69745;
+	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 71702;
 
 	class PlayableBindingControl : public ::System::Object
 	{
 	public:
-		::UnityEngine::Playables::PlayableDirector* _PlayableDirector; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Playables::PlayableBinding>* _BindingDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Playables::PlayableBinding>* _BindingDict; // 0x10
+		::UnityEngine::Playables::PlayableDirector* _PlayableDirector; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL_CTOR_OFFSET))(this);

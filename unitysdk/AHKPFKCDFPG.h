@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define AHKPFKCDFPG_CTOR_OFFSET UNITYSDK_OFFSET(0xEB80D80)
+#define AHKPFKCDFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x19B26AA0)
 
-inline static constexpr unsigned int AHKPFKCDFPG_TypeDefinitionIndex = 48397;
+inline static constexpr unsigned int AHKPFKCDFPG_TypeDefinitionIndex = 49438;
 
 	class AHKPFKCDFPG : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/LocalAccessInstruction.h"
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDBEDC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C46DF40)
 
 namespace System::Linq::Expressions::Interpreter
 {

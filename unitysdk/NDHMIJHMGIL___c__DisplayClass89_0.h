@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class NDHMIJHMGIL;
 
-#define NDHMIJHMGIL___C__DISPLAYCLASS89_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB3A2B0)
-#define NDHMIJHMGIL___C__DISPLAYCLASS89_0__ONROUNDTEAMCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xBB42EE0)
+#define NDHMIJHMGIL___C__DISPLAYCLASS89_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16FB93D0)
+#define NDHMIJHMGIL___C__DISPLAYCLASS89_0__ONROUNDTEAMCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x16FC2050)
 
-inline static constexpr unsigned int NDHMIJHMGIL___c__DisplayClass89_0_TypeDefinitionIndex = 60421;
+inline static constexpr unsigned int NDHMIJHMGIL___c__DisplayClass89_0_TypeDefinitionIndex = 61711;
 
 	class NDHMIJHMGIL___c__DisplayClass89_0 : public ::System::Object
 	{

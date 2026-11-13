@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByHitSplitRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OJEJIIDCFMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA7130)
-#define OJEJIIDCFMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA7210)
+#define OJEJIIDCFMG_CTOR_OFFSET UNITYSDK_OFFSET(0x194AB550)
+#define OJEJIIDCFMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x194AB630)
 
-inline static constexpr unsigned int OJEJIIDCFMG_TypeDefinitionIndex = 55449;
+inline static constexpr unsigned int OJEJIIDCFMG_TypeDefinitionIndex = 56637;
 
 	class OJEJIIDCFMG
 	{

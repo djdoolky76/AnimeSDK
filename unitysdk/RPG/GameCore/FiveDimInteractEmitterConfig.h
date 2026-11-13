@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FiveDimInteractEmitterConfig; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define RPG_GAMECORE_FIVEDIMINTERACTEMITTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D696ED0)
-#define RPG_GAMECORE_FIVEDIMINTERACTEMITTERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D696EE0)
-#define RPG_GAMECORE_FIVEDIMINTERACTEMITTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D696EA0)
+#define RPG_GAMECORE_FIVEDIMINTERACTEMITTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E863C10)
+#define RPG_GAMECORE_FIVEDIMINTERACTEMITTERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E863C20)
+#define RPG_GAMECORE_FIVEDIMINTERACTEMITTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E863BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimInteractEmitterConfig_TypeDefinitionIndex = 18561;
+	inline static constexpr unsigned int FiveDimInteractEmitterConfig_TypeDefinitionIndex = 18721;
 
 	class FiveDimInteractEmitterConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

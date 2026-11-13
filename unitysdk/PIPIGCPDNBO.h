@@ -7,19 +7,19 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define PIPIGCPDNBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2C41B0)
-#define PIPIGCPDNBO_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D2C4390)
-#define PIPIGCPDNBO_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D2C4360)
-#define PIPIGCPDNBO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2C41C0)
-#define PIPIGCPDNBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2C4180)
+#define PIPIGCPDNBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E72F9A0)
+#define PIPIGCPDNBO_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1E72FB80)
+#define PIPIGCPDNBO_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E72FB50)
+#define PIPIGCPDNBO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E72F9B0)
+#define PIPIGCPDNBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E72F970)
 
-inline static constexpr unsigned int PIPIGCPDNBO_TypeDefinitionIndex = 24204;
+inline static constexpr unsigned int PIPIGCPDNBO_TypeDefinitionIndex = 24663;
 
 	class PIPIGCPDNBO : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* NJLICGGKCAB; // 0x20
-		::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x28
+		::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x20
+		::RPG::GameCore::TargetEvaluator* NJLICGGKCAB; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPIGCPDNBO_CTOR_OFFSET))(this);

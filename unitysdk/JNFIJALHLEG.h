@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ForceSetDialogCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JNFIJALHLEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB278870)
-#define JNFIJALHLEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2788A0)
+#define JNFIJALHLEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C64A0)
+#define JNFIJALHLEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A0C64D0)
 
-inline static constexpr unsigned int JNFIJALHLEG_TypeDefinitionIndex = 58127;
+inline static constexpr unsigned int JNFIJALHLEG_TypeDefinitionIndex = 59366;
 
 	class JNFIJALHLEG
 	{

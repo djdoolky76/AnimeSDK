@@ -4,12 +4,12 @@
 class ENGBNDIPDJL;
 namespace RPG::GameCore { class EvolveBuildGearManager; }
 
-#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE67A710)
-#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__GETGEARSELECTPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xE67ED40)
+#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17505890)
+#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__GETGEARSELECTPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x17509F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager___c__DisplayClass100_0_TypeDefinitionIndex = 56072;
+	inline static constexpr unsigned int EvolveBuildGearManager___c__DisplayClass100_0_TypeDefinitionIndex = 57284;
 
 	class EvolveBuildGearManager___c__DisplayClass100_0 : public ::System::Object
 	{

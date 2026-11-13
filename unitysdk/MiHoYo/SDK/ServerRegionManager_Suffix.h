@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER_SUFFIX_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB4830)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_SUFFIX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D049610)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager_Suffix_TypeDefinitionIndex = 7965;
+	inline static constexpr unsigned int ServerRegionManager_Suffix_TypeDefinitionIndex = 7974;
 
 	class ServerRegionManager_Suffix : public ::System::Object
 	{

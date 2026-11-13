@@ -4,18 +4,18 @@
 class HGNBPANECAL;
 namespace System { class Object; }
 
-#define HGNBPANECAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5570D0)
-#define HGNBPANECAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E557100)
-#define HGNBPANECAL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E557110)
+#define HGNBPANECAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB05800)
+#define HGNBPANECAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB05830)
+#define HGNBPANECAL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB05840)
 
-inline static constexpr unsigned int HGNBPANECAL___c_TypeDefinitionIndex = 33945;
+inline static constexpr unsigned int HGNBPANECAL___c_TypeDefinitionIndex = 34860;
 
 	class HGNBPANECAL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D7E0);
 		}
 
 		static ::System::Void _cctor()

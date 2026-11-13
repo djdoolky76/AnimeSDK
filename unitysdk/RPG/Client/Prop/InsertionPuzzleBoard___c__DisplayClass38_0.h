@@ -4,18 +4,18 @@
 namespace RPG::Client::Prop { class InsertionPuzzleBoard; }
 namespace RPG::Client::Prop { class InsertionPuzzleItem; }
 
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCF8A40)
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS38_0___RETREATROTATEOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0xDCF9B30)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A52DA80)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS38_0___RETREATROTATEOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0x1A52EB70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass38_0_TypeDefinitionIndex = 78630;
+	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass38_0_TypeDefinitionIndex = 81365;
 
 	class InsertionPuzzleBoard___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::InsertionPuzzleItem* item; // 0x10
-		::RPG::Client::Prop::InsertionPuzzleBoard* __4__this; // 0x18
+		::RPG::Client::Prop::InsertionPuzzleBoard* __4__this; // 0x10
+		::RPG::Client::Prop::InsertionPuzzleItem* item; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS38_0_CTOR_OFFSET))(this);

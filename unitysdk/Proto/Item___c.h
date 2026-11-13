@@ -4,20 +4,20 @@
 namespace Proto { class Item; }
 namespace System { class Object; }
 
-#define PROTO_ITEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD10D0)
-#define PROTO_ITEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD1100)
-#define PROTO_ITEM___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1DFD1110)
+#define PROTO_ITEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4CF6F0)
+#define PROTO_ITEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CF720)
+#define PROTO_ITEM___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1F4CF730)
 
 namespace Proto
 {
-	inline static constexpr unsigned int Item___c_TypeDefinitionIndex = 27783;
+	inline static constexpr unsigned int Item___c_TypeDefinitionIndex = 28360;
 
 	class Item___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4C370);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x516D0);
 		}
 
 		static ::System::Void _cctor()

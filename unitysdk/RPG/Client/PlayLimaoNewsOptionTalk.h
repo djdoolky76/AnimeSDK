@@ -6,13 +6,13 @@ namespace RPG::Client { class PlayLimaoNewsOptionTalk; }
 namespace RPG::GameCore { class OptionTalkInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PLAYLIMAONEWSOPTIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FBD70)
-#define RPG_CLIENT_PLAYLIMAONEWSOPTIONTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2FBD80)
-#define RPG_CLIENT_PLAYLIMAONEWSOPTIONTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FBD40)
+#define RPG_CLIENT_PLAYLIMAONEWSOPTIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CB720)
+#define RPG_CLIENT_PLAYLIMAONEWSOPTIONTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7CB730)
+#define RPG_CLIENT_PLAYLIMAONEWSOPTIONTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7CB6F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayLimaoNewsOptionTalk_TypeDefinitionIndex = 10241;
+	inline static constexpr unsigned int PlayLimaoNewsOptionTalk_TypeDefinitionIndex = 10250;
 
 	class PlayLimaoNewsOptionTalk : public ::RPG::GameCore::TaskConfig
 	{

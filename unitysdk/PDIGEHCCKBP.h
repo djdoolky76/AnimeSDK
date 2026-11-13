@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetupRotatableRegionAirlock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PDIGEHCCKBP_CTOR_OFFSET UNITYSDK_OFFSET(0xC00CA10)
-#define PDIGEHCCKBP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC00CA40)
+#define PDIGEHCCKBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE5420)
+#define PDIGEHCCKBP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AAE5450)
 
-inline static constexpr unsigned int PDIGEHCCKBP_TypeDefinitionIndex = 53003;
+inline static constexpr unsigned int PDIGEHCCKBP_TypeDefinitionIndex = 54162;
 
 	class PDIGEHCCKBP
 	{

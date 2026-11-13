@@ -8,21 +8,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceEffectRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D521000)
-#define RPG_GAMECORE_CAKERACEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D520C30)
+#define RPG_GAMECORE_CAKERACEEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF9E20)
+#define RPG_GAMECORE_CAKERACEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBF9A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceEffectRow_TypeDefinitionIndex = 10999;
+	inline static constexpr unsigned int CakeRaceEffectRow_TypeDefinitionIndex = 11015;
 
 	class CakeRaceEffectRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AllowSectionIndex; // 0x10
-		::System::String* EffectIcon; // 0x18
-		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* AllowRegionTagList; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x28
-		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* NotAllowRegionTagList; // 0x30
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::Il2CppArray<::System::UInt32>* AllowSectionIndex; // 0x18
+		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* NotAllowRegionTagList; // 0x20
+		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* AllowRegionTagList; // 0x28
+		::System::String* EffectIcon; // 0x30
 		::System::String* AbilityJson; // 0x38
 		::System::UInt32 EffectID; // 0x40
 		::System::Byte _padding0[0x4];

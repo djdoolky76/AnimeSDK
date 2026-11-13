@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IProxyViewService_1_TypeDefinitionIndex = 42419;
+	inline static constexpr unsigned int IProxyViewService_1_TypeDefinitionIndex = 43394;
 
 	template <typename T>
 	class IProxyViewService_1

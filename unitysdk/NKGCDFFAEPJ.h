@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsFakeSkillBySlot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NKGCDFFAEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBC2D860)
-#define NKGCDFFAEPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC2D890)
+#define NKGCDFFAEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7B0260)
+#define NKGCDFFAEPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A7B0290)
 
-inline static constexpr unsigned int NKGCDFFAEPJ_TypeDefinitionIndex = 54657;
+inline static constexpr unsigned int NKGCDFFAEPJ_TypeDefinitionIndex = 55823;
 
 	class NKGCDFFAEPJ
 	{

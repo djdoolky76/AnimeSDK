@@ -10,53 +10,54 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define KHNIAFDBHCD_BACHONKLDLJ_OFFSET UNITYSDK_OFFSET(0xB407A00)
-#define KHNIAFDBHCD_BOKJMLIPHKG_OFFSET UNITYSDK_OFFSET(0xB407280)
-#define KHNIAFDBHCD_CFICHPOCDFH_OFFSET UNITYSDK_OFFSET(0xB406BB0)
-#define KHNIAFDBHCD_CIMKMBDNGIK_OFFSET UNITYSDK_OFFSET(0xB406850)
-#define KHNIAFDBHCD_CTOR_OFFSET UNITYSDK_OFFSET(0xB4064A0)
-#define KHNIAFDBHCD_DGHKNKODDEM_OFFSET UNITYSDK_OFFSET(0xB407590)
-#define KHNIAFDBHCD_EKJDAFGMOKD_OFFSET UNITYSDK_OFFSET(0xB406CF0)
-#define KHNIAFDBHCD_EOEJANOHGOO_OFFSET UNITYSDK_OFFSET(0xB406DC0)
-#define KHNIAFDBHCD_FPDPKDJBDBO_OFFSET UNITYSDK_OFFSET(0xB407500)
-#define KHNIAFDBHCD_IDCGHHPJLGF_OFFSET UNITYSDK_OFFSET(0xB406870)
-#define KHNIAFDBHCD_LAHFAPNLGED_OFFSET UNITYSDK_OFFSET(0xB407AF0)
-#define KHNIAFDBHCD_LNKPAKJJPND_OFFSET UNITYSDK_OFFSET(0xB4073D0)
-#define KHNIAFDBHCD_MJOKCFPADJE_OFFSET UNITYSDK_OFFSET(0xB406F20)
-#define KHNIAFDBHCD_OKMGPLEJMII_OFFSET UNITYSDK_OFFSET(0xB407750)
-#define KHNIAFDBHCD_PAGCNDMIANF_OFFSET UNITYSDK_OFFSET(0xB4068D0)
-#define KHNIAFDBHCD_PFNFLMNPEFA_OFFSET UNITYSDK_OFFSET(0xB4070C0)
+#define KHNIAFDBHCD_BACHONKLDLJ_OFFSET UNITYSDK_OFFSET(0x19798DC0)
+#define KHNIAFDBHCD_BOKJMLIPHKG_OFFSET UNITYSDK_OFFSET(0x19798640)
+#define KHNIAFDBHCD_CFICHPOCDFH_OFFSET UNITYSDK_OFFSET(0x19797FA0)
+#define KHNIAFDBHCD_CIMKMBDNGIK_OFFSET UNITYSDK_OFFSET(0x19797C40)
+#define KHNIAFDBHCD_CTOR_OFFSET UNITYSDK_OFFSET(0x197978D0)
+#define KHNIAFDBHCD_DGHKNKODDEM_OFFSET UNITYSDK_OFFSET(0x19798960)
+#define KHNIAFDBHCD_EKJDAFGMOKD_OFFSET UNITYSDK_OFFSET(0x197980D0)
+#define KHNIAFDBHCD_EOEJANOHGOO_OFFSET UNITYSDK_OFFSET(0x19798190)
+#define KHNIAFDBHCD_FPDPKDJBDBO_OFFSET UNITYSDK_OFFSET(0x197988D0)
+#define KHNIAFDBHCD_IDCGHHPJLGF_OFFSET UNITYSDK_OFFSET(0x19797C60)
+#define KHNIAFDBHCD_LAHFAPNLGED_OFFSET UNITYSDK_OFFSET(0x19798EB0)
+#define KHNIAFDBHCD_LNKPAKJJPND_OFFSET UNITYSDK_OFFSET(0x19798790)
+#define KHNIAFDBHCD_MJOKCFPADJE_OFFSET UNITYSDK_OFFSET(0x197982F0)
+#define KHNIAFDBHCD_OKMGPLEJMII_OFFSET UNITYSDK_OFFSET(0x19798B10)
+#define KHNIAFDBHCD_PAGCNDMIANF_OFFSET UNITYSDK_OFFSET(0x19797CC0)
+#define KHNIAFDBHCD_PFNFLMNPEFA_OFFSET UNITYSDK_OFFSET(0x19798480)
 
-inline static constexpr unsigned int KHNIAFDBHCD_TypeDefinitionIndex = 77835;
+inline static constexpr unsigned int KHNIAFDBHCD_TypeDefinitionIndex = 80570;
 
 	class KHNIAFDBHCD : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* OPJDOPMCPOF; // 0x10
-		::System::Collections::Generic::Queue_1<::System::Single>* EDPGFHHIOLG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* IKHNDOAJGDC; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* PNAPGEGMFNJ; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* LPPNBAEOIMO; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* IKHNDOAJGDC; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* BBNCKMFFJMF; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* LPPNBAEOIMO; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* DNGFCOPEOEC; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* BBNCKMFFJMF; // 0x40
-		::GKODJGAGKEB* IGHAHBNLIJA; // 0x48
-		::System::Int64 NCAFJFDAHIG; // 0x50
-		::System::Int32 CEKKDMDCINC; // 0x58
-		::System::Single EDDIDIFMCDH; // 0x5C
-		::System::Int64 NDCHAPMLJMP; // 0x60
-		::System::Int64 GILJEELGNML; // 0x68
-		::System::Int32 IPIKHHDINDC; // 0x70
-		::System::Int32 OOOACOIJGBM; // 0x74
-		::System::Int64 KGMGEMCGPFH; // 0x78
-		::System::Int64 CGKFFMJHEGN; // 0x80
-		::System::Int32 HBGLFOJBNLE; // 0x88
-		::System::Int32 NDKHKBELACP; // 0x8C
-		::System::Int64 BHKPDPNEOKC; // 0x90
+		::GKODJGAGKEB* IGHAHBNLIJA; // 0x40
+		::System::Collections::Generic::Queue_1<::System::Single>* EDPGFHHIOLG; // 0x48
+		::System::Int32 EOPBAGHKMFB; // 0x50
+		::System::Int32 OOOACOIJGBM; // 0x54
+		::System::Int64 GILJEELGNML; // 0x58
+		::System::Int32 IPIKHHDINDC; // 0x60
+		::System::Int32 HBGLFOJBNLE; // 0x64
+		::System::Single JCGOELFNION; // 0x68
+		::System::Int32 FLBOCOHFMPE; // 0x6C
+		::System::Int32 CEKKDMDCINC; // 0x70
+		::System::Int32 PJLNHLNEOLO; // 0x74
+		::System::Int64 BHKPDPNEOKC; // 0x78
+		::System::Single EDDIDIFMCDH; // 0x80
+		::System::Byte _padding0[0x4];
+		::System::Int64 KGMGEMCGPFH; // 0x88
+		::System::Int64 CGKFFMJHEGN; // 0x90
 		::System::Int32 FEOPHDMGHPL; // 0x98
-		::System::Int32 FLBOCOHFMPE; // 0x9C
-		::System::Int32 PJLNHLNEOLO; // 0xA0
-		::System::Int32 EOPBAGHKMFB; // 0xA4
-		::System::Single JCGOELFNION; // 0xA8
+		::System::Int32 NDKHKBELACP; // 0x9C
+		::System::Int64 NDCHAPMLJMP; // 0xA0
+		::System::Int64 NCAFJFDAHIG; // 0xA8
 		::System::Void _ctor(::GKODJGAGKEB* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::GKODJGAGKEB*))((::PBYTE)hIl2Cpp + KHNIAFDBHCD_CTOR_OFFSET))(this, a1);

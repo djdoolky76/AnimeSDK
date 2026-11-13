@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace System::Security::Util { class TokenizerStringBlock; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTRINGBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0CA340)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTRINGBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x17551F30)
 
 namespace System::Security::Util
 {

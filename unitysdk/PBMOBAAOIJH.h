@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtBattleTargetFetchGridByTag; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PBMOBAAOIJH_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEE1D0)
-#define PBMOBAAOIJH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFEE330)
+#define PBMOBAAOIJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC4BE0)
+#define PBMOBAAOIJH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AAC4D40)
 
-inline static constexpr unsigned int PBMOBAAOIJH_TypeDefinitionIndex = 53799;
+inline static constexpr unsigned int PBMOBAAOIJH_TypeDefinitionIndex = 54963;
 
 	class PBMOBAAOIJH
 	{

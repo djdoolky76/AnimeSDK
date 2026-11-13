@@ -4,18 +4,18 @@
 class KDHABGDIAPJ;
 namespace System { class Object; }
 
-#define KDHABGDIAPJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7D2CB0)
-#define KDHABGDIAPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D2CF0)
-#define KDHABGDIAPJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7D2D00)
+#define KDHABGDIAPJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203C9C70)
+#define KDHABGDIAPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203C9CB0)
+#define KDHABGDIAPJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x203C9CC0)
 
-inline static constexpr unsigned int KDHABGDIAPJ___c_TypeDefinitionIndex = 29022;
+inline static constexpr unsigned int KDHABGDIAPJ___c_TypeDefinitionIndex = 29612;
 
 	class KDHABGDIAPJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x104E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EEA0);
 		}
 
 		static ::System::Void _cctor()

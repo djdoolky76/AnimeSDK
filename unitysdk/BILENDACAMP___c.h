@@ -4,18 +4,18 @@
 class BILENDACAMP;
 namespace System { class Object; }
 
-#define BILENDACAMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDD7A20)
-#define BILENDACAMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD7A50)
-#define BILENDACAMP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DDD7A60)
+#define BILENDACAMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FACA410)
+#define BILENDACAMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FACA440)
+#define BILENDACAMP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FACA450)
 
-inline static constexpr unsigned int BILENDACAMP___c_TypeDefinitionIndex = 27513;
+inline static constexpr unsigned int BILENDACAMP___c_TypeDefinitionIndex = 28044;
 
 	class BILENDACAMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57B50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53C20);
 		}
 
 		static ::System::Void _cctor()

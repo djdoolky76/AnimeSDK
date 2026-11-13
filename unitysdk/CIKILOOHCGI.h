@@ -6,10 +6,10 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CIKILOOHCGI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF857C0)
-#define CIKILOOHCGI_NPNMEEJGCLB_OFFSET UNITYSDK_OFFSET(0xCF85850)
+#define CIKILOOHCGI_CTOR_OFFSET UNITYSDK_OFFSET(0x16E610E0)
+#define CIKILOOHCGI_NPNMEEJGCLB_OFFSET UNITYSDK_OFFSET(0x16E61170)
 
-inline static constexpr unsigned int CIKILOOHCGI_TypeDefinitionIndex = 78873;
+inline static constexpr unsigned int CIKILOOHCGI_TypeDefinitionIndex = 81644;
 
 	class CIKILOOHCGI : public ::BKDAGBGKDKA
 	{

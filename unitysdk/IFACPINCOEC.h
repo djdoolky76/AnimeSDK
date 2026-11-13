@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IFACPINCOEC_TypeDefinitionIndex = 71809;
+inline static constexpr unsigned int IFACPINCOEC_TypeDefinitionIndex = 73829;
 
 	class IFACPINCOEC
 	{

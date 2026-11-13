@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class CCLFKMFJLPB;
 
-#define ABODKGPJMLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C849A20)
+#define ABODKGPJMLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84DCB0)
 
-inline static constexpr unsigned int ABODKGPJMLO_TypeDefinitionIndex = 42931;
+inline static constexpr unsigned int ABODKGPJMLO_TypeDefinitionIndex = 43912;
 
 	class ABODKGPJMLO : public ::System::Object
 	{

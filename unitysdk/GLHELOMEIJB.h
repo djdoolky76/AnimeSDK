@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/ChimeraTurnBasedStage.h"
 #include "unitysdk/System/Object.h"
 
-#define GLHELOMEIJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA837F0)
+#define GLHELOMEIJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA89900)
 
-inline static constexpr unsigned int GLHELOMEIJB_TypeDefinitionIndex = 41988;
+inline static constexpr unsigned int GLHELOMEIJB_TypeDefinitionIndex = 42963;
 
 	class GLHELOMEIJB : public ::System::Object
 	{
 	public:
-		::System::UInt32 EPHPAPDAOKL; // 0x10
-		::System::Boolean IJCDEINGADN; // 0x14
+		::System::Boolean IJCDEINGADN; // 0x10
 		::System::Byte _padding0[0x3];
+		::System::UInt32 HAHEOMFPOLG; // 0x14
 		::System::UInt32 CIMFODMONBA; // 0x18
-		::RPG::GameCore::ChimeraTurnBasedStage MCKJHOGHMHO; // 0x1C
-		::System::UInt32 HAHEOMFPOLG; // 0x20
-		::System::UInt32 HCDNKBJBNLL; // 0x24
+		::System::UInt32 EPHPAPDAOKL; // 0x1C
+		::System::UInt32 HCDNKBJBNLL; // 0x20
+		::RPG::GameCore::ChimeraTurnBasedStage MCKJHOGHMHO; // 0x24
 		::RPG::Client::LittleGame::ChimeraGameStage BHONOFBJAAH; // 0x28
 		::System::Void _ctor()
 		{

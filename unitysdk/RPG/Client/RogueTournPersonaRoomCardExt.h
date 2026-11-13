@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IRogueTournPersonaRoomCard; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDEXT_COMPOSITIONTYPEID_OFFSET UNITYSDK_OFFSET(0xE0234B0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDEXT_COMPOSITIONTYPEID_OFFSET UNITYSDK_OFFSET(0x1E0E5900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardExt_TypeDefinitionIndex = 67742;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardExt_TypeDefinitionIndex = 69687;
 
 	class RogueTournPersonaRoomCardExt : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define CODPLKJACKB_CTOR_OFFSET UNITYSDK_OFFSET(0xDCAC5D0)
+#define CODPLKJACKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1915D5D0)
 
-inline static constexpr unsigned int CODPLKJACKB_TypeDefinitionIndex = 64765;
+inline static constexpr unsigned int CODPLKJACKB_TypeDefinitionIndex = 66307;
 
 	class CODPLKJACKB : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionPropertyData; }
 
-#define IFPDAIALNLL_CTOR_OFFSET UNITYSDK_OFFSET(0x15F24C60)
-#define IFPDAIALNLL_EDGLFNBMGPD_OFFSET UNITYSDK_OFFSET(0x15F24C70)
+#define IFPDAIALNLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2D080)
+#define IFPDAIALNLL_EDGLFNBMGPD_OFFSET UNITYSDK_OFFSET(0x1BC2D090)
 
-inline static constexpr unsigned int IFPDAIALNLL_TypeDefinitionIndex = 75113;
+inline static constexpr unsigned int IFPDAIALNLL_TypeDefinitionIndex = 77440;
 
 	class IFPDAIALNLL : public ::OLBAIJKEIBM
 	{

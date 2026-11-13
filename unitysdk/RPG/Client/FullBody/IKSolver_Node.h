@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD059FB0)
-#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE_CTOR_2_OFFSET UNITYSDK_OFFSET(0xD075080)
-#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE_CTOR_OFFSET UNITYSDK_OFFSET(0xD075060)
+#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A7DFDF0)
+#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A7DFE10)
+#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7DFDD0)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKSolver_Node_TypeDefinitionIndex = 74257;
+	inline static constexpr unsigned int IKSolver_Node_TypeDefinitionIndex = 76405;
 
 	class IKSolver_Node : public ::RPG::Client::FullBody::IKSolver_Point
 	{

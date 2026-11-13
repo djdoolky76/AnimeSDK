@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPTerrainDebugVizMode_TypeDefinitionIndex = 37719;
+	inline static constexpr unsigned int CRPTerrainDebugVizMode_TypeDefinitionIndex = 38648;
 
 	enum class CRPTerrainDebugVizMode : ::System::Int32
 	{

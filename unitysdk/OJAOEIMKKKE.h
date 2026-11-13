@@ -4,16 +4,16 @@
 namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define OJAOEIMKKKE_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA2B70)
-#define OJAOEIMKKKE_OLKJENDHKDF_OFFSET UNITYSDK_OFFSET(0xBEA2B10)
+#define OJAOEIMKKKE_CTOR_OFFSET UNITYSDK_OFFSET(0x194A6320)
+#define OJAOEIMKKKE_OLKJENDHKDF_OFFSET UNITYSDK_OFFSET(0x194A62C0)
 
-inline static constexpr unsigned int OJAOEIMKKKE_TypeDefinitionIndex = 56223;
+inline static constexpr unsigned int OJAOEIMKKKE_TypeDefinitionIndex = 57435;
 
 	class OJAOEIMKKKE : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TurnBasedModifierInstance* PCIDMHBGICL; // 0x10
-		::RPG::GameCore::SkillCharacterComponent* DGFJFGGIACL; // 0x18
+		::RPG::GameCore::SkillCharacterComponent* DGFJFGGIACL; // 0x10
+		::RPG::GameCore::TurnBasedModifierInstance* PCIDMHBGICL; // 0x18
 		::System::Single HKNFNCGOING; // 0x20
 		::System::Single FOMHLJBMINK; // 0x24
 		::System::Boolean FPFAFHLNPED; // 0x28

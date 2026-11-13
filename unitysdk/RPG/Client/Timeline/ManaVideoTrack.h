@@ -8,15 +8,15 @@ namespace RPG::Client::Timeline { class ManaVideoTrack; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_BJIIHEFCOND_OFFSET UNITYSDK_OFFSET(0xE29E3B0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CCTOR_OFFSET UNITYSDK_OFFSET(0xE29E890)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE29D7F0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE29E790)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE29E710)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_BJIIHEFCOND_OFFSET UNITYSDK_OFFSET(0x1A157B10)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A157FF0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1A156F50)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A157EF0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A157E70)
 
 namespace RPG::Client::Timeline
 {
-	inline static constexpr unsigned int ManaVideoTrack_TypeDefinitionIndex = 73353;
+	inline static constexpr unsigned int ManaVideoTrack_TypeDefinitionIndex = 75470;
 
 	class ManaVideoTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -24,7 +24,7 @@ namespace RPG::Client::Timeline
 		::System::Guid guid; // 0xC8
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>** StaticGet_bindDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>**)UnitySDK::FromName("RPG.Client.Timeline", "ManaVideoTrack")->GetStaticField(0x1A670);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>**)UnitySDK::FromName("RPG.Client.Timeline", "ManaVideoTrack")->GetStaticField(0x28E50);
 		}
 
 		::System::Void _ctor()

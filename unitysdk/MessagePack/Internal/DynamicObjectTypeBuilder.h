@@ -25,132 +25,132 @@ namespace System::Reflection::Emit { class LocalBuilder; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1BB75C70)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDCUSTOMFORMATTERFIELD_OFFSET UNITYSDK_OFFSET(0x1BB76740)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALASSIGNFIELDFROMLOCALVARIABLEINTKEY_OFFSET UNITYSDK_OFFSET(0x1BB7E110)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALASSIGNFIELDFROMLOCALVARIABLESTRINGKEY_OFFSET UNITYSDK_OFFSET(0x1BB7D480)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALCREATEINSTANCEWITHARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BB7CFD0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALCREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BB7B800)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDEPTHSTEP_OFFSET UNITYSDK_OFFSET(0x1BB7BA70)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDEPTHUNSTEP_OFFSET UNITYSDK_OFFSET(0x1BB7C650)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYINTKEY_OFFSET UNITYSDK_OFFSET(0x1BB7D7E0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x1BB7C890)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEEACHPROPERTYINTKEY_OFFSET UNITYSDK_OFFSET(0x1BB7BE10)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEEACHPROPERTYSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x1BB7BF80)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPINTKEY_OFFSET UNITYSDK_OFFSET(0x1BB7DE90)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x1BB7CC20)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNDIRECTLY_OFFSET UNITYSDK_OFFSET(0x1BB7F370)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNLOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x1BB803D0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB7C0B0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALREADHEADERLENGTH_OFFSET UNITYSDK_OFFSET(0x1BB7BB30)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALRESOLVER_OFFSET UNITYSDK_OFFSET(0x1BB7BC90)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALTRYREADNIL_OFFSET UNITYSDK_OFFSET(0x1BB7B2F0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB790E0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB77140)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x1BB70910)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB80FF0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITSERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x1BB7A290)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x174B4CE0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDCUSTOMFORMATTERFIELD_OFFSET UNITYSDK_OFFSET(0x174B57B0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALASSIGNFIELDFROMLOCALVARIABLEINTKEY_OFFSET UNITYSDK_OFFSET(0x174BD180)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALASSIGNFIELDFROMLOCALVARIABLESTRINGKEY_OFFSET UNITYSDK_OFFSET(0x174BC4F0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALCREATEINSTANCEWITHARGUMENTS_OFFSET UNITYSDK_OFFSET(0x174BC040)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALCREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x174BA870)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDEPTHSTEP_OFFSET UNITYSDK_OFFSET(0x174BAAE0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDEPTHUNSTEP_OFFSET UNITYSDK_OFFSET(0x174BB6C0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYINTKEY_OFFSET UNITYSDK_OFFSET(0x174BC850)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x174BB900)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEEACHPROPERTYINTKEY_OFFSET UNITYSDK_OFFSET(0x174BAE80)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEEACHPROPERTYSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x174BAFF0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPINTKEY_OFFSET UNITYSDK_OFFSET(0x174BCF00)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x174BBC90)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNDIRECTLY_OFFSET UNITYSDK_OFFSET(0x174BE3E0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNLOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x174BF440)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x174BB120)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALREADHEADERLENGTH_OFFSET UNITYSDK_OFFSET(0x174BABA0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALRESOLVER_OFFSET UNITYSDK_OFFSET(0x174BAD00)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALTRYREADNIL_OFFSET UNITYSDK_OFFSET(0x174BA360)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x174B8150)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x174B61B0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x174AF980)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x174C0060)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITSERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x174B9300)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_TypeDefinitionIndex = 7312;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_TypeDefinitionIndex = 7323;
 
 	class DynamicObjectTypeBuilder : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getDeserialize()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A050);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_ReadOnlySpanFromByteArray()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A058);
-		}
-
 		static ::System::Reflection::MethodInfo** StaticGet_readerDepthSet()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A060);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_getSecurityFromOptions()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A068);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_getResolverFromOptions()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A070);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_getFormatterWithVerify()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A078);
-		}
-
-		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getSerialize()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A080);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_onAfterDeserialize()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A088);
-		}
-
-		static ::System::Reflection::ConstructorInfo** StaticGet_messagePackSerializationExceptionMessageOnlyConstructor()
-		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A090);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_ReadStringSpan()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A098);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC40);
 		}
 
 		static ::System::Reflection::MethodInfo** StaticGet_securityDepthStep()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A0A0);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC48);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_getResolverFromOptions()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC50);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ReadStringSpan()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC58);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_getFormatterWithVerify()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC60);
 		}
 
 		static ::System::Reflection::ConstructorInfo** StaticGet_objectCtor()
 		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A0A8);
-		}
-
-		static ::System::Type** StaticGet_refMessagePackReader()
-		{
-			return (::System::Type**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A0B0);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_readerDepthGet()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A0B8);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_ArrayFromNullableReadOnlySequence()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A0C0);
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC68);
 		}
 
 		static ::System::Reflection::MethodInfo** StaticGet_onBeforeSerialize()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A0C8);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_ignoreTypes()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A0D0);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC70);
 		}
 
 		static ::System::Text::RegularExpressions::Regex** StaticGet_SubtractFullNameRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x4A0D8);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC78);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ReadOnlySpanFromByteArray()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC80);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getDeserialize()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC88);
+		}
+
+		static ::System::Reflection::ConstructorInfo** StaticGet_messagePackSerializationExceptionMessageOnlyConstructor()
+		{
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC90);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getSerialize()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DC98);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_ignoreTypes()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DCA0);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_getSecurityFromOptions()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DCA8);
+		}
+
+		static ::System::Type** StaticGet_refMessagePackReader()
+		{
+			return (::System::Type**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DCB0);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_readerDepthGet()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DCB8);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ArrayFromNullableReadOnlySequence()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DCC0);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_onAfterDeserialize()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x2DCC8);
 		}
 
 		static ::System::Int32* StaticGet_nameSequence()
 		{
-			return (::System::Int32*)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x11120);
+			return (::System::Int32*)UnitySDK::FromName("MessagePack.Internal", "DynamicObjectTypeBuilder")->GetStaticField(0x9120);
 		}
 
 		static ::System::Void _cctor()

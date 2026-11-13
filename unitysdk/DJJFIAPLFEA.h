@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int DJJFIAPLFEA_TypeDefinitionIndex = 43575;
+inline static constexpr unsigned int DJJFIAPLFEA_TypeDefinitionIndex = 44557;
 
 	class DJJFIAPLFEA : public ::System::Object
 	{

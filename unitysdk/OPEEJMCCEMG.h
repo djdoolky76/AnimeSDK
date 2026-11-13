@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define OPEEJMCCEMG_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBFA05B0)
-#define OPEEJMCCEMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA0550)
+#define OPEEJMCCEMG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x18AB6D30)
+#define OPEEJMCCEMG_CTOR_OFFSET UNITYSDK_OFFSET(0x18AB6CD0)
 
-inline static constexpr unsigned int OPEEJMCCEMG_TypeDefinitionIndex = 74024;
+inline static constexpr unsigned int OPEEJMCCEMG_TypeDefinitionIndex = 76160;
 
 	class OPEEJMCCEMG
 	{

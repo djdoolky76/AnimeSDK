@@ -5,33 +5,33 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Font; }
 
-#define MPNCINEOKEJ_BAKANEIBLIP_OFFSET UNITYSDK_OFFSET(0xBA3CB40)
-#define MPNCINEOKEJ_BKIMIPMLMKL_OFFSET UNITYSDK_OFFSET(0xBA3C9D0)
-#define MPNCINEOKEJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA3CDD0)
-#define MPNCINEOKEJ_JGGOCPLLPPA_OFFSET UNITYSDK_OFFSET(0xBA3C320)
-#define MPNCINEOKEJ_LBBFGADNEHG_OFFSET UNITYSDK_OFFSET(0xBA3C4D0)
-#define MPNCINEOKEJ_LPFCIDHEJFE_OFFSET UNITYSDK_OFFSET(0xBA3C560)
-#define MPNCINEOKEJ_NFDOMALHMOJ_OFFSET UNITYSDK_OFFSET(0xBA3CCB0)
-#define MPNCINEOKEJ_NPAAKCGMOLP_OFFSET UNITYSDK_OFFSET(0xBA3C7A0)
+#define MPNCINEOKEJ_BAKANEIBLIP_OFFSET UNITYSDK_OFFSET(0x1B22AD90)
+#define MPNCINEOKEJ_BKIMIPMLMKL_OFFSET UNITYSDK_OFFSET(0x1B22AC20)
+#define MPNCINEOKEJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B22B020)
+#define MPNCINEOKEJ_JGGOCPLLPPA_OFFSET UNITYSDK_OFFSET(0x1B22A570)
+#define MPNCINEOKEJ_LBBFGADNEHG_OFFSET UNITYSDK_OFFSET(0x1B22A720)
+#define MPNCINEOKEJ_LPFCIDHEJFE_OFFSET UNITYSDK_OFFSET(0x1B22A7B0)
+#define MPNCINEOKEJ_NFDOMALHMOJ_OFFSET UNITYSDK_OFFSET(0x1B22AF00)
+#define MPNCINEOKEJ_NPAAKCGMOLP_OFFSET UNITYSDK_OFFSET(0x1B22A9F0)
 
-inline static constexpr unsigned int MPNCINEOKEJ_TypeDefinitionIndex = 72676;
+inline static constexpr unsigned int MPNCINEOKEJ_TypeDefinitionIndex = 74755;
 
 	class MPNCINEOKEJ : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>** StaticGet_DCELJHGLCLH()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("", "MPNCINEOKEJ")->GetStaticField(0x185A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("", "MPNCINEOKEJ")->GetStaticField(0x121F0);
 		}
 
 		static ::UnityEngine::Font** StaticGet_EGBLKEDNFDN()
 		{
-			return (::UnityEngine::Font**)UnitySDK::FromName("", "MPNCINEOKEJ")->GetStaticField(0x185A8);
+			return (::UnityEngine::Font**)UnitySDK::FromName("", "MPNCINEOKEJ")->GetStaticField(0x121F8);
 		}
 
 		static ::System::Boolean* StaticGet_CPKGNGANNIO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MPNCINEOKEJ")->GetStaticField(0x5380);
+			return (::System::Boolean*)UnitySDK::FromName("", "MPNCINEOKEJ")->GetStaticField(0x3A80);
 		}
 
 		// static const ::System::Object CJKPHGBNHFL; // 0x0

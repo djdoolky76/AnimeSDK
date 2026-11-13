@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OOCCBMLAELL;
 
-#define GLKIFLPIBCC_CTOR_OFFSET UNITYSDK_OFFSET(0x15AAFFC0)
+#define GLKIFLPIBCC_CTOR_OFFSET UNITYSDK_OFFSET(0x16C68190)
 
-inline static constexpr unsigned int GLKIFLPIBCC_TypeDefinitionIndex = 80571;
+inline static constexpr unsigned int GLKIFLPIBCC_TypeDefinitionIndex = 83351;
 
 	class GLKIFLPIBCC : public ::System::Object
 	{

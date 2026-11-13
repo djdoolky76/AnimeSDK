@@ -4,9 +4,9 @@
 #include "unitysdk/WarmupQualitySet.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PSOWARMUPDONEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC392120)
+#define PSOWARMUPDONEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BF130)
 
-inline static constexpr unsigned int PSOWarmupDoneInfo_TypeDefinitionIndex = 47421;
+inline static constexpr unsigned int PSOWarmupDoneInfo_TypeDefinitionIndex = 48450;
 
 	class PSOWarmupDoneInfo : public ::System::Object
 	{

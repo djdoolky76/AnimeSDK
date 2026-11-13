@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLPCAFJKOBK_CTOR_OFFSET UNITYSDK_OFFSET(0xDA1AEC0)
-#define CLPCAFJKOBK_INTERP_OFFSET UNITYSDK_OFFSET(0xDA1AF40)
+#define CLPCAFJKOBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B188270)
+#define CLPCAFJKOBK_INTERP_OFFSET UNITYSDK_OFFSET(0x1B1882F0)
 
-inline static constexpr unsigned int CLPCAFJKOBK_TypeDefinitionIndex = 74027;
+inline static constexpr unsigned int CLPCAFJKOBK_TypeDefinitionIndex = 76163;
 
 	class CLPCAFJKOBK
 	{

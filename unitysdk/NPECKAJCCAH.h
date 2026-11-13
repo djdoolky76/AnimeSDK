@@ -2,21 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class DMGLFMNEJGL;
+class NPECKAJCCAH;
 class OOBCBPNPOLG;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPECKAJCCAH_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xBCF4EA0)
-#define NPECKAJCCAH_CDJNMHPENGN_OFFSET UNITYSDK_OFFSET(0xBCF4DB0)
-#define NPECKAJCCAH_CGEBKHOIAFI_OFFSET UNITYSDK_OFFSET(0xBCF4E40)
-#define NPECKAJCCAH_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF5140)
-#define NPECKAJCCAH_DENOJDPJKJD_OFFSET UNITYSDK_OFFSET(0xBCF4AE0)
-#define NPECKAJCCAH_GCFPICNDPJK_OFFSET UNITYSDK_OFFSET(0xBCF4D10)
-#define NPECKAJCCAH_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xBCF4A60)
+#define NPECKAJCCAH_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x19CF6E90)
+#define NPECKAJCCAH_BKHKBEJCGJK_OFFSET UNITYSDK_OFFSET(0x19CF66E0)
+#define NPECKAJCCAH_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF7130)
+#define NPECKAJCCAH_DENOJDPJKJD_OFFSET UNITYSDK_OFFSET(0x19CF6B70)
+#define NPECKAJCCAH_DPDBNHLHEDH_OFFSET UNITYSDK_OFFSET(0x19CF6E30)
+#define NPECKAJCCAH_GCFPICNDPJK_OFFSET UNITYSDK_OFFSET(0x19CF6790)
+#define NPECKAJCCAH_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0x19CF6820)
+#define NPECKAJCCAH_MJEGIKKOGAF_OFFSET UNITYSDK_OFFSET(0x19CF68C0)
+#define NPECKAJCCAH_PBCGCKBCGFJ_OFFSET UNITYSDK_OFFSET(0x19CF6DA0)
 
-inline static constexpr unsigned int NPECKAJCCAH_TypeDefinitionIndex = 73371;
+inline static constexpr unsigned int NPECKAJCCAH_TypeDefinitionIndex = 75488;
 
 	class NPECKAJCCAH : public ::System::Object
 	{
@@ -27,9 +30,19 @@ inline static constexpr unsigned int NPECKAJCCAH_TypeDefinitionIndex = 73371;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPECKAJCCAH_CTOR_OFFSET))(this);
 		}
 
+		::System::Void BKHKBEJCGJK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPECKAJCCAH_BKHKBEJCGJK_OFFSET))(this);
+		}
+
 		::System::Object* GetContext(::System::Type* a1)
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NPECKAJCCAH_GETCONTEXT_OFFSET))(this, a1);
+		}
+
+		::System::Void MJEGIKKOGAF(::NPECKAJCCAH* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NPECKAJCCAH*))((::PBYTE)hIl2Cpp + NPECKAJCCAH_MJEGIKKOGAF_OFFSET))(this, a1);
 		}
 
 		::System::Void DENOJDPJKJD(::OOBCBPNPOLG* a1)
@@ -42,14 +55,14 @@ inline static constexpr unsigned int NPECKAJCCAH_TypeDefinitionIndex = 73371;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPECKAJCCAH_GCFPICNDPJK_OFFSET))(this);
 		}
 
-		::System::Boolean CDJNMHPENGN(::System::String* a1)
+		::System::Boolean PBCGCKBCGFJ(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NPECKAJCCAH_CDJNMHPENGN_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NPECKAJCCAH_PBCGCKBCGFJ_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CGEBKHOIAFI()
+		::System::Boolean DPDBNHLHEDH()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NPECKAJCCAH_CGEBKHOIAFI_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NPECKAJCCAH_DPDBNHLHEDH_OFFSET))(this);
 		}
 
 		::System::Object* BEJAJNEFHIB(::System::String* a1, ::System::String* a2, ::DMGLFMNEJGL* a3)

@@ -7,20 +7,20 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameSt
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD45C9D0)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__0_OFFSET UNITYSDK_OFFSET(0xD45DD80)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__1_OFFSET UNITYSDK_OFFSET(0xD45DFA0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB6400)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__0_OFFSET UNITYSDK_OFFSET(0x1CDB77A0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__1_OFFSET UNITYSDK_OFFSET(0x1CDB79C0)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c__DisplayClass37_1_TypeDefinitionIndex = 76844;
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c__DisplayClass37_1_TypeDefinitionIndex = 79178;
 
 	template <typename T>
 	class FourRotateVoxelGameStartCurve___c__DisplayClass37_1 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__1; // 0x10
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve_NMKFGFCKBBP* colorLiquidEffectData; // 0x18
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve_NMKFGFCKBBP* colorLiquidEffectData; // 0x10
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__1; // 0x18
 		::System::Object* CS___8__locals1; // 0x20
 		::System::Void _ctor()
 		{

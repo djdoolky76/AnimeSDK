@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropDestruct; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPDESTRUCT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91BA40)
-#define RPG_GAMECORE_PROPDESTRUCT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D91BA70)
-#define RPG_GAMECORE_PROPDESTRUCT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91B8C0)
+#define RPG_GAMECORE_PROPDESTRUCT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF85AA0)
+#define RPG_GAMECORE_PROPDESTRUCT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF85AD0)
+#define RPG_GAMECORE_PROPDESTRUCT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF85920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDestruct_TypeDefinitionIndex = 22066;
+	inline static constexpr unsigned int PropDestruct_TypeDefinitionIndex = 22471;
 
 	class PropDestruct : public ::RPG::GameCore::TaskConfig
 	{

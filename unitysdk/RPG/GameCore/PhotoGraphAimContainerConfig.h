@@ -9,12 +9,12 @@ namespace RPG::GameCore { class PhotoGraphTipRangeConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E0F00)
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E0980)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4F9B0)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE4F430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAimContainerConfig_TypeDefinitionIndex = 21640;
+	inline static constexpr unsigned int PhotoGraphAimContainerConfig_TypeDefinitionIndex = 22028;
 
 	class PhotoGraphAimContainerConfig : public ::RPG::GameCore::JsonConfig
 	{

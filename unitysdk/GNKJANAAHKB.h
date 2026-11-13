@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableRootMotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNKJANAAHKB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B09680)
-#define GNKJANAAHKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B096B0)
+#define GNKJANAAHKB_CTOR_OFFSET UNITYSDK_OFFSET(0x18799600)
+#define GNKJANAAHKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18799630)
 
-inline static constexpr unsigned int GNKJANAAHKB_TypeDefinitionIndex = 55877;
+inline static constexpr unsigned int GNKJANAAHKB_TypeDefinitionIndex = 57080;
 
 	class GNKJANAAHKB
 	{

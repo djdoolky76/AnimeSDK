@@ -7,32 +7,32 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AetherDivideChallengeListRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A4D90)
-#define RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3A4840)
+#define RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E905B90)
+#define RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E905640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideChallengeListRow_TypeDefinitionIndex = 10914;
+	inline static constexpr unsigned int AetherDivideChallengeListRow_TypeDefinitionIndex = 10930;
 
 	class AetherDivideChallengeListRow : public ::System::Object
 	{
 	public:
-		::System::String* OpponentImagePath; // 0x10
-		::System::String* OpponentImageIconPath; // 0x18
-		::System::String* VersusImagePath; // 0x20
-		::System::String* OpponentPrefabPath; // 0x28
-		::System::UInt32 ID; // 0x30
+		::System::String* OpponentImageIconPath; // 0x10
+		::System::String* OpponentImagePath; // 0x18
+		::System::String* OpponentPrefabPath; // 0x20
+		::System::String* VersusImagePath; // 0x28
+		::System::UInt32 Rank; // 0x30
 		::System::UInt32 MazeBuffID; // 0x34
 		::RPG::Client::TextID Signature; // 0x38
-		::System::UInt32 GroupID; // 0x48
-		::System::UInt32 OpponentStrength; // 0x4C
-		::RPG::Client::TextID OpponentName; // 0x50
-		::System::UInt32 EventID; // 0x60
-		::System::UInt32 Rank; // 0x64
-		::RPG::GameCore::AetherDivideChallengeType ChallengeType; // 0x68
-		::System::UInt32 MissionID; // 0x6C
-		::System::UInt32 RewardID; // 0x70
-		::System::UInt32 BattleAreaID; // 0x74
+		::System::UInt32 ID; // 0x48
+		::System::UInt32 RewardID; // 0x4C
+		::System::UInt32 GroupID; // 0x50
+		::System::UInt32 MissionID; // 0x54
+		::System::UInt32 OpponentStrength; // 0x58
+		::RPG::GameCore::AetherDivideChallengeType ChallengeType; // 0x5C
+		::System::UInt32 BattleAreaID; // 0x60
+		::System::UInt32 EventID; // 0x64
+		::RPG::Client::TextID OpponentName; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW_CTOR_OFFSET))(this);

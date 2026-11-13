@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KCEFGDCEJMD;
 
-#define PCEJNOLBNHI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C976BC0)
-#define PCEJNOLBNHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C976C40)
+#define PCEJNOLBNHI_CLEAR_OFFSET UNITYSDK_OFFSET(0x17678950)
+#define PCEJNOLBNHI_CTOR_OFFSET UNITYSDK_OFFSET(0x176789B0)
 
-inline static constexpr unsigned int PCEJNOLBNHI_TypeDefinitionIndex = 43517;
+inline static constexpr unsigned int PCEJNOLBNHI_TypeDefinitionIndex = 44499;
 
 	class PCEJNOLBNHI : public ::System::Object
 	{

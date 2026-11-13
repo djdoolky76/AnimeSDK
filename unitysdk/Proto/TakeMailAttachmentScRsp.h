@@ -14,58 +14,58 @@ namespace Proto { class TakeMailAttachmentScRsp; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_TAKEMAILATTACHMENTSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFEA2B0)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFEA730)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFE9C40)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFE9AE0)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE9A50)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFE9D00)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFE9CD0)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFE9F00)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1DFE9CB0)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_FAILMAILLIST_OFFSET UNITYSDK_OFFSET(0x1DFE9C70)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFE9A10)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFE9C80)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_SUCCMAILIDLIST_OFFSET UNITYSDK_OFFSET(0x1DFE9CA0)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFEA590)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFEA460)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFE9A40)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_SET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1DFE9CC0)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFE9C90)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFEA0B0)
-#define PROTO_TAKEMAILATTACHMENTSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFEA110)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x20222DB0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_CCTOR_OFFSET UNITYSDK_OFFSET(0x202231D0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x20222700)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x202225A0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_CTOR_OFFSET UNITYSDK_OFFSET(0x20222510)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x202227C0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x20222790)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x202229C0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x20222730)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_FAILMAILLIST_OFFSET UNITYSDK_OFFSET(0x20222780)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x202224D0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x20222750)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_GET_SUCCMAILIDLIST_OFFSET UNITYSDK_OFFSET(0x20222770)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x20223040)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x20222F20)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x20222500)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_SET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x20222740)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x20222760)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20222B90)
+#define PROTO_TAKEMAILATTACHMENTSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x20222BF0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int TakeMailAttachmentScRsp_TypeDefinitionIndex = 30500;
+	inline static constexpr unsigned int TakeMailAttachmentScRsp_TypeDefinitionIndex = 31406;
 
 	class TakeMailAttachmentScRsp : public ::System::Object
 	{
 	public:
-		::Proto::ItemList* attachment_; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* succMailIdList_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* succMailIdList_; // 0x10
+		::Proto::ItemList* attachment_; // 0x18
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
 		::Google::Protobuf::Collections::RepeatedField_1<::KNPNAHPHNJK*>* failMailList_; // 0x28
 		::System::UInt32 retcode_; // 0x30
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_succMailIdList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x28B20);
+		}
+
 		static ::Google::Protobuf::FieldCodec_1<::KNPNAHPHNJK*>** StaticGet__repeated_failMailList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::KNPNAHPHNJK*>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x18640);
+			return (::Google::Protobuf::FieldCodec_1<::KNPNAHPHNJK*>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x28B28);
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::Proto::TakeMailAttachmentScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::TakeMailAttachmentScRsp*>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x18648);
+			return (::Google::Protobuf::MessageParser_1<::Proto::TakeMailAttachmentScRsp*>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x28B30);
 		}
 
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_succMailIdList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x18650);
-		}
-
-		// static const ::System::Object FailMailListFieldNumber; // 0x0
+		// static const ::System::Object AttachmentFieldNumber; // 0x0
 		// static const ::System::Object RetcodeFieldNumber; // 0x0
 		// static const ::System::Object SuccMailIdListFieldNumber; // 0x0
-		// static const ::System::Object AttachmentFieldNumber; // 0x0
+		// static const ::System::Object FailMailListFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_CTOR_OFFSET))(this);
@@ -96,9 +96,14 @@ namespace Proto
 			return ((::Proto::TakeMailAttachmentScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::KNPNAHPHNJK*>* get_FailMailList()
+		::Proto::ItemList* get_Attachment()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::KNPNAHPHNJK*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_GET_FAILMAILLIST_OFFSET))(this);
+			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_GET_ATTACHMENT_OFFSET))(this);
+		}
+
+		::System::Void set_Attachment(::Proto::ItemList* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_SET_ATTACHMENT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Retcode()
@@ -116,14 +121,9 @@ namespace Proto
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_GET_SUCCMAILIDLIST_OFFSET))(this);
 		}
 
-		::Proto::ItemList* get_Attachment()
+		::Google::Protobuf::Collections::RepeatedField_1<::KNPNAHPHNJK*>* get_FailMailList()
 		{
-			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_GET_ATTACHMENT_OFFSET))(this);
-		}
-
-		::System::Void set_Attachment(::Proto::ItemList* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_SET_ATTACHMENT_OFFSET))(this, a1);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::KNPNAHPHNJK*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_GET_FAILMAILLIST_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

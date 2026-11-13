@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int WeakDictionary_2_TypeDefinitionIndex = 38691;
+	inline static constexpr unsigned int WeakDictionary_2_TypeDefinitionIndex = 39620;
 
 	template <typename T1, typename T2>
 	class WeakDictionary_2 : public ::System::Object

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JPDOEEEPCDF_StatisticPieceType_TypeDefinitionIndex = 76583;
+inline static constexpr unsigned int JPDOEEEPCDF_StatisticPieceType_TypeDefinitionIndex = 78914;
 
 	enum class JPDOEEEPCDF_StatisticPieceType : ::System::Int32
 	{

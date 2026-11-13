@@ -3,9 +3,9 @@
 #include "unitysdk/GHADLBDBHNA.h"
 namespace System { class String; }
 
-#define NCEBAMHOOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C758230)
+#define NCEBAMHOOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x16098BB0)
 
-inline static constexpr unsigned int NCEBAMHOOJM_TypeDefinitionIndex = 36868;
+inline static constexpr unsigned int NCEBAMHOOJM_TypeDefinitionIndex = 37796;
 
 	class NCEBAMHOOJM : public ::GHADLBDBHNA
 	{

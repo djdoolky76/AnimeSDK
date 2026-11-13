@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define PHIAOLOAGHH_CTOR_OFFSET UNITYSDK_OFFSET(0xC244590)
+#define PHIAOLOAGHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9AD980)
 
-inline static constexpr unsigned int PHIAOLOAGHH_TypeDefinitionIndex = 48470;
+inline static constexpr unsigned int PHIAOLOAGHH_TypeDefinitionIndex = 49511;
 
 	class PHIAOLOAGHH : public ::UnityEngine::Playables::PlayableBehaviour
 	{

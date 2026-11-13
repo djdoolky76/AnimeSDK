@@ -4,18 +4,18 @@
 class PKENAGKIECB;
 namespace System { class Object; }
 
-#define PKENAGKIECB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF5BE70)
-#define PKENAGKIECB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF5BEA0)
-#define PKENAGKIECB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF5BEB0)
+#define PKENAGKIECB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F497340)
+#define PKENAGKIECB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F497370)
+#define PKENAGKIECB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F497380)
 
-inline static constexpr unsigned int PKENAGKIECB___c_TypeDefinitionIndex = 27880;
+inline static constexpr unsigned int PKENAGKIECB___c_TypeDefinitionIndex = 28470;
 
 	class PKENAGKIECB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39440);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41910);
 		}
 
 		static ::System::Void _cctor()

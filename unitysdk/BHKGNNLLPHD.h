@@ -4,23 +4,23 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 
-#define BHKGNNLLPHD_CTOR_OFFSET UNITYSDK_OFFSET(0xB489EC0)
-#define BHKGNNLLPHD_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB489C90)
-#define BHKGNNLLPHD_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB489CD0)
-#define BHKGNNLLPHD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB489960)
-#define BHKGNNLLPHD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB489970)
+#define BHKGNNLLPHD_CTOR_OFFSET UNITYSDK_OFFSET(0x151FC420)
+#define BHKGNNLLPHD_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x151FC1F0)
+#define BHKGNNLLPHD_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x151FC230)
+#define BHKGNNLLPHD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x151FBEC0)
+#define BHKGNNLLPHD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x151FBED0)
 
-inline static constexpr unsigned int BHKGNNLLPHD_TypeDefinitionIndex = 56147;
+inline static constexpr unsigned int BHKGNNLLPHD_TypeDefinitionIndex = 57359;
 
 	class BHKGNNLLPHD : public ::DBGDNLLDPFI
 	{
 	public:
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x10
+		::RPG::GameCore::FixPoint KHBBNDBJAFK; // 0x10
+		::System::UInt32 BNCODJLHDMN; // 0x18
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint KHBBNDBJAFK; // 0x18
-		::System::UInt32 BNCODJLHDMN; // 0x20
-		::System::UInt32 AIMGACMOMDD; // 0x24
-		::RPG::GameCore::FixPoint IFLBAAABKAI; // 0x28
+		::RPG::GameCore::FixPoint IFLBAAABKAI; // 0x20
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x28
+		::System::UInt32 AIMGACMOMDD; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHKGNNLLPHD_CTOR_OFFSET))(this);

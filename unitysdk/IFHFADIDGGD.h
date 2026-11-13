@@ -4,17 +4,18 @@
 class FCOEMCEDLNL;
 class IFHFADIDGGD;
 
-#define IFHFADIDGGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC4560)
-#define IFHFADIDGGD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEC4570)
-#define IFHFADIDGGD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEC4520)
+#define IFHFADIDGGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BF6D0)
+#define IFHFADIDGGD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6BF6E0)
+#define IFHFADIDGGD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6BF690)
 
-inline static constexpr unsigned int IFHFADIDGGD_TypeDefinitionIndex = 23733;
+inline static constexpr unsigned int IFHFADIDGGD_TypeDefinitionIndex = 24189;
 
 	class IFHFADIDGGD : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::Single PAPLHBDJLMM; // 0x18
-		::System::Boolean EKGDOELGLFK; // 0x1C
+		::System::Boolean EKGDOELGLFK; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Single PAPLHBDJLMM; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFHFADIDGGD_CTOR_OFFSET))(this);

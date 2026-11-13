@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FreeStyleCharacterInfoConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C65C0)
-#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6C6480)
+#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED58E50)
+#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED58D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleCharacterInfoConfigRow_TypeDefinitionIndex = 13301;
+	inline static constexpr unsigned int FreeStyleCharacterInfoConfigRow_TypeDefinitionIndex = 13373;
 
 	class FreeStyleCharacterInfoConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* FreeStyleCharacterID; // 0x10
-		::System::UInt32 AvatarFlagID; // 0x18
-		::System::UInt32 AvatarBodyID; // 0x1C
+		::System::UInt32 AvatarBodyID; // 0x18
+		::System::UInt32 AvatarFlagID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_CTOR_OFFSET))(this);

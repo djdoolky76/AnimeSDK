@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattlePerformConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_BATTLEPERFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D436F30)
-#define RPG_GAMECORE_BATTLEPERFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D436E00)
+#define RPG_GAMECORE_BATTLEPERFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C319FC0)
+#define RPG_GAMECORE_BATTLEPERFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C319E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformConfig_TypeDefinitionIndex = 18144;
+	inline static constexpr unsigned int BattlePerformConfig_TypeDefinitionIndex = 18306;
 
 	class BattlePerformConfig : public ::RPG::GameCore::JsonConfig
 	{

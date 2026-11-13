@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ColliderConfig; }
 namespace RPG::GameCore { class LevelNPCStillConfigData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D78B320)
-#define RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D78B140)
+#define RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93C9B0)
+#define RPG_GAMECORE_LEVELNPCSTILLCONFIGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93C7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCStillConfigData_TypeDefinitionIndex = 17267;
+	inline static constexpr unsigned int LevelNPCStillConfigData_TypeDefinitionIndex = 17435;
 
 	class LevelNPCStillConfigData : public ::RPG::GameCore::JsonConfig
 	{

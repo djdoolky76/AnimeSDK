@@ -6,21 +6,21 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class SetFlipperLightDeviceFollowPlayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GHHJPHAOIPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15A15AE0)
-#define GHHJPHAOIPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A15E30)
-#define GHHJPHAOIPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A15B60)
-#define GHHJPHAOIPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A15E70)
-#define GHHJPHAOIPM_TICK_OFFSET UNITYSDK_OFFSET(0x15A15F70)
+#define GHHJPHAOIPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BF1C0)
+#define GHHJPHAOIPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B4BF510)
+#define GHHJPHAOIPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4BF240)
+#define GHHJPHAOIPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B4BF550)
+#define GHHJPHAOIPM_TICK_OFFSET UNITYSDK_OFFSET(0x1B4BF650)
 
-inline static constexpr unsigned int GHHJPHAOIPM_TypeDefinitionIndex = 52772;
+inline static constexpr unsigned int GHHJPHAOIPM_TypeDefinitionIndex = 53916;
 
 	class GHHJPHAOIPM : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::SetFlipperLightDeviceFollowPlayer* OFKGLJOAMLD; // 0x18
 		::RPG::Client::Promises::Promise* BCFFALPHNMN; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::KFELGAIGHAP* KKFFHMEJAPL; // 0x30
+		::KFELGAIGHAP* KKFFHMEJAPL; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer*))((::PBYTE)hIl2Cpp + GHHJPHAOIPM_CTOR_OFFSET))(this, a1, a2);

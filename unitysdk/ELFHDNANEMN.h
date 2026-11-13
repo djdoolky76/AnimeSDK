@@ -3,7 +3,7 @@
 class LIOHJLDFBKF;
 namespace RPG::GameCore { class LittleGameBillboardConfig; }
 
-inline static constexpr unsigned int ELFHDNANEMN_TypeDefinitionIndex = 42001;
+inline static constexpr unsigned int ELFHDNANEMN_TypeDefinitionIndex = 42976;
 
 	struct alignas(8) ELFHDNANEMN
 	{

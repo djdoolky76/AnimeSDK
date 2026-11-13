@@ -4,12 +4,12 @@
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::GameCore { class PropComponent; }
 
-#define RPG_GAMECORE_PROPCOMPONENT___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE7137F0)
-#define RPG_GAMECORE_PROPCOMPONENT___C__DISPLAYCLASS5_0__INITPUZZLE_B__0_OFFSET UNITYSDK_OFFSET(0xE727880)
+#define RPG_GAMECORE_PROPCOMPONENT___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19277940)
+#define RPG_GAMECORE_PROPCOMPONENT___C__DISPLAYCLASS5_0__INITPUZZLE_B__0_OFFSET UNITYSDK_OFFSET(0x1928B840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropComponent___c__DisplayClass5_0_TypeDefinitionIndex = 57371;
+	inline static constexpr unsigned int PropComponent___c__DisplayClass5_0_TypeDefinitionIndex = 58599;
 
 	class PropComponent___c__DisplayClass5_0 : public ::System::Object
 	{

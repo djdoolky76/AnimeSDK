@@ -6,14 +6,14 @@ namespace UnityEngine::U2D { class SpriteAtlas; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Image___O_TypeDefinitionIndex = 6737;
+	inline static constexpr unsigned int Image___O_TypeDefinitionIndex = 6748;
 
 	class Image___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>** StaticGet__0___RebuildImage()
 		{
-			return (::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>**)UnitySDK::FromName("UnityEngine.UI", "<>O")->GetStaticField(0x3DD50);
+			return (::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>**)UnitySDK::FromName("UnityEngine.UI", "<>O")->GetStaticField(0x2E3B0);
 		}
 
 	};

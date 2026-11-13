@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class GetWormCompassResult; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_GETWORMCOMPASSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F05D0)
-#define RPG_GAMECORE_GETWORMCOMPASSRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F0600)
-#define RPG_GAMECORE_GETWORMCOMPASSRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F0580)
+#define RPG_GAMECORE_GETWORMCOMPASSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED82EF0)
+#define RPG_GAMECORE_GETWORMCOMPASSRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED82F20)
+#define RPG_GAMECORE_GETWORMCOMPASSRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED82EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GetWormCompassResult_TypeDefinitionIndex = 22165;
+	inline static constexpr unsigned int GetWormCompassResult_TypeDefinitionIndex = 22570;
 
 	class GetWormCompassResult : public ::RPG::GameCore::TaskConfig
 	{

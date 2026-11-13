@@ -3,10 +3,10 @@
 class BMDKIBJJAPP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OEHJAMKIGCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE26B00)
-#define OEHJAMKIGCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE26B30)
+#define OEHJAMKIGCM_CTOR_OFFSET UNITYSDK_OFFSET(0x17654290)
+#define OEHJAMKIGCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x176542C0)
 
-inline static constexpr unsigned int OEHJAMKIGCM_TypeDefinitionIndex = 52848;
+inline static constexpr unsigned int OEHJAMKIGCM_TypeDefinitionIndex = 54003;
 
 	class OEHJAMKIGCM
 	{

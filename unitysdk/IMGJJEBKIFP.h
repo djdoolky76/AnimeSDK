@@ -4,10 +4,10 @@
 class EGDNEAMLDDG;
 namespace RPG::AvatarSystem { class AvatarSkin; }
 
-#define IMGJJEBKIFP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x164C6910)
-#define IMGJJEBKIFP_CTOR_OFFSET UNITYSDK_OFFSET(0x164C6A10)
+#define IMGJJEBKIFP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1A5D3090)
+#define IMGJJEBKIFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D3190)
 
-inline static constexpr unsigned int IMGJJEBKIFP_TypeDefinitionIndex = 62616;
+inline static constexpr unsigned int IMGJJEBKIFP_TypeDefinitionIndex = 64040;
 
 	class IMGJJEBKIFP : public ::System::Object
 	{

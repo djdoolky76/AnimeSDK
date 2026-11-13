@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCurrentSkillName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKFJAPHKLBC_CTOR_OFFSET UNITYSDK_OFFSET(0x15A8A960)
-#define GKFJAPHKLBC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A8A990)
+#define GKFJAPHKLBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8D1A70)
+#define GKFJAPHKLBC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A8D1AA0)
 
-inline static constexpr unsigned int GKFJAPHKLBC_TypeDefinitionIndex = 54598;
+inline static constexpr unsigned int GKFJAPHKLBC_TypeDefinitionIndex = 55763;
 
 	class GKFJAPHKLBC
 	{

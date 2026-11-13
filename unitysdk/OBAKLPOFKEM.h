@@ -4,10 +4,10 @@
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionPropertyData; }
 
-#define OBAKLPOFKEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2B260)
-#define OBAKLPOFKEM_EDGLFNBMGPD_OFFSET UNITYSDK_OFFSET(0xBD2B270)
+#define OBAKLPOFKEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB71B50)
+#define OBAKLPOFKEM_EDGLFNBMGPD_OFFSET UNITYSDK_OFFSET(0x1AB71B60)
 
-inline static constexpr unsigned int OBAKLPOFKEM_TypeDefinitionIndex = 75115;
+inline static constexpr unsigned int OBAKLPOFKEM_TypeDefinitionIndex = 77442;
 
 	class OBAKLPOFKEM : public ::OLBAIJKEIBM
 	{

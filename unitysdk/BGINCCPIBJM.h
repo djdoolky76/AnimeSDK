@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AudioSetRTPCValueByRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGINCCPIBJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB1881F0)
-#define BGINCCPIBJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB188220)
+#define BGINCCPIBJM_CTOR_OFFSET UNITYSDK_OFFSET(0x151C6CB0)
+#define BGINCCPIBJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151C6CE0)
 
-inline static constexpr unsigned int BGINCCPIBJM_TypeDefinitionIndex = 56344;
+inline static constexpr unsigned int BGINCCPIBJM_TypeDefinitionIndex = 57558;
 
 	class BGINCCPIBJM
 	{

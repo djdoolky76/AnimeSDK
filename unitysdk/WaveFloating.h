@@ -7,10 +7,10 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define WAVEFLOATING_CTOR_OFFSET UNITYSDK_OFFSET(0xE9ED000)
-#define WAVEFLOATING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE9ECFB0)
+#define WAVEFLOATING_CTOR_OFFSET UNITYSDK_OFFSET(0x10EFFB50)
+#define WAVEFLOATING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x10EFFB00)
 
-inline static constexpr unsigned int WaveFloating_TypeDefinitionIndex = 47487;
+inline static constexpr unsigned int WaveFloating_TypeDefinitionIndex = 48516;
 
 	class WaveFloating
 	{

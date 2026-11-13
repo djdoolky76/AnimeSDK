@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByMotionHitColliderWall; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FOMGJFBGFDM_CTOR_OFFSET UNITYSDK_OFFSET(0x158EFEB0)
-#define FOMGJFBGFDM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158EFEE0)
+#define FOMGJFBGFDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1875AD30)
+#define FOMGJFBGFDM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1875AD60)
 
-inline static constexpr unsigned int FOMGJFBGFDM_TypeDefinitionIndex = 54472;
+inline static constexpr unsigned int FOMGJFBGFDM_TypeDefinitionIndex = 55636;
 
 	class FOMGJFBGFDM
 	{

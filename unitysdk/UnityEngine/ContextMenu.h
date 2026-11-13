@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define UNITYENGINE_CONTEXTMENU_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F3AEEE0)
-#define UNITYENGINE_CONTEXTMENU_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F3AEEF0)
-#define UNITYENGINE_CONTEXTMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AEED0)
+#define UNITYENGINE_CONTEXTMENU_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F708D30)
+#define UNITYENGINE_CONTEXTMENU_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F708D40)
+#define UNITYENGINE_CONTEXTMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1F708D20)
 
 namespace UnityEngine
 {
@@ -15,8 +15,9 @@ namespace UnityEngine
 	{
 	public:
 		::System::String* menuItem; // 0x10
-		::System::Int32 priority; // 0x18
-		::System::Boolean validate; // 0x1C
+		::System::Boolean validate; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Int32 priority; // 0x1C
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTEXTMENU_CTOR_OFFSET))(this, a1);

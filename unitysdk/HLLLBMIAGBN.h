@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int HLLLBMIAGBN_TypeDefinitionIndex = 57364;
+inline static constexpr unsigned int HLLLBMIAGBN_TypeDefinitionIndex = 58592;
 
 	struct alignas(4) HLLLBMIAGBN
 	{

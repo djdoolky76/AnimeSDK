@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class SimpRTXGroup; }
 
-#define RPG_CLIENT_SIMPRTXGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF1C10)
+#define RPG_CLIENT_SIMPRTXGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x3E72F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXGroupData_TypeDefinitionIndex = 70187;
+	inline static constexpr unsigned int SimpRTXGroupData_TypeDefinitionIndex = 72153;
 
 	struct alignas(4) SimpRTXGroupData
 	{

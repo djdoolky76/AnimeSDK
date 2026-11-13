@@ -3,17 +3,17 @@
 #include "unitysdk/EFNJLACKEDH.h"
 class BKHHFIJCHEP;
 
-#define PBDKALPDLHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFDDA10)
-#define PBDKALPDLHI_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0xBFDDAC0)
-#define PBDKALPDLHI_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBFDDA20)
+#define PBDKALPDLHI_CTOR_OFFSET UNITYSDK_OFFSET(0x18AF6080)
+#define PBDKALPDLHI_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0x18AF6130)
+#define PBDKALPDLHI_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x18AF6090)
 
-inline static constexpr unsigned int PBDKALPDLHI_TypeDefinitionIndex = 60367;
+inline static constexpr unsigned int PBDKALPDLHI_TypeDefinitionIndex = 61652;
 
 	class PBDKALPDLHI : public ::EFNJLACKEDH
 	{
 	public:
-		::System::Boolean BECBGNIHODM; // 0x18
-		::System::Boolean JDPGFIBLFOP; // 0x19
+		::System::Boolean JDPGFIBLFOP; // 0x18
+		::System::Boolean BECBGNIHODM; // 0x19
 		::System::Void _ctor(::BKHHFIJCHEP* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::BKHHFIJCHEP*, ::System::Boolean))((::PBYTE)hIl2Cpp + PBDKALPDLHI_CTOR_OFFSET))(this, a1, a2);

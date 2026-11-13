@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetHitBoxActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LFDKPGPHHJA_CTOR_OFFSET UNITYSDK_OFFSET(0xB661540)
-#define LFDKPGPHHJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB661570)
+#define LFDKPGPHHJA_CTOR_OFFSET UNITYSDK_OFFSET(0x18C468A0)
+#define LFDKPGPHHJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18C468D0)
 
-inline static constexpr unsigned int LFDKPGPHHJA_TypeDefinitionIndex = 53167;
+inline static constexpr unsigned int LFDKPGPHHJA_TypeDefinitionIndex = 54329;
 
 	class LFDKPGPHHJA
 	{

@@ -4,12 +4,12 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::Client::Prop { class AdjustContainer_ContainerController; }
 
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC0A960)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS8_0___TRYMOVECONTAINER_B__0_OFFSET UNITYSDK_OFFSET(0xDC0C010)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19BEE190)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS8_0___TRYMOVECONTAINER_B__0_OFFSET UNITYSDK_OFFSET(0x19BEF860)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdjustContainer_ContainerController___c__DisplayClass8_0_TypeDefinitionIndex = 78197;
+	inline static constexpr unsigned int AdjustContainer_ContainerController___c__DisplayClass8_0_TypeDefinitionIndex = 80932;
 
 	class AdjustContainer_ContainerController___c__DisplayClass8_0 : public ::System::Object
 	{

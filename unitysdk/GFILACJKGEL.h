@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GFILACJKGEL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE0DA70)
-#define GFILACJKGEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE0E650)
-#define GFILACJKGEL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE0DE10)
-#define GFILACJKGEL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE0DAB0)
-#define GFILACJKGEL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE0E350)
-#define GFILACJKGEL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE0DEB0)
-#define GFILACJKGEL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE0DF00)
-#define GFILACJKGEL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE0DCE0)
-#define GFILACJKGEL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE0E2F0)
-#define GFILACJKGEL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE0E4C0)
-#define GFILACJKGEL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE0DD70)
-#define GFILACJKGEL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE0E270)
+#define GFILACJKGEL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E62F5F0)
+#define GFILACJKGEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6301D0)
+#define GFILACJKGEL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E62F990)
+#define GFILACJKGEL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E62F630)
+#define GFILACJKGEL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E62FED0)
+#define GFILACJKGEL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E62FA30)
+#define GFILACJKGEL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E62FA80)
+#define GFILACJKGEL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E62F860)
+#define GFILACJKGEL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E62FE70)
+#define GFILACJKGEL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E630040)
+#define GFILACJKGEL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E62F8F0)
+#define GFILACJKGEL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E62FDF0)
 
-inline static constexpr unsigned int GFILACJKGEL_TypeDefinitionIndex = 15418;
+inline static constexpr unsigned int GFILACJKGEL_TypeDefinitionIndex = 15575;
 
 	class GFILACJKGEL : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GuideVideoConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GuideVideoConfigRow*>**)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0x15350);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0x15358);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0xEFE0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GuideVideoConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GuideVideoConfigRow*>**)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0xEFE8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0x15360);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0x4820);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0xEFF0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0x4821);
+			return (::System::Boolean*)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0x3130);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "GFILACJKGEL")->GetStaticField(0x3131);
 		}
 
 		static ::System::Void _cctor()

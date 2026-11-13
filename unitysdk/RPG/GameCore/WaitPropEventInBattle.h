@@ -6,13 +6,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitPropEventInBattle; }
 
-#define RPG_GAMECORE_WAITPROPEVENTINBATTLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC71500)
-#define RPG_GAMECORE_WAITPROPEVENTINBATTLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC71510)
-#define RPG_GAMECORE_WAITPROPEVENTINBATTLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC714C0)
+#define RPG_GAMECORE_WAITPROPEVENTINBATTLE_CTOR_OFFSET UNITYSDK_OFFSET(0x207FF000)
+#define RPG_GAMECORE_WAITPROPEVENTINBATTLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x207FF010)
+#define RPG_GAMECORE_WAITPROPEVENTINBATTLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207FEFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropEventInBattle_TypeDefinitionIndex = 22293;
+	inline static constexpr unsigned int WaitPropEventInBattle_TypeDefinitionIndex = 22698;
 
 	class WaitPropEventInBattle : public ::RPG::GameCore::AdvWaitingEventBase
 	{

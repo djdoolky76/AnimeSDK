@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class DrinkMakerController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EFJIJODKGCC_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4F620)
-#define EFJIJODKGCC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A4F630)
-#define EFJIJODKGCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A4F6D0)
-#define EFJIJODKGCC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A4F720)
-#define EFJIJODKGCC_TICK_OFFSET UNITYSDK_OFFSET(0x13A4F670)
+#define EFJIJODKGCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A338780)
+#define EFJIJODKGCC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A338790)
+#define EFJIJODKGCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A338830)
+#define EFJIJODKGCC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A338880)
+#define EFJIJODKGCC_TICK_OFFSET UNITYSDK_OFFSET(0x1A3387D0)
 
-inline static constexpr unsigned int EFJIJODKGCC_TypeDefinitionIndex = 52738;
+inline static constexpr unsigned int EFJIJODKGCC_TypeDefinitionIndex = 53882;
 
 	class EFJIJODKGCC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::DrinkMakerController* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::DrinkMakerController* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DrinkMakerController* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::DrinkMakerController*))((::PBYTE)hIl2Cpp + EFJIJODKGCC_CTOR_OFFSET))(this, a1, a2);

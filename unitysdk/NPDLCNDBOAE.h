@@ -6,16 +6,16 @@
 namespace RPG::GameCore { class ByIsInModifierCallback; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPDLCNDBOAE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF3A30)
-#define NPDLCNDBOAE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCF3C30)
+#define NPDLCNDBOAE_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF5530)
+#define NPDLCNDBOAE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19CF5730)
 
-inline static constexpr unsigned int NPDLCNDBOAE_TypeDefinitionIndex = 54668;
+inline static constexpr unsigned int NPDLCNDBOAE_TypeDefinitionIndex = 55834;
 
 	class NPDLCNDBOAE
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* NHBCLNHKCHA; // 0x28
-		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* APAKIPKCAOA; // 0x30
+		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* APAKIPKCAOA; // 0x28
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* NHBCLNHKCHA; // 0x30
 		::Il2CppArray<::RPG::GameCore::StringHash>* GHBNDDNICLA; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByIsInModifierCallback* a2)
 		{

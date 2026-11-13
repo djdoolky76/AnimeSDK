@@ -3,10 +3,10 @@
 class MDCEMPKNOKN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNIDFBBAMBM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B055E0)
-#define GNIDFBBAMBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B05610)
+#define GNIDFBBAMBM_CTOR_OFFSET UNITYSDK_OFFSET(0x18792E90)
+#define GNIDFBBAMBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18792EC0)
 
-inline static constexpr unsigned int GNIDFBBAMBM_TypeDefinitionIndex = 54884;
+inline static constexpr unsigned int GNIDFBBAMBM_TypeDefinitionIndex = 56055;
 
 	class GNIDFBBAMBM
 	{

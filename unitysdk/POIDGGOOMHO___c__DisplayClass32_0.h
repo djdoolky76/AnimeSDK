@@ -4,10 +4,10 @@
 class POIDGGOOMHO;
 namespace RPG::GameCore { class GameEntity; }
 
-#define POIDGGOOMHO___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC363040)
-#define POIDGGOOMHO___C__DISPLAYCLASS32_0___SHOW_B__0_OFFSET UNITYSDK_OFFSET(0xC363FB0)
+#define POIDGGOOMHO___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B88D0D0)
+#define POIDGGOOMHO___C__DISPLAYCLASS32_0___SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B88E060)
 
-inline static constexpr unsigned int POIDGGOOMHO___c__DisplayClass32_0_TypeDefinitionIndex = 80237;
+inline static constexpr unsigned int POIDGGOOMHO___c__DisplayClass32_0_TypeDefinitionIndex = 83014;
 
 	class POIDGGOOMHO___c__DisplayClass32_0 : public ::System::Object
 	{

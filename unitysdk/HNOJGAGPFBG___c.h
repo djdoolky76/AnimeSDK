@@ -4,18 +4,18 @@
 class HNOJGAGPFBG;
 namespace System { class Object; }
 
-#define HNOJGAGPFBG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5B66D0)
-#define HNOJGAGPFBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B6700)
-#define HNOJGAGPFBG___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E5B6710)
+#define HNOJGAGPFBG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200384E0)
+#define HNOJGAGPFBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20038510)
+#define HNOJGAGPFBG___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x20038520)
 
-inline static constexpr unsigned int HNOJGAGPFBG___c_TypeDefinitionIndex = 28653;
+inline static constexpr unsigned int HNOJGAGPFBG___c_TypeDefinitionIndex = 29243;
 
 	class HNOJGAGPFBG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C200);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D3D0);
 		}
 
 		static ::System::Void _cctor()

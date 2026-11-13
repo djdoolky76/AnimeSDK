@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingStageWaveRow; }
 
-#define RPG_GAMECORE_CHENLINGSTAGEWAVEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5677E0)
-#define RPG_GAMECORE_CHENLINGSTAGEWAVEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D567630)
+#define RPG_GAMECORE_CHENLINGSTAGEWAVEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F91CF50)
+#define RPG_GAMECORE_CHENLINGSTAGEWAVEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F91CDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingStageWaveRow_TypeDefinitionIndex = 11080;
+	inline static constexpr unsigned int ChenLingStageWaveRow_TypeDefinitionIndex = 11096;
 
 	class ChenLingStageWaveRow : public ::System::Object
 	{

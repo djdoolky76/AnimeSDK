@@ -1,0 +1,138 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GridFightProtoPendingAction.h"
+class CHCHAJIANIM;
+namespace RPG::Client { class GridFightGridMember; }
+namespace RPG::Client { class GridFightTraitConfig; }
+namespace RPG::Client { class IGridFightTraitEffect; }
+namespace RPG::Client { class LuaUIController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F9510)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GETACTIONID_OFFSET UNITYSDK_OFFSET(0x1D3F94C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GETSELECTEDROLEUIDS_OFFSET UNITYSDK_OFFSET(0x1D3FA330)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_EFFECT_OFFSET UNITYSDK_OFFSET(0x1D3FA8B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_OPTIONMEMBERS_OFFSET UNITYSDK_OFFSET(0x1D3FA890)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_SELECTCOUNT_OFFSET UNITYSDK_OFFSET(0x1D3FA7D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0x1D3FA870)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0x1D3FA290)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_TRAITID_OFFSET UNITYSDK_OFFSET(0x1D3FA1F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SELECTMEMBERS_OFFSET UNITYSDK_OFFSET(0x1D3F9D50)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SELECTMEMBER_1_OFFSET UNITYSDK_OFFSET(0x1D3FA0D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SELECTMEMBER_OFFSET UNITYSDK_OFFSET(0x1D3F9C80)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SET_OPTIONMEMBERS_OFFSET UNITYSDK_OFFSET(0x1D3FA8A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0x1D3FA880)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D3F9C20)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION__GETSELECTEDROLEUIDS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D3FA9C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION__ONFINISH_OFFSET UNITYSDK_OFFSET(0x1D3FA770)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION__ONSTART_OFFSET UNITYSDK_OFFSET(0x1D3FA670)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION__UPDATESELECTEDROLES_OFFSET UNITYSDK_OFFSET(0x1D3F96B0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightTraitEffectMemberSelectAction_TypeDefinitionIndex = 66719;
+
+	class GridFightTraitEffectMemberSelectAction : public ::RPG::Client::GridFightProtoPendingAction
+	{
+	public:
+		::RPG::Client::LuaUIController* _HandleUI; // 0x20
+		::RPG::Client::GridFightTraitConfig* _TraitConfig_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightGridMember*>* _OptionMembers_k__BackingField; // 0x30
+		::CHCHAJIANIM* _Proto; // 0x38
+		::System::Void _ctor(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GETACTIONID_OFFSET))(this);
+		}
+
+		::System::Void Update(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_UPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Void _UpdateSelectedRoles()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION__UPDATESELECTEDROLES_OFFSET))(this);
+		}
+
+		::System::Void SelectMember(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SELECTMEMBER_OFFSET))(this, a1);
+		}
+
+		::System::Void SelectMember_1(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SELECTMEMBER_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SelectMembers(::System::Collections::Generic::List_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SELECTMEMBERS_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetSelectedRoleUIDs()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GETSELECTEDROLEUIDS_OFFSET))(this);
+		}
+
+		::System::Void _OnStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION__ONSTART_OFFSET))(this);
+		}
+
+		::System::Void _OnFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION__ONFINISH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TraitID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_TRAITID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TraitEffectID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_TRAITEFFECTID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SelectCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_SELECTCOUNT_OFFSET))(this);
+		}
+
+		::RPG::Client::GridFightTraitConfig* get_TraitConfig()
+		{
+			return ((::RPG::Client::GridFightTraitConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_TRAITCONFIG_OFFSET))(this);
+		}
+
+		::System::Void set_TraitConfig(::RPG::Client::GridFightTraitConfig* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SET_TRAITCONFIG_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightGridMember*>* get_OptionMembers()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGridMember*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_OPTIONMEMBERS_OFFSET))(this);
+		}
+
+		::System::Void set_OptionMembers(::System::Collections::Generic::List_1<::RPG::Client::GridFightGridMember*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightGridMember*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_SET_OPTIONMEMBERS_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::IGridFightTraitEffect* get_Effect()
+		{
+			return ((::RPG::Client::IGridFightTraitEffect*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION_GET_EFFECT_OFFSET))(this);
+		}
+
+		::System::Boolean _GetSelectedRoleUIDs_b__7_0(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTMEMBERSELECTACTION__GETSELECTEDROLEUIDS_B__7_0_OFFSET))(this, a1);
+		}
+
+	};
+}

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerUINotify; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERUINOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31C20)
-#define RPG_GAMECORE_TRIGGERUINOTIFY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC31C30)
-#define RPG_GAMECORE_TRIGGERUINOTIFY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC31BF0)
+#define RPG_GAMECORE_TRIGGERUINOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33AE60)
+#define RPG_GAMECORE_TRIGGERUINOTIFY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E33AE70)
+#define RPG_GAMECORE_TRIGGERUINOTIFY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33AE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerUINotify_TypeDefinitionIndex = 22924;
+	inline static constexpr unsigned int TriggerUINotify_TypeDefinitionIndex = 23350;
 
 	class TriggerUINotify : public ::RPG::GameCore::TaskConfig
 	{

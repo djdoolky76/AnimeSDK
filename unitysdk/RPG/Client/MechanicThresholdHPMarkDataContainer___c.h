@@ -5,25 +5,25 @@ namespace RPG::Client { class MechanicThresholdHPMarkData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MECHANICTHRESHOLDHPMARKDATACONTAINER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD6805C0)
-#define RPG_CLIENT_MECHANICTHRESHOLDHPMARKDATACONTAINER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD6805F0)
-#define RPG_CLIENT_MECHANICTHRESHOLDHPMARKDATACONTAINER___C__REFRESH_B__7_1_OFFSET UNITYSDK_OFFSET(0xD680600)
+#define RPG_CLIENT_MECHANICTHRESHOLDHPMARKDATACONTAINER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E91EC40)
+#define RPG_CLIENT_MECHANICTHRESHOLDHPMARKDATACONTAINER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E91EC70)
+#define RPG_CLIENT_MECHANICTHRESHOLDHPMARKDATACONTAINER___C__REFRESH_B__7_1_OFFSET UNITYSDK_OFFSET(0x1E91EC80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MechanicThresholdHPMarkDataContainer___c_TypeDefinitionIndex = 71673;
+	inline static constexpr unsigned int MechanicThresholdHPMarkDataContainer___c_TypeDefinitionIndex = 73662;
 
 	class MechanicThresholdHPMarkDataContainer___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x508E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D150);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::MechanicThresholdHPMarkData*>** StaticGet___9__7_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::MechanicThresholdHPMarkData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x508E8);
+			return (::System::Comparison_1<::RPG::Client::MechanicThresholdHPMarkData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D158);
 		}
 
 		static ::System::Void _cctor()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PONHNPLLKAB_TypeDefinitionIndex = 32818;
+inline static constexpr unsigned int PONHNPLLKAB_TypeDefinitionIndex = 33733;
 
 	enum class PONHNPLLKAB : ::System::Int32
 	{

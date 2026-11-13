@@ -5,10 +5,10 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define MGHKENFHAAC___C__DISPLAYCLASS8_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB9196A0)
-#define MGHKENFHAAC___C__DISPLAYCLASS8_1___REFRESHREPLACETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xB919C00)
+#define MGHKENFHAAC___C__DISPLAYCLASS8_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1B33F640)
+#define MGHKENFHAAC___C__DISPLAYCLASS8_1___REFRESHREPLACETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0x1B33FBA0)
 
-inline static constexpr unsigned int MGHKENFHAAC___c__DisplayClass8_1_TypeDefinitionIndex = 57423;
+inline static constexpr unsigned int MGHKENFHAAC___c__DisplayClass8_1_TypeDefinitionIndex = 58651;
 
 	template <typename T>
 	class MGHKENFHAAC___c__DisplayClass8_1 : public ::System::Object

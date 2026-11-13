@@ -5,23 +5,23 @@ class AGDBDNGEKFP;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DNLECAAMGIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C520DE0)
-#define DNLECAAMGIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C520E20)
-#define DNLECAAMGIC___C___REFRESHATTRIBUTES_B__17_0_OFFSET UNITYSDK_OFFSET(0x1C520E30)
+#define DNLECAAMGIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E783FB0)
+#define DNLECAAMGIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E783FF0)
+#define DNLECAAMGIC___C___REFRESHATTRIBUTES_B__17_0_OFFSET UNITYSDK_OFFSET(0x1E784000)
 
-inline static constexpr unsigned int DNLECAAMGIC___c_TypeDefinitionIndex = 41752;
+inline static constexpr unsigned int DNLECAAMGIC___c_TypeDefinitionIndex = 42727;
 
 	class DNLECAAMGIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20AE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE750);
 		}
 
 		static ::System::Func_2<::AGDBDNGEKFP*, ::System::Single>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::AGDBDNGEKFP*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20AE8);
+			return (::System::Func_2<::AGDBDNGEKFP*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE758);
 		}
 
 		static ::System::Void _cctor()

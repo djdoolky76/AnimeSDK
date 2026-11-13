@@ -6,21 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMiracleEffectRow; }
 
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AE760)
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9AE510)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2077C2B0)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2077C060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 14699;
+	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 14855;
 
 	class RogueMiracleEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::RPG::Client::TextID MiracleDesc; // 0x18
-		::System::UInt32 MiracleEffectID; // 0x28
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID MiracleDynamicHint; // 0x30
+		::RPG::Client::TextID MiracleDynamicHint; // 0x18
+		::RPG::Client::TextID MiracleDesc; // 0x28
+		::System::UInt32 MiracleEffectID; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_CTOR_OFFSET))(this);

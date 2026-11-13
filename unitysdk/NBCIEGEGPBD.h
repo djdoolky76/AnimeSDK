@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StackStatusDesc; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NBCIEGEGPBD_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB7610)
-#define NBCIEGEGPBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB7640)
+#define NBCIEGEGPBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB11260)
+#define NBCIEGEGPBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BB11290)
 
-inline static constexpr unsigned int NBCIEGEGPBD_TypeDefinitionIndex = 55652;
+inline static constexpr unsigned int NBCIEGEGPBD_TypeDefinitionIndex = 56850;
 
 	class NBCIEGEGPBD
 	{

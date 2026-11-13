@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvStartTickFloatValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGINKMIEKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x145174C0)
-#define EGINKMIEKJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x145174F0)
+#define EGINKMIEKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x17C129D0)
+#define EGINKMIEKJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17C12A00)
 
-inline static constexpr unsigned int EGINKMIEKJP_TypeDefinitionIndex = 57892;
+inline static constexpr unsigned int EGINKMIEKJP_TypeDefinitionIndex = 59129;
 
 	class EGINKMIEKJP
 	{

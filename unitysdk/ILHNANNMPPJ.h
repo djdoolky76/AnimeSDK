@@ -5,18 +5,18 @@ class CBEBICGIOAB;
 class OBMNAMNDCCK;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define ILHNANNMPPJ_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x164A6B50)
-#define ILHNANNMPPJ_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x164A6940)
-#define ILHNANNMPPJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x164A6D80)
+#define ILHNANNMPPJ_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x1B598840)
+#define ILHNANNMPPJ_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1B598630)
+#define ILHNANNMPPJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B598A70)
 
-inline static constexpr unsigned int ILHNANNMPPJ_TypeDefinitionIndex = 49410;
+inline static constexpr unsigned int ILHNANNMPPJ_TypeDefinitionIndex = 50486;
 
 	class ILHNANNMPPJ : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Queue_1<::OBMNAMNDCCK*>** StaticGet_MFPNICMCKJG()
 		{
-			return (::System::Collections::Generic::Queue_1<::OBMNAMNDCCK*>**)UnitySDK::FromName("", "ILHNANNMPPJ")->GetStaticField(0x65080);
+			return (::System::Collections::Generic::Queue_1<::OBMNAMNDCCK*>**)UnitySDK::FromName("", "ILHNANNMPPJ")->GetStaticField(0x6AB80);
 		}
 
 		static ::System::Void _cctor()

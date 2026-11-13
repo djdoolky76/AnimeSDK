@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceBatchSpawnState_TypeDefinitionIndex = 54314;
+	inline static constexpr unsigned int RtDefenceBatchSpawnState_TypeDefinitionIndex = 55478;
 
 	enum class RtDefenceBatchSpawnState : ::System::Int32
 	{

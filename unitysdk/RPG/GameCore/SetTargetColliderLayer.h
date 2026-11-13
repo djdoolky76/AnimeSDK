@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetTargetColliderLayer; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA97230)
-#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA97260)
-#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA971E0)
+#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E4890)
+#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9E48C0)
+#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9E4840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetColliderLayer_TypeDefinitionIndex = 22176;
+	inline static constexpr unsigned int SetTargetColliderLayer_TypeDefinitionIndex = 22581;
 
 	class SetTargetColliderLayer : public ::RPG::GameCore::TaskConfig
 	{

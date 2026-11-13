@@ -4,18 +4,18 @@
 class ENDIDPAKMGF;
 namespace System { class Object; }
 
-#define ENDIDPAKMGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2BD550)
-#define ENDIDPAKMGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BD590)
-#define ENDIDPAKMGF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2BD5A0)
+#define ENDIDPAKMGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206E2590)
+#define ENDIDPAKMGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206E25D0)
+#define ENDIDPAKMGF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x206E25E0)
 
-inline static constexpr unsigned int ENDIDPAKMGF___c_TypeDefinitionIndex = 28099;
+inline static constexpr unsigned int ENDIDPAKMGF___c_TypeDefinitionIndex = 28689;
 
 	class ENDIDPAKMGF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x445C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B030);
 		}
 
 		static ::System::Void _cctor()

@@ -4,11 +4,11 @@
 namespace RPG::UINavigation { class UINavigation; }
 namespace System { template <typename T> class Action_1; }
 
-#define CONAIOFALJB___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB8EE0)
-#define CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__1_OFFSET UNITYSDK_OFFSET(0xDCB8F50)
-#define CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__2_OFFSET UNITYSDK_OFFSET(0xDCB8FC0)
+#define CONAIOFALJB___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19169DC0)
+#define CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__1_OFFSET UNITYSDK_OFFSET(0x19169E30)
+#define CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__2_OFFSET UNITYSDK_OFFSET(0x19169EC0)
 
-inline static constexpr unsigned int CONAIOFALJB___c__DisplayClass3_0_TypeDefinitionIndex = 49832;
+inline static constexpr unsigned int CONAIOFALJB___c__DisplayClass3_0_TypeDefinitionIndex = 50880;
 
 	class CONAIOFALJB___c__DisplayClass3_0 : public ::System::Object
 	{

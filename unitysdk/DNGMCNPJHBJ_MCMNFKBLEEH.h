@@ -7,14 +7,13 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DNGMCNPJHBJ_MCMNFKBLEEH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1194EED0)
-#define DNGMCNPJHBJ_MCMNFKBLEEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1194EDD0)
-#define DNGMCNPJHBJ_MCMNFKBLEEH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1194EF10)
-#define DNGMCNPJHBJ_MCMNFKBLEEH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1194EEC0)
+#define DNGMCNPJHBJ_MCMNFKBLEEH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12CC4B80)
+#define DNGMCNPJHBJ_MCMNFKBLEEH_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC4A90)
+#define DNGMCNPJHBJ_MCMNFKBLEEH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12CC4BC0)
+#define DNGMCNPJHBJ_MCMNFKBLEEH_INVOKE_OFFSET UNITYSDK_OFFSET(0x12CC4A30)
 
-inline static constexpr unsigned int DNGMCNPJHBJ_MCMNFKBLEEH_TypeDefinitionIndex = 65311;
+inline static constexpr unsigned int DNGMCNPJHBJ_MCMNFKBLEEH_TypeDefinitionIndex = 67080;
 
 	class DNGMCNPJHBJ_MCMNFKBLEEH : public ::System::MulticastDelegate
 	{
@@ -24,14 +23,14 @@ inline static constexpr unsigned int DNGMCNPJHBJ_MCMNFKBLEEH_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + DNGMCNPJHBJ_MCMNFKBLEEH_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* Invoke(::System::Collections::Generic::List_1<::FMKEJLGKEMH*>* a1, ::DNGMCNPJHBJ* a2)
+		::System::String* Invoke(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::List_1<::FMKEJLGKEMH*>*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + DNGMCNPJHBJ_MCMNFKBLEEH_INVOKE_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + DNGMCNPJHBJ_MCMNFKBLEEH_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::List_1<::FMKEJLGKEMH*>* a1, ::DNGMCNPJHBJ* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+		::System::IAsyncResult* BeginInvoke(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::List_1<::FMKEJLGKEMH*>*, ::DNGMCNPJHBJ*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + DNGMCNPJHBJ_MCMNFKBLEEH_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + DNGMCNPJHBJ_MCMNFKBLEEH_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* EndInvoke(::System::IAsyncResult* a1)

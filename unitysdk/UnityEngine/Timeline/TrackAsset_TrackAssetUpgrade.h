@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackAsset_TrackAssetUpgrade_TypeDefinitionIndex = 38798;
+	inline static constexpr unsigned int TrackAsset_TrackAssetUpgrade_TypeDefinitionIndex = 39727;
 
 	class TrackAsset_TrackAssetUpgrade : public ::System::Object
 	{

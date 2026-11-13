@@ -5,23 +5,23 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define OKDEEDBBFLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBECF380)
-#define OKDEEDBBFLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBECF3B0)
-#define OKDEEDBBFLO___C___CREATEMONSTERHUDBUFFPANEL_B__3_0_OFFSET UNITYSDK_OFFSET(0xBECF3C0)
+#define OKDEEDBBFLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x178721E0)
+#define OKDEEDBBFLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17872210)
+#define OKDEEDBBFLO___C___CREATEMONSTERHUDBUFFPANEL_B__3_0_OFFSET UNITYSDK_OFFSET(0x17872220)
 
-inline static constexpr unsigned int OKDEEDBBFLO___c_TypeDefinitionIndex = 71794;
+inline static constexpr unsigned int OKDEEDBBFLO___c_TypeDefinitionIndex = 73813;
 
 	class OKDEEDBBFLO___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C3E0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C3E8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CA50);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CA58);
 		}
 
 		static ::System::Void _cctor()

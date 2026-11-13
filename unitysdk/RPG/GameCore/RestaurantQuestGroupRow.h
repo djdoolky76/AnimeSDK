@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantQuestGroupRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTQUESTGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9664A0)
-#define RPG_GAMECORE_RESTAURANTQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D966130)
+#define RPG_GAMECORE_RESTAURANTQUESTGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2072A900)
+#define RPG_GAMECORE_RESTAURANTQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2072A590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantQuestGroupRow_TypeDefinitionIndex = 11392;
+	inline static constexpr unsigned int RestaurantQuestGroupRow_TypeDefinitionIndex = 11443;
 
 	class RestaurantQuestGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x18
-		::System::String* IMGPath; // 0x20
+		::System::String* IMGPath; // 0x18
+		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x20
 		::System::UInt32 QuestGroupID; // 0x28
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Name; // 0x30

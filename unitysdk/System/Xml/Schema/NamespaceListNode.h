@@ -9,11 +9,11 @@ namespace System::Xml::Schema { class NamespaceList; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1EE939F0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE931A0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1EE931E0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GETRESOLVEDSYMBOLS_OFFSET UNITYSDK_OFFSET(0x1EE931B0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1EE93A40)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1D2264B0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D225C60)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1D225CA0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GETRESOLVEDSYMBOLS_OFFSET UNITYSDK_OFFSET(0x1D225C70)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1D226500)
 
 namespace System::Xml::Schema
 {
@@ -22,8 +22,8 @@ namespace System::Xml::Schema
 	class NamespaceListNode : public ::System::Xml::Schema::SyntaxTreeNode
 	{
 	public:
-		::System::Xml::Schema::NamespaceList* namespaceList; // 0x10
-		::System::Object* particle; // 0x18
+		::System::Object* particle; // 0x10
+		::System::Xml::Schema::NamespaceList* namespaceList; // 0x18
 		::System::Void _ctor(::System::Xml::Schema::NamespaceList* a1, ::System::Object* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::NamespaceList*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CTOR_OFFSET))(this, a1, a2);

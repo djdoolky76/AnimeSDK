@@ -4,18 +4,18 @@
 class FKKFNNAILAC;
 namespace RPG::GameCore { class AvatarRowData; }
 
-#define FKKFNNAILAC_ANALOEDDDHD_OFFSET UNITYSDK_OFFSET(0x157FB3E0)
-#define FKKFNNAILAC_CCTOR_OFFSET UNITYSDK_OFFSET(0x157FB420)
-#define FKKFNNAILAC_CTOR_OFFSET UNITYSDK_OFFSET(0x157FB3D0)
+#define FKKFNNAILAC_ANALOEDDDHD_OFFSET UNITYSDK_OFFSET(0x1AAB1B10)
+#define FKKFNNAILAC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAB1B50)
+#define FKKFNNAILAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAB1B00)
 
-inline static constexpr unsigned int FKKFNNAILAC_TypeDefinitionIndex = 51993;
+inline static constexpr unsigned int FKKFNNAILAC_TypeDefinitionIndex = 53098;
 
 	class FKKFNNAILAC : public ::System::Object
 	{
 	public:
 		static ::FKKFNNAILAC** StaticGet_FMJPMFEDIJL()
 		{
-			return (::FKKFNNAILAC**)UnitySDK::FromName("", "FKKFNNAILAC")->GetStaticField(0x24A80);
+			return (::FKKFNNAILAC**)UnitySDK::FromName("", "FKKFNNAILAC")->GetStaticField(0x19310);
 		}
 
 		::System::Void _ctor()

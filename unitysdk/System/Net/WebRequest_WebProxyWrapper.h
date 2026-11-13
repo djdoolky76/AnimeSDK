@@ -3,7 +3,7 @@
 #include "unitysdk/System/Net/WebRequest_WebProxyWrapperOpaque.h"
 namespace System::Net { class WebProxy; }
 
-#define SYSTEM_NET_WEBREQUEST_WEBPROXYWRAPPER_GET_WEBPROXY_OFFSET UNITYSDK_OFFSET(0x1F0778B0)
+#define SYSTEM_NET_WEBREQUEST_WEBPROXYWRAPPER_GET_WEBPROXY_OFFSET UNITYSDK_OFFSET(0x1CF71220)
 
 namespace System::Net
 {

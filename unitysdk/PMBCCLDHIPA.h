@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByNPCStatus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PMBCCLDHIPA_CTOR_OFFSET UNITYSDK_OFFSET(0xC30CB40)
-#define PMBCCLDHIPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC30CB70)
+#define PMBCCLDHIPA_CTOR_OFFSET UNITYSDK_OFFSET(0x18899630)
+#define PMBCCLDHIPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18899660)
 
-inline static constexpr unsigned int PMBCCLDHIPA_TypeDefinitionIndex = 54703;
+inline static constexpr unsigned int PMBCCLDHIPA_TypeDefinitionIndex = 55869;
 
 	class PMBCCLDHIPA
 	{

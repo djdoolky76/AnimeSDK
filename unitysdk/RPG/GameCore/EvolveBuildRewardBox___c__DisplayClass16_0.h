@@ -4,12 +4,12 @@
 namespace RPG::GameCore { class EvolveBuildRewardBoxGear; }
 namespace RPG::GameCore { class EvolveBuildRewardBoxGearUpgrade; }
 
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE685950)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0___ADDTOWAVEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xE688210)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17510B60)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0___ADDTOWAVEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x17513420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass16_0_TypeDefinitionIndex = 53568;
+	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass16_0_TypeDefinitionIndex = 54731;
 
 	class EvolveBuildRewardBox___c__DisplayClass16_0 : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PNHGCNGONMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC12530)
+#define PNHGCNGONMI_CTOR_OFFSET UNITYSDK_OFFSET(0x2078FCE0)
 
-inline static constexpr unsigned int PNHGCNGONMI_TypeDefinitionIndex = 35204;
+inline static constexpr unsigned int PNHGCNGONMI_TypeDefinitionIndex = 36132;
 
 	class PNHGCNGONMI : public ::System::Object
 	{

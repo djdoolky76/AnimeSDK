@@ -4,9 +4,9 @@
 class EOPFDKJOBIO;
 namespace System { class String; }
 
-#define HPHEFKBGFOF_PCAHDDGPMOA_OFFSET UNITYSDK_OFFSET(0x15DBB300)
+#define HPHEFKBGFOF_PCAHDDGPMOA_OFFSET UNITYSDK_OFFSET(0x1AF354F0)
 
-inline static constexpr unsigned int HPHEFKBGFOF_TypeDefinitionIndex = 81090;
+inline static constexpr unsigned int HPHEFKBGFOF_TypeDefinitionIndex = 83870;
 
 	class HPHEFKBGFOF : public ::System::Object
 	{

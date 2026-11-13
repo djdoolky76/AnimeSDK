@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_STORY_EDITORPERFORMANCECHARACTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE89E6A0)
+#define RPGTOOLS_STORY_EDITORPERFORMANCECHARACTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD598C0)
 
 namespace RPGTools::Story
 {
-	inline static constexpr unsigned int EditorPerformanceCharacterConfig_TypeDefinitionIndex = 48965;
+	inline static constexpr unsigned int EditorPerformanceCharacterConfig_TypeDefinitionIndex = 50026;
 
 	class EditorPerformanceCharacterConfig : public ::System::Object
 	{

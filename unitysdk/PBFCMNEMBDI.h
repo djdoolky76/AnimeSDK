@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PBFCMNEMBDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE4C10)
-#define PBFCMNEMBDI_DJIKKEKBCOM_OFFSET UNITYSDK_OFFSET(0xBFE4DC0)
-#define PBFCMNEMBDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBFE4C90)
-#define PBFCMNEMBDI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBFE4D20)
+#define PBFCMNEMBDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AABA940)
+#define PBFCMNEMBDI_DJIKKEKBCOM_OFFSET UNITYSDK_OFFSET(0x1AABAAF0)
+#define PBFCMNEMBDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AABA9C0)
+#define PBFCMNEMBDI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1AABAA50)
 
-inline static constexpr unsigned int PBFCMNEMBDI_TypeDefinitionIndex = 67024;
+inline static constexpr unsigned int PBFCMNEMBDI_TypeDefinitionIndex = 68968;
 
 	class PBFCMNEMBDI : public ::System::Object
 	{

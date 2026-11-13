@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CharacterPhaseAnimConfig; }
 namespace RPG::GameCore { class ModifierBehaviorVisual; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERPHASEANIMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5484A0)
-#define RPG_GAMECORE_CHARACTERPHASEANIMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5484B0)
-#define RPG_GAMECORE_CHARACTERPHASEANIMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D53D390)
+#define RPG_GAMECORE_CHARACTERPHASEANIMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F349B40)
+#define RPG_GAMECORE_CHARACTERPHASEANIMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F349B50)
+#define RPG_GAMECORE_CHARACTERPHASEANIMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F33F120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterPhaseAnimConfig_TypeDefinitionIndex = 18201;
+	inline static constexpr unsigned int CharacterPhaseAnimConfig_TypeDefinitionIndex = 18363;
 
 	class CharacterPhaseAnimConfig : public ::RPG::GameCore::CharacterReactionAnimConfig
 	{

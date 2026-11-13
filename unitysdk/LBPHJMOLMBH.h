@@ -6,16 +6,16 @@ namespace RPG::Client { class RoadRashGameModifier_NoBoundaryImpactAddUltimateEn
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LBPHJMOLMBH_AFFPFFMPBLG_1_OFFSET UNITYSDK_OFFSET(0xB608930)
-#define LBPHJMOLMBH_AFFPFFMPBLG_OFFSET UNITYSDK_OFFSET(0xB6084C0)
-#define LBPHJMOLMBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB608410)
-#define LBPHJMOLMBH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB608420)
-#define LBPHJMOLMBH_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xB6089E0)
-#define LBPHJMOLMBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB608460)
-#define LBPHJMOLMBH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB608580)
-#define LBPHJMOLMBH_TICK_OFFSET UNITYSDK_OFFSET(0xB6085E0)
+#define LBPHJMOLMBH_AFFPFFMPBLG_1_OFFSET UNITYSDK_OFFSET(0x1B2ACE70)
+#define LBPHJMOLMBH_AFFPFFMPBLG_OFFSET UNITYSDK_OFFSET(0x1B2ACA10)
+#define LBPHJMOLMBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AC960)
+#define LBPHJMOLMBH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B2AC970)
+#define LBPHJMOLMBH_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x1B2ACF20)
+#define LBPHJMOLMBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B2AC9B0)
+#define LBPHJMOLMBH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B2ACAD0)
+#define LBPHJMOLMBH_TICK_OFFSET UNITYSDK_OFFSET(0x1B2ACB20)
 
-inline static constexpr unsigned int LBPHJMOLMBH_TypeDefinitionIndex = 58425;
+inline static constexpr unsigned int LBPHJMOLMBH_TypeDefinitionIndex = 59681;
 
 	class LBPHJMOLMBH : public ::GELIALJDFBL
 	{
@@ -23,9 +23,8 @@ inline static constexpr unsigned int LBPHJMOLMBH_TypeDefinitionIndex = 58425;
 		::RPG::Client::RoadRashGameModifier_NoBoundaryImpactAddUltimateEnergy* OFKGLJOAMLD; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Single PBMPHMBHIJN; // 0x28
-		::System::Boolean HNALEMBOBFE; // 0x2C
-		::System::Byte _padding0[0x3];
-		::System::Int32 OKKIOIBIFIP; // 0x30
+		::System::Int32 OKKIOIBIFIP; // 0x2C
+		::System::Boolean HNALEMBOBFE; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::Client::RoadRashGameModifier_NoBoundaryImpactAddUltimateEnergy* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::Client::RoadRashGameModifier_NoBoundaryImpactAddUltimateEnergy*))((::PBYTE)hIl2Cpp + LBPHJMOLMBH_CTOR_OFFSET))(this, a1, a2);

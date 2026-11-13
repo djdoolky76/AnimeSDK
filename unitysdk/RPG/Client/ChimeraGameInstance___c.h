@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB47B80)
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB47BC0)
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C___PUSHINITCOMMANDS_B__29_0_OFFSET UNITYSDK_OFFSET(0xCB47BD0)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE85D30)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE85D70)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C___PUSHINITCOMMANDS_B__29_0_OFFSET UNITYSDK_OFFSET(0x1CE85D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGameInstance___c_TypeDefinitionIndex = 60455;
+	inline static constexpr unsigned int ChimeraGameInstance___c_TypeDefinitionIndex = 61745;
 
 	class ChimeraGameInstance___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12770);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x127D0);
 		}
 
 		static ::System::Action** StaticGet___9__29_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12778);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x127D8);
 		}
 
 		static ::System::Void _cctor()

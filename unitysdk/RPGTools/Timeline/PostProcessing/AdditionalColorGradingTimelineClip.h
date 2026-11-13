@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE90FD50)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C75A8E0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int AdditionalColorGradingTimelineClip_TypeDefinitionIndex = 48530;
+	inline static constexpr unsigned int AdditionalColorGradingTimelineClip_TypeDefinitionIndex = 49571;
 
 	class AdditionalColorGradingTimelineClip
 	{

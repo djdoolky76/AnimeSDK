@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define GOIJJIEHEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA87280)
+#define GOIJJIEHEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8D3A0)
 
-inline static constexpr unsigned int GOIJJIEHEOF_TypeDefinitionIndex = 42164;
+inline static constexpr unsigned int GOIJJIEHEOF_TypeDefinitionIndex = 43139;
 
 	class GOIJJIEHEOF : public ::System::Object
 	{

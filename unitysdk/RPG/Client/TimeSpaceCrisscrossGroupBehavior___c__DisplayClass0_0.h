@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE284350)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS0_0___ASYNCINITIRIRENDERER_B__0_OFFSET UNITYSDK_OFFSET(0xE28D7F0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A13DAD0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS0_0___ASYNCINITIRIRENDERER_B__0_OFFSET UNITYSDK_OFFSET(0x1A146F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c__DisplayClass0_0_TypeDefinitionIndex = 70204;
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c__DisplayClass0_0_TypeDefinitionIndex = 72170;
 
 	class TimeSpaceCrisscrossGroupBehavior___c__DisplayClass0_0 : public ::System::Object
 	{

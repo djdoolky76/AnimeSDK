@@ -7,10 +7,10 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LDIHJENNBEE_BBBLNNFJFIB_OFFSET UNITYSDK_OFFSET(0x3C2C240)
-#define LDIHJENNBEE_CGIFAKIIDID_OFFSET UNITYSDK_OFFSET(0x3C2C1E0)
+#define LDIHJENNBEE_BBBLNNFJFIB_OFFSET UNITYSDK_OFFSET(0x3E6C780)
+#define LDIHJENNBEE_CGIFAKIIDID_OFFSET UNITYSDK_OFFSET(0x3E6C720)
 
-inline static constexpr unsigned int LDIHJENNBEE_TypeDefinitionIndex = 37135;
+inline static constexpr unsigned int LDIHJENNBEE_TypeDefinitionIndex = 38063;
 
 	struct alignas(8) LDIHJENNBEE
 	{

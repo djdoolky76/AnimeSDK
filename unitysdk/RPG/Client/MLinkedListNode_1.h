@@ -6,7 +6,7 @@ namespace RPG::Client { template <typename T> class MLinkedList_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MLinkedListNode_1_TypeDefinitionIndex = 35246;
+	inline static constexpr unsigned int MLinkedListNode_1_TypeDefinitionIndex = 36174;
 
 	template <typename T>
 	class MLinkedListNode_1 : public ::System::Object

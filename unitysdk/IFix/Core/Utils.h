@@ -8,13 +8,13 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MethodInfo; }
 
-#define IFIX_CORE_UTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9B1130)
-#define IFIX_CORE_UTILS_ISASSIGNABLE_OFFSET UNITYSDK_OFFSET(0x1B9B07A0)
-#define IFIX_CORE_UTILS_TRYADAPTERTODELEGATE_OFFSET UNITYSDK_OFFSET(0x1B9B0CA0)
+#define IFIX_CORE_UTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8C1BC0)
+#define IFIX_CORE_UTILS_ISASSIGNABLE_OFFSET UNITYSDK_OFFSET(0x1E8C1230)
+#define IFIX_CORE_UTILS_TRYADAPTERTODELEGATE_OFFSET UNITYSDK_OFFSET(0x1E8C1730)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 7136;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 7147;
 
 	class Utils : public ::System::Object
 	{

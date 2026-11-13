@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareEvolveBuildGearLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KMELPFDKFDH_CTOR_OFFSET UNITYSDK_OFFSET(0xB53FCA0)
-#define KMELPFDKFDH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB53FCD0)
+#define KMELPFDKFDH_CTOR_OFFSET UNITYSDK_OFFSET(0x17B9D770)
+#define KMELPFDKFDH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17B9D7A0)
 
-inline static constexpr unsigned int KMELPFDKFDH_TypeDefinitionIndex = 54532;
+inline static constexpr unsigned int KMELPFDKFDH_TypeDefinitionIndex = 55697;
 
 	class KMELPFDKFDH
 	{

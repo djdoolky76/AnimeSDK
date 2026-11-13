@@ -4,18 +4,18 @@
 class AIDDODLHDLE;
 namespace System { class Object; }
 
-#define AIDDODLHDLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E24CC50)
-#define AIDDODLHDLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E24CC90)
-#define AIDDODLHDLE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E24CCA0)
+#define AIDDODLHDLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20506DB0)
+#define AIDDODLHDLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20506DF0)
+#define AIDDODLHDLE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20506E00)
 
-inline static constexpr unsigned int AIDDODLHDLE___c_TypeDefinitionIndex = 29616;
+inline static constexpr unsigned int AIDDODLHDLE___c_TypeDefinitionIndex = 30424;
 
 	class AIDDODLHDLE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3AD30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30F10);
 		}
 
 		static ::System::Void _cctor()

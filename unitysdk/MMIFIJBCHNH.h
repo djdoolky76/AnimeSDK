@@ -4,9 +4,9 @@
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayItemViewModel; }
 namespace System { class Object; }
 
-#define MMIFIJBCHNH_CTOR_OFFSET UNITYSDK_OFFSET(0xB9CB0E0)
+#define MMIFIJBCHNH_CTOR_OFFSET UNITYSDK_OFFSET(0x188F9640)
 
-inline static constexpr unsigned int MMIFIJBCHNH_TypeDefinitionIndex = 81272;
+inline static constexpr unsigned int MMIFIJBCHNH_TypeDefinitionIndex = 84052;
 
 	class MMIFIJBCHNH : public ::System::Object
 	{

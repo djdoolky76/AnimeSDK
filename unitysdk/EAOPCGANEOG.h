@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FormationMoveResume; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EAOPCGANEOG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CDF930)
-#define EAOPCGANEOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CDF960)
+#define EAOPCGANEOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3AD150)
+#define EAOPCGANEOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C3AD180)
 
-inline static constexpr unsigned int EAOPCGANEOG_TypeDefinitionIndex = 58132;
+inline static constexpr unsigned int EAOPCGANEOG_TypeDefinitionIndex = 59371;
 
 	class EAOPCGANEOG
 	{

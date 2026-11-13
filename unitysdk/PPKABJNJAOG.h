@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByCasterAction; }
 
-#define PPKABJNJAOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CAFB0)
-#define PPKABJNJAOG_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C9CAFC0)
+#define PPKABJNJAOG_CTOR_OFFSET UNITYSDK_OFFSET(0x207035A0)
+#define PPKABJNJAOG_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x207035B0)
 
-inline static constexpr unsigned int PPKABJNJAOG_TypeDefinitionIndex = 43140;
+inline static constexpr unsigned int PPKABJNJAOG_TypeDefinitionIndex = 44121;
 
 	class PPKABJNJAOG : public ::LHJPMDPJPEC
 	{

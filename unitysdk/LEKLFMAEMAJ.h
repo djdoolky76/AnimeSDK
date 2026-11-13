@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_ByDistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LEKLFMAEMAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB656560)
-#define LEKLFMAEMAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB656590)
+#define LEKLFMAEMAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18C39630)
+#define LEKLFMAEMAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18C39660)
 
-inline static constexpr unsigned int LEKLFMAEMAJ_TypeDefinitionIndex = 52096;
+inline static constexpr unsigned int LEKLFMAEMAJ_TypeDefinitionIndex = 53201;
 
 	class LEKLFMAEMAJ
 	{

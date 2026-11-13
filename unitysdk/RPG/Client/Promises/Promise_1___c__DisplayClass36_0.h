@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise_1___c__DisplayClass36_0_TypeDefinitionIndex = 9878;
+	inline static constexpr unsigned int Promise_1___c__DisplayClass36_0_TypeDefinitionIndex = 9886;
 
 	template <typename T>
 	class Promise_1___c__DisplayClass36_0 : public ::System::Object

@@ -3,10 +3,10 @@
 class ANNAJHLHKLD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MDAFBMOOCLK_CTOR_OFFSET UNITYSDK_OFFSET(0xB886BC0)
-#define MDAFBMOOCLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB886BF0)
+#define MDAFBMOOCLK_CTOR_OFFSET UNITYSDK_OFFSET(0x183C3AA0)
+#define MDAFBMOOCLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x183C3AD0)
 
-inline static constexpr unsigned int MDAFBMOOCLK_TypeDefinitionIndex = 56393;
+inline static constexpr unsigned int MDAFBMOOCLK_TypeDefinitionIndex = 57612;
 
 	class MDAFBMOOCLK
 	{

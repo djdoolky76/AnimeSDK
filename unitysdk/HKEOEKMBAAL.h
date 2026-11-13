@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockPhotoIdentifyHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HKEOEKMBAAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D36550)
-#define HKEOEKMBAAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D36580)
+#define HKEOEKMBAAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1987CB10)
+#define HKEOEKMBAAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1987CB40)
 
-inline static constexpr unsigned int HKEOEKMBAAL_TypeDefinitionIndex = 52987;
+inline static constexpr unsigned int HKEOEKMBAAL_TypeDefinitionIndex = 54146;
 
 	class HKEOEKMBAAL
 	{

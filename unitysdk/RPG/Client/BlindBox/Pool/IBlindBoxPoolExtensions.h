@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client::BlindBox::Pool { class IBlindBoxPool; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLEXTENSIONS_GETCLOSEDHINTTEXT_OFFSET UNITYSDK_OFFSET(0xC886290)
-#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLEXTENSIONS_ISCLOSED_OFFSET UNITYSDK_OFFSET(0xC883800)
+#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLEXTENSIONS_GETCLOSEDHINTTEXT_OFFSET UNITYSDK_OFFSET(0x1C554E70)
+#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLEXTENSIONS_ISCLOSED_OFFSET UNITYSDK_OFFSET(0x1C551D40)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int IBlindBoxPoolExtensions_TypeDefinitionIndex = 74947;
+	inline static constexpr unsigned int IBlindBoxPoolExtensions_TypeDefinitionIndex = 77274;
 
 	class IBlindBoxPoolExtensions : public ::System::Object
 	{

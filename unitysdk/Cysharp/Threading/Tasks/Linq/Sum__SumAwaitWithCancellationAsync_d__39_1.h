@@ -13,7 +13,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Sum__SumAwaitWithCancellationAsync_d__39_1_TypeDefinitionIndex = 45648;
+	inline static constexpr unsigned int Sum__SumAwaitWithCancellationAsync_d__39_1_TypeDefinitionIndex = 46677;
 
 	template <typename T>
 	struct alignas(8) Sum__SumAwaitWithCancellationAsync_d__39_1

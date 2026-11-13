@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPINTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F297750)
+#define UNITYENGINE_RENDERING_NOINTERPINTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C58B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpIntParameter_TypeDefinitionIndex = 35626;
+	inline static constexpr unsigned int NoInterpIntParameter_TypeDefinitionIndex = 36554;
 
 	class NoInterpIntParameter
 	{

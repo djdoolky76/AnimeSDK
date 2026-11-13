@@ -11,44 +11,44 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PICDJHEPJLC_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DF14BC0)
-#define PICDJHEPJLC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF14EB0)
-#define PICDJHEPJLC_CLONE_OFFSET UNITYSDK_OFFSET(0x1DF147A0)
-#define PICDJHEPJLC_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DF14730)
-#define PICDJHEPJLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF14700)
-#define PICDJHEPJLC_EOPPDODFLFA_OFFSET UNITYSDK_OFFSET(0x1DF14840)
-#define PICDJHEPJLC_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DF14950)
-#define PICDJHEPJLC_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DF14850)
-#define PICDJHEPJLC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DF14A40)
-#define PICDJHEPJLC_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1DF146C0)
-#define PICDJHEPJLC_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DF14D00)
-#define PICDJHEPJLC_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DF14CB0)
-#define PICDJHEPJLC_NFNPAHIBDNI_OFFSET UNITYSDK_OFFSET(0x1DF14830)
-#define PICDJHEPJLC_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DF146F0)
-#define PICDJHEPJLC_PLODAPOHFLG_OFFSET UNITYSDK_OFFSET(0x1DF14820)
-#define PICDJHEPJLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF14A80)
-#define PICDJHEPJLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF14AE0)
+#define PICDJHEPJLC_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x20262FA0)
+#define PICDJHEPJLC_CCTOR_OFFSET UNITYSDK_OFFSET(0x20263280)
+#define PICDJHEPJLC_CLONE_OFFSET UNITYSDK_OFFSET(0x20262B70)
+#define PICDJHEPJLC_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20262B00)
+#define PICDJHEPJLC_CTOR_OFFSET UNITYSDK_OFFSET(0x20262AD0)
+#define PICDJHEPJLC_EOPPDODFLFA_OFFSET UNITYSDK_OFFSET(0x20262C00)
+#define PICDJHEPJLC_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x20262D20)
+#define PICDJHEPJLC_EQUALS_OFFSET UNITYSDK_OFFSET(0x20262C20)
+#define PICDJHEPJLC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x20262E10)
+#define PICDJHEPJLC_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x20262A90)
+#define PICDJHEPJLC_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x202630D0)
+#define PICDJHEPJLC_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x20263080)
+#define PICDJHEPJLC_NFNPAHIBDNI_OFFSET UNITYSDK_OFFSET(0x20262BF0)
+#define PICDJHEPJLC_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x20262AC0)
+#define PICDJHEPJLC_PLODAPOHFLG_OFFSET UNITYSDK_OFFSET(0x20262C10)
+#define PICDJHEPJLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20262E60)
+#define PICDJHEPJLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x20262EC0)
 
-inline static constexpr unsigned int PICDJHEPJLC_TypeDefinitionIndex = 26270;
+inline static constexpr unsigned int PICDJHEPJLC_TypeDefinitionIndex = 26797;
 
 	class PICDJHEPJLC : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* LFKGMMJHENH; // 0x10
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
+		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* LFKGMMJHENH; // 0x18
 		::System::UInt32 OOJECEIDJGJ; // 0x20
-		static ::Google::Protobuf::MessageParser_1<::PICDJHEPJLC*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::PICDJHEPJLC*>**)UnitySDK::FromName("", "PICDJHEPJLC")->GetStaticField(0x34460);
-		}
-
 		static ::System::Object** StaticGet_AODIJGCNNPK()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "PICDJHEPJLC")->GetStaticField(0x34468);
+			return (::System::Object**)UnitySDK::FromName("", "PICDJHEPJLC")->GetStaticField(0x3AFB0);
 		}
 
-		// static const ::System::Object DKIPGKNCJFD; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::PICDJHEPJLC*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::PICDJHEPJLC*>**)UnitySDK::FromName("", "PICDJHEPJLC")->GetStaticField(0x3AFB8);
+		}
+
 		// static const ::System::Object GPDMJGMFJDO; // 0x0
+		// static const ::System::Object DKIPGKNCJFD; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PICDJHEPJLC_CTOR_OFFSET))(this);
@@ -79,11 +79,6 @@ inline static constexpr unsigned int PICDJHEPJLC_TypeDefinitionIndex = 26270;
 			return ((::PICDJHEPJLC*(*)(::PVOID))((::PBYTE)hIl2Cpp + PICDJHEPJLC_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* PLODAPOHFLG()
-		{
-			return ((::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PICDJHEPJLC_PLODAPOHFLG_OFFSET))(this);
-		}
-
 		::System::UInt32 NFNPAHIBDNI()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PICDJHEPJLC_NFNPAHIBDNI_OFFSET))(this);
@@ -92,6 +87,11 @@ inline static constexpr unsigned int PICDJHEPJLC_TypeDefinitionIndex = 26270;
 		::System::Void EOPPDODFLFA(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PICDJHEPJLC_EOPPDODFLFA_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* PLODAPOHFLG()
+		{
+			return ((::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PICDJHEPJLC_PLODAPOHFLG_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

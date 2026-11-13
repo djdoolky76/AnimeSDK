@@ -6,11 +6,11 @@ namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class CastInstruction; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1EDB05F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDB0C60)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDB0590)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDB05B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDB05A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1C45F770)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C45FDE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1C45F710)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1C45F730)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1C45F720)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -19,79 +19,79 @@ namespace System::Linq::Expressions::Interpreter
 	class CastInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Single()
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_DateTime()
 		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC20);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_UInt32()
-		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC28);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_String()
-		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC30);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Char()
-		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC38);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Boolean()
-		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC40);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Double()
-		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC48);
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x31270);
 		}
 
 		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_SByte()
 		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC50);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Int16()
-		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC58);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_UInt16()
-		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC60);
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x31278);
 		}
 
 		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_UInt64()
 		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC68);
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x31280);
 		}
 
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Decimal()
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Single()
 		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC70);
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x31288);
 		}
 
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Int32()
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Char()
 		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC78);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_DateTime()
-		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC80);
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x31290);
 		}
 
 		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Byte()
 		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC88);
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x31298);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Boolean()
+		{
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312A0);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_UInt16()
+		{
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312A8);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Int16()
+		{
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312B0);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_UInt32()
+		{
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312B8);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Decimal()
+		{
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312C0);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Int32()
+		{
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312C8);
 		}
 
 		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Int64()
 		{
-			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x3AC90);
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312D0);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_String()
+		{
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312D8);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::CastInstruction** StaticGet_s_Double()
+		{
+			return (::System::Linq::Expressions::Interpreter::CastInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "CastInstruction")->GetStaticField(0x312E0);
 		}
 
 		::System::Void _ctor()

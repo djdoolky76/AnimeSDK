@@ -4,7 +4,7 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int JPOOCBEAFEM_TypeDefinitionIndex = 49868;
+inline static constexpr unsigned int JPOOCBEAFEM_TypeDefinitionIndex = 50916;
 
 	class JPOOCBEAFEM : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TryStartConnectUltraSkillFrameCapture; }
 
-#define GKHCKBMAFDF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A8BF30)
-#define GKHCKBMAFDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A8BF60)
+#define GKHCKBMAFDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8D3040)
+#define GKHCKBMAFDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A8D3070)
 
-inline static constexpr unsigned int GKHCKBMAFDF_TypeDefinitionIndex = 55772;
+inline static constexpr unsigned int GKHCKBMAFDF_TypeDefinitionIndex = 56975;
 
 	class GKHCKBMAFDF
 	{

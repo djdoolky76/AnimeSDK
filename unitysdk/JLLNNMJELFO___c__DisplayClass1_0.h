@@ -4,10 +4,10 @@
 class NONAIBLAJKA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JLLNNMJELFO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2497B0)
-#define JLLNNMJELFO___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xB249980)
+#define JLLNNMJELFO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A097F00)
+#define JLLNNMJELFO___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1A0980D0)
 
-inline static constexpr unsigned int JLLNNMJELFO___c__DisplayClass1_0_TypeDefinitionIndex = 53455;
+inline static constexpr unsigned int JLLNNMJELFO___c__DisplayClass1_0_TypeDefinitionIndex = 54617;
 
 	class JLLNNMJELFO___c__DisplayClass1_0 : public ::System::Object
 	{

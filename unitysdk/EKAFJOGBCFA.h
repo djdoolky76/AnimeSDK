@@ -5,19 +5,19 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define EKAFJOGBCFA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x154EEAE0)
-#define EKAFJOGBCFA_CTOR_OFFSET UNITYSDK_OFFSET(0x154EEAD0)
+#define EKAFJOGBCFA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x19983A90)
+#define EKAFJOGBCFA_CTOR_OFFSET UNITYSDK_OFFSET(0x19983A80)
 
-inline static constexpr unsigned int EKAFJOGBCFA_TypeDefinitionIndex = 48501;
+inline static constexpr unsigned int EKAFJOGBCFA_TypeDefinitionIndex = 49542;
 
 	class EKAFJOGBCFA : public ::System::Object
 	{
 	public:
-		::System::String* NLCHJCDAKCB; // 0x10
-		::UnityEngine::Timeline::TrackAsset* CIBMFKKGFGN; // 0x18
-		::UnityEngine::GameObject* CGMNHAEFLEP; // 0x20
-		::System::String* KNAPCKONKFE; // 0x28
-		::UnityEngine::GameObject* BNOMDLCNPMN; // 0x30
+		::UnityEngine::GameObject* CGMNHAEFLEP; // 0x10
+		::System::String* NLCHJCDAKCB; // 0x18
+		::System::String* KNAPCKONKFE; // 0x20
+		::UnityEngine::GameObject* BNOMDLCNPMN; // 0x28
+		::UnityEngine::Timeline::TrackAsset* CIBMFKKGFGN; // 0x30
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EKAFJOGBCFA_CTOR_OFFSET))(this, a1);

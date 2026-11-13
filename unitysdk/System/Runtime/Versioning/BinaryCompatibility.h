@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_VERSIONING_BINARYCOMPATIBILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3129D0)
-#define SYSTEM_RUNTIME_VERSIONING_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x1C3129C0)
+#define SYSTEM_RUNTIME_VERSIONING_BINARYCOMPATIBILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEF0B10)
+#define SYSTEM_RUNTIME_VERSIONING_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x1AEF0B00)
 
 namespace System::Runtime::Versioning
 {
@@ -14,12 +14,12 @@ namespace System::Runtime::Versioning
 	public:
 		static ::System::Boolean* StaticGet_TargetsAtLeast_Desktop_V4_5()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Runtime.Versioning", "BinaryCompatibility")->GetStaticField(0x4C90);
+			return (::System::Boolean*)UnitySDK::FromName("System.Runtime.Versioning", "BinaryCompatibility")->GetStaticField(0x2EF0);
 		}
 
 		static ::System::Boolean* StaticGet_TargetsAtLeast_Desktop_V4_5_1()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Runtime.Versioning", "BinaryCompatibility")->GetStaticField(0x4C91);
+			return (::System::Boolean*)UnitySDK::FromName("System.Runtime.Versioning", "BinaryCompatibility")->GetStaticField(0x2EF1);
 		}
 
 		static ::System::Void _cctor()

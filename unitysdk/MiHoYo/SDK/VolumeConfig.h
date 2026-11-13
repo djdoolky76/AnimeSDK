@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_VOLUMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE8D60)
+#define MIHOYO_SDK_VOLUMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4DBCC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 7578;
+	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 7587;
 
 	class VolumeConfig : public ::System::Object
 	{

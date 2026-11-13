@@ -5,18 +5,18 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattlePostEvent; }
 
-#define MHCGPDHFBDE_CTOR_OFFSET UNITYSDK_OFFSET(0xB929D50)
-#define MHCGPDHFBDE_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB929D90)
-#define MHCGPDHFBDE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB929DD0)
+#define MHCGPDHFBDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B34FD40)
+#define MHCGPDHFBDE_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x1B34FD80)
+#define MHCGPDHFBDE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1B34FDC0)
 
-inline static constexpr unsigned int MHCGPDHFBDE_TypeDefinitionIndex = 78401;
+inline static constexpr unsigned int MHCGPDHFBDE_TypeDefinitionIndex = 81136;
 
 	class MHCGPDHFBDE : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
 		::RPG::GameCore::ChimeraBattlePostEvent* IGHAHBNLIJA; // 0x18
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x20
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x20
 		::System::UInt32 LEKGODGIMCH; // 0x28
 		::System::UInt32 AJLJMGEEKOJ; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::ChimeraBattlePostEvent* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)

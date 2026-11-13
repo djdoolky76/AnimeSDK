@@ -4,18 +4,18 @@
 class LLBOLICFOEA;
 namespace System { class Object; }
 
-#define LLBOLICFOEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E969E40)
-#define LLBOLICFOEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E969E80)
-#define LLBOLICFOEA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E969E90)
+#define LLBOLICFOEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF43760)
+#define LLBOLICFOEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF437A0)
+#define LLBOLICFOEA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FF437B0)
 
-inline static constexpr unsigned int LLBOLICFOEA___c_TypeDefinitionIndex = 27392;
+inline static constexpr unsigned int LLBOLICFOEA___c_TypeDefinitionIndex = 27923;
 
 	class LLBOLICFOEA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B640);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40040);
 		}
 
 		static ::System::Void _cctor()

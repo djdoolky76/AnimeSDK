@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RootMotion::FinalIK { class GroundingThread; }
 
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_PELVIS_PROCESS_OFFSET UNITYSDK_OFFSET(0xCED0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_PELVIS_PROCESS_OFFSET UNITYSDK_OFFSET(0x3F44960)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundingThread_Pelvis_TypeDefinitionIndex = 46002;
+	inline static constexpr unsigned int GroundingThread_Pelvis_TypeDefinitionIndex = 47031;
 
 	struct alignas(8) GroundingThread_Pelvis
 	{

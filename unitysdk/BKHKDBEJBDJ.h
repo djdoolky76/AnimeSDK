@@ -3,10 +3,10 @@
 class PAPOPANPGIJ;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByIsAIState; }
 
-#define BKHKDBEJBDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C591630)
-#define BKHKDBEJBDJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C591650)
+#define BKHKDBEJBDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1702D750)
+#define BKHKDBEJBDJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1702D770)
 
-inline static constexpr unsigned int BKHKDBEJBDJ_TypeDefinitionIndex = 36978;
+inline static constexpr unsigned int BKHKDBEJBDJ_TypeDefinitionIndex = 37906;
 
 	class BKHKDBEJBDJ
 	{

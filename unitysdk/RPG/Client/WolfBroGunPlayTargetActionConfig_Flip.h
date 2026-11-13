@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/WolfBroGunPlayTargetActionConfig.h"
 class JNKPPLPLFOM;
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_FLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE46B240)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_FLIP_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE46B1C0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_FLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9BA30)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_FLIP_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0x1BC9B9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Flip_TypeDefinitionIndex = 68710;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Flip_TypeDefinitionIndex = 70662;
 
 	class WolfBroGunPlayTargetActionConfig_Flip : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

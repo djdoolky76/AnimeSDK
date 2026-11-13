@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CutscenePropRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUTSCENEPROPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BDBE0)
-#define RPG_GAMECORE_CUTSCENEPROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5BDA00)
+#define RPG_GAMECORE_CUTSCENEPROPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF7040)
+#define RPG_GAMECORE_CUTSCENEPROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EFF6E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CutscenePropRow_TypeDefinitionIndex = 13105;
+	inline static constexpr unsigned int CutscenePropRow_TypeDefinitionIndex = 13173;
 
 	class CutscenePropRow : public ::System::Object
 	{
 	public:
 		::System::String* PropID; // 0x10
-		::System::String* ResidentPossessionKey; // 0x18
-		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x20
+		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x18
+		::System::String* ResidentPossessionKey; // 0x20
 		::System::String* PropModelPath; // 0x28
 		::System::Void _ctor()
 		{

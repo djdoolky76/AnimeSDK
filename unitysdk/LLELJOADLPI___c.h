@@ -4,18 +4,18 @@
 class LLELJOADLPI;
 namespace System { class Object; }
 
-#define LLELJOADLPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E96CE40)
-#define LLELJOADLPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E96CE70)
-#define LLELJOADLPI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E96CE80)
+#define LLELJOADLPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF46710)
+#define LLELJOADLPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF46740)
+#define LLELJOADLPI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FF46750)
 
-inline static constexpr unsigned int LLELJOADLPI___c_TypeDefinitionIndex = 27460;
+inline static constexpr unsigned int LLELJOADLPI___c_TypeDefinitionIndex = 27991;
 
 	class LLELJOADLPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C350);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40750);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class OverrideCameraModuleConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OVERRIDECAMERAMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B9350)
-#define RPG_GAMECORE_OVERRIDECAMERAMODULECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B9240)
+#define RPG_GAMECORE_OVERRIDECAMERAMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F13A920)
+#define RPG_GAMECORE_OVERRIDECAMERAMODULECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F13A810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideCameraModuleConfig_TypeDefinitionIndex = 22193;
+	inline static constexpr unsigned int OverrideCameraModuleConfig_TypeDefinitionIndex = 22598;
 
 	class OverrideCameraModuleConfig : public ::RPG::GameCore::JsonConfig
 	{

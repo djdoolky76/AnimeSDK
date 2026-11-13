@@ -6,11 +6,11 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define SKIRTIK_SKIRTIKCLASS_AIJFJPGLOAJ_OFFSET UNITYSDK_OFFSET(0xE968A00)
-#define SKIRTIK_SKIRTIKCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xE968A40)
-#define SKIRTIK_SKIRTIKCLASS_GPOHHLEEMKC_OFFSET UNITYSDK_OFFSET(0xE9689C0)
+#define SKIRTIK_SKIRTIKCLASS_AIJFJPGLOAJ_OFFSET UNITYSDK_OFFSET(0x1AC3AB70)
+#define SKIRTIK_SKIRTIKCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3ABB0)
+#define SKIRTIK_SKIRTIKCLASS_GPOHHLEEMKC_OFFSET UNITYSDK_OFFSET(0x1AC3AB30)
 
-inline static constexpr unsigned int SkirtIK_SkirtIKClass_TypeDefinitionIndex = 47255;
+inline static constexpr unsigned int SkirtIK_SkirtIKClass_TypeDefinitionIndex = 48283;
 
 	class SkirtIK_SkirtIKClass : public ::System::Object
 	{

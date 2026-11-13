@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitGroupEvent; }
 
-#define RPG_GAMECORE_WAITGROUPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6C3A0)
-#define RPG_GAMECORE_WAITGROUPEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6C3B0)
-#define RPG_GAMECORE_WAITGROUPEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6C360)
+#define RPG_GAMECORE_WAITGROUPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED57900)
+#define RPG_GAMECORE_WAITGROUPEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED57910)
+#define RPG_GAMECORE_WAITGROUPEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED578C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitGroupEvent_TypeDefinitionIndex = 21197;
+	inline static constexpr unsigned int WaitGroupEvent_TypeDefinitionIndex = 21540;
 
 	class WaitGroupEvent : public ::RPG::GameCore::AdvWaitingEventBase
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvChaseBailuSetDoor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OBCAKEHOPNM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2FE20)
-#define OBCAKEHOPNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD2FE50)
+#define OBCAKEHOPNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB76730)
+#define OBCAKEHOPNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AB76760)
 
-inline static constexpr unsigned int OBCAKEHOPNM_TypeDefinitionIndex = 52341;
+inline static constexpr unsigned int OBCAKEHOPNM_TypeDefinitionIndex = 53447;
 
 	class OBCAKEHOPNM
 	{

@@ -5,11 +5,11 @@ class ICCLDNDNHPD;
 namespace RPG::Client { class ChimeraDuelGameShopStallData; }
 namespace System { class Action; }
 
-#define JJMCGMPFLEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB202E30)
-#define JJMCGMPFLEC_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB202E40)
-#define JJMCGMPFLEC_TICK_OFFSET UNITYSDK_OFFSET(0xB202EC0)
+#define JJMCGMPFLEC_CTOR_OFFSET UNITYSDK_OFFSET(0x17B0A2B0)
+#define JJMCGMPFLEC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17B0A2C0)
+#define JJMCGMPFLEC_TICK_OFFSET UNITYSDK_OFFSET(0x17B0A340)
 
-inline static constexpr unsigned int JJMCGMPFLEC_TypeDefinitionIndex = 78349;
+inline static constexpr unsigned int JJMCGMPFLEC_TypeDefinitionIndex = 81084;
 
 	class JJMCGMPFLEC : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournBuildRefAvatarRow; }
 
-#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA07030)
-#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA06A50)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF27910)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF27330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuildRefAvatarRow_TypeDefinitionIndex = 14997;
+	inline static constexpr unsigned int RogueTournBuildRefAvatarRow_TypeDefinitionIndex = 15153;
 
 	class RogueTournBuildRefAvatarRow : public ::System::Object
 	{

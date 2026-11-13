@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemComposeTagRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCOMPOSETAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7653C0)
-#define RPG_GAMECORE_ITEMCOMPOSETAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D764D90)
+#define RPG_GAMECORE_ITEMCOMPOSETAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9E250)
+#define RPG_GAMECORE_ITEMCOMPOSETAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE9DC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeTagRow_TypeDefinitionIndex = 13842;
+	inline static constexpr unsigned int ItemComposeTagRow_TypeDefinitionIndex = 13999;
 
 	class ItemComposeTagRow : public ::System::Object
 	{
 	public:
 		::System::String* TagTextmapID; // 0x10
-		::System::UInt32 BelongTypeID; // 0x18
-		::System::UInt32 ItemComposeTagID; // 0x1C
+		::System::UInt32 ItemComposeTagID; // 0x18
+		::System::UInt32 BelongTypeID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMCOMPOSETAGROW_CTOR_OFFSET))(this);

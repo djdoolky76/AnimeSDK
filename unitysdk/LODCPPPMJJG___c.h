@@ -5,23 +5,23 @@ class DEKDEPEBHNC;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LODCPPPMJJG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7F08A0)
-#define LODCPPPMJJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F08D0)
-#define LODCPPPMJJG___C___GETFIRSTULTRASKILLITEM_B__25_0_OFFSET UNITYSDK_OFFSET(0xB7F08E0)
+#define LODCPPPMJJG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5A4350)
+#define LODCPPPMJJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5A4380)
+#define LODCPPPMJJG___C___GETFIRSTULTRASKILLITEM_B__25_0_OFFSET UNITYSDK_OFFSET(0x1A5A4390)
 
-inline static constexpr unsigned int LODCPPPMJJG___c_TypeDefinitionIndex = 71309;
+inline static constexpr unsigned int LODCPPPMJJG___c_TypeDefinitionIndex = 73286;
 
 	class LODCPPPMJJG___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::DEKDEPEBHNC*, ::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::DEKDEPEBHNC*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B220);
+			return (::System::Func_2<::DEKDEPEBHNC*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71070);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B228);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71078);
 		}
 
 		static ::System::Void _cctor()

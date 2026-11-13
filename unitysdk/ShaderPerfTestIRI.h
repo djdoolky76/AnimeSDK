@@ -6,12 +6,12 @@ namespace RPG::Client { class IRIManager; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define SHADERPERFTESTIRI_CTOR_OFFSET UNITYSDK_OFFSET(0xE95F280)
-#define SHADERPERFTESTIRI_EFFBPCOJJGP_OFFSET UNITYSDK_OFFSET(0xE95E630)
-#define SHADERPERFTESTIRI_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE95F170)
-#define SHADERPERFTESTIRI_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE95E8A0)
+#define SHADERPERFTESTIRI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC31EC0)
+#define SHADERPERFTESTIRI_EFFBPCOJJGP_OFFSET UNITYSDK_OFFSET(0x1AC31270)
+#define SHADERPERFTESTIRI_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1AC31DB0)
+#define SHADERPERFTESTIRI_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AC314E0)
 
-inline static constexpr unsigned int ShaderPerfTestIRI_TypeDefinitionIndex = 47404;
+inline static constexpr unsigned int ShaderPerfTestIRI_TypeDefinitionIndex = 48433;
 
 	class ShaderPerfTestIRI : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,7 +22,7 @@ inline static constexpr unsigned int ShaderPerfTestIRI_TypeDefinitionIndex = 474
 		::System::UInt64 ALJBKHKHDIF; // 0x30
 		static ::RPG::Client::IRIManager** StaticGet_KJEGMPNCGEH()
 		{
-			return (::RPG::Client::IRIManager**)UnitySDK::FromName("", "ShaderPerfTestIRI")->GetStaticField(0xA980);
+			return (::RPG::Client::IRIManager**)UnitySDK::FromName("", "ShaderPerfTestIRI")->GetStaticField(0x13110);
 		}
 
 		::System::Void _ctor()

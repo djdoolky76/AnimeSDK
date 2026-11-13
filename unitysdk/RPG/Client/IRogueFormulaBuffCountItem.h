@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueFormulaBuffCountItem_TypeDefinitionIndex = 67203;
+	inline static constexpr unsigned int IRogueFormulaBuffCountItem_TypeDefinitionIndex = 69147;
 
 	class IRogueFormulaBuffCountItem
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0805A0)
-#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS9_0___INITSDK_B__0_OFFSET UNITYSDK_OFFSET(0xE081890)
+#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C07B4B0)
+#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS9_0___INITSDK_B__0_OFFSET UNITYSDK_OFFSET(0x1C07C7B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SDKLoginPhase___c__DisplayClass9_0_TypeDefinitionIndex = 61161;
+	inline static constexpr unsigned int SDKLoginPhase___c__DisplayClass9_0_TypeDefinitionIndex = 62546;
 
 	class SDKLoginPhase___c__DisplayClass9_0 : public ::System::Object
 	{

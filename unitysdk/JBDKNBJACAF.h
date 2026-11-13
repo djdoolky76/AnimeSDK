@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetDirMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBDKNBJACAF_CTOR_OFFSET UNITYSDK_OFFSET(0x16559B10)
-#define JBDKNBJACAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16559B40)
+#define JBDKNBJACAF_CTOR_OFFSET UNITYSDK_OFFSET(0x19A69990)
+#define JBDKNBJACAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A699C0)
 
-inline static constexpr unsigned int JBDKNBJACAF_TypeDefinitionIndex = 58583;
+inline static constexpr unsigned int JBDKNBJACAF_TypeDefinitionIndex = 59848;
 
 	class JBDKNBJACAF
 	{

@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionApplyMoveStateInGridMoveDirection; }
 
-#define NJGBONGOKEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C76CD70)
-#define NJGBONGOKEB_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C76CD80)
+#define NJGBONGOKEB_CTOR_OFFSET UNITYSDK_OFFSET(0x160AD610)
+#define NJGBONGOKEB_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x160AD620)
 
-inline static constexpr unsigned int NJGBONGOKEB_TypeDefinitionIndex = 37377;
+inline static constexpr unsigned int NJGBONGOKEB_TypeDefinitionIndex = 38305;
 
 	class NJGBONGOKEB : public ::GPLOFONGBGI
 	{

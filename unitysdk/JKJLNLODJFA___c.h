@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JKJLNLODJFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6D4490)
-#define JKJLNLODJFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D44D0)
-#define JKJLNLODJFA___C___UPDATEPREVIEW_SKILL_B__13_0_OFFSET UNITYSDK_OFFSET(0x1C6D44E0)
+#define JKJLNLODJFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C13EC30)
+#define JKJLNLODJFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C13EC70)
+#define JKJLNLODJFA___C___UPDATEPREVIEW_SKILL_B__13_0_OFFSET UNITYSDK_OFFSET(0x1C13EC80)
 
-inline static constexpr unsigned int JKJLNLODJFA___c_TypeDefinitionIndex = 36501;
+inline static constexpr unsigned int JKJLNLODJFA___c_TypeDefinitionIndex = 37429;
 
 	class JKJLNLODJFA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11170);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x720D0);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11178);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x720D8);
 		}
 
 		static ::System::Void _cctor()

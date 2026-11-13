@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionPointOverdrawRow; }
 
-#define RPG_GAMECORE_ACTIONPOINTOVERDRAWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D319A80)
-#define RPG_GAMECORE_ACTIONPOINTOVERDRAWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D319470)
+#define RPG_GAMECORE_ACTIONPOINTOVERDRAWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F6D60)
+#define RPG_GAMECORE_ACTIONPOINTOVERDRAWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4F6750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionPointOverdrawRow_TypeDefinitionIndex = 14789;
+	inline static constexpr unsigned int ActionPointOverdrawRow_TypeDefinitionIndex = 14945;
 
 	class ActionPointOverdrawRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 MazeBuff; // 0x10
-		::System::Int32 ActionPoint; // 0x14
+		::System::Int32 ActionPoint; // 0x10
+		::System::UInt32 MazeBuff; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONPOINTOVERDRAWROW_CTOR_OFFSET))(this);

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_EPICAUTHSTATUSEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE4CC0)
+#define MIHOYO_SDK_PC_OS_EPICAUTHSTATUSEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0DD750)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int EpicAuthStatusExtension_TypeDefinitionIndex = 8531;
+	inline static constexpr unsigned int EpicAuthStatusExtension_TypeDefinitionIndex = 8540;
 
 	class EpicAuthStatusExtension : public ::System::Object
 	{

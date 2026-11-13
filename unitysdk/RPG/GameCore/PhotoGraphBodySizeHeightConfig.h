@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphBodySizeHeightConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHBODYSIZEHEIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E25C0)
-#define RPG_GAMECORE_PHOTOGRAPHBODYSIZEHEIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E24B0)
+#define RPG_GAMECORE_PHOTOGRAPHBODYSIZEHEIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE50EE0)
+#define RPG_GAMECORE_PHOTOGRAPHBODYSIZEHEIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE50DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphBodySizeHeightConfig_TypeDefinitionIndex = 19054;
+	inline static constexpr unsigned int PhotoGraphBodySizeHeightConfig_TypeDefinitionIndex = 19241;
 
 	class PhotoGraphBodySizeHeightConfig : public ::RPG::GameCore::JsonConfig
 	{

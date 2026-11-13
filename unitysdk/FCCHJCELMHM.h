@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LittleGameProxyEntityConfig; }
 
-#define FCCHJCELMHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA37F40)
+#define FCCHJCELMHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C202630)
 
-inline static constexpr unsigned int FCCHJCELMHM_TypeDefinitionIndex = 42033;
+inline static constexpr unsigned int FCCHJCELMHM_TypeDefinitionIndex = 43008;
 
 	class FCCHJCELMHM : public ::System::Object
 	{

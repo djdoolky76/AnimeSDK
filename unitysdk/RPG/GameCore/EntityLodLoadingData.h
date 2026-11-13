@@ -8,13 +8,13 @@ namespace RPG::GameCore { class EntityLodLoadingData; }
 namespace RPG::GameCore { class EntitySpawnConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D64A550)
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D64A590)
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D64A4E0)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0EFCA0)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1F0EFCE0)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0F0240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodLoadingData_TypeDefinitionIndex = 19216;
+	inline static constexpr unsigned int EntityLodLoadingData_TypeDefinitionIndex = 19406;
 
 	class EntityLodLoadingData : public ::RPG::GameCore::EntityLodLoadingArtData
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AnimatorStateZoneDescConfig; }
 namespace RPG::GameCore { class AnimatorStateZoneNewConfig; }
 
-#define RPG_GAMECORE_ANIMATORSTATEZONENEWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C7620)
-#define RPG_GAMECORE_ANIMATORSTATEZONENEWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3C7560)
+#define RPG_GAMECORE_ANIMATORSTATEZONENEWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAC8D0)
+#define RPG_GAMECORE_ANIMATORSTATEZONENEWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEAC810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorStateZoneNewConfig_TypeDefinitionIndex = 16330;
+	inline static constexpr unsigned int AnimatorStateZoneNewConfig_TypeDefinitionIndex = 16493;
 
 	class AnimatorStateZoneNewConfig : public ::RPG::GameCore::JsonConfig
 	{

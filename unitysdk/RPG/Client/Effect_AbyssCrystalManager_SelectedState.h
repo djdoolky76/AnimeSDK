@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AbyssCrystalManager_SelectedState_TypeDefinitionIndex = 70423;
+	inline static constexpr unsigned int Effect_AbyssCrystalManager_SelectedState_TypeDefinitionIndex = 72390;
 
 	enum class Effect_AbyssCrystalManager_SelectedState : ::System::Int32
 	{

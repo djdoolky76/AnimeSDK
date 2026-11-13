@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DEFINEDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CD1A0)
-#define RPG_GAMECORE_DEFINEDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CD210)
-#define RPG_GAMECORE_DEFINEDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CD110)
+#define RPG_GAMECORE_DEFINEDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F006530)
+#define RPG_GAMECORE_DEFINEDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0065A0)
+#define RPG_GAMECORE_DEFINEDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0064A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DefineDynamicValue_TypeDefinitionIndex = 22899;
+	inline static constexpr unsigned int DefineDynamicValue_TypeDefinitionIndex = 23325;
 
 	class DefineDynamicValue : public ::RPG::GameCore::TaskConfig
 	{

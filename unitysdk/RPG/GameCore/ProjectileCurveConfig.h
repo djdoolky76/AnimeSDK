@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class ProjectileCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_PROJECTILECURVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE712F40)
+#define RPG_GAMECORE_PROJECTILECURVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x19277080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileCurveConfig_TypeDefinitionIndex = 54751;
+	inline static constexpr unsigned int ProjectileCurveConfig_TypeDefinitionIndex = 55918;
 
 	class ProjectileCurveConfig : public ::UnityEngine::ScriptableObject
 	{

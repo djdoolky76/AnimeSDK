@@ -4,18 +4,18 @@
 class NBKKABHMMPP;
 namespace System { class Object; }
 
-#define NBKKABHMMPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAA6FC0)
-#define NBKKABHMMPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA7000)
-#define NBKKABHMMPP___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1EAA7010)
+#define NBKKABHMMPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202E6F60)
+#define NBKKABHMMPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202E6FA0)
+#define NBKKABHMMPP___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x202E6FB0)
 
-inline static constexpr unsigned int NBKKABHMMPP___c_TypeDefinitionIndex = 31643;
+inline static constexpr unsigned int NBKKABHMMPP___c_TypeDefinitionIndex = 32556;
 
 	class NBKKABHMMPP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E330);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C0A0);
 		}
 
 		static ::System::Void _cctor()

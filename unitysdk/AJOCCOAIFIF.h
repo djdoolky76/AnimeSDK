@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AJOCCOAIFIF_TypeDefinitionIndex = 26201;
+inline static constexpr unsigned int AJOCCOAIFIF_TypeDefinitionIndex = 26728;
 
 	enum class AJOCCOAIFIF : ::System::Int32
 	{

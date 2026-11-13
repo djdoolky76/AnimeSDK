@@ -4,11 +4,11 @@
 namespace RPG::Client { class SwordTrainingGameInstance; }
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define JOGBPGMLEGO_CFINKMFANFE_OFFSET UNITYSDK_OFFSET(0xB299CB0)
-#define JOGBPGMLEGO_CTOR_OFFSET UNITYSDK_OFFSET(0xB299BD0)
-#define JOGBPGMLEGO_FMPJJHKCNGG_OFFSET UNITYSDK_OFFSET(0xB299C10)
+#define JOGBPGMLEGO_CFINKMFANFE_OFFSET UNITYSDK_OFFSET(0x1B4DBD50)
+#define JOGBPGMLEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4DBC70)
+#define JOGBPGMLEGO_FMPJJHKCNGG_OFFSET UNITYSDK_OFFSET(0x1B4DBCB0)
 
-inline static constexpr unsigned int JOGBPGMLEGO_TypeDefinitionIndex = 75028;
+inline static constexpr unsigned int JOGBPGMLEGO_TypeDefinitionIndex = 77355;
 
 	class JOGBPGMLEGO : public ::System::Object
 	{

@@ -4,13 +4,13 @@
 namespace RPG::Client::ChenLingGameBoy { class ChenLingGameBoyPlayerRankingListInfo; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD024A00)
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0xD02E4A0)
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET UNITYSDK_OFFSET(0xD02E510)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19ACAAE0)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0x19AD5CD0)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET UNITYSDK_OFFSET(0x19AD5D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimModule___c__DisplayClass3_0_TypeDefinitionIndex = 64212;
+	inline static constexpr unsigned int FiveDimModule___c__DisplayClass3_0_TypeDefinitionIndex = 65657;
 
 	class FiveDimModule___c__DisplayClass3_0 : public ::System::Object
 	{

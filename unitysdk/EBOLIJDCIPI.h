@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IEAMIIFFDKL.h"
 
-#define EBOLIJDCIPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD34630)
+#define EBOLIJDCIPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9AB770)
 
-inline static constexpr unsigned int EBOLIJDCIPI_TypeDefinitionIndex = 25012;
+inline static constexpr unsigned int EBOLIJDCIPI_TypeDefinitionIndex = 25490;
 
 	class EBOLIJDCIPI : public ::IEAMIIFFDKL
 	{

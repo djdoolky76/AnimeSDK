@@ -4,16 +4,16 @@
 namespace RPG::GameCore { class SetDynamicValueByBattleTargetProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LCGEGBAKGFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB60E500)
-#define LCGEGBAKGFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB60E690)
+#define LCGEGBAKGFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC6CDD0)
+#define LCGEGBAKGFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AC6CF60)
 
-inline static constexpr unsigned int LCGEGBAKGFJ_TypeDefinitionIndex = 58538;
+inline static constexpr unsigned int LCGEGBAKGFJ_TypeDefinitionIndex = 59803;
 
 	class LCGEGBAKGFJ
 	{
 	public:
-		::RPG::GameCore::StringHash IKPIIDMENNM; // 0x28
-		::RPG::GameCore::StringHash IOCKIKFGCLK; // 0x2C
+		::RPG::GameCore::StringHash IOCKIKFGCLK; // 0x28
+		::RPG::GameCore::StringHash IKPIIDMENNM; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByBattleTargetProgress* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDynamicValueByBattleTargetProgress*))((::PBYTE)hIl2Cpp + LCGEGBAKGFJ_CTOR_OFFSET))(this, a1, a2);

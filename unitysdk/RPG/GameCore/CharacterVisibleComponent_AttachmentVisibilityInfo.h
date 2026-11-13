@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterVisibleComponent_AttachmentVisibilityInfo_TypeDefinitionIndex = 57217;
+	inline static constexpr unsigned int CharacterVisibleComponent_AttachmentVisibilityInfo_TypeDefinitionIndex = 58444;
 
 	struct alignas(8) CharacterVisibleComponent_AttachmentVisibilityInfo
 	{

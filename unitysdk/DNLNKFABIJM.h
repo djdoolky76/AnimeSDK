@@ -4,17 +4,17 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class SwitchCaseByTeammateCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNLNKFABIJM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD2620)
-#define DNLNKFABIJM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FD2C80)
-#define DNLNKFABIJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FD2810)
+#define DNLNKFABIJM_CTOR_OFFSET UNITYSDK_OFFSET(0x19195770)
+#define DNLNKFABIJM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19195D90)
+#define DNLNKFABIJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19195960)
 
-inline static constexpr unsigned int DNLNKFABIJM_TypeDefinitionIndex = 55677;
+inline static constexpr unsigned int DNLNKFABIJM_TypeDefinitionIndex = 56875;
 
 	class DNLNKFABIJM
 	{
 	public:
-		::KFELGAIGHAP* IHPPIJOMNAP; // 0x28
-		::Il2CppArray<::KFELGAIGHAP*>* ILPALCPKGHE; // 0x30
+		::Il2CppArray<::KFELGAIGHAP*>* ILPALCPKGHE; // 0x28
+		::KFELGAIGHAP* IHPPIJOMNAP; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchCaseByTeammateCount* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchCaseByTeammateCount*))((::PBYTE)hIl2Cpp + DNLNKFABIJM_CTOR_OFFSET))(this, a1, a2);

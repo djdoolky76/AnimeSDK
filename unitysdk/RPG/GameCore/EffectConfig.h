@@ -9,13 +9,13 @@ namespace RPG::GameCore { class EffectConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D601650)
-#define RPG_GAMECORE_EFFECTCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D601670)
-#define RPG_GAMECORE_EFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6010C0)
+#define RPG_GAMECORE_EFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D81A0)
+#define RPG_GAMECORE_EFFECTCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1F0D81C0)
+#define RPG_GAMECORE_EFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D7DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectConfig_TypeDefinitionIndex = 20277;
+	inline static constexpr unsigned int EffectConfig_TypeDefinitionIndex = 20612;
 
 	class EffectConfig : public ::RPG::GameCore::JsonConfig
 	{

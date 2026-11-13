@@ -5,17 +5,17 @@ class HNLKNLJBHDD;
 class PLMODIOCPAF;
 namespace Entitas { template <typename T> class IGroup_1; }
 
-#define JCDBLCKGEIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C5000)
-#define JCDBLCKGEIN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6C50C0)
-#define JCDBLCKGEIN_IDJIPABFBCC_OFFSET UNITYSDK_OFFSET(0x1C6C52E0)
+#define JCDBLCKGEIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C12F790)
+#define JCDBLCKGEIN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C12F850)
+#define JCDBLCKGEIN_IDJIPABFBCC_OFFSET UNITYSDK_OFFSET(0x1C12FA70)
 
-inline static constexpr unsigned int JCDBLCKGEIN_TypeDefinitionIndex = 37144;
+inline static constexpr unsigned int JCDBLCKGEIN_TypeDefinitionIndex = 38072;
 
 	class JCDBLCKGEIN : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup_1<::HNLKNLJBHDD*>* DAAALPNCMNO; // 0x10
-		::PLMODIOCPAF* PDENFEFCAGN; // 0x18
+		::PLMODIOCPAF* PDENFEFCAGN; // 0x10
+		::Entitas::IGroup_1<::HNLKNLJBHDD*>* DAAALPNCMNO; // 0x18
 		::System::Void _ctor(::PLMODIOCPAF* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::PLMODIOCPAF*))((::PBYTE)hIl2Cpp + JCDBLCKGEIN_CTOR_OFFSET))(this, a1);

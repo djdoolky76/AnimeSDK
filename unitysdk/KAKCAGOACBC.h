@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideAdventureCharacterTiltConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KAKCAGOACBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D4230)
-#define KAKCAGOACBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2D4260)
+#define KAKCAGOACBC_CTOR_OFFSET UNITYSDK_OFFSET(0x19DB1730)
+#define KAKCAGOACBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DB1760)
 
-inline static constexpr unsigned int KAKCAGOACBC_TypeDefinitionIndex = 53046;
+inline static constexpr unsigned int KAKCAGOACBC_TypeDefinitionIndex = 54206;
 
 	class KAKCAGOACBC
 	{

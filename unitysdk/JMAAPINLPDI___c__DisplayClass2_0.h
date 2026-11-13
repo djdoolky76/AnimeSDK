@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class KAKADGHNMFK;
 
-#define JMAAPINLPDI___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB251F00)
-#define JMAAPINLPDI___C__DISPLAYCLASS2_0__SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0xB251F10)
+#define JMAAPINLPDI___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A0790)
+#define JMAAPINLPDI___C__DISPLAYCLASS2_0__SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x1A0A07A0)
 
-inline static constexpr unsigned int JMAAPINLPDI___c__DisplayClass2_0_TypeDefinitionIndex = 77546;
+inline static constexpr unsigned int JMAAPINLPDI___c__DisplayClass2_0_TypeDefinitionIndex = 80281;
 
 	class JMAAPINLPDI___c__DisplayClass2_0 : public ::System::Object
 	{

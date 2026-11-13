@@ -9,12 +9,12 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define NDPCHFKPIFL_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xBB4FD60)
-#define NDPCHFKPIFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB502C0)
-#define NDPCHFKPIFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB50220)
-#define NDPCHFKPIFL_EJCEKMOMLPA_OFFSET UNITYSDK_OFFSET(0xBB50080)
+#define NDPCHFKPIFL_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x16FCEDF0)
+#define NDPCHFKPIFL_CTOR_OFFSET UNITYSDK_OFFSET(0x16FCF350)
+#define NDPCHFKPIFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16FCF2B0)
+#define NDPCHFKPIFL_EJCEKMOMLPA_OFFSET UNITYSDK_OFFSET(0x16FCF110)
 
-inline static constexpr unsigned int NDPCHFKPIFL_TypeDefinitionIndex = 77368;
+inline static constexpr unsigned int NDPCHFKPIFL_TypeDefinitionIndex = 79702;
 
 	class NDPCHFKPIFL : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterVisibleInViewMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCOEOFKCACG_CTOR_OFFSET UNITYSDK_OFFSET(0x15C1E190)
-#define HCOEOFKCACG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C1E1C0)
+#define HCOEOFKCACG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7BE390)
+#define HCOEOFKCACG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7BE3C0)
 
-inline static constexpr unsigned int HCOEOFKCACG_TypeDefinitionIndex = 58534;
+inline static constexpr unsigned int HCOEOFKCACG_TypeDefinitionIndex = 59798;
 
 	class HCOEOFKCACG
 	{

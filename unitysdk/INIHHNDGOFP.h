@@ -6,18 +6,18 @@ class GHCECAKHKJP;
 class INIHHNDGOFP;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifier_1; }
 
-#define INIHHNDGOFP_CCTOR_OFFSET UNITYSDK_OFFSET(0x164E18F0)
-#define INIHHNDGOFP_CTOR_OFFSET UNITYSDK_OFFSET(0x164E1890)
-#define INIHHNDGOFP_GETMODIFIER_OFFSET UNITYSDK_OFFSET(0x164E18A0)
+#define INIHHNDGOFP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5EF860)
+#define INIHHNDGOFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5EF800)
+#define INIHHNDGOFP_GETMODIFIER_OFFSET UNITYSDK_OFFSET(0x1A5EF810)
 
-inline static constexpr unsigned int INIHHNDGOFP_TypeDefinitionIndex = 51994;
+inline static constexpr unsigned int INIHHNDGOFP_TypeDefinitionIndex = 53099;
 
 	class INIHHNDGOFP : public ::System::Object
 	{
 	public:
 		static ::INIHHNDGOFP** StaticGet_FMJPMFEDIJL()
 		{
-			return (::INIHHNDGOFP**)UnitySDK::FromName("", "INIHHNDGOFP")->GetStaticField(0x30C0);
+			return (::INIHHNDGOFP**)UnitySDK::FromName("", "INIHHNDGOFP")->GetStaticField(0x56540);
 		}
 
 		::System::Void _ctor()

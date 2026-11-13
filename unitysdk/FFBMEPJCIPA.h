@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MuteTargetTimeSlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FFBMEPJCIPA_CTOR_OFFSET UNITYSDK_OFFSET(0x157247C0)
-#define FFBMEPJCIPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157247F0)
+#define FFBMEPJCIPA_CTOR_OFFSET UNITYSDK_OFFSET(0x130D63D0)
+#define FFBMEPJCIPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x130D6400)
 
-inline static constexpr unsigned int FFBMEPJCIPA_TypeDefinitionIndex = 55230;
+inline static constexpr unsigned int FFBMEPJCIPA_TypeDefinitionIndex = 56411;
 
 	class FFBMEPJCIPA
 	{

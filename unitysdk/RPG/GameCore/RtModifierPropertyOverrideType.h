@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtModifierPropertyOverrideType_TypeDefinitionIndex = 24808;
+	inline static constexpr unsigned int RtModifierPropertyOverrideType_TypeDefinitionIndex = 25288;
 
 	enum class RtModifierPropertyOverrideType : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 class BAEIFJIHOCE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EAEMGNIAMML_CTOR_OFFSET UNITYSDK_OFFSET(0x1266FFA0)
-#define EAEMGNIAMML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1266FFD0)
+#define EAEMGNIAMML_CTOR_OFFSET UNITYSDK_OFFSET(0x181CAAC0)
+#define EAEMGNIAMML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x181CAAF0)
 
-inline static constexpr unsigned int EAEMGNIAMML_TypeDefinitionIndex = 58045;
+inline static constexpr unsigned int EAEMGNIAMML_TypeDefinitionIndex = 59284;
 
 	class EAEMGNIAMML
 	{

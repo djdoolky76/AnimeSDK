@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NNPDAHNCAMK.h"
 
-#define LGDGPIPEMFE_CTOR_OFFSET UNITYSDK_OFFSET(0xB689270)
+#define LGDGPIPEMFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9FA50)
 
-inline static constexpr unsigned int LGDGPIPEMFE_TypeDefinitionIndex = 62370;
+inline static constexpr unsigned int LGDGPIPEMFE_TypeDefinitionIndex = 63783;
 
 	class LGDGPIPEMFE : public ::NNPDAHNCAMK
 	{

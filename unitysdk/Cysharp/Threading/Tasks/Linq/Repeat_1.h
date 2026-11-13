@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Repeat_1_TypeDefinitionIndex = 45544;
+	inline static constexpr unsigned int Repeat_1_TypeDefinitionIndex = 46573;
 
 	template <typename T>
 	class Repeat_1 : public ::System::Object

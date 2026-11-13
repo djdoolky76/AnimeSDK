@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMatchThreeBirdLocation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JMPEMBBBBJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB26DC70)
-#define JMPEMBBBBJL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB26DCA0)
+#define JMPEMBBBBJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BC4A0)
+#define JMPEMBBBBJL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A0BC4D0)
 
-inline static constexpr unsigned int JMPEMBBBBJL_TypeDefinitionIndex = 53011;
+inline static constexpr unsigned int JMPEMBBBBJL_TypeDefinitionIndex = 54170;
 
 	class JMPEMBBBBJL
 	{

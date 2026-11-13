@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/Client/BattleTargetStatus.h"
 namespace UnityEngine { class Transform; }
 
-#define PDIIHJJNNEF_CTOR_OFFSET UNITYSDK_OFFSET(0xC00CDF0)
-#define PDIIHJJNNEF_EDIAINOHBOG_OFFSET UNITYSDK_OFFSET(0xC00CD70)
-#define PDIIHJJNNEF_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xC00CBF0)
-#define PDIIHJJNNEF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC00CC30)
-#define PDIIHJJNNEF__ONBIND_OFFSET UNITYSDK_OFFSET(0xC00CA90)
+#define PDIIHJJNNEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE5800)
+#define PDIIHJJNNEF_EDIAINOHBOG_OFFSET UNITYSDK_OFFSET(0x1AAE5780)
+#define PDIIHJJNNEF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1AAE5640)
+#define PDIIHJJNNEF__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x1AAE5600)
+#define PDIIHJJNNEF__ONBIND_OFFSET UNITYSDK_OFFSET(0x1AAE54A0)
 
-inline static constexpr unsigned int PDIIHJJNNEF_TypeDefinitionIndex = 71844;
+inline static constexpr unsigned int PDIIHJJNNEF_TypeDefinitionIndex = 73865;
 
 	class PDIIHJJNNEF : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* HNALEMBOBFE; // 0x60
+		::UnityEngine::Transform* PCAEEEKLOJM; // 0x60
 		::UnityEngine::Transform* KPJPDALFIIN; // 0x68
-		::UnityEngine::Transform* PCAEEEKLOJM; // 0x70
+		::UnityEngine::Transform* HNALEMBOBFE; // 0x70
 		::RPG::Client::BattleTargetStatus LODNGAGNLCB; // 0x78
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ inline static constexpr unsigned int PDIIHJJNNEF_TypeDefinitionIndex = 71844;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PDIIHJJNNEF__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PDIIHJJNNEF_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PDIIHJJNNEF__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void NKPPGDENJAE(::RPG::Client::BattleTargetStatus a1)

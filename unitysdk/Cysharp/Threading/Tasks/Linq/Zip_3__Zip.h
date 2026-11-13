@@ -10,7 +10,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Zip_3__Zip_TypeDefinitionIndex = 45740;
+	inline static constexpr unsigned int Zip_3__Zip_TypeDefinitionIndex = 46769;
 
 	template <typename T1, typename T2, typename T3>
 	class Zip_3__Zip : public ::Cysharp::Threading::Tasks::MoveNextSource

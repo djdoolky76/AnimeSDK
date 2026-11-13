@@ -4,18 +4,18 @@
 class IPIJFDIPNDE;
 namespace System { class Object; }
 
-#define IPIJFDIPNDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B7CB0)
-#define IPIJFDIPNDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B7CF0)
-#define IPIJFDIPNDE___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E6B7D00)
+#define IPIJFDIPNDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEE4B30)
+#define IPIJFDIPNDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEE4B70)
+#define IPIJFDIPNDE___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1FEE4B80)
 
-inline static constexpr unsigned int IPIJFDIPNDE___c_TypeDefinitionIndex = 25757;
+inline static constexpr unsigned int IPIJFDIPNDE___c_TypeDefinitionIndex = 26254;
 
 	class IPIJFDIPNDE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55420);
 		}
 
 		static ::System::Void _cctor()

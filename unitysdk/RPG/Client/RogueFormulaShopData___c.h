@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueFormulaShopItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEFORMULASHOPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEFFDD0)
-#define RPG_CLIENT_ROGUEFORMULASHOPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEFFE10)
-#define RPG_CLIENT_ROGUEFORMULASHOPDATA___C___REPORTBUYFORMULA_B__6_0_OFFSET UNITYSDK_OFFSET(0xDEFFE20)
+#define RPG_CLIENT_ROGUEFORMULASHOPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBF72F0)
+#define RPG_CLIENT_ROGUEFORMULASHOPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF7330)
+#define RPG_CLIENT_ROGUEFORMULASHOPDATA___C___REPORTBUYFORMULA_B__6_0_OFFSET UNITYSDK_OFFSET(0x1CBF7340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFormulaShopData___c_TypeDefinitionIndex = 67331;
+	inline static constexpr unsigned int RogueFormulaShopData___c_TypeDefinitionIndex = 69275;
 
 	class RogueFormulaShopData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63A60);
-		}
-
 		static ::System::Func_2<::RPG::Client::RogueFormulaShopItemData*, ::System::UInt32>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueFormulaShopItemData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63A68);
+			return (::System::Func_2<::RPG::Client::RogueFormulaShopItemData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71300);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71308);
 		}
 
 		static ::System::Void _cctor()

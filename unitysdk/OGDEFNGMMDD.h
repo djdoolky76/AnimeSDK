@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleAddBuff; }
 
-#define OGDEFNGMMDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95EC20)
-#define OGDEFNGMMDD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C95EC30)
+#define OGDEFNGMMDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06D380)
+#define OGDEFNGMMDD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1E06D390)
 
-inline static constexpr unsigned int OGDEFNGMMDD_TypeDefinitionIndex = 43095;
+inline static constexpr unsigned int OGDEFNGMMDD_TypeDefinitionIndex = 44076;
 
 	class OGDEFNGMMDD : public ::BKABEBEPPJK
 	{

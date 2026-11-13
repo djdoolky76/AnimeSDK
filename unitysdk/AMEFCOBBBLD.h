@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByFastDeliverFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMEFCOBBBLD_CTOR_OFFSET UNITYSDK_OFFSET(0x15570740)
-#define AMEFCOBBBLD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15570770)
+#define AMEFCOBBBLD_CTOR_OFFSET UNITYSDK_OFFSET(0x197D65E0)
+#define AMEFCOBBBLD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x197D6610)
 
-inline static constexpr unsigned int AMEFCOBBBLD_TypeDefinitionIndex = 53113;
+inline static constexpr unsigned int AMEFCOBBBLD_TypeDefinitionIndex = 54275;
 
 	class AMEFCOBBBLD
 	{

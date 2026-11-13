@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D688800)
-#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D688810)
-#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6887D0)
+#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8558E0)
+#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8558F0)
+#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8558B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimConveyorConfig_TypeDefinitionIndex = 18597;
+	inline static constexpr unsigned int FiveDimConveyorConfig_TypeDefinitionIndex = 18757;
 
 	class FiveDimConveyorConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

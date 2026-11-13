@@ -4,9 +4,9 @@
 class FEFFMCCAOCO;
 namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 
-#define LKCGENHMMLF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C70E910)
+#define LKCGENHMMLF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1AC1E160)
 
-inline static constexpr unsigned int LKCGENHMMLF_TypeDefinitionIndex = 37137;
+inline static constexpr unsigned int LKCGENHMMLF_TypeDefinitionIndex = 38065;
 
 	class LKCGENHMMLF : public ::System::Object
 	{

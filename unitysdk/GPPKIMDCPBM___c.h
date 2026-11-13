@@ -4,18 +4,18 @@
 class GPPKIMDCPBM;
 namespace System { class Object; }
 
-#define GPPKIMDCPBM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4D3850)
-#define GPPKIMDCPBM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4D3890)
-#define GPPKIMDCPBM___C___CCTOR_B__76_0_OFFSET UNITYSDK_OFFSET(0x1E4D38A0)
+#define GPPKIMDCPBM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD08CD0)
+#define GPPKIMDCPBM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD08D10)
+#define GPPKIMDCPBM___C___CCTOR_B__76_0_OFFSET UNITYSDK_OFFSET(0x1FD08D20)
 
-inline static constexpr unsigned int GPPKIMDCPBM___c_TypeDefinitionIndex = 31101;
+inline static constexpr unsigned int GPPKIMDCPBM___c_TypeDefinitionIndex = 32014;
 
 	class GPPKIMDCPBM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x246A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E220);
 		}
 
 		static ::System::Void _cctor()

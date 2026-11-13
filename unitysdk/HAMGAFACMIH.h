@@ -6,20 +6,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ModifierAttachEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HAMGAFACMIH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B87A40)
-#define HAMGAFACMIH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B87A50)
-#define HAMGAFACMIH_MKGEJPKAPLO_OFFSET UNITYSDK_OFFSET(0x15B88B10)
-#define HAMGAFACMIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B87A90)
-#define HAMGAFACMIH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B88C10)
-#define HAMGAFACMIH_TICK_OFFSET UNITYSDK_OFFSET(0x15B88C60)
+#define HAMGAFACMIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1438F0)
+#define HAMGAFACMIH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C143900)
+#define HAMGAFACMIH_MKGEJPKAPLO_OFFSET UNITYSDK_OFFSET(0x1C1449C0)
+#define HAMGAFACMIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C143940)
+#define HAMGAFACMIH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C144AC0)
+#define HAMGAFACMIH_TICK_OFFSET UNITYSDK_OFFSET(0x1C144B10)
 
-inline static constexpr unsigned int HAMGAFACMIH_TypeDefinitionIndex = 55176;
+inline static constexpr unsigned int HAMGAFACMIH_TypeDefinitionIndex = 56357;
 
 	class HAMGAFACMIH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ModifierAttachEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ModifierAttachEffect* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifierAttachEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifierAttachEffect*))((::PBYTE)hIl2Cpp + HAMGAFACMIH_CTOR_OFFSET))(this, a1, a2);

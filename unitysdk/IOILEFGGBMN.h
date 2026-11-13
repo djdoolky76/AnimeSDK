@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KGIBAGMFENA;
 
-#define IOILEFGGBMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C110)
+#define IOILEFGGBMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC48F60)
 
-inline static constexpr unsigned int IOILEFGGBMN_TypeDefinitionIndex = 43202;
+inline static constexpr unsigned int IOILEFGGBMN_TypeDefinitionIndex = 44183;
 
 	class IOILEFGGBMN : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartTrackPhoto; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKJFJNAAHPL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA56110)
-#define BKJFJNAAHPL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA56140)
+#define BKJFJNAAHPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A667020)
+#define BKJFJNAAHPL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A667050)
 
-inline static constexpr unsigned int BKJFJNAAHPL_TypeDefinitionIndex = 53293;
+inline static constexpr unsigned int BKJFJNAAHPL_TypeDefinitionIndex = 54455;
 
 	class BKJFJNAAHPL
 	{

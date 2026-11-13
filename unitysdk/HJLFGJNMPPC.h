@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define HJLFGJNMPPC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2E7FEB0)
+#define HJLFGJNMPPC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3DFC3D0)
 
-inline static constexpr unsigned int HJLFGJNMPPC_TypeDefinitionIndex = 71104;
+inline static constexpr unsigned int HJLFGJNMPPC_TypeDefinitionIndex = 73087;
 
 	struct alignas(4) HJLFGJNMPPC
 	{

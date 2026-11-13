@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GameModeGroupRow; }
 
-#define RPG_GAMECORE_GAMEMODEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E9A90)
-#define RPG_GAMECORE_GAMEMODEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6E9940)
+#define RPG_GAMECORE_GAMEMODEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED7C480)
+#define RPG_GAMECORE_GAMEMODEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED7C330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameModeGroupRow_TypeDefinitionIndex = 12886;
+	inline static constexpr unsigned int GameModeGroupRow_TypeDefinitionIndex = 12958;
 
 	class GameModeGroupRow : public ::System::Object
 	{

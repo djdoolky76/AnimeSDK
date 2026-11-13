@@ -4,18 +4,18 @@
 class DOEONJEAGPA;
 namespace System { class Object; }
 
-#define DOEONJEAGPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1D2730)
-#define DOEONJEAGPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D2770)
-#define DOEONJEAGPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1D2780)
+#define DOEONJEAGPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7581D0)
+#define DOEONJEAGPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F758210)
+#define DOEONJEAGPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F758220)
 
-inline static constexpr unsigned int DOEONJEAGPA___c_TypeDefinitionIndex = 33693;
+inline static constexpr unsigned int DOEONJEAGPA___c_TypeDefinitionIndex = 34608;
 
 	class DOEONJEAGPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37DE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x389B0);
 		}
 
 		static ::System::Void _cctor()

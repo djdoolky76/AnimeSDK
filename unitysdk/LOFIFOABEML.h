@@ -5,18 +5,18 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Side_ElfPlayEntityBehavior; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOFIFOABEML_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F8820)
-#define LOFIFOABEML_NCBOBIOODAP_OFFSET UNITYSDK_OFFSET(0xB7F8AA0)
-#define LOFIFOABEML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7F8850)
-#define LOFIFOABEML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7F8DA0)
+#define LOFIFOABEML_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5ACDA0)
+#define LOFIFOABEML_NCBOBIOODAP_OFFSET UNITYSDK_OFFSET(0x1A5AD020)
+#define LOFIFOABEML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5ACDD0)
+#define LOFIFOABEML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A5AD320)
 
-inline static constexpr unsigned int LOFIFOABEML_TypeDefinitionIndex = 52178;
+inline static constexpr unsigned int LOFIFOABEML_TypeDefinitionIndex = 53283;
 
 	class LOFIFOABEML
 	{
 	public:
-		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
-		::RPG::Client::LittleGame::ElfRestaurantGameEntity* DKPFOJDAALN; // 0x30
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* DKPFOJDAALN; // 0x28
+		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_ElfPlayEntityBehavior* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Side_ElfPlayEntityBehavior*))((::PBYTE)hIl2Cpp + LOFIFOABEML_CTOR_OFFSET))(this, a1, a2);

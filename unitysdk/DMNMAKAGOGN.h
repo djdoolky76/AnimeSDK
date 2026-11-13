@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetModelDynamicLoadPriority; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMNMAKAGOGN_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC1880)
-#define DMNMAKAGOGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEC18B0)
+#define DMNMAKAGOGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1869F6D0)
+#define DMNMAKAGOGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1869F700)
 
-inline static constexpr unsigned int DMNMAKAGOGN_TypeDefinitionIndex = 58587;
+inline static constexpr unsigned int DMNMAKAGOGN_TypeDefinitionIndex = 59852;
 
 	class DMNMAKAGOGN
 	{

@@ -8,27 +8,27 @@ namespace RPG::GameCore { class MonsterTemplateRow; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONSTERARCHIVEENTRY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD8B0650)
-#define RPG_CLIENT_MONSTERARCHIVEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B0540)
-#define RPG_CLIENT_MONSTERARCHIVEENTRY_GET_MONSTERPHASES_OFFSET UNITYSDK_OFFSET(0xD8B0CD0)
-#define RPG_CLIENT_MONSTERARCHIVEENTRY_GET_ROW_OFFSET UNITYSDK_OFFSET(0xD8AFD70)
-#define RPG_CLIENT_MONSTERARCHIVEENTRY_GET_SORTID_OFFSET UNITYSDK_OFFSET(0xD8B0C20)
-#define RPG_CLIENT_MONSTERARCHIVEENTRY_RESET_OFFSET UNITYSDK_OFFSET(0xD8B05D0)
-#define RPG_CLIENT_MONSTERARCHIVEENTRY_SETDISPLAYMONSTERID_OFFSET UNITYSDK_OFFSET(0xD8B0580)
-#define RPG_CLIENT_MONSTERARCHIVEENTRY__INITPHASEDATA_OFFSET UNITYSDK_OFFSET(0xD8B0940)
+#define RPG_CLIENT_MONSTERARCHIVEENTRY_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1A167090)
+#define RPG_CLIENT_MONSTERARCHIVEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1A166F80)
+#define RPG_CLIENT_MONSTERARCHIVEENTRY_GET_MONSTERPHASES_OFFSET UNITYSDK_OFFSET(0x1A167710)
+#define RPG_CLIENT_MONSTERARCHIVEENTRY_GET_ROW_OFFSET UNITYSDK_OFFSET(0x1A1667B0)
+#define RPG_CLIENT_MONSTERARCHIVEENTRY_GET_SORTID_OFFSET UNITYSDK_OFFSET(0x1A167660)
+#define RPG_CLIENT_MONSTERARCHIVEENTRY_RESET_OFFSET UNITYSDK_OFFSET(0x1A167010)
+#define RPG_CLIENT_MONSTERARCHIVEENTRY_SETDISPLAYMONSTERID_OFFSET UNITYSDK_OFFSET(0x1A166FC0)
+#define RPG_CLIENT_MONSTERARCHIVEENTRY__INITPHASEDATA_OFFSET UNITYSDK_OFFSET(0x1A167380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterArchiveEntry_TypeDefinitionIndex = 62430;
+	inline static constexpr unsigned int MonsterArchiveEntry_TypeDefinitionIndex = 63843;
 
 	class MonsterArchiveEntry : public ::RPG::Client::BaseArchiveEntry
 	{
 	public:
 		::RPG::Client::MonsterArchiveData* OwnerArchiveData; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::ArchiveMonsterPhaseData*>* _MonsterPhases; // 0x28
-		::RPG::GameCore::MonsterTemplateRow* _Row; // 0x30
-		::System::UInt32 _RealMonsterID; // 0x38
-		::System::UInt32 KillCount; // 0x3C
+		::RPG::GameCore::MonsterTemplateRow* _Row; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::ArchiveMonsterPhaseData*>* _MonsterPhases; // 0x30
+		::System::UInt32 KillCount; // 0x38
+		::System::UInt32 _RealMonsterID; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERARCHIVEENTRY_CTOR_OFFSET))(this);

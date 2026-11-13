@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GEJDLMKEEJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA5AFF0)
+#define GEJDLMKEEJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C225780)
 
-inline static constexpr unsigned int GEJDLMKEEJJ_TypeDefinitionIndex = 42356;
+inline static constexpr unsigned int GEJDLMKEEJJ_TypeDefinitionIndex = 43331;
 
 	class GEJDLMKEEJJ : public ::System::Object
 	{

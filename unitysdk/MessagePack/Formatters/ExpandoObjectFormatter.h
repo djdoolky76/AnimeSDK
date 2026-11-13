@@ -7,21 +7,21 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Dynamic { class ExpandoObject; }
 
-#define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB53B50)
-#define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB52D90)
-#define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB52DA0)
-#define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB53370)
+#define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17492A10)
+#define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x17491C50)
+#define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17491C60)
+#define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17492230)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ExpandoObjectFormatter_TypeDefinitionIndex = 7430;
+	inline static constexpr unsigned int ExpandoObjectFormatter_TypeDefinitionIndex = 7441;
 
 	class ExpandoObjectFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Dynamic::ExpandoObject*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Dynamic::ExpandoObject*>**)UnitySDK::FromName("MessagePack.Formatters", "ExpandoObjectFormatter")->GetStaticField(0x485E0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Dynamic::ExpandoObject*>**)UnitySDK::FromName("MessagePack.Formatters", "ExpandoObjectFormatter")->GetStaticField(0x2C5B0);
 		}
 
 		::System::Void _ctor()

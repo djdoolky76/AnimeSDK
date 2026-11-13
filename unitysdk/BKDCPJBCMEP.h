@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableAdvEntityIgnoreAirshipCarCollision; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKDCPJBCMEP_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A8E70)
-#define BKDCPJBCMEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7A8EA0)
+#define BKDCPJBCMEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A648480)
+#define BKDCPJBCMEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A6484B0)
 
-inline static constexpr unsigned int BKDCPJBCMEP_TypeDefinitionIndex = 52742;
+inline static constexpr unsigned int BKDCPJBCMEP_TypeDefinitionIndex = 53886;
 
 	class BKDCPJBCMEP
 	{

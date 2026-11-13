@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftEntranceStartStatus_TypeDefinitionIndex = 79633;
+	inline static constexpr unsigned int MechCraftEntranceStartStatus_TypeDefinitionIndex = 82410;
 
 	enum class MechCraftEntranceStartStatus : ::System::Int32
 	{

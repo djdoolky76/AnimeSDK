@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class HideMissionInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHLLEJILKNA_CTOR_OFFSET UNITYSDK_OFFSET(0xEB824B0)
-#define AHLLEJILKNA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB824C0)
-#define AHLLEJILKNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB82500)
-#define AHLLEJILKNA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB825B0)
-#define AHLLEJILKNA_TICK_OFFSET UNITYSDK_OFFSET(0xEB82600)
+#define AHLLEJILKNA_CTOR_OFFSET UNITYSDK_OFFSET(0x19B28190)
+#define AHLLEJILKNA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19B281A0)
+#define AHLLEJILKNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19B281E0)
+#define AHLLEJILKNA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19B28290)
+#define AHLLEJILKNA_TICK_OFFSET UNITYSDK_OFFSET(0x19B282E0)
 
-inline static constexpr unsigned int AHLLEJILKNA_TypeDefinitionIndex = 52925;
+inline static constexpr unsigned int AHLLEJILKNA_TypeDefinitionIndex = 54081;
 
 	class AHLLEJILKNA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::HideMissionInfo* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::HideMissionInfo* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HideMissionInfo* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::HideMissionInfo*))((::PBYTE)hIl2Cpp + AHLLEJILKNA_CTOR_OFFSET))(this, a1, a2);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Version; }
 
-#define PJOBMDBCOFN_CTOR_OFFSET UNITYSDK_OFFSET(0xC2968E0)
+#define PJOBMDBCOFN_CTOR_OFFSET UNITYSDK_OFFSET(0x147A1C90)
 
-inline static constexpr unsigned int PJOBMDBCOFN_TypeDefinitionIndex = 82245;
+inline static constexpr unsigned int PJOBMDBCOFN_TypeDefinitionIndex = 85118;
 
 	class PJOBMDBCOFN : public ::System::Object
 	{

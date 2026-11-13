@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class NEGNFCCGONN;
 
-#define MGGBLGPPJGD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8FC3E0)
-#define MGGBLGPPJGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FC440)
+#define MGGBLGPPJGD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C261560)
+#define MGGBLGPPJGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2615E0)
 
-inline static constexpr unsigned int MGGBLGPPJGD_TypeDefinitionIndex = 43502;
+inline static constexpr unsigned int MGGBLGPPJGD_TypeDefinitionIndex = 44484;
 
 	class MGGBLGPPJGD : public ::System::Object
 	{

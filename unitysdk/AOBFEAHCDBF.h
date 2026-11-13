@@ -5,18 +5,18 @@ namespace RPG::GameCore { class GridFightDivisionLevelShowRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AOBFEAHCDBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1589AC10)
-#define AOBFEAHCDBF_MEFBDHPONOI_OFFSET UNITYSDK_OFFSET(0x1589A810)
-#define AOBFEAHCDBF_PLLCOOEJGAF_OFFSET UNITYSDK_OFFSET(0x1589A8A0)
+#define AOBFEAHCDBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A83FAC0)
+#define AOBFEAHCDBF_MEFBDHPONOI_OFFSET UNITYSDK_OFFSET(0x1A83F6C0)
+#define AOBFEAHCDBF_PLLCOOEJGAF_OFFSET UNITYSDK_OFFSET(0x1A83F750)
 
-inline static constexpr unsigned int AOBFEAHCDBF_TypeDefinitionIndex = 64571;
+inline static constexpr unsigned int AOBFEAHCDBF_TypeDefinitionIndex = 66101;
 
 	class AOBFEAHCDBF : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::GridFightDivisionLevelShowRow*>*>** StaticGet_GDAGMHIHPGP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::GridFightDivisionLevelShowRow*>*>**)UnitySDK::FromName("", "AOBFEAHCDBF")->GetStaticField(0x5E1A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::GridFightDivisionLevelShowRow*>*>**)UnitySDK::FromName("", "AOBFEAHCDBF")->GetStaticField(0x589D0);
 		}
 
 		::System::Void _ctor()

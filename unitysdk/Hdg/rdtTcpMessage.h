@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessage_TypeDefinitionIndex = 46976;
+	inline static constexpr unsigned int rdtTcpMessage_TypeDefinitionIndex = 48004;
 
 	class rdtTcpMessage
 	{

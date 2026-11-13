@@ -8,10 +8,10 @@ class FCOEMCEDLNL;
 class KCALGNOKBJH;
 namespace System { class String; }
 
-#define KCALGNOKBJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0373A0)
-#define KCALGNOKBJH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0370D0)
+#define KCALGNOKBJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F944830)
+#define KCALGNOKBJH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F944560)
 
-inline static constexpr unsigned int KCALGNOKBJH_TypeDefinitionIndex = 15059;
+inline static constexpr unsigned int KCALGNOKBJH_TypeDefinitionIndex = 15215;
 
 	class KCALGNOKBJH : public ::System::Object
 	{
@@ -19,9 +19,9 @@ inline static constexpr unsigned int KCALGNOKBJH_TypeDefinitionIndex = 15059;
 		::System::String* OLOIFNNLKJP; // 0x10
 		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x18
 		::RPG::Client::TextID NMAHGFAPENI; // 0x20
-		::RPG::Client::TextID MJOOFPBABEA; // 0x30
-		::System::UInt32 HHPFKDEBMGP; // 0x40
-		::RPG::GameCore::RogueRoomAttributeCategory OOMBNFMJLEO; // 0x44
+		::RPG::GameCore::RogueRoomAttributeCategory OOMBNFMJLEO; // 0x30
+		::System::UInt32 HHPFKDEBMGP; // 0x34
+		::RPG::Client::TextID MJOOFPBABEA; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KCALGNOKBJH_CTOR_OFFSET))(this);

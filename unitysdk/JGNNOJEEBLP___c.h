@@ -4,18 +4,18 @@
 class JGNNOJEEBLP;
 namespace System { class Object; }
 
-#define JGNNOJEEBLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E711260)
-#define JGNNOJEEBLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7112A0)
-#define JGNNOJEEBLP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7112B0)
+#define JGNNOJEEBLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204A7570)
+#define JGNNOJEEBLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204A75B0)
+#define JGNNOJEEBLP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x204A75C0)
 
-inline static constexpr unsigned int JGNNOJEEBLP___c_TypeDefinitionIndex = 34995;
+inline static constexpr unsigned int JGNNOJEEBLP___c_TypeDefinitionIndex = 35923;
 
 	class JGNNOJEEBLP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E950);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60540);
 		}
 
 		static ::System::Void _cctor()

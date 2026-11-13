@@ -4,18 +4,18 @@
 class DDOOEDOKEPF;
 namespace System { class Object; }
 
-#define DDOOEDOKEPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E15EF20)
-#define DDOOEDOKEPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E15EF60)
-#define DDOOEDOKEPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E15EF70)
+#define DDOOEDOKEPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF9F4B0)
+#define DDOOEDOKEPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF9F4F0)
+#define DDOOEDOKEPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FF9F500)
 
-inline static constexpr unsigned int DDOOEDOKEPF___c_TypeDefinitionIndex = 30904;
+inline static constexpr unsigned int DDOOEDOKEPF___c_TypeDefinitionIndex = 31817;
 
 	class DDOOEDOKEPF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A790);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22F40);
 		}
 
 		static ::System::Void _cctor()

@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0E9540)
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E9580)
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__GETSTATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F0E9590)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F15CAD0)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F15CB10)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__GETSTATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F15CB20)
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 38709;
+	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 39638;
 
 	class StateMachineUtility___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "<>c")->GetStaticField(0x36950);
-		}
-
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "<>c")->GetStaticField(0x36958);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "<>c")->GetStaticField(0x32000);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "<>c")->GetStaticField(0x32008);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@ class NLHACPDMPIC;
 namespace RPG::Client::DiceCombat { class DiceCombatChangeDicePageParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define NLHACPDMPIC___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC62A10)
-#define NLHACPDMPIC___C__DISPLAYCLASS27_0__HANDLESHOWCHANGEDICEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xBC64C80)
+#define NLHACPDMPIC___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A425F90)
+#define NLHACPDMPIC___C__DISPLAYCLASS27_0__HANDLESHOWCHANGEDICEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1A428200)
 
-inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass27_0_TypeDefinitionIndex = 76187;
+inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass27_0_TypeDefinitionIndex = 78514;
 
 	class NLHACPDMPIC___c__DisplayClass27_0 : public ::System::Object
 	{

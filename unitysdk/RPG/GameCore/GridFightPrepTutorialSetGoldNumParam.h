@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightPrepTutorialSetGoldNumParam; }
 
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALSETGOLDNUMPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70D710)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALSETGOLDNUMPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D70D450)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALSETGOLDNUMPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA59730)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALSETGOLDNUMPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA59470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialSetGoldNumParam_TypeDefinitionIndex = 19969;
+	inline static constexpr unsigned int GridFightPrepTutorialSetGoldNumParam_TypeDefinitionIndex = 20299;
 
 	class GridFightPrepTutorialSetGoldNumParam : public ::RPG::GameCore::JsonConfig
 	{

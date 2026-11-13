@@ -5,25 +5,25 @@ namespace RPG::Client { class MonopolyJackpotData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONOPOLYJACKPOTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD895260)
-#define RPG_CLIENT_MONOPOLYJACKPOTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD8952A0)
-#define RPG_CLIENT_MONOPOLYJACKPOTINFO___C__GETJACKPOTDATAS_B__8_0_OFFSET UNITYSDK_OFFSET(0xD8952B0)
+#define RPG_CLIENT_MONOPOLYJACKPOTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D802D50)
+#define RPG_CLIENT_MONOPOLYJACKPOTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D802D90)
+#define RPG_CLIENT_MONOPOLYJACKPOTINFO___C__GETJACKPOTDATAS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D802DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyJackpotInfo___c_TypeDefinitionIndex = 66264;
+	inline static constexpr unsigned int MonopolyJackpotInfo___c_TypeDefinitionIndex = 68200;
 
 	class MonopolyJackpotInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6ACD0);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::MonopolyJackpotData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonopolyJackpotData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6ACD8);
+			return (::System::Comparison_1<::RPG::Client::MonopolyJackpotData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x716A0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x716A8);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class TriggerEventConfig; }
 
-#define RPG_GAMECORE_TRIGGEREVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC25110)
-#define RPG_GAMECORE_TRIGGEREVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC24F80)
+#define RPG_GAMECORE_TRIGGEREVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E32F960)
+#define RPG_GAMECORE_TRIGGEREVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E32F7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEventConfig_TypeDefinitionIndex = 18636;
+	inline static constexpr unsigned int TriggerEventConfig_TypeDefinitionIndex = 18796;
 
 	class TriggerEventConfig : public ::RPG::GameCore::JsonConfig
 	{

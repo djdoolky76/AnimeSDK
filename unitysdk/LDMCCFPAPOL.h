@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LDMCCFPAPOL_TypeDefinitionIndex = 34901;
+inline static constexpr unsigned int LDMCCFPAPOL_TypeDefinitionIndex = 35829;
 
 	enum class LDMCCFPAPOL : ::System::Int32
 	{

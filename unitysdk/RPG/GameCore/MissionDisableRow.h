@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionDisableRow; }
 
-#define RPG_GAMECORE_MISSIONDISABLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D858B70)
-#define RPG_GAMECORE_MISSIONDISABLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D858930)
+#define RPG_GAMECORE_MISSIONDISABLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6EB120)
+#define RPG_GAMECORE_MISSIONDISABLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6EAEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionDisableRow_TypeDefinitionIndex = 14160;
+	inline static constexpr unsigned int MissionDisableRow_TypeDefinitionIndex = 14317;
 
 	class MissionDisableRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CompensateItemList; // 0x10
-		::Il2CppArray<::System::UInt32>* RecycleItemList; // 0x18
-		::Il2CppArray<::System::UInt32>* MainMissionIDListClientDisplay; // 0x20
-		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x28
+		::Il2CppArray<::System::UInt32>* MainMissionIDListClientDisplay; // 0x18
+		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* RecycleItemList; // 0x28
 		::System::UInt32 SubMissionID; // 0x30
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleSkillTokenType_TypeDefinitionIndex = 54244;
+	inline static constexpr unsigned int RtBattleSkillTokenType_TypeDefinitionIndex = 55408;
 
 	enum class RtBattleSkillTokenType : ::System::Int32
 	{

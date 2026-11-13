@@ -5,17 +5,17 @@ namespace RPG::Client { class CameraNormalConfigData; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace RPG::GameCore { class VCameraNoiseChange; }
 
-#define PNDIOOHCBLB_CLEAR_OFFSET UNITYSDK_OFFSET(0xC32CDB0)
-#define PNDIOOHCBLB_CTOR_OFFSET UNITYSDK_OFFSET(0xC32CE00)
+#define PNDIOOHCBLB_CLEAR_OFFSET UNITYSDK_OFFSET(0x184AB490)
+#define PNDIOOHCBLB_CTOR_OFFSET UNITYSDK_OFFSET(0x184AB4E0)
 
-inline static constexpr unsigned int PNDIOOHCBLB_TypeDefinitionIndex = 69532;
+inline static constexpr unsigned int PNDIOOHCBLB_TypeDefinitionIndex = 71489;
 
 	class PNDIOOHCBLB : public ::System::Object
 	{
 	public:
 		::RPG::Client::CameraNormalConfigData* HBILPEKJFNM; // 0x10
-		::RPG::GameCore::VCameraBlend* HCHJHLOHCMI; // 0x18
-		::RPG::GameCore::VCameraNoiseChange* FNPOMHPFKAO; // 0x20
+		::RPG::GameCore::VCameraNoiseChange* FNPOMHPFKAO; // 0x18
+		::RPG::GameCore::VCameraBlend* HCHJHLOHCMI; // 0x20
 		::System::Single IFEPJHGNCOI; // 0x28
 		::System::Boolean HHMIBOCMBPI; // 0x2C
 		::System::Void _ctor()

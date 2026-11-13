@@ -3,7 +3,7 @@
 class MNBNFBAMKKI;
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int JLBPMGGAFJE_TypeDefinitionIndex = 53771;
+inline static constexpr unsigned int JLBPMGGAFJE_TypeDefinitionIndex = 54935;
 
 	struct alignas(8) JLBPMGGAFJE
 	{

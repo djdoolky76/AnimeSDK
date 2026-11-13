@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_ENTITYINDEXGETMETHODATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x16749130)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_ENTITYINDEXGETMETHODATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x208503D0)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int EntityIndexGetMethodAttribute_TypeDefinitionIndex = 10079;
+	inline static constexpr unsigned int EntityIndexGetMethodAttribute_TypeDefinitionIndex = 10087;
 
 	class EntityIndexGetMethodAttribute : public ::System::Attribute
 	{

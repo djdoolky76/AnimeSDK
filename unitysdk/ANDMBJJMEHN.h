@@ -4,9 +4,9 @@
 class JNLPFBDFNIJ;
 namespace System { class String; }
 
-#define ANDMBJJMEHN_EHPMDNDMLJN_OFFSET UNITYSDK_OFFSET(0x1C405470)
+#define ANDMBJJMEHN_EHPMDNDMLJN_OFFSET UNITYSDK_OFFSET(0x15AC7F00)
 
-inline static constexpr unsigned int ANDMBJJMEHN_TypeDefinitionIndex = 41446;
+inline static constexpr unsigned int ANDMBJJMEHN_TypeDefinitionIndex = 42421;
 
 	class ANDMBJJMEHN : public ::System::Object
 	{

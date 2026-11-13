@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class PetMarbleBuffText; }
 
-#define BMOBKFLCFLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88EE60)
-#define BMOBKFLCFLO_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C88EE70)
+#define BMOBKFLCFLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B9620)
+#define BMOBKFLCFLO_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1D2B9630)
 
-inline static constexpr unsigned int BMOBKFLCFLO_TypeDefinitionIndex = 43105;
+inline static constexpr unsigned int BMOBKFLCFLO_TypeDefinitionIndex = 44086;
 
 	class BMOBKFLCFLO : public ::BKABEBEPPJK
 	{

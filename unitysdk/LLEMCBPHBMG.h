@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PerformanceReplay_SetGroupProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLEMCBPHBMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB75DB20)
-#define LLEMCBPHBMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB75DB50)
+#define LLEMCBPHBMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFAD3A0)
+#define LLEMCBPHBMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFAD3D0)
 
-inline static constexpr unsigned int LLEMCBPHBMG_TypeDefinitionIndex = 58252;
+inline static constexpr unsigned int LLEMCBPHBMG_TypeDefinitionIndex = 59508;
 
 	class LLEMCBPHBMG
 	{

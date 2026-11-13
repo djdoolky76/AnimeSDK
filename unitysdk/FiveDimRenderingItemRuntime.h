@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FiveDimRenderingItem.h"
 
-#define FIVEDIMRENDERINGITEMRUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1591CB10)
-#define FIVEDIMRENDERINGITEMRUNTIME__ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1591CA90)
-#define FIVEDIMRENDERINGITEMRUNTIME__ONENABLE_OFFSET UNITYSDK_OFFSET(0x1591CAD0)
+#define FIVEDIMRENDERINGITEMRUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1B857ED0)
+#define FIVEDIMRENDERINGITEMRUNTIME__ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B857E50)
+#define FIVEDIMRENDERINGITEMRUNTIME__ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B857E90)
 
-inline static constexpr unsigned int FiveDimRenderingItemRuntime_TypeDefinitionIndex = 47108;
+inline static constexpr unsigned int FiveDimRenderingItemRuntime_TypeDefinitionIndex = 48136;
 
 	class FiveDimRenderingItemRuntime : public ::FiveDimRenderingItem
 	{

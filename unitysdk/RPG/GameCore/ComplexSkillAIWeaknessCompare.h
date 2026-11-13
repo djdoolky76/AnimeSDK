@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIWeaknessCompare_TypeDefinitionIndex = 15583;
+	inline static constexpr unsigned int ComplexSkillAIWeaknessCompare_TypeDefinitionIndex = 15741;
 
 	enum class ComplexSkillAIWeaknessCompare : ::System::Int32
 	{

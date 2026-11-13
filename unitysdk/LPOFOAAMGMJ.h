@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int LPOFOAAMGMJ_TypeDefinitionIndex = 59420;
+inline static constexpr unsigned int LPOFOAAMGMJ_TypeDefinitionIndex = 60697;
 
 	class LPOFOAAMGMJ : public ::System::Object
 	{

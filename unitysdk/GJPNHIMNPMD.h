@@ -5,7 +5,7 @@
 class CEEGMMCFCBG;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int GJPNHIMNPMD_TypeDefinitionIndex = 44146;
+inline static constexpr unsigned int GJPNHIMNPMD_TypeDefinitionIndex = 45221;
 
 	class GJPNHIMNPMD : public ::System::Object
 	{

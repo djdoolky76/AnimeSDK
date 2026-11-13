@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
 namespace RPG::GameCore { class LevelRegionConnectivity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELREGIONCONNECTIVITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79E0C0)
-#define RPG_GAMECORE_LEVELREGIONCONNECTIVITY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79DE60)
+#define RPG_GAMECORE_LEVELREGIONCONNECTIVITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24CEC0)
+#define RPG_GAMECORE_LEVELREGIONCONNECTIVITY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F24CC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionConnectivity_TypeDefinitionIndex = 17378;
+	inline static constexpr unsigned int LevelRegionConnectivity_TypeDefinitionIndex = 17546;
 
 	class LevelRegionConnectivity : public ::RPG::GameCore::JsonConfig
 	{

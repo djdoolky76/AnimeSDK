@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 class GDPGBLHPJNO;
 namespace System { class String; }
 
-#define GDPGBLHPJNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE03520)
-#define GDPGBLHPJNO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE03210)
+#define GDPGBLHPJNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA551C0)
+#define GDPGBLHPJNO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA54EB0)
 
-inline static constexpr unsigned int GDPGBLHPJNO_TypeDefinitionIndex = 11281;
+inline static constexpr unsigned int GDPGBLHPJNO_TypeDefinitionIndex = 11332;
 
 	class GDPGBLHPJNO : public ::System::Object
 	{
 	public:
 		::System::String* NBKAKPMNIDF; // 0x10
-		::Il2CppArray<::System::UInt32>* KECPLLBNNNA; // 0x18
-		::System::String* BIDDPFIKJLN; // 0x20
+		::System::String* BIDDPFIKJLN; // 0x18
+		::Il2CppArray<::System::UInt32>* KECPLLBNNNA; // 0x20
 		::System::String* NJINPDOKGPM; // 0x28
 		::Il2CppArray<::System::UInt32>* GBJGDOAAEKL; // 0x30
 		::RPG::Client::TextID PLGOICOBHGA; // 0x38

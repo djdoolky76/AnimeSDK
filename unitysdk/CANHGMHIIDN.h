@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddClientMazeBuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CANHGMHIIDN_CTOR_OFFSET UNITYSDK_OFFSET(0xC48C700)
-#define CANHGMHIIDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC48C750)
+#define CANHGMHIIDN_CTOR_OFFSET UNITYSDK_OFFSET(0x18FC8C90)
+#define CANHGMHIIDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FC8CE0)
 
-inline static constexpr unsigned int CANHGMHIIDN_TypeDefinitionIndex = 57859;
+inline static constexpr unsigned int CANHGMHIIDN_TypeDefinitionIndex = 59096;
 
 	class CANHGMHIIDN
 	{

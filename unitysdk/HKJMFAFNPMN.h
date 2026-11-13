@@ -7,12 +7,12 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HKJMFAFNPMN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D3DC10)
-#define HKJMFAFNPMN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15D3DE50)
-#define HKJMFAFNPMN_GET_ALLCHIMERAS_OFFSET UNITYSDK_OFFSET(0x15D3E1E0)
-#define HKJMFAFNPMN_TICK_OFFSET UNITYSDK_OFFSET(0x15D3E180)
+#define HKJMFAFNPMN_CTOR_OFFSET UNITYSDK_OFFSET(0x19887430)
+#define HKJMFAFNPMN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x19887670)
+#define HKJMFAFNPMN_GET_ALLCHIMERAS_OFFSET UNITYSDK_OFFSET(0x19887A00)
+#define HKJMFAFNPMN_TICK_OFFSET UNITYSDK_OFFSET(0x198879A0)
 
-inline static constexpr unsigned int HKJMFAFNPMN_TypeDefinitionIndex = 77652;
+inline static constexpr unsigned int HKJMFAFNPMN_TypeDefinitionIndex = 80387;
 
 	class HKJMFAFNPMN : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class CAOEEDDAPIK;
 
-#define CAOEEDDAPIK___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC490920)
-#define CAOEEDDAPIK___C__DISPLAYCLASS25_0__SETLAZYLAYOUTREBUILD_B__0_OFFSET UNITYSDK_OFFSET(0xC491760)
+#define CAOEEDDAPIK___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18FCCEE0)
+#define CAOEEDDAPIK___C__DISPLAYCLASS25_0__SETLAZYLAYOUTREBUILD_B__0_OFFSET UNITYSDK_OFFSET(0x18FCDEB0)
 
-inline static constexpr unsigned int CAOEEDDAPIK___c__DisplayClass25_0_TypeDefinitionIndex = 71246;
+inline static constexpr unsigned int CAOEEDDAPIK___c__DisplayClass25_0_TypeDefinitionIndex = 73223;
 
 	class CAOEEDDAPIK___c__DisplayClass25_0 : public ::System::Object
 	{

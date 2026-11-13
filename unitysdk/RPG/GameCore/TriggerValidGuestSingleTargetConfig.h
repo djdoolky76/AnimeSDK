@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TriggerValidGuestSingleTargetConfig; }
 
-#define RPG_GAMECORE_TRIGGERVALIDGUESTSINGLETARGETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC32850)
-#define RPG_GAMECORE_TRIGGERVALIDGUESTSINGLETARGETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC32680)
+#define RPG_GAMECORE_TRIGGERVALIDGUESTSINGLETARGETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33BAB0)
+#define RPG_GAMECORE_TRIGGERVALIDGUESTSINGLETARGETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33B8C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerValidGuestSingleTargetConfig_TypeDefinitionIndex = 23892;
+	inline static constexpr unsigned int TriggerValidGuestSingleTargetConfig_TypeDefinitionIndex = 24350;
 
 	class TriggerValidGuestSingleTargetConfig : public ::RPG::GameCore::JsonConfig
 	{

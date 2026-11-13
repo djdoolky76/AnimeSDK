@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AnimatorButton; }
 
-inline static constexpr unsigned int EMEAJOHECDN_TypeDefinitionIndex = 49813;
+inline static constexpr unsigned int EMEAJOHECDN_TypeDefinitionIndex = 50861;
 
 	class EMEAJOHECDN : public ::System::Object
 	{

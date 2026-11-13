@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PetLineupPlacementConfig; }
 
-#define RPG_GAMECORE_PETLINEUPPLACEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DB360)
-#define RPG_GAMECORE_PETLINEUPPLACEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DB180)
+#define RPG_GAMECORE_PETLINEUPPLACEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE49D30)
+#define RPG_GAMECORE_PETLINEUPPLACEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE49B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetLineupPlacementConfig_TypeDefinitionIndex = 15616;
+	inline static constexpr unsigned int PetLineupPlacementConfig_TypeDefinitionIndex = 15774;
 
 	class PetLineupPlacementConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MessageVideoRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGEVIDEOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D851620)
-#define RPG_GAMECORE_MESSAGEVIDEOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D851070)
+#define RPG_GAMECORE_MESSAGEVIDEOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E3E40)
+#define RPG_GAMECORE_MESSAGEVIDEOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6E3890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageVideoRow_TypeDefinitionIndex = 14468;
+	inline static constexpr unsigned int MessageVideoRow_TypeDefinitionIndex = 14623;
 
 	class MessageVideoRow : public ::System::Object
 	{

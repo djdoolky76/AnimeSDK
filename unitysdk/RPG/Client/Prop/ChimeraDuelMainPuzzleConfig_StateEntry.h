@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLECONFIG_STATEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xDC5D060)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLECONFIG_STATEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFFAF40)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleConfig_StateEntry_TypeDefinitionIndex = 78303;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleConfig_StateEntry_TypeDefinitionIndex = 81038;
 
 	class ChimeraDuelMainPuzzleConfig_StateEntry : public ::System::Object
 	{

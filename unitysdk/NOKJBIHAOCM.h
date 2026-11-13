@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class RtAttackData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NOKJBIHAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEBF30)
-#define NOKJBIHAOCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCEBF80)
+#define NOKJBIHAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0x19CEB070)
+#define NOKJBIHAOCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19CEB0C0)
 
-inline static constexpr unsigned int NOKJBIHAOCM_TypeDefinitionIndex = 53845;
+inline static constexpr unsigned int NOKJBIHAOCM_TypeDefinitionIndex = 55009;
 
 	class NOKJBIHAOCM : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::RtAttackData* FHEPHLNLKJL; // 0x10
-		::RPG::GameCore::AttackDamageType ECBKGBGGLEO; // 0x18
-		::RPG::GameCore::AttackDamageType MFLCOOMNPLA; // 0x1C
+		::RPG::GameCore::AttackDamageType MFLCOOMNPLA; // 0x18
+		::RPG::GameCore::AttackDamageType ECBKGBGGLEO; // 0x1C
 		::System::Void _ctor(::RPG::GameCore::RtAttackData* a1, ::RPG::GameCore::TaskContext* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RtAttackData*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + NOKJBIHAOCM_CTOR_OFFSET))(this, a1, a2);

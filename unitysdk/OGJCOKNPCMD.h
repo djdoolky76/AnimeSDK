@@ -8,51 +8,51 @@ namespace RPG::Client::Prop { class CommandRobotPuzzleBlock; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OGJCOKNPCMD_BBLMFIDEOAJ_OFFSET UNITYSDK_OFFSET(0xBE516C0)
-#define OGJCOKNPCMD_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE51E10)
-#define OGJCOKNPCMD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE513C0)
-#define OGJCOKNPCMD_DAGECALLDCI_OFFSET UNITYSDK_OFFSET(0xBE51560)
-#define OGJCOKNPCMD_DBGAKEEMIJI_OFFSET UNITYSDK_OFFSET(0xBE51CF0)
-#define OGJCOKNPCMD_DEEFFIGPONC_OFFSET UNITYSDK_OFFSET(0xBE517D0)
-#define OGJCOKNPCMD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE51370)
-#define OGJCOKNPCMD_DMPJCIMBIKC_OFFSET UNITYSDK_OFFSET(0xBE51AA0)
-#define OGJCOKNPCMD_GET_BEGINPOSITION_OFFSET UNITYSDK_OFFSET(0xBE51DD0)
-#define OGJCOKNPCMD_GET_DESTINATIONPOSITION_OFFSET UNITYSDK_OFFSET(0xBE51DF0)
-#define OGJCOKNPCMD_JBIHKPBDLLN_OFFSET UNITYSDK_OFFSET(0xBE51B70)
-#define OGJCOKNPCMD_ODDKHGLOLHH_OFFSET UNITYSDK_OFFSET(0xBE51480)
-#define OGJCOKNPCMD_SET_BEGINPOSITION_OFFSET UNITYSDK_OFFSET(0xBE51DE0)
-#define OGJCOKNPCMD_SET_DESTINATIONPOSITION_OFFSET UNITYSDK_OFFSET(0xBE51E00)
+#define OGJCOKNPCMD_BBLMFIDEOAJ_OFFSET UNITYSDK_OFFSET(0x18DFF8A0)
+#define OGJCOKNPCMD_CCTOR_OFFSET UNITYSDK_OFFSET(0x18DFFFF0)
+#define OGJCOKNPCMD_CTOR_OFFSET UNITYSDK_OFFSET(0x18DFF5A0)
+#define OGJCOKNPCMD_DAGECALLDCI_OFFSET UNITYSDK_OFFSET(0x18DFF740)
+#define OGJCOKNPCMD_DBGAKEEMIJI_OFFSET UNITYSDK_OFFSET(0x18DFFED0)
+#define OGJCOKNPCMD_DEEFFIGPONC_OFFSET UNITYSDK_OFFSET(0x18DFF9B0)
+#define OGJCOKNPCMD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DFF550)
+#define OGJCOKNPCMD_DMPJCIMBIKC_OFFSET UNITYSDK_OFFSET(0x18DFFC80)
+#define OGJCOKNPCMD_GET_BEGINPOSITION_OFFSET UNITYSDK_OFFSET(0x18DFFFB0)
+#define OGJCOKNPCMD_GET_DESTINATIONPOSITION_OFFSET UNITYSDK_OFFSET(0x18DFFFD0)
+#define OGJCOKNPCMD_JBIHKPBDLLN_OFFSET UNITYSDK_OFFSET(0x18DFFD50)
+#define OGJCOKNPCMD_ODDKHGLOLHH_OFFSET UNITYSDK_OFFSET(0x18DFF660)
+#define OGJCOKNPCMD_SET_BEGINPOSITION_OFFSET UNITYSDK_OFFSET(0x18DFFFC0)
+#define OGJCOKNPCMD_SET_DESTINATIONPOSITION_OFFSET UNITYSDK_OFFSET(0x18DFFFE0)
 
-inline static constexpr unsigned int OGJCOKNPCMD_TypeDefinitionIndex = 78516;
+inline static constexpr unsigned int OGJCOKNPCMD_TypeDefinitionIndex = 81251;
 
 	class OGJCOKNPCMD : public ::System::Object
 	{
 	public:
 		::System::Object* GLELOFCFBCO; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* EPEGPFJFBOO; // 0x18
-		::System::Int32 NLIFGOAGCCG; // 0x20
+		::System::Int32 DCBJLCHENHJ; // 0x20
 		::UnityEngine::Vector2Int _BeginPosition_k__BackingField; // 0x24
-		::System::Int32 DCBJLCHENHJ; // 0x2C
-		::UnityEngine::Vector2Int _DestinationPosition_k__BackingField; // 0x30
+		::UnityEngine::Vector2Int _DestinationPosition_k__BackingField; // 0x2C
+		::System::Int32 NLIFGOAGCCG; // 0x34
 		::System::Int32 LPFLIFFMJEL; // 0x38
-		static ::UnityEngine::Vector2Int* StaticGet_DPONCNHGGNA()
+		static ::UnityEngine::Vector2Int* StaticGet_PBPNDAHPKNC()
 		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "OGJCOKNPCMD")->GetStaticField(0x14920);
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "OGJCOKNPCMD")->GetStaticField(0x15790);
 		}
 
-		static ::UnityEngine::Vector2Int* StaticGet_AJHIHGAINLC()
+		static ::UnityEngine::Vector2Int* StaticGet_DPONCNHGGNA()
 		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "OGJCOKNPCMD")->GetStaticField(0x14928);
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "OGJCOKNPCMD")->GetStaticField(0x15798);
 		}
 
 		static ::UnityEngine::Vector2Int* StaticGet_IOEILNAMLFG()
 		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "OGJCOKNPCMD")->GetStaticField(0x14930);
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "OGJCOKNPCMD")->GetStaticField(0x157A0);
 		}
 
-		static ::UnityEngine::Vector2Int* StaticGet_PBPNDAHPKNC()
+		static ::UnityEngine::Vector2Int* StaticGet_AJHIHGAINLC()
 		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "OGJCOKNPCMD")->GetStaticField(0x14938);
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "OGJCOKNPCMD")->GetStaticField(0x157A8);
 		}
 
 		// static const ::System::Object OIONKEGECCE; // 0x0

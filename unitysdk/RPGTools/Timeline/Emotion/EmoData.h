@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E3120)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D903EC0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoData_TypeDefinitionIndex = 48740;
+	inline static constexpr unsigned int EmoData_TypeDefinitionIndex = 49786;
 
 	class EmoData : public ::System::Object
 	{

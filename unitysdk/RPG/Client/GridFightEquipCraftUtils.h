@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GridFightAddItemSourceType.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightEquipCraftCombination; }
 namespace RPG::Client { class GridFightEquipCraftRecipe; }
@@ -7,25 +8,76 @@ namespace RPG::Client { class GridFightEquipCraftRecipeCollection; }
 namespace RPG::Client { class GridFightEquipInfo; }
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_1_OFFSET UNITYSDK_OFFSET(0xD1096D0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD1094F0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISRECIPECANCRAFT_OFFSET UNITYSDK_OFFSET(0xD1092D0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__FINDCOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD109CE0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONSHELPER_OFFSET UNITYSDK_OFFSET(0xD10AAD0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD10AA00)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ARECRAFTCOSTSOURCESCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1D175D60)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_CANCRAFTWITHCOSTITEMS_OFFSET UNITYSDK_OFFSET(0x1D172F30)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_CANPAIRASCRAFTCOST_OFFSET UNITYSDK_OFFSET(0x1D175820)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_CANUSEASCRAFTCOST_OFFSET UNITYSDK_OFFSET(0x1D15BDE0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_CREATECRAFTTARGETPREVIEWITEMDATA_OFFSET UNITYSDK_OFFSET(0x1D175B60)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_1_OFFSET UNITYSDK_OFFSET(0x1D176A00)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_2_OFFSET UNITYSDK_OFFSET(0x1D15BAB0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_3_OFFSET UNITYSDK_OFFSET(0x1D1740B0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_OFFSET UNITYSDK_OFFSET(0x1D1767E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISELATIONLAUGHPOINTSOURCE_1_OFFSET UNITYSDK_OFFSET(0x1D175500)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISELATIONLAUGHPOINTSOURCE_OFFSET UNITYSDK_OFFSET(0x1D15BB10)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISRECIPECANCRAFTEXCLUDEDRESSED_OFFSET UNITYSDK_OFFSET(0x1D176570)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISRECIPECANCRAFTINCLUDEDRESSED_OFFSET UNITYSDK_OFFSET(0x1D176610)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__FINDCOMBINATIONS_OFFSET UNITYSDK_OFFSET(0x1D176D30)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONSHELPER_OFFSET UNITYSDK_OFFSET(0x1D177D60)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONS_OFFSET UNITYSDK_OFFSET(0x1D177C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftUtils_TypeDefinitionIndex = 64950;
+	inline static constexpr unsigned int GridFightEquipCraftUtils_TypeDefinitionIndex = 66531;
 
 	class GridFightEquipCraftUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsRecipeCanCraft(::RPG::Client::GridFightEquipCraftRecipe* a1, ::RPG::Client::GridFightEquipInfo* a2)
+		static ::System::Boolean IsElationLaughPointSource(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::GridFightEquipInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISRECIPECANCRAFT_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISELATIONLAUGHPOINTSOURCE_OFFSET))(a1);
+		}
+
+		static ::System::Boolean IsElationLaughPointSource_1(::RPG::GameCore::GridFightAddItemSourceType a1)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::GridFightAddItemSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISELATIONLAUGHPOINTSOURCE_1_OFFSET))(a1);
+		}
+
+		static ::System::Boolean CanUseAsCraftCost(::RPG::Client::GridFightEquipItemData* a1)
+		{
+			return ((::System::Boolean(*)(::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_CANUSEASCRAFTCOST_OFFSET))(a1);
+		}
+
+		static ::System::Boolean CanPairAsCraftCost(::RPG::Client::GridFightEquipItemData* a1, ::RPG::Client::GridFightEquipItemData* a2)
+		{
+			return ((::System::Boolean(*)(::RPG::Client::GridFightEquipItemData*, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_CANPAIRASCRAFTCOST_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean CanCraftWithCostItems(::RPG::Client::GridFightEquipCraftRecipe* a1, ::RPG::Client::GridFightEquipItemData* a2, ::RPG::Client::GridFightEquipItemData* a3)
+		{
+			return ((::System::Boolean(*)(::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::GridFightEquipItemData*, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_CANCRAFTWITHCOSTITEMS_OFFSET))(a1, a2, a3);
+		}
+
+		static ::RPG::Client::GridFightEquipItemData* CreateCraftTargetPreviewItemData(::RPG::Client::GridFightEquipCraftRecipe* a1, ::RPG::Client::GridFightEquipItemData* a2, ::RPG::Client::GridFightEquipItemData* a3)
+		{
+			return ((::RPG::Client::GridFightEquipItemData*(*)(::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::GridFightEquipItemData*, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_CREATECRAFTTARGETPREVIEWITEMDATA_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean AreCraftCostSourcesCompatible(::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipItemData*>* a1)
+		{
+			return ((::System::Boolean(*)(::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ARECRAFTCOSTSOURCESCOMPATIBLE_OFFSET))(a1);
+		}
+
+		static ::System::Boolean IsRecipeCanCraftExcludeDressed(::RPG::Client::GridFightEquipCraftRecipe* a1, ::RPG::Client::GridFightEquipInfo* a2)
+		{
+			return ((::System::Boolean(*)(::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::GridFightEquipInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISRECIPECANCRAFTEXCLUDEDRESSED_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean IsRecipeCanCraftIncludeDressed(::RPG::Client::GridFightEquipCraftRecipe* a1, ::RPG::Client::GridFightEquipInfo* a2)
+		{
+			return ((::System::Boolean(*)(::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::GridFightEquipInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISRECIPECANCRAFTINCLUDEDRESSED_OFFSET))(a1, a2);
 		}
 
 		static ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>* GetAllAvailableCraftCombinations(::RPG::Client::GridFightEquipCraftRecipeCollection* a1, ::RPG::Client::GridFightEquipInfo* a2)
@@ -33,9 +85,19 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>*(*)(::RPG::Client::GridFightEquipCraftRecipeCollection*, ::RPG::Client::GridFightEquipInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>* GetAllAvailableCraftCombinations_1(::RPG::Client::GridFightEquipCraftRecipe* a1, ::RPG::Client::GridFightEquipInfo* a2)
+		static ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>* GetAllAvailableCraftCombinations_1(::RPG::Client::GridFightEquipCraftRecipeCollection* a1, ::RPG::Client::GridFightEquipInfo* a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>*(*)(::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::GridFightEquipInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_1_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>*(*)(::RPG::Client::GridFightEquipCraftRecipeCollection*, ::RPG::Client::GridFightEquipInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_1_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>* GetAllAvailableCraftCombinations_2(::RPG::Client::GridFightEquipCraftRecipe* a1, ::RPG::Client::GridFightEquipInfo* a2)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>*(*)(::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::GridFightEquipInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_2_OFFSET))(a1, a2);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>* GetAllAvailableCraftCombinations_3(::RPG::Client::GridFightEquipCraftRecipe* a1, ::RPG::Client::GridFightEquipInfo* a2, ::System::Boolean a3)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>*(*)(::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::GridFightEquipInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_3_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void _FindCombinations(::RPG::Client::GridFightEquipCraftRecipe* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemData*>*>* a2, ::System::Int32 a3, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemData*>*>* a4, ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipCraftCombination*>* a5)

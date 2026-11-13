@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_TOPNODETAGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B98EBC0)
+#define HOUDINIENGINEUNITY_TOPNODETAGS_CTOR_OFFSET UNITYSDK_OFFSET(0x20878DF0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int TOPNodeTags_TypeDefinitionIndex = 40537;
+	inline static constexpr unsigned int TOPNodeTags_TypeDefinitionIndex = 41512;
 
 	class TOPNodeTags : public ::System::Object
 	{
 	public:
 		::System::Boolean _show; // 0x10
 		::System::Boolean _showHEngineData; // 0x11
-		::System::Boolean _autoload; // 0x12
-		::System::Boolean _autoloadHEngineData; // 0x13
+		::System::Boolean _autoloadHEngineData; // 0x12
+		::System::Boolean _autoload; // 0x13
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TOPNODETAGS_CTOR_OFFSET))(this);

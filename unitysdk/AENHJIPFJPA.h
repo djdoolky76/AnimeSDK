@@ -7,16 +7,16 @@ class AOIOJIPNOAL;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define AENHJIPFJPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC853C0)
-#define AENHJIPFJPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC851F0)
+#define AENHJIPFJPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E024030)
+#define AENHJIPFJPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E023E60)
 
-inline static constexpr unsigned int AENHJIPFJPA_TypeDefinitionIndex = 11665;
+inline static constexpr unsigned int AENHJIPFJPA_TypeDefinitionIndex = 11716;
 
 	class AENHJIPFJPA : public ::System::Object
 	{
 	public:
-		::System::String* EJHODPJIFIN; // 0x10
-		::Il2CppArray<::AOIOJIPNOAL*>* AAIAEKDKMMK; // 0x18
+		::Il2CppArray<::AOIOJIPNOAL*>* AAIAEKDKMMK; // 0x10
+		::System::String* EJHODPJIFIN; // 0x18
 		::RPG::GameCore::HipplenEffectType GMPGDEINODK; // 0x20
 		::System::UInt32 PHFMCACHFIJ; // 0x24
 		::System::Void _ctor()

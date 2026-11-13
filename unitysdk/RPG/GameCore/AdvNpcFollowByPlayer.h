@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AdvNpcFollowByPlayer; }
 namespace RPG::GameCore { class FollowByPlayerCustomRoutePoint; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D378DA0)
-#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D378DC0)
-#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D378D60)
+#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DA950)
+#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8DA970)
+#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DA910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFollowByPlayer_TypeDefinitionIndex = 19989;
+	inline static constexpr unsigned int AdvNpcFollowByPlayer_TypeDefinitionIndex = 20323;
 
 	class AdvNpcFollowByPlayer : public ::RPG::GameCore::TaskConfig
 	{

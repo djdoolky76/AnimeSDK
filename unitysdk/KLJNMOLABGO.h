@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropResetGachaMachine; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KLJNMOLABGO_CTOR_OFFSET UNITYSDK_OFFSET(0xB524ED0)
-#define KLJNMOLABGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB524F00)
+#define KLJNMOLABGO_CTOR_OFFSET UNITYSDK_OFFSET(0x17B821F0)
+#define KLJNMOLABGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B82220)
 
-inline static constexpr unsigned int KLJNMOLABGO_TypeDefinitionIndex = 58342;
+inline static constexpr unsigned int KLJNMOLABGO_TypeDefinitionIndex = 59598;
 
 	class KLJNMOLABGO
 	{

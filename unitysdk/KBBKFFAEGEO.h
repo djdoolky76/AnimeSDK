@@ -5,12 +5,12 @@ class ACOIJGAHAHK;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define KBBKFFAEGEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2E6F80)
-#define KBBKFFAEGEO_HFFPCELHKHK_OFFSET UNITYSDK_OFFSET(0xB2E6E90)
-#define KBBKFFAEGEO_KCADNHNCLKP_OFFSET UNITYSDK_OFFSET(0xB2E6BC0)
-#define KBBKFFAEGEO_NINHJDBHBDE_OFFSET UNITYSDK_OFFSET(0xB2E6B00)
+#define KBBKFFAEGEO_CTOR_OFFSET UNITYSDK_OFFSET(0x19DC71C0)
+#define KBBKFFAEGEO_HFFPCELHKHK_OFFSET UNITYSDK_OFFSET(0x19DC70D0)
+#define KBBKFFAEGEO_KCADNHNCLKP_OFFSET UNITYSDK_OFFSET(0x19DC6E00)
+#define KBBKFFAEGEO_NINHJDBHBDE_OFFSET UNITYSDK_OFFSET(0x19DC6D40)
 
-inline static constexpr unsigned int KBBKFFAEGEO_TypeDefinitionIndex = 74992;
+inline static constexpr unsigned int KBBKFFAEGEO_TypeDefinitionIndex = 77319;
 
 	class KBBKFFAEGEO : public ::System::Object
 	{

@@ -9,49 +9,49 @@ namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE28D620)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE28D660)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_0_OFFSET UNITYSDK_OFFSET(0xE28D7B0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_1_OFFSET UNITYSDK_OFFSET(0xE28D7D0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTCOLLIDERTO_B__31_0_OFFSET UNITYSDK_OFFSET(0xE28D740)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTCOLLIDERTO_B__31_1_OFFSET UNITYSDK_OFFSET(0xE28D760)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTRENDERERSTO_B__28_0_OFFSET UNITYSDK_OFFSET(0xE28D670)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A146D70)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A146DB0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_0_OFFSET UNITYSDK_OFFSET(0x1A146F00)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_1_OFFSET UNITYSDK_OFFSET(0x1A146F20)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTCOLLIDERTO_B__31_0_OFFSET UNITYSDK_OFFSET(0x1A146E90)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTCOLLIDERTO_B__31_1_OFFSET UNITYSDK_OFFSET(0x1A146EB0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTRENDERERSTO_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A146DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex = 70203;
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex = 72169;
 
 	class TimeSpaceCrisscrossGroupBehavior___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::GameObjectAudio*>** StaticGet___9__36_1()
+		static ::System::Predicate_1<::RPG::Client::GameObjectAudio*>** StaticGet___9__36_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::GameObjectAudio*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19B80);
+			return (::System::Predicate_1<::RPG::Client::GameObjectAudio*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27D00);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19B88);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27D08);
 		}
 
 		static ::System::Predicate_1<::UnityEngine::Collider*>** StaticGet___9__31_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Collider*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19B90);
-		}
-
-		static ::System::Func_2<::UnityEngine::Collider*, ::UnityEngine::Bounds>** StaticGet___9__31_1()
-		{
-			return (::System::Func_2<::UnityEngine::Collider*, ::UnityEngine::Bounds>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19B98);
-		}
-
-		static ::System::Predicate_1<::RPG::Client::GameObjectAudio*>** StaticGet___9__36_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::GameObjectAudio*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19BA0);
+			return (::System::Predicate_1<::UnityEngine::Collider*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27D10);
 		}
 
 		static ::System::Predicate_1<::UnityEngine::Renderer*>** StaticGet___9__28_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19BA8);
+			return (::System::Predicate_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27D18);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::GameObjectAudio*>** StaticGet___9__36_1()
+		{
+			return (::System::Predicate_1<::RPG::Client::GameObjectAudio*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27D20);
+		}
+
+		static ::System::Func_2<::UnityEngine::Collider*, ::UnityEngine::Bounds>** StaticGet___9__31_1()
+		{
+			return (::System::Func_2<::UnityEngine::Collider*, ::UnityEngine::Bounds>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27D28);
 		}
 
 		static ::System::Void _cctor()

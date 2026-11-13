@@ -4,18 +4,18 @@
 class NPGCEFKJOIN;
 namespace System { class Object; }
 
-#define NPGCEFKJOIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB6ADD0)
-#define NPGCEFKJOIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6AE10)
-#define NPGCEFKJOIN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB6AE20)
+#define NPGCEFKJOIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB7BF60)
+#define NPGCEFKJOIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7BFA0)
+#define NPGCEFKJOIN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB7BFB0)
 
-inline static constexpr unsigned int NPGCEFKJOIN___c_TypeDefinitionIndex = 28723;
+inline static constexpr unsigned int NPGCEFKJOIN___c_TypeDefinitionIndex = 29313;
 
 	class NPGCEFKJOIN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD690);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54830);
 		}
 
 		static ::System::Void _cctor()

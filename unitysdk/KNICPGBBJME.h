@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetHpBreakHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KNICPGBBJME_CTOR_OFFSET UNITYSDK_OFFSET(0xB57F7A0)
-#define KNICPGBBJME_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB57F7B0)
-#define KNICPGBBJME_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB57F7F0)
-#define KNICPGBBJME_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB57F9A0)
-#define KNICPGBBJME_TICK_OFFSET UNITYSDK_OFFSET(0xB57F9F0)
+#define KNICPGBBJME_CTOR_OFFSET UNITYSDK_OFFSET(0x18FA8590)
+#define KNICPGBBJME_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18FA85A0)
+#define KNICPGBBJME_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FA85E0)
+#define KNICPGBBJME_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18FA8790)
+#define KNICPGBBJME_TICK_OFFSET UNITYSDK_OFFSET(0x18FA87E0)
 
-inline static constexpr unsigned int KNICPGBBJME_TypeDefinitionIndex = 55520;
+inline static constexpr unsigned int KNICPGBBJME_TypeDefinitionIndex = 56712;
 
 	class KNICPGBBJME : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetHpBreakHint* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetHpBreakHint* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetHpBreakHint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetHpBreakHint*))((::PBYTE)hIl2Cpp + KNICPGBBJME_CTOR_OFFSET))(this, a1, a2);

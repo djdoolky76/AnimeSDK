@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OKNLBDAFCBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96F850)
+#define OKNLBDAFCBO_CTOR_OFFSET UNITYSDK_OFFSET(0x176715B0)
 
-inline static constexpr unsigned int OKNLBDAFCBO_TypeDefinitionIndex = 42958;
+inline static constexpr unsigned int OKNLBDAFCBO_TypeDefinitionIndex = 43939;
 
 	class OKNLBDAFCBO : public ::System::Object
 	{

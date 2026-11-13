@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightShopRefreshType_TypeDefinitionIndex = 65234;
+	inline static constexpr unsigned int GridFightShopRefreshType_TypeDefinitionIndex = 66941;
 
 	enum class GridFightShopRefreshType : ::System::Int32
 	{

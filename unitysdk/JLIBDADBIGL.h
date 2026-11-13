@@ -6,15 +6,15 @@ class DNFFEFPKDPC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define JLIBDADBIGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB74CA0)
+#define JLIBDADBIGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE1A150)
 
-inline static constexpr unsigned int JLIBDADBIGL_TypeDefinitionIndex = 43176;
+inline static constexpr unsigned int JLIBDADBIGL_TypeDefinitionIndex = 44157;
 
 	class JLIBDADBIGL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::DNFFEFPKDPC*>* EGGCADJJJOD; // 0x10
-		::UnityEngine::GameObject* CDANMPGNPHN; // 0x18
+		::UnityEngine::GameObject* CDANMPGNPHN; // 0x10
+		::System::Collections::Generic::List_1<::DNFFEFPKDPC*>* EGGCADJJJOD; // 0x18
 		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameSceneItemType LINLNNHIBAK; // 0x20
 		::System::Void _ctor()
 		{

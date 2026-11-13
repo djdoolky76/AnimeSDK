@@ -5,7 +5,7 @@ namespace RPGTools::Octree::Common { template <typename T> class PriorityQueue_1
 
 namespace RPGTools::Octree::Common
 {
-	inline static constexpr unsigned int PriorityQueue_1_UnorderedItemsCollection_TypeDefinitionIndex = 48901;
+	inline static constexpr unsigned int PriorityQueue_1_UnorderedItemsCollection_TypeDefinitionIndex = 49958;
 
 	template <typename T>
 	class PriorityQueue_1_UnorderedItemsCollection : public ::System::Object

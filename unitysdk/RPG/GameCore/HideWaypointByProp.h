@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class HideWaypointByProp; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HIDEWAYPOINTBYPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73C470)
-#define RPG_GAMECORE_HIDEWAYPOINTBYPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D73C480)
-#define RPG_GAMECORE_HIDEWAYPOINTBYPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73C440)
+#define RPG_GAMECORE_HIDEWAYPOINTBYPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE75650)
+#define RPG_GAMECORE_HIDEWAYPOINTBYPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE75660)
+#define RPG_GAMECORE_HIDEWAYPOINTBYPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE75620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideWaypointByProp_TypeDefinitionIndex = 20875;
+	inline static constexpr unsigned int HideWaypointByProp_TypeDefinitionIndex = 21212;
 
 	class HideWaypointByProp : public ::RPG::GameCore::TaskConfig
 	{

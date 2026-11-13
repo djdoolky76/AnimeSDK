@@ -5,10 +5,10 @@
 class MFBGPHGLFCD;
 namespace RPG::Client::BlindBox::Trade { class PublicBlindBoxTradeOrder; }
 
-#define MFBGPHGLFCD___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8E5440)
-#define MFBGPHGLFCD___C__DISPLAYCLASS28_0__COUNTOFFEREDTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xB8E6720)
+#define MFBGPHGLFCD___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17C75220)
+#define MFBGPHGLFCD___C__DISPLAYCLASS28_0__COUNTOFFEREDTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x17C76500)
 
-inline static constexpr unsigned int MFBGPHGLFCD___c__DisplayClass28_0_TypeDefinitionIndex = 74862;
+inline static constexpr unsigned int MFBGPHGLFCD___c__DisplayClass28_0_TypeDefinitionIndex = 77189;
 
 	class MFBGPHGLFCD___c__DisplayClass28_0 : public ::System::Object
 	{

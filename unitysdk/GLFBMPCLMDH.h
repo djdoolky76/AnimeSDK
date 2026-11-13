@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KNHCNPDALBB;
 
-#define GLFBMPCLMDH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15AA4990)
-#define GLFBMPCLMDH_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA4A80)
+#define GLFBMPCLMDH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16C5CA90)
+#define GLFBMPCLMDH_CTOR_OFFSET UNITYSDK_OFFSET(0x16C5CB90)
 
-inline static constexpr unsigned int GLFBMPCLMDH_TypeDefinitionIndex = 80149;
+inline static constexpr unsigned int GLFBMPCLMDH_TypeDefinitionIndex = 82926;
 
 	class GLFBMPCLMDH : public ::System::Object
 	{

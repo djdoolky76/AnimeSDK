@@ -8,29 +8,28 @@ class LBFNAJJGCBH;
 namespace RPG::Client { class PlanetFesModule; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDB952D0)
-#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_GET__MODULE_OFFSET UNITYSDK_OFFSET(0xDB965C0)
-#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_SYNCMINIGAMEINFO_1_OFFSET UNITYSDK_OFFSET(0xDB95B60)
-#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_SYNCMINIGAMEINFO_OFFSET UNITYSDK_OFFSET(0xDB956A0)
-#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_SYNCPLANETFESGAMEBINGOFLIPSCRSP_OFFSET UNITYSDK_OFFSET(0xDB95DC0)
-#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_SYNCPLANETFESSTARTMINIGAMESCRSP_OFFSET UNITYSDK_OFFSET(0xDB95450)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CD470)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_GET__MODULE_OFFSET UNITYSDK_OFFSET(0x1D1CE760)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_SYNCMINIGAMEINFO_1_OFFSET UNITYSDK_OFFSET(0x1D1CDD00)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_SYNCMINIGAMEINFO_OFFSET UNITYSDK_OFFSET(0x1D1CD840)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_SYNCPLANETFESGAMEBINGOFLIPSCRSP_OFFSET UNITYSDK_OFFSET(0x1D1CDF60)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_SYNCPLANETFESSTARTMINIGAMESCRSP_OFFSET UNITYSDK_OFFSET(0x1D1CD5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesMiniGameBingoData_TypeDefinitionIndex = 66608;
+	inline static constexpr unsigned int PlanetFesMiniGameBingoData_TypeDefinitionIndex = 68544;
 
 	class PlanetFesMiniGameBingoData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* MatchedList; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* DistributionList; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* DistributionList; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* MatchedList; // 0x18
 		::System::UInt32 Ratio; // 0x20
-		::System::UInt32 FlipCount; // 0x24
-		::System::Boolean IsStart; // 0x28
-		::System::Boolean IsGameOver; // 0x29
-		::System::Byte _padding0[0x2];
+		::System::UInt32 MaxFlipCount; // 0x24
+		::System::UInt32 FlipCount; // 0x28
 		::System::UInt32 LastFlippedPos; // 0x2C
-		::System::UInt32 MaxFlipCount; // 0x30
+		::System::Boolean IsStart; // 0x30
+		::System::Boolean IsGameOver; // 0x31
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGODATA_CTOR_OFFSET))(this);

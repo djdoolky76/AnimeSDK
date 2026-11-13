@@ -5,10 +5,10 @@
 class AMPNMIBFGAM;
 namespace RPG::Client::Prop { class ChimeraPreparationStateControllerBase; }
 
-#define AMPNMIBFGAM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15583D20)
-#define AMPNMIBFGAM___C__DISPLAYCLASS9_0__SWITCHTO_B__0_OFFSET UNITYSDK_OFFSET(0x155841E0)
+#define AMPNMIBFGAM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A819850)
+#define AMPNMIBFGAM___C__DISPLAYCLASS9_0__SWITCHTO_B__0_OFFSET UNITYSDK_OFFSET(0x1A819D10)
 
-inline static constexpr unsigned int AMPNMIBFGAM___c__DisplayClass9_0_TypeDefinitionIndex = 78472;
+inline static constexpr unsigned int AMPNMIBFGAM___c__DisplayClass9_0_TypeDefinitionIndex = 81207;
 
 	class AMPNMIBFGAM___c__DisplayClass9_0 : public ::System::Object
 	{

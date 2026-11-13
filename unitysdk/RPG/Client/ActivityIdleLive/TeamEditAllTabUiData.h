@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int TeamEditAllTabUiData_TypeDefinitionIndex = 75443;
+	inline static constexpr unsigned int TeamEditAllTabUiData_TypeDefinitionIndex = 77770;
 
 	struct alignas(8) TeamEditAllTabUiData
 	{

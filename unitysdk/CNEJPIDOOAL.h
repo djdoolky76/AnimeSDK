@@ -2,24 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/APCGKBOPGJL.h"
+#include "unitysdk/DGMNKINFKFH.h"
+#include "unitysdk/LMNEKOLMGEM.h"
 class BALLHPKKDDH;
 class CFIHNPKOEMD;
 class NOBCAKJMGPH;
+namespace RPG::GameCore { class IAvatarCommonRowWrap; }
 
-#define CNEJPIDOOAL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xDA43340)
-#define CNEJPIDOOAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA44580)
-#define CNEJPIDOOAL_GET_DAMAGETYPEFACTORY_OFFSET UNITYSDK_OFFSET(0xDA43320)
-#define CNEJPIDOOAL_GET_PATHFACTORY_OFFSET UNITYSDK_OFFSET(0xDA43300)
-#define CNEJPIDOOAL_SET_DAMAGETYPEFACTORY_OFFSET UNITYSDK_OFFSET(0xDA43330)
-#define CNEJPIDOOAL_SET_PATHFACTORY_OFFSET UNITYSDK_OFFSET(0xDA43310)
+#define CNEJPIDOOAL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x191405C0)
+#define CNEJPIDOOAL_CTOR_OFFSET UNITYSDK_OFFSET(0x19141D20)
+#define CNEJPIDOOAL_GET_DAMAGETYPEFACTORY_OFFSET UNITYSDK_OFFSET(0x191405A0)
+#define CNEJPIDOOAL_GET_PATHFACTORY_OFFSET UNITYSDK_OFFSET(0x19140580)
+#define CNEJPIDOOAL_JPJDMBEMNAD_OFFSET UNITYSDK_OFFSET(0x19141870)
+#define CNEJPIDOOAL_PIGDMCHOKKI_OFFSET UNITYSDK_OFFSET(0x19141740)
+#define CNEJPIDOOAL_SET_DAMAGETYPEFACTORY_OFFSET UNITYSDK_OFFSET(0x191405B0)
+#define CNEJPIDOOAL_SET_PATHFACTORY_OFFSET UNITYSDK_OFFSET(0x19140590)
 
-inline static constexpr unsigned int CNEJPIDOOAL_TypeDefinitionIndex = 62606;
+inline static constexpr unsigned int CNEJPIDOOAL_TypeDefinitionIndex = 64029;
 
 	class CNEJPIDOOAL : public ::System::Object
 	{
 	public:
-		::CFIHNPKOEMD* _DamageTypeFactory_k__BackingField; // 0x10
-		::NOBCAKJMGPH* _PathFactory_k__BackingField; // 0x18
+		::NOBCAKJMGPH* _PathFactory_k__BackingField; // 0x10
+		::CFIHNPKOEMD* _DamageTypeFactory_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CNEJPIDOOAL_CTOR_OFFSET))(this);
@@ -48,6 +53,16 @@ inline static constexpr unsigned int CNEJPIDOOAL_TypeDefinitionIndex = 62606;
 		::BALLHPKKDDH* BPLPBPMEODA(::APCGKBOPGJL a1)
 		{
 			return ((::BALLHPKKDDH*(*)(::PVOID, ::APCGKBOPGJL))((::PBYTE)hIl2Cpp + CNEJPIDOOAL_BPLPBPMEODA_OFFSET))(this, a1);
+		}
+
+		::LMNEKOLMGEM PIGDMCHOKKI(::RPG::GameCore::IAvatarCommonRowWrap* a1)
+		{
+			return ((::LMNEKOLMGEM(*)(::PVOID, ::RPG::GameCore::IAvatarCommonRowWrap*))((::PBYTE)hIl2Cpp + CNEJPIDOOAL_PIGDMCHOKKI_OFFSET))(this, a1);
+		}
+
+		static ::Il2CppArray<::DGMNKINFKFH>* JPJDMBEMNAD(::System::UInt32 a1)
+		{
+			return ((::Il2CppArray<::DGMNKINFKFH>*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CNEJPIDOOAL_JPJDMBEMNAD_OFFSET))(a1);
 		}
 
 	};

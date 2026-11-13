@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPreShowStanceBreak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHAEJFJGEEK_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A1AB0)
-#define JHAEJFJGEEK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1A1AE0)
+#define JHAEJFJGEEK_CTOR_OFFSET UNITYSDK_OFFSET(0x19360B50)
+#define JHAEJFJGEEK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19360B80)
 
-inline static constexpr unsigned int JHAEJFJGEEK_TypeDefinitionIndex = 54705;
+inline static constexpr unsigned int JHAEJFJGEEK_TypeDefinitionIndex = 55872;
 
 	class JHAEJFJGEEK
 	{

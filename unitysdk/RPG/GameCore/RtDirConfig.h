@@ -8,13 +8,13 @@ namespace RPG::GameCore { class RtDirConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTDIRCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2F4E0)
-#define RPG_GAMECORE_RTDIRCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DA2F550)
-#define RPG_GAMECORE_RTDIRCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2F2B0)
+#define RPG_GAMECORE_RTDIRCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC744F0)
+#define RPG_GAMECORE_RTDIRCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EC74560)
+#define RPG_GAMECORE_RTDIRCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC742C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDirConfig_TypeDefinitionIndex = 24267;
+	inline static constexpr unsigned int RtDirConfig_TypeDefinitionIndex = 24726;
 
 	class RtDirConfig : public ::RPG::GameCore::JsonConfig
 	{

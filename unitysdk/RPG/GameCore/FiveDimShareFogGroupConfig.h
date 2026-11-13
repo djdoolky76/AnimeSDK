@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimShareFogGroupConfig; }
 
-#define RPG_GAMECORE_FIVEDIMSHAREFOGGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ADF70)
-#define RPG_GAMECORE_FIVEDIMSHAREFOGGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6ADF30)
+#define RPG_GAMECORE_FIVEDIMSHAREFOGGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A20A0)
+#define RPG_GAMECORE_FIVEDIMSHAREFOGGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7A2060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimShareFogGroupConfig_TypeDefinitionIndex = 18528;
+	inline static constexpr unsigned int FiveDimShareFogGroupConfig_TypeDefinitionIndex = 18688;
 
 	class FiveDimShareFogGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

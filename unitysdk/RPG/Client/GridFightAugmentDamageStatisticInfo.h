@@ -4,12 +4,12 @@
 class NFIDNDFHJGN;
 namespace RPG::Client { class GridFightAugmentConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTDAMAGESTATISTICINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD0C85E0)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTDAMAGESTATISTICINFO_GET_AUGMENTCONFIG_OFFSET UNITYSDK_OFFSET(0xD0C86C0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTDAMAGESTATISTICINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C728AA0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTDAMAGESTATISTICINFO_GET_AUGMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1C728B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentDamageStatisticInfo_TypeDefinitionIndex = 64417;
+	inline static constexpr unsigned int GridFightAugmentDamageStatisticInfo_TypeDefinitionIndex = 65864;
 
 	class GridFightAugmentDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{

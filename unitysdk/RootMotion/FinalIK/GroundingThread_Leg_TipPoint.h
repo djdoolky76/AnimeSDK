@@ -3,12 +3,12 @@
 #include "unitysdk/RootMotion/IKJob/IKTransformRef.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_TIPPOINT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xCE80)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_TIPPOINT_GET_TIPPOSITION_OFFSET UNITYSDK_OFFSET(0xCDB0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_TIPPOINT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x3F44910)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_TIPPOINT_GET_TIPPOSITION_OFFSET UNITYSDK_OFFSET(0x3F44840)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundingThread_Leg_TipPoint_TypeDefinitionIndex = 46001;
+	inline static constexpr unsigned int GroundingThread_Leg_TipPoint_TypeDefinitionIndex = 47030;
 
 	struct alignas(4) GroundingThread_Leg_TipPoint
 	{

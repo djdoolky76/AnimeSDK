@@ -4,18 +4,18 @@
 class GEDICCGGDGI;
 namespace System { class Object; }
 
-#define GEDICCGGDGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E426EF0)
-#define GEDICCGGDGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E426F30)
-#define GEDICCGGDGI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E426F40)
+#define GEDICCGGDGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2023F8C0)
+#define GEDICCGGDGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2023F900)
+#define GEDICCGGDGI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2023F910)
 
-inline static constexpr unsigned int GEDICCGGDGI___c_TypeDefinitionIndex = 27762;
+inline static constexpr unsigned int GEDICCGGDGI___c_TypeDefinitionIndex = 28293;
 
 	class GEDICCGGDGI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10D80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D8B0);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_NULLABLEATTRIBUTE_5B2944D05171D0B3_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE189E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_NULLABLEATTRIBUTE_5B2944D05171D0B3_CTOR_OFFSET UNITYSDK_OFFSET(0x20786020)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int NullableAttribute_5B2944D05171D0B3_TypeDefinitionIndex = 4963;
+	inline static constexpr unsigned int NullableAttribute_5B2944D05171D0B3_TypeDefinitionIndex = 4968;
 
 	class NullableAttribute_5B2944D05171D0B3 : public ::System::Attribute
 	{

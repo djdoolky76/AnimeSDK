@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAPTURERRECORD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F152560)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAPTURERRECORD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5920F0)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_CapturerRecord_TypeDefinitionIndex = 45776;
+	inline static constexpr unsigned int AlembicRecorder_CapturerRecord_TypeDefinitionIndex = 46805;
 
 	class AlembicRecorder_CapturerRecord : public ::System::Object
 	{

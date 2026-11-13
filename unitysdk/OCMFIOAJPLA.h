@@ -4,17 +4,17 @@
 class OCMFIOAJPLA;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OCMFIOAJPLA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xBD69940)
-#define OCMFIOAJPLA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD699B0)
+#define OCMFIOAJPLA_COMPARETO_OFFSET UNITYSDK_OFFSET(0x19A1C100)
+#define OCMFIOAJPLA_CTOR_OFFSET UNITYSDK_OFFSET(0x19A1C170)
 
-inline static constexpr unsigned int OCMFIOAJPLA_TypeDefinitionIndex = 63496;
+inline static constexpr unsigned int OCMFIOAJPLA_TypeDefinitionIndex = 64934;
 
 	class OCMFIOAJPLA : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* CEMHBIPFIBC; // 0x10
-		::System::UInt32 PPDAGPPKEJD; // 0x18
-		::System::UInt32 LLDCHLHNADA; // 0x1C
+		::System::UInt32 LLDCHLHNADA; // 0x18
+		::System::UInt32 PPDAGPPKEJD; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OCMFIOAJPLA_CTOR_OFFSET))(this);

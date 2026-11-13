@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ShowHalfScreenPage; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWHALFSCREENPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB2B10)
-#define RPG_GAMECORE_SHOWHALFSCREENPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB2B20)
-#define RPG_GAMECORE_SHOWHALFSCREENPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB2AD0)
+#define RPG_GAMECORE_SHOWHALFSCREENPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EBC80)
+#define RPG_GAMECORE_SHOWHALFSCREENPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3EBC90)
+#define RPG_GAMECORE_SHOWHALFSCREENPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3EBC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHalfScreenPage_TypeDefinitionIndex = 20468;
+	inline static constexpr unsigned int ShowHalfScreenPage_TypeDefinitionIndex = 20803;
 
 	class ShowHalfScreenPage : public ::RPG::GameCore::TaskConfig
 	{

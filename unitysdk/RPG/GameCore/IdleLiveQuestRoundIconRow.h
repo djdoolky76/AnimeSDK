@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveQuestRoundIconRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEQUESTROUNDICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D750490)
-#define RPG_GAMECORE_IDLELIVEQUESTROUNDICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D750360)
+#define RPG_GAMECORE_IDLELIVEQUESTROUNDICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE892E0)
+#define RPG_GAMECORE_IDLELIVEQUESTROUNDICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE891B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestRoundIconRow_TypeDefinitionIndex = 11744;
+	inline static constexpr unsigned int IdleLiveQuestRoundIconRow_TypeDefinitionIndex = 11801;
 
 	class IdleLiveQuestRoundIconRow : public ::System::Object
 	{

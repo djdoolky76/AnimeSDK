@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TeamLeaderRunning; }
 
-#define RPG_GAMECORE_TEAMLEADERRUNNING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4C700)
-#define RPG_GAMECORE_TEAMLEADERRUNNING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB4C710)
-#define RPG_GAMECORE_TEAMLEADERRUNNING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4C6D0)
+#define RPG_GAMECORE_TEAMLEADERRUNNING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C1440)
+#define RPG_GAMECORE_TEAMLEADERRUNNING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F5C1450)
+#define RPG_GAMECORE_TEAMLEADERRUNNING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C1410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLeaderRunning_TypeDefinitionIndex = 20943;
+	inline static constexpr unsigned int TeamLeaderRunning_TypeDefinitionIndex = 21281;
 
 	class TeamLeaderRunning : public ::RPG::GameCore::TaskConfig
 	{

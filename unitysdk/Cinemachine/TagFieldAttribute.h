@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_TAGFIELDATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1669DE10)
+#define CINEMACHINE_TAGFIELDATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x208850C0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TagFieldAttribute_TypeDefinitionIndex = 39829;
+	inline static constexpr unsigned int TagFieldAttribute_TypeDefinitionIndex = 40758;
 
 	class TagFieldAttribute : public ::UnityEngine::PropertyAttribute
 	{

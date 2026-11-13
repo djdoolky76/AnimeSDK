@@ -5,22 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantProductConfigRow; }
 
-#define RPG_GAMECORE_RESTAURANTPRODUCTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D964FB0)
-#define RPG_GAMECORE_RESTAURANTPRODUCTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D964D60)
+#define RPG_GAMECORE_RESTAURANTPRODUCTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20729410)
+#define RPG_GAMECORE_RESTAURANTPRODUCTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x207291C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantProductConfigRow_TypeDefinitionIndex = 11377;
+	inline static constexpr unsigned int RestaurantProductConfigRow_TypeDefinitionIndex = 11428;
 
 	class RestaurantProductConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
-		::System::UInt32 ItemID; // 0x18
-		::System::UInt32 ProductID; // 0x1C
-		::System::Boolean IsCrops; // 0x20
-		::System::Byte _padding0[0x7];
-		::RPG::Client::TextID Name; // 0x28
+		::System::UInt32 ProductID; // 0x18
+		::System::UInt32 ItemID; // 0x1C
+		::RPG::Client::TextID Name; // 0x20
+		::System::Boolean IsCrops; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTPRODUCTCONFIGROW_CTOR_OFFSET))(this);

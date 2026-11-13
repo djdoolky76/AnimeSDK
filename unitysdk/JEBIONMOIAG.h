@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JEBIONMOIAG_TypeDefinitionIndex = 25269;
+inline static constexpr unsigned int JEBIONMOIAG_TypeDefinitionIndex = 25747;
 
 	enum class JEBIONMOIAG : ::System::Int32
 	{

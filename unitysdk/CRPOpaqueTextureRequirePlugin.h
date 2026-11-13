@@ -3,12 +3,12 @@
 #include "unitysdk/CRPOpaqueTextureRequirePlugin_CaptureType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CRPOPAQUETEXTUREREQUIREPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCD7CC0)
-#define CRPOPAQUETEXTUREREQUIREPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD7CB0)
-#define CRPOPAQUETEXTUREREQUIREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDCD7B00)
-#define CRPOPAQUETEXTUREREQUIREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDCD7860)
+#define CRPOPAQUETEXTUREREQUIREPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x19911710)
+#define CRPOPAQUETEXTUREREQUIREPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x19911700)
+#define CRPOPAQUETEXTUREREQUIREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19911550)
+#define CRPOPAQUETEXTUREREQUIREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x199112B0)
 
-inline static constexpr unsigned int CRPOpaqueTextureRequirePlugin_TypeDefinitionIndex = 47324;
+inline static constexpr unsigned int CRPOpaqueTextureRequirePlugin_TypeDefinitionIndex = 48353;
 
 	class CRPOpaqueTextureRequirePlugin : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,7 +20,7 @@ inline static constexpr unsigned int CRPOpaqueTextureRequirePlugin_TypeDefinitio
 		::System::Boolean MobileDisable; // 0x21
 		static ::System::Int32* StaticGet_GCOHFDBEJMP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "CRPOpaqueTextureRequirePlugin")->GetStaticField(0x12A90);
+			return (::System::Int32*)UnitySDK::FromName("", "CRPOpaqueTextureRequirePlugin")->GetStaticField(0xE010);
 		}
 
 		::System::Void _ctor()

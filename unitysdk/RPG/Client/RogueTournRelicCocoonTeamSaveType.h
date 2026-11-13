@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRelicCocoonTeamSaveType_TypeDefinitionIndex = 67773;
+	inline static constexpr unsigned int RogueTournRelicCocoonTeamSaveType_TypeDefinitionIndex = 69718;
 
 	enum class RogueTournRelicCocoonTeamSaveType : ::System::Int32
 	{

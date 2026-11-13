@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HKJBKMMJJPD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE8CBC0)
-#define HKJBKMMJJPD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE8D190)
-#define HKJBKMMJJPD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE8CD30)
-#define HKJBKMMJJPD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE8C630)
-#define HKJBKMMJJPD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE8C8C0)
-#define HKJBKMMJJPD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE8CDD0)
-#define HKJBKMMJJPD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE8CE20)
-#define HKJBKMMJJPD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE8CC00)
-#define HKJBKMMJJPD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE8C860)
-#define HKJBKMMJJPD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE8CA30)
-#define HKJBKMMJJPD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE8CC90)
-#define HKJBKMMJJPD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE8C5B0)
+#define HKJBKMMJJPD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E82E150)
+#define HKJBKMMJJPD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E82E720)
+#define HKJBKMMJJPD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E82E2C0)
+#define HKJBKMMJJPD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E82DBC0)
+#define HKJBKMMJJPD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E82DE50)
+#define HKJBKMMJJPD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E82E360)
+#define HKJBKMMJJPD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E82E3B0)
+#define HKJBKMMJJPD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E82E190)
+#define HKJBKMMJJPD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E82DDF0)
+#define HKJBKMMJJPD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E82DFC0)
+#define HKJBKMMJJPD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E82E220)
+#define HKJBKMMJJPD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E82DB40)
 
-inline static constexpr unsigned int HKJBKMMJJPD_TypeDefinitionIndex = 12273;
+inline static constexpr unsigned int HKJBKMMJJPD_TypeDefinitionIndex = 12330;
 
 	class HKJBKMMJJPD : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesAssistantMessageRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesAssistantMessageRow*>**)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x1C9C0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesAssistantMessageRow*>**)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x184D0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x1C9C8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x184D8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x1C9D0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x62A0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x184E0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x62A1);
+			return (::System::Boolean*)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x5760);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "HKJBKMMJJPD")->GetStaticField(0x5761);
 		}
 
 		static ::System::Void _cctor()

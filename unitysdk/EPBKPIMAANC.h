@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define EPBKPIMAANC_CTOR_OFFSET UNITYSDK_OFFSET(0x155C32B0)
-#define EPBKPIMAANC_LHFCIHCENCO_OFFSET UNITYSDK_OFFSET(0x155C3490)
-#define EPBKPIMAANC_PBAEKCNJOJF_OFFSET UNITYSDK_OFFSET(0x155C32F0)
+#define EPBKPIMAANC_CTOR_OFFSET UNITYSDK_OFFSET(0x16B31B10)
+#define EPBKPIMAANC_LHFCIHCENCO_OFFSET UNITYSDK_OFFSET(0x16B31D20)
+#define EPBKPIMAANC_PBAEKCNJOJF_OFFSET UNITYSDK_OFFSET(0x16B31B50)
 
-inline static constexpr unsigned int EPBKPIMAANC_TypeDefinitionIndex = 79043;
+inline static constexpr unsigned int EPBKPIMAANC_TypeDefinitionIndex = 81819;
 
 	class EPBKPIMAANC : public ::System::Object
 	{

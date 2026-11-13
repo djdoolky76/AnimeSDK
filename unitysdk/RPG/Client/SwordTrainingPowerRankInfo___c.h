@@ -6,37 +6,37 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE16B2D0)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE16B310)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__FETCHSORTEDSAMEGROUPPOWERRANK_B__10_1_OFFSET UNITYSDK_OFFSET(0xE16B320)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__FETCHSORTEDSAMEGROUPPOWERRANK_B__10_2_OFFSET UNITYSDK_OFFSET(0xE16B370)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C___INITALLPOWERRANK_B__11_0_OFFSET UNITYSDK_OFFSET(0xE16B410)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C58BC30)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C58BC70)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__FETCHSORTEDSAMEGROUPPOWERRANK_B__10_1_OFFSET UNITYSDK_OFFSET(0x1C58BC80)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__FETCHSORTEDSAMEGROUPPOWERRANK_B__10_2_OFFSET UNITYSDK_OFFSET(0x1C58BCD0)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C___INITALLPOWERRANK_B__11_0_OFFSET UNITYSDK_OFFSET(0x1C58BD70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingPowerRankInfo___c_TypeDefinitionIndex = 61965;
+	inline static constexpr unsigned int SwordTrainingPowerRankInfo___c_TypeDefinitionIndex = 63377;
 
 	class SwordTrainingPowerRankInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Collections::Generic::List_1<::RPG::Client::SwordTrainingPowerRankData*>*>** StaticGet___9__10_2()
+		static ::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>** StaticGet___9__10_1()
 		{
-			return (::System::Comparison_1<::System::Collections::Generic::List_1<::RPG::Client::SwordTrainingPowerRankData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FC30);
+			return (::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x127E0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>** StaticGet___9__11_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FC38);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>** StaticGet___9__10_1()
-		{
-			return (::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FC40);
+			return (::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x127E8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FC48);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x127F0);
+		}
+
+		static ::System::Comparison_1<::System::Collections::Generic::List_1<::RPG::Client::SwordTrainingPowerRankData*>*>** StaticGet___9__10_2()
+		{
+			return (::System::Comparison_1<::System::Collections::Generic::List_1<::RPG::Client::SwordTrainingPowerRankData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x127F8);
 		}
 
 		static ::System::Void _cctor()

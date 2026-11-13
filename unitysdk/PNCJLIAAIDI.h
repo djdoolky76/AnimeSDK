@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetCharacterScaleFollow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PNCJLIAAIDI_CTOR_OFFSET UNITYSDK_OFFSET(0xC32BBD0)
-#define PNCJLIAAIDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC32BBE0)
-#define PNCJLIAAIDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC32BC20)
-#define PNCJLIAAIDI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC32BFA0)
-#define PNCJLIAAIDI_TICK_OFFSET UNITYSDK_OFFSET(0xC32BFF0)
+#define PNCJLIAAIDI_CTOR_OFFSET UNITYSDK_OFFSET(0x184AA180)
+#define PNCJLIAAIDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x184AA190)
+#define PNCJLIAAIDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184AA1D0)
+#define PNCJLIAAIDI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x184AA560)
+#define PNCJLIAAIDI_TICK_OFFSET UNITYSDK_OFFSET(0x184AA5B0)
 
-inline static constexpr unsigned int PNCJLIAAIDI_TypeDefinitionIndex = 55372;
+inline static constexpr unsigned int PNCJLIAAIDI_TypeDefinitionIndex = 56555;
 
 	class PNCJLIAAIDI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetCharacterScaleFollow* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetCharacterScaleFollow* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetCharacterScaleFollow* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetCharacterScaleFollow*))((::PBYTE)hIl2Cpp + PNCJLIAAIDI_CTOR_OFFSET))(this, a1, a2);

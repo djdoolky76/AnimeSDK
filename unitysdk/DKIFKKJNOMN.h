@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define DKIFKKJNOMN_CCOOIPGDIMD_OFFSET UNITYSDK_OFFSET(0xF87BD90)
-#define DKIFKKJNOMN_HCIKHPKHDIH_OFFSET UNITYSDK_OFFSET(0xF87BEE0)
+#define DKIFKKJNOMN_CCOOIPGDIMD_OFFSET UNITYSDK_OFFSET(0x18C19E90)
+#define DKIFKKJNOMN_HCIKHPKHDIH_OFFSET UNITYSDK_OFFSET(0x18C19FE0)
 
-inline static constexpr unsigned int DKIFKKJNOMN_TypeDefinitionIndex = 81741;
+inline static constexpr unsigned int DKIFKKJNOMN_TypeDefinitionIndex = 84522;
 
 	class DKIFKKJNOMN : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class DBNPGNPNJFE;
 
-#define HFAKEDNDJAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA991E0)
+#define HFAKEDNDJAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA0290)
 
-inline static constexpr unsigned int HFAKEDNDJAH_TypeDefinitionIndex = 42027;
+inline static constexpr unsigned int HFAKEDNDJAH_TypeDefinitionIndex = 43002;
 
 	class HFAKEDNDJAH : public ::System::Object
 	{

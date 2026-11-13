@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FriendModule_FetchDataState_TypeDefinitionIndex = 64251;
+	inline static constexpr unsigned int FriendModule_FetchDataState_TypeDefinitionIndex = 65696;
 
 	enum class FriendModule_FetchDataState : ::System::Int32
 	{

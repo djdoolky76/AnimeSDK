@@ -8,49 +8,49 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHALLENGEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9772E0)
-#define RPG_CLIENT_CHALLENGEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC977310)
-#define RPG_CLIENT_CHALLENGEDATA___C__GETMONSTERDATABYSTAGEINDEX_B__94_0_OFFSET UNITYSDK_OFFSET(0xC9773F0)
-#define RPG_CLIENT_CHALLENGEDATA___C__GETVORACITYINVASIONLEVEL_B__91_0_OFFSET UNITYSDK_OFFSET(0xC9773C0)
-#define RPG_CLIENT_CHALLENGEDATA___C__HASTARGETREWARDNOTFINISH_B__84_0_OFFSET UNITYSDK_OFFSET(0xC9773A0)
-#define RPG_CLIENT_CHALLENGEDATA___C__HASTARGETREWARDNOTTAKEN_B__83_0_OFFSET UNITYSDK_OFFSET(0xC977340)
-#define RPG_CLIENT_CHALLENGEDATA___C__UPDATETARGET_B__79_0_OFFSET UNITYSDK_OFFSET(0xC977320)
+#define RPG_CLIENT_CHALLENGEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6FED20)
+#define RPG_CLIENT_CHALLENGEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6FED50)
+#define RPG_CLIENT_CHALLENGEDATA___C__GETMONSTERDATABYSTAGEINDEX_B__94_0_OFFSET UNITYSDK_OFFSET(0x1B6FEE30)
+#define RPG_CLIENT_CHALLENGEDATA___C__GETVORACITYINVASIONLEVEL_B__91_0_OFFSET UNITYSDK_OFFSET(0x1B6FEE00)
+#define RPG_CLIENT_CHALLENGEDATA___C__HASTARGETREWARDNOTFINISH_B__84_0_OFFSET UNITYSDK_OFFSET(0x1B6FEDE0)
+#define RPG_CLIENT_CHALLENGEDATA___C__HASTARGETREWARDNOTTAKEN_B__83_0_OFFSET UNITYSDK_OFFSET(0x1B6FED80)
+#define RPG_CLIENT_CHALLENGEDATA___C__UPDATETARGET_B__79_0_OFFSET UNITYSDK_OFFSET(0x1B6FED60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeData___c_TypeDefinitionIndex = 63087;
+	inline static constexpr unsigned int ChallengeData___c_TypeDefinitionIndex = 64525;
 
 	class ChallengeData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*>, ::System::Boolean>** StaticGet___9__83_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6ABE0);
-		}
-
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__91_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6ABE8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6ABF0);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__94_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6ABF8);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70BC0);
 		}
 
 		static ::System::Func_2<::RPG::Client::BaseChallengeTargetData*, ::System::Boolean>** StaticGet___9__79_0()
 		{
-			return (::System::Func_2<::RPG::Client::BaseChallengeTargetData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AC00);
+			return (::System::Func_2<::RPG::Client::BaseChallengeTargetData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70BC8);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*>, ::System::Boolean>** StaticGet___9__83_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70BD0);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__94_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70BD8);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*>, ::System::Boolean>** StaticGet___9__84_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AC08);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70BE0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70BE8);
 		}
 
 		static ::System::Void _cctor()

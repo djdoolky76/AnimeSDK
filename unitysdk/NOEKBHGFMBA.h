@@ -3,10 +3,10 @@
 #include "unitysdk/EJMCJECLENI.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NOEKBHGFMBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE3EB0)
-#define NOEKBHGFMBA_GET_ICONID_OFFSET UNITYSDK_OFFSET(0xBCE3D80)
+#define NOEKBHGFMBA_CTOR_OFFSET UNITYSDK_OFFSET(0x19CE2790)
+#define NOEKBHGFMBA_GET_ICONID_OFFSET UNITYSDK_OFFSET(0x19CE2660)
 
-inline static constexpr unsigned int NOEKBHGFMBA_TypeDefinitionIndex = 60646;
+inline static constexpr unsigned int NOEKBHGFMBA_TypeDefinitionIndex = 62023;
 
 	class NOEKBHGFMBA : public ::EJMCJECLENI
 	{

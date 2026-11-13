@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PointQueryConfig; }
 namespace RPG::GameCore { class ST_Main_DoSkill; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_DOSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4DDA0)
-#define RPG_GAMECORE_ST_MAIN_DOSKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA4DDB0)
-#define RPG_GAMECORE_ST_MAIN_DOSKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA4DD70)
+#define RPG_GAMECORE_ST_MAIN_DOSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC93040)
+#define RPG_GAMECORE_ST_MAIN_DOSKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC93050)
+#define RPG_GAMECORE_ST_MAIN_DOSKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC93010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_DoSkill_TypeDefinitionIndex = 20096;
+	inline static constexpr unsigned int ST_Main_DoSkill_TypeDefinitionIndex = 20430;
 
 	class ST_Main_DoSkill : public ::RPG::GameCore::STTaskConfig
 	{

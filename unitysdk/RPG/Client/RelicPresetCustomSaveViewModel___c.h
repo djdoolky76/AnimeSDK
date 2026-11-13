@@ -5,25 +5,25 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE737B0)
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE737F0)
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C___INITWITHSMARTSUITPLAN_B__6_0_OFFSET UNITYSDK_OFFSET(0xDE73800)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D09E540)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D09E580)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C___INITWITHSMARTSUITPLAN_B__6_0_OFFSET UNITYSDK_OFFSET(0x1D09E590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex = 66860;
+	inline static constexpr unsigned int RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex = 68806;
 
 	class RelicPresetCustomSaveViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C220);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C228);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F050);
+		}
+
+		static ::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F058);
 		}
 
 		static ::System::Void _cctor()

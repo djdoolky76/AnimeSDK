@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int IExtensionValue_TypeDefinitionIndex = 5376;
+	inline static constexpr unsigned int IExtensionValue_TypeDefinitionIndex = 5381;
 
 	class IExtensionValue
 	{

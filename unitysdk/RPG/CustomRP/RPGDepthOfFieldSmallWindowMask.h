@@ -6,30 +6,30 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELDSMALLWINDOWMASK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CC1E330)
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELDSMALLWINDOWMASK_SET_OFFSET UNITYSDK_OFFSET(0x1CC1E310)
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELDSMALLWINDOWMASK_TRYGET_OFFSET UNITYSDK_OFFSET(0x1CC1E000)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELDSMALLWINDOWMASK_CLEAR_OFFSET UNITYSDK_OFFSET(0x198E5270)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELDSMALLWINDOWMASK_SET_OFFSET UNITYSDK_OFFSET(0x198E5250)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELDSMALLWINDOWMASK_TRYGET_OFFSET UNITYSDK_OFFSET(0x198E4F40)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfFieldSmallWindowMask_TypeDefinitionIndex = 37806;
+	inline static constexpr unsigned int RPGDepthOfFieldSmallWindowMask_TypeDefinitionIndex = 38735;
 
 	class RPGDepthOfFieldSmallWindowMask : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::CRPVirtualCamera** StaticGet_s_VirtualCamera()
+		static ::UnityEngine::Camera** StaticGet_s_Camera()
 		{
-			return (::UnityEngine::Rendering::CRPVirtualCamera**)UnitySDK::FromName("RPG.CustomRP", "RPGDepthOfFieldSmallWindowMask")->GetStaticField(0x2D910);
+			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.CustomRP", "RPGDepthOfFieldSmallWindowMask")->GetStaticField(0x29230);
 		}
 
 		static ::UnityEngine::MeshRenderer** StaticGet_s_MaskRenderer()
 		{
-			return (::UnityEngine::MeshRenderer**)UnitySDK::FromName("RPG.CustomRP", "RPGDepthOfFieldSmallWindowMask")->GetStaticField(0x2D918);
+			return (::UnityEngine::MeshRenderer**)UnitySDK::FromName("RPG.CustomRP", "RPGDepthOfFieldSmallWindowMask")->GetStaticField(0x29238);
 		}
 
-		static ::UnityEngine::Camera** StaticGet_s_Camera()
+		static ::UnityEngine::Rendering::CRPVirtualCamera** StaticGet_s_VirtualCamera()
 		{
-			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.CustomRP", "RPGDepthOfFieldSmallWindowMask")->GetStaticField(0x2D920);
+			return (::UnityEngine::Rendering::CRPVirtualCamera**)UnitySDK::FromName("RPG.CustomRP", "RPGDepthOfFieldSmallWindowMask")->GetStaticField(0x29240);
 		}
 
 		static ::System::Void Set(::UnityEngine::MeshRenderer* a1, ::UnityEngine::Rendering::CRPVirtualCamera* a2, ::UnityEngine::Camera* a3)

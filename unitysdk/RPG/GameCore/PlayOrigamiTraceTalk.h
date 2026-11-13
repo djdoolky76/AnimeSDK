@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class OrigamiTraceTalk; }
 namespace RPG::GameCore { class PlayOrigamiTraceTalk; }
 
-#define RPG_GAMECORE_PLAYORIGAMITRACETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9020A0)
-#define RPG_GAMECORE_PLAYORIGAMITRACETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9020B0)
-#define RPG_GAMECORE_PLAYORIGAMITRACETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D902070)
+#define RPG_GAMECORE_PLAYORIGAMITRACETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE70830)
+#define RPG_GAMECORE_PLAYORIGAMITRACETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE70840)
+#define RPG_GAMECORE_PLAYORIGAMITRACETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE70800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayOrigamiTraceTalk_TypeDefinitionIndex = 21870;
+	inline static constexpr unsigned int PlayOrigamiTraceTalk_TypeDefinitionIndex = 22261;
 
 	class PlayOrigamiTraceTalk : public ::RPG::GameCore::TaskConfig
 	{

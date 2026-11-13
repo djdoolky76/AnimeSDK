@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ProgressBonus; }
 
-#define RPG_GAMECORE_PROGRESSBONUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D915560)
-#define RPG_GAMECORE_PROGRESSBONUS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D915470)
+#define RPG_GAMECORE_PROGRESSBONUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7F760)
+#define RPG_GAMECORE_PROGRESSBONUS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF7F670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProgressBonus_TypeDefinitionIndex = 15324;
+	inline static constexpr unsigned int ProgressBonus_TypeDefinitionIndex = 15480;
 
 	class ProgressBonus : public ::System::Object
 	{

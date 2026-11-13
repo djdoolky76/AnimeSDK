@@ -4,12 +4,12 @@
 class FMHEHLIFNGJ;
 namespace RPG::Client::ActivityMarble { class MarblePVPManagerBase; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC540800)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS18_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xC543F10)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F1900)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS18_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1C7F5010)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVPManagerBase___c__DisplayClass18_0_TypeDefinitionIndex = 76009;
+	inline static constexpr unsigned int MarblePVPManagerBase___c__DisplayClass18_0_TypeDefinitionIndex = 78336;
 
 	class MarblePVPManagerBase___c__DisplayClass18_0 : public ::System::Object
 	{

@@ -1,42 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace MiHoYo::SDK { class InputSystemDelegate_DelegateGetIMECompositionMode; }
 namespace MiHoYo::SDK { class InputSystemDelegate_DelegateGetKeyEvent; }
-namespace MiHoYo::SDK { class InputSystemDelegate_DelegateSetIMECompositionMode; }
 
-#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE55770)
+#define MIHOYO_SDK_INPUTSYSTEMDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B69E3E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int InputSystemDelegate_TypeDefinitionIndex = 7557;
+	inline static constexpr unsigned int InputSystemDelegate_TypeDefinitionIndex = 7568;
 
 	class InputSystemDelegate : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::InputSystemDelegate_DelegateSetIMECompositionMode** StaticGet_IMECompositionModeSetter()
-		{
-			return (::MiHoYo::SDK::InputSystemDelegate_DelegateSetIMECompositionMode**)UnitySDK::FromName("MiHoYo.SDK", "InputSystemDelegate")->GetStaticField(0x10EA0);
-		}
-
 		static ::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent** StaticGet_KeyDownHandler()
 		{
-			return (::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent**)UnitySDK::FromName("MiHoYo.SDK", "InputSystemDelegate")->GetStaticField(0x10EA8);
+			return (::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent**)UnitySDK::FromName("MiHoYo.SDK", "InputSystemDelegate")->GetStaticField(0x1E100);
 		}
 
 		static ::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent** StaticGet_KeyUpHandler()
 		{
-			return (::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent**)UnitySDK::FromName("MiHoYo.SDK", "InputSystemDelegate")->GetStaticField(0x10EB0);
+			return (::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent**)UnitySDK::FromName("MiHoYo.SDK", "InputSystemDelegate")->GetStaticField(0x1E108);
 		}
 
 		static ::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent** StaticGet_KeyHandler()
 		{
-			return (::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent**)UnitySDK::FromName("MiHoYo.SDK", "InputSystemDelegate")->GetStaticField(0x10EB8);
-		}
-
-		static ::MiHoYo::SDK::InputSystemDelegate_DelegateGetIMECompositionMode** StaticGet_IMECompositionModeGetter()
-		{
-			return (::MiHoYo::SDK::InputSystemDelegate_DelegateGetIMECompositionMode**)UnitySDK::FromName("MiHoYo.SDK", "InputSystemDelegate")->GetStaticField(0x10EC0);
+			return (::MiHoYo::SDK::InputSystemDelegate_DelegateGetKeyEvent**)UnitySDK::FromName("MiHoYo.SDK", "InputSystemDelegate")->GetStaticField(0x1E110);
 		}
 
 		::System::Void _ctor()

@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/System/Object.h"
 
-#define EHABKALGJOF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D0C20)
-#define EHABKALGJOF___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1C5D0C80)
+#define EHABKALGJOF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA85450)
+#define EHABKALGJOF___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1BA854B0)
 
-inline static constexpr unsigned int EHABKALGJOF___c__DisplayClass0_0_TypeDefinitionIndex = 37143;
+inline static constexpr unsigned int EHABKALGJOF___c__DisplayClass0_0_TypeDefinitionIndex = 38071;
 
 	class EHABKALGJOF___c__DisplayClass0_0 : public ::System::Object
 	{

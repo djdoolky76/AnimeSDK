@@ -7,43 +7,43 @@ namespace RPG::Client { class DrinkMakerTag; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DRINKMAKERMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCF0D60)
-#define RPG_CLIENT_DRINKMAKERMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCF0DA0)
-#define RPG_CLIENT_DRINKMAKERMODULE___C__GETALLMIXTAGS_B__20_0_OFFSET UNITYSDK_OFFSET(0xCCF0E00)
-#define RPG_CLIENT_DRINKMAKERMODULE___C__GETALLUNLOCKEDDRINKSDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0xCCF0DB0)
-#define RPG_CLIENT_DRINKMAKERMODULE___C__GET_AVAILABLEINGREDIENTROWDATA_B__60_0_OFFSET UNITYSDK_OFFSET(0xCCF0EA0)
-#define RPG_CLIENT_DRINKMAKERMODULE___C__GET_AVAILABLEINGREDIENTROWDATA_B__60_1_OFFSET UNITYSDK_OFFSET(0xCCF0EC0)
+#define RPG_CLIENT_DRINKMAKERMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17BAC1F0)
+#define RPG_CLIENT_DRINKMAKERMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17BAC230)
+#define RPG_CLIENT_DRINKMAKERMODULE___C__GETALLMIXTAGS_B__20_0_OFFSET UNITYSDK_OFFSET(0x17BAC290)
+#define RPG_CLIENT_DRINKMAKERMODULE___C__GETALLUNLOCKEDDRINKSDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x17BAC240)
+#define RPG_CLIENT_DRINKMAKERMODULE___C__GET_AVAILABLEINGREDIENTROWDATA_B__60_0_OFFSET UNITYSDK_OFFSET(0x17BAC330)
+#define RPG_CLIENT_DRINKMAKERMODULE___C__GET_AVAILABLEINGREDIENTROWDATA_B__60_1_OFFSET UNITYSDK_OFFSET(0x17BAC350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerModule___c_TypeDefinitionIndex = 63631;
+	inline static constexpr unsigned int DrinkMakerModule___c_TypeDefinitionIndex = 65073;
 
 	class DrinkMakerModule___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::DrinkMakerBarIngredient*, ::System::Int32>** StaticGet___9__60_1()
+		{
+			return (::System::Func_2<::RPG::Client::DrinkMakerBarIngredient*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37FB0);
+		}
+
 		static ::System::Func_2<::RPG::Client::DrinkMakerBarDrink*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::RPG::Client::DrinkMakerBarDrink*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2DD20);
+			return (::System::Func_2<::RPG::Client::DrinkMakerBarDrink*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37FB8);
 		}
 
 		static ::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2DD28);
-		}
-
-		static ::System::Func_2<::RPG::Client::DrinkMakerBarIngredient*, ::System::Int32>** StaticGet___9__60_1()
-		{
-			return (::System::Func_2<::RPG::Client::DrinkMakerBarIngredient*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2DD30);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2DD38);
+			return (::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37FC0);
 		}
 
 		static ::System::Func_2<::RPG::Client::DrinkMakerBarIngredient*, ::System::Boolean>** StaticGet___9__60_0()
 		{
-			return (::System::Func_2<::RPG::Client::DrinkMakerBarIngredient*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2DD40);
+			return (::System::Func_2<::RPG::Client::DrinkMakerBarIngredient*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37FC8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37FD0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace XLua { class LuaTable; }
 
-#define NOGHFLBAFGE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE4CB0)
+#define NOGHFLBAFGE_CTOR_OFFSET UNITYSDK_OFFSET(0x19CE37E0)
 
-inline static constexpr unsigned int NOGHFLBAFGE_TypeDefinitionIndex = 59428;
+inline static constexpr unsigned int NOGHFLBAFGE_TypeDefinitionIndex = 60705;
 
 	class NOGHFLBAFGE : public ::System::Object
 	{

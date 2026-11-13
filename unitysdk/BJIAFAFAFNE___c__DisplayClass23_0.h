@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 
-#define BJIAFAFAFNE___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB79A650)
-#define BJIAFAFAFNE___C__DISPLAYCLASS23_0___ASYNCSHOWUI_B__0_OFFSET UNITYSDK_OFFSET(0xB79BA10)
+#define BJIAFAFAFNE___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A632D50)
+#define BJIAFAFAFNE___C__DISPLAYCLASS23_0___ASYNCSHOWUI_B__0_OFFSET UNITYSDK_OFFSET(0x1A634110)
 
-inline static constexpr unsigned int BJIAFAFAFNE___c__DisplayClass23_0_TypeDefinitionIndex = 76455;
+inline static constexpr unsigned int BJIAFAFAFNE___c__DisplayClass23_0_TypeDefinitionIndex = 78786;
 
 	class BJIAFAFAFNE___c__DisplayClass23_0 : public ::System::Object
 	{

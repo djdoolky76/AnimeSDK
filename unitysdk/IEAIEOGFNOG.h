@@ -4,9 +4,9 @@
 class IHCCOKDAFNE;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define IEAIEOGFNOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD92A0)
+#define IEAIEOGFNOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D957400)
 
-inline static constexpr unsigned int IEAIEOGFNOG_TypeDefinitionIndex = 41964;
+inline static constexpr unsigned int IEAIEOGFNOG_TypeDefinitionIndex = 42939;
 
 	class IEAIEOGFNOG : public ::System::Object
 	{

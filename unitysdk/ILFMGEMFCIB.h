@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopAnimatorLayerEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILFMGEMFCIB_CTOR_OFFSET UNITYSDK_OFFSET(0x164A2C50)
-#define ILFMGEMFCIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164A2C80)
+#define ILFMGEMFCIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B593740)
+#define ILFMGEMFCIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B593770)
 
-inline static constexpr unsigned int ILFMGEMFCIB_TypeDefinitionIndex = 55900;
+inline static constexpr unsigned int ILFMGEMFCIB_TypeDefinitionIndex = 57103;
 
 	class ILFMGEMFCIB
 	{

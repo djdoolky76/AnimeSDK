@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckModifierDeathSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MMLOIAIKNNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D2F30)
-#define MMLOIAIKNNA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9D2F60)
+#define MMLOIAIKNNA_CTOR_OFFSET UNITYSDK_OFFSET(0x18901A50)
+#define MMLOIAIKNNA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18901A80)
 
-inline static constexpr unsigned int MMLOIAIKNNA_TypeDefinitionIndex = 54542;
+inline static constexpr unsigned int MMLOIAIKNNA_TypeDefinitionIndex = 55707;
 
 	class MMLOIAIKNNA
 	{

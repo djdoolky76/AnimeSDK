@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class Sprite; }
 
-#define MIHOYO_SDK_UI_CHANNELICONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFC5C10)
-#define MIHOYO_SDK_UI_CHANNELICONIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC5D90)
+#define MIHOYO_SDK_UI_CHANNELICONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D05A8B0)
+#define MIHOYO_SDK_UI_CHANNELICONIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D05AA30)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int ChannelIconImage_TypeDefinitionIndex = 8391;
+	inline static constexpr unsigned int ChannelIconImage_TypeDefinitionIndex = 8400;
 
 	class ChannelIconImage : public ::UnityEngine::MonoBehaviour
 	{

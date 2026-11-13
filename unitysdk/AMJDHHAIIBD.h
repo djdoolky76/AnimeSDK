@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasSummonRelation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMJDHHAIIBD_CTOR_OFFSET UNITYSDK_OFFSET(0x15576A20)
-#define AMJDHHAIIBD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15576A50)
+#define AMJDHHAIIBD_CTOR_OFFSET UNITYSDK_OFFSET(0x197DCA20)
+#define AMJDHHAIIBD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x197DCA50)
 
-inline static constexpr unsigned int AMJDHHAIIBD_TypeDefinitionIndex = 54623;
+inline static constexpr unsigned int AMJDHHAIIBD_TypeDefinitionIndex = 55789;
 
 	class AMJDHHAIIBD
 	{

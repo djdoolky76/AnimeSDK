@@ -5,7 +5,7 @@ namespace RPG::Client { class MinimapImage; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapImage___c__DisplayClass8_0_TypeDefinitionIndex = 72574;
+	inline static constexpr unsigned int MinimapImage___c__DisplayClass8_0_TypeDefinitionIndex = 74653;
 
 	struct alignas(8) MinimapImage___c__DisplayClass8_0
 	{

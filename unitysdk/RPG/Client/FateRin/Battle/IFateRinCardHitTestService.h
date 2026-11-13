@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinCardHitTestService_TypeDefinitionIndex = 80966;
+	inline static constexpr unsigned int IFateRinCardHitTestService_TypeDefinitionIndex = 83746;
 
 	class IFateRinCardHitTestService
 	{

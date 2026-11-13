@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowSwipeGuide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KBEHMGFGMGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2EFB90)
-#define KBEHMGFGMGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2EFBA0)
-#define KBEHMGFGMGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2EFBE0)
-#define KBEHMGFGMGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2EFCB0)
-#define KBEHMGFGMGK_TICK_OFFSET UNITYSDK_OFFSET(0xB2EFD00)
+#define KBEHMGFGMGK_CTOR_OFFSET UNITYSDK_OFFSET(0x19DD1680)
+#define KBEHMGFGMGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DD1690)
+#define KBEHMGFGMGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DD16D0)
+#define KBEHMGFGMGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19DD17A0)
+#define KBEHMGFGMGK_TICK_OFFSET UNITYSDK_OFFSET(0x19DD17F0)
 
-inline static constexpr unsigned int KBEHMGFGMGK_TypeDefinitionIndex = 58695;
+inline static constexpr unsigned int KBEHMGFGMGK_TypeDefinitionIndex = 59963;
 
 	class KBEHMGFGMGK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowSwipeGuide* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowSwipeGuide* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowSwipeGuide* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowSwipeGuide*))((::PBYTE)hIl2Cpp + KBEHMGFGMGK_CTOR_OFFSET))(this, a1, a2);

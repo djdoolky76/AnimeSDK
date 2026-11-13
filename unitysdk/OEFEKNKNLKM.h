@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class MiniGameFlappyBirdBlockConfig; }
 
-#define OEFEKNKNLKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95E340)
+#define OEFEKNKNLKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06CAB0)
 
-inline static constexpr unsigned int OEFEKNKNLKM_TypeDefinitionIndex = 43390;
+inline static constexpr unsigned int OEFEKNKNLKM_TypeDefinitionIndex = 44371;
 
 	class OEFEKNKNLKM : public ::System::Object
 	{

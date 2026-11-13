@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_1_CTOR_OFFSET UNITYSDK_OFFSET(0xDE4F670)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_1__BUYGIFT_B__1_OFFSET UNITYSDK_OFFSET(0xDE4F680)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1D075520)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_1__BUYGIFT_B__1_OFFSET UNITYSDK_OFFSET(0x1D075530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass34_1_TypeDefinitionIndex = 66800;
+	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass34_1_TypeDefinitionIndex = 68736;
 
 	template <typename T>
 	class RechargeShopModule___c__DisplayClass34_1 : public ::System::Object

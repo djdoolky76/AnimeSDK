@@ -5,16 +5,16 @@
 class DDBILBLIOGP;
 class FCOEMCEDLNL;
 
-#define DDBILBLIOGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCAEA80)
-#define DDBILBLIOGP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCAE950)
+#define DDBILBLIOGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F60C400)
+#define DDBILBLIOGP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F60C2D0)
 
-inline static constexpr unsigned int DDBILBLIOGP_TypeDefinitionIndex = 11630;
+inline static constexpr unsigned int DDBILBLIOGP_TypeDefinitionIndex = 11681;
 
 	class DDBILBLIOGP : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::HipplenStatType GMPGDEINODK; // 0x10
-		::System::UInt32 NNACKOBKFGE; // 0x14
+		::System::UInt32 NNACKOBKFGE; // 0x10
+		::RPG::GameCore::HipplenStatType GMPGDEINODK; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDBILBLIOGP_CTOR_OFFSET))(this);

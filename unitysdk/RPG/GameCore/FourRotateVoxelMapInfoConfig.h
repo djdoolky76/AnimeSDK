@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FourRotateVoxelMapInfoConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C2D70)
-#define RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C2A70)
+#define RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B68F0)
+#define RPG_GAMECORE_FOURROTATEVOXELMAPINFOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B65F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelMapInfoConfig_TypeDefinitionIndex = 16744;
+	inline static constexpr unsigned int FourRotateVoxelMapInfoConfig_TypeDefinitionIndex = 16910;
 
 	class FourRotateVoxelMapInfoConfig : public ::RPG::GameCore::JsonConfig
 	{

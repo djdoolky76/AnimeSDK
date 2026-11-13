@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SkillRangeConfig; }
 
-#define RPG_GAMECORE_SKILLRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC2690)
-#define RPG_GAMECORE_SKILLRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC2560)
+#define RPG_GAMECORE_SKILLRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FB740)
+#define RPG_GAMECORE_SKILLRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3FB610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillRangeConfig_TypeDefinitionIndex = 17507;
+	inline static constexpr unsigned int SkillRangeConfig_TypeDefinitionIndex = 17675;
 
 	class SkillRangeConfig : public ::RPG::GameCore::JsonConfig
 	{

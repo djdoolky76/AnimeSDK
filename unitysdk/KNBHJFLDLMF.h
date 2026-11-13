@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FinishTarotBookTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KNBHJFLDLMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB572000)
-#define KNBHJFLDLMF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB572030)
+#define KNBHJFLDLMF_CTOR_OFFSET UNITYSDK_OFFSET(0x18F9A320)
+#define KNBHJFLDLMF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F9A350)
 
-inline static constexpr unsigned int KNBHJFLDLMF_TypeDefinitionIndex = 58124;
+inline static constexpr unsigned int KNBHJFLDLMF_TypeDefinitionIndex = 59363;
 
 	class KNBHJFLDLMF
 	{

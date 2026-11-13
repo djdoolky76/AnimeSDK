@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BONEFOLLOWHEADROTATION_HEADFOLLOWBONEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A6DB0)
+#define RPG_CLIENT_BONEFOLLOWHEADROTATION_HEADFOLLOWBONEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5758A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoneFollowHeadRotation_HeadFollowBoneEntry_TypeDefinitionIndex = 68443;
+	inline static constexpr unsigned int BoneFollowHeadRotation_HeadFollowBoneEntry_TypeDefinitionIndex = 70390;
 
 	class BoneFollowHeadRotation_HeadFollowBoneEntry : public ::System::Object
 	{

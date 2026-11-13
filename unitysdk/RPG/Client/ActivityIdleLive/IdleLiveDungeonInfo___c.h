@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4C0EF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC4C0F20)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__UPDATE_B__21_1_OFFSET UNITYSDK_OFFSET(0xC4C0F30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__UPDATE_B__21_2_OFFSET UNITYSDK_OFFSET(0xC4C0F50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C___INITSPSLOTS_B__27_0_OFFSET UNITYSDK_OFFSET(0xC4C0F70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6A8CB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A8CE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__UPDATE_B__21_1_OFFSET UNITYSDK_OFFSET(0x1D6A8CF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__UPDATE_B__21_2_OFFSET UNITYSDK_OFFSET(0x1D6A8D10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C___INITSPSLOTS_B__27_0_OFFSET UNITYSDK_OFFSET(0x1D6A8D30)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonInfo___c_TypeDefinitionIndex = 75209;
+	inline static constexpr unsigned int IdleLiveDungeonInfo___c_TypeDefinitionIndex = 77536;
 
 	class IdleLiveDungeonInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>** StaticGet___9__21_2()
 		{
-			return (::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1F000);
+			return (::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x226E0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__27_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1F008);
-		}
-
-		static ::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>** StaticGet___9__21_1()
-		{
-			return (::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1F010);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x226E8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1F018);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x226F0);
+		}
+
+		static ::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>** StaticGet___9__21_1()
+		{
+			return (::System::Func_2<::APAMFCKFHLL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x226F8);
 		}
 
 		static ::System::Void _cctor()

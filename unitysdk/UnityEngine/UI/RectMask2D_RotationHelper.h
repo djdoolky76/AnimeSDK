@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x3C8A7B0)
-#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C8A7C0)
+#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x3E02BE0)
+#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3E02BF0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RectMask2D_RotationHelper_TypeDefinitionIndex = 6809;
+	inline static constexpr unsigned int RectMask2D_RotationHelper_TypeDefinitionIndex = 6820;
 
 	struct alignas(8) RectMask2D_RotationHelper
 	{

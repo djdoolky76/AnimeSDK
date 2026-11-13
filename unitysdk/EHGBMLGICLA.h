@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddMazeBuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EHGBMLGICLA_CTOR_OFFSET UNITYSDK_OFFSET(0x15499D50)
-#define EHGBMLGICLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15499D60)
+#define EHGBMLGICLA_CTOR_OFFSET UNITYSDK_OFFSET(0x18BCA710)
+#define EHGBMLGICLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BCA720)
 
-inline static constexpr unsigned int EHGBMLGICLA_TypeDefinitionIndex = 57863;
+inline static constexpr unsigned int EHGBMLGICLA_TypeDefinitionIndex = 59100;
 
 	class EHGBMLGICLA
 	{

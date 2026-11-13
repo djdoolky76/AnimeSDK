@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 
-inline static constexpr unsigned int GCKNEMLNKNE_FPBCKKEJLNA_TypeDefinitionIndex = 55425;
+inline static constexpr unsigned int GCKNEMLNKNE_FPBCKKEJLNA_TypeDefinitionIndex = 56610;
 
 	struct alignas(4) GCKNEMLNKNE_FPBCKKEJLNA
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NodeIndexItem_NodeType_TypeDefinitionIndex = 72506;
+	inline static constexpr unsigned int NodeIndexItem_NodeType_TypeDefinitionIndex = 74585;
 
 	enum class NodeIndexItem_NodeType : ::System::Int32
 	{

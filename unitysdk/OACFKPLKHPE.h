@@ -7,11 +7,11 @@ class PEKPNJMOGLC;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OACFKPLKHPE_BLFCHHCEFBH_OFFSET UNITYSDK_OFFSET(0x1C5467A0)
-#define OACFKPLKHPE_CMDEKLDALHK_OFFSET UNITYSDK_OFFSET(0x1C546720)
-#define OACFKPLKHPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C546820)
+#define OACFKPLKHPE_BLFCHHCEFBH_OFFSET UNITYSDK_OFFSET(0x207BE260)
+#define OACFKPLKHPE_CMDEKLDALHK_OFFSET UNITYSDK_OFFSET(0x207BE1E0)
+#define OACFKPLKHPE_CTOR_OFFSET UNITYSDK_OFFSET(0x207BE2E0)
 
-inline static constexpr unsigned int OACFKPLKHPE_TypeDefinitionIndex = 41901;
+inline static constexpr unsigned int OACFKPLKHPE_TypeDefinitionIndex = 42876;
 
 	class OACFKPLKHPE : public ::System::Object
 	{

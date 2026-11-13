@@ -4,18 +4,18 @@
 class DLCNDCKCIPC;
 namespace System { class Object; }
 
-#define DLCNDCKCIPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1B3520)
-#define DLCNDCKCIPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B3550)
-#define DLCNDCKCIPC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1B3560)
+#define DLCNDCKCIPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB47A80)
+#define DLCNDCKCIPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB47AB0)
+#define DLCNDCKCIPC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FB47AC0)
 
-inline static constexpr unsigned int DLCNDCKCIPC___c_TypeDefinitionIndex = 27316;
+inline static constexpr unsigned int DLCNDCKCIPC___c_TypeDefinitionIndex = 27847;
 
 	class DLCNDCKCIPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34CA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E4F0);
 		}
 
 		static ::System::Void _cctor()

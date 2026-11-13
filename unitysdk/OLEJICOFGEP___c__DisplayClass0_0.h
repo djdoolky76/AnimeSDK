@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define OLEJICOFGEP___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFBC20)
-#define OLEJICOFGEP___C__DISPLAYCLASS0_0__SATISFY_B__0_OFFSET UNITYSDK_OFFSET(0xBEFBC40)
+#define OLEJICOFGEP___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x178A2390)
+#define OLEJICOFGEP___C__DISPLAYCLASS0_0__SATISFY_B__0_OFFSET UNITYSDK_OFFSET(0x178A23B0)
 
-inline static constexpr unsigned int OLEJICOFGEP___c__DisplayClass0_0_TypeDefinitionIndex = 64980;
+inline static constexpr unsigned int OLEJICOFGEP___c__DisplayClass0_0_TypeDefinitionIndex = 66577;
 
 	class OLEJICOFGEP___c__DisplayClass0_0 : public ::System::Object
 	{

@@ -8,21 +8,21 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class GameWorld; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MAGCCADNIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8474E0)
-#define MAGCCADNIAL_EJNBJPPGNJF_OFFSET UNITYSDK_OFFSET(0xB846EF0)
-#define MAGCCADNIAL_IGECCCCAJKG_OFFSET UNITYSDK_OFFSET(0xB846F70)
-#define MAGCCADNIAL_MPLLJNAGDBA_OFFSET UNITYSDK_OFFSET(0xB8472E0)
-#define MAGCCADNIAL_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xB846D80)
-#define MAGCCADNIAL_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xB846E20)
+#define MAGCCADNIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E16A0)
+#define MAGCCADNIAL_EJNBJPPGNJF_OFFSET UNITYSDK_OFFSET(0x1B6E10B0)
+#define MAGCCADNIAL_IGECCCCAJKG_OFFSET UNITYSDK_OFFSET(0x1B6E1130)
+#define MAGCCADNIAL_MPLLJNAGDBA_OFFSET UNITYSDK_OFFSET(0x1B6E14A0)
+#define MAGCCADNIAL_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x1B6E0F50)
+#define MAGCCADNIAL_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x1B6E0FF0)
 
-inline static constexpr unsigned int MAGCCADNIAL_TypeDefinitionIndex = 54132;
+inline static constexpr unsigned int MAGCCADNIAL_TypeDefinitionIndex = 55296;
 
 	class MAGCCADNIAL : public ::System::Object
 	{
 	public:
 		::ILMMNCLCDIM* FIDOJLHKINO; // 0x10
-		::System::Collections::Generic::Dictionary_2<::CENEFPOMFKG*, ::RPG::GameCore::GameEntityList*>* EEBPGILKFFC; // 0x18
-		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x20
+		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x18
+		::System::Collections::Generic::Dictionary_2<::CENEFPOMFKG*, ::RPG::GameCore::GameEntityList*>* EEBPGILKFFC; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MAGCCADNIAL_CTOR_OFFSET))(this);

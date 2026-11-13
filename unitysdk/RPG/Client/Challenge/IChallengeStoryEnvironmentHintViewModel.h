@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int IChallengeStoryEnvironmentHintViewModel_TypeDefinitionIndex = 81436;
+	inline static constexpr unsigned int IChallengeStoryEnvironmentHintViewModel_TypeDefinitionIndex = 84216;
 
 	class IChallengeStoryEnvironmentHintViewModel
 	{

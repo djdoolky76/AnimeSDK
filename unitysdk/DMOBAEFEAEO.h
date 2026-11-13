@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransferMahJongLayoutEffect; }
 
-#define DMOBAEFEAEO_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC1CD0)
-#define DMOBAEFEAEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEC1D00)
+#define DMOBAEFEAEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1869FB20)
+#define DMOBAEFEAEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1869FB50)
 
-inline static constexpr unsigned int DMOBAEFEAEO_TypeDefinitionIndex = 55709;
+inline static constexpr unsigned int DMOBAEFEAEO_TypeDefinitionIndex = 56911;
 
 	class DMOBAEFEAEO
 	{

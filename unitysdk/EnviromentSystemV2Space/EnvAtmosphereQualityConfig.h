@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVATMOSPHEREQUALITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1562E940)
+#define ENVIROMENTSYSTEMV2SPACE_ENVATMOSPHEREQUALITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x136B4ED0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvAtmosphereQualityConfig_TypeDefinitionIndex = 49297;
+	inline static constexpr unsigned int EnvAtmosphereQualityConfig_TypeDefinitionIndex = 50373;
 
 	class EnvAtmosphereQualityConfig : public ::UnityEngine::ScriptableObject
 	{

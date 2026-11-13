@@ -6,20 +6,19 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define KMLBOMOHEDN_CTOR_OFFSET UNITYSDK_OFFSET(0xB55F460)
+#define KMLBOMOHEDN_CTOR_OFFSET UNITYSDK_OFFSET(0x18F85260)
 
-inline static constexpr unsigned int KMLBOMOHEDN_TypeDefinitionIndex = 81999;
+inline static constexpr unsigned int KMLBOMOHEDN_TypeDefinitionIndex = 84780;
 
 	class KMLBOMOHEDN : public ::System::Object
 	{
 	public:
-		::System::Action_1<::RPG::GameCore::B51RacingPartType>* ONPCPLEECCG; // 0x10
-		::System::String* OMPFNKJCGLK; // 0x18
-		::System::Boolean JNOCABEMEEM; // 0x20
-		::System::Boolean PAKGBHILIGA; // 0x21
-		::System::Byte _padding0[0x2];
-		::RPG::GameCore::B51RacingPartType BGFKAMOLKPN; // 0x24
-		::RPG::Client::TextID GHCEBCDOBKK; // 0x28
+		::System::String* OMPFNKJCGLK; // 0x10
+		::System::Action_1<::RPG::GameCore::B51RacingPartType>* ONPCPLEECCG; // 0x18
+		::RPG::Client::TextID GHCEBCDOBKK; // 0x20
+		::RPG::GameCore::B51RacingPartType BGFKAMOLKPN; // 0x30
+		::System::Boolean PAKGBHILIGA; // 0x34
+		::System::Boolean JNOCABEMEEM; // 0x35
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KMLBOMOHEDN_CTOR_OFFSET))(this);

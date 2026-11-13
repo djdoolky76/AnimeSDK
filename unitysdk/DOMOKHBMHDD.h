@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowActionCountDownIcon; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DOMOKHBMHDD_CTOR_OFFSET UNITYSDK_OFFSET(0x11FED540)
-#define DOMOKHBMHDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FED570)
+#define DOMOKHBMHDD_CTOR_OFFSET UNITYSDK_OFFSET(0x191B1000)
+#define DOMOKHBMHDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x191B1030)
 
-inline static constexpr unsigned int DOMOKHBMHDD_TypeDefinitionIndex = 54803;
+inline static constexpr unsigned int DOMOKHBMHDD_TypeDefinitionIndex = 55972;
 
 	class DOMOKHBMHDD
 	{

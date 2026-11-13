@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IAgeGateParentalPermissionDialog_TypeDefinitionIndex = 8460;
+	inline static constexpr unsigned int IAgeGateParentalPermissionDialog_TypeDefinitionIndex = 8469;
 
 	class IAgeGateParentalPermissionDialog
 	{

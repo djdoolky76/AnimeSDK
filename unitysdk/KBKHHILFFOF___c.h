@@ -4,18 +4,18 @@
 class KBKHHILFFOF;
 namespace System { class Object; }
 
-#define KBKHHILFFOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7C3180)
-#define KBKHHILFFOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C31C0)
-#define KBKHHILFFOF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E7C31D0)
+#define KBKHHILFFOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203B8D10)
+#define KBKHHILFFOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203B8D50)
+#define KBKHHILFFOF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x203B8D60)
 
-inline static constexpr unsigned int KBKHHILFFOF___c_TypeDefinitionIndex = 26243;
+inline static constexpr unsigned int KBKHHILFFOF___c_TypeDefinitionIndex = 26770;
 
 	class KBKHHILFFOF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE9B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69E30);
 		}
 
 		static ::System::Void _cctor()

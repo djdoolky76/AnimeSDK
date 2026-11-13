@@ -5,25 +5,25 @@ class KDHICPODIMK;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CAKERACEFIELDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC906FF0)
-#define RPG_CLIENT_CAKERACEFIELDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC907030)
-#define RPG_CLIENT_CAKERACEFIELDDATA___C__GET_FIELDEFFECTLIST_B__20_0_OFFSET UNITYSDK_OFFSET(0xC907040)
+#define RPG_CLIENT_CAKERACEFIELDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2EC3F0)
+#define RPG_CLIENT_CAKERACEFIELDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2EC430)
+#define RPG_CLIENT_CAKERACEFIELDDATA___C__GET_FIELDEFFECTLIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x1D2EC440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceFieldData___c_TypeDefinitionIndex = 63020;
+	inline static constexpr unsigned int CakeRaceFieldData___c_TypeDefinitionIndex = 64458;
 
 	class CakeRaceFieldData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x692D0);
-		}
-
 		static ::System::Func_2<::KDHICPODIMK*, ::System::UInt32>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::KDHICPODIMK*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x692D8);
+			return (::System::Func_2<::KDHICPODIMK*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F470);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F478);
 		}
 
 		static ::System::Void _cctor()

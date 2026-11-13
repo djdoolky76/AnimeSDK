@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EntityModelAssetInfo; }
 
-#define RPG_GAMECORE_ENTITYMODELASSETINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D64B7A0)
-#define RPG_GAMECORE_ENTITYMODELASSETINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D64B760)
+#define RPG_GAMECORE_ENTITYMODELASSETINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F0CD0)
+#define RPG_GAMECORE_ENTITYMODELASSETINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0F0C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityModelAssetInfo_TypeDefinitionIndex = 19212;
+	inline static constexpr unsigned int EntityModelAssetInfo_TypeDefinitionIndex = 19402;
 
 	class EntityModelAssetInfo : public ::RPG::GameCore::JsonConfig
 	{

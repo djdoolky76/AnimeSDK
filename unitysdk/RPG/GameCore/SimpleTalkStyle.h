@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SimpleTalkStyle; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SIMPLETALKSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABCB50)
-#define RPG_GAMECORE_SIMPLETALKSTYLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABCA10)
+#define RPG_GAMECORE_SIMPLETALKSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F5B80)
+#define RPG_GAMECORE_SIMPLETALKSTYLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3F5A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleTalkStyle_TypeDefinitionIndex = 20842;
+	inline static constexpr unsigned int SimpleTalkStyle_TypeDefinitionIndex = 21179;
 
 	class SimpleTalkStyle : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_IKHITREACTIONSPINE_CTOR_OFFSET UNITYSDK_OFFSET(0xD3327E0)
+#define RPG_CLIENT_IKHITREACTIONSPINE_CTOR_OFFSET UNITYSDK_OFFSET(0x17059BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IKHitReactionSpine_TypeDefinitionIndex = 68456;
+	inline static constexpr unsigned int IKHitReactionSpine_TypeDefinitionIndex = 70403;
 
 	class IKHitReactionSpine : public ::System::Object
 	{

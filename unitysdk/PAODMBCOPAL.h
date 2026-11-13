@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByAdvCharacterLogicState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PAODMBCOPAL_CTOR_OFFSET UNITYSDK_OFFSET(0xBFD1890)
-#define PAODMBCOPAL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFD18C0)
+#define PAODMBCOPAL_CTOR_OFFSET UNITYSDK_OFFSET(0x18AE9880)
+#define PAODMBCOPAL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18AE98B0)
 
-inline static constexpr unsigned int PAODMBCOPAL_TypeDefinitionIndex = 53126;
+inline static constexpr unsigned int PAODMBCOPAL_TypeDefinitionIndex = 54288;
 
 	class PAODMBCOPAL
 	{

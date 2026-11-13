@@ -3,10 +3,10 @@
 #include "unitysdk/MKADHMMGGNA.h"
 #include "unitysdk/RPG/Client/Prop/DestroyRootPuzzleChessType.h"
 
-#define NIMLOFPLEDA_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0xBBF7970)
-#define NIMLOFPLEDA_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF79C0)
+#define NIMLOFPLEDA_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0x148D6BB0)
+#define NIMLOFPLEDA_CTOR_OFFSET UNITYSDK_OFFSET(0x148D6C00)
 
-inline static constexpr unsigned int NIMLOFPLEDA_TypeDefinitionIndex = 78555;
+inline static constexpr unsigned int NIMLOFPLEDA_TypeDefinitionIndex = 81290;
 
 	class NIMLOFPLEDA : public ::MKADHMMGGNA
 	{

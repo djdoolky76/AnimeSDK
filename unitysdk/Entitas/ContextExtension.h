@@ -4,7 +4,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextExtension_TypeDefinitionIndex = 9988;
+	inline static constexpr unsigned int ContextExtension_TypeDefinitionIndex = 9996;
 
 	class ContextExtension : public ::System::Object
 	{

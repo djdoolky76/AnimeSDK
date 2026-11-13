@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NFADCIJPLKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9282C0)
+#define NFADCIJPLKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C28D790)
 
-inline static constexpr unsigned int NFADCIJPLKD_TypeDefinitionIndex = 42970;
+inline static constexpr unsigned int NFADCIJPLKD_TypeDefinitionIndex = 43951;
 
 	class NFADCIJPLKD : public ::System::Object
 	{

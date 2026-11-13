@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BEBIIJELGDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88A350)
+#define BEBIIJELGDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B4B20)
 
-inline static constexpr unsigned int BEBIIJELGDA_TypeDefinitionIndex = 42541;
+inline static constexpr unsigned int BEBIIJELGDA_TypeDefinitionIndex = 43516;
 
 	class BEBIIJELGDA : public ::System::Object
 	{

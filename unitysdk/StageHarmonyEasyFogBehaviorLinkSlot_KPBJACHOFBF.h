@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class EasyFog; }
 
-#define STAGEHARMONYEASYFOGBEHAVIORLINKSLOT_KPBJACHOFBF_CTOR_OFFSET UNITYSDK_OFFSET(0xE984160)
+#define STAGEHARMONYEASYFOGBEHAVIORLINKSLOT_KPBJACHOFBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4DC00)
 
-inline static constexpr unsigned int StageHarmonyEasyFogBehaviorLinkSlot_KPBJACHOFBF_TypeDefinitionIndex = 47365;
+inline static constexpr unsigned int StageHarmonyEasyFogBehaviorLinkSlot_KPBJACHOFBF_TypeDefinitionIndex = 48394;
 
 	class StageHarmonyEasyFogBehaviorLinkSlot_KPBJACHOFBF : public ::System::Object
 	{

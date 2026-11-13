@@ -4,18 +4,18 @@
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
 #include "unitysdk/System/Object.h"
 
-#define JEANAIHDCAA_CTOR_OFFSET UNITYSDK_OFFSET(0x16607D70)
-#define JEANAIHDCAA_PFBGIJIBAEE_OFFSET UNITYSDK_OFFSET(0x16607D20)
+#define JEANAIHDCAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1305FEE0)
+#define JEANAIHDCAA_PFBGIJIBAEE_OFFSET UNITYSDK_OFFSET(0x1305FE90)
 
-inline static constexpr unsigned int JEANAIHDCAA_TypeDefinitionIndex = 65960;
+inline static constexpr unsigned int JEANAIHDCAA_TypeDefinitionIndex = 67892;
 
 	class JEANAIHDCAA : public ::System::Object
 	{
 	public:
-		::System::UInt32 KLOEJIMMPJM; // 0x10
+		::RPG::GameCore::Match3::BombType FEKGEPDLOCE; // 0x10
 		::System::Boolean HEPNDFHHHEG; // 0x14
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::Match3::BombType FEKGEPDLOCE; // 0x18
+		::System::UInt32 KLOEJIMMPJM; // 0x18
 		::RPG::GameCore::Match3::PieceTag BNEPAJPMFEI; // 0x1C
 		// static const ::System::Object OILFOBJDFHB; // 0x0
 		// static const ::System::Object FCNHJLJMIMI; // 0x0

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SkillTargetConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OVERRIDESKILLTARGETINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BBDA0)
-#define RPG_GAMECORE_OVERRIDESKILLTARGETINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8BBDE0)
-#define RPG_GAMECORE_OVERRIDESKILLTARGETINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8BBD40)
+#define RPG_GAMECORE_OVERRIDESKILLTARGETINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F13D2F0)
+#define RPG_GAMECORE_OVERRIDESKILLTARGETINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F13D330)
+#define RPG_GAMECORE_OVERRIDESKILLTARGETINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F13D290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideSkillTargetInfo_TypeDefinitionIndex = 22715;
+	inline static constexpr unsigned int OverrideSkillTargetInfo_TypeDefinitionIndex = 23137;
 
 	class OverrideSkillTargetInfo : public ::RPG::GameCore::TaskConfig
 	{

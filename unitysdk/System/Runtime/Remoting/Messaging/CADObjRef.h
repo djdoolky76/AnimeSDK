@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Runtime::Remoting { class ObjRef; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B6130)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A709740)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -12,8 +12,8 @@ namespace System::Runtime::Remoting::Messaging
 	class CADObjRef : public ::System::Object
 	{
 	public:
-		::System::Runtime::Remoting::ObjRef* objref; // 0x10
-		::Il2CppArray<::System::Byte>* TypeInfo; // 0x18
+		::Il2CppArray<::System::Byte>* TypeInfo; // 0x10
+		::System::Runtime::Remoting::ObjRef* objref; // 0x18
 		::System::Int32 SourceDomain; // 0x20
 		::System::Void _ctor(::System::Runtime::Remoting::ObjRef* a1, ::System::Int32 a2)
 		{

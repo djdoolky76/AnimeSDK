@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define IALDFMDFGOD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E0CB40)
-#define IALDFMDFGOD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x15E0C9E0)
+#define IALDFMDFGOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1942CD30)
+#define IALDFMDFGOD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x1942CBD0)
 
-inline static constexpr unsigned int IALDFMDFGOD_TypeDefinitionIndex = 80496;
+inline static constexpr unsigned int IALDFMDFGOD_TypeDefinitionIndex = 83276;
 
 	class IALDFMDFGOD : public ::System::Object
 	{

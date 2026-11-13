@@ -8,29 +8,29 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define EDPHMDDGGGL_HLHGMJMBEIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1332FD80)
+#define EDPHMDDGGGL_HLHGMJMBEIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A30ECB0)
 
-inline static constexpr unsigned int EDPHMDDGGGL_HLHGMJMBEIM_TypeDefinitionIndex = 60719;
+inline static constexpr unsigned int EDPHMDDGGGL_HLHGMJMBEIM_TypeDefinitionIndex = 62096;
 
 	class EDPHMDDGGGL_HLHGMJMBEIM : public ::System::Object
 	{
 	public:
-		::System::String* DKNMIJKJKHF; // 0x10
+		::System::String* GEDFIDJOHOG; // 0x10
 		::System::Nullable_1<::LODKHMFCLOG> INEJMACHPIJ; // 0x18
 		::System::Byte _padding0[0x20];
-		::System::String* GEDFIDJOHOG; // 0x40
-		::System::Nullable_1<::NECBOLFGIMA> OHLEJJEOKBP; // 0x48
+		::System::Nullable_1<::NECBOLFGIMA> OHLEJJEOKBP; // 0x40
 		::System::Byte _padding1[0x10];
-		::System::Boolean DCPPNHHBHEE; // 0x60
-		::System::Boolean GNHPNHJJCBF; // 0x61
-		::System::Boolean JAHFGCPKFOC; // 0x62
-		::System::Boolean FGCBJIKAHMN; // 0x63
-		::System::Boolean FLDJCKMHBMD; // 0x64
-		::System::Boolean KDKJKJBMDAF; // 0x65
-		::System::Boolean KNBCNKCEELE; // 0x66
+		::System::String* DKNMIJKJKHF; // 0x58
+		::System::Boolean GNHPNHJJCBF; // 0x60
+		::System::Boolean KDKJKJBMDAF; // 0x61
+		::System::Boolean DCPPNHHBHEE; // 0x62
 		::System::Byte _padding2[0x1];
-		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x68
-		::UnityEngine::Quaternion NMELCPIOKNO; // 0x74
+		::UnityEngine::Quaternion NMELCPIOKNO; // 0x64
+		::System::Boolean FGCBJIKAHMN; // 0x74
+		::System::Boolean KNBCNKCEELE; // 0x75
+		::System::Boolean FLDJCKMHBMD; // 0x76
+		::System::Boolean JAHFGCPKFOC; // 0x77
+		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDPHMDDGGGL_HLHGMJMBEIM_CTOR_OFFSET))(this);

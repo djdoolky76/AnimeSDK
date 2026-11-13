@@ -7,15 +7,15 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_THREADDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB6740)
-#define MIHOYO_SDK_THREADDISPATCHER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BF99610)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0x1BFB68C0)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0x1BFB6810)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1BF99720)
+#define MIHOYO_SDK_THREADDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04B480)
+#define MIHOYO_SDK_THREADDISPATCHER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D02E4D0)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0x1D04B600)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0x1D04B550)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1D02E5E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadDispatcher_TypeDefinitionIndex = 8030;
+	inline static constexpr unsigned int ThreadDispatcher_TypeDefinitionIndex = 8039;
 
 	class ThreadDispatcher : public ::System::Object
 	{
@@ -23,7 +23,7 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::ThreadDispatcher_MainThreadDispatcher* mainThreadDispatcher; // 0x10
 		static ::MiHoYo::SDK::ThreadDispatcher** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::ThreadDispatcher**)UnitySDK::FromName("MiHoYo.SDK", "ThreadDispatcher")->GetStaticField(0x2A8D0);
+			return (::MiHoYo::SDK::ThreadDispatcher**)UnitySDK::FromName("MiHoYo.SDK", "ThreadDispatcher")->GetStaticField(0x1C7A0);
 		}
 
 		::System::Void _ctor()

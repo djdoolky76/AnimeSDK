@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByContainsRedStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FIFNJCFFPGH_CTOR_OFFSET UNITYSDK_OFFSET(0x15799BD0)
-#define FIFNJCFFPGH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15799C00)
+#define FIFNJCFFPGH_CTOR_OFFSET UNITYSDK_OFFSET(0x19803210)
+#define FIFNJCFFPGH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19803240)
 
-inline static constexpr unsigned int FIFNJCFFPGH_TypeDefinitionIndex = 54595;
+inline static constexpr unsigned int FIFNJCFFPGH_TypeDefinitionIndex = 55760;
 
 	class FIFNJCFFPGH
 	{

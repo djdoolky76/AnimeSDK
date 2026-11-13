@@ -4,9 +4,9 @@
 class OIBCPJPDBEF;
 namespace RPG::Client { class MapMappingInfoData; }
 
-#define NHJGPDBAOPL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBBFBD0)
+#define NHJGPDBAOPL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1489A4B0)
 
-inline static constexpr unsigned int NHJGPDBAOPL_TypeDefinitionIndex = 62934;
+inline static constexpr unsigned int NHJGPDBAOPL_TypeDefinitionIndex = 64372;
 
 	class NHJGPDBAOPL : public ::System::Object
 	{

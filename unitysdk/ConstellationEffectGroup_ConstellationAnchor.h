@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define CONSTELLATIONEFFECTGROUP_CONSTELLATIONANCHOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDFA8E40)
+#define CONSTELLATIONEFFECTGROUP_CONSTELLATIONANCHOR_CTOR_OFFSET UNITYSDK_OFFSET(0x19933EA0)
 
-inline static constexpr unsigned int ConstellationEffectGroup_ConstellationAnchor_TypeDefinitionIndex = 47330;
+inline static constexpr unsigned int ConstellationEffectGroup_ConstellationAnchor_TypeDefinitionIndex = 48359;
 
 	class ConstellationEffectGroup_ConstellationAnchor : public ::System::Object
 	{

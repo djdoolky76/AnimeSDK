@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetFloorCustomBoolV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNCMCPBNBLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1193B8E0)
-#define DNCMCPBNBLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1193B910)
+#define DNCMCPBNBLL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB0950)
+#define DNCMCPBNBLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CB0980)
 
-inline static constexpr unsigned int DNCMCPBNBLL_TypeDefinitionIndex = 53231;
+inline static constexpr unsigned int DNCMCPBNBLL_TypeDefinitionIndex = 54393;
 
 	class DNCMCPBNBLL
 	{

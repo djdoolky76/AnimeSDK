@@ -4,9 +4,9 @@
 class FDPALAEIHPB;
 class OAFCCICMILM;
 
-#define EODHPDKAAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x155B0B00)
+#define EODHPDKAAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x16B1E1D0)
 
-inline static constexpr unsigned int EODHPDKAAGE_TypeDefinitionIndex = 76615;
+inline static constexpr unsigned int EODHPDKAAGE_TypeDefinitionIndex = 78946;
 
 	class EODHPDKAAGE : public ::DJJKNHPLHDI
 	{

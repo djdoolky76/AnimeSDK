@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldReactivateDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BECA210)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG___C__DISPLAYCLASS9_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BECAF10)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C2C70)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDREACTIVATEDIALOG___C__DISPLAYCLASS9_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B0C3970)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldReactivateDialog___c__DisplayClass9_0_TypeDefinitionIndex = 8814;
+	inline static constexpr unsigned int HandheldReactivateDialog___c__DisplayClass9_0_TypeDefinitionIndex = 8823;
 
 	class HandheldReactivateDialog___c__DisplayClass9_0 : public ::System::Object
 	{

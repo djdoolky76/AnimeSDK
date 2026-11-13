@@ -6,43 +6,43 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B840010)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B840050)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B840060)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_1_OFFSET UNITYSDK_OFFSET(0x1B8400F0)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_2_OFFSET UNITYSDK_OFFSET(0x1B840150)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_3_OFFSET UNITYSDK_OFFSET(0x1B8401E0)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEB7360)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB73A0)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BEB73B0)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_1_OFFSET UNITYSDK_OFFSET(0x1BEB7440)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_2_OFFSET UNITYSDK_OFFSET(0x1BEB74A0)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_3_OFFSET UNITYSDK_OFFSET(0x1BEB7530)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper___c_TypeDefinitionIndex = 5405;
+	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper___c_TypeDefinitionIndex = 5410;
 
 	class JsonFormatter_OriginalEnumValueHelper___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Object*>** StaticGet___9__2_2()
-		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Object*>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1EB10);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1EB18);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DEF0);
 		}
 
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1EB20);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DEF8);
 		}
 
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::String*>** StaticGet___9__2_3()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::String*>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1EB28);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::String*>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DF00);
 		}
 
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1EB30);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DF08);
+		}
+
+		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Object*>** StaticGet___9__2_2()
+		{
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Object*>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DF10);
 		}
 
 		static ::System::Void _cctor()

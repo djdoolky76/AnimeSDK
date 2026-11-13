@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_PARAMARRAYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2609C0)
+#define SYSTEM_PARAMARRAYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E37F960)
 
 namespace System
 {

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define MLLFELNBJNB_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B2E00)
-#define MLLFELNBJNB_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0xB9B2CE0)
+#define MLLFELNBJNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9284E0)
+#define MLLFELNBJNB_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B9283C0)
 
-inline static constexpr unsigned int MLLFELNBJNB_TypeDefinitionIndex = 69744;
+inline static constexpr unsigned int MLLFELNBJNB_TypeDefinitionIndex = 71701;
 
 	class MLLFELNBJNB
 	{

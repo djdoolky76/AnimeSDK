@@ -5,25 +5,25 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define JMGOLPMLNIO_CTOR_OFFSET UNITYSDK_OFFSET(0xB25F1F0)
-#define JMGOLPMLNIO_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB25EF70)
-#define JMGOLPMLNIO_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB25EFB0)
-#define JMGOLPMLNIO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB25EC00)
-#define JMGOLPMLNIO_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB25EC10)
+#define JMGOLPMLNIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0ADAE0)
+#define JMGOLPMLNIO_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x1A0AD860)
+#define JMGOLPMLNIO_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1A0AD8A0)
+#define JMGOLPMLNIO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A0AD4F0)
+#define JMGOLPMLNIO_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x1A0AD500)
 
-inline static constexpr unsigned int JMGOLPMLNIO_TypeDefinitionIndex = 56124;
+inline static constexpr unsigned int JMGOLPMLNIO_TypeDefinitionIndex = 57336;
 
 	class JMGOLPMLNIO : public ::DBGDNLLDPFI
 	{
 	public:
 		::System::String* BBMMBAKDJBC; // 0x10
-		::System::String* IFNAGLOMHBK; // 0x18
-		::System::String* DINBCKPJJEL; // 0x20
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x28
+		::System::String* DINBCKPJJEL; // 0x18
+		::System::String* IFNAGLOMHBK; // 0x20
+		::RPG::GameCore::FixPoint CEIFPNFFBPK; // 0x28
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x30
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint CEIFPNFFBPK; // 0x30
-		::RPG::GameCore::FixPoint PIDECKOBKIJ; // 0x38
-		::RPG::GameCore::FixPoint IHJPJGJDHNN; // 0x40
+		::RPG::GameCore::FixPoint IHJPJGJDHNN; // 0x38
+		::RPG::GameCore::FixPoint PIDECKOBKIJ; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMGOLPMLNIO_CTOR_OFFSET))(this);

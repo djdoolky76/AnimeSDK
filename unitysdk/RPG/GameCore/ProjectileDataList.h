@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ProjectileData; }
 namespace RPG::GameCore { class ProjectileDataList; }
 
-#define RPG_GAMECORE_PROJECTILEDATALIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D916FB0)
-#define RPG_GAMECORE_PROJECTILEDATALIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D916E30)
+#define RPG_GAMECORE_PROJECTILEDATALIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF80E70)
+#define RPG_GAMECORE_PROJECTILEDATALIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF80CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileDataList_TypeDefinitionIndex = 22585;
+	inline static constexpr unsigned int ProjectileDataList_TypeDefinitionIndex = 23000;
 
 	class ProjectileDataList : public ::RPG::GameCore::JsonConfig
 	{

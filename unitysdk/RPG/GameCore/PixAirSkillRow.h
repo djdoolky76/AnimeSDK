@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F0200)
-#define RPG_GAMECORE_PIXAIRSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F0000)
+#define RPG_GAMECORE_PIXAIRSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5E960)
+#define RPG_GAMECORE_PIXAIRSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE5E760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirSkillRow_TypeDefinitionIndex = 12161;
+	inline static constexpr unsigned int PixAirSkillRow_TypeDefinitionIndex = 12218;
 
 	class PixAirSkillRow : public ::System::Object
 	{

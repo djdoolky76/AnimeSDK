@@ -6,21 +6,21 @@ namespace MiHoYo::SDK { class ComboUserModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD0A600)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2__LOGIN_B__7_OFFSET UNITYSDK_OFFSET(0x1BD0D170)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2__LOGIN_B__8_OFFSET UNITYSDK_OFFSET(0x1BD0D070)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2__LOGIN_B__9_OFFSET UNITYSDK_OFFSET(0x1BD0D0D0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1725D560)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2__LOGIN_B__7_OFFSET UNITYSDK_OFFSET(0x172600D0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2__LOGIN_B__8_OFFSET UNITYSDK_OFFSET(0x1725FFD0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2__LOGIN_B__9_OFFSET UNITYSDK_OFFSET(0x17260030)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass21_2_TypeDefinitionIndex = 9419;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass21_2_TypeDefinitionIndex = 9427;
 
 	template <typename T1, typename T2>
 	class ComboManager___c__DisplayClass21_2 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* callbackModel; // 0x10
-		::System::Object* CS___8__locals2; // 0x18
+		::System::Object* CS___8__locals2; // 0x10
+		::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* callbackModel; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS21_2_CTOR_OFFSET))(this);

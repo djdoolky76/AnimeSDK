@@ -7,14 +7,14 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWFIGHTFESTPERFORMANCETOASTDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE92EF40)
-#define RPGTOOLS_TIMELINE_SHOWFIGHTFESTPERFORMANCETOASTDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92ED10)
-#define RPGTOOLS_TIMELINE_SHOWFIGHTFESTPERFORMANCETOASTDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92EED0)
-#define RPGTOOLS_TIMELINE_SHOWFIGHTFESTPERFORMANCETOASTDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92ED00)
+#define RPGTOOLS_TIMELINE_SHOWFIGHTFESTPERFORMANCETOASTDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A210)
+#define RPGTOOLS_TIMELINE_SHOWFIGHTFESTPERFORMANCETOASTDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DA19FE0)
+#define RPGTOOLS_TIMELINE_SHOWFIGHTFESTPERFORMANCETOASTDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A1A0)
+#define RPGTOOLS_TIMELINE_SHOWFIGHTFESTPERFORMANCETOASTDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DA19FD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowFightFestPerformanceToastDialogClip_TypeDefinitionIndex = 48296;
+	inline static constexpr unsigned int ShowFightFestPerformanceToastDialogClip_TypeDefinitionIndex = 49337;
 
 	class ShowFightFestPerformanceToastDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -22,12 +22,12 @@ namespace RPGTools::Timeline
 		::System::String* UILuaPath; // 0x18
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowFightFestPerformanceToastDialogClip")->GetStaticField(0x6FE50);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowFightFestPerformanceToastDialogClip")->GetStaticField(0xE970);
 		}
 
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowFightFestPerformanceToastDialogClip")->GetStaticField(0x6FE58);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowFightFestPerformanceToastDialogClip")->GetStaticField(0xE978);
 		}
 
 		::System::Void _ctor()

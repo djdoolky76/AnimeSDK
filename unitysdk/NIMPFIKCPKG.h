@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NIMPFIKCPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF7E90)
-#define NIMPFIKCPKG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBBF7E50)
+#define NIMPFIKCPKG_CTOR_OFFSET UNITYSDK_OFFSET(0x148D70D0)
+#define NIMPFIKCPKG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x148D7090)
 
-inline static constexpr unsigned int NIMPFIKCPKG_TypeDefinitionIndex = 57390;
+inline static constexpr unsigned int NIMPFIKCPKG_TypeDefinitionIndex = 58618;
 
 	class NIMPFIKCPKG : public ::System::Object
 	{

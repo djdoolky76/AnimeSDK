@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LIFDICCJGMJ_InspectType_TypeDefinitionIndex = 25042;
+inline static constexpr unsigned int LIFDICCJGMJ_InspectType_TypeDefinitionIndex = 25520;
 
 	enum class LIFDICCJGMJ_InspectType : ::System::Int32
 	{

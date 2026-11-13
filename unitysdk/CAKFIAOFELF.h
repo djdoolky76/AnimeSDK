@@ -5,20 +5,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class HeartDialEmoBlackList; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CAKFIAOFELF_CTOR_OFFSET UNITYSDK_OFFSET(0xC480590)
-#define CAKFIAOFELF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC480800)
-#define CAKFIAOFELF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4805A0)
-#define CAKFIAOFELF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC4807B0)
-#define CAKFIAOFELF_TICK_OFFSET UNITYSDK_OFFSET(0xC480840)
+#define CAKFIAOFELF_CTOR_OFFSET UNITYSDK_OFFSET(0x18FBCA20)
+#define CAKFIAOFELF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18FBCC90)
+#define CAKFIAOFELF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FBCA30)
+#define CAKFIAOFELF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18FBCC40)
+#define CAKFIAOFELF_TICK_OFFSET UNITYSDK_OFFSET(0x18FBCCD0)
 
-inline static constexpr unsigned int CAKFIAOFELF_TypeDefinitionIndex = 58149;
+inline static constexpr unsigned int CAKFIAOFELF_TypeDefinitionIndex = 59402;
 
 	class CAKFIAOFELF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::HeartDialEmoBlackList* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::GameEntity* FEECCONDBLP; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::HeartDialEmoBlackList* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::GameEntity* FEECCONDBLP; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HeartDialEmoBlackList* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::HeartDialEmoBlackList*))((::PBYTE)hIl2Cpp + CAKFIAOFELF_CTOR_OFFSET))(this, a1, a2);

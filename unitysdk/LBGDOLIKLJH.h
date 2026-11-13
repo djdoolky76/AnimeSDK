@@ -7,18 +7,18 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define LBGDOLIKLJH_BBJICMCNCLJ_OFFSET UNITYSDK_OFFSET(0xB5F3E40)
-#define LBGDOLIKLJH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F3EF0)
-#define LBGDOLIKLJH_FGICCPHJGGB_OFFSET UNITYSDK_OFFSET(0xB5F3DB0)
-#define LBGDOLIKLJH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5F3CE0)
+#define LBGDOLIKLJH_BBJICMCNCLJ_OFFSET UNITYSDK_OFFSET(0x1B2981F0)
+#define LBGDOLIKLJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2982A0)
+#define LBGDOLIKLJH_FGICCPHJGGB_OFFSET UNITYSDK_OFFSET(0x1B298110)
+#define LBGDOLIKLJH__ONBIND_OFFSET UNITYSDK_OFFSET(0x1B297F80)
 
-inline static constexpr unsigned int LBGDOLIKLJH_TypeDefinitionIndex = 72339;
+inline static constexpr unsigned int LBGDOLIKLJH_TypeDefinitionIndex = 74418;
 
 	class LBGDOLIKLJH : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x60
-		::UnityEngine::Transform* GHGAKNDLKGM; // 0x68
+		::UnityEngine::Transform* GHGAKNDLKGM; // 0x60
+		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x68
 		::UnityEngine::Animation* JPHOOFFIAAH; // 0x70
 		::System::Nullable_1<::System::Boolean> IAPJFCPEOBL; // 0x78
 		::System::Void _ctor()

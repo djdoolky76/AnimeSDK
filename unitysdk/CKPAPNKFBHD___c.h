@@ -4,18 +4,18 @@
 class CKPAPNKFBHD;
 namespace System { class Object; }
 
-#define CKPAPNKFBHD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0C2280)
-#define CKPAPNKFBHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C22B0)
-#define CKPAPNKFBHD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E0C22C0)
+#define CKPAPNKFBHD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2059C500)
+#define CKPAPNKFBHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2059C530)
+#define CKPAPNKFBHD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2059C540)
 
-inline static constexpr unsigned int CKPAPNKFBHD___c_TypeDefinitionIndex = 28651;
+inline static constexpr unsigned int CKPAPNKFBHD___c_TypeDefinitionIndex = 29241;
 
 	class CKPAPNKFBHD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19B70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12E60);
 		}
 
 		static ::System::Void _cctor()

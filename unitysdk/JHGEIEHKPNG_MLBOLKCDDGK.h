@@ -4,7 +4,7 @@
 class CEEGMMCFCBG;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int JHGEIEHKPNG_MLBOLKCDDGK_TypeDefinitionIndex = 49873;
+inline static constexpr unsigned int JHGEIEHKPNG_MLBOLKCDDGK_TypeDefinitionIndex = 50921;
 
 	class JHGEIEHKPNG_MLBOLKCDDGK : public ::System::Object
 	{

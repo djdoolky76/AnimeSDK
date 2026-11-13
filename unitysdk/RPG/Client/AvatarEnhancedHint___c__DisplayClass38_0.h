@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class AvatarSkillTreeRow; }
 
-#define RPG_CLIENT_AVATARENHANCEDHINT___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC6D0770)
-#define RPG_CLIENT_AVATARENHANCEDHINT___C__DISPLAYCLASS38_0__GETSKILLTREECHANGES_B__0_OFFSET UNITYSDK_OFFSET(0xC6D1C40)
+#define RPG_CLIENT_AVATARENHANCEDHINT___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AB320)
+#define RPG_CLIENT_AVATARENHANCEDHINT___C__DISPLAYCLASS38_0__GETSKILLTREECHANGES_B__0_OFFSET UNITYSDK_OFFSET(0x1A4AC7F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEnhancedHint___c__DisplayClass38_0_TypeDefinitionIndex = 62491;
+	inline static constexpr unsigned int AvatarEnhancedHint___c__DisplayClass38_0_TypeDefinitionIndex = 63904;
 
 	class AvatarEnhancedHint___c__DisplayClass38_0 : public ::System::Object
 	{

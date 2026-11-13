@@ -5,10 +5,10 @@ class AJNIEDDIKOI;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define PAIKIFFPMNH___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC39B0)
-#define PAIKIFFPMNH___C__DISPLAYCLASS8_0__UNREGISTEREVENTS_B__0_OFFSET UNITYSDK_OFFSET(0xBFC3ED0)
+#define PAIKIFFPMNH___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18ADB470)
+#define PAIKIFFPMNH___C__DISPLAYCLASS8_0__UNREGISTEREVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x18ADB990)
 
-inline static constexpr unsigned int PAIKIFFPMNH___c__DisplayClass8_0_TypeDefinitionIndex = 78039;
+inline static constexpr unsigned int PAIKIFFPMNH___c__DisplayClass8_0_TypeDefinitionIndex = 80774;
 
 	class PAIKIFFPMNH___c__DisplayClass8_0 : public ::System::Object
 	{

@@ -7,26 +7,26 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CYSHARP_THREADING_TASKS_TASKPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F72B0)
-#define CYSHARP_THREADING_TASKS_TASKPOOL_GETCACHESIZEINFO_OFFSET UNITYSDK_OFFSET(0x1F0F74E0)
-#define CYSHARP_THREADING_TASKS_TASKPOOL_REGISTERSIZEGETTER_OFFSET UNITYSDK_OFFSET(0x1F0E6BA0)
-#define CYSHARP_THREADING_TASKS_TASKPOOL_SETMAXPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x1F0F7480)
+#define CYSHARP_THREADING_TASKS_TASKPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F16A820)
+#define CYSHARP_THREADING_TASKS_TASKPOOL_GETCACHESIZEINFO_OFFSET UNITYSDK_OFFSET(0x1F16AA50)
+#define CYSHARP_THREADING_TASKS_TASKPOOL_REGISTERSIZEGETTER_OFFSET UNITYSDK_OFFSET(0x1F15A0F0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL_SETMAXPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x1F16A9F0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskPool_TypeDefinitionIndex = 38219;
+	inline static constexpr unsigned int TaskPool_TypeDefinitionIndex = 39148;
 
 	class TaskPool : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>** StaticGet_sizes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TaskPool")->GetStaticField(0x376F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TaskPool")->GetStaticField(0x34040);
 		}
 
 		static ::System::Int32* StaticGet_MaxPoolSize()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Cysharp.Threading.Tasks", "TaskPool")->GetStaticField(0xB320);
+			return (::System::Int32*)UnitySDK::FromName("Cysharp.Threading.Tasks", "TaskPool")->GetStaticField(0xA170);
 		}
 
 		static ::System::Void _cctor()

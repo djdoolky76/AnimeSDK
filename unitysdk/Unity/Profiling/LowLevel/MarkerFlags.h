@@ -13,5 +13,6 @@ namespace Unity::Profiling::LowLevel
 		ScriptDeepProfiler = 64,
 		AvailabilityEditor = 4,
 		Warning = 16,
+		LiteStatsWatch = 8192,
 	};
 }

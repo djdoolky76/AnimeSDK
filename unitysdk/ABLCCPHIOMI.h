@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ABLCCPHIOMI_TypeDefinitionIndex = 28727;
+inline static constexpr unsigned int ABLCCPHIOMI_TypeDefinitionIndex = 29317;
 
 	enum class ABLCCPHIOMI : ::System::Int32
 	{

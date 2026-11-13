@@ -4,16 +4,16 @@
 class BCFDAHOHJEA;
 class LJABAMCMDLI;
 
-#define BCFDAHOHJEA___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E99180)
-#define BCFDAHOHJEA___C__DISPLAYCLASS12_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15E99690)
+#define BCFDAHOHJEA___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19D73E60)
+#define BCFDAHOHJEA___C__DISPLAYCLASS12_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x19D74360)
 
-inline static constexpr unsigned int BCFDAHOHJEA___c__DisplayClass12_0_TypeDefinitionIndex = 71492;
+inline static constexpr unsigned int BCFDAHOHJEA___c__DisplayClass12_0_TypeDefinitionIndex = 73477;
 
 	class BCFDAHOHJEA___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::LJABAMCMDLI* data; // 0x10
-		::BCFDAHOHJEA* __4__this; // 0x18
+		::BCFDAHOHJEA* __4__this; // 0x10
+		::LJABAMCMDLI* data; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BCFDAHOHJEA___C__DISPLAYCLASS12_0_CTOR_OFFSET))(this);

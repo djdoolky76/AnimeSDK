@@ -4,18 +4,18 @@
 class JPCNCABCMGA;
 namespace System { class Object; }
 
-#define JPCNCABCMGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1F80)
-#define JPCNCABCMGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1FC0)
-#define JPCNCABCMGA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7A1FD0)
+#define JPCNCABCMGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8DA3A0)
+#define JPCNCABCMGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8DA3E0)
+#define JPCNCABCMGA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F8DA3F0)
 
-inline static constexpr unsigned int JPCNCABCMGA___c_TypeDefinitionIndex = 32397;
+inline static constexpr unsigned int JPCNCABCMGA___c_TypeDefinitionIndex = 33310;
 
 	class JPCNCABCMGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68B00);
 		}
 
 		static ::System::Void _cctor()

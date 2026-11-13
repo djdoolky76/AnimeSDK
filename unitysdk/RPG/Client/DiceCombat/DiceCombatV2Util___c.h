@@ -5,25 +5,25 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2PvPTitleData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCA9B50)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCA9B90)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__GETTITLEFROMNOTIFYBYUID_B__23_1_OFFSET UNITYSDK_OFFSET(0xCCA9BA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C53E3D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C53E410)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__GETTITLEFROMNOTIFYBYUID_B__23_1_OFFSET UNITYSDK_OFFSET(0x1C53E420)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2Util___c_TypeDefinitionIndex = 76178;
+	inline static constexpr unsigned int DiceCombatV2Util___c_TypeDefinitionIndex = 78505;
 
 	class DiceCombatV2Util___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>** StaticGet___9__23_1()
 		{
-			return (::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x24210);
+			return (::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x2D2C0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x24218);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x2D2C8);
 		}
 
 		static ::System::Void _cctor()

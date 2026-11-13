@@ -4,11 +4,11 @@
 namespace RPG::Client { class CameraBlendCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PIPELINECAMERAGLOBALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDB23D70)
+#define RPG_CLIENT_PIPELINECAMERAGLOBALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x18D9D6B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PipelineCameraGlobalConfig_TypeDefinitionIndex = 69719;
+	inline static constexpr unsigned int PipelineCameraGlobalConfig_TypeDefinitionIndex = 71676;
 
 	class PipelineCameraGlobalConfig : public ::UnityEngine::ScriptableObject
 	{

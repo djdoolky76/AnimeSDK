@@ -6,124 +6,129 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class JsonEnumDefineConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_JSONENUMSTATIC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D774190)
-#define RPG_GAMECORE_JSONENUMSTATIC_CONTAINSALL_OFFSET UNITYSDK_OFFSET(0x1D773C10)
-#define RPG_GAMECORE_JSONENUMSTATIC_CONTAINSANY_OFFSET UNITYSDK_OFFSET(0x1D773B60)
-#define RPG_GAMECORE_JSONENUMSTATIC_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1D773B00)
-#define RPG_GAMECORE_JSONENUMSTATIC_GETJSONENUMSTR_OFFSET UNITYSDK_OFFSET(0x1D773E60)
-#define RPG_GAMECORE_JSONENUMSTATIC_GETJSONENUMVALUE_OFFSET UNITYSDK_OFFSET(0x1D773FB0)
-#define RPG_GAMECORE_JSONENUMSTATIC_GET_S_DEFINECONFIG_OFFSET UNITYSDK_OFFSET(0x1D772650)
-#define RPG_GAMECORE_JSONENUMSTATIC_ISJSONENUMVALID_OFFSET UNITYSDK_OFFSET(0x1D773CB0)
-#define RPG_GAMECORE_JSONENUMSTATIC_RELOADCONFIG_OFFSET UNITYSDK_OFFSET(0x1D773A70)
-#define RPG_GAMECORE_JSONENUMSTATIC_SET_S_DEFINECONFIG_OFFSET UNITYSDK_OFFSET(0x1D773A30)
-#define RPG_GAMECORE_JSONENUMSTATIC_VALUEOREMPTYCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x1D7739E0)
-#define RPG_GAMECORE_JSONENUMSTATIC__REGISTERCONST_OFFSET UNITYSDK_OFFSET(0x1D773A20)
+#define RPG_GAMECORE_JSONENUMSTATIC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D926E50)
+#define RPG_GAMECORE_JSONENUMSTATIC_CONTAINSALL_OFFSET UNITYSDK_OFFSET(0x1D9268D0)
+#define RPG_GAMECORE_JSONENUMSTATIC_CONTAINSANY_OFFSET UNITYSDK_OFFSET(0x1D926820)
+#define RPG_GAMECORE_JSONENUMSTATIC_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1D9267C0)
+#define RPG_GAMECORE_JSONENUMSTATIC_GETJSONENUMSTR_OFFSET UNITYSDK_OFFSET(0x1D926B20)
+#define RPG_GAMECORE_JSONENUMSTATIC_GETJSONENUMVALUE_OFFSET UNITYSDK_OFFSET(0x1D926C70)
+#define RPG_GAMECORE_JSONENUMSTATIC_GET_S_DEFINECONFIG_OFFSET UNITYSDK_OFFSET(0x1D925310)
+#define RPG_GAMECORE_JSONENUMSTATIC_ISJSONENUMVALID_OFFSET UNITYSDK_OFFSET(0x1D926970)
+#define RPG_GAMECORE_JSONENUMSTATIC_RELOADCONFIG_OFFSET UNITYSDK_OFFSET(0x1D926730)
+#define RPG_GAMECORE_JSONENUMSTATIC_SET_S_DEFINECONFIG_OFFSET UNITYSDK_OFFSET(0x1D9266F0)
+#define RPG_GAMECORE_JSONENUMSTATIC_VALUEOREMPTYCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x1D9266A0)
+#define RPG_GAMECORE_JSONENUMSTATIC__REGISTERCONST_OFFSET UNITYSDK_OFFSET(0x1D9266E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonEnumStatic_TypeDefinitionIndex = 10870;
+	inline static constexpr unsigned int JsonEnumStatic_TypeDefinitionIndex = 10886;
 
 	class JsonEnumStatic : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatMissionIcon()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD480);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatIcon()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD488);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatLoopIcon()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD490);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_HeartDialRaid()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD498);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_DreamlandIcon()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4A0);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatOutIcon()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4A8);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_None()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4B0);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatContinueIcon()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4B8);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_ModifierCustomEventEmptyEnum()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4C0);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_BattleIcon()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4C8);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DamageTagEmptyEnum()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4D0);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_Default()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4D8);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_AbilityTagDefault()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4E0);
-		}
-
 		static ::RPG::GameCore::JsonEnumDefineConfig** StaticGet_s_DefineConfig()
 		{
-			return (::RPG::GameCore::JsonEnumDefineConfig**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4E8);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_ModifierCustomEvent_TargetStancePreshow()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4F0);
-		}
-
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatBackIcon()
-		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD4F8);
+			return (::RPG::GameCore::JsonEnumDefineConfig**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15940);
 		}
 
 		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_CorrectIcon()
 		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD500);
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15948);
 		}
 
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_TriggerProp()
+		static ::RPG::GameCore::JsonEnum** StaticGet_None()
 		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD508);
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15950);
 		}
 
-		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_DiceCombatIcon()
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_HeartDialRaid()
 		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD510);
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15958);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatBackIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15960);
 		}
 
 		static ::RPG::GameCore::JsonEnum** StaticGet_InsertAbility_HideEffectMarkAutoHideInSkill()
 		{
-			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0xD518);
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15968);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_ModifierCustomEventEmptyEnum()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15970);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_DreamlandIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15978);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatLoopIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15980);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_ModifierCustomEvent_TargetStancePreshow()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15988);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DamageTagEmptyEnum()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15990);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_DiceCombatIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x15998);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_AdvModifierCustomEvent_Adventure_BeHitByVehicle()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159A0);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159A8);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_BattleIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159B0);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_TriggerProp()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159B8);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_AbilityTagDefault()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159C0);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatMissionIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159C8);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatContinueIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159D0);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_ChatOutIcon()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159D8);
+		}
+
+		static ::RPG::GameCore::JsonEnum** StaticGet_DialogueIconType_Default()
+		{
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnumStatic")->GetStaticField(0x159E0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,14 +6,14 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftPlacedChipPieceControl___O_TypeDefinitionIndex = 79872;
+	inline static constexpr unsigned int MechCraftCraftPlacedChipPieceControl___O_TypeDefinitionIndex = 82649;
 
 	class MechCraftCraftPlacedChipPieceControl___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int>** StaticGet__0___Min()
 		{
-			return (::System::Func_3<::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>O")->GetStaticField(0x48D00);
+			return (::System::Func_3<::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>O")->GetStaticField(0x5DB60);
 		}
 
 	};

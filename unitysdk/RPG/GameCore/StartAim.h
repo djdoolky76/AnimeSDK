@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StartAim; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEE000)
-#define RPG_GAMECORE_STARTAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAEE030)
-#define RPG_GAMECORE_STARTAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEDFB0)
+#define RPG_GAMECORE_STARTAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C1010)
+#define RPG_GAMECORE_STARTAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3C1040)
+#define RPG_GAMECORE_STARTAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C0FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartAim_TypeDefinitionIndex = 22405;
+	inline static constexpr unsigned int StartAim_TypeDefinitionIndex = 22814;
 
 	class StartAim : public ::RPG::GameCore::TaskConfig
 	{

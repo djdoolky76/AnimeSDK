@@ -6,12 +6,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ROAMINGMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDEDBBC0)
-#define RPG_CLIENT_ROAMINGMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xDEDBB70)
+#define RPG_CLIENT_ROAMINGMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BAF00)
+#define RPG_CLIENT_ROAMINGMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0x1C7BAEB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoamingModuleConfig_TypeDefinitionIndex = 69685;
+	inline static constexpr unsigned int RoamingModuleConfig_TypeDefinitionIndex = 71642;
 
 	class RoamingModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

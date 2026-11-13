@@ -3,12 +3,12 @@
 #include "unitysdk/FMPCODLIOLG.h"
 namespace RPG::GameCore { class BattleInstance; }
 
-#define EBEMIKFPOPC_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEA2E0)
-#define EBEMIKFPOPC_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x12CEA180)
-#define EBEMIKFPOPC_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x12CEA2A0)
-#define EBEMIKFPOPC__ONBIND_OFFSET UNITYSDK_OFFSET(0x12CEA140)
+#define EBEMIKFPOPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B7E70)
+#define EBEMIKFPOPC_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1C3B7E30)
+#define EBEMIKFPOPC__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x1C3B7D10)
+#define EBEMIKFPOPC__ONBIND_OFFSET UNITYSDK_OFFSET(0x1C3B7CD0)
 
-inline static constexpr unsigned int EBEMIKFPOPC_TypeDefinitionIndex = 71512;
+inline static constexpr unsigned int EBEMIKFPOPC_TypeDefinitionIndex = 73497;
 
 	class EBEMIKFPOPC : public ::FMPCODLIOLG
 	{
@@ -24,9 +24,9 @@ inline static constexpr unsigned int EBEMIKFPOPC_TypeDefinitionIndex = 71512;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBEMIKFPOPC__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBEMIKFPOPC_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBEMIKFPOPC__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void NKPPGDENJAE()

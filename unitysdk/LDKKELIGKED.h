@@ -5,19 +5,19 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraWorkFireBullet; }
 
-#define LDKKELIGKED_CTOR_OFFSET UNITYSDK_OFFSET(0xB62FF90)
-#define LDKKELIGKED_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB62FFE0)
-#define LDKKELIGKED_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB630020)
-#define LDKKELIGKED__START_B__2_0_OFFSET UNITYSDK_OFFSET(0xB630240)
+#define LDKKELIGKED_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC92200)
+#define LDKKELIGKED_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x1AC92250)
+#define LDKKELIGKED_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1AC92290)
+#define LDKKELIGKED__START_B__2_0_OFFSET UNITYSDK_OFFSET(0x1AC924B0)
 
-inline static constexpr unsigned int LDKKELIGKED_TypeDefinitionIndex = 78411;
+inline static constexpr unsigned int LDKKELIGKED_TypeDefinitionIndex = 81146;
 
 	class LDKKELIGKED : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
+		::RPG::GameCore::ChimeraWorkFireBullet* IGHAHBNLIJA; // 0x10
 		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
-		::RPG::GameCore::ChimeraWorkFireBullet* IGHAHBNLIJA; // 0x20
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x20
 		::System::UInt32 NCBAPGKFFJA; // 0x28
 		::System::UInt32 AJLJMGEEKOJ; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::ChimeraWorkFireBullet* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a4)

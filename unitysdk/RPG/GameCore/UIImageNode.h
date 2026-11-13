@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class UIImageNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIIMAGENODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC41C90)
-#define RPG_GAMECORE_UIIMAGENODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC41B80)
+#define RPG_GAMECORE_UIIMAGENODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2D820)
+#define RPG_GAMECORE_UIIMAGENODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED2D710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIImageNode_TypeDefinitionIndex = 23837;
+	inline static constexpr unsigned int UIImageNode_TypeDefinitionIndex = 24294;
 
 	class UIImageNode : public ::RPG::GameCore::JsonConfig
 	{

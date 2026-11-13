@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define HPKFLCMEFOI_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC4BA0)
+#define HPKFLCMEFOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3EC60)
 
-inline static constexpr unsigned int HPKFLCMEFOI_TypeDefinitionIndex = 55769;
+inline static constexpr unsigned int HPKFLCMEFOI_TypeDefinitionIndex = 56972;
 
 	class HPKFLCMEFOI : public ::System::Object
 	{

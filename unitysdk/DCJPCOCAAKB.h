@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/UnitStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define DCJPCOCAAKB_JIKPCACIDGJ_OFFSET UNITYSDK_OFFSET(0xE2448A0)
-#define DCJPCOCAAKB_MDKKCOPCBMI_OFFSET UNITYSDK_OFFSET(0xE244960)
+#define DCJPCOCAAKB_JIKPCACIDGJ_OFFSET UNITYSDK_OFFSET(0x1B1734B0)
+#define DCJPCOCAAKB_MDKKCOPCBMI_OFFSET UNITYSDK_OFFSET(0x1B173570)
 
-inline static constexpr unsigned int DCJPCOCAAKB_TypeDefinitionIndex = 57558;
+inline static constexpr unsigned int DCJPCOCAAKB_TypeDefinitionIndex = 58786;
 
 	class DCJPCOCAAKB : public ::System::Object
 	{

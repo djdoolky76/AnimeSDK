@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DHBOGGBEMFF_PVSState_TypeDefinitionIndex = 49128;
+inline static constexpr unsigned int DHBOGGBEMFF_PVSState_TypeDefinitionIndex = 50204;
 
 	enum class DHBOGGBEMFF_PVSState : ::System::Int32
 	{

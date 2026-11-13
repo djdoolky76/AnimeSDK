@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyQuizPlayerConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87ADC0)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D87A6A0)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E46BF30)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E46B810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyQuizPlayerConfigRow_TypeDefinitionIndex = 12063;
+	inline static constexpr unsigned int MonopolyQuizPlayerConfigRow_TypeDefinitionIndex = 12120;
 
 	class MonopolyQuizPlayerConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Desc; // 0x18
-		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Desc; // 0x28
 		::System::UInt32 QuizPlayerID; // 0x38
 		::System::Void _ctor()
 		{

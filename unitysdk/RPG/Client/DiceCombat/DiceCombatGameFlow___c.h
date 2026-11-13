@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMEFLOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC1FCE0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMEFLOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC1FD20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMEFLOW___C___ONEXITED_B__7_0_OFFSET UNITYSDK_OFFSET(0xCC1FD30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMEFLOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB71980)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMEFLOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB719C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMEFLOW___C___ONEXITED_B__7_0_OFFSET UNITYSDK_OFFSET(0x1CB719D0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatGameFlow___c_TypeDefinitionIndex = 76106;
+	inline static constexpr unsigned int DiceCombatGameFlow___c_TypeDefinitionIndex = 78433;
 
 	class DiceCombatGameFlow___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x20B00);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x29500);
 		}
 
 		static ::System::Action** StaticGet___9__7_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x20B08);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x29508);
 		}
 
 		static ::System::Void _cctor()

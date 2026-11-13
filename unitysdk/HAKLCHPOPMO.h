@@ -7,24 +7,24 @@ namespace RPG::GameCore { class AdvPlayerPushDownProp; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HAKLCHPOPMO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B78430)
-#define HAKLCHPOPMO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B785D0)
-#define HAKLCHPOPMO_KNACEGNPDCP_OFFSET UNITYSDK_OFFSET(0x15B791C0)
-#define HAKLCHPOPMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B78900)
-#define HAKLCHPOPMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B787B0)
-#define HAKLCHPOPMO_TICK_OFFSET UNITYSDK_OFFSET(0x15B79010)
+#define HAKLCHPOPMO_CTOR_OFFSET UNITYSDK_OFFSET(0x17DE5AB0)
+#define HAKLCHPOPMO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17DE5C50)
+#define HAKLCHPOPMO_KNACEGNPDCP_OFFSET UNITYSDK_OFFSET(0x17DE6780)
+#define HAKLCHPOPMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17DE5F80)
+#define HAKLCHPOPMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17DE5E30)
+#define HAKLCHPOPMO_TICK_OFFSET UNITYSDK_OFFSET(0x17DE6690)
 
-inline static constexpr unsigned int HAKLCHPOPMO_TypeDefinitionIndex = 52471;
+inline static constexpr unsigned int HAKLCHPOPMO_TypeDefinitionIndex = 53577;
 
 	class HAKLCHPOPMO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::Client::Prop::MonoPushDownObject* FJNPGFOCEIK; // 0x18
 		::KFELGAIGHAP* CFOKAIEGBNK; // 0x20
 		::RPG::GameCore::TaskContext* DMNHJGOOGLI; // 0x28
-		::RPG::GameCore::AdvPlayerPushDownProp* OFKGLJOAMLD; // 0x30
-		::RPG::Client::Prop::MonoPushDownObject* FJNPGFOCEIK; // 0x38
-		::KFELGAIGHAP* HGJBJGOLLCM; // 0x40
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::KFELGAIGHAP* HGJBJGOLLCM; // 0x38
+		::RPG::GameCore::AdvPlayerPushDownProp* OFKGLJOAMLD; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvPlayerPushDownProp* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvPlayerPushDownProp*))((::PBYTE)hIl2Cpp + HAKLCHPOPMO_CTOR_OFFSET))(this, a1, a2);

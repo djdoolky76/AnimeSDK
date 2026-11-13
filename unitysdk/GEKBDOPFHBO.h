@@ -5,22 +5,22 @@ namespace RPG::GameCore { class RemoveMapPoseSwitcher; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define GEKBDOPFHBO_CTOR_OFFSET UNITYSDK_OFFSET(0x159D3770)
-#define GEKBDOPFHBO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159D3780)
-#define GEKBDOPFHBO_NODEDPINMHN_OFFSET UNITYSDK_OFFSET(0x159D3A60)
-#define GEKBDOPFHBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159D38B0)
-#define GEKBDOPFHBO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159D3800)
-#define GEKBDOPFHBO_TICK_OFFSET UNITYSDK_OFFSET(0x159D3850)
+#define GEKBDOPFHBO_CTOR_OFFSET UNITYSDK_OFFSET(0x17CE0AF0)
+#define GEKBDOPFHBO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17CE0B00)
+#define GEKBDOPFHBO_NODEDPINMHN_OFFSET UNITYSDK_OFFSET(0x17CE0DE0)
+#define GEKBDOPFHBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CE0C30)
+#define GEKBDOPFHBO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17CE0B80)
+#define GEKBDOPFHBO_TICK_OFFSET UNITYSDK_OFFSET(0x17CE0BD0)
 
-inline static constexpr unsigned int GEKBDOPFHBO_TypeDefinitionIndex = 52998;
+inline static constexpr unsigned int GEKBDOPFHBO_TypeDefinitionIndex = 54157;
 
 	class GEKBDOPFHBO : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::RemoveMapPoseSwitcher* IGHAHBNLIJA; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::System::UInt32 GEFEOLMLPJN; // 0x28
-		::System::UInt32 BCAGKLKAFCF; // 0x2C
+		::System::UInt32 BCAGKLKAFCF; // 0x28
+		::System::UInt32 GEFEOLMLPJN; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RemoveMapPoseSwitcher* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RemoveMapPoseSwitcher*))((::PBYTE)hIl2Cpp + GEKBDOPFHBO_CTOR_OFFSET))(this, a1, a2);

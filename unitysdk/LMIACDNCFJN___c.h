@@ -5,23 +5,23 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LMIACDNCFJN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB77CF60)
-#define LMIACDNCFJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB77CFA0)
-#define LMIACDNCFJN___C__IMPORTCURGAMESESSIONDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0xB77CFB0)
+#define LMIACDNCFJN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFCD1B0)
+#define LMIACDNCFJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCD1F0)
+#define LMIACDNCFJN___C__IMPORTCURGAMESESSIONDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x1AFCD200)
 
-inline static constexpr unsigned int LMIACDNCFJN___c_TypeDefinitionIndex = 64698;
+inline static constexpr unsigned int LMIACDNCFJN___c_TypeDefinitionIndex = 66239;
 
 	class LMIACDNCFJN___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A3B0);
-		}
-
 		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A3B8);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FE60);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FE68);
 		}
 
 		static ::System::Void _cctor()

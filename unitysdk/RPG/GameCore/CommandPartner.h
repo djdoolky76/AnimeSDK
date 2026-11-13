@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CommandPartner; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_COMMANDPARTNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59D340)
-#define RPG_GAMECORE_COMMANDPARTNER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59D350)
-#define RPG_GAMECORE_COMMANDPARTNER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59D310)
+#define RPG_GAMECORE_COMMANDPARTNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5160C0)
+#define RPG_GAMECORE_COMMANDPARTNER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F5160D0)
+#define RPG_GAMECORE_COMMANDPARTNER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F516090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CommandPartner_TypeDefinitionIndex = 22696;
+	inline static constexpr unsigned int CommandPartner_TypeDefinitionIndex = 23118;
 
 	class CommandPartner : public ::RPG::GameCore::TaskConfig
 	{

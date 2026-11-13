@@ -4,17 +4,17 @@
 #include "unitysdk/HGCDFKINFPA.h"
 class HNLKNLJBHDD;
 
-#define HHNJCGOMOEG_CPFDFOKLGHO_OFFSET UNITYSDK_OFFSET(0x1C638950)
-#define HHNJCGOMOEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C638C80)
-#define HHNJCGOMOEG_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0x1C638B50)
+#define HHNJCGOMOEG_CPFDFOKLGHO_OFFSET UNITYSDK_OFFSET(0x1C921150)
+#define HHNJCGOMOEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C921480)
+#define HHNJCGOMOEG_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0x1C921350)
 
-inline static constexpr unsigned int HHNJCGOMOEG_TypeDefinitionIndex = 37150;
+inline static constexpr unsigned int HHNJCGOMOEG_TypeDefinitionIndex = 38078;
 
 	class HHNJCGOMOEG : public ::System::Object
 	{
 	public:
-		::System::Single KDMHBDFCNMG; // 0x10
-		::System::Single GLNJBPOLMCN; // 0x14
+		::System::Single GLNJBPOLMCN; // 0x10
+		::System::Single KDMHBDFCNMG; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHNJCGOMOEG_CTOR_OFFSET))(this);

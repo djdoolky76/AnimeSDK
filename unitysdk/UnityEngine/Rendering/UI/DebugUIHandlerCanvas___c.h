@@ -7,31 +7,31 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerPanel; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2A3300)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A3340)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__ACTIVATEPANEL_B__14_0_OFFSET UNITYSDK_OFFSET(0x1F2A3370)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__REBUILD_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F2A3350)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F656AF0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F656B30)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__ACTIVATEPANEL_B__14_0_OFFSET UNITYSDK_OFFSET(0x1F656B60)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__REBUILD_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F656B40)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerCanvas___c_TypeDefinitionIndex = 35676;
+	inline static constexpr unsigned int DebugUIHandlerCanvas___c_TypeDefinitionIndex = 36604;
 
 	class DebugUIHandlerCanvas___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x5C420);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x5C428);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x623E0);
 		}
 
 		static ::System::Action_1<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>** StaticGet___9__14_0()
 		{
-			return (::System::Action_1<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x5C430);
+			return (::System::Action_1<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x623E8);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x623F0);
 		}
 
 		static ::System::Void _cctor()

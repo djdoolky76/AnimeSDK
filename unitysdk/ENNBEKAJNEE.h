@@ -9,43 +9,43 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENNBEKAJNEE_CTOR_OFFSET UNITYSDK_OFFSET(0x155A7C50)
-#define ENNBEKAJNEE_GET_ATTRIBUTETYPE_OFFSET UNITYSDK_OFFSET(0x155A7B70)
-#define ENNBEKAJNEE_GET_CHESTEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7C20)
-#define ENNBEKAJNEE_GET_EFFECTPARAMS_OFFSET UNITYSDK_OFFSET(0x155A7C40)
-#define ENNBEKAJNEE_GET_ELBOWLEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7BA0)
-#define ENNBEKAJNEE_GET_ELBOWREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7BC0)
-#define ENNBEKAJNEE_GET_HEADEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7B90)
-#define ENNBEKAJNEE_GET_HIPLEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7BF0)
-#define ENNBEKAJNEE_GET_HIPREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7C10)
-#define ENNBEKAJNEE_GET_ID_OFFSET UNITYSDK_OFFSET(0x155A7B60)
-#define ENNBEKAJNEE_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x155A7B80)
-#define ENNBEKAJNEE_GET_ITEMEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7C30)
-#define ENNBEKAJNEE_GET_KNEEPARTLEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7BE0)
-#define ENNBEKAJNEE_GET_KNEEPARTREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7C00)
-#define ENNBEKAJNEE_GET_SHOULDERLEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7BB0)
-#define ENNBEKAJNEE_GET_SHOULDERREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155A7BD0)
-#define ENNBEKAJNEE_JPBJMJAIDHJ_OFFSET UNITYSDK_OFFSET(0x155A8580)
+#define ENNBEKAJNEE_CTOR_OFFSET UNITYSDK_OFFSET(0x18812CB0)
+#define ENNBEKAJNEE_GET_ATTRIBUTETYPE_OFFSET UNITYSDK_OFFSET(0x18812BD0)
+#define ENNBEKAJNEE_GET_CHESTEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C80)
+#define ENNBEKAJNEE_GET_EFFECTPARAMS_OFFSET UNITYSDK_OFFSET(0x18812CA0)
+#define ENNBEKAJNEE_GET_ELBOWLEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C00)
+#define ENNBEKAJNEE_GET_ELBOWREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C20)
+#define ENNBEKAJNEE_GET_HEADEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812BF0)
+#define ENNBEKAJNEE_GET_HIPLEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C50)
+#define ENNBEKAJNEE_GET_HIPREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C70)
+#define ENNBEKAJNEE_GET_ID_OFFSET UNITYSDK_OFFSET(0x18812BC0)
+#define ENNBEKAJNEE_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x18812BE0)
+#define ENNBEKAJNEE_GET_ITEMEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C90)
+#define ENNBEKAJNEE_GET_KNEEPARTLEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C40)
+#define ENNBEKAJNEE_GET_KNEEPARTREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C60)
+#define ENNBEKAJNEE_GET_SHOULDERLEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C10)
+#define ENNBEKAJNEE_GET_SHOULDERREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18812C30)
+#define ENNBEKAJNEE_JPBJMJAIDHJ_OFFSET UNITYSDK_OFFSET(0x188135F0)
 
-inline static constexpr unsigned int ENNBEKAJNEE_TypeDefinitionIndex = 80116;
+inline static constexpr unsigned int ENNBEKAJNEE_TypeDefinitionIndex = 82893;
 
 	class ENNBEKAJNEE : public ::System::Object
 	{
 	public:
-		::System::String* _ChestEffectPath_k__BackingField; // 0x10
-		::System::String* _ElbowLEffectPath_k__BackingField; // 0x18
-		::System::String* _HipLEffectPath_k__BackingField; // 0x20
-		::System::String* _ElbowREffectPath_k__BackingField; // 0x28
-		::System::String* _HipREffectPath_k__BackingField; // 0x30
+		::System::String* _HipREffectPath_k__BackingField; // 0x10
+		::System::String* _ShoulderREffectPath_k__BackingField; // 0x18
+		::System::String* _ChestEffectPath_k__BackingField; // 0x20
+		::System::String* _ImagePath_k__BackingField; // 0x28
+		::System::String* _KneePartREffectPath_k__BackingField; // 0x30
 		::System::String* _ItemEffectPath_k__BackingField; // 0x38
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftPartType, ::Il2CppArray<::System::String*>*>* JFNFJFCBFLF; // 0x40
-		::System::String* _KneePartREffectPath_k__BackingField; // 0x48
-		::System::String* _HeadEffectPath_k__BackingField; // 0x50
-		::System::String* _ShoulderLEffectPath_k__BackingField; // 0x58
-		::System::Collections::Generic::List_1<::System::Object*>* _EffectParams_k__BackingField; // 0x60
-		::System::String* _KneePartLEffectPath_k__BackingField; // 0x68
-		::System::String* _ShoulderREffectPath_k__BackingField; // 0x70
-		::System::String* _ImagePath_k__BackingField; // 0x78
+		::System::String* _HeadEffectPath_k__BackingField; // 0x40
+		::System::String* _ElbowREffectPath_k__BackingField; // 0x48
+		::System::String* _HipLEffectPath_k__BackingField; // 0x50
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftPartType, ::Il2CppArray<::System::String*>*>* JFNFJFCBFLF; // 0x58
+		::System::String* _KneePartLEffectPath_k__BackingField; // 0x60
+		::System::String* _ShoulderLEffectPath_k__BackingField; // 0x68
+		::System::String* _ElbowLEffectPath_k__BackingField; // 0x70
+		::System::Collections::Generic::List_1<::System::Object*>* _EffectParams_k__BackingField; // 0x78
 		::System::UInt32 _ID_k__BackingField; // 0x80
 		::RPG::Client::MechCraft::MechCraftAttributeType _AttributeType_k__BackingField; // 0x84
 		::System::Void _ctor(::MCMBBGLGNIK* a1)

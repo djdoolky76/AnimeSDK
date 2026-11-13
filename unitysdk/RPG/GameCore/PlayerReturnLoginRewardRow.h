@@ -5,20 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerReturnLoginRewardRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90C8F0)
-#define RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D90C740)
+#define RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF76AF0)
+#define RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF76940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnLoginRewardRow_TypeDefinitionIndex = 14533;
+	inline static constexpr unsigned int PlayerReturnLoginRewardRow_TypeDefinitionIndex = 14688;
 
 	class PlayerReturnLoginRewardRow : public ::System::Object
 	{
 	public:
 		::System::String* FirstWordText; // 0x10
 		::System::UInt32 OptionalGiftItem; // 0x18
-		::System::UInt32 LoginReward; // 0x1C
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 LoginReward; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW_CTOR_OFFSET))(this);

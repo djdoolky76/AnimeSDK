@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2DistanceInput_TypeDefinitionIndex = 36657;
+	inline static constexpr unsigned int B2DistanceInput_TypeDefinitionIndex = 37585;
 
 	struct alignas(4) B2DistanceInput
 	{

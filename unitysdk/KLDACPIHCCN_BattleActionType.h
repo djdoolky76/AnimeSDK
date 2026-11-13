@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KLDACPIHCCN_BattleActionType_TypeDefinitionIndex = 56208;
+inline static constexpr unsigned int KLDACPIHCCN_BattleActionType_TypeDefinitionIndex = 57420;
 
 	enum class KLDACPIHCCN_BattleActionType : ::System::Int32
 	{
@@ -31,5 +31,6 @@ inline static constexpr unsigned int KLDACPIHCCN_BattleActionType_TypeDefinition
 		InsertAttackFinish = 23,
 		ElationPointChange = 24,
 		ElationEchoPointChange = 25,
-		WaveMonster = 26,
+		DirtyHPDamage = 26,
+		WaveMonster = 27,
 	};

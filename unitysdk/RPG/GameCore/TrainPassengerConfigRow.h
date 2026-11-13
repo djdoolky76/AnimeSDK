@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPassengerConfigRow; }
 
-#define RPG_GAMECORE_TRAINPASSENGERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC08E20)
-#define RPG_GAMECORE_TRAINPASSENGERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC08D10)
+#define RPG_GAMECORE_TRAINPASSENGERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E312700)
+#define RPG_GAMECORE_TRAINPASSENGERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3125F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPassengerConfigRow_TypeDefinitionIndex = 15362;
+	inline static constexpr unsigned int TrainPassengerConfigRow_TypeDefinitionIndex = 15518;
 
 	class TrainPassengerConfigRow : public ::System::Object
 	{

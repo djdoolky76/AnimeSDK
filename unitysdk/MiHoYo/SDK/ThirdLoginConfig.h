@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_THIRDLOGINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB6710)
-#define MIHOYO_SDK_THIRDLOGINCONFIG_GETLOGINTYPE_OFFSET UNITYSDK_OFFSET(0x1BFB6570)
+#define MIHOYO_SDK_THIRDLOGINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04B450)
+#define MIHOYO_SDK_THIRDLOGINCONFIG_GETLOGINTYPE_OFFSET UNITYSDK_OFFSET(0x1D04B2B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThirdLoginConfig_TypeDefinitionIndex = 7907;
+	inline static constexpr unsigned int ThirdLoginConfig_TypeDefinitionIndex = 7916;
 
 	class ThirdLoginConfig : public ::System::Object
 	{

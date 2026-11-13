@@ -5,29 +5,29 @@ class DIFMKJMFKOK;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define IAFKDONMBFH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DFEC40)
-#define IAFKDONMBFH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DFEC70)
-#define IAFKDONMBFH___C__CALCULATESTREAMINGTASK_B__17_0_OFFSET UNITYSDK_OFFSET(0x15DFEC80)
-#define IAFKDONMBFH___C__SOLVECALCULATELODTASK_B__19_0_OFFSET UNITYSDK_OFFSET(0x15DFECD0)
+#define IAFKDONMBFH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1941F390)
+#define IAFKDONMBFH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1941F3C0)
+#define IAFKDONMBFH___C__CALCULATESTREAMINGTASK_B__17_0_OFFSET UNITYSDK_OFFSET(0x1941F3D0)
+#define IAFKDONMBFH___C__SOLVECALCULATELODTASK_B__19_0_OFFSET UNITYSDK_OFFSET(0x1941F420)
 
-inline static constexpr unsigned int IAFKDONMBFH___c_TypeDefinitionIndex = 73787;
+inline static constexpr unsigned int IAFKDONMBFH___c_TypeDefinitionIndex = 75913;
 
 	class IAFKDONMBFH___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::DIFMKJMFKOK*>** StaticGet___9__17_0()
-		{
-			return (::System::Comparison_1<::DIFMKJMFKOK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x379A0);
-		}
-
 		static ::System::Comparison_1<::DIFMKJMFKOK*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::DIFMKJMFKOK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x379A8);
+			return (::System::Comparison_1<::DIFMKJMFKOK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E990);
+		}
+
+		static ::System::Comparison_1<::DIFMKJMFKOK*>** StaticGet___9__17_0()
+		{
+			return (::System::Comparison_1<::DIFMKJMFKOK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E998);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x379B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E9A0);
 		}
 
 		static ::System::Void _cctor()

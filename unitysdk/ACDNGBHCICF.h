@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetDeathDragonLinjian; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ACDNGBHCICF_CTOR_OFFSET UNITYSDK_OFFSET(0xB116A80)
-#define ACDNGBHCICF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB116AB0)
+#define ACDNGBHCICF_CTOR_OFFSET UNITYSDK_OFFSET(0x18287740)
+#define ACDNGBHCICF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18287770)
 
-inline static constexpr unsigned int ACDNGBHCICF_TypeDefinitionIndex = 55394;
+inline static constexpr unsigned int ACDNGBHCICF_TypeDefinitionIndex = 56579;
 
 	class ACDNGBHCICF
 	{

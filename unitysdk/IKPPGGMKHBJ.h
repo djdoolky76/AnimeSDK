@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int IKPPGGMKHBJ_TypeDefinitionIndex = 42769;
+inline static constexpr unsigned int IKPPGGMKHBJ_TypeDefinitionIndex = 43748;
 
 	class IKPPGGMKHBJ : public ::System::Object
 	{

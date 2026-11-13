@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelSpatialIntVec3; }
 
-#define RPG_GAMECORE_LEVELSPATIALINTVEC3_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A0940)
-#define RPG_GAMECORE_LEVELSPATIALINTVEC3_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A0760)
+#define RPG_GAMECORE_LEVELSPATIALINTVEC3_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24FA60)
+#define RPG_GAMECORE_LEVELSPATIALINTVEC3_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F24F880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSpatialIntVec3_TypeDefinitionIndex = 17202;
+	inline static constexpr unsigned int LevelSpatialIntVec3_TypeDefinitionIndex = 17370;
 
 	class LevelSpatialIntVec3 : public ::RPG::GameCore::JsonConfig
 	{

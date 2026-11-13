@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class RotatePillarPuzzleFragment; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD919C0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS12_0__ONROTATESELECTCLICK_B__1_OFFSET UNITYSDK_OFFSET(0xDD91A70)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1746F130)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS12_0__ONROTATESELECTCLICK_B__1_OFFSET UNITYSDK_OFFSET(0x1746F1E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzleSwitch___c__DisplayClass12_0_TypeDefinitionIndex = 78814;
+	inline static constexpr unsigned int RotatePillarPuzzleSwitch___c__DisplayClass12_0_TypeDefinitionIndex = 81585;
 
 	class RotatePillarPuzzleSwitch___c__DisplayClass12_0 : public ::System::Object
 	{

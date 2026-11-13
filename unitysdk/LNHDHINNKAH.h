@@ -4,11 +4,11 @@
 namespace RPG::Client { class BaseChallengeTargetData; }
 namespace RPG::GameCore { class ChallengeTargetConfigRow; }
 
-#define LNHDHINNKAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D8B20)
-#define LNHDHINNKAH_FHGCBEFKCMO_OFFSET UNITYSDK_OFFSET(0xB7D86B0)
-#define LNHDHINNKAH_NPEAIDBJFLL_OFFSET UNITYSDK_OFFSET(0xB7D87C0)
+#define LNHDHINNKAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A58C400)
+#define LNHDHINNKAH_FHGCBEFKCMO_OFFSET UNITYSDK_OFFSET(0x1A58BF90)
+#define LNHDHINNKAH_NPEAIDBJFLL_OFFSET UNITYSDK_OFFSET(0x1A58C0A0)
 
-inline static constexpr unsigned int LNHDHINNKAH_TypeDefinitionIndex = 63108;
+inline static constexpr unsigned int LNHDHINNKAH_TypeDefinitionIndex = 64546;
 
 	class LNHDHINNKAH : public ::System::Object
 	{

@@ -5,18 +5,18 @@ namespace System { class String; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace UnityEngine::UI { class Text; }
 
-#define FLLDADGFACE_CTOR_OFFSET UNITYSDK_OFFSET(0x158335C0)
-#define FLLDADGFACE_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15833550)
-#define FLLDADGFACE_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15833490)
+#define FLLDADGFACE_CTOR_OFFSET UNITYSDK_OFFSET(0x1896E550)
+#define FLLDADGFACE_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1896E4E0)
+#define FLLDADGFACE_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1896E420)
 
-inline static constexpr unsigned int FLLDADGFACE_TypeDefinitionIndex = 73195;
+inline static constexpr unsigned int FLLDADGFACE_TypeDefinitionIndex = 75310;
 
 	class FLLDADGFACE : public ::LBAMBIMMJKB
 	{
 	public:
-		::UnityEngine::UI::SmoothMask* LELDAGOEEHC; // 0x18
-		::UnityEngine::UI::Text* OLMCLMFOIGB; // 0x20
-		::UnityEngine::UI::Text* LHHEHGDLADI; // 0x28
+		::UnityEngine::UI::Text* OLMCLMFOIGB; // 0x18
+		::UnityEngine::UI::Text* LHHEHGDLADI; // 0x20
+		::UnityEngine::UI::SmoothMask* LELDAGOEEHC; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLLDADGFACE_CTOR_OFFSET))(this);

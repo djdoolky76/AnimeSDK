@@ -5,9 +5,9 @@
 class KIIGKJKMCHP;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NECPDLAEDMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB529D0)
+#define NECPDLAEDMF_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD1B60)
 
-inline static constexpr unsigned int NECPDLAEDMF_TypeDefinitionIndex = 82001;
+inline static constexpr unsigned int NECPDLAEDMF_TypeDefinitionIndex = 84782;
 
 	class NECPDLAEDMF : public ::System::Object
 	{

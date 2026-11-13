@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class InitIsometricRoadLinker; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_INITISOMETRICROADLINKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D75A9A0)
-#define RPG_GAMECORE_INITISOMETRICROADLINKER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D75A9D0)
-#define RPG_GAMECORE_INITISOMETRICROADLINKER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D75A950)
+#define RPG_GAMECORE_INITISOMETRICROADLINKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE93840)
+#define RPG_GAMECORE_INITISOMETRICROADLINKER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE93870)
+#define RPG_GAMECORE_INITISOMETRICROADLINKER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE937F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InitIsometricRoadLinker_TypeDefinitionIndex = 22204;
+	inline static constexpr unsigned int InitIsometricRoadLinker_TypeDefinitionIndex = 22609;
 
 	class InitIsometricRoadLinker : public ::RPG::GameCore::TaskConfig
 	{

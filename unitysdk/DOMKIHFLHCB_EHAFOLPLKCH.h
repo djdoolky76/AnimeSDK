@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class OAHHCMIKODC;
 
-inline static constexpr unsigned int DOMKIHFLHCB_EHAFOLPLKCH_TypeDefinitionIndex = 75021;
+inline static constexpr unsigned int DOMKIHFLHCB_EHAFOLPLKCH_TypeDefinitionIndex = 77348;
 
 	struct alignas(8) DOMKIHFLHCB_EHAFOLPLKCH
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERABLENDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B3490)
+#define RPGTOOLS_TIMELINE_CRPCAMERABLENDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E15F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraBlendConfig_TypeDefinitionIndex = 47885;
+	inline static constexpr unsigned int CRPCameraBlendConfig_TypeDefinitionIndex = 48916;
 
 	class CRPCameraBlendConfig : public ::System::Object
 	{

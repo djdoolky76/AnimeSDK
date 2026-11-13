@@ -4,18 +4,18 @@
 class LENPMJECBLF;
 namespace System { class Object; }
 
-#define LENPMJECBLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E90B330)
-#define LENPMJECBLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E90B360)
-#define LENPMJECBLF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E90B370)
+#define LENPMJECBLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F827580)
+#define LENPMJECBLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8275B0)
+#define LENPMJECBLF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F8275C0)
 
-inline static constexpr unsigned int LENPMJECBLF___c_TypeDefinitionIndex = 33867;
+inline static constexpr unsigned int LENPMJECBLF___c_TypeDefinitionIndex = 34782;
 
 	class LENPMJECBLF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32540);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30180);
 		}
 
 		static ::System::Void _cctor()

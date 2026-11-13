@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RemoveMiniEmoEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEMINIEMOEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9583F0)
-#define RPG_GAMECORE_REMOVEMINIEMOEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D958430)
-#define RPG_GAMECORE_REMOVEMINIEMOEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D958390)
+#define RPG_GAMECORE_REMOVEMINIEMOEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F241ED0)
+#define RPG_GAMECORE_REMOVEMINIEMOEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F241F10)
+#define RPG_GAMECORE_REMOVEMINIEMOEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F241E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveMiniEmoEffect_TypeDefinitionIndex = 21864;
+	inline static constexpr unsigned int RemoveMiniEmoEffect_TypeDefinitionIndex = 22255;
 
 	class RemoveMiniEmoEffect : public ::RPG::GameCore::TaskConfig
 	{

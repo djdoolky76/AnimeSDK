@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvSpawnMoney; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSPAWNMONEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D384E10)
-#define RPG_GAMECORE_ADVSPAWNMONEY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D384ED0)
-#define RPG_GAMECORE_ADVSPAWNMONEY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D384D30)
+#define RPG_GAMECORE_ADVSPAWNMONEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E69B0)
+#define RPG_GAMECORE_ADVSPAWNMONEY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8E6A70)
+#define RPG_GAMECORE_ADVSPAWNMONEY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E68D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSpawnMoney_TypeDefinitionIndex = 22155;
+	inline static constexpr unsigned int AdvSpawnMoney_TypeDefinitionIndex = 22560;
 
 	class AdvSpawnMoney : public ::RPG::GameCore::TaskConfig
 	{

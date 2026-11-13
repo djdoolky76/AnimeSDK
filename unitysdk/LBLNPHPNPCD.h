@@ -10,19 +10,19 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LBLNPHPNPCD_CTOR_OFFSET UNITYSDK_OFFSET(0xB605E80)
-#define LBLNPHPNPCD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6068D0)
-#define LBLNPHPNPCD_IOFCDLPDLEL_OFFSET UNITYSDK_OFFSET(0xB6060D0)
-#define LBLNPHPNPCD_NGLBIFBAEPE_OFFSET UNITYSDK_OFFSET(0xB6067D0)
-#define LBLNPHPNPCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB605EB0)
+#define LBLNPHPNPCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AA3E0)
+#define LBLNPHPNPCD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B2AAE30)
+#define LBLNPHPNPCD_IOFCDLPDLEL_OFFSET UNITYSDK_OFFSET(0x1B2AA630)
+#define LBLNPHPNPCD_NGLBIFBAEPE_OFFSET UNITYSDK_OFFSET(0x1B2AAD30)
+#define LBLNPHPNPCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B2AA410)
 
-inline static constexpr unsigned int LBLNPHPNPCD_TypeDefinitionIndex = 52452;
+inline static constexpr unsigned int LBLNPHPNPCD_TypeDefinitionIndex = 53558;
 
 	class LBLNPHPNPCD
 	{
 	public:
-		::RPG::GameCore::ColliderTriggerComponent* IKPIABIPNEK; // 0x28
-		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x30
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x28
+		::RPG::GameCore::ColliderTriggerComponent* IKPIABIPNEK; // 0x30
 		::BHADBDJKANL* GALAHGAJODG; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvNpcMonsterSetupTrigger* a2)
 		{

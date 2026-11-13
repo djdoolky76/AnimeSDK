@@ -4,7 +4,7 @@
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int GaussianWindow1d_1_TypeDefinitionIndex = 39888;
+	inline static constexpr unsigned int GaussianWindow1d_1_TypeDefinitionIndex = 40817;
 
 	template <typename T>
 	class GaussianWindow1d_1 : public ::System::Object

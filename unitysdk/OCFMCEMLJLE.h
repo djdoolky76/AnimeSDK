@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OCFMCEMLJLE_TypeDefinitionIndex = 66319;
+inline static constexpr unsigned int OCFMCEMLJLE_TypeDefinitionIndex = 68255;
 
 	struct alignas(4) OCFMCEMLJLE
 	{

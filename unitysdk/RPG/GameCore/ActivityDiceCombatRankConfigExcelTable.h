@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D324FE0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D3245E0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D324470)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D324160)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D324410)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D324770)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3241E0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3247B0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D324980)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D324C70)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D3248E0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D324840)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E502280)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E501880)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E501710)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E501400)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E5016B0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E501A10)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E501480)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E501A50)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E501C20)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E501F10)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E501B80)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E501AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatRankConfigExcelTable_TypeDefinitionIndex = 11278;
+	inline static constexpr unsigned int ActivityDiceCombatRankConfigExcelTable_TypeDefinitionIndex = 11329;
 
 	class ActivityDiceCombatRankConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatRankConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatRankConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0x549C0);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0x549C8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0x49870);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0x549D0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0x49878);
 		}
 
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatRankConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0x12DD0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatRankConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0x49880);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0x12DD1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0xE320);
+		}
+
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActivityDiceCombatRankConfigExcelTable")->GetStaticField(0xE321);
 		}
 
 		static ::System::Void _cctor()

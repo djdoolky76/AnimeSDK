@@ -4,18 +4,18 @@
 class AFPDIFAPAEA;
 namespace System { class Object; }
 
-#define AFPDIFAPAEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0F5A60)
-#define AFPDIFAPAEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F5AA0)
-#define AFPDIFAPAEA___C___CCTOR_B__113_0_OFFSET UNITYSDK_OFFSET(0x1E0F5AB0)
+#define AFPDIFAPAEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5FA0D0)
+#define AFPDIFAPAEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5FA110)
+#define AFPDIFAPAEA___C___CCTOR_B__193_0_OFFSET UNITYSDK_OFFSET(0x1F5FA120)
 
-inline static constexpr unsigned int AFPDIFAPAEA___c_TypeDefinitionIndex = 29547;
+inline static constexpr unsigned int AFPDIFAPAEA___c_TypeDefinitionIndex = 30327;
 
 	class AFPDIFAPAEA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36340);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x403B0);
 		}
 
 		static ::System::Void _cctor()
@@ -28,9 +28,9 @@ inline static constexpr unsigned int AFPDIFAPAEA___c_TypeDefinitionIndex = 29547
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFPDIFAPAEA___C_CTOR_OFFSET))(this);
 		}
 
-		::AFPDIFAPAEA* __cctor_b__113_0()
+		::AFPDIFAPAEA* __cctor_b__193_0()
 		{
-			return ((::AFPDIFAPAEA*(*)(::PVOID))((::PBYTE)hIl2Cpp + AFPDIFAPAEA___C___CCTOR_B__113_0_OFFSET))(this);
+			return ((::AFPDIFAPAEA*(*)(::PVOID))((::PBYTE)hIl2Cpp + AFPDIFAPAEA___C___CCTOR_B__193_0_OFFSET))(this);
 		}
 
 	};

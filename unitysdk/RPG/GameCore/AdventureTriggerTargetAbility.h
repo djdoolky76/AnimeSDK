@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AdventureTriggerTargetAbility; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERTARGETABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A3090)
-#define RPG_GAMECORE_ADVENTURETRIGGERTARGETABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A30D0)
-#define RPG_GAMECORE_ADVENTURETRIGGERTARGETABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A3030)
+#define RPG_GAMECORE_ADVENTURETRIGGERTARGETABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E903E90)
+#define RPG_GAMECORE_ADVENTURETRIGGERTARGETABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E903ED0)
+#define RPG_GAMECORE_ADVENTURETRIGGERTARGETABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E903E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerTargetAbility_TypeDefinitionIndex = 20205;
+	inline static constexpr unsigned int AdventureTriggerTargetAbility_TypeDefinitionIndex = 20540;
 
 	class AdventureTriggerTargetAbility : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,18 +4,18 @@
 class ICGOLPHCKIL;
 namespace System { class Object; }
 
-#define ICGOLPHCKIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5F3BC0)
-#define ICGOLPHCKIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F3C00)
-#define ICGOLPHCKIL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5F3C10)
+#define ICGOLPHCKIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2012B6A0)
+#define ICGOLPHCKIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2012B6E0)
+#define ICGOLPHCKIL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2012B6F0)
 
-inline static constexpr unsigned int ICGOLPHCKIL___c_TypeDefinitionIndex = 26565;
+inline static constexpr unsigned int ICGOLPHCKIL___c_TypeDefinitionIndex = 27096;
 
 	class ICGOLPHCKIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44A30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48520);
 		}
 
 		static ::System::Void _cctor()

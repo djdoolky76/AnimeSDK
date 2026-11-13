@@ -6,21 +6,21 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroPuzzleFuncBtnListener; }
 namespace System { class Object; }
 
-#define JKMNACEOGKC_CTOR_OFFSET UNITYSDK_OFFSET(0xB21E020)
-#define JKMNACEOGKC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB21E270)
-#define JKMNACEOGKC_HJLAFDBBJIB_OFFSET UNITYSDK_OFFSET(0xB21E4B0)
-#define JKMNACEOGKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB21E0A0)
-#define JKMNACEOGKC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB21E150)
-#define JKMNACEOGKC_TICK_OFFSET UNITYSDK_OFFSET(0xB21E3D0)
+#define JKMNACEOGKC_CTOR_OFFSET UNITYSDK_OFFSET(0x17B2A4E0)
+#define JKMNACEOGKC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B2A730)
+#define JKMNACEOGKC_HJLAFDBBJIB_OFFSET UNITYSDK_OFFSET(0x17B2A930)
+#define JKMNACEOGKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B2A560)
+#define JKMNACEOGKC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17B2A610)
+#define JKMNACEOGKC_TICK_OFFSET UNITYSDK_OFFSET(0x17B2A890)
 
-inline static constexpr unsigned int JKMNACEOGKC_TypeDefinitionIndex = 58961;
+inline static constexpr unsigned int JKMNACEOGKC_TypeDefinitionIndex = 60234;
 
 	class JKMNACEOGKC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::KFELGAIGHAP* HFOFIODMFGB; // 0x18
 		::RPG::GameCore::WolfBroPuzzleFuncBtnListener* IGHAHBNLIJA; // 0x20
-		::KFELGAIGHAP* HFOFIODMFGB; // 0x28
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WolfBroPuzzleFuncBtnListener* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WolfBroPuzzleFuncBtnListener*))((::PBYTE)hIl2Cpp + JKMNACEOGKC_CTOR_OFFSET))(this, a1, a2);

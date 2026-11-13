@@ -9,47 +9,47 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define SUPERSCROLLVIEW_ITEMPOOL_CLEARTMPRECYCLEDITEM_OFFSET UNITYSDK_OFFSET(0xE994A00)
-#define SUPERSCROLLVIEW_ITEMPOOL_CREATEITEM_OFFSET UNITYSDK_OFFSET(0xE993A50)
-#define SUPERSCROLLVIEW_ITEMPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xE993790)
-#define SUPERSCROLLVIEW_ITEMPOOL_DESTROYALLITEM_OFFSET UNITYSDK_OFFSET(0xE994710)
-#define SUPERSCROLLVIEW_ITEMPOOL_FINDITEM_OFFSET UNITYSDK_OFFSET(0xE993FC0)
-#define SUPERSCROLLVIEW_ITEMPOOL_GETITEM_OFFSET UNITYSDK_OFFSET(0xE994490)
-#define SUPERSCROLLVIEW_ITEMPOOL_GET_POOLEDITEMLIST_OFFSET UNITYSDK_OFFSET(0xE994E50)
-#define SUPERSCROLLVIEW_ITEMPOOL_GET_PREFABNAME_OFFSET UNITYSDK_OFFSET(0xE993780)
-#define SUPERSCROLLVIEW_ITEMPOOL_GET_PREFABRECTCACHE_OFFSET UNITYSDK_OFFSET(0xE993690)
-#define SUPERSCROLLVIEW_ITEMPOOL_INIT_OFFSET UNITYSDK_OFFSET(0xE993880)
-#define SUPERSCROLLVIEW_ITEMPOOL_PREPAREITEM_OFFSET UNITYSDK_OFFSET(0xE994230)
-#define SUPERSCROLLVIEW_ITEMPOOL_RECYCLEITEMREAL_OFFSET UNITYSDK_OFFSET(0xE993E20)
-#define SUPERSCROLLVIEW_ITEMPOOL_RECYCLEITEM_OFFSET UNITYSDK_OFFSET(0xE994C20)
-#define SUPERSCROLLVIEW_ITEMPOOL_SETITEMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xE994B90)
-#define SUPERSCROLLVIEW_ITEMPOOL_SETPREFABLAYER_OFFSET UNITYSDK_OFFSET(0xE993EE0)
-#define SUPERSCROLLVIEW_ITEMPOOL_SETREDEFINEWH_OFFSET UNITYSDK_OFFSET(0xE993810)
+#define SUPERSCROLLVIEW_ITEMPOOL_CLEARTMPRECYCLEDITEM_OFFSET UNITYSDK_OFFSET(0x1AC5E190)
+#define SUPERSCROLLVIEW_ITEMPOOL_CREATEITEM_OFFSET UNITYSDK_OFFSET(0x1AC5D340)
+#define SUPERSCROLLVIEW_ITEMPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5D080)
+#define SUPERSCROLLVIEW_ITEMPOOL_DESTROYALLITEM_OFFSET UNITYSDK_OFFSET(0x1AC5DEA0)
+#define SUPERSCROLLVIEW_ITEMPOOL_FINDITEM_OFFSET UNITYSDK_OFFSET(0x1AC5D8B0)
+#define SUPERSCROLLVIEW_ITEMPOOL_GETITEM_OFFSET UNITYSDK_OFFSET(0x1AC5DD20)
+#define SUPERSCROLLVIEW_ITEMPOOL_GET_POOLEDITEMLIST_OFFSET UNITYSDK_OFFSET(0x1AC5E4D0)
+#define SUPERSCROLLVIEW_ITEMPOOL_GET_PREFABNAME_OFFSET UNITYSDK_OFFSET(0x1AC5D070)
+#define SUPERSCROLLVIEW_ITEMPOOL_GET_PREFABRECTCACHE_OFFSET UNITYSDK_OFFSET(0x1AC5CF80)
+#define SUPERSCROLLVIEW_ITEMPOOL_INIT_OFFSET UNITYSDK_OFFSET(0x1AC5D170)
+#define SUPERSCROLLVIEW_ITEMPOOL_PREPAREITEM_OFFSET UNITYSDK_OFFSET(0x1AC5DAC0)
+#define SUPERSCROLLVIEW_ITEMPOOL_RECYCLEITEMREAL_OFFSET UNITYSDK_OFFSET(0x1AC5D710)
+#define SUPERSCROLLVIEW_ITEMPOOL_RECYCLEITEM_OFFSET UNITYSDK_OFFSET(0x1AC5E3B0)
+#define SUPERSCROLLVIEW_ITEMPOOL_SETITEMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0x1AC5E320)
+#define SUPERSCROLLVIEW_ITEMPOOL_SETPREFABLAYER_OFFSET UNITYSDK_OFFSET(0x1AC5D7D0)
+#define SUPERSCROLLVIEW_ITEMPOOL_SETREDEFINEWH_OFFSET UNITYSDK_OFFSET(0x1AC5D100)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int ItemPool_TypeDefinitionIndex = 47660;
+	inline static constexpr unsigned int ItemPool_TypeDefinitionIndex = 48690;
 
 	class ItemPool : public ::System::Object
 	{
 	public:
-		::UnityEngine::RectTransform* prefabRect; // 0x10
-		::System::String* mPrefabName; // 0x18
-		::UnityEngine::GameObject* mPrefabObj; // 0x20
-		::UnityEngine::RectTransform* mItemParent; // 0x28
-		::AIBOPLOBAFN* mPool; // 0x30
-		::System::Collections::Generic::List_1<::SuperScrollView::LoopListViewItem2*>* mSelectedPooledItemList; // 0x38
-		::RPG::Client::PrefabCache* prefabCache; // 0x40
-		::System::Collections::Generic::List_1<::SuperScrollView::LoopListViewItem2*>* mTmpPooledItemList; // 0x48
-		::System::Collections::Generic::List_1<::SuperScrollView::LoopListViewItem2*>* mPooledItemList; // 0x50
-		::System::Single mStartPosOffset; // 0x58
-		::System::Single mPadding; // 0x5C
+		::AIBOPLOBAFN* mPool; // 0x10
+		::RPG::Client::PrefabCache* prefabCache; // 0x18
+		::System::Collections::Generic::List_1<::SuperScrollView::LoopListViewItem2*>* mTmpPooledItemList; // 0x20
+		::System::Collections::Generic::List_1<::SuperScrollView::LoopListViewItem2*>* mPooledItemList; // 0x28
+		::System::String* mPrefabName; // 0x30
+		::UnityEngine::RectTransform* mItemParent; // 0x38
+		::UnityEngine::GameObject* mPrefabObj; // 0x40
+		::System::Collections::Generic::List_1<::SuperScrollView::LoopListViewItem2*>* mSelectedPooledItemList; // 0x48
+		::UnityEngine::RectTransform* prefabRect; // 0x50
+		::System::Int32 mInitCreateCount; // 0x58
+		::System::Single RedefineWidth; // 0x5C
 		::System::Single RedefineHeight; // 0x60
-		::System::Int32 mInitCreateCount; // 0x64
-		::System::Single RedefineWidth; // 0x68
+		::System::Single mStartPosOffset; // 0x64
+		::System::Single mPadding; // 0x68
 		static ::System::Int32* StaticGet_mCurItemIdCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("SuperScrollView", "ItemPool")->GetStaticField(0x36C0);
+			return (::System::Int32*)UnitySDK::FromName("SuperScrollView", "ItemPool")->GetStaticField(0x4DF0);
 		}
 
 		::System::Void _ctor()

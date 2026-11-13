@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareLittleGameLevelVarFixPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PAHPNDELELN_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC2830)
-#define PAHPNDELELN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFC2860)
+#define PAHPNDELELN_CTOR_OFFSET UNITYSDK_OFFSET(0x18ADA2F0)
+#define PAHPNDELELN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18ADA320)
 
-inline static constexpr unsigned int PAHPNDELELN_TypeDefinitionIndex = 52970;
+inline static constexpr unsigned int PAHPNDELELN_TypeDefinitionIndex = 54129;
 
 	class PAHPNDELELN
 	{

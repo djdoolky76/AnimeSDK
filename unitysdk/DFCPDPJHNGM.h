@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class BattleGridFightEquipData; }
 
-#define DFCPDPJHNGM_CTOR_OFFSET UNITYSDK_OFFSET(0xE819AF0)
-#define DFCPDPJHNGM_DJKCKOEBPLF_OFFSET UNITYSDK_OFFSET(0xE819B00)
+#define DFCPDPJHNGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B389920)
+#define DFCPDPJHNGM_DJKCKOEBPLF_OFFSET UNITYSDK_OFFSET(0x1B389930)
 
-inline static constexpr unsigned int DFCPDPJHNGM_TypeDefinitionIndex = 64971;
+inline static constexpr unsigned int DFCPDPJHNGM_TypeDefinitionIndex = 66558;
 
 	class DFCPDPJHNGM : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 class KNCMHNDHKMG;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KNCMHNDHKMG___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB576C10)
-#define KNCMHNDHKMG___C__DISPLAYCLASS17_0__COLLECTINCOME_B__0_OFFSET UNITYSDK_OFFSET(0xB5784A0)
+#define KNCMHNDHKMG___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18F9EF00)
+#define KNCMHNDHKMG___C__DISPLAYCLASS17_0__COLLECTINCOME_B__0_OFFSET UNITYSDK_OFFSET(0x18FA0780)
 
-inline static constexpr unsigned int KNCMHNDHKMG___c__DisplayClass17_0_TypeDefinitionIndex = 75302;
+inline static constexpr unsigned int KNCMHNDHKMG___c__DisplayClass17_0_TypeDefinitionIndex = 77629;
 
 	class KNCMHNDHKMG___c__DisplayClass17_0 : public ::System::Object
 	{

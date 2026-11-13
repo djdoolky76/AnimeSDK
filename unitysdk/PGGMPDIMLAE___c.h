@@ -4,18 +4,18 @@
 class PGGMPDIMLAE;
 namespace System { class Object; }
 
-#define PGGMPDIMLAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF02B50)
-#define PGGMPDIMLAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF02B80)
-#define PGGMPDIMLAE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF02B90)
+#define PGGMPDIMLAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2024E1D0)
+#define PGGMPDIMLAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2024E200)
+#define PGGMPDIMLAE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2024E210)
 
-inline static constexpr unsigned int PGGMPDIMLAE___c_TypeDefinitionIndex = 33544;
+inline static constexpr unsigned int PGGMPDIMLAE___c_TypeDefinitionIndex = 34459;
 
 	class PGGMPDIMLAE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x382C0);
 		}
 
 		static ::System::Void _cctor()

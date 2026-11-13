@@ -4,10 +4,10 @@
 class OBAFGJPCDOL;
 namespace RPG::GameCore { class GameEntity; }
 
-#define OBAFGJPCDOL___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD29B50)
-#define OBAFGJPCDOL___C__DISPLAYCLASS16_0__SETUPBOSSENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xBD2AF00)
+#define OBAFGJPCDOL___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB703F0)
+#define OBAFGJPCDOL___C__DISPLAYCLASS16_0__SETUPBOSSENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x1AB717F0)
 
-inline static constexpr unsigned int OBAFGJPCDOL___c__DisplayClass16_0_TypeDefinitionIndex = 71737;
+inline static constexpr unsigned int OBAFGJPCDOL___c__DisplayClass16_0_TypeDefinitionIndex = 73728;
 
 	class OBAFGJPCDOL___c__DisplayClass16_0 : public ::System::Object
 	{

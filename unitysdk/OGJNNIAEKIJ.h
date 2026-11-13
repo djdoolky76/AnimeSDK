@@ -6,10 +6,10 @@ class KJAMNOGFAMJ;
 namespace RPG::Client { class RogueBuffInfo; }
 namespace RPG::Client { class RogueFormulaInfo; }
 
-#define OGJNNIAEKIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBE51E30)
-#define OGJNNIAEKIJ_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xBE51E50)
+#define OGJNNIAEKIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18E00010)
+#define OGJNNIAEKIJ_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x18E00030)
 
-inline static constexpr unsigned int OGJNNIAEKIJ_TypeDefinitionIndex = 67075;
+inline static constexpr unsigned int OGJNNIAEKIJ_TypeDefinitionIndex = 69019;
 
 	class OGJNNIAEKIJ : public ::KOJHMGMKDPJ
 	{

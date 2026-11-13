@@ -5,23 +5,23 @@ class ENDEAPMHAOI;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define PCOECPCKLEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7BDEB0)
-#define PCOECPCKLEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BDEF0)
-#define PCOECPCKLEG___C__REMOVEENDBUFFS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C7BDF00)
+#define PCOECPCKLEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B09F6D0)
+#define PCOECPCKLEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B09F710)
+#define PCOECPCKLEG___C__REMOVEENDBUFFS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1B09F720)
 
-inline static constexpr unsigned int PCOECPCKLEG___c_TypeDefinitionIndex = 37288;
+inline static constexpr unsigned int PCOECPCKLEG___c_TypeDefinitionIndex = 38216;
 
 	class PCOECPCKLEG___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::ENDEAPMHAOI*>** StaticGet___9__8_0()
 		{
-			return (::System::Predicate_1<::ENDEAPMHAOI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D170);
+			return (::System::Predicate_1<::ENDEAPMHAOI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15830);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D178);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15838);
 		}
 
 		static ::System::Void _cctor()

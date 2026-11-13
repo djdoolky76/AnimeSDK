@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ONFCNPGLDFF_CPKOCHPCJMI_OFFSET UNITYSDK_OFFSET(0xBF4A000)
+#define ONFCNPGLDFF_CPKOCHPCJMI_OFFSET UNITYSDK_OFFSET(0x17D792E0)
 
-inline static constexpr unsigned int ONFCNPGLDFF_TypeDefinitionIndex = 70932;
+inline static constexpr unsigned int ONFCNPGLDFF_TypeDefinitionIndex = 72911;
 
 	class ONFCNPGLDFF : public ::System::Object
 	{

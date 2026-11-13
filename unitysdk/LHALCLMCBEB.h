@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LHALCLMCBEB_TypeDefinitionIndex = 68483;
+inline static constexpr unsigned int LHALCLMCBEB_TypeDefinitionIndex = 70431;
 
 	struct alignas(4) LHALCLMCBEB
 	{

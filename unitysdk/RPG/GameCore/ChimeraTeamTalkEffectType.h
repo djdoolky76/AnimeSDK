@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTeamTalkEffectType_TypeDefinitionIndex = 13033;
+	inline static constexpr unsigned int ChimeraTeamTalkEffectType_TypeDefinitionIndex = 13101;
 
 	enum class ChimeraTeamTalkEffectType : ::System::Int32
 	{

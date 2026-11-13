@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvGameplayCounterRecover; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IGGJLOHAFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x163FFEF0)
-#define IGGJLOHAFJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163FFF20)
+#define IGGJLOHAFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x19F5BDA0)
+#define IGGJLOHAFJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F5BDD0)
 
-inline static constexpr unsigned int IGGJLOHAFJF_TypeDefinitionIndex = 52377;
+inline static constexpr unsigned int IGGJLOHAFJF_TypeDefinitionIndex = 53483;
 
 	class IGGJLOHAFJF
 	{

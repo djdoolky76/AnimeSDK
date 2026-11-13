@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SHOTANIMMOVEMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B3EA0)
+#define RPG_CLIENT_SHOTANIMMOVEMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0AEF90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShotAnimMovementData_TypeDefinitionIndex = 69647;
+	inline static constexpr unsigned int ShotAnimMovementData_TypeDefinitionIndex = 71604;
 
 	class ShotAnimMovementData : public ::System::Object
 	{

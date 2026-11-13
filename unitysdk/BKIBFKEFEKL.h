@@ -8,18 +8,18 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
-#define BKIBFKEFEKL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA54910)
-#define BKIBFKEFEKL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA54A60)
-#define BKIBFKEFEKL_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0xBA549C0)
+#define BKIBFKEFEKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A664B40)
+#define BKIBFKEFEKL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A664C90)
+#define BKIBFKEFEKL_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0x1A664BF0)
 
-inline static constexpr unsigned int BKIBFKEFEKL_TypeDefinitionIndex = 49906;
+inline static constexpr unsigned int BKIBFKEFEKL_TypeDefinitionIndex = 50954;
 
 	class BKIBFKEFEKL : public ::System::Object
 	{
 	public:
-		::RPG::Client::CustomButton_VoidDelegate* MBOEDFCNCJF; // 0x10
-		::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>* GBMLHDDJMJM; // 0x18
-		::RPG::Client::AnimatorButton* AAFGIHCCPOP; // 0x20
+		::RPG::Client::AnimatorButton* AAFGIHCCPOP; // 0x10
+		::RPG::Client::CustomButton_VoidDelegate* MBOEDFCNCJF; // 0x18
+		::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>* GBMLHDDJMJM; // 0x20
 		::CBJILMHOMGP* MKKLHFCCCNF; // 0x28
 		::System::Void _ctor(::RPG::Client::AnimatorButton* a1, ::CBJILMHOMGP* a2, ::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>* a3, ::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>* a4)
 		{

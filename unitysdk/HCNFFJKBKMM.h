@@ -7,17 +7,17 @@ class HCNFFJKBKMM;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define HCNFFJKBKMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE605B0)
-#define HCNFFJKBKMM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE605C0)
-#define HCNFFJKBKMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE60580)
+#define HCNFFJKBKMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E2C60)
+#define HCNFFJKBKMM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9E2C70)
+#define HCNFFJKBKMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9E2C30)
 
-inline static constexpr unsigned int HCNFFJKBKMM_TypeDefinitionIndex = 22447;
+inline static constexpr unsigned int HCNFFJKBKMM_TypeDefinitionIndex = 22856;
 
 	class HCNFFJKBKMM : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
-		::System::String* LLOBIMGOPOP; // 0x18
-		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x20
+		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x18
+		::System::String* LLOBIMGOPOP; // 0x20
 		::RPG::GameCore::STTaskExecutePhase PPOIJHJIMLL; // 0x28
 		::System::Void _ctor()
 		{

@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class MFIMCKDKDKG;
 
-#define GMAGAHGCOFD___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABA110)
-#define GMAGAHGCOFD___C__DISPLAYCLASS30_0__REFRESHFIRETARGETS_B__0_OFFSET UNITYSDK_OFFSET(0x15ABD920)
+#define GMAGAHGCOFD___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16C723D0)
+#define GMAGAHGCOFD___C__DISPLAYCLASS30_0__REFRESHFIRETARGETS_B__0_OFFSET UNITYSDK_OFFSET(0x16C75BD0)
 
-inline static constexpr unsigned int GMAGAHGCOFD___c__DisplayClass30_0_TypeDefinitionIndex = 75912;
+inline static constexpr unsigned int GMAGAHGCOFD___c__DisplayClass30_0_TypeDefinitionIndex = 78239;
 
 	class GMAGAHGCOFD___c__DisplayClass30_0 : public ::System::Object
 	{

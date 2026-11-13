@@ -5,31 +5,31 @@ namespace RPG::Client { class RogueAreaData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE057410)
-#define RPG_CLIENT_ROGUEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE057450)
-#define RPG_CLIENT_ROGUEUTILS___C__GETSCHEDULEROGUEAREAIDINDOING_B__23_0_OFFSET UNITYSDK_OFFSET(0xE0574D0)
-#define RPG_CLIENT_ROGUEUTILS___C__HASSCHEDULEROGUEAREAINDOING_B__22_0_OFFSET UNITYSDK_OFFSET(0xE057460)
+#define RPG_CLIENT_ROGUEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD06C60)
+#define RPG_CLIENT_ROGUEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD06CA0)
+#define RPG_CLIENT_ROGUEUTILS___C__GETSCHEDULEROGUEAREAIDINDOING_B__23_0_OFFSET UNITYSDK_OFFSET(0x1AD06D20)
+#define RPG_CLIENT_ROGUEUTILS___C__HASSCHEDULEROGUEAREAINDOING_B__22_0_OFFSET UNITYSDK_OFFSET(0x1AD06CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueUtils___c_TypeDefinitionIndex = 67477;
+	inline static constexpr unsigned int RogueUtils___c_TypeDefinitionIndex = 69421;
 
 	class RogueUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RogueAreaData*, ::System::Boolean>** StaticGet___9__22_0()
-		{
-			return (::System::Func_2<::RPG::Client::RogueAreaData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B7D0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B7D8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x73320);
 		}
 
 		static ::System::Func_2<::RPG::Client::RogueAreaData*, ::System::Boolean>** StaticGet___9__23_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueAreaData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B7E0);
+			return (::System::Func_2<::RPG::Client::RogueAreaData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x73328);
+		}
+
+		static ::System::Func_2<::RPG::Client::RogueAreaData*, ::System::Boolean>** StaticGet___9__22_0()
+		{
+			return (::System::Func_2<::RPG::Client::RogueAreaData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x73330);
 		}
 
 		static ::System::Void _cctor()

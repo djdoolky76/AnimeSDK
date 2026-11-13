@@ -4,12 +4,12 @@
 class IFEABBJBIGK;
 namespace RPG::Client::FateRin::View::Battle { class FateRinBattleCardFlowRunner; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFB45A0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0___TRACK_B__0_OFFSET UNITYSDK_OFFSET(0xCFB4640)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E3F50)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0___TRACK_B__0_OFFSET UNITYSDK_OFFSET(0x1C4E3FF0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinBattleCardFlowRunner___c__DisplayClass25_0_TypeDefinitionIndex = 80666;
+	inline static constexpr unsigned int FateRinBattleCardFlowRunner___c__DisplayClass25_0_TypeDefinitionIndex = 83446;
 
 	class FateRinBattleCardFlowRunner___c__DisplayClass25_0 : public ::System::Object
 	{

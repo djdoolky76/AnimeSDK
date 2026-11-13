@@ -5,10 +5,10 @@ namespace RPG::Client { class OnAssetOperationDelegate; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define IPKGHGJPNKB_BHLGOFHCJLA_OFFSET UNITYSDK_OFFSET(0x1C476840)
-#define IPKGHGJPNKB_JFOJDKCCMNB_OFFSET UNITYSDK_OFFSET(0x1C4767D0)
+#define IPKGHGJPNKB_BHLGOFHCJLA_OFFSET UNITYSDK_OFFSET(0x1BCEF180)
+#define IPKGHGJPNKB_JFOJDKCCMNB_OFFSET UNITYSDK_OFFSET(0x1BCEF110)
 
-inline static constexpr unsigned int IPKGHGJPNKB_TypeDefinitionIndex = 41387;
+inline static constexpr unsigned int IPKGHGJPNKB_TypeDefinitionIndex = 42362;
 
 	struct alignas(8) IPKGHGJPNKB
 	{

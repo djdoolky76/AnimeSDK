@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ALFKIMGCLPM_TypeDefinitionIndex = 32814;
+inline static constexpr unsigned int ALFKIMGCLPM_TypeDefinitionIndex = 33729;
 
 	enum class ALFKIMGCLPM : ::System::Int32
 	{

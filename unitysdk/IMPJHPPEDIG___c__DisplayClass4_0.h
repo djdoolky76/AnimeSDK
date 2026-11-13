@@ -5,10 +5,10 @@ class ENGBNDIPDJL;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define IMPJHPPEDIG___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164D77D0)
-#define IMPJHPPEDIG___C__DISPLAYCLASS4_0___PRECHECKFORCONDITION_B__0_OFFSET UNITYSDK_OFFSET(0x164D77E0)
+#define IMPJHPPEDIG___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E4050)
+#define IMPJHPPEDIG___C__DISPLAYCLASS4_0___PRECHECKFORCONDITION_B__0_OFFSET UNITYSDK_OFFSET(0x1A5E4060)
 
-inline static constexpr unsigned int IMPJHPPEDIG___c__DisplayClass4_0_TypeDefinitionIndex = 55777;
+inline static constexpr unsigned int IMPJHPPEDIG___c__DisplayClass4_0_TypeDefinitionIndex = 56980;
 
 	class IMPJHPPEDIG___c__DisplayClass4_0 : public ::System::Object
 	{

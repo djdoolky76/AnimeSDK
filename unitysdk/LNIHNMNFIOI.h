@@ -5,20 +5,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GetWormCompassResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LNIHNMNFIOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7DCEB0)
-#define LNIHNMNFIOI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7DD4C0)
-#define LNIHNMNFIOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7DCEC0)
-#define LNIHNMNFIOI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7DD410)
-#define LNIHNMNFIOI_TICK_OFFSET UNITYSDK_OFFSET(0xB7DD460)
+#define LNIHNMNFIOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5907B0)
+#define LNIHNMNFIOI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A590DC0)
+#define LNIHNMNFIOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5907C0)
+#define LNIHNMNFIOI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A590D10)
+#define LNIHNMNFIOI_TICK_OFFSET UNITYSDK_OFFSET(0x1A590D60)
 
-inline static constexpr unsigned int LNIHNMNFIOI_TypeDefinitionIndex = 58136;
+inline static constexpr unsigned int LNIHNMNFIOI_TypeDefinitionIndex = 59375;
 
 	class LNIHNMNFIOI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::GetWormCompassResult* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::GetWormCompassResult* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GetWormCompassResult* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::GetWormCompassResult*))((::PBYTE)hIl2Cpp + LNIHNMNFIOI_CTOR_OFFSET))(this, a1, a2);

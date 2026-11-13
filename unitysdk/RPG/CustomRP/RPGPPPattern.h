@@ -7,11 +7,11 @@ namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class TextureParameter; }
 namespace UnityEngine::Rendering { class Vector4Parameter; }
 
-#define RPG_CUSTOMRP_RPGPPPATTERN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2DA80)
+#define RPG_CUSTOMRP_RPGPPPATTERN_CTOR_OFFSET UNITYSDK_OFFSET(0x198F4A70)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGPPPattern_TypeDefinitionIndex = 37836;
+	inline static constexpr unsigned int RPGPPPattern_TypeDefinitionIndex = 38765;
 
 	class RPGPPPattern : public ::RPG::CustomRP::CustomVolumeComponent
 	{

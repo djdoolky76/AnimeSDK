@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RoguePersonaRoomCardConfig; }
 
-#define RPG_GAMECORE_ROGUEPERSONAROOMCARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FE1D0)
-#define RPG_GAMECORE_ROGUEPERSONAROOMCARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FE190)
+#define RPG_GAMECORE_ROGUEPERSONAROOMCARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x207B5B20)
+#define RPG_GAMECORE_ROGUEPERSONAROOMCARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207B5AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoguePersonaRoomCardConfig_TypeDefinitionIndex = 19781;
+	inline static constexpr unsigned int RoguePersonaRoomCardConfig_TypeDefinitionIndex = 20112;
 
 	class RoguePersonaRoomCardConfig : public ::RPG::GameCore::JsonConfig
 	{

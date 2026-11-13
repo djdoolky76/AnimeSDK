@@ -12,47 +12,47 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define DLAAIAJKEHP_CCTOR_OFFSET UNITYSDK_OFFSET(0xF88A980)
-#define DLAAIAJKEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xF889710)
-#define DLAAIAJKEHP_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF88A960)
-#define DLAAIAJKEHP_HAIHHFOPBLN_1_OFFSET UNITYSDK_OFFSET(0xF88A860)
-#define DLAAIAJKEHP_HAIHHFOPBLN_2_OFFSET UNITYSDK_OFFSET(0xF88A790)
-#define DLAAIAJKEHP_HAIHHFOPBLN_OFFSET UNITYSDK_OFFSET(0xF88A6F0)
-#define DLAAIAJKEHP_HMOOMCLKOJA_OFFSET UNITYSDK_OFFSET(0xF88A4D0)
-#define DLAAIAJKEHP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xF88A060)
-#define DLAAIAJKEHP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xF889820)
-#define DLAAIAJKEHP_NFECGOAMEIF_OFFSET UNITYSDK_OFFSET(0xF88A320)
-#define DLAAIAJKEHP_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF88A970)
+#define DLAAIAJKEHP_CCTOR_OFFSET UNITYSDK_OFFSET(0x18C28B90)
+#define DLAAIAJKEHP_CTOR_OFFSET UNITYSDK_OFFSET(0x18C27920)
+#define DLAAIAJKEHP_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x18C28B70)
+#define DLAAIAJKEHP_HAIHHFOPBLN_1_OFFSET UNITYSDK_OFFSET(0x18C28A70)
+#define DLAAIAJKEHP_HAIHHFOPBLN_2_OFFSET UNITYSDK_OFFSET(0x18C289A0)
+#define DLAAIAJKEHP_HAIHHFOPBLN_OFFSET UNITYSDK_OFFSET(0x18C28900)
+#define DLAAIAJKEHP_HMOOMCLKOJA_OFFSET UNITYSDK_OFFSET(0x18C286E0)
+#define DLAAIAJKEHP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x18C28270)
+#define DLAAIAJKEHP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x18C27A30)
+#define DLAAIAJKEHP_NFECGOAMEIF_OFFSET UNITYSDK_OFFSET(0x18C28530)
+#define DLAAIAJKEHP_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x18C28B80)
 
-inline static constexpr unsigned int DLAAIAJKEHP_TypeDefinitionIndex = 55183;
+inline static constexpr unsigned int DLAAIAJKEHP_TypeDefinitionIndex = 56364;
 
 	class DLAAIAJKEHP : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* OIPDNIJEMAF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* GDJKHEEEPJM; // 0x18
-		::Il2CppArray<::UnityEngine::Renderer*>* JEKLDIIKPLI; // 0x20
-		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x28
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* KFOBOAGEAML; // 0x18
+		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x20
+		::Il2CppArray<::UnityEngine::Renderer*>* JEKLDIIKPLI; // 0x28
 		::RPG::GameCore::ModifierPlayerChangeEffect* DOCBCODGIEH; // 0x30
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* KFOBOAGEAML; // 0x38
-		::System::Single KHCBCLOMOHE; // 0x40
-		::UnityEngine::Color KAPOKDONACI; // 0x44
-		::System::Int32 GMDBHJKEAEI; // 0x54
-		::UnityEngine::Vector4 BKOECPKLOGD; // 0x58
-		::System::Single AHNCHIOFGLB; // 0x68
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* GDJKHEEEPJM; // 0x38
+		::System::Int32 GMDBHJKEAEI; // 0x40
+		::System::Single AHNCHIOFGLB; // 0x44
+		::UnityEngine::Vector4 BKOECPKLOGD; // 0x48
+		::UnityEngine::Color KAPOKDONACI; // 0x58
+		::System::Single KHCBCLOMOHE; // 0x68
 		static ::System::Int32* StaticGet_JEJLEFAMBAK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x132E0);
-		}
-
-		static ::System::Int32* StaticGet_LMEDHJLHMFM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x132E4);
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x15320);
 		}
 
 		static ::System::Int32* StaticGet_KJLLAFEBBMG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x132E8);
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x15324);
+		}
+
+		static ::System::Int32* StaticGet_LMEDHJLHMFM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x15328);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::ModifierPlayerChangeEffect* a1)

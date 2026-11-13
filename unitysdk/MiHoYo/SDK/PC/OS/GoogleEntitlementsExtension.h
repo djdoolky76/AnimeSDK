@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 
-#define MIHOYO_SDK_PC_OS_GOOGLEENTITLEMENTSEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE58D0)
+#define MIHOYO_SDK_PC_OS_GOOGLEENTITLEMENTSEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0DE360)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GoogleEntitlementsExtension_TypeDefinitionIndex = 8537;
+	inline static constexpr unsigned int GoogleEntitlementsExtension_TypeDefinitionIndex = 8546;
 
 	class GoogleEntitlementsExtension : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameCharacterVisionConfig_TypeDefinitionIndex = 42493;
+	inline static constexpr unsigned int TimelineControlGameCharacterVisionConfig_TypeDefinitionIndex = 43468;
 
 	struct alignas(4) TimelineControlGameCharacterVisionConfig
 	{

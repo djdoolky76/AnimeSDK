@@ -5,20 +5,20 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class ProcessOpInSkillExecuting; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNHBNPFCEDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1194EF20)
-#define DNHBNPFCEDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1194EFA0)
-#define DNHBNPFCEDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1194F070)
-#define DNHBNPFCEDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1194F310)
-#define DNHBNPFCEDD_TICK_OFFSET UNITYSDK_OFFSET(0x1194F360)
+#define DNHBNPFCEDD_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC4BD0)
+#define DNHBNPFCEDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC4C50)
+#define DNHBNPFCEDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CC4D20)
+#define DNHBNPFCEDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CC4F70)
+#define DNHBNPFCEDD_TICK_OFFSET UNITYSDK_OFFSET(0x12CC4FC0)
 
-inline static constexpr unsigned int DNHBNPFCEDD_TypeDefinitionIndex = 55268;
+inline static constexpr unsigned int DNHBNPFCEDD_TypeDefinitionIndex = 56449;
 
 	class DNHBNPFCEDD : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* NMMBJIFKJON; // 0x18
-		::RPG::GameCore::ProcessOpInSkillExecuting* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::KFELGAIGHAP* NMMBJIFKJON; // 0x20
+		::RPG::GameCore::ProcessOpInSkillExecuting* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ProcessOpInSkillExecuting* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ProcessOpInSkillExecuting*))((::PBYTE)hIl2Cpp + DNHBNPFCEDD_CTOR_OFFSET))(this, a1, a2);

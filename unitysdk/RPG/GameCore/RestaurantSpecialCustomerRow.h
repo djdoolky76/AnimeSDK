@@ -5,20 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantSpecialCustomerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTSPECIALCUSTOMERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9692E0)
-#define RPG_GAMECORE_RESTAURANTSPECIALCUSTOMERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D969160)
+#define RPG_GAMECORE_RESTAURANTSPECIALCUSTOMERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2072D740)
+#define RPG_GAMECORE_RESTAURANTSPECIALCUSTOMERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2072D5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantSpecialCustomerRow_TypeDefinitionIndex = 11367;
+	inline static constexpr unsigned int RestaurantSpecialCustomerRow_TypeDefinitionIndex = 11418;
 
 	class RestaurantSpecialCustomerRow : public ::System::Object
 	{
 	public:
 		::System::String* EventConfigPath; // 0x10
-		::System::UInt32 CustomerID; // 0x18
-		::System::UInt32 SelectEventID; // 0x1C
-		::System::UInt32 SpecialCustomerID; // 0x20
+		::System::UInt32 SelectEventID; // 0x18
+		::System::UInt32 SpecialCustomerID; // 0x1C
+		::System::UInt32 CustomerID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTSPECIALCUSTOMERROW_CTOR_OFFSET))(this);

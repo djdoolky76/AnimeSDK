@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetSummonStateType_TypeDefinitionIndex = 75707;
+	inline static constexpr unsigned int PetSummonStateType_TypeDefinitionIndex = 78034;
 
 	enum class PetSummonStateType : ::System::Int32
 	{

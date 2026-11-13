@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int DLLLOPNKHCL_TypeDefinitionIndex = 75463;
+inline static constexpr unsigned int DLLLOPNKHCL_TypeDefinitionIndex = 77790;
 
 	class DLLLOPNKHCL : public ::System::Object
 	{

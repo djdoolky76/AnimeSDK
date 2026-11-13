@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByCurrentSkillName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BICPGBNJMOL_CTOR_OFFSET UNITYSDK_OFFSET(0xB491FE0)
-#define BICPGBNJMOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB492010)
+#define BICPGBNJMOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA4880)
+#define BICPGBNJMOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BAA48B0)
 
-inline static constexpr unsigned int BICPGBNJMOL_TypeDefinitionIndex = 53918;
+inline static constexpr unsigned int BICPGBNJMOL_TypeDefinitionIndex = 55082;
 
 	class BICPGBNJMOL
 	{

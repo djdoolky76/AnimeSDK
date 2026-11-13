@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimAvatarConfig; }
 
-#define PEEDLCHFAFL___C__DISPLAYCLASS89_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9892F0)
-#define PEEDLCHFAFL___C__DISPLAYCLASS89_0__CREATEMASCOTFAKEPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x1C9B9150)
+#define PEEDLCHFAFL___C__DISPLAYCLASS89_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1768B0C0)
+#define PEEDLCHFAFL___C__DISPLAYCLASS89_0__CREATEMASCOTFAKEPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x176BC0B0)
 
-inline static constexpr unsigned int PEEDLCHFAFL___c__DisplayClass89_0_TypeDefinitionIndex = 43598;
+inline static constexpr unsigned int PEEDLCHFAFL___c__DisplayClass89_0_TypeDefinitionIndex = 44581;
 
 	class PEEDLCHFAFL___c__DisplayClass89_0 : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/DEPCKFHMMHD.h"
 class KHNFFHCLLIF;
 
-#define EHOAJJIDGFF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x154AD730)
-#define EHOAJJIDGFF_CTOR_OFFSET UNITYSDK_OFFSET(0x154AECF0)
+#define EHOAJJIDGFF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18BDE380)
+#define EHOAJJIDGFF_CTOR_OFFSET UNITYSDK_OFFSET(0x18BDF940)
 
-inline static constexpr unsigned int EHOAJJIDGFF_TypeDefinitionIndex = 62608;
+inline static constexpr unsigned int EHOAJJIDGFF_TypeDefinitionIndex = 64031;
 
 	class EHOAJJIDGFF : public ::System::Object
 	{

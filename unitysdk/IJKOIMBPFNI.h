@@ -4,9 +4,9 @@
 #include "unitysdk/OIDGABHGFKB.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define IJKOIMBPFNI_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2E83230)
+#define IJKOIMBPFNI_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3DF33E0)
 
-inline static constexpr unsigned int IJKOIMBPFNI_TypeDefinitionIndex = 73726;
+inline static constexpr unsigned int IJKOIMBPFNI_TypeDefinitionIndex = 75849;
 
 	struct alignas(8) IJKOIMBPFNI
 	{

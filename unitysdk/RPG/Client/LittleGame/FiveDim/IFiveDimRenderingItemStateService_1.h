@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimRenderingItemStateService_1_TypeDefinitionIndex = 43603;
+	inline static constexpr unsigned int IFiveDimRenderingItemStateService_1_TypeDefinitionIndex = 44586;
 
 	template <typename T>
 	class IFiveDimRenderingItemStateService_1

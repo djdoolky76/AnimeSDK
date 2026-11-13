@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig_TypeDefinitionIndex = 75896;
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig_TypeDefinitionIndex = 78223;
 
 	struct alignas(8) RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig
 	{

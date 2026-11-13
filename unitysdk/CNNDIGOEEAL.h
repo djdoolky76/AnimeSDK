@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CNNDIGOEEAL_IIOPKPJHFMB_1_OFFSET UNITYSDK_OFFSET(0xDA548D0)
-#define CNNDIGOEEAL_IIOPKPJHFMB_OFFSET UNITYSDK_OFFSET(0xDA54360)
-#define CNNDIGOEEAL_LENGEDANEEH_1_OFFSET UNITYSDK_OFFSET(0xDA55080)
-#define CNNDIGOEEAL_LENGEDANEEH_OFFSET UNITYSDK_OFFSET(0xDA54FE0)
+#define CNNDIGOEEAL_IIOPKPJHFMB_1_OFFSET UNITYSDK_OFFSET(0x191523A0)
+#define CNNDIGOEEAL_IIOPKPJHFMB_OFFSET UNITYSDK_OFFSET(0x19151E30)
+#define CNNDIGOEEAL_LENGEDANEEH_1_OFFSET UNITYSDK_OFFSET(0x19152B50)
+#define CNNDIGOEEAL_LENGEDANEEH_OFFSET UNITYSDK_OFFSET(0x19152AB0)
 
-inline static constexpr unsigned int CNNDIGOEEAL_TypeDefinitionIndex = 73654;
+inline static constexpr unsigned int CNNDIGOEEAL_TypeDefinitionIndex = 75777;
 
 	class CNNDIGOEEAL : public ::System::Object
 	{

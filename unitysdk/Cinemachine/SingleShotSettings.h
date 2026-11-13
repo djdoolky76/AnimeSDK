@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CINEMACHINE_SINGLESHOTSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF954F0)
-#define CINEMACHINE_SINGLESHOTSETTINGS_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0xF0BE0)
-#define CINEMACHINE_SINGLESHOTSETTINGS_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xF0B70)
+#define CINEMACHINE_SINGLESHOTSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x199205D0)
+#define CINEMACHINE_SINGLESHOTSETTINGS_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0x3E3E760)
+#define CINEMACHINE_SINGLESHOTSETTINGS_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x3E3E6F0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int SingleShotSettings_TypeDefinitionIndex = 49633;
+	inline static constexpr unsigned int SingleShotSettings_TypeDefinitionIndex = 50709;
 
 	struct alignas(4) SingleShotSettings
 	{
@@ -18,7 +18,7 @@ namespace Cinemachine
 		::System::Single Pitch; // 0x20
 		static ::Cinemachine::SingleShotSettings* StaticGet_Default()
 		{
-			return (::Cinemachine::SingleShotSettings*)UnitySDK::FromName("Cinemachine", "SingleShotSettings")->GetStaticField(0x12E40);
+			return (::Cinemachine::SingleShotSettings*)UnitySDK::FromName("Cinemachine", "SingleShotSettings")->GetStaticField(0xE440);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 class OCMFIOAJPLA;
 namespace RPG::Client { class ChimeraEvaluationData; }
 
-#define MCHDFGLEMCD___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8773A0)
-#define MCHDFGLEMCD___C__DISPLAYCLASS7_0___RANDOMCHOOSEEVALUATIONINSAMEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xB877410)
+#define MCHDFGLEMCD___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8446A0)
+#define MCHDFGLEMCD___C__DISPLAYCLASS7_0___RANDOMCHOOSEEVALUATIONINSAMEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x1B844710)
 
-inline static constexpr unsigned int MCHDFGLEMCD___c__DisplayClass7_0_TypeDefinitionIndex = 63495;
+inline static constexpr unsigned int MCHDFGLEMCD___c__DisplayClass7_0_TypeDefinitionIndex = 64933;
 
 	class MCHDFGLEMCD___c__DisplayClass7_0 : public ::System::Object
 	{

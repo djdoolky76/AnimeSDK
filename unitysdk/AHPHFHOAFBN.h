@@ -6,19 +6,19 @@ class DMGLFMNEJGL;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define AHPHFHOAFBN_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xEB87440)
-#define AHPHFHOAFBN_CCTOR_OFFSET UNITYSDK_OFFSET(0xEB877C0)
-#define AHPHFHOAFBN_CTOR_OFFSET UNITYSDK_OFFSET(0xEB873E0)
-#define AHPHFHOAFBN_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xEB873F0)
+#define AHPHFHOAFBN_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x19B2D130)
+#define AHPHFHOAFBN_CCTOR_OFFSET UNITYSDK_OFFSET(0x19B2D4B0)
+#define AHPHFHOAFBN_CTOR_OFFSET UNITYSDK_OFFSET(0x19B2D0D0)
+#define AHPHFHOAFBN_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x19B2D0E0)
 
-inline static constexpr unsigned int AHPHFHOAFBN_TypeDefinitionIndex = 67185;
+inline static constexpr unsigned int AHPHFHOAFBN_TypeDefinitionIndex = 69129;
 
 	class AHPHFHOAFBN : public ::System::Object
 	{
 	public:
 		static ::AHPHFHOAFBN** StaticGet_FMJPMFEDIJL()
 		{
-			return (::AHPHFHOAFBN**)UnitySDK::FromName("", "AHPHFHOAFBN")->GetStaticField(0x52E50);
+			return (::AHPHFHOAFBN**)UnitySDK::FromName("", "AHPHFHOAFBN")->GetStaticField(0x552D0);
 		}
 
 		::System::Void _ctor()

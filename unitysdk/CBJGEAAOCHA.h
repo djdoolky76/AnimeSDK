@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CBJGEAAOCHA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A6F00)
+#define CBJGEAAOCHA_CTOR_OFFSET UNITYSDK_OFFSET(0x18FE43C0)
 
-inline static constexpr unsigned int CBJGEAAOCHA_TypeDefinitionIndex = 76060;
+inline static constexpr unsigned int CBJGEAAOCHA_TypeDefinitionIndex = 78387;
 
 	class CBJGEAAOCHA : public ::System::Object
 	{

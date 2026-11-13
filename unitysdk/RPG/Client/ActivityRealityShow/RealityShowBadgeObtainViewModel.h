@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+class LHHBMBIDKIC;
+namespace Sofa::Core { class SimpleCommand; }
+namespace System { class Action; }
+
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_ADD_BEDROOMREQUESTED_OFFSET UNITYSDK_OFFSET(0x1C8C2C40)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8C2A30)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C8C2D20)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_GET_BADGENAME_OFFSET UNITYSDK_OFFSET(0x1C8C2D00)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_GET_GOTOBEDROOM_OFFSET UNITYSDK_OFFSET(0x1C8C2D10)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_REMOVE_BEDROOMREQUESTED_OFFSET UNITYSDK_OFFSET(0x1C8C2CA0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL__ONGOTOBEDROOM_OFFSET UNITYSDK_OFFSET(0x1C8C2D70)
+
+namespace RPG::Client::ActivityRealityShow
+{
+	inline static constexpr unsigned int RealityShowBadgeObtainViewModel_TypeDefinitionIndex = 84887;
+
+	class RealityShowBadgeObtainViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::Sofa::Core::SimpleCommand* _GotoBedroom_k__BackingField; // 0x20
+		::System::Action* BedroomRequested; // 0x28
+		::RPG::Client::TextID _BadgeName_k__BackingField; // 0x30
+		::System::Void _ctor(::LHHBMBIDKIC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LHHBMBIDKIC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void add_BedroomRequested(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_ADD_BEDROOMREQUESTED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_BedroomRequested(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_REMOVE_BEDROOMREQUESTED_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_BadgeName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_GET_BADGENAME_OFFSET))(this);
+		}
+
+		::Sofa::Core::SimpleCommand* get_GotoBedroom()
+		{
+			return ((::Sofa::Core::SimpleCommand*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_GET_GOTOBEDROOM_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void _OnGotoBedroom()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWBADGEOBTAINVIEWMODEL__ONGOTOBEDROOM_OFFSET))(this);
+		}
+
+	};
+}

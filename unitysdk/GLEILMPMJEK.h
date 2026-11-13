@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapDummyEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GLEILMPMJEK_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA3650)
-#define GLEILMPMJEK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15AA3670)
+#define GLEILMPMJEK_CTOR_OFFSET UNITYSDK_OFFSET(0x16C5B740)
+#define GLEILMPMJEK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16C5B760)
 
-inline static constexpr unsigned int GLEILMPMJEK_TypeDefinitionIndex = 59187;
+inline static constexpr unsigned int GLEILMPMJEK_TypeDefinitionIndex = 60464;
 
 	class GLEILMPMJEK
 	{

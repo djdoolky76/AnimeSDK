@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IActivityLightConeRewardData_TypeDefinitionIndex = 61684;
+	inline static constexpr unsigned int IActivityLightConeRewardData_TypeDefinitionIndex = 63090;
 
 	class IActivityLightConeRewardData
 	{

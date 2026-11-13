@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEntryConfig; }
 namespace RPG::GameCore { class FiveDimOneWayEntryConfig; }
 
-#define RPG_GAMECORE_FIVEDIMENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68E420)
-#define RPG_GAMECORE_FIVEDIMENTRYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D68E430)
-#define RPG_GAMECORE_FIVEDIMENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68E3F0)
+#define RPG_GAMECORE_FIVEDIMENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85B2C0)
+#define RPG_GAMECORE_FIVEDIMENTRYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E85B2D0)
+#define RPG_GAMECORE_FIVEDIMENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E85B290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEntryConfig_TypeDefinitionIndex = 18538;
+	inline static constexpr unsigned int FiveDimEntryConfig_TypeDefinitionIndex = 18698;
 
 	class FiveDimEntryConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

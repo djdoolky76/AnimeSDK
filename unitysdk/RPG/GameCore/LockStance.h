@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class LockStance; }
 
-#define RPG_GAMECORE_LOCKSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C3F20)
-#define RPG_GAMECORE_LOCKSTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C3F80)
-#define RPG_GAMECORE_LOCKSTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C3EA0)
+#define RPG_GAMECORE_LOCKSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0762A0)
+#define RPG_GAMECORE_LOCKSTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F076300)
+#define RPG_GAMECORE_LOCKSTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F076220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockStance_TypeDefinitionIndex = 23623;
+	inline static constexpr unsigned int LockStance_TypeDefinitionIndex = 24070;
 
 	class LockStance : public ::RPG::GameCore::TaskConfig
 	{

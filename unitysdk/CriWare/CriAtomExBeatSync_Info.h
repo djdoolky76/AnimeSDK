@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXBEATSYNC_INFO_GET_LABEL_OFFSET UNITYSDK_OFFSET(0x2E8D4C0)
+#define CRIWARE_CRIATOMEXBEATSYNC_INFO_GET_LABEL_OFFSET UNITYSDK_OFFSET(0x3F1E8A0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 40001;
+	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 40976;
 
 	struct alignas(4) CriAtomExBeatSync_Info
 	{

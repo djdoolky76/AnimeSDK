@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERIDPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xE1839D0)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERIDPROPERTY_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE185B80)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERIDPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A4010)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERIDPROPERTY_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x1C5A61C0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_BufferIDProperty_TypeDefinitionIndex = 73623;
+	inline static constexpr unsigned int MaterialPropertiesCollection_BufferIDProperty_TypeDefinitionIndex = 75746;
 
 	class MaterialPropertiesCollection_BufferIDProperty
 	{

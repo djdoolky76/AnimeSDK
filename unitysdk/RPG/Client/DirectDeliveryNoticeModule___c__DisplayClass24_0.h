@@ -4,18 +4,18 @@
 namespace RPG::Client { class DirectDeliveryNoticeData; }
 namespace RPG::Client { class DirectDeliveryNoticeModule; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC5590)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS24_0___PENDNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0xCCC5CB0)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4E360)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS24_0___PENDNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1DA4EA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass24_0_TypeDefinitionIndex = 63577;
+	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass24_0_TypeDefinitionIndex = 65019;
 
 	class DirectDeliveryNoticeModule___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::DirectDeliveryNoticeData* pendingNotice; // 0x10
-		::RPG::Client::DirectDeliveryNoticeModule* __4__this; // 0x18
+		::RPG::Client::DirectDeliveryNoticeModule* __4__this; // 0x10
+		::RPG::Client::DirectDeliveryNoticeData* pendingNotice; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS24_0_CTOR_OFFSET))(this);

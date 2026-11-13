@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Visitor.h"
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2ShapeRefComparer; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SHAPEREFCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C823100)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SHAPEREFCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C8230F0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SHAPEREFCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8230E0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SHAPEREFCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8EC6F0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SHAPEREFCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xC8EC6E0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SHAPEREFCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xC8EC6D0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ShapeRefComparer_TypeDefinitionIndex = 36768;
+	inline static constexpr unsigned int B2ShapeRefComparer_TypeDefinitionIndex = 37696;
 
 	class B2ShapeRefComparer : public ::System::Object
 	{
 	public:
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeRefComparer** StaticGet_Shared()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeRefComparer**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "B2ShapeRefComparer")->GetStaticField(0x22220);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeRefComparer**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "B2ShapeRefComparer")->GetStaticField(0x1AA90);
 		}
 
 		::System::Void _ctor()

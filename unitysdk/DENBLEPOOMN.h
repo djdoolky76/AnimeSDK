@@ -5,19 +5,19 @@ namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class ST_Main_FearEscape; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DENBLEPOOMN_CTOR_OFFSET UNITYSDK_OFFSET(0xE51B7C0)
-#define DENBLEPOOMN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE51B910)
-#define DENBLEPOOMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE51B960)
-#define DENBLEPOOMN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE51BAB0)
-#define DENBLEPOOMN_TICK_OFFSET UNITYSDK_OFFSET(0xE51BA50)
+#define DENBLEPOOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3827F0)
+#define DENBLEPOOMN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B382940)
+#define DENBLEPOOMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B382990)
+#define DENBLEPOOMN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B382AE0)
+#define DENBLEPOOMN_TICK_OFFSET UNITYSDK_OFFSET(0x1B382A80)
 
-inline static constexpr unsigned int DENBLEPOOMN_TypeDefinitionIndex = 52205;
+inline static constexpr unsigned int DENBLEPOOMN_TypeDefinitionIndex = 53310;
 
 	class DENBLEPOOMN
 	{
 	public:
-		::NOEBJBDLNGN* KDKKFJKEIAA; // 0x28
-		::RPG::GameCore::AdventureAbilityComponent* PCDEEAAIFPK; // 0x30
+		::RPG::GameCore::AdventureAbilityComponent* PCDEEAAIFPK; // 0x28
+		::NOEBJBDLNGN* KDKKFJKEIAA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_FearEscape* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_FearEscape*))((::PBYTE)hIl2Cpp + DENBLEPOOMN_CTOR_OFFSET))(this, a1, a2);

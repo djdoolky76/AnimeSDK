@@ -4,16 +4,16 @@
 class CHENLCDDMGN;
 class INMMPMDELKE;
 
-#define CHENLCDDMGN___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8F0C0)
-#define CHENLCDDMGN___C__DISPLAYCLASS11_0___REGISTERONCLOSEINDOORCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xCC8FA40)
+#define CHENLCDDMGN___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17868610)
+#define CHENLCDDMGN___C__DISPLAYCLASS11_0___REGISTERONCLOSEINDOORCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x17868F80)
 
-inline static constexpr unsigned int CHENLCDDMGN___c__DisplayClass11_0_TypeDefinitionIndex = 76815;
+inline static constexpr unsigned int CHENLCDDMGN___c__DisplayClass11_0_TypeDefinitionIndex = 79149;
 
 	class CHENLCDDMGN___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::CHENLCDDMGN* __4__this; // 0x10
-		::INMMPMDELKE* doorEntity; // 0x18
+		::INMMPMDELKE* doorEntity; // 0x10
+		::CHENLCDDMGN* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CHENLCDDMGN___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);

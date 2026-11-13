@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define IFCNJNLOGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x15EFD8D0)
-#define IFCNJNLOGIF_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x15EFD7F0)
+#define IFCNJNLOGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC05590)
+#define IFCNJNLOGIF_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x1BC054B0)
 
-inline static constexpr unsigned int IFCNJNLOGIF_TypeDefinitionIndex = 79003;
+inline static constexpr unsigned int IFCNJNLOGIF_TypeDefinitionIndex = 81779;
 
 	class IFCNJNLOGIF : public ::System::Object
 	{

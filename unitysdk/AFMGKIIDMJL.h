@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-inline static constexpr unsigned int AFMGKIIDMJL_TypeDefinitionIndex = 80965;
+inline static constexpr unsigned int AFMGKIIDMJL_TypeDefinitionIndex = 83745;
 
 	struct alignas(4) AFMGKIIDMJL
 	{

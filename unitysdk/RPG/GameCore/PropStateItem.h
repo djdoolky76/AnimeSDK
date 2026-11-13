@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropStateItem; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_PROPSTATEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92B9C0)
-#define RPG_GAMECORE_PROPSTATEITEM_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D92B9D0)
-#define RPG_GAMECORE_PROPSTATEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92B7C0)
+#define RPG_GAMECORE_PROPSTATEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF94FC0)
+#define RPG_GAMECORE_PROPSTATEITEM_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EF94FD0)
+#define RPG_GAMECORE_PROPSTATEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF94DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateItem_TypeDefinitionIndex = 21203;
+	inline static constexpr unsigned int PropStateItem_TypeDefinitionIndex = 21546;
 
 	class PropStateItem : public ::RPG::GameCore::JsonConfig
 	{

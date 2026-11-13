@@ -12,7 +12,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Average__AverageAwaitWithCancellationAsync_d__27_1_TypeDefinitionIndex = 45263;
+	inline static constexpr unsigned int Average__AverageAwaitWithCancellationAsync_d__27_1_TypeDefinitionIndex = 46292;
 
 	template <typename T>
 	struct alignas(8) Average__AverageAwaitWithCancellationAsync_d__27_1

@@ -4,18 +4,18 @@
 class OLLEOCLINLN;
 namespace System { class Object; }
 
-#define OLLEOCLINLN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE7BA80)
-#define OLLEOCLINLN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE7BAC0)
-#define OLLEOCLINLN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DE7BAD0)
+#define OLLEOCLINLN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD67D90)
+#define OLLEOCLINLN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD67DD0)
+#define OLLEOCLINLN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD67DE0)
 
-inline static constexpr unsigned int OLLEOCLINLN___c_TypeDefinitionIndex = 26349;
+inline static constexpr unsigned int OLLEOCLINLN___c_TypeDefinitionIndex = 26876;
 
 	class OLLEOCLINLN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x210B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20F10);
 		}
 
 		static ::System::Void _cctor()

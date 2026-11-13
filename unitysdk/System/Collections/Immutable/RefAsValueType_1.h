@@ -3,7 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int RefAsValueType_1_TypeDefinitionIndex = 6663;
+	inline static constexpr unsigned int RefAsValueType_1_TypeDefinitionIndex = 6674;
 
 	template <typename T>
 	struct alignas(8) RefAsValueType_1

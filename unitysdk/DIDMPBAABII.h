@@ -5,22 +5,22 @@
 class GFIMNLJALNN;
 class MIDAKCNMMPF;
 
-#define DIDMPBAABII_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9FC100)
-#define DIDMPBAABII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9FC1D0)
-#define DIDMPBAABII_NCPODAMBBHK_OFFSET UNITYSDK_OFFSET(0x1C9FC180)
+#define DIDMPBAABII_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB2E3E0)
+#define DIDMPBAABII_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2E4B0)
+#define DIDMPBAABII_NCPODAMBBHK_OFFSET UNITYSDK_OFFSET(0x1DB2E460)
 
-inline static constexpr unsigned int DIDMPBAABII_TypeDefinitionIndex = 43400;
+inline static constexpr unsigned int DIDMPBAABII_TypeDefinitionIndex = 44381;
 
 	class DIDMPBAABII : public ::System::Object
 	{
 	public:
 		::MIDAKCNMMPF* CIBMFKKGFGN; // 0x10
 		::GFIMNLJALNN* PFLDGLBGPDC; // 0x18
-		::System::Int32 JBIFBLMDAMG; // 0x20
-		::System::Int32 LAINCNBEMPF; // 0x24
-		::System::Double GAFENHHEBPG; // 0x28
-		::DIDMPBAABII_TrackPlayingState ONLDOAJIGMI; // 0x30
-		::System::Int32 DOACJFLCILA; // 0x34
+		::System::Double GAFENHHEBPG; // 0x20
+		::System::Int32 DOACJFLCILA; // 0x28
+		::System::Int32 LAINCNBEMPF; // 0x2C
+		::System::Int32 JBIFBLMDAMG; // 0x30
+		::DIDMPBAABII_TrackPlayingState ONLDOAJIGMI; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIDMPBAABII_CTOR_OFFSET))(this);

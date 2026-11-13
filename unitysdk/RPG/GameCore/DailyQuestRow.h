@@ -4,21 +4,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DailyQuestRow; }
 
-#define RPG_GAMECORE_DAILYQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C1D50)
-#define RPG_GAMECORE_DAILYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C1B20)
+#define RPG_GAMECORE_DAILYQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFFB190)
+#define RPG_GAMECORE_DAILYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EFFAF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DailyQuestRow_TypeDefinitionIndex = 13119;
+	inline static constexpr unsigned int DailyQuestRow_TypeDefinitionIndex = 13187;
 
 	class DailyQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 MinLevel; // 0x18
+		::System::UInt32 DailyID; // 0x18
 		::System::Boolean IsDelete; // 0x1C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 DailyID; // 0x20
+		::System::UInt32 MinLevel; // 0x20
 		::System::UInt32 MaxLevel; // 0x24
 		::System::Void _ctor()
 		{

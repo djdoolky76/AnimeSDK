@@ -4,11 +4,11 @@
 namespace RPG::Client { class CameraDynamicOffset; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERAFIGHTSTATECASTERTOTARGETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC92EAD0)
+#define RPG_CLIENT_CAMERAFIGHTSTATECASTERTOTARGETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D313960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateCasterToTargetConfig_TypeDefinitionIndex = 69577;
+	inline static constexpr unsigned int CameraFightStateCasterToTargetConfig_TypeDefinitionIndex = 71534;
 
 	class CameraFightStateCasterToTargetConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{

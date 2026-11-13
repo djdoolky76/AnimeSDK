@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8D2B10)
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D3170)
+#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D8F33D0)
+#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F3A30)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EffectLightControlTrack_TypeDefinitionIndex = 48159;
+	inline static constexpr unsigned int EffectLightControlTrack_TypeDefinitionIndex = 49190;
 
 	class EffectLightControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

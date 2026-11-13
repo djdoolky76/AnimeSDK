@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IMask_TypeDefinitionIndex = 6725;
+	inline static constexpr unsigned int IMask_TypeDefinitionIndex = 6736;
 
 	class IMask
 	{

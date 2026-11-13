@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GGNKDLAHAGH_TypeDefinitionIndex = 29108;
+inline static constexpr unsigned int GGNKDLAHAGH_TypeDefinitionIndex = 29698;
 
 	enum class GGNKDLAHAGH : ::System::Int32
 	{
@@ -9,4 +9,5 @@ inline static constexpr unsigned int GGNKDLAHAGH_TypeDefinitionIndex = 29108;
 		FHOHPFBDNOH = 6,
 		GBDNJLPBNPO = 7,
 		DAOBNJOGBBF = 8,
+		KBGPCLEPFPN = 9,
 	};

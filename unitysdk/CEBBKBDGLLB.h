@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int CEBBKBDGLLB_TypeDefinitionIndex = 71081;
+inline static constexpr unsigned int CEBBKBDGLLB_TypeDefinitionIndex = 73064;
 
 	struct alignas(4) CEBBKBDGLLB
 	{

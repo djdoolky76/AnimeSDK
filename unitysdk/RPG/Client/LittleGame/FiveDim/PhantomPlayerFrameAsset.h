@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9D82F0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x207108E0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerFrameAsset_TypeDefinitionIndex = 43585;
+	inline static constexpr unsigned int PhantomPlayerFrameAsset_TypeDefinitionIndex = 44567;
 
 	class PhantomPlayerFrameAsset : public ::UnityEngine::ScriptableObject
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ModifyCoolDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCNCHBECGMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB10CF0)
-#define NCNCHBECGMF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB10D00)
-#define NCNCHBECGMF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB10D40)
-#define NCNCHBECGMF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB11240)
-#define NCNCHBECGMF_TICK_OFFSET UNITYSDK_OFFSET(0xBB11290)
+#define NCNCHBECGMF_CTOR_OFFSET UNITYSDK_OFFSET(0x151046B0)
+#define NCNCHBECGMF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x151046C0)
+#define NCNCHBECGMF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15104700)
+#define NCNCHBECGMF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15104C00)
+#define NCNCHBECGMF_TICK_OFFSET UNITYSDK_OFFSET(0x15104C50)
 
-inline static constexpr unsigned int NCNCHBECGMF_TypeDefinitionIndex = 55190;
+inline static constexpr unsigned int NCNCHBECGMF_TypeDefinitionIndex = 56371;
 
 	class NCNCHBECGMF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ModifyCoolDown* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ModifyCoolDown* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyCoolDown* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifyCoolDown*))((::PBYTE)hIl2Cpp + NCNCHBECGMF_CTOR_OFFSET))(this, a1, a2);

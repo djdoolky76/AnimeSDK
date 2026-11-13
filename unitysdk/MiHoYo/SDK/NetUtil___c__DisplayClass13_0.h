@@ -5,12 +5,12 @@ namespace System { class String; }
 namespace UnityEngine { class WWWForm; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7E730)
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS13_0__HTTPPOSTFORM_B__0_OFFSET UNITYSDK_OFFSET(0x1BE7F750)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C335F20)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS13_0__HTTPPOSTFORM_B__0_OFFSET UNITYSDK_OFFSET(0x1C336F20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil___c__DisplayClass13_0_TypeDefinitionIndex = 8190;
+	inline static constexpr unsigned int NetUtil___c__DisplayClass13_0_TypeDefinitionIndex = 8199;
 
 	class NetUtil___c__DisplayClass13_0 : public ::System::Object
 	{

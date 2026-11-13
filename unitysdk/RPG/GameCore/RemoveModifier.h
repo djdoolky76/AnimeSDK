@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class RemoveModifier; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REMOVEMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9585C0)
-#define RPG_GAMECORE_REMOVEMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9585D0)
-#define RPG_GAMECORE_REMOVEMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D958590)
+#define RPG_GAMECORE_REMOVEMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2420A0)
+#define RPG_GAMECORE_REMOVEMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F2420B0)
+#define RPG_GAMECORE_REMOVEMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F242070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveModifier_TypeDefinitionIndex = 23066;
+	inline static constexpr unsigned int RemoveModifier_TypeDefinitionIndex = 23495;
 
 	class RemoveModifier : public ::RPG::GameCore::TaskConfig
 	{

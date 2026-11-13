@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTARGUMENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F9D70)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTARGUMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C744290)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LifeCycleEventArgument_TypeDefinitionIndex = 48153;
+	inline static constexpr unsigned int LifeCycleEventArgument_TypeDefinitionIndex = 49184;
 
 	class LifeCycleEventArgument : public ::System::Object
 	{

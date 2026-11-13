@@ -5,25 +5,25 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3EABB0)
-#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3EABF0)
-#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C__GETTRIALAVATARS_B__23_0_OFFSET UNITYSDK_OFFSET(0xC3EAC00)
+#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBEEBC0)
+#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBEEC00)
+#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C__GETTRIALAVATARS_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DBEEC10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityFeverTimeModule___c_TypeDefinitionIndex = 61515;
+	inline static constexpr unsigned int ActivityFeverTimeModule___c_TypeDefinitionIndex = 62900;
 
 	class ActivityFeverTimeModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>** StaticGet___9__23_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14EC0);
+			return (::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x144E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14EC8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x144E8);
 		}
 
 		static ::System::Void _cctor()

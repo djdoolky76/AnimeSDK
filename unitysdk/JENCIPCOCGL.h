@@ -7,25 +7,25 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define JENCIPCOCGL_BJMNKLGEMPM_1_OFFSET UNITYSDK_OFFSET(0x1662DCE0)
-#define JENCIPCOCGL_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x1662D5C0)
-#define JENCIPCOCGL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1662D390)
-#define JENCIPCOCGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1662D4E0)
-#define JENCIPCOCGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1662D620)
-#define JENCIPCOCGL_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0x1662DD90)
-#define JENCIPCOCGL_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1662D380)
+#define JENCIPCOCGL_BJMNKLGEMPM_1_OFFSET UNITYSDK_OFFSET(0x130860A0)
+#define JENCIPCOCGL_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x13085980)
+#define JENCIPCOCGL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x13085750)
+#define JENCIPCOCGL_CTOR_OFFSET UNITYSDK_OFFSET(0x130858A0)
+#define JENCIPCOCGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x130859E0)
+#define JENCIPCOCGL_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0x13086150)
+#define JENCIPCOCGL_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x13085740)
 
-inline static constexpr unsigned int JENCIPCOCGL_TypeDefinitionIndex = 59796;
+inline static constexpr unsigned int JENCIPCOCGL_TypeDefinitionIndex = 61076;
 
 	class JENCIPCOCGL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*>* MFJBNMLBBCF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::UnityEngine::Object*>* NDDIONPOBHK; // 0x18
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::UnityEngine::Object*>* NDDIONPOBHK; // 0x10
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*>* MFJBNMLBBCF; // 0x18
 		::UnityEngine::Transform* GKNBCPMJHMN; // 0x20
 		static ::JENCIPCOCGL** StaticGet_FLMODBLFAGD()
 		{
-			return (::JENCIPCOCGL**)UnitySDK::FromName("", "JENCIPCOCGL")->GetStaticField(0xC2F0);
+			return (::JENCIPCOCGL**)UnitySDK::FromName("", "JENCIPCOCGL")->GetStaticField(0x11AB0);
 		}
 
 		// static const ::System::Object ONGMFGCACEH; // 0x0

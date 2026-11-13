@@ -3,19 +3,19 @@
 #include "unitysdk/NBJLLEBFGPD.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define JHOLNAGBJJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB670B0)
-#define JHOLNAGBJJG_GET_CREATORID_OFFSET UNITYSDK_OFFSET(0x1CB67210)
-#define JHOLNAGBJJG_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CB671F0)
-#define JHOLNAGBJJG_SET_CREATORID_OFFSET UNITYSDK_OFFSET(0x1CB67220)
-#define JHOLNAGBJJG_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CB67200)
+#define JHOLNAGBJJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE0D230)
+#define JHOLNAGBJJG_GET_CREATORID_OFFSET UNITYSDK_OFFSET(0x1DE0D390)
+#define JHOLNAGBJJG_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1DE0D370)
+#define JHOLNAGBJJG_SET_CREATORID_OFFSET UNITYSDK_OFFSET(0x1DE0D3A0)
+#define JHOLNAGBJJG_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1DE0D380)
 
-inline static constexpr unsigned int JHOLNAGBJJG_TypeDefinitionIndex = 41941;
+inline static constexpr unsigned int JHOLNAGBJJG_TypeDefinitionIndex = 42916;
 
 	class JHOLNAGBJJG : public ::NBJLLEBFGPD
 	{
 	public:
-		::System::Single _Value_k__BackingField; // 0x18
-		::System::Nullable_1<::System::Int32> _CreatorID_k__BackingField; // 0x1C
+		::System::Nullable_1<::System::Int32> _CreatorID_k__BackingField; // 0x18
+		::System::Single _Value_k__BackingField; // 0x20
 		::System::Void _ctor(::System::Single a1, ::System::Nullable_1<::System::Int32> a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + JHOLNAGBJJG_CTOR_OFFSET))(this, a1, a2);

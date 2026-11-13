@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CallBack; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D527780)
-#define RPG_GAMECORE_CALLBACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D527790)
-#define RPG_GAMECORE_CALLBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D527750)
+#define RPG_GAMECORE_CALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC002A0)
+#define RPG_GAMECORE_CALLBACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC002B0)
+#define RPG_GAMECORE_CALLBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC00270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CallBack_TypeDefinitionIndex = 21688;
+	inline static constexpr unsigned int CallBack_TypeDefinitionIndex = 22077;
 
 	class CallBack : public ::RPG::GameCore::TaskConfig
 	{

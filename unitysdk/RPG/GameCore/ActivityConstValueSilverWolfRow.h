@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityConstValueSilverWolfRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYCONSTVALUESILVERWOLFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D321E00)
-#define RPG_GAMECORE_ACTIVITYCONSTVALUESILVERWOLFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D321880)
+#define RPG_GAMECORE_ACTIVITYCONSTVALUESILVERWOLFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FF0A0)
+#define RPG_GAMECORE_ACTIVITYCONSTVALUESILVERWOLFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4FEB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityConstValueSilverWolfRow_TypeDefinitionIndex = 12355;
+	inline static constexpr unsigned int ActivityConstValueSilverWolfRow_TypeDefinitionIndex = 12422;
 
 	class ActivityConstValueSilverWolfRow : public ::System::Object
 	{

@@ -6,11 +6,11 @@ class FHJJGNMOELH;
 class IGMLCIIHJDI;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLCCMKNDBBO_CTOR_OFFSET UNITYSDK_OFFSET(0xD7709A0)
-#define CLCCMKNDBBO_MFOKDMAAOBB_OFFSET UNITYSDK_OFFSET(0xD770A60)
-#define CLCCMKNDBBO_MIAFDEIDKCH_OFFSET UNITYSDK_OFFSET(0xD770BD0)
+#define CLCCMKNDBBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD59250)
+#define CLCCMKNDBBO_MFOKDMAAOBB_OFFSET UNITYSDK_OFFSET(0x1AD59310)
+#define CLCCMKNDBBO_MIAFDEIDKCH_OFFSET UNITYSDK_OFFSET(0x1AD59480)
 
-inline static constexpr unsigned int CLCCMKNDBBO_TypeDefinitionIndex = 62839;
+inline static constexpr unsigned int CLCCMKNDBBO_TypeDefinitionIndex = 64277;
 
 	class CLCCMKNDBBO : public ::System::Object
 	{

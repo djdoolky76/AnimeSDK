@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB19C20)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS33_0__REGISTERIDLESHOWENDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xDB19C30)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18D846B0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS33_0__REGISTERIDLESHOWENDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x18D91F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass33_0_TypeDefinitionIndex = 69473;
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass33_0_TypeDefinitionIndex = 71427;
 
 	class PhotoGraphUtils___c__DisplayClass33_0 : public ::System::Object
 	{

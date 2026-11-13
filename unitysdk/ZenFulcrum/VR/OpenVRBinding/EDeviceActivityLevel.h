@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EDeviceActivityLevel_TypeDefinitionIndex = 39226;
+	inline static constexpr unsigned int EDeviceActivityLevel_TypeDefinitionIndex = 40155;
 
 	enum class EDeviceActivityLevel : ::System::Int32
 	{

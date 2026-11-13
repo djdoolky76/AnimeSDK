@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByAngle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGKMCKMPICF_CTOR_OFFSET UNITYSDK_OFFSET(0xB693A70)
-#define LGKMCKMPICF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB693AA0)
+#define LGKMCKMPICF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAB670)
+#define LGKMCKMPICF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BCAB6A0)
 
-inline static constexpr unsigned int LGKMCKMPICF_TypeDefinitionIndex = 54480;
+inline static constexpr unsigned int LGKMCKMPICF_TypeDefinitionIndex = 55644;
 
 	class LGKMCKMPICF
 	{

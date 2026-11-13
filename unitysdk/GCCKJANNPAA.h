@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define GCCKJANNPAA_KGBKNGDFABK_OFFSET UNITYSDK_OFFSET(0x1595AD00)
+#define GCCKJANNPAA_KGBKNGDFABK_OFFSET UNITYSDK_OFFSET(0x19E9F830)
 
-inline static constexpr unsigned int GCCKJANNPAA_TypeDefinitionIndex = 60087;
+inline static constexpr unsigned int GCCKJANNPAA_TypeDefinitionIndex = 61371;
 
 	class GCCKJANNPAA : public ::System::Object
 	{

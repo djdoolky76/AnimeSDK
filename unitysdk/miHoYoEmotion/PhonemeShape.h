@@ -3,12 +3,12 @@
 #include "unitysdk/miHoYoEmotion/Shape.h"
 namespace System { class String; }
 
-#define MIHOYOEMOTION_PHONEMESHAPE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB0BE370)
-#define MIHOYOEMOTION_PHONEMESHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BE120)
+#define MIHOYOEMOTION_PHONEMESHAPE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0D1FA0)
+#define MIHOYOEMOTION_PHONEMESHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D1D50)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int PhonemeShape_TypeDefinitionIndex = 45970;
+	inline static constexpr unsigned int PhonemeShape_TypeDefinitionIndex = 46999;
 
 	class PhonemeShape : public ::miHoYoEmotion::Shape
 	{

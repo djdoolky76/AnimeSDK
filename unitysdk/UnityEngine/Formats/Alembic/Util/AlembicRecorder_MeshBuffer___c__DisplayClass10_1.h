@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1F155A00)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CAPTURE_B__5_OFFSET UNITYSDK_OFFSET(0x1F1565A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1E595590)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CAPTURE_B__5_OFFSET UNITYSDK_OFFSET(0x1E596130)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c__DisplayClass10_1_TypeDefinitionIndex = 45765;
+	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c__DisplayClass10_1_TypeDefinitionIndex = 46794;
 
 	template <typename T>
 	class AlembicRecorder_MeshBuffer___c__DisplayClass10_1 : public ::System::Object

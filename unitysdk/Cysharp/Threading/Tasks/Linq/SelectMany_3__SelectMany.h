@@ -12,7 +12,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SelectMany_3__SelectMany_TypeDefinitionIndex = 45564;
+	inline static constexpr unsigned int SelectMany_3__SelectMany_TypeDefinitionIndex = 46593;
 
 	template <typename T1, typename T2, typename T3>
 	class SelectMany_3__SelectMany : public ::Cysharp::Threading::Tasks::MoveNextSource

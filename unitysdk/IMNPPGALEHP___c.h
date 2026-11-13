@@ -4,18 +4,18 @@
 class IMNPPGALEHP;
 namespace System { class Object; }
 
-#define IMNPPGALEHP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E68C500)
-#define IMNPPGALEHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68C540)
-#define IMNPPGALEHP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E68C550)
+#define IMNPPGALEHP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206C0260)
+#define IMNPPGALEHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206C02A0)
+#define IMNPPGALEHP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x206C02B0)
 
-inline static constexpr unsigned int IMNPPGALEHP___c_TypeDefinitionIndex = 31255;
+inline static constexpr unsigned int IMNPPGALEHP___c_TypeDefinitionIndex = 32168;
 
 	class IMNPPGALEHP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52F20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EB10);
 		}
 
 		static ::System::Void _cctor()

@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define LPOEOHMEJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F49A0)
+#define LPOEOHMEJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C259A80)
 
-inline static constexpr unsigned int LPOEOHMEJAG_TypeDefinitionIndex = 42947;
+inline static constexpr unsigned int LPOEOHMEJAG_TypeDefinitionIndex = 43928;
 
 	class LPOEOHMEJAG : public ::System::Object
 	{
 	public:
-		::System::Int32 ONOGIODHCEC; // 0x10
-		::UnityEngine::Bounds PDDIKBAMKBG; // 0x14
+		::UnityEngine::Bounds CJCLPNEMFFA; // 0x10
+		::System::Int32 PKEDMACGIPA; // 0x28
 		::System::Int32 JCJGJBLENCP; // 0x2C
-		::UnityEngine::Bounds CJCLPNEMFFA; // 0x30
-		::System::Int32 PKEDMACGIPA; // 0x48
+		::System::Int32 ONOGIODHCEC; // 0x30
+		::UnityEngine::Bounds PDDIKBAMKBG; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LPOEOHMEJAG_CTOR_OFFSET))(this);

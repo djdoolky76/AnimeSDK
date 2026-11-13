@@ -10,33 +10,33 @@ namespace UnityEngine { class Event; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserInput_ButtonHistory; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F60D9F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_FEEDSCROLLING_OFFSET UNITYSDK_OFFSET(0x1F61D1B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_FIRECOMMANDS_OFFSET UNITYSDK_OFFSET(0x1F61DBC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEFOCUSLOSS_OFFSET UNITYSDK_OFFSET(0x1F616D30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEINPUT_OFFSET UNITYSDK_OFFSET(0x1F6160E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEKEYINPUT_1_OFFSET UNITYSDK_OFFSET(0x1F61D7F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEKEYINPUT_OFFSET UNITYSDK_OFFSET(0x1F61CFE0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEMOUSEINPUT_OFFSET UNITYSDK_OFFSET(0x1F61C8B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA7F50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_FEEDSCROLLING_OFFSET UNITYSDK_OFFSET(0x1DDB7680)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_FIRECOMMANDS_OFFSET UNITYSDK_OFFSET(0x1DDB8090)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEFOCUSLOSS_OFFSET UNITYSDK_OFFSET(0x1DDB12B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEINPUT_OFFSET UNITYSDK_OFFSET(0x1DDB0660)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEKEYINPUT_1_OFFSET UNITYSDK_OFFSET(0x1DDB7CC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEKEYINPUT_OFFSET UNITYSDK_OFFSET(0x1DDB74B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_HANDLEMOUSEINPUT_OFFSET UNITYSDK_OFFSET(0x1DDB6D80)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserInput_TypeDefinitionIndex = 39369;
+	inline static constexpr unsigned int BrowserInput_TypeDefinitionIndex = 40298;
 
 	class BrowserInput : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Event*>* extraEventsToInject; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::BrowserInput_ButtonHistory* leftClickHistory; // 0x18
-		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x20
-		::System::Collections::Generic::HashSet_1<::UnityEngine::KeyCode>* keysToReleaseOnFocusLoss; // 0x28
-		::UnityEngine::Vector2 prevPos; // 0x30
-		::UnityEngine::Vector2 accumulatedScroll; // 0x38
-		::System::Boolean mouseWasFocused; // 0x40
-		::System::Boolean kbWasFocused; // 0x41
+		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
+		::System::Collections::Generic::HashSet_1<::UnityEngine::KeyCode>* keysToReleaseOnFocusLoss; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::BrowserInput_ButtonHistory* leftClickHistory; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Event*>* extraEventsToInject; // 0x28
+		::UnityEngine::Vector2 accumulatedScroll; // 0x30
+		::System::Single lastScrollEvent; // 0x38
+		::ZenFulcrum::EmbeddedBrowser::MouseButton prevButtons; // 0x3C
+		::System::Boolean kbWasFocused; // 0x40
+		::System::Boolean mouseWasFocused; // 0x41
 		::System::Byte _padding0[0x2];
-		::ZenFulcrum::EmbeddedBrowser::MouseButton prevButtons; // 0x44
-		::System::Single lastScrollEvent; // 0x48
+		::UnityEngine::Vector2 prevPos; // 0x44
 		// static const ::System::Object maxScrollEventRate; // 0x0
 		::System::Void _ctor(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{

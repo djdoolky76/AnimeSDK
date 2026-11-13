@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClosePage; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOSEPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D599EE0)
-#define RPG_GAMECORE_CLOSEPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D599EF0)
-#define RPG_GAMECORE_CLOSEPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D599EA0)
+#define RPG_GAMECORE_CLOSEPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F510460)
+#define RPG_GAMECORE_CLOSEPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F510470)
+#define RPG_GAMECORE_CLOSEPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F510420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClosePage_TypeDefinitionIndex = 20621;
+	inline static constexpr unsigned int ClosePage_TypeDefinitionIndex = 20958;
 
 	class ClosePage : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ICOHAPENNHF_CKPLOEHPLNF.h"
 
-#define EFKFAPMPJDI___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A53B70)
-#define EFKFAPMPJDI___C__DISPLAYCLASS13_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x13A55500)
-#define EFKFAPMPJDI___C__DISPLAYCLASS13_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x13A55610)
+#define EFKFAPMPJDI___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A33DC10)
+#define EFKFAPMPJDI___C__DISPLAYCLASS13_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A33F430)
+#define EFKFAPMPJDI___C__DISPLAYCLASS13_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1A33F540)
 
-inline static constexpr unsigned int EFKFAPMPJDI___c__DisplayClass13_0_TypeDefinitionIndex = 69323;
+inline static constexpr unsigned int EFKFAPMPJDI___c__DisplayClass13_0_TypeDefinitionIndex = 71277;
 
 	class EFKFAPMPJDI___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::JOGBIBJLPJB fromEntry; // 0x10
-		::JOGBIBJLPJB toEntry; // 0x18
+		::JOGBIBJLPJB toEntry; // 0x10
+		::JOGBIBJLPJB fromEntry; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFKFAPMPJDI___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);

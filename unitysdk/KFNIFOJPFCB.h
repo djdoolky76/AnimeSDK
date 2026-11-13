@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KFNIFOJPFCB_TypeDefinitionIndex = 32631;
+inline static constexpr unsigned int KFNIFOJPFCB_TypeDefinitionIndex = 33546;
 
 	enum class KFNIFOJPFCB : ::System::Int32
 	{

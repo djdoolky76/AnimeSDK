@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGESTORYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9B6070)
-#define RPG_CLIENT_CHALLENGESTORYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9B60B0)
-#define RPG_CLIENT_CHALLENGESTORYDATA___C__GETVORACITYINVASIONLEVEL_B__7_0_OFFSET UNITYSDK_OFFSET(0xC9B60C0)
+#define RPG_CLIENT_CHALLENGESTORYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C056BD0)
+#define RPG_CLIENT_CHALLENGESTORYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C056C10)
+#define RPG_CLIENT_CHALLENGESTORYDATA___C__GETVORACITYINVASIONLEVEL_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C056C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeStoryData___c_TypeDefinitionIndex = 63148;
+	inline static constexpr unsigned int ChallengeStoryData___c_TypeDefinitionIndex = 64586;
 
 	class ChallengeStoryData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B9D0);
-		}
-
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B9D8);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71610);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71618);
 		}
 
 		static ::System::Void _cctor()

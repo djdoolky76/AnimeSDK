@@ -5,23 +5,23 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ChenLingFesPosition; }
 
-#define EGJDABKLFEF_AALCCPJCBME_OFFSET UNITYSDK_OFFSET(0x1CA21D60)
-#define EGJDABKLFEF_CDFLBJGENDB_OFFSET UNITYSDK_OFFSET(0x1CA21D10)
-#define EGJDABKLFEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA21DB0)
+#define EGJDABKLFEF_AALCCPJCBME_OFFSET UNITYSDK_OFFSET(0x1F4E5AC0)
+#define EGJDABKLFEF_CDFLBJGENDB_OFFSET UNITYSDK_OFFSET(0x1F4E5A70)
+#define EGJDABKLFEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4E5B10)
 
-inline static constexpr unsigned int EGJDABKLFEF_TypeDefinitionIndex = 43708;
+inline static constexpr unsigned int EGJDABKLFEF_TypeDefinitionIndex = 44783;
 
 	class EGJDABKLFEF : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ChenLingFesPosition* FOCNBOANONM; // 0x10
-		::System::UInt32 PHFMCACHFIJ; // 0x18
-		::RPG::GameCore::ChenLingFesDirection PDMOFFGHMJF; // 0x1C
-		::System::Int32 DJCOAFFJAID; // 0x20
+		::RPG::GameCore::ChenLingFesDirection PDMOFFGHMJF; // 0x18
+		::RPG::GameCore::ChenLingFesCellType GDIGGOLJIBJ; // 0x1C
+		::System::UInt32 PHFMCACHFIJ; // 0x20
 		::System::UInt32 CENIOCNLPCC; // 0x24
-		::RPG::GameCore::ChenLingFesCellType GDIGGOLJIBJ; // 0x28
-		::System::Boolean DPKBLOIGNHD; // 0x2C
-		::System::Boolean MNBBCAMDGDI; // 0x2D
+		::System::Int32 DJCOAFFJAID; // 0x28
+		::System::Boolean MNBBCAMDGDI; // 0x2C
+		::System::Boolean DPKBLOIGNHD; // 0x2D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJDABKLFEF_CTOR_OFFSET))(this);

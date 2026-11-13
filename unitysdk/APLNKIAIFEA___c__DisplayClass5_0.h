@@ -6,10 +6,10 @@ class GIDPDEJAAED;
 class MONJFDPKFBA;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define APLNKIAIFEA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA68E0)
-#define APLNKIAIFEA___C__DISPLAYCLASS5_0__DIRECTACQUIREPARTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15BA87F0)
+#define APLNKIAIFEA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1850C620)
+#define APLNKIAIFEA___C__DISPLAYCLASS5_0__DIRECTACQUIREPARTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1850E520)
 
-inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass5_0_TypeDefinitionIndex = 81814;
+inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass5_0_TypeDefinitionIndex = 84595;
 
 	class APLNKIAIFEA___c__DisplayClass5_0 : public ::System::Object
 	{

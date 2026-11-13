@@ -6,11 +6,11 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define NDMEKJMMKNG_EEDONFDFLLP_OFFSET UNITYSDK_OFFSET(0xBB4A220)
-#define NDMEKJMMKNG_INCJDJFELIK_OFFSET UNITYSDK_OFFSET(0xBB49950)
-#define NDMEKJMMKNG_PAKCJDAEPKN_OFFSET UNITYSDK_OFFSET(0xBB49860)
+#define NDMEKJMMKNG_EEDONFDFLLP_OFFSET UNITYSDK_OFFSET(0x16FC9270)
+#define NDMEKJMMKNG_INCJDJFELIK_OFFSET UNITYSDK_OFFSET(0x16FC89A0)
+#define NDMEKJMMKNG_PAKCJDAEPKN_OFFSET UNITYSDK_OFFSET(0x16FC88B0)
 
-inline static constexpr unsigned int NDMEKJMMKNG_TypeDefinitionIndex = 49150;
+inline static constexpr unsigned int NDMEKJMMKNG_TypeDefinitionIndex = 50226;
 
 	class NDMEKJMMKNG : public ::System::Object
 	{

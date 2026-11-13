@@ -8,12 +8,12 @@ namespace RPG::GameCore { class DynamicValueRangeCallback; }
 namespace RPG::GameCore { class RtDynamicValueRangeGroup; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTDYNAMICVALUERANGEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2FBC0)
-#define RPG_GAMECORE_RTDYNAMICVALUERANGEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2F9B0)
+#define RPG_GAMECORE_RTDYNAMICVALUERANGEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC74BD0)
+#define RPG_GAMECORE_RTDYNAMICVALUERANGEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC749C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDynamicValueRangeGroup_TypeDefinitionIndex = 17660;
+	inline static constexpr unsigned int RtDynamicValueRangeGroup_TypeDefinitionIndex = 17829;
 
 	class RtDynamicValueRangeGroup : public ::RPG::GameCore::JsonConfig
 	{

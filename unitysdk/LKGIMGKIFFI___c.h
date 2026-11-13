@@ -6,23 +6,23 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define LKGIMGKIFFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7400C0)
-#define LKGIMGKIFFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB740100)
-#define LKGIMGKIFFI___C___DEMOTEALLSTACKCAMERAPRIORITIES_B__4_0_OFFSET UNITYSDK_OFFSET(0xB740110)
+#define LKGIMGKIFFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18CE8F50)
+#define LKGIMGKIFFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18CE8F90)
+#define LKGIMGKIFFI___C___DEMOTEALLSTACKCAMERAPRIORITIES_B__4_0_OFFSET UNITYSDK_OFFSET(0x18CE8FA0)
 
-inline static constexpr unsigned int LKGIMGKIFFI___c_TypeDefinitionIndex = 76760;
+inline static constexpr unsigned int LKGIMGKIFFI___c_TypeDefinitionIndex = 79093;
 
 	class LKGIMGKIFFI___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*>** StaticGet___9__4_0()
-		{
-			return (::System::Action_2<::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x691D0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x691D8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A8F0);
+		}
+
+		static ::System::Action_2<::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*>** StaticGet___9__4_0()
+		{
+			return (::System::Action_2<::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A8F8);
 		}
 
 		static ::System::Void _cctor()

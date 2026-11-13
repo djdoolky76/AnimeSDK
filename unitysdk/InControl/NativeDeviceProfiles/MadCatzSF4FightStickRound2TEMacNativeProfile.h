@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_MADCATZSF4FIGHTSTICKROUND2TEMACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA05A50)
-#define INCONTROL_NATIVEDEVICEPROFILES_MADCATZSF4FIGHTSTICKROUND2TEMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA059D0)
+#define INCONTROL_NATIVEDEVICEPROFILES_MADCATZSF4FIGHTSTICKROUND2TEMACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x155E2D80)
+#define INCONTROL_NATIVEDEVICEPROFILES_MADCATZSF4FIGHTSTICKROUND2TEMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x155E2D00)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int MadCatzSF4FightStickRound2TEMacNativeProfile_TypeDefinitionIndex = 41184;
+	inline static constexpr unsigned int MadCatzSF4FightStickRound2TEMacNativeProfile_TypeDefinitionIndex = 42159;
 
 	class MadCatzSF4FightStickRound2TEMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

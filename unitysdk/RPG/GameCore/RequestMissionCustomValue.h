@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class RequestMissionCustomValue; }
 
-#define RPG_GAMECORE_REQUESTMISSIONCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95B990)
-#define RPG_GAMECORE_REQUESTMISSIONCUSTOMVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95BA00)
-#define RPG_GAMECORE_REQUESTMISSIONCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95B900)
+#define RPG_GAMECORE_REQUESTMISSIONCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F245490)
+#define RPG_GAMECORE_REQUESTMISSIONCUSTOMVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F245500)
+#define RPG_GAMECORE_REQUESTMISSIONCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F245400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RequestMissionCustomValue_TypeDefinitionIndex = 20445;
+	inline static constexpr unsigned int RequestMissionCustomValue_TypeDefinitionIndex = 20780;
 
 	class RequestMissionCustomValue : public ::RPG::GameCore::TaskConfig
 	{

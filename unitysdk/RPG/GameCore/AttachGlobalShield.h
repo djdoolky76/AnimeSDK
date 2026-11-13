@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ATTACHGLOBALSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D40D0)
-#define RPG_GAMECORE_ATTACHGLOBALSHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3D40E0)
-#define RPG_GAMECORE_ATTACHGLOBALSHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3D40A0)
+#define RPG_GAMECORE_ATTACHGLOBALSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB9370)
+#define RPG_GAMECORE_ATTACHGLOBALSHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DEB9380)
+#define RPG_GAMECORE_ATTACHGLOBALSHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEB9340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachGlobalShield_TypeDefinitionIndex = 23599;
+	inline static constexpr unsigned int AttachGlobalShield_TypeDefinitionIndex = 24046;
 
 	class AttachGlobalShield : public ::RPG::GameCore::TaskConfig
 	{

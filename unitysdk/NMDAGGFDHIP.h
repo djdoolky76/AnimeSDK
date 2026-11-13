@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NMDAGGFDHIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBC7ADA0)
-#define NMDAGGFDHIP_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xBC7AED0)
-#define NMDAGGFDHIP_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0xBC7ADB0)
+#define NMDAGGFDHIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A440E80)
+#define NMDAGGFDHIP_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x1A440FB0)
+#define NMDAGGFDHIP_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0x1A440E90)
 
-inline static constexpr unsigned int NMDAGGFDHIP_TypeDefinitionIndex = 57026;
+inline static constexpr unsigned int NMDAGGFDHIP_TypeDefinitionIndex = 58253;
 
 	class NMDAGGFDHIP : public ::BDENDNDOFLF
 	{

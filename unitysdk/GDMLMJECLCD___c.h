@@ -4,18 +4,18 @@
 class GDMLMJECLCD;
 namespace System { class Object; }
 
-#define GDMLMJECLCD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E422070)
-#define GDMLMJECLCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4220B0)
-#define GDMLMJECLCD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4220C0)
+#define GDMLMJECLCD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2023AA10)
+#define GDMLMJECLCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2023AA50)
+#define GDMLMJECLCD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2023AA60)
 
-inline static constexpr unsigned int GDMLMJECLCD___c_TypeDefinitionIndex = 28152;
+inline static constexpr unsigned int GDMLMJECLCD___c_TypeDefinitionIndex = 28742;
 
 	class GDMLMJECLCD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x105A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D240);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EJLNMFOPGOP;
 
-#define EJLNMFOPGOP___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154DFE60)
-#define EJLNMFOPGOP___C__DISPLAYCLASS21_0__SETENABLE_B__0_OFFSET UNITYSDK_OFFSET(0x154E0F60)
+#define EJLNMFOPGOP___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19AC2840)
+#define EJLNMFOPGOP___C__DISPLAYCLASS21_0__SETENABLE_B__0_OFFSET UNITYSDK_OFFSET(0x19AC3940)
 
-inline static constexpr unsigned int EJLNMFOPGOP___c__DisplayClass21_0_TypeDefinitionIndex = 71906;
+inline static constexpr unsigned int EJLNMFOPGOP___c__DisplayClass21_0_TypeDefinitionIndex = 73927;
 
 	class EJLNMFOPGOP___c__DisplayClass21_0 : public ::System::Object
 	{

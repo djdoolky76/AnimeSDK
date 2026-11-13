@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PAPOPANPGIJ;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCompareHasEffect; }
 
-#define CJGMDLNKCMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A7D10)
-#define CJGMDLNKCMP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C5A7DF0)
+#define CJGMDLNKCMP_CTOR_OFFSET UNITYSDK_OFFSET(0x17043D80)
+#define CJGMDLNKCMP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17043E60)
 
-inline static constexpr unsigned int CJGMDLNKCMP_TypeDefinitionIndex = 36980;
+inline static constexpr unsigned int CJGMDLNKCMP_TypeDefinitionIndex = 37908;
 
 	class CJGMDLNKCMP
 	{

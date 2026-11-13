@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class TransformScreenAdapter; }
 
-#define RPG_CLIENT_EFFECTSCREENADAPTERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD0F890)
+#define RPG_CLIENT_EFFECTSCREENADAPTERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x17BCB320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectScreenAdapterMonoPlugin_TypeDefinitionIndex = 70420;
+	inline static constexpr unsigned int EffectScreenAdapterMonoPlugin_TypeDefinitionIndex = 72387;
 
 	class EffectScreenAdapterMonoPlugin
 	{

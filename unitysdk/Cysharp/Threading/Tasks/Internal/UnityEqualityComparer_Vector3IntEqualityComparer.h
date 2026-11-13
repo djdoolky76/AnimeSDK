@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/Vector3Int.h"
 namespace Cysharp::Threading::Tasks::Internal { class UnityEqualityComparer_Vector3IntEqualityComparer; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F3050)
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F2620)
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F0F2890)
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F0F2950)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1665C0)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F165B90)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F165E00)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F165EC0)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int UnityEqualityComparer_Vector3IntEqualityComparer_TypeDefinitionIndex = 38685;
+	inline static constexpr unsigned int UnityEqualityComparer_Vector3IntEqualityComparer_TypeDefinitionIndex = 39614;
 
 	class UnityEqualityComparer_Vector3IntEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::Internal::UnityEqualityComparer_Vector3IntEqualityComparer** StaticGet_Default()
 		{
-			return (::Cysharp::Threading::Tasks::Internal::UnityEqualityComparer_Vector3IntEqualityComparer**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "Vector3IntEqualityComparer")->GetStaticField(0x37050);
+			return (::Cysharp::Threading::Tasks::Internal::UnityEqualityComparer_Vector3IntEqualityComparer**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "Vector3IntEqualityComparer")->GetStaticField(0x33220);
 		}
 
 		::System::Void _ctor()

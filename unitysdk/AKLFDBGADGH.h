@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PlayerApplyInMapTeleport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AKLFDBGADGH_CTOR_OFFSET UNITYSDK_OFFSET(0x12CD1760)
-#define AKLFDBGADGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CD1790)
+#define AKLFDBGADGH_CTOR_OFFSET UNITYSDK_OFFSET(0x197A6F00)
+#define AKLFDBGADGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197A6F30)
 
-inline static constexpr unsigned int AKLFDBGADGH_TypeDefinitionIndex = 58288;
+inline static constexpr unsigned int AKLFDBGADGH_TypeDefinitionIndex = 59544;
 
 	class AKLFDBGADGH
 	{

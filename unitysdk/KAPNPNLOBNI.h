@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class GlobalVisibilityControl; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KAPNPNLOBNI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2E54C0)
-#define KAPNPNLOBNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2E54F0)
+#define KAPNPNLOBNI_CTOR_OFFSET UNITYSDK_OFFSET(0x19DC5640)
+#define KAPNPNLOBNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DC5670)
 
-inline static constexpr unsigned int KAPNPNLOBNI_TypeDefinitionIndex = 55084;
+inline static constexpr unsigned int KAPNPNLOBNI_TypeDefinitionIndex = 56261;
 
 	class KAPNPNLOBNI
 	{

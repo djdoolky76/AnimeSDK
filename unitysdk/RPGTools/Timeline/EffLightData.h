@@ -4,7 +4,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EffLightData_TypeDefinitionIndex = 48156;
+	inline static constexpr unsigned int EffLightData_TypeDefinitionIndex = 49187;
 
 	struct alignas(4) EffLightData
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JIICNENOIKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB1F5790)
-#define JIICNENOIKD_OGDMAKFJMKA_OFFSET UNITYSDK_OFFSET(0xB1F5740)
+#define JIICNENOIKD_CTOR_OFFSET UNITYSDK_OFFSET(0x17423E90)
+#define JIICNENOIKD_OGDMAKFJMKA_OFFSET UNITYSDK_OFFSET(0x17423E40)
 
-inline static constexpr unsigned int JIICNENOIKD_TypeDefinitionIndex = 77437;
+inline static constexpr unsigned int JIICNENOIKD_TypeDefinitionIndex = 80172;
 
 	class JIICNENOIKD : public ::System::Object
 	{

@@ -5,22 +5,22 @@ namespace RPG::Client { class ChimeraDuelChallengeGameSession; }
 namespace RPG::Client { class IChimeraDuelChallengeTeam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_CREATE_OFFSET UNITYSDK_OFFSET(0xCB13690)
-#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_CTOR_OFFSET UNITYSDK_OFFSET(0xCB13710)
-#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_GET_FRIENDS_OFFSET UNITYSDK_OFFSET(0xCB13CF0)
-#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_GET_MASTERS_OFFSET UNITYSDK_OFFSET(0xCB13D00)
-#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION__INITFRIENDS_OFFSET UNITYSDK_OFFSET(0xCB13790)
-#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION__INITMASTERS_OFFSET UNITYSDK_OFFSET(0xCB13AA0)
+#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_CREATE_OFFSET UNITYSDK_OFFSET(0x1DFE9AB0)
+#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE9B30)
+#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_GET_FRIENDS_OFFSET UNITYSDK_OFFSET(0x1DFEA150)
+#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_GET_MASTERS_OFFSET UNITYSDK_OFFSET(0x1DFEA160)
+#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION__INITFRIENDS_OFFSET UNITYSDK_OFFSET(0x1DFE9BB0)
+#define RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION__INITMASTERS_OFFSET UNITYSDK_OFFSET(0x1DFE9EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChallengeGameSession_TypeDefinitionIndex = 63303;
+	inline static constexpr unsigned int ChimeraDuelChallengeGameSession_TypeDefinitionIndex = 64741;
 
 	class ChimeraDuelChallengeGameSession : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::IChimeraDuelChallengeTeam*>* _Friends_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::IChimeraDuelChallengeTeam*>* _Masters_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::IChimeraDuelChallengeTeam*>* _Masters_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::IChimeraDuelChallengeTeam*>* _Friends_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGEGAMESESSION_CTOR_OFFSET))(this);

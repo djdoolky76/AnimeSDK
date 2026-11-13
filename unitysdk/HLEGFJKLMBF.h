@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByChangeValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HLEGFJKLMBF_CTOR_OFFSET UNITYSDK_OFFSET(0x15D50980)
-#define HLEGFJKLMBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D50A60)
+#define HLEGFJKLMBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1989DDD0)
+#define HLEGFJKLMBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1989DEB0)
 
-inline static constexpr unsigned int HLEGFJKLMBF_TypeDefinitionIndex = 55419;
+inline static constexpr unsigned int HLEGFJKLMBF_TypeDefinitionIndex = 56604;
 
 	class HLEGFJKLMBF
 	{

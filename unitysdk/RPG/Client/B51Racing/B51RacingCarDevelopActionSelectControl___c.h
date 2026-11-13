@@ -6,25 +6,25 @@ namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconItemViewModel;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC71F240)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC71F280)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C___REFRESHDATA_B__51_0_OFFSET UNITYSDK_OFFSET(0xC71F290)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B10FDA0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B10FDE0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C___REFRESHDATA_B__51_0_OFFSET UNITYSDK_OFFSET(0x1B10FDF0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDevelopActionSelectControl___c_TypeDefinitionIndex = 81799;
+	inline static constexpr unsigned int B51RacingCarDevelopActionSelectControl___c_TypeDefinitionIndex = 84580;
 
 	class B51RacingCarDevelopActionSelectControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::RPG::GameCore::B51RacingStatType>** StaticGet___9__51_0()
 		{
-			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::RPG::GameCore::B51RacingStatType>**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x53100);
+			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::RPG::GameCore::B51RacingStatType>**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x57380);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x53108);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x57388);
 		}
 
 		static ::System::Void _cctor()

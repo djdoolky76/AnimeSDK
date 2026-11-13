@@ -7,16 +7,16 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Playables { class PlayableAsset; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define OKKFJLFMPFK___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBED8C80)
-#define OKKFJLFMPFK___C__DISPLAYCLASS4_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBEE1770)
+#define OKKFJLFMPFK___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1787D530)
+#define OKKFJLFMPFK___C__DISPLAYCLASS4_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x17885FE0)
 
-inline static constexpr unsigned int OKKFJLFMPFK___c__DisplayClass4_0_TypeDefinitionIndex = 56371;
+inline static constexpr unsigned int OKKFJLFMPFK___c__DisplayClass4_0_TypeDefinitionIndex = 57585;
 
 	class OKKFJLFMPFK___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::EKAFJOGBCFA*>* t; // 0x10
-		::OKKFJLFMPFK* __4__this; // 0x18
+		::OKKFJLFMPFK* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::EKAFJOGBCFA*>* t; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OKKFJLFMPFK___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

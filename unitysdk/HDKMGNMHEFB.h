@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvTriggerAIEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HDKMGNMHEFB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C2E9C0)
-#define HDKMGNMHEFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C2E9F0)
+#define HDKMGNMHEFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7CF4C0)
+#define HDKMGNMHEFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7CF4F0)
 
-inline static constexpr unsigned int HDKMGNMHEFB_TypeDefinitionIndex = 52516;
+inline static constexpr unsigned int HDKMGNMHEFB_TypeDefinitionIndex = 53622;
 
 	class HDKMGNMHEFB
 	{

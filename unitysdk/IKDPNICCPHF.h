@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearTalkUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IKDPNICCPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x16477360)
-#define IKDPNICCPHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16477390)
+#define IKDPNICCPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x180755D0)
+#define IKDPNICCPHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18075600)
 
-inline static constexpr unsigned int IKDPNICCPHF_TypeDefinitionIndex = 58027;
+inline static constexpr unsigned int IKDPNICCPHF_TypeDefinitionIndex = 59266;
 
 	class IKDPNICCPHF
 	{

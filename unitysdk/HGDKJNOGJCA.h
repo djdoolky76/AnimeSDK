@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-inline static constexpr unsigned int HGDKJNOGJCA_TypeDefinitionIndex = 75070;
+inline static constexpr unsigned int HGDKJNOGJCA_TypeDefinitionIndex = 77397;
 
 	struct alignas(4) HGDKJNOGJCA
 	{

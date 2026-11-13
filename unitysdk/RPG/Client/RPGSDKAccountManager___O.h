@@ -10,34 +10,34 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKAccountManager___O_TypeDefinitionIndex = 61088;
+	inline static constexpr unsigned int RPGSDKAccountManager___O_TypeDefinitionIndex = 62473;
 
 	class RPGSDKAccountManager___O : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageFinish** StaticGet__1____OnGetPageFinish()
-		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageFinish**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x57A90);
-		}
-
 		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageClose** StaticGet__2____OnGetPageClose()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageClose**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x57A98);
+			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageClose**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x689D0);
 		}
 
 		static ::System::Action_1<::System::String*>** StaticGet__0____OnSwitchRoleResponse()
 		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x57AA0);
-		}
-
-		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnUniWebViewMessageDelegate** StaticGet__4____OnUniWebViewMessage()
-		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnUniWebViewMessageDelegate**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x57AA8);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x689D8);
 		}
 
 		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageBeforeHide** StaticGet__3____OnGetOnPageBeforeHide()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageBeforeHide**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x57AB0);
+			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageBeforeHide**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x689E0);
+		}
+
+		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnUniWebViewMessageDelegate** StaticGet__4____OnUniWebViewMessage()
+		{
+			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnUniWebViewMessageDelegate**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x689E8);
+		}
+
+		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageFinish** StaticGet__1____OnGetPageFinish()
+		{
+			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageFinish**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x689F0);
 		}
 
 	};

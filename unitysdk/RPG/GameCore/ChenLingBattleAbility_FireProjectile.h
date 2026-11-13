@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ChenLingBattleAbility_FireProjectile; }
 namespace RPG::GameCore { class ChenLingBattleBulletConfig; }
 namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D552910)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D552920)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5528C0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F353FB0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F353FC0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F353F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_FireProjectile_TypeDefinitionIndex = 15709;
+	inline static constexpr unsigned int ChenLingBattleAbility_FireProjectile_TypeDefinitionIndex = 15867;
 
 	class ChenLingBattleAbility_FireProjectile : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

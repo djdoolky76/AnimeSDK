@@ -7,26 +7,26 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Terrain; }
 namespace UnityEngine { class Texture; }
 
-#define OJHGNKEBPHO_DECJJPDKPLJ_OFFSET UNITYSDK_OFFSET(0xBEB00F0)
-#define OJHGNKEBPHO_HGOEOGBCLJG_OFFSET UNITYSDK_OFFSET(0xBEB0280)
-#define OJHGNKEBPHO_HHJGEDJKENL_OFFSET UNITYSDK_OFFSET(0xBEB01F0)
-#define OJHGNKEBPHO_HMEOAFFMHNE_OFFSET UNITYSDK_OFFSET(0xBEB0230)
-#define OJHGNKEBPHO_IALLMNNHOJA_OFFSET UNITYSDK_OFFSET(0xBEAFE00)
-#define OJHGNKEBPHO_PAGJNLMPDJI_OFFSET UNITYSDK_OFFSET(0xBEB0170)
+#define OJHGNKEBPHO_DECJJPDKPLJ_OFFSET UNITYSDK_OFFSET(0x194B4C70)
+#define OJHGNKEBPHO_HGOEOGBCLJG_OFFSET UNITYSDK_OFFSET(0x194B4E00)
+#define OJHGNKEBPHO_HHJGEDJKENL_OFFSET UNITYSDK_OFFSET(0x194B4D70)
+#define OJHGNKEBPHO_HMEOAFFMHNE_OFFSET UNITYSDK_OFFSET(0x194B4DB0)
+#define OJHGNKEBPHO_IALLMNNHOJA_OFFSET UNITYSDK_OFFSET(0x194B4990)
+#define OJHGNKEBPHO_PAGJNLMPDJI_OFFSET UNITYSDK_OFFSET(0x194B4CF0)
 
-inline static constexpr unsigned int OJHGNKEBPHO_TypeDefinitionIndex = 51804;
+inline static constexpr unsigned int OJHGNKEBPHO_TypeDefinitionIndex = 52890;
 
 	class OJHGNKEBPHO : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::RenderTexture** StaticGet_BOLHAAMHGIM()
 		{
-			return (::UnityEngine::RenderTexture**)UnitySDK::FromName("", "OJHGNKEBPHO")->GetStaticField(0x5C370);
+			return (::UnityEngine::RenderTexture**)UnitySDK::FromName("", "OJHGNKEBPHO")->GetStaticField(0x57250);
 		}
 
 		static ::System::Boolean* StaticGet_JAENOPLFFHA()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "OJHGNKEBPHO")->GetStaticField(0x13FC0);
+			return (::System::Boolean*)UnitySDK::FromName("", "OJHGNKEBPHO")->GetStaticField(0x12900);
 		}
 
 		static ::UnityEngine::RenderTexture* IALLMNNHOJA()

@@ -3,35 +3,35 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_DEVICEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xB083080)
-#define RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET UNITYSDK_OFFSET(0xB082F00)
-#define RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET UNITYSDK_OFFSET(0xB082DD0)
+#define RPGTOOLS_DEVICEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF2A5E0)
+#define RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET UNITYSDK_OFFSET(0x1CF2A460)
+#define RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET UNITYSDK_OFFSET(0x1CF2A330)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 46918;
+	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 47946;
 
 	class DeviceUtils : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_MESSAGE_WIFI_STATE_CHANGED()
-		{
-			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x36B40);
-		}
-
-		static ::System::String** StaticGet_MESSAGE_WIFI_RSSI_CHANGED()
-		{
-			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x36B48);
-		}
-
 		static ::System::String** StaticGet_MESSAGE_OBJECT_NAME()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x36B50);
+			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x2EEB0);
 		}
 
 		static ::System::String** StaticGet_MESSAGE_BETTERY_CHANGED()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x36B58);
+			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x2EEB8);
+		}
+
+		static ::System::String** StaticGet_MESSAGE_WIFI_STATE_CHANGED()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x2EEC0);
+		}
+
+		static ::System::String** StaticGet_MESSAGE_WIFI_RSSI_CHANGED()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x2EEC8);
 		}
 
 		// static const ::System::Object BATTERY_LEVEL_MAX; // 0x0

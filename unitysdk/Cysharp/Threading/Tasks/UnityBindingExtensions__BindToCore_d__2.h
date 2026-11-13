@@ -10,29 +10,29 @@ namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine::UI { class Text; }
 
-#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5FF00)
-#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3F25BC0)
+#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xB480)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__2_TypeDefinitionIndex = 38489;
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__2_TypeDefinitionIndex = 39418;
 
 	template <typename T1, typename T2>
 	struct alignas(8) UnityBindingExtensions__BindToCore_d__2
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
-		::System::Object* __7__wrap3; // 0x18
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::String*>* _e_5__3; // 0x20
-		::System::Object* __u__1; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
+		::System::Object* __u__1; // 0x20
 		::System::Byte _padding0[0x8];
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x38
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::String*>* source; // 0x48
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::String*>* source; // 0x30
+		::UnityEngine::UI::Text* text; // 0x38
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::String*>* _e_5__3; // 0x40
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x48
 		::System::Threading::CancellationToken cancellationToken; // 0x50
-		::UnityEngine::UI::Text* text; // 0x58
+		::System::Object* __7__wrap3; // 0x58
 		::System::Int32 __7__wrap4; // 0x60
 		::System::Int32 __1__state; // 0x64
-		::System::Boolean _repeat_5__2; // 0x68
-		::System::Boolean rebindOnError; // 0x69
+		::System::Boolean rebindOnError; // 0x68
+		::System::Boolean _repeat_5__2; // 0x69
 		::System::Void MoveNext()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__2_MOVENEXT_OFFSET))(this);

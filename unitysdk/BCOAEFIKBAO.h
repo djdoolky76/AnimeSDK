@@ -7,17 +7,17 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define BCOAEFIKBAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCCA80)
-#define BCOAEFIKBAO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCCCA90)
-#define BCOAEFIKBAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCCCA50)
+#define BCOAEFIKBAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC7D80)
+#define BCOAEFIKBAO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC7D90)
+#define BCOAEFIKBAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC7D50)
 
-inline static constexpr unsigned int BCOAEFIKBAO_TypeDefinitionIndex = 23602;
+inline static constexpr unsigned int BCOAEFIKBAO_TypeDefinitionIndex = 24049;
 
 	class BCOAEFIKBAO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* OJGEEODEMMO; // 0x18
-		::RPG::GameCore::PredicateConfig* GODIODIIBNC; // 0x20
+		::RPG::GameCore::PredicateConfig* GODIODIIBNC; // 0x18
+		::RPG::GameCore::DynamicFloat* OJGEEODEMMO; // 0x20
 		::RPG::GameCore::TargetEvaluator* MFIEDDGBIPH; // 0x28
 		::RPG::GameCore::DynamicFloat* MCNPMDPMCKM; // 0x30
 		::System::Boolean BDLAKIDPLHB; // 0x38

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NGDABGKFPHM_TypeDefinitionIndex = 75005;
+inline static constexpr unsigned int NGDABGKFPHM_TypeDefinitionIndex = 77332;
 
 	class NGDABGKFPHM
 	{

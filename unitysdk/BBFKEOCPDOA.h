@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInStoryMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBFKEOCPDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15E79F90)
-#define BBFKEOCPDOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E79FC0)
+#define BBFKEOCPDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x199F2670)
+#define BBFKEOCPDOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x199F26A0)
 
-inline static constexpr unsigned int BBFKEOCPDOA_TypeDefinitionIndex = 53149;
+inline static constexpr unsigned int BBFKEOCPDOA_TypeDefinitionIndex = 54311;
 
 	class BBFKEOCPDOA
 	{

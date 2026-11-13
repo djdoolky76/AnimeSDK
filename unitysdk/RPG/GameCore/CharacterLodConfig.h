@@ -9,12 +9,12 @@ namespace RPG::GameCore { class CharacterPrefabLodInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERLODCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D544CA0)
-#define RPG_GAMECORE_CHARACTERLODCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D544B50)
+#define RPG_GAMECORE_CHARACTERLODCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F346450)
+#define RPG_GAMECORE_CHARACTERLODCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F346300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterLodConfig_TypeDefinitionIndex = 19102;
+	inline static constexpr unsigned int CharacterLodConfig_TypeDefinitionIndex = 19289;
 
 	class CharacterLodConfig : public ::RPG::GameCore::JsonConfig
 	{

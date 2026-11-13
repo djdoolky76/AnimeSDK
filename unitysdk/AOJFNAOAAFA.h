@@ -5,18 +5,18 @@ class CPGFPBIGNBI;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AOJFNAOAAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x158A5EF0)
-#define AOJFNAOAAFA_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x158A5AD0)
-#define AOJFNAOAAFA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x158A5920)
-#define AOJFNAOAAFA_LEODPLLEGJO_OFFSET UNITYSDK_OFFSET(0x158A5990)
+#define AOJFNAOAAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A84B180)
+#define AOJFNAOAAFA_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1A84AD60)
+#define AOJFNAOAAFA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1A84ABB0)
+#define AOJFNAOAAFA_LEODPLLEGJO_OFFSET UNITYSDK_OFFSET(0x1A84AC20)
 
-inline static constexpr unsigned int AOJFNAOAAFA_TypeDefinitionIndex = 69769;
+inline static constexpr unsigned int AOJFNAOAAFA_TypeDefinitionIndex = 71726;
 
 	class AOJFNAOAAFA : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::CPGFPBIGNBI*>* ECMFFNPIHGD; // 0x10
-		::System::Collections::Generic::List_1<::CPGFPBIGNBI*>* JMMMLKCHILN; // 0x18
+		::System::Collections::Generic::List_1<::CPGFPBIGNBI*>* JMMMLKCHILN; // 0x10
+		::System::Collections::Generic::List_1<::CPGFPBIGNBI*>* ECMFFNPIHGD; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOJFNAOAAFA_CTOR_OFFSET))(this);

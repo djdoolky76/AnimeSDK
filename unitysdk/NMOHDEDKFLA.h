@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapSkillPointEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NMOHDEDKFLA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC8CDB0)
-#define NMOHDEDKFLA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBC8CDD0)
+#define NMOHDEDKFLA_CTOR_OFFSET UNITYSDK_OFFSET(0x179CEA90)
+#define NMOHDEDKFLA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x179CEAB0)
 
-inline static constexpr unsigned int NMOHDEDKFLA_TypeDefinitionIndex = 59244;
+inline static constexpr unsigned int NMOHDEDKFLA_TypeDefinitionIndex = 60521;
 
 	class NMOHDEDKFLA
 	{

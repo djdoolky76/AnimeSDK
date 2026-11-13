@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySwordTrainingAvatarVOType_TypeDefinitionIndex = 61927;
+	inline static constexpr unsigned int ActivitySwordTrainingAvatarVOType_TypeDefinitionIndex = 63339;
 
 	enum class ActivitySwordTrainingAvatarVOType : ::System::Int32
 	{

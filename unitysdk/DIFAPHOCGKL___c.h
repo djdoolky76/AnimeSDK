@@ -4,18 +4,18 @@
 class DIFAPHOCGKL;
 namespace System { class Object; }
 
-#define DIFAPHOCGKL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E18F520)
-#define DIFAPHOCGKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E18F550)
-#define DIFAPHOCGKL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E18F560)
+#define DIFAPHOCGKL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2065C250)
+#define DIFAPHOCGKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2065C280)
+#define DIFAPHOCGKL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2065C290)
 
-inline static constexpr unsigned int DIFAPHOCGKL___c_TypeDefinitionIndex = 25393;
+inline static constexpr unsigned int DIFAPHOCGKL___c_TypeDefinitionIndex = 25870;
 
 	class DIFAPHOCGKL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31340);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B410);
 		}
 
 		static ::System::Void _cctor()

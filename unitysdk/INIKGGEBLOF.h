@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define INIKGGEBLOF_CTOR_OFFSET UNITYSDK_OFFSET(0x164E1990)
-#define INIKGGEBLOF_GET_ISINCREASE_OFFSET UNITYSDK_OFFSET(0x164E1930)
-#define INIKGGEBLOF_GET_TARGETID_OFFSET UNITYSDK_OFFSET(0x164E1970)
-#define INIKGGEBLOF_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x164E1950)
-#define INIKGGEBLOF_SET_ISINCREASE_OFFSET UNITYSDK_OFFSET(0x164E1940)
-#define INIKGGEBLOF_SET_TARGETID_OFFSET UNITYSDK_OFFSET(0x164E1980)
-#define INIKGGEBLOF_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x164E1960)
+#define INIKGGEBLOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5EF900)
+#define INIKGGEBLOF_GET_ISINCREASE_OFFSET UNITYSDK_OFFSET(0x1A5EF8A0)
+#define INIKGGEBLOF_GET_TARGETID_OFFSET UNITYSDK_OFFSET(0x1A5EF8E0)
+#define INIKGGEBLOF_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A5EF8C0)
+#define INIKGGEBLOF_SET_ISINCREASE_OFFSET UNITYSDK_OFFSET(0x1A5EF8B0)
+#define INIKGGEBLOF_SET_TARGETID_OFFSET UNITYSDK_OFFSET(0x1A5EF8F0)
+#define INIKGGEBLOF_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A5EF8D0)
 
-inline static constexpr unsigned int INIKGGEBLOF_TypeDefinitionIndex = 66784;
+inline static constexpr unsigned int INIKGGEBLOF_TypeDefinitionIndex = 68720;
 
 	class INIKGGEBLOF : public ::System::Object
 	{
 	public:
-		::System::Boolean _IsIncrease_k__BackingField; // 0x10
+		::System::UInt32 _Value_k__BackingField; // 0x10
+		::System::Boolean _IsIncrease_k__BackingField; // 0x14
 		::System::Byte _padding0[0x3];
-		::System::UInt32 _TargetID_k__BackingField; // 0x14
-		::System::UInt32 _Value_k__BackingField; // 0x18
+		::System::UInt32 _TargetID_k__BackingField; // 0x18
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + INIKGGEBLOF_CTOR_OFFSET))(this, a1, a2, a3);

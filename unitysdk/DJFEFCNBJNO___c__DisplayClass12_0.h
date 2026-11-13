@@ -4,10 +4,10 @@
 class BFMENAAGPDN;
 namespace RPG::Client { class ExpeditionBattleRoute; }
 
-#define DJFEFCNBJNO___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF22D640)
-#define DJFEFCNBJNO___C__DISPLAYCLASS12_0__SYNCRECORDBYMAPINFO_B__0_OFFSET UNITYSDK_OFFSET(0xF22F350)
+#define DJFEFCNBJNO___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18BE6680)
+#define DJFEFCNBJNO___C__DISPLAYCLASS12_0__SYNCRECORDBYMAPINFO_B__0_OFFSET UNITYSDK_OFFSET(0x18BE8700)
 
-inline static constexpr unsigned int DJFEFCNBJNO___c__DisplayClass12_0_TypeDefinitionIndex = 63935;
+inline static constexpr unsigned int DJFEFCNBJNO___c__DisplayClass12_0_TypeDefinitionIndex = 65377;
 
 	class DJFEFCNBJNO___c__DisplayClass12_0 : public ::System::Object
 	{

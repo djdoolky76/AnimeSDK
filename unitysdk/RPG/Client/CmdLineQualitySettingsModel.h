@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/Client/CmdLineRPGQualitySettingsBoolWrapper.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CMDLINEQUALITYSETTINGSMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC13000)
+#define RPG_CLIENT_CMDLINEQUALITYSETTINGSMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x207907B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CmdLineQualitySettingsModel_TypeDefinitionIndex = 35206;
+	inline static constexpr unsigned int CmdLineQualitySettingsModel_TypeDefinitionIndex = 36134;
 
 	class CmdLineQualitySettingsModel : public ::System::Object
 	{

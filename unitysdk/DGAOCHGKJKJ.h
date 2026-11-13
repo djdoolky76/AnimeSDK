@@ -8,11 +8,11 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DGAOCHGKJKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCED520)
-#define DGAOCHGKJKJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCED530)
-#define DGAOCHGKJKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCED4F0)
+#define DGAOCHGKJKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E1F90)
+#define DGAOCHGKJKJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7E1FA0)
+#define DGAOCHGKJKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7E1F60)
 
-inline static constexpr unsigned int DGAOCHGKJKJ_TypeDefinitionIndex = 22477;
+inline static constexpr unsigned int DGAOCHGKJKJ_TypeDefinitionIndex = 22886;
 
 	class DGAOCHGKJKJ : public ::RPG::GameCore::TaskConfig
 	{

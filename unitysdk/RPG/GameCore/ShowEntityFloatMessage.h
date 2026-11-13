@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ShowEntityFloatMessage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWENTITYFLOATMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAD8D0)
-#define RPG_GAMECORE_SHOWENTITYFLOATMESSAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAAD8F0)
-#define RPG_GAMECORE_SHOWENTITYFLOATMESSAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAAD890)
+#define RPG_GAMECORE_SHOWENTITYFLOATMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3E69B0)
+#define RPG_GAMECORE_SHOWENTITYFLOATMESSAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3E69D0)
+#define RPG_GAMECORE_SHOWENTITYFLOATMESSAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3E6970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEntityFloatMessage_TypeDefinitionIndex = 22484;
+	inline static constexpr unsigned int ShowEntityFloatMessage_TypeDefinitionIndex = 22893;
 
 	class ShowEntityFloatMessage : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/BOIKIMJHDHK.h"
 #include "unitysdk/CAHKKMIFGGB.h"
 
-#define JBFODLMODBN_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x1655FBE0)
-#define JBFODLMODBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1655FD50)
+#define JBFODLMODBN_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x19A700A0)
+#define JBFODLMODBN_CTOR_OFFSET UNITYSDK_OFFSET(0x19A70210)
 
-inline static constexpr unsigned int JBFODLMODBN_TypeDefinitionIndex = 64933;
+inline static constexpr unsigned int JBFODLMODBN_TypeDefinitionIndex = 66504;
 
 	class JBFODLMODBN : public ::BOIKIMJHDHK
 	{

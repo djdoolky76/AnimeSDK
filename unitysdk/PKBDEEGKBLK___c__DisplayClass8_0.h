@@ -4,10 +4,10 @@
 class IMFBPGDPEOI;
 class PKBDEEGKBLK;
 
-#define PKBDEEGKBLK___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2A3660)
-#define PKBDEEGKBLK___C__DISPLAYCLASS8_0__REQUESTDRAW_B__0_OFFSET UNITYSDK_OFFSET(0xC2A4010)
+#define PKBDEEGKBLK___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x147AEC60)
+#define PKBDEEGKBLK___C__DISPLAYCLASS8_0__REQUESTDRAW_B__0_OFFSET UNITYSDK_OFFSET(0x147AF610)
 
-inline static constexpr unsigned int PKBDEEGKBLK___c__DisplayClass8_0_TypeDefinitionIndex = 61399;
+inline static constexpr unsigned int PKBDEEGKBLK___c__DisplayClass8_0_TypeDefinitionIndex = 62784;
 
 	class PKBDEEGKBLK___c__DisplayClass8_0 : public ::System::Object
 	{

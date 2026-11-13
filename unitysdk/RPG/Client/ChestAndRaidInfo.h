@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/MapPregressShowType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHESTANDRAIDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCB028A0)
+#define RPG_CLIENT_CHESTANDRAIDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD8AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChestAndRaidInfo_TypeDefinitionIndex = 66365;
+	inline static constexpr unsigned int ChestAndRaidInfo_TypeDefinitionIndex = 68301;
 
 	class ChestAndRaidInfo : public ::System::Object
 	{
 	public:
-		::System::UInt32 ExistNum; // 0x10
-		::System::UInt32 OpenedNum; // 0x14
-		::System::UInt32 ExistNumCurWorldLevel; // 0x18
+		::System::UInt32 OpenedNum; // 0x10
+		::System::UInt32 ExistNumCurWorldLevel; // 0x14
+		::System::UInt32 ExistNum; // 0x18
 		::RPG::GameCore::MapPregressShowType ShowType; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::MapPregressShowType a3)
 		{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DotBarTypeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DOTBARTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EB480)
-#define RPG_GAMECORE_DOTBARTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5EB350)
+#define RPG_GAMECORE_DOTBARTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C8E00)
+#define RPG_GAMECORE_DOTBARTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3C8CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DotBarTypeConfig_TypeDefinitionIndex = 22734;
+	inline static constexpr unsigned int DotBarTypeConfig_TypeDefinitionIndex = 23156;
 
 	class DotBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

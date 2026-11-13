@@ -9,16 +9,18 @@
 #include "unitysdk/RPG/GameCore/VCameraState.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CustomTeamFormationConfig; }
+namespace RPG::GameCore { class CustomTeamFormationParam; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BC400)
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5BC420)
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5BC3B0)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_ANFBCIHBOKM_OFFSET UNITYSDK_OFFSET(0x1EFF5E60)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF56E0)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EFF5700)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFF5690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 16587;
+	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 16753;
 
 	class CustomTeamFormationConfig : public ::RPG::GameCore::CustomTeamFormationParam
 	{
@@ -48,6 +50,11 @@ namespace RPG::GameCore
 		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CustomTeamFormationConfig* a2)
 		{
 			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CustomTeamFormationConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
+		}
+
+		::RPG::GameCore::CustomTeamFormationConfig* ANFBCIHBOKM(::RPG::GameCore::CustomTeamFormationParam* a1)
+		{
+			return ((::RPG::GameCore::CustomTeamFormationConfig*(*)(::PVOID, ::RPG::GameCore::CustomTeamFormationParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_ANFBCIHBOKM_OFFSET))(this, a1);
 		}
 
 	};

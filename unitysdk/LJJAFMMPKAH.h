@@ -4,9 +4,9 @@
 class DPEGLPPPAJJ;
 class INHBMHCJJCN;
 
-#define LJJAFMMPKAH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB712900)
+#define LJJAFMMPKAH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x17330EF0)
 
-inline static constexpr unsigned int LJJAFMMPKAH_TypeDefinitionIndex = 67069;
+inline static constexpr unsigned int LJJAFMMPKAH_TypeDefinitionIndex = 69013;
 
 	class LJJAFMMPKAH : public ::System::Object
 	{

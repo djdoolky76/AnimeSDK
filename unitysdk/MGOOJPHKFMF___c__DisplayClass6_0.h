@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class LKFPICOFNDF;
 
-#define MGOOJPHKFMF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB926AC0)
-#define MGOOJPHKFMF___C__DISPLAYCLASS6_0__REMOVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xB926F40)
+#define MGOOJPHKFMF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B34CAD0)
+#define MGOOJPHKFMF___C__DISPLAYCLASS6_0__REMOVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1B34CF40)
 
-inline static constexpr unsigned int MGOOJPHKFMF___c__DisplayClass6_0_TypeDefinitionIndex = 77804;
+inline static constexpr unsigned int MGOOJPHKFMF___c__DisplayClass6_0_TypeDefinitionIndex = 80539;
 
 	class MGOOJPHKFMF___c__DisplayClass6_0 : public ::System::Object
 	{

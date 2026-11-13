@@ -18,40 +18,40 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RPGInstancedItemClusterVolumeManager; }
 
-#define HBFIBDGJLHE_FKNIOEHAGAL_AFBCAPABFKF_OFFSET UNITYSDK_OFFSET(0x15BF10A0)
-#define HBFIBDGJLHE_FKNIOEHAGAL_BPHLLDFEHDC_OFFSET UNITYSDK_OFFSET(0x15BF2180)
-#define HBFIBDGJLHE_FKNIOEHAGAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15BE78A0)
-#define HBFIBDGJLHE_FKNIOEHAGAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BE9400)
-#define HBFIBDGJLHE_FKNIOEHAGAL_DNJCPBBAMBJ_OFFSET UNITYSDK_OFFSET(0x15BF3390)
-#define HBFIBDGJLHE_FKNIOEHAGAL_EDOGPEOFHBC_OFFSET UNITYSDK_OFFSET(0x15BF0EB0)
-#define HBFIBDGJLHE_FKNIOEHAGAL_FDMNDEDEDOD_OFFSET UNITYSDK_OFFSET(0x15BEC1A0)
-#define HBFIBDGJLHE_FKNIOEHAGAL_FPAEDGKLCJG_OFFSET UNITYSDK_OFFSET(0x15BF23F0)
-#define HBFIBDGJLHE_FKNIOEHAGAL_GEEGAGBBGBB_OFFSET UNITYSDK_OFFSET(0x15BEF4B0)
-#define HBFIBDGJLHE_FKNIOEHAGAL_JGNLGCHEBIP_OFFSET UNITYSDK_OFFSET(0x15BEB570)
-#define HBFIBDGJLHE_FKNIOEHAGAL_JHPIJNAOABE_OFFSET UNITYSDK_OFFSET(0x15BF0F30)
-#define HBFIBDGJLHE_FKNIOEHAGAL_JJMCGJHEANE_OFFSET UNITYSDK_OFFSET(0x15BEC2A0)
-#define HBFIBDGJLHE_FKNIOEHAGAL_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15BEB930)
-#define HBFIBDGJLHE_FKNIOEHAGAL_PCGDPBEIACL_OFFSET UNITYSDK_OFFSET(0x15BF1BB0)
-#define HBFIBDGJLHE_FKNIOEHAGAL_POFJHKPLLAD_OFFSET UNITYSDK_OFFSET(0x15BF2610)
+#define HBFIBDGJLHE_FKNIOEHAGAL_AFBCAPABFKF_OFFSET UNITYSDK_OFFSET(0x1C168DB0)
+#define HBFIBDGJLHE_FKNIOEHAGAL_BPHLLDFEHDC_OFFSET UNITYSDK_OFFSET(0x1C169DE0)
+#define HBFIBDGJLHE_FKNIOEHAGAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C15FB80)
+#define HBFIBDGJLHE_FKNIOEHAGAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C161510)
+#define HBFIBDGJLHE_FKNIOEHAGAL_DNJCPBBAMBJ_OFFSET UNITYSDK_OFFSET(0x1C16AF70)
+#define HBFIBDGJLHE_FKNIOEHAGAL_EDOGPEOFHBC_OFFSET UNITYSDK_OFFSET(0x1C168BE0)
+#define HBFIBDGJLHE_FKNIOEHAGAL_FDMNDEDEDOD_OFFSET UNITYSDK_OFFSET(0x1C164120)
+#define HBFIBDGJLHE_FKNIOEHAGAL_FPAEDGKLCJG_OFFSET UNITYSDK_OFFSET(0x1C16A050)
+#define HBFIBDGJLHE_FKNIOEHAGAL_GEEGAGBBGBB_OFFSET UNITYSDK_OFFSET(0x1C167360)
+#define HBFIBDGJLHE_FKNIOEHAGAL_JGNLGCHEBIP_OFFSET UNITYSDK_OFFSET(0x1C1635D0)
+#define HBFIBDGJLHE_FKNIOEHAGAL_JHPIJNAOABE_OFFSET UNITYSDK_OFFSET(0x1C168C60)
+#define HBFIBDGJLHE_FKNIOEHAGAL_JJMCGJHEANE_OFFSET UNITYSDK_OFFSET(0x1C1641E0)
+#define HBFIBDGJLHE_FKNIOEHAGAL_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C163960)
+#define HBFIBDGJLHE_FKNIOEHAGAL_PCGDPBEIACL_OFFSET UNITYSDK_OFFSET(0x1C169810)
+#define HBFIBDGJLHE_FKNIOEHAGAL_POFJHKPLLAD_OFFSET UNITYSDK_OFFSET(0x1C16A250)
 
-inline static constexpr unsigned int HBFIBDGJLHE_FKNIOEHAGAL_TypeDefinitionIndex = 82174;
+inline static constexpr unsigned int HBFIBDGJLHE_FKNIOEHAGAL_TypeDefinitionIndex = 85047;
 
 	class HBFIBDGJLHE_FKNIOEHAGAL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::ClusterMeshLodInfo>>*>* MLAGMEBJKGJ; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::UnityEngine::ClusterMeshLodInfo>* MENDADODADH; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::UnityEngine::MeshClusterInfo>>* AHDDAOCIECM; // 0x20
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::HashSet_1<::System::UInt64>*>* IFCOLFODFLG; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* CJLEEMAFMKJ; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* LIGKAAJJNBD; // 0x18
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::Unity::Collections::NativeArray_1<::UnityEngine::ClusterIRIType>>* EDAMOPOBBGJ; // 0x20
+		::UnityEngine::RPGInstancedItemClusterVolumeManager* KGCNPIEDOCA; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::System::UInt32>>* NEMNGPHGBDF; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>* AABJMDJFFMB; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* LIGKAAJJNBD; // 0x40
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* KKHONILOFEL; // 0x48
-		::UnityEngine::RPGInstancedItemClusterVolumeManager* KGCNPIEDOCA; // 0x50
-		::NIOMJPECGPB NPBEOCIIAII; // 0x58
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::Unity::Collections::NativeArray_1<::UnityEngine::ClusterIRIType>>* EDAMOPOBBGJ; // 0x68
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::UnityEngine::IRIClusterVolumeInfo>* JICNBIOEPHK; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* CJLEEMAFMKJ; // 0x78
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* KKHONILOFEL; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::UnityEngine::ClusterMeshLodInfo>* MENDADODADH; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>* AABJMDJFFMB; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::UnityEngine::MeshClusterInfo>>* AHDDAOCIECM; // 0x50
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::ClusterMeshLodInfo>>*>* MLAGMEBJKGJ; // 0x58
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::UnityEngine::IRIClusterVolumeInfo>* JICNBIOEPHK; // 0x60
+		::NIOMJPECGPB NPBEOCIIAII; // 0x68
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::HashSet_1<::System::UInt64>*>* IFCOLFODFLG; // 0x78
 		// static const ::System::String* GDLCKJECIIJ; // 0x0
 		// static const ::System::String* GFHCCEOKCMP; // 0x0
 		::System::Void _ctor(::RPG::Client::CityCarFlow::MonoCityCarIRI* a1)

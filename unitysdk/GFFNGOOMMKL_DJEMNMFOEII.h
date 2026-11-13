@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define GFFNGOOMMKL_DJEMNMFOEII_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E7C640)
+#define GFFNGOOMMKL_DJEMNMFOEII_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3E73A50)
 
-inline static constexpr unsigned int GFFNGOOMMKL_DJEMNMFOEII_TypeDefinitionIndex = 76594;
+inline static constexpr unsigned int GFFNGOOMMKL_DJEMNMFOEII_TypeDefinitionIndex = 78925;
 
 	struct alignas(8) GFFNGOOMMKL_DJEMNMFOEII
 	{

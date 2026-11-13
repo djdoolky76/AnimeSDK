@@ -5,19 +5,19 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 
-#define AEDLFHMOEID_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0xB14B190)
-#define AEDLFHMOEID_CTOR_OFFSET UNITYSDK_OFFSET(0xB14B2F0)
-#define AEDLFHMOEID_DKKJNPPHDPM_OFFSET UNITYSDK_OFFSET(0xB14B100)
-#define AEDLFHMOEID_KKHOMFOPFJA_OFFSET UNITYSDK_OFFSET(0xB14B200)
-#define AEDLFHMOEID__ONBIND_OFFSET UNITYSDK_OFFSET(0xB14B0A0)
+#define AEDLFHMOEID_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x182BB050)
+#define AEDLFHMOEID_CTOR_OFFSET UNITYSDK_OFFSET(0x182BB1B0)
+#define AEDLFHMOEID_DKKJNPPHDPM_OFFSET UNITYSDK_OFFSET(0x182BAFC0)
+#define AEDLFHMOEID_KKHOMFOPFJA_OFFSET UNITYSDK_OFFSET(0x182BB0C0)
+#define AEDLFHMOEID__ONBIND_OFFSET UNITYSDK_OFFSET(0x182BAF20)
 
-inline static constexpr unsigned int AEDLFHMOEID_TypeDefinitionIndex = 71978;
+inline static constexpr unsigned int AEDLFHMOEID_TypeDefinitionIndex = 74007;
 
 	class AEDLFHMOEID : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Animation* PMOJILOJEPE; // 0x60
-		::UnityEngine::GameObject* ADBCGAPLGOL; // 0x68
+		::UnityEngine::GameObject* ADBCGAPLGOL; // 0x60
+		::UnityEngine::Animation* PMOJILOJEPE; // 0x68
 		// static const ::System::String* AILCOOFIDPG; // 0x0
 		// static const ::System::String* IIPEBGKKNLC; // 0x0
 		::System::Void _ctor()

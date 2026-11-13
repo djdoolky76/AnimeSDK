@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int GHDAJKMCBFN___c__0_2_TypeDefinitionIndex = 49942;
+inline static constexpr unsigned int GHDAJKMCBFN___c__0_2_TypeDefinitionIndex = 50990;
 
 	template <typename T1, typename T2>
 	class GHDAJKMCBFN___c__0_2 : public ::System::Object

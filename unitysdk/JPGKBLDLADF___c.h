@@ -4,18 +4,18 @@
 class JPGKBLDLADF;
 namespace System { class Object; }
 
-#define JPGKBLDLADF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A7160)
-#define JPGKBLDLADF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A71A0)
-#define JPGKBLDLADF___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1E7A71B0)
+#define JPGKBLDLADF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8DF4A0)
+#define JPGKBLDLADF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8DF4E0)
+#define JPGKBLDLADF___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1F8DF4F0)
 
-inline static constexpr unsigned int JPGKBLDLADF___c_TypeDefinitionIndex = 29386;
+inline static constexpr unsigned int JPGKBLDLADF___c_TypeDefinitionIndex = 30098;
 
 	class JPGKBLDLADF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3060);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68F80);
 		}
 
 		static ::System::Void _cctor()

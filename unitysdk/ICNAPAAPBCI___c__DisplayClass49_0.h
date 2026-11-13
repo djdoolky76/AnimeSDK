@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace Cinemachine { class CinemachineBrain; }
 
-#define ICNAPAAPBCI___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E4EAB0)
-#define ICNAPAAPBCI___C__DISPLAYCLASS49_0___INITBATTLECAMERATARGETGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x15E4EAC0)
+#define ICNAPAAPBCI___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x188DB310)
+#define ICNAPAAPBCI___C__DISPLAYCLASS49_0___INITBATTLECAMERATARGETGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x188DB320)
 
-inline static constexpr unsigned int ICNAPAAPBCI___c__DisplayClass49_0_TypeDefinitionIndex = 77808;
+inline static constexpr unsigned int ICNAPAAPBCI___c__DisplayClass49_0_TypeDefinitionIndex = 80543;
 
 	class ICNAPAAPBCI___c__DisplayClass49_0 : public ::System::Object
 	{

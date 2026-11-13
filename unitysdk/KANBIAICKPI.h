@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define KANBIAICKPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C42C0)
-#define KANBIAICKPI_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB2D8220)
+#define KANBIAICKPI_CTOR_OFFSET UNITYSDK_OFFSET(0x19D9FD70)
+#define KANBIAICKPI_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19DB5950)
 
-inline static constexpr unsigned int KANBIAICKPI_TypeDefinitionIndex = 56638;
+inline static constexpr unsigned int KANBIAICKPI_TypeDefinitionIndex = 57860;
 
 	class KANBIAICKPI : public ::HMFOPIJNNDI
 	{

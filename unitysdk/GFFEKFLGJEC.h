@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPamActionPhaseTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GFFEKFLGJEC_CTOR_OFFSET UNITYSDK_OFFSET(0x159E3800)
-#define GFFEKFLGJEC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159E3830)
+#define GFFEKFLGJEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B48BD80)
+#define GFFEKFLGJEC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B48BDB0)
 
-inline static constexpr unsigned int GFFEKFLGJEC_TypeDefinitionIndex = 53155;
+inline static constexpr unsigned int GFFEKFLGJEC_TypeDefinitionIndex = 54317;
 
 	class GFFEKFLGJEC
 	{

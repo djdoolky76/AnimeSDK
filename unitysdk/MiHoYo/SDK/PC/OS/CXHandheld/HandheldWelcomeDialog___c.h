@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldWelcomeDialog; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BED0710)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED0750)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG___C__SHOW_B__26_0_OFFSET UNITYSDK_OFFSET(0x1BED0760)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0C9170)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C91B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDWELCOMEDIALOG___C__SHOW_B__26_0_OFFSET UNITYSDK_OFFSET(0x1B0C91C0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldWelcomeDialog___c_TypeDefinitionIndex = 8825;
+	inline static constexpr unsigned int HandheldWelcomeDialog___c_TypeDefinitionIndex = 8834;
 
 	class HandheldWelcomeDialog___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldWelcomeDialog*>** StaticGet___9__26_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldWelcomeDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x16E80);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldWelcomeDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0xEE40);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x16E88);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0xEE48);
 		}
 
 		static ::System::Void _cctor()

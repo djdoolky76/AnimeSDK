@@ -5,18 +5,18 @@ namespace RPG::Client { class ShowAttackTimeParam; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define FLLAGHIOFMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15831DE0)
-#define FLLAGHIOFMD_KGJAMKFPOAB_OFFSET UNITYSDK_OFFSET(0x15831D90)
-#define FLLAGHIOFMD_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15831CA0)
-#define FLLAGHIOFMD__ONBIND_OFFSET UNITYSDK_OFFSET(0x15831C20)
+#define FLLAGHIOFMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1896CD70)
+#define FLLAGHIOFMD_KGJAMKFPOAB_OFFSET UNITYSDK_OFFSET(0x1896CD20)
+#define FLLAGHIOFMD_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1896CC30)
+#define FLLAGHIOFMD__ONBIND_OFFSET UNITYSDK_OFFSET(0x1896CB00)
 
-inline static constexpr unsigned int FLLAGHIOFMD_TypeDefinitionIndex = 71231;
+inline static constexpr unsigned int FLLAGHIOFMD_TypeDefinitionIndex = 73210;
 
 	class FLLAGHIOFMD : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Text* GEPFFDDHPAI; // 0x60
-		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x68
+		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x60
+		::UnityEngine::UI::Text* GEPFFDDHPAI; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLLAGHIOFMD_CTOR_OFFSET))(this);

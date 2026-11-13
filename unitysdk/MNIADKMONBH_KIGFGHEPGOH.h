@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class LevelPedestrianV2RoadPointInfo; }
 
-#define MNIADKMONBH_KIGFGHEPGOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E950)
+#define MNIADKMONBH_KIGFGHEPGOH_CTOR_OFFSET UNITYSDK_OFFSET(0x3E07A40)
 
-inline static constexpr unsigned int MNIADKMONBH_KIGFGHEPGOH_TypeDefinitionIndex = 69305;
+inline static constexpr unsigned int MNIADKMONBH_KIGFGHEPGOH_TypeDefinitionIndex = 71259;
 
 	struct alignas(4) MNIADKMONBH_KIGFGHEPGOH
 	{

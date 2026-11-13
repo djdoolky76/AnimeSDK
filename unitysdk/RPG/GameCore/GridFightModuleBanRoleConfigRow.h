@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightModuleBanRoleConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTMODULEBANROLECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D708C30)
-#define RPG_GAMECORE_GRIDFIGHTMODULEBANROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D708B10)
+#define RPG_GAMECORE_GRIDFIGHTMODULEBANROLECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x208BCD20)
+#define RPG_GAMECORE_GRIDFIGHTMODULEBANROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x208BCC00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModuleBanRoleConfigRow_TypeDefinitionIndex = 13475;
+	inline static constexpr unsigned int GridFightModuleBanRoleConfigRow_TypeDefinitionIndex = 13551;
 
 	class GridFightModuleBanRoleConfigRow : public ::System::Object
 	{

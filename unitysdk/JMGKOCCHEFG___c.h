@@ -5,23 +5,23 @@ class FNGKJFAMKLI;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JMGKOCCHEFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB25EB60)
-#define JMGKOCCHEFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB25EB90)
-#define JMGKOCCHEFG___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xB25EBA0)
+#define JMGKOCCHEFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0AD450)
+#define JMGKOCCHEFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AD480)
+#define JMGKOCCHEFG___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A0AD490)
 
-inline static constexpr unsigned int JMGKOCCHEFG___c_TypeDefinitionIndex = 63360;
+inline static constexpr unsigned int JMGKOCCHEFG___c_TypeDefinitionIndex = 64798;
 
 	class JMGKOCCHEFG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20840);
-		}
-
 		static ::System::Func_2<::FNGKJFAMKLI*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::FNGKJFAMKLI*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20848);
+			return (::System::Func_2<::FNGKJFAMKLI*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FD40);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FD48);
 		}
 
 		static ::System::Void _cctor()

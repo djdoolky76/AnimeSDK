@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LKFBIALLBDK_TypeDefinitionIndex = 25719;
+inline static constexpr unsigned int LKFBIALLBDK_TypeDefinitionIndex = 26216;
 
 	enum class LKFBIALLBDK : ::System::Int32
 	{

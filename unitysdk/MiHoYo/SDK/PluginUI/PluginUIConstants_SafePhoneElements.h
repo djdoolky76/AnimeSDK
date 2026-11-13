@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_SafePhoneElements_TypeDefinitionIndex = 9217;
+	inline static constexpr unsigned int PluginUIConstants_SafePhoneElements_TypeDefinitionIndex = 9226;
 
 	class PluginUIConstants_SafePhoneElements : public ::System::Object
 	{

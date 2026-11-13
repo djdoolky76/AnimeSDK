@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseConfigHeader_1_ConfigHeaderEnumerator_TypeDefinitionIndex = 10834;
+	inline static constexpr unsigned int BaseConfigHeader_1_ConfigHeaderEnumerator_TypeDefinitionIndex = 10850;
 
 	template <typename T>
 	struct alignas(8) BaseConfigHeader_1_ConfigHeaderEnumerator

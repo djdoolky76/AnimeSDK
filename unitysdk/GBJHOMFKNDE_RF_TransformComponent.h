@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GBJHOMFKNDE_RF_TransformComponent_TypeDefinitionIndex = 36845;
+inline static constexpr unsigned int GBJHOMFKNDE_RF_TransformComponent_TypeDefinitionIndex = 37773;
 
 	enum class GBJHOMFKNDE_RF_TransformComponent : ::System::Byte
 	{

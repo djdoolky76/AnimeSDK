@@ -4,27 +4,27 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class UITextUtils_RemainTimeUnitTextPalette; }
 
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3F87A0)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_CTOR_OFFSET UNITYSDK_OFFSET(0xE3F8770)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_DAY_OFFSET UNITYSDK_OFFSET(0xE3F8730)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_HOUR_OFFSET UNITYSDK_OFFSET(0xE3F8740)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_MINUTE_OFFSET UNITYSDK_OFFSET(0xE3F8750)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_SECOND_OFFSET UNITYSDK_OFFSET(0xE3F8760)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBBA8A0)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBBA870)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_DAY_OFFSET UNITYSDK_OFFSET(0x1DBBA830)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_HOUR_OFFSET UNITYSDK_OFFSET(0x1DBBA840)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_MINUTE_OFFSET UNITYSDK_OFFSET(0x1DBBA850)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_SECOND_OFFSET UNITYSDK_OFFSET(0x1DBBA860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UITextUtils_RemainTimeUnitTextPalette_TypeDefinitionIndex = 73183;
+	inline static constexpr unsigned int UITextUtils_RemainTimeUnitTextPalette_TypeDefinitionIndex = 75297;
 
 	class UITextUtils_RemainTimeUnitTextPalette : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID _Minute_k__BackingField; // 0x10
+		::RPG::Client::TextID _Second_k__BackingField; // 0x10
 		::RPG::Client::TextID _Hour_k__BackingField; // 0x20
 		::RPG::Client::TextID _Day_k__BackingField; // 0x30
-		::RPG::Client::TextID _Second_k__BackingField; // 0x40
+		::RPG::Client::TextID _Minute_k__BackingField; // 0x40
 		static ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette** StaticGet_FullName()
 		{
-			return (::RPG::Client::UITextUtils_RemainTimeUnitTextPalette**)UnitySDK::FromName("RPG.Client", "RemainTimeUnitTextPalette")->GetStaticField(0x36070);
+			return (::RPG::Client::UITextUtils_RemainTimeUnitTextPalette**)UnitySDK::FromName("RPG.Client", "RemainTimeUnitTextPalette")->GetStaticField(0x54360);
 		}
 
 		::System::Void _ctor(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::RPG::Client::TextID a3, ::RPG::Client::TextID a4)

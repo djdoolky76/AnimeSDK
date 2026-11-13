@@ -4,18 +4,18 @@
 class FBGAKELNFDP;
 namespace System { class Object; }
 
-#define FBGAKELNFDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E307D80)
-#define FBGAKELNFDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E307DC0)
-#define FBGAKELNFDP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E307DD0)
+#define FBGAKELNFDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F894380)
+#define FBGAKELNFDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8943C0)
+#define FBGAKELNFDP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F8943D0)
 
-inline static constexpr unsigned int FBGAKELNFDP___c_TypeDefinitionIndex = 29780;
+inline static constexpr unsigned int FBGAKELNFDP___c_TypeDefinitionIndex = 30678;
 
 	class FBGAKELNFDP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41240);
 		}
 
 		static ::System::Void _cctor()

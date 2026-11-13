@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FCFMMAEAFCH_TypeDefinitionIndex = 73804;
+inline static constexpr unsigned int FCFMMAEAFCH_TypeDefinitionIndex = 75930;
 
 	class FCFMMAEAFCH
 	{

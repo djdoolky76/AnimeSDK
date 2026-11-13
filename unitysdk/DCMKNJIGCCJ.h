@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckColonyTrace; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DCMKNJIGCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE24A0A0)
-#define DCMKNJIGCCJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE24A0D0)
+#define DCMKNJIGCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17723000)
+#define DCMKNJIGCCJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17723030)
 
-inline static constexpr unsigned int DCMKNJIGCCJ_TypeDefinitionIndex = 53129;
+inline static constexpr unsigned int DCMKNJIGCCJ_TypeDefinitionIndex = 54291;
 
 	class DCMKNJIGCCJ
 	{

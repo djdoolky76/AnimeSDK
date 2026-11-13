@@ -4,10 +4,10 @@
 class DMGNMNNDEDE;
 namespace System { class String; }
 
-#define DMGNMNNDEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB9DB0)
-#define DMGNMNNDEDE_EQUALS_OFFSET UNITYSDK_OFFSET(0xFEB9D20)
+#define DMGNMNNDEDE_CTOR_OFFSET UNITYSDK_OFFSET(0x18697DD0)
+#define DMGNMNNDEDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x18697D40)
 
-inline static constexpr unsigned int DMGNMNNDEDE_TypeDefinitionIndex = 66129;
+inline static constexpr unsigned int DMGNMNNDEDE_TypeDefinitionIndex = 68062;
 
 	class DMGNMNNDEDE : public ::System::Object
 	{

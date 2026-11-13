@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtBattleTriggerCameraAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PIKGMPJELBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC265F90)
-#define PIKGMPJELBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC265FC0)
+#define PIKGMPJELBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D2500)
+#define PIKGMPJELBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9D2530)
 
-inline static constexpr unsigned int PIKGMPJELBI_TypeDefinitionIndex = 54157;
+inline static constexpr unsigned int PIKGMPJELBI_TypeDefinitionIndex = 55321;
 
 	class PIKGMPJELBI
 	{

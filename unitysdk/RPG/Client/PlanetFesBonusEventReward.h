@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PlanetFesReward; }
 
-#define RPG_CLIENT_PLANETFESBONUSEVENTREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDB7D9F0)
+#define RPG_CLIENT_PLANETFESBONUSEVENTREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D847B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesBonusEventReward_TypeDefinitionIndex = 66620;
+	inline static constexpr unsigned int PlanetFesBonusEventReward_TypeDefinitionIndex = 68556;
 
 	class PlanetFesBonusEventReward : public ::System::Object
 	{

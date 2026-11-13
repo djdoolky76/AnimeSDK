@@ -12,36 +12,36 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PEKCKMDIAFL_CCTOR_OFFSET UNITYSDK_OFFSET(0xC1EB110)
-#define PEKCKMDIAFL_CHECPMPFLKO_OFFSET UNITYSDK_OFFSET(0xC1EAC00)
-#define PEKCKMDIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0xC1EA450)
-#define PEKCKMDIAFL_EEJFPHJHDNC_OFFSET UNITYSDK_OFFSET(0xC1EAF60)
-#define PEKCKMDIAFL_ELKJKBMKPCI_OFFSET UNITYSDK_OFFSET(0xC1EA860)
-#define PEKCKMDIAFL_IDFKLDPGPGJ_OFFSET UNITYSDK_OFFSET(0xC1EA700)
-#define PEKCKMDIAFL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC1EA780)
-#define PEKCKMDIAFL_LLOBGPDAPMO_OFFSET UNITYSDK_OFFSET(0xC1EA440)
-#define PEKCKMDIAFL_LPGEDMCDNKB_OFFSET UNITYSDK_OFFSET(0xC1EAFF0)
-#define PEKCKMDIAFL_MHDNLFCBJNL_OFFSET UNITYSDK_OFFSET(0xC1EB090)
-#define PEKCKMDIAFL_NBDLMJNCBHB_OFFSET UNITYSDK_OFFSET(0xC1EAA30)
+#define PEKCKMDIAFL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1453F6B0)
+#define PEKCKMDIAFL_CHECPMPFLKO_OFFSET UNITYSDK_OFFSET(0x1453F1A0)
+#define PEKCKMDIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1453E9F0)
+#define PEKCKMDIAFL_EEJFPHJHDNC_OFFSET UNITYSDK_OFFSET(0x1453F500)
+#define PEKCKMDIAFL_ELKJKBMKPCI_OFFSET UNITYSDK_OFFSET(0x1453EE00)
+#define PEKCKMDIAFL_IDFKLDPGPGJ_OFFSET UNITYSDK_OFFSET(0x1453ECA0)
+#define PEKCKMDIAFL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1453ED20)
+#define PEKCKMDIAFL_LLOBGPDAPMO_OFFSET UNITYSDK_OFFSET(0x1453E9E0)
+#define PEKCKMDIAFL_LPGEDMCDNKB_OFFSET UNITYSDK_OFFSET(0x1453F590)
+#define PEKCKMDIAFL_MHDNLFCBJNL_OFFSET UNITYSDK_OFFSET(0x1453F630)
+#define PEKCKMDIAFL_NBDLMJNCBHB_OFFSET UNITYSDK_OFFSET(0x1453EFD0)
 
-inline static constexpr unsigned int PEKCKMDIAFL_TypeDefinitionIndex = 69794;
+inline static constexpr unsigned int PEKCKMDIAFL_TypeDefinitionIndex = 71753;
 
 	class PEKCKMDIAFL : public ::System::Object
 	{
 	public:
-		::VisibilityConfig* IBPEICLMMIP; // 0x10
-		::System::Collections::Generic::List_1<::JMOPOJEECEL*>* PEGDCBNJFHB; // 0x18
-		::System::String* LGFPILJBFGB; // 0x20
-		::SolarSystemData* JHEBNGOMJMA; // 0x28
-		::System::Collections::Generic::Dictionary_2<::CelestialBodyType, ::JMOPOJEECEL*>* KBPCEOGIIFK; // 0x30
-		::System::Single HHKFNGHKIJI; // 0x38
+		::System::String* LGFPILJBFGB; // 0x10
+		::System::Collections::Generic::Dictionary_2<::CelestialBodyType, ::JMOPOJEECEL*>* KBPCEOGIIFK; // 0x18
+		::SolarSystemData* JHEBNGOMJMA; // 0x20
+		::System::Collections::Generic::List_1<::JMOPOJEECEL*>* PEGDCBNJFHB; // 0x28
+		::VisibilityConfig* IBPEICLMMIP; // 0x30
+		::System::Single OLOPGACLCLO; // 0x38
 		::System::Int32 IINFJDLEBOB; // 0x3C
 		::System::Single MGHKIPANBID; // 0x40
-		::System::Single KJGPBILGDHK; // 0x44
-		::System::Single OLOPGACLCLO; // 0x48
+		::System::Single HHKFNGHKIJI; // 0x44
+		::System::Single KJGPBILGDHK; // 0x48
 		static ::System::Collections::Generic::List_1<::CelestialBodyType>** StaticGet_KMJABMECNPF()
 		{
-			return (::System::Collections::Generic::List_1<::CelestialBodyType>**)UnitySDK::FromName("", "PEKCKMDIAFL")->GetStaticField(0x6F5F0);
+			return (::System::Collections::Generic::List_1<::CelestialBodyType>**)UnitySDK::FromName("", "PEKCKMDIAFL")->GetStaticField(0x73150);
 		}
 
 		::System::Void _ctor(::RPG::Client::SolarSystemConfig* a1)

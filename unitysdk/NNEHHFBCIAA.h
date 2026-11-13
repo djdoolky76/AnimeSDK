@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_ByCompareVariableBool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNEHHFBCIAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9A760)
-#define NNEHHFBCIAA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC9A790)
+#define NNEHHFBCIAA_CTOR_OFFSET UNITYSDK_OFFSET(0x179DC690)
+#define NNEHHFBCIAA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x179DC6C0)
 
-inline static constexpr unsigned int NNEHHFBCIAA_TypeDefinitionIndex = 52093;
+inline static constexpr unsigned int NNEHHFBCIAA_TypeDefinitionIndex = 53198;
 
 	class NNEHHFBCIAA
 	{

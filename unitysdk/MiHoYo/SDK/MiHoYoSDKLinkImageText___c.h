@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::UI { class Image; }
 
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFD22E0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD2320)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT___C__UPDATEQUADIMAGE_B__13_0_OFFSET UNITYSDK_OFFSET(0xAFD2330)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3064D0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E306510)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT___C__UPDATEQUADIMAGE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1E306520)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLinkImageText___c_TypeDefinitionIndex = 46458;
+	inline static constexpr unsigned int MiHoYoSDKLinkImageText___c_TypeDefinitionIndex = 47486;
 
 	class MiHoYoSDKLinkImageText___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2ACA0);
-		}
-
 		static ::System::Predicate_1<::UnityEngine::UI::Image*>** StaticGet___9__13_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::UI::Image*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2ACA8);
+			return (::System::Predicate_1<::UnityEngine::UI::Image*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EC50);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EC58);
 		}
 
 		static ::System::Void _cctor()

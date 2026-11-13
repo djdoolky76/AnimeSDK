@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ModifierBehaviorFlagEventConfig; }
 namespace RPG::GameCore { class ModifierBehaviorFlagEventConfigList; }
 
-#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85EDF0)
-#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D85ED30)
+#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F1360)
+#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6F12A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBehaviorFlagEventConfigList_TypeDefinitionIndex = 17110;
+	inline static constexpr unsigned int ModifierBehaviorFlagEventConfigList_TypeDefinitionIndex = 17277;
 
 	class ModifierBehaviorFlagEventConfigList : public ::RPG::GameCore::JsonConfig
 	{

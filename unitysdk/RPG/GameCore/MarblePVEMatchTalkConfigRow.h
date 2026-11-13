@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarblePVEMatchTalkConfigRow; }
 
-#define RPG_GAMECORE_MARBLEPVEMATCHTALKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8153F0)
-#define RPG_GAMECORE_MARBLEPVEMATCHTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D815270)
+#define RPG_GAMECORE_MARBLEPVEMATCHTALKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB49860)
+#define RPG_GAMECORE_MARBLEPVEMATCHTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB496E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarblePVEMatchTalkConfigRow_TypeDefinitionIndex = 11859;
+	inline static constexpr unsigned int MarblePVEMatchTalkConfigRow_TypeDefinitionIndex = 11916;
 
 	class MarblePVEMatchTalkConfigRow : public ::System::Object
 	{

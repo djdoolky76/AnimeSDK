@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KAPEMBCNNIG;
 
-#define BBIJJEDBMDL_ABNMKAPKMGF_OFFSET UNITYSDK_OFFSET(0x15E809F0)
+#define BBIJJEDBMDL_ABNMKAPKMGF_OFFSET UNITYSDK_OFFSET(0x199F9680)
 
-inline static constexpr unsigned int BBIJJEDBMDL_TypeDefinitionIndex = 71579;
+inline static constexpr unsigned int BBIJJEDBMDL_TypeDefinitionIndex = 73566;
 
 	class BBIJJEDBMDL : public ::System::Object
 	{

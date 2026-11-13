@@ -5,10 +5,10 @@
 class IOMEMIEAPJO;
 namespace RPG::Client { class IRogueMiracleInfo; }
 
-#define BCFMCBANBOG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E996F0)
-#define BCFMCBANBOG_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x15E99700)
+#define BCFMCBANBOG_CTOR_OFFSET UNITYSDK_OFFSET(0x19D743C0)
+#define BCFMCBANBOG_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x19D743D0)
 
-inline static constexpr unsigned int BCFMCBANBOG_TypeDefinitionIndex = 67092;
+inline static constexpr unsigned int BCFMCBANBOG_TypeDefinitionIndex = 69036;
 
 	class BCFMCBANBOG : public ::DOLNICOMJJM
 	{

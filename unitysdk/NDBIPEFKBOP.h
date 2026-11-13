@@ -7,21 +7,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define NDBIPEFKBOP_BFLENEMBIBM_OFFSET UNITYSDK_OFFSET(0xBB19630)
-#define NDBIPEFKBOP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB19250)
-#define NDBIPEFKBOP_EACDPDDBFFN_OFFSET UNITYSDK_OFFSET(0xBB195A0)
-#define NDBIPEFKBOP_FLFNCOOPJFB_OFFSET UNITYSDK_OFFSET(0xBB198D0)
-#define NDBIPEFKBOP_HABGKBDIJOG_OFFSET UNITYSDK_OFFSET(0xBB19C00)
-#define NDBIPEFKBOP_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBB19E40)
-#define NDBIPEFKBOP_OHONOHHMOMB_OFFSET UNITYSDK_OFFSET(0xBB193A0)
+#define NDBIPEFKBOP_BFLENEMBIBM_OFFSET UNITYSDK_OFFSET(0x1510CFC0)
+#define NDBIPEFKBOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1510CBE0)
+#define NDBIPEFKBOP_EACDPDDBFFN_OFFSET UNITYSDK_OFFSET(0x1510CF30)
+#define NDBIPEFKBOP_FLFNCOOPJFB_OFFSET UNITYSDK_OFFSET(0x1510D260)
+#define NDBIPEFKBOP_HABGKBDIJOG_OFFSET UNITYSDK_OFFSET(0x1510D590)
+#define NDBIPEFKBOP_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1510D7A0)
+#define NDBIPEFKBOP_OHONOHHMOMB_OFFSET UNITYSDK_OFFSET(0x1510CD30)
 
-inline static constexpr unsigned int NDBIPEFKBOP_TypeDefinitionIndex = 59675;
+inline static constexpr unsigned int NDBIPEFKBOP_TypeDefinitionIndex = 60952;
 
 	class NDBIPEFKBOP : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::String*>* NPOCGAAKACB; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* BDNBPNJJICG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* BDNBPNJJICG; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::String*>* NPOCGAAKACB; // 0x18
 		::System::Boolean CMGBCHMFAFF; // 0x20
 		::System::Void _ctor()
 		{

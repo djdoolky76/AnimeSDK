@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOPOLYTELEPORTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD8A54A0)
-#define RPG_CLIENT_MONOPOLYTELEPORTINFO_GET_CELLID_OFFSET UNITYSDK_OFFSET(0xD8A5460)
-#define RPG_CLIENT_MONOPOLYTELEPORTINFO_GET_MAPID_OFFSET UNITYSDK_OFFSET(0xD8A5480)
-#define RPG_CLIENT_MONOPOLYTELEPORTINFO_SET_CELLID_OFFSET UNITYSDK_OFFSET(0xD8A5470)
-#define RPG_CLIENT_MONOPOLYTELEPORTINFO_SET_MAPID_OFFSET UNITYSDK_OFFSET(0xD8A5490)
+#define RPG_CLIENT_MONOPOLYTELEPORTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D812FD0)
+#define RPG_CLIENT_MONOPOLYTELEPORTINFO_GET_CELLID_OFFSET UNITYSDK_OFFSET(0x1D812F90)
+#define RPG_CLIENT_MONOPOLYTELEPORTINFO_GET_MAPID_OFFSET UNITYSDK_OFFSET(0x1D812FB0)
+#define RPG_CLIENT_MONOPOLYTELEPORTINFO_SET_CELLID_OFFSET UNITYSDK_OFFSET(0x1D812FA0)
+#define RPG_CLIENT_MONOPOLYTELEPORTINFO_SET_MAPID_OFFSET UNITYSDK_OFFSET(0x1D812FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyTeleportInfo_TypeDefinitionIndex = 66245;
+	inline static constexpr unsigned int MonopolyTeleportInfo_TypeDefinitionIndex = 68181;
 
 	class MonopolyTeleportInfo : public ::System::Object
 	{
 	public:
-		::System::UInt32 _CellID_k__BackingField; // 0x10
-		::System::UInt32 _MapID_k__BackingField; // 0x14
+		::System::UInt32 _MapID_k__BackingField; // 0x10
+		::System::UInt32 _CellID_k__BackingField; // 0x14
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYTELEPORTINFO_CTOR_OFFSET))(this, a1, a2);

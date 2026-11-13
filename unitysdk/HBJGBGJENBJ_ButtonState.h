@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HBJGBGJENBJ_ButtonState_TypeDefinitionIndex = 71631;
+inline static constexpr unsigned int HBJGBGJENBJ_ButtonState_TypeDefinitionIndex = 73619;
 
 	enum class HBJGBGJENBJ_ButtonState : ::System::Int32
 	{

@@ -5,12 +5,12 @@ class JNKPPLPLFOM;
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_CTOR_OFFSET UNITYSDK_OFFSET(0xE46B120)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE46B0A0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9B910)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0x1BC9B890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Die_TypeDefinitionIndex = 68711;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Die_TypeDefinitionIndex = 70663;
 
 	class WolfBroGunPlayTargetActionConfig_Die : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

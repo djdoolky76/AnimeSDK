@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int ChangeSource_TypeDefinitionIndex = 37091;
+	inline static constexpr unsigned int ChangeSource_TypeDefinitionIndex = 38019;
 
 	enum class ChangeSource : ::System::Int32
 	{

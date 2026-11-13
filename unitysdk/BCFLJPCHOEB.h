@@ -7,9 +7,9 @@ class INMMPMDELKE;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BCFLJPCHOEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C883980)
+#define BCFLJPCHOEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AE140)
 
-inline static constexpr unsigned int BCFLJPCHOEB_TypeDefinitionIndex = 43215;
+inline static constexpr unsigned int BCFLJPCHOEB_TypeDefinitionIndex = 44196;
 
 	class BCFLJPCHOEB : public ::System::Object
 	{

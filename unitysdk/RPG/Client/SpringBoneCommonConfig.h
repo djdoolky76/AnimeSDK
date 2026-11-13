@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE0F7DD0)
-#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_GET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0xE0F7DB0)
-#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_SET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0xE0F7DC0)
+#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B438330)
+#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_GET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x1B438310)
+#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_SET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x1B438320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpringBoneCommonConfig_TypeDefinitionIndex = 60062;
+	inline static constexpr unsigned int SpringBoneCommonConfig_TypeDefinitionIndex = 61346;
 
 	class SpringBoneCommonConfig : public ::UnityEngine::ScriptableObject
 	{

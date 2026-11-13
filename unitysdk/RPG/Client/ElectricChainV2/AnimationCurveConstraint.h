@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/ElectricChainV2/Constraint.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_ANIMATIONCURVECONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0xCD73450)
-#define RPG_CLIENT_ELECTRICCHAINV2_ANIMATIONCURVECONSTRAINT_PKGJKCHPMJF_OFFSET UNITYSDK_OFFSET(0xCD733D0)
+#define RPG_CLIENT_ELECTRICCHAINV2_ANIMATIONCURVECONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x189B8D70)
+#define RPG_CLIENT_ELECTRICCHAINV2_ANIMATIONCURVECONSTRAINT_PKGJKCHPMJF_OFFSET UNITYSDK_OFFSET(0x189B8CF0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int AnimationCurveConstraint_TypeDefinitionIndex = 73605;
+	inline static constexpr unsigned int AnimationCurveConstraint_TypeDefinitionIndex = 75728;
 
 	class AnimationCurveConstraint : public ::RPG::Client::ElectricChainV2::Constraint
 	{

@@ -5,11 +5,11 @@ class GMDKMIHKKOA;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GMDKMIHKKOA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15ABE910)
-#define GMDKMIHKKOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABE950)
-#define GMDKMIHKKOA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15ABE960)
+#define GMDKMIHKKOA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16C76FD0)
+#define GMDKMIHKKOA_CTOR_OFFSET UNITYSDK_OFFSET(0x16C77010)
+#define GMDKMIHKKOA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16C77020)
 
-inline static constexpr unsigned int GMDKMIHKKOA_TypeDefinitionIndex = 62560;
+inline static constexpr unsigned int GMDKMIHKKOA_TypeDefinitionIndex = 63973;
 
 	class GMDKMIHKKOA : public ::System::Object
 	{

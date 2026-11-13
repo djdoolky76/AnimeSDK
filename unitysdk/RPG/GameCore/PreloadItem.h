@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PreloadItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PRELOADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D912150)
-#define RPG_GAMECORE_PRELOADITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D912050)
+#define RPG_GAMECORE_PRELOADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7C350)
+#define RPG_GAMECORE_PRELOADITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF7C250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadItem_TypeDefinitionIndex = 16360;
+	inline static constexpr unsigned int PreloadItem_TypeDefinitionIndex = 16524;
 
 	class PreloadItem : public ::RPG::GameCore::JsonConfig
 	{

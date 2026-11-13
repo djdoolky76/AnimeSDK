@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CollectionsMarshal_FillCollection_1__GetEnumerator_d__13_TypeDefinitionIndex = 6084;
+	inline static constexpr unsigned int CollectionsMarshal_FillCollection_1__GetEnumerator_d__13_TypeDefinitionIndex = 6092;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class CollectionsMarshal_FillCollection_1__GetEnumerator_d__13 : public ::System::Object

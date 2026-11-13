@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueBySkillProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDBBBJBONPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB33F700)
-#define KDBBBJBONPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB33F7E0)
+#define KDBBBJBONPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4926C0)
+#define KDBBBJBONPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A4927A0)
 
-inline static constexpr unsigned int KDBBBJBONPD_TypeDefinitionIndex = 55467;
+inline static constexpr unsigned int KDBBBJBONPD_TypeDefinitionIndex = 56655;
 
 	class KDBBBJBONPD
 	{

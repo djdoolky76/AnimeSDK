@@ -4,18 +4,18 @@
 class MEGMIKNHDPO;
 namespace System { class Object; }
 
-#define MEGMIKNHDPO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9DE9C0)
-#define MEGMIKNHDPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9DEA00)
-#define MEGMIKNHDPO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9DEA10)
+#define MEGMIKNHDPO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB082F0)
+#define MEGMIKNHDPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB08330)
+#define MEGMIKNHDPO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FB08340)
 
-inline static constexpr unsigned int MEGMIKNHDPO___c_TypeDefinitionIndex = 31597;
+inline static constexpr unsigned int MEGMIKNHDPO___c_TypeDefinitionIndex = 32510;
 
 	class MEGMIKNHDPO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D3E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CEC0);
 		}
 
 		static ::System::Void _cctor()

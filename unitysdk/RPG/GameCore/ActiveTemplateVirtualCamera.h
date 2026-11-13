@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ActiveTemplateVirtualCamera; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31D370)
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31D380)
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31D330)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FA680)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4FA690)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4FA640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveTemplateVirtualCamera_TypeDefinitionIndex = 20827;
+	inline static constexpr unsigned int ActiveTemplateVirtualCamera_TypeDefinitionIndex = 21164;
 
 	class ActiveTemplateVirtualCamera : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyGridSpecialShowRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC040E0)
-#define RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC03FB0)
+#define RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DC8E0)
+#define RPG_GAMECORE_TRAINPARTYGRIDSPECIALSHOWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5DC7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyGridSpecialShowRow_TypeDefinitionIndex = 15311;
+	inline static constexpr unsigned int TrainPartyGridSpecialShowRow_TypeDefinitionIndex = 15467;
 
 	class TrainPartyGridSpecialShowRow : public ::System::Object
 	{

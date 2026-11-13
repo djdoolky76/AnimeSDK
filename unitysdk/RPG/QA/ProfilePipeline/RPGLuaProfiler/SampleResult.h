@@ -6,12 +6,12 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class SampleResult; }
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT_CCTOR_OFFSET UNITYSDK_OFFSET(0xE872640)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xE871B10)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA24600)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA23AF0)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 51826;
+	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 52912;
 
 	class SampleResult : public ::System::Object
 	{
@@ -29,7 +29,7 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 		::Il2CppArray<::RPG::QA::ProfilePipeline::RPGLuaProfiler::SampleResult*>* Children; // 0x48
 		static ::System::String** StaticGet_EMPTY()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.QA.ProfilePipeline.RPGLuaProfiler", "SampleResult")->GetStaticField(0x6F2D0);
+			return (::System::String**)UnitySDK::FromName("RPG.QA.ProfilePipeline.RPGLuaProfiler", "SampleResult")->GetStaticField(0x73750);
 		}
 
 		::System::Void _ctor(::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample* a1, ::System::Collections::Hashtable* a2)

@@ -5,55 +5,55 @@
 namespace Coffee::UIParticleInternal { class FastAction; }
 namespace System { class Action; }
 
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ADD_ONAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B3DE0)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ADD_ONBEFORECANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B7480)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ADD_ONLATEAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B5B60)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ADD_ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x166B7600)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_CCTOR_OFFSET UNITYSDK_OFFSET(0x166B7010)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_INITIALIZEAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B76F0)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_INITIALIZEONLOAD_OFFSET UNITYSDK_OFFSET(0x166B7890)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ONAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B7AD0)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ONBEFORECANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B7990)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_REMOVE_ONAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B7570)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_REMOVE_ONBEFORECANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B74E0)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_REMOVE_ONLATEAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x166B73F0)
-#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_REMOVE_ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x166B7660)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ADD_ONAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081A910)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ADD_ONBEFORECANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081DFB0)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ADD_ONLATEAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081C690)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ADD_ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x2081E130)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_CCTOR_OFFSET UNITYSDK_OFFSET(0x2081DB40)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_INITIALIZEAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081E220)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_INITIALIZEONLOAD_OFFSET UNITYSDK_OFFSET(0x2081E3C0)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ONAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081E600)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_ONBEFORECANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081E4C0)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_REMOVE_ONAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081E0A0)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_REMOVE_ONBEFORECANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081E010)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_REMOVE_ONLATEAFTERCANVASREBUILD_OFFSET UNITYSDK_OFFSET(0x2081DF20)
+#define COFFEE_UIPARTICLEINTERNAL_UIEXTRACALLBACKS_REMOVE_ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x2081E190)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int UIExtraCallbacks_TypeDefinitionIndex = 45144;
+	inline static constexpr unsigned int UIExtraCallbacks_TypeDefinitionIndex = 40857;
 
 	class UIExtraCallbacks : public ::System::Object
 	{
 	public:
-		static ::Coffee::UIParticleInternal::FastAction** StaticGet_s_LateAfterCanvasRebuildAction()
+		static ::Coffee::UIParticleInternal::FastAction** StaticGet_s_BeforeCanvasRebuildAction()
 		{
-			return (::Coffee::UIParticleInternal::FastAction**)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0x10F0);
-		}
-
-		static ::Coffee::UIParticleInternal::FastAction** StaticGet_s_OnScreenSizeChangedAction()
-		{
-			return (::Coffee::UIParticleInternal::FastAction**)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0x10F8);
+			return (::Coffee::UIParticleInternal::FastAction**)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0xC30);
 		}
 
 		static ::Coffee::UIParticleInternal::FastAction** StaticGet_s_AfterCanvasRebuildAction()
 		{
-			return (::Coffee::UIParticleInternal::FastAction**)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0x1100);
+			return (::Coffee::UIParticleInternal::FastAction**)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0xC38);
 		}
 
-		static ::Coffee::UIParticleInternal::FastAction** StaticGet_s_BeforeCanvasRebuildAction()
+		static ::Coffee::UIParticleInternal::FastAction** StaticGet_s_OnScreenSizeChangedAction()
 		{
-			return (::Coffee::UIParticleInternal::FastAction**)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0x1108);
+			return (::Coffee::UIParticleInternal::FastAction**)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0xC40);
 		}
 
-		static ::UnityEngine::Vector2Int* StaticGet_s_LastScreenSize()
+		static ::Coffee::UIParticleInternal::FastAction** StaticGet_s_LateAfterCanvasRebuildAction()
 		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0x6F0);
+			return (::Coffee::UIParticleInternal::FastAction**)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0xC48);
 		}
 
 		static ::System::Boolean* StaticGet_s_IsInitializedAfterCanvasRebuild()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0x6F8);
+			return (::System::Boolean*)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0x640);
+		}
+
+		static ::UnityEngine::Vector2Int* StaticGet_s_LastScreenSize()
+		{
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("Coffee.UIParticleInternal", "UIExtraCallbacks")->GetStaticField(0x644);
 		}
 
 		static ::System::Void _cctor()

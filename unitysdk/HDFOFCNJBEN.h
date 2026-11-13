@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define HDFOFCNJBEN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C266C0)
-#define HDFOFCNJBEN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C26670)
+#define HDFOFCNJBEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C7090)
+#define HDFOFCNJBEN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B7C7040)
 
-inline static constexpr unsigned int HDFOFCNJBEN_TypeDefinitionIndex = 57565;
+inline static constexpr unsigned int HDFOFCNJBEN_TypeDefinitionIndex = 58793;
 
 	class HDFOFCNJBEN : public ::RPG::GameCore::GameComponentBase
 	{

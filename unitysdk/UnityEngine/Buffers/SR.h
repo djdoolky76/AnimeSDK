@@ -5,27 +5,27 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Resources { class ResourceManager; }
 
-#define UNITYENGINE_BUFFERS_SR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A79B0)
-#define UNITYENGINE_BUFFERS_SR_GETRESOURCESTRING_OFFSET UNITYSDK_OFFSET(0x1F3A7820)
-#define UNITYENGINE_BUFFERS_SR_GET_ARGUMENTEXCEPTION_BUFFERNOTFROMPOOL_OFFSET UNITYSDK_OFFSET(0x1F3A77C0)
-#define UNITYENGINE_BUFFERS_SR_GET_RESOURCEMANAGER_OFFSET UNITYSDK_OFFSET(0x1F3A76A0)
-#define UNITYENGINE_BUFFERS_SR_GET_RESOURCETYPE_OFFSET UNITYSDK_OFFSET(0x1F3A7790)
+#define UNITYENGINE_BUFFERS_SR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9C85A0)
+#define UNITYENGINE_BUFFERS_SR_GETRESOURCESTRING_OFFSET UNITYSDK_OFFSET(0x1F9C8410)
+#define UNITYENGINE_BUFFERS_SR_GET_ARGUMENTEXCEPTION_BUFFERNOTFROMPOOL_OFFSET UNITYSDK_OFFSET(0x1F9C83B0)
+#define UNITYENGINE_BUFFERS_SR_GET_RESOURCEMANAGER_OFFSET UNITYSDK_OFFSET(0x1F9C8290)
+#define UNITYENGINE_BUFFERS_SR_GET_RESOURCETYPE_OFFSET UNITYSDK_OFFSET(0x1F9C8380)
 
 namespace UnityEngine::Buffers
 {
-	inline static constexpr unsigned int SR_TypeDefinitionIndex = 4949;
+	inline static constexpr unsigned int SR_TypeDefinitionIndex = 4954;
 
 	class SR : public ::System::Object
 	{
 	public:
 		static ::System::Type** StaticGet__ResourceType_k__BackingField()
 		{
-			return (::System::Type**)UnitySDK::FromName("UnityEngine.Buffers", "SR")->GetStaticField(0xEB40);
+			return (::System::Type**)UnitySDK::FromName("UnityEngine.Buffers", "SR")->GetStaticField(0xAF30);
 		}
 
 		static ::System::Resources::ResourceManager** StaticGet_s_resourceManager()
 		{
-			return (::System::Resources::ResourceManager**)UnitySDK::FromName("UnityEngine.Buffers", "SR")->GetStaticField(0xEB48);
+			return (::System::Resources::ResourceManager**)UnitySDK::FromName("UnityEngine.Buffers", "SR")->GetStaticField(0xAF38);
 		}
 
 		static ::System::Void _cctor()

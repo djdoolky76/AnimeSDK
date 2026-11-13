@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define DPKCEPGMAEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C520F00)
+#define DPKCEPGMAEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7840D0)
 
-inline static constexpr unsigned int DPKCEPGMAEP_TypeDefinitionIndex = 41732;
+inline static constexpr unsigned int DPKCEPGMAEP_TypeDefinitionIndex = 42707;
 
 	class DPKCEPGMAEP
 	{

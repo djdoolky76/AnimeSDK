@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define ENTITAS_MATCHEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1674DCD0)
+#define ENTITAS_MATCHEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x20854F60)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int MatcherException_TypeDefinitionIndex = 10044;
+	inline static constexpr unsigned int MatcherException_TypeDefinitionIndex = 10052;
 
 	class MatcherException : public ::System::Exception
 	{

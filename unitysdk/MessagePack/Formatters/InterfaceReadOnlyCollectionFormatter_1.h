@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int InterfaceReadOnlyCollectionFormatter_1_TypeDefinitionIndex = 7409;
+	inline static constexpr unsigned int InterfaceReadOnlyCollectionFormatter_1_TypeDefinitionIndex = 7420;
 
 	template <typename T>
 	class InterfaceReadOnlyCollectionFormatter_1

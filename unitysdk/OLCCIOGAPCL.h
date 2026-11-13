@@ -6,9 +6,9 @@ class FLKLJKIEEPM;
 class LEODIDNFCKO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OLCCIOGAPCL_LDKHGOAOLMI_OFFSET UNITYSDK_OFFSET(0x1C54CBC0)
+#define OLCCIOGAPCL_LDKHGOAOLMI_OFFSET UNITYSDK_OFFSET(0x207C4670)
 
-inline static constexpr unsigned int OLCCIOGAPCL_TypeDefinitionIndex = 41903;
+inline static constexpr unsigned int OLCCIOGAPCL_TypeDefinitionIndex = 42878;
 
 	class OLCCIOGAPCL : public ::System::Object
 	{

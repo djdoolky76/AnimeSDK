@@ -4,9 +4,9 @@
 class BJIACBNKCCJ;
 class IPNMGDFPLGL;
 
-#define HPMECOPBDBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC94F0)
+#define HPMECOPBDBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBDA30)
 
-inline static constexpr unsigned int HPMECOPBDBE_TypeDefinitionIndex = 42925;
+inline static constexpr unsigned int HPMECOPBDBE_TypeDefinitionIndex = 43906;
 
 	class HPMECOPBDBE : public ::System::Object
 	{

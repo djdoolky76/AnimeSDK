@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class MonopolyCreateWorld; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KMEKCONJMGB_CTOR_OFFSET UNITYSDK_OFFSET(0xB53F6C0)
-#define KMEKCONJMGB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB53F980)
-#define KMEKCONJMGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB53F6D0)
-#define KMEKCONJMGB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB53F930)
-#define KMEKCONJMGB_TICK_OFFSET UNITYSDK_OFFSET(0xB53F9C0)
+#define KMEKCONJMGB_CTOR_OFFSET UNITYSDK_OFFSET(0x17B9D140)
+#define KMEKCONJMGB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B9D410)
+#define KMEKCONJMGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B9D150)
+#define KMEKCONJMGB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17B9D3C0)
+#define KMEKCONJMGB_TICK_OFFSET UNITYSDK_OFFSET(0x17B9D450)
 
-inline static constexpr unsigned int KMEKCONJMGB_TypeDefinitionIndex = 58219;
+inline static constexpr unsigned int KMEKCONJMGB_TypeDefinitionIndex = 59475;
 
 	class KMEKCONJMGB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::MonopolyCreateWorld* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::MonopolyCreateWorld* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyCreateWorld* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MonopolyCreateWorld*))((::PBYTE)hIl2Cpp + KMEKCONJMGB_CTOR_OFFSET))(this, a1, a2);

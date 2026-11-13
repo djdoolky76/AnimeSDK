@@ -8,18 +8,18 @@ class NBIBJILIFIG_LJEGDMAPEPF;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NBIBJILIFIG_AANJLKKEGEC_2_OFFSET UNITYSDK_OFFSET(0x1C757780)
-#define NBIBJILIFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C757650)
-#define NBIBJILIFIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C7576F0)
-#define NBIBJILIFIG_IKAHNBNDHDL_OFFSET UNITYSDK_OFFSET(0x1C757900)
+#define NBIBJILIFIG_AANJLKKEGEC_2_OFFSET UNITYSDK_OFFSET(0x16098100)
+#define NBIBJILIFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x16097FD0)
+#define NBIBJILIFIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16098070)
+#define NBIBJILIFIG_IKAHNBNDHDL_OFFSET UNITYSDK_OFFSET(0x16098280)
 
-inline static constexpr unsigned int NBIBJILIFIG_TypeDefinitionIndex = 36954;
+inline static constexpr unsigned int NBIBJILIFIG_TypeDefinitionIndex = 37882;
 
 	class NBIBJILIFIG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* OGOIPAEFPLO; // 0x10
-		::NBIBJILIFIG_LJEGDMAPEPF* ECGHKJIBNME; // 0x18
+		::NBIBJILIFIG_LJEGDMAPEPF* ECGHKJIBNME; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* OGOIPAEFPLO; // 0x18
 		::System::Void _ctor(::NBIBJILIFIG_LJEGDMAPEPF* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NBIBJILIFIG_LJEGDMAPEPF*))((::PBYTE)hIl2Cpp + NBIBJILIFIG_CTOR_OFFSET))(this, a1);

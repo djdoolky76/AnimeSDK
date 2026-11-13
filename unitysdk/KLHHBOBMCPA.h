@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int KLHHBOBMCPA_TypeDefinitionIndex = 6246;
+inline static constexpr unsigned int KLHHBOBMCPA_TypeDefinitionIndex = 6253;
 
 	struct alignas(4) KLHHBOBMCPA
 	{

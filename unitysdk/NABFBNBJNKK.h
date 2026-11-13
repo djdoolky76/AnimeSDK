@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NABFBNBJNKK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4D190)
-#define NABFBNBJNKK_GET_CANFOCUS_OFFSET UNITYSDK_OFFSET(0xBA4D180)
-#define NABFBNBJNKK_GET_LABEL_OFFSET UNITYSDK_OFFSET(0xBA4D170)
+#define NABFBNBJNKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE3CA0)
+#define NABFBNBJNKK_GET_CANFOCUS_OFFSET UNITYSDK_OFFSET(0x1BAE3C90)
+#define NABFBNBJNKK_GET_LABEL_OFFSET UNITYSDK_OFFSET(0x1BAE3C80)
 
-inline static constexpr unsigned int NABFBNBJNKK_TypeDefinitionIndex = 73477;
+inline static constexpr unsigned int NABFBNBJNKK_TypeDefinitionIndex = 75600;
 
 	class NABFBNBJNKK : public ::System::Object
 	{

@@ -9,25 +9,24 @@ namespace RPG::GameCore { class LevelCrowdInfo; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IIPDNBINIMA_APPCBLHJNFK_OFFSET UNITYSDK_OFFSET(0x164484D0)
-#define IIPDNBINIMA_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x16448BC0)
-#define IIPDNBINIMA_CTOR_OFFSET UNITYSDK_OFFSET(0x164487B0)
-#define IIPDNBINIMA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x164484A0)
-#define IIPDNBINIMA_GET_ISROTATEREGIONGROUP_OFFSET UNITYSDK_OFFSET(0x164484B0)
-#define IIPDNBINIMA_LOFDOEHEEHE_OFFSET UNITYSDK_OFFSET(0x164484C0)
-#define IIPDNBINIMA_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0x16448CA0)
-#define IIPDNBINIMA_NLHCGMDBKCB_OFFSET UNITYSDK_OFFSET(0x16448B70)
+#define IIPDNBINIMA_APPCBLHJNFK_OFFSET UNITYSDK_OFFSET(0x193F8710)
+#define IIPDNBINIMA_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x193F8E10)
+#define IIPDNBINIMA_CTOR_OFFSET UNITYSDK_OFFSET(0x193F89F0)
+#define IIPDNBINIMA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x193F86E0)
+#define IIPDNBINIMA_GET_ISROTATEREGIONGROUP_OFFSET UNITYSDK_OFFSET(0x193F86F0)
+#define IIPDNBINIMA_LOFDOEHEEHE_OFFSET UNITYSDK_OFFSET(0x193F8700)
+#define IIPDNBINIMA_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0x193F8EF0)
+#define IIPDNBINIMA_NLHCGMDBKCB_OFFSET UNITYSDK_OFFSET(0x193F8DC0)
 
-inline static constexpr unsigned int IIPDNBINIMA_TypeDefinitionIndex = 69168;
+inline static constexpr unsigned int IIPDNBINIMA_TypeDefinitionIndex = 71121;
 
 	class IIPDNBINIMA : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::LevelCrowdInfo*>* NBEDFKHNIEK; // 0x10
 		::System::Collections::Generic::List_1<::FKLAILNGPHN*>* ALBHNCGIBDF; // 0x18
-		::System::Boolean _IsRotateRegionGroup_k__BackingField; // 0x20
-		::System::Byte _padding0[0x3];
-		::System::UInt32 _GroupID_k__BackingField; // 0x24
+		::System::UInt32 _GroupID_k__BackingField; // 0x20
+		::System::Boolean _IsRotateRegionGroup_k__BackingField; // 0x24
 		::System::Void _ctor(::RPG::GameCore::RuntimeGroupInfo* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RuntimeGroupInfo*))((::PBYTE)hIl2Cpp + IIPDNBINIMA_CTOR_OFFSET))(this, a1);

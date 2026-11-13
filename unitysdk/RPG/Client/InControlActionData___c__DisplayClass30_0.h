@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace InControl { class PlayerAction; }
 
-#define RPG_CLIENT_INCONTROLACTIONDATA___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD33B470)
-#define RPG_CLIENT_INCONTROLACTIONDATA___C__DISPLAYCLASS30_0__SWITCHDEFAULTSUBMITANDCANCEL_B__0_OFFSET UNITYSDK_OFFSET(0xD33D370)
+#define RPG_CLIENT_INCONTROLACTIONDATA___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x170631A0)
+#define RPG_CLIENT_INCONTROLACTIONDATA___C__DISPLAYCLASS30_0__SWITCHDEFAULTSUBMITANDCANCEL_B__0_OFFSET UNITYSDK_OFFSET(0x170650A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InControlActionData___c__DisplayClass30_0_TypeDefinitionIndex = 61296;
+	inline static constexpr unsigned int InControlActionData___c__DisplayClass30_0_TypeDefinitionIndex = 62681;
 
 	class InControlActionData___c__DisplayClass30_0 : public ::System::Object
 	{

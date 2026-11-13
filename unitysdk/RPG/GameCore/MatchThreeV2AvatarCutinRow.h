@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeV2AvatarCutinRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEV2AVATARCUTINROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82DC20)
-#define RPG_GAMECORE_MATCHTHREEV2AVATARCUTINROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82DA20)
+#define RPG_GAMECORE_MATCHTHREEV2AVATARCUTINROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB61F60)
+#define RPG_GAMECORE_MATCHTHREEV2AVATARCUTINROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB61D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2AvatarCutinRow_TypeDefinitionIndex = 11954;
+	inline static constexpr unsigned int MatchThreeV2AvatarCutinRow_TypeDefinitionIndex = 12011;
 
 	class MatchThreeV2AvatarCutinRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::RPG::Client::TextID TalkText; // 0x18
-		::System::UInt32 CutinID; // 0x28
-		::System::UInt32 MaxTriggerNum; // 0x2C
+		::System::UInt32 CutinID; // 0x18
+		::System::UInt32 MaxTriggerNum; // 0x1C
+		::RPG::Client::TextID TalkText; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2AVATARCUTINROW_CTOR_OFFSET))(this);

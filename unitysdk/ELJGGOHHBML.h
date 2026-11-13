@@ -7,29 +7,29 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define ELJGGOHHBML_CCTOR_OFFSET UNITYSDK_OFFSET(0x1551A780)
-#define ELJGGOHHBML_CTOR_OFFSET UNITYSDK_OFFSET(0x1551A770)
-#define ELJGGOHHBML_DFIJDDDDDBC_OFFSET UNITYSDK_OFFSET(0x1551A520)
-#define ELJGGOHHBML_OOAKPDFAKAC_OFFSET UNITYSDK_OFFSET(0x1551A3F0)
+#define ELJGGOHHBML_CCTOR_OFFSET UNITYSDK_OFFSET(0x199B0050)
+#define ELJGGOHHBML_CTOR_OFFSET UNITYSDK_OFFSET(0x199B0040)
+#define ELJGGOHHBML_DFIJDDDDDBC_OFFSET UNITYSDK_OFFSET(0x199AFDF0)
+#define ELJGGOHHBML_OOAKPDFAKAC_OFFSET UNITYSDK_OFFSET(0x199AFCC0)
 
-inline static constexpr unsigned int ELJGGOHHBML_TypeDefinitionIndex = 69836;
+inline static constexpr unsigned int ELJGGOHHBML_TypeDefinitionIndex = 71795;
 
 	class ELJGGOHHBML : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_FGAMNKMFEAL()
+		static ::UnityEngine::MaterialPropertyBlock** StaticGet_IAKNMACGKNP()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xDED0);
+			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xD2D0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>** StaticGet_BGPAHCAKLHB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xDED8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xD2D8);
 		}
 
-		static ::UnityEngine::MaterialPropertyBlock** StaticGet_IAKNMACGKNP()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_FGAMNKMFEAL()
 		{
-			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xDEE0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xD2E0);
 		}
 
 		// static const ::System::Object HHPJHACLDEH; // 0x0

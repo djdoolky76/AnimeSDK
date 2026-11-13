@@ -8,31 +8,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_PAYMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF47AC0)
-#define MIHOYO_SDK_PS_PAYMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF47B00)
-#define MIHOYO_SDK_PS_PAYMANAGER___C__CHECKPSPAY_B__17_1_OFFSET UNITYSDK_OFFSET(0x1BF47B30)
-#define MIHOYO_SDK_PS_PAYMANAGER___C__REFRESHPRODUCTCACHE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1BF47B10)
+#define MIHOYO_SDK_PS_PAYMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFC4060)
+#define MIHOYO_SDK_PS_PAYMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC40A0)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__CHECKPSPAY_B__17_1_OFFSET UNITYSDK_OFFSET(0x1AF59850)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__REFRESHPRODUCTCACHE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1AF59830)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PayManager___c_TypeDefinitionIndex = 8915;
+	inline static constexpr unsigned int PayManager___c_TypeDefinitionIndex = 8924;
 
 	class PayManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Object*, ::MiHoYo::SDK::Console::ConsoleProduct>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::System::Object*, ::MiHoYo::SDK::Console::ConsoleProduct>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x21000);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x21008);
+			return (::System::Func_2<::System::Object*, ::MiHoYo::SDK::Console::ConsoleProduct>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18790);
 		}
 
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__17_1()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x21010);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18798);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x187A0);
 		}
 
 		static ::System::Void _cctor()

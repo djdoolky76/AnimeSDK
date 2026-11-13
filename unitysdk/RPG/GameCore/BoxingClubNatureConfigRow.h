@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BoxingClubNatureConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOXINGCLUBNATURECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D44FC70)
-#define RPG_GAMECORE_BOXINGCLUBNATURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D44F5A0)
+#define RPG_GAMECORE_BOXINGCLUBNATURECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF56740)
+#define RPG_GAMECORE_BOXINGCLUBNATURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DF56070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubNatureConfigRow_TypeDefinitionIndex = 12926;
+	inline static constexpr unsigned int BoxingClubNatureConfigRow_TypeDefinitionIndex = 12998;
 
 	class BoxingClubNatureConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* BoxingBuffBackground; // 0x10
-		::System::String* BoxingBuffIconBackground; // 0x18
-		::System::String* BoxingBuffIcon; // 0x20
+		::System::String* BoxingBuffIcon; // 0x18
+		::System::String* BoxingBuffIconBackground; // 0x20
 		::System::String* NatureIconBackGround; // 0x28
 		::RPG::GameCore::AttackDamageType BoxingClubNatureType; // 0x30
 		::System::Void _ctor()

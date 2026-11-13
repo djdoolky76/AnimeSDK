@@ -12,34 +12,34 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::IO { class FileInfo; }
 
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1B050)
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xBD1B4E0)
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xBD1C7A0)
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xBD1C730)
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xBD1C800)
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xBD1C790)
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBD1C740)
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD1B390)
-#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBD1B3E0)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB5D0F0)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1AB5D580)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AB5E840)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1AB5E7D0)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AB5E8A0)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1AB5E830)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1AB5E7E0)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AB5D430)
+#define OAHKEMMHANM__GETNEEDCLEARFILES_D__30___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1AB5D480)
 
-inline static constexpr unsigned int OAHKEMMHANM__GetNeedClearFiles_d__30_TypeDefinitionIndex = 59479;
+inline static constexpr unsigned int OAHKEMMHANM__GetNeedClearFiles_d__30_TypeDefinitionIndex = 60756;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30>
 	class OAHKEMMHANM__GetNeedClearFiles_d__30 : public ::System::Object
 	{
 	public:
-		::AGNDLIOMDIG* _indexInfo_5__2; // 0x10
-		::System::Tuple_2<::System::String*, ::System::Boolean>* __2__current; // 0x18
-		::OAHKEMMHANM* __4__this; // 0x20
-		::System::IO::FileInfo* _fileInfo_5__6; // 0x28
-		::AGNDLIOMDIG* _indexStream_5__3; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _hashFilePathMaps_5__4; // 0x38
-		::RPG::Client::VideoBundleInfoItem* _video_5__7; // 0x40
-		::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap4; // 0x48
-		::System::Int32 __l__initialThreadId; // 0x50
-		::System::Boolean usePersistIndex; // 0x54
-		::System::Boolean __3__usePersistIndex; // 0x55
+		::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap4; // 0x10
+		::OAHKEMMHANM* __4__this; // 0x18
+		::RPG::Client::VideoBundleInfoItem* _video_5__7; // 0x20
+		::AGNDLIOMDIG* _indexInfo_5__2; // 0x28
+		::System::Tuple_2<::System::String*, ::System::Boolean>* __2__current; // 0x30
+		::AGNDLIOMDIG* _indexStream_5__3; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _hashFilePathMaps_5__4; // 0x40
+		::System::IO::FileInfo* _fileInfo_5__6; // 0x48
+		::System::Boolean __3__usePersistIndex; // 0x50
+		::System::Boolean usePersistIndex; // 0x51
 		::System::Byte _padding0[0x2];
+		::System::Int32 __l__initialThreadId; // 0x54
 		::System::Int32 __1__state; // 0x58
 		::System::Void _ctor(::System::Int32 a1)
 		{

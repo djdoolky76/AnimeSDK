@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChimePuzzleDimAllBoard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFBGKLLCGEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16631740)
-#define JFBGKLLCGEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16631770)
+#define JFBGKLLCGEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19327E00)
+#define JFBGKLLCGEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19327E30)
 
-inline static constexpr unsigned int JFBGKLLCGEJ_TypeDefinitionIndex = 58018;
+inline static constexpr unsigned int JFBGKLLCGEJ_TypeDefinitionIndex = 59257;
 
 	class JFBGKLLCGEJ
 	{

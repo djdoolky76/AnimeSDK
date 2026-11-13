@@ -4,18 +4,18 @@
 class DLAJEPIPOMO;
 namespace System { class Object; }
 
-#define DLAJEPIPOMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1AF840)
-#define DLAJEPIPOMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1AF880)
-#define DLAJEPIPOMO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1AF890)
+#define DLAJEPIPOMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB43D40)
+#define DLAJEPIPOMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB43D80)
+#define DLAJEPIPOMO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB43D90)
 
-inline static constexpr unsigned int DLAJEPIPOMO___c_TypeDefinitionIndex = 34681;
+inline static constexpr unsigned int DLAJEPIPOMO___c_TypeDefinitionIndex = 35609;
 
 	class DLAJEPIPOMO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34720);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E1F0);
 		}
 
 		static ::System::Void _cctor()

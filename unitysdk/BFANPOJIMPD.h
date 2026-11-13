@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTurnOwnerHasPendingOneMore; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BFANPOJIMPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB15C480)
-#define BFANPOJIMPD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB15C4B0)
+#define BFANPOJIMPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A951FA0)
+#define BFANPOJIMPD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A951FD0)
 
-inline static constexpr unsigned int BFANPOJIMPD_TypeDefinitionIndex = 54730;
+inline static constexpr unsigned int BFANPOJIMPD_TypeDefinitionIndex = 55897;
 
 	class BFANPOJIMPD
 	{

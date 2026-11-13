@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCLayerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCLAYERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D995330)
-#define RPG_GAMECORE_ROGUEDLCLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D994C10)
+#define RPG_GAMECORE_ROGUEDLCLAYERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57B230)
+#define RPG_GAMECORE_ROGUEDLCLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F57AB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCLayerRow_TypeDefinitionIndex = 14768;
+	inline static constexpr unsigned int RogueDLCLayerRow_TypeDefinitionIndex = 14924;
 
 	class RogueDLCLayerRow : public ::System::Object
 	{

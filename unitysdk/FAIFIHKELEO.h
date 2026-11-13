@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class StackWeakResistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FAIFIHKELEO_CTOR_OFFSET UNITYSDK_OFFSET(0x15670480)
-#define FAIFIHKELEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156704B0)
-#define FAIFIHKELEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15670550)
-#define FAIFIHKELEO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15670920)
-#define FAIFIHKELEO_TICK_OFFSET UNITYSDK_OFFSET(0x156704F0)
+#define FAIFIHKELEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA28320)
+#define FAIFIHKELEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BA28350)
+#define FAIFIHKELEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BA283F0)
+#define FAIFIHKELEO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BA287C0)
+#define FAIFIHKELEO_TICK_OFFSET UNITYSDK_OFFSET(0x1BA28390)
 
-inline static constexpr unsigned int FAIFIHKELEO_TypeDefinitionIndex = 55655;
+inline static constexpr unsigned int FAIFIHKELEO_TypeDefinitionIndex = 56853;
 
 	class FAIFIHKELEO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::StackWeakResistance* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::StackWeakResistance* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackWeakResistance* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StackWeakResistance*))((::PBYTE)hIl2Cpp + FAIFIHKELEO_CTOR_OFFSET))(this, a1, a2);

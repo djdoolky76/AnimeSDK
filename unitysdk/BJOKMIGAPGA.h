@@ -5,10 +5,10 @@ class AEKEIBNBMDJ;
 namespace System { class Object; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define BJOKMIGAPGA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A5DE0)
-#define BJOKMIGAPGA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB7A5D80)
+#define BJOKMIGAPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A63F4D0)
+#define BJOKMIGAPGA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x1A63F470)
 
-inline static constexpr unsigned int BJOKMIGAPGA_TypeDefinitionIndex = 49548;
+inline static constexpr unsigned int BJOKMIGAPGA_TypeDefinitionIndex = 50624;
 
 	class BJOKMIGAPGA : public ::System::Object
 	{

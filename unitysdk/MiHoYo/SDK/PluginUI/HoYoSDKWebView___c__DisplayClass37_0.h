@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK { class MiHoYoSDKWebView; }
 namespace MiHoYo::SDK::PluginUI { class HoYoSDKWebView_CookieInfo; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB027AE0)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW___C__DISPLAYCLASS37_0__SETCOOKIES_B__0_OFFSET UNITYSDK_OFFSET(0xB027C90)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF741D0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW___C__DISPLAYCLASS37_0__SETCOOKIES_B__0_OFFSET UNITYSDK_OFFSET(0x1BF74380)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKWebView___c__DisplayClass37_0_TypeDefinitionIndex = 46780;
+	inline static constexpr unsigned int HoYoSDKWebView___c__DisplayClass37_0_TypeDefinitionIndex = 47808;
 
 	class HoYoSDKWebView___c__DisplayClass37_0 : public ::System::Object
 	{

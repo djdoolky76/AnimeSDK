@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerBlendShapesEmotion; }
 
-#define OOGEHPFDKOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF74F80)
-#define OOGEHPFDKOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF74FB0)
+#define OOGEHPFDKOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1969C1A0)
+#define OOGEHPFDKOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1969C1D0)
 
-inline static constexpr unsigned int OOGEHPFDKOI_TypeDefinitionIndex = 55904;
+inline static constexpr unsigned int OOGEHPFDKOI_TypeDefinitionIndex = 57107;
 
 	class OOGEHPFDKOI
 	{

@@ -4,9 +4,9 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define DFKPNOPBCAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F9EE0)
+#define DFKPNOPBCAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2C1D0)
 
-inline static constexpr unsigned int DFKPNOPBCAH_TypeDefinitionIndex = 43188;
+inline static constexpr unsigned int DFKPNOPBCAH_TypeDefinitionIndex = 44169;
 
 	class DFKPNOPBCAH : public ::System::Object
 	{

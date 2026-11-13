@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchMonsterByID; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NBEIALMIGNF_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB8720)
-#define NBEIALMIGNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBAB8770)
+#define NBEIALMIGNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB12380)
+#define NBEIALMIGNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BB123D0)
 
-inline static constexpr unsigned int NBEIALMIGNF_TypeDefinitionIndex = 59235;
+inline static constexpr unsigned int NBEIALMIGNF_TypeDefinitionIndex = 60512;
 
 	class NBEIALMIGNF
 	{

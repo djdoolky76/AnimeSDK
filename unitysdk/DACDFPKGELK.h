@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 class LEEEMFAEDLN;
 
-#define DACDFPKGELK_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
-#define DACDFPKGELK_GET_MOTION_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define DACDFPKGELK_CTOR_OFFSET UNITYSDK_OFFSET(0x6C8D40)
+#define DACDFPKGELK_GET_MOTION_OFFSET UNITYSDK_OFFSET(0x6C8DB0)
 
-inline static constexpr unsigned int DACDFPKGELK_TypeDefinitionIndex = 80645;
+inline static constexpr unsigned int DACDFPKGELK_TypeDefinitionIndex = 83425;
 
 	struct alignas(8) DACDFPKGELK
 	{

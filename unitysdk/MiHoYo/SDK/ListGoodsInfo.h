@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_LISTGOODSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6BEE0)
+#define MIHOYO_SDK_LISTGOODSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C323B20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ListGoodsInfo_TypeDefinitionIndex = 7591;
+	inline static constexpr unsigned int ListGoodsInfo_TypeDefinitionIndex = 7600;
 
 	class ListGoodsInfo : public ::System::Object
 	{

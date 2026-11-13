@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define BEABFKCFPNC_CCTOR_OFFSET UNITYSDK_OFFSET(0x162FADF0)
-#define BEABFKCFPNC_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x2E81EC0)
+#define BEABFKCFPNC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A928FF0)
+#define BEABFKCFPNC_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x3E643B0)
 
-inline static constexpr unsigned int BEABFKCFPNC_TypeDefinitionIndex = 57712;
+inline static constexpr unsigned int BEABFKCFPNC_TypeDefinitionIndex = 58945;
 
 	struct alignas(4) BEABFKCFPNC
 	{
@@ -12,7 +12,7 @@ inline static constexpr unsigned int BEABFKCFPNC_TypeDefinitionIndex = 57712;
 		::System::Int32 BOPJHFLNBKL; // 0x14
 		static ::BEABFKCFPNC* StaticGet_OJPLDOMGBHI()
 		{
-			return (::BEABFKCFPNC*)UnitySDK::FromName("", "BEABFKCFPNC")->GetStaticField(0x7F40);
+			return (::BEABFKCFPNC*)UnitySDK::FromName("", "BEABFKCFPNC")->GetStaticField(0x5AE0);
 		}
 
 		static ::System::Void _cctor()

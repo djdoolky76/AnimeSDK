@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SkillMaxHitConfigList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERSKILLSTATISTICCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54B750)
-#define RPG_GAMECORE_CHARACTERSKILLSTATISTICCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D54B670)
+#define RPG_GAMECORE_CHARACTERSKILLSTATISTICCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F34CCE0)
+#define RPG_GAMECORE_CHARACTERSKILLSTATISTICCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F34CC00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSkillStatisticConfig_TypeDefinitionIndex = 16531;
+	inline static constexpr unsigned int CharacterSkillStatisticConfig_TypeDefinitionIndex = 16697;
 
 	class CharacterSkillStatisticConfig : public ::RPG::GameCore::JsonConfig
 	{

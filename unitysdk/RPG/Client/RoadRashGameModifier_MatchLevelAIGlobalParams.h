@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIGlobalParams; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D304950)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D302C40)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D4300)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAIGLOBALPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7D25F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIGlobalParams_TypeDefinitionIndex = 10317;
+	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIGlobalParams_TypeDefinitionIndex = 10327;
 
 	class RoadRashGameModifier_MatchLevelAIGlobalParams : public ::RPG::GameCore::JsonConfig
 	{

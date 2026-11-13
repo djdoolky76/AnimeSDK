@@ -5,16 +5,16 @@
 class BJLOENPDAHE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AFMFOKIJCFE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF104E0)
-#define AFMFOKIJCFE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCF10440)
+#define AFMFOKIJCFE_CTOR_OFFSET UNITYSDK_OFFSET(0x18DBE080)
+#define AFMFOKIJCFE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x18DBDFE0)
 
-inline static constexpr unsigned int AFMFOKIJCFE_TypeDefinitionIndex = 62101;
+inline static constexpr unsigned int AFMFOKIJCFE_TypeDefinitionIndex = 63514;
 
 	class AFMFOKIJCFE : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::NIDHNFECCKL>* PIKEKIEHPHG; // 0x10
-		::System::Collections::Generic::List_1<::BJLOENPDAHE*>* FFBKHAIIFDC; // 0x18
+		::System::Collections::Generic::List_1<::BJLOENPDAHE*>* FFBKHAIIFDC; // 0x10
+		::System::Collections::Generic::List_1<::NIDHNFECCKL>* PIKEKIEHPHG; // 0x18
 		::System::Int32 AJKEANNJFOE; // 0x20
 		::System::Void _ctor()
 		{

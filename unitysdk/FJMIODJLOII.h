@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CLFIGBPHLHI.h"
 
-#define FJMIODJLOII_CTOR_OFFSET UNITYSDK_OFFSET(0x157CDBB0)
+#define FJMIODJLOII_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA82BC0)
 
-inline static constexpr unsigned int FJMIODJLOII_TypeDefinitionIndex = 73490;
+inline static constexpr unsigned int FJMIODJLOII_TypeDefinitionIndex = 75613;
 
 	class FJMIODJLOII : public ::CLFIGBPHLHI
 	{

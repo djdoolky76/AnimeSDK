@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class SerializedWarmupPSO;
 
-#define SERIALIZEDWARMUPPSOSETJSON_CTOR_OFFSET UNITYSDK_OFFSET(0xE95E550)
+#define SERIALIZEDWARMUPPSOSETJSON_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC31190)
 
-inline static constexpr unsigned int SerializedWarmupPSOSetJson_TypeDefinitionIndex = 47422;
+inline static constexpr unsigned int SerializedWarmupPSOSetJson_TypeDefinitionIndex = 48451;
 
 	class SerializedWarmupPSOSetJson : public ::System::Object
 	{

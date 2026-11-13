@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GeneralUtility_SetAttributeArrayFunc_1_TypeDefinitionIndex = 40632;
+	inline static constexpr unsigned int HEU_GeneralUtility_SetAttributeArrayFunc_1_TypeDefinitionIndex = 41607;
 
 	template <typename T>
 	class HEU_GeneralUtility_SetAttributeArrayFunc_1 : public ::System::MulticastDelegate

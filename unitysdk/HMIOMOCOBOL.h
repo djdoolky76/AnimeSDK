@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HMIOMOCOBOL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE98F20)
-#define HMIOMOCOBOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE994F0)
-#define HMIOMOCOBOL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE99090)
-#define HMIOMOCOBOL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE98990)
-#define HMIOMOCOBOL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE98C20)
-#define HMIOMOCOBOL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE99130)
-#define HMIOMOCOBOL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE99180)
-#define HMIOMOCOBOL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE98F60)
-#define HMIOMOCOBOL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE98BC0)
-#define HMIOMOCOBOL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE98D90)
-#define HMIOMOCOBOL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE98FF0)
-#define HMIOMOCOBOL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE98910)
+#define HMIOMOCOBOL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E83A4B0)
+#define HMIOMOCOBOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E83AA80)
+#define HMIOMOCOBOL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E83A620)
+#define HMIOMOCOBOL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E839F20)
+#define HMIOMOCOBOL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E83A1B0)
+#define HMIOMOCOBOL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E83A6C0)
+#define HMIOMOCOBOL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E83A710)
+#define HMIOMOCOBOL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E83A4F0)
+#define HMIOMOCOBOL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E83A150)
+#define HMIOMOCOBOL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E83A320)
+#define HMIOMOCOBOL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E83A580)
+#define HMIOMOCOBOL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E839EA0)
 
-inline static constexpr unsigned int HMIOMOCOBOL_TypeDefinitionIndex = 11439;
+inline static constexpr unsigned int HMIOMOCOBOL_TypeDefinitionIndex = 11490;
 
 	class HMIOMOCOBOL : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildRewardBoxRandomConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildRewardBoxRandomConfigRow*>**)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x1D270);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x19160);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x1D278);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x19168);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildRewardBoxRandomConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x1D280);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x6470);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildRewardBoxRandomConfigRow*>**)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x19170);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x6471);
+			return (::System::Boolean*)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x5A10);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "HMIOMOCOBOL")->GetStaticField(0x5A11);
 		}
 
 		static ::System::Void _cctor()

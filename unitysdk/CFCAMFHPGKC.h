@@ -5,9 +5,9 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define CFCAMFHPGKC_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0xC9FF4C0)
+#define CFCAMFHPGKC_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0x18842CD0)
 
-inline static constexpr unsigned int CFCAMFHPGKC_TypeDefinitionIndex = 62680;
+inline static constexpr unsigned int CFCAMFHPGKC_TypeDefinitionIndex = 64114;
 
 	class CFCAMFHPGKC : public ::System::Object
 	{

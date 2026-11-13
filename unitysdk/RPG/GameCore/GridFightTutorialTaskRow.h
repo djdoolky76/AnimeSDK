@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightTutorialTaskRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALTASKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71B9B0)
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALTASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71B880)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALTASKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6AAB0)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALTASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA6A980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTutorialTaskRow_TypeDefinitionIndex = 13651;
+	inline static constexpr unsigned int GridFightTutorialTaskRow_TypeDefinitionIndex = 13776;
 
 	class GridFightTutorialTaskRow : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_MOGAPROANDROIDUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC6C70)
-#define INCONTROL_UNITYDEVICEPROFILES_MOGAPROANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BAC59E0)
+#define INCONTROL_UNITYDEVICEPROFILES_MOGAPROANDROIDUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xC6405B0)
+#define INCONTROL_UNITYDEVICEPROFILES_MOGAPROANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC63F320)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int MogaProAndroidUnityProfile_TypeDefinitionIndex = 40971;
+	inline static constexpr unsigned int MogaProAndroidUnityProfile_TypeDefinitionIndex = 41946;
 
 	class MogaProAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

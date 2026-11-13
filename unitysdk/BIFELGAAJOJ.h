@@ -4,10 +4,10 @@
 namespace RPG::Client { class TalkOptionData; }
 namespace RPG::GameCore { class OptionTalkInfo; }
 
-#define BIFELGAAJOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A1130)
-#define BIFELGAAJOJ_FMDIFLLEHCJ_OFFSET UNITYSDK_OFFSET(0xB4A1070)
+#define BIFELGAAJOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB38A0)
+#define BIFELGAAJOJ_FMDIFLLEHCJ_OFFSET UNITYSDK_OFFSET(0x1BAB37E0)
 
-inline static constexpr unsigned int BIFELGAAJOJ_TypeDefinitionIndex = 68026;
+inline static constexpr unsigned int BIFELGAAJOJ_TypeDefinitionIndex = 69972;
 
 	class BIFELGAAJOJ : public ::System::Object
 	{

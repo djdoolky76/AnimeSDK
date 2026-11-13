@@ -4,18 +4,18 @@
 class KLFPHOOPELB;
 namespace System { class Object; }
 
-#define KLFPHOOPELB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E85D2B0)
-#define KLFPHOOPELB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85D2F0)
-#define KLFPHOOPELB___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E85D300)
+#define KLFPHOOPELB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDB9740)
+#define KLFPHOOPELB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDB9780)
+#define KLFPHOOPELB___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FDB9790)
 
-inline static constexpr unsigned int KLFPHOOPELB___c_TypeDefinitionIndex = 32763;
+inline static constexpr unsigned int KLFPHOOPELB___c_TypeDefinitionIndex = 33678;
 
 	class KLFPHOOPELB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D6F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BB90);
 		}
 
 		static ::System::Void _cctor()

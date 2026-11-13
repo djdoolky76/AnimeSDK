@@ -8,9 +8,9 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1F048A60)
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F048A20)
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F048AF0)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1CF41060)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF41020)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CF410F0)
 
 namespace System::Net
 {
@@ -19,8 +19,8 @@ namespace System::Net
 	class ServerCertValidationCallback : public ::System::Object
 	{
 	public:
-		::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback; // 0x10
-		::System::Threading::ExecutionContext* m_Context; // 0x18
+		::System::Threading::ExecutionContext* m_Context; // 0x10
+		::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback; // 0x18
 		::System::Void _ctor(::System::Net::Security::RemoteCertificateValidationCallback* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Net::Security::RemoteCertificateValidationCallback*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CTOR_OFFSET))(this, a1);

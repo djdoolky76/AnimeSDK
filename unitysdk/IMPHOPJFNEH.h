@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByInTurnBasedGameModeState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMPHOPJFNEH_CTOR_OFFSET UNITYSDK_OFFSET(0x164D61D0)
-#define IMPHOPJFNEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164D6200)
+#define IMPHOPJFNEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E2A50)
+#define IMPHOPJFNEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A5E2A80)
 
-inline static constexpr unsigned int IMPHOPJFNEH_TypeDefinitionIndex = 54632;
+inline static constexpr unsigned int IMPHOPJFNEH_TypeDefinitionIndex = 55798;
 
 	class IMPHOPJFNEH
 	{

@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/ECurveEdgePoint.h"
 namespace RPG::Client { class CurveUndirectedEdge; }
 
-#define RPG_CLIENT_CURVEEDGEPOINT_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBCF840)
-#define RPG_CLIENT_CURVEEDGEPOINT_DPLEMDAOAAE_OFFSET UNITYSDK_OFFSET(0xE4570)
-#define RPG_CLIENT_CURVEEDGEPOINT_GET_EMPTYPOINT_OFFSET UNITYSDK_OFFSET(0xCBCF3F0)
-#define RPG_CLIENT_CURVEEDGEPOINT_GPDIHOGDLAI_OFFSET UNITYSDK_OFFSET(0xE4500)
-#define RPG_CLIENT_CURVEEDGEPOINT_OAAEKEBBJBK_OFFSET UNITYSDK_OFFSET(0xE4450)
+#define RPG_CLIENT_CURVEEDGEPOINT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7E7850)
+#define RPG_CLIENT_CURVEEDGEPOINT_DPLEMDAOAAE_OFFSET UNITYSDK_OFFSET(0x3E8CA90)
+#define RPG_CLIENT_CURVEEDGEPOINT_GET_EMPTYPOINT_OFFSET UNITYSDK_OFFSET(0x1B7E7400)
+#define RPG_CLIENT_CURVEEDGEPOINT_GPDIHOGDLAI_OFFSET UNITYSDK_OFFSET(0x3E8CA20)
+#define RPG_CLIENT_CURVEEDGEPOINT_OAAEKEBBJBK_OFFSET UNITYSDK_OFFSET(0x3E8C970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveEdgePoint_TypeDefinitionIndex = 68566;
+	inline static constexpr unsigned int CurveEdgePoint_TypeDefinitionIndex = 70514;
 
 	struct alignas(8) CurveEdgePoint
 	{
@@ -20,7 +20,7 @@ namespace RPG::Client
 		::RPG::Client::CurveUndirectedEdge* edge; // 0x18
 		static ::RPG::Client::CurveEdgePoint* StaticGet__EmptyPoint_k__BackingField()
 		{
-			return (::RPG::Client::CurveEdgePoint*)UnitySDK::FromName("RPG.Client", "CurveEdgePoint")->GetStaticField(0x1AFF0);
+			return (::RPG::Client::CurveEdgePoint*)UnitySDK::FromName("RPG.Client", "CurveEdgePoint")->GetStaticField(0x21370);
 		}
 
 		static ::System::Void _cctor()

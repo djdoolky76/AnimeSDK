@@ -5,25 +5,25 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC58200)
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC58240)
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__CHECKCONSOLEPAY_B__9_1_OFFSET UNITYSDK_OFFSET(0x1BC58250)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x185DDA80)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x185DDAC0)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__CHECKCONSOLEPAY_B__9_1_OFFSET UNITYSDK_OFFSET(0x185DDAD0)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int PayManagerPS___c_TypeDefinitionIndex = 9122;
+	inline static constexpr unsigned int PayManagerPS___c_TypeDefinitionIndex = 9131;
 
 	class PayManagerPS___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__9_1()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console.CN", "<>c")->GetStaticField(0x55510);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.CN", "<>c")->GetStaticField(0x55518);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.CN", "<>c")->GetStaticField(0x3F730);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__9_1()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console.CN", "<>c")->GetStaticField(0x3F738);
 		}
 
 		static ::System::Void _cctor()

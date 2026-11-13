@@ -9,13 +9,13 @@ namespace RPG::GameCore { class FiveDimPropSpawnerParam; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A7860)
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6A7870)
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A7820)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F79BA00)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F79BA10)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F79B9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPropSpawnerConfig_TypeDefinitionIndex = 18591;
+	inline static constexpr unsigned int FiveDimPropSpawnerConfig_TypeDefinitionIndex = 18751;
 
 	class FiveDimPropSpawnerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

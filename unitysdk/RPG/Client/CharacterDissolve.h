@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_CHARACTERDISSOLVE_CTOR_OFFSET UNITYSDK_OFFSET(0xC9BFDC0)
-#define RPG_CLIENT_CHARACTERDISSOLVE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC9BFD70)
+#define RPG_CLIENT_CHARACTERDISSOLVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C060940)
+#define RPG_CLIENT_CHARACTERDISSOLVE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1C0608F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterDissolve_TypeDefinitionIndex = 70264;
+	inline static constexpr unsigned int CharacterDissolve_TypeDefinitionIndex = 72230;
 
 	class CharacterDissolve
 	{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetMapSkillCastPos; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EODKLLDFPAP_CTOR_OFFSET UNITYSDK_OFFSET(0x155B0F70)
-#define EODKLLDFPAP_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x155B0F90)
+#define EODKLLDFPAP_CTOR_OFFSET UNITYSDK_OFFSET(0x16B1F190)
+#define EODKLLDFPAP_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16B1F1B0)
 
-inline static constexpr unsigned int EODKLLDFPAP_TypeDefinitionIndex = 53805;
+inline static constexpr unsigned int EODKLLDFPAP_TypeDefinitionIndex = 54969;
 
 	class EODKLLDFPAP
 	{

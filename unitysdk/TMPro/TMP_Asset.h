@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace UnityEngine { class Material; }
 
-#define TMPRO_TMP_ASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2BC6F0)
-#define TMPRO_TMP_ASSET_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x1F2BC6A0)
+#define TMPRO_TMP_ASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x19B8FA50)
+#define TMPRO_TMP_ASSET_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x19B8FA00)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Asset_TypeDefinitionIndex = 44540;
+	inline static constexpr unsigned int TMP_Asset_TypeDefinitionIndex = 45615;
 
 	class TMP_Asset : public ::UnityEngine::ScriptableObject
 	{

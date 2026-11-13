@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetLoopHitFeatureParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMPMGFCHINO_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CDBA0)
-#define LMPMGFCHINO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7CDBD0)
+#define LMPMGFCHINO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFDA200)
+#define LMPMGFCHINO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFDA230)
 
-inline static constexpr unsigned int LMPMGFCHINO_TypeDefinitionIndex = 52497;
+inline static constexpr unsigned int LMPMGFCHINO_TypeDefinitionIndex = 53603;
 
 	class LMPMGFCHINO
 	{

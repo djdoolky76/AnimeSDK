@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ElfBuffConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ELFBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D606D00)
-#define RPG_GAMECORE_ELFBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D606C00)
+#define RPG_GAMECORE_ELFBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD7B0)
+#define RPG_GAMECORE_ELFBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DD6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfBuffConfig_TypeDefinitionIndex = 18489;
+	inline static constexpr unsigned int ElfBuffConfig_TypeDefinitionIndex = 18649;
 
 	class ElfBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

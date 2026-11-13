@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGSTARTSTORYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE15E800)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGSTARTSTORYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD011E0)
 
 namespace RPG::Client::SwordTraining
 {
-	inline static constexpr unsigned int SwordTrainingStartStoryData_TypeDefinitionIndex = 75050;
+	inline static constexpr unsigned int SwordTrainingStartStoryData_TypeDefinitionIndex = 77377;
 
 	class SwordTrainingStartStoryData : public ::System::Object
 	{
 	public:
-		::System::Boolean IsRepeat; // 0x10
-		::System::Byte _padding0[0x3];
-		::System::UInt32 StoryID; // 0x14
+		::System::UInt32 StoryID; // 0x10
+		::System::Boolean IsRepeat; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGSTARTSTORYDATA_CTOR_OFFSET))(this);

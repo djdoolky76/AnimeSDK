@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define DPLNKBOJMDK_CTOR_OFFSET UNITYSDK_OFFSET(0x126556F0)
+#define DPLNKBOJMDK_CTOR_OFFSET UNITYSDK_OFFSET(0x181AF9D0)
 
-inline static constexpr unsigned int DPLNKBOJMDK_TypeDefinitionIndex = 61870;
+inline static constexpr unsigned int DPLNKBOJMDK_TypeDefinitionIndex = 63276;
 
 	class DPLNKBOJMDK : public ::System::Object
 	{

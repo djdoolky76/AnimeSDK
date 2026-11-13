@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SwitchMainCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ODKHJJNDKDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBD91230)
-#define ODKHJJNDKDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD91240)
-#define ODKHJJNDKDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD912D0)
-#define ODKHJJNDKDI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBD91280)
-#define ODKHJJNDKDI_TICK_OFFSET UNITYSDK_OFFSET(0xBD914E0)
+#define ODKHJJNDKDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1760DF00)
+#define ODKHJJNDKDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1760DF10)
+#define ODKHJJNDKDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1760DFA0)
+#define ODKHJJNDKDI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1760DF50)
+#define ODKHJJNDKDI_TICK_OFFSET UNITYSDK_OFFSET(0x1760E1B0)
 
-inline static constexpr unsigned int ODKHJJNDKDI_TypeDefinitionIndex = 55688;
+inline static constexpr unsigned int ODKHJJNDKDI_TypeDefinitionIndex = 56889;
 
 	class ODKHJJNDKDI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SwitchMainCamera* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SwitchMainCamera* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchMainCamera* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchMainCamera*))((::PBYTE)hIl2Cpp + ODKHJJNDKDI_CTOR_OFFSET))(this, a1, a2);

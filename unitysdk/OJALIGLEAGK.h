@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define OJALIGLEAGK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C966E70)
-#define OJALIGLEAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C966EC0)
+#define OJALIGLEAGK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E075730)
+#define OJALIGLEAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E075780)
 
-inline static constexpr unsigned int OJALIGLEAGK_TypeDefinitionIndex = 43283;
+inline static constexpr unsigned int OJALIGLEAGK_TypeDefinitionIndex = 44264;
 
 	class OJALIGLEAGK : public ::System::Object
 	{

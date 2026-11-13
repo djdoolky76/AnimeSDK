@@ -4,12 +4,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define DHBOGGBEMFF_CLEJGGELBCC_CCTOR_OFFSET UNITYSDK_OFFSET(0xEBC1360)
-#define DHBOGGBEMFF_CLEJGGELBCC_COKMDIMBLHN_OFFSET UNITYSDK_OFFSET(0xEBC1120)
-#define DHBOGGBEMFF_CLEJGGELBCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7650)
-#define DHBOGGBEMFF_CLEJGGELBCC_NBKAFMOEBAM_OFFSET UNITYSDK_OFFSET(0xEBC1280)
+#define DHBOGGBEMFF_CLEJGGELBCC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADDD940)
+#define DHBOGGBEMFF_CLEJGGELBCC_COKMDIMBLHN_OFFSET UNITYSDK_OFFSET(0x1ADDD700)
+#define DHBOGGBEMFF_CLEJGGELBCC_CTOR_OFFSET UNITYSDK_OFFSET(0x3E6E4F0)
+#define DHBOGGBEMFF_CLEJGGELBCC_NBKAFMOEBAM_OFFSET UNITYSDK_OFFSET(0x1ADDD860)
 
-inline static constexpr unsigned int DHBOGGBEMFF_CLEJGGELBCC_TypeDefinitionIndex = 49127;
+inline static constexpr unsigned int DHBOGGBEMFF_CLEJGGELBCC_TypeDefinitionIndex = 50203;
 
 	struct alignas(8) DHBOGGBEMFF_CLEJGGELBCC
 	{
@@ -19,7 +19,7 @@ inline static constexpr unsigned int DHBOGGBEMFF_CLEJGGELBCC_TypeDefinitionIndex
 		::System::Boolean NCAHGJBCMJC; // 0x20
 		static ::System::Collections::Generic::Queue_1<::System::Object*>** StaticGet_MFPNICMCKJG()
 		{
-			return (::System::Collections::Generic::Queue_1<::System::Object*>**)UnitySDK::FromName("", "CLEJGGELBCC")->GetStaticField(0x4B030);
+			return (::System::Collections::Generic::Queue_1<::System::Object*>**)UnitySDK::FromName("", "CLEJGGELBCC")->GetStaticField(0x66FE0);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::String* a2, ::System::Boolean a3)

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HPEKGMDHFLO_TypeDefinitionIndex = 28866;
+inline static constexpr unsigned int HPEKGMDHFLO_TypeDefinitionIndex = 29456;
 
 	enum class HPEKGMDHFLO : ::System::Int32
 	{

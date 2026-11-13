@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class NPCMonsterTrackConfigRow; }
 
-#define RPG_GAMECORE_NPCMONSTERTRACKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A49E0)
-#define RPG_GAMECORE_NPCMONSTERTRACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8A4820)
+#define RPG_GAMECORE_NPCMONSTERTRACKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E495760)
+#define RPG_GAMECORE_NPCMONSTERTRACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4955A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCMonsterTrackConfigRow_TypeDefinitionIndex = 14286;
+	inline static constexpr unsigned int NPCMonsterTrackConfigRow_TypeDefinitionIndex = 14443;
 
 	class NPCMonsterTrackConfigRow : public ::System::Object
 	{

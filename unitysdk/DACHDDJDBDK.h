@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DACHDDJDBDK_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB2B10)
-#define DACHDDJDBDK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFB2B40)
+#define DACHDDJDBDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1993DB80)
+#define DACHDDJDBDK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1993DBB0)
 
-inline static constexpr unsigned int DACHDDJDBDK_TypeDefinitionIndex = 54578;
+inline static constexpr unsigned int DACHDDJDBDK_TypeDefinitionIndex = 55743;
 
 	class DACHDDJDBDK
 	{

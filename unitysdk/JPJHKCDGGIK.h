@@ -4,9 +4,9 @@ class BFBIICACCMB;
 class MNBNFBAMKKI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPJHKCDGGIK_EQUALS_OFFSET UNITYSDK_OFFSET(0x12B90)
+#define JPJHKCDGGIK_EQUALS_OFFSET UNITYSDK_OFFSET(0x3E74AB0)
 
-inline static constexpr unsigned int JPJHKCDGGIK_TypeDefinitionIndex = 53726;
+inline static constexpr unsigned int JPJHKCDGGIK_TypeDefinitionIndex = 54890;
 
 	struct alignas(8) JPJHKCDGGIK
 	{

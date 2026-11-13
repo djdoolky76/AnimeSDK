@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KNGADCOOODI_TweenAnimState_TypeDefinitionIndex = 71709;
+inline static constexpr unsigned int KNGADCOOODI_TweenAnimState_TypeDefinitionIndex = 73700;
 
 	enum class KNGADCOOODI_TweenAnimState : ::System::Int32
 	{

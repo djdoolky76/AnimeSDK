@@ -4,17 +4,17 @@
 class FCOEMCEDLNL;
 class NOCPNPNNLOM;
 
-#define NOCPNPNNLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D212A00)
-#define NOCPNPNNLOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D212A10)
-#define NOCPNPNNLOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2129D0)
+#define NOCPNPNNLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E76EDC0)
+#define NOCPNPNNLOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E76EDD0)
+#define NOCPNPNNLOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E76ED90)
 
-inline static constexpr unsigned int NOCPNPNNLOM_TypeDefinitionIndex = 21563;
+inline static constexpr unsigned int NOCPNPNNLOM_TypeDefinitionIndex = 21951;
 
 	class NOCPNPNNLOM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* CBBDEODGNDG; // 0x18
-		::Il2CppArray<::System::UInt32>* KPHIIIDGLEB; // 0x20
+		::Il2CppArray<::System::UInt32>* KPHIIIDGLEB; // 0x18
+		::Il2CppArray<::System::UInt32>* CBBDEODGNDG; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NOCPNPNNLOM_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LittleGameSpeedLineEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define POKIAGALCFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC366BD0)
-#define POKIAGALCFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC366C00)
+#define POKIAGALCFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B890A40)
+#define POKIAGALCFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B890A70)
 
-inline static constexpr unsigned int POKIAGALCFA_TypeDefinitionIndex = 52975;
+inline static constexpr unsigned int POKIAGALCFA_TypeDefinitionIndex = 54134;
 
 	class POKIAGALCFA
 	{

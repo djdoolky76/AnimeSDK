@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define DIHCINGKNAC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C7960)
+#define DIHCINGKNAC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3E0E7C0)
 
-inline static constexpr unsigned int DIHCINGKNAC_TypeDefinitionIndex = 53793;
+inline static constexpr unsigned int DIHCINGKNAC_TypeDefinitionIndex = 54957;
 
 	struct alignas(4) DIHCINGKNAC
 	{

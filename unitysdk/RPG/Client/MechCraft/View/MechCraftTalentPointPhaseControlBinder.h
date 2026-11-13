@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 namespace RPG::Client { class UIStateCtrl; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPOINTPHASECONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD664560)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPOINTPHASECONTROLBINDER_GET_STATECTRL_OFFSET UNITYSDK_OFFSET(0xD664490)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPOINTPHASECONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF04D60)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPOINTPHASECONTROLBINDER_GET_STATECTRL_OFFSET UNITYSDK_OFFSET(0x1DF04C90)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentPointPhaseControlBinder_TypeDefinitionIndex = 80060;
+	inline static constexpr unsigned int MechCraftTalentPointPhaseControlBinder_TypeDefinitionIndex = 82837;
 
 	class MechCraftTalentPointPhaseControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

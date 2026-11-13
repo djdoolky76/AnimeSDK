@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_ByAlertLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLDNCFJIHGB_CTOR_OFFSET UNITYSDK_OFFSET(0xD774460)
-#define CLDNCFJIHGB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD774490)
+#define CLDNCFJIHGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD5DCE0)
+#define CLDNCFJIHGB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AD5DD10)
 
-inline static constexpr unsigned int CLDNCFJIHGB_TypeDefinitionIndex = 52092;
+inline static constexpr unsigned int CLDNCFJIHGB_TypeDefinitionIndex = 53197;
 
 	class CLDNCFJIHGB
 	{

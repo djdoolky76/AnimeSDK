@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define RPG_CUSTOMRP_UNIFORMCODEC_GETPAYLOADSIZE_OFFSET UNITYSDK_OFFSET(0x1CC4B650)
-#define RPG_CUSTOMRP_UNIFORMCODEC_TRYGETTYPE_OFFSET UNITYSDK_OFFSET(0x1CC4B4A0)
+#define RPG_CUSTOMRP_UNIFORMCODEC_GETPAYLOADSIZE_OFFSET UNITYSDK_OFFSET(0x2074F500)
+#define RPG_CUSTOMRP_UNIFORMCODEC_TRYGETTYPE_OFFSET UNITYSDK_OFFSET(0x2074F350)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UniformCodec_TypeDefinitionIndex = 37755;
+	inline static constexpr unsigned int UniformCodec_TypeDefinitionIndex = 38684;
 
 	class UniformCodec : public ::System::Object
 	{

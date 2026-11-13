@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace RPG::GameCore { class RemoveEffectOnCharacter; }
 
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE927E80)
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE927C90)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C772B70)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1C772980)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RemoveEffectOnCharacterBehaviour_TypeDefinitionIndex = 48329;
+	inline static constexpr unsigned int RemoveEffectOnCharacterBehaviour_TypeDefinitionIndex = 49370;
 
 	class RemoveEffectOnCharacterBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightModifierAutoAddBonusRule; }
 
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERAUTOADDBONUSRULE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D705A20)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERAUTOADDBONUSRULE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7059E0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERAUTOADDBONUSRULE_CTOR_OFFSET UNITYSDK_OFFSET(0x2060BE00)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERAUTOADDBONUSRULE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x2060BDC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierAutoAddBonusRule_TypeDefinitionIndex = 19393;
+	inline static constexpr unsigned int GridFightModifierAutoAddBonusRule_TypeDefinitionIndex = 19618;
 
 	class GridFightModifierAutoAddBonusRule : public ::RPG::GameCore::JsonConfig
 	{

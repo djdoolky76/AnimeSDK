@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapPartToOwner; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JGFLBNBDPLI_CTOR_OFFSET UNITYSDK_OFFSET(0xB193400)
-#define JGFLBNBDPLI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB193420)
+#define JGFLBNBDPLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1934CE00)
+#define JGFLBNBDPLI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1934CE20)
 
-inline static constexpr unsigned int JGFLBNBDPLI_TypeDefinitionIndex = 59190;
+inline static constexpr unsigned int JGFLBNBDPLI_TypeDefinitionIndex = 60467;
 
 	class JGFLBNBDPLI
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_ARTNODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC693810)
-#define RPG_CLIENT_ARTNODECONFIG_GETASSETPATHWITHLOD_OFFSET UNITYSDK_OFFSET(0xC693770)
+#define RPG_CLIENT_ARTNODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA9C8E0)
+#define RPG_CLIENT_ARTNODECONFIG_GETASSETPATHWITHLOD_OFFSET UNITYSDK_OFFSET(0x1CA9C840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNodeConfig_TypeDefinitionIndex = 68317;
+	inline static constexpr unsigned int ArtNodeConfig_TypeDefinitionIndex = 70263;
 
 	class ArtNodeConfig : public ::UnityEngine::MonoBehaviour
 	{

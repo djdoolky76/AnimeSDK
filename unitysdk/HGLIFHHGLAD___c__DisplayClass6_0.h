@@ -5,10 +5,10 @@
 class AKHEOAIPAPA;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HGLIFHHGLAD___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15CA42C0)
-#define HGLIFHHGLAD___C__DISPLAYCLASS6_0__GETMULTSEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0x15CA4480)
+#define HGLIFHHGLAD___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C458780)
+#define HGLIFHHGLAD___C__DISPLAYCLASS6_0__GETMULTSEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0x1C458940)
 
-inline static constexpr unsigned int HGLIFHHGLAD___c__DisplayClass6_0_TypeDefinitionIndex = 76386;
+inline static constexpr unsigned int HGLIFHHGLAD___c__DisplayClass6_0_TypeDefinitionIndex = 78717;
 
 	class HGLIFHHGLAD___c__DisplayClass6_0 : public ::System::Object
 	{

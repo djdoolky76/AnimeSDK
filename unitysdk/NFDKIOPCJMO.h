@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FDPALAEIHPB;
 
-#define NFDKIOPCJMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB75460)
-#define NFDKIOPCJMO_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBB75470)
+#define NFDKIOPCJMO_CTOR_OFFSET UNITYSDK_OFFSET(0x18E5D5F0)
+#define NFDKIOPCJMO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18E5D600)
 
-inline static constexpr unsigned int NFDKIOPCJMO_TypeDefinitionIndex = 75807;
+inline static constexpr unsigned int NFDKIOPCJMO_TypeDefinitionIndex = 78134;
 
 	class NFDKIOPCJMO : public ::System::Object
 	{

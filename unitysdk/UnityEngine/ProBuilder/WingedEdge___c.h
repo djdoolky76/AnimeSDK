@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F26D7C0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F26D800)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_1_OFFSET UNITYSDK_OFFSET(0x1F26D810)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_2_OFFSET UNITYSDK_OFFSET(0x1F26D830)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2C4090)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C40D0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_1_OFFSET UNITYSDK_OFFSET(0x1A2C40E0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_2_OFFSET UNITYSDK_OFFSET(0x1A2C4100)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int WingedEdge___c_TypeDefinitionIndex = 44455;
+	inline static constexpr unsigned int WingedEdge___c_TypeDefinitionIndex = 45530;
 
 	class WingedEdge___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__32_1()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x53DF0);
-		}
-
 		static ::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>** StaticGet___9__32_2()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x53DF8);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x697C0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x53E00);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x697C8);
+		}
+
+		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__32_1()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x697D0);
 		}
 
 		static ::System::Void _cctor()

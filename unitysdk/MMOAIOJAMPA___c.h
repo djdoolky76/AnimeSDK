@@ -4,18 +4,18 @@
 class MMOAIOJAMPA;
 namespace System { class Object; }
 
-#define MMOAIOJAMPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA62A30)
-#define MMOAIOJAMPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA62A70)
-#define MMOAIOJAMPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA62A80)
+#define MMOAIOJAMPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F96A5B0)
+#define MMOAIOJAMPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F96A5F0)
+#define MMOAIOJAMPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F96A600)
 
-inline static constexpr unsigned int MMOAIOJAMPA___c_TypeDefinitionIndex = 32769;
+inline static constexpr unsigned int MMOAIOJAMPA___c_TypeDefinitionIndex = 33684;
 
 	class MMOAIOJAMPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x576F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FE70);
 		}
 
 		static ::System::Void _cctor()

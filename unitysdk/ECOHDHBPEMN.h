@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAidAttacker; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ECOHDHBPEMN_CTOR_OFFSET UNITYSDK_OFFSET(0x12D11A70)
-#define ECOHDHBPEMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12D11AE0)
+#define ECOHDHBPEMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E1230)
+#define ECOHDHBPEMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C3E12A0)
 
-inline static constexpr unsigned int ECOHDHBPEMN_TypeDefinitionIndex = 59135;
+inline static constexpr unsigned int ECOHDHBPEMN_TypeDefinitionIndex = 60411;
 
 	class ECOHDHBPEMN
 	{

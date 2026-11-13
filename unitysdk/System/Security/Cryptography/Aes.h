@@ -3,8 +3,8 @@
 #include "unitysdk/System/Security/Cryptography/SymmetricAlgorithm.h"
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C328BA0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C328B10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF06CD0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF06C40)
 
 namespace System::Security::Cryptography
 {
@@ -15,12 +15,12 @@ namespace System::Security::Cryptography
 	public:
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "Aes")->GetStaticField(0x21AF0);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "Aes")->GetStaticField(0x1BA90);
 		}
 
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "Aes")->GetStaticField(0x21AF8);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "Aes")->GetStaticField(0x1BA98);
 		}
 
 		::System::Void _ctor()

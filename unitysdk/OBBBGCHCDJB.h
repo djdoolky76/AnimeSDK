@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int OBBBGCHCDJB_TypeDefinitionIndex = 6295;
+inline static constexpr unsigned int OBBBGCHCDJB_TypeDefinitionIndex = 6302;
 
 	struct alignas(4) OBBBGCHCDJB
 	{

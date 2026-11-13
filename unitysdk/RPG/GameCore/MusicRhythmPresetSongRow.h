@@ -5,21 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MusicRhythmPresetSongRow; }
 
-#define RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A09D0)
-#define RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8A0790)
+#define RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E491750)
+#define RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E491510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmPresetSongRow_TypeDefinitionIndex = 14275;
+	inline static constexpr unsigned int MusicRhythmPresetSongRow_TypeDefinitionIndex = 14432;
 
 	class MusicRhythmPresetSongRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PresetGridConfig; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID PresetDesc; // 0x20
-		::RPG::Client::TextID PresetName; // 0x30
+		::RPG::Client::TextID PresetName; // 0x18
+		::RPG::Client::TextID PresetDesc; // 0x28
+		::System::UInt32 ID; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW_CTOR_OFFSET))(this);

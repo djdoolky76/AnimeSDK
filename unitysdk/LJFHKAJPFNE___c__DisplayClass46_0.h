@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/MCLHMGFGEFK.h"
 
-#define LJFHKAJPFNE___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB709D80)
-#define LJFHKAJPFNE___C__DISPLAYCLASS46_0__LOADUNIFIEDBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0xB709D90)
+#define LJFHKAJPFNE___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0x172FF200)
+#define LJFHKAJPFNE___C__DISPLAYCLASS46_0__LOADUNIFIEDBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0x17329290)
 
-inline static constexpr unsigned int LJFHKAJPFNE___c__DisplayClass46_0_TypeDefinitionIndex = 73861;
+inline static constexpr unsigned int LJFHKAJPFNE___c__DisplayClass46_0_TypeDefinitionIndex = 75987;
 
 	class LJFHKAJPFNE___c__DisplayClass46_0 : public ::System::Object
 	{

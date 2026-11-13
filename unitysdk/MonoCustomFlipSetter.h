@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace UnityEngine { class Material; }
 
-#define MONOCUSTOMFLIPSETTER_CTOR_OFFSET UNITYSDK_OFFSET(0xBA47350)
-#define MONOCUSTOMFLIPSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBA47200)
+#define MONOCUSTOMFLIPSETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B235F60)
+#define MONOCUSTOMFLIPSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1B235E10)
 
-inline static constexpr unsigned int MonoCustomFlipSetter_TypeDefinitionIndex = 47437;
+inline static constexpr unsigned int MonoCustomFlipSetter_TypeDefinitionIndex = 48466;
 
 	class MonoCustomFlipSetter : public ::UnityEngine::MonoBehaviour
 	{

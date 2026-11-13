@@ -5,7 +5,7 @@
 class BGMKDGACBNI;
 class KADNINAMKGA;
 
-inline static constexpr unsigned int PCGNOLJJNLD_TypeDefinitionIndex = 53851;
+inline static constexpr unsigned int PCGNOLJJNLD_TypeDefinitionIndex = 55015;
 
 	struct alignas(8) PCGNOLJJNLD
 	{

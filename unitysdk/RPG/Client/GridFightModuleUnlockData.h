@@ -5,22 +5,22 @@ namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightTraitConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD1AD560)
-#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA_GET_ACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0xD1B4E90)
-#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA_GET_ROLES_OFFSET UNITYSDK_OFFSET(0xD1B4EA0)
-#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA_GET_TRAITCONFIGS_OFFSET UNITYSDK_OFFSET(0xD1B4EB0)
-#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA__INITROLES_OFFSET UNITYSDK_OFFSET(0xD1B4090)
-#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA__INITTRAITCONFIGS_OFFSET UNITYSDK_OFFSET(0xD1B45F0)
+#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4E2F0)
+#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA_GET_ACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0x1CC57380)
+#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA_GET_ROLES_OFFSET UNITYSDK_OFFSET(0x1CC57390)
+#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA_GET_TRAITCONFIGS_OFFSET UNITYSDK_OFFSET(0x1CC573A0)
+#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA__INITROLES_OFFSET UNITYSDK_OFFSET(0x1CC56580)
+#define RPG_CLIENT_GRIDFIGHTMODULEUNLOCKDATA__INITTRAITCONFIGS_OFFSET UNITYSDK_OFFSET(0x1CC56AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModuleUnlockData_TypeDefinitionIndex = 65201;
+	inline static constexpr unsigned int GridFightModuleUnlockData_TypeDefinitionIndex = 66903;
 
 	class GridFightModuleUnlockData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitConfig*>* _TraitConfigs_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* _Roles_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* _Roles_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitConfig*>* _TraitConfigs_k__BackingField; // 0x18
 		::System::UInt32 _ActivityModuleID_k__BackingField; // 0x20
 		::System::Void _ctor(::System::UInt32 a1)
 		{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/HoyoTagContainer.h"
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-#define ABFAAKFMJIO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C849830)
-#define ABFAAKFMJIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8499F0)
-#define ABFAAKFMJIO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C849880)
+#define ABFAAKFMJIO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D84DAC0)
+#define ABFAAKFMJIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84DC80)
+#define ABFAAKFMJIO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1D84DB10)
 
-inline static constexpr unsigned int ABFAAKFMJIO_TypeDefinitionIndex = 42037;
+inline static constexpr unsigned int ABFAAKFMJIO_TypeDefinitionIndex = 43012;
 
 	class ABFAAKFMJIO : public ::RPG::GameCore::HoyoTagContainer
 	{

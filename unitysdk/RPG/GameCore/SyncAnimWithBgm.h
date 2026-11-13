@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SyncAnimWithBgm; }
 namespace RPG::GameCore { class SyncAnimWithBgmChapterConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SYNCANIMWITHBGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB22220)
-#define RPG_GAMECORE_SYNCANIMWITHBGM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB22230)
-#define RPG_GAMECORE_SYNCANIMWITHBGM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB221F0)
+#define RPG_GAMECORE_SYNCANIMWITHBGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E691D00)
+#define RPG_GAMECORE_SYNCANIMWITHBGM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E691D10)
+#define RPG_GAMECORE_SYNCANIMWITHBGM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E691CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SyncAnimWithBgm_TypeDefinitionIndex = 22393;
+	inline static constexpr unsigned int SyncAnimWithBgm_TypeDefinitionIndex = 22802;
 
 	class SyncAnimWithBgm : public ::RPG::GameCore::TaskConfig
 	{

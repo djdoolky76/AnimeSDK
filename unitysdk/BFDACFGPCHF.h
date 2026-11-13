@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BFDACFGPCHF_CTOR_OFFSET UNITYSDK_OFFSET(0xB15EDB0)
+#define BFDACFGPCHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A954CB0)
 
-inline static constexpr unsigned int BFDACFGPCHF_TypeDefinitionIndex = 80436;
+inline static constexpr unsigned int BFDACFGPCHF_TypeDefinitionIndex = 83216;
 
 	class BFDACFGPCHF : public ::System::Object
 	{

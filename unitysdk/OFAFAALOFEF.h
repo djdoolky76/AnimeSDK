@@ -5,11 +5,11 @@
 namespace RPG::Client { class RogueFormulaData; }
 namespace System { class Object; }
 
-#define OFAFAALOFEF_CTOR_OFFSET UNITYSDK_OFFSET(0xBE32430)
-#define OFAFAALOFEF_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xBE32440)
-#define OFAFAALOFEF_OKBIPDHEKHF_OFFSET UNITYSDK_OFFSET(0xBE32550)
+#define OFAFAALOFEF_CTOR_OFFSET UNITYSDK_OFFSET(0x17661720)
+#define OFAFAALOFEF_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x17661730)
+#define OFAFAALOFEF_OKBIPDHEKHF_OFFSET UNITYSDK_OFFSET(0x17661840)
 
-inline static constexpr unsigned int OFAFAALOFEF_TypeDefinitionIndex = 67252;
+inline static constexpr unsigned int OFAFAALOFEF_TypeDefinitionIndex = 69196;
 
 	class OFAFAALOFEF : public ::System::Object
 	{

@@ -5,14 +5,14 @@ namespace UnityEngine { class Light_OnParticleLightEvent; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CPPPipeline___O_TypeDefinitionIndex = 37536;
+	inline static constexpr unsigned int CPPPipeline___O_TypeDefinitionIndex = 38464;
 
 	class CPPPipeline___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Light_OnParticleLightEvent** StaticGet__0___ParticleLightOnLoad()
 		{
-			return (::UnityEngine::Light_OnParticleLightEvent**)UnitySDK::FromName("RPG.CustomRP", "<>O")->GetStaticField(0x2A200);
+			return (::UnityEngine::Light_OnParticleLightEvent**)UnitySDK::FromName("RPG.CustomRP", "<>O")->GetStaticField(0x20A60);
 		}
 
 	};

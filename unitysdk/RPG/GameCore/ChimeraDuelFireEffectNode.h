@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelFireEffectNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D573A90)
-#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D573AB0)
-#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D573A30)
+#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F929C80)
+#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F929CA0)
+#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F929C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelFireEffectNode_TypeDefinitionIndex = 15954;
+	inline static constexpr unsigned int ChimeraDuelFireEffectNode_TypeDefinitionIndex = 16112;
 
 	class ChimeraDuelFireEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{

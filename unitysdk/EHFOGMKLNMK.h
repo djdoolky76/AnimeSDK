@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvPlayerEnableIdleShow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EHFOGMKLNMK_CTOR_OFFSET UNITYSDK_OFFSET(0x15499A10)
-#define EHFOGMKLNMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15499A40)
+#define EHFOGMKLNMK_CTOR_OFFSET UNITYSDK_OFFSET(0x18BCA3D0)
+#define EHFOGMKLNMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BCA400)
 
-inline static constexpr unsigned int EHFOGMKLNMK_TypeDefinitionIndex = 52467;
+inline static constexpr unsigned int EHFOGMKLNMK_TypeDefinitionIndex = 53573;
 
 	class EHFOGMKLNMK
 	{

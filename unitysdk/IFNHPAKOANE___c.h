@@ -6,29 +6,29 @@ namespace RPG::Client { class PlanetFesSkillPhase; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define IFNHPAKOANE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15F1B020)
-#define IFNHPAKOANE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15F1B050)
-#define IFNHPAKOANE___C__CREATEPHASESKILLS_B__1_0_OFFSET UNITYSDK_OFFSET(0x15F1B090)
-#define IFNHPAKOANE___C__CREATEPHASES_B__0_0_OFFSET UNITYSDK_OFFSET(0x15F1B060)
+#define IFNHPAKOANE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC234A0)
+#define IFNHPAKOANE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC234D0)
+#define IFNHPAKOANE___C__CREATEPHASESKILLS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1BC23510)
+#define IFNHPAKOANE___C__CREATEPHASES_B__0_0_OFFSET UNITYSDK_OFFSET(0x1BC234E0)
 
-inline static constexpr unsigned int IFNHPAKOANE___c_TypeDefinitionIndex = 66636;
+inline static constexpr unsigned int IFNHPAKOANE___c_TypeDefinitionIndex = 68572;
 
 	class IFNHPAKOANE___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::PlanetFesSkillPhase*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesSkillPhase*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E4A0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E4A8);
+			return (::System::Comparison_1<::RPG::Client::PlanetFesSkillPhase*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E400);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::PlanetFesSkill*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesSkill*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E4B0);
+			return (::System::Comparison_1<::RPG::Client::PlanetFesSkill*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E408);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E410);
 		}
 
 		static ::System::Void _cctor()

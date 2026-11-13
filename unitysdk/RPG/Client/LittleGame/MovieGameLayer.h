@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMELAYER_CTOR_OFFSET UNITYSDK_OFFSET(0xD46EE90)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMELAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC9520)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieGameLayer_TypeDefinitionIndex = 76610;
+	inline static constexpr unsigned int MovieGameLayer_TypeDefinitionIndex = 78941;
 
 	class MovieGameLayer : public ::UnityEngine::MonoBehaviour
 	{

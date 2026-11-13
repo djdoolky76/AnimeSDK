@@ -4,23 +4,23 @@
 #include "unitysdk/UnityEngine/Rendering/FieldPacking.h"
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F298820)
-#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2987A0)
+#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E4C6980)
+#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C6900)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PackingAttribute_TypeDefinitionIndex = 35577;
+	inline static constexpr unsigned int PackingAttribute_TypeDefinitionIndex = 36505;
 
 	class PackingAttribute : public ::System::Attribute
 	{
 	public:
-		::Il2CppArray<::System::String*>* displayNames; // 0x10
-		::Il2CppArray<::System::Single>* range; // 0x18
+		::Il2CppArray<::System::Single>* range; // 0x10
+		::Il2CppArray<::System::String*>* displayNames; // 0x18
 		::System::Int32 offsetInSource; // 0x20
-		::System::Boolean isDirection; // 0x24
-		::System::Boolean sRGBDisplay; // 0x25
+		::System::Int32 sizeInBits; // 0x24
+		::System::Boolean isDirection; // 0x28
+		::System::Boolean sRGBDisplay; // 0x29
 		::System::Byte _padding0[0x2];
-		::System::Int32 sizeInBits; // 0x28
 		::UnityEngine::Rendering::FieldPacking packingScheme; // 0x2C
 		::System::Void _ctor(::Il2CppArray<::System::String*>* a1, ::UnityEngine::Rendering::FieldPacking a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::System::Boolean a7, ::System::Boolean a8)
 		{

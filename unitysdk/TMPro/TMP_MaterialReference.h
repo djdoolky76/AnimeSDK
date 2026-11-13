@@ -4,7 +4,7 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_MaterialReference_TypeDefinitionIndex = 44538;
+	inline static constexpr unsigned int TMP_MaterialReference_TypeDefinitionIndex = 45613;
 
 	struct alignas(8) TMP_MaterialReference
 	{

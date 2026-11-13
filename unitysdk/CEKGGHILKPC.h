@@ -6,24 +6,24 @@ class CEKGGHILKPC;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define CEKGGHILKPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5F4D0)
-#define CEKGGHILKPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5F170)
+#define CEKGGHILKPC_CTOR_OFFSET UNITYSDK_OFFSET(0x11570780)
+#define CEKGGHILKPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x11570420)
 
-inline static constexpr unsigned int CEKGGHILKPC_TypeDefinitionIndex = 11572;
+inline static constexpr unsigned int CEKGGHILKPC_TypeDefinitionIndex = 11623;
 
 	class CEKGGHILKPC : public ::System::Object
 	{
 	public:
 		::System::String* EMFJFPAAEMB; // 0x10
-		::System::String* GAIFKHJMCJO; // 0x18
-		::System::String* LFMFLBMDCGE; // 0x20
+		::System::String* OHMIIOMCIMA; // 0x18
+		::System::String* GAIFKHJMCJO; // 0x20
 		::System::String* MEPIMHPJKPP; // 0x28
-		::System::String* GKLAPFJKONI; // 0x30
-		::System::String* NCCJOMIOKML; // 0x38
-		::System::String* OHMIIOMCIMA; // 0x40
-		::System::UInt32 HHDMOCBJKOF; // 0x48
-		::RPG::GameCore::FateRinHouguOwnerType GHNJCLNKGHH; // 0x4C
-		::System::UInt32 PKJDFMCKNMC; // 0x50
+		::System::String* LFMFLBMDCGE; // 0x30
+		::System::String* GKLAPFJKONI; // 0x38
+		::System::String* NCCJOMIOKML; // 0x40
+		::System::UInt32 PKJDFMCKNMC; // 0x48
+		::System::UInt32 HHDMOCBJKOF; // 0x4C
+		::RPG::GameCore::FateRinHouguOwnerType GHNJCLNKGHH; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEKGGHILKPC_CTOR_OFFSET))(this);

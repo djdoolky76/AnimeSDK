@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BattleCollegeAimData; }
 
-#define RPG_CLIENT_BATTLECOLLEGEDATA___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC80E810)
-#define RPG_CLIENT_BATTLECOLLEGEDATA___C__DISPLAYCLASS3_0__GETAIMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC80F010)
+#define RPG_CLIENT_BATTLECOLLEGEDATA___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B42D0)
+#define RPG_CLIENT_BATTLECOLLEGEDATA___C__DISPLAYCLASS3_0__GETAIMDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1B1B4AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleCollegeData___c__DisplayClass3_0_TypeDefinitionIndex = 62877;
+	inline static constexpr unsigned int BattleCollegeData___c__DisplayClass3_0_TypeDefinitionIndex = 64315;
 
 	class BattleCollegeData___c__DisplayClass3_0 : public ::System::Object
 	{

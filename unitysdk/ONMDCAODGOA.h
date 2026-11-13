@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByTriggerFeature; }
 
-#define ONMDCAODGOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C972780)
-#define ONMDCAODGOA_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C9727A0)
+#define ONMDCAODGOA_CTOR_OFFSET UNITYSDK_OFFSET(0x17674500)
+#define ONMDCAODGOA_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x17674520)
 
-inline static constexpr unsigned int ONMDCAODGOA_TypeDefinitionIndex = 43145;
+inline static constexpr unsigned int ONMDCAODGOA_TypeDefinitionIndex = 44126;
 
 	class ONMDCAODGOA : public ::LHJPMDPJPEC
 	{

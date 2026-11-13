@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 
-#define RPG_CLIENT_CURVEUNDIRECTEDCONNECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD4BF0)
+#define RPG_CLIENT_CURVEUNDIRECTEDCONNECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7ECC10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveUndirectedConnection_TypeDefinitionIndex = 68564;
+	inline static constexpr unsigned int CurveUndirectedConnection_TypeDefinitionIndex = 70512;
 
 	class CurveUndirectedConnection : public ::System::Object
 	{

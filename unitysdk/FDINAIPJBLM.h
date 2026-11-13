@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FDINAIPJBLM_OBFNCCCLIMH_OFFSET UNITYSDK_OFFSET(0x1CDAF920)
+#define FDINAIPJBLM_OBFNCCCLIMH_OFFSET UNITYSDK_OFFSET(0x1E443AA0)
 
-inline static constexpr unsigned int FDINAIPJBLM_TypeDefinitionIndex = 24851;
+inline static constexpr unsigned int FDINAIPJBLM_TypeDefinitionIndex = 25331;
 
 	class FDINAIPJBLM : public ::System::Object
 	{

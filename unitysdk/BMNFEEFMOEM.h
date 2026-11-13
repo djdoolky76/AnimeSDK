@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartBattleLevelGraphOperation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BMNFEEFMOEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBB2B0)
-#define BMNFEEFMOEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDBB2E0)
+#define BMNFEEFMOEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A751F70)
+#define BMNFEEFMOEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A751FA0)
 
-inline static constexpr unsigned int BMNFEEFMOEM_TypeDefinitionIndex = 58718;
+inline static constexpr unsigned int BMNFEEFMOEM_TypeDefinitionIndex = 59986;
 
 	class BMNFEEFMOEM
 	{

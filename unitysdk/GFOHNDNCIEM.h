@@ -9,23 +9,23 @@ namespace RPG::Client { class FollowPointMapping; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define GFOHNDNCIEM_CLEAR_OFFSET UNITYSDK_OFFSET(0x159F3760)
-#define GFOHNDNCIEM_COKMDIMBLHN_OFFSET UNITYSDK_OFFSET(0x159F37F0)
-#define GFOHNDNCIEM_CTOR_OFFSET UNITYSDK_OFFSET(0x159F3B10)
-#define GFOHNDNCIEM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x159F39C0)
+#define GFOHNDNCIEM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B49CC50)
+#define GFOHNDNCIEM_COKMDIMBLHN_OFFSET UNITYSDK_OFFSET(0x1B49CCE0)
+#define GFOHNDNCIEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B49D000)
+#define GFOHNDNCIEM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1B49CEB0)
 
-inline static constexpr unsigned int GFOHNDNCIEM_TypeDefinitionIndex = 68860;
+inline static constexpr unsigned int GFOHNDNCIEM_TypeDefinitionIndex = 70813;
 
 	class GFOHNDNCIEM : public ::System::Object
 	{
 	public:
-		::RPG::Client::CameraBlendCurve* NLIFDJHPHLP; // 0x10
-		::UnityEngine::Transform* MCLLALGABAB; // 0x18
-		::RPG::Client::FollowPointMapping* CFIOFNEOCMI; // 0x20
-		::System::String* IPKCFNKIDMB; // 0x28
-		::System::Single PMHMEGEJDGP; // 0x30
-		::System::Single IEHPFADHJFD; // 0x34
-		::UnityEngine::Quaternion FICPPFFOIFB; // 0x38
+		::RPG::Client::FollowPointMapping* CFIOFNEOCMI; // 0x10
+		::RPG::Client::CameraBlendCurve* NLIFDJHPHLP; // 0x18
+		::System::String* IPKCFNKIDMB; // 0x20
+		::UnityEngine::Transform* MCLLALGABAB; // 0x28
+		::UnityEngine::Quaternion FICPPFFOIFB; // 0x30
+		::System::Single IEHPFADHJFD; // 0x40
+		::System::Single PMHMEGEJDGP; // 0x44
 		::UnityEngine::Quaternion ANGPCKDKKIJ; // 0x48
 		::System::Void _ctor()
 		{

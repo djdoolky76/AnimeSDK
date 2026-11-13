@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define LIGCCKAKKAM_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C3F20)
+#define LIGCCKAKKAM_CTOR_OFFSET UNITYSDK_OFFSET(0x172DDF00)
 
-inline static constexpr unsigned int LIGCCKAKKAM_TypeDefinitionIndex = 48685;
+inline static constexpr unsigned int LIGCCKAKKAM_TypeDefinitionIndex = 49731;
 
 	class LIGCCKAKKAM : public ::UnityEngine::Playables::PlayableBehaviour
 	{

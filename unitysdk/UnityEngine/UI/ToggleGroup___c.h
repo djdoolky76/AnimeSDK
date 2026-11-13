@@ -6,31 +6,31 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define UNITYENGINE_UI_TOGGLEGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F532140)
-#define UNITYENGINE_UI_TOGGLEGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F532180)
-#define UNITYENGINE_UI_TOGGLEGROUP___C__ACTIVETOGGLES_B__13_0_OFFSET UNITYSDK_OFFSET(0x1F5321B0)
-#define UNITYENGINE_UI_TOGGLEGROUP___C__ANYTOGGLESON_B__12_0_OFFSET UNITYSDK_OFFSET(0x1F532190)
+#define UNITYENGINE_UI_TOGGLEGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2068F840)
+#define UNITYENGINE_UI_TOGGLEGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2068F880)
+#define UNITYENGINE_UI_TOGGLEGROUP___C__ACTIVETOGGLES_B__13_0_OFFSET UNITYSDK_OFFSET(0x2068F8B0)
+#define UNITYENGINE_UI_TOGGLEGROUP___C__ANYTOGGLESON_B__12_0_OFFSET UNITYSDK_OFFSET(0x2068F890)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ToggleGroup___c_TypeDefinitionIndex = 6870;
+	inline static constexpr unsigned int ToggleGroup___c_TypeDefinitionIndex = 6881;
 
 	class ToggleGroup___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::UnityEngine::UI::Toggle*>** StaticGet___9__12_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::UI::Toggle*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x43140);
+			return (::System::Predicate_1<::UnityEngine::UI::Toggle*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x32D40);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x43148);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x32D48);
 		}
 
 		static ::System::Func_2<::UnityEngine::UI::Toggle*, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::UnityEngine::UI::Toggle*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x43150);
+			return (::System::Func_2<::UnityEngine::UI::Toggle*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x32D50);
 		}
 
 		static ::System::Void _cctor()

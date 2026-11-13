@@ -4,18 +4,18 @@
 class EHELNMGMENO;
 namespace System { class Object; }
 
-#define EHELNMGMENO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E271A20)
-#define EHELNMGMENO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E271A60)
-#define EHELNMGMENO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E271A70)
+#define EHELNMGMENO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF88050)
+#define EHELNMGMENO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF88090)
+#define EHELNMGMENO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FF880A0)
 
-inline static constexpr unsigned int EHELNMGMENO___c_TypeDefinitionIndex = 33330;
+inline static constexpr unsigned int EHELNMGMENO___c_TypeDefinitionIndex = 34245;
 
 	class EHELNMGMENO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48F60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C410);
 		}
 
 		static ::System::Void _cctor()

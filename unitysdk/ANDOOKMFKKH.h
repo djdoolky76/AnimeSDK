@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBMMPJAJFBH;
 
-#define ANDOOKMFKKH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8702F0)
-#define ANDOOKMFKKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C870350)
+#define ANDOOKMFKKH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D874590)
+#define ANDOOKMFKKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8745F0)
 
-inline static constexpr unsigned int ANDOOKMFKKH_TypeDefinitionIndex = 43265;
+inline static constexpr unsigned int ANDOOKMFKKH_TypeDefinitionIndex = 44246;
 
 	class ANDOOKMFKKH : public ::System::Object
 	{

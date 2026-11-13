@@ -4,9 +4,9 @@
 class BOFJHGFAJBN;
 namespace System { template <typename T> class Action_1; }
 
-#define BPGMHFLHAKH_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A3C40)
+#define BPGMHFLHAKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6020A0)
 
-inline static constexpr unsigned int BPGMHFLHAKH_TypeDefinitionIndex = 49647;
+inline static constexpr unsigned int BPGMHFLHAKH_TypeDefinitionIndex = 50723;
 
 	class BPGMHFLHAKH : public ::System::Object
 	{

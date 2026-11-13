@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvDisablePlayerLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HLFHBNBBCKF_CTOR_OFFSET UNITYSDK_OFFSET(0x15D52170)
-#define HLFHBNBBCKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D521A0)
+#define HLFHBNBBCKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1989F5E0)
+#define HLFHBNBBCKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1989F610)
 
-inline static constexpr unsigned int HLFHBNBBCKF_TypeDefinitionIndex = 52348;
+inline static constexpr unsigned int HLFHBNBBCKF_TypeDefinitionIndex = 53454;
 
 	class HLFHBNBBCKF
 	{

@@ -4,20 +4,20 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define DKPKHBMGGNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD0F220)
+#define DKPKHBMGGNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E804B90)
 
-inline static constexpr unsigned int DKPKHBMGGNI_TypeDefinitionIndex = 25002;
+inline static constexpr unsigned int DKPKHBMGGNI_TypeDefinitionIndex = 25482;
 
 	class DKPKHBMGGNI : public ::System::Attribute
 	{
 	public:
-		::System::String* FMBNGMNEIFB; // 0x10
-		::System::String* AFNAAAJILIL; // 0x18
+		::System::String* FCKKFGEKLJA; // 0x10
+		::System::String* FMBNGMNEIFB; // 0x18
 		::System::String* KEOAHDOPBMH; // 0x20
-		::System::String* FCKKFGEKLJA; // 0x28
-		::System::String* DPPJMFBGFJN; // 0x30
-		::System::Object* NBMKFMINNGO; // 0x38
-		::System::String* CHFPPBOOEFK; // 0x40
+		::System::Object* NBMKFMINNGO; // 0x28
+		::System::String* CHFPPBOOEFK; // 0x30
+		::System::String* DPPJMFBGFJN; // 0x38
+		::System::String* AFNAAAJILIL; // 0x40
 		::System::Boolean OEAKMFHPMPN; // 0x48
 		::System::Boolean LONIOGBIKFK; // 0x49
 		::System::Boolean IPLKGEDHJHM; // 0x4A

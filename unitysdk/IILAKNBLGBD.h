@@ -8,58 +8,58 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture; }
 
-#define IILAKNBLGBD_CCTOR_OFFSET UNITYSDK_OFFSET(0x164356B0)
-#define IILAKNBLGBD_CTOR_OFFSET UNITYSDK_OFFSET(0x16435670)
-#define IILAKNBLGBD_ENMMCCNFDGC_OFFSET UNITYSDK_OFFSET(0x164347A0)
-#define IILAKNBLGBD_KODNOFIPEOH_OFFSET UNITYSDK_OFFSET(0x16434600)
-#define IILAKNBLGBD_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x16434930)
-#define IILAKNBLGBD_PCDLKLNDNKO_OFFSET UNITYSDK_OFFSET(0x16434E00)
-#define IILAKNBLGBD__INTERPOLATERES_B__11_0_OFFSET UNITYSDK_OFFSET(0x16435730)
+#define IILAKNBLGBD_CCTOR_OFFSET UNITYSDK_OFFSET(0x193D84F0)
+#define IILAKNBLGBD_CTOR_OFFSET UNITYSDK_OFFSET(0x193D84B0)
+#define IILAKNBLGBD_ENMMCCNFDGC_OFFSET UNITYSDK_OFFSET(0x193D7610)
+#define IILAKNBLGBD_KODNOFIPEOH_OFFSET UNITYSDK_OFFSET(0x193D7470)
+#define IILAKNBLGBD_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x193D7770)
+#define IILAKNBLGBD_PCDLKLNDNKO_OFFSET UNITYSDK_OFFSET(0x193D7C40)
+#define IILAKNBLGBD__INTERPOLATERES_B__11_0_OFFSET UNITYSDK_OFFSET(0x193D8570)
 
-inline static constexpr unsigned int IILAKNBLGBD_TypeDefinitionIndex = 49496;
+inline static constexpr unsigned int IILAKNBLGBD_TypeDefinitionIndex = 50572;
 
 	class IILAKNBLGBD
 	{
 	public:
-		::UnityEngine::RenderTexture* NJJJEBNBDIL; // 0x40
-		::UnityEngine::ComputeShader* CNIJBCAMNPG; // 0x48
+		::UnityEngine::ComputeShader* CNIJBCAMNPG; // 0x40
+		::UnityEngine::RenderTexture* NJJJEBNBDIL; // 0x48
 		::GGLPJCKICNF* CKJEFIJNAMF; // 0x50
-		::System::Single KJECILPBCOD; // 0x58
-		::UnityEngine::Vector2Int KLHJPLELNNI; // 0x5C
-		::RPG::GameCore::GraphicQuality DAPKDIEKEGH; // 0x64
+		::RPG::GameCore::GraphicQuality DAPKDIEKEGH; // 0x58
+		::System::Single KJECILPBCOD; // 0x5C
+		::UnityEngine::Vector2Int KLHJPLELNNI; // 0x60
 		static ::UnityEngine::Texture** StaticGet_DGHDEJOAHFO()
 		{
-			return (::UnityEngine::Texture**)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x5F8B0);
-		}
-
-		static ::System::Int32* StaticGet_IDBALFPIGFE()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x143C0);
-		}
-
-		static ::System::Int32* StaticGet_MBJODJGHFII()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x143C4);
+			return (::UnityEngine::Texture**)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x66930);
 		}
 
 		static ::System::Int32* StaticGet_GLHLKHCOOBF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x143C8);
+			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x14500);
+		}
+
+		static ::System::Int32* StaticGet_MBJODJGHFII()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x14504);
 		}
 
 		static ::System::Int32* StaticGet_BAGFJOFEJEK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x143CC);
+			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x14508);
 		}
 
 		static ::System::Int32* StaticGet_DPBKJHAEHLI()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x143D0);
+			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x1450C);
 		}
 
 		static ::System::Int32* StaticGet_KAKCAOFGJBM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x143D4);
+			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x14510);
+		}
+
+		static ::System::Int32* StaticGet_IDBALFPIGFE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "IILAKNBLGBD")->GetStaticField(0x14514);
 		}
 
 		::System::Void _ctor()

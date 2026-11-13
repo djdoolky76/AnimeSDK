@@ -4,18 +4,18 @@
 class MCHADDCNKPC;
 namespace System { class Object; }
 
-#define MCHADDCNKPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C8230)
-#define MCHADDCNKPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C8270)
-#define MCHADDCNKPC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9C8280)
+#define MCHADDCNKPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD3F250)
+#define MCHADDCNKPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD3F290)
+#define MCHADDCNKPC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD3F2A0)
 
-inline static constexpr unsigned int MCHADDCNKPC___c_TypeDefinitionIndex = 34733;
+inline static constexpr unsigned int MCHADDCNKPC___c_TypeDefinitionIndex = 35661;
 
 	class MCHADDCNKPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49DB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48A20);
 		}
 
 		static ::System::Void _cctor()

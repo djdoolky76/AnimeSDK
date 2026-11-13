@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OODEOHIDMEG;
 
-#define KFPILPKOELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB89DC0)
+#define KFPILPKOELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C99D0)
 
-inline static constexpr unsigned int KFPILPKOELE_TypeDefinitionIndex = 43798;
+inline static constexpr unsigned int KFPILPKOELE_TypeDefinitionIndex = 44873;
 
 	class KFPILPKOELE : public ::System::Object
 	{

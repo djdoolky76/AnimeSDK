@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE329A0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE329D0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__CREATEWEBREQUEST_B__61_0_OFFSET UNITYSDK_OFFSET(0x1EE329E0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__SENDASYNC_B__64_0_OFFSET UNITYSDK_OFFSET(0x1EE32A20)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFD1440)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFD1470)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__CREATEWEBREQUEST_B__61_0_OFFSET UNITYSDK_OFFSET(0x1FFD1480)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__SENDASYNC_B__64_0_OFFSET UNITYSDK_OFFSET(0x1FFD14C0)
 
 namespace System::Net::Http
 {
@@ -18,19 +18,19 @@ namespace System::Net::Http
 	class HttpClientHandler___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__61_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0x3A1A0);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0xB040);
+			return (::System::Object**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0x3A1A8);
 		}
 
 		static ::System::Action_1<::System::Object*>** StaticGet___9__64_0()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0xB048);
-		}
-
-		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__61_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0xB050);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0x3A1B0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsCurrentSkillAllowMultiTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PABGHPOKAKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBD360)
-#define PABGHPOKAKI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFBD390)
+#define PABGHPOKAKI_CTOR_OFFSET UNITYSDK_OFFSET(0x18AD37B0)
+#define PABGHPOKAKI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18AD37E0)
 
-inline static constexpr unsigned int PABGHPOKAKI_TypeDefinitionIndex = 54600;
+inline static constexpr unsigned int PABGHPOKAKI_TypeDefinitionIndex = 55765;
 
 	class PABGHPOKAKI
 	{

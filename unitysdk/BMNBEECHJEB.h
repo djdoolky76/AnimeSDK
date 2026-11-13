@@ -4,9 +4,9 @@
 class AJEAHAODOHJ;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BMNBEECHJEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBB230)
+#define BMNBEECHJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A751EF0)
 
-inline static constexpr unsigned int BMNBEECHJEB_TypeDefinitionIndex = 62035;
+inline static constexpr unsigned int BMNBEECHJEB_TypeDefinitionIndex = 63447;
 
 	class BMNBEECHJEB : public ::System::Object
 	{

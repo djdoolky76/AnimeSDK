@@ -5,12 +5,12 @@ namespace RPG::Client { class GridFightNPC; }
 namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B73B0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__2_OFFSET UNITYSDK_OFFSET(0xD2B7560)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F3880)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__2_OFFSET UNITYSDK_OFFSET(0x1C9F3A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0_TypeDefinitionIndex = 65488;
+	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0_TypeDefinitionIndex = 67399;
 
 	class GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace R3
 {
-	inline static constexpr unsigned int ObserverExtensions_TypeDefinitionIndex = 35929;
+	inline static constexpr unsigned int ObserverExtensions_TypeDefinitionIndex = 36857;
 
 	class ObserverExtensions : public ::System::Object
 	{

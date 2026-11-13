@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/PhysicsCollider2DConfig.h"
 #include "unitysdk/RPG/MVector2.h"
 
-#define HKNFNDOKEDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C639600)
+#define HKNFNDOKEDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C921E00)
 
-inline static constexpr unsigned int HKNFNDOKEDF_TypeDefinitionIndex = 36567;
+inline static constexpr unsigned int HKNFNDOKEDF_TypeDefinitionIndex = 37495;
 
 	class HKNFNDOKEDF : public ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DConfig
 	{

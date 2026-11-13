@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int IMultipartFormSection_TypeDefinitionIndex = 5353;
+	inline static constexpr unsigned int IMultipartFormSection_TypeDefinitionIndex = 5358;
 
 	class IMultipartFormSection
 	{

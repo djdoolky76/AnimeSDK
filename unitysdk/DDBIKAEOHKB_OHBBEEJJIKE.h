@@ -4,7 +4,7 @@
 class MKPPJMBJLMO;
 namespace System { class Type; }
 
-inline static constexpr unsigned int DDBIKAEOHKB_OHBBEEJJIKE_TypeDefinitionIndex = 55988;
+inline static constexpr unsigned int DDBIKAEOHKB_OHBBEEJJIKE_TypeDefinitionIndex = 57191;
 
 	struct alignas(8) DDBIKAEOHKB_OHBBEEJJIKE
 	{

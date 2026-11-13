@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ECrowdLookAtMode_TypeDefinitionIndex = 10497;
+	inline static constexpr unsigned int ECrowdLookAtMode_TypeDefinitionIndex = 10508;
 
 	enum class ECrowdLookAtMode : ::System::Int32
 	{

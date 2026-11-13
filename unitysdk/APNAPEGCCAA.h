@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define APNAPEGCCAA_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB31A0)
+#define APNAPEGCCAA_CTOR_OFFSET UNITYSDK_OFFSET(0x18518DB0)
 
-inline static constexpr unsigned int APNAPEGCCAA_TypeDefinitionIndex = 59034;
+inline static constexpr unsigned int APNAPEGCCAA_TypeDefinitionIndex = 60309;
 
 	class APNAPEGCCAA : public ::System::Object
 	{

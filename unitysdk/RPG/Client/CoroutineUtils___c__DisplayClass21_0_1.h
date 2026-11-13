@@ -5,7 +5,7 @@ namespace RPG::Client { class ICoroutineGroupController; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoroutineUtils___c__DisplayClass21_0_1_TypeDefinitionIndex = 35225;
+	inline static constexpr unsigned int CoroutineUtils___c__DisplayClass21_0_1_TypeDefinitionIndex = 36153;
 
 	template <typename T>
 	class CoroutineUtils___c__DisplayClass21_0_1 : public ::System::Object

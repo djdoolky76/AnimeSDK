@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define FLBFBLDLINO_CTOR_OFFSET UNITYSDK_OFFSET(0x1581DF10)
+#define FLBFBLDLINO_CTOR_OFFSET UNITYSDK_OFFSET(0x18958340)
 
-inline static constexpr unsigned int FLBFBLDLINO_TypeDefinitionIndex = 48050;
+inline static constexpr unsigned int FLBFBLDLINO_TypeDefinitionIndex = 49081;
 
 	class FLBFBLDLINO : public ::UnityEngine::Playables::PlayableBehaviour
 	{

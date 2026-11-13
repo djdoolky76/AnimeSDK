@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class GlobalOverrideTimeRewindSpecialControlMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMHIGHEBGDD_CTOR_OFFSET UNITYSDK_OFFSET(0x164C6A20)
-#define IMHIGHEBGDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164C6A50)
+#define IMHIGHEBGDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D31A0)
+#define IMHIGHEBGDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5D31D0)
 
-inline static constexpr unsigned int IMHIGHEBGDD_TypeDefinitionIndex = 53373;
+inline static constexpr unsigned int IMHIGHEBGDD_TypeDefinitionIndex = 54535;
 
 	class IMHIGHEBGDD
 	{

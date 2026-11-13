@@ -8,110 +8,110 @@ namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xE298B80)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_CCTOR_OFFSET UNITYSDK_OFFSET(0xE299800)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_CTOR_OFFSET UNITYSDK_OFFSET(0xE2943B0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_DPCDEAPBJGP_OFFSET UNITYSDK_OFFSET(0xE2980E0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_HLEHEJFPKCK_OFFSET UNITYSDK_OFFSET(0xE2995B0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_KOAJIAMELBF_OFFSET UNITYSDK_OFFSET(0xE299400)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_NDDNGOOKCOL_OFFSET UNITYSDK_OFFSET(0xE2990B0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_NKPJNGEBBOM_OFFSET UNITYSDK_OFFSET(0xE299260)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x1A1522F0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A152F60)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A14DB20)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_DPCDEAPBJGP_OFFSET UNITYSDK_OFFSET(0x1A151850)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_HLEHEJFPKCK_OFFSET UNITYSDK_OFFSET(0x1A152D20)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_KOAJIAMELBF_OFFSET UNITYSDK_OFFSET(0x1A152B70)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_NDDNGOOKCOL_OFFSET UNITYSDK_OFFSET(0x1A152820)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GOKDCHLDBDB_NKPJNGEBBOM_OFFSET UNITYSDK_OFFSET(0x1A1529D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_GOKDCHLDBDB_TypeDefinitionIndex = 70231;
+	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_GOKDCHLDBDB_TypeDefinitionIndex = 72197;
 
 	class TimeSpaceCrisscrossLightsBehavior_GOKDCHLDBDB : public ::System::Object
 	{
 	public:
 		::UnityEngine::Texture2D* JPDCGGGHFPK; // 0x10
 		::UnityEngine::Texture2D* ILPIHIDECEF; // 0x18
-		::System::Single DPACPLCBMMC; // 0x20
-		::UnityEngine::Vector3 PAJDHIHOJIJ; // 0x24
-		::System::Single ADMFMCMANBO; // 0x30
-		::System::Single GCPBJBCGEGA; // 0x34
-		::System::Single NIJGIHPNFGC; // 0x38
-		::System::Single JACHFNCCNKN; // 0x3C
-		::System::Single HODGPPFCHBC; // 0x40
-		::System::Single GCOBCACECEH; // 0x44
-		::System::Single AALHHJBPNFK; // 0x48
-		::System::Single EGCJEDOJACO; // 0x4C
-		::System::Single OHCHDNHHFHD; // 0x50
-		::System::Single EBCCAKKPGID; // 0x54
-		::System::Single MLKMAKMBDCN; // 0x58
-		static ::System::Int32* StaticGet_AHJOOPCAAJD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BA0);
-		}
-
-		static ::System::Int32* StaticGet_NFFOAJKMGBF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BA4);
-		}
-
-		static ::System::Int32* StaticGet_PAMADFAKAAG()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BA8);
-		}
-
-		static ::System::Int32* StaticGet_CKMBMJHEJJA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BAC);
-		}
-
-		static ::System::Int32* StaticGet_FINLMEOOOOP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BB0);
-		}
-
-		static ::System::Int32* StaticGet_EKJAGDJEKLK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BB4);
-		}
-
-		static ::System::Int32* StaticGet_NEFNJAMKPLM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BB8);
-		}
-
+		::System::Single GCPBJBCGEGA; // 0x20
+		::System::Single ADMFMCMANBO; // 0x24
+		::System::Single OHCHDNHHFHD; // 0x28
+		::System::Single HODGPPFCHBC; // 0x2C
+		::System::Single GCOBCACECEH; // 0x30
+		::System::Single JACHFNCCNKN; // 0x34
+		::System::Single EBCCAKKPGID; // 0x38
+		::System::Single DPACPLCBMMC; // 0x3C
+		::System::Single EGCJEDOJACO; // 0x40
+		::System::Single AALHHJBPNFK; // 0x44
+		::System::Single MLKMAKMBDCN; // 0x48
+		::System::Single NIJGIHPNFGC; // 0x4C
+		::UnityEngine::Vector3 PAJDHIHOJIJ; // 0x50
 		static ::System::Int32* StaticGet_PANFLCEKCCG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BBC);
-		}
-
-		static ::System::Int32* StaticGet_HCHODDMNMOM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BC0);
-		}
-
-		static ::System::Int32* StaticGet_GAPJGIGAKAJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BC4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8460);
 		}
 
 		static ::System::Int32* StaticGet_EFJLKNOCLIN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BC8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8464);
 		}
 
-		static ::System::Int32* StaticGet_FGLFPPENBKI()
+		static ::System::Int32* StaticGet_PAMADFAKAAG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BCC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8468);
 		}
 
-		static ::System::Int32* StaticGet_KONGHHFFNMN()
+		static ::System::Int32* StaticGet_HCHODDMNMOM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BD0);
-		}
-
-		static ::System::Int32* StaticGet_NPMDGBKIOME()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BD4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x846C);
 		}
 
 		static ::System::Int32* StaticGet_IAJDGLGEEKL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x5BD8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8470);
+		}
+
+		static ::System::Int32* StaticGet_NEFNJAMKPLM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8474);
+		}
+
+		static ::System::Int32* StaticGet_FGLFPPENBKI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8478);
+		}
+
+		static ::System::Int32* StaticGet_GAPJGIGAKAJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x847C);
+		}
+
+		static ::System::Int32* StaticGet_NFFOAJKMGBF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8480);
+		}
+
+		static ::System::Int32* StaticGet_CKMBMJHEJJA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8484);
+		}
+
+		static ::System::Int32* StaticGet_FINLMEOOOOP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8488);
+		}
+
+		static ::System::Int32* StaticGet_AHJOOPCAAJD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x848C);
+		}
+
+		static ::System::Int32* StaticGet_NPMDGBKIOME()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8490);
+		}
+
+		static ::System::Int32* StaticGet_KONGHHFFNMN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8494);
+		}
+
+		static ::System::Int32* StaticGet_EKJAGDJEKLK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GOKDCHLDBDB")->GetStaticField(0x8498);
 		}
 
 		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1)

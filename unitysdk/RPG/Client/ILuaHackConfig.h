@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ILuaHackConfig_TypeDefinitionIndex = 59397;
+	inline static constexpr unsigned int ILuaHackConfig_TypeDefinitionIndex = 60674;
 
 	class ILuaHackConfig
 	{

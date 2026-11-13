@@ -10,19 +10,19 @@ class PIHNNIFOPOC;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IAHCDBNIDNG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E00510)
-#define IAHCDBNIDNG_DCFAKMPMNFJ_OFFSET UNITYSDK_OFFSET(0x15E009C0)
-#define IAHCDBNIDNG_DGHONILEANL_OFFSET UNITYSDK_OFFSET(0x15E01470)
-#define IAHCDBNIDNG_IFMOAJFEBDO_OFFSET UNITYSDK_OFFSET(0x15E01380)
-#define IAHCDBNIDNG_PENLOOKMGKI_OFFSET UNITYSDK_OFFSET(0x15E00D90)
+#define IAHCDBNIDNG_CTOR_OFFSET UNITYSDK_OFFSET(0x19420C80)
+#define IAHCDBNIDNG_DCFAKMPMNFJ_OFFSET UNITYSDK_OFFSET(0x19421130)
+#define IAHCDBNIDNG_DGHONILEANL_OFFSET UNITYSDK_OFFSET(0x19421BE0)
+#define IAHCDBNIDNG_IFMOAJFEBDO_OFFSET UNITYSDK_OFFSET(0x19421AF0)
+#define IAHCDBNIDNG_PENLOOKMGKI_OFFSET UNITYSDK_OFFSET(0x19421500)
 
-inline static constexpr unsigned int IAHCDBNIDNG_TypeDefinitionIndex = 65568;
+inline static constexpr unsigned int IAHCDBNIDNG_TypeDefinitionIndex = 67484;
 
 	class IAHCDBNIDNG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::KOENIOPIGHK*>* OOPCLGFHEJF; // 0x10
-		::System::Collections::Generic::List_1<::NKLAFHFHELL*>* FDDMBDIOIOH; // 0x18
+		::System::Collections::Generic::List_1<::NKLAFHFHELL*>* FDDMBDIOIOH; // 0x10
+		::System::Collections::Generic::List_1<::KOENIOPIGHK*>* OOPCLGFHEJF; // 0x18
 		::KADBJJAOMGI* ODCAGDKPCEA; // 0x20
 		// static const ::System::Object ANHOJHDGEDF; // 0x0
 		::System::Void _ctor()

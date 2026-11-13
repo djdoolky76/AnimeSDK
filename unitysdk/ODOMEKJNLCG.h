@@ -6,10 +6,10 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define ODOMEKJNLCG_FHLKFMGAKJN_OFFSET UNITYSDK_OFFSET(0xBDEADD0)
-#define ODOMEKJNLCG_IFNCGMDKJJL_OFFSET UNITYSDK_OFFSET(0xBDEAA80)
+#define ODOMEKJNLCG_FHLKFMGAKJN_OFFSET UNITYSDK_OFFSET(0x17616A80)
+#define ODOMEKJNLCG_IFNCGMDKJJL_OFFSET UNITYSDK_OFFSET(0x17616730)
 
-inline static constexpr unsigned int ODOMEKJNLCG_TypeDefinitionIndex = 79982;
+inline static constexpr unsigned int ODOMEKJNLCG_TypeDefinitionIndex = 82759;
 
 	class ODOMEKJNLCG : public ::System::Object
 	{

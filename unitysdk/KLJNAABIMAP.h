@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KLJNAABIMAP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D07C790)
-#define KLJNAABIMAP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D07CD10)
-#define KLJNAABIMAP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D07C900)
-#define KLJNAABIMAP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D07C240)
-#define KLJNAABIMAP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D07C4D0)
-#define KLJNAABIMAP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D07C9A0)
-#define KLJNAABIMAP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D07C9F0)
-#define KLJNAABIMAP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D07C7D0)
-#define KLJNAABIMAP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D07C470)
-#define KLJNAABIMAP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D07C640)
-#define KLJNAABIMAP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D07C860)
-#define KLJNAABIMAP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D07C1C0)
+#define KLJNAABIMAP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1ECDBB30)
+#define KLJNAABIMAP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECDC0B0)
+#define KLJNAABIMAP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1ECDBCA0)
+#define KLJNAABIMAP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1ECDB5E0)
+#define KLJNAABIMAP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1ECDB870)
+#define KLJNAABIMAP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1ECDBD40)
+#define KLJNAABIMAP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1ECDBD90)
+#define KLJNAABIMAP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1ECDBB70)
+#define KLJNAABIMAP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1ECDB810)
+#define KLJNAABIMAP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1ECDB9E0)
+#define KLJNAABIMAP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1ECDBC00)
+#define KLJNAABIMAP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1ECDB560)
 
-inline static constexpr unsigned int KLJNAABIMAP_TypeDefinitionIndex = 13937;
+inline static constexpr unsigned int KLJNAABIMAP_TypeDefinitionIndex = 14094;
 
 	class KLJNAABIMAP : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0x36030);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MANIJAAODMF*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MANIJAAODMF*>**)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0x36038);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MANIJAAODMF*>**)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0x37EE0);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0x37EE8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0x36040);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0xAEC0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0x37EF0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0xAEC1);
+			return (::System::Boolean*)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0xB050);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "KLJNAABIMAP")->GetStaticField(0xB051);
 		}
 
 		static ::System::Void _cctor()

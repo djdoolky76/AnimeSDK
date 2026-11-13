@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesCardRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESCARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F79C0)
-#define RPG_GAMECORE_PLANETFESCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F76A0)
+#define RPG_GAMECORE_PLANETFESCARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE660E0)
+#define RPG_GAMECORE_PLANETFESCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE65DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesCardRow_TypeDefinitionIndex = 12211;
+	inline static constexpr unsigned int PlanetFesCardRow_TypeDefinitionIndex = 12268;
 
 	class PlanetFesCardRow : public ::System::Object
 	{
 	public:
-		::System::String* PicPath; // 0x10
-		::Il2CppArray<::System::UInt32>* PieceItemList; // 0x18
-		::Il2CppArray<::System::UInt32>* BuffIDList; // 0x20
-		::System::UInt32 CardID; // 0x28
-		::System::UInt32 Rarity; // 0x2C
+		::Il2CppArray<::System::UInt32>* BuffIDList; // 0x10
+		::System::String* PicPath; // 0x18
+		::Il2CppArray<::System::UInt32>* PieceItemList; // 0x20
+		::System::UInt32 Rarity; // 0x28
+		::System::UInt32 CardID; // 0x2C
 		::RPG::Client::TextID Name; // 0x30
 		::RPG::Client::TextID Description; // 0x40
 		::System::Void _ctor()

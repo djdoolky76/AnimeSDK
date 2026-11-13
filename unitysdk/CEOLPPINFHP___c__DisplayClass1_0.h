@@ -5,10 +5,10 @@ class CEOLPPINFHP;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropSpecialVisionConfig; }
 
-#define CEOLPPINFHP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9EF5A0)
-#define CEOLPPINFHP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xC9EFBC0)
+#define CEOLPPINFHP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18832DF0)
+#define CEOLPPINFHP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x18833410)
 
-inline static constexpr unsigned int CEOLPPINFHP___c__DisplayClass1_0_TypeDefinitionIndex = 58572;
+inline static constexpr unsigned int CEOLPPINFHP___c__DisplayClass1_0_TypeDefinitionIndex = 59837;
 
 	class CEOLPPINFHP___c__DisplayClass1_0 : public ::System::Object
 	{

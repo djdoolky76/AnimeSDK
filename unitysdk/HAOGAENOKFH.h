@@ -6,25 +6,25 @@ class FCOEMCEDLNL;
 class HAOGAENOKFH;
 namespace System { class String; }
 
-#define HAOGAENOKFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE52C40)
-#define HAOGAENOKFH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE528E0)
+#define HAOGAENOKFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D50B0)
+#define HAOGAENOKFH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9D4D50)
 
-inline static constexpr unsigned int HAOGAENOKFH_TypeDefinitionIndex = 15405;
+inline static constexpr unsigned int HAOGAENOKFH_TypeDefinitionIndex = 15562;
 
 	class HAOGAENOKFH : public ::System::Object
 	{
 	public:
 		::System::String* EEBNMNAJJHF; // 0x10
-		::System::UInt32 HMKPKMILCAE; // 0x18
-		::RPG::GameCore::CombatPowerRelicRarityType NHAFDDACLLA; // 0x1C
-		::System::UInt32 LEPEPJIHEFL; // 0x20
-		::System::UInt32 JPJLIFNHPAA; // 0x24
-		::System::UInt32 BAFNGNPHHEC; // 0x28
-		::System::UInt32 JDGHCBCNMBI; // 0x2C
-		::System::UInt32 HLLMOIBCKNO; // 0x30
-		::System::UInt32 OCMAKGJLFBJ; // 0x34
-		::RPG::GameCore::CombatPowerRelicRarityType ILHDODKFKOI; // 0x38
-		::System::UInt32 OPJDGJNAKFF; // 0x3C
+		::System::UInt32 HLLMOIBCKNO; // 0x18
+		::System::UInt32 OCMAKGJLFBJ; // 0x1C
+		::System::UInt32 OPJDGJNAKFF; // 0x20
+		::RPG::GameCore::CombatPowerRelicRarityType ILHDODKFKOI; // 0x24
+		::System::UInt32 JDGHCBCNMBI; // 0x28
+		::System::UInt32 LEPEPJIHEFL; // 0x2C
+		::System::UInt32 JPJLIFNHPAA; // 0x30
+		::System::UInt32 BAFNGNPHHEC; // 0x34
+		::System::UInt32 HMKPKMILCAE; // 0x38
+		::RPG::GameCore::CombatPowerRelicRarityType NHAFDDACLLA; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HAOGAENOKFH_CTOR_OFFSET))(this);

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BubbleTalkInfo; }
 namespace RPG::GameCore { class CollectionPlayBubbleTalk; }
 namespace RPG::GameCore { class DynamicStringList; }
 
-#define RPG_GAMECORE_COLLECTIONPLAYBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59C8B0)
-#define RPG_GAMECORE_COLLECTIONPLAYBUBBLETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59C8D0)
-#define RPG_GAMECORE_COLLECTIONPLAYBUBBLETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59C860)
+#define RPG_GAMECORE_COLLECTIONPLAYBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F512DF0)
+#define RPG_GAMECORE_COLLECTIONPLAYBUBBLETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F512E10)
+#define RPG_GAMECORE_COLLECTIONPLAYBUBBLETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F512DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CollectionPlayBubbleTalk_TypeDefinitionIndex = 20410;
+	inline static constexpr unsigned int CollectionPlayBubbleTalk_TypeDefinitionIndex = 20745;
 
 	class CollectionPlayBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPopupSkillDescShowType_TypeDefinitionIndex = 76077;
+	inline static constexpr unsigned int DiceCombatPopupSkillDescShowType_TypeDefinitionIndex = 78404;
 
 	enum class DiceCombatPopupSkillDescShowType : ::System::Int32
 	{

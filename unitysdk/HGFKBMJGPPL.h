@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInElationTime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HGFKBMJGPPL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8C600)
-#define HGFKBMJGPPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C8C630)
+#define HGFKBMJGPPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4406A0)
+#define HGFKBMJGPPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C4406D0)
 
-inline static constexpr unsigned int HGFKBMJGPPL_TypeDefinitionIndex = 54666;
+inline static constexpr unsigned int HGFKBMJGPPL_TypeDefinitionIndex = 55832;
 
 	class HGFKBMJGPPL
 	{

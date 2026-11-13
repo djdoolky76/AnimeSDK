@@ -4,18 +4,18 @@
 class NMECHIFGKAD;
 namespace System { class Object; }
 
-#define NMECHIFGKAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB43A20)
-#define NMECHIFGKAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB43A50)
-#define NMECHIFGKAD___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EB43A60)
+#define NMECHIFGKAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FECEB90)
+#define NMECHIFGKAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FECEBC0)
+#define NMECHIFGKAD___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1FECEBD0)
 
-inline static constexpr unsigned int NMECHIFGKAD___c_TypeDefinitionIndex = 29674;
+inline static constexpr unsigned int NMECHIFGKAD___c_TypeDefinitionIndex = 30492;
 
 	class NMECHIFGKAD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A4C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E5B0);
 		}
 
 		static ::System::Void _cctor()
@@ -28,9 +28,9 @@ inline static constexpr unsigned int NMECHIFGKAD___c_TypeDefinitionIndex = 29674
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NMECHIFGKAD___C_CTOR_OFFSET))(this);
 		}
 
-		::NMECHIFGKAD* __cctor_b__43_0()
+		::NMECHIFGKAD* __cctor_b__58_0()
 		{
-			return ((::NMECHIFGKAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + NMECHIFGKAD___C___CCTOR_B__43_0_OFFSET))(this);
+			return ((::NMECHIFGKAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + NMECHIFGKAD___C___CCTOR_B__58_0_OFFSET))(this);
 		}
 
 	};

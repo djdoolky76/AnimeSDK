@@ -6,12 +6,12 @@ namespace RPG::GameCore { class TerrainStageLodConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TERRAINSTAGELODCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB527D0)
-#define RPG_GAMECORE_TERRAINSTAGELODCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB52700)
+#define RPG_GAMECORE_TERRAINSTAGELODCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C7450)
+#define RPG_GAMECORE_TERRAINSTAGELODCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C7380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TerrainStageLodConfig_TypeDefinitionIndex = 19205;
+	inline static constexpr unsigned int TerrainStageLodConfig_TypeDefinitionIndex = 19395;
 
 	class TerrainStageLodConfig : public ::RPG::GameCore::JsonConfig
 	{

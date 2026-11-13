@@ -5,19 +5,19 @@
 class KAPEMBCNNIG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GHNIDOJKJMP_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A1F7E0)
-#define GHNIDOJKJMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1F7D0)
-#define GHNIDOJKJMP_ECGJFNEJOGM_OFFSET UNITYSDK_OFFSET(0x15A1F770)
-#define GHNIDOJKJMP_KPOEEGOOEPO_OFFSET UNITYSDK_OFFSET(0x15A1F340)
+#define GHNIDOJKJMP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3CF7D0)
+#define GHNIDOJKJMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3CF7C0)
+#define GHNIDOJKJMP_ECGJFNEJOGM_OFFSET UNITYSDK_OFFSET(0x1A3CF760)
+#define GHNIDOJKJMP_KPOEEGOOEPO_OFFSET UNITYSDK_OFFSET(0x1A3CF330)
 
-inline static constexpr unsigned int GHNIDOJKJMP_TypeDefinitionIndex = 71576;
+inline static constexpr unsigned int GHNIDOJKJMP_TypeDefinitionIndex = 73563;
 
 	class GHNIDOJKJMP : public ::System::Object
 	{
 	public:
 		static ::KAPEMBCNNIG** StaticGet_OHAANDBJIOD()
 		{
-			return (::KAPEMBCNNIG**)UnitySDK::FromName("", "GHNIDOJKJMP")->GetStaticField(0x64420);
+			return (::KAPEMBCNNIG**)UnitySDK::FromName("", "GHNIDOJKJMP")->GetStaticField(0x69D60);
 		}
 
 		::System::Void _ctor()

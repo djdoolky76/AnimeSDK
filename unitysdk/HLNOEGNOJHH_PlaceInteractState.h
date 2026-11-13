@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HLNOEGNOJHH_PlaceInteractState_TypeDefinitionIndex = 77756;
+inline static constexpr unsigned int HLNOEGNOJHH_PlaceInteractState_TypeDefinitionIndex = 80491;
 
 	enum class HLNOEGNOJHH_PlaceInteractState : ::System::Int32
 	{

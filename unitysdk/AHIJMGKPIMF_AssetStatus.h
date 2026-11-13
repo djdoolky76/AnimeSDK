@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AHIJMGKPIMF_AssetStatus_TypeDefinitionIndex = 71353;
+inline static constexpr unsigned int AHIJMGKPIMF_AssetStatus_TypeDefinitionIndex = 73330;
 
 	enum class AHIJMGKPIMF_AssetStatus : ::System::Int32
 	{

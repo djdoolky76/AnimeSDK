@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_ProtocolElements_TypeDefinitionIndex = 46806;
+	inline static constexpr unsigned int UIConstants_ProtocolElements_TypeDefinitionIndex = 47834;
 
 	class UIConstants_ProtocolElements : public ::System::Object
 	{

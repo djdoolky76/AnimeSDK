@@ -7,11 +7,11 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 namespace RPG::GameCore { class LittleGameAbilityValueGetterConstantConfig; }
 
-#define GNCADNFEHAC_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF15D0)
-#define GNCADNFEHAC_FIJOLNFHKAL_OFFSET UNITYSDK_OFFSET(0x15AF1510)
-#define GNCADNFEHAC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x15AF1480)
+#define GNCADNFEHAC_CTOR_OFFSET UNITYSDK_OFFSET(0x16CAA0F0)
+#define GNCADNFEHAC_FIJOLNFHKAL_OFFSET UNITYSDK_OFFSET(0x16CAA030)
+#define GNCADNFEHAC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x16CA9FA0)
 
-inline static constexpr unsigned int GNCADNFEHAC_TypeDefinitionIndex = 77394;
+inline static constexpr unsigned int GNCADNFEHAC_TypeDefinitionIndex = 79728;
 
 	class GNCADNFEHAC : public ::System::Object
 	{

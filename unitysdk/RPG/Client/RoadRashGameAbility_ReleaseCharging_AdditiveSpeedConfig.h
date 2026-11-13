@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::Client { class RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FF110)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FEA80)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CEAC0)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_RELEASECHARGING_ADDITIVESPEEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7CE430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig_TypeDefinitionIndex = 10285;
+	inline static constexpr unsigned int RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig_TypeDefinitionIndex = 10295;
 
 	class RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig : public ::RPG::GameCore::JsonConfig
 	{

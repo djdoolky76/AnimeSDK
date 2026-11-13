@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCE3BC00)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_1__SORTWEAPONLIST_B__1_OFFSET UNITYSDK_OFFSET(0xCE3BC20)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_1__SORTWEAPONLIST_B__2_OFFSET UNITYSDK_OFFSET(0xCE3BC50)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB67630)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_1__SORTWEAPONLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1DB67650)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_1__SORTWEAPONLIST_B__2_OFFSET UNITYSDK_OFFSET(0x1DB67680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_1_TypeDefinitionIndex = 63818;
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_1_TypeDefinitionIndex = 65260;
 
 	template <typename T>
 	class EvolveBuildUtils___c__DisplayClass2_1 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::EvolveBuildGearEquipInfo* a; // 0x10
-		::RPG::GameCore::EvolveBuildGearEquipInfo* b; // 0x18
+		::RPG::GameCore::EvolveBuildGearEquipInfo* b; // 0x10
+		::RPG::GameCore::EvolveBuildGearEquipInfo* a; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_1_CTOR_OFFSET))(this);

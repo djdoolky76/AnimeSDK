@@ -4,13 +4,13 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define SOFA_CORE_SIMPLECOMMAND_CANEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EC63A40)
-#define SOFA_CORE_SIMPLECOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC63A30)
-#define SOFA_CORE_SIMPLECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EC63A90)
+#define SOFA_CORE_SIMPLECOMMAND_CANEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E54D560)
+#define SOFA_CORE_SIMPLECOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0x1E54D550)
+#define SOFA_CORE_SIMPLECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E54D5B0)
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int SimpleCommand_TypeDefinitionIndex = 44080;
+	inline static constexpr unsigned int SimpleCommand_TypeDefinitionIndex = 45155;
 
 	class SimpleCommand : public ::System::Object
 	{

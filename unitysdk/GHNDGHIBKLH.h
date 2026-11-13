@@ -7,17 +7,17 @@ class GHNDGHIBKLH;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define GHNDGHIBKLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1D340)
-#define GHNDGHIBKLH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE1D350)
-#define GHNDGHIBKLH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE1D310)
+#define GHNDGHIBKLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E63EE40)
+#define GHNDGHIBKLH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E63EE50)
+#define GHNDGHIBKLH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E63EE10)
 
-inline static constexpr unsigned int GHNDGHIBKLH_TypeDefinitionIndex = 22443;
+inline static constexpr unsigned int GHNDGHIBKLH_TypeDefinitionIndex = 22852;
 
 	class GHNDGHIBKLH : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x18
-		::System::String* LLOBIMGOPOP; // 0x20
+		::System::String* LLOBIMGOPOP; // 0x18
+		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x20
 		::RPG::GameCore::STTaskExecutePhase PPOIJHJIMLL; // 0x28
 		::System::Void _ctor()
 		{

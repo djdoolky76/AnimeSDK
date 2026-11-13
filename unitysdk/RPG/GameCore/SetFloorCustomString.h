@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetFloorCustomString; }
 namespace RPG::GameCore { class SetFloorCustomValueExtraInfo; }
 
-#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA86700)
-#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA86710)
-#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA866D0)
+#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D3F70)
+#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D3F80)
+#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D3F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFloorCustomString_TypeDefinitionIndex = 20692;
+	inline static constexpr unsigned int SetFloorCustomString_TypeDefinitionIndex = 21029;
 
 	class SetFloorCustomString : public ::RPG::GameCore::TaskConfig
 	{

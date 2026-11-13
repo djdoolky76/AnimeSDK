@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/WolfBroGunPlayTargetActionConfig.h"
 class JNKPPLPLFOM;
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_BOSSSETTLEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE46B090)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_BOSSSETTLEMENT_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE46B010)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_BOSSSETTLEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9B880)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_BOSSSETTLEMENT_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0x1BC9B800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_BossSettlement_TypeDefinitionIndex = 68715;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_BossSettlement_TypeDefinitionIndex = 70667;
 
 	class WolfBroGunPlayTargetActionConfig_BossSettlement : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

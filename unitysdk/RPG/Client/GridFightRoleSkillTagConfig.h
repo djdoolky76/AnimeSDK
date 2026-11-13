@@ -5,12 +5,12 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class GridFightRoleTagInfoConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESKILLTAGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD261A40)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLTAGCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xD261A80)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLTAGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F2BD0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLTAGCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x1D4F2C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleSkillTagConfig_TypeDefinitionIndex = 65125;
+	inline static constexpr unsigned int GridFightRoleSkillTagConfig_TypeDefinitionIndex = 66806;
 
 	class GridFightRoleSkillTagConfig : public ::System::Object
 	{

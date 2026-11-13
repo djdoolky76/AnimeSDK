@@ -7,30 +7,30 @@ namespace RPG::GameCore { class GridFightActivityResidentConfigRow; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F7A50)
-#define RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6F7580)
+#define RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x205FA9D0)
+#define RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x205FA500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightActivityResidentConfigRow_TypeDefinitionIndex = 13437;
+	inline static constexpr unsigned int GridFightActivityResidentConfigRow_TypeDefinitionIndex = 13511;
 
 	class GridFightActivityResidentConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ActivityTagList; // 0x10
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x18
-		::System::String* TitleIconPath; // 0x20
-		::System::String* IntroGuideImg; // 0x28
-		::System::UInt32 RelatedActivityPanelID; // 0x30
-		::System::UInt32 ActivityModuleID; // 0x34
-		::System::UInt32 SortWeight; // 0x38
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID ResidentName; // 0x40
-		::System::Boolean IsShowRemainTime; // 0x50
-		::System::Byte _padding1[0x3];
-		::System::UInt32 ActivityID; // 0x54
-		::RPG::Client::TextID ResidentDesc; // 0x58
-		::RPG::Client::TextID ResidentBrief; // 0x68
+		::System::String* IntroGuideImg; // 0x20
+		::System::String* TitleIconPath; // 0x28
+		::System::Boolean IsShowRemainTime; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::UInt32 ActivityID; // 0x34
+		::System::UInt32 ActivityModuleID; // 0x38
+		::System::Byte _padding1[0x4];
+		::RPG::Client::TextID ResidentBrief; // 0x40
+		::RPG::Client::TextID ResidentName; // 0x50
+		::RPG::Client::TextID ResidentDesc; // 0x60
+		::System::UInt32 RelatedActivityPanelID; // 0x70
+		::System::UInt32 SortWeight; // 0x74
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW_CTOR_OFFSET))(this);

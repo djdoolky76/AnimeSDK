@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Skip_1__Skip_TypeDefinitionIndex = 45580;
+	inline static constexpr unsigned int Skip_1__Skip_TypeDefinitionIndex = 46609;
 
 	template <typename T>
 	class Skip_1__Skip

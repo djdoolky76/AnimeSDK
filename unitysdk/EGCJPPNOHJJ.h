@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RogueDLC1Dot3ImmediateNotify; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGCJPPNOHJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x13A60930)
-#define EGCJPPNOHJJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A60940)
-#define EGCJPPNOHJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A609E0)
-#define EGCJPPNOHJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A60A60)
-#define EGCJPPNOHJJ_TICK_OFFSET UNITYSDK_OFFSET(0x13A60980)
+#define EGCJPPNOHJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17BFA8B0)
+#define EGCJPPNOHJJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17BFA8C0)
+#define EGCJPPNOHJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17BFA960)
+#define EGCJPPNOHJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17BFA9E0)
+#define EGCJPPNOHJJ_TICK_OFFSET UNITYSDK_OFFSET(0x17BFA900)
 
-inline static constexpr unsigned int EGCJPPNOHJJ_TypeDefinitionIndex = 58457;
+inline static constexpr unsigned int EGCJPPNOHJJ_TypeDefinitionIndex = 59713;
 
 	class EGCJPPNOHJJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RogueDLC1Dot3ImmediateNotify* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RogueDLC1Dot3ImmediateNotify* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueDLC1Dot3ImmediateNotify* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RogueDLC1Dot3ImmediateNotify*))((::PBYTE)hIl2Cpp + EGCJPPNOHJJ_CTOR_OFFSET))(this, a1, a2);

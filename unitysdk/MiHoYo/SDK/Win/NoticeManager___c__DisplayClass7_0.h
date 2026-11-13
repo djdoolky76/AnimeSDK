@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class NoticeManager; }
 
-#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD75B90)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19CC61A0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_0_TypeDefinitionIndex = 9398;
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_0_TypeDefinitionIndex = 9406;
 
 	class NoticeManager___c__DisplayClass7_0 : public ::System::Object
 	{

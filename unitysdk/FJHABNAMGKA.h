@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvReleaseTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJHABNAMGKA_CTOR_OFFSET UNITYSDK_OFFSET(0x157B83F0)
-#define FJHABNAMGKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157B8420)
+#define FJHABNAMGKA_CTOR_OFFSET UNITYSDK_OFFSET(0x19826B40)
+#define FJHABNAMGKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19826B70)
 
-inline static constexpr unsigned int FJHABNAMGKA_TypeDefinitionIndex = 52479;
+inline static constexpr unsigned int FJHABNAMGKA_TypeDefinitionIndex = 53585;
 
 	class FJHABNAMGKA
 	{

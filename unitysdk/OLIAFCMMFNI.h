@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OLIAFCMMFNI_TypeDefinitionIndex = 36561;
+inline static constexpr unsigned int OLIAFCMMFNI_TypeDefinitionIndex = 37489;
 
 	class OLIAFCMMFNI
 	{

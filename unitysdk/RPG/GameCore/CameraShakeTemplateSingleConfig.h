@@ -6,12 +6,12 @@ namespace RPG::GameCore { class CameraShakeTemplateSingleConfig; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAMERASHAKETEMPLATESINGLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5292D0)
-#define RPG_GAMECORE_CAMERASHAKETEMPLATESINGLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5291F0)
+#define RPG_GAMECORE_CAMERASHAKETEMPLATESINGLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC01C70)
+#define RPG_GAMECORE_CAMERASHAKETEMPLATESINGLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC01B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CameraShakeTemplateSingleConfig_TypeDefinitionIndex = 16439;
+	inline static constexpr unsigned int CameraShakeTemplateSingleConfig_TypeDefinitionIndex = 16603;
 
 	class CameraShakeTemplateSingleConfig : public ::RPG::GameCore::JsonConfig
 	{

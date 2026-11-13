@@ -6,11 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HBNMDMHANGE_IBGMDPBGCCJ_OFFSET UNITYSDK_OFFSET(0x15C05C30)
-#define HBNMDMHANGE_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15C05690)
-#define HBNMDMHANGE_LGOABJACMMG_OFFSET UNITYSDK_OFFSET(0x15C04E80)
+#define HBNMDMHANGE_CJMDBEBDLDG_OFFSET UNITYSDK_OFFSET(0x1B7A4C20)
+#define HBNMDMHANGE_IBGMDPBGCCJ_OFFSET UNITYSDK_OFFSET(0x1B7A4A70)
+#define HBNMDMHANGE_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x1B7A43D0)
+#define HBNMDMHANGE_LGOABJACMMG_OFFSET UNITYSDK_OFFSET(0x1B7A3BC0)
 
-inline static constexpr unsigned int HBNMDMHANGE_TypeDefinitionIndex = 48918;
+inline static constexpr unsigned int HBNMDMHANGE_TypeDefinitionIndex = 49976;
 
 	class HBNMDMHANGE : public ::System::Object
 	{
@@ -24,6 +25,11 @@ inline static constexpr unsigned int HBNMDMHANGE_TypeDefinitionIndex = 48918;
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* JAILHGGFLDH(::System::Collections::Generic::List_1<::NJOOOHDMEJC>* a1)
 		{
 			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::System::Collections::Generic::List_1<::NJOOOHDMEJC>*))((::PBYTE)hIl2Cpp + HBNMDMHANGE_JAILHGGFLDH_OFFSET))(a1);
+		}
+
+		static ::System::Void CJMDBEBDLDG(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3)
+		{
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HBNMDMHANGE_CJMDBEBDLDG_OFFSET))(a1, a2, a3);
 		}
 
 		static ::UnityEngine::Vector3 IBGMDPBGCCJ(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5)

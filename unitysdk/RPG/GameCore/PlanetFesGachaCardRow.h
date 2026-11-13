@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesGachaCardRow; }
 
-#define RPG_GAMECORE_PLANETFESGACHACARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F8B20)
-#define RPG_GAMECORE_PLANETFESGACHACARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F89A0)
+#define RPG_GAMECORE_PLANETFESGACHACARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE67240)
+#define RPG_GAMECORE_PLANETFESGACHACARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE670C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGachaCardRow_TypeDefinitionIndex = 12218;
+	inline static constexpr unsigned int PlanetFesGachaCardRow_TypeDefinitionIndex = 12275;
 
 	class PlanetFesGachaCardRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
-		::System::UInt32 CardThemeID; // 0x18
-		::System::UInt32 GachaID; // 0x1C
+		::System::UInt32 GachaID; // 0x18
+		::System::UInt32 CardThemeID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESGACHACARDROW_CTOR_OFFSET))(this);

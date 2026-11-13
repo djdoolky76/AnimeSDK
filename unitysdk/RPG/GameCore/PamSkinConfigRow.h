@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PamSkinConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMSKINCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BEFB0)
-#define RPG_GAMECORE_PAMSKINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BEDD0)
+#define RPG_GAMECORE_PAMSKINCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F140500)
+#define RPG_GAMECORE_PAMSKINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F140320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamSkinConfigRow_TypeDefinitionIndex = 14319;
+	inline static constexpr unsigned int PamSkinConfigRow_TypeDefinitionIndex = 14476;
 
 	class PamSkinConfigRow : public ::System::Object
 	{

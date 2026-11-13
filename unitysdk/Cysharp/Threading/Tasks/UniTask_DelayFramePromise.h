@@ -13,37 +13,37 @@ namespace Cysharp::Threading::Tasks { class UniTask_DelayFramePromise; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F119720)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F1135D0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F119820)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F119830)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F119A00)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F119710)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F119B20)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F119B00)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F119960)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F119AB0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E559160)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1E553020)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E559260)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1E559270)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1E559460)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1E559150)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E559580)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1E559560)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1E5593B0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1E559510)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayFramePromise_TypeDefinitionIndex = 38234;
+	inline static constexpr unsigned int UniTask_DelayFramePromise_TypeDefinitionIndex = 39163;
 
 	class UniTask_DelayFramePromise : public ::System::Object
 	{
 	public:
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x18
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x30
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x10
 		::System::Byte _padding0[0x18];
-		::Cysharp::Threading::Tasks::UniTask_DelayFramePromise* nextNode; // 0x50
-		::System::Boolean cancelImmediately; // 0x58
+		::System::Threading::CancellationToken cancellationToken; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_DelayFramePromise* nextNode; // 0x38
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x40
+		::System::Int32 delayFrameCount; // 0x58
+		::System::Boolean cancelImmediately; // 0x5C
 		::System::Byte _padding1[0x3];
-		::System::Int32 delayFrameCount; // 0x5C
-		::System::Int32 initialFrame; // 0x60
-		::System::Int32 currentFrameCount; // 0x64
+		::System::Int32 currentFrameCount; // 0x60
+		::System::Int32 initialFrame; // 0x64
 		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "DelayFramePromise")->GetStaticField(0x39C80);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "DelayFramePromise")->GetStaticField(0x37D40);
 		}
 
 		static ::System::Void _cctor()

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IPLDOJNNNLP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CF03B50)
-#define IPLDOJNNNLP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF04730)
-#define IPLDOJNNNLP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CF03EF0)
-#define IPLDOJNNNLP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CF03B90)
-#define IPLDOJNNNLP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CF04430)
-#define IPLDOJNNNLP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CF03F90)
-#define IPLDOJNNNLP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CF03FE0)
-#define IPLDOJNNNLP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CF03DC0)
-#define IPLDOJNNNLP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CF043D0)
-#define IPLDOJNNNLP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CF045A0)
-#define IPLDOJNNNLP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF03E50)
-#define IPLDOJNNNLP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF04350)
+#define IPLDOJNNNLP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0xC9A9BD0)
+#define IPLDOJNNNLP_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9AA7B0)
+#define IPLDOJNNNLP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0xC9A9F70)
+#define IPLDOJNNNLP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0xC9A9C10)
+#define IPLDOJNNNLP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0xC9AA4B0)
+#define IPLDOJNNNLP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0xC9AA010)
+#define IPLDOJNNNLP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0xC9AA060)
+#define IPLDOJNNNLP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0xC9A9E40)
+#define IPLDOJNNNLP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0xC9AA450)
+#define IPLDOJNNNLP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xC9AA620)
+#define IPLDOJNNNLP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0xC9A9ED0)
+#define IPLDOJNNNLP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0xC9AA3D0)
 
-inline static constexpr unsigned int IPLDOJNNNLP_TypeDefinitionIndex = 15264;
+inline static constexpr unsigned int IPLDOJNNNLP_TypeDefinitionIndex = 15420;
 
 	class IPLDOJNNNLP : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x243A0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x21FB0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x243A8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x21FB8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotExperimentFilesRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotExperimentFilesRow*>**)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x243B0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x7D80);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotExperimentFilesRow*>**)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x21FC0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x7D81);
+			return (::System::Boolean*)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x7B40);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "IPLDOJNNNLP")->GetStaticField(0x7B41);
 		}
 
 		static ::System::Void _cctor()

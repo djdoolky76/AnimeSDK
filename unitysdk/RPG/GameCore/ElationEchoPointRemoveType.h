@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationEchoPointRemoveType_TypeDefinitionIndex = 24658;
+	inline static constexpr unsigned int ElationEchoPointRemoveType_TypeDefinitionIndex = 25130;
 
 	enum class ElationEchoPointRemoveType : ::System::Int32
 	{

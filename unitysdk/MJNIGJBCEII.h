@@ -5,10 +5,10 @@ class ACNFHAKPMIK;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MJNIGJBCEII_CTOR_OFFSET UNITYSDK_OFFSET(0xB969460)
-#define MJNIGJBCEII_GEOAKBLMIEG_OFFSET UNITYSDK_OFFSET(0xB969520)
+#define MJNIGJBCEII_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AE3A0)
+#define MJNIGJBCEII_GEOAKBLMIEG_OFFSET UNITYSDK_OFFSET(0x1A3AE460)
 
-inline static constexpr unsigned int MJNIGJBCEII_TypeDefinitionIndex = 55726;
+inline static constexpr unsigned int MJNIGJBCEII_TypeDefinitionIndex = 56928;
 
 	class MJNIGJBCEII : public ::NFGENDDOCJJ
 	{

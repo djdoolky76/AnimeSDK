@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_GRADIENTALPHAKEY_CTOR_OFFSET UNITYSDK_OFFSET(0xBA30)
+#define UNITYENGINE_GRADIENTALPHAKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x652930)
 
 namespace UnityEngine
 {

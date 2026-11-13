@@ -5,20 +5,19 @@
 namespace RPG::Client::Pet { class PetShowSuppressorSet; }
 namespace System { template <typename T> class WeakReference_1; }
 
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDAB9080)
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDAB9290)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1DAF90)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C1DB140)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetShowSuppressorSet_Suppressor_TypeDefinitionIndex = 75706;
+	inline static constexpr unsigned int PetShowSuppressorSet_Suppressor_TypeDefinitionIndex = 78033;
 
 	class PetShowSuppressorSet_Suppressor : public ::System::Object
 	{
 	public:
 		::System::WeakReference_1<::RPG::Client::Pet::PetShowSuppressorSet*>* _OwnerRef; // 0x10
-		::System::Boolean _Released; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::Guid _Id; // 0x1C
+		::System::Guid _Id; // 0x18
+		::System::Boolean _Released; // 0x28
 		::System::Void _ctor(::RPG::Client::Pet::PetShowSuppressorSet* a1, ::System::Guid a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Pet::PetShowSuppressorSet*, ::System::Guid))((::PBYTE)hIl2Cpp + RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_CTOR_OFFSET))(this, a1, a2);

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E8BF0)
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E8BA0)
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E8B50)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA97F40)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1FA97EF0)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1FA97EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLastKillTriggered_TypeDefinitionIndex = 56841;
+	inline static constexpr unsigned int LevelLastKillTriggered_TypeDefinitionIndex = 58065;
 
 	class LevelLastKillTriggered : public ::System::Object
 	{

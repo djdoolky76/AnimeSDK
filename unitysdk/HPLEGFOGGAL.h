@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HPLEGFOGGAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC55B0)
+#define HPLEGFOGGAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3F670)
 
-inline static constexpr unsigned int HPLEGFOGGAL_TypeDefinitionIndex = 80195;
+inline static constexpr unsigned int HPLEGFOGGAL_TypeDefinitionIndex = 82972;
 
 	class HPLEGFOGGAL : public ::System::Object
 	{

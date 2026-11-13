@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define LGCKNCLEPNH_CTOR_OFFSET UNITYSDK_OFFSET(0xB688A90)
-#define LGCKNCLEPNH_GET_LIGHTTYPE_OFFSET UNITYSDK_OFFSET(0xB688A80)
+#define LGCKNCLEPNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9F2D0)
+#define LGCKNCLEPNH_GET_LIGHTTYPE_OFFSET UNITYSDK_OFFSET(0x1BC9F2C0)
 
-inline static constexpr unsigned int LGCKNCLEPNH_TypeDefinitionIndex = 49033;
+inline static constexpr unsigned int LGCKNCLEPNH_TypeDefinitionIndex = 50109;
 
 	class LGCKNCLEPNH : public ::System::Attribute
 	{

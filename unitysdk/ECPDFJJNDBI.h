@@ -4,21 +4,21 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ECPDFJJNDBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FB200)
-#define ECPDFJJNDBI_HIFGANKHPPJ_OFFSET UNITYSDK_OFFSET(0x1C3FB2B0)
-#define ECPDFJJNDBI_PCOHLHKDNDF_OFFSET UNITYSDK_OFFSET(0x1C432D10)
+#define ECPDFJJNDBI_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABDE60)
+#define ECPDFJJNDBI_HIFGANKHPPJ_OFFSET UNITYSDK_OFFSET(0x15ABDF10)
+#define ECPDFJJNDBI_PCOHLHKDNDF_OFFSET UNITYSDK_OFFSET(0x15AF32A0)
 
-inline static constexpr unsigned int ECPDFJJNDBI_TypeDefinitionIndex = 41553;
+inline static constexpr unsigned int ECPDFJJNDBI_TypeDefinitionIndex = 42528;
 
 	class ECPDFJJNDBI : public ::System::Object
 	{
 	public:
 		::System::String* MEBGACKEOOG; // 0x10
-		::System::UInt16 ADLIHHPHHLG; // 0x18
-		::System::UInt16 DGDINKFBOID; // 0x1A
-		::System::UInt32 MPOOGFEJOOF; // 0x1C
-		::System::UInt16 ABNPHONMCEP; // 0x20
-		::ECPDFJJNDBI_Flags FNPGDNFLMPC; // 0x22
+		::System::UInt32 MPOOGFEJOOF; // 0x18
+		::System::UInt16 ABNPHONMCEP; // 0x1C
+		::ECPDFJJNDBI_Flags FNPGDNFLMPC; // 0x1E
+		::System::UInt16 ADLIHHPHHLG; // 0x20
+		::System::UInt16 DGDINKFBOID; // 0x22
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ECPDFJJNDBI_CTOR_OFFSET))(this);

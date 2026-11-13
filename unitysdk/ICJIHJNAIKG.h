@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define ICJIHJNAIKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E42F50)
-#define ICJIHJNAIKG_EKBLGBCCLIC_OFFSET UNITYSDK_OFFSET(0x15E42F60)
+#define ICJIHJNAIKG_CTOR_OFFSET UNITYSDK_OFFSET(0x188CEB60)
+#define ICJIHJNAIKG_EKBLGBCCLIC_OFFSET UNITYSDK_OFFSET(0x188CEB70)
 
-inline static constexpr unsigned int ICJIHJNAIKG_TypeDefinitionIndex = 49272;
+inline static constexpr unsigned int ICJIHJNAIKG_TypeDefinitionIndex = 50348;
 
 	class ICJIHJNAIKG : public ::System::Object
 	{

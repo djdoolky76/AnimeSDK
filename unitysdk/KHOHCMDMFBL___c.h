@@ -9,41 +9,41 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 
-#define KHOHCMDMFBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB40D7D0)
-#define KHOHCMDMFBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB40D800)
-#define KHOHCMDMFBL___C__INITIALIZE_B__4_0_OFFSET UNITYSDK_OFFSET(0xB40D810)
-#define KHOHCMDMFBL___C___DEPLOYGRAVITYFIELDRINGTRIGGER_B__13_0_OFFSET UNITYSDK_OFFSET(0xB40D830)
-#define KHOHCMDMFBL___C___DEPLOYGRAVITYFIELDRINGTRIGGER_B__13_1_OFFSET UNITYSDK_OFFSET(0xB40D860)
-#define KHOHCMDMFBL___C___LISTENLEVELVAR_B__25_0_OFFSET UNITYSDK_OFFSET(0xB40D890)
+#define KHOHCMDMFBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1979F5B0)
+#define KHOHCMDMFBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1979F5E0)
+#define KHOHCMDMFBL___C__INITIALIZE_B__4_0_OFFSET UNITYSDK_OFFSET(0x1979F5F0)
+#define KHOHCMDMFBL___C___DEPLOYGRAVITYFIELDRINGTRIGGER_B__13_0_OFFSET UNITYSDK_OFFSET(0x1979F610)
+#define KHOHCMDMFBL___C___DEPLOYGRAVITYFIELDRINGTRIGGER_B__13_1_OFFSET UNITYSDK_OFFSET(0x1979F640)
+#define KHOHCMDMFBL___C___LISTENLEVELVAR_B__25_0_OFFSET UNITYSDK_OFFSET(0x1979F670)
 
-inline static constexpr unsigned int KHOHCMDMFBL___c_TypeDefinitionIndex = 77116;
+inline static constexpr unsigned int KHOHCMDMFBL___c_TypeDefinitionIndex = 79450;
 
 	class KHOHCMDMFBL___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::KHOHCMDMFBL*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__13_0()
+		static ::System::Action_1<::KHOHCMDMFBL*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_3<::KHOHCMDMFBL*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AD60);
+			return (::System::Action_1<::KHOHCMDMFBL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51AF0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AD68);
-		}
-
-		static ::System::Action_1<::KHOHCMDMFBL*>** StaticGet___9__4_0()
-		{
-			return (::System::Action_1<::KHOHCMDMFBL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AD70);
-		}
-
-		static ::System::Action_3<::KHOHCMDMFBL*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__13_1()
-		{
-			return (::System::Action_3<::KHOHCMDMFBL*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AD78);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51AF8);
 		}
 
 		static ::System::Action_3<::KHOHCMDMFBL*, ::System::Int32, ::System::String*>** StaticGet___9__25_0()
 		{
-			return (::System::Action_3<::KHOHCMDMFBL*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AD80);
+			return (::System::Action_3<::KHOHCMDMFBL*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51B00);
+		}
+
+		static ::System::Action_3<::KHOHCMDMFBL*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__13_0()
+		{
+			return (::System::Action_3<::KHOHCMDMFBL*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51B08);
+		}
+
+		static ::System::Action_3<::KHOHCMDMFBL*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__13_1()
+		{
+			return (::System::Action_3<::KHOHCMDMFBL*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51B10);
 		}
 
 		static ::System::Void _cctor()

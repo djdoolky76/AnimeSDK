@@ -8,29 +8,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CMFAIIHOFPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA27BA0)
-#define CMFAIIHOFPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA27BD0)
-#define CMFAIIHOFPL___C___INITPOINTCONTROLCONTEXT_B__7_0_OFFSET UNITYSDK_OFFSET(0xDA27BE0)
-#define CMFAIIHOFPL___C___PROCESSLINETRACEONVISIBLECHANGEDCLOSURE_B__27_0_OFFSET UNITYSDK_OFFSET(0xDA27C40)
+#define CMFAIIHOFPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B194F80)
+#define CMFAIIHOFPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B194FB0)
+#define CMFAIIHOFPL___C___INITPOINTCONTROLCONTEXT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B194FC0)
+#define CMFAIIHOFPL___C___PROCESSLINETRACEONVISIBLECHANGEDCLOSURE_B__27_0_OFFSET UNITYSDK_OFFSET(0x1B195020)
 
-inline static constexpr unsigned int CMFAIIHOFPL___c_TypeDefinitionIndex = 77162;
+inline static constexpr unsigned int CMFAIIHOFPL___c_TypeDefinitionIndex = 79496;
 
 	class CMFAIIHOFPL___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B470);
-		}
-
 		static ::System::Action_2<::CMFAIIHOFPL*, ::HIOEAKHGILF*>** StaticGet___9__27_0()
 		{
-			return (::System::Action_2<::CMFAIIHOFPL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B478);
+			return (::System::Action_2<::CMFAIIHOFPL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37A10);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37A18);
 		}
 
 		static ::System::Comparison_1<::KEHLFNHAMLA>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::KEHLFNHAMLA>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B480);
+			return (::System::Comparison_1<::KEHLFNHAMLA>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37A20);
 		}
 
 		static ::System::Void _cctor()

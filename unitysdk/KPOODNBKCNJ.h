@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvGroupEnterCombat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KPOODNBKCNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CB630)
-#define KPOODNBKCNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5CB660)
+#define KPOODNBKCNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1913CB60)
+#define KPOODNBKCNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1913CB90)
 
-inline static constexpr unsigned int KPOODNBKCNJ_TypeDefinitionIndex = 52385;
+inline static constexpr unsigned int KPOODNBKCNJ_TypeDefinitionIndex = 53491;
 
 	class KPOODNBKCNJ
 	{

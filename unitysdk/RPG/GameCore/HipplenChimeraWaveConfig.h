@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HipplenChimeraWaveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73D330)
-#define RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73D240)
+#define RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE76420)
+#define RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE76330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenChimeraWaveConfig_TypeDefinitionIndex = 16794;
+	inline static constexpr unsigned int HipplenChimeraWaveConfig_TypeDefinitionIndex = 16961;
 
 	class HipplenChimeraWaveConfig : public ::RPG::GameCore::JsonConfig
 	{

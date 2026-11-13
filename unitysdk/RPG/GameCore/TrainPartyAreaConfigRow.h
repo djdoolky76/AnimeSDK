@@ -7,28 +7,28 @@ namespace RPG::GameCore { class ProgressBonus; }
 namespace RPG::GameCore { class TrainPartyAreaConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYAREACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC00220)
-#define RPG_GAMECORE_TRAINPARTYAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DBFFE50)
+#define RPG_GAMECORE_TRAINPARTYAREACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D9410)
+#define RPG_GAMECORE_TRAINPARTYAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5D9040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyAreaConfigRow_TypeDefinitionIndex = 15325;
+	inline static constexpr unsigned int TrainPartyAreaConfigRow_TypeDefinitionIndex = 15481;
 
 	class TrainPartyAreaConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::String*>* ShowBlockList; // 0x18
+		::Il2CppArray<::RPG::GameCore::ProgressBonus*>* ProgressBonusList; // 0x10
+		::System::String* IconPath; // 0x18
 		::Il2CppArray<::System::String*>* HiddenBlockList; // 0x20
-		::Il2CppArray<::RPG::GameCore::ProgressBonus*>* ProgressBonusList; // 0x28
-		::System::UInt32 RequireAreaID; // 0x30
-		::System::Boolean IsShowInActivity; // 0x34
-		::System::Byte _padding0[0x3];
-		::System::UInt32 Sort; // 0x38
-		::System::UInt32 FirstStep; // 0x3C
-		::System::UInt32 ID; // 0x40
-		::System::Byte _padding1[0x4];
-		::RPG::Client::TextID Name; // 0x48
+		::Il2CppArray<::System::String*>* ShowBlockList; // 0x28
+		::System::UInt32 ID; // 0x30
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Name; // 0x38
+		::System::UInt32 Sort; // 0x48
+		::System::UInt32 RequireAreaID; // 0x4C
+		::System::Boolean IsShowInActivity; // 0x50
+		::System::Byte _padding1[0x3];
+		::System::UInt32 FirstStep; // 0x54
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYAREACONFIGROW_CTOR_OFFSET))(this);

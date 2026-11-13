@@ -5,11 +5,11 @@ namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarFlowIntersection_Rule; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION_LANE_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6AC80)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION_LANE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFE2D0)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarFlowIntersection_Lane_TypeDefinitionIndex = 82227;
+	inline static constexpr unsigned int MonoCityCarFlowIntersection_Lane_TypeDefinitionIndex = 85100;
 
 	class MonoCityCarFlowIntersection_Lane : public ::System::Object
 	{

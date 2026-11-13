@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckAdvModifierCallBackName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMPFJKJGBCM_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC7780)
-#define DMPFJKJGBCM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEC77B0)
+#define DMPFJKJGBCM_CTOR_OFFSET UNITYSDK_OFFSET(0xCA9E850)
+#define DMPFJKJGBCM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCA9E880)
 
-inline static constexpr unsigned int DMPFJKJGBCM_TypeDefinitionIndex = 54493;
+inline static constexpr unsigned int DMPFJKJGBCM_TypeDefinitionIndex = 55657;
 
 	class DMPFJKJGBCM
 	{

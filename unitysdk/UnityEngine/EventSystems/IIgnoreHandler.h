@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IIgnoreHandler_TypeDefinitionIndex = 6928;
+	inline static constexpr unsigned int IIgnoreHandler_TypeDefinitionIndex = 6939;
 
 	class IIgnoreHandler
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 class HNAMMBJPEDF;
 namespace RPG::GameCore { class IdleLiveSpineAnimTriggerRow; }
 
-#define RPG_GAMECORE_IDLELIVESPINEANIMTRIGGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D752400)
-#define RPG_GAMECORE_IDLELIVESPINEANIMTRIGGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7522B0)
+#define RPG_GAMECORE_IDLELIVESPINEANIMTRIGGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8B250)
+#define RPG_GAMECORE_IDLELIVESPINEANIMTRIGGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE8B100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpineAnimTriggerRow_TypeDefinitionIndex = 11814;
+	inline static constexpr unsigned int IdleLiveSpineAnimTriggerRow_TypeDefinitionIndex = 11871;
 
 	class IdleLiveSpineAnimTriggerRow : public ::System::Object
 	{

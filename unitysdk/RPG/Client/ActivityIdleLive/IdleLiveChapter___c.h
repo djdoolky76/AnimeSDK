@@ -5,25 +5,25 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC466A80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC466AC0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C__ISALLBOSSNODEFINISHED_B__49_0_OFFSET UNITYSDK_OFFSET(0xC466AD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D14DBB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D14DBF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C__ISALLBOSSNODEFINISHED_B__49_0_OFFSET UNITYSDK_OFFSET(0x1D14DC00)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveChapter___c_TypeDefinitionIndex = 75147;
+	inline static constexpr unsigned int IdleLiveChapter___c_TypeDefinitionIndex = 77474;
 
 	class IdleLiveChapter___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveNode*, ::System::Boolean>** StaticGet___9__49_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1D340);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1D348);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1F760);
+		}
+
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveNode*, ::System::Boolean>** StaticGet___9__49_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1F768);
 		}
 
 		static ::System::Void _cctor()

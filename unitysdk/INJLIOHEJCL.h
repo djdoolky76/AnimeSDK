@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleAIDegrade; }
 
-#define INJLIOHEJCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB4A6A0)
-#define INJLIOHEJCL_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CB4A6B0)
+#define INJLIOHEJCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC374F0)
+#define INJLIOHEJCL_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1EC37500)
 
-inline static constexpr unsigned int INJLIOHEJCL_TypeDefinitionIndex = 43130;
+inline static constexpr unsigned int INJLIOHEJCL_TypeDefinitionIndex = 44111;
 
 	class INJLIOHEJCL : public ::BKABEBEPPJK
 	{

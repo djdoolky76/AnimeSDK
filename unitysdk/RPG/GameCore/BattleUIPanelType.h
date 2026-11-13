@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleUIPanelType_TypeDefinitionIndex = 24660;
+	inline static constexpr unsigned int BattleUIPanelType_TypeDefinitionIndex = 25133;
 
 	enum class BattleUIPanelType : ::System::Int32
 	{

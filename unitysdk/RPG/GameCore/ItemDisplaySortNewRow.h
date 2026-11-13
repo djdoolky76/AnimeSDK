@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 
-#define RPG_GAMECORE_ITEMDISPLAYSORTNEWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D768540)
-#define RPG_GAMECORE_ITEMDISPLAYSORTNEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D768350)
+#define RPG_GAMECORE_ITEMDISPLAYSORTNEWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91B180)
+#define RPG_GAMECORE_ITEMDISPLAYSORTNEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91AF90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemDisplaySortNewRow_TypeDefinitionIndex = 13888;
+	inline static constexpr unsigned int ItemDisplaySortNewRow_TypeDefinitionIndex = 14045;
 
 	class ItemDisplaySortNewRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 Rank; // 0x10
-		::System::UInt32 ID; // 0x14
-		::RPG::GameCore::ItemDisplaySortType Type; // 0x18
+		::System::UInt32 Param; // 0x14
+		::System::UInt32 ID; // 0x18
 		::System::Int32 SortID; // 0x1C
-		::System::UInt32 Param; // 0x20
+		::RPG::GameCore::ItemDisplaySortType Type; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMDISPLAYSORTNEWROW_CTOR_OFFSET))(this);

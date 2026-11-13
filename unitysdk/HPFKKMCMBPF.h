@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HPFKKMCMBPF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DB5E40)
+#define HPFKKMCMBPF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF302C0)
 
-inline static constexpr unsigned int HPFKKMCMBPF_TypeDefinitionIndex = 66682;
+inline static constexpr unsigned int HPFKKMCMBPF_TypeDefinitionIndex = 68618;
 
 	class HPFKKMCMBPF : public ::System::Object
 	{
 	public:
+		static ::System::Int32* StaticGet_FPCGGLOJHEL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "HPFKKMCMBPF")->GetStaticField(0x85D0);
+		}
+
 		static ::System::Int32* StaticGet_JBFJOKCAAAE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "HPFKKMCMBPF")->GetStaticField(0x2730);
+			return (::System::Int32*)UnitySDK::FromName("", "HPFKKMCMBPF")->GetStaticField(0x85D4);
 		}
 
 		static ::System::Int32* StaticGet_KKBKEFLBFAO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "HPFKKMCMBPF")->GetStaticField(0x2734);
-		}
-
-		static ::System::Int32* StaticGet_FPCGGLOJHEL()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "HPFKKMCMBPF")->GetStaticField(0x2738);
+			return (::System::Int32*)UnitySDK::FromName("", "HPFKKMCMBPF")->GetStaticField(0x85D8);
 		}
 
 		static ::System::Void _cctor()

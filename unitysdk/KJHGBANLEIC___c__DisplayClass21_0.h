@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KJHGBANLEIC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB448930)
+#define KJHGBANLEIC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19F0F900)
 
-inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass21_0_TypeDefinitionIndex = 59593;
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass21_0_TypeDefinitionIndex = 60870;
 
 	class KJHGBANLEIC___c__DisplayClass21_0 : public ::System::Object
 	{

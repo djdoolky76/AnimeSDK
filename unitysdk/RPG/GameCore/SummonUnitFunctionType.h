@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitFunctionType_TypeDefinitionIndex = 17591;
+	inline static constexpr unsigned int SummonUnitFunctionType_TypeDefinitionIndex = 17759;
 
 	enum class SummonUnitFunctionType : ::System::Int32
 	{

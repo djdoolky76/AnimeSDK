@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/EFreeStyleControlMode.h"
 class IMPNPPMLNPH;
 
-#define NECBOLFGIMA_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
+#define NECBOLFGIMA_CTOR_OFFSET UNITYSDK_OFFSET(0x3D9DFE0)
 
-inline static constexpr unsigned int NECBOLFGIMA_TypeDefinitionIndex = 57269;
+inline static constexpr unsigned int NECBOLFGIMA_TypeDefinitionIndex = 58496;
 
 	struct alignas(8) NECBOLFGIMA
 	{

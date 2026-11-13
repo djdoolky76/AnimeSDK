@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_PossessionConfig_TypeDefinitionIndex = 82198;
+	inline static constexpr unsigned int AirlineSubwayWay_PossessionConfig_TypeDefinitionIndex = 85071;
 
 	struct alignas(8) AirlineSubwayWay_PossessionConfig
 	{

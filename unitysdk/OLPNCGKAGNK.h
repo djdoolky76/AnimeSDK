@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EGBIFFCBKEH;
 
-#define OLPNCGKAGNK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBF0FF90)
-#define OLPNCGKAGNK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF10030)
+#define OLPNCGKAGNK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x17D3F1E0)
+#define OLPNCGKAGNK_CTOR_OFFSET UNITYSDK_OFFSET(0x17D3F280)
 
-inline static constexpr unsigned int OLPNCGKAGNK_TypeDefinitionIndex = 80159;
+inline static constexpr unsigned int OLPNCGKAGNK_TypeDefinitionIndex = 82936;
 
 	class OLPNCGKAGNK : public ::System::Object
 	{

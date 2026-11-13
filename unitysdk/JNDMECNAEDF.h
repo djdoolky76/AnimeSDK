@@ -4,9 +4,9 @@
 #include "unitysdk/NHHMEPILLHL.h"
 namespace RPG::Client { class RogueTournHexInfo; }
 
-#define JNDMECNAEDF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2751A0)
+#define JNDMECNAEDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C2E10)
 
-inline static constexpr unsigned int JNDMECNAEDF_TypeDefinitionIndex = 67084;
+inline static constexpr unsigned int JNDMECNAEDF_TypeDefinitionIndex = 69028;
 
 	class JNDMECNAEDF : public ::EBIMENNAEIE
 	{

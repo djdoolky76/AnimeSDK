@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define HLHIBLIBKLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15D53330)
-#define HLHIBLIBKLJ_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15D53340)
+#define HLHIBLIBKLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x198A0C10)
+#define HLHIBLIBKLJ_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x198A0C20)
 
-inline static constexpr unsigned int HLHIBLIBKLJ_TypeDefinitionIndex = 56636;
+inline static constexpr unsigned int HLHIBLIBKLJ_TypeDefinitionIndex = 57858;
 
 	class HLHIBLIBKLJ : public ::HMFOPIJNNDI
 	{

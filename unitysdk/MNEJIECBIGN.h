@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ST_ByDistToGuardPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MNEJIECBIGN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA01750)
-#define MNEJIECBIGN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA01870)
+#define MNEJIECBIGN_CTOR_OFFSET UNITYSDK_OFFSET(0x18931370)
+#define MNEJIECBIGN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18931490)
 
-inline static constexpr unsigned int MNEJIECBIGN_TypeDefinitionIndex = 52186;
+inline static constexpr unsigned int MNEJIECBIGN_TypeDefinitionIndex = 53291;
 
 	class MNEJIECBIGN
 	{

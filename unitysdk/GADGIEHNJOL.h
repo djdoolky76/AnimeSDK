@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInDistrict; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GADGIEHNJOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1592CAE0)
-#define GADGIEHNJOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1592CB10)
+#define GADGIEHNJOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B867ED0)
+#define GADGIEHNJOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B867F00)
 
-inline static constexpr unsigned int GADGIEHNJOL_TypeDefinitionIndex = 53148;
+inline static constexpr unsigned int GADGIEHNJOL_TypeDefinitionIndex = 54310;
 
 	class GADGIEHNJOL
 	{

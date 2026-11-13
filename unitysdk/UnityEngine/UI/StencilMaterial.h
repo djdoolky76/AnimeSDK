@@ -8,23 +8,23 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_1_OFFSET UNITYSDK_OFFSET(0x1F527BF0)
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_2_OFFSET UNITYSDK_OFFSET(0x1F527C60)
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1F527BE0)
-#define UNITYENGINE_UI_STENCILMATERIAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5288B0)
-#define UNITYENGINE_UI_STENCILMATERIAL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1F5286F0)
-#define UNITYENGINE_UI_STENCILMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F5284D0)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_1_OFFSET UNITYSDK_OFFSET(0x20685300)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_2_OFFSET UNITYSDK_OFFSET(0x20685370)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x206852F0)
+#define UNITYENGINE_UI_STENCILMATERIAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x20685FC0)
+#define UNITYENGINE_UI_STENCILMATERIAL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x20685E00)
+#define UNITYENGINE_UI_STENCILMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x20685BE0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int StencilMaterial_TypeDefinitionIndex = 6861;
+	inline static constexpr unsigned int StencilMaterial_TypeDefinitionIndex = 6872;
 
 	class StencilMaterial : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_m_List()
 		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("UnityEngine.UI", "StencilMaterial")->GetStaticField(0x42870);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("UnityEngine.UI", "StencilMaterial")->GetStaticField(0x32590);
 		}
 
 		static ::System::Void _cctor()

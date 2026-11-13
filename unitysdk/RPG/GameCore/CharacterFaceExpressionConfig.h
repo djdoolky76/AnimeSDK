@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterFaceExpressionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D543920)
-#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D543610)
+#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3450D0)
+#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F344DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterFaceExpressionConfig_TypeDefinitionIndex = 17450;
+	inline static constexpr unsigned int CharacterFaceExpressionConfig_TypeDefinitionIndex = 17618;
 
 	class CharacterFaceExpressionConfig : public ::RPG::GameCore::JsonConfig
 	{

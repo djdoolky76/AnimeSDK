@@ -4,18 +4,18 @@
 class ONLFOIONDAF;
 namespace System { class Object; }
 
-#define ONLFOIONDAF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEA0D10)
-#define ONLFOIONDAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA0D50)
-#define ONLFOIONDAF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DEA0D60)
+#define ONLFOIONDAF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC34F40)
+#define ONLFOIONDAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC34F80)
+#define ONLFOIONDAF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FC34F90)
 
-inline static constexpr unsigned int ONLFOIONDAF___c_TypeDefinitionIndex = 29261;
+inline static constexpr unsigned int ONLFOIONDAF___c_TypeDefinitionIndex = 29916;
 
 	class ONLFOIONDAF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24FE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28D20);
 		}
 
 		static ::System::Void _cctor()

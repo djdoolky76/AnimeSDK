@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckModifierCallBackIsInfected; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFNPBPJJMOH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7FFE0)
-#define HFNPBPJJMOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C80010)
+#define HFNPBPJJMOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4318B0)
+#define HFNPBPJJMOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C4318E0)
 
-inline static constexpr unsigned int HFNPBPJJMOH_TypeDefinitionIndex = 54503;
+inline static constexpr unsigned int HFNPBPJJMOH_TypeDefinitionIndex = 55668;
 
 	class HFNPBPJJMOH
 	{

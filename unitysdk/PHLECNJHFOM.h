@@ -6,11 +6,11 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RoguePickAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PHLECNJHFOM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC24D4F0)
-#define PHLECNJHFOM_CTOR_OFFSET UNITYSDK_OFFSET(0xC24D540)
-#define PHLECNJHFOM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC24D550)
+#define PHLECNJHFOM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1A9B6C80)
+#define PHLECNJHFOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B6CD0)
+#define PHLECNJHFOM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1A9B6CE0)
 
-inline static constexpr unsigned int PHLECNJHFOM_TypeDefinitionIndex = 62558;
+inline static constexpr unsigned int PHLECNJHFOM_TypeDefinitionIndex = 63971;
 
 	class PHLECNJHFOM : public ::System::Object
 	{

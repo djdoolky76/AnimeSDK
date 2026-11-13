@@ -6,13 +6,13 @@ namespace RPG::GameCore { class NoteComboTemplateNoteConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_NOTECOMBOTEMPLATENOTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AC070)
-#define RPG_GAMECORE_NOTECOMBOTEMPLATENOTECONFIG_MNDNJNAJOFC_OFFSET UNITYSDK_OFFSET(0x1D8AC080)
-#define RPG_GAMECORE_NOTECOMBOTEMPLATENOTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8AC030)
+#define RPG_GAMECORE_NOTECOMBOTEMPLATENOTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F12D840)
+#define RPG_GAMECORE_NOTECOMBOTEMPLATENOTECONFIG_MNDNJNAJOFC_OFFSET UNITYSDK_OFFSET(0x1F12D850)
+#define RPG_GAMECORE_NOTECOMBOTEMPLATENOTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F12D800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NoteComboTemplateNoteConfig_TypeDefinitionIndex = 16972;
+	inline static constexpr unsigned int NoteComboTemplateNoteConfig_TypeDefinitionIndex = 17139;
 
 	class NoteComboTemplateNoteConfig : public ::RPG::GameCore::JsonConfig
 	{

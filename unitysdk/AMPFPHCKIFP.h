@@ -12,11 +12,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AMPFPHCKIFP_CTOR_OFFSET UNITYSDK_OFFSET(0x15582120)
-#define AMPFPHCKIFP_DOMEMPAEEKD_OFFSET UNITYSDK_OFFSET(0x155829B0)
-#define AMPFPHCKIFP_MJFKHPEKPBP_OFFSET UNITYSDK_OFFSET(0x155821D0)
+#define AMPFPHCKIFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A817C60)
+#define AMPFPHCKIFP_DOMEMPAEEKD_OFFSET UNITYSDK_OFFSET(0x1A8184E0)
+#define AMPFPHCKIFP_MJFKHPEKPBP_OFFSET UNITYSDK_OFFSET(0x1A817D10)
 
-inline static constexpr unsigned int AMPFPHCKIFP_TypeDefinitionIndex = 81104;
+inline static constexpr unsigned int AMPFPHCKIFP_TypeDefinitionIndex = 83884;
 
 	class AMPFPHCKIFP : public ::System::Object
 	{

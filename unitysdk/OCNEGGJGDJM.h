@@ -5,22 +5,22 @@ namespace RPG::Client { class AppPrefs; }
 namespace RPG::Client { class SettingsPrefs; }
 namespace RPG::Client { class UserPrefs; }
 
-#define OCNEGGJGDJM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD6A550)
-#define OCNEGGJGDJM_GET_APPPREFS_OFFSET UNITYSDK_OFFSET(0xBD6A4F0)
-#define OCNEGGJGDJM_GET_SETTINGSPREFS_OFFSET UNITYSDK_OFFSET(0xBD6A530)
-#define OCNEGGJGDJM_GET_USERPREFS_OFFSET UNITYSDK_OFFSET(0xBD6A510)
-#define OCNEGGJGDJM_SET_APPPREFS_OFFSET UNITYSDK_OFFSET(0xBD6A500)
-#define OCNEGGJGDJM_SET_SETTINGSPREFS_OFFSET UNITYSDK_OFFSET(0xBD6A540)
-#define OCNEGGJGDJM_SET_USERPREFS_OFFSET UNITYSDK_OFFSET(0xBD6A520)
+#define OCNEGGJGDJM_CTOR_OFFSET UNITYSDK_OFFSET(0x19A1CD10)
+#define OCNEGGJGDJM_GET_APPPREFS_OFFSET UNITYSDK_OFFSET(0x19A1CCB0)
+#define OCNEGGJGDJM_GET_SETTINGSPREFS_OFFSET UNITYSDK_OFFSET(0x19A1CCF0)
+#define OCNEGGJGDJM_GET_USERPREFS_OFFSET UNITYSDK_OFFSET(0x19A1CCD0)
+#define OCNEGGJGDJM_SET_APPPREFS_OFFSET UNITYSDK_OFFSET(0x19A1CCC0)
+#define OCNEGGJGDJM_SET_SETTINGSPREFS_OFFSET UNITYSDK_OFFSET(0x19A1CD00)
+#define OCNEGGJGDJM_SET_USERPREFS_OFFSET UNITYSDK_OFFSET(0x19A1CCE0)
 
-inline static constexpr unsigned int OCNEGGJGDJM_TypeDefinitionIndex = 59354;
+inline static constexpr unsigned int OCNEGGJGDJM_TypeDefinitionIndex = 60631;
 
 	class OCNEGGJGDJM : public ::System::Object
 	{
 	public:
-		::RPG::Client::UserPrefs* _UserPrefs_k__BackingField; // 0x10
-		::RPG::Client::AppPrefs* _AppPrefs_k__BackingField; // 0x18
-		::RPG::Client::SettingsPrefs* _SettingsPrefs_k__BackingField; // 0x20
+		::RPG::Client::SettingsPrefs* _SettingsPrefs_k__BackingField; // 0x10
+		::RPG::Client::UserPrefs* _UserPrefs_k__BackingField; // 0x18
+		::RPG::Client::AppPrefs* _AppPrefs_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OCNEGGJGDJM_CTOR_OFFSET))(this);

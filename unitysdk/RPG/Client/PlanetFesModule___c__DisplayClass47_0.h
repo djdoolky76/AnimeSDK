@@ -4,12 +4,12 @@
 class KICPDGKGGHO;
 namespace RPG::Client { class PlanetFesActiveBuff; }
 
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDBBA700)
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS47_0___SYNCREMOVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xDBBA710)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D5F40)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS47_0___SYNCREMOVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1D1F01F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass47_0_TypeDefinitionIndex = 66656;
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass47_0_TypeDefinitionIndex = 68592;
 
 	class PlanetFesModule___c__DisplayClass47_0 : public ::System::Object
 	{

@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define BCJBOEIPPDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15E9DCB0)
+#define BCJBOEIPPDN_CTOR_OFFSET UNITYSDK_OFFSET(0x19D78DC0)
 
-inline static constexpr unsigned int BCJBOEIPPDN_TypeDefinitionIndex = 81275;
+inline static constexpr unsigned int BCJBOEIPPDN_TypeDefinitionIndex = 84055;
 
 	class BCJBOEIPPDN : public ::System::Object
 	{
 	public:
-		::System::UInt32 CMNOEFFFNPE; // 0x10
-		::HLNOEGNOJHH_PlaceInteractState JMBCJNLCLAC; // 0x14
-		::UnityEngine::Vector3 DBEFHAPFJKF; // 0x18
+		::UnityEngine::Vector3 DBEFHAPFJKF; // 0x10
+		::HLNOEGNOJHH_PlaceInteractState JMBCJNLCLAC; // 0x1C
+		::System::UInt32 CMNOEFFFNPE; // 0x20
 		::System::Int32 ODMPMJCAHPN; // 0x24
 		::System::Void _ctor()
 		{

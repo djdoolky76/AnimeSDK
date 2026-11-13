@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerGroupEventOnDialogEnd; }
 
-#define DDLEIIEKIEE_CTOR_OFFSET UNITYSDK_OFFSET(0xE4E58D0)
-#define DDLEIIEKIEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4E5900)
+#define DDLEIIEKIEE_CTOR_OFFSET UNITYSDK_OFFSET(0x17743A40)
+#define DDLEIIEKIEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17743A70)
 
-inline static constexpr unsigned int DDLEIIEKIEE_TypeDefinitionIndex = 53449;
+inline static constexpr unsigned int DDLEIIEKIEE_TypeDefinitionIndex = 54611;
 
 	class DDLEIIEKIEE
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class KKAOOEJHHHE;
 
-inline static constexpr unsigned int NEJPLEFGALN_MGGBHHKKLBG_TypeDefinitionIndex = 54251;
+inline static constexpr unsigned int NEJPLEFGALN_MGGBHHKKLBG_TypeDefinitionIndex = 55415;
 
 	struct alignas(8) NEJPLEFGALN_MGGBHHKKLBG
 	{

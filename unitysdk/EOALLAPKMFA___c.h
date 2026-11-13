@@ -4,18 +4,18 @@
 class EOALLAPKMFA;
 namespace System { class Object; }
 
-#define EOALLAPKMFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2C96F0)
-#define EOALLAPKMFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2C9730)
-#define EOALLAPKMFA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2C9740)
+#define EOALLAPKMFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD7E2C0)
+#define EOALLAPKMFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD7E300)
+#define EOALLAPKMFA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FD7E310)
 
-inline static constexpr unsigned int EOALLAPKMFA___c_TypeDefinitionIndex = 34134;
+inline static constexpr unsigned int EOALLAPKMFA___c_TypeDefinitionIndex = 35049;
 
 	class EOALLAPKMFA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45FB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E190);
 		}
 
 		static ::System::Void _cctor()

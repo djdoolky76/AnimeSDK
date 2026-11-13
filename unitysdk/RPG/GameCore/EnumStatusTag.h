@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnumStatusTag_TypeDefinitionIndex = 10416;
+	inline static constexpr unsigned int EnumStatusTag_TypeDefinitionIndex = 10427;
 
 	enum class EnumStatusTag : ::System::Int32
 	{

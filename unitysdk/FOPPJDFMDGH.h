@@ -5,7 +5,7 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-inline static constexpr unsigned int FOPPJDFMDGH_TypeDefinitionIndex = 57690;
+inline static constexpr unsigned int FOPPJDFMDGH_TypeDefinitionIndex = 58922;
 
 	struct alignas(8) FOPPJDFMDGH
 	{

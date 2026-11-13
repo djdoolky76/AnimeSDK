@@ -4,18 +4,18 @@
 class CPFNEECKCMK;
 namespace System { class Object; }
 
-#define CPFNEECKCMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E110010)
-#define CPFNEECKCMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E110050)
-#define CPFNEECKCMK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E110060)
+#define CPFNEECKCMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204E6810)
+#define CPFNEECKCMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204E6850)
+#define CPFNEECKCMK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x204E6860)
 
-inline static constexpr unsigned int CPFNEECKCMK___c_TypeDefinitionIndex = 30046;
+inline static constexpr unsigned int CPFNEECKCMK___c_TypeDefinitionIndex = 30944;
 
 	class CPFNEECKCMK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F100);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19190);
 		}
 
 		static ::System::Void _cctor()

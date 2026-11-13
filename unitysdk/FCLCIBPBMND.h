@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ST_ByHasTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCLCIBPBMND_CTOR_OFFSET UNITYSDK_OFFSET(0x156BF520)
-#define FCLCIBPBMND_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156BF550)
+#define FCLCIBPBMND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C025750)
+#define FCLCIBPBMND_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C025780)
 
-inline static constexpr unsigned int FCLCIBPBMND_TypeDefinitionIndex = 52197;
+inline static constexpr unsigned int FCLCIBPBMND_TypeDefinitionIndex = 53302;
 
 	class FCLCIBPBMND
 	{

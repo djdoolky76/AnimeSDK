@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define XLUA_CAST_FLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x14CB43B0)
+#define XLUA_CAST_FLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0xE7BC4E0)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int Float_TypeDefinitionIndex = 50301;
+	inline static constexpr unsigned int Float_TypeDefinitionIndex = 51352;
 
 	class Float
 	{

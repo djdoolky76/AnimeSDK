@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
 
-#define SRF_SERVICE_SRSERVICEMANAGER_SERVICESTUB_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED4AD70)
-#define SRF_SERVICE_SRSERVICEMANAGER_SERVICESTUB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ED4C490)
+#define SRF_SERVICE_SRSERVICEMANAGER_SERVICESTUB_CTOR_OFFSET UNITYSDK_OFFSET(0x2043CFD0)
+#define SRF_SERVICE_SRSERVICEMANAGER_SERVICESTUB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2043E6F0)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceManager_ServiceStub_TypeDefinitionIndex = 35418;
+	inline static constexpr unsigned int SRServiceManager_ServiceStub_TypeDefinitionIndex = 36346;
 
 	class SRServiceManager_ServiceStub : public ::System::Object
 	{
 	public:
-		::System::Type* InterfaceType; // 0x10
-		::System::Type* Type; // 0x18
+		::System::Type* Type; // 0x10
+		::System::Func_1<::System::Type*>* Selector; // 0x18
 		::System::Func_1<::System::Object*>* Constructor; // 0x20
-		::System::Func_1<::System::Type*>* Selector; // 0x28
+		::System::Type* InterfaceType; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER_SERVICESTUB_CTOR_OFFSET))(this);

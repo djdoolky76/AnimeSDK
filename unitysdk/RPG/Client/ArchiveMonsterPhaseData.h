@@ -11,28 +11,28 @@ namespace RPG::GameCore { class MonsterResistEntry; }
 namespace RPG::GameCore { class MonsterTemplateRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xC6927B0)
-#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC692670)
-#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC6927A0)
-#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_GET_RESISTDATA_OFFSET UNITYSDK_OFFSET(0xC692940)
-#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_SET_RESISTDATA_OFFSET UNITYSDK_OFFSET(0xC692950)
+#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1CA9B940)
+#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1CA9B800)
+#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA9B930)
+#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_GET_RESISTDATA_OFFSET UNITYSDK_OFFSET(0x1CA9BAD0)
+#define RPG_CLIENT_ARCHIVEMONSTERPHASEDATA_SET_RESISTDATA_OFFSET UNITYSDK_OFFSET(0x1CA9BAE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArchiveMonsterPhaseData_TypeDefinitionIndex = 62416;
+	inline static constexpr unsigned int ArchiveMonsterPhaseData_TypeDefinitionIndex = 63829;
 
 	class ArchiveMonsterPhaseData : public ::System::Object
 	{
 	public:
-		::System::String* ManikinPrefabPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* StanceWeakList; // 0x18
-		::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* DamageTypeResistance; // 0x20
+		::RPG::Client::MonsterResistData* _ResistData_k__BackingField; // 0x10
+		::System::String* ManikinPrefabPath; // 0x18
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* StanceWeakList; // 0x20
 		::System::String* ManikinConfigPath; // 0x28
 		::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>* DebuffResist; // 0x30
-		::RPG::Client::MonsterResistData* _ResistData_k__BackingField; // 0x38
-		::System::Int32 PhaseID; // 0x40
-		::System::UInt32 TemplateGroupID; // 0x44
-		::RPG::Client::TextID MonsterName; // 0x48
+		::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* DamageTypeResistance; // 0x38
+		::RPG::Client::TextID MonsterName; // 0x40
+		::System::Int32 PhaseID; // 0x50
+		::System::UInt32 TemplateGroupID; // 0x54
 		::RPG::Client::TextID MonsterIntroduction; // 0x58
 		::System::Void _ctor()
 		{

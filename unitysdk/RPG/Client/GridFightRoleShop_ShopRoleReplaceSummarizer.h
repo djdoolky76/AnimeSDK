@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 class HONNGJEMGGH;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESHOP_SHOPROLEREPLACESUMMARIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xD25DF00)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP_SHOPROLEREPLACESUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xD25D330)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP_SHOPROLEREPLACESUMMARIZER_UPDATESHOP_OFFSET UNITYSDK_OFFSET(0xD25D620)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_SHOPROLEREPLACESUMMARIZER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4ED290)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_SHOPROLEREPLACESUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x1D4ECB10)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_SHOPROLEREPLACESUMMARIZER_UPDATESHOP_OFFSET UNITYSDK_OFFSET(0x1D4ECE00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleShop_ShopRoleReplaceSummarizer_TypeDefinitionIndex = 65228;
+	inline static constexpr unsigned int GridFightRoleShop_ShopRoleReplaceSummarizer_TypeDefinitionIndex = 66934;
 
-	class GridFightRoleShop_ShopRoleReplaceSummarizer : public ::AMCOEFHHBPO
+	class GridFightRoleShop_ShopRoleReplaceSummarizer : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::System::Void _ctor()

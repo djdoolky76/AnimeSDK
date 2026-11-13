@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetEnchantFeatureParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLLFFIIDPPC_CTOR_OFFSET UNITYSDK_OFFSET(0x15AB0600)
-#define GLLFFIIDPPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AB0630)
+#define GLLFFIIDPPC_CTOR_OFFSET UNITYSDK_OFFSET(0x16C687D0)
+#define GLLFFIIDPPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C68800)
 
-inline static constexpr unsigned int GLLFFIIDPPC_TypeDefinitionIndex = 52494;
+inline static constexpr unsigned int GLLFFIIDPPC_TypeDefinitionIndex = 53600;
 
 	class GLLFFIIDPPC
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimeRewindDestructibleBridgeStaticBindInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5A120)
-#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB59CE0)
+#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5CE950)
+#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5CE730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindDestructibleBridgeStaticBindInfo_TypeDefinitionIndex = 16596;
+	inline static constexpr unsigned int TimeRewindDestructibleBridgeStaticBindInfo_TypeDefinitionIndex = 16762;
 
 	class TimeRewindDestructibleBridgeStaticBindInfo : public ::RPG::GameCore::JsonConfig
 	{

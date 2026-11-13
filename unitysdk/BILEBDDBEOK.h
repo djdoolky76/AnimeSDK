@@ -5,40 +5,41 @@
 class AHMEMALAOCA;
 class BILEBDDBEOK;
 
-#define BILEBDDBEOK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB4AF200)
-#define BILEBDDBEOK_CCTOR_OFFSET UNITYSDK_OFFSET(0xB781290)
-#define BILEBDDBEOK_CTOR_OFFSET UNITYSDK_OFFSET(0xB4AF330)
-#define BILEBDDBEOK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB780E10)
-#define BILEBDDBEOK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB780E60)
-#define BILEBDDBEOK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xB781140)
+#define BILEBDDBEOK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1BAC3910)
+#define BILEBDDBEOK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAC3ED0)
+#define BILEBDDBEOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC3A40)
+#define BILEBDDBEOK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BAC3A50)
+#define BILEBDDBEOK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1BAC3AA0)
+#define BILEBDDBEOK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1BAC3D80)
 
-inline static constexpr unsigned int BILEBDDBEOK_TypeDefinitionIndex = 57401;
+inline static constexpr unsigned int BILEBDDBEOK_TypeDefinitionIndex = 58629;
 
 	class BILEBDDBEOK : public ::System::Object
 	{
 	public:
 		::AHMEMALAOCA* FLMODBLFAGD; // 0x10
-		::System::Single HODIMDPEHIL; // 0x18
-		::System::Boolean BFHMIPCLJOB; // 0x1C
-		::System::Boolean EOELDCMAMHD; // 0x1D
-		static ::System::UInt32* StaticGet_KGNMCNMGCND()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("", "BILEBDDBEOK")->GetStaticField(0x15360);
-		}
-
+		::System::Boolean EOELDCMAMHD; // 0x18
+		::System::Boolean BFHMIPCLJOB; // 0x19
+		::System::Byte _padding0[0x2];
+		::System::Single HODIMDPEHIL; // 0x1C
 		static ::System::Single* StaticGet_BEILIKPDFFG()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "BILEBDDBEOK")->GetStaticField(0x15364);
+			return (::System::Single*)UnitySDK::FromName("", "BILEBDDBEOK")->GetStaticField(0x144D0);
 		}
 
 		static ::System::UInt32* StaticGet_NNBBEIBIKLJ()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "BILEBDDBEOK")->GetStaticField(0x15368);
+			return (::System::UInt32*)UnitySDK::FromName("", "BILEBDDBEOK")->GetStaticField(0x144D4);
+		}
+
+		static ::System::UInt32* StaticGet_KGNMCNMGCND()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("", "BILEBDDBEOK")->GetStaticField(0x144D8);
 		}
 
 		static ::System::UInt32* StaticGet_KAMCGDKHALB()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "BILEBDDBEOK")->GetStaticField(0x1536C);
+			return (::System::UInt32*)UnitySDK::FromName("", "BILEBDDBEOK")->GetStaticField(0x144DC);
 		}
 
 		::System::Void _ctor(::AHMEMALAOCA* a1)

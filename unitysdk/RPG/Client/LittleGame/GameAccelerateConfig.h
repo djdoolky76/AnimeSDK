@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_GAMEACCELERATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DA570)
+#define RPG_CLIENT_LITTLEGAME_GAMEACCELERATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x20712B40)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int GameAccelerateConfig_TypeDefinitionIndex = 42319;
+	inline static constexpr unsigned int GameAccelerateConfig_TypeDefinitionIndex = 43294;
 
 	class GameAccelerateConfig : public ::System::Object
 	{

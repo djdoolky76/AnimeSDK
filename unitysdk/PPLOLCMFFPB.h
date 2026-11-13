@@ -9,6 +9,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EKFMIDBJDIA;
+class LJLDEDPLHIL;
 namespace RPG::Client { class MapProp; }
 namespace RPG::Client { class MapPropDef; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
@@ -26,64 +27,64 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define PPLOLCMFFPB_ADDBJOIHBKB_OFFSET UNITYSDK_OFFSET(0xC386790)
-#define PPLOLCMFFPB_CBPBDFOFCFG_OFFSET UNITYSDK_OFFSET(0xC3878D0)
-#define PPLOLCMFFPB_CCJIMEIIKGC_OFFSET UNITYSDK_OFFSET(0xC389AF0)
-#define PPLOLCMFFPB_CCTOR_OFFSET UNITYSDK_OFFSET(0xC38A070)
-#define PPLOLCMFFPB_CNAEINPOPDK_OFFSET UNITYSDK_OFFSET(0xC389900)
-#define PPLOLCMFFPB_CNALEHFANBA_OFFSET UNITYSDK_OFFSET(0xC387ED0)
-#define PPLOLCMFFPB_CTOR_OFFSET UNITYSDK_OFFSET(0xC3860B0)
-#define PPLOLCMFFPB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3862D0)
-#define PPLOLCMFFPB_DLAKLIOCNOL_OFFSET UNITYSDK_OFFSET(0xC3883C0)
-#define PPLOLCMFFPB_EEAHPLDLKDF_OFFSET UNITYSDK_OFFSET(0xC3865D0)
-#define PPLOLCMFFPB_GCBGBEMMPNB_OFFSET UNITYSDK_OFFSET(0xC386890)
-#define PPLOLCMFFPB_GET_PROPENTITYLIST_OFFSET UNITYSDK_OFFSET(0xC389E30)
-#define PPLOLCMFFPB_GNBJKCCONNM_OFFSET UNITYSDK_OFFSET(0xC389290)
-#define PPLOLCMFFPB_HIHNAEBFEJG_OFFSET UNITYSDK_OFFSET(0xC386500)
-#define PPLOLCMFFPB_HPLBGPECDFH_OFFSET UNITYSDK_OFFSET(0xC389D60)
-#define PPLOLCMFFPB_IFLFLBHDPMN_OFFSET UNITYSDK_OFFSET(0xC388130)
-#define PPLOLCMFFPB_IMPNLGKBHAK_OFFSET UNITYSDK_OFFSET(0xC388760)
-#define PPLOLCMFFPB_JHGKFFIEDIF_OFFSET UNITYSDK_OFFSET(0xC386D50)
-#define PPLOLCMFFPB_JIGPGFEDNKH_OFFSET UNITYSDK_OFFSET(0xC389C30)
-#define PPLOLCMFFPB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC3880D0)
-#define PPLOLCMFFPB_KKHAEKMFIOC_OFFSET UNITYSDK_OFFSET(0xC389500)
-#define PPLOLCMFFPB_KKLNMOBNLIO_OFFSET UNITYSDK_OFFSET(0xC3884A0)
-#define PPLOLCMFFPB_KPKMMGOIKCI_OFFSET UNITYSDK_OFFSET(0xC388430)
-#define PPLOLCMFFPB_LBIEHKNPNPD_OFFSET UNITYSDK_OFFSET(0xC387AA0)
-#define PPLOLCMFFPB_LFMNFMNHLHB_OFFSET UNITYSDK_OFFSET(0xC3876E0)
-#define PPLOLCMFFPB_MDOCPKPABKB_OFFSET UNITYSDK_OFFSET(0xC3882E0)
-#define PPLOLCMFFPB_MKCLBIEOFHE_OFFSET UNITYSDK_OFFSET(0xC386710)
-#define PPLOLCMFFPB_OINCMPLKLID_OFFSET UNITYSDK_OFFSET(0xC3873D0)
-#define PPLOLCMFFPB_OMMHEMICHDF_OFFSET UNITYSDK_OFFSET(0xC389E50)
-#define PPLOLCMFFPB_PBGACOEMPBD_OFFSET UNITYSDK_OFFSET(0xC388970)
-#define PPLOLCMFFPB_PEKGIJOIAFI_OFFSET UNITYSDK_OFFSET(0xC386640)
-#define PPLOLCMFFPB_SET_PROPENTITYLIST_OFFSET UNITYSDK_OFFSET(0xC389E40)
+#define PPLOLCMFFPB_ADDBJOIHBKB_OFFSET UNITYSDK_OFFSET(0x1B8B3190)
+#define PPLOLCMFFPB_CBPBDFOFCFG_OFFSET UNITYSDK_OFFSET(0x1B8B42B0)
+#define PPLOLCMFFPB_CCJIMEIIKGC_OFFSET UNITYSDK_OFFSET(0x1B8B62F0)
+#define PPLOLCMFFPB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8B6870)
+#define PPLOLCMFFPB_CNAEINPOPDK_OFFSET UNITYSDK_OFFSET(0x1B8B60F0)
+#define PPLOLCMFFPB_CNALEHFANBA_OFFSET UNITYSDK_OFFSET(0x1B8B46C0)
+#define PPLOLCMFFPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B2AB0)
+#define PPLOLCMFFPB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B8B2CD0)
+#define PPLOLCMFFPB_DLAKLIOCNOL_OFFSET UNITYSDK_OFFSET(0x1B8B4B90)
+#define PPLOLCMFFPB_EEAHPLDLKDF_OFFSET UNITYSDK_OFFSET(0x1B8B2FD0)
+#define PPLOLCMFFPB_GCBGBEMMPNB_OFFSET UNITYSDK_OFFSET(0x1B8B3290)
+#define PPLOLCMFFPB_GET_PROPENTITYLIST_OFFSET UNITYSDK_OFFSET(0x1B8B6630)
+#define PPLOLCMFFPB_GNBJKCCONNM_OFFSET UNITYSDK_OFFSET(0x1B8B5A70)
+#define PPLOLCMFFPB_HIHNAEBFEJG_OFFSET UNITYSDK_OFFSET(0x1B8B2F00)
+#define PPLOLCMFFPB_HPLBGPECDFH_OFFSET UNITYSDK_OFFSET(0x1B8B6560)
+#define PPLOLCMFFPB_IFLFLBHDPMN_OFFSET UNITYSDK_OFFSET(0x1B8B4900)
+#define PPLOLCMFFPB_IMPNLGKBHAK_OFFSET UNITYSDK_OFFSET(0x1B8B4F30)
+#define PPLOLCMFFPB_JHGKFFIEDIF_OFFSET UNITYSDK_OFFSET(0x1B8B3760)
+#define PPLOLCMFFPB_JIGPGFEDNKH_OFFSET UNITYSDK_OFFSET(0x1B8B6430)
+#define PPLOLCMFFPB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1B8B48A0)
+#define PPLOLCMFFPB_KKHAEKMFIOC_OFFSET UNITYSDK_OFFSET(0x1B8B5CE0)
+#define PPLOLCMFFPB_KKLNMOBNLIO_OFFSET UNITYSDK_OFFSET(0x1B8B4C70)
+#define PPLOLCMFFPB_KPKMMGOIKCI_OFFSET UNITYSDK_OFFSET(0x1B8B4C00)
+#define PPLOLCMFFPB_LBIEHKNPNPD_OFFSET UNITYSDK_OFFSET(0x1B8B4480)
+#define PPLOLCMFFPB_LFMNFMNHLHB_OFFSET UNITYSDK_OFFSET(0x1B8B40C0)
+#define PPLOLCMFFPB_MDOCPKPABKB_OFFSET UNITYSDK_OFFSET(0x1B8B4AB0)
+#define PPLOLCMFFPB_MKCLBIEOFHE_OFFSET UNITYSDK_OFFSET(0x1B8B3110)
+#define PPLOLCMFFPB_OINCMPLKLID_OFFSET UNITYSDK_OFFSET(0x1B8B3DB0)
+#define PPLOLCMFFPB_OMMHEMICHDF_OFFSET UNITYSDK_OFFSET(0x1B8B6650)
+#define PPLOLCMFFPB_PBGACOEMPBD_OFFSET UNITYSDK_OFFSET(0x1B8B5140)
+#define PPLOLCMFFPB_PEKGIJOIAFI_OFFSET UNITYSDK_OFFSET(0x1B8B3040)
+#define PPLOLCMFFPB_SET_PROPENTITYLIST_OFFSET UNITYSDK_OFFSET(0x1B8B6640)
 
-inline static constexpr unsigned int PPLOLCMFFPB_TypeDefinitionIndex = 60768;
+inline static constexpr unsigned int PPLOLCMFFPB_TypeDefinitionIndex = 62145;
 
 	class PPLOLCMFFPB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*>* IMCBHOPMLCI; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::MapProp*>* CODPEMLMCAO; // 0x18
-		::RPG::GameCore::GameWorld* LMMOLOCONLH; // 0x20
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* JFCCIJHDKHJ; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _PropEntityList_k__BackingField; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* PLKHAAOBCPC; // 0x38
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _PropEntityList_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* JFCCIJHDKHJ; // 0x18
+		::RPG::GameCore::HoyoTag* CENNIMLCDIA; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* PLKHAAOBCPC; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::MapProp*>* CODPEMLMCAO; // 0x30
+		::RPG::GameCore::GameWorld* LMMOLOCONLH; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Matrix4x4>* JKCGMENFGAE; // 0x40
-		::RPG::GameCore::HoyoTag* CENNIMLCDIA; // 0x48
-		::RPG::GameCore::CharacterVisibleReason IDOIOMAMBLB; // 0x50
-		::System::Boolean IBLCJJKAIFD; // 0x51
-		::System::Boolean CIPMPLAJDLP; // 0x52
-		::System::Boolean ECBLJJJILDF; // 0x53
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*>* IMCBHOPMLCI; // 0x48
+		::System::Boolean ECBLJJJILDF; // 0x50
+		::RPG::GameCore::CharacterVisibleReason IDOIOMAMBLB; // 0x51
+		::System::Boolean IBLCJJKAIFD; // 0x52
+		::System::Boolean CIPMPLAJDLP; // 0x53
 		static ::System::String** StaticGet_EFHOLEHGNGP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "PPLOLCMFFPB")->GetStaticField(0xDE60);
+			return (::System::String**)UnitySDK::FromName("", "PPLOLCMFFPB")->GetStaticField(0xBEA0);
 		}
 
 		static ::System::Boolean* StaticGet_EIBLANLCEBH()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PPLOLCMFFPB")->GetStaticField(0x2D90);
+			return (::System::Boolean*)UnitySDK::FromName("", "PPLOLCMFFPB")->GetStaticField(0x17D0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::GameWorld* a1)
@@ -126,9 +127,9 @@ inline static constexpr unsigned int PPLOLCMFFPB_TypeDefinitionIndex = 60768;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + PPLOLCMFFPB_ADDBJOIHBKB_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* GCBGBEMMPNB(::System::UInt32 a1, ::RPG::GameCore::TeamType a2, ::System::String* a3, ::UnityEngine::GameObject* a4, ::RPG::MVector3 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::RPG::MVector3 a9, ::RPG::Client::MapPropDef* a10, ::System::String* a11, ::System::Action_1<::RPG::GameCore::GameEntity*>* a12, ::RPG::GameCore::EntityClassifyType a13, ::System::Boolean a14, ::RPG::Client::OpenWorld::StreamingItemData* a15, ::System::Boolean a16)
+		::RPG::GameCore::GameEntity* GCBGBEMMPNB(::System::UInt32 a1, ::RPG::GameCore::TeamType a2, ::System::String* a3, ::UnityEngine::GameObject* a4, ::RPG::MVector3 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::RPG::MVector3 a9, ::RPG::Client::MapPropDef* a10, ::System::String* a11, ::System::Action_1<::RPG::GameCore::GameEntity*>* a12, ::RPG::GameCore::EntityClassifyType a13, ::System::Boolean a14, ::RPG::Client::OpenWorld::StreamingItemData* a15, ::System::Boolean a16, ::LJLDEDPLHIL* a17)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::TeamType, ::System::String*, ::UnityEngine::GameObject*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::RPG::Client::MapPropDef*, ::System::String*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::EntityClassifyType, ::System::Boolean, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Boolean))((::PBYTE)hIl2Cpp + PPLOLCMFFPB_GCBGBEMMPNB_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::TeamType, ::System::String*, ::UnityEngine::GameObject*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::RPG::Client::MapPropDef*, ::System::String*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::EntityClassifyType, ::System::Boolean, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Boolean, ::LJLDEDPLHIL*))((::PBYTE)hIl2Cpp + PPLOLCMFFPB_GCBGBEMMPNB_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17);
 		}
 
 		::System::Void JHGKFFIEDIF(::RPG::GameCore::GameEntity* a1)

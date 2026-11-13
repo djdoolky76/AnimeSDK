@@ -5,17 +5,17 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::UINavigation { class UINavigationButton; }
 namespace System { template <typename T> class Action_1; }
 
-#define HKLLKIEHBDE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D3EDE0)
-#define HKLLKIEHBDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D3F0C0)
-#define HKLLKIEHBDE_DOAOGHIIPAC_OFFSET UNITYSDK_OFFSET(0x15D3EFE0)
+#define HKLLKIEHBDE_CTOR_OFFSET UNITYSDK_OFFSET(0x19889780)
+#define HKLLKIEHBDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x198899C0)
+#define HKLLKIEHBDE_DOAOGHIIPAC_OFFSET UNITYSDK_OFFSET(0x198898E0)
 
-inline static constexpr unsigned int HKLLKIEHBDE_TypeDefinitionIndex = 49828;
+inline static constexpr unsigned int HKLLKIEHBDE_TypeDefinitionIndex = 50876;
 
 	class HKLLKIEHBDE : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* MBOEDFCNCJF; // 0x10
-		::RPG::UINavigation::UINavigationButton* AAFGIHCCPOP; // 0x18
+		::RPG::UINavigation::UINavigationButton* AAFGIHCCPOP; // 0x10
+		::System::Action_1<::System::Boolean>* MBOEDFCNCJF; // 0x18
 		::R3::ReactiveProperty_1<::System::Boolean>* AGFAPPGGKMA; // 0x20
 		::System::Void _ctor(::RPG::UINavigation::UINavigationButton* a1, ::R3::ReactiveProperty_1<::System::Boolean>* a2)
 		{

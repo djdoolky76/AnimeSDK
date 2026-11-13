@@ -5,35 +5,35 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KKJPNOFMNDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB4CAE50)
-#define KKJPNOFMNDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CAE80)
-#define KKJPNOFMNDL___C__GETBLOCKGAMEPLAYSUBMISSIONIDS_B__8_0_OFFSET UNITYSDK_OFFSET(0xB4CAE90)
-#define KKJPNOFMNDL___C__RPG_CLIENT_MECHCRAFT_IMECHCRAFTCONSTANTCONFIGREPOSITORY_GETINTEGRATIONBARDIVISIONLEVELUPRULE_B__10_0_OFFSET UNITYSDK_OFFSET(0xB4CAEF0)
-#define KKJPNOFMNDL___C__RPG_CLIENT_MECHCRAFT_IMECHCRAFTCONSTANTCONFIGREPOSITORY_GETRESIDENTQUESTIDS_B__14_0_OFFSET UNITYSDK_OFFSET(0xB4CAF50)
+#define KKJPNOFMNDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17357B50)
+#define KKJPNOFMNDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17357B80)
+#define KKJPNOFMNDL___C__GETBLOCKGAMEPLAYSUBMISSIONIDS_B__8_0_OFFSET UNITYSDK_OFFSET(0x17357B90)
+#define KKJPNOFMNDL___C__RPG_CLIENT_MECHCRAFT_IMECHCRAFTCONSTANTCONFIGREPOSITORY_GETINTEGRATIONBARDIVISIONLEVELUPRULE_B__10_0_OFFSET UNITYSDK_OFFSET(0x17357BF0)
+#define KKJPNOFMNDL___C__RPG_CLIENT_MECHCRAFT_IMECHCRAFTCONSTANTCONFIGREPOSITORY_GETRESIDENTQUESTIDS_B__14_0_OFFSET UNITYSDK_OFFSET(0x17357C50)
 
-inline static constexpr unsigned int KKJPNOFMNDL___c_TypeDefinitionIndex = 80099;
+inline static constexpr unsigned int KKJPNOFMNDL___c_TypeDefinitionIndex = 82876;
 
 	class KKJPNOFMNDL___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54370);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54378);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Int32>** StaticGet___9__10_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54380);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0C0);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54388);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0C8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0D0);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Int32>** StaticGet___9__10_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0D8);
 		}
 
 		static ::System::Void _cctor()

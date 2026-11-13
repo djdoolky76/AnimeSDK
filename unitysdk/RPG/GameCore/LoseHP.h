@@ -11,13 +11,13 @@ namespace RPG::GameCore { class LoseHP; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOSEHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C93C0)
-#define RPG_GAMECORE_LOSEHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C9470)
-#define RPG_GAMECORE_LOSEHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C92E0)
+#define RPG_GAMECORE_LOSEHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07B5C0)
+#define RPG_GAMECORE_LOSEHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F07B670)
+#define RPG_GAMECORE_LOSEHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F07B4E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoseHP_TypeDefinitionIndex = 22698;
+	inline static constexpr unsigned int LoseHP_TypeDefinitionIndex = 23120;
 
 	class LoseHP : public ::RPG::GameCore::TaskConfig
 	{

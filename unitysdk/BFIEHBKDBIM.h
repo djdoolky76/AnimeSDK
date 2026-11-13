@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetDamageSharedTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BFIEHBKDBIM_CTOR_OFFSET UNITYSDK_OFFSET(0xB162E20)
-#define BFIEHBKDBIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB162E50)
+#define BFIEHBKDBIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A959130)
+#define BFIEHBKDBIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A959160)
 
-inline static constexpr unsigned int BFIEHBKDBIM_TypeDefinitionIndex = 55385;
+inline static constexpr unsigned int BFIEHBKDBIM_TypeDefinitionIndex = 56569;
 
 	class BFIEHBKDBIM
 	{

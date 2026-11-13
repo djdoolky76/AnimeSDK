@@ -13,28 +13,27 @@ namespace RPG::Client { class ChallengeTeamInfo; }
 namespace RPG::Client { class MonsterData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xC96D600)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC971EA0)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_GETAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0xC971EB0)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xC96E3E0)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_TRYGETAVATARDATA_OFFSET UNITYSDK_OFFSET(0xC96E600)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_UPDATEBATTLERESULT_OFFSET UNITYSDK_OFFSET(0xC96E900)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x1B6F5070)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F98E0)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_GETAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0x1B6F98F0)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x1B6F5E50)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_TRYGETAVATARDATA_OFFSET UNITYSDK_OFFSET(0x1B6F6060)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_UPDATEBATTLERESULT_OFFSET UNITYSDK_OFFSET(0x1B6F6360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeBossSingleNodeInfo_TypeDefinitionIndex = 63081;
+	inline static constexpr unsigned int ChallengeBossSingleNodeInfo_TypeDefinitionIndex = 64519;
 
 	class ChallengeBossSingleNodeInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::MonsterData* MonsterData; // 0x10
 		::RPG::Client::ChallengeTeamInfo* TeamInfo; // 0x18
-		::System::Boolean IsPass; // 0x20
-		::System::Boolean HasBeenChallenged; // 0x21
-		::System::Boolean HasTeamInfo; // 0x22
-		::System::Byte _padding0[0x1];
+		::System::UInt32 MaxScore; // 0x20
 		::System::UInt32 BuffID; // 0x24
-		::System::UInt32 MaxScore; // 0x28
+		::System::Boolean IsPass; // 0x28
+		::System::Boolean HasBeenChallenged; // 0x29
+		::System::Boolean HasTeamInfo; // 0x2A
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CTOR_OFFSET))(this);

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MFDLKHMCCNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB8EB460)
+#define MFDLKHMCCNN_CTOR_OFFSET UNITYSDK_OFFSET(0x17C7B6B0)
 
-inline static constexpr unsigned int MFDLKHMCCNN_TypeDefinitionIndex = 63736;
+inline static constexpr unsigned int MFDLKHMCCNN_TypeDefinitionIndex = 65178;
 
 	class MFDLKHMCCNN : public ::System::Object
 	{

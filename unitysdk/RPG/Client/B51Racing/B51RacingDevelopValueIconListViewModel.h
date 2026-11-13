@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconItemViewModel; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPVALUEICONLISTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC78CE40)
+#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPVALUEICONLISTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B12C630)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDevelopValueIconListViewModel_TypeDefinitionIndex = 82025;
+	inline static constexpr unsigned int B51RacingDevelopValueIconListViewModel_TypeDefinitionIndex = 84806;
 
 	class B51RacingDevelopValueIconListViewModel : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OMEHCMEGIHO_FailureReason_TypeDefinitionIndex = 62355;
+inline static constexpr unsigned int OMEHCMEGIHO_FailureReason_TypeDefinitionIndex = 63768;
 
 	enum class OMEHCMEGIHO_FailureReason : ::System::Int32
 	{

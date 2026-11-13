@@ -8,59 +8,59 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Transform; }
 
-#define FPEICPLLKIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1590CA80)
-#define FPEICPLLKIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1590CAC0)
-#define FPEICPLLKIP___C__CREATECELLENTITYANDVIEW_B__21_0_OFFSET UNITYSDK_OFFSET(0x1590CB10)
-#define FPEICPLLKIP___C__CREATECHENLINGENTITYANDVIEW_B__26_0_OFFSET UNITYSDK_OFFSET(0x1590CB70)
-#define FPEICPLLKIP___C__CREATEITEMENTITYANDVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x1590CAD0)
-#define FPEICPLLKIP___C__CREATEITEMENTITYANDVIEW_B__18_1_OFFSET UNITYSDK_OFFSET(0x1590CAE0)
-#define FPEICPLLKIP___C__LEVELUPCHENLINGENTITYANDVIEW_B__28_0_OFFSET UNITYSDK_OFFSET(0x1590CBD0)
-#define FPEICPLLKIP___C__TRYCREATESUMMONCHENLINGENTITYANDVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0x1590CBA0)
-#define FPEICPLLKIP___C__UNLOCKCELL_B__22_0_OFFSET UNITYSDK_OFFSET(0x1590CB40)
+#define FPEICPLLKIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1877A5E0)
+#define FPEICPLLKIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1877A620)
+#define FPEICPLLKIP___C__CREATECELLENTITYANDVIEW_B__21_0_OFFSET UNITYSDK_OFFSET(0x1877A670)
+#define FPEICPLLKIP___C__CREATECHENLINGENTITYANDVIEW_B__26_0_OFFSET UNITYSDK_OFFSET(0x1877A6D0)
+#define FPEICPLLKIP___C__CREATEITEMENTITYANDVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x1877A630)
+#define FPEICPLLKIP___C__CREATEITEMENTITYANDVIEW_B__18_1_OFFSET UNITYSDK_OFFSET(0x1877A640)
+#define FPEICPLLKIP___C__LEVELUPCHENLINGENTITYANDVIEW_B__28_0_OFFSET UNITYSDK_OFFSET(0x1877A730)
+#define FPEICPLLKIP___C__TRYCREATESUMMONCHENLINGENTITYANDVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0x1877A700)
+#define FPEICPLLKIP___C__UNLOCKCELL_B__22_0_OFFSET UNITYSDK_OFFSET(0x1877A6A0)
 
-inline static constexpr unsigned int FPEICPLLKIP___c_TypeDefinitionIndex = 77764;
+inline static constexpr unsigned int FPEICPLLKIP___c_TypeDefinitionIndex = 80499;
 
 	class FPEICPLLKIP___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__22_0()
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__27_0()
 		{
-			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53B80);
-		}
-
-		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__28_0()
-		{
-			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53B88);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56740);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53B90);
+			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56748);
+		}
+
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__22_0()
+		{
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56750);
 		}
 
 		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__18_1()
 		{
-			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53B98);
-		}
-
-		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__27_0()
-		{
-			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53BA0);
-		}
-
-		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__21_0()
-		{
-			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53BA8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53BB0);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56758);
 		}
 
 		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__26_0()
 		{
-			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53BB8);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56760);
+		}
+
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__21_0()
+		{
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56768);
+		}
+
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__28_0()
+		{
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56770);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56778);
 		}
 
 		static ::System::Void _cctor()

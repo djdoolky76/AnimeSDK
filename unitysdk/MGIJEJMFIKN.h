@@ -5,17 +5,17 @@ class KNADGNOONMC;
 class LNLKODEPCLB;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MGIJEJMFIKN_CTOR_OFFSET UNITYSDK_OFFSET(0xB91A8E0)
-#define MGIJEJMFIKN_GET_LEVELS_OFFSET UNITYSDK_OFFSET(0xB91A8D0)
-#define MGIJEJMFIKN_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xB91A960)
+#define MGIJEJMFIKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B340880)
+#define MGIJEJMFIKN_GET_LEVELS_OFFSET UNITYSDK_OFFSET(0x1B340870)
+#define MGIJEJMFIKN_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0x1B340900)
 
-inline static constexpr unsigned int MGIJEJMFIKN_TypeDefinitionIndex = 63926;
+inline static constexpr unsigned int MGIJEJMFIKN_TypeDefinitionIndex = 65368;
 
 	class MGIJEJMFIKN : public ::System::Object
 	{
 	public:
-		::LNLKODEPCLB* NKIJKACKJNL; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KNADGNOONMC*>* _Levels_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KNADGNOONMC*>* _Levels_k__BackingField; // 0x10
+		::LNLKODEPCLB* NKIJKACKJNL; // 0x18
 		::System::Void _ctor(::LNLKODEPCLB* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::LNLKODEPCLB*))((::PBYTE)hIl2Cpp + MGIJEJMFIKN_CTOR_OFFSET))(this, a1);

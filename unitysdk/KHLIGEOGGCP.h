@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define KHLIGEOGGCP_CTOR_OFFSET UNITYSDK_OFFSET(0xB405390)
+#define KHLIGEOGGCP_CTOR_OFFSET UNITYSDK_OFFSET(0x197967C0)
 
-inline static constexpr unsigned int KHLIGEOGGCP_TypeDefinitionIndex = 47936;
+inline static constexpr unsigned int KHLIGEOGGCP_TypeDefinitionIndex = 48967;
 
 	class KHLIGEOGGCP : public ::UnityEngine::Playables::PlayableBehaviour
 	{

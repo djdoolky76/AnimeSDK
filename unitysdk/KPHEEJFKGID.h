@@ -4,21 +4,21 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define KPHEEJFKGID_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B72B0)
-#define KPHEEJFKGID_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB5B70F0)
-#define KPHEEJFKGID_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB5B71B0)
-#define KPHEEJFKGID_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB5B6E30)
-#define KPHEEJFKGID_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB5B6E40)
+#define KPHEEJFKGID_CTOR_OFFSET UNITYSDK_OFFSET(0x19127AA0)
+#define KPHEEJFKGID_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x191278E0)
+#define KPHEEJFKGID_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x191279A0)
+#define KPHEEJFKGID_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19127620)
+#define KPHEEJFKGID_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x19127630)
 
-inline static constexpr unsigned int KPHEEJFKGID_TypeDefinitionIndex = 56117;
+inline static constexpr unsigned int KPHEEJFKGID_TypeDefinitionIndex = 57329;
 
 	class KPHEEJFKGID : public ::DBGDNLLDPFI
 	{
 	public:
-		::System::String* BHLPBOBCJFK; // 0x10
-		::System::String* DINBCKPJJEL; // 0x18
-		::System::String* KBKOGLCAEKG; // 0x20
-		::System::String* PMGPFPNHJAA; // 0x28
+		::System::String* DINBCKPJJEL; // 0x10
+		::System::String* BHLPBOBCJFK; // 0x18
+		::System::String* PMGPFPNHJAA; // 0x20
+		::System::String* KBKOGLCAEKG; // 0x28
 		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{

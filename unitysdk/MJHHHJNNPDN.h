@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MJHHHJNNPDN_TypeDefinitionIndex = 75008;
+inline static constexpr unsigned int MJHHHJNNPDN_TypeDefinitionIndex = 77335;
 
 	class MJHHHJNNPDN
 	{

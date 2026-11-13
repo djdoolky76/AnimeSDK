@@ -5,11 +5,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define KGINOHKJPBO_FIAEJAEDMGD_OFFSET UNITYSDK_OFFSET(0xB3E7260)
-#define KGINOHKJPBO_NLIHNCFLIGN_1_OFFSET UNITYSDK_OFFSET(0xB3E70A0)
-#define KGINOHKJPBO_NLIHNCFLIGN_OFFSET UNITYSDK_OFFSET(0xB3E6F00)
+#define KGINOHKJPBO_FIAEJAEDMGD_OFFSET UNITYSDK_OFFSET(0x19776560)
+#define KGINOHKJPBO_NLIHNCFLIGN_1_OFFSET UNITYSDK_OFFSET(0x197763A0)
+#define KGINOHKJPBO_NLIHNCFLIGN_OFFSET UNITYSDK_OFFSET(0x19776200)
 
-inline static constexpr unsigned int KGINOHKJPBO_TypeDefinitionIndex = 59369;
+inline static constexpr unsigned int KGINOHKJPBO_TypeDefinitionIndex = 60646;
 
 	class KGINOHKJPBO : public ::System::Object
 	{

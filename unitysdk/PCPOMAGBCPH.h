@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define PCPOMAGBCPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C976C60)
+#define PCPOMAGBCPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x176789D0)
 
-inline static constexpr unsigned int PCPOMAGBCPH_TypeDefinitionIndex = 42785;
+inline static constexpr unsigned int PCPOMAGBCPH_TypeDefinitionIndex = 43765;
 
 	class PCPOMAGBCPH : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
-		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "PCPOMAGBCPH")->GetStaticField(0x46AA0);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PCPOMAGBCPH")->GetStaticField(0x46AA8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PCPOMAGBCPH")->GetStaticField(0x44A70);
+		}
+
+		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
+		{
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "PCPOMAGBCPH")->GetStaticField(0x44A78);
 		}
 
 		// static const ::System::Object EKEFPDFCNOM; // 0x0

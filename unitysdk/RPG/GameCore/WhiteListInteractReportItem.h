@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class WhiteListInteractReportItem; }
 
-#define RPG_GAMECORE_WHITELISTINTERACTREPORTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC79EE0)
-#define RPG_GAMECORE_WHITELISTINTERACTREPORTITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC79D70)
+#define RPG_GAMECORE_WHITELISTINTERACTREPORTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x20807860)
+#define RPG_GAMECORE_WHITELISTINTERACTREPORTITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x208076F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WhiteListInteractReportItem_TypeDefinitionIndex = 17636;
+	inline static constexpr unsigned int WhiteListInteractReportItem_TypeDefinitionIndex = 17805;
 
 	class WhiteListInteractReportItem : public ::RPG::GameCore::JsonConfig
 	{

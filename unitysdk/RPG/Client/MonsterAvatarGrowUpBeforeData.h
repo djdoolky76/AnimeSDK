@@ -4,22 +4,22 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonsterAvatarGrowUpBeforeData; }
 
-#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xD8B0D10)
-#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B0D90)
+#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x1A167750)
+#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1677D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterAvatarGrowUpBeforeData_TypeDefinitionIndex = 62222;
+	inline static constexpr unsigned int MonsterAvatarGrowUpBeforeData_TypeDefinitionIndex = 63635;
 
 	class MonsterAvatarGrowUpBeforeData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::FixPoint AttackBefore; // 0x10
-		::RPG::GameCore::FixPoint SpeedBefore; // 0x18
-		::System::UInt32 PromotionBefore; // 0x20
-		::System::UInt32 ExpBefore; // 0x24
-		::RPG::GameCore::FixPoint DefenseBefore; // 0x28
-		::RPG::GameCore::FixPoint HpMaxBefore; // 0x30
+		::RPG::GameCore::FixPoint DefenseBefore; // 0x18
+		::RPG::GameCore::FixPoint HpMaxBefore; // 0x20
+		::RPG::GameCore::FixPoint SpeedBefore; // 0x28
+		::System::UInt32 PromotionBefore; // 0x30
+		::System::UInt32 ExpBefore; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_CTOR_OFFSET))(this);

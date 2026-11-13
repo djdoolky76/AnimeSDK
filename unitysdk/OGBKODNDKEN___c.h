@@ -4,18 +4,18 @@
 class OGBKODNDKEN;
 namespace System { class Object; }
 
-#define OGBKODNDKEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE21FE0)
-#define OGBKODNDKEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE22010)
-#define OGBKODNDKEN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE22020)
+#define OGBKODNDKEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F211C20)
+#define OGBKODNDKEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F211C50)
+#define OGBKODNDKEN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F211C60)
 
-inline static constexpr unsigned int OGBKODNDKEN___c_TypeDefinitionIndex = 34920;
+inline static constexpr unsigned int OGBKODNDKEN___c_TypeDefinitionIndex = 35848;
 
 	class OGBKODNDKEN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17780);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14970);
 		}
 
 		static ::System::Void _cctor()

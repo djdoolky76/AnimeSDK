@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class LinkedListN
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BEAJIMEGNMH_AALCFBOGFKP_OFFSET UNITYSDK_OFFSET(0x162FD330)
-#define BEAJIMEGNMH_CGENPCCKFNI_OFFSET UNITYSDK_OFFSET(0x162FD4D0)
-#define BEAJIMEGNMH_CTOR_OFFSET UNITYSDK_OFFSET(0x162FD750)
-#define BEAJIMEGNMH_DBFGHDGILBG_OFFSET UNITYSDK_OFFSET(0x162FD5A0)
-#define BEAJIMEGNMH_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x162FCEC0)
-#define BEAJIMEGNMH_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0x162FD540)
-#define BEAJIMEGNMH_OCFGPFNMLNH_OFFSET UNITYSDK_OFFSET(0x162FD590)
+#define BEAJIMEGNMH_AALCFBOGFKP_OFFSET UNITYSDK_OFFSET(0x1A92B530)
+#define BEAJIMEGNMH_CGENPCCKFNI_OFFSET UNITYSDK_OFFSET(0x1A92B6D0)
+#define BEAJIMEGNMH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A92B950)
+#define BEAJIMEGNMH_DBFGHDGILBG_OFFSET UNITYSDK_OFFSET(0x1A92B7A0)
+#define BEAJIMEGNMH_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x1A92B0C0)
+#define BEAJIMEGNMH_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0x1A92B740)
+#define BEAJIMEGNMH_OCFGPFNMLNH_OFFSET UNITYSDK_OFFSET(0x1A92B790)
 
-inline static constexpr unsigned int BEAJIMEGNMH_TypeDefinitionIndex = 59393;
+inline static constexpr unsigned int BEAJIMEGNMH_TypeDefinitionIndex = 60670;
 
 	class BEAJIMEGNMH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::LinkedListNode_1<::AIBOPLOBAFN*>*>* BGGLCMPFICA; // 0x10
+		::System::Collections::Generic::Dictionary_2<::AIBOPLOBAFN*, ::System::Collections::Generic::LinkedListNode_1<::AIBOPLOBAFN*>*>* MCMAFIBCMIL; // 0x10
 		::System::Collections::Generic::LinkedList_1<::AIBOPLOBAFN*>* HHPKFMDHKPH; // 0x18
-		::System::Collections::Generic::Dictionary_2<::AIBOPLOBAFN*, ::System::Collections::Generic::LinkedListNode_1<::AIBOPLOBAFN*>*>* MCMAFIBCMIL; // 0x20
+		::System::Collections::Generic::List_1<::System::Collections::Generic::LinkedListNode_1<::AIBOPLOBAFN*>*>* BGGLCMPFICA; // 0x20
 		::System::Int32 NFINOKLNDEN; // 0x28
 		::System::Void _ctor()
 		{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PHDPAKFFLOK_EPlaneSide_TypeDefinitionIndex = 69697;
+inline static constexpr unsigned int PHDPAKFFLOK_EPlaneSide_TypeDefinitionIndex = 71654;
 
 	enum class PHDPAKFFLOK_EPlaneSide : ::System::Int32
 	{

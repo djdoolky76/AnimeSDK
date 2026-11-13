@@ -4,18 +4,18 @@
 class ONNEJIPGHCK;
 namespace System { class Object; }
 
-#define ONNEJIPGHCK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEA1FE0)
-#define ONNEJIPGHCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA2010)
-#define ONNEJIPGHCK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEA2020)
+#define ONNEJIPGHCK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC36210)
+#define ONNEJIPGHCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC36240)
+#define ONNEJIPGHCK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC36250)
 
-inline static constexpr unsigned int ONNEJIPGHCK___c_TypeDefinitionIndex = 33929;
+inline static constexpr unsigned int ONNEJIPGHCK___c_TypeDefinitionIndex = 34844;
 
 	class ONNEJIPGHCK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25180);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28ED0);
 		}
 
 		static ::System::Void _cctor()

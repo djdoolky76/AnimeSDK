@@ -4,18 +4,18 @@
 class DFJPGILAAON;
 namespace System { class Object; }
 
-#define DFJPGILAAON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E175DB0)
-#define DFJPGILAAON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E175DE0)
-#define DFJPGILAAON___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E175DF0)
+#define DFJPGILAAON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFB75D0)
+#define DFJPGILAAON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFB7600)
+#define DFJPGILAAON___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FFB7610)
 
-inline static constexpr unsigned int DFJPGILAAON___c_TypeDefinitionIndex = 27930;
+inline static constexpr unsigned int DFJPGILAAON___c_TypeDefinitionIndex = 28520;
 
 	class DFJPGILAAON___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DCD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28B40);
 		}
 
 		static ::System::Void _cctor()

@@ -5,7 +5,7 @@ namespace System::Collections { class IEnumerator; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromNonGenericEnumerable_1_TypeDefinitionIndex = 6104;
+	inline static constexpr unsigned int FromNonGenericEnumerable_1_TypeDefinitionIndex = 6112;
 
 	template <typename T>
 	struct alignas(8) FromNonGenericEnumerable_1

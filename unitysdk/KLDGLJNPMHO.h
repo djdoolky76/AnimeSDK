@@ -9,19 +9,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KLDGLJNPMHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB4E7740)
-#define KLDGLJNPMHO_DMEMNMNHCFE_OFFSET UNITYSDK_OFFSET(0xB4E7300)
-#define KLDGLJNPMHO_HCDPIBFLAME_OFFSET UNITYSDK_OFFSET(0xB4E6E50)
-#define KLDGLJNPMHO_JFJANJDEICB_OFFSET UNITYSDK_OFFSET(0xB4E7660)
-#define KLDGLJNPMHO_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB4E6D70)
+#define KLDGLJNPMHO_CTOR_OFFSET UNITYSDK_OFFSET(0x17375320)
+#define KLDGLJNPMHO_DMEMNMNHCFE_OFFSET UNITYSDK_OFFSET(0x17374EE0)
+#define KLDGLJNPMHO_HCDPIBFLAME_OFFSET UNITYSDK_OFFSET(0x17374A20)
+#define KLDGLJNPMHO_JFJANJDEICB_OFFSET UNITYSDK_OFFSET(0x17375240)
+#define KLDGLJNPMHO_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x17374940)
 
-inline static constexpr unsigned int KLDGLJNPMHO_TypeDefinitionIndex = 53727;
+inline static constexpr unsigned int KLDGLJNPMHO_TypeDefinitionIndex = 54891;
 
 	class KLDGLJNPMHO : public ::KIFCLJJAOFJ
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::JPJHKCDGGIK>*>* KKGOHAFJPJI; // 0x20
-		::System::Collections::Generic::List_1<::JPJHKCDGGIK>* HNAJLHOLGEK; // 0x28
+		::System::Collections::Generic::List_1<::JPJHKCDGGIK>* HNAJLHOLGEK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::JPJHKCDGGIK>*>* KKGOHAFJPJI; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KLDGLJNPMHO_CTOR_OFFSET))(this);

@@ -4,9 +4,9 @@
 class HJMFDDMHOJC;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define JAMLKCDHMJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C750)
+#define JAMLKCDHMJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC495A0)
 
-inline static constexpr unsigned int JAMLKCDHMJE_TypeDefinitionIndex = 43684;
+inline static constexpr unsigned int JAMLKCDHMJE_TypeDefinitionIndex = 44667;
 
 	class JAMLKCDHMJE : public ::System::Object
 	{

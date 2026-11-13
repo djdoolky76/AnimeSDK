@@ -4,18 +4,18 @@
 class HILKDNFLNLL;
 namespace System { class Object; }
 
-#define HILKDNFLNLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E56DC10)
-#define HILKDNFLNLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E56DC50)
-#define HILKDNFLNLL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E56DC60)
+#define HILKDNFLNLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20525900)
+#define HILKDNFLNLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20525940)
+#define HILKDNFLNLL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20525950)
 
-inline static constexpr unsigned int HILKDNFLNLL___c_TypeDefinitionIndex = 34753;
+inline static constexpr unsigned int HILKDNFLNLL___c_TypeDefinitionIndex = 35681;
 
 	class HILKDNFLNLL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FD00);
 		}
 
 		static ::System::Void _cctor()

@@ -8,11 +8,11 @@ namespace RPG::GameCore { class ChimeraAbilityProgressBase; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define ANLGFGNKPHL_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x1588E680)
-#define ANLGFGNKPHL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1588E5D0)
-#define ANLGFGNKPHL_KCKLKNEDPBG_OFFSET UNITYSDK_OFFSET(0x1588EC40)
+#define ANLGFGNKPHL_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x1A8315B0)
+#define ANLGFGNKPHL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1A831500)
+#define ANLGFGNKPHL_KCKLKNEDPBG_OFFSET UNITYSDK_OFFSET(0x1A831B70)
 
-inline static constexpr unsigned int ANLGFGNKPHL_TypeDefinitionIndex = 78394;
+inline static constexpr unsigned int ANLGFGNKPHL_TypeDefinitionIndex = 81129;
 
 	class ANLGFGNKPHL : public ::System::Object
 	{

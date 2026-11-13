@@ -4,10 +4,10 @@
 #include "unitysdk/System/ValueTuple_2.h"
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define FFGFOMNDBJM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA3FE00)
-#define FFGFOMNDBJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA3FE60)
+#define FFGFOMNDBJM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C20A5C0)
+#define FFGFOMNDBJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20A620)
 
-inline static constexpr unsigned int FFGFOMNDBJM_TypeDefinitionIndex = 42289;
+inline static constexpr unsigned int FFGFOMNDBJM_TypeDefinitionIndex = 43264;
 
 	class FFGFOMNDBJM : public ::System::Object
 	{

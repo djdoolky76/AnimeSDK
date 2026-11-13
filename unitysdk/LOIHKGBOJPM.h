@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define LOIHKGBOJPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7FF050)
-#define LOIHKGBOJPM_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB7FEE30)
+#define LOIHKGBOJPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B47A0)
+#define LOIHKGBOJPM_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x1A5B4580)
 
-inline static constexpr unsigned int LOIHKGBOJPM_TypeDefinitionIndex = 61289;
+inline static constexpr unsigned int LOIHKGBOJPM_TypeDefinitionIndex = 62674;
 
 	class LOIHKGBOJPM : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelAsyncParams.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEFAC40)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF05E30)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF772B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF824A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelProductsParams_TypeDefinitionIndex = 8590;
+	inline static constexpr unsigned int HoYoChannelProductsParams_TypeDefinitionIndex = 8599;
 
 	class HoYoChannelProductsParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

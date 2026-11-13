@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_IEvolveBuildTreasureStrategy_TypeDefinitionIndex = 56071;
+	inline static constexpr unsigned int EvolveBuildGearManager_IEvolveBuildTreasureStrategy_TypeDefinitionIndex = 57283;
 
 	class EvolveBuildGearManager_IEvolveBuildTreasureStrategy
 	{

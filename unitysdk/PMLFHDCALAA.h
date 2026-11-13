@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockEntityTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PMLFHDCALAA_CTOR_OFFSET UNITYSDK_OFFSET(0xC31C380)
-#define PMLFHDCALAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC31C3B0)
+#define PMLFHDCALAA_CTOR_OFFSET UNITYSDK_OFFSET(0x188A8F40)
+#define PMLFHDCALAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188A8F70)
 
-inline static constexpr unsigned int PMLFHDCALAA_TypeDefinitionIndex = 58203;
+inline static constexpr unsigned int PMLFHDCALAA_TypeDefinitionIndex = 59458;
 
 	class PMLFHDCALAA
 	{

@@ -4,18 +4,18 @@
 class OPLFDAGPBEI;
 namespace System { class Object; }
 
-#define OPLFDAGPBEI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEB86C0)
-#define OPLFDAGPBEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB8700)
-#define OPLFDAGPBEI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DEB8710)
+#define OPLFDAGPBEI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2036BCD0)
+#define OPLFDAGPBEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2036BD10)
+#define OPLFDAGPBEI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2036BD20)
 
-inline static constexpr unsigned int OPLFDAGPBEI___c_TypeDefinitionIndex = 25250;
+inline static constexpr unsigned int OPLFDAGPBEI___c_TypeDefinitionIndex = 25728;
 
 	class OPLFDAGPBEI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B450);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B580);
 		}
 
 		static ::System::Void _cctor()

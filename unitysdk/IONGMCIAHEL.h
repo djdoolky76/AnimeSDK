@@ -6,18 +6,18 @@ class IONGMCIAHEL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define IONGMCIAHEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFC030)
-#define IONGMCIAHEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEFC040)
-#define IONGMCIAHEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEFBFE0)
+#define IONGMCIAHEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC9A2040)
+#define IONGMCIAHEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0xC9A2050)
+#define IONGMCIAHEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC9A2010)
 
-inline static constexpr unsigned int IONGMCIAHEL_TypeDefinitionIndex = 20169;
+inline static constexpr unsigned int IONGMCIAHEL_TypeDefinitionIndex = 20503;
 
 	class IONGMCIAHEL : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::RPG::GameCore::DynamicString* OKPLJHHOCGP; // 0x20
-		::RPG::GameCore::DynamicString* GNPPKDGOEDG; // 0x28
+		::RPG::GameCore::DynamicString* OKPLJHHOCGP; // 0x18
+		::RPG::GameCore::DynamicString* GNPPKDGOEDG; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IONGMCIAHEL_CTOR_OFFSET))(this);

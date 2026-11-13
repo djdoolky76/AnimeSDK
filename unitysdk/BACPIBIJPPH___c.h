@@ -4,18 +4,18 @@
 class BACPIBIJPPH;
 namespace System { class Object; }
 
-#define BACPIBIJPPH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E782910)
-#define BACPIBIJPPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E782950)
-#define BACPIBIJPPH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E782960)
+#define BACPIBIJPPH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20570710)
+#define BACPIBIJPPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20570750)
+#define BACPIBIJPPH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20570760)
 
-inline static constexpr unsigned int BACPIBIJPPH___c_TypeDefinitionIndex = 26652;
+inline static constexpr unsigned int BACPIBIJPPH___c_TypeDefinitionIndex = 27183;
 
 	class BACPIBIJPPH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B5D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40F00);
 		}
 
 		static ::System::Void _cctor()

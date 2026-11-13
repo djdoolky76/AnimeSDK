@@ -4,18 +4,18 @@
 class NANBAKBDLPI;
 namespace System { class Object; }
 
-#define NANBAKBDLPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA9A8B0)
-#define NANBAKBDLPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9A8E0)
-#define NANBAKBDLPI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA9A8F0)
+#define NANBAKBDLPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201500F0)
+#define NANBAKBDLPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20150120)
+#define NANBAKBDLPI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x20150130)
 
-inline static constexpr unsigned int NANBAKBDLPI___c_TypeDefinitionIndex = 31407;
+inline static constexpr unsigned int NANBAKBDLPI___c_TypeDefinitionIndex = 32320;
 
 	class NANBAKBDLPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D080);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57390);
 		}
 
 		static ::System::Void _cctor()

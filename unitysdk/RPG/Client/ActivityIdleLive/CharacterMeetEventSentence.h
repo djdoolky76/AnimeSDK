@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int CharacterMeetEventSentence_TypeDefinitionIndex = 75164;
+	inline static constexpr unsigned int CharacterMeetEventSentence_TypeDefinitionIndex = 77491;
 
 	struct alignas(8) CharacterMeetEventSentence
 	{

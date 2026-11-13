@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchSlotStatus_TypeDefinitionIndex = 62989;
+	inline static constexpr unsigned int CakeCatchSlotStatus_TypeDefinitionIndex = 64427;
 
 	enum class CakeCatchSlotStatus : ::System::Int32
 	{

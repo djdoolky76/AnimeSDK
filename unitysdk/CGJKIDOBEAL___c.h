@@ -4,18 +4,18 @@
 class CGJKIDOBEAL;
 namespace System { class Object; }
 
-#define CGJKIDOBEAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E082550)
-#define CGJKIDOBEAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E082580)
-#define CGJKIDOBEAL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E082590)
+#define CGJKIDOBEAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD26E10)
+#define CGJKIDOBEAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD26E40)
+#define CGJKIDOBEAL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FD26E50)
 
-inline static constexpr unsigned int CGJKIDOBEAL___c_TypeDefinitionIndex = 27024;
+inline static constexpr unsigned int CGJKIDOBEAL___c_TypeDefinitionIndex = 27555;
 
 	class CGJKIDOBEAL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13170);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBFB0);
 		}
 
 		static ::System::Void _cctor()

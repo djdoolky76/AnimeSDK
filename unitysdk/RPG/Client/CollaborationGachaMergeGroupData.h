@@ -4,12 +4,12 @@
 namespace RPG::Client { class CollaborationGachaMergeSubGroupData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COLLABORATIONGACHAMERGEGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB936D0)
-#define RPG_CLIENT_COLLABORATIONGACHAMERGEGROUPDATA_GETSORTEDGACHAPOOLGROUPS_OFFSET UNITYSDK_OFFSET(0xCB93750)
+#define RPG_CLIENT_COLLABORATIONGACHAMERGEGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D027330)
+#define RPG_CLIENT_COLLABORATIONGACHAMERGEGROUPDATA_GETSORTEDGACHAPOOLGROUPS_OFFSET UNITYSDK_OFFSET(0x1D0273B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CollaborationGachaMergeGroupData_TypeDefinitionIndex = 64315;
+	inline static constexpr unsigned int CollaborationGachaMergeGroupData_TypeDefinitionIndex = 65760;
 
 	class CollaborationGachaMergeGroupData : public ::RPG::Client::BaseGachaGroupData
 	{

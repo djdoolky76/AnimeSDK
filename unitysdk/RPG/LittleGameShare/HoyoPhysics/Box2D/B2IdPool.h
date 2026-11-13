@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Array_1.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2IDPOOL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C80E830)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2IDPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C80E840)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2IDPOOL_CLEAR_OFFSET UNITYSDK_OFFSET(0xC8D8020)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2IDPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xC8D8030)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2IdPool_TypeDefinitionIndex = 36687;
+	inline static constexpr unsigned int B2IdPool_TypeDefinitionIndex = 37615;
 
 	class B2IdPool : public ::System::Object
 	{

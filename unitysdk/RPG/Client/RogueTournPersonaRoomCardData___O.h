@@ -6,14 +6,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardData___O_TypeDefinitionIndex = 67738;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardData___O_TypeDefinitionIndex = 69683;
 
 	class RogueTournPersonaRoomCardData___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournPersonaRoomAttributeData*>** StaticGet__0___GetData()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournPersonaRoomAttributeData*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x6B1A0);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournPersonaRoomAttributeData*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x73050);
 		}
 
 	};

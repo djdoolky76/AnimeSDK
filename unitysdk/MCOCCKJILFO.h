@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class FEMAHFBGJJP;
 
-#define MCOCCKJILFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F6890)
+#define MCOCCKJILFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25BA30)
 
-inline static constexpr unsigned int MCOCCKJILFO_TypeDefinitionIndex = 43241;
+inline static constexpr unsigned int MCOCCKJILFO_TypeDefinitionIndex = 44222;
 
 	class MCOCCKJILFO : public ::System::Object
 	{

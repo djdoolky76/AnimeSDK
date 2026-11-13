@@ -4,12 +4,12 @@
 namespace RPG::Client { class RogueNousDiceBranchDataItem; }
 namespace RPG::GameCore { class RogueNousDiceBranchTagRow; }
 
-#define RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF4F330)
-#define RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__GETBRANCHESBYGENRE_B__0_OFFSET UNITYSDK_OFFSET(0xDF4FF20)
+#define RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3C4B0)
+#define RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__GETBRANCHESBYGENRE_B__0_OFFSET UNITYSDK_OFFSET(0x1CB3D080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueNousDiceData___c__DisplayClass5_0_TypeDefinitionIndex = 66953;
+	inline static constexpr unsigned int RogueNousDiceData___c__DisplayClass5_0_TypeDefinitionIndex = 68897;
 
 	class RogueNousDiceData___c__DisplayClass5_0 : public ::System::Object
 	{

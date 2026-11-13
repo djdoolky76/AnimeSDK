@@ -4,13 +4,13 @@
 #include "unitysdk/RPG/Client/Prop/HexPuzzleItemBase.h"
 namespace RPG::Client::Prop { class PuzzleBoardBase; }
 
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_CTOR_OFFSET UNITYSDK_OFFSET(0xDD7AB90)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_INIT_OFFSET UNITYSDK_OFFSET(0xDD7A920)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_REFRESHDIRECTION_OFFSET UNITYSDK_OFFSET(0xDD7A9A0)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x174524F0)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_INIT_OFFSET UNITYSDK_OFFSET(0x17452280)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_REFRESHDIRECTION_OFFSET UNITYSDK_OFFSET(0x17452300)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PushHexPuzzleArrow_TypeDefinitionIndex = 78616;
+	inline static constexpr unsigned int PushHexPuzzleArrow_TypeDefinitionIndex = 81351;
 
 	class PushHexPuzzleArrow : public ::RPG::Client::Prop::HexPuzzleItemBase
 	{

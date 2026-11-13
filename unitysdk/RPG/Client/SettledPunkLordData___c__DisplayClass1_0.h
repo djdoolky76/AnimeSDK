@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class BGFNFLBFBPC;
 
-#define RPG_CLIENT_SETTLEDPUNKLORDDATA___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0AB3A0)
-#define RPG_CLIENT_SETTLEDPUNKLORDDATA___C__DISPLAYCLASS1_0__SYNCSETTLEDRECORDINFO_B__0_OFFSET UNITYSDK_OFFSET(0xE0AB840)
+#define RPG_CLIENT_SETTLEDPUNKLORDDATA___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A64B0)
+#define RPG_CLIENT_SETTLEDPUNKLORDDATA___C__DISPLAYCLASS1_0__SYNCSETTLEDRECORDINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1C0A6960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SettledPunkLordData___c__DisplayClass1_0_TypeDefinitionIndex = 66747;
+	inline static constexpr unsigned int SettledPunkLordData___c__DisplayClass1_0_TypeDefinitionIndex = 68683;
 
 	class SettledPunkLordData___c__DisplayClass1_0 : public ::System::Object
 	{

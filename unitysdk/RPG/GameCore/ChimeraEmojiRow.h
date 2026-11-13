@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraEmojiRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57EF80)
-#define RPG_GAMECORE_CHIMERAEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D57EE50)
+#define RPG_GAMECORE_CHIMERAEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9349F0)
+#define RPG_GAMECORE_CHIMERAEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F9348C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEmojiRow_TypeDefinitionIndex = 13046;
+	inline static constexpr unsigned int ChimeraEmojiRow_TypeDefinitionIndex = 13114;
 
 	class ChimeraEmojiRow : public ::System::Object
 	{

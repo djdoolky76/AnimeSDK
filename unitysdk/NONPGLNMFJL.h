@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideCustomDroneFuncBtn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NONPGLNMFJL_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF05D0)
-#define NONPGLNMFJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF0600)
+#define NONPGLNMFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF19D0)
+#define NONPGLNMFJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19CF1A00)
 
-inline static constexpr unsigned int NONPGLNMFJL_TypeDefinitionIndex = 53047;
+inline static constexpr unsigned int NONPGLNMFJL_TypeDefinitionIndex = 54207;
 
 	class NONPGLNMFJL
 	{

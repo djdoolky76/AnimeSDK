@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class AAEKKFIJFDL;
 
-#define CNNGAKJDMPN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9E4DF0)
-#define CNNGAKJDMPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E4E50)
+#define CNNGAKJDMPN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB17050)
+#define CNNGAKJDMPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB170B0)
 
-inline static constexpr unsigned int CNNGAKJDMPN_TypeDefinitionIndex = 43336;
+inline static constexpr unsigned int CNNGAKJDMPN_TypeDefinitionIndex = 44317;
 
 	class CNNGAKJDMPN : public ::System::Object
 	{

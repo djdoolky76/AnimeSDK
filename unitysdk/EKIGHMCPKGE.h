@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EKIGHMCPKGE_TypeDefinitionIndex = 35142;
+inline static constexpr unsigned int EKIGHMCPKGE_TypeDefinitionIndex = 36070;
 
 	enum class EKIGHMCPKGE : ::System::Int32
 	{

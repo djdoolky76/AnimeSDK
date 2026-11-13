@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSoundEventInCD; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KIFEKPPKGEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB417840)
-#define KIFEKPPKGEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB417870)
+#define KIFEKPPKGEL_CTOR_OFFSET UNITYSDK_OFFSET(0x19EDDCF0)
+#define KIFEKPPKGEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19EDDD20)
 
-inline static constexpr unsigned int KIFEKPPKGEL_TypeDefinitionIndex = 52592;
+inline static constexpr unsigned int KIFEKPPKGEL_TypeDefinitionIndex = 53698;
 
 	class KIFEKPPKGEL
 	{

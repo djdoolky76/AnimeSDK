@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_WEBEVENTDATAMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB00EE50)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_WEBEVENTDATAMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF5B1C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager_WebEventDataModel_TypeDefinitionIndex = 46620;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager_WebEventDataModel_TypeDefinitionIndex = 47648;
 
 	class MiHoYoSDKWebViewManager_WebEventDataModel : public ::System::Object
 	{

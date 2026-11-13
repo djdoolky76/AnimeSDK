@@ -5,25 +5,25 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_ACCOUNTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC084C0)
-#define MIHOYO_SDK_ACCOUNTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC08500)
-#define MIHOYO_SDK_ACCOUNTMANAGER___C__SENDNOTICEEMAIL_B__61_0_OFFSET UNITYSDK_OFFSET(0x1BC08510)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B443AE0)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B443B20)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C__SENDNOTICEEMAIL_B__61_0_OFFSET UNITYSDK_OFFSET(0x1B443B30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountManager___c_TypeDefinitionIndex = 7952;
+	inline static constexpr unsigned int AccountManager___c_TypeDefinitionIndex = 7961;
 
 	class AccountManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x50200);
-		}
-
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__61_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x50208);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x36D00);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x36D08);
 		}
 
 		static ::System::Void _cctor()

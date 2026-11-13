@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtInsertSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKLCOOHLBEH_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C8E70)
-#define PKLCOOHLBEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2C8EA0)
+#define PKLCOOHLBEH_CTOR_OFFSET UNITYSDK_OFFSET(0x147D8460)
+#define PKLCOOHLBEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147D8490)
 
-inline static constexpr unsigned int PKLCOOHLBEH_TypeDefinitionIndex = 53929;
+inline static constexpr unsigned int PKLCOOHLBEH_TypeDefinitionIndex = 55093;
 
 	class PKLCOOHLBEH
 	{

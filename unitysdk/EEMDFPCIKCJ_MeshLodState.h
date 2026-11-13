@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EEMDFPCIKCJ_MeshLodState_TypeDefinitionIndex = 57345;
+inline static constexpr unsigned int EEMDFPCIKCJ_MeshLodState_TypeDefinitionIndex = 58573;
 
 	enum class EEMDFPCIKCJ_MeshLodState : ::System::Int32
 	{

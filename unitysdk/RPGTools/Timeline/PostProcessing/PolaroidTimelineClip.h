@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE91CF40)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C767E80)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidTimelineClip_TypeDefinitionIndex = 48595;
+	inline static constexpr unsigned int PolaroidTimelineClip_TypeDefinitionIndex = 49636;
 
 	class PolaroidTimelineClip
 	{

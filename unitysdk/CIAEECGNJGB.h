@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CIAEECGNJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B66E0)
+#define CIAEECGNJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0D3E0)
 
-inline static constexpr unsigned int CIAEECGNJGB_TypeDefinitionIndex = 42217;
+inline static constexpr unsigned int CIAEECGNJGB_TypeDefinitionIndex = 43192;
 
 	class CIAEECGNJGB : public ::System::Object
 	{

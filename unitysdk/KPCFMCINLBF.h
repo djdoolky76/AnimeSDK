@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetDamageTextVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KPCFMCINLBF_CTOR_OFFSET UNITYSDK_OFFSET(0xB5A9F90)
-#define KPCFMCINLBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5A9FC0)
+#define KPCFMCINLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1911A370)
+#define KPCFMCINLBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1911A3A0)
 
-inline static constexpr unsigned int KPCFMCINLBF_TypeDefinitionIndex = 55579;
+inline static constexpr unsigned int KPCFMCINLBF_TypeDefinitionIndex = 56774;
 
 	class KPCFMCINLBF
 	{

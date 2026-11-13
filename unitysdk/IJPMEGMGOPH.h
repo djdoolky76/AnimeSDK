@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBPChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IJPMEGMGOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x16473B70)
-#define IJPMEGMGOPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16473C50)
+#define IJPMEGMGOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x18071D60)
+#define IJPMEGMGOPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18071E40)
 
-inline static constexpr unsigned int IJPMEGMGOPH_TypeDefinitionIndex = 55407;
+inline static constexpr unsigned int IJPMEGMGOPH_TypeDefinitionIndex = 56592;
 
 	class IJPMEGMGOPH
 	{

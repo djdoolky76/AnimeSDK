@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int AUiProgressBar_OPCHIOOKPJE_TypeDefinitionIndex = 47730;
+	inline static constexpr unsigned int AUiProgressBar_OPCHIOOKPJE_TypeDefinitionIndex = 48760;
 
 	enum class AUiProgressBar_OPCHIOOKPJE : ::System::Int32
 	{

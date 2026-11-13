@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define RPG_CLIENT_MONOEMOBLENDSHAPEBLINK_GCKGGEFNJGC_CTOR_OFFSET UNITYSDK_OFFSET(0xD80CDF0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPEBLINK_GCKGGEFNJGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADF65E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEmoBlendShapeBlink_GCKGGEFNJGC_TypeDefinitionIndex = 71146;
+	inline static constexpr unsigned int MonoEmoBlendShapeBlink_GCKGGEFNJGC_TypeDefinitionIndex = 73129;
 
 	class MonoEmoBlendShapeBlink_GCKGGEFNJGC : public ::System::Object
 	{

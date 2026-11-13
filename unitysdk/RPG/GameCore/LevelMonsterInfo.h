@@ -21,13 +21,13 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace RPG::GameCore { class SOConfigInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D786250)
-#define RPG_GAMECORE_LEVELMONSTERINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7862D0)
-#define RPG_GAMECORE_LEVELMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7861B0)
+#define RPG_GAMECORE_LEVELMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D938480)
+#define RPG_GAMECORE_LEVELMONSTERINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D938500)
+#define RPG_GAMECORE_LEVELMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9383E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMonsterInfo_TypeDefinitionIndex = 17249;
+	inline static constexpr unsigned int LevelMonsterInfo_TypeDefinitionIndex = 17417;
 
 	class LevelMonsterInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

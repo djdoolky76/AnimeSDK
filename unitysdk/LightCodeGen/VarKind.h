@@ -3,7 +3,7 @@
 
 namespace LightCodeGen
 {
-	inline static constexpr unsigned int VarKind_TypeDefinitionIndex = 49037;
+	inline static constexpr unsigned int VarKind_TypeDefinitionIndex = 50113;
 
 	enum class VarKind : ::System::Int32
 	{

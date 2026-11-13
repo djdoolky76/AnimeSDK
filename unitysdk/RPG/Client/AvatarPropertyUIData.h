@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_AVATARPROPERTYUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC703CC0)
+#define RPG_CLIENT_AVATARPROPERTYUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F3E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPropertyUIData_TypeDefinitionIndex = 62464;
+	inline static constexpr unsigned int AvatarPropertyUIData_TypeDefinitionIndex = 63877;
 
 	class AvatarPropertyUIData : public ::System::Object
 	{
 	public:
 		::System::String* Num; // 0x10
-		::System::String* IconPath; // 0x18
-		::System::String* AddNum; // 0x20
+		::System::String* AddNum; // 0x18
+		::System::String* IconPath; // 0x20
 		::System::Boolean NumOverrideAsSecret; // 0x28
 		::System::Byte _padding0[0x7];
 		::RPG::Client::TextID Title; // 0x30

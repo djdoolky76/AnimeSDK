@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchProjectileHitEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FAJECHLNBBA_CTOR_OFFSET UNITYSDK_OFFSET(0x156757A0)
-#define FAJECHLNBBA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156757F0)
+#define FAJECHLNBBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2E050)
+#define FAJECHLNBBA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BA2E0A0)
 
-inline static constexpr unsigned int FAJECHLNBBA_TypeDefinitionIndex = 59224;
+inline static constexpr unsigned int FAJECHLNBBA_TypeDefinitionIndex = 60501;
 
 	class FAJECHLNBBA
 	{

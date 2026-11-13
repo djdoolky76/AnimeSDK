@@ -7,17 +7,17 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define BDDPLIAEAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCE840)
-#define BDDPLIAEAIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCCE850)
-#define BDDPLIAEAIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCCE7E0)
+#define BDDPLIAEAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC9B20)
+#define BDDPLIAEAIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC9B30)
+#define BDDPLIAEAIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC9AE0)
 
-inline static constexpr unsigned int BDDPLIAEAIN_TypeDefinitionIndex = 22679;
+inline static constexpr unsigned int BDDPLIAEAIN_TypeDefinitionIndex = 23101;
 
 	class BDDPLIAEAIN : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* FHLJGDGMMHK; // 0x18
-		::RPG::GameCore::DynamicFloat* KHBBNDBJAFK; // 0x20
+		::RPG::GameCore::DynamicFloat* KHBBNDBJAFK; // 0x18
+		::RPG::GameCore::DynamicString* FHLJGDGMMHK; // 0x20
 		::System::Boolean EPDBNDGLPGH; // 0x28
 		::System::Byte _padding0[0x3];
 		::RPG::GameCore::PropertyModifyFunction FKCKKFALPBK; // 0x2C

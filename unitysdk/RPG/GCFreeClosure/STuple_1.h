@@ -3,7 +3,7 @@
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int STuple_1_TypeDefinitionIndex = 6527;
+	inline static constexpr unsigned int STuple_1_TypeDefinitionIndex = 6534;
 
 	template <typename T>
 	struct alignas(8) STuple_1

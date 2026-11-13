@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class TimeZoneInfo_AdjustmentRule; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define SYSTEM_TIMEZONEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C14C020)
-#define SYSTEM_TIMEZONEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C14C060)
-#define SYSTEM_TIMEZONEINFO___C__CREATELOCALUNITY_B__19_0_OFFSET UNITYSDK_OFFSET(0x1C14C070)
+#define SYSTEM_TIMEZONEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD97AB0)
+#define SYSTEM_TIMEZONEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD97AF0)
+#define SYSTEM_TIMEZONEINFO___C__CREATELOCALUNITY_B__19_0_OFFSET UNITYSDK_OFFSET(0x1DD97B00)
 
 namespace System
 {
@@ -18,12 +18,12 @@ namespace System
 	public:
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("System", "<>c")->GetStaticField(0x2AC50);
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("System", "<>c")->GetStaticField(0x193F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System", "<>c")->GetStaticField(0x2AC58);
+			return (::System::Object**)UnitySDK::FromName("System", "<>c")->GetStaticField(0x193F8);
 		}
 
 		static ::System::Void _cctor()

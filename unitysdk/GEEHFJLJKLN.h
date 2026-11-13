@@ -5,9 +5,9 @@ class ECGDANIHLNM;
 class JNPCHAAGGGO;
 namespace System { class Object; }
 
-#define GEEHFJLJKLN_MPJLLDMGAEP_OFFSET UNITYSDK_OFFSET(0x1EC3F5C0)
+#define GEEHFJLJKLN_MPJLLDMGAEP_OFFSET UNITYSDK_OFFSET(0x1E529100)
 
-inline static constexpr unsigned int GEEHFJLJKLN_TypeDefinitionIndex = 44066;
+inline static constexpr unsigned int GEEHFJLJKLN_TypeDefinitionIndex = 45141;
 
 	class GEEHFJLJKLN : public ::System::Object
 	{

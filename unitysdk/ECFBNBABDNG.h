@@ -6,10 +6,10 @@ class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelDeleteEffectNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ECFBNBABDNG_CTOR_OFFSET UNITYSDK_OFFSET(0x12D067F0)
-#define ECFBNBABDNG_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x12D06750)
+#define ECFBNBABDNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D4800)
+#define ECFBNBABDNG_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x1C3D4760)
 
-inline static constexpr unsigned int ECFBNBABDNG_TypeDefinitionIndex = 77676;
+inline static constexpr unsigned int ECFBNBABDNG_TypeDefinitionIndex = 80411;
 
 	class ECFBNBABDNG : public ::HBLDGJCDJPF
 	{

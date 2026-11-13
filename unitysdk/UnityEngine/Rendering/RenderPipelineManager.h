@@ -8,59 +8,59 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering { class RenderPipeline; }
 namespace UnityEngine::Rendering { class RenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3F7AF0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_CLEANUPRENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F3F6FB0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_DODRAWGIZMOS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F3F7920)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_DOPREPARECRP_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F3F79B0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_DORENDERLOOP_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F3F7740)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_FORCECLEANUPPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F3F63A0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GETCAMERAS_OFFSET UNITYSDK_OFFSET(0x1F3F7600)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GET_CPPENABLE_OFFSET UNITYSDK_OFFSET(0x1F3F78B0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GET_CURRENTPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F3F7510)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_PREPARERENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F3F7270)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_SET_CPPENABLE_OFFSET UNITYSDK_OFFSET(0x1F3F78F0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_SET_CURRENTPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F3F7540)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F528750)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_CLEANUPRENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F527C10)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_DODRAWGIZMOS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F528580)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_DOPREPARECRP_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F528610)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_DORENDERLOOP_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F5283A0)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_FORCECLEANUPPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F527000)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GETCAMERAS_OFFSET UNITYSDK_OFFSET(0x1F528260)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GET_CPPENABLE_OFFSET UNITYSDK_OFFSET(0x1F528510)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GET_CURRENTPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F528170)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_PREPARERENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F527ED0)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_SET_CPPENABLE_OFFSET UNITYSDK_OFFSET(0x1F528550)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_SET_CURRENTPIPELINE_OFFSET UNITYSDK_OFFSET(0x1F5281A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderPipelineManager_TypeDefinitionIndex = 4763;
+	inline static constexpr unsigned int RenderPipelineManager_TypeDefinitionIndex = 4767;
 
 	class RenderPipelineManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::RenderPipeline** StaticGet__currentPipeline_k__BackingField()
-		{
-			return (::UnityEngine::Rendering::RenderPipeline**)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x14410);
-		}
-
-		static ::UnityEngine::GCFreeClosure::ClosureEvent_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>* StaticGet_beginFrameRendering()
-		{
-			return (::UnityEngine::GCFreeClosure::ClosureEvent_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>*)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x14418);
-		}
-
 		static ::UnityEngine::Rendering::RenderPipelineAsset** StaticGet_s_CurrentPipelineAsset()
 		{
-			return (::UnityEngine::Rendering::RenderPipelineAsset**)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x14428);
+			return (::UnityEngine::Rendering::RenderPipelineAsset**)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x12790);
 		}
 
-		static ::Il2CppArray<::UnityEngine::Camera*>** StaticGet_s_Cameras()
+		static ::UnityEngine::Rendering::RenderPipeline** StaticGet__currentPipeline_k__BackingField()
 		{
-			return (::Il2CppArray<::UnityEngine::Camera*>**)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x14430);
+			return (::UnityEngine::Rendering::RenderPipeline**)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x12798);
 		}
 
 		static ::UnityEngine::GCFreeClosure::ClosureEvent_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>* StaticGet_beginCameraRendering()
 		{
-			return (::UnityEngine::GCFreeClosure::ClosureEvent_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>*)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x14438);
+			return (::UnityEngine::GCFreeClosure::ClosureEvent_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>*)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x127A0);
 		}
 
-		static ::System::Boolean* StaticGet__cppEnable_k__BackingField()
+		static ::UnityEngine::GCFreeClosure::ClosureEvent_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>* StaticGet_beginFrameRendering()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x43C0);
+			return (::UnityEngine::GCFreeClosure::ClosureEvent_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>*)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x127B0);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Camera*>** StaticGet_s_Cameras()
+		{
+			return (::Il2CppArray<::UnityEngine::Camera*>**)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x127C0);
 		}
 
 		static ::System::Int32* StaticGet_s_CameraCapacity()
 		{
-			return (::System::Int32*)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x43C4);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x3BA0);
+		}
+
+		static ::System::Boolean* StaticGet__cppEnable_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.Rendering", "RenderPipelineManager")->GetStaticField(0x3BA4);
 		}
 
 		static ::System::Void _cctor()

@@ -5,17 +5,17 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define JDOGOCHLJNM_CTOR_OFFSET UNITYSDK_OFFSET(0x16601C70)
-#define JDOGOCHLJNM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x16601BC0)
-#define JDOGOCHLJNM__ONBIND_OFFSET UNITYSDK_OFFSET(0x16601B20)
+#define JDOGOCHLJNM_CTOR_OFFSET UNITYSDK_OFFSET(0x13059C90)
+#define JDOGOCHLJNM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x13059BE0)
+#define JDOGOCHLJNM__ONBIND_OFFSET UNITYSDK_OFFSET(0x13059A70)
 
-inline static constexpr unsigned int JDOGOCHLJNM_TypeDefinitionIndex = 72290;
+inline static constexpr unsigned int JDOGOCHLJNM_TypeDefinitionIndex = 74367;
 
 	class JDOGOCHLJNM : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Text* CALNLFBNMPM; // 0x60
-		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x68
+		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x60
+		::UnityEngine::UI::Text* CALNLFBNMPM; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JDOGOCHLJNM_CTOR_OFFSET))(this);

@@ -5,18 +5,18 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace Entitas { template <typename T> class IGroup_1; }
 
-#define ODPAAPBOCGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79DF80)
-#define ODPAAPBOCGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C79E040)
-#define ODPAAPBOCGA_GET_AOEGROUP_OFFSET UNITYSDK_OFFSET(0x1C79E090)
-#define ODPAAPBOCGA_SET_AOEGROUP_OFFSET UNITYSDK_OFFSET(0x1C79E0A0)
+#define ODPAAPBOCGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B07F6A0)
+#define ODPAAPBOCGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B07F760)
+#define ODPAAPBOCGA_GET_AOEGROUP_OFFSET UNITYSDK_OFFSET(0x1B07F7B0)
+#define ODPAAPBOCGA_SET_AOEGROUP_OFFSET UNITYSDK_OFFSET(0x1B07F7C0)
 
-inline static constexpr unsigned int ODPAAPBOCGA_TypeDefinitionIndex = 37277;
+inline static constexpr unsigned int ODPAAPBOCGA_TypeDefinitionIndex = 38205;
 
 	class ODPAAPBOCGA : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup_1<::IFBFJDCECML*>* _AoeGroup_k__BackingField; // 0x10
-		::PBGNKMMDBGD* PDENFEFCAGN; // 0x18
+		::PBGNKMMDBGD* PDENFEFCAGN; // 0x10
+		::Entitas::IGroup_1<::IFBFJDCECML*>* _AoeGroup_k__BackingField; // 0x18
 		::System::Void _ctor(::PBGNKMMDBGD* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::PBGNKMMDBGD*))((::PBYTE)hIl2Cpp + ODPAAPBOCGA_CTOR_OFFSET))(this, a1);

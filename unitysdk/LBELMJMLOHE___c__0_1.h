@@ -5,7 +5,7 @@ namespace RPG::Client { class UIDragSource; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int LBELMJMLOHE___c__0_1_TypeDefinitionIndex = 49850;
+inline static constexpr unsigned int LBELMJMLOHE___c__0_1_TypeDefinitionIndex = 50898;
 
 	template <typename T>
 	class LBELMJMLOHE___c__0_1 : public ::System::Object

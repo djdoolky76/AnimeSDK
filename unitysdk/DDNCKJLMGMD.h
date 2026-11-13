@@ -3,7 +3,7 @@
 #include "unitysdk/KLNKLOMDIIC.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int DDNCKJLMGMD_TypeDefinitionIndex = 43343;
+inline static constexpr unsigned int DDNCKJLMGMD_TypeDefinitionIndex = 44324;
 
 	struct alignas(8) DDNCKJLMGMD
 	{

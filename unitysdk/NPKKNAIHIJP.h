@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleSetFinish; }
 
-#define NPKKNAIHIJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C948E80)
-#define NPKKNAIHIJP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C948E90)
+#define NPKKNAIHIJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0575E0)
+#define NPKKNAIHIJP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1E0575F0)
 
-inline static constexpr unsigned int NPKKNAIHIJP_TypeDefinitionIndex = 43109;
+inline static constexpr unsigned int NPKKNAIHIJP_TypeDefinitionIndex = 44090;
 
 	class NPKKNAIHIJP : public ::BKABEBEPPJK
 	{

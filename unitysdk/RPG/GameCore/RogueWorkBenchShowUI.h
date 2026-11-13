@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RogueWorkBenchShowUI; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ROGUEWORKBENCHSHOWUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA18380)
-#define RPG_GAMECORE_ROGUEWORKBENCHSHOWUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA18390)
-#define RPG_GAMECORE_ROGUEWORKBENCHSHOWUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA18350)
+#define RPG_GAMECORE_ROGUEWORKBENCHSHOWUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF38C20)
+#define RPG_GAMECORE_ROGUEWORKBENCHSHOWUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF38C30)
+#define RPG_GAMECORE_ROGUEWORKBENCHSHOWUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF38BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueWorkBenchShowUI_TypeDefinitionIndex = 22100;
+	inline static constexpr unsigned int RogueWorkBenchShowUI_TypeDefinitionIndex = 22505;
 
 	class RogueWorkBenchShowUI : public ::RPG::GameCore::TaskConfig
 	{

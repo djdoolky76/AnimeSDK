@@ -1,0 +1,173 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightProtoPendingAction.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class BCCONKJHDJL;
+class CHCHAJIANIM;
+class HADBACOKEJN;
+namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+namespace RPG::Client { class GridFightBonusDropData; }
+namespace RPG::Client { class GridFightCostContext; }
+namespace RPG::Client { class LuaUIController; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_CLEARPENDINGITEMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1C9AB8C0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9ABA20)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GETACTIONID_OFFSET UNITYSDK_OFFSET(0x1C9AB9C0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1C9ABA00)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_DROPDATAS_OFFSET UNITYSDK_OFFSET(0x1C9AB920)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_PENDINGITEMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1C9AB8B0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_REFRESHCOSTCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C9AB960)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_REFRESHREMAINTIME_OFFSET UNITYSDK_OFFSET(0x1C9AB980)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_TREASURYTITLE_OFFSET UNITYSDK_OFFSET(0x1C9AB9A0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1C9ABA10)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_SET_REFRESHCOSTCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C9AB970)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_SET_REFRESHREMAINTIME_OFFSET UNITYSDK_OFFSET(0x1C9AB990)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_SET_TREASURYTITLE_OFFSET UNITYSDK_OFFSET(0x1C9AB9B0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C9AC410)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__INITTREASURYDROPDATA_OFFSET UNITYSDK_OFFSET(0x1C9ABDE0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__INITTREASURYTITLE_OFFSET UNITYSDK_OFFSET(0x1C9ABD20)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__ONFINISH_OFFSET UNITYSDK_OFFSET(0x1C9AC7C0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__ONSTART_OFFSET UNITYSDK_OFFSET(0x1C9AC500)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__REFRESHTREASURYBYPROTO_OFFSET UNITYSDK_OFFSET(0x1C9ABC50)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__SHOWTREASURYPETPAL_OFFSET UNITYSDK_OFFSET(0x1C9AC5C0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__SHOWTREASURYTRAIT_OFFSET UNITYSDK_OFFSET(0x1C9AC6C0)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__SHOWUI_OFFSET UNITYSDK_OFFSET(0x1C9AC550)
+#define RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__SYNCFROMPROTO_OFFSET UNITYSDK_OFFSET(0x1C9ABBA0)
+
+namespace RPG::Client::Treasury
+{
+	inline static constexpr unsigned int GridFightTreasuryPendingAction_TypeDefinitionIndex = 76901;
+
+	class GridFightTreasuryPendingAction : public ::RPG::Client::GridFightProtoPendingAction
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightBonusDropData*>* _GridFightBonusDropDatas; // 0x20
+		::RPG::Client::GridFightCostContext* _RefreshCostContext_k__BackingField; // 0x28
+		::RPG::Client::LuaUIController* _TreasurySelectDialog; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _PendingItemPositions_k__BackingField; // 0x38
+		::RPG::Client::TextID _TreasuryTitle_k__BackingField; // 0x40
+		::System::Int32 _RefreshRemainTime_k__BackingField; // 0x50
+		::System::UInt32 _ActionID_k__BackingField; // 0x54
+		::JJDFGMMMCMI _SourceType; // 0x58
+		::System::UInt32 _TreasuryID; // 0x5C
+		::System::Void _ctor(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* get_PendingItemPositions()
+		{
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_PENDINGITEMPOSITIONS_OFFSET))(this);
+		}
+
+		::System::Void ClearPendingItemPositions()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_CLEARPENDINGITEMPOSITIONS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::GridFightBonusDropData*>* get_DropDatas()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::GridFightBonusDropData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_DROPDATAS_OFFSET))(this);
+		}
+
+		::RPG::Client::GridFightCostContext* get_RefreshCostContext()
+		{
+			return ((::RPG::Client::GridFightCostContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_REFRESHCOSTCONTEXT_OFFSET))(this);
+		}
+
+		::System::Void set_RefreshCostContext(::RPG::Client::GridFightCostContext* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightCostContext*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_SET_REFRESHCOSTCONTEXT_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_RefreshRemainTime()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_REFRESHREMAINTIME_OFFSET))(this);
+		}
+
+		::System::Void set_RefreshRemainTime(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_SET_REFRESHREMAINTIME_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_TreasuryTitle()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_TREASURYTITLE_OFFSET))(this);
+		}
+
+		::System::Void set_TreasuryTitle(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_SET_TREASURYTITLE_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GETACTIONID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_GET_ACTIONID_OFFSET))(this);
+		}
+
+		::System::Void set_ActionID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_SET_ACTIONID_OFFSET))(this, a1);
+		}
+
+		::System::Void _SyncFromProto(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__SYNCFROMPROTO_OFFSET))(this, a1);
+		}
+
+		::System::Void _RefreshTreasuryByProto(::HADBACOKEJN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HADBACOKEJN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__REFRESHTREASURYBYPROTO_OFFSET))(this, a1);
+		}
+
+		::System::Void _InitTreasuryTitle(::System::UInt32 a1, ::JJDFGMMMCMI a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::JJDFGMMMCMI))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__INITTREASURYTITLE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _InitTreasuryDropData(::Google::Protobuf::Collections::RepeatedField_1<::BCCONKJHDJL*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::BCCONKJHDJL*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__INITTREASURYDROPDATA_OFFSET))(this, a1);
+		}
+
+		::System::Void Update(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION_UPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__ONSTART_OFFSET))(this);
+		}
+
+		::System::Void _ShowUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__SHOWUI_OFFSET))(this);
+		}
+
+		::System::Void _ShowTreasuryPetPal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__SHOWTREASURYPETPAL_OFFSET))(this);
+		}
+
+		::System::Void _ShowTreasuryTrait()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__SHOWTREASURYTRAIT_OFFSET))(this);
+		}
+
+		::System::Void _OnFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURY_GRIDFIGHTTREASURYPENDINGACTION__ONFINISH_OFFSET))(this);
+		}
+
+	};
+}

@@ -4,18 +4,18 @@
 class DBCBMJKOBPJ;
 namespace System { class Object; }
 
-#define DBCBMJKOBPJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E12A470)
-#define DBCBMJKOBPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E12A4A0)
-#define DBCBMJKOBPJ___C___CCTOR_B__83_0_OFFSET UNITYSDK_OFFSET(0x1E12A4B0)
+#define DBCBMJKOBPJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202AD540)
+#define DBCBMJKOBPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202AD570)
+#define DBCBMJKOBPJ___C___CCTOR_B__88_0_OFFSET UNITYSDK_OFFSET(0x202AD580)
 
-inline static constexpr unsigned int DBCBMJKOBPJ___c_TypeDefinitionIndex = 25420;
+inline static constexpr unsigned int DBCBMJKOBPJ___c_TypeDefinitionIndex = 25899;
 
 	class DBCBMJKOBPJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22460);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C780);
 		}
 
 		static ::System::Void _cctor()
@@ -28,9 +28,9 @@ inline static constexpr unsigned int DBCBMJKOBPJ___c_TypeDefinitionIndex = 25420
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBCBMJKOBPJ___C_CTOR_OFFSET))(this);
 		}
 
-		::DBCBMJKOBPJ* __cctor_b__83_0()
+		::DBCBMJKOBPJ* __cctor_b__88_0()
 		{
-			return ((::DBCBMJKOBPJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + DBCBMJKOBPJ___C___CCTOR_B__83_0_OFFSET))(this);
+			return ((::DBCBMJKOBPJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + DBCBMJKOBPJ___C___CCTOR_B__88_0_OFFSET))(this);
 		}
 
 	};

@@ -8,16 +8,16 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PJJKDGFODDL_BFADGAHEKLK_CTOR_OFFSET UNITYSDK_OFFSET(0xC288710)
+#define PJJKDGFODDL_BFADGAHEKLK_CTOR_OFFSET UNITYSDK_OFFSET(0x147910E0)
 
-inline static constexpr unsigned int PJJKDGFODDL_BFADGAHEKLK_TypeDefinitionIndex = 75634;
+inline static constexpr unsigned int PJJKDGFODDL_BFADGAHEKLK_TypeDefinitionIndex = 77961;
 
 	class PJJKDGFODDL_BFADGAHEKLK : public ::System::Object
 	{
 	public:
 		::System::Action_1<::RPG::GameCore::GameEntity*>* LDEDOFNOIPK; // 0x10
-		::RPG::GameCore::GameEntity* OFHDAHHPNPJ; // 0x18
-		::System::Collections::Generic::List_1<::System::Object*>* JJJNPLOLJGE; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* JJJNPLOLJGE; // 0x18
+		::RPG::GameCore::GameEntity* OFHDAHHPNPJ; // 0x20
 		::IFEEMEAJMEJ* DCFKJCMODKJ; // 0x28
 		::RPG::Client::Pet::PetLineupShape GJBOKLDCKEG; // 0x30
 		::System::UInt32 FJKDAFHKPGC; // 0x34

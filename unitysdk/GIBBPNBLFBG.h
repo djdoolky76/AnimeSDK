@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define GIBBPNBLFBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1F120)
+#define GIBBPNBLFBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E640DF0)
 
-inline static constexpr unsigned int GIBBPNBLFBG_TypeDefinitionIndex = 25035;
+inline static constexpr unsigned int GIBBPNBLFBG_TypeDefinitionIndex = 25513;
 
 	class GIBBPNBLFBG : public ::System::Attribute
 	{

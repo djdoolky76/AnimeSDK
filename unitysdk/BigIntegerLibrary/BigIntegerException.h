@@ -4,11 +4,11 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define BIGINTEGERLIBRARY_BIGINTEGEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F667F80)
+#define BIGINTEGERLIBRARY_BIGINTEGEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x17A62440)
 
 namespace BigIntegerLibrary
 {
-	inline static constexpr unsigned int BigIntegerException_TypeDefinitionIndex = 7033;
+	inline static constexpr unsigned int BigIntegerException_TypeDefinitionIndex = 7044;
 
 	class BigIntegerException : public ::System::Exception
 	{

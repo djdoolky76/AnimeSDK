@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OHDDNNJKFID_TypeDefinitionIndex = 72789;
+inline static constexpr unsigned int OHDDNNJKFID_TypeDefinitionIndex = 74868;
 
 	class OHDDNNJKFID
 	{

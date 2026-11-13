@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HFPJBAJLPFL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C81810)
+#define HFPJBAJLPFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C433490)
 
-inline static constexpr unsigned int HFPJBAJLPFL_TypeDefinitionIndex = 62371;
+inline static constexpr unsigned int HFPJBAJLPFL_TypeDefinitionIndex = 63784;
 
 	class HFPJBAJLPFL
 	{

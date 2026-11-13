@@ -6,23 +6,23 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define NJIOAKCLACC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC11F80)
-#define NJIOAKCLACC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC11FB0)
-#define NJIOAKCLACC___C___ONTASKBEGINIMPL_B__17_0_OFFSET UNITYSDK_OFFSET(0xBC11FC0)
+#define NJIOAKCLACC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A794530)
+#define NJIOAKCLACC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A794560)
+#define NJIOAKCLACC___C___ONTASKBEGINIMPL_B__17_0_OFFSET UNITYSDK_OFFSET(0x1A794570)
 
-inline static constexpr unsigned int NJIOAKCLACC___c_TypeDefinitionIndex = 57924;
+inline static constexpr unsigned int NJIOAKCLACC___c_TypeDefinitionIndex = 59161;
 
 	class NJIOAKCLACC___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::RPG::GameCore::GameEntity*, ::PDHLJJCMEDJ>** StaticGet___9__17_0()
-		{
-			return (::System::Converter_2<::RPG::GameCore::GameEntity*, ::PDHLJJCMEDJ>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E990);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E998);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47B00);
+		}
+
+		static ::System::Converter_2<::RPG::GameCore::GameEntity*, ::PDHLJJCMEDJ>** StaticGet___9__17_0()
+		{
+			return (::System::Converter_2<::RPG::GameCore::GameEntity*, ::PDHLJJCMEDJ>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47B08);
 		}
 
 		static ::System::Void _cctor()

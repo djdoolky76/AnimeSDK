@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_ENVIRONMENTDATADIC_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF1F00)
+#define RPG_CLIENT_ENVIRONMENTDATADIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6DEFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentDataDic_TypeDefinitionIndex = 70899;
+	inline static constexpr unsigned int EnvironmentDataDic_TypeDefinitionIndex = 72878;
 
 	class EnvironmentDataDic : public ::UnityEngine::MonoBehaviour
 	{

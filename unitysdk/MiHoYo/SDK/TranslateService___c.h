@@ -7,31 +7,31 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_TRANSLATESERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB05A7A0)
-#define MIHOYO_SDK_TRANSLATESERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB05A7E0)
-#define MIHOYO_SDK_TRANSLATESERVICE___C__INIT_B__33_0_OFFSET UNITYSDK_OFFSET(0xB05A7F0)
-#define MIHOYO_SDK_TRANSLATESERVICE___C__INIT_B__33_1_OFFSET UNITYSDK_OFFSET(0xB05A8A0)
+#define MIHOYO_SDK_TRANSLATESERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD371B0)
+#define MIHOYO_SDK_TRANSLATESERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD371F0)
+#define MIHOYO_SDK_TRANSLATESERVICE___C__INIT_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DD37200)
+#define MIHOYO_SDK_TRANSLATESERVICE___C__INIT_B__33_1_OFFSET UNITYSDK_OFFSET(0x1DD372B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TranslateService___c_TypeDefinitionIndex = 46583;
+	inline static constexpr unsigned int TranslateService___c_TypeDefinitionIndex = 47611;
 
 	class TranslateService___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>** StaticGet___9__33_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x33D60);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x33D68);
+			return (::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2BB60);
 		}
 
 		static ::System::Action_2<::System::Int32, ::System::String*>** StaticGet___9__33_1()
 		{
-			return (::System::Action_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x33D70);
+			return (::System::Action_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2BB68);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2BB70);
 		}
 
 		static ::System::Void _cctor()

@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueKeywordData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF11770)
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF117A0)
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C___SORT_B__10_0_OFFSET UNITYSDK_OFFSET(0xDF117B0)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC08CC0)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC08CF0)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C___SORT_B__10_0_OFFSET UNITYSDK_OFFSET(0x1CC08D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueKeywordInfo___c_TypeDefinitionIndex = 67266;
+	inline static constexpr unsigned int RogueKeywordInfo___c_TypeDefinitionIndex = 69210;
 
 	class RogueKeywordInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::RogueKeywordData*>** StaticGet___9__10_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::RogueKeywordData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x642E0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x642E8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x715D0);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::RogueKeywordData*>** StaticGet___9__10_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::RogueKeywordData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x715D8);
 		}
 
 		static ::System::Void _cctor()

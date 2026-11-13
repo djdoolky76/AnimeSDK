@@ -3,11 +3,11 @@
 namespace RPG::Client { class IUI3DController; }
 namespace RPG::Client { class UIController; }
 
-#define RPG_CLIENT_UI3DLINKREGISTRY_ENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x10400)
+#define RPG_CLIENT_UI3DLINKREGISTRY_ENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x6516D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DLinkRegistry_Entry_TypeDefinitionIndex = 73004;
+	inline static constexpr unsigned int UI3DLinkRegistry_Entry_TypeDefinitionIndex = 75116;
 
 	struct alignas(8) UI3DLinkRegistry_Entry
 	{

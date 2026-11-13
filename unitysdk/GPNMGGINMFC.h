@@ -3,57 +3,59 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/IGCLGKCKACE.h"
 class MKECAGMHDAC;
+namespace CriWare { class CriManaMovieMaterial; }
 namespace CriWare { class CriWareInitializer; }
 namespace CriWare::CriMana { class Player; }
 namespace RPG::Client { class UIController; }
 namespace System { class String; }
 
-#define GPNMGGINMFC_BIEMPBLKCNB_OFFSET UNITYSDK_OFFSET(0x15B57F50)
-#define GPNMGGINMFC_BJGIPJPOOJI_OFFSET UNITYSDK_OFFSET(0x15B56DA0)
-#define GPNMGGINMFC_BKJDOMKGMKI_OFFSET UNITYSDK_OFFSET(0x15B582B0)
-#define GPNMGGINMFC_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B58AA0)
-#define GPNMGGINMFC_CKGLLDGNNCE_OFFSET UNITYSDK_OFFSET(0x15B57E40)
-#define GPNMGGINMFC_CMGKMCJFGHA_OFFSET UNITYSDK_OFFSET(0x15B570F0)
-#define GPNMGGINMFC_DJIDPEEDHKA_OFFSET UNITYSDK_OFFSET(0x15B56E50)
-#define GPNMGGINMFC_EAMDMJEIPBG_OFFSET UNITYSDK_OFFSET(0x15B57CF0)
-#define GPNMGGINMFC_EPAFFAOKLEP_OFFSET UNITYSDK_OFFSET(0x15B57570)
-#define GPNMGGINMFC_GAEDHJBNFHH_OFFSET UNITYSDK_OFFSET(0x15B58A10)
-#define GPNMGGINMFC_GEONPPNLJLF_OFFSET UNITYSDK_OFFSET(0x15B573D0)
-#define GPNMGGINMFC_GKKBHDKOHLD_OFFSET UNITYSDK_OFFSET(0x15B58980)
-#define GPNMGGINMFC_IEPELDLBCBP_OFFSET UNITYSDK_OFFSET(0x15B57260)
-#define GPNMGGINMFC_IKAPLJKJEEO_OFFSET UNITYSDK_OFFSET(0x15B58060)
-#define GPNMGGINMFC_JNKHBAEJIAP_OFFSET UNITYSDK_OFFSET(0x15B57D70)
-#define GPNMGGINMFC_KJEMEBHEJHB_OFFSET UNITYSDK_OFFSET(0x15B577C0)
-#define GPNMGGINMFC_KJGKGNMEIEI_OFFSET UNITYSDK_OFFSET(0x15B56C10)
-#define GPNMGGINMFC_MIPHCLBHKOA_OFFSET UNITYSDK_OFFSET(0x15B56FB0)
-#define GPNMGGINMFC_MJENINJAGPK_OFFSET UNITYSDK_OFFSET(0x15B586E0)
-#define GPNMGGINMFC_NAJHMGIFGPI_OFFSET UNITYSDK_OFFSET(0x15B58360)
-#define GPNMGGINMFC_NICLDLFFLMJ_OFFSET UNITYSDK_OFFSET(0x15B588A0)
-#define GPNMGGINMFC_OGHNIKCIDMG_OFFSET UNITYSDK_OFFSET(0x15B58110)
+#define GPNMGGINMFC_BIEMPBLKCNB_OFFSET UNITYSDK_OFFSET(0x17DC4920)
+#define GPNMGGINMFC_BJGIPJPOOJI_OFFSET UNITYSDK_OFFSET(0x17DC3770)
+#define GPNMGGINMFC_BKJDOMKGMKI_OFFSET UNITYSDK_OFFSET(0x17DC4C80)
+#define GPNMGGINMFC_BNIOEKJKBOE_OFFSET UNITYSDK_OFFSET(0x17DC53E0)
+#define GPNMGGINMFC_CCTOR_OFFSET UNITYSDK_OFFSET(0x17DC54E0)
+#define GPNMGGINMFC_CKGLLDGNNCE_OFFSET UNITYSDK_OFFSET(0x17DC4810)
+#define GPNMGGINMFC_CMGKMCJFGHA_OFFSET UNITYSDK_OFFSET(0x17DC3AC0)
+#define GPNMGGINMFC_DJIDPEEDHKA_OFFSET UNITYSDK_OFFSET(0x17DC3820)
+#define GPNMGGINMFC_EAMDMJEIPBG_OFFSET UNITYSDK_OFFSET(0x17DC46C0)
+#define GPNMGGINMFC_GAEDHJBNFHH_OFFSET UNITYSDK_OFFSET(0x17DC5450)
+#define GPNMGGINMFC_GEONPPNLJLF_OFFSET UNITYSDK_OFFSET(0x17DC3DA0)
+#define GPNMGGINMFC_GKKBHDKOHLD_OFFSET UNITYSDK_OFFSET(0x17DC5350)
+#define GPNMGGINMFC_HLJKPHNLNGL_OFFSET UNITYSDK_OFFSET(0x17DC3F40)
+#define GPNMGGINMFC_IEPELDLBCBP_OFFSET UNITYSDK_OFFSET(0x17DC3C30)
+#define GPNMGGINMFC_IKAPLJKJEEO_OFFSET UNITYSDK_OFFSET(0x17DC4A30)
+#define GPNMGGINMFC_JNKHBAEJIAP_OFFSET UNITYSDK_OFFSET(0x17DC4740)
+#define GPNMGGINMFC_KJEMEBHEJHB_OFFSET UNITYSDK_OFFSET(0x17DC4190)
+#define GPNMGGINMFC_KJGKGNMEIEI_OFFSET UNITYSDK_OFFSET(0x17DC35E0)
+#define GPNMGGINMFC_MIPHCLBHKOA_OFFSET UNITYSDK_OFFSET(0x17DC3980)
+#define GPNMGGINMFC_MJENINJAGPK_OFFSET UNITYSDK_OFFSET(0x17DC50B0)
+#define GPNMGGINMFC_NAJHMGIFGPI_OFFSET UNITYSDK_OFFSET(0x17DC4D30)
+#define GPNMGGINMFC_NICLDLFFLMJ_OFFSET UNITYSDK_OFFSET(0x17DC5270)
+#define GPNMGGINMFC_OGHNIKCIDMG_OFFSET UNITYSDK_OFFSET(0x17DC4AE0)
 
-inline static constexpr unsigned int GPNMGGINMFC_TypeDefinitionIndex = 73223;
+inline static constexpr unsigned int GPNMGGINMFC_TypeDefinitionIndex = 75339;
 
 	class GPNMGGINMFC : public ::System::Object
 	{
 	public:
 		static ::MKECAGMHDAC** StaticGet_MHKPACKLKCD()
 		{
-			return (::MKECAGMHDAC**)UnitySDK::FromName("", "GPNMGGINMFC")->GetStaticField(0x6EF00);
+			return (::MKECAGMHDAC**)UnitySDK::FromName("", "GPNMGGINMFC")->GetStaticField(0x72A10);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_LIHFBAEICJD()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "GPNMGGINMFC")->GetStaticField(0x6EF08);
-		}
-
-		static ::System::Boolean* StaticGet_APDBDHBFCHG()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GPNMGGINMFC")->GetStaticField(0x157D0);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "GPNMGGINMFC")->GetStaticField(0x72A18);
 		}
 
 		static ::System::Boolean* StaticGet_ANGDKGICMPB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GPNMGGINMFC")->GetStaticField(0x157D1);
+			return (::System::Boolean*)UnitySDK::FromName("", "GPNMGGINMFC")->GetStaticField(0x15F40);
+		}
+
+		static ::System::Boolean* StaticGet_APDBDHBFCHG()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "GPNMGGINMFC")->GetStaticField(0x15F41);
 		}
 
 		// static const ::System::String* DGGGFLCFNML; // 0x0
@@ -100,9 +102,9 @@ inline static constexpr unsigned int GPNMGGINMFC_TypeDefinitionIndex = 73223;
 			return ((::RPG::Client::UIController*(*)(::System::UInt32, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + GPNMGGINMFC_GEONPPNLJLF_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void EPAFFAOKLEP(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3)
+		static ::System::Void HLJKPHNLNGL(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + GPNMGGINMFC_EPAFFAOKLEP_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + GPNMGGINMFC_HLJKPHNLNGL_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::UInt32 KJEMEBHEJHB(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4)
@@ -163,6 +165,11 @@ inline static constexpr unsigned int GPNMGGINMFC_TypeDefinitionIndex = 73223;
 		static ::System::Void GKKBHDKOHLD(::CriWare::CriMana::Player* a1)
 		{
 			return ((::System::Void(*)(::CriWare::CriMana::Player*))((::PBYTE)hIl2Cpp + GPNMGGINMFC_GKKBHDKOHLD_OFFSET))(a1);
+		}
+
+		static ::System::Boolean BNIOEKJKBOE(::CriWare::CriManaMovieMaterial* a1, ::System::String* a2)
+		{
+			return ((::System::Boolean(*)(::CriWare::CriManaMovieMaterial*, ::System::String*))((::PBYTE)hIl2Cpp + GPNMGGINMFC_BNIOEKJKBOE_OFFSET))(a1, a2);
 		}
 
 		static ::CriWare::CriWareInitializer* GAEDHJBNFHH()

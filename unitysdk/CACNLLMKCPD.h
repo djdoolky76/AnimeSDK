@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CACNLLMKCPD_TypeDefinitionIndex = 52874;
+inline static constexpr unsigned int CACNLLMKCPD_TypeDefinitionIndex = 54030;
 
 	struct alignas(4) CACNLLMKCPD
 	{

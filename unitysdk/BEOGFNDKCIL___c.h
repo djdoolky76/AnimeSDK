@@ -4,18 +4,18 @@
 class BEOGFNDKCIL;
 namespace System { class Object; }
 
-#define BEOGFNDKCIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA384B0)
-#define BEOGFNDKCIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA384F0)
-#define BEOGFNDKCIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA38500)
+#define BEOGFNDKCIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA00CE0)
+#define BEOGFNDKCIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA00D20)
+#define BEOGFNDKCIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FA00D30)
 
-inline static constexpr unsigned int BEOGFNDKCIL___c_TypeDefinitionIndex = 28761;
+inline static constexpr unsigned int BEOGFNDKCIL___c_TypeDefinitionIndex = 29351;
 
 	class BEOGFNDKCIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49DE0);
 		}
 
 		static ::System::Void _cctor()

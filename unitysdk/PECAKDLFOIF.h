@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareDamageTag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PECAKDLFOIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC02BDD0)
-#define PECAKDLFOIF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC02BE00)
+#define PECAKDLFOIF_CTOR_OFFSET UNITYSDK_OFFSET(0x10447600)
+#define PECAKDLFOIF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10447630)
 
-inline static constexpr unsigned int PECAKDLFOIF_TypeDefinitionIndex = 54883;
+inline static constexpr unsigned int PECAKDLFOIF_TypeDefinitionIndex = 56054;
 
 	class PECAKDLFOIF
 	{

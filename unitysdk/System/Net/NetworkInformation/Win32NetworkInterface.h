@@ -3,8 +3,8 @@
 #include "unitysdk/System/Net/NetworkInformation/Win32_FIXED_INFO.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GETNETWORKPARAMS_OFFSET UNITYSDK_OFFSET(0x1F043800)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GET_FIXEDINFO_OFFSET UNITYSDK_OFFSET(0x1F043410)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GETNETWORKPARAMS_OFFSET UNITYSDK_OFFSET(0x1C422AA0)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GET_FIXEDINFO_OFFSET UNITYSDK_OFFSET(0x1C4226B0)
 
 namespace System::Net::NetworkInformation
 {
@@ -15,12 +15,12 @@ namespace System::Net::NetworkInformation
 	public:
 		static ::System::Net::NetworkInformation::Win32_FIXED_INFO* StaticGet_fixedInfo()
 		{
-			return (::System::Net::NetworkInformation::Win32_FIXED_INFO*)UnitySDK::FromName("System.Net.NetworkInformation", "Win32NetworkInterface")->GetStaticField(0x31C30);
+			return (::System::Net::NetworkInformation::Win32_FIXED_INFO*)UnitySDK::FromName("System.Net.NetworkInformation", "Win32NetworkInterface")->GetStaticField(0x21CF0);
 		}
 
 		static ::System::Boolean* StaticGet_initialized()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Net.NetworkInformation", "Win32NetworkInterface")->GetStaticField(0xA3F0);
+			return (::System::Boolean*)UnitySDK::FromName("System.Net.NetworkInformation", "Win32NetworkInterface")->GetStaticField(0x7A70);
 		}
 
 		static ::System::Int32 GetNetworkParams(::System::IntPtr a1, ::System::Int32 a2)

@@ -5,21 +5,21 @@ namespace RPG::Client::PixAir { class IAffectedChecker; }
 namespace RPG::Client::PixAir { class PixAirEquipData; }
 namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 
-#define RPG_CLIENT_PIXAIR_AFFECTEDCHECKERFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB24300)
-#define RPG_CLIENT_PIXAIR_AFFECTEDCHECKERFACTORY_CREATE_1_OFFSET UNITYSDK_OFFSET(0xDB24030)
-#define RPG_CLIENT_PIXAIR_AFFECTEDCHECKERFACTORY_CREATE_2_OFFSET UNITYSDK_OFFSET(0xDB24190)
-#define RPG_CLIENT_PIXAIR_AFFECTEDCHECKERFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xDB23EF0)
+#define RPG_CLIENT_PIXAIR_AFFECTEDCHECKERFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0x18D9DA60)
+#define RPG_CLIENT_PIXAIR_AFFECTEDCHECKERFACTORY_CREATE_1_OFFSET UNITYSDK_OFFSET(0x18D9D8E0)
+#define RPG_CLIENT_PIXAIR_AFFECTEDCHECKERFACTORY_CREATE_2_OFFSET UNITYSDK_OFFSET(0x18D9D9A0)
+#define RPG_CLIENT_PIXAIR_AFFECTEDCHECKERFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x18D9D830)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int AffectedCheckerFactory_TypeDefinitionIndex = 79306;
+	inline static constexpr unsigned int AffectedCheckerFactory_TypeDefinitionIndex = 82083;
 
 	class AffectedCheckerFactory : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::PixAir::IAffectedChecker** StaticGet_s_defaultChecker()
 		{
-			return (::RPG::Client::PixAir::IAffectedChecker**)UnitySDK::FromName("RPG.Client.PixAir", "AffectedCheckerFactory")->GetStaticField(0x1C510);
+			return (::RPG::Client::PixAir::IAffectedChecker**)UnitySDK::FromName("RPG.Client.PixAir", "AffectedCheckerFactory")->GetStaticField(0x30410);
 		}
 
 		static ::System::Void _cctor()

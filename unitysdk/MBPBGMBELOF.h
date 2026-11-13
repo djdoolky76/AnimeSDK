@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleLeadHand; }
 
-#define MBPBGMBELOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F6740)
-#define MBPBGMBELOF_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C8F6750)
+#define MBPBGMBELOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25B8E0)
+#define MBPBGMBELOF_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C25B8F0)
 
-inline static constexpr unsigned int MBPBGMBELOF_TypeDefinitionIndex = 43129;
+inline static constexpr unsigned int MBPBGMBELOF_TypeDefinitionIndex = 44110;
 
 	class MBPBGMBELOF : public ::BKABEBEPPJK
 	{

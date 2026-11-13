@@ -7,68 +7,68 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TMPro { class TMP_Text; }
 namespace TMPro { class TMP_UpdateManager; }
 
-#define TMPRO_TMP_UPDATEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F31FEA0)
-#define TMPRO_TMP_UPDATEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F31EF30)
-#define TMPRO_TMP_UPDATEMANAGER_DOREBUILDS_OFFSET UNITYSDK_OFFSET(0x1F31F600)
-#define TMPRO_TMP_UPDATEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F31EE70)
-#define TMPRO_TMP_UPDATEMANAGER_INTERNALREGISTERTEXTELEMENTFORCULLINGUPDATE_OFFSET UNITYSDK_OFFSET(0x1F31F4F0)
-#define TMPRO_TMP_UPDATEMANAGER_INTERNALREGISTERTEXTELEMENTFORGRAPHICREBUILD_OFFSET UNITYSDK_OFFSET(0x1F31F3A0)
-#define TMPRO_TMP_UPDATEMANAGER_INTERNALREGISTERTEXTELEMENTFORLAYOUTREBUILD_OFFSET UNITYSDK_OFFSET(0x1F31F250)
-#define TMPRO_TMP_UPDATEMANAGER_INTERNALREGISTERTEXTOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1F31F100)
-#define TMPRO_TMP_UPDATEMANAGER_INTERNALUNREGISTERTEXTELEMENTFORGRAPHICREBUILD_OFFSET UNITYSDK_OFFSET(0x1F31FD80)
-#define TMPRO_TMP_UPDATEMANAGER_INTERNALUNREGISTERTEXTELEMENTFORLAYOUTREBUILD_OFFSET UNITYSDK_OFFSET(0x1F31FE10)
-#define TMPRO_TMP_UPDATEMANAGER_INTERNALUNREGISTERTEXTOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1F31FB10)
-#define TMPRO_TMP_UPDATEMANAGER_ONCAMERAPRECULL_OFFSET UNITYSDK_OFFSET(0x1F31F5F0)
-#define TMPRO_TMP_UPDATEMANAGER_REGISTERTEXTELEMENTFORCULLINGUPDATE_OFFSET UNITYSDK_OFFSET(0x1F31F4A0)
-#define TMPRO_TMP_UPDATEMANAGER_REGISTERTEXTELEMENTFORGRAPHICREBUILD_OFFSET UNITYSDK_OFFSET(0x1F31F350)
-#define TMPRO_TMP_UPDATEMANAGER_REGISTERTEXTELEMENTFORLAYOUTREBUILD_OFFSET UNITYSDK_OFFSET(0x1F31F200)
-#define TMPRO_TMP_UPDATEMANAGER_REGISTERTEXTOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1F2FD370)
-#define TMPRO_TMP_UPDATEMANAGER_UNREGISTERTEXTELEMENTFORREBUILD_OFFSET UNITYSDK_OFFSET(0x1F31FBA0)
-#define TMPRO_TMP_UPDATEMANAGER_UNREGISTERTEXTOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1F2FD2A0)
+#define TMPRO_TMP_UPDATEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x13F3CEC0)
+#define TMPRO_TMP_UPDATEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x13F3BF50)
+#define TMPRO_TMP_UPDATEMANAGER_DOREBUILDS_OFFSET UNITYSDK_OFFSET(0x13F3C620)
+#define TMPRO_TMP_UPDATEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x13F3BE90)
+#define TMPRO_TMP_UPDATEMANAGER_INTERNALREGISTERTEXTELEMENTFORCULLINGUPDATE_OFFSET UNITYSDK_OFFSET(0x13F3C510)
+#define TMPRO_TMP_UPDATEMANAGER_INTERNALREGISTERTEXTELEMENTFORGRAPHICREBUILD_OFFSET UNITYSDK_OFFSET(0x13F3C3C0)
+#define TMPRO_TMP_UPDATEMANAGER_INTERNALREGISTERTEXTELEMENTFORLAYOUTREBUILD_OFFSET UNITYSDK_OFFSET(0x13F3C270)
+#define TMPRO_TMP_UPDATEMANAGER_INTERNALREGISTERTEXTOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x13F3C120)
+#define TMPRO_TMP_UPDATEMANAGER_INTERNALUNREGISTERTEXTELEMENTFORGRAPHICREBUILD_OFFSET UNITYSDK_OFFSET(0x13F3CDA0)
+#define TMPRO_TMP_UPDATEMANAGER_INTERNALUNREGISTERTEXTELEMENTFORLAYOUTREBUILD_OFFSET UNITYSDK_OFFSET(0x13F3CE30)
+#define TMPRO_TMP_UPDATEMANAGER_INTERNALUNREGISTERTEXTOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x13F3CB30)
+#define TMPRO_TMP_UPDATEMANAGER_ONCAMERAPRECULL_OFFSET UNITYSDK_OFFSET(0x13F3C610)
+#define TMPRO_TMP_UPDATEMANAGER_REGISTERTEXTELEMENTFORCULLINGUPDATE_OFFSET UNITYSDK_OFFSET(0x13F3C4C0)
+#define TMPRO_TMP_UPDATEMANAGER_REGISTERTEXTELEMENTFORGRAPHICREBUILD_OFFSET UNITYSDK_OFFSET(0x13F3C370)
+#define TMPRO_TMP_UPDATEMANAGER_REGISTERTEXTELEMENTFORLAYOUTREBUILD_OFFSET UNITYSDK_OFFSET(0x13F3C220)
+#define TMPRO_TMP_UPDATEMANAGER_REGISTERTEXTOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x13F1A340)
+#define TMPRO_TMP_UPDATEMANAGER_UNREGISTERTEXTELEMENTFORREBUILD_OFFSET UNITYSDK_OFFSET(0x13F3CBC0)
+#define TMPRO_TMP_UPDATEMANAGER_UNREGISTERTEXTOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x13F1A270)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_UpdateManager_TypeDefinitionIndex = 44673;
+	inline static constexpr unsigned int TMP_UpdateManager_TypeDefinitionIndex = 45748;
 
 	class TMP_UpdateManager : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_GraphicRebuildQueue; // 0x10
+		::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_CullingUpdateQueue; // 0x10
 		::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_LayoutRebuildQueue; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::Int32>* m_LayoutQueueLookup; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::Int32>* m_CullingUpdateLookup; // 0x28
-		::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_CullingUpdateQueue; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::Int32>* m_CullingUpdateLookup; // 0x20
+		::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_GraphicRebuildQueue; // 0x28
+		::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_InternalUpdateQueue; // 0x30
 		::System::Collections::Generic::HashSet_1<::System::Int32>* m_GraphicQueueLookup; // 0x38
-		::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_InternalUpdateQueue; // 0x40
-		::System::Collections::Generic::HashSet_1<::System::Int32>* m_InternalUpdateLookup; // 0x48
+		::System::Collections::Generic::HashSet_1<::System::Int32>* m_InternalUpdateLookup; // 0x40
+		::System::Collections::Generic::HashSet_1<::System::Int32>* m_LayoutQueueLookup; // 0x48
 		static ::TMPro::TMP_UpdateManager** StaticGet_s_Instance()
 		{
-			return (::TMPro::TMP_UpdateManager**)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x5AAE0);
-		}
-
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_RegisterTextElementForGraphicRebuildMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x139F0);
-		}
-
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_RegisterTextElementForCullingUpdateMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x139F8);
-		}
-
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UnregisterTextObjectForUpdateMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x13A00);
+			return (::TMPro::TMP_UpdateManager**)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x6F680);
 		}
 
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UnregisterTextElementForGraphicRebuildMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x13A08);
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x153B0);
 		}
 
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_RegisterTextObjectForUpdateMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x13A10);
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x153B8);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UnregisterTextObjectForUpdateMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x153C0);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_RegisterTextElementForCullingUpdateMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x153C8);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_RegisterTextElementForGraphicRebuildMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_UpdateManager")->GetStaticField(0x153D0);
 		}
 
 		::System::Void _ctor()

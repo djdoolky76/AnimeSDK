@@ -5,12 +5,12 @@
 class AkCommunicationSettings;
 namespace System { class String; }
 
-#define AKCOMMONCOMMSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F558610)
-#define AKCOMMONCOMMSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F557AA0)
-#define AKCOMMONCOMMSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5585D0)
-#define AKCOMMONCOMMSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1F558590)
+#define AKCOMMONCOMMSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF06E90)
+#define AKCOMMONCOMMSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1EF06320)
+#define AKCOMMONCOMMSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF06E50)
+#define AKCOMMONCOMMSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1EF06E10)
 
-inline static constexpr unsigned int AkCommonCommSettings_TypeDefinitionIndex = 44842;
+inline static constexpr unsigned int AkCommonCommSettings_TypeDefinitionIndex = 45917;
 
 	class AkCommonCommSettings : public ::System::Object
 	{
@@ -25,7 +25,7 @@ inline static constexpr unsigned int AkCommonCommSettings_TypeDefinitionIndex = 
 		::AkCommunicationSettings_AkCommSystem m_commSystem; // 0x28
 		static ::System::UInt16* StaticGet_DefaultDiscoveryBroadcastPort()
 		{
-			return (::System::UInt16*)UnitySDK::FromName("", "AkCommonCommSettings")->GetStaticField(0x2580);
+			return (::System::UInt16*)UnitySDK::FromName("", "AkCommonCommSettings")->GetStaticField(0x15950);
 		}
 
 		::System::Void _ctor()

@@ -15,69 +15,69 @@ namespace System::Net { class EndPoint; }
 namespace System::Net { class IPEndPoint; }
 namespace System::Net::Sockets { class Socket; }
 
-#define MIHOYO_SDK_KCPCLIENT_CONNECTCHANNEL_1_OFFSET UNITYSDK_OFFSET(0xAFB2C90)
-#define MIHOYO_SDK_KCPCLIENT_CONNECTCHANNEL_OFFSET UNITYSDK_OFFSET(0xAFB6BF0)
-#define MIHOYO_SDK_KCPCLIENT_CREATENEWINSTANCE_OFFSET UNITYSDK_OFFSET(0xAFB2C40)
-#define MIHOYO_SDK_KCPCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB6830)
-#define MIHOYO_SDK_KCPCLIENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAFB3A60)
-#define MIHOYO_SDK_KCPCLIENT_GETCHANNEL_OFFSET UNITYSDK_OFFSET(0xAFB6A70)
-#define MIHOYO_SDK_KCPCLIENT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFB6810)
-#define MIHOYO_SDK_KCPCLIENT_ONINTERNALCONNECTTIMEOUT_OFFSET UNITYSDK_OFFSET(0xAFB6B00)
-#define MIHOYO_SDK_KCPCLIENT_ONINTERNALCONNECT_OFFSET UNITYSDK_OFFSET(0xAFB6A80)
-#define MIHOYO_SDK_KCPCLIENT_ONINTERNALDISCONNECT_OFFSET UNITYSDK_OFFSET(0xAFB6AC0)
-#define MIHOYO_SDK_KCPCLIENT_ONINTERNALERROR_OFFSET UNITYSDK_OFFSET(0xAFB6B70)
-#define MIHOYO_SDK_KCPCLIENT_ONINTERNALLOG_OFFSET UNITYSDK_OFFSET(0xAFB6BB0)
-#define MIHOYO_SDK_KCPCLIENT_ONINTERNALRECVMSGTIMEOUT_OFFSET UNITYSDK_OFFSET(0xAFB6B40)
-#define MIHOYO_SDK_KCPCLIENT_OUTPUT_OFFSET UNITYSDK_OFFSET(0xAFB65E0)
-#define MIHOYO_SDK_KCPCLIENT_RECV_OFFSET UNITYSDK_OFFSET(0xAFB6930)
-#define MIHOYO_SDK_KCPCLIENT_SEND_OFFSET UNITYSDK_OFFSET(0xAFB36D0)
-#define MIHOYO_SDK_KCPCLIENT_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFB6820)
-#define MIHOYO_SDK_KCPCLIENT_UPDATE_OFFSET UNITYSDK_OFFSET(0xAFB39A0)
+#define MIHOYO_SDK_KCPCLIENT_CONNECTCHANNEL_1_OFFSET UNITYSDK_OFFSET(0x1E2E71C0)
+#define MIHOYO_SDK_KCPCLIENT_CONNECTCHANNEL_OFFSET UNITYSDK_OFFSET(0x1E2EB120)
+#define MIHOYO_SDK_KCPCLIENT_CREATENEWINSTANCE_OFFSET UNITYSDK_OFFSET(0x1E2E7170)
+#define MIHOYO_SDK_KCPCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2EAD40)
+#define MIHOYO_SDK_KCPCLIENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E2E7FC0)
+#define MIHOYO_SDK_KCPCLIENT_GETCHANNEL_OFFSET UNITYSDK_OFFSET(0x1E2EAFA0)
+#define MIHOYO_SDK_KCPCLIENT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E2EAD20)
+#define MIHOYO_SDK_KCPCLIENT_ONINTERNALCONNECTTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1E2EB030)
+#define MIHOYO_SDK_KCPCLIENT_ONINTERNALCONNECT_OFFSET UNITYSDK_OFFSET(0x1E2EAFB0)
+#define MIHOYO_SDK_KCPCLIENT_ONINTERNALDISCONNECT_OFFSET UNITYSDK_OFFSET(0x1E2EAFF0)
+#define MIHOYO_SDK_KCPCLIENT_ONINTERNALERROR_OFFSET UNITYSDK_OFFSET(0x1E2EB0A0)
+#define MIHOYO_SDK_KCPCLIENT_ONINTERNALLOG_OFFSET UNITYSDK_OFFSET(0x1E2EB0E0)
+#define MIHOYO_SDK_KCPCLIENT_ONINTERNALRECVMSGTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1E2EB070)
+#define MIHOYO_SDK_KCPCLIENT_OUTPUT_OFFSET UNITYSDK_OFFSET(0x1E2EAAF0)
+#define MIHOYO_SDK_KCPCLIENT_RECV_OFFSET UNITYSDK_OFFSET(0x1E2EAE60)
+#define MIHOYO_SDK_KCPCLIENT_SEND_OFFSET UNITYSDK_OFFSET(0x1E2E7C30)
+#define MIHOYO_SDK_KCPCLIENT_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E2EAD30)
+#define MIHOYO_SDK_KCPCLIENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E2E7F00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KCPClient_TypeDefinitionIndex = 46129;
+	inline static constexpr unsigned int KCPClient_TypeDefinitionIndex = 47158;
 
 	class KCPClient : public ::MiHoYo::SDK::IKCPClient
 	{
 	public:
-		::MiHoYo::SDK::IKCPChannel* channel; // 0x10
-		::System::Net::Sockets::Socket* socket; // 0x18
-		::Il2CppArray<::System::Byte>* cache; // 0x20
+		::System::Net::Sockets::Socket* socket; // 0x10
+		::Il2CppArray<::System::Byte>* cache; // 0x18
+		::MiHoYo::SDK::IKCPChannel* channel; // 0x20
 		::System::Net::EndPoint* m_ipEndPoint; // 0x28
 		static ::MiHoYo::SDK::KCPClient_OnConnectDelegate** StaticGet_OnConnect()
 		{
-			return (::MiHoYo::SDK::KCPClient_OnConnectDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x25C50);
-		}
-
-		static ::MiHoYo::SDK::KCPClient_OnTimeoutDelegate** StaticGet_OnConnectTimeout()
-		{
-			return (::MiHoYo::SDK::KCPClient_OnTimeoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x25C58);
-		}
-
-		static ::MiHoYo::SDK::KCPClient_OnDisconnetDelegate** StaticGet_OnDisconnet()
-		{
-			return (::MiHoYo::SDK::KCPClient_OnDisconnetDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x25C60);
-		}
-
-		static ::MiHoYo::SDK::KCPClient_OnErrorDelegate** StaticGet_OnError()
-		{
-			return (::MiHoYo::SDK::KCPClient_OnErrorDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x25C68);
-		}
-
-		static ::MiHoYo::SDK::KCPClient** StaticGet__Instance_k__BackingField()
-		{
-			return (::MiHoYo::SDK::KCPClient**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x25C70);
-		}
-
-		static ::MiHoYo::SDK::KCPClient_OnTimeoutDelegate** StaticGet_OnRecvMsgTimeout()
-		{
-			return (::MiHoYo::SDK::KCPClient_OnTimeoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x25C78);
+			return (::MiHoYo::SDK::KCPClient_OnConnectDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x1D010);
 		}
 
 		static ::MiHoYo::SDK::KCPClient_OnLogDelegate** StaticGet_OnLog()
 		{
-			return (::MiHoYo::SDK::KCPClient_OnLogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x25C80);
+			return (::MiHoYo::SDK::KCPClient_OnLogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x1D018);
+		}
+
+		static ::MiHoYo::SDK::KCPClient_OnTimeoutDelegate** StaticGet_OnRecvMsgTimeout()
+		{
+			return (::MiHoYo::SDK::KCPClient_OnTimeoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x1D020);
+		}
+
+		static ::MiHoYo::SDK::KCPClient_OnTimeoutDelegate** StaticGet_OnConnectTimeout()
+		{
+			return (::MiHoYo::SDK::KCPClient_OnTimeoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x1D028);
+		}
+
+		static ::MiHoYo::SDK::KCPClient** StaticGet__Instance_k__BackingField()
+		{
+			return (::MiHoYo::SDK::KCPClient**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x1D030);
+		}
+
+		static ::MiHoYo::SDK::KCPClient_OnDisconnetDelegate** StaticGet_OnDisconnet()
+		{
+			return (::MiHoYo::SDK::KCPClient_OnDisconnetDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x1D038);
+		}
+
+		static ::MiHoYo::SDK::KCPClient_OnErrorDelegate** StaticGet_OnError()
+		{
+			return (::MiHoYo::SDK::KCPClient_OnErrorDelegate**)UnitySDK::FromName("MiHoYo.SDK", "KCPClient")->GetStaticField(0x1D040);
 		}
 
 		::System::Void _ctor()

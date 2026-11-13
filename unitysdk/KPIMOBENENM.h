@@ -8,10 +8,10 @@ class KPIMOBENENM;
 namespace RPG::GameCore { class LevelSpatialIntVec2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KPIMOBENENM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B9780)
-#define KPIMOBENENM_MJLLHMGLOHL_OFFSET UNITYSDK_OFFSET(0xB5B9A60)
+#define KPIMOBENENM_CTOR_OFFSET UNITYSDK_OFFSET(0x19129F80)
+#define KPIMOBENENM_MJLLHMGLOHL_OFFSET UNITYSDK_OFFSET(0x1912A260)
 
-inline static constexpr unsigned int KPIMOBENENM_TypeDefinitionIndex = 62050;
+inline static constexpr unsigned int KPIMOBENENM_TypeDefinitionIndex = 63463;
 
 	class KPIMOBENENM : public ::System::Object
 	{

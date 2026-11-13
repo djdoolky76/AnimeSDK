@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OFFMCODMKDL_LENGEHAAFDE_TypeDefinitionIndex = 25809;
+inline static constexpr unsigned int OFFMCODMKDL_LENGEHAAFDE_TypeDefinitionIndex = 26306;
 
 	enum class OFFMCODMKDL_LENGEHAAFDE : ::System::Int32
 	{

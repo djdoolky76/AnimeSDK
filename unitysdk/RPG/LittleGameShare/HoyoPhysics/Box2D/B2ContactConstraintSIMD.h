@@ -6,7 +6,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactConstraintSIMD_TypeDefinitionIndex = 36621;
+	inline static constexpr unsigned int B2ContactConstraintSIMD_TypeDefinitionIndex = 37549;
 
 	struct alignas(8) B2ContactConstraintSIMD
 	{

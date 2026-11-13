@@ -3,10 +3,10 @@
 class FPONDLFPJHM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLOCJFHOOPF_CTOR_OFFSET UNITYSDK_OFFSET(0x15836D30)
-#define FLOCJFHOOPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15836D60)
+#define FLOCJFHOOPF_CTOR_OFFSET UNITYSDK_OFFSET(0x18971CC0)
+#define FLOCJFHOOPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18971CF0)
 
-inline static constexpr unsigned int FLOCJFHOOPF_TypeDefinitionIndex = 53198;
+inline static constexpr unsigned int FLOCJFHOOPF_TypeDefinitionIndex = 54360;
 
 	class FLOCJFHOOPF
 	{

@@ -6,15 +6,15 @@ class GraphVisualizerClient;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GRAPHVISUALIZERCLIENT_CLEARGRAPHS_OFFSET UNITYSDK_OFFSET(0x1F158C50)
-#define GRAPHVISUALIZERCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F158970)
-#define GRAPHVISUALIZERCLIENT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F158A10)
-#define GRAPHVISUALIZERCLIENT_GETGRAPHS_OFFSET UNITYSDK_OFFSET(0x1F158C90)
-#define GRAPHVISUALIZERCLIENT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F158850)
-#define GRAPHVISUALIZERCLIENT_HIDE_OFFSET UNITYSDK_OFFSET(0x1F158B70)
-#define GRAPHVISUALIZERCLIENT_SHOW_OFFSET UNITYSDK_OFFSET(0x1F158A90)
+#define GRAPHVISUALIZERCLIENT_CLEARGRAPHS_OFFSET UNITYSDK_OFFSET(0x20977440)
+#define GRAPHVISUALIZERCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x20977160)
+#define GRAPHVISUALIZERCLIENT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x20977200)
+#define GRAPHVISUALIZERCLIENT_GETGRAPHS_OFFSET UNITYSDK_OFFSET(0x20977480)
+#define GRAPHVISUALIZERCLIENT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x20977040)
+#define GRAPHVISUALIZERCLIENT_HIDE_OFFSET UNITYSDK_OFFSET(0x20977360)
+#define GRAPHVISUALIZERCLIENT_SHOW_OFFSET UNITYSDK_OFFSET(0x20977280)
 
-inline static constexpr unsigned int GraphVisualizerClient_TypeDefinitionIndex = 45897;
+inline static constexpr unsigned int GraphVisualizerClient_TypeDefinitionIndex = 46926;
 
 	class GraphVisualizerClient : public ::System::Object
 	{
@@ -22,7 +22,7 @@ inline static constexpr unsigned int GraphVisualizerClient_TypeDefinitionIndex =
 		::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableGraph>* m_Graphs; // 0x10
 		static ::GraphVisualizerClient** StaticGet_s_Instance()
 		{
-			return (::GraphVisualizerClient**)UnitySDK::FromName("", "GraphVisualizerClient")->GetStaticField(0x11E0);
+			return (::GraphVisualizerClient**)UnitySDK::FromName("", "GraphVisualizerClient")->GetStaticField(0x1180);
 		}
 
 		::System::Void _ctor()

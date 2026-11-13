@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class DDILGBNCFNM;
 
-#define PLFMKIDHJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C7E80)
+#define PLFMKIDHJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x207003A0)
 
-inline static constexpr unsigned int PLFMKIDHJEB_TypeDefinitionIndex = 43697;
+inline static constexpr unsigned int PLFMKIDHJEB_TypeDefinitionIndex = 44680;
 
 	class PLFMKIDHJEB : public ::System::Object
 	{

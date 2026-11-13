@@ -13,25 +13,25 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define JFOEKIFGPCP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E704F30)
-#define JFOEKIFGPCP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7052A0)
-#define JFOEKIFGPCP_CLONE_OFFSET UNITYSDK_OFFSET(0x1E704A70)
-#define JFOEKIFGPCP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7049E0)
-#define JFOEKIFGPCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7049A0)
-#define JFOEKIFGPCP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E704C20)
-#define JFOEKIFGPCP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E704AD0)
-#define JFOEKIFGPCP_FAEKBILGPCO_OFFSET UNITYSDK_OFFSET(0x1E704AB0)
-#define JFOEKIFGPCP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E704D50)
-#define JFOEKIFGPCP_JIPCMKANCHC_OFFSET UNITYSDK_OFFSET(0x1E704AC0)
-#define JFOEKIFGPCP_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E704960)
-#define JFOEKIFGPCP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E7050E0)
-#define JFOEKIFGPCP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E705040)
-#define JFOEKIFGPCP_OAPIGKOIMJL_OFFSET UNITYSDK_OFFSET(0x1E704AA0)
-#define JFOEKIFGPCP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E704990)
-#define JFOEKIFGPCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E704DC0)
-#define JFOEKIFGPCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E704E20)
+#define JFOEKIFGPCP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x20626190)
+#define JFOEKIFGPCP_CCTOR_OFFSET UNITYSDK_OFFSET(0x20626520)
+#define JFOEKIFGPCP_CLONE_OFFSET UNITYSDK_OFFSET(0x20625CF0)
+#define JFOEKIFGPCP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20625C60)
+#define JFOEKIFGPCP_CTOR_OFFSET UNITYSDK_OFFSET(0x20625C20)
+#define JFOEKIFGPCP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x20625EA0)
+#define JFOEKIFGPCP_EQUALS_OFFSET UNITYSDK_OFFSET(0x20625D50)
+#define JFOEKIFGPCP_FAEKBILGPCO_OFFSET UNITYSDK_OFFSET(0x20625D40)
+#define JFOEKIFGPCP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x20625FC0)
+#define JFOEKIFGPCP_JIPCMKANCHC_OFFSET UNITYSDK_OFFSET(0x20625D20)
+#define JFOEKIFGPCP_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x20625BE0)
+#define JFOEKIFGPCP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x20626360)
+#define JFOEKIFGPCP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x206262C0)
+#define JFOEKIFGPCP_OAPIGKOIMJL_OFFSET UNITYSDK_OFFSET(0x20625D30)
+#define JFOEKIFGPCP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x20625C10)
+#define JFOEKIFGPCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20626030)
+#define JFOEKIFGPCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x20626090)
 
-inline static constexpr unsigned int JFOEKIFGPCP_TypeDefinitionIndex = 30170;
+inline static constexpr unsigned int JFOEKIFGPCP_TypeDefinitionIndex = 31068;
 
 	class JFOEKIFGPCP : public ::System::Object
 	{
@@ -39,18 +39,18 @@ inline static constexpr unsigned int JFOEKIFGPCP_TypeDefinitionIndex = 30170;
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::BKGPJOBNMKJ*>* LEMGABLDCFF; // 0x18
 		::System::UInt32 NAEACGPKNNH; // 0x20
-		static ::Google::Protobuf::FieldCodec_1<::BKGPJOBNMKJ*>** StaticGet_DHPCBMCLEAA()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::BKGPJOBNMKJ*>**)UnitySDK::FromName("", "JFOEKIFGPCP")->GetStaticField(0x5D9A0);
-		}
-
 		static ::Google::Protobuf::MessageParser_1<::JFOEKIFGPCP*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::JFOEKIFGPCP*>**)UnitySDK::FromName("", "JFOEKIFGPCP")->GetStaticField(0x5D9A8);
+			return (::Google::Protobuf::MessageParser_1<::JFOEKIFGPCP*>**)UnitySDK::FromName("", "JFOEKIFGPCP")->GetStaticField(0x5FD10);
 		}
 
-		// static const ::System::Object PLDKENJLKME; // 0x0
+		static ::Google::Protobuf::FieldCodec_1<::BKGPJOBNMKJ*>** StaticGet_DHPCBMCLEAA()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::BKGPJOBNMKJ*>**)UnitySDK::FromName("", "JFOEKIFGPCP")->GetStaticField(0x5FD18);
+		}
+
 		// static const ::System::Object KMKNBNADCAL; // 0x0
+		// static const ::System::Object PLDKENJLKME; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JFOEKIFGPCP_CTOR_OFFSET))(this);
@@ -81,6 +81,11 @@ inline static constexpr unsigned int JFOEKIFGPCP_TypeDefinitionIndex = 30170;
 			return ((::JFOEKIFGPCP*(*)(::PVOID))((::PBYTE)hIl2Cpp + JFOEKIFGPCP_CLONE_OFFSET))(this);
 		}
 
+		::Google::Protobuf::Collections::RepeatedField_1<::BKGPJOBNMKJ*>* JIPCMKANCHC()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::BKGPJOBNMKJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JFOEKIFGPCP_JIPCMKANCHC_OFFSET))(this);
+		}
+
 		::System::UInt32 OAPIGKOIMJL()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JFOEKIFGPCP_OAPIGKOIMJL_OFFSET))(this);
@@ -89,11 +94,6 @@ inline static constexpr unsigned int JFOEKIFGPCP_TypeDefinitionIndex = 30170;
 		::System::Void FAEKBILGPCO(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JFOEKIFGPCP_FAEKBILGPCO_OFFSET))(this, a1);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::BKGPJOBNMKJ*>* JIPCMKANCHC()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::BKGPJOBNMKJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JFOEKIFGPCP_JIPCMKANCHC_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

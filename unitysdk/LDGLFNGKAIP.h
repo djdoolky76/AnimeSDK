@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class LDGLFNGKAIP;
 
-#define LDGLFNGKAIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B3100)
-#define LDGLFNGKAIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0B2FE0)
+#define LDGLFNGKAIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E94B970)
+#define LDGLFNGKAIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E94B850)
 
-inline static constexpr unsigned int LDGLFNGKAIP_TypeDefinitionIndex = 14776;
+inline static constexpr unsigned int LDGLFNGKAIP_TypeDefinitionIndex = 14932;
 
 	class LDGLFNGKAIP : public ::System::Object
 	{
 	public:
-		::System::UInt32 OIHFPOJCODL; // 0x10
-		::System::UInt32 MJIEECGNEFO; // 0x14
+		::System::UInt32 MJIEECGNEFO; // 0x10
+		::System::UInt32 OIHFPOJCODL; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDGLFNGKAIP_CTOR_OFFSET))(this);

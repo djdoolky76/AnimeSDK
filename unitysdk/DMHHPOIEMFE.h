@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DMHHPOIEMFE_TypeDefinitionIndex = 29117;
+inline static constexpr unsigned int DMHHPOIEMFE_TypeDefinitionIndex = 29710;
 
 	enum class DMHHPOIEMFE : ::System::Int32
 	{

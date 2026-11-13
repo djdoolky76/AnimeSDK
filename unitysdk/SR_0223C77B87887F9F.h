@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SR_0223C77B87887F9F_FORMAT_OFFSET UNITYSDK_OFFSET(0x1EE3BC90)
+#define SR_0223C77B87887F9F_FORMAT_OFFSET UNITYSDK_OFFSET(0x1FC03C80)
 
 inline static constexpr unsigned int SR_0223C77B87887F9F_TypeDefinitionIndex = 3834;
 

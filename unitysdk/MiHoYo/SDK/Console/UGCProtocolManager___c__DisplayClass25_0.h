@@ -5,18 +5,18 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console { class UGCProtocolManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE025B0)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS25_0__REQUESTAGREEMENTAPPROVE_B__0_OFFSET UNITYSDK_OFFSET(0x1BE02EE0)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD53120)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS25_0__REQUESTAGREEMENTAPPROVE_B__0_OFFSET UNITYSDK_OFFSET(0x1DD53A50)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int UGCProtocolManager___c__DisplayClass25_0_TypeDefinitionIndex = 8960;
+	inline static constexpr unsigned int UGCProtocolManager___c__DisplayClass25_0_TypeDefinitionIndex = 8969;
 
 	class UGCProtocolManager___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::String* url; // 0x10
-		::MiHoYo::SDK::Console::UGCProtocolManager* __4__this; // 0x18
+		::MiHoYo::SDK::Console::UGCProtocolManager* __4__this; // 0x10
+		::System::String* url; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS25_0_CTOR_OFFSET))(this);

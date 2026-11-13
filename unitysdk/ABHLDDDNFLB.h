@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ABHLDDDNFLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C849A00)
+#define ABHLDDDNFLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84DC90)
 
-inline static constexpr unsigned int ABHLDDDNFLB_TypeDefinitionIndex = 42995;
+inline static constexpr unsigned int ABHLDDDNFLB_TypeDefinitionIndex = 43976;
 
 	class ABHLDDDNFLB : public ::System::Object
 	{

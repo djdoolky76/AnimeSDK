@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OEDHBDOLNNI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D22DFE0)
-#define OEDHBDOLNNI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D22E5B0)
-#define OEDHBDOLNNI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D22E150)
-#define OEDHBDOLNNI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D22DA50)
-#define OEDHBDOLNNI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D22DCE0)
-#define OEDHBDOLNNI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D22E1F0)
-#define OEDHBDOLNNI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D22E240)
-#define OEDHBDOLNNI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D22E020)
-#define OEDHBDOLNNI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D22DC80)
-#define OEDHBDOLNNI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D22DE50)
-#define OEDHBDOLNNI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D22E0B0)
-#define OEDHBDOLNNI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D22D9D0)
+#define OEDHBDOLNNI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E6079F0)
+#define OEDHBDOLNNI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E607FC0)
+#define OEDHBDOLNNI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E607B60)
+#define OEDHBDOLNNI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E607460)
+#define OEDHBDOLNNI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E6076F0)
+#define OEDHBDOLNNI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E607C00)
+#define OEDHBDOLNNI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E607C50)
+#define OEDHBDOLNNI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E607A30)
+#define OEDHBDOLNNI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E607690)
+#define OEDHBDOLNNI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E607860)
+#define OEDHBDOLNNI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E607AC0)
+#define OEDHBDOLNNI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E6073E0)
 
-inline static constexpr unsigned int OEDHBDOLNNI_TypeDefinitionIndex = 14110;
+inline static constexpr unsigned int OEDHBDOLNNI_TypeDefinitionIndex = 14267;
 
 	class OEDHBDOLNNI : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingGameBoyRankingsNPCRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingGameBoyRankingsNPCRow*>**)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x44B00);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x56020);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x44B08);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x56028);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingGameBoyRankingsNPCRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x44B10);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingGameBoyRankingsNPCRow*>**)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x56030);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x10390);
+			return (::System::Byte*)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x12590);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x10391);
+			return (::System::Boolean*)UnitySDK::FromName("", "OEDHBDOLNNI")->GetStaticField(0x12591);
 		}
 
 		static ::System::Void _cctor()

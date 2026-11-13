@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class ChimeraEntranceRoundConfig; }
 
-#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6C430)
+#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E2150)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraEntranceRoundParam_TypeDefinitionIndex = 78484;
+	inline static constexpr unsigned int ChimeraEntranceRoundParam_TypeDefinitionIndex = 81219;
 
 	class ChimeraEntranceRoundParam : public ::System::Object
 	{

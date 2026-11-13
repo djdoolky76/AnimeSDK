@@ -4,10 +4,10 @@
 class DIELGJIPJDM;
 namespace System { class String; }
 
-#define DIELGJIPJDM___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBECE80)
-#define DIELGJIPJDM___C__DISPLAYCLASS21_0__SETNODEDYNAMICKEY_B__0_OFFSET UNITYSDK_OFFSET(0xEBEF2D0)
+#define DIELGJIPJDM___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18EB4E20)
+#define DIELGJIPJDM___C__DISPLAYCLASS21_0__SETNODEDYNAMICKEY_B__0_OFFSET UNITYSDK_OFFSET(0x18EB7270)
 
-inline static constexpr unsigned int DIELGJIPJDM___c__DisplayClass21_0_TypeDefinitionIndex = 71786;
+inline static constexpr unsigned int DIELGJIPJDM___c__DisplayClass21_0_TypeDefinitionIndex = 73805;
 
 	class DIELGJIPJDM___c__DisplayClass21_0 : public ::System::Object
 	{

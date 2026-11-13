@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::FateRin::View::Battle { class FateRinBattleHudHandCardLayout; }
 
-#define LJLHLALFIAD___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7189F0)
-#define LJLHLALFIAD___C__DISPLAYCLASS6_0__CREATEREFLOWCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB719E30)
+#define LJLHLALFIAD___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18CC10C0)
+#define LJLHLALFIAD___C__DISPLAYCLASS6_0__CREATEREFLOWCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x18CC2500)
 
-inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass6_0_TypeDefinitionIndex = 80845;
+inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass6_0_TypeDefinitionIndex = 83625;
 
 	class LJLHLALFIAD___c__DisplayClass6_0 : public ::System::Object
 	{

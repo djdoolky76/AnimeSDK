@@ -8,27 +8,27 @@ namespace RPG::Client { class MonsterData; }
 namespace RPG::Client { class StarFightRedDotFilter; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xC531010)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_CREATEFRIENDRECOMMENDATION_OFFSET UNITYSDK_OFFSET(0xC5309D0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_CREATESTATISTICSRECOMMENDATION_OFFSET UNITYSDK_OFFSET(0xC530980)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_GETMONSTERDATALIST_OFFSET UNITYSDK_OFFSET(0xC530A20)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_GET_NATIVEFILTER_OFFSET UNITYSDK_OFFSET(0xC530E80)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7E20F0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_CREATEFRIENDRECOMMENDATION_OFFSET UNITYSDK_OFFSET(0x1C7E1AC0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_CREATESTATISTICSRECOMMENDATION_OFFSET UNITYSDK_OFFSET(0x1C7E1A70)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_GETMONSTERDATALIST_OFFSET UNITYSDK_OFFSET(0x1C7E1B10)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS_GET_NATIVEFILTER_OFFSET UNITYSDK_OFFSET(0x1C7E1F60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendUtils_TypeDefinitionIndex = 61571;
+	inline static constexpr unsigned int ActivityLocalLegendUtils_TypeDefinitionIndex = 62968;
 
 	class ActivityLocalLegendUtils : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::StarFightRedDotFilter** StaticGet__NativeFilter()
 		{
-			return (::RPG::Client::StarFightRedDotFilter**)UnitySDK::FromName("RPG.Client", "ActivityLocalLegendUtils")->GetStaticField(0x2C610);
+			return (::RPG::Client::StarFightRedDotFilter**)UnitySDK::FromName("RPG.Client", "ActivityLocalLegendUtils")->GetStaticField(0x2D310);
 		}
 
 		static ::System::UInt32* StaticGet_REWARD_ID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "ActivityLocalLegendUtils")->GetStaticField(0x9530);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "ActivityLocalLegendUtils")->GetStaticField(0x9090);
 		}
 
 		static ::System::Void _cctor()

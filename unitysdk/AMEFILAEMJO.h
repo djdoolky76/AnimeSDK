@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class MFBOKDKKHBJ;
 
-#define AMEFILAEMJO_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x15570930)
+#define AMEFILAEMJO_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x197D67D0)
 
-inline static constexpr unsigned int AMEFILAEMJO_TypeDefinitionIndex = 74565;
+inline static constexpr unsigned int AMEFILAEMJO_TypeDefinitionIndex = 76713;
 
 	class AMEFILAEMJO : public ::System::Object
 	{

@@ -11,12 +11,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NHKPFIMPGPP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBCDCD0)
-#define NHKPFIMPGPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBCDDE0)
-#define NHKPFIMPGPP_DPCKLFEKBNC_OFFSET UNITYSDK_OFFSET(0xBBCDC90)
-#define NHKPFIMPGPP_JLODINLPCCO_OFFSET UNITYSDK_OFFSET(0xBBCE4E0)
+#define NHKPFIMPGPP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x148A8520)
+#define NHKPFIMPGPP_CTOR_OFFSET UNITYSDK_OFFSET(0x148A8630)
+#define NHKPFIMPGPP_DPCKLFEKBNC_OFFSET UNITYSDK_OFFSET(0x148A84E0)
+#define NHKPFIMPGPP_JLODINLPCCO_OFFSET UNITYSDK_OFFSET(0x148A8D30)
 
-inline static constexpr unsigned int NHKPFIMPGPP_TypeDefinitionIndex = 75394;
+inline static constexpr unsigned int NHKPFIMPGPP_TypeDefinitionIndex = 77721;
 
 	class NHKPFIMPGPP : public ::System::Object
 	{

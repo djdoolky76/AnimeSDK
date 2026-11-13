@@ -9,25 +9,25 @@ class IBCIBKEIBOE;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EGKACBIBCML_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x14519050)
-#define EGKACBIBCML_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x14518D50)
-#define EGKACBIBCML_CCTOR_OFFSET UNITYSDK_OFFSET(0x14519720)
-#define EGKACBIBCML_EFJPJNJDFJM_OFFSET UNITYSDK_OFFSET(0x145191B0)
-#define EGKACBIBCML_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x14519490)
+#define EGKACBIBCML_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x17C14630)
+#define EGKACBIBCML_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x17C14330)
+#define EGKACBIBCML_CCTOR_OFFSET UNITYSDK_OFFSET(0x17C14CF0)
+#define EGKACBIBCML_EFJPJNJDFJM_OFFSET UNITYSDK_OFFSET(0x17C14790)
+#define EGKACBIBCML_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x17C14A70)
 
-inline static constexpr unsigned int EGKACBIBCML_TypeDefinitionIndex = 70173;
+inline static constexpr unsigned int EGKACBIBCML_TypeDefinitionIndex = 72139;
 
 	class EGKACBIBCML : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::IBCIBKEIBOE*>** StaticGet_ADICELELNNA()
-		{
-			return (::System::Collections::Generic::List_1<::IBCIBKEIBOE*>**)UnitySDK::FromName("", "EGKACBIBCML")->GetStaticField(0x2E00);
-		}
-
 		static ::System::Collections::Generic::List_1<::IBCIBKEIBOE*>** StaticGet_HCNAHGKCCKG()
 		{
-			return (::System::Collections::Generic::List_1<::IBCIBKEIBOE*>**)UnitySDK::FromName("", "EGKACBIBCML")->GetStaticField(0x2E08);
+			return (::System::Collections::Generic::List_1<::IBCIBKEIBOE*>**)UnitySDK::FromName("", "EGKACBIBCML")->GetStaticField(0x73300);
+		}
+
+		static ::System::Collections::Generic::List_1<::IBCIBKEIBOE*>** StaticGet_ADICELELNNA()
+		{
+			return (::System::Collections::Generic::List_1<::IBCIBKEIBOE*>**)UnitySDK::FromName("", "EGKACBIBCML")->GetStaticField(0x73308);
 		}
 
 		static ::System::Void _cctor()

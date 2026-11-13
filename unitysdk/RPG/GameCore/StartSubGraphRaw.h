@@ -6,13 +6,13 @@ namespace RPG::GameCore { class StartSubGraphRaw; }
 namespace RPG::GameCore { class SubLevelGraphDynamicOverrideSet; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTSUBGRAPHRAW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF0A30)
-#define RPG_GAMECORE_STARTSUBGRAPHRAW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF0A40)
-#define RPG_GAMECORE_STARTSUBGRAPHRAW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF0A00)
+#define RPG_GAMECORE_STARTSUBGRAPHRAW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C3970)
+#define RPG_GAMECORE_STARTSUBGRAPHRAW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3C3980)
+#define RPG_GAMECORE_STARTSUBGRAPHRAW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C3940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartSubGraphRaw_TypeDefinitionIndex = 20719;
+	inline static constexpr unsigned int StartSubGraphRaw_TypeDefinitionIndex = 21056;
 
 	class StartSubGraphRaw : public ::RPG::GameCore::TaskConfig
 	{

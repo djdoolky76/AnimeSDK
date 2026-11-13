@@ -9,27 +9,27 @@ namespace Entitas { class ITearDownSystem; }
 namespace Entitas { class Systems; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENTITAS_SYSTEMS_ACTIVATEREACTIVESYSTEMS_OFFSET UNITYSDK_OFFSET(0x1674E9D0)
-#define ENTITAS_SYSTEMS_ADD_OFFSET UNITYSDK_OFFSET(0x1674E0D0)
-#define ENTITAS_SYSTEMS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1674E690)
-#define ENTITAS_SYSTEMS_CLEARREACTIVESYSTEMS_OFFSET UNITYSDK_OFFSET(0x1674EDD0)
-#define ENTITAS_SYSTEMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1674E030)
-#define ENTITAS_SYSTEMS_DEACTIVATEREACTIVESYSTEMS_OFFSET UNITYSDK_OFFSET(0x1674EBD0)
-#define ENTITAS_SYSTEMS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1674E4F0)
-#define ENTITAS_SYSTEMS_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1674E350)
-#define ENTITAS_SYSTEMS_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1674E830)
+#define ENTITAS_SYSTEMS_ACTIVATEREACTIVESYSTEMS_OFFSET UNITYSDK_OFFSET(0x20855C60)
+#define ENTITAS_SYSTEMS_ADD_OFFSET UNITYSDK_OFFSET(0x20855360)
+#define ENTITAS_SYSTEMS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x20855920)
+#define ENTITAS_SYSTEMS_CLEARREACTIVESYSTEMS_OFFSET UNITYSDK_OFFSET(0x20856060)
+#define ENTITAS_SYSTEMS_CTOR_OFFSET UNITYSDK_OFFSET(0x208552C0)
+#define ENTITAS_SYSTEMS_DEACTIVATEREACTIVESYSTEMS_OFFSET UNITYSDK_OFFSET(0x20855E60)
+#define ENTITAS_SYSTEMS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x20855780)
+#define ENTITAS_SYSTEMS_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x208555E0)
+#define ENTITAS_SYSTEMS_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x20855AC0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int Systems_TypeDefinitionIndex = 10055;
+	inline static constexpr unsigned int Systems_TypeDefinitionIndex = 10063;
 
 	class Systems : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::Entitas::IInitializeSystem*>* _initializeSystems; // 0x10
-		::System::Collections::Generic::List_1<::Entitas::IExecuteSystem*>* _executeSystems; // 0x18
-		::System::Collections::Generic::List_1<::Entitas::ITearDownSystem*>* _tearDownSystems; // 0x20
-		::System::Collections::Generic::List_1<::Entitas::ICleanupSystem*>* _cleanupSystems; // 0x28
+		::System::Collections::Generic::List_1<::Entitas::ITearDownSystem*>* _tearDownSystems; // 0x18
+		::System::Collections::Generic::List_1<::Entitas::ICleanupSystem*>* _cleanupSystems; // 0x20
+		::System::Collections::Generic::List_1<::Entitas::IExecuteSystem*>* _executeSystems; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_SYSTEMS_CTOR_OFFSET))(this);

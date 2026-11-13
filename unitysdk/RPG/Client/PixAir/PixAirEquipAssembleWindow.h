@@ -8,24 +8,24 @@ namespace RPG::Client::PixAir { class PixAirEquipAssembleViewModel; }
 namespace RPG::Client::PixAir { class PixAirGameEquipListControl; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xDB308C0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB30CF0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB30C60)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0xDB30DA0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB309B0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E354250)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1E354680)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1E3545F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0x1E354730)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1E354340)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipAssembleWindow_TypeDefinitionIndex = 79227;
+	inline static constexpr unsigned int PixAirEquipAssembleWindow_TypeDefinitionIndex = 82004;
 
 	class PixAirEquipAssembleWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
 		::OBJANKHLNGO* _Messenger; // 0x48
-		::RPG::Client::UIDraggableManager* _DraggableManager; // 0x50
-		::RPG::Client::PixAir::PixAirGameEquipListControl* _BattleEquipListControl; // 0x58
+		::UnityEngine::UI::Button* _BtnSwitch; // 0x50
+		::RPG::Client::UIDraggableManager* _DraggableManager; // 0x58
 		::UnityEngine::UI::Button* _BtnClose; // 0x60
-		::UnityEngine::UI::Button* _BtnSwitch; // 0x68
+		::RPG::Client::PixAir::PixAirGameEquipListControl* _BattleEquipListControl; // 0x68
 		::RPG::Client::PixAir::PixAirBagSlotListControl* _BagSlotListControl; // 0x70
 		::System::Void _ctor(::RPG::Client::PixAir::PixAirEquipAssembleViewModel* a1, ::OBJANKHLNGO* a2)
 		{

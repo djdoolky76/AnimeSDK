@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/MarbleBattleSpecialKillType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MARBLEBATTLESHOWSPECIALKILLNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0xD569F40)
+#define RPG_CLIENT_MARBLEBATTLESHOWSPECIALKILLNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E09B480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleShowSpecialKillNotify_TypeDefinitionIndex = 65827;
+	inline static constexpr unsigned int MarbleBattleShowSpecialKillNotify_TypeDefinitionIndex = 67759;
 
 	class MarbleBattleShowSpecialKillNotify : public ::System::Object
 	{

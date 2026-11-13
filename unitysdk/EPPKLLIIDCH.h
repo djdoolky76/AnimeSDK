@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPPKLLIIDCH_CTOR_OFFSET UNITYSDK_OFFSET(0x155CF080)
-#define EPPKLLIIDCH_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x155CF090)
+#define EPPKLLIIDCH_CTOR_OFFSET UNITYSDK_OFFSET(0x16B3E320)
+#define EPPKLLIIDCH_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x16B3E330)
 
-inline static constexpr unsigned int EPPKLLIIDCH_TypeDefinitionIndex = 79199;
+inline static constexpr unsigned int EPPKLLIIDCH_TypeDefinitionIndex = 81976;
 
 	class EPPKLLIIDCH : public ::System::Object
 	{

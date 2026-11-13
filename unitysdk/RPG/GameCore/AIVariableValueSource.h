@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AIVariable; }
 namespace RPG::GameCore { class AIVariableValueSource; }
 
-#define RPG_GAMECORE_AIVARIABLEVALUESOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D310F80)
-#define RPG_GAMECORE_AIVARIABLEVALUESOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D310EC0)
+#define RPG_GAMECORE_AIVARIABLEVALUESOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4EEE40)
+#define RPG_GAMECORE_AIVARIABLEVALUESOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4EED80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIVariableValueSource_TypeDefinitionIndex = 15612;
+	inline static constexpr unsigned int AIVariableValueSource_TypeDefinitionIndex = 15770;
 
 	class AIVariableValueSource : public ::RPG::GameCore::JsonConfig
 	{

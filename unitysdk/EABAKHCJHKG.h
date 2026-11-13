@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define EABAKHCJHKG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD0AAD0)
-#define EABAKHCJHKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD0AA80)
-#define EABAKHCJHKG_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1DD0AAE0)
+#define EABAKHCJHKG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x179AE6E0)
+#define EABAKHCJHKG_CTOR_OFFSET UNITYSDK_OFFSET(0x179AE690)
+#define EABAKHCJHKG_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x179AE6F0)
 
-inline static constexpr unsigned int EABAKHCJHKG_TypeDefinitionIndex = 6315;
+inline static constexpr unsigned int EABAKHCJHKG_TypeDefinitionIndex = 6322;
 
 	class EABAKHCJHKG : public ::System::Attribute
 	{

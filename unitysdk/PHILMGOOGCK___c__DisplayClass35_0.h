@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PHILMGOOGCK;
 
-#define PHILMGOOGCK___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC246100)
-#define PHILMGOOGCK___C__DISPLAYCLASS35_0__SETPREADD_B__0_OFFSET UNITYSDK_OFFSET(0xC2477E0)
+#define PHILMGOOGCK___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9AF840)
+#define PHILMGOOGCK___C__DISPLAYCLASS35_0__SETPREADD_B__0_OFFSET UNITYSDK_OFFSET(0x1A9B0F50)
 
-inline static constexpr unsigned int PHILMGOOGCK___c__DisplayClass35_0_TypeDefinitionIndex = 72096;
+inline static constexpr unsigned int PHILMGOOGCK___c__DisplayClass35_0_TypeDefinitionIndex = 74131;
 
 	class PHILMGOOGCK___c__DisplayClass35_0 : public ::System::Object
 	{

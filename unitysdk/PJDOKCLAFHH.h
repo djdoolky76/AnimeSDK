@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetMonsterStanceBarStyle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PJDOKCLAFHH_CTOR_OFFSET UNITYSDK_OFFSET(0xC27BC10)
-#define PJDOKCLAFHH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC27BC20)
-#define PJDOKCLAFHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC27BC60)
-#define PJDOKCLAFHH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC27C060)
-#define PJDOKCLAFHH_TICK_OFFSET UNITYSDK_OFFSET(0xC27C0B0)
+#define PJDOKCLAFHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9E7DC0)
+#define PJDOKCLAFHH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A9E7DD0)
+#define PJDOKCLAFHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9E7E10)
+#define PJDOKCLAFHH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A9E8210)
+#define PJDOKCLAFHH_TICK_OFFSET UNITYSDK_OFFSET(0x1A9E8260)
 
-inline static constexpr unsigned int PJDOKCLAFHH_TypeDefinitionIndex = 56415;
+inline static constexpr unsigned int PJDOKCLAFHH_TypeDefinitionIndex = 57633;
 
 	class PJDOKCLAFHH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetMonsterStanceBarStyle* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetMonsterStanceBarStyle* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetMonsterStanceBarStyle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetMonsterStanceBarStyle*))((::PBYTE)hIl2Cpp + PJDOKCLAFHH_CTOR_OFFSET))(this, a1, a2);

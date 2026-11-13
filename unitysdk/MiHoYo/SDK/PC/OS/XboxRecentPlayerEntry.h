@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXRECENTPLAYERENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF17960)
+#define MIHOYO_SDK_PC_OS_XBOXRECENTPLAYERENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF94000)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxRecentPlayerEntry_TypeDefinitionIndex = 8688;
+	inline static constexpr unsigned int XboxRecentPlayerEntry_TypeDefinitionIndex = 8697;
 
 	class XboxRecentPlayerEntry : public ::System::Object
 	{

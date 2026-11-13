@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetImmediateAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PGDHMFBMKNK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2155F0)
-#define PGDHMFBMKNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC215620)
+#define PGDHMFBMKNK_CTOR_OFFSET UNITYSDK_OFFSET(0x16D8B230)
+#define PGDHMFBMKNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D8B260)
 
-inline static constexpr unsigned int PGDHMFBMKNK_TypeDefinitionIndex = 55521;
+inline static constexpr unsigned int PGDHMFBMKNK_TypeDefinitionIndex = 56713;
 
 	class PGDHMFBMKNK
 	{

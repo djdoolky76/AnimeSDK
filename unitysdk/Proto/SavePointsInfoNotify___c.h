@@ -4,20 +4,20 @@
 namespace Proto { class SavePointsInfoNotify; }
 namespace System { class Object; }
 
-#define PROTO_SAVEPOINTSINFONOTIFY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE3430)
-#define PROTO_SAVEPOINTSINFONOTIFY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE3470)
-#define PROTO_SAVEPOINTSINFONOTIFY___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFE3480)
+#define PROTO_SAVEPOINTSINFONOTIFY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2021BF40)
+#define PROTO_SAVEPOINTSINFONOTIFY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2021BF80)
+#define PROTO_SAVEPOINTSINFONOTIFY___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2021BF90)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SavePointsInfoNotify___c_TypeDefinitionIndex = 34028;
+	inline static constexpr unsigned int SavePointsInfoNotify___c_TypeDefinitionIndex = 34943;
 
 	class SavePointsInfoNotify___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4EA50);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x54200);
 		}
 
 		static ::System::Void _cctor()

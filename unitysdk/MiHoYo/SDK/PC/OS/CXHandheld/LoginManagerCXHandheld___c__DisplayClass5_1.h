@@ -4,19 +4,19 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED6D40)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1__ONHANDHELDLOGINCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1BED7E80)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0CF7A0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1__ONHANDHELDLOGINCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1B0D08E0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass5_1_TypeDefinitionIndex = 8761;
+	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass5_1_TypeDefinitionIndex = 8770;
 
 	template <typename T>
 	class LoginManagerCXHandheld___c__DisplayClass5_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
-		::MiHoYo::SDK::AccountModel* userModel; // 0x18
+		::MiHoYo::SDK::AccountModel* userModel; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1_CTOR_OFFSET))(this);

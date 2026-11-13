@@ -7,24 +7,24 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
-#define EEGFDJCDDAA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2DB30)
-#define EEGFDJCDDAA_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x13A2D5D0)
-#define EEGFDJCDDAA_ENJOBBFNEFE_OFFSET UNITYSDK_OFFSET(0x13A2D930)
-#define EEGFDJCDDAA_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x13A2DA50)
-#define EEGFDJCDDAA_NENHDNAJMPM_OFFSET UNITYSDK_OFFSET(0x13A2DAE0)
-#define EEGFDJCDDAA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x13A2D6D0)
-#define EEGFDJCDDAA__ONBIND_OFFSET UNITYSDK_OFFSET(0x13A2D510)
+#define EEGFDJCDDAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3155A0)
+#define EEGFDJCDDAA_ENJOBBFNEFE_OFFSET UNITYSDK_OFFSET(0x1A315390)
+#define EEGFDJCDDAA_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1A3154C0)
+#define EEGFDJCDDAA_NENHDNAJMPM_OFFSET UNITYSDK_OFFSET(0x1A315550)
+#define EEGFDJCDDAA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1A315110)
+#define EEGFDJCDDAA__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A314DD0)
+#define EEGFDJCDDAA__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1A315010)
 
-inline static constexpr unsigned int EEGFDJCDDAA_TypeDefinitionIndex = 72158;
+inline static constexpr unsigned int EEGFDJCDDAA_TypeDefinitionIndex = 74222;
 
 	class EEGFDJCDDAA : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x60
+		::UnityEngine::Animation* KCOAILOHDND; // 0x60
 		::RPG::Client::RPGAnimationEvent* MEDGLNFKGDC; // 0x68
-		::BANDDFEHONE* EEHODNKAAMH; // 0x70
+		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x70
 		::UnityEngine::UI::Image* OJKPNKKJADJ; // 0x78
-		::UnityEngine::Animation* KCOAILOHDND; // 0x80
+		::BANDDFEHONE* EEHODNKAAMH; // 0x80
 		// static const ::System::String* KKNLLHMIHEA; // 0x0
 		::System::Void _ctor()
 		{
@@ -36,9 +36,9 @@ inline static constexpr unsigned int EEGFDJCDDAA_TypeDefinitionIndex = 72158;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEGFDJCDDAA__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEGFDJCDDAA_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEGFDJCDDAA__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void NKPPGDENJAE(::BANDDFEHONE* a1)

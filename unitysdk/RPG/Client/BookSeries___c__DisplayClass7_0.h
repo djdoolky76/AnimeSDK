@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class Book; }
 
-#define RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A7FD0)
-#define RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__GETBOOKBYINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xC8A8850)
+#define RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C576AC0)
+#define RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__GETBOOKBYINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1C577340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookSeries___c__DisplayClass7_0_TypeDefinitionIndex = 66380;
+	inline static constexpr unsigned int BookSeries___c__DisplayClass7_0_TypeDefinitionIndex = 68316;
 
 	class BookSeries___c__DisplayClass7_0 : public ::System::Object
 	{

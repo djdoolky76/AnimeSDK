@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCEC3BB0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCEC3BF0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C___REFRESHLINKEINFO_B__13_0_OFFSET UNITYSDK_OFFSET(0xCEC3C00)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C___REFRESHLINKEINFO_B__13_1_OFFSET UNITYSDK_OFFSET(0xCEC3C20)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCE9FB0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCE9FF0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C___REFRESHLINKEINFO_B__13_0_OFFSET UNITYSDK_OFFSET(0x1DCEA000)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C___REFRESHLINKEINFO_B__13_1_OFFSET UNITYSDK_OFFSET(0x1DCEA020)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex = 80909;
+	inline static constexpr unsigned int FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex = 83689;
 
 	class FateRinBattleHudEnemyStatusDetailViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__13_1()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.Battle", "<>c")->GetStaticField(0x52CE0);
-		}
-
-		static ::System::Func_2<::ECNEEKNHIOE*, ::System::String*>** StaticGet___9__13_0()
-		{
-			return (::System::Func_2<::ECNEEKNHIOE*, ::System::String*>**)UnitySDK::FromName("RPG.Client.FateRin.Battle", "<>c")->GetStaticField(0x52CE8);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.Battle", "<>c")->GetStaticField(0x5BBA0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Battle", "<>c")->GetStaticField(0x52CF0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Battle", "<>c")->GetStaticField(0x5BBA8);
+		}
+
+		static ::System::Func_2<::ECNEEKNHIOE*, ::System::String*>** StaticGet___9__13_0()
+		{
+			return (::System::Func_2<::ECNEEKNHIOE*, ::System::String*>**)UnitySDK::FromName("RPG.Client.FateRin.Battle", "<>c")->GetStaticField(0x5BBB0);
 		}
 
 		static ::System::Void _cctor()

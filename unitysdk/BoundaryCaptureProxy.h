@@ -3,9 +3,9 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define BOUNDARYCAPTUREPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B5D20)
+#define BOUNDARYCAPTUREPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x1B614A60)
 
-inline static constexpr unsigned int BoundaryCaptureProxy_TypeDefinitionIndex = 47483;
+inline static constexpr unsigned int BoundaryCaptureProxy_TypeDefinitionIndex = 48512;
 
 	class BoundaryCaptureProxy
 	{

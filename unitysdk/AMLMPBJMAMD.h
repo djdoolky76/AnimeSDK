@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CloseRubbingUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMLMPBJMAMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15579950)
-#define AMLMPBJMAMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15579980)
+#define AMLMPBJMAMD_CTOR_OFFSET UNITYSDK_OFFSET(0x197DF820)
+#define AMLMPBJMAMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197DF850)
 
-inline static constexpr unsigned int AMLMPBJMAMD_TypeDefinitionIndex = 52698;
+inline static constexpr unsigned int AMLMPBJMAMD_TypeDefinitionIndex = 53805;
 
 	class AMLMPBJMAMD
 	{

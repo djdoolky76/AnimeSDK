@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitEntityMusicCue; }
 
-#define RPG_GAMECORE_WAITENTITYMUSICCUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC69A30)
-#define RPG_GAMECORE_WAITENTITYMUSICCUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC69A40)
-#define RPG_GAMECORE_WAITENTITYMUSICCUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC699F0)
+#define RPG_GAMECORE_WAITENTITYMUSICCUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED54F90)
+#define RPG_GAMECORE_WAITENTITYMUSICCUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED54FA0)
+#define RPG_GAMECORE_WAITENTITYMUSICCUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED54F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitEntityMusicCue_TypeDefinitionIndex = 20619;
+	inline static constexpr unsigned int WaitEntityMusicCue_TypeDefinitionIndex = 20956;
 
 	class WaitEntityMusicCue : public ::RPG::GameCore::TaskConfig
 	{

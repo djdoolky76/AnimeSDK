@@ -5,12 +5,12 @@
 #include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
 namespace System::IO { class Stream; }
 
-#define MESSAGEPACK_STREAMPOLYFILLEXTENSIONS_READ_OFFSET UNITYSDK_OFFSET(0x1BBB74D0)
-#define MESSAGEPACK_STREAMPOLYFILLEXTENSIONS_WRITE_OFFSET UNITYSDK_OFFSET(0x1BBB7880)
+#define MESSAGEPACK_STREAMPOLYFILLEXTENSIONS_READ_OFFSET UNITYSDK_OFFSET(0x1EF6C420)
+#define MESSAGEPACK_STREAMPOLYFILLEXTENSIONS_WRITE_OFFSET UNITYSDK_OFFSET(0x1EF6C7D0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int StreamPolyfillExtensions_TypeDefinitionIndex = 7245;
+	inline static constexpr unsigned int StreamPolyfillExtensions_TypeDefinitionIndex = 7256;
 
 	class StreamPolyfillExtensions : public ::System::Object
 	{

@@ -7,13 +7,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CreateCharacter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B5320)
-#define RPG_GAMECORE_CREATECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B5340)
-#define RPG_GAMECORE_CREATECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B52E0)
+#define RPG_GAMECORE_CREATECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEEAA0)
+#define RPG_GAMECORE_CREATECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EFEEAC0)
+#define RPG_GAMECORE_CREATECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFEEA60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 20819;
+	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 21156;
 
 	class CreateCharacter : public ::RPG::GameCore::TaskConfig
 	{

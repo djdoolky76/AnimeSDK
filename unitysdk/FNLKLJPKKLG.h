@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetFloorDefaultEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNLKLJPKKLG_CTOR_OFFSET UNITYSDK_OFFSET(0x15873090)
-#define FNLKLJPKKLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158730C0)
+#define FNLKLJPKKLG_CTOR_OFFSET UNITYSDK_OFFSET(0x17F26C30)
+#define FNLKLJPKKLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F26C60)
 
-inline static constexpr unsigned int FNLKLJPKKLG_TypeDefinitionIndex = 58395;
+inline static constexpr unsigned int FNLKLJPKKLG_TypeDefinitionIndex = 59651;
 
 	class FNLKLJPKKLG
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HighlightEntityActionBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBCMDOLIGEO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFDB6B0)
-#define PBCMDOLIGEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFDB6E0)
+#define PBCMDOLIGEO_CTOR_OFFSET UNITYSDK_OFFSET(0x18AF3640)
+#define PBCMDOLIGEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AF3670)
 
-inline static constexpr unsigned int PBCMDOLIGEO_TypeDefinitionIndex = 55101;
+inline static constexpr unsigned int PBCMDOLIGEO_TypeDefinitionIndex = 56278;
 
 	class PBCMDOLIGEO
 	{

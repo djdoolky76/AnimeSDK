@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKDIRECTPURCHASEJUMPCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xCBA6290)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKDIRECTPURCHASEJUMPCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCBA62A0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKDIRECTPURCHASEJUMPCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C988AE0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKDIRECTPURCHASEJUMPCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C988AF0)
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int FtcDropLinkDirectPurchaseJumpCommand_TypeDefinitionIndex = 74815;
+	inline static constexpr unsigned int FtcDropLinkDirectPurchaseJumpCommand_TypeDefinitionIndex = 76985;
 
 	class FtcDropLinkDirectPurchaseJumpCommand : public ::System::Object
 	{

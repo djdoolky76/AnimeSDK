@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/GridFightShowFullScreenCutInType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 class FCOEMCEDLNL;
@@ -7,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class GridFightShowFullScreenCutIn; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D714570)
-#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D714580)
-#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D714540)
+#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA616B0)
+#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA616C0)
+#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA61680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShowFullScreenCutIn_TypeDefinitionIndex = 23234;
+	inline static constexpr unsigned int GridFightShowFullScreenCutIn_TypeDefinitionIndex = 23670;
 
 	class GridFightShowFullScreenCutIn : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,7 +23,9 @@ namespace RPG::GameCore
 		::System::Byte _padding0[0x4];
 		::System::String* TraitKey; // 0x20
 		::RPG::GameCore::DynamicFloat* TraitLv; // 0x28
-		::System::String* OverrideImagePath; // 0x30
+		::RPG::GameCore::DynamicFloat* OverrideDelayFadeOutTime; // 0x30
+		::System::String* OverrideImagePath; // 0x38
+		::RPG::Client::TextID OverrideTitle; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTIN_CTOR_OFFSET))(this);

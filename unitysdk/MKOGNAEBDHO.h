@@ -6,11 +6,11 @@ class ICKCNNLHLNF;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MKOGNAEBDHO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB99B4E0)
-#define MKOGNAEBDHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB99B830)
-#define MKOGNAEBDHO_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB99BE30)
+#define MKOGNAEBDHO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1B910170)
+#define MKOGNAEBDHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9104C0)
+#define MKOGNAEBDHO_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x1B910AC0)
 
-inline static constexpr unsigned int MKOGNAEBDHO_TypeDefinitionIndex = 68220;
+inline static constexpr unsigned int MKOGNAEBDHO_TypeDefinitionIndex = 70166;
 
 	class MKOGNAEBDHO : public ::System::Object
 	{

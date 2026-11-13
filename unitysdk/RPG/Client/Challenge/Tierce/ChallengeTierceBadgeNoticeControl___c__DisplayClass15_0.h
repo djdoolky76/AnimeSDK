@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class KELDADFDNPO;
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBADGENOTICECONTROL___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC93B570)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBADGENOTICECONTROL___C__DISPLAYCLASS15_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xC93B590)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBADGENOTICECONTROL___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD8AE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBADGENOTICECONTROL___C__DISPLAYCLASS15_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x1DDD8B00)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceBadgeNoticeControl___c__DisplayClass15_0_TypeDefinitionIndex = 81518;
+	inline static constexpr unsigned int ChallengeTierceBadgeNoticeControl___c__DisplayClass15_0_TypeDefinitionIndex = 84299;
 
 	class ChallengeTierceBadgeNoticeControl___c__DisplayClass15_0 : public ::System::Object
 	{

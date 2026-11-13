@@ -12,12 +12,12 @@ namespace System::Diagnostics::Tracing { class EventSource; }
 namespace System::Diagnostics::Tracing { class EventSourceCreatedEventArgs; }
 namespace System::Diagnostics::Tracing { class EventWrittenEventArgs; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ADDEVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x1C1ACFD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1ADD90)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_DISPOSEONSHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1C1AD9F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_GET_EVENTLISTENERSLOCK_OFFSET UNITYSDK_OFFSET(0x1C1AD6E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTSOURCECREATED_OFFSET UNITYSDK_OFFSET(0x1C1ACEF0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTWRITTEN_OFFSET UNITYSDK_OFFSET(0x1C1ACFB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ADDEVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x1C0B9990)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0BA750)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_DISPOSEONSHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1C0BA3B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_GET_EVENTLISTENERSLOCK_OFFSET UNITYSDK_OFFSET(0x1C0BA0A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTSOURCECREATED_OFFSET UNITYSDK_OFFSET(0x1C0B98B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTWRITTEN_OFFSET UNITYSDK_OFFSET(0x1C0B9970)
 
 namespace System::Diagnostics::Tracing
 {
@@ -26,33 +26,33 @@ namespace System::Diagnostics::Tracing
 	class EventListener : public ::System::Object
 	{
 	public:
-		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x10
+		::System::Diagnostics::Tracing::EventListener* m_Next; // 0x10
 		::System::EventHandler_1<::System::Diagnostics::Tracing::EventWrittenEventArgs*>* EventWritten; // 0x18
 		::System::EventHandler_1<::System::Diagnostics::Tracing::EventSourceCreatedEventArgs*>* _EventSourceCreated; // 0x20
-		::System::Diagnostics::Tracing::EventListener* m_Next; // 0x28
+		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x28
 		static ::System::Object** StaticGet_s_EventSourceCreatedLock()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x13770);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_s_EventSources()
-		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x13778);
+			return (::System::Object**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0xFD90);
 		}
 
 		static ::System::Diagnostics::Tracing::EventListener** StaticGet_s_Listeners()
 		{
-			return (::System::Diagnostics::Tracing::EventListener**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x13780);
+			return (::System::Diagnostics::Tracing::EventListener**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0xFD98);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_s_EventSources()
+		{
+			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0xFDA0);
 		}
 
 		static ::System::Boolean* StaticGet_s_CreatingListener()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x3FD0);
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x3310);
 		}
 
 		static ::System::Boolean* StaticGet_s_EventSourceShutdownRegistered()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x3FD1);
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x3311);
 		}
 
 		static ::System::Void _cctor()

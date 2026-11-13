@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B98EFB0)
-#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B98EFF0)
-#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B98F000)
-#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B98F040)
+#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x208791E0)
+#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20879220)
+#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x20879230)
+#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x20879270)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_AnimationCurve_Extensions___c_TypeDefinitionIndex = 40750;
+	inline static constexpr unsigned int Test_AnimationCurve_Extensions___c_TypeDefinitionIndex = 41725;
 
 	class Test_AnimationCurve_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>** StaticGet___9__1_0()
+		static ::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64080);
+			return (::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x69110);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64088);
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x69118);
 		}
 
-		static ::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>** StaticGet___9__2_0()
+		static ::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64090);
+			return (::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x69120);
 		}
 
 		static ::System::Void _cctor()

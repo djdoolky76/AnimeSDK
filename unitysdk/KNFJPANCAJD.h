@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define KNFJPANCAJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F2ED0)
+#define KNFJPANCAJD_CTOR_OFFSET UNITYSDK_OFFSET(0x209656F0)
 
-inline static constexpr unsigned int KNFJPANCAJD_TypeDefinitionIndex = 5079;
+inline static constexpr unsigned int KNFJPANCAJD_TypeDefinitionIndex = 5084;
 
 	class KNFJPANCAJD : public ::System::Attribute
 	{

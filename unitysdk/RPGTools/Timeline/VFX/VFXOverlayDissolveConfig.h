@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYDISSOLVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE94C100)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYDISSOLVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA37CE0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayDissolveConfig_TypeDefinitionIndex = 48669;
+	inline static constexpr unsigned int VFXOverlayDissolveConfig_TypeDefinitionIndex = 49715;
 
 	class VFXOverlayDissolveConfig : public ::System::Object
 	{

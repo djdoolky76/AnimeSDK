@@ -5,7 +5,7 @@ namespace Collections::Pooled { template <typename T> class IPooledList_1; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledList_1_TypeDefinitionIndex = 5111;
+	inline static constexpr unsigned int PooledList_1_TypeDefinitionIndex = 5116;
 
 	template <typename T>
 	class PooledList_1 : public ::System::Object

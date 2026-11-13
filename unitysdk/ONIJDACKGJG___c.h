@@ -5,23 +5,23 @@ namespace RPG::GameCore { class CakeRaceTitleRow; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define ONIJDACKGJG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7B53B0)
-#define ONIJDACKGJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7B53F0)
-#define ONIJDACKGJG___C__LOADTITLECONFIG_B__14_0_OFFSET UNITYSDK_OFFSET(0x1C7B5400)
+#define ONIJDACKGJG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B096B30)
+#define ONIJDACKGJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B096B70)
+#define ONIJDACKGJG___C__LOADTITLECONFIG_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B096B80)
 
-inline static constexpr unsigned int ONIJDACKGJG___c_TypeDefinitionIndex = 37229;
+inline static constexpr unsigned int ONIJDACKGJG___c_TypeDefinitionIndex = 38157;
 
 	class ONIJDACKGJG___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::CakeRaceTitleRow*>** StaticGet___9__14_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::CakeRaceTitleRow*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C530);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C538);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14EE0);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::CakeRaceTitleRow*>** StaticGet___9__14_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::CakeRaceTitleRow*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14EE8);
 		}
 
 		static ::System::Void _cctor()

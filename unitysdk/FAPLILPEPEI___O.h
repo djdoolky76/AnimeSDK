@@ -4,39 +4,39 @@
 class BCFMDCAMPDN;
 namespace System { template <typename T> class Predicate_1; }
 
-inline static constexpr unsigned int FAPLILPEPEI___O_TypeDefinitionIndex = 62206;
+inline static constexpr unsigned int FAPLILPEPEI___O_TypeDefinitionIndex = 63619;
 
 	class FAPLILPEPEI___O : public ::System::Object
 	{
 	public:
-		static ::BCFMDCAMPDN** StaticGet__4___CheckFinishSubMission()
-		{
-			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x52520);
-		}
-
 		static ::BCFMDCAMPDN** StaticGet__3___CheckIsSubMissionTaken()
 		{
-			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x52528);
+			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3FF90);
 		}
 
 		static ::BCFMDCAMPDN** StaticGet__0___CheckIsMainMissionTaken()
 		{
-			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x52530);
-		}
-
-		static ::System::Predicate_1<::System::UInt32>** StaticGet__2____CheckIsMainMissionCancel()
-		{
-			return (::System::Predicate_1<::System::UInt32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x52538);
-		}
-
-		static ::System::Predicate_1<::System::UInt32>** StaticGet__5____CheckIsSubMissionCancel()
-		{
-			return (::System::Predicate_1<::System::UInt32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x52540);
+			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3FF98);
 		}
 
 		static ::BCFMDCAMPDN** StaticGet__1___CheckFinishMainMission()
 		{
-			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x52548);
+			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3FFA0);
+		}
+
+		static ::System::Predicate_1<::System::UInt32>** StaticGet__2____CheckIsMainMissionCancel()
+		{
+			return (::System::Predicate_1<::System::UInt32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3FFA8);
+		}
+
+		static ::BCFMDCAMPDN** StaticGet__4___CheckFinishSubMission()
+		{
+			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3FFB0);
+		}
+
+		static ::System::Predicate_1<::System::UInt32>** StaticGet__5____CheckIsSubMissionCancel()
+		{
+			return (::System::Predicate_1<::System::UInt32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3FFB8);
 		}
 
 	};

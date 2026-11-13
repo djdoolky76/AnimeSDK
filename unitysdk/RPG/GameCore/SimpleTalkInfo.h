@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SimpleTalkInfo; }
 
-#define RPG_GAMECORE_SIMPLETALKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABC560)
-#define RPG_GAMECORE_SIMPLETALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DABC370)
+#define RPG_GAMECORE_SIMPLETALKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F5590)
+#define RPG_GAMECORE_SIMPLETALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3F53A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleTalkInfo_TypeDefinitionIndex = 24391;
+	inline static constexpr unsigned int SimpleTalkInfo_TypeDefinitionIndex = 24850;
 
 	class SimpleTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

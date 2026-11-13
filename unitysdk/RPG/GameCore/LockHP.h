@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class LockHP; }
 
-#define RPG_GAMECORE_LOCKHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C3510)
-#define RPG_GAMECORE_LOCKHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C3520)
-#define RPG_GAMECORE_LOCKHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C34D0)
+#define RPG_GAMECORE_LOCKHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F075890)
+#define RPG_GAMECORE_LOCKHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0758A0)
+#define RPG_GAMECORE_LOCKHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F075850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockHP_TypeDefinitionIndex = 23617;
+	inline static constexpr unsigned int LockHP_TypeDefinitionIndex = 24064;
 
 	class LockHP : public ::RPG::GameCore::TaskConfig
 	{

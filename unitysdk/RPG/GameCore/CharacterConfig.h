@@ -22,6 +22,7 @@ namespace RPG::GameCore { class CharacterPhaseAnimConfig; }
 namespace RPG::GameCore { class CharacterPhaseConfig; }
 namespace RPG::GameCore { class CharacterUIConfig; }
 namespace RPG::GameCore { class CustomTeamFormationConfig; }
+namespace RPG::GameCore { class CustomTeamFormationParam; }
 namespace RPG::GameCore { class EffectAdaptionConfig; }
 namespace RPG::GameCore { class FieldEffectAdaptionConfig; }
 namespace RPG::GameCore { class LocationConfig; }
@@ -34,18 +35,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_CHARACTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53DAE0)
-#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D53DBD0)
-#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D53D3D0)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1D541C40)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1D541B00)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET UNITYSDK_OFFSET(0x1D541D80)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x1D541A00)
-#define RPG_GAMECORE_CHARACTERCONFIG_TRYAPPLYPATH_OFFSET UNITYSDK_OFFSET(0x1D541EA0)
+#define RPG_GAMECORE_CHARACTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F33F870)
+#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1F33F960)
+#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F33F160)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1F343950)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1F343810)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET UNITYSDK_OFFSET(0x1F343A90)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x1F343710)
+#define RPG_GAMECORE_CHARACTERCONFIG_TRYAPPLYPATH_OFFSET UNITYSDK_OFFSET(0x1F343BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 16517;
+	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 16681;
 
 	class CharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -82,65 +83,69 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::SkillConfig*>* SkillList; // 0xA0
 		::Il2CppArray<::System::String*>* AbilityList; // 0xA8
 		::Il2CppArray<::RPG::GameCore::SkillAbilityConfig*>* SkillAbilityList; // 0xB0
-		::ENEIHJJPNPI* DynamicValues; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* DynamicStrings; // 0xC0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* CustomValues; // 0xC8
-		::RPG::GameCore::WeaponTypeEnum WeaponType; // 0xD0
-		::RPG::GameCore::ArmorTypeEnum ArmorType; // 0xD4
-		::Il2CppArray<::RPG::GameCore::SkillTransitAnimConfig*>* SkillReadyTransits; // 0xD8
-		::RPG::GameCore::CharacterPhaseAnimConfig* PhaseAnimConfig; // 0xE0
-		::System::String* AnimZoneConfigPath; // 0xE8
-		::System::String* InitAnimStateName; // 0xF0
-		::Il2CppArray<::System::String*>* WhitelistSkillStateForInterrupt; // 0xF8
-		::System::Single ModifierPerformTimeFactor; // 0x100
+		::Il2CppArray<::System::String*>* LineupPrepareAbilityList; // 0xB8
+		::ENEIHJJPNPI* DynamicValues; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* DynamicStrings; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* CustomValues; // 0xD0
+		::RPG::GameCore::WeaponTypeEnum WeaponType; // 0xD8
+		::RPG::GameCore::ArmorTypeEnum ArmorType; // 0xDC
+		::Il2CppArray<::RPG::GameCore::SkillTransitAnimConfig*>* SkillReadyTransits; // 0xE0
+		::RPG::GameCore::CharacterPhaseAnimConfig* PhaseAnimConfig; // 0xE8
+		::System::String* AnimZoneConfigPath; // 0xF0
+		::System::String* InitAnimStateName; // 0xF8
+		::Il2CppArray<::System::String*>* WhitelistSkillStateForInterrupt; // 0x100
+		::System::Single ModifierPerformTimeFactor; // 0x108
 		::System::Byte _padding4[0x4];
-		::RPG::GameCore::TaskConfig* AsAidAttackTask; // 0x108
-		::RPG::GameCore::TaskConfig* AsAidDefenderTask; // 0x110
-		::RPG::GameCore::TaskConfig* AsAidProtectorTask; // 0x118
-		::Il2CppArray<::System::String*>* DisableAnimEventLayers; // 0x120
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EHitDirectionType, ::RPG::GameCore::EFootIKMode>* OnHitEditFootIKModeMap; // 0x128
-		::System::Single RepeatOccurAnimWhenBeHitNormalizedTime; // 0x130
+		::RPG::GameCore::TaskConfig* AsAidAttackTask; // 0x110
+		::RPG::GameCore::TaskConfig* AsAidDefenderTask; // 0x118
+		::RPG::GameCore::TaskConfig* AsAidProtectorTask; // 0x120
+		::Il2CppArray<::System::String*>* DisableAnimEventLayers; // 0x128
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EHitDirectionType, ::RPG::GameCore::EFootIKMode>* OnHitEditFootIKModeMap; // 0x130
+		::System::Single RepeatOccurAnimWhenBeHitNormalizedTime; // 0x138
 		::System::Byte _padding5[0x4];
-		::System::String* CameraNamedDynamicOffset; // 0x138
-		::System::Boolean IgnoreDynamicOffsetBySelf; // 0x140
+		::System::String* CameraNamedDynamicOffset; // 0x140
+		::System::Boolean IgnoreDynamicOffsetBySelf; // 0x148
 		::System::Byte _padding6[0x3];
-		::System::Single OverrideHeightForCameraOffset; // 0x144
-		::System::Boolean MonsterIgnoreGlobalDymanicOffset; // 0x148
+		::System::Single OverrideHeightForCameraOffset; // 0x14C
+		::System::Boolean MonsterIgnoreGlobalDymanicOffset; // 0x150
 		::System::Byte _padding7[0x3];
-		::System::UInt32 MaxMonsterPhase; // 0x14C
-		::Il2CppArray<::RPG::GameCore::CharacterPhaseConfig*>* PhaseList; // 0x150
-		::System::String* OverrideWaveMonsterPerform; // 0x158
-		::System::String* OverrideColliderCameraByName; // 0x160
-		::System::String* OverrideColliderCameraByNameOnLeave; // 0x168
-		::RPG::GameCore::CharacterEntityColliderConfig* EntityColliderConfig; // 0x170
-		::Il2CppArray<::RPG::GameCore::EffectAdaptionConfig*>* EffectAdaptionList; // 0x178
-		::Il2CppArray<::RPG::GameCore::AttachPointEffectAdaptionConfig*>* AttachPointEffectAdaptionList; // 0x180
-		::System::String* FieldEffectAdaptionTemplateName; // 0x188
-		::Il2CppArray<::RPG::GameCore::FieldEffectAdaptionConfig*>* FieldEffectAdaptionList; // 0x190
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* EffectAttachPointRedirect; // 0x198
-		::RPG::GameCore::MonsterConfig* MonsterConfig; // 0x1A0
-		::System::String* ElationConfigPath; // 0x1A8
-		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x1B0
-		::System::String* ResidentPossessionKey; // 0x1B8
-		::System::String* EmotionCharacterID; // 0x1C0
-		::System::String* GraphEmotionAsset; // 0x1C8
-		::System::String* CharacterReplaceMaterialConfigPath; // 0x1D0
-		::ENEIHJJPNPI* AITagList; // 0x1D8
-		::RPG::GameCore::CharacterEmoContextConfig* ReplaceEmoConfig; // 0x1E0
-		::System::Boolean WillUnstage; // 0x1E8
-		::System::Byte _padding8[0x3];
-		::System::UInt32 ViewModeSortPriority; // 0x1EC
-		::System::UInt32 ViewModeExtraEffectID; // 0x1F0
-		::System::Byte _padding9[0x4];
-		::System::String* ReplaceAnimtorControllerPath; // 0x1F8
-		::RPG::GameCore::BoolEx CastShadow; // 0x200
-		::System::Boolean AlwaysCutOnSkillTargetTeamChange; // 0x204
-		::System::Boolean IsPuppetCharacter; // 0x205
-		::System::Boolean UseSummonerStencil; // 0x206
-		::System::Boolean FollowSummonerHighlightOutline; // 0x207
-		::Il2CppArray<::RPG::GameCore::CustomTeamFormationConfig*>* CustomTeamFormationConfigs; // 0x208
-		::RPG::GameCore::CharacterUIConfig* UIConfig; // 0x210
-		::System::Collections::Generic::List_1<::System::String*>* ApplyDLCPaths; // 0x218
+		::System::UInt32 MaxMonsterPhase; // 0x154
+		::Il2CppArray<::RPG::GameCore::CharacterPhaseConfig*>* PhaseList; // 0x158
+		::System::String* OverrideWaveMonsterPerform; // 0x160
+		::System::String* OverrideColliderCameraByName; // 0x168
+		::System::String* OverrideColliderCameraByNameOnLeave; // 0x170
+		::System::Boolean EnableCameraDitherInsideCollider; // 0x178
+		::System::Byte _padding8[0x7];
+		::RPG::GameCore::CharacterEntityColliderConfig* EntityColliderConfig; // 0x180
+		::Il2CppArray<::RPG::GameCore::EffectAdaptionConfig*>* EffectAdaptionList; // 0x188
+		::Il2CppArray<::RPG::GameCore::AttachPointEffectAdaptionConfig*>* AttachPointEffectAdaptionList; // 0x190
+		::System::String* FieldEffectAdaptionTemplateName; // 0x198
+		::Il2CppArray<::RPG::GameCore::FieldEffectAdaptionConfig*>* FieldEffectAdaptionList; // 0x1A0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* EffectAttachPointRedirect; // 0x1A8
+		::RPG::GameCore::MonsterConfig* MonsterConfig; // 0x1B0
+		::System::String* ElationConfigPath; // 0x1B8
+		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x1C0
+		::System::String* ResidentPossessionKey; // 0x1C8
+		::System::String* EmotionCharacterID; // 0x1D0
+		::System::String* GraphEmotionAsset; // 0x1D8
+		::System::String* CharacterReplaceMaterialConfigPath; // 0x1E0
+		::ENEIHJJPNPI* AITagList; // 0x1E8
+		::RPG::GameCore::CharacterEmoContextConfig* ReplaceEmoConfig; // 0x1F0
+		::System::Boolean WillUnstage; // 0x1F8
+		::System::Byte _padding9[0x3];
+		::System::UInt32 ViewModeSortPriority; // 0x1FC
+		::System::UInt32 ViewModeExtraEffectID; // 0x200
+		::System::Byte _padding10[0x4];
+		::System::String* ReplaceAnimtorControllerPath; // 0x208
+		::RPG::GameCore::BoolEx CastShadow; // 0x210
+		::System::Boolean AlwaysCutOnSkillTargetTeamChange; // 0x214
+		::System::Boolean IsPuppetCharacter; // 0x215
+		::System::Boolean UseSummonerStencil; // 0x216
+		::System::Boolean FollowSummonerHighlightOutline; // 0x217
+		::Il2CppArray<::RPG::GameCore::CustomTeamFormationParam*>* CustomTeamFormationParamGroups; // 0x218
+		::Il2CppArray<::RPG::GameCore::CustomTeamFormationConfig*>* CustomTeamFormationConfigs; // 0x220
+		::RPG::GameCore::CharacterUIConfig* UIConfig; // 0x228
+		::System::Collections::Generic::List_1<::System::String*>* ApplyDLCPaths; // 0x230
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_CTOR_OFFSET))(this);

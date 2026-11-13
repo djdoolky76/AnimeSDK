@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IFIX_CORE_ANONYMOUSSTOREYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B999780)
+#define IFIX_CORE_ANONYMOUSSTOREYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AA2A0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int AnonymousStoreyInfo_TypeDefinitionIndex = 7115;
+	inline static constexpr unsigned int AnonymousStoreyInfo_TypeDefinitionIndex = 7126;
 
 	class AnonymousStoreyInfo : public ::System::Object
 	{

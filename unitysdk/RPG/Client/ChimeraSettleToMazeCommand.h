@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChimeraSettleCommandBase.h"
 
-#define RPG_CLIENT_CHIMERASETTLETOMAZECOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xCB51000)
-#define RPG_CLIENT_CHIMERASETTLETOMAZECOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xCB543C0)
+#define RPG_CLIENT_CHIMERASETTLETOMAZECOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8FEE0)
+#define RPG_CLIENT_CHIMERASETTLETOMAZECOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0x1CE93440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleToMazeCommand_TypeDefinitionIndex = 63465;
+	inline static constexpr unsigned int ChimeraSettleToMazeCommand_TypeDefinitionIndex = 64903;
 
 	class ChimeraSettleToMazeCommand : public ::RPG::Client::ChimeraSettleCommandBase
 	{

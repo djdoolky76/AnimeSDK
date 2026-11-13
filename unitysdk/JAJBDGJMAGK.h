@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/AvatarCreateType.h"
 namespace RPG::GameCore { class AvatarDataComponent; }
 
-#define JAJBDGJMAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x16545720)
-#define JAJBDGJMAGK_KFHCMJCFINH_OFFSET UNITYSDK_OFFSET(0x16545730)
+#define JAJBDGJMAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x19A550E0)
+#define JAJBDGJMAGK_KFHCMJCFINH_OFFSET UNITYSDK_OFFSET(0x19A550F0)
 
-inline static constexpr unsigned int JAJBDGJMAGK_TypeDefinitionIndex = 56876;
+inline static constexpr unsigned int JAJBDGJMAGK_TypeDefinitionIndex = 58100;
 
 	class JAJBDGJMAGK : public ::ADILGMDJEJF
 	{

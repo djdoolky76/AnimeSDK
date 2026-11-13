@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Diagnostics::Tracing { class EventSource; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1BBA20)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0x1C1C9240)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1C1C9230)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C1C9280)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_PAYLOADNAMES_OFFSET UNITYSDK_OFFSET(0x1C1C9270)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_PAYLOAD_OFFSET UNITYSDK_OFFSET(0x1C1C9260)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_RELATEDACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1C1C9250)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C8420)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0x1C0D5C40)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1C0D5C30)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C0D5C80)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_PAYLOADNAMES_OFFSET UNITYSDK_OFFSET(0x1C0D5C70)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_PAYLOAD_OFFSET UNITYSDK_OFFSET(0x1C0D5C60)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_SET_RELATEDACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1C0D5C50)
 
 namespace System::Diagnostics::Tracing
 {
@@ -23,12 +23,12 @@ namespace System::Diagnostics::Tracing
 	{
 	public:
 		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Object*>* _Payload_k__BackingField; // 0x10
-		::System::String* m_eventName; // 0x18
+		::System::Diagnostics::Tracing::EventSource* m_eventSource; // 0x18
 		::System::String* m_message; // 0x20
-		::System::Diagnostics::Tracing::EventSource* m_eventSource; // 0x28
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::String*>* m_payloadNames; // 0x30
-		::System::Guid _RelatedActivityId_k__BackingField; // 0x38
-		::System::Int32 _EventId_k__BackingField; // 0x48
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::String*>* m_payloadNames; // 0x28
+		::System::String* m_eventName; // 0x30
+		::System::Int32 _EventId_k__BackingField; // 0x38
+		::System::Guid _RelatedActivityId_k__BackingField; // 0x3C
 		::System::Void _ctor(::System::Diagnostics::Tracing::EventSource* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSource*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTWRITTENEVENTARGS_CTOR_OFFSET))(this, a1);

@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define HPHLJOEKAOE_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBC9E0)
-#define HPHLJOEKAOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DBC990)
+#define HPHLJOEKAOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF36BD0)
+#define HPHLJOEKAOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AF36B80)
 
-inline static constexpr unsigned int HPHLJOEKAOE_TypeDefinitionIndex = 57338;
+inline static constexpr unsigned int HPHLJOEKAOE_TypeDefinitionIndex = 58566;
 
 	class HPHLJOEKAOE : public ::System::Object
 	{

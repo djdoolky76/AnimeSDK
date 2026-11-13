@@ -6,11 +6,11 @@ namespace RPG::GameCore { class RtTargetFetchModifierBindSnapshot; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ICPIAGADBBO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E59250)
-#define ICPIAGADBBO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E592C0)
-#define ICPIAGADBBO_FLEGNKMMFLG_OFFSET UNITYSDK_OFFSET(0x15E596A0)
+#define ICPIAGADBBO_CTOR_OFFSET UNITYSDK_OFFSET(0x188E6530)
+#define ICPIAGADBBO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x188E65A0)
+#define ICPIAGADBBO_FLEGNKMMFLG_OFFSET UNITYSDK_OFFSET(0x188E6980)
 
-inline static constexpr unsigned int ICPIAGADBBO_TypeDefinitionIndex = 53800;
+inline static constexpr unsigned int ICPIAGADBBO_TypeDefinitionIndex = 54964;
 
 	class ICPIAGADBBO
 	{

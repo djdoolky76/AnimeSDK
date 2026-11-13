@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 class NDMMNBDMCNG;
 
-#define NDMMNBDMCNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CD170)
-#define NDMMNBDMCNG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CCED0)
+#define NDMMNBDMCNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A07A0)
+#define NDMMNBDMCNG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8A0500)
 
-inline static constexpr unsigned int NDMMNBDMCNG_TypeDefinitionIndex = 11487;
+inline static constexpr unsigned int NDMMNBDMCNG_TypeDefinitionIndex = 11538;
 
 	class NDMMNBDMCNG : public ::System::Object
 	{
 	public:
-		::System::UInt32 JIDGCHINCKC; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID GAOMJHOKMMG; // 0x18
-		::RPG::Client::TextID FMCNCMENCFF; // 0x28
-		::RPG::Client::TextID IODFDGLGOJI; // 0x38
+		::RPG::Client::TextID FMCNCMENCFF; // 0x10
+		::RPG::Client::TextID IODFDGLGOJI; // 0x20
+		::RPG::Client::TextID GAOMJHOKMMG; // 0x30
+		::System::UInt32 JIDGCHINCKC; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDMMNBDMCNG_CTOR_OFFSET))(this);

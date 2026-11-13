@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBonusType_TypeDefinitionIndex = 13415;
+	inline static constexpr unsigned int GridFightBonusType_TypeDefinitionIndex = 13487;
 
 	enum class GridFightBonusType : ::System::Int32
 	{
@@ -19,5 +19,13 @@ namespace RPG::GameCore
 		RandomSameAvatar = 15,
 		SpecificAvatarWithEquip = 16,
 		SpecificAvatarWithRandomEquip = 17,
+		SpotLightReplaceCnt = 18,
+		Augment = 19,
+		SpotLightFreeRefreshCnt = 20,
+		TrailblazeShopCoin = 21,
+		ElationGoods = 22,
+		GlobalHp = 23,
+		ElationItem = 24,
+		AllAvatarByRarity = 25,
 	};
 }

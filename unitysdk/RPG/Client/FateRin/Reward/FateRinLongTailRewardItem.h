@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin::Reward
 {
-	inline static constexpr unsigned int FateRinLongTailRewardItem_TypeDefinitionIndex = 80732;
+	inline static constexpr unsigned int FateRinLongTailRewardItem_TypeDefinitionIndex = 83512;
 
 	struct alignas(8) FateRinLongTailRewardItem
 	{

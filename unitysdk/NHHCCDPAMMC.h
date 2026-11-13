@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowRogueSelectMainPageMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHHCCDPAMMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBBBF210)
-#define NHHCCDPAMMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBBF240)
+#define NHHCCDPAMMC_CTOR_OFFSET UNITYSDK_OFFSET(0x14898BC0)
+#define NHHCCDPAMMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14898BF0)
 
-inline static constexpr unsigned int NHHCCDPAMMC_TypeDefinitionIndex = 58686;
+inline static constexpr unsigned int NHHCCDPAMMC_TypeDefinitionIndex = 59953;
 
 	class NHHCCDPAMMC
 	{

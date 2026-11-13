@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FNBGDIAOCAL_TypeDefinitionIndex = 41719;
+inline static constexpr unsigned int FNBGDIAOCAL_TypeDefinitionIndex = 42694;
 
 	class FNBGDIAOCAL
 	{

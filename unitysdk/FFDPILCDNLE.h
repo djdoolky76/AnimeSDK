@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FFDPILCDNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x157278E0)
+#define FFDPILCDNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x130D95B0)
 
-inline static constexpr unsigned int FFDPILCDNLE_TypeDefinitionIndex = 67786;
+inline static constexpr unsigned int FFDPILCDNLE_TypeDefinitionIndex = 69731;
 
 	class FFDPILCDNLE : public ::System::Object
 	{

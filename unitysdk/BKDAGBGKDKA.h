@@ -7,17 +7,17 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define BKDAGBGKDKA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A8D00)
-#define BKDAGBGKDKA_DOONENTER_OFFSET UNITYSDK_OFFSET(0xB7A8D70)
-#define BKDAGBGKDKA_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xB7A8DF0)
+#define BKDAGBGKDKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A648310)
+#define BKDAGBGKDKA_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1A648380)
+#define BKDAGBGKDKA_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1A648400)
 
-inline static constexpr unsigned int BKDAGBGKDKA_TypeDefinitionIndex = 78839;
+inline static constexpr unsigned int BKDAGBGKDKA_TypeDefinitionIndex = 81610;
 
 	class BKDAGBGKDKA : public ::FKHGEDHCPHJ
 	{
 	public:
-		::System::Action* MAPEJKHFNHA; // 0xC8
-		::System::Action* ENDGBKNJKKG; // 0xD0
+		::System::Action* ENDGBKNJKKG; // 0xC8
+		::System::Action* MAPEJKHFNHA; // 0xD0
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* a3, ::Il2CppArray<::System::Action*>* a4, ::System::Func_1<::System::Boolean>* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>*, ::Il2CppArray<::System::Action*>*, ::System::Func_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + BKDAGBGKDKA_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

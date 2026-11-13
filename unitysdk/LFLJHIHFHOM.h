@@ -6,32 +6,32 @@ namespace RPG::Client { class RPGProfilerMarker; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LFLJHIHFHOM_BLOFDFGGEEG_OFFSET UNITYSDK_OFFSET(0xB67C460)
-#define LFLJHIHFHOM_CCTOR_OFFSET UNITYSDK_OFFSET(0xB67C570)
-#define LFLJHIHFHOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB67C560)
-#define LFLJHIHFHOM_NCOJEICKMLO_1_OFFSET UNITYSDK_OFFSET(0xB67C370)
-#define LFLJHIHFHOM_NCOJEICKMLO_OFFSET UNITYSDK_OFFSET(0xB67C260)
-#define LFLJHIHFHOM_NDPJFHDLJIO_OFFSET UNITYSDK_OFFSET(0xB67BEC0)
-#define LFLJHIHFHOM_OCPOIJCNAEK_OFFSET UNITYSDK_OFFSET(0xB67C120)
+#define LFLJHIHFHOM_BLOFDFGGEEG_OFFSET UNITYSDK_OFFSET(0x18C62090)
+#define LFLJHIHFHOM_CCTOR_OFFSET UNITYSDK_OFFSET(0x18C621A0)
+#define LFLJHIHFHOM_CTOR_OFFSET UNITYSDK_OFFSET(0x18C62190)
+#define LFLJHIHFHOM_NCOJEICKMLO_1_OFFSET UNITYSDK_OFFSET(0x18C61FA0)
+#define LFLJHIHFHOM_NCOJEICKMLO_OFFSET UNITYSDK_OFFSET(0x18C61E90)
+#define LFLJHIHFHOM_NDPJFHDLJIO_OFFSET UNITYSDK_OFFSET(0x18C61AF0)
+#define LFLJHIHFHOM_OCPOIJCNAEK_OFFSET UNITYSDK_OFFSET(0x18C61D50)
 
-inline static constexpr unsigned int LFLJHIHFHOM_TypeDefinitionIndex = 47294;
+inline static constexpr unsigned int LFLJHIHFHOM_TypeDefinitionIndex = 48323;
 
 	class LFLJHIHFHOM : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_FFDONKHOLMC()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "LFLJHIHFHOM")->GetStaticField(0x5EB10);
-		}
-
 		static ::System::Collections::Generic::List_1<::AGLBBJOEJME*>** StaticGet_OPKFFBBMAOG()
 		{
-			return (::System::Collections::Generic::List_1<::AGLBBJOEJME*>**)UnitySDK::FromName("", "LFLJHIHFHOM")->GetStaticField(0x5EB18);
+			return (::System::Collections::Generic::List_1<::AGLBBJOEJME*>**)UnitySDK::FromName("", "LFLJHIHFHOM")->GetStaticField(0x5F120);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_FFDONKHOLMC()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "LFLJHIHFHOM")->GetStaticField(0x5F128);
 		}
 
 		static ::System::Int32* StaticGet_BOCKHIOIMBO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "LFLJHIHFHOM")->GetStaticField(0x14280);
+			return (::System::Int32*)UnitySDK::FromName("", "LFLJHIHFHOM")->GetStaticField(0x13E20);
 		}
 
 		::System::Void _ctor()

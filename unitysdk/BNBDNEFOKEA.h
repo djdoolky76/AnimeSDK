@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BNBDNEFOKEA_TypeDefinitionIndex = 77855;
+inline static constexpr unsigned int BNBDNEFOKEA_TypeDefinitionIndex = 80590;
 
 	class BNBDNEFOKEA
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class MJAPFAECMBN;
 
-#define NOKCGCNICDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEB920)
-#define NOKCGCNICDJ_GET_CAMERACONTROLLER_OFFSET UNITYSDK_OFFSET(0xBCEB910)
+#define NOKCGCNICDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19CEAA20)
+#define NOKCGCNICDJ_GET_CAMERACONTROLLER_OFFSET UNITYSDK_OFFSET(0x19CEAA10)
 
-inline static constexpr unsigned int NOKCGCNICDJ_TypeDefinitionIndex = 78477;
+inline static constexpr unsigned int NOKCGCNICDJ_TypeDefinitionIndex = 81212;
 
 	class NOKCGCNICDJ : public ::System::Object
 	{

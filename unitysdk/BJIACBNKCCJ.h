@@ -4,17 +4,17 @@
 class DJLCLLNALGA;
 namespace BansheeGz::BGSpline::Curve { class ICustomBGCurve; }
 
-#define BJIACBNKCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88D860)
+#define BJIACBNKCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B8020)
 
-inline static constexpr unsigned int BJIACBNKCCJ_TypeDefinitionIndex = 42923;
+inline static constexpr unsigned int BJIACBNKCCJ_TypeDefinitionIndex = 43904;
 
 	class BJIACBNKCCJ : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::DJLCLLNALGA*>* LFFLDCAICMJ; // 0x10
-		::BansheeGz::BGSpline::Curve::ICustomBGCurve* NLIFDJHPHLP; // 0x18
-		::System::Single JJGOEDKMFPH; // 0x20
-		::System::Single OJDCAPDHOIL; // 0x24
+		::BansheeGz::BGSpline::Curve::ICustomBGCurve* NLIFDJHPHLP; // 0x10
+		::Il2CppArray<::DJLCLLNALGA*>* LFFLDCAICMJ; // 0x18
+		::System::Single OJDCAPDHOIL; // 0x20
+		::System::Single JJGOEDKMFPH; // 0x24
 		::System::Boolean IGLNFOCGMFK; // 0x28
 		::System::Byte _padding0[0x3];
 		::System::Single BMPGDKIMCGE; // 0x2C

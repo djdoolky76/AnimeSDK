@@ -5,25 +5,25 @@ namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINSINGLEDECKEDITVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCEF1AF0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINSINGLEDECKEDITVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCEF1B30)
-#define RPG_CLIENT_FATERIN_CARD_FATERINSINGLEDECKEDITVIEWMODEL___C___CREATEACQUIREDLISTFROMOWNERTYPE_B__10_0_OFFSET UNITYSDK_OFFSET(0xCEF1B40)
+#define RPG_CLIENT_FATERIN_CARD_FATERINSINGLEDECKEDITVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0B7750)
+#define RPG_CLIENT_FATERIN_CARD_FATERINSINGLEDECKEDITVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0B7790)
+#define RPG_CLIENT_FATERIN_CARD_FATERINSINGLEDECKEDITVIEWMODEL___C___CREATEACQUIREDLISTFROMOWNERTYPE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1E0B77A0)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinSingleDeckEditViewModel___c_TypeDefinitionIndex = 81174;
+	inline static constexpr unsigned int FateRinSingleDeckEditViewModel___c_TypeDefinitionIndex = 83954;
 
 	class FateRinSingleDeckEditViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x553B0);
-		}
-
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x553B8);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x5C1E0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x5C1E8);
 		}
 
 		static ::System::Void _cctor()

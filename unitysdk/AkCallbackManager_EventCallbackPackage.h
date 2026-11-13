@@ -5,16 +5,16 @@ class AkCallbackManager_EventCallback;
 class AkCallbackManager_EventCallbackPackage;
 namespace System { class Object; }
 
-#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F553DD0)
-#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F553F30)
+#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EF026B0)
+#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF02810)
 
-inline static constexpr unsigned int AkCallbackManager_EventCallbackPackage_TypeDefinitionIndex = 44826;
+inline static constexpr unsigned int AkCallbackManager_EventCallbackPackage_TypeDefinitionIndex = 45901;
 
 	class AkCallbackManager_EventCallbackPackage : public ::System::Object
 	{
 	public:
-		::AkCallbackManager_EventCallback* m_Callback; // 0x10
-		::System::Object* m_Cookie; // 0x18
+		::System::Object* m_Cookie; // 0x10
+		::AkCallbackManager_EventCallback* m_Callback; // 0x18
 		::System::Boolean m_bNotifyEndOfEvent; // 0x20
 		::System::Byte _padding0[0x3];
 		::System::UInt32 m_playingID; // 0x24

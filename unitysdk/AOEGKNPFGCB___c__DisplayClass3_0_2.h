@@ -5,7 +5,7 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int AOEGKNPFGCB___c__DisplayClass3_0_2_TypeDefinitionIndex = 44139;
+inline static constexpr unsigned int AOEGKNPFGCB___c__DisplayClass3_0_2_TypeDefinitionIndex = 45214;
 
 	template <typename T1, typename T2>
 	class AOEGKNPFGCB___c__DisplayClass3_0_2 : public ::System::Object

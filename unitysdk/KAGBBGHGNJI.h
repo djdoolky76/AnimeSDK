@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCurrentSkillEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KAGBBGHGNJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CF630)
-#define KAGBBGHGNJI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2CF660)
+#define KAGBBGHGNJI_CTOR_OFFSET UNITYSDK_OFFSET(0x19DABFB0)
+#define KAGBBGHGNJI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19DABFE0)
 
-inline static constexpr unsigned int KAGBBGHGNJI_TypeDefinitionIndex = 54597;
+inline static constexpr unsigned int KAGBBGHGNJI_TypeDefinitionIndex = 55762;
 
 	class KAGBBGHGNJI
 	{

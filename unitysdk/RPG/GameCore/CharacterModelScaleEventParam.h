@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_CHARACTERMODELSCALEEVENTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE5F4040)
+#define RPG_GAMECORE_CHARACTERMODELSCALEEVENTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xFD67490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterModelScaleEventParam_TypeDefinitionIndex = 55330;
+	inline static constexpr unsigned int CharacterModelScaleEventParam_TypeDefinitionIndex = 56512;
 
 	class CharacterModelScaleEventParam : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareProjectileLifetime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPMOPGCNCKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15915570)
-#define FPMOPGCNCKE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159155A0)
+#define FPMOPGCNCKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8501D0)
+#define FPMOPGCNCKE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B850200)
 
-inline static constexpr unsigned int FPMOPGCNCKE_TypeDefinitionIndex = 54556;
+inline static constexpr unsigned int FPMOPGCNCKE_TypeDefinitionIndex = 55721;
 
 	class FPMOPGCNCKE
 	{

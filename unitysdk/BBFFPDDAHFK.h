@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PauseToastQueue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBFFPDDAHFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E79EB0)
-#define BBFFPDDAHFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E79EE0)
+#define BBFFPDDAHFK_CTOR_OFFSET UNITYSDK_OFFSET(0x199F2590)
+#define BBFFPDDAHFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199F25C0)
 
-inline static constexpr unsigned int BBFFPDDAHFK_TypeDefinitionIndex = 53061;
+inline static constexpr unsigned int BBFFPDDAHFK_TypeDefinitionIndex = 54221;
 
 	class BBFFPDDAHFK
 	{

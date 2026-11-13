@@ -4,18 +4,18 @@
 class LCACCGHOGDB;
 namespace System { class Object; }
 
-#define LCACCGHOGDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8B4E50)
-#define LCACCGHOGDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B4E90)
-#define LCACCGHOGDB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8B4EA0)
+#define LCACCGHOGDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8FE470)
+#define LCACCGHOGDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8FE4B0)
+#define LCACCGHOGDB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F8FE4C0)
 
-inline static constexpr unsigned int LCACCGHOGDB___c_TypeDefinitionIndex = 27913;
+inline static constexpr unsigned int LCACCGHOGDB___c_TypeDefinitionIndex = 28503;
 
 	class LCACCGHOGDB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29F70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A0E0);
 		}
 
 		static ::System::Void _cctor()

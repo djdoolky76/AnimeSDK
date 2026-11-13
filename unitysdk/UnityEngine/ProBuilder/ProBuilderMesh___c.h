@@ -7,49 +7,49 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F22D210)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F22D250)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__COPYFROM_B__162_0_OFFSET UNITYSDK_OFFSET(0x1F22D2E0)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__GET_INDEXCOUNT_B__122_0_OFFSET UNITYSDK_OFFSET(0x1F22D280)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__GET_TRIANGLECOUNT_B__124_0_OFFSET UNITYSDK_OFFSET(0x1F22D2B0)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__SETUVS_B__114_0_OFFSET UNITYSDK_OFFSET(0x1F22D260)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__SETUVS_B__114_1_OFFSET UNITYSDK_OFFSET(0x1F22D270)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A283E40)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A283E80)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__COPYFROM_B__162_0_OFFSET UNITYSDK_OFFSET(0x1A283F10)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__GET_INDEXCOUNT_B__122_0_OFFSET UNITYSDK_OFFSET(0x1A283EB0)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__GET_TRIANGLECOUNT_B__124_0_OFFSET UNITYSDK_OFFSET(0x1A283EE0)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__SETUVS_B__114_0_OFFSET UNITYSDK_OFFSET(0x1A283E90)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__SETUVS_B__114_1_OFFSET UNITYSDK_OFFSET(0x1A283EA0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ProBuilderMesh___c_TypeDefinitionIndex = 44407;
+	inline static constexpr unsigned int ProBuilderMesh___c_TypeDefinitionIndex = 45482;
 
 	class ProBuilderMesh___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__122_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x4F930);
-		}
-
-		static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>** StaticGet___9__114_0()
-		{
-			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x4F938);
-		}
-
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__162_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x4F940);
-		}
-
-		static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>** StaticGet___9__114_1()
-		{
-			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x4F948);
-		}
-
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__124_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x4F950);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x67F20);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x4F958);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x67F28);
+		}
+
+		static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>** StaticGet___9__114_1()
+		{
+			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x67F30);
+		}
+
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__124_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x67F38);
+		}
+
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__122_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x67F40);
+		}
+
+		static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>** StaticGet___9__114_0()
+		{
+			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x67F48);
 		}
 
 		static ::System::Void _cctor()

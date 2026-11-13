@@ -6,10 +6,10 @@ class JBPIHNMIAPO;
 namespace RPG::GameCore { class OrbitMoveRange; }
 namespace System { class String; }
 
-#define JBPIHNMIAPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE73A0)
-#define JBPIHNMIAPO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CFE7250)
+#define JBPIHNMIAPO_CTOR_OFFSET UNITYSDK_OFFSET(0xCA93E60)
+#define JBPIHNMIAPO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xCA93D10)
 
-inline static constexpr unsigned int JBPIHNMIAPO_TypeDefinitionIndex = 22870;
+inline static constexpr unsigned int JBPIHNMIAPO_TypeDefinitionIndex = 23295;
 
 	class JBPIHNMIAPO : public ::RPG::GameCore::JsonConfig
 	{

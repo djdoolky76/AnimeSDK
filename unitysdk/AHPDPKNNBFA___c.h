@@ -4,41 +4,41 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define AHPDPKNNBFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEB86E60)
-#define AHPDPKNNBFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEB86EA0)
-#define AHPDPKNNBFA___C___CALCCHENLINGEXTRACOINNUMTERM_B__5_0_OFFSET UNITYSDK_OFFSET(0xEB86EC0)
-#define AHPDPKNNBFA___C___CALCCHENLINGEXTRAMULTIPLIERTERM_B__8_0_OFFSET UNITYSDK_OFFSET(0xEB86EE0)
-#define AHPDPKNNBFA___C___CALCITEMEXTRACOINNUMTERM_B__4_0_OFFSET UNITYSDK_OFFSET(0xEB86EB0)
-#define AHPDPKNNBFA___C___CALCITEMEXTRAMULTIPLIERTERM_B__7_0_OFFSET UNITYSDK_OFFSET(0xEB86ED0)
+#define AHPDPKNNBFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19B2CB50)
+#define AHPDPKNNBFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19B2CB90)
+#define AHPDPKNNBFA___C___CALCCHENLINGEXTRACOINNUMTERM_B__5_0_OFFSET UNITYSDK_OFFSET(0x19B2CBB0)
+#define AHPDPKNNBFA___C___CALCCHENLINGEXTRAMULTIPLIERTERM_B__8_0_OFFSET UNITYSDK_OFFSET(0x19B2CBD0)
+#define AHPDPKNNBFA___C___CALCITEMEXTRACOINNUMTERM_B__4_0_OFFSET UNITYSDK_OFFSET(0x19B2CBA0)
+#define AHPDPKNNBFA___C___CALCITEMEXTRAMULTIPLIERTERM_B__7_0_OFFSET UNITYSDK_OFFSET(0x19B2CBC0)
 
-inline static constexpr unsigned int AHPDPKNNBFA___c_TypeDefinitionIndex = 52657;
+inline static constexpr unsigned int AHPDPKNNBFA___c_TypeDefinitionIndex = 53764;
 
 	class AHPDPKNNBFA___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52C30);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52C38);
-		}
-
 		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52C40);
-		}
-
-		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52C48);
+			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54E70);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52C50);
+			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54E78);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54E80);
+		}
+
+		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54E88);
+		}
+
+		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54E90);
 		}
 
 		static ::System::Void _cctor()

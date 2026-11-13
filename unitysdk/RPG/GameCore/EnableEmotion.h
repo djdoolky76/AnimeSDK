@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EnableEmotion; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ENABLEEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D611080)
-#define RPG_GAMECORE_ENABLEEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D611090)
-#define RPG_GAMECORE_ENABLEEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D611040)
+#define RPG_GAMECORE_ENABLEEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E7AC0)
+#define RPG_GAMECORE_ENABLEEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0E7AD0)
+#define RPG_GAMECORE_ENABLEEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E7A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableEmotion_TypeDefinitionIndex = 22410;
+	inline static constexpr unsigned int EnableEmotion_TypeDefinitionIndex = 22819;
 
 	class EnableEmotion : public ::RPG::GameCore::TaskConfig
 	{

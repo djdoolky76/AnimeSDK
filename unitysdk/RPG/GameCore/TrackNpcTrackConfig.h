@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrackNpcTrackConfig; }
 
-#define RPG_GAMECORE_TRACKNPCTRACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFCAD0)
-#define RPG_GAMECORE_TRACKNPCTRACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBFC9A0)
+#define RPG_GAMECORE_TRACKNPCTRACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D5D90)
+#define RPG_GAMECORE_TRACKNPCTRACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D5C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNpcTrackConfig_TypeDefinitionIndex = 22181;
+	inline static constexpr unsigned int TrackNpcTrackConfig_TypeDefinitionIndex = 22586;
 
 	class TrackNpcTrackConfig : public ::RPG::GameCore::JsonConfig
 	{

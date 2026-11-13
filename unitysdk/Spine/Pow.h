@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/IInterpolation.h"
 
-#define SPINE_POW_APPLY_OFFSET UNITYSDK_OFFSET(0x1EC7E370)
-#define SPINE_POW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC765B0)
-#define SPINE_POW_GET_POWER_OFFSET UNITYSDK_OFFSET(0x1EC7E350)
-#define SPINE_POW_SET_POWER_OFFSET UNITYSDK_OFFSET(0x1EC7E360)
+#define SPINE_POW_APPLY_OFFSET UNITYSDK_OFFSET(0x16CC8FE0)
+#define SPINE_POW_CTOR_OFFSET UNITYSDK_OFFSET(0x16CC1250)
+#define SPINE_POW_GET_POWER_OFFSET UNITYSDK_OFFSET(0x16CC8FC0)
+#define SPINE_POW_SET_POWER_OFFSET UNITYSDK_OFFSET(0x16CC8FD0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Pow_TypeDefinitionIndex = 39678;
+	inline static constexpr unsigned int Pow_TypeDefinitionIndex = 40607;
 
 	class Pow : public ::Spine::IInterpolation
 	{

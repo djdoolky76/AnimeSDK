@@ -6,49 +6,49 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x14DB8250)
-#define XLUA_LUAMEMORYLEAKCHECKER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB8290)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_0_OFFSET UNITYSDK_OFFSET(0x14DB82D0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_1_OFFSET UNITYSDK_OFFSET(0x14DB82E0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_2_OFFSET UNITYSDK_OFFSET(0x14DB82A0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_3_OFFSET UNITYSDK_OFFSET(0x14DB82B0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_4_OFFSET UNITYSDK_OFFSET(0x14DB82C0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12BAB6B0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12BAB6F0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_0_OFFSET UNITYSDK_OFFSET(0x12BAB730)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_1_OFFSET UNITYSDK_OFFSET(0x12BAB740)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_2_OFFSET UNITYSDK_OFFSET(0x12BAB700)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_3_OFFSET UNITYSDK_OFFSET(0x12BAB710)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_4_OFFSET UNITYSDK_OFFSET(0x12BAB720)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c_TypeDefinitionIndex = 50062;
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c_TypeDefinitionIndex = 51110;
 
 	class LuaMemoryLeakChecker___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_2()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x42D20);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x42D28);
-		}
-
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x42D30);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__11_3()
-		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x42D38);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x53BF0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x42D40);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x53BF8);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_4()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x42D48);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x53C00);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_2()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x53C08);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x53C10);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__11_3()
+		{
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x53C18);
 		}
 
 		static ::System::Void _cctor()

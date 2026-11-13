@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define MGEMHJLOMAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB912200)
-#define MGEMHJLOMAH_GET_ID_OFFSET UNITYSDK_OFFSET(0xB912280)
+#define MGEMHJLOMAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B337160)
+#define MGEMHJLOMAH_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B3371E0)
 
-inline static constexpr unsigned int MGEMHJLOMAH_TypeDefinitionIndex = 80505;
+inline static constexpr unsigned int MGEMHJLOMAH_TypeDefinitionIndex = 83285;
 
 	class MGEMHJLOMAH : public ::System::Attribute
 	{

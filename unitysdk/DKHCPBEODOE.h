@@ -5,11 +5,11 @@ class DKHCPBEODOE;
 namespace RPG::GameCore { class IronTombNormalModeThresholdConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DKHCPBEODOE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xF8767C0)
-#define DKHCPBEODOE_CTOR_OFFSET UNITYSDK_OFFSET(0xF8769A0)
-#define DKHCPBEODOE_JDDOLBNGDAO_OFFSET UNITYSDK_OFFSET(0xF8769B0)
+#define DKHCPBEODOE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18C148B0)
+#define DKHCPBEODOE_CTOR_OFFSET UNITYSDK_OFFSET(0x18C14A90)
+#define DKHCPBEODOE_JDDOLBNGDAO_OFFSET UNITYSDK_OFFSET(0x18C14AA0)
 
-inline static constexpr unsigned int DKHCPBEODOE_TypeDefinitionIndex = 55524;
+inline static constexpr unsigned int DKHCPBEODOE_TypeDefinitionIndex = 56716;
 
 	class DKHCPBEODOE : public ::System::Object
 	{

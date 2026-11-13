@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HMPBAIAPDBE_AssetPreloadState_TypeDefinitionIndex = 59696;
+inline static constexpr unsigned int HMPBAIAPDBE_AssetPreloadState_TypeDefinitionIndex = 60973;
 
 	enum class HMPBAIAPDBE_AssetPreloadState : ::System::Int32
 	{

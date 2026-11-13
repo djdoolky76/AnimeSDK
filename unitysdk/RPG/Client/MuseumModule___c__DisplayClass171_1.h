@@ -4,12 +4,12 @@
 namespace RPG::Client { class MuseumStaffData; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD8F8A60)
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_1___REFRESHSTAFFAVAILABLE_B__1_OFFSET UNITYSDK_OFFSET(0xD8FABC0)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1C29D8E0)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_1___REFRESHSTAFFAVAILABLE_B__1_OFFSET UNITYSDK_OFFSET(0x1C2A0500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_1_TypeDefinitionIndex = 66336;
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_1_TypeDefinitionIndex = 68272;
 
 	template <typename T>
 	class MuseumModule___c__DisplayClass171_1 : public ::System::Object

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateValueChangeInfo; }
 
-#define RPG_GAMECORE_FATEVALUECHANGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D671AB0)
-#define RPG_GAMECORE_FATEVALUECHANGEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D671A70)
+#define RPG_GAMECORE_FATEVALUECHANGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC971C0)
+#define RPG_GAMECORE_FATEVALUECHANGEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1FC97180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateValueChangeInfo_TypeDefinitionIndex = 19259;
+	inline static constexpr unsigned int FateValueChangeInfo_TypeDefinitionIndex = 19449;
 
 	class FateValueChangeInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define RPG_CLIENT_ASSETSYSTEM_ASSETLOADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4AC240)
-#define RPG_CLIENT_ASSETSYSTEM_ASSETLOADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4AC270)
-#define RPG_CLIENT_ASSETSYSTEM_ASSETLOADER___C___CTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1C4AC280)
+#define RPG_CLIENT_ASSETSYSTEM_ASSETLOADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD23900)
+#define RPG_CLIENT_ASSETSYSTEM_ASSETLOADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD23930)
+#define RPG_CLIENT_ASSETSYSTEM_ASSETLOADER___C___CTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1BD23940)
 
 namespace RPG::Client::AssetSystem
 {
-	inline static constexpr unsigned int AssetLoader___c_TypeDefinitionIndex = 41566;
+	inline static constexpr unsigned int AssetLoader___c_TypeDefinitionIndex = 42541;
 
 	class AssetLoader___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.AssetSystem", "<>c")->GetStaticField(0x1E430);
-		}
-
 		static ::System::Action_2<::RPG::Client::AssetSystem::AssetLoader*, ::UnityEngine::AsyncOperation*>** StaticGet___9__40_0()
 		{
-			return (::System::Action_2<::RPG::Client::AssetSystem::AssetLoader*, ::UnityEngine::AsyncOperation*>**)UnitySDK::FromName("RPG.Client.AssetSystem", "<>c")->GetStaticField(0x1E438);
+			return (::System::Action_2<::RPG::Client::AssetSystem::AssetLoader*, ::UnityEngine::AsyncOperation*>**)UnitySDK::FromName("RPG.Client.AssetSystem", "<>c")->GetStaticField(0xC9D0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.AssetSystem", "<>c")->GetStaticField(0xC9D8);
 		}
 
 		static ::System::Void _cctor()

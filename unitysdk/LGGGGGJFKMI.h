@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define LGGGGGJFKMI_EQUALS_OFFSET UNITYSDK_OFFSET(0x18FF0)
-#define LGGGGGJFKMI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19050)
+#define LGGGGGJFKMI_EQUALS_OFFSET UNITYSDK_OFFSET(0x3EAB880)
+#define LGGGGGJFKMI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3EAB8E0)
 
-inline static constexpr unsigned int LGGGGGJFKMI_TypeDefinitionIndex = 56689;
+inline static constexpr unsigned int LGGGGGJFKMI_TypeDefinitionIndex = 57913;
 
 	struct alignas(4) LGGGGGJFKMI
 	{

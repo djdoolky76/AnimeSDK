@@ -5,12 +5,12 @@ namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class EnterExceptionHandlerInstruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDB5180)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDB5100)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDB5150)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDB5110)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDB5160)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDB5170)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C464300)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C464280)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1C4642D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1C464290)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1C4642E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1C4642F0)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -20,14 +20,14 @@ namespace System::Linq::Expressions::Interpreter
 	{
 	public:
 		::System::Boolean _hasValue; // 0x10
-		static ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction** StaticGet_Void()
-		{
-			return (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "EnterExceptionHandlerInstruction")->GetStaticField(0x3B150);
-		}
-
 		static ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction** StaticGet_NonVoid()
 		{
-			return (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "EnterExceptionHandlerInstruction")->GetStaticField(0x3B158);
+			return (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "EnterExceptionHandlerInstruction")->GetStaticField(0x31500);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction** StaticGet_Void()
+		{
+			return (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "EnterExceptionHandlerInstruction")->GetStaticField(0x31508);
 		}
 
 		::System::Void _ctor(::System::Boolean a1)

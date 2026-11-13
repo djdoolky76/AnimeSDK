@@ -4,9 +4,9 @@
 class HNCHGCMKAKE;
 class MKENKALADDC;
 
-#define CLKBNDOJEHF_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0xD789550)
+#define CLKBNDOJEHF_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0x1B17E690)
 
-inline static constexpr unsigned int CLKBNDOJEHF_TypeDefinitionIndex = 62421;
+inline static constexpr unsigned int CLKBNDOJEHF_TypeDefinitionIndex = 63834;
 
 	class CLKBNDOJEHF : public ::System::Object
 	{

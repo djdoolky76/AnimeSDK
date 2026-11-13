@@ -4,11 +4,11 @@ namespace RPG::Client { class QuestData; }
 namespace RPG::GameCore { class ScalePropByCollectionProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JEFACKHBIKH_AJMHFCJAKEJ_OFFSET UNITYSDK_OFFSET(0x166100A0)
-#define JEFACKHBIKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1660FDE0)
-#define JEFACKHBIKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1660FE10)
+#define JEFACKHBIKH_AJMHFCJAKEJ_OFFSET UNITYSDK_OFFSET(0x13064BF0)
+#define JEFACKHBIKH_CTOR_OFFSET UNITYSDK_OFFSET(0x13064930)
+#define JEFACKHBIKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13064960)
 
-inline static constexpr unsigned int JEFACKHBIKH_TypeDefinitionIndex = 58505;
+inline static constexpr unsigned int JEFACKHBIKH_TypeDefinitionIndex = 59769;
 
 	class JEFACKHBIKH
 	{

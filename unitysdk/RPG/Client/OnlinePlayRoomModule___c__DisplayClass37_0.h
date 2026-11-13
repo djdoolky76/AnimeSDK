@@ -1,28 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client { class MissionModule; }
+namespace RPG::Client { class EarlyAccessContent; }
+namespace RPG::Client { class EarlyAccessModule; }
+namespace RPG::Client { class OnlinePlayRoomModule; }
+namespace System { class Action; }
 
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9E5180)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0___ACCEPTANDTRACKPREMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xD9EA870)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE8390)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0___HANDLEPARKLOCKEDFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0x1BEE83A0)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0___HANDLEPARKLOCKEDFLOOR_B__1_OFFSET UNITYSDK_OFFSET(0x1BEE8510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass37_0_TypeDefinitionIndex = 66404;
+	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass37_0_TypeDefinitionIndex = 68339;
 
 	class OnlinePlayRoomModule___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MissionModule* missionModule; // 0x10
-		::System::UInt32 preMissionID; // 0x18
+		::RPG::Client::OnlinePlayRoomModule* __4__this; // 0x10
+		::RPG::Client::EarlyAccessModule* earlyAccessModule; // 0x18
+		::RPG::Client::EarlyAccessContent* content; // 0x20
+		::System::Action* __9__1; // 0x28
+		::System::UInt32 preMissionID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Void __AcceptAndTrackPreMission_b__0()
+		::System::Void __HandleParkLockedFloor_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0___ACCEPTANDTRACKPREMISSION_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0___HANDLEPARKLOCKEDFLOOR_B__0_OFFSET))(this);
+		}
+
+		::System::Void __HandleParkLockedFloor_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS37_0___HANDLEPARKLOCKEDFLOOR_B__1_OFFSET))(this);
 		}
 
 	};

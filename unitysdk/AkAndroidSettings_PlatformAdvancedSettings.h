@@ -4,10 +4,10 @@
 #include "unitysdk/AkCommonAdvancedSettings.h"
 class AkPlatformInitSettings;
 
-#define AKANDROIDSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F5449D0)
-#define AKANDROIDSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F544A20)
+#define AKANDROIDSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1EEF3360)
+#define AKANDROIDSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF33B0)
 
-inline static constexpr unsigned int AkAndroidSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 44808;
+inline static constexpr unsigned int AkAndroidSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 45883;
 
 	class AkAndroidSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 	{

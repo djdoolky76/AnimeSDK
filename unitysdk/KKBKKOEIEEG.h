@@ -4,15 +4,15 @@
 #include "unitysdk/IGKFNIEJGLM.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define KKBKKOEIEEG_CGDNPIJGNNK_OFFSET UNITYSDK_OFFSET(0xB45E2A0)
-#define KKBKKOEIEEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB45E2E0)
-#define KKBKKOEIEEG_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xB45E130)
-#define KKBKKOEIEEG_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB45E1C0)
-#define KKBKKOEIEEG_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB45E200)
-#define KKBKKOEIEEG__ONBIND_OFFSET UNITYSDK_OFFSET(0xB45DFD0)
-#define KKBKKOEIEEG__ONTICK_OFFSET UNITYSDK_OFFSET(0xB45E240)
+#define KKBKKOEIEEG_CGDNPIJGNNK_OFFSET UNITYSDK_OFFSET(0x1733A060)
+#define KKBKKOEIEEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1733A0A0)
+#define KKBKKOEIEEG__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x17339FC0)
+#define KKBKKOEIEEG__ONBIND_OFFSET UNITYSDK_OFFSET(0x17339D90)
+#define KKBKKOEIEEG__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x17339EF0)
+#define KKBKKOEIEEG__ONTICK_OFFSET UNITYSDK_OFFSET(0x1733A000)
+#define KKBKKOEIEEG__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x17339F80)
 
-inline static constexpr unsigned int KKBKKOEIEEG_TypeDefinitionIndex = 71479;
+inline static constexpr unsigned int KKBKKOEIEEG_TypeDefinitionIndex = 73464;
 
 	class KKBKKOEIEEG : public ::FMPCODLIOLG
 	{
@@ -29,19 +29,19 @@ inline static constexpr unsigned int KKBKKOEIEEG_TypeDefinitionIndex = 71479;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKBKKOEIEEG__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + KKBKKOEIEEG_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + KKBKKOEIEEG__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKBKKOEIEEG_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKBKKOEIEEG__SETUPVIEW_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKBKKOEIEEG_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKBKKOEIEEG__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void _OnTick(::System::Single a1)

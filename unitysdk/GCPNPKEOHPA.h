@@ -6,337 +6,337 @@ namespace Entitas { template <typename T> class IAnyOfMatcher_1; }
 namespace Entitas { template <typename T> class IMatcher_1; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define GCPNPKEOHPA_AGHOOGIKBCC_OFFSET UNITYSDK_OFFSET(0x1CA5AC30)
-#define GCPNPKEOHPA_AGJFIGFGAGK_OFFSET UNITYSDK_OFFSET(0x1CA566D0)
-#define GCPNPKEOHPA_AIFPJFNMMFO_OFFSET UNITYSDK_OFFSET(0x1CA590D0)
-#define GCPNPKEOHPA_AIGMCFHFFOH_OFFSET UNITYSDK_OFFSET(0x1CA59E50)
-#define GCPNPKEOHPA_AJAOFPLFLPD_OFFSET UNITYSDK_OFFSET(0x1CA59280)
-#define GCPNPKEOHPA_ALEHCHMCEHN_OFFSET UNITYSDK_OFFSET(0x1CA57EA0)
-#define GCPNPKEOHPA_ALEHLGBELAN_OFFSET UNITYSDK_OFFSET(0x1CA56070)
-#define GCPNPKEOHPA_AMLIFDOGJMN_OFFSET UNITYSDK_OFFSET(0x1CA56880)
-#define GCPNPKEOHPA_AOFAMJMIOCN_OFFSET UNITYSDK_OFFSET(0x1CA56010)
-#define GCPNPKEOHPA_AONDNLJOOBC_OFFSET UNITYSDK_OFFSET(0x1CA588C0)
-#define GCPNPKEOHPA_BAJDMHLDCBD_OFFSET UNITYSDK_OFFSET(0x1CA574B0)
-#define GCPNPKEOHPA_BBGJNNMBHPI_OFFSET UNITYSDK_OFFSET(0x1CA58710)
-#define GCPNPKEOHPA_BEMGIFOEOEF_OFFSET UNITYSDK_OFFSET(0x1CA579C0)
-#define GCPNPKEOHPA_BGNEOKPFMKC_OFFSET UNITYSDK_OFFSET(0x1CA5ABD0)
-#define GCPNPKEOHPA_BKDAOOKLAHP_OFFSET UNITYSDK_OFFSET(0x1CA56580)
-#define GCPNPKEOHPA_BLPLAFPIJPC_OFFSET UNITYSDK_OFFSET(0x1CA570F0)
-#define GCPNPKEOHPA_CAFMKPKBDOE_OFFSET UNITYSDK_OFFSET(0x1CA59640)
-#define GCPNPKEOHPA_CAINAEMBMAL_OFFSET UNITYSDK_OFFSET(0x1CA57CF0)
-#define GCPNPKEOHPA_CAKGMPIIBII_OFFSET UNITYSDK_OFFSET(0x1CA56220)
-#define GCPNPKEOHPA_CFPOHFIMHBO_OFFSET UNITYSDK_OFFSET(0x1CA57AE0)
-#define GCPNPKEOHPA_CKCLHJNCCLE_1_OFFSET UNITYSDK_OFFSET(0x1CA5AF30)
-#define GCPNPKEOHPA_CKCLHJNCCLE_OFFSET UNITYSDK_OFFSET(0x1CA5AEA0)
-#define GCPNPKEOHPA_CKMNFOONMCO_OFFSET UNITYSDK_OFFSET(0x1CA56370)
-#define GCPNPKEOHPA_COKJFGIFEGM_OFFSET UNITYSDK_OFFSET(0x1CA5A060)
-#define GCPNPKEOHPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA5AFC0)
-#define GCPNPKEOHPA_DDLDKLAOCJF_OFFSET UNITYSDK_OFFSET(0x1CA5A360)
-#define GCPNPKEOHPA_DKNDEDKAOPK_OFFSET UNITYSDK_OFFSET(0x1CA58350)
-#define GCPNPKEOHPA_EADEGOJFFOM_OFFSET UNITYSDK_OFFSET(0x1CA5AA80)
-#define GCPNPKEOHPA_EAMDAODDLDH_OFFSET UNITYSDK_OFFSET(0x1CA5A6C0)
-#define GCPNPKEOHPA_EENBIGGIEAM_OFFSET UNITYSDK_OFFSET(0x1CA59790)
-#define GCPNPKEOHPA_FBKJACHKEKI_OFFSET UNITYSDK_OFFSET(0x1CA5A8D0)
-#define GCPNPKEOHPA_FGHIMAIKBEA_OFFSET UNITYSDK_OFFSET(0x1CA56520)
-#define GCPNPKEOHPA_FPGGHCDAMDO_OFFSET UNITYSDK_OFFSET(0x1CA56FA0)
-#define GCPNPKEOHPA_GJEJOMPLLGH_OFFSET UNITYSDK_OFFSET(0x1CA56F40)
-#define GCPNPKEOHPA_GJGFCBCGDHP_OFFSET UNITYSDK_OFFSET(0x1CA57810)
-#define GCPNPKEOHPA_GKOGLIGOAIE_OFFSET UNITYSDK_OFFSET(0x1CA58C20)
-#define GCPNPKEOHPA_HFCELDOFMHH_OFFSET UNITYSDK_OFFSET(0x1CA56C40)
-#define GCPNPKEOHPA_HGEJFJIGOAI_OFFSET UNITYSDK_OFFSET(0x1CA5A720)
-#define GCPNPKEOHPA_HHHHKBMDLAN_OFFSET UNITYSDK_OFFSET(0x1CA563D0)
-#define GCPNPKEOHPA_HIANOPKMIMK_OFFSET UNITYSDK_OFFSET(0x1CA59B50)
-#define GCPNPKEOHPA_HOAJENAOGCF_OFFSET UNITYSDK_OFFSET(0x1CA57600)
-#define GCPNPKEOHPA_HOKACJPBMAN_OFFSET UNITYSDK_OFFSET(0x1CA56D90)
-#define GCPNPKEOHPA_IDPLNGHMNKJ_OFFSET UNITYSDK_OFFSET(0x1CA57FF0)
-#define GCPNPKEOHPA_IEBBFEGIFIB_OFFSET UNITYSDK_OFFSET(0x1CA57660)
-#define GCPNPKEOHPA_IFGIPANNPFA_OFFSET UNITYSDK_OFFSET(0x1CA5A3C0)
-#define GCPNPKEOHPA_IGCKAHABPMI_OFFSET UNITYSDK_OFFSET(0x1CA57300)
-#define GCPNPKEOHPA_IIDKDLGBMIA_OFFSET UNITYSDK_OFFSET(0x1CA5A570)
-#define GCPNPKEOHPA_IIEIPPILLEC_OFFSET UNITYSDK_OFFSET(0x1CA568E0)
-#define GCPNPKEOHPA_IJGOHJNDIIA_OFFSET UNITYSDK_OFFSET(0x1CA577B0)
-#define GCPNPKEOHPA_IJMHBJGNEEH_OFFSET UNITYSDK_OFFSET(0x1CA57150)
-#define GCPNPKEOHPA_ILNGLBPLCIE_OFFSET UNITYSDK_OFFSET(0x1CA583B0)
-#define GCPNPKEOHPA_JCDDDMMMEDK_OFFSET UNITYSDK_OFFSET(0x1CA5AA20)
-#define GCPNPKEOHPA_JDCJDKDIDOD_OFFSET UNITYSDK_OFFSET(0x1CA58F80)
-#define GCPNPKEOHPA_JEAONOJAEGM_OFFSET UNITYSDK_OFFSET(0x1CA58050)
-#define GCPNPKEOHPA_JEFFONELMNB_OFFSET UNITYSDK_OFFSET(0x1CA57C90)
-#define GCPNPKEOHPA_JEMGNMFANMF_OFFSET UNITYSDK_OFFSET(0x1CA599A0)
-#define GCPNPKEOHPA_JGCHNIPCMHC_OFFSET UNITYSDK_OFFSET(0x1CA59CA0)
-#define GCPNPKEOHPA_JHCGBMCEDHH_OFFSET UNITYSDK_OFFSET(0x1CA586B0)
-#define GCPNPKEOHPA_JIOGPPHAPGH_OFFSET UNITYSDK_OFFSET(0x1CA595E0)
-#define GCPNPKEOHPA_JNJLKDFHMDJ_OFFSET UNITYSDK_OFFSET(0x1CA59EB0)
-#define GCPNPKEOHPA_KAEOCKKBION_OFFSET UNITYSDK_OFFSET(0x1CA561C0)
-#define GCPNPKEOHPA_KBIJCECOLCE_OFFSET UNITYSDK_OFFSET(0x1CA56A90)
-#define GCPNPKEOHPA_KBJEFMMMCCA_OFFSET UNITYSDK_OFFSET(0x1CA5A870)
-#define GCPNPKEOHPA_KBKCLHBJGLE_OFFSET UNITYSDK_OFFSET(0x1CA5A510)
-#define GCPNPKEOHPA_KBNLBBBPNDF_OFFSET UNITYSDK_OFFSET(0x1CA56DF0)
-#define GCPNPKEOHPA_KCKGCBPHGBD_1_OFFSET UNITYSDK_OFFSET(0x1CA5AE10)
-#define GCPNPKEOHPA_KCKGCBPHGBD_OFFSET UNITYSDK_OFFSET(0x1CA5AD80)
-#define GCPNPKEOHPA_KHAFCOHKCMB_OFFSET UNITYSDK_OFFSET(0x1CA59940)
-#define GCPNPKEOHPA_KKLFPMCPFFO_OFFSET UNITYSDK_OFFSET(0x1CA56BE0)
-#define GCPNPKEOHPA_KLCMIAMJJPG_OFFSET UNITYSDK_OFFSET(0x1CA581A0)
-#define GCPNPKEOHPA_KLDINFIFEGO_OFFSET UNITYSDK_OFFSET(0x1CA572A0)
-#define GCPNPKEOHPA_KMECBKCAFNL_OFFSET UNITYSDK_OFFSET(0x1CA59D00)
-#define GCPNPKEOHPA_KNJFFKIMDAA_OFFSET UNITYSDK_OFFSET(0x1CA59130)
-#define GCPNPKEOHPA_LDJGEDINPAM_OFFSET UNITYSDK_OFFSET(0x1CA57450)
-#define GCPNPKEOHPA_LFINBLCILDI_OFFSET UNITYSDK_OFFSET(0x1CA57E40)
-#define GCPNPKEOHPA_LICJLBBNNHH_OFFSET UNITYSDK_OFFSET(0x1CA58F20)
-#define GCPNPKEOHPA_LJMJDKKGMDJ_OFFSET UNITYSDK_OFFSET(0x1CA59490)
-#define GCPNPKEOHPA_LKGAINEFBKH_OFFSET UNITYSDK_OFFSET(0x1CA58860)
-#define GCPNPKEOHPA_LNEDOOFCBPE_OFFSET UNITYSDK_OFFSET(0x1CA58560)
-#define GCPNPKEOHPA_LODGMNJOKOI_OFFSET UNITYSDK_OFFSET(0x1CA5A000)
-#define GCPNPKEOHPA_MBLOIPNDNJG_OFFSET UNITYSDK_OFFSET(0x1CA58A10)
-#define GCPNPKEOHPA_MEJGMCFDEEC_OFFSET UNITYSDK_OFFSET(0x1CA5A1B0)
-#define GCPNPKEOHPA_MHLCGPCFFGH_OFFSET UNITYSDK_OFFSET(0x1CA57B40)
-#define GCPNPKEOHPA_MKOKKNGFJCC_OFFSET UNITYSDK_OFFSET(0x1CA58A70)
-#define GCPNPKEOHPA_NALNGMLENOP_OFFSET UNITYSDK_OFFSET(0x1CA56730)
-#define GCPNPKEOHPA_NAMIPFEIDHB_OFFSET UNITYSDK_OFFSET(0x1CA59430)
-#define GCPNPKEOHPA_NDAMLDDDJKI_OFFSET UNITYSDK_OFFSET(0x1CA58BC0)
-#define GCPNPKEOHPA_NIOPOKCOKKB_OFFSET UNITYSDK_OFFSET(0x1CA58D70)
-#define GCPNPKEOHPA_OAKMPHPDCFO_OFFSET UNITYSDK_OFFSET(0x1CA59AF0)
-#define GCPNPKEOHPA_OKGEHGHAGMG_OFFSET UNITYSDK_OFFSET(0x1CA58DD0)
-#define GCPNPKEOHPA_OOHGMBEGIJE_OFFSET UNITYSDK_OFFSET(0x1CA5A210)
-#define GCPNPKEOHPA_PAICOMAEPAC_OFFSET UNITYSDK_OFFSET(0x1CA592E0)
-#define GCPNPKEOHPA_PHOLLNGHOIE_OFFSET UNITYSDK_OFFSET(0x1CA56A30)
-#define GCPNPKEOHPA_PIGCOOOCHPI_OFFSET UNITYSDK_OFFSET(0x1CA597F0)
-#define GCPNPKEOHPA_PKGEAMAFOGJ_OFFSET UNITYSDK_OFFSET(0x1CA58200)
-#define GCPNPKEOHPA_PLOOKBGHBLD_OFFSET UNITYSDK_OFFSET(0x1CA58500)
-#define GCPNPKEOHPA_PLPCCINFDGH_OFFSET UNITYSDK_OFFSET(0x1CA57960)
+#define GCPNPKEOHPA_AGHOOGIKBCC_OFFSET UNITYSDK_OFFSET(0x1C225390)
+#define GCPNPKEOHPA_AGJFIGFGAGK_OFFSET UNITYSDK_OFFSET(0x1C220E30)
+#define GCPNPKEOHPA_AIFPJFNMMFO_OFFSET UNITYSDK_OFFSET(0x1C223830)
+#define GCPNPKEOHPA_AIGMCFHFFOH_OFFSET UNITYSDK_OFFSET(0x1C2245B0)
+#define GCPNPKEOHPA_AJAOFPLFLPD_OFFSET UNITYSDK_OFFSET(0x1C2239E0)
+#define GCPNPKEOHPA_ALEHCHMCEHN_OFFSET UNITYSDK_OFFSET(0x1C222600)
+#define GCPNPKEOHPA_ALEHLGBELAN_OFFSET UNITYSDK_OFFSET(0x1C2207D0)
+#define GCPNPKEOHPA_AMLIFDOGJMN_OFFSET UNITYSDK_OFFSET(0x1C220FE0)
+#define GCPNPKEOHPA_AOFAMJMIOCN_OFFSET UNITYSDK_OFFSET(0x1C220770)
+#define GCPNPKEOHPA_AONDNLJOOBC_OFFSET UNITYSDK_OFFSET(0x1C223020)
+#define GCPNPKEOHPA_BAJDMHLDCBD_OFFSET UNITYSDK_OFFSET(0x1C221C10)
+#define GCPNPKEOHPA_BBGJNNMBHPI_OFFSET UNITYSDK_OFFSET(0x1C222E70)
+#define GCPNPKEOHPA_BEMGIFOEOEF_OFFSET UNITYSDK_OFFSET(0x1C222120)
+#define GCPNPKEOHPA_BGNEOKPFMKC_OFFSET UNITYSDK_OFFSET(0x1C225330)
+#define GCPNPKEOHPA_BKDAOOKLAHP_OFFSET UNITYSDK_OFFSET(0x1C220CE0)
+#define GCPNPKEOHPA_BLPLAFPIJPC_OFFSET UNITYSDK_OFFSET(0x1C221850)
+#define GCPNPKEOHPA_CAFMKPKBDOE_OFFSET UNITYSDK_OFFSET(0x1C223DA0)
+#define GCPNPKEOHPA_CAINAEMBMAL_OFFSET UNITYSDK_OFFSET(0x1C222450)
+#define GCPNPKEOHPA_CAKGMPIIBII_OFFSET UNITYSDK_OFFSET(0x1C220980)
+#define GCPNPKEOHPA_CFPOHFIMHBO_OFFSET UNITYSDK_OFFSET(0x1C222240)
+#define GCPNPKEOHPA_CKCLHJNCCLE_1_OFFSET UNITYSDK_OFFSET(0x1C225690)
+#define GCPNPKEOHPA_CKCLHJNCCLE_OFFSET UNITYSDK_OFFSET(0x1C225600)
+#define GCPNPKEOHPA_CKMNFOONMCO_OFFSET UNITYSDK_OFFSET(0x1C220AD0)
+#define GCPNPKEOHPA_COKJFGIFEGM_OFFSET UNITYSDK_OFFSET(0x1C2247C0)
+#define GCPNPKEOHPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C225720)
+#define GCPNPKEOHPA_DDLDKLAOCJF_OFFSET UNITYSDK_OFFSET(0x1C224AC0)
+#define GCPNPKEOHPA_DKNDEDKAOPK_OFFSET UNITYSDK_OFFSET(0x1C222AB0)
+#define GCPNPKEOHPA_EADEGOJFFOM_OFFSET UNITYSDK_OFFSET(0x1C2251E0)
+#define GCPNPKEOHPA_EAMDAODDLDH_OFFSET UNITYSDK_OFFSET(0x1C224E20)
+#define GCPNPKEOHPA_EENBIGGIEAM_OFFSET UNITYSDK_OFFSET(0x1C223EF0)
+#define GCPNPKEOHPA_FBKJACHKEKI_OFFSET UNITYSDK_OFFSET(0x1C225030)
+#define GCPNPKEOHPA_FGHIMAIKBEA_OFFSET UNITYSDK_OFFSET(0x1C220C80)
+#define GCPNPKEOHPA_FPGGHCDAMDO_OFFSET UNITYSDK_OFFSET(0x1C221700)
+#define GCPNPKEOHPA_GJEJOMPLLGH_OFFSET UNITYSDK_OFFSET(0x1C2216A0)
+#define GCPNPKEOHPA_GJGFCBCGDHP_OFFSET UNITYSDK_OFFSET(0x1C221F70)
+#define GCPNPKEOHPA_GKOGLIGOAIE_OFFSET UNITYSDK_OFFSET(0x1C223380)
+#define GCPNPKEOHPA_HFCELDOFMHH_OFFSET UNITYSDK_OFFSET(0x1C2213A0)
+#define GCPNPKEOHPA_HGEJFJIGOAI_OFFSET UNITYSDK_OFFSET(0x1C224E80)
+#define GCPNPKEOHPA_HHHHKBMDLAN_OFFSET UNITYSDK_OFFSET(0x1C220B30)
+#define GCPNPKEOHPA_HIANOPKMIMK_OFFSET UNITYSDK_OFFSET(0x1C2242B0)
+#define GCPNPKEOHPA_HOAJENAOGCF_OFFSET UNITYSDK_OFFSET(0x1C221D60)
+#define GCPNPKEOHPA_HOKACJPBMAN_OFFSET UNITYSDK_OFFSET(0x1C2214F0)
+#define GCPNPKEOHPA_IDPLNGHMNKJ_OFFSET UNITYSDK_OFFSET(0x1C222750)
+#define GCPNPKEOHPA_IEBBFEGIFIB_OFFSET UNITYSDK_OFFSET(0x1C221DC0)
+#define GCPNPKEOHPA_IFGIPANNPFA_OFFSET UNITYSDK_OFFSET(0x1C224B20)
+#define GCPNPKEOHPA_IGCKAHABPMI_OFFSET UNITYSDK_OFFSET(0x1C221A60)
+#define GCPNPKEOHPA_IIDKDLGBMIA_OFFSET UNITYSDK_OFFSET(0x1C224CD0)
+#define GCPNPKEOHPA_IIEIPPILLEC_OFFSET UNITYSDK_OFFSET(0x1C221040)
+#define GCPNPKEOHPA_IJGOHJNDIIA_OFFSET UNITYSDK_OFFSET(0x1C221F10)
+#define GCPNPKEOHPA_IJMHBJGNEEH_OFFSET UNITYSDK_OFFSET(0x1C2218B0)
+#define GCPNPKEOHPA_ILNGLBPLCIE_OFFSET UNITYSDK_OFFSET(0x1C222B10)
+#define GCPNPKEOHPA_JCDDDMMMEDK_OFFSET UNITYSDK_OFFSET(0x1C225180)
+#define GCPNPKEOHPA_JDCJDKDIDOD_OFFSET UNITYSDK_OFFSET(0x1C2236E0)
+#define GCPNPKEOHPA_JEAONOJAEGM_OFFSET UNITYSDK_OFFSET(0x1C2227B0)
+#define GCPNPKEOHPA_JEFFONELMNB_OFFSET UNITYSDK_OFFSET(0x1C2223F0)
+#define GCPNPKEOHPA_JEMGNMFANMF_OFFSET UNITYSDK_OFFSET(0x1C224100)
+#define GCPNPKEOHPA_JGCHNIPCMHC_OFFSET UNITYSDK_OFFSET(0x1C224400)
+#define GCPNPKEOHPA_JHCGBMCEDHH_OFFSET UNITYSDK_OFFSET(0x1C222E10)
+#define GCPNPKEOHPA_JIOGPPHAPGH_OFFSET UNITYSDK_OFFSET(0x1C223D40)
+#define GCPNPKEOHPA_JNJLKDFHMDJ_OFFSET UNITYSDK_OFFSET(0x1C224610)
+#define GCPNPKEOHPA_KAEOCKKBION_OFFSET UNITYSDK_OFFSET(0x1C220920)
+#define GCPNPKEOHPA_KBIJCECOLCE_OFFSET UNITYSDK_OFFSET(0x1C2211F0)
+#define GCPNPKEOHPA_KBJEFMMMCCA_OFFSET UNITYSDK_OFFSET(0x1C224FD0)
+#define GCPNPKEOHPA_KBKCLHBJGLE_OFFSET UNITYSDK_OFFSET(0x1C224C70)
+#define GCPNPKEOHPA_KBNLBBBPNDF_OFFSET UNITYSDK_OFFSET(0x1C221550)
+#define GCPNPKEOHPA_KCKGCBPHGBD_1_OFFSET UNITYSDK_OFFSET(0x1C225570)
+#define GCPNPKEOHPA_KCKGCBPHGBD_OFFSET UNITYSDK_OFFSET(0x1C2254E0)
+#define GCPNPKEOHPA_KHAFCOHKCMB_OFFSET UNITYSDK_OFFSET(0x1C2240A0)
+#define GCPNPKEOHPA_KKLFPMCPFFO_OFFSET UNITYSDK_OFFSET(0x1C221340)
+#define GCPNPKEOHPA_KLCMIAMJJPG_OFFSET UNITYSDK_OFFSET(0x1C222900)
+#define GCPNPKEOHPA_KLDINFIFEGO_OFFSET UNITYSDK_OFFSET(0x1C221A00)
+#define GCPNPKEOHPA_KMECBKCAFNL_OFFSET UNITYSDK_OFFSET(0x1C224460)
+#define GCPNPKEOHPA_KNJFFKIMDAA_OFFSET UNITYSDK_OFFSET(0x1C223890)
+#define GCPNPKEOHPA_LDJGEDINPAM_OFFSET UNITYSDK_OFFSET(0x1C221BB0)
+#define GCPNPKEOHPA_LFINBLCILDI_OFFSET UNITYSDK_OFFSET(0x1C2225A0)
+#define GCPNPKEOHPA_LICJLBBNNHH_OFFSET UNITYSDK_OFFSET(0x1C223680)
+#define GCPNPKEOHPA_LJMJDKKGMDJ_OFFSET UNITYSDK_OFFSET(0x1C223BF0)
+#define GCPNPKEOHPA_LKGAINEFBKH_OFFSET UNITYSDK_OFFSET(0x1C222FC0)
+#define GCPNPKEOHPA_LNEDOOFCBPE_OFFSET UNITYSDK_OFFSET(0x1C222CC0)
+#define GCPNPKEOHPA_LODGMNJOKOI_OFFSET UNITYSDK_OFFSET(0x1C224760)
+#define GCPNPKEOHPA_MBLOIPNDNJG_OFFSET UNITYSDK_OFFSET(0x1C223170)
+#define GCPNPKEOHPA_MEJGMCFDEEC_OFFSET UNITYSDK_OFFSET(0x1C224910)
+#define GCPNPKEOHPA_MHLCGPCFFGH_OFFSET UNITYSDK_OFFSET(0x1C2222A0)
+#define GCPNPKEOHPA_MKOKKNGFJCC_OFFSET UNITYSDK_OFFSET(0x1C2231D0)
+#define GCPNPKEOHPA_NALNGMLENOP_OFFSET UNITYSDK_OFFSET(0x1C220E90)
+#define GCPNPKEOHPA_NAMIPFEIDHB_OFFSET UNITYSDK_OFFSET(0x1C223B90)
+#define GCPNPKEOHPA_NDAMLDDDJKI_OFFSET UNITYSDK_OFFSET(0x1C223320)
+#define GCPNPKEOHPA_NIOPOKCOKKB_OFFSET UNITYSDK_OFFSET(0x1C2234D0)
+#define GCPNPKEOHPA_OAKMPHPDCFO_OFFSET UNITYSDK_OFFSET(0x1C224250)
+#define GCPNPKEOHPA_OKGEHGHAGMG_OFFSET UNITYSDK_OFFSET(0x1C223530)
+#define GCPNPKEOHPA_OOHGMBEGIJE_OFFSET UNITYSDK_OFFSET(0x1C224970)
+#define GCPNPKEOHPA_PAICOMAEPAC_OFFSET UNITYSDK_OFFSET(0x1C223A40)
+#define GCPNPKEOHPA_PHOLLNGHOIE_OFFSET UNITYSDK_OFFSET(0x1C221190)
+#define GCPNPKEOHPA_PIGCOOOCHPI_OFFSET UNITYSDK_OFFSET(0x1C223F50)
+#define GCPNPKEOHPA_PKGEAMAFOGJ_OFFSET UNITYSDK_OFFSET(0x1C222960)
+#define GCPNPKEOHPA_PLOOKBGHBLD_OFFSET UNITYSDK_OFFSET(0x1C222C60)
+#define GCPNPKEOHPA_PLPCCINFDGH_OFFSET UNITYSDK_OFFSET(0x1C2220C0)
 
-inline static constexpr unsigned int GCPNPKEOHPA_TypeDefinitionIndex = 42586;
+inline static constexpr unsigned int GCPNPKEOHPA_TypeDefinitionIndex = 43565;
 
 	class GCPNPKEOHPA : public ::System::Object
 	{
 	public:
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_PFHFMOEGHCC()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C590);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_PKPDCOADNLI()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C598);
-		}
-
 		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_KHGCKKMCDFN()
 		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5A0);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_MAJOHGJNMLE()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5A8);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FJHBPJIMCJD()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5B0);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_MPMLDBAOBDA()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5B8);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_MMAOLBHHLIC()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5C0);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_KLKLMCDEHCN()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5C8);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_MMCAMGJOBHF()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5D0);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IJEBNBFPGIE()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5D8);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_OOOFMLMFGEM()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5E0);
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B640);
 		}
 
 		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IJIMDNNALAG()
 		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5E8);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_KEIBJHIKMAD()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5F0);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FABOKBIIEBC()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C5F8);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IFONKBHFMJA()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C600);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IIBPKGFGBGL()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C608);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_ADBDMOKCMNI()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C610);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IDKNOHAGBKF()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C618);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_KJGKEOEOMJI()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C620);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_GBFFEFOCKOD()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C628);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_AMDMBOOMEDA()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C630);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_BCENMHGJNJP()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C638);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_NBIHIICNOMM()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C640);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_GGENILGCBCI()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C648);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_OONONFDDIMN()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C650);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FMFIEGMAKPA()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C658);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_BKLEAMCNHEC()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C660);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_EBMFPHMIFGJ()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C668);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_DJEGJIIAACP()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C670);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FGAIOKDCNFF()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C678);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_HLGLDDABMLI()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C680);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_BBEBHNJNOOM()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C688);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_HEEOIABPABG()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C690);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_LHMAEILIDCI()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C698);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_BNAFOGODNON()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6A0);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_ECANGEKOCKG()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6A8);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IFHKLPEJCEH()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6B0);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_DPANCNHAJBM()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6B8);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_DFBLBBDALCH()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6C0);
-		}
-
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_GHDMIIPOEAF()
-		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6C8);
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B648);
 		}
 
 		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FBBDEFMAOJN()
 		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6D0);
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B650);
 		}
 
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_EKBGHOFECOM()
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_PFHFMOEGHCC()
 		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6D8);
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B658);
 		}
 
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_AKHKACNOKNF()
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_MAJOHGJNMLE()
 		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6E0);
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B660);
 		}
 
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_OFJGCBONPHP()
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_GBFFEFOCKOD()
 		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6E8);
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B668);
 		}
 
-		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_CMFIJAPJEIB()
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_HLGLDDABMLI()
 		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6F0);
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B670);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_KLKLMCDEHCN()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B678);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_GHDMIIPOEAF()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B680);
 		}
 
 		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_EDMKAJHNLIL()
 		{
-			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x3C6F8);
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B688);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IFHKLPEJCEH()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B690);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_ECANGEKOCKG()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B698);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_DPANCNHAJBM()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6A0);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_OFJGCBONPHP()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6A8);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_BCENMHGJNJP()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6B0);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_NBIHIICNOMM()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6B8);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FGAIOKDCNFF()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6C0);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_DJEGJIIAACP()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6C8);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_EKBGHOFECOM()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6D0);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_BNAFOGODNON()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6D8);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_DFBLBBDALCH()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6E0);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IIBPKGFGBGL()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6E8);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IJEBNBFPGIE()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6F0);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_HEEOIABPABG()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B6F8);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IDKNOHAGBKF()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B700);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_KJGKEOEOMJI()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B708);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_EBMFPHMIFGJ()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B710);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_OONONFDDIMN()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B718);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FJHBPJIMCJD()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B720);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_LHMAEILIDCI()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B728);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_BKLEAMCNHEC()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B730);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FABOKBIIEBC()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B738);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_PKPDCOADNLI()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B740);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_IFONKBHFMJA()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B748);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_BBEBHNJNOOM()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B750);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_OOOFMLMFGEM()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B758);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_MPMLDBAOBDA()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B760);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_CMFIJAPJEIB()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B768);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_MMAOLBHHLIC()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B770);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_MMCAMGJOBHF()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B778);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_AMDMBOOMEDA()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B780);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_ADBDMOKCMNI()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B788);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_FMFIEGMAKPA()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B790);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_GGENILGCBCI()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B798);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_KEIBJHIKMAD()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B7A0);
+		}
+
+		static ::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet_AKHKACNOKNF()
+		{
+			return (::Entitas::IMatcher_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "GCPNPKEOHPA")->GetStaticField(0x2B7A8);
 		}
 
 		::System::Void _ctor()

@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChunkedStructList_1_TypeDefinitionIndex = 35200;
+	inline static constexpr unsigned int ChunkedStructList_1_TypeDefinitionIndex = 36128;
 
 	template <typename T>
 	class ChunkedStructList_1 : public ::System::Object

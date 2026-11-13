@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PEPNFLNCDHG_EmoEnableSource_TypeDefinitionIndex = 57244;
+inline static constexpr unsigned int PEPNFLNCDHG_EmoEnableSource_TypeDefinitionIndex = 58471;
 
 	enum class PEPNFLNCDHG_EmoEnableSource : ::System::Int32
 	{

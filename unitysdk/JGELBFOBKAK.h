@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JGELBFOBKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C6CD0)
-#define JGELBFOBKAK_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6C6C90)
+#define JGELBFOBKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C131460)
+#define JGELBFOBKAK_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C131420)
 
-inline static constexpr unsigned int JGELBFOBKAK_TypeDefinitionIndex = 36470;
+inline static constexpr unsigned int JGELBFOBKAK_TypeDefinitionIndex = 37398;
 
 	class JGELBFOBKAK : public ::System::Object
 	{

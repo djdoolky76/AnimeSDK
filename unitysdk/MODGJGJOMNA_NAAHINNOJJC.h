@@ -7,7 +7,7 @@ class MODGJGJOMNA;
 class PHMHMHLCFMG;
 namespace System { class Action; }
 
-inline static constexpr unsigned int MODGJGJOMNA_NAAHINNOJJC_TypeDefinitionIndex = 49977;
+inline static constexpr unsigned int MODGJGJOMNA_NAAHINNOJJC_TypeDefinitionIndex = 51025;
 
 	class MODGJGJOMNA_NAAHINNOJJC : public ::System::Object
 	{

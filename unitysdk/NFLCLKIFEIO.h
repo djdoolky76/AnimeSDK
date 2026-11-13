@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PBGNKMMDBGD;
 
-#define NFLCLKIFEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C765A00)
-#define NFLCLKIFEIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C765A10)
+#define NFLCLKIFEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x160A6260)
+#define NFLCLKIFEIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x160A6270)
 
-inline static constexpr unsigned int NFLCLKIFEIO_TypeDefinitionIndex = 37438;
+inline static constexpr unsigned int NFLCLKIFEIO_TypeDefinitionIndex = 38366;
 
 	class NFLCLKIFEIO : public ::System::Object
 	{

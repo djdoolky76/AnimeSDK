@@ -5,18 +5,18 @@ namespace RPG::GameCore { class CharacterAtlasFaceMappingConfig; }
 namespace RPG::GameCore { class CharacterAtlasFaceSet; }
 namespace System { class String; }
 
-#define LGKOIEKPPHH_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xB694110)
-#define LGKOIEKPPHH_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xB694020)
-#define LGKOIEKPPHH_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xB6940C0)
+#define LGKOIEKPPHH_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x1BCABD20)
+#define LGKOIEKPPHH_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1BCABC30)
+#define LGKOIEKPPHH_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0x1BCABCD0)
 
-inline static constexpr unsigned int LGKOIEKPPHH_TypeDefinitionIndex = 73291;
+inline static constexpr unsigned int LGKOIEKPPHH_TypeDefinitionIndex = 75407;
 
 	class LGKOIEKPPHH : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::CharacterAtlasFaceMappingConfig** StaticGet_IGHAHBNLIJA()
 		{
-			return (::RPG::GameCore::CharacterAtlasFaceMappingConfig**)UnitySDK::FromName("", "LGKOIEKPPHH")->GetStaticField(0x600F0);
+			return (::RPG::GameCore::CharacterAtlasFaceMappingConfig**)UnitySDK::FromName("", "LGKOIEKPPHH")->GetStaticField(0x62E70);
 		}
 
 		static ::System::Void HCFINLKPIHL()

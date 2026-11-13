@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_NOTIFICATIONDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8D270)
+#define MIHOYO_SDK_NOTIFICATIONDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C344A40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NotificationDefine_TypeDefinitionIndex = 7586;
+	inline static constexpr unsigned int NotificationDefine_TypeDefinitionIndex = 7595;
 
 	class NotificationDefine : public ::System::Object
 	{

@@ -5,20 +5,20 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfCustomerDrink; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OEFKMHPCACD_AJMLMFCGGBM_OFFSET UNITYSDK_OFFSET(0xBE24C70)
-#define OEFKMHPCACD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE24320)
-#define OEFKMHPCACD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE24DF0)
-#define OEFKMHPCACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE24340)
-#define OEFKMHPCACD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE24740)
-#define OEFKMHPCACD_TICK_OFFSET UNITYSDK_OFFSET(0xBE24790)
+#define OEFKMHPCACD_AJMLMFCGGBM_OFFSET UNITYSDK_OFFSET(0x176523F0)
+#define OEFKMHPCACD_CTOR_OFFSET UNITYSDK_OFFSET(0x17651AA0)
+#define OEFKMHPCACD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17652570)
+#define OEFKMHPCACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17651AC0)
+#define OEFKMHPCACD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17651EC0)
+#define OEFKMHPCACD_TICK_OFFSET UNITYSDK_OFFSET(0x17651F10)
 
-inline static constexpr unsigned int OEFKMHPCACD_TypeDefinitionIndex = 52151;
+inline static constexpr unsigned int OEFKMHPCACD_TypeDefinitionIndex = 53256;
 
 	class OEFKMHPCACD
 	{
 	public:
-		::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x28
-		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
+		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x30
 		::System::Single PGMIOKKLHIE; // 0x38
 		::System::Single HBDJCFFDGDD; // 0x3C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfCustomerDrink* a2)

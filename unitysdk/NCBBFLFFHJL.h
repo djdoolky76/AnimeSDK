@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define NCBBFLFFHJL_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF11D0)
+#define NCBBFLFFHJL_CTOR_OFFSET UNITYSDK_OFFSET(0x150E3060)
 
-inline static constexpr unsigned int NCBBFLFFHJL_TypeDefinitionIndex = 48358;
+inline static constexpr unsigned int NCBBFLFFHJL_TypeDefinitionIndex = 49399;
 
 	class NCBBFLFFHJL : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleBoard_AirwallConfig_TypeDefinitionIndex = 78566;
+	inline static constexpr unsigned int DronesPuzzleBoard_AirwallConfig_TypeDefinitionIndex = 81301;
 
 	struct alignas(8) DronesPuzzleBoard_AirwallConfig
 	{

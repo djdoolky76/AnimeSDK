@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IKCBDMLDENO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB49BD0)
+#define IKCBDMLDENO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC36A00)
 
-inline static constexpr unsigned int IKCBDMLDENO_TypeDefinitionIndex = 41990;
+inline static constexpr unsigned int IKCBDMLDENO_TypeDefinitionIndex = 42965;
 
 	class IKCBDMLDENO : public ::System::Object
 	{

@@ -5,10 +5,10 @@ class CGPLPLEELDM;
 namespace Sofa { class BaseSofaUI3DWindow; }
 namespace Sofa { class BaseSofaWindow; }
 
-#define CGPLPLEELDM___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC89CC0)
-#define CGPLPLEELDM___C__DISPLAYCLASS7_0___FETCHFORSOFA_B__0_OFFSET UNITYSDK_OFFSET(0xCC89D50)
+#define CGPLPLEELDM___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17862FF0)
+#define CGPLPLEELDM___C__DISPLAYCLASS7_0___FETCHFORSOFA_B__0_OFFSET UNITYSDK_OFFSET(0x17863080)
 
-inline static constexpr unsigned int CGPLPLEELDM___c__DisplayClass7_0_TypeDefinitionIndex = 72994;
+inline static constexpr unsigned int CGPLPLEELDM___c__DisplayClass7_0_TypeDefinitionIndex = 75106;
 
 	class CGPLPLEELDM___c__DisplayClass7_0 : public ::System::Object
 	{

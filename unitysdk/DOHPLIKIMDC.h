@@ -18,40 +18,41 @@ namespace RPG::GameCore { class UnifiedBattleAreaConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DOHPLIKIMDC_CGDCDLPKIJG_OFFSET UNITYSDK_OFFSET(0x11FE4140)
-#define DOHPLIKIMDC_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE4180)
-#define DOHPLIKIMDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FE4250)
-#define DOHPLIKIMDC_FONJPMMINEF_OFFSET UNITYSDK_OFFSET(0x11FE4400)
-#define DOHPLIKIMDC_GDGAFFCFHCF_OFFSET UNITYSDK_OFFSET(0x11FE4100)
-#define DOHPLIKIMDC_GET_BLOCKREFS_OFFSET UNITYSDK_OFFSET(0x11FE4410)
-#define DOHPLIKIMDC_IKKHJCGECGP_OFFSET UNITYSDK_OFFSET(0x11FE4420)
-#define DOHPLIKIMDC_LAAIMCOJJJK_1_OFFSET UNITYSDK_OFFSET(0x11FE4320)
-#define DOHPLIKIMDC_LAAIMCOJJJK_OFFSET UNITYSDK_OFFSET(0x11FE42B0)
+#define DOHPLIKIMDC_CGDCDLPKIJG_OFFSET UNITYSDK_OFFSET(0x191A7580)
+#define DOHPLIKIMDC_CTOR_OFFSET UNITYSDK_OFFSET(0x191A75C0)
+#define DOHPLIKIMDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x191A7690)
+#define DOHPLIKIMDC_FONJPMMINEF_OFFSET UNITYSDK_OFFSET(0x191A7860)
+#define DOHPLIKIMDC_GDGAFFCFHCF_OFFSET UNITYSDK_OFFSET(0x191A7540)
+#define DOHPLIKIMDC_GET_BLOCKREFS_OFFSET UNITYSDK_OFFSET(0x191A7870)
+#define DOHPLIKIMDC_IKKHJCGECGP_OFFSET UNITYSDK_OFFSET(0x191A7880)
+#define DOHPLIKIMDC_LAAIMCOJJJK_1_OFFSET UNITYSDK_OFFSET(0x191A7770)
+#define DOHPLIKIMDC_LAAIMCOJJJK_OFFSET UNITYSDK_OFFSET(0x191A76F0)
 
-inline static constexpr unsigned int DOHPLIKIMDC_TypeDefinitionIndex = 73865;
+inline static constexpr unsigned int DOHPLIKIMDC_TypeDefinitionIndex = 75991;
 
 	class DOHPLIKIMDC : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::UnifiedBattleAreaConfig* IHKIPAGFBGB; // 0x10
-		::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* EADCDAIMHOE; // 0x18
-		::Il2CppArray<::RPG::GameCore::DistrictAudioRTPCConfig*>* PHLOALPKEFC; // 0x20
-		::RPG::Client::FMSystem* JONFOGGAKHC; // 0x28
-		::System::Collections::Generic::List_1<::KLEFGGIHGMI*>* GLELOFCFBCO; // 0x30
-		::RPG::Client::MonoEffect* OLLHLFNKOLH; // 0x38
-		::System::String* KPHGMBFAKDB; // 0x40
-		::System::String* OINEOFGIPAA; // 0x48
-		::RPG::GameCore::StageGrassOverrideConfig* IGAEFMFMKOM; // 0x50
-		::Il2CppArray<::System::String*>* PLHEFECGEGO; // 0x58
-		::System::String* GNNLGGOLNIC; // 0x60
-		::MCLHMGFGEFK BFLIFKBEOPJ; // 0x68
-		::System::Collections::Generic::List_1<::KEGBGDCJHDH*>* _BlockRefs_k__BackingField; // 0x80
-		::RPG::GameCore::EnviromentControlPriority JJCGJLGGEJL; // 0x88
-		::System::UInt32 ALPOBFGOLOL; // 0x8C
-		::UnityEngine::Vector3 NPNKJAPMINI; // 0x90
-		::UnityEngine::Quaternion BLLHKAPFLLO; // 0x9C
-		::System::Boolean LJNIEOADLEI; // 0xAC
-		::System::Boolean FBAHPEIIGNL; // 0xAD
+		::RPG::Client::MonoEffect* OLLHLFNKOLH; // 0x10
+		::System::String* GNNLGGOLNIC; // 0x18
+		::RPG::Client::FMSystem* JONFOGGAKHC; // 0x20
+		::System::Collections::Generic::List_1<::KLEFGGIHGMI*>* GLELOFCFBCO; // 0x28
+		::System::String* OINEOFGIPAA; // 0x30
+		::Il2CppArray<::RPG::GameCore::DistrictAudioRTPCConfig*>* PHLOALPKEFC; // 0x38
+		::System::Collections::Generic::List_1<::KEGBGDCJHDH*>* _BlockRefs_k__BackingField; // 0x40
+		::System::String* KPHGMBFAKDB; // 0x48
+		::Il2CppArray<::System::String*>* PLHEFECGEGO; // 0x50
+		::RPG::GameCore::StageGrassOverrideConfig* IGAEFMFMKOM; // 0x58
+		::MCLHMGFGEFK BFLIFKBEOPJ; // 0x60
+		::RPG::GameCore::UnifiedBattleAreaConfig* IHKIPAGFBGB; // 0x78
+		::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* EADCDAIMHOE; // 0x80
+		::System::UInt32 ALPOBFGOLOL; // 0x88
+		::RPG::GameCore::EnviromentControlPriority JJCGJLGGEJL; // 0x8C
+		::System::Boolean FBAHPEIIGNL; // 0x90
+		::System::Boolean LJNIEOADLEI; // 0x91
+		::System::Byte _padding0[0x2];
+		::UnityEngine::Quaternion BLLHKAPFLLO; // 0x94
+		::UnityEngine::Vector3 NPNKJAPMINI; // 0xA4
 		::System::Void _ctor(::MCLHMGFGEFK a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MCLHMGFGEFK))((::PBYTE)hIl2Cpp + DOHPLIKIMDC_CTOR_OFFSET))(this, a1);

@@ -4,25 +4,25 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveSpecialChatRow; }
 
-#define RPG_GAMECORE_IDLELIVESPECIALCHATROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D751F20)
-#define RPG_GAMECORE_IDLELIVESPECIALCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D751C40)
+#define RPG_GAMECORE_IDLELIVESPECIALCHATROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8AD70)
+#define RPG_GAMECORE_IDLELIVESPECIALCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE8AA90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpecialChatRow_TypeDefinitionIndex = 11784;
+	inline static constexpr unsigned int IdleLiveSpecialChatRow_TypeDefinitionIndex = 11841;
 
 	class IdleLiveSpecialChatRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChatList; // 0x10
-		::System::UInt32 RepeatCount; // 0x18
-		::System::Single Interval; // 0x1C
-		::System::Single FlySpeed; // 0x20
-		::System::UInt32 UnlockID; // 0x24
+		::System::Single Interval; // 0x18
+		::System::UInt32 UnlockID; // 0x1C
+		::System::UInt32 TriggerID; // 0x20
+		::System::Single FlySpeed; // 0x24
 		::System::Boolean IsExclusive; // 0x28
 		::System::Byte _padding0[0x3];
 		::System::UInt32 ID; // 0x2C
-		::System::UInt32 TriggerID; // 0x30
+		::System::UInt32 RepeatCount; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESPECIALCHATROW_CTOR_OFFSET))(this);

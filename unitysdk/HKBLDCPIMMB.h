@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropInitDayOfWeekAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HKBLDCPIMMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D30840)
-#define HKBLDCPIMMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D30870)
+#define HKBLDCPIMMB_CTOR_OFFSET UNITYSDK_OFFSET(0x18230FF0)
+#define HKBLDCPIMMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18231020)
 
-inline static constexpr unsigned int HKBLDCPIMMB_TypeDefinitionIndex = 53175;
+inline static constexpr unsigned int HKBLDCPIMMB_TypeDefinitionIndex = 54337;
 
 	class HKBLDCPIMMB
 	{

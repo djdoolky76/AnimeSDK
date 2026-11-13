@@ -3,21 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DOOMDABHOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FEF300)
+#define DOOMDABHOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x191B42C0)
 
-inline static constexpr unsigned int DOOMDABHOJM_TypeDefinitionIndex = 70348;
+inline static constexpr unsigned int DOOMDABHOJM_TypeDefinitionIndex = 72314;
 
 	class DOOMDABHOJM : public ::System::Object
 	{
 	public:
-		::System::Single MAFHOMBELKM; // 0x10
-		::UnityEngine::Vector3 MKDDBBMPIAL; // 0x14
-		::UnityEngine::Vector3 BFDDNMDHAAE; // 0x20
-		::System::Boolean MOKNCFJICIC; // 0x2C
-		::System::Byte _padding0[0x3];
-		::System::Single EPIMEPDEIPF; // 0x30
-		::UnityEngine::Vector3 LPOKHIBICEO; // 0x34
-		::UnityEngine::Vector3 DAPHJOGNFIM; // 0x40
+		::UnityEngine::Vector3 MKDDBBMPIAL; // 0x10
+		::System::Single MAFHOMBELKM; // 0x1C
+		::System::Single EPIMEPDEIPF; // 0x20
+		::UnityEngine::Vector3 LPOKHIBICEO; // 0x24
+		::UnityEngine::Vector3 BFDDNMDHAAE; // 0x30
+		::UnityEngine::Vector3 DAPHJOGNFIM; // 0x3C
+		::System::Boolean MOKNCFJICIC; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOOMDABHOJM_CTOR_OFFSET))(this);

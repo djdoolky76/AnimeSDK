@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowRogueFormaluaUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JCAIGPAFHKB_CTOR_OFFSET UNITYSDK_OFFSET(0x16569F50)
-#define JCAIGPAFHKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16569F80)
+#define JCAIGPAFHKB_CTOR_OFFSET UNITYSDK_OFFSET(0x19A7A6D0)
+#define JCAIGPAFHKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A7A700)
 
-inline static constexpr unsigned int JCAIGPAFHKB_TypeDefinitionIndex = 58683;
+inline static constexpr unsigned int JCAIGPAFHKB_TypeDefinitionIndex = 59950;
 
 	class JCAIGPAFHKB
 	{

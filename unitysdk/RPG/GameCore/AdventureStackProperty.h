@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AdventureStackProperty; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURESTACKPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A00E0)
-#define RPG_GAMECORE_ADVENTURESTACKPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A00F0)
-#define RPG_GAMECORE_ADVENTURESTACKPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A00B0)
+#define RPG_GAMECORE_ADVENTURESTACKPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E901470)
+#define RPG_GAMECORE_ADVENTURESTACKPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E901480)
+#define RPG_GAMECORE_ADVENTURESTACKPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E901440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStackProperty_TypeDefinitionIndex = 21762;
+	inline static constexpr unsigned int AdventureStackProperty_TypeDefinitionIndex = 22152;
 
 	class AdventureStackProperty : public ::RPG::GameCore::TaskConfig
 	{

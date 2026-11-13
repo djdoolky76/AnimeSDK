@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpritePresetNameList; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPRITEPRESETNAMELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD4380)
-#define RPG_GAMECORE_SPRITEPRESETNAMELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD4290)
+#define RPG_GAMECORE_SPRITEPRESETNAMELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A7630)
+#define RPG_GAMECORE_SPRITEPRESETNAMELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3A7540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpritePresetNameList_TypeDefinitionIndex = 24422;
+	inline static constexpr unsigned int SpritePresetNameList_TypeDefinitionIndex = 24881;
 
 	class SpritePresetNameList : public ::RPG::GameCore::JsonConfig
 	{

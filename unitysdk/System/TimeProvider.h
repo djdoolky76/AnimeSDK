@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace System { class TimeProvider; }
 
-#define SYSTEM_TIMEPROVIDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBBDE40)
-#define SYSTEM_TIMEPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBBDE30)
-#define SYSTEM_TIMEPROVIDER_GET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1BBBDDD0)
+#define SYSTEM_TIMEPROVIDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20977B50)
+#define SYSTEM_TIMEPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x20977B40)
+#define SYSTEM_TIMEPROVIDER_GET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x20977AE0)
 
 namespace System
 {
-	inline static constexpr unsigned int TimeProvider_TypeDefinitionIndex = 10173;
+	inline static constexpr unsigned int TimeProvider_TypeDefinitionIndex = 10181;
 
 	class TimeProvider : public ::System::Object
 	{
 	public:
 		static ::System::TimeProvider** StaticGet__System_k__BackingField()
 		{
-			return (::System::TimeProvider**)UnitySDK::FromName("System", "TimeProvider")->GetStaticField(0x7D0);
+			return (::System::TimeProvider**)UnitySDK::FromName("System", "TimeProvider")->GetStaticField(0x780);
 		}
 
 		static ::System::Int64* StaticGet_s_maxDateTicks()

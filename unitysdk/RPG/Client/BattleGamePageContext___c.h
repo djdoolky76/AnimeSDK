@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC81B3F0)
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC81B430)
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C___TOGGLEAVATARPANEL_B__64_0_OFFSET UNITYSDK_OFFSET(0xC81B440)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1C1640)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C1680)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C___TOGGLEAVATARPANEL_B__64_0_OFFSET UNITYSDK_OFFSET(0x1B1C1690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePageContext___c_TypeDefinitionIndex = 71652;
+	inline static constexpr unsigned int BattleGamePageContext___c_TypeDefinitionIndex = 73640;
 
 	class BattleGamePageContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__64_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E440);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E448);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62E00);
+		}
+
+		static ::System::Action** StaticGet___9__64_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62E08);
 		}
 
 		static ::System::Void _cctor()

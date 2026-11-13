@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareAlertValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LIGPHPKBPBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C4D10)
-#define LIGPHPKBPBH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB6C4D40)
+#define LIGPHPKBPBH_CTOR_OFFSET UNITYSDK_OFFSET(0x172E0170)
+#define LIGPHPKBPBH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x172E01A0)
 
-inline static constexpr unsigned int LIGPHPKBPBH_TypeDefinitionIndex = 54460;
+inline static constexpr unsigned int LIGPHPKBPBH_TypeDefinitionIndex = 55624;
 
 	class LIGPHPKBPBH
 	{

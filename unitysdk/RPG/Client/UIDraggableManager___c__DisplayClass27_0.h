@@ -4,12 +4,12 @@
 namespace System { template <typename T> class Action_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3930C0)
-#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS27_0__LUABINDDRAGENDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xE393FB0)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x175701B0)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS27_0__LUABINDDRAGENDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x17571050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDraggableManager___c__DisplayClass27_0_TypeDefinitionIndex = 69092;
+	inline static constexpr unsigned int UIDraggableManager___c__DisplayClass27_0_TypeDefinitionIndex = 71045;
 
 	class UIDraggableManager___c__DisplayClass27_0 : public ::System::Object
 	{

@@ -9,31 +9,33 @@ namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define BBBAFPOIMLI__CREATETRAITS_D__9_CTOR_OFFSET UNITYSDK_OFFSET(0x15E74830)
-#define BBBAFPOIMLI__CREATETRAITS_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15E74A50)
-#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_GRIDFIGHTTRAIT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15E753C0)
-#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_GRIDFIGHTTRAIT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15E75350)
-#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15E75440)
-#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15E753B0)
-#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15E75360)
-#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E74910)
-#define BBBAFPOIMLI__CREATETRAITS_D__9___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15E74950)
+#define BBBAFPOIMLI__CREATETRAITS_D__9_CTOR_OFFSET UNITYSDK_OFFSET(0x199EC900)
+#define BBBAFPOIMLI__CREATETRAITS_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x199ECC40)
+#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_GRIDFIGHTTRAIT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x199EDAF0)
+#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_GRIDFIGHTTRAIT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x199EDA80)
+#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x199EDB70)
+#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x199EDAE0)
+#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x199EDA90)
+#define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x199EC9E0)
+#define BBBAFPOIMLI__CREATETRAITS_D__9___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x199ECA40)
+#define BBBAFPOIMLI__CREATETRAITS_D__9___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x199ECB40)
 
-inline static constexpr unsigned int BBBAFPOIMLI__CreateTraits_d__9_TypeDefinitionIndex = 65116;
+inline static constexpr unsigned int BBBAFPOIMLI__CreateTraits_d__9_TypeDefinitionIndex = 66797;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	class BBBAFPOIMLI__CreateTraits_d__9 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* __7__wrap1; // 0x10
-		::BBBAFPOIMLI* __4__this; // 0x18
+		::System::Collections::Generic::IEnumerator_1<::System::UInt32>* __7__wrap4; // 0x10
+		::RPG::Client::GridFightRole* __3__role; // 0x18
 		::System::Collections::Generic::IEnumerator_1<::RPG::Client::GridFightUnlockTraitMember*>* __7__wrap3; // 0x20
-		::RPG::Client::GridFightRole* role; // 0x28
-		::RPG::Client::GridFightRole* __3__role; // 0x30
-		::RPG::Client::GridFightTrait* __2__current; // 0x38
-		::System::Int32 __1__state; // 0x40
-		::System::Int32 __l__initialThreadId; // 0x44
-		::System::Int32 __7__wrap2; // 0x48
+		::RPG::Client::GridFightTrait* __2__current; // 0x28
+		::Il2CppArray<::System::UInt32>* __7__wrap1; // 0x30
+		::BBBAFPOIMLI* __4__this; // 0x38
+		::RPG::Client::GridFightRole* role; // 0x40
+		::System::Int32 __1__state; // 0x48
+		::System::Int32 __7__wrap2; // 0x4C
+		::System::Int32 __l__initialThreadId; // 0x50
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BBBAFPOIMLI__CREATETRAITS_D__9_CTOR_OFFSET))(this, a1);
@@ -52,6 +54,11 @@ inline static constexpr unsigned int BBBAFPOIMLI__CreateTraits_d__9_TypeDefiniti
 		::System::Void __m__Finally1()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BBBAFPOIMLI__CREATETRAITS_D__9___M__FINALLY1_OFFSET))(this);
+		}
+
+		::System::Void __m__Finally2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BBBAFPOIMLI__CREATETRAITS_D__9___M__FINALLY2_OFFSET))(this);
 		}
 
 		::RPG::Client::GridFightTrait* System_Collections_Generic_IEnumerator_RPG_Client_GridFightTrait__get_Current()

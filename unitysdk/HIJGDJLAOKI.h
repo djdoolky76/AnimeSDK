@@ -7,20 +7,20 @@ class HIJGDJLAOKI;
 namespace RPG::GameCore { class StageMonsterWave; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIJGDJLAOKI_AMLPILCDEFB_OFFSET UNITYSDK_OFFSET(0x15CDEE40)
-#define HIJGDJLAOKI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15CDEC10)
-#define HIJGDJLAOKI_CTOR_OFFSET UNITYSDK_OFFSET(0x15CDEE00)
-#define HIJGDJLAOKI_LPILDKJLDKH_OFFSET UNITYSDK_OFFSET(0x15CDEAB0)
+#define HIJGDJLAOKI_AMLPILCDEFB_OFFSET UNITYSDK_OFFSET(0x19038F40)
+#define HIJGDJLAOKI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19038D10)
+#define HIJGDJLAOKI_CTOR_OFFSET UNITYSDK_OFFSET(0x19038F00)
+#define HIJGDJLAOKI_LPILDKJLDKH_OFFSET UNITYSDK_OFFSET(0x19038BB0)
 
-inline static constexpr unsigned int HIJGDJLAOKI_TypeDefinitionIndex = 56306;
+inline static constexpr unsigned int HIJGDJLAOKI_TypeDefinitionIndex = 57520;
 
 	class HIJGDJLAOKI : public ::System::Object
 	{
 	public:
-		::CHHGFHIPHAE* IHNJNKIPBJH; // 0x10
-		::System::Collections::Generic::List_1<::AECMCBAHALK*>* ABDAGGKFAOD; // 0x18
-		::System::UInt32 DPDAPPGPEAM; // 0x20
-		::System::UInt32 EGFDAKGDHLA; // 0x24
+		::System::Collections::Generic::List_1<::AECMCBAHALK*>* ABDAGGKFAOD; // 0x10
+		::CHHGFHIPHAE* IHNJNKIPBJH; // 0x18
+		::System::UInt32 EGFDAKGDHLA; // 0x20
+		::System::UInt32 DPDAPPGPEAM; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIJGDJLAOKI_CTOR_OFFSET))(this);

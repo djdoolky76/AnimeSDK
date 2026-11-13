@@ -4,7 +4,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskSource
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_1_TypeDefinitionIndex = 38382;
+	inline static constexpr unsigned int UniTask_1_TypeDefinitionIndex = 39311;
 
 	template <typename T>
 	struct alignas(8) UniTask_1

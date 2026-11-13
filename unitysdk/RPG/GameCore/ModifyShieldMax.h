@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ModifyShieldMax; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYSHIELDMAX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86BC90)
-#define RPG_GAMECORE_MODIFYSHIELDMAX_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86BCA0)
-#define RPG_GAMECORE_MODIFYSHIELDMAX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86BC50)
+#define RPG_GAMECORE_MODIFYSHIELDMAX_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FE270)
+#define RPG_GAMECORE_MODIFYSHIELDMAX_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6FE280)
+#define RPG_GAMECORE_MODIFYSHIELDMAX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6FE230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyShieldMax_TypeDefinitionIndex = 23119;
+	inline static constexpr unsigned int ModifyShieldMax_TypeDefinitionIndex = 23548;
 
 	class ModifyShieldMax : public ::RPG::GameCore::TaskConfig
 	{

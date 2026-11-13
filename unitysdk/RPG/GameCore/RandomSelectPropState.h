@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class GroupEntityInfo; }
 namespace RPG::GameCore { class RandomSelectPropState; }
 
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93EEE0)
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D93EEF0)
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D93EEB0)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F228930)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F228940)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F228900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectPropState_TypeDefinitionIndex = 22236;
+	inline static constexpr unsigned int RandomSelectPropState_TypeDefinitionIndex = 22641;
 
 	class RandomSelectPropState : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnlineRoomDIYType_TypeDefinitionIndex = 10322;
+	inline static constexpr unsigned int OnlineRoomDIYType_TypeDefinitionIndex = 10332;
 
 	enum class OnlineRoomDIYType : ::System::Int32
 	{

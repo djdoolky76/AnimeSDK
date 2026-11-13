@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_CONVINCEANCHORCONFIG_ANCHORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCBBE820)
+#define RPG_CLIENT_CONVINCEANCHORCONFIG_ANCHORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7D6720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceAnchorConfig_AnchorData_TypeDefinitionIndex = 60674;
+	inline static constexpr unsigned int ConvinceAnchorConfig_AnchorData_TypeDefinitionIndex = 62051;
 
 	class ConvinceAnchorConfig_AnchorData : public ::System::Object
 	{

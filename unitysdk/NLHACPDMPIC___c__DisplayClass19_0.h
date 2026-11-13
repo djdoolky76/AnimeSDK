@@ -5,10 +5,10 @@ class NLHACPDMPIC;
 namespace RPG::Client::DiceCombat { class DiceCombatTeamEditDialogMsgParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define NLHACPDMPIC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC62380)
-#define NLHACPDMPIC___C__DISPLAYCLASS19_0__HANDLESHOWTEAMEDITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xBC64AE0)
+#define NLHACPDMPIC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A425900)
+#define NLHACPDMPIC___C__DISPLAYCLASS19_0__HANDLESHOWTEAMEDITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1A428060)
 
-inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass19_0_TypeDefinitionIndex = 76185;
+inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass19_0_TypeDefinitionIndex = 78512;
 
 	class NLHACPDMPIC___c__DisplayClass19_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopTimeline; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MLAPLADNCKE_CTOR_OFFSET UNITYSDK_OFFSET(0xB99F260)
-#define MLAPLADNCKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB99F290)
+#define MLAPLADNCKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B913F60)
+#define MLAPLADNCKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B913F90)
 
-inline static constexpr unsigned int MLAPLADNCKE_TypeDefinitionIndex = 56376;
+inline static constexpr unsigned int MLAPLADNCKE_TypeDefinitionIndex = 57590;
 
 	class MLAPLADNCKE
 	{

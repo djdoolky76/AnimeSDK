@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowFuncBtnEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOOJODDKCIA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8CBF0)
-#define OOOJODDKCIA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF8CC00)
-#define OOOJODDKCIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF8CC40)
-#define OOOJODDKCIA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF8CCC0)
-#define OOOJODDKCIA_TICK_OFFSET UNITYSDK_OFFSET(0xBF8CD10)
+#define OOOJODDKCIA_CTOR_OFFSET UNITYSDK_OFFSET(0x196B43C0)
+#define OOOJODDKCIA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196B43D0)
+#define OOOJODDKCIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x196B4410)
+#define OOOJODDKCIA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x196B4490)
+#define OOOJODDKCIA_TICK_OFFSET UNITYSDK_OFFSET(0x196B44E0)
 
-inline static constexpr unsigned int OOOJODDKCIA_TypeDefinitionIndex = 53268;
+inline static constexpr unsigned int OOOJODDKCIA_TypeDefinitionIndex = 54430;
 
 	class OOOJODDKCIA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowFuncBtnEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowFuncBtnEffect* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowFuncBtnEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowFuncBtnEffect*))((::PBYTE)hIl2Cpp + OOOJODDKCIA_CTOR_OFFSET))(this, a1, a2);

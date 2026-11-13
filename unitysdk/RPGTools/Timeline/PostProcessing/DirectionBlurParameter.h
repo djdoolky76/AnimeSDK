@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DIRECTIONBLURPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF8C20)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DIRECTIONBLURPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x3EEF450)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DirectionBlurParameter_TypeDefinitionIndex = 48599;
+	inline static constexpr unsigned int DirectionBlurParameter_TypeDefinitionIndex = 49640;
 
 	struct alignas(4) DirectionBlurParameter
 	{

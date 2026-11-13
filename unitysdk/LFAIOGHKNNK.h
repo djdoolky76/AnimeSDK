@@ -5,26 +5,26 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
 
-#define LFAIOGHKNNK_CTOR_OFFSET UNITYSDK_OFFSET(0xB657F80)
-#define LFAIOGHKNNK_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB658DD0)
-#define LFAIOGHKNNK_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0xB658E20)
-#define LFAIOGHKNNK_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xB658B90)
-#define LFAIOGHKNNK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB658330)
-#define LFAIOGHKNNK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB657F90)
+#define LFAIOGHKNNK_CTOR_OFFSET UNITYSDK_OFFSET(0x18C3CED0)
+#define LFAIOGHKNNK_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x18C3DD20)
+#define LFAIOGHKNNK_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0x18C3DD70)
+#define LFAIOGHKNNK_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x18C3DAE0)
+#define LFAIOGHKNNK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x18C3D280)
+#define LFAIOGHKNNK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x18C3CEE0)
 
-inline static constexpr unsigned int LFAIOGHKNNK_TypeDefinitionIndex = 78235;
+inline static constexpr unsigned int LFAIOGHKNNK_TypeDefinitionIndex = 80970;
 
 	class LFAIOGHKNNK : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::DuelChimeraProxy* IBLBKLNHKLL; // 0x10
-		::RPG::Client::Prop::DuelChimeraProxy* HKJLKMCDMGB; // 0x18
+		::RPG::Client::Prop::DuelChimeraProxy* HKJLKMCDMGB; // 0x10
+		::RPG::Client::Prop::DuelChimeraProxy* IBLBKLNHKLL; // 0x18
 		::System::Single FOMCKBAHCFM; // 0x20
-		::UnityEngine::Quaternion OKBPGPNJMFL; // 0x24
-		::UnityEngine::Vector3 KGMNHAFNOHK; // 0x34
-		::UnityEngine::Vector3 JNFHAIACECG; // 0x40
-		::System::Single MFLNKDOADDG; // 0x4C
-		::UnityEngine::Quaternion NGIMALNHLNI; // 0x50
+		::UnityEngine::Vector3 JNFHAIACECG; // 0x24
+		::UnityEngine::Quaternion NGIMALNHLNI; // 0x30
+		::UnityEngine::Vector3 KGMNHAFNOHK; // 0x40
+		::UnityEngine::Quaternion OKBPGPNJMFL; // 0x4C
+		::System::Single MFLNKDOADDG; // 0x5C
 		::System::Void _ctor(::RPG::Client::Prop::DuelChimeraProxy* a1, ::RPG::Client::Prop::DuelChimeraProxy* a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::DuelChimeraProxy*, ::RPG::Client::Prop::DuelChimeraProxy*, ::System::Single))((::PBYTE)hIl2Cpp + LFAIOGHKNNK_CTOR_OFFSET))(this, a1, a2, a3);

@@ -6,17 +6,17 @@ class MNKHPOAFPDP;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define MNKHPOAFPDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AA600)
-#define MNKHPOAFPDP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1AA630)
-#define MNKHPOAFPDP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1AA5B0)
+#define MNKHPOAFPDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E87CF40)
+#define MNKHPOAFPDP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E87CF70)
+#define MNKHPOAFPDP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E87CEF0)
 
-inline static constexpr unsigned int MNKHPOAFPDP_TypeDefinitionIndex = 22328;
+inline static constexpr unsigned int MNKHPOAFPDP_TypeDefinitionIndex = 22733;
 
 	class MNKHPOAFPDP : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::Il2CppArray<::RPG::GameCore::DynamicFloat*>* EJHODPJIFIN; // 0x20
+		::Il2CppArray<::RPG::GameCore::DynamicFloat*>* EJHODPJIFIN; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 		::System::UInt32 NFECLMGILCH; // 0x28
 		::System::Void _ctor()
 		{

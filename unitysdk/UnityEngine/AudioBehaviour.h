@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
 
-#define UNITYENGINE_AUDIOBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F395160)
+#define UNITYENGINE_AUDIOBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x20966B80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioBehaviour_TypeDefinitionIndex = 5147;
+	inline static constexpr unsigned int AudioBehaviour_TypeDefinitionIndex = 5152;
 
 	class AudioBehaviour : public ::UnityEngine::Behaviour
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LensDistortionCurveEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLFBCLOCNGK_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFBDF0)
-#define OLFBCLOCNGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEFBE00)
-#define OLFBCLOCNGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEFBE40)
-#define OLFBCLOCNGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEFC1E0)
-#define OLFBCLOCNGK_TICK_OFFSET UNITYSDK_OFFSET(0xBEFC230)
+#define OLFBCLOCNGK_CTOR_OFFSET UNITYSDK_OFFSET(0x178A2540)
+#define OLFBCLOCNGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x178A2550)
+#define OLFBCLOCNGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178A2590)
+#define OLFBCLOCNGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x178A2930)
+#define OLFBCLOCNGK_TICK_OFFSET UNITYSDK_OFFSET(0x178A2980)
 
-inline static constexpr unsigned int OLFBCLOCNGK_TypeDefinitionIndex = 55135;
+inline static constexpr unsigned int OLFBCLOCNGK_TypeDefinitionIndex = 56316;
 
 	class OLFBCLOCNGK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::LensDistortionCurveEffect* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::LensDistortionCurveEffect* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LensDistortionCurveEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LensDistortionCurveEffect*))((::PBYTE)hIl2Cpp + OLFBCLOCNGK_CTOR_OFFSET))(this, a1, a2);

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class EntityTimeRewindComponent; }
 
-#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE708120)
+#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1926C130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenTimeRewindSnapPageParam_TypeDefinitionIndex = 53378;
+	inline static constexpr unsigned int OpenTimeRewindSnapPageParam_TypeDefinitionIndex = 54540;
 
 	class OpenTimeRewindSnapPageParam : public ::System::Object
 	{

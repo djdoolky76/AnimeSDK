@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopDitherClose; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DACOGOBGGEC_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB4C40)
-#define DACOGOBGGEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFB4C70)
+#define DACOGOBGGEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1993FCB0)
+#define DACOGOBGGEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1993FCE0)
 
-inline static constexpr unsigned int DACOGOBGGEC_TypeDefinitionIndex = 53295;
+inline static constexpr unsigned int DACOGOBGGEC_TypeDefinitionIndex = 54457;
 
 	class DACOGOBGGEC
 	{

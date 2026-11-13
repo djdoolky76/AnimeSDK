@@ -4,10 +4,10 @@
 class JLPEICPFLMC;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define DJPPNCGGCHI_CTOR_OFFSET UNITYSDK_OFFSET(0xF24DE70)
-#define DJPPNCGGCHI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xF24DCC0)
+#define DJPPNCGGCHI_CTOR_OFFSET UNITYSDK_OFFSET(0x18C08CC0)
+#define DJPPNCGGCHI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x18C08B10)
 
-inline static constexpr unsigned int DJPPNCGGCHI_TypeDefinitionIndex = 76258;
+inline static constexpr unsigned int DJPPNCGGCHI_TypeDefinitionIndex = 78589;
 
 	class DJPPNCGGCHI : public ::MLKDDLHNNHH
 	{

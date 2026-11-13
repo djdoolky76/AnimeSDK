@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareAllWaveMonsterRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PJEDGBMMPID_CTOR_OFFSET UNITYSDK_OFFSET(0xC27C470)
-#define PJEDGBMMPID_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC27C4A0)
+#define PJEDGBMMPID_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9E8670)
+#define PJEDGBMMPID_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A9E86A0)
 
-inline static constexpr unsigned int PJEDGBMMPID_TypeDefinitionIndex = 54513;
+inline static constexpr unsigned int PJEDGBMMPID_TypeDefinitionIndex = 55678;
 
 	class PJEDGBMMPID
 	{

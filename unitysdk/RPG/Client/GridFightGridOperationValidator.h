@@ -6,21 +6,21 @@ namespace RPG::Client { class GridFightGridMoveValidateResult; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xD18A6F0)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD18A6E0)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_VALIDATE_OFFSET UNITYSDK_OFFSET(0xD18A0D0)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__DEFAULTREASON_OFFSET UNITYSDK_OFFSET(0xD18A610)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD75440)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD75430)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1CD74E20)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__DEFAULTREASON_OFFSET UNITYSDK_OFFSET(0x1CD75360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridOperationValidator_TypeDefinitionIndex = 64846;
+	inline static constexpr unsigned int GridFightGridOperationValidator_TypeDefinitionIndex = 66394;
 
 	class GridFightGridOperationValidator : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::FBLGAONBIFI*>** StaticGet__Constraits()
 		{
-			return (::System::Collections::Generic::List_1<::FBLGAONBIFI*>**)UnitySDK::FromName("RPG.Client", "GridFightGridOperationValidator")->GetStaticField(0x6AD30);
+			return (::System::Collections::Generic::List_1<::FBLGAONBIFI*>**)UnitySDK::FromName("RPG.Client", "GridFightGridOperationValidator")->GetStaticField(0x71E70);
 		}
 
 		::System::Void _ctor()

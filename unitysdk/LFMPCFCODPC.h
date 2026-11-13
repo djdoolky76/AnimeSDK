@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetRushBtnInteractable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LFMPCFCODPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB67EC70)
-#define LFMPCFCODPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB67ECA0)
+#define LFMPCFCODPC_CTOR_OFFSET UNITYSDK_OFFSET(0x18C648E0)
+#define LFMPCFCODPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C64910)
 
-inline static constexpr unsigned int LFMPCFCODPC_TypeDefinitionIndex = 57888;
+inline static constexpr unsigned int LFMPCFCODPC_TypeDefinitionIndex = 59125;
 
 	class LFMPCFCODPC
 	{

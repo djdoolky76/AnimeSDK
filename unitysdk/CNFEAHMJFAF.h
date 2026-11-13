@@ -4,9 +4,9 @@
 class GCFPDEHADKC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CNFEAHMJFAF_CTOR_OFFSET UNITYSDK_OFFSET(0xDA44E00)
+#define CNFEAHMJFAF_CTOR_OFFSET UNITYSDK_OFFSET(0x191425A0)
 
-inline static constexpr unsigned int CNFEAHMJFAF_TypeDefinitionIndex = 73737;
+inline static constexpr unsigned int CNFEAHMJFAF_TypeDefinitionIndex = 75860;
 
 	class CNFEAHMJFAF : public ::System::Object
 	{

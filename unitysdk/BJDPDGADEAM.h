@@ -3,10 +3,10 @@
 class FFKKLOGIBOA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJDPDGADEAM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7944C0)
-#define BJDPDGADEAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7944F0)
+#define BJDPDGADEAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD79E0)
+#define BJDPDGADEAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BAD7A10)
 
-inline static constexpr unsigned int BJDPDGADEAM_TypeDefinitionIndex = 52858;
+inline static constexpr unsigned int BJDPDGADEAM_TypeDefinitionIndex = 54013;
 
 	class BJDPDGADEAM
 	{

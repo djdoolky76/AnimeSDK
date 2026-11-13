@@ -6,18 +6,19 @@
 class FCOEMCEDLNL;
 class IFGDFILPFGL;
 
-#define IFGDFILPFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC1610)
-#define IFGDFILPFGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEC1430)
+#define IFGDFILPFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BC030)
+#define IFGDFILPFGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6BBE50)
 
-inline static constexpr unsigned int IFGDFILPFGL_TypeDefinitionIndex = 13975;
+inline static constexpr unsigned int IFGDFILPFGL_TypeDefinitionIndex = 14132;
 
 	class IFGDFILPFGL : public ::System::Object
 	{
 	public:
-		::System::UInt32 LPNBEANGIGE; // 0x10
-		::System::UInt32 CNHDBLLCFFB; // 0x14
-		::RPG::Client::TextID EJJIJCCPJHP; // 0x18
-		::RPG::GameCore::LimaoNewsEmployeeStateType BKEMOJMOLBB; // 0x28
+		::System::UInt32 CNHDBLLCFFB; // 0x10
+		::RPG::GameCore::LimaoNewsEmployeeStateType BKEMOJMOLBB; // 0x14
+		::System::UInt32 LPNBEANGIGE; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID EJJIJCCPJHP; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFGDFILPFGL_CTOR_OFFSET))(this);

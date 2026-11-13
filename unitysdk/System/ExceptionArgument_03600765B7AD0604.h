@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ExceptionArgument_03600765B7AD0604_TypeDefinitionIndex = 4986;
+	inline static constexpr unsigned int ExceptionArgument_03600765B7AD0604_TypeDefinitionIndex = 4991;
 
 	enum class ExceptionArgument_03600765B7AD0604 : ::System::Int32
 	{

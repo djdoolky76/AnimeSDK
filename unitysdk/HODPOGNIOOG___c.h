@@ -4,18 +4,18 @@
 class HODPOGNIOOG;
 namespace System { class Object; }
 
-#define HODPOGNIOOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5BA200)
-#define HODPOGNIOOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BA240)
-#define HODPOGNIOOG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E5BA250)
+#define HODPOGNIOOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2003C9E0)
+#define HODPOGNIOOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2003CA20)
+#define HODPOGNIOOG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2003CA30)
 
-inline static constexpr unsigned int HODPOGNIOOG___c_TypeDefinitionIndex = 27348;
+inline static constexpr unsigned int HODPOGNIOOG___c_TypeDefinitionIndex = 27879;
 
 	class HODPOGNIOOG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D1B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DC10);
 		}
 
 		static ::System::Void _cctor()

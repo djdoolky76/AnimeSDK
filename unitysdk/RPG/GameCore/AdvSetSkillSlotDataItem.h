@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdvSetSkillSlotDataItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D383870)
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATAITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3835F0)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E5410)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATAITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E5190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetSkillSlotDataItem_TypeDefinitionIndex = 20201;
+	inline static constexpr unsigned int AdvSetSkillSlotDataItem_TypeDefinitionIndex = 20536;
 
 	class AdvSetSkillSlotDataItem : public ::RPG::GameCore::JsonConfig
 	{

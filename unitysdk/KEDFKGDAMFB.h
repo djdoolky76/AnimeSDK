@@ -4,10 +4,10 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropDestructReset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KEDFKGDAMFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB36E130)
-#define KEDFKGDAMFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB36E160)
+#define KEDFKGDAMFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D8040)
+#define KEDFKGDAMFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B5D8070)
 
-inline static constexpr unsigned int KEDFKGDAMFB_TypeDefinitionIndex = 53173;
+inline static constexpr unsigned int KEDFKGDAMFB_TypeDefinitionIndex = 54335;
 
 	class KEDFKGDAMFB
 	{

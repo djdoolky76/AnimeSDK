@@ -5,11 +5,11 @@
 namespace RPG::Client { class RogueMagicUnitDataItem; }
 namespace System { class Object; }
 
-#define NHINAMJJABO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBBF990)
-#define NHINAMJJABO_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xBBBF9A0)
-#define NHINAMJJABO_KADGJPFHBCC_OFFSET UNITYSDK_OFFSET(0xBBBFA40)
+#define NHINAMJJABO_CTOR_OFFSET UNITYSDK_OFFSET(0x14899BC0)
+#define NHINAMJJABO_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x14899BD0)
+#define NHINAMJJABO_KADGJPFHBCC_OFFSET UNITYSDK_OFFSET(0x14899C70)
 
-inline static constexpr unsigned int NHINAMJJABO_TypeDefinitionIndex = 67250;
+inline static constexpr unsigned int NHINAMJJABO_TypeDefinitionIndex = 69194;
 
 	class NHINAMJJABO : public ::System::Object
 	{

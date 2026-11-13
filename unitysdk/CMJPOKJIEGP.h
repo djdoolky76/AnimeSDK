@@ -3,7 +3,7 @@
 class EANJILGOKBE;
 class HPKFLCMEFOI;
 
-inline static constexpr unsigned int CMJPOKJIEGP_TypeDefinitionIndex = 71444;
+inline static constexpr unsigned int CMJPOKJIEGP_TypeDefinitionIndex = 73426;
 
 	struct alignas(8) CMJPOKJIEGP
 	{

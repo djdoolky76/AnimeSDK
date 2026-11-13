@@ -15,139 +15,139 @@ namespace System::Reflection::Emit { class FieldBuilder; }
 namespace System::Reflection::Emit { class ILGenerator; }
 namespace System::Reflection::Emit { class MethodBuilder; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1BBAFB10)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BBB17F0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BBB03E0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x1BBAEFA0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBAD9A0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBAEF90)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_ISZEROSTARTSEQUENTIAL_OFFSET UNITYSDK_OFFSET(0x1BBB3290)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1EF64AA0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF66780)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF65370)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x1EF63F30)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF62930)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF63F20)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_ISZEROSTARTSEQUENTIAL_OFFSET UNITYSDK_OFFSET(0x1EF68220)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicUnionResolver_TypeDefinitionIndex = 7261;
+	inline static constexpr unsigned int DynamicUnionResolver_TypeDefinitionIndex = 7272;
 
 	class DynamicUnionResolver : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::ConstructorInfo** StaticGet_keyMapDictionaryConstructor()
-		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD10);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_intIntKeyValuePairGetValue()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD18);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_keyMapDictionaryAdd()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD20);
-		}
-
-		static ::MessagePack::Resolvers::DynamicUnionResolver** StaticGet_Instance()
-		{
-			return (::MessagePack::Resolvers::DynamicUnionResolver**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD28);
-		}
-
-		static ::System::Reflection::ConstructorInfo** StaticGet_intIntKeyValuePairConstructor()
-		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD30);
-		}
-
-		static ::System::Reflection::ConstructorInfo** StaticGet_invalidOperationExceptionConstructor()
-		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD38);
-		}
-
-		static ::System::Reflection::ConstructorInfo** StaticGet_objectCtor()
-		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD40);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_keyMapDictionaryTryGetValue()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD48);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_intIntKeyValuePairGetKey()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD50);
-		}
-
-		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getSerialize()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD58);
-		}
-
-		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
-		{
-			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD60);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_getFormatterWithVerify()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD68);
-		}
-
-		static ::System::Reflection::FieldInfo** StaticGet_runtimeTypeHandleEqualityComparer()
-		{
-			return (::System::Reflection::FieldInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD70);
-		}
-
-		static ::MessagePack::Internal::DynamicAssemblyFactory** StaticGet_DynamicAssemblyFactory()
-		{
-			return (::MessagePack::Internal::DynamicAssemblyFactory**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD78);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_typeMapDictionaryTryGetValue()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD80);
-		}
-
-		static ::System::Type** StaticGet_refKvp()
-		{
-			return (::System::Type**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD88);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_objectGetType()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD90);
-		}
-
 		static ::System::Reflection::MethodInfo** StaticGet_getResolverFromOptions()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BD98);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ECC0);
 		}
 
 		static ::System::Reflection::ConstructorInfo** StaticGet_typeMapDictionaryConstructor()
 		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BDA0);
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ECC8);
+		}
+
+		static ::System::Reflection::FieldInfo** StaticGet_runtimeTypeHandleEqualityComparer()
+		{
+			return (::System::Reflection::FieldInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ECD0);
 		}
 
 		static ::System::Type** StaticGet_refMessagePackReader()
 		{
-			return (::System::Type**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BDA8);
+			return (::System::Type**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ECD8);
 		}
 
-		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getDeserialize()
+		static ::MessagePack::Resolvers::DynamicUnionResolver** StaticGet_Instance()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BDB0);
+			return (::MessagePack::Resolvers::DynamicUnionResolver**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ECE0);
+		}
+
+		static ::System::Reflection::ConstructorInfo** StaticGet_invalidOperationExceptionConstructor()
+		{
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ECE8);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_keyMapDictionaryAdd()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ECF0);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_objectGetType()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ECF8);
+		}
+
+		static ::System::Reflection::ConstructorInfo** StaticGet_intIntKeyValuePairConstructor()
+		{
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED00);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_typeMapDictionaryTryGetValue()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED08);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getSerialize()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED10);
+		}
+
+		static ::System::Reflection::ConstructorInfo** StaticGet_objectCtor()
+		{
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED18);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_intIntKeyValuePairGetKey()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED20);
+		}
+
+		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
+		{
+			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED28);
+		}
+
+		static ::System::Reflection::ConstructorInfo** StaticGet_keyMapDictionaryConstructor()
+		{
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED30);
 		}
 
 		static ::System::Reflection::MethodInfo** StaticGet_getTypeHandle()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BDB8);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED38);
+		}
+
+		static ::MessagePack::Internal::DynamicAssemblyFactory** StaticGet_DynamicAssemblyFactory()
+		{
+			return (::MessagePack::Internal::DynamicAssemblyFactory**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED40);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_intIntKeyValuePairGetValue()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED48);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getDeserialize()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED50);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_getFormatterWithVerify()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED58);
 		}
 
 		static ::System::Reflection::MethodInfo** StaticGet_typeMapDictionaryAdd()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x4BDC0);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED60);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_keyMapDictionaryTryGetValue()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED68);
+		}
+
+		static ::System::Type** StaticGet_refKvp()
+		{
+			return (::System::Type**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x2ED70);
 		}
 
 		static ::System::Int32* StaticGet_nameSequence()
 		{
-			return (::System::Int32*)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x11520);
+			return (::System::Int32*)UnitySDK::FromName("MessagePack.Resolvers", "DynamicUnionResolver")->GetStaticField(0x94B0);
 		}
 
 		static ::System::Void _cctor()

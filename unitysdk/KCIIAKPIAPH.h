@@ -7,37 +7,37 @@ namespace RPG::GameCore { class TaskListTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KCIIAKPIAPH_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0xB3331E0)
-#define KCIIAKPIAPH_CAAFDHNOGHI_OFFSET UNITYSDK_OFFSET(0xB3334D0)
-#define KCIIAKPIAPH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB333950)
-#define KCIIAKPIAPH_DJDOPNPMPAN_OFFSET UNITYSDK_OFFSET(0xB333860)
-#define KCIIAKPIAPH_FHHOGBEDHMC_OFFSET UNITYSDK_OFFSET(0xB333460)
-#define KCIIAKPIAPH_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0xB3329E0)
-#define KCIIAKPIAPH_HAKNCEPEBHG_OFFSET UNITYSDK_OFFSET(0xB333400)
-#define KCIIAKPIAPH_HCALPIGELNM_OFFSET UNITYSDK_OFFSET(0xB333390)
-#define KCIIAKPIAPH_KOJFJLHIIHG_OFFSET UNITYSDK_OFFSET(0xB332EC0)
-#define KCIIAKPIAPH_LMHNDHFOIHO_OFFSET UNITYSDK_OFFSET(0xB332D00)
-#define KCIIAKPIAPH_NLOCAAAANNG_OFFSET UNITYSDK_OFFSET(0xB333600)
-#define KCIIAKPIAPH_PLKCKCEFBIM_OFFSET UNITYSDK_OFFSET(0xB333730)
+#define KCIIAKPIAPH_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0x1A4864B0)
+#define KCIIAKPIAPH_CAAFDHNOGHI_OFFSET UNITYSDK_OFFSET(0x1A4867A0)
+#define KCIIAKPIAPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A486C20)
+#define KCIIAKPIAPH_DJDOPNPMPAN_OFFSET UNITYSDK_OFFSET(0x1A486B30)
+#define KCIIAKPIAPH_FHHOGBEDHMC_OFFSET UNITYSDK_OFFSET(0x1A486730)
+#define KCIIAKPIAPH_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x1A485CB0)
+#define KCIIAKPIAPH_HAKNCEPEBHG_OFFSET UNITYSDK_OFFSET(0x1A4866D0)
+#define KCIIAKPIAPH_HCALPIGELNM_OFFSET UNITYSDK_OFFSET(0x1A486660)
+#define KCIIAKPIAPH_KOJFJLHIIHG_OFFSET UNITYSDK_OFFSET(0x1A486190)
+#define KCIIAKPIAPH_LMHNDHFOIHO_OFFSET UNITYSDK_OFFSET(0x1A485FD0)
+#define KCIIAKPIAPH_NLOCAAAANNG_OFFSET UNITYSDK_OFFSET(0x1A4868D0)
+#define KCIIAKPIAPH_PLKCKCEFBIM_OFFSET UNITYSDK_OFFSET(0x1A486A00)
 
-inline static constexpr unsigned int KCIIAKPIAPH_TypeDefinitionIndex = 56527;
+inline static constexpr unsigned int KCIIAKPIAPH_TypeDefinitionIndex = 57747;
 
 	class KCIIAKPIAPH : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtAbilityConfig*>** StaticGet_CALBNDOIHAE()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtAbilityConfig*>**)UnitySDK::FromName("", "KCIIAKPIAPH")->GetStaticField(0x38030);
+		}
+
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtModifierConfig*>** StaticGet_OECPOEALKGF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtModifierConfig*>**)UnitySDK::FromName("", "KCIIAKPIAPH")->GetStaticField(0x34F70);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtModifierConfig*>**)UnitySDK::FromName("", "KCIIAKPIAPH")->GetStaticField(0x38038);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>** StaticGet_NJILLIKILGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>**)UnitySDK::FromName("", "KCIIAKPIAPH")->GetStaticField(0x34F78);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtAbilityConfig*>** StaticGet_CALBNDOIHAE()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtAbilityConfig*>**)UnitySDK::FromName("", "KCIIAKPIAPH")->GetStaticField(0x34F80);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>**)UnitySDK::FromName("", "KCIIAKPIAPH")->GetStaticField(0x38040);
 		}
 
 		static ::System::Void _cctor()

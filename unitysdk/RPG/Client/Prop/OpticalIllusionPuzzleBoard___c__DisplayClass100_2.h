@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard_IBMIJELKFCI; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_2_CTOR_OFFSET UNITYSDK_OFFSET(0xDD42C50)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_2___BFS_B__2_OFFSET UNITYSDK_OFFSET(0xDD433A0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_2_CTOR_OFFSET UNITYSDK_OFFSET(0x171F2C00)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_2___BFS_B__2_OFFSET UNITYSDK_OFFSET(0x171F33B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_2_TypeDefinitionIndex = 78707;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_2_TypeDefinitionIndex = 81442;
 
 	template <typename T1, typename T2>
 	class OpticalIllusionPuzzleBoard___c__DisplayClass100_2 : public ::System::Object

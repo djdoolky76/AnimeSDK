@@ -4,11 +4,11 @@ namespace RPG::GameCore { class AdvEnableButtons; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CFHCHGFFPIE_CMMJFAELBKE_OFFSET UNITYSDK_OFFSET(0xCC46170)
-#define CFHCHGFFPIE_CTOR_OFFSET UNITYSDK_OFFSET(0xCC46140)
-#define CFHCHGFFPIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC46310)
+#define CFHCHGFFPIE_CMMJFAELBKE_OFFSET UNITYSDK_OFFSET(0x1781EF30)
+#define CFHCHGFFPIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1781EF00)
+#define CFHCHGFFPIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1781F0D0)
 
-inline static constexpr unsigned int CFHCHGFFPIE_TypeDefinitionIndex = 52351;
+inline static constexpr unsigned int CFHCHGFFPIE_TypeDefinitionIndex = 53457;
 
 	class CFHCHGFFPIE
 	{

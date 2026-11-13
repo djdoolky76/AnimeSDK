@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::Win { class BindMiHoYo; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMIHOYO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCD7960)
-#define MIHOYO_SDK_WIN_BINDMIHOYO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD79A0)
-#define MIHOYO_SDK_WIN_BINDMIHOYO___C__SHOW_B__29_0_OFFSET UNITYSDK_OFFSET(0x1BCD79B0)
+#define MIHOYO_SDK_WIN_BINDMIHOYO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1722A970)
+#define MIHOYO_SDK_WIN_BINDMIHOYO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1722A9B0)
+#define MIHOYO_SDK_WIN_BINDMIHOYO___C__SHOW_B__29_0_OFFSET UNITYSDK_OFFSET(0x1722A9C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindMiHoYo___c_TypeDefinitionIndex = 9503;
+	inline static constexpr unsigned int BindMiHoYo___c_TypeDefinitionIndex = 9511;
 
 	class BindMiHoYo___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::Win::BindMiHoYo*>** StaticGet___9__29_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::BindMiHoYo*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2DBC0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2DBC8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23040);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::Win::BindMiHoYo*>** StaticGet___9__29_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Win::BindMiHoYo*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23048);
 		}
 
 		static ::System::Void _cctor()

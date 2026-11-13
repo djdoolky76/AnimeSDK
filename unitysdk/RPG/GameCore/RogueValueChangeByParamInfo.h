@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueValueChangeByParamInfo; }
 
-#define RPG_GAMECORE_ROGUEVALUECHANGEBYPARAMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA17FF0)
-#define RPG_GAMECORE_ROGUEVALUECHANGEBYPARAMINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA17FB0)
+#define RPG_GAMECORE_ROGUEVALUECHANGEBYPARAMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF38890)
+#define RPG_GAMECORE_ROGUEVALUECHANGEBYPARAMINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF38850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueValueChangeByParamInfo_TypeDefinitionIndex = 19860;
+	inline static constexpr unsigned int RogueValueChangeByParamInfo_TypeDefinitionIndex = 20189;
 
 	class RogueValueChangeByParamInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class ILEPJCLBBJD;
 namespace System { class Object; }
 
-#define ILEPJCLBBJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E67E900)
-#define ILEPJCLBBJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67E940)
-#define ILEPJCLBBJD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E67E950)
+#define ILEPJCLBBJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206B2810)
+#define ILEPJCLBBJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206B2850)
+#define ILEPJCLBBJD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x206B2860)
 
-inline static constexpr unsigned int ILEPJCLBBJD___c_TypeDefinitionIndex = 28634;
+inline static constexpr unsigned int ILEPJCLBBJD___c_TypeDefinitionIndex = 29224;
 
 	class ILEPJCLBBJD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51890);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C600);
 		}
 
 		static ::System::Void _cctor()

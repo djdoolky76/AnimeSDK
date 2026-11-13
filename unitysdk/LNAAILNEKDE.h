@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckModifierCallBackIsSelf; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LNAAILNEKDE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CE8C0)
-#define LNAAILNEKDE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7CE8F0)
+#define LNAAILNEKDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFDAF20)
+#define LNAAILNEKDE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AFDAF50)
 
-inline static constexpr unsigned int LNAAILNEKDE_TypeDefinitionIndex = 54504;
+inline static constexpr unsigned int LNAAILNEKDE_TypeDefinitionIndex = 55669;
 
 	class LNAAILNEKDE
 	{

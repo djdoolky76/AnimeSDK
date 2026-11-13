@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define AOICDNHHGAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCBC230)
-#define AOICDNHHGAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCBC240)
-#define AOICDNHHGAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCBC200)
+#define AOICDNHHGAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECB7CD0)
+#define AOICDNHHGAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECB7CE0)
+#define AOICDNHHGAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECB7CA0)
 
-inline static constexpr unsigned int AOICDNHHGAE_TypeDefinitionIndex = 20924;
+inline static constexpr unsigned int AOICDNHHGAE_TypeDefinitionIndex = 21262;
 
 	class AOICDNHHGAE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OJJADIPMAGO; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* IFBAFKFODAA; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OJJADIPMAGO; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* IFBAFKFODAA; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOICDNHHGAE_CTOR_OFFSET))(this);

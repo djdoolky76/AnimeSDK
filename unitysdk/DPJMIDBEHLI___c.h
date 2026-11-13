@@ -8,35 +8,35 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DPJMIDBEHLI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x126500C0)
-#define DPJMIDBEHLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12650100)
-#define DPJMIDBEHLI___C__CLEARMESSAGESBEFORE_B__20_0_OFFSET UNITYSDK_OFFSET(0x12650130)
-#define DPJMIDBEHLI___C__FETCHINPUTNOTIFYMESSAGE_B__33_0_OFFSET UNITYSDK_OFFSET(0x12650150)
-#define DPJMIDBEHLI___C___BUILDPLAYERDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x12650110)
+#define DPJMIDBEHLI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x181A97A0)
+#define DPJMIDBEHLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x181A97E0)
+#define DPJMIDBEHLI___C__CLEARMESSAGESBEFORE_B__20_0_OFFSET UNITYSDK_OFFSET(0x181A9810)
+#define DPJMIDBEHLI___C__FETCHINPUTNOTIFYMESSAGE_B__33_0_OFFSET UNITYSDK_OFFSET(0x181A9830)
+#define DPJMIDBEHLI___C___BUILDPLAYERDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x181A97F0)
 
-inline static constexpr unsigned int DPJMIDBEHLI___c_TypeDefinitionIndex = 76564;
+inline static constexpr unsigned int DPJMIDBEHLI___c_TypeDefinitionIndex = 78895;
 
 	class DPJMIDBEHLI___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>** StaticGet___9__20_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x705E0);
 		}
 
 		static ::System::Func_4<::NEMHKFFNDJO, ::System::UInt16, ::System::UInt16, ::System::Boolean>** StaticGet___9__33_0()
 		{
-			return (::System::Func_4<::NEMHKFFNDJO, ::System::UInt16, ::System::UInt16, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8F8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F900);
+			return (::System::Func_4<::NEMHKFFNDJO, ::System::UInt16, ::System::UInt16, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x705E8);
 		}
 
 		static ::System::Func_2<::DLBGONGJBNC*, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::DLBGONGJBNC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F908);
+			return (::System::Func_2<::DLBGONGJBNC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x705F0);
+		}
+
+		static ::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>** StaticGet___9__20_0()
+		{
+			return (::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x705F8);
 		}
 
 		static ::System::Void _cctor()

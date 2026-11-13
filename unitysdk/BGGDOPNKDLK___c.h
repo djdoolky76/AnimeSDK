@@ -5,18 +5,18 @@ class CKEIGJNHMDN;
 class OIKDLNCBPFM;
 namespace System { class Object; }
 
-#define BGGDOPNKDLK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C58EEB0)
-#define BGGDOPNKDLK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C58EEF0)
-#define BGGDOPNKDLK___C___CCTOR_B__27_0_OFFSET UNITYSDK_OFFSET(0x1C58EF00)
+#define BGGDOPNKDLK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1702AFE0)
+#define BGGDOPNKDLK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1702B020)
+#define BGGDOPNKDLK___C___CCTOR_B__27_0_OFFSET UNITYSDK_OFFSET(0x1702B030)
 
-inline static constexpr unsigned int BGGDOPNKDLK___c_TypeDefinitionIndex = 37266;
+inline static constexpr unsigned int BGGDOPNKDLK___c_TypeDefinitionIndex = 38194;
 
 	class BGGDOPNKDLK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64760);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A7A0);
 		}
 
 		static ::System::Void _cctor()

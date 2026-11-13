@@ -5,13 +5,13 @@ namespace IFix::Core { class ThreadStackInfo; }
 namespace System { class LocalDataStoreSlot; }
 namespace System { class Object; }
 
-#define IFIX_CORE_THREADSTACKINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9B0720)
-#define IFIX_CORE_THREADSTACKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B99E530)
-#define IFIX_CORE_THREADSTACKINFO_GET_STACK_OFFSET UNITYSDK_OFFSET(0x1B9997A0)
+#define IFIX_CORE_THREADSTACKINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8C11B0)
+#define IFIX_CORE_THREADSTACKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AF050)
+#define IFIX_CORE_THREADSTACKINFO_GET_STACK_OFFSET UNITYSDK_OFFSET(0x1E8AA2C0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ThreadStackInfo_TypeDefinitionIndex = 7132;
+	inline static constexpr unsigned int ThreadStackInfo_TypeDefinitionIndex = 7143;
 
 	class ThreadStackInfo : public ::System::Object
 	{

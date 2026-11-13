@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class EnableStoryWin; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GPCAAAAKGLG_CTOR_OFFSET UNITYSDK_OFFSET(0x15B32150)
-#define GPCAAAAKGLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B32260)
+#define GPCAAAAKGLG_CTOR_OFFSET UNITYSDK_OFFSET(0x187C30A0)
+#define GPCAAAAKGLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187C31B0)
 
-inline static constexpr unsigned int GPCAAAAKGLG_TypeDefinitionIndex = 58112;
+inline static constexpr unsigned int GPCAAAAKGLG_TypeDefinitionIndex = 59351;
 
 	class GPCAAAAKGLG
 	{

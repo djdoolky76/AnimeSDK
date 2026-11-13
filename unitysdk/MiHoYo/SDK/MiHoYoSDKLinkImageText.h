@@ -14,20 +14,20 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFD2180)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD2060)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xAFD0E90)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xAFCEEB0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xAFD1CC0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xAFCFDE0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_REPLACERICHTEXT_OFFSET UNITYSDK_OFFSET(0xAFD1A50)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xAFCEED0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xAFCEEC0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xAFCEF30)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E306370)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E306250)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0x1E305080)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1E3030A0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1E305EB0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1E303FD0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_REPLACERICHTEXT_OFFSET UNITYSDK_OFFSET(0x1E305C40)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0x1E3030C0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1E3030B0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0x1E303120)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 46456;
+	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 47484;
 
 	class MiHoYoSDKLinkImageText : public ::MiHoYo::SDK::HoYoUI::HoYoText
 	{
@@ -39,24 +39,24 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::HrefClickEvent* m_OnHrefClick; // 0x210
 		::Il2CppArray<::UnityEngine::UIVertex>* m_TempVerts; // 0x218
 		::UnityEngine::UIVertex vert; // 0x220
-		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x2AC70);
-		}
-
 		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x2AC78);
+			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x1EC30);
 		}
 
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x2AC80);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x1EC38);
 		}
 
 		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
 		{
-			return (::System::Text::StringBuilder**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x2AC88);
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x1EC40);
+		}
+
+		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x1EC48);
 		}
 
 		::System::Void _ctor()

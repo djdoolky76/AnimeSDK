@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_CULTUREAWARECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C1776C0)
-#define SYSTEM_CULTUREAWARECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C177600)
-#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C1778E0)
-#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C177790)
-#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x1C177940)
-#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C177850)
+#define SYSTEM_CULTUREAWARECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1B948E50)
+#define SYSTEM_CULTUREAWARECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B948D90)
+#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B949070)
+#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B948F20)
+#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x1B9490D0)
+#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B948FE0)
 
 namespace System
 {
@@ -22,9 +22,8 @@ namespace System
 	{
 	public:
 		::System::Globalization::CompareInfo* _compareInfo; // 0x10
-		::System::Boolean _ignoreCase; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::Globalization::CompareOptions _options; // 0x1C
+		::System::Globalization::CompareOptions _options; // 0x18
+		::System::Boolean _ignoreCase; // 0x1C
 		::System::Void _ctor(::System::Globalization::CultureInfo* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_CTOR_OFFSET))(this, a1, a2);

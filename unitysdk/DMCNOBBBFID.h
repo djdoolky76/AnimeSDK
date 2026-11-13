@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetupModifierExtraMaxLayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMCNOBBBFID_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB2BE0)
-#define DMCNOBBBFID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEB2C10)
+#define DMCNOBBBFID_CTOR_OFFSET UNITYSDK_OFFSET(0x186903E0)
+#define DMCNOBBBFID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18690410)
 
-inline static constexpr unsigned int DMCNOBBBFID_TypeDefinitionIndex = 55601;
+inline static constexpr unsigned int DMCNOBBBFID_TypeDefinitionIndex = 56797;
 
 	class DMCNOBBBFID
 	{

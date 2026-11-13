@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JJBIIKAMGKG_CGDOAGEGDFC_OFFSET UNITYSDK_OFFSET(0xB1FB370)
-#define JJBIIKAMGKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FB570)
+#define JJBIIKAMGKG_CGDOAGEGDFC_OFFSET UNITYSDK_OFFSET(0x17429DF0)
+#define JJBIIKAMGKG_CTOR_OFFSET UNITYSDK_OFFSET(0x17429FF0)
 
-inline static constexpr unsigned int JJBIIKAMGKG_TypeDefinitionIndex = 47481;
+inline static constexpr unsigned int JJBIIKAMGKG_TypeDefinitionIndex = 48510;
 
 	class JJBIIKAMGKG : public ::System::Object
 	{

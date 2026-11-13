@@ -4,12 +4,12 @@
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x153B91D0)
-#define XLUA_UTILS___C__DISPLAYCLASS11_0__GETINTEGERUSERDATAPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x153C9010)
+#define XLUA_UTILS___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F04CA60)
+#define XLUA_UTILS___C__DISPLAYCLASS11_0__GETINTEGERUSERDATAPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x1F05C550)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass11_0_TypeDefinitionIndex = 50268;
+	inline static constexpr unsigned int Utils___c__DisplayClass11_0_TypeDefinitionIndex = 51319;
 
 	class Utils___c__DisplayClass11_0 : public ::System::Object
 	{

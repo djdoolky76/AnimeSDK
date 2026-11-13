@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PIOGONCBKIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC26D860)
-#define PIOGONCBKIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC26D8A0)
-#define PIOGONCBKIF___C__SETUPVIEW_B__5_1_OFFSET UNITYSDK_OFFSET(0xC26D8B0)
+#define PIOGONCBKIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9D9E00)
+#define PIOGONCBKIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D9E40)
+#define PIOGONCBKIF___C__SETUPVIEW_B__5_1_OFFSET UNITYSDK_OFFSET(0x1A9D9E50)
 
-inline static constexpr unsigned int PIOGONCBKIF___c_TypeDefinitionIndex = 71330;
+inline static constexpr unsigned int PIOGONCBKIF___c_TypeDefinitionIndex = 73307;
 
 	class PIOGONCBKIF___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD20);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::FixPoint, ::System::Object*>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::FixPoint, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD28);
+			return (::System::Func_2<::RPG::GameCore::FixPoint, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73850);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73858);
 		}
 
 		static ::System::Void _cctor()

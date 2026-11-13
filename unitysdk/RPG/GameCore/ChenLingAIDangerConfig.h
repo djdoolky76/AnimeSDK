@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingAIDangerConfig; }
 
-#define RPG_GAMECORE_CHENLINGAIDANGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54FF80)
-#define RPG_GAMECORE_CHENLINGAIDANGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D54FDA0)
+#define RPG_GAMECORE_CHENLINGAIDANGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F351490)
+#define RPG_GAMECORE_CHENLINGAIDANGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3512B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingAIDangerConfig_TypeDefinitionIndex = 15696;
+	inline static constexpr unsigned int ChenLingAIDangerConfig_TypeDefinitionIndex = 15854;
 
 	class ChenLingAIDangerConfig : public ::RPG::GameCore::JsonConfig
 	{

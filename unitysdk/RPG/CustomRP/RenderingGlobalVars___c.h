@@ -5,25 +5,25 @@ namespace RPG::CustomRP { class IPlaneReflection; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC41320)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC41360)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS___C__GET_VALIDLOCALREFLECTION_B__111_0_OFFSET UNITYSDK_OFFSET(0x1CC41370)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19908260)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x199082A0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS___C__GET_VALIDLOCALREFLECTION_B__111_0_OFFSET UNITYSDK_OFFSET(0x199082B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RenderingGlobalVars___c_TypeDefinitionIndex = 37645;
+	inline static constexpr unsigned int RenderingGlobalVars___c_TypeDefinitionIndex = 38573;
 
 	class RenderingGlobalVars___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::CustomRP::IPlaneReflection*, ::System::Boolean>** StaticGet___9__111_0()
 		{
-			return (::System::Func_2<::RPG::CustomRP::IPlaneReflection*, ::System::Boolean>**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x2FFA0);
+			return (::System::Func_2<::RPG::CustomRP::IPlaneReflection*, ::System::Boolean>**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x2AC60);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x2FFA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x2AC68);
 		}
 
 		static ::System::Void _cctor()

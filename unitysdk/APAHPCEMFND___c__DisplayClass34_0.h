@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::NavMap::FiveDim { class Face; }
 
-#define APAHPCEMFND___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x158BD6F0)
-#define APAHPCEMFND___C__DISPLAYCLASS34_0__GETFACEBYSURFACEID_B__0_OFFSET UNITYSDK_OFFSET(0x158BD780)
+#define APAHPCEMFND___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x184EA140)
+#define APAHPCEMFND___C__DISPLAYCLASS34_0__GETFACEBYSURFACEID_B__0_OFFSET UNITYSDK_OFFSET(0x184EA1D0)
 
-inline static constexpr unsigned int APAHPCEMFND___c__DisplayClass34_0_TypeDefinitionIndex = 74673;
+inline static constexpr unsigned int APAHPCEMFND___c__DisplayClass34_0_TypeDefinitionIndex = 76821;
 
 	class APAHPCEMFND___c__DisplayClass34_0 : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GNFLPMACOFA_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF6790)
+#define GNFLPMACOFA_CTOR_OFFSET UNITYSDK_OFFSET(0x18783EB0)
 
-inline static constexpr unsigned int GNFLPMACOFA_TypeDefinitionIndex = 66919;
+inline static constexpr unsigned int GNFLPMACOFA_TypeDefinitionIndex = 68863;
 
 	class GNFLPMACOFA : public ::System::Object
 	{

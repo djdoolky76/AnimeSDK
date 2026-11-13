@@ -9,13 +9,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDMISSIONMENUITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35BE80)
-#define RPG_GAMECORE_ADDMISSIONMENUITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35BE90)
-#define RPG_GAMECORE_ADDMISSIONMENUITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35BE40)
+#define RPG_GAMECORE_ADDMISSIONMENUITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA3CC0)
+#define RPG_GAMECORE_ADDMISSIONMENUITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAA3CD0)
+#define RPG_GAMECORE_ADDMISSIONMENUITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA3C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddMissionMenuItem_TypeDefinitionIndex = 21130;
+	inline static constexpr unsigned int AddMissionMenuItem_TypeDefinitionIndex = 21471;
 
 	class AddMissionMenuItem : public ::RPG::GameCore::TaskConfig
 	{

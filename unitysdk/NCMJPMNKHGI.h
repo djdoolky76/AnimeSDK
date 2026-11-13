@@ -7,11 +7,11 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelEntitiesFilterSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NCMJPMNKHGI_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xBB10800)
-#define NCMJPMNKHGI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB10A30)
-#define NCMJPMNKHGI_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xBB108C0)
+#define NCMJPMNKHGI_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x151041C0)
+#define NCMJPMNKHGI_CTOR_OFFSET UNITYSDK_OFFSET(0x151043F0)
+#define NCMJPMNKHGI_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x15104280)
 
-inline static constexpr unsigned int NCMJPMNKHGI_TypeDefinitionIndex = 77522;
+inline static constexpr unsigned int NCMJPMNKHGI_TypeDefinitionIndex = 80257;
 
 	class NCMJPMNKHGI : public ::System::Object
 	{

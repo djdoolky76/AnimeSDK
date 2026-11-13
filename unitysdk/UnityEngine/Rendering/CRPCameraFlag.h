@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPCameraFlag_TypeDefinitionIndex = 37514;
+	inline static constexpr unsigned int CRPCameraFlag_TypeDefinitionIndex = 38442;
 
 	enum class CRPCameraFlag : ::System::Int32
 	{

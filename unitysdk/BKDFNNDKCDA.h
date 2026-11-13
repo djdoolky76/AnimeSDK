@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class BattleSingleClickQTEConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKDFNNDKCDA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A9090)
+#define BKDFNNDKCDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A648F20)
 
-inline static constexpr unsigned int BKDFNNDKCDA_TypeDefinitionIndex = 56192;
+inline static constexpr unsigned int BKDFNNDKCDA_TypeDefinitionIndex = 57404;
 
 	class BKDFNNDKCDA : public ::GIBILAKDENF
 	{

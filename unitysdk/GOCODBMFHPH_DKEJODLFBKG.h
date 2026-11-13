@@ -5,9 +5,9 @@ namespace RPG::Client::ChenLingBattle { class IGamePhase; }
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define GOCODBMFHPH_DKEJODLFBKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1DDA0)
+#define GOCODBMFHPH_DKEJODLFBKG_CTOR_OFFSET UNITYSDK_OFFSET(0x187AE220)
 
-inline static constexpr unsigned int GOCODBMFHPH_DKEJODLFBKG_TypeDefinitionIndex = 76300;
+inline static constexpr unsigned int GOCODBMFHPH_DKEJODLFBKG_TypeDefinitionIndex = 78631;
 
 	class GOCODBMFHPH_DKEJODLFBKG : public ::System::Object
 	{

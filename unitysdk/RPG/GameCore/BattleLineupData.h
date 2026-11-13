@@ -15,67 +15,68 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_BATTLELINEUPDATA_ADDNEWBATTLEEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0xE5BBAB0)
-#define RPG_GAMECORE_BATTLELINEUPDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5BD350)
-#define RPG_GAMECORE_BATTLELINEUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE5BB4A0)
-#define RPG_GAMECORE_BATTLELINEUPDATA_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0xE5B8B90)
-#define RPG_GAMECORE_BATTLELINEUPDATA_FILLALIVELIGHTTEAM_OFFSET UNITYSDK_OFFSET(0xE5BC8A0)
-#define RPG_GAMECORE_BATTLELINEUPDATA_FILLBATTLEEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0xE5BBBE0)
-#define RPG_GAMECORE_BATTLELINEUPDATA_GETALLAVATARGLOBALMAZEBUFFDATALIST_OFFSET UNITYSDK_OFFSET(0xE5BD190)
-#define RPG_GAMECORE_BATTLELINEUPDATA_GETALLMAZEBUFFDATALIST_OFFSET UNITYSDK_OFFSET(0xE5BCB30)
-#define RPG_GAMECORE_BATTLELINEUPDATA_GETTEMPLATEVARIABLES_OFFSET UNITYSDK_OFFSET(0xE5BC5B0)
-#define RPG_GAMECORE_BATTLELINEUPDATA_GETTOTALEXTRAAVATARRANK_OFFSET UNITYSDK_OFFSET(0xE5BD060)
-#define RPG_GAMECORE_BATTLELINEUPDATA_GET_BATTLEEXTRAPROPERTYADDITIONLIST_OFFSET UNITYSDK_OFFSET(0xE5BD2E0)
-#define RPG_GAMECORE_BATTLELINEUPDATA_GET_LEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xE5BD300)
-#define RPG_GAMECORE_BATTLELINEUPDATA_GET_LEVELPATH_OFFSET UNITYSDK_OFFSET(0xE5B9750)
-#define RPG_GAMECORE_BATTLELINEUPDATA_LINEUPCONTAINSAVATARID_OFFSET UNITYSDK_OFFSET(0xE5BCA10)
-#define RPG_GAMECORE_BATTLELINEUPDATA_RESET_OFFSET UNITYSDK_OFFSET(0xE5BB880)
-#define RPG_GAMECORE_BATTLELINEUPDATA_SETCUSTOMLEVELPATH_OFFSET UNITYSDK_OFFSET(0xE5BB830)
-#define RPG_GAMECORE_BATTLELINEUPDATA_SET_BATTLEEXTRAPROPERTYADDITIONLIST_OFFSET UNITYSDK_OFFSET(0xE5BD2F0)
-#define RPG_GAMECORE_BATTLELINEUPDATA__FILLTEMPLATEVARS_OFFSET UNITYSDK_OFFSET(0xE5BC720)
+#define RPG_GAMECORE_BATTLELINEUPDATA_ADDNEWBATTLEEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0x1AE6A6C0)
+#define RPG_GAMECORE_BATTLELINEUPDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE6C6A0)
+#define RPG_GAMECORE_BATTLELINEUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AE6A040)
+#define RPG_GAMECORE_BATTLELINEUPDATA_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0x1AE678B0)
+#define RPG_GAMECORE_BATTLELINEUPDATA_FILLALIVELIGHTTEAM_OFFSET UNITYSDK_OFFSET(0x1AE6BBF0)
+#define RPG_GAMECORE_BATTLELINEUPDATA_FILLBATTLEEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0x1AE6A7A0)
+#define RPG_GAMECORE_BATTLELINEUPDATA_GETALLAVATARGLOBALMAZEBUFFDATALIST_OFFSET UNITYSDK_OFFSET(0x1AE6C4E0)
+#define RPG_GAMECORE_BATTLELINEUPDATA_GETALLMAZEBUFFDATALIST_OFFSET UNITYSDK_OFFSET(0x1AE6BE80)
+#define RPG_GAMECORE_BATTLELINEUPDATA_GETTEMPLATEVARIABLES_OFFSET UNITYSDK_OFFSET(0x1AE6B900)
+#define RPG_GAMECORE_BATTLELINEUPDATA_GETTOTALEXTRAAVATARRANK_OFFSET UNITYSDK_OFFSET(0x1AE6C3B0)
+#define RPG_GAMECORE_BATTLELINEUPDATA_GET_BATTLEEXTRAPROPERTYADDITIONLIST_OFFSET UNITYSDK_OFFSET(0x1AE6C630)
+#define RPG_GAMECORE_BATTLELINEUPDATA_GET_LEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x1AE6C650)
+#define RPG_GAMECORE_BATTLELINEUPDATA_GET_LEVELPATH_OFFSET UNITYSDK_OFFSET(0x1AE68540)
+#define RPG_GAMECORE_BATTLELINEUPDATA_LINEUPCONTAINSAVATARID_OFFSET UNITYSDK_OFFSET(0x1AE6BD60)
+#define RPG_GAMECORE_BATTLELINEUPDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1AE6A400)
+#define RPG_GAMECORE_BATTLELINEUPDATA_SETCUSTOMLEVELPATH_OFFSET UNITYSDK_OFFSET(0x1AE6A3B0)
+#define RPG_GAMECORE_BATTLELINEUPDATA_SET_BATTLEEXTRAPROPERTYADDITIONLIST_OFFSET UNITYSDK_OFFSET(0x1AE6C640)
+#define RPG_GAMECORE_BATTLELINEUPDATA__FILLTEMPLATEVARS_OFFSET UNITYSDK_OFFSET(0x1AE6BA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupData_TypeDefinitionIndex = 56332;
+	inline static constexpr unsigned int BattleLineupData_TypeDefinitionIndex = 57546;
 
 	class BattleLineupData : public ::System::Object
 	{
 	public:
-		::System::String* _LevelPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::LineUpCharacter*>* ExtraTeam; // 0x18
-		::System::Collections::Generic::List_1<::GNEBNHLMFAF*>* _BattleExtraPropertyAdditionList_k__BackingField; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* AdditionalTemplateVariables; // 0x28
-		::Il2CppArray<::RPG::GameCore::LineUpCharacter*>* LightTeam; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* SpecialAvatarLevelAreaConfigs; // 0x38
-		::RPG::GameCore::LineUpContext* Context; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _TemplateVariables; // 0x48
-		::System::Collections::Generic::List_1<::RPG::GameCore::MazeBuffData*>* MazeBuffAdded; // 0x50
-		::Il2CppArray<::System::UInt32>* TeamBuffIDList; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* DeferCreateTrialPlayerDic; // 0x60
-		::System::UInt32 WorldLevel; // 0x68
-		static ::System::Int32* StaticGet_s_TeamDefaultCharacterCount()
+		::Il2CppArray<::RPG::GameCore::LineUpCharacter*>* ExtraTeam; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* AdditionalTemplateVariables; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::MazeBuffData*>* MazeBuffAdded; // 0x20
+		::Il2CppArray<::System::UInt32>* TeamBuffIDList; // 0x28
+		::RPG::GameCore::LineUpContext* Context; // 0x30
+		::Il2CppArray<::RPG::GameCore::LineUpCharacter*>* AppendAvatars; // 0x38
+		::System::Collections::Generic::List_1<::GNEBNHLMFAF*>* _BattleExtraPropertyAdditionList_k__BackingField; // 0x40
+		::Il2CppArray<::RPG::GameCore::LineUpCharacter*>* LightTeam; // 0x48
+		::System::String* _LevelPath; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _TemplateVariables; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* SpecialAvatarLevelAreaConfigs; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* DeferCreateTrialPlayerDic; // 0x68
+		::System::UInt32 WorldLevel; // 0x70
+		static ::System::Boolean* StaticGet_s_IsMonsterDontLoad()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0x8DF0);
-		}
-
-		static ::System::Int32* StaticGet_s_TeamBoostSkillNumber()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0x8DF4);
-		}
-
-		static ::System::Boolean* StaticGet_s_IsPlayerDontLoad()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0x8DF8);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0xD740);
 		}
 
 		static ::System::Boolean* StaticGet_s_IsSkipBattlePerformance()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0x8DF9);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0xD741);
 		}
 
-		static ::System::Boolean* StaticGet_s_IsMonsterDontLoad()
+		static ::System::Boolean* StaticGet_s_IsPlayerDontLoad()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0x8DFA);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0xD742);
+		}
+
+		static ::System::Int32* StaticGet_s_TeamBoostSkillNumber()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0xD744);
+		}
+
+		static ::System::Int32* StaticGet_s_TeamDefaultCharacterCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "BattleLineupData")->GetStaticField(0xD748);
 		}
 
 		::System::Void _ctor()

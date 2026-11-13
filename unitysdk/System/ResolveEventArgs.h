@@ -4,8 +4,8 @@
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_RESOLVEEVENTARGS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C284470)
-#define SYSTEM_RESOLVEEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C284440)
+#define SYSTEM_RESOLVEEVENTARGS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DAB4E90)
+#define SYSTEM_RESOLVEEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB4E60)
 
 namespace System
 {
@@ -14,8 +14,8 @@ namespace System
 	class ResolveEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Reflection::Assembly* m_Requesting; // 0x10
-		::System::String* m_Name; // 0x18
+		::System::String* m_Name; // 0x10
+		::System::Reflection::Assembly* m_Requesting; // 0x18
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOLVEEVENTARGS_CTOR_OFFSET))(this, a1);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define DPCFKFGNBKL_ONNKKOMPGDE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF4BB0)
+#define DPCFKFGNBKL_ONNKKOMPGDE_CTOR_OFFSET UNITYSDK_OFFSET(0x191B9B80)
 
-inline static constexpr unsigned int DPCFKFGNBKL_ONNKKOMPGDE_TypeDefinitionIndex = 56966;
+inline static constexpr unsigned int DPCFKFGNBKL_ONNKKOMPGDE_TypeDefinitionIndex = 58192;
 
 	class DPCFKFGNBKL_ONNKKOMPGDE : public ::System::Object
 	{

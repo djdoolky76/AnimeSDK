@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF8F610)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS38_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__5_OFFSET UNITYSDK_OFFSET(0x1BF8F9D0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFA1360)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS38_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__5_OFFSET UNITYSDK_OFFSET(0x1AFA1720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass38_0_TypeDefinitionIndex = 8049;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass38_0_TypeDefinitionIndex = 8058;
 
 	class ProtocolManager___c__DisplayClass38_0 : public ::System::Object
 	{

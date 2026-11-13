@@ -4,18 +4,18 @@
 class GAKDIMFCIIL;
 namespace System { class Object; }
 
-#define GAKDIMFCIIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3F2D70)
-#define GAKDIMFCIIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F2DB0)
-#define GAKDIMFCIIL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3F2DC0)
+#define GAKDIMFCIIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC40660)
+#define GAKDIMFCIIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC406A0)
+#define GAKDIMFCIIL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC406B0)
 
-inline static constexpr unsigned int GAKDIMFCIIL___c_TypeDefinitionIndex = 35027;
+inline static constexpr unsigned int GAKDIMFCIIL___c_TypeDefinitionIndex = 35955;
 
 	class GAKDIMFCIIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAB10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55F00);
 		}
 
 		static ::System::Void _cctor()

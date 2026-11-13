@@ -4,9 +4,9 @@
 class HDPEJIGDNJB;
 class KANKEPCJION_JNLBIIDFHMK;
 
-#define PGNGFJMEPMM_MJIMAFBAHIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC223C80)
+#define PGNGFJMEPMM_MJIMAFBAHIF_CTOR_OFFSET UNITYSDK_OFFSET(0x16DA0810)
 
-inline static constexpr unsigned int PGNGFJMEPMM_MJIMAFBAHIF_TypeDefinitionIndex = 71980;
+inline static constexpr unsigned int PGNGFJMEPMM_MJIMAFBAHIF_TypeDefinitionIndex = 74009;
 
 	class PGNGFJMEPMM_MJIMAFBAHIF : public ::System::Object
 	{

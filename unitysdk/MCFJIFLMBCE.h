@@ -5,17 +5,17 @@
 class FCOEMCEDLNL;
 class MCFJIFLMBCE;
 
-#define MCFJIFLMBCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D10BCE0)
-#define MCFJIFLMBCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D10BCF0)
-#define MCFJIFLMBCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D10BCB0)
+#define MCFJIFLMBCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB82D30)
+#define MCFJIFLMBCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1BB82D40)
+#define MCFJIFLMBCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1BB82D00)
 
-inline static constexpr unsigned int MCFJIFLMBCE_TypeDefinitionIndex = 10232;
+inline static constexpr unsigned int MCFJIFLMBCE_TypeDefinitionIndex = 10241;
 
 	class MCFJIFLMBCE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::UInt32 DGLJLJEHNNB; // 0x18
-		::RPG::Client::LimaoNewsForumOperationType PLPPPCEPBDO; // 0x1C
+		::RPG::Client::LimaoNewsForumOperationType PLPPPCEPBDO; // 0x18
+		::System::UInt32 DGLJLJEHNNB; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MCFJIFLMBCE_CTOR_OFFSET))(this);

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CreateAttachPoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B2C10)
-#define RPG_GAMECORE_CREATEATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B2C50)
-#define RPG_GAMECORE_CREATEATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B2BB0)
+#define RPG_GAMECORE_CREATEATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEC490)
+#define RPG_GAMECORE_CREATEATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EFEC4D0)
+#define RPG_GAMECORE_CREATEATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFEC430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateAttachPoint_TypeDefinitionIndex = 23193;
+	inline static constexpr unsigned int CreateAttachPoint_TypeDefinitionIndex = 23624;
 
 	class CreateAttachPoint : public ::RPG::GameCore::TaskConfig
 	{

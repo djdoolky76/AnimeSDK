@@ -6,9 +6,9 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceBuffConfig; }
 
-#define JDJBKMEPGLD_JCEMLMIABIP_OFFSET UNITYSDK_OFFSET(0x1C6C6340)
+#define JDJBKMEPGLD_JCEMLMIABIP_OFFSET UNITYSDK_OFFSET(0x1C130AD0)
 
-inline static constexpr unsigned int JDJBKMEPGLD_TypeDefinitionIndex = 37403;
+inline static constexpr unsigned int JDJBKMEPGLD_TypeDefinitionIndex = 38331;
 
 	class JDJBKMEPGLD : public ::System::Object
 	{

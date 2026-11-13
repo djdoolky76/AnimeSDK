@@ -3,10 +3,10 @@
 class EJHJKIIHLLE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNONDHFBEMN_CTOR_OFFSET UNITYSDK_OFFSET(0x158851D0)
-#define FNONDHFBEMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15885200)
+#define FNONDHFBEMN_CTOR_OFFSET UNITYSDK_OFFSET(0x17F399E0)
+#define FNONDHFBEMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17F39A10)
 
-inline static constexpr unsigned int FNONDHFBEMN_TypeDefinitionIndex = 52933;
+inline static constexpr unsigned int FNONDHFBEMN_TypeDefinitionIndex = 54089;
 
 	class FNONDHFBEMN
 	{

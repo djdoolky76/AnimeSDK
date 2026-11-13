@@ -8,14 +8,14 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE92F550)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92F2D0)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92F4E0)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92F2C0)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A820)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DA1A5A0)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A7B0)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DA1A590)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowRollingSubtitlesDialogClip_TypeDefinitionIndex = 48300;
+	inline static constexpr unsigned int ShowRollingSubtitlesDialogClip_TypeDefinitionIndex = 49341;
 
 	class ShowRollingSubtitlesDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -24,17 +24,17 @@ namespace RPGTools::Timeline
 		::System::String* ConfigPath; // 0x20
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0x6FCB0);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0xEBF0);
 		}
 
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0x6FCB8);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0xEBF8);
 		}
 
 		static ::RPG::Client::NotifyType* StaticGet_CLOSE_NOTIFY_TYPE()
 		{
-			return (::RPG::Client::NotifyType*)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0x15B30);
+			return (::RPG::Client::NotifyType*)UnitySDK::FromName("RPGTools.Timeline", "ShowRollingSubtitlesDialogClip")->GetStaticField(0x3080);
 		}
 
 		::System::Void _ctor()

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ReleaseCharacter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELEASECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94A150)
-#define RPG_GAMECORE_RELEASECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D94A160)
-#define RPG_GAMECORE_RELEASECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94A120)
+#define RPG_GAMECORE_RELEASECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F233BF0)
+#define RPG_GAMECORE_RELEASECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F233C00)
+#define RPG_GAMECORE_RELEASECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F233BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReleaseCharacter_TypeDefinitionIndex = 20821;
+	inline static constexpr unsigned int ReleaseCharacter_TypeDefinitionIndex = 21158;
 
 	class ReleaseCharacter : public ::RPG::GameCore::TaskConfig
 	{

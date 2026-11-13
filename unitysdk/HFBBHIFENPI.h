@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define HFBBHIFENPI_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5BDB0)
-#define HFBBHIFENPI_GET_ADDSCORE_OFFSET UNITYSDK_OFFSET(0x15C5BDD0)
-#define HFBBHIFENPI_GET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15C5BE20)
-#define HFBBHIFENPI_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x15C5BDF0)
-#define HFBBHIFENPI_SET_ADDSCORE_OFFSET UNITYSDK_OFFSET(0x15C5BDE0)
-#define HFBBHIFENPI_SET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15C5BE30)
-#define HFBBHIFENPI_SET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x15C5BE10)
+#define HFBBHIFENPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A212800)
+#define HFBBHIFENPI_GET_ADDSCORE_OFFSET UNITYSDK_OFFSET(0x1A212820)
+#define HFBBHIFENPI_GET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1A212870)
+#define HFBBHIFENPI_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x1A212840)
+#define HFBBHIFENPI_SET_ADDSCORE_OFFSET UNITYSDK_OFFSET(0x1A212830)
+#define HFBBHIFENPI_SET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1A212880)
+#define HFBBHIFENPI_SET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x1A212860)
 
-inline static constexpr unsigned int HFBBHIFENPI_TypeDefinitionIndex = 81274;
+inline static constexpr unsigned int HFBBHIFENPI_TypeDefinitionIndex = 84054;
 
 	class HFBBHIFENPI : public ::System::Object
 	{
 	public:
-		::System::Int32 _SourceRuntimeID_k__BackingField; // 0x10
-		::UnityEngine::Vector3 _WorldPosition_k__BackingField; // 0x14
-		::System::UInt32 _AddScore_k__BackingField; // 0x20
+		::System::UInt32 _AddScore_k__BackingField; // 0x10
+		::System::Int32 _SourceRuntimeID_k__BackingField; // 0x14
+		::UnityEngine::Vector3 _WorldPosition_k__BackingField; // 0x18
 		::System::Void _ctor(::System::UInt32 a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + HFBBHIFENPI_CTOR_OFFSET))(this, a1, a2, a3);

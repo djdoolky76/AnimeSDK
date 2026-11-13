@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CLCHEDJKBLL_DFEOMCOFHBC_TypeDefinitionIndex = 59819;
+inline static constexpr unsigned int CLCHEDJKBLL_DFEOMCOFHBC_TypeDefinitionIndex = 61099;
 
 	struct alignas(4) CLCHEDJKBLL_DFEOMCOFHBC
 	{

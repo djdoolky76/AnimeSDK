@@ -9,13 +9,13 @@ namespace RPG::GameCore { class MoveToTargetList; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MOVETOTARGETLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88FEE0)
-#define RPG_GAMECORE_MOVETOTARGETLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D890030)
-#define RPG_GAMECORE_MOVETOTARGETLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88FD70)
+#define RPG_GAMECORE_MOVETOTARGETLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E480C20)
+#define RPG_GAMECORE_MOVETOTARGETLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E480D70)
+#define RPG_GAMECORE_MOVETOTARGETLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E480AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MoveToTargetList_TypeDefinitionIndex = 22463;
+	inline static constexpr unsigned int MoveToTargetList_TypeDefinitionIndex = 22872;
 
 	class MoveToTargetList : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,11 +4,11 @@
 namespace System { class Version; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DFBFBJGPLJO_CTOR_OFFSET UNITYSDK_OFFSET(0xE818610)
-#define DFBFBJGPLJO_GODCHGIMIAJ_OFFSET UNITYSDK_OFFSET(0xE818090)
-#define DFBFBJGPLJO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE818000)
+#define DFBFBJGPLJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B388430)
+#define DFBFBJGPLJO_GODCHGIMIAJ_OFFSET UNITYSDK_OFFSET(0x1B387EB0)
+#define DFBFBJGPLJO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1B387E20)
 
-inline static constexpr unsigned int DFBFBJGPLJO_TypeDefinitionIndex = 82247;
+inline static constexpr unsigned int DFBFBJGPLJO_TypeDefinitionIndex = 85120;
 
 	class DFBFBJGPLJO : public ::JICKEGCLBMC
 	{

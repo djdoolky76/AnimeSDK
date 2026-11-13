@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournContentExhibitionRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNCONTENTEXHIBITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA09820)
-#define RPG_GAMECORE_ROGUETOURNCONTENTEXHIBITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA09600)
+#define RPG_GAMECORE_ROGUETOURNCONTENTEXHIBITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF2A100)
+#define RPG_GAMECORE_ROGUETOURNCONTENTEXHIBITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF29EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournContentExhibitionRow_TypeDefinitionIndex = 15035;
+	inline static constexpr unsigned int RogueTournContentExhibitionRow_TypeDefinitionIndex = 15191;
 
 	class RogueTournContentExhibitionRow : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace RPG::GameCore
 		::System::String* IconPath; // 0x18
 		::System::String* SlotIconPath; // 0x20
 		::RPG::GameCore::RogueExhibitionType ExhibitionType; // 0x28
-		::System::UInt32 ProgramGroupID; // 0x2C
-		::System::UInt32 ExhibitionID; // 0x30
+		::System::UInt32 ExhibitionID; // 0x2C
+		::System::UInt32 ProgramGroupID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNCONTENTEXHIBITIONROW_CTOR_OFFSET))(this);

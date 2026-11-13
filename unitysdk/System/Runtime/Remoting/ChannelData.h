@@ -6,11 +6,11 @@ namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Remoting { class ChannelData; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1C29FFD0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A12D0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x1C29FF00)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C29FF60)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x1C29FEA0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1DAD08D0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD1BD0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x1DAD0800)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1DAD0860)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x1DAD07A0)
 
 namespace System::Runtime::Remoting
 {
@@ -19,13 +19,13 @@ namespace System::Runtime::Remoting
 	class ChannelData : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* _clientProviders; // 0x10
+		::System::String* Id; // 0x10
 		::System::String* DelayLoadAsClientChannel; // 0x18
-		::System::String* Ref; // 0x20
-		::System::String* Type; // 0x28
-		::System::Collections::ArrayList* _serverProviders; // 0x30
-		::System::Collections::Hashtable* _customProperties; // 0x38
-		::System::String* Id; // 0x40
+		::System::String* Type; // 0x20
+		::System::Collections::Hashtable* _customProperties; // 0x28
+		::System::String* Ref; // 0x30
+		::System::Collections::ArrayList* _clientProviders; // 0x38
+		::System::Collections::ArrayList* _serverProviders; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CHANNELDATA_CTOR_OFFSET))(this);

@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_HIDEPROPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8F7030)
-#define RPGTOOLS_TIMELINE_HIDEPROPTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F7130)
+#define RPGTOOLS_TIMELINE_HIDEPROPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D919590)
+#define RPGTOOLS_TIMELINE_HIDEPROPTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D919690)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HidePropTrack_TypeDefinitionIndex = 48140;
+	inline static constexpr unsigned int HidePropTrack_TypeDefinitionIndex = 49171;
 
 	class HidePropTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define PDMJAIFPCJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54F070)
-#define PDMJAIFPCJE_EDBDAAKMDFI_OFFSET UNITYSDK_OFFSET(0x1C54F3C0)
-#define PDMJAIFPCJE_FIGLOLHCHHL_OFFSET UNITYSDK_OFFSET(0x1C54F010)
-#define PDMJAIFPCJE_NCLOMPDLJPB_OFFSET UNITYSDK_OFFSET(0x1C54F1D0)
+#define PDMJAIFPCJE_CTOR_OFFSET UNITYSDK_OFFSET(0x207C6B20)
+#define PDMJAIFPCJE_EDBDAAKMDFI_OFFSET UNITYSDK_OFFSET(0x207C6E30)
+#define PDMJAIFPCJE_FIGLOLHCHHL_OFFSET UNITYSDK_OFFSET(0x207C6AC0)
+#define PDMJAIFPCJE_NCLOMPDLJPB_OFFSET UNITYSDK_OFFSET(0x207C6C40)
 
-inline static constexpr unsigned int PDMJAIFPCJE_TypeDefinitionIndex = 41768;
+inline static constexpr unsigned int PDMJAIFPCJE_TypeDefinitionIndex = 42743;
 
 	class PDMJAIFPCJE : public ::MFPKNIHJJDI
 	{

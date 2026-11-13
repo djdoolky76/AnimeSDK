@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ICameraFightState; }
 
-#define RPG_CLIENT_UICAMERAUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xE3798A0)
-#define RPG_CLIENT_UICAMERAUTILS_GETSELECTDARKTEAMENTITY_OFFSET UNITYSDK_OFFSET(0xE379780)
+#define RPG_CLIENT_UICAMERAUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0x1A102900)
+#define RPG_CLIENT_UICAMERAUTILS_GETSELECTDARKTEAMENTITY_OFFSET UNITYSDK_OFFSET(0x1A1027E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UICameraUtils_TypeDefinitionIndex = 73167;
+	inline static constexpr unsigned int UICameraUtils_TypeDefinitionIndex = 75281;
 
 	class UICameraUtils : public ::System::Object
 	{

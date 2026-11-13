@@ -3,7 +3,7 @@
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradePublishOrderPetItemKind_TypeDefinitionIndex = 74886;
+	inline static constexpr unsigned int BlindBoxTradePublishOrderPetItemKind_TypeDefinitionIndex = 77213;
 
 	enum class BlindBoxTradePublishOrderPetItemKind : ::System::Int32
 	{

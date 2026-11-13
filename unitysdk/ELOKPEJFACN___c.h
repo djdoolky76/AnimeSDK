@@ -4,18 +4,18 @@
 class ELOKPEJFACN;
 namespace System { class Object; }
 
-#define ELOKPEJFACN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2ABF10)
-#define ELOKPEJFACN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2ABF50)
-#define ELOKPEJFACN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E2ABF60)
+#define ELOKPEJFACN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206D0560)
+#define ELOKPEJFACN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206D05A0)
+#define ELOKPEJFACN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x206D05B0)
 
-inline static constexpr unsigned int ELOKPEJFACN___c_TypeDefinitionIndex = 34230;
+inline static constexpr unsigned int ELOKPEJFACN___c_TypeDefinitionIndex = 35158;
 
 	class ELOKPEJFACN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x524B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47BF0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,21 +6,21 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PFGCJHPHMEA_CTOR_OFFSET UNITYSDK_OFFSET(0xC206810)
-#define PFGCJHPHMEA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC206820)
-#define PFGCJHPHMEA_GHNPDHFIFOI_OFFSET UNITYSDK_OFFSET(0xC206C70)
-#define PFGCJHPHMEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC206920)
-#define PFGCJHPHMEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC206BE0)
-#define PFGCJHPHMEA_TICK_OFFSET UNITYSDK_OFFSET(0xC2068C0)
+#define PFGCJHPHMEA_CTOR_OFFSET UNITYSDK_OFFSET(0x16D7BFD0)
+#define PFGCJHPHMEA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16D7BFE0)
+#define PFGCJHPHMEA_GHNPDHFIFOI_OFFSET UNITYSDK_OFFSET(0x16D7C430)
+#define PFGCJHPHMEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D7C0E0)
+#define PFGCJHPHMEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16D7C3A0)
+#define PFGCJHPHMEA_TICK_OFFSET UNITYSDK_OFFSET(0x16D7C080)
 
-inline static constexpr unsigned int PFGCJHPHMEA_TypeDefinitionIndex = 58458;
+inline static constexpr unsigned int PFGCJHPHMEA_TypeDefinitionIndex = 59714;
 
 	class PFGCJHPHMEA : public ::GELIALJDFBL
 	{
 	public:
-		::System::String* ONNNFNOIHLF; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::RPG::GameCore::RogueDLC1Dot3PictureFrameDisappear* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::System::String* ONNNFNOIHLF; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueDLC1Dot3PictureFrameDisappear* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RogueDLC1Dot3PictureFrameDisappear*))((::PBYTE)hIl2Cpp + PFGCJHPHMEA_CTOR_OFFSET))(this, a1, a2);

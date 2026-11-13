@@ -12,33 +12,33 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HNJJOFBLHCN_BILPCHDOHME_OFFSET UNITYSDK_OFFSET(0x1C648CA0)
-#define HNJJOFBLHCN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C648DC0)
-#define HNJJOFBLHCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C645FA0)
-#define HNJJOFBLHCN_DLMLLDMJNAC_OFFSET UNITYSDK_OFFSET(0x1C647F00)
-#define HNJJOFBLHCN_FPNKHPOEKBC_OFFSET UNITYSDK_OFFSET(0x1C6486A0)
-#define HNJJOFBLHCN_HFMKGNFGPBG_OFFSET UNITYSDK_OFFSET(0x1C648700)
-#define HNJJOFBLHCN_IJEICDDOFPG_OFFSET UNITYSDK_OFFSET(0x1C646810)
-#define HNJJOFBLHCN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C646140)
-#define HNJJOFBLHCN_KGBGFLLIAPA_OFFSET UNITYSDK_OFFSET(0x1C647160)
-#define HNJJOFBLHCN_LAJHNFIEBCE_OFFSET UNITYSDK_OFFSET(0x1C647780)
-#define HNJJOFBLHCN_MJLFFJHOLEB_OFFSET UNITYSDK_OFFSET(0x1C646600)
-#define HNJJOFBLHCN_MMBFGDHCENM_OFFSET UNITYSDK_OFFSET(0x1C6484F0)
-#define HNJJOFBLHCN_MONLKGNABLM_OFFSET UNITYSDK_OFFSET(0x1C646BB0)
+#define HNJJOFBLHCN_BILPCHDOHME_OFFSET UNITYSDK_OFFSET(0x1C931250)
+#define HNJJOFBLHCN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C931370)
+#define HNJJOFBLHCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92E550)
+#define HNJJOFBLHCN_DLMLLDMJNAC_OFFSET UNITYSDK_OFFSET(0x1C9304B0)
+#define HNJJOFBLHCN_FPNKHPOEKBC_OFFSET UNITYSDK_OFFSET(0x1C930C50)
+#define HNJJOFBLHCN_HFMKGNFGPBG_OFFSET UNITYSDK_OFFSET(0x1C930CB0)
+#define HNJJOFBLHCN_IJEICDDOFPG_OFFSET UNITYSDK_OFFSET(0x1C92EDC0)
+#define HNJJOFBLHCN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C92E6F0)
+#define HNJJOFBLHCN_KGBGFLLIAPA_OFFSET UNITYSDK_OFFSET(0x1C92F710)
+#define HNJJOFBLHCN_LAJHNFIEBCE_OFFSET UNITYSDK_OFFSET(0x1C92FD30)
+#define HNJJOFBLHCN_MJLFFJHOLEB_OFFSET UNITYSDK_OFFSET(0x1C92EBB0)
+#define HNJJOFBLHCN_MMBFGDHCENM_OFFSET UNITYSDK_OFFSET(0x1C930AA0)
+#define HNJJOFBLHCN_MONLKGNABLM_OFFSET UNITYSDK_OFFSET(0x1C92F160)
 
-inline static constexpr unsigned int HNJJOFBLHCN_TypeDefinitionIndex = 36474;
+inline static constexpr unsigned int HNJJOFBLHCN_TypeDefinitionIndex = 37402;
 
 	class HNJJOFBLHCN : public ::System::Object
 	{
 	public:
 		::AIMNKMEFBKE* EEFMDEHLLFI; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DiceCombatV2DialogPerformanceTiming, ::System::Collections::Generic::List_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>*>* PDDIHGBPBKG; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>* JJCAJBJICFO; // 0x20
-		::PLAJONHLDJN* IBGLIGGOIEK; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>*>* CLMEMMHEICD; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>*>* CLMEMMHEICD; // 0x18
+		::PLAJONHLDJN* IBGLIGGOIEK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>* JJCAJBJICFO; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DiceCombatV2DialogPerformanceTiming, ::System::Collections::Generic::List_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>*>* PDDIHGBPBKG; // 0x30
 		static ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>** StaticGet_EJGPIOKBPCN()
 		{
-			return (::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>**)UnitySDK::FromName("", "HNJJOFBLHCN")->GetStaticField(0x2060);
+			return (::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>**)UnitySDK::FromName("", "HNJJOFBLHCN")->GetStaticField(0x70B80);
 		}
 
 		::System::Void _ctor(::PLAJONHLDJN* a1, ::AIMNKMEFBKE* a2)

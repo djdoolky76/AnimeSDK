@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/ActionItemType.h"
 #include "unitysdk/System/Object.h"
 
-#define OELBINFHAGL_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0xBE2A700)
+#define OELBINFHAGL_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x17658290)
 
-inline static constexpr unsigned int OELBINFHAGL_TypeDefinitionIndex = 71222;
+inline static constexpr unsigned int OELBINFHAGL_TypeDefinitionIndex = 73201;
 
 	class OELBINFHAGL : public ::System::Object
 	{

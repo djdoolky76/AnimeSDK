@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class JFKNBJMPOOM;
 
-#define IJMJDBOBDOP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x164617A0)
-#define IJMJDBOBDOP_CTOR_OFFSET UNITYSDK_OFFSET(0x16461820)
+#define IJMJDBOBDOP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1805FA20)
+#define IJMJDBOBDOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1805FAA0)
 
-inline static constexpr unsigned int IJMJDBOBDOP_TypeDefinitionIndex = 62615;
+inline static constexpr unsigned int IJMJDBOBDOP_TypeDefinitionIndex = 64039;
 
 	class IJMJDBOBDOP : public ::System::Object
 	{

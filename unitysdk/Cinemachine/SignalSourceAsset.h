@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define CINEMACHINE_SIGNALSOURCEASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1669D250)
+#define CINEMACHINE_SIGNALSOURCEASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x20884500)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int SignalSourceAsset_TypeDefinitionIndex = 39845;
+	inline static constexpr unsigned int SignalSourceAsset_TypeDefinitionIndex = 40774;
 
 	class SignalSourceAsset : public ::UnityEngine::ScriptableObject
 	{

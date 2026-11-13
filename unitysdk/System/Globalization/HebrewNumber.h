@@ -6,10 +6,10 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C204570)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x1C1F8BE0)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_PARSEBYCHAR_OFFSET UNITYSDK_OFFSET(0x1C1F8CE0)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C203FD0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_CCTOR_OFFSET UNITYSDK_OFFSET(0x19E06CA0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x19DFB2D0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_PARSEBYCHAR_OFFSET UNITYSDK_OFFSET(0x19DFB3D0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19E06700)
 
 namespace System::Globalization
 {
@@ -20,17 +20,17 @@ namespace System::Globalization
 	public:
 		static ::Il2CppArray<::Il2CppArray<::System::Object*>*>** StaticGet_NumberPasingState()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Object*>*>**)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0x16E00);
+			return (::Il2CppArray<::Il2CppArray<::System::Object*>*>**)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0xE170);
 		}
 
 		static ::Il2CppArray<::System::Object*>** StaticGet_HebrewValues()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0x16E08);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0xE178);
 		}
 
 		static ::System::Char* StaticGet_maxHebrewNumberCh()
 		{
-			return (::System::Char*)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0x4D70);
+			return (::System::Char*)UnitySDK::FromName("System.Globalization", "HebrewNumber")->GetStaticField(0x2F70);
 		}
 
 		static ::System::Void _cctor()

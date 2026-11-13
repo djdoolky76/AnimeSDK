@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int AOEGKNPFGCB___c__DisplayClass2_0_2_TypeDefinitionIndex = 44138;
+inline static constexpr unsigned int AOEGKNPFGCB___c__DisplayClass2_0_2_TypeDefinitionIndex = 45213;
 
 	template <typename T1, typename T2>
 	class AOEGKNPFGCB___c__DisplayClass2_0_2 : public ::System::Object

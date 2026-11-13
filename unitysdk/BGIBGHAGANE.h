@@ -3,10 +3,10 @@
 namespace RPG::Client { class ByPlantFesIsInSpineAnim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGIBGHAGANE_CTOR_OFFSET UNITYSDK_OFFSET(0xB187AE0)
-#define BGIBGHAGANE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB187B10)
+#define BGIBGHAGANE_CTOR_OFFSET UNITYSDK_OFFSET(0x151C65A0)
+#define BGIBGHAGANE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x151C65D0)
 
-inline static constexpr unsigned int BGIBGHAGANE_TypeDefinitionIndex = 57992;
+inline static constexpr unsigned int BGIBGHAGANE_TypeDefinitionIndex = 59231;
 
 	class BGIBGHAGANE
 	{

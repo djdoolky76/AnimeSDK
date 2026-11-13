@@ -9,14 +9,14 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_CCTOR_OFFSET UNITYSDK_OFFSET(0x15603610)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x15601F20)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_HEMJMGIPCKA_OFFSET UNITYSDK_OFFSET(0x156023F0)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0x15602DC0)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_CCTOR_OFFSET UNITYSDK_OFFSET(0x16B70190)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x16B6EF60)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_HEMJMGIPCKA_OFFSET UNITYSDK_OFFSET(0x16B6F1F0)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0x16B6FB30)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 49623;
+	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 50699;
 
 	class EnviroLightQualityFallbackGroup : public ::EnviromentSystem::EnviroBoolProperty
 	{
@@ -28,7 +28,7 @@ namespace EnviromentSystem
 		::System::Boolean LastValue; // 0x70
 		static ::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>** StaticGet_PropertyGroupNameDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)UnitySDK::FromName("EnviromentSystem", "EnviroLightQualityFallbackGroup")->GetStaticField(0x48D10);
+			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)UnitySDK::FromName("EnviromentSystem", "EnviroLightQualityFallbackGroup")->GetStaticField(0x30560);
 		}
 
 		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1, ::System::String* a2, ::EnviromentSystem::EnviromentPropertiesID a3, ::EnviromentSystem::EnviromentPropertiesID a4, ::EnviromentSystem::EnviromentPropertiesID a5, ::System::Boolean a6)

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterArtModelEffectBehavior_NNNPNIBNBJD_TypeDefinitionIndex = 70255;
+	inline static constexpr unsigned int CharacterArtModelEffectBehavior_NNNPNIBNBJD_TypeDefinitionIndex = 72221;
 
 	class CharacterArtModelEffectBehavior_NNNPNIBNBJD
 	{

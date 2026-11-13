@@ -7,21 +7,21 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System { class Version; }
 
-#define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB61440)
-#define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB61320)
-#define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB613C0)
-#define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB61330)
+#define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x174A0340)
+#define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x174A0220)
+#define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x174A02C0)
+#define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x174A0230)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int VersionFormatter_TypeDefinitionIndex = 7491;
+	inline static constexpr unsigned int VersionFormatter_TypeDefinitionIndex = 7502;
 
 	class VersionFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Version*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Version*>**)UnitySDK::FromName("MessagePack.Formatters", "VersionFormatter")->GetStaticField(0x49710);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Version*>**)UnitySDK::FromName("MessagePack.Formatters", "VersionFormatter")->GetStaticField(0x2D500);
 		}
 
 		::System::Void _ctor()

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarLineupKeyLevelConfig; }
 namespace RPG::GameCore { class AvatarLineupPresetConfig; }
 
-#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EAAB0)
-#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3EA920)
+#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DE450)
+#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C2DE2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarLineupPresetConfig_TypeDefinitionIndex = 18133;
+	inline static constexpr unsigned int AvatarLineupPresetConfig_TypeDefinitionIndex = 18295;
 
 	class AvatarLineupPresetConfig : public ::RPG::GameCore::JsonConfig
 	{

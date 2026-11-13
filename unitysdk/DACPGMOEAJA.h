@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsEraFlipperEntityShow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DACPGMOEAJA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB4DF0)
-#define DACPGMOEAJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFB4E20)
+#define DACPGMOEAJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1993FE60)
+#define DACPGMOEAJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1993FE90)
 
-inline static constexpr unsigned int DACPGMOEAJA_TypeDefinitionIndex = 52756;
+inline static constexpr unsigned int DACPGMOEAJA_TypeDefinitionIndex = 53900;
 
 	class DACPGMOEAJA
 	{

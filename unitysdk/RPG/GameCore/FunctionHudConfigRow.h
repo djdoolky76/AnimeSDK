@@ -6,23 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FunctionHudConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FUNCTIONHUDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CB0D0)
-#define RPG_GAMECORE_FUNCTIONHUDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6CAE20)
+#define RPG_GAMECORE_FUNCTIONHUDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5D910)
+#define RPG_GAMECORE_FUNCTIONHUDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED5D660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunctionHudConfigRow_TypeDefinitionIndex = 13306;
+	inline static constexpr unsigned int FunctionHudConfigRow_TypeDefinitionIndex = 13378;
 
 	class FunctionHudConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* OverrideHudIconPath; // 0x18
+		::System::String* RedDotHud; // 0x10
+		::System::String* IconPath; // 0x18
 		::System::String* RedDot; // 0x20
-		::System::String* RedDotHud; // 0x28
-		::System::UInt32 FunctionID; // 0x30
-		::System::UInt32 ID; // 0x34
-		::RPG::Client::TextID Name; // 0x38
+		::System::String* OverrideHudIconPath; // 0x28
+		::RPG::Client::TextID Name; // 0x30
+		::System::UInt32 FunctionID; // 0x40
+		::System::UInt32 ID; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNCTIONHUDCONFIGROW_CTOR_OFFSET))(this);

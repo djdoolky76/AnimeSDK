@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnTriggerExitHandler_TypeDefinitionIndex = 38602;
+	inline static constexpr unsigned int IAsyncOnTriggerExitHandler_TypeDefinitionIndex = 39531;
 
 	class IAsyncOnTriggerExitHandler
 	{

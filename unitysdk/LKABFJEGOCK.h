@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LKABFJEGOCK_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xB71DFF0)
+#define LKABFJEGOCK_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0x18CC6890)
 
-inline static constexpr unsigned int LKABFJEGOCK_TypeDefinitionIndex = 74184;
+inline static constexpr unsigned int LKABFJEGOCK_TypeDefinitionIndex = 76332;
 
 	class LKABFJEGOCK : public ::System::Object
 	{

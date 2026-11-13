@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByVersusBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDLGAPFHIMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB35F0D0)
-#define KDLGAPFHIMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB35F1B0)
+#define KDLGAPFHIMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C8E00)
+#define KDLGAPFHIMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B5C8EE0)
 
-inline static constexpr unsigned int KDLGAPFHIMM_TypeDefinitionIndex = 55802;
+inline static constexpr unsigned int KDLGAPFHIMM_TypeDefinitionIndex = 57005;
 
 	class KDLGAPFHIMM
 	{

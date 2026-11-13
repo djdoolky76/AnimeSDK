@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_XML_REF_EQUAL_OFFSET UNITYSDK_OFFSET(0x1EE79FA0)
+#define SYSTEM_XML_REF_EQUAL_OFFSET UNITYSDK_OFFSET(0x1D20CA60)
 
 namespace System::Xml
 {

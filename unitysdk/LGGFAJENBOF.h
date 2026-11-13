@@ -5,11 +5,11 @@ class MMBKDDEKHGM;
 namespace System { class Version; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LGGFAJENBOF_BALGOAEMBDM_OFFSET UNITYSDK_OFFSET(0xB68EA10)
-#define LGGFAJENBOF_CABKEIBGPLJ_OFFSET UNITYSDK_OFFSET(0xB68ED70)
-#define LGGFAJENBOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB68EE50)
+#define LGGFAJENBOF_BALGOAEMBDM_OFFSET UNITYSDK_OFFSET(0x1BCA5380)
+#define LGGFAJENBOF_CABKEIBGPLJ_OFFSET UNITYSDK_OFFSET(0x1BCA56E0)
+#define LGGFAJENBOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA57C0)
 
-inline static constexpr unsigned int LGGFAJENBOF_TypeDefinitionIndex = 82243;
+inline static constexpr unsigned int LGGFAJENBOF_TypeDefinitionIndex = 85116;
 
 	class LGGFAJENBOF : public ::System::Object
 	{

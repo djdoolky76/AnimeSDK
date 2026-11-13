@@ -4,18 +4,18 @@
 class CEOJGIDJLOA;
 namespace System { class Object; }
 
-#define CEOJGIDJLOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0702D0)
-#define CEOJGIDJLOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E070310)
-#define CEOJGIDJLOA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E070320)
+#define CEOJGIDJLOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204D51E0)
+#define CEOJGIDJLOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204D5220)
+#define CEOJGIDJLOA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x204D5230)
 
-inline static constexpr unsigned int CEOJGIDJLOA___c_TypeDefinitionIndex = 25801;
+inline static constexpr unsigned int CEOJGIDJLOA___c_TypeDefinitionIndex = 26298;
 
 	class CEOJGIDJLOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x115E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x664F0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeV2ChallengerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82E6E0)
-#define RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82E3D0)
+#define RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB62A20)
+#define RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB62710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2ChallengerRow_TypeDefinitionIndex = 11944;
+	inline static constexpr unsigned int MatchThreeV2ChallengerRow_TypeDefinitionIndex = 12001;
 
 	class MatchThreeV2ChallengerRow : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 		::System::UInt32 LevelID; // 0x20
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID ChallengerTitle; // 0x28
-		::RPG::Client::TextID ChallengerDesc; // 0x38
-		::System::UInt32 ChallengerID; // 0x48
-		::System::UInt32 UnlockBattleItem; // 0x4C
+		::System::UInt32 UnlockBattleItem; // 0x38
+		::System::UInt32 ChallengerID; // 0x3C
+		::RPG::Client::TextID ChallengerDesc; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW_CTOR_OFFSET))(this);

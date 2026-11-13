@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class ECNEEKNHIOE;
 
-#define PNLFOGCNENP_CTOR_OFFSET UNITYSDK_OFFSET(0xC345D20)
+#define PNLFOGCNENP_CTOR_OFFSET UNITYSDK_OFFSET(0x184C46C0)
 
-inline static constexpr unsigned int PNLFOGCNENP_TypeDefinitionIndex = 80566;
+inline static constexpr unsigned int PNLFOGCNENP_TypeDefinitionIndex = 83346;
 
 	class PNLFOGCNENP : public ::System::Object
 	{

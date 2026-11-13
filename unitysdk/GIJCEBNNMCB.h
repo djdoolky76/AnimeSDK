@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define GIJCEBNNMCB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A327C0)
-#define GIJCEBNNMCB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x15A32660)
+#define GIJCEBNNMCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E3080)
+#define GIJCEBNNMCB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x1A3E2F20)
 
-inline static constexpr unsigned int GIJCEBNNMCB_TypeDefinitionIndex = 79132;
+inline static constexpr unsigned int GIJCEBNNMCB_TypeDefinitionIndex = 81908;
 
 	class GIJCEBNNMCB : public ::System::Object
 	{

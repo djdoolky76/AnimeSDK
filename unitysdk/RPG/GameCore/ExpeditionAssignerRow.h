@@ -5,18 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExpeditionAssignerRow; }
 
-#define RPG_GAMECORE_EXPEDITIONASSIGNERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D660720)
-#define RPG_GAMECORE_EXPEDITIONASSIGNERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6600E0)
+#define RPG_GAMECORE_EXPEDITIONASSIGNERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC85BC0)
+#define RPG_GAMECORE_EXPEDITIONASSIGNERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1FC85580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionAssignerRow_TypeDefinitionIndex = 13265;
+	inline static constexpr unsigned int ExpeditionAssignerRow_TypeDefinitionIndex = 13337;
 
 	class ExpeditionAssignerRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID AssignerName; // 0x10
-		::System::UInt32 AssignerID; // 0x20
+		::System::UInt32 AssignerID; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID AssignerName; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONASSIGNERROW_CTOR_OFFSET))(this);

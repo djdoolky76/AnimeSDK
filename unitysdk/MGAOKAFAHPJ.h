@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 
-#define MGAOKAFAHPJ_LPGJLLJAGDN_OFFSET UNITYSDK_OFFSET(0x1EC0A350)
+#define MGAOKAFAHPJ_LPGJLLJAGDN_OFFSET UNITYSDK_OFFSET(0x1CB16500)
 
-inline static constexpr unsigned int MGAOKAFAHPJ_TypeDefinitionIndex = 35253;
+inline static constexpr unsigned int MGAOKAFAHPJ_TypeDefinitionIndex = 36181;
 
 	class MGAOKAFAHPJ : public ::System::Object
 	{

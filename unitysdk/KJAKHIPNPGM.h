@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Nullable_1.h"
 
-inline static constexpr unsigned int KJAKHIPNPGM_TypeDefinitionIndex = 57366;
+inline static constexpr unsigned int KJAKHIPNPGM_TypeDefinitionIndex = 58594;
 
 	struct alignas(8) KJAKHIPNPGM
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ST_ByDistanceToTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIMDBEBGODF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CEBC50)
-#define HIMDBEBGODF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CEBC80)
+#define HIMDBEBGODF_CTOR_OFFSET UNITYSDK_OFFSET(0x181E85F0)
+#define HIMDBEBGODF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x181E8620)
 
-inline static constexpr unsigned int HIMDBEBGODF_TypeDefinitionIndex = 52188;
+inline static constexpr unsigned int HIMDBEBGODF_TypeDefinitionIndex = 53293;
 
 	class HIMDBEBGODF
 	{

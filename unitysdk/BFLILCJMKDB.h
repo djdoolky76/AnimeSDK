@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BFLILCJMKDB_CTOR_OFFSET UNITYSDK_OFFSET(0xB171820)
+#define BFLILCJMKDB_CTOR_OFFSET UNITYSDK_OFFSET(0x151B0450)
 
-inline static constexpr unsigned int BFLILCJMKDB_TypeDefinitionIndex = 62039;
+inline static constexpr unsigned int BFLILCJMKDB_TypeDefinitionIndex = 63451;
 
 	class BFLILCJMKDB : public ::System::Object
 	{

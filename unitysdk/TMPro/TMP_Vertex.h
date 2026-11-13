@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define TMPRO_TMP_VERTEX_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F320F10)
-#define TMPRO_TMP_VERTEX_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1F320EE0)
+#define TMPRO_TMP_VERTEX_CCTOR_OFFSET UNITYSDK_OFFSET(0x13F3DF30)
+#define TMPRO_TMP_VERTEX_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x13F3DF00)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Vertex_TypeDefinitionIndex = 44542;
+	inline static constexpr unsigned int TMP_Vertex_TypeDefinitionIndex = 45617;
 
 	struct alignas(4) TMP_Vertex
 	{
@@ -20,7 +20,7 @@ namespace TMPro
 		::UnityEngine::Color32 color; // 0x34
 		static ::TMPro::TMP_Vertex* StaticGet_k_Zero()
 		{
-			return (::TMPro::TMP_Vertex*)UnitySDK::FromName("TMPro", "TMP_Vertex")->GetStaticField(0x13A20);
+			return (::TMPro::TMP_Vertex*)UnitySDK::FromName("TMPro", "TMP_Vertex")->GetStaticField(0x153E0);
 		}
 
 		static ::System::Void _cctor()

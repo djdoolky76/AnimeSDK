@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NFHMCNOBCMC_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB8EB80)
+#define NFHMCNOBCMC_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x18E766C0)
 
-inline static constexpr unsigned int NFHMCNOBCMC_ExtraExportData_TypeDefinitionIndex = 49016;
+inline static constexpr unsigned int NFHMCNOBCMC_ExtraExportData_TypeDefinitionIndex = 50085;
 
 	class NFHMCNOBCMC_ExtraExportData : public ::System::Object
 	{

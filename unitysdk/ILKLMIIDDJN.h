@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleConvertBuff; }
 
-#define ILKLMIIDDJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB4A0A0)
-#define ILKLMIIDDJN_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CB4A0B0)
+#define ILKLMIIDDJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC36EE0)
+#define ILKLMIIDDJN_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1EC36EF0)
 
-inline static constexpr unsigned int ILKLMIIDDJN_TypeDefinitionIndex = 43097;
+inline static constexpr unsigned int ILKLMIIDDJN_TypeDefinitionIndex = 44078;
 
 	class ILKLMIIDDJN : public ::BKABEBEPPJK
 	{

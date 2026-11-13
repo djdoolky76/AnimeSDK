@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyFateContentParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNKCLJAHCEH_CTOR_OFFSET UNITYSDK_OFFSET(0xBCAF2F0)
-#define NNKCLJAHCEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCAF320)
+#define NNKCLJAHCEH_CTOR_OFFSET UNITYSDK_OFFSET(0x179F1200)
+#define NNKCLJAHCEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179F1230)
 
-inline static constexpr unsigned int NNKCLJAHCEH_TypeDefinitionIndex = 55201;
+inline static constexpr unsigned int NNKCLJAHCEH_TypeDefinitionIndex = 56382;
 
 	class NNKCLJAHCEH
 	{

@@ -8,12 +8,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore::Match3 { class Match3ChessBoardGridInfo; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3CHESSBOARDGRIDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81EC70)
-#define RPG_GAMECORE_MATCH3_MATCH3CHESSBOARDGRIDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81E9D0)
+#define RPG_GAMECORE_MATCH3_MATCH3CHESSBOARDGRIDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB53090)
+#define RPG_GAMECORE_MATCH3_MATCH3CHESSBOARDGRIDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB52DF0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3ChessBoardGridInfo_TypeDefinitionIndex = 24924;
+	inline static constexpr unsigned int Match3ChessBoardGridInfo_TypeDefinitionIndex = 25404;
 
 	class Match3ChessBoardGridInfo : public ::RPG::GameCore::JsonConfig
 	{

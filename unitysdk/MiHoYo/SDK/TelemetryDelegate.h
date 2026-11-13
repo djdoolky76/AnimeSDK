@@ -10,53 +10,53 @@ namespace MiHoYo::SDK { class TelemetryDelegate_StartKibanaDelegate; }
 namespace MiHoYo::SDK { class TelemetryDelegate_StopDataUploadDelegate; }
 namespace MiHoYo::SDK { class TelemetryDelegate_StopKibanaDelegate; }
 
-#define MIHOYO_SDK_TELEMETRYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB5E10)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04AB50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryDelegate_TypeDefinitionIndex = 7701;
+	inline static constexpr unsigned int TelemetryDelegate_TypeDefinitionIndex = 7710;
 
 	class TelemetryDelegate : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::TelemetryDelegate_StopDataUploadDelegate** StaticGet_StopDataUpload()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_StopDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xDC90);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_ReportToDataUploadDelegate** StaticGet_ReportToDataUpload()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_ReportToDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xDC98);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_SetConfigDelegate** StaticGet_SetConfig()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_SetConfigDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xDCA0);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_StartKibanaDelegate** StaticGet_StartKibana()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_StartKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xDCA8);
-		}
-
 		static ::MiHoYo::SDK::TelemetryDelegate_InitDelegate** StaticGet_Init()
 		{
-			return (::MiHoYo::SDK::TelemetryDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xDCB0);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_StopKibanaDelegate** StaticGet_StopKibana()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_StopKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xDCB8);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_StartDataUploadDelegate** StaticGet_StartDataUpload()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_StartDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xDCC0);
+			return (::MiHoYo::SDK::TelemetryDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xBE20);
 		}
 
 		static ::MiHoYo::SDK::TelemetryDelegate_ReportToKibanaDelegate** StaticGet_ReportToKibana()
 		{
-			return (::MiHoYo::SDK::TelemetryDelegate_ReportToKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xDCC8);
+			return (::MiHoYo::SDK::TelemetryDelegate_ReportToKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xBE28);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_SetConfigDelegate** StaticGet_SetConfig()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_SetConfigDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xBE30);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_StartKibanaDelegate** StaticGet_StartKibana()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_StartKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xBE38);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_StopDataUploadDelegate** StaticGet_StopDataUpload()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_StopDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xBE40);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_StartDataUploadDelegate** StaticGet_StartDataUpload()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_StartDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xBE48);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_StopKibanaDelegate** StaticGet_StopKibana()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_StopKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xBE50);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_ReportToDataUploadDelegate** StaticGet_ReportToDataUpload()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_ReportToDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "TelemetryDelegate")->GetStaticField(0xBE58);
 		}
 
 		::System::Void _ctor()

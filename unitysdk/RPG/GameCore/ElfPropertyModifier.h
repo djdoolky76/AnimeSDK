@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfPropertyModifier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFPROPERTYMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D609E80)
-#define RPG_GAMECORE_ELFPROPERTYMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D609CF0)
+#define RPG_GAMECORE_ELFPROPERTYMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E0930)
+#define RPG_GAMECORE_ELFPROPERTYMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E07A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfPropertyModifier_TypeDefinitionIndex = 18488;
+	inline static constexpr unsigned int ElfPropertyModifier_TypeDefinitionIndex = 18648;
 
 	class ElfPropertyModifier : public ::RPG::GameCore::JsonConfig
 	{

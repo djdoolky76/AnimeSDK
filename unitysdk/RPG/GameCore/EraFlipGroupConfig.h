@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EraFlipGroupConfig; }
 
-#define RPG_GAMECORE_ERAFLIPGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D653390)
-#define RPG_GAMECORE_ERAFLIPGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6532D0)
+#define RPG_GAMECORE_ERAFLIPGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F8790)
+#define RPG_GAMECORE_ERAFLIPGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0F86D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EraFlipGroupConfig_TypeDefinitionIndex = 16615;
+	inline static constexpr unsigned int EraFlipGroupConfig_TypeDefinitionIndex = 16781;
 
 	class EraFlipGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

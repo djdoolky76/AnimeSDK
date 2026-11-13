@@ -6,25 +6,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8E8F30)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8E8F70)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C__SORT_B__5_0_OFFSET UNITYSDK_OFFSET(0xC8E8F80)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD88350)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD88390)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C__SORT_B__5_0_OFFSET UNITYSDK_OFFSET(0x1BD883A0)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCatRankGameData___c_TypeDefinitionIndex = 76432;
+	inline static constexpr unsigned int CakeRaceCatRankGameData___c_TypeDefinitionIndex = 78763;
 
 	class CakeRaceCatRankGameData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>** StaticGet___9__5_0()
-		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x68A00);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x68A08);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x6A9C0);
+		}
+
+		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>** StaticGet___9__5_0()
+		{
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x6A9C8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack::Resolvers { class AttributeFormatterResolver; }
 
-#define MESSAGEPACK_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBAD430)
-#define MESSAGEPACK_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBAD420)
+#define MESSAGEPACK_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF623C0)
+#define MESSAGEPACK_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF623B0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int AttributeFormatterResolver_TypeDefinitionIndex = 7250;
+	inline static constexpr unsigned int AttributeFormatterResolver_TypeDefinitionIndex = 7261;
 
 	class AttributeFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::AttributeFormatterResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::AttributeFormatterResolver**)UnitySDK::FromName("MessagePack.Resolvers", "AttributeFormatterResolver")->GetStaticField(0x4BCC0);
+			return (::MessagePack::Resolvers::AttributeFormatterResolver**)UnitySDK::FromName("MessagePack.Resolvers", "AttributeFormatterResolver")->GetStaticField(0x2EC80);
 		}
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LifeCycleType_TypeDefinitionIndex = 48152;
+	inline static constexpr unsigned int LifeCycleType_TypeDefinitionIndex = 49183;
 
 	enum class LifeCycleType : ::System::Int32
 	{

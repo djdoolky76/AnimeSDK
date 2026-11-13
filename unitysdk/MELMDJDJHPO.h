@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AKGFIFMIGNC.h"
 
-#define MELMDJDJHPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB8D9EC0)
-#define MELMDJDJHPO_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB8D9D70)
+#define MELMDJDJHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x17C69FC0)
+#define MELMDJDJHPO_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x17C69E40)
 
-inline static constexpr unsigned int MELMDJDJHPO_TypeDefinitionIndex = 77109;
+inline static constexpr unsigned int MELMDJDJHPO_TypeDefinitionIndex = 79443;
 
 	class MELMDJDJHPO : public ::AKGFIFMIGNC
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelTriggerActionType_TypeDefinitionIndex = 43175;
+	inline static constexpr unsigned int FourRotateVoxelTriggerActionType_TypeDefinitionIndex = 44156;
 
 	enum class FourRotateVoxelTriggerActionType : ::System::Int32
 	{

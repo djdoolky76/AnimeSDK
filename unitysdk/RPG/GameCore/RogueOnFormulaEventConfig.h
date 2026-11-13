@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueOnFormulaEventConfig; }
 
-#define RPG_GAMECORE_ROGUEONFORMULAEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FC9E0)
-#define RPG_GAMECORE_ROGUEONFORMULAEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FC9A0)
+#define RPG_GAMECORE_ROGUEONFORMULAEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x207B4330)
+#define RPG_GAMECORE_ROGUEONFORMULAEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207B42F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueOnFormulaEventConfig_TypeDefinitionIndex = 17789;
+	inline static constexpr unsigned int RogueOnFormulaEventConfig_TypeDefinitionIndex = 17958;
 
 	class RogueOnFormulaEventConfig : public ::RPG::GameCore::JsonConfig
 	{

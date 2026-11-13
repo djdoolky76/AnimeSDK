@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableAutoBlink; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OINNFBDNEAP_CTOR_OFFSET UNITYSDK_OFFSET(0xBE9B270)
-#define OINNFBDNEAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE9B2A0)
+#define OINNFBDNEAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1949EB00)
+#define OINNFBDNEAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1949EB30)
 
-inline static constexpr unsigned int OINNFBDNEAP_TypeDefinitionIndex = 55875;
+inline static constexpr unsigned int OINNFBDNEAP_TypeDefinitionIndex = 57078;
 
 	class OINNFBDNEAP
 	{

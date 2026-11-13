@@ -4,109 +4,137 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CNBCPFJOGIE_DAGCKHNLECO_OFFSET UNITYSDK_OFFSET(0xDA3FD40)
-#define CNBCPFJOGIE_EFMEPLPFBJA_OFFSET UNITYSDK_OFFSET(0xDA3FE40)
-#define CNBCPFJOGIE_GET_BYHAVEENEMYALIVEINCLUDECUSTOMUNSELECTABLETARGET_OFFSET UNITYSDK_OFFSET(0xDA3FB80)
-#define CNBCPFJOGIE_GET_DISABLEDAMAGESTANCEBREAKDELAYADDMDF_OFFSET UNITYSDK_OFFSET(0xDA3FAC0)
-#define CNBCPFJOGIE_GET_GLOBALCLEARATTACKCACHE_OFFSET UNITYSDK_OFFSET(0xDA3FAE0)
-#define CNBCPFJOGIE_GET_HANDLEMATERIALEFFECTRENDERMASKCONFLICT_OFFSET UNITYSDK_OFFSET(0xDA3FA80)
-#define CNBCPFJOGIE_GET_INSERTABILITYAFTERULTRASKILLENDDONTTICKABILITY_OFFSET UNITYSDK_OFFSET(0xDA3FA20)
-#define CNBCPFJOGIE_GET_MODIFIERRESTACKPROPERTYREPORT_OFFSET UNITYSDK_OFFSET(0xDA3FB60)
-#define CNBCPFJOGIE_GET_MODIFIERSAFESTACKPROPERTY_OFFSET UNITYSDK_OFFSET(0xDA3FB40)
-#define CNBCPFJOGIE_GET_NOTRESETHANDLERFORENTITYINDIESTATE_OFFSET UNITYSDK_OFFSET(0xDA3FA40)
-#define CNBCPFJOGIE_GET_PREVENTALIVESTATERESETWHENCURRENTHPZEROINLIMBO_OFFSET UNITYSDK_OFFSET(0xDA3FB20)
-#define CNBCPFJOGIE_GET_SELECTFRIENDSKILLWHENNOENEMY_OFFSET UNITYSDK_OFFSET(0xDA3FB00)
-#define CNBCPFJOGIE_GET_SKIPADDMODIFIERWHENCASTERDEAD_OFFSET UNITYSDK_OFFSET(0xDA3FBA0)
-#define CNBCPFJOGIE_GET_SKIPDAMAGESTANCEEVENTONBREAK_OFFSET UNITYSDK_OFFSET(0xDA3FAA0)
-#define CNBCPFJOGIE_GET_STRICTLIMBOENTITYDIECHECK_OFFSET UNITYSDK_OFFSET(0xDA3FA60)
-#define CNBCPFJOGIE_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xDA3FBC0)
-#define CNBCPFJOGIE_SET_BYHAVEENEMYALIVEINCLUDECUSTOMUNSELECTABLETARGET_OFFSET UNITYSDK_OFFSET(0xDA3FB90)
-#define CNBCPFJOGIE_SET_DISABLEDAMAGESTANCEBREAKDELAYADDMDF_OFFSET UNITYSDK_OFFSET(0xDA3FAD0)
-#define CNBCPFJOGIE_SET_GLOBALCLEARATTACKCACHE_OFFSET UNITYSDK_OFFSET(0xDA3FAF0)
-#define CNBCPFJOGIE_SET_HANDLEMATERIALEFFECTRENDERMASKCONFLICT_OFFSET UNITYSDK_OFFSET(0xDA3FA90)
-#define CNBCPFJOGIE_SET_INSERTABILITYAFTERULTRASKILLENDDONTTICKABILITY_OFFSET UNITYSDK_OFFSET(0xDA3FA30)
-#define CNBCPFJOGIE_SET_MODIFIERRESTACKPROPERTYREPORT_OFFSET UNITYSDK_OFFSET(0xDA3FB70)
-#define CNBCPFJOGIE_SET_MODIFIERSAFESTACKPROPERTY_OFFSET UNITYSDK_OFFSET(0xDA3FB50)
-#define CNBCPFJOGIE_SET_NOTRESETHANDLERFORENTITYINDIESTATE_OFFSET UNITYSDK_OFFSET(0xDA3FA50)
-#define CNBCPFJOGIE_SET_PREVENTALIVESTATERESETWHENCURRENTHPZEROINLIMBO_OFFSET UNITYSDK_OFFSET(0xDA3FB30)
-#define CNBCPFJOGIE_SET_SELECTFRIENDSKILLWHENNOENEMY_OFFSET UNITYSDK_OFFSET(0xDA3FB10)
-#define CNBCPFJOGIE_SET_SKIPADDMODIFIERWHENCASTERDEAD_OFFSET UNITYSDK_OFFSET(0xDA3FBB0)
-#define CNBCPFJOGIE_SET_SKIPDAMAGESTANCEEVENTONBREAK_OFFSET UNITYSDK_OFFSET(0xDA3FAB0)
-#define CNBCPFJOGIE_SET_STRICTLIMBOENTITYDIECHECK_OFFSET UNITYSDK_OFFSET(0xDA3FA70)
+#define CNBCPFJOGIE_DAGCKHNLECO_OFFSET UNITYSDK_OFFSET(0x1B1B0C50)
+#define CNBCPFJOGIE_EFMEPLPFBJA_OFFSET UNITYSDK_OFFSET(0x1B1B0D50)
+#define CNBCPFJOGIE_GET_BYHAVEENEMYALIVEINCLUDECUSTOMUNSELECTABLETARGET_OFFSET UNITYSDK_OFFSET(0x1B1B09A0)
+#define CNBCPFJOGIE_GET_DISABLEDAMAGESTANCEBREAKDELAYADDMDF_OFFSET UNITYSDK_OFFSET(0x1B1B08E0)
+#define CNBCPFJOGIE_GET_ENABLEPARTOVERRIDEOWNERANIMSPEED_OFFSET UNITYSDK_OFFSET(0x1B1B0A20)
+#define CNBCPFJOGIE_GET_FORBIDKEEPKEYFORSTATUSWHENMODIFIERRENAME_OFFSET UNITYSDK_OFFSET(0x1B1B0A00)
+#define CNBCPFJOGIE_GET_FORBIDMONOEFFECTRESETPARTICLESYSTEMSIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0x1B1B0A40)
+#define CNBCPFJOGIE_GET_FORBIDRANGEPROPERTYCALLBACKMULTIINST_OFFSET UNITYSDK_OFFSET(0x1B1B09E0)
+#define CNBCPFJOGIE_GET_GLOBALCLEARATTACKCACHE_OFFSET UNITYSDK_OFFSET(0x1B1B0900)
+#define CNBCPFJOGIE_GET_HANDLEMATERIALEFFECTRENDERMASKCONFLICT_OFFSET UNITYSDK_OFFSET(0x1B1B08A0)
+#define CNBCPFJOGIE_GET_INSERTABILITYAFTERULTRASKILLENDDONTTICKABILITY_OFFSET UNITYSDK_OFFSET(0x1B1B0840)
+#define CNBCPFJOGIE_GET_MODIFIERRESTACKPROPERTYREPORT_OFFSET UNITYSDK_OFFSET(0x1B1B0980)
+#define CNBCPFJOGIE_GET_MODIFIERSAFESTACKPROPERTY_OFFSET UNITYSDK_OFFSET(0x1B1B0960)
+#define CNBCPFJOGIE_GET_NOTRESETHANDLERFORENTITYINDIESTATE_OFFSET UNITYSDK_OFFSET(0x1B1B0860)
+#define CNBCPFJOGIE_GET_PREVENTALIVESTATERESETWHENCURRENTHPZEROINLIMBO_OFFSET UNITYSDK_OFFSET(0x1B1B0940)
+#define CNBCPFJOGIE_GET_SELECTFRIENDSKILLWHENNOENEMY_OFFSET UNITYSDK_OFFSET(0x1B1B0920)
+#define CNBCPFJOGIE_GET_SKIPADDMODIFIERWHENCASTERDEAD_OFFSET UNITYSDK_OFFSET(0x1B1B09C0)
+#define CNBCPFJOGIE_GET_SKIPDAMAGESTANCEEVENTONBREAK_OFFSET UNITYSDK_OFFSET(0x1B1B08C0)
+#define CNBCPFJOGIE_GET_STRICTLIMBOENTITYDIECHECK_OFFSET UNITYSDK_OFFSET(0x1B1B0880)
+#define CNBCPFJOGIE_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1B1B0A60)
+#define CNBCPFJOGIE_SET_BYHAVEENEMYALIVEINCLUDECUSTOMUNSELECTABLETARGET_OFFSET UNITYSDK_OFFSET(0x1B1B09B0)
+#define CNBCPFJOGIE_SET_DISABLEDAMAGESTANCEBREAKDELAYADDMDF_OFFSET UNITYSDK_OFFSET(0x1B1B08F0)
+#define CNBCPFJOGIE_SET_ENABLEPARTOVERRIDEOWNERANIMSPEED_OFFSET UNITYSDK_OFFSET(0x1B1B0A30)
+#define CNBCPFJOGIE_SET_FORBIDKEEPKEYFORSTATUSWHENMODIFIERRENAME_OFFSET UNITYSDK_OFFSET(0x1B1B0A10)
+#define CNBCPFJOGIE_SET_FORBIDMONOEFFECTRESETPARTICLESYSTEMSIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0x1B1B0A50)
+#define CNBCPFJOGIE_SET_FORBIDRANGEPROPERTYCALLBACKMULTIINST_OFFSET UNITYSDK_OFFSET(0x1B1B09F0)
+#define CNBCPFJOGIE_SET_GLOBALCLEARATTACKCACHE_OFFSET UNITYSDK_OFFSET(0x1B1B0910)
+#define CNBCPFJOGIE_SET_HANDLEMATERIALEFFECTRENDERMASKCONFLICT_OFFSET UNITYSDK_OFFSET(0x1B1B08B0)
+#define CNBCPFJOGIE_SET_INSERTABILITYAFTERULTRASKILLENDDONTTICKABILITY_OFFSET UNITYSDK_OFFSET(0x1B1B0850)
+#define CNBCPFJOGIE_SET_MODIFIERRESTACKPROPERTYREPORT_OFFSET UNITYSDK_OFFSET(0x1B1B0990)
+#define CNBCPFJOGIE_SET_MODIFIERSAFESTACKPROPERTY_OFFSET UNITYSDK_OFFSET(0x1B1B0970)
+#define CNBCPFJOGIE_SET_NOTRESETHANDLERFORENTITYINDIESTATE_OFFSET UNITYSDK_OFFSET(0x1B1B0870)
+#define CNBCPFJOGIE_SET_PREVENTALIVESTATERESETWHENCURRENTHPZEROINLIMBO_OFFSET UNITYSDK_OFFSET(0x1B1B0950)
+#define CNBCPFJOGIE_SET_SELECTFRIENDSKILLWHENNOENEMY_OFFSET UNITYSDK_OFFSET(0x1B1B0930)
+#define CNBCPFJOGIE_SET_SKIPADDMODIFIERWHENCASTERDEAD_OFFSET UNITYSDK_OFFSET(0x1B1B09D0)
+#define CNBCPFJOGIE_SET_SKIPDAMAGESTANCEEVENTONBREAK_OFFSET UNITYSDK_OFFSET(0x1B1B08D0)
+#define CNBCPFJOGIE_SET_STRICTLIMBOENTITYDIECHECK_OFFSET UNITYSDK_OFFSET(0x1B1B0890)
 
-inline static constexpr unsigned int CNBCPFJOGIE_TypeDefinitionIndex = 56502;
+inline static constexpr unsigned int CNBCPFJOGIE_TypeDefinitionIndex = 57722;
 
 	class CNBCPFJOGIE : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>** StaticGet_OEGAKDACCDM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x4D620);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0xD2B0);
+		}
+
+		static ::System::Boolean* StaticGet__ForbidMonoEffectResetParticleSystemSimulationSpeed_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD0);
 		}
 
 		static ::System::Boolean* StaticGet__SkipDamageStanceEventOnBreak_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB0);
-		}
-
-		static ::System::Boolean* StaticGet__HandleMaterialEffectRenderMaskConflict_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB1);
-		}
-
-		static ::System::Boolean* StaticGet__DisableDamageStanceBreakDelayAddMdf_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB2);
-		}
-
-		static ::System::Boolean* StaticGet__SelectFriendSkillWhenNoEnemy_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB3);
-		}
-
-		static ::System::Boolean* StaticGet__ModifierSafeStackProperty_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB4);
-		}
-
-		static ::System::Boolean* StaticGet__SkipAddModifierWhenCasterDead_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB5);
-		}
-
-		static ::System::Boolean* StaticGet__ByHaveEnemyAliveIncludeCustomUnselectableTarget_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB6);
-		}
-
-		static ::System::Boolean* StaticGet__InsertAbilityAfterUltraSkillEndDontTickAbility_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB7);
-		}
-
-		static ::System::Boolean* StaticGet__ModifierRestackPropertyReport_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB8);
-		}
-
-		static ::System::Boolean* StaticGet__NotResetHandlerForEntityInDieState_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11AB9);
-		}
-
-		static ::System::Boolean* StaticGet__PreventAliveStateResetWhenCurrentHPZeroInLimbo_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11ABA);
-		}
-
-		static ::System::Boolean* StaticGet__StrictLimboEntityDieCheck_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11ABB);
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD1);
 		}
 
 		static ::System::Boolean* StaticGet__GlobalClearAttackCache_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x11ABC);
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD2);
+		}
+
+		static ::System::Boolean* StaticGet__PreventAliveStateResetWhenCurrentHPZeroInLimbo_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD3);
+		}
+
+		static ::System::Boolean* StaticGet__ForbidRangePropertyCallbackMultiInst_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD4);
+		}
+
+		static ::System::Boolean* StaticGet__DisableDamageStanceBreakDelayAddMdf_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD5);
+		}
+
+		static ::System::Boolean* StaticGet__InsertAbilityAfterUltraSkillEndDontTickAbility_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD6);
+		}
+
+		static ::System::Boolean* StaticGet__HandleMaterialEffectRenderMaskConflict_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD7);
+		}
+
+		static ::System::Boolean* StaticGet__SelectFriendSkillWhenNoEnemy_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD8);
+		}
+
+		static ::System::Boolean* StaticGet__ModifierSafeStackProperty_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BD9);
+		}
+
+		static ::System::Boolean* StaticGet__ByHaveEnemyAliveIncludeCustomUnselectableTarget_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BDA);
+		}
+
+		static ::System::Boolean* StaticGet__StrictLimboEntityDieCheck_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BDB);
+		}
+
+		static ::System::Boolean* StaticGet__EnablePartOverrideOwnerAnimSpeed_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BDC);
+		}
+
+		static ::System::Boolean* StaticGet__SkipAddModifierWhenCasterDead_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BDD);
+		}
+
+		static ::System::Boolean* StaticGet__ModifierRestackPropertyReport_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BDE);
+		}
+
+		static ::System::Boolean* StaticGet__ForbidKeepKeyForStatusWhenModifierRename_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BDF);
+		}
+
+		static ::System::Boolean* StaticGet__NotResetHandlerForEntityInDieState_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CNBCPFJOGIE")->GetStaticField(0x2BE0);
 		}
 
 		static ::System::Boolean get_InsertAbilityAfterUltraSkillEndDontTickAbility()
@@ -237,6 +265,46 @@ inline static constexpr unsigned int CNBCPFJOGIE_TypeDefinitionIndex = 56502;
 		static ::System::Void set_SkipAddModifierWhenCasterDead(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CNBCPFJOGIE_SET_SKIPADDMODIFIERWHENCASTERDEAD_OFFSET))(a1);
+		}
+
+		static ::System::Boolean get_ForbidRangePropertyCallbackMultiInst()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CNBCPFJOGIE_GET_FORBIDRANGEPROPERTYCALLBACKMULTIINST_OFFSET))();
+		}
+
+		static ::System::Void set_ForbidRangePropertyCallbackMultiInst(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CNBCPFJOGIE_SET_FORBIDRANGEPROPERTYCALLBACKMULTIINST_OFFSET))(a1);
+		}
+
+		static ::System::Boolean get_ForbidKeepKeyForStatusWhenModifierRename()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CNBCPFJOGIE_GET_FORBIDKEEPKEYFORSTATUSWHENMODIFIERRENAME_OFFSET))();
+		}
+
+		static ::System::Void set_ForbidKeepKeyForStatusWhenModifierRename(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CNBCPFJOGIE_SET_FORBIDKEEPKEYFORSTATUSWHENMODIFIERRENAME_OFFSET))(a1);
+		}
+
+		static ::System::Boolean get_EnablePartOverrideOwnerAnimSpeed()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CNBCPFJOGIE_GET_ENABLEPARTOVERRIDEOWNERANIMSPEED_OFFSET))();
+		}
+
+		static ::System::Void set_EnablePartOverrideOwnerAnimSpeed(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CNBCPFJOGIE_SET_ENABLEPARTOVERRIDEOWNERANIMSPEED_OFFSET))(a1);
+		}
+
+		static ::System::Boolean get_ForbidMonoEffectResetParticleSystemSimulationSpeed()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CNBCPFJOGIE_GET_FORBIDMONOEFFECTRESETPARTICLESYSTEMSIMULATIONSPEED_OFFSET))();
+		}
+
+		static ::System::Void set_ForbidMonoEffectResetParticleSystemSimulationSpeed(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CNBCPFJOGIE_SET_FORBIDMONOEFFECTRESETPARTICLESYSTEMSIMULATIONSPEED_OFFSET))(a1);
 		}
 
 		static ::System::Void HCFINLKPIHL()

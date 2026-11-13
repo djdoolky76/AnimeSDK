@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MissionModule_MissionResState; }
 
-#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDE6710)
-#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0___CHECKMISSIONRES_B__0_OFFSET UNITYSDK_OFFSET(0xCDE8870)
+#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6D39C0)
+#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0___CHECKMISSIONRES_B__0_OFFSET UNITYSDK_OFFSET(0x1A6D5B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnterGamePhase___c__DisplayClass16_0_TypeDefinitionIndex = 61147;
+	inline static constexpr unsigned int EnterGamePhase___c__DisplayClass16_0_TypeDefinitionIndex = 62532;
 
 	class EnterGamePhase___c__DisplayClass16_0 : public ::System::Object
 	{

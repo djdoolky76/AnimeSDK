@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterNatureRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERNATUREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D545F90)
-#define RPG_GAMECORE_CHARACTERNATUREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5459D0)
+#define RPG_GAMECORE_CHARACTERNATUREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F347740)
+#define RPG_GAMECORE_CHARACTERNATUREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F347180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterNatureRow_TypeDefinitionIndex = 12999;
+	inline static constexpr unsigned int CharacterNatureRow_TypeDefinitionIndex = 13067;
 
 	class CharacterNatureRow : public ::System::Object
 	{

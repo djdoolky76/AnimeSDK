@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByEnableStoryStreamingSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BFOMIKBDFHN_CTOR_OFFSET UNITYSDK_OFFSET(0xB1731B0)
-#define BFOMIKBDFHN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1731E0)
+#define BFOMIKBDFHN_CTOR_OFFSET UNITYSDK_OFFSET(0x151B1DA0)
+#define BFOMIKBDFHN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x151B1DD0)
 
-inline static constexpr unsigned int BFOMIKBDFHN_TypeDefinitionIndex = 52087;
+inline static constexpr unsigned int BFOMIKBDFHN_TypeDefinitionIndex = 53192;
 
 	class BFOMIKBDFHN
 	{

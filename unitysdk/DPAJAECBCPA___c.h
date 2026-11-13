@@ -5,20 +5,20 @@
 class DPAJAECBCPA;
 namespace System { class Object; }
 
-#define DPAJAECBCPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1DC390)
-#define DPAJAECBCPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1DC3D0)
-#define DPAJAECBCPA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1DC3E0)
-#define DPAJAECBCPA___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x1E1DC410)
-#define DPAJAECBCPA___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x1E1DC420)
+#define DPAJAECBCPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F763930)
+#define DPAJAECBCPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F763970)
+#define DPAJAECBCPA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F763980)
+#define DPAJAECBCPA___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x1F7639B0)
+#define DPAJAECBCPA___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x1F7639C0)
 
-inline static constexpr unsigned int DPAJAECBCPA___c_TypeDefinitionIndex = 30317;
+inline static constexpr unsigned int DPAJAECBCPA___c_TypeDefinitionIndex = 31223;
 
 	class DPAJAECBCPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39650);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39930);
 		}
 
 		static ::System::Void _cctor()

@@ -13,30 +13,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventHandler; }
 
-#define GCMCEDELOJL_CJNMJGBBEBJ_OFFSET UNITYSDK_OFFSET(0x15978DB0)
-#define GCMCEDELOJL_CTOR_OFFSET UNITYSDK_OFFSET(0x15978C10)
-#define GCMCEDELOJL_DHBIGLBAOLL_OFFSET UNITYSDK_OFFSET(0x15978CF0)
-#define GCMCEDELOJL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15978C30)
-#define GCMCEDELOJL_DPKEGFLCJJD_OFFSET UNITYSDK_OFFSET(0x159791B0)
-#define GCMCEDELOJL_FDNIBLLLABJ_OFFSET UNITYSDK_OFFSET(0x15979060)
-#define GCMCEDELOJL_GET_CONSUMABLEINFO_OFFSET UNITYSDK_OFFSET(0x15979290)
-#define GCMCEDELOJL_KHIMBJGONFJ_OFFSET UNITYSDK_OFFSET(0x15978F70)
-#define GCMCEDELOJL_KOPCKKNNJLF_OFFSET UNITYSDK_OFFSET(0x15978EC0)
-#define GCMCEDELOJL_LECFPKJPCLP_OFFSET UNITYSDK_OFFSET(0x15978D60)
-#define GCMCEDELOJL_NENFFHDGOLI_OFFSET UNITYSDK_OFFSET(0x15978C80)
-#define GCMCEDELOJL_PDFEJLKGFLN_OFFSET UNITYSDK_OFFSET(0x15979230)
-#define GCMCEDELOJL_PGPKCDBDFLA_OFFSET UNITYSDK_OFFSET(0x159790C0)
+#define GCMCEDELOJL_CJNMJGBBEBJ_OFFSET UNITYSDK_OFFSET(0x19EBE2F0)
+#define GCMCEDELOJL_CTOR_OFFSET UNITYSDK_OFFSET(0x19EBE150)
+#define GCMCEDELOJL_DHBIGLBAOLL_OFFSET UNITYSDK_OFFSET(0x19EBE230)
+#define GCMCEDELOJL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19EBE170)
+#define GCMCEDELOJL_DPKEGFLCJJD_OFFSET UNITYSDK_OFFSET(0x19EBE6F0)
+#define GCMCEDELOJL_FDNIBLLLABJ_OFFSET UNITYSDK_OFFSET(0x19EBE5A0)
+#define GCMCEDELOJL_GET_CONSUMABLEINFO_OFFSET UNITYSDK_OFFSET(0x19EBE7D0)
+#define GCMCEDELOJL_KHIMBJGONFJ_OFFSET UNITYSDK_OFFSET(0x19EBE4B0)
+#define GCMCEDELOJL_KOPCKKNNJLF_OFFSET UNITYSDK_OFFSET(0x19EBE400)
+#define GCMCEDELOJL_LECFPKJPCLP_OFFSET UNITYSDK_OFFSET(0x19EBE2A0)
+#define GCMCEDELOJL_NENFFHDGOLI_OFFSET UNITYSDK_OFFSET(0x19EBE1C0)
+#define GCMCEDELOJL_PDFEJLKGFLN_OFFSET UNITYSDK_OFFSET(0x19EBE770)
+#define GCMCEDELOJL_PGPKCDBDFLA_OFFSET UNITYSDK_OFFSET(0x19EBE600)
 
-inline static constexpr unsigned int GCMCEDELOJL_TypeDefinitionIndex = 65319;
+inline static constexpr unsigned int GCMCEDELOJL_TypeDefinitionIndex = 67088;
 
 	class GCMCEDELOJL : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightTeam* GJHCMKBNING; // 0x10
-		::RPG::Client::GridFightPlayer* CMNJDMKPPIA; // 0x18
-		::RPG::Client::GridFightEquipInfo* NCHCLADAFBP; // 0x20
-		::System::Action_2<::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>* EMLDHINHNHP; // 0x28
-		::RPG::Client::GridFightConsumableInfo* _ConsumableInfo_k__BackingField; // 0x30
+		::System::Action_2<::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>* EMLDHINHNHP; // 0x10
+		::RPG::Client::GridFightTeam* GJHCMKBNING; // 0x18
+		::RPG::Client::GridFightPlayer* CMNJDMKPPIA; // 0x20
+		::RPG::Client::GridFightConsumableInfo* _ConsumableInfo_k__BackingField; // 0x28
+		::RPG::Client::GridFightEquipInfo* NCHCLADAFBP; // 0x30
 		::System::Void _ctor(::RPG::Client::GridFightTeam* a1, ::RPG::Client::GridFightPlayer* a2, ::RPG::Client::GridFightEquipInfo* a3, ::RPG::Client::GridFightConsumableInfo* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTeam*, ::RPG::Client::GridFightPlayer*, ::RPG::Client::GridFightEquipInfo*, ::RPG::Client::GridFightConsumableInfo*))((::PBYTE)hIl2Cpp + GCMCEDELOJL_CTOR_OFFSET))(this, a1, a2, a3, a4);

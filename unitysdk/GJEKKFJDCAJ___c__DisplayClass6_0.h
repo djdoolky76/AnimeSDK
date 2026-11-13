@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class DLEBDFILNJC;
 
-#define GJEKKFJDCAJ___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A57F70)
-#define GJEKKFJDCAJ___C__DISPLAYCLASS6_0__GETOFFICEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x15A59210)
+#define GJEKKFJDCAJ___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A408C60)
+#define GJEKKFJDCAJ___C__DISPLAYCLASS6_0__GETOFFICEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x1A409EE0)
 
-inline static constexpr unsigned int GJEKKFJDCAJ___c__DisplayClass6_0_TypeDefinitionIndex = 80328;
+inline static constexpr unsigned int GJEKKFJDCAJ___c__DisplayClass6_0_TypeDefinitionIndex = 83105;
 
 	class GJEKKFJDCAJ___c__DisplayClass6_0 : public ::System::Object
 	{

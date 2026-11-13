@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimView.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPLAYERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD441D40)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPLAYERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C398FC0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimPlayerView_TypeDefinitionIndex = 77187;
+	inline static constexpr unsigned int FiveDimPlayerView_TypeDefinitionIndex = 79521;
 
 	class FiveDimPlayerView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{

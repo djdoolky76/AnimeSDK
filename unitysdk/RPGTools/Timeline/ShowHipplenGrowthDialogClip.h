@@ -7,27 +7,27 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE92F260)
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92F030)
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92F1F0)
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92F020)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A530)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DA1A300)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A4C0)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DA1A2F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowHipplenGrowthDialogClip_TypeDefinitionIndex = 48298;
+	inline static constexpr unsigned int ShowHipplenGrowthDialogClip_TypeDefinitionIndex = 49339;
 
 	class ShowHipplenGrowthDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* UILuaPath; // 0x18
-		static ::System::String** StaticGet_UI_LUA_PATH()
-		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowHipplenGrowthDialogClip")->GetStaticField(0x6FE70);
-		}
-
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowHipplenGrowthDialogClip")->GetStaticField(0x6FE78);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowHipplenGrowthDialogClip")->GetStaticField(0xE9F0);
+		}
+
+		static ::System::String** StaticGet_UI_LUA_PATH()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowHipplenGrowthDialogClip")->GetStaticField(0xE9F8);
 		}
 
 		::System::Void _ctor()

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_FLOATINGMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xCCF34A0)
+#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_FLOATINGMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x17BAEF50)
 
 namespace RPG::Client::DynamicFloatingObject
 {
-	inline static constexpr unsigned int FloatingMaterial_TypeDefinitionIndex = 73574;
+	inline static constexpr unsigned int FloatingMaterial_TypeDefinitionIndex = 75697;
 
 	class FloatingMaterial
 	{

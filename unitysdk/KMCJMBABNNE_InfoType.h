@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KMCJMBABNNE_InfoType_TypeDefinitionIndex = 65286;
+inline static constexpr unsigned int KMCJMBABNNE_InfoType_TypeDefinitionIndex = 67041;
 
 	enum class KMCJMBABNNE_InfoType : ::System::Int32
 	{

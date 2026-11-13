@@ -4,11 +4,11 @@
 class PMOJJIAKPPG;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GBDIKBFIMIM_CTOR_OFFSET UNITYSDK_OFFSET(0x159405C0)
-#define GBDIKBFIMIM_GET_DAY_OFFSET UNITYSDK_OFFSET(0x159405D0)
-#define GBDIKBFIMIM_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0x159405E0)
+#define GBDIKBFIMIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B87C3E0)
+#define GBDIKBFIMIM_GET_DAY_OFFSET UNITYSDK_OFFSET(0x1B87C3F0)
+#define GBDIKBFIMIM_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0x1B87C400)
 
-inline static constexpr unsigned int GBDIKBFIMIM_TypeDefinitionIndex = 81065;
+inline static constexpr unsigned int GBDIKBFIMIM_TypeDefinitionIndex = 83845;
 
 	class GBDIKBFIMIM : public ::System::Object
 	{

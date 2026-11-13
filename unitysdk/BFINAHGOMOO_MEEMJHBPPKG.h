@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KOAOAKKCCPK;
 
-#define BFINAHGOMOO_MEEMJHBPPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB16B790)
+#define BFINAHGOMOO_MEEMJHBPPKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A962210)
 
-inline static constexpr unsigned int BFINAHGOMOO_MEEMJHBPPKG_TypeDefinitionIndex = 71215;
+inline static constexpr unsigned int BFINAHGOMOO_MEEMJHBPPKG_TypeDefinitionIndex = 73197;
 
 	class BFINAHGOMOO_MEEMJHBPPKG : public ::System::Object
 	{

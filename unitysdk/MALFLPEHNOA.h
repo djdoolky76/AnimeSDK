@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchLastSearchEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MALFLPEHNOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB84C3D0)
-#define MALFLPEHNOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB84C440)
+#define MALFLPEHNOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B813F30)
+#define MALFLPEHNOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B813FA0)
 
-inline static constexpr unsigned int MALFLPEHNOA_TypeDefinitionIndex = 59096;
+inline static constexpr unsigned int MALFLPEHNOA_TypeDefinitionIndex = 60371;
 
 	class MALFLPEHNOA
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace System { class String; }
 
-#define CGINBJLGGEO_AFIFMGOAMHF_OFFSET UNITYSDK_OFFSET(0xCC84970)
-#define CGINBJLGGEO_CTOR_OFFSET UNITYSDK_OFFSET(0xCC84A70)
+#define CGINBJLGGEO_AFIFMGOAMHF_OFFSET UNITYSDK_OFFSET(0x1785DC90)
+#define CGINBJLGGEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1785DD90)
 
-inline static constexpr unsigned int CGINBJLGGEO_TypeDefinitionIndex = 81051;
+inline static constexpr unsigned int CGINBJLGGEO_TypeDefinitionIndex = 83831;
 
 	class CGINBJLGGEO : public ::System::Object
 	{

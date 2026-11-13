@@ -6,12 +6,12 @@ namespace RPG::GameCore { class AvatarEnergyBarState; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARENERGYBARSTATE_COPYDATAFROM_OFFSET UNITYSDK_OFFSET(0xE59F0D0)
-#define RPG_GAMECORE_AVATARENERGYBARSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE5980B0)
+#define RPG_GAMECORE_AVATARENERGYBARSTATE_COPYDATAFROM_OFFSET UNITYSDK_OFFSET(0x1A008F50)
+#define RPG_GAMECORE_AVATARENERGYBARSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0016D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEnergyBarState_TypeDefinitionIndex = 56881;
+	inline static constexpr unsigned int AvatarEnergyBarState_TypeDefinitionIndex = 58105;
 
 	class AvatarEnergyBarState : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace RPG::GameCore
 		::RPG::GameCore::GameEntity* OwnerEntity; // 0x20
 		::Il2CppArray<::System::String*>* EnergyDotPrefabPaths; // 0x28
 		::System::Int32 ActiveCount; // 0x30
-		::System::Int32 CounterType; // 0x34
-		::System::Int32 CurrCount; // 0x38
-		::System::Int32 CoolDown; // 0x3C
+		::System::Int32 CoolDown; // 0x34
+		::System::Int32 CounterType; // 0x38
+		::RPG::GameCore::EnergyBarState CurrentStatus; // 0x3C
 		::System::Int32 MaxCount; // 0x40
 		::System::Boolean IsActive; // 0x44
 		::System::Boolean ShowEnhancedTextColor; // 0x45
 		::System::Byte _padding0[0x2];
-		::RPG::GameCore::EnergyBarState CurrentStatus; // 0x48
+		::System::Int32 CurrCount; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARENERGYBARSTATE_CTOR_OFFSET))(this);

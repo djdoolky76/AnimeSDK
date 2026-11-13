@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF91510)
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0__GETPAGEENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xCF91520)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0BD1C0)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDVIEWMODEL___C__DISPLAYCLASS12_0__GETPAGEENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1E0BD650)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 80791;
+	inline static constexpr unsigned int CaseBoardViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 83571;
 
 	class CaseBoardViewModel___c__DisplayClass12_0 : public ::System::Object
 	{

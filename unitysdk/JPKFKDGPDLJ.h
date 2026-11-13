@@ -5,9 +5,9 @@ class JPKFKDGPDLJ_FNDEPAPDHBK;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JPKFKDGPDLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB79B70)
+#define JPKFKDGPDLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE22730)
 
-inline static constexpr unsigned int JPKFKDGPDLJ_TypeDefinitionIndex = 41946;
+inline static constexpr unsigned int JPKFKDGPDLJ_TypeDefinitionIndex = 42921;
 
 	class JPKFKDGPDLJ : public ::System::Object
 	{

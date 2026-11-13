@@ -6,10 +6,10 @@ class CJPDCBEEOKA;
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define GJDBAANADDF_CREATE_OFFSET UNITYSDK_OFFSET(0x15A51610)
-#define GJDBAANADDF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A51720)
+#define GJDBAANADDF_CREATE_OFFSET UNITYSDK_OFFSET(0x1A402500)
+#define GJDBAANADDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A402610)
 
-inline static constexpr unsigned int GJDBAANADDF_TypeDefinitionIndex = 73155;
+inline static constexpr unsigned int GJDBAANADDF_TypeDefinitionIndex = 75269;
 
 	class GJDBAANADDF : public ::System::Object
 	{

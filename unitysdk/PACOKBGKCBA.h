@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PACOKBGKCBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D290890)
+#define PACOKBGKCBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1E85D0)
 
-inline static constexpr unsigned int PACOKBGKCBA_TypeDefinitionIndex = 24990;
+inline static constexpr unsigned int PACOKBGKCBA_TypeDefinitionIndex = 25470;
 
 	class PACOKBGKCBA : public ::System::Attribute
 	{

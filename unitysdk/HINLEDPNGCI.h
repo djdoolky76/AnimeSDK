@@ -4,10 +4,10 @@
 class MFLJIEBFMOF;
 namespace RPG::Client { class MonoDanmuItem; }
 
-#define HINLEDPNGCI_CTOR_OFFSET UNITYSDK_OFFSET(0x15CECA90)
-#define HINLEDPNGCI_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x15CEC940)
+#define HINLEDPNGCI_CTOR_OFFSET UNITYSDK_OFFSET(0x181E9430)
+#define HINLEDPNGCI_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x181E92E0)
 
-inline static constexpr unsigned int HINLEDPNGCI_TypeDefinitionIndex = 68944;
+inline static constexpr unsigned int HINLEDPNGCI_TypeDefinitionIndex = 70897;
 
 	class HINLEDPNGCI : public ::System::Object
 	{

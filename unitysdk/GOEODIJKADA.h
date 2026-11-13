@@ -5,18 +5,18 @@ namespace RPG::GameCore { class CinemachineVirtualCameraTemplateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GOEODIJKADA_DDDKKAEMABH_OFFSET UNITYSDK_OFFSET(0x15B21310)
-#define GOEODIJKADA_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x15B213B0)
-#define GOEODIJKADA_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x15B21120)
+#define GOEODIJKADA_DDDKKAEMABH_OFFSET UNITYSDK_OFFSET(0x187B1DE0)
+#define GOEODIJKADA_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x187B1E80)
+#define GOEODIJKADA_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x187B1BF0)
 
-inline static constexpr unsigned int GOEODIJKADA_TypeDefinitionIndex = 73298;
+inline static constexpr unsigned int GOEODIJKADA_TypeDefinitionIndex = 75414;
 
 	class GOEODIJKADA : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*>** StaticGet_FCBHIJEOHCN()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*>**)UnitySDK::FromName("", "GOEODIJKADA")->GetStaticField(0x6BA10);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*>**)UnitySDK::FromName("", "GOEODIJKADA")->GetStaticField(0x71DF0);
 		}
 
 		static ::System::Void FNPMJDIAOCM()

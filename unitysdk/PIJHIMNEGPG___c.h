@@ -4,18 +4,18 @@
 class PIJHIMNEGPG;
 namespace System { class Object; }
 
-#define PIJHIMNEGPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF3CF90)
-#define PIJHIMNEGPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3CFC0)
-#define PIJHIMNEGPG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DF3CFD0)
+#define PIJHIMNEGPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20551830)
+#define PIJHIMNEGPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20551860)
+#define PIJHIMNEGPG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x20551870)
 
-inline static constexpr unsigned int PIJHIMNEGPG___c_TypeDefinitionIndex = 25444;
+inline static constexpr unsigned int PIJHIMNEGPG___c_TypeDefinitionIndex = 25923;
 
 	class PIJHIMNEGPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35430);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C540);
 		}
 
 		static ::System::Void _cctor()

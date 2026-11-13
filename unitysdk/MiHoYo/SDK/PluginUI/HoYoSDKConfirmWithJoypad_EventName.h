@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKConfirmWithJoypad_EventName_TypeDefinitionIndex = 46751;
+	inline static constexpr unsigned int HoYoSDKConfirmWithJoypad_EventName_TypeDefinitionIndex = 47779;
 
 	class HoYoSDKConfirmWithJoypad_EventName : public ::System::Object
 	{

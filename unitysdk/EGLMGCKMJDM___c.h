@@ -6,29 +6,29 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EGLMGCKMJDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1451BA60)
-#define EGLMGCKMJDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1451BAA0)
-#define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_0_OFFSET UNITYSDK_OFFSET(0x1451BAB0)
-#define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_1_OFFSET UNITYSDK_OFFSET(0x1451BAD0)
+#define EGLMGCKMJDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17C170D0)
+#define EGLMGCKMJDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17C17110)
+#define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_0_OFFSET UNITYSDK_OFFSET(0x17C17120)
+#define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_1_OFFSET UNITYSDK_OFFSET(0x17C17140)
 
-inline static constexpr unsigned int EGLMGCKMJDM___c_TypeDefinitionIndex = 81762;
+inline static constexpr unsigned int EGLMGCKMJDM___c_TypeDefinitionIndex = 84543;
 
 	class EGLMGCKMJDM___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>** StaticGet___9__13_0()
+		{
+			return (::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73350);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73358);
 		}
 
 		static ::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>** StaticGet___9__13_1()
 		{
-			return (::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30A8);
-		}
-
-		static ::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>** StaticGet___9__13_0()
-		{
-			return (::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30B0);
+			return (::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73360);
 		}
 
 		static ::System::Void _cctor()

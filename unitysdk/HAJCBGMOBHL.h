@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddGridFightDropData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HAJCBGMOBHL_CTOR_OFFSET UNITYSDK_OFFSET(0x15B6D320)
-#define HAJCBGMOBHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B6D350)
+#define HAJCBGMOBHL_CTOR_OFFSET UNITYSDK_OFFSET(0x17DDAAA0)
+#define HAJCBGMOBHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17DDAAD0)
 
-inline static constexpr unsigned int HAJCBGMOBHL_TypeDefinitionIndex = 54814;
+inline static constexpr unsigned int HAJCBGMOBHL_TypeDefinitionIndex = 55983;
 
 	class HAJCBGMOBHL
 	{

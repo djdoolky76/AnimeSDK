@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5BA330)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D5BA1A0)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D5BA030)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D5B9F50)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D5B9FD0)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D5B94D0)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5B9510)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5B9740)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5B9910)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D5B9BE0)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D5B9870)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5B97D0)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF3840)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EFF36B0)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EFF3540)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1EFF3460)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1EFF34E0)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1EFF29E0)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1EFF2A20)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1EFF2C50)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EFF2E20)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1EFF30F0)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1EFF2D80)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1EFF2CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CumulativeScoreBoardConfigExcelTable_TypeDefinitionIndex = 15188;
+	inline static constexpr unsigned int CumulativeScoreBoardConfigExcelTable_TypeDefinitionIndex = 15344;
 
 	class CumulativeScoreBoardConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CumulativeScoreBoardConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CumulativeScoreBoardConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x1BB50);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x1BB58);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x16900);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CumulativeScoreBoardConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CumulativeScoreBoardConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x16908);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x1BB60);
-		}
-
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x5F90);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x16910);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x5F91);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x5030);
+		}
+
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "CumulativeScoreBoardConfigExcelTable")->GetStaticField(0x5031);
 		}
 
 		static ::System::Void _cctor()

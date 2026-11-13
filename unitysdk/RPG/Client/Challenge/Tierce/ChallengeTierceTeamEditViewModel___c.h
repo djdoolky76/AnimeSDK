@@ -8,37 +8,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9685A0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9685E0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__SUBMITCHANGE_B__28_1_OFFSET UNITYSDK_OFFSET(0xC968750)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__TRYSTARTCHALLENGE_B__27_1_OFFSET UNITYSDK_OFFSET(0xC9686E0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C___EXPORTPLAN_B__26_0_OFFSET UNITYSDK_OFFSET(0xC9685F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6EFEE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6EFF20)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__SUBMITCHANGE_B__28_1_OFFSET UNITYSDK_OFFSET(0x1B6F0090)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__TRYSTARTCHALLENGE_B__27_1_OFFSET UNITYSDK_OFFSET(0x1B6F0020)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C___EXPORTPLAN_B__26_0_OFFSET UNITYSDK_OFFSET(0x1B6EFF30)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex = 81631;
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex = 84412;
 
 	class ChallengeTierceTeamEditViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>** StaticGet___9__27_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6AAD0);
-		}
-
-		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::JLCJBFLKOJD*>** StaticGet___9__26_0()
-		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::JLCJBFLKOJD*>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6AAD8);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x709A0);
 		}
 
 		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>** StaticGet___9__28_1()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6AAE0);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x709A8);
 		}
 
-		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>** StaticGet___9__27_1()
+		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::JLCJBFLKOJD*>** StaticGet___9__26_0()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6AAE8);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::JLCJBFLKOJD*>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x709B0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x709B8);
 		}
 
 		static ::System::Void _cctor()

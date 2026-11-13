@@ -2,22 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KIFCLJJAOFJ.h"
 #include "unitysdk/RPG/GameCore/AttackType.h"
+#include "unitysdk/RPG/GameCore/AttackTypeMask.h"
 class BGMKDGACBNI;
 class JENFBIIMILF;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LHCDGOJBJJF_BDBBOLPMGAM_OFFSET UNITYSDK_OFFSET(0xB6A1600)
-#define LHCDGOJBJJF_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A2430)
-#define LHCDGOJBJJF_IHNPPBLPHBD_1_OFFSET UNITYSDK_OFFSET(0xB6A1D80)
-#define LHCDGOJBJJF_IHNPPBLPHBD_2_OFFSET UNITYSDK_OFFSET(0xB6A2120)
-#define LHCDGOJBJJF_IHNPPBLPHBD_3_OFFSET UNITYSDK_OFFSET(0xB6A21D0)
-#define LHCDGOJBJJF_IHNPPBLPHBD_OFFSET UNITYSDK_OFFSET(0xB6A1CC0)
-#define LHCDGOJBJJF_KKFKKOPCLBG_OFFSET UNITYSDK_OFFSET(0xB6A16E0)
-#define LHCDGOJBJJF_NHGPJCHOIKJ_1_OFFSET UNITYSDK_OFFSET(0xB6A22F0)
-#define LHCDGOJBJJF_NHGPJCHOIKJ_OFFSET UNITYSDK_OFFSET(0xB6A1F30)
-#define LHCDGOJBJJF_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB6A1560)
+#define LHCDGOJBJJF_BDBBOLPMGAM_OFFSET UNITYSDK_OFFSET(0x1BCB9280)
+#define LHCDGOJBJJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB9B10)
+#define LHCDGOJBJJF_IHNPPBLPHBD_1_OFFSET UNITYSDK_OFFSET(0x1BCB94B0)
+#define LHCDGOJBJJF_IHNPPBLPHBD_2_OFFSET UNITYSDK_OFFSET(0x1BCB9800)
+#define LHCDGOJBJJF_IHNPPBLPHBD_3_OFFSET UNITYSDK_OFFSET(0x1BCB98B0)
+#define LHCDGOJBJJF_IHNPPBLPHBD_OFFSET UNITYSDK_OFFSET(0x1BCB93F0)
+#define LHCDGOJBJJF_KKFKKOPCLBG_OFFSET UNITYSDK_OFFSET(0x1BCB9360)
+#define LHCDGOJBJJF_NHGPJCHOIKJ_1_OFFSET UNITYSDK_OFFSET(0x1BCB99D0)
+#define LHCDGOJBJJF_NHGPJCHOIKJ_OFFSET UNITYSDK_OFFSET(0x1BCB9660)
+#define LHCDGOJBJJF_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x1BCB91E0)
 
-inline static constexpr unsigned int LHCDGOJBJJF_TypeDefinitionIndex = 53735;
+inline static constexpr unsigned int LHCDGOJBJJF_TypeDefinitionIndex = 54899;
 
 	class LHCDGOJBJJF : public ::KIFCLJJAOFJ
 	{
@@ -53,9 +54,9 @@ inline static constexpr unsigned int LHCDGOJBJJF_TypeDefinitionIndex = 53735;
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AttackType, ::Il2CppArray<::RPG::GameCore::AttackType>*))((::PBYTE)hIl2Cpp + LHCDGOJBJJF_IHNPPBLPHBD_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NHGPJCHOIKJ(::RPG::GameCore::AttackType a1, ::System::Collections::Generic::List_1<::RPG::GameCore::AttackType>* a2)
+		::RPG::GameCore::AttackTypeMask NHGPJCHOIKJ(::RPG::GameCore::AttackType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackType, ::System::Collections::Generic::List_1<::RPG::GameCore::AttackType>*))((::PBYTE)hIl2Cpp + LHCDGOJBJJF_NHGPJCHOIKJ_OFFSET))(this, a1, a2);
+			return ((::RPG::GameCore::AttackTypeMask(*)(::PVOID, ::RPG::GameCore::AttackType))((::PBYTE)hIl2Cpp + LHCDGOJBJJF_NHGPJCHOIKJ_OFFSET))(this, a1);
 		}
 
 		static ::System::Boolean IHNPPBLPHBD_2(::BGMKDGACBNI* a1, ::RPG::GameCore::AttackType a2, ::RPG::GameCore::AttackType a3)
@@ -68,9 +69,9 @@ inline static constexpr unsigned int LHCDGOJBJJF_TypeDefinitionIndex = 53735;
 			return ((::System::Boolean(*)(::BGMKDGACBNI*, ::RPG::GameCore::AttackType, ::Il2CppArray<::RPG::GameCore::AttackType>*))((::PBYTE)hIl2Cpp + LHCDGOJBJJF_IHNPPBLPHBD_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void NHGPJCHOIKJ_1(::BGMKDGACBNI* a1, ::RPG::GameCore::AttackType a2, ::System::Collections::Generic::List_1<::RPG::GameCore::AttackType>* a3)
+		static ::RPG::GameCore::AttackTypeMask NHGPJCHOIKJ_1(::BGMKDGACBNI* a1, ::RPG::GameCore::AttackType a2)
 		{
-			return ((::System::Void(*)(::BGMKDGACBNI*, ::RPG::GameCore::AttackType, ::System::Collections::Generic::List_1<::RPG::GameCore::AttackType>*))((::PBYTE)hIl2Cpp + LHCDGOJBJJF_NHGPJCHOIKJ_1_OFFSET))(a1, a2, a3);
+			return ((::RPG::GameCore::AttackTypeMask(*)(::BGMKDGACBNI*, ::RPG::GameCore::AttackType))((::PBYTE)hIl2Cpp + LHCDGOJBJJF_NHGPJCHOIKJ_1_OFFSET))(a1, a2);
 		}
 
 	};

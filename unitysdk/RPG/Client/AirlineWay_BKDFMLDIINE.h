@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class Airship_AirshipEffectConfig; }
 
-#define RPG_CLIENT_AIRLINEWAY_BKDFMLDIINE_CTOR_OFFSET UNITYSDK_OFFSET(0xC63D090)
+#define RPG_CLIENT_AIRLINEWAY_BKDFMLDIINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E8C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineWay_BKDFMLDIINE_TypeDefinitionIndex = 59775;
+	inline static constexpr unsigned int AirlineWay_BKDFMLDIINE_TypeDefinitionIndex = 61055;
 
 	class AirlineWay_BKDFMLDIINE : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TreasureDungeonMapConfigRow; }
 
-#define RPG_GAMECORE_TREASUREDUNGEONMAPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC14570)
-#define RPG_GAMECORE_TREASUREDUNGEONMAPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC14430)
+#define RPG_GAMECORE_TREASUREDUNGEONMAPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31DDF0)
+#define RPG_GAMECORE_TREASUREDUNGEONMAPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E31DCB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonMapConfigRow_TypeDefinitionIndex = 12526;
+	inline static constexpr unsigned int TreasureDungeonMapConfigRow_TypeDefinitionIndex = 12593;
 
 	class TreasureDungeonMapConfigRow : public ::System::Object
 	{

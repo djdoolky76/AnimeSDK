@@ -3,10 +3,10 @@
 class CKJKAFKLOIE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PIKDINBIJNP_CTOR_OFFSET UNITYSDK_OFFSET(0xC263510)
-#define PIKDINBIJNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC263540)
+#define PIKDINBIJNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9CFA60)
+#define PIKDINBIJNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9CFA90)
 
-inline static constexpr unsigned int PIKDINBIJNP_TypeDefinitionIndex = 53905;
+inline static constexpr unsigned int PIKDINBIJNP_TypeDefinitionIndex = 55069;
 
 	class PIKDINBIJNP
 	{

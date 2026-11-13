@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EANKKLCLOMC_CTOR_OFFSET UNITYSDK_OFFSET(0x12689150)
+#define EANKKLCLOMC_CTOR_OFFSET UNITYSDK_OFFSET(0x181E58B0)
 
-inline static constexpr unsigned int EANKKLCLOMC_TypeDefinitionIndex = 80542;
+inline static constexpr unsigned int EANKKLCLOMC_TypeDefinitionIndex = 83322;
 
 	class EANKKLCLOMC : public ::System::Object
 	{

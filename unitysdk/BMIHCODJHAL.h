@@ -5,33 +5,33 @@ namespace RPG::Client { class AdventurePhase; }
 namespace RPG::GameCore { class GameWorld; }
 namespace System::Reflection { class FieldInfo; }
 
-#define BMIHCODJHAL_AIOGOGINLHD_OFFSET UNITYSDK_OFFSET(0xBDAB1B0)
-#define BMIHCODJHAL_CCTOR_OFFSET UNITYSDK_OFFSET(0xBDAB8E0)
-#define BMIHCODJHAL_HCFJNBHPACH_OFFSET UNITYSDK_OFFSET(0xBDAB600)
+#define BMIHCODJHAL_AIOGOGINLHD_OFFSET UNITYSDK_OFFSET(0x18B86C90)
+#define BMIHCODJHAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x18B873C0)
+#define BMIHCODJHAL_HCFJNBHPACH_OFFSET UNITYSDK_OFFSET(0x18B870E0)
 
-inline static constexpr unsigned int BMIHCODJHAL_TypeDefinitionIndex = 50026;
+inline static constexpr unsigned int BMIHCODJHAL_TypeDefinitionIndex = 51074;
 
 	class BMIHCODJHAL : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::GameWorld** StaticGet_JEOADHBDKMO()
 		{
-			return (::RPG::GameCore::GameWorld**)UnitySDK::FromName("", "BMIHCODJHAL")->GetStaticField(0x6F490);
+			return (::RPG::GameCore::GameWorld**)UnitySDK::FromName("", "BMIHCODJHAL")->GetStaticField(0x6A7B0);
 		}
 
 		static ::System::Reflection::FieldInfo** StaticGet_NNGFOPLABOF()
 		{
-			return (::System::Reflection::FieldInfo**)UnitySDK::FromName("", "BMIHCODJHAL")->GetStaticField(0x6F498);
-		}
-
-		static ::RPG::Client::AdventurePhase** StaticGet_NOHNKAIALPJ()
-		{
-			return (::RPG::Client::AdventurePhase**)UnitySDK::FromName("", "BMIHCODJHAL")->GetStaticField(0x6F4A0);
+			return (::System::Reflection::FieldInfo**)UnitySDK::FromName("", "BMIHCODJHAL")->GetStaticField(0x6A7B8);
 		}
 
 		static ::System::Reflection::FieldInfo** StaticGet_JGPJDJLDDGG()
 		{
-			return (::System::Reflection::FieldInfo**)UnitySDK::FromName("", "BMIHCODJHAL")->GetStaticField(0x6F4A8);
+			return (::System::Reflection::FieldInfo**)UnitySDK::FromName("", "BMIHCODJHAL")->GetStaticField(0x6A7C0);
+		}
+
+		static ::RPG::Client::AdventurePhase** StaticGet_NOHNKAIALPJ()
+		{
+			return (::RPG::Client::AdventurePhase**)UnitySDK::FromName("", "BMIHCODJHAL")->GetStaticField(0x6A7C8);
 		}
 
 		static ::System::Void _cctor()

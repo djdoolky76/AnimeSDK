@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ChannelConfig_TypeDefinitionIndex = 46191;
+	inline static constexpr unsigned int MHYSDKC_ChannelConfig_TypeDefinitionIndex = 47220;
 
 	class MHYSDKC_ChannelConfig : public ::System::Object
 	{

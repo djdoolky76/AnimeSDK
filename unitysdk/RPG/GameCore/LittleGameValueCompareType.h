@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameValueCompareType_TypeDefinitionIndex = 24565;
+	inline static constexpr unsigned int LittleGameValueCompareType_TypeDefinitionIndex = 25026;
 
 	enum class LittleGameValueCompareType : ::System::Int32
 	{

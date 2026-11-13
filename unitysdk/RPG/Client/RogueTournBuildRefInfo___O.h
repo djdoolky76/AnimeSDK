@@ -6,14 +6,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefInfo___O_TypeDefinitionIndex = 67527;
+	inline static constexpr unsigned int RogueTournBuildRefInfo___O_TypeDefinitionIndex = 69471;
 
 	class RogueTournBuildRefInfo___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet__0___CheckIsHero()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x697D0);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x72590);
 		}
 
 	};

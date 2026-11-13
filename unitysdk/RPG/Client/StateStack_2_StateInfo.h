@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateStack_2_StateInfo_TypeDefinitionIndex = 70170;
+	inline static constexpr unsigned int StateStack_2_StateInfo_TypeDefinitionIndex = 72136;
 
 	template <typename T1, typename T2>
 	class StateStack_2_StateInfo : public ::System::Object

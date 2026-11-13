@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OOCCBMLAELL;
 
-#define FCFNFMPIEFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156ADC50)
+#define FCFNFMPIEFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C013AE0)
 
-inline static constexpr unsigned int FCFNFMPIEFJ_TypeDefinitionIndex = 80577;
+inline static constexpr unsigned int FCFNFMPIEFJ_TypeDefinitionIndex = 83357;
 
 	class FCFNFMPIEFJ : public ::System::Object
 	{

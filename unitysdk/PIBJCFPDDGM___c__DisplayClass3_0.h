@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/DCHICFMEANN.h"
 
-#define PIBJCFPDDGM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC254780)
-#define PIBJCFPDDGM___C__DISPLAYCLASS3_0__SETSELFMARBLESELECTED_B__0_OFFSET UNITYSDK_OFFSET(0xC2550A0)
+#define PIBJCFPDDGM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9BF220)
+#define PIBJCFPDDGM___C__DISPLAYCLASS3_0__SETSELFMARBLESELECTED_B__0_OFFSET UNITYSDK_OFFSET(0x1A9BFB50)
 
-inline static constexpr unsigned int PIBJCFPDDGM___c__DisplayClass3_0_TypeDefinitionIndex = 74723;
+inline static constexpr unsigned int PIBJCFPDDGM___c__DisplayClass3_0_TypeDefinitionIndex = 76871;
 
 	class PIBJCFPDDGM___c__DisplayClass3_0 : public ::System::Object
 	{

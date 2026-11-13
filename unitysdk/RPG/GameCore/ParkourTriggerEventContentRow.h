@@ -7,20 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ParkourTriggerEventContentRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C28D0)
-#define RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C26C0)
+#define RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1449D0)
+#define RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F1447C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourTriggerEventContentRow_TypeDefinitionIndex = 12112;
+	inline static constexpr unsigned int ParkourTriggerEventContentRow_TypeDefinitionIndex = 12169;
 
 	class ParkourTriggerEventContentRow : public ::System::Object
 	{
 	public:
 		::System::String* SpritePath; // 0x10
 		::RPG::Client::TextID TextContent; // 0x18
-		::RPG::GameCore::ParkourTalkType TriggerShowType; // 0x28
-		::System::UInt32 ID; // 0x2C
+		::System::UInt32 ID; // 0x28
+		::RPG::GameCore::ParkourTalkType TriggerShowType; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW_CTOR_OFFSET))(this);

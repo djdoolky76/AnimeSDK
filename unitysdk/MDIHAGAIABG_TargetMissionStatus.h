@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MDIHAGAIABG_TargetMissionStatus_TypeDefinitionIndex = 52645;
+inline static constexpr unsigned int MDIHAGAIABG_TargetMissionStatus_TypeDefinitionIndex = 53752;
 
 	enum class MDIHAGAIABG_TargetMissionStatus : ::System::Int32
 	{

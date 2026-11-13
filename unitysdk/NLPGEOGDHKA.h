@@ -6,21 +6,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NLPGEOGDHKA_BABODMNHICM_OFFSET UNITYSDK_OFFSET(0xBC72BD0)
-#define NLPGEOGDHKA_BIHMKFMBLPD_OFFSET UNITYSDK_OFFSET(0xBC728E0)
-#define NLPGEOGDHKA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC72CA0)
-#define NLPGEOGDHKA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC721D0)
-#define NLPGEOGDHKA_GOLDLOOIIGF_OFFSET UNITYSDK_OFFSET(0xBC72600)
-#define NLPGEOGDHKA_LPPFEMHGCLH_OFFSET UNITYSDK_OFFSET(0xBC722F0)
+#define NLPGEOGDHKA_BABODMNHICM_OFFSET UNITYSDK_OFFSET(0x1A438B90)
+#define NLPGEOGDHKA_BIHMKFMBLPD_OFFSET UNITYSDK_OFFSET(0x1A4388A0)
+#define NLPGEOGDHKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A438C60)
+#define NLPGEOGDHKA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A438190)
+#define NLPGEOGDHKA_GOLDLOOIIGF_OFFSET UNITYSDK_OFFSET(0x1A4385C0)
+#define NLPGEOGDHKA_LPPFEMHGCLH_OFFSET UNITYSDK_OFFSET(0x1A4382B0)
 
-inline static constexpr unsigned int NLPGEOGDHKA_TypeDefinitionIndex = 75321;
+inline static constexpr unsigned int NLPGEOGDHKA_TypeDefinitionIndex = 77648;
 
 	class NLPGEOGDHKA : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* CJJAHIJOJMN; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* BDMJFJAHFGN; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* LDLIFOBHINC; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* LDLIFOBHINC; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* BDMJFJAHFGN; // 0x20
 		::System::Boolean HHGMFCMPCIK; // 0x28
 		::System::Void _ctor()
 		{

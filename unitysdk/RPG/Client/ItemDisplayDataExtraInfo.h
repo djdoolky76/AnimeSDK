@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ITEMDISPLAYDATAEXTRAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD37EB20)
+#define RPG_CLIENT_ITEMDISPLAYDATAEXTRAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDB650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemDisplayDataExtraInfo_TypeDefinitionIndex = 65711;
+	inline static constexpr unsigned int ItemDisplayDataExtraInfo_TypeDefinitionIndex = 67637;
 
 	class ItemDisplayDataExtraInfo : public ::System::Object
 	{

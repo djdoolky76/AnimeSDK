@@ -4,9 +4,9 @@
 class LNBHAKPMAAD;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CKCLCBCABFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E4060)
+#define CKCLCBCABFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB162A0)
 
-inline static constexpr unsigned int CKCLCBCABFD_TypeDefinitionIndex = 42837;
+inline static constexpr unsigned int CKCLCBCABFD_TypeDefinitionIndex = 43818;
 
 	class CKCLCBCABFD : public ::System::Object
 	{

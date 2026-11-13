@@ -13,60 +13,60 @@ namespace Proto { class ItemList; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PGIOKHAKAPP_BEPKKOHEOGL_OFFSET UNITYSDK_OFFSET(0x1DF04FE0)
-#define PGIOKHAKAPP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DF055B0)
-#define PGIOKHAKAPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF05B30)
-#define PGIOKHAKAPP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DF04F20)
-#define PGIOKHAKAPP_CMPAPOLKDMI_OFFSET UNITYSDK_OFFSET(0x1DF04FF0)
-#define PGIOKHAKAPP_CPCEGCCEMIM_OFFSET UNITYSDK_OFFSET(0x1DF04F90)
-#define PGIOKHAKAPP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DF04E30)
-#define PGIOKHAKAPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF04DE0)
-#define PGIOKHAKAPP_EALOAPAKGPL_OFFSET UNITYSDK_OFFSET(0x1DF04FD0)
-#define PGIOKHAKAPP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DF05030)
-#define PGIOKHAKAPP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DF05000)
-#define PGIOKHAKAPP_FAEKBILGPCO_OFFSET UNITYSDK_OFFSET(0x1DF04F80)
-#define PGIOKHAKAPP_FJOCHFMKIKP_OFFSET UNITYSDK_OFFSET(0x1DF04FA0)
-#define PGIOKHAKAPP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DF05160)
-#define PGIOKHAKAPP_GHBBNOKENLI_OFFSET UNITYSDK_OFFSET(0x1DF04FB0)
-#define PGIOKHAKAPP_IOEDGIFNLBK_OFFSET UNITYSDK_OFFSET(0x1DF04F60)
-#define PGIOKHAKAPP_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1DF04DA0)
-#define PGIOKHAKAPP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DF059B0)
-#define PGIOKHAKAPP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DF058E0)
-#define PGIOKHAKAPP_OAPIGKOIMJL_OFFSET UNITYSDK_OFFSET(0x1DF04F70)
-#define PGIOKHAKAPP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DF04DD0)
-#define PGIOKHAKAPP_PFDFAHJBBKD_OFFSET UNITYSDK_OFFSET(0x1DF04F50)
-#define PGIOKHAKAPP_POCILFFLDOH_OFFSET UNITYSDK_OFFSET(0x1DF04FC0)
-#define PGIOKHAKAPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF05300)
-#define PGIOKHAKAPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF05360)
+#define PGIOKHAKAPP_BEPKKOHEOGL_OFFSET UNITYSDK_OFFSET(0x20250580)
+#define PGIOKHAKAPP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x20250BC0)
+#define PGIOKHAKAPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x20251140)
+#define PGIOKHAKAPP_CLONE_OFFSET UNITYSDK_OFFSET(0x20250530)
+#define PGIOKHAKAPP_CMPAPOLKDMI_OFFSET UNITYSDK_OFFSET(0x20250590)
+#define PGIOKHAKAPP_CPCEGCCEMIM_OFFSET UNITYSDK_OFFSET(0x202505D0)
+#define PGIOKHAKAPP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20250450)
+#define PGIOKHAKAPP_CTOR_OFFSET UNITYSDK_OFFSET(0x20250400)
+#define PGIOKHAKAPP_EALOAPAKGPL_OFFSET UNITYSDK_OFFSET(0x202505C0)
+#define PGIOKHAKAPP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x20250640)
+#define PGIOKHAKAPP_EQUALS_OFFSET UNITYSDK_OFFSET(0x20250610)
+#define PGIOKHAKAPP_FAEKBILGPCO_OFFSET UNITYSDK_OFFSET(0x20250600)
+#define PGIOKHAKAPP_FJOCHFMKIKP_OFFSET UNITYSDK_OFFSET(0x202505E0)
+#define PGIOKHAKAPP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x20250780)
+#define PGIOKHAKAPP_GHBBNOKENLI_OFFSET UNITYSDK_OFFSET(0x202505A0)
+#define PGIOKHAKAPP_IOEDGIFNLBK_OFFSET UNITYSDK_OFFSET(0x20250570)
+#define PGIOKHAKAPP_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x202503C0)
+#define PGIOKHAKAPP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x20250FC0)
+#define PGIOKHAKAPP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x20250EF0)
+#define PGIOKHAKAPP_OAPIGKOIMJL_OFFSET UNITYSDK_OFFSET(0x202505F0)
+#define PGIOKHAKAPP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x202503F0)
+#define PGIOKHAKAPP_PFDFAHJBBKD_OFFSET UNITYSDK_OFFSET(0x20250560)
+#define PGIOKHAKAPP_POCILFFLDOH_OFFSET UNITYSDK_OFFSET(0x202505B0)
+#define PGIOKHAKAPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20250920)
+#define PGIOKHAKAPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x20250980)
 
-inline static constexpr unsigned int PGIOKHAKAPP_TypeDefinitionIndex = 30651;
+inline static constexpr unsigned int PGIOKHAKAPP_TypeDefinitionIndex = 31557;
 
 	class PGIOKHAKAPP : public ::System::Object
 	{
 	public:
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
-		::Proto::ItemList* JDAFJANAEBG; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* IJNFCNAAFMA; // 0x20
-		::System::UInt64 LJFAPGMCCPP; // 0x28
-		::System::UInt32 BMGMACIBMFH; // 0x30
-		::System::UInt32 NAEACGPKNNH; // 0x34
-		::System::UInt64 GODIGICNHBG; // 0x38
-		static ::Google::Protobuf::MessageParser_1<::PGIOKHAKAPP*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::PGIOKHAKAPP*>**)UnitySDK::FromName("", "PGIOKHAKAPP")->GetStaticField(0x33050);
-		}
-
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* IJNFCNAAFMA; // 0x18
+		::Proto::ItemList* JDAFJANAEBG; // 0x20
+		::System::UInt64 GODIGICNHBG; // 0x28
+		::System::UInt64 LJFAPGMCCPP; // 0x30
+		::System::UInt32 NAEACGPKNNH; // 0x38
+		::System::UInt32 BMGMACIBMFH; // 0x3C
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_HIBELOEMCLE()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "PGIOKHAKAPP")->GetStaticField(0x33058);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "PGIOKHAKAPP")->GetStaticField(0x38E80);
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::PGIOKHAKAPP*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::PGIOKHAKAPP*>**)UnitySDK::FromName("", "PGIOKHAKAPP")->GetStaticField(0x38E88);
 		}
 
 		// static const ::System::Object JFPHEPMECOH; // 0x0
-		// static const ::System::Object PLDKENJLKME; // 0x0
-		// static const ::System::Object EBMIJAAKMMH; // 0x0
+		// static const ::System::Object FPEDPMAHHND; // 0x0
 		// static const ::System::Object ADHMALKIGEN; // 0x0
 		// static const ::System::Object LICENIHDDLB; // 0x0
-		// static const ::System::Object FPEDPMAHHND; // 0x0
+		// static const ::System::Object EBMIJAAKMMH; // 0x0
+		// static const ::System::Object PLDKENJLKME; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_CTOR_OFFSET))(this);
@@ -107,24 +107,14 @@ inline static constexpr unsigned int PGIOKHAKAPP_TypeDefinitionIndex = 30651;
 			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_IOEDGIFNLBK_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 OAPIGKOIMJL()
+		::System::UInt32 BEPKKOHEOGL()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_OAPIGKOIMJL_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_BEPKKOHEOGL_OFFSET))(this);
 		}
 
-		::System::Void FAEKBILGPCO(::System::UInt32 a1)
+		::System::Void CMPAPOLKDMI(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_FAEKBILGPCO_OFFSET))(this, a1);
-		}
-
-		::Proto::ItemList* CPCEGCCEMIM()
-		{
-			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_CPCEGCCEMIM_OFFSET))(this);
-		}
-
-		::System::Void FJOCHFMKIKP(::Proto::ItemList* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_FJOCHFMKIKP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_CMPAPOLKDMI_OFFSET))(this, a1);
 		}
 
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* GHBBNOKENLI()
@@ -142,14 +132,24 @@ inline static constexpr unsigned int PGIOKHAKAPP_TypeDefinitionIndex = 30651;
 			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_EALOAPAKGPL_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 BEPKKOHEOGL()
+		::Proto::ItemList* CPCEGCCEMIM()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_BEPKKOHEOGL_OFFSET))(this);
+			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_CPCEGCCEMIM_OFFSET))(this);
 		}
 
-		::System::Void CMPAPOLKDMI(::System::UInt32 a1)
+		::System::Void FJOCHFMKIKP(::Proto::ItemList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_CMPAPOLKDMI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_FJOCHFMKIKP_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 OAPIGKOIMJL()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_OAPIGKOIMJL_OFFSET))(this);
+		}
+
+		::System::Void FAEKBILGPCO(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PGIOKHAKAPP_FAEKBILGPCO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

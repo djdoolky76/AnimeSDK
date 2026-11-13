@@ -4,18 +4,18 @@
 class JEIEGMECGEN;
 namespace System { class Object; }
 
-#define JEIEGMECGEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6F03E0)
-#define JEIEGMECGEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F0420)
-#define JEIEGMECGEN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E6F0430)
+#define JEIEGMECGEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206116B0)
+#define JEIEGMECGEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206116F0)
+#define JEIEGMECGEN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20611700)
 
-inline static constexpr unsigned int JEIEGMECGEN___c_TypeDefinitionIndex = 29277;
+inline static constexpr unsigned int JEIEGMECGEN___c_TypeDefinitionIndex = 29940;
 
 	class JEIEGMECGEN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C6F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EB00);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 class MEFBMDDEBNB;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define ILHDPGNPIOK___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164A6360)
-#define ILHDPGNPIOK___C__DISPLAYCLASS2_0__REMOVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x164A6780)
+#define ILHDPGNPIOK___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B597580)
+#define ILHDPGNPIOK___C__DISPLAYCLASS2_0__REMOVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1B5979A0)
 
-inline static constexpr unsigned int ILHDPGNPIOK___c__DisplayClass2_0_TypeDefinitionIndex = 72349;
+inline static constexpr unsigned int ILHDPGNPIOK___c__DisplayClass2_0_TypeDefinitionIndex = 74428;
 
 	class ILHDPGNPIOK___c__DisplayClass2_0 : public ::System::Object
 	{

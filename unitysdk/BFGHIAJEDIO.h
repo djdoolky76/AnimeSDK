@@ -3,18 +3,18 @@
 #include "unitysdk/FMPCODLIOLG.h"
 namespace UnityEngine { class Transform; }
 
-#define BFGHIAJEDIO_CTOR_OFFSET UNITYSDK_OFFSET(0xB161850)
-#define BFGHIAJEDIO_LHPBPGCKLEJ_OFFSET UNITYSDK_OFFSET(0xB161790)
-#define BFGHIAJEDIO_PEFFNCHBGLP_OFFSET UNITYSDK_OFFSET(0xB1617F0)
-#define BFGHIAJEDIO__ONBIND_OFFSET UNITYSDK_OFFSET(0xB1616A0)
+#define BFGHIAJEDIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A957760)
+#define BFGHIAJEDIO_LHPBPGCKLEJ_OFFSET UNITYSDK_OFFSET(0x1A9576A0)
+#define BFGHIAJEDIO_PEFFNCHBGLP_OFFSET UNITYSDK_OFFSET(0x1A957700)
+#define BFGHIAJEDIO__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A9575B0)
 
-inline static constexpr unsigned int BFGHIAJEDIO_TypeDefinitionIndex = 71393;
+inline static constexpr unsigned int BFGHIAJEDIO_TypeDefinitionIndex = 73373;
 
 	class BFGHIAJEDIO : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* NNAKHMJLJPH; // 0x60
-		::UnityEngine::Transform* IMCHJKBFJJC; // 0x68
+		::UnityEngine::Transform* IMCHJKBFJJC; // 0x60
+		::UnityEngine::Transform* NNAKHMJLJPH; // 0x68
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		::System::Void _ctor()
 		{

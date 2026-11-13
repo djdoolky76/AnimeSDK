@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LMGJONAPMIM_ElfGenCustomerState_TypeDefinitionIndex = 76538;
+inline static constexpr unsigned int LMGJONAPMIM_ElfGenCustomerState_TypeDefinitionIndex = 78869;
 
 	enum class LMGJONAPMIM_ElfGenCustomerState : ::System::Int32
 	{

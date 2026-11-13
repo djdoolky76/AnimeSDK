@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetIronTombInfinityHPUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LBKBDMOMEKF_CTOR_OFFSET UNITYSDK_OFFSET(0xB5FAAB0)
-#define LBKBDMOMEKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5FAAE0)
+#define LBKBDMOMEKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B29EFB0)
+#define LBKBDMOMEKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B29EFE0)
 
-inline static constexpr unsigned int LBKBDMOMEKF_TypeDefinitionIndex = 55523;
+inline static constexpr unsigned int LBKBDMOMEKF_TypeDefinitionIndex = 56715;
 
 	class LBKBDMOMEKF
 	{

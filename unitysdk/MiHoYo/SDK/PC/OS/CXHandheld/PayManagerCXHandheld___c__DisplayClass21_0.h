@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class PayManagerCXHandheld; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE08A0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS21_0__LAUNCHHANDHELDPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BEE3E10)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0D9310)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS21_0__LAUNCHHANDHELDPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1B0DC8A0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass21_0_TypeDefinitionIndex = 8774;
+	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass21_0_TypeDefinitionIndex = 8783;
 
 	class PayManagerCXHandheld___c__DisplayClass21_0 : public ::System::Object
 	{

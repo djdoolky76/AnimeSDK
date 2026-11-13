@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/SystemException.h"
 
-#define SYSTEM_NET_INTERNALEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F03AC00)
+#define SYSTEM_NET_INTERNALEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C419F60)
 
 namespace System::Net
 {

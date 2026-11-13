@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CUMULATIVESCOREBOARDCLIPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8CC980)
+#define RPGTOOLS_TIMELINE_CUMULATIVESCOREBOARDCLIPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8ED220)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CumulativeScoreBoardClipData_TypeDefinitionIndex = 48278;
+	inline static constexpr unsigned int CumulativeScoreBoardClipData_TypeDefinitionIndex = 49319;
 
 	class CumulativeScoreBoardClipData : public ::System::Object
 	{

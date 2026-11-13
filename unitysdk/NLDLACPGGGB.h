@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetWavingBlockControl; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NLDLACPGGGB_CTOR_OFFSET UNITYSDK_OFFSET(0xBC5D130)
-#define NLDLACPGGGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC5D160)
+#define NLDLACPGGGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A420700)
+#define NLDLACPGGGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A420730)
 
-inline static constexpr unsigned int NLDLACPGGGB_TypeDefinitionIndex = 52504;
+inline static constexpr unsigned int NLDLACPGGGB_TypeDefinitionIndex = 53610;
 
 	class NLDLACPGGGB
 	{

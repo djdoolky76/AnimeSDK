@@ -6,23 +6,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerRoomSlotConfigRow; }
 
-#define RPG_GAMECORE_PLAYERROOMSLOTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90E390)
-#define RPG_GAMECORE_PLAYERROOMSLOTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D90E0B0)
+#define RPG_GAMECORE_PLAYERROOMSLOTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF78590)
+#define RPG_GAMECORE_PLAYERROOMSLOTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF782B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRoomSlotConfigRow_TypeDefinitionIndex = 14545;
+	inline static constexpr unsigned int PlayerRoomSlotConfigRow_TypeDefinitionIndex = 14700;
 
 	class PlayerRoomSlotConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::SlotDisplayType>* TypeList; // 0x10
-		::Il2CppArray<::System::UInt32>* TagList; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 ID; // 0x30
-		::System::UInt32 SubArea; // 0x34
+		::Il2CppArray<::System::UInt32>* TagList; // 0x10
+		::Il2CppArray<::RPG::GameCore::SlotDisplayType>* TypeList; // 0x18
+		::System::UInt32 CameraStaticID; // 0x20
+		::System::UInt32 SubArea; // 0x24
+		::RPG::Client::TextID Name; // 0x28
 		::System::UInt32 SortID; // 0x38
-		::System::UInt32 CameraStaticID; // 0x3C
+		::System::UInt32 ID; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERROOMSLOTCONFIGROW_CTOR_OFFSET))(this);

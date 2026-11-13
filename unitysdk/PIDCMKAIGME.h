@@ -3,7 +3,7 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-inline static constexpr unsigned int PIDCMKAIGME_TypeDefinitionIndex = 59259;
+inline static constexpr unsigned int PIDCMKAIGME_TypeDefinitionIndex = 60536;
 
 	struct alignas(8) PIDCMKAIGME
 	{

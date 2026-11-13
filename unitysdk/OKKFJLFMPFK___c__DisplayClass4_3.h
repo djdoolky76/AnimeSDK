@@ -5,10 +5,10 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableAsset; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define OKKFJLFMPFK___C__DISPLAYCLASS4_3_CTOR_OFFSET UNITYSDK_OFFSET(0xBEDA800)
-#define OKKFJLFMPFK___C__DISPLAYCLASS4_3__ONTASKBEGIN_B__3_OFFSET UNITYSDK_OFFSET(0xBEE1900)
+#define OKKFJLFMPFK___C__DISPLAYCLASS4_3_CTOR_OFFSET UNITYSDK_OFFSET(0x1787F0A0)
+#define OKKFJLFMPFK___C__DISPLAYCLASS4_3__ONTASKBEGIN_B__3_OFFSET UNITYSDK_OFFSET(0x17886180)
 
-inline static constexpr unsigned int OKKFJLFMPFK___c__DisplayClass4_3_TypeDefinitionIndex = 56374;
+inline static constexpr unsigned int OKKFJLFMPFK___c__DisplayClass4_3_TypeDefinitionIndex = 57588;
 
 	template <typename T1, typename T2, typename T3>
 	class OKKFJLFMPFK___c__DisplayClass4_3 : public ::System::Object

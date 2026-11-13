@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhaseSkillInfoMappingList; }
 
-#define RPG_GAMECORE_PHASESKILLINFOMAPPINGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DDB90)
-#define RPG_GAMECORE_PHASESKILLINFOMAPPINGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DDAD0)
+#define RPG_GAMECORE_PHASESKILLINFOMAPPINGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4C840)
+#define RPG_GAMECORE_PHASESKILLINFOMAPPINGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE4C780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhaseSkillInfoMappingList_TypeDefinitionIndex = 16533;
+	inline static constexpr unsigned int PhaseSkillInfoMappingList_TypeDefinitionIndex = 16699;
 
 	class PhaseSkillInfoMappingList : public ::RPG::GameCore::JsonConfig
 	{

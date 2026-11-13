@@ -4,7 +4,7 @@ class CENEFPOMFKG;
 class KFELGAIGHAP;
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int IMMMHLKHCCO_EEFNNOGOKAL_TypeDefinitionIndex = 54242;
+inline static constexpr unsigned int IMMMHLKHCCO_EEFNNOGOKAL_TypeDefinitionIndex = 55406;
 
 	struct alignas(8) IMMMHLKHCCO_EEFNNOGOKAL
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_BOOKLETTEXTELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0xC8AE6A0)
-#define RPG_CLIENT_BOOKLETTEXTELEMENT_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0xC8AE630)
+#define RPG_CLIENT_BOOKLETTEXTELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C57D200)
+#define RPG_CLIENT_BOOKLETTEXTELEMENT_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x1C57D190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletTextElement_TypeDefinitionIndex = 72393;
+	inline static constexpr unsigned int BookletTextElement_TypeDefinitionIndex = 74472;
 
 	class BookletTextElement
 	{

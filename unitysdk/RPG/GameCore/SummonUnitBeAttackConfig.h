@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SummonUnitBeAttackConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0D130)
-#define RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0D040)
+#define RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67CEE0)
+#define RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E67CDF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitBeAttackConfig_TypeDefinitionIndex = 17598;
+	inline static constexpr unsigned int SummonUnitBeAttackConfig_TypeDefinitionIndex = 17767;
 
 	class SummonUnitBeAttackConfig : public ::RPG::GameCore::JsonConfig
 	{

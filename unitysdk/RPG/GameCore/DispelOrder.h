@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DispelOrder_TypeDefinitionIndex = 24641;
+	inline static constexpr unsigned int DispelOrder_TypeDefinitionIndex = 25113;
 
 	enum class DispelOrder : ::System::Int32
 	{

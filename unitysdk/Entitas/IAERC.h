@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IAERC_TypeDefinitionIndex = 10011;
+	inline static constexpr unsigned int IAERC_TypeDefinitionIndex = 10019;
 
 	class IAERC
 	{

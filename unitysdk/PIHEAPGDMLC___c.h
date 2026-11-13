@@ -4,18 +4,18 @@
 class PIHEAPGDMLC;
 namespace System { class Object; }
 
-#define PIHEAPGDMLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF19090)
-#define PIHEAPGDMLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF190D0)
-#define PIHEAPGDMLC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF190E0)
+#define PIHEAPGDMLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2054E4A0)
+#define PIHEAPGDMLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2054E4E0)
+#define PIHEAPGDMLC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2054E4F0)
 
-inline static constexpr unsigned int PIHEAPGDMLC___c_TypeDefinitionIndex = 28166;
+inline static constexpr unsigned int PIHEAPGDMLC___c_TypeDefinitionIndex = 28756;
 
 	class PIHEAPGDMLC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34B90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BF90);
 		}
 
 		static ::System::Void _cctor()

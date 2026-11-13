@@ -3,10 +3,10 @@
 class MNGOILBPHNG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNAKEPGFDFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1193AFF0)
-#define DNAKEPGFDFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1193B020)
+#define DNAKEPGFDFK_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB0060)
+#define DNAKEPGFDFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CB0090)
 
-inline static constexpr unsigned int DNAKEPGFDFK_TypeDefinitionIndex = 53838;
+inline static constexpr unsigned int DNAKEPGFDFK_TypeDefinitionIndex = 55002;
 
 	class DNAKEPGFDFK
 	{

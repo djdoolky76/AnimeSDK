@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class StackShield; }
 
-#define RPG_GAMECORE_STACKSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD66E0)
-#define RPG_GAMECORE_STACKSHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD6700)
-#define RPG_GAMECORE_STACKSHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD6690)
+#define RPG_GAMECORE_STACKSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A9A70)
+#define RPG_GAMECORE_STACKSHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3A9A90)
+#define RPG_GAMECORE_STACKSHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3A9A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackShield_TypeDefinitionIndex = 23601;
+	inline static constexpr unsigned int StackShield_TypeDefinitionIndex = 24048;
 
 	class StackShield : public ::RPG::GameCore::TaskConfig
 	{

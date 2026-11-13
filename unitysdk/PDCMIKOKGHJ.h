@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByGridFightProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PDCMIKOKGHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC005F00)
-#define PDCMIKOKGHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC005FE0)
+#define PDCMIKOKGHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AADE900)
+#define PDCMIKOKGHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AADE9E0)
 
-inline static constexpr unsigned int PDCMIKOKGHJ_TypeDefinitionIndex = 55440;
+inline static constexpr unsigned int PDCMIKOKGHJ_TypeDefinitionIndex = 56626;
 
 	class PDCMIKOKGHJ
 	{

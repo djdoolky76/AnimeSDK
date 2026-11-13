@@ -3,18 +3,18 @@
 #include "unitysdk/KIDPCOMKMKJ.h"
 class BOGCBDLBHFK;
 
-#define MPDFNCCKOCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FF9A0)
-#define MPDFNCCKOCI_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C8FF9B0)
-#define MPDFNCCKOCI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C8FFCA0)
+#define MPDFNCCKOCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C264B00)
+#define MPDFNCCKOCI_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C264B10)
+#define MPDFNCCKOCI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C264E00)
 
-inline static constexpr unsigned int MPDFNCCKOCI_TypeDefinitionIndex = 42478;
+inline static constexpr unsigned int MPDFNCCKOCI_TypeDefinitionIndex = 43453;
 
 	class MPDFNCCKOCI : public ::KIDPCOMKMKJ
 	{
 	public:
 		::BOGCBDLBHFK* KAKEIDJDNHJ; // 0x18
-		::System::Single PGMIOKKLHIE; // 0x20
-		::System::Single HBDJCFFDGDD; // 0x24
+		::System::Single HBDJCFFDGDD; // 0x20
+		::System::Single PGMIOKKLHIE; // 0x24
 		::System::Void _ctor(::BOGCBDLBHFK* a1, ::System::Single a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::BOGCBDLBHFK*, ::System::Single))((::PBYTE)hIl2Cpp + MPDFNCCKOCI_CTOR_OFFSET))(this, a1, a2);

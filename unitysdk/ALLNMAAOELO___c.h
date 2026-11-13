@@ -4,18 +4,18 @@
 class ALLNMAAOELO;
 namespace System { class Object; }
 
-#define ALLNMAAOELO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4E5020)
-#define ALLNMAAOELO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E5060)
-#define ALLNMAAOELO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4E5070)
+#define ALLNMAAOELO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2001F2C0)
+#define ALLNMAAOELO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2001F300)
+#define ALLNMAAOELO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2001F310)
 
-inline static constexpr unsigned int ALLNMAAOELO___c_TypeDefinitionIndex = 28226;
+inline static constexpr unsigned int ALLNMAAOELO___c_TypeDefinitionIndex = 28816;
 
 	class ALLNMAAOELO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42FE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37EA0);
 		}
 
 		static ::System::Void _cctor()

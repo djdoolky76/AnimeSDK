@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 5884;
+	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 5892;
 
 	template <typename T>
 	class ObjectPool_1 : public ::System::Object

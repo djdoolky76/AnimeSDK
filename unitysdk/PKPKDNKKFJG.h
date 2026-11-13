@@ -3,10 +3,10 @@
 #include "unitysdk/NKAKKMMLOPA.h"
 namespace UnityEngine { class Renderer; }
 
-#define PKPKDNKKFJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E4B10)
-#define PKPKDNKKFJG_DBEFEPBMBAK_OFFSET UNITYSDK_OFFSET(0xC2E4A70)
+#define PKPKDNKKFJG_CTOR_OFFSET UNITYSDK_OFFSET(0x188714B0)
+#define PKPKDNKKFJG_DBEFEPBMBAK_OFFSET UNITYSDK_OFFSET(0x18871410)
 
-inline static constexpr unsigned int PKPKDNKKFJG_TypeDefinitionIndex = 47447;
+inline static constexpr unsigned int PKPKDNKKFJG_TypeDefinitionIndex = 48476;
 
 	class PKPKDNKKFJG : public ::NKAKKMMLOPA
 	{

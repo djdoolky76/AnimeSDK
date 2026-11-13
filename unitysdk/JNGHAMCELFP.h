@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JNGHAMCELFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D87B0)
+#define JNGHAMCELFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE8140)
 
-inline static constexpr unsigned int JNGHAMCELFP_TypeDefinitionIndex = 36459;
+inline static constexpr unsigned int JNGHAMCELFP_TypeDefinitionIndex = 37387;
 
 	class JNGHAMCELFP : public ::System::Object
 	{

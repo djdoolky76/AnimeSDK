@@ -7,22 +7,22 @@ namespace RPG::Client { class GridFightBonusSrcInfo; }
 namespace RPG::Client { class GridFightGameModifier; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0C8A10)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_ADDROLEPOSINDEXES_OFFSET UNITYSDK_OFFSET(0xD0C8770)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0xD0C8920)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_FLYSTARTROLEUNIQUEID_OFFSET UNITYSDK_OFFSET(0xD0C8970)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C728ED0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_ADDROLEPOSINDEXES_OFFSET UNITYSDK_OFFSET(0x1C728C30)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C728DE0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_FLYSTARTROLEUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1C728E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentEffectData_TypeDefinitionIndex = 64386;
+	inline static constexpr unsigned int GridFightAugmentEffectData_TypeDefinitionIndex = 65833;
 
 	class GridFightAugmentEffectData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* RemovedRolePosIndexes; // 0x10
-		::RPG::Client::GridFightBonusResultData* Bonus; // 0x18
+		::RPG::Client::GridFightGameModifier* Modifier; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* RemovedRolePosIndexes; // 0x18
 		::RPG::Client::GridFightBonusSrcInfo* SrcInfo; // 0x20
-		::RPG::Client::GridFightGameModifier* Modifier; // 0x28
+		::RPG::Client::GridFightBonusResultData* Bonus; // 0x28
 		::System::Int32 GlobalHPDelta; // 0x30
 		::System::Void _ctor(::System::UInt32 a1)
 		{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define JENIFGNJEPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1662DE80)
+#define JENIFGNJEPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1305C580)
 
-inline static constexpr unsigned int JENIFGNJEPE_TypeDefinitionIndex = 58994;
+inline static constexpr unsigned int JENIFGNJEPE_TypeDefinitionIndex = 60267;
 
 	class JENIFGNJEPE : public ::System::Object
 	{

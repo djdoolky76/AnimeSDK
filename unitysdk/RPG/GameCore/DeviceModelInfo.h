@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DeviceModelInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEVICEMODELINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D0CD0)
-#define RPG_GAMECORE_DEVICEMODELINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D0B80)
+#define RPG_GAMECORE_DEVICEMODELINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F00B370)
+#define RPG_GAMECORE_DEVICEMODELINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F00B220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceModelInfo_TypeDefinitionIndex = 18269;
+	inline static constexpr unsigned int DeviceModelInfo_TypeDefinitionIndex = 18431;
 
 	class DeviceModelInfo : public ::RPG::GameCore::JsonConfig
 	{

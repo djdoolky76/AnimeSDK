@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GLJPGHPIGCB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE37150)
-#define GLJPGHPIGCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE37720)
-#define GLJPGHPIGCB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE372C0)
-#define GLJPGHPIGCB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE36BA0)
-#define GLJPGHPIGCB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE36E30)
-#define GLJPGHPIGCB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE37360)
-#define GLJPGHPIGCB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE373B0)
-#define GLJPGHPIGCB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE37190)
-#define GLJPGHPIGCB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE36DD0)
-#define GLJPGHPIGCB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE36FA0)
-#define GLJPGHPIGCB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE37220)
-#define GLJPGHPIGCB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE36B20)
+#define GLJPGHPIGCB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E657FE0)
+#define GLJPGHPIGCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6585B0)
+#define GLJPGHPIGCB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E658150)
+#define GLJPGHPIGCB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E657A30)
+#define GLJPGHPIGCB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E657CC0)
+#define GLJPGHPIGCB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E6581F0)
+#define GLJPGHPIGCB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E658240)
+#define GLJPGHPIGCB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E658020)
+#define GLJPGHPIGCB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E657C60)
+#define GLJPGHPIGCB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E657E30)
+#define GLJPGHPIGCB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E6580B0)
+#define GLJPGHPIGCB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E6579B0)
 
-inline static constexpr unsigned int GLJPGHPIGCB_TypeDefinitionIndex = 12671;
+inline static constexpr unsigned int GLJPGHPIGCB_TypeDefinitionIndex = 12738;
 
 	class GLJPGHPIGCB : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x17390);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x113B0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::ECMHCCJOCKC*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::ECMHCCJOCKC*>**)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x17398);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::ECMHCCJOCKC*>**)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x113B8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x173A0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x4F00);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x113C0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x4F01);
+			return (::System::Boolean*)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x3860);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "GLJPGHPIGCB")->GetStaticField(0x3861);
 		}
 
 		static ::System::Void _cctor()

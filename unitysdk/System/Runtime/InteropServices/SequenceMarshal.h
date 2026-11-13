@@ -4,11 +4,11 @@
 #include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_SEQUENCEMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x1EE18A80)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_SEQUENCEMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x207860C0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int SequenceMarshal_TypeDefinitionIndex = 4990;
+	inline static constexpr unsigned int SequenceMarshal_TypeDefinitionIndex = 4995;
 
 	class SequenceMarshal : public ::System::Object
 	{

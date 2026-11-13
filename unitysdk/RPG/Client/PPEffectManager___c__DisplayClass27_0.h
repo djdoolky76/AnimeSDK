@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class APFPHAGPMAJ;
+namespace RPG::GameCore { class GameEntity; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_PPEFFECTMANAGER___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF13DD0)
+#define RPG_CLIENT_PPEFFECTMANAGER___C__DISPLAYCLASS27_0__REFRESHAVATARINTENSITY_B__0_OFFSET UNITYSDK_OFFSET(0x1BF19BE0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PPEffectManager___c__DisplayClass27_0_TypeDefinitionIndex = 71731;
+
+	class PPEffectManager___c__DisplayClass27_0 : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* pTargetList; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PPEFFECTMANAGER___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _RefreshAvatarIntensity_b__0(::APFPHAGPMAJ* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::APFPHAGPMAJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PPEFFECTMANAGER___C__DISPLAYCLASS27_0__REFRESHAVATARINTENSITY_B__0_OFFSET))(this, a1);
+		}
+
+	};
+}

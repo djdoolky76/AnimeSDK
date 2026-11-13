@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtBySkillCanUse; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDAMHDNGKAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB33F490)
-#define KDAMHDNGKAE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB33F4C0)
+#define KDAMHDNGKAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A492450)
+#define KDAMHDNGKAE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A492480)
 
-inline static constexpr unsigned int KDAMHDNGKAE_TypeDefinitionIndex = 53926;
+inline static constexpr unsigned int KDAMHDNGKAE_TypeDefinitionIndex = 55090;
 
 	class KDAMHDNGKAE
 	{

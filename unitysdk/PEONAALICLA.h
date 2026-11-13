@@ -3,9 +3,9 @@
 #include "unitysdk/PEONAALICLA_FilterUsage.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PEONAALICLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AA4D0)
+#define PEONAALICLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E715CC0)
 
-inline static constexpr unsigned int PEONAALICLA_TypeDefinitionIndex = 24986;
+inline static constexpr unsigned int PEONAALICLA_TypeDefinitionIndex = 25466;
 
 	class PEONAALICLA : public ::System::Attribute
 	{

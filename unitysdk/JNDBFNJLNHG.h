@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define JNDBFNJLNHG_CTOR_OFFSET UNITYSDK_OFFSET(0xB273560)
-#define JNDBFNJLNHG_PGJGDNBDHIL_OFFSET UNITYSDK_OFFSET(0xB2735C0)
-#define JNDBFNJLNHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB273660)
+#define JNDBFNJLNHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C29F0)
+#define JNDBFNJLNHG_PGJGDNBDHIL_OFFSET UNITYSDK_OFFSET(0x1A0C2A50)
+#define JNDBFNJLNHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A0C2AF0)
 
-inline static constexpr unsigned int JNDBFNJLNHG_TypeDefinitionIndex = 70178;
+inline static constexpr unsigned int JNDBFNJLNHG_TypeDefinitionIndex = 72144;
 
 	class JNDBFNJLNHG : public ::System::Object
 	{

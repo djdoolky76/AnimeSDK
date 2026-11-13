@@ -3,9 +3,9 @@
 #include "unitysdk/NCEBAMHOOJM.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CABIEOJNNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C59A7E0)
+#define CABIEOJNNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x170368D0)
 
-inline static constexpr unsigned int CABIEOJNNIM_TypeDefinitionIndex = 37158;
+inline static constexpr unsigned int CABIEOJNNIM_TypeDefinitionIndex = 38086;
 
 	class CABIEOJNNIM : public ::NCEBAMHOOJM
 	{

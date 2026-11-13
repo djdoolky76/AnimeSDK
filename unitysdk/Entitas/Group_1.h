@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Entitas
 {
-	inline static constexpr unsigned int Group_1_TypeDefinitionIndex = 10027;
+	inline static constexpr unsigned int Group_1_TypeDefinitionIndex = 10035;
 
 	template <typename T>
 	class Group_1 : public ::System::Object

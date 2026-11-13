@@ -4,10 +4,10 @@
 class PHCMIJEDENP;
 namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 
-#define JOMAECLEPIB___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A2B50)
-#define JOMAECLEPIB___C__DISPLAYCLASS17_0___DETERMINEAUTOUNLOCKEDPATHPOINT_B__0_OFFSET UNITYSDK_OFFSET(0xB2A2EE0)
+#define JOMAECLEPIB___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E4CD0)
+#define JOMAECLEPIB___C__DISPLAYCLASS17_0___DETERMINEAUTOUNLOCKEDPATHPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x1B4E5060)
 
-inline static constexpr unsigned int JOMAECLEPIB___c__DisplayClass17_0_TypeDefinitionIndex = 79763;
+inline static constexpr unsigned int JOMAECLEPIB___c__DisplayClass17_0_TypeDefinitionIndex = 82540;
 
 	class JOMAECLEPIB___c__DisplayClass17_0 : public ::System::Object
 	{

@@ -7,23 +7,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SPINE_ANIMATIONSTATEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6D3C0)
-#define SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET UNITYSDK_OFFSET(0x1EC6C480)
-#define SPINE_ANIMATIONSTATEDATA_GET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1EC6D3A0)
-#define SPINE_ANIMATIONSTATEDATA_GET_SKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1EC6D390)
-#define SPINE_ANIMATIONSTATEDATA_SETMIX_1_OFFSET UNITYSDK_OFFSET(0x1EC6D670)
-#define SPINE_ANIMATIONSTATEDATA_SETMIX_OFFSET UNITYSDK_OFFSET(0x1EC6D4D0)
-#define SPINE_ANIMATIONSTATEDATA_SET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1EC6D3B0)
+#define SPINE_ANIMATIONSTATEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16CB80E0)
+#define SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET UNITYSDK_OFFSET(0x16CB7250)
+#define SPINE_ANIMATIONSTATEDATA_GET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x16CB80C0)
+#define SPINE_ANIMATIONSTATEDATA_GET_SKELETONDATA_OFFSET UNITYSDK_OFFSET(0x16CB80B0)
+#define SPINE_ANIMATIONSTATEDATA_SETMIX_1_OFFSET UNITYSDK_OFFSET(0x16CB8390)
+#define SPINE_ANIMATIONSTATEDATA_SETMIX_OFFSET UNITYSDK_OFFSET(0x16CB81F0)
+#define SPINE_ANIMATIONSTATEDATA_SET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x16CB80D0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationStateData_TypeDefinitionIndex = 39638;
+	inline static constexpr unsigned int AnimationStateData_TypeDefinitionIndex = 40567;
 
 	class AnimationStateData : public ::System::Object
 	{
 	public:
-		::Spine::SkeletonData* skeletonData; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Single>* animationToMixTime; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Single>* animationToMixTime; // 0x10
+		::Spine::SkeletonData* skeletonData; // 0x18
 		::System::Single defaultMix; // 0x20
 		::System::Void _ctor(::Spine::SkeletonData* a1)
 		{

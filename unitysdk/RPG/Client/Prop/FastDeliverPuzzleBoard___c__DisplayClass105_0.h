@@ -4,18 +4,18 @@
 namespace RPG::Client::Prop { class FastDeliverPuzzleBoard; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCA2F10)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0__TICKPUZZLE_B__0_OFFSET UNITYSDK_OFFSET(0xDCA5400)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A518B70)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0__TICKPUZZLE_B__0_OFFSET UNITYSDK_OFFSET(0x1A51B680)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass105_0_TypeDefinitionIndex = 78581;
+	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass105_0_TypeDefinitionIndex = 81316;
 
 	class FastDeliverPuzzleBoard___c__DisplayClass105_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Camera* camera; // 0x10
-		::RPG::Client::Prop::FastDeliverPuzzleBoard* __4__this; // 0x18
+		::RPG::Client::Prop::FastDeliverPuzzleBoard* __4__this; // 0x10
+		::UnityEngine::Camera* camera; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0_CTOR_OFFSET))(this);

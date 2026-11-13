@@ -6,12 +6,12 @@ namespace RPG::GameCore { class PropSoundAttenuation; }
 namespace RPG::GameCore { class PropSoundConfigOverrideConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSOUNDCONFIGOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92A470)
-#define RPG_GAMECORE_PROPSOUNDCONFIGOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92A340)
+#define RPG_GAMECORE_PROPSOUNDCONFIGOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF93A70)
+#define RPG_GAMECORE_PROPSOUNDCONFIGOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF93940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSoundConfigOverrideConfig_TypeDefinitionIndex = 17559;
+	inline static constexpr unsigned int PropSoundConfigOverrideConfig_TypeDefinitionIndex = 17727;
 
 	class PropSoundConfigOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

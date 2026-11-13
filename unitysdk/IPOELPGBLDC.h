@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define IPOELPGBLDC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C6E0)
+#define IPOELPGBLDC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC49530)
 
-inline static constexpr unsigned int IPOELPGBLDC_TypeDefinitionIndex = 42802;
+inline static constexpr unsigned int IPOELPGBLDC_TypeDefinitionIndex = 43782;
 
 	class IPOELPGBLDC : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPOELPGBLDC")->GetStaticField(0x26060);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPOELPGBLDC")->GetStaticField(0x140E0);
 		}
 
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "IPOELPGBLDC")->GetStaticField(0x26068);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "IPOELPGBLDC")->GetStaticField(0x140E8);
 		}
 
 		// static const ::System::Object DHFEBPAFDIF; // 0x0

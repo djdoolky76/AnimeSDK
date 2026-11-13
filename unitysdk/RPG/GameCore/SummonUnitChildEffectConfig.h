@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SummonUnitChildEffectConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0E490)
-#define RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0E090)
+#define RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67DFC0)
+#define RPG_GAMECORE_SUMMONUNITCHILDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E67DD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitChildEffectConfig_TypeDefinitionIndex = 21058;
+	inline static constexpr unsigned int SummonUnitChildEffectConfig_TypeDefinitionIndex = 21396;
 
 	class SummonUnitChildEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

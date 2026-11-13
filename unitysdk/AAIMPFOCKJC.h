@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AAIMPFOCKJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8495F0)
+#define AAIMPFOCKJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84D880)
 
-inline static constexpr unsigned int AAIMPFOCKJC_TypeDefinitionIndex = 42336;
+inline static constexpr unsigned int AAIMPFOCKJC_TypeDefinitionIndex = 43311;
 
 	class AAIMPFOCKJC : public ::System::Object
 	{

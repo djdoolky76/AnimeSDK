@@ -7,18 +7,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeliobusPostTypeConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HELIOBUSPOSTTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D735C20)
-#define RPG_GAMECORE_HELIOBUSPOSTTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D735550)
+#define RPG_GAMECORE_HELIOBUSPOSTTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA84E20)
+#define RPG_GAMECORE_HELIOBUSPOSTTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA84750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusPostTypeConfigRow_TypeDefinitionIndex = 13755;
+	inline static constexpr unsigned int HeliobusPostTypeConfigRow_TypeDefinitionIndex = 13912;
 
 	class HeliobusPostTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* PostTypeIconPathUnselected; // 0x10
-		::System::String* PostTypeIconPath; // 0x18
+		::System::String* PostTypeIconPath; // 0x10
+		::System::String* PostTypeIconPathUnselected; // 0x18
 		::RPG::GameCore::HeliobusPostType PostType; // 0x20
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID PostTypeName; // 0x28

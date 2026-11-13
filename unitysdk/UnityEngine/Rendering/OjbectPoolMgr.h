@@ -4,19 +4,19 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class IObjPool; }
 
-#define UNITYENGINE_RENDERING_OJBECTPOOLMGR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F298760)
-#define UNITYENGINE_RENDERING_OJBECTPOOLMGR_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F298520)
+#define UNITYENGINE_RENDERING_OJBECTPOOLMGR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4C68C0)
+#define UNITYENGINE_RENDERING_OJBECTPOOLMGR_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E4C6680)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int OjbectPoolMgr_TypeDefinitionIndex = 35505;
+	inline static constexpr unsigned int OjbectPoolMgr_TypeDefinitionIndex = 36433;
 
 	class OjbectPoolMgr : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IObjPool*>** StaticGet_s_AllPool()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::IObjPool*>**)UnitySDK::FromName("UnityEngine.Rendering", "OjbectPoolMgr")->GetStaticField(0x5B260);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::IObjPool*>**)UnitySDK::FromName("UnityEngine.Rendering", "OjbectPoolMgr")->GetStaticField(0x61370);
 		}
 
 		static ::System::Void _cctor()

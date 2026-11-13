@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EmojiIconInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EMOJIICONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D610180)
-#define RPG_GAMECORE_EMOJIICONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6100B0)
+#define RPG_GAMECORE_EMOJIICONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E6BC0)
+#define RPG_GAMECORE_EMOJIICONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0E6AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmojiIconInfo_TypeDefinitionIndex = 20408;
+	inline static constexpr unsigned int EmojiIconInfo_TypeDefinitionIndex = 20743;
 
 	class EmojiIconInfo : public ::RPG::GameCore::JsonConfig
 	{

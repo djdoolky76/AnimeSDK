@@ -5,17 +5,17 @@
 class FPNHGPEICOG;
 namespace System { class Object; }
 
-#define KLILIMIBADI_CCTOR_OFFSET UNITYSDK_OFFSET(0xB524990)
-#define KLILIMIBADI_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xB524470)
+#define KLILIMIBADI_CCTOR_OFFSET UNITYSDK_OFFSET(0x17B81CB0)
+#define KLILIMIBADI_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0x17B81790)
 
-inline static constexpr unsigned int KLILIMIBADI_TypeDefinitionIndex = 53678;
+inline static constexpr unsigned int KLILIMIBADI_TypeDefinitionIndex = 54842;
 
 	class KLILIMIBADI : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_DAEHJGBBOFI()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "KLILIMIBADI")->GetStaticField(0x5A600);
+			return (::System::Object**)UnitySDK::FromName("", "KLILIMIBADI")->GetStaticField(0x66C20);
 		}
 
 		static ::System::Void _cctor()

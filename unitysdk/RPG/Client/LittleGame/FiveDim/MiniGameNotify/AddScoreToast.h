@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_ADDSCORETOAST_CTOR_OFFSET UNITYSDK_OFFSET(0xD44D580)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_ADDSCORETOAST_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A4520)
 
 namespace RPG::Client::LittleGame::FiveDim::MiniGameNotify
 {
-	inline static constexpr unsigned int AddScoreToast_TypeDefinitionIndex = 77245;
+	inline static constexpr unsigned int AddScoreToast_TypeDefinitionIndex = 79579;
 
 	class AddScoreToast : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 WorldPos; // 0x10
-		::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreType ScoreType; // 0x1C
-		::System::Int32 AddScore; // 0x20
+		::System::Int32 AddScore; // 0x10
+		::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreType ScoreType; // 0x14
+		::UnityEngine::Vector3 WorldPos; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_ADDSCORETOAST_CTOR_OFFSET))(this);

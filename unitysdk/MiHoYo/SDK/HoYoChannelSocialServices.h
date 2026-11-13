@@ -14,79 +14,79 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_BLOCKLIST_OFFSET UNITYSDK_OFFSET(0xAF9BFA0)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF9D020)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0xAF957F0)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_CLEARSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF92D70)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_CTOR_OFFSET UNITYSDK_OFFSET(0xAF89A40)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_FRIENDLIST_OFFSET UNITYSDK_OFFSET(0xAF9B8F0)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_ONBLOCKLISTCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9AF10)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_ONFRIENDLISTCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9AAC0)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_ONSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9B7B0)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_ONUSERPROFILECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9B360)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_REGISTERSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF9CD00)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_USERPROFILE_OFFSET UNITYSDK_OFFSET(0xAF9C650)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_BLOCKLIST_OFFSET UNITYSDK_OFFSET(0x1AB3E000)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB3F080)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1AB37830)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_CLEARSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB34D70)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB2B9D0)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_FRIENDLIST_OFFSET UNITYSDK_OFFSET(0x1AB3D950)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_ONBLOCKLISTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3CF70)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_ONFRIENDLISTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3CB20)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_ONSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3D810)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_ONUSERPROFILECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3D3C0)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_REGISTERSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3ED60)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES_USERPROFILE_OFFSET UNITYSDK_OFFSET(0x1AB3E6B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSocialServices_TypeDefinitionIndex = 46550;
+	inline static constexpr unsigned int HoYoChannelSocialServices_TypeDefinitionIndex = 47578;
 
 	class HoYoChannelSocialServices : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelBlockListResult*>*>** StaticGet_s_blockListCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelBlockListResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23830);
-		}
-
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelSocialUpdateResult*>** StaticGet_s_socialUpdateCallback()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelSocialUpdateResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23838);
-		}
-
 		static ::System::Object** StaticGet_s_blockListLock()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23840);
-		}
-
-		static ::System::Object** StaticGet_s_userProfileLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23848);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_blockListTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23850);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A950);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelUserProfileResult*>*>** StaticGet_s_userProfileCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelUserProfileResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23858);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_userProfileTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23860);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_friendListTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23868);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelFriendListResult*>*>** StaticGet_s_friendListCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelFriendListResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23870);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelUserProfileResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A958);
 		}
 
 		static ::System::Object** StaticGet_s_friendListLock()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x23878);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A960);
+		}
+
+		static ::System::Object** StaticGet_s_userProfileLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A968);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelBlockListResult*>*>** StaticGet_s_blockListCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelBlockListResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A970);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelSocialUpdateResult*>** StaticGet_s_socialUpdateCallback()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelSocialUpdateResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A978);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_friendListTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A980);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_blockListTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A988);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelFriendListResult*>*>** StaticGet_s_friendListCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelFriendListResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A990);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_userProfileTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x1A998);
 		}
 
 		static ::System::Boolean* StaticGet_s_socialUpdateRegistered()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x7B30);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelSocialServices")->GetStaticField(0x5ED0);
 		}
 
 		// static const ::System::Object FRIEND_LIST_TIMEOUT_SECONDS; // 0x0

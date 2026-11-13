@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int GMJDFLDBAJE_TypeDefinitionIndex = 6245;
+inline static constexpr unsigned int GMJDFLDBAJE_TypeDefinitionIndex = 6252;
 
 	struct alignas(4) GMJDFLDBAJE
 	{

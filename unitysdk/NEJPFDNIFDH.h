@@ -10,29 +10,30 @@ namespace RPG::GameCore { class MoveToTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Animator; }
 
-#define NEJPFDNIFDH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB61FB0)
-#define NEJPFDNIFDH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB62050)
-#define NEJPFDNIFDH_FAELOPANPPM_OFFSET UNITYSDK_OFFSET(0xBB62910)
-#define NEJPFDNIFDH_KDPKEBNOKKC_OFFSET UNITYSDK_OFFSET(0xBB626D0)
-#define NEJPFDNIFDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB620A0)
-#define NEJPFDNIFDH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB62D10)
-#define NEJPFDNIFDH_TICK_OFFSET UNITYSDK_OFFSET(0xBB62DA0)
+#define NEJPFDNIFDH_CTOR_OFFSET UNITYSDK_OFFSET(0x16FE18E0)
+#define NEJPFDNIFDH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16FE1980)
+#define NEJPFDNIFDH_FAELOPANPPM_OFFSET UNITYSDK_OFFSET(0x16FE2240)
+#define NEJPFDNIFDH_KDPKEBNOKKC_OFFSET UNITYSDK_OFFSET(0x16FE2000)
+#define NEJPFDNIFDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FE19D0)
+#define NEJPFDNIFDH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16FE2640)
+#define NEJPFDNIFDH_TICK_OFFSET UNITYSDK_OFFSET(0x16FE26D0)
 
-inline static constexpr unsigned int NEJPFDNIFDH_TypeDefinitionIndex = 55228;
+inline static constexpr unsigned int NEJPFDNIFDH_TypeDefinitionIndex = 56409;
 
 	class NEJPFDNIFDH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::MoveToTargetList* OFKGLJOAMLD; // 0x20
-		::BGOBCKLPEMK* JDNLKGBPHDC; // 0x28
+		::BGOBCKLPEMK* JDNLKGBPHDC; // 0x18
+		::UnityEngine::Animator* JDFCDMAPBFJ; // 0x20
+		::CFFPEAALCPH* NCABPAPLJCI; // 0x28
 		::ONLHJAEPLBB EJPILIBEFCB; // 0x30
-		::CFFPEAALCPH* NCABPAPLJCI; // 0x40
-		::UnityEngine::Animator* JDFCDMAPBFJ; // 0x48
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x40
+		::RPG::GameCore::MoveToTargetList* OFKGLJOAMLD; // 0x48
 		::System::Int32 APNGJPMPMOB; // 0x50
-		::System::Single NPPEEEAECNJ; // 0x54
-		::System::Boolean HHCFIHBHPLB; // 0x58
-		::System::Boolean PFMNLFEOAGO; // 0x59
+		::System::Boolean PFMNLFEOAGO; // 0x54
+		::System::Boolean HHCFIHBHPLB; // 0x55
+		::System::Byte _padding0[0x2];
+		::System::Single NPPEEEAECNJ; // 0x58
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MoveToTargetList* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MoveToTargetList*))((::PBYTE)hIl2Cpp + NEJPFDNIFDH_CTOR_OFFSET))(this, a1, a2);

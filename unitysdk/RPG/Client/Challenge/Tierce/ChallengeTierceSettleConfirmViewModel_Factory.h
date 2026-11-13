@@ -6,12 +6,12 @@ class JBKNCCIENIP;
 class PIMCPBPFGMB_CJHAABBOLCF;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSettleConfirmViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC94D230)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC94D220)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1DDEA9D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEA9C0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceSettleConfirmViewModel_Factory_TypeDefinitionIndex = 81618;
+	inline static constexpr unsigned int ChallengeTierceSettleConfirmViewModel_Factory_TypeDefinitionIndex = 84399;
 
 	class ChallengeTierceSettleConfirmViewModel_Factory : public ::System::Object
 	{

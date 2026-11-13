@@ -4,20 +4,20 @@
 namespace Proto { class MonopolyActionResult; }
 namespace System { class Object; }
 
-#define PROTO_MONOPOLYACTIONRESULT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD93C0)
-#define PROTO_MONOPOLYACTIONRESULT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD9400)
-#define PROTO_MONOPOLYACTIONRESULT___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1DFD9410)
+#define PROTO_MONOPOLYACTIONRESULT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20211D80)
+#define PROTO_MONOPOLYACTIONRESULT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20211DC0)
+#define PROTO_MONOPOLYACTIONRESULT___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x20211DD0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MonopolyActionResult___c_TypeDefinitionIndex = 31094;
+	inline static constexpr unsigned int MonopolyActionResult___c_TypeDefinitionIndex = 32007;
 
 	class MonopolyActionResult___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4D240);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x52FF0);
 		}
 
 		static ::System::Void _cctor()

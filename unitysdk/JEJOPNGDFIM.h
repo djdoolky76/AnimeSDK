@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePropPuzzleCreated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JEJOPNGDFIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1661F640)
-#define JEJOPNGDFIM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1661F670)
+#define JEJOPNGDFIM_CTOR_OFFSET UNITYSDK_OFFSET(0x13074460)
+#define JEJOPNGDFIM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13074490)
 
-inline static constexpr unsigned int JEJOPNGDFIM_TypeDefinitionIndex = 53134;
+inline static constexpr unsigned int JEJOPNGDFIM_TypeDefinitionIndex = 54296;
 
 	class JEJOPNGDFIM
 	{

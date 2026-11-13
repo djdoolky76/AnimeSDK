@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CKHEMPGDADJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD7553D0)
+#define CKHEMPGDADJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD3DC00)
 
-inline static constexpr unsigned int CKHEMPGDADJ_TypeDefinitionIndex = 60933;
+inline static constexpr unsigned int CKHEMPGDADJ_TypeDefinitionIndex = 62309;
 
 	class CKHEMPGDADJ : public ::System::Object
 	{

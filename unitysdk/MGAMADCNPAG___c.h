@@ -4,18 +4,18 @@
 class MGAMADCNPAG;
 namespace System { class Object; }
 
-#define MGAMADCNPAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9EECD0)
-#define MGAMADCNPAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EED10)
-#define MGAMADCNPAG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E9EED20)
+#define MGAMADCNPAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB19C40)
+#define MGAMADCNPAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB19C80)
+#define MGAMADCNPAG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FB19C90)
 
-inline static constexpr unsigned int MGAMADCNPAG___c_TypeDefinitionIndex = 32345;
+inline static constexpr unsigned int MGAMADCNPAG___c_TypeDefinitionIndex = 33258;
 
 	class MGAMADCNPAG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4F140);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x502F0);
 		}
 
 		static ::System::Void _cctor()

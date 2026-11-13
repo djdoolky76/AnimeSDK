@@ -3,10 +3,10 @@
 class IEOBOMONJKG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EPMBODCCJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x155CD080)
-#define EPMBODCCJEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155CD0B0)
+#define EPMBODCCJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x16B3C060)
+#define EPMBODCCJEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B3C090)
 
-inline static constexpr unsigned int EPMBODCCJEB_TypeDefinitionIndex = 52838;
+inline static constexpr unsigned int EPMBODCCJEB_TypeDefinitionIndex = 53991;
 
 	class EPMBODCCJEB
 	{

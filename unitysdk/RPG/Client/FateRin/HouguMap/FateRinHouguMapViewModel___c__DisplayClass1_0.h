@@ -5,12 +5,12 @@
 namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapViewModel; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA14D0)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS1_0__ASYNCINITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0xCFA21E0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CD5C0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS1_0__ASYNCINITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1E0CE2A0)
 
 namespace RPG::Client::FateRin::HouguMap
 {
-	inline static constexpr unsigned int FateRinHouguMapViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 80766;
+	inline static constexpr unsigned int FateRinHouguMapViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 83546;
 
 	class FateRinHouguMapViewModel___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ClockParkUnlockScript; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCLLIMILFPG_CTOR_OFFSET UNITYSDK_OFFSET(0xB336D70)
-#define KCLLIMILFPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB336D80)
-#define KCLLIMILFPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB336E20)
-#define KCLLIMILFPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB336E70)
-#define KCLLIMILFPG_TICK_OFFSET UNITYSDK_OFFSET(0xB336DC0)
+#define KCLLIMILFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A48A040)
+#define KCLLIMILFPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A48A050)
+#define KCLLIMILFPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A48A0F0)
+#define KCLLIMILFPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A48A140)
+#define KCLLIMILFPG_TICK_OFFSET UNITYSDK_OFFSET(0x1A48A090)
 
-inline static constexpr unsigned int KCLLIMILFPG_TypeDefinitionIndex = 52697;
+inline static constexpr unsigned int KCLLIMILFPG_TypeDefinitionIndex = 53804;
 
 	class KCLLIMILFPG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ClockParkUnlockScript* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::ClockParkUnlockScript* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ClockParkUnlockScript* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ClockParkUnlockScript*))((::PBYTE)hIl2Cpp + KCLLIMILFPG_CTOR_OFFSET))(this, a1, a2);

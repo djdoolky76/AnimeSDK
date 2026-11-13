@@ -8,31 +8,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC958770)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9587B0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL___C__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__55_1_OFFSET UNITYSDK_OFFSET(0xC9587C0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL___C___ONBINDVIEWMODEL_B__65_13_OFFSET UNITYSDK_OFFSET(0xC958930)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDF5300)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF5340)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL___C__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__55_1_OFFSET UNITYSDK_OFFSET(0x1DDF5350)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL___C___ONBINDVIEWMODEL_B__65_13_OFFSET UNITYSDK_OFFSET(0x1DDF54C0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectStoryControl___c_TypeDefinitionIndex = 81554;
+	inline static constexpr unsigned int ChallengeTierceStageSelectStoryControl___c_TypeDefinitionIndex = 84335;
 
 	class ChallengeTierceStageSelectStoryControl___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>** StaticGet___9__65_13()
+		{
+			return (::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x70520);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6A500);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x70528);
 		}
 
 		static ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_IHPLNNCOIMK** StaticGet___9__55_1()
 		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_IHPLNNCOIMK**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6A508);
-		}
-
-		static ::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>** StaticGet___9__65_13()
-		{
-			return (::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6A510);
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_IHPLNNCOIMK**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x70530);
 		}
 
 		static ::System::Void _cctor()

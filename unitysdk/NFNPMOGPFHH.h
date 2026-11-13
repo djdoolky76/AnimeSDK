@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int NFNPMOGPFHH_TypeDefinitionIndex = 49835;
+inline static constexpr unsigned int NFNPMOGPFHH_TypeDefinitionIndex = 50883;
 
 	class NFNPMOGPFHH : public ::System::Object
 	{

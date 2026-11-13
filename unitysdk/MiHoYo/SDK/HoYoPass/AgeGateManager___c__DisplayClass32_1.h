@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS32_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE22B40)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS32_1__SHOWAGEGATEBIRTHDAYDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x1BE22CC0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS32_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1B66AD10)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS32_1__SHOWAGEGATEBIRTHDAYDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x1B66AE90)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass32_1_TypeDefinitionIndex = 8268;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass32_1_TypeDefinitionIndex = 8277;
 
 	template <typename T>
 	class AgeGateManager___c__DisplayClass32_1 : public ::System::Object

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimelineStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMELINESTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5C530)
-#define RPG_GAMECORE_TIMELINESTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5C390)
+#define RPG_GAMECORE_TIMELINESTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D0CE0)
+#define RPG_GAMECORE_TIMELINESTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D0B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimelineStateConfig_TypeDefinitionIndex = 16609;
+	inline static constexpr unsigned int TimelineStateConfig_TypeDefinitionIndex = 16775;
 
 	class TimelineStateConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int IBlindBoxTradePlayerInfo_TypeDefinitionIndex = 74884;
+	inline static constexpr unsigned int IBlindBoxTradePlayerInfo_TypeDefinitionIndex = 77211;
 
 	class IBlindBoxTradePlayerInfo
 	{

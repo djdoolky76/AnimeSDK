@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SimpleTalkTargetBehavior; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SIMPLETALKTARGETBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABCC90)
-#define RPG_GAMECORE_SIMPLETALKTARGETBEHAVIOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABCB60)
+#define RPG_GAMECORE_SIMPLETALKTARGETBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F5CC0)
+#define RPG_GAMECORE_SIMPLETALKTARGETBEHAVIOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3F5B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleTalkTargetBehavior_TypeDefinitionIndex = 21122;
+	inline static constexpr unsigned int SimpleTalkTargetBehavior_TypeDefinitionIndex = 21463;
 
 	class SimpleTalkTargetBehavior : public ::RPG::GameCore::JsonConfig
 	{

@@ -17,23 +17,23 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftProductUI3DViewMode
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NDLFFEBFPAA_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xBB479A0)
-#define NDLFFEBFPAA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBB462E0)
-#define NDLFFEBFPAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB45C50)
-#define NDLFFEBFPAA_KAGFKKKENNB_OFFSET UNITYSDK_OFFSET(0xBB46430)
+#define NDLFFEBFPAA_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x16FC69E0)
+#define NDLFFEBFPAA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16FC5320)
+#define NDLFFEBFPAA_CTOR_OFFSET UNITYSDK_OFFSET(0x16FC4C90)
+#define NDLFFEBFPAA_KAGFKKKENNB_OFFSET UNITYSDK_OFFSET(0x16FC5470)
 
-inline static constexpr unsigned int NDLFFEBFPAA_TypeDefinitionIndex = 79755;
+inline static constexpr unsigned int NDLFFEBFPAA_TypeDefinitionIndex = 82532;
 
 	class NDLFFEBFPAA : public ::System::Object
 	{
 	public:
-		::GHLLLMOJHBN* HPKAMOIPAKN; // 0x10
-		::OBJANKHLNGO* GJALMBBNNOF; // 0x18
-		::FNHHCDAKILF* JIFFPCDGGID; // 0x20
-		::PGKCICIKLMB* MHMMAHBDOHD; // 0x28
+		::MPHJECLHDKJ* IDJNMDGBKKI; // 0x10
+		::GHLLLMOJHBN* HPKAMOIPAKN; // 0x18
+		::PGKCICIKLMB* MHMMAHBDOHD; // 0x20
+		::OBJANKHLNGO* GJALMBBNNOF; // 0x28
 		::NDCLBAKBEIP* AFKPGPDBMKH; // 0x30
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Collections::Generic::List_1<::RPG::Client::MechCraft::MechCraftPartType>*>* BCFJCDDJJLE; // 0x38
-		::MPHJECLHDKJ* IDJNMDGBKKI; // 0x40
+		::FNHHCDAKILF* JIFFPCDGGID; // 0x38
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Collections::Generic::List_1<::RPG::Client::MechCraft::MechCraftPartType>*>* BCFJCDDJJLE; // 0x40
 		// static const ::System::Object FJAMFAGLBNL; // 0x0
 		// static const ::System::Object DDMIIEDCDNJ; // 0x0
 		::System::Void _ctor(::GHLLLMOJHBN* a1, ::NDCLBAKBEIP* a2, ::PGKCICIKLMB* a3, ::OBJANKHLNGO* a4, ::MPHJECLHDKJ* a5, ::FNHHCDAKILF* a6)

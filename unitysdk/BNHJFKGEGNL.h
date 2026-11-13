@@ -8,26 +8,26 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define BNHJFKGEGNL_CTOR_OFFSET UNITYSDK_OFFSET(0xBDD6550)
-#define BNHJFKGEGNL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBDD6810)
-#define BNHJFKGEGNL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBDD6750)
-#define BNHJFKGEGNL_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0xBDD67B0)
-#define BNHJFKGEGNL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBDD6590)
+#define BNHJFKGEGNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A76D300)
+#define BNHJFKGEGNL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1A76D5C0)
+#define BNHJFKGEGNL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1A76D500)
+#define BNHJFKGEGNL_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x1A76D560)
+#define BNHJFKGEGNL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1A76D340)
 
-inline static constexpr unsigned int BNHJFKGEGNL_TypeDefinitionIndex = 79089;
+inline static constexpr unsigned int BNHJFKGEGNL_TypeDefinitionIndex = 81865;
 
 	class BNHJFKGEGNL : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* GKNBCPMJHMN; // 0x10
-		::System::String* OINCGJJMAEF; // 0x18
+		::JEHEMLENCIE* OLNEEDIAGBF; // 0x10
+		::UnityEngine::Transform* GKNBCPMJHMN; // 0x18
 		::UnityEngine::GameObject* LBNBPMIFDHI; // 0x20
-		::JEHEMLENCIE* OLNEEDIAGBF; // 0x28
-		::System::Single NNIIGDIAEED; // 0x30
-		::System::Boolean IHJGGKCKGKH; // 0x34
-		::System::Boolean JAGGOIIDFJE; // 0x35
+		::System::String* OINCGJJMAEF; // 0x28
+		::System::Single BPAIDCADMDO; // 0x30
+		::System::Boolean JAGGOIIDFJE; // 0x34
+		::System::Boolean IHJGGKCKGKH; // 0x35
 		::System::Byte _padding0[0x2];
-		::System::Single BPAIDCADMDO; // 0x38
+		::System::Single NNIIGDIAEED; // 0x38
 		::UnityEngine::Vector3 MIFKHBDOGLN; // 0x3C
 		::System::Void _ctor(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::UnityEngine::Transform* a4, ::System::Boolean a5, ::System::Boolean a6)
 		{

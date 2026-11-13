@@ -5,23 +5,23 @@ class MonoUIAdaptConfigItem;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PMBBBEJALPK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC30CAC0)
-#define PMBBBEJALPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC30CAF0)
-#define PMBBBEJALPK___C___LOADROOTADAPTOPERATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0xC30CB00)
+#define PMBBBEJALPK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x188995B0)
+#define PMBBBEJALPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x188995E0)
+#define PMBBBEJALPK___C___LOADROOTADAPTOPERATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0x188995F0)
 
-inline static constexpr unsigned int PMBBBEJALPK___c_TypeDefinitionIndex = 73033;
+inline static constexpr unsigned int PMBBBEJALPK___c_TypeDefinitionIndex = 75147;
 
 	class PMBBBEJALPK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70040);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73CB0);
 		}
 
 		static ::System::Func_2<::MonoUIAdaptConfigItem*, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::MonoUIAdaptConfigItem*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70048);
+			return (::System::Func_2<::MonoUIAdaptConfigItem*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73CB8);
 		}
 
 		static ::System::Void _cctor()

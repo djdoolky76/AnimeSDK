@@ -7,14 +7,14 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureModifierConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x1D39C4A0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39B4C0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D39B500)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D39B460)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x1E8FD830)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FC800)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1E8FC840)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E8FC7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierConfig_TypeDefinitionIndex = 17502;
+	inline static constexpr unsigned int AdventureModifierConfig_TypeDefinitionIndex = 17670;
 
 	class AdventureModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
@@ -59,6 +59,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterBuffFullUpdate; // 0x138
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAcceptMoney; // 0x140
 		::RPG::GameCore::MazeBuffType MazeBuffType; // 0x148
+		::System::Byte _padding1[0x4];
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnCustomEvent; // 0x150
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CTOR_OFFSET))(this);

@@ -9,36 +9,36 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define PHODDAGHLFG_ALHMBNKFGFA_OFFSET UNITYSDK_OFFSET(0xC2501A0)
-#define PHODDAGHLFG_CLEAR_OFFSET UNITYSDK_OFFSET(0xC24FD40)
-#define PHODDAGHLFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC24F040)
-#define PHODDAGHLFG_DAFOJFMJKCC_OFFSET UNITYSDK_OFFSET(0xC2503B0)
-#define PHODDAGHLFG_DCJMBDMJCPF_OFFSET UNITYSDK_OFFSET(0xC2500F0)
-#define PHODDAGHLFG_DELMGOPPBGL_OFFSET UNITYSDK_OFFSET(0xC250430)
-#define PHODDAGHLFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC24FFD0)
-#define PHODDAGHLFG_DJPBNIBONPC_OFFSET UNITYSDK_OFFSET(0xC2503F0)
-#define PHODDAGHLFG_DOFIDIIEDLE_OFFSET UNITYSDK_OFFSET(0xC2504B0)
-#define PHODDAGHLFG_FKMKAIBPMLK_OFFSET UNITYSDK_OFFSET(0xC250470)
-#define PHODDAGHLFG_KACNFPJALPJ_OFFSET UNITYSDK_OFFSET(0xC250040)
-#define PHODDAGHLFG_MNGLAIGBENG_OFFSET UNITYSDK_OFFSET(0xC250250)
-#define PHODDAGHLFG_OKIFKFKAKNJ_OFFSET UNITYSDK_OFFSET(0xC250300)
-#define PHODDAGHLFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC24F430)
+#define PHODDAGHLFG_ALHMBNKFGFA_OFFSET UNITYSDK_OFFSET(0x1A9B9950)
+#define PHODDAGHLFG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A9B94F0)
+#define PHODDAGHLFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B87F0)
+#define PHODDAGHLFG_DAFOJFMJKCC_OFFSET UNITYSDK_OFFSET(0x1A9B9B60)
+#define PHODDAGHLFG_DCJMBDMJCPF_OFFSET UNITYSDK_OFFSET(0x1A9B98A0)
+#define PHODDAGHLFG_DELMGOPPBGL_OFFSET UNITYSDK_OFFSET(0x1A9B9BE0)
+#define PHODDAGHLFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A9B9780)
+#define PHODDAGHLFG_DJPBNIBONPC_OFFSET UNITYSDK_OFFSET(0x1A9B9BA0)
+#define PHODDAGHLFG_DOFIDIIEDLE_OFFSET UNITYSDK_OFFSET(0x1A9B9C60)
+#define PHODDAGHLFG_FKMKAIBPMLK_OFFSET UNITYSDK_OFFSET(0x1A9B9C20)
+#define PHODDAGHLFG_KACNFPJALPJ_OFFSET UNITYSDK_OFFSET(0x1A9B97F0)
+#define PHODDAGHLFG_MNGLAIGBENG_OFFSET UNITYSDK_OFFSET(0x1A9B9A00)
+#define PHODDAGHLFG_OKIFKFKAKNJ_OFFSET UNITYSDK_OFFSET(0x1A9B9AB0)
+#define PHODDAGHLFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A9B8BE0)
 
-inline static constexpr unsigned int PHODDAGHLFG_TypeDefinitionIndex = 67519;
+inline static constexpr unsigned int PHODDAGHLFG_TypeDefinitionIndex = 69463;
 
 	class PHODDAGHLFG : public ::System::Object
 	{
 	public:
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournBuildRefTeamData*>* HFDKPEFCDJP; // 0x10
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournHexData*>* AKFKIIJKNEI; // 0x18
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueFormulaData*>* CILPDFCFFPB; // 0x20
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournHexData*>* JNELDPOCPCJ; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::RogueFormulaData*>* EHNDJEFPGDB; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::RogueTournHexData*>* HGPANPDJBGF; // 0x38
-		::System::Collections::Generic::List_1<::RPG::Client::RogueTournHexData*>* FKGABOBPOGB; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::RogueFormulaData*>* CBHKFBHONGN; // 0x48
+		::System::Collections::Generic::List_1<::RPG::Client::RogueTournHexData*>* HGPANPDJBGF; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournHexData*>* JNELDPOCPCJ; // 0x18
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournHexData*>* AKFKIIJKNEI; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::RogueFormulaData*>* CBHKFBHONGN; // 0x28
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueFormulaData*>* CILPDFCFFPB; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::RogueTournHexData*>* FKGABOBPOGB; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::RogueFormulaData*>* EHNDJEFPGDB; // 0x40
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueFormulaData*>* MCCPANJOGJH; // 0x48
 		::System::Collections::Generic::List_1<::RPG::Client::RogueTournBuildRefTeamData*>* ABBHEIAHCKI; // 0x50
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueFormulaData*>* MCCPANJOGJH; // 0x58
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournBuildRefTeamData*>* HFDKPEFCDJP; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHODDAGHLFG_CTOR_OFFSET))(this);

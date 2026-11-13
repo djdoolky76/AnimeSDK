@@ -9,19 +9,19 @@ namespace System
 	class AppContextSwitches : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_ThrowExceptionIfDisposedCancellationTokenSource()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x4100);
-		}
-
 		static ::System::Boolean* StaticGet_PreserveEventListnerObjectIdentity()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x4101);
+			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x33C0);
 		}
 
 		static ::System::Boolean* StaticGet_SetActorAsReferenceWhenCopyingClaimsIdentity()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x4102);
+			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x33C1);
+		}
+
+		static ::System::Boolean* StaticGet_ThrowExceptionIfDisposedCancellationTokenSource()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x33C2);
 		}
 
 	};

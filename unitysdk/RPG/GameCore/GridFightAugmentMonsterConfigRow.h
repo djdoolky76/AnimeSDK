@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightAugmentMonsterConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTAUGMENTMONSTERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F8A80)
-#define RPG_GAMECORE_GRIDFIGHTAUGMENTMONSTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6F8910)
+#define RPG_GAMECORE_GRIDFIGHTAUGMENTMONSTERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x205FBC60)
+#define RPG_GAMECORE_GRIDFIGHTAUGMENTMONSTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x205FBAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightAugmentMonsterConfigRow_TypeDefinitionIndex = 13403;
+	inline static constexpr unsigned int GridFightAugmentMonsterConfigRow_TypeDefinitionIndex = 13475;
 
 	class GridFightAugmentMonsterConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GridFightAugmentQuality Quality; // 0x10
-		::System::UInt32 DivisionLevel; // 0x14
+		::System::UInt32 DivisionLevel; // 0x10
+		::RPG::GameCore::GridFightAugmentQuality Quality; // 0x14
 		::System::UInt32 EnemyDiffLvAdd; // 0x18
 		::System::Void _ctor()
 		{

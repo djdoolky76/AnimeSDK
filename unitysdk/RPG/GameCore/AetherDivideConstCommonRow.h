@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AetherDivideConstCommonRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A6B60)
-#define RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3A65A0)
+#define RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9079A0)
+#define RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9073E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideConstCommonRow_TypeDefinitionIndex = 10922;
+	inline static constexpr unsigned int AetherDivideConstCommonRow_TypeDefinitionIndex = 10938;
 
 	class AetherDivideConstCommonRow : public ::System::Object
 	{
 	public:
-		::System::String* ConstValueType; // 0x10
+		::System::String* Value; // 0x10
 		::System::String* ConstValueName; // 0x18
-		::System::String* Value; // 0x20
+		::System::String* ConstValueType; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW_CTOR_OFFSET))(this);

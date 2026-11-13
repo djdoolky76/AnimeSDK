@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PetMarble::Level
 {
-	inline static constexpr unsigned int IPetMarbleLevelMode_TypeDefinitionIndex = 74737;
+	inline static constexpr unsigned int IPetMarbleLevelMode_TypeDefinitionIndex = 76885;
 
 	class IPetMarbleLevelMode
 	{

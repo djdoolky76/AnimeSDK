@@ -9,10 +9,10 @@ class POIONNNNCMJ;
 namespace R3 { template <typename T> class Observable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define PDMBLCALNPD_AHNJNLBGOKL_CTOR_OFFSET UNITYSDK_OFFSET(0xC019E10)
-#define PDMBLCALNPD_AHNJNLBGOKL_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xC019E20)
+#define PDMBLCALNPD_AHNJNLBGOKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF22F0)
+#define PDMBLCALNPD_AHNJNLBGOKL_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0x1AAF2300)
 
-inline static constexpr unsigned int PDMBLCALNPD_AHNJNLBGOKL_TypeDefinitionIndex = 79574;
+inline static constexpr unsigned int PDMBLCALNPD_AHNJNLBGOKL_TypeDefinitionIndex = 82351;
 
 	class PDMBLCALNPD_AHNJNLBGOKL : public ::System::Object
 	{

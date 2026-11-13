@@ -5,11 +5,11 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMERGEEQUIPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD1976B0)
+#define RPG_CLIENT_GRIDFIGHTMERGEEQUIPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC346A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMergeEquipEvent_TypeDefinitionIndex = 64954;
+	inline static constexpr unsigned int GridFightMergeEquipEvent_TypeDefinitionIndex = 66561;
 
 	class GridFightMergeEquipEvent : public ::System::Object
 	{

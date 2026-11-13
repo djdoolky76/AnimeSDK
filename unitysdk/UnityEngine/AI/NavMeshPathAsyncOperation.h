@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/AsyncOperation.h"
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define UNITYENGINE_AI_NAVMESHPATHASYNCOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F37D1B0)
+#define UNITYENGINE_AI_NAVMESHPATHASYNCOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x20919380)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshPathAsyncOperation_TypeDefinitionIndex = 5651;
+	inline static constexpr unsigned int NavMeshPathAsyncOperation_TypeDefinitionIndex = 5656;
 
 	class NavMeshPathAsyncOperation : public ::UnityEngine::AsyncOperation
 	{

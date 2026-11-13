@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerAnimStateWithMove; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC15DB0)
-#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC15EC0)
-#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC15C80)
+#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31F630)
+#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E31F740)
+#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E31F500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAnimStateWithMove_TypeDefinitionIndex = 22466;
+	inline static constexpr unsigned int TriggerAnimStateWithMove_TypeDefinitionIndex = 22875;
 
 	class TriggerAnimStateWithMove : public ::RPG::GameCore::TaskConfig
 	{

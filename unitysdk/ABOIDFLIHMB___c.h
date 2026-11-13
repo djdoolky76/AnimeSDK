@@ -4,18 +4,18 @@
 class ABOIDFLIHMB;
 namespace System { class Object; }
 
-#define ABOIDFLIHMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDA5320)
-#define ABOIDFLIHMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA5360)
-#define ABOIDFLIHMB___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DDA5370)
+#define ABOIDFLIHMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2008D8F0)
+#define ABOIDFLIHMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2008D930)
+#define ABOIDFLIHMB___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x2008D940)
 
-inline static constexpr unsigned int ABOIDFLIHMB___c_TypeDefinitionIndex = 26615;
+inline static constexpr unsigned int ABOIDFLIHMB___c_TypeDefinitionIndex = 27146;
 
 	class ABOIDFLIHMB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x317D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x370F0);
 		}
 
 		static ::System::Void _cctor()

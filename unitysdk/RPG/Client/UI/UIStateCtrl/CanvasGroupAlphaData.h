@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class CanvasGroup; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_CANVASGROUPALPHADATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE33E010)
+#define RPG_CLIENT_UI_UISTATECTRL_CANVASGROUPALPHADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C55B0)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int CanvasGroupAlphaData_TypeDefinitionIndex = 74045;
+	inline static constexpr unsigned int CanvasGroupAlphaData_TypeDefinitionIndex = 76190;
 
 	class CanvasGroupAlphaData : public ::System::Object
 	{

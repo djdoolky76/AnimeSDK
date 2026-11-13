@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/RtModifierEventScope.h"
 #include "unitysdk/System/Object.h"
 
-#define FBOEHKGOHDI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1569FF20)
-#define FBOEHKGOHDI_JMFGJFOAJFG_OFFSET UNITYSDK_OFFSET(0x1569FF70)
+#define FBOEHKGOHDI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA5C190)
+#define FBOEHKGOHDI_JMFGJFOAJFG_OFFSET UNITYSDK_OFFSET(0x1BA5C1E0)
 
-inline static constexpr unsigned int FBOEHKGOHDI_TypeDefinitionIndex = 53782;
+inline static constexpr unsigned int FBOEHKGOHDI_TypeDefinitionIndex = 54946;
 
 	class FBOEHKGOHDI : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::RPG::GameCore::RtModifierEventScope>** StaticGet_NOAMHEEOGHP()
 		{
-			return (::Il2CppArray<::RPG::GameCore::RtModifierEventScope>**)UnitySDK::FromName("", "FBOEHKGOHDI")->GetStaticField(0x54360);
+			return (::Il2CppArray<::RPG::GameCore::RtModifierEventScope>**)UnitySDK::FromName("", "FBOEHKGOHDI")->GetStaticField(0x43CB0);
 		}
 
 		static ::System::Void _cctor()

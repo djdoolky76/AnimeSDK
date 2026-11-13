@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ActionResult_Status_TypeDefinitionIndex = 44327;
+	inline static constexpr unsigned int ActionResult_Status_TypeDefinitionIndex = 45402;
 
 	enum class ActionResult_Status : ::System::Int32
 	{

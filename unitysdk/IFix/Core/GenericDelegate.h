@@ -4,12 +4,12 @@
 namespace IFix::Core { class VirtualMachine; }
 namespace System { class Object; }
 
-#define IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET UNITYSDK_OFFSET(0x1B99C610)
-#define IFIX_CORE_GENERICDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B99C5F0)
+#define IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET UNITYSDK_OFFSET(0x1E8AD130)
+#define IFIX_CORE_GENERICDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AD110)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int GenericDelegate_TypeDefinitionIndex = 7122;
+	inline static constexpr unsigned int GenericDelegate_TypeDefinitionIndex = 7133;
 
 	class GenericDelegate : public ::System::Object
 	{

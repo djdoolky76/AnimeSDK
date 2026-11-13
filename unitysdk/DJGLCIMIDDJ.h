@@ -3,9 +3,9 @@
 #include "unitysdk/Entitas/Systems.h"
 class PLMODIOCPAF;
 
-#define DJGLCIMIDDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C4330)
+#define DJGLCIMIDDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA78C50)
 
-inline static constexpr unsigned int DJGLCIMIDDJ_TypeDefinitionIndex = 37145;
+inline static constexpr unsigned int DJGLCIMIDDJ_TypeDefinitionIndex = 38073;
 
 	class DJGLCIMIDDJ : public ::Entitas::Systems
 	{

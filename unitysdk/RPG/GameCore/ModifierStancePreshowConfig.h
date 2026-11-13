@@ -9,12 +9,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifierStancePreshowConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D861BD0)
-#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8616D0)
+#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F40F0)
+#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6F3BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierStancePreshowConfig_TypeDefinitionIndex = 18184;
+	inline static constexpr unsigned int ModifierStancePreshowConfig_TypeDefinitionIndex = 18346;
 
 	class ModifierStancePreshowConfig : public ::RPG::GameCore::JsonConfig
 	{

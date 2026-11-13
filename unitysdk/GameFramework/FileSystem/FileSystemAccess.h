@@ -3,7 +3,7 @@
 
 namespace GameFramework::FileSystem
 {
-	inline static constexpr unsigned int FileSystemAccess_TypeDefinitionIndex = 43859;
+	inline static constexpr unsigned int FileSystemAccess_TypeDefinitionIndex = 44934;
 
 	enum class FileSystemAccess : ::System::Byte
 	{

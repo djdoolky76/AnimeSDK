@@ -5,21 +5,22 @@ class AJLNGHFLABP;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define KAINFBAJFMB_BEMDNIPJHAG_OFFSET UNITYSDK_OFFSET(0xB2D3C40)
-#define KAINFBAJFMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D3BE0)
-#define KAINFBAJFMB_DBEFDBMMHNF_OFFSET UNITYSDK_OFFSET(0xB2D3D40)
-#define KAINFBAJFMB_JIPBBMPODME_OFFSET UNITYSDK_OFFSET(0xB2D3CD0)
-#define KAINFBAJFMB_NGDAGBJIOFE_OFFSET UNITYSDK_OFFSET(0xB2D3F60)
+#define KAINFBAJFMB_BEMDNIPJHAG_OFFSET UNITYSDK_OFFSET(0x19DB08B0)
+#define KAINFBAJFMB_CTOR_OFFSET UNITYSDK_OFFSET(0x19DB0850)
+#define KAINFBAJFMB_DBEFDBMMHNF_OFFSET UNITYSDK_OFFSET(0x19DB09B0)
+#define KAINFBAJFMB_JIPBBMPODME_OFFSET UNITYSDK_OFFSET(0x19DB0940)
+#define KAINFBAJFMB_NGDAGBJIOFE_OFFSET UNITYSDK_OFFSET(0x19DB0BD0)
 
-inline static constexpr unsigned int KAINFBAJFMB_TypeDefinitionIndex = 79709;
+inline static constexpr unsigned int KAINFBAJFMB_TypeDefinitionIndex = 82486;
 
 	class KAINFBAJFMB : public ::System::Object
 	{
 	public:
 		::System::Action* EGMGFMKIOHL; // 0x10
 		::System::Collections::Generic::Queue_1<::AJLNGHFLABP*>* CGHLCFIBABI; // 0x18
-		::System::Int32 BPCHPFGKCHF; // 0x20
-		::System::Boolean DMBFJAEAGPL; // 0x24
+		::System::Boolean DMBFJAEAGPL; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Int32 BPCHPFGKCHF; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAINFBAJFMB_CTOR_OFFSET))(this);

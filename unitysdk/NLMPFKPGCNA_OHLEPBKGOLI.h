@@ -3,7 +3,7 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 
-inline static constexpr unsigned int NLMPFKPGCNA_OHLEPBKGOLI_TypeDefinitionIndex = 57174;
+inline static constexpr unsigned int NLMPFKPGCNA_OHLEPBKGOLI_TypeDefinitionIndex = 58403;
 
 	struct alignas(8) NLMPFKPGCNA_OHLEPBKGOLI
 	{

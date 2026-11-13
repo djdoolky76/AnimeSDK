@@ -6,17 +6,17 @@ class DBGGPBEKFNL;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define DBGGPBEKFNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA22A0)
-#define DBGGPBEKFNL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA2020)
+#define DBGGPBEKFNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBA43F0)
+#define DBGGPBEKFNL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBA41F0)
 
-inline static constexpr unsigned int DBGGPBEKFNL_TypeDefinitionIndex = 21454;
+inline static constexpr unsigned int DBGGPBEKFNL_TypeDefinitionIndex = 21797;
 
 	class DBGGPBEKFNL : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* BAHLDFMIJFG; // 0x10
-		::System::Boolean PAHCFELAJPB; // 0x18
-		::System::Boolean CEFGAPLELBN; // 0x19
+		::System::Boolean CEFGAPLELBN; // 0x18
+		::System::Boolean PAHCFELAJPB; // 0x19
 		::System::Byte _padding0[0x2];
 		::RPG::MVector3 JBIKFECEIIJ; // 0x1C
 		::System::Void _ctor()

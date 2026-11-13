@@ -17,303 +17,303 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define INCONTROL_INPUTMANAGER_ADDDEVICEMANAGER_OFFSET UNITYSDK_OFFSET(0x1B9DBAD0)
-#define INCONTROL_INPUTMANAGER_ADD_ONACTIVEDEVICECHANGED_OFFSET UNITYSDK_OFFSET(0x1B9D9E30)
-#define INCONTROL_INPUTMANAGER_ADD_ONCOMMITDEVICES_OFFSET UNITYSDK_OFFSET(0x1B9DA0B0)
-#define INCONTROL_INPUTMANAGER_ADD_ONDEVICEATTACHED_OFFSET UNITYSDK_OFFSET(0x1B9D9BB0)
-#define INCONTROL_INPUTMANAGER_ADD_ONDEVICEDETACHED_OFFSET UNITYSDK_OFFSET(0x1B9D9CF0)
-#define INCONTROL_INPUTMANAGER_ADD_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B9D9A70)
-#define INCONTROL_INPUTMANAGER_ADD_ONSETUP_OFFSET UNITYSDK_OFFSET(0x1B9D97F0)
-#define INCONTROL_INPUTMANAGER_ADD_ONUPDATEDEVICES_OFFSET UNITYSDK_OFFSET(0x1B9D9F70)
-#define INCONTROL_INPUTMANAGER_ADD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B9D9930)
-#define INCONTROL_INPUTMANAGER_ASSERTISSETUP_OFFSET UNITYSDK_OFFSET(0x1B9DAA10)
-#define INCONTROL_INPUTMANAGER_ATTACHDEVICE_OFFSET UNITYSDK_OFFSET(0x1B9DBF10)
-#define INCONTROL_INPUTMANAGER_ATTACHPLAYERACTIONSET_OFFSET UNITYSDK_OFFSET(0x1B9DC820)
-#define INCONTROL_INPUTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9DD9C0)
-#define INCONTROL_INPUTMANAGER_CLEARINPUTSTATE_OFFSET UNITYSDK_OFFSET(0x1B9DB890)
-#define INCONTROL_INPUTMANAGER_COMMITDEVICES_OFFSET UNITYSDK_OFFSET(0x1B9DAF40)
-#define INCONTROL_INPUTMANAGER_DESTROYDEVICEMANAGERS_OFFSET UNITYSDK_OFFSET(0x1B9DA550)
-#define INCONTROL_INPUTMANAGER_DESTROYDEVICES_OFFSET UNITYSDK_OFFSET(0x1B9DA7A0)
-#define INCONTROL_INPUTMANAGER_DETACHDEVICE_OFFSET UNITYSDK_OFFSET(0x1B9DC370)
-#define INCONTROL_INPUTMANAGER_DETACHPLAYERACTIONSET_OFFSET UNITYSDK_OFFSET(0x1B9DC940)
-#define INCONTROL_INPUTMANAGER_GET_ACTIVEDEVICE_OFFSET UNITYSDK_OFFSET(0x1B9CB850)
-#define INCONTROL_INPUTMANAGER_GET_ANYKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0x1B9DC9A0)
-#define INCONTROL_INPUTMANAGER_GET_APPLICATIONISFOREGROUNDWINDOW_OFFSET UNITYSDK_OFFSET(0x1B9DA420)
-#define INCONTROL_INPUTMANAGER_GET_COMMANDWASPRESSED_OFFSET UNITYSDK_OFFSET(0x1B9DA1F0)
-#define INCONTROL_INPUTMANAGER_GET_CURRENTTICK_OFFSET UNITYSDK_OFFSET(0x1B9DD940)
-#define INCONTROL_INPUTMANAGER_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x1B9DD980)
-#define INCONTROL_INPUTMANAGER_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1B9DD2F0)
-#define INCONTROL_INPUTMANAGER_GET_ENABLEICADE_OFFSET UNITYSDK_OFFSET(0x1B9DD790)
-#define INCONTROL_INPUTMANAGER_GET_ENABLENATIVEINPUT_OFFSET UNITYSDK_OFFSET(0x1B9DD440)
-#define INCONTROL_INPUTMANAGER_GET_ENABLEXINPUT_OFFSET UNITYSDK_OFFSET(0x1B9DD4B0)
-#define INCONTROL_INPUTMANAGER_GET_INVERTYAXIS_OFFSET UNITYSDK_OFFSET(0x1B9DA260)
-#define INCONTROL_INPUTMANAGER_GET_ISSETUP_OFFSET UNITYSDK_OFFSET(0x1B9DA2D0)
-#define INCONTROL_INPUTMANAGER_GET_KEYBOARDPROVIDER_OFFSET UNITYSDK_OFFSET(0x1B9DA3B0)
-#define INCONTROL_INPUTMANAGER_GET_MENUWASPRESSED_OFFSET UNITYSDK_OFFSET(0x1B9DA500)
-#define INCONTROL_INPUTMANAGER_GET_MOUSEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1B9DA340)
-#define INCONTROL_INPUTMANAGER_GET_NATIVEINPUTENABLEMFI_OFFSET UNITYSDK_OFFSET(0x1B9DD650)
-#define INCONTROL_INPUTMANAGER_GET_NATIVEINPUTENABLEXINPUT_OFFSET UNITYSDK_OFFSET(0x1B9DD5E0)
-#define INCONTROL_INPUTMANAGER_GET_NATIVEINPUTPREVENTSLEEP_OFFSET UNITYSDK_OFFSET(0x1B9DD6C0)
-#define INCONTROL_INPUTMANAGER_GET_NATIVEINPUTUPDATERATE_OFFSET UNITYSDK_OFFSET(0x1B9DD730)
-#define INCONTROL_INPUTMANAGER_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1B9DA490)
-#define INCONTROL_INPUTMANAGER_GET_SUSPENDINBACKGROUND_OFFSET UNITYSDK_OFFSET(0x1B9DD3D0)
-#define INCONTROL_INPUTMANAGER_GET_UNITYVERSION_OFFSET UNITYSDK_OFFSET(0x1B9DD800)
-#define INCONTROL_INPUTMANAGER_GET_XINPUTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1B9DD580)
-#define INCONTROL_INPUTMANAGER_GET_XINPUTUPDATERATE_OFFSET UNITYSDK_OFFSET(0x1B9DD520)
-#define INCONTROL_INPUTMANAGER_HIDEDEVICESWITHPROFILE_OFFSET UNITYSDK_OFFSET(0x1B9DC6E0)
-#define INCONTROL_INPUTMANAGER_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0x1B9CDA00)
-#define INCONTROL_INPUTMANAGER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x1B9CDAE0)
-#define INCONTROL_INPUTMANAGER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x1B9CDB50)
-#define INCONTROL_INPUTMANAGER_ONLEVELWASLOADED_OFFSET UNITYSDK_OFFSET(0x1B9CDBF0)
-#define INCONTROL_INPUTMANAGER_RELOAD_OFFSET UNITYSDK_OFFSET(0x1B9DB570)
-#define INCONTROL_INPUTMANAGER_REMOVE_ONACTIVEDEVICECHANGED_OFFSET UNITYSDK_OFFSET(0x1B9D9ED0)
-#define INCONTROL_INPUTMANAGER_REMOVE_ONCOMMITDEVICES_OFFSET UNITYSDK_OFFSET(0x1B9DA150)
-#define INCONTROL_INPUTMANAGER_REMOVE_ONDEVICEATTACHED_OFFSET UNITYSDK_OFFSET(0x1B9D9C50)
-#define INCONTROL_INPUTMANAGER_REMOVE_ONDEVICEDETACHED_OFFSET UNITYSDK_OFFSET(0x1B9D9D90)
-#define INCONTROL_INPUTMANAGER_REMOVE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B9D9B10)
-#define INCONTROL_INPUTMANAGER_REMOVE_ONSETUP_OFFSET UNITYSDK_OFFSET(0x1B9D9890)
-#define INCONTROL_INPUTMANAGER_REMOVE_ONUPDATEDEVICES_OFFSET UNITYSDK_OFFSET(0x1B9DA010)
-#define INCONTROL_INPUTMANAGER_REMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B9D99D0)
-#define INCONTROL_INPUTMANAGER_RESETINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B9CCFB0)
-#define INCONTROL_INPUTMANAGER_SETUPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B9CC590)
-#define INCONTROL_INPUTMANAGER_SETZEROTICKONALLCONTROLS_OFFSET UNITYSDK_OFFSET(0x1B9DB5B0)
-#define INCONTROL_INPUTMANAGER_SET_ACTIVEDEVICE_OFFSET UNITYSDK_OFFSET(0x1B9DBEB0)
-#define INCONTROL_INPUTMANAGER_SET_APPLICATIONISFOREGROUNDWINDOW_OFFSET UNITYSDK_OFFSET(0x1B9DA460)
-#define INCONTROL_INPUTMANAGER_SET_COMMANDWASPRESSED_OFFSET UNITYSDK_OFFSET(0x1B9DA230)
-#define INCONTROL_INPUTMANAGER_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1B9DD330)
-#define INCONTROL_INPUTMANAGER_SET_ENABLEICADE_OFFSET UNITYSDK_OFFSET(0x1B9DD7D0)
-#define INCONTROL_INPUTMANAGER_SET_ENABLENATIVEINPUT_OFFSET UNITYSDK_OFFSET(0x1B9DD480)
-#define INCONTROL_INPUTMANAGER_SET_ENABLEXINPUT_OFFSET UNITYSDK_OFFSET(0x1B9DD4F0)
-#define INCONTROL_INPUTMANAGER_SET_INVERTYAXIS_OFFSET UNITYSDK_OFFSET(0x1B9DA2A0)
-#define INCONTROL_INPUTMANAGER_SET_ISSETUP_OFFSET UNITYSDK_OFFSET(0x1B9DA310)
-#define INCONTROL_INPUTMANAGER_SET_KEYBOARDPROVIDER_OFFSET UNITYSDK_OFFSET(0x1B9DA3E0)
-#define INCONTROL_INPUTMANAGER_SET_MOUSEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1B9DA370)
-#define INCONTROL_INPUTMANAGER_SET_NATIVEINPUTENABLEMFI_OFFSET UNITYSDK_OFFSET(0x1B9DD690)
-#define INCONTROL_INPUTMANAGER_SET_NATIVEINPUTENABLEXINPUT_OFFSET UNITYSDK_OFFSET(0x1B9DD620)
-#define INCONTROL_INPUTMANAGER_SET_NATIVEINPUTPREVENTSLEEP_OFFSET UNITYSDK_OFFSET(0x1B9DD700)
-#define INCONTROL_INPUTMANAGER_SET_NATIVEINPUTUPDATERATE_OFFSET UNITYSDK_OFFSET(0x1B9DD760)
-#define INCONTROL_INPUTMANAGER_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1B9DA4C0)
-#define INCONTROL_INPUTMANAGER_SET_SUSPENDINBACKGROUND_OFFSET UNITYSDK_OFFSET(0x1B9DD410)
-#define INCONTROL_INPUTMANAGER_SET_XINPUTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1B9DD5B0)
-#define INCONTROL_INPUTMANAGER_SET_XINPUTUPDATERATE_OFFSET UNITYSDK_OFFSET(0x1B9DD550)
-#define INCONTROL_INPUTMANAGER_UPDATEACTIVEDEVICE_OFFSET UNITYSDK_OFFSET(0x1B9DB150)
-#define INCONTROL_INPUTMANAGER_UPDATECURRENTTIME_OFFSET UNITYSDK_OFFSET(0x1B9DAA80)
-#define INCONTROL_INPUTMANAGER_UPDATEDEVICEMANAGERS_OFFSET UNITYSDK_OFFSET(0x1B9DAB30)
-#define INCONTROL_INPUTMANAGER_UPDATEDEVICES_OFFSET UNITYSDK_OFFSET(0x1B9DACE0)
-#define INCONTROL_INPUTMANAGER_UPDATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B9CD310)
-#define INCONTROL_INPUTMANAGER_UPDATEPLAYERACTIONSETS_OFFSET UNITYSDK_OFFSET(0x1B9DB450)
-#define INCONTROL_INPUTMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B9DA9E0)
+#define INCONTROL_INPUTMANAGER_ADDDEVICEMANAGER_OFFSET UNITYSDK_OFFSET(0x19FA9CC0)
+#define INCONTROL_INPUTMANAGER_ADD_ONACTIVEDEVICECHANGED_OFFSET UNITYSDK_OFFSET(0x19FA8020)
+#define INCONTROL_INPUTMANAGER_ADD_ONCOMMITDEVICES_OFFSET UNITYSDK_OFFSET(0x19FA82A0)
+#define INCONTROL_INPUTMANAGER_ADD_ONDEVICEATTACHED_OFFSET UNITYSDK_OFFSET(0x19FA7DA0)
+#define INCONTROL_INPUTMANAGER_ADD_ONDEVICEDETACHED_OFFSET UNITYSDK_OFFSET(0x19FA7EE0)
+#define INCONTROL_INPUTMANAGER_ADD_ONRESET_OFFSET UNITYSDK_OFFSET(0x19FA7C60)
+#define INCONTROL_INPUTMANAGER_ADD_ONSETUP_OFFSET UNITYSDK_OFFSET(0x19FA79E0)
+#define INCONTROL_INPUTMANAGER_ADD_ONUPDATEDEVICES_OFFSET UNITYSDK_OFFSET(0x19FA8160)
+#define INCONTROL_INPUTMANAGER_ADD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19FA7B20)
+#define INCONTROL_INPUTMANAGER_ASSERTISSETUP_OFFSET UNITYSDK_OFFSET(0x19FA8C00)
+#define INCONTROL_INPUTMANAGER_ATTACHDEVICE_OFFSET UNITYSDK_OFFSET(0x19FAA100)
+#define INCONTROL_INPUTMANAGER_ATTACHPLAYERACTIONSET_OFFSET UNITYSDK_OFFSET(0x19FAAA10)
+#define INCONTROL_INPUTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x19FABBB0)
+#define INCONTROL_INPUTMANAGER_CLEARINPUTSTATE_OFFSET UNITYSDK_OFFSET(0x19FA9A80)
+#define INCONTROL_INPUTMANAGER_COMMITDEVICES_OFFSET UNITYSDK_OFFSET(0x19FA9130)
+#define INCONTROL_INPUTMANAGER_DESTROYDEVICEMANAGERS_OFFSET UNITYSDK_OFFSET(0x19FA8740)
+#define INCONTROL_INPUTMANAGER_DESTROYDEVICES_OFFSET UNITYSDK_OFFSET(0x19FA8990)
+#define INCONTROL_INPUTMANAGER_DETACHDEVICE_OFFSET UNITYSDK_OFFSET(0x19FAA560)
+#define INCONTROL_INPUTMANAGER_DETACHPLAYERACTIONSET_OFFSET UNITYSDK_OFFSET(0x19FAAB30)
+#define INCONTROL_INPUTMANAGER_GET_ACTIVEDEVICE_OFFSET UNITYSDK_OFFSET(0x19F998B0)
+#define INCONTROL_INPUTMANAGER_GET_ANYKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0x19FAAB90)
+#define INCONTROL_INPUTMANAGER_GET_APPLICATIONISFOREGROUNDWINDOW_OFFSET UNITYSDK_OFFSET(0x19FA8610)
+#define INCONTROL_INPUTMANAGER_GET_COMMANDWASPRESSED_OFFSET UNITYSDK_OFFSET(0x19FA83E0)
+#define INCONTROL_INPUTMANAGER_GET_CURRENTTICK_OFFSET UNITYSDK_OFFSET(0x19FABB30)
+#define INCONTROL_INPUTMANAGER_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x19FABB70)
+#define INCONTROL_INPUTMANAGER_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x19FAB4E0)
+#define INCONTROL_INPUTMANAGER_GET_ENABLEICADE_OFFSET UNITYSDK_OFFSET(0x19FAB980)
+#define INCONTROL_INPUTMANAGER_GET_ENABLENATIVEINPUT_OFFSET UNITYSDK_OFFSET(0x19FAB630)
+#define INCONTROL_INPUTMANAGER_GET_ENABLEXINPUT_OFFSET UNITYSDK_OFFSET(0x19FAB6A0)
+#define INCONTROL_INPUTMANAGER_GET_INVERTYAXIS_OFFSET UNITYSDK_OFFSET(0x19FA8450)
+#define INCONTROL_INPUTMANAGER_GET_ISSETUP_OFFSET UNITYSDK_OFFSET(0x19FA84C0)
+#define INCONTROL_INPUTMANAGER_GET_KEYBOARDPROVIDER_OFFSET UNITYSDK_OFFSET(0x19FA85A0)
+#define INCONTROL_INPUTMANAGER_GET_MENUWASPRESSED_OFFSET UNITYSDK_OFFSET(0x19FA86F0)
+#define INCONTROL_INPUTMANAGER_GET_MOUSEPROVIDER_OFFSET UNITYSDK_OFFSET(0x19FA8530)
+#define INCONTROL_INPUTMANAGER_GET_NATIVEINPUTENABLEMFI_OFFSET UNITYSDK_OFFSET(0x19FAB840)
+#define INCONTROL_INPUTMANAGER_GET_NATIVEINPUTENABLEXINPUT_OFFSET UNITYSDK_OFFSET(0x19FAB7D0)
+#define INCONTROL_INPUTMANAGER_GET_NATIVEINPUTPREVENTSLEEP_OFFSET UNITYSDK_OFFSET(0x19FAB8B0)
+#define INCONTROL_INPUTMANAGER_GET_NATIVEINPUTUPDATERATE_OFFSET UNITYSDK_OFFSET(0x19FAB920)
+#define INCONTROL_INPUTMANAGER_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x19FA8680)
+#define INCONTROL_INPUTMANAGER_GET_SUSPENDINBACKGROUND_OFFSET UNITYSDK_OFFSET(0x19FAB5C0)
+#define INCONTROL_INPUTMANAGER_GET_UNITYVERSION_OFFSET UNITYSDK_OFFSET(0x19FAB9F0)
+#define INCONTROL_INPUTMANAGER_GET_XINPUTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x19FAB770)
+#define INCONTROL_INPUTMANAGER_GET_XINPUTUPDATERATE_OFFSET UNITYSDK_OFFSET(0x19FAB710)
+#define INCONTROL_INPUTMANAGER_HIDEDEVICESWITHPROFILE_OFFSET UNITYSDK_OFFSET(0x19FAA8D0)
+#define INCONTROL_INPUTMANAGER_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0x19F9BA50)
+#define INCONTROL_INPUTMANAGER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x19F9BB30)
+#define INCONTROL_INPUTMANAGER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x19F9BBA0)
+#define INCONTROL_INPUTMANAGER_ONLEVELWASLOADED_OFFSET UNITYSDK_OFFSET(0x19F9BC40)
+#define INCONTROL_INPUTMANAGER_RELOAD_OFFSET UNITYSDK_OFFSET(0x19FA9760)
+#define INCONTROL_INPUTMANAGER_REMOVE_ONACTIVEDEVICECHANGED_OFFSET UNITYSDK_OFFSET(0x19FA80C0)
+#define INCONTROL_INPUTMANAGER_REMOVE_ONCOMMITDEVICES_OFFSET UNITYSDK_OFFSET(0x19FA8340)
+#define INCONTROL_INPUTMANAGER_REMOVE_ONDEVICEATTACHED_OFFSET UNITYSDK_OFFSET(0x19FA7E40)
+#define INCONTROL_INPUTMANAGER_REMOVE_ONDEVICEDETACHED_OFFSET UNITYSDK_OFFSET(0x19FA7F80)
+#define INCONTROL_INPUTMANAGER_REMOVE_ONRESET_OFFSET UNITYSDK_OFFSET(0x19FA7D00)
+#define INCONTROL_INPUTMANAGER_REMOVE_ONSETUP_OFFSET UNITYSDK_OFFSET(0x19FA7A80)
+#define INCONTROL_INPUTMANAGER_REMOVE_ONUPDATEDEVICES_OFFSET UNITYSDK_OFFSET(0x19FA8200)
+#define INCONTROL_INPUTMANAGER_REMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19FA7BC0)
+#define INCONTROL_INPUTMANAGER_RESETINTERNAL_OFFSET UNITYSDK_OFFSET(0x19F9B000)
+#define INCONTROL_INPUTMANAGER_SETUPINTERNAL_OFFSET UNITYSDK_OFFSET(0x19F9A5F0)
+#define INCONTROL_INPUTMANAGER_SETZEROTICKONALLCONTROLS_OFFSET UNITYSDK_OFFSET(0x19FA97A0)
+#define INCONTROL_INPUTMANAGER_SET_ACTIVEDEVICE_OFFSET UNITYSDK_OFFSET(0x19FAA0A0)
+#define INCONTROL_INPUTMANAGER_SET_APPLICATIONISFOREGROUNDWINDOW_OFFSET UNITYSDK_OFFSET(0x19FA8650)
+#define INCONTROL_INPUTMANAGER_SET_COMMANDWASPRESSED_OFFSET UNITYSDK_OFFSET(0x19FA8420)
+#define INCONTROL_INPUTMANAGER_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x19FAB520)
+#define INCONTROL_INPUTMANAGER_SET_ENABLEICADE_OFFSET UNITYSDK_OFFSET(0x19FAB9C0)
+#define INCONTROL_INPUTMANAGER_SET_ENABLENATIVEINPUT_OFFSET UNITYSDK_OFFSET(0x19FAB670)
+#define INCONTROL_INPUTMANAGER_SET_ENABLEXINPUT_OFFSET UNITYSDK_OFFSET(0x19FAB6E0)
+#define INCONTROL_INPUTMANAGER_SET_INVERTYAXIS_OFFSET UNITYSDK_OFFSET(0x19FA8490)
+#define INCONTROL_INPUTMANAGER_SET_ISSETUP_OFFSET UNITYSDK_OFFSET(0x19FA8500)
+#define INCONTROL_INPUTMANAGER_SET_KEYBOARDPROVIDER_OFFSET UNITYSDK_OFFSET(0x19FA85D0)
+#define INCONTROL_INPUTMANAGER_SET_MOUSEPROVIDER_OFFSET UNITYSDK_OFFSET(0x19FA8560)
+#define INCONTROL_INPUTMANAGER_SET_NATIVEINPUTENABLEMFI_OFFSET UNITYSDK_OFFSET(0x19FAB880)
+#define INCONTROL_INPUTMANAGER_SET_NATIVEINPUTENABLEXINPUT_OFFSET UNITYSDK_OFFSET(0x19FAB810)
+#define INCONTROL_INPUTMANAGER_SET_NATIVEINPUTPREVENTSLEEP_OFFSET UNITYSDK_OFFSET(0x19FAB8F0)
+#define INCONTROL_INPUTMANAGER_SET_NATIVEINPUTUPDATERATE_OFFSET UNITYSDK_OFFSET(0x19FAB950)
+#define INCONTROL_INPUTMANAGER_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x19FA86B0)
+#define INCONTROL_INPUTMANAGER_SET_SUSPENDINBACKGROUND_OFFSET UNITYSDK_OFFSET(0x19FAB600)
+#define INCONTROL_INPUTMANAGER_SET_XINPUTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x19FAB7A0)
+#define INCONTROL_INPUTMANAGER_SET_XINPUTUPDATERATE_OFFSET UNITYSDK_OFFSET(0x19FAB740)
+#define INCONTROL_INPUTMANAGER_UPDATEACTIVEDEVICE_OFFSET UNITYSDK_OFFSET(0x19FA9340)
+#define INCONTROL_INPUTMANAGER_UPDATECURRENTTIME_OFFSET UNITYSDK_OFFSET(0x19FA8C70)
+#define INCONTROL_INPUTMANAGER_UPDATEDEVICEMANAGERS_OFFSET UNITYSDK_OFFSET(0x19FA8D20)
+#define INCONTROL_INPUTMANAGER_UPDATEDEVICES_OFFSET UNITYSDK_OFFSET(0x19FA8ED0)
+#define INCONTROL_INPUTMANAGER_UPDATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x19F9B360)
+#define INCONTROL_INPUTMANAGER_UPDATEPLAYERACTIONSETS_OFFSET UNITYSDK_OFFSET(0x19FA9640)
+#define INCONTROL_INPUTMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19FA8BD0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputManager_TypeDefinitionIndex = 40855;
+	inline static constexpr unsigned int InputManager_TypeDefinitionIndex = 41830;
 
 	class InputManager : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet__Platform_k__BackingField()
-		{
-			return (::System::String**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBCF0);
-		}
-
-		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnUpdate()
-		{
-			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBCF8);
-		}
-
-		static ::System::Action** StaticGet_OnSetup()
-		{
-			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD00);
-		}
-
-		static ::System::Action_1<::InControl::InputDevice*>** StaticGet_OnActiveDeviceChanged()
-		{
-			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD08);
-		}
-
-		static ::System::Collections::Generic::List_1<::InControl::InputDeviceManager*>** StaticGet_deviceManagers()
-		{
-			return (::System::Collections::Generic::List_1<::InControl::InputDeviceManager*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD10);
-		}
-
 		static ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>** StaticGet_ActiveDevices()
 		{
-			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD18);
-		}
-
-		static ::InControl::InputDevice** StaticGet_activeDevice()
-		{
-			return (::InControl::InputDevice**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD20);
-		}
-
-		static ::InControl::IKeyboardProvider** StaticGet__KeyboardProvider_k__BackingField()
-		{
-			return (::InControl::IKeyboardProvider**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD28);
-		}
-
-		static ::System::Collections::Generic::List_1<::InControl::PlayerActionSet*>** StaticGet_playerActionSets()
-		{
-			return (::System::Collections::Generic::List_1<::InControl::PlayerActionSet*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD30);
+			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54BD0);
 		}
 
 		static ::System::Action_1<::InControl::InputDevice*>** StaticGet_OnDeviceDetached()
 		{
-			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD38);
+			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54BD8);
 		}
 
-		static ::System::Collections::Generic::List_1<::InControl::InputDevice*>** StaticGet_devices()
+		static ::InControl::IKeyboardProvider** StaticGet__KeyboardProvider_k__BackingField()
 		{
-			return (::System::Collections::Generic::List_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD40);
+			return (::InControl::IKeyboardProvider**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54BE0);
 		}
 
-		static ::System::Collections::Generic::List_1<::InControl::InputDevice*>** StaticGet_activeDevices()
+		static ::InControl::InputDevice** StaticGet_activeDevice()
 		{
-			return (::System::Collections::Generic::List_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD48);
-		}
-
-		static ::System::Action** StaticGet_OnReset()
-		{
-			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD50);
-		}
-
-		static ::System::Action_1<::InControl::InputDevice*>** StaticGet_OnDeviceAttached()
-		{
-			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD58);
-		}
-
-		static ::InControl::IMouseProvider** StaticGet__MouseProvider_k__BackingField()
-		{
-			return (::InControl::IMouseProvider**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD60);
-		}
-
-		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnUpdateDevices()
-		{
-			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD68);
+			return (::InControl::InputDevice**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54BE8);
 		}
 
 		static ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>** StaticGet_Devices()
 		{
-			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD70);
+			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54BF0);
 		}
 
-		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnCommitDevices()
+		static ::System::Action_1<::InControl::InputDevice*>** StaticGet_OnActiveDeviceChanged()
 		{
-			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD78);
+			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54BF8);
+		}
+
+		static ::System::Collections::Generic::List_1<::InControl::PlayerActionSet*>** StaticGet_playerActionSets()
+		{
+			return (::System::Collections::Generic::List_1<::InControl::PlayerActionSet*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C00);
+		}
+
+		static ::System::Collections::Generic::List_1<::InControl::InputDevice*>** StaticGet_devices()
+		{
+			return (::System::Collections::Generic::List_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C08);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::InControl::InputDeviceManager*>** StaticGet_deviceManagerTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::InControl::InputDeviceManager*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xBD80);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::InControl::InputDeviceManager*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C10);
 		}
 
-		static ::System::Single* StaticGet_lastUpdateTime()
+		static ::System::Action** StaticGet_OnReset()
 		{
-			return (::System::Single*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27E0);
+			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C18);
 		}
 
-		static ::System::Boolean* StaticGet__NativeInputEnableXInput_k__BackingField()
+		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnUpdate()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27E4);
+			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C20);
 		}
 
-		static ::System::Boolean* StaticGet__CommandWasPressed_k__BackingField()
+		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnCommitDevices()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27E5);
+			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C28);
 		}
 
-		static ::System::Boolean* StaticGet_applicationIsFocused()
+		static ::System::String** StaticGet__Platform_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27E6);
+			return (::System::String**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C30);
 		}
 
-		static ::System::Boolean* StaticGet__IsSetup_k__BackingField()
+		static ::System::Action_1<::InControl::InputDevice*>** StaticGet_OnDeviceAttached()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27E7);
+			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C38);
 		}
 
-		static ::System::Boolean* StaticGet__EnableXInput_k__BackingField()
+		static ::InControl::IMouseProvider** StaticGet__MouseProvider_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27E8);
+			return (::InControl::IMouseProvider**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C40);
 		}
 
-		static ::System::UInt32* StaticGet__NativeInputUpdateRate_k__BackingField()
+		static ::System::Collections::Generic::List_1<::InControl::InputDevice*>** StaticGet_activeDevices()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27EC);
+			return (::System::Collections::Generic::List_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C48);
 		}
 
-		static ::System::UInt32* StaticGet__XInputUpdateRate_k__BackingField()
+		static ::System::Action** StaticGet_OnSetup()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27F0);
+			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C50);
+		}
+
+		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnUpdateDevices()
+		{
+			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C58);
+		}
+
+		static ::System::Collections::Generic::List_1<::InControl::InputDeviceManager*>** StaticGet_deviceManagers()
+		{
+			return (::System::Collections::Generic::List_1<::InControl::InputDeviceManager*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x54C60);
 		}
 
 		static ::System::Single* StaticGet_initialTime()
 		{
-			return (::System::Single*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27F4);
-		}
-
-		static ::System::Nullable_1<::InControl::VersionInfo>* StaticGet_unityVersion()
-		{
-			return (::System::Nullable_1<::InControl::VersionInfo>*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x27F8);
-		}
-
-		static ::InControl::VersionInfo* StaticGet_Version()
-		{
-			return (::InControl::VersionInfo*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x280C);
-		}
-
-		static ::System::UInt64* StaticGet_currentTick()
-		{
-			return (::System::UInt64*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2820);
-		}
-
-		static ::System::UInt32* StaticGet__XInputBufferSize_k__BackingField()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2828);
-		}
-
-		static ::System::Boolean* StaticGet__NativeInputEnableMFi_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x282C);
-		}
-
-		static ::System::Boolean* StaticGet__EnableNativeInput_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x282D);
-		}
-
-		static ::System::Boolean* StaticGet__NativeInputPreventSleep_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x282E);
-		}
-
-		static ::System::Boolean* StaticGet__ApplicationisForegroundWindow_k__BackingField()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x282F);
-		}
-
-		static ::System::Boolean* StaticGet_enabled()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2830);
+			return (::System::Single*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12210);
 		}
 
 		static ::System::Boolean* StaticGet__InvertYAxis_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2831);
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12214);
 		}
 
-		static ::System::Boolean* StaticGet__EnableICade_k__BackingField()
+		static ::System::Boolean* StaticGet__NativeInputPreventSleep_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2832);
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12215);
+		}
+
+		static ::System::Boolean* StaticGet__ApplicationisForegroundWindow_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12216);
+		}
+
+		static ::System::Boolean* StaticGet__CommandWasPressed_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12217);
+		}
+
+		static ::System::Boolean* StaticGet__EnableNativeInput_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12218);
+		}
+
+		static ::System::Boolean* StaticGet__NativeInputEnableMFi_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12219);
+		}
+
+		static ::System::Boolean* StaticGet_enabled()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x1221A);
+		}
+
+		static ::System::UInt32* StaticGet__XInputBufferSize_k__BackingField()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x1221C);
+		}
+
+		static ::System::Single* StaticGet_lastUpdateTime()
+		{
+			return (::System::Single*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12220);
+		}
+
+		static ::System::Boolean* StaticGet__NativeInputEnableXInput_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12224);
+		}
+
+		static ::System::Boolean* StaticGet__EnableXInput_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12225);
 		}
 
 		static ::System::Boolean* StaticGet__SuspendInBackground_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2833);
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12226);
+		}
+
+		static ::System::Boolean* StaticGet__IsSetup_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12227);
+		}
+
+		static ::System::Nullable_1<::InControl::VersionInfo>* StaticGet_unityVersion()
+		{
+			return (::System::Nullable_1<::InControl::VersionInfo>*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12228);
+		}
+
+		static ::System::UInt32* StaticGet__NativeInputUpdateRate_k__BackingField()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x1223C);
 		}
 
 		static ::System::Single* StaticGet_currentTime()
 		{
-			return (::System::Single*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2834);
+			return (::System::Single*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12240);
+		}
+
+		static ::System::Boolean* StaticGet_applicationIsFocused()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12244);
+		}
+
+		static ::System::Boolean* StaticGet__EnableICade_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12245);
+		}
+
+		static ::System::UInt64* StaticGet_currentTick()
+		{
+			return (::System::UInt64*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12248);
+		}
+
+		static ::InControl::VersionInfo* StaticGet_Version()
+		{
+			return (::InControl::VersionInfo*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12250);
+		}
+
+		static ::System::UInt32* StaticGet__XInputUpdateRate_k__BackingField()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x12260);
 		}
 
 		static ::System::Void _cctor()

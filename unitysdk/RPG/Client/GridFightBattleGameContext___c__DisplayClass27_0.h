@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class GridFightGridMember; }
+
+#define RPG_CLIENT_GRIDFIGHTBATTLEGAMECONTEXT___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C733C80)
+#define RPG_CLIENT_GRIDFIGHTBATTLEGAMECONTEXT___C__DISPLAYCLASS27_0__GETMEMBERSBYTRAITID_B__0_OFFSET UNITYSDK_OFFSET(0x1C737DC0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightBattleGameContext___c__DisplayClass27_0_TypeDefinitionIndex = 65848;
+
+	class GridFightBattleGameContext___c__DisplayClass27_0 : public ::System::Object
+	{
+	public:
+		::System::UInt32 traitID; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLEGAMECONTEXT___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _GetMembersByTraitID_b__0(::RPG::Client::GridFightGridMember* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridMember*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLEGAMECONTEXT___C__DISPLAYCLASS27_0__GETMEMBERSBYTRAITID_B__0_OFFSET))(this, a1);
+		}
+
+	};
+}

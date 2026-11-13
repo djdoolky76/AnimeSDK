@@ -6,32 +6,32 @@
 namespace RPG::Client::Prop { class AlchemyItem; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_CTOR_OFFSET UNITYSDK_OFFSET(0xDC126F0)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDC12710)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDC12B00)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDC12B60)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDC12B10)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC12700)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_CTOR_OFFSET UNITYSDK_OFFSET(0x19BF5EC0)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19BF5FC0)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19BF63B0)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19BF6410)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19BF63C0)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19BF5FB0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AlchemyItem__DoAnimChangeValue_d__11_TypeDefinitionIndex = 78199;
+	inline static constexpr unsigned int AlchemyItem__DoAnimChangeValue_d__11_TypeDefinitionIndex = 80934;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class AlchemyItem__DoAnimChangeValue_d__11 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::RPG::Client::Prop::AlchemyItem* __4__this; // 0x18
-		::System::Int32 _oriValue_5__3; // 0x20
-		::System::Single _animTime_5__2; // 0x24
-		::RPG::Client::Prop::AlchemyLogicType _lastColor_5__7; // 0x28
-		::RPG::Client::Prop::AlchemyLogicType color; // 0x2C
-		::System::Single _totalTime_5__4; // 0x30
-		::System::Int32 __1__state; // 0x34
-		::UnityEngine::Color _oriColor_5__5; // 0x38
-		::System::Int32 value; // 0x48
-		::UnityEngine::Color _targetColor_5__6; // 0x4C
+		::RPG::Client::Prop::AlchemyItem* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::UnityEngine::Color _targetColor_5__6; // 0x20
+		::RPG::Client::Prop::AlchemyLogicType _lastColor_5__7; // 0x30
+		::System::Int32 value; // 0x34
+		::System::Int32 __1__state; // 0x38
+		::System::Single _totalTime_5__4; // 0x3C
+		::UnityEngine::Color _oriColor_5__5; // 0x40
+		::System::Int32 _oriValue_5__3; // 0x50
+		::RPG::Client::Prop::AlchemyLogicType color; // 0x54
+		::System::Single _animTime_5__2; // 0x58
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_CTOR_OFFSET))(this, a1);

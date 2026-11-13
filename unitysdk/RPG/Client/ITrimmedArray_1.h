@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITrimmedArray_1_TypeDefinitionIndex = 35331;
+	inline static constexpr unsigned int ITrimmedArray_1_TypeDefinitionIndex = 36259;
 
 	template <typename T>
 	class ITrimmedArray_1

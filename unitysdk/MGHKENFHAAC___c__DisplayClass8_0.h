@@ -4,9 +4,9 @@
 class MGHKENFHAAC;
 namespace System { class String; }
 
-#define MGHKENFHAAC___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB919690)
+#define MGHKENFHAAC___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B33F630)
 
-inline static constexpr unsigned int MGHKENFHAAC___c__DisplayClass8_0_TypeDefinitionIndex = 57422;
+inline static constexpr unsigned int MGHKENFHAAC___c__DisplayClass8_0_TypeDefinitionIndex = 58650;
 
 	class MGHKENFHAAC___c__DisplayClass8_0 : public ::System::Object
 	{

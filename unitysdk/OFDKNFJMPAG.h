@@ -3,10 +3,10 @@
 class ALKKNOJJLFL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OFDKNFJMPAG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE35EB0)
-#define OFDKNFJMPAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE35EE0)
+#define OFDKNFJMPAG_CTOR_OFFSET UNITYSDK_OFFSET(0x176651B0)
+#define OFDKNFJMPAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x176651E0)
 
-inline static constexpr unsigned int OFDKNFJMPAG_TypeDefinitionIndex = 58629;
+inline static constexpr unsigned int OFDKNFJMPAG_TypeDefinitionIndex = 59896;
 
 	class OFDKNFJMPAG
 	{

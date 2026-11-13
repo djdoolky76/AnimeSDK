@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PetPartySummonUnitTagMapping; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PETPARTYSUMMONUNITTAGMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DD8E0)
-#define RPG_GAMECORE_PETPARTYSUMMONUNITTAGMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DD790)
+#define RPG_GAMECORE_PETPARTYSUMMONUNITTAGMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4C590)
+#define RPG_GAMECORE_PETPARTYSUMMONUNITTAGMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE4C440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetPartySummonUnitTagMapping_TypeDefinitionIndex = 17541;
+	inline static constexpr unsigned int PetPartySummonUnitTagMapping_TypeDefinitionIndex = 17709;
 
 	class PetPartySummonUnitTagMapping : public ::RPG::GameCore::JsonConfig
 	{

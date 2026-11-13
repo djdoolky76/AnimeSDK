@@ -4,17 +4,17 @@
 namespace System { class Version; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JICKEGCLBMC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E67B0)
-#define JICKEGCLBMC_GODCHGIMIAJ_OFFSET UNITYSDK_OFFSET(0xB1E6760)
-#define JICKEGCLBMC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB1E66F0)
+#define JICKEGCLBMC_CTOR_OFFSET UNITYSDK_OFFSET(0x174152E0)
+#define JICKEGCLBMC_GODCHGIMIAJ_OFFSET UNITYSDK_OFFSET(0x17415290)
+#define JICKEGCLBMC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x17415220)
 
-inline static constexpr unsigned int JICKEGCLBMC_TypeDefinitionIndex = 82246;
+inline static constexpr unsigned int JICKEGCLBMC_TypeDefinitionIndex = 85119;
 
 	class JICKEGCLBMC : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Il2CppArray<::System::Int32>*>* EFHHHMFJOOA; // 0x10
-		::System::Collections::Generic::List_1<::System::Version*>* BLICIKDLKOC; // 0x18
+		::System::Collections::Generic::List_1<::System::Version*>* BLICIKDLKOC; // 0x10
+		::Il2CppArray<::Il2CppArray<::System::Int32>*>* EFHHHMFJOOA; // 0x18
 		::System::Int32 JDIIOGHKECL; // 0x20
 		::System::Void _ctor()
 		{

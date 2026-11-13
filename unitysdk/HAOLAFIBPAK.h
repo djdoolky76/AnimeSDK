@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HPKACEPPPCA.h"
 
-#define HAOLAFIBPAK_CLEAR_OFFSET UNITYSDK_OFFSET(0x15B92450)
-#define HAOLAFIBPAK_CTOR_OFFSET UNITYSDK_OFFSET(0x15B92560)
+#define HAOLAFIBPAK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C14D6A0)
+#define HAOLAFIBPAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C14D7B0)
 
-inline static constexpr unsigned int HAOLAFIBPAK_TypeDefinitionIndex = 73800;
+inline static constexpr unsigned int HAOLAFIBPAK_TypeDefinitionIndex = 75926;
 
 	class HAOLAFIBPAK : public ::HPKACEPPPCA
 	{

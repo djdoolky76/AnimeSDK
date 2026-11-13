@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class DestroyUnstageCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CJJFEDMKIAN_CTOR_OFFSET UNITYSDK_OFFSET(0xD20F440)
-#define CJJFEDMKIAN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD20F450)
-#define CJJFEDMKIAN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD20F490)
-#define CJJFEDMKIAN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD20F6C0)
-#define CJJFEDMKIAN_TICK_OFFSET UNITYSDK_OFFSET(0xD20F710)
+#define CJJFEDMKIAN_CTOR_OFFSET UNITYSDK_OFFSET(0x177DA7F0)
+#define CJJFEDMKIAN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177DA800)
+#define CJJFEDMKIAN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x177DA840)
+#define CJJFEDMKIAN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x177DAA70)
+#define CJJFEDMKIAN_TICK_OFFSET UNITYSDK_OFFSET(0x177DAAC0)
 
-inline static constexpr unsigned int CJJFEDMKIAN_TypeDefinitionIndex = 55001;
+inline static constexpr unsigned int CJJFEDMKIAN_TypeDefinitionIndex = 56175;
 
 	class CJJFEDMKIAN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::DestroyUnstageCharacter* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::DestroyUnstageCharacter* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DestroyUnstageCharacter* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::DestroyUnstageCharacter*))((::PBYTE)hIl2Cpp + CJJFEDMKIAN_CTOR_OFFSET))(this, a1, a2);

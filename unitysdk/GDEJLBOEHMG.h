@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/AdvSkillAfterPacketActionType.h"
 #include "unitysdk/System/Object.h"
 
-#define GDEJLBOEHMG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1598FCE0)
-#define GDEJLBOEHMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1598FCD0)
-#define GDEJLBOEHMG_NMOCNLLMIDH_OFFSET UNITYSDK_OFFSET(0x1598FD30)
+#define GDEJLBOEHMG_CLEAR_OFFSET UNITYSDK_OFFSET(0x19ED58F0)
+#define GDEJLBOEHMG_CTOR_OFFSET UNITYSDK_OFFSET(0x19ED58E0)
+#define GDEJLBOEHMG_NMOCNLLMIDH_OFFSET UNITYSDK_OFFSET(0x19ED5940)
 
-inline static constexpr unsigned int GDEJLBOEHMG_TypeDefinitionIndex = 62020;
+inline static constexpr unsigned int GDEJLBOEHMG_TypeDefinitionIndex = 63432;
 
 	class GDEJLBOEHMG : public ::System::Object
 	{

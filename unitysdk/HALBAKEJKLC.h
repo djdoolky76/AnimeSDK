@@ -5,19 +5,19 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HALBAKEJKLC_ABPMPOIPPOD_OFFSET UNITYSDK_OFFSET(0x15B79650)
-#define HALBAKEJKLC_BMCFNBKFBEH_OFFSET UNITYSDK_OFFSET(0x15B794C0)
-#define HALBAKEJKLC_CLEAR_OFFSET UNITYSDK_OFFSET(0x15B79410)
-#define HALBAKEJKLC_CTOR_OFFSET UNITYSDK_OFFSET(0x15B79BD0)
-#define HALBAKEJKLC_LBJLDANOLNN_OFFSET UNITYSDK_OFFSET(0x15B795C0)
+#define HALBAKEJKLC_ABPMPOIPPOD_OFFSET UNITYSDK_OFFSET(0x17DE6C10)
+#define HALBAKEJKLC_BMCFNBKFBEH_OFFSET UNITYSDK_OFFSET(0x17DE6A80)
+#define HALBAKEJKLC_CLEAR_OFFSET UNITYSDK_OFFSET(0x17DE69D0)
+#define HALBAKEJKLC_CTOR_OFFSET UNITYSDK_OFFSET(0x17DE71F0)
+#define HALBAKEJKLC_LBJLDANOLNN_OFFSET UNITYSDK_OFFSET(0x17DE6B80)
 
-inline static constexpr unsigned int HALBAKEJKLC_TypeDefinitionIndex = 66658;
+inline static constexpr unsigned int HALBAKEJKLC_TypeDefinitionIndex = 68594;
 
 	class HALBAKEJKLC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* INJIAJBIHCN; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* ANGFOPKGODF; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* ANGFOPKGODF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* INJIAJBIHCN; // 0x18
 		// static const ::System::Object PIPLDPEOMBI; // 0x0
 		::System::Void _ctor()
 		{

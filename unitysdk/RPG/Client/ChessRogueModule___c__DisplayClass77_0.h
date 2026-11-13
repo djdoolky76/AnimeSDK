@@ -4,12 +4,12 @@
 class CGMCMAKMJDK;
 namespace RPG::Client { class ChessRogueBoardCellDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCAF8F40)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0___ONCMDCHESSROGUECELLUPDATENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xCAFB890)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AC830)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0___ONCMDCHESSROGUECELLUPDATENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x1D8AF160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueModule___c__DisplayClass77_0_TypeDefinitionIndex = 66934;
+	inline static constexpr unsigned int ChessRogueModule___c__DisplayClass77_0_TypeDefinitionIndex = 68878;
 
 	class ChessRogueModule___c__DisplayClass77_0 : public ::System::Object
 	{

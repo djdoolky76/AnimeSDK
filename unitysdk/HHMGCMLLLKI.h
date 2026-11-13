@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InfiniteWaveModifySummonProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHMGCMLLLKI_CTOR_OFFSET UNITYSDK_OFFSET(0x15CC6860)
-#define HHMGCMLLLKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CC6890)
+#define HHMGCMLLLKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1901F0B0)
+#define HHMGCMLLLKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1901F0E0)
 
-inline static constexpr unsigned int HHMGCMLLLKI_TypeDefinitionIndex = 55124;
+inline static constexpr unsigned int HHMGCMLLLKI_TypeDefinitionIndex = 56301;
 
 	class HHMGCMLLLKI
 	{

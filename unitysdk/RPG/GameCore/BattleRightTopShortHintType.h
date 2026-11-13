@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleRightTopShortHintType_TypeDefinitionIndex = 24727;
+	inline static constexpr unsigned int BattleRightTopShortHintType_TypeDefinitionIndex = 25203;
 
 	enum class BattleRightTopShortHintType : ::System::Int32
 	{

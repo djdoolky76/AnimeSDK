@@ -5,10 +5,10 @@ namespace RPG::GameCore { class ByIsRogueTournCurRoomFinish; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GNCKJPIEAHL_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF2480)
-#define GNCKJPIEAHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AF2560)
+#define GNCKJPIEAHL_CTOR_OFFSET UNITYSDK_OFFSET(0x16CAAFA0)
+#define GNCKJPIEAHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16CAB080)
 
-inline static constexpr unsigned int GNCKJPIEAHL_TypeDefinitionIndex = 57985;
+inline static constexpr unsigned int GNCKJPIEAHL_TypeDefinitionIndex = 59224;
 
 	class GNCKJPIEAHL
 	{

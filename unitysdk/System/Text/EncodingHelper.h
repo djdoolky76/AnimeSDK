@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODINGHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0F3570)
-#define SYSTEM_TEXT_ENCODINGHELPER_GETDEFAULTENCODING_OFFSET UNITYSDK_OFFSET(0x1C0F0B70)
-#define SYSTEM_TEXT_ENCODINGHELPER_GET_UTF8UNMARKED_OFFSET UNITYSDK_OFFSET(0x1C0F3270)
-#define SYSTEM_TEXT_ENCODINGHELPER_INTERNALCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1C0F3560)
-#define SYSTEM_TEXT_ENCODINGHELPER_INVOKEI18N_OFFSET UNITYSDK_OFFSET(0x1C0EDB70)
+#define SYSTEM_TEXT_ENCODINGHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8D2980)
+#define SYSTEM_TEXT_ENCODINGHELPER_GETDEFAULTENCODING_OFFSET UNITYSDK_OFFSET(0x1C8CFFB0)
+#define SYSTEM_TEXT_ENCODINGHELPER_GET_UTF8UNMARKED_OFFSET UNITYSDK_OFFSET(0x1C8D2680)
+#define SYSTEM_TEXT_ENCODINGHELPER_INTERNALCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1C8D2970)
+#define SYSTEM_TEXT_ENCODINGHELPER_INVOKEI18N_OFFSET UNITYSDK_OFFSET(0x1C8CD0E0)
 
 namespace System::Text
 {
@@ -21,22 +21,22 @@ namespace System::Text
 	public:
 		static ::System::Object** StaticGet_lockobj()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Text", "EncodingHelper")->GetStaticField(0x23A10);
+			return (::System::Object**)UnitySDK::FromName("System.Text", "EncodingHelper")->GetStaticField(0x15EC0);
 		}
 
 		static ::System::Text::Encoding** StaticGet_utf8EncodingWithoutMarkers()
 		{
-			return (::System::Text::Encoding**)UnitySDK::FromName("System.Text", "EncodingHelper")->GetStaticField(0x23A18);
+			return (::System::Text::Encoding**)UnitySDK::FromName("System.Text", "EncodingHelper")->GetStaticField(0x15EC8);
 		}
 
 		static ::System::Reflection::Assembly** StaticGet_i18nAssembly()
 		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("System.Text", "EncodingHelper")->GetStaticField(0x23A20);
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("System.Text", "EncodingHelper")->GetStaticField(0x15ED0);
 		}
 
 		static ::System::Boolean* StaticGet_i18nDisabled()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Text", "EncodingHelper")->GetStaticField(0x7B70);
+			return (::System::Boolean*)UnitySDK::FromName("System.Text", "EncodingHelper")->GetStaticField(0x4E20);
 		}
 
 		static ::System::Void _cctor()

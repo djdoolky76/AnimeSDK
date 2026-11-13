@@ -11,25 +11,25 @@ namespace RPG::GameCore { class SkillData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define ALGMPBLKIGI_AFOCNOKBNBH_OFFSET UNITYSDK_OFFSET(0x1555DC60)
-#define ALGMPBLKIGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1555E4A0)
-#define ALGMPBLKIGI_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x1555DB60)
-#define ALGMPBLKIGI_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x1555DBE0)
-#define ALGMPBLKIGI_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x1555DC20)
-#define ALGMPBLKIGI_JDGMPELLNFP_OFFSET UNITYSDK_OFFSET(0x1555DCF0)
-#define ALGMPBLKIGI_LJKADDJPNNP_OFFSET UNITYSDK_OFFSET(0x1555E260)
-#define ALGMPBLKIGI_MOPJLKIHIHP_OFFSET UNITYSDK_OFFSET(0x1555DA70)
-#define ALGMPBLKIGI__ONBIND_OFFSET UNITYSDK_OFFSET(0x1555DAD0)
+#define ALGMPBLKIGI_AFOCNOKBNBH_OFFSET UNITYSDK_OFFSET(0x197C20E0)
+#define ALGMPBLKIGI_CTOR_OFFSET UNITYSDK_OFFSET(0x197C2930)
+#define ALGMPBLKIGI_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x197C2060)
+#define ALGMPBLKIGI_JDGMPELLNFP_OFFSET UNITYSDK_OFFSET(0x197C2170)
+#define ALGMPBLKIGI_LJKADDJPNNP_OFFSET UNITYSDK_OFFSET(0x197C26F0)
+#define ALGMPBLKIGI_MOPJLKIHIHP_OFFSET UNITYSDK_OFFSET(0x197C1EF0)
+#define ALGMPBLKIGI__ONBIND_OFFSET UNITYSDK_OFFSET(0x197C1F50)
+#define ALGMPBLKIGI__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x197C1FE0)
+#define ALGMPBLKIGI__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x197C20A0)
 
-inline static constexpr unsigned int ALGMPBLKIGI_TypeDefinitionIndex = 71876;
+inline static constexpr unsigned int ALGMPBLKIGI_TypeDefinitionIndex = 73897;
 
 	class ALGMPBLKIGI : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* GNCFPJIDCLO; // 0x60
-		::System::Collections::Generic::List_1<::FENBKKMELOI*>* KMDAIPPCNOE; // 0x68
-		::EANKAFJCEEH* ABOBEBEOHPA; // 0x70
-		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x78
+		::System::Collections::Generic::List_1<::FENBKKMELOI*>* KMDAIPPCNOE; // 0x60
+		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x68
+		::UnityEngine::Transform* GNCFPJIDCLO; // 0x70
+		::EANKAFJCEEH* ABOBEBEOHPA; // 0x78
 		::System::Int32 NNGGGKMGJLL; // 0x80
 		::System::Void _ctor()
 		{
@@ -46,9 +46,9 @@ inline static constexpr unsigned int ALGMPBLKIGI_TypeDefinitionIndex = 71876;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALGMPBLKIGI__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + ALGMPBLKIGI_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + ALGMPBLKIGI__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void ECOHEIAHIAO()
@@ -56,9 +56,9 @@ inline static constexpr unsigned int ALGMPBLKIGI_TypeDefinitionIndex = 71876;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALGMPBLKIGI_ECOHEIAHIAO_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALGMPBLKIGI_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALGMPBLKIGI__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void AFOCNOKBNBH(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::SkillData* a2)

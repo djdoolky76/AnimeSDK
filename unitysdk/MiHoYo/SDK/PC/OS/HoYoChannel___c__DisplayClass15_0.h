@@ -5,12 +5,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelSocialUpdateResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEB840)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS15_0__REGISTERSOCIALUPDATECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1BEF4770)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0E4300)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS15_0__REGISTERSOCIALUPDATECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1B0ED230)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannel___c__DisplayClass15_0_TypeDefinitionIndex = 8505;
+	inline static constexpr unsigned int HoYoChannel___c__DisplayClass15_0_TypeDefinitionIndex = 8514;
 
 	class HoYoChannel___c__DisplayClass15_0 : public ::System::Object
 	{

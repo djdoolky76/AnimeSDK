@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F61C840)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61C880)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR___C___CTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F61C890)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDB6D10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB6D50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR___C___CTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDB6D60)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserCursor___c_TypeDefinitionIndex = 39368;
+	inline static constexpr unsigned int BrowserCursor___c_TypeDefinitionIndex = 40297;
 
 	class BrowserCursor___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__23_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x421B0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x421B8);
+			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x41CB0);
+		}
+
+		static ::System::Action** StaticGet___9__23_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x41CB8);
 		}
 
 		static ::System::Void _cctor()

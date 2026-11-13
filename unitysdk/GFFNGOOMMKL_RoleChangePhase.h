@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GFFNGOOMMKL_RoleChangePhase_TypeDefinitionIndex = 76595;
+inline static constexpr unsigned int GFFNGOOMMKL_RoleChangePhase_TypeDefinitionIndex = 78926;
 
 	enum class GFFNGOOMMKL_RoleChangePhase : ::System::Int32
 	{

@@ -5,29 +5,29 @@ class LAAOKALNHIO;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PCOMPBCHHKC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7BE3F0)
-#define PCOMPBCHHKC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BE430)
-#define PCOMPBCHHKC___C__GETDELETEENTITYLISTSTRING_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C7BE460)
-#define PCOMPBCHHKC___C__GETUPDATEENTITYLISTSTRING_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C7BE440)
+#define PCOMPBCHHKC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B09FC10)
+#define PCOMPBCHHKC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B09FC50)
+#define PCOMPBCHHKC___C__GETDELETEENTITYLISTSTRING_B__5_0_OFFSET UNITYSDK_OFFSET(0x1B09FC80)
+#define PCOMPBCHHKC___C__GETUPDATEENTITYLISTSTRING_B__4_0_OFFSET UNITYSDK_OFFSET(0x1B09FC60)
 
-inline static constexpr unsigned int PCOMPBCHHKC___c_TypeDefinitionIndex = 36912;
+inline static constexpr unsigned int PCOMPBCHHKC___c_TypeDefinitionIndex = 37840;
 
 	class PCOMPBCHHKC___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::LAAOKALNHIO*, ::System::Int32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::LAAOKALNHIO*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D200);
+			return (::System::Func_2<::LAAOKALNHIO*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15900);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D208);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15908);
 		}
 
 		static ::System::Func_2<::LAAOKALNHIO*, ::System::Int32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::LAAOKALNHIO*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D210);
+			return (::System::Func_2<::LAAOKALNHIO*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15910);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRaidCollectionModeRow; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D34B650)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34AFF0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA929B0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA92310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 12320;
+	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 12377;
 
 	class ActivityRaidCollectionModeRow : public ::System::Object
 	{

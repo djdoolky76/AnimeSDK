@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivityData; }
 
-#define ACONFLKJFEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB12B540)
-#define ACONFLKJFEM_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xB12B4C0)
+#define ACONFLKJFEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1829CCE0)
+#define ACONFLKJFEM_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x1829CC60)
 
-inline static constexpr unsigned int ACONFLKJFEM_TypeDefinitionIndex = 61722;
+inline static constexpr unsigned int ACONFLKJFEM_TypeDefinitionIndex = 63128;
 
 	class ACONFLKJFEM : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ToneAudioEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TONEAUDIOEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFA970)
-#define RPG_GAMECORE_TONEAUDIOEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBFA7D0)
+#define RPG_GAMECORE_TONEAUDIOEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D3DC0)
+#define RPG_GAMECORE_TONEAUDIOEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D3C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToneAudioEventConfig_TypeDefinitionIndex = 16391;
+	inline static constexpr unsigned int ToneAudioEventConfig_TypeDefinitionIndex = 16555;
 
 	class ToneAudioEventConfig : public ::RPG::GameCore::JsonConfig
 	{

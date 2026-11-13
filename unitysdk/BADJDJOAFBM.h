@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BADJDJOAFBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C881E40)
+#define BADJDJOAFBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AC620)
 
-inline static constexpr unsigned int BADJDJOAFBM_TypeDefinitionIndex = 42166;
+inline static constexpr unsigned int BADJDJOAFBM_TypeDefinitionIndex = 43141;
 
 	class BADJDJOAFBM : public ::System::Object
 	{

@@ -5,11 +5,11 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
-#define EPOKLOCMNLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBD9EA0)
-#define EPOKLOCMNLA_MCPMIODLBNL_OFFSET UNITYSDK_OFFSET(0x1EBD9B10)
-#define EPOKLOCMNLA_NINEHEEGBEG_OFFSET UNITYSDK_OFFSET(0x1EBD9570)
+#define EPOKLOCMNLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE6120)
+#define EPOKLOCMNLA_MCPMIODLBNL_OFFSET UNITYSDK_OFFSET(0x1CAE5D90)
+#define EPOKLOCMNLA_NINEHEEGBEG_OFFSET UNITYSDK_OFFSET(0x1CAE57F0)
 
-inline static constexpr unsigned int EPOKLOCMNLA_TypeDefinitionIndex = 35174;
+inline static constexpr unsigned int EPOKLOCMNLA_TypeDefinitionIndex = 36102;
 
 	class EPOKLOCMNLA : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class CABBOOKAODO;
 namespace System { class Object; }
 
-#define CABBOOKAODO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0262C0)
-#define CABBOOKAODO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E026300)
-#define CABBOOKAODO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E026310)
+#define CABBOOKAODO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20346130)
+#define CABBOOKAODO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20346170)
+#define CABBOOKAODO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x20346180)
 
-inline static constexpr unsigned int CABBOOKAODO___c_TypeDefinitionIndex = 32600;
+inline static constexpr unsigned int CABBOOKAODO___c_TypeDefinitionIndex = 33515;
 
 	class CABBOOKAODO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FE90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F280);
 		}
 
 		static ::System::Void _cctor()

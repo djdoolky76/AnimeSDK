@@ -6,9 +6,9 @@ namespace RPG::Client { class IRogueTournPersonaStyle; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CHNIBOLCAKJ_MLPJKDKLOLM_OFFSET UNITYSDK_OFFSET(0xCF59100)
+#define CHNIBOLCAKJ_MLPJKDKLOLM_OFFSET UNITYSDK_OFFSET(0x16E2E190)
 
-inline static constexpr unsigned int CHNIBOLCAKJ_TypeDefinitionIndex = 67246;
+inline static constexpr unsigned int CHNIBOLCAKJ_TypeDefinitionIndex = 69190;
 
 	class CHNIBOLCAKJ : public ::System::Object
 	{

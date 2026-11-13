@@ -5,25 +5,25 @@ namespace RPG::Client { class IRogueTournPersonaRoomAttribute; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELPRESETROOMDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE010020)
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELPRESETROOMDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE010060)
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELPRESETROOMDATA___C__GETDEBUGINFO_B__38_0_OFFSET UNITYSDK_OFFSET(0xE010070)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELPRESETROOMDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0D23D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELPRESETROOMDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D2410)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELPRESETROOMDATA___C__GETDEBUGINFO_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E0D2420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaGameLevelPresetRoomData___c_TypeDefinitionIndex = 67715;
+	inline static constexpr unsigned int RogueTournPersonaGameLevelPresetRoomData___c_TypeDefinitionIndex = 69660;
 
 	class RogueTournPersonaGameLevelPresetRoomData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::IRogueTournPersonaRoomAttribute*, ::System::UInt32>** StaticGet___9__38_0()
-		{
-			return (::System::Func_2<::RPG::Client::IRogueTournPersonaRoomAttribute*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6ADD0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6ADD8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72F90);
+		}
+
+		static ::System::Func_2<::RPG::Client::IRogueTournPersonaRoomAttribute*, ::System::UInt32>** StaticGet___9__38_0()
+		{
+			return (::System::Func_2<::RPG::Client::IRogueTournPersonaRoomAttribute*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72F98);
 		}
 
 		static ::System::Void _cctor()

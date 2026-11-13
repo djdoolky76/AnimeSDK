@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EquipmentAtlasRow; }
 
-#define RPG_GAMECORE_EQUIPMENTATLASROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D64D870)
-#define RPG_GAMECORE_EQUIPMENTATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D64D750)
+#define RPG_GAMECORE_EQUIPMENTATLASROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F2C70)
+#define RPG_GAMECORE_EQUIPMENTATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0F2B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentAtlasRow_TypeDefinitionIndex = 13246;
+	inline static constexpr unsigned int EquipmentAtlasRow_TypeDefinitionIndex = 13320;
 
 	class EquipmentAtlasRow : public ::System::Object
 	{

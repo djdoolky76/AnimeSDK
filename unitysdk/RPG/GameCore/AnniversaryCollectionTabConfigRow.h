@@ -8,12 +8,12 @@ namespace RPG::GameCore { class AnniversaryCollectionTabConfigRow; }
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONTABCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C84E0)
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3C8220)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONTABCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAD790)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEAD4D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionTabConfigRow_TypeDefinitionIndex = 12662;
+	inline static constexpr unsigned int AnniversaryCollectionTabConfigRow_TypeDefinitionIndex = 12729;
 
 	class AnniversaryCollectionTabConfigRow : public ::System::Object
 	{

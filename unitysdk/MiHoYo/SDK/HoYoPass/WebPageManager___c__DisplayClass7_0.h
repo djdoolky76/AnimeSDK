@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::HoYoPass { class WebPageManager; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE528E0)
-#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0__OPENWEBPAGE_B__5_OFFSET UNITYSDK_OFFSET(0x1BE53AE0)
+#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B69B590)
+#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0__OPENWEBPAGE_B__5_OFFSET UNITYSDK_OFFSET(0x1B69C790)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int WebPageManager___c__DisplayClass7_0_TypeDefinitionIndex = 8345;
+	inline static constexpr unsigned int WebPageManager___c__DisplayClass7_0_TypeDefinitionIndex = 8354;
 
 	class WebPageManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoPass::WebPageManager* __4__this; // 0x10
-		::System::Action_2<::MiHoYo::SDK::Web*, ::MiHoYo::SDK::JSONNode*>* bridgeValue; // 0x18
+		::System::Action_2<::MiHoYo::SDK::Web*, ::MiHoYo::SDK::JSONNode*>* bridgeValue; // 0x10
+		::MiHoYo::SDK::HoYoPass::WebPageManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);

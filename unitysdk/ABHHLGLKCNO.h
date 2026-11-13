@@ -5,20 +5,20 @@ class AAFIACIMMHE;
 class DHHMOPOLKBF;
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 
-#define ABHHLGLKCNO_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F7AA0)
-#define ABHHLGLKCNO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0F7AE0)
-#define ABHHLGLKCNO_EIFEDGJKDDA_OFFSET UNITYSDK_OFFSET(0xB0F79F0)
-#define ABHHLGLKCNO_GET_CURRENTPERCENT_OFFSET UNITYSDK_OFFSET(0xB0F7A90)
-#define ABHHLGLKCNO_GET_DIVISIONLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0xB0F7A80)
+#define ABHHLGLKCNO_CTOR_OFFSET UNITYSDK_OFFSET(0x18CA8940)
+#define ABHHLGLKCNO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18CA8980)
+#define ABHHLGLKCNO_EIFEDGJKDDA_OFFSET UNITYSDK_OFFSET(0x18CA8890)
+#define ABHHLGLKCNO_GET_CURRENTPERCENT_OFFSET UNITYSDK_OFFSET(0x18CA8930)
+#define ABHHLGLKCNO_GET_DIVISIONLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0x18CA8920)
 
-inline static constexpr unsigned int ABHHLGLKCNO_TypeDefinitionIndex = 79570;
+inline static constexpr unsigned int ABHHLGLKCNO_TypeDefinitionIndex = 82347;
 
 	class ABHHLGLKCNO : public ::System::Object
 	{
 	public:
-		::AAFIACIMMHE* _DivisionLevelUpRule_k__BackingField; // 0x10
-		::DHHMOPOLKBF* JOKBAPFCJFM; // 0x18
-		::R3::ReadOnlyReactiveProperty_1<::System::Int32>* _CurrentPercent_k__BackingField; // 0x20
+		::DHHMOPOLKBF* JOKBAPFCJFM; // 0x10
+		::R3::ReadOnlyReactiveProperty_1<::System::Int32>* _CurrentPercent_k__BackingField; // 0x18
+		::AAFIACIMMHE* _DivisionLevelUpRule_k__BackingField; // 0x20
 		::System::Void _ctor(::DHHMOPOLKBF* a1, ::AAFIACIMMHE* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::DHHMOPOLKBF*, ::AAFIACIMMHE*))((::PBYTE)hIl2Cpp + ABHHLGLKCNO_CTOR_OFFSET))(this, a1, a2);

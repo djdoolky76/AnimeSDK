@@ -5,10 +5,10 @@ class DMGLFMNEJGL;
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define PIKHOCDDCNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC266100)
-#define PIKHOCDDCNC_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xC266110)
+#define PIKHOCDDCNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D2670)
+#define PIKHOCDDCNC_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1A9D2680)
 
-inline static constexpr unsigned int PIKHOCDDCNC_TypeDefinitionIndex = 73393;
+inline static constexpr unsigned int PIKHOCDDCNC_TypeDefinitionIndex = 75513;
 
 	class PIKHOCDDCNC : public ::System::Object
 	{

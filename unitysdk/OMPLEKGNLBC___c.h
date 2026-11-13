@@ -4,18 +4,18 @@
 class OMPLEKGNLBC;
 namespace System { class Object; }
 
-#define OMPLEKGNLBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE93100)
-#define OMPLEKGNLBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE93140)
-#define OMPLEKGNLBC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DE93150)
+#define OMPLEKGNLBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC26B60)
+#define OMPLEKGNLBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC26BA0)
+#define OMPLEKGNLBC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FC26BB0)
 
-inline static constexpr unsigned int OMPLEKGNLBC___c_TypeDefinitionIndex = 27994;
+inline static constexpr unsigned int OMPLEKGNLBC___c_TypeDefinitionIndex = 28584;
 
 	class OMPLEKGNLBC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23C30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27E10);
 		}
 
 		static ::System::Void _cctor()

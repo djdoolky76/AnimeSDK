@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define HPELHHKMIEK_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB5E30)
+#define HPELHHKMIEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF302B0)
 
-inline static constexpr unsigned int HPELHHKMIEK_TypeDefinitionIndex = 57178;
+inline static constexpr unsigned int HPELHHKMIEK_TypeDefinitionIndex = 58405;
 
 	class HPELHHKMIEK : public ::System::Object
 	{

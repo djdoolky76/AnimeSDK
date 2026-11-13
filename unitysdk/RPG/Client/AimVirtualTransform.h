@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIMVIRTUALTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xC636100)
-#define RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xC635F20)
-#define RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xC635FE0)
+#define RPG_CLIENT_AIMVIRTUALTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E1D20)
+#define RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1B2E1B40)
+#define RPG_CLIENT_AIMVIRTUALTRANSFORM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1B2E1C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimVirtualTransform_TypeDefinitionIndex = 68489;
+	inline static constexpr unsigned int AimVirtualTransform_TypeDefinitionIndex = 70437;
 
 	class AimVirtualTransform : public ::System::Object
 	{

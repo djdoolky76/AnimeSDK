@@ -4,10 +4,10 @@
 class FABNLDDIMIG;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define LAMOJOPDBDI_BKCLEICKEHF_OFFSET UNITYSDK_OFFSET(0x1C53F300)
-#define LAMOJOPDBDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C53FAC0)
+#define LAMOJOPDBDI_BKCLEICKEHF_OFFSET UNITYSDK_OFFSET(0x207B6E20)
+#define LAMOJOPDBDI_CTOR_OFFSET UNITYSDK_OFFSET(0x207B75E0)
 
-inline static constexpr unsigned int LAMOJOPDBDI_TypeDefinitionIndex = 41897;
+inline static constexpr unsigned int LAMOJOPDBDI_TypeDefinitionIndex = 42872;
 
 	class LAMOJOPDBDI : public ::System::Object
 	{

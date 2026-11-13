@@ -5,10 +5,10 @@
 class AOBICCEGAMM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EOBNGNENKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x155AE040)
-#define EOBNGNENKNF_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x155AE050)
+#define EOBNGNENKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x16B1B740)
+#define EOBNGNENKNF_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x16B1B750)
 
-inline static constexpr unsigned int EOBNGNENKNF_TypeDefinitionIndex = 67141;
+inline static constexpr unsigned int EOBNGNENKNF_TypeDefinitionIndex = 69085;
 
 	class EOBNGNENKNF : public ::System::Object
 	{

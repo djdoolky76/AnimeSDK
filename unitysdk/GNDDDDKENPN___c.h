@@ -6,35 +6,35 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define GNDDDDKENPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBEE050)
-#define GNDDDDKENPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBEE090)
-#define GNDDDDKENPN___C__REMOVEDIRECTORYREADONLYATTR_B__70_0_OFFSET UNITYSDK_OFFSET(0x1EBEE0A0)
-#define GNDDDDKENPN___C__REMOVEDIRECTORYREADONLYATTR_B__70_1_OFFSET UNITYSDK_OFFSET(0x1EBEE0B0)
-#define GNDDDDKENPN___C__SORTFILEBYNAME_B__103_0_OFFSET UNITYSDK_OFFSET(0x1EBEE0C0)
+#define GNDDDDKENPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAFA220)
+#define GNDDDDKENPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAFA260)
+#define GNDDDDKENPN___C__REMOVEDIRECTORYREADONLYATTR_B__70_0_OFFSET UNITYSDK_OFFSET(0x1CAFA270)
+#define GNDDDDKENPN___C__REMOVEDIRECTORYREADONLYATTR_B__70_1_OFFSET UNITYSDK_OFFSET(0x1CAFA280)
+#define GNDDDDKENPN___C__SORTFILEBYNAME_B__103_0_OFFSET UNITYSDK_OFFSET(0x1CAFA290)
 
-inline static constexpr unsigned int GNDDDDKENPN___c_TypeDefinitionIndex = 35307;
+inline static constexpr unsigned int GNDDDDKENPN___c_TypeDefinitionIndex = 36235;
 
 	class GNDDDDKENPN___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x520C0);
-		}
-
-		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_1()
-		{
-			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x520C8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57800);
 		}
 
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__103_0()
 		{
-			return (::System::Comparison_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x520D0);
+			return (::System::Comparison_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57808);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x520D8);
+			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57810);
+		}
+
+		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_1()
+		{
+			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57818);
 		}
 
 		static ::System::Void _cctor()

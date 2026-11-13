@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ForEach_TypeDefinitionIndex = 45365;
+	inline static constexpr unsigned int ForEach_TypeDefinitionIndex = 46394;
 
 	class ForEach : public ::System::Object
 	{

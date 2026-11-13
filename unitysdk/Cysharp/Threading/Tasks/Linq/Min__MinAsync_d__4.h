@@ -8,23 +8,23 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_MIN__MINASYNC_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5ED60)
-#define CYSHARP_THREADING_TASKS_LINQ_MIN__MINASYNC_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define CYSHARP_THREADING_TASKS_LINQ_MIN__MINASYNC_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3F293F0)
+#define CYSHARP_THREADING_TASKS_LINQ_MIN__MINASYNC_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xB480)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Min__MinAsync_d__4_TypeDefinitionIndex = 45486;
+	inline static constexpr unsigned int Min__MinAsync_d__4_TypeDefinitionIndex = 46515;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	struct alignas(8) Min__MinAsync_d__4
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
-		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Int32>* _e_5__3; // 0x28
-		::System::Object* __7__wrap3; // 0x30
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x38
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Int32>* source; // 0x10
+		::System::Object* __7__wrap3; // 0x18
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Int32>* _e_5__3; // 0x20
+		::System::Threading::CancellationToken cancellationToken; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x30
 		::System::Byte _padding0[0x10];
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Int32>* source; // 0x50
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x48
 		::System::Object* __u__1; // 0x58
 		::System::Byte _padding1[0x8];
 		::System::Int32 _value_5__2; // 0x68

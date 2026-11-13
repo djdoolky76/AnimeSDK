@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD14A170)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD14A1B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C__CANDRESS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD14A1C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D68C360)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68C3A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C__CANDRESS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D68C3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_AllSlotEmptyDressRule___c_TypeDefinitionIndex = 64640;
+	inline static constexpr unsigned int GridFightGameFormationEditor_AllSlotEmptyDressRule___c_TypeDefinitionIndex = 66169;
 
 	class GridFightGameFormationEditor_AllSlotEmptyDressRule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69FC0);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71620);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69FC8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71628);
 		}
 
 		static ::System::Void _cctor()

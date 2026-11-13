@@ -7,11 +7,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define OPGIMFDCFMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA2CE0)
-#define OPGIMFDCFMA_JEEGIKIJOMC_OFFSET UNITYSDK_OFFSET(0xBFA2E20)
-#define OPGIMFDCFMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFA2D10)
+#define OPGIMFDCFMA_CTOR_OFFSET UNITYSDK_OFFSET(0x18AB9460)
+#define OPGIMFDCFMA_JEEGIKIJOMC_OFFSET UNITYSDK_OFFSET(0x18AB95A0)
+#define OPGIMFDCFMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AB9490)
 
-inline static constexpr unsigned int OPGIMFDCFMA_TypeDefinitionIndex = 58709;
+inline static constexpr unsigned int OPGIMFDCFMA_TypeDefinitionIndex = 59977;
 
 	class OPGIMFDCFMA
 	{

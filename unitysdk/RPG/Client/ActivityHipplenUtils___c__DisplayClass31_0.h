@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC43EC50)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__DISPLAYCLASS31_0__OPENHIPPLENMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xC43EE50)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D121E20)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__DISPLAYCLASS31_0__OPENHIPPLENMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1D122180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHipplenUtils___c__DisplayClass31_0_TypeDefinitionIndex = 61529;
+	inline static constexpr unsigned int ActivityHipplenUtils___c__DisplayClass31_0_TypeDefinitionIndex = 62914;
 
 	class ActivityHipplenUtils___c__DisplayClass31_0 : public ::System::Object
 	{

@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TarotBookEnergyRow; }
 
-#define RPG_GAMECORE_TAROTBOOKENERGYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB48770)
-#define RPG_GAMECORE_TAROTBOOKENERGYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB48530)
+#define RPG_GAMECORE_TAROTBOOKENERGYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BD480)
+#define RPG_GAMECORE_TAROTBOOKENERGYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5BD240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookEnergyRow_TypeDefinitionIndex = 15236;
+	inline static constexpr unsigned int TarotBookEnergyRow_TypeDefinitionIndex = 15392;
 
 	class TarotBookEnergyRow : public ::System::Object
 	{
 	public:
-		::System::Boolean IsSilence; // 0x10
-		::System::Boolean IsRepetitive; // 0x11
+		::RPG::Client::TextID Toast; // 0x10
+		::System::Boolean IsSilence; // 0x20
+		::System::Boolean IsRepetitive; // 0x21
 		::System::Byte _padding0[0x2];
-		::System::UInt32 SubmissionID; // 0x14
-		::RPG::Client::TextID Toast; // 0x18
+		::System::UInt32 SubmissionID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKENERGYROW_CTOR_OFFSET))(this);

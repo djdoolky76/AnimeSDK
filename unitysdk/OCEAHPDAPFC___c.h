@@ -4,18 +4,18 @@
 class OCEAHPDAPFC;
 namespace System { class Object; }
 
-#define OCEAHPDAPFC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDE4A60)
-#define OCEAHPDAPFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE4A90)
-#define OCEAHPDAPFC___C___CCTOR_B__76_0_OFFSET UNITYSDK_OFFSET(0x1DDE4AA0)
+#define OCEAHPDAPFC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDAD230)
+#define OCEAHPDAPFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDAD260)
+#define OCEAHPDAPFC___C___CCTOR_B__76_0_OFFSET UNITYSDK_OFFSET(0x1FDAD270)
 
-inline static constexpr unsigned int OCEAHPDAPFC___c_TypeDefinitionIndex = 30305;
+inline static constexpr unsigned int OCEAHPDAPFC___c_TypeDefinitionIndex = 31211;
 
 	class OCEAHPDAPFC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x111E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC9B0);
 		}
 
 		static ::System::Void _cctor()

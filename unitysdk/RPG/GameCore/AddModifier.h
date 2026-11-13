@@ -13,13 +13,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADDMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35C320)
-#define RPG_GAMECORE_ADDMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35C3E0)
-#define RPG_GAMECORE_ADDMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35C240)
+#define RPG_GAMECORE_ADDMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA4160)
+#define RPG_GAMECORE_ADDMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAA4220)
+#define RPG_GAMECORE_ADDMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA4080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddModifier_TypeDefinitionIndex = 23067;
+	inline static constexpr unsigned int AddModifier_TypeDefinitionIndex = 23496;
 
 	class AddModifier : public ::RPG::GameCore::TaskConfig
 	{

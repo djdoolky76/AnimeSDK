@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E9F60)
-#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E9FC0)
-#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E9F70)
+#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA992B0)
+#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1FA99310)
+#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1FA992C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRandomChanceTaskEvent_TypeDefinitionIndex = 56803;
+	inline static constexpr unsigned int LevelRandomChanceTaskEvent_TypeDefinitionIndex = 58027;
 
 	class LevelRandomChanceTaskEvent : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x10
-		::System::String* LogComment; // 0x18
+		::System::String* LogComment; // 0x10
+		::RPG::GameCore::GameEntity* CasterEntity; // 0x18
 		::System::Single Chance; // 0x20
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Single a2, ::System::String* a3)
 		{

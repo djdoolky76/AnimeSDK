@@ -3,10 +3,10 @@
 class IONGMCIAHEL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NEJCKIMIMHG_CTOR_OFFSET UNITYSDK_OFFSET(0xBB58DF0)
-#define NEJCKIMIMHG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB58E20)
+#define NEJCKIMIMHG_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD86D0)
+#define NEJCKIMIMHG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FD8700)
 
-inline static constexpr unsigned int NEJCKIMIMHG_TypeDefinitionIndex = 57857;
+inline static constexpr unsigned int NEJCKIMIMHG_TypeDefinitionIndex = 59094;
 
 	class NEJCKIMIMHG
 	{

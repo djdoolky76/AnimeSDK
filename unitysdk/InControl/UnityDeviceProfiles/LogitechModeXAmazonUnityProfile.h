@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHMODEXAMAZONUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BABE590)
-#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHMODEXAMAZONUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BABD290)
+#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHMODEXAMAZONUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xC637ED0)
+#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHMODEXAMAZONUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC636BD0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int LogitechModeXAmazonUnityProfile_TypeDefinitionIndex = 40929;
+	inline static constexpr unsigned int LogitechModeXAmazonUnityProfile_TypeDefinitionIndex = 41904;
 
 	class LogitechModeXAmazonUnityProfile : public ::InControl::InputDeviceProfile
 	{

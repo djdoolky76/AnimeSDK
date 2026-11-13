@@ -5,25 +5,25 @@ namespace RPG::Client { class QuestData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6275D0)
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC627610)
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__GETSORTEDQUESTDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0xC627620)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2D3CD0)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D3D10)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__GETSORTEDQUESTDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B2D3D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AetherDivideTrainerData___c_TypeDefinitionIndex = 62237;
+	inline static constexpr unsigned int AetherDivideTrainerData___c_TypeDefinitionIndex = 63650;
 
 	class AetherDivideTrainerData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3CF40);
-		}
-
 		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3CF48);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4BB90);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4BB98);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNpcState_TypeDefinitionIndex = 52382;
+	inline static constexpr unsigned int TrackNpcState_TypeDefinitionIndex = 53488;
 
 	enum class TrackNpcState : ::System::Int32
 	{

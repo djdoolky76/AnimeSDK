@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9210C0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE920B80)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C76BFD0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1C76BA90)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ToneMappingTimelineBehaviour_TypeDefinitionIndex = 48621;
+	inline static constexpr unsigned int ToneMappingTimelineBehaviour_TypeDefinitionIndex = 49662;
 
 	class ToneMappingTimelineBehaviour
 	{

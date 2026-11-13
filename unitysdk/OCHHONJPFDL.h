@@ -6,11 +6,11 @@ class OMOJEJPCLFB;
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OCHHONJPFDL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD5CD20)
-#define OCHHONJPFDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD5CE30)
-#define OCHHONJPFDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD5CF90)
+#define OCHHONJPFDL_CTOR_OFFSET UNITYSDK_OFFSET(0x19A0EFE0)
+#define OCHHONJPFDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19A0F0F0)
+#define OCHHONJPFDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A0F250)
 
-inline static constexpr unsigned int OCHHONJPFDL_TypeDefinitionIndex = 55041;
+inline static constexpr unsigned int OCHHONJPFDL_TypeDefinitionIndex = 56217;
 
 	class OCHHONJPFDL
 	{

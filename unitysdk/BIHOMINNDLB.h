@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByCompareInvasionLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BIHOMINNDLB_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A48F0)
-#define BIHOMINNDLB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4A4920)
+#define BIHOMINNDLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB7060)
+#define BIHOMINNDLB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BAB7090)
 
-inline static constexpr unsigned int BIHOMINNDLB_TypeDefinitionIndex = 54452;
+inline static constexpr unsigned int BIHOMINNDLB_TypeDefinitionIndex = 55616;
 
 	class BIHOMINNDLB
 	{

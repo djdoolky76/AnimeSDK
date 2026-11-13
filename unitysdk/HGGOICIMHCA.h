@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define HGGOICIMHCA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C92840)
+#define HGGOICIMHCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C446A40)
 
-inline static constexpr unsigned int HGGOICIMHCA_TypeDefinitionIndex = 49778;
+inline static constexpr unsigned int HGGOICIMHCA_TypeDefinitionIndex = 50826;
 
 	class HGGOICIMHCA : public ::System::Attribute
 	{

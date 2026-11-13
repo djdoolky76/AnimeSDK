@@ -4,18 +4,18 @@
 class PNALNDONMCK;
 namespace System { class Object; }
 
-#define PNALNDONMCK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF848F0)
-#define PNALNDONMCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF84920)
-#define PNALNDONMCK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF84930)
+#define PNALNDONMCK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201FDBB0)
+#define PNALNDONMCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201FDBE0)
+#define PNALNDONMCK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201FDBF0)
 
-inline static constexpr unsigned int PNALNDONMCK___c_TypeDefinitionIndex = 30307;
+inline static constexpr unsigned int PNALNDONMCK___c_TypeDefinitionIndex = 31213;
 
 	class PNALNDONMCK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40E50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A560);
 		}
 
 		static ::System::Void _cctor()

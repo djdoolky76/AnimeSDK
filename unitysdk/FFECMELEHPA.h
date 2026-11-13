@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ItemConfig; }
 
-#define FFECMELEHPA_COMPARE_OFFSET UNITYSDK_OFFSET(0x15727900)
-#define FFECMELEHPA_CTOR_OFFSET UNITYSDK_OFFSET(0x157279D0)
+#define FFECMELEHPA_COMPARE_OFFSET UNITYSDK_OFFSET(0x130D95D0)
+#define FFECMELEHPA_CTOR_OFFSET UNITYSDK_OFFSET(0x130D96A0)
 
-inline static constexpr unsigned int FFECMELEHPA_TypeDefinitionIndex = 61700;
+inline static constexpr unsigned int FFECMELEHPA_TypeDefinitionIndex = 63106;
 
 	class FFECMELEHPA : public ::System::Object
 	{

@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MKPCOFLGHEM_BMOMBCHEEEI_OFFSET UNITYSDK_OFFSET(0xB99DC50)
-#define MKPCOFLGHEM_CELJINNDINO_OFFSET UNITYSDK_OFFSET(0xB99D660)
-#define MKPCOFLGHEM_HBHCKEGINEN_OFFSET UNITYSDK_OFFSET(0xB99DC00)
-#define MKPCOFLGHEM_HGLEGLMJAHN_OFFSET UNITYSDK_OFFSET(0xB99D090)
+#define MKPCOFLGHEM_BMOMBCHEEEI_OFFSET UNITYSDK_OFFSET(0x1B912A10)
+#define MKPCOFLGHEM_CELJINNDINO_OFFSET UNITYSDK_OFFSET(0x1B912420)
+#define MKPCOFLGHEM_HBHCKEGINEN_OFFSET UNITYSDK_OFFSET(0x1B9129C0)
+#define MKPCOFLGHEM_HGLEGLMJAHN_OFFSET UNITYSDK_OFFSET(0x1B911E50)
 
-inline static constexpr unsigned int MKPCOFLGHEM_TypeDefinitionIndex = 62386;
+inline static constexpr unsigned int MKPCOFLGHEM_TypeDefinitionIndex = 63799;
 
 	class MKPCOFLGHEM : public ::System::Object
 	{

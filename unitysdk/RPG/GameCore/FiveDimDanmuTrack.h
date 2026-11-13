@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimDanmuTrack; }
 
-#define RPG_GAMECORE_FIVEDIMDANMUTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68A3A0)
-#define RPG_GAMECORE_FIVEDIMDANMUTRACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68A1A0)
+#define RPG_GAMECORE_FIVEDIMDANMUTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E857460)
+#define RPG_GAMECORE_FIVEDIMDANMUTRACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8572E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDanmuTrack_TypeDefinitionIndex = 18824;
+	inline static constexpr unsigned int FiveDimDanmuTrack_TypeDefinitionIndex = 18986;
 
 	class FiveDimDanmuTrack : public ::RPG::GameCore::JsonConfig
 	{

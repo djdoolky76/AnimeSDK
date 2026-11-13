@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_TotalDamageTakenCompare; }
 
-#define MPLBCPOFDKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C72A780)
-#define MPLBCPOFDKI_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C72A7A0)
+#define MPLBCPOFDKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1606B120)
+#define MPLBCPOFDKI_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1606B140)
 
-inline static constexpr unsigned int MPLBCPOFDKI_TypeDefinitionIndex = 36357;
+inline static constexpr unsigned int MPLBCPOFDKI_TypeDefinitionIndex = 37285;
 
 	class MPLBCPOFDKI : public ::HHOHBHGLHHF
 	{

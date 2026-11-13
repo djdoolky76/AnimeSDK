@@ -6,7 +6,7 @@ namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_1_TypeDefinitionIndex = 38485;
+	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_1_TypeDefinitionIndex = 39414;
 
 	template <typename T>
 	class UnityEventHandlerAsyncEnumerable_1 : public ::System::Object

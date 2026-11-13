@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::PetMarble { class PetMarblePVEMatchContext; }
 
-#define DMJLELAHHDP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBD410)
-#define DMJLELAHHDP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xFEBD490)
+#define DMJLELAHHDP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1869B440)
+#define DMJLELAHHDP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1869B4C0)
 
-inline static constexpr unsigned int DMJLELAHHDP___c__DisplayClass1_0_TypeDefinitionIndex = 52303;
+inline static constexpr unsigned int DMJLELAHHDP___c__DisplayClass1_0_TypeDefinitionIndex = 53409;
 
 	class DMJLELAHHDP___c__DisplayClass1_0 : public ::System::Object
 	{

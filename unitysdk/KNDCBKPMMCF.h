@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByHasLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KNDCBKPMMCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB579010)
-#define KNDCBKPMMCF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB579040)
+#define KNDCBKPMMCF_CTOR_OFFSET UNITYSDK_OFFSET(0x18FA12F0)
+#define KNDCBKPMMCF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18FA1320)
 
-inline static constexpr unsigned int KNDCBKPMMCF_TypeDefinitionIndex = 53920;
+inline static constexpr unsigned int KNDCBKPMMCF_TypeDefinitionIndex = 55084;
 
 	class KNDCBKPMMCF
 	{

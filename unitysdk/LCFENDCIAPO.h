@@ -6,20 +6,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ModifierReattachEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LCFENDCIAPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB60DBB0)
-#define LCFENDCIAPO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB60DBC0)
-#define LCFENDCIAPO_MKGEJPKAPLO_OFFSET UNITYSDK_OFFSET(0xB60DF80)
-#define LCFENDCIAPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB60DC00)
-#define LCFENDCIAPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB60E050)
-#define LCFENDCIAPO_TICK_OFFSET UNITYSDK_OFFSET(0xB60E0A0)
+#define LCFENDCIAPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC6C480)
+#define LCFENDCIAPO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC6C490)
+#define LCFENDCIAPO_MKGEJPKAPLO_OFFSET UNITYSDK_OFFSET(0x1AC6C850)
+#define LCFENDCIAPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AC6C4D0)
+#define LCFENDCIAPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AC6C920)
+#define LCFENDCIAPO_TICK_OFFSET UNITYSDK_OFFSET(0x1AC6C970)
 
-inline static constexpr unsigned int LCFENDCIAPO_TypeDefinitionIndex = 55185;
+inline static constexpr unsigned int LCFENDCIAPO_TypeDefinitionIndex = 56366;
 
 	class LCFENDCIAPO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ModifierReattachEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ModifierReattachEffect* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifierReattachEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifierReattachEffect*))((::PBYTE)hIl2Cpp + LCFENDCIAPO_CTOR_OFFSET))(this, a1, a2);

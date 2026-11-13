@@ -7,11 +7,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DMECIOAMHON_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB4510)
-#define DMECIOAMHON_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEB45B0)
-#define DMECIOAMHON_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xFEB4520)
+#define DMECIOAMHON_CTOR_OFFSET UNITYSDK_OFFSET(0x18691D40)
+#define DMECIOAMHON_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18691DE0)
+#define DMECIOAMHON_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x18691D50)
 
-inline static constexpr unsigned int DMECIOAMHON_TypeDefinitionIndex = 59072;
+inline static constexpr unsigned int DMECIOAMHON_TypeDefinitionIndex = 60347;
 
 	class DMECIOAMHON : public ::System::Object
 	{

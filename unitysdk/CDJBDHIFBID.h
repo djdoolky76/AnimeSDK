@@ -5,10 +5,10 @@ class CIFAECNJBLC;
 class DDENCEMCKLN;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CDJBDHIFBID_FFDOLFKEALD_OFFSET UNITYSDK_OFFSET(0x1C422660)
-#define CDJBDHIFBID_OAENDNPFLCJ_OFFSET UNITYSDK_OFFSET(0x1C422510)
+#define CDJBDHIFBID_FFDOLFKEALD_OFFSET UNITYSDK_OFFSET(0x15AE2C20)
+#define CDJBDHIFBID_OAENDNPFLCJ_OFFSET UNITYSDK_OFFSET(0x15AE2AD0)
 
-inline static constexpr unsigned int CDJBDHIFBID_TypeDefinitionIndex = 41429;
+inline static constexpr unsigned int CDJBDHIFBID_TypeDefinitionIndex = 42404;
 
 	class CDJBDHIFBID : public ::System::Object
 	{

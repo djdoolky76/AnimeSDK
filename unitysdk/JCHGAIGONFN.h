@@ -3,10 +3,10 @@
 class EGLGEOOKCNM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JCHGAIGONFN_CTOR_OFFSET UNITYSDK_OFFSET(0x16584CC0)
-#define JCHGAIGONFN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16584CF0)
+#define JCHGAIGONFN_CTOR_OFFSET UNITYSDK_OFFSET(0x16953750)
+#define JCHGAIGONFN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16953780)
 
-inline static constexpr unsigned int JCHGAIGONFN_TypeDefinitionIndex = 52667;
+inline static constexpr unsigned int JCHGAIGONFN_TypeDefinitionIndex = 53774;
 
 	class JCHGAIGONFN
 	{

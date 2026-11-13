@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIDCDMEKHHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FD930)
+#define MIDCDMEKHHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C262960)
 
-inline static constexpr unsigned int MIDCDMEKHHA_TypeDefinitionIndex = 42123;
+inline static constexpr unsigned int MIDCDMEKHHA_TypeDefinitionIndex = 43098;
 
 	class MIDCDMEKHHA : public ::System::Object
 	{

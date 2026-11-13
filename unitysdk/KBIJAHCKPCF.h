@@ -3,10 +3,10 @@
 class EOKEPOEOCBJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KBIJAHCKPCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2FAB10)
-#define KBIJAHCKPCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2FAB40)
+#define KBIJAHCKPCF_CTOR_OFFSET UNITYSDK_OFFSET(0x19DDC470)
+#define KBIJAHCKPCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DDC4A0)
 
-inline static constexpr unsigned int KBIJAHCKPCF_TypeDefinitionIndex = 54167;
+inline static constexpr unsigned int KBIJAHCKPCF_TypeDefinitionIndex = 55331;
 
 	class KBIJAHCKPCF
 	{

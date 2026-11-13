@@ -9,23 +9,23 @@ class OFDEKOCILAF;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define OFDEKOCILAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D238820)
-#define OFDEKOCILAF_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D238B70)
-#define OFDEKOCILAF_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D238B20)
-#define OFDEKOCILAF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D238840)
-#define OFDEKOCILAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2387D0)
+#define OFDEKOCILAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E612230)
+#define OFDEKOCILAF_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1E612580)
+#define OFDEKOCILAF_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E612530)
+#define OFDEKOCILAF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E612250)
+#define OFDEKOCILAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6121E0)
 
-inline static constexpr unsigned int OFDEKOCILAF_TypeDefinitionIndex = 24235;
+inline static constexpr unsigned int OFDEKOCILAF_TypeDefinitionIndex = 24694;
 
 	class OFDEKOCILAF : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* IBHNJCENMPL; // 0x20
-		::RPG::GameCore::TeamTypeMask OBMPNGFPNMG; // 0x28
-		::RPG::GameCore::RtStackSkillTargetRedirectPhase IFDLJDHLPJM; // 0x2C
-		::System::Int32 NALMBOOCCIN; // 0x30
+		::RPG::GameCore::EntityTypeMask PCBEIEAONIF; // 0x28
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::EntityTypeMask PCBEIEAONIF; // 0x38
+		::System::Int32 NALMBOOCCIN; // 0x30
+		::RPG::GameCore::TeamTypeMask OBMPNGFPNMG; // 0x34
+		::RPG::GameCore::RtStackSkillTargetRedirectPhase IFDLJDHLPJM; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFDEKOCILAF_CTOR_OFFSET))(this);

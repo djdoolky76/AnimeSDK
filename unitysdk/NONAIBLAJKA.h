@@ -9,23 +9,23 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TriggerPerformanceMask; }
 namespace System { class String; }
 
-#define NONAIBLAJKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D214E70)
-#define NONAIBLAJKA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D214E80)
-#define NONAIBLAJKA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D214E30)
+#define NONAIBLAJKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5EDFF0)
+#define NONAIBLAJKA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5EE000)
+#define NONAIBLAJKA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5EDFB0)
 
-inline static constexpr unsigned int NONAIBLAJKA_TypeDefinitionIndex = 20302;
+inline static constexpr unsigned int NONAIBLAJKA_TypeDefinitionIndex = 20637;
 
 	class NONAIBLAJKA : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:
-		::System::String* JFABDOKNDBI; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* MGJLINFADJK; // 0x20
 		::Il2CppArray<::RPG::GameCore::FloorSavedValueOverride*>* AKMPDOOGAFJ; // 0x28
 		::RPG::GameCore::TriggerPerformanceMask* HGHDDOHMDCD; // 0x30
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* MGJLINFADJK; // 0x38
-		::System::UInt32 OLHIGHGKMIH; // 0x40
-		::RPG::GameCore::ELevelPerformanceType DNGFHOEACBI; // 0x44
-		::System::UInt32 NJIOMOHBILM; // 0x48
-		::System::UInt32 FIMNPJLNLEE; // 0x4C
+		::System::String* JFABDOKNDBI; // 0x38
+		::System::UInt32 NJIOMOHBILM; // 0x40
+		::System::UInt32 FIMNPJLNLEE; // 0x44
+		::RPG::GameCore::ELevelPerformanceType DNGFHOEACBI; // 0x48
+		::System::UInt32 OLHIGHGKMIH; // 0x4C
 		::System::UInt32 HNPDLANHONH; // 0x50
 		::System::Void _ctor()
 		{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AdvEntityFaceTo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTITYFACETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36FB20)
-#define RPG_GAMECORE_ADVENTITYFACETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D36FB50)
-#define RPG_GAMECORE_ADVENTITYFACETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D36FAD0)
+#define RPG_GAMECORE_ADVENTITYFACETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB7490)
+#define RPG_GAMECORE_ADVENTITYFACETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAB74C0)
+#define RPG_GAMECORE_ADVENTITYFACETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB7440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEntityFaceTo_TypeDefinitionIndex = 20545;
+	inline static constexpr unsigned int AdvEntityFaceTo_TypeDefinitionIndex = 20881;
 
 	class AdvEntityFaceTo : public ::RPG::GameCore::TaskConfig
 	{

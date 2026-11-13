@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_RESULTTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE51E30)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_RESULTTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B69AAE0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager_ResultType_TypeDefinitionIndex = 8275;
+	inline static constexpr unsigned int UserCenterManager_ResultType_TypeDefinitionIndex = 8284;
 
 	class UserCenterManager_ResultType : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareCurrentTeammemberCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KONCBBJOGJF_CTOR_OFFSET UNITYSDK_OFFSET(0xB59C220)
-#define KONCBBJOGJF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB59C250)
+#define KONCBBJOGJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1910C630)
+#define KONCBBJOGJF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1910C660)
 
-inline static constexpr unsigned int KONCBBJOGJF_TypeDefinitionIndex = 53132;
+inline static constexpr unsigned int KONCBBJOGJF_TypeDefinitionIndex = 54294;
 
 	class KONCBBJOGJF
 	{

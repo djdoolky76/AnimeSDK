@@ -8,25 +8,25 @@ namespace RPGCamera { class CameraStateBlenderConfig; }
 namespace RPGCamera { class CameraStateBlenderConfig_BlenderConfigParam; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_ADDCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0xB07A9C0)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFGBYPARAM_OFFSET UNITYSDK_OFFSET(0xB07AB70)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFG_OFFSET UNITYSDK_OFFSET(0xB07A940)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB07A9B0)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_GETCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0xB07A3A0)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_ADDCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1CF21F10)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFGBYPARAM_OFFSET UNITYSDK_OFFSET(0x1CF220C0)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFG_OFFSET UNITYSDK_OFFSET(0x1CF21E90)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF21F00)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_GETCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1CF21900)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStateBlenderConfig_TypeDefinitionIndex = 45935;
+	inline static constexpr unsigned int CameraStateBlenderConfig_TypeDefinitionIndex = 46964;
 
 	class CameraStateBlenderConfig : public ::System::Object
 	{
 	public:
-		::System::Int32 fromId; // 0x10
-		::EasingFunction_Ease easeType; // 0x14
-		::System::Int32 toId; // 0x18
+		::RPGCamera::CameraStateBlenderConfig_BlendType blendType; // 0x10
+		::System::Int32 toId; // 0x14
+		::System::Int32 fromId; // 0x18
 		::RPGCamera::CameraStateBlenderConfig_PoleType poleType; // 0x1C
-		::RPGCamera::CameraStateBlenderConfig_BlendType blendType; // 0x20
-		::System::Single duration; // 0x24
+		::System::Single duration; // 0x20
+		::EasingFunction_Ease easeType; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTATEBLENDERCONFIG_CTOR_OFFSET))(this);

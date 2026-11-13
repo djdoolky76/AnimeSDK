@@ -4,18 +4,18 @@
 class MBDAPMIPEON;
 namespace System { class Object; }
 
-#define MBDAPMIPEON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9B4AB0)
-#define MBDAPMIPEON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B4AE0)
-#define MBDAPMIPEON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E9B4AF0)
+#define MBDAPMIPEON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBBCE00)
+#define MBDAPMIPEON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBBCE30)
+#define MBDAPMIPEON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FBBCE40)
 
-inline static constexpr unsigned int MBDAPMIPEON___c_TypeDefinitionIndex = 35003;
+inline static constexpr unsigned int MBDAPMIPEON___c_TypeDefinitionIndex = 35931;
 
 	class MBDAPMIPEON___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47290);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A310);
 		}
 
 		static ::System::Void _cctor()

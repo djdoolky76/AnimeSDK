@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FiveDimEmotionConfig; }
 namespace RPG::GameCore { class FiveDimRTPCConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D681DF0)
-#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D681980)
+#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84ECB0)
+#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E84E840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 16712;
+	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 16878;
 
 	class FiveDimAudioConfig : public ::RPG::GameCore::JsonConfig
 	{

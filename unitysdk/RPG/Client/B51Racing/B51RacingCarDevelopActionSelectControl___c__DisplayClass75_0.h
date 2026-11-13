@@ -4,12 +4,12 @@
 namespace RPG::Client::B51Racing { class B51RacingCarDevelopActionSelectControl; }
 namespace RPG::Client::B51Racing { class B51RacingDevelopActionResultViewModel; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__DISPLAYCLASS75_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC71DDD0)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__DISPLAYCLASS75_0___SETTOASTITEMTRAILFINISHCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xC71F2B0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__DISPLAYCLASS75_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B10E930)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__DISPLAYCLASS75_0___SETTOASTITEMTRAILFINISHCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1B10FE10)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDevelopActionSelectControl___c__DisplayClass75_0_TypeDefinitionIndex = 81800;
+	inline static constexpr unsigned int B51RacingCarDevelopActionSelectControl___c__DisplayClass75_0_TypeDefinitionIndex = 84581;
 
 	class B51RacingCarDevelopActionSelectControl___c__DisplayClass75_0 : public ::System::Object
 	{
@@ -17,9 +17,8 @@ namespace RPG::Client::B51Racing
 		::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectControl* __4__this; // 0x10
 		::RPG::Client::B51Racing::B51RacingDevelopActionResultViewModel* result; // 0x18
 		::System::Int32 statIndex; // 0x20
-		::System::Boolean isLast; // 0x24
-		::System::Byte _padding0[0x3];
-		::System::Int32 capturedIndex; // 0x28
+		::System::Int32 capturedIndex; // 0x24
+		::System::Boolean isLast; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__DISPLAYCLASS75_0_CTOR_OFFSET))(this);

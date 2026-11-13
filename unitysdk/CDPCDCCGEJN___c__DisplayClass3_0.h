@@ -4,10 +4,10 @@
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define CDPCDCCGEJN___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7742F0)
-#define CDPCDCCGEJN___C__DISPLAYCLASS3_0___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0xC7756A0)
+#define CDPCDCCGEJN___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x173C03B0)
+#define CDPCDCCGEJN___C__DISPLAYCLASS3_0___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0x173C1760)
 
-inline static constexpr unsigned int CDPCDCCGEJN___c__DisplayClass3_0_TypeDefinitionIndex = 59575;
+inline static constexpr unsigned int CDPCDCCGEJN___c__DisplayClass3_0_TypeDefinitionIndex = 60852;
 
 	class CDPCDCCGEJN___c__DisplayClass3_0 : public ::System::Object
 	{

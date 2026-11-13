@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CHBNFGAAMJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B6450)
+#define CHBNFGAAMJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E1040)
 
-inline static constexpr unsigned int CHBNFGAAMJB_TypeDefinitionIndex = 42956;
+inline static constexpr unsigned int CHBNFGAAMJB_TypeDefinitionIndex = 43937;
 
 	class CHBNFGAAMJB : public ::System::Object
 	{

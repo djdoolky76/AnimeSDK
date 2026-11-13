@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace Code::Rendering::EnvironmentSystemV2 { class EnvV2ParamPreset; }
 
-#define CODE_RENDERING_ENVIRONMENTSYSTEMV2_TEST_ENVSYSTEMDEBUGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDF96340)
+#define CODE_RENDERING_ENVIRONMENTSYSTEMV2_TEST_ENVSYSTEMDEBUGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x19921420)
 
 namespace Code::Rendering::EnvironmentSystemV2::Test
 {
-	inline static constexpr unsigned int EnvSystemDebugConfig_TypeDefinitionIndex = 50050;
+	inline static constexpr unsigned int EnvSystemDebugConfig_TypeDefinitionIndex = 51098;
 
 	class EnvSystemDebugConfig : public ::UnityEngine::MonoBehaviour
 	{

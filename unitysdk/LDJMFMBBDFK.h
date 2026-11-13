@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class LDJMFMBBDFK;
 namespace System { class String; }
 
-#define LDJMFMBBDFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B3140)
-#define LDJMFMBBDFK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0B3150)
-#define LDJMFMBBDFK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0B3110)
+#define LDJMFMBBDFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E94BBD0)
+#define LDJMFMBBDFK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E94BBE0)
+#define LDJMFMBBDFK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E94BBA0)
 
-inline static constexpr unsigned int LDJMFMBBDFK_TypeDefinitionIndex = 23329;
+inline static constexpr unsigned int LDJMFMBBDFK_TypeDefinitionIndex = 23770;
 
 	class LDJMFMBBDFK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::System::String*>* MMCPCPAEEAH; // 0x18
-		::System::String* MDBHPILLAPA; // 0x20
+		::System::String* MDBHPILLAPA; // 0x18
+		::Il2CppArray<::System::String*>* MMCPCPAEEAH; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDJMFMBBDFK_CTOR_OFFSET))(this);

@@ -6,10 +6,10 @@ class DJPBAKPBELL;
 class PAPOPANPGIJ;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define GALKDOMHJPJ_CCLOABELDPG_OFFSET UNITYSDK_OFFSET(0x1C5FB1B0)
-#define GALKDOMHJPJ_IOJMJBCAADB_OFFSET UNITYSDK_OFFSET(0x1C5FB260)
+#define GALKDOMHJPJ_CCLOABELDPG_OFFSET UNITYSDK_OFFSET(0x1AA38320)
+#define GALKDOMHJPJ_IOJMJBCAADB_OFFSET UNITYSDK_OFFSET(0x1AA383D0)
 
-inline static constexpr unsigned int GALKDOMHJPJ_TypeDefinitionIndex = 37010;
+inline static constexpr unsigned int GALKDOMHJPJ_TypeDefinitionIndex = 37938;
 
 	class GALKDOMHJPJ : public ::System::Object
 	{

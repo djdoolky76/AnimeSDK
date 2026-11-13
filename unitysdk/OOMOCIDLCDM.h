@@ -3,10 +3,10 @@
 class KKGGBIEDPKJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOMOCIDLCDM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF88620)
-#define OOMOCIDLCDM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF88650)
+#define OOMOCIDLCDM_CTOR_OFFSET UNITYSDK_OFFSET(0x196AF910)
+#define OOMOCIDLCDM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x196AF940)
 
-inline static constexpr unsigned int OOMOCIDLCDM_TypeDefinitionIndex = 54898;
+inline static constexpr unsigned int OOMOCIDLCDM_TypeDefinitionIndex = 56069;
 
 	class OOMOCIDLCDM
 	{

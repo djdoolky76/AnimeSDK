@@ -4,10 +4,10 @@
 class LAJCPEFEOPN;
 namespace RPG::GameCore { class LevelPedestrianV2IntersectionAreaInfo; }
 
-#define PFFJCPFPPHG_CTOR_OFFSET UNITYSDK_OFFSET(0xC205AD0)
-#define PFFJCPFPPHG_DINCADBEGGE_OFFSET UNITYSDK_OFFSET(0xC205D60)
+#define PFFJCPFPPHG_CTOR_OFFSET UNITYSDK_OFFSET(0x16D7B280)
+#define PFFJCPFPPHG_DINCADBEGGE_OFFSET UNITYSDK_OFFSET(0x16D7B510)
 
-inline static constexpr unsigned int PFFJCPFPPHG_TypeDefinitionIndex = 69321;
+inline static constexpr unsigned int PFFJCPFPPHG_TypeDefinitionIndex = 71275;
 
 	class PFFJCPFPPHG : public ::LCCMNACCAMH
 	{

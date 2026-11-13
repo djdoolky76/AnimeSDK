@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifyEntityBoostPoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYENTITYBOOSTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D869270)
-#define RPG_GAMECORE_MODIFYENTITYBOOSTPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D869280)
-#define RPG_GAMECORE_MODIFYENTITYBOOSTPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D869240)
+#define RPG_GAMECORE_MODIFYENTITYBOOSTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FB810)
+#define RPG_GAMECORE_MODIFYENTITYBOOSTPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6FB820)
+#define RPG_GAMECORE_MODIFYENTITYBOOSTPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6FB7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyEntityBoostPoint_TypeDefinitionIndex = 22605;
+	inline static constexpr unsigned int ModifyEntityBoostPoint_TypeDefinitionIndex = 23020;
 
 	class ModifyEntityBoostPoint : public ::RPG::GameCore::TaskConfig
 	{

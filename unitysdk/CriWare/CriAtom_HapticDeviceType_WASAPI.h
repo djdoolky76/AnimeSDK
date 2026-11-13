@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtom_HapticDeviceType_WASAPI_TypeDefinitionIndex = 39908;
+	inline static constexpr unsigned int CriAtom_HapticDeviceType_WASAPI_TypeDefinitionIndex = 40883;
 
 	enum class CriAtom_HapticDeviceType_WASAPI : ::System::Int32
 	{

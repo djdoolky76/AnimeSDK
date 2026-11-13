@@ -3,11 +3,11 @@
 namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEVERIFICATIONDIALOG_DROPDOWNINTERACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x3C11B30)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEVERIFICATIONDIALOG_DROPDOWNINTERACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x3E711B0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldAgeGateVerificationDialog_DropDownInteraction_TypeDefinitionIndex = 8802;
+	inline static constexpr unsigned int HandheldAgeGateVerificationDialog_DropDownInteraction_TypeDefinitionIndex = 8811;
 
 	struct alignas(8) HandheldAgeGateVerificationDialog_DropDownInteraction
 	{

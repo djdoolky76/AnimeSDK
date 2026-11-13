@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicStringList; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitMapPoseSwitcherRemove; }
 
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6DC00)
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6DC10)
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6DBC0)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x207FB690)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x207FB6A0)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207FB650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitMapPoseSwitcherRemove_TypeDefinitionIndex = 21264;
+	inline static constexpr unsigned int WaitMapPoseSwitcherRemove_TypeDefinitionIndex = 21607;
 
 	class WaitMapPoseSwitcherRemove : public ::RPG::GameCore::AdvWaitingEventBase
 	{

@@ -5,25 +5,25 @@ namespace RPG::Client::Prop { class ChimeraDuelChimeraModelView; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC5B2B0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC5B2F0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__LOADCHIMERAWITHANCHOR_B__15_0_OFFSET UNITYSDK_OFFSET(0xDC5B300)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFF8320)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF8360)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__LOADCHIMERAWITHANCHOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x1BFF8370)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c_TypeDefinitionIndex = 78371;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c_TypeDefinitionIndex = 81106;
 
 	class ChimeraDuelMainPuzzleBattleView___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x37AD0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x56E80);
 		}
 
 		static ::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>** StaticGet___9__15_0()
 		{
-			return (::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x37AD8);
+			return (::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x56E88);
 		}
 
 		static ::System::Void _cctor()

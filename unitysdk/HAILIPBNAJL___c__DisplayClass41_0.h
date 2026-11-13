@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HAILIPBNAJL___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C62BC70)
-#define HAILIPBNAJL___C__DISPLAYCLASS41_0___GETDICECONTENTWEIGHTLISTMAP_B__1_OFFSET UNITYSDK_OFFSET(0x1C62CD20)
+#define HAILIPBNAJL___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA69550)
+#define HAILIPBNAJL___C__DISPLAYCLASS41_0___GETDICECONTENTWEIGHTLISTMAP_B__1_OFFSET UNITYSDK_OFFSET(0x1AA6A600)
 
-inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass41_0_TypeDefinitionIndex = 36417;
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass41_0_TypeDefinitionIndex = 37345;
 
 	class HAILIPBNAJL___c__DisplayClass41_0 : public ::System::Object
 	{

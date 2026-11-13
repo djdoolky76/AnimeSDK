@@ -5,10 +5,10 @@ class AEGMKCGMPKA;
 class NIEPBHBOCBI;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define AEGMKCGMPKA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB14F0A0)
-#define AEGMKCGMPKA___C__DISPLAYCLASS8_0__SENDSETLINEUPCSREQ_B__0_OFFSET UNITYSDK_OFFSET(0xB14F5E0)
+#define AEGMKCGMPKA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18D9EFE0)
+#define AEGMKCGMPKA___C__DISPLAYCLASS8_0__SENDSETLINEUPCSREQ_B__0_OFFSET UNITYSDK_OFFSET(0x18D9EFF0)
 
-inline static constexpr unsigned int AEGMKCGMPKA___c__DisplayClass8_0_TypeDefinitionIndex = 63939;
+inline static constexpr unsigned int AEGMKCGMPKA___c__DisplayClass8_0_TypeDefinitionIndex = 65381;
 
 	class AEGMKCGMPKA___c__DisplayClass8_0 : public ::System::Object
 	{

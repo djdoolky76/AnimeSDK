@@ -5,25 +5,25 @@ namespace RPG::Client { class ActivityTelevisionData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5BCE10)
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5BCE40)
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C___INITMODULERELATEDMISSIONDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0xC5BCE50)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18D08010)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18D08040)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C___INITMODULERELATEDMISSIONDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0x18D08050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTelevisionModule___c_TypeDefinitionIndex = 62000;
+	inline static constexpr unsigned int ActivityTelevisionModule___c_TypeDefinitionIndex = 63412;
 
 	class ActivityTelevisionModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34CC0);
+			return (::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x400F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34CC8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x400F8);
 		}
 
 		static ::System::Void _cctor()

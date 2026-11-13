@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ANLADNEAIKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1588D450)
+#define ANLADNEAIKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A830380)
 
-inline static constexpr unsigned int ANLADNEAIKJ_TypeDefinitionIndex = 82241;
+inline static constexpr unsigned int ANLADNEAIKJ_TypeDefinitionIndex = 85114;
 
 	class ANLADNEAIKJ : public ::System::Object
 	{
 	public:
 		::System::String* INIPHBJBIOE; // 0x10
 		::System::String* DJNKMHHLKHM; // 0x18
-		::System::UInt64 BIHIFGPMHAH; // 0x20
-		::System::Int64 COIHCPBGBPA; // 0x28
-		::RPG::Client::Patch::RemoteType ALOJFEAPKHC; // 0x30
+		::System::UInt64 APGOMHPJMEC; // 0x20
+		::RPG::Client::Patch::RemoteType ALOJFEAPKHC; // 0x28
 		::System::Byte _padding0[0x4];
-		::System::UInt64 APGOMHPJMEC; // 0x38
+		::System::Int64 COIHCPBGBPA; // 0x30
+		::System::UInt64 BIHIFGPMHAH; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ANLADNEAIKJ_CTOR_OFFSET))(this);

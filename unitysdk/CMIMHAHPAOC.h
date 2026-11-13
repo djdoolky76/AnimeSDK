@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CMIMHAHPAOC_TypeDefinitionIndex = 56324;
+inline static constexpr unsigned int CMIMHAHPAOC_TypeDefinitionIndex = 57538;
 
 	struct alignas(4) CMIMHAHPAOC
 	{

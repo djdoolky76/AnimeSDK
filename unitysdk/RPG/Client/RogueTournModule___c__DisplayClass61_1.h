@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_1_CTOR_OFFSET UNITYSDK_OFFSET(0xDFF9FF0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_1__APPLYROGUETOURNBUILDREF_B__4_OFFSET UNITYSDK_OFFSET(0xE0075A0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC1110)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_1__APPLYROGUETOURNBUILDREF_B__4_OFFSET UNITYSDK_OFFSET(0x1CECE660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournModule___c__DisplayClass61_1_TypeDefinitionIndex = 67804;
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass61_1_TypeDefinitionIndex = 69749;
 
 	template <typename T>
 	class RogueTournModule___c__DisplayClass61_1 : public ::System::Object

@@ -6,24 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimGarbageBinBakedMoveConfig; }
 namespace RPG::GameCore { class FiveDimTrampolineConfig; }
 
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINBAKEDMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D692A70)
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINBAKEDMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D692A80)
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINBAKEDMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D692A40)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINBAKEDMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85FE50)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINBAKEDMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E85FE60)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINBAKEDMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E85FE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGarbageBinBakedMoveConfig_TypeDefinitionIndex = 16681;
+	inline static constexpr unsigned int FiveDimGarbageBinBakedMoveConfig_TypeDefinitionIndex = 16847;
 
 	class FiveDimGarbageBinBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:
-		::System::Single FallGravity; // 0x30
-		::System::Single MaxFallSpeed; // 0x34
-		::System::Single ColliderSizeXSmall; // 0x38
-		::System::Single ColliderSizeYSmall; // 0x3C
-		::RPG::MVector3 ColliderCenterSmall; // 0x40
+		::System::Single ColliderSizeXSmall; // 0x30
+		::System::Single ColliderSizeYSmall; // 0x34
+		::RPG::MVector3 ColliderCenterSmall; // 0x38
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FiveDimTrampolineConfig* InternalTrampolineConfig; // 0x50
+		::RPG::GameCore::FiveDimTrampolineConfig* InternalTrampolineConfig; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGARBAGEBINBAKEDMOVECONFIG_CTOR_OFFSET))(this);

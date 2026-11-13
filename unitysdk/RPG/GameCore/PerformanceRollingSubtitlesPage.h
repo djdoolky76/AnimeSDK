@@ -8,12 +8,12 @@ namespace RPG::GameCore { class PerformanceRollingSubtitlesFullScreenEffectParam
 namespace RPG::GameCore { class PerformanceRollingSubtitlesPage; }
 namespace RPG::GameCore { class PerformanceRollingSubtitlesScrollEffectParam; }
 
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D55F0)
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESPAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8D5450)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F157520)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESPAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F157380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceRollingSubtitlesPage_TypeDefinitionIndex = 24411;
+	inline static constexpr unsigned int PerformanceRollingSubtitlesPage_TypeDefinitionIndex = 24870;
 
 	class PerformanceRollingSubtitlesPage : public ::RPG::GameCore::JsonConfig
 	{

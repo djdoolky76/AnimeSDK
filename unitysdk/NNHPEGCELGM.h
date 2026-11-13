@@ -7,35 +7,35 @@ namespace RPG::GameCore { class ResidentPossessionInfo; }
 namespace RPG::GameCore { template <typename T> class StringMemoryDictionary_1; }
 namespace System { class String; }
 
-#define NNHPEGCELGM_AIHGDHAKNML_OFFSET UNITYSDK_OFFSET(0xBCA7DA0)
-#define NNHPEGCELGM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA8290)
-#define NNHPEGCELGM_HNNPNJJKJIP_OFFSET UNITYSDK_OFFSET(0xBCA7A80)
-#define NNHPEGCELGM_KOKHDJKCOCC_OFFSET UNITYSDK_OFFSET(0xBCA8120)
-#define NNHPEGCELGM_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0xBCA81E0)
+#define NNHPEGCELGM_AIHGDHAKNML_OFFSET UNITYSDK_OFFSET(0x179E9C30)
+#define NNHPEGCELGM_CTOR_OFFSET UNITYSDK_OFFSET(0x179EA120)
+#define NNHPEGCELGM_HNNPNJJKJIP_OFFSET UNITYSDK_OFFSET(0x179E9910)
+#define NNHPEGCELGM_KOKHDJKCOCC_OFFSET UNITYSDK_OFFSET(0x179E9FB0)
+#define NNHPEGCELGM_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0x179EA070)
 
-inline static constexpr unsigned int NNHPEGCELGM_TypeDefinitionIndex = 57188;
+inline static constexpr unsigned int NNHPEGCELGM_TypeDefinitionIndex = 58415;
 
 	class NNHPEGCELGM : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_KLFMBIKGOHO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NNHPEGCELGM")->GetStaticField(0x4DFC0);
-		}
-
-		static ::RPG::GameCore::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::ResidentPossessionInfo*>*>** StaticGet_DLHHMLOCKIL()
-		{
-			return (::RPG::GameCore::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::ResidentPossessionInfo*>*>**)UnitySDK::FromName("", "NNHPEGCELGM")->GetStaticField(0x4DFC8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NNHPEGCELGM")->GetStaticField(0x58800);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_PFCDNDJGGMB()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NNHPEGCELGM")->GetStaticField(0x4DFD0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NNHPEGCELGM")->GetStaticField(0x58808);
 		}
 
 		static ::RPG::GameCore::ResidentPossessionConfig** StaticGet_MAHJGKFIJNM()
 		{
-			return (::RPG::GameCore::ResidentPossessionConfig**)UnitySDK::FromName("", "NNHPEGCELGM")->GetStaticField(0x4DFD8);
+			return (::RPG::GameCore::ResidentPossessionConfig**)UnitySDK::FromName("", "NNHPEGCELGM")->GetStaticField(0x58810);
+		}
+
+		static ::RPG::GameCore::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::ResidentPossessionInfo*>*>** StaticGet_DLHHMLOCKIL()
+		{
+			return (::RPG::GameCore::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::ResidentPossessionInfo*>*>**)UnitySDK::FromName("", "NNHPEGCELGM")->GetStaticField(0x58818);
 		}
 
 		::System::Void _ctor()

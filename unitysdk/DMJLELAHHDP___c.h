@@ -5,29 +5,29 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DMJLELAHHDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xFEBD420)
-#define DMJLELAHHDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBD460)
-#define DMJLELAHHDP___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xFEBD470)
-#define DMJLELAHHDP___C__ONTASKBEGIN_B__1_2_OFFSET UNITYSDK_OFFSET(0xFEBD480)
+#define DMJLELAHHDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1869B450)
+#define DMJLELAHHDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1869B490)
+#define DMJLELAHHDP___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x1869B4A0)
+#define DMJLELAHHDP___C__ONTASKBEGIN_B__1_2_OFFSET UNITYSDK_OFFSET(0x1869B4B0)
 
-inline static constexpr unsigned int DMJLELAHHDP___c_TypeDefinitionIndex = 52302;
+inline static constexpr unsigned int DMJLELAHHDP___c_TypeDefinitionIndex = 53408;
 
 	class DMJLELAHHDP___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::DCHICFMEANN>** StaticGet___9__1_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::UInt32, ::DCHICFMEANN>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BA40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56790);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::DCHICFMEANN>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::System::UInt32, ::DCHICFMEANN>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BA48);
+			return (::System::Func_2<::System::UInt32, ::DCHICFMEANN>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56798);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::System::UInt32, ::DCHICFMEANN>** StaticGet___9__1_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BA50);
+			return (::System::Func_2<::System::UInt32, ::DCHICFMEANN>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x567A0);
 		}
 
 		static ::System::Void _cctor()

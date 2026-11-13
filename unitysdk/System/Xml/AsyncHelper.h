@@ -4,7 +4,7 @@
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_XML_ASYNCHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE64530)
+#define SYSTEM_XML_ASYNCHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1F70B0)
 
 namespace System::Xml
 {
@@ -15,22 +15,22 @@ namespace System::Xml
 	public:
 		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskFalse()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x2C270);
-		}
-
-		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskTrue()
-		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x2C278);
-		}
-
-		static ::System::Threading::Tasks::Task** StaticGet_DoneTask()
-		{
-			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x2C280);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1B2B0);
 		}
 
 		static ::System::Threading::Tasks::Task_1<::System::Int32>** StaticGet_DoneTaskZero()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Int32>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x2C288);
+			return (::System::Threading::Tasks::Task_1<::System::Int32>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1B2B8);
+		}
+
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskTrue()
+		{
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1B2C0);
+		}
+
+		static ::System::Threading::Tasks::Task** StaticGet_DoneTask()
+		{
+			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1B2C8);
 		}
 
 		static ::System::Void _cctor()

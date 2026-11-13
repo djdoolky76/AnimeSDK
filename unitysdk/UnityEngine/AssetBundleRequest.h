@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/AsyncOperation.h"
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_ASSETBUNDLEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F393BF0)
-#define UNITYENGINE_ASSETBUNDLEREQUEST_GET_ALLASSETS_OFFSET UNITYSDK_OFFSET(0x1F393BE0)
-#define UNITYENGINE_ASSETBUNDLEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1F393BD0)
+#define UNITYENGINE_ASSETBUNDLEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x2096C8C0)
+#define UNITYENGINE_ASSETBUNDLEREQUEST_GET_ALLASSETS_OFFSET UNITYSDK_OFFSET(0x2096C8B0)
+#define UNITYENGINE_ASSETBUNDLEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x2096C8A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssetBundleRequest_TypeDefinitionIndex = 5767;
+	inline static constexpr unsigned int AssetBundleRequest_TypeDefinitionIndex = 5773;
 
 	class AssetBundleRequest : public ::UnityEngine::AsyncOperation
 	{

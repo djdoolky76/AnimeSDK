@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimVCameraBlendHint_TypeDefinitionIndex = 18616;
+	inline static constexpr unsigned int FiveDimVCameraBlendHint_TypeDefinitionIndex = 18776;
 
 	enum class FiveDimVCameraBlendHint : ::System::Int32
 	{

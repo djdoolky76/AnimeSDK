@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UpdatePreloadTypeMethod_TypeDefinitionIndex = 59698;
+	inline static constexpr unsigned int UpdatePreloadTypeMethod_TypeDefinitionIndex = 60974;
 
 	enum class UpdatePreloadTypeMethod : ::System::Int32
 	{

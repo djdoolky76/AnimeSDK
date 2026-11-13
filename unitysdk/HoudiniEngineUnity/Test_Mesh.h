@@ -4,13 +4,13 @@
 namespace HoudiniEngineUnity { class Test_Mesh; }
 namespace UnityEngine { class Mesh; }
 
-#define HOUDINIENGINEUNITY_TEST_MESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B992DC0)
-#define HOUDINIENGINEUNITY_TEST_MESH_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B992DF0)
-#define HOUDINIENGINEUNITY_TEST_MESH_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B992DD0)
+#define HOUDINIENGINEUNITY_TEST_MESH_CTOR_OFFSET UNITYSDK_OFFSET(0x2087CFF0)
+#define HOUDINIENGINEUNITY_TEST_MESH_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x2087D020)
+#define HOUDINIENGINEUNITY_TEST_MESH_ISNULL_OFFSET UNITYSDK_OFFSET(0x2087D000)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Mesh_TypeDefinitionIndex = 40734;
+	inline static constexpr unsigned int Test_Mesh_TypeDefinitionIndex = 41709;
 
 	class Test_Mesh : public ::System::Object
 	{

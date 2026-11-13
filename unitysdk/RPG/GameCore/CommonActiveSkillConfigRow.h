@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CommonActiveSkillConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_COMMONACTIVESKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59E530)
-#define RPG_GAMECORE_COMMONACTIVESKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D59DF40)
+#define RPG_GAMECORE_COMMONACTIVESKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5172B0)
+#define RPG_GAMECORE_COMMONACTIVESKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F516CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CommonActiveSkillConfigRow_TypeDefinitionIndex = 13064;
+	inline static constexpr unsigned int CommonActiveSkillConfigRow_TypeDefinitionIndex = 13132;
 
 	class CommonActiveSkillConfigRow : public ::System::Object
 	{

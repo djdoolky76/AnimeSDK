@@ -5,23 +5,23 @@ class OIHNAJFFFKB;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define EKJLLMDCNPO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15500A10)
-#define EKJLLMDCNPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15500A50)
-#define EKJLLMDCNPO___C__GETDISPLAYDATAID_B__3_0_OFFSET UNITYSDK_OFFSET(0x15500A60)
+#define EKJLLMDCNPO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19996250)
+#define EKJLLMDCNPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19996290)
+#define EKJLLMDCNPO___C__GETDISPLAYDATAID_B__3_0_OFFSET UNITYSDK_OFFSET(0x199962A0)
 
-inline static constexpr unsigned int EKJLLMDCNPO___c_TypeDefinitionIndex = 68276;
+inline static constexpr unsigned int EKJLLMDCNPO___c_TypeDefinitionIndex = 70222;
 
 	class EKJLLMDCNPO___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35B10);
-		}
-
 		static ::System::Func_3<::OIHNAJFFFKB*, ::OIHNAJFFFKB*, ::System::Int32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_3<::OIHNAJFFFKB*, ::OIHNAJFFFKB*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35B18);
+			return (::System::Func_3<::OIHNAJFFFKB*, ::OIHNAJFFFKB*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F100);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F108);
 		}
 
 		static ::System::Void _cctor()

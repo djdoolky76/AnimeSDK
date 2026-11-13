@@ -8,15 +8,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KPOBNILOOKO_AEEKJMLKKLH_OFFSET UNITYSDK_OFFSET(0xB5C8B30)
-#define KPOBNILOOKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C9220)
-#define KPOBNILOOKO_FPJOIGNNIAB_OFFSET UNITYSDK_OFFSET(0xB5C8320)
-#define KPOBNILOOKO_HPNKDJDJMLN_OFFSET UNITYSDK_OFFSET(0xB5C9080)
-#define KPOBNILOOKO_ONINIT_OFFSET UNITYSDK_OFFSET(0xB5C81E0)
-#define KPOBNILOOKO_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xB5C8220)
-#define KPOBNILOOKO_PEJIBJMDHPH_OFFSET UNITYSDK_OFFSET(0xB5C8E50)
+#define KPOBNILOOKO_AEEKJMLKKLH_OFFSET UNITYSDK_OFFSET(0x19139CB0)
+#define KPOBNILOOKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1913A3A0)
+#define KPOBNILOOKO_FPJOIGNNIAB_OFFSET UNITYSDK_OFFSET(0x191394A0)
+#define KPOBNILOOKO_HPNKDJDJMLN_OFFSET UNITYSDK_OFFSET(0x1913A200)
+#define KPOBNILOOKO_ONINIT_OFFSET UNITYSDK_OFFSET(0x19139360)
+#define KPOBNILOOKO_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x191393A0)
+#define KPOBNILOOKO_PEJIBJMDHPH_OFFSET UNITYSDK_OFFSET(0x19139FD0)
 
-inline static constexpr unsigned int KPOBNILOOKO_TypeDefinitionIndex = 73337;
+inline static constexpr unsigned int KPOBNILOOKO_TypeDefinitionIndex = 75454;
 
 	class KPOBNILOOKO : public ::HBCMHADMLOP
 	{
@@ -24,8 +24,8 @@ inline static constexpr unsigned int KPOBNILOOKO_TypeDefinitionIndex = 73337;
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* HHAAOGJBFHD; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>* FCBNHELBMMM; // 0x28
 		::System::Collections::Generic::List_1<::System::Object*>* JBJEHKEBCJI; // 0x30
-		::System::Boolean AINFEIKOOAA; // 0x38
-		::System::Boolean IMLAADIJHMD; // 0x39
+		::System::Boolean IMLAADIJHMD; // 0x38
+		::System::Boolean AINFEIKOOAA; // 0x39
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPOBNILOOKO_CTOR_OFFSET))(this);

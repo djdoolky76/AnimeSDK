@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatBossPersistentTipsConfig; }
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D7F60)
-#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D7E70)
+#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3B5A20)
+#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3B5930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatBossPersistentTipsConfig_TypeDefinitionIndex = 16189;
+	inline static constexpr unsigned int DiceCombatBossPersistentTipsConfig_TypeDefinitionIndex = 16347;
 
 	class DiceCombatBossPersistentTipsConfig : public ::RPG::GameCore::JsonConfig
 	{

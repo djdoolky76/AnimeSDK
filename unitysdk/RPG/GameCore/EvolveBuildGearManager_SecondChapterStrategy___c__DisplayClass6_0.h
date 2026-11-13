@@ -7,17 +7,17 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_SecondChapterStrategy___c__DisplayClass6_0_TypeDefinitionIndex = 56068;
+	inline static constexpr unsigned int EvolveBuildGearManager_SecondChapterStrategy___c__DisplayClass6_0_TypeDefinitionIndex = 57280;
 
 	struct alignas(8) EvolveBuildGearManager_SecondChapterStrategy___c__DisplayClass6_0
 	{
-		::System::Collections::Generic::List_1<::HKOJMGEMDNN*>* targetList; // 0x10
+		::RPG::GameCore::EvolveBuildGearManager_SecondChapterStrategy* __4__this; // 0x10
 		::RPG::PoolList_1<::System::UInt32>* pCardIDPool; // 0x18
-		::RPG::GameCore::EvolveBuildGearManager_SecondChapterStrategy* __4__this; // 0x20
-		::Il2CppArray<::System::UInt32>* refWhitelist; // 0x28
+		::Il2CppArray<::System::UInt32>* refWhitelist; // 0x20
+		::System::Collections::Generic::List_1<::HKOJMGEMDNN*>* targetList; // 0x28
 		::Il2CppArray<::System::UInt32>* refBlacklist; // 0x30
-		::System::UInt32 nReRollCount; // 0x38
-		::System::UInt32 nCurPeriod; // 0x3C
-		::System::UInt32 nMaxCardCount; // 0x40
+		::System::UInt32 nMaxCardCount; // 0x38
+		::System::UInt32 nReRollCount; // 0x3C
+		::System::UInt32 nCurPeriod; // 0x40
 	};
 }

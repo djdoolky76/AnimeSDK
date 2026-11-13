@@ -5,17 +5,17 @@ class EGDPGOHKLPI;
 class PDEFOKILHLE;
 namespace System { class String; }
 
-#define MKJKIMJKFKP_CTOR_OFFSET UNITYSDK_OFFSET(0xB992DB0)
-#define MKJKIMJKFKP_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB992CB0)
+#define MKJKIMJKFKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9075E0)
+#define MKJKIMJKFKP_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1B9074E0)
 
-inline static constexpr unsigned int MKJKIMJKFKP_TypeDefinitionIndex = 59907;
+inline static constexpr unsigned int MKJKIMJKFKP_TypeDefinitionIndex = 61191;
 
 	class MKJKIMJKFKP : public ::System::Object
 	{
 	public:
 		static ::EGDPGOHKLPI** StaticGet_IFCMENDDFIK()
 		{
-			return (::EGDPGOHKLPI**)UnitySDK::FromName("", "MKJKIMJKFKP")->GetStaticField(0x19A0);
+			return (::EGDPGOHKLPI**)UnitySDK::FromName("", "MKJKIMJKFKP")->GetStaticField(0x73AB0);
 		}
 
 		::System::Void _ctor()

@@ -10,18 +10,18 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define BIEFKHPDHPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D9440)
-#define BIEFKHPDHPI_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1D7D96F0)
-#define BIEFKHPDHPI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7D94A0)
-#define BIEFKHPDHPI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D93C0)
+#define BIEFKHPDHPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F192D70)
+#define BIEFKHPDHPI_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1F193020)
+#define BIEFKHPDHPI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F192DD0)
+#define BIEFKHPDHPI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F192CF0)
 
-inline static constexpr unsigned int BIEFKHPDHPI_TypeDefinitionIndex = 22990;
+inline static constexpr unsigned int BIEFKHPDHPI_TypeDefinitionIndex = 23418;
 
 	class BIEFKHPDHPI : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* OLPAJJAEEHH; // 0x18
-		::System::String* FHLJGDGMMHK; // 0x20
+		::System::String* FHLJGDGMMHK; // 0x18
+		::RPG::GameCore::TargetEvaluator* OLPAJJAEEHH; // 0x20
 		::RPG::GameCore::DynamicFloat* CKFBELANALF; // 0x28
 		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x30
 		::RPG::GameCore::HPDetailParamType IMOPHAJMIFO; // 0x34

@@ -7,23 +7,23 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KMPCBEMPJOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB56E940)
-#define KMPCBEMPJOH_GET_FOCUSENTERCOUNT_OFFSET UNITYSDK_OFFSET(0xB56E750)
-#define KMPCBEMPJOH_GET_INITIALFOCUSITEM_OFFSET UNITYSDK_OFFSET(0xB56E930)
-#define KMPCBEMPJOH_GET_ISFOCUSED_OFFSET UNITYSDK_OFFSET(0xB56E730)
-#define KMPCBEMPJOH_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xB56E740)
-#define KMPCBEMPJOH_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xB56E920)
-#define KMPCBEMPJOH_JKHIHPBHEEP_OFFSET UNITYSDK_OFFSET(0xB56E760)
+#define KMPCBEMPJOH_CTOR_OFFSET UNITYSDK_OFFSET(0x18F95000)
+#define KMPCBEMPJOH_GET_FOCUSENTERCOUNT_OFFSET UNITYSDK_OFFSET(0x18F94E10)
+#define KMPCBEMPJOH_GET_INITIALFOCUSITEM_OFFSET UNITYSDK_OFFSET(0x18F94FF0)
+#define KMPCBEMPJOH_GET_ISFOCUSED_OFFSET UNITYSDK_OFFSET(0x18F94DF0)
+#define KMPCBEMPJOH_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x18F94E00)
+#define KMPCBEMPJOH_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x18F94FE0)
+#define KMPCBEMPJOH_JKHIHPBHEEP_OFFSET UNITYSDK_OFFSET(0x18F94E20)
 
-inline static constexpr unsigned int KMPCBEMPJOH_TypeDefinitionIndex = 73474;
+inline static constexpr unsigned int KMPCBEMPJOH_TypeDefinitionIndex = 75597;
 
 	class KMPCBEMPJOH : public ::System::Object
 	{
 	public:
-		::R3::ReactiveProperty_1<::System::Boolean>* _IsFocused_k__BackingField; // 0x10
+		::R3::ReactiveProperty_1<::System::Int32>* _FocusEnterCount_k__BackingField; // 0x10
 		::System::Collections::Generic::List_1<::NABFBNBJNKK*>* _Items_k__BackingField; // 0x18
-		::R3::ReactiveProperty_1<::System::Int32>* _FocusEnterCount_k__BackingField; // 0x20
-		::R3::ReactiveProperty_1<::System::Boolean>* _IsSelected_k__BackingField; // 0x28
+		::R3::ReactiveProperty_1<::System::Boolean>* _IsSelected_k__BackingField; // 0x20
+		::R3::ReactiveProperty_1<::System::Boolean>* _IsFocused_k__BackingField; // 0x28
 		::R3::ReactiveProperty_1<::NABFBNBJNKK*>* _InitialFocusItem_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{

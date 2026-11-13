@@ -4,18 +4,18 @@
 class NFMEALLIHPI;
 namespace System { class Object; }
 
-#define NFMEALLIHPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAD9A10)
-#define NFMEALLIHPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD9A40)
-#define NFMEALLIHPI___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x1EAD9A50)
+#define NFMEALLIHPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEA21F0)
+#define NFMEALLIHPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEA2220)
+#define NFMEALLIHPI___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x1FEA2230)
 
-inline static constexpr unsigned int NFMEALLIHPI___c_TypeDefinitionIndex = 34004;
+inline static constexpr unsigned int NFMEALLIHPI___c_TypeDefinitionIndex = 34919;
 
 	class NFMEALLIHPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63410);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FF90);
 		}
 
 		static ::System::Void _cctor()

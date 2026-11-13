@@ -4,18 +4,18 @@
 class FEDOFFJODEM;
 namespace System { class Object; }
 
-#define FEDOFFJODEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3348E0)
-#define FEDOFFJODEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E334920)
-#define FEDOFFJODEM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E334930)
+#define FEDOFFJODEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2053EF30)
+#define FEDOFFJODEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2053EF70)
+#define FEDOFFJODEM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2053EF80)
 
-inline static constexpr unsigned int FEDOFFJODEM___c_TypeDefinitionIndex = 31365;
+inline static constexpr unsigned int FEDOFFJODEM___c_TypeDefinitionIndex = 32278;
 
 	class FEDOFFJODEM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53270);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A5E0);
 		}
 
 		static ::System::Void _cctor()

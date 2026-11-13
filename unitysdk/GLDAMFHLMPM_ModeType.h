@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GLDAMFHLMPM_ModeType_TypeDefinitionIndex = 59851;
+inline static constexpr unsigned int GLDAMFHLMPM_ModeType_TypeDefinitionIndex = 61132;
 
 	enum class GLDAMFHLMPM_ModeType : ::System::Int32
 	{

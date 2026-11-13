@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONTROLLLIGHTEDITCOMP_CTOR_OFFSET UNITYSDK_OFFSET(0xCBBE190)
+#define RPG_CLIENT_CONTROLLLIGHTEDITCOMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7D6090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ControllLightEditComp_TypeDefinitionIndex = 70181;
+	inline static constexpr unsigned int ControllLightEditComp_TypeDefinitionIndex = 72147;
 
 	class ControllLightEditComp : public ::UnityEngine::MonoBehaviour
 	{

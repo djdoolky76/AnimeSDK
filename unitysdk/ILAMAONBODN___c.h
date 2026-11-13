@@ -4,18 +4,18 @@
 class ILAMAONBODN;
 namespace System { class Object; }
 
-#define ILAMAONBODN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E679510)
-#define ILAMAONBODN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E679540)
-#define ILAMAONBODN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E679550)
+#define ILAMAONBODN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2006C640)
+#define ILAMAONBODN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2006C670)
+#define ILAMAONBODN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2006C680)
 
-inline static constexpr unsigned int ILAMAONBODN___c_TypeDefinitionIndex = 34509;
+inline static constexpr unsigned int ILAMAONBODN___c_TypeDefinitionIndex = 35437;
 
 	class ILAMAONBODN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x510D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B0F0);
 		}
 
 		static ::System::Void _cctor()

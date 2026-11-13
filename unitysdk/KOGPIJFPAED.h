@@ -3,10 +3,10 @@
 class LNFKIOADLAN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KOGPIJFPAED_CTOR_OFFSET UNITYSDK_OFFSET(0xB590530)
-#define KOGPIJFPAED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB590560)
+#define KOGPIJFPAED_CTOR_OFFSET UNITYSDK_OFFSET(0x190FF780)
+#define KOGPIJFPAED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x190FF7B0)
 
-inline static constexpr unsigned int KOGPIJFPAED_TypeDefinitionIndex = 57881;
+inline static constexpr unsigned int KOGPIJFPAED_TypeDefinitionIndex = 59118;
 
 	class KOGPIJFPAED
 	{

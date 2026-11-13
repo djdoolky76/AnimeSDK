@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS250_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6176E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS250_0__CB_READYFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F61AC90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS250_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB1C60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS250_0__CB_READYFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DDB5200)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass250_0_TypeDefinitionIndex = 39362;
+	inline static constexpr unsigned int Browser___c__DisplayClass250_0_TypeDefinitionIndex = 40291;
 
 	class Browser___c__DisplayClass250_0 : public ::System::Object
 	{

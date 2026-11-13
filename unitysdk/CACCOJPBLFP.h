@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class DHAEANMEFLE;
 
-#define CACCOJPBLFP_EGLMGIIHDKA_OFFSET UNITYSDK_OFFSET(0xC1BC670)
-#define CACCOJPBLFP_PNLGDDFHCNC_OFFSET UNITYSDK_OFFSET(0xC1BC570)
+#define CACCOJPBLFP_EGLMGIIHDKA_OFFSET UNITYSDK_OFFSET(0x1B61B3F0)
+#define CACCOJPBLFP_PNLGDDFHCNC_OFFSET UNITYSDK_OFFSET(0x1B61B2F0)
 
-inline static constexpr unsigned int CACCOJPBLFP_TypeDefinitionIndex = 60819;
+inline static constexpr unsigned int CACCOJPBLFP_TypeDefinitionIndex = 62198;
 
 	class CACCOJPBLFP : public ::System::Object
 	{

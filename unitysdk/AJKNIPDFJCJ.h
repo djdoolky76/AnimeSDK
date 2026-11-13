@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PreloadBattlePerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJKNIPDFJCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBF4B0)
-#define AJKNIPDFJCJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CBF4E0)
+#define AJKNIPDFJCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19D45D80)
+#define AJKNIPDFJCJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D45DB0)
 
-inline static constexpr unsigned int AJKNIPDFJCJ_TypeDefinitionIndex = 58298;
+inline static constexpr unsigned int AJKNIPDFJCJ_TypeDefinitionIndex = 59554;
 
 	class AJKNIPDFJCJ
 	{

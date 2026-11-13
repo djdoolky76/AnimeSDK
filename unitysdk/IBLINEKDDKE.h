@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class IBEJMEEEJMB;
 
-#define IBLINEKDDKE_IGLFJBCPILA_OFFSET UNITYSDK_OFFSET(0x15E30090)
+#define IBLINEKDDKE_IGLFJBCPILA_OFFSET UNITYSDK_OFFSET(0x188BA310)
 
-inline static constexpr unsigned int IBLINEKDDKE_TypeDefinitionIndex = 57581;
+inline static constexpr unsigned int IBLINEKDDKE_TypeDefinitionIndex = 58809;
 
 	class IBLINEKDDKE : public ::System::Object
 	{

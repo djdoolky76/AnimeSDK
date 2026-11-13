@@ -5,10 +5,10 @@
 namespace Entitas { class ISystem; }
 namespace Entitas { class ITearDownSystem; }
 
-#define EKBFOILFKMC_CTOR_OFFSET UNITYSDK_OFFSET(0x154F0460)
-#define EKBFOILFKMC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x154F0550)
+#define EKBFOILFKMC_CTOR_OFFSET UNITYSDK_OFFSET(0x19984FA0)
+#define EKBFOILFKMC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x19985090)
 
-inline static constexpr unsigned int EKBFOILFKMC_TypeDefinitionIndex = 76773;
+inline static constexpr unsigned int EKBFOILFKMC_TypeDefinitionIndex = 79106;
 
 	class EKBFOILFKMC : public ::System::Object
 	{

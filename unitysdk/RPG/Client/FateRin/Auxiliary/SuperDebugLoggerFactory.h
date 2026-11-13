@@ -6,12 +6,12 @@ namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_FATERIN_AUXILIARY_SUPERDEBUGLOGGERFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xCEA4EF0)
-#define RPG_CLIENT_FATERIN_AUXILIARY_SUPERDEBUGLOGGERFACTORY_GETLOGGER_OFFSET UNITYSDK_OFFSET(0xCEA4D90)
+#define RPG_CLIENT_FATERIN_AUXILIARY_SUPERDEBUGLOGGERFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB97290)
+#define RPG_CLIENT_FATERIN_AUXILIARY_SUPERDEBUGLOGGERFACTORY_GETLOGGER_OFFSET UNITYSDK_OFFSET(0x1DB97130)
 
 namespace RPG::Client::FateRin::Auxiliary
 {
-	inline static constexpr unsigned int SuperDebugLoggerFactory_TypeDefinitionIndex = 81061;
+	inline static constexpr unsigned int SuperDebugLoggerFactory_TypeDefinitionIndex = 83841;
 
 	class SuperDebugLoggerFactory : public ::System::Object
 	{

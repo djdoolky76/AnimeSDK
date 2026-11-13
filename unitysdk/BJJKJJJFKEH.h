@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckActionDelayChanged; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJJKJJJFKEH_CTOR_OFFSET UNITYSDK_OFFSET(0xB79EE20)
-#define BJJKJJJFKEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB79EE50)
+#define BJJKJJJFKEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A638360)
+#define BJJKJJJFKEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A638390)
 
-inline static constexpr unsigned int BJJKJJJFKEH_TypeDefinitionIndex = 54490;
+inline static constexpr unsigned int BJJKJJJFKEH_TypeDefinitionIndex = 55654;
 
 	class BJJKJJJFKEH
 	{

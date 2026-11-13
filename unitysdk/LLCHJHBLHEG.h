@@ -5,21 +5,21 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfCustomerProcessBill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLCHJHBLHEG_APCGKNBLMPE_OFFSET UNITYSDK_OFFSET(0xB75B330)
-#define LLCHJHBLHEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB75AE50)
-#define LLCHJHBLHEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB75AE80)
-#define LLCHJHBLHEG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB75B150)
-#define LLCHJHBLHEG_TICK_OFFSET UNITYSDK_OFFSET(0xB75B1A0)
+#define LLCHJHBLHEG_APCGKNBLMPE_OFFSET UNITYSDK_OFFSET(0x1AFAABC0)
+#define LLCHJHBLHEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFAA6E0)
+#define LLCHJHBLHEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFAA710)
+#define LLCHJHBLHEG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AFAA9E0)
+#define LLCHJHBLHEG_TICK_OFFSET UNITYSDK_OFFSET(0x1AFAAA30)
 
-inline static constexpr unsigned int LLCHJHBLHEG_TypeDefinitionIndex = 52155;
+inline static constexpr unsigned int LLCHJHBLHEG_TypeDefinitionIndex = 53260;
 
 	class LLCHJHBLHEG
 	{
 	public:
 		::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x28
-		::UnityEngine::Quaternion HBAIICJGPGC; // 0x30
+		::UnityEngine::Quaternion ACDOFFNEDEF; // 0x30
 		::System::Single KLBFFEFFJID; // 0x40
-		::UnityEngine::Quaternion ACDOFFNEDEF; // 0x44
+		::UnityEngine::Quaternion HBAIICJGPGC; // 0x44
 		::System::Single PGMIOKKLHIE; // 0x54
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfCustomerProcessBill* a2)
 		{

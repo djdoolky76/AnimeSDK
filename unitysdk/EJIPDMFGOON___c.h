@@ -4,18 +4,18 @@
 class EJIPDMFGOON;
 namespace System { class Object; }
 
-#define EJIPDMFGOON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E28C000)
-#define EJIPDMFGOON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E28C040)
-#define EJIPDMFGOON___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E28C050)
+#define EJIPDMFGOON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE4FDA0)
+#define EJIPDMFGOON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE4FDE0)
+#define EJIPDMFGOON___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE4FDF0)
 
-inline static constexpr unsigned int EJIPDMFGOON___c_TypeDefinitionIndex = 26279;
+inline static constexpr unsigned int EJIPDMFGOON___c_TypeDefinitionIndex = 26806;
 
 	class EJIPDMFGOON___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CDD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40DA0);
 		}
 
 		static ::System::Void _cctor()

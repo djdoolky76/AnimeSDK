@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PKNNKNNGPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C5DD0)
+#define PKNNKNNGPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x206FE2F0)
 
-inline static constexpr unsigned int PKNNKNNGPFH_TypeDefinitionIndex = 42943;
+inline static constexpr unsigned int PKNNKNNGPFH_TypeDefinitionIndex = 43924;
 
 	class PKNNKNNGPFH : public ::System::Object
 	{

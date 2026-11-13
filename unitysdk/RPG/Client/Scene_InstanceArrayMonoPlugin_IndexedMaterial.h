@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Rendering/ShadowCastingMode.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_SCENE_INSTANCEARRAYMONOPLUGIN_INDEXEDMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xE095FA0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYMONOPLUGIN_INDEXEDMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C091060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_IndexedMaterial_TypeDefinitionIndex = 70860;
+	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_IndexedMaterial_TypeDefinitionIndex = 72839;
 
 	class Scene_InstanceArrayMonoPlugin_IndexedMaterial : public ::System::Object
 	{

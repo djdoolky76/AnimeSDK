@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemGotoDataRow; }
 
-#define RPG_GAMECORE_ITEMGOTODATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76BEA0)
-#define RPG_GAMECORE_ITEMGOTODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D76B8C0)
+#define RPG_GAMECORE_ITEMGOTODATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91EB40)
+#define RPG_GAMECORE_ITEMGOTODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91E560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemGotoDataRow_TypeDefinitionIndex = 13869;
+	inline static constexpr unsigned int ItemGotoDataRow_TypeDefinitionIndex = 14026;
 
 	class ItemGotoDataRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 GotoID; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 GotoID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMGOTODATAROW_CTOR_OFFSET))(this);

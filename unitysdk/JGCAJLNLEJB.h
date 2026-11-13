@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class AIDecisionGroup; }
 
-#define JGCAJLNLEJB_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x1664EAB0)
+#define JGCAJLNLEJB_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x193477D0)
 
-inline static constexpr unsigned int JGCAJLNLEJB_TypeDefinitionIndex = 57761;
+inline static constexpr unsigned int JGCAJLNLEJB_TypeDefinitionIndex = 58996;
 
 	class JGCAJLNLEJB : public ::System::Object
 	{

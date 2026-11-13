@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEffectAnimatorSyncWithTimeLine; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define INFHMIEOCGH_CTOR_OFFSET UNITYSDK_OFFSET(0x164DE650)
-#define INFHMIEOCGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164DE680)
+#define INFHMIEOCGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5EC540)
+#define INFHMIEOCGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5EC570)
 
-inline static constexpr unsigned int INFHMIEOCGH_TypeDefinitionIndex = 55489;
+inline static constexpr unsigned int INFHMIEOCGH_TypeDefinitionIndex = 56677;
 
 	class INFHMIEOCGH
 	{

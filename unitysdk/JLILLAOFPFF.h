@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FateBattleShowRiderUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JLILLAOFPFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB245F20)
-#define JLILLAOFPFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB245F50)
+#define JLILLAOFPFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0946B0)
+#define JLILLAOFPFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A0946E0)
 
-inline static constexpr unsigned int JLILLAOFPFF_TypeDefinitionIndex = 55031;
+inline static constexpr unsigned int JLILLAOFPFF_TypeDefinitionIndex = 56207;
 
 	class JLILLAOFPFF
 	{

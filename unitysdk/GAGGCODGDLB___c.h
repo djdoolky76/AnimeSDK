@@ -4,18 +4,18 @@
 class GAGGCODGDLB;
 namespace System { class Object; }
 
-#define GAGGCODGDLB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3EE7E0)
-#define GAGGCODGDLB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3EE810)
-#define GAGGCODGDLB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3EE820)
+#define GAGGCODGDLB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC3C0C0)
+#define GAGGCODGDLB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC3C0F0)
+#define GAGGCODGDLB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC3C100)
 
-inline static constexpr unsigned int GAGGCODGDLB___c_TypeDefinitionIndex = 34735;
+inline static constexpr unsigned int GAGGCODGDLB___c_TypeDefinitionIndex = 35663;
 
 	class GAGGCODGDLB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55810);
 		}
 
 		static ::System::Void _cctor()

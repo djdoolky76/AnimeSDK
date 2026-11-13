@@ -10,19 +10,19 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PJKPAPOHCJA_CTOR_OFFSET UNITYSDK_OFFSET(0xC291670)
-#define PJKPAPOHCJA_GAHIJOOEMFF_OFFSET UNITYSDK_OFFSET(0xC291AB0)
-#define PJKPAPOHCJA_JAENAEMJIOC_OFFSET UNITYSDK_OFFSET(0xC291F80)
-#define PJKPAPOHCJA_NFANNGGMHAI_OFFSET UNITYSDK_OFFSET(0xC291830)
-#define PJKPAPOHCJA_OBAOGFHPPFC_OFFSET UNITYSDK_OFFSET(0xC292000)
+#define PJKPAPOHCJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1479C880)
+#define PJKPAPOHCJA_GAHIJOOEMFF_OFFSET UNITYSDK_OFFSET(0x1479CCC0)
+#define PJKPAPOHCJA_JAENAEMJIOC_OFFSET UNITYSDK_OFFSET(0x1479D190)
+#define PJKPAPOHCJA_NFANNGGMHAI_OFFSET UNITYSDK_OFFSET(0x1479CA40)
+#define PJKPAPOHCJA_OBAOGFHPPFC_OFFSET UNITYSDK_OFFSET(0x1479D210)
 
-inline static constexpr unsigned int PJKPAPOHCJA_TypeDefinitionIndex = 53632;
+inline static constexpr unsigned int PJKPAPOHCJA_TypeDefinitionIndex = 54796;
 
 	class PJKPAPOHCJA : public ::PAMIGLDMHFH
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::BBOFEHOPCEC*>* FFFLIDJBKBI; // 0x70
-		::NAKCADNKBCK* PKEILLOHGFC; // 0x78
+		::NAKCADNKBCK* PKEILLOHGFC; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::BBOFEHOPCEC*>* FFFLIDJBKBI; // 0x78
 		::System::Void _ctor(::RPG::GameCore::StateTreeReactionStateConfig* a1, ::RPG::GameCore::TaskContext* a2, ::FHLBIPIKFEJ* a3, ::System::Int32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StateTreeReactionStateConfig*, ::RPG::GameCore::TaskContext*, ::FHLBIPIKFEJ*, ::System::Int32))((::PBYTE)hIl2Cpp + PJKPAPOHCJA_CTOR_OFFSET))(this, a1, a2, a3, a4);

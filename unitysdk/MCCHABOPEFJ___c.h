@@ -4,18 +4,18 @@
 class MCCHABOPEFJ;
 namespace System { class Object; }
 
-#define MCCHABOPEFJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C41B0)
-#define MCCHABOPEFJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C41F0)
-#define MCCHABOPEFJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9C4200)
+#define MCCHABOPEFJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD3A830)
+#define MCCHABOPEFJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD3A870)
+#define MCCHABOPEFJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD3A880)
 
-inline static constexpr unsigned int MCCHABOPEFJ___c_TypeDefinitionIndex = 31805;
+inline static constexpr unsigned int MCCHABOPEFJ___c_TypeDefinitionIndex = 32718;
 
 	class MCCHABOPEFJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49210);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48150);
 		}
 
 		static ::System::Void _cctor()

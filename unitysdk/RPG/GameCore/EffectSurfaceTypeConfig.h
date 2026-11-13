@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EffectSurfaceOverride; }
 namespace RPG::GameCore { class EffectSurfaceTypeConfig; }
 
-#define RPG_GAMECORE_EFFECTSURFACETYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D603BB0)
-#define RPG_GAMECORE_EFFECTSURFACETYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D603AF0)
+#define RPG_GAMECORE_EFFECTSURFACETYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DA570)
+#define RPG_GAMECORE_EFFECTSURFACETYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DA4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectSurfaceTypeConfig_TypeDefinitionIndex = 16486;
+	inline static constexpr unsigned int EffectSurfaceTypeConfig_TypeDefinitionIndex = 16650;
 
 	class EffectSurfaceTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

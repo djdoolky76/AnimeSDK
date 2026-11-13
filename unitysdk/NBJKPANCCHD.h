@@ -6,36 +6,36 @@ namespace RPG::Client { template <typename T> class StringMemoryDictionary_1; }
 namespace RPG::GameCore { class TriggerEffect; }
 namespace System { class String; }
 
-#define NBJKPANCCHD_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAC3DC0)
-#define NBJKPANCCHD_CTOR_OFFSET UNITYSDK_OFFSET(0xBAC3DB0)
-#define NBJKPANCCHD_FPMOCFJJCBA_OFFSET UNITYSDK_OFFSET(0xBAC3740)
-#define NBJKPANCCHD_HNNPNJJKJIP_OFFSET UNITYSDK_OFFSET(0xBAC38F0)
-#define NBJKPANCCHD_LGGBOLEEOLD_OFFSET UNITYSDK_OFFSET(0xBAC34E0)
-#define NBJKPANCCHD_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0xBAC3040)
+#define NBJKPANCCHD_CCTOR_OFFSET UNITYSDK_OFFSET(0x150B5500)
+#define NBJKPANCCHD_CTOR_OFFSET UNITYSDK_OFFSET(0x150B54F0)
+#define NBJKPANCCHD_FPMOCFJJCBA_OFFSET UNITYSDK_OFFSET(0x150B4E80)
+#define NBJKPANCCHD_HNNPNJJKJIP_OFFSET UNITYSDK_OFFSET(0x150B5030)
+#define NBJKPANCCHD_LGGBOLEEOLD_OFFSET UNITYSDK_OFFSET(0x150B4C20)
+#define NBJKPANCCHD_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0x150B4780)
 
-inline static constexpr unsigned int NBJKPANCCHD_TypeDefinitionIndex = 70147;
+inline static constexpr unsigned int NBJKPANCCHD_TypeDefinitionIndex = 72113;
 
 	class NBJKPANCCHD : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::TriggerEffect*>*>** StaticGet_HMGFBENLJGM()
-		{
-			return (::RPG::Client::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::TriggerEffect*>*>**)UnitySDK::FromName("", "NBJKPANCCHD")->GetStaticField(0x1EA90);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_KLFMBIKGOHO()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NBJKPANCCHD")->GetStaticField(0x1EA98);
-		}
-
 		static ::System::String** StaticGet_PNAACJGPAFD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "NBJKPANCCHD")->GetStaticField(0x1EAA0);
+			return (::System::String**)UnitySDK::FromName("", "NBJKPANCCHD")->GetStaticField(0x1B500);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_PFCDNDJGGMB()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NBJKPANCCHD")->GetStaticField(0x1EAA8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NBJKPANCCHD")->GetStaticField(0x1B508);
+		}
+
+		static ::RPG::Client::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::TriggerEffect*>*>** StaticGet_HMGFBENLJGM()
+		{
+			return (::RPG::Client::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::TriggerEffect*>*>**)UnitySDK::FromName("", "NBJKPANCCHD")->GetStaticField(0x1B510);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_KLFMBIKGOHO()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NBJKPANCCHD")->GetStaticField(0x1B518);
 		}
 
 		::System::Void _ctor()

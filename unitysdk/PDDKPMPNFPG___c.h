@@ -5,29 +5,29 @@ namespace RPG::Client::Prop { class ChimeraDuelShopViewEffectBase; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PDDKPMPNFPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC009620)
-#define PDDKPMPNFPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC009660)
-#define PDDKPMPNFPG___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC009670)
-#define PDDKPMPNFPG___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0xC009680)
+#define PDDKPMPNFPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAE2020)
+#define PDDKPMPNFPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE2060)
+#define PDDKPMPNFPG___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1AAE2070)
+#define PDDKPMPNFPG___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0x1AAE2080)
 
-inline static constexpr unsigned int PDDKPMPNFPG___c_TypeDefinitionIndex = 78346;
+inline static constexpr unsigned int PDDKPMPNFPG___c_TypeDefinitionIndex = 81081;
 
 	class PDDKPMPNFPG___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>** StaticGet___9__6_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69AA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70180);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69AA8);
+			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70188);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>** StaticGet___9__6_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69AB0);
+			return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70190);
 		}
 
 		static ::System::Void _cctor()

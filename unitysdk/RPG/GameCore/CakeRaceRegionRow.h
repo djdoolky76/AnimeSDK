@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceRegionRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEREGIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D525210)
-#define RPG_GAMECORE_CAKERACEREGIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D524FE0)
+#define RPG_GAMECORE_CAKERACEREGIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFDF30)
+#define RPG_GAMECORE_CAKERACEREGIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBFDD00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceRegionRow_TypeDefinitionIndex = 10997;
+	inline static constexpr unsigned int CakeRaceRegionRow_TypeDefinitionIndex = 11013;
 
 	class CakeRaceRegionRow : public ::System::Object
 	{
 	public:
-		::System::String* RegionJson; // 0x10
-		::Il2CppArray<::System::UInt32>* CatIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* FieldIDList; // 0x20
-		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* TagList; // 0x28
+		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* TagList; // 0x10
+		::System::String* RegionJson; // 0x18
+		::Il2CppArray<::System::UInt32>* CatIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* FieldIDList; // 0x28
 		::System::UInt32 RegionID; // 0x30
 		::System::Void _ctor()
 		{

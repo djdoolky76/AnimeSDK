@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/RtBehaviorFlag.h"
 class CPCJHAMKGKC;
 
-inline static constexpr unsigned int PILFPGHPECF_TypeDefinitionIndex = 53969;
+inline static constexpr unsigned int PILFPGHPECF_TypeDefinitionIndex = 55133;
 
 	struct alignas(8) PILFPGHPECF
 	{

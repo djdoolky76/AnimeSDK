@@ -9,26 +9,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityEvolveBuildCardRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3287C0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D327FE0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E505A40)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E505260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveBuildCardRow_TypeDefinitionIndex = 11432;
+	inline static constexpr unsigned int ActivityEvolveBuildCardRow_TypeDefinitionIndex = 11483;
 
 	class ActivityEvolveBuildCardRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::System::String* ItemMiniIcon; // 0x10
 		::System::String* ItemIcon; // 0x18
-		::Il2CppArray<::System::UInt32>* CardSelectablePeriod; // 0x20
-		::System::String* ItemMiniIcon; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
+		::Il2CppArray<::System::UInt32>* CardSelectablePeriod; // 0x28
 		::RPG::GameCore::EvolveBuildSeason Season; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 LvID; // 0x34
 		::RPG::GameCore::EvolveBuildCardType Type; // 0x38
-		::RPG::GameCore::EvolveBuildCardInfluenceScope InfluenceScope; // 0x3C
-		::System::UInt32 LvID; // 0x40
-		::System::UInt32 UnlockQuest; // 0x44
+		::System::UInt32 ID; // 0x3C
+		::System::UInt32 UnlockQuest; // 0x40
+		::RPG::GameCore::EvolveBuildCardInfluenceScope InfluenceScope; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW_CTOR_OFFSET))(this);

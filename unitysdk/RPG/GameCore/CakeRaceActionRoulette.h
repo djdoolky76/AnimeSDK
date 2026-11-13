@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceActionRoulette; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAKERACEACTIONROULETTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51C310)
-#define RPG_GAMECORE_CAKERACEACTIONROULETTE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51C320)
-#define RPG_GAMECORE_CAKERACEACTIONROULETTE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D51C2C0)
+#define RPG_GAMECORE_CAKERACEACTIONROULETTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF5190)
+#define RPG_GAMECORE_CAKERACEACTIONROULETTE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBF51A0)
+#define RPG_GAMECORE_CAKERACEACTIONROULETTE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBF5140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceActionRoulette_TypeDefinitionIndex = 18347;
+	inline static constexpr unsigned int CakeRaceActionRoulette_TypeDefinitionIndex = 18507;
 
 	class CakeRaceActionRoulette : public ::RPG::GameCore::CakeRaceActionBase
 	{

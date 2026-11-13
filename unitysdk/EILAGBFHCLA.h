@@ -5,20 +5,20 @@ namespace RPG::GameCore { class PropEscalatorMoveStart; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define EILAGBFHCLA_CTOR_OFFSET UNITYSDK_OFFSET(0x154C3320)
-#define EILAGBFHCLA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154C3330)
-#define EILAGBFHCLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154C33D0)
-#define EILAGBFHCLA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x154C3380)
-#define EILAGBFHCLA_TICK_OFFSET UNITYSDK_OFFSET(0x154C35C0)
+#define EILAGBFHCLA_CTOR_OFFSET UNITYSDK_OFFSET(0x19A9E960)
+#define EILAGBFHCLA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19A9E970)
+#define EILAGBFHCLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A9EA10)
+#define EILAGBFHCLA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19A9E9C0)
+#define EILAGBFHCLA_TICK_OFFSET UNITYSDK_OFFSET(0x19A9EBF0)
 
-inline static constexpr unsigned int EILAGBFHCLA_TypeDefinitionIndex = 58320;
+inline static constexpr unsigned int EILAGBFHCLA_TypeDefinitionIndex = 59576;
 
 	class EILAGBFHCLA : public ::GELIALJDFBL
 	{
 	public:
-		::System::String* IJMGEMMNNPI; // 0x18
-		::RPG::GameCore::PropEscalatorMoveStart* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::PropEscalatorMoveStart* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::System::String* IJMGEMMNNPI; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropEscalatorMoveStart* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropEscalatorMoveStart*))((::PBYTE)hIl2Cpp + EILAGBFHCLA_CTOR_OFFSET))(this, a1, a2);

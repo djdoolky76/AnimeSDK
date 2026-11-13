@@ -5,20 +5,20 @@ class LOKBAGIKJHB;
 namespace Google::Protobuf { class ByteString; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define PJBAPLNPJCE_BLJAOPKDOKJ_OFFSET UNITYSDK_OFFSET(0xC273A70)
-#define PJBAPLNPJCE_CNMCCIGKDNF_OFFSET UNITYSDK_OFFSET(0xC2734B0)
-#define PJBAPLNPJCE_CTOR_OFFSET UNITYSDK_OFFSET(0xC273D10)
-#define PJBAPLNPJCE_FFALMOPIEND_OFFSET UNITYSDK_OFFSET(0xC2732C0)
-#define PJBAPLNPJCE_LAPPCCOFMPL_OFFSET UNITYSDK_OFFSET(0xC273940)
+#define PJBAPLNPJCE_BLJAOPKDOKJ_OFFSET UNITYSDK_OFFSET(0x1A9DFCD0)
+#define PJBAPLNPJCE_CNMCCIGKDNF_OFFSET UNITYSDK_OFFSET(0x1A9DF740)
+#define PJBAPLNPJCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9DFEE0)
+#define PJBAPLNPJCE_FFALMOPIEND_OFFSET UNITYSDK_OFFSET(0x1A9DF580)
+#define PJBAPLNPJCE_LAPPCCOFMPL_OFFSET UNITYSDK_OFFSET(0x1A9DFBD0)
 
-inline static constexpr unsigned int PJBAPLNPJCE_TypeDefinitionIndex = 66691;
+inline static constexpr unsigned int PJBAPLNPJCE_TypeDefinitionIndex = 68627;
 
 	class PJBAPLNPJCE : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_GBKLKFDBLDH()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PJBAPLNPJCE")->GetStaticField(0x15B80);
+			return (::System::Boolean*)UnitySDK::FromName("", "PJBAPLNPJCE")->GetStaticField(0x16310);
 		}
 
 		::System::Void _ctor()

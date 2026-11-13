@@ -5,10 +5,10 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define TIMESLOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9D7880)
-#define TIMESLOTCONFIG_GPJFDBAGLBK_OFFSET UNITYSDK_OFFSET(0xE9D77B0)
+#define TIMESLOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x17140510)
+#define TIMESLOTCONFIG_GPJFDBAGLBK_OFFSET UNITYSDK_OFFSET(0x17140440)
 
-inline static constexpr unsigned int TimeSlotConfig_TypeDefinitionIndex = 47092;
+inline static constexpr unsigned int TimeSlotConfig_TypeDefinitionIndex = 48120;
 
 	class TimeSlotConfig : public ::System::Object
 	{

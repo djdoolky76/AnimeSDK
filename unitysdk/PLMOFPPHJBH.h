@@ -4,9 +4,9 @@
 class KFELGAIGHAP;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define PLMOFPPHJBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC304D90)
+#define PLMOFPPHJBH_CTOR_OFFSET UNITYSDK_OFFSET(0x18891BD0)
 
-inline static constexpr unsigned int PLMOFPPHJBH_TypeDefinitionIndex = 57611;
+inline static constexpr unsigned int PLMOFPPHJBH_TypeDefinitionIndex = 58839;
 
 	class PLMOFPPHJBH : public ::System::Object
 	{

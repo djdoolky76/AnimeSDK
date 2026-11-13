@@ -8,26 +8,26 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GNMFHHHHDPB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B0E090)
-#define GNMFHHHHDPB_DHBILCLABJI_OFFSET UNITYSDK_OFFSET(0x15B0EB50)
-#define GNMFHHHHDPB_EKPMCPFKDGN_OFFSET UNITYSDK_OFFSET(0x15B0E810)
-#define GNMFHHHHDPB_EOEOIDKCKOJ_OFFSET UNITYSDK_OFFSET(0x15B0E8D0)
-#define GNMFHHHHDPB_KFOPKEFOHFE_OFFSET UNITYSDK_OFFSET(0x15B0E330)
-#define GNMFHHHHDPB_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0x15B0E2D0)
-#define GNMFHHHHDPB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15B0E780)
-#define GNMFHHHHDPB_PMNAIAIJLGC_OFFSET UNITYSDK_OFFSET(0x15B0E620)
+#define GNMFHHHHDPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1879DFE0)
+#define GNMFHHHHDPB_DHBILCLABJI_OFFSET UNITYSDK_OFFSET(0x1879EA70)
+#define GNMFHHHHDPB_EKPMCPFKDGN_OFFSET UNITYSDK_OFFSET(0x1879E730)
+#define GNMFHHHHDPB_EOEOIDKCKOJ_OFFSET UNITYSDK_OFFSET(0x1879E7F0)
+#define GNMFHHHHDPB_KFOPKEFOHFE_OFFSET UNITYSDK_OFFSET(0x1879E280)
+#define GNMFHHHHDPB_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0x1879E220)
+#define GNMFHHHHDPB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1879E6A0)
+#define GNMFHHHHDPB_PMNAIAIJLGC_OFFSET UNITYSDK_OFFSET(0x1879E570)
 
-inline static constexpr unsigned int GNMFHHHHDPB_TypeDefinitionIndex = 69632;
+inline static constexpr unsigned int GNMFHHHHDPB_TypeDefinitionIndex = 71589;
 
 	class GNMFHHHHDPB : public ::MDILEMALGNC
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* CAFMAJOMAGN; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* IALCJKLBKOF; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* IALCJKLBKOF; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* CAFMAJOMAGN; // 0x40
 		::System::Int32 NLNABHMIKKN; // 0x48
 		static ::System::Int32* StaticGet_COEMCOBPMKD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNMFHHHHDPB")->GetStaticField(0x15390);
+			return (::System::Int32*)UnitySDK::FromName("", "GNMFHHHHDPB")->GetStaticField(0x15E30);
 		}
 
 		::System::Void _ctor(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraModuleConfigCollection* a2, ::RPG::Client::PipelineCameraGlobalConfig* a3, ::RPG::Client::CameraDataAndFlags* a4)

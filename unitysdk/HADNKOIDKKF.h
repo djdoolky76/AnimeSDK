@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class HADNKOIDKKF;
 
-#define HADNKOIDKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE4E340)
-#define HADNKOIDKKF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE4E250)
+#define HADNKOIDKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D07B0)
+#define HADNKOIDKKF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9D06C0)
 
-inline static constexpr unsigned int HADNKOIDKKF_TypeDefinitionIndex = 14878;
+inline static constexpr unsigned int HADNKOIDKKF_TypeDefinitionIndex = 15034;
 
 	class HADNKOIDKKF : public ::System::Object
 	{
 	public:
-		::System::UInt32 GDDPJLJKGEO; // 0x10
-		::System::UInt32 LPCBFACBGAE; // 0x14
+		::System::UInt32 LPCBFACBGAE; // 0x10
+		::System::UInt32 GDDPJLJKGEO; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HADNKOIDKKF_CTOR_OFFSET))(this);

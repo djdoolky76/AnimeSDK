@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 namespace RPG::Client { class AnimatorButton; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD600C20)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABCONTROLBINDER_GET_BTNROOT_OFFSET UNITYSDK_OFFSET(0xD6008F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D7230)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABCONTROLBINDER_GET_BTNROOT_OFFSET UNITYSDK_OFFSET(0x1C6D6F00)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabControlBinder_TypeDefinitionIndex = 79861;
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabControlBinder_TypeDefinitionIndex = 82638;
 
 	class MechCraftCraftChipMoldFilterTabControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define LPFLPADDLAI_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB819280)
-#define LPFLPADDLAI_CTOR_2_OFFSET UNITYSDK_OFFSET(0xB8192D0)
-#define LPFLPADDLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xB819270)
+#define LPFLPADDLAI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B6B32F0)
+#define LPFLPADDLAI_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B6B3340)
+#define LPFLPADDLAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B32E0)
 
-inline static constexpr unsigned int LPFLPADDLAI_TypeDefinitionIndex = 56509;
+inline static constexpr unsigned int LPFLPADDLAI_TypeDefinitionIndex = 57729;
 
 	class LPFLPADDLAI : public ::System::Object
 	{

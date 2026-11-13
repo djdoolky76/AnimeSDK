@@ -9,9 +9,9 @@ class IOGNBKGNPFD;
 namespace Entitas { class IEntity; }
 namespace System { class String; }
 
-#define EJFODPGBAGO_HGOCMAKIHBC_OFFSET UNITYSDK_OFFSET(0x154CD280)
+#define EJFODPGBAGO_HGOCMAKIHBC_OFFSET UNITYSDK_OFFSET(0x19AA88B0)
 
-inline static constexpr unsigned int EJFODPGBAGO_TypeDefinitionIndex = 77349;
+inline static constexpr unsigned int EJFODPGBAGO_TypeDefinitionIndex = 79683;
 
 	class EJFODPGBAGO : public ::System::Object
 	{

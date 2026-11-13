@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSoundHit; }
 
-#define NLMALFMPJCG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC6B230)
-#define NLMALFMPJCG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC6B260)
+#define NLMALFMPJCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A430E60)
+#define NLMALFMPJCG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A430E90)
 
-inline static constexpr unsigned int NLMALFMPJCG_TypeDefinitionIndex = 56469;
+inline static constexpr unsigned int NLMALFMPJCG_TypeDefinitionIndex = 57689;
 
 	class NLMALFMPJCG
 	{

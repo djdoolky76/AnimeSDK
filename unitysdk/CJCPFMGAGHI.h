@@ -3,10 +3,10 @@
 class KFNMAKPOCCJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CJCPFMGAGHI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8C830)
-#define CJCPFMGAGHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF8C860)
+#define CJCPFMGAGHI_CTOR_OFFSET UNITYSDK_OFFSET(0x177B9BE0)
+#define CJCPFMGAGHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x177B9C10)
 
-inline static constexpr unsigned int CJCPFMGAGHI_TypeDefinitionIndex = 55515;
+inline static constexpr unsigned int CJCPFMGAGHI_TypeDefinitionIndex = 56707;
 
 	class CJCPFMGAGHI
 	{

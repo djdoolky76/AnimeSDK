@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogSamplerType_TypeDefinitionIndex = 56094;
+	inline static constexpr unsigned int LogSamplerType_TypeDefinitionIndex = 57306;
 
 	enum class LogSamplerType : ::System::Int32
 	{

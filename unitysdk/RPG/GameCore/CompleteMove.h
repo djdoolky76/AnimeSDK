@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CompleteMove; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_COMPLETEMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59ECF0)
-#define RPG_GAMECORE_COMPLETEMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59ED30)
-#define RPG_GAMECORE_COMPLETEMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59EC90)
+#define RPG_GAMECORE_COMPLETEMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F517A70)
+#define RPG_GAMECORE_COMPLETEMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F517AB0)
+#define RPG_GAMECORE_COMPLETEMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F517A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CompleteMove_TypeDefinitionIndex = 22464;
+	inline static constexpr unsigned int CompleteMove_TypeDefinitionIndex = 22873;
 
 	class CompleteMove : public ::RPG::GameCore::TaskConfig
 	{

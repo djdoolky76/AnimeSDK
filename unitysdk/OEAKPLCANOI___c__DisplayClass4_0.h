@@ -9,17 +9,17 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OEAKPLCANOI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDEC8D0)
-#define OEAKPLCANOI___C__DISPLAYCLASS4_0__UPGRADENEXT2DBRICK_B__0_OFFSET UNITYSDK_OFFSET(0xBDF7010)
+#define OEAKPLCANOI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17618640)
+#define OEAKPLCANOI___C__DISPLAYCLASS4_0__UPGRADENEXT2DBRICK_B__0_OFFSET UNITYSDK_OFFSET(0x176238C0)
 
-inline static constexpr unsigned int OEAKPLCANOI___c__DisplayClass4_0_TypeDefinitionIndex = 60403;
+inline static constexpr unsigned int OEAKPLCANOI___c__DisplayClass4_0_TypeDefinitionIndex = 61693;
 
 	class OEAKPLCANOI___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::BCFLJPCHOEB* snapshot; // 0x10
+		::System::Tuple_2<::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::DNFFEFPKDPC*>*>* data; // 0x10
 		::OEAKPLCANOI* __4__this; // 0x18
-		::System::Tuple_2<::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::DNFFEFPKDPC*>*>* data; // 0x20
+		::BCFLJPCHOEB* snapshot; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OEAKPLCANOI___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

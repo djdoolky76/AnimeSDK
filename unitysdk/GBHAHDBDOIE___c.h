@@ -4,18 +4,18 @@
 class GBHAHDBDOIE;
 namespace System { class Object; }
 
-#define GBHAHDBDOIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3FD950)
-#define GBHAHDBDOIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3FD990)
-#define GBHAHDBDOIE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E3FD9A0)
+#define GBHAHDBDOIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC4B2E0)
+#define GBHAHDBDOIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4B320)
+#define GBHAHDBDOIE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC4B330)
 
-inline static constexpr unsigned int GBHAHDBDOIE___c_TypeDefinitionIndex = 32971;
+inline static constexpr unsigned int GBHAHDBDOIE___c_TypeDefinitionIndex = 33886;
 
 	class GBHAHDBDOIE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC6A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56F20);
 		}
 
 		static ::System::Void _cctor()

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OFLBAIOGIMO.h"
 
-#define MHEEJBJHLOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB92DA80)
-#define MHEEJBJHLOB_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xB92DA00)
+#define MHEEJBJHLOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B353BC0)
+#define MHEEJBJHLOB_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x1B353B40)
 
-inline static constexpr unsigned int MHEEJBJHLOB_TypeDefinitionIndex = 49256;
+inline static constexpr unsigned int MHEEJBJHLOB_TypeDefinitionIndex = 50332;
 
 	class MHEEJBJHLOB : public ::OFLBAIOGIMO
 	{

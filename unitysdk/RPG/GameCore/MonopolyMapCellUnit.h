@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyMapCellUnit; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYMAPCELLUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D875E50)
-#define RPG_GAMECORE_MONOPOLYMAPCELLUNIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D875BF0)
+#define RPG_GAMECORE_MONOPOLYMAPCELLUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E467040)
+#define RPG_GAMECORE_MONOPOLYMAPCELLUNIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E466DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyMapCellUnit_TypeDefinitionIndex = 16242;
+	inline static constexpr unsigned int MonopolyMapCellUnit_TypeDefinitionIndex = 16400;
 
 	class MonopolyMapCellUnit : public ::RPG::GameCore::JsonConfig
 	{

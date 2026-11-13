@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MENALACGOCK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D127840)
-#define MENALACGOCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D127DC0)
-#define MENALACGOCK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1279B0)
-#define MENALACGOCK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1272F0)
-#define MENALACGOCK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D127580)
-#define MENALACGOCK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D127A50)
-#define MENALACGOCK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D127AA0)
-#define MENALACGOCK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D127880)
-#define MENALACGOCK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D127520)
-#define MENALACGOCK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1276F0)
-#define MENALACGOCK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D127910)
-#define MENALACGOCK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D127270)
+#define MENALACGOCK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1BB9DB60)
+#define MENALACGOCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB9E0E0)
+#define MENALACGOCK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1BB9DCD0)
+#define MENALACGOCK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1BB9D610)
+#define MENALACGOCK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1BB9D8A0)
+#define MENALACGOCK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1BB9DD70)
+#define MENALACGOCK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1BB9DDC0)
+#define MENALACGOCK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1BB9DBA0)
+#define MENALACGOCK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1BB9D840)
+#define MENALACGOCK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1BB9DA10)
+#define MENALACGOCK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1BB9DC30)
+#define MENALACGOCK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1BB9D590)
 
-inline static constexpr unsigned int MENALACGOCK_TypeDefinitionIndex = 14548;
+inline static constexpr unsigned int MENALACGOCK_TypeDefinitionIndex = 14703;
 
 	class MENALACGOCK : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerRoomDynamicConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerRoomDynamicConfigRow*>**)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0x42FA0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerRoomDynamicConfigRow*>**)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0x42000);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0x42FA8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0x42008);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0x42FB0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0xFE80);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0x42010);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0xFE81);
+			return (::System::Byte*)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0xD3F0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "MENALACGOCK")->GetStaticField(0xD3F1);
 		}
 
 		static ::System::Void _cctor()

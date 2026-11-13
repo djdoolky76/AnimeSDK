@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PlanetFesEventDataBase; }
 
-#define LBCPDBKAPGO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB5EF6C0)
+#define LBCPDBKAPGO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1B2931B0)
 
-inline static constexpr unsigned int LBCPDBKAPGO_TypeDefinitionIndex = 66555;
+inline static constexpr unsigned int LBCPDBKAPGO_TypeDefinitionIndex = 68491;
 
 	class LBCPDBKAPGO : public ::System::Object
 	{

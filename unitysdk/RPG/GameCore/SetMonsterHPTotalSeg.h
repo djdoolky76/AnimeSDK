@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetMonsterHPTotalSeg; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8E1B0)
-#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8E1F0)
-#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8E150)
+#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9DBA40)
+#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9DBA80)
+#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9DB9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterHPTotalSeg_TypeDefinitionIndex = 23143;
+	inline static constexpr unsigned int SetMonsterHPTotalSeg_TypeDefinitionIndex = 23572;
 
 	class SetMonsterHPTotalSeg : public ::RPG::GameCore::TaskConfig
 	{

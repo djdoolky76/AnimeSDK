@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterShaderSpeedEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BFEFMGMIGCD_CTOR_OFFSET UNITYSDK_OFFSET(0xB15F970)
-#define BFEFMGMIGCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB15F9A0)
+#define BFEFMGMIGCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A955870)
+#define BFEFMGMIGCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9558A0)
 
-inline static constexpr unsigned int BFEFMGMIGCD_TypeDefinitionIndex = 53223;
+inline static constexpr unsigned int BFEFMGMIGCD_TypeDefinitionIndex = 54385;
 
 	class BFEFMGMIGCD
 	{

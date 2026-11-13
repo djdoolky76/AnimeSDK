@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Web_TypeDefinitionIndex = 46165;
+	inline static constexpr unsigned int MHYSDKC_Web_TypeDefinitionIndex = 47194;
 
 	class MHYSDKC_Web : public ::System::Object
 	{

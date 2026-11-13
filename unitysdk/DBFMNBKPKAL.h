@@ -5,10 +5,10 @@ namespace RPG::Client { class GlobalDispatchData_ServerData; }
 namespace System { class Action; }
 namespace System::Collections { class IEnumerator; }
 
-#define DBFMNBKPKAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD7050)
-#define DBFMNBKPKAL_DBIJFBJGGGN_OFFSET UNITYSDK_OFFSET(0xDFD7060)
+#define DBFMNBKPKAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B148A40)
+#define DBFMNBKPKAL_DBIJFBJGGGN_OFFSET UNITYSDK_OFFSET(0x1B148A50)
 
-inline static constexpr unsigned int DBFMNBKPKAL_TypeDefinitionIndex = 69342;
+inline static constexpr unsigned int DBFMNBKPKAL_TypeDefinitionIndex = 71296;
 
 	class DBFMNBKPKAL : public ::System::Object
 	{

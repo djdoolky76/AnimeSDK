@@ -8,21 +8,21 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CHCLDIOHPCN_APANCADFLHK_OFFSET UNITYSDK_OFFSET(0xCC8CF30)
-#define CHCLDIOHPCN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC8D180)
-#define CHCLDIOHPCN_EMGFCFBFHKC_OFFSET UNITYSDK_OFFSET(0xCC8D000)
-#define CHCLDIOHPCN_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xCC8CB50)
-#define CHCLDIOHPCN_MHFGKBHNNHA_OFFSET UNITYSDK_OFFSET(0xCC8CD90)
-#define CHCLDIOHPCN_PKOHENLMLOC_OFFSET UNITYSDK_OFFSET(0xCC8D0C0)
+#define CHCLDIOHPCN_APANCADFLHK_OFFSET UNITYSDK_OFFSET(0x17866260)
+#define CHCLDIOHPCN_CCTOR_OFFSET UNITYSDK_OFFSET(0x178664B0)
+#define CHCLDIOHPCN_EMGFCFBFHKC_OFFSET UNITYSDK_OFFSET(0x17866330)
+#define CHCLDIOHPCN_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x17865E80)
+#define CHCLDIOHPCN_MHFGKBHNNHA_OFFSET UNITYSDK_OFFSET(0x178660C0)
+#define CHCLDIOHPCN_PKOHENLMLOC_OFFSET UNITYSDK_OFFSET(0x178663F0)
 
-inline static constexpr unsigned int CHCLDIOHPCN_TypeDefinitionIndex = 54351;
+inline static constexpr unsigned int CHCLDIOHPCN_TypeDefinitionIndex = 55515;
 
 	class CHCLDIOHPCN : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_LAANOLJPOAM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "CHCLDIOHPCN")->GetStaticField(0x250E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "CHCLDIOHPCN")->GetStaticField(0x130B0);
 		}
 
 		static ::System::Void _cctor()

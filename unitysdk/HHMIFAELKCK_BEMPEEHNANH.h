@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int HHMIFAELKCK_BEMPEEHNANH_TypeDefinitionIndex = 53987;
+inline static constexpr unsigned int HHMIFAELKCK_BEMPEEHNANH_TypeDefinitionIndex = 55151;
 
 	struct alignas(8) HHMIFAELKCK_BEMPEEHNANH
 	{

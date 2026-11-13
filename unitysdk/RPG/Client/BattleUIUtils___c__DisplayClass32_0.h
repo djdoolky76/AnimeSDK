@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 class HNFFJNEKJHA;
 
-#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8631B0)
-#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__TRYDOWNLOADREPLAY_B__0_OFFSET UNITYSDK_OFFSET(0xC866DE0)
+#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD92260)
+#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__TRYDOWNLOADREPLAY_B__0_OFFSET UNITYSDK_OFFSET(0x1CD95F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass32_0_TypeDefinitionIndex = 72082;
+	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass32_0_TypeDefinitionIndex = 74115;
 
 	class BattleUIUtils___c__DisplayClass32_0 : public ::System::Object
 	{

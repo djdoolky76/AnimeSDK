@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define FLPMJKNKODN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA42E20)
+#define FLPMJKNKODN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D5E0)
 
-inline static constexpr unsigned int FLPMJKNKODN_TypeDefinitionIndex = 42824;
+inline static constexpr unsigned int FLPMJKNKODN_TypeDefinitionIndex = 43804;
 
 	class FLPMJKNKODN : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

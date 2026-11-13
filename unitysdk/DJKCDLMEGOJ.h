@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ModifySkillPropertyByType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DJKCDLMEGOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF234060)
-#define DJKCDLMEGOJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF234070)
-#define DJKCDLMEGOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF2340B0)
-#define DJKCDLMEGOJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF234520)
-#define DJKCDLMEGOJ_TICK_OFFSET UNITYSDK_OFFSET(0xF234570)
+#define DJKCDLMEGOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18BED470)
+#define DJKCDLMEGOJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18BED480)
+#define DJKCDLMEGOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BED4C0)
+#define DJKCDLMEGOJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18BED930)
+#define DJKCDLMEGOJ_TICK_OFFSET UNITYSDK_OFFSET(0x18BED980)
 
-inline static constexpr unsigned int DJKCDLMEGOJ_TypeDefinitionIndex = 55216;
+inline static constexpr unsigned int DJKCDLMEGOJ_TypeDefinitionIndex = 56397;
 
 	class DJKCDLMEGOJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ModifySkillPropertyByType* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ModifySkillPropertyByType* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifySkillPropertyByType* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifySkillPropertyByType*))((::PBYTE)hIl2Cpp + DJKCDLMEGOJ_CTOR_OFFSET))(this, a1, a2);

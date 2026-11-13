@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PNIFMEAJAEB_CTOR_OFFSET UNITYSDK_OFFSET(0xC331BD0)
-#define PNIFMEAJAEB_GET_CURWAVE_OFFSET UNITYSDK_OFFSET(0xC331B90)
-#define PNIFMEAJAEB_GET_MAXWAVE_OFFSET UNITYSDK_OFFSET(0xC331BB0)
-#define PNIFMEAJAEB_SET_CURWAVE_OFFSET UNITYSDK_OFFSET(0xC331BA0)
-#define PNIFMEAJAEB_SET_MAXWAVE_OFFSET UNITYSDK_OFFSET(0xC331BC0)
+#define PNIFMEAJAEB_CTOR_OFFSET UNITYSDK_OFFSET(0x184B0610)
+#define PNIFMEAJAEB_GET_CURWAVE_OFFSET UNITYSDK_OFFSET(0x184B05D0)
+#define PNIFMEAJAEB_GET_MAXWAVE_OFFSET UNITYSDK_OFFSET(0x184B05F0)
+#define PNIFMEAJAEB_SET_CURWAVE_OFFSET UNITYSDK_OFFSET(0x184B05E0)
+#define PNIFMEAJAEB_SET_MAXWAVE_OFFSET UNITYSDK_OFFSET(0x184B0600)
 
-inline static constexpr unsigned int PNIFMEAJAEB_TypeDefinitionIndex = 80818;
+inline static constexpr unsigned int PNIFMEAJAEB_TypeDefinitionIndex = 83598;
 
 	class PNIFMEAJAEB : public ::System::Object
 	{
 	public:
-		::System::Int32 _CurWave_k__BackingField; // 0x10
-		::System::Int32 _MaxWave_k__BackingField; // 0x14
+		::System::Int32 _MaxWave_k__BackingField; // 0x10
+		::System::Int32 _CurWave_k__BackingField; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNIFMEAJAEB_CTOR_OFFSET))(this);

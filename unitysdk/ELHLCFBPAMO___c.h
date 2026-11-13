@@ -4,18 +4,18 @@
 class ELHLCFBPAMO;
 namespace System { class Object; }
 
-#define ELHLCFBPAMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2A5190)
-#define ELHLCFBPAMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A51C0)
-#define ELHLCFBPAMO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2A51D0)
+#define ELHLCFBPAMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206C9950)
+#define ELHLCFBPAMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206C9980)
+#define ELHLCFBPAMO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x206C9990)
 
-inline static constexpr unsigned int ELHLCFBPAMO___c_TypeDefinitionIndex = 33665;
+inline static constexpr unsigned int ELHLCFBPAMO___c_TypeDefinitionIndex = 34580;
 
 	class ELHLCFBPAMO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51900);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46C00);
 		}
 
 		static ::System::Void _cctor()

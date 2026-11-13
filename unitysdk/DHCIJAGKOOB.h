@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 class AOFOEOIJEHF;
 
-#define DHCIJAGKOOB_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC3430)
-#define DHCIJAGKOOB_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xEBC3220)
-#define DHCIJAGKOOB_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xEBC3270)
+#define DHCIJAGKOOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADDF9C0)
+#define DHCIJAGKOOB_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x1ADDF7B0)
+#define DHCIJAGKOOB_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0x1ADDF800)
 
-inline static constexpr unsigned int DHCIJAGKOOB_TypeDefinitionIndex = 64960;
+inline static constexpr unsigned int DHCIJAGKOOB_TypeDefinitionIndex = 66519;
 
-	class DHCIJAGKOOB : public ::AMCOEFHHBPO
+	class DHCIJAGKOOB : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::System::Void _ctor()

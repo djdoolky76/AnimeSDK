@@ -3,23 +3,23 @@
 #include "unitysdk/RPG/GameCore/GridTypeEnum.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ALLEYGRIDITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC651040)
+#define RPG_CLIENT_ALLEYGRIDITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6F100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyGridItemData_TypeDefinitionIndex = 62277;
+	inline static constexpr unsigned int AlleyGridItemData_TypeDefinitionIndex = 63690;
 
 	class AlleyGridItemData : public ::System::Object
 	{
 	public:
-		::System::UInt32 RelatedEventID; // 0x10
-		::RPG::GameCore::GridTypeEnum GridType; // 0x14
+		::System::UInt32 GridID; // 0x10
+		::System::UInt32 RegionID; // 0x14
 		::System::UInt32 PosX; // 0x18
-		::System::UInt32 GridID; // 0x1C
-		::System::UInt32 RegionID; // 0x20
-		::System::Boolean IsHideNew; // 0x24
+		::System::Boolean IsHideNew; // 0x1C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 PosY; // 0x28
+		::System::UInt32 RelatedEventID; // 0x20
+		::System::UInt32 PosY; // 0x24
+		::RPG::GameCore::GridTypeEnum GridType; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYGRIDITEMDATA_CTOR_OFFSET))(this);

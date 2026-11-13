@@ -5,17 +5,17 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define GPLNGDDJINB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B54AC0)
-#define GPLNGDDJINB_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15B54990)
-#define GPLNGDDJINB_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15B54A00)
+#define GPLNGDDJINB_CTOR_OFFSET UNITYSDK_OFFSET(0x17DC1190)
+#define GPLNGDDJINB_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x17DC1060)
+#define GPLNGDDJINB_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x17DC10D0)
 
-inline static constexpr unsigned int GPLNGDDJINB_TypeDefinitionIndex = 72133;
+inline static constexpr unsigned int GPLNGDDJINB_TypeDefinitionIndex = 74171;
 
 	class GPLNGDDJINB : public ::LBAMBIMMJKB
 	{
 	public:
-		::UnityEngine::Transform* EAGKJGELBED; // 0x18
-		::UnityEngine::UI::Text* CMMFIGCPDIB; // 0x20
+		::UnityEngine::UI::Text* CMMFIGCPDIB; // 0x18
+		::UnityEngine::Transform* EAGKJGELBED; // 0x20
 		::UnityEngine::UI::Text* GPACJHAKGJJ; // 0x28
 		::System::Void _ctor()
 		{

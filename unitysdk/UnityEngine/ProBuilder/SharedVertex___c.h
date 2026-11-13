@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F25AF30)
-#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F25AF70)
-#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C__SORTEDREMOVEANDSHIFT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1F25AF80)
+#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2B1900)
+#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2B1940)
+#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C__SORTEDREMOVEANDSHIFT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1A2B1950)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SharedVertex___c_TypeDefinitionIndex = 44434;
+	inline static constexpr unsigned int SharedVertex___c_TypeDefinitionIndex = 45509;
 
 	class SharedVertex___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x532C0);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x691B0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Boolean>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x532C8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x691B8);
 		}
 
 		static ::System::Void _cctor()

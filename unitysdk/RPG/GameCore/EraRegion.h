@@ -9,12 +9,12 @@ namespace RPG::GameCore { class EraFlipperBattleAreaOverrideConfig; }
 namespace RPG::GameCore { class EraRegion; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ERAREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D653CC0)
-#define RPG_GAMECORE_ERAREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D653850)
+#define RPG_GAMECORE_ERAREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F8FB0)
+#define RPG_GAMECORE_ERAREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0F8C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EraRegion_TypeDefinitionIndex = 16618;
+	inline static constexpr unsigned int EraRegion_TypeDefinitionIndex = 16784;
 
 	class EraRegion : public ::RPG::GameCore::JsonConfig
 	{

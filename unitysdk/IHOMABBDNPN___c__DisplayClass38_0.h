@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 namespace RPG::Client { class MonoEffect; }
 
-#define IHOMABBDNPN___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1641E770)
-#define IHOMABBDNPN___C__DISPLAYCLASS38_0__TRIGGERADVEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1641F580)
+#define IHOMABBDNPN___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x193BDA20)
+#define IHOMABBDNPN___C__DISPLAYCLASS38_0__TRIGGERADVEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x193BE850)
 
-inline static constexpr unsigned int IHOMABBDNPN___c__DisplayClass38_0_TypeDefinitionIndex = 57329;
+inline static constexpr unsigned int IHOMABBDNPN___c__DisplayClass38_0_TypeDefinitionIndex = 58557;
 
 	class IHOMABBDNPN___c__DisplayClass38_0 : public ::System::Object
 	{

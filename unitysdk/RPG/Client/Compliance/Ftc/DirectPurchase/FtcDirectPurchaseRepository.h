@@ -6,12 +6,12 @@ namespace RPG::Client::Compliance::Ftc::DirectPurchase { class FtcDirectPurchase
 namespace RPG::Client::Compliance::Ftc::DirectPurchase { class IFtcDirectPurchase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASEREPOSITORY_CTOR_OFFSET UNITYSDK_OFFSET(0xCBA4960)
-#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASEREPOSITORY_GET_OFFSET UNITYSDK_OFFSET(0xCBA40D0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASEREPOSITORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9871C0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DIRECTPURCHASE_FTCDIRECTPURCHASEREPOSITORY_GET_OFFSET UNITYSDK_OFFSET(0x1C9868E0)
 
 namespace RPG::Client::Compliance::Ftc::DirectPurchase
 {
-	inline static constexpr unsigned int FtcDirectPurchaseRepository_TypeDefinitionIndex = 74833;
+	inline static constexpr unsigned int FtcDirectPurchaseRepository_TypeDefinitionIndex = 77004;
 
 	class FtcDirectPurchaseRepository : public ::System::Object
 	{

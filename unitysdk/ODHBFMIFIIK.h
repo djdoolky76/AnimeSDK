@@ -4,10 +4,10 @@
 class ALCFDKEJMBI;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ODHBFMIFIIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95E200)
-#define ODHBFMIFIIK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1C95E160)
+#define ODHBFMIFIIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06C990)
+#define ODHBFMIFIIK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1E06C8F0)
 
-inline static constexpr unsigned int ODHBFMIFIIK_TypeDefinitionIndex = 43706;
+inline static constexpr unsigned int ODHBFMIFIIK_TypeDefinitionIndex = 44781;
 
 	class ODHBFMIFIIK : public ::System::Object
 	{

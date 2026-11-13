@@ -4,15 +4,15 @@
 class DJLLENLBFAD;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ALFCGCNDMIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C565B90)
+#define ALFCGCNDMIA_CTOR_OFFSET UNITYSDK_OFFSET(0x17001C30)
 
-inline static constexpr unsigned int ALFCGCNDMIA_TypeDefinitionIndex = 37164;
+inline static constexpr unsigned int ALFCGCNDMIA_TypeDefinitionIndex = 38092;
 
 	class ALFCGCNDMIA : public ::DKFLMHICIJG
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DJLLENLBFAD*>* NHBKJLKDFHI; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DDAOLIFBGMD; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DDAOLIFBGMD; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DJLLENLBFAD*>* NHBKJLKDFHI; // 0x30
 		::System::UInt32 DOBKKDIECDO; // 0x38
 		::System::Void _ctor()
 		{

@@ -8,20 +8,20 @@ namespace RPG::GameCore { class SetDynamicValueByModifierValue; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define OGCBKJKOLFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4B780)
-#define OGCBKJKOLFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE4B850)
-#define OGCBKJKOLFG_IOONKCMPADG_OFFSET UNITYSDK_OFFSET(0xBE4BBE0)
-#define OGCBKJKOLFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE4B890)
-#define OGCBKJKOLFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE4BEB0)
-#define OGCBKJKOLFG_TICK_OFFSET UNITYSDK_OFFSET(0xBE4BF00)
+#define OGCBKJKOLFG_CTOR_OFFSET UNITYSDK_OFFSET(0x18DF9930)
+#define OGCBKJKOLFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DF9A00)
+#define OGCBKJKOLFG_IOONKCMPADG_OFFSET UNITYSDK_OFFSET(0x18DF9D40)
+#define OGCBKJKOLFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DF9A40)
+#define OGCBKJKOLFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18DFA010)
+#define OGCBKJKOLFG_TICK_OFFSET UNITYSDK_OFFSET(0x18DFA060)
 
-inline static constexpr unsigned int OGCBKJKOLFG_TypeDefinitionIndex = 55454;
+inline static constexpr unsigned int OGCBKJKOLFG_TypeDefinitionIndex = 56642;
 
 	class OGCBKJKOLFG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetDynamicValueByModifierValue* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetDynamicValueByModifierValue* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 		::RPG::GameCore::ArrayPoolWrapper_1<::RPG::GameCore::TurnBasedModifierInstance*> NMJKNKGGBOD; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByModifierValue* a2)

@@ -6,29 +6,29 @@ class OBFADADBJHB;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define OBFADADBJHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD35ED0)
-#define OBFADADBJHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD35F00)
-#define OBFADADBJHB___C__SETIGNOREEXTERNALCOLLISION_B__6_0_OFFSET UNITYSDK_OFFSET(0xBD35F10)
-#define OBFADADBJHB___C__SETIGNOREEXTERNALCOLLISION_B__6_1_OFFSET UNITYSDK_OFFSET(0xBD35F40)
+#define OBFADADBJHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB7CA70)
+#define OBFADADBJHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB7CAA0)
+#define OBFADADBJHB___C__SETIGNOREEXTERNALCOLLISION_B__6_0_OFFSET UNITYSDK_OFFSET(0x1AB7CAB0)
+#define OBFADADBJHB___C__SETIGNOREEXTERNALCOLLISION_B__6_1_OFFSET UNITYSDK_OFFSET(0x1AB7CAE0)
 
-inline static constexpr unsigned int OBFADADBJHB___c_TypeDefinitionIndex = 76885;
+inline static constexpr unsigned int OBFADADBJHB___c_TypeDefinitionIndex = 79219;
 
 	class OBFADADBJHB___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59680);
+			return (::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66F50);
 		}
 
 		static ::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>** StaticGet___9__6_1()
 		{
-			return (::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59688);
+			return (::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66F58);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59690);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66F60);
 		}
 
 		static ::System::Void _cctor()

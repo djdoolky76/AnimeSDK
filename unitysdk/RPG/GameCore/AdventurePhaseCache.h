@@ -6,26 +6,26 @@ namespace RPG::GameCore { class EntityLodLoadingData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREPHASECACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE571210)
-#define RPG_GAMECORE_ADVENTUREPHASECACHE_GETENTITYLODLOADINGDATA_OFFSET UNITYSDK_OFFSET(0xE570D90)
-#define RPG_GAMECORE_ADVENTUREPHASECACHE_GETMESHLODPATH_OFFSET UNITYSDK_OFFSET(0xE570FF0)
-#define RPG_GAMECORE_ADVENTUREPHASECACHE_RELEASEONSWITCHMAP_OFFSET UNITYSDK_OFFSET(0xE570CD0)
+#define RPG_GAMECORE_ADVENTUREPHASECACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x19FD98C0)
+#define RPG_GAMECORE_ADVENTUREPHASECACHE_GETENTITYLODLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x19FD9440)
+#define RPG_GAMECORE_ADVENTUREPHASECACHE_GETMESHLODPATH_OFFSET UNITYSDK_OFFSET(0x19FD96A0)
+#define RPG_GAMECORE_ADVENTUREPHASECACHE_RELEASEONSWITCHMAP_OFFSET UNITYSDK_OFFSET(0x19FD9380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePhaseCache_TypeDefinitionIndex = 52263;
+	inline static constexpr unsigned int AdventurePhaseCache_TypeDefinitionIndex = 53369;
 
 	class AdventurePhaseCache : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::EntityLodLoadingData*>** StaticGet__LoadingDataCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::EntityLodLoadingData*>**)UnitySDK::FromName("RPG.GameCore", "AdventurePhaseCache")->GetStaticField(0x4F800);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>, ::System::String*>** StaticGet__MeshLodPathDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>, ::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AdventurePhaseCache")->GetStaticField(0x4F808);
+			return (::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>, ::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AdventurePhaseCache")->GetStaticField(0x62990);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::EntityLodLoadingData*>** StaticGet__LoadingDataCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::EntityLodLoadingData*>**)UnitySDK::FromName("RPG.GameCore", "AdventurePhaseCache")->GetStaticField(0x62998);
 		}
 
 		static ::System::Void _cctor()

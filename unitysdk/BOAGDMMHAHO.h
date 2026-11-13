@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddStreamingSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BOAGDMMHAHO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE3000)
-#define BOAGDMMHAHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDE3030)
+#define BOAGDMMHAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A77BFE0)
+#define BOAGDMMHAHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A77C010)
 
-inline static constexpr unsigned int BOAGDMMHAHO_TypeDefinitionIndex = 57867;
+inline static constexpr unsigned int BOAGDMMHAHO_TypeDefinitionIndex = 59104;
 
 	class BOAGDMMHAHO
 	{

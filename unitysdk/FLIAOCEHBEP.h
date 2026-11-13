@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GFACMJOEDGH;
 
-#define FLIAOCEHBEP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA42C50)
-#define FLIAOCEHBEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA42CB0)
+#define FLIAOCEHBEP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C20D410)
+#define FLIAOCEHBEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D470)
 
-inline static constexpr unsigned int FLIAOCEHBEP_TypeDefinitionIndex = 43288;
+inline static constexpr unsigned int FLIAOCEHBEP_TypeDefinitionIndex = 44269;
 
 	class FLIAOCEHBEP : public ::System::Object
 	{

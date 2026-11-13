@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChenLingBattleAbility_Dash; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_DASH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5525F0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_DASH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D552600)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_DASH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5525A0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_DASH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F353C90)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_DASH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F353CA0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_DASH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F353C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_Dash_TypeDefinitionIndex = 15732;
+	inline static constexpr unsigned int ChenLingBattleAbility_Dash_TypeDefinitionIndex = 15890;
 
 	class ChenLingBattleAbility_Dash : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

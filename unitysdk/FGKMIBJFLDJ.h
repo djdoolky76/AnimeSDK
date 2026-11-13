@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FGKMIBJFLDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1575B740)
+#define FGKMIBJFLDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18A90AF0)
 
-inline static constexpr unsigned int FGKMIBJFLDJ_TypeDefinitionIndex = 77949;
+inline static constexpr unsigned int FGKMIBJFLDJ_TypeDefinitionIndex = 80684;
 
 	class FGKMIBJFLDJ : public ::System::Object
 	{

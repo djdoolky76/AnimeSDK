@@ -3,42 +3,42 @@
 #include "unitysdk/PFACHJFCILN_PreloadType.h"
 #include "unitysdk/System/Object.h"
 
-#define NDKPLIOPEJB_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB45BB0)
-#define NDKPLIOPEJB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB45BA0)
+#define NDKPLIOPEJB_CCTOR_OFFSET UNITYSDK_OFFSET(0x16FC4BF0)
+#define NDKPLIOPEJB_CTOR_OFFSET UNITYSDK_OFFSET(0x16FC4BE0)
 
-inline static constexpr unsigned int NDKPLIOPEJB_TypeDefinitionIndex = 59672;
+inline static constexpr unsigned int NDKPLIOPEJB_TypeDefinitionIndex = 60949;
 
 	class NDKPLIOPEJB : public ::System::Object
 	{
 	public:
-		static ::PFACHJFCILN_PreloadType* StaticGet_CDNLLLFPEPG()
+		static ::PFACHJFCILN_PreloadType* StaticGet_HAIDKAEHMLL()
 		{
-			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x9780);
-		}
-
-		static ::PFACHJFCILN_PreloadType* StaticGet_BPCCPKMNIAE()
-		{
-			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x9784);
+			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x8640);
 		}
 
 		static ::PFACHJFCILN_PreloadType* StaticGet_GOEAKLEPGLI()
 		{
-			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x9788);
-		}
-
-		static ::PFACHJFCILN_PreloadType* StaticGet_KAGLHJMOPNC()
-		{
-			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x978C);
-		}
-
-		static ::PFACHJFCILN_PreloadType* StaticGet_HAIDKAEHMLL()
-		{
-			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x9790);
+			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x8644);
 		}
 
 		static ::PFACHJFCILN_PreloadType* StaticGet_GEIOKNADNKB()
 		{
-			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x9794);
+			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x8648);
+		}
+
+		static ::PFACHJFCILN_PreloadType* StaticGet_CDNLLLFPEPG()
+		{
+			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x864C);
+		}
+
+		static ::PFACHJFCILN_PreloadType* StaticGet_KAGLHJMOPNC()
+		{
+			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x8650);
+		}
+
+		static ::PFACHJFCILN_PreloadType* StaticGet_BPCCPKMNIAE()
+		{
+			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "NDKPLIOPEJB")->GetStaticField(0x8654);
 		}
 
 		::System::Void _ctor()

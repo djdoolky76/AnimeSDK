@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRaidCollectionInfoRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D34A7B0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34A110)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA91AD0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA91430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionInfoRow_TypeDefinitionIndex = 12318;
+	inline static constexpr unsigned int ActivityRaidCollectionInfoRow_TypeDefinitionIndex = 12375;
 
 	class ActivityRaidCollectionInfoRow : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define MOIKMFOGHAO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E980)
+#define MOIKMFOGHAO_EQUALS_OFFSET UNITYSDK_OFFSET(0x3E71870)
 
-inline static constexpr unsigned int MOIKMFOGHAO_TypeDefinitionIndex = 57819;
+inline static constexpr unsigned int MOIKMFOGHAO_TypeDefinitionIndex = 59056;
 
 	struct alignas(8) MOIKMFOGHAO
 	{

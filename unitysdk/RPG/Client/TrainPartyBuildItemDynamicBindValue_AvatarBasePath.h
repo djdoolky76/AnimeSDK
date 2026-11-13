@@ -3,12 +3,12 @@
 #include "unitysdk/HNOHHOEPFHC.h"
 #include "unitysdk/RPG/Client/TrainPartyBuildItemDynamicBindValue.h"
 
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_CTOR_OFFSET UNITYSDK_OFFSET(0xE2F3220)
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xE2F31D0)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE453F0)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1CE453A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_AvatarBasePath_TypeDefinitionIndex = 68881;
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_AvatarBasePath_TypeDefinitionIndex = 70834;
 
 	class TrainPartyBuildItemDynamicBindValue_AvatarBasePath : public ::RPG::Client::TrainPartyBuildItemDynamicBindValue
 	{

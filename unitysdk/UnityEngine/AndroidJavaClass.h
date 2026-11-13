@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/AndroidJavaObject.h"
 namespace System { class String; }
 
-#define UNITYENGINE_ANDROIDJAVACLASS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F381400)
-#define UNITYENGINE_ANDROIDJAVACLASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F381160)
-#define UNITYENGINE_ANDROIDJAVACLASS__ANDROIDJAVACLASS_OFFSET UNITYSDK_OFFSET(0x1F381180)
+#define UNITYENGINE_ANDROIDJAVACLASS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20892400)
+#define UNITYENGINE_ANDROIDJAVACLASS_CTOR_OFFSET UNITYSDK_OFFSET(0x20892160)
+#define UNITYENGINE_ANDROIDJAVACLASS__ANDROIDJAVACLASS_OFFSET UNITYSDK_OFFSET(0x20892180)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AndroidJavaClass_TypeDefinitionIndex = 5682;
+	inline static constexpr unsigned int AndroidJavaClass_TypeDefinitionIndex = 5688;
 
 	class AndroidJavaClass : public ::UnityEngine::AndroidJavaObject
 	{

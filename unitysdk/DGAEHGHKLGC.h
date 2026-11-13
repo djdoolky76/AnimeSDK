@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasUnGottenLevelReward; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DGAEHGHKLGC_CTOR_OFFSET UNITYSDK_OFFSET(0xE836D40)
-#define DGAEHGHKLGC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE836D70)
+#define DGAEHGHKLGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAAA20)
+#define DGAEHGHKLGC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1ADAAA50)
 
-inline static constexpr unsigned int DGAEHGHKLGC_TypeDefinitionIndex = 54624;
+inline static constexpr unsigned int DGAEHGHKLGC_TypeDefinitionIndex = 55790;
 
 	class DGAEHGHKLGC
 	{

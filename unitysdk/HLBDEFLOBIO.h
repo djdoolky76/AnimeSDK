@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HLBDEFLOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4DC10)
-#define HLBDEFLOBIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D4CFA0)
-#define HLBDEFLOBIO_FOEFKIBDGMD_OFFSET UNITYSDK_OFFSET(0x15D4CFE0)
-#define HLBDEFLOBIO_GIKHNIDBMCP_OFFSET UNITYSDK_OFFSET(0x15D4D740)
-#define HLBDEFLOBIO_HFFPBOBJADB_OFFSET UNITYSDK_OFFSET(0x15D4D390)
-#define HLBDEFLOBIO_JGMLLOGAFFE_OFFSET UNITYSDK_OFFSET(0x15D4CEF0)
+#define HLBDEFLOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1989AD60)
+#define HLBDEFLOBIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1989A0F0)
+#define HLBDEFLOBIO_FOEFKIBDGMD_OFFSET UNITYSDK_OFFSET(0x1989A130)
+#define HLBDEFLOBIO_GIKHNIDBMCP_OFFSET UNITYSDK_OFFSET(0x1989A890)
+#define HLBDEFLOBIO_HFFPBOBJADB_OFFSET UNITYSDK_OFFSET(0x1989A4E0)
+#define HLBDEFLOBIO_JGMLLOGAFFE_OFFSET UNITYSDK_OFFSET(0x1989A040)
 
-inline static constexpr unsigned int HLBDEFLOBIO_TypeDefinitionIndex = 60156;
+inline static constexpr unsigned int HLBDEFLOBIO_TypeDefinitionIndex = 61440;
 
 	class HLBDEFLOBIO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* FIIICPCKMGM; // 0x10
-		::RPG::Client::AchievementData* JDHNECALNJB; // 0x18
-		::RPG::Client::AchievementData* BBCKPPKLFII; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* HJFEGLFPIHA; // 0x28
-		::System::Collections::Generic::List_1<::System::UInt32>* PEKHPFIABFP; // 0x30
+		::RPG::Client::AchievementData* JDHNECALNJB; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* HJFEGLFPIHA; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* PEKHPFIABFP; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* FIIICPCKMGM; // 0x28
+		::RPG::Client::AchievementData* BBCKPPKLFII; // 0x30
 		::System::UInt32 KLEFBLNIMJE; // 0x38
 		::System::UInt32 EAOPIJCBMIJ; // 0x3C
 		::System::Void _ctor()

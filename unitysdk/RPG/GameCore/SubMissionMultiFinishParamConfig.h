@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SubMissionMultiFinishParamConfig; }
 
-#define RPG_GAMECORE_SUBMISSIONMULTIFINISHPARAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB09380)
-#define RPG_GAMECORE_SUBMISSIONMULTIFINISHPARAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB09340)
+#define RPG_GAMECORE_SUBMISSIONMULTIFINISHPARAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E679230)
+#define RPG_GAMECORE_SUBMISSIONMULTIFINISHPARAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6791F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionMultiFinishParamConfig_TypeDefinitionIndex = 19019;
+	inline static constexpr unsigned int SubMissionMultiFinishParamConfig_TypeDefinitionIndex = 19206;
 
 	class SubMissionMultiFinishParamConfig : public ::RPG::GameCore::JsonConfig
 	{

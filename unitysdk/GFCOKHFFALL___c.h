@@ -4,18 +4,18 @@
 class GFCOKHFFALL;
 namespace System { class Object; }
 
-#define GFCOKHFFALL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E434FE0)
-#define GFCOKHFFALL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E435020)
-#define GFCOKHFFALL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E435030)
+#define GFCOKHFFALL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20075CD0)
+#define GFCOKHFFALL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20075D10)
+#define GFCOKHFFALL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20075D20)
 
-inline static constexpr unsigned int GFCOKHFFALL___c_TypeDefinitionIndex = 33973;
+inline static constexpr unsigned int GFCOKHFFALL___c_TypeDefinitionIndex = 34888;
 
 	class GFCOKHFFALL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12990);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA670);
 		}
 
 		static ::System::Void _cctor()

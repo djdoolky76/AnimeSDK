@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicStyleTypeSelectRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A9C20)
-#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9A9510)
+#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20777790)
+#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x20777080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicStyleTypeSelectRow_TypeDefinitionIndex = 14896;
+	inline static constexpr unsigned int RogueMagicStyleTypeSelectRow_TypeDefinitionIndex = 15052;
 
 	class RogueMagicStyleTypeSelectRow : public ::System::Object
 	{

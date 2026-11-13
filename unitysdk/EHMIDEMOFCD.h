@@ -4,9 +4,9 @@
 class JOLBKPNAIFC;
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define EHMIDEMOFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA22250)
+#define EHMIDEMOFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4E5FB0)
 
-inline static constexpr unsigned int EHMIDEMOFCD_TypeDefinitionIndex = 41935;
+inline static constexpr unsigned int EHMIDEMOFCD_TypeDefinitionIndex = 42910;
 
 	class EHMIDEMOFCD : public ::System::Object
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTEDICTIONARY_CTOR_OFFSET UNITYSDK_OFFSET(0x1B92FCB0)
+#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTEDICTIONARY_CTOR_OFFSET UNITYSDK_OFFSET(0x126CE120)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_OutputAttributeDictionary_TypeDefinitionIndex = 40429;
+	inline static constexpr unsigned int HEU_OutputAttributeDictionary_TypeDefinitionIndex = 41404;
 
 	class HEU_OutputAttributeDictionary
 	{

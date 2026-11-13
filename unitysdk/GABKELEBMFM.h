@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define GABKELEBMFM_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x2E79DA0)
-#define GABKELEBMFM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x2E79E50)
-#define GABKELEBMFM_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E79E00)
+#define GABKELEBMFM_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x3E8D2D0)
+#define GABKELEBMFM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x3E8D380)
+#define GABKELEBMFM_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3E8D330)
 
-inline static constexpr unsigned int GABKELEBMFM_TypeDefinitionIndex = 60302;
+inline static constexpr unsigned int GABKELEBMFM_TypeDefinitionIndex = 61586;
 
 	struct alignas(8) GABKELEBMFM
 	{

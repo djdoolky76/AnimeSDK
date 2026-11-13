@@ -8,20 +8,20 @@
 #include "unitysdk/RPG/GameCore/PauseAbilityReason.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NKIBGHMHHNI_ADALJLPBDOE_OFFSET UNITYSDK_OFFSET(0xBC2F0D0)
-#define NKIBGHMHHNI_BBGDOBDNAOB_OFFSET UNITYSDK_OFFSET(0xBC2F080)
-#define NKIBGHMHHNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBC2EFC0)
-#define NKIBGHMHHNI_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xBC2F120)
-#define NKIBGHMHHNI_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0xBC2F130)
-#define NKIBGHMHHNI_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0xBC2F030)
+#define NKIBGHMHHNI_ADALJLPBDOE_OFFSET UNITYSDK_OFFSET(0x1A7B21E0)
+#define NKIBGHMHHNI_BBGDOBDNAOB_OFFSET UNITYSDK_OFFSET(0x1A7B2190)
+#define NKIBGHMHHNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7B20D0)
+#define NKIBGHMHHNI_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x1A7B2230)
+#define NKIBGHMHHNI_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0x1A7B2240)
+#define NKIBGHMHHNI_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0x1A7B2140)
 
-inline static constexpr unsigned int NKIBGHMHHNI_TypeDefinitionIndex = 57032;
+inline static constexpr unsigned int NKIBGHMHHNI_TypeDefinitionIndex = 58259;
 
 	class NKIBGHMHHNI : public ::CMJCPMOPHJJ
 	{
 	public:
-		::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x80
-		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x84
+		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x80
+		::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x84
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + NKIBGHMHHNI_CTOR_OFFSET))(this, a1);

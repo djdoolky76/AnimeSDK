@@ -5,9 +5,9 @@
 class BAFJOHPAGFI;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NNKDKMBKFHC_CKLDEKJJGKA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCB9D60)
+#define NNKDKMBKFHC_CKLDEKJJGKA_CTOR_OFFSET UNITYSDK_OFFSET(0x179FEFB0)
 
-inline static constexpr unsigned int NNKDKMBKFHC_CKLDEKJJGKA_TypeDefinitionIndex = 53513;
+inline static constexpr unsigned int NNKDKMBKFHC_CKLDEKJJGKA_TypeDefinitionIndex = 54675;
 
 	class NNKDKMBKFHC_CKLDEKJJGKA : public ::System::Object
 	{

@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define ALEJPKNHLCN_HHPCKGMJCDB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1555AB70)
-#define ALEJPKNHLCN_HHPCKGMJCDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1555A3B0)
-#define ALEJPKNHLCN_HHPCKGMJCDB_IEGPKKOFEGN_OFFSET UNITYSDK_OFFSET(0x1555A890)
+#define ALEJPKNHLCN_HHPCKGMJCDB_CCTOR_OFFSET UNITYSDK_OFFSET(0x197BEF70)
+#define ALEJPKNHLCN_HHPCKGMJCDB_CTOR_OFFSET UNITYSDK_OFFSET(0x197BE7B0)
+#define ALEJPKNHLCN_HHPCKGMJCDB_IEGPKKOFEGN_OFFSET UNITYSDK_OFFSET(0x197BEC90)
 
-inline static constexpr unsigned int ALEJPKNHLCN_HHPCKGMJCDB_TypeDefinitionIndex = 50047;
+inline static constexpr unsigned int ALEJPKNHLCN_HHPCKGMJCDB_TypeDefinitionIndex = 51095;
 
 	class ALEJPKNHLCN_HHPCKGMJCDB : public ::System::Object
 	{
@@ -18,7 +18,7 @@ inline static constexpr unsigned int ALEJPKNHLCN_HHPCKGMJCDB_TypeDefinitionIndex
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>* LDGBEDOGGEP; // 0x10
 		static ::System::Text::StringBuilder** StaticGet_JFCLFJPCNKM()
 		{
-			return (::System::Text::StringBuilder**)UnitySDK::FromName("", "HHPCKGMJCDB")->GetStaticField(0x5AFE0);
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("", "HHPCKGMJCDB")->GetStaticField(0x53060);
 		}
 
 		::System::Void _ctor()

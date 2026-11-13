@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PENOBFOHNMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B9540)
+#define PENOBFOHNMM_CTOR_OFFSET UNITYSDK_OFFSET(0x176BC4A0)
 
-inline static constexpr unsigned int PENOBFOHNMM_TypeDefinitionIndex = 42971;
+inline static constexpr unsigned int PENOBFOHNMM_TypeDefinitionIndex = 43952;
 
 	class PENOBFOHNMM : public ::System::Object
 	{

@@ -7,21 +7,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_COMPLEXFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB4FFD0)
-#define MESSAGEPACK_FORMATTERS_COMPLEXFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB4FDB0)
-#define MESSAGEPACK_FORMATTERS_COMPLEXFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB4FE20)
-#define MESSAGEPACK_FORMATTERS_COMPLEXFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB4FDC0)
+#define MESSAGEPACK_FORMATTERS_COMPLEXFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1748EE90)
+#define MESSAGEPACK_FORMATTERS_COMPLEXFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1748EC70)
+#define MESSAGEPACK_FORMATTERS_COMPLEXFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1748ECE0)
+#define MESSAGEPACK_FORMATTERS_COMPLEXFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1748EC80)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ComplexFormatter_TypeDefinitionIndex = 7496;
+	inline static constexpr unsigned int ComplexFormatter_TypeDefinitionIndex = 7507;
 
 	class ComplexFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Complex>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Complex>**)UnitySDK::FromName("MessagePack.Formatters", "ComplexFormatter")->GetStaticField(0x48260);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Complex>**)UnitySDK::FromName("MessagePack.Formatters", "ComplexFormatter")->GetStaticField(0x2C410);
 		}
 
 		::System::Void _ctor()

@@ -4,17 +4,17 @@
 class JEBPFBNCALB;
 class KKGMHJNMOID;
 
-#define POIONNNNCMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54FC10)
-#define POIONNNNCMJ_GET_CONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1C54FBF0)
-#define POIONNNNCMJ_GET_TRACKER_OFFSET UNITYSDK_OFFSET(0x1C54FC00)
+#define POIONNNNCMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x207C7680)
+#define POIONNNNCMJ_GET_CONSTRAINT_OFFSET UNITYSDK_OFFSET(0x207C7660)
+#define POIONNNNCMJ_GET_TRACKER_OFFSET UNITYSDK_OFFSET(0x207C7670)
 
-inline static constexpr unsigned int POIONNNNCMJ_TypeDefinitionIndex = 41834;
+inline static constexpr unsigned int POIONNNNCMJ_TypeDefinitionIndex = 42809;
 
 	class POIONNNNCMJ : public ::System::Object
 	{
 	public:
-		::JEBPFBNCALB* _Tracker_k__BackingField; // 0x10
-		::KKGMHJNMOID* _Constraint_k__BackingField; // 0x18
+		::KKGMHJNMOID* _Constraint_k__BackingField; // 0x10
+		::JEBPFBNCALB* _Tracker_k__BackingField; // 0x18
 		::System::Void _ctor(::KKGMHJNMOID* a1, ::JEBPFBNCALB* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::KKGMHJNMOID*, ::JEBPFBNCALB*))((::PBYTE)hIl2Cpp + POIONNNNCMJ_CTOR_OFFSET))(this, a1, a2);

@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/GameModeParamNotifyType.h"
 #include "unitysdk/System/Object.h"
 
-#define DBDPJLEIAIB_CLEAR_OFFSET UNITYSDK_OFFSET(0xDFD3460)
-#define DBDPJLEIAIB_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD34A0)
+#define DBDPJLEIAIB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B144E40)
+#define DBDPJLEIAIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B144E80)
 
-inline static constexpr unsigned int DBDPJLEIAIB_TypeDefinitionIndex = 55236;
+inline static constexpr unsigned int DBDPJLEIAIB_TypeDefinitionIndex = 56417;
 
 	class DBDPJLEIAIB : public ::System::Object
 	{

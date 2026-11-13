@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBattleTargetDialogOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FGELGMIOMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1574D8A0)
-#define FGELGMIOMPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1574D8D0)
+#define FGELGMIOMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18A82A50)
+#define FGELGMIOMPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A82A80)
 
-inline static constexpr unsigned int FGELGMIOMPJ_TypeDefinitionIndex = 47608;
+inline static constexpr unsigned int FGELGMIOMPJ_TypeDefinitionIndex = 48637;
 
 	class FGELGMIOMPJ
 	{

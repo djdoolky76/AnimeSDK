@@ -8,7 +8,7 @@ namespace ZLinq::Linq { template <typename T> class IOrderByComparable_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int OrderBy_3_TypeDefinitionIndex = 6121;
+	inline static constexpr unsigned int OrderBy_3_TypeDefinitionIndex = 6128;
 
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) OrderBy_3

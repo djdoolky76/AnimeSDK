@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class PNIFMEAJAEB;
 
-#define JOBOHFJKJNG_CTOR_OFFSET UNITYSDK_OFFSET(0xB298500)
+#define JOBOHFJKJNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9B80)
 
-inline static constexpr unsigned int JOBOHFJKJNG_TypeDefinitionIndex = 80598;
+inline static constexpr unsigned int JOBOHFJKJNG_TypeDefinitionIndex = 83378;
 
 	class JOBOHFJKJNG : public ::System::Object
 	{

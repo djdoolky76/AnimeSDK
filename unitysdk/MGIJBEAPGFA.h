@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/VCameraState.h"
 #include "unitysdk/System/Object.h"
 
-#define MGIJBEAPGFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB91A8C0)
+#define MGIJBEAPGFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B340860)
 
-inline static constexpr unsigned int MGIJBEAPGFA_TypeDefinitionIndex = 69621;
+inline static constexpr unsigned int MGIJBEAPGFA_TypeDefinitionIndex = 71578;
 
 	class MGIJBEAPGFA : public ::System::Object
 	{

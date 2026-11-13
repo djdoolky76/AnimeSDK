@@ -7,26 +7,26 @@ class FCOEMCEDLNL;
 class FJNKOJFHFKA;
 namespace System { class String; }
 
-#define FJNKOJFHFKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDCE840)
-#define FJNKOJFHFKA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDCE400)
+#define FJNKOJFHFKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E463A70)
+#define FJNKOJFHFKA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E463630)
 
-inline static constexpr unsigned int FJNKOJFHFKA_TypeDefinitionIndex = 13940;
+inline static constexpr unsigned int FJNKOJFHFKA_TypeDefinitionIndex = 14097;
 
 	class FJNKOJFHFKA : public ::System::Object
 	{
 	public:
-		::System::String* MPJLNHJIFIM; // 0x10
-		::System::String* AJGGLOMPFOJ; // 0x18
-		::RPG::GameCore::LimaoNewsOfficeEventPriorityType GMPGDEINODK; // 0x20
+		::System::String* AJGGLOMPFOJ; // 0x10
+		::System::String* MPJLNHJIFIM; // 0x18
+		::System::UInt32 NMBKAIEIAPE; // 0x20
 		::System::UInt32 CPCMBMBFBAI; // 0x24
-		::RPG::Client::TextID LDBCBEDHFPD; // 0x28
-		::System::UInt32 DNOENIFOBLJ; // 0x38
-		::System::UInt32 HPLHMBBGAOO; // 0x3C
-		::System::UInt32 NALKJIAJIJK; // 0x40
-		::System::UInt32 ELGNMHLEEEH; // 0x44
+		::System::UInt32 HPLHMBBGAOO; // 0x28
+		::System::UInt32 ELGNMHLEEEH; // 0x2C
+		::RPG::Client::TextID LDBCBEDHFPD; // 0x30
+		::RPG::GameCore::LimaoNewsOfficeEventPriorityType GMPGDEINODK; // 0x40
+		::System::UInt32 DNOENIFOBLJ; // 0x44
 		::RPG::Client::TextID JCAGGCBNNDL; // 0x48
-		::System::UInt32 NMBKAIEIAPE; // 0x58
-		::System::UInt32 GHOCDNJOCBH; // 0x5C
+		::System::UInt32 GHOCDNJOCBH; // 0x58
+		::System::UInt32 NALKJIAJIJK; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FJNKOJFHFKA_CTOR_OFFSET))(this);

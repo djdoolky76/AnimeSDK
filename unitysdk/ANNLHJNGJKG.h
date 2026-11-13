@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BOFJHGFAJBN.h"
 
-#define ANNLHJNGJKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15894FB0)
-#define ANNLHJNGJKG_LKINLAMMGID_OFFSET UNITYSDK_OFFSET(0x15894FC0)
+#define ANNLHJNGJKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A839E40)
+#define ANNLHJNGJKG_LKINLAMMGID_OFFSET UNITYSDK_OFFSET(0x1A839E50)
 
-inline static constexpr unsigned int ANNLHJNGJKG_TypeDefinitionIndex = 49650;
+inline static constexpr unsigned int ANNLHJNGJKG_TypeDefinitionIndex = 50726;
 
 	class ANNLHJNGJKG : public ::BOFJHGFAJBN
 	{

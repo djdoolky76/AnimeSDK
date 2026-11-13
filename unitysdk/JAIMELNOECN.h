@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JAIMELNOECN_TypeDefinitionIndex = 75010;
+inline static constexpr unsigned int JAIMELNOECN_TypeDefinitionIndex = 77337;
 
 	class JAIMELNOECN
 	{

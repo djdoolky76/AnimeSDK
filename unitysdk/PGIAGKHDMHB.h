@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define PGIAGKHDMHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BA9A0)
+#define PGIAGKHDMHB_CTOR_OFFSET UNITYSDK_OFFSET(0x176BD900)
 
-inline static constexpr unsigned int PGIAGKHDMHB_TypeDefinitionIndex = 42246;
+inline static constexpr unsigned int PGIAGKHDMHB_TypeDefinitionIndex = 43221;
 
 	class PGIAGKHDMHB : public ::System::Object
 	{

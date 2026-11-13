@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class HandbookModule; }
+namespace RPG::Client::Promises { class Promise; }
+namespace System { class Action; }
+
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS114_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DB430)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS114_0__PREPAREOPENCONDTIONMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x1C5DEF30)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS114_0__PREPAREOPENCONDTIONMISSION_B__1_OFFSET UNITYSDK_OFFSET(0x1C5DF020)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass114_0_TypeDefinitionIndex = 67556;
+
+	class HandbookModule___c__DisplayClass114_0 : public ::System::Object
+	{
+	public:
+		::System::Action* __9__1; // 0x10
+		::RPG::Client::HandbookModule* __4__this; // 0x18
+		::RPG::Client::Promises::Promise* promise; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS114_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _PrepareOpenCondtionMission_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS114_0__PREPAREOPENCONDTIONMISSION_B__0_OFFSET))(this);
+		}
+
+		::System::Void _PrepareOpenCondtionMission_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS114_0__PREPAREOPENCONDTIONMISSION_B__1_OFFSET))(this);
+		}
+
+	};
+}

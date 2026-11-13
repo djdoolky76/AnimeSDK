@@ -3,9 +3,9 @@
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define FJLGIJAOIOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E782D0)
+#define FJLGIJAOIOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3E65AE0)
 
-inline static constexpr unsigned int FJLGIJAOIOI_TypeDefinitionIndex = 49275;
+inline static constexpr unsigned int FJLGIJAOIOI_TypeDefinitionIndex = 50351;
 
 	struct alignas(8) FJLGIJAOIOI
 	{

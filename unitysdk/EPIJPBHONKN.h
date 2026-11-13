@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_CurrentTurnCompare; }
 
-#define EPIJPBHONKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B2910)
-#define EPIJPBHONKN_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5E2630)
+#define EPIJPBHONKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA67280)
+#define EPIJPBHONKN_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1BA96E40)
 
-inline static constexpr unsigned int EPIJPBHONKN_TypeDefinitionIndex = 36354;
+inline static constexpr unsigned int EPIJPBHONKN_TypeDefinitionIndex = 37282;
 
 	class EPIJPBHONKN : public ::HHOHBHGLHHF
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvIsometricSetZoomState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OKJHNNLKFFD_CTOR_OFFSET UNITYSDK_OFFSET(0xBED48E0)
-#define OKJHNNLKFFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBED4910)
+#define OKJHNNLKFFD_CTOR_OFFSET UNITYSDK_OFFSET(0x178791B0)
+#define OKJHNNLKFFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178791E0)
 
-inline static constexpr unsigned int OKJHNNLKFFD_TypeDefinitionIndex = 52389;
+inline static constexpr unsigned int OKJHNNLKFFD_TypeDefinitionIndex = 53495;
 
 	class OKJHNNLKFFD
 	{

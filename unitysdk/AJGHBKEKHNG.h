@@ -5,17 +5,17 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraWorkLeave; }
 
-#define AJGHBKEKHNG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB7610)
-#define AJGHBKEKHNG_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x12CB7650)
-#define AJGHBKEKHNG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x12CB7690)
+#define AJGHBKEKHNG_CTOR_OFFSET UNITYSDK_OFFSET(0x19D3DDD0)
+#define AJGHBKEKHNG_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x19D3DE10)
+#define AJGHBKEKHNG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x19D3DE50)
 
-inline static constexpr unsigned int AJGHBKEKHNG_TypeDefinitionIndex = 78421;
+inline static constexpr unsigned int AJGHBKEKHNG_TypeDefinitionIndex = 81156;
 
 	class AJGHBKEKHNG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChimeraWorkLeave* IGHAHBNLIJA; // 0x10
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
+		::RPG::GameCore::ChimeraWorkLeave* IGHAHBNLIJA; // 0x18
 		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x20
 		::System::Void _ctor(::RPG::GameCore::ChimeraWorkLeave* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2)
 		{

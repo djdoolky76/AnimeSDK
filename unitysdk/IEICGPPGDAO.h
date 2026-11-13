@@ -6,17 +6,17 @@ class IEICGPPGDAO;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define IEICGPPGDAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEBD3A0)
-#define IEICGPPGDAO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEBD3B0)
-#define IEICGPPGDAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEBD370)
+#define IEICGPPGDAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B7C80)
+#define IEICGPPGDAO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6B7C90)
+#define IEICGPPGDAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6B7C50)
 
-inline static constexpr unsigned int IEICGPPGDAO_TypeDefinitionIndex = 23724;
+inline static constexpr unsigned int IEICGPPGDAO_TypeDefinitionIndex = 24180;
 
 	class IEICGPPGDAO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* GPOICLIDHEH; // 0x18
-		::RPG::GameCore::TargetEvaluator* KKJIDEIGBIF; // 0x20
+		::RPG::GameCore::TargetEvaluator* KKJIDEIGBIF; // 0x18
+		::System::String* GPOICLIDHEH; // 0x20
 		::RPG::GameCore::TargetEvaluator* BPCHFCBIOEB; // 0x28
 		::System::Void _ctor()
 		{

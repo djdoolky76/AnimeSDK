@@ -4,20 +4,20 @@
 namespace Proto { class GetShopListScRsp; }
 namespace System { class Object; }
 
-#define PROTO_GETSHOPLISTSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCC3B0)
-#define PROTO_GETSHOPLISTSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCC3E0)
-#define PROTO_GETSHOPLISTSCRSP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DFCC3F0)
+#define PROTO_GETSHOPLISTSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4CA900)
+#define PROTO_GETSHOPLISTSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CA930)
+#define PROTO_GETSHOPLISTSCRSP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F4CA940)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetShopListScRsp___c_TypeDefinitionIndex = 34178;
+	inline static constexpr unsigned int GetShopListScRsp___c_TypeDefinitionIndex = 35093;
 
 	class GetShopListScRsp___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4B540);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x50C30);
 		}
 
 		static ::System::Void _cctor()

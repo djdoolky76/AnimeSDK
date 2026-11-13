@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD10BE00)
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS8_0__GETEQUIPSCANDRESSTOROLEBYITEMID_B__0_OFFSET UNITYSDK_OFFSET(0xD1109B0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D179750)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS8_0__GETEQUIPSCANDRESSTOROLEBYITEMID_B__0_OFFSET UNITYSDK_OFFSET(0x1D17E820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass8_0_TypeDefinitionIndex = 64969;
+	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass8_0_TypeDefinitionIndex = 66556;
 
 	class GridFightEquipInfo___c__DisplayClass8_0 : public ::System::Object
 	{

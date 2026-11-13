@@ -4,10 +4,10 @@
 namespace Google::Protobuf { class IMessage; }
 namespace System { class Action; }
 
-#define HPMJLMFKOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC85D0)
-#define HPMJLMFKOKP_IDOCGNIBDFE_OFFSET UNITYSDK_OFFSET(0x15DC84F0)
+#define HPMJLMFKOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF426B0)
+#define HPMJLMFKOKP_IDOCGNIBDFE_OFFSET UNITYSDK_OFFSET(0x1AF425D0)
 
-inline static constexpr unsigned int HPMJLMFKOKP_TypeDefinitionIndex = 69392;
+inline static constexpr unsigned int HPMJLMFKOKP_TypeDefinitionIndex = 71346;
 
 	class HPMJLMFKOKP : public ::System::Object
 	{

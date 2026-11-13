@@ -7,11 +7,11 @@ namespace RPG::GameCore { class CakeRaceNearRowsSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MNANIHCOCDN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C7218C0)
-#define MNANIHCOCDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C721960)
-#define MNANIHCOCDN_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C721A10)
+#define MNANIHCOCDN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16062260)
+#define MNANIHCOCDN_CTOR_OFFSET UNITYSDK_OFFSET(0x16062300)
+#define MNANIHCOCDN_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x160623B0)
 
-inline static constexpr unsigned int MNANIHCOCDN_TypeDefinitionIndex = 37434;
+inline static constexpr unsigned int MNANIHCOCDN_TypeDefinitionIndex = 38362;
 
 	class MNANIHCOCDN
 	{

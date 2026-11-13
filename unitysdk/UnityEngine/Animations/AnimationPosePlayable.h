@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F38AB90)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C6A150)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C6A260)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2E88BC0)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x20821AE0)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x3F90F60)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3F91070)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x7EB510)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationPosePlayable_TypeDefinitionIndex = 5756;
+	inline static constexpr unsigned int AnimationPosePlayable_TypeDefinitionIndex = 5762;
 
 	struct alignas(4) AnimationPosePlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10
 		static ::UnityEngine::Animations::AnimationPosePlayable* StaticGet_m_NullPlayable()
 		{
-			return (::UnityEngine::Animations::AnimationPosePlayable*)UnitySDK::FromName("UnityEngine.Animations", "AnimationPosePlayable")->GetStaticField(0x9330);
+			return (::UnityEngine::Animations::AnimationPosePlayable*)UnitySDK::FromName("UnityEngine.Animations", "AnimationPosePlayable")->GetStaticField(0x5FB0);
 		}
 
 		::System::Void _ctor(::UnityEngine::Playables::PlayableHandle a1)

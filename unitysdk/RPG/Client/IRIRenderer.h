@@ -10,18 +10,18 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_IRIRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD332DC0)
-#define RPG_CLIENT_IRIRENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0xD333400)
-#define RPG_CLIENT_IRIRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xD3333D0)
-#define RPG_CLIENT_IRIRENDERER_EFFBPCOJJGP_OFFSET UNITYSDK_OFFSET(0xD332E10)
-#define RPG_CLIENT_IRIRENDERER_GET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xD3333B0)
-#define RPG_CLIENT_IRIRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD333280)
-#define RPG_CLIENT_IRIRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD333150)
-#define RPG_CLIENT_IRIRENDERER_SET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xD3333C0)
+#define RPG_CLIENT_IRIRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1705A1B0)
+#define RPG_CLIENT_IRIRENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1705A7F0)
+#define RPG_CLIENT_IRIRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1705A7C0)
+#define RPG_CLIENT_IRIRENDERER_EFFBPCOJJGP_OFFSET UNITYSDK_OFFSET(0x1705A200)
+#define RPG_CLIENT_IRIRENDERER_GET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1705A7A0)
+#define RPG_CLIENT_IRIRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1705A670)
+#define RPG_CLIENT_IRIRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1705A540)
+#define RPG_CLIENT_IRIRENDERER_SET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1705A7B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRIRenderer_TypeDefinitionIndex = 68891;
+	inline static constexpr unsigned int IRIRenderer_TypeDefinitionIndex = 70844;
 
 	class IRIRenderer : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,24 +34,24 @@ namespace RPG::Client
 		::UnityEngine::Collider* ADKPEOEFBFI; // 0x38
 		::UnityEngine::Vector3 KFEJGBAKKEF; // 0x40
 		::UnityEngine::Vector3 NCBBBANOECE; // 0x4C
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>** StaticGet_KPODFFOJOBN()
+		static ::RPG::Client::IRIManager** StaticGet_KJEGMPNCGEH()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>**)UnitySDK::FromName("RPG.Client", "IRIRenderer")->GetStaticField(0x14370);
+			return (::RPG::Client::IRIManager**)UnitySDK::FromName("RPG.Client", "IRIRenderer")->GetStaticField(0x22A20);
 		}
 
 		static ::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>** StaticGet_PHOKFJMLCDE()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>**)UnitySDK::FromName("RPG.Client", "IRIRenderer")->GetStaticField(0x14378);
+			return (::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>**)UnitySDK::FromName("RPG.Client", "IRIRenderer")->GetStaticField(0x22A28);
 		}
 
-		static ::RPG::Client::IRIManager** StaticGet_KJEGMPNCGEH()
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>** StaticGet_KPODFFOJOBN()
 		{
-			return (::RPG::Client::IRIManager**)UnitySDK::FromName("RPG.Client", "IRIRenderer")->GetStaticField(0x14380);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>**)UnitySDK::FromName("RPG.Client", "IRIRenderer")->GetStaticField(0x22A30);
 		}
 
 		static ::System::Boolean* StaticGet_UseGlobalVolume()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "IRIRenderer")->GetStaticField(0x4390);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "IRIRenderer")->GetStaticField(0x7DF0);
 		}
 
 		::System::Void _ctor()

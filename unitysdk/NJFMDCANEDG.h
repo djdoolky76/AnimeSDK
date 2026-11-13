@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTimeRewindAttachPointVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJFMDCANEDG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC09570)
-#define NJFMDCANEDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC095A0)
+#define NJFMDCANEDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A78B630)
+#define NJFMDCANEDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A78B660)
 
-inline static constexpr unsigned int NJFMDCANEDG_TypeDefinitionIndex = 53391;
+inline static constexpr unsigned int NJFMDCANEDG_TypeDefinitionIndex = 54553;
 
 	class NJFMDCANEDG
 	{

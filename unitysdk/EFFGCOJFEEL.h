@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EFFGCOJFEEL_TypeDefinitionIndex = 27028;
+inline static constexpr unsigned int EFFGCOJFEEL_TypeDefinitionIndex = 27559;
 
 	enum class EFFGCOJFEEL : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimLevelVarService_1_TypeDefinitionIndex = 43601;
+	inline static constexpr unsigned int IFiveDimLevelVarService_1_TypeDefinitionIndex = 44584;
 
 	template <typename T>
 	class IFiveDimLevelVarService_1

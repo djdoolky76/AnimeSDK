@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerUITopEffect; }
 
-#define GENMEOOOHND_CTOR_OFFSET UNITYSDK_OFFSET(0x159D7200)
-#define GENMEOOOHND_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159D7210)
-#define GENMEOOOHND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159D7250)
-#define GENMEOOOHND_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159D7560)
-#define GENMEOOOHND_TICK_OFFSET UNITYSDK_OFFSET(0x159D75B0)
+#define GENMEOOOHND_CTOR_OFFSET UNITYSDK_OFFSET(0x17CE4550)
+#define GENMEOOOHND_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17CE4560)
+#define GENMEOOOHND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CE45A0)
+#define GENMEOOOHND_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17CE48B0)
+#define GENMEOOOHND_TICK_OFFSET UNITYSDK_OFFSET(0x17CE4900)
 
-inline static constexpr unsigned int GENMEOOOHND_TypeDefinitionIndex = 55770;
+inline static constexpr unsigned int GENMEOOOHND_TypeDefinitionIndex = 56973;
 
 	class GENMEOOOHND : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerUITopEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerUITopEffect* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerUITopEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerUITopEffect*))((::PBYTE)hIl2Cpp + GENMEOOOHND_CTOR_OFFSET))(this, a1, a2);

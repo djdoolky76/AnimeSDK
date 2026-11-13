@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD43240)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDD43280)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPOSE_B__2_0_OFFSET UNITYSDK_OFFSET(0xDD43290)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x171F31F0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x171F3230)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPOSE_B__2_0_OFFSET UNITYSDK_OFFSET(0x171F3240)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c_TypeDefinitionIndex = 78704;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c_TypeDefinitionIndex = 81439;
 
 	class OpticalIllusionPuzzleBoard___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x44F90);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x61E10);
 		}
 
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x44F98);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x61E18);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 class ACLMDNMDHLE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LHIMBLCIHBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB6AD760)
-#define LHIMBLCIHBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6AD6C0)
+#define LHIMBLCIHBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC5FE0)
+#define LHIMBLCIHBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCC5F40)
 
-inline static constexpr unsigned int LHIMBLCIHBN_TypeDefinitionIndex = 56092;
+inline static constexpr unsigned int LHIMBLCIHBN_TypeDefinitionIndex = 57304;
 
 	class LHIMBLCIHBN : public ::System::Object
 	{

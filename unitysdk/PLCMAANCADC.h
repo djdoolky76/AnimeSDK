@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KFELGAIGHAP;
 
-#define PLCMAANCADC_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E54A0)
+#define PLCMAANCADC_CTOR_OFFSET UNITYSDK_OFFSET(0x18871E40)
 
-inline static constexpr unsigned int PLCMAANCADC_TypeDefinitionIndex = 57383;
+inline static constexpr unsigned int PLCMAANCADC_TypeDefinitionIndex = 58611;
 
 	class PLCMAANCADC : public ::System::Object
 	{

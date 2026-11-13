@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int FADPLGJOJCF_OBDOHCMFEON_TypeDefinitionIndex = 43844;
+inline static constexpr unsigned int FADPLGJOJCF_OBDOHCMFEON_TypeDefinitionIndex = 44919;
 
 	struct alignas(8) FADPLGJOJCF_OBDOHCMFEON
 	{

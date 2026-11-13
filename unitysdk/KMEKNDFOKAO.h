@@ -5,18 +5,18 @@ namespace RPG::GameCore { class LevelNPCStillConfig; }
 namespace RPG::GameCore { class LevelNPCStillConfigData; }
 namespace System { class String; }
 
-#define KMEKNDFOKAO_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xB53FB10)
-#define KMEKNDFOKAO_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xB53FA20)
-#define KMEKNDFOKAO_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xB53FAC0)
+#define KMEKNDFOKAO_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x17B9D5A0)
+#define KMEKNDFOKAO_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x17B9D4B0)
+#define KMEKNDFOKAO_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0x17B9D550)
 
-inline static constexpr unsigned int KMEKNDFOKAO_TypeDefinitionIndex = 73299;
+inline static constexpr unsigned int KMEKNDFOKAO_TypeDefinitionIndex = 75415;
 
 	class KMEKNDFOKAO : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::LevelNPCStillConfig** StaticGet_IGHAHBNLIJA()
 		{
-			return (::RPG::GameCore::LevelNPCStillConfig**)UnitySDK::FromName("", "KMEKNDFOKAO")->GetStaticField(0x5B330);
+			return (::RPG::GameCore::LevelNPCStillConfig**)UnitySDK::FromName("", "KMEKNDFOKAO")->GetStaticField(0x67830);
 		}
 
 		static ::System::Void HCFINLKPIHL()

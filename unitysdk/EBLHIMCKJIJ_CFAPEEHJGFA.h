@@ -4,9 +4,9 @@
 class EBLHIMCKJIJ;
 namespace System { class String; }
 
-#define EBLHIMCKJIJ_CFAPEEHJGFA_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFD590)
+#define EBLHIMCKJIJ_CFAPEEHJGFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3CB160)
 
-inline static constexpr unsigned int EBLHIMCKJIJ_CFAPEEHJGFA_TypeDefinitionIndex = 57398;
+inline static constexpr unsigned int EBLHIMCKJIJ_CFAPEEHJGFA_TypeDefinitionIndex = 58626;
 
 	class EBLHIMCKJIJ_CFAPEEHJGFA : public ::System::Object
 	{

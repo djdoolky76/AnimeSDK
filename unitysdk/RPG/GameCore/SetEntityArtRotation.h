@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetEntityArtRotation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYARTROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA82940)
-#define RPG_GAMECORE_SETENTITYARTROTATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA82A70)
-#define RPG_GAMECORE_SETENTITYARTROTATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA82900)
+#define RPG_GAMECORE_SETENTITYARTROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D02E0)
+#define RPG_GAMECORE_SETENTITYARTROTATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D0410)
+#define RPG_GAMECORE_SETENTITYARTROTATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D02A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityArtRotation_TypeDefinitionIndex = 23756;
+	inline static constexpr unsigned int SetEntityArtRotation_TypeDefinitionIndex = 24212;
 
 	class SetEntityArtRotation : public ::RPG::GameCore::TaskConfig
 	{

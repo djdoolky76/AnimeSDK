@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveCLTriggerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVECLTRIGGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74B060)
-#define RPG_GAMECORE_IDLELIVECLTRIGGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74AED0)
+#define RPG_GAMECORE_IDLELIVECLTRIGGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE83EB0)
+#define RPG_GAMECORE_IDLELIVECLTRIGGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE83D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveCLTriggerRow_TypeDefinitionIndex = 11735;
+	inline static constexpr unsigned int IdleLiveCLTriggerRow_TypeDefinitionIndex = 11792;
 
 	class IdleLiveCLTriggerRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* ParamList; // 0x10
-		::System::UInt32 TriggerID; // 0x18
-		::RPG::GameCore::IdleLiveCLTriggerType Type; // 0x1C
+		::RPG::GameCore::IdleLiveCLTriggerType Type; // 0x18
+		::System::UInt32 TriggerID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECLTRIGGERROW_CTOR_OFFSET))(this);

@@ -5,31 +5,31 @@ namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCEECA10)
-#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCEECA50)
-#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C___REPORTREPLACECARD_B__7_0_OFFSET UNITYSDK_OFFSET(0xCEECA60)
-#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C___REPORTREPLACECARD_B__7_1_OFFSET UNITYSDK_OFFSET(0xCEECB70)
+#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0B26D0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0B2710)
+#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C___REPORTREPLACECARD_B__7_0_OFFSET UNITYSDK_OFFSET(0x1E0B2720)
+#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C___REPORTREPLACECARD_B__7_1_OFFSET UNITYSDK_OFFSET(0x1E0B2830)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinReplaceCardViewModel___c_TypeDefinitionIndex = 81168;
+	inline static constexpr unsigned int FateRinReplaceCardViewModel___c_TypeDefinitionIndex = 83948;
 
 	class FateRinReplaceCardViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>** StaticGet___9__7_1()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x550E0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x550E8);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x5BF20);
 		}
 
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x550F0);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x5BF28);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x5BF30);
 		}
 
 		static ::System::Void _cctor()

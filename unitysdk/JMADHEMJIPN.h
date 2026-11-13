@@ -3,10 +3,10 @@
 class MLHMAPBJMKC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JMADHEMJIPN_CTOR_OFFSET UNITYSDK_OFFSET(0xB252790)
-#define JMADHEMJIPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2527C0)
+#define JMADHEMJIPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A1020)
+#define JMADHEMJIPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A0A1050)
 
-inline static constexpr unsigned int JMADHEMJIPN_TypeDefinitionIndex = 52315;
+inline static constexpr unsigned int JMADHEMJIPN_TypeDefinitionIndex = 53421;
 
 	class JMADHEMJIPN
 	{

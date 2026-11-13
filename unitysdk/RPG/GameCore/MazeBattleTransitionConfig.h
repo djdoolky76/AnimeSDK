@@ -6,12 +6,12 @@ namespace RPG::GameCore { class MazeBattleTransitionConfig; }
 namespace RPG::GameCore { class PostureTypeTasksConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D832640)
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D831F90)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB66900)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB66250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBattleTransitionConfig_TypeDefinitionIndex = 17620;
+	inline static constexpr unsigned int MazeBattleTransitionConfig_TypeDefinitionIndex = 17789;
 
 	class MazeBattleTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{

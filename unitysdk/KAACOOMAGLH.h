@@ -9,12 +9,12 @@ class MOAKENFIBPE;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KAACOOMAGLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C93E0)
-#define KAACOOMAGLH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB2C9390)
-#define KAACOOMAGLH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB2C9340)
-#define KAACOOMAGLH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB2C9290)
+#define KAACOOMAGLH_CTOR_OFFSET UNITYSDK_OFFSET(0x19DA5400)
+#define KAACOOMAGLH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19DA53B0)
+#define KAACOOMAGLH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19DA5360)
+#define KAACOOMAGLH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x19DA52B0)
 
-inline static constexpr unsigned int KAACOOMAGLH_TypeDefinitionIndex = 54081;
+inline static constexpr unsigned int KAACOOMAGLH_TypeDefinitionIndex = 55245;
 
 	class KAACOOMAGLH : public ::CMPGEAFHHDC
 	{
@@ -22,8 +22,8 @@ inline static constexpr unsigned int KAACOOMAGLH_TypeDefinitionIndex = 54081;
 		::KADNINAMKGA* GNHAPABLMDF; // 0x18
 		::MOAKENFIBPE* NEACMLNOEIL; // 0x20
 		::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x28
-		::RPG::GameCore::TaskContext* GPKCGOLOJKC; // 0x30
-		::RPG::GameCore::GameEntity* DOCIPOEABOM; // 0x38
+		::RPG::GameCore::GameEntity* DOCIPOEABOM; // 0x30
+		::RPG::GameCore::TaskContext* GPKCGOLOJKC; // 0x38
 		::RPG::GameCore::FixPoint OLKJAKJOJLP; // 0x40
 		::System::Void _ctor()
 		{

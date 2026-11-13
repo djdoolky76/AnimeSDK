@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::ComponentModel { class TypeDescriptor_MemberDescriptorComparer; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5FC0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EFD5DE0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5FB0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1928E0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C192700)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1928D0)
 
 namespace System::ComponentModel
 {
@@ -17,7 +17,7 @@ namespace System::ComponentModel
 	public:
 		static ::System::ComponentModel::TypeDescriptor_MemberDescriptorComparer** StaticGet_Instance()
 		{
-			return (::System::ComponentModel::TypeDescriptor_MemberDescriptorComparer**)UnitySDK::FromName("System.ComponentModel", "MemberDescriptorComparer")->GetStaticField(0x2C770);
+			return (::System::ComponentModel::TypeDescriptor_MemberDescriptorComparer**)UnitySDK::FromName("System.ComponentModel", "MemberDescriptorComparer")->GetStaticField(0x36780);
 		}
 
 		::System::Void _ctor()

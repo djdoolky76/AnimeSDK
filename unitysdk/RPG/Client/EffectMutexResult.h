@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectMutexResult_TypeDefinitionIndex = 69922;
+	inline static constexpr unsigned int EffectMutexResult_TypeDefinitionIndex = 71881;
 
 	enum class EffectMutexResult : ::System::Int32
 	{

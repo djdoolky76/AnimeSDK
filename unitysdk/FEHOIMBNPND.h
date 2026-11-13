@@ -6,21 +6,21 @@ namespace RPG::Client { class MissionModule; }
 namespace RPG::GameCore { class CumulativeScoreBoardConfigData; }
 namespace RPG::GameCore { class CumulativeScoreBoardConfigRow; }
 
-#define FEHOIMBNPND_CEDEPODOCFL_OFFSET UNITYSDK_OFFSET(0x156E6C20)
-#define FEHOIMBNPND_CTOR_OFFSET UNITYSDK_OFFSET(0x156E6650)
-#define FEHOIMBNPND_FGBBHONLKMJ_OFFSET UNITYSDK_OFFSET(0x156E6FB0)
-#define FEHOIMBNPND_JNLIJFGGLFB_OFFSET UNITYSDK_OFFSET(0x156E66F0)
-#define FEHOIMBNPND_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x156E70F0)
-#define FEHOIMBNPND_PFHECDDMLNK_OFFSET UNITYSDK_OFFSET(0x156E68E0)
+#define FEHOIMBNPND_CEDEPODOCFL_OFFSET UNITYSDK_OFFSET(0x13097230)
+#define FEHOIMBNPND_CTOR_OFFSET UNITYSDK_OFFSET(0x13096C60)
+#define FEHOIMBNPND_FGBBHONLKMJ_OFFSET UNITYSDK_OFFSET(0x130975C0)
+#define FEHOIMBNPND_JNLIJFGGLFB_OFFSET UNITYSDK_OFFSET(0x13096D00)
+#define FEHOIMBNPND_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x13097700)
+#define FEHOIMBNPND_PFHECDDMLNK_OFFSET UNITYSDK_OFFSET(0x13096EF0)
 
-inline static constexpr unsigned int FEHOIMBNPND_TypeDefinitionIndex = 52090;
+inline static constexpr unsigned int FEHOIMBNPND_TypeDefinitionIndex = 53195;
 
 	class FEHOIMBNPND : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::CumulativeScoreBoardConfigData* OPILIGEJFON; // 0x10
-		::RPG::Client::MissionModule* JOMIMCLABPL; // 0x18
-		::RPG::GameCore::CumulativeScoreBoardConfigRow* NOPAMNLEDHK; // 0x20
+		::RPG::GameCore::CumulativeScoreBoardConfigRow* NOPAMNLEDHK; // 0x10
+		::RPG::GameCore::CumulativeScoreBoardConfigData* OPILIGEJFON; // 0x18
+		::RPG::Client::MissionModule* JOMIMCLABPL; // 0x20
 		::System::Void _ctor(::MDHKPOLCNOK* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MDHKPOLCNOK*))((::PBYTE)hIl2Cpp + FEHOIMBNPND_CTOR_OFFSET))(this, a1);

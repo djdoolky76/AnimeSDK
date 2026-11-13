@@ -6,19 +6,19 @@ class MBIADGFPAGK;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define MBIADGFPAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D107230)
-#define MBIADGFPAGK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D107240)
-#define MBIADGFPAGK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D107200)
+#define MBIADGFPAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7E2A0)
+#define MBIADGFPAGK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1BB7E2B0)
+#define MBIADGFPAGK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1BB7E270)
 
-inline static constexpr unsigned int MBIADGFPAGK_TypeDefinitionIndex = 23721;
+inline static constexpr unsigned int MBIADGFPAGK_TypeDefinitionIndex = 24177;
 
 	class MBIADGFPAGK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* JPMFDBJAMNO; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::RPG::GameCore::DynamicFloat* MMMKMGJLEFP; // 0x28
-		::RPG::GameCore::DynamicFloat* BHKHHEJDHGF; // 0x30
+		::RPG::GameCore::DynamicFloat* BHKHHEJDHGF; // 0x18
+		::RPG::GameCore::DynamicFloat* JPMFDBJAMNO; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::DynamicFloat* MMMKMGJLEFP; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MBIADGFPAGK_CTOR_OFFSET))(this);

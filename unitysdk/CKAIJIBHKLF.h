@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeCharacterSomatoType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKAIJIBHKLF_CTOR_OFFSET UNITYSDK_OFFSET(0xD74C5B0)
-#define CKAIJIBHKLF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD74C5E0)
+#define CKAIJIBHKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD34560)
+#define CKAIJIBHKLF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD34590)
 
-inline static constexpr unsigned int CKAIJIBHKLF_TypeDefinitionIndex = 54917;
+inline static constexpr unsigned int CKAIJIBHKLF_TypeDefinitionIndex = 56089;
 
 	class CKAIJIBHKLF
 	{

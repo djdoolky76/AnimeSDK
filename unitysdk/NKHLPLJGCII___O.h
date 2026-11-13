@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-inline static constexpr unsigned int NKHLPLJGCII___O_TypeDefinitionIndex = 77728;
+inline static constexpr unsigned int NKHLPLJGCII___O_TypeDefinitionIndex = 80463;
 
 	class NKHLPLJGCII___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0___OnCloseOpenDayStartToast()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>O")->GetStaticField(0x42CF0);
+			return (::System::Action**)UnitySDK::FromName("", "<>O")->GetStaticField(0x4B1B0);
 		}
 
 	};

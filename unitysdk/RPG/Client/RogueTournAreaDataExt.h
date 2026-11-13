@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueTournAreaDataItem; }
 
-#define RPG_CLIENT_ROGUETOURNAREADATAEXT_ISINPROGRESS_OFFSET UNITYSDK_OFFSET(0xDF71120)
+#define RPG_CLIENT_ROGUETOURNAREADATAEXT_ISINPROGRESS_OFFSET UNITYSDK_OFFSET(0x1C862120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAreaDataExt_TypeDefinitionIndex = 67495;
+	inline static constexpr unsigned int RogueTournAreaDataExt_TypeDefinitionIndex = 69439;
 
 	class RogueTournAreaDataExt : public ::System::Object
 	{

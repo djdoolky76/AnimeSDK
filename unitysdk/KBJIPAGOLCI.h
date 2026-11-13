@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KGHLIHCOLKE;
 
-#define KBJIPAGOLCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB82B40)
+#define KBJIPAGOLCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2B6F0)
 
-inline static constexpr unsigned int KBJIPAGOLCI_TypeDefinitionIndex = 43204;
+inline static constexpr unsigned int KBJIPAGOLCI_TypeDefinitionIndex = 44185;
 
 	class KBJIPAGOLCI : public ::System::Object
 	{

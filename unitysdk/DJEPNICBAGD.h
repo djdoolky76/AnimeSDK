@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define DJEPNICBAGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCFFCB0)
+#define DJEPNICBAGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F4930)
 
-inline static constexpr unsigned int DJEPNICBAGD_TypeDefinitionIndex = 24989;
+inline static constexpr unsigned int DJEPNICBAGD_TypeDefinitionIndex = 25469;
 
 	class DJEPNICBAGD : public ::System::Attribute
 	{

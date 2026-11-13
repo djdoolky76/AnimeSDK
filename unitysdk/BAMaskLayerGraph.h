@@ -7,24 +7,24 @@ class BAMaskLayerGraph;
 namespace UnityEngine::Rendering { class BAGraphAsset; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define BAMASKLAYERGRAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB6F10)
-#define BAMASKLAYERGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x1CBB7210)
-#define BAMASKLAYERGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x1CBB70B0)
-#define BAMASKLAYERGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1CBB6F20)
-#define BAMASKLAYERGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1CBB70C0)
+#define BAMASKLAYERGRAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1AA600)
+#define BAMASKLAYERGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x1A1AA900)
+#define BAMASKLAYERGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x1A1AA7A0)
+#define BAMASKLAYERGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1A1AA610)
+#define BAMASKLAYERGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1A1AA7B0)
 
-inline static constexpr unsigned int BAMaskLayerGraph_TypeDefinitionIndex = 37466;
+inline static constexpr unsigned int BAMaskLayerGraph_TypeDefinitionIndex = 38394;
 
 	class BAMaskLayerGraph : public ::System::Object
 	{
 	public:
 		::UnityEngine::Rendering::BAGraphAsset* _boneMaskGraph; // 0x10
-		::UnityEngine::Rendering::BANodeHash maskClipNode; // 0x18
-		::UnityEngine::Rendering::BANodeHash outputNode; // 0x20
+		::UnityEngine::Rendering::BANodeHash outputNode; // 0x18
+		::UnityEngine::Rendering::BANodeHash maskClipNode; // 0x20
 		::UnityEngine::Rendering::BANodeHash sampleMaskNode; // 0x28
 		static ::BAMaskLayerGraph** StaticGet__Graph()
 		{
-			return (::BAMaskLayerGraph**)UnitySDK::FromName("", "BAMaskLayerGraph")->GetStaticField(0x25930);
+			return (::BAMaskLayerGraph**)UnitySDK::FromName("", "BAMaskLayerGraph")->GetStaticField(0x1F400);
 		}
 
 		::System::Void _ctor()

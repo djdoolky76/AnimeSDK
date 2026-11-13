@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkEffectSource_TypeDefinitionIndex = 61496;
+	inline static constexpr unsigned int ClockParkEffectSource_TypeDefinitionIndex = 62881;
 
 	enum class ClockParkEffectSource : ::System::Int32
 	{

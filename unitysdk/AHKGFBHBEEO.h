@@ -7,21 +7,21 @@ class PBGNKMMDBGD;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AHKGFBHBEEO_BEENFOCPCMB_OFFSET UNITYSDK_OFFSET(0x1C559A70)
-#define AHKGFBHBEEO_BOENADDGNMM_OFFSET UNITYSDK_OFFSET(0x1C559F10)
-#define AHKGFBHBEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C559890)
-#define AHKGFBHBEEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C559A20)
-#define AHKGFBHBEEO_HMGPJOANMPG_OFFSET UNITYSDK_OFFSET(0x1C55A250)
-#define AHKGFBHBEEO_NIKKILEAFKH_OFFSET UNITYSDK_OFFSET(0x1C55A630)
+#define AHKGFBHBEEO_BEENFOCPCMB_OFFSET UNITYSDK_OFFSET(0x16FF5C90)
+#define AHKGFBHBEEO_BOENADDGNMM_OFFSET UNITYSDK_OFFSET(0x16FF6110)
+#define AHKGFBHBEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x16FF5AB0)
+#define AHKGFBHBEEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16FF5C40)
+#define AHKGFBHBEEO_HMGPJOANMPG_OFFSET UNITYSDK_OFFSET(0x16FF6450)
+#define AHKGFBHBEEO_NIKKILEAFKH_OFFSET UNITYSDK_OFFSET(0x16FF6820)
 
-inline static constexpr unsigned int AHKGFBHBEEO_TypeDefinitionIndex = 37320;
+inline static constexpr unsigned int AHKGFBHBEEO_TypeDefinitionIndex = 38248;
 
 	class AHKGFBHBEEO : public ::System::Object
 	{
 	public:
-		::PBGNKMMDBGD* PDENFEFCAGN; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::ValueTuple_2<::System::UInt64, ::System::UInt32>>* NEBCGCKIAFM; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Int32, ::System::UInt32>>* GPEPMBICJFC; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::ValueTuple_2<::System::UInt64, ::System::UInt32>>* NEBCGCKIAFM; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Int32, ::System::UInt32>>* GPEPMBICJFC; // 0x18
+		::PBGNKMMDBGD* PDENFEFCAGN; // 0x20
 		::System::UInt32 ABFCFDCOAAC; // 0x28
 		// static const ::System::Object JNKAKBIEJAI; // 0x0
 		::System::Void _ctor(::PBGNKMMDBGD* a1)

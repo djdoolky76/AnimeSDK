@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_EDITORWEBRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F62D5D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EDITORWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1F62D690)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EDITORWEBRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDC7A90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EDITORWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1DDC7B50)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int EditorWebResources_TypeDefinitionIndex = 39500;
+	inline static constexpr unsigned int EditorWebResources_TypeDefinitionIndex = 40429;
 
 	class EditorWebResources : public ::ZenFulcrum::EmbeddedBrowser::WebResources
 	{

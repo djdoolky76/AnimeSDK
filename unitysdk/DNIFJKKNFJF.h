@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class InfiniteWaveNextMonsterId; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNIFJKKNFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1195D580)
-#define DNIFJKKNFJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1195D7C0)
+#define DNIFJKKNFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x12CD31C0)
+#define DNIFJKKNFJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CD3400)
 
-inline static constexpr unsigned int DNIFJKKNFJF_TypeDefinitionIndex = 55115;
+inline static constexpr unsigned int DNIFJKKNFJF_TypeDefinitionIndex = 56292;
 
 	class DNIFJKKNFJF
 	{

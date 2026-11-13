@@ -5,11 +5,11 @@ namespace RPG::Client { class MonoAboveSwitch; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define GDGKGOGKPCG_CTOR_OFFSET UNITYSDK_OFFSET(0x159918F0)
-#define GDGKGOGKPCG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15991820)
-#define GDGKGOGKPCG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15991870)
+#define GDGKGOGKPCG_CTOR_OFFSET UNITYSDK_OFFSET(0x19ED74F0)
+#define GDGKGOGKPCG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x19ED7420)
+#define GDGKGOGKPCG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x19ED7470)
 
-inline static constexpr unsigned int GDGKGOGKPCG_TypeDefinitionIndex = 73105;
+inline static constexpr unsigned int GDGKGOGKPCG_TypeDefinitionIndex = 75219;
 
 	class GDGKGOGKPCG : public ::LBAMBIMMJKB
 	{

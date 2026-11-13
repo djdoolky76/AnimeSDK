@@ -4,9 +4,9 @@
 class GHHJNCOAIJF;
 namespace System { class String; }
 
-#define HMGOCKOHCCE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D74F00)
+#define HMGOCKOHCCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A354FD0)
 
-inline static constexpr unsigned int HMGOCKOHCCE_TypeDefinitionIndex = 69347;
+inline static constexpr unsigned int HMGOCKOHCCE_TypeDefinitionIndex = 71301;
 
 	class HMGOCKOHCCE : public ::FPNCAGDDHPO
 	{

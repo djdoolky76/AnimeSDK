@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfSelectEventTalk; }
 
-#define RPG_GAMECORE_ELFSELECTEVENTTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D60AC80)
-#define RPG_GAMECORE_ELFSELECTEVENTTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D60AB20)
+#define RPG_GAMECORE_ELFSELECTEVENTTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E1730)
+#define RPG_GAMECORE_ELFSELECTEVENTTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E15D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfSelectEventTalk_TypeDefinitionIndex = 18494;
+	inline static constexpr unsigned int ElfSelectEventTalk_TypeDefinitionIndex = 18654;
 
 	class ElfSelectEventTalk : public ::RPG::GameCore::JsonConfig
 	{

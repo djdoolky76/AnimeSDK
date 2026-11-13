@@ -6,18 +6,20 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8A9C70)
-#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A9DE0)
-#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8A9DD0)
+#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1E3D7D10)
+#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D7E90)
+#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1E3D7E80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AutoBlinkClip_TypeDefinitionIndex = 47865;
+	inline static constexpr unsigned int AutoBlinkClip_TypeDefinitionIndex = 48896;
 
 	class AutoBlinkClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean EnableAutoBlink; // 0x18
+		::System::Boolean SetEveryFrame; // 0x19
+		::System::Boolean KeepOnEnd; // 0x1A
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CTOR_OFFSET))(this);

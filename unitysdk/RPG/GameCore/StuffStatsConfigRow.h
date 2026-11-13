@@ -7,19 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StuffStatsConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STUFFSTATSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB019F0)
-#define RPG_GAMECORE_STUFFSTATSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB01350)
+#define RPG_GAMECORE_STUFFSTATSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E671710)
+#define RPG_GAMECORE_STUFFSTATSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E671070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 14233;
+	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 14390;
 
 	class StuffStatsConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* StatsIconPath; // 0x10
-		::RPG::Client::TextID MuseumStatsName; // 0x18
-		::RPG::GameCore::StuffStats StatsID; // 0x28
+		::RPG::GameCore::StuffStats StatsID; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID MuseumStatsName; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STUFFSTATSCONFIGROW_CTOR_OFFSET))(this);

@@ -12,23 +12,23 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD153D80)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD15D870)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD15D8E0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD15D910)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD401F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__0_OFFSET UNITYSDK_OFFSET(0x1CD40200)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__1_OFFSET UNITYSDK_OFFSET(0x1CD40270)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__2_OFFSET UNITYSDK_OFFSET(0x1CD402A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass5_0_TypeDefinitionIndex = 64711;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass5_0_TypeDefinitionIndex = 66254;
 
 	class GridFightGameRef___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightGameRef* __4__this; // 0x10
 		::System::Action_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::CCGFCHPPIDH*>*>* callback; // 0x18
-		::Il2CppArray<::System::String*>* ids; // 0x20
-		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x28
-		::GHHJNCOAIJF* req; // 0x30
+		::GHHJNCOAIJF* req; // 0x20
+		::Il2CppArray<::System::String*>* ids; // 0x28
+		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

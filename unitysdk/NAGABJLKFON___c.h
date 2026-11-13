@@ -4,18 +4,18 @@
 class NAGABJLKFON;
 namespace System { class Object; }
 
-#define NAGABJLKFON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA936E0)
-#define NAGABJLKFON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA93720)
-#define NAGABJLKFON___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA93730)
+#define NAGABJLKFON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20148E70)
+#define NAGABJLKFON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20148EB0)
+#define NAGABJLKFON___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x20148EC0)
 
-inline static constexpr unsigned int NAGABJLKFON___c_TypeDefinitionIndex = 33679;
+inline static constexpr unsigned int NAGABJLKFON___c_TypeDefinitionIndex = 34594;
 
 	class NAGABJLKFON___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CA00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x568B0);
 		}
 
 		static ::System::Void _cctor()

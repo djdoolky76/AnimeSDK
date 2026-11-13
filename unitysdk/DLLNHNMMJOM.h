@@ -6,21 +6,21 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define DLLNHNMMJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A72D0)
-#define DLLNHNMMJOM_GET_CURDESIGNLEVEL_OFFSET UNITYSDK_OFFSET(0xF8A7270)
-#define DLLNHNMMJOM_GET_PROGRESSSEGMENTS_OFFSET UNITYSDK_OFFSET(0xF8A72B0)
-#define DLLNHNMMJOM_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xF8A7290)
-#define DLLNHNMMJOM_SET_CURDESIGNLEVEL_OFFSET UNITYSDK_OFFSET(0xF8A7280)
-#define DLLNHNMMJOM_SET_PROGRESSSEGMENTS_OFFSET UNITYSDK_OFFSET(0xF8A72C0)
-#define DLLNHNMMJOM_SET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xF8A72A0)
+#define DLLNHNMMJOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1867B8D0)
+#define DLLNHNMMJOM_GET_CURDESIGNLEVEL_OFFSET UNITYSDK_OFFSET(0x1867B870)
+#define DLLNHNMMJOM_GET_PROGRESSSEGMENTS_OFFSET UNITYSDK_OFFSET(0x1867B8B0)
+#define DLLNHNMMJOM_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0x1867B890)
+#define DLLNHNMMJOM_SET_CURDESIGNLEVEL_OFFSET UNITYSDK_OFFSET(0x1867B880)
+#define DLLNHNMMJOM_SET_PROGRESSSEGMENTS_OFFSET UNITYSDK_OFFSET(0x1867B8C0)
+#define DLLNHNMMJOM_SET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0x1867B8A0)
 
-inline static constexpr unsigned int DLLNHNMMJOM_TypeDefinitionIndex = 79712;
+inline static constexpr unsigned int DLLNHNMMJOM_TypeDefinitionIndex = 82489;
 
 	class DLLNHNMMJOM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* _ProgressSegments_k__BackingField; // 0x10
-		::ObservableCollections::ObservableList_1<::HLOFKELIMGM*>* _RewardItems_k__BackingField; // 0x18
+		::ObservableCollections::ObservableList_1<::HLOFKELIMGM*>* _RewardItems_k__BackingField; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* _ProgressSegments_k__BackingField; // 0x18
 		::System::UInt32 _CurDesignLevel_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{

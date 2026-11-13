@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarDefaultMazeBuffRow; }
 
-#define RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E02D0)
-#define RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E0150)
+#define RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC5510)
+#define RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEC5390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDefaultMazeBuffRow_TypeDefinitionIndex = 12769;
+	inline static constexpr unsigned int AvatarDefaultMazeBuffRow_TypeDefinitionIndex = 12839;
 
 	class AvatarDefaultMazeBuffRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* DefaultMazeBuffIDList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 SkillIndex; // 0x1C
+		::System::UInt32 SkillIndex; // 0x18
+		::System::UInt32 ID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW_CTOR_OFFSET))(this);

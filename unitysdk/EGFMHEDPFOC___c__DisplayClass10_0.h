@@ -6,10 +6,10 @@
 class PLJNLHLGILF;
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define EGFMHEDPFOC___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14514860)
-#define EGFMHEDPFOC___C__DISPLAYCLASS10_0___ONUIBATTLESETDAMAGETEXTSTYLE_B__0_OFFSET UNITYSDK_OFFSET(0x14514D50)
+#define EGFMHEDPFOC___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17C0FED0)
+#define EGFMHEDPFOC___C__DISPLAYCLASS10_0___ONUIBATTLESETDAMAGETEXTSTYLE_B__0_OFFSET UNITYSDK_OFFSET(0x17C103E0)
 
-inline static constexpr unsigned int EGFMHEDPFOC___c__DisplayClass10_0_TypeDefinitionIndex = 71596;
+inline static constexpr unsigned int EGFMHEDPFOC___c__DisplayClass10_0_TypeDefinitionIndex = 73584;
 
 	class EGFMHEDPFOC___c__DisplayClass10_0 : public ::System::Object
 	{

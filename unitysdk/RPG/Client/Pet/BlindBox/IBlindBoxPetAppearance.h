@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Pet::BlindBox
 {
-	inline static constexpr unsigned int IBlindBoxPetAppearance_TypeDefinitionIndex = 75740;
+	inline static constexpr unsigned int IBlindBoxPetAppearance_TypeDefinitionIndex = 78067;
 
 	class IBlindBoxPetAppearance
 	{

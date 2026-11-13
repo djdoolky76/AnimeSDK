@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoExhibitionCommentRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DEFC0)
-#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8DED90)
+#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4DC70)
+#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE4DA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoExhibitionCommentRow_TypeDefinitionIndex = 12120;
+	inline static constexpr unsigned int PhotoExhibitionCommentRow_TypeDefinitionIndex = 12177;
 
 	class PhotoExhibitionCommentRow : public ::System::Object
 	{
 	public:
 		::System::String* NpcHandIcon; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::RPG::Client::TextID Reply; // 0x28
+		::RPG::Client::TextID Reply; // 0x18
+		::RPG::Client::TextID Name; // 0x28
 		::System::UInt32 ID; // 0x38
 		::System::Void _ctor()
 		{

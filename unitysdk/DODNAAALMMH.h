@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AbortModifierPhasePerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DODNAAALMMH_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDBB90)
-#define DODNAAALMMH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FDBBC0)
+#define DODNAAALMMH_CTOR_OFFSET UNITYSDK_OFFSET(0x1919EEF0)
+#define DODNAAALMMH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1919EF20)
 
-inline static constexpr unsigned int DODNAAALMMH_TypeDefinitionIndex = 54795;
+inline static constexpr unsigned int DODNAAALMMH_TypeDefinitionIndex = 55964;
 
 	class DODNAAALMMH
 	{

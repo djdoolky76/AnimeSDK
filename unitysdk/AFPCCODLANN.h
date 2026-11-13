@@ -7,12 +7,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AFPCCODLANN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C852F10)
-#define AFPCCODLANN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C8531B0)
-#define AFPCCODLANN_FILTER_OFFSET UNITYSDK_OFFSET(0x1C8530B0)
-#define AFPCCODLANN_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C852F90)
+#define AFPCCODLANN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D857270)
+#define AFPCCODLANN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D857510)
+#define AFPCCODLANN_FILTER_OFFSET UNITYSDK_OFFSET(0x1D857410)
+#define AFPCCODLANN_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1D8572F0)
 
-inline static constexpr unsigned int AFPCCODLANN_TypeDefinitionIndex = 42868;
+inline static constexpr unsigned int AFPCCODLANN_TypeDefinitionIndex = 43849;
 
 	class AFPCCODLANN
 	{

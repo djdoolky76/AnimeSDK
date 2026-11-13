@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleCustomUnlockCondition_TypeDefinitionIndex = 18971;
+	inline static constexpr unsigned int ChronicleCustomUnlockCondition_TypeDefinitionIndex = 19158;
 
 	enum class ChronicleCustomUnlockCondition : ::System::Int32
 	{

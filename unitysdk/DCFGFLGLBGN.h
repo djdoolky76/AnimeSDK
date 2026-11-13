@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideTopPageWithoutAnim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DCFGFLGLBGN_CTOR_OFFSET UNITYSDK_OFFSET(0xE2395C0)
-#define DCFGFLGLBGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE2395F0)
+#define DCFGFLGLBGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B167B20)
+#define DCFGFLGLBGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B167B50)
 
-inline static constexpr unsigned int DCFGFLGLBGN_TypeDefinitionIndex = 58154;
+inline static constexpr unsigned int DCFGFLGLBGN_TypeDefinitionIndex = 59407;
 
 	class DCFGFLGLBGN
 	{

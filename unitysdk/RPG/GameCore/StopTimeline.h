@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StopTimeline; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF89B0)
-#define RPG_GAMECORE_STOPTIMELINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF89C0)
-#define RPG_GAMECORE_STOPTIMELINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF8980)
+#define RPG_GAMECORE_STOPTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3CB550)
+#define RPG_GAMECORE_STOPTIMELINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3CB560)
+#define RPG_GAMECORE_STOPTIMELINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3CB520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopTimeline_TypeDefinitionIndex = 20624;
+	inline static constexpr unsigned int StopTimeline_TypeDefinitionIndex = 20961;
 
 	class StopTimeline : public ::RPG::GameCore::TaskConfig
 	{

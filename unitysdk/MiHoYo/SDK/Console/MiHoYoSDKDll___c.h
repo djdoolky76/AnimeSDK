@@ -7,31 +7,31 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC83AF0)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC83B30)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CONSOLE_SWITCH_CONTROL_B__168_0_OFFSET UNITYSDK_OFFSET(0x1BC83C80)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x1BC83B40)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18609430)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18609470)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CONSOLE_SWITCH_CONTROL_B__168_0_OFFSET UNITYSDK_OFFSET(0x186095C0)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x18609480)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 8951;
+	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 8960;
 
 	class MiHoYoSDKDll___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x56AD0);
-		}
-
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__18_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x56AD8);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x41030);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x41038);
 		}
 
 		static ::System::Converter_2<::System::Int32, ::System::String*>** StaticGet___9__168_0()
 		{
-			return (::System::Converter_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x56AE0);
+			return (::System::Converter_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x41040);
 		}
 
 		static ::System::Void _cctor()

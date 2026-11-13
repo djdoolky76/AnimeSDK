@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define LHNMIKHFKAG_CTOR_OFFSET UNITYSDK_OFFSET(0x19520)
+#define LHNMIKHFKAG_CTOR_OFFSET UNITYSDK_OFFSET(0x3D73CB0)
 
-inline static constexpr unsigned int LHNMIKHFKAG_TypeDefinitionIndex = 69537;
+inline static constexpr unsigned int LHNMIKHFKAG_TypeDefinitionIndex = 71494;
 
 	struct alignas(4) LHNMIKHFKAG
 	{

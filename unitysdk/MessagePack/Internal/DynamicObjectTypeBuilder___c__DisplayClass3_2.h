@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System::Reflection { class FieldInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB84D50)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_2__BUILDTYPE_B__2_OFFSET UNITYSDK_OFFSET(0x1BB84D60)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_2_CTOR_OFFSET UNITYSDK_OFFSET(0x174C3DE0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_2__BUILDTYPE_B__2_OFFSET UNITYSDK_OFFSET(0x174C3DF0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_2_TypeDefinitionIndex = 7327;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_2_TypeDefinitionIndex = 7338;
 
 	template <typename T1, typename T2>
 	class DynamicObjectTypeBuilder___c__DisplayClass3_2 : public ::System::Object

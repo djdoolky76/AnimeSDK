@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATENORMALIZEDTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE1246A0)
-#define RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xE1245F0)
-#define RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE1244D0)
+#define RPG_CLIENT_STATENORMALIZEDTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1A912080)
+#define RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x1A911FD0)
+#define RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A911EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateNormalizedTime_TypeDefinitionIndex = 68831;
+	inline static constexpr unsigned int StateNormalizedTime_TypeDefinitionIndex = 70784;
 
 	class StateNormalizedTime : public ::UnityEngine::StateMachineBehaviour
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LittleGameEntityConfig; }
 
-#define EPLACBCPLGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E28F0)
+#define EPLACBCPLGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA97100)
 
-inline static constexpr unsigned int EPLACBCPLGK_TypeDefinitionIndex = 36833;
+inline static constexpr unsigned int EPLACBCPLGK_TypeDefinitionIndex = 37761;
 
 	class EPLACBCPLGK : public ::System::Object
 	{

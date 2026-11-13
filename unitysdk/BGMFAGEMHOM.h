@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-inline static constexpr unsigned int BGMFAGEMHOM_TypeDefinitionIndex = 54988;
+inline static constexpr unsigned int BGMFAGEMHOM_TypeDefinitionIndex = 56162;
 
 	struct alignas(4) BGMFAGEMHOM
 	{

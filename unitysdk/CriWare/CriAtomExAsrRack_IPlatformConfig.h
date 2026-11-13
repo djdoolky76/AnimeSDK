@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsrRack_IPlatformConfig_TypeDefinitionIndex = 39920;
+	inline static constexpr unsigned int CriAtomExAsrRack_IPlatformConfig_TypeDefinitionIndex = 40895;
 
 	class CriAtomExAsrRack_IPlatformConfig
 	{

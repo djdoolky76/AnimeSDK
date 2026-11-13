@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER_CCTOR_OFFSET UNITYSDK_OFFSET(0xD838880)
-#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER_CTOR_OFFSET UNITYSDK_OFFSET(0xD838870)
+#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE21DD0)
+#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1AE21DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoJigsawFrameIKBaker_TypeDefinitionIndex = 68607;
+	inline static constexpr unsigned int MonoJigsawFrameIKBaker_TypeDefinitionIndex = 70555;
 
 	class MonoJigsawFrameIKBaker : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,7 +21,7 @@ namespace RPG::Client
 		::UnityEngine::Vector3 ANAHLJABNJF; // 0x28
 		static ::System::String** StaticGet_AnimatorPoseState()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "MonoJigsawFrameIKBaker")->GetStaticField(0x427A0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "MonoJigsawFrameIKBaker")->GetStaticField(0x5F610);
 		}
 
 		::System::Void _ctor()

@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByCompareValue; }
 
-#define JGKMFJNOGGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB66460)
-#define JGKMFJNOGGC_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CB66480)
+#define JGKMFJNOGGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE03B10)
+#define JGKMFJNOGGC_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1DE03B30)
 
-inline static constexpr unsigned int JGKMFJNOGGC_TypeDefinitionIndex = 43146;
+inline static constexpr unsigned int JGKMFJNOGGC_TypeDefinitionIndex = 44127;
 
 	class JGKMFJNOGGC : public ::LHJPMDPJPEC
 	{

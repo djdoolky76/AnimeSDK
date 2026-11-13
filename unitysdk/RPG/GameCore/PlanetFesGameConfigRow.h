@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesGameConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESGAMECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F8E80)
-#define RPG_GAMECORE_PLANETFESGAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F8C70)
+#define RPG_GAMECORE_PLANETFESGAMECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE675A0)
+#define RPG_GAMECORE_PLANETFESGAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE67390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGameConfigRow_TypeDefinitionIndex = 12242;
+	inline static constexpr unsigned int PlanetFesGameConfigRow_TypeDefinitionIndex = 12299;
 
 	class PlanetFesGameConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ParamStr1; // 0x10
 		::System::UInt32 ParamInt3; // 0x18
-		::RPG::GameCore::PlanetFesGameType GameID; // 0x1C
-		::System::UInt32 RaiseCurveID; // 0x20
-		::System::UInt32 RewardPool; // 0x24
+		::System::UInt32 RewardPool; // 0x1C
+		::RPG::GameCore::PlanetFesGameType GameID; // 0x20
+		::System::UInt32 RaiseCurveID; // 0x24
 		::System::UInt32 LandID; // 0x28
 		::System::Void _ctor()
 		{

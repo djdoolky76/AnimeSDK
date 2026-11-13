@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingBattleAirMotionConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEAIRMOTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D554520)
-#define RPG_GAMECORE_CHENLINGBATTLEAIRMOTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D553EE0)
+#define RPG_GAMECORE_CHENLINGBATTLEAIRMOTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F355AC0)
+#define RPG_GAMECORE_CHENLINGBATTLEAIRMOTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F355480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAirMotionConfig_TypeDefinitionIndex = 15747;
+	inline static constexpr unsigned int ChenLingBattleAirMotionConfig_TypeDefinitionIndex = 15905;
 
 	class ChenLingBattleAirMotionConfig : public ::RPG::GameCore::JsonConfig
 	{

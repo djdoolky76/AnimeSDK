@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ICEBONFCKMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E405C0)
+#define ICEBONFCKMP_CTOR_OFFSET UNITYSDK_OFFSET(0x188CB100)
 
-inline static constexpr unsigned int ICEBONFCKMP_TypeDefinitionIndex = 72400;
+inline static constexpr unsigned int ICEBONFCKMP_TypeDefinitionIndex = 74479;
 
 	class ICEBONFCKMP : public ::System::Object
 	{

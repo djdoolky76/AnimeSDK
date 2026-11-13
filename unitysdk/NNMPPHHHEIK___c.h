@@ -6,35 +6,35 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define NNMPPHHHEIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCCE1B0)
-#define NNMPPHHHEIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBCCE1E0)
-#define NNMPPHHHEIK___C__PLAYENTITYHITANIM_B__64_0_OFFSET UNITYSDK_OFFSET(0xBCCE1F0)
-#define NNMPPHHHEIK___C__PLAYENTITYHITANIM_B__64_1_OFFSET UNITYSDK_OFFSET(0xBCCE250)
-#define NNMPPHHHEIK___C__PLAYENTITYHITANIM_B__64_2_OFFSET UNITYSDK_OFFSET(0xBCCE2B0)
+#define NNMPPHHHEIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17A136D0)
+#define NNMPPHHHEIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17A13700)
+#define NNMPPHHHEIK___C__PLAYENTITYHITANIM_B__64_0_OFFSET UNITYSDK_OFFSET(0x17A13710)
+#define NNMPPHHHEIK___C__PLAYENTITYHITANIM_B__64_1_OFFSET UNITYSDK_OFFSET(0x17A13770)
+#define NNMPPHHHEIK___C__PLAYENTITYHITANIM_B__64_2_OFFSET UNITYSDK_OFFSET(0x17A137D0)
 
-inline static constexpr unsigned int NNMPPHHHEIK___c_TypeDefinitionIndex = 59038;
+inline static constexpr unsigned int NNMPPHHHEIK___c_TypeDefinitionIndex = 60313;
 
 	class NNMPPHHHEIK___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet___9__64_2()
 		{
-			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51BC0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51BC8);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet___9__64_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51BD0);
+			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x596F0);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet___9__64_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51BD8);
+			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x596F8);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet___9__64_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59700);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59708);
 		}
 
 		static ::System::Void _cctor()

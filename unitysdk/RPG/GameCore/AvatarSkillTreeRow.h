@@ -11,44 +11,44 @@ namespace RPG::GameCore { class AvatarSkillTreeRow; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSKILLTREEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D401010)
-#define RPG_GAMECORE_AVATARSKILLTREEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D3FEC10)
-#define RPG_GAMECORE_AVATARSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3FF3E0)
-#define RPG_GAMECORE_AVATARSKILLTREEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D400F70)
-#define RPG_GAMECORE_AVATARSKILLTREEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D400FD0)
+#define RPG_GAMECORE_AVATARSKILLTREEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F4F00)
+#define RPG_GAMECORE_AVATARSKILLTREEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1C2F2930)
+#define RPG_GAMECORE_AVATARSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2F3100)
+#define RPG_GAMECORE_AVATARSKILLTREEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1C2F4E60)
+#define RPG_GAMECORE_AVATARSKILLTREEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1C2F4EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillTreeRow_TypeDefinitionIndex = 12724;
+	inline static constexpr unsigned int AvatarSkillTreeRow_TypeDefinitionIndex = 12791;
 
 	class AvatarSkillTreeRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* PointDesc; // 0x18
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x28
-		::Il2CppArray<::System::UInt32>* LevelUpSkillID; // 0x30
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MaterialList; // 0x38
-		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x40
-		::System::String* AbilityName; // 0x48
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* StatusAddList; // 0x50
-		::System::String* SimplePointDesc; // 0x58
-		::System::String* PointName; // 0x60
-		::Il2CppArray<::System::UInt32>* PrePoint; // 0x68
-		::System::UInt32 MaxLevel; // 0x70
-		::System::UInt32 Level; // 0x74
-		::RPG::GameCore::AvatarSkillTreeAnchorType AnchorType; // 0x78
-		::System::UInt32 PointType; // 0x7C
-		::System::Boolean DefaultUnlock; // 0x80
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* StatusAddList; // 0x10
+		::System::String* AbilityName; // 0x18
+		::Il2CppArray<::System::UInt32>* PrePoint; // 0x20
+		::System::String* SimplePointDesc; // 0x28
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MaterialList; // 0x30
+		::Il2CppArray<::System::UInt32>* LevelUpSkillID; // 0x38
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x40
+		::System::String* PointDesc; // 0x48
+		::System::String* IconPath; // 0x50
+		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x58
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x60
+		::System::String* PointName; // 0x68
+		::System::UInt32 PointType; // 0x70
+		::System::UInt32 RecommendPriority; // 0x74
+		::System::UInt32 EnhancedID; // 0x78
+		::System::UInt32 PointID; // 0x7C
+		::RPG::GameCore::AvatarSkillTreeAnchorType AnchorType; // 0x80
+		::RPG::GameCore::AvatarSkillTreePointTriggerKey PointTriggerKey; // 0x84
+		::System::Boolean DefaultUnlock; // 0x88
 		::System::Byte _padding0[0x3];
-		::System::UInt32 RecommendPriority; // 0x84
-		::System::UInt32 AvatarPromotionLimit; // 0x88
-		::System::UInt32 PointID; // 0x8C
-		::System::UInt32 AvatarID; // 0x90
-		::System::UInt32 AvatarLevelLimit; // 0x94
-		::RPG::GameCore::AvatarSkillTreePointTriggerKey PointTriggerKey; // 0x98
-		::System::UInt32 EnhancedID; // 0x9C
+		::System::UInt32 MaxLevel; // 0x8C
+		::System::UInt32 AvatarPromotionLimit; // 0x90
+		::System::UInt32 AvatarID; // 0x94
+		::System::UInt32 Level; // 0x98
+		::System::UInt32 AvatarLevelLimit; // 0x9C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSKILLTREEROW_CTOR_OFFSET))(this);

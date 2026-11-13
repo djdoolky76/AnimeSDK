@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_1_Awaiter_TypeDefinitionIndex = 38385;
+	inline static constexpr unsigned int UniTask_1_Awaiter_TypeDefinitionIndex = 39314;
 
 	template <typename T>
 	struct alignas(8) UniTask_1_Awaiter

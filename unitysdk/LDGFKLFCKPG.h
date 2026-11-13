@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddReShaEasterEggMatchRule; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LDGFKLFCKPG_CTOR_OFFSET UNITYSDK_OFFSET(0xB61CD10)
-#define LDGFKLFCKPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB61CD40)
+#define LDGFKLFCKPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC7DB40)
+#define LDGFKLFCKPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AC7DB70)
 
-inline static constexpr unsigned int LDGFKLFCKPG_TypeDefinitionIndex = 52325;
+inline static constexpr unsigned int LDGFKLFCKPG_TypeDefinitionIndex = 53431;
 
 	class LDGFKLFCKPG
 	{

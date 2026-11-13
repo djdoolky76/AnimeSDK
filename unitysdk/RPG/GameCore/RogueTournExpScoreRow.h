@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournExpScoreRow; }
 
-#define RPG_GAMECORE_ROGUETOURNEXPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0BA10)
-#define RPG_GAMECORE_ROGUETOURNEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA0B890)
+#define RPG_GAMECORE_ROGUETOURNEXPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF2C2F0)
+#define RPG_GAMECORE_ROGUETOURNEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF2C170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournExpScoreRow_TypeDefinitionIndex = 14972;
+	inline static constexpr unsigned int RogueTournExpScoreRow_TypeDefinitionIndex = 15128;
 
 	class RogueTournExpScoreRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 Exp; // 0x10
-		::System::UInt32 WeeklyScore; // 0x14
-		::System::UInt32 ScoreExpID; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ScoreExpID; // 0x14
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 WeeklyScore; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXPSCOREROW_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define FILCOIFIBGE_CTOR_OFFSET UNITYSDK_OFFSET(0x157A1310)
-#define FILCOIFIBGE_TRIGGER_OFFSET UNITYSDK_OFFSET(0x157A1320)
+#define FILCOIFIBGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1980AB30)
+#define FILCOIFIBGE_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1980AB40)
 
-inline static constexpr unsigned int FILCOIFIBGE_TypeDefinitionIndex = 66236;
+inline static constexpr unsigned int FILCOIFIBGE_TypeDefinitionIndex = 68172;
 
 	class FILCOIFIBGE : public ::System::Object
 	{

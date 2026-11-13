@@ -4,18 +4,18 @@
 class JOCFCCGIPEA;
 namespace System { class Object; }
 
-#define JOCFCCGIPEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E76FA90)
-#define JOCFCCGIPEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E76FAD0)
-#define JOCFCCGIPEA___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1E76FAE0)
+#define JOCFCCGIPEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20005650)
+#define JOCFCCGIPEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20005690)
+#define JOCFCCGIPEA___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x200056A0)
 
-inline static constexpr unsigned int JOCFCCGIPEA___c_TypeDefinitionIndex = 34826;
+inline static constexpr unsigned int JOCFCCGIPEA___c_TypeDefinitionIndex = 35754;
 
 	class JOCFCCGIPEA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x685F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67870);
 		}
 
 		static ::System::Void _cctor()

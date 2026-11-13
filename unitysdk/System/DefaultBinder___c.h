@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define SYSTEM_DEFAULTBINDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C19E880)
-#define SYSTEM_DEFAULTBINDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C19E8C0)
-#define SYSTEM_DEFAULTBINDER___C__SELECTPROPERTY_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C19E8D0)
+#define SYSTEM_DEFAULTBINDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B96FA90)
+#define SYSTEM_DEFAULTBINDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B96FAD0)
+#define SYSTEM_DEFAULTBINDER___C__SELECTPROPERTY_B__3_0_OFFSET UNITYSDK_OFFSET(0x1B96FAE0)
 
 namespace System
 {
@@ -18,12 +18,12 @@ namespace System
 	public:
 		static ::System::Predicate_1<::System::Type*>** StaticGet___9__3_0()
 		{
-			return (::System::Predicate_1<::System::Type*>**)UnitySDK::FromName("System", "<>c")->GetStaticField(0x12920);
+			return (::System::Predicate_1<::System::Type*>**)UnitySDK::FromName("System", "<>c")->GetStaticField(0xEF70);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System", "<>c")->GetStaticField(0x12928);
+			return (::System::Object**)UnitySDK::FromName("System", "<>c")->GetStaticField(0xEF78);
 		}
 
 		static ::System::Void _cctor()

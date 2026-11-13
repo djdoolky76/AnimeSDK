@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonGamePlayContext_RewardInfo_TypeDefinitionIndex = 75207;
+	inline static constexpr unsigned int IdleLiveDungeonGamePlayContext_RewardInfo_TypeDefinitionIndex = 77534;
 
 	struct alignas(8) IdleLiveDungeonGamePlayContext_RewardInfo
 	{

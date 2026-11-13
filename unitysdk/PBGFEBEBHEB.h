@@ -4,10 +4,10 @@
 class IJJGPIPMNAE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBGFEBEBHEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE5950)
-#define PBGFEBEBHEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFE5A30)
+#define PBGFEBEBHEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1AABB680)
+#define PBGFEBEBHEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AABB760)
 
-inline static constexpr unsigned int PBGFEBEBHEB_TypeDefinitionIndex = 55455;
+inline static constexpr unsigned int PBGFEBEBHEB_TypeDefinitionIndex = 56643;
 
 	class PBGFEBEBHEB
 	{

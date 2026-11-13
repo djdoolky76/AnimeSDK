@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class EvolveBuildTypeGearsDetail; }
 
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE1F280)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL___C__DISPLAYCLASS4_0___REFRESHMIXDETAILS_B__0_OFFSET UNITYSDK_OFFSET(0xCE1F340)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4BCB0)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL___C__DISPLAYCLASS4_0___REFRESHMIXDETAILS_B__0_OFFSET UNITYSDK_OFFSET(0x1DB4BFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildGearsMixDetail___c__DisplayClass4_0_TypeDefinitionIndex = 63780;
+	inline static constexpr unsigned int EvolveBuildGearsMixDetail___c__DisplayClass4_0_TypeDefinitionIndex = 65222;
 
 	class EvolveBuildGearsMixDetail___c__DisplayClass4_0 : public ::System::Object
 	{

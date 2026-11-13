@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RefreshFrameCapture; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AIDKJJODOPF_CTOR_OFFSET UNITYSDK_OFFSET(0xEB9C540)
-#define AIDKJJODOPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB9C570)
+#define AIDKJJODOPF_CTOR_OFFSET UNITYSDK_OFFSET(0x19B41970)
+#define AIDKJJODOPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19B419A0)
 
-inline static constexpr unsigned int AIDKJJODOPF_TypeDefinitionIndex = 55291;
+inline static constexpr unsigned int AIDKJJODOPF_TypeDefinitionIndex = 56472;
 
 	class AIDKJJODOPF
 	{

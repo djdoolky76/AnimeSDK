@@ -5,12 +5,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelAuthTokenResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE0850)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS19_0__GENERATEXSTSACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BEE3040)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0D92C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS19_0__GENERATEXSTSACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1B0DBAD0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass19_0_TypeDefinitionIndex = 8772;
+	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass19_0_TypeDefinitionIndex = 8781;
 
 	class PayManagerCXHandheld___c__DisplayClass19_0 : public ::System::Object
 	{

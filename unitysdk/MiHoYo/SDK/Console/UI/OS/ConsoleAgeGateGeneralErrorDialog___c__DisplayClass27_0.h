@@ -4,21 +4,21 @@
 namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateGeneralErrorDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEGENERALERRORDIALOG___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE05FB0)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEGENERALERRORDIALOG___C__DISPLAYCLASS27_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BE06370)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEGENERALERRORDIALOG___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD56B20)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEGENERALERRORDIALOG___C__DISPLAYCLASS27_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1DD56EE0)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleAgeGateGeneralErrorDialog___c__DisplayClass27_0_TypeDefinitionIndex = 9025;
+	inline static constexpr unsigned int ConsoleAgeGateGeneralErrorDialog___c__DisplayClass27_0_TypeDefinitionIndex = 9034;
 
 	class ConsoleAgeGateGeneralErrorDialog___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::System::String* title; // 0x10
-		::System::String* desc; // 0x18
+		::System::String* cancelText; // 0x10
+		::System::String* title; // 0x18
 		::System::String* confirmText; // 0x20
-		::System::String* subDesc; // 0x28
-		::System::String* cancelText; // 0x30
+		::System::String* desc; // 0x28
+		::System::String* subDesc; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEGENERALERRORDIALOG___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HPLOLNKGHPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC94E0)
+#define HPLOLNKGHPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBDA20)
 
-inline static constexpr unsigned int HPLOLNKGHPC_TypeDefinitionIndex = 43300;
+inline static constexpr unsigned int HPLOLNKGHPC_TypeDefinitionIndex = 44281;
 
 	class HPLOLNKGHPC : public ::System::Object
 	{

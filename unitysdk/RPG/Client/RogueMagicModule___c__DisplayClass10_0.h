@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueMagicModule; }
 
-#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF20F10)
-#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS10_0__SETAUTOSHOWENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xDF25D40)
+#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC18360)
+#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS10_0__SETAUTOSHOWENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1CC1BBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicModule___c__DisplayClass10_0_TypeDefinitionIndex = 67406;
+	inline static constexpr unsigned int RogueMagicModule___c__DisplayClass10_0_TypeDefinitionIndex = 69350;
 
 	class RogueMagicModule___c__DisplayClass10_0 : public ::System::Object
 	{

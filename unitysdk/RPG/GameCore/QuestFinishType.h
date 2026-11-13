@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10423;
+	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10434;
 
 	enum class QuestFinishType : ::System::Int32
 	{
@@ -999,5 +999,43 @@ namespace RPG::GameCore
 		MechCraftDesignLevel = 460008,
 		MarbleCoopBossModeWinCnt = 460020,
 		ActivityVoracityInvasionTotalScore = 460050,
+		GridFightSettleRoleCntWithTraitAndStar = 470000,
+		ComicDessertLevelFinish = 470001,
+		GridFightGameplayTraitCnt = 470002,
+		ComicDessertDeviceUpgradeCnt = 470003,
+		ComicDessertGetCoinNum = 470004,
+		GridFightEnterNodeEquipCnt = 470005,
+		GridFightGlobalHpGreaterValue = 470006,
+		GridFightBattlePerfectWin = 470007,
+		GridFightBattleRoleCnt = 470008,
+		GridFightBattleSpotLightRoleCnt = 470009,
+		ComicDessertCycleFinish = 470010,
+		RealityShowBuffNum = 470011,
+		RealityShowResult = 470012,
+		RealityShowAllResult = 470013,
+		ComicDessertLongTailFinish = 470014,
+		GridFightFinishSeasonTutorial = 470017,
+		GridFightSelectSpotLightCnt = 470018,
+		GridFightRefreshSpotLightCnt = 470019,
+		GridFightReplaceSpotLightCnt = 470020,
+		GridFightEnterBonfireCnt = 470021,
+		GridFightSelectDifferentBonfirePetPal = 470022,
+		GridFightDifferentPetPalEffect = 470023,
+		GridFightSelectSpotLightRoleCnt = 470024,
+		GridFightSettleRoleWithSpotLight = 470025,
+		GridFightSettleActiveTraitAnyOne = 470026,
+		GridFightSelectSpotLightByEnemyDifficulty = 470027,
+		GridFightDifferentPetPal = 470028,
+		GridFightSelectDifferentBonfireEvent = 470029,
+		GridFightBuyJadeGoodsCnt = 470030,
+		GridFightSettleDressHunterTraitEquipsCnt = 470031,
+		GridFightSettleRoleValue = 470032,
+		GridFightSettleSpotLightRoleTotalStar = 470033,
+		GridFightSettleSpecifiedRoleDressedEquipCnt = 470034,
+		GridFightUnlockRole = 470035,
+		GridFightGrantBonus = 470036,
+		GridFightAdditionalTraitRoleChoose = 470037,
+		GridFightSettleWithClaraEnhanceNum = 470038,
+		GridFightSettleWithDressElationLaughPointEquipNum = 470039,
 	};
 }

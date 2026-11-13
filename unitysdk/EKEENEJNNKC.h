@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByInTimelinePerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKEENEJNNKC_CTOR_OFFSET UNITYSDK_OFFSET(0x154F58C0)
-#define EKEENEJNNKC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x154F58F0)
+#define EKEENEJNNKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1998AD60)
+#define EKEENEJNNKC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1998AD90)
 
-inline static constexpr unsigned int EKEENEJNNKC_TypeDefinitionIndex = 54631;
+inline static constexpr unsigned int EKEENEJNNKC_TypeDefinitionIndex = 55797;
 
 	class EKEENEJNNKC
 	{

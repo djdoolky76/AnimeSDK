@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/RaycastHit.h"
 namespace UnityEngine { class Transform; }
 
-#define FDLDBJMEBDH_DMOIEHPEMBM_OFFSET UNITYSDK_OFFSET(0x3C31F90)
+#define FDLDBJMEBDH_DMOIEHPEMBM_OFFSET UNITYSDK_OFFSET(0x3EE82D0)
 
-inline static constexpr unsigned int FDLDBJMEBDH_TypeDefinitionIndex = 43431;
+inline static constexpr unsigned int FDLDBJMEBDH_TypeDefinitionIndex = 44413;
 
 	struct alignas(8) FDLDBJMEBDH
 	{

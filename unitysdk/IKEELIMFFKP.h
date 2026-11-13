@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareControlSkillEffectIsDamaging; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IKEELIMFFKP_CTOR_OFFSET UNITYSDK_OFFSET(0x164780D0)
-#define IKEELIMFFKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16478100)
+#define IKEELIMFFKP_CTOR_OFFSET UNITYSDK_OFFSET(0x18076360)
+#define IKEELIMFFKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18076390)
 
-inline static constexpr unsigned int IKEELIMFFKP_TypeDefinitionIndex = 54525;
+inline static constexpr unsigned int IKEELIMFFKP_TypeDefinitionIndex = 55690;
 
 	class IKEELIMFFKP
 	{

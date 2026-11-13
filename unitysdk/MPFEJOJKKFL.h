@@ -3,10 +3,10 @@
 #include "unitysdk/OKPFLOFNBJC.h"
 #include "unitysdk/RPG/GameCore/FiveDimOrthoDirection.h"
 
-#define MPFEJOJKKFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8FFF30)
-#define MPFEJOJKKFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FFFD0)
+#define MPFEJOJKKFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C265090)
+#define MPFEJOJKKFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C265160)
 
-inline static constexpr unsigned int MPFEJOJKKFL_TypeDefinitionIndex = 43531;
+inline static constexpr unsigned int MPFEJOJKKFL_TypeDefinitionIndex = 44513;
 
 	class MPFEJOJKKFL : public ::OKPFLOFNBJC
 	{

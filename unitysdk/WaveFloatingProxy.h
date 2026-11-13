@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class SphereCollider; }
 
-#define WAVEFLOATINGPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xE9ED0B0)
+#define WAVEFLOATINGPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x10EFFC00)
 
-inline static constexpr unsigned int WaveFloatingProxy_TypeDefinitionIndex = 47489;
+inline static constexpr unsigned int WaveFloatingProxy_TypeDefinitionIndex = 48518;
 
 	class WaveFloatingProxy
 	{

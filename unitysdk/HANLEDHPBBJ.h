@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HANLEDHPBBJ_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE51C90)
-#define HANLEDHPBBJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE527A0)
-#define HANLEDHPBBJ_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE52030)
-#define HANLEDHPBBJ_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE51CD0)
-#define HANLEDHPBBJ_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE52520)
-#define HANLEDHPBBJ_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE520D0)
-#define HANLEDHPBBJ_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE52120)
-#define HANLEDHPBBJ_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE51F00)
-#define HANLEDHPBBJ_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE524C0)
-#define HANLEDHPBBJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE52650)
-#define HANLEDHPBBJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE51F90)
-#define HANLEDHPBBJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE52440)
+#define HANLEDHPBBJ_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E9D4100)
+#define HANLEDHPBBJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9D4C10)
+#define HANLEDHPBBJ_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E9D44A0)
+#define HANLEDHPBBJ_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E9D4140)
+#define HANLEDHPBBJ_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E9D4990)
+#define HANLEDHPBBJ_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E9D4540)
+#define HANLEDHPBBJ_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E9D4590)
+#define HANLEDHPBBJ_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E9D4370)
+#define HANLEDHPBBJ_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E9D4930)
+#define HANLEDHPBBJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E9D4AC0)
+#define HANLEDHPBBJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E9D4400)
+#define HANLEDHPBBJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E9D48B0)
 
-inline static constexpr unsigned int HANLEDHPBBJ_TypeDefinitionIndex = 15170;
+inline static constexpr unsigned int HANLEDHPBBJ_TypeDefinitionIndex = 15326;
 
 	class HANLEDHPBBJ : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x188D0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x13730);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionRogueMonsterRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionRogueMonsterRow*>**)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x188D8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionRogueMonsterRow*>**)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x13738);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x188E0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x5470);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x13740);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x5471);
+			return (::System::Boolean*)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x3E80);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "HANLEDHPBBJ")->GetStaticField(0x3E81);
 		}
 
 		static ::System::Void _cctor()

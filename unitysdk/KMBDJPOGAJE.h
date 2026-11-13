@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KMBDJPOGAJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5354B0)
-#define KMBDJPOGAJE_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0xB535490)
-#define KMBDJPOGAJE_SET_ACTIVE_OFFSET UNITYSDK_OFFSET(0xB5354A0)
+#define KMBDJPOGAJE_CTOR_OFFSET UNITYSDK_OFFSET(0x17B928E0)
+#define KMBDJPOGAJE_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x17B928C0)
+#define KMBDJPOGAJE_SET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x17B928D0)
 
-inline static constexpr unsigned int KMBDJPOGAJE_TypeDefinitionIndex = 49698;
+inline static constexpr unsigned int KMBDJPOGAJE_TypeDefinitionIndex = 50774;
 
 	class KMBDJPOGAJE : public ::System::Object
 	{

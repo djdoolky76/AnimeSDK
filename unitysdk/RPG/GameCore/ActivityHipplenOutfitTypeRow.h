@@ -7,21 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityHipplenOutfitTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33A980)
-#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33A760)
+#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E517C40)
+#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E517A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenOutfitTypeRow_TypeDefinitionIndex = 11671;
+	inline static constexpr unsigned int ActivityHipplenOutfitTypeRow_TypeDefinitionIndex = 11722;
 
 	class ActivityHipplenOutfitTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* IconCheckPath; // 0x10
 		::System::String* IconPath; // 0x18
-		::RPG::GameCore::HipplenOutfitType Type; // 0x20
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID Name; // 0x20
+		::RPG::GameCore::HipplenOutfitType Type; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_CTOR_OFFSET))(this);

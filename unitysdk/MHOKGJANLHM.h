@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearEntityFloatMessage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MHOKGJANLHM_CTOR_OFFSET UNITYSDK_OFFSET(0xB943D10)
-#define MHOKGJANLHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB943D40)
+#define MHOKGJANLHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B36AE20)
+#define MHOKGJANLHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B36AE50)
 
-inline static constexpr unsigned int MHOKGJANLHM_TypeDefinitionIndex = 54962;
+inline static constexpr unsigned int MHOKGJANLHM_TypeDefinitionIndex = 56136;
 
 	class MHOKGJANLHM
 	{

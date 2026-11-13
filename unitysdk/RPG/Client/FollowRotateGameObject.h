@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FOLLOWROTATEGAMEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD043CF0)
+#define RPG_CLIENT_FOLLOWROTATEGAMEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x19AEFE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FollowRotateGameObject_TypeDefinitionIndex = 68427;
+	inline static constexpr unsigned int FollowRotateGameObject_TypeDefinitionIndex = 70374;
 
 	class FollowRotateGameObject : public ::System::Object
 	{

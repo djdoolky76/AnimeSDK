@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FindClosestAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJFPGBDMLAL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB6F80)
-#define AJFPGBDMLAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CB6FB0)
+#define AJFPGBDMLAL_CTOR_OFFSET UNITYSDK_OFFSET(0x19D3D730)
+#define AJFPGBDMLAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D3D760)
 
-inline static constexpr unsigned int AJFPGBDMLAL_TypeDefinitionIndex = 55063;
+inline static constexpr unsigned int AJFPGBDMLAL_TypeDefinitionIndex = 56239;
 
 	class AJFPGBDMLAL
 	{

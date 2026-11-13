@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByStatusCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPHCDDPKFAC_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF68B0)
-#define NPHCDDPKFAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF6990)
+#define NPHCDDPKFAC_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF8C80)
+#define NPHCDDPKFAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19CF8D60)
 
-inline static constexpr unsigned int NPHCDDPKFAC_TypeDefinitionIndex = 55470;
+inline static constexpr unsigned int NPHCDDPKFAC_TypeDefinitionIndex = 56658;
 
 	class NPHCDDPKFAC
 	{

@@ -5,20 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TutorialResRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALRESROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC40A40)
-#define RPG_GAMECORE_TUTORIALRESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC3FF90)
+#define RPG_GAMECORE_TUTORIALRESROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2C5C0)
+#define RPG_GAMECORE_TUTORIALRESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED2BB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialResRow_TypeDefinitionIndex = 15384;
+	inline static constexpr unsigned int TutorialResRow_TypeDefinitionIndex = 15540;
 
 	class TutorialResRow : public ::System::Object
 	{
 	public:
-		::System::String* KeyMapPath; // 0x10
-		::System::String* TextPath; // 0x18
-		::System::String* ContentPath; // 0x20
-		::System::String* PrefabPath; // 0x28
+		::System::String* PrefabPath; // 0x10
+		::System::String* KeyMapPath; // 0x18
+		::System::String* TextPath; // 0x20
+		::System::String* ContentPath; // 0x28
 		::System::Int32 ID; // 0x30
 		::System::Void _ctor()
 		{

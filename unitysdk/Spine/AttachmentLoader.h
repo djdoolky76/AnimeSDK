@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int AttachmentLoader_TypeDefinitionIndex = 39651;
+	inline static constexpr unsigned int AttachmentLoader_TypeDefinitionIndex = 40580;
 
 	class AttachmentLoader
 	{

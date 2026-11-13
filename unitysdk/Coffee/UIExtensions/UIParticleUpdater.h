@@ -7,42 +7,42 @@ namespace Coffee::UIExtensions { class UIParticleRenderer; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_CCTOR_OFFSET UNITYSDK_OFFSET(0x166B44D0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_GETGROUPEDRENDERERS_OFFSET UNITYSDK_OFFSET(0x166B2C40)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_GETPRIMARY_OFFSET UNITYSDK_OFFSET(0x166B4370)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_GET_UIPARTICLECOUNT_OFFSET UNITYSDK_OFFSET(0x166B3CC0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_INITIALIZEONLOAD_OFFSET UNITYSDK_OFFSET(0x166B3D10)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_REFRESH_OFFSET UNITYSDK_OFFSET(0x166B3E40)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_REGISTER_1_OFFSET UNITYSDK_OFFSET(0x166AC380)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_REGISTER_OFFSET UNITYSDK_OFFSET(0x166A8770)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_UNREGISTER_1_OFFSET UNITYSDK_OFFSET(0x166AC520)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x166A8B20)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_CCTOR_OFFSET UNITYSDK_OFFSET(0x2081B000)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_GETGROUPEDRENDERERS_OFFSET UNITYSDK_OFFSET(0x20819F60)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_GETPRIMARY_OFFSET UNITYSDK_OFFSET(0x2081AEA0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_GET_UIPARTICLECOUNT_OFFSET UNITYSDK_OFFSET(0x2081A7F0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_INITIALIZEONLOAD_OFFSET UNITYSDK_OFFSET(0x2081A840)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_REFRESH_OFFSET UNITYSDK_OFFSET(0x2081A970)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_REGISTER_1_OFFSET UNITYSDK_OFFSET(0x20813620)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_REGISTER_OFFSET UNITYSDK_OFFSET(0x2080F9F0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_UNREGISTER_1_OFFSET UNITYSDK_OFFSET(0x208137C0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEUPDATER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x2080FDA0)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleUpdater_TypeDefinitionIndex = 45162;
+	inline static constexpr unsigned int UIParticleUpdater_TypeDefinitionIndex = 40875;
 
 	class UIParticleUpdater : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::UInt64>** StaticGet_s_UpdatedGroupIds()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt64>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleUpdater")->GetStaticField(0x1040);
-		}
-
 		static ::System::Collections::Generic::List_1<::Coffee::UIExtensions::UIParticleAttractor*>** StaticGet_s_ActiveAttractors()
 		{
-			return (::System::Collections::Generic::List_1<::Coffee::UIExtensions::UIParticleAttractor*>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleUpdater")->GetStaticField(0x1048);
+			return (::System::Collections::Generic::List_1<::Coffee::UIExtensions::UIParticleAttractor*>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleUpdater")->GetStaticField(0xB80);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::UInt64>** StaticGet_s_UpdatedGroupIds()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::UInt64>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleUpdater")->GetStaticField(0xB88);
 		}
 
 		static ::System::Collections::Generic::List_1<::Coffee::UIExtensions::UIParticle*>** StaticGet_s_ActiveParticles()
 		{
-			return (::System::Collections::Generic::List_1<::Coffee::UIExtensions::UIParticle*>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleUpdater")->GetStaticField(0x1050);
+			return (::System::Collections::Generic::List_1<::Coffee::UIExtensions::UIParticle*>**)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleUpdater")->GetStaticField(0xB90);
 		}
 
 		static ::System::Int32* StaticGet_s_FrameCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleUpdater")->GetStaticField(0x6E0);
+			return (::System::Int32*)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleUpdater")->GetStaticField(0x630);
 		}
 
 		static ::System::Void _cctor()

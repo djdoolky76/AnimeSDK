@@ -14,25 +14,25 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CCMJADNHDAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC74BBB0)
-#define CCMJADNHDAG_EAKBDBNBBOA_OFFSET UNITYSDK_OFFSET(0xC74BEE0)
-#define CCMJADNHDAG_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC74C300)
-#define CCMJADNHDAG_KGFJEKJDIGN_OFFSET UNITYSDK_OFFSET(0xC74BC80)
-#define CCMJADNHDAG_LIPCPKOHGDJ_OFFSET UNITYSDK_OFFSET(0xC74BFE0)
-#define CCMJADNHDAG_MCGOFFADONA_OFFSET UNITYSDK_OFFSET(0xC74C070)
-#define CCMJADNHDAG_TICK_OFFSET UNITYSDK_OFFSET(0xC74C4D0)
+#define CCMJADNHDAG_CTOR_OFFSET UNITYSDK_OFFSET(0x173967E0)
+#define CCMJADNHDAG_EAKBDBNBBOA_OFFSET UNITYSDK_OFFSET(0x17396B10)
+#define CCMJADNHDAG_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17396F30)
+#define CCMJADNHDAG_KGFJEKJDIGN_OFFSET UNITYSDK_OFFSET(0x173968B0)
+#define CCMJADNHDAG_LIPCPKOHGDJ_OFFSET UNITYSDK_OFFSET(0x17396C10)
+#define CCMJADNHDAG_MCGOFFADONA_OFFSET UNITYSDK_OFFSET(0x17396CA0)
+#define CCMJADNHDAG_TICK_OFFSET UNITYSDK_OFFSET(0x17397100)
 
-inline static constexpr unsigned int CCMJADNHDAG_TypeDefinitionIndex = 77662;
+inline static constexpr unsigned int CCMJADNHDAG_TypeDefinitionIndex = 80397;
 
 	class CCMJADNHDAG : public ::System::Object
 	{
 	public:
-		::AFNDGNFOAKC* HFOFIODMFGB; // 0x10
-		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* CBIDHFIBBGG; // 0x20
-		::NBFCOGKMDGA* KGEIJJIFGOI; // 0x28
-		::System::Collections::Generic::Queue_1<::PEBLIEJAJPK*>* LMKKGJFNMGM; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* ANIMIKECIMK; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* CBIDHFIBBGG; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* ANIMIKECIMK; // 0x18
+		::System::Collections::Generic::Queue_1<::PEBLIEJAJPK*>* LMKKGJFNMGM; // 0x20
+		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x28
+		::NBFCOGKMDGA* KGEIJJIFGOI; // 0x30
+		::AFNDGNFOAKC* HFOFIODMFGB; // 0x38
 		::System::Void _ctor(::NBFCOGKMDGA* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NBFCOGKMDGA*))((::PBYTE)hIl2Cpp + CCMJADNHDAG_CTOR_OFFSET))(this, a1);

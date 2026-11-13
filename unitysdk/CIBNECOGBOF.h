@@ -3,10 +3,10 @@
 class NGAIHLKLKCH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CIBNECOGBOF_CTOR_OFFSET UNITYSDK_OFFSET(0xCF5D870)
-#define CIBNECOGBOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF5D8A0)
+#define CIBNECOGBOF_CTOR_OFFSET UNITYSDK_OFFSET(0x16E33B10)
+#define CIBNECOGBOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E33B40)
 
-inline static constexpr unsigned int CIBNECOGBOF_TypeDefinitionIndex = 58437;
+inline static constexpr unsigned int CIBNECOGBOF_TypeDefinitionIndex = 59693;
 
 	class CIBNECOGBOF
 	{

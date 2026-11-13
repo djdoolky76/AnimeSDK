@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/CallbackEventHandler.h"
 
-#define UNITYENGINE_UIELEMENTS_FOCUSABLE_GET_CANGRABFOCUS_OFFSET UNITYSDK_OFFSET(0x1F487920)
-#define UNITYENGINE_UIELEMENTS_FOCUSABLE_GET_FOCUSABLE_OFFSET UNITYSDK_OFFSET(0x1F487910)
+#define UNITYENGINE_UIELEMENTS_FOCUSABLE_GET_CANGRABFOCUS_OFFSET UNITYSDK_OFFSET(0x1EFCAA90)
+#define UNITYENGINE_UIELEMENTS_FOCUSABLE_GET_FOCUSABLE_OFFSET UNITYSDK_OFFSET(0x1EFCAA80)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int Focusable_TypeDefinitionIndex = 5875;
+	inline static constexpr unsigned int Focusable_TypeDefinitionIndex = 5883;
 
 	class Focusable : public ::UnityEngine::UIElements::CallbackEventHandler
 	{

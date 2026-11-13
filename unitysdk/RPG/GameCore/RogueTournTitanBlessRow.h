@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournTitanBlessRow; }
 
-#define RPG_GAMECORE_ROGUETOURNTITANBLESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA140F0)
-#define RPG_GAMECORE_ROGUETOURNTITANBLESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA13DE0)
+#define RPG_GAMECORE_ROGUETOURNTITANBLESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF34990)
+#define RPG_GAMECORE_ROGUETOURNTITANBLESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF34680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournTitanBlessRow_TypeDefinitionIndex = 15069;
+	inline static constexpr unsigned int RogueTournTitanBlessRow_TypeDefinitionIndex = 15225;
 
 	class RogueTournTitanBlessRow : public ::System::Object
 	{
@@ -19,11 +19,11 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x10
 		::Il2CppArray<::RPG::GameCore::RogueTitanCategory>* BlessBattleDisplayCategoryList; // 0x18
 		::System::UInt32 TitanBlessLevel; // 0x20
-		::System::Int32 BlessRatio; // 0x24
+		::RPG::GameCore::RogueTitanType TitanType; // 0x24
 		::System::UInt32 SpeedUpRatio; // 0x28
-		::System::UInt32 TitanBlessID; // 0x2C
+		::System::Int32 BlessRatio; // 0x2C
 		::System::UInt32 MazeBuffID; // 0x30
-		::RPG::GameCore::RogueTitanType TitanType; // 0x34
+		::System::UInt32 TitanBlessID; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNTITANBLESSROW_CTOR_OFFSET))(this);

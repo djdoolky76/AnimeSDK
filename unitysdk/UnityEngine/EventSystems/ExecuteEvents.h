@@ -30,158 +30,158 @@ namespace UnityEngine::EventSystems { class ISubmitHandler; }
 namespace UnityEngine::EventSystems { class IUpdateSelectedHandler; }
 namespace UnityEngine::UI { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4A6320)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTEEXIT_OFFSET UNITYSDK_OFFSET(0x1F4A62D0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_10_OFFSET UNITYSDK_OFFSET(0x1F4A5380)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_11_OFFSET UNITYSDK_OFFSET(0x1F4A54E0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_12_OFFSET UNITYSDK_OFFSET(0x1F4A5600)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_13_OFFSET UNITYSDK_OFFSET(0x1F4A5700)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_14_OFFSET UNITYSDK_OFFSET(0x1F4A5800)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_15_OFFSET UNITYSDK_OFFSET(0x1F4A5960)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_16_OFFSET UNITYSDK_OFFSET(0x1F4A5A80)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_17_OFFSET UNITYSDK_OFFSET(0x1F4A5ED0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x1F4A47E0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_2_OFFSET UNITYSDK_OFFSET(0x1F4A4900)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_3_OFFSET UNITYSDK_OFFSET(0x1F4A4A20)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_4_OFFSET UNITYSDK_OFFSET(0x1F4A4B40)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_5_OFFSET UNITYSDK_OFFSET(0x1F4A4CA0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_6_OFFSET UNITYSDK_OFFSET(0x1F4A4E00)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_7_OFFSET UNITYSDK_OFFSET(0x1F4A4F60)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_8_OFFSET UNITYSDK_OFFSET(0x1F4A50C0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_9_OFFSET UNITYSDK_OFFSET(0x1F4A5220)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F4A46C0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GETEVENTCHAIN_OFFSET UNITYSDK_OFFSET(0x1F4A6020)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_BEGINDRAGHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5CC0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_CANCELHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5EA0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_DESELECTHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5E10)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_DRAGHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5CF0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_DROPHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5D50)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_ENDDRAGHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5D20)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_IGNOREHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5FF0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_INITIALIZEPOTENTIALDRAG_OFFSET UNITYSDK_OFFSET(0x1F4A5C90)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_MOVEHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5E40)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTERCLICKHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5C60)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTERDOWNHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5C00)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTERENTERHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5BA0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTEREXITHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5BD0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTERUPHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5C30)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_SCROLLHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5D80)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_SELECTHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5DE0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_SUBMITHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5E70)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_UPDATESELECTEDHANDLER_OFFSET UNITYSDK_OFFSET(0x1F4A5DB0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_ISEVENTBLOCK_OFFSET UNITYSDK_OFFSET(0x1F4A4550)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_SETEXECUTEEVENTBLOCKER_OFFSET UNITYSDK_OFFSET(0x1F4A4510)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD127A0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTEEXIT_OFFSET UNITYSDK_OFFSET(0x1CD12750)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_10_OFFSET UNITYSDK_OFFSET(0x1CD11840)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_11_OFFSET UNITYSDK_OFFSET(0x1CD119A0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_12_OFFSET UNITYSDK_OFFSET(0x1CD11AA0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_13_OFFSET UNITYSDK_OFFSET(0x1CD11BA0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_14_OFFSET UNITYSDK_OFFSET(0x1CD11CA0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_15_OFFSET UNITYSDK_OFFSET(0x1CD11E00)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_16_OFFSET UNITYSDK_OFFSET(0x1CD11F20)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_17_OFFSET UNITYSDK_OFFSET(0x1CD12370)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x1CD10CA0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_2_OFFSET UNITYSDK_OFFSET(0x1CD10DC0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_3_OFFSET UNITYSDK_OFFSET(0x1CD10EE0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_4_OFFSET UNITYSDK_OFFSET(0x1CD11000)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_5_OFFSET UNITYSDK_OFFSET(0x1CD11160)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_6_OFFSET UNITYSDK_OFFSET(0x1CD112C0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_7_OFFSET UNITYSDK_OFFSET(0x1CD11420)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_8_OFFSET UNITYSDK_OFFSET(0x1CD11580)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_9_OFFSET UNITYSDK_OFFSET(0x1CD116E0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CD10B80)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GETEVENTCHAIN_OFFSET UNITYSDK_OFFSET(0x1CD124C0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_BEGINDRAGHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12160)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_CANCELHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12340)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_DESELECTHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD122B0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_DRAGHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12190)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_DROPHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD121F0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_ENDDRAGHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD121C0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_IGNOREHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12490)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_INITIALIZEPOTENTIALDRAG_OFFSET UNITYSDK_OFFSET(0x1CD12130)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_MOVEHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD122E0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTERCLICKHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12100)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTERDOWNHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD120A0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTERENTERHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12040)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTEREXITHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12070)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_POINTERUPHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD120D0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_SCROLLHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12220)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_SELECTHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12280)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_SUBMITHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12310)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_GET_UPDATESELECTEDHANDLER_OFFSET UNITYSDK_OFFSET(0x1CD12250)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_ISEVENTBLOCK_OFFSET UNITYSDK_OFFSET(0x1CD10A10)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS_SETEXECUTEEVENTBLOCKER_OFFSET UNITYSDK_OFFSET(0x1CD109D0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int ExecuteEvents_TypeDefinitionIndex = 6935;
+	inline static constexpr unsigned int ExecuteEvents_TypeDefinitionIndex = 6946;
 
 	class ExecuteEvents : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_s_CancelHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12680);
-		}
-
-		static ::System::Object** StaticGet_s_SelectHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12688);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>** StaticGet_s_InternalTransformList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12690);
-		}
-
-		static ::System::Object** StaticGet_s_PointerUpHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12698);
-		}
-
-		static ::UnityEngine::UI::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::IEventSystemHandler*>*>** StaticGet_s_HandlerListPool()
-		{
-			return (::UnityEngine::UI::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::IEventSystemHandler*>*>**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126A0);
-		}
-
-		static ::System::Object** StaticGet_s_DeselectHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126A8);
-		}
-
-		static ::System::Object** StaticGet_s_DragHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126B0);
-		}
-
-		static ::System::Object** StaticGet_s_EndDragHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126B8);
-		}
-
 		static ::UnityEngine::EventSystems::IExecuteEventBlocker** StaticGet__ExecuteEventBlocker()
 		{
-			return (::UnityEngine::EventSystems::IExecuteEventBlocker**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126C0);
-		}
-
-		static ::System::Object** StaticGet_s_PointerDownHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126C8);
-		}
-
-		static ::System::Object** StaticGet_s_ScrollHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126D0);
-		}
-
-		static ::System::Object** StaticGet_s_DropHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126D8);
-		}
-
-		static ::System::Object** StaticGet_s_PointerExitHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126E0);
-		}
-
-		static ::System::Object** StaticGet_s_BeginDragHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126E8);
-		}
-
-		static ::System::Object** StaticGet_s_PointerEnterHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126F0);
-		}
-
-		static ::System::Object** StaticGet_s_UpdateSelectedHandler()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x126F8);
+			return (::UnityEngine::EventSystems::IExecuteEventBlocker**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AB80);
 		}
 
 		static ::System::Object** StaticGet_s_InitializePotentialDragHandler()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12700);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AB88);
 		}
 
-		static ::System::Object** StaticGet_s_SubmitHandler()
+		static ::System::Object** StaticGet_s_PointerExitHandler()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12708);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AB90);
 		}
 
-		static ::System::Object** StaticGet_s_MoveHandler()
+		static ::System::Object** StaticGet_s_PointerEnterHandler()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12710);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AB98);
 		}
 
-		static ::System::Object** StaticGet_s_PointerClickHandler()
+		static ::System::Object** StaticGet_s_DeselectHandler()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12718);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABA0);
 		}
 
 		static ::System::Object** StaticGet_s_IgnoreHandler()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x12720);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABA8);
+		}
+
+		static ::System::Object** StaticGet_s_DropHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABB0);
+		}
+
+		static ::System::Object** StaticGet_s_DragHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABB8);
+		}
+
+		static ::System::Object** StaticGet_s_ScrollHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABC0);
+		}
+
+		static ::System::Object** StaticGet_s_PointerDownHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABC8);
+		}
+
+		static ::System::Object** StaticGet_s_MoveHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABD0);
+		}
+
+		static ::System::Object** StaticGet_s_EndDragHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABD8);
+		}
+
+		static ::System::Object** StaticGet_s_CancelHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABE0);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>** StaticGet_s_InternalTransformList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABE8);
+		}
+
+		static ::System::Object** StaticGet_s_BeginDragHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABF0);
+		}
+
+		static ::System::Object** StaticGet_s_SubmitHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1ABF8);
+		}
+
+		static ::System::Object** StaticGet_s_UpdateSelectedHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AC00);
+		}
+
+		static ::System::Object** StaticGet_s_SelectHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AC08);
+		}
+
+		static ::System::Object** StaticGet_s_PointerClickHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AC10);
+		}
+
+		static ::System::Object** StaticGet_s_PointerUpHandler()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AC18);
+		}
+
+		static ::UnityEngine::UI::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::IEventSystemHandler*>*>** StaticGet_s_HandlerListPool()
+		{
+			return (::UnityEngine::UI::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::IEventSystemHandler*>*>**)UnitySDK::FromName("UnityEngine.EventSystems", "ExecuteEvents")->GetStaticField(0x1AC20);
 		}
 
 		static ::System::Void _cctor()

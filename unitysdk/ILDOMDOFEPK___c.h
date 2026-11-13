@@ -4,18 +4,18 @@
 class ILDOMDOFEPK;
 namespace System { class Object; }
 
-#define ILDOMDOFEPK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E67E2B0)
-#define ILDOMDOFEPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67E2F0)
-#define ILDOMDOFEPK___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E67E300)
+#define ILDOMDOFEPK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206B1700)
+#define ILDOMDOFEPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206B1740)
+#define ILDOMDOFEPK___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x206B1750)
 
-inline static constexpr unsigned int ILDOMDOFEPK___c_TypeDefinitionIndex = 32505;
+inline static constexpr unsigned int ILDOMDOFEPK___c_TypeDefinitionIndex = 33420;
 
 	class ILDOMDOFEPK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51800);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C2E0);
 		}
 
 		static ::System::Void _cctor()

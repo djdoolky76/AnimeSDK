@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JOGBIBJLPJB.h"
 
-inline static constexpr unsigned int OAIHDMLLLAI_TypeDefinitionIndex = 69303;
+inline static constexpr unsigned int OAIHDMLLLAI_TypeDefinitionIndex = 71257;
 
 	struct alignas(4) OAIHDMLLLAI
 	{

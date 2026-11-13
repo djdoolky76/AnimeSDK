@@ -6,17 +6,17 @@ class DMGLFMNEJGL;
 class OJDIPBBEIOB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HENHCGPJJFI_CTOR_OFFSET UNITYSDK_OFFSET(0x15C500E0)
-#define HENHCGPJJFI_HAALMFIPDCJ_OFFSET UNITYSDK_OFFSET(0x15C503F0)
-#define HENHCGPJJFI_MGNLOHIJACL_OFFSET UNITYSDK_OFFSET(0x15C50120)
+#define HENHCGPJJFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A206F70)
+#define HENHCGPJJFI_HAALMFIPDCJ_OFFSET UNITYSDK_OFFSET(0x1A207280)
+#define HENHCGPJJFI_MGNLOHIJACL_OFFSET UNITYSDK_OFFSET(0x1A206FB0)
 
-inline static constexpr unsigned int HENHCGPJJFI_TypeDefinitionIndex = 67242;
+inline static constexpr unsigned int HENHCGPJJFI_TypeDefinitionIndex = 69186;
 
 	class HENHCGPJJFI : public ::IKLPCALPDAE
 	{
 	public:
-		::DMGLFMNEJGL* NABLOINKCCC; // 0x10
-		::System::Collections::Generic::List_1<::OJDIPBBEIOB*>* JPHNLHGEIFL; // 0x18
+		::System::Collections::Generic::List_1<::OJDIPBBEIOB*>* JPHNLHGEIFL; // 0x10
+		::DMGLFMNEJGL* NABLOINKCCC; // 0x18
 		::System::Void _ctor(::DMGLFMNEJGL* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::DMGLFMNEJGL*))((::PBYTE)hIl2Cpp + HENHCGPJJFI_CTOR_OFFSET))(this, a1);

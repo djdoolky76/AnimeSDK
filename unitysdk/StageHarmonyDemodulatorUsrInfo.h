@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define STAGEHARMONYDEMODULATORUSRINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE9830E0)
+#define STAGEHARMONYDEMODULATORUSRINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4CB80)
 
-inline static constexpr unsigned int StageHarmonyDemodulatorUsrInfo_TypeDefinitionIndex = 47521;
+inline static constexpr unsigned int StageHarmonyDemodulatorUsrInfo_TypeDefinitionIndex = 48550;
 
 	class StageHarmonyDemodulatorUsrInfo : public ::System::Object
 	{

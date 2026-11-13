@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPrayQuest_QuestStatus_TypeDefinitionIndex = 65087;
+	inline static constexpr unsigned int GridFightPrayQuest_QuestStatus_TypeDefinitionIndex = 66756;
 
 	enum class GridFightPrayQuest_QuestStatus : ::System::Int32
 	{

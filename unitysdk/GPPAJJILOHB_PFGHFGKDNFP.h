@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class TimeRewindMaterialOverlayConfig; }
 
-#define GPPAJJILOHB_PFGHFGKDNFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x15B5C080)
-#define GPPAJJILOHB_PFGHFGKDNFP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B5C0D0)
+#define GPPAJJILOHB_PFGHFGKDNFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x17DC8B00)
+#define GPPAJJILOHB_PFGHFGKDNFP_CTOR_OFFSET UNITYSDK_OFFSET(0x17DC8B50)
 
-inline static constexpr unsigned int GPPAJJILOHB_PFGHFGKDNFP_TypeDefinitionIndex = 60840;
+inline static constexpr unsigned int GPPAJJILOHB_PFGHFGKDNFP_TypeDefinitionIndex = 62219;
 
 	class GPPAJJILOHB_PFGHFGKDNFP : public ::System::Object
 	{

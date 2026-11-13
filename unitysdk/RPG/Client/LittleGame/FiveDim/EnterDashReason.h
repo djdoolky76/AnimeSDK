@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int EnterDashReason_TypeDefinitionIndex = 43439;
+	inline static constexpr unsigned int EnterDashReason_TypeDefinitionIndex = 44421;
 
 	enum class EnterDashReason : ::System::Int32
 	{

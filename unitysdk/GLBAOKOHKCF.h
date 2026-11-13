@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GLBAOKOHKCF_TypeDefinitionIndex = 27030;
+inline static constexpr unsigned int GLBAOKOHKCF_TypeDefinitionIndex = 27561;
 
 	enum class GLBAOKOHKCF : ::System::Int32
 	{

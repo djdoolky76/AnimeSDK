@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_SoundRendererType_TypeDefinitionIndex = 39950;
+	inline static constexpr unsigned int CriAtomEx_SoundRendererType_TypeDefinitionIndex = 40925;
 
 	enum class CriAtomEx_SoundRendererType : ::System::Int32
 	{

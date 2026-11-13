@@ -5,10 +5,10 @@ namespace RPG::GameCore { class AddAdventureModifier; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CCBFBFCDKKF_CTOR_OFFSET UNITYSDK_OFFSET(0xC732E60)
-#define CCBFBFCDKKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC732E90)
+#define CCBFBFCDKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x18FF3660)
+#define CCBFBFCDKKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FF3690)
 
-inline static constexpr unsigned int CCBFBFCDKKF_TypeDefinitionIndex = 57858;
+inline static constexpr unsigned int CCBFBFCDKKF_TypeDefinitionIndex = 59095;
 
 	class CCBFBFCDKKF
 	{

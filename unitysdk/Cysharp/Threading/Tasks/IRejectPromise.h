@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IRejectPromise_TypeDefinitionIndex = 38388;
+	inline static constexpr unsigned int IRejectPromise_TypeDefinitionIndex = 39317;
 
 	class IRejectPromise
 	{

@@ -4,18 +4,18 @@
 #include "unitysdk/RPG/GameCore/GameFlowType.h"
 class AJCJGMDLCGK;
 
-#define AJCJGMDLCGK_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CADB50)
-#define AJCJGMDLCGK_CTOR_OFFSET UNITYSDK_OFFSET(0x12CADB40)
-#define AJCJGMDLCGK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x12CADB00)
+#define AJCJGMDLCGK_CCTOR_OFFSET UNITYSDK_OFFSET(0x19D341F0)
+#define AJCJGMDLCGK_CTOR_OFFSET UNITYSDK_OFFSET(0x19D341E0)
+#define AJCJGMDLCGK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19D341A0)
 
-inline static constexpr unsigned int AJCJGMDLCGK_TypeDefinitionIndex = 64350;
+inline static constexpr unsigned int AJCJGMDLCGK_TypeDefinitionIndex = 65797;
 
 	class AJCJGMDLCGK : public ::RPG::Client::BaseGameFlow
 	{
 	public:
 		static ::AJCJGMDLCGK** StaticGet_FMJPMFEDIJL()
 		{
-			return (::AJCJGMDLCGK**)UnitySDK::FromName("", "AJCJGMDLCGK")->GetStaticField(0x56010);
+			return (::AJCJGMDLCGK**)UnitySDK::FromName("", "AJCJGMDLCGK")->GetStaticField(0x59260);
 		}
 
 		::System::Void _ctor()

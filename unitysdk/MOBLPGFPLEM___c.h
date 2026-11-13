@@ -8,41 +8,41 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOBLPGFPLEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA1F480)
-#define MOBLPGFPLEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA1F4B0)
-#define MOBLPGFPLEM___C__GETALLEQUIPPEDNORMALEQUIPSCOPY_B__24_0_OFFSET UNITYSDK_OFFSET(0xBA1F540)
-#define MOBLPGFPLEM___C__GETALLEQUIPPEDNORMALEQUIPSCOPY_B__24_1_OFFSET UNITYSDK_OFFSET(0xBA1F560)
-#define MOBLPGFPLEM___C___INITSLOTS_B__13_0_OFFSET UNITYSDK_OFFSET(0xBA1F4C0)
-#define MOBLPGFPLEM___C___INITSPSLOTS_B__14_0_OFFSET UNITYSDK_OFFSET(0xBA1F500)
+#define MOBLPGFPLEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B20C4D0)
+#define MOBLPGFPLEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B20C500)
+#define MOBLPGFPLEM___C__GETALLEQUIPPEDNORMALEQUIPSCOPY_B__24_0_OFFSET UNITYSDK_OFFSET(0x1B20C590)
+#define MOBLPGFPLEM___C__GETALLEQUIPPEDNORMALEQUIPSCOPY_B__24_1_OFFSET UNITYSDK_OFFSET(0x1B20C5B0)
+#define MOBLPGFPLEM___C___INITSLOTS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1B20C510)
+#define MOBLPGFPLEM___C___INITSPSLOTS_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B20C550)
 
-inline static constexpr unsigned int MOBLPGFPLEM___c_TypeDefinitionIndex = 75246;
+inline static constexpr unsigned int MOBLPGFPLEM___c_TypeDefinitionIndex = 77573;
 
 	class MOBLPGFPLEM___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::INPDCDFPKON*>** StaticGet___9__13_0()
-		{
-			return (::System::Comparison_1<::INPDCDFPKON*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16000);
-		}
-
 		static ::System::Func_2<::INPDCDFPKON*, ::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::INPDCDFPKON*, ::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16008);
+			return (::System::Func_2<::INPDCDFPKON*, ::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFFD0);
 		}
 
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*, ::System::Boolean>** StaticGet___9__24_1()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16010);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFFD8);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Comparison_1<::INPDCDFPKON*>** StaticGet___9__13_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16018);
+			return (::System::Comparison_1<::INPDCDFPKON*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFFE0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16020);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFFE8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFFF0);
 		}
 
 		static ::System::Void _cctor()

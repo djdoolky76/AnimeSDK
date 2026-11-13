@@ -3,10 +3,10 @@
 class BDLHKCMCMGJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBJBCOIFFNN_CTOR_OFFSET UNITYSDK_OFFSET(0x16562FE0)
-#define JBJBCOIFFNN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16563010)
+#define JBJBCOIFFNN_CTOR_OFFSET UNITYSDK_OFFSET(0x19A735C0)
+#define JBJBCOIFFNN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19A735F0)
 
-inline static constexpr unsigned int JBJBCOIFFNN_TypeDefinitionIndex = 57975;
+inline static constexpr unsigned int JBJBCOIFFNN_TypeDefinitionIndex = 59213;
 
 	class JBJBCOIFFNN
 	{

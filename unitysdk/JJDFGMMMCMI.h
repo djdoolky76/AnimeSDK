@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JJDFGMMMCMI_TypeDefinitionIndex = 29113;
+inline static constexpr unsigned int JJDFGMMMCMI_TypeDefinitionIndex = 29706;
 
 	enum class JJDFGMMMCMI : ::System::Int32
 	{
@@ -42,4 +42,18 @@ inline static constexpr unsigned int JJDFGMMMCMI_TypeDefinitionIndex = 29113;
 		JNGKOHJPIHK = 34,
 		DMJNOEIGDPA = 35,
 		IOCFCLMNGDA = 36,
+		BIMBMLIAHAM = 37,
+		LIHFMJOAMNJ = 38,
+		DEMBMCAMMPF = 39,
+		MHHHNGCJOEO = 40,
+		CDFDEMOKKIH = 41,
+		HLHFIMGHHNO = 42,
+		HGOOJJCEPID = 43,
+		HHOEEBFGJDN = 44,
+		OGGDFDIGDOI = 45,
+		KMIAFDJNAPN = 46,
+		LGDFFIOMNJO = 47,
+		LDOBCCJEGNF = 48,
+		FNMIGJOABNB = 49,
+		GNEDIKBELIJ = 50,
 	};

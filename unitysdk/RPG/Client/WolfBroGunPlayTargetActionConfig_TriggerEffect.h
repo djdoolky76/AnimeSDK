@@ -5,12 +5,12 @@
 class JNKPPLPLFOM;
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xE46B5A0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE46B520)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9BD90)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0x1BC9BD10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_TriggerEffect_TypeDefinitionIndex = 68712;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_TriggerEffect_TypeDefinitionIndex = 70664;
 
 	class WolfBroGunPlayTargetActionConfig_TriggerEffect : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

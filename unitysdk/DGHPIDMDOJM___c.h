@@ -4,18 +4,18 @@
 class DGHPIDMDOJM;
 namespace System { class Object; }
 
-#define DGHPIDMDOJM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E180B40)
-#define DGHPIDMDOJM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E180B70)
-#define DGHPIDMDOJM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E180B80)
+#define DGHPIDMDOJM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2064D680)
+#define DGHPIDMDOJM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2064D6B0)
+#define DGHPIDMDOJM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2064D6C0)
 
-inline static constexpr unsigned int DGHPIDMDOJM___c_TypeDefinitionIndex = 32321;
+inline static constexpr unsigned int DGHPIDMDOJM___c_TypeDefinitionIndex = 33234;
 
 	class DGHPIDMDOJM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FD00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29D90);
 		}
 
 		static ::System::Void _cctor()

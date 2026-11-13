@@ -12,45 +12,46 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_ADDOBJECT_OFFSET UNITYSDK_OFFSET(0x1CC4EDC0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_BEGINADDDATA_OFFSET UNITYSDK_OFFSET(0x1CC4ED80)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC4FA90)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4F9C0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_DRAW_OFFSET UNITYSDK_OFFSET(0x1CC4F2D0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_ENDADDDATA_OFFSET UNITYSDK_OFFSET(0x1CC4F0F0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1CC4F7F0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_INIT_OFFSET UNITYSDK_OFFSET(0x1CC4E960)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1CC4F800)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_UNINIT_OFFSET UNITYSDK_OFFSET(0x1CC4EBD0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW__CACHEINDEX_OFFSET UNITYSDK_OFFSET(0x1CC4F810)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW__CLEARCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x1CC4ECB0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW__CONVERTMESH2LINE_OFFSET UNITYSDK_OFFSET(0x1CC4E9F0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_ADDOBJECT_OFFSET UNITYSDK_OFFSET(0x20752C30)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_BEGINADDDATA_OFFSET UNITYSDK_OFFSET(0x20752BF0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_CCTOR_OFFSET UNITYSDK_OFFSET(0x207538E0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_CTOR_OFFSET UNITYSDK_OFFSET(0x20753810)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_DRAW_OFFSET UNITYSDK_OFFSET(0x20753120)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_ENDADDDATA_OFFSET UNITYSDK_OFFSET(0x20752F60)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x20753640)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_INIT_OFFSET UNITYSDK_OFFSET(0x207527F0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x20753650)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_UNINIT_OFFSET UNITYSDK_OFFSET(0x20752A60)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW__CACHEINDEX_OFFSET UNITYSDK_OFFSET(0x20753660)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW__CLEARCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x20752B20)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW__CONVERTMESH2LINE_OFFSET UNITYSDK_OFFSET(0x20752880)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int WireframeDraw_TypeDefinitionIndex = 37936;
+	inline static constexpr unsigned int WireframeDraw_TypeDefinitionIndex = 38865;
 
 	class WireframeDraw : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _DynamicData; // 0x10
 		::UnityEngine::ComputeBuffer* _ColliderDataBuffer; // 0x18
-		::System::Collections::Generic::List_1<::RPG::CustomRP::MeshLineData*>* _ColliderData; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _DefaultData; // 0x20
 		::UnityEngine::Material* _ColliderDebugMat; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _DefaultData; // 0x30
-		::RPG::CustomRP::WireframeDraw_ShapeIndex _Sphere; // 0x38
-		::RPG::CustomRP::WireframeDraw_ShapeIndex _Box; // 0x40
-		::RPG::CustomRP::WireframeDraw_ShapeIndex _Capsule; // 0x48
-		::System::Boolean _IsDirty; // 0x50
-		::System::Boolean _IsInit; // 0x51
-		static ::System::Int32* StaticGet__Local2World()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "WireframeDraw")->GetStaticField(0xA400);
-		}
-
+		::System::Collections::Generic::List_1<::RPG::CustomRP::MeshLineData*>* _ColliderData; // 0x30
+		::RPG::CustomRP::WireframeDraw_ShapeIndex _Capsule; // 0x38
+		::System::Boolean _IsDirty; // 0x40
+		::System::Boolean _IsInit; // 0x41
+		::System::Byte _padding0[0x2];
+		::RPG::CustomRP::WireframeDraw_ShapeIndex _Box; // 0x44
+		::RPG::CustomRP::WireframeDraw_ShapeIndex _Sphere; // 0x4C
 		static ::System::Int32* StaticGet__MeshOffset()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "WireframeDraw")->GetStaticField(0xA404);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "WireframeDraw")->GetStaticField(0x8EA0);
+		}
+
+		static ::System::Int32* StaticGet__Local2World()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "WireframeDraw")->GetStaticField(0x8EA4);
 		}
 
 		::System::Void _ctor()

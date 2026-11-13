@@ -4,21 +4,21 @@
 namespace System { class Exception; }
 namespace System { class Object; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD710)
-#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD750)
-#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1F0DD760)
-#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_1_OFFSET UNITYSDK_OFFSET(0x1F0DD770)
+#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5E4030)
+#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E4070)
+#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E5E4080)
+#define CYSHARP_THREADING_TASKS_LINQ_SUBSCRIBE___C___CCTOR_B__8_1_OFFSET UNITYSDK_OFFSET(0x1E5E4090)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Subscribe___c_TypeDefinitionIndex = 45602;
+	inline static constexpr unsigned int Subscribe___c_TypeDefinitionIndex = 46631;
 
 	class Subscribe___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "<>c")->GetStaticField(0x1190);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "<>c")->GetStaticField(0x1130);
 		}
 
 		static ::System::Void _cctor()

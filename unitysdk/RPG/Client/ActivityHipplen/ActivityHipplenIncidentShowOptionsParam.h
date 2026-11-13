@@ -6,26 +6,26 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenIncidentOption; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC40EEC0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GETOPTION_OFFSET UNITYSDK_OFFSET(0xC40EEE0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_DIALOGID_OFFSET UNITYSDK_OFFSET(0xC40EE80)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_FIRSTOPTION_OFFSET UNITYSDK_OFFSET(0xC40EE90)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC40EE70)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_SECONDOPTION_OFFSET UNITYSDK_OFFSET(0xC40EEA0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_STATUSLIST_OFFSET UNITYSDK_OFFSET(0xC40EEB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA9710)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GETOPTION_OFFSET UNITYSDK_OFFSET(0x1CCA9730)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_DIALOGID_OFFSET UNITYSDK_OFFSET(0x1CCA96D0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_FIRSTOPTION_OFFSET UNITYSDK_OFFSET(0x1CCA96E0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1CCA96C0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_SECONDOPTION_OFFSET UNITYSDK_OFFSET(0x1CCA96F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWOPTIONSPARAM_GET_STATUSLIST_OFFSET UNITYSDK_OFFSET(0x1CCA9700)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenIncidentShowOptionsParam_TypeDefinitionIndex = 75549;
+	inline static constexpr unsigned int ActivityHipplenIncidentShowOptionsParam_TypeDefinitionIndex = 77876;
 
 	class ActivityHipplenIncidentShowOptionsParam : public ::System::Object
 	{
 	public:
-		::System::String* _ImagePath_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption*>* _Options; // 0x10
 		::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption* _FirstOption_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption*>* _Options; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* _StatusList_k__BackingField; // 0x20
 		::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption* _SecondOption_k__BackingField; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* _StatusList_k__BackingField; // 0x30
+		::System::String* _ImagePath_k__BackingField; // 0x30
 		::System::UInt32 _DialogID_k__BackingField; // 0x38
 		::System::Void _ctor(::System::String* a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* a3, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption*>* a4)
 		{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int KHNIAFDBHCD_ADMOBHNILLA_TypeDefinitionIndex = 77837;
+inline static constexpr unsigned int KHNIAFDBHCD_ADMOBHNILLA_TypeDefinitionIndex = 80572;
 
 	struct alignas(8) KHNIAFDBHCD_ADMOBHNILLA
 	{

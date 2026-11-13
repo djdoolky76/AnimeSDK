@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AddReShaEasterEggProp; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDRESHAEASTEREGGPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35D4E0)
-#define RPG_GAMECORE_ADDRESHAEASTEREGGPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35D510)
-#define RPG_GAMECORE_ADDRESHAEASTEREGGPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35D490)
+#define RPG_GAMECORE_ADDRESHAEASTEREGGPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA5290)
+#define RPG_GAMECORE_ADDRESHAEASTEREGGPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAA52C0)
+#define RPG_GAMECORE_ADDRESHAEASTEREGGPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA5240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddReShaEasterEggProp_TypeDefinitionIndex = 22031;
+	inline static constexpr unsigned int AddReShaEasterEggProp_TypeDefinitionIndex = 22436;
 
 	class AddReShaEasterEggProp : public ::RPG::GameCore::TaskConfig
 	{

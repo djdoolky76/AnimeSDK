@@ -8,26 +8,26 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLGMBADPMOO_CCPAAJGNLLP_OFFSET UNITYSDK_OFFSET(0xD779370)
-#define CLGMBADPMOO_CTOR_OFFSET UNITYSDK_OFFSET(0xD778E40)
-#define CLGMBADPMOO_DCHJNJHFDAC_OFFSET UNITYSDK_OFFSET(0xD779F90)
-#define CLGMBADPMOO_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0xD779070)
-#define CLGMBADPMOO_FEMADDHIGLF_OFFSET UNITYSDK_OFFSET(0xD779810)
-#define CLGMBADPMOO_MBCCFNFNMHI_OFFSET UNITYSDK_OFFSET(0xD779DF0)
-#define CLGMBADPMOO_MNPFBBGLIDN_OFFSET UNITYSDK_OFFSET(0xD779990)
-#define CLGMBADPMOO_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0xD779CA0)
-#define CLGMBADPMOO_PKDCCLKHNOO_OFFSET UNITYSDK_OFFSET(0xD7795C0)
+#define CLGMBADPMOO_CCPAAJGNLLP_OFFSET UNITYSDK_OFFSET(0x1AD62B90)
+#define CLGMBADPMOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD62660)
+#define CLGMBADPMOO_DCHJNJHFDAC_OFFSET UNITYSDK_OFFSET(0x1AD637B0)
+#define CLGMBADPMOO_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x1AD62890)
+#define CLGMBADPMOO_FEMADDHIGLF_OFFSET UNITYSDK_OFFSET(0x1AD63030)
+#define CLGMBADPMOO_MBCCFNFNMHI_OFFSET UNITYSDK_OFFSET(0x1AD63610)
+#define CLGMBADPMOO_MNPFBBGLIDN_OFFSET UNITYSDK_OFFSET(0x1AD631B0)
+#define CLGMBADPMOO_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1AD634C0)
+#define CLGMBADPMOO_PKDCCLKHNOO_OFFSET UNITYSDK_OFFSET(0x1AD62DE0)
 
-inline static constexpr unsigned int CLGMBADPMOO_TypeDefinitionIndex = 80508;
+inline static constexpr unsigned int CLGMBADPMOO_TypeDefinitionIndex = 83288;
 
 	class CLGMBADPMOO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::Sofa::BaseSofaWindow*>* MLHKFHBHDKJ; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::Sofa::BaseSofaUI3DWindow*>* MIAJGJLGPOJ; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* FKOEKIGAGAJ; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* PCAHNFJEMML; // 0x28
-		::KJGOCMDNOLJ* NIBNJBOGMID; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* PCAHNFJEMML; // 0x10
+		::KJGOCMDNOLJ* NIBNJBOGMID; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::Sofa::BaseSofaWindow*>* MLHKFHBHDKJ; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::Sofa::BaseSofaUI3DWindow*>* MIAJGJLGPOJ; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* FKOEKIGAGAJ; // 0x30
 		::System::Void _ctor(::KJGOCMDNOLJ* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::KJGOCMDNOLJ*))((::PBYTE)hIl2Cpp + CLGMBADPMOO_CTOR_OFFSET))(this, a1);

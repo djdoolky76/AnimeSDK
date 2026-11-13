@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AddReShaSwitchProp; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDRESHASWITCHPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35D850)
-#define RPG_GAMECORE_ADDRESHASWITCHPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D35D880)
-#define RPG_GAMECORE_ADDRESHASWITCHPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D35D800)
+#define RPG_GAMECORE_ADDRESHASWITCHPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA5600)
+#define RPG_GAMECORE_ADDRESHASWITCHPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAA5630)
+#define RPG_GAMECORE_ADDRESHASWITCHPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA55B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddReShaSwitchProp_TypeDefinitionIndex = 22030;
+	inline static constexpr unsigned int AddReShaSwitchProp_TypeDefinitionIndex = 22435;
 
 	class AddReShaSwitchProp : public ::RPG::GameCore::TaskConfig
 	{

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define GBCLFIPFEAP_CTOR_OFFSET UNITYSDK_OFFSET(0x159402C0)
+#define GBCLFIPFEAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B87C130)
 
-inline static constexpr unsigned int GBCLFIPFEAP_TypeDefinitionIndex = 57008;
+inline static constexpr unsigned int GBCLFIPFEAP_TypeDefinitionIndex = 58234;
 
 	class GBCLFIPFEAP
 	{

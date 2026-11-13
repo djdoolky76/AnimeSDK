@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDLEVELDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC52D4F0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDLEVELDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC52D530)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDLEVELDATA___C__GETMONSTERDATA_B__1_0_OFFSET UNITYSDK_OFFSET(0xC52D540)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDLEVELDATA___C__GETPINNEDAVATARS_B__5_0_OFFSET UNITYSDK_OFFSET(0xC52D590)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDLEVELDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7DE5E0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDLEVELDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7DE620)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDLEVELDATA___C__GETMONSTERDATA_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C7DE630)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDLEVELDATA___C__GETPINNEDAVATARS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C7DE680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendLevelData___c_TypeDefinitionIndex = 61558;
+	inline static constexpr unsigned int ActivityLocalLegendLevelData___c_TypeDefinitionIndex = 62955;
 
 	class ActivityLocalLegendLevelData___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C140);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C148);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2CF70);
 		}
 
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C150);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2CF78);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2CF80);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class DAKIMICINOH;
 namespace System { class Object; }
 
-#define DAKIMICINOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E125870)
-#define DAKIMICINOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1258B0)
-#define DAKIMICINOH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1258C0)
+#define DAKIMICINOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202A8730)
+#define DAKIMICINOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202A8770)
+#define DAKIMICINOH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x202A8780)
 
-inline static constexpr unsigned int DAKIMICINOH___c_TypeDefinitionIndex = 26108;
+inline static constexpr unsigned int DAKIMICINOH___c_TypeDefinitionIndex = 26635;
 
 	class DAKIMICINOH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21B30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BBC0);
 		}
 
 		static ::System::Void _cctor()

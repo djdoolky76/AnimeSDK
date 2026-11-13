@@ -3,12 +3,12 @@
 namespace RPG::Client { class ElectricChain; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECT_ELECTRICCHAIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD1EB10)
-#define RPG_CLIENT_EFFECT_ELECTRICCHAIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD1EAC0)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x17BDC000)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17BDBFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ElectricChain_TypeDefinitionIndex = 70453;
+	inline static constexpr unsigned int Effect_ElectricChain_TypeDefinitionIndex = 72424;
 
 	class Effect_ElectricChain
 	{

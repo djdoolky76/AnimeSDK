@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AJKDPMLNAPL_BKOGFMNILFG_OFFSET UNITYSDK_OFFSET(0x12CBD0E0)
-#define AJKDPMLNAPL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBD2E0)
+#define AJKDPMLNAPL_BKOGFMNILFG_OFFSET UNITYSDK_OFFSET(0x19D439C0)
+#define AJKDPMLNAPL_CTOR_OFFSET UNITYSDK_OFFSET(0x19D43BC0)
 
-inline static constexpr unsigned int AJKDPMLNAPL_TypeDefinitionIndex = 56320;
+inline static constexpr unsigned int AJKDPMLNAPL_TypeDefinitionIndex = 57534;
 
 	class AJKDPMLNAPL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* EJHODPJIFIN; // 0x10
-		::System::String* OENAMINOLLF; // 0x18
+		::System::String* OENAMINOLLF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* EJHODPJIFIN; // 0x18
 		::System::Int32 IKNFGMJEDOC; // 0x20
 		::System::Void _ctor()
 		{

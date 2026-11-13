@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapConnectivityEdgeWeightConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAPCONNECTIVITYEDGEWEIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FBF70)
-#define RPG_GAMECORE_MAPCONNECTIVITYEDGEWEIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7FBE90)
+#define RPG_GAMECORE_MAPCONNECTIVITYEDGEWEIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F086050)
+#define RPG_GAMECORE_MAPCONNECTIVITYEDGEWEIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F085F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapConnectivityEdgeWeightConfig_TypeDefinitionIndex = 17380;
+	inline static constexpr unsigned int MapConnectivityEdgeWeightConfig_TypeDefinitionIndex = 17548;
 
 	class MapConnectivityEdgeWeightConfig : public ::RPG::GameCore::JsonConfig
 	{

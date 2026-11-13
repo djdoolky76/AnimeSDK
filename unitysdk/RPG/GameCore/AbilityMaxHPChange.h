@@ -5,22 +5,22 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_ABILITYMAXHPCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE4AFE40)
-#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xE4AFF00)
-#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4AFEB0)
-#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4AFE60)
+#define RPG_GAMECORE_ABILITYMAXHPCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x18275100)
+#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x182751C0)
+#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18275170)
+#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18275120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityMaxHPChange_TypeDefinitionIndex = 56568;
+	inline static constexpr unsigned int AbilityMaxHPChange_TypeDefinitionIndex = 57788;
 
 	class AbilityMaxHPChange : public ::System::Object
 	{
 	public:
 		::CHMCAGBDPJH ChangeParams; // 0x10
-		::System::UInt32 _EntityRuntimeID; // 0x120
+		::System::UInt32 _EntityRuntimeID; // 0x128
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint _ChangeValue; // 0x128
+		::RPG::GameCore::FixPoint _ChangeValue; // 0x130
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::FixPoint a2, ::CHMCAGBDPJH a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYMAXHPCHANGE_CTOR_OFFSET))(this, a1, a2, a3);

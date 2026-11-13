@@ -5,10 +5,10 @@ class KLGICPNPKIC;
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define LABDKICOOHL_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB5CEB50)
-#define LABDKICOOHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CEB40)
+#define LABDKICOOHL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B272190)
+#define LABDKICOOHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B272180)
 
-inline static constexpr unsigned int LABDKICOOHL_TypeDefinitionIndex = 73421;
+inline static constexpr unsigned int LABDKICOOHL_TypeDefinitionIndex = 75544;
 
 	class LABDKICOOHL : public ::System::Exception
 	{

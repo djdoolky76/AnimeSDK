@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace HoudiniEngineUnity { class Test_HAPI_Transform; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B991EE0)
-#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORM_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B991F00)
+#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x2087C110)
+#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORM_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x2087C130)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_Transform_TypeDefinitionIndex = 40700;
+	inline static constexpr unsigned int Test_HAPI_Transform_TypeDefinitionIndex = 41675;
 
 	class Test_HAPI_Transform : public ::System::Object
 	{

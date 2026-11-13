@@ -3,7 +3,7 @@
 #include "unitysdk/System/Linq/Expressions/MemberBinding.h"
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERASSIGNMENT_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1EDFFF10)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERASSIGNMENT_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1F78F060)
 
 namespace System::Linq::Expressions
 {

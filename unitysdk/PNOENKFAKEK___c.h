@@ -4,18 +4,18 @@
 class PNOENKFAKEK;
 namespace System { class Object; }
 
-#define PNOENKFAKEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF93180)
-#define PNOENKFAKEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF931C0)
-#define PNOENKFAKEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF931D0)
+#define PNOENKFAKEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCB6DF0)
+#define PNOENKFAKEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCB6E30)
+#define PNOENKFAKEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FCB6E40)
 
-inline static constexpr unsigned int PNOENKFAKEK___c_TypeDefinitionIndex = 28033;
+inline static constexpr unsigned int PNOENKFAKEK___c_TypeDefinitionIndex = 28623;
 
 	class PNOENKFAKEK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43160);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E640);
 		}
 
 		static ::System::Void _cctor()

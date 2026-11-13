@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/TextCore/LowLevel/FontFeatureLookupFlags.h"
 #include "unitysdk/UnityEngine/TextCore/LowLevel/GlyphAdjustmentRecord.h"
 
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHPAIRADJUSTMENTRECORD_GET_FIRSTADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x2E7AE30)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHPAIRADJUSTMENTRECORD_GET_SECONDADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x3C881A0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHPAIRADJUSTMENTRECORD_GET_FIRSTADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0xADA190)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHPAIRADJUSTMENTRECORD_GET_SECONDADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x3FA4A70)
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int GlyphPairAdjustmentRecord_TypeDefinitionIndex = 5845;
+	inline static constexpr unsigned int GlyphPairAdjustmentRecord_TypeDefinitionIndex = 5853;
 
 	struct alignas(4) GlyphPairAdjustmentRecord
 	{

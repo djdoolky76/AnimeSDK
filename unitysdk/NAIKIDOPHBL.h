@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByTournFloorType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NAIKIDOPHBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA97790)
-#define NAIKIDOPHBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA97870)
+#define NAIKIDOPHBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF0B90)
+#define NAIKIDOPHBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BAF0C70)
 
-inline static constexpr unsigned int NAIKIDOPHBL_TypeDefinitionIndex = 55476;
+inline static constexpr unsigned int NAIKIDOPHBL_TypeDefinitionIndex = 56664;
 
 	class NAIKIDOPHBL
 	{

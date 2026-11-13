@@ -3,10 +3,10 @@
 class MPIPCMOAOGM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GGNEECAMFNG_CTOR_OFFSET UNITYSDK_OFFSET(0x15A05590)
-#define GGNEECAMFNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A055C0)
+#define GGNEECAMFNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AEAB0)
+#define GGNEECAMFNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4AEAE0)
 
-inline static constexpr unsigned int GGNEECAMFNG_TypeDefinitionIndex = 53300;
+inline static constexpr unsigned int GGNEECAMFNG_TypeDefinitionIndex = 54462;
 
 	class GGNEECAMFNG
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Material; }
 
-#define TMPRO_TMP_MATERIALMANAGER_MASKINGMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2E8ED0)
+#define TMPRO_TMP_MATERIALMANAGER_MASKINGMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x19BBC100)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_MaterialManager_MaskingMaterial_TypeDefinitionIndex = 44614;
+	inline static constexpr unsigned int TMP_MaterialManager_MaskingMaterial_TypeDefinitionIndex = 45689;
 
 	class TMP_MaterialManager_MaskingMaterial : public ::System::Object
 	{

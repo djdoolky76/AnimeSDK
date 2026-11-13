@@ -11,22 +11,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ALAIBAJCPOO_BKCPMPMKLFI_OFFSET UNITYSDK_OFFSET(0x12CDBA00)
-#define ALAIBAJCPOO_CTOR_OFFSET UNITYSDK_OFFSET(0x12CDB350)
-#define ALAIBAJCPOO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CDB680)
-#define ALAIBAJCPOO_DOONENTER_OFFSET UNITYSDK_OFFSET(0x12CDB570)
-#define ALAIBAJCPOO_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x12CDB5F0)
-#define ALAIBAJCPOO_JPLENOOFHJN_OFFSET UNITYSDK_OFFSET(0x12CDB9A0)
-#define ALAIBAJCPOO_LEGCGKADCBO_OFFSET UNITYSDK_OFFSET(0x12CDB750)
+#define ALAIBAJCPOO_BKCPMPMKLFI_OFFSET UNITYSDK_OFFSET(0x197B1E10)
+#define ALAIBAJCPOO_CTOR_OFFSET UNITYSDK_OFFSET(0x197B1740)
+#define ALAIBAJCPOO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x197B1A70)
+#define ALAIBAJCPOO_DOONENTER_OFFSET UNITYSDK_OFFSET(0x197B1960)
+#define ALAIBAJCPOO_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x197B19E0)
+#define ALAIBAJCPOO_JPLENOOFHJN_OFFSET UNITYSDK_OFFSET(0x197B1DB0)
+#define ALAIBAJCPOO_LEGCGKADCBO_OFFSET UNITYSDK_OFFSET(0x197B1B40)
 
-inline static constexpr unsigned int ALAIBAJCPOO_TypeDefinitionIndex = 78879;
+inline static constexpr unsigned int ALAIBAJCPOO_TypeDefinitionIndex = 81650;
 
 	class ALAIBAJCPOO : public ::FKHGEDHCPHJ
 	{
 	public:
-		::System::Action* NMPLHCJKEOI; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* DANLMFFLFLH; // 0xD0
-		::Il2CppArray<::RPG::GameCore::EntityType>* CCILDEPLEFF; // 0xD8
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* DANLMFFLFLH; // 0xC8
+		::Il2CppArray<::RPG::GameCore::EntityType>* CCILDEPLEFF; // 0xD0
+		::System::Action* NMPLHCJKEOI; // 0xD8
 		::System::Action* FFKBFPKEPEN; // 0xE0
 		::System::Boolean INNLLCMIDFK; // 0xE8
 		::System::Boolean GFAMGLFOMGI; // 0xE9

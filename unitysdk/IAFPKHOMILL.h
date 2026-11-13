@@ -3,10 +3,10 @@
 class IBMOIBOMCGH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IAFPKHOMILL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DFFEF0)
-#define IAFPKHOMILL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DFFF20)
+#define IAFPKHOMILL_CTOR_OFFSET UNITYSDK_OFFSET(0x19420640)
+#define IAFPKHOMILL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19420670)
 
-inline static constexpr unsigned int IAFPKHOMILL_TypeDefinitionIndex = 52959;
+inline static constexpr unsigned int IAFPKHOMILL_TypeDefinitionIndex = 54118;
 
 	class IAFPKHOMILL
 	{

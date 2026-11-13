@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseLeverSwitchSystem_1_LevelVarCallbackCache_TypeDefinitionIndex = 77124;
+	inline static constexpr unsigned int BaseLeverSwitchSystem_1_LevelVarCallbackCache_TypeDefinitionIndex = 79458;
 
 	template <typename T>
 	class BaseLeverSwitchSystem_1_LevelVarCallbackCache

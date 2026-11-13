@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityDiceHintRow; }
 
-#define RPG_GAMECORE_ACTIVITYDICEHINTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3260A0)
-#define RPG_GAMECORE_ACTIVITYDICEHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D325F20)
+#define RPG_GAMECORE_ACTIVITYDICEHINTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E503320)
+#define RPG_GAMECORE_ACTIVITYDICEHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5031A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceHintRow_TypeDefinitionIndex = 11275;
+	inline static constexpr unsigned int ActivityDiceHintRow_TypeDefinitionIndex = 11326;
 
 	class ActivityDiceHintRow : public ::System::Object
 	{

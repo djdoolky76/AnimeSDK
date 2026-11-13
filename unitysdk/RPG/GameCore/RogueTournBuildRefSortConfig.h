@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournBuildRefSortConfig; }
 
-#define RPG_GAMECORE_ROGUETOURNBUILDREFSORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA079F0)
-#define RPG_GAMECORE_ROGUETOURNBUILDREFSORTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA077F0)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFSORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF282D0)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFSORTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF280D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuildRefSortConfig_TypeDefinitionIndex = 17680;
+	inline static constexpr unsigned int RogueTournBuildRefSortConfig_TypeDefinitionIndex = 17849;
 
 	class RogueTournBuildRefSortConfig : public ::RPG::GameCore::JsonConfig
 	{

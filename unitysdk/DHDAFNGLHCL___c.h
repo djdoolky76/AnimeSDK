@@ -7,41 +7,41 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define DHDAFNGLHCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEBC5AB0)
-#define DHDAFNGLHCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC5AE0)
-#define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_0_OFFSET UNITYSDK_OFFSET(0xEBC5AF0)
-#define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_1_OFFSET UNITYSDK_OFFSET(0xEBC5CF0)
-#define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_2_OFFSET UNITYSDK_OFFSET(0xEBC5CD0)
-#define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_3_OFFSET UNITYSDK_OFFSET(0xEBC5F00)
+#define DHDAFNGLHCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADE1FF0)
+#define DHDAFNGLHCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADE2020)
+#define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_0_OFFSET UNITYSDK_OFFSET(0x1ADE2030)
+#define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_1_OFFSET UNITYSDK_OFFSET(0x1ADE2230)
+#define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_2_OFFSET UNITYSDK_OFFSET(0x1ADE2210)
+#define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_3_OFFSET UNITYSDK_OFFSET(0x1ADE2440)
 
-inline static constexpr unsigned int DHDAFNGLHCL___c_TypeDefinitionIndex = 67148;
+inline static constexpr unsigned int DHDAFNGLHCL___c_TypeDefinitionIndex = 69092;
 
 	class DHDAFNGLHCL___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::DEHHODAHDMH*, ::System::UInt32>** StaticGet___9__0_3()
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DEHHODAHDMH*>*, ::DEHHODAHDMH*>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::DEHHODAHDMH*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B6E0);
-		}
-
-		static ::System::Func_2<::NONJMIHBLMK*, ::System::UInt32>** StaticGet___9__0_2()
-		{
-			return (::System::Func_2<::NONJMIHBLMK*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B6E8);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::NONJMIHBLMK*>*, ::NONJMIHBLMK*>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::NONJMIHBLMK*>*, ::NONJMIHBLMK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B6F0);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DEHHODAHDMH*>*, ::DEHHODAHDMH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67240);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B6F8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67248);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DEHHODAHDMH*>*, ::DEHHODAHDMH*>** StaticGet___9__0_1()
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::NONJMIHBLMK*>*, ::NONJMIHBLMK*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DEHHODAHDMH*>*, ::DEHHODAHDMH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B700);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::NONJMIHBLMK*>*, ::NONJMIHBLMK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67250);
+		}
+
+		static ::System::Func_2<::DEHHODAHDMH*, ::System::UInt32>** StaticGet___9__0_3()
+		{
+			return (::System::Func_2<::DEHHODAHDMH*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67258);
+		}
+
+		static ::System::Func_2<::NONJMIHBLMK*, ::System::UInt32>** StaticGet___9__0_2()
+		{
+			return (::System::Func_2<::NONJMIHBLMK*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67260);
 		}
 
 		static ::System::Void _cctor()

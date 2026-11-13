@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ReadOnlySpan_1_075EFA8CFBE0DE9A_Enumerator_TypeDefinitionIndex = 4977;
+	inline static constexpr unsigned int ReadOnlySpan_1_075EFA8CFBE0DE9A_Enumerator_TypeDefinitionIndex = 4982;
 
 	template <typename T>
 	struct alignas(8) ReadOnlySpan_1_075EFA8CFBE0DE9A_Enumerator

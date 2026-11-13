@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
+namespace System { class String; }
+namespace XLua { class LuaTable; }
+
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_CALLLUAPANELFUNC_OFFSET UNITYSDK_OFFSET(0x1DF372B0)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_CLEARLUAPANEL_OFFSET UNITYSDK_OFFSET(0x1DF37480)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF37510)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_GETLUAPANEL_OFFSET UNITYSDK_OFFSET(0x1DF374D0)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_GET_BINDERSCRIPTPATH_OFFSET UNITYSDK_OFFSET(0x1DF370F0)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_GET_SORTORDER_OFFSET UNITYSDK_OFFSET(0x1DF37140)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_SETLUAPANEL_OFFSET UNITYSDK_OFFSET(0x1DF37180)
+#define RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR__SETLUAPANEL_B__14_0_OFFSET UNITYSDK_OFFSET(0x1DF37520)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightPreparationTraitEffectIndicator_TypeDefinitionIndex = 67225;
+
+	class GridFightPreparationTraitEffectIndicator : public ::System::Object
+	{
+	public:
+		::XLua::LuaTable* _LuaPanel; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_BinderScriptPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_GET_BINDERSCRIPTPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SortOrder()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_GET_SORTORDER_OFFSET))(this);
+		}
+
+		::System::Void SetLuaPanel(::XLua::LuaTable* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_SETLUAPANEL_OFFSET))(this, a1);
+		}
+
+		::System::Void ClearLuaPanel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_CLEARLUAPANEL_OFFSET))(this);
+		}
+
+		::XLua::LuaTable* GetLuaPanel()
+		{
+			return ((::XLua::LuaTable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_GETLUAPANEL_OFFSET))(this);
+		}
+
+		::System::Void CallLuaPanelFunc(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR_CALLLUAPANELFUNC_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _SetLuaPanel_b__14_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPREPARATIONTRAITEFFECTINDICATOR__SETLUAPANEL_B__14_0_OFFSET))(this);
+		}
+
+	};
+}

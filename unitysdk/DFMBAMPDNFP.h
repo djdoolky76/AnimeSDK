@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class GlobalModifyInsertAbilityPriority; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DFMBAMPDNFP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8283B0)
-#define DFMBAMPDNFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE8283E0)
+#define DFMBAMPDNFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B39FA20)
+#define DFMBAMPDNFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B39FA50)
 
-inline static constexpr unsigned int DFMBAMPDNFP_TypeDefinitionIndex = 55081;
+inline static constexpr unsigned int DFMBAMPDNFP_TypeDefinitionIndex = 56258;
 
 	class DFMBAMPDNFP
 	{

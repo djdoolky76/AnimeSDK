@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ClockFaceEmotion; }
 namespace RPG::GameCore { class SetClockBoyEmotion; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCLOCKBOYEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6EF50)
-#define RPG_GAMECORE_SETCLOCKBOYEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA6EF60)
-#define RPG_GAMECORE_SETCLOCKBOYEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA6EF20)
+#define RPG_GAMECORE_SETCLOCKBOYEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8608A0)
+#define RPG_GAMECORE_SETCLOCKBOYEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F8608B0)
+#define RPG_GAMECORE_SETCLOCKBOYEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F860870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetClockBoyEmotion_TypeDefinitionIndex = 21894;
+	inline static constexpr unsigned int SetClockBoyEmotion_TypeDefinitionIndex = 22285;
 
 	class SetClockBoyEmotion : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,11 +4,11 @@ namespace RPG::GameCore { class RogueTournCollectionLoadedPostProcess; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class GameObject; }
 
-#define JCGENLGEBMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1657A550)
-#define JCGENLGEBMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1657A580)
-#define JCGENLGEBMO_PEEIPEHPOII_OFFSET UNITYSDK_OFFSET(0x1657A670)
+#define JCGENLGEBMO_CTOR_OFFSET UNITYSDK_OFFSET(0x169490F0)
+#define JCGENLGEBMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16949120)
+#define JCGENLGEBMO_PEEIPEHPOII_OFFSET UNITYSDK_OFFSET(0x16949210)
 
-inline static constexpr unsigned int JCGENLGEBMO_TypeDefinitionIndex = 58475;
+inline static constexpr unsigned int JCGENLGEBMO_TypeDefinitionIndex = 59731;
 
 	class JCGENLGEBMO
 	{

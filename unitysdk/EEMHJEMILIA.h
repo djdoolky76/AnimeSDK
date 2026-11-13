@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define EEMHJEMILIA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A3EFC0)
+#define EEMHJEMILIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A327560)
 
-inline static constexpr unsigned int EEMHJEMILIA_TypeDefinitionIndex = 48027;
+inline static constexpr unsigned int EEMHJEMILIA_TypeDefinitionIndex = 49058;
 
 	class EEMHJEMILIA : public ::UnityEngine::Playables::PlayableBehaviour
 	{

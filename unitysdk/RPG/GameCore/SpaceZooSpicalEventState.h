@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooSpicalEventState_TypeDefinitionIndex = 12370;
+	inline static constexpr unsigned int SpaceZooSpicalEventState_TypeDefinitionIndex = 12437;
 
 	enum class SpaceZooSpicalEventState : ::System::Int32
 	{

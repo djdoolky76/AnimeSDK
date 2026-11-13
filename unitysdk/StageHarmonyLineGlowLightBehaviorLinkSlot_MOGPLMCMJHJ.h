@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class LineGlowLightMonoPlugin; }
 
-#define STAGEHARMONYLINEGLOWLIGHTBEHAVIORLINKSLOT_MOGPLMCMJHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE989B70)
+#define STAGEHARMONYLINEGLOWLIGHTBEHAVIORLINKSLOT_MOGPLMCMJHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC53610)
 
-inline static constexpr unsigned int StageHarmonyLineGlowLightBehaviorLinkSlot_MOGPLMCMJHJ_TypeDefinitionIndex = 47376;
+inline static constexpr unsigned int StageHarmonyLineGlowLightBehaviorLinkSlot_MOGPLMCMJHJ_TypeDefinitionIndex = 48405;
 
 	class StageHarmonyLineGlowLightBehaviorLinkSlot_MOGPLMCMJHJ : public ::System::Object
 	{

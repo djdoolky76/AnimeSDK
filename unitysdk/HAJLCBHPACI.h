@@ -14,54 +14,55 @@ namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define HAJLCBHPACI_ADLPFIHHJPM_OFFSET UNITYSDK_OFFSET(0x15B72D40)
-#define HAJLCBHPACI_BKGHMFCOFPA_OFFSET UNITYSDK_OFFSET(0x15B71BB0)
-#define HAJLCBHPACI_COOGLDNKAIO_OFFSET UNITYSDK_OFFSET(0x15B720D0)
-#define HAJLCBHPACI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B72E10)
-#define HAJLCBHPACI_DDGAJAANKFA_OFFSET UNITYSDK_OFFSET(0x15B724F0)
-#define HAJLCBHPACI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B72120)
-#define HAJLCBHPACI_GDHLIMDHFOL_OFFSET UNITYSDK_OFFSET(0x15B72550)
-#define HAJLCBHPACI_HKCMEKODBHM_OFFSET UNITYSDK_OFFSET(0x15B72690)
-#define HAJLCBHPACI_HNDDPHCMEEL_OFFSET UNITYSDK_OFFSET(0x15B72BB0)
-#define HAJLCBHPACI_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x15B70580)
-#define HAJLCBHPACI_IAMMNDNCHKE_OFFSET UNITYSDK_OFFSET(0x15B725F0)
-#define HAJLCBHPACI_IEDHLHHLOOJ_OFFSET UNITYSDK_OFFSET(0x15B72890)
-#define HAJLCBHPACI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15B705D0)
-#define HAJLCBHPACI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15B72000)
-#define HAJLCBHPACI_LNDCKCLNKHO_OFFSET UNITYSDK_OFFSET(0x15B71740)
-#define HAJLCBHPACI_LPDPKOOEHFE_OFFSET UNITYSDK_OFFSET(0x15B72790)
-#define HAJLCBHPACI_NIOJLAEEMLG_OFFSET UNITYSDK_OFFSET(0x15B70630)
-#define HAJLCBHPACI_PJCJEAJNPBE_OFFSET UNITYSDK_OFFSET(0x15B71690)
+#define HAJLCBHPACI_ADLPFIHHJPM_OFFSET UNITYSDK_OFFSET(0x17DE0530)
+#define HAJLCBHPACI_BKGHMFCOFPA_OFFSET UNITYSDK_OFFSET(0x17DDF380)
+#define HAJLCBHPACI_COOGLDNKAIO_OFFSET UNITYSDK_OFFSET(0x17DDF8B0)
+#define HAJLCBHPACI_CTOR_OFFSET UNITYSDK_OFFSET(0x17DE05E0)
+#define HAJLCBHPACI_DDGAJAANKFA_OFFSET UNITYSDK_OFFSET(0x17DDFCF0)
+#define HAJLCBHPACI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17DDF900)
+#define HAJLCBHPACI_GDHLIMDHFOL_OFFSET UNITYSDK_OFFSET(0x17DDFD50)
+#define HAJLCBHPACI_HKCMEKODBHM_OFFSET UNITYSDK_OFFSET(0x17DDFE90)
+#define HAJLCBHPACI_HNDDPHCMEEL_OFFSET UNITYSDK_OFFSET(0x17DE0390)
+#define HAJLCBHPACI_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x17DDDD30)
+#define HAJLCBHPACI_IAMMNDNCHKE_OFFSET UNITYSDK_OFFSET(0x17DDFDF0)
+#define HAJLCBHPACI_IEDHLHHLOOJ_OFFSET UNITYSDK_OFFSET(0x17DE0090)
+#define HAJLCBHPACI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x17DDDD80)
+#define HAJLCBHPACI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x17DDF7E0)
+#define HAJLCBHPACI_LNDCKCLNKHO_OFFSET UNITYSDK_OFFSET(0x17DDEF20)
+#define HAJLCBHPACI_LPDPKOOEHFE_OFFSET UNITYSDK_OFFSET(0x17DDFF90)
+#define HAJLCBHPACI_NIOJLAEEMLG_OFFSET UNITYSDK_OFFSET(0x17DDDDE0)
+#define HAJLCBHPACI_PJCJEAJNPBE_OFFSET UNITYSDK_OFFSET(0x17DDEE70)
 
-inline static constexpr unsigned int HAJLCBHPACI_TypeDefinitionIndex = 69715;
+inline static constexpr unsigned int HAJLCBHPACI_TypeDefinitionIndex = 71672;
 
 	class HAJLCBHPACI : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::System::String* AGJDKFLBNLA; // 0x18
-		::System::String* ALIHAFPMPOA; // 0x20
-		::UnityEngine::Texture2D* IPFHEKOCABD; // 0x28
-		::UnityEngine::Texture2D* POJMAKPIJHK; // 0x30
-		::System::Nullable_1<::UnityEngine::Vector2> KNDJODMHDIA; // 0x38
-		::System::Byte _padding0[0x4];
-		::UnityEngine::Vector2 ANAFLKMMEFJ; // 0x44
-		::UnityEngine::Vector2 DEAGFGEGGDJ; // 0x4C
-		::System::Boolean DDFBKOHOIOI; // 0x54
-		::System::Nullable_1<::System::Boolean> ADINFEHCJCE; // 0x55
-		::System::Nullable_1<::System::Boolean> PNEBIBKJMCM; // 0x57
-		::System::Nullable_1<::System::Single> IHINAPMNICE; // 0x5C
-		::System::Nullable_1<::System::Single> JFKBDNMFOFL; // 0x64
-		::System::Nullable_1<::System::Single> JBHNCHNFGKO; // 0x6C
-		::System::Nullable_1<::System::Single> HBIPIGHGPFH; // 0x74
-		::System::Nullable_1<::System::Single> JGFEBMPNHGE; // 0x7C
-		::System::Nullable_1<::UnityEngine::Vector2> HDNMPNPBOAA; // 0x84
+		::UnityEngine::Texture2D* IPFHEKOCABD; // 0x18
+		::System::String* AGJDKFLBNLA; // 0x20
+		::UnityEngine::Texture2D* POJMAKPIJHK; // 0x28
+		::System::String* ALIHAFPMPOA; // 0x30
+		::System::Nullable_1<::UnityEngine::Color> CDGOEKBKLAD; // 0x38
+		::System::Byte _padding0[0xC];
+		::System::Nullable_1<::UnityEngine::Vector2> KNDJODMHDIA; // 0x4C
 		::System::Byte _padding1[0x4];
-		::System::Nullable_1<::UnityEngine::Color> CDGOEKBKLAD; // 0x90
-		::System::Byte _padding2[0xC];
-		::System::Nullable_1<::UnityEngine::Vector2> BGJBONAALME; // 0xA4
+		::UnityEngine::Vector2 DEAGFGEGGDJ; // 0x58
+		::System::Nullable_1<::UnityEngine::Vector2> HDNMPNPBOAA; // 0x60
+		::System::Byte _padding2[0x4];
+		::System::Nullable_1<::UnityEngine::Vector2> DIACFBPMAJM; // 0x6C
 		::System::Byte _padding3[0x4];
-		::System::Nullable_1<::UnityEngine::Vector2> DIACFBPMAJM; // 0xB0
+		::System::Nullable_1<::System::Single> JGFEBMPNHGE; // 0x78
+		::System::Nullable_1<::System::Single> IHINAPMNICE; // 0x80
+		::System::Nullable_1<::UnityEngine::Vector2> BGJBONAALME; // 0x88
 		::System::Byte _padding4[0x4];
+		::System::Nullable_1<::System::Boolean> ADINFEHCJCE; // 0x94
+		::System::Nullable_1<::System::Boolean> PNEBIBKJMCM; // 0x96
+		::System::Boolean DDFBKOHOIOI; // 0x98
+		::System::Byte _padding5[0x3];
+		::UnityEngine::Vector2 ANAFLKMMEFJ; // 0x9C
+		::System::Nullable_1<::System::Single> JFKBDNMFOFL; // 0xA4
+		::System::Nullable_1<::System::Single> HBIPIGHGPFH; // 0xAC
+		::System::Nullable_1<::System::Single> JBHNCHNFGKO; // 0xB4
 		::System::Nullable_1<::UnityEngine::Color> HOEFNNIJLLB; // 0xBC
 		::System::Void _ctor()
 		{

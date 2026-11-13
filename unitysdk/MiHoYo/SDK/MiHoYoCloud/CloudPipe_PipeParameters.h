@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_PIPEPARAMETERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE71820)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_PIPEPARAMETERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C329370)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int CloudPipe_PipeParameters_TypeDefinitionIndex = 9137;
+	inline static constexpr unsigned int CloudPipe_PipeParameters_TypeDefinitionIndex = 9146;
 
 	class CloudPipe_PipeParameters : public ::System::Object
 	{

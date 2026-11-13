@@ -14,146 +14,146 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NOTIFYMANAGER_ADDALWAYSRSPHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CDE80)
-#define RPG_CLIENT_NOTIFYMANAGER_ADDNOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CBC90)
-#define RPG_CLIENT_NOTIFYMANAGER_ADDRSPHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CDBE0)
-#define RPG_CLIENT_NOTIFYMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9CE650)
-#define RPG_CLIENT_NOTIFYMANAGER_CLEARLUALISTENCOUNT_OFFSET UNITYSDK_OFFSET(0xD9CD160)
-#define RPG_CLIENT_NOTIFYMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0xD9CB910)
-#define RPG_CLIENT_NOTIFYMANAGER_GET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0xD9CB4C0)
-#define RPG_CLIENT_NOTIFYMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xD9CB4E0)
-#define RPG_CLIENT_NOTIFYMANAGER_NOTIFYPACKET_OFFSET UNITYSDK_OFFSET(0xD9CD300)
-#define RPG_CLIENT_NOTIFYMANAGER_NOTIFYTOLUA_OFFSET UNITYSDK_OFFSET(0xD9CB9F0)
-#define RPG_CLIENT_NOTIFYMANAGER_NOTIFY_1_OFFSET UNITYSDK_OFFSET(0xD9CD250)
-#define RPG_CLIENT_NOTIFYMANAGER_NOTIFY_OFFSET UNITYSDK_OFFSET(0xD9BE560)
-#define RPG_CLIENT_NOTIFYMANAGER_ONADDLUANOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CCB30)
-#define RPG_CLIENT_NOTIFYMANAGER_ONADDLUAPACKETHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CCE20)
-#define RPG_CLIENT_NOTIFYMANAGER_ONREMOVELUANOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CCCA0)
-#define RPG_CLIENT_NOTIFYMANAGER_ONREMOVELUAPACKETHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CCFE0)
-#define RPG_CLIENT_NOTIFYMANAGER_REMOVEALWAYSRSPHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CE1F0)
-#define RPG_CLIENT_NOTIFYMANAGER_REMOVEHANDLERS_OFFSET UNITYSDK_OFFSET(0xD9CB990)
-#define RPG_CLIENT_NOTIFYMANAGER_REMOVENOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CBF40)
-#define RPG_CLIENT_NOTIFYMANAGER_REMOVERSPHANDLER_OFFSET UNITYSDK_OFFSET(0xD9CE050)
-#define RPG_CLIENT_NOTIFYMANAGER_SET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0xD9CB4D0)
-#define RPG_CLIENT_NOTIFYMANAGER__GETHANDLERHASHCODE_OFFSET UNITYSDK_OFFSET(0xD9CCAB0)
-#define RPG_CLIENT_NOTIFYMANAGER__ISPENDINGTOREMOVE_OFFSET UNITYSDK_OFFSET(0xD9CC9A0)
-#define RPG_CLIENT_NOTIFYMANAGER__NOTIFYRSPGROUPLUA_OFFSET UNITYSDK_OFFSET(0xD9CD880)
-#define RPG_CLIENT_NOTIFYMANAGER__NOTIFYRSPGROUP_OFFSET UNITYSDK_OFFSET(0xD9CD6E0)
-#define RPG_CLIENT_NOTIFYMANAGER__PROCESSPENDINGNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xD9CC800)
-#define RPG_CLIENT_NOTIFYMANAGER__PROCESSPENDINGRSPHANDLERS_OFFSET UNITYSDK_OFFSET(0xD9CDAD0)
-#define RPG_CLIENT_NOTIFYMANAGER__REMOVENOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xD9CC320)
-#define RPG_CLIENT_NOTIFYMANAGER__REMOVERSPHANDLERS_OFFSET UNITYSDK_OFFSET(0xD9CE2C0)
+#define RPG_CLIENT_NOTIFYMANAGER_ADDALWAYSRSPHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD90E50)
+#define RPG_CLIENT_NOTIFYMANAGER_ADDNOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD8F550)
+#define RPG_CLIENT_NOTIFYMANAGER_ADDRSPHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD90BB0)
+#define RPG_CLIENT_NOTIFYMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD91290)
+#define RPG_CLIENT_NOTIFYMANAGER_CLEARLUALISTENCOUNT_OFFSET UNITYSDK_OFFSET(0x1AD90130)
+#define RPG_CLIENT_NOTIFYMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x1AD8E6C0)
+#define RPG_CLIENT_NOTIFYMANAGER_GET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0x1AD8E270)
+#define RPG_CLIENT_NOTIFYMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1AD8E290)
+#define RPG_CLIENT_NOTIFYMANAGER_NOTIFYPACKET_OFFSET UNITYSDK_OFFSET(0x1AD902D0)
+#define RPG_CLIENT_NOTIFYMANAGER_NOTIFYTOLUA_OFFSET UNITYSDK_OFFSET(0x1AD8F2B0)
+#define RPG_CLIENT_NOTIFYMANAGER_NOTIFY_1_OFFSET UNITYSDK_OFFSET(0x1AD90220)
+#define RPG_CLIENT_NOTIFYMANAGER_NOTIFY_OFFSET UNITYSDK_OFFSET(0x1AD81100)
+#define RPG_CLIENT_NOTIFYMANAGER_ONADDLUANOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD8FB00)
+#define RPG_CLIENT_NOTIFYMANAGER_ONADDLUAPACKETHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD8FDF0)
+#define RPG_CLIENT_NOTIFYMANAGER_ONREMOVELUANOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD8FC70)
+#define RPG_CLIENT_NOTIFYMANAGER_ONREMOVELUAPACKETHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD8FFB0)
+#define RPG_CLIENT_NOTIFYMANAGER_REMOVEALWAYSRSPHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD911C0)
+#define RPG_CLIENT_NOTIFYMANAGER_REMOVEHANDLERS_OFFSET UNITYSDK_OFFSET(0x1AD8E750)
+#define RPG_CLIENT_NOTIFYMANAGER_REMOVENOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD8F820)
+#define RPG_CLIENT_NOTIFYMANAGER_REMOVERSPHANDLER_OFFSET UNITYSDK_OFFSET(0x1AD91020)
+#define RPG_CLIENT_NOTIFYMANAGER_SET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0x1AD8E280)
+#define RPG_CLIENT_NOTIFYMANAGER__GETHANDLERHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AD8FA80)
+#define RPG_CLIENT_NOTIFYMANAGER__ISPENDINGTOREMOVE_OFFSET UNITYSDK_OFFSET(0x1AD8F000)
+#define RPG_CLIENT_NOTIFYMANAGER__NOTIFYRSPGROUPLUA_OFFSET UNITYSDK_OFFSET(0x1AD90850)
+#define RPG_CLIENT_NOTIFYMANAGER__NOTIFYRSPGROUP_OFFSET UNITYSDK_OFFSET(0x1AD906B0)
+#define RPG_CLIENT_NOTIFYMANAGER__PROCESSPENDINGNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x1AD8F110)
+#define RPG_CLIENT_NOTIFYMANAGER__PROCESSPENDINGRSPHANDLERS_OFFSET UNITYSDK_OFFSET(0x1AD90AA0)
+#define RPG_CLIENT_NOTIFYMANAGER__REMOVENOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x1AD8E7B0)
+#define RPG_CLIENT_NOTIFYMANAGER__REMOVERSPHANDLERS_OFFSET UNITYSDK_OFFSET(0x1AD8EC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyManager_TypeDefinitionIndex = 59286;
+	inline static constexpr unsigned int NotifyManager_TypeDefinitionIndex = 60563;
 
 	class NotifyManager : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyLuaMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x1580);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyRspGroupMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x1588);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x1590);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__ShouldBlockErrorRspMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x1598);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet__PendingToRemoves()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15A0);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyRspGroupLuaMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15A8);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__PendingRspHandlers()
-		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15B0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::RPG::Client::NotifyType>, ::System::Int32>** StaticGet__LuaNotifyListenCounter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::RPG::Client::NotifyType>, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15B8);
-		}
-
-		static ::Il2CppArray<::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::RPG::Client::RspHandler*>*>*>** StaticGet__RspHandlers()
-		{
-			return (::Il2CppArray<::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::RPG::Client::RspHandler*>*>*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15C0);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__ProcessPendingRspHandlersMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15C8);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__PendingNotifyHandlers()
-		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15D0);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyCSharpMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15D8);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::UInt16>** StaticGet__LuaPacketListenRequireRspObject()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt16>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15E0);
-		}
-
-		static ::Il2CppArray<::System::Collections::Generic::Dictionary_2<::RPG::Client::NotifyType, ::System::Collections::Generic::List_1<::RPG::Client::NotifyHandler*>*>*>** StaticGet__NotifyHandlers()
-		{
-			return (::Il2CppArray<::System::Collections::Generic::Dictionary_2<::RPG::Client::NotifyType, ::System::Collections::Generic::List_1<::RPG::Client::NotifyHandler*>*>*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15E8);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::RPG::Client::NotifyType>, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B00);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet__RetcodeNotifyMarker()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15F0);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B08);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__PendingNotifyHandlers()
+		{
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B10);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::UInt16>** StaticGet__LuaPacketListenRequireRspObject()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::UInt16>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B18);
+		}
+
+		static ::Il2CppArray<::System::Collections::Generic::Dictionary_2<::RPG::Client::NotifyType, ::System::Collections::Generic::List_1<::RPG::Client::NotifyHandler*>*>*>** StaticGet__NotifyHandlers()
+		{
+			return (::Il2CppArray<::System::Collections::Generic::Dictionary_2<::RPG::Client::NotifyType, ::System::Collections::Generic::List_1<::RPG::Client::NotifyHandler*>*>*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B20);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::RPG::Client::RspHandler*>*>** StaticGet__AlwaysRspHandler()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::RPG::Client::RspHandler*>*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x15F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::RPG::Client::RspHandler*>*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B28);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::System::UInt16>, ::System::Int32>** StaticGet__LuaPacketListenCounter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::System::UInt16>, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x1600);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::System::UInt16>, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B30);
 		}
 
-		static ::Unity::Profiling::ProfilerMarkerWithIntData* StaticGet_NotifyPacketMarker()
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__ShouldBlockErrorRspMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarkerWithIntData*)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x770);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B38);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyLuaMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B40);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyCSharpMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B48);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyRspGroupMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B50);
+		}
+
+		static ::Il2CppArray<::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::RPG::Client::RspHandler*>*>*>** StaticGet__RspHandlers()
+		{
+			return (::Il2CppArray<::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::RPG::Client::RspHandler*>*>*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B58);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__PendingRspHandlers()
+		{
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B60);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet__PendingToRemoves()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B68);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__ProcessPendingRspHandlersMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B70);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B78);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__NotifyRspGroupLuaMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x19B80);
 		}
 
 		static ::System::Int32* StaticGet__LockPacketHandlers()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x780);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x5B50);
 		}
 
 		static ::System::Boolean* StaticGet__IsDestroyed_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x784);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x5B54);
 		}
 
 		static ::System::Int32* StaticGet__LockNotifyHandlers()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x788);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x5B58);
+		}
+
+		static ::Unity::Profiling::ProfilerMarkerWithIntData* StaticGet_NotifyPacketMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarkerWithIntData*)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x5B60);
 		}
 
 		static ::System::Void _cctor()

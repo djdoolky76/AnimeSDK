@@ -4,18 +4,18 @@
 class DIIGIPHOJAC;
 namespace System { class Object; }
 
-#define DIIGIPHOJAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E191C70)
-#define DIIGIPHOJAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E191CB0)
-#define DIIGIPHOJAC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E191CC0)
+#define DIIGIPHOJAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2065E970)
+#define DIIGIPHOJAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2065E9B0)
+#define DIIGIPHOJAC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2065E9C0)
 
-inline static constexpr unsigned int DIIGIPHOJAC___c_TypeDefinitionIndex = 26449;
+inline static constexpr unsigned int DIIGIPHOJAC___c_TypeDefinitionIndex = 26980;
 
 	class DIIGIPHOJAC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x315C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B7C0);
 		}
 
 		static ::System::Void _cctor()

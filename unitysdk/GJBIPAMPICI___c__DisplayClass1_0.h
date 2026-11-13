@@ -7,17 +7,17 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GJBIPAMPICI___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4E200)
-#define GJBIPAMPICI___C__DISPLAYCLASS1_0__SYNCHRONIZEALL_B__0_OFFSET UNITYSDK_OFFSET(0x15A4EC60)
+#define GJBIPAMPICI___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FF0E0)
+#define GJBIPAMPICI___C__DISPLAYCLASS1_0__SYNCHRONIZEALL_B__0_OFFSET UNITYSDK_OFFSET(0x1A3FFB50)
 
-inline static constexpr unsigned int GJBIPAMPICI___c__DisplayClass1_0_TypeDefinitionIndex = 80832;
+inline static constexpr unsigned int GJBIPAMPICI___c__DisplayClass1_0_TypeDefinitionIndex = 83612;
 
 	class GJBIPAMPICI___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TurnBasedModifierInstance*, ::AOFHFKPKKJI*>* oldMap; // 0x10
-		::GJBIPAMPICI* __4__this; // 0x18
-		::System::Collections::Generic::List_1<::AOFHFKPKKJI*>* model; // 0x20
+		::GJBIPAMPICI* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::AOFHFKPKKJI*>* model; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TurnBasedModifierInstance*, ::AOFHFKPKKJI*>* oldMap; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJBIPAMPICI___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DJLLENLBFAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C44B0)
+#define DJLLENLBFAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA78DD0)
 
-inline static constexpr unsigned int DJLLENLBFAD_TypeDefinitionIndex = 37163;
+inline static constexpr unsigned int DJLLENLBFAD_TypeDefinitionIndex = 38091;
 
 	class DJLLENLBFAD : public ::System::Object
 	{

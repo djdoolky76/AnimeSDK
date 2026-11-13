@@ -5,55 +5,43 @@ namespace RPG::Client { class QuestData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2A60D0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A6110)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__27_0_OFFSET UNITYSDK_OFFSET(0xD2A6160)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__27_1_OFFSET UNITYSDK_OFFSET(0xD2A61D0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__29_0_OFFSET UNITYSDK_OFFSET(0xD2A61E0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__29_1_OFFSET UNITYSDK_OFFSET(0xD2A6250)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__UPDATESTATE_B__9_0_OFFSET UNITYSDK_OFFSET(0xD2A6120)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__UPDATESTATE_B__9_1_OFFSET UNITYSDK_OFFSET(0xD2A6140)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3E78A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E78E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__30_0_OFFSET UNITYSDK_OFFSET(0x1D3E78F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__30_1_OFFSET UNITYSDK_OFFSET(0x1D3E7960)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__32_0_OFFSET UNITYSDK_OFFSET(0x1D3E7970)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__32_1_OFFSET UNITYSDK_OFFSET(0x1D3E79E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitChallenge___c_TypeDefinitionIndex = 65435;
+	inline static constexpr unsigned int GridFightTraitChallenge___c_TypeDefinitionIndex = 67328;
 
 	class GridFightTraitChallenge___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__9_1()
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>** StaticGet___9__32_0()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3170);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14EA0);
 		}
 
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__9_0()
+		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__30_1()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3178);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14EA8);
 		}
 
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__27_1()
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3180);
-		}
-
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__29_1()
-		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3188);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>** StaticGet___9__27_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3190);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14EB0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3198);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14EB8);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>** StaticGet___9__29_0()
+		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__32_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x31A0);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14EC0);
 		}
 
 		static ::System::Void _cctor()
@@ -66,34 +54,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _UpdateState_b__9_0(::RPG::Client::QuestData* a1)
+		::RPG::Client::QuestData* _get_Quests_b__30_0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__UPDATESTATE_B__9_0_OFFSET))(this, a1);
+			return ((::RPG::Client::QuestData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__30_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _UpdateState_b__9_1(::RPG::Client::QuestData* a1)
+		::System::Boolean _get_Quests_b__30_1(::RPG::Client::QuestData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__UPDATESTATE_B__9_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__30_1_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::QuestData* _get_Quests_b__27_0(::System::UInt32 a1)
+		::RPG::Client::QuestData* _get_StandardQuests_b__32_0(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::QuestData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__27_0_OFFSET))(this, a1);
+			return ((::RPG::Client::QuestData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__32_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_Quests_b__27_1(::RPG::Client::QuestData* a1)
+		::System::Boolean _get_StandardQuests_b__32_1(::RPG::Client::QuestData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__27_1_OFFSET))(this, a1);
-		}
-
-		::RPG::Client::QuestData* _get_StandardQuests_b__29_0(::System::UInt32 a1)
-		{
-			return ((::RPG::Client::QuestData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__29_0_OFFSET))(this, a1);
-		}
-
-		::System::Boolean _get_StandardQuests_b__29_1(::RPG::Client::QuestData* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__29_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__32_1_OFFSET))(this, a1);
 		}
 
 	};

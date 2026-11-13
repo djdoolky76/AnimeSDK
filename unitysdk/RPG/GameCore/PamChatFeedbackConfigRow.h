@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PamChatFeedbackConfigRow; }
 
-#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BE240)
-#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BE0C0)
+#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F13F790)
+#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F13F610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 14310;
+	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 14467;
 
 	class PamChatFeedbackConfigRow : public ::System::Object
 	{

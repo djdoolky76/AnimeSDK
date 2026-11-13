@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CLJGGIMAGGA.h"
 
-#define JPNPFNPCONL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C7BB0)
+#define JPNPFNPCONL_CTOR_OFFSET UNITYSDK_OFFSET(0x19DA3BD0)
 
-inline static constexpr unsigned int JPNPFNPCONL_TypeDefinitionIndex = 78503;
+inline static constexpr unsigned int JPNPFNPCONL_TypeDefinitionIndex = 81238;
 
 	class JPNPFNPCONL : public ::CLJGGIMAGGA
 	{

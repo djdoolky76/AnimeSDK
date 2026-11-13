@@ -6,11 +6,11 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class AspectRatioFitter; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOPERFORMANCEBGIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD84D0B0)
+#define RPG_CLIENT_MONOPERFORMANCEBGIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D26D350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPerformanceBgImage_TypeDefinitionIndex = 72590;
+	inline static constexpr unsigned int MonoPerformanceBgImage_TypeDefinitionIndex = 74669;
 
 	class MonoPerformanceBgImage : public ::UnityEngine::MonoBehaviour
 	{

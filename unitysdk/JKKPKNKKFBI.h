@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define JKKPKNKKFBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB219B70)
-#define JKKPKNKKFBI_OKJFHINKGOM_OFFSET UNITYSDK_OFFSET(0xB219800)
-#define JKKPKNKKFBI_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB2197A0)
-#define JKKPKNKKFBI_OOGBIKEGJPH_OFFSET UNITYSDK_OFFSET(0xB2199B0)
+#define JKKPKNKKFBI_CTOR_OFFSET UNITYSDK_OFFSET(0x17B25FA0)
+#define JKKPKNKKFBI_OKJFHINKGOM_OFFSET UNITYSDK_OFFSET(0x17B25C30)
+#define JKKPKNKKFBI_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x17B25BD0)
+#define JKKPKNKKFBI_OOGBIKEGJPH_OFFSET UNITYSDK_OFFSET(0x17B25DE0)
 
-inline static constexpr unsigned int JKKPKNKKFBI_TypeDefinitionIndex = 48790;
+inline static constexpr unsigned int JKKPKNKKFBI_TypeDefinitionIndex = 49836;
 
 	class JKKPKNKKFBI : public ::UnityEngine::Playables::PlayableBehaviour
 	{

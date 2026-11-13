@@ -6,20 +6,20 @@ namespace MiHoYo::SDK::Console::CN { class BindManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC435B0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1BC45E40)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x1BC46010)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B47EBA0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1B4813D0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x1B4815A0)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass11_0_TypeDefinitionIndex = 9109;
+	inline static constexpr unsigned int BindManager___c__DisplayClass11_0_TypeDefinitionIndex = 9118;
 
 	class BindManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::CN::BindManager* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnCaptchaResponse; // 0x10
 		::System::String* input; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnCaptchaResponse; // 0x20
+		::MiHoYo::SDK::Console::CN::BindManager* __4__this; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);

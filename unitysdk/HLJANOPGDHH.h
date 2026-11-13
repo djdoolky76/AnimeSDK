@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtSkillReturnToken; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HLJANOPGDHH_CTOR_OFFSET UNITYSDK_OFFSET(0x15D53D50)
-#define HLJANOPGDHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D53D80)
+#define HLJANOPGDHH_CTOR_OFFSET UNITYSDK_OFFSET(0x198A1630)
+#define HLJANOPGDHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x198A1660)
 
-inline static constexpr unsigned int HLJANOPGDHH_TypeDefinitionIndex = 53935;
+inline static constexpr unsigned int HLJANOPGDHH_TypeDefinitionIndex = 55099;
 
 	class HLJANOPGDHH
 	{

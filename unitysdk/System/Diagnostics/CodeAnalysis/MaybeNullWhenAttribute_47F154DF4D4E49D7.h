@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MAYBENULLWHENATTRIBUTE_47F154DF4D4E49D7_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB8800)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MAYBENULLWHENATTRIBUTE_47F154DF4D4E49D7_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6D7B0)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int MaybeNullWhenAttribute_47F154DF4D4E49D7_TypeDefinitionIndex = 7526;
+	inline static constexpr unsigned int MaybeNullWhenAttribute_47F154DF4D4E49D7_TypeDefinitionIndex = 7537;
 
 	class MaybeNullWhenAttribute_47F154DF4D4E49D7 : public ::System::Attribute
 	{

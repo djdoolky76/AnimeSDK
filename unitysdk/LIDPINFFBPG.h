@@ -6,10 +6,10 @@ class JCMJBMIKIFO;
 class KKGMHJNMOID;
 namespace System { class String; }
 
-#define LIDPINFFBPG_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C17F0)
-#define LIDPINFFBPG_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB6C1800)
+#define LIDPINFFBPG_CTOR_OFFSET UNITYSDK_OFFSET(0x172DB9A0)
+#define LIDPINFFBPG_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x172DB9B0)
 
-inline static constexpr unsigned int LIDPINFFBPG_TypeDefinitionIndex = 79700;
+inline static constexpr unsigned int LIDPINFFBPG_TypeDefinitionIndex = 82477;
 
 	class LIDPINFFBPG : public ::System::Object
 	{

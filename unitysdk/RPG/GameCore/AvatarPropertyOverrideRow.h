@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarPropertyOverrideRow; }
 
-#define RPG_GAMECORE_AVATARPROPERTYOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F18D0)
-#define RPG_GAMECORE_AVATARPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3F11B0)
+#define RPG_GAMECORE_AVATARPROPERTYOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E52A0)
+#define RPG_GAMECORE_AVATARPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2E4B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyOverrideRow_TypeDefinitionIndex = 12718;
+	inline static constexpr unsigned int AvatarPropertyOverrideRow_TypeDefinitionIndex = 12785;
 
 	class AvatarPropertyOverrideRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* ShowPropertyInBattleList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* HidePropertyInBattleList; // 0x18
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* ShowPropertyList; // 0x20
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* HidePropertyList; // 0x28
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* ShowPropertyList; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* ShowPropertyInBattleList; // 0x18
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* HidePropertyList; // 0x20
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* HidePropertyInBattleList; // 0x28
 		::System::UInt32 AvatarID; // 0x30
 		::System::Void _ctor()
 		{

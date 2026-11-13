@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EOCNNALBNJD_TypeDefinitionIndex = 14396;
+inline static constexpr unsigned int EOCNNALBNJD_TypeDefinitionIndex = 14553;
 
 	enum class EOCNNALBNJD : ::System::Int32
 	{

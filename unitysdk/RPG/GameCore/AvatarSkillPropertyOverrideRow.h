@@ -6,23 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarSkillPropertyOverrideRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FDDD0)
-#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3FD6E0)
+#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F1B40)
+#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2F1450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillPropertyOverrideRow_TypeDefinitionIndex = 12720;
+	inline static constexpr unsigned int AvatarSkillPropertyOverrideRow_TypeDefinitionIndex = 12787;
 
 	class AvatarSkillPropertyOverrideRow : public ::System::Object
 	{
 	public:
 		::System::String* ReplacePointIconPrefab; // 0x10
-		::System::Boolean DisableIconColorHint; // 0x18
-		::System::Boolean IsSecretSkillNeed; // 0x19
-		::System::Boolean OverrideAttackType; // 0x1A
-		::System::Byte _padding0[0x1];
-		::System::UInt32 SkillID; // 0x1C
-		::RPG::GameCore::AttackType DisplayAttackType; // 0x20
+		::System::UInt32 SkillID; // 0x18
+		::RPG::GameCore::AttackType DisplayAttackType; // 0x1C
+		::System::Boolean OverrideAttackType; // 0x20
+		::System::Boolean IsSecretSkillNeed; // 0x21
+		::System::Boolean DisableIconColorHint; // 0x22
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_CTOR_OFFSET))(this);

@@ -5,25 +5,25 @@ namespace RPG::Client { class BattleCollegeGroupData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_BATTLECOLLEGEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8122D0)
-#define RPG_CLIENT_BATTLECOLLEGEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC812300)
-#define RPG_CLIENT_BATTLECOLLEGEMODULE___C__ISALLBATTLECOLLEGEFINISHED_B__7_0_OFFSET UNITYSDK_OFFSET(0xC812310)
+#define RPG_CLIENT_BATTLECOLLEGEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1B7DA0)
+#define RPG_CLIENT_BATTLECOLLEGEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B7DD0)
+#define RPG_CLIENT_BATTLECOLLEGEMODULE___C__ISALLBATTLECOLLEGEFINISHED_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B1B7DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleCollegeModule___c_TypeDefinitionIndex = 62881;
+	inline static constexpr unsigned int BattleCollegeModule___c_TypeDefinitionIndex = 64319;
 
 	class BattleCollegeModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::BattleCollegeGroupData*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::BattleCollegeGroupData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5DF30);
+			return (::System::Func_2<::RPG::Client::BattleCollegeGroupData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x627E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5DF38);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x627E8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 class JLCGLIDLLFL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DBPKEKBCECE_CTOR_OFFSET UNITYSDK_OFFSET(0xE22DB80)
-#define DBPKEKBCECE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE22DBB0)
+#define DBPKEKBCECE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B159B40)
+#define DBPKEKBCECE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B159B70)
 
-inline static constexpr unsigned int DBPKEKBCECE_TypeDefinitionIndex = 52547;
+inline static constexpr unsigned int DBPKEKBCECE_TypeDefinitionIndex = 53653;
 
 	class DBPKEKBCECE
 	{

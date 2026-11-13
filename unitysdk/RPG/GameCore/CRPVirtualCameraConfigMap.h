@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CRPVirtualCameraConfigMap; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIGMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D516DA0)
-#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIGMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D516CC0)
+#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIGMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBEFC40)
+#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIGMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBEFB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CRPVirtualCameraConfigMap_TypeDefinitionIndex = 16445;
+	inline static constexpr unsigned int CRPVirtualCameraConfigMap_TypeDefinitionIndex = 16609;
 
 	class CRPVirtualCameraConfigMap : public ::RPG::GameCore::JsonConfig
 	{

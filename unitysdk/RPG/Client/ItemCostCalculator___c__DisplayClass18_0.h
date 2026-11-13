@@ -4,12 +4,12 @@
 namespace Proto { class ItemCost; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD37C3C0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS18_0__GETFULLREQUIREMENTCOSTS_B__0_OFFSET UNITYSDK_OFFSET(0xD37D530)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CED8850)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS18_0__GETFULLREQUIREMENTCOSTS_B__0_OFFSET UNITYSDK_OFFSET(0x1CED99C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass18_0_TypeDefinitionIndex = 65697;
+	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass18_0_TypeDefinitionIndex = 67623;
 
 	class ItemCostCalculator___c__DisplayClass18_0 : public ::System::Object
 	{

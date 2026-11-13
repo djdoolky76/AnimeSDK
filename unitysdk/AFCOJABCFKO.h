@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 class HFCPGANBGMI;
 
-#define AFCOJABCFKO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C84B430)
-#define AFCOJABCFKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C84B600)
+#define AFCOJABCFKO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D84F6D0)
+#define AFCOJABCFKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84F8A0)
 
-inline static constexpr unsigned int AFCOJABCFKO_TypeDefinitionIndex = 43444;
+inline static constexpr unsigned int AFCOJABCFKO_TypeDefinitionIndex = 44426;
 
 	class AFCOJABCFKO : public ::System::Object
 	{
 	public:
-		::HFCPGANBGMI* FKIBGPJNCIJ; // 0x10
-		::HGBCMFANCOE NNANJMDMAOC; // 0x18
+		::HGBCMFANCOE NNANJMDMAOC; // 0x10
+		::HFCPGANBGMI* FKIBGPJNCIJ; // 0xA68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFCOJABCFKO_CTOR_OFFSET))(this);

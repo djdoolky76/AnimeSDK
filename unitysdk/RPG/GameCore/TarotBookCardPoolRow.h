@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TarotBookCardPoolRow; }
 
-#define RPG_GAMECORE_TAROTBOOKCARDPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB47620)
-#define RPG_GAMECORE_TAROTBOOKCARDPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB47450)
+#define RPG_GAMECORE_TAROTBOOKCARDPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BC330)
+#define RPG_GAMECORE_TAROTBOOKCARDPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5BC160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookCardPoolRow_TypeDefinitionIndex = 15226;
+	inline static constexpr unsigned int TarotBookCardPoolRow_TypeDefinitionIndex = 15382;
 
 	class TarotBookCardPoolRow : public ::System::Object
 	{

@@ -5,13 +5,13 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelProductsResult; }
 namespace MiHoYo::SDK::PC::OS { class ProductData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF05E90)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF05E50)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF05E40)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF82500)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF824C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF824B0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelProductsResult_TypeDefinitionIndex = 8600;
+	inline static constexpr unsigned int HoYoChannelProductsResult_TypeDefinitionIndex = 8609;
 
 	class HoYoChannelProductsResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

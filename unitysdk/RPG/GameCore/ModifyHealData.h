@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifyHealData; }
 
-#define RPG_GAMECORE_MODIFYHEALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86A200)
-#define RPG_GAMECORE_MODIFYHEALDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86A480)
-#define RPG_GAMECORE_MODIFYHEALDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86A1C0)
+#define RPG_GAMECORE_MODIFYHEALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FC7E0)
+#define RPG_GAMECORE_MODIFYHEALDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6FCA60)
+#define RPG_GAMECORE_MODIFYHEALDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6FC7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyHealData_TypeDefinitionIndex = 23572;
+	inline static constexpr unsigned int ModifyHealData_TypeDefinitionIndex = 24019;
 
 	class ModifyHealData : public ::RPG::GameCore::TaskConfig
 	{

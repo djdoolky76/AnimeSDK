@@ -5,14 +5,14 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 
-inline static constexpr unsigned int CKGKGBIKFLP___O_TypeDefinitionIndex = 55187;
+inline static constexpr unsigned int CKGKGBIKFLP___O_TypeDefinitionIndex = 56368;
 
 	class CKGKGBIKFLP___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>** StaticGet__0____CalcActionDelayModify()
 		{
-			return (::System::Func_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x442A0);
+			return (::System::Func_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x2F6B0);
 		}
 
 	};

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_UINTKEYGETTER_GET_OFFSET UNITYSDK_OFFSET(0x2F928D0)
+#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_UINTKEYGETTER_GET_OFFSET UNITYSDK_OFFSET(0x3D73DD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CoreUnsafeUtils_UintKeyGetter_TypeDefinitionIndex = 35479;
+	inline static constexpr unsigned int CoreUnsafeUtils_UintKeyGetter_TypeDefinitionIndex = 36407;
 
 	struct alignas(4) CoreUnsafeUtils_UintKeyGetter
 	{

@@ -5,10 +5,10 @@
 class CFJNAPDIMKM;
 namespace RPG::Client { class RogueFormulaInfo; }
 
-#define EHMPJBIAKAH_CTOR_OFFSET UNITYSDK_OFFSET(0x154AC110)
-#define EHMPJBIAKAH_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x154AC120)
+#define EHMPJBIAKAH_CTOR_OFFSET UNITYSDK_OFFSET(0x18BDCE30)
+#define EHMPJBIAKAH_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x18BDCE40)
 
-inline static constexpr unsigned int EHMPJBIAKAH_TypeDefinitionIndex = 67082;
+inline static constexpr unsigned int EHMPJBIAKAH_TypeDefinitionIndex = 69026;
 
 	class EHMPJBIAKAH : public ::KJNJKIMNDMH
 	{

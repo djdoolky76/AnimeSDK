@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC23CB0)
-#define MIHOYO_SDK_CLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS24_0__INVOKERETURN_B__0_OFFSET UNITYSDK_OFFSET(0x1BC26970)
+#define MIHOYO_SDK_CLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B45F2C0)
+#define MIHOYO_SDK_CLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS24_0__INVOKERETURN_B__0_OFFSET UNITYSDK_OFFSET(0x1B461F80)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass24_0_TypeDefinitionIndex = 8890;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass24_0_TypeDefinitionIndex = 8899;
 
 	class MiHoYoSDKDll___c__DisplayClass24_0 : public ::System::Object
 	{

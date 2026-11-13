@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TalkBehaviorRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKBEHAVIORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB27550)
-#define RPG_GAMECORE_TALKBEHAVIORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB272C0)
+#define RPG_GAMECORE_TALKBEHAVIORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E696C60)
+#define RPG_GAMECORE_TALKBEHAVIORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6969D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkBehaviorRow_TypeDefinitionIndex = 15213;
+	inline static constexpr unsigned int TalkBehaviorRow_TypeDefinitionIndex = 15369;
 
 	class TalkBehaviorRow : public ::System::Object
 	{
 	public:
 		::System::String* CustomString; // 0x10
 		::Il2CppArray<::System::UInt32>* ParaList; // 0x18
-		::RPG::GameCore::ParaType ParaType; // 0x20
-		::System::UInt32 ID; // 0x24
-		::System::UInt32 BehaviorType; // 0x28
-		::System::UInt32 CurrencyItem; // 0x2C
+		::System::UInt32 BehaviorType; // 0x20
+		::System::UInt32 CurrencyItem; // 0x24
+		::System::UInt32 ID; // 0x28
+		::RPG::GameCore::ParaType ParaType; // 0x2C
 		::System::UInt32 ParaInt; // 0x30
 		::System::Void _ctor()
 		{

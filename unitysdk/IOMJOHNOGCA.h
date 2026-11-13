@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Reflection { class MethodInfo; }
 
-#define IOMJOHNOGCA_KGBKNGDFABK_OFFSET UNITYSDK_OFFSET(0x16504D20)
+#define IOMJOHNOGCA_KGBKNGDFABK_OFFSET UNITYSDK_OFFSET(0x192F1ED0)
 
-inline static constexpr unsigned int IOMJOHNOGCA_TypeDefinitionIndex = 60086;
+inline static constexpr unsigned int IOMJOHNOGCA_TypeDefinitionIndex = 61370;
 
 	class IOMJOHNOGCA : public ::System::Object
 	{

@@ -9,25 +9,27 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::GameCore { class RechargeBenefitDataRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET UNITYSDK_OFFSET(0xCBCE3B0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CTOR_OFFSET UNITYSDK_OFFSET(0xCBCE480)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GETITEMDISPLAYDATABYINDEX_OFFSET UNITYSDK_OFFSET(0xCBCE4D0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_ID_OFFSET UNITYSDK_OFFSET(0xCBCE200)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCBCE250)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_STATE_OFFSET UNITYSDK_OFFSET(0xCBCE310)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_TARGETQUANTITY_OFFSET UNITYSDK_OFFSET(0xCBCE2C0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0xCBCE560)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET UNITYSDK_OFFSET(0x1B7E5460)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E63D0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GETITEMDISPLAYDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x1B7E6420)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_CHOSENOPTIONALREWARDID_OFFSET UNITYSDK_OFFSET(0x1B7E6330)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B7E61D0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B7E6220)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1B7E6290)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_TARGETQUANTITY_OFFSET UNITYSDK_OFFSET(0x1B7E46F0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARDWITHOPTIONAL_OFFSET UNITYSDK_OFFSET(0x1B7E6500)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0x1B7E64B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CumulativeConsumptionTier_TypeDefinitionIndex = 63541;
+	inline static constexpr unsigned int CumulativeConsumptionTier_TypeDefinitionIndex = 64983;
 
 	class CumulativeConsumptionTier : public ::System::Object
 	{
 	public:
-		::RPG::Client::CumulativeConsumptionActivity* _Owner; // 0x10
-		::RPG::GameCore::RechargeBenefitDataRow* _Meta; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems; // 0x10
+		::RPG::Client::CumulativeConsumptionActivity* _Owner; // 0x18
+		::RPG::GameCore::RechargeBenefitDataRow* _Meta; // 0x20
 		::System::Void _ctor(::RPG::GameCore::RechargeBenefitDataRow* a1, ::RPG::Client::CumulativeConsumptionActivity* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RechargeBenefitDataRow*, ::RPG::Client::CumulativeConsumptionActivity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CTOR_OFFSET))(this, a1, a2);
@@ -53,6 +55,11 @@ namespace RPG::Client
 			return ((::RPG::Client::CumulativeConsumptionTierState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_STATE_OFFSET))(this);
 		}
 
+		::System::UInt32 get_ChosenOptionalRewardID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_CHOSENOPTIONALREWARDID_OFFSET))(this);
+		}
+
 		static ::RPG::Client::CumulativeConsumptionTier* Create(::System::UInt32 a1, ::RPG::Client::CumulativeConsumptionActivity* a2)
 		{
 			return ((::RPG::Client::CumulativeConsumptionTier*(*)(::System::UInt32, ::RPG::Client::CumulativeConsumptionActivity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET))(a1, a2);
@@ -66,6 +73,11 @@ namespace RPG::Client
 		::System::Void TakeReward()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARD_OFFSET))(this);
+		}
+
+		::System::Void TakeRewardWithOptional(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARDWITHOPTIONAL_OFFSET))(this, a1);
 		}
 
 	};

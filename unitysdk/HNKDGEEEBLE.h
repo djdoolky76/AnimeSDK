@@ -5,17 +5,17 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HNKDGEEEBLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C649DB0)
-#define HNKDGEEEBLE_GNLJKGAHBLI_OFFSET UNITYSDK_OFFSET(0x1C649CC0)
+#define HNKDGEEEBLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C932370)
+#define HNKDGEEEBLE_GNLJKGAHBLI_OFFSET UNITYSDK_OFFSET(0x1C932280)
 
-inline static constexpr unsigned int HNKDGEEEBLE_TypeDefinitionIndex = 37209;
+inline static constexpr unsigned int HNKDGEEEBLE_TypeDefinitionIndex = 38137;
 
 	class HNKDGEEEBLE : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Object*>** StaticGet_DJDMBFHDHON()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Object*>**)UnitySDK::FromName("", "HNKDGEEEBLE")->GetStaticField(0x20F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Object*>**)UnitySDK::FromName("", "HNKDGEEEBLE")->GetStaticField(0x70B90);
 		}
 
 		static ::System::Void _cctor()

@@ -6,10 +6,10 @@ class FCOEMCEDLNL;
 class PEMAHMMMPIF;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define PEMAHMMMPIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A8200)
-#define PEMAHMMMPIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2A8060)
+#define PEMAHMMMPIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7139F0)
+#define PEMAHMMMPIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E713870)
 
-inline static constexpr unsigned int PEMAHMMMPIF_TypeDefinitionIndex = 23332;
+inline static constexpr unsigned int PEMAHMMMPIF_TypeDefinitionIndex = 23773;
 
 	class PEMAHMMMPIF : public ::RPG::GameCore::JsonConfig
 	{

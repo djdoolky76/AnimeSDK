@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimMusicComboJumpConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMMUSICCOMBOJUMPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A0010)
-#define RPG_GAMECORE_FIVEDIMMUSICCOMBOJUMPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69FE70)
+#define RPG_GAMECORE_FIVEDIMMUSICCOMBOJUMPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86C5C0)
+#define RPG_GAMECORE_FIVEDIMMUSICCOMBOJUMPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E86C420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMusicComboJumpConfig_TypeDefinitionIndex = 18828;
+	inline static constexpr unsigned int FiveDimMusicComboJumpConfig_TypeDefinitionIndex = 18990;
 
 	class FiveDimMusicComboJumpConfig : public ::RPG::GameCore::JsonConfig
 	{

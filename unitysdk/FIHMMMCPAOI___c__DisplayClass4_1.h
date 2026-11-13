@@ -4,18 +4,18 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 
-#define FIHMMMCPAOI___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1579D180)
-#define FIHMMMCPAOI___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__1_OFFSET UNITYSDK_OFFSET(0x1579D190)
-#define FIHMMMCPAOI___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__2_OFFSET UNITYSDK_OFFSET(0x1579D210)
+#define FIHMMMCPAOI___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0x19806A40)
+#define FIHMMMCPAOI___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__1_OFFSET UNITYSDK_OFFSET(0x19806A50)
+#define FIHMMMCPAOI___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__2_OFFSET UNITYSDK_OFFSET(0x19806AD0)
 
-inline static constexpr unsigned int FIHMMMCPAOI___c__DisplayClass4_1_TypeDefinitionIndex = 67641;
+inline static constexpr unsigned int FIHMMMCPAOI___c__DisplayClass4_1_TypeDefinitionIndex = 69585;
 
 	template <typename T>
 	class FIHMMMCPAOI___c__DisplayClass4_1 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
+		::RPG::Client::Promises::Promise* promise; // 0x10
+		::System::Action* __9__2; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIHMMMCPAOI___C__DISPLAYCLASS4_1_CTOR_OFFSET))(this);

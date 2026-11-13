@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByInfiniteWaveData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CFIFDFMFKOP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC48EA0)
-#define CFIFDFMFKOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC48F80)
+#define CFIFDFMFKOP_CTOR_OFFSET UNITYSDK_OFFSET(0x17821C40)
+#define CFIFDFMFKOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17821D20)
 
-inline static constexpr unsigned int CFIFDFMFKOP_TypeDefinitionIndex = 55450;
+inline static constexpr unsigned int CFIFDFMFKOP_TypeDefinitionIndex = 56638;
 
 	class CFIFDFMFKOP
 	{

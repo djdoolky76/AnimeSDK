@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ShowBattleCardBuffSelection; }
 
-#define RPG_GAMECORE_BATTLECARDBUFFSELECTIONDIALOGINITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE5AFAA0)
-#define RPG_GAMECORE_BATTLECARDBUFFSELECTIONDIALOGINITPARAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5AFA50)
+#define RPG_GAMECORE_BATTLECARDBUFFSELECTIONDIALOGINITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AE5D8F0)
+#define RPG_GAMECORE_BATTLECARDBUFFSELECTIONDIALOGINITPARAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AE5D8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCardBuffSelectionDialogInitParam_TypeDefinitionIndex = 58607;
+	inline static constexpr unsigned int BattleCardBuffSelectionDialogInitParam_TypeDefinitionIndex = 59872;
 
 	class BattleCardBuffSelectionDialogInitParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ShowBattleCardBuffSelection* Config; // 0x10
-		::System::Single AutoSelectDelay; // 0x18
-		::System::Int32 AutoSelectIndex; // 0x1C
+		::System::Int32 AutoSelectIndex; // 0x18
+		::System::Single AutoSelectDelay; // 0x1C
 		::System::Single AutoConfirmDelay; // 0x20
 		::System::Void _ctor()
 		{

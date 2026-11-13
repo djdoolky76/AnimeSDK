@@ -3,10 +3,10 @@
 #include "unitysdk/EIDJMCKOHEK.h"
 namespace System { class Object; }
 
-#define JPHPCHGPBNO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BA260)
-#define JPHPCHGPBNO_JMBFOHAMFGI_OFFSET UNITYSDK_OFFSET(0xB2BA210)
+#define JPHPCHGPBNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4FC190)
+#define JPHPCHGPBNO_JMBFOHAMFGI_OFFSET UNITYSDK_OFFSET(0x1B4FC140)
 
-inline static constexpr unsigned int JPHPCHGPBNO_TypeDefinitionIndex = 71753;
+inline static constexpr unsigned int JPHPCHGPBNO_TypeDefinitionIndex = 73755;
 
 	class JPHPCHGPBNO : public ::EIDJMCKOHEK
 	{

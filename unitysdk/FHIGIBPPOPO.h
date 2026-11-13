@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBtnBattleHintInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHIGIBPPOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15774870)
-#define FHIGIBPPOPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157748A0)
+#define FHIGIBPPOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x18AAA120)
+#define FHIGIBPPOPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AAA150)
 
-inline static constexpr unsigned int FHIGIBPPOPO_TypeDefinitionIndex = 55362;
+inline static constexpr unsigned int FHIGIBPPOPO_TypeDefinitionIndex = 56545;
 
 	class FHIGIBPPOPO
 	{

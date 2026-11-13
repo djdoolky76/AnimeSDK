@@ -8,18 +8,18 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define ACKABEKCMOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB122260)
-#define ACKABEKCMOH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB1222E0)
-#define ACKABEKCMOH_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0xB122330)
+#define ACKABEKCMOH_CTOR_OFFSET UNITYSDK_OFFSET(0x18292DE0)
+#define ACKABEKCMOH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x18292E60)
+#define ACKABEKCMOH_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x18292EB0)
 
-inline static constexpr unsigned int ACKABEKCMOH_TypeDefinitionIndex = 65956;
+inline static constexpr unsigned int ACKABEKCMOH_TypeDefinitionIndex = 67888;
 
 	class ACKABEKCMOH : public ::System::Object
 	{
 	public:
 		::ACKABEKCMOH_NHGPPEFMBMD* IGHAHBNLIJA; // 0x10
-		::RPG::Client::UIPrefabLoader* HMELCEOFACP; // 0x18
-		::System::String* GEJIJFFILEB; // 0x20
+		::System::String* GEJIJFFILEB; // 0x18
+		::RPG::Client::UIPrefabLoader* HMELCEOFACP; // 0x20
 		::System::Collections::Generic::Queue_1<::UnityEngine::GameObject*>* BEHHICMOFIE; // 0x28
 		::System::Void _ctor(::System::String* a1, ::ACKABEKCMOH_NHGPPEFMBMD* a2)
 		{

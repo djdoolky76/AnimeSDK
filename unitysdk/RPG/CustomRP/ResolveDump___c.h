@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CUSTOMRP_RESOLVEDUMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC433C0)
-#define RPG_CUSTOMRP_RESOLVEDUMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC43400)
-#define RPG_CUSTOMRP_RESOLVEDUMP___C___SAVETOLOCAL_B__7_0_OFFSET UNITYSDK_OFFSET(0x1CC43410)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1990A300)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1990A340)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C___SAVETOLOCAL_B__7_0_OFFSET UNITYSDK_OFFSET(0x1990A350)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ResolveDump___c_TypeDefinitionIndex = 37746;
+	inline static constexpr unsigned int ResolveDump___c_TypeDefinitionIndex = 38675;
 
 	class ResolveDump___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x30030);
-		}
-
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x30038);
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x2AED0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x2AED8);
 		}
 
 		static ::System::Void _cctor()

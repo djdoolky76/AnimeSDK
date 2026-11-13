@@ -4,18 +4,18 @@
 class EJCCCIGMHOM;
 namespace System { class Object; }
 
-#define EJCCCIGMHOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E284370)
-#define EJCCCIGMHOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2843B0)
-#define EJCCCIGMHOM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E2843C0)
+#define EJCCCIGMHOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF9AEA0)
+#define EJCCCIGMHOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF9AEE0)
+#define EJCCCIGMHOM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FF9AEF0)
 
-inline static constexpr unsigned int EJCCCIGMHOM___c_TypeDefinitionIndex = 28369;
+inline static constexpr unsigned int EJCCCIGMHOM___c_TypeDefinitionIndex = 28959;
 
 	class EJCCCIGMHOM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BEF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F5B0);
 		}
 
 		static ::System::Void _cctor()

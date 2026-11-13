@@ -5,11 +5,11 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_MONOMAP3DTOUCH_NHDFAHKCJLO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xEC180)
+#define RPG_CLIENT_MONOMAP3DTOUCH_NHDFAHKCJLO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3EFA1A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMap3DTouch_NHDFAHKCJLO_TypeDefinitionIndex = 69044;
+	inline static constexpr unsigned int MonoMap3DTouch_NHDFAHKCJLO_TypeDefinitionIndex = 70997;
 
 	struct alignas(8) MonoMap3DTouch_NHDFAHKCJLO
 	{

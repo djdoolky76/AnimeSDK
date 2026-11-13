@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE380530)
-#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS18_0__EXITPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xE38B640)
+#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1091D0)
+#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS18_0__EXITPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x1A114350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIController___c__DisplayClass18_0_TypeDefinitionIndex = 73037;
+	inline static constexpr unsigned int UIController___c__DisplayClass18_0_TypeDefinitionIndex = 75151;
 
 	class UIController___c__DisplayClass18_0 : public ::System::Object
 	{

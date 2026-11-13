@@ -7,22 +7,22 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EIAPGPIHHKO_ACLFABNHBDM_OFFSET UNITYSDK_OFFSET(0x154AFB80)
-#define EIAPGPIHHKO_CDHDLODJJKD_OFFSET UNITYSDK_OFFSET(0x154AFCD0)
-#define EIAPGPIHHKO_CTOR_OFFSET UNITYSDK_OFFSET(0x154AF940)
-#define EIAPGPIHHKO_JCMKEOIHHEG_OFFSET UNITYSDK_OFFSET(0x154AF9A0)
-#define EIAPGPIHHKO_KBGOBCHKFPJ_OFFSET UNITYSDK_OFFSET(0x154AFA40)
-#define EIAPGPIHHKO_MGPJKBKPIMO_OFFSET UNITYSDK_OFFSET(0x154AFAE0)
-#define EIAPGPIHHKO_POJDCEKAMHH_OFFSET UNITYSDK_OFFSET(0x154AF950)
+#define EIAPGPIHHKO_ACLFABNHBDM_OFFSET UNITYSDK_OFFSET(0x19A88FE0)
+#define EIAPGPIHHKO_CDHDLODJJKD_OFFSET UNITYSDK_OFFSET(0x19A89130)
+#define EIAPGPIHHKO_CTOR_OFFSET UNITYSDK_OFFSET(0x18BE0660)
+#define EIAPGPIHHKO_JCMKEOIHHEG_OFFSET UNITYSDK_OFFSET(0x18BE06C0)
+#define EIAPGPIHHKO_KBGOBCHKFPJ_OFFSET UNITYSDK_OFFSET(0x18BE0760)
+#define EIAPGPIHHKO_MGPJKBKPIMO_OFFSET UNITYSDK_OFFSET(0x18BE0800)
+#define EIAPGPIHHKO_POJDCEKAMHH_OFFSET UNITYSDK_OFFSET(0x18BE0670)
 
-inline static constexpr unsigned int EIAPGPIHHKO_TypeDefinitionIndex = 49691;
+inline static constexpr unsigned int EIAPGPIHHKO_TypeDefinitionIndex = 50767;
 
 	class EIAPGPIHHKO : public ::System::Object
 	{
 	public:
-		::EGKKDIOKFDA* CFKHNPGEAJA; // 0x10
+		::System::Collections::Generic::List_1<::Sofa::BaseSofaControl*>* GFFAGJOELCH; // 0x10
 		::System::Action_1<::Sofa::BaseSofaControl*>* DLLGEJMHAPN; // 0x18
-		::System::Collections::Generic::List_1<::Sofa::BaseSofaControl*>* GFFAGJOELCH; // 0x20
+		::EGKKDIOKFDA* CFKHNPGEAJA; // 0x20
 		::System::Void _ctor(::EGKKDIOKFDA* a1, ::System::Action_1<::Sofa::BaseSofaControl*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::EGKKDIOKFDA*, ::System::Action_1<::Sofa::BaseSofaControl*>*))((::PBYTE)hIl2Cpp + EIAPGPIHHKO_CTOR_OFFSET))(this, a1, a2);

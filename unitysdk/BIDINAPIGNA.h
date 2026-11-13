@@ -5,22 +5,22 @@ class KAKADGHNMFK;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define BIDINAPIGNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB49F8F0)
-#define BIDINAPIGNA_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0xB49FA30)
-#define BIDINAPIGNA_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xB49F970)
+#define BIDINAPIGNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB2060)
+#define BIDINAPIGNA_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0x1BAB21A0)
+#define BIDINAPIGNA_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x1BAB20E0)
 
-inline static constexpr unsigned int BIDINAPIGNA_TypeDefinitionIndex = 77623;
+inline static constexpr unsigned int BIDINAPIGNA_TypeDefinitionIndex = 80358;
 
 	class BIDINAPIGNA : public ::OCFMCBFNLND
 	{
 	public:
 		::KAKADGHNMFK* MMILCIBMANG; // 0x30
-		::System::Int32 BJHHAGGONAJ; // 0x38
-		::System::Int32 NOMMFKJOBOD; // 0x3C
+		::System::Int32 NDBEJOPFPOC; // 0x38
+		::System::Int32 DDAHAJMOOMK; // 0x3C
 		::System::Int32 PGPLOHEEHLN; // 0x40
-		::System::Int32 DDAHAJMOOMK; // 0x44
-		::System::Int32 EGAKBLAGLPJ; // 0x48
-		::System::Int32 NDBEJOPFPOC; // 0x4C
+		::System::Int32 BJHHAGGONAJ; // 0x44
+		::System::Int32 NOMMFKJOBOD; // 0x48
+		::System::Int32 EGAKBLAGLPJ; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BIDINAPIGNA_CTOR_OFFSET))(this);

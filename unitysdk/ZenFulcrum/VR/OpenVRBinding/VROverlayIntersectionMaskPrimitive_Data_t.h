@@ -5,7 +5,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VROverlayIntersectionMaskPrimitive_Data_t_TypeDefinitionIndex = 39264;
+	inline static constexpr unsigned int VROverlayIntersectionMaskPrimitive_Data_t_TypeDefinitionIndex = 40193;
 
 	struct alignas(4) VROverlayIntersectionMaskPrimitive_Data_t
 	{

@@ -5,10 +5,10 @@
 class NBKNHOHKDJI;
 namespace R3 { template <typename T> class Observer_1; }
 
-#define NBKNHOHKDJI___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5A860)
-#define NBKNHOHKDJI___C__DISPLAYCLASS11_0__SUBSCRIBECORE_B__0_OFFSET UNITYSDK_OFFSET(0x1EC5AA80)
+#define NBKNHOHKDJI___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5443C0)
+#define NBKNHOHKDJI___C__DISPLAYCLASS11_0__SUBSCRIBECORE_B__0_OFFSET UNITYSDK_OFFSET(0x1E5445D0)
 
-inline static constexpr unsigned int NBKNHOHKDJI___c__DisplayClass11_0_TypeDefinitionIndex = 44242;
+inline static constexpr unsigned int NBKNHOHKDJI___c__DisplayClass11_0_TypeDefinitionIndex = 45317;
 
 	class NBKNHOHKDJI___c__DisplayClass11_0 : public ::System::Object
 	{

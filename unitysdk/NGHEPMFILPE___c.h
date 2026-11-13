@@ -4,18 +4,18 @@
 class NGHEPMFILPE;
 namespace System { class Object; }
 
-#define NGHEPMFILPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAE3370)
-#define NGHEPMFILPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE33B0)
-#define NGHEPMFILPE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAE33C0)
+#define NGHEPMFILPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20401080)
+#define NGHEPMFILPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204010C0)
+#define NGHEPMFILPE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x204010D0)
 
-inline static constexpr unsigned int NGHEPMFILPE___c_TypeDefinitionIndex = 27179;
+inline static constexpr unsigned int NGHEPMFILPE___c_TypeDefinitionIndex = 27710;
 
 	class NGHEPMFILPE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63C50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60420);
 		}
 
 		static ::System::Void _cctor()

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LIIKKFCKALK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0CB5B0)
-#define LIIKKFCKALK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0CC100)
-#define LIIKKFCKALK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D0CB950)
-#define LIIKKFCKALK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D0CB5F0)
-#define LIIKKFCKALK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0CBE40)
-#define LIIKKFCKALK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0CB9F0)
-#define LIIKKFCKALK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0CBA40)
-#define LIIKKFCKALK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0CB820)
-#define LIIKKFCKALK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D0CBDE0)
-#define LIIKKFCKALK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D0CBFB0)
-#define LIIKKFCKALK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0CB8B0)
-#define LIIKKFCKALK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0CBD60)
+#define LIIKKFCKALK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E9671F0)
+#define LIIKKFCKALK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E967D40)
+#define LIIKKFCKALK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E967590)
+#define LIIKKFCKALK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E967230)
+#define LIIKKFCKALK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E967A80)
+#define LIIKKFCKALK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E967630)
+#define LIIKKFCKALK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E967680)
+#define LIIKKFCKALK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E967460)
+#define LIIKKFCKALK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E967A20)
+#define LIIKKFCKALK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E967BF0)
+#define LIIKKFCKALK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E9674F0)
+#define LIIKKFCKALK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E9679A0)
 
-inline static constexpr unsigned int LIIKKFCKALK_TypeDefinitionIndex = 15208;
+inline static constexpr unsigned int LIIKKFCKALK_TypeDefinitionIndex = 15364;
 
 	class LIIKKFCKALK : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SummonUnitDataRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SummonUnitDataRow*>**)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0x3BD40);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0x3BD48);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SummonUnitDataRow*>**)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0x3A360);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0x3BD50);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0x3A368);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0x3A370);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0xBFE0);
+			return (::System::Boolean*)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0xB9E0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0xBFE1);
+			return (::System::Byte*)UnitySDK::FromName("", "LIIKKFCKALK")->GetStaticField(0xB9E1);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSimpleHitBoxHitPlayerAction_TypeDefinitionIndex = 18604;
+	inline static constexpr unsigned int FiveDimSimpleHitBoxHitPlayerAction_TypeDefinitionIndex = 18764;
 
 	enum class FiveDimSimpleHitBoxHitPlayerAction : ::System::Int32
 	{

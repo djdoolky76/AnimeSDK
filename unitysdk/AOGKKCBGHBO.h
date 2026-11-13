@@ -7,28 +7,28 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define AOGKKCBGHBO_CCTOR_OFFSET UNITYSDK_OFFSET(0x158A0D40)
-#define AOGKKCBGHBO_FHJFAACBEPM_OFFSET UNITYSDK_OFFSET(0x158A0650)
-#define AOGKKCBGHBO_MCHMLDGMINI_OFFSET UNITYSDK_OFFSET(0x158A06B0)
+#define AOGKKCBGHBO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A845F80)
+#define AOGKKCBGHBO_FHJFAACBEPM_OFFSET UNITYSDK_OFFSET(0x1A845860)
+#define AOGKKCBGHBO_MCHMLDGMINI_OFFSET UNITYSDK_OFFSET(0x1A8458C0)
 
-inline static constexpr unsigned int AOGKKCBGHBO_TypeDefinitionIndex = 73727;
+inline static constexpr unsigned int AOGKKCBGHBO_TypeDefinitionIndex = 75850;
 
 	class AOGKKCBGHBO : public ::System::Object
 	{
 	public:
+		static ::System::Int32* StaticGet_NNADHCHDDBE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "AOGKKCBGHBO")->GetStaticField(0x70B0);
+		}
+
 		static ::System::Boolean* StaticGet_EEEMBMAHNMJ()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AOGKKCBGHBO")->GetStaticField(0x5B50);
+			return (::System::Boolean*)UnitySDK::FromName("", "AOGKKCBGHBO")->GetStaticField(0x70B4);
 		}
 
 		static ::System::Boolean* StaticGet_DPHNNDMOCPJ()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AOGKKCBGHBO")->GetStaticField(0x5B51);
-		}
-
-		static ::System::Int32* StaticGet_NNADHCHDDBE()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "AOGKKCBGHBO")->GetStaticField(0x5B54);
+			return (::System::Boolean*)UnitySDK::FromName("", "AOGKKCBGHBO")->GetStaticField(0x70B5);
 		}
 
 		// static const ::System::String* HOAFODJBPLL; // 0x0

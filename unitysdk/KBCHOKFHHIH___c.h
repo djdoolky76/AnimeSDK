@@ -4,18 +4,18 @@
 class KBCHOKFHHIH;
 namespace System { class Object; }
 
-#define KBCHOKFHHIH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7BD050)
-#define KBCHOKFHHIH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BD090)
-#define KBCHOKFHHIH___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E7BD0A0)
+#define KBCHOKFHHIH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203B2280)
+#define KBCHOKFHHIH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203B22C0)
+#define KBCHOKFHHIH___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x203B22D0)
 
-inline static constexpr unsigned int KBCHOKFHHIH___c_TypeDefinitionIndex = 25741;
+inline static constexpr unsigned int KBCHOKFHHIH___c_TypeDefinitionIndex = 26238;
 
 	class KBCHOKFHHIH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD5C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69AF0);
 		}
 
 		static ::System::Void _cctor()

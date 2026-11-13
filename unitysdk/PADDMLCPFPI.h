@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PADDMLCPFPI_TypeDefinitionIndex = 41453;
+inline static constexpr unsigned int PADDMLCPFPI_TypeDefinitionIndex = 42428;
 
 	class PADDMLCPFPI
 	{

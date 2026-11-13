@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TrackNpcZoneConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D372920)
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D372A10)
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3728E0)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EABA210)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EABA300)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EABA1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvGameplayTrackNpc_TypeDefinitionIndex = 22184;
+	inline static constexpr unsigned int AdvGameplayTrackNpc_TypeDefinitionIndex = 22589;
 
 	class AdvGameplayTrackNpc : public ::RPG::GameCore::TaskConfig
 	{

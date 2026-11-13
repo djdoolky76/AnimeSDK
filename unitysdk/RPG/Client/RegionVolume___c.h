@@ -6,25 +6,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_REGIONVOLUME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE5D400)
-#define RPG_CLIENT_REGIONVOLUME___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE5D430)
-#define RPG_CLIENT_REGIONVOLUME___C__LOAD_B__2_0_OFFSET UNITYSDK_OFFSET(0xDE5D440)
+#define RPG_CLIENT_REGIONVOLUME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0832D0)
+#define RPG_CLIENT_REGIONVOLUME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D083300)
+#define RPG_CLIENT_REGIONVOLUME___C__LOAD_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D083310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionVolume___c_TypeDefinitionIndex = 62192;
+	inline static constexpr unsigned int RegionVolume___c_TypeDefinitionIndex = 63605;
 
 	class RegionVolume___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BD20);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A600);
 		}
 
 		static ::System::Func_2<::RPG::MVector2, ::UnityEngine::Vector2>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::MVector2, ::UnityEngine::Vector2>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BD28);
+			return (::System::Func_2<::RPG::MVector2, ::UnityEngine::Vector2>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A608);
 		}
 
 		static ::System::Void _cctor()

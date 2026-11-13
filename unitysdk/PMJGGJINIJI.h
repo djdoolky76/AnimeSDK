@@ -3,10 +3,10 @@
 #include "unitysdk/EMHOOPFDGGO.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define PMJGGJINIJI_CTOR_OFFSET UNITYSDK_OFFSET(0xC31BDB0)
-#define PMJGGJINIJI_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xC31BDA0)
+#define PMJGGJINIJI_CTOR_OFFSET UNITYSDK_OFFSET(0x188A8970)
+#define PMJGGJINIJI_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x188A8960)
 
-inline static constexpr unsigned int PMJGGJINIJI_TypeDefinitionIndex = 76966;
+inline static constexpr unsigned int PMJGGJINIJI_TypeDefinitionIndex = 79300;
 
 	class PMJGGJINIJI : public ::EMHOOPFDGGO
 	{

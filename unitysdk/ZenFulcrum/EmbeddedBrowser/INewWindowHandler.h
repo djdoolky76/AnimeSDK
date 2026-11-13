@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int INewWindowHandler_TypeDefinitionIndex = 39507;
+	inline static constexpr unsigned int INewWindowHandler_TypeDefinitionIndex = 40436;
 
 	class INewWindowHandler
 	{

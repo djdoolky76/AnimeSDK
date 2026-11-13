@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByTeamOnFieldCount; }
 
-#define PILDPABMIAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BB290)
-#define PILDPABMIAN_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C9BB2B0)
+#define PILDPABMIAN_CTOR_OFFSET UNITYSDK_OFFSET(0x176BE200)
+#define PILDPABMIAN_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x176BE220)
 
-inline static constexpr unsigned int PILDPABMIAN_TypeDefinitionIndex = 43155;
+inline static constexpr unsigned int PILDPABMIAN_TypeDefinitionIndex = 44136;
 
 	class PILDPABMIAN : public ::LHJPMDPJPEC
 	{

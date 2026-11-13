@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IEquivableWrapperClass_1_TypeDefinitionIndex = 40690;
+	inline static constexpr unsigned int IEquivableWrapperClass_1_TypeDefinitionIndex = 41665;
 
 	template <typename T>
 	class IEquivableWrapperClass_1

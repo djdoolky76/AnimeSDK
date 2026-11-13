@@ -8,12 +8,12 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 namespace RPG::GameCore { class LittleGameAbilityValueGetterAttributeConfig; }
 
-#define BFDLAMDBCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB15F580)
-#define BFDLAMDBCCJ_GETVALUE_OFFSET UNITYSDK_OFFSET(0xB15EFB0)
-#define BFDLAMDBCCJ_GJNKFBEGBNF_OFFSET UNITYSDK_OFFSET(0xB15F3D0)
-#define BFDLAMDBCCJ_LFOLHIFMLEN_OFFSET UNITYSDK_OFFSET(0xB15F310)
+#define BFDLAMDBCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A955480)
+#define BFDLAMDBCCJ_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1A954EB0)
+#define BFDLAMDBCCJ_GJNKFBEGBNF_OFFSET UNITYSDK_OFFSET(0x1A9552D0)
+#define BFDLAMDBCCJ_LFOLHIFMLEN_OFFSET UNITYSDK_OFFSET(0x1A955210)
 
-inline static constexpr unsigned int BFDLAMDBCCJ_TypeDefinitionIndex = 77395;
+inline static constexpr unsigned int BFDLAMDBCCJ_TypeDefinitionIndex = 79729;
 
 	class BFDLAMDBCCJ : public ::System::Object
 	{

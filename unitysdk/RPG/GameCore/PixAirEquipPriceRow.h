@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirEquipPriceRow; }
 
-#define RPG_GAMECORE_PIXAIREQUIPPRICEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EE020)
-#define RPG_GAMECORE_PIXAIREQUIPPRICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EDE70)
+#define RPG_GAMECORE_PIXAIREQUIPPRICEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5C870)
+#define RPG_GAMECORE_PIXAIREQUIPPRICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE5C6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEquipPriceRow_TypeDefinitionIndex = 12163;
+	inline static constexpr unsigned int PixAirEquipPriceRow_TypeDefinitionIndex = 12220;
 
 	class PixAirEquipPriceRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BuyPrice; // 0x10
-		::System::UInt32 SellPrice; // 0x14
-		::System::UInt32 Level; // 0x18
-		::RPG::GameCore::PixAirSlotType SlotType; // 0x1C
+		::RPG::GameCore::PixAirSlotType SlotType; // 0x10
+		::System::UInt32 Level; // 0x14
+		::System::UInt32 BuyPrice; // 0x18
+		::System::UInt32 SellPrice; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIREQUIPPRICEROW_CTOR_OFFSET))(this);

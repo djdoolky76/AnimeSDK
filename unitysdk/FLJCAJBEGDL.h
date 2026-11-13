@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByExtraRound; }
 
-#define FLJCAJBEGDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA42CC0)
-#define FLJCAJBEGDL_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CA42CE0)
+#define FLJCAJBEGDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D480)
+#define FLJCAJBEGDL_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C20D4A0)
 
-inline static constexpr unsigned int FLJCAJBEGDL_TypeDefinitionIndex = 43157;
+inline static constexpr unsigned int FLJCAJBEGDL_TypeDefinitionIndex = 44138;
 
 	class FLJCAJBEGDL : public ::LHJPMDPJPEC
 	{

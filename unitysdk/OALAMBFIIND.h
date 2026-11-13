@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int OALAMBFIIND_TypeDefinitionIndex = 73794;
+inline static constexpr unsigned int OALAMBFIIND_TypeDefinitionIndex = 75920;
 
 	class OALAMBFIIND : public ::System::Object
 	{

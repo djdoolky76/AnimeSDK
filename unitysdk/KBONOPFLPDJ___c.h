@@ -4,18 +4,18 @@
 class KBONOPFLPDJ;
 namespace System { class Object; }
 
-#define KBONOPFLPDJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7C47F0)
-#define KBONOPFLPDJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C4820)
-#define KBONOPFLPDJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7C4830)
+#define KBONOPFLPDJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203BA3A0)
+#define KBONOPFLPDJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203BA3D0)
+#define KBONOPFLPDJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x203BA3E0)
 
-inline static constexpr unsigned int KBONOPFLPDJ___c_TypeDefinitionIndex = 32385;
+inline static constexpr unsigned int KBONOPFLPDJ___c_TypeDefinitionIndex = 33298;
 
 	class KBONOPFLPDJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xEBE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69FA0);
 		}
 
 		static ::System::Void _cctor()

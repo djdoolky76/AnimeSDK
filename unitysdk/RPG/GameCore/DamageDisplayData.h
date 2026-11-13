@@ -8,12 +8,12 @@ namespace RPG::GameCore { class AdditionalDisplayData; }
 namespace RPG::GameCore { class DamageDisplayData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DAMAGEDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C3220)
-#define RPG_GAMECORE_DAMAGEDISPLAYDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C2C70)
+#define RPG_GAMECORE_DAMAGEDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFFC610)
+#define RPG_GAMECORE_DAMAGEDISPLAYDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFFC060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageDisplayData_TypeDefinitionIndex = 22577;
+	inline static constexpr unsigned int DamageDisplayData_TypeDefinitionIndex = 22992;
 
 	class DamageDisplayData : public ::RPG::GameCore::JsonConfig
 	{

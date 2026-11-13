@@ -4,18 +4,18 @@
 class GIEPFAIPADI;
 namespace System { class Object; }
 
-#define GIEPFAIPADI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E468250)
-#define GIEPFAIPADI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E468290)
-#define GIEPFAIPADI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4682A0)
+#define GIEPFAIPADI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBC9DA0)
+#define GIEPFAIPADI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC9DE0)
+#define GIEPFAIPADI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FBC9DF0)
 
-inline static constexpr unsigned int GIEPFAIPADI___c_TypeDefinitionIndex = 27624;
+inline static constexpr unsigned int GIEPFAIPADI___c_TypeDefinitionIndex = 28155;
 
 	class GIEPFAIPADI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x185F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x115B0);
 		}
 
 		static ::System::Void _cctor()

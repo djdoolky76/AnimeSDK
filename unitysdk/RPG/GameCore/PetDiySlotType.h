@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetDiySlotType_TypeDefinitionIndex = 14406;
+	inline static constexpr unsigned int PetDiySlotType_TypeDefinitionIndex = 14563;
 
 	enum class PetDiySlotType : ::System::Int32
 	{

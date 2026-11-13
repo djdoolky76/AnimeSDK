@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTeamLeaderBodySize; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EEJKBAODKJC_CTOR_OFFSET UNITYSDK_OFFSET(0x13A31D00)
-#define EEJKBAODKJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A31D30)
+#define EEJKBAODKJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A31A3E0)
+#define EEJKBAODKJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A31A410)
 
-inline static constexpr unsigned int EEJKBAODKJC_TypeDefinitionIndex = 53139;
+inline static constexpr unsigned int EEJKBAODKJC_TypeDefinitionIndex = 54301;
 
 	class EEJKBAODKJC
 	{

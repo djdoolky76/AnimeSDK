@@ -5,24 +5,24 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 
-#define JIEEGJDAOIE_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E8D40)
-#define JIEEGJDAOIE_DMJOKNMPLHJ_OFFSET UNITYSDK_OFFSET(0xB1E9290)
-#define JIEEGJDAOIE_HGAMLCFBAHL_OFFSET UNITYSDK_OFFSET(0xB1E90F0)
-#define JIEEGJDAOIE_JALNEMBGHEF_OFFSET UNITYSDK_OFFSET(0xB1E9230)
-#define JIEEGJDAOIE_KBPBMDFLFHP_OFFSET UNITYSDK_OFFSET(0xB1E91D0)
-#define JIEEGJDAOIE_KGDLMPEABGG_OFFSET UNITYSDK_OFFSET(0xB1E8D90)
-#define JIEEGJDAOIE__PLAYTRANSITION_B__1_0_OFFSET UNITYSDK_OFFSET(0xB1E9480)
+#define JIEEGJDAOIE_CTOR_OFFSET UNITYSDK_OFFSET(0x174179A0)
+#define JIEEGJDAOIE_DMJOKNMPLHJ_OFFSET UNITYSDK_OFFSET(0x17417EF0)
+#define JIEEGJDAOIE_HGAMLCFBAHL_OFFSET UNITYSDK_OFFSET(0x17417D50)
+#define JIEEGJDAOIE_JALNEMBGHEF_OFFSET UNITYSDK_OFFSET(0x17417E90)
+#define JIEEGJDAOIE_KBPBMDFLFHP_OFFSET UNITYSDK_OFFSET(0x17417E30)
+#define JIEEGJDAOIE_KGDLMPEABGG_OFFSET UNITYSDK_OFFSET(0x174179F0)
+#define JIEEGJDAOIE__PLAYTRANSITION_B__1_0_OFFSET UNITYSDK_OFFSET(0x174180E0)
 
-inline static constexpr unsigned int JIEEGJDAOIE_TypeDefinitionIndex = 73112;
+inline static constexpr unsigned int JIEEGJDAOIE_TypeDefinitionIndex = 75226;
 
 	class JIEEGJDAOIE : public ::KNAKIBHJLFN
 	{
 	public:
-		::RPG::Client::Promises::Promise* ECDCAFKFIFJ; // 0x28
-		::RPG::Client::Promises::Promise* OBLMKODKNCA; // 0x30
-		::RPG::Client::UIController* HKJLKMCDMGB; // 0x38
-		::RPG::Client::Promises::Promise* NFEBMNGKADJ; // 0x40
-		::RPG::Client::UIController* IBLBKLNHKLL; // 0x48
+		::RPG::Client::Promises::Promise* NFEBMNGKADJ; // 0x28
+		::RPG::Client::UIController* IBLBKLNHKLL; // 0x30
+		::RPG::Client::Promises::Promise* OBLMKODKNCA; // 0x38
+		::RPG::Client::Promises::Promise* ECDCAFKFIFJ; // 0x40
+		::RPG::Client::UIController* HKJLKMCDMGB; // 0x48
 		::System::Void _ctor(::RPG::Client::UIController* a1, ::RPG::Client::UIController* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + JIEEGJDAOIE_CTOR_OFFSET))(this, a1, a2);

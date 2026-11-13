@@ -3,10 +3,10 @@
 #include "unitysdk/DBGIKHLJJMH.h"
 #include "unitysdk/System/Object.h"
 
-#define HNGHMFMNBFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAC4D00)
-#define HNGHMFMNBFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC4D60)
+#define HNGHMFMNBFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EFB9250)
+#define HNGHMFMNBFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB92B0)
 
-inline static constexpr unsigned int HNGHMFMNBFL_TypeDefinitionIndex = 42071;
+inline static constexpr unsigned int HNGHMFMNBFL_TypeDefinitionIndex = 43046;
 
 	class HNGHMFMNBFL : public ::System::Object
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtBattleStageCellConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTBATTLESTAGECELLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA211C0)
-#define RPG_GAMECORE_RTBATTLESTAGECELLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA21010)
+#define RPG_GAMECORE_RTBATTLESTAGECELLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF424A0)
+#define RPG_GAMECORE_RTBATTLESTAGECELLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF422F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleStageCellConfig_TypeDefinitionIndex = 18051;
+	inline static constexpr unsigned int RtBattleStageCellConfig_TypeDefinitionIndex = 18217;
 
 	class RtBattleStageCellConfig : public ::RPG::GameCore::JsonConfig
 	{

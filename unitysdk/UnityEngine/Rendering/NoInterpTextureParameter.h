@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_NOINTERPTEXTUREPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F297FD0)
+#define UNITYENGINE_RENDERING_NOINTERPTEXTUREPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C6130)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpTextureParameter_TypeDefinitionIndex = 35652;
+	inline static constexpr unsigned int NoInterpTextureParameter_TypeDefinitionIndex = 36580;
 
 	class NoInterpTextureParameter
 	{

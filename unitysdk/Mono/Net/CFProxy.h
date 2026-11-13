@@ -5,16 +5,16 @@
 namespace Mono::Net { class CFDictionary; }
 namespace System { class String; }
 
-#define MONO_NET_CFPROXY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF92610)
-#define MONO_NET_CFPROXY_CFPROXYTYPETOENUM_OFFSET UNITYSDK_OFFSET(0x1EF93160)
-#define MONO_NET_CFPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8F1C0)
-#define MONO_NET_CFPROXY_GET_AUTOCONFIGURATIONJAVASCRIPT_OFFSET UNITYSDK_OFFSET(0x1EF91BE0)
-#define MONO_NET_CFPROXY_GET_AUTOCONFIGURATIONURL_OFFSET UNITYSDK_OFFSET(0x1EF91D80)
-#define MONO_NET_CFPROXY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x1EF913B0)
-#define MONO_NET_CFPROXY_GET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1EF91210)
-#define MONO_NET_CFPROXY_GET_PORT_OFFSET UNITYSDK_OFFSET(0x1EF91550)
-#define MONO_NET_CFPROXY_GET_PROXYTYPE_OFFSET UNITYSDK_OFFSET(0x1EF90ED0)
-#define MONO_NET_CFPROXY_GET_USERNAME_OFFSET UNITYSDK_OFFSET(0x1EF91070)
+#define MONO_NET_CFPROXY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAE5EF0)
+#define MONO_NET_CFPROXY_CFPROXYTYPETOENUM_OFFSET UNITYSDK_OFFSET(0x1DAE6A40)
+#define MONO_NET_CFPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE2AA0)
+#define MONO_NET_CFPROXY_GET_AUTOCONFIGURATIONJAVASCRIPT_OFFSET UNITYSDK_OFFSET(0x1DAE54C0)
+#define MONO_NET_CFPROXY_GET_AUTOCONFIGURATIONURL_OFFSET UNITYSDK_OFFSET(0x1DAE5660)
+#define MONO_NET_CFPROXY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x1DAE4C90)
+#define MONO_NET_CFPROXY_GET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1DAE4AF0)
+#define MONO_NET_CFPROXY_GET_PORT_OFFSET UNITYSDK_OFFSET(0x1DAE4E30)
+#define MONO_NET_CFPROXY_GET_PROXYTYPE_OFFSET UNITYSDK_OFFSET(0x1DAE47B0)
+#define MONO_NET_CFPROXY_GET_USERNAME_OFFSET UNITYSDK_OFFSET(0x1DAE4950)
 
 namespace Mono::Net
 {
@@ -26,67 +26,67 @@ namespace Mono::Net
 		::Mono::Net::CFDictionary* settings; // 0x10
 		static ::System::IntPtr* StaticGet_kCFProxyAutoConfigurationJavaScriptKey()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x83D0);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyTypeAutoConfigurationJavaScript()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x83D8);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyTypeAutoConfigurationURL()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x83E0);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x99C0);
 		}
 
 		static ::System::IntPtr* StaticGet_kCFProxyTypeSOCKS()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x83E8);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyTypeHTTPS()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x83F0);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyTypeHTTP()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x83F8);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x99C8);
 		}
 
 		static ::System::IntPtr* StaticGet_kCFProxyPortNumberKey()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x8400);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyTypeKey()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x8408);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyUsernameKey()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x8410);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyPasswordKey()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x8418);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyAutoConfigurationURLKey()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x8420);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFProxyTypeFTP()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x8428);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x99D0);
 		}
 
 		static ::System::IntPtr* StaticGet_kCFProxyHostNameKey()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x8430);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x99D8);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyTypeKey()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x99E0);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyTypeHTTPS()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x99E8);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyTypeAutoConfigurationURL()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x99F0);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyUsernameKey()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x99F8);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyTypeAutoConfigurationJavaScript()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x9A00);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyTypeFTP()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x9A08);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyTypeHTTP()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x9A10);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyAutoConfigurationURLKey()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x9A18);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFProxyPasswordKey()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxy")->GetStaticField(0x9A20);
 		}
 
 		static ::System::Void _cctor()

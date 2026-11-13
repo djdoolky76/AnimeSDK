@@ -8,7 +8,7 @@ namespace RPG::Client { class ListView; }
 namespace System { class IDisposable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int AICHHDIAKHB_TypeDefinitionIndex = 49804;
+inline static constexpr unsigned int AICHHDIAKHB_TypeDefinitionIndex = 50852;
 
 	class AICHHDIAKHB : public ::System::Object
 	{

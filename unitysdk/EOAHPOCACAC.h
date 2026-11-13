@@ -3,11 +3,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EOAHPOCACAC_CTOR_OFFSET UNITYSDK_OFFSET(0x2E74EA0)
-#define EOAHPOCACAC_GET_ID_OFFSET UNITYSDK_OFFSET(0x1D40)
-#define EOAHPOCACAC_GET_VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define EOAHPOCACAC_CTOR_OFFSET UNITYSDK_OFFSET(0x3DC7E10)
+#define EOAHPOCACAC_GET_ID_OFFSET UNITYSDK_OFFSET(0x6C95B0)
+#define EOAHPOCACAC_GET_VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x6C8DB0)
 
-inline static constexpr unsigned int EOAHPOCACAC_TypeDefinitionIndex = 80506;
+inline static constexpr unsigned int EOAHPOCACAC_TypeDefinitionIndex = 83286;
 
 	struct alignas(8) EOAHPOCACAC
 	{

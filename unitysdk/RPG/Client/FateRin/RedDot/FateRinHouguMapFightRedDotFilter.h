@@ -4,12 +4,12 @@
 class PEAFBFCPFCC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA65F0)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER_GETNEWFIGHTSUBKEYS_OFFSET UNITYSDK_OFFSET(0xCFA6640)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D5E50)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER_GETNEWFIGHTSUBKEYS_OFFSET UNITYSDK_OFFSET(0x1C4D5EA0)
 
 namespace RPG::Client::FateRin::RedDot
 {
-	inline static constexpr unsigned int FateRinHouguMapFightRedDotFilter_TypeDefinitionIndex = 80739;
+	inline static constexpr unsigned int FateRinHouguMapFightRedDotFilter_TypeDefinitionIndex = 83519;
 
 	class FateRinHouguMapFightRedDotFilter : public ::System::Object
 	{

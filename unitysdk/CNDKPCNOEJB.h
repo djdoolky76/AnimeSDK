@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CNDKPCNOEJB_TypeDefinitionIndex = 76052;
+inline static constexpr unsigned int CNDKPCNOEJB_TypeDefinitionIndex = 78379;
 
 	class CNDKPCNOEJB
 	{

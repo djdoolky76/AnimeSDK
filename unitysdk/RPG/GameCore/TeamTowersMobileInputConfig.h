@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamTowersMobileInputConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSMOBILEINPUTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB50380)
-#define RPG_GAMECORE_TEAMTOWERSMOBILEINPUTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4F490)
+#define RPG_GAMECORE_TEAMTOWERSMOBILEINPUTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C4EC0)
+#define RPG_GAMECORE_TEAMTOWERSMOBILEINPUTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C4050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersMobileInputConfig_TypeDefinitionIndex = 18945;
+	inline static constexpr unsigned int TeamTowersMobileInputConfig_TypeDefinitionIndex = 19132;
 
 	class TeamTowersMobileInputConfig : public ::RPG::GameCore::JsonConfig
 	{

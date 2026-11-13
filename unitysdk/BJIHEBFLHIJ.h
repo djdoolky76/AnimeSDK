@@ -3,10 +3,10 @@
 namespace RPG::Client { class ST_Parkour_ByCompareProjectileHitCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJIHEBFLHIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB79C6D0)
-#define BJIHEBFLHIJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB79C700)
+#define BJIHEBFLHIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A634DD0)
+#define BJIHEBFLHIJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A634E00)
 
-inline static constexpr unsigned int BJIHEBFLHIJ_TypeDefinitionIndex = 52132;
+inline static constexpr unsigned int BJIHEBFLHIJ_TypeDefinitionIndex = 53237;
 
 	class BJIHEBFLHIJ
 	{

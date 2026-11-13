@@ -4,13 +4,13 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define ZXING_WRITEREXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F69D0E0)
-#define ZXING_WRITEREXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F6A1DF0)
-#define ZXING_WRITEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6A8E60)
+#define ZXING_WRITEREXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A97510)
+#define ZXING_WRITEREXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x17A9C160)
+#define ZXING_WRITEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x17AA3140)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int WriterException_TypeDefinitionIndex = 6990;
+	inline static constexpr unsigned int WriterException_TypeDefinitionIndex = 7001;
 
 	class WriterException : public ::System::Exception
 	{

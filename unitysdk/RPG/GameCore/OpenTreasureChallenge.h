@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class OpenTreasureChallenge; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_OPENTREASURECHALLENGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B52F0)
-#define RPG_GAMECORE_OPENTREASURECHALLENGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8B5300)
-#define RPG_GAMECORE_OPENTREASURECHALLENGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B52C0)
+#define RPG_GAMECORE_OPENTREASURECHALLENGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1368C0)
+#define RPG_GAMECORE_OPENTREASURECHALLENGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F1368D0)
+#define RPG_GAMECORE_OPENTREASURECHALLENGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F136890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenTreasureChallenge_TypeDefinitionIndex = 20471;
+	inline static constexpr unsigned int OpenTreasureChallenge_TypeDefinitionIndex = 20806;
 
 	class OpenTreasureChallenge : public ::RPG::GameCore::TaskConfig
 	{

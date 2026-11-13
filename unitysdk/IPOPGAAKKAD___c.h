@@ -7,41 +7,41 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define IPOPGAAKKAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6C24B0)
-#define IPOPGAAKKAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C24F0)
-#define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_0_OFFSET UNITYSDK_OFFSET(0x1C6C2500)
-#define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_1_OFFSET UNITYSDK_OFFSET(0x1C6C25B0)
-#define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_2_OFFSET UNITYSDK_OFFSET(0x1C6C2650)
-#define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_3_OFFSET UNITYSDK_OFFSET(0x1C6C26F0)
+#define IPOPGAAKKAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C12CC70)
+#define IPOPGAAKKAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C12CCB0)
+#define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_0_OFFSET UNITYSDK_OFFSET(0x1C12CCC0)
+#define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_1_OFFSET UNITYSDK_OFFSET(0x1C12CD70)
+#define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_2_OFFSET UNITYSDK_OFFSET(0x1C12CE10)
+#define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_3_OFFSET UNITYSDK_OFFSET(0x1C12CEB0)
 
-inline static constexpr unsigned int IPOPGAAKKAD___c_TypeDefinitionIndex = 37308;
+inline static constexpr unsigned int IPOPGAAKKAD___c_TypeDefinitionIndex = 38236;
 
 	class IPOPGAAKKAD___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__23_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x108A0);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::System::String*>** StaticGet___9__23_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x108A8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x108B0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71E40);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__23_3()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x108B8);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71E48);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71E50);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::System::String*>** StaticGet___9__23_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x108C0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71E58);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__23_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71E60);
 		}
 
 		static ::System::Void _cctor()

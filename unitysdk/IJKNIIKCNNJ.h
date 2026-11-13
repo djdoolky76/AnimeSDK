@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/Pet/BlindBox/BlindBoxPetKind.h"
 #include "unitysdk/System/Object.h"
 
-#define IJKNIIKCNNJ_JNHLNOCBDDK_OFFSET UNITYSDK_OFFSET(0x1645E0D0)
-#define IJKNIIKCNNJ_MMGIJPHEDHG_OFFSET UNITYSDK_OFFSET(0x1645E080)
+#define IJKNIIKCNNJ_JNHLNOCBDDK_OFFSET UNITYSDK_OFFSET(0x1805C410)
+#define IJKNIIKCNNJ_MMGIJPHEDHG_OFFSET UNITYSDK_OFFSET(0x1805C3C0)
 
-inline static constexpr unsigned int IJKNIIKCNNJ_TypeDefinitionIndex = 75730;
+inline static constexpr unsigned int IJKNIIKCNNJ_TypeDefinitionIndex = 78057;
 
 	class IJKNIIKCNNJ : public ::System::Object
 	{

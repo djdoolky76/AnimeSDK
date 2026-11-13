@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOutfitComponent_ESlot_TypeDefinitionIndex = 57212;
+	inline static constexpr unsigned int CharacterOutfitComponent_ESlot_TypeDefinitionIndex = 58439;
 
 	enum class CharacterOutfitComponent_ESlot : ::System::UInt64
 	{

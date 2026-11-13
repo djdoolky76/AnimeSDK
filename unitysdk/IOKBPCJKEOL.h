@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEffectFrameCaptureMatTex; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IOKBPCJKEOL_CTOR_OFFSET UNITYSDK_OFFSET(0x164F92B0)
-#define IOKBPCJKEOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164F92E0)
+#define IOKBPCJKEOL_CTOR_OFFSET UNITYSDK_OFFSET(0x192E65E0)
+#define IOKBPCJKEOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x192E6610)
 
-inline static constexpr unsigned int IOKBPCJKEOL_TypeDefinitionIndex = 55493;
+inline static constexpr unsigned int IOKBPCJKEOL_TypeDefinitionIndex = 56681;
 
 	class IOKBPCJKEOL
 	{

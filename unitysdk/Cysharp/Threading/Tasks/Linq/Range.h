@@ -4,12 +4,12 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_RANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD450)
-#define CYSHARP_THREADING_TASKS_LINQ_RANGE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F0DD460)
+#define CYSHARP_THREADING_TASKS_LINQ_RANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E3D70)
+#define CYSHARP_THREADING_TASKS_LINQ_RANGE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E5E3D80)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Range_TypeDefinitionIndex = 45542;
+	inline static constexpr unsigned int Range_TypeDefinitionIndex = 46571;
 
 	class Range : public ::System::Object
 	{

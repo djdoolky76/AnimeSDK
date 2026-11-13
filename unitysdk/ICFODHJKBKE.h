@@ -5,11 +5,11 @@ namespace RPG::Client { class MusicRhythmTrack; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ICFODHJKBKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15E409C0)
-#define ICFODHJKBKE_FBAIMADCMBF_OFFSET UNITYSDK_OFFSET(0x15E407F0)
-#define ICFODHJKBKE_MNDHIAJICBB_OFFSET UNITYSDK_OFFSET(0x15E405D0)
+#define ICFODHJKBKE_CTOR_OFFSET UNITYSDK_OFFSET(0x188CB500)
+#define ICFODHJKBKE_FBAIMADCMBF_OFFSET UNITYSDK_OFFSET(0x188CB330)
+#define ICFODHJKBKE_MNDHIAJICBB_OFFSET UNITYSDK_OFFSET(0x188CB110)
 
-inline static constexpr unsigned int ICFODHJKBKE_TypeDefinitionIndex = 61809;
+inline static constexpr unsigned int ICFODHJKBKE_TypeDefinitionIndex = 63215;
 
 	class ICFODHJKBKE : public ::System::Object
 	{

@@ -6,28 +6,28 @@
 class KAKADGHNMFK;
 namespace RPG::GameCore { class ChimeraDuelChimeraPresetRow; }
 
-#define KEOAHACPAFG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CB89A40)
-#define KEOAHACPAFG_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CB89B30)
-#define KEOAHACPAFG_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1CB89CD0)
-#define KEOAHACPAFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB899F0)
+#define KEOAHACPAFG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A2C9660)
+#define KEOAHACPAFG_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A2C9750)
+#define KEOAHACPAFG_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1A2C98F0)
+#define KEOAHACPAFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C9610)
 
-inline static constexpr unsigned int KEOAHACPAFG_TypeDefinitionIndex = 41976;
+inline static constexpr unsigned int KEOAHACPAFG_TypeDefinitionIndex = 42951;
 
 	class KEOAHACPAFG : public ::System::Object
 	{
 	public:
-		::System::Int32 NJNLHLCLOJA; // 0x10
-		::System::UInt32 BPHEJFJENJK; // 0x14
-		::System::Nullable_1<::System::Int32> NJBJDEBPCLN; // 0x18
+		::System::UInt32 PJNNPOKJEFD; // 0x10
+		::System::Int32 NJNLHLCLOJA; // 0x14
+		::System::Nullable_1<::System::Int32> FNIAIOLFNPC; // 0x18
 		::System::UInt32 PHFMCACHFIJ; // 0x20
-		::RPG::GameCore::ChimeraDuelTeamType JCDIEKGKCPP; // 0x24
-		::System::Int32 MGHNBDDCEKK; // 0x28
-		::System::Int32 KEINOBNBHDO; // 0x2C
-		::System::UInt32 PJNNPOKJEFD; // 0x30
-		::System::Nullable_1<::System::Int32> FNIAIOLFNPC; // 0x34
+		::System::Int32 KEINOBNBHDO; // 0x24
+		::System::UInt32 BPHEJFJENJK; // 0x28
+		::System::Int32 MGHNBDDCEKK; // 0x2C
+		::RPG::GameCore::ChimeraDuelTeamType JCDIEKGKCPP; // 0x30
+		::System::Nullable_1<::System::Int32> NJBJDEBPCLN; // 0x34
 		static ::System::Int32* StaticGet_IEPCJGJDIDM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KEOAHACPAFG")->GetStaticField(0x10D70);
+			return (::System::Int32*)UnitySDK::FromName("", "KEOAHACPAFG")->GetStaticField(0xDFB0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::ChimeraDuelChimeraPresetRow* a1, ::RPG::GameCore::ChimeraDuelTeamType a2)

@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class CLFIGBPHLHI;
 
-#define RPG_CLIENT_MOTIONS_MONOMONTIONINSPECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B6DC0)
+#define RPG_CLIENT_MOTIONS_MONOMONTIONINSPECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1A16D9B0)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoMontionInspector_TypeDefinitionIndex = 73491;
+	inline static constexpr unsigned int MonoMontionInspector_TypeDefinitionIndex = 75614;
 
 	class MonoMontionInspector : public ::UnityEngine::MonoBehaviour
 	{

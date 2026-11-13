@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE2130D0)
-#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS30_0__ASYNCUPDATELANGSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xE215780)
+#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D257370)
+#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS30_0__ASYNCUPDATELANGSIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1D259A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass30_0_TypeDefinitionIndex = 61246;
+	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass30_0_TypeDefinitionIndex = 62631;
 
 	class TextmapDownloadManager___c__DisplayClass30_0 : public ::System::Object
 	{

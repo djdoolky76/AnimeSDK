@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B02E0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8B0250)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DE440)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1E3DE3B0)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPTalkHideBehaviour_TypeDefinitionIndex = 48829;
+	inline static constexpr unsigned int BPTalkHideBehaviour_TypeDefinitionIndex = 49875;
 
 	class BPTalkHideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

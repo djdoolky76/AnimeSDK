@@ -5,23 +5,23 @@ namespace SRDebugger::Services { class ConsoleEntry; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define SRDEBUG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED08CF0)
-#define SRDEBUG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED08D20)
-#define SRDEBUG___C__GETDEFAULTCOPYCONSOLEITEMCALLBACK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1ED08D30)
+#define SRDEBUG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D424390)
+#define SRDEBUG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4243C0)
+#define SRDEBUG___C__GETDEFAULTCOPYCONSOLEITEMCALLBACK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D4243D0)
 
-inline static constexpr unsigned int SRDebug___c_TypeDefinitionIndex = 37947;
+inline static constexpr unsigned int SRDebug___c_TypeDefinitionIndex = 38876;
 
 	class SRDebug___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::SRDebugger::Services::ConsoleEntry*>** StaticGet___9__8_0()
 		{
-			return (::System::Action_1<::SRDebugger::Services::ConsoleEntry*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32FA0);
+			return (::System::Action_1<::SRDebugger::Services::ConsoleEntry*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D270);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32FA8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D278);
 		}
 
 		static ::System::Void _cctor()

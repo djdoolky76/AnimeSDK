@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareCurrentSkillEffectIsDamaging; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBNFIGNNEIG_CTOR_OFFSET UNITYSDK_OFFSET(0x16568250)
-#define JBNFIGNNEIG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16568280)
+#define JBNFIGNNEIG_CTOR_OFFSET UNITYSDK_OFFSET(0x19A787D0)
+#define JBNFIGNNEIG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19A78800)
 
-inline static constexpr unsigned int JBNFIGNNEIG_TypeDefinitionIndex = 54526;
+inline static constexpr unsigned int JBNFIGNNEIG_TypeDefinitionIndex = 55691;
 
 	class JBNFIGNNEIG
 	{

@@ -3,10 +3,10 @@
 class LHOKPKHEBIK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PNFIBCNDCCP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3304E0)
-#define PNFIBCNDCCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC330510)
+#define PNFIBCNDCCP_CTOR_OFFSET UNITYSDK_OFFSET(0x184AEC40)
+#define PNFIBCNDCCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184AEC70)
 
-inline static constexpr unsigned int PNFIBCNDCCP_TypeDefinitionIndex = 58595;
+inline static constexpr unsigned int PNFIBCNDCCP_TypeDefinitionIndex = 59860;
 
 	class PNFIBCNDCCP
 	{

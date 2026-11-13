@@ -10,25 +10,30 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerModifierCustomEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC27F70)
-#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC27FD0)
-#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC27EF0)
+#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E332530)
+#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E332590)
+#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3324B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerModifierCustomEvent_TypeDefinitionIndex = 22707;
+	inline static constexpr unsigned int TriggerModifierCustomEvent_TypeDefinitionIndex = 23129;
 
 	class TriggerModifierCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-		::RPG::GameCore::JsonEnum* EventType; // 0x20
-		::RPG::GameCore::TargetEvaluator* CasterFilter; // 0x28
-		::System::String* DynamicKey; // 0x30
-		::RPG::GameCore::DynamicFloat* Value; // 0x38
-		::RPG::GameCore::DynamicFloat* MaxNumber; // 0x40
-		::RPG::GameCore::PredicateConfig* PreCheck; // 0x48
-		::RPG::GameCore::ModifierCustomEventSortType OverrideSortBy; // 0x50
+		::System::Boolean IncludeLimbo; // 0x20
+		::System::Byte _padding0[0x7];
+		::RPG::GameCore::JsonEnum* EventType; // 0x28
+		::RPG::GameCore::TargetEvaluator* CasterFilter; // 0x30
+		::System::String* DynamicKey; // 0x38
+		::RPG::GameCore::DynamicFloat* Value; // 0x40
+		::RPG::GameCore::DynamicFloat* MaxNumber; // 0x48
+		::RPG::GameCore::PredicateConfig* PreCheck; // 0x50
+		::RPG::GameCore::ModifierCustomEventSortType OverrideSortBy; // 0x58
+		::System::Byte _padding1[0x4];
+		::RPG::GameCore::TargetEvaluator* OverrideParamEntity; // 0x60
+		::RPG::GameCore::TargetEvaluator* OverrideParamEntity2; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_CTOR_OFFSET))(this);

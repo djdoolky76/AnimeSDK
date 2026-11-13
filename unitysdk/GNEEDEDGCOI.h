@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define GNEEDEDGCOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED10)
+#define GNEEDEDGCOI_CTOR_OFFSET UNITYSDK_OFFSET(0x653400)
 
-inline static constexpr unsigned int GNEEDEDGCOI_TypeDefinitionIndex = 82055;
+inline static constexpr unsigned int GNEEDEDGCOI_TypeDefinitionIndex = 84836;
 
 	struct alignas(4) GNEEDEDGCOI
 	{

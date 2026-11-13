@@ -5,7 +5,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoBindEventHandler_1_TypeDefinitionIndex = 73148;
+	inline static constexpr unsigned int AutoBindEventHandler_1_TypeDefinitionIndex = 75262;
 
 	template <typename T>
 	class AutoBindEventHandler_1 : public ::DGCNFOOAFPO

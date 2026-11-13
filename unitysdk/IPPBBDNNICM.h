@@ -7,17 +7,17 @@ class IPPBBDNNICM;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define IPPBBDNNICM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF05A30)
-#define IPPBBDNNICM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF05A40)
-#define IPPBBDNNICM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF05A00)
+#define IPPBBDNNICM_CTOR_OFFSET UNITYSDK_OFFSET(0xC9ABB50)
+#define IPPBBDNNICM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0xC9ABB60)
+#define IPPBBDNNICM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC9ABB20)
 
-inline static constexpr unsigned int IPPBBDNNICM_TypeDefinitionIndex = 20519;
+inline static constexpr unsigned int IPPBBDNNICM_TypeDefinitionIndex = 20855;
 
 	class IPPBBDNNICM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* FNJJEECAJAI; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::RPG::GameCore::DynamicFloat* FNJJEECAJAI; // 0x20
 		::RPG::GameCore::CharacterMotionFlag GBAOAMCCBIG; // 0x28
 		::System::Void _ctor()
 		{

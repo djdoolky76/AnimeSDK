@@ -5,20 +5,20 @@ namespace RPG::Client { class RogueTournCollectionInfo; }
 namespace RPG::GameCore { class RogueTournSetCollectionBoothPrefab; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ACEBNEIMIFH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB1176A0)
-#define ACEBNEIMIFH_CTOR_OFFSET UNITYSDK_OFFSET(0xB116DC0)
-#define ACEBNEIMIFH_ENEMGILIKLB_OFFSET UNITYSDK_OFFSET(0xB1175C0)
-#define ACEBNEIMIFH_OMJDPKMFKOA_OFFSET UNITYSDK_OFFSET(0xB117500)
-#define ACEBNEIMIFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB116DF0)
+#define ACEBNEIMIFH_CCTOR_OFFSET UNITYSDK_OFFSET(0x18288360)
+#define ACEBNEIMIFH_CTOR_OFFSET UNITYSDK_OFFSET(0x18287A80)
+#define ACEBNEIMIFH_ENEMGILIKLB_OFFSET UNITYSDK_OFFSET(0x18288280)
+#define ACEBNEIMIFH_OMJDPKMFKOA_OFFSET UNITYSDK_OFFSET(0x182881C0)
+#define ACEBNEIMIFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18287AB0)
 
-inline static constexpr unsigned int ACEBNEIMIFH_TypeDefinitionIndex = 58496;
+inline static constexpr unsigned int ACEBNEIMIFH_TypeDefinitionIndex = 59752;
 
 	class ACEBNEIMIFH
 	{
 	public:
 		static ::RPG::GameCore::StringHash* StaticGet_KNAEBCKGLHP()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "ACEBNEIMIFH")->GetStaticField(0xFEE0);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "ACEBNEIMIFH")->GetStaticField(0xCC10);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueTournSetCollectionBoothPrefab* a2)

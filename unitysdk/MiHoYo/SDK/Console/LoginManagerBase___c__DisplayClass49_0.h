@@ -4,19 +4,19 @@
 namespace MiHoYo::SDK::Console { class LoginManagerBase; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_CONSOLE_LOGINMANAGERBASE___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC79390)
-#define MIHOYO_SDK_CONSOLE_LOGINMANAGERBASE___C__DISPLAYCLASS49_0__SHOWUSERAGREEMENTDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1BC7B180)
-#define MIHOYO_SDK_CONSOLE_LOGINMANAGERBASE___C__DISPLAYCLASS49_0__SHOWUSERAGREEMENTDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x1BC7B430)
+#define MIHOYO_SDK_CONSOLE_LOGINMANAGERBASE___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x185FECC0)
+#define MIHOYO_SDK_CONSOLE_LOGINMANAGERBASE___C__DISPLAYCLASS49_0__SHOWUSERAGREEMENTDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x18600AB0)
+#define MIHOYO_SDK_CONSOLE_LOGINMANAGERBASE___C__DISPLAYCLASS49_0__SHOWUSERAGREEMENTDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x18600D60)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int LoginManagerBase___c__DisplayClass49_0_TypeDefinitionIndex = 8979;
+	inline static constexpr unsigned int LoginManagerBase___c__DisplayClass49_0_TypeDefinitionIndex = 8988;
 
 	class LoginManagerBase___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::LoginManagerBase* __4__this; // 0x10
-		::System::Action* agreedCallback; // 0x18
+		::System::Action* agreedCallback; // 0x10
+		::MiHoYo::SDK::Console::LoginManagerBase* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_LOGINMANAGERBASE___C__DISPLAYCLASS49_0_CTOR_OFFSET))(this);

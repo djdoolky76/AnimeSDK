@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarEquipRecommendRow; }
 
-#define RPG_GAMECORE_AVATAREQUIPRECOMMENDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E5C20)
-#define RPG_GAMECORE_AVATAREQUIPRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E5AE0)
+#define RPG_GAMECORE_AVATAREQUIPRECOMMENDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D9080)
+#define RPG_GAMECORE_AVATAREQUIPRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2D8F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEquipRecommendRow_TypeDefinitionIndex = 12763;
+	inline static constexpr unsigned int AvatarEquipRecommendRow_TypeDefinitionIndex = 12833;
 
 	class AvatarEquipRecommendRow : public ::System::Object
 	{

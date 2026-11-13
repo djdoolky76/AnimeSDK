@@ -5,18 +5,18 @@ class ALOHJILIGNK;
 namespace RPG::Client::LimaoNews { class LimaoNewsEntityTrackService; }
 namespace RPG::Client::NavMap { class ICartography; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD39D7B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS4_0___OPENTRACKMAPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xD39EE40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFBAE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS4_0___OPENTRACKMAPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1CEFD140)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass4_0_TypeDefinitionIndex = 80320;
+	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass4_0_TypeDefinitionIndex = 83097;
 
 	class LimaoNewsEntityTrackService___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::ALOHJILIGNK* trackData; // 0x10
-		::RPG::Client::LimaoNews::LimaoNewsEntityTrackService* __4__this; // 0x18
+		::RPG::Client::LimaoNews::LimaoNewsEntityTrackService* __4__this; // 0x10
+		::ALOHJILIGNK* trackData; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

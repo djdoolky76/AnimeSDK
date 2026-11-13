@@ -5,31 +5,31 @@ namespace RPG::Client { class ChallengePeakTarget; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGEPEAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9972F0)
-#define RPG_CLIENT_CHALLENGEPEAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC997330)
-#define RPG_CLIENT_CHALLENGEPEAK___C__GETCOUNTOFPASSEDTARGETS_B__55_0_OFFSET UNITYSDK_OFFSET(0xC997370)
-#define RPG_CLIENT_CHALLENGEPEAK___C__GET_VORACITYINVASIONLEVEL_B__22_0_OFFSET UNITYSDK_OFFSET(0xC997340)
+#define RPG_CLIENT_CHALLENGEPEAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B71ECF0)
+#define RPG_CLIENT_CHALLENGEPEAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B71ED30)
+#define RPG_CLIENT_CHALLENGEPEAK___C__GETCOUNTOFPASSEDTARGETS_B__55_0_OFFSET UNITYSDK_OFFSET(0x1B71ED70)
+#define RPG_CLIENT_CHALLENGEPEAK___C__GET_VORACITYINVASIONLEVEL_B__22_0_OFFSET UNITYSDK_OFFSET(0x1B71ED40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeak___c_TypeDefinitionIndex = 63153;
+	inline static constexpr unsigned int ChallengePeak___c_TypeDefinitionIndex = 64591;
 
 	class ChallengePeak___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B030);
-		}
-
 		static ::System::Func_2<::RPG::Client::ChallengePeakTarget*, ::System::Boolean>** StaticGet___9__55_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengePeakTarget*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B038);
+			return (::System::Func_2<::RPG::Client::ChallengePeakTarget*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71090);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B040);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71098);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x710A0);
 		}
 
 		static ::System::Void _cctor()

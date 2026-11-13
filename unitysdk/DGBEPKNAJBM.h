@@ -5,17 +5,17 @@
 class DGBEPKNAJBM;
 namespace RPG::GameCore { class GameEntity; }
 
-#define DGBEPKNAJBM_CLEAR_OFFSET UNITYSDK_OFFSET(0xE837EC0)
-#define DGBEPKNAJBM_CTOR_OFFSET UNITYSDK_OFFSET(0xE837F10)
-#define DGBEPKNAJBM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE837E50)
+#define DGBEPKNAJBM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ADAC490)
+#define DGBEPKNAJBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAC4E0)
+#define DGBEPKNAJBM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1ADAC420)
 
-inline static constexpr unsigned int DGBEPKNAJBM_TypeDefinitionIndex = 55163;
+inline static constexpr unsigned int DGBEPKNAJBM_TypeDefinitionIndex = 56344;
 
 	class DGBEPKNAJBM : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x10
-		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x18
+		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
+		::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x18
 		::RPG::GameCore::FixPoint PMEGJKPHDMH; // 0x20
 		::System::Void _ctor()
 		{

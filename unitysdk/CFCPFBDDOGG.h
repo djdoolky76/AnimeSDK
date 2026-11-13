@@ -5,17 +5,17 @@ class FDLIJBAOHKC;
 class OOADCLKADJC;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CFCPFBDDOGG_CTOR_OFFSET UNITYSDK_OFFSET(0xCA035A0)
-#define CFCPFBDDOGG_GET_FUNS_OFFSET UNITYSDK_OFFSET(0xCA03590)
-#define CFCPFBDDOGG_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xCA03620)
+#define CFCPFBDDOGG_CTOR_OFFSET UNITYSDK_OFFSET(0x18846D50)
+#define CFCPFBDDOGG_GET_FUNS_OFFSET UNITYSDK_OFFSET(0x18846D40)
+#define CFCPFBDDOGG_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0x18846DD0)
 
-inline static constexpr unsigned int CFCPFBDDOGG_TypeDefinitionIndex = 63925;
+inline static constexpr unsigned int CFCPFBDDOGG_TypeDefinitionIndex = 65367;
 
 	class CFCPFBDDOGG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OOADCLKADJC*>* _Funs_k__BackingField; // 0x10
-		::FDLIJBAOHKC* JKOCLNODAJD; // 0x18
+		::FDLIJBAOHKC* JKOCLNODAJD; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OOADCLKADJC*>* _Funs_k__BackingField; // 0x18
 		::System::Void _ctor(::FDLIJBAOHKC* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::FDLIJBAOHKC*))((::PBYTE)hIl2Cpp + CFCPFBDDOGG_CTOR_OFFSET))(this, a1);

@@ -5,25 +5,25 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0D6690)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0D66D0)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0xE0D66E0)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B416BA0)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B416BE0)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B416BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex = 67320;
+	inline static constexpr unsigned int SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex = 69264;
 
 	class SimulatedRogueSendPacketCmd___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F4D0);
-		}
-
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F4D8);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x738C0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x738C8);
 		}
 
 		static ::System::Void _cctor()

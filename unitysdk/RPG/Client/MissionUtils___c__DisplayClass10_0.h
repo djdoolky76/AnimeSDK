@@ -4,18 +4,18 @@
 class OEAKPLCANOI;
 namespace RPG::Client { class MainMissionData; }
 
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD70F510)
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_0__TRYASSISTWAYPOINTONECLICKCOMPLETETRANSFER_B__1_OFFSET UNITYSDK_OFFSET(0xD714080)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19861CD0)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_0__TRYASSISTWAYPOINTONECLICKCOMPLETETRANSFER_B__1_OFFSET UNITYSDK_OFFSET(0x19866020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils___c__DisplayClass10_0_TypeDefinitionIndex = 66194;
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass10_0_TypeDefinitionIndex = 68130;
 
 	class MissionUtils___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::OEAKPLCANOI* frvInstance; // 0x10
-		::RPG::Client::MainMissionData* trackingMission; // 0x18
+		::RPG::Client::MainMissionData* trackingMission; // 0x10
+		::OEAKPLCANOI* frvInstance; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_0_CTOR_OFFSET))(this);

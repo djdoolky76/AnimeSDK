@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/BattleUIPanelType.h"
 class AFOPMEOBPCM;
 
-inline static constexpr unsigned int FBMOHEFENME_OLAPONLEDAK_TypeDefinitionIndex = 72226;
+inline static constexpr unsigned int FBMOHEFENME_OLAPONLEDAK_TypeDefinitionIndex = 74293;
 
 	struct alignas(8) FBMOHEFENME_OLAPONLEDAK
 	{

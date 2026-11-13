@@ -5,11 +5,11 @@ namespace RPG::GameCore { class CSVRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OKMFBOJPIDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D266730)
-#define OKMFBOJPIDA_MEGNNLKMBAJ_OFFSET UNITYSDK_OFFSET(0x1D266790)
-#define OKMFBOJPIDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D266870)
+#define OKMFBOJPIDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0D180)
+#define OKMFBOJPIDA_MEGNNLKMBAJ_OFFSET UNITYSDK_OFFSET(0x1EA0D1E0)
+#define OKMFBOJPIDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0D2C0)
 
-inline static constexpr unsigned int OKMFBOJPIDA_TypeDefinitionIndex = 10822;
+inline static constexpr unsigned int OKMFBOJPIDA_TypeDefinitionIndex = 10838;
 
 	class OKMFBOJPIDA : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvIsometricSetSwipeCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPEOHAINNHF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2B56D0)
-#define JPEOHAINNHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2B5700)
+#define JPEOHAINNHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F7800)
+#define JPEOHAINNHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4F7830)
 
-inline static constexpr unsigned int JPEOHAINNHF_TypeDefinitionIndex = 52388;
+inline static constexpr unsigned int JPEOHAINNHF_TypeDefinitionIndex = 53494;
 
 	class JPEOHAINNHF
 	{

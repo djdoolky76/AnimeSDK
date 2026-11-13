@@ -4,18 +4,17 @@
 class FCOEMCEDLNL;
 class LMEOENBOKCK;
 
-#define LMEOENBOKCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E5CA0)
-#define LMEOENBOKCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0E5B00)
+#define LMEOENBOKCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E40D070)
+#define LMEOENBOKCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E40CED0)
 
-inline static constexpr unsigned int LMEOENBOKCK_TypeDefinitionIndex = 14413;
+inline static constexpr unsigned int LMEOENBOKCK_TypeDefinitionIndex = 14570;
 
 	class LMEOENBOKCK : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* JFAGECNFHJL; // 0x10
-		::System::Boolean OHGCLLOGKOE; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::UInt32 FNBGMDDOHEA; // 0x1C
+		::System::UInt32 FNBGMDDOHEA; // 0x18
+		::System::Boolean OHGCLLOGKOE; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMEOENBOKCK_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class NOHKADAPKHE;
 namespace System { class Object; }
 
-#define NOHKADAPKHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB5DF60)
-#define NOHKADAPKHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5DFA0)
-#define NOHKADAPKHE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB5DFB0)
+#define NOHKADAPKHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB6EDB0)
+#define NOHKADAPKHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB6EDF0)
+#define NOHKADAPKHE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FB6EE00)
 
-inline static constexpr unsigned int NOHKADAPKHE___c_TypeDefinitionIndex = 30060;
+inline static constexpr unsigned int NOHKADAPKHE___c_TypeDefinitionIndex = 30958;
 
 	class NOHKADAPKHE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB4A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53490);
 		}
 
 		static ::System::Void _cctor()

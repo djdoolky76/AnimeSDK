@@ -4,18 +4,18 @@
 class FFDJLHCAKAP;
 namespace System { class Object; }
 
-#define FFDJLHCAKAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E33DAB0)
-#define FFDJLHCAKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33DAF0)
-#define FFDJLHCAKAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E33DB00)
+#define FFDJLHCAKAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205480D0)
+#define FFDJLHCAKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20548110)
+#define FFDJLHCAKAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20548120)
 
-inline static constexpr unsigned int FFDJLHCAKAP___c_TypeDefinitionIndex = 33461;
+inline static constexpr unsigned int FFDJLHCAKAP___c_TypeDefinitionIndex = 34376;
 
 	class FFDJLHCAKAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BBF0);
 		}
 
 		static ::System::Void _cctor()

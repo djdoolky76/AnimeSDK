@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ElfWaveCustomerConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ELFDAILYWAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D607360)
-#define RPG_GAMECORE_ELFDAILYWAVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D607260)
+#define RPG_GAMECORE_ELFDAILYWAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DDE10)
+#define RPG_GAMECORE_ELFDAILYWAVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DDD10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfDailyWaveConfig_TypeDefinitionIndex = 18479;
+	inline static constexpr unsigned int ElfDailyWaveConfig_TypeDefinitionIndex = 18639;
 
 	class ElfDailyWaveConfig : public ::RPG::GameCore::JsonConfig
 	{

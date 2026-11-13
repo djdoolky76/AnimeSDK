@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class KMOOMLFMMEC;
 namespace System { class String; }
 
-#define KMOOMLFMMEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D087950)
-#define KMOOMLFMMEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D087860)
+#define KMOOMLFMMEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE6F90)
+#define KMOOMLFMMEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECE6EA0)
 
-inline static constexpr unsigned int KMOOMLFMMEC_TypeDefinitionIndex = 21557;
+inline static constexpr unsigned int KMOOMLFMMEC_TypeDefinitionIndex = 21945;
 
 	class KMOOMLFMMEC : public ::RPG::GameCore::JsonConfig
 	{

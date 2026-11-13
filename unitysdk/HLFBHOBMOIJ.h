@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/System/Object.h"
-class GBDODOMIMIF;
 class HHGEPOFOLMB;
 class LBNENBNFPAD;
 class LCJIAMCDDFL;
 class OKEPDOHEGME;
+namespace RPG::AvatarSystem { class AvatarPath; }
 
-#define HLFBHOBMOIJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D518A0)
-#define HLFBHOBMOIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15D51850)
-#define HLFBHOBMOIJ_DHEJNJPHKOE_OFFSET UNITYSDK_OFFSET(0x15D52060)
-#define HLFBHOBMOIJ_GCEKIMKEBDC_OFFSET UNITYSDK_OFFSET(0x15D51EF0)
+#define HLFBHOBMOIJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1989ED00)
+#define HLFBHOBMOIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1989ECB0)
+#define HLFBHOBMOIJ_DHEJNJPHKOE_OFFSET UNITYSDK_OFFSET(0x1989F4D0)
+#define HLFBHOBMOIJ_GCEKIMKEBDC_OFFSET UNITYSDK_OFFSET(0x1989F360)
 
-inline static constexpr unsigned int HLFBHOBMOIJ_TypeDefinitionIndex = 62691;
+inline static constexpr unsigned int HLFBHOBMOIJ_TypeDefinitionIndex = 64125;
 
 	class HLFBHOBMOIJ : public ::System::Object
 	{
@@ -35,9 +35,9 @@ inline static constexpr unsigned int HLFBHOBMOIJ_TypeDefinitionIndex = 62691;
 			return ((::LCJIAMCDDFL*(*)(::RPG::GameCore::AttackDamageType))((::PBYTE)hIl2Cpp + HLFBHOBMOIJ_GCEKIMKEBDC_OFFSET))(a1);
 		}
 
-		static ::GBDODOMIMIF* DHEJNJPHKOE(::RPG::GameCore::AvatarBaseType a1)
+		static ::RPG::AvatarSystem::AvatarPath* DHEJNJPHKOE(::RPG::GameCore::AvatarBaseType a1)
 		{
-			return ((::GBDODOMIMIF*(*)(::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + HLFBHOBMOIJ_DHEJNJPHKOE_OFFSET))(a1);
+			return ((::RPG::AvatarSystem::AvatarPath*(*)(::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + HLFBHOBMOIJ_DHEJNJPHKOE_OFFSET))(a1);
 		}
 
 	};

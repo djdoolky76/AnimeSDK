@@ -4,12 +4,12 @@
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelShowTextEntryInputScope.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF06160)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF06150)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF827D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF827C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelShowTextEntryParams_TypeDefinitionIndex = 8611;
+	inline static constexpr unsigned int HoYoChannelShowTextEntryParams_TypeDefinitionIndex = 8620;
 
 	class HoYoChannelShowTextEntryParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

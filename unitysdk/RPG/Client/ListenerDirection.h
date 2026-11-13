@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ListenerDirection_TypeDefinitionIndex = 59748;
+	inline static constexpr unsigned int ListenerDirection_TypeDefinitionIndex = 61028;
 
 	enum class ListenerDirection : ::System::Int32
 	{

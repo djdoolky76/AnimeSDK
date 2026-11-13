@@ -7,49 +7,49 @@ namespace RPG::Client { class MessageGroupData; }
 namespace RPG::Client { class MessageItemData; }
 namespace RPG::Client { class MessageSectionData; }
 
-#define RPG_CLIENT_MESSAGEUTILS_GETGROUPSTATE_OFFSET UNITYSDK_OFFSET(0xD6AB8E0)
-#define RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_1_OFFSET UNITYSDK_OFFSET(0xD6AB710)
-#define RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_OFFSET UNITYSDK_OFFSET(0xD6AB1F0)
-#define RPG_CLIENT_MESSAGEUTILS_ISMESSAGEITEMSCHOICE_OFFSET UNITYSDK_OFFSET(0xD69DC20)
-#define RPG_CLIENT_MESSAGEUTILS_ISMESSAGEMISSIONVALID_OFFSET UNITYSDK_OFFSET(0xD6ABAD0)
-#define RPG_CLIENT_MESSAGEUTILS_SHOWMISSIONICON_OFFSET UNITYSDK_OFFSET(0xD69CF10)
-#define RPG_CLIENT_MESSAGEUTILS__SAFEINITPARAM_OFFSET UNITYSDK_OFFSET(0xD6AB300)
+#define RPG_CLIENT_MESSAGEUTILS_GETGROUPSTATE_OFFSET UNITYSDK_OFFSET(0x1964E9F0)
+#define RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_1_OFFSET UNITYSDK_OFFSET(0x1964E820)
+#define RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_OFFSET UNITYSDK_OFFSET(0x1964E300)
+#define RPG_CLIENT_MESSAGEUTILS_ISMESSAGEITEMSCHOICE_OFFSET UNITYSDK_OFFSET(0x1963F340)
+#define RPG_CLIENT_MESSAGEUTILS_ISMESSAGEMISSIONVALID_OFFSET UNITYSDK_OFFSET(0x1964EBE0)
+#define RPG_CLIENT_MESSAGEUTILS_SHOWMISSIONICON_OFFSET UNITYSDK_OFFSET(0x1963E550)
+#define RPG_CLIENT_MESSAGEUTILS__SAFEINITPARAM_OFFSET UNITYSDK_OFFSET(0x1964E410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageUtils_TypeDefinitionIndex = 66078;
+	inline static constexpr unsigned int MessageUtils_TypeDefinitionIndex = 68011;
 
 	class MessageUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet__HasInitiated()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x12930);
-		}
-
-		static ::System::Single* StaticGet__WritingTimeBias()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x12934);
-		}
-
 		static ::System::Single* StaticGet__SpecialWritingTime()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x12938);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x13E40);
 		}
 
 		static ::System::Single* StaticGet__MaxWritingTime()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x1293C);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x13E44);
 		}
 
-		static ::System::Single* StaticGet__MinWritingTime()
+		static ::System::Boolean* StaticGet__HasInitiated()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x12940);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x13E48);
 		}
 
 		static ::System::Single* StaticGet__WritingTimeRatio()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x12944);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x13E4C);
+		}
+
+		static ::System::Single* StaticGet__WritingTimeBias()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x13E50);
+		}
+
+		static ::System::Single* StaticGet__MinWritingTime()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "MessageUtils")->GetStaticField(0x13E54);
 		}
 
 		static ::System::Single GetWritingTime(::RPG::Client::MessageItemData* a1)

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class FightPlayer; }
 
-#define PLJNHHAFBMB___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC300F00)
-#define PLJNHHAFBMB___C__DISPLAYCLASS16_0__GETPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xC301000)
+#define PLJNHHAFBMB___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1888DC80)
+#define PLJNHHAFBMB___C__DISPLAYCLASS16_0__GETPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x1888DD80)
 
-inline static constexpr unsigned int PLJNHHAFBMB___c__DisplayClass16_0_TypeDefinitionIndex = 69362;
+inline static constexpr unsigned int PLJNHHAFBMB___c__DisplayClass16_0_TypeDefinitionIndex = 71316;
 
 	class PLJNHHAFBMB___c__DisplayClass16_0 : public ::System::Object
 	{

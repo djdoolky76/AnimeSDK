@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD1EA60)
-#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD1EAA0)
-#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C__UPDATEHITPOINTFROMCACHELIST_B__51_0_OFFSET UNITYSDK_OFFSET(0xCD1EAB0)
+#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17BDBF50)
+#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17BDBF90)
+#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C__UPDATEHITPOINTFROMCACHELIST_B__51_0_OFFSET UNITYSDK_OFFSET(0x17BDBFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_DynamicWavesManager___c_TypeDefinitionIndex = 70452;
+	inline static constexpr unsigned int Effect_DynamicWavesManager___c_TypeDefinitionIndex = 72423;
 
 	class Effect_DynamicWavesManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x31400);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3DCB0);
 		}
 
 		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__51_0()
 		{
-			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x31408);
+			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3DCB8);
 		}
 
 		static ::System::Void _cctor()

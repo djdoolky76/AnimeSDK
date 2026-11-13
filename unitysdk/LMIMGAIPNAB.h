@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ModifyStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMIMGAIPNAB_CTOR_OFFSET UNITYSDK_OFFSET(0xB77EF10)
-#define LMIMGAIPNAB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB77EF20)
-#define LMIMGAIPNAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB77EF60)
-#define LMIMGAIPNAB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB77F510)
-#define LMIMGAIPNAB_TICK_OFFSET UNITYSDK_OFFSET(0xB77F560)
+#define LMIMGAIPNAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCF220)
+#define LMIMGAIPNAB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AFCF230)
+#define LMIMGAIPNAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFCF270)
+#define LMIMGAIPNAB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AFCF840)
+#define LMIMGAIPNAB_TICK_OFFSET UNITYSDK_OFFSET(0x1AFCF890)
 
-inline static constexpr unsigned int LMIMGAIPNAB_TypeDefinitionIndex = 55218;
+inline static constexpr unsigned int LMIMGAIPNAB_TypeDefinitionIndex = 56399;
 
 	class LMIMGAIPNAB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ModifyStance* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ModifyStance* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyStance* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifyStance*))((::PBYTE)hIl2Cpp + LMIMGAIPNAB_CTOR_OFFSET))(this, a1, a2);

@@ -10,12 +10,12 @@ namespace RPG::GameCore { class MeshBound; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B4F50)
-#define RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B4B70)
+#define RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A8C70)
+#define RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7A8990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimViewBakedInfo_TypeDefinitionIndex = 16717;
+	inline static constexpr unsigned int FiveDimViewBakedInfo_TypeDefinitionIndex = 16883;
 
 	class FiveDimViewBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

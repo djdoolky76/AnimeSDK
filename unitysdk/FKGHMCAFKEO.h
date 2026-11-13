@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-#define FKGHMCAFKEO_CTOR_OFFSET UNITYSDK_OFFSET(0x157E7CC0)
+#define FKGHMCAFKEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA9E4E0)
 
-inline static constexpr unsigned int FKGHMCAFKEO_TypeDefinitionIndex = 73575;
+inline static constexpr unsigned int FKGHMCAFKEO_TypeDefinitionIndex = 75698;
 
 	class FKGHMCAFKEO : public ::RPG::Client::TABehaviorBase
 	{

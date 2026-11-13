@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define JOKBLPIACPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB799B0)
+#define JOKBLPIACPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE22570)
 
-inline static constexpr unsigned int JOKBLPIACPA_TypeDefinitionIndex = 43406;
+inline static constexpr unsigned int JOKBLPIACPA_TypeDefinitionIndex = 44387;
 
 	class JOKBLPIACPA : public ::System::Object
 	{

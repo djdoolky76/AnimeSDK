@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleHitCountUITop; }
 
-#define DKFEBGBMEDB_CTOR_OFFSET UNITYSDK_OFFSET(0xF874BB0)
-#define DKFEBGBMEDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF874BE0)
+#define DKFEBGBMEDB_CTOR_OFFSET UNITYSDK_OFFSET(0x18C12C90)
+#define DKFEBGBMEDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C12CC0)
 
-inline static constexpr unsigned int DKFEBGBMEDB_TypeDefinitionIndex = 55706;
+inline static constexpr unsigned int DKFEBGBMEDB_TypeDefinitionIndex = 56908;
 
 	class DKFEBGBMEDB
 	{

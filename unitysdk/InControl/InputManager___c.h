@@ -5,25 +5,25 @@ namespace InControl { class InputDevice; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define INCONTROL_INPUTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9DDB40)
-#define INCONTROL_INPUTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9DDB80)
-#define INCONTROL_INPUTMANAGER___C__ATTACHDEVICE_B__92_0_OFFSET UNITYSDK_OFFSET(0x1B9DDB90)
+#define INCONTROL_INPUTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19FABD30)
+#define INCONTROL_INPUTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19FABD70)
+#define INCONTROL_INPUTMANAGER___C__ATTACHDEVICE_B__92_0_OFFSET UNITYSDK_OFFSET(0x19FABD80)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputManager___c_TypeDefinitionIndex = 40856;
+	inline static constexpr unsigned int InputManager___c_TypeDefinitionIndex = 41831;
 
 	class InputManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("InControl", "<>c")->GetStaticField(0x64B90);
+			return (::System::Object**)UnitySDK::FromName("InControl", "<>c")->GetStaticField(0x69EA0);
 		}
 
 		static ::System::Comparison_1<::InControl::InputDevice*>** StaticGet___9__92_0()
 		{
-			return (::System::Comparison_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "<>c")->GetStaticField(0x64B98);
+			return (::System::Comparison_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "<>c")->GetStaticField(0x69EA8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,9 +4,9 @@
 class AILGEOEGMJK;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DALHPEPACNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E5A40)
+#define DALHPEPACNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17CB0)
 
-inline static constexpr unsigned int DALHPEPACNI_TypeDefinitionIndex = 41929;
+inline static constexpr unsigned int DALHPEPACNI_TypeDefinitionIndex = 42904;
 
 	class DALHPEPACNI : public ::System::Object
 	{

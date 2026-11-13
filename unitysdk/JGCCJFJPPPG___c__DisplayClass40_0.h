@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class ILPPBGLJABD;
 
-#define JGCCJFJPPPG___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1912A0)
-#define JGCCJFJPPPG___C__DISPLAYCLASS40_0__ISENDPOINT_B__0_OFFSET UNITYSDK_OFFSET(0xB191C90)
+#define JGCCJFJPPPG___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x193495B0)
+#define JGCCJFJPPPG___C__DISPLAYCLASS40_0__ISENDPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x1934A020)
 
-inline static constexpr unsigned int JGCCJFJPPPG___c__DisplayClass40_0_TypeDefinitionIndex = 62350;
+inline static constexpr unsigned int JGCCJFJPPPG___c__DisplayClass40_0_TypeDefinitionIndex = 63763;
 
 	class JGCCJFJPPPG___c__DisplayClass40_0 : public ::System::Object
 	{

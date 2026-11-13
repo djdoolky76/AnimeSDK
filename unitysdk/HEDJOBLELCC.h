@@ -3,10 +3,10 @@
 class DJFPJDODLMB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HEDJOBLELCC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C41750)
-#define HEDJOBLELCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C41780)
+#define HEDJOBLELCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F7C40)
+#define HEDJOBLELCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A1F7C70)
 
-inline static constexpr unsigned int HEDJOBLELCC_TypeDefinitionIndex = 52854;
+inline static constexpr unsigned int HEDJOBLELCC_TypeDefinitionIndex = 54009;
 
 	class HEDJOBLELCC
 	{

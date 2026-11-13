@@ -4,10 +4,10 @@
 class KODHAHDHIKJ;
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 
-#define KODHAHDHIKJ___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB58BF70)
-#define KODHAHDHIKJ___C__DISPLAYCLASS15_0__CONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0xB58C3D0)
+#define KODHAHDHIKJ___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x190FADC0)
+#define KODHAHDHIKJ___C__DISPLAYCLASS15_0__CONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x190FB220)
 
-inline static constexpr unsigned int KODHAHDHIKJ___c__DisplayClass15_0_TypeDefinitionIndex = 74397;
+inline static constexpr unsigned int KODHAHDHIKJ___c__DisplayClass15_0_TypeDefinitionIndex = 76545;
 
 	class KODHAHDHIKJ___c__DisplayClass15_0 : public ::System::Object
 	{

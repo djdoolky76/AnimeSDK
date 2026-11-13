@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTopActionDelayTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GFPLNNCOGOH_CTOR_OFFSET UNITYSDK_OFFSET(0x159F4800)
-#define GFPLNNCOGOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159F4830)
+#define GFPLNNCOGOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B49DCF0)
+#define GFPLNNCOGOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B49DD20)
 
-inline static constexpr unsigned int GFPLNNCOGOH_TypeDefinitionIndex = 54695;
+inline static constexpr unsigned int GFPLNNCOGOH_TypeDefinitionIndex = 55861;
 
 	class GFPLNNCOGOH
 	{

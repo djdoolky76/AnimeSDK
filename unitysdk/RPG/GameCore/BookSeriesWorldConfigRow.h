@@ -6,21 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BookSeriesWorldConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D444AA0)
-#define RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4448B0)
+#define RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF4B4A0)
+#define RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DF4B2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BookSeriesWorldConfigRow_TypeDefinitionIndex = 12903;
+	inline static constexpr unsigned int BookSeriesWorldConfigRow_TypeDefinitionIndex = 12975;
 
 	class BookSeriesWorldConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* BookSeriesWorldBackgroundPath; // 0x10
 		::System::String* BookSeriesWorldIconPath; // 0x18
-		::System::UInt32 BookSeriesWorld; // 0x20
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID BookSeriesWorldTextmapID; // 0x28
+		::RPG::Client::TextID BookSeriesWorldTextmapID; // 0x20
+		::System::UInt32 BookSeriesWorld; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 class AEBBINNDPFD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKPEPPNLNLA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E4780)
-#define PKPEPPNLNLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2E47B0)
+#define PKPEPPNLNLA_CTOR_OFFSET UNITYSDK_OFFSET(0x18871150)
+#define PKPEPPNLNLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18871180)
 
-inline static constexpr unsigned int PKPEPPNLNLA_TypeDefinitionIndex = 52888;
+inline static constexpr unsigned int PKPEPPNLNLA_TypeDefinitionIndex = 54044;
 
 	class PKPEPPNLNLA
 	{

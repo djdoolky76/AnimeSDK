@@ -4,12 +4,12 @@
 namespace System::Security::Cryptography { class KeySizes; }
 namespace System::Security::Cryptography { class RC2; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C338A10)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_CREATE_OFFSET UNITYSDK_OFFSET(0x1C3389C0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_CTOR_OFFSET UNITYSDK_OFFSET(0x1C338860)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_GET_EFFECTIVEKEYSIZE_OFFSET UNITYSDK_OFFSET(0x1C3388D0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_GET_KEYSIZE_OFFSET UNITYSDK_OFFSET(0x1C3388E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_SET_KEYSIZE_OFFSET UNITYSDK_OFFSET(0x1C3388F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF16B70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_CREATE_OFFSET UNITYSDK_OFFSET(0x1AF16B20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF169C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_GET_EFFECTIVEKEYSIZE_OFFSET UNITYSDK_OFFSET(0x1AF16A30)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_GET_KEYSIZE_OFFSET UNITYSDK_OFFSET(0x1AF16A40)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_SET_KEYSIZE_OFFSET UNITYSDK_OFFSET(0x1AF16A50)
 
 namespace System::Security::Cryptography
 {
@@ -21,12 +21,12 @@ namespace System::Security::Cryptography
 		::System::Int32 EffectiveKeySizeValue; // 0x48
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "RC2")->GetStaticField(0x226B0);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "RC2")->GetStaticField(0x1C750);
 		}
 
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "RC2")->GetStaticField(0x226B8);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "RC2")->GetStaticField(0x1C758);
 		}
 
 		::System::Void _ctor()

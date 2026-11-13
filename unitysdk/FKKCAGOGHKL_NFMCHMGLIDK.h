@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define FKKCAGOGHKL_NFMCHMGLIDK_CCTOR_OFFSET UNITYSDK_OFFSET(0x157F99E0)
+#define FKKCAGOGHKL_NFMCHMGLIDK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAB0110)
 
-inline static constexpr unsigned int FKKCAGOGHKL_NFMCHMGLIDK_TypeDefinitionIndex = 59320;
+inline static constexpr unsigned int FKKCAGOGHKL_NFMCHMGLIDK_TypeDefinitionIndex = 60597;
 
 	class FKKCAGOGHKL_NFMCHMGLIDK : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_DLGLKPDEMNO()
 		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "NFMCHMGLIDK")->GetStaticField(0x4FCD0);
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "NFMCHMGLIDK")->GetStaticField(0x67600);
 		}
 
 		static ::System::Void _cctor()

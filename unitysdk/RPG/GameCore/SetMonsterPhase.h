@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetMonsterPhase; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMONSTERPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8EB70)
-#define RPG_GAMECORE_SETMONSTERPHASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8EBC0)
-#define RPG_GAMECORE_SETMONSTERPHASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8EB00)
+#define RPG_GAMECORE_SETMONSTERPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9DC400)
+#define RPG_GAMECORE_SETMONSTERPHASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9DC450)
+#define RPG_GAMECORE_SETMONSTERPHASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9DC390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterPhase_TypeDefinitionIndex = 22730;
+	inline static constexpr unsigned int SetMonsterPhase_TypeDefinitionIndex = 23152;
 
 	class SetMonsterPhase : public ::RPG::GameCore::TaskConfig
 	{

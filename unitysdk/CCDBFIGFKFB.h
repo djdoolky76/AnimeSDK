@@ -8,12 +8,12 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CCDBFIGFKFB_CTOR_OFFSET UNITYSDK_OFFSET(0xC734E60)
-#define CCDBFIGFKFB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7357D0)
-#define CCDBFIGFKFB_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0xC734E70)
-#define CCDBFIGFKFB_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xC735640)
+#define CCDBFIGFKFB_CTOR_OFFSET UNITYSDK_OFFSET(0x18FF5C90)
+#define CCDBFIGFKFB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18FF6600)
+#define CCDBFIGFKFB_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0x18FF5CA0)
+#define CCDBFIGFKFB_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x18FF6470)
 
-inline static constexpr unsigned int CCDBFIGFKFB_TypeDefinitionIndex = 74036;
+inline static constexpr unsigned int CCDBFIGFKFB_TypeDefinitionIndex = 76172;
 
 	class CCDBFIGFKFB : public ::System::Object
 	{

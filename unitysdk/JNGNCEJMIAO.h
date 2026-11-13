@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCameraXAxisByPlayerTargetAxis; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JNGNCEJMIAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB279510)
-#define JNGNCEJMIAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB279540)
+#define JNGNCEJMIAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C7190)
+#define JNGNCEJMIAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A0C71C0)
 
-inline static constexpr unsigned int JNGNCEJMIAO_TypeDefinitionIndex = 58531;
+inline static constexpr unsigned int JNGNCEJMIAO_TypeDefinitionIndex = 59795;
 
 	class JNGNCEJMIAO
 	{

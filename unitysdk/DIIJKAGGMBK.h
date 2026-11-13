@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DIIJKAGGMBK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CCF8F90)
-#define DIIJKAGGMBK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF9510)
-#define DIIJKAGGMBK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CCF9100)
-#define DIIJKAGGMBK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CCF8D60)
-#define DIIJKAGGMBK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CCF8950)
-#define DIIJKAGGMBK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CCF91A0)
-#define DIIJKAGGMBK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CCF91F0)
-#define DIIJKAGGMBK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CCF8FD0)
-#define DIIJKAGGMBK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CCF88F0)
-#define DIIJKAGGMBK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CCF8C10)
-#define DIIJKAGGMBK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCF9060)
-#define DIIJKAGGMBK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCF8870)
+#define DIIJKAGGMBK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E7EDBB0)
+#define DIIJKAGGMBK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7EE130)
+#define DIIJKAGGMBK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E7EDD20)
+#define DIIJKAGGMBK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E7ED660)
+#define DIIJKAGGMBK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E7ED8F0)
+#define DIIJKAGGMBK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E7EDDC0)
+#define DIIJKAGGMBK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E7EDE10)
+#define DIIJKAGGMBK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E7EDBF0)
+#define DIIJKAGGMBK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E7ED890)
+#define DIIJKAGGMBK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E7EDA60)
+#define DIIJKAGGMBK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E7EDC80)
+#define DIIJKAGGMBK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E7ED5E0)
 
-inline static constexpr unsigned int DIIJKAGGMBK_TypeDefinitionIndex = 13806;
+inline static constexpr unsigned int DIIJKAGGMBK_TypeDefinitionIndex = 13963;
 
 	class DIIJKAGGMBK : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::InclinationTextRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::InclinationTextRow*>**)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0x46640);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0x3DD60);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0x46648);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0x3DD68);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::InclinationTextRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0x46650);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0x10890);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::InclinationTextRow*>**)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0x3DD70);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0x10891);
+			return (::System::Byte*)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0xC520);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DIIJKAGGMBK")->GetStaticField(0xC521);
 		}
 
 		static ::System::Void _cctor()

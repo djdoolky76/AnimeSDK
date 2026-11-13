@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PROP_SCENEPUZZLEITEMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xDDABA80)
-#define RPG_CLIENT_PROP_SCENEPUZZLEITEMBASE_ONSELECT_OFFSET UNITYSDK_OFFSET(0xDDABA00)
+#define RPG_CLIENT_PROP_SCENEPUZZLEITEMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x17489300)
+#define RPG_CLIENT_PROP_SCENEPUZZLEITEMBASE_ONSELECT_OFFSET UNITYSDK_OFFSET(0x17489280)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ScenePuzzleItemBase_TypeDefinitionIndex = 78855;
+	inline static constexpr unsigned int ScenePuzzleItemBase_TypeDefinitionIndex = 81626;
 
 	class ScenePuzzleItemBase : public ::UnityEngine::MonoBehaviour
 	{

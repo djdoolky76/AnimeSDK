@@ -8,13 +8,13 @@ class PMMMEFBPCEK;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OJGHGPNOOFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBEAFCA0)
-#define OJGHGPNOOFL_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xBEAEE20)
-#define OJGHGPNOOFL_GGEDGBNHGAC_OFFSET UNITYSDK_OFFSET(0xBEAEE70)
-#define OJGHGPNOOFL_ONCNALEHHKK_OFFSET UNITYSDK_OFFSET(0xBEAF890)
-#define OJGHGPNOOFL_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xBEAFAA0)
+#define OJGHGPNOOFL_CTOR_OFFSET UNITYSDK_OFFSET(0x194B48F0)
+#define OJGHGPNOOFL_GGEDGBNHGAC_OFFSET UNITYSDK_OFFSET(0x194B32A0)
+#define OJGHGPNOOFL_ONCNALEHHKK_OFFSET UNITYSDK_OFFSET(0x194B44E0)
+#define OJGHGPNOOFL_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0x194B46F0)
+#define OJGHGPNOOFL__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x194B3250)
 
-inline static constexpr unsigned int OJGHGPNOOFL_TypeDefinitionIndex = 71234;
+inline static constexpr unsigned int OJGHGPNOOFL_TypeDefinitionIndex = 73213;
 
 	class OJGHGPNOOFL : public ::FMPCODLIOLG
 	{
@@ -26,9 +26,9 @@ inline static constexpr unsigned int OJGHGPNOOFL_TypeDefinitionIndex = 71234;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJGHGPNOOFL_CTOR_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + OJGHGPNOOFL_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + OJGHGPNOOFL__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void GGEDGBNHGAC(::NFGNOOMMMEK* a1)

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ILinkImageText_TypeDefinitionIndex = 8022;
+	inline static constexpr unsigned int ILinkImageText_TypeDefinitionIndex = 8031;
 
 	class ILinkImageText
 	{

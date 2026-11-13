@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GraphicDeviceInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRAPHICDEVICEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F5020)
-#define RPG_GAMECORE_GRAPHICDEVICEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F4ED0)
+#define RPG_GAMECORE_GRAPHICDEVICEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x205F7F20)
+#define RPG_GAMECORE_GRAPHICDEVICEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x205F7DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GraphicDeviceInfo_TypeDefinitionIndex = 18270;
+	inline static constexpr unsigned int GraphicDeviceInfo_TypeDefinitionIndex = 18432;
 
 	class GraphicDeviceInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class ONNMLLIEENI;
 namespace System { class Object; }
 
-#define ONNMLLIEENI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEA5140)
-#define ONNMLLIEENI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA5170)
-#define ONNMLLIEENI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEA5180)
+#define ONNMLLIEENI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC39360)
+#define ONNMLLIEENI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC39390)
+#define ONNMLLIEENI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC393A0)
 
-inline static constexpr unsigned int ONNMLLIEENI___c_TypeDefinitionIndex = 27507;
+inline static constexpr unsigned int ONNMLLIEENI___c_TypeDefinitionIndex = 28038;
 
 	class ONNMLLIEENI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25680);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x292F0);
 		}
 
 		static ::System::Void _cctor()

@@ -7,24 +7,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeliobusSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HELIOBUSSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D737C40)
-#define RPG_GAMECORE_HELIOBUSSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7374E0)
+#define RPG_GAMECORE_HELIOBUSSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA86E80)
+#define RPG_GAMECORE_HELIOBUSSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA866E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusSkillRow_TypeDefinitionIndex = 13757;
+	inline static constexpr unsigned int HeliobusSkillRow_TypeDefinitionIndex = 13914;
 
 	class HeliobusSkillRow : public ::System::Object
 	{
 	public:
 		::System::String* SkillIconPath; // 0x10
-		::RPG::Client::TextID BGDescription; // 0x18
-		::System::UInt32 HeliobusSkillID; // 0x28
+		::System::UInt32 HeliobusSkillID; // 0x18
+		::RPG::GameCore::SkillEffect SkillEffect; // 0x1C
+		::System::UInt32 UnlockMissionID; // 0x20
+		::System::UInt32 SkillUIPosition; // 0x24
+		::System::UInt32 RelatedEventID; // 0x28
 		::System::UInt32 UnlockToastMissionID; // 0x2C
-		::System::UInt32 SkillUIPosition; // 0x30
-		::System::UInt32 UnlockMissionID; // 0x34
-		::RPG::GameCore::SkillEffect SkillEffect; // 0x38
-		::System::UInt32 RelatedEventID; // 0x3C
+		::RPG::Client::TextID BGDescription; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSSKILLROW_CTOR_OFFSET))(this);

@@ -4,10 +4,10 @@
 class CLGMBADPMOO;
 namespace System { class Object; }
 
-#define CLGMBADPMOO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD779360)
-#define CLGMBADPMOO___C__DISPLAYCLASS6_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0xD77A110)
+#define CLGMBADPMOO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD62B80)
+#define CLGMBADPMOO___C__DISPLAYCLASS6_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1AD63930)
 
-inline static constexpr unsigned int CLGMBADPMOO___c__DisplayClass6_0_TypeDefinitionIndex = 80510;
+inline static constexpr unsigned int CLGMBADPMOO___c__DisplayClass6_0_TypeDefinitionIndex = 83290;
 
 	class CLGMBADPMOO___c__DisplayClass6_0 : public ::System::Object
 	{

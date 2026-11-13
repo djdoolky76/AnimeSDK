@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELBASERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF6DE0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELBASERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EF8A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelBaseResult_TypeDefinitionIndex = 8585;
+	inline static constexpr unsigned int HoYoChannelBaseResult_TypeDefinitionIndex = 8594;
 
 	class HoYoChannelBaseResult : public ::System::Object
 	{

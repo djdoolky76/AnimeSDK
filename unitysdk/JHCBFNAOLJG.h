@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_RemoveModifier; }
 
-#define JHCBFNAOLJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C6CE0)
-#define JHCBFNAOLJG_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6C6CF0)
+#define JHCBFNAOLJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C131470)
+#define JHCBFNAOLJG_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C131480)
 
-inline static constexpr unsigned int JHCBFNAOLJG_TypeDefinitionIndex = 36299;
+inline static constexpr unsigned int JHCBFNAOLJG_TypeDefinitionIndex = 37227;
 
 	class JHCBFNAOLJG : public ::AJBKGPOEBFG
 	{

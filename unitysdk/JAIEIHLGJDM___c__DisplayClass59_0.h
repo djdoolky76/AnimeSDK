@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class MEKPDDBLCGK;
 
-#define JAIEIHLGJDM___C__DISPLAYCLASS59_0_CTOR_OFFSET UNITYSDK_OFFSET(0x165440A0)
-#define JAIEIHLGJDM___C__DISPLAYCLASS59_0___TRYGETPEAKBESTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x165441B0)
+#define JAIEIHLGJDM___C__DISPLAYCLASS59_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A53A50)
+#define JAIEIHLGJDM___C__DISPLAYCLASS59_0___TRYGETPEAKBESTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x19A53B60)
 
-inline static constexpr unsigned int JAIEIHLGJDM___c__DisplayClass59_0_TypeDefinitionIndex = 63188;
+inline static constexpr unsigned int JAIEIHLGJDM___c__DisplayClass59_0_TypeDefinitionIndex = 64626;
 
 	class JAIEIHLGJDM___c__DisplayClass59_0 : public ::System::Object
 	{

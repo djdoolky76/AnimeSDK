@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicValueRangeCallback; }
 namespace RPG::GameCore { class DynamicValueRangeGroup; }
 
-#define RPG_GAMECORE_DYNAMICVALUERANGEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FF260)
-#define RPG_GAMECORE_DYNAMICVALUERANGEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FF0B0)
+#define RPG_GAMECORE_DYNAMICVALUERANGEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D6260)
+#define RPG_GAMECORE_DYNAMICVALUERANGEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D60B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValueRangeGroup_TypeDefinitionIndex = 18226;
+	inline static constexpr unsigned int DynamicValueRangeGroup_TypeDefinitionIndex = 18388;
 
 	class DynamicValueRangeGroup : public ::RPG::GameCore::JsonConfig
 	{

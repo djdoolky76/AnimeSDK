@@ -4,10 +4,10 @@
 class BPDHKDJKKJC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BPDHKDJKKJC___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A11A0)
-#define BPDHKDJKKJC___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xC1A16C0)
+#define BPDHKDJKKJC___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5FF600)
+#define BPDHKDJKKJC___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1B5FFAE0)
 
-inline static constexpr unsigned int BPDHKDJKKJC___c__DisplayClass1_0_TypeDefinitionIndex = 55697;
+inline static constexpr unsigned int BPDHKDJKKJC___c__DisplayClass1_0_TypeDefinitionIndex = 56899;
 
 	class BPDHKDJKKJC___c__DisplayClass1_0 : public ::System::Object
 	{

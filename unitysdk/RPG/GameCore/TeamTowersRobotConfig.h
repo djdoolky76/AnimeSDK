@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamTowersRobotConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSROBOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB508C0)
-#define RPG_GAMECORE_TEAMTOWERSROBOTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4F6A0)
+#define RPG_GAMECORE_TEAMTOWERSROBOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C5400)
+#define RPG_GAMECORE_TEAMTOWERSROBOTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C4260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersRobotConfig_TypeDefinitionIndex = 18944;
+	inline static constexpr unsigned int TeamTowersRobotConfig_TypeDefinitionIndex = 19131;
 
 	class TeamTowersRobotConfig : public ::RPG::GameCore::JsonConfig
 	{

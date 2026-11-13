@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NLNEBDEEONP_TypeDefinitionIndex = 25375;
+inline static constexpr unsigned int NLNEBDEEONP_TypeDefinitionIndex = 25853;
 
 	enum class NLNEBDEEONP : ::System::Int32
 	{

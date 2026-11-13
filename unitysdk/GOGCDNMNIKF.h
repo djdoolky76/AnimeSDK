@@ -5,10 +5,10 @@ class DMGLFMNEJGL;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define GOGCDNMNIKF_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x15B23510)
-#define GOGCDNMNIKF_CTOR_OFFSET UNITYSDK_OFFSET(0x15B23750)
+#define GOGCDNMNIKF_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x187B3FE0)
+#define GOGCDNMNIKF_CTOR_OFFSET UNITYSDK_OFFSET(0x187B4220)
 
-inline static constexpr unsigned int GOGCDNMNIKF_TypeDefinitionIndex = 67247;
+inline static constexpr unsigned int GOGCDNMNIKF_TypeDefinitionIndex = 69191;
 
 	class GOGCDNMNIKF : public ::System::Object
 	{

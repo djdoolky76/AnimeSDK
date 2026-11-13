@@ -7,12 +7,12 @@ namespace RPG::Client { class ChimeraDuelPvpTeamSnapshot; }
 namespace RPG::Client { class IChimeraDuelChallengeTeam; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB11020)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0___CREATEFORCHALLENGEBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0xCB13070)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE7440)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0___CREATEFORCHALLENGEBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x1DFE9490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 63401;
+	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 64839;
 
 	class ChimeraDuelBattlePageViewModel___c__DisplayClass21_0 : public ::System::Object
 	{

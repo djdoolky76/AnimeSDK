@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterPartsVisibility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGPJHHIAOCL_CTOR_OFFSET UNITYSDK_OFFSET(0xCC88C70)
-#define CGPJHHIAOCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC88CA0)
+#define CGPJHHIAOCL_CTOR_OFFSET UNITYSDK_OFFSET(0x17861FA0)
+#define CGPJHHIAOCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17861FD0)
 
-inline static constexpr unsigned int CGPJHHIAOCL_TypeDefinitionIndex = 55891;
+inline static constexpr unsigned int CGPJHHIAOCL_TypeDefinitionIndex = 57094;
 
 	class CGPJHHIAOCL
 	{

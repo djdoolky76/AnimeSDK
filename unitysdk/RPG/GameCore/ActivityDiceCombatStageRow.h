@@ -5,29 +5,29 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityDiceCombatStageRow; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSTAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D325F10)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D325AE0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSTAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E503190)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E502D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatStageRow_TypeDefinitionIndex = 11260;
+	inline static constexpr unsigned int ActivityDiceCombatStageRow_TypeDefinitionIndex = 11311;
 
 	class ActivityDiceCombatStageRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* RecommendAvatarList; // 0x10
-		::Il2CppArray<::System::UInt32>* DiceIDPerRare; // 0x18
-		::System::UInt32 OverWriteMaxHPLuckControl; // 0x20
-		::System::UInt32 IsUseDiceLuckControl; // 0x24
-		::System::UInt32 HardLevel; // 0x28
-		::System::UInt32 PresetID; // 0x2C
-		::RPG::GameCore::DiceCombatStageFirstType FirstType; // 0x30
-		::System::UInt32 RewardID; // 0x34
-		::System::UInt32 DiceCampaignID; // 0x38
-		::System::UInt32 DiceAvatarLevel; // 0x3C
-		::System::UInt32 DiceAvatarID; // 0x40
-		::System::UInt32 DiceStageID; // 0x44
-		::System::UInt32 AILevel; // 0x48
+		::Il2CppArray<::System::UInt32>* DiceIDPerRare; // 0x10
+		::Il2CppArray<::System::UInt32>* RecommendAvatarList; // 0x18
+		::System::UInt32 AILevel; // 0x20
+		::System::UInt32 RewardID; // 0x24
+		::RPG::GameCore::DiceCombatStageFirstType FirstType; // 0x28
+		::System::UInt32 DiceStageID; // 0x2C
+		::System::UInt32 OverWriteMaxHPLuckControl; // 0x30
+		::System::UInt32 DiceAvatarID; // 0x34
+		::System::UInt32 DiceAvatarLevel; // 0x38
+		::System::UInt32 PresetID; // 0x3C
+		::System::UInt32 DiceCampaignID; // 0x40
+		::System::UInt32 HardLevel; // 0x44
+		::System::UInt32 IsUseDiceLuckControl; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATSTAGEROW_CTOR_OFFSET))(this);

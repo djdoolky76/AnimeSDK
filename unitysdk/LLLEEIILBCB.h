@@ -5,19 +5,19 @@ class JPMCBFLFDIL;
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 
-#define LLLEEIILBCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC65350)
-#define LLLEEIILBCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC65340)
-#define LLLEEIILBCB_DCCACKNOBKM_OFFSET UNITYSDK_OFFSET(0x1CC65300)
-#define LLLEEIILBCB_FMMGNFDCMCN_OFFSET UNITYSDK_OFFSET(0x1CC65290)
+#define LLLEEIILBCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x20937F30)
+#define LLLEEIILBCB_CTOR_OFFSET UNITYSDK_OFFSET(0x20937F20)
+#define LLLEEIILBCB_DCCACKNOBKM_OFFSET UNITYSDK_OFFSET(0x20937EE0)
+#define LLLEEIILBCB_FMMGNFDCMCN_OFFSET UNITYSDK_OFFSET(0x20937E70)
 
-inline static constexpr unsigned int LLLEEIILBCB_TypeDefinitionIndex = 43876;
+inline static constexpr unsigned int LLLEEIILBCB_TypeDefinitionIndex = 44951;
 
 	class LLLEEIILBCB : public ::System::Object
 	{
 	public:
 		static ::JPMCBFLFDIL** StaticGet_FMJPMFEDIJL()
 		{
-			return (::JPMCBFLFDIL**)UnitySDK::FromName("", "LLLEEIILBCB")->GetStaticField(0xF60);
+			return (::JPMCBFLFDIL**)UnitySDK::FromName("", "LLLEEIILBCB")->GetStaticField(0x1060);
 		}
 
 		::System::Void _ctor()

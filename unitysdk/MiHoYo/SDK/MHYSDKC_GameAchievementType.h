@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_GameAchievementType_TypeDefinitionIndex = 46251;
+	inline static constexpr unsigned int MHYSDKC_GameAchievementType_TypeDefinitionIndex = 47280;
 
 	class MHYSDKC_GameAchievementType : public ::System::Object
 	{

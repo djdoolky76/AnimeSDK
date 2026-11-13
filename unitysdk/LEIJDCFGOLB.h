@@ -8,19 +8,19 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerable; }
 
-#define LEIJDCFGOLB_ADJOFICLCML_OFFSET UNITYSDK_OFFSET(0x1C47DEC0)
-#define LEIJDCFGOLB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C47DF90)
-#define LEIJDCFGOLB_EHPGFKGLBBJ_OFFSET UNITYSDK_OFFSET(0x1C47DDF0)
-#define LEIJDCFGOLB_HAGHKCMHEIG_OFFSET UNITYSDK_OFFSET(0x1C47DD30)
+#define LEIJDCFGOLB_ADJOFICLCML_OFFSET UNITYSDK_OFFSET(0x1BCF6870)
+#define LEIJDCFGOLB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCF6940)
+#define LEIJDCFGOLB_EHPGFKGLBBJ_OFFSET UNITYSDK_OFFSET(0x1BCF67A0)
+#define LEIJDCFGOLB_HAGHKCMHEIG_OFFSET UNITYSDK_OFFSET(0x1BCF66E0)
 
-inline static constexpr unsigned int LEIJDCFGOLB_TypeDefinitionIndex = 41592;
+inline static constexpr unsigned int LEIJDCFGOLB_TypeDefinitionIndex = 42567;
 
 	class LEIJDCFGOLB : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Object*>** StaticGet_HCFOAOMGJAE()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("", "LEIJDCFGOLB")->GetStaticField(0x1BEE0);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("", "LEIJDCFGOLB")->GetStaticField(0xAC60);
 		}
 
 		static ::System::Void _cctor()

@@ -9,20 +9,20 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MICBPNMPEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D183160)
-#define MICBPNMPEFP_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1D1833F0)
-#define MICBPNMPEFP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1831A0)
-#define MICBPNMPEFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D183100)
+#define MICBPNMPEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F587C90)
+#define MICBPNMPEFP_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1F587F20)
+#define MICBPNMPEFP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F587CD0)
+#define MICBPNMPEFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F587C30)
 
-inline static constexpr unsigned int MICBPNMPEFP_TypeDefinitionIndex = 24155;
+inline static constexpr unsigned int MICBPNMPEFP_TypeDefinitionIndex = 24614;
 
 	class MICBPNMPEFP : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* PMJKDMDOEDE; // 0x18
-		::RPG::GameCore::TargetEvaluator* AAHOJJJPFLD; // 0x20
-		::RPG::GameCore::TargetEvaluator* MKMCENPANNO; // 0x28
-		::System::String* FHLJGDGMMHK; // 0x30
+		::System::String* FHLJGDGMMHK; // 0x18
+		::RPG::GameCore::DynamicFloat* PMJKDMDOEDE; // 0x20
+		::RPG::GameCore::TargetEvaluator* AAHOJJJPFLD; // 0x28
+		::RPG::GameCore::TargetEvaluator* MKMCENPANNO; // 0x30
 		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x38
 		::System::Void _ctor()
 		{

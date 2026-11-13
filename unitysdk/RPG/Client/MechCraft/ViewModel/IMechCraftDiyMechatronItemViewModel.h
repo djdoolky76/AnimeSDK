@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int IMechCraftDiyMechatronItemViewModel_TypeDefinitionIndex = 79626;
+	inline static constexpr unsigned int IMechCraftDiyMechatronItemViewModel_TypeDefinitionIndex = 82403;
 
 	class IMechCraftDiyMechatronItemViewModel
 	{

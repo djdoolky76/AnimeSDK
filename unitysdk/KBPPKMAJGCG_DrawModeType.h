@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KBPPKMAJGCG_DrawModeType_TypeDefinitionIndex = 70328;
+inline static constexpr unsigned int KBPPKMAJGCG_DrawModeType_TypeDefinitionIndex = 72294;
 
 	enum class KBPPKMAJGCG_DrawModeType : ::System::Int32
 	{

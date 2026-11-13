@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FloorInstanceType.h"
 
-#define KDEKNFKEEMB_FOEBLLFDCIH_OFFSET UNITYSDK_OFFSET(0x137A0)
+#define KDEKNFKEEMB_FOEBLLFDCIH_OFFSET UNITYSDK_OFFSET(0x3E5D6B0)
 
-inline static constexpr unsigned int KDEKNFKEEMB_TypeDefinitionIndex = 62088;
+inline static constexpr unsigned int KDEKNFKEEMB_TypeDefinitionIndex = 63501;
 
 	struct alignas(4) KDEKNFKEEMB
 	{

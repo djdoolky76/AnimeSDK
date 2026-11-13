@@ -9,36 +9,36 @@ namespace RPG::GameCore { class MarbleLaunchAIConfig; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_CTOR_OFFSET UNITYSDK_OFFSET(0x1C873640)
-#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C873950)
-#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C8778C0)
-#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C877920)
-#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C8778D0)
-#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C8736F0)
-#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1C873750)
-#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1C873850)
+#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_CTOR_OFFSET UNITYSDK_OFFSET(0x1D876EA0)
+#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D8771C0)
+#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D87B170)
+#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D87B1D0)
+#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D87B180)
+#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D876F60)
+#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1D876FC0)
+#define AOKDLPNDMMO__GETLAUNCHRESULT_D__8___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1D8770C0)
 
-inline static constexpr unsigned int AOKDLPNDMMO__GetLaunchResult_d__8_TypeDefinitionIndex = 43079;
+inline static constexpr unsigned int AOKDLPNDMMO__GetLaunchResult_d__8_TypeDefinitionIndex = 44060;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class AOKDLPNDMMO__GetLaunchResult_d__8 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerator_1<::NBIBOKEFKIH*>* __7__wrap4; // 0x10
-		::FBDPOPBPHKP* _selfTeam_5__3; // 0x18
-		::NBIBOKEFKIH* _enemyItem_5__6; // 0x20
-		::RPG::GameCore::MarbleLaunchAIConfig* _aiConfig_5__4; // 0x28
-		::System::Object* __2__current; // 0x30
-		::NBIBOKEFKIH* _selfItem_5__2; // 0x38
-		::AOKDLPNDMMO* __4__this; // 0x40
-		::System::UInt32 playerId; // 0x48
-		::System::Single _interval_5__9; // 0x4C
-		::System::Int32 _i_5__10; // 0x50
-		::RPG::MVector2 _toTarget_5__7; // 0x54
-		::System::Int32 __1__state; // 0x5C
-		::System::Single _angle_5__8; // 0x60
-		::System::UInt32 aiRank; // 0x64
-		::System::UInt32 itemId; // 0x68
+		::NBIBOKEFKIH* _selfItem_5__2; // 0x10
+		::NBIBOKEFKIH* _enemyItem_5__6; // 0x18
+		::AOKDLPNDMMO* __4__this; // 0x20
+		::System::Collections::Generic::IEnumerator_1<::NBIBOKEFKIH*>* __7__wrap4; // 0x28
+		::RPG::GameCore::MarbleLaunchAIConfig* _aiConfig_5__4; // 0x30
+		::FBDPOPBPHKP* _selfTeam_5__3; // 0x38
+		::System::Object* __2__current; // 0x40
+		::System::Single _angle_5__8; // 0x48
+		::System::UInt32 aiRank; // 0x4C
+		::RPG::MVector2 _toTarget_5__7; // 0x50
+		::System::UInt32 itemId; // 0x58
+		::System::Int32 _i_5__10; // 0x5C
+		::System::Int32 __1__state; // 0x60
+		::System::Single _interval_5__9; // 0x64
+		::System::UInt32 playerId; // 0x68
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AOKDLPNDMMO__GETLAUNCHRESULT_D__8_CTOR_OFFSET))(this, a1);

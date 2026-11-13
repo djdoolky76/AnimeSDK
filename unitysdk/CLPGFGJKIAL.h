@@ -6,18 +6,18 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLPGFGJKIAL_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA1C000)
-#define CLPGFGJKIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA1BC20)
-#define CLPGFGJKIAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA1BC50)
+#define CLPGFGJKIAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1893B0)
+#define CLPGFGJKIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B188FD0)
+#define CLPGFGJKIAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B189000)
 
-inline static constexpr unsigned int CLPGFGJKIAL_TypeDefinitionIndex = 56425;
+inline static constexpr unsigned int CLPGFGJKIAL_TypeDefinitionIndex = 57643;
 
 	class CLPGFGJKIAL
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillTextDialogType, ::System::String*>** StaticGet_APFIEOGGDIG()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillTextDialogType, ::System::String*>**)UnitySDK::FromName("", "CLPGFGJKIAL")->GetStaticField(0x4A920);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillTextDialogType, ::System::String*>**)UnitySDK::FromName("", "CLPGFGJKIAL")->GetStaticField(0x36870);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetSkillTextDialogType* a2)

@@ -5,9 +5,9 @@ class CKFDNGOHNPC;
 class LIJOBNIMALC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NIAHNPEEJHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C937EC0)
+#define NIAHNPEEJHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E046510)
 
-inline static constexpr unsigned int NIAHNPEEJHJ_TypeDefinitionIndex = 42188;
+inline static constexpr unsigned int NIAHNPEEJHJ_TypeDefinitionIndex = 43163;
 
 	class NIAHNPEEJHJ : public ::System::Object
 	{

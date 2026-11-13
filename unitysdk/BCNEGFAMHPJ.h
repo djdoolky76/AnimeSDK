@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetIsStanceWeak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BCNEGFAMHPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x162D92B0)
-#define BCNEGFAMHPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x162D92E0)
+#define BCNEGFAMHPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19D81410)
+#define BCNEGFAMHPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19D81440)
 
-inline static constexpr unsigned int BCNEGFAMHPJ_TypeDefinitionIndex = 54720;
+inline static constexpr unsigned int BCNEGFAMHPJ_TypeDefinitionIndex = 55887;
 
 	class BCNEGFAMHPJ
 	{

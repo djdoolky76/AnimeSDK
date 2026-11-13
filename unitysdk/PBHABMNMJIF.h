@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByAnchorAngleDiffWithMainCameraOverThan; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBHABMNMJIF_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE5E40)
-#define PBHABMNMJIF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFE5E70)
+#define PBHABMNMJIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AABC4A0)
+#define PBHABMNMJIF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AABC4D0)
 
-inline static constexpr unsigned int PBHABMNMJIF_TypeDefinitionIndex = 57963;
+inline static constexpr unsigned int PBHABMNMJIF_TypeDefinitionIndex = 59201;
 
 	class PBHABMNMJIF
 	{

@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIPREFABBUNDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2ADCC0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIPREFABBUNDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6614B0)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIPrefabBundle_TypeDefinitionIndex = 35674;
+	inline static constexpr unsigned int DebugUIPrefabBundle_TypeDefinitionIndex = 36602;
 
 	class DebugUIPrefabBundle : public ::System::Object
 	{

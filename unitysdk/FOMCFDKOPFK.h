@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableHugeMonsterHalfDither; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FOMCFDKOPFK_CTOR_OFFSET UNITYSDK_OFFSET(0x158EEE30)
-#define FOMCFDKOPFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158EEE60)
+#define FOMCFDKOPFK_CTOR_OFFSET UNITYSDK_OFFSET(0x18759CB0)
+#define FOMCFDKOPFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18759CE0)
 
-inline static constexpr unsigned int FOMCFDKOPFK_TypeDefinitionIndex = 55015;
+inline static constexpr unsigned int FOMCFDKOPFK_TypeDefinitionIndex = 56189;
 
 	class FOMCFDKOPFK
 	{

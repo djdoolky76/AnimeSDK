@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define PLKEFLMJAFH_CTOR_OFFSET UNITYSDK_OFFSET(0xC301080)
-#define PLKEFLMJAFH_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xC3010D0)
+#define PLKEFLMJAFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1888DE00)
+#define PLKEFLMJAFH_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x1888DE50)
 
-inline static constexpr unsigned int PLKEFLMJAFH_TypeDefinitionIndex = 57042;
+inline static constexpr unsigned int PLKEFLMJAFH_TypeDefinitionIndex = 58269;
 
 	class PLKEFLMJAFH : public ::NHPNLANLMDB
 	{

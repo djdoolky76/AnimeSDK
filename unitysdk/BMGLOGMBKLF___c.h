@@ -4,18 +4,18 @@
 class BMGLOGMBKLF;
 namespace System { class Object; }
 
-#define BMGLOGMBKLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF9580)
-#define BMGLOGMBKLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF95C0)
-#define BMGLOGMBKLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFF95D0)
+#define BMGLOGMBKLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC75C40)
+#define BMGLOGMBKLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC75C80)
+#define BMGLOGMBKLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC75C90)
 
-inline static constexpr unsigned int BMGLOGMBKLF___c_TypeDefinitionIndex = 30955;
+inline static constexpr unsigned int BMGLOGMBKLF___c_TypeDefinitionIndex = 31868;
 
 	class BMGLOGMBKLF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CC40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x592D0);
 		}
 
 		static ::System::Void _cctor()

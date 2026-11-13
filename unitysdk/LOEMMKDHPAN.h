@@ -5,10 +5,10 @@
 class OKBLBLPOENO;
 namespace RPG::Client { class IRogueMiracleInfo; }
 
-#define LOEMMKDHPAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F8070)
-#define LOEMMKDHPAN_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xB7F8080)
+#define LOEMMKDHPAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5AC5F0)
+#define LOEMMKDHPAN_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x1A5AC600)
 
-inline static constexpr unsigned int LOEMMKDHPAN_TypeDefinitionIndex = 67095;
+inline static constexpr unsigned int LOEMMKDHPAN_TypeDefinitionIndex = 69039;
 
 	class LOEMMKDHPAN : public ::DOLNICOMJJM
 	{

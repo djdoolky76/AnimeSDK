@@ -6,16 +6,16 @@ class DOHPLIKIMDC;
 class LJFHKAJPFNE;
 namespace RPG::Client { class MonoEffect; }
 
-#define LJFHKAJPFNE___C__DISPLAYCLASS70_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB709DA0)
-#define LJFHKAJPFNE___C__DISPLAYCLASS70_0__PRELOADBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0xB709DB0)
+#define LJFHKAJPFNE___C__DISPLAYCLASS70_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17305580)
+#define LJFHKAJPFNE___C__DISPLAYCLASS70_0__PRELOADBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0x173292A0)
 
-inline static constexpr unsigned int LJFHKAJPFNE___c__DisplayClass70_0_TypeDefinitionIndex = 73862;
+inline static constexpr unsigned int LJFHKAJPFNE___c__DisplayClass70_0_TypeDefinitionIndex = 75988;
 
 	class LJFHKAJPFNE___c__DisplayClass70_0 : public ::System::Object
 	{
 	public:
-		::DOHPLIKIMDC* ba; // 0x10
-		::LJFHKAJPFNE* __4__this; // 0x18
+		::LJFHKAJPFNE* __4__this; // 0x10
+		::DOHPLIKIMDC* ba; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJFHKAJPFNE___C__DISPLAYCLASS70_0_CTOR_OFFSET))(this);

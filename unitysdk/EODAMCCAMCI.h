@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EODAMCCAMCI_CTOR_OFFSET UNITYSDK_OFFSET(0x155B0420)
+#define EODAMCCAMCI_CTOR_OFFSET UNITYSDK_OFFSET(0x16B1DAF0)
 
-inline static constexpr unsigned int EODAMCCAMCI_TypeDefinitionIndex = 56454;
+inline static constexpr unsigned int EODAMCCAMCI_TypeDefinitionIndex = 57672;
 
 	class EODAMCCAMCI : public ::System::Object
 	{

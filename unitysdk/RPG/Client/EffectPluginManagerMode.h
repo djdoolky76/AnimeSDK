@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectPluginManagerMode_TypeDefinitionIndex = 70415;
+	inline static constexpr unsigned int EffectPluginManagerMode_TypeDefinitionIndex = 72382;
 
 	enum class EffectPluginManagerMode : ::System::Int32
 	{

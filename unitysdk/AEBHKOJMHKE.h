@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HipplenSetAreaAnchorVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEBHKOJMHKE_CTOR_OFFSET UNITYSDK_OFFSET(0xB148E30)
-#define AEBHKOJMHKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB148E60)
+#define AEBHKOJMHKE_CTOR_OFFSET UNITYSDK_OFFSET(0x182B8CB0)
+#define AEBHKOJMHKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182B8CE0)
 
-inline static constexpr unsigned int AEBHKOJMHKE_TypeDefinitionIndex = 52279;
+inline static constexpr unsigned int AEBHKOJMHKE_TypeDefinitionIndex = 53385;
 
 	class AEBHKOJMHKE
 	{

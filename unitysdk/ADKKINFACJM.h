@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetupPropAnchorInRadius; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADKKINFACJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB141970)
-#define ADKKINFACJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1419A0)
+#define ADKKINFACJM_CTOR_OFFSET UNITYSDK_OFFSET(0x182B14C0)
+#define ADKKINFACJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182B14F0)
 
-inline static constexpr unsigned int ADKKINFACJM_TypeDefinitionIndex = 58597;
+inline static constexpr unsigned int ADKKINFACJM_TypeDefinitionIndex = 59862;
 
 	class ADKKINFACJM
 	{

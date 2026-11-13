@@ -8,22 +8,21 @@ class GNJOOFCEGAG;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define GNJOOFCEGAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE3FE90)
-#define GNJOOFCEGAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE3FED0)
-#define GNJOOFCEGAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE3FE30)
+#define GNJOOFCEGAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C05A0)
+#define GNJOOFCEGAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9C05E0)
+#define GNJOOFCEGAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9C0540)
 
-inline static constexpr unsigned int GNJOOFCEGAG_TypeDefinitionIndex = 22560;
+inline static constexpr unsigned int GNJOOFCEGAG_TypeDefinitionIndex = 22975;
 
 	class GNJOOFCEGAG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HFOFGODKAMN; // 0x18
-		::RPG::GameCore::TargetEvaluator* DEONKIFKHLF; // 0x20
-		::System::String* FHLJGDGMMHK; // 0x28
-		::RPG::GameCore::AvatarBaseTypeMask LKLNGCCIMEM; // 0x30
-		::System::Boolean AACPFDGGGDE; // 0x34
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::AvatarBaseTypeKind EIEEPCFDPJD; // 0x38
+		::RPG::GameCore::TargetEvaluator* DEONKIFKHLF; // 0x18
+		::System::String* FHLJGDGMMHK; // 0x20
+		::RPG::GameCore::TargetEvaluator* HFOFGODKAMN; // 0x28
+		::RPG::GameCore::AvatarBaseTypeKind EIEEPCFDPJD; // 0x30
+		::RPG::GameCore::AvatarBaseTypeMask LKLNGCCIMEM; // 0x34
+		::System::Boolean AACPFDGGGDE; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GNJOOFCEGAG_CTOR_OFFSET))(this);

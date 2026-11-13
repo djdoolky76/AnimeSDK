@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::BlindBox::Trade { class IBlindBoxTradeOrder; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8964B0)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS17_0__REMOVEMYCURRENTORDER_B__0_OFFSET UNITYSDK_OFFSET(0xC89BB50)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C565000)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS17_0__REMOVEMYCURRENTORDER_B__0_OFFSET UNITYSDK_OFFSET(0x1C56A640)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradeOrderRepository___c__DisplayClass17_0_TypeDefinitionIndex = 74873;
+	inline static constexpr unsigned int BlindBoxTradeOrderRepository___c__DisplayClass17_0_TypeDefinitionIndex = 77200;
 
 	class BlindBoxTradeOrderRepository___c__DisplayClass17_0 : public ::System::Object
 	{

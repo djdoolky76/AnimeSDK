@@ -4,10 +4,10 @@
 class MIMMNOKEGBE;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AFMMLCHNCDM_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xCF11C80)
-#define AFMMLCHNCDM_CTOR_OFFSET UNITYSDK_OFFSET(0xCF11E40)
+#define AFMMLCHNCDM_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x18DBF8B0)
+#define AFMMLCHNCDM_CTOR_OFFSET UNITYSDK_OFFSET(0x18DBFA70)
 
-inline static constexpr unsigned int AFMMLCHNCDM_TypeDefinitionIndex = 61404;
+inline static constexpr unsigned int AFMMLCHNCDM_TypeDefinitionIndex = 62789;
 
 	class AFMMLCHNCDM : public ::System::Object
 	{

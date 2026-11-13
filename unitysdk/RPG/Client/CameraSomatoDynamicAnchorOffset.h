@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_CAMERASOMATODYNAMICANCHOROFFSET_CTOR_OFFSET UNITYSDK_OFFSET(0xC931610)
+#define RPG_CLIENT_CAMERASOMATODYNAMICANCHOROFFSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDCE780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraSomatoDynamicAnchorOffset_TypeDefinitionIndex = 69728;
+	inline static constexpr unsigned int CameraSomatoDynamicAnchorOffset_TypeDefinitionIndex = 71685;
 
 	class CameraSomatoDynamicAnchorOffset : public ::System::Object
 	{

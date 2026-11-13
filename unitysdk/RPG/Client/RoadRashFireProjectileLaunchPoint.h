@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::Client { class RoadRashFireProjectileLaunchPoint; }
 
-#define RPG_CLIENT_ROADRASHFIREPROJECTILELAUNCHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FC300)
-#define RPG_CLIENT_ROADRASHFIREPROJECTILELAUNCHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FC150)
+#define RPG_CLIENT_ROADRASHFIREPROJECTILELAUNCHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CBCB0)
+#define RPG_CLIENT_ROADRASHFIREPROJECTILELAUNCHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7CBB00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashFireProjectileLaunchPoint_TypeDefinitionIndex = 10287;
+	inline static constexpr unsigned int RoadRashFireProjectileLaunchPoint_TypeDefinitionIndex = 10297;
 
 	class RoadRashFireProjectileLaunchPoint : public ::RPG::GameCore::JsonConfig
 	{

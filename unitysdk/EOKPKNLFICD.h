@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HMLFGDFLIBP;
 
-#define EOKPKNLFICD_CTOR_OFFSET UNITYSDK_OFFSET(0x155B90C0)
+#define EOKPKNLFICD_CTOR_OFFSET UNITYSDK_OFFSET(0x16B27540)
 
-inline static constexpr unsigned int EOKPKNLFICD_TypeDefinitionIndex = 80193;
+inline static constexpr unsigned int EOKPKNLFICD_TypeDefinitionIndex = 82970;
 
 	class EOKPKNLFICD : public ::System::Object
 	{

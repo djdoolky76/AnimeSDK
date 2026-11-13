@@ -6,10 +6,10 @@ class KNFCEJEJINK;
 namespace RPG::Client::Prop { class ChimeraDuelShopViewEffectBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GDAACOIKPFC_CTOR_OFFSET UNITYSDK_OFFSET(0x159857C0)
-#define GDAACOIKPFC_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x15985740)
+#define GDAACOIKPFC_CTOR_OFFSET UNITYSDK_OFFSET(0x19ECB350)
+#define GDAACOIKPFC_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x19ECB2D0)
 
-inline static constexpr unsigned int GDAACOIKPFC_TypeDefinitionIndex = 78355;
+inline static constexpr unsigned int GDAACOIKPFC_TypeDefinitionIndex = 81090;
 
 	class GDAACOIKPFC : public ::HBLDGJCDJPF
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvPlayerCancelRide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AKDMCAMJNIB_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC8030)
-#define AKDMCAMJNIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CC8060)
+#define AKDMCAMJNIB_CTOR_OFFSET UNITYSDK_OFFSET(0x19D56620)
+#define AKDMCAMJNIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D56650)
 
-inline static constexpr unsigned int AKDMCAMJNIB_TypeDefinitionIndex = 52466;
+inline static constexpr unsigned int AKDMCAMJNIB_TypeDefinitionIndex = 53572;
 
 	class AKDMCAMJNIB
 	{

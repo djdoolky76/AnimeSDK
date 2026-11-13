@@ -5,7 +5,7 @@ namespace RPG::GameCore { class AdventureAbilityComponent; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierInstance_StackPropertySlot_TypeDefinitionIndex = 54411;
+	inline static constexpr unsigned int AdventureModifierInstance_StackPropertySlot_TypeDefinitionIndex = 55575;
 
 	struct alignas(8) AdventureModifierInstance_StackPropertySlot
 	{

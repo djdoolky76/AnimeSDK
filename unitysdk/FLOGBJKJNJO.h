@@ -1,12 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ElationTimeAtmosphereType.h"
 class MFHGBPDJJPE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLOGBJKJNJO_CTOR_OFFSET UNITYSDK_OFFSET(0x158374D0)
-#define FLOGBJKJNJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15837500)
+#define FLOGBJKJNJO_CTOR_OFFSET UNITYSDK_OFFSET(0x18972460)
+#define FLOGBJKJNJO_NBMCPCEDGLJ_OFFSET UNITYSDK_OFFSET(0x18972740)
+#define FLOGBJKJNJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18972490)
 
-inline static constexpr unsigned int FLOGBJKJNJO_TypeDefinitionIndex = 55612;
+inline static constexpr unsigned int FLOGBJKJNJO_TypeDefinitionIndex = 56808;
 
 	class FLOGBJKJNJO
 	{
@@ -19,6 +21,11 @@ inline static constexpr unsigned int FLOGBJKJNJO_TypeDefinitionIndex = 55612;
 		::System::Void OnTaskBegin()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLOGBJKJNJO_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ElationTimeAtmosphereType NBMCPCEDGLJ()
+		{
+			return ((::RPG::GameCore::ElationTimeAtmosphereType(*)(::PVOID))((::PBYTE)hIl2Cpp + FLOGBJKJNJO_NBMCPCEDGLJ_OFFSET))(this);
 		}
 
 	};

@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateParentalConsentSentDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTSENTDIALOG___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEBC140)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTSENTDIALOG___C__DISPLAYCLASS44_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BEBC3C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTSENTDIALOG___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B4C10)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTSENTDIALOG___C__DISPLAYCLASS44_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B0B4E90)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldAgeGateParentalConsentSentDialog___c__DisplayClass44_0_TypeDefinitionIndex = 8798;
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentSentDialog___c__DisplayClass44_0_TypeDefinitionIndex = 8807;
 
 	class HandheldAgeGateParentalConsentSentDialog___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
-		::System::String* email; // 0x10
-		::System::String* date; // 0x18
+		::System::String* date; // 0x10
+		::System::String* email; // 0x18
 		::MiHoYo::SDK::AgeGateFlowType type; // 0x20
 		::System::Void _ctor()
 		{

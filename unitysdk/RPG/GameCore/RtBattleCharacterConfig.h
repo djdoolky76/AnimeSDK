@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RtBattleCharacterCameraConfig; }
 namespace RPG::GameCore { class RtBattleCharacterConfig; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 
-#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1E100)
-#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA1E180)
-#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1E060)
+#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF3F580)
+#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF3F600)
+#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF3F4E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleCharacterConfig_TypeDefinitionIndex = 18037;
+	inline static constexpr unsigned int RtBattleCharacterConfig_TypeDefinitionIndex = 18203;
 
 	class RtBattleCharacterConfig : public ::RPG::GameCore::RtCharacterConfig
 	{

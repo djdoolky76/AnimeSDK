@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/NodeGraphDisplayType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define FNALDFEDBMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDE330)
+#define FNALDFEDBMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2E6A0)
 
-inline static constexpr unsigned int FNALDFEDBMG_TypeDefinitionIndex = 10813;
+inline static constexpr unsigned int FNALDFEDBMG_TypeDefinitionIndex = 10829;
 
 	class FNALDFEDBMG : public ::System::Attribute
 	{

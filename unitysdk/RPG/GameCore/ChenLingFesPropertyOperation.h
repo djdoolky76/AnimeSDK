@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesPropertyOperation_TypeDefinitionIndex = 18450;
+	inline static constexpr unsigned int ChenLingFesPropertyOperation_TypeDefinitionIndex = 18610;
 
 	enum class ChenLingFesPropertyOperation : ::System::Int32
 	{

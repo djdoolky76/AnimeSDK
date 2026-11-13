@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::CustomRP { class CRPGraphicsSettingsData; }
 
-#define RPG_CLIENT_CRPSSGIQUALITYSETTINGS_BGJJNEOJNCA_OFFSET UNITYSDK_OFFSET(0xC8C6470)
-#define RPG_CLIENT_CRPSSGIQUALITYSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xC8C6510)
+#define RPG_CLIENT_CRPSSGIQUALITYSETTINGS_BGJJNEOJNCA_OFFSET UNITYSDK_OFFSET(0x1BD65B60)
+#define RPG_CLIENT_CRPSSGIQUALITYSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD65C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPSSGIQualitySettings_TypeDefinitionIndex = 67934;
+	inline static constexpr unsigned int CRPSSGIQualitySettings_TypeDefinitionIndex = 69880;
 
 	class CRPSSGIQualitySettings : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define OEMPEILLFCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE2C230)
-#define OEMPEILLFCM_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBE2C180)
+#define OEMPEILLFCM_CTOR_OFFSET UNITYSDK_OFFSET(0x17659E50)
+#define OEMPEILLFCM_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x17659DA0)
 
-inline static constexpr unsigned int OEMPEILLFCM_TypeDefinitionIndex = 81259;
+inline static constexpr unsigned int OEMPEILLFCM_TypeDefinitionIndex = 84039;
 
 	class OEMPEILLFCM : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int ICameraSystemServices_1_TypeDefinitionIndex = 43606;
+	inline static constexpr unsigned int ICameraSystemServices_1_TypeDefinitionIndex = 44589;
 
 	template <typename T>
 	class ICameraSystemServices_1

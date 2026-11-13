@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ACTIVITYREWARDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xC59AC80)
+#define RPG_CLIENT_ACTIVITYREWARDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB93D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardItem_TypeDefinitionIndex = 61699;
+	inline static constexpr unsigned int ActivityRewardItem_TypeDefinitionIndex = 63105;
 
 	class ActivityRewardItem : public ::System::Object
 	{

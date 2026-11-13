@@ -4,10 +4,10 @@
 class PJPAOLMBKEC;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define ECPGBDINBAB___C__DISPLAYCLASS75_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13306F00)
-#define ECPGBDINBAB___C__DISPLAYCLASS75_0___GETDYNAMICCELLLOOKATPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0x13308200)
+#define ECPGBDINBAB___C__DISPLAYCLASS75_0_CTOR_OFFSET UNITYSDK_OFFSET(0x186AED00)
+#define ECPGBDINBAB___C__DISPLAYCLASS75_0___GETDYNAMICCELLLOOKATPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0x186B0000)
 
-inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass75_0_TypeDefinitionIndex = 78016;
+inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass75_0_TypeDefinitionIndex = 80751;
 
 	class ECPGBDINBAB___c__DisplayClass75_0 : public ::System::Object
 	{

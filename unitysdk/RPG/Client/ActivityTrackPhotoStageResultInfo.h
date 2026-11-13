@@ -12,31 +12,31 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CREATERESULT_OFFSET UNITYSDK_OFFSET(0xC5BF670)
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C1630)
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__SYNCTOTALTRACKINFO_OFFSET UNITYSDK_OFFSET(0xC5C1730)
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__SYNCTRACKRESULT_OFFSET UNITYSDK_OFFSET(0xC5C1820)
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__TRYGETCONFIG_OFFSET UNITYSDK_OFFSET(0xC5C2470)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CREATERESULT_OFFSET UNITYSDK_OFFSET(0x18D0A870)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x18D0C860)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__SYNCTOTALTRACKINFO_OFFSET UNITYSDK_OFFSET(0x18D0C960)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__SYNCTRACKRESULT_OFFSET UNITYSDK_OFFSET(0x18D0CA50)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__TRYGETCONFIG_OFFSET UNITYSDK_OFFSET(0x18D0D6A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTrackPhotoStageResultInfo_TypeDefinitionIndex = 62006;
+	inline static constexpr unsigned int ActivityTrackPhotoStageResultInfo_TypeDefinitionIndex = 63418;
 
 	class ActivityTrackPhotoStageResultInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TrackPhotoCanType, ::System::UInt32>* TrackTypeTotalCount; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TrackPhotoCanType, ::System::UInt32>* TrackTypeScore; // 0x18
-		::RPG::Client::ActivityTrackPhotoStageData* StageDataRef; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TrackPhotoCanType, ::System::UInt32>* TrackTypeCount; // 0x28
-		::System::UInt32 StageID; // 0x30
-		::System::Boolean IsNewHighest; // 0x34
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TrackPhotoCanType, ::System::UInt32>* TrackTypeCount; // 0x10
+		::RPG::Client::ActivityTrackPhotoStageData* StageDataRef; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TrackPhotoCanType, ::System::UInt32>* TrackTypeTotalCount; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TrackPhotoCanType, ::System::UInt32>* TrackTypeScore; // 0x28
+		::System::Boolean IsNewHighest; // 0x30
 		::System::Byte _padding0[0x3];
-		::System::UInt32 ExtraShotTotalCount; // 0x38
-		::System::UInt32 TotalScore; // 0x3C
-		::System::UInt32 ExtraShotCount; // 0x40
-		::System::UInt32 Score; // 0x44
-		::System::UInt32 ExtraShotScore; // 0x48
+		::System::UInt32 ExtraShotCount; // 0x34
+		::System::UInt32 StageID; // 0x38
+		::System::UInt32 Score; // 0x3C
+		::System::UInt32 TotalScore; // 0x40
+		::System::UInt32 ExtraShotScore; // 0x44
+		::System::UInt32 ExtraShotTotalCount; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CTOR_OFFSET))(this);

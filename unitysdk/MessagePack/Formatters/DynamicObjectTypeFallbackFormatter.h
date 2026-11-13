@@ -8,26 +8,26 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 namespace MessagePack::Internal { template <typename T> class ThreadsafeTypeKeyHashTable_1; }
 namespace System { class Object; }
 
-#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB52B10)
-#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB51930)
-#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB52990)
-#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB51940)
+#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x174919D0)
+#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x174907F0)
+#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17491850)
+#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17490800)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex = 7427;
+	inline static constexpr unsigned int DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex = 7438;
 
 	class DynamicObjectTypeFallbackFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>**)UnitySDK::FromName("MessagePack.Formatters", "DynamicObjectTypeFallbackFormatter")->GetStaticField(0x485A0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>**)UnitySDK::FromName("MessagePack.Formatters", "DynamicObjectTypeFallbackFormatter")->GetStaticField(0x2C510);
 		}
 
 		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>** StaticGet_SerializerDelegates()
 		{
-			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>**)UnitySDK::FromName("MessagePack.Formatters", "DynamicObjectTypeFallbackFormatter")->GetStaticField(0x485A8);
+			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>**)UnitySDK::FromName("MessagePack.Formatters", "DynamicObjectTypeFallbackFormatter")->GetStaticField(0x2C518);
 		}
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_DISC_CTOR_OFFSET UNITYSDK_OFFSET(0xCD73B60)
-#define RPG_CLIENT_ELECTRICCHAINV2_DISC_LOICGIBKHMM_OFFSET UNITYSDK_OFFSET(0xCD73940)
+#define RPG_CLIENT_ELECTRICCHAINV2_DISC_CTOR_OFFSET UNITYSDK_OFFSET(0x189B9480)
+#define RPG_CLIENT_ELECTRICCHAINV2_DISC_LOICGIBKHMM_OFFSET UNITYSDK_OFFSET(0x189B9260)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Disc_TypeDefinitionIndex = 73595;
+	inline static constexpr unsigned int Disc_TypeDefinitionIndex = 75718;
 
 	class Disc : public ::RPG::Client::ElectricChainV2::Shape
 	{

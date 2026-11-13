@@ -4,18 +4,18 @@
 class PDAEJKNMBNK;
 namespace System { class Object; }
 
-#define PDAEJKNMBNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEDF7D0)
-#define PDAEJKNMBNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEDF810)
-#define PDAEJKNMBNK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEDF820)
+#define PDAEJKNMBNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC01470)
+#define PDAEJKNMBNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC014B0)
+#define PDAEJKNMBNK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC014C0)
 
-inline static constexpr unsigned int PDAEJKNMBNK___c_TypeDefinitionIndex = 31078;
+inline static constexpr unsigned int PDAEJKNMBNK___c_TypeDefinitionIndex = 31991;
 
 	class PDAEJKNMBNK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F320);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FDE0);
 		}
 
 		static ::System::Void _cctor()

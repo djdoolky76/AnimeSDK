@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PluralityHPBarSetting; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLURALITYHPBARSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90F140)
-#define RPG_GAMECORE_PLURALITYHPBARSETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D90EE90)
+#define RPG_GAMECORE_PLURALITYHPBARSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF79340)
+#define RPG_GAMECORE_PLURALITYHPBARSETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF79090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PluralityHPBarSetting_TypeDefinitionIndex = 17148;
+	inline static constexpr unsigned int PluralityHPBarSetting_TypeDefinitionIndex = 17315;
 
 	class PluralityHPBarSetting : public ::RPG::GameCore::JsonConfig
 	{

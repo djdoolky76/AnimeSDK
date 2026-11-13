@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MOLBEJFGGAE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2DA60)
+#define MOLBEJFGGAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B21AC40)
 
-inline static constexpr unsigned int MOLBEJFGGAE_TypeDefinitionIndex = 74062;
+inline static constexpr unsigned int MOLBEJFGGAE_TypeDefinitionIndex = 76208;
 
 	class MOLBEJFGGAE : public ::System::Attribute
 	{

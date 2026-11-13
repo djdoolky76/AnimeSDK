@@ -3,7 +3,7 @@
 namespace RPG::Client { class RPGProfilerMarker; }
 namespace System { class String; }
 
-inline static constexpr unsigned int LEIJDCFGOLB_HBDNLCCCGMM_TypeDefinitionIndex = 41593;
+inline static constexpr unsigned int LEIJDCFGOLB_HBDNLCCCGMM_TypeDefinitionIndex = 42568;
 
 	struct alignas(8) LEIJDCFGOLB_HBDNLCCCGMM
 	{

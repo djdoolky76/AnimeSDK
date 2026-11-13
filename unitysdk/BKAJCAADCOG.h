@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class NNDJBGAGHLD;
 
-#define BKAJCAADCOG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C88E100)
-#define BKAJCAADCOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88E180)
+#define BKAJCAADCOG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D2B88C0)
+#define BKAJCAADCOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B8940)
 
-inline static constexpr unsigned int BKAJCAADCOG_TypeDefinitionIndex = 43547;
+inline static constexpr unsigned int BKAJCAADCOG_TypeDefinitionIndex = 44529;
 
 	class BKAJCAADCOG : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class JKDLIBFIHAB;
 
-#define CJFFNKJCAGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DB270)
+#define CJFFNKJCAGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0D4A0)
 
-inline static constexpr unsigned int CJFFNKJCAGO_TypeDefinitionIndex = 42948;
+inline static constexpr unsigned int CJFFNKJCAGO_TypeDefinitionIndex = 43929;
 
 	class CJFFNKJCAGO : public ::System::Object
 	{

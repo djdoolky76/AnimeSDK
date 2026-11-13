@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerUITopEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERUITOPEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC32130)
-#define RPG_GAMECORE_TRIGGERUITOPEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC32170)
-#define RPG_GAMECORE_TRIGGERUITOPEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC320D0)
+#define RPG_GAMECORE_TRIGGERUITOPEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33B370)
+#define RPG_GAMECORE_TRIGGERUITOPEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E33B3B0)
+#define RPG_GAMECORE_TRIGGERUITOPEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33B310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerUITopEffect_TypeDefinitionIndex = 23152;
+	inline static constexpr unsigned int TriggerUITopEffect_TypeDefinitionIndex = 23581;
 
 	class TriggerUITopEffect : public ::RPG::GameCore::TaskConfig
 	{

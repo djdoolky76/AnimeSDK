@@ -7,16 +7,16 @@ class OKICIAPALHL;
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define CHNKGINBJBI_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0xCF596B0)
-#define CHNKGINBJBI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF596A0)
+#define CHNKGINBJBI_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0x16E2E740)
+#define CHNKGINBJBI_CTOR_OFFSET UNITYSDK_OFFSET(0x16E2E730)
 
-inline static constexpr unsigned int CHNKGINBJBI_TypeDefinitionIndex = 73149;
+inline static constexpr unsigned int CHNKGINBJBI_TypeDefinitionIndex = 75263;
 
 	class CHNKGINBJBI : public ::System::Object
 	{
 	public:
-		::System::Reflection::MethodInfo* KFGCBHOEIPE; // 0x10
-		::LFOAAABKKHC* FNDHDEOILCK; // 0x18
+		::LFOAAABKKHC* FNDHDEOILCK; // 0x10
+		::System::Reflection::MethodInfo* KFGCBHOEIPE; // 0x18
 		::OKICIAPALHL* FNPCKHIOBBK; // 0x20
 		::System::Void _ctor(::System::Reflection::MethodInfo* a1, ::OKICIAPALHL* a2)
 		{

@@ -6,13 +6,13 @@
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB4B430)
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB4C7B0)
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB4C7A0)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x208FA790)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x208FBB10)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x208FBB00)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int WrapModeFormatter_TypeDefinitionIndex = 10125;
+	inline static constexpr unsigned int WrapModeFormatter_TypeDefinitionIndex = 10133;
 
 	class WrapModeFormatter : public ::System::Object
 	{

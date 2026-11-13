@@ -5,18 +5,18 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class NJGDIEAIHPD;
 
-#define PCPELFNPBHI_ANOGKEGBNJE_OFFSET UNITYSDK_OFFSET(0xC0034B0)
-#define PCPELFNPBHI_CTOR_OFFSET UNITYSDK_OFFSET(0xC003150)
-#define PCPELFNPBHI_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xC003160)
+#define PCPELFNPBHI_ANOGKEGBNJE_OFFSET UNITYSDK_OFFSET(0x1AADB2C0)
+#define PCPELFNPBHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AADAF60)
+#define PCPELFNPBHI_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0x1AADAF70)
 
-inline static constexpr unsigned int PCPELFNPBHI_TypeDefinitionIndex = 62514;
+inline static constexpr unsigned int PCPELFNPBHI_TypeDefinitionIndex = 63927;
 
 	class PCPELFNPBHI : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarPropertyType BFPOCEDAOMA; // 0x10
-		::RPG::GameCore::AvatarPropertyType ANPAHODBCOB; // 0x14
-		::RPG::GameCore::AvatarPropertyType GGKLKCAMNJK; // 0x18
+		::RPG::GameCore::AvatarPropertyType GGKLKCAMNJK; // 0x10
+		::RPG::GameCore::AvatarPropertyType BFPOCEDAOMA; // 0x14
+		::RPG::GameCore::AvatarPropertyType ANPAHODBCOB; // 0x18
 		::System::Void _ctor(::RPG::GameCore::AvatarPropertyType a1, ::RPG::GameCore::AvatarPropertyType a2, ::RPG::GameCore::AvatarPropertyType a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + PCPELFNPBHI_CTOR_OFFSET))(this, a1, a2, a3);

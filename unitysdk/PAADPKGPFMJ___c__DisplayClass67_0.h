@@ -4,10 +4,10 @@
 namespace RPG::Client { class IAssetOperation; }
 namespace System { class Action; }
 
-#define PAADPKGPFMJ___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBABD0)
-#define PAADPKGPFMJ___C__DISPLAYCLASS67_0___LOADMOTIONCLIPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xBFBCEA0)
+#define PAADPKGPFMJ___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18AD1830)
+#define PAADPKGPFMJ___C__DISPLAYCLASS67_0___LOADMOTIONCLIPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x18AD3310)
 
-inline static constexpr unsigned int PAADPKGPFMJ___c__DisplayClass67_0_TypeDefinitionIndex = 57289;
+inline static constexpr unsigned int PAADPKGPFMJ___c__DisplayClass67_0_TypeDefinitionIndex = 58516;
 
 	class PAADPKGPFMJ___c__DisplayClass67_0 : public ::System::Object
 	{

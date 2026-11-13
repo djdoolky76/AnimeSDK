@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingSoldierView_AnimationCurveEntry.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSOLDIERVIEW___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD408AD0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSOLDIERVIEW___C__DISPLAYCLASS22_0__GETANIMATIONCURVEBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0xD40A7A0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSOLDIERVIEW___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBED8A0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSOLDIERVIEW___C__DISPLAYCLASS22_0__GETANIMATIONCURVEBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0x1CBEF570)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingSoldierView___c__DisplayClass22_0_TypeDefinitionIndex = 77978;
+	inline static constexpr unsigned int ChenLingSoldierView___c__DisplayClass22_0_TypeDefinitionIndex = 80713;
 
 	class ChenLingSoldierView___c__DisplayClass22_0 : public ::System::Object
 	{

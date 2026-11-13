@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERADYNAMICOFFSET_CTOR_OFFSET UNITYSDK_OFFSET(0xC92EA60)
+#define RPG_CLIENT_CAMERADYNAMICOFFSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3138F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDynamicOffset_TypeDefinitionIndex = 69721;
+	inline static constexpr unsigned int CameraDynamicOffset_TypeDefinitionIndex = 71678;
 
 	class CameraDynamicOffset : public ::System::Object
 	{

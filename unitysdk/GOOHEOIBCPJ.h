@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GOOHEOIBCPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA87290)
+#define GOOHEOIBCPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8D3B0)
 
-inline static constexpr unsigned int GOOHEOIBCPJ_TypeDefinitionIndex = 43505;
+inline static constexpr unsigned int GOOHEOIBCPJ_TypeDefinitionIndex = 44487;
 
 	class GOOHEOIBCPJ : public ::System::Object
 	{

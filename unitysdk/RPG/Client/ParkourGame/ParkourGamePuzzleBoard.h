@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURGAMEPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDA72FE0)
+#define RPG_CLIENT_PARKOURGAME_PARKOURGAMEPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC11300)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourGamePuzzleBoard_TypeDefinitionIndex = 74210;
+	inline static constexpr unsigned int ParkourGamePuzzleBoard_TypeDefinitionIndex = 76358;
 
 	class ParkourGamePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class EFBFKAKOBEM;
 
-#define FJKKPKABOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA42B70)
+#define FJKKPKABOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D330)
 
-inline static constexpr unsigned int FJKKPKABOPO_TypeDefinitionIndex = 43753;
+inline static constexpr unsigned int FJKKPKABOPO_TypeDefinitionIndex = 44828;
 
 	class FJKKPKABOPO : public ::System::Object
 	{

@@ -5,25 +5,25 @@ namespace RPG::Client { class MarbleBattleSealData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC53D5B0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC53D5F0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C___REQUESTPVEBATTLEFINISH_B__8_0_OFFSET UNITYSDK_OFFSET(0xC53D600)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7EE6B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EE6F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C___REQUESTPVEBATTLEFINISH_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C7EE700)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVEMatchContext___c_TypeDefinitionIndex = 75989;
+	inline static constexpr unsigned int MarblePVEMatchContext___c_TypeDefinitionIndex = 78316;
 
 	class MarblePVEMatchContext___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x2CC50);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x2DF20);
 		}
 
 		static ::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x2CC58);
+			return (::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x2DF28);
 		}
 
 		static ::System::Void _cctor()

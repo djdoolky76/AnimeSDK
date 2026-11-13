@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EndPropSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPJGDBKGMJC_CTOR_OFFSET UNITYSDK_OFFSET(0x159124F0)
-#define FPJGDBKGMJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15912520)
+#define FPJGDBKGMJC_CTOR_OFFSET UNITYSDK_OFFSET(0x18781DB0)
+#define FPJGDBKGMJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18781DE0)
 
-inline static constexpr unsigned int FPJGDBKGMJC_TypeDefinitionIndex = 58117;
+inline static constexpr unsigned int FPJGDBKGMJC_TypeDefinitionIndex = 59356;
 
 	class FPJGDBKGMJC
 	{

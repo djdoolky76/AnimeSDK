@@ -6,7 +6,7 @@ namespace RPG::Client { class MissionChronicleSubPathData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SubChronicleConnectionWay_TypeDefinitionIndex = 66095;
+	inline static constexpr unsigned int SubChronicleConnectionWay_TypeDefinitionIndex = 68028;
 
 	struct alignas(8) SubChronicleConnectionWay
 	{

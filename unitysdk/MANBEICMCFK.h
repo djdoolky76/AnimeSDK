@@ -4,10 +4,10 @@
 class BDDPLIAEAIN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MANBEICMCFK_CTOR_OFFSET UNITYSDK_OFFSET(0xB84E660)
-#define MANBEICMCFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB84E690)
+#define MANBEICMCFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8161B0)
+#define MANBEICMCFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B8161E0)
 
-inline static constexpr unsigned int MANBEICMCFK_TypeDefinitionIndex = 55363;
+inline static constexpr unsigned int MANBEICMCFK_TypeDefinitionIndex = 56546;
 
 	class MANBEICMCFK
 	{

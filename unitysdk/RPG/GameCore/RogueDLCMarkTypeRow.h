@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCMarkTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCMARKTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D998A10)
-#define RPG_GAMECORE_ROGUEDLCMARKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D998350)
+#define RPG_GAMECORE_ROGUEDLCMARKTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57E980)
+#define RPG_GAMECORE_ROGUEDLCMARKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F57E2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCMarkTypeRow_TypeDefinitionIndex = 14785;
+	inline static constexpr unsigned int RogueDLCMarkTypeRow_TypeDefinitionIndex = 14941;
 
 	class RogueDLCMarkTypeRow : public ::System::Object
 	{

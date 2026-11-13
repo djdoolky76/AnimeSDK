@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PNMLDDIFIEO_TypeDefinitionIndex = 69358;
+inline static constexpr unsigned int PNMLDDIFIEO_TypeDefinitionIndex = 71312;
 
 	class PNMLDDIFIEO
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-inline static constexpr unsigned int EPCHCFOEJNL_TypeDefinitionIndex = 42911;
+inline static constexpr unsigned int EPCHCFOEJNL_TypeDefinitionIndex = 43892;
 
 	struct alignas(4) EPCHCFOEJNL
 	{

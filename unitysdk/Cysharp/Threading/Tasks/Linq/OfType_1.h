@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int OfType_1_TypeDefinitionIndex = 45516;
+	inline static constexpr unsigned int OfType_1_TypeDefinitionIndex = 46545;
 
 	template <typename T>
 	class OfType_1 : public ::System::Object

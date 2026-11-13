@@ -6,18 +6,18 @@ class ANGGDDJJBKO;
 namespace RPG::GameCore { class RtBattleMode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KIFJCNNALIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB417FF0)
-#define KIFJCNNALIL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB417F50)
-#define KIFJCNNALIL_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xB417900)
+#define KIFJCNNALIL_CTOR_OFFSET UNITYSDK_OFFSET(0x19EDE490)
+#define KIFJCNNALIL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x19EDE3F0)
+#define KIFJCNNALIL_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x19EDDDB0)
 
-inline static constexpr unsigned int KIFJCNNALIL_TypeDefinitionIndex = 54209;
+inline static constexpr unsigned int KIFJCNNALIL_TypeDefinitionIndex = 55373;
 
 	class KIFJCNNALIL : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::ANGGDDJJBKO*>* GBNDBGJLDKC; // 0x10
-		::System::UInt32 GMLENIEKBKC; // 0x18
-		::System::UInt32 LCHLDHNIILN; // 0x1C
+		::System::UInt32 LCHLDHNIILN; // 0x18
+		::System::UInt32 GMLENIEKBKC; // 0x1C
 		::RPG::GameCore::FixPoint CFECALPLBNP; // 0x20
 		::System::Void _ctor()
 		{

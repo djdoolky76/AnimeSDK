@@ -6,19 +6,19 @@ namespace RPG::GameCore { class TargetSortByWeaknessMatch; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OIEOGPLJNNO_COMPARE_OFFSET UNITYSDK_OFFSET(0xBE74020)
-#define OIEOGPLJNNO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE73950)
-#define OIEOGPLJNNO_GIMONDLPJPC_OFFSET UNITYSDK_OFFSET(0xBE740D0)
-#define OIEOGPLJNNO_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xBE73C30)
-#define OIEOGPLJNNO_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBE73970)
+#define OIEOGPLJNNO_COMPARE_OFFSET UNITYSDK_OFFSET(0x18E23400)
+#define OIEOGPLJNNO_CTOR_OFFSET UNITYSDK_OFFSET(0x18E22D30)
+#define OIEOGPLJNNO_GIMONDLPJPC_OFFSET UNITYSDK_OFFSET(0x18E234B0)
+#define OIEOGPLJNNO_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0x18E23010)
+#define OIEOGPLJNNO_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x18E22D50)
 
-inline static constexpr unsigned int OIEOGPLJNNO_TypeDefinitionIndex = 59180;
+inline static constexpr unsigned int OIEOGPLJNNO_TypeDefinitionIndex = 60457;
 
 	class OIEOGPLJNNO
 	{
 	public:
-		::RPG::GameCore::AttackDamageType MNFMJJCAOFE; // 0x18
-		::RPG::GameCore::AttackDamageType BKLEKCIBCDC; // 0x1C
+		::RPG::GameCore::AttackDamageType BKLEKCIBCDC; // 0x18
+		::RPG::GameCore::AttackDamageType MNFMJJCAOFE; // 0x1C
 		::System::Void _ctor(::RPG::GameCore::TargetSortByWeaknessMatch* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetSortByWeaknessMatch*))((::PBYTE)hIl2Cpp + OIEOGPLJNNO_CTOR_OFFSET))(this, a1);

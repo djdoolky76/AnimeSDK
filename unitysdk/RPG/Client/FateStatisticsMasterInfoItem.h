@@ -5,23 +5,24 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class FateStatisticsMasterInfoItem; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xCFCF130)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCFD1070)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0xCFD1150)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_MASTERROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0xCFD10A0)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_RANKING_OFFSET UNITYSDK_OFFSET(0xCFD1110)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0x1C4FE8D0)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C500810)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x1C5008F0)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_MASTERROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x1C500840)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_RANKING_OFFSET UNITYSDK_OFFSET(0x1C5008B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsMasterInfoItem_TypeDefinitionIndex = 64134;
+	inline static constexpr unsigned int FateStatisticsMasterInfoItem_TypeDefinitionIndex = 65579;
 
 	class FateStatisticsMasterInfoItem : public ::System::Object
 	{
 	public:
 		::RPG::AvatarSystem::IAvatar* _Avatar; // 0x10
-		::System::UInt32 _AvatarRealID; // 0x18
-		::System::UInt32 _Ranking; // 0x1C
-		::System::Boolean _IsPlayer; // 0x20
+		::System::Boolean _IsPlayer; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _AvatarRealID; // 0x1C
+		::System::UInt32 _Ranking; // 0x20
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CTOR_OFFSET))(this, a1, a2, a3);

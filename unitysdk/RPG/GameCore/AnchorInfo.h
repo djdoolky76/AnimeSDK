@@ -8,24 +8,24 @@ namespace RPG::GameCore { class LevelAnchorParameter; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_ANCHORINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0xE595CA0)
-#define RPG_GAMECORE_ANCHORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE595C70)
-#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0xE595D10)
-#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xE579630)
-#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xE5796E0)
-#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0xE595CC0)
+#define RPG_GAMECORE_ANCHORINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x19FFF2D0)
+#define RPG_GAMECORE_ANCHORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x19FFF2A0)
+#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0x19FFF340)
+#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x19FE3440)
+#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x19FE34F0)
+#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0x19FFF2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 57838;
+	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 59075;
 
 	class AnchorInfo : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* TransRoot; // 0x10
-		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x18
-		::System::String* AreaName; // 0x20
-		::System::String* Name; // 0x28
+		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x10
+		::UnityEngine::Transform* TransRoot; // 0x18
+		::System::String* Name; // 0x20
+		::System::String* AreaName; // 0x28
 		::System::UInt32 ID; // 0x30
 		::UnityEngine::Quaternion _Rotation; // 0x34
 		::UnityEngine::Vector3 _Postion; // 0x44

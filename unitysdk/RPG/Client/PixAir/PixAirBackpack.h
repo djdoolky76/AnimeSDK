@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRBACKPACK_CTOR_OFFSET UNITYSDK_OFFSET(0xDB258E0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBACKPACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3482F0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirBackpack_TypeDefinitionIndex = 79320;
+	inline static constexpr unsigned int PixAirBackpack_TypeDefinitionIndex = 82097;
 
 	class PixAirBackpack : public ::System::Object
 	{

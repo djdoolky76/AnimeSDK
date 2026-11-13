@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEmoPlayableGraph_EyeState.h"
 
-inline static constexpr unsigned int EPHNKOEJNFB_TypeDefinitionIndex = 48774;
+inline static constexpr unsigned int EPHNKOEJNFB_TypeDefinitionIndex = 49820;
 
 	struct alignas(4) EPHNKOEJNFB
 	{

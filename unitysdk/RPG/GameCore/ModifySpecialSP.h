@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifySpecialSP; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYSPECIALSP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86CAD0)
-#define RPG_GAMECORE_MODIFYSPECIALSP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86CAE0)
-#define RPG_GAMECORE_MODIFYSPECIALSP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86CA90)
+#define RPG_GAMECORE_MODIFYSPECIALSP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FF0B0)
+#define RPG_GAMECORE_MODIFYSPECIALSP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6FF0C0)
+#define RPG_GAMECORE_MODIFYSPECIALSP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6FF070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySpecialSP_TypeDefinitionIndex = 23069;
+	inline static constexpr unsigned int ModifySpecialSP_TypeDefinitionIndex = 23498;
 
 	class ModifySpecialSP : public ::RPG::GameCore::TaskConfig
 	{

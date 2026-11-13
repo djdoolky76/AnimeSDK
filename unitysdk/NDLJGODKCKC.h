@@ -3,10 +3,10 @@
 class KKDDAKCGPLO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NDLJGODKCKC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB47B40)
-#define NDLJGODKCKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB47B70)
+#define NDLJGODKCKC_CTOR_OFFSET UNITYSDK_OFFSET(0x16FC6B80)
+#define NDLJGODKCKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FC6BB0)
 
-inline static constexpr unsigned int NDLJGODKCKC_TypeDefinitionIndex = 58634;
+inline static constexpr unsigned int NDLJGODKCKC_TypeDefinitionIndex = 59901;
 
 	class NDLJGODKCKC
 	{

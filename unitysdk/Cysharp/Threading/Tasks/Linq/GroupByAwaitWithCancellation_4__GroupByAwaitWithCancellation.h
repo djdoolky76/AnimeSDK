@@ -15,7 +15,7 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupByAwaitWithCancellation_4__GroupByAwaitWithCancellation_TypeDefinitionIndex = 45388;
+	inline static constexpr unsigned int GroupByAwaitWithCancellation_4__GroupByAwaitWithCancellation_TypeDefinitionIndex = 46417;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	class GroupByAwaitWithCancellation_4__GroupByAwaitWithCancellation : public ::Cysharp::Threading::Tasks::MoveNextSource

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LDLCIEJKBNH_ReplayOldestResult_TypeDefinitionIndex = 77811;
+inline static constexpr unsigned int LDLCIEJKBNH_ReplayOldestResult_TypeDefinitionIndex = 80546;
 
 	enum class LDLCIEJKBNH_ReplayOldestResult : ::System::Int32
 	{

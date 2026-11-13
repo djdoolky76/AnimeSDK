@@ -7,10 +7,10 @@ class BEIJCJFHANG;
 class FEIPLKMMIOI;
 namespace RPG::Client::FateRin::Card { class IFateRinHandbookCardTabViewModel; }
 
-#define EFONDDJNOEA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x13A5F820)
-#define EFONDDJNOEA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A5F770)
+#define EFONDDJNOEA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1A34B5B0)
+#define EFONDDJNOEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A34B500)
 
-inline static constexpr unsigned int EFONDDJNOEA_TypeDefinitionIndex = 81186;
+inline static constexpr unsigned int EFONDDJNOEA_TypeDefinitionIndex = 83966;
 
 	class EFONDDJNOEA : public ::System::Object
 	{

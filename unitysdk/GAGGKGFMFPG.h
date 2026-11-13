@@ -5,30 +5,29 @@
 namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine { class Transform; }
 
-#define GAGGKGFMFPG_CIJOMANLDLO_OFFSET UNITYSDK_OFFSET(0x1592FE50)
-#define GAGGKGFMFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1592FF00)
-#define GAGGKGFMFPG_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x1592FC70)
-#define GAGGKGFMFPG_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x1592FDF0)
-#define GAGGKGFMFPG__ONBIND_OFFSET UNITYSDK_OFFSET(0x1592FCD0)
+#define GAGGKGFMFPG_CIJOMANLDLO_OFFSET UNITYSDK_OFFSET(0x1B86B8F0)
+#define GAGGKGFMFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B86B9A0)
+#define GAGGKGFMFPG_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x1B86B890)
+#define GAGGKGFMFPG__ONBIND_OFFSET UNITYSDK_OFFSET(0x1B86B680)
+#define GAGGKGFMFPG__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x1B86B620)
 
-inline static constexpr unsigned int GAGGKGFMFPG_TypeDefinitionIndex = 71805;
+inline static constexpr unsigned int GAGGKGFMFPG_TypeDefinitionIndex = 73825;
 
 	class GAGGKGFMFPG : public ::FMPCODLIOLG
 	{
 	public:
 		::RPG::Client::LocalizedText* EAEFJPKNMJJ; // 0x60
 		::UnityEngine::Transform* KKMDAOCHKFF; // 0x68
-		::System::Boolean AKBPNMEFGAO; // 0x70
-		::System::Byte _padding0[0x3];
-		::System::Int32 COEMCOBPMKD; // 0x74
+		::System::Int32 COEMCOBPMKD; // 0x70
+		::System::Boolean AKBPNMEFGAO; // 0x74
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAGGKGFMFPG_CTOR_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + GAGGKGFMFPG_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + GAGGKGFMFPG__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnBind()

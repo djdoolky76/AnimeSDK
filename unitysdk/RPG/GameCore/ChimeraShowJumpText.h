@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChimeraShowJumpText; }
 
-#define RPG_GAMECORE_CHIMERASHOWJUMPTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D581030)
-#define RPG_GAMECORE_CHIMERASHOWJUMPTEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D581040)
-#define RPG_GAMECORE_CHIMERASHOWJUMPTEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D580FE0)
+#define RPG_GAMECORE_CHIMERASHOWJUMPTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F74D0)
+#define RPG_GAMECORE_CHIMERASHOWJUMPTEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F4F74E0)
+#define RPG_GAMECORE_CHIMERASHOWJUMPTEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F4F7480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraShowJumpText_TypeDefinitionIndex = 15870;
+	inline static constexpr unsigned int ChimeraShowJumpText_TypeDefinitionIndex = 16028;
 
 	class ChimeraShowJumpText : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

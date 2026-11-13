@@ -4,16 +4,16 @@
 class KAAMFILLIND;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenSpecificNum; }
 
-#define JDAAKFGIEKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C6180)
-#define JDAAKFGIEKI_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6C6190)
+#define JDAAKFGIEKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C130910)
+#define JDAAKFGIEKI_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C130920)
 
-inline static constexpr unsigned int JDAAKFGIEKI_TypeDefinitionIndex = 36211;
+inline static constexpr unsigned int JDAAKFGIEKI_TypeDefinitionIndex = 37139;
 
 	class JDAAKFGIEKI : public ::PNECKGBKMEL
 	{
 	public:
-		::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenSpecificNum* IGHAHBNLIJA; // 0x10
-		::KAAMFILLIND* EEFMDEHLLFI; // 0x18
+		::KAAMFILLIND* EEFMDEHLLFI; // 0x10
+		::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenSpecificNum* IGHAHBNLIJA; // 0x18
 		::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenSpecificNum* a1, ::KAAMFILLIND* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenSpecificNum*, ::KAAMFILLIND*))((::PBYTE)hIl2Cpp + JDAAKFGIEKI_CTOR_OFFSET))(this, a1, a2);

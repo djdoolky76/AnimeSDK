@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CountToModifierMapRangeItem; }
 
-#define RPG_GAMECORE_COUNTTOMODIFIERMAPRANGEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B2910)
-#define RPG_GAMECORE_COUNTTOMODIFIERMAPRANGEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B27A0)
+#define RPG_GAMECORE_COUNTTOMODIFIERMAPRANGEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEC190)
+#define RPG_GAMECORE_COUNTTOMODIFIERMAPRANGEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFEC020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CountToModifierMapRangeItem_TypeDefinitionIndex = 16064;
+	inline static constexpr unsigned int CountToModifierMapRangeItem_TypeDefinitionIndex = 16222;
 
 	class CountToModifierMapRangeItem : public ::RPG::GameCore::JsonConfig
 	{

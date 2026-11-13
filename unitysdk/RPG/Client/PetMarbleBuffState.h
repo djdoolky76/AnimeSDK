@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_PETMARBLEBUFFSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xDAE2F30)
+#define RPG_CLIENT_PETMARBLEBUFFSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x18D5B1A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PetMarbleBuffState_TypeDefinitionIndex = 65814;
+	inline static constexpr unsigned int PetMarbleBuffState_TypeDefinitionIndex = 67746;
 
 	class PetMarbleBuffState : public ::System::Object
 	{

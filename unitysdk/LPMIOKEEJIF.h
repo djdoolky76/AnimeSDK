@@ -3,10 +3,10 @@
 class FBHINCGMBDJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPMIOKEEJIF_CTOR_OFFSET UNITYSDK_OFFSET(0xB81DF80)
-#define LPMIOKEEJIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB81DFB0)
+#define LPMIOKEEJIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B8170)
+#define LPMIOKEEJIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B6B81A0)
 
-inline static constexpr unsigned int LPMIOKEEJIF_TypeDefinitionIndex = 55577;
+inline static constexpr unsigned int LPMIOKEEJIF_TypeDefinitionIndex = 56772;
 
 	class LPMIOKEEJIF
 	{

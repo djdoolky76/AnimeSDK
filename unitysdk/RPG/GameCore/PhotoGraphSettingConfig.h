@@ -16,12 +16,12 @@ namespace RPG::GameCore { class PhotographToastTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E5150)
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E4DE0)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE539E0)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE53670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphSettingConfig_TypeDefinitionIndex = 19061;
+	inline static constexpr unsigned int PhotoGraphSettingConfig_TypeDefinitionIndex = 19248;
 
 	class PhotoGraphSettingConfig : public ::RPG::GameCore::JsonConfig
 	{

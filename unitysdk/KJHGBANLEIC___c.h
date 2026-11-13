@@ -10,47 +10,47 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define KJHGBANLEIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB44F390)
-#define KJHGBANLEIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB44F3C0)
-#define KJHGBANLEIC___C__GET_FAILURECOUNT_B__47_0_OFFSET UNITYSDK_OFFSET(0xB44F430)
-#define KJHGBANLEIC___C__GET_FINISHCOUNT_B__49_0_OFFSET UNITYSDK_OFFSET(0xB44F450)
-#define KJHGBANLEIC___C__GET_SUCCESSCOUNT_B__45_0_OFFSET UNITYSDK_OFFSET(0xB44F410)
-#define KJHGBANLEIC___C___CHECKIPV6STATE_B__13_0_OFFSET UNITYSDK_OFFSET(0xB44F3D0)
-#define KJHGBANLEIC___C___GETWEBRESPONSE_B__25_0_OFFSET UNITYSDK_OFFSET(0xB44F400)
+#define KJHGBANLEIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19F16410)
+#define KJHGBANLEIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19F16440)
+#define KJHGBANLEIC___C__GET_FAILURECOUNT_B__47_0_OFFSET UNITYSDK_OFFSET(0x19F164B0)
+#define KJHGBANLEIC___C__GET_FINISHCOUNT_B__49_0_OFFSET UNITYSDK_OFFSET(0x19F164D0)
+#define KJHGBANLEIC___C__GET_SUCCESSCOUNT_B__45_0_OFFSET UNITYSDK_OFFSET(0x19F16490)
+#define KJHGBANLEIC___C___CHECKIPV6STATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x19F16450)
+#define KJHGBANLEIC___C___GETWEBRESPONSE_B__25_0_OFFSET UNITYSDK_OFFSET(0x19F16480)
 
-inline static constexpr unsigned int KJHGBANLEIC___c_TypeDefinitionIndex = 59592;
+inline static constexpr unsigned int KJHGBANLEIC___c_TypeDefinitionIndex = 60869;
 
 	class KJHGBANLEIC___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>** StaticGet___9__45_0()
+		static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x512E0);
+			return (::System::Net::Security::RemoteCertificateValidationCallback**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C30);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x512E8);
-		}
-
-		static ::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>** StaticGet___9__13_0()
-		{
-			return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x512F0);
-		}
-
-		static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__25_0()
-		{
-			return (::System::Net::Security::RemoteCertificateValidationCallback**)UnitySDK::FromName("", "<>c")->GetStaticField(0x512F8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C38);
 		}
 
 		static ::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>** StaticGet___9__49_0()
 		{
-			return (::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51300);
+			return (::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C40);
 		}
 
 		static ::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>** StaticGet___9__47_0()
 		{
-			return (::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51308);
+			return (::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C48);
+		}
+
+		static ::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>** StaticGet___9__45_0()
+		{
+			return (::System::Func_2<::EGEJIOKOFOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C50);
+		}
+
+		static ::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>** StaticGet___9__13_0()
+		{
+			return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C58);
 		}
 
 		static ::System::Void _cctor()

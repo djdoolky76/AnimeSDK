@@ -13,56 +13,56 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define HJHMNDBJPND_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E57BF50)
-#define HJHMNDBJPND_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E57C250)
-#define HJHMNDBJPND_CLONE_OFFSET UNITYSDK_OFFSET(0x1E56A790)
-#define HJHMNDBJPND_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E57BA70)
-#define HJHMNDBJPND_CTOR_OFFSET UNITYSDK_OFFSET(0x1E56B2E0)
-#define HJHMNDBJPND_DOBOGCEAOMO_OFFSET UNITYSDK_OFFSET(0x1E57BB50)
-#define HJHMNDBJPND_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E57BC00)
-#define HJHMNDBJPND_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E57BBA0)
-#define HJHMNDBJPND_FOAFNPGDLLK_OFFSET UNITYSDK_OFFSET(0x1E57BB90)
-#define HJHMNDBJPND_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E56AC40)
-#define HJHMNDBJPND_IEPOGCHJBAA_OFFSET UNITYSDK_OFFSET(0x1E57BB60)
-#define HJHMNDBJPND_JFNJCIIHEFA_OFFSET UNITYSDK_OFFSET(0x1E57BB80)
-#define HJHMNDBJPND_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E57BA00)
-#define HJHMNDBJPND_LILFLAHCPLO_OFFSET UNITYSDK_OFFSET(0x1E57BB70)
-#define HJHMNDBJPND_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E57C110)
-#define HJHMNDBJPND_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E56B350)
-#define HJHMNDBJPND_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E57BA60)
-#define HJHMNDBJPND_PDLBIOOOGPO_OFFSET UNITYSDK_OFFSET(0x1E57BB40)
-#define HJHMNDBJPND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E57BD30)
-#define HJHMNDBJPND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E57BD90)
+#define HJHMNDBJPND_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x20164D70)
+#define HJHMNDBJPND_CCTOR_OFFSET UNITYSDK_OFFSET(0x20165120)
+#define HJHMNDBJPND_CLONE_OFFSET UNITYSDK_OFFSET(0x20164820)
+#define HJHMNDBJPND_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20164750)
+#define HJHMNDBJPND_CTOR_OFFSET UNITYSDK_OFFSET(0x201646E0)
+#define HJHMNDBJPND_DOBOGCEAOMO_OFFSET UNITYSDK_OFFSET(0x20164880)
+#define HJHMNDBJPND_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x20164930)
+#define HJHMNDBJPND_EQUALS_OFFSET UNITYSDK_OFFSET(0x201648D0)
+#define HJHMNDBJPND_FOAFNPGDLLK_OFFSET UNITYSDK_OFFSET(0x201648B0)
+#define HJHMNDBJPND_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x20164A60)
+#define HJHMNDBJPND_IEPOGCHJBAA_OFFSET UNITYSDK_OFFSET(0x20164890)
+#define HJHMNDBJPND_JFNJCIIHEFA_OFFSET UNITYSDK_OFFSET(0x201648A0)
+#define HJHMNDBJPND_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x20164670)
+#define HJHMNDBJPND_LILFLAHCPLO_OFFSET UNITYSDK_OFFSET(0x201648C0)
+#define HJHMNDBJPND_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x20164FB0)
+#define HJHMNDBJPND_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x20164F40)
+#define HJHMNDBJPND_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x201646D0)
+#define HJHMNDBJPND_PDLBIOOOGPO_OFFSET UNITYSDK_OFFSET(0x20164870)
+#define HJHMNDBJPND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20164B80)
+#define HJHMNDBJPND_WRITETO_OFFSET UNITYSDK_OFFSET(0x20164BE0)
 
-inline static constexpr unsigned int HJHMNDBJPND_TypeDefinitionIndex = 28374;
+inline static constexpr unsigned int HJHMNDBJPND_TypeDefinitionIndex = 28964;
 
 	class HJHMNDBJPND : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* PLHACIPADPA; // 0x10
+		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* OAKLMFEAKHA; // 0x10
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
-		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* OAKLMFEAKHA; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* PLHACIPADPA; // 0x20
 		::System::UInt32 FJBLKPNOKAF; // 0x28
 		::System::UInt32 MHKCOPMBDKK; // 0x2C
-		static ::Google::Protobuf::MessageParser_1<::HJHMNDBJPND*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::HJHMNDBJPND*>**)UnitySDK::FromName("", "HJHMNDBJPND")->GetStaticField(0x35A30);
-		}
-
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_KMKLAMBNPOG()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "HJHMNDBJPND")->GetStaticField(0x35A38);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "HJHMNDBJPND")->GetStaticField(0x304C0);
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::HJHMNDBJPND*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::HJHMNDBJPND*>**)UnitySDK::FromName("", "HJHMNDBJPND")->GetStaticField(0x304C8);
 		}
 
 		static ::System::Object** StaticGet_EACOGCDFMEO()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "HJHMNDBJPND")->GetStaticField(0x35A40);
+			return (::System::Object**)UnitySDK::FromName("", "HJHMNDBJPND")->GetStaticField(0x304D0);
 		}
 
 		// static const ::System::Object LMJEMIIGGNH; // 0x0
 		// static const ::System::Object JLEFNNLJPLE; // 0x0
-		// static const ::System::Object JKHDOMFNJPI; // 0x0
 		// static const ::System::Object PFPJMEJFKFH; // 0x0
+		// static const ::System::Object JKHDOMFNJPI; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJHMNDBJPND_CTOR_OFFSET))(this);
@@ -108,11 +108,6 @@ inline static constexpr unsigned int HJHMNDBJPND_TypeDefinitionIndex = 28374;
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HJHMNDBJPND_IEPOGCHJBAA_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* LILFLAHCPLO()
-		{
-			return ((::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HJHMNDBJPND_LILFLAHCPLO_OFFSET))(this);
-		}
-
 		::System::UInt32 JFNJCIIHEFA()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + HJHMNDBJPND_JFNJCIIHEFA_OFFSET))(this);
@@ -121,6 +116,11 @@ inline static constexpr unsigned int HJHMNDBJPND_TypeDefinitionIndex = 28374;
 		::System::Void FOAFNPGDLLK(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + HJHMNDBJPND_FOAFNPGDLLK_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* LILFLAHCPLO()
+		{
+			return ((::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HJHMNDBJPND_LILFLAHCPLO_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

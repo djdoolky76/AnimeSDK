@@ -3,10 +3,10 @@
 class ECAGMOOFEAI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CBDDNNMLHPI_CTOR_OFFSET UNITYSDK_OFFSET(0xC498230)
-#define CBDDNNMLHPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC498260)
+#define CBDDNNMLHPI_CTOR_OFFSET UNITYSDK_OFFSET(0x18FD5340)
+#define CBDDNNMLHPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FD5370)
 
-inline static constexpr unsigned int CBDDNNMLHPI_TypeDefinitionIndex = 53830;
+inline static constexpr unsigned int CBDDNNMLHPI_TypeDefinitionIndex = 54994;
 
 	class CBDDNNMLHPI
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AIGGGEGKODA_CTOR_OFFSET UNITYSDK_OFFSET(0xEB9E740)
+#define AIGGGEGKODA_CTOR_OFFSET UNITYSDK_OFFSET(0x19B43D40)
 
-inline static constexpr unsigned int AIGGGEGKODA_TypeDefinitionIndex = 80481;
+inline static constexpr unsigned int AIGGGEGKODA_TypeDefinitionIndex = 83261;
 
 	class AIGGGEGKODA : public ::System::Object
 	{

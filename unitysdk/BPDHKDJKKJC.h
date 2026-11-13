@@ -6,23 +6,23 @@ namespace RPG::GameCore { class SwordTrainingCheckCanEnterGame; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BPDHKDJKKJC_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A0F20)
-#define BPDHKDJKKJC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1A14E0)
-#define BPDHKDJKKJC_DLAFDJDIABG_OFFSET UNITYSDK_OFFSET(0xC1A11B0)
-#define BPDHKDJKKJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1A1030)
-#define BPDHKDJKKJC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1A1400)
-#define BPDHKDJKKJC_TICK_OFFSET UNITYSDK_OFFSET(0xC1A15C0)
+#define BPDHKDJKKJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5FF380)
+#define BPDHKDJKKJC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B5FF930)
+#define BPDHKDJKKJC_DLAFDJDIABG_OFFSET UNITYSDK_OFFSET(0x1B5FF610)
+#define BPDHKDJKKJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B5FF490)
+#define BPDHKDJKKJC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B5FF850)
+#define BPDHKDJKKJC_TICK_OFFSET UNITYSDK_OFFSET(0x1B5FFA10)
 
-inline static constexpr unsigned int BPDHKDJKKJC_TypeDefinitionIndex = 55696;
+inline static constexpr unsigned int BPDHKDJKKJC_TypeDefinitionIndex = 56898;
 
 	class BPDHKDJKKJC : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* DLJHJKLMADI; // 0x18
-		::KFELGAIGHAP* CHCKAOKBLGA; // 0x20
-		::RPG::GameCore::SwordTrainingCheckCanEnterGame* OFKGLJOAMLD; // 0x28
-		::KFELGAIGHAP* FJLIEJHPNOB; // 0x30
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
+		::RPG::GameCore::SwordTrainingCheckCanEnterGame* OFKGLJOAMLD; // 0x18
+		::KFELGAIGHAP* FJLIEJHPNOB; // 0x20
+		::KFELGAIGHAP* DLJHJKLMADI; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::KFELGAIGHAP* CHCKAOKBLGA; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwordTrainingCheckCanEnterGame* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwordTrainingCheckCanEnterGame*))((::PBYTE)hIl2Cpp + BPDHKDJKKJC_CTOR_OFFSET))(this, a1, a2);

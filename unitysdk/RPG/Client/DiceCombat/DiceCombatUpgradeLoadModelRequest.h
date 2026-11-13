@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/GameCore/DiceCombatDiceType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUPGRADELOADMODELREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0xCC30800)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUPGRADELOADMODELREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5115D0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUpgradeLoadModelRequest_TypeDefinitionIndex = 76042;
+	inline static constexpr unsigned int DiceCombatUpgradeLoadModelRequest_TypeDefinitionIndex = 78369;
 
 	class DiceCombatUpgradeLoadModelRequest : public ::System::Object
 	{
 	public:
-		::System::UInt32 EntityUID; // 0x10
-		::System::Int32 Index; // 0x14
-		::System::UInt32 DiceID; // 0x18
-		::System::Boolean IsSpecial; // 0x1C
+		::System::UInt32 DiceID; // 0x10
+		::RPG::GameCore::DiceCombatDiceType DiceType; // 0x14
+		::System::UInt32 EntityUID; // 0x18
+		::System::Int32 UpFace; // 0x1C
+		::System::Boolean IsSpecial; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::Int32 UpFace; // 0x20
-		::RPG::GameCore::DiceCombatDiceType DiceType; // 0x24
+		::System::Int32 Index; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUPGRADELOADMODELREQUEST_CTOR_OFFSET))(this);

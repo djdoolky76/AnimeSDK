@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterRandomPoolRow; }
 
-#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D889890)
-#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8896F0)
+#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E47A630)
+#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E47A490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterRandomPoolRow_TypeDefinitionIndex = 14195;
+	inline static constexpr unsigned int MonsterRandomPoolRow_TypeDefinitionIndex = 14352;
 
 	class MonsterRandomPoolRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ElitePool; // 0x10
-		::Il2CppArray<::System::UInt32>* MinionPool; // 0x18
+		::Il2CppArray<::System::UInt32>* MinionPool; // 0x10
+		::Il2CppArray<::System::UInt32>* ElitePool; // 0x18
 		::System::UInt32 RandomPoolID; // 0x20
 		::System::Void _ctor()
 		{

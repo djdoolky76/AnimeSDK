@@ -23,7 +23,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DataActionProgress_1_TypeDefinitionIndex = 59546;
+	inline static constexpr unsigned int DataActionProgress_1_TypeDefinitionIndex = 60823;
 
 	template <typename T>
 	class DataActionProgress_1 : public ::System::Object

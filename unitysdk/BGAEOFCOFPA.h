@@ -3,10 +3,10 @@
 class HNGOKEODKMC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGAEOFCOFPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB173EE0)
-#define BGAEOFCOFPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB173F10)
+#define BGAEOFCOFPA_CTOR_OFFSET UNITYSDK_OFFSET(0x151B2AD0)
+#define BGAEOFCOFPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151B2B00)
 
-inline static constexpr unsigned int BGAEOFCOFPA_TypeDefinitionIndex = 52880;
+inline static constexpr unsigned int BGAEOFCOFPA_TypeDefinitionIndex = 54036;
 
 	class BGAEOFCOFPA
 	{

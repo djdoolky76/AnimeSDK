@@ -12,43 +12,43 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD673710)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD673750)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C___CTOR_B__71_0_OFFSET UNITYSDK_OFFSET(0xD673760)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C___CTOR_B__71_1_OFFSET UNITYSDK_OFFSET(0xD6737C0)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C___CTOR_B__71_2_OFFSET UNITYSDK_OFFSET(0xD673820)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C___SAVE_B__84_1_OFFSET UNITYSDK_OFFSET(0xD673880)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E911D00)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E911D40)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C___CTOR_B__71_0_OFFSET UNITYSDK_OFFSET(0x1E911D50)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C___CTOR_B__71_1_OFFSET UNITYSDK_OFFSET(0x1E911DB0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C___CTOR_B__71_2_OFFSET UNITYSDK_OFFSET(0x1E911E10)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C___SAVE_B__84_1_OFFSET UNITYSDK_OFFSET(0x1E911E70)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftDiyMechatronEditViewModel___c_TypeDefinitionIndex = 79608;
+	inline static constexpr unsigned int MechCraftDiyMechatronEditViewModel___c_TypeDefinitionIndex = 82385;
 
 	class MechCraftDiyMechatronEditViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::CLNGKOPAMBJ*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronPoseItemViewModel*>** StaticGet___9__71_0()
-		{
-			return (::System::Func_2<::CLNGKOPAMBJ*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronPoseItemViewModel*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x4E470);
-		}
-
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__84_1()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x4E478);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x4E480);
-		}
-
-		static ::System::Func_2<::KBDDPBPABDD*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronColorItemViewModel*>** StaticGet___9__71_1()
-		{
-			return (::System::Func_2<::KBDDPBPABDD*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronColorItemViewModel*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x4E488);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x5C770);
 		}
 
 		static ::System::Func_2<::OPPEGLOCAGH*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronEffectItemViewModel*>** StaticGet___9__71_2()
 		{
-			return (::System::Func_2<::OPPEGLOCAGH*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronEffectItemViewModel*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x4E490);
+			return (::System::Func_2<::OPPEGLOCAGH*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronEffectItemViewModel*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x5C778);
+		}
+
+		static ::System::Func_2<::KBDDPBPABDD*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronColorItemViewModel*>** StaticGet___9__71_1()
+		{
+			return (::System::Func_2<::KBDDPBPABDD*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronColorItemViewModel*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x5C780);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x5C788);
+		}
+
+		static ::System::Func_2<::CLNGKOPAMBJ*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronPoseItemViewModel*>** StaticGet___9__71_0()
+		{
+			return (::System::Func_2<::CLNGKOPAMBJ*, ::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronPoseItemViewModel*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x5C790);
 		}
 
 		static ::System::Void _cctor()

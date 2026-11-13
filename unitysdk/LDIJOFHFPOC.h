@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int LDIJOFHFPOC_TypeDefinitionIndex = 74535;
+inline static constexpr unsigned int LDIJOFHFPOC_TypeDefinitionIndex = 76683;
 
 	class LDIJOFHFPOC : public ::System::Object
 	{

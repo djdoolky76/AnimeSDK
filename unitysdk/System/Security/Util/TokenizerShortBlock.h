@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Security::Util { class TokenizerShortBlock; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSHORTBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0CA310)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSHORTBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x17551F00)
 
 namespace System::Security::Util
 {

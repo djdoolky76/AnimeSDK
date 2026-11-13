@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleHideAuxiliaryLine; }
 
-#define DALKKABIAGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E5A50)
-#define DALKKABIAGJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C9E5A60)
+#define DALKKABIAGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17CC0)
+#define DALKKABIAGJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DB17CD0)
 
-inline static constexpr unsigned int DALKKABIAGJ_TypeDefinitionIndex = 43123;
+inline static constexpr unsigned int DALKKABIAGJ_TypeDefinitionIndex = 44104;
 
 	class DALKKABIAGJ : public ::BKABEBEPPJK
 	{

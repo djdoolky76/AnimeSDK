@@ -6,9 +6,9 @@ class ODPGEKCDNCJ;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define KDLFLGKKNMG_LPCJKDBAFHB_OFFSET UNITYSDK_OFFSET(0xB35ECD0)
+#define KDLFLGKKNMG_LPCJKDBAFHB_OFFSET UNITYSDK_OFFSET(0x1B5C8990)
 
-inline static constexpr unsigned int KDLFLGKKNMG_TypeDefinitionIndex = 71686;
+inline static constexpr unsigned int KDLFLGKKNMG_TypeDefinitionIndex = 73677;
 
 	class KDLFLGKKNMG : public ::System::Object
 	{

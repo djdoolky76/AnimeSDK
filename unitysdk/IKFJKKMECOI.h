@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMonsterHUDVisibleType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IKFJKKMECOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1647A550)
-#define IKFJKKMECOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1647A580)
+#define IKFJKKMECOI_CTOR_OFFSET UNITYSDK_OFFSET(0x180787D0)
+#define IKFJKKMECOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18078800)
 
-inline static constexpr unsigned int IKFJKKMECOI_TypeDefinitionIndex = 55545;
+inline static constexpr unsigned int IKFJKKMECOI_TypeDefinitionIndex = 56737;
 
 	class IKFJKKMECOI
 	{

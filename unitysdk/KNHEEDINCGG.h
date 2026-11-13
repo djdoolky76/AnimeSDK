@@ -4,11 +4,11 @@ namespace RPG::GameCore { class EraRegion; }
 namespace RPG::GameCore { class InitEraFlipperRegion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KNHEEDINCGG_CTOR_OFFSET UNITYSDK_OFFSET(0xB57D680)
-#define KNHEEDINCGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB57D6B0)
-#define KNHEEDINCGG__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB57D940)
+#define KNHEEDINCGG_CTOR_OFFSET UNITYSDK_OFFSET(0x18FA6470)
+#define KNHEEDINCGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FA64A0)
+#define KNHEEDINCGG__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x18FA6730)
 
-inline static constexpr unsigned int KNHEEDINCGG_TypeDefinitionIndex = 52765;
+inline static constexpr unsigned int KNHEEDINCGG_TypeDefinitionIndex = 53909;
 
 	class KNHEEDINCGG
 	{

@@ -4,18 +4,18 @@
 class CLMPCCGCADK;
 namespace System { class Object; }
 
-#define CLMPCCGCADK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0CF700)
-#define CLMPCCGCADK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CF730)
-#define CLMPCCGCADK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0CF740)
+#define CLMPCCGCADK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205E3420)
+#define CLMPCCGCADK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205E3450)
+#define CLMPCCGCADK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x205E3460)
 
-inline static constexpr unsigned int CLMPCCGCADK___c_TypeDefinitionIndex = 33151;
+inline static constexpr unsigned int CLMPCCGCADK___c_TypeDefinitionIndex = 34066;
 
 	class CLMPCCGCADK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B9A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14E80);
 		}
 
 		static ::System::Void _cctor()

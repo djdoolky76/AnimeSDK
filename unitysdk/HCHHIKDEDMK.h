@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareRotatableRegionLoadingState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCHHIKDEDMK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C12110)
-#define HCHHIKDEDMK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C12140)
+#define HCHHIKDEDMK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7B1780)
+#define HCHHIKDEDMK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B7B17B0)
 
-inline static constexpr unsigned int HCHHIKDEDMK_TypeDefinitionIndex = 52996;
+inline static constexpr unsigned int HCHHIKDEDMK_TypeDefinitionIndex = 54155;
 
 	class HCHHIKDEDMK
 	{

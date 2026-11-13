@@ -4,18 +4,18 @@
 class JPCEIGAGLND;
 namespace System { class Object; }
 
-#define JPCEIGAGLND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1790)
-#define JPCEIGAGLND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A17D0)
-#define JPCEIGAGLND___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7A17E0)
+#define JPCEIGAGLND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8D9BB0)
+#define JPCEIGAGLND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8D9BF0)
+#define JPCEIGAGLND___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F8D9C00)
 
-inline static constexpr unsigned int JPCEIGAGLND___c_TypeDefinitionIndex = 26185;
+inline static constexpr unsigned int JPCEIGAGLND___c_TypeDefinitionIndex = 26712;
 
 	class JPCEIGAGLND___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2170);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68AB0);
 		}
 
 		static ::System::Void _cctor()

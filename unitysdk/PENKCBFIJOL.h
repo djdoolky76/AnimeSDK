@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KKGMHJNMOID;
 
-#define PENKCBFIJOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC1EC3E0)
-#define PENKCBFIJOL_CTOR_OFFSET UNITYSDK_OFFSET(0xC1EC4A0)
+#define PENKCBFIJOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x14541580)
+#define PENKCBFIJOL_CTOR_OFFSET UNITYSDK_OFFSET(0x14541640)
 
-inline static constexpr unsigned int PENKCBFIJOL_TypeDefinitionIndex = 80096;
+inline static constexpr unsigned int PENKCBFIJOL_TypeDefinitionIndex = 82873;
 
 	class PENKCBFIJOL : public ::System::Object
 	{

@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
-#include "unitysdk/RPG/GameCore/StageInvasionMonsterState.h"
+#include "unitysdk/RPG/GameCore/StageInvasionMonsterUIData.h"
 namespace RPG::Client { class UIStateCtrl; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define CKFEAPMJFCI_ACLJLDJNBFH_OFFSET UNITYSDK_OFFSET(0xD7532F0)
-#define CKFEAPMJFCI_BMJBEHCBNFF_OFFSET UNITYSDK_OFFSET(0xD753230)
-#define CKFEAPMJFCI_CTOR_OFFSET UNITYSDK_OFFSET(0xD753550)
-#define CKFEAPMJFCI_ECDKPMOJHHN_OFFSET UNITYSDK_OFFSET(0xD7534F0)
-#define CKFEAPMJFCI_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xD753010)
-#define CKFEAPMJFCI_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xD753110)
-#define CKFEAPMJFCI_KOMKENFFFDG_OFFSET UNITYSDK_OFFSET(0xD7530C0)
-#define CKFEAPMJFCI_NEDKFFOPPPC_OFFSET UNITYSDK_OFFSET(0xD753460)
-#define CKFEAPMJFCI_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xD753160)
-#define CKFEAPMJFCI__ONBIND_OFFSET UNITYSDK_OFFSET(0xD752FA0)
+#define CKFEAPMJFCI_ACLJLDJNBFH_OFFSET UNITYSDK_OFFSET(0x1AD3B8B0)
+#define CKFEAPMJFCI_BMJBEHCBNFF_OFFSET UNITYSDK_OFFSET(0x1AD3B750)
+#define CKFEAPMJFCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD3BB60)
+#define CKFEAPMJFCI_ECDKPMOJHHN_OFFSET UNITYSDK_OFFSET(0x1AD3BB00)
+#define CKFEAPMJFCI_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0x1AD3B5E0)
+#define CKFEAPMJFCI_KOMKENFFFDG_OFFSET UNITYSDK_OFFSET(0x1AD3B550)
+#define CKFEAPMJFCI_NEDKFFOPPPC_OFFSET UNITYSDK_OFFSET(0x1AD3BA20)
+#define CKFEAPMJFCI_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1AD3B630)
+#define CKFEAPMJFCI__ONBIND_OFFSET UNITYSDK_OFFSET(0x1AD3B340)
+#define CKFEAPMJFCI__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1AD3B440)
 
-inline static constexpr unsigned int CKFEAPMJFCI_TypeDefinitionIndex = 71789;
+inline static constexpr unsigned int CKFEAPMJFCI_TypeDefinitionIndex = 73808;
 
 	class CKFEAPMJFCI : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Animation* KCOAILOHDND; // 0x60
-		::RPG::Client::UIStateCtrl* JINLLOBAGML; // 0x68
-		::System::Boolean CHMLELPHHIO; // 0x70
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::StageInvasionMonsterState DLNIGFGLPLJ; // 0x74
+		::RPG::Client::UIStateCtrl* JINLLOBAGML; // 0x60
+		::UnityEngine::Animation* KCOAILOHDND; // 0x68
+		::RPG::GameCore::StageInvasionMonsterUIData APPIHABBCGK; // 0x70
+		::System::Boolean CHMLELPHHIO; // 0xA8
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		// static const ::System::String* PENODFJKLGN; // 0x0
 		// static const ::System::String* KDODNCFEJFD; // 0x0
@@ -43,14 +42,14 @@ inline static constexpr unsigned int CKFEAPMJFCI_TypeDefinitionIndex = 71789;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKFEAPMJFCI__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKFEAPMJFCI_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKFEAPMJFCI__SETUPVIEW_OFFSET))(this);
 		}
 
-		::System::Void NKPPGDENJAE(::RPG::GameCore::StageInvasionMonsterState a1)
+		::System::Void NKPPGDENJAE(::RPG::GameCore::StageInvasionMonsterUIData a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageInvasionMonsterState))((::PBYTE)hIl2Cpp + CKFEAPMJFCI_NKPPGDENJAE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageInvasionMonsterUIData))((::PBYTE)hIl2Cpp + CKFEAPMJFCI_NKPPGDENJAE_OFFSET))(this, a1);
 		}
 
 		::System::Void KANMCJHEFJJ()

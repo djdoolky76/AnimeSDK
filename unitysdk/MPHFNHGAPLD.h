@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MPHFNHGAPLD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA38870)
-#define MPHFNHGAPLD_GETNODEICON_OFFSET UNITYSDK_OFFSET(0xBA38830)
+#define MPHFNHGAPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B225EE0)
+#define MPHFNHGAPLD_GETNODEICON_OFFSET UNITYSDK_OFFSET(0x1B225EA0)
 
-inline static constexpr unsigned int MPHFNHGAPLD_TypeDefinitionIndex = 75156;
+inline static constexpr unsigned int MPHFNHGAPLD_TypeDefinitionIndex = 77483;
 
 	class MPHFNHGAPLD : public ::System::Object
 	{

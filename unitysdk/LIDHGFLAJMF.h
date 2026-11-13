@@ -5,9 +5,9 @@ class FAHDPPMNEEB;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LIDHGFLAJMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E0C90)
+#define LIDHGFLAJMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63AD50)
 
-inline static constexpr unsigned int LIDHGFLAJMF_TypeDefinitionIndex = 43226;
+inline static constexpr unsigned int LIDHGFLAJMF_TypeDefinitionIndex = 44207;
 
 	class LIDHGFLAJMF : public ::System::Object
 	{

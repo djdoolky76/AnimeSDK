@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KPDABHOKLNM_LineGlowBlendingMode_TypeDefinitionIndex = 70789;
+inline static constexpr unsigned int KPDABHOKLNM_LineGlowBlendingMode_TypeDefinitionIndex = 72768;
 
 	enum class KPDABHOKLNM_LineGlowBlendingMode : ::System::Int32
 	{

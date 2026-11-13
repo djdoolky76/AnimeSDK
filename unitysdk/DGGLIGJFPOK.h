@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UIMonopolyTryTriggerTeleport; }
 
-#define DGGLIGJFPOK_CTOR_OFFSET UNITYSDK_OFFSET(0xE83E940)
-#define DGGLIGJFPOK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE83F060)
-#define DGGLIGJFPOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE83E950)
-#define DGGLIGJFPOK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE83EFD0)
-#define DGGLIGJFPOK_PDDNICKHBNA_OFFSET UNITYSDK_OFFSET(0xE83EC70)
-#define DGGLIGJFPOK_TICK_OFFSET UNITYSDK_OFFSET(0xE83E9A0)
+#define DGGLIGJFPOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB3150)
+#define DGGLIGJFPOK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ADB3870)
+#define DGGLIGJFPOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1ADB3160)
+#define DGGLIGJFPOK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1ADB37E0)
+#define DGGLIGJFPOK_PDDNICKHBNA_OFFSET UNITYSDK_OFFSET(0x1ADB3480)
+#define DGGLIGJFPOK_TICK_OFFSET UNITYSDK_OFFSET(0x1ADB31B0)
 
-inline static constexpr unsigned int DGGLIGJFPOK_TypeDefinitionIndex = 58835;
+inline static constexpr unsigned int DGGLIGJFPOK_TypeDefinitionIndex = 60103;
 
 	class DGGLIGJFPOK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::UIMonopolyTryTriggerTeleport* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::UIMonopolyTryTriggerTeleport* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UIMonopolyTryTriggerTeleport* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::UIMonopolyTryTriggerTeleport*))((::PBYTE)hIl2Cpp + DGGLIGJFPOK_CTOR_OFFSET))(this, a1, a2);

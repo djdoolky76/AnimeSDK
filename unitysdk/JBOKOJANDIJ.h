@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SaveModelWhenDead; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBOKOJANDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16568410)
-#define JBOKOJANDIJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16568420)
-#define JBOKOJANDIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165684C0)
-#define JBOKOJANDIJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16568610)
-#define JBOKOJANDIJ_TICK_OFFSET UNITYSDK_OFFSET(0x16568460)
+#define JBOKOJANDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19A78B40)
+#define JBOKOJANDIJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19A78B50)
+#define JBOKOJANDIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A78BF0)
+#define JBOKOJANDIJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19A78D40)
+#define JBOKOJANDIJ_TICK_OFFSET UNITYSDK_OFFSET(0x19A78B90)
 
-inline static constexpr unsigned int JBOKOJANDIJ_TypeDefinitionIndex = 56387;
+inline static constexpr unsigned int JBOKOJANDIJ_TypeDefinitionIndex = 57606;
 
 	class JBOKOJANDIJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SaveModelWhenDead* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SaveModelWhenDead* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SaveModelWhenDead* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SaveModelWhenDead*))((::PBYTE)hIl2Cpp + JBOKOJANDIJ_CTOR_OFFSET))(this, a1, a2);

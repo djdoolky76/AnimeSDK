@@ -3,10 +3,10 @@
 class CCCOIPHHAPN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHLKDJNCDHA_CTOR_OFFSET UNITYSDK_OFFSET(0x15CC52F0)
-#define HHLKDJNCDHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CC5320)
+#define HHLKDJNCDHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1901DAA0)
+#define HHLKDJNCDHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1901DAD0)
 
-inline static constexpr unsigned int HHLKDJNCDHA_TypeDefinitionIndex = 53859;
+inline static constexpr unsigned int HHLKDJNCDHA_TypeDefinitionIndex = 55023;
 
 	class HHLKDJNCDHA
 	{

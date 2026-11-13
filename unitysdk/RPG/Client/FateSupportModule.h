@@ -6,34 +6,34 @@ namespace RPG::Client { class FateSupportNoVoicePart; }
 namespace RPG::Client { class FateSupportToastPart; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_FATESUPPORTMODULE_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFD2780)
-#define RPG_CLIENT_FATESUPPORTMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0xCFD2620)
-#define RPG_CLIENT_FATESUPPORTMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCFD2220)
-#define RPG_CLIENT_FATESUPPORTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0xCFD1AF0)
-#define RPG_CLIENT_FATESUPPORTMODULE_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0xCFD2030)
-#define RPG_CLIENT_FATESUPPORTMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0xCFD2150)
-#define RPG_CLIENT_FATESUPPORTMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xCFD1F90)
-#define RPG_CLIENT_FATESUPPORTMODULE__ONFINISHMAINMISSION_OFFSET UNITYSDK_OFFSET(0xCFD2320)
-#define RPG_CLIENT_FATESUPPORTMODULE__TRYTRIGGERTUTORIAL_OFFSET UNITYSDK_OFFSET(0xCFD2490)
+#define RPG_CLIENT_FATESUPPORTMODULE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C501F20)
+#define RPG_CLIENT_FATESUPPORTMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C501DC0)
+#define RPG_CLIENT_FATESUPPORTMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C5019C0)
+#define RPG_CLIENT_FATESUPPORTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x1C501290)
+#define RPG_CLIENT_FATESUPPORTMODULE_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0x1C5017D0)
+#define RPG_CLIENT_FATESUPPORTMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x1C5018F0)
+#define RPG_CLIENT_FATESUPPORTMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x1C501730)
+#define RPG_CLIENT_FATESUPPORTMODULE__ONFINISHMAINMISSION_OFFSET UNITYSDK_OFFSET(0x1C501AC0)
+#define RPG_CLIENT_FATESUPPORTMODULE__TRYTRIGGERTUTORIAL_OFFSET UNITYSDK_OFFSET(0x1C501C30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportModule_TypeDefinitionIndex = 64160;
+	inline static constexpr unsigned int FateSupportModule_TypeDefinitionIndex = 65605;
 
 	class FateSupportModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::RPG::Client::FateSupportNoVoicePart* NoVoicePart; // 0x10
-		::RPG::Client::FateSupportToastPart* ToastPart; // 0x18
+		::RPG::Client::FateSupportToastPart* ToastPart; // 0x10
+		::RPG::Client::FateSupportNoVoicePart* NoVoicePart; // 0x18
 		::RPG::Client::FateSupportCollectionPart* CollectionPart; // 0x20
 		static ::System::UInt32* StaticGet_FateSupportGuideHudID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "FateSupportModule")->GetStaticField(0x139A0);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "FateSupportModule")->GetStaticField(0x13F60);
 		}
 
 		static ::System::UInt32* StaticGet_FateSupportPreviewHudID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "FateSupportModule")->GetStaticField(0x139A4);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "FateSupportModule")->GetStaticField(0x13F64);
 		}
 
 		::System::Void _ctor()

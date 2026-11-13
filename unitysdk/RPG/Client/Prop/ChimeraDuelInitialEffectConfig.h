@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELINITIALEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDC56DB0)
+#define RPG_CLIENT_PROP_CHIMERADUELINITIALEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF3400)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelInitialEffectConfig_TypeDefinitionIndex = 78321;
+	inline static constexpr unsigned int ChimeraDuelInitialEffectConfig_TypeDefinitionIndex = 81056;
 
 	class ChimeraDuelInitialEffectConfig : public ::System::Object
 	{

@@ -4,27 +4,27 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7293A0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B11A3B0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingChallengeMatchItemViewModel_TypeDefinitionIndex = 82028;
+	inline static constexpr unsigned int B51RacingChallengeMatchItemViewModel_TypeDefinitionIndex = 84809;
 
 	class B51RacingChallengeMatchItemViewModel : public ::System::Object
 	{
 	public:
-		::System::String* HistoryBestDriverIconPath; // 0x10
-		::System::String* MinimapPath; // 0x18
-		::System::String* DarkMinimapPath; // 0x20
-		::System::UInt32 MatchID; // 0x28
-		::System::UInt32 TotalLaps; // 0x2C
-		::RPG::Client::TextID HistoryBestDriverName; // 0x30
-		::RPG::Client::TextID TrackName; // 0x40
-		::System::UInt32 TrackID; // 0x50
-		::System::UInt32 PlayerBestTime; // 0x54
+		::System::String* MinimapPath; // 0x10
+		::System::String* DarkMinimapPath; // 0x18
+		::System::String* HistoryBestDriverIconPath; // 0x20
+		::RPG::Client::TextID TrackName; // 0x28
+		::System::UInt32 PlayerBestTime; // 0x38
+		::System::UInt32 HistoryBestTime; // 0x3C
+		::RPG::Client::TextID HistoryBestDriverName; // 0x40
+		::System::UInt32 TotalLaps; // 0x50
+		::System::UInt32 TrackID; // 0x54
 		::System::Boolean IsSelected; // 0x58
 		::System::Byte _padding0[0x3];
-		::System::UInt32 HistoryBestTime; // 0x5C
+		::System::UInt32 MatchID; // 0x5C
 		::RPG::Client::TextID MatchName; // 0x60
 		::System::Void _ctor()
 		{

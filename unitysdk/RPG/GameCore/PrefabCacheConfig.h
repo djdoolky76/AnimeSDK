@@ -6,12 +6,12 @@ namespace RPG::GameCore { class PrefabCacheConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PREFABCACHECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D911B00)
-#define RPG_GAMECORE_PREFABCACHECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D911A20)
+#define RPG_GAMECORE_PREFABCACHECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7BD00)
+#define RPG_GAMECORE_PREFABCACHECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF7BC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PrefabCacheConfig_TypeDefinitionIndex = 24413;
+	inline static constexpr unsigned int PrefabCacheConfig_TypeDefinitionIndex = 24872;
 
 	class PrefabCacheConfig : public ::RPG::GameCore::JsonConfig
 	{

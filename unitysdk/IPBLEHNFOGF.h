@@ -5,10 +5,10 @@
 namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define IPBLEHNFOGF_BOEPEMKFPDH_OFFSET UNITYSDK_OFFSET(0x1650F310)
-#define IPBLEHNFOGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1650F300)
+#define IPBLEHNFOGF_BOEPEMKFPDH_OFFSET UNITYSDK_OFFSET(0x192FC3F0)
+#define IPBLEHNFOGF_CTOR_OFFSET UNITYSDK_OFFSET(0x192FC3E0)
 
-inline static constexpr unsigned int IPBLEHNFOGF_TypeDefinitionIndex = 75018;
+inline static constexpr unsigned int IPBLEHNFOGF_TypeDefinitionIndex = 77345;
 
 	class IPBLEHNFOGF : public ::BNAIELOHEFF
 	{

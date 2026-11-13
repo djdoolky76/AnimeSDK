@@ -5,11 +5,11 @@ namespace RPG::Client::NavMap { class ISubNavMap; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OGOGIDDNFOM_HINNOBMJGJA_OFFSET UNITYSDK_OFFSET(0xBE56430)
-#define OGOGIDDNFOM_NBOJEPKPDDF_OFFSET UNITYSDK_OFFSET(0xBE56D30)
-#define OGOGIDDNFOM_PAABEMLAHOL_OFFSET UNITYSDK_OFFSET(0xBE568A0)
+#define OGOGIDDNFOM_HINNOBMJGJA_OFFSET UNITYSDK_OFFSET(0x18E046E0)
+#define OGOGIDDNFOM_NBOJEPKPDDF_OFFSET UNITYSDK_OFFSET(0x18E04FE0)
+#define OGOGIDDNFOM_PAABEMLAHOL_OFFSET UNITYSDK_OFFSET(0x18E04B50)
 
-inline static constexpr unsigned int OGOGIDDNFOM_TypeDefinitionIndex = 74630;
+inline static constexpr unsigned int OGOGIDDNFOM_TypeDefinitionIndex = 76778;
 
 	class OGOGIDDNFOM : public ::System::Object
 	{

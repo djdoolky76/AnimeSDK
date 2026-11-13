@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetMapBelongGrid; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DHKGDGCKDPK_CTOR_OFFSET UNITYSDK_OFFSET(0xEBDCF40)
-#define DHKGDGCKDPK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xEBDCF60)
+#define DHKGDGCKDPK_CTOR_OFFSET UNITYSDK_OFFSET(0x18EA4660)
+#define DHKGDGCKDPK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x18EA4680)
 
-inline static constexpr unsigned int DHKGDGCKDPK_TypeDefinitionIndex = 53807;
+inline static constexpr unsigned int DHKGDGCKDPK_TypeDefinitionIndex = 54971;
 
 	class DHKGDGCKDPK
 	{

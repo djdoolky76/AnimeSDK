@@ -6,41 +6,41 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MAHHNJGGOMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB847F80)
-#define MAHHNJGGOMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB847FC0)
-#define MAHHNJGGOMK___C__SWITCHACIVEPATHES_B__4_0_OFFSET UNITYSDK_OFFSET(0xB8480B0)
-#define MAHHNJGGOMK___C__SWITCHACIVEPATHES_B__4_1_OFFSET UNITYSDK_OFFSET(0xB8480C0)
-#define MAHHNJGGOMK___C__SWITCHACTIVEPATH_B__2_0_OFFSET UNITYSDK_OFFSET(0xB847FD0)
-#define MAHHNJGGOMK___C__UNLOCKAVATARPATH_B__3_1_OFFSET UNITYSDK_OFFSET(0xB848040)
+#define MAHHNJGGOMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6E2140)
+#define MAHHNJGGOMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E2180)
+#define MAHHNJGGOMK___C__SWITCHACIVEPATHES_B__4_0_OFFSET UNITYSDK_OFFSET(0x1B6E2270)
+#define MAHHNJGGOMK___C__SWITCHACIVEPATHES_B__4_1_OFFSET UNITYSDK_OFFSET(0x1B6E2280)
+#define MAHHNJGGOMK___C__SWITCHACTIVEPATH_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B6E2190)
+#define MAHHNJGGOMK___C__UNLOCKAVATARPATH_B__3_1_OFFSET UNITYSDK_OFFSET(0x1B6E2200)
 
-inline static constexpr unsigned int MAHHNJGGOMK___c_TypeDefinitionIndex = 62770;
+inline static constexpr unsigned int MAHHNJGGOMK___c_TypeDefinitionIndex = 64208;
 
 	class MAHHNJGGOMK___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__4_1()
-		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B180);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B188);
-		}
-
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__3_1()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B190);
-		}
-
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__2_0()
-		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B198);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D80);
 		}
 
 		static ::System::Action_1<::HIIAFEKODHJ*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_1<::HIIAFEKODHJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B1A0);
+			return (::System::Action_1<::HIIAFEKODHJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D88);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__2_0()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D90);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__4_1()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D98);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71DA0);
 		}
 
 		static ::System::Void _cctor()

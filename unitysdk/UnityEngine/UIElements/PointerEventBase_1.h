@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerEventBase_1_TypeDefinitionIndex = 5980;
+	inline static constexpr unsigned int PointerEventBase_1_TypeDefinitionIndex = 5988;
 
 	template <typename T>
 	class PointerEventBase_1

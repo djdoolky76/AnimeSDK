@@ -7,7 +7,7 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int HLMJMACONKO_TypeDefinitionIndex = 49847;
+inline static constexpr unsigned int HLMJMACONKO_TypeDefinitionIndex = 50895;
 
 	class HLMJMACONKO : public ::System::Object
 	{

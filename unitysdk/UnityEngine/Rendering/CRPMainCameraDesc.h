@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPMainCameraDesc_TypeDefinitionIndex = 4807;
+	inline static constexpr unsigned int CRPMainCameraDesc_TypeDefinitionIndex = 4811;
 
 	struct alignas(4) CRPMainCameraDesc
 	{

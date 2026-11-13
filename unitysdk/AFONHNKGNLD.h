@@ -5,17 +5,18 @@
 class AFONHNKGNLD;
 class FCOEMCEDLNL;
 
-#define AFONHNKGNLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC89F30)
-#define AFONHNKGNLD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CC89F40)
-#define AFONHNKGNLD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC89EF0)
+#define AFONHNKGNLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E028D30)
+#define AFONHNKGNLD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E028D40)
+#define AFONHNKGNLD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E028CF0)
 
-inline static constexpr unsigned int AFONHNKGNLD_TypeDefinitionIndex = 24388;
+inline static constexpr unsigned int AFONHNKGNLD_TypeDefinitionIndex = 24847;
 
 	class AFONHNKGNLD : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TutorialB51RacingGameButtonType PGOHOFMMIAJ; // 0x18
-		::System::Boolean AODGNFHAPBL; // 0x1C
+		::System::Boolean AODGNFHAPBL; // 0x18
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::TutorialB51RacingGameButtonType PGOHOFMMIAJ; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFONHNKGNLD_CTOR_OFFSET))(this);

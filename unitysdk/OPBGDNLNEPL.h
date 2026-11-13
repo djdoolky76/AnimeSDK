@@ -8,10 +8,10 @@ class OINNEGOFKAA;
 namespace RPG::AvatarSystem { class Avatar; }
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define OPBGDNLNEPL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF982D0)
-#define OPBGDNLNEPL_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xBF98380)
+#define OPBGDNLNEPL_CTOR_OFFSET UNITYSDK_OFFSET(0x196BFCD0)
+#define OPBGDNLNEPL_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0x196BFD80)
 
-inline static constexpr unsigned int OPBGDNLNEPL_TypeDefinitionIndex = 62553;
+inline static constexpr unsigned int OPBGDNLNEPL_TypeDefinitionIndex = 63966;
 
 	class OPBGDNLNEPL : public ::System::Object
 	{

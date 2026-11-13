@@ -6,13 +6,13 @@ namespace RPG::GameCore { class InsertBattlePerform; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INSERTBATTLEPERFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D75B3B0)
-#define RPG_GAMECORE_INSERTBATTLEPERFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D75B3C0)
-#define RPG_GAMECORE_INSERTBATTLEPERFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D75B380)
+#define RPG_GAMECORE_INSERTBATTLEPERFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE94250)
+#define RPG_GAMECORE_INSERTBATTLEPERFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE94260)
+#define RPG_GAMECORE_INSERTBATTLEPERFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE94220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InsertBattlePerform_TypeDefinitionIndex = 23378;
+	inline static constexpr unsigned int InsertBattlePerform_TypeDefinitionIndex = 23823;
 
 	class InsertBattlePerform : public ::RPG::GameCore::TaskConfig
 	{

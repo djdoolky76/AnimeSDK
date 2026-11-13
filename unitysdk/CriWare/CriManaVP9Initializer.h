@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CRIWARE_CRIMANAVP9INITIALIZER_AWAKE_OFFSET UNITYSDK_OFFSET(0x16723270)
-#define CRIWARE_CRIMANAVP9INITIALIZER_CTOR_OFFSET UNITYSDK_OFFSET(0x167236D0)
-#define CRIWARE_CRIMANAVP9INITIALIZER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x167236C0)
+#define CRIWARE_CRIMANAVP9INITIALIZER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F462C80)
+#define CRIWARE_CRIMANAVP9INITIALIZER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4630E0)
+#define CRIWARE_CRIMANAVP9INITIALIZER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F4630D0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaVP9Initializer_TypeDefinitionIndex = 40201;
+	inline static constexpr unsigned int CriManaVP9Initializer_TypeDefinitionIndex = 41176;
 
 	class CriManaVP9Initializer : public ::UnityEngine::MonoBehaviour
 	{

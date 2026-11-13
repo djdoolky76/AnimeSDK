@@ -6,20 +6,20 @@ class GDMONJOAKHD;
 class LJFHKAJPFNE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AGNCEPPGLBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3B510)
-#define AGNCEPPGLBJ_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xCF3A7C0)
-#define AGNCEPPGLBJ_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xCF3AE30)
-#define AGNCEPPGLBJ_LLLDCDEIBIM_OFFSET UNITYSDK_OFFSET(0xCF3A8E0)
+#define AGNCEPPGLBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19B121F0)
+#define AGNCEPPGLBJ_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0x19B114E0)
+#define AGNCEPPGLBJ_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0x19B11B10)
+#define AGNCEPPGLBJ_LLLDCDEIBIM_OFFSET UNITYSDK_OFFSET(0x19B11600)
 
-inline static constexpr unsigned int AGNCEPPGLBJ_TypeDefinitionIndex = 73936;
+inline static constexpr unsigned int AGNCEPPGLBJ_TypeDefinitionIndex = 76072;
 
 	class AGNCEPPGLBJ : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::GDMONJOAKHD*>* LPIBDLKBGKL; // 0x10
 		::System::Collections::Generic::List_1<::GDMONJOAKHD*>* GOHNCBINDCI; // 0x18
-		::System::Collections::Generic::List_1<::GDMONJOAKHD*>* OBLMEGIMIJI; // 0x20
-		::System::Collections::Generic::List_1<::GDMONJOAKHD*>* AIKFNODPNMA; // 0x28
+		::System::Collections::Generic::List_1<::GDMONJOAKHD*>* AIKFNODPNMA; // 0x20
+		::System::Collections::Generic::List_1<::GDMONJOAKHD*>* OBLMEGIMIJI; // 0x28
 		::System::Int32 FFJJHDLMFHF; // 0x30
 		::System::Void _ctor()
 		{

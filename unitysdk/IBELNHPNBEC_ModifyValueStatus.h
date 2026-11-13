@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IBELNHPNBEC_ModifyValueStatus_TypeDefinitionIndex = 71570;
+inline static constexpr unsigned int IBELNHPNBEC_ModifyValueStatus_TypeDefinitionIndex = 73557;
 
 	enum class IBELNHPNBEC_ModifyValueStatus : ::System::Int32
 	{

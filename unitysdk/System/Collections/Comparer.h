@@ -8,12 +8,12 @@ namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_COMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0929D0)
-#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C08FE10)
-#define SYSTEM_COLLECTIONS_COMPARER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0926C0)
-#define SYSTEM_COLLECTIONS_COMPARER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C092780)
-#define SYSTEM_COLLECTIONS_COMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0926B0)
-#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C092930)
+#define SYSTEM_COLLECTIONS_COMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E11B340)
+#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E118780)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E11B030)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E11B0F0)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E11B020)
+#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1E11B2A0)
 
 namespace System::Collections
 {
@@ -23,14 +23,14 @@ namespace System::Collections
 	{
 	public:
 		::System::Globalization::CompareInfo* m_compareInfo; // 0x10
-		static ::System::Collections::Comparer** StaticGet_Default()
-		{
-			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xF180);
-		}
-
 		static ::System::Collections::Comparer** StaticGet_DefaultInvariant()
 		{
-			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xF188);
+			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xD430);
+		}
+
+		static ::System::Collections::Comparer** StaticGet_Default()
+		{
+			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xD438);
 		}
 
 		::System::Void _ctor()

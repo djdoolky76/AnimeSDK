@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class JKDLIBFIHAB;
 
-#define BJPNOIICLHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88E0B0)
+#define BJPNOIICLHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B8870)
 
-inline static constexpr unsigned int BJPNOIICLHH_TypeDefinitionIndex = 42004;
+inline static constexpr unsigned int BJPNOIICLHH_TypeDefinitionIndex = 42979;
 
 	class BJPNOIICLHH : public ::System::Object
 	{

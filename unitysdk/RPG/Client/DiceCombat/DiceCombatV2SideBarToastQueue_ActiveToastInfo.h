@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastItem; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_ACTIVETOASTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCCA76C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_ACTIVETOASTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C53BFE0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue_ActiveToastInfo_TypeDefinitionIndex = 76213;
+	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue_ActiveToastInfo_TypeDefinitionIndex = 78540;
 
 	class DiceCombatV2SideBarToastQueue_ActiveToastInfo : public ::System::Object
 	{

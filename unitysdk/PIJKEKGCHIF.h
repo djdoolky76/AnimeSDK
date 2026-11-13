@@ -7,21 +7,21 @@ namespace RPG::GameCore { class StartEffectAim; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Transform; }
 
-#define PIJKEKGCHIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC2624F0)
-#define PIJKEKGCHIF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC262500)
-#define PIJKEKGCHIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC262540)
-#define PIJKEKGCHIF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC262A00)
-#define PIJKEKGCHIF_TICK_OFFSET UNITYSDK_OFFSET(0xC262A50)
+#define PIJKEKGCHIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9CEA40)
+#define PIJKEKGCHIF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A9CEA50)
+#define PIJKEKGCHIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9CEA90)
+#define PIJKEKGCHIF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A9CEF50)
+#define PIJKEKGCHIF_TICK_OFFSET UNITYSDK_OFFSET(0x1A9CEFA0)
 
-inline static constexpr unsigned int PIJKEKGCHIF_TypeDefinitionIndex = 55661;
+inline static constexpr unsigned int PIJKEKGCHIF_TypeDefinitionIndex = 56859;
 
 	class PIJKEKGCHIF : public ::GELIALJDFBL
 	{
 	public:
-		::UnityEngine::Transform* LPEOHKHOLEP; // 0x18
-		::RPG::GameCore::StartEffectAim* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::NEOCEOCDEAF* BICMFAKJPCI; // 0x30
+		::RPG::GameCore::StartEffectAim* OFKGLJOAMLD; // 0x18
+		::UnityEngine::Transform* LPEOHKHOLEP; // 0x20
+		::NEOCEOCDEAF* BICMFAKJPCI; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
 		::UnityEngine::Quaternion KHDDKPNOAMK; // 0x38
 		::UnityEngine::Quaternion MGFPKGIOKEN; // 0x48
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StartEffectAim* a2)

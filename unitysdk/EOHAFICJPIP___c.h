@@ -4,18 +4,18 @@
 class EOHAFICJPIP;
 namespace System { class Object; }
 
-#define EOHAFICJPIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2CE7E0)
-#define EOHAFICJPIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2CE820)
-#define EOHAFICJPIP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E2CE830)
+#define EOHAFICJPIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD83510)
+#define EOHAFICJPIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD83550)
+#define EOHAFICJPIP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FD83560)
 
-inline static constexpr unsigned int EOHAFICJPIP___c_TypeDefinitionIndex = 31202;
+inline static constexpr unsigned int EOHAFICJPIP___c_TypeDefinitionIndex = 32115;
 
 	class EOHAFICJPIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x468B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EEF0);
 		}
 
 		static ::System::Void _cctor()

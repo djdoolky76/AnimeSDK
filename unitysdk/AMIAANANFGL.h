@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DestroyPropTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMIAANANFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x15576130)
-#define AMIAANANFGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15576160)
+#define AMIAANANFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x197DC140)
+#define AMIAANANFGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197DC170)
 
-inline static constexpr unsigned int AMIAANANFGL_TypeDefinitionIndex = 58078;
+inline static constexpr unsigned int AMIAANANFGL_TypeDefinitionIndex = 59317;
 
 	class AMIAANANFGL
 	{

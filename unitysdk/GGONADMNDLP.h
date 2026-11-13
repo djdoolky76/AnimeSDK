@@ -4,17 +4,17 @@
 class FCOEMCEDLNL;
 class GGONADMNDLP;
 
-#define GGONADMNDLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE15A90)
-#define GGONADMNDLP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE15950)
+#define GGONADMNDLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E637610)
+#define GGONADMNDLP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6374D0)
 
-inline static constexpr unsigned int GGONADMNDLP_TypeDefinitionIndex = 14762;
+inline static constexpr unsigned int GGONADMNDLP_TypeDefinitionIndex = 14918;
 
 	class GGONADMNDLP : public ::System::Object
 	{
 	public:
-		::System::UInt32 FFAIBNDHOBI; // 0x10
+		::System::UInt32 EFGMPBPHGPA; // 0x10
 		::System::UInt32 DICDMGODBCF; // 0x14
-		::System::UInt32 EFGMPBPHGPA; // 0x18
+		::System::UInt32 FFAIBNDHOBI; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GGONADMNDLP_CTOR_OFFSET))(this);

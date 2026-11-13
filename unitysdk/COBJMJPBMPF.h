@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/System/Object.h"
 
-#define COBJMJPBMPF_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0xDCAA9E0)
+#define COBJMJPBMPF_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x1915B9F0)
 
-inline static constexpr unsigned int COBJMJPBMPF_TypeDefinitionIndex = 53641;
+inline static constexpr unsigned int COBJMJPBMPF_TypeDefinitionIndex = 54805;
 
 	class COBJMJPBMPF : public ::System::Object
 	{

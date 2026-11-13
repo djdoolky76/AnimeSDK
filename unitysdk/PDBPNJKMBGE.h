@@ -3,10 +3,10 @@
 class EPBCMDMCIJE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PDBPNJKMBGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC004510)
-#define PDBPNJKMBGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC004540)
+#define PDBPNJKMBGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AADCDF0)
+#define PDBPNJKMBGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AADCE20)
 
-inline static constexpr unsigned int PDBPNJKMBGE_TypeDefinitionIndex = 55740;
+inline static constexpr unsigned int PDBPNJKMBGE_TypeDefinitionIndex = 56942;
 
 	class PDBPNJKMBGE
 	{

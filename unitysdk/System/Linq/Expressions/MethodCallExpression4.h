@@ -7,10 +7,10 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class MethodCallExpression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE01400)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1EE01480)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EE01530)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EE01540)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_CTOR_OFFSET UNITYSDK_OFFSET(0x1F790550)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1F7905D0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1F790680)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1F790690)
 
 namespace System::Linq::Expressions
 {
@@ -19,10 +19,10 @@ namespace System::Linq::Expressions
 	class MethodCallExpression4 : public ::System::Linq::Expressions::MethodCallExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg3; // 0x18
-		::System::Linq::Expressions::Expression* _arg2; // 0x20
+		::System::Linq::Expressions::Expression* _arg1; // 0x18
+		::System::Linq::Expressions::Expression* _arg3; // 0x20
 		::System::Object* _arg0; // 0x28
-		::System::Linq::Expressions::Expression* _arg1; // 0x30
+		::System::Linq::Expressions::Expression* _arg2; // 0x30
 		::System::Void _ctor(::System::Reflection::MethodInfo* a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3, ::System::Linq::Expressions::Expression* a4, ::System::Linq::Expressions::Expression* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

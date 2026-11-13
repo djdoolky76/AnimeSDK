@@ -7,29 +7,29 @@ namespace RVO { class RVOAgent; }
 namespace RVO { class Simulator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RVO_RVOMANAGER_ADDOBSTACLE_OFFSET UNITYSDK_OFFSET(0xB0936B0)
-#define RVO_RVOMANAGER_ALLOCAGENT_OFFSET UNITYSDK_OFFSET(0xB093450)
-#define RVO_RVOMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xB094CB0)
-#define RVO_RVOMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xB0928C0)
-#define RVO_RVOMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB092C30)
-#define RVO_RVOMANAGER_GET_SIMULATOR_OFFSET UNITYSDK_OFFSET(0xB094CA0)
-#define RVO_RVOMANAGER_PROCESSOBSTACLES_OFFSET UNITYSDK_OFFSET(0xB094C50)
-#define RVO_RVOMANAGER_RELEASEAGENT_OFFSET UNITYSDK_OFFSET(0xB093590)
-#define RVO_RVOMANAGER_SIMULATE_OFFSET UNITYSDK_OFFSET(0xB092F90)
+#define RVO_RVOMANAGER_ADDOBSTACLE_OFFSET UNITYSDK_OFFSET(0x1CF3AC60)
+#define RVO_RVOMANAGER_ALLOCAGENT_OFFSET UNITYSDK_OFFSET(0x1CF3AA00)
+#define RVO_RVOMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF3C260)
+#define RVO_RVOMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF39E70)
+#define RVO_RVOMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CF3A1E0)
+#define RVO_RVOMANAGER_GET_SIMULATOR_OFFSET UNITYSDK_OFFSET(0x1CF3C250)
+#define RVO_RVOMANAGER_PROCESSOBSTACLES_OFFSET UNITYSDK_OFFSET(0x1CF3C200)
+#define RVO_RVOMANAGER_RELEASEAGENT_OFFSET UNITYSDK_OFFSET(0x1CF3AB40)
+#define RVO_RVOMANAGER_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1CF3A540)
 
 namespace RVO
 {
-	inline static constexpr unsigned int RVOManager_TypeDefinitionIndex = 46033;
+	inline static constexpr unsigned int RVOManager_TypeDefinitionIndex = 47062;
 
 	class RVOManager : public ::System::Object
 	{
 	public:
-		::RVO::Simulator* _Simulator; // 0x10
-		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _AgentPool; // 0x18
-		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _Agents; // 0x20
+		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _AgentPool; // 0x10
+		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _Agents; // 0x18
+		::RVO::Simulator* _Simulator; // 0x20
 		static ::RVO::RVOAgentParam* StaticGet_InvalidParam()
 		{
-			return (::RVO::RVOAgentParam*)UnitySDK::FromName("RVO", "RVOManager")->GetStaticField(0xB350);
+			return (::RVO::RVOAgentParam*)UnitySDK::FromName("RVO", "RVOManager")->GetStaticField(0x9560);
 		}
 
 		::System::Void _ctor()

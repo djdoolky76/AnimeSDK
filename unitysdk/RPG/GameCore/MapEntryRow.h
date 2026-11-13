@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapEntryRow; }
 
-#define RPG_GAMECORE_MAPENTRYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FE090)
-#define RPG_GAMECORE_MAPENTRYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7FC980)
+#define RPG_GAMECORE_MAPENTRYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F088130)
+#define RPG_GAMECORE_MAPENTRYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F086A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapEntryRow_TypeDefinitionIndex = 14058;
+	inline static constexpr unsigned int MapEntryRow_TypeDefinitionIndex = 14215;
 
 	class MapEntryRow : public ::System::Object
 	{
@@ -19,11 +19,11 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* FinishSubMissionList; // 0x18
 		::Il2CppArray<::System::UInt32>* FinishMainMissionList; // 0x20
 		::System::UInt32 ID; // 0x28
-		::System::UInt32 StartGroupID; // 0x2C
-		::System::UInt32 PlaneID; // 0x30
-		::System::UInt32 StartAnchorID; // 0x34
-		::RPG::GameCore::MapEntryType EntranceType; // 0x38
-		::System::UInt32 FloorID; // 0x3C
+		::System::UInt32 FloorID; // 0x2C
+		::System::UInt32 StartAnchorID; // 0x30
+		::System::UInt32 StartGroupID; // 0x34
+		::System::UInt32 PlaneID; // 0x38
+		::RPG::GameCore::MapEntryType EntranceType; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPENTRYROW_CTOR_OFFSET))(this);

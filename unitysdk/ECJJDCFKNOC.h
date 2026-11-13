@@ -3,10 +3,10 @@
 class AFFPPNMGCMF;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ECJJDCFKNOC_CTOR_OFFSET UNITYSDK_OFFSET(0x12D0BA50)
-#define ECJJDCFKNOC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12D0BA80)
+#define ECJJDCFKNOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3DB240)
+#define ECJJDCFKNOC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C3DB270)
 
-inline static constexpr unsigned int ECJJDCFKNOC_TypeDefinitionIndex = 54163;
+inline static constexpr unsigned int ECJJDCFKNOC_TypeDefinitionIndex = 55327;
 
 	class ECJJDCFKNOC
 	{

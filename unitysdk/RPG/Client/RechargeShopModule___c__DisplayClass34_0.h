@@ -5,12 +5,12 @@
 namespace RPG::Client { class RechargeShopModule; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE4EA00)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_0__BUYGIFT_B__0_OFFSET UNITYSDK_OFFSET(0xDE4F590)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0748B0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_0__BUYGIFT_B__0_OFFSET UNITYSDK_OFFSET(0x1D075440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass34_0_TypeDefinitionIndex = 66799;
+	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass34_0_TypeDefinitionIndex = 68735;
 
 	class RechargeShopModule___c__DisplayClass34_0 : public ::System::Object
 	{

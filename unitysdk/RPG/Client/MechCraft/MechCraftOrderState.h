@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft
 {
-	inline static constexpr unsigned int MechCraftOrderState_TypeDefinitionIndex = 41658;
+	inline static constexpr unsigned int MechCraftOrderState_TypeDefinitionIndex = 42633;
 
 	enum class MechCraftOrderState : ::System::Int32
 	{

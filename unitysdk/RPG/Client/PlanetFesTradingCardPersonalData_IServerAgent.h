@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesTradingCardPersonalData_IServerAgent_TypeDefinitionIndex = 66586;
+	inline static constexpr unsigned int PlanetFesTradingCardPersonalData_IServerAgent_TypeDefinitionIndex = 68522;
 
 	class PlanetFesTradingCardPersonalData_IServerAgent
 	{

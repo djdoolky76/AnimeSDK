@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LPCANKBCPBD_LuaDataInvokeType_TypeDefinitionIndex = 65787;
+inline static constexpr unsigned int LPCANKBCPBD_LuaDataInvokeType_TypeDefinitionIndex = 67719;
 
 	enum class LPCANKBCPBD_LuaDataInvokeType : ::System::Int32
 	{

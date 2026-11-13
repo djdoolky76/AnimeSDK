@@ -5,16 +5,16 @@ class EEFNMFGDGMA;
 class MIBPJLAGBLD;
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 
-#define MIBPJLAGBLD___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB94A9F0)
-#define MIBPJLAGBLD___C__DISPLAYCLASS9_0___TRYSHOWLOANPERFORMENCE_B__0_OFFSET UNITYSDK_OFFSET(0xB94B550)
+#define MIBPJLAGBLD___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A38A580)
+#define MIBPJLAGBLD___C__DISPLAYCLASS9_0___TRYSHOWLOANPERFORMENCE_B__0_OFFSET UNITYSDK_OFFSET(0x1A38B0E0)
 
-inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass9_0_TypeDefinitionIndex = 76463;
+inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass9_0_TypeDefinitionIndex = 78794;
 
 	class MIBPJLAGBLD___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MIBPJLAGBLD* __4__this; // 0x10
-		::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x18
+		::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x10
+		::MIBPJLAGBLD* __4__this; // 0x18
 		::EEFNMFGDGMA* loanServerSyncData; // 0x20
 		::System::Void _ctor()
 		{

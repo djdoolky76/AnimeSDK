@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x1F3F69C0)
+#define UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x1F527620)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionInfo_TypeDefinitionIndex = 4812;
+	inline static constexpr unsigned int ReflectionInfo_TypeDefinitionIndex = 4816;
 
 	struct alignas(4) ReflectionInfo
 	{

@@ -7,30 +7,31 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleRandomBuffRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLERANDOMBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D817A40)
-#define RPG_GAMECORE_MARBLERANDOMBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D817510)
+#define RPG_GAMECORE_MARBLERANDOMBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4BEB0)
+#define RPG_GAMECORE_MARBLERANDOMBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB4B980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleRandomBuffRow_TypeDefinitionIndex = 11882;
+	inline static constexpr unsigned int MarbleRandomBuffRow_TypeDefinitionIndex = 11939;
 
 	class MarbleRandomBuffRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* ConditionList; // 0x18
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x20
-		::RPG::Client::TextID Name; // 0x28
-		::RPG::Client::TextID Desc; // 0x38
-		::System::UInt32 EffectType; // 0x48
-		::System::UInt32 IsRepeat; // 0x4C
-		::System::UInt32 ActivityID; // 0x50
-		::System::UInt32 ID; // 0x54
-		::RPG::GameCore::MultiPlayerGameMode GameMode; // 0x58
-		::System::UInt32 SetInactive; // 0x5C
-		::System::UInt32 EffectParam; // 0x60
-		::System::Int32 Weight; // 0x64
-		::System::UInt32 UnlockSubMission; // 0x68
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
+		::System::String* IconPath; // 0x18
+		::Il2CppArray<::System::UInt32>* ConditionList; // 0x20
+		::System::UInt32 EffectParam; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::RPG::GameCore::MultiPlayerGameMode GameMode; // 0x30
+		::System::UInt32 IsRepeat; // 0x34
+		::System::UInt32 EffectType; // 0x38
+		::System::UInt32 ActivityID; // 0x3C
+		::System::Int32 Weight; // 0x40
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Name; // 0x48
+		::RPG::Client::TextID Desc; // 0x58
+		::System::UInt32 SetInactive; // 0x68
+		::System::UInt32 UnlockSubMission; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLERANDOMBUFFROW_CTOR_OFFSET))(this);

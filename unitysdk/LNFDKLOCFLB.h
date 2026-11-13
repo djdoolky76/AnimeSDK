@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Camera; }
 
-#define LNFDKLOCFLB_HOGBJMPBIFA_OFFSET UNITYSDK_OFFSET(0xB7D6B90)
+#define LNFDKLOCFLB_HOGBJMPBIFA_OFFSET UNITYSDK_OFFSET(0x1A588B00)
 
-inline static constexpr unsigned int LNFDKLOCFLB_TypeDefinitionIndex = 69609;
+inline static constexpr unsigned int LNFDKLOCFLB_TypeDefinitionIndex = 71566;
 
 	class LNFDKLOCFLB : public ::System::Object
 	{

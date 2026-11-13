@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class MiniGameHundredFloorBlockConfig; }
 
-#define CBNFPLDINOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AEAA0)
+#define CBNFPLDINOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D96B0)
 
-inline static constexpr unsigned int CBNFPLDINOK_TypeDefinitionIndex = 43393;
+inline static constexpr unsigned int CBNFPLDINOK_TypeDefinitionIndex = 44374;
 
 	class CBNFPLDINOK : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 class NDPFOOJIAIJ;
 namespace System { class String; }
 
-#define EOGNAMMDLNF_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x155B46B0)
-#define EOGNAMMDLNF_CTOR_OFFSET UNITYSDK_OFFSET(0x155B4950)
+#define EOGNAMMDLNF_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x16B22A60)
+#define EOGNAMMDLNF_CTOR_OFFSET UNITYSDK_OFFSET(0x16B22D00)
 
-inline static constexpr unsigned int EOGNAMMDLNF_TypeDefinitionIndex = 64977;
+inline static constexpr unsigned int EOGNAMMDLNF_TypeDefinitionIndex = 66574;
 
 	class EOGNAMMDLNF : public ::System::Object
 	{

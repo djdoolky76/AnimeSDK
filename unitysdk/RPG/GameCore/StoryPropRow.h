@@ -5,20 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StoryPropRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYPROPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAFB700)
-#define RPG_GAMECORE_STORYPROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAFB4E0)
+#define RPG_GAMECORE_STORYPROPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3CE2D0)
+#define RPG_GAMECORE_STORYPROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3CE0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryPropRow_TypeDefinitionIndex = 15184;
+	inline static constexpr unsigned int StoryPropRow_TypeDefinitionIndex = 15340;
 
 	class StoryPropRow : public ::System::Object
 	{
 	public:
-		::System::String* StoryCharacterModelPath; // 0x10
-		::System::String* StoryCharacterUniqueName; // 0x18
-		::System::String* ConfigEntityPath; // 0x20
-		::System::String* StoryCharacterID; // 0x28
+		::System::String* ConfigEntityPath; // 0x10
+		::System::String* StoryCharacterID; // 0x18
+		::System::String* StoryCharacterUniqueName; // 0x20
+		::System::String* StoryCharacterModelPath; // 0x28
 		::System::String* JsonPath; // 0x30
 		::System::UInt32 PropID; // 0x38
 		::System::Void _ctor()

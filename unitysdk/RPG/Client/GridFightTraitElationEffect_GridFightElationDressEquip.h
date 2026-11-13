@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTELATIONDRESSEQUIP_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B2D00)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTELATIONDRESSEQUIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FBE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightElationDressEquip_TypeDefinitionIndex = 65385;
+	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightElationDressEquip_TypeDefinitionIndex = 67178;
 
 	class GridFightTraitElationEffect_GridFightElationDressEquip : public ::System::Object
 	{
 	public:
-		::System::UInt32 SlotIndex; // 0x10
-		::System::UInt32 EquipUID; // 0x14
+		::System::UInt32 EquipUID; // 0x10
+		::System::UInt32 SlotIndex; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTELATIONDRESSEQUIP_CTOR_OFFSET))(this);

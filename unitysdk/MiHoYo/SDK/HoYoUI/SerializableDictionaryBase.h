@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_HOYOUI_SERIALIZABLEDICTIONARYBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFAF190)
+#define MIHOYO_SDK_HOYOUI_SERIALIZABLEDICTIONARYBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2E36A0)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int SerializableDictionaryBase_TypeDefinitionIndex = 46729;
+	inline static constexpr unsigned int SerializableDictionaryBase_TypeDefinitionIndex = 47757;
 
 	class SerializableDictionaryBase : public ::System::Object
 	{

@@ -7,19 +7,19 @@ namespace RPG::Client { class TeamBuildSynopsis; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GIKFAOJHKOL_BJAMFLGEBMI_OFFSET UNITYSDK_OFFSET(0x15A35350)
-#define GIKFAOJHKOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15A35060)
-#define GIKFAOJHKOL_GET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x15A355B0)
-#define GIKFAOJHKOL_LBKCMJJFKOG_OFFSET UNITYSDK_OFFSET(0x15A350B0)
-#define GIKFAOJHKOL_SET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x15A355C0)
+#define GIKFAOJHKOL_BJAMFLGEBMI_OFFSET UNITYSDK_OFFSET(0x1A3E5BB0)
+#define GIKFAOJHKOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E58C0)
+#define GIKFAOJHKOL_GET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x1A3E5E10)
+#define GIKFAOJHKOL_LBKCMJJFKOG_OFFSET UNITYSDK_OFFSET(0x1A3E5910)
+#define GIKFAOJHKOL_SET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x1A3E5E20)
 
-inline static constexpr unsigned int GIKFAOJHKOL_TypeDefinitionIndex = 61893;
+inline static constexpr unsigned int GIKFAOJHKOL_TypeDefinitionIndex = 63300;
 
 	class GIKFAOJHKOL : public ::System::Object
 	{
 	public:
-		::RPG::Client::TeamBuildCalculator* BPDDDIBIIGE; // 0x10
-		::MGODMMLBALG* _PlayerReturnTrialAvatarInfoProvider_k__BackingField; // 0x18
+		::MGODMMLBALG* _PlayerReturnTrialAvatarInfoProvider_k__BackingField; // 0x10
+		::RPG::Client::TeamBuildCalculator* BPDDDIBIIGE; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_CTOR_OFFSET))(this);

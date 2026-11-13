@@ -3,10 +3,10 @@
 class JFJOPDOIKKC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILFMJGCAJLI_CTOR_OFFSET UNITYSDK_OFFSET(0x164A2E40)
-#define ILFMJGCAJLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164A2E70)
+#define ILFMJGCAJLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B593930)
+#define ILFMJGCAJLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B593960)
 
-inline static constexpr unsigned int ILFMJGCAJLI_TypeDefinitionIndex = 53940;
+inline static constexpr unsigned int ILFMJGCAJLI_TypeDefinitionIndex = 55104;
 
 	class ILFMJGCAJLI
 	{

@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETATTRIBUTECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD62EF30)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETATTRIBUTECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD62EF70)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETATTRIBUTECONTROL___C___BINDICON_B__3_0_OFFSET UNITYSDK_OFFSET(0xD62EF80)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETATTRIBUTECONTROL___C___BINDTEXT_B__4_0_OFFSET UNITYSDK_OFFSET(0xD62EFA0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETATTRIBUTECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DECE8E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETATTRIBUTECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DECE920)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETATTRIBUTECONTROL___C___BINDICON_B__3_0_OFFSET UNITYSDK_OFFSET(0x1DECE930)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETATTRIBUTECONTROL___C___BINDTEXT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1DECE950)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftTargetAttributeControl___c_TypeDefinitionIndex = 79947;
+	inline static constexpr unsigned int MechCraftCraftTargetAttributeControl___c_TypeDefinitionIndex = 82724;
 
 	class MechCraftCraftTargetAttributeControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::ACHNEAMCCEC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__3_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::ACHNEAMCCEC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x49DE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x5E7B0);
 		}
 
 		static ::System::Func_2<::ACHNEAMCCEC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::ACHNEAMCCEC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x49DE8);
+			return (::System::Func_2<::ACHNEAMCCEC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x5E7B8);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::ACHNEAMCCEC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__3_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x49DF0);
+			return (::System::Func_2<::ACHNEAMCCEC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x5E7C0);
 		}
 
 		static ::System::Void _cctor()

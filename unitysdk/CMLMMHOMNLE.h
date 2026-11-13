@@ -3,9 +3,9 @@
 #include "unitysdk/CMLMMHOMNLE_InspectType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CMLMMHOMNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC83380)
+#define CMLMMHOMNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB82BD0)
 
-inline static constexpr unsigned int CMLMMHOMNLE_TypeDefinitionIndex = 25039;
+inline static constexpr unsigned int CMLMMHOMNLE_TypeDefinitionIndex = 25517;
 
 	class CMLMMHOMNLE : public ::System::Attribute
 	{

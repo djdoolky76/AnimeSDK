@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RecordOperation; }
 namespace RPG::GameCore { class TutorialOperationRecord; }
 
-#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3F990)
-#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC3F8A0)
+#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2B510)
+#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED2B420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialOperationRecord_TypeDefinitionIndex = 18205;
+	inline static constexpr unsigned int TutorialOperationRecord_TypeDefinitionIndex = 18367;
 
 	class TutorialOperationRecord : public ::RPG::GameCore::JsonConfig
 	{

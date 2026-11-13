@@ -4,21 +4,21 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_WEB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEE4C90)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_WEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE4C80)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_WEB_HANDLEWEBCLOSECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BEE4B00)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_WEB_OPENURLINBROWSER_OFFSET UNITYSDK_OFFSET(0x1BED7BA0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_WEB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0DD720)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_WEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0DD710)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_WEB_HANDLEWEBCLOSECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B0DD590)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_WEB_OPENURLINBROWSER_OFFSET UNITYSDK_OFFSET(0x1B0D0600)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int Web_TypeDefinitionIndex = 8776;
+	inline static constexpr unsigned int Web_TypeDefinitionIndex = 8785;
 
 	class Web : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet_webCloseCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "Web")->GetStaticField(0x18910);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "Web")->GetStaticField(0x10BD0);
 		}
 
 		::System::Void _ctor()

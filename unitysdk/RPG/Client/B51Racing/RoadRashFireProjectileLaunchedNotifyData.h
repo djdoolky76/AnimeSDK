@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_ROADRASHFIREPROJECTILELAUNCHEDNOTIFYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC7CB400)
+#define RPG_CLIENT_B51RACING_ROADRASHFIREPROJECTILELAUNCHEDNOTIFYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA8B620)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashFireProjectileLaunchedNotifyData_TypeDefinitionIndex = 81675;
+	inline static constexpr unsigned int RoadRashFireProjectileLaunchedNotifyData_TypeDefinitionIndex = 84456;
 
 	class RoadRashFireProjectileLaunchedNotifyData : public ::System::Object
 	{

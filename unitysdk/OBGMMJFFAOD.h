@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MemberToMemberEntityDataAdapter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OBGMMJFFAOD_CTOR_OFFSET UNITYSDK_OFFSET(0xBD38F80)
-#define OBGMMJFFAOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD38FB0)
+#define OBGMMJFFAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB80140)
+#define OBGMMJFFAOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AB80170)
 
-inline static constexpr unsigned int OBGMMJFFAOD_TypeDefinitionIndex = 53019;
+inline static constexpr unsigned int OBGMMJFFAOD_TypeDefinitionIndex = 54178;
 
 	class OBGMMJFFAOD
 	{

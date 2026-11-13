@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsElfRestaurantRecipeCooked; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FECAIIABJNE_CTOR_OFFSET UNITYSDK_OFFSET(0x156D8E10)
-#define FECAIIABJNE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156D8E50)
+#define FECAIIABJNE_CTOR_OFFSET UNITYSDK_OFFSET(0x130891F0)
+#define FECAIIABJNE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13089230)
 
-inline static constexpr unsigned int FECAIIABJNE_TypeDefinitionIndex = 54653;
+inline static constexpr unsigned int FECAIIABJNE_TypeDefinitionIndex = 55819;
 
 	class FECAIIABJNE
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define DIIKKFFLFJM_CTOR_OFFSET UNITYSDK_OFFSET(0xF205AA0)
+#define DIIKKFFLFJM_CTOR_OFFSET UNITYSDK_OFFSET(0x18EBFF60)
 
-inline static constexpr unsigned int DIIKKFFLFJM_TypeDefinitionIndex = 57582;
+inline static constexpr unsigned int DIIKKFFLFJM_TypeDefinitionIndex = 58810;
 
 	class DIIKKFFLFJM : public ::System::Attribute
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AKEOHKIGEHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C85D020)
+#define AKEOHKIGEHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D861380)
 
-inline static constexpr unsigned int AKEOHKIGEHL_TypeDefinitionIndex = 43793;
+inline static constexpr unsigned int AKEOHKIGEHL_TypeDefinitionIndex = 44868;
 
 	class AKEOHKIGEHL : public ::System::Object
 	{

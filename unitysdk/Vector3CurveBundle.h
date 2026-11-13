@@ -6,9 +6,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define VECTOR3CURVEBUNDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBAF8C0)
+#define VECTOR3CURVEBUNDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2ABFC0)
 
-inline static constexpr unsigned int Vector3CurveBundle_TypeDefinitionIndex = 43983;
+inline static constexpr unsigned int Vector3CurveBundle_TypeDefinitionIndex = 45058;
 
 	class Vector3CurveBundle : public ::System::Object
 	{

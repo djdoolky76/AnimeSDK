@@ -6,103 +6,103 @@ namespace Google::Protobuf { class CodedOutputStream; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_FIELDCODEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B835F00)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B835F30)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORBOOL_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B835F80)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORBOOL_B__2_1_OFFSET UNITYSDK_OFFSET(0x1B835FB0)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORDOUBLE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B836130)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORDOUBLE_B__14_1_OFFSET UNITYSDK_OFFSET(0x1B836160)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORFLOAT_B__13_0_OFFSET UNITYSDK_OFFSET(0x1B8360F0)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORFLOAT_B__13_1_OFFSET UNITYSDK_OFFSET(0x1B836110)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_0_OFFSET UNITYSDK_OFFSET(0x1B836010)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_1_OFFSET UNITYSDK_OFFSET(0x1B836030)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B835F40)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_1_OFFSET UNITYSDK_OFFSET(0x1B835F60)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORUINT32_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B836070)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORUINT32_B__7_1_OFFSET UNITYSDK_OFFSET(0x1B836090)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORUINT64_B__12_0_OFFSET UNITYSDK_OFFSET(0x1B8360B0)
-#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORUINT64_B__12_1_OFFSET UNITYSDK_OFFSET(0x1B8360D0)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEAD250)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAD280)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORBOOL_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BEAD2D0)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORBOOL_B__2_1_OFFSET UNITYSDK_OFFSET(0x1BEAD300)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORDOUBLE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1BEAD480)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORDOUBLE_B__14_1_OFFSET UNITYSDK_OFFSET(0x1BEAD4B0)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORFLOAT_B__13_0_OFFSET UNITYSDK_OFFSET(0x1BEAD440)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORFLOAT_B__13_1_OFFSET UNITYSDK_OFFSET(0x1BEAD460)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_0_OFFSET UNITYSDK_OFFSET(0x1BEAD360)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_1_OFFSET UNITYSDK_OFFSET(0x1BEAD380)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_0_OFFSET UNITYSDK_OFFSET(0x1BEAD290)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_1_OFFSET UNITYSDK_OFFSET(0x1BEAD2B0)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORUINT32_B__7_0_OFFSET UNITYSDK_OFFSET(0x1BEAD3C0)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORUINT32_B__7_1_OFFSET UNITYSDK_OFFSET(0x1BEAD3E0)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORUINT64_B__12_0_OFFSET UNITYSDK_OFFSET(0x1BEAD400)
+#define GOOGLE_PROTOBUF_FIELDCODEC___C__FORUINT64_B__12_1_OFFSET UNITYSDK_OFFSET(0x1BEAD420)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec___c_TypeDefinitionIndex = 5380;
+	inline static constexpr unsigned int FieldCodec___c_TypeDefinitionIndex = 5385;
 
 	class FieldCodec___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9__3_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DFF0);
-		}
-
-		static ::System::Object** StaticGet___9__12_0()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1DFF8);
-		}
-
-		static ::System::Object** StaticGet___9__0_0()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E000);
-		}
-
-		static ::System::Object** StaticGet___9__3_0()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E008);
-		}
-
-		static ::System::Object** StaticGet___9__7_1()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E010);
-		}
-
-		static ::System::Object** StaticGet___9__14_1()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E018);
-		}
-
-		static ::System::Object** StaticGet___9__12_1()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E020);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D570);
 		}
 
 		static ::System::Object** StaticGet___9__2_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E028);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D578);
 		}
 
-		static ::System::Object** StaticGet___9__7_0()
+		static ::System::Object** StaticGet___9__7_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E030);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E038);
-		}
-
-		static ::System::Object** StaticGet___9__13_1()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E040);
-		}
-
-		static ::System::Object** StaticGet___9__14_0()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E048);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D580);
 		}
 
 		static ::System::Object** StaticGet___9__2_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E050);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D588);
 		}
 
 		static ::System::Object** StaticGet___9__13_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E058);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D590);
+		}
+
+		static ::System::Object** StaticGet___9__12_0()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D598);
+		}
+
+		static ::System::Object** StaticGet___9__0_0()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5A0);
 		}
 
 		static ::System::Object** StaticGet___9__0_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1E060);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5A8);
+		}
+
+		static ::System::Object** StaticGet___9__14_1()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5B0);
+		}
+
+		static ::System::Object** StaticGet___9__3_1()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5B8);
+		}
+
+		static ::System::Object** StaticGet___9__13_1()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5C0);
+		}
+
+		static ::System::Object** StaticGet___9__7_0()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5C8);
+		}
+
+		static ::System::Object** StaticGet___9__12_1()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5D0);
+		}
+
+		static ::System::Object** StaticGet___9__14_0()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5D8);
+		}
+
+		static ::System::Object** StaticGet___9__3_0()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1D5E0);
 		}
 
 		static ::System::Void _cctor()

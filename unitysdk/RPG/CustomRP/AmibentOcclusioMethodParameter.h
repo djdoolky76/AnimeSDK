@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CUSTOMRP_AMIBENTOCCLUSIOMETHODPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBF870)
+#define RPG_CUSTOMRP_AMIBENTOCCLUSIOMETHODPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B3340)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AmibentOcclusioMethodParameter_TypeDefinitionIndex = 37784;
+	inline static constexpr unsigned int AmibentOcclusioMethodParameter_TypeDefinitionIndex = 38713;
 
 	class AmibentOcclusioMethodParameter
 	{

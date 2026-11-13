@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetRogueTournFloorType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKLKBLAJCOB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A95C00)
-#define GKLKBLAJCOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A95C30)
+#define GKLKBLAJCOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8DCC40)
+#define GKLKBLAJCOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A8DCC70)
 
-inline static constexpr unsigned int GKLKBLAJCOB_TypeDefinitionIndex = 55475;
+inline static constexpr unsigned int GKLKBLAJCOB_TypeDefinitionIndex = 56663;
 
 	class GKLKBLAJCOB
 	{

@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xE3C6EA0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_GET_OFFSET UNITYSDK_OFFSET(0xE3C6580)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_GIVEBACK_OFFSET UNITYSDK_OFFSET(0xE3C66C0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_NEW_OFFSET UNITYSDK_OFFSET(0xE3C72F0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_PRELOAD_OFFSET UNITYSDK_OFFSET(0xE3C6F00)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x175A6AB0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x175A61A0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_GIVEBACK_OFFSET UNITYSDK_OFFSET(0x175A62D0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_NEW_OFFSET UNITYSDK_OFFSET(0x175A6EF0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINTPOOL_PRELOAD_OFFSET UNITYSDK_OFFSET(0x175A6B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UINPCWarningTipsContainer_WaypointPool_TypeDefinitionIndex = 69106;
+	inline static constexpr unsigned int UINPCWarningTipsContainer_WaypointPool_TypeDefinitionIndex = 71059;
 
 	class UINPCWarningTipsContainer_WaypointPool : public ::System::Object
 	{
 	public:
-		::UnityEngine::Object* Prefab; // 0x10
-		::System::Collections::Generic::Stack_1<::System::Object*>* Waypoints; // 0x18
+		::System::Collections::Generic::Stack_1<::System::Object*>* Waypoints; // 0x10
+		::UnityEngine::Object* Prefab; // 0x18
 		::System::String* PrefabPath; // 0x20
 		::System::Void _ctor()
 		{

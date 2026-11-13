@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BCIAMPIIHPF.h"
 
-#define AEBMIFOGFEN_CONFIAMBBBC_OFFSET UNITYSDK_OFFSET(0xB149A30)
-#define AEBMIFOGFEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB149A70)
+#define AEBMIFOGFEN_CONFIAMBBBC_OFFSET UNITYSDK_OFFSET(0x182B98B0)
+#define AEBMIFOGFEN_CTOR_OFFSET UNITYSDK_OFFSET(0x182B98F0)
 
-inline static constexpr unsigned int AEBMIFOGFEN_TypeDefinitionIndex = 70638;
+inline static constexpr unsigned int AEBMIFOGFEN_TypeDefinitionIndex = 72615;
 
 	class AEBMIFOGFEN : public ::BCIAMPIIHPF
 	{

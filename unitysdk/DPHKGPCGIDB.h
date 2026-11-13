@@ -4,10 +4,10 @@
 class AOBICCEGAMM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DPHKGPCGIDB_CTOR_OFFSET UNITYSDK_OFFSET(0x12639740)
-#define DPHKGPCGIDB_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x12639610)
+#define DPHKGPCGIDB_CTOR_OFFSET UNITYSDK_OFFSET(0x191C7ED0)
+#define DPHKGPCGIDB_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x191C7DA0)
 
-inline static constexpr unsigned int DPHKGPCGIDB_TypeDefinitionIndex = 67150;
+inline static constexpr unsigned int DPHKGPCGIDB_TypeDefinitionIndex = 69094;
 
 	class DPHKGPCGIDB : public ::System::Object
 	{

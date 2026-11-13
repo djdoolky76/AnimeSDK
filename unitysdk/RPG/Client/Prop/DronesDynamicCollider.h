@@ -4,13 +4,13 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_DRONESDYNAMICCOLLIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0xDC90CD0)
-#define RPG_CLIENT_PROP_DRONESDYNAMICCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC90ED0)
-#define RPG_CLIENT_PROP_DRONESDYNAMICCOLLIDER_SWITCH_OFFSET UNITYSDK_OFFSET(0xDC90D70)
+#define RPG_CLIENT_PROP_DRONESDYNAMICCOLLIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A506820)
+#define RPG_CLIENT_PROP_DRONESDYNAMICCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1A506A20)
+#define RPG_CLIENT_PROP_DRONESDYNAMICCOLLIDER_SWITCH_OFFSET UNITYSDK_OFFSET(0x1A5068C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesDynamicCollider_TypeDefinitionIndex = 78561;
+	inline static constexpr unsigned int DronesDynamicCollider_TypeDefinitionIndex = 81296;
 
 	class DronesDynamicCollider : public ::UnityEngine::MonoBehaviour
 	{

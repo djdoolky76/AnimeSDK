@@ -9,49 +9,49 @@ namespace TMPro { class TMP_Text; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define TMPRO_TMP_DEFAULTCONTROLS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2C0D00)
-#define TMPRO_TMP_DEFAULTCONTROLS_CREATEBUTTON_OFFSET UNITYSDK_OFFSET(0x1F2BD230)
-#define TMPRO_TMP_DEFAULTCONTROLS_CREATEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1F2BEE90)
-#define TMPRO_TMP_DEFAULTCONTROLS_CREATEINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x1F2BD840)
-#define TMPRO_TMP_DEFAULTCONTROLS_CREATESCROLLBAR_OFFSET UNITYSDK_OFFSET(0x1F2BCD10)
-#define TMPRO_TMP_DEFAULTCONTROLS_CREATETEXT_OFFSET UNITYSDK_OFFSET(0x1F2BD760)
-#define TMPRO_TMP_DEFAULTCONTROLS_CREATEUIELEMENTROOT_OFFSET UNITYSDK_OFFSET(0x1F2BC920)
-#define TMPRO_TMP_DEFAULTCONTROLS_CREATEUIOBJECT_OFFSET UNITYSDK_OFFSET(0x1F2BC990)
-#define TMPRO_TMP_DEFAULTCONTROLS_SETDEFAULTCOLORTRANSITIONVALUES_OFFSET UNITYSDK_OFFSET(0x1F2BCC00)
-#define TMPRO_TMP_DEFAULTCONTROLS_SETDEFAULTTEXTVALUES_OFFSET UNITYSDK_OFFSET(0x1F2BCB70)
-#define TMPRO_TMP_DEFAULTCONTROLS_SETLAYERRECURSIVELY_OFFSET UNITYSDK_OFFSET(0x1F2BCC20)
-#define TMPRO_TMP_DEFAULTCONTROLS_SETPARENTANDALIGN_OFFSET UNITYSDK_OFFSET(0x1F2BCAC0)
+#define TMPRO_TMP_DEFAULTCONTROLS_CCTOR_OFFSET UNITYSDK_OFFSET(0x19B94060)
+#define TMPRO_TMP_DEFAULTCONTROLS_CREATEBUTTON_OFFSET UNITYSDK_OFFSET(0x19B90590)
+#define TMPRO_TMP_DEFAULTCONTROLS_CREATEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x19B921F0)
+#define TMPRO_TMP_DEFAULTCONTROLS_CREATEINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x19B90BA0)
+#define TMPRO_TMP_DEFAULTCONTROLS_CREATESCROLLBAR_OFFSET UNITYSDK_OFFSET(0x19B90070)
+#define TMPRO_TMP_DEFAULTCONTROLS_CREATETEXT_OFFSET UNITYSDK_OFFSET(0x19B90AC0)
+#define TMPRO_TMP_DEFAULTCONTROLS_CREATEUIELEMENTROOT_OFFSET UNITYSDK_OFFSET(0x19B8FC80)
+#define TMPRO_TMP_DEFAULTCONTROLS_CREATEUIOBJECT_OFFSET UNITYSDK_OFFSET(0x19B8FCF0)
+#define TMPRO_TMP_DEFAULTCONTROLS_SETDEFAULTCOLORTRANSITIONVALUES_OFFSET UNITYSDK_OFFSET(0x19B8FF60)
+#define TMPRO_TMP_DEFAULTCONTROLS_SETDEFAULTTEXTVALUES_OFFSET UNITYSDK_OFFSET(0x19B8FED0)
+#define TMPRO_TMP_DEFAULTCONTROLS_SETLAYERRECURSIVELY_OFFSET UNITYSDK_OFFSET(0x19B8FF80)
+#define TMPRO_TMP_DEFAULTCONTROLS_SETPARENTANDALIGN_OFFSET UNITYSDK_OFFSET(0x19B8FE20)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_DefaultControls_TypeDefinitionIndex = 44558;
+	inline static constexpr unsigned int TMP_DefaultControls_TypeDefinitionIndex = 45633;
 
 	class TMP_DefaultControls : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Color* StaticGet_s_TextColor()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x12D90);
-		}
-
-		static ::UnityEngine::Color* StaticGet_s_DefaultSelectableColor()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x12DA0);
-		}
-
-		static ::UnityEngine::Vector2* StaticGet_s_ThinElementSize()
-		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x12DB0);
-		}
-
-		static ::UnityEngine::Vector2* StaticGet_s_ThickElementSize()
-		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x12DB8);
+			return (::UnityEngine::Color*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x14D10);
 		}
 
 		static ::UnityEngine::Vector2* StaticGet_s_TextElementSize()
 		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x12DC0);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x14D20);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_DefaultSelectableColor()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x14D28);
+		}
+
+		static ::UnityEngine::Vector2* StaticGet_s_ThinElementSize()
+		{
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x14D38);
+		}
+
+		static ::UnityEngine::Vector2* StaticGet_s_ThickElementSize()
+		{
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("TMPro", "TMP_DefaultControls")->GetStaticField(0x14D40);
 		}
 
 		// static const ::System::Object kWidth; // 0x0

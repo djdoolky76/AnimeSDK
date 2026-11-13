@@ -7,11 +7,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 class GPFEAEOEGFA_ExtraExportData;
 
-#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE956C50)
+#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA42A20)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 49103;
+	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 50179;
 
 	class BillboardController_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

@@ -4,18 +4,18 @@
 class COAKAAHCAJO;
 namespace System { class Object; }
 
-#define COAKAAHCAJO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E103570)
-#define COAKAAHCAJO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1035B0)
-#define COAKAAHCAJO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1035C0)
+#define COAKAAHCAJO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204D9410)
+#define COAKAAHCAJO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204D9450)
+#define COAKAAHCAJO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x204D9460)
 
-inline static constexpr unsigned int COAKAAHCAJO___c_TypeDefinitionIndex = 31441;
+inline static constexpr unsigned int COAKAAHCAJO___c_TypeDefinitionIndex = 32354;
 
 	class COAKAAHCAJO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DC60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17420);
 		}
 
 		static ::System::Void _cctor()

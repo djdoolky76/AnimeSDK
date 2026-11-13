@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CBNEGAKPIJI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D9D8C60)
-#define CBNEGAKPIJI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9D9230)
-#define CBNEGAKPIJI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D9D8DD0)
-#define CBNEGAKPIJI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D9D86D0)
-#define CBNEGAKPIJI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D9D8960)
-#define CBNEGAKPIJI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D9D8E70)
-#define CBNEGAKPIJI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D9D8EC0)
-#define CBNEGAKPIJI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D9D8CA0)
-#define CBNEGAKPIJI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D9D8900)
-#define CBNEGAKPIJI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D9D8AD0)
-#define CBNEGAKPIJI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9D8D30)
-#define CBNEGAKPIJI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9D8650)
+#define CBNEGAKPIJI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1EB16AE0)
+#define CBNEGAKPIJI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB170B0)
+#define CBNEGAKPIJI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1EB16C50)
+#define CBNEGAKPIJI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1EB16550)
+#define CBNEGAKPIJI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1EB167E0)
+#define CBNEGAKPIJI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1EB16CF0)
+#define CBNEGAKPIJI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1EB16D40)
+#define CBNEGAKPIJI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1EB16B20)
+#define CBNEGAKPIJI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1EB16780)
+#define CBNEGAKPIJI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1EB16950)
+#define CBNEGAKPIJI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1EB16BB0)
+#define CBNEGAKPIJI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EB164D0)
 
-inline static constexpr unsigned int CBNEGAKPIJI_TypeDefinitionIndex = 13345;
+inline static constexpr unsigned int CBNEGAKPIJI_TypeDefinitionIndex = 13417;
 
 	class CBNEGAKPIJI : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0x38E90);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GMAccountItemConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GMAccountItemConfigRow*>**)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0x38E98);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0x50790);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0x38EA0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0x50798);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GMAccountItemConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0xB7F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GMAccountItemConfigRow*>**)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0x507A0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0xB7F1);
+			return (::System::Byte*)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0x11730);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CBNEGAKPIJI")->GetStaticField(0x11731);
 		}
 
 		static ::System::Void _cctor()

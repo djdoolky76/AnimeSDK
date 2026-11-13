@@ -4,10 +4,10 @@
 class ECNEEKNHIOE;
 namespace RPG::GameCore { class GameEntity; }
 
-#define LDMBNFAMCOI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB637330)
-#define LDMBNFAMCOI___C__DISPLAYCLASS6_0___REFRESHSUMMONLINK_B__0_OFFSET UNITYSDK_OFFSET(0xB6374D0)
+#define LDMBNFAMCOI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC99760)
+#define LDMBNFAMCOI___C__DISPLAYCLASS6_0___REFRESHSUMMONLINK_B__0_OFFSET UNITYSDK_OFFSET(0x1AC99900)
 
-inline static constexpr unsigned int LDMBNFAMCOI___c__DisplayClass6_0_TypeDefinitionIndex = 81004;
+inline static constexpr unsigned int LDMBNFAMCOI___c__DisplayClass6_0_TypeDefinitionIndex = 83784;
 
 	class LDMBNFAMCOI___c__DisplayClass6_0 : public ::System::Object
 	{

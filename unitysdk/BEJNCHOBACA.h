@@ -3,9 +3,9 @@
 #include "unitysdk/BILMKGHAIOC.h"
 #include "unitysdk/System/Object.h"
 
-#define BEJNCHOBACA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88A700)
+#define BEJNCHOBACA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B4ED0)
 
-inline static constexpr unsigned int BEJNCHOBACA_TypeDefinitionIndex = 42776;
+inline static constexpr unsigned int BEJNCHOBACA_TypeDefinitionIndex = 43755;
 
 	class BEJNCHOBACA : public ::System::Object
 	{

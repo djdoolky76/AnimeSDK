@@ -14,28 +14,28 @@ namespace RPG::Client { class RogueMagicUnitDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IBMKMANFGNO_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x15E345C0)
-#define IBMKMANFGNO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E34390)
-#define IBMKMANFGNO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E34490)
-#define IBMKMANFGNO_DMEKAAEPJHE_OFFSET UNITYSDK_OFFSET(0x15E34B00)
-#define IBMKMANFGNO_GETALLSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0x15E359F0)
-#define IBMKMANFGNO_GETLOCKEDUNITS_OFFSET UNITYSDK_OFFSET(0x15E359B0)
-#define IBMKMANFGNO_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0x15E35A70)
-#define IBMKMANFGNO_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0x15E358D0)
-#define IBMKMANFGNO_JLDMHKBIPAA_OFFSET UNITYSDK_OFFSET(0x15E34660)
-#define IBMKMANFGNO_LNJBKOHLEDO_OFFSET UNITYSDK_OFFSET(0x15E35040)
-#define IBMKMANFGNO_PHCNFKPFCOM_OFFSET UNITYSDK_OFFSET(0x15E35940)
+#define IBMKMANFGNO_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x188BE870)
+#define IBMKMANFGNO_CTOR_OFFSET UNITYSDK_OFFSET(0x188BE640)
+#define IBMKMANFGNO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x188BE740)
+#define IBMKMANFGNO_DMEKAAEPJHE_OFFSET UNITYSDK_OFFSET(0x188BEDB0)
+#define IBMKMANFGNO_GETALLSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0x188BFCA0)
+#define IBMKMANFGNO_GETLOCKEDUNITS_OFFSET UNITYSDK_OFFSET(0x188BFC60)
+#define IBMKMANFGNO_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0x188BFD20)
+#define IBMKMANFGNO_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0x188BFB80)
+#define IBMKMANFGNO_JLDMHKBIPAA_OFFSET UNITYSDK_OFFSET(0x188BE910)
+#define IBMKMANFGNO_LNJBKOHLEDO_OFFSET UNITYSDK_OFFSET(0x188BF2F0)
+#define IBMKMANFGNO_PHCNFKPFCOM_OFFSET UNITYSDK_OFFSET(0x188BFBF0)
 
-inline static constexpr unsigned int IBMKMANFGNO_TypeDefinitionIndex = 67419;
+inline static constexpr unsigned int IBMKMANFGNO_TypeDefinitionIndex = 69363;
 
 	class IBMKMANFGNO : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>, ::System::UInt32>* LMKAMANCJOD; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* MHCEPJECNGO; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* BKADBEIPNJC; // 0x20
-		::RPG::Client::RogueMagicScepterInfo* OLOCIGECHBG; // 0x28
-		::RPG::Client::RogueMagicScepterDataItem* PAKNADCNPMB; // 0x30
+		::RPG::Client::RogueMagicScepterDataItem* PAKNADCNPMB; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* BKADBEIPNJC; // 0x28
+		::RPG::Client::RogueMagicScepterInfo* OLOCIGECHBG; // 0x30
 		::System::Void _ctor(::RPG::Client::RogueMagicScepterInfo* a1, ::RPG::Client::RogueMagicScepterDataItem* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueMagicScepterInfo*, ::RPG::Client::RogueMagicScepterDataItem*))((::PBYTE)hIl2Cpp + IBMKMANFGNO_CTOR_OFFSET))(this, a1, a2);

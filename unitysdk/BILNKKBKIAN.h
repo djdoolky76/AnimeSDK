@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define BILNKKBKIAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB781420)
+#define BILNKKBKIAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC4060)
 
-inline static constexpr unsigned int BILNKKBKIAN_TypeDefinitionIndex = 71572;
+inline static constexpr unsigned int BILNKKBKIAN_TypeDefinitionIndex = 73559;
 
 	class BILNKKBKIAN : public ::System::Object
 	{

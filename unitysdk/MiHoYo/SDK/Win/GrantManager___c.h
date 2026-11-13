@@ -6,37 +6,37 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD238C0)
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD23900)
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C__SHOWGRANTPHONEPLUGINUI_B__20_4_OFFSET UNITYSDK_OFFSET(0x1BD23910)
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C__SHOWOVERSEAGRANTMAILPLUGINUI_B__22_1_OFFSET UNITYSDK_OFFSET(0x1BD23AC0)
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C__SHOWOVERSEAGRANTPHONEPLUGINUI_B__24_1_OFFSET UNITYSDK_OFFSET(0x1BD23D20)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17276870)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x172768B0)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C__SHOWGRANTPHONEPLUGINUI_B__20_4_OFFSET UNITYSDK_OFFSET(0x172768C0)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C__SHOWOVERSEAGRANTMAILPLUGINUI_B__22_1_OFFSET UNITYSDK_OFFSET(0x17276A70)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C__SHOWOVERSEAGRANTPHONEPLUGINUI_B__24_1_OFFSET UNITYSDK_OFFSET(0x17276CD0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GrantManager___c_TypeDefinitionIndex = 9365;
+	inline static constexpr unsigned int GrantManager___c_TypeDefinitionIndex = 9373;
 
 	class GrantManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__24_1()
+		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__22_1()
 		{
-			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x31780);
+			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2A110);
 		}
 
 		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__20_4()
 		{
-			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x31788);
-		}
-
-		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__22_1()
-		{
-			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x31790);
+			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2A118);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x31798);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2A120);
+		}
+
+		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__24_1()
+		{
+			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2A128);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleEnemyEnergyBarViewModel_TypeDefinitionIndex = 80857;
+	inline static constexpr unsigned int IFateRinBattleEnemyEnergyBarViewModel_TypeDefinitionIndex = 83637;
 
 	class IFateRinBattleEnemyEnergyBarViewModel
 	{

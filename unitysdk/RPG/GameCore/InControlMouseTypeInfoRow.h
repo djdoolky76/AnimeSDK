@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class InControlMouseTypeInfoRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INCONTROLMOUSETYPEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D758040)
-#define RPG_GAMECORE_INCONTROLMOUSETYPEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D757A60)
+#define RPG_GAMECORE_INCONTROLMOUSETYPEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE90E90)
+#define RPG_GAMECORE_INCONTROLMOUSETYPEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE908B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InControlMouseTypeInfoRow_TypeDefinitionIndex = 13819;
+	inline static constexpr unsigned int InControlMouseTypeInfoRow_TypeDefinitionIndex = 13976;
 
 	class InControlMouseTypeInfoRow : public ::System::Object
 	{

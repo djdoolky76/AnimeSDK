@@ -4,18 +4,18 @@
 class CNLOBEKDKGL;
 namespace System { class Object; }
 
-#define CNLOBEKDKGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0DE160)
-#define CNLOBEKDKGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0DE190)
-#define CNLOBEKDKGL___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E0DE1A0)
+#define CNLOBEKDKGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205F3220)
+#define CNLOBEKDKGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205F3250)
+#define CNLOBEKDKGL___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x205F3260)
 
-inline static constexpr unsigned int CNLOBEKDKGL___c_TypeDefinitionIndex = 28191;
+inline static constexpr unsigned int CNLOBEKDKGL___c_TypeDefinitionIndex = 28781;
 
 	class CNLOBEKDKGL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D300);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16A80);
 		}
 
 		static ::System::Void _cctor()

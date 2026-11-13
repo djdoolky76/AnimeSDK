@@ -4,11 +4,11 @@ namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class ST_ByHasAdvBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMHFEPMLOGM_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBA930)
-#define DMHFEPMLOGM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFEBAAA0)
-#define DMHFEPMLOGM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEBA9F0)
+#define DMHFEPMLOGM_CTOR_OFFSET UNITYSDK_OFFSET(0x18698950)
+#define DMHFEPMLOGM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18698AC0)
+#define DMHFEPMLOGM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18698A10)
 
-inline static constexpr unsigned int DMHFEPMLOGM_TypeDefinitionIndex = 52194;
+inline static constexpr unsigned int DMHFEPMLOGM_TypeDefinitionIndex = 53299;
 
 	class DMHFEPMLOGM
 	{

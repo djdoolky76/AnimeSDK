@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MATERIALGROUPASSET_CTOR_OFFSET UNITYSDK_OFFSET(0xD5CC750)
+#define RPG_CLIENT_MATERIALGROUPASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D727A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialGroupAsset_TypeDefinitionIndex = 69844;
+	inline static constexpr unsigned int MaterialGroupAsset_TypeDefinitionIndex = 71803;
 
 	class MaterialGroupAsset : public ::UnityEngine::ScriptableObject
 	{

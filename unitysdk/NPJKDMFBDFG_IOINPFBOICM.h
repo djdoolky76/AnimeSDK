@@ -3,9 +3,9 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NPJKDMFBDFG_IOINPFBOICM_CTOR_OFFSET UNITYSDK_OFFSET(0x10400)
+#define NPJKDMFBDFG_IOINPFBOICM_CTOR_OFFSET UNITYSDK_OFFSET(0x6516D0)
 
-inline static constexpr unsigned int NPJKDMFBDFG_IOINPFBOICM_TypeDefinitionIndex = 49428;
+inline static constexpr unsigned int NPJKDMFBDFG_IOINPFBOICM_TypeDefinitionIndex = 50504;
 
 	struct alignas(8) NPJKDMFBDFG_IOINPFBOICM
 	{

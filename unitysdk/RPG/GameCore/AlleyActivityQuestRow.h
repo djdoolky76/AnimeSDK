@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyActivityQuestRow; }
 
-#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B1E00)
-#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B1C10)
+#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE971C0)
+#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DE96FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyActivityQuestRow_TypeDefinitionIndex = 12634;
+	inline static constexpr unsigned int AlleyActivityQuestRow_TypeDefinitionIndex = 12701;
 
 	class AlleyActivityQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 SubTab; // 0x1C
+		::System::UInt32 SubTab; // 0x18
+		::System::UInt32 ID; // 0x1C
 		::RPG::Client::TextID MainTabTitle; // 0x20
 		::System::Void _ctor()
 		{

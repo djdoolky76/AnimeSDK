@@ -4,10 +4,10 @@
 class LCOKLOGEKEL;
 namespace RPG::Client { class IRogueTournGameSettleResultComposition; }
 
-#define ADLLDJHEMDM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB143D90)
-#define ADLLDJHEMDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB143E50)
+#define ADLLDJHEMDM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x182B38F0)
+#define ADLLDJHEMDM_CTOR_OFFSET UNITYSDK_OFFSET(0x182B39B0)
 
-inline static constexpr unsigned int ADLLDJHEMDM_TypeDefinitionIndex = 67842;
+inline static constexpr unsigned int ADLLDJHEMDM_TypeDefinitionIndex = 69787;
 
 	class ADLLDJHEMDM : public ::System::Object
 	{

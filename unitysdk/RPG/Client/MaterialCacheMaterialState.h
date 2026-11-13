@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialCacheMaterialState_TypeDefinitionIndex = 69833;
+	inline static constexpr unsigned int MaterialCacheMaterialState_TypeDefinitionIndex = 71792;
 
 	enum class MaterialCacheMaterialState : ::System::Int32
 	{

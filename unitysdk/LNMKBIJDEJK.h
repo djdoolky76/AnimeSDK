@@ -5,16 +5,17 @@
 class FCOEMCEDLNL;
 class LNMKBIJDEJK;
 
-#define LNMKBIJDEJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F0D50)
-#define LNMKBIJDEJK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0F0BD0)
+#define LNMKBIJDEJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E41A9F0)
+#define LNMKBIJDEJK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E41A870)
 
-inline static constexpr unsigned int LNMKBIJDEJK_TypeDefinitionIndex = 13907;
+inline static constexpr unsigned int LNMKBIJDEJK_TypeDefinitionIndex = 14064;
 
 	class LNMKBIJDEJK : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID JFKMCIFGHLK; // 0x10
-		::System::UInt32 HIHLLBFEONI; // 0x20
+		::System::UInt32 HIHLLBFEONI; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID JFKMCIFGHLK; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LNMKBIJDEJK_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 #include "unitysdk/KDEKNFKEEMB.h"
 namespace RPG::GameCore { class FloorTargetAgentConfig; }
 
-#define HNJFDEEHPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8F330)
-#define HNJFDEEHPLD_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x15D8F360)
+#define HNJFDEEHPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A372E90)
+#define HNJFDEEHPLD_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x1A372EC0)
 
-inline static constexpr unsigned int HNJFDEEHPLD_TypeDefinitionIndex = 62089;
+inline static constexpr unsigned int HNJFDEEHPLD_TypeDefinitionIndex = 63502;
 
 	class HNJFDEEHPLD
 	{

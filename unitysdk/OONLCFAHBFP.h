@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/SnowballPuzzleBlockType.h"
 
-#define OONLCFAHBFP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x25BE0)
+#define OONLCFAHBFP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3E3A190)
 
-inline static constexpr unsigned int OONLCFAHBFP_TypeDefinitionIndex = 78867;
+inline static constexpr unsigned int OONLCFAHBFP_TypeDefinitionIndex = 81638;
 
 	struct alignas(4) OONLCFAHBFP
 	{

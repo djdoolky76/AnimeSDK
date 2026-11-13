@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define ANIM_CHJKJPDBNAH_OFFSET UNITYSDK_OFFSET(0x15BB88F0)
-#define ANIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB89E0)
-#define ANIM_JNMBPDMIEOL_OFFSET UNITYSDK_OFFSET(0x15BB8990)
-#define ANIM_MPFAHKMNKOM_OFFSET UNITYSDK_OFFSET(0x15BB8940)
+#define ANIM_CHJKJPDBNAH_OFFSET UNITYSDK_OFFSET(0x1851E4D0)
+#define ANIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1851E5C0)
+#define ANIM_JNMBPDMIEOL_OFFSET UNITYSDK_OFFSET(0x1851E570)
+#define ANIM_MPFAHKMNKOM_OFFSET UNITYSDK_OFFSET(0x1851E520)
 
-inline static constexpr unsigned int Anim_TypeDefinitionIndex = 47145;
+inline static constexpr unsigned int Anim_TypeDefinitionIndex = 48173;
 
 	class Anim : public ::System::Object
 	{

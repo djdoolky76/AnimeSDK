@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_POPIMAGEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7EEA0)
+#define MIHOYO_SDK_POPIMAGEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF90C10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopImageModel_TypeDefinitionIndex = 8260;
+	inline static constexpr unsigned int PopImageModel_TypeDefinitionIndex = 8269;
 
 	class PopImageModel : public ::System::Object
 	{

@@ -5,25 +5,25 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8A3780)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A37C0)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C__GET__VALIDDAYOPTIONS_B__4_0_OFFSET UNITYSDK_OFFSET(0xC8A37D0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C572250)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C572290)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C__GET__VALIDDAYOPTIONS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C5722A0)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradePublishOrderInfo___c_TypeDefinitionIndex = 74891;
+	inline static constexpr unsigned int BlindBoxTradePublishOrderInfo___c_TypeDefinitionIndex = 77218;
 
 	class BlindBoxTradePublishOrderInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x642B0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x642B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x698F0);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x698F8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 class FCFHBICBEKD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BEMIACBDOIC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1562A0)
-#define BEMIACBDOIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1562D0)
+#define BEMIACBDOIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A94BCF0)
+#define BEMIACBDOIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A94BD20)
 
-inline static constexpr unsigned int BEMIACBDOIC_TypeDefinitionIndex = 58810;
+inline static constexpr unsigned int BEMIACBDOIC_TypeDefinitionIndex = 60078;
 
 	class BEMIACBDOIC
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MEBHANNGPLJ_TypeDefinitionIndex = 25871;
+inline static constexpr unsigned int MEBHANNGPLJ_TypeDefinitionIndex = 26368;
 
 	enum class MEBHANNGPLJ : ::System::Int32
 	{

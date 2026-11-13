@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureCharacterFloatingTemplateConfig; }
 namespace RPG::GameCore { class AdventureCharacterFloatingTemplateConfigs; }
 
-#define RPG_GAMECORE_ADVENTURECHARACTERFLOATINGTEMPLATECONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3999D0)
-#define RPG_GAMECORE_ADVENTURECHARACTERFLOATINGTEMPLATECONFIGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D399910)
+#define RPG_GAMECORE_ADVENTURECHARACTERFLOATINGTEMPLATECONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FB010)
+#define RPG_GAMECORE_ADVENTURECHARACTERFLOATINGTEMPLATECONFIGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FAF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterFloatingTemplateConfigs_TypeDefinitionIndex = 17489;
+	inline static constexpr unsigned int AdventureCharacterFloatingTemplateConfigs_TypeDefinitionIndex = 17657;
 
 	class AdventureCharacterFloatingTemplateConfigs : public ::RPG::GameCore::JsonConfig
 	{

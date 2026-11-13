@@ -3,7 +3,7 @@
 class FiveDimRenderingItem;
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int BDMGLFNMFBD_JNKFEDGHOIB_TypeDefinitionIndex = 79116;
+inline static constexpr unsigned int BDMGLFNMFBD_JNKFEDGHOIB_TypeDefinitionIndex = 81892;
 
 	struct alignas(8) BDMGLFNMFBD_JNKFEDGHOIB
 	{

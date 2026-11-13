@@ -4,7 +4,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int BuffersExtensions_TypeDefinitionIndex = 4993;
+	inline static constexpr unsigned int BuffersExtensions_TypeDefinitionIndex = 4998;
 
 	class BuffersExtensions : public ::System::Object
 	{

@@ -9,30 +9,30 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LFKFJKMGOGH_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB679EC0)
-#define LFKFJKMGOGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB679E90)
-#define LFKFJKMGOGH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB679EE0)
-#define LFKFJKMGOGH_GET_NEXT_OFFSET UNITYSDK_OFFSET(0xB67A0D0)
-#define LFKFJKMGOGH_GET_PREV_OFFSET UNITYSDK_OFFSET(0xB67A0B0)
-#define LFKFJKMGOGH_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xB67A100)
-#define LFKFJKMGOGH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB67A110)
-#define LFKFJKMGOGH_MDOFJHCLPAC_OFFSET UNITYSDK_OFFSET(0xB67A0F0)
-#define LFKFJKMGOGH_SET_NEXT_OFFSET UNITYSDK_OFFSET(0xB67A0E0)
-#define LFKFJKMGOGH_SET_PREV_OFFSET UNITYSDK_OFFSET(0xB67A0C0)
+#define LFKFJKMGOGH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x18C5FAF0)
+#define LFKFJKMGOGH_CTOR_OFFSET UNITYSDK_OFFSET(0x18C5FAC0)
+#define LFKFJKMGOGH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C5FB10)
+#define LFKFJKMGOGH_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x18C5FD00)
+#define LFKFJKMGOGH_GET_PREV_OFFSET UNITYSDK_OFFSET(0x18C5FCE0)
+#define LFKFJKMGOGH_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x18C5FD30)
+#define LFKFJKMGOGH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x18C5FD40)
+#define LFKFJKMGOGH_MDOFJHCLPAC_OFFSET UNITYSDK_OFFSET(0x18C5FD20)
+#define LFKFJKMGOGH_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x18C5FD10)
+#define LFKFJKMGOGH_SET_PREV_OFFSET UNITYSDK_OFFSET(0x18C5FCF0)
 
-inline static constexpr unsigned int LFKFJKMGOGH_TypeDefinitionIndex = 54104;
+inline static constexpr unsigned int LFKFJKMGOGH_TypeDefinitionIndex = 55268;
 
 	class LFKFJKMGOGH : public ::System::Object
 	{
 	public:
-		::HNNOKOOEPEK* _Next_k__BackingField; // 0x10
-		::HNNOKOOEPEK* _Prev_k__BackingField; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::TaskConfig*>* JKJPFJALGKO; // 0x28
-		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* PBNCOAFHEIJ; // 0x30
+		::HNNOKOOEPEK* _Prev_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* PBNCOAFHEIJ; // 0x18
+		::HNNOKOOEPEK* _Next_k__BackingField; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::TaskConfig*>* JKJPFJALGKO; // 0x30
 		::System::Int32 BGOLHKLOFIN; // 0x38
-		::System::Int32 EKNMMBFJHHF; // 0x3C
-		::System::Int32 BOCOKNFLKID; // 0x40
+		::System::Int32 BOCOKNFLKID; // 0x3C
+		::System::Int32 EKNMMBFJHHF; // 0x40
 		::System::Void _ctor(::System::Int32 a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::SequenceConfig* a3, ::System::Int32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SequenceConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + LFKFJKMGOGH_CTOR_OFFSET))(this, a1, a2, a3, a4);

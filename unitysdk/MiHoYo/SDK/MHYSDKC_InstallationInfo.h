@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_InstallationInfo_TypeDefinitionIndex = 46247;
+	inline static constexpr unsigned int MHYSDKC_InstallationInfo_TypeDefinitionIndex = 47276;
 
 	class MHYSDKC_InstallationInfo : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinActionIntentType_TypeDefinitionIndex = 10547;
+	inline static constexpr unsigned int FateRinActionIntentType_TypeDefinitionIndex = 10558;
 
 	enum class FateRinActionIntentType : ::System::Int32
 	{

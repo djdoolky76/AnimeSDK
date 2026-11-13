@@ -5,10 +5,10 @@
 class PMNODEHAEDC;
 namespace RPG::GameCore { class AlleyBaseGridItemData; }
 
-#define PMNODEHAEDC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC321040)
-#define PMNODEHAEDC_CTOR_OFFSET UNITYSDK_OFFSET(0xC3210C0)
+#define PMNODEHAEDC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1849BD30)
+#define PMNODEHAEDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1849BDB0)
 
-inline static constexpr unsigned int PMNODEHAEDC_TypeDefinitionIndex = 62298;
+inline static constexpr unsigned int PMNODEHAEDC_TypeDefinitionIndex = 63711;
 
 	class PMNODEHAEDC : public ::System::Object
 	{

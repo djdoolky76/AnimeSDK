@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9207B0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C76B6C0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SpeedLineTimelineClip_TypeDefinitionIndex = 48617;
+	inline static constexpr unsigned int SpeedLineTimelineClip_TypeDefinitionIndex = 49658;
 
 	class SpeedLineTimelineClip
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PerformanceEndSeq; }
 namespace RPG::GameCore { class PerformanceResultCase; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PERFORMANCEENDSEQ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CE540)
-#define RPG_GAMECORE_PERFORMANCEENDSEQ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8CE550)
-#define RPG_GAMECORE_PERFORMANCEENDSEQ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8CE510)
+#define RPG_GAMECORE_PERFORMANCEENDSEQ_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1505A0)
+#define RPG_GAMECORE_PERFORMANCEENDSEQ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F1505B0)
+#define RPG_GAMECORE_PERFORMANCEENDSEQ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F150570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceEndSeq_TypeDefinitionIndex = 21244;
+	inline static constexpr unsigned int PerformanceEndSeq_TypeDefinitionIndex = 21587;
 
 	class PerformanceEndSeq : public ::RPG::GameCore::TaskConfig
 	{

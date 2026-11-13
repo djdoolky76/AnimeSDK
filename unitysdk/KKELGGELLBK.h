@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideCharacterFilteredEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKELGGELLBK_CTOR_OFFSET UNITYSDK_OFFSET(0xB4B4B80)
-#define KKELGGELLBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4B4BB0)
+#define KKELGGELLBK_CTOR_OFFSET UNITYSDK_OFFSET(0x17341860)
+#define KKELGGELLBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17341890)
 
-inline static constexpr unsigned int KKELGGELLBK_TypeDefinitionIndex = 55091;
+inline static constexpr unsigned int KKELGGELLBK_TypeDefinitionIndex = 56268;
 
 	class KKELGGELLBK
 	{

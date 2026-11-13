@@ -3,10 +3,10 @@
 class HEIMKDBGIOM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AIPBGNKFOKA_CTOR_OFFSET UNITYSDK_OFFSET(0x12CAA5D0)
-#define AIPBGNKFOKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CAA600)
+#define AIPBGNKFOKA_CTOR_OFFSET UNITYSDK_OFFSET(0x19D306F0)
+#define AIPBGNKFOKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D30720)
 
-inline static constexpr unsigned int AIPBGNKFOKA_TypeDefinitionIndex = 53004;
+inline static constexpr unsigned int AIPBGNKFOKA_TypeDefinitionIndex = 54163;
 
 	class AIPBGNKFOKA
 	{

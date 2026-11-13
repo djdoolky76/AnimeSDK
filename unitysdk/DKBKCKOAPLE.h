@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareAliveEnemyNumber; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DKBKCKOAPLE_CTOR_OFFSET UNITYSDK_OFFSET(0xF24F990)
-#define DKBKCKOAPLE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF24F9C0)
+#define DKBKCKOAPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x18C0A950)
+#define DKBKCKOAPLE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18C0A980)
 
-inline static constexpr unsigned int DKBKCKOAPLE_TypeDefinitionIndex = 54512;
+inline static constexpr unsigned int DKBKCKOAPLE_TypeDefinitionIndex = 55677;
 
 	class DKBKCKOAPLE
 	{

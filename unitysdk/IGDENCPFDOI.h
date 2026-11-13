@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IGDENCPFDOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB47260)
+#define IGDENCPFDOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC340D0)
 
-inline static constexpr unsigned int IGDENCPFDOI_TypeDefinitionIndex = 42451;
+inline static constexpr unsigned int IGDENCPFDOI_TypeDefinitionIndex = 43426;
 
 	class IGDENCPFDOI : public ::System::Object
 	{

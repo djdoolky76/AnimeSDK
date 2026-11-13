@@ -4,12 +4,12 @@
 namespace Cinemachine { class CinemachineComposer; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 
-#define RPG_CLIENT_VCAMERALOOKATCENTERFITUI_AWAKE_OFFSET UNITYSDK_OFFSET(0xE4345B0)
-#define RPG_CLIENT_VCAMERALOOKATCENTERFITUI_CTOR_OFFSET UNITYSDK_OFFSET(0xE434790)
+#define RPG_CLIENT_VCAMERALOOKATCENTERFITUI_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC62910)
+#define RPG_CLIENT_VCAMERALOOKATCENTERFITUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC62AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VCameraLookAtCenterFitUI_TypeDefinitionIndex = 68321;
+	inline static constexpr unsigned int VCameraLookAtCenterFitUI_TypeDefinitionIndex = 70267;
 
 	class VCameraLookAtCenterFitUI : public ::UnityEngine::MonoBehaviour
 	{

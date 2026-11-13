@@ -7,11 +7,11 @@ class MDJFAJMPODL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define MDJFAJMPODL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D11B770)
-#define MDJFAJMPODL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D11B780)
-#define MDJFAJMPODL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D11B730)
+#define MDJFAJMPODL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB91AF0)
+#define MDJFAJMPODL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1BB91B00)
+#define MDJFAJMPODL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1BB91AB0)
 
-inline static constexpr unsigned int MDJFAJMPODL_TypeDefinitionIndex = 19914;
+inline static constexpr unsigned int MDJFAJMPODL_TypeDefinitionIndex = 20243;
 
 	class MDJFAJMPODL : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,10 @@ inline static constexpr unsigned int MDJFAJMPODL_TypeDefinitionIndex = 19914;
 		::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* DNCFBGANPCD; // 0x28
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* LADICPOACOE; // 0x30
-		::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x38
+		::System::Boolean HNMFDELHIEK; // 0x38
+		::System::Byte _padding0[0x1];
 		::RPG::GameCore::FateRinCardPileType JKODDAJDOJO; // 0x3A
-		::System::Boolean HNMFDELHIEK; // 0x3C
+		::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDJFAJMPODL_CTOR_OFFSET))(this);

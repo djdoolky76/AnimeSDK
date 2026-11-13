@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsUIPageOpen; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CINBNAPDDEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCF873A0)
-#define CINBNAPDDEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF873D0)
+#define CINBNAPDDEM_CTOR_OFFSET UNITYSDK_OFFSET(0x16E63630)
+#define CINBNAPDDEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16E63660)
 
-inline static constexpr unsigned int CINBNAPDDEM_TypeDefinitionIndex = 52602;
+inline static constexpr unsigned int CINBNAPDDEM_TypeDefinitionIndex = 53709;
 
 	class CINBNAPDDEM
 	{

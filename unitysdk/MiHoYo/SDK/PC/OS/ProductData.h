@@ -5,11 +5,11 @@ namespace MiHoYo::SDK::PC::OS { class EpicProductExtension; }
 namespace MiHoYo::SDK::PC::OS { class XboxProductExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PRODUCTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF17740)
+#define MIHOYO_SDK_PC_OS_PRODUCTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF93DE0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int ProductData_TypeDefinitionIndex = 8598;
+	inline static constexpr unsigned int ProductData_TypeDefinitionIndex = 8607;
 
 	class ProductData : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PenaconyEndmostChronicleData; }
 
-#define LKDKHJOKHBH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB726FA0)
-#define LKDKHJOKHBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB727250)
+#define LKDKHJOKHBH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18CCF840)
+#define LKDKHJOKHBH_CTOR_OFFSET UNITYSDK_OFFSET(0x18CCFAF0)
 
-inline static constexpr unsigned int LKDKHJOKHBH_TypeDefinitionIndex = 66102;
+inline static constexpr unsigned int LKDKHJOKHBH_TypeDefinitionIndex = 68035;
 
 	class LKDKHJOKHBH : public ::System::Object
 	{

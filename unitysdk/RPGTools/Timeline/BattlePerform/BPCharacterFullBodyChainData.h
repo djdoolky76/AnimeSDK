@@ -6,17 +6,18 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERFULLBODYCHAINDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8AD000)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERFULLBODYCHAINDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DB140)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCharacterFullBodyChainData_TypeDefinitionIndex = 48803;
+	inline static constexpr unsigned int BPCharacterFullBodyChainData_TypeDefinitionIndex = 49849;
 
 	class BPCharacterFullBodyChainData : public ::System::Object
 	{
 	public:
 		::System::Boolean Enabled; // 0x10
-		::System::Byte _padding0[0x7];
+		::System::Boolean UseLocalCoordinates; // 0x11
+		::System::Byte _padding0[0x6];
 		::System::String* CharacterUniqueName; // 0x18
 		::System::String* EffectorName; // 0x20
 		::UnityEngine::Vector3 ComponentSpacePosition; // 0x28

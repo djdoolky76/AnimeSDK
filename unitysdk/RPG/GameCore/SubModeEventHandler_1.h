@@ -5,7 +5,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubModeEventHandler_1_TypeDefinitionIndex = 56027;
+	inline static constexpr unsigned int SubModeEventHandler_1_TypeDefinitionIndex = 57239;
 
 	template <typename T>
 	class SubModeEventHandler_1 : public ::System::Object

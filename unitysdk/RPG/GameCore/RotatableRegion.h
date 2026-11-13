@@ -10,12 +10,12 @@ namespace RPG::GameCore { class RotatableRegion; }
 namespace RPG::GameCore { class RotatableRegionPose; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROTATABLEREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA19C30)
-#define RPG_GAMECORE_ROTATABLEREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA19660)
+#define RPG_GAMECORE_ROTATABLEREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF3B230)
+#define RPG_GAMECORE_ROTATABLEREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF3AD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RotatableRegion_TypeDefinitionIndex = 17026;
+	inline static constexpr unsigned int RotatableRegion_TypeDefinitionIndex = 17193;
 
 	class RotatableRegion : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,14 +7,14 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE92E070)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92DE20)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92DFF0)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92DE10)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA19340)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DA190F0)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA192C0)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DA190E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowChimeraGoalsDialogClip_TypeDefinitionIndex = 48289;
+	inline static constexpr unsigned int ShowChimeraGoalsDialogClip_TypeDefinitionIndex = 49330;
 
 	class ShowChimeraGoalsDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -23,12 +23,12 @@ namespace RPGTools::Timeline
 		::System::String* UIParam; // 0x20
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowChimeraGoalsDialogClip")->GetStaticField(0x6FE00);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowChimeraGoalsDialogClip")->GetStaticField(0xE840);
 		}
 
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowChimeraGoalsDialogClip")->GetStaticField(0x6FE08);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowChimeraGoalsDialogClip")->GetStaticField(0xE848);
 		}
 
 		::System::Void _ctor()

@@ -5,19 +5,19 @@ class HFCOGLIEHFB;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define JNNKPOJGBNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB2884B0)
-#define JNNKPOJGBNP_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0xB288450)
-#define JNNKPOJGBNP_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB288500)
-#define JNNKPOJGBNP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB288550)
-#define JNNKPOJGBNP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB2887A0)
+#define JNNKPOJGBNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C9C40)
+#define JNNKPOJGBNP_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x1B4C9BE0)
+#define JNNKPOJGBNP_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1B4C9C90)
+#define JNNKPOJGBNP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1B4C9CE0)
+#define JNNKPOJGBNP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1B4C9F30)
 
-inline static constexpr unsigned int JNNKPOJGBNP_TypeDefinitionIndex = 82273;
+inline static constexpr unsigned int JNNKPOJGBNP_TypeDefinitionIndex = 85146;
 
 	class JNNKPOJGBNP : public ::KAANKGHDHCB
 	{
 	public:
-		::System::String* GKHIHPGCLIK; // 0x20
-		::HFCOGLIEHFB* BGKEEIDDGOB; // 0x28
+		::HFCOGLIEHFB* BGKEEIDDGOB; // 0x20
+		::System::String* GKHIHPGCLIK; // 0x28
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + JNNKPOJGBNP_CTOR_OFFSET))(this, a1, a2, a3, a4);

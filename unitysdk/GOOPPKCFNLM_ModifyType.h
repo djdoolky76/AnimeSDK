@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GOOPPKCFNLM_ModifyType_TypeDefinitionIndex = 37329;
+inline static constexpr unsigned int GOOPPKCFNLM_ModifyType_TypeDefinitionIndex = 38257;
 
 	enum class GOOPPKCFNLM_ModifyType : ::System::Int32
 	{

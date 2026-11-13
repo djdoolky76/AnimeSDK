@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PHLMAIEDEGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC24DEA0)
+#define PHLMAIEDEGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B7630)
 
-inline static constexpr unsigned int PHLMAIEDEGC_TypeDefinitionIndex = 59946;
+inline static constexpr unsigned int PHLMAIEDEGC_TypeDefinitionIndex = 61230;
 
 	class PHLMAIEDEGC : public ::System::Object
 	{

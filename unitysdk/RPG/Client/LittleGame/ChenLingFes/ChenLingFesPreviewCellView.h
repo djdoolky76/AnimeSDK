@@ -8,16 +8,16 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0xD40ED70)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD40ED50)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_GIAFOBLOJKB_OFFSET UNITYSDK_OFFSET(0xD40EC40)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_INITPEFORMCELL_OFFSET UNITYSDK_OFFSET(0xD40E7F0)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_OPFHEADNNLD_OFFSET UNITYSDK_OFFSET(0xD40EA20)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_SETPEFORMCELLAVAILABLE_OFFSET UNITYSDK_OFFSET(0xD40EB50)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E12FAF0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E12FAD0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_GIAFOBLOJKB_OFFSET UNITYSDK_OFFSET(0x1E12F9C0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_INITPEFORMCELL_OFFSET UNITYSDK_OFFSET(0x1E12F570)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_OPFHEADNNLD_OFFSET UNITYSDK_OFFSET(0x1E12F7A0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_SETPEFORMCELLAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1E12F8D0)
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesPreviewCellView_TypeDefinitionIndex = 77788;
+	inline static constexpr unsigned int ChenLingFesPreviewCellView_TypeDefinitionIndex = 80523;
 
 	class ChenLingFesPreviewCellView : public ::RPG::Client::LittleGame::ChenLingFes::ChenLingFesView
 	{
@@ -40,14 +40,14 @@ namespace RPG::Client::LittleGame::ChenLingFes
 		::UnityEngine::GameObject* NineSliceEdit; // 0xC8
 		::UnityEngine::GameObject* Transparent; // 0xD0
 		::UnityEngine::Renderer* JAMDAALMOAL; // 0xD8
-		static ::System::Int32* StaticGet_MainTextureId()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "ChenLingFesPreviewCellView")->GetStaticField(0x78B0);
-		}
-
 		static ::System::Int32* StaticGet_RectScaleId()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "ChenLingFesPreviewCellView")->GetStaticField(0x78B4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "ChenLingFesPreviewCellView")->GetStaticField(0xC630);
+		}
+
+		static ::System::Int32* StaticGet_MainTextureId()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "ChenLingFesPreviewCellView")->GetStaticField(0xC634);
 		}
 
 		::System::Void _ctor()

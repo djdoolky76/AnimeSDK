@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define LHODFPJIIAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD418E0)
+#define LHODFPJIIAB_CTOR_OFFSET UNITYSDK_OFFSET(0x16F76F60)
 
-inline static constexpr unsigned int LHODFPJIIAB_TypeDefinitionIndex = 6311;
+inline static constexpr unsigned int LHODFPJIIAB_TypeDefinitionIndex = 6318;
 
 	class LHODFPJIIAB : public ::System::Attribute
 	{

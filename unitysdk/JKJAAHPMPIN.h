@@ -5,34 +5,35 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define JKJAAHPMPIN_CTOR_OFFSET UNITYSDK_OFFSET(0xB219650)
-#define JKJAAHPMPIN_DMPBDGEBGCH_OFFSET UNITYSDK_OFFSET(0xB219520)
-#define JKJAAHPMPIN_FKJCPLIBJJN_OFFSET UNITYSDK_OFFSET(0xB219150)
-#define JKJAAHPMPIN_GET_ID_OFFSET UNITYSDK_OFFSET(0xB219130)
-#define JKJAAHPMPIN_IOBJFEJFLJP_OFFSET UNITYSDK_OFFSET(0xB219220)
-#define JKJAAHPMPIN_JIADLIAHFNI_OFFSET UNITYSDK_OFFSET(0xB2191C0)
-#define JKJAAHPMPIN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB2194A0)
-#define JKJAAHPMPIN_SET_ID_OFFSET UNITYSDK_OFFSET(0xB219140)
+#define JKJAAHPMPIN_CTOR_OFFSET UNITYSDK_OFFSET(0x17B254A0)
+#define JKJAAHPMPIN_DMPBDGEBGCH_OFFSET UNITYSDK_OFFSET(0x17B25370)
+#define JKJAAHPMPIN_FKJCPLIBJJN_OFFSET UNITYSDK_OFFSET(0x17B24F80)
+#define JKJAAHPMPIN_GET_ID_OFFSET UNITYSDK_OFFSET(0x17B24F60)
+#define JKJAAHPMPIN_IOBJFEJFLJP_OFFSET UNITYSDK_OFFSET(0x17B25050)
+#define JKJAAHPMPIN_JIADLIAHFNI_OFFSET UNITYSDK_OFFSET(0x17B24FF0)
+#define JKJAAHPMPIN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x17B252E0)
+#define JKJAAHPMPIN_SET_ID_OFFSET UNITYSDK_OFFSET(0x17B24F70)
 
-inline static constexpr unsigned int JKJAAHPMPIN_TypeDefinitionIndex = 57012;
+inline static constexpr unsigned int JKJAAHPMPIN_TypeDefinitionIndex = 58238;
 
 	class JKJAAHPMPIN : public ::System::Object
 	{
 	public:
 		::UnityEngine::AnimationCurve* HNAFDCODNGN; // 0x10
-		::UnityEngine::Quaternion NGEJDEFDOOP; // 0x18
-		::System::Boolean CJKOLDONNCL; // 0x28
-		::System::Boolean HKBAKDEIEHK; // 0x29
-		::System::Byte _padding0[0x2];
-		::System::UInt32 _ID_k__BackingField; // 0x2C
-		::System::Single CDKHGBOPKDM; // 0x30
-		::System::Single GEJKDKGKFPK; // 0x34
+		::System::UInt32 _ID_k__BackingField; // 0x18
+		::System::Boolean HKBAKDEIEHK; // 0x1C
+		::System::Boolean CJKOLDONNCL; // 0x1D
+		::System::Boolean DMIBLDMPCMH; // 0x1E
+		::System::Byte _padding0[0x1];
+		::System::Single CDKHGBOPKDM; // 0x20
+		::UnityEngine::Vector3 AKEGBNBJKKM; // 0x24
+		::System::Single GEJKDKGKFPK; // 0x30
+		::System::Boolean JDIALKFNJDP; // 0x34
+		::System::Boolean BJBBGPNPDNM; // 0x35
+		::System::Byte _padding1[0x2];
 		::System::Single MGIAJMOKOCC; // 0x38
-		::System::Single KNCNBOIDKLD; // 0x3C
-		::UnityEngine::Vector3 AKEGBNBJKKM; // 0x40
-		::System::Boolean JDIALKFNJDP; // 0x4C
-		::System::Boolean DMIBLDMPCMH; // 0x4D
-		::System::Boolean BJBBGPNPDNM; // 0x4E
+		::UnityEngine::Quaternion NGEJDEFDOOP; // 0x3C
+		::System::Single KNCNBOIDKLD; // 0x4C
 		// static const ::System::Object OFLDDKENMCE; // 0x0
 		// static const ::System::Object ICMKFFBMCJC; // 0x0
 		::System::Void _ctor()

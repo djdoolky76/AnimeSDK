@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class LoginByQRCode; }
 
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD3AD40)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BD3B390)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19C8B300)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19C8B950)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByQRCode___c__DisplayClass47_0_TypeDefinitionIndex = 9536;
+	inline static constexpr unsigned int LoginByQRCode___c__DisplayClass47_0_TypeDefinitionIndex = 9544;
 
 	class LoginByQRCode___c__DisplayClass47_0 : public ::System::Object
 	{

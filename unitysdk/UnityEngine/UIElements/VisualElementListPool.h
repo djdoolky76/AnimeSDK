@@ -5,20 +5,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UIElements { class VisualElement; }
 namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F49BF60)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1F49BDF0)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F49BEB0)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFDF0A0)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1EFDEF30)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EFDEFF0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int VisualElementListPool_TypeDefinitionIndex = 5901;
+	inline static constexpr unsigned int VisualElementListPool_TypeDefinitionIndex = 5909;
 
 	class VisualElementListPool : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>** StaticGet_pool()
 		{
-			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>**)UnitySDK::FromName("UnityEngine.UIElements", "VisualElementListPool")->GetStaticField(0x2EA50);
+			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>**)UnitySDK::FromName("UnityEngine.UIElements", "VisualElementListPool")->GetStaticField(0x1C500);
 		}
 
 		static ::System::Void _cctor()

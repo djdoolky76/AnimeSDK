@@ -5,11 +5,11 @@ class HBFIBDGJLHE;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6AC70)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFE2C0)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarFlowIntersection_TypeDefinitionIndex = 82226;
+	inline static constexpr unsigned int MonoCityCarFlowIntersection_TypeDefinitionIndex = 85099;
 
 	class MonoCityCarFlowIntersection : public ::UnityEngine::MonoBehaviour
 	{

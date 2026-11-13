@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLIGNOREATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EED9A20)
+#define SYSTEM_XML_SERIALIZATION_XMLIGNOREATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C67CA60)
 
 namespace System::Xml::Serialization
 {

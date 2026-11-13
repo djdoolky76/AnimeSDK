@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KOAOAKKCCPK;
 
-#define FAILAJIHIAE_JFHFADGLKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x15672990)
+#define FAILAJIHIAE_JFHFADGLKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2B220)
 
-inline static constexpr unsigned int FAILAJIHIAE_JFHFADGLKLF_TypeDefinitionIndex = 72295;
+inline static constexpr unsigned int FAILAJIHIAE_JFHFADGLKLF_TypeDefinitionIndex = 74372;
 
 	class FAILAJIHIAE_JFHFADGLKLF : public ::System::Object
 	{

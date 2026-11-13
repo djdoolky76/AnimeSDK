@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF9CDE0)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS30_0__PLAYEASTEREGGPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xCF9E580)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C8E20)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS30_0__PLAYEASTEREGGPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1E0CA5B0)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinHost___c__DisplayClass30_0_TypeDefinitionIndex = 80529;
+	inline static constexpr unsigned int FateRinHost___c__DisplayClass30_0_TypeDefinitionIndex = 83309;
 
 	class FateRinHost___c__DisplayClass30_0 : public ::System::Object
 	{

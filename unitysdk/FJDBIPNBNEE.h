@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FJDBIPNBNEE_CTOR_OFFSET UNITYSDK_OFFSET(0x157B7360)
-#define FJDBIPNBNEE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157B7320)
+#define FJDBIPNBNEE_CTOR_OFFSET UNITYSDK_OFFSET(0x19821650)
+#define FJDBIPNBNEE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19821610)
 
-inline static constexpr unsigned int FJDBIPNBNEE_TypeDefinitionIndex = 78788;
+inline static constexpr unsigned int FJDBIPNBNEE_TypeDefinitionIndex = 81523;
 
 	class FJDBIPNBNEE : public ::System::Object
 	{

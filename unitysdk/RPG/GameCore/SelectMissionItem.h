@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SelectMissionItemConfig; }
 namespace RPG::GameCore { class SimpleTalkInfo; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SELECTMISSIONITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5E5E0)
-#define RPG_GAMECORE_SELECTMISSIONITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA5E660)
-#define RPG_GAMECORE_SELECTMISSIONITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5E540)
+#define RPG_GAMECORE_SELECTMISSIONITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F850300)
+#define RPG_GAMECORE_SELECTMISSIONITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F850380)
+#define RPG_GAMECORE_SELECTMISSIONITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F850260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectMissionItem_TypeDefinitionIndex = 20447;
+	inline static constexpr unsigned int SelectMissionItem_TypeDefinitionIndex = 20782;
 
 	class SelectMissionItem : public ::RPG::GameCore::TaskConfig
 	{

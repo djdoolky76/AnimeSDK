@@ -6,15 +6,15 @@ class BJHMBGLPOLB;
 class OOCCBMLAELL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EGAFHDBKGCM_CTOR_OFFSET UNITYSDK_OFFSET(0x13A60190)
+#define EGAFHDBKGCM_CTOR_OFFSET UNITYSDK_OFFSET(0x17BFA120)
 
-inline static constexpr unsigned int EGAFHDBKGCM_TypeDefinitionIndex = 80579;
+inline static constexpr unsigned int EGAFHDBKGCM_TypeDefinitionIndex = 83359;
 
 	class EGAFHDBKGCM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::BJHMBGLPOLB*>* PIBKHIILLLF; // 0x10
-		::OOCCBMLAELL* ELIMDKMMGBO; // 0x18
+		::OOCCBMLAELL* ELIMDKMMGBO; // 0x10
+		::System::Collections::Generic::List_1<::BJHMBGLPOLB*>* PIBKHIILLLF; // 0x18
 		::RPG::GameCore::FateRinCardPileType CCFDOHBOHMG; // 0x20
 		::RPG::GameCore::FateRinCardPileType CHPHAMGMKBO; // 0x22
 		::System::Void _ctor(::OOCCBMLAELL* a1, ::System::Collections::Generic::List_1<::BJHMBGLPOLB*>* a2, ::RPG::GameCore::FateRinCardPileType a3, ::RPG::GameCore::FateRinCardPileType a4)

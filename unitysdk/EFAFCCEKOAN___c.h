@@ -4,18 +4,18 @@
 class EFAFCCEKOAN;
 namespace System { class Object; }
 
-#define EFAFCCEKOAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E25E620)
-#define EFAFCCEKOAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E25E660)
-#define EFAFCCEKOAN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E25E670)
+#define EFAFCCEKOAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20491F90)
+#define EFAFCCEKOAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20491FD0)
+#define EFAFCCEKOAN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20491FE0)
 
-inline static constexpr unsigned int EFAFCCEKOAN___c_TypeDefinitionIndex = 30401;
+inline static constexpr unsigned int EFAFCCEKOAN___c_TypeDefinitionIndex = 31307;
 
 	class EFAFCCEKOAN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46900);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A690);
 		}
 
 		static ::System::Void _cctor()

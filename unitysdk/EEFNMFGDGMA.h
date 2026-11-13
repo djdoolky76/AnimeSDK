@@ -4,9 +4,9 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EEFNMFGDGMA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2CFA0)
+#define EEFNMFGDGMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A314860)
 
-inline static constexpr unsigned int EEFNMFGDGMA_TypeDefinitionIndex = 76465;
+inline static constexpr unsigned int EEFNMFGDGMA_TypeDefinitionIndex = 78796;
 
 	class EEFNMFGDGMA : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReattachOption_TypeDefinitionIndex = 70101;
+	inline static constexpr unsigned int ReattachOption_TypeDefinitionIndex = 72066;
 
 	enum class ReattachOption : ::System::Int32
 	{

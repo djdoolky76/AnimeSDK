@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PALMOAFGILA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D294530)
-#define PALMOAFGILA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D294B00)
-#define PALMOAFGILA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D2946A0)
-#define PALMOAFGILA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D293FA0)
-#define PALMOAFGILA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D294230)
-#define PALMOAFGILA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D294740)
-#define PALMOAFGILA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D294790)
-#define PALMOAFGILA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D294570)
-#define PALMOAFGILA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2941D0)
-#define PALMOAFGILA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D2943A0)
-#define PALMOAFGILA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D294600)
-#define PALMOAFGILA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D293F20)
+#define PALMOAFGILA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F1ED0B0)
+#define PALMOAFGILA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1ED680)
+#define PALMOAFGILA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F1ED220)
+#define PALMOAFGILA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F1ECB20)
+#define PALMOAFGILA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F1ECDB0)
+#define PALMOAFGILA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F1ED2C0)
+#define PALMOAFGILA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F1ED310)
+#define PALMOAFGILA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F1ED0F0)
+#define PALMOAFGILA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F1ECD50)
+#define PALMOAFGILA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F1ECF20)
+#define PALMOAFGILA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F1ED180)
+#define PALMOAFGILA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F1ECAA0)
 
-inline static constexpr unsigned int PALMOAFGILA_TypeDefinitionIndex = 14965;
+inline static constexpr unsigned int PALMOAFGILA_TypeDefinitionIndex = 15121;
 
 	class PALMOAFGILA : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournAdventureRoomRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournAdventureRoomRow*>**)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0x4CAC0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournAdventureRoomRow*>**)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0x3BCC0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0x4CAC8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0x3BCC8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0x4CAD0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0x11870);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0x3BCD0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0x11871);
+			return (::System::Boolean*)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0xBEA0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "PALMOAFGILA")->GetStaticField(0xBEA1);
 		}
 
 		static ::System::Void _cctor()

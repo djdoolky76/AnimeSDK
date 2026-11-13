@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class AICHHDIAKHB;
 
-inline static constexpr unsigned int AICHHDIAKHB___c__DisplayClass16_0_TypeDefinitionIndex = 49805;
+inline static constexpr unsigned int AICHHDIAKHB___c__DisplayClass16_0_TypeDefinitionIndex = 50853;
 
 	class AICHHDIAKHB___c__DisplayClass16_0 : public ::System::Object
 	{

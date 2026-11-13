@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyPassengerDiaryRow; }
 
-#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC05F20)
-#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC05DC0)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DE720)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5DE5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPassengerDiaryRow_TypeDefinitionIndex = 15319;
+	inline static constexpr unsigned int TrainPartyPassengerDiaryRow_TypeDefinitionIndex = 15475;
 
 	class TrainPartyPassengerDiaryRow : public ::System::Object
 	{

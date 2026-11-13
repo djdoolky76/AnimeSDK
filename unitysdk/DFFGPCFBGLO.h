@@ -7,10 +7,10 @@ class NNOALJAEMCG;
 class OINNEGOFKAA;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define DFFGPCFBGLO_CTOR_OFFSET UNITYSDK_OFFSET(0xE81C2C0)
-#define DFFGPCFBGLO_LOHGNGKHMII_OFFSET UNITYSDK_OFFSET(0xE81C340)
+#define DFFGPCFBGLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B38C010)
+#define DFFGPCFBGLO_LOHGNGKHMII_OFFSET UNITYSDK_OFFSET(0x1B38C090)
 
-inline static constexpr unsigned int DFFGPCFBGLO_TypeDefinitionIndex = 62543;
+inline static constexpr unsigned int DFFGPCFBGLO_TypeDefinitionIndex = 63956;
 
 	class DFFGPCFBGLO : public ::System::Object
 	{

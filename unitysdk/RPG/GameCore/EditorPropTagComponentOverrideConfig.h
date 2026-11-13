@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EditorPropTagComponentOverrideConfig; }
 
-#define RPG_GAMECORE_EDITORPROPTAGCOMPONENTOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D600A00)
-#define RPG_GAMECORE_EDITORPROPTAGCOMPONENTOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6009C0)
+#define RPG_GAMECORE_EDITORPROPTAGCOMPONENTOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D77F0)
+#define RPG_GAMECORE_EDITORPROPTAGCOMPONENTOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D77B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EditorPropTagComponentOverrideConfig_TypeDefinitionIndex = 17260;
+	inline static constexpr unsigned int EditorPropTagComponentOverrideConfig_TypeDefinitionIndex = 17428;
 
 	class EditorPropTagComponentOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

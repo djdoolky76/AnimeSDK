@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LDPPBELHLEI_EntityActionType_TypeDefinitionIndex = 59703;
+inline static constexpr unsigned int LDPPBELHLEI_EntityActionType_TypeDefinitionIndex = 60984;
 
 	enum class LDPPBELHLEI_EntityActionType : ::System::Int32
 	{

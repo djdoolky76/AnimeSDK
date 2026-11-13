@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_UIVERTEX_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F47B8D0)
+#define UNITYENGINE_UIVERTEX_CCTOR_OFFSET UNITYSDK_OFFSET(0x20925820)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UIVertex_TypeDefinitionIndex = 5055;
+	inline static constexpr unsigned int UIVertex_TypeDefinitionIndex = 5060;
 
 	struct alignas(4) UIVertex
 	{

@@ -7,17 +7,17 @@
 class FCOEMCEDLNL;
 class PMOFCNKNJCA;
 
-#define PMOFCNKNJCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2DF0E0)
-#define PMOFCNKNJCA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2DEEA0)
+#define PMOFCNKNJCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AC550)
+#define PMOFCNKNJCA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7AC310)
 
-inline static constexpr unsigned int PMOFCNKNJCA_TypeDefinitionIndex = 13066;
+inline static constexpr unsigned int PMOFCNKNJCA_TypeDefinitionIndex = 13134;
 
 	class PMOFCNKNJCA : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x10
-		::RPG::GameCore::SkillDamageRange HJNEHAAIIGI; // 0x14
-		::RPG::GameCore::FixPoint PIBDDOGGDKL; // 0x18
+		::RPG::GameCore::FixPoint PIBDDOGGDKL; // 0x10
+		::RPG::GameCore::SkillDamageRange HJNEHAAIIGI; // 0x18
+		::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x1C
 		::RPG::GameCore::FixPoint ABINBKACLJK; // 0x20
 		::System::Void _ctor()
 		{

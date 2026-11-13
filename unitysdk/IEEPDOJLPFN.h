@@ -5,11 +5,11 @@
 class HCLBAOIGOJI;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IEEPDOJLPFN_BKJGMFOKKKN_OFFSET UNITYSDK_OFFSET(0x15EE9070)
-#define IEEPDOJLPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE93D0)
-#define IEEPDOJLPFN_LIEJEAGAHAM_OFFSET UNITYSDK_OFFSET(0x15EE9130)
+#define IEEPDOJLPFN_BKJGMFOKKKN_OFFSET UNITYSDK_OFFSET(0x177ADB00)
+#define IEEPDOJLPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x177ADE60)
+#define IEEPDOJLPFN_LIEJEAGAHAM_OFFSET UNITYSDK_OFFSET(0x177ADBC0)
 
-inline static constexpr unsigned int IEEPDOJLPFN_TypeDefinitionIndex = 81911;
+inline static constexpr unsigned int IEEPDOJLPFN_TypeDefinitionIndex = 84692;
 
 	class IEEPDOJLPFN : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class DefineDynamicStringByAssistantID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKGJOOFAJGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AF250)
-#define BKGJOOFAJGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7AF260)
-#define BKGJOOFAJGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7AF2A0)
-#define BKGJOOFAJGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7AF2F0)
-#define BKGJOOFAJGK_TICK_OFFSET UNITYSDK_OFFSET(0xB7AF340)
+#define BKGJOOFAJGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A64F3E0)
+#define BKGJOOFAJGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A64F3F0)
+#define BKGJOOFAJGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A64F430)
+#define BKGJOOFAJGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A64F480)
+#define BKGJOOFAJGK_TICK_OFFSET UNITYSDK_OFFSET(0x1A64F4D0)
 
-inline static constexpr unsigned int BKGJOOFAJGK_TypeDefinitionIndex = 54997;
+inline static constexpr unsigned int BKGJOOFAJGK_TypeDefinitionIndex = 56171;
 
 	class BKGJOOFAJGK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::DefineDynamicStringByAssistantID* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::DefineDynamicStringByAssistantID* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DefineDynamicStringByAssistantID* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::DefineDynamicStringByAssistantID*))((::PBYTE)hIl2Cpp + BKGJOOFAJGK_CTOR_OFFSET))(this, a1, a2);

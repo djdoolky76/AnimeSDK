@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchPetPartyRole; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KPOFJHKNGPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C9530)
-#define KPOFJHKNGPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB5C95A0)
+#define KPOFJHKNGPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1913A870)
+#define KPOFJHKNGPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1913A8E0)
 
-inline static constexpr unsigned int KPOFJHKNGPM_TypeDefinitionIndex = 53520;
+inline static constexpr unsigned int KPOFJHKNGPM_TypeDefinitionIndex = 54683;
 
 	class KPOFJHKNGPM
 	{

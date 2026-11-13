@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceStandalonePlayOverrideConfig; }
 
-#define RPG_GAMECORE_PERFORMANCESTANDALONEPLAYOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D9550)
-#define RPG_GAMECORE_PERFORMANCESTANDALONEPLAYOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D9370)
+#define RPG_GAMECORE_PERFORMANCESTANDALONEPLAYOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE47F20)
+#define RPG_GAMECORE_PERFORMANCESTANDALONEPLAYOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE47DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceStandalonePlayOverrideConfig_TypeDefinitionIndex = 19033;
+	inline static constexpr unsigned int PerformanceStandalonePlayOverrideConfig_TypeDefinitionIndex = 19220;
 
 	class PerformanceStandalonePlayOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

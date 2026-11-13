@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int EKGEKJPMKGE_TypeDefinitionIndex = 49785;
+inline static constexpr unsigned int EKGEKJPMKGE_TypeDefinitionIndex = 50833;
 
 	class EKGEKJPMKGE : public ::System::Object
 	{

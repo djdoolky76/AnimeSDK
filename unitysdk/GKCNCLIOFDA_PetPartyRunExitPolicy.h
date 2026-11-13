@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GKCNCLIOFDA_PetPartyRunExitPolicy_TypeDefinitionIndex = 53538;
+inline static constexpr unsigned int GKCNCLIOFDA_PetPartyRunExitPolicy_TypeDefinitionIndex = 54701;
 
 	enum class GKCNCLIOFDA_PetPartyRunExitPolicy : ::System::Int32
 	{

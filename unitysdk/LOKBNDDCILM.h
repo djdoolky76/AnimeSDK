@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropReplaceTVTexture; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOKBNDDCILM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7FFB20)
-#define LOKBNDDCILM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7FFB50)
+#define LOKBNDDCILM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B5240)
+#define LOKBNDDCILM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5B5270)
 
-inline static constexpr unsigned int LOKBNDDCILM_TypeDefinitionIndex = 53179;
+inline static constexpr unsigned int LOKBNDDCILM_TypeDefinitionIndex = 54341;
 
 	class LOKBNDDCILM
 	{

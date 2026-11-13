@@ -4,12 +4,12 @@
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2StepContext; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORKERCONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C837180)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORKERCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C83B620)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORKERCONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DE7ADC0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORKERCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE7F1C0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2WorkerContext_TypeDefinitionIndex = 36813;
+	inline static constexpr unsigned int B2WorkerContext_TypeDefinitionIndex = 37741;
 
 	class B2WorkerContext : public ::System::Object
 	{

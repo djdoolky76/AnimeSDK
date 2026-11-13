@@ -4,10 +4,10 @@
 class PNEBINMALON;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define NPBNILHKEOD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF2CF0)
-#define NPBNILHKEOD_HNPPMLBBMEI_OFFSET UNITYSDK_OFFSET(0xBCF2C40)
+#define NPBNILHKEOD_CTOR_OFFSET UNITYSDK_OFFSET(0x19CF47D0)
+#define NPBNILHKEOD_HNPPMLBBMEI_OFFSET UNITYSDK_OFFSET(0x19CF4720)
 
-inline static constexpr unsigned int NPBNILHKEOD_TypeDefinitionIndex = 65704;
+inline static constexpr unsigned int NPBNILHKEOD_TypeDefinitionIndex = 67630;
 
 	class NPBNILHKEOD : public ::System::Object
 	{

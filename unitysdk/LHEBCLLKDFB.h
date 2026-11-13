@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 class KBOGKMCJGAO;
 namespace System { class String; }
 
-#define LHEBCLLKDFB_BFNIAGIOOAI_OFFSET UNITYSDK_OFFSET(0x1D0C2F00)
-#define LHEBCLLKDFB_EJDOLLILIMM_OFFSET UNITYSDK_OFFSET(0x1D0C2ED0)
-#define LHEBCLLKDFB_LFANOJFAEDL_OFFSET UNITYSDK_OFFSET(0x1D0C2F80)
+#define LHEBCLLKDFB_BFNIAGIOOAI_OFFSET UNITYSDK_OFFSET(0x1E95EBF0)
+#define LHEBCLLKDFB_EJDOLLILIMM_OFFSET UNITYSDK_OFFSET(0x1E95EBC0)
+#define LHEBCLLKDFB_LFANOJFAEDL_OFFSET UNITYSDK_OFFSET(0x1E95EC70)
 
-inline static constexpr unsigned int LHEBCLLKDFB_TypeDefinitionIndex = 10810;
+inline static constexpr unsigned int LHEBCLLKDFB_TypeDefinitionIndex = 10826;
 
 	class LHEBCLLKDFB : public ::System::Object
 	{
 	public:
 		static ::KBOGKMCJGAO** StaticGet_CEOMOMFGGNF()
 		{
-			return (::KBOGKMCJGAO**)UnitySDK::FromName("", "LHEBCLLKDFB")->GetStaticField(0xD050);
+			return (::KBOGKMCJGAO**)UnitySDK::FromName("", "LHEBCLLKDFB")->GetStaticField(0x13DD0);
 		}
 
 		static ::System::String* EJDOLLILIMM()

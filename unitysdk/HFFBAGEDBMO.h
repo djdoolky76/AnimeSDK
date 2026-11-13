@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define HFFBAGEDBMO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C6A090)
+#define HFFBAGEDBMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A223730)
 
-inline static constexpr unsigned int HFFBAGEDBMO_TypeDefinitionIndex = 48178;
+inline static constexpr unsigned int HFFBAGEDBMO_TypeDefinitionIndex = 49209;
 
 	class HFFBAGEDBMO : public ::UnityEngine::Playables::PlayableBehaviour
 	{

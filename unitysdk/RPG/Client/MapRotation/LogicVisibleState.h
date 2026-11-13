@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MapRotation
 {
-	inline static constexpr unsigned int LogicVisibleState_TypeDefinitionIndex = 75748;
+	inline static constexpr unsigned int LogicVisibleState_TypeDefinitionIndex = 78075;
 
 	enum class LogicVisibleState : ::System::Int32
 	{

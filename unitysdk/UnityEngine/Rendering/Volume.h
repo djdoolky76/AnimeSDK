@@ -6,32 +6,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine::Rendering { class VolumeProfile; }
 namespace UnityEngine::Rendering { class VolumeProxy; }
 
-#define UNITYENGINE_RENDERING_VOLUME_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2AFA90)
-#define UNITYENGINE_RENDERING_VOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2AFA80)
-#define UNITYENGINE_RENDERING_VOLUME_GET_PROFILE_OFFSET UNITYSDK_OFFSET(0x1F2AE400)
-#define UNITYENGINE_RENDERING_VOLUME_GET_PROXY_OFFSET UNITYSDK_OFFSET(0x1F2AF460)
-#define UNITYENGINE_RENDERING_VOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F2AF9B0)
-#define UNITYENGINE_RENDERING_VOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F2AF780)
-#define UNITYENGINE_RENDERING_VOLUME_SET_PROFILE_OFFSET UNITYSDK_OFFSET(0x1F2AE410)
-#define UNITYENGINE_RENDERING_VOLUME_START_OFFSET UNITYSDK_OFFSET(0x1F2AF980)
+#define UNITYENGINE_RENDERING_VOLUME_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F663280)
+#define UNITYENGINE_RENDERING_VOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1F663270)
+#define UNITYENGINE_RENDERING_VOLUME_GET_PROFILE_OFFSET UNITYSDK_OFFSET(0x1F661BF0)
+#define UNITYENGINE_RENDERING_VOLUME_GET_PROXY_OFFSET UNITYSDK_OFFSET(0x1F662C50)
+#define UNITYENGINE_RENDERING_VOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F6631A0)
+#define UNITYENGINE_RENDERING_VOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F662F70)
+#define UNITYENGINE_RENDERING_VOLUME_SET_PROFILE_OFFSET UNITYSDK_OFFSET(0x1F661C00)
+#define UNITYENGINE_RENDERING_VOLUME_START_OFFSET UNITYSDK_OFFSET(0x1F663170)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Volume_TypeDefinitionIndex = 35614;
+	inline static constexpr unsigned int Volume_TypeDefinitionIndex = 36542;
 
 	class Volume : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Rendering::VolumeProfile* sharedProfile; // 0x18
 		::UnityEngine::Rendering::VolumeProxy* _Proxy; // 0x20
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Rendering::VolumeProfile*>** StaticGet__ProfileCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Rendering::VolumeProfile*>**)UnitySDK::FromName("UnityEngine.Rendering", "Volume")->GetStaticField(0x5C4F0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Rendering::VolumeProxy*>** StaticGet__ProxyCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Rendering::VolumeProxy*>**)UnitySDK::FromName("UnityEngine.Rendering", "Volume")->GetStaticField(0x5C4F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Rendering::VolumeProxy*>**)UnitySDK::FromName("UnityEngine.Rendering", "Volume")->GetStaticField(0x62A60);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Rendering::VolumeProfile*>** StaticGet__ProfileCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Rendering::VolumeProfile*>**)UnitySDK::FromName("UnityEngine.Rendering", "Volume")->GetStaticField(0x62A68);
 		}
 
 		::System::Void _ctor()

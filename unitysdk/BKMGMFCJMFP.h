@@ -6,19 +6,20 @@
 class BKMGMFCJMFP;
 class FCOEMCEDLNL;
 
-#define BKMGMFCJMFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F3790)
-#define BKMGMFCJMFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F3530)
+#define BKMGMFCJMFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1AD1E0)
+#define BKMGMFCJMFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F1ACF80)
 
-inline static constexpr unsigned int BKMGMFCJMFP_TypeDefinitionIndex = 12481;
+inline static constexpr unsigned int BKMGMFCJMFP_TypeDefinitionIndex = 12548;
 
 	class BKMGMFCJMFP : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PBLPLDJKPEI; // 0x10
-		::System::UInt32 NALMBOOCCIN; // 0x18
-		::System::UInt32 PHFMCACHFIJ; // 0x1C
-		::RPG::Client::TextID NMAHGFAPENI; // 0x20
-		::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x30
+		::System::UInt32 PHFMCACHFIJ; // 0x18
+		::System::UInt32 NALMBOOCCIN; // 0x1C
+		::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x20
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID NMAHGFAPENI; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMGMFCJMFP_CTOR_OFFSET))(this);

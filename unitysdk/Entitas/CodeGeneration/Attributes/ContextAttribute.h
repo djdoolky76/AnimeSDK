@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_CONTEXTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x167490D0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_CONTEXTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20850370)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int ContextAttribute_TypeDefinitionIndex = 10073;
+	inline static constexpr unsigned int ContextAttribute_TypeDefinitionIndex = 10081;
 
 	class ContextAttribute : public ::System::Attribute
 	{

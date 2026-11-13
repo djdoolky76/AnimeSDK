@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableRoleTrialChangeLineupLeader; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HJKHAHOOKPC_CTOR_OFFSET UNITYSDK_OFFSET(0x15D1EF30)
-#define HJKHAHOOKPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D1EF60)
+#define HJKHAHOOKPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1821C930)
+#define HJKHAHOOKPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1821C960)
 
-inline static constexpr unsigned int HJKHAHOOKPC_TypeDefinitionIndex = 58110;
+inline static constexpr unsigned int HJKHAHOOKPC_TypeDefinitionIndex = 59349;
 
 	class HJKHAHOOKPC
 	{

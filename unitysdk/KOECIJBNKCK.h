@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsDamageLuckCritical; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KOECIJBNKCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB58C5E0)
-#define KOECIJBNKCK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB58C610)
+#define KOECIJBNKCK_CTOR_OFFSET UNITYSDK_OFFSET(0x190FB430)
+#define KOECIJBNKCK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x190FB460)
 
-inline static constexpr unsigned int KOECIJBNKCK_TypeDefinitionIndex = 54648;
+inline static constexpr unsigned int KOECIJBNKCK_TypeDefinitionIndex = 55814;
 
 	class KOECIJBNKCK
 	{

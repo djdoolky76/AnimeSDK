@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NBJLKBCLAKN_CTOR_OFFSET UNITYSDK_OFFSET(0xBAC3DE0)
-#define NBJLKBCLAKN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAC3E10)
+#define NBJLKBCLAKN_CTOR_OFFSET UNITYSDK_OFFSET(0x150B5520)
+#define NBJLKBCLAKN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x150B5550)
 
-inline static constexpr unsigned int NBJLKBCLAKN_TypeDefinitionIndex = 55529;
+inline static constexpr unsigned int NBJLKBCLAKN_TypeDefinitionIndex = 56721;
 
 	class NBJLKBCLAKN
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IFiveDimTransformContext_1_TypeDefinitionIndex = 42740;
+	inline static constexpr unsigned int IFiveDimTransformContext_1_TypeDefinitionIndex = 43719;
 
 	template <typename T>
 	class IFiveDimTransformContext_1

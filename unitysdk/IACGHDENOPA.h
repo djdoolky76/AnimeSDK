@@ -5,7 +5,7 @@ class BCFGMBEBAPM;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
-inline static constexpr unsigned int IACGHDENOPA_TypeDefinitionIndex = 6326;
+inline static constexpr unsigned int IACGHDENOPA_TypeDefinitionIndex = 6333;
 
 	class IACGHDENOPA : public ::System::Object
 	{

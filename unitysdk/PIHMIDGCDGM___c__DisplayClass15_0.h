@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class EnhanceSkillParam; }
 
-#define PIHMIDGCDGM___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC25B4A0)
-#define PIHMIDGCDGM___C__DISPLAYCLASS15_0___ONSHOWSKILLENHANCE_B__0_OFFSET UNITYSDK_OFFSET(0xC25BC90)
+#define PIHMIDGCDGM___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9C7C00)
+#define PIHMIDGCDGM___C__DISPLAYCLASS15_0___ONSHOWSKILLENHANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1A9C8410)
 
-inline static constexpr unsigned int PIHMIDGCDGM___c__DisplayClass15_0_TypeDefinitionIndex = 71947;
+inline static constexpr unsigned int PIHMIDGCDGM___c__DisplayClass15_0_TypeDefinitionIndex = 73971;
 
 	class PIHMIDGCDGM___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class OpticalIllusionSetOpCount; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6EE0)
-#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8B6F10)
-#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B6E90)
+#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1384B0)
+#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F1384E0)
+#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F138460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpticalIllusionSetOpCount_TypeDefinitionIndex = 22220;
+	inline static constexpr unsigned int OpticalIllusionSetOpCount_TypeDefinitionIndex = 22625;
 
 	class OpticalIllusionSetOpCount : public ::RPG::GameCore::TaskConfig
 	{

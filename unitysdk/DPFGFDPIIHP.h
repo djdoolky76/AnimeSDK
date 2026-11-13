@@ -8,138 +8,138 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DPFGFDPIIHP_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FF67B0)
-#define DPFGFDPIIHP_CFGOJCGAJIN_OFFSET UNITYSDK_OFFSET(0x11FF65A0)
-#define DPFGFDPIIHP_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF67A0)
-#define DPFGFDPIIHP_DNHBHHBEHNA_OFFSET UNITYSDK_OFFSET(0x11FF6250)
-#define DPFGFDPIIHP_MBEDDILGOMK_OFFSET UNITYSDK_OFFSET(0x11FF6200)
-#define DPFGFDPIIHP_MDMOINKFKIN_OFFSET UNITYSDK_OFFSET(0x11FF62D0)
-#define DPFGFDPIIHP_MNEPDJOCMPD_OFFSET UNITYSDK_OFFSET(0x11FF6190)
-#define DPFGFDPIIHP_OFBEPKPCIJG_OFFSET UNITYSDK_OFFSET(0x11FF6290)
+#define DPFGFDPIIHP_CCTOR_OFFSET UNITYSDK_OFFSET(0x191BB700)
+#define DPFGFDPIIHP_CFGOJCGAJIN_OFFSET UNITYSDK_OFFSET(0x191BB4F0)
+#define DPFGFDPIIHP_CTOR_OFFSET UNITYSDK_OFFSET(0x191BB6F0)
+#define DPFGFDPIIHP_DNHBHHBEHNA_OFFSET UNITYSDK_OFFSET(0x191BB1A0)
+#define DPFGFDPIIHP_MBEDDILGOMK_OFFSET UNITYSDK_OFFSET(0x191BB150)
+#define DPFGFDPIIHP_MDMOINKFKIN_OFFSET UNITYSDK_OFFSET(0x191BB220)
+#define DPFGFDPIIHP_MNEPDJOCMPD_OFFSET UNITYSDK_OFFSET(0x191BB0E0)
+#define DPFGFDPIIHP_OFBEPKPCIJG_OFFSET UNITYSDK_OFFSET(0x191BB1E0)
 
-inline static constexpr unsigned int DPFGFDPIIHP_TypeDefinitionIndex = 49096;
+inline static constexpr unsigned int DPFGFDPIIHP_TypeDefinitionIndex = 50172;
 
 	class DPFGFDPIIHP : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_OHGINLAEILH()
+		static ::System::String** StaticGet_IHEOJAEFEIP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCEA0);
+			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99B0);
 		}
 
 		static ::System::String** StaticGet_KBELDKFLPKD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCEA8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::CBEBCHAFBCE*>** StaticGet_GDJMCJMHAFP()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::CBEBCHAFBCE*>**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCEB0);
-		}
-
-		static ::System::String** StaticGet_IHEOJAEFEIP()
-		{
-			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCEB8);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_OGNPBNMPFAH()
-		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCEC0);
+			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99B8);
 		}
 
 		static ::System::String** StaticGet_LAHINKDAMII()
 		{
-			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCEC8);
-		}
-
-		static ::System::String** StaticGet_ONHNCCGAIKH()
-		{
-			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCED0);
-		}
-
-		static ::System::String** StaticGet_IOOMAFGDPEO()
-		{
-			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCED8);
+			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99C0);
 		}
 
 		static ::Il2CppArray<::System::Type*>** StaticGet_IKBNLMEDLEE()
 		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCEE0);
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99C8);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_OGNPBNMPFAH()
+		{
+			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99D0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::CBEBCHAFBCE*>** StaticGet_GDJMCJMHAFP()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::CBEBCHAFBCE*>**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99D8);
+		}
+
+		static ::System::String** StaticGet_OHGINLAEILH()
+		{
+			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99E0);
+		}
+
+		static ::System::String** StaticGet_IOOMAFGDPEO()
+		{
+			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99E8);
 		}
 
 		static ::System::String** StaticGet_FMDJJGJEBAF()
 		{
-			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xCEE8);
+			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99F0);
 		}
 
-		static ::DPFGFDPIIHP_LightSystemOption* StaticGet_GFKHAHAGKKL()
+		static ::System::String** StaticGet_ONHNCCGAIKH()
 		{
-			return (::DPFGFDPIIHP_LightSystemOption*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B00);
-		}
-
-		static ::System::Single* StaticGet_PBPHNDGOMLG()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B04);
-		}
-
-		static ::System::Single* StaticGet_OKPDLIALEAO()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B08);
-		}
-
-		static ::System::Int32* StaticGet_KIILGPHKHOL()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B0C);
-		}
-
-		static ::System::Single* StaticGet_DHOFNKMIGFJ()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B10);
-		}
-
-		static ::System::Single* StaticGet_JDMCMEMKKDA()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B14);
+			return (::System::String**)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x99F8);
 		}
 
 		static ::System::Int32* StaticGet_AGPMICFOKPP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B18);
+			return (::System::Int32*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC20);
 		}
 
-		static ::System::Boolean* StaticGet_ANEPPDBLPHE()
+		static ::System::Single* StaticGet_OKPDLIALEAO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B1C);
-		}
-
-		static ::System::Boolean* StaticGet_KBMOLJBFOCD()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B1D);
-		}
-
-		static ::System::Boolean* StaticGet_AHBMLLHCKFJ()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B1E);
-		}
-
-		static ::System::Boolean* StaticGet_OPDNIPCDGPP()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B1F);
-		}
-
-		static ::System::Boolean* StaticGet_CIDKAAIMBBL()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B20);
-		}
-
-		static ::System::Boolean* StaticGet_EOAIOOLOGIL()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B21);
+			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC24);
 		}
 
 		static ::System::Single* StaticGet_MOPPHGMMCBA()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0x2B24);
+			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC28);
+		}
+
+		static ::System::Boolean* StaticGet_AHBMLLHCKFJ()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC2C);
+		}
+
+		static ::System::Boolean* StaticGet_CIDKAAIMBBL()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC2D);
+		}
+
+		static ::System::Single* StaticGet_DHOFNKMIGFJ()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC30);
+		}
+
+		static ::DPFGFDPIIHP_LightSystemOption* StaticGet_GFKHAHAGKKL()
+		{
+			return (::DPFGFDPIIHP_LightSystemOption*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC34);
+		}
+
+		static ::System::Single* StaticGet_JDMCMEMKKDA()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC38);
+		}
+
+		static ::System::Single* StaticGet_PBPHNDGOMLG()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC3C);
+		}
+
+		static ::System::Boolean* StaticGet_OPDNIPCDGPP()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC40);
+		}
+
+		static ::System::Boolean* StaticGet_EOAIOOLOGIL()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC41);
+		}
+
+		static ::System::Boolean* StaticGet_ANEPPDBLPHE()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC42);
+		}
+
+		static ::System::Boolean* StaticGet_KBMOLJBFOCD()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC43);
+		}
+
+		static ::System::Int32* StaticGet_KIILGPHKHOL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DPFGFDPIIHP")->GetStaticField(0xC44);
 		}
 
 		::System::Void _ctor()

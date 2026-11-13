@@ -7,18 +7,18 @@ class EPOIGLEBNCB;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define EPOIGLEBNCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD93670)
-#define EPOIGLEBNCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD93420)
+#define EPOIGLEBNCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED24140)
+#define EPOIGLEBNCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED23EF0)
 
-inline static constexpr unsigned int EPOIGLEBNCB_TypeDefinitionIndex = 13915;
+inline static constexpr unsigned int EPOIGLEBNCB_TypeDefinitionIndex = 14072;
 
 	class EPOIGLEBNCB : public ::System::Object
 	{
 	public:
-		::System::String* EEIEODMEMFI; // 0x10
-		::System::String* ODLDEEANNCM; // 0x18
-		::RPG::GameCore::LimaoNewsInterviewContentType MMNJODIJPOE; // 0x20
-		::System::UInt32 DFFLADLLADD; // 0x24
+		::System::String* ODLDEEANNCM; // 0x10
+		::System::String* EEIEODMEMFI; // 0x18
+		::System::UInt32 DFFLADLLADD; // 0x20
+		::RPG::GameCore::LimaoNewsInterviewContentType MMNJODIJPOE; // 0x24
 		::RPG::Client::TextID ANECPHCPLPP; // 0x28
 		::System::Void _ctor()
 		{

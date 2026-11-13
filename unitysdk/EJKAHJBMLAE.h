@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EJKAHJBMLAE_CTOR_OFFSET UNITYSDK_OFFSET(0x154D4FE0)
+#define EJKAHJBMLAE_CTOR_OFFSET UNITYSDK_OFFSET(0x19AB7690)
 
-inline static constexpr unsigned int EJKAHJBMLAE_TypeDefinitionIndex = 64223;
+inline static constexpr unsigned int EJKAHJBMLAE_TypeDefinitionIndex = 65668;
 
 	class EJKAHJBMLAE : public ::System::Object
 	{

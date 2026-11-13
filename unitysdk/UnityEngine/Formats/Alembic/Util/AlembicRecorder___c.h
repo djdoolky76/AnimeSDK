@@ -6,25 +6,25 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F153250)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F153290)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C__GETTARGETS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1F1532A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E592DE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E592E20)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C__GETTARGETS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1E592E30)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder___c_TypeDefinitionIndex = 45777;
+	inline static constexpr unsigned int AlembicRecorder___c_TypeDefinitionIndex = 46806;
 
 	class AlembicRecorder___c : public ::System::Object
 	{
 	public:
 		static ::System::Converter_2<::UnityEngine::Object*, ::UnityEngine::Component*>** StaticGet___9__35_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Object*, ::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Util", "<>c")->GetStaticField(0x182E0);
+			return (::System::Converter_2<::UnityEngine::Object*, ::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Util", "<>c")->GetStaticField(0x12200);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Util", "<>c")->GetStaticField(0x182E8);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Util", "<>c")->GetStaticField(0x12208);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FormationMoveAddStream; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CJHMMNAMBPA_CTOR_OFFSET UNITYSDK_OFFSET(0xD20B210)
-#define CJHMMNAMBPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD20B240)
+#define CJHMMNAMBPA_CTOR_OFFSET UNITYSDK_OFFSET(0x177D6560)
+#define CJHMMNAMBPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x177D6590)
 
-inline static constexpr unsigned int CJHMMNAMBPA_TypeDefinitionIndex = 58129;
+inline static constexpr unsigned int CJHMMNAMBPA_TypeDefinitionIndex = 59368;
 
 	class CJHMMNAMBPA
 	{

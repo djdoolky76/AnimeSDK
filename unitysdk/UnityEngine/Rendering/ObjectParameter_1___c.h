@@ -7,7 +7,7 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ObjectParameter_1___c_TypeDefinitionIndex = 35658;
+	inline static constexpr unsigned int ObjectParameter_1___c_TypeDefinitionIndex = 36586;
 
 	template <typename T>
 	class ObjectParameter_1___c : public ::System::Object

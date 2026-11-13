@@ -7,90 +7,90 @@ namespace RPG::Client { class CmdLineQualitySettingsModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LPMKNKCEEBM_ANGDEAMKJNA_OFFSET UNITYSDK_OFFSET(0x1EC06DF0)
-#define LPMKNKCEEBM_CCBGOKFILBA_OFFSET UNITYSDK_OFFSET(0x1EC06210)
-#define LPMKNKCEEBM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC06F70)
-#define LPMKNKCEEBM_EHCMGCJIAHJ_OFFSET UNITYSDK_OFFSET(0x1EC06860)
-#define LPMKNKCEEBM_EKLABOGPIJB_OFFSET UNITYSDK_OFFSET(0x1EC05F30)
-#define LPMKNKCEEBM_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1EC07660)
-#define LPMKNKCEEBM_GINLBEMFDMA_OFFSET UNITYSDK_OFFSET(0x1EC05DC0)
-#define LPMKNKCEEBM_HHHFEJLNPED_OFFSET UNITYSDK_OFFSET(0x1EC066F0)
-#define LPMKNKCEEBM_KEOFOAACNIA_OFFSET UNITYSDK_OFFSET(0x1EC069D0)
-#define LPMKNKCEEBM_LBFKEOOKBLA_OFFSET UNITYSDK_OFFSET(0x1EC06380)
-#define LPMKNKCEEBM_LMPFJFKJGBI_OFFSET UNITYSDK_OFFSET(0x1EC06B40)
-#define LPMKNKCEEBM_LNHDHAPPIKK_OFFSET UNITYSDK_OFFSET(0x1EC06CB0)
-#define LPMKNKCEEBM_LPPBNPEIDDO_OFFSET UNITYSDK_OFFSET(0x1EC07700)
-#define LPMKNKCEEBM_NABFDPAOKCJ_OFFSET UNITYSDK_OFFSET(0x1EC064F0)
-#define LPMKNKCEEBM_PMCJDOKAAJK_OFFSET UNITYSDK_OFFSET(0x1EC060A0)
+#define LPMKNKCEEBM_ANGDEAMKJNA_OFFSET UNITYSDK_OFFSET(0x1CB12FA0)
+#define LPMKNKCEEBM_CCBGOKFILBA_OFFSET UNITYSDK_OFFSET(0x1CB123C0)
+#define LPMKNKCEEBM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB13120)
+#define LPMKNKCEEBM_EHCMGCJIAHJ_OFFSET UNITYSDK_OFFSET(0x1CB12A10)
+#define LPMKNKCEEBM_EKLABOGPIJB_OFFSET UNITYSDK_OFFSET(0x1CB120E0)
+#define LPMKNKCEEBM_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1CB13810)
+#define LPMKNKCEEBM_GINLBEMFDMA_OFFSET UNITYSDK_OFFSET(0x1CB11F70)
+#define LPMKNKCEEBM_HHHFEJLNPED_OFFSET UNITYSDK_OFFSET(0x1CB128A0)
+#define LPMKNKCEEBM_KEOFOAACNIA_OFFSET UNITYSDK_OFFSET(0x1CB12B80)
+#define LPMKNKCEEBM_LBFKEOOKBLA_OFFSET UNITYSDK_OFFSET(0x1CB12530)
+#define LPMKNKCEEBM_LMPFJFKJGBI_OFFSET UNITYSDK_OFFSET(0x1CB12CF0)
+#define LPMKNKCEEBM_LNHDHAPPIKK_OFFSET UNITYSDK_OFFSET(0x1CB12E60)
+#define LPMKNKCEEBM_LPPBNPEIDDO_OFFSET UNITYSDK_OFFSET(0x1CB138B0)
+#define LPMKNKCEEBM_NABFDPAOKCJ_OFFSET UNITYSDK_OFFSET(0x1CB126A0)
+#define LPMKNKCEEBM_PMCJDOKAAJK_OFFSET UNITYSDK_OFFSET(0x1CB12250)
 
-inline static constexpr unsigned int LPMKNKCEEBM_TypeDefinitionIndex = 35210;
+inline static constexpr unsigned int LPMKNKCEEBM_TypeDefinitionIndex = 36138;
 
 	class LPMKNKCEEBM : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_MIFHCNENJPH()
-		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x547E0);
-		}
-
-		static ::System::String** StaticGet_AKKIKMLENGC()
-		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x547E8);
-		}
-
 		static ::System::String** StaticGet_ENGDIHDLHEI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x547F0);
-		}
-
-		static ::System::String** StaticGet_OIABHILFAFG()
-		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x547F8);
-		}
-
-		static ::System::String** StaticGet_JHGPCFGCPIN()
-		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54800);
-		}
-
-		static ::System::String** StaticGet_CFELEGNAEDK()
-		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54808);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::AJKLCFNAHBH*>** StaticGet_GALMAHKFILD()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::AJKLCFNAHBH*>**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54810);
-		}
-
-		static ::System::String** StaticGet_HFEANMPCPFG()
-		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54818);
-		}
-
-		static ::System::String** StaticGet_CFOHMEONKEO()
-		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54820);
-		}
-
-		static ::System::String** StaticGet_HAJJBKJKAIL()
-		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54828);
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59320);
 		}
 
 		static ::System::String** StaticGet_NIBPIEPDKDP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54830);
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59328);
+		}
+
+		static ::System::String** StaticGet_JHGPCFGCPIN()
+		{
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59330);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::AJKLCFNAHBH*>** StaticGet_GALMAHKFILD()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::AJKLCFNAHBH*>**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59338);
+		}
+
+		static ::System::String** StaticGet_CFOHMEONKEO()
+		{
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59340);
+		}
+
+		static ::System::String** StaticGet_MIFHCNENJPH()
+		{
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59348);
+		}
+
+		static ::System::String** StaticGet_OIABHILFAFG()
+		{
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59350);
+		}
+
+		static ::System::String** StaticGet_HFEANMPCPFG()
+		{
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59358);
 		}
 
 		static ::System::String** StaticGet_CKBFHGEGFAC()
 		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54838);
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59360);
+		}
+
+		static ::System::String** StaticGet_CFELEGNAEDK()
+		{
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59368);
+		}
+
+		static ::System::String** StaticGet_HAJJBKJKAIL()
+		{
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59370);
 		}
 
 		static ::System::String** StaticGet_HBNAMJMCHAI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x54840);
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59378);
+		}
+
+		static ::System::String** StaticGet_AKKIKMLENGC()
+		{
+			return (::System::String**)UnitySDK::FromName("", "LPMKNKCEEBM")->GetStaticField(0x59380);
 		}
 
 		static ::System::Void _cctor()

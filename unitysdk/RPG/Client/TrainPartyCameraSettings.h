@@ -3,13 +3,13 @@
 #include "unitysdk/RPG/Client/TrainPartyCameraSettings_SettingData.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_TRAINPARTYCAMERASETTINGS_APPLY_1_OFFSET UNITYSDK_OFFSET(0xE2F61A0)
-#define RPG_CLIENT_TRAINPARTYCAMERASETTINGS_APPLY_OFFSET UNITYSDK_OFFSET(0xE2F60B0)
-#define RPG_CLIENT_TRAINPARTYCAMERASETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xE2F6220)
+#define RPG_CLIENT_TRAINPARTYCAMERASETTINGS_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1CE48370)
+#define RPG_CLIENT_TRAINPARTYCAMERASETTINGS_APPLY_OFFSET UNITYSDK_OFFSET(0x1CE48280)
+#define RPG_CLIENT_TRAINPARTYCAMERASETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE483F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyCameraSettings_TypeDefinitionIndex = 60245;
+	inline static constexpr unsigned int TrainPartyCameraSettings_TypeDefinitionIndex = 61529;
 
 	class TrainPartyCameraSettings : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,11 +4,11 @@
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class String; }
 
-#define ABECADANPBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8497C0)
-#define ABECADANPBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C849820)
-#define ABECADANPBO_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x1C849610)
+#define ABECADANPBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D84DA50)
+#define ABECADANPBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84DAB0)
+#define ABECADANPBO_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x1D84D8A0)
 
-inline static constexpr unsigned int ABECADANPBO_TypeDefinitionIndex = 43294;
+inline static constexpr unsigned int ABECADANPBO_TypeDefinitionIndex = 44275;
 
 	class ABECADANPBO : public ::System::Object
 	{

@@ -13,7 +13,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Max__MaxAwaitWithCancellationAsync_d__43_1_TypeDefinitionIndex = 45463;
+	inline static constexpr unsigned int Max__MaxAwaitWithCancellationAsync_d__43_1_TypeDefinitionIndex = 46492;
 
 	template <typename T>
 	struct alignas(8) Max__MaxAwaitWithCancellationAsync_d__43_1

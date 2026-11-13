@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkWeatherInEffect; }
 
-#define JIALGMPAGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C7130)
-#define JIALGMPAGJE_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6C7140)
+#define JIALGMPAGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1318C0)
+#define JIALGMPAGJE_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C1318D0)
 
-inline static constexpr unsigned int JIALGMPAGJE_TypeDefinitionIndex = 36294;
+inline static constexpr unsigned int JIALGMPAGJE_TypeDefinitionIndex = 37222;
 
 	class JIALGMPAGJE : public ::AJBKGPOEBFG
 	{

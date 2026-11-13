@@ -3,10 +3,10 @@
 namespace RPG::Client { class ST_Parkour_ByCompareHitFlyCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ABKAKMBPOAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB1038C0)
-#define ABKAKMBPOAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1038F0)
+#define ABKAKMBPOAD_CTOR_OFFSET UNITYSDK_OFFSET(0x18CB47C0)
+#define ABKAKMBPOAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18CB47F0)
 
-inline static constexpr unsigned int ABKAKMBPOAD_TypeDefinitionIndex = 52130;
+inline static constexpr unsigned int ABKAKMBPOAD_TypeDefinitionIndex = 53235;
 
 	class ABKAKMBPOAD
 	{

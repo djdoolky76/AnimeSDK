@@ -35,118 +35,117 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ONIJDACKGJG_AACAKGCAMPG_OFFSET UNITYSDK_OFFSET(0x1C7ACDB0)
-#define ONIJDACKGJG_ALAPOHGBCND_OFFSET UNITYSDK_OFFSET(0x1C7ACE50)
-#define ONIJDACKGJG_BAMKPAKENCF_OFFSET UNITYSDK_OFFSET(0x1C7B0A30)
-#define ONIJDACKGJG_BFLDNNEKPFO_OFFSET UNITYSDK_OFFSET(0x1C7AE590)
-#define ONIJDACKGJG_CGCEOLMFEPO_OFFSET UNITYSDK_OFFSET(0x1C7AE9D0)
-#define ONIJDACKGJG_COPLNILJBOB_OFFSET UNITYSDK_OFFSET(0x1C7B0EE0)
-#define ONIJDACKGJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ABE30)
-#define ONIJDACKGJG_DIHCJBBJECM_OFFSET UNITYSDK_OFFSET(0x1C7AD1D0)
-#define ONIJDACKGJG_DJAAIIJJHFH_OFFSET UNITYSDK_OFFSET(0x1C7ACB20)
-#define ONIJDACKGJG_ECPNPOMNEOD_OFFSET UNITYSDK_OFFSET(0x1C7B4300)
-#define ONIJDACKGJG_EGLOBLMEADJ_OFFSET UNITYSDK_OFFSET(0x1C7ADBE0)
-#define ONIJDACKGJG_EOPJNOBBGEC_OFFSET UNITYSDK_OFFSET(0x1C7AD3C0)
-#define ONIJDACKGJG_EPGEIFHDAMB_OFFSET UNITYSDK_OFFSET(0x1C7B4510)
-#define ONIJDACKGJG_FAFKKJPKOFF_OFFSET UNITYSDK_OFFSET(0x1C7B3470)
-#define ONIJDACKGJG_FEACOOFIJKH_OFFSET UNITYSDK_OFFSET(0x1C7ACEF0)
-#define ONIJDACKGJG_FLFAFOKHJNG_OFFSET UNITYSDK_OFFSET(0x1C7AF350)
-#define ONIJDACKGJG_GET_BATTLEITEMCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B52E0)
-#define ONIJDACKGJG_GET_BETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1C7B5360)
-#define ONIJDACKGJG_GET_CATABILITYCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5210)
-#define ONIJDACKGJG_GET_CATCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5200)
-#define ONIJDACKGJG_GET_CATSTATETREECONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5220)
-#define ONIJDACKGJG_GET_CELLTYPE2MOVECONFIG_OFFSET UNITYSDK_OFFSET(0x1C7B5310)
-#define ONIJDACKGJG_GET_CONSTVALUELITTLEGAMECONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B51B0)
-#define ONIJDACKGJG_GET_EFFECTCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B51E0)
-#define ONIJDACKGJG_GET_EMOJICONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5250)
-#define ONIJDACKGJG_GET_FIELD2REGIONS_OFFSET UNITYSDK_OFFSET(0x1C7B52A0)
-#define ONIJDACKGJG_GET_FIELDCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B51D0)
-#define ONIJDACKGJG_GET_FIELDEFFECTABILITYCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B52F0)
-#define ONIJDACKGJG_GET_FIELDSCORECONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B51F0)
-#define ONIJDACKGJG_GET_HITTEDCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5320)
-#define ONIJDACKGJG_GET_ITEMID2ABILITYCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B52D0)
-#define ONIJDACKGJG_GET_MESSAGECONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5240)
-#define ONIJDACKGJG_GET_MOVESTATE2MOVECONFIG_OFFSET UNITYSDK_OFFSET(0x1C7B5300)
-#define ONIJDACKGJG_GET_NPCCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5260)
-#define ONIJDACKGJG_GET_NPCSTATETREECONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5270)
-#define ONIJDACKGJG_GET_REGION2TAGS_OFFSET UNITYSDK_OFFSET(0x1C7B52C0)
-#define ONIJDACKGJG_GET_REGIONCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B51C0)
-#define ONIJDACKGJG_GET_REGIONID2REGIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1C7B5290)
-#define ONIJDACKGJG_GET_SCORERANKRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1C7B5350)
-#define ONIJDACKGJG_GET_SECTIONCONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5230)
-#define ONIJDACKGJG_GET_SPARKLECONFIG_OFFSET UNITYSDK_OFFSET(0x1C7B53A0)
-#define ONIJDACKGJG_GET_SPECIALBETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1C7B5380)
-#define ONIJDACKGJG_GET_STARTREGIONLENGTH_OFFSET UNITYSDK_OFFSET(0x1C7B5330)
-#define ONIJDACKGJG_GET_TAG2REGIONS_OFFSET UNITYSDK_OFFSET(0x1C7B52B0)
-#define ONIJDACKGJG_GET_TITLECONFIGS_OFFSET UNITYSDK_OFFSET(0x1C7B5280)
-#define ONIJDACKGJG_GOMFOBODFJG_OFFSET UNITYSDK_OFFSET(0x1C7B0CD0)
-#define ONIJDACKGJG_GOOMKAONELJ_OFFSET UNITYSDK_OFFSET(0x1C7AE1B0)
-#define ONIJDACKGJG_HNFAAJKMCMH_OFFSET UNITYSDK_OFFSET(0x1C7B4740)
-#define ONIJDACKGJG_IDMLJPJPMMA_OFFSET UNITYSDK_OFFSET(0x1C7B1B20)
-#define ONIJDACKGJG_IIOBFJIEICI_OFFSET UNITYSDK_OFFSET(0x1C7B4120)
-#define ONIJDACKGJG_IJOEDPMHHKN_OFFSET UNITYSDK_OFFSET(0x1C7B41C0)
-#define ONIJDACKGJG_IMDOMFGDHHG_OFFSET UNITYSDK_OFFSET(0x1C7ACF40)
-#define ONIJDACKGJG_INKOLKIONPO_OFFSET UNITYSDK_OFFSET(0x1C7ACFE0)
-#define ONIJDACKGJG_INNCAHBBOKK_OFFSET UNITYSDK_OFFSET(0x1C7AD5B0)
-#define ONIJDACKGJG_JEODJGGCJAB_OFFSET UNITYSDK_OFFSET(0x1C7AF990)
-#define ONIJDACKGJG_LPHDOHFAKBA_OFFSET UNITYSDK_OFFSET(0x1C7B1260)
-#define ONIJDACKGJG_MJDPABKDEOK_OFFSET UNITYSDK_OFFSET(0x1C7AFA50)
-#define ONIJDACKGJG_MJPHDGIPBNB_OFFSET UNITYSDK_OFFSET(0x1C7B2910)
-#define ONIJDACKGJG_NAMKAHLOBML_OFFSET UNITYSDK_OFFSET(0x1C7AC9E0)
-#define ONIJDACKGJG_NFCPDGAPDKI_OFFSET UNITYSDK_OFFSET(0x1C7B27E0)
-#define ONIJDACKGJG_NLIKKGDFHNI_OFFSET UNITYSDK_OFFSET(0x1C7B4CA0)
-#define ONIJDACKGJG_OBMFBBLKIHD_OFFSET UNITYSDK_OFFSET(0x1C7B2A40)
-#define ONIJDACKGJG_OFFEGFABNDM_OFFSET UNITYSDK_OFFSET(0x1C7ADDD0)
-#define ONIJDACKGJG_OLAONAHACOB_OFFSET UNITYSDK_OFFSET(0x1C7AECD0)
-#define ONIJDACKGJG_OOLPAGPCMDH_OFFSET UNITYSDK_OFFSET(0x1C7B34D0)
-#define ONIJDACKGJG_PCKNLBIPOJE_OFFSET UNITYSDK_OFFSET(0x1C7AF000)
-#define ONIJDACKGJG_PKPGMBKHFEI_OFFSET UNITYSDK_OFFSET(0x1C7ADFC0)
-#define ONIJDACKGJG_POFLHGDOPNA_OFFSET UNITYSDK_OFFSET(0x1C7B26A0)
-#define ONIJDACKGJG_SET_BETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1C7B5370)
-#define ONIJDACKGJG_SET_SPECIALBETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1C7B5390)
-#define ONIJDACKGJG_SET_STARTREGIONLENGTH_OFFSET UNITYSDK_OFFSET(0x1C7B5340)
+#define ONIJDACKGJG_AACAKGCAMPG_OFFSET UNITYSDK_OFFSET(0x1B08E4D0)
+#define ONIJDACKGJG_ALAPOHGBCND_OFFSET UNITYSDK_OFFSET(0x1B08E570)
+#define ONIJDACKGJG_BAMKPAKENCF_OFFSET UNITYSDK_OFFSET(0x1B092190)
+#define ONIJDACKGJG_BFLDNNEKPFO_OFFSET UNITYSDK_OFFSET(0x1B08FCD0)
+#define ONIJDACKGJG_CGCEOLMFEPO_OFFSET UNITYSDK_OFFSET(0x1B090120)
+#define ONIJDACKGJG_COPLNILJBOB_OFFSET UNITYSDK_OFFSET(0x1B092640)
+#define ONIJDACKGJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B08D550)
+#define ONIJDACKGJG_DIHCJBBJECM_OFFSET UNITYSDK_OFFSET(0x1B08E910)
+#define ONIJDACKGJG_DJAAIIJJHFH_OFFSET UNITYSDK_OFFSET(0x1B08E240)
+#define ONIJDACKGJG_ECPNPOMNEOD_OFFSET UNITYSDK_OFFSET(0x1B095A80)
+#define ONIJDACKGJG_EGLOBLMEADJ_OFFSET UNITYSDK_OFFSET(0x1B08F320)
+#define ONIJDACKGJG_EOPJNOBBGEC_OFFSET UNITYSDK_OFFSET(0x1B08EB00)
+#define ONIJDACKGJG_EPGEIFHDAMB_OFFSET UNITYSDK_OFFSET(0x1B095C90)
+#define ONIJDACKGJG_FAFKKJPKOFF_OFFSET UNITYSDK_OFFSET(0x1B094BF0)
+#define ONIJDACKGJG_FEACOOFIJKH_OFFSET UNITYSDK_OFFSET(0x1B08E610)
+#define ONIJDACKGJG_FLFAFOKHJNG_OFFSET UNITYSDK_OFFSET(0x1B090AA0)
+#define ONIJDACKGJG_GET_BATTLEITEMCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096A60)
+#define ONIJDACKGJG_GET_BETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1B096AE0)
+#define ONIJDACKGJG_GET_CATABILITYCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096990)
+#define ONIJDACKGJG_GET_CATCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096980)
+#define ONIJDACKGJG_GET_CATSTATETREECONFIGS_OFFSET UNITYSDK_OFFSET(0x1B0969A0)
+#define ONIJDACKGJG_GET_CELLTYPE2MOVECONFIG_OFFSET UNITYSDK_OFFSET(0x1B096A90)
+#define ONIJDACKGJG_GET_CONSTVALUELITTLEGAMECONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096930)
+#define ONIJDACKGJG_GET_EFFECTCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096960)
+#define ONIJDACKGJG_GET_EMOJICONFIGS_OFFSET UNITYSDK_OFFSET(0x1B0969D0)
+#define ONIJDACKGJG_GET_FIELD2REGIONS_OFFSET UNITYSDK_OFFSET(0x1B096A20)
+#define ONIJDACKGJG_GET_FIELDCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096950)
+#define ONIJDACKGJG_GET_FIELDEFFECTABILITYCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096A70)
+#define ONIJDACKGJG_GET_FIELDSCORECONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096970)
+#define ONIJDACKGJG_GET_HITTEDCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096AA0)
+#define ONIJDACKGJG_GET_ITEMID2ABILITYCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096A50)
+#define ONIJDACKGJG_GET_MESSAGECONFIGS_OFFSET UNITYSDK_OFFSET(0x1B0969C0)
+#define ONIJDACKGJG_GET_MOVESTATE2MOVECONFIG_OFFSET UNITYSDK_OFFSET(0x1B096A80)
+#define ONIJDACKGJG_GET_NPCCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B0969E0)
+#define ONIJDACKGJG_GET_NPCSTATETREECONFIGS_OFFSET UNITYSDK_OFFSET(0x1B0969F0)
+#define ONIJDACKGJG_GET_REGION2TAGS_OFFSET UNITYSDK_OFFSET(0x1B096A40)
+#define ONIJDACKGJG_GET_REGIONCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096940)
+#define ONIJDACKGJG_GET_REGIONID2REGIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1B096A10)
+#define ONIJDACKGJG_GET_SCORERANKRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1B096AD0)
+#define ONIJDACKGJG_GET_SECTIONCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B0969B0)
+#define ONIJDACKGJG_GET_SPARKLECONFIG_OFFSET UNITYSDK_OFFSET(0x1B096B20)
+#define ONIJDACKGJG_GET_SPECIALBETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1B096B00)
+#define ONIJDACKGJG_GET_STARTREGIONLENGTH_OFFSET UNITYSDK_OFFSET(0x1B096AB0)
+#define ONIJDACKGJG_GET_TAG2REGIONS_OFFSET UNITYSDK_OFFSET(0x1B096A30)
+#define ONIJDACKGJG_GET_TITLECONFIGS_OFFSET UNITYSDK_OFFSET(0x1B096A00)
+#define ONIJDACKGJG_GOMFOBODFJG_OFFSET UNITYSDK_OFFSET(0x1B092430)
+#define ONIJDACKGJG_GOOMKAONELJ_OFFSET UNITYSDK_OFFSET(0x1B08F8F0)
+#define ONIJDACKGJG_HNFAAJKMCMH_OFFSET UNITYSDK_OFFSET(0x1B095EC0)
+#define ONIJDACKGJG_IDMLJPJPMMA_OFFSET UNITYSDK_OFFSET(0x1B093280)
+#define ONIJDACKGJG_IIOBFJIEICI_OFFSET UNITYSDK_OFFSET(0x1B0958A0)
+#define ONIJDACKGJG_IJOEDPMHHKN_OFFSET UNITYSDK_OFFSET(0x1B095940)
+#define ONIJDACKGJG_IMDOMFGDHHG_OFFSET UNITYSDK_OFFSET(0x1B08E660)
+#define ONIJDACKGJG_INKOLKIONPO_OFFSET UNITYSDK_OFFSET(0x1B08E710)
+#define ONIJDACKGJG_INNCAHBBOKK_OFFSET UNITYSDK_OFFSET(0x1B08ECF0)
+#define ONIJDACKGJG_JEODJGGCJAB_OFFSET UNITYSDK_OFFSET(0x1B0910F0)
+#define ONIJDACKGJG_LPHDOHFAKBA_OFFSET UNITYSDK_OFFSET(0x1B0929C0)
+#define ONIJDACKGJG_MJDPABKDEOK_OFFSET UNITYSDK_OFFSET(0x1B0911C0)
+#define ONIJDACKGJG_MJPHDGIPBNB_OFFSET UNITYSDK_OFFSET(0x1B094070)
+#define ONIJDACKGJG_NAMKAHLOBML_OFFSET UNITYSDK_OFFSET(0x1B08E100)
+#define ONIJDACKGJG_NFCPDGAPDKI_OFFSET UNITYSDK_OFFSET(0x1B093F30)
+#define ONIJDACKGJG_NLIKKGDFHNI_OFFSET UNITYSDK_OFFSET(0x1B096420)
+#define ONIJDACKGJG_OBMFBBLKIHD_OFFSET UNITYSDK_OFFSET(0x1B0941B0)
+#define ONIJDACKGJG_OFFEGFABNDM_OFFSET UNITYSDK_OFFSET(0x1B08F510)
+#define ONIJDACKGJG_OLAONAHACOB_OFFSET UNITYSDK_OFFSET(0x1B090420)
+#define ONIJDACKGJG_OOLPAGPCMDH_OFFSET UNITYSDK_OFFSET(0x1B094C50)
+#define ONIJDACKGJG_PCKNLBIPOJE_OFFSET UNITYSDK_OFFSET(0x1B090750)
+#define ONIJDACKGJG_PKPGMBKHFEI_OFFSET UNITYSDK_OFFSET(0x1B08F700)
+#define ONIJDACKGJG_POFLHGDOPNA_OFFSET UNITYSDK_OFFSET(0x1B093DF0)
+#define ONIJDACKGJG_SET_BETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1B096AF0)
+#define ONIJDACKGJG_SET_SPECIALBETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1B096B10)
+#define ONIJDACKGJG_SET_STARTREGIONLENGTH_OFFSET UNITYSDK_OFFSET(0x1B096AC0)
 
-inline static constexpr unsigned int ONIJDACKGJG_TypeDefinitionIndex = 37227;
+inline static constexpr unsigned int ONIJDACKGJG_TypeDefinitionIndex = 38155;
 
 	class ONIJDACKGJG : public ::KILOJFMKNAI
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceRegionRow*>* _RegionID2RegionConfig_k__BackingField; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceHitType, ::RPG::GameCore::CakeRaceHitConfig*>* _HittedConfigs_k__BackingField; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AIConfig*>* _NpcStateTreeConfigs_k__BackingField; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* _Field2Regions_k__BackingField; // 0x30
-		::RPG::GameCore::CakeRaceGameConfig* OEBCGADNGII; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceBattleItemRow*>* _BattleItemConfigs_k__BackingField; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceCatRow*>* _CatConfigs_k__BackingField; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceSectionRow*>* _SectionConfigs_k__BackingField; // 0x50
-		::System::Collections::Generic::List_1<::System::UInt32>* _ScoreRankRatioList_k__BackingField; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AIConfig*>* _CatStateTreeConfigs_k__BackingField; // 0x60
-		::RPG::GameCore::CakeRaceAbilityConfig* LGFALBOPNIP; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ConstValueLittleGameRow*>* _ConstValueLittleGameConfigs_k__BackingField; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceEffectRow*>* _EffectConfigs_k__BackingField; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceFieldScoreRow*>* _FieldScoreConfigs_k__BackingField; // 0x80
-		::OEIJDDBIPAJ* _SparkleConfig_k__BackingField; // 0x88
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceFieldRow*>* _FieldConfigs_k__BackingField; // 0x90
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceRegionTag, ::System::Collections::Generic::List_1<::System::UInt32>*>* _Tag2Regions_k__BackingField; // 0x98
-		::System::Collections::Generic::List_1<::RPG::GameCore::CakeRaceTitleRow*>* _TitleConfigs_k__BackingField; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceEmojiRow*>* _EmojiConfigs_k__BackingField; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceAbilityConfig*>* _CatAbilityConfigs_k__BackingField; // 0xB0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceMoveState, ::RPG::GameCore::CakeRaceMoveStateConfig*>* _MoveState2MoveConfig_k__BackingField; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceMessageRow*>* _MessageConfigs_k__BackingField; // 0xC0
-		::RPG::GameCore::CakeRaceAbilityConfig* ADBDKHJFAFJ; // 0xC8
-		::System::Collections::Generic::List_1<::System::UInt32>* _SpecialBetCoinRewardRatioList_k__BackingField; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::RPG::GameCore::CakeRaceRegionTag>*>* _Region2Tags_k__BackingField; // 0xD8
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceAbilityConfig*>* _ItemId2AbilityConfigs_k__BackingField; // 0xE0
-		::RPG::GameCore::LittleGameLevelConfig* CLKEPOJFDPD; // 0xE8
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::PECDJPIHMAM*>* _RegionConfigs_k__BackingField; // 0xF0
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceAbilityConfig*>* _FieldEffectAbilityConfigs_k__BackingField; // 0xF8
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceCellType, ::RPG::GameCore::CakeRaceTrapCellConfig*>* _CellType2MoveConfig_k__BackingField; // 0x100
-		::System::Collections::Generic::List_1<::System::UInt32>* _BetCoinRewardRatioList_k__BackingField; // 0x108
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceNPCRow*>* _NpcConfigs_k__BackingField; // 0x110
-		::System::UInt32 _StartRegionLength_k__BackingField; // 0x118
-		::System::Byte _padding0[0x4];
-		::System::UInt64 OHNODJBABAJ; // 0x120
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceAbilityConfig*>* _FieldEffectAbilityConfigs_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceFieldScoreRow*>* _FieldScoreConfigs_k__BackingField; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceNPCRow*>* _NpcConfigs_k__BackingField; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceFieldRow*>* _FieldConfigs_k__BackingField; // 0x30
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceMoveState, ::RPG::GameCore::CakeRaceMoveStateConfig*>* _MoveState2MoveConfig_k__BackingField; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceAbilityConfig*>* _ItemId2AbilityConfigs_k__BackingField; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AIConfig*>* _CatStateTreeConfigs_k__BackingField; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceRegionRow*>* _RegionID2RegionConfig_k__BackingField; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceCatRow*>* _CatConfigs_k__BackingField; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceEmojiRow*>* _EmojiConfigs_k__BackingField; // 0x60
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceHitType, ::RPG::GameCore::CakeRaceHitConfig*>* _HittedConfigs_k__BackingField; // 0x68
+		::RPG::GameCore::CakeRaceAbilityConfig* ADBDKHJFAFJ; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::PECDJPIHMAM*>* _RegionConfigs_k__BackingField; // 0x78
+		::System::Collections::Generic::List_1<::System::UInt32>* _ScoreRankRatioList_k__BackingField; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ConstValueLittleGameRow*>* _ConstValueLittleGameConfigs_k__BackingField; // 0x88
+		::System::Collections::Generic::List_1<::System::UInt32>* _SpecialBetCoinRewardRatioList_k__BackingField; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::RPG::GameCore::CakeRaceRegionTag>*>* _Region2Tags_k__BackingField; // 0x98
+		::RPG::GameCore::LittleGameLevelConfig* CLKEPOJFDPD; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AIConfig*>* _NpcStateTreeConfigs_k__BackingField; // 0xA8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceRegionTag, ::System::Collections::Generic::List_1<::System::UInt32>*>* _Tag2Regions_k__BackingField; // 0xB0
+		::RPG::GameCore::CakeRaceAbilityConfig* LGFALBOPNIP; // 0xB8
+		::System::Collections::Generic::List_1<::RPG::GameCore::CakeRaceTitleRow*>* _TitleConfigs_k__BackingField; // 0xC0
+		::System::Collections::Generic::List_1<::System::UInt32>* _BetCoinRewardRatioList_k__BackingField; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceBattleItemRow*>* _BattleItemConfigs_k__BackingField; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceAbilityConfig*>* _CatAbilityConfigs_k__BackingField; // 0xD8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceCellType, ::RPG::GameCore::CakeRaceTrapCellConfig*>* _CellType2MoveConfig_k__BackingField; // 0xE0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceMessageRow*>* _MessageConfigs_k__BackingField; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* _Field2Regions_k__BackingField; // 0xF0
+		::RPG::GameCore::CakeRaceGameConfig* OEBCGADNGII; // 0xF8
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceEffectRow*>* _EffectConfigs_k__BackingField; // 0x100
+		::OEIJDDBIPAJ* _SparkleConfig_k__BackingField; // 0x108
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::CakeRaceSectionRow*>* _SectionConfigs_k__BackingField; // 0x110
+		::System::UInt64 OHNODJBABAJ; // 0x118
+		::System::UInt32 _StartRegionLength_k__BackingField; // 0x120
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ONIJDACKGJG_CTOR_OFFSET))(this, a1);

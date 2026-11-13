@@ -6,10 +6,10 @@ class FOACJPEHDKO;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointPhaseViewModel; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define OADFMMPLOGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD14C00)
-#define OADFMMPLOGL_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xBD14C10)
+#define OADFMMPLOGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB56360)
+#define OADFMMPLOGL_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x1AB56370)
 
-inline static constexpr unsigned int OADFMMPLOGL_TypeDefinitionIndex = 79695;
+inline static constexpr unsigned int OADFMMPLOGL_TypeDefinitionIndex = 82472;
 
 	class OADFMMPLOGL : public ::System::Object
 	{

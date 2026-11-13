@@ -7,7 +7,7 @@ namespace System { class IDisposable; }
 
 namespace Sofa
 {
-	inline static constexpr unsigned int BaseSofaUI3DWindow_1_TypeDefinitionIndex = 49693;
+	inline static constexpr unsigned int BaseSofaUI3DWindow_1_TypeDefinitionIndex = 50769;
 
 	template <typename T>
 	class BaseSofaUI3DWindow_1 : public ::Sofa::BaseSofaUI3DWindow

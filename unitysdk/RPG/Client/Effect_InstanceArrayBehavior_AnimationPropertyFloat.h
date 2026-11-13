@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_ANIMATIONPROPERTYFLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0xCD32D10)
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_ANIMATIONPROPERTYFLOAT_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xCD31E10)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_ANIMATIONPROPERTYFLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x17BF4080)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_ANIMATIONPROPERTYFLOAT_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x17BF3180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceArrayBehavior_AnimationPropertyFloat_TypeDefinitionIndex = 70616;
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_AnimationPropertyFloat_TypeDefinitionIndex = 72593;
 
 	class Effect_InstanceArrayBehavior_AnimationPropertyFloat : public ::System::Object
 	{

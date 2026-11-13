@@ -3,10 +3,10 @@
 class OEPOKOJHKEL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NLABOOBJODO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC46DF0)
-#define NLABOOBJODO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC46E20)
+#define NLABOOBJODO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7CA110)
+#define NLABOOBJODO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A7CA140)
 
-inline static constexpr unsigned int NLABOOBJODO_TypeDefinitionIndex = 54952;
+inline static constexpr unsigned int NLABOOBJODO_TypeDefinitionIndex = 56126;
 
 	class NLABOOBJODO
 	{

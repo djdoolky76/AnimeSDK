@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int KeyboardEventBase_1_TypeDefinitionIndex = 5951;
+	inline static constexpr unsigned int KeyboardEventBase_1_TypeDefinitionIndex = 5959;
 
 	template <typename T>
 	class KeyboardEventBase_1

@@ -4,11 +4,11 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define NFKDMCDDEKI_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBB93320)
-#define NFKDMCDDEKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB93240)
-#define NFKDMCDDEKI_GET_CMDID_OFFSET UNITYSDK_OFFSET(0xBB93230)
+#define NFKDMCDDEKI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x18E7B020)
+#define NFKDMCDDEKI_CTOR_OFFSET UNITYSDK_OFFSET(0x18E7AF40)
+#define NFKDMCDDEKI_GET_CMDID_OFFSET UNITYSDK_OFFSET(0x18E7AF30)
 
-inline static constexpr unsigned int NFKDMCDDEKI_TypeDefinitionIndex = 69403;
+inline static constexpr unsigned int NFKDMCDDEKI_TypeDefinitionIndex = 71357;
 
 	class NFKDMCDDEKI : public ::System::Exception
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class OverrideLightDeviceFollowColliderMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FMCHOAHPOGE_CTOR_OFFSET UNITYSDK_OFFSET(0x158423D0)
-#define FMCHOAHPOGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158424F0)
-#define FMCHOAHPOGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158423E0)
-#define FMCHOAHPOGE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15842530)
-#define FMCHOAHPOGE_TICK_OFFSET UNITYSDK_OFFSET(0x15842580)
+#define FMCHOAHPOGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1897DB10)
+#define FMCHOAHPOGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1897DC30)
+#define FMCHOAHPOGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1897DB20)
+#define FMCHOAHPOGE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1897DC70)
+#define FMCHOAHPOGE_TICK_OFFSET UNITYSDK_OFFSET(0x1897DCC0)
 
-inline static constexpr unsigned int FMCHOAHPOGE_TypeDefinitionIndex = 52768;
+inline static constexpr unsigned int FMCHOAHPOGE_TypeDefinitionIndex = 53912;
 
 	class FMCHOAHPOGE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::OverrideLightDeviceFollowColliderMode* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::OverrideLightDeviceFollowColliderMode* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OverrideLightDeviceFollowColliderMode* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::OverrideLightDeviceFollowColliderMode*))((::PBYTE)hIl2Cpp + FMCHOAHPOGE_CTOR_OFFSET))(this, a1, a2);

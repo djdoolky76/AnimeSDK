@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_UNMARSHALLEDATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F46F420)
+#define UNITYENGINE_BINDINGS_UNMARSHALLEDATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20972640)
 
 namespace UnityEngine::Bindings
 {

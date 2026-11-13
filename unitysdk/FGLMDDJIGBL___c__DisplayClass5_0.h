@@ -5,10 +5,10 @@ class KAKADGHNMFK;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FGLMDDJIGBL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1575DAE0)
-#define FGLMDDJIGBL___C__DISPLAYCLASS5_0___EVALUATEARESELECTIONSEQUAL_B__0_OFFSET UNITYSDK_OFFSET(0x1575DAF0)
+#define FGLMDDJIGBL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18A92E90)
+#define FGLMDDJIGBL___C__DISPLAYCLASS5_0___EVALUATEARESELECTIONSEQUAL_B__0_OFFSET UNITYSDK_OFFSET(0x18A92EA0)
 
-inline static constexpr unsigned int FGLMDDJIGBL___c__DisplayClass5_0_TypeDefinitionIndex = 77575;
+inline static constexpr unsigned int FGLMDDJIGBL___c__DisplayClass5_0_TypeDefinitionIndex = 80310;
 
 	class FGLMDDJIGBL___c__DisplayClass5_0 : public ::System::Object
 	{

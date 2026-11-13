@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FKLECLLJCEH_TypeDefinitionIndex = 41684;
+inline static constexpr unsigned int FKLECLLJCEH_TypeDefinitionIndex = 42659;
 
 	class FKLECLLJCEH
 	{

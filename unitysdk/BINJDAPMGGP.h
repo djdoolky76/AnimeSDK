@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetFloatingTextInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BINJDAPMGGP_CTOR_OFFSET UNITYSDK_OFFSET(0xB78F5E0)
-#define BINJDAPMGGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB78F610)
+#define BINJDAPMGGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD29E0)
+#define BINJDAPMGGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BAD2A10)
 
-inline static constexpr unsigned int BINJDAPMGGP_TypeDefinitionIndex = 58545;
+inline static constexpr unsigned int BINJDAPMGGP_TypeDefinitionIndex = 59810;
 
 	class BINJDAPMGGP
 	{

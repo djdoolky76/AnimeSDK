@@ -5,19 +5,19 @@ namespace RPG::Client::FateRin::Card { class FateRinDeckEditViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINDECKEDITVIEWMODEL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEE4CE0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINDECKEDITVIEWMODEL___C__DISPLAYCLASS3_0___DOSAVEDECKSANDEXIT_B__0_OFFSET UNITYSDK_OFFSET(0xCEE5150)
-#define RPG_CLIENT_FATERIN_CARD_FATERINDECKEDITVIEWMODEL___C__DISPLAYCLASS3_0___DOSAVEDECKSANDEXIT_B__1_OFFSET UNITYSDK_OFFSET(0xCEE5220)
+#define RPG_CLIENT_FATERIN_CARD_FATERINDECKEDITVIEWMODEL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0AA9F0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINDECKEDITVIEWMODEL___C__DISPLAYCLASS3_0___DOSAVEDECKSANDEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x1E0AAE20)
+#define RPG_CLIENT_FATERIN_CARD_FATERINDECKEDITVIEWMODEL___C__DISPLAYCLASS3_0___DOSAVEDECKSANDEXIT_B__1_OFFSET UNITYSDK_OFFSET(0x1E0AAF00)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinDeckEditViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 81161;
+	inline static constexpr unsigned int FateRinDeckEditViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 83941;
 
 	class FateRinDeckEditViewModel___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* toastStrings; // 0x10
-		::RPG::Client::FateRin::Card::FateRinDeckEditViewModel* __4__this; // 0x18
+		::RPG::Client::FateRin::Card::FateRinDeckEditViewModel* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* toastStrings; // 0x18
 		::System::UInt32 saveBlockUID; // 0x20
 		::System::Void _ctor()
 		{

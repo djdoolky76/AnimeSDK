@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelFloorEditorSyncOptions; }
 
-#define RPG_GAMECORE_LEVELFLOOREDITORSYNCOPTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77F6A0)
-#define RPG_GAMECORE_LEVELFLOOREDITORSYNCOPTIONS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D77F660)
+#define RPG_GAMECORE_LEVELFLOOREDITORSYNCOPTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D932490)
+#define RPG_GAMECORE_LEVELFLOOREDITORSYNCOPTIONS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D932450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelFloorEditorSyncOptions_TypeDefinitionIndex = 17416;
+	inline static constexpr unsigned int LevelFloorEditorSyncOptions_TypeDefinitionIndex = 17584;
 
 	class LevelFloorEditorSyncOptions : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_SERIALIZABLEHASHSETBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xE48A500)
+#define RPG_CUSTOMRP_SERIALIZABLEHASHSETBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1824F1F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SerializableHashSetBase_TypeDefinitionIndex = 51879;
+	inline static constexpr unsigned int SerializableHashSetBase_TypeDefinitionIndex = 52965;
 
 	class SerializableHashSetBase : public ::System::Object
 	{

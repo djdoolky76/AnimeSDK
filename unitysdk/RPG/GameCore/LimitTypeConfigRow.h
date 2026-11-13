@@ -6,20 +6,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LimitTypeConfigRow; }
 
-#define RPG_GAMECORE_LIMITTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A4930)
-#define RPG_GAMECORE_LIMITTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A3F30)
+#define RPG_GAMECORE_LIMITTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F253BA0)
+#define RPG_GAMECORE_LIMITTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F2531A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimitTypeConfigRow_TypeDefinitionIndex = 15099;
+	inline static constexpr unsigned int LimitTypeConfigRow_TypeDefinitionIndex = 15255;
 
 	class LimitTypeConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LimitType LimitType; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID LimitTypeDesc; // 0x18
-		::RPG::Client::TextID LimitTypeDetailDesc; // 0x28
+		::RPG::Client::TextID LimitTypeDesc; // 0x10
+		::RPG::Client::TextID LimitTypeDetailDesc; // 0x20
+		::RPG::GameCore::LimitType LimitType; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIMITTYPECONFIGROW_CTOR_OFFSET))(this);

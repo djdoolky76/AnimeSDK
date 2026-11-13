@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GFAGKMMBEHF_CTOR_OFFSET UNITYSDK_OFFSET(0x159D9A30)
+#define GFAGKMMBEHF_CTOR_OFFSET UNITYSDK_OFFSET(0x17CE6D80)
 
-inline static constexpr unsigned int GFAGKMMBEHF_TypeDefinitionIndex = 77433;
+inline static constexpr unsigned int GFAGKMMBEHF_TypeDefinitionIndex = 80168;
 
 	class GFAGKMMBEHF : public ::System::Object
 	{

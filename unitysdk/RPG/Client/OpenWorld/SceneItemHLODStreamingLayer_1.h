@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_TypeDefinitionIndex = 73820;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_TypeDefinitionIndex = 75946;
 
 	template <typename T>
 	class SceneItemHLODStreamingLayer_1 : public ::GDMONJOAKHD

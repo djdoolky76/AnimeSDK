@@ -7,7 +7,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SeparationFunction_TypeDefinitionIndex = 36757;
+	inline static constexpr unsigned int B2SeparationFunction_TypeDefinitionIndex = 37685;
 
 	struct alignas(4) B2SeparationFunction
 	{

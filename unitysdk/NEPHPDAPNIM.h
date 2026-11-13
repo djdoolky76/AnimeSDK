@@ -9,19 +9,19 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 namespace System { class String; }
 
-#define NEPHPDAPNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D09E0)
-#define NEPHPDAPNIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1D09F0)
-#define NEPHPDAPNIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D09B0)
+#define NEPHPDAPNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A4230)
+#define NEPHPDAPNIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8A4240)
+#define NEPHPDAPNIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8A4200)
 
-inline static constexpr unsigned int NEPHPDAPNIM_TypeDefinitionIndex = 24223;
+inline static constexpr unsigned int NEPHPDAPNIM_TypeDefinitionIndex = 24682;
 
 	class NEPHPDAPNIM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x18
-		::RPG::GameCore::ValueEvaluatorConfig* MNDFOPKBHKP; // 0x20
-		::Il2CppArray<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x28
-		::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x30
+		::Il2CppArray<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x18
+		::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x20
+		::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x28
+		::RPG::GameCore::ValueEvaluatorConfig* MNDFOPKBHKP; // 0x30
 		::RPG::GameCore::RtSkillPropertyType ACHILGIPGKL; // 0x38
 		::System::Void _ctor()
 		{

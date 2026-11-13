@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPolyMeshSample.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSubmeshData.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_FILLVERTEXBUFFERJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3C5FF50)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_FILLVERTEXBUFFERJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3F25C50)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicMesh_FillVertexBufferJob_TypeDefinitionIndex = 45857;
+	inline static constexpr unsigned int AlembicMesh_FillVertexBufferJob_TypeDefinitionIndex = 46886;
 
 	struct alignas(8) AlembicMesh_FillVertexBufferJob
 	{

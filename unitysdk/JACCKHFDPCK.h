@@ -8,18 +8,18 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JACCKHFDPCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x16532510)
-#define JACCKHFDPCK_DGBHFNCJEGP_OFFSET UNITYSDK_OFFSET(0x165323D0)
-#define JACCKHFDPCK_DGIFGCJKELM_OFFSET UNITYSDK_OFFSET(0x16532280)
+#define JACCKHFDPCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x19320EC0)
+#define JACCKHFDPCK_DGBHFNCJEGP_OFFSET UNITYSDK_OFFSET(0x19320D80)
+#define JACCKHFDPCK_DGIFGCJKELM_OFFSET UNITYSDK_OFFSET(0x19320C30)
 
-inline static constexpr unsigned int JACCKHFDPCK_TypeDefinitionIndex = 60110;
+inline static constexpr unsigned int JACCKHFDPCK_TypeDefinitionIndex = 61394;
 
 	class JACCKHFDPCK : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_GGEDMGOGICB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "JACCKHFDPCK")->GetStaticField(0x57740);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "JACCKHFDPCK")->GetStaticField(0x4E6E0);
 		}
 
 		static ::System::Void _cctor()

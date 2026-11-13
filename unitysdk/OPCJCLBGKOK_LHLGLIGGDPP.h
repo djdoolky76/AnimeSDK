@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/BoolEx.h"
 #include "unitysdk/System/Object.h"
 
-#define OPCJCLBGKOK_LHLGLIGGDPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF9DEF0)
+#define OPCJCLBGKOK_LHLGLIGGDPP_CTOR_OFFSET UNITYSDK_OFFSET(0x18AB4670)
 
-inline static constexpr unsigned int OPCJCLBGKOK_LHLGLIGGDPP_TypeDefinitionIndex = 71912;
+inline static constexpr unsigned int OPCJCLBGKOK_LHLGLIGGDPP_TypeDefinitionIndex = 73933;
 
 	class OPCJCLBGKOK_LHLGLIGGDPP : public ::System::Object
 	{

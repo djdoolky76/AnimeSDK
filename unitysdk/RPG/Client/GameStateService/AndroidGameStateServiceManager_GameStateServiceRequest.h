@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_GAMESTATESERVICEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_GAMESTATESERVICEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x3D9DFE0)
 
 namespace RPG::Client::GameStateService
 {
-	inline static constexpr unsigned int AndroidGameStateServiceManager_GameStateServiceRequest_TypeDefinitionIndex = 75628;
+	inline static constexpr unsigned int AndroidGameStateServiceManager_GameStateServiceRequest_TypeDefinitionIndex = 77955;
 
 	struct alignas(8) AndroidGameStateServiceManager_GameStateServiceRequest
 	{

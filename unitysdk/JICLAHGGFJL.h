@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class JICLAHGGFJL;
 
-#define JICLAHGGFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0065F0)
-#define JICLAHGGFJL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D006480)
+#define JICLAHGGFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5AC840)
+#define JICLAHGGFJL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5AC6D0)
 
-inline static constexpr unsigned int JICLAHGGFJL_TypeDefinitionIndex = 11694;
+inline static constexpr unsigned int JICLAHGGFJL_TypeDefinitionIndex = 11751;
 
 	class JICLAHGGFJL : public ::System::Object
 	{
 	public:
-		::System::Int32 OOGCAPCIJGN; // 0x10
-		::System::Int32 JLLGOBPAGLD; // 0x14
+		::System::Int32 JLLGOBPAGLD; // 0x10
+		::System::Int32 OOGCAPCIJGN; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JICLAHGGFJL_CTOR_OFFSET))(this);

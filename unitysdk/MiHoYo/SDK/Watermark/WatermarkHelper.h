@@ -5,21 +5,21 @@ namespace MiHoYo::SDK::Watermark { class WatermarkRequest; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE9A50)
-#define MIHOYO_SDK_WATERMARK_WATERMARKHELPER_GETAPPID_OFFSET UNITYSDK_OFFSET(0x1BFE9530)
-#define MIHOYO_SDK_WATERMARK_WATERMARKHELPER_GETWATERMARKREQUESTBODY_OFFSET UNITYSDK_OFFSET(0x1BFE9250)
-#define MIHOYO_SDK_WATERMARK_WATERMARKHELPER_GETWATERMARKREQUESTHEADER_OFFSET UNITYSDK_OFFSET(0x1BFE96A0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4DC9B0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKHELPER_GETAPPID_OFFSET UNITYSDK_OFFSET(0x1E4DC490)
+#define MIHOYO_SDK_WATERMARK_WATERMARKHELPER_GETWATERMARKREQUESTBODY_OFFSET UNITYSDK_OFFSET(0x1E4DC1B0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKHELPER_GETWATERMARKREQUESTHEADER_OFFSET UNITYSDK_OFFSET(0x1E4DC600)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkHelper_TypeDefinitionIndex = 8866;
+	inline static constexpr unsigned int WatermarkHelper_TypeDefinitionIndex = 8875;
 
 	class WatermarkHelper : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_appId()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.Watermark", "WatermarkHelper")->GetStaticField(0x2B9D0);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.Watermark", "WatermarkHelper")->GetStaticField(0x21260);
 		}
 
 		::System::Void _ctor()

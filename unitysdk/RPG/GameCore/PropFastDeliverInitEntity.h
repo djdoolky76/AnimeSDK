@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropFastDeliverInitEntity; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPFASTDELIVERINITENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91F4C0)
-#define RPG_GAMECORE_PROPFASTDELIVERINITENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D91F560)
-#define RPG_GAMECORE_PROPFASTDELIVERINITENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91F480)
+#define RPG_GAMECORE_PROPFASTDELIVERINITENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF896E0)
+#define RPG_GAMECORE_PROPFASTDELIVERINITENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF89780)
+#define RPG_GAMECORE_PROPFASTDELIVERINITENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF896A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropFastDeliverInitEntity_TypeDefinitionIndex = 22149;
+	inline static constexpr unsigned int PropFastDeliverInitEntity_TypeDefinitionIndex = 22554;
 
 	class PropFastDeliverInitEntity : public ::RPG::GameCore::TaskConfig
 	{

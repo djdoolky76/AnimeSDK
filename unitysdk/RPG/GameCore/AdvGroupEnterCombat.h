@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvGroupEnterCombat; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D373760)
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D373770)
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D373730)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EABB050)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EABB060)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EABB020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvGroupEnterCombat_TypeDefinitionIndex = 20559;
+	inline static constexpr unsigned int AdvGroupEnterCombat_TypeDefinitionIndex = 20895;
 
 	class AdvGroupEnterCombat : public ::RPG::GameCore::TaskConfig
 	{

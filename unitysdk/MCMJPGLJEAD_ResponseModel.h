@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MCMJPGLJEAD_RESPONSEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB882290)
+#define MCMJPGLJEAD_RESPONSEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x183BE850)
 
-inline static constexpr unsigned int MCMJPGLJEAD_ResponseModel_TypeDefinitionIndex = 49668;
+inline static constexpr unsigned int MCMJPGLJEAD_ResponseModel_TypeDefinitionIndex = 50744;
 
 	class MCMJPGLJEAD_ResponseModel : public ::System::Object
 	{

@@ -4,20 +4,20 @@
 namespace Google::Protobuf::Reflection { class UninterpretedOption_Types_NamePart; }
 namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B882CC0)
-#define GOOGLE_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B882D00)
-#define GOOGLE_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C___CCTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0x1B882D10)
+#define GOOGLE_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F39A990)
+#define GOOGLE_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F39A9D0)
+#define GOOGLE_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C___CCTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0x1F39A9E0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int UninterpretedOption_Types_NamePart___c_TypeDefinitionIndex = 5514;
+	inline static constexpr unsigned int UninterpretedOption_Types_NamePart___c_TypeDefinitionIndex = 5519;
 
 	class UninterpretedOption_Types_NamePart___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x245E0);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x239B0);
 		}
 
 		static ::System::Void _cctor()

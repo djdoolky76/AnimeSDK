@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::PixAir { class PixAirGameSession; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRSELLANDREFRESHLOCKER_CTOR_OFFSET UNITYSDK_OFFSET(0xDB46B20)
-#define RPG_CLIENT_PIXAIR_PIXAIRSELLANDREFRESHLOCKER_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xDB61960)
-#define RPG_CLIENT_PIXAIR_PIXAIRSELLANDREFRESHLOCKER__LOADCONFIG_OFFSET UNITYSDK_OFFSET(0xDB617B0)
+#define RPG_CLIENT_PIXAIR_PIXAIRSELLANDREFRESHLOCKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82BA60)
+#define RPG_CLIENT_PIXAIR_PIXAIRSELLANDREFRESHLOCKER_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x1D82BC20)
+#define RPG_CLIENT_PIXAIR_PIXAIRSELLANDREFRESHLOCKER__LOADCONFIG_OFFSET UNITYSDK_OFFSET(0x1D82BA70)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirSellAndRefreshLocker_TypeDefinitionIndex = 79345;
+	inline static constexpr unsigned int PixAirSellAndRefreshLocker_TypeDefinitionIndex = 82122;
 
 	class PixAirSellAndRefreshLocker : public ::System::Object
 	{
 	public:
 		::RPG::Client::PixAir::PixAirGameSession* _Session; // 0x10
-		::System::Boolean _HasConfig; // 0x18
+		::System::UInt32 _UnlockAreaID; // 0x18
+		::System::Boolean _HasConfig; // 0x1C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 _UnlockAreaID; // 0x1C
 		::System::UInt32 _UnlockNodeID; // 0x20
 		::System::Void _ctor(::RPG::Client::PixAir::PixAirGameSession* a1)
 		{

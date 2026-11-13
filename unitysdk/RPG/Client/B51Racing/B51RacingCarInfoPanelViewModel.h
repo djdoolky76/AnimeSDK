@@ -5,25 +5,25 @@
 namespace RPG::Client::B51Racing { class B51RacingCarStatItemViewModel; }
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARINFOPANELVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC725BE0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARINFOPANELVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B116C30)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarInfoPanelViewModel_TypeDefinitionIndex = 81988;
+	inline static constexpr unsigned int B51RacingCarInfoPanelViewModel_TypeDefinitionIndex = 84769;
 
 	class B51RacingCarInfoPanelViewModel : public ::System::Object
 	{
 	public:
 		::System::String* ActiveSkillIconPath; // 0x10
 		::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* StatItems; // 0x18
-		::RPG::Client::TextID ActiveSkillName; // 0x20
-		::RPG::Client::TextID ActiveSkillDescription; // 0x30
-		::RPG::Client::TextID CarName; // 0x40
-		::RPG::Client::TextID ActiveSkillLevelText; // 0x50
-		::System::UInt32 CarID; // 0x60
-		::System::UInt32 ActiveSkillLevel; // 0x64
-		::System::UInt32 ActiveSkillID; // 0x68
-		::System::UInt32 ActiveMaxSkillLevel; // 0x6C
+		::System::UInt32 ActiveSkillID; // 0x20
+		::System::UInt32 ActiveMaxSkillLevel; // 0x24
+		::RPG::Client::TextID ActiveSkillLevelText; // 0x28
+		::RPG::Client::TextID ActiveSkillDescription; // 0x38
+		::RPG::Client::TextID ActiveSkillName; // 0x48
+		::RPG::Client::TextID CarName; // 0x58
+		::System::UInt32 ActiveSkillLevel; // 0x68
+		::System::UInt32 CarID; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARINFOPANELVIEWMODEL_CTOR_OFFSET))(this);

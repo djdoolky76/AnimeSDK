@@ -6,20 +6,20 @@
 #include "unitysdk/DAFINEMBGOK.h"
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0xDC7EB60)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC7EDF0)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xDC7EDE0)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_EEPEIGJBCJH_OFFSET UNITYSDK_OFFSET(0xDC7E790)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_FMPJPKANFNJ_OFFSET UNITYSDK_OFFSET(0xDC7ED70)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_JEJPODLAHDC_OFFSET UNITYSDK_OFFSET(0xDC7E850)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKENTER_OFFSET UNITYSDK_OFFSET(0xDC7E380)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKEXIT_OFFSET UNITYSDK_OFFSET(0xDC7E920)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKINIT_OFFSET UNITYSDK_OFFSET(0xDC7EC30)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKRESET_OFFSET UNITYSDK_OFFSET(0xDC7EA20)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x1A4F4900)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4F4B90)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F4B80)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_EEPEIGJBCJH_OFFSET UNITYSDK_OFFSET(0x1A4F4530)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_FMPJPKANFNJ_OFFSET UNITYSDK_OFFSET(0x1A4F4B10)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_JEJPODLAHDC_OFFSET UNITYSDK_OFFSET(0x1A4F45F0)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKENTER_OFFSET UNITYSDK_OFFSET(0x1A4F4120)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKEXIT_OFFSET UNITYSDK_OFFSET(0x1A4F46C0)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKINIT_OFFSET UNITYSDK_OFFSET(0x1A4F49D0)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKRESET_OFFSET UNITYSDK_OFFSET(0x1A4F47C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CommandRobotPuzzleBlock_TypeDefinitionIndex = 78509;
+	inline static constexpr unsigned int CommandRobotPuzzleBlock_TypeDefinitionIndex = 81244;
 
 	class CommandRobotPuzzleBlock : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,34 +29,34 @@ namespace RPG::Client::Prop
 		::System::Byte _padding0[0x4];
 		::UnityEngine::Animator* KELPNPDJHEF; // 0x28
 		::UnityEngine::Animator* HCAGKLHBNOL; // 0x30
-		static ::System::Int32* StaticGet_NOGGBMBJEJB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0xC2F0);
-		}
-
 		static ::System::Int32* StaticGet_KOIADNBGOEE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0xC2F4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0x13300);
 		}
 
-		static ::System::Int32* StaticGet_NIJILEALPKE()
+		static ::System::Int32* StaticGet_NOGGBMBJEJB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0xC2F8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0x13304);
 		}
 
 		static ::System::Int32* StaticGet_GALMJPMAIAD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0xC2FC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0x13308);
 		}
 
 		static ::System::Int32* StaticGet_DCJAHAPDJOH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0xC300);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0x1330C);
 		}
 
 		static ::System::Int32* StaticGet_BMBMCGOHFNC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0xC304);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0x13310);
+		}
+
+		static ::System::Int32* StaticGet_NIJILEALPKE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "CommandRobotPuzzleBlock")->GetStaticField(0x13314);
 		}
 
 		// static const ::System::String* IIABNDIFJOI; // 0x0

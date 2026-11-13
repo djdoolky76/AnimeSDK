@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetDynamicString; }
 
-#define RPG_GAMECORE_SETDYNAMICSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA72350)
-#define RPG_GAMECORE_SETDYNAMICSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA72360)
-#define RPG_GAMECORE_SETDYNAMICSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA72320)
+#define RPG_GAMECORE_SETDYNAMICSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F863CA0)
+#define RPG_GAMECORE_SETDYNAMICSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F863CB0)
+#define RPG_GAMECORE_SETDYNAMICSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F863C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicString_TypeDefinitionIndex = 23818;
+	inline static constexpr unsigned int SetDynamicString_TypeDefinitionIndex = 24275;
 
 	class SetDynamicString : public ::RPG::GameCore::SetDynamicStringBase
 	{

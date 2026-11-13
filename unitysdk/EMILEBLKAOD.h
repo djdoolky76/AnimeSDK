@@ -6,24 +6,25 @@ namespace RPG::GameCore { class SetLoopMoveObjectSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define EMILEBLKAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x15530080)
-#define EMILEBLKAOD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15530090)
-#define EMILEBLKAOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155300D0)
-#define EMILEBLKAOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15530320)
-#define EMILEBLKAOD_TICK_OFFSET UNITYSDK_OFFSET(0x15530370)
+#define EMILEBLKAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x187D6F90)
+#define EMILEBLKAOD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x187D6FA0)
+#define EMILEBLKAOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187D6FE0)
+#define EMILEBLKAOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x187D7230)
+#define EMILEBLKAOD_TICK_OFFSET UNITYSDK_OFFSET(0x187D7280)
 
-inline static constexpr unsigned int EMILEBLKAOD_TypeDefinitionIndex = 58555;
+inline static constexpr unsigned int EMILEBLKAOD_TypeDefinitionIndex = 59820;
 
 	class EMILEBLKAOD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetLoopMoveObjectSpeed* OFKGLJOAMLD; // 0x18
-		::RPG::Client::LoopSceneMoveObject* HGDAENIAFKC; // 0x20
+		::UnityEngine::AnimationCurve* BKHPEABMAOE; // 0x18
+		::RPG::GameCore::SetLoopMoveObjectSpeed* OFKGLJOAMLD; // 0x20
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::UnityEngine::AnimationCurve* BKHPEABMAOE; // 0x30
-		::System::Single PGMIOKKLHIE; // 0x38
-		::System::Single BOBKPMMHHAM; // 0x3C
-		::System::Boolean DLNNFPKMHLO; // 0x40
+		::RPG::Client::LoopSceneMoveObject* HGDAENIAFKC; // 0x30
+		::System::Single BOBKPMMHHAM; // 0x38
+		::System::Boolean DLNNFPKMHLO; // 0x3C
+		::System::Byte _padding0[0x3];
+		::System::Single PGMIOKKLHIE; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetLoopMoveObjectSpeed* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetLoopMoveObjectSpeed*))((::PBYTE)hIl2Cpp + EMILEBLKAOD_CTOR_OFFSET))(this, a1, a2);

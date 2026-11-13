@@ -9,32 +9,33 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtStatusRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTSTATUSROW_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0x1DA38490)
-#define RPG_GAMECORE_RTSTATUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA38480)
-#define RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1DA37AB0)
-#define RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA37F70)
-#define RPG_GAMECORE_RTSTATUSROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DA37A20)
-#define RPG_GAMECORE_RTSTATUSROW_RESET_OFFSET UNITYSDK_OFFSET(0x1DA37A80)
+#define RPG_GAMECORE_RTSTATUSROW_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0x1EC7D730)
+#define RPG_GAMECORE_RTSTATUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7D720)
+#define RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1EC7CD50)
+#define RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC7D210)
+#define RPG_GAMECORE_RTSTATUSROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1EC7CCC0)
+#define RPG_GAMECORE_RTSTATUSROW_RESET_OFFSET UNITYSDK_OFFSET(0x1EC7CD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtStatusRow_TypeDefinitionIndex = 15082;
+	inline static constexpr unsigned int RtStatusRow_TypeDefinitionIndex = 15238;
 
 	class RtStatusRow : public ::System::Object
 	{
 	public:
-		::System::String* ModifierName; // 0x10
-		::System::String* StatusIconPathHighSize; // 0x18
-		::Il2CppArray<::System::String*>* ReadParamList; // 0x20
-		::System::String* StatusIconPath; // 0x28
+		::Il2CppArray<::System::String*>* ReadParamList; // 0x10
+		::System::String* StatusIconPath; // 0x18
+		::System::String* StatusIconPathHighSize; // 0x20
+		::System::String* ModifierName; // 0x28
 		::Il2CppArray<::RPG::GameCore::EnumStatusTag>* TagList; // 0x30
-		::RPG::Client::TextID StatusName; // 0x38
-		::RPG::Client::TextID StatusEffect; // 0x48
-		::System::UInt32 ID; // 0x58
-		::RPG::GameCore::EnumStatusType StatusType; // 0x5C
-		::RPG::Client::TextID StatusDesc; // 0x60
-		::System::UInt32 DisplayPriority; // 0x70
-		::System::Boolean CanDispel; // 0x74
+		::System::UInt32 DisplayPriority; // 0x38
+		::System::Boolean CanDispel; // 0x3C
+		::System::Byte _padding0[0x3];
+		::System::UInt32 ID; // 0x40
+		::RPG::GameCore::EnumStatusType StatusType; // 0x44
+		::RPG::Client::TextID StatusName; // 0x48
+		::RPG::Client::TextID StatusDesc; // 0x58
+		::RPG::Client::TextID StatusEffect; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_CTOR_OFFSET))(this);

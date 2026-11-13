@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define OFDOAKBCILC_CTOR_OFFSET UNITYSDK_OFFSET(0xBE36350)
+#define OFDOAKBCILC_CTOR_OFFSET UNITYSDK_OFFSET(0x17665650)
 
-inline static constexpr unsigned int OFDOAKBCILC_TypeDefinitionIndex = 61137;
+inline static constexpr unsigned int OFDOAKBCILC_TypeDefinitionIndex = 62522;
 
 	class OFDOAKBCILC : public ::System::Exception
 	{

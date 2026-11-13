@@ -4,18 +4,18 @@
 class OMINPDAIBLP;
 namespace System { class Object; }
 
-#define OMINPDAIBLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE89640)
-#define OMINPDAIBLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE89680)
-#define OMINPDAIBLP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE89690)
+#define OMINPDAIBLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC1D0F0)
+#define OMINPDAIBLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC1D130)
+#define OMINPDAIBLP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC1D140)
 
-inline static constexpr unsigned int OMINPDAIBLP___c_TypeDefinitionIndex = 29339;
+inline static constexpr unsigned int OMINPDAIBLP___c_TypeDefinitionIndex = 30050;
 
 	class OMINPDAIBLP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22AA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23360);
 		}
 
 		static ::System::Void _cctor()

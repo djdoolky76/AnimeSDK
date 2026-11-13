@@ -4,10 +4,10 @@
 class AOBICCEGAMM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IGOJNKPNAPA_CTOR_OFFSET UNITYSDK_OFFSET(0x16408F70)
-#define IGOJNKPNAPA_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x16408E40)
+#define IGOJNKPNAPA_CTOR_OFFSET UNITYSDK_OFFSET(0x19F66810)
+#define IGOJNKPNAPA_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x19F666E0)
 
-inline static constexpr unsigned int IGOJNKPNAPA_TypeDefinitionIndex = 67145;
+inline static constexpr unsigned int IGOJNKPNAPA_TypeDefinitionIndex = 69089;
 
 	class IGOJNKPNAPA : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByActivityElation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCPFFADCJMI_CTOR_OFFSET UNITYSDK_OFFSET(0x156C4350)
-#define FCPFFADCJMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156C4430)
+#define FCPFFADCJMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C02A4D0)
+#define FCPFFADCJMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C02A5B0)
 
-inline static constexpr unsigned int FCPFFADCJMI_TypeDefinitionIndex = 54806;
+inline static constexpr unsigned int FCPFFADCJMI_TypeDefinitionIndex = 55975;
 
 	class FCPFFADCJMI
 	{

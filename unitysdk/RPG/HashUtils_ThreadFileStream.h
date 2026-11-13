@@ -3,12 +3,12 @@
 #include "unitysdk/System/IO/FileStream.h"
 namespace System { class String; }
 
-#define RPG_HASHUTILS_THREADFILESTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5D730)
-#define RPG_HASHUTILS_THREADFILESTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1DD5E840)
+#define RPG_HASHUTILS_THREADFILESTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x16F92ED0)
+#define RPG_HASHUTILS_THREADFILESTREAM_READ_OFFSET UNITYSDK_OFFSET(0x16F93FA0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int HashUtils_ThreadFileStream_TypeDefinitionIndex = 6373;
+	inline static constexpr unsigned int HashUtils_ThreadFileStream_TypeDefinitionIndex = 6380;
 
 	class HashUtils_ThreadFileStream : public ::System::IO::FileStream
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class GDBCOMIAEDD;
 
-#define BANMMCONAFC___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E70300)
-#define BANMMCONAFC___C__DISPLAYCLASS11_0___DOSPLIT_B__0_OFFSET UNITYSDK_OFFSET(0x15E70D10)
+#define BANMMCONAFC___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x199E8400)
+#define BANMMCONAFC___C__DISPLAYCLASS11_0___DOSPLIT_B__0_OFFSET UNITYSDK_OFFSET(0x199E8E10)
 
-inline static constexpr unsigned int BANMMCONAFC___c__DisplayClass11_0_TypeDefinitionIndex = 77898;
+inline static constexpr unsigned int BANMMCONAFC___c__DisplayClass11_0_TypeDefinitionIndex = 80633;
 
 	class BANMMCONAFC___c__DisplayClass11_0 : public ::System::Object
 	{

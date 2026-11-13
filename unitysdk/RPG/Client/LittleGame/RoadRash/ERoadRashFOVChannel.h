@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int ERoadRashFOVChannel_TypeDefinitionIndex = 42893;
+	inline static constexpr unsigned int ERoadRashFOVChannel_TypeDefinitionIndex = 43874;
 
 	enum class ERoadRashFOVChannel : ::System::Int32
 	{

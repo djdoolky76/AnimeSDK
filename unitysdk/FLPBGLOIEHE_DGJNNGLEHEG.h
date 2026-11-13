@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLPBGLOIEHE_DGJNNGLEHEG_CTOR_OFFSET UNITYSDK_OFFSET(0x15838A00)
+#define FLPBGLOIEHE_DGJNNGLEHEG_CTOR_OFFSET UNITYSDK_OFFSET(0x18973BC0)
 
-inline static constexpr unsigned int FLPBGLOIEHE_DGJNNGLEHEG_TypeDefinitionIndex = 71767;
+inline static constexpr unsigned int FLPBGLOIEHE_DGJNNGLEHEG_TypeDefinitionIndex = 73775;
 
 	class FLPBGLOIEHE_DGJNNGLEHEG : public ::System::Object
 	{

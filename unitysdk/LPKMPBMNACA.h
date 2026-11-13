@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFloorSavedValueV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPKMPBMNACA_CTOR_OFFSET UNITYSDK_OFFSET(0xB81C5E0)
-#define LPKMPBMNACA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB81C610)
+#define LPKMPBMNACA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B6650)
+#define LPKMPBMNACA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B6B6680)
 
-inline static constexpr unsigned int LPKMPBMNACA_TypeDefinitionIndex = 52563;
+inline static constexpr unsigned int LPKMPBMNACA_TypeDefinitionIndex = 53669;
 
 	class LPKMPBMNACA
 	{

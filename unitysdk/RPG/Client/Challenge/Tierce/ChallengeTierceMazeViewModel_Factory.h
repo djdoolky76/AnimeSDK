@@ -6,12 +6,12 @@ class OBJANKHLNGO;
 namespace RPG::Client { class ChallengeData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceMazeViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC942920)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC942910)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1DDE0070)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE0060)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceMazeViewModel_Factory_TypeDefinitionIndex = 81593;
+	inline static constexpr unsigned int ChallengeTierceMazeViewModel_Factory_TypeDefinitionIndex = 84374;
 
 	class ChallengeTierceMazeViewModel_Factory : public ::System::Object
 	{

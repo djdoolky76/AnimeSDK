@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DebateInitialize; }
 namespace RPG::GameCore { class DebateTestimonySetting; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEBATEINITIALIZE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C7B30)
-#define RPG_GAMECORE_DEBATEINITIALIZE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5C7B40)
-#define RPG_GAMECORE_DEBATEINITIALIZE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C7AF0)
+#define RPG_GAMECORE_DEBATEINITIALIZE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F000F00)
+#define RPG_GAMECORE_DEBATEINITIALIZE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F000F10)
+#define RPG_GAMECORE_DEBATEINITIALIZE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F000EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebateInitialize_TypeDefinitionIndex = 21930;
+	inline static constexpr unsigned int DebateInitialize_TypeDefinitionIndex = 22321;
 
 	class DebateInitialize : public ::RPG::GameCore::TaskConfig
 	{

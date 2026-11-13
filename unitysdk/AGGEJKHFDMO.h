@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TargetUnMuteModifierEventSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AGGEJKHFDMO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF28510)
-#define AGGEJKHFDMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF28540)
+#define AGGEJKHFDMO_CTOR_OFFSET UNITYSDK_OFFSET(0x18DD9220)
+#define AGGEJKHFDMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DD9250)
 
-inline static constexpr unsigned int AGGEJKHFDMO_TypeDefinitionIndex = 55181;
+inline static constexpr unsigned int AGGEJKHFDMO_TypeDefinitionIndex = 56362;
 
 	class AGGEJKHFDMO
 	{

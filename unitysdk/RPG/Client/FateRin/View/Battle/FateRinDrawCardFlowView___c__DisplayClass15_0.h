@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardPileBtnViewModel; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC1D50)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS15_0___CREATEADDDRAWINFLIGHTACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCFC2000)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F1810)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS15_0___CREATEADDDRAWINFLIGHTACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1C4F1AC0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass15_0_TypeDefinitionIndex = 80686;
+	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass15_0_TypeDefinitionIndex = 83466;
 
 	class FateRinDrawCardFlowView___c__DisplayClass15_0 : public ::System::Object
 	{

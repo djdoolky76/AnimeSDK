@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define JIDKACGCHMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E8710)
+#define JIDKACGCHMA_CTOR_OFFSET UNITYSDK_OFFSET(0x17417370)
 
-inline static constexpr unsigned int JIDKACGCHMA_TypeDefinitionIndex = 69676;
+inline static constexpr unsigned int JIDKACGCHMA_TypeDefinitionIndex = 71633;
 
 	class JIDKACGCHMA : public ::System::Object
 	{
 	public:
-		::System::Single DAGEGMPKBEN; // 0x10
-		::System::Single ALHOPGNKGNH; // 0x14
+		::System::Single ALHOPGNKGNH; // 0x10
+		::System::Single DAGEGMPKBEN; // 0x14
 		::UnityEngine::Vector2 GAADIENJMGE; // 0x18
 		::System::Void _ctor()
 		{

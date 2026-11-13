@@ -4,18 +4,18 @@
 class DIFGGDIHDEG;
 namespace System { class Object; }
 
-#define DIFGGDIHDEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1903A0)
-#define DIFGGDIHDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1903D0)
-#define DIFGGDIHDEG___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E1903E0)
+#define DIFGGDIHDEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2065D0D0)
+#define DIFGGDIHDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2065D100)
+#define DIFGGDIHDEG___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x2065D110)
 
-inline static constexpr unsigned int DIFGGDIHDEG___c_TypeDefinitionIndex = 33753;
+inline static constexpr unsigned int DIFGGDIHDEG___c_TypeDefinitionIndex = 34668;
 
 	class DIFGGDIHDEG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x314C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B4F0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/CharacterStoryMoveData_MoveMode.h"
 #include "unitysdk/RPGTools/Timeline/CharacterStoryMoveStepData.h"
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVESTARTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C6810)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVESTARTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F43E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStoryMoveStartData_TypeDefinitionIndex = 48013;
+	inline static constexpr unsigned int CharacterStoryMoveStartData_TypeDefinitionIndex = 49044;
 
 	class CharacterStoryMoveStartData : public ::RPGTools::Timeline::CharacterStoryMoveStepData
 	{

@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define DBLMKONGKGL_CTOR_OFFSET UNITYSDK_OFFSET(0xE228850)
+#define DBLMKONGKGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B154AE0)
 
-inline static constexpr unsigned int DBLMKONGKGL_TypeDefinitionIndex = 69643;
+inline static constexpr unsigned int DBLMKONGKGL_TypeDefinitionIndex = 71600;
 
 	class DBLMKONGKGL : public ::System::Object
 	{

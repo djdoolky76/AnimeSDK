@@ -5,29 +5,29 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define IAHCDBNIDNG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E018B0)
-#define IAHCDBNIDNG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E018F0)
-#define IAHCDBNIDNG___C__CREATERECOMMENDITEMS_B__2_0_OFFSET UNITYSDK_OFFSET(0x15E01900)
-#define IAHCDBNIDNG___C__CREATERECOMMENDITEMS_B__2_1_OFFSET UNITYSDK_OFFSET(0x15E019A0)
+#define IAHCDBNIDNG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19422020)
+#define IAHCDBNIDNG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19422060)
+#define IAHCDBNIDNG___C__CREATERECOMMENDITEMS_B__2_0_OFFSET UNITYSDK_OFFSET(0x19422070)
+#define IAHCDBNIDNG___C__CREATERECOMMENDITEMS_B__2_1_OFFSET UNITYSDK_OFFSET(0x19422110)
 
-inline static constexpr unsigned int IAHCDBNIDNG___c_TypeDefinitionIndex = 65569;
+inline static constexpr unsigned int IAHCDBNIDNG___c_TypeDefinitionIndex = 67485;
 
 	class IAHCDBNIDNG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37D90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F1C0);
 		}
 
 		static ::System::Func_1<::System::String*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37D98);
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F1C8);
 		}
 
 		static ::System::Func_1<::System::String*>** StaticGet___9__2_1()
 		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37DA0);
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F1D0);
 		}
 
 		static ::System::Void _cctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NKAKKMMLOPA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC27710)
+#define NKAKKMMLOPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7A9C10)
 
-inline static constexpr unsigned int NKAKKMMLOPA_TypeDefinitionIndex = 47446;
+inline static constexpr unsigned int NKAKKMMLOPA_TypeDefinitionIndex = 48475;
 
 	class NKAKKMMLOPA : public ::System::Object
 	{

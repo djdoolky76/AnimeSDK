@@ -5,8 +5,8 @@ namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Serialization { class SerializationEvents; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C30F700)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_GETSERIALIZATIONEVENTSFORTYPE_OFFSET UNITYSDK_OFFSET(0x1C30C560)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEED840)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_GETSERIALIZATIONEVENTSFORTYPE_OFFSET UNITYSDK_OFFSET(0x1AEEA6A0)
 
 namespace System::Runtime::Serialization
 {
@@ -17,7 +17,7 @@ namespace System::Runtime::Serialization
 	public:
 		static ::System::Collections::Hashtable** StaticGet_cache()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Serialization", "SerializationEventsCache")->GetStaticField(0x20160);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Runtime.Serialization", "SerializationEventsCache")->GetStaticField(0x1AF30);
 		}
 
 		static ::System::Void _cctor()

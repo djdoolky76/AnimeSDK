@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterAtlasFaceEyeBlink; }
 namespace RPG::GameCore { class CharacterAtlasFaceEyeShapeGroup; }
 
-#define RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53B9A0)
-#define RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D53B720)
+#define RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F33D730)
+#define RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F33D4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterAtlasFaceEyeBlink_TypeDefinitionIndex = 17455;
+	inline static constexpr unsigned int CharacterAtlasFaceEyeBlink_TypeDefinitionIndex = 17623;
 
 	class CharacterAtlasFaceEyeBlink : public ::RPG::GameCore::JsonConfig
 	{

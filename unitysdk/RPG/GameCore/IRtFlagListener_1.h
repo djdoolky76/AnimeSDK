@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IRtFlagListener_1_TypeDefinitionIndex = 53989;
+	inline static constexpr unsigned int IRtFlagListener_1_TypeDefinitionIndex = 55153;
 
 	template <typename T>
 	class IRtFlagListener_1

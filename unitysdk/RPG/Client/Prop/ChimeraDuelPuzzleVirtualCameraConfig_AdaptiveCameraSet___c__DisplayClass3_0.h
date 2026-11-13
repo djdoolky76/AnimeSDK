@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet_Entry; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELPUZZLEVIRTUALCAMERACONFIG_ADAPTIVECAMERASET___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC66B10)
-#define RPG_CLIENT_PROP_CHIMERADUELPUZZLEVIRTUALCAMERACONFIG_ADAPTIVECAMERASET___C__DISPLAYCLASS3_0__ADAPT_B__1_OFFSET UNITYSDK_OFFSET(0xDC670F0)
+#define RPG_CLIENT_PROP_CHIMERADUELPUZZLEVIRTUALCAMERACONFIG_ADAPTIVECAMERASET___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C002A30)
+#define RPG_CLIENT_PROP_CHIMERADUELPUZZLEVIRTUALCAMERACONFIG_ADAPTIVECAMERASET___C__DISPLAYCLASS3_0__ADAPT_B__1_OFFSET UNITYSDK_OFFSET(0x1C003010)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet___c__DisplayClass3_0_TypeDefinitionIndex = 78316;
+	inline static constexpr unsigned int ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet___c__DisplayClass3_0_TypeDefinitionIndex = 81051;
 
 	class ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet___c__DisplayClass3_0 : public ::System::Object
 	{

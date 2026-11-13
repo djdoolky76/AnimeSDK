@@ -4,10 +4,10 @@
 class GHHJNCOAIJF;
 namespace System { class String; }
 
-#define FPNCAGDDHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15915D60)
-#define FPNCAGDDHPO_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x15915DD0)
+#define FPNCAGDDHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8509D0)
+#define FPNCAGDDHPO_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1B850A40)
 
-inline static constexpr unsigned int FPNCAGDDHPO_TypeDefinitionIndex = 69346;
+inline static constexpr unsigned int FPNCAGDDHPO_TypeDefinitionIndex = 71300;
 
 	class FPNCAGDDHPO : public ::System::Exception
 	{

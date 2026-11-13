@@ -3,7 +3,7 @@
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSONBinaryTag_TypeDefinitionIndex = 9951;
+	inline static constexpr unsigned int JSONBinaryTag_TypeDefinitionIndex = 9959;
 
 	enum class JSONBinaryTag : ::System::Int32
 	{

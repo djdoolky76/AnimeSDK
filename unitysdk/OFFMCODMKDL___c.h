@@ -4,18 +4,18 @@
 class OFFMCODMKDL;
 namespace System { class Object; }
 
-#define OFFMCODMKDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE15850)
-#define OFFMCODMKDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE15890)
-#define OFFMCODMKDL___C___CCTOR_B__44_0_OFFSET UNITYSDK_OFFSET(0x1DE158A0)
+#define OFFMCODMKDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F205420)
+#define OFFMCODMKDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F205460)
+#define OFFMCODMKDL___C___CCTOR_B__44_0_OFFSET UNITYSDK_OFFSET(0x1F205470)
 
-inline static constexpr unsigned int OFFMCODMKDL___c_TypeDefinitionIndex = 25810;
+inline static constexpr unsigned int OFFMCODMKDL___c_TypeDefinitionIndex = 26307;
 
 	class OFFMCODMKDL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16640);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12C90);
 		}
 
 		static ::System::Void _cctor()

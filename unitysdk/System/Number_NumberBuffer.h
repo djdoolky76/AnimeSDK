@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define SYSTEM_NUMBER_NUMBERBUFFER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2580E0)
-#define SYSTEM_NUMBER_NUMBERBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x3C23400)
-#define SYSTEM_NUMBER_NUMBERBUFFER_PACKFORNATIVE_OFFSET UNITYSDK_OFFSET(0x3C23420)
+#define SYSTEM_NUMBER_NUMBERBUFFER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3770A0)
+#define SYSTEM_NUMBER_NUMBERBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x3F1EE80)
+#define SYSTEM_NUMBER_NUMBERBUFFER_PACKFORNATIVE_OFFSET UNITYSDK_OFFSET(0x3F1EEA0)
 
 namespace System
 {
@@ -18,7 +18,7 @@ namespace System
 		::System::Boolean sign; // 0x28
 		static ::System::Int32* StaticGet_NumberBufferBytes()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System", "NumberBuffer")->GetStaticField(0x6120);
+			return (::System::Int32*)UnitySDK::FromName("System", "NumberBuffer")->GetStaticField(0x39C0);
 		}
 
 		::System::Void _ctor(::PVOID a1)

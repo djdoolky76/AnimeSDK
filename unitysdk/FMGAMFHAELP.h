@@ -4,9 +4,9 @@
 class FDPALAEIHPB;
 class OAIPJANPCEK;
 
-#define FMGAMFHAELP_CTOR_OFFSET UNITYSDK_OFFSET(0x15848190)
+#define FMGAMFHAELP_CTOR_OFFSET UNITYSDK_OFFSET(0x17EF95B0)
 
-inline static constexpr unsigned int FMGAMFHAELP_TypeDefinitionIndex = 77779;
+inline static constexpr unsigned int FMGAMFHAELP_TypeDefinitionIndex = 80514;
 
 	class FMGAMFHAELP : public ::DJJKNHPLHDI
 	{

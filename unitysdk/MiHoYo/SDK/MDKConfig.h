@@ -7,11 +7,11 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class ThirdLoginConfigs; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MDKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6CFC0)
+#define MIHOYO_SDK_MDKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C324C00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MDKConfig_TypeDefinitionIndex = 7909;
+	inline static constexpr unsigned int MDKConfig_TypeDefinitionIndex = 7918;
 
 	class MDKConfig : public ::System::Object
 	{

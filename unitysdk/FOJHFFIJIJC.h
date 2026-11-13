@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_ChallengerRevival; }
 
-#define FOJHFFIJIJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F8840)
-#define FOJHFFIJIJC_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5F8850)
+#define FOJHFFIJIJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA35A00)
+#define FOJHFFIJIJC_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1AA35A10)
 
-inline static constexpr unsigned int FOJHFFIJIJC_TypeDefinitionIndex = 36332;
+inline static constexpr unsigned int FOJHFFIJIJC_TypeDefinitionIndex = 37260;
 
 	class FOJHFFIJIJC : public ::AJBKGPOEBFG
 	{

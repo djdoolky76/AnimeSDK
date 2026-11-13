@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JJKLJLJOJNM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D00D7E0)
-#define JJKLJLJOJNM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D00DDB0)
-#define JJKLJLJOJNM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D00D950)
-#define JJKLJLJOJNM_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1D00D5D0)
-#define JJKLJLJOJNM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D00D1D0)
-#define JJKLJLJOJNM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D00D460)
-#define JJKLJLJOJNM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D00D9F0)
-#define JJKLJLJOJNM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D00DA40)
-#define JJKLJLJOJNM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D00D820)
-#define JJKLJLJOJNM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D00D400)
-#define JJKLJLJOJNM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D00D650)
-#define JJKLJLJOJNM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D00D8B0)
-#define JJKLJLJOJNM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D00D150)
+#define JJKLJLJOJNM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E5B5470)
+#define JJKLJLJOJNM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5B5A40)
+#define JJKLJLJOJNM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E5B55E0)
+#define JJKLJLJOJNM_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1E5B5260)
+#define JJKLJLJOJNM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E5B4E60)
+#define JJKLJLJOJNM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E5B50F0)
+#define JJKLJLJOJNM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E5B5680)
+#define JJKLJLJOJNM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E5B56D0)
+#define JJKLJLJOJNM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E5B54B0)
+#define JJKLJLJOJNM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E5B5090)
+#define JJKLJLJOJNM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E5B52E0)
+#define JJKLJLJOJNM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E5B5540)
+#define JJKLJLJOJNM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E5B4DE0)
 
-inline static constexpr unsigned int JJKLJLJOJNM_TypeDefinitionIndex = 11273;
+inline static constexpr unsigned int JJKLJLJOJNM_TypeDefinitionIndex = 11324;
 
 	class JJKLJLJOJNM : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceRuleGroupRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceRuleGroupRow*>**)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0x2F120);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0x2F128);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0x36EC0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceRuleGroupRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceRuleGroupRow*>**)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0x36EC8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0x2F130);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0x36ED0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0x9B00);
+			return (::System::Byte*)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0xAC30);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0x9B01);
+			return (::System::Boolean*)UnitySDK::FromName("", "JJKLJLJOJNM")->GetStaticField(0xAC31);
 		}
 
 		static ::System::Void _cctor()

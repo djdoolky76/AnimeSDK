@@ -9,19 +9,19 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectViewM
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel_Factory; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamInfoProviderViewModel_Factory; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC95E460)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC95E440)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1DDFA990)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFA970)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectViewModel_Factory_TypeDefinitionIndex = 81623;
+	inline static constexpr unsigned int ChallengeTierceStageSelectViewModel_Factory_TypeDefinitionIndex = 84404;
 
 	class ChallengeTierceStageSelectViewModel_Factory : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel_Factory* _StageFactory; // 0x10
+		::RPG::Client::Challenge::Tierce::ChallengeTierceTeamInfoProviderViewModel_Factory* _TeamInfoProviderFactory; // 0x10
 		::NHCHDKJLNBJ* _Repository; // 0x18
-		::RPG::Client::Challenge::Tierce::ChallengeTierceTeamInfoProviderViewModel_Factory* _TeamInfoProviderFactory; // 0x20
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel_Factory* _StageFactory; // 0x20
 		::JBKNCCIENIP* _WindowService; // 0x28
 		::ACNNMGIJMFK* _TeamConflictCheckService; // 0x30
 		::System::Void _ctor(::NHCHDKJLNBJ* a1, ::JBKNCCIENIP* a2, ::ACNNMGIJMFK* a3, ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamInfoProviderViewModel_Factory* a4, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel_Factory* a5)

@@ -9,12 +9,12 @@ namespace RPG::GameCore { class ChenLingBattleBulletConfig; }
 namespace RPG::GameCore { class ChenLingBattleBulletTypeConfig; }
 namespace RPG::GameCore { class ChenLingBattleBulletView; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D555170)
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D552A10)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F356610)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3540B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleBulletConfig_TypeDefinitionIndex = 15710;
+	inline static constexpr unsigned int ChenLingBattleBulletConfig_TypeDefinitionIndex = 15868;
 
 	class ChenLingBattleBulletConfig : public ::RPG::GameCore::JsonConfig
 	{

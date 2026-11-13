@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D433820)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D432E70)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D432D00)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D4329F0)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D432CA0)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D433000)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D432A70)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D433040)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D433210)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D4334B0)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D433170)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D4330D0)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C316890)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C315EE0)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C315D70)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1C315A60)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1C315D10)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1C316070)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C315AE0)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1C3160B0)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C316280)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1C316520)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1C3161E0)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C316140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassAdvertisementExcelTable_TypeDefinitionIndex = 12878;
+	inline static constexpr unsigned int BattlePassAdvertisementExcelTable_TypeDefinitionIndex = 12950;
 
 	class BattlePassAdvertisementExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x60600);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x60608);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x59610);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassAdvertisementRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassAdvertisementRow*>**)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x60610);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassAdvertisementRow*>**)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x59618);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x59620);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x145E0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x13090);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x145E1);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "BattlePassAdvertisementExcelTable")->GetStaticField(0x13091);
 		}
 
 		static ::System::Void _cctor()

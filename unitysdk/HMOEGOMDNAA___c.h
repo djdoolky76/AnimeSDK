@@ -4,18 +4,18 @@
 class HMOEGOMDNAA;
 namespace System { class Object; }
 
-#define HMOEGOMDNAA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5A8D70)
-#define HMOEGOMDNAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A8DB0)
-#define HMOEGOMDNAA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5A8DC0)
+#define HMOEGOMDNAA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE24100)
+#define HMOEGOMDNAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE24140)
+#define HMOEGOMDNAA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE24150)
 
-inline static constexpr unsigned int HMOEGOMDNAA___c_TypeDefinitionIndex = 31595;
+inline static constexpr unsigned int HMOEGOMDNAA___c_TypeDefinitionIndex = 32508;
 
 	class HMOEGOMDNAA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A5F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3ADB0);
 		}
 
 		static ::System::Void _cctor()

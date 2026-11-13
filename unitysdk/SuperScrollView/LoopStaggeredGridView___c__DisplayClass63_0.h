@@ -6,12 +6,12 @@ namespace SuperScrollView { class LoopStaggeredGridViewItem; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace XLua { class LuaTable; }
 
-#define SUPERSCROLLVIEW_LOOPSTAGGEREDGRIDVIEW___C__DISPLAYCLASS63_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE9CEB20)
-#define SUPERSCROLLVIEW_LOOPSTAGGEREDGRIDVIEW___C__DISPLAYCLASS63_0__SAFEINITGRIDVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xE9CEB30)
+#define SUPERSCROLLVIEW_LOOPSTAGGEREDGRIDVIEW___C__DISPLAYCLASS63_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17131B40)
+#define SUPERSCROLLVIEW_LOOPSTAGGEREDGRIDVIEW___C__DISPLAYCLASS63_0__SAFEINITGRIDVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17137C20)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopStaggeredGridView___c__DisplayClass63_0_TypeDefinitionIndex = 47678;
+	inline static constexpr unsigned int LoopStaggeredGridView___c__DisplayClass63_0_TypeDefinitionIndex = 48708;
 
 	class LoopStaggeredGridView___c__DisplayClass63_0 : public ::System::Object
 	{

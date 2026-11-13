@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareAIVariableInt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IKNDFPNCKNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1648F8F0)
-#define IKNDFPNCKNJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1648F920)
+#define IKNDFPNCKNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B57EEE0)
+#define IKNDFPNCKNJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B57EF10)
 
-inline static constexpr unsigned int IKNDFPNCKNJ_TypeDefinitionIndex = 54510;
+inline static constexpr unsigned int IKNDFPNCKNJ_TypeDefinitionIndex = 55675;
 
 	class IKNDFPNCKNJ
 	{

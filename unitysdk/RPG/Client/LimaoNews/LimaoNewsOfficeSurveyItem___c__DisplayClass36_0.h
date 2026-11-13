@@ -7,12 +7,12 @@ namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyItem; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYITEM___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3C1FE0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYITEM___C__DISPLAYCLASS36_0__FETCHFIRSTJUMPABLESUBMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD3C2400)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYITEM___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC1370)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYITEM___C__DISPLAYCLASS36_0__FETCHFIRSTJUMPABLESUBMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1DFC1790)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsOfficeSurveyItem___c__DisplayClass36_0_TypeDefinitionIndex = 80294;
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyItem___c__DisplayClass36_0_TypeDefinitionIndex = 83071;
 
 	class LimaoNewsOfficeSurveyItem___c__DisplayClass36_0 : public ::System::Object
 	{

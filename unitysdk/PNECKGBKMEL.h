@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PNECKGBKMEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C8CB0)
+#define PNECKGBKMEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0AA470)
 
-inline static constexpr unsigned int PNECKGBKMEL_TypeDefinitionIndex = 36208;
+inline static constexpr unsigned int PNECKGBKMEL_TypeDefinitionIndex = 37136;
 
 	class PNECKGBKMEL : public ::System::Object
 	{

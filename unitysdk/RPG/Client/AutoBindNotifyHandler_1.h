@@ -5,7 +5,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoBindNotifyHandler_1_TypeDefinitionIndex = 73146;
+	inline static constexpr unsigned int AutoBindNotifyHandler_1_TypeDefinitionIndex = 75260;
 
 	template <typename T>
 	class AutoBindNotifyHandler_1 : public ::GMBPBAHKLDB

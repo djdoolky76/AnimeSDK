@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class HLJMAECEONM;
 
-#define OKGHHACDGOF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C966FF0)
-#define OKGHHACDGOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C967070)
+#define OKGHHACDGOF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E0758C0)
+#define OKGHHACDGOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E075940)
 
-inline static constexpr unsigned int OKGHHACDGOF_TypeDefinitionIndex = 43290;
+inline static constexpr unsigned int OKGHHACDGOF_TypeDefinitionIndex = 44271;
 
 	class OKGHHACDGOF : public ::System::Object
 	{

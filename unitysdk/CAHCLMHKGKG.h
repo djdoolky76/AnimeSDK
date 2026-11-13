@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FiveDimSetBillboardInfo; }
 
-#define CAHCLMHKGKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D1730)
-#define CAHCLMHKGKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9D1740)
-#define CAHCLMHKGKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9D1700)
+#define CAHCLMHKGKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0E690)
+#define CAHCLMHKGKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB0E6A0)
+#define CAHCLMHKGKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB0E660)
 
-inline static constexpr unsigned int CAHCLMHKGKG_TypeDefinitionIndex = 21478;
+inline static constexpr unsigned int CAHCLMHKGKG_TypeDefinitionIndex = 21823;
 
 	class CAHCLMHKGKG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* ODMPMJCAHPN; // 0x18
-		::RPG::GameCore::FiveDimSetBillboardInfo* OGAKGPFAHPM; // 0x20
+		::RPG::GameCore::FiveDimSetBillboardInfo* OGAKGPFAHPM; // 0x18
+		::RPG::GameCore::DynamicString* ODMPMJCAHPN; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAHCLMHKGKG_CTOR_OFFSET))(this);

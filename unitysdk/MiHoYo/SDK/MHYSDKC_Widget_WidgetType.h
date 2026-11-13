@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Widget_WidgetType_TypeDefinitionIndex = 46186;
+	inline static constexpr unsigned int MHYSDKC_Widget_WidgetType_TypeDefinitionIndex = 47215;
 
 	class MHYSDKC_Widget_WidgetType : public ::System::Object
 	{

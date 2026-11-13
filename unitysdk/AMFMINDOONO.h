@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CKFDNGOHNPC.h"
 
-#define AMFMINDOONO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C870090)
-#define AMFMINDOONO_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C86FF10)
+#define AMFMINDOONO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D874380)
+#define AMFMINDOONO_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1D874200)
 
-inline static constexpr unsigned int AMFMINDOONO_TypeDefinitionIndex = 42201;
+inline static constexpr unsigned int AMFMINDOONO_TypeDefinitionIndex = 43176;
 
 	class AMFMINDOONO : public ::CKFDNGOHNPC
 	{

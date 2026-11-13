@@ -4,18 +4,18 @@
 namespace MiHoYo::SDK::UI::OS { class IAlertDialog; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE20EE0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS30_0__SHOWAGEGATEBLOCKINGDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1BE22480)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6690B0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS30_0__SHOWAGEGATEBLOCKINGDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1B66A650)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass30_0_TypeDefinitionIndex = 8265;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass30_0_TypeDefinitionIndex = 8274;
 
 	class AgeGateManager___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::UI::OS::IAlertDialog* alertDialog; // 0x10
-		::System::Action* onConfirmCallback; // 0x18
+		::System::Action* onConfirmCallback; // 0x10
+		::MiHoYo::SDK::UI::OS::IAlertDialog* alertDialog; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS30_0_CTOR_OFFSET))(this);

@@ -11,47 +11,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LPPJIGMBMGA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D100850)
-#define LPPJIGMBMGA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1014B0)
-#define LPPJIGMBMGA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D100BF0)
-#define LPPJIGMBMGA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D100890)
-#define LPPJIGMBMGA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D101160)
-#define LPPJIGMBMGA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D100C90)
-#define LPPJIGMBMGA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D100CE0)
-#define LPPJIGMBMGA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D100AC0)
-#define LPPJIGMBMGA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D101100)
-#define LPPJIGMBMGA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1012D0)
-#define LPPJIGMBMGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D100B50)
-#define LPPJIGMBMGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D101080)
+#define LPPJIGMBMGA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E42A690)
+#define LPPJIGMBMGA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E42B2F0)
+#define LPPJIGMBMGA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E42AA30)
+#define LPPJIGMBMGA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E42A6D0)
+#define LPPJIGMBMGA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E42AFA0)
+#define LPPJIGMBMGA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E42AAD0)
+#define LPPJIGMBMGA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E42AB20)
+#define LPPJIGMBMGA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E42A900)
+#define LPPJIGMBMGA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E42AF40)
+#define LPPJIGMBMGA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E42B110)
+#define LPPJIGMBMGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E42A990)
+#define LPPJIGMBMGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E42AEC0)
 
-inline static constexpr unsigned int LPPJIGMBMGA_TypeDefinitionIndex = 15399;
+inline static constexpr unsigned int LPPJIGMBMGA_TypeDefinitionIndex = 15555;
 
 	class LPPJIGMBMGA : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x3FF40);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x3FF48);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x3E150);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MDPJLLMJGEC*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MDPJLLMJGEC*>**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x3FF50);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MDPJLLMJGEC*>**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x3E158);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x3E160);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0xF230);
+			return (::System::Boolean*)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0xC620);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0xF231);
+			return (::System::Byte*)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0xC621);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSplineMoveDirection_TypeDefinitionIndex = 18659;
+	inline static constexpr unsigned int FiveDimSplineMoveDirection_TypeDefinitionIndex = 18819;
 
 	enum class FiveDimSplineMoveDirection : ::System::Int32
 	{

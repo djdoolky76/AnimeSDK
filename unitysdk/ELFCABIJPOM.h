@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerCommonActiveSkillAbility; }
 
-#define ELFCABIJPOM_CTOR_OFFSET UNITYSDK_OFFSET(0x15513230)
-#define ELFCABIJPOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15513260)
+#define ELFCABIJPOM_CTOR_OFFSET UNITYSDK_OFFSET(0x199A8890)
+#define ELFCABIJPOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199A88C0)
 
-inline static constexpr unsigned int ELFCABIJPOM_TypeDefinitionIndex = 55725;
+inline static constexpr unsigned int ELFCABIJPOM_TypeDefinitionIndex = 56927;
 
 	class ELFCABIJPOM
 	{

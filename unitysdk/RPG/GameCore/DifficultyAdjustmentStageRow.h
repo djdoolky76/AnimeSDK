@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DifficultyAdjustmentStageRow; }
 
-#define RPG_GAMECORE_DIFFICULTYADJUSTMENTSTAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E8C50)
-#define RPG_GAMECORE_DIFFICULTYADJUSTMENTSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E8B40)
+#define RPG_GAMECORE_DIFFICULTYADJUSTMENTSTAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C6790)
+#define RPG_GAMECORE_DIFFICULTYADJUSTMENTSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3C6680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DifficultyAdjustmentStageRow_TypeDefinitionIndex = 15174;
+	inline static constexpr unsigned int DifficultyAdjustmentStageRow_TypeDefinitionIndex = 15330;
 
 	class DifficultyAdjustmentStageRow : public ::System::Object
 	{

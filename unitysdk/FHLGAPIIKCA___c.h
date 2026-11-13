@@ -4,18 +4,18 @@
 class FHLGAPIIKCA;
 namespace System { class Object; }
 
-#define FHLGAPIIKCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E362750)
-#define FHLGAPIIKCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E362780)
-#define FHLGAPIIKCA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E362790)
+#define FHLGAPIIKCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20694E30)
+#define FHLGAPIIKCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20694E60)
+#define FHLGAPIIKCA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x20694E70)
 
-inline static constexpr unsigned int FHLGAPIIKCA___c_TypeDefinitionIndex = 34124;
+inline static constexpr unsigned int FHLGAPIIKCA___c_TypeDefinitionIndex = 35039;
 
 	class FHLGAPIIKCA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56E30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42320);
 		}
 
 		static ::System::Void _cctor()

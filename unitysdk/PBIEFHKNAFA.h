@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PBIEFHKNAFA_TypeDefinitionIndex = 25280;
+inline static constexpr unsigned int PBIEFHKNAFA_TypeDefinitionIndex = 25758;
 
 	enum class PBIEFHKNAFA : ::System::Int32
 	{

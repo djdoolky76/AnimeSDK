@@ -8,7 +8,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Field_1_TypeDefinitionIndex = 35528;
+	inline static constexpr unsigned int DebugUI_Field_1_TypeDefinitionIndex = 36456;
 
 	template <typename T>
 	class DebugUI_Field_1 : public ::UnityEngine::Rendering::DebugUI_Widget

@@ -4,28 +4,28 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC3E0D0)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC3E0C0)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LAMNNMIAFIM_OFFSET UNITYSDK_OFFSET(0xDC3E000)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LPCNFDDCKEB_OFFSET UNITYSDK_OFFSET(0xDC3DF60)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET UNITYSDK_OFFSET(0xDC3DEF0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFDA1D0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFDA1C0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LAMNNMIAFIM_OFFSET UNITYSDK_OFFSET(0x1BFDA100)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LPCNFDDCKEB_OFFSET UNITYSDK_OFFSET(0x1BFDA060)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET UNITYSDK_OFFSET(0x1BFD9FF0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 78392;
+	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 81127;
 
 	class ChimeraAnimationAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Animator* ChimeraAnimator; // 0x18
-		static ::System::Int32* StaticGet_KMKPGPIDKJF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0xAD90);
-		}
-
 		static ::System::Int32* StaticGet_MEKAIIEIDHC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0xAD94);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0x123C0);
+		}
+
+		static ::System::Int32* StaticGet_KMKPGPIDKJF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0x123C4);
 		}
 
 		::System::Void _ctor()

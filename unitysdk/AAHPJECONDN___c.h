@@ -4,18 +4,18 @@
 class AAHPJECONDN;
 namespace System { class Object; }
 
-#define AAHPJECONDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD8DED0)
-#define AAHPJECONDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD8DF10)
-#define AAHPJECONDN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DD8DF20)
+#define AAHPJECONDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2030B810)
+#define AAHPJECONDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2030B850)
+#define AAHPJECONDN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2030B860)
 
-inline static constexpr unsigned int AAHPJECONDN___c_TypeDefinitionIndex = 32005;
+inline static constexpr unsigned int AAHPJECONDN___c_TypeDefinitionIndex = 32918;
 
 	class AAHPJECONDN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E9C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31B10);
 		}
 
 		static ::System::Void _cctor()

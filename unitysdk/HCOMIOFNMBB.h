@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class EKJELNMHMON;
 
-#define HCOMIOFNMBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA8EC90)
+#define HCOMIOFNMBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA95DF0)
 
-inline static constexpr unsigned int HCOMIOFNMBB_TypeDefinitionIndex = 43235;
+inline static constexpr unsigned int HCOMIOFNMBB_TypeDefinitionIndex = 44216;
 
 	class HCOMIOFNMBB : public ::System::Object
 	{

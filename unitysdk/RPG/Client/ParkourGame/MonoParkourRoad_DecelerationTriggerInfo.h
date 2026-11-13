@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/MonoParkourRoad_TriggerInfo.h"
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_DECELERATIONTRIGGERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA72160)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_DECELERATIONTRIGGERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC10480)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourRoad_DecelerationTriggerInfo_TypeDefinitionIndex = 74159;
+	inline static constexpr unsigned int MonoParkourRoad_DecelerationTriggerInfo_TypeDefinitionIndex = 76307;
 
 	class MonoParkourRoad_DecelerationTriggerInfo : public ::RPG::Client::ParkourGame::MonoParkourRoad_TriggerInfo
 	{

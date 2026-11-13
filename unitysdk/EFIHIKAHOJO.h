@@ -3,10 +3,10 @@
 #include "unitysdk/EJMCJECLENI.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define EFIHIKAHOJO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4DC90)
-#define EFIHIKAHOJO_GET_AREAID_OFFSET UNITYSDK_OFFSET(0x13A4DD60)
+#define EFIHIKAHOJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A336DC0)
+#define EFIHIKAHOJO_GET_AREAID_OFFSET UNITYSDK_OFFSET(0x1A336EA0)
 
-inline static constexpr unsigned int EFIHIKAHOJO_TypeDefinitionIndex = 60639;
+inline static constexpr unsigned int EFIHIKAHOJO_TypeDefinitionIndex = 62016;
 
 	class EFIHIKAHOJO : public ::EJMCJECLENI
 	{

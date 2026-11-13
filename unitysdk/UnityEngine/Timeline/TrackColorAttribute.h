@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_TIMELINE_TRACKCOLORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F37A1C0)
-#define UNITYENGINE_TIMELINE_TRACKCOLORATTRIBUTE_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x1F37A1B0)
+#define UNITYENGINE_TIMELINE_TRACKCOLORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7043A0)
+#define UNITYENGINE_TIMELINE_TRACKCOLORATTRIBUTE_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x1D704390)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackColorAttribute_TypeDefinitionIndex = 38802;
+	inline static constexpr unsigned int TrackColorAttribute_TypeDefinitionIndex = 39731;
 
 	class TrackColorAttribute : public ::System::Attribute
 	{

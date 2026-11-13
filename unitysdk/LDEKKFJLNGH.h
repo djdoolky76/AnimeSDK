@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class EAHCLJPMCIG;
 
-#define LDEKKFJLNGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB618540)
+#define LDEKKFJLNGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC78D80)
 
-inline static constexpr unsigned int LDEKKFJLNGH_TypeDefinitionIndex = 80576;
+inline static constexpr unsigned int LDEKKFJLNGH_TypeDefinitionIndex = 83356;
 
 	class LDEKKFJLNGH : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledObservableCollection_1_TypeDefinitionIndex = 5119;
+	inline static constexpr unsigned int PooledObservableCollection_1_TypeDefinitionIndex = 5124;
 
 	template <typename T>
 	class PooledObservableCollection_1

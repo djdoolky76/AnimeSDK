@@ -6,13 +6,13 @@ namespace RPG::GameCore { class OptionTalkInfo; }
 namespace RPG::GameCore { class PlayOptionTalk; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYOPTIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D901C40)
-#define RPG_GAMECORE_PLAYOPTIONTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D901C50)
-#define RPG_GAMECORE_PLAYOPTIONTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D901C10)
+#define RPG_GAMECORE_PLAYOPTIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE703D0)
+#define RPG_GAMECORE_PLAYOPTIONTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE703E0)
+#define RPG_GAMECORE_PLAYOPTIONTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE703A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayOptionTalk_TypeDefinitionIndex = 20851;
+	inline static constexpr unsigned int PlayOptionTalk_TypeDefinitionIndex = 21188;
 
 	class PlayOptionTalk : public ::RPG::GameCore::TaskConfig
 	{

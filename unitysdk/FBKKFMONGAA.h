@@ -5,10 +5,10 @@
 class NKIJFPHFJCO;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define FBKKFMONGAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C523F40)
-#define FBKKFMONGAA_LICOGDLBFGE_OFFSET UNITYSDK_OFFSET(0x1C523E00)
+#define FBKKFMONGAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E787100)
+#define FBKKFMONGAA_LICOGDLBFGE_OFFSET UNITYSDK_OFFSET(0x1E786FC0)
 
-inline static constexpr unsigned int FBKKFMONGAA_TypeDefinitionIndex = 41777;
+inline static constexpr unsigned int FBKKFMONGAA_TypeDefinitionIndex = 42752;
 
 	class FBKKFMONGAA : public ::DIGCDGKOBMK
 	{

@@ -4,12 +4,12 @@ namespace RPG::Client::Prop { class OraclePuzzleItem; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD44390)
-#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD44340)
+#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x18989560)
+#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x18989510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_OracleOutlineMonoPlugin_TypeDefinitionIndex = 70514;
+	inline static constexpr unsigned int Effect_OracleOutlineMonoPlugin_TypeDefinitionIndex = 72489;
 
 	class Effect_OracleOutlineMonoPlugin
 	{

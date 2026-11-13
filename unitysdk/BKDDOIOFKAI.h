@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FateBattleShowArcherUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKDDOIOFKAI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A9000)
-#define BKDDOIOFKAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7A9030)
+#define BKDDOIOFKAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A648610)
+#define BKDDOIOFKAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A648640)
 
-inline static constexpr unsigned int BKDDOIOFKAI_TypeDefinitionIndex = 55030;
+inline static constexpr unsigned int BKDDOIOFKAI_TypeDefinitionIndex = 56206;
 
 	class BKDDOIOFKAI
 	{

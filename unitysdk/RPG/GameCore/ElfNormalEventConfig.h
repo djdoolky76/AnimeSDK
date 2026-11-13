@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ElfNormalEventChanceConfig; }
 namespace RPG::GameCore { class ElfNormalEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFNORMALEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D609920)
-#define RPG_GAMECORE_ELFNORMALEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D609410)
+#define RPG_GAMECORE_ELFNORMALEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E03D0)
+#define RPG_GAMECORE_ELFNORMALEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DFEC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfNormalEventConfig_TypeDefinitionIndex = 18474;
+	inline static constexpr unsigned int ElfNormalEventConfig_TypeDefinitionIndex = 18634;
 
 	class ElfNormalEventConfig : public ::RPG::GameCore::JsonConfig
 	{

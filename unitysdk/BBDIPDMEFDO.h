@@ -4,11 +4,11 @@
 namespace Sirenix::OdinInspector { class PropertyGroupAttribute; }
 namespace System { class String; }
 
-#define BBDIPDMEFDO_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1CCC4B40)
-#define BBDIPDMEFDO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CCC4AD0)
-#define BBDIPDMEFDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC4A60)
+#define BBDIPDMEFDO_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1ECC0BC0)
+#define BBDIPDMEFDO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ECC0B50)
+#define BBDIPDMEFDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC0AE0)
 
-inline static constexpr unsigned int BBDIPDMEFDO_TypeDefinitionIndex = 24998;
+inline static constexpr unsigned int BBDIPDMEFDO_TypeDefinitionIndex = 25478;
 
 	class BBDIPDMEFDO : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{

@@ -6,11 +6,11 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CEIKEECFCBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC9D7BB0)
-#define CEIKEECFCBI_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC9D7B90)
-#define CEIKEECFCBI_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC9D7BA0)
+#define CEIKEECFCBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1881A680)
+#define CEIKEECFCBI_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1881A660)
+#define CEIKEECFCBI_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1881A670)
 
-inline static constexpr unsigned int CEIKEECFCBI_TypeDefinitionIndex = 73430;
+inline static constexpr unsigned int CEIKEECFCBI_TypeDefinitionIndex = 75553;
 
 	class CEIKEECFCBI : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 class ANJHFENLOIJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EACLDGJNMFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1266C280)
-#define EACLDGJNMFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1266C2B0)
+#define EACLDGJNMFB_CTOR_OFFSET UNITYSDK_OFFSET(0x181C6CE0)
+#define EACLDGJNMFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x181C6D10)
 
-inline static constexpr unsigned int EACLDGJNMFB_TypeDefinitionIndex = 55047;
+inline static constexpr unsigned int EACLDGJNMFB_TypeDefinitionIndex = 56223;
 
 	class EACLDGJNMFB
 	{

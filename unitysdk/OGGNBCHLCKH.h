@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OGGNBCHLCKH_TypeDefinitionIndex = 33884;
+inline static constexpr unsigned int OGGNBCHLCKH_TypeDefinitionIndex = 34799;
 
 	enum class OGGNBCHLCKH : ::System::Int32
 	{

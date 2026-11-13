@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONFIGMANAGER_BUNDLECONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B8E0)
+#define MIHOYO_SDK_CONFIGMANAGER_BUNDLECONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B476F10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigManager_BundleConfigs_TypeDefinitionIndex = 8202;
+	inline static constexpr unsigned int ConfigManager_BundleConfigs_TypeDefinitionIndex = 8211;
 
 	class ConfigManager_BundleConfigs : public ::System::Object
 	{

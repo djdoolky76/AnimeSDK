@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCanPlayIdleShow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EMLNOHJIDMM_CTOR_OFFSET UNITYSDK_OFFSET(0x15546A00)
-#define EMLNOHJIDMM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15546A30)
+#define EMLNOHJIDMM_CTOR_OFFSET UNITYSDK_OFFSET(0x187F03C0)
+#define EMLNOHJIDMM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x187F03F0)
 
-inline static constexpr unsigned int EMLNOHJIDMM_TypeDefinitionIndex = 53127;
+inline static constexpr unsigned int EMLNOHJIDMM_TypeDefinitionIndex = 54289;
 
 	class EMLNOHJIDMM
 	{

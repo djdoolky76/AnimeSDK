@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogInfo_TypeDefinitionIndex = 46505;
+	inline static constexpr unsigned int APMC_LOGBACK_LogInfo_TypeDefinitionIndex = 47533;
 
 	struct alignas(8) APMC_LOGBACK_LogInfo
 	{

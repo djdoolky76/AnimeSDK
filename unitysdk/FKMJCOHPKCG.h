@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HADIEBGEOMM;
 
-#define FKMJCOHPKCG_CTOR_OFFSET UNITYSDK_OFFSET(0x15804F50)
+#define FKMJCOHPKCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1893DC90)
 
-inline static constexpr unsigned int FKMJCOHPKCG_TypeDefinitionIndex = 78188;
+inline static constexpr unsigned int FKMJCOHPKCG_TypeDefinitionIndex = 80923;
 
 	class FKMJCOHPKCG : public ::System::Object
 	{

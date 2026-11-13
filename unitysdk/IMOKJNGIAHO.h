@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnBindPropsCablelines; }
 
-#define IMOKJNGIAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x164D5A50)
-#define IMOKJNGIAHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164D5A80)
+#define IMOKJNGIAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E22D0)
+#define IMOKJNGIAHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5E2300)
 
-inline static constexpr unsigned int IMOKJNGIAHO_TypeDefinitionIndex = 58840;
+inline static constexpr unsigned int IMOKJNGIAHO_TypeDefinitionIndex = 60108;
 
 	class IMOKJNGIAHO
 	{

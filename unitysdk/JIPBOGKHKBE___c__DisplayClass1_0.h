@@ -5,17 +5,17 @@ class DBEILICHGCG;
 class JBACCAGFHON;
 class JIPBOGKHKBE;
 
-#define JIPBOGKHKBE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1F9E90)
-#define JIPBOGKHKBE___C__DISPLAYCLASS1_0__EXECUTEPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xB1F9EA0)
+#define JIPBOGKHKBE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17428390)
+#define JIPBOGKHKBE___C__DISPLAYCLASS1_0__EXECUTEPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x174283A0)
 
-inline static constexpr unsigned int JIPBOGKHKBE___c__DisplayClass1_0_TypeDefinitionIndex = 78098;
+inline static constexpr unsigned int JIPBOGKHKBE___c__DisplayClass1_0_TypeDefinitionIndex = 80833;
 
 	class JIPBOGKHKBE___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::JIPBOGKHKBE* __4__this; // 0x10
+		::DBEILICHGCG* eventParam; // 0x10
 		::JBACCAGFHON* services; // 0x18
-		::DBEILICHGCG* eventParam; // 0x20
+		::JIPBOGKHKBE* __4__this; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIPBOGKHKBE___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

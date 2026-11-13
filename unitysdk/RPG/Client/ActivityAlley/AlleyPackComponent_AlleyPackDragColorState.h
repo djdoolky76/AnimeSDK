@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackComponent_AlleyPackDragColorState_TypeDefinitionIndex = 74087;
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackDragColorState_TypeDefinitionIndex = 76235;
 
 	enum class AlleyPackComponent_AlleyPackDragColorState : ::System::Int32
 	{

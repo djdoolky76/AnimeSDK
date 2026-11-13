@@ -7,29 +7,28 @@ class LMLNNHKJEIP;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CJCHKDLALDN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C5A6C20)
-#define CJCHKDLALDN_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C5A72E0)
-#define CJCHKDLALDN_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C5A7390)
-#define CJCHKDLALDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A6C10)
+#define CJCHKDLALDN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x17042C90)
+#define CJCHKDLALDN_CTOR_2_OFFSET UNITYSDK_OFFSET(0x17043350)
+#define CJCHKDLALDN_CTOR_3_OFFSET UNITYSDK_OFFSET(0x17043400)
+#define CJCHKDLALDN_CTOR_OFFSET UNITYSDK_OFFSET(0x17042C80)
 
-inline static constexpr unsigned int CJCHKDLALDN_TypeDefinitionIndex = 36280;
+inline static constexpr unsigned int CJCHKDLALDN_TypeDefinitionIndex = 37208;
 
 	class CJCHKDLALDN : public ::System::Object
 	{
 	public:
 		::System::String* PEGNLFICABO; // 0x10
-		::System::String* EBMNJMIKNPP; // 0x18
-		::System::String* HEFLHPGKLCI; // 0x20
+		::System::String* HEFLHPGKLCI; // 0x18
+		::System::String* EBMNJMIKNPP; // 0x20
 		::System::Collections::Generic::List_1<::System::UInt32>* PFOJIHKJACM; // 0x28
 		::System::Collections::Generic::List_1<::System::UInt32>* IDLHCIHGLFI; // 0x30
-		::System::Boolean LELKJHMIKFK; // 0x38
-		::System::Boolean OCLBMMNNMFC; // 0x39
-		::System::Byte _padding0[0x2];
-		::System::UInt32 JDGGFABIPDF; // 0x3C
-		::System::UInt32 GMCAHOPDHLI; // 0x40
-		::System::UInt32 HDCIIEFCMFA; // 0x44
-		::System::UInt32 EECIJBLGLNG; // 0x48
-		::System::Int32 CADHBHHCKPO; // 0x4C
+		::System::UInt32 HDCIIEFCMFA; // 0x38
+		::System::Int32 CADHBHHCKPO; // 0x3C
+		::System::UInt32 EECIJBLGLNG; // 0x40
+		::System::UInt32 GMCAHOPDHLI; // 0x44
+		::System::UInt32 JDGGFABIPDF; // 0x48
+		::System::Boolean OCLBMMNNMFC; // 0x4C
+		::System::Boolean LELKJHMIKFK; // 0x4D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJCHKDLALDN_CTOR_OFFSET))(this);

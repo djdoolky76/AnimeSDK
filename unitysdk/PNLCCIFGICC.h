@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetActivityTelevisionBuffInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PNLCCIFGICC_CTOR_OFFSET UNITYSDK_OFFSET(0xC3449E0)
-#define PNLCCIFGICC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC344A10)
+#define PNLCCIFGICC_CTOR_OFFSET UNITYSDK_OFFSET(0x184C3380)
+#define PNLCCIFGICC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184C33B0)
 
-inline static constexpr unsigned int PNLCCIFGICC_TypeDefinitionIndex = 55339;
+inline static constexpr unsigned int PNLCCIFGICC_TypeDefinitionIndex = 56522;
 
 	class PNLCCIFGICC
 	{

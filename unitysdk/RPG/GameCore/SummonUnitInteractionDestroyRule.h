@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SummonUnitInteractionDestroyRule; }
 
-#define RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB11090)
-#define RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB10E80)
+#define RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E680AD0)
+#define RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6808C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitInteractionDestroyRule_TypeDefinitionIndex = 17606;
+	inline static constexpr unsigned int SummonUnitInteractionDestroyRule_TypeDefinitionIndex = 17775;
 
 	class SummonUnitInteractionDestroyRule : public ::RPG::GameCore::JsonConfig
 	{

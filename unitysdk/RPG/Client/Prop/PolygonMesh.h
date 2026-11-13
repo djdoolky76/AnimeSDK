@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_PROP_POLYGONMESH_CTOR_OFFSET UNITYSDK_OFFSET(0xDD73CF0)
-#define RPG_CLIENT_PROP_POLYGONMESH_DHHOJJBOHMD_OFFSET UNITYSDK_OFFSET(0xDD73AE0)
-#define RPG_CLIENT_PROP_POLYGONMESH_HNPDGHFLFFA_OFFSET UNITYSDK_OFFSET(0xDD50120)
+#define RPG_CLIENT_PROP_POLYGONMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1744B5E0)
+#define RPG_CLIENT_PROP_POLYGONMESH_DHHOJJBOHMD_OFFSET UNITYSDK_OFFSET(0x1744B410)
+#define RPG_CLIENT_PROP_POLYGONMESH_HNPDGHFLFFA_OFFSET UNITYSDK_OFFSET(0x1744B280)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PolygonMesh_TypeDefinitionIndex = 78726;
+	inline static constexpr unsigned int PolygonMesh_TypeDefinitionIndex = 81461;
 
 	class PolygonMesh : public ::System::Object
 	{

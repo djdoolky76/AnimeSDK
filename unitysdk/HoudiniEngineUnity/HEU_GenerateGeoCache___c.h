@@ -6,31 +6,31 @@ namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Material; }
 
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8D6120)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D6160)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__GENERATELODMESHESFROMGEOGROUPS_B__66_0_OFFSET UNITYSDK_OFFSET(0x1B8D6190)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__GETFINALMATERIALSFROMCOMPARINGNEWWITHPREVIOUS_B__64_0_OFFSET UNITYSDK_OFFSET(0x1B8D6170)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x175FE0D0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x175FE110)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__GENERATELODMESHESFROMGEOGROUPS_B__66_0_OFFSET UNITYSDK_OFFSET(0x175FE140)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__GETFINALMATERIALSFROMCOMPARINGNEWWITHPREVIOUS_B__64_0_OFFSET UNITYSDK_OFFSET(0x175FE120)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GenerateGeoCache___c_TypeDefinitionIndex = 40638;
+	inline static constexpr unsigned int HEU_GenerateGeoCache___c_TypeDefinitionIndex = 41613;
 
 	class HEU_GenerateGeoCache___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::System::Single>** StaticGet___9__66_0()
 		{
-			return (::System::Comparison_1<::System::Single>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x5C230);
+			return (::System::Comparison_1<::System::Single>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x61FE0);
 		}
 
 		static ::System::Predicate_1<::UnityEngine::Material*>** StaticGet___9__64_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Material*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x5C238);
+			return (::System::Predicate_1<::UnityEngine::Material*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x61FE8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x5C240);
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x61FF0);
 		}
 
 		static ::System::Void _cctor()

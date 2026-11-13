@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShowHintNotifyConfig; }
 
-#define RPG_GAMECORE_SHOWHINTNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB3480)
-#define RPG_GAMECORE_SHOWHINTNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB3380)
+#define RPG_GAMECORE_SHOWHINTNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EC5F0)
+#define RPG_GAMECORE_SHOWHINTNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3EC4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHintNotifyConfig_TypeDefinitionIndex = 16961;
+	inline static constexpr unsigned int ShowHintNotifyConfig_TypeDefinitionIndex = 17128;
 
 	class ShowHintNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

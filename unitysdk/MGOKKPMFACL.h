@@ -10,60 +10,60 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 namespace System { template <typename T1, typename T2, typename T3> class Tuple_3; }
 namespace UnityEngine { class Transform; }
 
-#define MGOKKPMFACL_AHGLOBMOBCP_OFFSET UNITYSDK_OFFSET(0xB924850)
-#define MGOKKPMFACL_CJNDHGJBMHI_OFFSET UNITYSDK_OFFSET(0xB9244D0)
-#define MGOKKPMFACL_EDAMFBHFEGE_OFFSET UNITYSDK_OFFSET(0xB924A90)
-#define MGOKKPMFACL_FGGPBOJDFOE_OFFSET UNITYSDK_OFFSET(0xB925020)
-#define MGOKKPMFACL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB924780)
-#define MGOKKPMFACL_JCLNBGMJGPB_OFFSET UNITYSDK_OFFSET(0xB924930)
-#define MGOKKPMFACL_JKAOGFNAIMP_OFFSET UNITYSDK_OFFSET(0xB924A50)
-#define MGOKKPMFACL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB9246B0)
-#define MGOKKPMFACL_LJFIHGFIODI_OFFSET UNITYSDK_OFFSET(0xB924B90)
-#define MGOKKPMFACL_OPGGOMKJIOM_OFFSET UNITYSDK_OFFSET(0xB9247D0)
+#define MGOKKPMFACL_AHGLOBMOBCP_OFFSET UNITYSDK_OFFSET(0x1B34A860)
+#define MGOKKPMFACL_CJNDHGJBMHI_OFFSET UNITYSDK_OFFSET(0x1B34A4A0)
+#define MGOKKPMFACL_EDAMFBHFEGE_OFFSET UNITYSDK_OFFSET(0x1B34AAA0)
+#define MGOKKPMFACL_FGGPBOJDFOE_OFFSET UNITYSDK_OFFSET(0x1B34B030)
+#define MGOKKPMFACL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1B34A790)
+#define MGOKKPMFACL_JCLNBGMJGPB_OFFSET UNITYSDK_OFFSET(0x1B34A940)
+#define MGOKKPMFACL_JKAOGFNAIMP_OFFSET UNITYSDK_OFFSET(0x1B34AA60)
+#define MGOKKPMFACL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1B34A6C0)
+#define MGOKKPMFACL_LJFIHGFIODI_OFFSET UNITYSDK_OFFSET(0x1B34ABA0)
+#define MGOKKPMFACL_OPGGOMKJIOM_OFFSET UNITYSDK_OFFSET(0x1B34A7E0)
 
-inline static constexpr unsigned int MGOKKPMFACL_TypeDefinitionIndex = 74115;
+inline static constexpr unsigned int MGOKKPMFACL_TypeDefinitionIndex = 76263;
 
 	class MGOKKPMFACL : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Transform** StaticGet_HFHEHFBMIIK()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x120D0);
-		}
-
 		static ::KHOJFFEPLEO** StaticGet_NPMFLJPODJF()
 		{
-			return (::KHOJFFEPLEO**)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x120D8);
+			return (::KHOJFFEPLEO**)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x11310);
 		}
 
-		static ::System::Single* StaticGet_ONFEMIIEBAP()
+		static ::UnityEngine::Transform** StaticGet_HFHEHFBMIIK()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3B70);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x11318);
 		}
 
 		static ::System::Single* StaticGet_MKJFANJHICG()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3B74);
-		}
-
-		static ::System::Int32* StaticGet_LKKOLFBJDGC()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3B78);
-		}
-
-		static ::System::Int32* StaticGet_MLMMJMGLLML()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3B7C);
-		}
-
-		static ::System::Int32* StaticGet_ONDEDGKEEOK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3B80);
+			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3820);
 		}
 
 		static ::System::Single* StaticGet_FCEBGJJBDJF()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3B84);
+			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3824);
+		}
+
+		static ::System::Int32* StaticGet_ONDEDGKEEOK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3828);
+		}
+
+		static ::System::Int32* StaticGet_LKKOLFBJDGC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x382C);
+		}
+
+		static ::System::Int32* StaticGet_MLMMJMGLLML()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3830);
+		}
+
+		static ::System::Single* StaticGet_ONFEMIIEBAP()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3834);
 		}
 
 		static ::System::Tuple_3<::System::Int32, ::System::Int32, ::System::Int32>* CJNDHGJBMHI(::UnityEngine::Vector3 a1)

@@ -5,17 +5,16 @@
 class FCOEMCEDLNL;
 class GFDODFDACLL;
 
-#define GFDODFDACLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0D8D0)
-#define GFDODFDACLL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE0D770)
+#define GFDODFDACLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62F450)
+#define GFDODFDACLL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E62F2F0)
 
-inline static constexpr unsigned int GFDODFDACLL_TypeDefinitionIndex = 11412;
+inline static constexpr unsigned int GFDODFDACLL_TypeDefinitionIndex = 11463;
 
 	class GFDODFDACLL : public ::System::Object
 	{
 	public:
-		::System::Boolean NBPFHHJJBFG; // 0x10
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::AttackDamageType GIBLLBPOJHN; // 0x14
+		::RPG::GameCore::AttackDamageType GIBLLBPOJHN; // 0x10
+		::System::Boolean NBPFHHJJBFG; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GFDODFDACLL_CTOR_OFFSET))(this);

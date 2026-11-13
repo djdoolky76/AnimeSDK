@@ -5,55 +5,55 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE95B6D0)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE95B710)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__COMPAREDATATOOTHER_B__3_0_OFFSET UNITYSDK_OFFSET(0xE95B720)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__COMPAREDATATOOTHER_B__3_1_OFFSET UNITYSDK_OFFSET(0xE95B730)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__EQUALS_B__4_0_OFFSET UNITYSDK_OFFSET(0xE95B740)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__EQUALS_B__4_1_OFFSET UNITYSDK_OFFSET(0xE95B750)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__GETHASHCODE_B__5_0_OFFSET UNITYSDK_OFFSET(0xE95B760)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__GETHASHCODE_B__5_1_OFFSET UNITYSDK_OFFSET(0xE95B770)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC2E330)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC2E370)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__COMPAREDATATOOTHER_B__3_0_OFFSET UNITYSDK_OFFSET(0x1AC2E380)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__COMPAREDATATOOTHER_B__3_1_OFFSET UNITYSDK_OFFSET(0x1AC2E390)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__EQUALS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1AC2E3A0)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__EQUALS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1AC2E3B0)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__GETHASHCODE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1AC2E3C0)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__GETHASHCODE_B__5_1_OFFSET UNITYSDK_OFFSET(0x1AC2E3D0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightSetQualityExportData___c_TypeDefinitionIndex = 49163;
+	inline static constexpr unsigned int LightSetQualityExportData___c_TypeDefinitionIndex = 50239;
 
 	class LightSetQualityExportData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x2FD0);
-		}
-
-		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x2FD8);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x2FE0);
+			return (::System::Object**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x12970);
 		}
 
-		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__4_1()
+		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x2FE8);
-		}
-
-		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x2FF0);
-		}
-
-		static ::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>** StaticGet___9__5_1()
-		{
-			return (::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x2FF8);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x12978);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x3000);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x12980);
+		}
+
+		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x12988);
+		}
+
+		static ::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>** StaticGet___9__5_1()
+		{
+			return (::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x12990);
+		}
+
+		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__4_1()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x12998);
+		}
+
+		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("ScenenLightManager", "<>c")->GetStaticField(0x129A0);
 		}
 
 		static ::System::Void _cctor()

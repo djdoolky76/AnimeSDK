@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetOverrideColliderCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJCDBLNLEEL_CTOR_OFFSET UNITYSDK_OFFSET(0x157B1280)
-#define FJCDBLNLEEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157B12B0)
+#define FJCDBLNLEEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1981B400)
+#define FJCDBLNLEEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1981B430)
 
-inline static constexpr unsigned int FJCDBLNLEEL_TypeDefinitionIndex = 55556;
+inline static constexpr unsigned int FJCDBLNLEEL_TypeDefinitionIndex = 56750;
 
 	class FJCDBLNLEEL
 	{

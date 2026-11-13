@@ -12,27 +12,27 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define KGLIOOODBPN_ACOPGEADOMN_OFFSET UNITYSDK_OFFSET(0x1E80C010)
-#define KGLIOOODBPN_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E80C4B0)
-#define KGLIOOODBPN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E80C790)
-#define KGLIOOODBPN_CHMCFLAIMPM_OFFSET UNITYSDK_OFFSET(0x1E80C000)
-#define KGLIOOODBPN_CLONE_OFFSET UNITYSDK_OFFSET(0x1E80BFA0)
-#define KGLIOOODBPN_CMFGFDOOFFI_OFFSET UNITYSDK_OFFSET(0x1E80C020)
-#define KGLIOOODBPN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E80BF10)
-#define KGLIOOODBPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80BEC0)
-#define KGLIOOODBPN_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E80C0E0)
-#define KGLIOOODBPN_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E80C040)
-#define KGLIOOODBPN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E80C1E0)
-#define KGLIOOODBPN_IKJLJHJLHPF_OFFSET UNITYSDK_OFFSET(0x1E80BFF0)
-#define KGLIOOODBPN_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E80BE50)
-#define KGLIOOODBPN_MEIGHCDGBDI_OFFSET UNITYSDK_OFFSET(0x1E80C030)
-#define KGLIOOODBPN_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E80C6B0)
-#define KGLIOOODBPN_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E80C650)
-#define KGLIOOODBPN_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E80BEB0)
-#define KGLIOOODBPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E80C2E0)
-#define KGLIOOODBPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E80C340)
+#define KGLIOOODBPN_ACOPGEADOMN_OFFSET UNITYSDK_OFFSET(0x1F549050)
+#define KGLIOOODBPN_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F5494E0)
+#define KGLIOOODBPN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5497A0)
+#define KGLIOOODBPN_CHMCFLAIMPM_OFFSET UNITYSDK_OFFSET(0x1F549040)
+#define KGLIOOODBPN_CLONE_OFFSET UNITYSDK_OFFSET(0x1F548FD0)
+#define KGLIOOODBPN_CMFGFDOOFFI_OFFSET UNITYSDK_OFFSET(0x1F549020)
+#define KGLIOOODBPN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F548F40)
+#define KGLIOOODBPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F548EF0)
+#define KGLIOOODBPN_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F549110)
+#define KGLIOOODBPN_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F549070)
+#define KGLIOOODBPN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F549210)
+#define KGLIOOODBPN_IKJLJHJLHPF_OFFSET UNITYSDK_OFFSET(0x1F549060)
+#define KGLIOOODBPN_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F548E80)
+#define KGLIOOODBPN_MEIGHCDGBDI_OFFSET UNITYSDK_OFFSET(0x1F549030)
+#define KGLIOOODBPN_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F5496C0)
+#define KGLIOOODBPN_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F549660)
+#define KGLIOOODBPN_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F548EE0)
+#define KGLIOOODBPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F549310)
+#define KGLIOOODBPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F549370)
 
-inline static constexpr unsigned int KGLIOOODBPN_TypeDefinitionIndex = 33164;
+inline static constexpr unsigned int KGLIOOODBPN_TypeDefinitionIndex = 34079;
 
 	class KGLIOOODBPN : public ::System::Object
 	{
@@ -41,19 +41,19 @@ inline static constexpr unsigned int KGLIOOODBPN_TypeDefinitionIndex = 33164;
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* GPONMGIMFLF; // 0x18
 		::System::UInt32 KMLIKNNALPB; // 0x20
 		::System::UInt32 DNKADAFBILN; // 0x24
-		static ::Google::Protobuf::MessageParser_1<::KGLIOOODBPN*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::KGLIOOODBPN*>**)UnitySDK::FromName("", "KGLIOOODBPN")->GetStaticField(0x15550);
-		}
-
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_MANIDPEEOIJ()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "KGLIOOODBPN")->GetStaticField(0x15558);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "KGLIOOODBPN")->GetStaticField(0xFC00);
 		}
 
-		// static const ::System::Object ECBDGIEHJIP; // 0x0
-		// static const ::System::Object GLHOIPCCHAH; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::KGLIOOODBPN*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::KGLIOOODBPN*>**)UnitySDK::FromName("", "KGLIOOODBPN")->GetStaticField(0xFC08);
+		}
+
 		// static const ::System::Object AOEBNCAILPJ; // 0x0
+		// static const ::System::Object GLHOIPCCHAH; // 0x0
+		// static const ::System::Object ECBDGIEHJIP; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KGLIOOODBPN_CTOR_OFFSET))(this);
@@ -84,9 +84,14 @@ inline static constexpr unsigned int KGLIOOODBPN_TypeDefinitionIndex = 33164;
 			return ((::KGLIOOODBPN*(*)(::PVOID))((::PBYTE)hIl2Cpp + KGLIOOODBPN_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* IKJLJHJLHPF()
+		::System::UInt32 CMFGFDOOFFI()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KGLIOOODBPN_IKJLJHJLHPF_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + KGLIOOODBPN_CMFGFDOOFFI_OFFSET))(this);
+		}
+
+		::System::Void MEIGHCDGBDI(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KGLIOOODBPN_MEIGHCDGBDI_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 CHMCFLAIMPM()
@@ -99,14 +104,9 @@ inline static constexpr unsigned int KGLIOOODBPN_TypeDefinitionIndex = 33164;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KGLIOOODBPN_ACOPGEADOMN_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 CMFGFDOOFFI()
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* IKJLJHJLHPF()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + KGLIOOODBPN_CMFGFDOOFFI_OFFSET))(this);
-		}
-
-		::System::Void MEIGHCDGBDI(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KGLIOOODBPN_MEIGHCDGBDI_OFFSET))(this, a1);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KGLIOOODBPN_IKJLJHJLHPF_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

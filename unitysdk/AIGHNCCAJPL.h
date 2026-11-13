@@ -7,11 +7,11 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AIGHNCCAJPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC9B6B0)
-#define AIGHNCCAJPL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CC9B6C0)
-#define AIGHNCCAJPL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC9B680)
+#define AIGHNCCAJPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E03A4B0)
+#define AIGHNCCAJPL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E03A4C0)
+#define AIGHNCCAJPL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E03A480)
 
-inline static constexpr unsigned int AIGHNCCAJPL_TypeDefinitionIndex = 23352;
+inline static constexpr unsigned int AIGHNCCAJPL_TypeDefinitionIndex = 23794;
 
 	class AIGHNCCAJPL : public ::RPG::GameCore::TaskConfig
 	{

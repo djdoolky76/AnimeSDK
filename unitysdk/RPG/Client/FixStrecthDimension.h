@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStrecthDimension_TypeDefinitionIndex = 70598;
+	inline static constexpr unsigned int FixStrecthDimension_TypeDefinitionIndex = 72575;
 
 	enum class FixStrecthDimension : ::System::Int32
 	{

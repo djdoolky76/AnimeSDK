@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FFBALLHFPOC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CDB5D50)
-#define FFBALLHFPOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDB62D0)
-#define FFBALLHFPOC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CDB5EC0)
-#define FFBALLHFPOC_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1CDB5BA0)
-#define FFBALLHFPOC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CDB57E0)
-#define FFBALLHFPOC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CDB5A70)
-#define FFBALLHFPOC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CDB5F60)
-#define FFBALLHFPOC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CDB5FB0)
-#define FFBALLHFPOC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CDB5D90)
-#define FFBALLHFPOC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CDB5A10)
-#define FFBALLHFPOC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CDB5C00)
-#define FFBALLHFPOC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDB5E20)
-#define FFBALLHFPOC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDB5760)
+#define FFBALLHFPOC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E44BB10)
+#define FFBALLHFPOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E44C090)
+#define FFBALLHFPOC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E44BC80)
+#define FFBALLHFPOC_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1E44B960)
+#define FFBALLHFPOC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E44B5A0)
+#define FFBALLHFPOC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E44B830)
+#define FFBALLHFPOC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E44BD20)
+#define FFBALLHFPOC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E44BD70)
+#define FFBALLHFPOC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E44BB50)
+#define FFBALLHFPOC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E44B7D0)
+#define FFBALLHFPOC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E44B9C0)
+#define FFBALLHFPOC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E44BBE0)
+#define FFBALLHFPOC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E44B520)
 
-inline static constexpr unsigned int FFBALLHFPOC_TypeDefinitionIndex = 15034;
+inline static constexpr unsigned int FFBALLHFPOC_TypeDefinitionIndex = 15190;
 
 	class FFBALLHFPOC : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x106B0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x53040);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournContentCollectionRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournContentCollectionRow*>**)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x106B8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournContentCollectionRow*>**)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x53048);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x106C0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x3640);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x53050);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x3641);
+			return (::System::Boolean*)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x11D40);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "FFBALLHFPOC")->GetStaticField(0x11D41);
 		}
 
 		static ::System::Void _cctor()

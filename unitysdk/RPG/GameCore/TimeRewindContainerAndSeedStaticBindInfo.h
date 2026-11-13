@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimeRewindContainerAndSeedStaticBindInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDCONTAINERANDSEEDSTATICBINDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB59B40)
-#define RPG_GAMECORE_TIMEREWINDCONTAINERANDSEEDSTATICBINDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB598D0)
+#define RPG_GAMECORE_TIMEREWINDCONTAINERANDSEEDSTATICBINDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5CE590)
+#define RPG_GAMECORE_TIMEREWINDCONTAINERANDSEEDSTATICBINDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5CE3A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindContainerAndSeedStaticBindInfo_TypeDefinitionIndex = 16595;
+	inline static constexpr unsigned int TimeRewindContainerAndSeedStaticBindInfo_TypeDefinitionIndex = 16761;
 
 	class TimeRewindContainerAndSeedStaticBindInfo : public ::RPG::GameCore::JsonConfig
 	{

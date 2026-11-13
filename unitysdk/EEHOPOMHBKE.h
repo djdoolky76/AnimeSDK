@@ -4,11 +4,11 @@ namespace RPG::GameCore { class GlobalMainIntensityEffectAutoRevert; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections { class IEnumerator; }
 
-#define EEHOPOMHBKE_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2DF80)
-#define EEHOPOMHBKE_NCMDKPIKDOH_OFFSET UNITYSDK_OFFSET(0x13A2E6B0)
-#define EEHOPOMHBKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A2DFB0)
+#define EEHOPOMHBKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3159F0)
+#define EEHOPOMHBKE_NCMDKPIKDOH_OFFSET UNITYSDK_OFFSET(0x1A316120)
+#define EEHOPOMHBKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A315A20)
 
-inline static constexpr unsigned int EEHOPOMHBKE_TypeDefinitionIndex = 56360;
+inline static constexpr unsigned int EEHOPOMHBKE_TypeDefinitionIndex = 57574;
 
 	class EEHOPOMHBKE
 	{

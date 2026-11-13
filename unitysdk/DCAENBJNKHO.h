@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IKNAEDLKKKE.h"
 
-#define DCAENBJNKHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9EC020)
-#define DCAENBJNKHO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C9EC030)
+#define DCAENBJNKHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1E2D0)
+#define DCAENBJNKHO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DB1E2E0)
 
-inline static constexpr unsigned int DCAENBJNKHO_TypeDefinitionIndex = 43061;
+inline static constexpr unsigned int DCAENBJNKHO_TypeDefinitionIndex = 44042;
 
 	class DCAENBJNKHO : public ::IKNAEDLKKKE
 	{

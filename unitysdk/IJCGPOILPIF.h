@@ -6,17 +6,17 @@ class IJCGPOILPIF;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define IJCGPOILPIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE9790)
-#define IJCGPOILPIF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEE97A0)
-#define IJCGPOILPIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEE9760)
+#define IJCGPOILPIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC98CB30)
+#define IJCGPOILPIF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0xC98CB40)
+#define IJCGPOILPIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC98CB00)
 
-inline static constexpr unsigned int IJCGPOILPIF_TypeDefinitionIndex = 21429;
+inline static constexpr unsigned int IJCGPOILPIF_TypeDefinitionIndex = 21772;
 
 	class IJCGPOILPIF : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* MNMHMECGDAK; // 0x18
-		::Il2CppArray<::RPG::GameCore::PropButtonConfig*>* PHKOOLAJGGG; // 0x20
+		::Il2CppArray<::RPG::GameCore::PropButtonConfig*>* PHKOOLAJGGG; // 0x18
+		::RPG::GameCore::DynamicString* MNMHMECGDAK; // 0x20
 		::System::Boolean ILJFADIIFOI; // 0x28
 		::System::Void _ctor()
 		{

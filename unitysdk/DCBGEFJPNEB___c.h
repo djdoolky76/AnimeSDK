@@ -6,35 +6,35 @@ class MMPNGLIMIHL;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define DCBGEFJPNEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC3AB90)
-#define DCBGEFJPNEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3ABD0)
-#define DCBGEFJPNEB___C___ONPAUSEIMPLEMENT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1EC3AD00)
-#define DCBGEFJPNEB___C___ONRESUMEIMPLEMENT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1EC3AE20)
-#define DCBGEFJPNEB___C___ONSTOPREQUESTED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1EC3ABE0)
+#define DCBGEFJPNEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5246D0)
+#define DCBGEFJPNEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E524710)
+#define DCBGEFJPNEB___C___ONPAUSEIMPLEMENT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1E524840)
+#define DCBGEFJPNEB___C___ONRESUMEIMPLEMENT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1E524960)
+#define DCBGEFJPNEB___C___ONSTOPREQUESTED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1E524720)
 
-inline static constexpr unsigned int DCBGEFJPNEB___c_TypeDefinitionIndex = 44198;
+inline static constexpr unsigned int DCBGEFJPNEB___c_TypeDefinitionIndex = 45273;
 
 	class DCBGEFJPNEB___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::DEIPGFGBEMG*>** StaticGet___9__4_0()
+		static ::System::Action_1<::MMPNGLIMIHL*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_1<::DEIPGFGBEMG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47510);
+			return (::System::Action_1<::MMPNGLIMIHL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60B20);
 		}
 
-		static ::System::Action_1<::MMPNGLIMIHL*>** StaticGet___9__7_0()
+		static ::System::Action_1<::DEIPGFGBEMG*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_1<::MMPNGLIMIHL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47518);
+			return (::System::Action_1<::DEIPGFGBEMG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60B28);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47520);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60B30);
 		}
 
-		static ::System::Action_1<::MMPNGLIMIHL*>** StaticGet___9__6_0()
+		static ::System::Action_1<::MMPNGLIMIHL*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_1<::MMPNGLIMIHL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47528);
+			return (::System::Action_1<::MMPNGLIMIHL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60B38);
 		}
 
 		static ::System::Void _cctor()

@@ -5,7 +5,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WaterLevelAreaInfo_TypeDefinitionIndex = 78913;
+	inline static constexpr unsigned int WaterLevelAreaInfo_TypeDefinitionIndex = 81689;
 
 	struct alignas(8) WaterLevelAreaInfo
 	{

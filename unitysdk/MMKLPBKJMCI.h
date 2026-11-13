@@ -5,18 +5,18 @@
 class KGMBGMIGHOE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MMKLPBKJMCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FF810)
+#define MMKLPBKJMCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C264970)
 
-inline static constexpr unsigned int MMKLPBKJMCI_TypeDefinitionIndex = 42552;
+inline static constexpr unsigned int MMKLPBKJMCI_TypeDefinitionIndex = 43527;
 
 	class MMKLPBKJMCI : public ::System::Object
 	{
 	public:
 		::KGMBGMIGHOE* DLGJKBMEFON; // 0x10
 		::System::Collections::Generic::List_1<::KGMBGMIGHOE*>* MFJDOHANPFF; // 0x18
-		::System::UInt32 HBPECADBGBB; // 0x20
-		::RPG::Client::LittleGame::MonopolyGameState ADCPPJNMGJP; // 0x24
-		::System::UInt32 DGKGNHLCJKN; // 0x28
+		::RPG::Client::LittleGame::MonopolyGameState ADCPPJNMGJP; // 0x20
+		::System::UInt32 DGKGNHLCJKN; // 0x24
+		::System::UInt32 HBPECADBGBB; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMKLPBKJMCI_CTOR_OFFSET))(this);

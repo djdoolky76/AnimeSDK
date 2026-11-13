@@ -5,19 +5,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class BindManagerHandheld; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEADF20)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS18_0__BINDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1BEAF1C0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS18_0__BINDEMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x1BEAF430)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3643B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS18_0__BINDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1C3655F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS18_0__BINDEMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x1C365860)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int BindManagerHandheld___c__DisplayClass18_0_TypeDefinitionIndex = 8739;
+	inline static constexpr unsigned int BindManagerHandheld___c__DisplayClass18_0_TypeDefinitionIndex = 8748;
 
 	class BindManagerHandheld___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnBindResult; // 0x10
-		::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerHandheld* __4__this; // 0x18
+		::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerHandheld* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnBindResult; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS18_0_CTOR_OFFSET))(this);

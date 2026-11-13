@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleBGMStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEBGMSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4253C0)
-#define RPG_GAMECORE_BATTLEBGMSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4252A0)
+#define RPG_GAMECORE_BATTLEBGMSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C308010)
+#define RPG_GAMECORE_BATTLEBGMSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C307EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleBGMStateConfig_TypeDefinitionIndex = 18118;
+	inline static constexpr unsigned int BattleBGMStateConfig_TypeDefinitionIndex = 18280;
 
 	class BattleBGMStateConfig : public ::RPG::GameCore::JsonConfig
 	{

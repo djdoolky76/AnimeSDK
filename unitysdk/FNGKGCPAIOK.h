@@ -6,17 +6,17 @@ class FNGKGCPAIOK;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define FNGKGCPAIOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE11C0)
-#define FNGKGCPAIOK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE11D0)
-#define FNGKGCPAIOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE1190)
+#define FNGKGCPAIOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA31530)
+#define FNGKGCPAIOK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA31540)
+#define FNGKGCPAIOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA31500)
 
-inline static constexpr unsigned int FNGKGCPAIOK_TypeDefinitionIndex = 20581;
+inline static constexpr unsigned int FNGKGCPAIOK_TypeDefinitionIndex = 20917;
 
 	class FNGKGCPAIOK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x18
-		::RPG::GameCore::DynamicString* LLPIGJHNPNN; // 0x20
+		::RPG::GameCore::DynamicString* LLPIGJHNPNN; // 0x18
+		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNGKGCPAIOK_CTOR_OFFSET))(this);

@@ -6,29 +6,29 @@ class PDCLCPAKHAI;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BAGPGBMNCGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15BD58E0)
-#define BAGPGBMNCGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD5920)
-#define BAGPGBMNCGL___C___FETCHUSABLEBUFFITEM_B__14_0_OFFSET UNITYSDK_OFFSET(0x15BD5980)
-#define BAGPGBMNCGL___C___FETCHUSABLEDAMAGEITEM_B__13_0_OFFSET UNITYSDK_OFFSET(0x15BD5930)
+#define BAGPGBMNCGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x199D4FE0)
+#define BAGPGBMNCGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x199D5020)
+#define BAGPGBMNCGL___C___FETCHUSABLEBUFFITEM_B__14_0_OFFSET UNITYSDK_OFFSET(0x199D5080)
+#define BAGPGBMNCGL___C___FETCHUSABLEDAMAGEITEM_B__13_0_OFFSET UNITYSDK_OFFSET(0x199D5030)
 
-inline static constexpr unsigned int BAGPGBMNCGL___c_TypeDefinitionIndex = 65837;
+inline static constexpr unsigned int BAGPGBMNCGL___c_TypeDefinitionIndex = 67769;
 
 	class BAGPGBMNCGL___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::PDCLCPAKHAI*, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64450);
+			return (::System::Func_2<::PDCLCPAKHAI*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66240);
 		}
 
 		static ::System::Func_2<::NNKPAIAPPHP*, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::NNKPAIAPPHP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64458);
+			return (::System::Func_2<::NNKPAIAPPHP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66248);
 		}
 
-		static ::System::Func_2<::PDCLCPAKHAI*, ::System::Boolean>** StaticGet___9__14_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::PDCLCPAKHAI*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64460);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66250);
 		}
 
 		static ::System::Void _cctor()

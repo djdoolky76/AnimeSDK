@@ -5,19 +5,19 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS42_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD9E2F0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS42_1__SHOWPAYAGELIMITNEWFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BD9E300)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS42_1_CTOR_OFFSET UNITYSDK_OFFSET(0x195E9D10)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS42_1__SHOWPAYAGELIMITNEWFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x195E9D20)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass42_1_TypeDefinitionIndex = 9344;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass42_1_TypeDefinitionIndex = 9352;
 
 	template <typename T>
 	class OverseaPayManager___c__DisplayClass42_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
-		::System::String* cookieToken; // 0x18
+		::System::String* cookieToken; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 		::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ret; // 0x20
 		::System::Void _ctor()
 		{

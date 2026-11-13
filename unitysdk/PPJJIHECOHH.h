@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 class CGGLOEAKFEI;
 
-#define PPJJIHECOHH_CTOR_OFFSET UNITYSDK_OFFSET(0xC384F20)
-#define PPJJIHECOHH_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xC384EE0)
-#define PPJJIHECOHH_GET_EXAMID_OFFSET UNITYSDK_OFFSET(0xC384F10)
-#define PPJJIHECOHH_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC384EF0)
-#define PPJJIHECOHH_GET_MININCOME_OFFSET UNITYSDK_OFFSET(0xC384F00)
+#define PPJJIHECOHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B1510)
+#define PPJJIHECOHH_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0x1B8B14D0)
+#define PPJJIHECOHH_GET_EXAMID_OFFSET UNITYSDK_OFFSET(0x1B8B1500)
+#define PPJJIHECOHH_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1B8B14E0)
+#define PPJJIHECOHH_GET_MININCOME_OFFSET UNITYSDK_OFFSET(0x1B8B14F0)
 
-inline static constexpr unsigned int PPJJIHECOHH_TypeDefinitionIndex = 80158;
+inline static constexpr unsigned int PPJJIHECOHH_TypeDefinitionIndex = 82935;
 
 	class PPJJIHECOHH : public ::System::Object
 	{
 	public:
-		::System::Int32 _CacheKey_k__BackingField; // 0x10
-		::System::UInt32 _ExamID_k__BackingField; // 0x14
-		::System::UInt32 _Level_k__BackingField; // 0x18
-		::System::UInt32 _MinIncome_k__BackingField; // 0x1C
+		::System::UInt32 _ExamID_k__BackingField; // 0x10
+		::System::UInt32 _MinIncome_k__BackingField; // 0x14
+		::System::Int32 _CacheKey_k__BackingField; // 0x18
+		::System::UInt32 _Level_k__BackingField; // 0x1C
 		::System::Void _ctor(::CGGLOEAKFEI* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::CGGLOEAKFEI*))((::PBYTE)hIl2Cpp + PPJJIHECOHH_CTOR_OFFSET))(this, a1);

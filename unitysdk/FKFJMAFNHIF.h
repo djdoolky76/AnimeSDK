@@ -6,11 +6,11 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define FKFJMAFNHIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F4990)
-#define FKFJMAFNHIF_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C5F4740)
-#define FKFJMAFNHIF_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C5F46A0)
+#define FKFJMAFNHIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA31B90)
+#define FKFJMAFNHIF_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1AA31940)
+#define FKFJMAFNHIF_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1AA318A0)
 
-inline static constexpr unsigned int FKFJMAFNHIF_TypeDefinitionIndex = 37201;
+inline static constexpr unsigned int FKFJMAFNHIF_TypeDefinitionIndex = 38129;
 
 	class FKFJMAFNHIF : public ::System::Object
 	{

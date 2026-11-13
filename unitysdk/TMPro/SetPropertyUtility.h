@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define TMPRO_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1F2BA570)
+#define TMPRO_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x19B8D8D0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 44607;
+	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 45682;
 
 	class SetPropertyUtility : public ::System::Object
 	{

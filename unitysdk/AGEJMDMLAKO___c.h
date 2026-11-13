@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define AGEJMDMLAKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF20AF0)
-#define AGEJMDMLAKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF20B30)
-#define AGEJMDMLAKO___C__ASOBSERVABLE_B__0_0_OFFSET UNITYSDK_OFFSET(0xCF20B40)
+#define AGEJMDMLAKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18DD10F0)
+#define AGEJMDMLAKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18DD1130)
+#define AGEJMDMLAKO___C__ASOBSERVABLE_B__0_0_OFFSET UNITYSDK_OFFSET(0x18DD1140)
 
-inline static constexpr unsigned int AGEJMDMLAKO___c_TypeDefinitionIndex = 49984;
+inline static constexpr unsigned int AGEJMDMLAKO___c_TypeDefinitionIndex = 51032;
 
 	class AGEJMDMLAKO___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Action*, ::UnityEngine::Events::UnityAction*>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::System::Action*, ::UnityEngine::Events::UnityAction*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AEC0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AEC8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EC30);
+		}
+
+		static ::System::Func_2<::System::Action*, ::UnityEngine::Events::UnityAction*>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::System::Action*, ::UnityEngine::Events::UnityAction*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EC38);
 		}
 
 		static ::System::Void _cctor()

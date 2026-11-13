@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OLBNNJKCMAI_TypeDefinitionIndex = 34932;
+inline static constexpr unsigned int OLBNNJKCMAI_TypeDefinitionIndex = 35860;
 
 	enum class OLBNNJKCMAI : ::System::Int32
 	{

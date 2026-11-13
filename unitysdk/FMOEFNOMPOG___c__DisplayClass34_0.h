@@ -4,10 +4,10 @@
 class FMOEFNOMPOG;
 namespace RPG::Client { class TriggerEffectParams; }
 
-#define FMOEFNOMPOG___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15856940)
-#define FMOEFNOMPOG___C__DISPLAYCLASS34_0___TRYAUTOREMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x15857270)
+#define FMOEFNOMPOG___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17F09820)
+#define FMOEFNOMPOG___C__DISPLAYCLASS34_0___TRYAUTOREMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17F0A150)
 
-inline static constexpr unsigned int FMOEFNOMPOG___c__DisplayClass34_0_TypeDefinitionIndex = 78032;
+inline static constexpr unsigned int FMOEFNOMPOG___c__DisplayClass34_0_TypeDefinitionIndex = 80767;
 
 	class FMOEFNOMPOG___c__DisplayClass34_0 : public ::System::Object
 	{

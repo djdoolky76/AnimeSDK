@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LEHAHJKOHKP_ProbabilityChangeReason_TypeDefinitionIndex = 77425;
+inline static constexpr unsigned int LEHAHJKOHKP_ProbabilityChangeReason_TypeDefinitionIndex = 80160;
 
 	enum class LEHAHJKOHKP_ProbabilityChangeReason : ::System::Int32
 	{

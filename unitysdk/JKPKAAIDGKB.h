@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class IIAJFCNCMEB;
 
-#define JKPKAAIDGKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB228240)
+#define JKPKAAIDGKB_CTOR_OFFSET UNITYSDK_OFFSET(0x17B34AF0)
 
-inline static constexpr unsigned int JKPKAAIDGKB_TypeDefinitionIndex = 80546;
+inline static constexpr unsigned int JKPKAAIDGKB_TypeDefinitionIndex = 83326;
 
 	class JKPKAAIDGKB : public ::System::Object
 	{

@@ -3,22 +3,22 @@
 #include "unitysdk/PFACHJFCILN_PreloadType.h"
 #include "unitysdk/System/Object.h"
 
-#define BAFMBNKKDKE_CCTOR_OFFSET UNITYSDK_OFFSET(0x15BCE450)
-#define BAFMBNKKDKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BCE440)
+#define BAFMBNKKDKE_CCTOR_OFFSET UNITYSDK_OFFSET(0x199CD7C0)
+#define BAFMBNKKDKE_CTOR_OFFSET UNITYSDK_OFFSET(0x199CD7B0)
 
-inline static constexpr unsigned int BAFMBNKKDKE_TypeDefinitionIndex = 59670;
+inline static constexpr unsigned int BAFMBNKKDKE_TypeDefinitionIndex = 60947;
 
 	class BAFMBNKKDKE : public ::System::Object
 	{
 	public:
-		static ::PFACHJFCILN_PreloadType* StaticGet_GPBPJMHOGEF()
-		{
-			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "BAFMBNKKDKE")->GetStaticField(0x14070);
-		}
-
 		static ::PFACHJFCILN_PreloadType* StaticGet_NMNOGJOHJEK()
 		{
-			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "BAFMBNKKDKE")->GetStaticField(0x14074);
+			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "BAFMBNKKDKE")->GetStaticField(0x141F0);
+		}
+
+		static ::PFACHJFCILN_PreloadType* StaticGet_GPBPJMHOGEF()
+		{
+			return (::PFACHJFCILN_PreloadType*)UnitySDK::FromName("", "BAFMBNKKDKE")->GetStaticField(0x141F4);
 		}
 
 		::System::Void _ctor()

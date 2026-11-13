@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NOHKEMCAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C947F80)
+#define NOHKEMCAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E056660)
 
-inline static constexpr unsigned int NOHKEMCAOCM_TypeDefinitionIndex = 43255;
+inline static constexpr unsigned int NOHKEMCAOCM_TypeDefinitionIndex = 44236;
 
 	class NOHKEMCAOCM : public ::System::Object
 	{

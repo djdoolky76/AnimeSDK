@@ -4,18 +4,18 @@
 class HLEBBGFAKAK;
 namespace System { class Object; }
 
-#define HLEBBGFAKAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E58E650)
-#define HLEBBGFAKAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E58E680)
-#define HLEBBGFAKAK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E58E690)
+#define HLEBBGFAKAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20177E50)
+#define HLEBBGFAKAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20177E80)
+#define HLEBBGFAKAK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20177E90)
 
-inline static constexpr unsigned int HLEBBGFAKAK___c_TypeDefinitionIndex = 33430;
+inline static constexpr unsigned int HLEBBGFAKAK___c_TypeDefinitionIndex = 34345;
 
 	class HLEBBGFAKAK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37B70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x346C0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,10 +6,10 @@ class KNFCEJEJINK;
 namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace System { template <typename T> class Func_1; }
 
-#define NEDHMOODGGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB52B90)
-#define NEDHMOODGGC_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xBB52BA0)
+#define NEDHMOODGGC_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD1D20)
+#define NEDHMOODGGC_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x16FD1D30)
 
-inline static constexpr unsigned int NEDHMOODGGC_TypeDefinitionIndex = 77698;
+inline static constexpr unsigned int NEDHMOODGGC_TypeDefinitionIndex = 80433;
 
 	class NEDHMOODGGC : public ::HBLDGJCDJPF
 	{

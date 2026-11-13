@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define DDPACGAFJAN_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define DDPACGAFJAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF57D0)
+#define DDPACGAFJAN_CTOR_OFFSET UNITYSDK_OFFSET(0xADCE20)
+#define DDPACGAFJAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3DDA230)
 
-inline static constexpr unsigned int DDPACGAFJAN_TypeDefinitionIndex = 67757;
+inline static constexpr unsigned int DDPACGAFJAN_TypeDefinitionIndex = 69702;
 
 	struct alignas(4) DDPACGAFJAN
 	{

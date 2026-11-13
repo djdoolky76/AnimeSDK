@@ -7,10 +7,10 @@ class IJFIHJJPHNA;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_SamePointCount; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JJBHNONJEJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6CDFD0)
-#define JJBHNONJEJI_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C6CDFE0)
+#define JJBHNONJEJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C138770)
+#define JJBHNONJEJI_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C138780)
 
-inline static constexpr unsigned int JJBHNONJEJI_TypeDefinitionIndex = 36377;
+inline static constexpr unsigned int JJBHNONJEJI_TypeDefinitionIndex = 37305;
 
 	class JJBHNONJEJI : public ::IFNMPBPNBIF
 	{

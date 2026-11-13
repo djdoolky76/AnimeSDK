@@ -5,11 +5,11 @@ class OPBLDAGPPFB;
 namespace RPG::Client { class ExpeditionBattleMap; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BFJBILIBADO_CTOR_OFFSET UNITYSDK_OFFSET(0xB16D2E0)
-#define BFJBILIBADO_GET_MAPS_OFFSET UNITYSDK_OFFSET(0xB16D2D0)
-#define BFJBILIBADO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xB16D360)
+#define BFJBILIBADO_CTOR_OFFSET UNITYSDK_OFFSET(0x151ABEA0)
+#define BFJBILIBADO_GET_MAPS_OFFSET UNITYSDK_OFFSET(0x151ABE90)
+#define BFJBILIBADO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0x151ABF20)
 
-inline static constexpr unsigned int BFJBILIBADO_TypeDefinitionIndex = 63927;
+inline static constexpr unsigned int BFJBILIBADO_TypeDefinitionIndex = 65369;
 
 	class BFJBILIBADO : public ::System::Object
 	{

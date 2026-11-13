@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MCLDPNEJPBG_CTOR_OFFSET UNITYSDK_OFFSET(0xB87FBC0)
+#define MCLDPNEJPBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B84D300)
 
-inline static constexpr unsigned int MCLDPNEJPBG_TypeDefinitionIndex = 75641;
+inline static constexpr unsigned int MCLDPNEJPBG_TypeDefinitionIndex = 77968;
 
 	class MCLDPNEJPBG : public ::System::Object
 	{

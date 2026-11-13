@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_JIPLAJGFIEB_CLEAR_OFFSET UNITYSDK_OFFSET(0xD43D060)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_JIPLAJGFIEB_CTOR_OFFSET UNITYSDK_OFFSET(0xD43D1A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_JIPLAJGFIEB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C3942A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_JIPLAJGFIEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3943E0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimGridPropView_JIPLAJGFIEB_TypeDefinitionIndex = 77181;
+	inline static constexpr unsigned int FiveDimGridPropView_JIPLAJGFIEB_TypeDefinitionIndex = 79515;
 
 	class FiveDimGridPropView_JIPLAJGFIEB : public ::System::Object
 	{

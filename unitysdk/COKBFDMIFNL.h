@@ -4,10 +4,10 @@
 class PCPDHLJDDLH;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define COKBFDMIFNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E52C0)
-#define COKBFDMIFNL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1C9E5220)
+#define COKBFDMIFNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17520)
+#define COKBFDMIFNL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1DB17480)
 
-inline static constexpr unsigned int COKBFDMIFNL_TypeDefinitionIndex = 42098;
+inline static constexpr unsigned int COKBFDMIFNL_TypeDefinitionIndex = 43073;
 
 	class COKBFDMIFNL : public ::System::Object
 	{

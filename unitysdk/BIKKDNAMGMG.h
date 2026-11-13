@@ -14,27 +14,27 @@ namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BIKKDNAMGMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DA6D0)
-#define BIKKDNAMGMG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7DA790)
-#define BIKKDNAMGMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DA690)
+#define BIKKDNAMGMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F194000)
+#define BIKKDNAMGMG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F1940C0)
+#define BIKKDNAMGMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F193FC0)
 
-inline static constexpr unsigned int BIKKDNAMGMG_TypeDefinitionIndex = 22611;
+inline static constexpr unsigned int BIKKDNAMGMG_TypeDefinitionIndex = 23026;
 
 	class BIKKDNAMGMG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TurnInsertActionUIConfig* OLOKHEMMGOH; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::System::String* MAGLCBLICBG; // 0x28
-		::Il2CppArray<::RPG::GameCore::DynamicString*>* PJGLPMGOLPK; // 0x30
-		::RPG::GameCore::DynamicFloat* CKLLHFKPACB; // 0x38
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OMFLDIGGPHC; // 0x40
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HMOBDKGBECE; // 0x48
-		::JKMJGCFCMMC* IHHIHDEHBIJ; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* BGCBMIGIAMM; // 0x60
-		::RPG::GameCore::TargetEvaluator* MAGHKLPOJJJ; // 0x68
-		::RPG::GameCore::JsonEnum* AGOHEFBOPNO; // 0x70
+		::JKMJGCFCMMC* IHHIHDEHBIJ; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* BGCBMIGIAMM; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OMFLDIGGPHC; // 0x28
+		::RPG::GameCore::TargetEvaluator* MAGHKLPOJJJ; // 0x30
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HMOBDKGBECE; // 0x38
+		::RPG::GameCore::DynamicFloat* CKLLHFKPACB; // 0x40
+		::RPG::GameCore::JsonEnum* AGOHEFBOPNO; // 0x48
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x50
+		::System::String* MAGLCBLICBG; // 0x58
+		::Il2CppArray<::RPG::GameCore::DynamicString*>* PJGLPMGOLPK; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x68
+		::RPG::GameCore::TurnInsertActionUIConfig* OLOKHEMMGOH; // 0x70
 		::System::Boolean LGKDFBLIOBP; // 0x78
 		::System::Boolean LENIKLCJOHE; // 0x79
 		::System::Void _ctor()

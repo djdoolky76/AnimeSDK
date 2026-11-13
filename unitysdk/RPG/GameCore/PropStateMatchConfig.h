@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropStateMatchConfig; }
 
-#define RPG_GAMECORE_PROPSTATEMATCHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92BF70)
-#define RPG_GAMECORE_PROPSTATEMATCHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92BE50)
+#define RPG_GAMECORE_PROPSTATEMATCHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF95570)
+#define RPG_GAMECORE_PROPSTATEMATCHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF95450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateMatchConfig_TypeDefinitionIndex = 22034;
+	inline static constexpr unsigned int PropStateMatchConfig_TypeDefinitionIndex = 22439;
 
 	class PropStateMatchConfig : public ::RPG::GameCore::JsonConfig
 	{

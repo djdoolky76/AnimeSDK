@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int AMOPCFHLPOO_TypeDefinitionIndex = 6216;
+inline static constexpr unsigned int AMOPCFHLPOO_TypeDefinitionIndex = 6223;
 
 	struct alignas(4) AMOPCFHLPOO
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvEnableEntityLinkCable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKGCBJFMBBO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B2840)
-#define PKGCBJFMBBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2B2870)
+#define PKGCBJFMBBO_CTOR_OFFSET UNITYSDK_OFFSET(0x147BDAD0)
+#define PKGCBJFMBBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147BDB00)
 
-inline static constexpr unsigned int PKGCBJFMBBO_TypeDefinitionIndex = 52352;
+inline static constexpr unsigned int PKGCBJFMBBO_TypeDefinitionIndex = 53458;
 
 	class PKGCBJFMBBO
 	{

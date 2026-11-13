@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CIJLOENHGIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B6780)
+#define CIJLOENHGIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0D480)
 
-inline static constexpr unsigned int CIJLOENHGIB_TypeDefinitionIndex = 42955;
+inline static constexpr unsigned int CIJLOENHGIB_TypeDefinitionIndex = 43936;
 
 	class CIJLOENHGIB : public ::System::Object
 	{

@@ -9,17 +9,17 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_UIPOLYGON_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3DA960)
-#define RPG_CLIENT_UIPOLYGON_CTOR_OFFSET UNITYSDK_OFFSET(0xE3DA730)
-#define RPG_CLIENT_UIPOLYGON_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xE3D99D0)
-#define RPG_CLIENT_UIPOLYGON_GETPOLYGONRECT_OFFSET UNITYSDK_OFFSET(0xE3DA0F0)
-#define RPG_CLIENT_UIPOLYGON_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE3DA300)
-#define RPG_CLIENT_UIPOLYGON_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xE3D9AA0)
-#define RPG_CLIENT_UIPOLYGON_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xE3DA5B0)
+#define RPG_CLIENT_UIPOLYGON_CCTOR_OFFSET UNITYSDK_OFFSET(0x175BA8C0)
+#define RPG_CLIENT_UIPOLYGON_CTOR_OFFSET UNITYSDK_OFFSET(0x175BA6B0)
+#define RPG_CLIENT_UIPOLYGON_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0x175B9950)
+#define RPG_CLIENT_UIPOLYGON_GETPOLYGONRECT_OFFSET UNITYSDK_OFFSET(0x175BA070)
+#define RPG_CLIENT_UIPOLYGON_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x175BA280)
+#define RPG_CLIENT_UIPOLYGON_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x175B9A20)
+#define RPG_CLIENT_UIPOLYGON_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0x175BA530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPolygon_TypeDefinitionIndex = 72695;
+	inline static constexpr unsigned int UIPolygon_TypeDefinitionIndex = 74774;
 
 	class UIPolygon : public ::UnityEngine::UI::MaskableGraphic
 	{
@@ -39,14 +39,14 @@ namespace RPG::Client
 		::System::Single ymax; // 0x13C
 		::System::Single width; // 0x140
 		::System::Single height; // 0x144
-		static ::UnityEngine::Vector4* StaticGet_UITangent()
-		{
-			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.Client", "UIPolygon")->GetStaticField(0xA760);
-		}
-
 		static ::UnityEngine::Vector3* StaticGet_UINormal()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client", "UIPolygon")->GetStaticField(0xA770);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client", "UIPolygon")->GetStaticField(0xCF90);
+		}
+
+		static ::UnityEngine::Vector4* StaticGet_UITangent()
+		{
+			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.Client", "UIPolygon")->GetStaticField(0xCF9C);
 		}
 
 		::System::Void _ctor()

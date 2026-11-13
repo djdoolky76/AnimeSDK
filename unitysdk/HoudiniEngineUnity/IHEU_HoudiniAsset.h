@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_HoudiniAsset_TypeDefinitionIndex = 40560;
+	inline static constexpr unsigned int IHEU_HoudiniAsset_TypeDefinitionIndex = 41535;
 
 	class IHEU_HoudiniAsset
 	{

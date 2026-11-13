@@ -5,7 +5,7 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Task_1_TypeDefinitionIndex = 53636;
+	inline static constexpr unsigned int ST_Task_1_TypeDefinitionIndex = 54800;
 
 	template <typename T>
 	class ST_Task_1 : public ::GELIALJDFBL

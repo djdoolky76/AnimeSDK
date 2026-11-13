@@ -6,35 +6,35 @@ namespace CloudGame::MailBox { class Mailbox_ReceiveCallbackHandler; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLOUDGAME_MAILBOX_IME_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBFF980)
-#define CLOUDGAME_MAILBOX_IME_CONNECT_OFFSET UNITYSDK_OFFSET(0x1BBFF060)
-#define CLOUDGAME_MAILBOX_IME_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFF970)
-#define CLOUDGAME_MAILBOX_IME_IMERECEIVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BBFEA90)
-#define CLOUDGAME_MAILBOX_IME_SENDEVENT_OFFSET UNITYSDK_OFFSET(0x1BBFF650)
-#define CLOUDGAME_MAILBOX_IME_SENDIMECLOSE_OFFSET UNITYSDK_OFFSET(0x1BBFF910)
-#define CLOUDGAME_MAILBOX_IME_SENDIMESHOW_OFFSET UNITYSDK_OFFSET(0x1BBFF8B0)
-#define CLOUDGAME_MAILBOX_IME_SEND_OFFSET UNITYSDK_OFFSET(0x1BBFF330)
+#define CLOUDGAME_MAILBOX_IME_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B43AFA0)
+#define CLOUDGAME_MAILBOX_IME_CONNECT_OFFSET UNITYSDK_OFFSET(0x1B43A680)
+#define CLOUDGAME_MAILBOX_IME_CTOR_OFFSET UNITYSDK_OFFSET(0x1B43AF90)
+#define CLOUDGAME_MAILBOX_IME_IMERECEIVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B43A0B0)
+#define CLOUDGAME_MAILBOX_IME_SENDEVENT_OFFSET UNITYSDK_OFFSET(0x1B43AC70)
+#define CLOUDGAME_MAILBOX_IME_SENDIMECLOSE_OFFSET UNITYSDK_OFFSET(0x1B43AF30)
+#define CLOUDGAME_MAILBOX_IME_SENDIMESHOW_OFFSET UNITYSDK_OFFSET(0x1B43AED0)
+#define CLOUDGAME_MAILBOX_IME_SEND_OFFSET UNITYSDK_OFFSET(0x1B43A950)
 
 namespace CloudGame::MailBox
 {
-	inline static constexpr unsigned int Ime_TypeDefinitionIndex = 7540;
+	inline static constexpr unsigned int Ime_TypeDefinitionIndex = 7551;
 
 	class Ime : public ::System::Object
 	{
 	public:
 		static ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler** StaticGet_receiveCallback()
 		{
-			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)UnitySDK::FromName("CloudGame.MailBox", "Ime")->GetStaticField(0x50040);
+			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)UnitySDK::FromName("CloudGame.MailBox", "Ime")->GetStaticField(0x355A0);
 		}
 
 		static ::System::Action_1<::System::String*>** StaticGet_OnInput()
 		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("CloudGame.MailBox", "Ime")->GetStaticField(0x50048);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("CloudGame.MailBox", "Ime")->GetStaticField(0x355A8);
 		}
 
 		static ::CloudGame::MailBox::Mailbox** StaticGet_mailbox()
 		{
-			return (::CloudGame::MailBox::Mailbox**)UnitySDK::FromName("CloudGame.MailBox", "Ime")->GetStaticField(0x50050);
+			return (::CloudGame::MailBox::Mailbox**)UnitySDK::FromName("CloudGame.MailBox", "Ime")->GetStaticField(0x355B0);
 		}
 
 		::System::Void _ctor()

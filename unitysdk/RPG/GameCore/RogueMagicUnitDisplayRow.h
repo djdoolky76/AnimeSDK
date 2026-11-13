@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicUnitDisplayRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICUNITDISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AA3B0)
-#define RPG_GAMECORE_ROGUEMAGICUNITDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9AA1F0)
+#define RPG_GAMECORE_ROGUEMAGICUNITDISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20777F20)
+#define RPG_GAMECORE_ROGUEMAGICUNITDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x20777D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicUnitDisplayRow_TypeDefinitionIndex = 14886;
+	inline static constexpr unsigned int RogueMagicUnitDisplayRow_TypeDefinitionIndex = 15042;
 
 	class RogueMagicUnitDisplayRow : public ::System::Object
 	{

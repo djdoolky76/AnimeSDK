@@ -13,29 +13,29 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class GridLayoutGroup; }
 namespace XLua { class LuaTable; }
 
-#define EJOBDMJKJGE_AGANFOOPFDD_OFFSET UNITYSDK_OFFSET(0x154E6550)
-#define EJOBDMJKJGE_BBFKJMDFGNB_OFFSET UNITYSDK_OFFSET(0x154E61C0)
-#define EJOBDMJKJGE_CTOR_OFFSET UNITYSDK_OFFSET(0x154E6870)
-#define EJOBDMJKJGE_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x154E60A0)
-#define EJOBDMJKJGE_GBBODEIFAMF_OFFSET UNITYSDK_OFFSET(0x154E65F0)
-#define EJOBDMJKJGE_NGFGKIFCEMB_OFFSET UNITYSDK_OFFSET(0x154E62E0)
-#define EJOBDMJKJGE_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x154E5E40)
-#define EJOBDMJKJGE_OFEMKJPLDNN_OFFSET UNITYSDK_OFFSET(0x154E67D0)
-#define EJOBDMJKJGE__ONBIND_OFFSET UNITYSDK_OFFSET(0x154E5B90)
+#define EJOBDMJKJGE_AGANFOOPFDD_OFFSET UNITYSDK_OFFSET(0x19AC9110)
+#define EJOBDMJKJGE_BBFKJMDFGNB_OFFSET UNITYSDK_OFFSET(0x19AC8D80)
+#define EJOBDMJKJGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1997B970)
+#define EJOBDMJKJGE_GBBODEIFAMF_OFFSET UNITYSDK_OFFSET(0x1997B780)
+#define EJOBDMJKJGE_NGFGKIFCEMB_OFFSET UNITYSDK_OFFSET(0x19AC8EA0)
+#define EJOBDMJKJGE_OFEMKJPLDNN_OFFSET UNITYSDK_OFFSET(0x19AC91B0)
+#define EJOBDMJKJGE__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x19AC8A00)
+#define EJOBDMJKJGE__ONBIND_OFFSET UNITYSDK_OFFSET(0x19AC8580)
+#define EJOBDMJKJGE__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19AC8C60)
 
-inline static constexpr unsigned int EJOBDMJKJGE_TypeDefinitionIndex = 72259;
+inline static constexpr unsigned int EJOBDMJKJGE_TypeDefinitionIndex = 74334;
 
 	class EJOBDMJKJGE : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* HCMEOAMDOJA; // 0x60
-		::UnityEngine::UI::Button* MDFBLLAGKPF; // 0x68
-		::RPG::GameCore::GridFightManager* LKIGACIFAAA; // 0x70
-		::UnityEngine::Animation* LEEJFLHCOPK; // 0x78
+		::UnityEngine::Animation* LEEJFLHCOPK; // 0x60
+		::RPG::GameCore::GridFightManager* LKIGACIFAAA; // 0x68
+		::UnityEngine::UI::Button* MDFBLLAGKPF; // 0x70
+		::UnityEngine::UI::Button* ACHGKGCEDEH; // 0x78
 		::UnityEngine::UI::GridLayoutGroup* MBCDOOEGKKF; // 0x80
-		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x88
-		::UnityEngine::UI::Button* ACHGKGCEDEH; // 0x90
-		::RPG::Client::StaticListView* MHLINDENENF; // 0x98
+		::RPG::Client::StaticListView* MHLINDENENF; // 0x88
+		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x90
+		::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* HCMEOAMDOJA; // 0x98
 		::System::Boolean OEBHPNCLIAH; // 0xA0
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		// static const ::System::Object IOAGJCLKELH; // 0x0
@@ -50,14 +50,14 @@ inline static constexpr unsigned int EJOBDMJKJGE_TypeDefinitionIndex = 72259;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJOBDMJKJGE__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJOBDMJKJGE_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJOBDMJKJGE__INITVARONCE_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJOBDMJKJGE_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJOBDMJKJGE__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void BBFKJMDFGNB()

@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERBUFFASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD66B0)
+#define HIPPLENBUILDERBUFFASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF512D0)
 
-inline static constexpr unsigned int HipplenBuilderBuffAsset_TypeDefinitionIndex = 47225;
+inline static constexpr unsigned int HipplenBuilderBuffAsset_TypeDefinitionIndex = 48253;
 
 	class HipplenBuilderBuffAsset : public ::UnityEngine::ScriptableObject
 	{

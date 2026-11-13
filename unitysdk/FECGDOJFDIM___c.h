@@ -4,18 +4,18 @@
 class FECGDOJFDIM;
 namespace System { class Object; }
 
-#define FECGDOJFDIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3333E0)
-#define FECGDOJFDIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E333420)
-#define FECGDOJFDIM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E333430)
+#define FECGDOJFDIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2053DBC0)
+#define FECGDOJFDIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2053DC00)
+#define FECGDOJFDIM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2053DC10)
 
-inline static constexpr unsigned int FECGDOJFDIM___c_TypeDefinitionIndex = 30900;
+inline static constexpr unsigned int FECGDOJFDIM___c_TypeDefinitionIndex = 31813;
 
 	class FECGDOJFDIM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53120);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A2A0);
 		}
 
 		static ::System::Void _cctor()

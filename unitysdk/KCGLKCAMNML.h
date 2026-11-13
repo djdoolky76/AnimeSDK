@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KCGLKCAMNML_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D04E020)
-#define KCGLKCAMNML_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D04E5A0)
-#define KCGLKCAMNML_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D04E190)
-#define KCGLKCAMNML_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D04DAD0)
-#define KCGLKCAMNML_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D04DD60)
-#define KCGLKCAMNML_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D04E230)
-#define KCGLKCAMNML_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D04E280)
-#define KCGLKCAMNML_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D04E060)
-#define KCGLKCAMNML_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D04DD00)
-#define KCGLKCAMNML_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D04DE90)
-#define KCGLKCAMNML_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D04E0F0)
-#define KCGLKCAMNML_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D04DA50)
+#define KCGLKCAMNML_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F406430)
+#define KCGLKCAMNML_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4069B0)
+#define KCGLKCAMNML_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F4065A0)
+#define KCGLKCAMNML_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F405EE0)
+#define KCGLKCAMNML_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F406170)
+#define KCGLKCAMNML_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F406640)
+#define KCGLKCAMNML_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F406690)
+#define KCGLKCAMNML_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F406470)
+#define KCGLKCAMNML_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F406110)
+#define KCGLKCAMNML_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F4062A0)
+#define KCGLKCAMNML_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F406500)
+#define KCGLKCAMNML_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F405E60)
 
-inline static constexpr unsigned int KCGLKCAMNML_TypeDefinitionIndex = 11018;
+inline static constexpr unsigned int KCGLKCAMNML_TypeDefinitionIndex = 11034;
 
 	class KCGLKCAMNML : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0x33990);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0x32A00);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakeRaceTriggerEventRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakeRaceTriggerEventRow*>**)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0x33998);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakeRaceTriggerEventRow*>**)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0x32A08);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0x339A0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0x32A10);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0xA7C0);
+			return (::System::Boolean*)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0x9CD0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0xA7C1);
+			return (::System::Byte*)UnitySDK::FromName("", "KCGLKCAMNML")->GetStaticField(0x9CD1);
 		}
 
 		static ::System::Void _cctor()

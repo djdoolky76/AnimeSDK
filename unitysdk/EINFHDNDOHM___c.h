@@ -4,18 +4,18 @@
 class EINFHDNDOHM;
 namespace System { class Object; }
 
-#define EINFHDNDOHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E27FA00)
-#define EINFHDNDOHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E27FA40)
-#define EINFHDNDOHM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E27FA50)
+#define EINFHDNDOHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF96560)
+#define EINFHDNDOHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF965A0)
+#define EINFHDNDOHM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FF965B0)
 
-inline static constexpr unsigned int EINFHDNDOHM___c_TypeDefinitionIndex = 27656;
+inline static constexpr unsigned int EINFHDNDOHM___c_TypeDefinitionIndex = 28187;
 
 	class EINFHDNDOHM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B0D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EEC0);
 		}
 
 		static ::System::Void _cctor()

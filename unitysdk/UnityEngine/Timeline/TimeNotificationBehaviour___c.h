@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F365910)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F365950)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C__SORTNOTIFICATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1F365960)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6EF9D0)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EFA10)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C__SORTNOTIFICATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1D6EFA20)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimeNotificationBehaviour___c_TypeDefinitionIndex = 38853;
+	inline static constexpr unsigned int TimeNotificationBehaviour___c_TypeDefinitionIndex = 39782;
 
 	class TimeNotificationBehaviour___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Object*>** StaticGet___9__12_0()
-		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x3F020);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x3F028);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x3E8A0);
+		}
+
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__12_0()
+		{
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x3E8A8);
 		}
 
 		static ::System::Void _cctor()

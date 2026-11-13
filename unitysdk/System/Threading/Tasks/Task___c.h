@@ -7,13 +7,13 @@ namespace System::Threading { class TimerCallback; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class Task_ContingentProperties; }
 
-#define SYSTEM_THREADING_TASKS_TASK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C12BAE0)
-#define SYSTEM_THREADING_TASKS_TASK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C12BB10)
-#define SYSTEM_THREADING_TASKS_TASK___C__DELAY_B__276_0_OFFSET UNITYSDK_OFFSET(0x1C12BB20)
-#define SYSTEM_THREADING_TASKS_TASK___C__DELAY_B__276_1_OFFSET UNITYSDK_OFFSET(0x1C12BE30)
-#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_0_OFFSET UNITYSDK_OFFSET(0x1C12BE90)
-#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_1_OFFSET UNITYSDK_OFFSET(0x1C12BEB0)
-#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_2_OFFSET UNITYSDK_OFFSET(0x1C12BED0)
+#define SYSTEM_THREADING_TASKS_TASK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD77510)
+#define SYSTEM_THREADING_TASKS_TASK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD77540)
+#define SYSTEM_THREADING_TASKS_TASK___C__DELAY_B__276_0_OFFSET UNITYSDK_OFFSET(0x1DD77550)
+#define SYSTEM_THREADING_TASKS_TASK___C__DELAY_B__276_1_OFFSET UNITYSDK_OFFSET(0x1DD77860)
+#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_0_OFFSET UNITYSDK_OFFSET(0x1DD778C0)
+#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_1_OFFSET UNITYSDK_OFFSET(0x1DD778E0)
+#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_2_OFFSET UNITYSDK_OFFSET(0x1DD77900)
 
 namespace System::Threading::Tasks
 {
@@ -22,19 +22,19 @@ namespace System::Threading::Tasks
 	class Task___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet___9__276_0()
-		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x2A540);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x2A548);
+			return (::System::Object**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x185E0);
+		}
+
+		static ::System::Action_1<::System::Object*>** StaticGet___9__276_0()
+		{
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x185E8);
 		}
 
 		static ::System::Threading::TimerCallback** StaticGet___9__276_1()
 		{
-			return (::System::Threading::TimerCallback**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x2A550);
+			return (::System::Threading::TimerCallback**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x185F0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define BCLNOMLHKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x162D6F10)
+#define BCLNOMLHKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x19D7F080)
 
-inline static constexpr unsigned int BCLNOMLHKEI_TypeDefinitionIndex = 56441;
+inline static constexpr unsigned int BCLNOMLHKEI_TypeDefinitionIndex = 57659;
 
 	class BCLNOMLHKEI : public ::System::Object
 	{

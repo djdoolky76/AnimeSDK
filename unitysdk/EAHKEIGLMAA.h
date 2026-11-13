@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetReverse; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EAHKEIGLMAA_CTOR_OFFSET UNITYSDK_OFFSET(0x12675340)
-#define EAHKEIGLMAA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x12675360)
+#define EAHKEIGLMAA_CTOR_OFFSET UNITYSDK_OFFSET(0x181D05A0)
+#define EAHKEIGLMAA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x181D05C0)
 
-inline static constexpr unsigned int EAHKEIGLMAA_TypeDefinitionIndex = 59206;
+inline static constexpr unsigned int EAHKEIGLMAA_TypeDefinitionIndex = 60483;
 
 	class EAHKEIGLMAA
 	{

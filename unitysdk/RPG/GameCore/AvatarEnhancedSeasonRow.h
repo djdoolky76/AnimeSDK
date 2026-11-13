@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarEnhancedSeasonRow; }
 
-#define RPG_GAMECORE_AVATARENHANCEDSEASONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E51F0)
-#define RPG_GAMECORE_AVATARENHANCEDSEASONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E50D0)
+#define RPG_GAMECORE_AVATARENHANCEDSEASONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D8650)
+#define RPG_GAMECORE_AVATARENHANCEDSEASONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2D8530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEnhancedSeasonRow_TypeDefinitionIndex = 12793;
+	inline static constexpr unsigned int AvatarEnhancedSeasonRow_TypeDefinitionIndex = 12865;
 
 	class AvatarEnhancedSeasonRow : public ::System::Object
 	{

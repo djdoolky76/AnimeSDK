@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemStopAction_TypeDefinitionIndex = 5270;
+	inline static constexpr unsigned int ParticleSystemStopAction_TypeDefinitionIndex = 5275;
 
 	enum class ParticleSystemStopAction : ::System::Int32
 	{

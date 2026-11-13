@@ -4,18 +4,18 @@
 class IPIFCANPPEO;
 namespace System { class Object; }
 
-#define IPIFCANPPEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B6B00)
-#define IPIFCANPPEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B6B30)
-#define IPIFCANPPEO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E6B6B40)
+#define IPIFCANPPEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEE3980)
+#define IPIFCANPPEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEE39B0)
+#define IPIFCANPPEO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FEE39C0)
 
-inline static constexpr unsigned int IPIFCANPPEO___c_TypeDefinitionIndex = 33540;
+inline static constexpr unsigned int IPIFCANPPEO___c_TypeDefinitionIndex = 34455;
 
 	class IPIFCANPPEO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56900);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54F50);
 		}
 
 		static ::System::Void _cctor()

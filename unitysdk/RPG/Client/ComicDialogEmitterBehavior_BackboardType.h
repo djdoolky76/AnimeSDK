@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComicDialogEmitterBehavior_BackboardType_TypeDefinitionIndex = 70879;
+	inline static constexpr unsigned int ComicDialogEmitterBehavior_BackboardType_TypeDefinitionIndex = 72858;
 
 	enum class ComicDialogEmitterBehavior_BackboardType : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BoomRobotGameplayBoomEnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GANMPINODCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15937DE0)
-#define GANMPINODCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15937E10)
+#define GANMPINODCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B873710)
+#define GANMPINODCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B873740)
 
-inline static constexpr unsigned int GANMPINODCH_TypeDefinitionIndex = 52540;
+inline static constexpr unsigned int GANMPINODCH_TypeDefinitionIndex = 53646;
 
 	class GANMPINODCH
 	{

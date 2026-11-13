@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NFICHOKOCMH_CLPCNFNDFOM_TypeDefinitionIndex = 79513;
+inline static constexpr unsigned int NFICHOKOCMH_CLPCNFNDFOM_TypeDefinitionIndex = 82290;
 
 	class NFICHOKOCMH_CLPCNFNDFOM
 	{

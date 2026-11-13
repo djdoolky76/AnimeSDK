@@ -4,17 +4,17 @@
 namespace System { class Action; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define PHBNDGBHJGO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC22FBA0)
-#define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__0_OFFSET UNITYSDK_OFFSET(0xC22FBC0)
-#define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__1_OFFSET UNITYSDK_OFFSET(0xC22FC50)
+#define PHBNDGBHJGO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16DAC800)
+#define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__0_OFFSET UNITYSDK_OFFSET(0x16DAC820)
+#define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__1_OFFSET UNITYSDK_OFFSET(0x16DAC8B0)
 
-inline static constexpr unsigned int PHBNDGBHJGO___c__DisplayClass0_0_TypeDefinitionIndex = 61107;
+inline static constexpr unsigned int PHBNDGBHJGO___c__DisplayClass0_0_TypeDefinitionIndex = 62492;
 
 	class PHBNDGBHJGO___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Diagnostics::Stopwatch* stopwatch; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::System::Diagnostics::Stopwatch* stopwatch; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHBNDGBHJGO___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

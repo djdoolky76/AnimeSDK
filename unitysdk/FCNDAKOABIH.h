@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class MultithreadConfig; }
 namespace RPG::GameCore { class ThreadTaskConfig; }
 
-#define FCNDAKOABIH_IICJACHLPNG_OFFSET UNITYSDK_OFFSET(0x156C3110)
+#define FCNDAKOABIH_IICJACHLPNG_OFFSET UNITYSDK_OFFSET(0x1C029310)
 
-inline static constexpr unsigned int FCNDAKOABIH_TypeDefinitionIndex = 53600;
+inline static constexpr unsigned int FCNDAKOABIH_TypeDefinitionIndex = 54764;
 
 	class FCNDAKOABIH : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::MultithreadConfig** StaticGet_KHEDFLAEHLP()
 		{
-			return (::RPG::GameCore::MultithreadConfig**)UnitySDK::FromName("", "FCNDAKOABIH")->GetStaticField(0x55790);
+			return (::RPG::GameCore::MultithreadConfig**)UnitySDK::FromName("", "FCNDAKOABIH")->GetStaticField(0x4B150);
 		}
 
 		static ::RPG::GameCore::ThreadTaskConfig* IICJACHLPNG(::RPG::GameCore::ThreadTaskType a1)

@@ -8,10 +8,10 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define EMMLHDGOLIP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC62250)
-#define EMMLHDGOLIP___C__DISPLAYCLASS4_0___BUILDPROPERTYMAPPER_B__0_OFFSET UNITYSDK_OFFSET(0x1CC639C0)
+#define EMMLHDGOLIP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x20934E30)
+#define EMMLHDGOLIP___C__DISPLAYCLASS4_0___BUILDPROPERTYMAPPER_B__0_OFFSET UNITYSDK_OFFSET(0x209365A0)
 
-inline static constexpr unsigned int EMMLHDGOLIP___c__DisplayClass4_0_TypeDefinitionIndex = 43886;
+inline static constexpr unsigned int EMMLHDGOLIP___c__DisplayClass4_0_TypeDefinitionIndex = 44961;
 
 	class EMMLHDGOLIP___c__DisplayClass4_0 : public ::System::Object
 	{

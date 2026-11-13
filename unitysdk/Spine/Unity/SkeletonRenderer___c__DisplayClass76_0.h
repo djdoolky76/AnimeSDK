@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SPINE_UNITY_SKELETONRENDERER___C__DISPLAYCLASS76_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF9E70)
-#define SPINE_UNITY_SKELETONRENDERER___C__DISPLAYCLASS76_0__FINDANDAPPLYSEPARATORSLOTS_B__0_OFFSET UNITYSDK_OFFSET(0x1ECFA6B0)
+#define SPINE_UNITY_SKELETONRENDERER___C__DISPLAYCLASS76_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19204440)
+#define SPINE_UNITY_SKELETONRENDERER___C__DISPLAYCLASS76_0__FINDANDAPPLYSEPARATORSLOTS_B__0_OFFSET UNITYSDK_OFFSET(0x19204C80)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRenderer___c__DisplayClass76_0_TypeDefinitionIndex = 45049;
+	inline static constexpr unsigned int SkeletonRenderer___c__DisplayClass76_0_TypeDefinitionIndex = 46124;
 
 	class SkeletonRenderer___c__DisplayClass76_0 : public ::System::Object
 	{

@@ -9,39 +9,39 @@ class GLPPDCIBMIH;
 class OEGDBPLMIAE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OEGDBPLMIAE_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1C79E460)
-#define OEGDBPLMIAE_CEHKJBGHJCH_OFFSET UNITYSDK_OFFSET(0x1C79EFA0)
-#define OEGDBPLMIAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79F180)
-#define OEGDBPLMIAE_EFLLOIHGNAJ_OFFSET UNITYSDK_OFFSET(0x1C79E500)
-#define OEGDBPLMIAE_IJJLDOCKKGO_OFFSET UNITYSDK_OFFSET(0x1C79E0B0)
-#define OEGDBPLMIAE_LKHLOHDDCEN_OFFSET UNITYSDK_OFFSET(0x1C79F100)
-#define OEGDBPLMIAE_MLLNBEIAKLD_OFFSET UNITYSDK_OFFSET(0x1C79EAD0)
-#define OEGDBPLMIAE_MMNFCKLBEFB_OFFSET UNITYSDK_OFFSET(0x1C79E3C0)
-#define OEGDBPLMIAE_OAKCJCGJAPI_OFFSET UNITYSDK_OFFSET(0x1C79ECF0)
+#define OEGDBPLMIAE_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1B07FB80)
+#define OEGDBPLMIAE_CEHKJBGHJCH_OFFSET UNITYSDK_OFFSET(0x1B0806F0)
+#define OEGDBPLMIAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0808D0)
+#define OEGDBPLMIAE_EFLLOIHGNAJ_OFFSET UNITYSDK_OFFSET(0x1B07FC20)
+#define OEGDBPLMIAE_IJJLDOCKKGO_OFFSET UNITYSDK_OFFSET(0x1B07F7D0)
+#define OEGDBPLMIAE_LKHLOHDDCEN_OFFSET UNITYSDK_OFFSET(0x1B080850)
+#define OEGDBPLMIAE_MLLNBEIAKLD_OFFSET UNITYSDK_OFFSET(0x1B080220)
+#define OEGDBPLMIAE_MMNFCKLBEFB_OFFSET UNITYSDK_OFFSET(0x1B07FAE0)
+#define OEGDBPLMIAE_OAKCJCGJAPI_OFFSET UNITYSDK_OFFSET(0x1B080440)
 
-inline static constexpr unsigned int OEGDBPLMIAE_TypeDefinitionIndex = 36196;
+inline static constexpr unsigned int OEGDBPLMIAE_TypeDefinitionIndex = 37124;
 
 	class OEGDBPLMIAE : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* JCHKBBCBOJD; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* KIKCBCMCNNE; // 0x18
-		::FFMGMJBLCDH* GKCFIKKGIOO; // 0x20
+		::FFMGMJBLCDH* GKCFIKKGIOO; // 0x10
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* CJADKHGKMGK; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* DEDOFFGEJBG; // 0x20
 		::System::Collections::Generic::List_1<::BJAPDDEENCN*>* CPFADDHOFNP; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* IOBCJHBLGHO; // 0x30
-		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* CJADKHGKMGK; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* KIKCBCMCNNE; // 0x38
 		::System::Collections::Generic::List_1<::BJAPDDEENCN*>* PCMJJPJAHIH; // 0x40
-		::System::Collections::Generic::List_1<::System::Int32>* DEDOFFGEJBG; // 0x48
-		::System::Int32 NEGIAGAHLPI; // 0x50
-		::System::Int32 MDDEKOFGDDE; // 0x54
-		::System::Int32 NHPNLKCCBKF; // 0x58
-		::System::Int32 IFGMFGJDIMA; // 0x5C
-		::System::Int32 APIBCNLECNF; // 0x60
-		::System::Int32 KDEJAIMNNJF; // 0x64
-		::System::Boolean FNMFLHNOIKK; // 0x68
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* JCHKBBCBOJD; // 0x48
+		::System::Int32 NHPNLKCCBKF; // 0x50
+		::System::Int32 JFICKDBIECD; // 0x54
+		::System::Int32 IFGMFGJDIMA; // 0x58
+		::System::Int32 NEGIAGAHLPI; // 0x5C
+		::System::Int32 MDDEKOFGDDE; // 0x60
+		::System::Int32 BMHHLGEDCPP; // 0x64
+		::System::Int32 APIBCNLECNF; // 0x68
+		::System::Boolean FNMFLHNOIKK; // 0x6C
 		::System::Byte _padding0[0x3];
-		::System::Int32 BMHHLGEDCPP; // 0x6C
-		::System::Int32 JFICKDBIECD; // 0x70
+		::System::Int32 KDEJAIMNNJF; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OEGDBPLMIAE_CTOR_OFFSET))(this);

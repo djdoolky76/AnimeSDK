@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelChimeraGroupRow; }
 
-#define RPG_GAMECORE_CHIMERADUELCHIMERAGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56F860)
-#define RPG_GAMECORE_CHIMERADUELCHIMERAGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D56F2E0)
+#define RPG_GAMECORE_CHIMERADUELCHIMERAGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F925910)
+#define RPG_GAMECORE_CHIMERADUELCHIMERAGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F925390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraGroupRow_TypeDefinitionIndex = 11141;
+	inline static constexpr unsigned int ChimeraDuelChimeraGroupRow_TypeDefinitionIndex = 11157;
 
 	class ChimeraDuelChimeraGroupRow : public ::System::Object
 	{

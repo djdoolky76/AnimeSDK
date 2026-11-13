@@ -4,9 +4,9 @@
 class EHIEFPKGLAN;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define MAEHLFNLFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F4FE0)
+#define MAEHLFNLFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25A0C0)
 
-inline static constexpr unsigned int MAEHLFNLFPG_TypeDefinitionIndex = 41984;
+inline static constexpr unsigned int MAEHLFNLFPG_TypeDefinitionIndex = 42959;
 
 	class MAEHLFNLFPG : public ::System::Object
 	{

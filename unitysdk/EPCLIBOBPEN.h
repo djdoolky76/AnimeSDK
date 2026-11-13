@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckTimelineEntityState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EPCLIBOBPEN_CTOR_OFFSET UNITYSDK_OFFSET(0x155C3B40)
-#define EPCLIBOBPEN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155C3B70)
+#define EPCLIBOBPEN_CTOR_OFFSET UNITYSDK_OFFSET(0x16B323D0)
+#define EPCLIBOBPEN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16B32400)
 
-inline static constexpr unsigned int EPCLIBOBPEN_TypeDefinitionIndex = 53366;
+inline static constexpr unsigned int EPCLIBOBPEN_TypeDefinitionIndex = 54528;
 
 	class EPCLIBOBPEN
 	{

@@ -7,26 +7,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityFinalityBattleRoleRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYFINALITYBATTLEROLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D337380)
-#define RPG_GAMECORE_ACTIVITYFINALITYBATTLEROLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D336EB0)
+#define RPG_GAMECORE_ACTIVITYFINALITYBATTLEROLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E514640)
+#define RPG_GAMECORE_ACTIVITYFINALITYBATTLEROLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E514170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFinalityBattleRoleRow_TypeDefinitionIndex = 11606;
+	inline static constexpr unsigned int ActivityFinalityBattleRoleRow_TypeDefinitionIndex = 11657;
 
 	class ActivityFinalityBattleRoleRow : public ::System::Object
 	{
 	public:
-		::System::String* AvatarEnglishName; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList_Stage; // 0x10
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList_ModifiedSkill; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList_Stage; // 0x20
+		::System::String* AvatarEnglishName; // 0x20
 		::RPG::Client::TextID StageFeverSimpleDesc; // 0x28
-		::RPG::Client::TextID AvatarFeverDesc; // 0x38
-		::RPG::Client::TextID StageFeverDesc; // 0x48
-		::RPG::Client::TextID AvatarFeverSimpleDesc; // 0x58
-		::RPG::Client::TextID StageFeverCond; // 0x68
-		::System::UInt32 ID; // 0x78
-		::System::UInt32 SpecialAvatarID; // 0x7C
+		::RPG::Client::TextID AvatarFeverSimpleDesc; // 0x38
+		::System::UInt32 SpecialAvatarID; // 0x48
+		::System::UInt32 ID; // 0x4C
+		::RPG::Client::TextID StageFeverDesc; // 0x50
+		::RPG::Client::TextID AvatarFeverDesc; // 0x60
+		::RPG::Client::TextID StageFeverCond; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYFINALITYBATTLEROLEROW_CTOR_OFFSET))(this);

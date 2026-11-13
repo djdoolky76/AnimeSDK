@@ -5,12 +5,12 @@ class IHGIENOHBMJ;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1536E0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS4_0__SENDGETGAMEREFSTATICDATAAPIHTTPREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD15D7E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD40150)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS4_0__SENDGETGAMEREFSTATICDATAAPIHTTPREQ_B__0_OFFSET UNITYSDK_OFFSET(0x1CD40160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass4_0_TypeDefinitionIndex = 64710;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass4_0_TypeDefinitionIndex = 66253;
 
 	class GridFightGameRef___c__DisplayClass4_0 : public ::System::Object
 	{

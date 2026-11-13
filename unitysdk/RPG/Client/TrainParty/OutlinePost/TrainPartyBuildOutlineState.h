@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TrainParty::OutlinePost
 {
-	inline static constexpr unsigned int TrainPartyBuildOutlineState_TypeDefinitionIndex = 74369;
+	inline static constexpr unsigned int TrainPartyBuildOutlineState_TypeDefinitionIndex = 76517;
 
 	enum class TrainPartyBuildOutlineState : ::System::Int32
 	{

@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceTriggerEventRow; }
 
-#define RPG_GAMECORE_CAKERACETRIGGEREVENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D526060)
-#define RPG_GAMECORE_CAKERACETRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D525EA0)
+#define RPG_GAMECORE_CAKERACETRIGGEREVENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFED80)
+#define RPG_GAMECORE_CAKERACETRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBFEBC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTriggerEventRow_TypeDefinitionIndex = 11017;
+	inline static constexpr unsigned int CakeRaceTriggerEventRow_TypeDefinitionIndex = 11033;
 
 	class CakeRaceTriggerEventRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ConditionIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* TriggerPerformanceIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* TriggerPerformanceIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* ConditionIDList; // 0x18
 		::RPG::GameCore::CakeRaceTriggerEventType TriggerEventType; // 0x20
 		::System::UInt32 EventID; // 0x24
 		::System::Void _ctor()

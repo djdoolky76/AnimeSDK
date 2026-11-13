@@ -5,21 +5,21 @@ namespace RPG::Client { class UIController; }
 namespace RPG::GameCore { class ShowSwordTrainingConfirmGiveUpDialog; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLNLJHDGAFE_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B40A0)
-#define DLNLJHDGAFE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF8B43E0)
-#define DLNLJHDGAFE_OGJFGCFPEHO_OFFSET UNITYSDK_OFFSET(0xF8B4270)
-#define DLNLJHDGAFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8B40B0)
-#define DLNLJHDGAFE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF8B4390)
-#define DLNLJHDGAFE_TICK_OFFSET UNITYSDK_OFFSET(0xF8B4430)
+#define DLNLJHDGAFE_CTOR_OFFSET UNITYSDK_OFFSET(0x18688660)
+#define DLNLJHDGAFE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x186889A0)
+#define DLNLJHDGAFE_OGJFGCFPEHO_OFFSET UNITYSDK_OFFSET(0x18688830)
+#define DLNLJHDGAFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18688670)
+#define DLNLJHDGAFE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18688950)
+#define DLNLJHDGAFE_TICK_OFFSET UNITYSDK_OFFSET(0x186889F0)
 
-inline static constexpr unsigned int DLNLJHDGAFE_TypeDefinitionIndex = 55619;
+inline static constexpr unsigned int DLNLJHDGAFE_TypeDefinitionIndex = 56817;
 
 	class DLNLJHDGAFE : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::Client::UIController* OGOFNHAGOPO; // 0x20
-		::RPG::GameCore::ShowSwordTrainingConfirmGiveUpDialog* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::ShowSwordTrainingConfirmGiveUpDialog* OFKGLJOAMLD; // 0x20
+		::RPG::Client::UIController* OGOFNHAGOPO; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowSwordTrainingConfirmGiveUpDialog* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowSwordTrainingConfirmGiveUpDialog*))((::PBYTE)hIl2Cpp + DLNLJHDGAFE_CTOR_OFFSET))(this, a1, a2);

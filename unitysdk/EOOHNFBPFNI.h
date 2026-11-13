@@ -5,20 +5,20 @@ namespace RPG::GameCore { class SwitchHandResetGame; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define EOOHNFBPFNI_CTOR_OFFSET UNITYSDK_OFFSET(0x155BFF10)
-#define EOOHNFBPFNI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155BFF20)
-#define EOOHNFBPFNI_GLHGOLCLHBJ_OFFSET UNITYSDK_OFFSET(0x155C06A0)
-#define EOOHNFBPFNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155C0090)
-#define EOOHNFBPFNI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155BFF70)
-#define EOOHNFBPFNI_TICK_OFFSET UNITYSDK_OFFSET(0x155C0030)
+#define EOOHNFBPFNI_CTOR_OFFSET UNITYSDK_OFFSET(0x16B2E6C0)
+#define EOOHNFBPFNI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16B2E6D0)
+#define EOOHNFBPFNI_GLHGOLCLHBJ_OFFSET UNITYSDK_OFFSET(0x16B2EE40)
+#define EOOHNFBPFNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B2E840)
+#define EOOHNFBPFNI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16B2E720)
+#define EOOHNFBPFNI_TICK_OFFSET UNITYSDK_OFFSET(0x16B2E7E0)
 
-inline static constexpr unsigned int EOOHNFBPFNI_TypeDefinitionIndex = 53317;
+inline static constexpr unsigned int EOOHNFBPFNI_TypeDefinitionIndex = 54479;
 
 	class EOOHNFBPFNI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SwitchHandResetGame* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::SwitchHandResetGame* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchHandResetGame* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchHandResetGame*))((::PBYTE)hIl2Cpp + EOOHNFBPFNI_CTOR_OFFSET))(this, a1, a2);

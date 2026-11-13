@@ -5,11 +5,11 @@
 class DJBLFPJDAHG;
 namespace System { class Object; }
 
-#define RPG_CLIENT_CONDITIONCHECKITEMFACTORY_CREATECONDITIONCHECKITEM_OFFSET UNITYSDK_OFFSET(0xCBB0030)
+#define RPG_CLIENT_CONDITIONCHECKITEMFACTORY_CREATECONDITIONCHECKITEM_OFFSET UNITYSDK_OFFSET(0x1C9929E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConditionCheckItemFactory_TypeDefinitionIndex = 59894;
+	inline static constexpr unsigned int ConditionCheckItemFactory_TypeDefinitionIndex = 61178;
 
 	class ConditionCheckItemFactory : public ::System::Object
 	{

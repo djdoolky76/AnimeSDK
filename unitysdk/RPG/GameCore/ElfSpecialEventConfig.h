@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ElfSpecialEventConfig; }
 namespace RPG::GameCore { class ElfSpecialEventSelect; }
 namespace RPG::GameCore { class ElfSpecialEventWaveOrder; }
 
-#define RPG_GAMECORE_ELFSPECIALEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D60AF90)
-#define RPG_GAMECORE_ELFSPECIALEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D60ADF0)
+#define RPG_GAMECORE_ELFSPECIALEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E1A40)
+#define RPG_GAMECORE_ELFSPECIALEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E18A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfSpecialEventConfig_TypeDefinitionIndex = 18499;
+	inline static constexpr unsigned int ElfSpecialEventConfig_TypeDefinitionIndex = 18659;
 
 	class ElfSpecialEventConfig : public ::RPG::GameCore::JsonConfig
 	{

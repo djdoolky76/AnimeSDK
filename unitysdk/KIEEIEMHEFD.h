@@ -6,17 +6,17 @@
 class ADGFFEDNPPO;
 namespace System { class Type; }
 
-#define KIEEIEMHEFD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB416080)
-#define KIEEIEMHEFD_LMMDFHDLDAD_OFFSET UNITYSDK_OFFSET(0xB415EB0)
+#define KIEEIEMHEFD_CCTOR_OFFSET UNITYSDK_OFFSET(0x19EDC540)
+#define KIEEIEMHEFD_LMMDFHDLDAD_OFFSET UNITYSDK_OFFSET(0x19EDC370)
 
-inline static constexpr unsigned int KIEEIEMHEFD_TypeDefinitionIndex = 53629;
+inline static constexpr unsigned int KIEEIEMHEFD_TypeDefinitionIndex = 54793;
 
 	class KIEEIEMHEFD : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>** StaticGet_HKHFDOODKOA()
 		{
-			return (::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>**)UnitySDK::FromName("", "KIEEIEMHEFD")->GetStaticField(0x4C1B0);
+			return (::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>**)UnitySDK::FromName("", "KIEEIEMHEFD")->GetStaticField(0x53DB0);
 		}
 
 		static ::System::Void _cctor()

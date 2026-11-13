@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PlayMonsterHPBarTween; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PFMAHFAJHLC_CTOR_OFFSET UNITYSDK_OFFSET(0xC210270)
-#define PFMAHFAJHLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2102A0)
+#define PFMAHFAJHLC_CTOR_OFFSET UNITYSDK_OFFSET(0x16D85CE0)
+#define PFMAHFAJHLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D85D10)
 
-inline static constexpr unsigned int PFMAHFAJHLC_TypeDefinitionIndex = 47604;
+inline static constexpr unsigned int PFMAHFAJHLC_TypeDefinitionIndex = 48633;
 
 	class PFMAHFAJHLC
 	{

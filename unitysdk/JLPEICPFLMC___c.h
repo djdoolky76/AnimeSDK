@@ -4,18 +4,18 @@
 class JLPEICPFLMC;
 namespace System { class Object; }
 
-#define JLPEICPFLMC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E757C30)
-#define JLPEICPFLMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E757C70)
-#define JLPEICPFLMC___C___CCTOR_B__74_0_OFFSET UNITYSDK_OFFSET(0x1E757C80)
+#define JLPEICPFLMC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE7FA50)
+#define JLPEICPFLMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE7FA90)
+#define JLPEICPFLMC___C___CCTOR_B__74_0_OFFSET UNITYSDK_OFFSET(0x1FE7FAA0)
 
-inline static constexpr unsigned int JLPEICPFLMC___c_TypeDefinitionIndex = 27034;
+inline static constexpr unsigned int JLPEICPFLMC___c_TypeDefinitionIndex = 27565;
 
 	class JLPEICPFLMC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64D50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66040);
 		}
 
 		static ::System::Void _cctor()

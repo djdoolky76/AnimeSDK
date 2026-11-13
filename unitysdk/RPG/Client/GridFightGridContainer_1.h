@@ -7,7 +7,7 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridContainer_1_TypeDefinitionIndex = 64829;
+	inline static constexpr unsigned int GridFightGridContainer_1_TypeDefinitionIndex = 66373;
 
 	template <typename T>
 	class GridFightGridContainer_1 : public ::System::Object

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class NpcWalkStyleWeightInfo; }
 
-#define RPG_GAMECORE_NPCWALKSTYLEWEIGHTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B09A0)
-#define RPG_GAMECORE_NPCWALKSTYLEWEIGHTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B0800)
+#define RPG_GAMECORE_NPCWALKSTYLEWEIGHTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F132170)
+#define RPG_GAMECORE_NPCWALKSTYLEWEIGHTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F131FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcWalkStyleWeightInfo_TypeDefinitionIndex = 16916;
+	inline static constexpr unsigned int NpcWalkStyleWeightInfo_TypeDefinitionIndex = 17083;
 
 	class NpcWalkStyleWeightInfo : public ::RPG::GameCore::JsonConfig
 	{

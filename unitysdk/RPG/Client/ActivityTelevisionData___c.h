@@ -5,31 +5,31 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5B87C0)
-#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5B8800)
-#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__GETTRIALAVATARS_B__5_0_OFFSET UNITYSDK_OFFSET(0xC5B8810)
-#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__ISPRELEVELFINISHED_B__6_0_OFFSET UNITYSDK_OFFSET(0xC5B8820)
+#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCD6990)
+#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCD69D0)
+#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__GETTRIALAVATARS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1DCD69E0)
+#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__ISPRELEVELFINISHED_B__6_0_OFFSET UNITYSDK_OFFSET(0x1DCD69F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTelevisionData___c_TypeDefinitionIndex = 61997;
+	inline static constexpr unsigned int ActivityTelevisionData___c_TypeDefinitionIndex = 63409;
 
 	class ActivityTelevisionData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x348E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3E8E0);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x348E8);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3E8E8);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x348F0);
+			return (::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3E8F0);
 		}
 
 		static ::System::Void _cctor()

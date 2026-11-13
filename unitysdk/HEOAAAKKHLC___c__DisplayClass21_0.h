@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIPriorityRetainMap; }
 
-#define HEOAAAKKHLC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA98780)
-#define HEOAAAKKHLC___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1CA991B0)
+#define HEOAAAKKHLC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9F820)
+#define HEOAAAKKHLC___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1DAA0250)
 
-inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass21_0_TypeDefinitionIndex = 43036;
+inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass21_0_TypeDefinitionIndex = 44017;
 
 	class HEOAAAKKHLC___c__DisplayClass21_0 : public ::System::Object
 	{

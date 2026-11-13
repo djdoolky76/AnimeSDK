@@ -4,18 +4,18 @@
 class KINFINGMICK;
 namespace System { class Object; }
 
-#define KINFINGMICK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E836FE0)
-#define KINFINGMICK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E837020)
-#define KINFINGMICK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E837030)
+#define KINFINGMICK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDECD00)
+#define KINFINGMICK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDECD40)
+#define KINFINGMICK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FDECD50)
 
-inline static constexpr unsigned int KINFINGMICK___c_TypeDefinitionIndex = 28765;
+inline static constexpr unsigned int KINFINGMICK___c_TypeDefinitionIndex = 29355;
 
 	class KINFINGMICK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19740);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14A80);
 		}
 
 		static ::System::Void _cctor()

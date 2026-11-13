@@ -8,13 +8,13 @@ namespace RPG::GameCore { class UIImageNode; }
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TOGGLEUITOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFA540)
-#define RPG_GAMECORE_TOGGLEUITOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DBFA580)
-#define RPG_GAMECORE_TOGGLEUITOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBFA4E0)
+#define RPG_GAMECORE_TOGGLEUITOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D3990)
+#define RPG_GAMECORE_TOGGLEUITOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F5D39D0)
+#define RPG_GAMECORE_TOGGLEUITOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D3930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToggleUITop_TypeDefinitionIndex = 23153;
+	inline static constexpr unsigned int ToggleUITop_TypeDefinitionIndex = 23582;
 
 	class ToggleUITop : public ::RPG::GameCore::TaskConfig
 	{

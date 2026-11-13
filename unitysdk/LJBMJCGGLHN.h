@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SwordTrainingEnterGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJBMJCGGLHN_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DA530)
-#define LJBMJCGGLHN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6DA540)
-#define LJBMJCGGLHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6DA580)
-#define LJBMJCGGLHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6DA850)
-#define LJBMJCGGLHN_TICK_OFFSET UNITYSDK_OFFSET(0xB6DA8A0)
+#define LJBMJCGGLHN_CTOR_OFFSET UNITYSDK_OFFSET(0x172F74D0)
+#define LJBMJCGGLHN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x172F74E0)
+#define LJBMJCGGLHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172F7520)
+#define LJBMJCGGLHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x172F77F0)
+#define LJBMJCGGLHN_TICK_OFFSET UNITYSDK_OFFSET(0x172F7840)
 
-inline static constexpr unsigned int LJBMJCGGLHN_TypeDefinitionIndex = 58756;
+inline static constexpr unsigned int LJBMJCGGLHN_TypeDefinitionIndex = 60024;
 
 	class LJBMJCGGLHN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SwordTrainingEnterGame* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SwordTrainingEnterGame* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwordTrainingEnterGame* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwordTrainingEnterGame*))((::PBYTE)hIl2Cpp + LJBMJCGGLHN_CTOR_OFFSET))(this, a1, a2);

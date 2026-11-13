@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DMEPLLJBOAI_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB7900)
+#define DMEPLLJBOAI_CTOR_OFFSET UNITYSDK_OFFSET(0x18695130)
 
-inline static constexpr unsigned int DMEPLLJBOAI_TypeDefinitionIndex = 73487;
+inline static constexpr unsigned int DMEPLLJBOAI_TypeDefinitionIndex = 75610;
 
 	class DMEPLLJBOAI : public ::System::Object
 	{

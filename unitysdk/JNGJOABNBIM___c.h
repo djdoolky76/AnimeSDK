@@ -4,18 +4,18 @@
 class JNGJOABNBIM;
 namespace System { class Object; }
 
-#define JNGJOABNBIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E769AD0)
-#define JNGJOABNBIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E769B00)
-#define JNGJOABNBIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E769B10)
+#define JNGJOABNBIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFFED30)
+#define JNGJOABNBIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFFED60)
+#define JNGJOABNBIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FFFED70)
 
-inline static constexpr unsigned int JNGJOABNBIM___c_TypeDefinitionIndex = 32451;
+inline static constexpr unsigned int JNGJOABNBIM___c_TypeDefinitionIndex = 33364;
 
 	class JNGJOABNBIM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68260);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67110);
 		}
 
 		static ::System::Void _cctor()

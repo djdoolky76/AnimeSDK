@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapSummonedMinions; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EAHJCPBLDKE_CTOR_OFFSET UNITYSDK_OFFSET(0x12673AF0)
-#define EAHJCPBLDKE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x12673B10)
+#define EAHJCPBLDKE_CTOR_OFFSET UNITYSDK_OFFSET(0x181CED50)
+#define EAHJCPBLDKE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x181CED70)
 
-inline static constexpr unsigned int EAHJCPBLDKE_TypeDefinitionIndex = 59248;
+inline static constexpr unsigned int EAHJCPBLDKE_TypeDefinitionIndex = 60525;
 
 	class EAHJCPBLDKE
 	{

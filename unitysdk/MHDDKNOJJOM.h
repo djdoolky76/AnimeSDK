@@ -6,10 +6,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelNpcFireEffectNode; }
 
-#define MHDDKNOJJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB92C6C0)
-#define MHDDKNOJJOM_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB92C5E0)
+#define MHDDKNOJJOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3527D0)
+#define MHDDKNOJJOM_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x1B3526F0)
 
-inline static constexpr unsigned int MHDDKNOJJOM_TypeDefinitionIndex = 77688;
+inline static constexpr unsigned int MHDDKNOJJOM_TypeDefinitionIndex = 80423;
 
 	class MHDDKNOJJOM : public ::HBLDGJCDJPF
 	{

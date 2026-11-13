@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PPFilterStackEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDPPGOHBOCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB3683C0)
-#define KDPPGOHBOCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3683D0)
-#define KDPPGOHBOCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB368410)
-#define KDPPGOHBOCM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB368D40)
-#define KDPPGOHBOCM_TICK_OFFSET UNITYSDK_OFFSET(0xB368D90)
+#define KDPPGOHBOCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D2320)
+#define KDPPGOHBOCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B5D2330)
+#define KDPPGOHBOCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B5D2370)
+#define KDPPGOHBOCM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B5D2C80)
+#define KDPPGOHBOCM_TICK_OFFSET UNITYSDK_OFFSET(0x1B5D2CD0)
 
-inline static constexpr unsigned int KDPPGOHBOCM_TypeDefinitionIndex = 55254;
+inline static constexpr unsigned int KDPPGOHBOCM_TypeDefinitionIndex = 56436;
 
 	class KDPPGOHBOCM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::PPFilterStackEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::PPFilterStackEffect* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PPFilterStackEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PPFilterStackEffect*))((::PBYTE)hIl2Cpp + KDPPGOHBOCM_CTOR_OFFSET))(this, a1, a2);

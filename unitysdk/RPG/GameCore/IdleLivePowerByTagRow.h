@@ -6,20 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLivePowerByTagRow; }
 
-#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7500A0)
-#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74FE60)
+#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE88EF0)
+#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE88CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLivePowerByTagRow_TypeDefinitionIndex = 11714;
+	inline static constexpr unsigned int IdleLivePowerByTagRow_TypeDefinitionIndex = 11771;
 
 	class IdleLivePowerByTagRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::FixPoint TagPowerFactor; // 0x10
-		::System::UInt32 Num; // 0x18
-		::RPG::GameCore::ILBattleAvatarTag AvatarTag; // 0x1C
-		::RPG::GameCore::FixPoint TagAddPower; // 0x20
+		::RPG::GameCore::FixPoint TagAddPower; // 0x18
+		::System::UInt32 Num; // 0x20
+		::RPG::GameCore::ILBattleAvatarTag AvatarTag; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_CTOR_OFFSET))(this);

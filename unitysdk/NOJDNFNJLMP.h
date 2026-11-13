@@ -5,9 +5,9 @@ class KMFDPCOPGGC;
 class OAAPOLANADH;
 namespace RPG::Client { class ActivitySwordTrainingExamData; }
 
-#define NOJDNFNJLMP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEB570)
+#define NOJDNFNJLMP_CTOR_OFFSET UNITYSDK_OFFSET(0x19CEA670)
 
-inline static constexpr unsigned int NOJDNFNJLMP_TypeDefinitionIndex = 61939;
+inline static constexpr unsigned int NOJDNFNJLMP_TypeDefinitionIndex = 63351;
 
 	class NOJDNFNJLMP : public ::System::Object
 	{

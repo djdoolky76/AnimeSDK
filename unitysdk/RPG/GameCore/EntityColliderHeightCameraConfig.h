@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EntityColliderHeightCameraConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ENTITYCOLLIDERHEIGHTCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6180C0)
-#define RPG_GAMECORE_ENTITYCOLLIDERHEIGHTCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D617F60)
+#define RPG_GAMECORE_ENTITYCOLLIDERHEIGHTCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0EEA80)
+#define RPG_GAMECORE_ENTITYCOLLIDERHEIGHTCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0EE920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityColliderHeightCameraConfig_TypeDefinitionIndex = 16431;
+	inline static constexpr unsigned int EntityColliderHeightCameraConfig_TypeDefinitionIndex = 16595;
 
 	class EntityColliderHeightCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

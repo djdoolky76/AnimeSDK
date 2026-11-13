@@ -4,18 +4,18 @@
 class AJNKADCOKOL;
 namespace System { class Object; }
 
-#define AJNKADCOKOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E398E50)
-#define AJNKADCOKOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E398E90)
-#define AJNKADCOKOL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E398EA0)
+#define AJNKADCOKOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20635B60)
+#define AJNKADCOKOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20635BA0)
+#define AJNKADCOKOL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20635BB0)
 
-inline static constexpr unsigned int AJNKADCOKOL___c_TypeDefinitionIndex = 27751;
+inline static constexpr unsigned int AJNKADCOKOL___c_TypeDefinitionIndex = 28282;
 
 	class AJNKADCOKOL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E190);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x321A0);
 		}
 
 		static ::System::Void _cctor()

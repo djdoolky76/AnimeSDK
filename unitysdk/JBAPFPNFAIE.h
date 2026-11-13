@@ -6,16 +6,17 @@
 class FCOEMCEDLNL;
 class JBAPFPNFAIE;
 
-#define JBAPFPNFAIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE4200)
-#define JBAPFPNFAIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CFE4080)
+#define JBAPFPNFAIE_CTOR_OFFSET UNITYSDK_OFFSET(0xCA90CC0)
+#define JBAPFPNFAIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xCA90B40)
 
-inline static constexpr unsigned int JBAPFPNFAIE_TypeDefinitionIndex = 11976;
+inline static constexpr unsigned int JBAPFPNFAIE_TypeDefinitionIndex = 12033;
 
 	class JBAPFPNFAIE : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID NMAHGFAPENI; // 0x10
-		::OGANCPOAIIP GMPGDEINODK; // 0x20
+		::OGANCPOAIIP GMPGDEINODK; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID NMAHGFAPENI; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JBAPFPNFAIE_CTOR_OFFSET))(this);

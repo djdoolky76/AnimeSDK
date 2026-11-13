@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::Networking::PlayerConnection { class MessageEventArgs; }
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3DADC0)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS20_0__BLOCKUNTILRECVMSG_B__0_OFFSET UNITYSDK_OFFSET(0x1F3DBBC0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x203D9420)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS20_0__BLOCKUNTILRECVMSG_B__0_OFFSET UNITYSDK_OFFSET(0x203DA220)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int PlayerConnection___c__DisplayClass20_0_TypeDefinitionIndex = 4677;
+	inline static constexpr unsigned int PlayerConnection___c__DisplayClass20_0_TypeDefinitionIndex = 4681;
 
 	class PlayerConnection___c__DisplayClass20_0 : public ::System::Object
 	{

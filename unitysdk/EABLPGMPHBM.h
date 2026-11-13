@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchBattleEventEntityList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EABLPGMPHBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1266AC70)
-#define EABLPGMPHBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1266ACC0)
+#define EABLPGMPHBM_CTOR_OFFSET UNITYSDK_OFFSET(0x181C5800)
+#define EABLPGMPHBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x181C5850)
 
-inline static constexpr unsigned int EABLPGMPHBM_TypeDefinitionIndex = 59127;
+inline static constexpr unsigned int EABLPGMPHBM_TypeDefinitionIndex = 60403;
 
 	class EABLPGMPHBM
 	{

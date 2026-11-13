@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LockCurrentTeleportAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AKBDMPBDADK_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC4240)
-#define AKBDMPBDADK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC4250)
-#define AKBDMPBDADK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CC4290)
-#define AKBDMPBDADK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CC4350)
-#define AKBDMPBDADK_TICK_OFFSET UNITYSDK_OFFSET(0x12CC43A0)
+#define AKBDMPBDADK_CTOR_OFFSET UNITYSDK_OFFSET(0x19D524F0)
+#define AKBDMPBDADK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19D52500)
+#define AKBDMPBDADK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D52540)
+#define AKBDMPBDADK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19D525F0)
+#define AKBDMPBDADK_TICK_OFFSET UNITYSDK_OFFSET(0x19D52640)
 
-inline static constexpr unsigned int AKBDMPBDADK_TypeDefinitionIndex = 52985;
+inline static constexpr unsigned int AKBDMPBDADK_TypeDefinitionIndex = 54144;
 
 	class AKBDMPBDADK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::LockCurrentTeleportAction* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::LockCurrentTeleportAction* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LockCurrentTeleportAction* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LockCurrentTeleportAction*))((::PBYTE)hIl2Cpp + AKBDMPBDADK_CTOR_OFFSET))(this, a1, a2);

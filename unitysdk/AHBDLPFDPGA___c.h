@@ -4,18 +4,18 @@
 class AHBDLPFDPGA;
 namespace System { class Object; }
 
-#define AHBDLPFDPGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E23E920)
-#define AHBDLPFDPGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E23E960)
-#define AHBDLPFDPGA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E23E970)
+#define AHBDLPFDPGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204F8AB0)
+#define AHBDLPFDPGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204F8AF0)
+#define AHBDLPFDPGA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x204F8B00)
 
-inline static constexpr unsigned int AHBDLPFDPGA___c_TypeDefinitionIndex = 27603;
+inline static constexpr unsigned int AHBDLPFDPGA___c_TypeDefinitionIndex = 28134;
 
 	class AHBDLPFDPGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x397D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30C50);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/KLNKLOMDIIC.h"
 #include "unitysdk/System/Object.h"
 
-#define CBHCLAFLPKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AEA90)
+#define CBHCLAFLPKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D96A0)
 
-inline static constexpr unsigned int CBHCLAFLPKI_TypeDefinitionIndex = 43277;
+inline static constexpr unsigned int CBHCLAFLPKI_TypeDefinitionIndex = 44258;
 
 	class CBHCLAFLPKI : public ::System::Object
 	{

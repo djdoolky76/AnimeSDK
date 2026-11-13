@@ -5,16 +5,16 @@ class GJEMBJDCAPG;
 class INHCJHBALFC;
 class JEFCCHAPOLA;
 
-#define IPLBHJDFDEF_CTOR_OFFSET UNITYSDK_OFFSET(0x16516D20)
-#define IPLBHJDFDEF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16516C70)
+#define IPLBHJDFDEF_CTOR_OFFSET UNITYSDK_OFFSET(0x193045D0)
+#define IPLBHJDFDEF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x19304520)
 
-inline static constexpr unsigned int IPLBHJDFDEF_TypeDefinitionIndex = 54266;
+inline static constexpr unsigned int IPLBHJDFDEF_TypeDefinitionIndex = 55430;
 
 	class IPLBHJDFDEF : public ::BHDAFDOMINP
 	{
 	public:
-		::Il2CppArray<::JEFCCHAPOLA*>* CNIJIJMEPEF; // 0x20
-		::Il2CppArray<::GJEMBJDCAPG*>* COLOHMBFKIH; // 0x28
+		::Il2CppArray<::GJEMBJDCAPG*>* COLOHMBFKIH; // 0x20
+		::Il2CppArray<::JEFCCHAPOLA*>* CNIJIJMEPEF; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IPLBHJDFDEF_CTOR_OFFSET))(this);

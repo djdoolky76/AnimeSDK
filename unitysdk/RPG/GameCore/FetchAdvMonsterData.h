@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class FetchAdvMonsterData; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_FETCHADVMONSTERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D671CB0)
-#define RPG_GAMECORE_FETCHADVMONSTERDATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D671D20)
-#define RPG_GAMECORE_FETCHADVMONSTERDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D671AC0)
+#define RPG_GAMECORE_FETCHADVMONSTERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC973C0)
+#define RPG_GAMECORE_FETCHADVMONSTERDATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1FC97430)
+#define RPG_GAMECORE_FETCHADVMONSTERDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1FC971D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FetchAdvMonsterData_TypeDefinitionIndex = 23869;
+	inline static constexpr unsigned int FetchAdvMonsterData_TypeDefinitionIndex = 24326;
 
 	class FetchAdvMonsterData : public ::RPG::GameCore::JsonConfig
 	{

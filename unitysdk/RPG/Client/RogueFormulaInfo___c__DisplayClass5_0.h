@@ -4,12 +4,12 @@
 class LEJFIEPMMGG;
 namespace RPG::Client { class RogueFormulaData; }
 
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDEFD930)
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS5_0__REMOVEFORMULAITEM_B__0_OFFSET UNITYSDK_OFFSET(0xDEFD940)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF13C0)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS5_0__REMOVEFORMULAITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1CBF4E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass5_0_TypeDefinitionIndex = 67221;
+	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass5_0_TypeDefinitionIndex = 69165;
 
 	class RogueFormulaInfo___c__DisplayClass5_0 : public ::System::Object
 	{

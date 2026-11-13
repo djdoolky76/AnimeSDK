@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class BCMOLHGOPEK;
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD93A960)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__GETSURFACE_B__0_OFFSET UNITYSDK_OFFSET(0xD93ADD0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19E3F890)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__GETSURFACE_B__0_OFFSET UNITYSDK_OFFSET(0x19E3FD00)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int Face___c__DisplayClass68_0_TypeDefinitionIndex = 74662;
+	inline static constexpr unsigned int Face___c__DisplayClass68_0_TypeDefinitionIndex = 76810;
 
 	class Face___c__DisplayClass68_0 : public ::System::Object
 	{

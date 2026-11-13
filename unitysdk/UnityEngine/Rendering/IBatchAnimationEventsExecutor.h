@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IBatchAnimationEventsExecutor_TypeDefinitionIndex = 4787;
+	inline static constexpr unsigned int IBatchAnimationEventsExecutor_TypeDefinitionIndex = 4791;
 
 	class IBatchAnimationEventsExecutor
 	{

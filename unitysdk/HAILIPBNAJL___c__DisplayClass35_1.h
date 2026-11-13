@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections { class BitArray; }
 
-#define HAILIPBNAJL___C__DISPLAYCLASS35_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1C62AEB0)
-#define HAILIPBNAJL___C__DISPLAYCLASS35_1___CALCAIREROLLINFO_B__5_OFFSET UNITYSDK_OFFSET(0x1C62C9E0)
+#define HAILIPBNAJL___C__DISPLAYCLASS35_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA68790)
+#define HAILIPBNAJL___C__DISPLAYCLASS35_1___CALCAIREROLLINFO_B__5_OFFSET UNITYSDK_OFFSET(0x1AA6A2C0)
 
-inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass35_1_TypeDefinitionIndex = 36414;
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass35_1_TypeDefinitionIndex = 37342;
 
 	template <typename T>
 	class HAILIPBNAJL___c__DisplayClass35_1 : public ::System::Object

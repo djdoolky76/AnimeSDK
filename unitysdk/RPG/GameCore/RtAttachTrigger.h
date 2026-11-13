@@ -13,13 +13,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTATTACHTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1B930)
-#define RPG_GAMECORE_RTATTACHTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA1B9F0)
-#define RPG_GAMECORE_RTATTACHTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1B8F0)
+#define RPG_GAMECORE_RTATTACHTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF3CDB0)
+#define RPG_GAMECORE_RTATTACHTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF3CE70)
+#define RPG_GAMECORE_RTATTACHTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF3CD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAttachTrigger_TypeDefinitionIndex = 24130;
+	inline static constexpr unsigned int RtAttachTrigger_TypeDefinitionIndex = 24589;
 
 	class RtAttachTrigger : public ::RPG::GameCore::TaskConfig
 	{

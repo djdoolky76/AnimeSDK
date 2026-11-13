@@ -7,7 +7,7 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int AsyncUniTaskVoid_1_TypeDefinitionIndex = 38710;
+	inline static constexpr unsigned int AsyncUniTaskVoid_1_TypeDefinitionIndex = 39639;
 
 	template <typename T>
 	class AsyncUniTaskVoid_1 : public ::System::Object

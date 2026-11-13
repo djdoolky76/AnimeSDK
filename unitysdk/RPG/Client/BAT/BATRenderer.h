@@ -8,13 +8,13 @@ namespace RPG::Client::BAT { class BATPrototype; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_BAT_BATRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xC7CEFB0)
-#define RPG_CLIENT_BAT_BATRENDERER_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xC7CEE80)
-#define RPG_CLIENT_BAT_BATRENDERER_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xC7CEDD0)
+#define RPG_CLIENT_BAT_BATRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE2980)
+#define RPG_CLIENT_BAT_BATRENDERER_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x1AFE2850)
+#define RPG_CLIENT_BAT_BATRENDERER_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0x1AFE27A0)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATRenderer_TypeDefinitionIndex = 73672;
+	inline static constexpr unsigned int BATRenderer_TypeDefinitionIndex = 75795;
 
 	class BATRenderer
 	{

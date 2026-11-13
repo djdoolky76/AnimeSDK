@@ -33,229 +33,229 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_AUTHTOKEN_OFFSET UNITYSDK_OFFSET(0xAF8DA70)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF972B0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CHECKENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0xAF90650)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CHECKOUT_OFFSET UNITYSDK_OFFSET(0xAF8F7B0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0xAF8A0C0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CONSUME_OFFSET UNITYSDK_OFFSET(0xAF914F0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_GET_GAMEPLAYSERVICES_OFFSET UNITYSDK_OFFSET(0xAF6C830)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_GET_ONLINESERVICES_OFFSET UNITYSDK_OFFSET(0xAF6C620)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_GET_SOCIAL_OFFSET UNITYSDK_OFFSET(0xAF6C780)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_GET_SYSTEMINTERFACE_OFFSET UNITYSDK_OFFSET(0xAF6C6D0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_INIT_OFFSET UNITYSDK_OFFSET(0xAF8CDA0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_LOGHANDLER_OFFSET UNITYSDK_OFFSET(0xAF87620)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_LOGIN_OFFSET UNITYSDK_OFFSET(0xAF8D320)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONAUTHSTATUSCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF89760)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONAUTHTOKENCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF87F50)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONCHECKOUTCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF887F0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONCONSUMECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF89090)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONENTITLEMENTSCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF88C40)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONGAMEOVERLAYCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF89620)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONINITCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF87970)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONLOGINCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF87B00)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONMICROTXNCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF894E0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONPRODUCTSCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF883A0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONQUERYCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF898A0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_PRODUCTS_OFFSET UNITYSDK_OFFSET(0xAF8E910)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_QUERY_OFFSET UNITYSDK_OFFSET(0xAF96CE0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERAUTHSTATUSCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF929D0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERGAMEOVERLAYCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF926B0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERMICROTXNCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF92390)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_SETUP_OFFSET UNITYSDK_OFFSET(0xAF89A60)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_TICK_OFFSET UNITYSDK_OFFSET(0xAF89EF0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF71120)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_AUTHTOKEN_OFFSET UNITYSDK_OFFSET(0x1AB2FA20)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB39310)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CHECKENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0x1AB32630)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CHECKOUT_OFFSET UNITYSDK_OFFSET(0x1AB31780)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1AB2C050)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_CONSUME_OFFSET UNITYSDK_OFFSET(0x1AB334E0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_GET_GAMEPLAYSERVICES_OFFSET UNITYSDK_OFFSET(0x1AB0E350)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_GET_ONLINESERVICES_OFFSET UNITYSDK_OFFSET(0x1AB0E140)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_GET_SOCIAL_OFFSET UNITYSDK_OFFSET(0x1AB0E2A0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_GET_SYSTEMINTERFACE_OFFSET UNITYSDK_OFFSET(0x1AB0E1F0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_INIT_OFFSET UNITYSDK_OFFSET(0x1AB2ED50)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_LOGHANDLER_OFFSET UNITYSDK_OFFSET(0x1AB295B0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_LOGIN_OFFSET UNITYSDK_OFFSET(0x1AB2F2D0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONAUTHSTATUSCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB2B6F0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONAUTHTOKENCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB29EE0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONCHECKOUTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB2A780)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONCONSUMECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB2B020)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONENTITLEMENTSCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB2ABD0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONGAMEOVERLAYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB2B5B0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONINITCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB29900)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONLOGINCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB29A90)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONMICROTXNCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB2B470)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONPRODUCTSCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB2A330)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_ONQUERYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB2B830)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_PRODUCTS_OFFSET UNITYSDK_OFFSET(0x1AB308D0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_QUERY_OFFSET UNITYSDK_OFFSET(0x1AB38D40)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERAUTHSTATUSCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB349D0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERGAMEOVERLAYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB346B0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERMICROTXNCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB34390)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_SETUP_OFFSET UNITYSDK_OFFSET(0x1AB2B9F0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_TICK_OFFSET UNITYSDK_OFFSET(0x1AB2BE80)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB12C40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelInterface_TypeDefinitionIndex = 46523;
+	inline static constexpr unsigned int HoYoChannelInterface_TypeDefinitionIndex = 47551;
 
 	class HoYoChannelInterface : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*>*>** StaticGet_s_productsCallbacks()
+		static ::MiHoYo::SDK::HoYoChannelSocialServices** StaticGet_s_social()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x228D0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelInitResult** StaticGet_s_initResult()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelInitResult**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x228D8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_loginTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x228E0);
-		}
-
-		static ::System::Object** StaticGet_s_authTokenLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x228E8);
-		}
-
-		static ::System::Object** StaticGet_s_entitlementsLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x228F0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelQueryResult** StaticGet_s_queryResult()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelQueryResult**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x228F8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_productsTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22900);
-		}
-
-		static ::System::Object** StaticGet_s_loginLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22908);
-		}
-
-		static ::MiHoYo::SDK::HoYoChannelOnlineServices** StaticGet_s_onlineServices()
-		{
-			return (::MiHoYo::SDK::HoYoChannelOnlineServices**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22910);
-		}
-
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*>** StaticGet_s_authStatusCallback()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22918);
-		}
-
-		static ::MiHoYo::SDK::HoYoChannelGameplayServices** StaticGet_s_gameplayServices()
-		{
-			return (::MiHoYo::SDK::HoYoChannelGameplayServices**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22920);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_entitlementsTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22928);
-		}
-
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*>** StaticGet_s_microTxnCallback()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22930);
-		}
-
-		static ::System::Object** StaticGet_s_initLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22938);
-		}
-
-		static ::System::Object** StaticGet_s_consumeLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22940);
+			return (::MiHoYo::SDK::HoYoChannelSocialServices**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6A0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_authTokenTimeouts()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22948);
-		}
-
-		static ::MiHoYo::SDK::HoYoChannelSystemFunctions** StaticGet_s_systemInterface()
-		{
-			return (::MiHoYo::SDK::HoYoChannelSystemFunctions**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22950);
-		}
-
-		static ::System::Object** StaticGet_s_checkoutLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22958);
-		}
-
-		static ::System::Threading::ManualResetEvent** StaticGet_s_waitHandle()
-		{
-			return (::System::Threading::ManualResetEvent**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22960);
-		}
-
-		static ::MiHoYo::SDK::HoYoChannelSocialServices** StaticGet_s_social()
-		{
-			return (::MiHoYo::SDK::HoYoChannelSocialServices**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22968);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_consumeTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22970);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*>** StaticGet_s_authTokenCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22978);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>*>** StaticGet_s_consumeCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22980);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*>*>** StaticGet_s_checkoutCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22988);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6A8);
 		}
 
 		static ::System::Threading::ManualResetEvent** StaticGet_s_queryWaitHandle()
 		{
-			return (::System::Threading::ManualResetEvent**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22990);
+			return (::System::Threading::ManualResetEvent**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6B0);
+		}
+
+		static ::System::Threading::ManualResetEvent** StaticGet_s_waitHandle()
+		{
+			return (::System::Threading::ManualResetEvent**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6B8);
+		}
+
+		static ::System::Object** StaticGet_s_entitlementsLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6C0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*>*>** StaticGet_s_entitlementsCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x22998);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6C8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLoginResult*>*>** StaticGet_s_loginCallbacks()
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelQueryResult** StaticGet_s_queryResult()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLoginResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x229A0);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelQueryResult**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6D0);
+		}
+
+		static ::MiHoYo::SDK::HoYoChannelOnlineServices** StaticGet_s_onlineServices()
+		{
+			return (::MiHoYo::SDK::HoYoChannelOnlineServices**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6D8);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelInitResult** StaticGet_s_initResult()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelInitResult**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6E0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*>** StaticGet_s_authTokenCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6E8);
+		}
+
+		static ::MiHoYo::SDK::HoYoChannelSystemFunctions** StaticGet_s_systemInterface()
+		{
+			return (::MiHoYo::SDK::HoYoChannelSystemFunctions**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6F0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_productsTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A6F8);
+		}
+
+		static ::System::Object** StaticGet_s_loginLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A700);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*>*>** StaticGet_s_productsCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A708);
+		}
+
+		static ::System::Object** StaticGet_s_authTokenLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A710);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*>** StaticGet_s_authStatusCallback()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A718);
+		}
+
+		static ::MiHoYo::SDK::HoYoChannelGameplayServices** StaticGet_s_gameplayServices()
+		{
+			return (::MiHoYo::SDK::HoYoChannelGameplayServices**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A720);
 		}
 
 		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelGameOverlayResult*>** StaticGet_s_gameOverlayCallback()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelGameOverlayResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x229A8);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelGameOverlayResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A728);
 		}
 
-		static ::System::Object** StaticGet_s_productsLock()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>*>** StaticGet_s_consumeCallbacks()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x229B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A730);
 		}
 
-		static ::System::Object** StaticGet_s_queryLock()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_entitlementsTimeouts()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x229B8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A738);
+		}
+
+		static ::System::Object** StaticGet_s_checkoutLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A740);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_loginTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A748);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*>** StaticGet_s_microTxnCallback()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A750);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLoginResult*>*>** StaticGet_s_loginCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLoginResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A758);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_checkoutTimeouts()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x229C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A760);
 		}
 
-		static ::System::Single* StaticGet__hoYoChannelNextCleanupTime()
+		static ::System::Object** StaticGet_s_queryLock()
 		{
-			return (::System::Single*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x7840);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A768);
 		}
 
-		static ::System::Boolean* StaticGet__useHoYoChannel()
+		static ::System::Object** StaticGet_s_productsLock()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x7844);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A770);
 		}
 
-		static ::System::Boolean* StaticGet_s_microTxnRegistered()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_consumeTimeouts()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x7845);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A778);
 		}
 
-		static ::System::Boolean* StaticGet_s_gameOverlayRegistered()
+		static ::System::Object** StaticGet_s_initLock()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x7846);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A780);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*>*>** StaticGet_s_checkoutCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A788);
+		}
+
+		static ::System::Object** StaticGet_s_consumeLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x1A790);
 		}
 
 		static ::System::Boolean* StaticGet_s_authStatusRegistered()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x7847);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x5E00);
+		}
+
+		static ::System::Boolean* StaticGet__useHoYoChannel()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x5E01);
+		}
+
+		static ::System::Boolean* StaticGet_s_microTxnRegistered()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x5E02);
+		}
+
+		static ::System::Boolean* StaticGet_s_gameOverlayRegistered()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x5E03);
+		}
+
+		static ::System::Single* StaticGet__hoYoChannelNextCleanupTime()
+		{
+			return (::System::Single*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x5E04);
 		}
 
 		static ::System::Single* StaticGet__hoYoChannelNextTick()
 		{
-			return (::System::Single*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x7848);
+			return (::System::Single*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x5E08);
 		}
 
 		// static const ::System::Object TIMEOUT_SECONDS; // 0x0

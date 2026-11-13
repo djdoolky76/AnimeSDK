@@ -23,213 +23,213 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Mesh; }
 
-#define BABNOKHOBCF_ACBLHHBEHNO_OFFSET UNITYSDK_OFFSET(0x1C8803F0)
-#define BABNOKHOBCF_AFBLANACMBE_OFFSET UNITYSDK_OFFSET(0x1C881020)
-#define BABNOKHOBCF_AFDKDMPHMMB_OFFSET UNITYSDK_OFFSET(0x1C880470)
-#define BABNOKHOBCF_CBIBKBNLIHN_OFFSET UNITYSDK_OFFSET(0x1C87FF60)
-#define BABNOKHOBCF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8810B0)
-#define BABNOKHOBCF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C87FFB0)
-#define BABNOKHOBCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C87FCB0)
-#define BABNOKHOBCF_EHNIINGDBIP_OFFSET UNITYSDK_OFFSET(0x1C880390)
-#define BABNOKHOBCF_EJNCLDHAKDH_OFFSET UNITYSDK_OFFSET(0x1C881000)
-#define BABNOKHOBCF_EODAKMGDCML_OFFSET UNITYSDK_OFFSET(0x1C880D70)
-#define BABNOKHOBCF_FLKKHKCELPJ_OFFSET UNITYSDK_OFFSET(0x1C8804B0)
-#define BABNOKHOBCF_FMDAICJBKIO_OFFSET UNITYSDK_OFFSET(0x1C8806D0)
-#define BABNOKHOBCF_FMHDOJAEMGA_OFFSET UNITYSDK_OFFSET(0x1C880BC0)
-#define BABNOKHOBCF_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C880530)
-#define BABNOKHOBCF_GET_FOURROTATEVOXELGAME_OFFSET UNITYSDK_OFFSET(0x1C880510)
-#define BABNOKHOBCF_GET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x1C8804F0)
-#define BABNOKHOBCF_GGGGFDCGNGH_OFFSET UNITYSDK_OFFSET(0x1C8806C0)
-#define BABNOKHOBCF_HHKMCHONNGD_OFFSET UNITYSDK_OFFSET(0x1C880E20)
-#define BABNOKHOBCF_HJFNBNFJMII_OFFSET UNITYSDK_OFFSET(0x1C880880)
-#define BABNOKHOBCF_HOEBNEDIAOH_OFFSET UNITYSDK_OFFSET(0x1C8806A0)
-#define BABNOKHOBCF_IAFPANKIANM_OFFSET UNITYSDK_OFFSET(0x1C880770)
-#define BABNOKHOBCF_IAMFCNJBHPE_OFFSET UNITYSDK_OFFSET(0x1C880AE0)
-#define BABNOKHOBCF_IDICMMBDFDP_OFFSET UNITYSDK_OFFSET(0x1C880F00)
-#define BABNOKHOBCF_IGANKNKKNPA_OFFSET UNITYSDK_OFFSET(0x1C8806F0)
-#define BABNOKHOBCF_JOKNKNHDCAM_OFFSET UNITYSDK_OFFSET(0x1C880840)
-#define BABNOKHOBCF_KDEANPIMKJF_OFFSET UNITYSDK_OFFSET(0x1C880C90)
-#define BABNOKHOBCF_KHHDCODBBGK_OFFSET UNITYSDK_OFFSET(0x1C8806B0)
-#define BABNOKHOBCF_LCLGEFPEIFO_OFFSET UNITYSDK_OFFSET(0x1C880490)
-#define BABNOKHOBCF_LGFBNOBKFEA_OFFSET UNITYSDK_OFFSET(0x1C880630)
-#define BABNOKHOBCF_MECAJMNNDCB_OFFSET UNITYSDK_OFFSET(0x1C880690)
-#define BABNOKHOBCF_MGMIECCAFJO_OFFSET UNITYSDK_OFFSET(0x1C880450)
-#define BABNOKHOBCF_MOKMNKDGDBC_OFFSET UNITYSDK_OFFSET(0x1C880970)
-#define BABNOKHOBCF_NCMEPPPPNMA_OFFSET UNITYSDK_OFFSET(0x1C880FE0)
-#define BABNOKHOBCF_NLBGNIDJFED_OFFSET UNITYSDK_OFFSET(0x1C8804D0)
-#define BABNOKHOBCF_NMJADFMCBFP_OFFSET UNITYSDK_OFFSET(0x1C880860)
-#define BABNOKHOBCF_NOOPGLFIDGM_OFFSET UNITYSDK_OFFSET(0x1C880A20)
-#define BABNOKHOBCF_OEEJGCFMMJK_OFFSET UNITYSDK_OFFSET(0x1C880790)
-#define BABNOKHOBCF_OLPKBCMCJBA_OFFSET UNITYSDK_OFFSET(0x1C880710)
-#define BABNOKHOBCF_PNJMCGGJPJE_OFFSET UNITYSDK_OFFSET(0x1C880550)
-#define BABNOKHOBCF_SET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C880540)
-#define BABNOKHOBCF_SET_FOURROTATEVOXELGAME_OFFSET UNITYSDK_OFFSET(0x1C880520)
-#define BABNOKHOBCF_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x1C880500)
+#define BABNOKHOBCF_ACBLHHBEHNO_OFFSET UNITYSDK_OFFSET(0x1D2AAB90)
+#define BABNOKHOBCF_AFBLANACMBE_OFFSET UNITYSDK_OFFSET(0x1D2AB800)
+#define BABNOKHOBCF_AFDKDMPHMMB_OFFSET UNITYSDK_OFFSET(0x1D2AAC10)
+#define BABNOKHOBCF_CBIBKBNLIHN_OFFSET UNITYSDK_OFFSET(0x1D2AA6F0)
+#define BABNOKHOBCF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2AB890)
+#define BABNOKHOBCF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D2AA740)
+#define BABNOKHOBCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AA440)
+#define BABNOKHOBCF_EHNIINGDBIP_OFFSET UNITYSDK_OFFSET(0x1D2AAB30)
+#define BABNOKHOBCF_EJNCLDHAKDH_OFFSET UNITYSDK_OFFSET(0x1D2AB7E0)
+#define BABNOKHOBCF_EODAKMGDCML_OFFSET UNITYSDK_OFFSET(0x1D2AB530)
+#define BABNOKHOBCF_FLKKHKCELPJ_OFFSET UNITYSDK_OFFSET(0x1D2AAC50)
+#define BABNOKHOBCF_FMDAICJBKIO_OFFSET UNITYSDK_OFFSET(0x1D2AAE70)
+#define BABNOKHOBCF_FMHDOJAEMGA_OFFSET UNITYSDK_OFFSET(0x1D2AB370)
+#define BABNOKHOBCF_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1D2AACD0)
+#define BABNOKHOBCF_GET_FOURROTATEVOXELGAME_OFFSET UNITYSDK_OFFSET(0x1D2AACB0)
+#define BABNOKHOBCF_GET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x1D2AAC90)
+#define BABNOKHOBCF_GGGGFDCGNGH_OFFSET UNITYSDK_OFFSET(0x1D2AAE60)
+#define BABNOKHOBCF_HHKMCHONNGD_OFFSET UNITYSDK_OFFSET(0x1D2AB5E0)
+#define BABNOKHOBCF_HJFNBNFJMII_OFFSET UNITYSDK_OFFSET(0x1D2AB020)
+#define BABNOKHOBCF_HOEBNEDIAOH_OFFSET UNITYSDK_OFFSET(0x1D2AAE40)
+#define BABNOKHOBCF_IAFPANKIANM_OFFSET UNITYSDK_OFFSET(0x1D2AAF10)
+#define BABNOKHOBCF_IAMFCNJBHPE_OFFSET UNITYSDK_OFFSET(0x1D2AB280)
+#define BABNOKHOBCF_IDICMMBDFDP_OFFSET UNITYSDK_OFFSET(0x1D2AB6D0)
+#define BABNOKHOBCF_IGANKNKKNPA_OFFSET UNITYSDK_OFFSET(0x1D2AAE90)
+#define BABNOKHOBCF_JOKNKNHDCAM_OFFSET UNITYSDK_OFFSET(0x1D2AAFE0)
+#define BABNOKHOBCF_KDEANPIMKJF_OFFSET UNITYSDK_OFFSET(0x1D2AB440)
+#define BABNOKHOBCF_KHHDCODBBGK_OFFSET UNITYSDK_OFFSET(0x1D2AAE50)
+#define BABNOKHOBCF_LCLGEFPEIFO_OFFSET UNITYSDK_OFFSET(0x1D2AAC30)
+#define BABNOKHOBCF_LGFBNOBKFEA_OFFSET UNITYSDK_OFFSET(0x1D2AADD0)
+#define BABNOKHOBCF_MECAJMNNDCB_OFFSET UNITYSDK_OFFSET(0x1D2AAE30)
+#define BABNOKHOBCF_MGMIECCAFJO_OFFSET UNITYSDK_OFFSET(0x1D2AABF0)
+#define BABNOKHOBCF_MOKMNKDGDBC_OFFSET UNITYSDK_OFFSET(0x1D2AB110)
+#define BABNOKHOBCF_NCMEPPPPNMA_OFFSET UNITYSDK_OFFSET(0x1D2AB7C0)
+#define BABNOKHOBCF_NLBGNIDJFED_OFFSET UNITYSDK_OFFSET(0x1D2AAC70)
+#define BABNOKHOBCF_NMJADFMCBFP_OFFSET UNITYSDK_OFFSET(0x1D2AB000)
+#define BABNOKHOBCF_NOOPGLFIDGM_OFFSET UNITYSDK_OFFSET(0x1D2AB1C0)
+#define BABNOKHOBCF_OEEJGCFMMJK_OFFSET UNITYSDK_OFFSET(0x1D2AAF30)
+#define BABNOKHOBCF_OLPKBCMCJBA_OFFSET UNITYSDK_OFFSET(0x1D2AAEB0)
+#define BABNOKHOBCF_PNJMCGGJPJE_OFFSET UNITYSDK_OFFSET(0x1D2AACF0)
+#define BABNOKHOBCF_SET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1D2AACE0)
+#define BABNOKHOBCF_SET_FOURROTATEVOXELGAME_OFFSET UNITYSDK_OFFSET(0x1D2AACC0)
+#define BABNOKHOBCF_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x1D2AACA0)
 
-inline static constexpr unsigned int BABNOKHOBCF_TypeDefinitionIndex = 42133;
+inline static constexpr unsigned int BABNOKHOBCF_TypeDefinitionIndex = 43108;
 
 	class BABNOKHOBCF : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Entitas::IContext*>* _allContexts_k__BackingField; // 0x10
-		::UnityEngine::GameObject* FDFBDBKGIHH; // 0x18
-		::RPG::GameCore::FourRotateVoxelLevelSettings* NGIGEMJBLKK; // 0x20
-		::BPGMFAKEGDD* BDEAGPENILK; // 0x28
-		::INMMPMDELKE* PLPFIOHDBOH; // 0x30
-		::INMMPMDELKE* ODPDOBEGCOE; // 0x38
-		::RPG::GameCore::FourRotateVoxelAnimalConfig* OCFNOMADICJ; // 0x40
-		::INMMPMDELKE* EKMEHBCMOLC; // 0x48
-		::RPG::GameCore::FourRotateVoxelGameConfig* _GameConfig_k__BackingField; // 0x50
-		::HFEOHNAGBKH* LAAABDCPJEG; // 0x58
-		::RPG::GameCore::FourRotateVoxelGameModeConfig* BNFCFHBIJKD; // 0x60
-		::GAFMLDLBCEB* _FourRotateVoxelGame_k__BackingField; // 0x68
-		::System::String* JNHHIALBKEG; // 0x70
-		::BCFLJPCHOEB* CLJIMLMCJJO; // 0x78
-		::System::String* CKPKHDCLLID; // 0x80
-		::System::Collections::Generic::List_1<::INMMPMDELKE*>* KDDLHEAOPOJ; // 0x88
-		::INMMPMDELKE* PFIOEGEPLLH; // 0x90
-		::System::String* KGGGONDAHDL; // 0x98
-		::UnityEngine::Mesh* JGDGLKLJEAC; // 0xA0
-		::System::String* KIPDNLCHAJI; // 0xA8
-		::INMMPMDELKE* FOHDAENLBFG; // 0xB0
-		::System::String* DHMFLAILLJI; // 0xB8
-		::System::Int32 BJODLJHNLNE; // 0xC0
-		::UnityEngine::Vector3 FHIJBONKEEI; // 0xC4
-		::System::Single ELBMFKAGNBH; // 0xD0
-		::System::Boolean IKFCFMHBBGF; // 0xD4
-		::System::Boolean CNKGKDHBPPL; // 0xD5
-		::System::Boolean KPAAGEIPAGC; // 0xD6
-		::System::Boolean NGELIKBAFCO; // 0xD7
-		::System::Boolean KIPMHMMDPID; // 0xD8
-		::System::Boolean EEGMCLHEDAO; // 0xD9
-		::System::Boolean GOOKGBHALHJ; // 0xDA
+		::INMMPMDELKE* PFIOEGEPLLH; // 0x10
+		::BPGMFAKEGDD* BDEAGPENILK; // 0x18
+		::RPG::GameCore::FourRotateVoxelGameConfig* _GameConfig_k__BackingField; // 0x20
+		::System::String* DHMFLAILLJI; // 0x28
+		::INMMPMDELKE* FOHDAENLBFG; // 0x30
+		::BCFLJPCHOEB* CLJIMLMCJJO; // 0x38
+		::Il2CppArray<::Entitas::IContext*>* _allContexts_k__BackingField; // 0x40
+		::System::String* CKPKHDCLLID; // 0x48
+		::System::String* JNHHIALBKEG; // 0x50
+		::RPG::GameCore::FourRotateVoxelAnimalConfig* OCFNOMADICJ; // 0x58
+		::RPG::GameCore::FourRotateVoxelLevelSettings* NGIGEMJBLKK; // 0x60
+		::RPG::GameCore::FourRotateVoxelGameModeConfig* BNFCFHBIJKD; // 0x68
+		::UnityEngine::Mesh* JGDGLKLJEAC; // 0x70
+		::System::Collections::Generic::List_1<::INMMPMDELKE*>* KDDLHEAOPOJ; // 0x78
+		::UnityEngine::GameObject* FDFBDBKGIHH; // 0x80
+		::INMMPMDELKE* ODPDOBEGCOE; // 0x88
+		::GAFMLDLBCEB* _FourRotateVoxelGame_k__BackingField; // 0x90
+		::INMMPMDELKE* EKMEHBCMOLC; // 0x98
+		::HFEOHNAGBKH* LAAABDCPJEG; // 0xA0
+		::INMMPMDELKE* PLPFIOHDBOH; // 0xA8
+		::System::String* KIPDNLCHAJI; // 0xB0
+		::System::String* KGGGONDAHDL; // 0xB8
+		::System::Boolean PGEELBIPJON; // 0xC0
+		::System::Boolean DJILFHHCBKG; // 0xC1
+		::System::Boolean IBDONJBEMNK; // 0xC2
+		::System::Boolean NGELIKBAFCO; // 0xC3
+		::UnityEngine::Vector3 GCHPCPCPHBE; // 0xC4
+		::System::Boolean KJMIADGNLLP; // 0xD0
+		::System::Boolean IKFCFMHBBGF; // 0xD1
+		::System::Boolean KPAAGEIPAGC; // 0xD2
+		::System::Boolean JJBJAGEJCMB; // 0xD3
+		::System::Single NNFLEAKLBLC; // 0xD4
+		::RPG::GameCore::FourRotateVoxelGameModeType AOKPEABPPGH; // 0xD8
+		::UnityEngine::Vector3 FKJOOKKNHBL; // 0xDC
+		::System::Int32 BJODLJHNLNE; // 0xE8
+		::UnityEngine::Vector3 MAKIIIJGLBP; // 0xEC
+		::UnityEngine::Vector3 FHIJBONKEEI; // 0xF8
+		::System::Single KGLIEBAAAMP; // 0x104
+		::UnityEngine::Quaternion JDOHKCAJEKO; // 0x108
+		::System::Boolean NGAIOLLMLNI; // 0x118
+		::System::Boolean MCLOBDBBANM; // 0x119
+		::System::Boolean CNKGKDHBPPL; // 0x11A
 		::System::Byte _padding0[0x1];
-		::UnityEngine::Vector3 BCNGLPELJJP; // 0xDC
-		::RPG::GameCore::FourRotateVoxelAnimalType CIKNIALOAEA; // 0xE8
-		::System::Single HDCLMLOCNNC; // 0xEC
-		::System::Boolean DJILFHHCBKG; // 0xF0
-		::System::Boolean PGEELBIPJON; // 0xF1
-		::System::Boolean IBDONJBEMNK; // 0xF2
-		::System::Boolean MCLOBDBBANM; // 0xF3
-		::System::Boolean NGAIOLLMLNI; // 0xF4
-		::System::Boolean FABOGACKPMD; // 0xF5
-		::System::Boolean JJBJAGEJCMB; // 0xF6
-		::System::Boolean KJMIADGNLLP; // 0xF7
-		::RPG::GameCore::FourRotateVoxelGameModeType AOKPEABPPGH; // 0xF8
-		::System::Single BBACGKBCPND; // 0xFC
-		::UnityEngine::Vector3 FKJOOKKNHBL; // 0x100
-		::System::Single NNFLEAKLBLC; // 0x10C
-		::UnityEngine::Quaternion IOLNLPDFJFL; // 0x110
-		::UnityEngine::Quaternion JDOHKCAJEKO; // 0x120
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord LLFNHGBICJI; // 0x130
-		::UnityEngine::Vector3 JPBPFFBHJNJ; // 0x148
-		::UnityEngine::Vector3 MAKIIIJGLBP; // 0x154
-		::System::Single KGLIEBAAAMP; // 0x160
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord NBBEJJOCCEN; // 0x164
-		::UnityEngine::Vector3 GCHPCPCPHBE; // 0x17C
-		static ::System::String** StaticGet_FGOFKOOPMDH()
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord NBBEJJOCCEN; // 0x11C
+		::System::Single HDCLMLOCNNC; // 0x134
+		::System::Single ELBMFKAGNBH; // 0x138
+		::System::Boolean EEGMCLHEDAO; // 0x13C
+		::System::Boolean FABOGACKPMD; // 0x13D
+		::System::Boolean KIPMHMMDPID; // 0x13E
+		::System::Boolean GOOKGBHALHJ; // 0x13F
+		::UnityEngine::Vector3 JPBPFFBHJNJ; // 0x140
+		::RPG::GameCore::FourRotateVoxelAnimalType CIKNIALOAEA; // 0x14C
+		::System::Single BBACGKBCPND; // 0x150
+		::UnityEngine::Quaternion IOLNLPDFJFL; // 0x154
+		::UnityEngine::Vector3 BCNGLPELJJP; // 0x164
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord LLFNHGBICJI; // 0x170
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_DMJHAANEAEL()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12320);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBAC0);
 		}
 
 		static ::System::String** StaticGet_GPGBELEHIIB()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12328);
-		}
-
-		static ::System::String** StaticGet_PCHBOBPGDLL()
-		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12330);
-		}
-
-		static ::System::String** StaticGet_KGOONLJPKDA()
-		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12338);
-		}
-
-		static ::System::String** StaticGet_ENAGAHHDOAL()
-		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12340);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_LBEOHCOMJBH()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12348);
-		}
-
-		static ::System::String** StaticGet_GPMGBPEPDNM()
-		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12350);
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBAC8);
 		}
 
 		static ::System::String** StaticGet_PFLAJLEJLKI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12358);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_HJGEDPFGHIC()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12360);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>** StaticGet_DNHKMMNJFOM()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Quaternion>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12368);
-		}
-
-		static ::RPG::GameCore::FiveDimAvatarConfig** StaticGet_CHFHMFODDON()
-		{
-			return (::RPG::GameCore::FiveDimAvatarConfig**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12370);
-		}
-
-		static ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewDirection>** StaticGet_JHEJDOKNGGG()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewDirection>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12378);
-		}
-
-		static ::System::String** StaticGet_CMOLDKJPOOA()
-		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12380);
-		}
-
-		static ::System::String** StaticGet_EOCOBCIEPHD()
-		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12388);
-		}
-
-		static ::System::String** StaticGet_FAJEIJBBJGI()
-		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12390);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_DMJHAANEAEL()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x12398);
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBAD0);
 		}
 
 		static ::System::String** StaticGet_NDJKLDDGGOA()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x123A0);
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBAD8);
+		}
+
+		static ::System::String** StaticGet_ENAGAHHDOAL()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBAE0);
 		}
 
 		static ::System::String** StaticGet_KMJMKPJCMLO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x123A8);
-		}
-
-		static ::System::String** StaticGet_BCHFLFKLEOJ()
-		{
-			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x123B0);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_DMCFFNFGKAE()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x123B8);
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBAE8);
 		}
 
 		static ::UnityEngine::GameObject** StaticGet_DAIJNJECBLM()
 		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0x123C0);
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBAF0);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewDirection>** StaticGet_JHEJDOKNGGG()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewDirection>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBAF8);
+		}
+
+		static ::System::String** StaticGet_GPMGBPEPDNM()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB00);
+		}
+
+		static ::System::String** StaticGet_PCHBOBPGDLL()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB08);
+		}
+
+		static ::System::String** StaticGet_FGOFKOOPMDH()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB10);
+		}
+
+		static ::System::String** StaticGet_EOCOBCIEPHD()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB18);
+		}
+
+		static ::System::String** StaticGet_CMOLDKJPOOA()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB20);
+		}
+
+		static ::System::String** StaticGet_FAJEIJBBJGI()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB28);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>** StaticGet_DNHKMMNJFOM()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Quaternion>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB30);
+		}
+
+		static ::System::String** StaticGet_KGOONLJPKDA()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB38);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_DMCFFNFGKAE()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB40);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_LBEOHCOMJBH()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB48);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_HJGEDPFGHIC()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB50);
+		}
+
+		static ::RPG::GameCore::FiveDimAvatarConfig** StaticGet_CHFHMFODDON()
+		{
+			return (::RPG::GameCore::FiveDimAvatarConfig**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB58);
+		}
+
+		static ::System::String** StaticGet_BCHFLFKLEOJ()
+		{
+			return (::System::String**)UnitySDK::FromName("", "BABNOKHOBCF")->GetStaticField(0xBB60);
 		}
 
 		// static const ::System::String* ELCALOLOFEK; // 0x0

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ExitGameFlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCBFHABOKGE_CTOR_OFFSET UNITYSDK_OFFSET(0x15C09BE0)
-#define HCBFHABOKGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C09C10)
+#define HCBFHABOKGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7A8BC0)
+#define HCBFHABOKGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7A8BF0)
 
-inline static constexpr unsigned int HCBFHABOKGE_TypeDefinitionIndex = 58121;
+inline static constexpr unsigned int HCBFHABOKGE_TypeDefinitionIndex = 59360;
 
 	class HCBFHABOKGE
 	{

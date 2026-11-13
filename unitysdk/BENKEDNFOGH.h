@@ -15,62 +15,62 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 
-#define BENKEDNFOGH_BBOFIJABCFM_OFFSET UNITYSDK_OFFSET(0xB159420)
-#define BENKEDNFOGH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB159780)
-#define BENKEDNFOGH_CFGDHOFNOBO_OFFSET UNITYSDK_OFFSET(0xB159260)
-#define BENKEDNFOGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB159750)
-#define BENKEDNFOGH_DGJFMGBEDAC_OFFSET UNITYSDK_OFFSET(0xB158470)
-#define BENKEDNFOGH_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xB158D30)
-#define BENKEDNFOGH_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB157F00)
-#define BENKEDNFOGH_KDLOAOCCMHH_OFFSET UNITYSDK_OFFSET(0xB1582D0)
-#define BENKEDNFOGH_KNBMBDNJLBK_OFFSET UNITYSDK_OFFSET(0xB1590B0)
-#define BENKEDNFOGH_LIDKFDENKAP_OFFSET UNITYSDK_OFFSET(0xB157E90)
-#define BENKEDNFOGH_MDIOIKCGIOL_OFFSET UNITYSDK_OFFSET(0xB158590)
-#define BENKEDNFOGH_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB158DF0)
-#define BENKEDNFOGH_NMONAMGOEKK_OFFSET UNITYSDK_OFFSET(0xB158530)
-#define BENKEDNFOGH_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0xB157D30)
-#define BENKEDNFOGH_ONRETURN_OFFSET UNITYSDK_OFFSET(0xB157F60)
-#define BENKEDNFOGH_OOEJHEKGFAD_OFFSET UNITYSDK_OFFSET(0xB1580F0)
-#define BENKEDNFOGH_OOJBNDPOCLN_OFFSET UNITYSDK_OFFSET(0xB1581E0)
-#define BENKEDNFOGH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB159690)
-#define BENKEDNFOGH__ONRETURN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB1597A0)
+#define BENKEDNFOGH_BBOFIJABCFM_OFFSET UNITYSDK_OFFSET(0x1A94EE50)
+#define BENKEDNFOGH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A94F210)
+#define BENKEDNFOGH_CFGDHOFNOBO_OFFSET UNITYSDK_OFFSET(0x1A94EC90)
+#define BENKEDNFOGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A94F1E0)
+#define BENKEDNFOGH_DGJFMGBEDAC_OFFSET UNITYSDK_OFFSET(0x1A94DEA0)
+#define BENKEDNFOGH_KDLOAOCCMHH_OFFSET UNITYSDK_OFFSET(0x1A94DD00)
+#define BENKEDNFOGH_KNBMBDNJLBK_OFFSET UNITYSDK_OFFSET(0x1A94EAE0)
+#define BENKEDNFOGH_LIDKFDENKAP_OFFSET UNITYSDK_OFFSET(0x1A94D8A0)
+#define BENKEDNFOGH_MDIOIKCGIOL_OFFSET UNITYSDK_OFFSET(0x1A94DFE0)
+#define BENKEDNFOGH_NMONAMGOEKK_OFFSET UNITYSDK_OFFSET(0x1A94DF80)
+#define BENKEDNFOGH_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x1A94D740)
+#define BENKEDNFOGH_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1A94D980)
+#define BENKEDNFOGH_OOEJHEKGFAD_OFFSET UNITYSDK_OFFSET(0x1A94DB20)
+#define BENKEDNFOGH_OOJBNDPOCLN_OFFSET UNITYSDK_OFFSET(0x1A94DC10)
+#define BENKEDNFOGH__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x1A94E840)
+#define BENKEDNFOGH__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A94F0C0)
+#define BENKEDNFOGH__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x1A94E780)
+#define BENKEDNFOGH__ONRETURN_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A94F230)
+#define BENKEDNFOGH__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1A94D920)
 
-inline static constexpr unsigned int BENKEDNFOGH_TypeDefinitionIndex = 71741;
+inline static constexpr unsigned int BENKEDNFOGH_TypeDefinitionIndex = 73732;
 
 	class BENKEDNFOGH : public ::FMPCODLIOLG
 	{
 	public:
 		::RPG::GameCore::CharacterDataComponent* HKCICBFPGGF; // 0x60
-		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x68
-		::CFDGKEDFBJP* NINEBKCLIOG; // 0x70
-		::RPG::GameCore::LevelUIComponent* FGCIJADADDA; // 0x78
-		::RPG::GameCore::TurnBasedGameMode* GICHGNGMBGD; // 0x80
-		::UnityEngine::RectTransform* HKONEDKHNMM; // 0x88
-		::RPG::Client::UIFollow3DTarget* DIHCNFOOEFF; // 0x90
-		::UnityEngine::Animation* BAFAAEFEBPJ; // 0x98
-		static ::System::Single* StaticGet_DMFNDMLIJCD()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x15000);
-		}
-
+		::RPG::GameCore::TurnBasedGameMode* GICHGNGMBGD; // 0x68
+		::UnityEngine::RectTransform* HKONEDKHNMM; // 0x70
+		::CFDGKEDFBJP* NINEBKCLIOG; // 0x78
+		::UnityEngine::Animation* BAFAAEFEBPJ; // 0x80
+		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x88
+		::RPG::GameCore::LevelUIComponent* FGCIJADADDA; // 0x90
+		::RPG::Client::UIFollow3DTarget* DIHCNFOOEFF; // 0x98
 		static ::System::Single* StaticGet_GGMLAPKLIKB()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x15004);
+			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x13050);
+		}
+
+		static ::System::Single* StaticGet_DMFNDMLIJCD()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x13054);
 		}
 
 		static ::System::Single* StaticGet_HEEPKPHCKOI()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x15008);
-		}
-
-		static ::System::Single* StaticGet_FMPCCGNHMJC()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x1500C);
+			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x13058);
 		}
 
 		static ::System::Single* StaticGet_AJEHGNNEDFG()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x15010);
+			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x1305C);
+		}
+
+		static ::System::Single* StaticGet_FMPCCGNHMJC()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "BENKEDNFOGH")->GetStaticField(0x13060);
 		}
 
 		// static const ::System::Object LOEJIAFIPKK; // 0x0
@@ -121,19 +121,19 @@ inline static constexpr unsigned int BENKEDNFOGH_TypeDefinitionIndex = 71741;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BENKEDNFOGH_OOEJHEKGFAD_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + BENKEDNFOGH_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + BENKEDNFOGH__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BENKEDNFOGH_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BENKEDNFOGH__INITVARONCE_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BENKEDNFOGH_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BENKEDNFOGH__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void LIDKFDENKAP(::RPG::GameCore::GameEntity* a1)

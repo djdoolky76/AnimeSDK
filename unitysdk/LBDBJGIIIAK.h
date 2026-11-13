@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsBodyPart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LBDBJGIIIAK_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F2820)
-#define LBDBJGIIIAK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB5F2850)
+#define LBDBJGIIIAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B296320)
+#define LBDBJGIIIAK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B296350)
 
-inline static constexpr unsigned int LBDBJGIIIAK_TypeDefinitionIndex = 54638;
+inline static constexpr unsigned int LBDBJGIIIAK_TypeDefinitionIndex = 55804;
 
 	class LBDBJGIIIAK
 	{

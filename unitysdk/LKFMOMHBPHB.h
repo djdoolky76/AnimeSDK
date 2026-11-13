@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ForceShowActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKFMOMHBPHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB72C7E0)
-#define LKFMOMHBPHB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB72C7F0)
-#define LKFMOMHBPHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB72C830)
-#define LKFMOMHBPHB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB72C8B0)
-#define LKFMOMHBPHB_TICK_OFFSET UNITYSDK_OFFSET(0xB72C900)
+#define LKFMOMHBPHB_CTOR_OFFSET UNITYSDK_OFFSET(0x18CD5340)
+#define LKFMOMHBPHB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18CD5350)
+#define LKFMOMHBPHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CD5390)
+#define LKFMOMHBPHB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18CD5410)
+#define LKFMOMHBPHB_TICK_OFFSET UNITYSDK_OFFSET(0x18CD5460)
 
-inline static constexpr unsigned int LKFMOMHBPHB_TypeDefinitionIndex = 56358;
+inline static constexpr unsigned int LKFMOMHBPHB_TypeDefinitionIndex = 57572;
 
 	class LKFMOMHBPHB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ForceShowActionDelay* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ForceShowActionDelay* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ForceShowActionDelay* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ForceShowActionDelay*))((::PBYTE)hIl2Cpp + LKFMOMHBPHB_CTOR_OFFSET))(this, a1, a2);

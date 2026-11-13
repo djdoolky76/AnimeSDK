@@ -4,19 +4,19 @@
 namespace RPG::Client { class MatchThreeV2ChangePropContainerVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ANAOMIAPAII_CTOR_OFFSET UNITYSDK_OFFSET(0x15586520)
-#define ANAOMIAPAII_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15586530)
-#define ANAOMIAPAII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15586570)
-#define ANAOMIAPAII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155865F0)
-#define ANAOMIAPAII_TICK_OFFSET UNITYSDK_OFFSET(0x15586630)
+#define ANAOMIAPAII_CTOR_OFFSET UNITYSDK_OFFSET(0x1A81C4D0)
+#define ANAOMIAPAII_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A81C4E0)
+#define ANAOMIAPAII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A81C520)
+#define ANAOMIAPAII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A81C5A0)
+#define ANAOMIAPAII_TICK_OFFSET UNITYSDK_OFFSET(0x1A81C5E0)
 
-inline static constexpr unsigned int ANAOMIAPAII_TypeDefinitionIndex = 58209;
+inline static constexpr unsigned int ANAOMIAPAII_TypeDefinitionIndex = 59465;
 
 	class ANAOMIAPAII : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::Client::MatchThreeV2ChangePropContainerVisible* IGHAHBNLIJA; // 0x20
+		::RPG::Client::MatchThreeV2ChangePropContainerVisible* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::Client::MatchThreeV2ChangePropContainerVisible* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::Client::MatchThreeV2ChangePropContainerVisible*))((::PBYTE)hIl2Cpp + ANAOMIAPAII_CTOR_OFFSET))(this, a1, a2);

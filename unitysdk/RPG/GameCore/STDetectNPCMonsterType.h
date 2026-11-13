@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int STDetectNPCMonsterType_TypeDefinitionIndex = 24478;
+	inline static constexpr unsigned int STDetectNPCMonsterType_TypeDefinitionIndex = 24937;
 
 	enum class STDetectNPCMonsterType : ::System::Int32
 	{

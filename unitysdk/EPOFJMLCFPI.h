@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPOFJMLCFPI_CTOR_OFFSET UNITYSDK_OFFSET(0x155CD600)
-#define EPOFJMLCFPI_GET_PROTOCOLDATA_OFFSET UNITYSDK_OFFSET(0x155CD5F0)
+#define EPOFJMLCFPI_CTOR_OFFSET UNITYSDK_OFFSET(0x16B3C5E0)
+#define EPOFJMLCFPI_GET_PROTOCOLDATA_OFFSET UNITYSDK_OFFSET(0x16B3C5D0)
 
-inline static constexpr unsigned int EPOFJMLCFPI_TypeDefinitionIndex = 75075;
+inline static constexpr unsigned int EPOFJMLCFPI_TypeDefinitionIndex = 77402;
 
 	class EPOFJMLCFPI : public ::System::ComponentModel::PropertyChangedEventArgs
 	{

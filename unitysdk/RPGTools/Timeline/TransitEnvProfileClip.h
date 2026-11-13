@@ -8,13 +8,13 @@ namespace RPGTools::Timeline { class TransitEnvProfileBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TRANSITENVPROFILECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE943570)
-#define RPGTOOLS_TIMELINE_TRANSITENVPROFILECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE943700)
-#define RPGTOOLS_TIMELINE_TRANSITENVPROFILECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9436F0)
+#define RPGTOOLS_TIMELINE_TRANSITENVPROFILECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DA2F0D0)
+#define RPGTOOLS_TIMELINE_TRANSITENVPROFILECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2F260)
+#define RPGTOOLS_TIMELINE_TRANSITENVPROFILECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DA2F250)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TransitEnvProfileClip_TypeDefinitionIndex = 48414;
+	inline static constexpr unsigned int TransitEnvProfileClip_TypeDefinitionIndex = 49455;
 
 	class TransitEnvProfileClip : public ::UnityEngine::Playables::PlayableAsset
 	{

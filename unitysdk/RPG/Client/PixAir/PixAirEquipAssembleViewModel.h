@@ -8,23 +8,23 @@ namespace RPG::Client::PixAir { class PixAirBagEquipsViewModel; }
 namespace RPG::Client::PixAir { class PixAirBattleEquipsViewModel; }
 namespace Sofa::Core { class SimpleCommand; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDB306A0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL_GET_BTNCLOSECOMMAND_OFFSET UNITYSDK_OFFSET(0xDB30840)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL_SET_BTNCLOSECOMMAND_OFFSET UNITYSDK_OFFSET(0xDB30850)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E354030)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL_GET_BTNCLOSECOMMAND_OFFSET UNITYSDK_OFFSET(0x1E3541D0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL_SET_BTNCLOSECOMMAND_OFFSET UNITYSDK_OFFSET(0x1E3541E0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipAssembleViewModel_TypeDefinitionIndex = 79252;
+	inline static constexpr unsigned int PixAirEquipAssembleViewModel_TypeDefinitionIndex = 82029;
 
 	class PixAirEquipAssembleViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::RPG::Client::PixAir::PixAirBagEquipsViewModel* BagEquipsViewModel; // 0x20
+		::JIAPCHALLMF* _GameFlowService; // 0x20
 		::Sofa::Core::SimpleCommand* _BtnCloseCommand_k__BackingField; // 0x28
-		::RPG::Client::PixAir::PixAirBattleEquipsViewModel* BattleEquipsViewModel; // 0x30
-		::LPOOJCMOLDC* _EquipService; // 0x38
-		::JIAPCHALLMF* _GameFlowService; // 0x40
-		::KIICEFFNEGG* _WindowService; // 0x48
+		::KIICEFFNEGG* _WindowService; // 0x30
+		::RPG::Client::PixAir::PixAirBagEquipsViewModel* BagEquipsViewModel; // 0x38
+		::RPG::Client::PixAir::PixAirBattleEquipsViewModel* BattleEquipsViewModel; // 0x40
+		::LPOOJCMOLDC* _EquipService; // 0x48
 		::System::Void _ctor(::KIICEFFNEGG* a1, ::JIAPCHALLMF* a2, ::LPOOJCMOLDC* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::KIICEFFNEGG*, ::JIAPCHALLMF*, ::LPOOJCMOLDC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3);

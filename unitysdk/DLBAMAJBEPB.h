@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define DLBAMAJBEPB_CTOR_OFFSET UNITYSDK_OFFSET(0xF88B2E0)
+#define DLBAMAJBEPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1865EC20)
 
-inline static constexpr unsigned int DLBAMAJBEPB_TypeDefinitionIndex = 49777;
+inline static constexpr unsigned int DLBAMAJBEPB_TypeDefinitionIndex = 50825;
 
 	class DLBAMAJBEPB : public ::System::Attribute
 	{

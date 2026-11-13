@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyCellMoveConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86EF40)
-#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D86EDB0)
+#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E701490)
+#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E701300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyCellMoveConfigRow_TypeDefinitionIndex = 12089;
+	inline static constexpr unsigned int MonopolyCellMoveConfigRow_TypeDefinitionIndex = 12146;
 
 	class MonopolyCellMoveConfigRow : public ::System::Object
 	{

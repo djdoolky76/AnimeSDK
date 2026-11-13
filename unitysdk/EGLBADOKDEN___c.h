@@ -4,18 +4,18 @@
 class EGLBADOKDEN;
 namespace System { class Object; }
 
-#define EGLBADOKDEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E26C070)
-#define EGLBADOKDEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E26C0B0)
-#define EGLBADOKDEN___C___CCTOR_B__128_0_OFFSET UNITYSDK_OFFSET(0x1E26C0C0)
+#define EGLBADOKDEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF81E30)
+#define EGLBADOKDEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF81E70)
+#define EGLBADOKDEN___C___CCTOR_B__128_0_OFFSET UNITYSDK_OFFSET(0x1FF81E80)
 
-inline static constexpr unsigned int EGLBADOKDEN___c_TypeDefinitionIndex = 28894;
+inline static constexpr unsigned int EGLBADOKDEN___c_TypeDefinitionIndex = 29484;
 
 	class EGLBADOKDEN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48560);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B8F0);
 		}
 
 		static ::System::Void _cctor()

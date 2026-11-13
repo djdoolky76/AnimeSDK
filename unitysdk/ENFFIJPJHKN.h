@@ -8,34 +8,34 @@ class LAEINKGACID;
 namespace RPG::Client::BlindBox::Pool { class BlindBoxPool; }
 namespace System { class String; }
 
-#define ENFFIJPJHKN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1559EF10)
-#define ENFFIJPJHKN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1559F820)
-#define ENFFIJPJHKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1559EE80)
-#define ENFFIJPJHKN_EHECHGPMPHM_OFFSET UNITYSDK_OFFSET(0x1559F6B0)
+#define ENFFIJPJHKN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18809C10)
+#define ENFFIJPJHKN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1880A520)
+#define ENFFIJPJHKN_CTOR_OFFSET UNITYSDK_OFFSET(0x18809B80)
+#define ENFFIJPJHKN_EHECHGPMPHM_OFFSET UNITYSDK_OFFSET(0x1880A3B0)
 
-inline static constexpr unsigned int ENFFIJPJHKN_TypeDefinitionIndex = 74909;
+inline static constexpr unsigned int ENFFIJPJHKN_TypeDefinitionIndex = 77236;
 
 	class ENFFIJPJHKN : public ::System::Object
 	{
 	public:
 		::LAEINKGACID* KHNOPFEHCBP; // 0x10
 		::KCFOLLEKPGG* POKJONGDBGC; // 0x18
-		::System::UInt32 LOHKJHKONCO; // 0x20
-		::System::UInt32 KCBFECAKIFD; // 0x24
-		::System::UInt32 NFMDGJAEEFD; // 0x28
+		::System::UInt32 KCBFECAKIFD; // 0x20
+		::System::UInt32 NFMDGJAEEFD; // 0x24
+		::System::UInt32 LOHKJHKONCO; // 0x28
 		static ::RPG::Client::TextID* StaticGet_FDKPMNKMEBE()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0xF470);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x87E0);
 		}
 
 		static ::RPG::Client::TextID* StaticGet_FLAIOKFKFEJ()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0xF480);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x87F0);
 		}
 
 		static ::RPG::Client::TextID* StaticGet_HCINJBEFNIA()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0xF490);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x8800);
 		}
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::KCFOLLEKPGG* a4, ::LAEINKGACID* a5)

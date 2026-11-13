@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleAbility_LeapSlam; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D552FA0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D552FB0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D552F50)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3545C0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3545D0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F354570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_LeapSlam_TypeDefinitionIndex = 15738;
+	inline static constexpr unsigned int ChenLingBattleAbility_LeapSlam_TypeDefinitionIndex = 15896;
 
 	class ChenLingBattleAbility_LeapSlam : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

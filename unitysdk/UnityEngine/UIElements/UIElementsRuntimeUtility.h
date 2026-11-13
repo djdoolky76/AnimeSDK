@@ -7,39 +7,39 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UIElements { class EventDispatcher; }
 namespace UnityEngine::UIElements { class Panel; }
 
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSRUNTIMEUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F498410)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSRUNTIMEUTILITY_REPAINTOVERLAYPANELS_OFFSET UNITYSDK_OFFSET(0x1F497F50)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSRUNTIMEUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFDB550)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSRUNTIMEUTILITY_REPAINTOVERLAYPANELS_OFFSET UNITYSDK_OFFSET(0x1EFDB090)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int UIElementsRuntimeUtility_TypeDefinitionIndex = 5897;
+	inline static constexpr unsigned int UIElementsRuntimeUtility_TypeDefinitionIndex = 5905;
 
 	class UIElementsRuntimeUtility : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UIElements::EventDispatcher** StaticGet_s_RuntimeDispatcher()
-		{
-			return (::UnityEngine::UIElements::EventDispatcher**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x2E660);
-		}
-
 		static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>** StaticGet_panelsIteration()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x2E668);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x1BEE0);
 		}
 
 		static ::System::String** StaticGet_s_RepaintProfilerMarkerName()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x2E670);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x1BEE8);
 		}
 
-		static ::System::Boolean* StaticGet_s_RegisteredPlayerloopCallback()
+		static ::UnityEngine::UIElements::EventDispatcher** StaticGet_s_RuntimeDispatcher()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x99B0);
+			return (::UnityEngine::UIElements::EventDispatcher**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x1BEF0);
 		}
 
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_RepaintProfilerMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x99B8);
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x6250);
+		}
+
+		static ::System::Boolean* StaticGet_s_RegisteredPlayerloopCallback()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsRuntimeUtility")->GetStaticField(0x6258);
 		}
 
 		static ::System::Void _cctor()

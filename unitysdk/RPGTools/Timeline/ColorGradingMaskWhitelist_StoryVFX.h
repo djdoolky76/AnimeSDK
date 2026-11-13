@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskWhitelist_StoryVFX_TypeDefinitionIndex = 48464;
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_StoryVFX_TypeDefinitionIndex = 49505;
 
 	struct alignas(8) ColorGradingMaskWhitelist_StoryVFX
 	{

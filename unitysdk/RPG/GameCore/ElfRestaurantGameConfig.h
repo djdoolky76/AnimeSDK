@@ -17,13 +17,13 @@ namespace RPG::GameCore { class ElfSuperEventConfig; }
 namespace RPG::GameCore { class ElfWaiterConfig; }
 namespace RPG::GameCore { class ElfWaveCustomerConfig; }
 
-#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D60A050)
-#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D60A060)
-#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D60A020)
+#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E0B00)
+#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0E0B10)
+#define RPG_GAMECORE_ELFRESTAURANTGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E0AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfRestaurantGameConfig_TypeDefinitionIndex = 18455;
+	inline static constexpr unsigned int ElfRestaurantGameConfig_TypeDefinitionIndex = 18615;
 
 	class ElfRestaurantGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

@@ -5,9 +5,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IOHKHBEPLOH_CTOR_OFFSET UNITYSDK_OFFSET(0x164F4C30)
+#define IOHKHBEPLOH_CTOR_OFFSET UNITYSDK_OFFSET(0x192E1F40)
 
-inline static constexpr unsigned int IOHKHBEPLOH_TypeDefinitionIndex = 54231;
+inline static constexpr unsigned int IOHKHBEPLOH_TypeDefinitionIndex = 55395;
 
 	class IOHKHBEPLOH : public ::System::Object
 	{

@@ -9,23 +9,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace UnityEngine { class Collider; }
 
-#define AJJCKLMCOMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CBCD20)
-#define AJJCKLMCOMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBCD50)
-#define AJJCKLMCOMM___C___CREATETARGETENTITYFILTER_B__16_0_OFFSET UNITYSDK_OFFSET(0x12CBCD60)
+#define AJJCKLMCOMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19D43600)
+#define AJJCKLMCOMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19D43630)
+#define AJJCKLMCOMM___C___CREATETARGETENTITYFILTER_B__16_0_OFFSET UNITYSDK_OFFSET(0x19D43640)
 
-inline static constexpr unsigned int AJJCKLMCOMM___c_TypeDefinitionIndex = 77090;
+inline static constexpr unsigned int AJJCKLMCOMM___c_TypeDefinitionIndex = 79424;
 
 	class AJJCKLMCOMM___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56D30);
-		}
-
 		static ::System::Func_4<::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_4<::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56D38);
+			return (::System::Func_4<::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x596E0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x596E8);
 		}
 
 		static ::System::Void _cctor()

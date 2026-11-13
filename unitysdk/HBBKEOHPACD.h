@@ -3,10 +3,10 @@
 class FCCIDFIMONC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HBBKEOHPACD_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD94C0)
-#define HBBKEOHPACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BD94F0)
+#define HBBKEOHPACD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C151B60)
+#define HBBKEOHPACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C151B90)
 
-inline static constexpr unsigned int HBBKEOHPACD_TypeDefinitionIndex = 55257;
+inline static constexpr unsigned int HBBKEOHPACD_TypeDefinitionIndex = 56439;
 
 	class HBBKEOHPACD
 	{

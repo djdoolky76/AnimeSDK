@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::NavMap::FiveDim { class SectionConfig; }
 
-#define JBOLKLEHLME___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16568B90)
-#define JBOLKLEHLME___C__DISPLAYCLASS0_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x16568C20)
+#define JBOLKLEHLME___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A792C0)
+#define JBOLKLEHLME___C__DISPLAYCLASS0_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x19A79350)
 
-inline static constexpr unsigned int JBOLKLEHLME___c__DisplayClass0_0_TypeDefinitionIndex = 74668;
+inline static constexpr unsigned int JBOLKLEHLME___c__DisplayClass0_0_TypeDefinitionIndex = 76816;
 
 	class JBOLKLEHLME___c__DisplayClass0_0 : public ::System::Object
 	{

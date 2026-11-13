@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JEBPFBNCALB.h"
 
-#define MAKOLMIPFFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C541E60)
+#define MAKOLMIPFFE_CTOR_OFFSET UNITYSDK_OFFSET(0x207B9950)
 
-inline static constexpr unsigned int MAKOLMIPFFE_TypeDefinitionIndex = 41859;
+inline static constexpr unsigned int MAKOLMIPFFE_TypeDefinitionIndex = 42834;
 
 	class MAKOLMIPFFE : public ::JEBPFBNCALB
 	{

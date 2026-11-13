@@ -4,20 +4,20 @@
 namespace Proto { class UpdateFeatureSwitchScNotify; }
 namespace System { class Object; }
 
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFEE7A0)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFEE7D0)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DFEE7E0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202272F0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20227320)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20227330)
 
 namespace Proto
 {
-	inline static constexpr unsigned int UpdateFeatureSwitchScNotify___c_TypeDefinitionIndex = 32097;
+	inline static constexpr unsigned int UpdateFeatureSwitchScNotify___c_TypeDefinitionIndex = 33010;
 
 	class UpdateFeatureSwitchScNotify___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4F1F0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x55230);
 		}
 
 		static ::System::Void _cctor()

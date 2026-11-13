@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterWeaknessSpecialType_TypeDefinitionIndex = 24773;
+	inline static constexpr unsigned int MonsterWeaknessSpecialType_TypeDefinitionIndex = 25252;
 
 	enum class MonsterWeaknessSpecialType : ::System::Int32
 	{

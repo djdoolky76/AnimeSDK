@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOVIDEOALPHACONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xD876700)
-#define RPG_CLIENT_MONOVIDEOALPHACONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD8765B0)
-#define RPG_CLIENT_MONOVIDEOALPHACONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD876650)
+#define RPG_CLIENT_MONOVIDEOALPHACONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E3A40)
+#define RPG_CLIENT_MONOVIDEOALPHACONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D7E38C0)
+#define RPG_CLIENT_MONOVIDEOALPHACONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D7E3990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoVideoAlphaController_TypeDefinitionIndex = 73207;
+	inline static constexpr unsigned int MonoVideoAlphaController_TypeDefinitionIndex = 75322;
 
 	class MonoVideoAlphaController : public ::UnityEngine::MonoBehaviour
 	{

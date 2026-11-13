@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShaderTestPreloadItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHADERTESTPRELOADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA1480)
-#define RPG_GAMECORE_SHADERTESTPRELOADITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA1390)
+#define RPG_GAMECORE_SHADERTESTPRELOADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3DA4F0)
+#define RPG_GAMECORE_SHADERTESTPRELOADITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3DA400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShaderTestPreloadItem_TypeDefinitionIndex = 16355;
+	inline static constexpr unsigned int ShaderTestPreloadItem_TypeDefinitionIndex = 16519;
 
 	class ShaderTestPreloadItem : public ::RPG::GameCore::JsonConfig
 	{

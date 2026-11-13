@@ -5,7 +5,7 @@ namespace ZenFulcrum::EmbeddedBrowser { class IRejectable; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise_ResolveHandler_TypeDefinitionIndex = 39546;
+	inline static constexpr unsigned int Promise_ResolveHandler_TypeDefinitionIndex = 40475;
 
 	struct alignas(8) Promise_ResolveHandler
 	{

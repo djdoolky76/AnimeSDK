@@ -5,25 +5,25 @@ class DIKFNDGHLPP;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE81FA0)
-#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE81FE0)
-#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C__REFRESHCURBROADCAST_B__2_0_OFFSET UNITYSDK_OFFSET(0xCE81FF0)
+#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB73F00)
+#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB73F40)
+#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C__REFRESHCURBROADCAST_B__2_0_OFFSET UNITYSDK_OFFSET(0x1DB73F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameBroadcastInfo___c_TypeDefinitionIndex = 63990;
+	inline static constexpr unsigned int FateGameBroadcastInfo___c_TypeDefinitionIndex = 65435;
 
 	class FateGameBroadcastInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::DIKFNDGHLPP*>** StaticGet___9__2_0()
 		{
-			return (::System::Predicate_1<::DIKFNDGHLPP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4C420);
+			return (::System::Predicate_1<::DIKFNDGHLPP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59960);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4C428);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59968);
 		}
 
 		static ::System::Void _cctor()

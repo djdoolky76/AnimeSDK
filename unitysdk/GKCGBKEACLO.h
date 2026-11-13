@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GKCGBKEACLO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE2DEB0)
-#define GKCGBKEACLO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE2E480)
-#define GKCGBKEACLO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE2E020)
-#define GKCGBKEACLO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE2D920)
-#define GKCGBKEACLO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE2DBB0)
-#define GKCGBKEACLO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE2E0C0)
-#define GKCGBKEACLO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE2E110)
-#define GKCGBKEACLO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE2DEF0)
-#define GKCGBKEACLO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE2DB50)
-#define GKCGBKEACLO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE2DD20)
-#define GKCGBKEACLO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE2DF80)
-#define GKCGBKEACLO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE2D8A0)
+#define GKCGBKEACLO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E64F6C0)
+#define GKCGBKEACLO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E64FC90)
+#define GKCGBKEACLO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E64F830)
+#define GKCGBKEACLO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E64F130)
+#define GKCGBKEACLO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E64F3C0)
+#define GKCGBKEACLO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E64F8D0)
+#define GKCGBKEACLO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E64F920)
+#define GKCGBKEACLO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E64F700)
+#define GKCGBKEACLO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E64F360)
+#define GKCGBKEACLO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E64F530)
+#define GKCGBKEACLO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E64F790)
+#define GKCGBKEACLO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E64F0B0)
 
-inline static constexpr unsigned int GKCGBKEACLO_TypeDefinitionIndex = 12666;
+inline static constexpr unsigned int GKCGBKEACLO_TypeDefinitionIndex = 12733;
 
 	class GKCGBKEACLO : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AnniversaryCollectionContentConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AnniversaryCollectionContentConfigRow*>**)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x16B10);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x10D90);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x16B18);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x10D98);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AnniversaryCollectionContentConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x16B20);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x4D20);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AnniversaryCollectionContentConfigRow*>**)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x10DA0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x4D21);
+			return (::System::Byte*)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x35C0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "GKCGBKEACLO")->GetStaticField(0x35C1);
 		}
 
 		static ::System::Void _cctor()

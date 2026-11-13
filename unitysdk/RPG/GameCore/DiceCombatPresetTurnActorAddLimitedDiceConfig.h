@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatPresetTurnActorAddLimitedDiceConfig; }
 
-#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORADDLIMITEDDICECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E23D0)
-#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORADDLIMITEDDICECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E2260)
+#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORADDLIMITEDDICECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BFF10)
+#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORADDLIMITEDDICECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3BFDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPresetTurnActorAddLimitedDiceConfig_TypeDefinitionIndex = 16131;
+	inline static constexpr unsigned int DiceCombatPresetTurnActorAddLimitedDiceConfig_TypeDefinitionIndex = 16289;
 
 	class DiceCombatPresetTurnActorAddLimitedDiceConfig : public ::RPG::GameCore::JsonConfig
 	{

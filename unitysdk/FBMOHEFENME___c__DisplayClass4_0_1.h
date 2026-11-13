@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 class FBMOHEFENME;
 
-inline static constexpr unsigned int FBMOHEFENME___c__DisplayClass4_0_1_TypeDefinitionIndex = 72227;
+inline static constexpr unsigned int FBMOHEFENME___c__DisplayClass4_0_1_TypeDefinitionIndex = 74294;
 
 	template <typename T>
 	class FBMOHEFENME___c__DisplayClass4_0_1 : public ::System::Object

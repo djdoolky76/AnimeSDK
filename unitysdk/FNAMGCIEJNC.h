@@ -3,22 +3,21 @@
 #include "unitysdk/MLKDDLHNNHH.h"
 class FNAMGCIEJNC;
 
-#define FNAMGCIEJNC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1585E2E0)
-#define FNAMGCIEJNC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1585E350)
-#define FNAMGCIEJNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1585E480)
-#define FNAMGCIEJNC_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1585E3B0)
+#define FNAMGCIEJNC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x17F11110)
+#define FNAMGCIEJNC_CLEAR_OFFSET UNITYSDK_OFFSET(0x17F11180)
+#define FNAMGCIEJNC_CTOR_OFFSET UNITYSDK_OFFSET(0x17F112B0)
+#define FNAMGCIEJNC_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x17F111E0)
 
-inline static constexpr unsigned int FNAMGCIEJNC_TypeDefinitionIndex = 65874;
+inline static constexpr unsigned int FNAMGCIEJNC_TypeDefinitionIndex = 67806;
 
 	class FNAMGCIEJNC : public ::MLKDDLHNNHH
 	{
 	public:
-		::System::Int32 GDIMKFNECOK; // 0x20
-		::System::Boolean NIKJBBKEFCL; // 0x24
-		::System::Boolean LEPAFEFDNEN; // 0x25
-		::System::Boolean COILICFBDCD; // 0x26
-		::System::Byte _padding0[0x1];
-		::System::Int32 LKELCEMCLED; // 0x28
+		::System::Int32 LKELCEMCLED; // 0x20
+		::System::Int32 GDIMKFNECOK; // 0x24
+		::System::Boolean NIKJBBKEFCL; // 0x28
+		::System::Boolean COILICFBDCD; // 0x29
+		::System::Boolean LEPAFEFDNEN; // 0x2A
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNAMGCIEJNC_CTOR_OFFSET))(this);

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropEscalatorMoveStart; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPESCALATORMOVESTART_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91CDD0)
-#define RPG_GAMECORE_PROPESCALATORMOVESTART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D91CE10)
-#define RPG_GAMECORE_PROPESCALATORMOVESTART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91CD70)
+#define RPG_GAMECORE_PROPESCALATORMOVESTART_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF87000)
+#define RPG_GAMECORE_PROPESCALATORMOVESTART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF87040)
+#define RPG_GAMECORE_PROPESCALATORMOVESTART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF86FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropEscalatorMoveStart_TypeDefinitionIndex = 21017;
+	inline static constexpr unsigned int PropEscalatorMoveStart_TypeDefinitionIndex = 21355;
 
 	class PropEscalatorMoveStart : public ::RPG::GameCore::TaskConfig
 	{

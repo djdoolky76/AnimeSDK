@@ -3,10 +3,10 @@
 class MOPOKJECALI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PIJABFONEEI_CTOR_OFFSET UNITYSDK_OFFSET(0xC2619B0)
-#define PIJABFONEEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2619E0)
+#define PIJABFONEEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9CDEF0)
+#define PIJABFONEEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9CDF20)
 
-inline static constexpr unsigned int PIJABFONEEI_TypeDefinitionIndex = 55383;
+inline static constexpr unsigned int PIJABFONEEI_TypeDefinitionIndex = 56566;
 
 	class PIJABFONEEI
 	{

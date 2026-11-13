@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/IOException.h"
 
-#define GOOGLE_PROTOBUF_CODEDOUTPUTSTREAM_OUTOFSPACEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1B832C00)
+#define GOOGLE_PROTOBUF_CODEDOUTPUTSTREAM_OUTOFSPACEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA9F20)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int CodedOutputStream_OutOfSpaceException_TypeDefinitionIndex = 5370;
+	inline static constexpr unsigned int CodedOutputStream_OutOfSpaceException_TypeDefinitionIndex = 5375;
 
 	class CodedOutputStream_OutOfSpaceException : public ::System::IO::IOException
 	{

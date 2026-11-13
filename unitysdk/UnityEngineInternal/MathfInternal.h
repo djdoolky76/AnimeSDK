@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINEINTERNAL_MATHFINTERNAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F414190)
+#define UNITYENGINEINTERNAL_MATHFINTERNAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x208501F0)
 
 namespace UnityEngineInternal
 {
@@ -9,19 +9,19 @@ namespace UnityEngineInternal
 
 	struct alignas(4) MathfInternal
 	{
-		static ::System::Boolean* StaticGet_IsFlushToZeroEnabled()
+		static ::System::Single* StaticGet_FloatMinDenormal()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3A50);
+			return (::System::Single*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3360);
 		}
 
 		static ::System::Single* StaticGet_FloatMinNormal()
 		{
-			return (::System::Single*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3A54);
+			return (::System::Single*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3364);
 		}
 
-		static ::System::Single* StaticGet_FloatMinDenormal()
+		static ::System::Boolean* StaticGet_IsFlushToZeroEnabled()
 		{
-			return (::System::Single*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3A58);
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngineInternal", "MathfInternal")->GetStaticField(0x3368);
 		}
 
 		static ::System::Void _cctor()

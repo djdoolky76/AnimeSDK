@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LBPLJCHEJOK_TypeDefinitionIndex = 32820;
+inline static constexpr unsigned int LBPLJCHEJOK_TypeDefinitionIndex = 33735;
 
 	enum class LBPLJCHEJOK : ::System::Int32
 	{

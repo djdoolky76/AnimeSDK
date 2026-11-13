@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OGANCPOAIIP_TypeDefinitionIndex = 11971;
+inline static constexpr unsigned int OGANCPOAIIP_TypeDefinitionIndex = 12028;
 
 	enum class OGANCPOAIIP : ::System::Int32
 	{

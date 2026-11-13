@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UIElements/CallbackPhase.h"
 
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKFUNCTORBASE_GET_PHASE_OFFSET UNITYSDK_OFFSET(0x1F484190)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKFUNCTORBASE_GET_PHASE_OFFSET UNITYSDK_OFFSET(0x1EFC7300)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventCallbackFunctorBase_TypeDefinitionIndex = 5933;
+	inline static constexpr unsigned int EventCallbackFunctorBase_TypeDefinitionIndex = 5941;
 
 	class EventCallbackFunctorBase : public ::System::Object
 	{

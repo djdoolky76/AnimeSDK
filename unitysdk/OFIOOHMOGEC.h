@@ -5,21 +5,22 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define OFIOOHMOGEC_AEOAJANLCMF_OFFSET UNITYSDK_OFFSET(0xBE3B960)
-#define OFIOOHMOGEC_BHBHABIGGDI_OFFSET UNITYSDK_OFFSET(0xBE3B970)
-#define OFIOOHMOGEC_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3B8B0)
-#define OFIOOHMOGEC_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xBE3B910)
-#define OFIOOHMOGEC_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBE3B8C0)
-#define OFIOOHMOGEC_JFCHEALPNIA_OFFSET UNITYSDK_OFFSET(0xBE3B980)
+#define OFIOOHMOGEC_AEOAJANLCMF_OFFSET UNITYSDK_OFFSET(0x18DE9340)
+#define OFIOOHMOGEC_BHBHABIGGDI_OFFSET UNITYSDK_OFFSET(0x18DE9350)
+#define OFIOOHMOGEC_CTOR_OFFSET UNITYSDK_OFFSET(0x18DE9290)
+#define OFIOOHMOGEC_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18DE92F0)
+#define OFIOOHMOGEC_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18DE92A0)
+#define OFIOOHMOGEC_JFCHEALPNIA_OFFSET UNITYSDK_OFFSET(0x18DE9360)
 
-inline static constexpr unsigned int OFIOOHMOGEC_TypeDefinitionIndex = 56686;
+inline static constexpr unsigned int OFIOOHMOGEC_TypeDefinitionIndex = 57910;
 
 	class OFIOOHMOGEC : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* JFCIBPBJFGC; // 0x10
-		::RPG::GameCore::TeamType GJHCMKBNING; // 0x18
-		::System::Boolean MLEPOBBCOKI; // 0x1C
+		::System::Boolean MLEPOBBCOKI; // 0x18
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::TeamType GJHCMKBNING; // 0x1C
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TeamType a2, ::System::Boolean a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamType, ::System::Boolean))((::PBYTE)hIl2Cpp + OFIOOHMOGEC_CTOR_OFFSET))(this, a1, a2, a3);

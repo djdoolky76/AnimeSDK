@@ -5,13 +5,13 @@
 namespace RPG::Client::Prop { class PuzzleBoardBase; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0xDD7CD30)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_FINNPDJCNAI_OFFSET UNITYSDK_OFFSET(0xDD7CA70)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_INIT_OFFSET UNITYSDK_OFFSET(0xDD7B1C0)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0x17454690)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_FINNPDJCNAI_OFFSET UNITYSDK_OFFSET(0x174543D0)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_INIT_OFFSET UNITYSDK_OFFSET(0x17452B20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PushHexPuzzleFrame_TypeDefinitionIndex = 78618;
+	inline static constexpr unsigned int PushHexPuzzleFrame_TypeDefinitionIndex = 81353;
 
 	class PushHexPuzzleFrame : public ::RPG::Client::Prop::HexPuzzleItemBase
 	{

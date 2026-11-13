@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTurnOwnerActionPhaseEnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PFIKJOHFCEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC20BA10)
-#define PFIKJOHFCEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC20BA40)
+#define PFIKJOHFCEL_CTOR_OFFSET UNITYSDK_OFFSET(0x16D812D0)
+#define PFIKJOHFCEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D81300)
 
-inline static constexpr unsigned int PFIKJOHFCEL_TypeDefinitionIndex = 54728;
+inline static constexpr unsigned int PFIKJOHFCEL_TypeDefinitionIndex = 55895;
 
 	class PFIKJOHFCEL
 	{

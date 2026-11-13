@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CELKIABDADM_CTOR_OFFSET UNITYSDK_OFFSET(0xC9DF1F0)
-#define CELKIABDADM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9DF2D0)
+#define CELKIABDADM_CTOR_OFFSET UNITYSDK_OFFSET(0x18821CE0)
+#define CELKIABDADM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18821DC0)
 
-inline static constexpr unsigned int CELKIABDADM_TypeDefinitionIndex = 55479;
+inline static constexpr unsigned int CELKIABDADM_TypeDefinitionIndex = 56667;
 
 	class CELKIABDADM
 	{

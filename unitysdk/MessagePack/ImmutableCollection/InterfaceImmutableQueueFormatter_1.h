@@ -3,7 +3,7 @@
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int InterfaceImmutableQueueFormatter_1_TypeDefinitionIndex = 7365;
+	inline static constexpr unsigned int InterfaceImmutableQueueFormatter_1_TypeDefinitionIndex = 7376;
 
 	template <typename T>
 	class InterfaceImmutableQueueFormatter_1

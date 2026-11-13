@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ReplicationNetMode_TypeDefinitionIndex = 36883;
+	inline static constexpr unsigned int ReplicationNetMode_TypeDefinitionIndex = 37811;
 
 	enum class ReplicationNetMode : ::System::Byte
 	{

@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class DHCNDENHLGO;
 
-#define MJJDPDHGAEM_OFIMIEJMOGE_OFFSET UNITYSDK_OFFSET(0xB967C10)
+#define MJJDPDHGAEM_OFIMIEJMOGE_OFFSET UNITYSDK_OFFSET(0x1A3AA800)
 
-inline static constexpr unsigned int MJJDPDHGAEM_TypeDefinitionIndex = 81569;
+inline static constexpr unsigned int MJJDPDHGAEM_TypeDefinitionIndex = 84350;
 
 	class MJJDPDHGAEM : public ::System::Object
 	{

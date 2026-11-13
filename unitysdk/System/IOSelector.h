@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class IOSelectorJob; }
 
-#define SYSTEM_IOSELECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x1EFEB660)
+#define SYSTEM_IOSELECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x1C1A7DD0)
 
 namespace System
 {

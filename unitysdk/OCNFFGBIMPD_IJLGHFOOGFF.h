@@ -4,9 +4,9 @@
 class KOAOAKKCCPK;
 namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
 
-#define OCNFFGBIMPD_IJLGHFOOGFF_CTOR_OFFSET UNITYSDK_OFFSET(0xBD6BD00)
+#define OCNFFGBIMPD_IJLGHFOOGFF_CTOR_OFFSET UNITYSDK_OFFSET(0x19A1E940)
 
-inline static constexpr unsigned int OCNFFGBIMPD_IJLGHFOOGFF_TypeDefinitionIndex = 72293;
+inline static constexpr unsigned int OCNFFGBIMPD_IJLGHFOOGFF_TypeDefinitionIndex = 74370;
 
 	class OCNFFGBIMPD_IJLGHFOOGFF : public ::System::Object
 	{

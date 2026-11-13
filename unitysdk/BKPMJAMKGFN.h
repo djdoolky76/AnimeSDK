@@ -4,17 +4,17 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Object; }
 
-#define BKPMJAMKGFN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA621C0)
-#define BKPMJAMKGFN_PMMNBAJPPKG_OFFSET UNITYSDK_OFFSET(0xBA621D0)
+#define BKPMJAMKGFN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A673D30)
+#define BKPMJAMKGFN_PMMNBAJPPKG_OFFSET UNITYSDK_OFFSET(0x1A673D40)
 
-inline static constexpr unsigned int BKPMJAMKGFN_TypeDefinitionIndex = 73493;
+inline static constexpr unsigned int BKPMJAMKGFN_TypeDefinitionIndex = 75616;
 
 	class BKPMJAMKGFN : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_LKHLJJDOLJC()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "BKPMJAMKGFN")->GetStaticField(0x157B0);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "BKPMJAMKGFN")->GetStaticField(0x14AB0);
 		}
 
 		static ::System::Void _cctor()

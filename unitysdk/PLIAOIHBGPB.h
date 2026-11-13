@@ -6,18 +6,18 @@ class DOHFBIFFIBK;
 class PBHJHNFMFDH;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PLIAOIHBGPB_CTOR_OFFSET UNITYSDK_OFFSET(0xC2FF780)
-#define PLIAOIHBGPB_LGCBBJJIEBB_OFFSET UNITYSDK_OFFSET(0xC2FF890)
-#define PLIAOIHBGPB_NMGCJCOLCHK_OFFSET UNITYSDK_OFFSET(0xC2FF9D0)
+#define PLIAOIHBGPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1888C270)
+#define PLIAOIHBGPB_LGCBBJJIEBB_OFFSET UNITYSDK_OFFSET(0x1888C380)
+#define PLIAOIHBGPB_NMGCJCOLCHK_OFFSET UNITYSDK_OFFSET(0x1888C4C0)
 
-inline static constexpr unsigned int PLIAOIHBGPB_TypeDefinitionIndex = 80144;
+inline static constexpr unsigned int PLIAOIHBGPB_TypeDefinitionIndex = 82921;
 
 	class PLIAOIHBGPB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::PBHJHNFMFDH*>* DAIDALOOHGB; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DMIIBJINHNI*>* GBIKFCJGFEL; // 0x10
 		::DOHFBIFFIBK* CEFLLELKFOP; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DMIIBJINHNI*>* GBIKFCJGFEL; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::PBHJHNFMFDH*>* DAIDALOOHGB; // 0x20
 		::System::Void _ctor(::DOHFBIFFIBK* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::DOHFBIFFIBK*))((::PBYTE)hIl2Cpp + PLIAOIHBGPB_CTOR_OFFSET))(this, a1);

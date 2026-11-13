@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PMFKHDGJIPF_CTOR_OFFSET UNITYSDK_OFFSET(0xC313850)
-#define PMFKHDGJIPF_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xC313880)
+#define PMFKHDGJIPF_CTOR_OFFSET UNITYSDK_OFFSET(0x188A03C0)
+#define PMFKHDGJIPF_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x188A03F0)
 
-inline static constexpr unsigned int PMFKHDGJIPF_TypeDefinitionIndex = 62457;
+inline static constexpr unsigned int PMFKHDGJIPF_TypeDefinitionIndex = 63870;
 
 	class PMFKHDGJIPF : public ::System::Object
 	{

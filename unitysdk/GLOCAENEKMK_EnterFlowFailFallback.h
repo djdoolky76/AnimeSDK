@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GLOCAENEKMK_EnterFlowFailFallback_TypeDefinitionIndex = 77719;
+inline static constexpr unsigned int GLOCAENEKMK_EnterFlowFailFallback_TypeDefinitionIndex = 80454;
 
 	enum class GLOCAENEKMK_EnterFlowFailFallback : ::System::Int32
 	{

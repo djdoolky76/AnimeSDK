@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System::Collections::Specialized { class ListDictionary_DictionaryNode; }
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA8C80)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAFC400)
 
 namespace System::Collections::Specialized
 {
@@ -14,8 +14,8 @@ namespace System::Collections::Specialized
 	{
 	public:
 		::System::Object* key; // 0x10
-		::System::Collections::Specialized::ListDictionary_DictionaryNode* next; // 0x18
-		::System::Object* value; // 0x20
+		::System::Object* value; // 0x18
+		::System::Collections::Specialized::ListDictionary_DictionaryNode* next; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE_CTOR_OFFSET))(this);

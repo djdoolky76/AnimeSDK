@@ -7,10 +7,10 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define BOOCGPLOMGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC198B10)
-#define BOOCGPLOMGL_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xC198B90)
+#define BOOCGPLOMGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F6720)
+#define BOOCGPLOMGL_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x1B5F67A0)
 
-inline static constexpr unsigned int BOOCGPLOMGL_TypeDefinitionIndex = 73147;
+inline static constexpr unsigned int BOOCGPLOMGL_TypeDefinitionIndex = 75261;
 
 	class BOOCGPLOMGL : public ::DGCNFOOAFPO
 	{

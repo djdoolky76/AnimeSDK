@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/Datatype_dateTimeBase.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMETIMEZONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE80F80)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMETIMEZONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D213A40)
 
 namespace System::Xml::Schema
 {

@@ -4,18 +4,18 @@
 class BAEDIBFGLDE;
 namespace System { class Object; }
 
-#define BAEDIBFGLDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E784A30)
-#define BAEDIBFGLDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E784A70)
-#define BAEDIBFGLDE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E784A80)
+#define BAEDIBFGLDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20572850)
+#define BAEDIBFGLDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20572890)
+#define BAEDIBFGLDE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x205728A0)
 
-inline static constexpr unsigned int BAEDIBFGLDE___c_TypeDefinitionIndex = 28006;
+inline static constexpr unsigned int BAEDIBFGLDE___c_TypeDefinitionIndex = 28596;
 
 	class BAEDIBFGLDE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BBB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x412E0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_LINEGLOW_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE95B7B0)
+#define SCENENLIGHTMANAGER_LINEGLOW_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC2E410)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LineGlow_ExportData_TypeDefinitionIndex = 49108;
+	inline static constexpr unsigned int LineGlow_ExportData_TypeDefinitionIndex = 50184;
 
 	class LineGlow_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

@@ -4,9 +4,9 @@
 class ICCLDNDNHPD;
 class IDGNPKGEKGA;
 
-#define NJMLJBNICND_GDHLNFFJEGK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC19C40)
+#define NJMLJBNICND_GDHLNFFJEGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A79C130)
 
-inline static constexpr unsigned int NJMLJBNICND_GDHLNFFJEGK_TypeDefinitionIndex = 78229;
+inline static constexpr unsigned int NJMLJBNICND_GDHLNFFJEGK_TypeDefinitionIndex = 80964;
 
 	class NJMLJBNICND_GDHLNFFJEGK : public ::System::Object
 	{

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelPathwayInfo; }
 namespace RPG::GameCore { class LevelPathwayLinkInfo; }
 
-#define RPG_GAMECORE_LEVELPATHWAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D792840)
-#define RPG_GAMECORE_LEVELPATHWAYINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D792850)
-#define RPG_GAMECORE_LEVELPATHWAYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D795890)
+#define RPG_GAMECORE_LEVELPATHWAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D943C90)
+#define RPG_GAMECORE_LEVELPATHWAYINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D943CA0)
+#define RPG_GAMECORE_LEVELPATHWAYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D944820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPathwayInfo_TypeDefinitionIndex = 17252;
+	inline static constexpr unsigned int LevelPathwayInfo_TypeDefinitionIndex = 17420;
 
 	class LevelPathwayInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

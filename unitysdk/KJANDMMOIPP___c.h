@@ -4,18 +4,18 @@
 class KJANDMMOIPP;
 namespace System { class Object; }
 
-#define KJANDMMOIPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E83B1D0)
-#define KJANDMMOIPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E83B210)
-#define KJANDMMOIPP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E83B220)
+#define KJANDMMOIPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFD8D30)
+#define KJANDMMOIPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFD8D70)
+#define KJANDMMOIPP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FFD8D80)
 
-inline static constexpr unsigned int KJANDMMOIPP___c_TypeDefinitionIndex = 32191;
+inline static constexpr unsigned int KJANDMMOIPP___c_TypeDefinitionIndex = 33104;
 
 	class KJANDMMOIPP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19CB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15680);
 		}
 
 		static ::System::Void _cctor()

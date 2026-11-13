@@ -6,23 +6,23 @@ class FDPALAEIHPB;
 namespace RPG::Client { class AchievementData; }
 namespace RPG::GameCore { class MovieGameConstConfig; }
 
-#define FPDBEGJALFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15904EC0)
-#define FPDBEGJALFN_HNKAOPNANBM_OFFSET UNITYSDK_OFFSET(0x15905040)
+#define FPDBEGJALFN_CTOR_OFFSET UNITYSDK_OFFSET(0x18772A10)
+#define FPDBEGJALFN_HNKAOPNANBM_OFFSET UNITYSDK_OFFSET(0x18772B90)
 
-inline static constexpr unsigned int FPDBEGJALFN_TypeDefinitionIndex = 76600;
+inline static constexpr unsigned int FPDBEGJALFN_TypeDefinitionIndex = 78931;
 
 	class FPDBEGJALFN : public ::HLFHMKMJNPK
 	{
 	public:
-		::RPG::Client::AchievementData* PEJCKNIOJAP; // 0x18
-		::RPG::Client::AchievementData* GKMPLOCPNML; // 0x20
-		::RPG::Client::AchievementData* FGGMNKBLPEK; // 0x28
-		::RPG::Client::AchievementData* LFEONCLDPNC; // 0x30
-		::RPG::GameCore::MovieGameConstConfig* POIDJMHLKJN; // 0x38
-		::RPG::Client::AchievementData* JCCAJEIKLLI; // 0x40
-		::RPG::Client::AchievementData* LPEJGOIKMBA; // 0x48
-		::RPG::Client::AchievementData* ECIKBNDOLIE; // 0x50
-		::RPG::Client::AchievementData* FJBMPELICHA; // 0x58
+		::RPG::Client::AchievementData* JCCAJEIKLLI; // 0x18
+		::RPG::Client::AchievementData* PEJCKNIOJAP; // 0x20
+		::RPG::Client::AchievementData* LFEONCLDPNC; // 0x28
+		::RPG::Client::AchievementData* FJBMPELICHA; // 0x30
+		::RPG::Client::AchievementData* GKMPLOCPNML; // 0x38
+		::RPG::Client::AchievementData* LPEJGOIKMBA; // 0x40
+		::RPG::Client::AchievementData* ECIKBNDOLIE; // 0x48
+		::RPG::Client::AchievementData* FGGMNKBLPEK; // 0x50
+		::RPG::GameCore::MovieGameConstConfig* POIDJMHLKJN; // 0x58
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::RPG::GameCore::MovieGameConstConfig* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*, ::RPG::GameCore::MovieGameConstConfig*))((::PBYTE)hIl2Cpp + FPDBEGJALFN_CTOR_OFFSET))(this, a1, a2);

@@ -7,30 +7,30 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCAeonDiceRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONDICEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D987FE0)
-#define RPG_GAMECORE_ROGUEDLCAEONDICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D987650)
+#define RPG_GAMECORE_ROGUEDLCAEONDICEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F56DD60)
+#define RPG_GAMECORE_ROGUEDLCAEONDICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F56D390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonDiceRow_TypeDefinitionIndex = 14741;
+	inline static constexpr unsigned int RogueDLCAeonDiceRow_TypeDefinitionIndex = 14897;
 
 	class RogueDLCAeonDiceRow : public ::System::Object
 	{
 	public:
-		::System::String* SoundSuspensionStart; // 0x10
-		::Il2CppArray<::System::UInt32>* StartDescParam; // 0x18
-		::System::String* DiceIcon; // 0x20
-		::System::String* DiceModel; // 0x28
-		::System::String* SoundReRoll; // 0x30
-		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParam; // 0x38
-		::Il2CppArray<::System::UInt32>* ExtraEffect; // 0x40
-		::System::String* SoundSuspensionStop; // 0x48
-		::System::String* SoundRoll; // 0x50
-		::System::UInt32 AeonDiceID; // 0x58
+		::System::String* SoundRoll; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParam; // 0x18
+		::Il2CppArray<::System::UInt32>* ExtraEffect; // 0x20
+		::Il2CppArray<::System::UInt32>* StartDescParam; // 0x28
+		::System::String* SoundSuspensionStop; // 0x30
+		::System::String* SoundSuspensionStart; // 0x38
+		::System::String* DiceIcon; // 0x40
+		::System::String* DiceModel; // 0x48
+		::System::String* SoundReRoll; // 0x50
+		::RPG::Client::TextID DiceCountDesc; // 0x58
+		::RPG::Client::TextID DiceStartEffectDesc; // 0x68
+		::System::UInt32 AeonDiceID; // 0x78
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID DiceCountDesc; // 0x60
-		::RPG::Client::TextID DiceShortDesc; // 0x70
-		::RPG::Client::TextID DiceStartEffectDesc; // 0x80
+		::RPG::Client::TextID DiceShortDesc; // 0x80
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCAEONDICEROW_CTOR_OFFSET))(this);

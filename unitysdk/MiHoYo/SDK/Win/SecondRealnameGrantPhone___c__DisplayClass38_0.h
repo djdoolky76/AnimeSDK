@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SecondRealnameGrantPhone; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCB150)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BDCB450)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x196161B0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x196164B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealnameGrantPhone___c__DisplayClass38_0_TypeDefinitionIndex = 9525;
+	inline static constexpr unsigned int SecondRealnameGrantPhone___c__DisplayClass38_0_TypeDefinitionIndex = 9533;
 
 	class SecondRealnameGrantPhone___c__DisplayClass38_0 : public ::System::Object
 	{

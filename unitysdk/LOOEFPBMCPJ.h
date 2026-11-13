@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowWorldShop4ThUpgradeHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOOEFPBMCPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB80AEE0)
-#define LOOEFPBMCPJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB80AEF0)
-#define LOOEFPBMCPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB80AF30)
-#define LOOEFPBMCPJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB80B080)
-#define LOOEFPBMCPJ_TICK_OFFSET UNITYSDK_OFFSET(0xB80B0D0)
+#define LOOEFPBMCPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C0660)
+#define LOOEFPBMCPJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5C0670)
+#define LOOEFPBMCPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5C06B0)
+#define LOOEFPBMCPJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A5C0800)
+#define LOOEFPBMCPJ_TICK_OFFSET UNITYSDK_OFFSET(0x1A5C0850)
 
-inline static constexpr unsigned int LOOEFPBMCPJ_TypeDefinitionIndex = 53288;
+inline static constexpr unsigned int LOOEFPBMCPJ_TypeDefinitionIndex = 54450;
 
 	class LOOEFPBMCPJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowWorldShop4ThUpgradeHint* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShowWorldShop4ThUpgradeHint* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowWorldShop4ThUpgradeHint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowWorldShop4ThUpgradeHint*))((::PBYTE)hIl2Cpp + LOOEFPBMCPJ_CTOR_OFFSET))(this, a1, a2);

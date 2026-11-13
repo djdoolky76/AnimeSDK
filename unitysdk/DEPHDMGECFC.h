@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropCurveMoveModifySpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DEPHDMGECFC_CTOR_OFFSET UNITYSDK_OFFSET(0xE51F620)
-#define DEPHDMGECFC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE51F650)
+#define DEPHDMGECFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B386F70)
+#define DEPHDMGECFC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B386FA0)
 
-inline static constexpr unsigned int DEPHDMGECFC_TypeDefinitionIndex = 58306;
+inline static constexpr unsigned int DEPHDMGECFC_TypeDefinitionIndex = 59562;
 
 	class DEPHDMGECFC
 	{

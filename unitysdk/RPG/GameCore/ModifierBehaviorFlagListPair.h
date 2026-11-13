@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ModifierBehaviorFlagListPair; }
 
-#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGLISTPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85EFF0)
-#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGLISTPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D85EED0)
+#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGLISTPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F1560)
+#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGLISTPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6F1440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBehaviorFlagListPair_TypeDefinitionIndex = 17107;
+	inline static constexpr unsigned int ModifierBehaviorFlagListPair_TypeDefinitionIndex = 17274;
 
 	class ModifierBehaviorFlagListPair : public ::RPG::GameCore::JsonConfig
 	{

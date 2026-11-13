@@ -7,25 +7,25 @@ class CHNBCNCCFOL;
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client::LittleGame { class Match3EnergyViewStateBuffer; }
 
-#define CHNBCNCCFOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCF58BD0)
-#define CHNBCNCCFOL_CTOR_OFFSET UNITYSDK_OFFSET(0xCF590F0)
-#define CHNBCNCCFOL_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0xCF590A0)
-#define CHNBCNCCFOL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xCF58C60)
-#define CHNBCNCCFOL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xCF58CF0)
+#define CHNBCNCCFOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16E2DC60)
+#define CHNBCNCCFOL_CTOR_OFFSET UNITYSDK_OFFSET(0x16E2E180)
+#define CHNBCNCCFOL_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x16E2E130)
+#define CHNBCNCCFOL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x16E2DCF0)
+#define CHNBCNCCFOL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16E2DD80)
 
-inline static constexpr unsigned int CHNBCNCCFOL_TypeDefinitionIndex = 65862;
+inline static constexpr unsigned int CHNBCNCCFOL_TypeDefinitionIndex = 67794;
 
 	class CHNBCNCCFOL : public ::FNIDIOCNBBI
 	{
 	public:
 		::RPG::Client::LittleGame::Match3EnergyViewStateBuffer* HPINJBJLCBB; // 0x28
-		::System::UInt32 JCAEANLAGMB; // 0x30
+		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x30
 		::System::UInt32 KLOEJIMMPJM; // 0x34
 		::System::Boolean OBMMJLCPNGA; // 0x38
 		::System::Boolean LLMLOGNFFCD; // 0x39
 		::System::Byte _padding0[0x2];
-		::UnityEngine::Vector2 ICGKFDEILKA; // 0x3C
-		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x44
+		::System::UInt32 JCAEANLAGMB; // 0x3C
+		::UnityEngine::Vector2 ICGKFDEILKA; // 0x40
 		// static const ::System::Object JCENJMALKBB; // 0x0
 		::System::Void _ctor()
 		{

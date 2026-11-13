@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyContentDisplayRow; }
 
-#define RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86FB60)
-#define RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D86F9F0)
+#define RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7020B0)
+#define RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E701F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyContentDisplayRow_TypeDefinitionIndex = 12087;
+	inline static constexpr unsigned int MonopolyContentDisplayRow_TypeDefinitionIndex = 12144;
 
 	class MonopolyContentDisplayRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::MonopolyCellType CellType; // 0x10
+		::System::UInt32 DisplayID; // 0x10
 		::System::UInt32 CellContentID; // 0x14
-		::System::UInt32 DisplayID; // 0x18
+		::RPG::GameCore::MonopolyCellType CellType; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW_CTOR_OFFSET))(this);

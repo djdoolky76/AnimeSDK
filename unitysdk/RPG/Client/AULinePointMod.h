@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AULinePointMod_TypeDefinitionIndex = 72491;
+	inline static constexpr unsigned int AULinePointMod_TypeDefinitionIndex = 74570;
 
 	enum class AULinePointMod : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AISlaveConfig; }
 
-#define RPG_GAMECORE_AISLAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D30D730)
-#define RPG_GAMECORE_AISLAVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D30D540)
+#define RPG_GAMECORE_AISLAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4EB5F0)
+#define RPG_GAMECORE_AISLAVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4EB480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISlaveConfig_TypeDefinitionIndex = 17231;
+	inline static constexpr unsigned int AISlaveConfig_TypeDefinitionIndex = 17399;
 
 	class AISlaveConfig : public ::RPG::GameCore::JsonConfig
 	{

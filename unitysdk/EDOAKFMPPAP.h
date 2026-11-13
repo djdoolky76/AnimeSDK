@@ -6,11 +6,11 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtCharacterFlagVisual; }
 namespace RPG::GameCore { class RtCharacterVisual; }
 
-#define EDOAKFMPPAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD42EF0)
-#define EDOAKFMPPAP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD42F00)
-#define EDOAKFMPPAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD42EC0)
+#define EDOAKFMPPAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B9FD0)
+#define EDOAKFMPPAP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9B9FE0)
+#define EDOAKFMPPAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9B9FA0)
 
-inline static constexpr unsigned int EDOAKFMPPAP_TypeDefinitionIndex = 24090;
+inline static constexpr unsigned int EDOAKFMPPAP_TypeDefinitionIndex = 24549;
 
 	class EDOAKFMPPAP : public ::RPG::GameCore::TaskConfig
 	{

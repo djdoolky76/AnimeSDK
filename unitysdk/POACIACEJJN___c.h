@@ -4,18 +4,18 @@
 class POACIACEJJN;
 namespace System { class Object; }
 
-#define POACIACEJJN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF95280)
-#define POACIACEJJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF952C0)
-#define POACIACEJJN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF952D0)
+#define POACIACEJJN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCB8F10)
+#define POACIACEJJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCB8F50)
+#define POACIACEJJN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FCB8F60)
 
-inline static constexpr unsigned int POACIACEJJN___c_TypeDefinitionIndex = 27568;
+inline static constexpr unsigned int POACIACEJJN___c_TypeDefinitionIndex = 28099;
 
 	class POACIACEJJN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43570);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EBD0);
 		}
 
 		static ::System::Void _cctor()

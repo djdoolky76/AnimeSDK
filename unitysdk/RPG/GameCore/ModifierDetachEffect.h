@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ModifierDetachEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERDETACHEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D860610)
-#define RPG_GAMECORE_MODIFIERDETACHEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D860620)
-#define RPG_GAMECORE_MODIFIERDETACHEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8605D0)
+#define RPG_GAMECORE_MODIFIERDETACHEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F2B80)
+#define RPG_GAMECORE_MODIFIERDETACHEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6F2B90)
+#define RPG_GAMECORE_MODIFIERDETACHEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6F2B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierDetachEffect_TypeDefinitionIndex = 23467;
+	inline static constexpr unsigned int ModifierDetachEffect_TypeDefinitionIndex = 23913;
 
 	class ModifierDetachEffect : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft
 {
-	inline static constexpr unsigned int MechCraftChipTraitType_TypeDefinitionIndex = 41647;
+	inline static constexpr unsigned int MechCraftChipTraitType_TypeDefinitionIndex = 42622;
 
 	enum class MechCraftChipTraitType : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 namespace IRIClusterBuilder { class IRIClusterBuildConfig; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARIRI_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6AE00)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARIRI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFE420)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarIRI_TypeDefinitionIndex = 82235;
+	inline static constexpr unsigned int MonoCityCarIRI_TypeDefinitionIndex = 85108;
 
 	class MonoCityCarIRI : public ::UnityEngine::MonoBehaviour
 	{

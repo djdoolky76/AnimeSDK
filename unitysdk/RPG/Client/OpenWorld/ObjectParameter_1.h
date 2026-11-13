@@ -5,7 +5,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int ObjectParameter_1_TypeDefinitionIndex = 74029;
+	inline static constexpr unsigned int ObjectParameter_1_TypeDefinitionIndex = 76165;
 
 	template <typename T>
 	class ObjectParameter_1

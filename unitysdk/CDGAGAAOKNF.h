@@ -4,10 +4,10 @@
 namespace RPG::Client { class MusicRhythmLevel; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CDGAGAAOKNF_CTOR_OFFSET UNITYSDK_OFFSET(0xC7642B0)
-#define CDGAGAAOKNF_KLNGAANDOIM_OFFSET UNITYSDK_OFFSET(0xC763E00)
+#define CDGAGAAOKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x173AEDF0)
+#define CDGAGAAOKNF_KLNGAANDOIM_OFFSET UNITYSDK_OFFSET(0x173AE940)
 
-inline static constexpr unsigned int CDGAGAAOKNF_TypeDefinitionIndex = 61808;
+inline static constexpr unsigned int CDGAGAAOKNF_TypeDefinitionIndex = 63214;
 
 	class CDGAGAAOKNF : public ::System::Object
 	{

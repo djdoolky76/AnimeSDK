@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ModifierValueBindData; }
 
-#define RPG_GAMECORE_MODIFIERVALUEBINDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D862070)
-#define RPG_GAMECORE_MODIFIERVALUEBINDDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D861F20)
+#define RPG_GAMECORE_MODIFIERVALUEBINDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F4590)
+#define RPG_GAMECORE_MODIFIERVALUEBINDDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6F4440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierValueBindData_TypeDefinitionIndex = 18232;
+	inline static constexpr unsigned int ModifierValueBindData_TypeDefinitionIndex = 18394;
 
 	class ModifierValueBindData : public ::RPG::GameCore::JsonConfig
 	{

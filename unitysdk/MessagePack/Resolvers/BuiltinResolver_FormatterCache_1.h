@@ -5,7 +5,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int BuiltinResolver_FormatterCache_1_TypeDefinitionIndex = 7253;
+	inline static constexpr unsigned int BuiltinResolver_FormatterCache_1_TypeDefinitionIndex = 7264;
 
 	template <typename T>
 	class BuiltinResolver_FormatterCache_1 : public ::System::Object

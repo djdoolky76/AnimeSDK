@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapCreator; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ODPCMGIOMEE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDEAFF0)
-#define ODPCMGIOMEE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBDEB010)
+#define ODPCMGIOMEE_CTOR_OFFSET UNITYSDK_OFFSET(0x17616CA0)
+#define ODPCMGIOMEE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x17616CC0)
 
-inline static constexpr unsigned int ODPCMGIOMEE_TypeDefinitionIndex = 59247;
+inline static constexpr unsigned int ODPCMGIOMEE_TypeDefinitionIndex = 60524;
 
 	class ODPCMGIOMEE
 	{

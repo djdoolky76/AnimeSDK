@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchMascotSetPickupCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJDLGGEGFHM_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FC140)
-#define JJDLGGEGFHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1FC170)
+#define JJDLGGEGFHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1742ABC0)
+#define JJDLGGEGFHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1742ABF0)
 
-inline static constexpr unsigned int JJDLGGEGFHM_TypeDefinitionIndex = 58750;
+inline static constexpr unsigned int JJDLGGEGFHM_TypeDefinitionIndex = 60018;
 
 	class JJDLGGEGFHM
 	{

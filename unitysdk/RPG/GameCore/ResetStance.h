@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ResetStance; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RESETSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95E020)
-#define RPG_GAMECORE_RESETSTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95E030)
-#define RPG_GAMECORE_RESETSTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95DFE0)
+#define RPG_GAMECORE_RESETSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x20722680)
+#define RPG_GAMECORE_RESETSTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x20722690)
+#define RPG_GAMECORE_RESETSTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20722640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetStance_TypeDefinitionIndex = 22628;
+	inline static constexpr unsigned int ResetStance_TypeDefinitionIndex = 23050;
 
 	class ResetStance : public ::RPG::GameCore::TaskConfig
 	{

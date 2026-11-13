@@ -7,12 +7,12 @@
 namespace System { class Object; }
 namespace System::Collections { class IEnumerable; }
 
-#define ZLINQ_VALUEENUMERABLE_ASVALUEENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1F664860)
-#define ZLINQ_VALUEENUMERABLE_RANGE_OFFSET UNITYSDK_OFFSET(0x1F6648D0)
+#define ZLINQ_VALUEENUMERABLE_ASVALUEENUMERABLE_OFFSET UNITYSDK_OFFSET(0x2096E0A0)
+#define ZLINQ_VALUEENUMERABLE_RANGE_OFFSET UNITYSDK_OFFSET(0x2096E110)
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerable_TypeDefinitionIndex = 6091;
+	inline static constexpr unsigned int ValueEnumerable_TypeDefinitionIndex = 6099;
 
 	class ValueEnumerable : public ::System::Object
 	{

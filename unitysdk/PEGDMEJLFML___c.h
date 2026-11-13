@@ -4,18 +4,18 @@
 class PEGDMEJLFML;
 namespace System { class Object; }
 
-#define PEGDMEJLFML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEEBFC0)
-#define PEGDMEJLFML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEC000)
-#define PEGDMEJLFML___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DEEC010)
+#define PEGDMEJLFML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2066C590)
+#define PEGDMEJLFML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2066C5D0)
+#define PEGDMEJLFML___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2066C5E0)
 
-inline static constexpr unsigned int PEGDMEJLFML___c_TypeDefinitionIndex = 29092;
+inline static constexpr unsigned int PEGDMEJLFML___c_TypeDefinitionIndex = 29682;
 
 	class PEGDMEJLFML___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30CE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33570);
 		}
 
 		static ::System::Void _cctor()

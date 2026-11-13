@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define PMPPMLIGJIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C8C70)
+#define PMPPMLIGJIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0AA430)
 
-inline static constexpr unsigned int PMPPMLIGJIG_TypeDefinitionIndex = 37056;
+inline static constexpr unsigned int PMPPMLIGJIG_TypeDefinitionIndex = 37984;
 
 	class PMPPMLIGJIG : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

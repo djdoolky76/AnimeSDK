@@ -3,7 +3,7 @@
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IDebugPanelService_TypeDefinitionIndex = 38059;
+	inline static constexpr unsigned int IDebugPanelService_TypeDefinitionIndex = 38988;
 
 	class IDebugPanelService
 	{

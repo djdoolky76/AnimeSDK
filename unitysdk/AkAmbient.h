@@ -11,17 +11,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define AKAMBIENT_BUILDAKPOSITIONARRAY_OFFSET UNITYSDK_OFFSET(0x1F543450)
-#define AKAMBIENT_BUILDMULTIDIRECTIONARRAY_OFFSET UNITYSDK_OFFSET(0x1F542BF0)
-#define AKAMBIENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F544620)
-#define AKAMBIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F544560)
-#define AKAMBIENT_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1F543B40)
-#define AKAMBIENT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F5438A0)
-#define AKAMBIENT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1F544050)
-#define AKAMBIENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F542780)
-#define AKAMBIENT_START_OFFSET UNITYSDK_OFFSET(0x1F543190)
+#define AKAMBIENT_BUILDAKPOSITIONARRAY_OFFSET UNITYSDK_OFFSET(0x1EEF1DE0)
+#define AKAMBIENT_BUILDMULTIDIRECTIONARRAY_OFFSET UNITYSDK_OFFSET(0x1EEF1580)
+#define AKAMBIENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEF2FB0)
+#define AKAMBIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF2EF0)
+#define AKAMBIENT_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1EEF24D0)
+#define AKAMBIENT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EEF2230)
+#define AKAMBIENT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1EEF29E0)
+#define AKAMBIENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EEF1110)
+#define AKAMBIENT_START_OFFSET UNITYSDK_OFFSET(0x1EEF1B20)
 
-inline static constexpr unsigned int AkAmbient_TypeDefinitionIndex = 44909;
+inline static constexpr unsigned int AkAmbient_TypeDefinitionIndex = 45984;
 
 	class AkAmbient : public ::AkEvent
 	{
@@ -32,7 +32,7 @@ inline static constexpr unsigned int AkAmbient_TypeDefinitionIndex = 44909;
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* multiPositionArray; // 0xA0
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AkMultiPosEvent*>** StaticGet_multiPosEventTree()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AkMultiPosEvent*>**)UnitySDK::FromName("", "AkAmbient")->GetStaticField(0x1830);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AkMultiPosEvent*>**)UnitySDK::FromName("", "AkAmbient")->GetStaticField(0x70810);
 		}
 
 		::System::Void _ctor()

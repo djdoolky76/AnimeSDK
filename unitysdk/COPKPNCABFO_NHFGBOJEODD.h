@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int COPKPNCABFO_NHFGBOJEODD_TypeDefinitionIndex = 51760;
+inline static constexpr unsigned int COPKPNCABFO_NHFGBOJEODD_TypeDefinitionIndex = 52846;
 
 	struct alignas(4) COPKPNCABFO_NHFGBOJEODD
 	{

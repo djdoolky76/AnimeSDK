@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceRollingSubtitlesFullScreenEffectParam; }
 
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESFULLSCREENEFFECTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D5440)
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESFULLSCREENEFFECTPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D5280)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESFULLSCREENEFFECTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F157370)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESFULLSCREENEFFECTPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F1571B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceRollingSubtitlesFullScreenEffectParam_TypeDefinitionIndex = 24409;
+	inline static constexpr unsigned int PerformanceRollingSubtitlesFullScreenEffectParam_TypeDefinitionIndex = 24868;
 
 	class PerformanceRollingSubtitlesFullScreenEffectParam : public ::RPG::GameCore::JsonConfig
 	{

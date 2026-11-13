@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define AHCHAMJFLEF_CTOR_OFFSET UNITYSDK_OFFSET(0xEB755B0)
-#define AHCHAMJFLEF_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xEB75530)
+#define AHCHAMJFLEF_CTOR_OFFSET UNITYSDK_OFFSET(0x19B1A700)
+#define AHCHAMJFLEF_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0x19B1A680)
 
-inline static constexpr unsigned int AHCHAMJFLEF_TypeDefinitionIndex = 73394;
+inline static constexpr unsigned int AHCHAMJFLEF_TypeDefinitionIndex = 75514;
 
 	class AHCHAMJFLEF : public ::System::Object
 	{

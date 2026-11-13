@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMissionAudioState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AGLMAHIDEOB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF389B0)
-#define AGLMAHIDEOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF389E0)
+#define AGLMAHIDEOB_CTOR_OFFSET UNITYSDK_OFFSET(0x19B0F6D0)
+#define AGLMAHIDEOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19B0F700)
 
-inline static constexpr unsigned int AGLMAHIDEOB_TypeDefinitionIndex = 58558;
+inline static constexpr unsigned int AGLMAHIDEOB_TypeDefinitionIndex = 59823;
 
 	class AGLMAHIDEOB
 	{

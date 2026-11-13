@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_AVATAREFFECTRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6CAE50)
-#define RPG_CLIENT_AVATAREFFECTRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC6CAE90)
-#define RPG_CLIENT_AVATAREFFECTRENDERER___C__GET_MATERIALS_B__3_0_OFFSET UNITYSDK_OFFSET(0xC6CAEA0)
+#define RPG_CLIENT_AVATAREFFECTRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4A5300)
+#define RPG_CLIENT_AVATAREFFECTRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A5340)
+#define RPG_CLIENT_AVATAREFFECTRENDERER___C__GET_MATERIALS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A4A5350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEffectRenderer___c_TypeDefinitionIndex = 70246;
+	inline static constexpr unsigned int AvatarEffectRenderer___c_TypeDefinitionIndex = 72212;
 
 	class AvatarEffectRenderer___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::UnityEngine::Material*>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::System::Object*, ::UnityEngine::Material*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4C220);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4C228);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C930);
+		}
+
+		static ::System::Func_2<::System::Object*, ::UnityEngine::Material*>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::System::Object*, ::UnityEngine::Material*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C938);
 		}
 
 		static ::System::Void _cctor()

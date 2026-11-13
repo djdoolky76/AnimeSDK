@@ -5,17 +5,17 @@ class BMIKHDAIIMO;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace UnityEngine { class GameObject; }
 
-#define BMIKHDAIIMO___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB2D30)
-#define BMIKHDAIIMO___C__DISPLAYCLASS39_0___INITINSTOBJ_B__0_OFFSET UNITYSDK_OFFSET(0xBDB88F0)
+#define BMIKHDAIIMO___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A74F5D0)
+#define BMIKHDAIIMO___C__DISPLAYCLASS39_0___INITINSTOBJ_B__0_OFFSET UNITYSDK_OFFSET(0x1A74F5E0)
 
-inline static constexpr unsigned int BMIKHDAIIMO___c__DisplayClass39_0_TypeDefinitionIndex = 73878;
+inline static constexpr unsigned int BMIKHDAIIMO___c__DisplayClass39_0_TypeDefinitionIndex = 76004;
 
 	class BMIKHDAIIMO___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* instObject; // 0x10
+		::RPG::Client::OpenWorld::StreamingItemData* renderItem; // 0x10
 		::BMIKHDAIIMO* __4__this; // 0x18
-		::RPG::Client::OpenWorld::StreamingItemData* renderItem; // 0x20
+		::UnityEngine::GameObject* instObject; // 0x20
 		::System::Boolean isLoadedBySync; // 0x28
 		::System::Void _ctor()
 		{

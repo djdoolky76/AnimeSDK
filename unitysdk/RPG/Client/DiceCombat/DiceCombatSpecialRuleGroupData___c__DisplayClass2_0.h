@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::DiceCombat { class DiceCombatSpecialRuleData; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC2F730)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__PINSPECIALRULEBYID_B__0_OFFSET UNITYSDK_OFFSET(0xCC2F810)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB807D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__PINSPECIALRULEBYID_B__0_OFFSET UNITYSDK_OFFSET(0x1CB808B0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatSpecialRuleGroupData___c__DisplayClass2_0_TypeDefinitionIndex = 76088;
+	inline static constexpr unsigned int DiceCombatSpecialRuleGroupData___c__DisplayClass2_0_TypeDefinitionIndex = 78415;
 
 	class DiceCombatSpecialRuleGroupData___c__DisplayClass2_0 : public ::System::Object
 	{

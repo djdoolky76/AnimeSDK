@@ -4,7 +4,7 @@ namespace Cysharp::Threading::Tasks::Internal { template <typename T> class Arra
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ArrayPoolUtil_RentArray_1_TypeDefinitionIndex = 38654;
+	inline static constexpr unsigned int ArrayPoolUtil_RentArray_1_TypeDefinitionIndex = 39583;
 
 	template <typename T>
 	struct alignas(8) ArrayPoolUtil_RentArray_1

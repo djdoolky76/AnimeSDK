@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetAbilityStartTimeStamp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMJLINJJKDD_CTOR_OFFSET UNITYSDK_OFFSET(0x15578200)
-#define AMJLINJJKDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15578230)
+#define AMJLINJJKDD_CTOR_OFFSET UNITYSDK_OFFSET(0x197DDE60)
+#define AMJLINJJKDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197DDE90)
 
-inline static constexpr unsigned int AMJLINJJKDD_TypeDefinitionIndex = 58848;
+inline static constexpr unsigned int AMJLINJJKDD_TypeDefinitionIndex = 60120;
 
 	class AMJLINJJKDD
 	{

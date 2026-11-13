@@ -5,16 +5,16 @@
 class BGCFHJFJGBI;
 namespace RPG::Client { class IRogueMiracleInfo; }
 
-#define DOLNICOMJJM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FEAFC0)
-#define DOLNICOMJJM_JCEPADMLFPN_OFFSET UNITYSDK_OFFSET(0x11FEAFD0)
+#define DOLNICOMJJM_CTOR_OFFSET UNITYSDK_OFFSET(0x191AEAD0)
+#define DOLNICOMJJM_JCEPADMLFPN_OFFSET UNITYSDK_OFFSET(0x191AEAE0)
 
-inline static constexpr unsigned int DOLNICOMJJM_TypeDefinitionIndex = 67091;
+inline static constexpr unsigned int DOLNICOMJJM_TypeDefinitionIndex = 69035;
 
 	class DOLNICOMJJM : public ::EBIMENNAEIE
 	{
 	public:
-		::BGCFHJFJGBI* EOGBDMMODCM; // 0x20
-		::RPG::Client::IRogueMiracleInfo* CEMHIBCKNHF; // 0x28
+		::RPG::Client::IRogueMiracleInfo* CEMHIBCKNHF; // 0x20
+		::BGCFHJFJGBI* EOGBDMMODCM; // 0x28
 		::System::Void _ctor(::NHHMEPILLHL a1, ::RPG::Client::IRogueMiracleInfo* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::NHHMEPILLHL, ::RPG::Client::IRogueMiracleInfo*))((::PBYTE)hIl2Cpp + DOLNICOMJJM_CTOR_OFFSET))(this, a1, a2);

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MatchThreeGameOpponent; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS58_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD591D40)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS58_0__CHANGEENEMY_B__0_OFFSET UNITYSDK_OFFSET(0xD591D50)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS58_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CDAC0)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS58_0__CHANGEENEMY_B__0_OFFSET UNITYSDK_OFFSET(0x1D8D3B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass58_0_TypeDefinitionIndex = 65944;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass58_0_TypeDefinitionIndex = 67876;
 
 	class MatchThreeGame___c__DisplayClass58_0 : public ::System::Object
 	{

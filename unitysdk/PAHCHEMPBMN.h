@@ -3,10 +3,10 @@
 class HPCOJDJAHOG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PAHCHEMPBMN_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC2680)
-#define PAHCHEMPBMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFC26B0)
+#define PAHCHEMPBMN_CTOR_OFFSET UNITYSDK_OFFSET(0x18ADA140)
+#define PAHCHEMPBMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18ADA170)
 
-inline static constexpr unsigned int PAHCHEMPBMN_TypeDefinitionIndex = 53886;
+inline static constexpr unsigned int PAHCHEMPBMN_TypeDefinitionIndex = 55050;
 
 	class PAHCHEMPBMN
 	{

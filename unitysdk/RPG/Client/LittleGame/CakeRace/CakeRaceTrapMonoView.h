@@ -5,11 +5,11 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACETRAPMONOVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD3FD550)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACETRAPMONOVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE21D0)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceTrapMonoView_TypeDefinitionIndex = 78158;
+	inline static constexpr unsigned int CakeRaceTrapMonoView_TypeDefinitionIndex = 80893;
 
 	class CakeRaceTrapMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceCellMonoView
 	{

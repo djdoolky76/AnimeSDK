@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProfiler_SampleType_TypeDefinitionIndex = 73178;
+	inline static constexpr unsigned int UIProfiler_SampleType_TypeDefinitionIndex = 75292;
 
 	enum class UIProfiler_SampleType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageExportGlobalData; }
 
-#define RPG_GAMECORE_STAGEEXPORTGLOBALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADFA90)
-#define RPG_GAMECORE_STAGEEXPORTGLOBALDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DADFA50)
+#define RPG_GAMECORE_STAGEEXPORTGLOBALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B2FF0)
+#define RPG_GAMECORE_STAGEEXPORTGLOBALDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B2FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageExportGlobalData_TypeDefinitionIndex = 19143;
+	inline static constexpr unsigned int StageExportGlobalData_TypeDefinitionIndex = 19333;
 
 	class StageExportGlobalData : public ::RPG::GameCore::JsonConfig
 	{

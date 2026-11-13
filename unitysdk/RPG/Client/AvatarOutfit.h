@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/RPG/GameCore/GenderType.h"
 #include "unitysdk/RPG/GameCore/PlayerOutfitSlotType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/AvatarOutfit_PlayerOutfitSlotTypeFlags.h"
 class CJLCPMDGIBO;
 class FJEOAPBLMKG;
+namespace RPG::AvatarSystem { class AvatarPath; }
 namespace RPG::Client { class AvatarOutfit; }
 namespace RPG::Client { class AvatarOutfitUnit; }
 namespace RPG::Client { class AvatarOutfit_IServerAgent; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATAROUTFIT_CHECKISDRESSED_OFFSET UNITYSDK_OFFSET(0xC6FA420)
-#define RPG_CLIENT_AVATAROUTFIT_CREATE_OFFSET UNITYSDK_OFFSET(0xC6FA3A0)
-#define RPG_CLIENT_AVATAROUTFIT_CTOR_OFFSET UNITYSDK_OFFSET(0xC6FA410)
-#define RPG_CLIENT_AVATAROUTFIT_FILLDRESSEDIDSTO_OFFSET UNITYSDK_OFFSET(0xC6FA4C0)
-#define RPG_CLIENT_AVATAROUTFIT_GETMODELSBYTARGETSLOTS_OFFSET UNITYSDK_OFFSET(0xC6FB020)
-#define RPG_CLIENT_AVATAROUTFIT_GETMODELS_1_OFFSET UNITYSDK_OFFSET(0xC6FA5E0)
-#define RPG_CLIENT_AVATAROUTFIT_GETMODELS_OFFSET UNITYSDK_OFFSET(0xC6FA580)
-#define RPG_CLIENT_AVATAROUTFIT_GETSERVERDATA_OFFSET UNITYSDK_OFFSET(0xC6FBCD0)
-#define RPG_CLIENT_AVATAROUTFIT_ISSAME_OFFSET UNITYSDK_OFFSET(0xC6FBD20)
-#define RPG_CLIENT_AVATAROUTFIT_SETDRESSEDIDS_OFFSET UNITYSDK_OFFSET(0xC6FA520)
-#define RPG_CLIENT_AVATAROUTFIT__FILLUNITSTO_OFFSET UNITYSDK_OFFSET(0xC6FB610)
+#define RPG_CLIENT_AVATAROUTFIT_CHECKISDRESSED_OFFSET UNITYSDK_OFFSET(0x1A4D8C60)
+#define RPG_CLIENT_AVATAROUTFIT_CREATE_OFFSET UNITYSDK_OFFSET(0x1A4D8BE0)
+#define RPG_CLIENT_AVATAROUTFIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4D8C50)
+#define RPG_CLIENT_AVATAROUTFIT_FILLDRESSEDIDSTO_OFFSET UNITYSDK_OFFSET(0x1A4D8D00)
+#define RPG_CLIENT_AVATAROUTFIT_GETMODELSBYTARGETSLOTS_OFFSET UNITYSDK_OFFSET(0x1A4D9860)
+#define RPG_CLIENT_AVATAROUTFIT_GETMODELS_1_OFFSET UNITYSDK_OFFSET(0x1A4D8E20)
+#define RPG_CLIENT_AVATAROUTFIT_GETMODELS_OFFSET UNITYSDK_OFFSET(0x1A4D8DC0)
+#define RPG_CLIENT_AVATAROUTFIT_GETSERVERDATA_OFFSET UNITYSDK_OFFSET(0x1A4DA510)
+#define RPG_CLIENT_AVATAROUTFIT_ISSAME_OFFSET UNITYSDK_OFFSET(0x1A4B63B0)
+#define RPG_CLIENT_AVATAROUTFIT_SETDRESSEDIDS_OFFSET UNITYSDK_OFFSET(0x1A4D8D60)
+#define RPG_CLIENT_AVATAROUTFIT__FILLUNITSTO_OFFSET UNITYSDK_OFFSET(0x1A4D9E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarOutfit_TypeDefinitionIndex = 62495;
+	inline static constexpr unsigned int AvatarOutfit_TypeDefinitionIndex = 63908;
 
 	class AvatarOutfit : public ::System::Object
 	{
@@ -58,19 +58,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_SETDRESSEDIDS_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::FJEOAPBLMKG*>* GetModels(::RPG::GameCore::GenderType a1, ::RPG::GameCore::AvatarBaseType a2)
+		::System::Collections::Generic::List_1<::FJEOAPBLMKG*>* GetModels(::RPG::GameCore::GenderType a1, ::RPG::AvatarSystem::AvatarPath* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::FJEOAPBLMKG*>*(*)(::PVOID, ::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_GETMODELS_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::List_1<::FJEOAPBLMKG*>*(*)(::PVOID, ::RPG::GameCore::GenderType, ::RPG::AvatarSystem::AvatarPath*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_GETMODELS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::FJEOAPBLMKG*>* GetModels_1(::RPG::GameCore::GenderType a1, ::RPG::GameCore::AvatarBaseType a2, ::RPG::Client::AvatarOutfitUnit* a3)
+		::System::Collections::Generic::List_1<::FJEOAPBLMKG*>* GetModels_1(::RPG::GameCore::GenderType a1, ::RPG::AvatarSystem::AvatarPath* a2, ::RPG::Client::AvatarOutfitUnit* a3)
 		{
-			return ((::System::Collections::Generic::List_1<::FJEOAPBLMKG*>*(*)(::PVOID, ::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_GETMODELS_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::Generic::List_1<::FJEOAPBLMKG*>*(*)(::PVOID, ::RPG::GameCore::GenderType, ::RPG::AvatarSystem::AvatarPath*, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_GETMODELS_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::FJEOAPBLMKG*>* GetModelsByTargetSlots(::RPG::GameCore::GenderType a1, ::RPG::GameCore::AvatarBaseType a2, ::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags a3)
+		::System::Collections::Generic::List_1<::FJEOAPBLMKG*>* GetModelsByTargetSlots(::RPG::GameCore::GenderType a1, ::RPG::AvatarSystem::AvatarPath* a2, ::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags a3)
 		{
-			return ((::System::Collections::Generic::List_1<::FJEOAPBLMKG*>*(*)(::PVOID, ::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType, ::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_GETMODELSBYTARGETSLOTS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::Generic::List_1<::FJEOAPBLMKG*>*(*)(::PVOID, ::RPG::GameCore::GenderType, ::RPG::AvatarSystem::AvatarPath*, ::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_GETMODELSBYTARGETSLOTS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::CJLCPMDGIBO* GetServerData()

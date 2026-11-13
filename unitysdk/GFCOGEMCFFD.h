@@ -7,18 +7,18 @@ class OONGDLIDJJJ;
 namespace RPG::GameCore { class CheckPredicateAxis; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GFCOGEMCFFD_CTOR_OFFSET UNITYSDK_OFFSET(0x159DED90)
-#define GFCOGEMCFFD_FBKGBOAJPHF_OFFSET UNITYSDK_OFFSET(0x159DEDA0)
-#define GFCOGEMCFFD_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x159DEFC0)
+#define GFCOGEMCFFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B486E00)
+#define GFCOGEMCFFD_FBKGBOAJPHF_OFFSET UNITYSDK_OFFSET(0x1B486E10)
+#define GFCOGEMCFFD_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x1B487030)
 
-inline static constexpr unsigned int GFCOGEMCFFD_TypeDefinitionIndex = 54368;
+inline static constexpr unsigned int GFCOGEMCFFD_TypeDefinitionIndex = 55532;
 
 	class GFCOGEMCFFD : public ::BEMKNPIFMBI
 	{
 	public:
 		::GELIALJDFBL* LLHKOFLJFCH; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::CheckPredicateAxis* IGHAHBNLIJA; // 0x28
+		::RPG::GameCore::CheckPredicateAxis* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::CheckPredicateAxis* a1, ::OONGDLIDJJJ* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CheckPredicateAxis*, ::OONGDLIDJJJ*))((::PBYTE)hIl2Cpp + GFCOGEMCFFD_CTOR_OFFSET))(this, a1, a2);

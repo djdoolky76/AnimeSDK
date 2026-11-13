@@ -4,7 +4,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int DisposableEnumeratorAdapter_2_TypeDefinitionIndex = 6589;
+	inline static constexpr unsigned int DisposableEnumeratorAdapter_2_TypeDefinitionIndex = 6600;
 
 	template <typename T1, typename T2>
 	struct alignas(8) DisposableEnumeratorAdapter_2

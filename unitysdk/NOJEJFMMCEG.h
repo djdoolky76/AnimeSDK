@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixVec2.h"
 
-#define NOJEJFMMCEG_AKEJHIHBIDL_OFFSET UNITYSDK_OFFSET(0x22150)
+#define NOJEJFMMCEG_AKEJHIHBIDL_OFFSET UNITYSDK_OFFSET(0x3E4DC70)
 
-inline static constexpr unsigned int NOJEJFMMCEG_TypeDefinitionIndex = 53679;
+inline static constexpr unsigned int NOJEJFMMCEG_TypeDefinitionIndex = 54843;
 
 	struct alignas(4) NOJEJFMMCEG
 	{

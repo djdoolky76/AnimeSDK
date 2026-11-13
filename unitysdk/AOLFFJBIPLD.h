@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AOLFFJBIPLD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C877930)
-#define AOLFFJBIPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877980)
+#define AOLFFJBIPLD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D87B1E0)
+#define AOLFFJBIPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87B230)
 
-inline static constexpr unsigned int AOLFFJBIPLD_TypeDefinitionIndex = 42115;
+inline static constexpr unsigned int AOLFFJBIPLD_TypeDefinitionIndex = 43090;
 
 	class AOLFFJBIPLD : public ::System::Object
 	{

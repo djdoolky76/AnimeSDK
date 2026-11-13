@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int GEDKNEFIADK_TypeDefinitionIndex = 53544;
+inline static constexpr unsigned int GEDKNEFIADK_TypeDefinitionIndex = 54707;
 
 	struct alignas(4) GEDKNEFIADK
 	{

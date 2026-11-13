@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CaptureCurrentInteractDialogueEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJCEAHENOKP_CTOR_OFFSET UNITYSDK_OFFSET(0xB791E50)
-#define BJCEAHENOKP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB791E60)
-#define BJCEAHENOKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB791F10)
-#define BJCEAHENOKP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7921E0)
-#define BJCEAHENOKP_TICK_OFFSET UNITYSDK_OFFSET(0xB791EB0)
+#define BJCEAHENOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD5250)
+#define BJCEAHENOKP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BAD5260)
+#define BJCEAHENOKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BAD5310)
+#define BJCEAHENOKP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BAD55D0)
+#define BJCEAHENOKP_TICK_OFFSET UNITYSDK_OFFSET(0x1BAD52B0)
 
-inline static constexpr unsigned int BJCEAHENOKP_TypeDefinitionIndex = 52632;
+inline static constexpr unsigned int BJCEAHENOKP_TypeDefinitionIndex = 53739;
 
 	class BJCEAHENOKP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CaptureCurrentInteractDialogueEntity* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::CaptureCurrentInteractDialogueEntity* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CaptureCurrentInteractDialogueEntity* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CaptureCurrentInteractDialogueEntity*))((::PBYTE)hIl2Cpp + BJCEAHENOKP_CTOR_OFFSET))(this, a1, a2);

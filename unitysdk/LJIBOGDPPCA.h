@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class LJIBOGDPPCA;
 namespace System { class String; }
 
-#define LJIBOGDPPCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D3B40)
-#define LJIBOGDPPCA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0D39D0)
+#define LJIBOGDPPCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3FA050)
+#define LJIBOGDPPCA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3F9EE0)
 
-inline static constexpr unsigned int LJIBOGDPPCA_TypeDefinitionIndex = 12010;
+inline static constexpr unsigned int LJIBOGDPPCA_TypeDefinitionIndex = 12067;
 
 	class LJIBOGDPPCA : public ::System::Object
 	{

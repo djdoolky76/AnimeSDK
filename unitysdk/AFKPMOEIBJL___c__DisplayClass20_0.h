@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define AFKPMOEIBJL___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C852020)
-#define AFKPMOEIBJL___C__DISPLAYCLASS20_0___PICKPIECEFROMLIBRARY_B__0_OFFSET UNITYSDK_OFFSET(0x1C852DA0)
+#define AFKPMOEIBJL___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D856380)
+#define AFKPMOEIBJL___C__DISPLAYCLASS20_0___PICKPIECEFROMLIBRARY_B__0_OFFSET UNITYSDK_OFFSET(0x1D857100)
 
-inline static constexpr unsigned int AFKPMOEIBJL___c__DisplayClass20_0_TypeDefinitionIndex = 42304;
+inline static constexpr unsigned int AFKPMOEIBJL___c__DisplayClass20_0_TypeDefinitionIndex = 43279;
 
 	class AFKPMOEIBJL___c__DisplayClass20_0 : public ::System::Object
 	{

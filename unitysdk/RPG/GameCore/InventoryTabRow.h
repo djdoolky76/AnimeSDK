@@ -11,29 +11,29 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class InventoryTabRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INVENTORYTABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D75F6F0)
-#define RPG_GAMECORE_INVENTORYTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D75EE50)
+#define RPG_GAMECORE_INVENTORYTABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE98590)
+#define RPG_GAMECORE_INVENTORYTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE97CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InventoryTabRow_TypeDefinitionIndex = 13833;
+	inline static constexpr unsigned int InventoryTabRow_TypeDefinitionIndex = 13990;
 
 	class InventoryTabRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ConditionParam* UnlockCondition; // 0x10
-		::Il2CppArray<::RPG::GameCore::InventorySortType>* ItemSortTypeList; // 0x18
-		::Il2CppArray<::RPG::GameCore::ItemSubType>* DisplayItemSubType; // 0x20
+		::Il2CppArray<::RPG::GameCore::InventorySortType>* ItemSortTypeList; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemSubType>* DisplayItemSubType; // 0x18
+		::RPG::GameCore::ConditionParam* UnlockCondition; // 0x20
 		::System::String* IconImagePath; // 0x28
-		::RPG::GameCore::ItemSellType SellType; // 0x30
-		::System::UInt32 TabSortWeight; // 0x34
-		::System::UInt32 InventoryDisplayTag; // 0x38
-		::RPG::GameCore::InventoryType DisplayInventoryType; // 0x3C
-		::System::UInt32 DisplayCapacityLimit; // 0x40
-		::System::UInt32 ID; // 0x44
-		::System::Boolean NotDisplayPileLimit; // 0x48
-		::System::Byte _padding0[0x7];
-		::RPG::Client::TextID TabName; // 0x50
+		::System::UInt32 DisplayCapacityLimit; // 0x30
+		::System::UInt32 InventoryDisplayTag; // 0x34
+		::System::Boolean NotDisplayPileLimit; // 0x38
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::ItemSellType SellType; // 0x3C
+		::RPG::Client::TextID TabName; // 0x40
+		::RPG::GameCore::InventoryType DisplayInventoryType; // 0x50
+		::System::UInt32 ID; // 0x54
+		::System::UInt32 TabSortWeight; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INVENTORYTABROW_CTOR_OFFSET))(this);

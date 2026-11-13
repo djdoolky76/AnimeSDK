@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BaseItemState_TypeDefinitionIndex = 78632;
+	inline static constexpr unsigned int BaseItemState_TypeDefinitionIndex = 81367;
 
 	enum class BaseItemState : ::System::Int32
 	{

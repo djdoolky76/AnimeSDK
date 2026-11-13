@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonoEffectLodDetail; }
 
-#define RPG_GAMECORE_MONOEFFECTLODDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86E3C0)
-#define RPG_GAMECORE_MONOEFFECTLODDETAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86E1F0)
+#define RPG_GAMECORE_MONOEFFECTLODDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E700910)
+#define RPG_GAMECORE_MONOEFFECTLODDETAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7007D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonoEffectLodDetail_TypeDefinitionIndex = 19105;
+	inline static constexpr unsigned int MonoEffectLodDetail_TypeDefinitionIndex = 19292;
 
 	class MonoEffectLodDetail : public ::RPG::GameCore::JsonConfig
 	{

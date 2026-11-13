@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define ICOHAPENNHF_TRIANGLE_CTOR_OFFSET UNITYSDK_OFFSET(0xB310)
+#define ICOHAPENNHF_TRIANGLE_CTOR_OFFSET UNITYSDK_OFFSET(0x658940)
 
-inline static constexpr unsigned int ICOHAPENNHF_Triangle_TypeDefinitionIndex = 69328;
+inline static constexpr unsigned int ICOHAPENNHF_Triangle_TypeDefinitionIndex = 71282;
 
 	struct alignas(4) ICOHAPENNHF_Triangle
 	{

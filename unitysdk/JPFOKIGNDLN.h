@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetFloorCustomBool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPFOKIGNDLN_CTOR_OFFSET UNITYSDK_OFFSET(0xB2B66E0)
-#define JPFOKIGNDLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2B6710)
+#define JPFOKIGNDLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F8820)
+#define JPFOKIGNDLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4F8850)
 
-inline static constexpr unsigned int JPFOKIGNDLN_TypeDefinitionIndex = 53230;
+inline static constexpr unsigned int JPFOKIGNDLN_TypeDefinitionIndex = 54392;
 
 	class JPFOKIGNDLN
 	{

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NFCPFHFKBEH_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1D4530)
-#define NFCPFHFKBEH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1D4AB0)
-#define NFCPFHFKBEH_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1D46A0)
-#define NFCPFHFKBEH_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1D3FE0)
-#define NFCPFHFKBEH_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1D4270)
-#define NFCPFHFKBEH_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1D4740)
-#define NFCPFHFKBEH_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1D4790)
-#define NFCPFHFKBEH_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1D4570)
-#define NFCPFHFKBEH_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1D4210)
-#define NFCPFHFKBEH_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1D43A0)
-#define NFCPFHFKBEH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1D4600)
-#define NFCPFHFKBEH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1D3F60)
+#define NFCPFHFKBEH_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E8A7E50)
+#define NFCPFHFKBEH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8A83D0)
+#define NFCPFHFKBEH_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E8A7FC0)
+#define NFCPFHFKBEH_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E8A7900)
+#define NFCPFHFKBEH_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E8A7B90)
+#define NFCPFHFKBEH_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E8A8060)
+#define NFCPFHFKBEH_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E8A80B0)
+#define NFCPFHFKBEH_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E8A7E90)
+#define NFCPFHFKBEH_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E8A7B30)
+#define NFCPFHFKBEH_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E8A7CC0)
+#define NFCPFHFKBEH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E8A7F20)
+#define NFCPFHFKBEH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E8A7880)
 
-inline static constexpr unsigned int NFCPFHFKBEH_TypeDefinitionIndex = 12501;
+inline static constexpr unsigned int NFCPFHFKBEH_TypeDefinitionIndex = 12568;
 
 	class NFCPFHFKBEH : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTelevisionStageRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTelevisionStageRow*>**)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0x3F870);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0x3F878);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0x4F430);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTelevisionStageRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTelevisionStageRow*>**)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0x4F438);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0x3F880);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0x4F440);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0xF060);
+			return (::System::Boolean*)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0x115B0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0xF061);
+			return (::System::Byte*)UnitySDK::FromName("", "NFCPFHFKBEH")->GetStaticField(0x115B1);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 
-#define RPG_CLIENT_MONOSWORDTRAININGANIMATIONINDEXER_CTOR_OFFSET UNITYSDK_OFFSET(0xD85F360)
-#define RPG_CLIENT_MONOSWORDTRAININGANIMATIONINDEXER_GETANIMATIONNAMEBYINDEX_OFFSET UNITYSDK_OFFSET(0xD85F2B0)
+#define RPG_CLIENT_MONOSWORDTRAININGANIMATIONINDEXER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D27F660)
+#define RPG_CLIENT_MONOSWORDTRAININGANIMATIONINDEXER_GETANIMATIONNAMEBYINDEX_OFFSET UNITYSDK_OFFSET(0x1D27F5B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSwordTrainingAnimationIndexer_TypeDefinitionIndex = 72930;
+	inline static constexpr unsigned int MonoSwordTrainingAnimationIndexer_TypeDefinitionIndex = 75040;
 
 	class MonoSwordTrainingAnimationIndexer : public ::UnityEngine::MonoBehaviour
 	{

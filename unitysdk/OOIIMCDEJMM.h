@@ -16,28 +16,28 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define OOIIMCDEJMM_COCCHMHOFIE_OFFSET UNITYSDK_OFFSET(0xBF80A70)
-#define OOIIMCDEJMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7FA50)
-#define OOIIMCDEJMM_DGMPJKCLFJG_OFFSET UNITYSDK_OFFSET(0xBF810B0)
-#define OOIIMCDEJMM_DJPEJOPFANL_OFFSET UNITYSDK_OFFSET(0xBF7FE90)
-#define OOIIMCDEJMM_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBF7FC90)
-#define OOIIMCDEJMM_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xBF81210)
-#define OOIIMCDEJMM_KNCFDAMLDPD_OFFSET UNITYSDK_OFFSET(0xBF80E60)
-#define OOIIMCDEJMM_MEKJCODMOLB_OFFSET UNITYSDK_OFFSET(0xBF80C10)
-#define OOIIMCDEJMM_NKEDEJLKMKB_OFFSET UNITYSDK_OFFSET(0xBF7FD00)
-#define OOIIMCDEJMM_NLMBBMBICHC_OFFSET UNITYSDK_OFFSET(0xBF806D0)
-#define OOIIMCDEJMM_OMOGOMNAFIH_OFFSET UNITYSDK_OFFSET(0xBF7FE50)
+#define OOIIMCDEJMM_COCCHMHOFIE_OFFSET UNITYSDK_OFFSET(0x196A7C70)
+#define OOIIMCDEJMM_CTOR_OFFSET UNITYSDK_OFFSET(0x196A6C50)
+#define OOIIMCDEJMM_DGMPJKCLFJG_OFFSET UNITYSDK_OFFSET(0x196A82B0)
+#define OOIIMCDEJMM_DJPEJOPFANL_OFFSET UNITYSDK_OFFSET(0x196A7090)
+#define OOIIMCDEJMM_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x196A6E90)
+#define OOIIMCDEJMM_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0x196A8410)
+#define OOIIMCDEJMM_KNCFDAMLDPD_OFFSET UNITYSDK_OFFSET(0x196A8060)
+#define OOIIMCDEJMM_MEKJCODMOLB_OFFSET UNITYSDK_OFFSET(0x196A7E10)
+#define OOIIMCDEJMM_NKEDEJLKMKB_OFFSET UNITYSDK_OFFSET(0x196A6F00)
+#define OOIIMCDEJMM_NLMBBMBICHC_OFFSET UNITYSDK_OFFSET(0x196A78D0)
+#define OOIIMCDEJMM_OMOGOMNAFIH_OFFSET UNITYSDK_OFFSET(0x196A7050)
 
-inline static constexpr unsigned int OOIIMCDEJMM_TypeDefinitionIndex = 76549;
+inline static constexpr unsigned int OOIIMCDEJMM_TypeDefinitionIndex = 78880;
 
 	class OOIIMCDEJMM : public ::HLFHMKMJNPK
 	{
 	public:
-		::FDPALAEIHPB* FKINCGODJEP; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* KPCHLAHHILG; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>*>* HPJKCGGKPPO; // 0x28
-		::UnityEngine::Transform* GKNBCPMJHMN; // 0x30
-		::EMJIDLCDFMI* PDENFEFCAGN; // 0x38
+		::EMJIDLCDFMI* PDENFEFCAGN; // 0x18
+		::UnityEngine::Transform* GKNBCPMJHMN; // 0x20
+		::FDPALAEIHPB* FKINCGODJEP; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>*>* HPJKCGGKPPO; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* KPCHLAHHILG; // 0x38
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::EMJIDLCDFMI* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*, ::EMJIDLCDFMI*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + OOIIMCDEJMM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

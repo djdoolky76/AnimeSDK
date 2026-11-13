@@ -4,18 +4,18 @@
 class EABIMAPLLLL;
 namespace System { class Object; }
 
-#define EABIMAPLLLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1F4F40)
-#define EABIMAPLLLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F4F70)
-#define EABIMAPLLLL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1F4F80)
+#define EABIMAPLLLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203E3D90)
+#define EABIMAPLLLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203E3DC0)
+#define EABIMAPLLLL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x203E3DD0)
 
-inline static constexpr unsigned int EABIMAPLLLL___c_TypeDefinitionIndex = 30906;
+inline static constexpr unsigned int EABIMAPLLLL___c_TypeDefinitionIndex = 31819;
 
 	class EABIMAPLLLL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C7C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DA90);
 		}
 
 		static ::System::Void _cctor()

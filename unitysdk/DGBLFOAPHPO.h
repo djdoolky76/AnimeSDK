@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DGBLFOAPHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9FA670)
+#define DGBLFOAPHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2C940)
 
-inline static constexpr unsigned int DGBLFOAPHPO_TypeDefinitionIndex = 43792;
+inline static constexpr unsigned int DGBLFOAPHPO_TypeDefinitionIndex = 44867;
 
 	class DGBLFOAPHPO : public ::System::Object
 	{

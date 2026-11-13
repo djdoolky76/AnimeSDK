@@ -6,16 +6,16 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HFKHAJIMDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7B850)
-#define HFKHAJIMDOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C7B910)
+#define HFKHAJIMDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C42CF60)
+#define HFKHAJIMDOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C42D020)
 
-inline static constexpr unsigned int HFKHAJIMDOA_TypeDefinitionIndex = 58616;
+inline static constexpr unsigned int HFKHAJIMDOA_TypeDefinitionIndex = 59881;
 
 	class HFKHAJIMDOA
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* MEEPDDMNLCH; // 0x28
-		::DCIALJDPCMF* DMFEKIIDMFL; // 0x30
+		::DCIALJDPCMF* DMFEKIIDMFL; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* MEEPDDMNLCH; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowBattleWhiteboxText* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowBattleWhiteboxText*))((::PBYTE)hIl2Cpp + HFKHAJIMDOA_CTOR_OFFSET))(this, a1, a2);

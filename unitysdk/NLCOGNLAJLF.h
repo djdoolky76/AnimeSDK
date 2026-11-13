@@ -4,18 +4,18 @@
 class NLCOGNLAJLF;
 namespace System { class String; }
 
-#define NLCOGNLAJLF_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC5D100)
-#define NLCOGNLAJLF_CTOR_OFFSET UNITYSDK_OFFSET(0xBC5D0A0)
-#define NLCOGNLAJLF_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xBC5D0B0)
+#define NLCOGNLAJLF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4206D0)
+#define NLCOGNLAJLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A420670)
+#define NLCOGNLAJLF_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x1A420680)
 
-inline static constexpr unsigned int NLCOGNLAJLF_TypeDefinitionIndex = 67263;
+inline static constexpr unsigned int NLCOGNLAJLF_TypeDefinitionIndex = 69207;
 
 	class NLCOGNLAJLF : public ::GOGCDNMNIKF
 	{
 	public:
 		static ::NLCOGNLAJLF** StaticGet_FMJPMFEDIJL()
 		{
-			return (::NLCOGNLAJLF**)UnitySDK::FromName("", "NLCOGNLAJLF")->GetStaticField(0x458A0);
+			return (::NLCOGNLAJLF**)UnitySDK::FromName("", "NLCOGNLAJLF")->GetStaticField(0x527F0);
 		}
 
 		::System::Void _ctor()

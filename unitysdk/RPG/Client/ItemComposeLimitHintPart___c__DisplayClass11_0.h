@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 
-#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3745B0)
-#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0___AREHINTSDATACORRUPTED_B__0_OFFSET UNITYSDK_OFFSET(0xD375410)
+#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1709B560)
+#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0___AREHINTSDATACORRUPTED_B__0_OFFSET UNITYSDK_OFFSET(0x1709C3C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemComposeLimitHintPart___c__DisplayClass11_0_TypeDefinitionIndex = 65749;
+	inline static constexpr unsigned int ItemComposeLimitHintPart___c__DisplayClass11_0_TypeDefinitionIndex = 67681;
 
 	class ItemComposeLimitHintPart___c__DisplayClass11_0 : public ::System::Object
 	{

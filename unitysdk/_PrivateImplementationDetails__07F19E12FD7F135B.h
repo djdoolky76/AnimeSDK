@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define _PRIVATEIMPLEMENTATIONDETAILS__07F19E12FD7F135B_COMPUTESTRINGHASH_OFFSET UNITYSDK_OFFSET(0x1F414BF0)
+#define _PRIVATEIMPLEMENTATIONDETAILS__07F19E12FD7F135B_COMPUTESTRINGHASH_OFFSET UNITYSDK_OFFSET(0x1E22C320)
 
-inline static constexpr unsigned int _PrivateImplementationDetails__07F19E12FD7F135B_TypeDefinitionIndex = 5203;
+inline static constexpr unsigned int _PrivateImplementationDetails__07F19E12FD7F135B_TypeDefinitionIndex = 5208;
 
 	class _PrivateImplementationDetails__07F19E12FD7F135B : public ::System::Object
 	{

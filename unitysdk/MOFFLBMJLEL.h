@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class ByCompareTargetCountClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOFFLBMJLEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA245C0)
+#define MOFFLBMJLEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B211530)
 
-inline static constexpr unsigned int MOFFLBMJLEL_TypeDefinitionIndex = 54580;
+inline static constexpr unsigned int MOFFLBMJLEL_TypeDefinitionIndex = 55745;
 
 	class MOFFLBMJLEL : public ::BIHNGLPOMOG
 	{

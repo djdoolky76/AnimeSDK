@@ -7,17 +7,17 @@ namespace UnityEngine::Playables { class PlayableAsset; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define OKKFJLFMPFK___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0xBED9180)
-#define OKKFJLFMPFK___C__DISPLAYCLASS4_1__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0xBEE17A0)
+#define OKKFJLFMPFK___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1787DA30)
+#define OKKFJLFMPFK___C__DISPLAYCLASS4_1__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x17886010)
 
-inline static constexpr unsigned int OKKFJLFMPFK___c__DisplayClass4_1_TypeDefinitionIndex = 56372;
+inline static constexpr unsigned int OKKFJLFMPFK___c__DisplayClass4_1_TypeDefinitionIndex = 57586;
 
 	template <typename T>
 	class OKKFJLFMPFK___c__DisplayClass4_1 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks; // 0x10
-		::OKKFJLFMPFK* __4__this; // 0x18
+		::OKKFJLFMPFK* __4__this; // 0x10
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OKKFJLFMPFK___C__DISPLAYCLASS4_1_CTOR_OFFSET))(this);

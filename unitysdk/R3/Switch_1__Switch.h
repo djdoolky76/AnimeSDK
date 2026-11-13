@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Switch_1__Switch_TypeDefinitionIndex = 35954;
+	inline static constexpr unsigned int Switch_1__Switch_TypeDefinitionIndex = 36882;
 
 	template <typename T>
 	class Switch_1__Switch

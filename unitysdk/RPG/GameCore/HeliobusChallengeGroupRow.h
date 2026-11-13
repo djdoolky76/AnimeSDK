@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeliobusChallengeGroupRow; }
 
-#define RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72D770)
-#define RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72D110)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7C8B0)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA7C250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusChallengeGroupRow_TypeDefinitionIndex = 13763;
+	inline static constexpr unsigned int HeliobusChallengeGroupRow_TypeDefinitionIndex = 13920;
 
 	class HeliobusChallengeGroupRow : public ::System::Object
 	{

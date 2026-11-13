@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DIMDJPECCEM_KCDKJMCHJJB_ScopeType_TypeDefinitionIndex = 76901;
+inline static constexpr unsigned int DIMDJPECCEM_KCDKJMCHJJB_ScopeType_TypeDefinitionIndex = 79235;
 
 	enum class DIMDJPECCEM_KCDKJMCHJJB_ScopeType : ::System::Int32
 	{

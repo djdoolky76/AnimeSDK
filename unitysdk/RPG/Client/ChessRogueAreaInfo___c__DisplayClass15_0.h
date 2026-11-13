@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChessRogueAreaDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCADEA90)
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS15_0__GETCHESSROGUEACCESSIBLEAREADATALIST_B__0_OFFSET UNITYSDK_OFFSET(0xCAE06F0)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D892970)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS15_0__GETCHESSROGUEACCESSIBLEAREADATALIST_B__0_OFFSET UNITYSDK_OFFSET(0x1D8945D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueAreaInfo___c__DisplayClass15_0_TypeDefinitionIndex = 66909;
+	inline static constexpr unsigned int ChessRogueAreaInfo___c__DisplayClass15_0_TypeDefinitionIndex = 68853;
 
 	class ChessRogueAreaInfo___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitHipplenGameExit; }
 
-#define GNBCHJONFOM_CTOR_OFFSET UNITYSDK_OFFSET(0x15AEA6A0)
-#define GNBCHJONFOM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15AEA840)
-#define GNBCHJONFOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AEA6B0)
-#define GNBCHJONFOM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AEA7F0)
-#define GNBCHJONFOM_TICK_OFFSET UNITYSDK_OFFSET(0x15AEA700)
+#define GNBCHJONFOM_CTOR_OFFSET UNITYSDK_OFFSET(0x16CA2D90)
+#define GNBCHJONFOM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16CA2F30)
+#define GNBCHJONFOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16CA2DA0)
+#define GNBCHJONFOM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16CA2EE0)
+#define GNBCHJONFOM_TICK_OFFSET UNITYSDK_OFFSET(0x16CA2DF0)
 
-inline static constexpr unsigned int GNBCHJONFOM_TypeDefinitionIndex = 52299;
+inline static constexpr unsigned int GNBCHJONFOM_TypeDefinitionIndex = 53405;
 
 	class GNBCHJONFOM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::WaitHipplenGameExit* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::WaitHipplenGameExit* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitHipplenGameExit* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitHipplenGameExit*))((::PBYTE)hIl2Cpp + GNBCHJONFOM_CTOR_OFFSET))(this, a1, a2);

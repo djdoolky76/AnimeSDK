@@ -8,20 +8,20 @@ namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapFight; }
 namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapViewModel; }
 namespace RPG::Client::FateRin::HouguMap { class HouguMapFightViewModel; }
 
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA1C60)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS3_0___BUILDFIGHTVIEWMODELS_B__1_OFFSET UNITYSDK_OFFSET(0xCFA2210)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CDD40)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS3_0___BUILDFIGHTVIEWMODELS_B__1_OFFSET UNITYSDK_OFFSET(0x1E0CE2D0)
 
 namespace RPG::Client::FateRin::HouguMap
 {
-	inline static constexpr unsigned int FateRinHouguMapViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 80767;
+	inline static constexpr unsigned int FateRinHouguMapViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 83547;
 
 	class FateRinHouguMapViewModel___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
 		::PFLDDDHEAJO* missionProgressService; // 0x10
-		::EEMOEKHIFNN* overrideService; // 0x18
-		::PEAFBFCPFCC* redDotService; // 0x20
-		::RPG::Client::FateRin::HouguMap::FateRinHouguMapViewModel* __4__this; // 0x28
+		::RPG::Client::FateRin::HouguMap::FateRinHouguMapViewModel* __4__this; // 0x18
+		::EEMOEKHIFNN* overrideService; // 0x20
+		::PEAFBFCPFCC* redDotService; // 0x28
 		::System::Boolean bossIsHard; // 0x30
 		::System::Void _ctor()
 		{

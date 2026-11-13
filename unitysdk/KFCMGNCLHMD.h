@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define KFCMGNCLHMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB3887D0)
+#define KFCMGNCLHMD_CTOR_OFFSET UNITYSDK_OFFSET(0x176CEA40)
 
-inline static constexpr unsigned int KFCMGNCLHMD_TypeDefinitionIndex = 78883;
+inline static constexpr unsigned int KFCMGNCLHMD_TypeDefinitionIndex = 81654;
 
 	class KFCMGNCLHMD
 	{

@@ -12,30 +12,30 @@ namespace UnityEngine { class ITerrainLayer; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_CRPTERRAIN_APPLYPALETTE_OFFSET UNITYSDK_OFFSET(0x1CBDB4A0)
-#define RPG_CUSTOMRP_CRPTERRAIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBDB800)
-#define RPG_CUSTOMRP_CRPTERRAIN_CHECKSPLATRESOLUTIONUPDATE_OFFSET UNITYSDK_OFFSET(0x1CBDB1B0)
-#define RPG_CUSTOMRP_CRPTERRAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBDB7D0)
-#define RPG_CUSTOMRP_CRPTERRAIN_ENSURETERRAINLAYERS_OFFSET UNITYSDK_OFFSET(0x1CBDAF20)
-#define RPG_CUSTOMRP_CRPTERRAIN_GETACTIVELAYERS_OFFSET UNITYSDK_OFFSET(0x1CBD9FB0)
-#define RPG_CUSTOMRP_CRPTERRAIN_GETBLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1CBD9F90)
-#define RPG_CUSTOMRP_CRPTERRAIN_GETGROUPSELECTIONDROPDOWNITEMS_OFFSET UNITYSDK_OFFSET(0x1CBDA3D0)
-#define RPG_CUSTOMRP_CRPTERRAIN_GET_BLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1CBD9F70)
-#define RPG_CUSTOMRP_CRPTERRAIN_GET_GROUPIDMAP_OFFSET UNITYSDK_OFFSET(0x1CBDAC80)
-#define RPG_CUSTOMRP_CRPTERRAIN_GET_GROUPIDS_OFFSET UNITYSDK_OFFSET(0x1CBDAC30)
-#define RPG_CUSTOMRP_CRPTERRAIN_GET_MOUSEHOVERINGBLOCKINDEX_OFFSET UNITYSDK_OFFSET(0x1CBDB590)
-#define RPG_CUSTOMRP_CRPTERRAIN_GET_SELECTEDGROUPCOLOR_OFFSET UNITYSDK_OFFSET(0x1CBDA450)
-#define RPG_CUSTOMRP_CRPTERRAIN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CBDB730)
-#define RPG_CUSTOMRP_CRPTERRAIN_PALETTENOTASSIGNED_OFFSET UNITYSDK_OFFSET(0x1CBDA3B0)
-#define RPG_CUSTOMRP_CRPTERRAIN_SET_SELECTEDGROUPCOLOR_OFFSET UNITYSDK_OFFSET(0x1CBDA4D0)
-#define RPG_CUSTOMRP_CRPTERRAIN_START_OFFSET UNITYSDK_OFFSET(0x1CBDAEC0)
-#define RPG_CUSTOMRP_CRPTERRAIN_UPDATEGROUPIDMAP_OFFSET UNITYSDK_OFFSET(0x1CBDACB0)
-#define RPG_CUSTOMRP_CRPTERRAIN_UPDATETERRAINMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CBDA700)
-#define RPG_CUSTOMRP_CRPTERRAIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CBDB760)
+#define RPG_CUSTOMRP_CRPTERRAIN_APPLYPALETTE_OFFSET UNITYSDK_OFFSET(0x1A1CED50)
+#define RPG_CUSTOMRP_CRPTERRAIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1CF0B0)
+#define RPG_CUSTOMRP_CRPTERRAIN_CHECKSPLATRESOLUTIONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A1CEA60)
+#define RPG_CUSTOMRP_CRPTERRAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CF080)
+#define RPG_CUSTOMRP_CRPTERRAIN_ENSURETERRAINLAYERS_OFFSET UNITYSDK_OFFSET(0x1A1CE7D0)
+#define RPG_CUSTOMRP_CRPTERRAIN_GETACTIVELAYERS_OFFSET UNITYSDK_OFFSET(0x1A1CD890)
+#define RPG_CUSTOMRP_CRPTERRAIN_GETBLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1A1CD870)
+#define RPG_CUSTOMRP_CRPTERRAIN_GETGROUPSELECTIONDROPDOWNITEMS_OFFSET UNITYSDK_OFFSET(0x1A1CDCB0)
+#define RPG_CUSTOMRP_CRPTERRAIN_GET_BLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1A1CD850)
+#define RPG_CUSTOMRP_CRPTERRAIN_GET_GROUPIDMAP_OFFSET UNITYSDK_OFFSET(0x1A1CE560)
+#define RPG_CUSTOMRP_CRPTERRAIN_GET_GROUPIDS_OFFSET UNITYSDK_OFFSET(0x1A1CE510)
+#define RPG_CUSTOMRP_CRPTERRAIN_GET_MOUSEHOVERINGBLOCKINDEX_OFFSET UNITYSDK_OFFSET(0x1A1CEE40)
+#define RPG_CUSTOMRP_CRPTERRAIN_GET_SELECTEDGROUPCOLOR_OFFSET UNITYSDK_OFFSET(0x1A1CDD30)
+#define RPG_CUSTOMRP_CRPTERRAIN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A1CEFE0)
+#define RPG_CUSTOMRP_CRPTERRAIN_PALETTENOTASSIGNED_OFFSET UNITYSDK_OFFSET(0x1A1CDC90)
+#define RPG_CUSTOMRP_CRPTERRAIN_SET_SELECTEDGROUPCOLOR_OFFSET UNITYSDK_OFFSET(0x1A1CDDB0)
+#define RPG_CUSTOMRP_CRPTERRAIN_START_OFFSET UNITYSDK_OFFSET(0x1A1CE770)
+#define RPG_CUSTOMRP_CRPTERRAIN_UPDATEGROUPIDMAP_OFFSET UNITYSDK_OFFSET(0x1A1CE590)
+#define RPG_CUSTOMRP_CRPTERRAIN_UPDATETERRAINMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A1CDFE0)
+#define RPG_CUSTOMRP_CRPTERRAIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A1CF010)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPTerrain_TypeDefinitionIndex = 37720;
+	inline static constexpr unsigned int CRPTerrain_TypeDefinitionIndex = 38649;
 
 	class CRPTerrain : public ::UnityEngine::TerrainAdditionalComponent
 	{
@@ -55,57 +55,57 @@ namespace RPG::CustomRP
 		::UnityEngine::Vector2 mouseHoveringUV; // 0x54
 		static ::RPG::CustomRP::CRPTerrain** StaticGet_currentTerrain()
 		{
-			return (::RPG::CustomRP::CRPTerrain**)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x2AC60);
-		}
-
-		static ::System::Int32* StaticGet_ShaderID_GroupIDMap()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C50);
-		}
-
-		static ::System::Int32* StaticGet_ShaderID_SplatTextureArrayNormalMap()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C54);
+			return (::RPG::CustomRP::CRPTerrain**)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x21AD0);
 		}
 
 		static ::System::Int32* StaticGet_ShaderID_GlobalTintTexture()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C58);
-		}
-
-		static ::System::Int32* StaticGet_ShaderID_LayerInfoBuffer()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C5C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x79E0);
 		}
 
 		static ::System::Int32* StaticGet_ShaderID_DebugVizParams()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C60);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x79E4);
 		}
 
-		static ::System::Int32* StaticGet_ShaderID_MouseHoveringUV()
+		static ::System::Int32* StaticGet_ShaderID_SplatTextureArrayNormalMap()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C64);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x79E8);
 		}
 
 		static ::System::Int32* StaticGet_ShaderID_GroupInfoBuffer()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C68);
-		}
-
-		static ::System::Int32* StaticGet_ShaderID_TerrainSize()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C6C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x79EC);
 		}
 
 		static ::System::Int32* StaticGet_ShaderID_SplatTextureArrayDiffuse()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C70);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x79F0);
 		}
 
 		static ::System::Int32* StaticGet_ShaderID_GroupDebugColorBuffer()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x8C74);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x79F4);
+		}
+
+		static ::System::Int32* StaticGet_ShaderID_LayerInfoBuffer()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x79F8);
+		}
+
+		static ::System::Int32* StaticGet_ShaderID_MouseHoveringUV()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x79FC);
+		}
+
+		static ::System::Int32* StaticGet_ShaderID_TerrainSize()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x7A00);
+		}
+
+		static ::System::Int32* StaticGet_ShaderID_GroupIDMap()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CRPTerrain")->GetStaticField(0x7A04);
 		}
 
 		// static const ::System::Object SPLAT_BLOCK_RESOLUTION; // 0x0

@@ -7,27 +7,26 @@ namespace RPG::GameCore { class PropStateChangeListenerConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define NNINPOHEINB_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA82A0)
-#define NNINPOHEINB_DFJAMCIAJPP_OFFSET UNITYSDK_OFFSET(0xBCA89B0)
-#define NNINPOHEINB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCA8D70)
-#define NNINPOHEINB_ECEBDIPBCGN_OFFSET UNITYSDK_OFFSET(0xBCA8A90)
-#define NNINPOHEINB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCA82C0)
-#define NNINPOHEINB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCA8960)
-#define NNINPOHEINB_TICK_OFFSET UNITYSDK_OFFSET(0xBCA8E50)
+#define NNINPOHEINB_CTOR_OFFSET UNITYSDK_OFFSET(0x179EA200)
+#define NNINPOHEINB_DFJAMCIAJPP_OFFSET UNITYSDK_OFFSET(0x179EA910)
+#define NNINPOHEINB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x179EACD0)
+#define NNINPOHEINB_ECEBDIPBCGN_OFFSET UNITYSDK_OFFSET(0x179EA9F0)
+#define NNINPOHEINB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179EA220)
+#define NNINPOHEINB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x179EA8C0)
+#define NNINPOHEINB_TICK_OFFSET UNITYSDK_OFFSET(0x179EADB0)
 
-inline static constexpr unsigned int NNINPOHEINB_TypeDefinitionIndex = 58359;
+inline static constexpr unsigned int NNINPOHEINB_TypeDefinitionIndex = 59615;
 
 	class NNINPOHEINB : public ::GELIALJDFBL
 	{
 	public:
 		::System::String* HFLOLHCOGMG; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
-		::RPG::GameCore::PropStateChangeListenerConfig* IGHAHBNLIJA; // 0x28
-		::GELIALJDFBL* MJOEBIHKEIG; // 0x30
-		::System::Boolean BJIMNGNKDGD; // 0x38
-		::System::Byte _padding0[0x3];
+		::GELIALJDFBL* MJOEBIHKEIG; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
+		::RPG::GameCore::PropStateChangeListenerConfig* IGHAHBNLIJA; // 0x30
+		::System::UInt32 IDOEBJDGHBF; // 0x38
 		::System::UInt32 JJNEKDFIBMA; // 0x3C
-		::System::UInt32 IDOEBJDGHBF; // 0x40
+		::System::Boolean BJIMNGNKDGD; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropStateChangeListenerConfig* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropStateChangeListenerConfig*))((::PBYTE)hIl2Cpp + NNINPOHEINB_CTOR_OFFSET))(this, a1, a2);

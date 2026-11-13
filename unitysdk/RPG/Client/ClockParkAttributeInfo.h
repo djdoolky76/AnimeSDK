@@ -7,16 +7,16 @@ namespace RPG::Client { class ClockParkAttributeItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB734C0)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCB72E50)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_GET_ATTRIBUTEITEMSDICT_OFFSET UNITYSDK_OFFSET(0xCB734A0)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_INIT_OFFSET UNITYSDK_OFFSET(0xCB72E60)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_SET_ATTRIBUTEITEMSDICT_OFFSET UNITYSDK_OFFSET(0xCB734B0)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xCB73370)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D006AD0)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D006460)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_GET_ATTRIBUTEITEMSDICT_OFFSET UNITYSDK_OFFSET(0x1D006AB0)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1D006470)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_SET_ATTRIBUTEITEMSDICT_OFFSET UNITYSDK_OFFSET(0x1D006AC0)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x1D006980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkAttributeInfo_TypeDefinitionIndex = 61483;
+	inline static constexpr unsigned int ClockParkAttributeInfo_TypeDefinitionIndex = 62868;
 
 	class ClockParkAttributeInfo : public ::System::Object
 	{
@@ -24,7 +24,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::ClockParkAttributeType, ::RPG::Client::ClockParkAttributeItem*>* _AttributeItemsDict_k__BackingField; // 0x10
 		static ::System::Collections::Generic::List_1<::RPG::Client::ClockParkAttributeType>** StaticGet_AttributeTypeList()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::ClockParkAttributeType>**)UnitySDK::FromName("RPG.Client", "ClockParkAttributeInfo")->GetStaticField(0x152C0);
+			return (::System::Collections::Generic::List_1<::RPG::Client::ClockParkAttributeType>**)UnitySDK::FromName("RPG.Client", "ClockParkAttributeInfo")->GetStaticField(0x16AA0);
 		}
 
 		::System::Void _ctor()

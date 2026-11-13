@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPamCurrentActionAnyDirection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KHLACIHOIFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB405270)
-#define KHLACIHOIFL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4052A0)
+#define KHLACIHOIFL_CTOR_OFFSET UNITYSDK_OFFSET(0x197966A0)
+#define KHLACIHOIFL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x197966D0)
 
-inline static constexpr unsigned int KHLACIHOIFL_TypeDefinitionIndex = 53157;
+inline static constexpr unsigned int KHLACIHOIFL_TypeDefinitionIndex = 54319;
 
 	class KHLACIHOIFL
 	{

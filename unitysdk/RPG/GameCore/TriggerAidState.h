@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAidState_TypeDefinitionIndex = 55773;
+	inline static constexpr unsigned int TriggerAidState_TypeDefinitionIndex = 56976;
 
 	enum class TriggerAidState : ::System::Int32
 	{

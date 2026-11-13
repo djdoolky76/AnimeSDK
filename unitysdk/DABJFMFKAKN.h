@@ -7,19 +7,19 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define DABJFMFKAKN_BLHLHDNGJOM_OFFSET UNITYSDK_OFFSET(0xDFB1080)
-#define DABJFMFKAKN_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB1260)
-#define DABJFMFKAKN_DEJEIKJJHCE_OFFSET UNITYSDK_OFFSET(0xDFB1150)
-#define DABJFMFKAKN_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xDFB11A0)
+#define DABJFMFKAKN_BLHLHDNGJOM_OFFSET UNITYSDK_OFFSET(0x1993C0F0)
+#define DABJFMFKAKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1993C2D0)
+#define DABJFMFKAKN_DEJEIKJJHCE_OFFSET UNITYSDK_OFFSET(0x1993C1C0)
+#define DABJFMFKAKN_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0x1993C210)
 
-inline static constexpr unsigned int DABJFMFKAKN_TypeDefinitionIndex = 71383;
+inline static constexpr unsigned int DABJFMFKAKN_TypeDefinitionIndex = 73363;
 
 	class DABJFMFKAKN : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* POICFHABNMJ; // 0x60
+		::UnityEngine::ParticleSystem* ENDFGNLJKGB; // 0x60
 		::UnityEngine::ParticleSystem* AINFBDIJDEN; // 0x68
-		::UnityEngine::ParticleSystem* ENDFGNLJKGB; // 0x70
+		::UnityEngine::Transform* POICFHABNMJ; // 0x70
 		::UnityEngine::Vector3 LIJJDMDKLLF; // 0x78
 		::System::Void _ctor()
 		{

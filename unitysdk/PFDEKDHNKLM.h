@@ -3,9 +3,9 @@
 #include "unitysdk/System/Exception.h"
 namespace RPG::Client { class RogueTournBuildRefShareCodeDataItem; }
 
-#define PFDEKDHNKLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC200620)
+#define PFDEKDHNKLM_CTOR_OFFSET UNITYSDK_OFFSET(0x16D759B0)
 
-inline static constexpr unsigned int PFDEKDHNKLM_TypeDefinitionIndex = 67508;
+inline static constexpr unsigned int PFDEKDHNKLM_TypeDefinitionIndex = 69452;
 
 	class PFDEKDHNKLM : public ::System::Exception
 	{

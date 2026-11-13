@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightPortalRemarkConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70C3C0)
-#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D70C240)
+#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA582B0)
+#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA58130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPortalRemarkConfigRow_TypeDefinitionIndex = 13639;
+	inline static constexpr unsigned int GridFightPortalRemarkConfigRow_TypeDefinitionIndex = 13764;
 
 	class GridFightPortalRemarkConfigRow : public ::System::Object
 	{

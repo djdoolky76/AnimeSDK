@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client::Subway { class AirshipSubway; }
 
-inline static constexpr unsigned int OGFEAEDDJJO_TypeDefinitionIndex = 82203;
+inline static constexpr unsigned int OGFEAEDDJJO_TypeDefinitionIndex = 85076;
 
 	struct alignas(8) OGFEAEDDJJO
 	{

@@ -8,24 +8,24 @@ class JLMKCFFODIA;
 class KFJKHEKMJKE;
 namespace System { class String; }
 
-#define JLMKCFFODIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D019860)
-#define JLMKCFFODIA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D019470)
+#define JLMKCFFODIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C16B0)
+#define JLMKCFFODIA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C12C0)
 
-inline static constexpr unsigned int JLMKCFFODIA_TypeDefinitionIndex = 13961;
+inline static constexpr unsigned int JLMKCFFODIA_TypeDefinitionIndex = 14118;
 
 	class JLMKCFFODIA : public ::System::Object
 	{
 	public:
-		::System::String* FBKAMIHGLFK; // 0x10
-		::Il2CppArray<::KFJKHEKMJKE*>* OJBEKHJBIHL; // 0x18
-		::System::String* OOKONGHCFBP; // 0x20
-		::RPG::Client::TextID AIFCBBLPHHI; // 0x28
-		::RPG::GameCore::LimaoNewsPlanPhaseType ABPCHBOBLNB; // 0x38
-		::System::UInt32 OPOPKLGBNKB; // 0x3C
-		::System::UInt32 NFIKDONNJMD; // 0x40
+		::System::String* OOKONGHCFBP; // 0x10
+		::System::String* FBKAMIHGLFK; // 0x18
+		::Il2CppArray<::KFJKHEKMJKE*>* OJBEKHJBIHL; // 0x20
+		::System::UInt32 NFIKDONNJMD; // 0x28
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID JEJGIFKGBCO; // 0x48
-		::RPG::Client::TextID CCHLHJCMFGM; // 0x58
+		::RPG::Client::TextID CCHLHJCMFGM; // 0x30
+		::RPG::Client::TextID AIFCBBLPHHI; // 0x40
+		::RPG::Client::TextID JEJGIFKGBCO; // 0x50
+		::System::UInt32 OPOPKLGBNKB; // 0x60
+		::RPG::GameCore::LimaoNewsPlanPhaseType ABPCHBOBLNB; // 0x64
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JLMKCFFODIA_CTOR_OFFSET))(this);

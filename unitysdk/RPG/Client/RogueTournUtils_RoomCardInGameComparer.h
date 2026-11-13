@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 
-#define RPG_CLIENT_ROGUETOURNUTILS_ROOMCARDINGAMECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xE051110)
-#define RPG_CLIENT_ROGUETOURNUTILS_ROOMCARDINGAMECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xE04A1C0)
+#define RPG_CLIENT_ROGUETOURNUTILS_ROOMCARDINGAMECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1AD00980)
+#define RPG_CLIENT_ROGUETOURNUTILS_ROOMCARDINGAMECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF9A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUtils_RoomCardInGameComparer_TypeDefinitionIndex = 67813;
+	inline static constexpr unsigned int RogueTournUtils_RoomCardInGameComparer_TypeDefinitionIndex = 69758;
 
 	class RogueTournUtils_RoomCardInGameComparer : public ::System::Object
 	{

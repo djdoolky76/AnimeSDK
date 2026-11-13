@@ -6,12 +6,12 @@ namespace RPG::Client::Compliance::Ftc::DropLink { class FtcDropLink; }
 namespace RPG::Client::Compliance::Ftc::DropLink { class IFtcDropLink; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_CTOR_OFFSET UNITYSDK_OFFSET(0xCBA48A0)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_GET_OFFSET UNITYSDK_OFFSET(0xCBA3EE0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C987100)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_GET_OFFSET UNITYSDK_OFFSET(0x1C9866F0)
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int FtcDropLinkRepository_TypeDefinitionIndex = 74821;
+	inline static constexpr unsigned int FtcDropLinkRepository_TypeDefinitionIndex = 76991;
 
 	class FtcDropLinkRepository : public ::System::Object
 	{

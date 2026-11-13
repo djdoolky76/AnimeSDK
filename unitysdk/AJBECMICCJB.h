@@ -5,10 +5,10 @@ class DEEJKBIMHAA;
 namespace RPG::GameCore { class RandomSelectDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJBECMICCJB_CTOR_OFFSET UNITYSDK_OFFSET(0x12CAC5D0)
-#define AJBECMICCJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CAC6E0)
+#define AJBECMICCJB_CTOR_OFFSET UNITYSDK_OFFSET(0x19D32C70)
+#define AJBECMICCJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D32D80)
 
-inline static constexpr unsigned int AJBECMICCJB_TypeDefinitionIndex = 55275;
+inline static constexpr unsigned int AJBECMICCJB_TypeDefinitionIndex = 56456;
 
 	class AJBECMICCJB
 	{

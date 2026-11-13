@@ -5,10 +5,10 @@ class BKHHFIJCHEP;
 class LBKDBJPNCGI;
 namespace RPG::Client::DiceCombat { class DiceCombatStartPVPGameParam; }
 
-#define LBKDBJPNCGI___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5FEC70)
-#define LBKDBJPNCGI___C__DISPLAYCLASS38_0__STARTPVPGAME_B__0_OFFSET UNITYSDK_OFFSET(0xB600780)
+#define LBKDBJPNCGI___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2A3170)
+#define LBKDBJPNCGI___C__DISPLAYCLASS38_0__STARTPVPGAME_B__0_OFFSET UNITYSDK_OFFSET(0x1B2A4C80)
 
-inline static constexpr unsigned int LBKDBJPNCGI___c__DisplayClass38_0_TypeDefinitionIndex = 76114;
+inline static constexpr unsigned int LBKDBJPNCGI___c__DisplayClass38_0_TypeDefinitionIndex = 78441;
 
 	class LBKDBJPNCGI___c__DisplayClass38_0 : public ::System::Object
 	{

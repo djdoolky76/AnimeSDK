@@ -10,29 +10,29 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define ACGNFELKLLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC77C20)
-#define ACGNFELKLLJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CC77D90)
-#define ACGNFELKLLJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC77BE0)
+#define ACGNFELKLLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E016850)
+#define ACGNFELKLLJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E0169C0)
+#define ACGNFELKLLJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E016810)
 
-inline static constexpr unsigned int ACGNFELKLLJ_TypeDefinitionIndex = 24086;
+inline static constexpr unsigned int ACGNFELKLLJ_TypeDefinitionIndex = 24545;
 
 	class ACGNFELKLLJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* CCAOGMEFNLB; // 0x18
-		::RPG::GameCore::DynamicFloat* GCJMFBKLGHI; // 0x20
-		::RPG::GameCore::DynamicFloat* NNNAGHMNFKB; // 0x28
-		::RPG::GameCore::DynamicFloat* FMHMAHCNDGB; // 0x30
-		::System::String* PODFJDMHFMK; // 0x38
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x40
-		::System::String* ONOAKCNFMBC; // 0x48
-		::Il2CppArray<::FPOFOJLALIE*>* FBGMBABKNNN; // 0x50
-		::RPG::GameCore::FixVec3 DCJFFIAPJME; // 0x58
-		::RPG::GameCore::RtCharacterState OKKKNMDDMMP; // 0x70
-		::System::Boolean JJOMBGLMEBL; // 0x74
-		::System::Boolean PPFBBBJIODA; // 0x75
-		::System::Boolean NKNCKHBHOHC; // 0x76
-		::System::Boolean CHHHLILDOBP; // 0x77
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::Il2CppArray<::FPOFOJLALIE*>* FBGMBABKNNN; // 0x20
+		::System::String* PODFJDMHFMK; // 0x28
+		::RPG::GameCore::DynamicFloat* NNNAGHMNFKB; // 0x30
+		::RPG::GameCore::DynamicFloat* GCJMFBKLGHI; // 0x38
+		::System::String* ONOAKCNFMBC; // 0x40
+		::RPG::GameCore::DynamicFloat* CCAOGMEFNLB; // 0x48
+		::RPG::GameCore::DynamicFloat* FMHMAHCNDGB; // 0x50
+		::System::Boolean CHHHLILDOBP; // 0x58
+		::System::Boolean NKNCKHBHOHC; // 0x59
+		::System::Boolean JJOMBGLMEBL; // 0x5A
+		::System::Boolean PPFBBBJIODA; // 0x5B
+		::RPG::GameCore::RtCharacterState OKKKNMDDMMP; // 0x5C
+		::RPG::GameCore::FixVec3 DCJFFIAPJME; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACGNFELKLLJ_CTOR_OFFSET))(this);

@@ -6,29 +6,29 @@ namespace RPG::Client::Prop { class ChimeraPreparationStateControllerBase; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CFEFEPKIBDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA04F70)
-#define CFEFEPKIBDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA04FB0)
-#define CFEFEPKIBDP___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0xCA04FC0)
-#define CFEFEPKIBDP___C___CTOR_B__3_1_OFFSET UNITYSDK_OFFSET(0xCA05050)
+#define CFEFEPKIBDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1884D820)
+#define CFEFEPKIBDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1884D860)
+#define CFEFEPKIBDP___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1884D870)
+#define CFEFEPKIBDP___C___CTOR_B__3_1_OFFSET UNITYSDK_OFFSET(0x1884D900)
 
-inline static constexpr unsigned int CFEFEPKIBDP___c_TypeDefinitionIndex = 78480;
+inline static constexpr unsigned int CFEFEPKIBDP___c_TypeDefinitionIndex = 81215;
 
 	class CFEFEPKIBDP___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>** StaticGet___9__3_1()
-		{
-			return (::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1ED40);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1ED48);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC650);
 		}
 
 		static ::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationState>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationState>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1ED50);
+			return (::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationState>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC658);
+		}
+
+		static ::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>** StaticGet___9__3_1()
+		{
+			return (::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC660);
 		}
 
 		static ::System::Void _cctor()

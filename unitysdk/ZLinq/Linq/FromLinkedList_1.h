@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromLinkedList_1_TypeDefinitionIndex = 6112;
+	inline static constexpr unsigned int FromLinkedList_1_TypeDefinitionIndex = 6120;
 
 	template <typename T>
 	struct alignas(8) FromLinkedList_1

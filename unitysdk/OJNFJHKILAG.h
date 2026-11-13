@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareBattleEventID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OJNFJHKILAG_CTOR_OFFSET UNITYSDK_OFFSET(0xBEC4AE0)
-#define OJNFJHKILAG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEC4B10)
+#define OJNFJHKILAG_CTOR_OFFSET UNITYSDK_OFFSET(0x194C95E0)
+#define OJNFJHKILAG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x194C9610)
 
-inline static constexpr unsigned int OJNFJHKILAG_TypeDefinitionIndex = 54516;
+inline static constexpr unsigned int OJNFJHKILAG_TypeDefinitionIndex = 55681;
 
 	class OJNFJHKILAG
 	{

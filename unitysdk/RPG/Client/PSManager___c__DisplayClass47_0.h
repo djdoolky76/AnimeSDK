@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA60AB0)
-#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS47_0__LEAVESESSION_B__0_OFFSET UNITYSDK_OFFSET(0xDA618F0)
+#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1D3B0)
+#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS47_0__LEAVESESSION_B__0_OFFSET UNITYSDK_OFFSET(0x1BF1E270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PSManager___c__DisplayClass47_0_TypeDefinitionIndex = 66741;
+	inline static constexpr unsigned int PSManager___c__DisplayClass47_0_TypeDefinitionIndex = 68677;
 
 	class PSManager___c__DisplayClass47_0 : public ::System::Object
 	{

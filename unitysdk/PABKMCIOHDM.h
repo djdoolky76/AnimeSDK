@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class DialogueGroupRow; }
 
-#define PABKMCIOHDM_DGJNFLPHEJM_OFFSET UNITYSDK_OFFSET(0xBFBD650)
-#define PABKMCIOHDM_DMLIGFEFINN_OFFSET UNITYSDK_OFFSET(0xBFBD980)
+#define PABKMCIOHDM_DGJNFLPHEJM_OFFSET UNITYSDK_OFFSET(0x18AD3A30)
+#define PABKMCIOHDM_DMLIGFEFINN_OFFSET UNITYSDK_OFFSET(0x18AD3D60)
 
-inline static constexpr unsigned int PABKMCIOHDM_TypeDefinitionIndex = 56496;
+inline static constexpr unsigned int PABKMCIOHDM_TypeDefinitionIndex = 57716;
 
 	class PABKMCIOHDM : public ::System::Object
 	{

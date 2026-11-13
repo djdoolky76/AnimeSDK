@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Multiplayer
 {
-	inline static constexpr unsigned int MPSessionState_TypeDefinitionIndex = 80263;
+	inline static constexpr unsigned int MPSessionState_TypeDefinitionIndex = 83040;
 
 	enum class MPSessionState : ::System::Int32
 	{

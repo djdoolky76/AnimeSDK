@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ScreenPPEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DIDDLGLOHNF_CTOR_OFFSET UNITYSDK_OFFSET(0xEBEAF80)
-#define DIDDLGLOHNF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEBEB090)
-#define DIDDLGLOHNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBEAF90)
-#define DIDDLGLOHNF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBEAFE0)
-#define DIDDLGLOHNF_TICK_OFFSET UNITYSDK_OFFSET(0xEBEB030)
+#define DIDDLGLOHNF_CTOR_OFFSET UNITYSDK_OFFSET(0x18EB25C0)
+#define DIDDLGLOHNF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18EB26D0)
+#define DIDDLGLOHNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18EB25D0)
+#define DIDDLGLOHNF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18EB2620)
+#define DIDDLGLOHNF_TICK_OFFSET UNITYSDK_OFFSET(0x18EB2670)
 
-inline static constexpr unsigned int DIDDLGLOHNF_TypeDefinitionIndex = 56389;
+inline static constexpr unsigned int DIDDLGLOHNF_TypeDefinitionIndex = 57608;
 
 	class DIDDLGLOHNF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ScreenPPEffect* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ScreenPPEffect* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ScreenPPEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ScreenPPEffect*))((::PBYTE)hIl2Cpp + DIDDLGLOHNF_CTOR_OFFSET))(this, a1, a2);

@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolDictionaryKeysEnumeratorUnmanaged_2_TypeDefinitionIndex = 10770;
+	inline static constexpr unsigned int ConfigDataPoolDictionaryKeysEnumeratorUnmanaged_2_TypeDefinitionIndex = 10786;
 
 	template <typename T1, typename T2>
 	struct alignas(8) ConfigDataPoolDictionaryKeysEnumeratorUnmanaged_2

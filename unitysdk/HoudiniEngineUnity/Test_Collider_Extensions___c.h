@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class Collider; }
 
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9905E0)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B990620)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B990630)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B990670)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2087A810)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2087A850)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x2087A860)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x2087A8A0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Collider_Extensions___c_TypeDefinitionIndex = 40721;
+	inline static constexpr unsigned int Test_Collider_Extensions___c_TypeDefinitionIndex = 41696;
 
 	class Test_Collider_Extensions___c : public ::System::Object
 	{
 	public:
 		static ::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64120);
+			return (::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x69190);
 		}
 
 		static ::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64128);
+			return (::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x69198);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x64130);
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x691A0);
 		}
 
 		static ::System::Void _cctor()

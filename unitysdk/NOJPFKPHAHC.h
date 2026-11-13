@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleScoreCounterShow; }
 
-#define NOJPFKPHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEB860)
-#define NOJPFKPHAHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCEB890)
+#define NOJPFKPHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0x19CEA960)
+#define NOJPFKPHAHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19CEA990)
 
-inline static constexpr unsigned int NOJPFKPHAHC_TypeDefinitionIndex = 47615;
+inline static constexpr unsigned int NOJPFKPHAHC_TypeDefinitionIndex = 48645;
 
 	class NOJPFKPHAHC
 	{

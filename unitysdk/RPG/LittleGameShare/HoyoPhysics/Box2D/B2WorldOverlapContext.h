@@ -6,11 +6,11 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2OverlapResultFcn; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDOVERLAPCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2E1C0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDOVERLAPCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3F0DEB0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2WorldOverlapContext_TypeDefinitionIndex = 36818;
+	inline static constexpr unsigned int B2WorldOverlapContext_TypeDefinitionIndex = 37746;
 
 	struct alignas(8) B2WorldOverlapContext
 	{

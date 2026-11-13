@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TravelShipPowerSprint; }
 
-#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0F010)
-#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC0F020)
-#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC0EFE0)
+#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E318890)
+#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3188A0)
+#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E318860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelShipPowerSprint_TypeDefinitionIndex = 20972;
+	inline static constexpr unsigned int TravelShipPowerSprint_TypeDefinitionIndex = 21310;
 
 	class TravelShipPowerSprint : public ::RPG::GameCore::TaskConfig
 	{

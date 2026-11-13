@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATA_CRPTEXTURERESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD9ED0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_CRPTEXTURERESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CD7B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererData_CRPTextureResources_TypeDefinitionIndex = 37864;
+	inline static constexpr unsigned int CRPRendererData_CRPTextureResources_TypeDefinitionIndex = 38793;
 
 	class CRPRendererData_CRPTextureResources : public ::System::Object
 	{

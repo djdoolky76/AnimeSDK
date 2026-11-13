@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define MPPKJJMPJOK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3FE40)
+#define MPPKJJMPJOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B22E7C0)
 
-inline static constexpr unsigned int MPPKJJMPJOK_TypeDefinitionIndex = 47830;
+inline static constexpr unsigned int MPPKJJMPJOK_TypeDefinitionIndex = 48861;
 
 	class MPPKJJMPJOK : public ::UnityEngine::Playables::PlayableBehaviour
 	{

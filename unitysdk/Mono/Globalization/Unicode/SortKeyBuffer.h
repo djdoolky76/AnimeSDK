@@ -6,17 +6,17 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class SortKey; }
 
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDBUFFERPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x1C035CE0)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDCJKEXTENSION_OFFSET UNITYSDK_OFFSET(0x1C02EC10)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDKANA_OFFSET UNITYSDK_OFFSET(0x1C02ED50)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDLEVEL5_OFFSET UNITYSDK_OFFSET(0x1C035D60)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDNORMAL_OFFSET UNITYSDK_OFFSET(0x1C02EA80)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C02DA60)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETOPTIMIZEDLENGTH_OFFSET UNITYSDK_OFFSET(0x1C036670)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETRESULTANDRESET_OFFSET UNITYSDK_OFFSET(0x1C02E3D0)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1C035DF0)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C02DA70)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x1C035CB0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDBUFFERPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x17ACA930)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDCJKEXTENSION_OFFSET UNITYSDK_OFFSET(0x17AC3880)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDKANA_OFFSET UNITYSDK_OFFSET(0x17AC39C0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDLEVEL5_OFFSET UNITYSDK_OFFSET(0x17ACA9B0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDNORMAL_OFFSET UNITYSDK_OFFSET(0x17AC36F0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x17AC26F0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETOPTIMIZEDLENGTH_OFFSET UNITYSDK_OFFSET(0x17ACB2C0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETRESULTANDRESET_OFFSET UNITYSDK_OFFSET(0x17AC3060)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x17ACAA40)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x17AC2700)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x17ACA910)
 
 namespace Mono::Globalization::Unicode
 {
@@ -25,29 +25,29 @@ namespace Mono::Globalization::Unicode
 	class SortKeyBuffer : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* l4tb; // 0x10
-		::Il2CppArray<::System::Byte>* l4sb; // 0x18
+		::Il2CppArray<::System::Byte>* l3b; // 0x10
+		::Il2CppArray<::System::Byte>* l4wb; // 0x18
 		::Il2CppArray<::System::Byte>* l4kb; // 0x20
-		::Il2CppArray<::System::Byte>* l3b; // 0x28
-		::Il2CppArray<::System::Byte>* l1b; // 0x30
-		::Il2CppArray<::System::Byte>* l2b; // 0x38
+		::Il2CppArray<::System::Byte>* l4sb; // 0x28
+		::System::String* source; // 0x30
+		::Il2CppArray<::System::Byte>* l1b; // 0x38
 		::Il2CppArray<::System::Byte>* l5b; // 0x40
-		::System::String* source; // 0x48
-		::Il2CppArray<::System::Byte>* l4wb; // 0x50
-		::System::Int32 l2; // 0x58
-		::System::Int32 l4w; // 0x5C
-		::System::Int32 l4t; // 0x60
-		::System::Int32 l5; // 0x64
-		::System::Int32 l1; // 0x68
-		::System::Int32 l4s; // 0x6C
-		::System::Int32 lcid; // 0x70
-		::System::Int32 l4k; // 0x74
-		::System::Boolean processLevel2; // 0x78
-		::System::Boolean frenchSorted; // 0x79
-		::System::Boolean frenchSort; // 0x7A
+		::Il2CppArray<::System::Byte>* l4tb; // 0x48
+		::Il2CppArray<::System::Byte>* l2b; // 0x50
+		::System::Int32 l4s; // 0x58
+		::System::Int32 l4k; // 0x5C
+		::System::Int32 l1; // 0x60
+		::System::Int32 l4t; // 0x64
+		::System::Int32 l3; // 0x68
+		::System::Int32 l2; // 0x6C
+		::System::Int32 l5; // 0x70
+		::System::Globalization::CompareOptions options; // 0x74
+		::System::Int32 l4w; // 0x78
+		::System::Boolean processLevel2; // 0x7C
+		::System::Boolean frenchSorted; // 0x7D
+		::System::Boolean frenchSort; // 0x7E
 		::System::Byte _padding0[0x1];
-		::System::Int32 l3; // 0x7C
-		::System::Globalization::CompareOptions options; // 0x80
+		::System::Int32 lcid; // 0x80
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_CTOR_OFFSET))(this, a1);

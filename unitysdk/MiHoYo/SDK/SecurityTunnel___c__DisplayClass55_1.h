@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB048680)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__SAFEENQUEUECALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0xB048690)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD25090)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__SAFEENQUEUECALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x1DD250A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_1_TypeDefinitionIndex = 46422;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_1_TypeDefinitionIndex = 47450;
 
 	template <typename T>
 	class SecurityTunnel___c__DisplayClass55_1 : public ::System::Object

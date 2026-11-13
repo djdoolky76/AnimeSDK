@@ -8,11 +8,11 @@ class MEHEMFNHEMK;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define LALDFCGIIEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C47D780)
-#define LALDFCGIIEC_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C47C4F0)
-#define LALDFCGIIEC_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C47BDF0)
+#define LALDFCGIIEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF6130)
+#define LALDFCGIIEC_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1BCF4EA0)
+#define LALDFCGIIEC_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1BCF47A0)
 
-inline static constexpr unsigned int LALDFCGIIEC_TypeDefinitionIndex = 41524;
+inline static constexpr unsigned int LALDFCGIIEC_TypeDefinitionIndex = 42499;
 
 	class LALDFCGIIEC : public ::System::Object
 	{

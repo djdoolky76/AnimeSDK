@@ -5,11 +5,11 @@ class ICCLDNDNHPD;
 namespace System { class Action; }
 namespace System { class String; }
 
-#define ABBNDLOOJJB_CTOR_OFFSET UNITYSDK_OFFSET(0xB0EA570)
-#define ABBNDLOOJJB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB0EA580)
-#define ABBNDLOOJJB_TICK_OFFSET UNITYSDK_OFFSET(0xB0EA600)
+#define ABBNDLOOJJB_CTOR_OFFSET UNITYSDK_OFFSET(0x18C9B490)
+#define ABBNDLOOJJB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18C9B4A0)
+#define ABBNDLOOJJB_TICK_OFFSET UNITYSDK_OFFSET(0x18C9B520)
 
-inline static constexpr unsigned int ABBNDLOOJJB_TypeDefinitionIndex = 78344;
+inline static constexpr unsigned int ABBNDLOOJJB_TypeDefinitionIndex = 81079;
 
 	class ABBNDLOOJJB : public ::System::Object
 	{

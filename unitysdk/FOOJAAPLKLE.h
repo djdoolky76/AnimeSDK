@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAvatarDetachableEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FOOJAAPLKLE_CTOR_OFFSET UNITYSDK_OFFSET(0x158FDE10)
-#define FOOJAAPLKLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158FDE40)
+#define FOOJAAPLKLE_CTOR_OFFSET UNITYSDK_OFFSET(0x18769120)
+#define FOOJAAPLKLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18769150)
 
-inline static constexpr unsigned int FOOJAAPLKLE_TypeDefinitionIndex = 58513;
+inline static constexpr unsigned int FOOJAAPLKLE_TypeDefinitionIndex = 59777;
 
 	class FOOJAAPLKLE
 	{

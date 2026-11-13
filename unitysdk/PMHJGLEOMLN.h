@@ -5,17 +5,17 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PMHJGLEOMLN_CTOR_OFFSET UNITYSDK_OFFSET(0xC315D30)
+#define PMHJGLEOMLN_CTOR_OFFSET UNITYSDK_OFFSET(0x188A2860)
 
-inline static constexpr unsigned int PMHJGLEOMLN_TypeDefinitionIndex = 72949;
+inline static constexpr unsigned int PMHJGLEOMLN_TypeDefinitionIndex = 75059;
 
 	class PMHJGLEOMLN : public ::System::Object
 	{
 	public:
-		::System::String* BIFLKECNJEP; // 0x10
-		::System::String* OMKCCILBIOF; // 0x18
-		::System::String* MAEPOCCHNEG; // 0x20
-		::Il2CppArray<::System::Object*>* EECMDMJIJGD; // 0x28
+		::System::String* OMKCCILBIOF; // 0x10
+		::System::String* MAEPOCCHNEG; // 0x18
+		::Il2CppArray<::System::Object*>* EECMDMJIJGD; // 0x20
+		::System::String* BIFLKECNJEP; // 0x28
 		::RPG::Client::TextID NMMKDFFHOLL; // 0x30
 		::System::Void _ctor()
 		{

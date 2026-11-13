@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FEALMIPFGDP_CTOR_OFFSET UNITYSDK_OFFSET(0x156D8D70)
+#define FEALMIPFGDP_CTOR_OFFSET UNITYSDK_OFFSET(0x13089150)
 
-inline static constexpr unsigned int FEALMIPFGDP_TypeDefinitionIndex = 72404;
+inline static constexpr unsigned int FEALMIPFGDP_TypeDefinitionIndex = 74483;
 
 	class FEALMIPFGDP : public ::System::Object
 	{

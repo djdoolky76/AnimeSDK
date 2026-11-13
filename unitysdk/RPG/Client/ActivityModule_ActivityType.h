@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityModule_ActivityType_TypeDefinitionIndex = 61688;
+	inline static constexpr unsigned int ActivityModule_ActivityType_TypeDefinitionIndex = 63094;
 
 	enum class ActivityModule_ActivityType : ::System::Int32
 	{

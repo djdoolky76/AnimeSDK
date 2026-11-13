@@ -4,15 +4,15 @@
 namespace RPG::Client { class RogueTournPersonaPresetRoomCardData; }
 namespace RPG::Client { template <typename T1, typename T2> class RogueInstanceCacheManager_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE01CC40)
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE01C790)
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0xE01C850)
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_GET_PRESETID_OFFSET UNITYSDK_OFFSET(0xE01CC00)
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA__CREATE_OFFSET UNITYSDK_OFFSET(0xE01C8E0)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0DF070)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0DEBC0)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E0DEC80)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_GET_PRESETID_OFFSET UNITYSDK_OFFSET(0x1E0DF030)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA__CREATE_OFFSET UNITYSDK_OFFSET(0x1E0DED10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaPresetRoomCardData_TypeDefinitionIndex = 67732;
+	inline static constexpr unsigned int RogueTournPersonaPresetRoomCardData_TypeDefinitionIndex = 69677;
 
 	class RogueTournPersonaPresetRoomCardData : public ::RPG::Client::RogueTournPersonaRoomCardDataBase
 	{
@@ -20,7 +20,7 @@ namespace RPG::Client
 		::System::UInt32 _PresetID; // 0x30
 		static ::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>** StaticGet__CacheManager()
 		{
-			return (::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>**)UnitySDK::FromName("RPG.Client", "RogueTournPersonaPresetRoomCardData")->GetStaticField(0x6AFE0);
+			return (::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>**)UnitySDK::FromName("RPG.Client", "RogueTournPersonaPresetRoomCardData")->GetStaticField(0x73020);
 		}
 
 		::System::Void _ctor()

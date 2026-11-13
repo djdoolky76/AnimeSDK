@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ICAILHEHIOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6601A0)
+#define ICAILHEHIOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9487E0)
 
-inline static constexpr unsigned int ICAILHEHIOC_TypeDefinitionIndex = 36457;
+inline static constexpr unsigned int ICAILHEHIOC_TypeDefinitionIndex = 37385;
 
 	class ICAILHEHIOC : public ::System::Object
 	{

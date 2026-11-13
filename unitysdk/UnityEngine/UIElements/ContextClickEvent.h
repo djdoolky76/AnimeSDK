@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_UIELEMENTS_CONTEXTCLICKEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F480DB0)
+#define UNITYENGINE_UIELEMENTS_CONTEXTCLICKEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC3F20)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ContextClickEvent_TypeDefinitionIndex = 5963;
+	inline static constexpr unsigned int ContextClickEvent_TypeDefinitionIndex = 5971;
 
 	class ContextClickEvent
 	{

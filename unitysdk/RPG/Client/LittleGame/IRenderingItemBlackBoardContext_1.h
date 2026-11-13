@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IRenderingItemBlackBoardContext_1_TypeDefinitionIndex = 42745;
+	inline static constexpr unsigned int IRenderingItemBlackBoardContext_1_TypeDefinitionIndex = 43724;
 
 	template <typename T>
 	class IRenderingItemBlackBoardContext_1

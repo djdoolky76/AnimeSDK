@@ -11,7 +11,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int DPHCPLJMDKL___LoadAsync_d__23_1_TypeDefinitionIndex = 60033;
+inline static constexpr unsigned int DPHCPLJMDKL___LoadAsync_d__23_1_TypeDefinitionIndex = 61317;
 
 	template <typename T>
 	struct alignas(8) DPHCPLJMDKL___LoadAsync_d__23_1

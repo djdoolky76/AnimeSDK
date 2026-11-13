@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PinballPuzzleLaunch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ECFPFEOLCEK_CTOR_OFFSET UNITYSDK_OFFSET(0x12D06800)
-#define ECFPFEOLCEK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12D06830)
+#define ECFPFEOLCEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D4A80)
+#define ECFPFEOLCEK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C3D4AB0)
 
-inline static constexpr unsigned int ECFPFEOLCEK_TypeDefinitionIndex = 58256;
+inline static constexpr unsigned int ECFPFEOLCEK_TypeDefinitionIndex = 59512;
 
 	class ECFPFEOLCEK
 	{

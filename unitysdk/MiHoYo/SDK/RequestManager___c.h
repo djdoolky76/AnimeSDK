@@ -7,37 +7,37 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_REQUESTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFA19C0)
-#define MIHOYO_SDK_REQUESTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA1A00)
-#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTABTEST_B__26_0_OFFSET UNITYSDK_OFFSET(0x1BFA1A10)
-#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTABTEST_B__26_1_OFFSET UNITYSDK_OFFSET(0x1BFA1A20)
-#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTPAYDIALOGABTESTCN_B__27_0_OFFSET UNITYSDK_OFFSET(0x1BFA1A40)
+#define MIHOYO_SDK_REQUESTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D036880)
+#define MIHOYO_SDK_REQUESTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0368C0)
+#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTABTEST_B__26_0_OFFSET UNITYSDK_OFFSET(0x1D0368D0)
+#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTABTEST_B__26_1_OFFSET UNITYSDK_OFFSET(0x1D0368E0)
+#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTPAYDIALOGABTESTCN_B__27_0_OFFSET UNITYSDK_OFFSET(0x1D036900)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RequestManager___c_TypeDefinitionIndex = 8064;
+	inline static constexpr unsigned int RequestManager___c_TypeDefinitionIndex = 8073;
 
 	class RequestManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__26_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x257A0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1B200);
 		}
 
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__27_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x257A8);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1B208);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__26_1()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x257B0);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1B210);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__26_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x257B8);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1B218);
 		}
 
 		static ::System::Void _cctor()

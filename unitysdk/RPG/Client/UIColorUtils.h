@@ -9,39 +9,39 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_UICOLORUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE37AC90)
-#define RPG_CLIENT_UICOLORUTILS_CHANGEPARTICALSTARTCOLOR_OFFSET UNITYSDK_OFFSET(0xE37AAB0)
-#define RPG_CLIENT_UICOLORUTILS_GETCOLORINROGUETALKTYPE_OFFSET UNITYSDK_OFFSET(0xE37AB70)
-#define RPG_CLIENT_UICOLORUTILS_GETCOLORWITHORIGINALPHA_OFFSET UNITYSDK_OFFSET(0xE37A2E0)
-#define RPG_CLIENT_UICOLORUTILS_GETCOLOR_OFFSET UNITYSDK_OFFSET(0xE37A1D0)
-#define RPG_CLIENT_UICOLORUTILS_GETHPPERCENTCOLOR_OFFSET UNITYSDK_OFFSET(0xE37A3E0)
-#define RPG_CLIENT_UICOLORUTILS_GETSTRING_OFFSET UNITYSDK_OFFSET(0xE37A370)
+#define RPG_CLIENT_UICOLORUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A103CF0)
+#define RPG_CLIENT_UICOLORUTILS_CHANGEPARTICALSTARTCOLOR_OFFSET UNITYSDK_OFFSET(0x1A103B10)
+#define RPG_CLIENT_UICOLORUTILS_GETCOLORINROGUETALKTYPE_OFFSET UNITYSDK_OFFSET(0x1A103BD0)
+#define RPG_CLIENT_UICOLORUTILS_GETCOLORWITHORIGINALPHA_OFFSET UNITYSDK_OFFSET(0x1A103340)
+#define RPG_CLIENT_UICOLORUTILS_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1A103230)
+#define RPG_CLIENT_UICOLORUTILS_GETHPPERCENTCOLOR_OFFSET UNITYSDK_OFFSET(0x1A103440)
+#define RPG_CLIENT_UICOLORUTILS_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1A1033D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIColorUtils_TypeDefinitionIndex = 73168;
+	inline static constexpr unsigned int UIColorUtils_TypeDefinitionIndex = 75282;
 
 	class UIColorUtils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Single>** StaticGet__ShowHPColorMax()
 		{
-			return (::System::Collections::Generic::List_1<::System::Single>**)UnitySDK::FromName("RPG.Client", "UIColorUtils")->GetStaticField(0x2E420);
+			return (::System::Collections::Generic::List_1<::System::Single>**)UnitySDK::FromName("RPG.Client", "UIColorUtils")->GetStaticField(0x422E0);
 		}
 
 		static ::System::String** StaticGet_DEFAULT_COLOR()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "UIColorUtils")->GetStaticField(0x2E428);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "UIColorUtils")->GetStaticField(0x422E8);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__ShowHPColor()
 		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "UIColorUtils")->GetStaticField(0x2E430);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "UIColorUtils")->GetStaticField(0x422F0);
 		}
 
 		static ::UnityEngine::Color* StaticGet_TRANSPARENT()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "UIColorUtils")->GetStaticField(0x9950);
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "UIColorUtils")->GetStaticField(0xD490);
 		}
 
 		static ::System::Void _cctor()

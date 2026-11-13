@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int MGFHNKFNPJI_TypeDefinitionIndex = 44143;
+inline static constexpr unsigned int MGFHNKFNPJI_TypeDefinitionIndex = 45218;
 
 	class MGFHNKFNPJI : public ::System::Object
 	{

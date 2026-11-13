@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseEventActionService_1_TypeDefinitionIndex = 42014;
+	inline static constexpr unsigned int BaseEventActionService_1_TypeDefinitionIndex = 42989;
 
 	template <typename T>
 	class BaseEventActionService_1 : public ::System::Object

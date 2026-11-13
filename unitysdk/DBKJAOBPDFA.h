@@ -5,10 +5,10 @@
 class EGILMOEBHPN;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define DBKJAOBPDFA_CTOR_OFFSET UNITYSDK_OFFSET(0xE223160)
-#define DBKJAOBPDFA_EMMPCNEIFGM_OFFSET UNITYSDK_OFFSET(0xE2232A0)
+#define DBKJAOBPDFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B14F220)
+#define DBKJAOBPDFA_EMMPCNEIFGM_OFFSET UNITYSDK_OFFSET(0x1B14F360)
 
-inline static constexpr unsigned int DBKJAOBPDFA_TypeDefinitionIndex = 74925;
+inline static constexpr unsigned int DBKJAOBPDFA_TypeDefinitionIndex = 77252;
 
 	class DBKJAOBPDFA : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskPool_1_TypeDefinitionIndex = 38222;
+	inline static constexpr unsigned int TaskPool_1_TypeDefinitionIndex = 39151;
 
 	template <typename T>
 	struct alignas(8) TaskPool_1

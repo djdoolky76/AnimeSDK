@@ -4,7 +4,7 @@
 namespace System::Runtime::Remoting::Contexts { class IDynamicMessageSink; }
 namespace System::Runtime::Remoting::Contexts { class IDynamicProperty; }
 
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_DYNAMICPROPERTYCOLLECTION_DYNAMICPROPERTYREG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2AEE10)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_DYNAMICPROPERTYCOLLECTION_DYNAMICPROPERTYREG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADF7F0)
 
 namespace System::Runtime::Remoting::Contexts
 {

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvCharacterFindChest; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJKBNDOBPEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB79EEC0)
-#define BJKBNDOBPEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB79EEF0)
+#define BJKBNDOBPEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A638400)
+#define BJKBNDOBPEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A638430)
 
-inline static constexpr unsigned int BJKBNDOBPEE_TypeDefinitionIndex = 52337;
+inline static constexpr unsigned int BJKBNDOBPEE_TypeDefinitionIndex = 53443;
 
 	class BJKBNDOBPEE
 	{

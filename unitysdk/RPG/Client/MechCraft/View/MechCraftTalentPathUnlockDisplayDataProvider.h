@@ -5,12 +5,12 @@ class BEEJHBCIGGI;
 class CNBNDKINGBF;
 namespace RPG::Client::MechCraft::View { class MechCraftTalentPathUnlockDisplayData; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPATHUNLOCKDISPLAYDATAPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD661130)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPATHUNLOCKDISPLAYDATAPROVIDER_GETDATA_OFFSET UNITYSDK_OFFSET(0xD6611F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPATHUNLOCKDISPLAYDATAPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF01960)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPATHUNLOCKDISPLAYDATAPROVIDER_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DF01A20)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentPathUnlockDisplayDataProvider_TypeDefinitionIndex = 79981;
+	inline static constexpr unsigned int MechCraftTalentPathUnlockDisplayDataProvider_TypeDefinitionIndex = 82758;
 
 	class MechCraftTalentPathUnlockDisplayDataProvider : public ::System::Object
 	{

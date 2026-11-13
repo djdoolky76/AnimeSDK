@@ -5,16 +5,16 @@
 class BFCEADNKCKI;
 class FCOEMCEDLNL;
 
-#define BFCEADNKCKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D640CF0)
-#define BFCEADNKCKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D640B70)
+#define BFCEADNKCKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1812C0)
+#define BFCEADNKCKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F181140)
 
-inline static constexpr unsigned int BFCEADNKCKI_TypeDefinitionIndex = 15141;
+inline static constexpr unsigned int BFCEADNKCKI_TypeDefinitionIndex = 15297;
 
 	class BFCEADNKCKI : public ::System::Object
 	{
 	public:
-		::System::UInt32 DBLDCKODNEN; // 0x10
-		::RPG::GameCore::BattleResultConditionType LOAGIPDPLFM; // 0x14
+		::RPG::GameCore::BattleResultConditionType LOAGIPDPLFM; // 0x10
+		::System::UInt32 DBLDCKODNEN; // 0x14
 		::System::Single FHPMEIECKLG; // 0x18
 		::System::Void _ctor()
 		{

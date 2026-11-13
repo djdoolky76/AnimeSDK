@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelRegionPerformanceBudget; }
 
-#define RPG_GAMECORE_LEVELREGIONPERFORMANCEBUDGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79E3D0)
-#define RPG_GAMECORE_LEVELREGIONPERFORMANCEBUDGET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79E390)
+#define RPG_GAMECORE_LEVELREGIONPERFORMANCEBUDGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24D1D0)
+#define RPG_GAMECORE_LEVELREGIONPERFORMANCEBUDGET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F24D190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionPerformanceBudget_TypeDefinitionIndex = 17390;
+	inline static constexpr unsigned int LevelRegionPerformanceBudget_TypeDefinitionIndex = 17558;
 
 	class LevelRegionPerformanceBudget : public ::RPG::GameCore::JsonConfig
 	{

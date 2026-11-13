@@ -5,25 +5,25 @@ namespace RPG::Client { class MultiPlayerActivityInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD23C60)
-#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDD23CA0)
-#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C___SWITCHNODES_B__3_0_OFFSET UNITYSDK_OFFSET(0xDD23CB0)
+#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x171D3C70)
+#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x171D3CB0)
+#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C___SWITCHNODES_B__3_0_OFFSET UNITYSDK_OFFSET(0x171D3CC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MultiPlayerArcadeScreenNode___c_TypeDefinitionIndex = 78186;
+	inline static constexpr unsigned int MultiPlayerArcadeScreenNode___c_TypeDefinitionIndex = 80921;
 
 	class MultiPlayerArcadeScreenNode___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::MultiPlayerActivityInfo*, ::System::Boolean>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::RPG::Client::MultiPlayerActivityInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x445E0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x445E8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x61980);
+		}
+
+		static ::System::Func_2<::RPG::Client::MultiPlayerActivityInfo*, ::System::Boolean>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::RPG::Client::MultiPlayerActivityInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x61988);
 		}
 
 		static ::System::Void _cctor()

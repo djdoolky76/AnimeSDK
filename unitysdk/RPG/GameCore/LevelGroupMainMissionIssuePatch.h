@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelGroupMainMissionIssuePatch; }
 
-#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D783AC0)
-#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D783920)
+#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D936290)
+#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9360F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupMainMissionIssuePatch_TypeDefinitionIndex = 17365;
+	inline static constexpr unsigned int LevelGroupMainMissionIssuePatch_TypeDefinitionIndex = 17533;
 
 	class LevelGroupMainMissionIssuePatch : public ::RPG::GameCore::JsonConfig
 	{

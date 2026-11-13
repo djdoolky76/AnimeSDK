@@ -4,18 +4,18 @@
 class POFCEIPNOBI;
 namespace System { class Object; }
 
-#define POFCEIPNOBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF9B780)
-#define POFCEIPNOBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF9B7B0)
-#define POFCEIPNOBI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF9B7C0)
+#define POFCEIPNOBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCBFAA0)
+#define POFCEIPNOBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCBFAD0)
+#define POFCEIPNOBI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FCBFAE0)
 
-inline static constexpr unsigned int POFCEIPNOBI___c_TypeDefinitionIndex = 30530;
+inline static constexpr unsigned int POFCEIPNOBI___c_TypeDefinitionIndex = 31436;
 
 	class POFCEIPNOBI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44970);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FD10);
 		}
 
 		static ::System::Void _cctor()

@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::UI::Internal::OS { class LoginByAccount; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFDD2D0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFDD310)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C__SHOW_B__60_0_OFFSET UNITYSDK_OFFSET(0x1BFDD320)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4D0220)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4D0260)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C__SHOW_B__60_0_OFFSET UNITYSDK_OFFSET(0x1E4D0270)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int LoginByAccount___c_TypeDefinitionIndex = 8425;
+	inline static constexpr unsigned int LoginByAccount___c_TypeDefinitionIndex = 8434;
 
 	class LoginByAccount___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x2B970);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x20600);
 		}
 
 		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>** StaticGet___9__60_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x2B978);
+			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x20608);
 		}
 
 		static ::System::Void _cctor()

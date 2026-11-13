@@ -7,7 +7,7 @@ namespace RPG::Client { class WolfBroGunPlayTarget; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayRoadMapConfig_PlayTarget_TypeDefinitionIndex = 68756;
+	inline static constexpr unsigned int WolfBroGunPlayRoadMapConfig_PlayTarget_TypeDefinitionIndex = 70708;
 
 	struct alignas(8) WolfBroGunPlayRoadMapConfig_PlayTarget
 	{

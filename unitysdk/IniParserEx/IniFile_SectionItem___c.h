@@ -7,10 +7,10 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define INIPARSEREX_INIFILE_SECTIONITEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F39A890)
-#define INIPARSEREX_INIFILE_SECTIONITEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F39A8D0)
-#define INIPARSEREX_INIFILE_SECTIONITEM___C__TOSTRING_B__30_0_OFFSET UNITYSDK_OFFSET(0x1F39A8E0)
-#define INIPARSEREX_INIFILE_SECTIONITEM___C__TOSTRING_B__30_1_OFFSET UNITYSDK_OFFSET(0x1F39A900)
+#define INIPARSEREX_INIFILE_SECTIONITEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9BB430)
+#define INIPARSEREX_INIFILE_SECTIONITEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BB470)
+#define INIPARSEREX_INIFILE_SECTIONITEM___C__TOSTRING_B__30_0_OFFSET UNITYSDK_OFFSET(0x1F9BB480)
+#define INIPARSEREX_INIFILE_SECTIONITEM___C__TOSTRING_B__30_1_OFFSET UNITYSDK_OFFSET(0x1F9BB4A0)
 
 namespace IniParserEx
 {
@@ -21,17 +21,17 @@ namespace IniParserEx
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__30_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("IniParserEx", "<>c")->GetStaticField(0xD660);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("IniParserEx", "<>c")->GetStaticField(0xD668);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("IniParserEx", "<>c")->GetStaticField(0x93E0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("IniParserEx", "<>c")->GetStaticField(0xD670);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("IniParserEx", "<>c")->GetStaticField(0x93E8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("IniParserEx", "<>c")->GetStaticField(0x93F0);
 		}
 
 		static ::System::Void _cctor()

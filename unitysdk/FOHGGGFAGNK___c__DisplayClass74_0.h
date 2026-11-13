@@ -4,10 +4,10 @@
 class FOACJPEHDKO;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentActorViewModel; }
 
-#define FOHGGGFAGNK___C__DISPLAYCLASS74_0_CTOR_OFFSET UNITYSDK_OFFSET(0x158E6C80)
-#define FOHGGGFAGNK___C__DISPLAYCLASS74_0___REFRESHACTORSTATES_B__0_OFFSET UNITYSDK_OFFSET(0x158E6D80)
+#define FOHGGGFAGNK___C__DISPLAYCLASS74_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18751F00)
+#define FOHGGGFAGNK___C__DISPLAYCLASS74_0___REFRESHACTORSTATES_B__0_OFFSET UNITYSDK_OFFSET(0x18752000)
 
-inline static constexpr unsigned int FOHGGGFAGNK___c__DisplayClass74_0_TypeDefinitionIndex = 79760;
+inline static constexpr unsigned int FOHGGGFAGNK___c__DisplayClass74_0_TypeDefinitionIndex = 82537;
 
 	class FOHGGGFAGNK___c__DisplayClass74_0 : public ::System::Object
 	{

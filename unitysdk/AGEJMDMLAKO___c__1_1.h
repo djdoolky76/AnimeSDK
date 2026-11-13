@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-inline static constexpr unsigned int AGEJMDMLAKO___c__1_1_TypeDefinitionIndex = 49985;
+inline static constexpr unsigned int AGEJMDMLAKO___c__1_1_TypeDefinitionIndex = 51033;
 
 	template <typename T>
 	class AGEJMDMLAKO___c__1_1 : public ::System::Object

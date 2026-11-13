@@ -10,41 +10,40 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Animator; }
 namespace UnityEngine::UI { class Image; }
 
-#define EDGNLGIJLOJ_BGJELKENAGM_OFFSET UNITYSDK_OFFSET(0x133109F0)
-#define EDGNLGIJLOJ_BIKKEFDJOEA_OFFSET UNITYSDK_OFFSET(0x13310690)
-#define EDGNLGIJLOJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x13310B20)
-#define EDGNLGIJLOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x13310AD0)
-#define EDGNLGIJLOJ_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x1330FEE0)
-#define EDGNLGIJLOJ_FNEMCFLNINI_OFFSET UNITYSDK_OFFSET(0x13310630)
-#define EDGNLGIJLOJ_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1330FFA0)
-#define EDGNLGIJLOJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x1330FE00)
+#define EDGNLGIJLOJ_BGJELKENAGM_OFFSET UNITYSDK_OFFSET(0x186B9390)
+#define EDGNLGIJLOJ_BIKKEFDJOEA_OFFSET UNITYSDK_OFFSET(0x186B9030)
+#define EDGNLGIJLOJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x186B94C0)
+#define EDGNLGIJLOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x186B9470)
+#define EDGNLGIJLOJ_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x186B8880)
+#define EDGNLGIJLOJ_FNEMCFLNINI_OFFSET UNITYSDK_OFFSET(0x186B8FD0)
+#define EDGNLGIJLOJ_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x186B8940)
+#define EDGNLGIJLOJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x186B8680)
 
-inline static constexpr unsigned int EDGNLGIJLOJ_TypeDefinitionIndex = 72323;
+inline static constexpr unsigned int EDGNLGIJLOJ_TypeDefinitionIndex = 74400;
 
 	class EDGNLGIJLOJ : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* MPBEGICPCAI; // 0x60
-		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x68
-		::RPG::Client::LocalizedText* DLNBAPDCFLI; // 0x70
-		::UnityEngine::Animator* APPGGMLEPLN; // 0x78
+		::UnityEngine::Animator* APPGGMLEPLN; // 0x60
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* MPBEGICPCAI; // 0x68
+		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x70
+		::RPG::Client::LocalizedText* DLNBAPDCFLI; // 0x78
 		::System::UInt32 IACHHFMCKMC; // 0x80
-		::System::Boolean FMNEEONAMNO; // 0x84
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::RogueTitanType EOPLFIBLPHF; // 0x88
-		static ::System::Int32* StaticGet_PAFPPCAMLDF()
+		::RPG::GameCore::RogueTitanType EOPLFIBLPHF; // 0x84
+		::System::Boolean FMNEEONAMNO; // 0x88
+		static ::System::Int32* StaticGet_HEFPDOBFKGF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "EDGNLGIJLOJ")->GetStaticField(0x15B70);
+			return (::System::Int32*)UnitySDK::FromName("", "EDGNLGIJLOJ")->GetStaticField(0x15ED0);
 		}
 
 		static ::System::Int32* StaticGet_NLGNEJMAGIG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "EDGNLGIJLOJ")->GetStaticField(0x15B74);
+			return (::System::Int32*)UnitySDK::FromName("", "EDGNLGIJLOJ")->GetStaticField(0x15ED4);
 		}
 
-		static ::System::Int32* StaticGet_HEFPDOBFKGF()
+		static ::System::Int32* StaticGet_PAFPPCAMLDF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "EDGNLGIJLOJ")->GetStaticField(0x15B78);
+			return (::System::Int32*)UnitySDK::FromName("", "EDGNLGIJLOJ")->GetStaticField(0x15ED8);
 		}
 
 		::System::Void _ctor()

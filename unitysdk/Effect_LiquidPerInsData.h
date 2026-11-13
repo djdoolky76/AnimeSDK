@@ -7,11 +7,11 @@ class GCEBEKBEMJL;
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define EFFECT_LIQUIDPERINSDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x155D7260)
-#define EFFECT_LIQUIDPERINSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x155D7390)
-#define EFFECT_LIQUIDPERINSDATA_START_OFFSET UNITYSDK_OFFSET(0x155D7340)
+#define EFFECT_LIQUIDPERINSDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x16B46500)
+#define EFFECT_LIQUIDPERINSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16B46630)
+#define EFFECT_LIQUIDPERINSDATA_START_OFFSET UNITYSDK_OFFSET(0x16B465E0)
 
-inline static constexpr unsigned int Effect_LiquidPerInsData_TypeDefinitionIndex = 47454;
+inline static constexpr unsigned int Effect_LiquidPerInsData_TypeDefinitionIndex = 48483;
 
 	class Effect_LiquidPerInsData : public ::UnityEngine::MonoBehaviour
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LAPHIDDAGNL_TypeDefinitionIndex = 71984;
+inline static constexpr unsigned int LAPHIDDAGNL_TypeDefinitionIndex = 74013;
 
 	class LAPHIDDAGNL
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class CENEFPOMFKG;
 
-inline static constexpr unsigned int HNLJIGANBMN_TypeDefinitionIndex = 54238;
+inline static constexpr unsigned int HNLJIGANBMN_TypeDefinitionIndex = 55402;
 
 	struct alignas(8) HNLJIGANBMN
 	{

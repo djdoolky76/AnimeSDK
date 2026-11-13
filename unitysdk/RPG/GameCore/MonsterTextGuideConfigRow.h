@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterTextGuideConfigRow; }
 
-#define RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88F320)
-#define RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D88EC40)
+#define RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4800E0)
+#define RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E47FA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterTextGuideConfigRow_TypeDefinitionIndex = 14210;
+	inline static constexpr unsigned int MonsterTextGuideConfigRow_TypeDefinitionIndex = 14367;
 
 	class MonsterTextGuideConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* ParameterList; // 0x10
-		::System::UInt32 TextGuideID; // 0x18
-		::System::UInt32 SkillID; // 0x1C
-		::RPG::Client::TextID TextGuideDescription; // 0x20
+		::RPG::Client::TextID TextGuideDescription; // 0x18
+		::System::UInt32 SkillID; // 0x28
+		::System::UInt32 TextGuideID; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW_CTOR_OFFSET))(this);

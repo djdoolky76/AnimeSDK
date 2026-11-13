@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClockParkAttribute; }
 
-#define RPG_GAMECORE_CLOCKPARKATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58B4D0)
-#define RPG_GAMECORE_CLOCKPARKATTRIBUTE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58B360)
+#define RPG_GAMECORE_CLOCKPARKATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F501B10)
+#define RPG_GAMECORE_CLOCKPARKATTRIBUTE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5019A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkAttribute_TypeDefinitionIndex = 11162;
+	inline static constexpr unsigned int ClockParkAttribute_TypeDefinitionIndex = 11178;
 
 	class ClockParkAttribute : public ::System::Object
 	{
 	public:
-		::System::UInt32 AttributeB; // 0x10
-		::System::UInt32 AttributeC; // 0x14
-		::System::UInt32 AttributeA; // 0x18
+		::System::UInt32 AttributeC; // 0x10
+		::System::UInt32 AttributeA; // 0x14
+		::System::UInt32 AttributeB; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKATTRIBUTE_CTOR_OFFSET))(this);

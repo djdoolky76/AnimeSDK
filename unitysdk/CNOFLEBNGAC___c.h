@@ -4,18 +4,18 @@
 class CNOFLEBNGAC;
 namespace System { class Object; }
 
-#define CNOFLEBNGAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E102CE0)
-#define CNOFLEBNGAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E102D10)
-#define CNOFLEBNGAC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E102D20)
+#define CNOFLEBNGAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204D8B80)
+#define CNOFLEBNGAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204D8BB0)
+#define CNOFLEBNGAC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x204D8BC0)
 
-inline static constexpr unsigned int CNOFLEBNGAC___c_TypeDefinitionIndex = 33206;
+inline static constexpr unsigned int CNOFLEBNGAC___c_TypeDefinitionIndex = 34121;
 
 	class CNOFLEBNGAC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DC00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x172E0);
 		}
 
 		static ::System::Void _cctor()

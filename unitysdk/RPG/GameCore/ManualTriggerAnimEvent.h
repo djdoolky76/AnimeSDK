@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ManualTriggerAnimEvent; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MANUALTRIGGERANIMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FB800)
-#define RPG_GAMECORE_MANUALTRIGGERANIMEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7FB930)
-#define RPG_GAMECORE_MANUALTRIGGERANIMEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7FB7C0)
+#define RPG_GAMECORE_MANUALTRIGGERANIMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0858E0)
+#define RPG_GAMECORE_MANUALTRIGGERANIMEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F085A10)
+#define RPG_GAMECORE_MANUALTRIGGERANIMEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0858A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManualTriggerAnimEvent_TypeDefinitionIndex = 22878;
+	inline static constexpr unsigned int ManualTriggerAnimEvent_TypeDefinitionIndex = 23304;
 
 	class ManualTriggerAnimEvent : public ::RPG::GameCore::TaskConfig
 	{

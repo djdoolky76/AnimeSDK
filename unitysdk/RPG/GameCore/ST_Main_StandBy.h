@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ST_Main_StandBy; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_STANDBY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA53C30)
-#define RPG_GAMECORE_ST_MAIN_STANDBY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA53C40)
-#define RPG_GAMECORE_ST_MAIN_STANDBY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA53C00)
+#define RPG_GAMECORE_ST_MAIN_STANDBY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC98ED0)
+#define RPG_GAMECORE_ST_MAIN_STANDBY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC98EE0)
+#define RPG_GAMECORE_ST_MAIN_STANDBY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC98EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_StandBy_TypeDefinitionIndex = 20097;
+	inline static constexpr unsigned int ST_Main_StandBy_TypeDefinitionIndex = 20431;
 
 	class ST_Main_StandBy : public ::RPG::GameCore::STTaskConfig
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GIGLIFEOKKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2B330)
-#define GIGLIFEOKKG_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15A2AFC0)
+#define GIGLIFEOKKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3DB330)
+#define GIGLIFEOKKG_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x1A3DB010)
 
-inline static constexpr unsigned int GIGLIFEOKKG_TypeDefinitionIndex = 62451;
+inline static constexpr unsigned int GIGLIFEOKKG_TypeDefinitionIndex = 63864;
 
 	class GIGLIFEOKKG : public ::System::Object
 	{

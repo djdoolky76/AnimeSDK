@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define MMIEDEIIAND___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C9D20)
-#define MMIEDEIIAND___C__DISPLAYCLASS1_0__GETAVATARBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xB9CAED0)
+#define MMIEDEIIAND___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x188F8280)
+#define MMIEDEIIAND___C__DISPLAYCLASS1_0__GETAVATARBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x188F9430)
 
-inline static constexpr unsigned int MMIEDEIIAND___c__DisplayClass1_0_TypeDefinitionIndex = 81217;
+inline static constexpr unsigned int MMIEDEIIAND___c__DisplayClass1_0_TypeDefinitionIndex = 83997;
 
 	class MMIEDEIIAND___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeEmojiRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D827650)
-#define RPG_GAMECORE_MATCHTHREEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8274B0)
+#define RPG_GAMECORE_MATCHTHREEEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5B9D0)
+#define RPG_GAMECORE_MATCHTHREEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB5B830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeEmojiRow_TypeDefinitionIndex = 11925;
+	inline static constexpr unsigned int MatchThreeEmojiRow_TypeDefinitionIndex = 11982;
 
 	class MatchThreeEmojiRow : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 namespace RPG::Client { class BattleGamePhaseInitParams; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS64_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC822B00)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS64_0___RESTARTLOADBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0xC834EE0)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS64_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C9010)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS64_0___RESTARTLOADBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0x1B1DB720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass64_0_TypeDefinitionIndex = 60969;
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass64_0_TypeDefinitionIndex = 62345;
 
 	class BattleGamePhase___c__DisplayClass64_0 : public ::System::Object
 	{

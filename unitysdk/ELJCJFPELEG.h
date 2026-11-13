@@ -5,11 +5,11 @@ namespace RPG::GameCore { class MazePuzzleOrigamiRow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ELJCJFPELEG_CTOR_OFFSET UNITYSDK_OFFSET(0x15519180)
-#define ELJCJFPELEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155191B0)
-#define ELJCJFPELEG_PCPEOJKDHPH_OFFSET UNITYSDK_OFFSET(0x15519680)
+#define ELJCJFPELEG_CTOR_OFFSET UNITYSDK_OFFSET(0x199AE730)
+#define ELJCJFPELEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199AE760)
+#define ELJCJFPELEG_PCPEOJKDHPH_OFFSET UNITYSDK_OFFSET(0x199AEC30)
 
-inline static constexpr unsigned int ELJCJFPELEG_TypeDefinitionIndex = 52927;
+inline static constexpr unsigned int ELJCJFPELEG_TypeDefinitionIndex = 54083;
 
 	class ELJCJFPELEG
 	{

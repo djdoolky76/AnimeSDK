@@ -4,18 +4,18 @@
 class HAEIIKKNAON;
 namespace System { class Object; }
 
-#define HAEIIKKNAON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4D5820)
-#define HAEIIKKNAON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4D5860)
-#define HAEIIKKNAON___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4D5870)
+#define HAEIIKKNAON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD0C430)
+#define HAEIIKKNAON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD0C470)
+#define HAEIIKKNAON___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD0C480)
 
-inline static constexpr unsigned int HAEIIKKNAON___c_TypeDefinitionIndex = 27702;
+inline static constexpr unsigned int HAEIIKKNAON___c_TypeDefinitionIndex = 28233;
 
 	class HAEIIKKNAON___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x248C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1EBA0);
 		}
 
 		static ::System::Void _cctor()

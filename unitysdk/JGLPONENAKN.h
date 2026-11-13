@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define JGLPONENAKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC64DF0)
-#define JGLPONENAKN_GET_CONSTKEY_OFFSET UNITYSDK_OFFSET(0x1CC64E70)
+#define JGLPONENAKN_CTOR_OFFSET UNITYSDK_OFFSET(0x209379D0)
+#define JGLPONENAKN_GET_CONSTKEY_OFFSET UNITYSDK_OFFSET(0x20937A50)
 
-inline static constexpr unsigned int JGLPONENAKN_TypeDefinitionIndex = 43872;
+inline static constexpr unsigned int JGLPONENAKN_TypeDefinitionIndex = 44947;
 
 	class JGLPONENAKN : public ::System::Attribute
 	{

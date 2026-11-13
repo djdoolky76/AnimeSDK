@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NBAEDIAACOE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1BDB90)
-#define NBAEDIAACOE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1BE770)
-#define NBAEDIAACOE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1BDF30)
-#define NBAEDIAACOE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1BDBD0)
-#define NBAEDIAACOE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1BE470)
-#define NBAEDIAACOE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1BDFD0)
-#define NBAEDIAACOE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1BE020)
-#define NBAEDIAACOE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1BDE00)
-#define NBAEDIAACOE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1BE410)
-#define NBAEDIAACOE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1BE5E0)
-#define NBAEDIAACOE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1BDE90)
-#define NBAEDIAACOE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1BE390)
+#define NBAEDIAACOE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E8904C0)
+#define NBAEDIAACOE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8910A0)
+#define NBAEDIAACOE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E890860)
+#define NBAEDIAACOE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E890500)
+#define NBAEDIAACOE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E890DA0)
+#define NBAEDIAACOE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E890900)
+#define NBAEDIAACOE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E890950)
+#define NBAEDIAACOE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E890730)
+#define NBAEDIAACOE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E890D40)
+#define NBAEDIAACOE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E890F10)
+#define NBAEDIAACOE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E8907C0)
+#define NBAEDIAACOE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E890CC0)
 
-inline static constexpr unsigned int NBAEDIAACOE_TypeDefinitionIndex = 15267;
+inline static constexpr unsigned int NBAEDIAACOE_TypeDefinitionIndex = 15423;
 
 	class NBAEDIAACOE : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotWikiSubdataRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotWikiSubdataRow*>**)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0x3E330);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0x3E338);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotWikiSubdataRow*>**)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0x4D7A0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0x3E340);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0x4D7A8);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0xEAD0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0x4D7B0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0xEAD1);
+			return (::System::Byte*)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0xEC90);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "NBAEDIAACOE")->GetStaticField(0xEC91);
 		}
 
 		static ::System::Void _cctor()

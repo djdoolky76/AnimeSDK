@@ -6,11 +6,11 @@ namespace RPG::Client::ParkourGame { class MonoParkourRoadMap; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURGAMELEVELCONFIGASSET_CTOR_OFFSET UNITYSDK_OFFSET(0xDA72F40)
+#define RPG_CLIENT_PARKOURGAME_PARKOURGAMELEVELCONFIGASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC11260)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourGameLevelConfigAsset_TypeDefinitionIndex = 74209;
+	inline static constexpr unsigned int ParkourGameLevelConfigAsset_TypeDefinitionIndex = 76357;
 
 	class ParkourGameLevelConfigAsset : public ::UnityEngine::ScriptableObject
 	{

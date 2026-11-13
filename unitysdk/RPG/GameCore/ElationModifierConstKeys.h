@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElationModifierConstKeys; }
 
-#define RPG_GAMECORE_ELATIONMODIFIERCONSTKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D604F90)
-#define RPG_GAMECORE_ELATIONMODIFIERCONSTKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D604EB0)
+#define RPG_GAMECORE_ELATIONMODIFIERCONSTKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DBA40)
+#define RPG_GAMECORE_ELATIONMODIFIERCONSTKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DB960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationModifierConstKeys_TypeDefinitionIndex = 17103;
+	inline static constexpr unsigned int ElationModifierConstKeys_TypeDefinitionIndex = 17270;
 
 	class ElationModifierConstKeys : public ::RPG::GameCore::JsonConfig
 	{

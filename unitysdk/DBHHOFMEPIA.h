@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetTargetAlertValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DBHHOFMEPIA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD81B0)
-#define DBHHOFMEPIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFD81E0)
+#define DBHHOFMEPIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B149BA0)
+#define DBHHOFMEPIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B149BD0)
 
-inline static constexpr unsigned int DBHHOFMEPIA_TypeDefinitionIndex = 52502;
+inline static constexpr unsigned int DBHHOFMEPIA_TypeDefinitionIndex = 53608;
 
 	class DBHHOFMEPIA
 	{

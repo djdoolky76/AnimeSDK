@@ -5,13 +5,13 @@
 namespace CriWare { class CriAtomExAcb; }
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMCUESHEET_CTOR_OFFSET UNITYSDK_OFFSET(0x166BC220)
-#define CRIWARE_CRIATOMCUESHEET_GET_ISERROR_OFFSET UNITYSDK_OFFSET(0x166BE530)
-#define CRIWARE_CRIATOMCUESHEET_GET_ISLOADING_OFFSET UNITYSDK_OFFSET(0x166BA000)
+#define CRIWARE_CRIATOMCUESHEET_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BDCE0)
+#define CRIWARE_CRIATOMCUESHEET_GET_ISERROR_OFFSET UNITYSDK_OFFSET(0x1E2BFFB0)
+#define CRIWARE_CRIATOMCUESHEET_GET_ISLOADING_OFFSET UNITYSDK_OFFSET(0x1E2BBAD0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomCueSheet_TypeDefinitionIndex = 39933;
+	inline static constexpr unsigned int CriAtomCueSheet_TypeDefinitionIndex = 40908;
 
 	class CriAtomCueSheet : public ::System::Object
 	{

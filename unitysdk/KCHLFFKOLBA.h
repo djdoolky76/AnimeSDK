@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchByTauntAndAggro; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KCHLFFKOLBA_CTOR_OFFSET UNITYSDK_OFFSET(0xB3303B0)
-#define KCHLFFKOLBA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB3303D0)
+#define KCHLFFKOLBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A483670)
+#define KCHLFFKOLBA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A483690)
 
-inline static constexpr unsigned int KCHLFFKOLBA_TypeDefinitionIndex = 59153;
+inline static constexpr unsigned int KCHLFFKOLBA_TypeDefinitionIndex = 60429;
 
 	class KCHLFFKOLBA
 	{

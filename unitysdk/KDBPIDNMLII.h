@@ -6,20 +6,20 @@ class FDPALAEIHPB;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define KDBPIDNMLII_CTOR_OFFSET UNITYSDK_OFFSET(0xB340370)
-#define KDBPIDNMLII_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB340480)
-#define KDBPIDNMLII_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB340380)
-#define KDBPIDNMLII_KILLKFDGKIH_OFFSET UNITYSDK_OFFSET(0xB340E20)
-#define KDBPIDNMLII_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB341220)
+#define KDBPIDNMLII_CTOR_OFFSET UNITYSDK_OFFSET(0x1A493310)
+#define KDBPIDNMLII_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A493420)
+#define KDBPIDNMLII_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A493320)
+#define KDBPIDNMLII_KILLKFDGKIH_OFFSET UNITYSDK_OFFSET(0x1A493DB0)
+#define KDBPIDNMLII_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1A4941B0)
 
-inline static constexpr unsigned int KDBPIDNMLII_TypeDefinitionIndex = 77271;
+inline static constexpr unsigned int KDBPIDNMLII_TypeDefinitionIndex = 79605;
 
 	class KDBPIDNMLII : public ::System::Object
 	{
 	public:
 		::FDPALAEIHPB* FKINCGODJEP; // 0x10
-		::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* NFBCHEEFOCK; // 0x18
-		::BNLHGENFEHG* PDENFEFCAGN; // 0x20
+		::BNLHGENFEHG* PDENFEFCAGN; // 0x18
+		::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* NFBCHEEFOCK; // 0x20
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::BNLHGENFEHG* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*, ::BNLHGENFEHG*))((::PBYTE)hIl2Cpp + KDBPIDNMLII_CTOR_OFFSET))(this, a1, a2);

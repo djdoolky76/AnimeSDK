@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HMJEJMGBLMM_PropVersion_TypeDefinitionIndex = 66016;
+inline static constexpr unsigned int HMJEJMGBLMM_PropVersion_TypeDefinitionIndex = 67948;
 
 	enum class HMJEJMGBLMM_PropVersion : ::System::Int32
 	{

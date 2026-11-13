@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ILayoutGroup_TypeDefinitionIndex = 6778;
+	inline static constexpr unsigned int ILayoutGroup_TypeDefinitionIndex = 6789;
 
 	class ILayoutGroup
 	{

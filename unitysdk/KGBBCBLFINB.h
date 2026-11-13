@@ -5,15 +5,15 @@ class GLPPDCIBMIH;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KGBBCBLFINB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E1110)
+#define KGBBCBLFINB_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF0A00)
 
-inline static constexpr unsigned int KGBBCBLFINB_TypeDefinitionIndex = 36499;
+inline static constexpr unsigned int KGBBCBLFINB_TypeDefinitionIndex = 37427;
 
 	class KGBBCBLFINB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* KCNEKEGGAGG; // 0x10
-		::System::String* OLOIFNNLKJP; // 0x18
+		::System::String* OLOIFNNLKJP; // 0x10
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* KCNEKEGGAGG; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KGBBCBLFINB_CTOR_OFFSET))(this);

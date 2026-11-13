@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetActionDelayNearTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJDLDAOPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FBE40)
-#define JJDLDAOPAGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1FBE70)
+#define JJDLDAOPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1742A8C0)
+#define JJDLDAOPAGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1742A8F0)
 
-inline static constexpr unsigned int JJDLDAOPAGE_TypeDefinitionIndex = 55335;
+inline static constexpr unsigned int JJDLDAOPAGE_TypeDefinitionIndex = 56517;
 
 	class JJDLDAOPAGE
 	{

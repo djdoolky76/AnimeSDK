@@ -5,10 +5,10 @@ class AEKEIBNBMDJ;
 namespace System { class Object; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define MEDMLOHPDPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B6DB0)
-#define MEDMLOHPDPA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB8B6D50)
+#define MEDMLOHPDPA_CTOR_OFFSET UNITYSDK_OFFSET(0x183F89E0)
+#define MEDMLOHPDPA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x183F8980)
 
-inline static constexpr unsigned int MEDMLOHPDPA_TypeDefinitionIndex = 49549;
+inline static constexpr unsigned int MEDMLOHPDPA_TypeDefinitionIndex = 50625;
 
 	class MEDMLOHPDPA : public ::System::Object
 	{

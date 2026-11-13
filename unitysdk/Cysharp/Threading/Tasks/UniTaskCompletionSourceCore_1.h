@@ -5,7 +5,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskCompletionSourceCore_1_TypeDefinitionIndex = 38393;
+	inline static constexpr unsigned int UniTaskCompletionSourceCore_1_TypeDefinitionIndex = 39322;
 
 	template <typename T>
 	struct alignas(8) UniTaskCompletionSourceCore_1

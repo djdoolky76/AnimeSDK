@@ -5,21 +5,21 @@ class OBJANKHLNGO;
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3DA7D0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_GET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0xD3DA890)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_SET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0xD3DA8A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xD3DA8B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBCCF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_GET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0x1CBBCDB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_SET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0x1CBBCDC0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1CBBCDD0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPostZoomInViewModel_TypeDefinitionIndex = 80478;
+	inline static constexpr unsigned int LimaoNewsPostZoomInViewModel_TypeDefinitionIndex = 83258;
 
 	class LimaoNewsPostZoomInViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::System::String* PrefabPath; // 0x20
-		::OBJANKHLNGO* _Messenger; // 0x28
-		::Sofa::Core::SimpleCommand* _OnBtnClose_k__BackingField; // 0x30
+		::Sofa::Core::SimpleCommand* _OnBtnClose_k__BackingField; // 0x20
+		::System::String* PrefabPath; // 0x28
+		::OBJANKHLNGO* _Messenger; // 0x30
 		::System::Void _ctor(::System::String* a1, ::OBJANKHLNGO* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::OBJANKHLNGO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_CTOR_OFFSET))(this, a1, a2);

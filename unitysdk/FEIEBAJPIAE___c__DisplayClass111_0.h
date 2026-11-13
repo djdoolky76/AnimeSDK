@@ -6,10 +6,10 @@ class BJIACBNKCCJ;
 class FEIEBAJPIAE;
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
-#define FEIEBAJPIAE___C__DISPLAYCLASS111_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156F67F0)
-#define FEIEBAJPIAE___C__DISPLAYCLASS111_0__DETECTCHARGINGROTATION_B__0_OFFSET UNITYSDK_OFFSET(0x15717440)
+#define FEIEBAJPIAE___C__DISPLAYCLASS111_0_CTOR_OFFSET UNITYSDK_OFFSET(0x130A6D30)
+#define FEIEBAJPIAE___C__DISPLAYCLASS111_0__DETECTCHARGINGROTATION_B__0_OFFSET UNITYSDK_OFFSET(0x130C7820)
 
-inline static constexpr unsigned int FEIEBAJPIAE___c__DisplayClass111_0_TypeDefinitionIndex = 75942;
+inline static constexpr unsigned int FEIEBAJPIAE___c__DisplayClass111_0_TypeDefinitionIndex = 78269;
 
 	class FEIEBAJPIAE___c__DisplayClass111_0 : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GGGIAPOEPLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C60E840)
+#define GGGIAPOEPLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA4C140)
 
-inline static constexpr unsigned int GGGIAPOEPLP_TypeDefinitionIndex = 36469;
+inline static constexpr unsigned int GGGIAPOEPLP_TypeDefinitionIndex = 37397;
 
 	class GGGIAPOEPLP : public ::System::Object
 	{

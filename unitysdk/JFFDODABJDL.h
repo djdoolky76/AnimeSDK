@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByMoveInputTowardsTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFFDODABJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x166358F0)
-#define JFFDODABJDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16635920)
+#define JFFDODABJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1932BF70)
+#define JFFDODABJDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1932BFA0)
 
-inline static constexpr unsigned int JFFDODABJDL_TypeDefinitionIndex = 53124;
+inline static constexpr unsigned int JFFDODABJDL_TypeDefinitionIndex = 54286;
 
 	class JFFDODABJDL
 	{

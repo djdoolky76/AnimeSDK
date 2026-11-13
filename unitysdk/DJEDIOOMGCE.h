@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AttackData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DJEDIOOMGCE_CTOR_OFFSET UNITYSDK_OFFSET(0xF229D10)
-#define DJEDIOOMGCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF229D80)
+#define DJEDIOOMGCE_CTOR_OFFSET UNITYSDK_OFFSET(0x18BE2D00)
+#define DJEDIOOMGCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18BE2D70)
 
-inline static constexpr unsigned int DJEDIOOMGCE_TypeDefinitionIndex = 56493;
+inline static constexpr unsigned int DJEDIOOMGCE_TypeDefinitionIndex = 57713;
 
 	class DJEDIOOMGCE : public ::System::Object
 	{

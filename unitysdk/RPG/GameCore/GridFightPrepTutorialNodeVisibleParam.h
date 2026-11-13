@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightPrepTutorialNodeVisibleParam; }
 
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALNODEVISIBLEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70CA90)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALNODEVISIBLEPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D70C930)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALNODEVISIBLEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA58AB0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALNODEVISIBLEPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA58950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialNodeVisibleParam_TypeDefinitionIndex = 19967;
+	inline static constexpr unsigned int GridFightPrepTutorialNodeVisibleParam_TypeDefinitionIndex = 20297;
 
 	class GridFightPrepTutorialNodeVisibleParam : public ::RPG::GameCore::JsonConfig
 	{

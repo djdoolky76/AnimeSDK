@@ -4,24 +4,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MuseumAreaRow; }
 
-#define RPG_GAMECORE_MUSEUMAREAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D897640)
-#define RPG_GAMECORE_MUSEUMAREAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D895F60)
+#define RPG_GAMECORE_MUSEUMAREAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E488380)
+#define RPG_GAMECORE_MUSEUMAREAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E486CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumAreaRow_TypeDefinitionIndex = 14218;
+	inline static constexpr unsigned int MuseumAreaRow_TypeDefinitionIndex = 14375;
 
 	class MuseumAreaRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FundCost; // 0x10
+		::System::UInt32 AreaID; // 0x10
 		::System::UInt32 Level; // 0x14
-		::System::UInt32 AreaID; // 0x18
+		::System::UInt32 RequireStatsC; // 0x18
 		::System::UInt32 RequireStatsB; // 0x1C
-		::System::UInt32 RequireStatsC; // 0x20
+		::System::UInt32 FundCost; // 0x20
 		::System::UInt32 PhaseLimit; // 0x24
-		::System::UInt32 RequireStatsA; // 0x28
-		::System::UInt32 RenewPoint; // 0x2C
+		::System::UInt32 RenewPoint; // 0x28
+		::System::UInt32 RequireStatsA; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMAREAROW_CTOR_OFFSET))(this);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define COAKKNPDPCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A99B0)
+#define COAKKNPDPCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5E3B0)
 
-inline static constexpr unsigned int COAKKNPDPCM_TypeDefinitionIndex = 36447;
+inline static constexpr unsigned int COAKKNPDPCM_TypeDefinitionIndex = 37375;
 
 	class COAKKNPDPCM : public ::System::Object
 	{

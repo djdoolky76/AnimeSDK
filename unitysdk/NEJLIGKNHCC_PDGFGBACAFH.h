@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NEJLIGKNHCC_PDGFGBACAFH_CTOR_OFFSET UNITYSDK_OFFSET(0x10D20)
+#define NEJLIGKNHCC_PDGFGBACAFH_CTOR_OFFSET UNITYSDK_OFFSET(0x3D73C50)
 
-inline static constexpr unsigned int NEJLIGKNHCC_PDGFGBACAFH_TypeDefinitionIndex = 69295;
+inline static constexpr unsigned int NEJLIGKNHCC_PDGFGBACAFH_TypeDefinitionIndex = 71249;
 
 	struct alignas(4) NEJLIGKNHCC_PDGFGBACAFH
 	{

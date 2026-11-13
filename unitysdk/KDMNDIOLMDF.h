@@ -11,47 +11,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KDMNDIOLMDF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0567B0)
-#define KDMNDIOLMDF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D056D80)
-#define KDMNDIOLMDF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D056920)
-#define KDMNDIOLMDF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D056220)
-#define KDMNDIOLMDF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0564B0)
-#define KDMNDIOLMDF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0569C0)
-#define KDMNDIOLMDF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D056A10)
-#define KDMNDIOLMDF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0567F0)
-#define KDMNDIOLMDF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D056450)
-#define KDMNDIOLMDF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D056620)
-#define KDMNDIOLMDF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D056880)
-#define KDMNDIOLMDF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0561A0)
+#define KDMNDIOLMDF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F40EF30)
+#define KDMNDIOLMDF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F40F500)
+#define KDMNDIOLMDF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F40F0A0)
+#define KDMNDIOLMDF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F40E9A0)
+#define KDMNDIOLMDF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F40EC30)
+#define KDMNDIOLMDF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F40F140)
+#define KDMNDIOLMDF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F40F190)
+#define KDMNDIOLMDF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F40EF70)
+#define KDMNDIOLMDF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F40EBD0)
+#define KDMNDIOLMDF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F40EDA0)
+#define KDMNDIOLMDF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F40F000)
+#define KDMNDIOLMDF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F40E920)
 
-inline static constexpr unsigned int KDMNDIOLMDF_TypeDefinitionIndex = 14490;
+inline static constexpr unsigned int KDMNDIOLMDF_TypeDefinitionIndex = 14645;
 
 	class KDMNDIOLMDF : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhotoGraphConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhotoGraphConfigRow*>**)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0x333D0);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0x33E60);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0x333D8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0x33E68);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhotoGraphConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhotoGraphConfigRow*>**)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0x33E70);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0xA8C0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0x333E0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0xA8C1);
+			return (::System::Boolean*)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0x9F00);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "KDMNDIOLMDF")->GetStaticField(0x9F01);
 		}
 
 		static ::System::Void _cctor()

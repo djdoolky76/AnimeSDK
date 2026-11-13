@@ -4,7 +4,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Entitas
 {
-	inline static constexpr unsigned int PrimaryEntityIndex_2_TypeDefinitionIndex = 10022;
+	inline static constexpr unsigned int PrimaryEntityIndex_2_TypeDefinitionIndex = 10030;
 
 	template <typename T1, typename T2>
 	class PrimaryEntityIndex_2

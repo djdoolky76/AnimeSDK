@@ -3,7 +3,7 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLINCLUDEATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EED9A30)
+#define SYSTEM_XML_SERIALIZATION_XMLINCLUDEATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C67CA70)
 
 namespace System::Xml::Serialization
 {

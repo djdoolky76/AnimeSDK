@@ -3,10 +3,10 @@
 class DLDHCDCAEPM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMKIIKIPIBE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C7EE0)
-#define LMKIIKIPIBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7C7F10)
+#define LMKIIKIPIBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD44F0)
+#define LMKIIKIPIBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AFD4520)
 
-inline static constexpr unsigned int LMKIIKIPIBE_TypeDefinitionIndex = 53840;
+inline static constexpr unsigned int LMKIIKIPIBE_TypeDefinitionIndex = 55004;
 
 	class LMKIIKIPIBE
 	{

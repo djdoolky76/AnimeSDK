@@ -4,18 +4,18 @@
 class CAFBLIGHAMO;
 namespace System { class Object; }
 
-#define CAFBLIGHAMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E02B370)
-#define CAFBLIGHAMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E02B3A0)
-#define CAFBLIGHAMO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E02B3B0)
+#define CAFBLIGHAMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2034B1E0)
+#define CAFBLIGHAMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2034B210)
+#define CAFBLIGHAMO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2034B220)
 
-inline static constexpr unsigned int CAFBLIGHAMO___c_TypeDefinitionIndex = 34316;
+inline static constexpr unsigned int CAFBLIGHAMO___c_TypeDefinitionIndex = 35244;
 
 	class CAFBLIGHAMO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60400);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F860);
 		}
 
 		static ::System::Void _cctor()

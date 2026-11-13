@@ -5,11 +5,11 @@ namespace RPG::GameCore { class TargetFetchPartner; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LOBHHEKBHPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ECB30)
-#define LOBHHEKBHPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7ECB80)
-#define LOBHHEKBHPL_LILHLFMNACJ_OFFSET UNITYSDK_OFFSET(0xB7ECDF0)
+#define LOBHHEKBHPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5A05E0)
+#define LOBHHEKBHPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A5A0630)
+#define LOBHHEKBHPL_LILHLFMNACJ_OFFSET UNITYSDK_OFFSET(0x1A5A08A0)
 
-inline static constexpr unsigned int LOBHHEKBHPL_TypeDefinitionIndex = 59233;
+inline static constexpr unsigned int LOBHHEKBHPL_TypeDefinitionIndex = 60510;
 
 	class LOBHHEKBHPL
 	{

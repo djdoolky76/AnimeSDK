@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 class NPGCEFKJOIN;
 
-#define NKACLCFEGIB_JPEEKAAOCHI_OFFSET UNITYSDK_OFFSET(0x3C308A0)
+#define NKACLCFEGIB_JPEEKAAOCHI_OFFSET UNITYSDK_OFFSET(0x3F0F250)
 
-inline static constexpr unsigned int NKACLCFEGIB_TypeDefinitionIndex = 42175;
+inline static constexpr unsigned int NKACLCFEGIB_TypeDefinitionIndex = 43150;
 
 	struct alignas(8) NKACLCFEGIB
 	{

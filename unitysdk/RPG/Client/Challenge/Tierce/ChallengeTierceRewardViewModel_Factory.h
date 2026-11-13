@@ -5,12 +5,12 @@ class NHCHDKJLNBJ;
 namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRewardViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEREWARDVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC94C180)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEREWARDVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC94C170)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEREWARDVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1DDE9930)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEREWARDVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE9920)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceRewardViewModel_Factory_TypeDefinitionIndex = 81615;
+	inline static constexpr unsigned int ChallengeTierceRewardViewModel_Factory_TypeDefinitionIndex = 84396;
 
 	class ChallengeTierceRewardViewModel_Factory : public ::System::Object
 	{

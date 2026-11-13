@@ -8,53 +8,53 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define NFAHODNHEKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C764BB0)
-#define NFAHODNHEKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C764BF0)
-#define NFAHODNHEKK___C__AUTOBETALLREMAINPLAYER_B__11_0_OFFSET UNITYSDK_OFFSET(0x1C764C20)
-#define NFAHODNHEKK___C__AUTOBETALLREMAINPLAYER_B__11_1_OFFSET UNITYSDK_OFFSET(0x1C764C80)
-#define NFAHODNHEKK___C__ONENTERFIELDSHOW_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C764C00)
-#define NFAHODNHEKK___C__ONENTERFIGHTENDSHOW_B__24_0_OFFSET UNITYSDK_OFFSET(0x1C764D40)
-#define NFAHODNHEKK___C__ONENTERFIGHTENDSHOW_B__24_1_OFFSET UNITYSDK_OFFSET(0x1C764D50)
-#define NFAHODNHEKK___C___TRYADDSPECIALEFFECTFORVOTE_B__15_0_OFFSET UNITYSDK_OFFSET(0x1C764CE0)
+#define NFAHODNHEKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x160A5400)
+#define NFAHODNHEKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x160A5440)
+#define NFAHODNHEKK___C__AUTOBETALLREMAINPLAYER_B__11_0_OFFSET UNITYSDK_OFFSET(0x160A5470)
+#define NFAHODNHEKK___C__AUTOBETALLREMAINPLAYER_B__11_1_OFFSET UNITYSDK_OFFSET(0x160A54D0)
+#define NFAHODNHEKK___C__ONENTERFIELDSHOW_B__7_0_OFFSET UNITYSDK_OFFSET(0x160A5450)
+#define NFAHODNHEKK___C__ONENTERFIGHTENDSHOW_B__24_0_OFFSET UNITYSDK_OFFSET(0x160A5590)
+#define NFAHODNHEKK___C__ONENTERFIGHTENDSHOW_B__24_1_OFFSET UNITYSDK_OFFSET(0x160A55A0)
+#define NFAHODNHEKK___C___TRYADDSPECIALEFFECTFORVOTE_B__15_0_OFFSET UNITYSDK_OFFSET(0x160A5530)
 
-inline static constexpr unsigned int NFAHODNHEKK___c_TypeDefinitionIndex = 37317;
+inline static constexpr unsigned int NFAHODNHEKK___c_TypeDefinitionIndex = 38245;
 
 	class NFAHODNHEKK___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::UInt32>** StaticGet___9__7_0()
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17CE0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17CE8);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>** StaticGet___9__24_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17CF0);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>** StaticGet___9__24_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17CF8);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>** StaticGet___9__11_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17D00);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C60);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17D08);
+			return (::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C68);
 		}
 
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__15_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>** StaticGet___9__24_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17D10);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C70);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>** StaticGet___9__24_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C78);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::UInt32>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C80);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>** StaticGet___9__11_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C88);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C90);
 		}
 
 		static ::System::Void _cctor()

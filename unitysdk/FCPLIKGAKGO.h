@@ -7,37 +7,37 @@ namespace Sofa::Core { class SimpleCommand; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FCPLIKGAKGO_COPGACEDIEI_OFFSET UNITYSDK_OFFSET(0x156C5290)
-#define FCPLIKGAKGO_CTOR_OFFSET UNITYSDK_OFFSET(0x156C49F0)
-#define FCPLIKGAKGO_DEMDIHFEGLH_OFFSET UNITYSDK_OFFSET(0x156C5020)
-#define FCPLIKGAKGO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156C51C0)
-#define FCPLIKGAKGO_GET_COUNTTEXT_OFFSET UNITYSDK_OFFSET(0x156C48D0)
-#define FCPLIKGAKGO_GET_CURRENCYID_OFFSET UNITYSDK_OFFSET(0x156C48B0)
-#define FCPLIKGAKGO_GET_ENABLENAVIGATION_OFFSET UNITYSDK_OFFSET(0x156C4920)
-#define FCPLIKGAKGO_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x156C48C0)
-#define FCPLIKGAKGO_GET_SHOWMAX_OFFSET UNITYSDK_OFFSET(0x156C4910)
-#define FCPLIKGAKGO_GET_SHOWPLUSBUTTON_OFFSET UNITYSDK_OFFSET(0x156C48E0)
-#define FCPLIKGAKGO_GET_SHOWTOTALNUM_OFFSET UNITYSDK_OFFSET(0x156C48F0)
-#define FCPLIKGAKGO_GET_TOTALNUMTEXT_OFFSET UNITYSDK_OFFSET(0x156C4900)
-#define FCPLIKGAKGO_JLCGDPMCIGE_OFFSET UNITYSDK_OFFSET(0x156C4FD0)
-#define FCPLIKGAKGO_LCJNBFLNDOI_OFFSET UNITYSDK_OFFSET(0x156C4930)
-#define FCPLIKGAKGO_OKMAEFDNKJL_OFFSET UNITYSDK_OFFSET(0x156C5240)
+#define FCPLIKGAKGO_COPGACEDIEI_OFFSET UNITYSDK_OFFSET(0x1C02B410)
+#define FCPLIKGAKGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C02AB70)
+#define FCPLIKGAKGO_DEMDIHFEGLH_OFFSET UNITYSDK_OFFSET(0x1C02B1A0)
+#define FCPLIKGAKGO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C02B340)
+#define FCPLIKGAKGO_GET_COUNTTEXT_OFFSET UNITYSDK_OFFSET(0x1C02AA50)
+#define FCPLIKGAKGO_GET_CURRENCYID_OFFSET UNITYSDK_OFFSET(0x1C02AA30)
+#define FCPLIKGAKGO_GET_ENABLENAVIGATION_OFFSET UNITYSDK_OFFSET(0x1C02AAA0)
+#define FCPLIKGAKGO_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1C02AA40)
+#define FCPLIKGAKGO_GET_SHOWMAX_OFFSET UNITYSDK_OFFSET(0x1C02AA90)
+#define FCPLIKGAKGO_GET_SHOWPLUSBUTTON_OFFSET UNITYSDK_OFFSET(0x1C02AA60)
+#define FCPLIKGAKGO_GET_SHOWTOTALNUM_OFFSET UNITYSDK_OFFSET(0x1C02AA70)
+#define FCPLIKGAKGO_GET_TOTALNUMTEXT_OFFSET UNITYSDK_OFFSET(0x1C02AA80)
+#define FCPLIKGAKGO_JLCGDPMCIGE_OFFSET UNITYSDK_OFFSET(0x1C02B150)
+#define FCPLIKGAKGO_LCJNBFLNDOI_OFFSET UNITYSDK_OFFSET(0x1C02AAB0)
+#define FCPLIKGAKGO_OKMAEFDNKJL_OFFSET UNITYSDK_OFFSET(0x1C02B3C0)
 
-inline static constexpr unsigned int FCPLIKGAKGO_TypeDefinitionIndex = 79146;
+inline static constexpr unsigned int FCPLIKGAKGO_TypeDefinitionIndex = 81922;
 
 	class FCPLIKGAKGO : public ::System::Object
 	{
 	public:
-		::R3::ReactiveProperty_1<::System::String*>* _IconPath_k__BackingField; // 0x10
-		::R3::ReactiveProperty_1<::System::String*>* _CountText_k__BackingField; // 0x18
-		::R3::ReactiveProperty_1<::System::Boolean>* _ShowTotalNum_k__BackingField; // 0x20
+		::R3::ReactiveProperty_1<::System::Boolean>* _ShowMax_k__BackingField; // 0x10
+		::R3::ReactiveProperty_1<::System::String*>* _TotalNumText_k__BackingField; // 0x18
+		::R3::ReactiveProperty_1<::System::String*>* _CountText_k__BackingField; // 0x20
 		::R3::ReactiveProperty_1<::System::Boolean>* _EnableNavigation_k__BackingField; // 0x28
-		::R3::ReactiveProperty_1<::System::Boolean>* _ShowMax_k__BackingField; // 0x30
-		::R3::ReactiveProperty_1<::System::String*>* _TotalNumText_k__BackingField; // 0x38
-		::Sofa::Core::SimpleCommand* EAGJDPFNCPF; // 0x40
-		::R3::ReactiveProperty_1<::System::Boolean>* _ShowPlusButton_k__BackingField; // 0x48
-		::System::UInt32 IDMKFFMGJJJ; // 0x50
-		::System::UInt32 _CurrencyID_k__BackingField; // 0x54
+		::Sofa::Core::SimpleCommand* EAGJDPFNCPF; // 0x30
+		::R3::ReactiveProperty_1<::System::String*>* _IconPath_k__BackingField; // 0x38
+		::R3::ReactiveProperty_1<::System::Boolean>* _ShowPlusButton_k__BackingField; // 0x40
+		::R3::ReactiveProperty_1<::System::Boolean>* _ShowTotalNum_k__BackingField; // 0x48
+		::System::UInt32 _CurrencyID_k__BackingField; // 0x50
+		::System::UInt32 IDMKFFMGJJJ; // 0x54
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + FCPLIKGAKGO_CTOR_OFFSET))(this, a1);

@@ -3,11 +3,11 @@
 #include "unitysdk/EnviromentSystem/EnviroProperty.h"
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEM_ENVIROGUIFOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x155E90B0)
+#define ENVIROMENTSYSTEM_ENVIROGUIFOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x16B563F0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGUIFolder_TypeDefinitionIndex = 49622;
+	inline static constexpr unsigned int EnviroGUIFolder_TypeDefinitionIndex = 50698;
 
 	class EnviroGUIFolder : public ::EnviromentSystem::EnviroProperty
 	{

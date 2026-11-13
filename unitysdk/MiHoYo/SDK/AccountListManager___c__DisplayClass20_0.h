@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class AccountModel; }
 
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC02D50)
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__GETACCOUNTINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1BC03A40)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B43E370)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__GETACCOUNTINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1B43F060)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountListManager___c__DisplayClass20_0_TypeDefinitionIndex = 7986;
+	inline static constexpr unsigned int AccountListManager___c__DisplayClass20_0_TypeDefinitionIndex = 7995;
 
 	class AccountListManager___c__DisplayClass20_0 : public ::System::Object
 	{

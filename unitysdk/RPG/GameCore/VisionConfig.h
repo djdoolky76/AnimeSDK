@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class VisionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VISIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC62E80)
-#define RPG_GAMECORE_VISIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC62EC0)
-#define RPG_GAMECORE_VISIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC631E0)
+#define RPG_GAMECORE_VISIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED4E3F0)
+#define RPG_GAMECORE_VISIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED4E430)
+#define RPG_GAMECORE_VISIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED4E750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VisionConfig_TypeDefinitionIndex = 17512;
+	inline static constexpr unsigned int VisionConfig_TypeDefinitionIndex = 17680;
 
 	class VisionConfig : public ::RPG::GameCore::VisionBaseConfig
 	{

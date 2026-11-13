@@ -5,14 +5,14 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_ANOJNLJFJCG_OFFSET UNITYSDK_OFFSET(0xD7BA970)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7BAB40)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xD7BAA70)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD7BA560)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_ANOJNLJFJCG_OFFSET UNITYSDK_OFFSET(0x19369E10)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1936A110)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_CTOR_OFFSET UNITYSDK_OFFSET(0x19369FA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0x19369A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginAuraOutline_TypeDefinitionIndex = 69935;
+	inline static constexpr unsigned int MonoEffectPluginAuraOutline_TypeDefinitionIndex = 71894;
 
 	class MonoEffectPluginAuraOutline : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
@@ -39,67 +39,67 @@ namespace RPG::Client
 		::System::Boolean ShowID7; // 0x2A5
 		static ::Il2CppArray<::System::Int32>** StaticGet_CJNJFEIAECK()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x5F5F0);
-		}
-
-		static ::System::Int32* StaticGet_EMBEMDDBENG()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14360);
-		}
-
-		static ::System::Int32* StaticGet_IAOODBDDNJI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14364);
-		}
-
-		static ::System::Int32* StaticGet_BCPDFKGFOOF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14368);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x69CE0);
 		}
 
 		static ::System::Int32* StaticGet_DHHCNGLJLEN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x1436C);
-		}
-
-		static ::System::Int32* StaticGet_IGCLPGGJINP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14370);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14D90);
 		}
 
 		static ::System::Int32* StaticGet_GKGDBANLPJD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14374);
-		}
-
-		static ::System::Int32* StaticGet_KBGHONJEEAB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14378);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14D94);
 		}
 
 		static ::System::Int32* StaticGet_PIMBGNJOEPF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x1437C);
-		}
-
-		static ::System::Int32* StaticGet_BPLIPDPAGGD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14380);
-		}
-
-		static ::System::Int32* StaticGet_NADJGIMJGIP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14384);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14D98);
 		}
 
 		static ::System::Int32* StaticGet_NFOELAMKEND()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14388);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14D9C);
+		}
+
+		static ::System::Int32* StaticGet_IAOODBDDNJI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14DA0);
+		}
+
+		static ::System::Int32* StaticGet_BPLIPDPAGGD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14DA4);
+		}
+
+		static ::System::Int32* StaticGet_NADJGIMJGIP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14DA8);
+		}
+
+		static ::System::Int32* StaticGet_IGCLPGGJINP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14DAC);
+		}
+
+		static ::System::Int32* StaticGet_EMBEMDDBENG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14DB0);
 		}
 
 		static ::System::Int32* StaticGet_LGOPPJIALAK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x1438C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14DB4);
+		}
+
+		static ::System::Int32* StaticGet_KBGHONJEEAB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14DB8);
+		}
+
+		static ::System::Int32* StaticGet_BCPDFKGFOOF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAuraOutline")->GetStaticField(0x14DBC);
 		}
 
 		::System::Void _ctor()

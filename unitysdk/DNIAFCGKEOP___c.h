@@ -4,18 +4,18 @@
 class DNIAFCGKEOP;
 namespace System { class Object; }
 
-#define DNIAFCGKEOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1CA0A0)
-#define DNIAFCGKEOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CA0E0)
-#define DNIAFCGKEOP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1CA0F0)
+#define DNIAFCGKEOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201E7810)
+#define DNIAFCGKEOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201E7850)
+#define DNIAFCGKEOP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x201E7860)
 
-inline static constexpr unsigned int DNIAFCGKEOP___c_TypeDefinitionIndex = 34884;
+inline static constexpr unsigned int DNIAFCGKEOP___c_TypeDefinitionIndex = 35812;
 
 	class DNIAFCGKEOP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37120);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36610);
 		}
 
 		static ::System::Void _cctor()

@@ -7,13 +7,13 @@
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F251460)
-#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2521F0)
-#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F251470)
+#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2A7F00)
+#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A8C90)
+#define UNITYENGINE_PROBUILDER_SHAPES_PRISM_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2A7F10)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 44465;
+	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 45540;
 
 	class Prism : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{

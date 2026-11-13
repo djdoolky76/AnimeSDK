@@ -3,7 +3,7 @@
 #include "unitysdk/System/Threading/WaitHandle.h"
 namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 
-#define SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDD9B0)
+#define SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C19A200)
 
 namespace System::Diagnostics
 {

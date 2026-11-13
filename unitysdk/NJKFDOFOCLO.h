@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NJKFDOFOCLO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC141E0)
+#define NJKFDOFOCLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A796710)
 
-inline static constexpr unsigned int NJKFDOFOCLO_TypeDefinitionIndex = 55849;
+inline static constexpr unsigned int NJKFDOFOCLO_TypeDefinitionIndex = 57052;
 
 	class NJKFDOFOCLO : public ::System::Object
 	{

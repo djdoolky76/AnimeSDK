@@ -4,18 +4,18 @@
 class JPNGFKCALEK;
 namespace System { class Object; }
 
-#define JPNGFKCALEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7AD020)
-#define JPNGFKCALEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AD060)
-#define JPNGFKCALEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7AD070)
+#define JPNGFKCALEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8E5970)
+#define JPNGFKCALEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8E59B0)
+#define JPNGFKCALEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F8E59C0)
 
-inline static constexpr unsigned int JPNGFKCALEK___c_TypeDefinitionIndex = 34534;
+inline static constexpr unsigned int JPNGFKCALEK___c_TypeDefinitionIndex = 35462;
 
 	class JPNGFKCALEK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB150);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69290);
 		}
 
 		static ::System::Void _cctor()

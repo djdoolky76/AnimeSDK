@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int RedDotChecker_1_TypeDefinitionIndex = 79156;
+	inline static constexpr unsigned int RedDotChecker_1_TypeDefinitionIndex = 81932;
 
 	template <typename T>
 	class RedDotChecker_1 : public ::System::Object

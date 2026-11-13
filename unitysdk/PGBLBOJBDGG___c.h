@@ -8,29 +8,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define PGBLBOJBDGG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9BA600)
-#define PGBLBOJBDGG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BA640)
-#define PGBLBOJBDGG___C___CTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1C9BA650)
-#define PGBLBOJBDGG___C___CTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1C9BA680)
+#define PGBLBOJBDGG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x176BD560)
+#define PGBLBOJBDGG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x176BD5A0)
+#define PGBLBOJBDGG___C___CTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x176BD5B0)
+#define PGBLBOJBDGG___C___CTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x176BD5E0)
 
-inline static constexpr unsigned int PGBLBOJBDGG___c_TypeDefinitionIndex = 42584;
+inline static constexpr unsigned int PGBLBOJBDGG___c_TypeDefinitionIndex = 43563;
 
 	class PGBLBOJBDGG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B820);
-		}
-
 		static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__23_0()
 		{
-			return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B828);
+			return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59750);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59758);
 		}
 
 		static ::System::Func_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet___9__23_1()
 		{
-			return (::System::Func_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B830);
+			return (::System::Func_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59760);
 		}
 
 		static ::System::Void _cctor()

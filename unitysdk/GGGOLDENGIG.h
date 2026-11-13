@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvLockSpecialTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GGGOLDENGIG_CTOR_OFFSET UNITYSDK_OFFSET(0x159F8C00)
-#define GGGOLDENGIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159F8C30)
+#define GGGOLDENGIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A20D0)
+#define GGGOLDENGIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4A2100)
 
-inline static constexpr unsigned int GGGOLDENGIG_TypeDefinitionIndex = 52391;
+inline static constexpr unsigned int GGGOLDENGIG_TypeDefinitionIndex = 53497;
 
 	class GGGOLDENGIG
 	{

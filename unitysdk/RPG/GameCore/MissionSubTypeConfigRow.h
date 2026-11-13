@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionSubTypeConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONSUBTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85C330)
-#define RPG_GAMECORE_MISSIONSUBTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D85BCF0)
+#define RPG_GAMECORE_MISSIONSUBTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6EE8E0)
+#define RPG_GAMECORE_MISSIONSUBTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6EE2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionSubTypeConfigRow_TypeDefinitionIndex = 14151;
+	inline static constexpr unsigned int MissionSubTypeConfigRow_TypeDefinitionIndex = 14308;
 
 	class MissionSubTypeConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ShowIconPath; // 0x10
-		::System::UInt32 TypePriority; // 0x18
-		::RPG::GameCore::MainMissionSubType Type; // 0x1C
+		::RPG::GameCore::MainMissionSubType Type; // 0x18
+		::System::UInt32 TypePriority; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONSUBTYPECONFIGROW_CTOR_OFFSET))(this);

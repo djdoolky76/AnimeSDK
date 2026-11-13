@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Widget.h"
 namespace System { class Action; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_CTOR_OFFSET UNITYSDK_OFFSET(0x1F273FC0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1F28F890)
-#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1F28F8A0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4A2060)
+#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1E4BD980)
+#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1E4BD990)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Button_TypeDefinitionIndex = 35549;
+	inline static constexpr unsigned int DebugUI_Button_TypeDefinitionIndex = 36477;
 
 	class DebugUI_Button : public ::UnityEngine::Rendering::DebugUI_Widget
 	{

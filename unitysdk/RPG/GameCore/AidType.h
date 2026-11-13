@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AidType_TypeDefinitionIndex = 10466;
+	inline static constexpr unsigned int AidType_TypeDefinitionIndex = 10477;
 
 	enum class AidType : ::System::Int32
 	{

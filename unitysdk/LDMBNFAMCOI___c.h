@@ -5,23 +5,23 @@ class ECNEEKNHIOE;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define LDMBNFAMCOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB637370)
-#define LDMBNFAMCOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB6373B0)
-#define LDMBNFAMCOI___C__GETBOSSENEMY_B__5_0_OFFSET UNITYSDK_OFFSET(0xB6373C0)
+#define LDMBNFAMCOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC997A0)
+#define LDMBNFAMCOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC997E0)
+#define LDMBNFAMCOI___C__GETBOSSENEMY_B__5_0_OFFSET UNITYSDK_OFFSET(0x1AC997F0)
 
-inline static constexpr unsigned int LDMBNFAMCOI___c_TypeDefinitionIndex = 81001;
+inline static constexpr unsigned int LDMBNFAMCOI___c_TypeDefinitionIndex = 83781;
 
 	class LDMBNFAMCOI___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x594B0);
-		}
-
 		static ::System::Predicate_1<::ECNEEKNHIOE*>** StaticGet___9__5_0()
 		{
-			return (::System::Predicate_1<::ECNEEKNHIOE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x594B8);
+			return (::System::Predicate_1<::ECNEEKNHIOE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57B20);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57B28);
 		}
 
 		static ::System::Void _cctor()

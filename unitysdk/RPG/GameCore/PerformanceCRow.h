@@ -7,25 +7,25 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceCRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCECROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CAA40)
-#define RPG_GAMECORE_PERFORMANCECROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8CA2C0)
+#define RPG_GAMECORE_PERFORMANCECROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14CAA0)
+#define RPG_GAMECORE_PERFORMANCECROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F14C320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceCRow_TypeDefinitionIndex = 14328;
+	inline static constexpr unsigned int PerformanceCRow_TypeDefinitionIndex = 14485;
 
 	class PerformanceCRow : public ::System::Object
 	{
 	public:
 		::System::String* PerformancePath; // 0x10
-		::System::UInt32 PerformanceID; // 0x18
+		::System::UInt32 FloorID; // 0x18
 		::System::Boolean EndWithCrack; // 0x1C
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x20
-		::System::UInt32 FloorID; // 0x24
-		::System::UInt32 PlaneID; // 0x28
-		::RPG::GameCore::StoryBlackType StartBlack; // 0x2C
-		::RPG::GameCore::StoryBlackType EndBlack; // 0x30
+		::RPG::GameCore::StoryBlackType StartBlack; // 0x20
+		::RPG::GameCore::StoryBlackType EndBlack; // 0x24
+		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x28
+		::System::UInt32 PlaneID; // 0x2C
+		::System::UInt32 PerformanceID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCECROW_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMainMissionState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AOJFBECBFLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x158A55A0)
-#define AOJFBECBFLJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158A55D0)
+#define AOJFBECBFLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A84A820)
+#define AOJFBECBFLJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A84A850)
 
-inline static constexpr unsigned int AOJFBECBFLJ_TypeDefinitionIndex = 52577;
+inline static constexpr unsigned int AOJFBECBFLJ_TypeDefinitionIndex = 53683;
 
 	class AOJFBECBFLJ
 	{

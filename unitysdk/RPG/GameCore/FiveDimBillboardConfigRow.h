@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimBillboardConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMBILLBOARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D685BD0)
-#define RPG_GAMECORE_FIVEDIMBILLBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D685AD0)
+#define RPG_GAMECORE_FIVEDIMBILLBOARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E852E40)
+#define RPG_GAMECORE_FIVEDIMBILLBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E852D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBillboardConfigRow_TypeDefinitionIndex = 12553;
+	inline static constexpr unsigned int FiveDimBillboardConfigRow_TypeDefinitionIndex = 12620;
 
 	class FiveDimBillboardConfigRow : public ::System::Object
 	{

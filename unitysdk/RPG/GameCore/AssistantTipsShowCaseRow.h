@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AssistantTipsShowCaseRow; }
 
-#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D3630)
-#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D34D0)
+#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB88D0)
+#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEB8770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistantTipsShowCaseRow_TypeDefinitionIndex = 12674;
+	inline static constexpr unsigned int AssistantTipsShowCaseRow_TypeDefinitionIndex = 12741;
 
 	class AssistantTipsShowCaseRow : public ::System::Object
 	{

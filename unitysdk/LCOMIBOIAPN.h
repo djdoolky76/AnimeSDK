@@ -6,23 +6,23 @@ namespace RPG::GameCore { class ModifierBehaviorVisual; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LCOMIBOIAPN_BHLEPGPACGM_OFFSET UNITYSDK_OFFSET(0xB613E40)
-#define LCOMIBOIAPN_CCTOR_OFFSET UNITYSDK_OFFSET(0xB614620)
-#define LCOMIBOIAPN_CTOR_OFFSET UNITYSDK_OFFSET(0xB614560)
-#define LCOMIBOIAPN_KOAGINAEBGO_OFFSET UNITYSDK_OFFSET(0xB6143E0)
-#define LCOMIBOIAPN_NFDCJEIHOJH_OFFSET UNITYSDK_OFFSET(0xB6144A0)
-#define LCOMIBOIAPN_PEJCNLBKIGN_OFFSET UNITYSDK_OFFSET(0xB613F70)
+#define LCOMIBOIAPN_BHLEPGPACGM_OFFSET UNITYSDK_OFFSET(0x1AC729B0)
+#define LCOMIBOIAPN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC73190)
+#define LCOMIBOIAPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC730D0)
+#define LCOMIBOIAPN_KOAGINAEBGO_OFFSET UNITYSDK_OFFSET(0x1AC72F50)
+#define LCOMIBOIAPN_NFDCJEIHOJH_OFFSET UNITYSDK_OFFSET(0x1AC73010)
+#define LCOMIBOIAPN_PEJCNLBKIGN_OFFSET UNITYSDK_OFFSET(0x1AC72AE0)
 
-inline static constexpr unsigned int LCOMIBOIAPN_TypeDefinitionIndex = 54429;
+inline static constexpr unsigned int LCOMIBOIAPN_TypeDefinitionIndex = 55593;
 
 	class LCOMIBOIAPN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorVisual*>* MLMOKAFJPOF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* EFLDGELNJJL; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* EFLDGELNJJL; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorVisual*>* MLMOKAFJPOF; // 0x18
 		static ::LCOMIBOIAPN** StaticGet_FFLJMCNLHFH()
 		{
-			return (::LCOMIBOIAPN**)UnitySDK::FromName("", "LCOMIBOIAPN")->GetStaticField(0x1F9E0);
+			return (::LCOMIBOIAPN**)UnitySDK::FromName("", "LCOMIBOIAPN")->GetStaticField(0xCB90);
 		}
 
 		::System::Void _ctor()

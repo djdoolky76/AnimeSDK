@@ -6,10 +6,10 @@ class KLKMCNOECAL;
 namespace RPG::Client { class IAssetOperation; }
 namespace System { template <typename T> class Action_1; }
 
-#define IJEKJNBKPJN___C__DISPLAYCLASS78_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16456C70)
-#define IJEKJNBKPJN___C__DISPLAYCLASS78_0__ASYNCLOADGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x16458680)
+#define IJEKJNBKPJN___C__DISPLAYCLASS78_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1804AFD0)
+#define IJEKJNBKPJN___C__DISPLAYCLASS78_0__ASYNCLOADGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x1804C9D0)
 
-inline static constexpr unsigned int IJEKJNBKPJN___c__DisplayClass78_0_TypeDefinitionIndex = 57150;
+inline static constexpr unsigned int IJEKJNBKPJN___c__DisplayClass78_0_TypeDefinitionIndex = 58379;
 
 	class IJEKJNBKPJN___c__DisplayClass78_0 : public ::System::Object
 	{

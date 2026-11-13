@@ -8,20 +8,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ILBattleMonsterSkillConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLEMONSTERSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D748DC0)
-#define RPG_GAMECORE_ILBATTLEMONSTERSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7489C0)
+#define RPG_GAMECORE_ILBATTLEMONSTERSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE81C10)
+#define RPG_GAMECORE_ILBATTLEMONSTERSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE81810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleMonsterSkillConfigRow_TypeDefinitionIndex = 13795;
+	inline static constexpr unsigned int ILBattleMonsterSkillConfigRow_TypeDefinitionIndex = 13952;
 
 	class ILBattleMonsterSkillConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::System::String* SkillTriggerKey; // 0x18
-		::RPG::GameCore::AttackType AttackType; // 0x20
-		::System::UInt32 ID; // 0x24
+		::System::String* SkillTriggerKey; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
+		::System::UInt32 ID; // 0x20
+		::RPG::GameCore::AttackType AttackType; // 0x24
 		::RPG::GameCore::FixPoint InitialCD; // 0x28
 		::RPG::Client::TextID SkillName; // 0x30
 		::RPG::Client::TextID SkillDesc; // 0x40

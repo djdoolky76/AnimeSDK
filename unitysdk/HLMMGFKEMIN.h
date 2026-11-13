@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HLMMGFKEMIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABEB50)
+#define HLMMGFKEMIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB30A0)
 
-inline static constexpr unsigned int HLMMGFKEMIN_TypeDefinitionIndex = 42151;
+inline static constexpr unsigned int HLMMGFKEMIN_TypeDefinitionIndex = 43126;
 
 	class HLMMGFKEMIN : public ::System::Object
 	{

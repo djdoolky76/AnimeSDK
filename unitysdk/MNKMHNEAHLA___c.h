@@ -5,23 +5,23 @@ class BPJMEGHIEIN;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MNKMHNEAHLA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA0BD90)
-#define MNKMHNEAHLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0BDD0)
-#define MNKMHNEAHLA___C__SENDTRAINCAKECATCHCATGODINTERACTCSREQ_B__2_0_OFFSET UNITYSDK_OFFSET(0xBA0BDE0)
+#define MNKMHNEAHLA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1F8BF0)
+#define MNKMHNEAHLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F8C30)
+#define MNKMHNEAHLA___C__SENDTRAINCAKECATCHCATGODINTERACTCSREQ_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B1F8C40)
 
-inline static constexpr unsigned int MNKMHNEAHLA___c_TypeDefinitionIndex = 81649;
+inline static constexpr unsigned int MNKMHNEAHLA___c_TypeDefinitionIndex = 84430;
 
 	class MNKMHNEAHLA___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::BPJMEGHIEIN*>** StaticGet___9__2_0()
-		{
-			return (::System::Action_1<::BPJMEGHIEIN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13820);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13828);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF140);
+		}
+
+		static ::System::Action_1<::BPJMEGHIEIN*>** StaticGet___9__2_0()
+		{
+			return (::System::Action_1<::BPJMEGHIEIN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF148);
 		}
 
 		static ::System::Void _cctor()

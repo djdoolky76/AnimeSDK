@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KDNNNPMJINB;
 
-#define KDNNNPMJINB___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C53D230)
-#define KDNNNPMJINB___C__DISPLAYCLASS5_0__ITERATEAFFECTEDCELLS_B__0_OFFSET UNITYSDK_OFFSET(0x1C53D240)
+#define KDNNNPMJINB___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A03F0)
+#define KDNNNPMJINB___C__DISPLAYCLASS5_0__ITERATEAFFECTEDCELLS_B__0_OFFSET UNITYSDK_OFFSET(0x1E7A0400)
 
-inline static constexpr unsigned int KDNNNPMJINB___c__DisplayClass5_0_TypeDefinitionIndex = 41782;
+inline static constexpr unsigned int KDNNNPMJINB___c__DisplayClass5_0_TypeDefinitionIndex = 42757;
 
 	class KDNNNPMJINB___c__DisplayClass5_0 : public ::System::Object
 	{

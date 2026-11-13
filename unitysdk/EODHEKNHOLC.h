@@ -7,10 +7,10 @@ class EODHEKNHOLC;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define EODHEKNHOLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD84BB0)
-#define EODHEKNHOLC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD84910)
+#define EODHEKNHOLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED13600)
+#define EODHEKNHOLC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED13360)
 
-inline static constexpr unsigned int EODHEKNHOLC_TypeDefinitionIndex = 13934;
+inline static constexpr unsigned int EODHEKNHOLC_TypeDefinitionIndex = 14091;
 
 	class EODHEKNHOLC : public ::System::Object
 	{
@@ -18,10 +18,10 @@ inline static constexpr unsigned int EODHEKNHOLC_TypeDefinitionIndex = 13934;
 		::System::String* EEIEODMEMFI; // 0x10
 		::System::String* ODLDEEANNCM; // 0x18
 		::System::UInt32 DFFLADLLADD; // 0x20
-		::RPG::GameCore::LimaoNewsContentType MMNJODIJPOE; // 0x24
-		::System::UInt32 DGLJLJEHNNB; // 0x28
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID ANECPHCPLPP; // 0x30
+		::RPG::Client::TextID ANECPHCPLPP; // 0x28
+		::System::UInt32 DGLJLJEHNNB; // 0x38
+		::RPG::GameCore::LimaoNewsContentType MMNJODIJPOE; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EODHEKNHOLC_CTOR_OFFSET))(this);

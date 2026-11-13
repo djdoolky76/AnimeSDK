@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define JBLCKECLODH_CTOR_OFFSET UNITYSDK_OFFSET(0x16563BE0)
-#define JBLCKECLODH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16563AC0)
+#define JBLCKECLODH_CTOR_OFFSET UNITYSDK_OFFSET(0x19A74130)
+#define JBLCKECLODH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19A74010)
 
-inline static constexpr unsigned int JBLCKECLODH_TypeDefinitionIndex = 68599;
+inline static constexpr unsigned int JBLCKECLODH_TypeDefinitionIndex = 70547;
 
 	class JBLCKECLODH
 	{

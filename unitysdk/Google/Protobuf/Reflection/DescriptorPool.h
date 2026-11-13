@@ -13,31 +13,31 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDENUMVALUEBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1B845350)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1B844DC0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDPACKAGE_OFFSET UNITYSDK_OFFSET(0x1B843CA0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDSYMBOL_OFFSET UNITYSDK_OFFSET(0x1B844370)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8459F0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B842B50)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1B844C50)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_IMPORTPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1B843750)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_LOOKUPSYMBOL_OFFSET UNITYSDK_OFFSET(0x1B845690)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_VALIDATESYMBOLNAME_OFFSET UNITYSDK_OFFSET(0x1B844900)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDENUMVALUEBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1BEBC6A0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1BEBC110)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDPACKAGE_OFFSET UNITYSDK_OFFSET(0x1BEBAFF0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDSYMBOL_OFFSET UNITYSDK_OFFSET(0x1BEBB6C0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEBCD40)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB9EA0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1BEBBFA0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_IMPORTPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1BEBAAA0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_LOOKUPSYMBOL_OFFSET UNITYSDK_OFFSET(0x1BEBC9E0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPOOL_VALIDATESYMBOLNAME_OFFSET UNITYSDK_OFFSET(0x1BEBBC50)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorPool_TypeDefinitionIndex = 5528;
+	inline static constexpr unsigned int DescriptorPool_TypeDefinitionIndex = 5533;
 
 	class DescriptorPool : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IDictionary_2<::System::String*, ::Google::Protobuf::Reflection::IDescriptor*>* descriptorsByName; // 0x10
-		::System::Collections::Generic::IDictionary_2<::Google::Protobuf::ObjectIntPair_1<::Google::Protobuf::Reflection::IDescriptor*>, ::Google::Protobuf::Reflection::EnumValueDescriptor*>* enumValuesByNumber; // 0x18
-		::System::Collections::Generic::HashSet_1<::Google::Protobuf::Reflection::FileDescriptor*>* dependencies; // 0x20
-		::System::Collections::Generic::IDictionary_2<::Google::Protobuf::ObjectIntPair_1<::Google::Protobuf::Reflection::IDescriptor*>, ::Google::Protobuf::Reflection::FieldDescriptor*>* fieldsByNumber; // 0x28
+		::System::Collections::Generic::IDictionary_2<::Google::Protobuf::ObjectIntPair_1<::Google::Protobuf::Reflection::IDescriptor*>, ::Google::Protobuf::Reflection::FieldDescriptor*>* fieldsByNumber; // 0x10
+		::System::Collections::Generic::HashSet_1<::Google::Protobuf::Reflection::FileDescriptor*>* dependencies; // 0x18
+		::System::Collections::Generic::IDictionary_2<::Google::Protobuf::ObjectIntPair_1<::Google::Protobuf::Reflection::IDescriptor*>, ::Google::Protobuf::Reflection::EnumValueDescriptor*>* enumValuesByNumber; // 0x20
+		::System::Collections::Generic::IDictionary_2<::System::String*, ::Google::Protobuf::Reflection::IDescriptor*>* descriptorsByName; // 0x28
 		static ::System::Text::RegularExpressions::Regex** StaticGet_ValidationRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("Google.Protobuf.Reflection", "DescriptorPool")->GetStaticField(0x1F1C0);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("Google.Protobuf.Reflection", "DescriptorPool")->GetStaticField(0x1E6E0);
 		}
 
 		::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::Google::Protobuf::Reflection::FileDescriptor*>* a1)

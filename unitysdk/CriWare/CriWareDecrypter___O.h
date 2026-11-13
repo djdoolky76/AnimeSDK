@@ -5,14 +5,14 @@ namespace CriWare { class CriWareDecrypter_CallbackFromNativeDelegate; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWareDecrypter___O_TypeDefinitionIndex = 40142;
+	inline static constexpr unsigned int CriWareDecrypter___O_TypeDefinitionIndex = 41117;
 
 	class CriWareDecrypter___O : public ::System::Object
 	{
 	public:
 		static ::CriWare::CriWareDecrypter_CallbackFromNativeDelegate** StaticGet__0___CallbackFromNative()
 		{
-			return (::CriWare::CriWareDecrypter_CallbackFromNativeDelegate**)UnitySDK::FromName("CriWare", "<>O")->GetStaticField(0x594E0);
+			return (::CriWare::CriWareDecrypter_CallbackFromNativeDelegate**)UnitySDK::FromName("CriWare", "<>O")->GetStaticField(0x5E640);
 		}
 
 	};

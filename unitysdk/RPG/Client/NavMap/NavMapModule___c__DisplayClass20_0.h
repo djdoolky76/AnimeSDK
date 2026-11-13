@@ -9,12 +9,12 @@ namespace RPG::Client::NavMap { class UniverseData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD95AED0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET UNITYSDK_OFFSET(0xD963DA0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19E5FB30)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET UNITYSDK_OFFSET(0x19E682A0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavMapModule___c__DisplayClass20_0_TypeDefinitionIndex = 74622;
+	inline static constexpr unsigned int NavMapModule___c__DisplayClass20_0_TypeDefinitionIndex = 76770;
 
 	class NavMapModule___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -23,8 +23,8 @@ namespace RPG::Client::NavMap
 		::RPG::Client::NavMap::NavMapModule* __4__this; // 0x18
 		::RPG::Client::NavMap::UniverseData* universe; // 0x20
 		::System::UInt32 mappingInfoID; // 0x28
-		::System::UInt32 floorID; // 0x2C
-		::System::UInt32 groupID; // 0x30
+		::System::UInt32 groupID; // 0x2C
+		::System::UInt32 floorID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET))(this);

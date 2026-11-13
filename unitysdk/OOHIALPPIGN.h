@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvPlayerRide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOHIALPPIGN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7CCD0)
-#define OOHIALPPIGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF7CD00)
+#define OOHIALPPIGN_CTOR_OFFSET UNITYSDK_OFFSET(0x196A3EF0)
+#define OOHIALPPIGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x196A3F20)
 
-inline static constexpr unsigned int OOHIALPPIGN_TypeDefinitionIndex = 52474;
+inline static constexpr unsigned int OOHIALPPIGN_TypeDefinitionIndex = 53580;
 
 	class OOHIALPPIGN
 	{

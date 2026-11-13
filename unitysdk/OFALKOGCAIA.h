@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define OFALKOGCAIA_CTOR_OFFSET UNITYSDK_OFFSET(0xBE34390)
-#define OFALKOGCAIA_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xBE34170)
-#define OFALKOGCAIA_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBE341B0)
-#define OFALKOGCAIA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBE33E50)
-#define OFALKOGCAIA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBE33E60)
+#define OFALKOGCAIA_CTOR_OFFSET UNITYSDK_OFFSET(0x176636A0)
+#define OFALKOGCAIA_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x17663480)
+#define OFALKOGCAIA_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x176634C0)
+#define OFALKOGCAIA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17663160)
+#define OFALKOGCAIA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x17663170)
 
-inline static constexpr unsigned int OFALKOGCAIA_TypeDefinitionIndex = 56107;
+inline static constexpr unsigned int OFALKOGCAIA_TypeDefinitionIndex = 57319;
 
 	class OFALKOGCAIA : public ::DBGDNLLDPFI
 	{
 	public:
-		::System::String* EOBLJJBOBIN; // 0x10
-		::System::String* MCLLALGABAB; // 0x18
+		::System::String* MCLLALGABAB; // 0x10
+		::System::String* EOBLJJBOBIN; // 0x18
 		::System::Byte JBCBONFABOM; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::Int32 HFOGMCJCIAI; // 0x24
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x28
-		::System::Int32 KBAPBCNJHDB; // 0x2C
+		::System::Int32 KBAPBCNJHDB; // 0x24
+		::System::Int32 HFOGMCJCIAI; // 0x28
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFALKOGCAIA_CTOR_OFFSET))(this);

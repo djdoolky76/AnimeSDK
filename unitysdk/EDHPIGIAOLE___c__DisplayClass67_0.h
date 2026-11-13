@@ -4,10 +4,10 @@
 class KDFFHMDFALG;
 namespace System { class String; }
 
-#define EDHPIGIAOLE___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13319580)
-#define EDHPIGIAOLE___C__DISPLAYCLASS67_0___STARTMOVEIMPV2_B__0_OFFSET UNITYSDK_OFFSET(0x13319BB0)
+#define EDHPIGIAOLE___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0x186C1F40)
+#define EDHPIGIAOLE___C__DISPLAYCLASS67_0___STARTMOVEIMPV2_B__0_OFFSET UNITYSDK_OFFSET(0x186C2550)
 
-inline static constexpr unsigned int EDHPIGIAOLE___c__DisplayClass67_0_TypeDefinitionIndex = 57412;
+inline static constexpr unsigned int EDHPIGIAOLE___c__DisplayClass67_0_TypeDefinitionIndex = 58640;
 
 	class EDHPIGIAOLE___c__DisplayClass67_0 : public ::System::Object
 	{

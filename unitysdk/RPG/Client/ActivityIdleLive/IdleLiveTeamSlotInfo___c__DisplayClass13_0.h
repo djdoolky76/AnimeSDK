@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotLevelUpReward; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4FDC20)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO___C__DISPLAYCLASS13_0__GETLEVELUPREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xC4FDF10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39DC80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO___C__DISPLAYCLASS13_0__GETLEVELUPREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x1D39DF00)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamSlotInfo___c__DisplayClass13_0_TypeDefinitionIndex = 75108;
+	inline static constexpr unsigned int IdleLiveTeamSlotInfo___c__DisplayClass13_0_TypeDefinitionIndex = 77435;
 
 	class IdleLiveTeamSlotInfo___c__DisplayClass13_0 : public ::System::Object
 	{

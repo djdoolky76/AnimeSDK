@@ -1,0 +1,170 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+namespace RPG::Client { class Effect_BgmBeatTrigger; }
+namespace RPG::Client { class Effect_BgmBeatTrigger_BeatTriggerConfig; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_ABHLJCLDDCI_OFFSET UNITYSDK_OFFSET(0x17BD30E0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_ANCOCENDABP_OFFSET UNITYSDK_OFFSET(0x17BD2720)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_BCCCAFLGGPH_OFFSET UNITYSDK_OFFSET(0x17BD2CD0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_BKPLBGFBJHN_OFFSET UNITYSDK_OFFSET(0x17BD2B10)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0x17BD2B70)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x17BD3BC0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_FBPLHCBGGJA_OFFSET UNITYSDK_OFFSET(0x17BD39D0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_FPJGCDJLBBM_OFFSET UNITYSDK_OFFSET(0x17BD3490)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x17BD2C90)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_GIDEGDOLDPD_OFFSET UNITYSDK_OFFSET(0x17BD32E0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_GJNMJOPPJDD_OFFSET UNITYSDK_OFFSET(0x17BD2A20)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_GKHPEJIGMAD_OFFSET UNITYSDK_OFFSET(0x17BD2380)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_HGPNAMMKFPJ_OFFSET UNITYSDK_OFFSET(0x17BD2630)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_IPAPAAFAMPN_OFFSET UNITYSDK_OFFSET(0x17BD25D0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_JGILOBFFPEI_OFFSET UNITYSDK_OFFSET(0x17BD3220)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_JJJKFAHEHGI_OFFSET UNITYSDK_OFFSET(0x17BD33F0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x17BD22E0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x17BD2960)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_NCABGIIPAEC_OFFSET UNITYSDK_OFFSET(0x17BD3180)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_NEMHMLEBMCN_OFFSET UNITYSDK_OFFSET(0x17BD3AD0)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_OMIFHFELHLN_OFFSET UNITYSDK_OFFSET(0x17BD2F00)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_OOOOCADOOEP_OFFSET UNITYSDK_OFFSET(0x17BD3050)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x17BD2500)
+#define RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x17BD2C30)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int Effect_BgmBeatTriggerBehavior_TypeDefinitionIndex = 72404;
+
+	class Effect_BgmBeatTriggerBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		::RPG::Client::Effect_BgmBeatTrigger_BeatTriggerConfig* _CurCueBeatConfig; // 0x38
+		::System::Single _BeatStartBgmTime; // 0x40
+		::System::Int32 _LastTriggerIndex; // 0x44
+		::System::Single _LastBgmTime; // 0x48
+		::System::Boolean _HasLastBgmTime; // 0x4C
+		::System::Boolean _HasLoggedAnimatorStateError; // 0x4D
+		::System::Boolean _HasLoggedConfigError; // 0x4E
+		::System::Boolean _IsRegisterNotifyEvents; // 0x4F
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_CTOR_OFFSET))(this);
+		}
+
+		::System::Void KPJGDHLENIP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_KPJGDHLENIP_OFFSET))(this);
+		}
+
+		::System::Void PCNAKDOLCCD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_PCNAKDOLCCD_OFFSET))(this);
+		}
+
+		::System::Void MFCDKJIHDEH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_MFCDKJIHDEH_OFFSET))(this);
+		}
+
+		::System::Void CGEJMGFOLMP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_CGEJMGFOLMP_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void ANCOCENDABP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_ANCOCENDABP_OFFSET))(this);
+		}
+
+		::System::Int32 ABHLJCLDDCI(::RPG::Client::Effect_BgmBeatTrigger_BeatTriggerConfig* a1, ::System::Single a2)
+		{
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::Effect_BgmBeatTrigger_BeatTriggerConfig*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_ABHLJCLDDCI_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::Effect_BgmBeatTrigger_BeatTriggerConfig* OOOOCADOOEP()
+		{
+			return ((::RPG::Client::Effect_BgmBeatTrigger_BeatTriggerConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_OOOOCADOOEP_OFFSET))(this);
+		}
+
+		::System::Void IPAPAAFAMPN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_IPAPAAFAMPN_OFFSET))(this);
+		}
+
+		::System::Void BKPLBGFBJHN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_BKPLBGFBJHN_OFFSET))(this);
+		}
+
+		::System::Boolean OMIFHFELHLN(::System::Single a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_OMIFHFELHLN_OFFSET))(this, a1);
+		}
+
+		::System::Boolean BCCCAFLGGPH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_BCCCAFLGGPH_OFFSET))(this);
+		}
+
+		::System::Void HGPNAMMKFPJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_HGPNAMMKFPJ_OFFSET))(this);
+		}
+
+		::System::Void GJNMJOPPJDD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_GJNMJOPPJDD_OFFSET))(this);
+		}
+
+		::System::Void JGILOBFFPEI(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_JGILOBFFPEI_OFFSET))(this, a1);
+		}
+
+		::System::Void JJJKFAHEHGI(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_JJJKFAHEHGI_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::Effect_BgmBeatTrigger_BeatTriggerConfig* GIDEGDOLDPD(::System::String* a1)
+		{
+			return ((::RPG::Client::Effect_BgmBeatTrigger_BeatTriggerConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_GIDEGDOLDPD_OFFSET))(this, a1);
+		}
+
+		::System::Void NCABGIIPAEC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_NCABGIIPAEC_OFFSET))(this);
+		}
+
+		::System::Void GKHPEJIGMAD(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_GKHPEJIGMAD_OFFSET))(this, a1);
+		}
+
+		::System::Void FPJGCDJLBBM()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_FPJGCDJLBBM_OFFSET))(this);
+		}
+
+		::System::Void FBPLHCBGGJA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_FBPLHCBGGJA_OFFSET))(this);
+		}
+
+		::System::Void NEMHMLEBMCN(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_NEMHMLEBMCN_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::Effect_BgmBeatTrigger* get__Owner()
+		{
+			return ((::RPG::Client::Effect_BgmBeatTrigger*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_BGMBEATTRIGGERBEHAVIOR_GET__OWNER_OFFSET))(this);
+		}
+
+	};
+}

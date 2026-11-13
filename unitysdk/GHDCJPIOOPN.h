@@ -5,20 +5,20 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class FinishHitStateImmediately; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GHDCJPIOOPN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A09F30)
-#define GHDCJPIOOPN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A09F40)
-#define GHDCJPIOOPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A09F80)
-#define GHDCJPIOOPN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A0A160)
-#define GHDCJPIOOPN_TICK_OFFSET UNITYSDK_OFFSET(0x15A0A1B0)
+#define GHDCJPIOOPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B34D0)
+#define GHDCJPIOOPN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B4B34E0)
+#define GHDCJPIOOPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4B3520)
+#define GHDCJPIOOPN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B4B3700)
+#define GHDCJPIOOPN_TICK_OFFSET UNITYSDK_OFFSET(0x1B4B3750)
 
-inline static constexpr unsigned int GHDCJPIOOPN_TypeDefinitionIndex = 55064;
+inline static constexpr unsigned int GHDCJPIOOPN_TypeDefinitionIndex = 56240;
 
 	class GHDCJPIOOPN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::KFELGAIGHAP* HFOFIODMFGB; // 0x20
-		::RPG::GameCore::FinishHitStateImmediately* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::FinishHitStateImmediately* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::KFELGAIGHAP* HFOFIODMFGB; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::FinishHitStateImmediately* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::FinishHitStateImmediately*))((::PBYTE)hIl2Cpp + GHDCJPIOOPN_CTOR_OFFSET))(this, a1, a2);

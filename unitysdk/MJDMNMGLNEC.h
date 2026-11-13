@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetGameplayBGMEmotionState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MJDMNMGLNEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB963A80)
-#define MJDMNMGLNEC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB963A90)
-#define MJDMNMGLNEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB963AD0)
-#define MJDMNMGLNEC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB963C60)
-#define MJDMNMGLNEC_TICK_OFFSET UNITYSDK_OFFSET(0xB963CB0)
+#define MJDMNMGLNEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3A67F0)
+#define MJDMNMGLNEC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A3A6800)
+#define MJDMNMGLNEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A3A6840)
+#define MJDMNMGLNEC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A3A69D0)
+#define MJDMNMGLNEC_TICK_OFFSET UNITYSDK_OFFSET(0x1A3A6A20)
 
-inline static constexpr unsigned int MJDMNMGLNEC_TypeDefinitionIndex = 58547;
+inline static constexpr unsigned int MJDMNMGLNEC_TypeDefinitionIndex = 59812;
 
 	class MJDMNMGLNEC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetGameplayBGMEmotionState* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetGameplayBGMEmotionState* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetGameplayBGMEmotionState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetGameplayBGMEmotionState*))((::PBYTE)hIl2Cpp + MJDMNMGLNEC_CTOR_OFFSET))(this, a1, a2);

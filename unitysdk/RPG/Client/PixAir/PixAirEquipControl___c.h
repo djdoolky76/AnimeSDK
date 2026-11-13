@@ -5,37 +5,37 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB353B0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB353F0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_10_OFFSET UNITYSDK_OFFSET(0xDB354C0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_4_OFFSET UNITYSDK_OFFSET(0xDB35400)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_7_OFFSET UNITYSDK_OFFSET(0xDB35460)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E358D40)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E358D80)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_10_OFFSET UNITYSDK_OFFSET(0x1E358E50)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_4_OFFSET UNITYSDK_OFFSET(0x1E358D90)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_7_OFFSET UNITYSDK_OFFSET(0x1E358DF0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipControl___c_TypeDefinitionIndex = 79242;
+	inline static constexpr unsigned int PixAirEquipControl___c_TypeDefinitionIndex = 82019;
 
 	class PixAirEquipControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_7()
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_4()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D370);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34E30);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_10()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D378);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34E38);
 		}
 
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_4()
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_7()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D380);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34E40);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D388);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34E48);
 		}
 
 		static ::System::Void _cctor()

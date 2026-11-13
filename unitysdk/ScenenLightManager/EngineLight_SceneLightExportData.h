@@ -4,12 +4,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class EngineLight_ExportData; }
 
-#define SCENENLIGHTMANAGER_ENGINELIGHT_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE959850)
-#define SCENENLIGHTMANAGER_ENGINELIGHT_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xE959840)
+#define SCENENLIGHTMANAGER_ENGINELIGHT_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA45620)
+#define SCENENLIGHTMANAGER_ENGINELIGHT_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DA45610)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineLight_SceneLightExportData_TypeDefinitionIndex = 49056;
+	inline static constexpr unsigned int EngineLight_SceneLightExportData_TypeDefinitionIndex = 50132;
 
 	class EngineLight_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

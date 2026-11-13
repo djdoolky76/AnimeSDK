@@ -6,16 +6,16 @@ class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelLeaveNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OJCFBPDOHEF_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA5760)
-#define OJCFBPDOHEF_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xBEA56C0)
+#define OJCFBPDOHEF_CTOR_OFFSET UNITYSDK_OFFSET(0x194A8F90)
+#define OJCFBPDOHEF_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x194A8EF0)
 
-inline static constexpr unsigned int OJCFBPDOHEF_TypeDefinitionIndex = 77682;
+inline static constexpr unsigned int OJCFBPDOHEF_TypeDefinitionIndex = 80417;
 
 	class OJCFBPDOHEF : public ::HBLDGJCDJPF
 	{
 	public:
-		::RPG::GameCore::ChimeraDuelLeaveNode* EABKOHGCHFP; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* KPJHIOKBJEI; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* KPJHIOKBJEI; // 0x10
+		::RPG::GameCore::ChimeraDuelLeaveNode* EABKOHGCHFP; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJCFBPDOHEF_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ICameraBridgeContext_1_TypeDefinitionIndex = 42702;
+	inline static constexpr unsigned int ICameraBridgeContext_1_TypeDefinitionIndex = 43681;
 
 	template <typename T>
 	class ICameraBridgeContext_1

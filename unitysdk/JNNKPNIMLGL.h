@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetMapPosWithOffset; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JNNKPNIMLGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2879A0)
-#define JNNKPNIMLGL_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB2879C0)
+#define JNNKPNIMLGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C9130)
+#define JNNKPNIMLGL_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B4C9150)
 
-inline static constexpr unsigned int JNNKPNIMLGL_TypeDefinitionIndex = 53816;
+inline static constexpr unsigned int JNNKPNIMLGL_TypeDefinitionIndex = 54980;
 
 	class JNNKPNIMLGL
 	{

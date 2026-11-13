@@ -3,13 +3,13 @@
 #include "unitysdk/Spine/CurveTimeline.h"
 namespace System { class String; }
 
-#define SPINE_CURVETIMELINE2_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC73FD0)
-#define SPINE_CURVETIMELINE2_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1EC740F0)
-#define SPINE_CURVETIMELINE2_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1EC74100)
+#define SPINE_CURVETIMELINE2_CTOR_OFFSET UNITYSDK_OFFSET(0x16CBEC70)
+#define SPINE_CURVETIMELINE2_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x16CBED90)
+#define SPINE_CURVETIMELINE2_SETFRAME_OFFSET UNITYSDK_OFFSET(0x16CBEDA0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int CurveTimeline2_TypeDefinitionIndex = 39602;
+	inline static constexpr unsigned int CurveTimeline2_TypeDefinitionIndex = 40531;
 
 	class CurveTimeline2 : public ::Spine::CurveTimeline
 	{

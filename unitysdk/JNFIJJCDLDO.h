@@ -4,15 +4,15 @@
 class AJHPHMDACGG;
 class CPGHDGPPBJH;
 
-#define JNFIJJCDLDO_CTOR_OFFSET UNITYSDK_OFFSET(0xB278AF0)
+#define JNFIJJCDLDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C6720)
 
-inline static constexpr unsigned int JNFIJJCDLDO_TypeDefinitionIndex = 80558;
+inline static constexpr unsigned int JNFIJJCDLDO_TypeDefinitionIndex = 83338;
 
 	class JNFIJJCDLDO : public ::System::Object
 	{
 	public:
-		::AJHPHMDACGG* AEINHCCCGBF; // 0x10
-		::CPGHDGPPBJH* HNEOOKPBCNK; // 0x18
+		::CPGHDGPPBJH* HNEOOKPBCNK; // 0x10
+		::AJHPHMDACGG* AEINHCCCGBF; // 0x18
 		::System::Void _ctor(::AJHPHMDACGG* a1, ::CPGHDGPPBJH* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::AJHPHMDACGG*, ::CPGHDGPPBJH*))((::PBYTE)hIl2Cpp + JNFIJJCDLDO_CTOR_OFFSET))(this, a1, a2);

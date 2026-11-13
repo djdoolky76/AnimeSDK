@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 
-#define EMNDCINACIA_LPGJLLJAGDN_OFFSET UNITYSDK_OFFSET(0x1DD0F1D0)
+#define EMNDCINACIA_LPGJLLJAGDN_OFFSET UNITYSDK_OFFSET(0x179B2DD0)
 
-inline static constexpr unsigned int EMNDCINACIA_TypeDefinitionIndex = 6552;
+inline static constexpr unsigned int EMNDCINACIA_TypeDefinitionIndex = 6559;
 
 	class EMNDCINACIA : public ::System::Object
 	{

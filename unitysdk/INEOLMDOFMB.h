@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByInfiniteMonsterWaveLeft; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define INEOLMDOFMB_CTOR_OFFSET UNITYSDK_OFFSET(0x164DB460)
-#define INEOLMDOFMB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164DB490)
+#define INEOLMDOFMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E9330)
+#define INEOLMDOFMB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A5E9360)
 
-inline static constexpr unsigned int INEOLMDOFMB_TypeDefinitionIndex = 55113;
+inline static constexpr unsigned int INEOLMDOFMB_TypeDefinitionIndex = 56290;
 
 	class INEOLMDOFMB
 	{

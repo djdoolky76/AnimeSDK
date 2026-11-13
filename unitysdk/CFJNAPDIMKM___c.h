@@ -4,18 +4,18 @@
 class CFJNAPDIMKM;
 namespace System { class Object; }
 
-#define CFJNAPDIMKM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E077E30)
-#define CFJNAPDIMKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E077E60)
-#define CFJNAPDIMKM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E077E70)
+#define CFJNAPDIMKM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD1AE00)
+#define CFJNAPDIMKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD1AE30)
+#define CFJNAPDIMKM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD1AE40)
 
-inline static constexpr unsigned int CFJNAPDIMKM___c_TypeDefinitionIndex = 33025;
+inline static constexpr unsigned int CFJNAPDIMKM___c_TypeDefinitionIndex = 33940;
 
 	class CFJNAPDIMKM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x120B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAAD0);
 		}
 
 		static ::System::Void _cctor()

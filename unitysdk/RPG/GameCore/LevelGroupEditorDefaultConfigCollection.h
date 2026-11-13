@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelGroupEditorDefaultConfigCollection; }
 
-#define RPG_GAMECORE_LEVELGROUPEDITORDEFAULTCONFIGCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7820E0)
-#define RPG_GAMECORE_LEVELGROUPEDITORDEFAULTCONFIGCOLLECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7820A0)
+#define RPG_GAMECORE_LEVELGROUPEDITORDEFAULTCONFIGCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D934A80)
+#define RPG_GAMECORE_LEVELGROUPEDITORDEFAULTCONFIGCOLLECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D934A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupEditorDefaultConfigCollection_TypeDefinitionIndex = 17415;
+	inline static constexpr unsigned int LevelGroupEditorDefaultConfigCollection_TypeDefinitionIndex = 17583;
 
 	class LevelGroupEditorDefaultConfigCollection : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int IUpdatable_TypeDefinitionIndex = 39672;
+	inline static constexpr unsigned int IUpdatable_TypeDefinitionIndex = 40601;
 
 	class IUpdatable
 	{

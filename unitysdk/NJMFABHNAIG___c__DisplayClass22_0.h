@@ -6,11 +6,11 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T> class Func_1; }
 
-#define NJMFABHNAIG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC17570)
-#define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__0_OFFSET UNITYSDK_OFFSET(0xBC184A0)
-#define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__3_OFFSET UNITYSDK_OFFSET(0xBC18530)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A799A90)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__0_OFFSET UNITYSDK_OFFSET(0x1A79A990)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__3_OFFSET UNITYSDK_OFFSET(0x1A79AA20)
 
-inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass22_0_TypeDefinitionIndex = 75152;
+inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass22_0_TypeDefinitionIndex = 77479;
 
 	class NJMFABHNAIG___c__DisplayClass22_0 : public ::System::Object
 	{

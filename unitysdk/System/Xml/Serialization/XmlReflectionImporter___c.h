@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Xml::Serialization { class XmlReflectionMember; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEE6070)
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE60B0)
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C__IMPORTCLASSMAPPING_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EEE60C0)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18A28250)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18A28290)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C__IMPORTCLASSMAPPING_B__28_0_OFFSET UNITYSDK_OFFSET(0x18A282A0)
 
 namespace System::Xml::Serialization
 {
@@ -16,14 +16,14 @@ namespace System::Xml::Serialization
 	class XmlReflectionImporter___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("System.Xml.Serialization", "<>c")->GetStaticField(0x316D0);
-		}
-
 		static ::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>** StaticGet___9__28_0()
 		{
-			return (::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>**)UnitySDK::FromName("System.Xml.Serialization", "<>c")->GetStaticField(0x316D8);
+			return (::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>**)UnitySDK::FromName("System.Xml.Serialization", "<>c")->GetStaticField(0x22A90);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.Xml.Serialization", "<>c")->GetStaticField(0x22A98);
 		}
 
 		static ::System::Void _cctor()

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHWINGMANWINDOWSUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BABF8E0)
-#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHWINGMANWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BABE680)
+#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHWINGMANWINDOWSUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xC639220)
+#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHWINGMANWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC637FC0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int LogitechWingManWindowsUnityProfile_TypeDefinitionIndex = 41078;
+	inline static constexpr unsigned int LogitechWingManWindowsUnityProfile_TypeDefinitionIndex = 42053;
 
 	class LogitechWingManWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{

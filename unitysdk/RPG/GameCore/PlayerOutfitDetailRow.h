@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerOutfitDetailRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYEROUTFITDETAILROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D908E30)
-#define RPG_GAMECORE_PLAYEROUTFITDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D908CE0)
+#define RPG_GAMECORE_PLAYEROUTFITDETAILROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF72FA0)
+#define RPG_GAMECORE_PLAYEROUTFITDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF72E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerOutfitDetailRow_TypeDefinitionIndex = 14511;
+	inline static constexpr unsigned int PlayerOutfitDetailRow_TypeDefinitionIndex = 14666;
 
 	class PlayerOutfitDetailRow : public ::System::Object
 	{

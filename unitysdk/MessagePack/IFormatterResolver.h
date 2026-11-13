@@ -3,7 +3,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int IFormatterResolver_TypeDefinitionIndex = 7162;
+	inline static constexpr unsigned int IFormatterResolver_TypeDefinitionIndex = 7173;
 
 	class IFormatterResolver
 	{

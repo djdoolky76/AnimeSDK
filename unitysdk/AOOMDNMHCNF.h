@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpenRaid; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AOOMDNMHCNF_CTOR_OFFSET UNITYSDK_OFFSET(0x158BAEB0)
-#define AOOMDNMHCNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158BAF60)
+#define AOOMDNMHCNF_CTOR_OFFSET UNITYSDK_OFFSET(0x184E78F0)
+#define AOOMDNMHCNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184E79A0)
 
-inline static constexpr unsigned int AOOMDNMHCNF_TypeDefinitionIndex = 58242;
+inline static constexpr unsigned int AOOMDNMHCNF_TypeDefinitionIndex = 59498;
 
 	class AOOMDNMHCNF
 	{

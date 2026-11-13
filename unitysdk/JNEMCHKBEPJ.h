@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JNEMCHKBEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB78200)
+#define JNEMCHKBEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE20E80)
 
-inline static constexpr unsigned int JNEMCHKBEPJ_TypeDefinitionIndex = 43333;
+inline static constexpr unsigned int JNEMCHKBEPJ_TypeDefinitionIndex = 44314;
 
 	class JNEMCHKBEPJ : public ::System::Object
 	{

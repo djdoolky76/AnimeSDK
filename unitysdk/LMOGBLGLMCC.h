@@ -3,10 +3,10 @@
 class BPFKBEICDAK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMOGBLGLMCC_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CBDC0)
-#define LMOGBLGLMCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7CBDF0)
+#define LMOGBLGLMCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD8410)
+#define LMOGBLGLMCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFD8440)
 
-inline static constexpr unsigned int LMOGBLGLMCC_TypeDefinitionIndex = 55356;
+inline static constexpr unsigned int LMOGBLGLMCC_TypeDefinitionIndex = 56539;
 
 	class LMOGBLGLMCC
 	{

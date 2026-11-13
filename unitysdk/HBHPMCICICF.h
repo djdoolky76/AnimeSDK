@@ -6,9 +6,9 @@ class BPHJOOGJPKD;
 class IJFIHJJPHNA;
 class PLAJONHLDJN;
 
-#define HBHPMCICICF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C635D10)
+#define HBHPMCICICF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA735E0)
 
-inline static constexpr unsigned int HBHPMCICICF_TypeDefinitionIndex = 36534;
+inline static constexpr unsigned int HBHPMCICICF_TypeDefinitionIndex = 37462;
 
 	class HBHPMCICICF : public ::OFJHHGBDJHM
 	{

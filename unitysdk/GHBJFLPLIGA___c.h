@@ -4,18 +4,18 @@
 class GHBJFLPLIGA;
 namespace System { class Object; }
 
-#define GHBJFLPLIGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E456840)
-#define GHBJFLPLIGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E456870)
-#define GHBJFLPLIGA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E456880)
+#define GHBJFLPLIGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20271B90)
+#define GHBJFLPLIGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20271BC0)
+#define GHBJFLPLIGA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20271BD0)
 
-inline static constexpr unsigned int GHBJFLPLIGA___c_TypeDefinitionIndex = 25957;
+inline static constexpr unsigned int GHBJFLPLIGA___c_TypeDefinitionIndex = 26454;
 
 	class GHBJFLPLIGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x160D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xED50);
 		}
 
 		static ::System::Void _cctor()

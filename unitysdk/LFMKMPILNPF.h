@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetupMapRotationCharger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LFMKMPILNPF_CTOR_OFFSET UNITYSDK_OFFSET(0xB67E020)
-#define LFMKMPILNPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB67E050)
+#define LFMKMPILNPF_CTOR_OFFSET UNITYSDK_OFFSET(0x18C63C80)
+#define LFMKMPILNPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C63CB0)
 
-inline static constexpr unsigned int LFMKMPILNPF_TypeDefinitionIndex = 53001;
+inline static constexpr unsigned int LFMKMPILNPF_TypeDefinitionIndex = 54160;
 
 	class LFMKMPILNPF
 	{

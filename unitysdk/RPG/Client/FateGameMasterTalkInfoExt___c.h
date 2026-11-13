@@ -5,25 +5,25 @@ namespace RPG::Client { class FateGameMasterTalkInfoItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE8F470)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE8F4B0)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__GETRANDOMITEMSONOVERVIEWPAGE_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE8F4C0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB818C0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB81900)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__GETRANDOMITEMSONOVERVIEWPAGE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1DB81910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c_TypeDefinitionIndex = 64106;
+	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c_TypeDefinitionIndex = 65551;
 
 	class FateGameMasterTalkInfoExt___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D320);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D328);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59990);
+		}
+
+		static ::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59998);
 		}
 
 		static ::System::Void _cctor()

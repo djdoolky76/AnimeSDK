@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CKAEFFGOGCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E4050)
+#define CKAEFFGOGCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB16290)
 
-inline static constexpr unsigned int CKAEFFGOGCO_TypeDefinitionIndex = 42962;
+inline static constexpr unsigned int CKAEFFGOGCO_TypeDefinitionIndex = 43943;
 
 	class CKAEFFGOGCO : public ::System::Object
 	{

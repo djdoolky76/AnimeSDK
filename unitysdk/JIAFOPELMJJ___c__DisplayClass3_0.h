@@ -8,16 +8,16 @@ class KGPCBBIOGLB;
 class KPNOBBFKNHA;
 namespace System { class Object; }
 
-#define JIAFOPELMJJ___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1C5D80)
-#define JIAFOPELMJJ___C__DISPLAYCLASS3_0___MAKETEXTMAPPACKPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xB1E0AC0)
+#define JIAFOPELMJJ___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x173F4910)
+#define JIAFOPELMJJ___C__DISPLAYCLASS3_0___MAKETEXTMAPPACKPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x1740F670)
 
-inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass3_0_TypeDefinitionIndex = 59515;
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass3_0_TypeDefinitionIndex = 60792;
 
 	class JIAFOPELMJJ___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::KPNOBBFKNHA* designHPatch; // 0x10
-		::JIAFOPELMJJ* __4__this; // 0x18
+		::JIAFOPELMJJ* __4__this; // 0x10
+		::KPNOBBFKNHA* designHPatch; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchAudioListenerToCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BPLGLKMKNBF_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A8250)
-#define BPLGLKMKNBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1A8280)
+#define BPLGLKMKNBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B606A10)
+#define BPLGLKMKNBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B606A40)
 
-inline static constexpr unsigned int BPLGLKMKNBF_TypeDefinitionIndex = 58741;
+inline static constexpr unsigned int BPLGLKMKNBF_TypeDefinitionIndex = 60009;
 
 	class BPLGLKMKNBF
 	{

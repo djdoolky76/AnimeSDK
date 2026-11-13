@@ -3,10 +3,10 @@
 class FMJLHIPCIPJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CIFJAJCNHAB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF66B80)
-#define CIFJAJCNHAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF66BB0)
+#define CIFJAJCNHAB_CTOR_OFFSET UNITYSDK_OFFSET(0x16E40730)
+#define CIFJAJCNHAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E40760)
 
-inline static constexpr unsigned int CIFJAJCNHAB_TypeDefinitionIndex = 55040;
+inline static constexpr unsigned int CIFJAJCNHAB_TypeDefinitionIndex = 56216;
 
 	class CIFJAJCNHAB
 	{

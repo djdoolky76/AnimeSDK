@@ -4,18 +4,18 @@
 class FPEGJJJKNAL;
 namespace System { class Object; }
 
-#define FPEGJJJKNAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3DA9F0)
-#define FPEGJJJKNAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DAA30)
-#define FPEGJJJKNAL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E3DAA40)
+#define FPEGJJJKNAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB926B0)
+#define FPEGJJJKNAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB926F0)
+#define FPEGJJJKNAL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FB92700)
 
-inline static constexpr unsigned int FPEGJJJKNAL___c_TypeDefinitionIndex = 30446;
+inline static constexpr unsigned int FPEGJJJKNAL___c_TypeDefinitionIndex = 31352;
 
 	class FPEGJJJKNAL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F4C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52FD0);
 		}
 
 		static ::System::Void _cctor()

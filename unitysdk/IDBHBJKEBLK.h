@@ -5,11 +5,11 @@ class JNBAPNPIADL;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define IDBHBJKEBLK_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x15E5B660)
-#define IDBHBJKEBLK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E5B800)
-#define IDBHBJKEBLK_OBHHNAKALGL_OFFSET UNITYSDK_OFFSET(0x15E5B5D0)
+#define IDBHBJKEBLK_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x188E8920)
+#define IDBHBJKEBLK_CTOR_OFFSET UNITYSDK_OFFSET(0x188E8AC0)
+#define IDBHBJKEBLK_OBHHNAKALGL_OFFSET UNITYSDK_OFFSET(0x188E8890)
 
-inline static constexpr unsigned int IDBHBJKEBLK_TypeDefinitionIndex = 61401;
+inline static constexpr unsigned int IDBHBJKEBLK_TypeDefinitionIndex = 62786;
 
 	class IDBHBJKEBLK : public ::System::Object
 	{

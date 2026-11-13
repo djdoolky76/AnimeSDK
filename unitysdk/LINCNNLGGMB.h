@@ -11,11 +11,11 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 namespace System { class String; }
 
-#define LINCNNLGGMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CF430)
-#define LINCNNLGGMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0CF470)
-#define LINCNNLGGMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0CF3C0)
+#define LINCNNLGGMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F5680)
+#define LINCNNLGGMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3F56C0)
+#define LINCNNLGGMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3F5610)
 
-inline static constexpr unsigned int LINCNNLGGMB_TypeDefinitionIndex = 24221;
+inline static constexpr unsigned int LINCNNLGGMB_TypeDefinitionIndex = 24680;
 
 	class LINCNNLGGMB : public ::RPG::GameCore::TaskConfig
 	{

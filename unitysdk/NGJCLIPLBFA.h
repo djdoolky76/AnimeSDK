@@ -4,9 +4,9 @@
 #include "unitysdk/LNNEBLLJHPC.h"
 namespace RPG::GameCore { class IAvatarServantRowWrap; }
 
-#define NGJCLIPLBFA_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0xBBA3C90)
+#define NGJCLIPLBFA_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0x18E8DA10)
 
-inline static constexpr unsigned int NGJCLIPLBFA_TypeDefinitionIndex = 62644;
+inline static constexpr unsigned int NGJCLIPLBFA_TypeDefinitionIndex = 64078;
 
 	class NGJCLIPLBFA : public ::System::Object
 	{

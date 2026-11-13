@@ -12,7 +12,7 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-inline static constexpr unsigned int PEJDKHGMKPE_TypeDefinitionIndex = 50017;
+inline static constexpr unsigned int PEJDKHGMKPE_TypeDefinitionIndex = 51065;
 
 	class PEJDKHGMKPE : public ::System::Object
 	{

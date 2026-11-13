@@ -5,21 +5,21 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraTriggerWorkPerformance; }
 
-#define NONBPIFLFPF_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEDDD0)
-#define NONBPIFLFPF_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBCEDE20)
-#define NONBPIFLFPF_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBCEDE60)
-#define NONBPIFLFPF__START_B__2_0_OFFSET UNITYSDK_OFFSET(0xBCEE030)
+#define NONBPIFLFPF_CTOR_OFFSET UNITYSDK_OFFSET(0x19CECF10)
+#define NONBPIFLFPF_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x19CECF60)
+#define NONBPIFLFPF_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x19CECFA0)
+#define NONBPIFLFPF__START_B__2_0_OFFSET UNITYSDK_OFFSET(0x19CED170)
 
-inline static constexpr unsigned int NONBPIFLFPF_TypeDefinitionIndex = 78420;
+inline static constexpr unsigned int NONBPIFLFPF_TypeDefinitionIndex = 81155;
 
 	class NONBPIFLFPF : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
 		::RPG::GameCore::ChimeraTriggerWorkPerformance* IGHAHBNLIJA; // 0x20
-		::System::UInt32 LEKGODGIMCH; // 0x28
-		::System::UInt32 AJLJMGEEKOJ; // 0x2C
+		::System::UInt32 AJLJMGEEKOJ; // 0x28
+		::System::UInt32 LEKGODGIMCH; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::ChimeraTriggerWorkPerformance* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraTriggerWorkPerformance*, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + NONBPIFLFPF_CTOR_OFFSET))(this, a1, a2, a3, a4);

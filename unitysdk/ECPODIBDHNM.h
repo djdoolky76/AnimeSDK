@@ -5,10 +5,10 @@
 class OMACAKFNAOA;
 namespace RPG::Client { class RogueTournPersonaStyleInfo; }
 
-#define ECPODIBDHNM_CTOR_OFFSET UNITYSDK_OFFSET(0x13309A20)
-#define ECPODIBDHNM_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x13309A30)
+#define ECPODIBDHNM_CTOR_OFFSET UNITYSDK_OFFSET(0x186B1830)
+#define ECPODIBDHNM_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x186B1840)
 
-inline static constexpr unsigned int ECPODIBDHNM_TypeDefinitionIndex = 67109;
+inline static constexpr unsigned int ECPODIBDHNM_TypeDefinitionIndex = 69053;
 
 	class ECPODIBDHNM : public ::LIJALNGMHPK
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CICMNLHBPMM_AKMKANAIKHN_OFFSET UNITYSDK_OFFSET(0xCF5DAF0)
+#define CICMNLHBPMM_AKMKANAIKHN_OFFSET UNITYSDK_OFFSET(0x16E37450)
 
-inline static constexpr unsigned int CICMNLHBPMM_TypeDefinitionIndex = 61294;
+inline static constexpr unsigned int CICMNLHBPMM_TypeDefinitionIndex = 62679;
 
 	class CICMNLHBPMM : public ::System::Object
 	{

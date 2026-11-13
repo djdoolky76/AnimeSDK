@@ -6,19 +6,19 @@ class CLPDEPEIOOP;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLPDEPEIOOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF93C0)
-#define CLPDEPEIOOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DBF9400)
-#define CLPDEPEIOOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBF9360)
+#define CLPDEPEIOOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7F160)
+#define CLPDEPEIOOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB7F1A0)
+#define CLPDEPEIOOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB7F100)
 
-inline static constexpr unsigned int CLPDEPEIOOP_TypeDefinitionIndex = 23197;
+inline static constexpr unsigned int CLPDEPEIOOP_TypeDefinitionIndex = 23628;
 
 	class CLPDEPEIOOP : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TurnState>* DIFLOKJFCEO; // 0x18
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::System::Boolean ICADPILMFPK; // 0x28
-		::System::Boolean GEOPPFCKACN; // 0x29
+		::System::Boolean GEOPPFCKACN; // 0x28
+		::System::Boolean ICADPILMFPK; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLPDEPEIOOP_CTOR_OFFSET))(this);

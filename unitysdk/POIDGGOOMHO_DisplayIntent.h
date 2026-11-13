@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int POIDGGOOMHO_DisplayIntent_TypeDefinitionIndex = 80234;
+inline static constexpr unsigned int POIDGGOOMHO_DisplayIntent_TypeDefinitionIndex = 83011;
 
 	enum class POIDGGOOMHO_DisplayIntent : ::System::Int32
 	{

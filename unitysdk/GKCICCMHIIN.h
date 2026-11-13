@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define GKCICCMHIIN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A783B0)
-#define GKCICCMHIIN_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x15A78330)
+#define GKCICCMHIIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8BF4B0)
+#define GKCICCMHIIN_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x1A8BF430)
 
-inline static constexpr unsigned int GKCICCMHIIN_TypeDefinitionIndex = 55119;
+inline static constexpr unsigned int GKCICCMHIIN_TypeDefinitionIndex = 56296;
 
 	class GKCICCMHIIN
 	{

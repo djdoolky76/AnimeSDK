@@ -4,18 +4,18 @@
 class HKNBLADLAAE;
 namespace System { class Object; }
 
-#define HKNBLADLAAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E588D30)
-#define HKNBLADLAAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E588D70)
-#define HKNBLADLAAE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E588D80)
+#define HKNBLADLAAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20171BF0)
+#define HKNBLADLAAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20171C30)
+#define HKNBLADLAAE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x20171C40)
 
-inline static constexpr unsigned int HKNBLADLAAE___c_TypeDefinitionIndex = 31066;
+inline static constexpr unsigned int HKNBLADLAAE___c_TypeDefinitionIndex = 31979;
 
 	class HKNBLADLAAE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37360);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x339C0);
 		}
 
 		static ::System::Void _cctor()

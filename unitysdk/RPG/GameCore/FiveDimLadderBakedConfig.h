@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimLadderBakedConfig; }
 
-#define RPG_GAMECORE_FIVEDIMLADDERBAKEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D697FF0)
-#define RPG_GAMECORE_FIVEDIMLADDERBAKEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D697DD0)
+#define RPG_GAMECORE_FIVEDIMLADDERBAKEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E864D30)
+#define RPG_GAMECORE_FIVEDIMLADDERBAKEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E864B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLadderBakedConfig_TypeDefinitionIndex = 16655;
+	inline static constexpr unsigned int FiveDimLadderBakedConfig_TypeDefinitionIndex = 16821;
 
 	class FiveDimLadderBakedConfig : public ::RPG::GameCore::JsonConfig
 	{

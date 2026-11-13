@@ -8,44 +8,44 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LOPKOIMKGOF_ALLCPAFCOLI_OFFSET UNITYSDK_OFFSET(0xB80C900)
-#define LOPKOIMKGOF_CLNPFDLLDBH_OFFSET UNITYSDK_OFFSET(0xB80D010)
-#define LOPKOIMKGOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB80D630)
-#define LOPKOIMKGOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB80B980)
-#define LOPKOIMKGOF_HIAFMADCMFO_OFFSET UNITYSDK_OFFSET(0xB80CA50)
-#define LOPKOIMKGOF_IBGHDEFBLKG_OFFSET UNITYSDK_OFFSET(0xB80CC80)
-#define LOPKOIMKGOF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB80BA80)
-#define LOPKOIMKGOF_JPFLCMFBLDM_OFFSET UNITYSDK_OFFSET(0xB80D5F0)
-#define LOPKOIMKGOF_KNCAEOGPAIA_OFFSET UNITYSDK_OFFSET(0xB80CD30)
-#define LOPKOIMKGOF_LDEPCHKJGCA_OFFSET UNITYSDK_OFFSET(0xB80D190)
-#define LOPKOIMKGOF_LLANCOOEKKJ_OFFSET UNITYSDK_OFFSET(0xB80CAA0)
-#define LOPKOIMKGOF_PEFCAOFOGIO_OFFSET UNITYSDK_OFFSET(0xB80CB50)
-#define LOPKOIMKGOF_PNMGHOBKFMN_OFFSET UNITYSDK_OFFSET(0xB80D470)
-#define LOPKOIMKGOF_POJBDKANIHE_OFFSET UNITYSDK_OFFSET(0xB80C960)
+#define LOPKOIMKGOF_ALLCPAFCOLI_OFFSET UNITYSDK_OFFSET(0x1A5C23F0)
+#define LOPKOIMKGOF_CLNPFDLLDBH_OFFSET UNITYSDK_OFFSET(0x1A5C2AB0)
+#define LOPKOIMKGOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C30D0)
+#define LOPKOIMKGOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5C14A0)
+#define LOPKOIMKGOF_HIAFMADCMFO_OFFSET UNITYSDK_OFFSET(0x1A5C2520)
+#define LOPKOIMKGOF_IBGHDEFBLKG_OFFSET UNITYSDK_OFFSET(0x1A5C2720)
+#define LOPKOIMKGOF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1A5C15A0)
+#define LOPKOIMKGOF_JPFLCMFBLDM_OFFSET UNITYSDK_OFFSET(0x1A5C3090)
+#define LOPKOIMKGOF_KNCAEOGPAIA_OFFSET UNITYSDK_OFFSET(0x1A5C27D0)
+#define LOPKOIMKGOF_LDEPCHKJGCA_OFFSET UNITYSDK_OFFSET(0x1A5C2C30)
+#define LOPKOIMKGOF_LLANCOOEKKJ_OFFSET UNITYSDK_OFFSET(0x1A5C2570)
+#define LOPKOIMKGOF_PEFCAOFOGIO_OFFSET UNITYSDK_OFFSET(0x1A5C25F0)
+#define LOPKOIMKGOF_PNMGHOBKFMN_OFFSET UNITYSDK_OFFSET(0x1A5C2F10)
+#define LOPKOIMKGOF_POJBDKANIHE_OFFSET UNITYSDK_OFFSET(0x1A5C2430)
 
-inline static constexpr unsigned int LOPKOIMKGOF_TypeDefinitionIndex = 78786;
+inline static constexpr unsigned int LOPKOIMKGOF_TypeDefinitionIndex = 81521;
 
 	class LOPKOIMKGOF : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* LBMEHBKMAIL; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>*>* LELCKNAIGAP; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* OCFGGPCIPLL; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>*>* CNNEDDJLHHF; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>*>* LELCKNAIGAP; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* OCFGGPCIPLL; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>*>* CNNEDDJLHHF; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* LBMEHBKMAIL; // 0x28
 		::System::Int32 OLLCNEODNDE; // 0x30
 		static ::System::Boolean* StaticGet_EMIOBNKHPEH()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LOPKOIMKGOF")->GetStaticField(0x153A0);
-		}
-
-		static ::UnityEngine::Vector3* StaticGet_AIINOKOMLMD()
-		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "LOPKOIMKGOF")->GetStaticField(0x153A4);
+			return (::System::Boolean*)UnitySDK::FromName("", "LOPKOIMKGOF")->GetStaticField(0x15B40);
 		}
 
 		static ::UnityEngine::Vector3* StaticGet_AAFKKGHFMAA()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "LOPKOIMKGOF")->GetStaticField(0x153B0);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "LOPKOIMKGOF")->GetStaticField(0x15B44);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_AIINOKOMLMD()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "LOPKOIMKGOF")->GetStaticField(0x15B50);
 		}
 
 		::System::Void _ctor()

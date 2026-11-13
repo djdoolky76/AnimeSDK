@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::UI::Internal::OS { class AccountList; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD4340)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__DISPLAYCLASS51_0__DELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1BFD4830)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C7280)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__DISPLAYCLASS51_0__DELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1E4C7290)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int AccountList___c__DisplayClass51_0_TypeDefinitionIndex = 8435;
+	inline static constexpr unsigned int AccountList___c__DisplayClass51_0_TypeDefinitionIndex = 8444;
 
 	class AccountList___c__DisplayClass51_0 : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::MiHoYo::SDK::UI::Internal::OS::AccountList* __4__this; // 0x10
 		::UnityEngine::GameObject* gameObject; // 0x18
 		::MiHoYo::SDK::AccountModel* account; // 0x20
-		::System::Int32 currentShowAccountIndex; // 0x28
-		::System::Int32 index; // 0x2C
+		::System::Int32 index; // 0x28
+		::System::Int32 currentShowAccountIndex; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__DISPLAYCLASS51_0_CTOR_OFFSET))(this);

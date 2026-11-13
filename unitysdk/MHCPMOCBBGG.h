@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class ChangeCharacterConfigParamClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MHCPMOCBBGG_CTOR_OFFSET UNITYSDK_OFFSET(0xB92A030)
-#define MHCPMOCBBGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB92A060)
+#define MHCPMOCBBGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B350140)
+#define MHCPMOCBBGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B350170)
 
-inline static constexpr unsigned int MHCPMOCBBGG_TypeDefinitionIndex = 54915;
+inline static constexpr unsigned int MHCPMOCBBGG_TypeDefinitionIndex = 56087;
 
 	class MHCPMOCBBGG : public ::IMFMODIMICL
 	{

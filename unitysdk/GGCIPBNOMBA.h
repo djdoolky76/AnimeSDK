@@ -6,23 +6,23 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleRunOut; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define GGCIPBNOMBA_CTOR_OFFSET UNITYSDK_OFFSET(0x159F6A80)
-#define GGCIPBNOMBA_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x159F7320)
-#define GGCIPBNOMBA_LONNFPKGNCN_OFFSET UNITYSDK_OFFSET(0x159F71F0)
-#define GGCIPBNOMBA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x159F6B00)
+#define GGCIPBNOMBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B49FF60)
+#define GGCIPBNOMBA_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x1B4A0800)
+#define GGCIPBNOMBA_LONNFPKGNCN_OFFSET UNITYSDK_OFFSET(0x1B4A06D0)
+#define GGCIPBNOMBA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1B49FFE0)
 
-inline static constexpr unsigned int GGCIPBNOMBA_TypeDefinitionIndex = 78402;
+inline static constexpr unsigned int GGCIPBNOMBA_TypeDefinitionIndex = 81137;
 
 	class GGCIPBNOMBA : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* ECJADDMLLPJ; // 0x10
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x20
-		::RPG::GameCore::ChimeraBattleRunOut* IGHAHBNLIJA; // 0x28
-		::System::UInt32 AJLJMGEEKOJ; // 0x30
-		::System::UInt32 LEKGODGIMCH; // 0x34
-		::System::UInt32 IDCDJCNHDHC; // 0x38
+		::RPG::GameCore::ChimeraBattleRunOut* IGHAHBNLIJA; // 0x10
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* ECJADDMLLPJ; // 0x20
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x28
+		::System::UInt32 IDCDJCNHDHC; // 0x30
+		::System::UInt32 AJLJMGEEKOJ; // 0x34
+		::System::UInt32 LEKGODGIMCH; // 0x38
 		::System::UInt32 MEFAHAJDKKJ; // 0x3C
 		::System::Void _ctor(::RPG::GameCore::ChimeraBattleRunOut* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{

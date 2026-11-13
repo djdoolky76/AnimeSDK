@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ChangeTrackingMission; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OPBPNPEPDLL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF99670)
-#define OPBPNPEPDLL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF99680)
-#define OPBPNPEPDLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF996C0)
-#define OPBPNPEPDLL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF998F0)
-#define OPBPNPEPDLL_TICK_OFFSET UNITYSDK_OFFSET(0xBF99940)
+#define OPBPNPEPDLL_CTOR_OFFSET UNITYSDK_OFFSET(0x196C1260)
+#define OPBPNPEPDLL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196C1270)
+#define OPBPNPEPDLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x196C12B0)
+#define OPBPNPEPDLL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x196C14E0)
+#define OPBPNPEPDLL_TICK_OFFSET UNITYSDK_OFFSET(0x196C1530)
 
-inline static constexpr unsigned int OPBPNPEPDLL_TypeDefinitionIndex = 52642;
+inline static constexpr unsigned int OPBPNPEPDLL_TypeDefinitionIndex = 53749;
 
 	class OPBPNPEPDLL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ChangeTrackingMission* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ChangeTrackingMission* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ChangeTrackingMission* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ChangeTrackingMission*))((::PBYTE)hIl2Cpp + OPBPNPEPDLL_CTOR_OFFSET))(this, a1, a2);

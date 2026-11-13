@@ -4,18 +4,18 @@
 class DFALDMOKJEN;
 namespace System { class Object; }
 
-#define DFALDMOKJEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E16C060)
-#define DFALDMOKJEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E16C0A0)
-#define DFALDMOKJEN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E16C0B0)
+#define DFALDMOKJEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFAC5B0)
+#define DFALDMOKJEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFAC5F0)
+#define DFALDMOKJEN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FFAC600)
 
-inline static constexpr unsigned int DFALDMOKJEN___c_TypeDefinitionIndex = 29788;
+inline static constexpr unsigned int DFALDMOKJEN___c_TypeDefinitionIndex = 30686;
 
 	class DFALDMOKJEN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CBF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27C40);
 		}
 
 		static ::System::Void _cctor()

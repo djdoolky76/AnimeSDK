@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2B58E0)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B5910)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C__ONENABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1F2B5920)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6690D0)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F669100)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C__ONENABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1F669110)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeProfile___c_TypeDefinitionIndex = 35661;
+	inline static constexpr unsigned int VolumeProfile___c_TypeDefinitionIndex = 36589;
 
 	class VolumeProfile___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5C580);
-		}
-
 		static ::System::Predicate_1<::UnityEngine::Rendering::VolumeComponent*>** StaticGet___9__2_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Rendering::VolumeComponent*>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5C588);
+			return (::System::Predicate_1<::UnityEngine::Rendering::VolumeComponent*>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x62BD0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x62BD8);
 		}
 
 		static ::System::Void _cctor()

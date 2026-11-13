@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int FHMGEKNBOLH_TypeDefinitionIndex = 43572;
+inline static constexpr unsigned int FHMGEKNBOLH_TypeDefinitionIndex = 44554;
 
 	class FHMGEKNBOLH : public ::System::Object
 	{

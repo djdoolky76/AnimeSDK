@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define ABDHDPENDHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0EEBE0)
-#define ABDHDPENDHE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB0EEB70)
-#define ABDHDPENDHE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB0EEB80)
+#define ABDHDPENDHE_CTOR_OFFSET UNITYSDK_OFFSET(0x18C9FD40)
+#define ABDHDPENDHE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18C9FCD0)
+#define ABDHDPENDHE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18C9FCE0)
 
-inline static constexpr unsigned int ABDHDPENDHE_TypeDefinitionIndex = 74012;
+inline static constexpr unsigned int ABDHDPENDHE_TypeDefinitionIndex = 76148;
 
 	class ABDHDPENDHE
 	{
 	public:
-		::System::Int32 ENMIPOPKOOL; // 0x18
-		::System::Int32 PJKFLONMKED; // 0x1C
+		::System::Int32 PJKFLONMKED; // 0x18
+		::System::Int32 ENMIPOPKOOL; // 0x1C
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ABDHDPENDHE_CTOR_OFFSET))(this, a1, a2, a3);

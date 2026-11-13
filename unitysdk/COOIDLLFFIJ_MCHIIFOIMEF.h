@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int COOIDLLFFIJ_MCHIIFOIMEF_TypeDefinitionIndex = 33815;
+inline static constexpr unsigned int COOIDLLFFIJ_MCHIIFOIMEF_TypeDefinitionIndex = 34730;
 
 	enum class COOIDLLFFIJ_MCHIIFOIMEF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		KNILAKJMEEP = 4,
-		PGGDEHKKINP = 6,
+		KNILAKJMEEP = 2,
+		PGGDEHKKINP = 7,
 	};

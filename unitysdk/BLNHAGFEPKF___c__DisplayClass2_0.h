@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class BLNHAGFEPKF;
 
-#define BLNHAGFEPKF___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7AFA0)
-#define BLNHAGFEPKF___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBA7B630)
+#define BLNHAGFEPKF___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18B59970)
+#define BLNHAGFEPKF___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x18B5A000)
 
-inline static constexpr unsigned int BLNHAGFEPKF___c__DisplayClass2_0_TypeDefinitionIndex = 53078;
+inline static constexpr unsigned int BLNHAGFEPKF___c__DisplayClass2_0_TypeDefinitionIndex = 54239;
 
 	class BLNHAGFEPKF___c__DisplayClass2_0 : public ::System::Object
 	{

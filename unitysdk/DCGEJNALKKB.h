@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DCGEJNALKKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9ECF00)
+#define DCGEJNALKKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1F1A0)
 
-inline static constexpr unsigned int DCGEJNALKKB_TypeDefinitionIndex = 43728;
+inline static constexpr unsigned int DCGEJNALKKB_TypeDefinitionIndex = 44803;
 
 	class DCGEJNALKKB : public ::System::Object
 	{

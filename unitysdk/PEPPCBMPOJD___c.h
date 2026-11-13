@@ -4,18 +4,18 @@
 class PEPPCBMPOJD;
 namespace System { class Object; }
 
-#define PEPPCBMPOJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF37E0)
-#define PEPPCBMPOJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF3810)
-#define PEPPCBMPOJD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEF3820)
+#define PEPPCBMPOJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20674700)
+#define PEPPCBMPOJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20674730)
+#define PEPPCBMPOJD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20674740)
 
-inline static constexpr unsigned int PEPPCBMPOJD___c_TypeDefinitionIndex = 33610;
+inline static constexpr unsigned int PEPPCBMPOJD___c_TypeDefinitionIndex = 34525;
 
 	class PEPPCBMPOJD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31550);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34C90);
 		}
 
 		static ::System::Void _cctor()

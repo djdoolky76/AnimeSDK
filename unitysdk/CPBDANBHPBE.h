@@ -4,20 +4,20 @@
 class CPBDANBHPBE;
 class FCOEMCEDLNL;
 
-#define CPBDANBHPBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8F510)
-#define CPBDANBHPBE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC8F520)
-#define CPBDANBHPBE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC8F4D0)
+#define CPBDANBHPBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB90710)
+#define CPBDANBHPBE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB90720)
+#define CPBDANBHPBE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB906D0)
 
-inline static constexpr unsigned int CPBDANBHPBE_TypeDefinitionIndex = 21731;
+inline static constexpr unsigned int CPBDANBHPBE_TypeDefinitionIndex = 22120;
 
 	class CPBDANBHPBE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* JIJCAMIBONC; // 0x18
 		::Il2CppArray<::System::UInt32>* DLAIEOKGOIH; // 0x20
-		::System::UInt32 FDMIEICBBNB; // 0x28
+		::System::UInt32 ICGACGKHFEO; // 0x28
 		::System::UInt32 ALDHGDKEMNL; // 0x2C
-		::System::UInt32 ICGACGKHFEO; // 0x30
+		::System::UInt32 FDMIEICBBNB; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CPBDANBHPBE_CTOR_OFFSET))(this);

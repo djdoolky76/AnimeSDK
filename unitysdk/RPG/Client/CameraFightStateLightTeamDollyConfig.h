@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERAFIGHTSTATELIGHTTEAMDOLLYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC92EF40)
+#define RPG_CLIENT_CAMERAFIGHTSTATELIGHTTEAMDOLLYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D313AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateLightTeamDollyConfig_TypeDefinitionIndex = 69580;
+	inline static constexpr unsigned int CameraFightStateLightTeamDollyConfig_TypeDefinitionIndex = 71537;
 
 	class CameraFightStateLightTeamDollyConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE913B30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C75E870)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ChromaticAberrationTimelineClip_TypeDefinitionIndex = 48555;
+	inline static constexpr unsigned int ChromaticAberrationTimelineClip_TypeDefinitionIndex = 49596;
 
 	class ChromaticAberrationTimelineClip
 	{

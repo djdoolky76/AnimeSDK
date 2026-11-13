@@ -3,7 +3,7 @@
 namespace RPG::Client { class BattleAssetPreload_CharacterPreloadGroupBase; }
 namespace System { class String; }
 
-inline static constexpr unsigned int JOCJJFIKIAA_TypeDefinitionIndex = 59667;
+inline static constexpr unsigned int JOCJJFIKIAA_TypeDefinitionIndex = 60944;
 
 	struct alignas(8) JOCJJFIKIAA
 	{

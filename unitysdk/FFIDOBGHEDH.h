@@ -4,16 +4,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define FFIDOBGHEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x15733D50)
+#define FFIDOBGHEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x130E6350)
 
-inline static constexpr unsigned int FFIDOBGHEDH_TypeDefinitionIndex = 54924;
+inline static constexpr unsigned int FFIDOBGHEDH_TypeDefinitionIndex = 56096;
 
 	class FFIDOBGHEDH : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* GKDKCLMLOME; // 0x10
-		::System::String* PEGNLFICABO; // 0x18
-		::System::String* OCPAACFIDMF; // 0x20
+		::System::String* OCPAACFIDMF; // 0x18
+		::System::String* PEGNLFICABO; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFIDOBGHEDH_CTOR_OFFSET))(this);

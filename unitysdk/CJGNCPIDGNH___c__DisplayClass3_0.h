@@ -7,11 +7,11 @@ namespace RPG::Client { class BaseLobby; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define CJGNCPIDGNH___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD204D70)
-#define CJGNCPIDGNH___C__DISPLAYCLASS3_0___DOCREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD20A380)
-#define CJGNCPIDGNH___C__DISPLAYCLASS3_0___DOCREATELOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xD20A520)
+#define CJGNCPIDGNH___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x177D0080)
+#define CJGNCPIDGNH___C__DISPLAYCLASS3_0___DOCREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x177D56B0)
+#define CJGNCPIDGNH___C__DISPLAYCLASS3_0___DOCREATELOBBY_B__1_OFFSET UNITYSDK_OFFSET(0x177D5850)
 
-inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass3_0_TypeDefinitionIndex = 80271;
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass3_0_TypeDefinitionIndex = 83048;
 
 	class CJGNCPIDGNH___c__DisplayClass3_0 : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int BidirectionalDictionary_2_TypeDefinitionIndex = 9653;
+	inline static constexpr unsigned int BidirectionalDictionary_2_TypeDefinitionIndex = 9661;
 
 	template <typename T1, typename T2>
 	class BidirectionalDictionary_2 : public ::System::Object

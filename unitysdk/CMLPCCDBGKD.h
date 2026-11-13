@@ -5,20 +5,20 @@ class CMLPCCDBGKD;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define CMLPCCDBGKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC833D0)
-#define CMLPCCDBGKD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC833E0)
-#define CMLPCCDBGKD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC83390)
+#define CMLPCCDBGKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB82C20)
+#define CMLPCCDBGKD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB82C30)
+#define CMLPCCDBGKD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB82BE0)
 
-inline static constexpr unsigned int CMLPCCDBGKD_TypeDefinitionIndex = 22440;
+inline static constexpr unsigned int CMLPCCDBGKD_TypeDefinitionIndex = 22849;
 
 	class CMLPCCDBGKD : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::String* PKGIGDIFCOC; // 0x18
 		::System::String* DHPNGKCIHJM; // 0x20
-		::System::Boolean OCPPAAFCGBD; // 0x28
-		::System::Boolean OLHGCELNFKN; // 0x29
-		::System::Boolean INAFNJMLPFA; // 0x2A
+		::System::Boolean INAFNJMLPFA; // 0x28
+		::System::Boolean OCPPAAFCGBD; // 0x29
+		::System::Boolean OLHGCELNFKN; // 0x2A
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMLPCCDBGKD_CTOR_OFFSET))(this);

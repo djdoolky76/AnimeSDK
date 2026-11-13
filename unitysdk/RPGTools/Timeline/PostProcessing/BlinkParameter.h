@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xE90FF90)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF81C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0x1C75AB20)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3EEE9F0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BlinkParameter_TypeDefinitionIndex = 48541;
+	inline static constexpr unsigned int BlinkParameter_TypeDefinitionIndex = 49582;
 
 	struct alignas(4) BlinkParameter
 	{

@@ -10,32 +10,32 @@ namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class GUIStyle; }
 namespace UnityEngine { class Object; }
 
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0x166A13E0)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x166A0E60)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x166A0DD0)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x166A12F0)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x166A11E0)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0x20888690)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x20888110)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x20888080)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x208885A0)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x20888490)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int CinemachineDebug_TypeDefinitionIndex = 39886;
+	inline static constexpr unsigned int CinemachineDebug_TypeDefinitionIndex = 40815;
 
 	class CinemachineDebug : public ::System::Object
 	{
 	public:
 		static ::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate** StaticGet_OnGUIHandlers()
 		{
-			return (::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate**)UnitySDK::FromName("Cinemachine.Utility", "CinemachineDebug")->GetStaticField(0xB40);
+			return (::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate**)UnitySDK::FromName("Cinemachine.Utility", "CinemachineDebug")->GetStaticField(0xAF0);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>** StaticGet_mClients()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)UnitySDK::FromName("Cinemachine.Utility", "CinemachineDebug")->GetStaticField(0xB48);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)UnitySDK::FromName("Cinemachine.Utility", "CinemachineDebug")->GetStaticField(0xAF8);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Text::StringBuilder*>** StaticGet_mAvailableStringBuilders()
 		{
-			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)UnitySDK::FromName("Cinemachine.Utility", "CinemachineDebug")->GetStaticField(0xB50);
+			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)UnitySDK::FromName("Cinemachine.Utility", "CinemachineDebug")->GetStaticField(0xB00);
 		}
 
 		::System::Void _ctor()

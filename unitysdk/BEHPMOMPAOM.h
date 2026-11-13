@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsRootHitCallback; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BEHPMOMPAOM_CTOR_OFFSET UNITYSDK_OFFSET(0x16316D40)
-#define BEHPMOMPAOM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16316D70)
+#define BEHPMOMPAOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A945440)
+#define BEHPMOMPAOM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A945470)
 
-inline static constexpr unsigned int BEHPMOMPAOM_TypeDefinitionIndex = 54681;
+inline static constexpr unsigned int BEHPMOMPAOM_TypeDefinitionIndex = 55847;
 
 	class BEHPMOMPAOM
 	{

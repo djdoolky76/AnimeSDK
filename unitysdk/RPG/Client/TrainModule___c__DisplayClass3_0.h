@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class LFMNBJEMDIK;
 
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE2B55E0)
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS3_0__FINDTRAINPASSENGER_B__0_OFFSET UNITYSDK_OFFSET(0xE2BABD0)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C60DFD0)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS3_0__FINDTRAINPASSENGER_B__0_OFFSET UNITYSDK_OFFSET(0x1C6135A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainModule___c__DisplayClass3_0_TypeDefinitionIndex = 68158;
+	inline static constexpr unsigned int TrainModule___c__DisplayClass3_0_TypeDefinitionIndex = 70104;
 
 	class TrainModule___c__DisplayClass3_0 : public ::System::Object
 	{

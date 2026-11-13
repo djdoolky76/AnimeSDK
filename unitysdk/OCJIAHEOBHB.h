@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OCJIAHEOBHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBD67270)
+#define OCJIAHEOBHB_CTOR_OFFSET UNITYSDK_OFFSET(0x19A19540)
 
-inline static constexpr unsigned int OCJIAHEOBHB_TypeDefinitionIndex = 77793;
+inline static constexpr unsigned int OCJIAHEOBHB_TypeDefinitionIndex = 80528;
 
 	class OCJIAHEOBHB : public ::System::Object
 	{

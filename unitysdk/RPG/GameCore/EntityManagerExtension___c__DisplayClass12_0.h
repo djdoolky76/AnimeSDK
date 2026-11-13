@@ -5,18 +5,18 @@ namespace RPG::Client { class MapNpcDef; }
 namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE638550)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS12_0__CLIENTCREATEMAPNPCMONSTER_B__0_OFFSET UNITYSDK_OFFSET(0xE658BF0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x174E3B50)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS12_0__CLIENTCREATEMAPNPCMONSTER_B__0_OFFSET UNITYSDK_OFFSET(0x174E3B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass12_0_TypeDefinitionIndex = 57775;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass12_0_TypeDefinitionIndex = 59010;
 
 	class EntityManagerExtension___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MapNpcDef* npcDef; // 0x10
-		::RPG::GameCore::GameEntity* pEntity; // 0x18
+		::RPG::GameCore::GameEntity* pEntity; // 0x10
+		::RPG::Client::MapNpcDef* npcDef; // 0x18
 		::RPG::GameCore::EntityManager* pManager; // 0x20
 		::System::Void _ctor()
 		{

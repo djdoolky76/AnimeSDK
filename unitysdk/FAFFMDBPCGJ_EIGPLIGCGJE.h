@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FAFFMDBPCGJ_EIGPLIGCGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1566E160)
+#define FAFFMDBPCGJ_EIGPLIGCGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA24570)
 
-inline static constexpr unsigned int FAFFMDBPCGJ_EIGPLIGCGJE_TypeDefinitionIndex = 76731;
+inline static constexpr unsigned int FAFFMDBPCGJ_EIGPLIGCGJE_TypeDefinitionIndex = 79064;
 
 	class FAFFMDBPCGJ_EIGPLIGCGJE : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* AKMFKBIKBNH; // 0x10
-		::Il2CppArray<::System::Single>* NDPKHGPEMEK; // 0x18
+		::Il2CppArray<::System::Single>* NDPKHGPEMEK; // 0x10
+		::Il2CppArray<::System::Single>* AKMFKBIKBNH; // 0x18
 		::System::UInt32 BEDGFPAGDON; // 0x20
 		::System::Boolean EHNJKBGEFFP; // 0x24
 		::System::Void _ctor()

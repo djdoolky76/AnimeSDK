@@ -16,48 +16,48 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_AAMBDPNOFAG_OFFSET UNITYSDK_OFFSET(0xCB8DD50)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_ANFFLAJPOMN_OFFSET UNITYSDK_OFFSET(0xCB8CEC0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_BKCOHBDJKOA_OFFSET UNITYSDK_OFFSET(0xCB91820)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_CCPIHLBINAI_OFFSET UNITYSDK_OFFSET(0xCB8A190)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB92550)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xCB91EE0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xCB92290)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_FBNKIDBAPOO_OFFSET UNITYSDK_OFFSET(0xCB8DA10)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_FCKJGDGGHGA_OFFSET UNITYSDK_OFFSET(0xCB8A040)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_FFBNLOKJAAH_OFFSET UNITYSDK_OFFSET(0xCB8A9F0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_FKKJAFKADHP_OFFSET UNITYSDK_OFFSET(0xCB8DF00)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xCB8C620)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_GILPGMLBAHB_OFFSET UNITYSDK_OFFSET(0xCB909E0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_HJEKCBAEDBD_OFFSET UNITYSDK_OFFSET(0xCB91300)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JAJAMEEMGCN_OFFSET UNITYSDK_OFFSET(0xCB8C660)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JEFLGHICNJH_OFFSET UNITYSDK_OFFSET(0xCB8EB10)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JGGHDLAHENA_OFFSET UNITYSDK_OFFSET(0xCB8C930)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JIGJNOGKKJF_OFFSET UNITYSDK_OFFSET(0xCB8AA70)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xCB91F40)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KCMGJCNAIGH_OFFSET UNITYSDK_OFFSET(0xCB90FD0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KJDHILPBKBL_OFFSET UNITYSDK_OFFSET(0xCB8EE20)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KMGNKHONNHB_OFFSET UNITYSDK_OFFSET(0xCB898B0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KNEHIFFNHGJ_OFFSET UNITYSDK_OFFSET(0xCB8ACF0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCB91D80)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MAMJJAJFDJK_OFFSET UNITYSDK_OFFSET(0xCB8D3B0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xCB91E70)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MFCFLDLCJEL_OFFSET UNITYSDK_OFFSET(0xCB8E4A0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MHMNHALFNMI_OFFSET UNITYSDK_OFFSET(0xCB8E830)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MLCMJPOLIOO_OFFSET UNITYSDK_OFFSET(0xCB90200)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xCB92040)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_NKFABDFLDJF_OFFSET UNITYSDK_OFFSET(0xCB92100)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xCB91FA0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_OJFMMNCHBED_OFFSET UNITYSDK_OFFSET(0xCB8BC30)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xCB91E10)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_PGOJHDBBJEB_OFFSET UNITYSDK_OFFSET(0xCB8FC70)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xCB92000)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xCB920A0)
-#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR__COMPUTENEARFARFROMBOUNDS_G__EXTENTALONGDIR_2_0_OFFSET UNITYSDK_OFFSET(0xCB8A9B0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_AAMBDPNOFAG_OFFSET UNITYSDK_OFFSET(0x1D0216D0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_ANFFLAJPOMN_OFFSET UNITYSDK_OFFSET(0x1D020750)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_BKCOHBDJKOA_OFFSET UNITYSDK_OFFSET(0x1D025320)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_CCPIHLBINAI_OFFSET UNITYSDK_OFFSET(0x1D01D830)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D026170)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0x1D025A30)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D025EB0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_FBNKIDBAPOO_OFFSET UNITYSDK_OFFSET(0x1D021390)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_FCKJGDGGHGA_OFFSET UNITYSDK_OFFSET(0x1D01D710)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_FFBNLOKJAAH_OFFSET UNITYSDK_OFFSET(0x1D01E090)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_FKKJAFKADHP_OFFSET UNITYSDK_OFFSET(0x1D0218B0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1D01FE30)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_GILPGMLBAHB_OFFSET UNITYSDK_OFFSET(0x1D024460)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_HJEKCBAEDBD_OFFSET UNITYSDK_OFFSET(0x1D024DA0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JAJAMEEMGCN_OFFSET UNITYSDK_OFFSET(0x1D01FEB0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JEFLGHICNJH_OFFSET UNITYSDK_OFFSET(0x1D0225A0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JGGHDLAHENA_OFFSET UNITYSDK_OFFSET(0x1D0201C0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JIGJNOGKKJF_OFFSET UNITYSDK_OFFSET(0x1D01E110)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0x1D025A90)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KCMGJCNAIGH_OFFSET UNITYSDK_OFFSET(0x1D024A50)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KJDHILPBKBL_OFFSET UNITYSDK_OFFSET(0x1D0228B0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KMGNKHONNHB_OFFSET UNITYSDK_OFFSET(0x1D01CF80)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KNEHIFFNHGJ_OFFSET UNITYSDK_OFFSET(0x1D01E3B0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1D0258D0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MAMJJAJFDJK_OFFSET UNITYSDK_OFFSET(0x1D020D30)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x1D0259C0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MFCFLDLCJEL_OFFSET UNITYSDK_OFFSET(0x1D021EB0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MHMNHALFNMI_OFFSET UNITYSDK_OFFSET(0x1D0222C0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_MLCMJPOLIOO_OFFSET UNITYSDK_OFFSET(0x1D023C50)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0x1D025B90)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_NKFABDFLDJF_OFFSET UNITYSDK_OFFSET(0x1D025C50)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0x1D025AF0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_OJFMMNCHBED_OFFSET UNITYSDK_OFFSET(0x1D01F320)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x1D025960)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_PGOJHDBBJEB_OFFSET UNITYSDK_OFFSET(0x1D0236C0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0x1D025B50)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x1D025BF0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR__COMPUTENEARFARFROMBOUNDS_G__EXTENTALONGDIR_2_0_OFFSET UNITYSDK_OFFSET(0x1D01E050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoastinfoWaveBehavior_TypeDefinitionIndex = 70926;
+	inline static constexpr unsigned int CoastinfoWaveBehavior_TypeDefinitionIndex = 72905;
 
 	class CoastinfoWaveBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -136,109 +136,109 @@ namespace RPG::Client
 		::Il2CppArray<::System::Single>* _lodHalfExtents; // 0x240
 		::Il2CppArray<::UnityEngine::Vector3>* _lodTileExtents; // 0x248
 		::Il2CppArray<::UnityEngine::Vector3>* _lodTileScale; // 0x250
-		static ::System::Int32* StaticGet_ID_SeaClipCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BC0);
-		}
-
-		static ::System::Int32* StaticGet_ID_TileSeamEnabled()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BC4);
-		}
-
-		static ::System::Int32* StaticGet_ID_SeaClipCenterHalf()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BC8);
-		}
-
-		static ::System::Int32* StaticGet_ID_TileSeamSpacing()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BCC);
-		}
-
-		static ::System::Int32* StaticGet_ID_RefSizeWS()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BD0);
-		}
-
 		static ::System::Int32* StaticGet_ID_RefUV00_10()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BD4);
-		}
-
-		static ::System::Int32* StaticGet_ID_CustomLightMtxRow1()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BD8);
-		}
-
-		static ::System::Int32* StaticGet_ID_CustomLightMtxRow0()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BDC);
-		}
-
-		static ::System::Int32* StaticGet_ID_SeaClipAxes()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BE0);
-		}
-
-		static ::System::Int32* StaticGet_ID_TM_WrapMode()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BE4);
-		}
-
-		static ::System::Int32* StaticGet_ID_RefUVAffineV()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BE8);
-		}
-
-		static ::System::Int32* StaticGet_ID_CustomLightMtxRow2()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BEC);
-		}
-
-		static ::System::Int32* StaticGet_ID_TM_Switch()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BF0);
-		}
-
-		static ::System::Int32* StaticGet_ID_TileSeamMask()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BF4);
-		}
-
-		static ::System::Int32* StaticGet_ID_RefAxisT_WS()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BF8);
-		}
-
-		static ::System::Int32* StaticGet_ID_RefUV01_11()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4BFC);
-		}
-
-		static ::System::Int32* StaticGet_ID_CustomLightFinalDir()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4C00);
-		}
-
-		static ::System::Int32* StaticGet_ID_RefOriginWS()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4C04);
-		}
-
-		static ::System::Int32* StaticGet_ID_RefUVAffineU()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4C08);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5810);
 		}
 
 		static ::System::Int32* StaticGet_ID_RefAxisN_WS()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4C0C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5814);
+		}
+
+		static ::System::Int32* StaticGet_ID_SeaClipAxes()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5818);
+		}
+
+		static ::System::Int32* StaticGet_ID_RefAxisT_WS()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x581C);
+		}
+
+		static ::System::Int32* StaticGet_ID_TM_WrapMode()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5820);
+		}
+
+		static ::System::Int32* StaticGet_ID_RefSizeWS()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5824);
+		}
+
+		static ::System::Int32* StaticGet_ID_CustomLightFinalDir()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5828);
+		}
+
+		static ::System::Int32* StaticGet_ID_RefUVAffineV()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x582C);
+		}
+
+		static ::System::Int32* StaticGet_ID_RefUVAffineU()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5830);
+		}
+
+		static ::System::Int32* StaticGet_ID_SeaClipCenterHalf()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5834);
+		}
+
+		static ::System::Int32* StaticGet_ID_CustomLightMtxRow2()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5838);
+		}
+
+		static ::System::Int32* StaticGet_ID_TileSeamMask()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x583C);
+		}
+
+		static ::System::Int32* StaticGet_ID_TileSeamEnabled()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5840);
+		}
+
+		static ::System::Int32* StaticGet_ID_SeaClipCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5844);
+		}
+
+		static ::System::Int32* StaticGet_ID_RefOriginWS()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5848);
+		}
+
+		static ::System::Int32* StaticGet_ID_RefUV01_11()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x584C);
 		}
 
 		static ::System::Int32* StaticGet_ID_CustomLightMode()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x4C10);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5850);
+		}
+
+		static ::System::Int32* StaticGet_ID_CustomLightMtxRow0()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5854);
+		}
+
+		static ::System::Int32* StaticGet_ID_TM_Switch()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5858);
+		}
+
+		static ::System::Int32* StaticGet_ID_CustomLightMtxRow1()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x585C);
+		}
+
+		static ::System::Int32* StaticGet_ID_TileSeamSpacing()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CoastinfoWaveBehavior")->GetStaticField(0x5860);
 		}
 
 		// static const ::System::Object kMaxMeshGroups; // 0x0

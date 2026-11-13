@@ -4,18 +4,18 @@
 class CMFIANLCNEA;
 namespace System { class Object; }
 
-#define CMFIANLCNEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0D3F00)
-#define CMFIANLCNEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D3F40)
-#define CMFIANLCNEA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E0D3F50)
+#define CMFIANLCNEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205E7BE0)
+#define CMFIANLCNEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205E7C20)
+#define CMFIANLCNEA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x205E7C30)
 
-inline static constexpr unsigned int CMFIANLCNEA___c_TypeDefinitionIndex = 31951;
+inline static constexpr unsigned int CMFIANLCNEA___c_TypeDefinitionIndex = 32864;
 
 	class CMFIANLCNEA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C040);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15750);
 		}
 
 		static ::System::Void _cctor()

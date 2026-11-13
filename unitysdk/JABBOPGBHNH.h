@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/EntityTag.h"
 #include "unitysdk/System/Object.h"
 
-#define JABBOPGBHNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C730)
+#define JABBOPGBHNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC49580)
 
-inline static constexpr unsigned int JABBOPGBHNH_TypeDefinitionIndex = 43275;
+inline static constexpr unsigned int JABBOPGBHNH_TypeDefinitionIndex = 44256;
 
 	class JABBOPGBHNH : public ::System::Object
 	{

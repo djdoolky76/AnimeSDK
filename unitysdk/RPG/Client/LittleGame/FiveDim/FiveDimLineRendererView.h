@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMLINERENDERERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD43D520)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMLINERENDERERVIEW_SETLINERENDERERPOSITIONS_OFFSET UNITYSDK_OFFSET(0xD43D430)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMLINERENDERERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C394720)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMLINERENDERERVIEW_SETLINERENDERERPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1C394660)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimLineRendererView_TypeDefinitionIndex = 77185;
+	inline static constexpr unsigned int FiveDimLineRendererView_TypeDefinitionIndex = 79519;
 
 	class FiveDimLineRendererView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{

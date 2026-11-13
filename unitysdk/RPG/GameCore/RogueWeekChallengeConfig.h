@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueWeekChallengeConfig; }
 
-#define RPG_GAMECORE_ROGUEWEEKCHALLENGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA181E0)
-#define RPG_GAMECORE_ROGUEWEEKCHALLENGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA181A0)
+#define RPG_GAMECORE_ROGUEWEEKCHALLENGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF38A80)
+#define RPG_GAMECORE_ROGUEWEEKCHALLENGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF38A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueWeekChallengeConfig_TypeDefinitionIndex = 18016;
+	inline static constexpr unsigned int RogueWeekChallengeConfig_TypeDefinitionIndex = 18183;
 
 	class RogueWeekChallengeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInCustomTeamFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KEEPHLBBDCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB36E6F0)
-#define KEEPHLBBDCG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB36E720)
+#define KEEPHLBBDCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D8600)
+#define KEEPHLBBDCG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B5D8630)
 
-inline static constexpr unsigned int KEEPHLBBDCG_TypeDefinitionIndex = 54906;
+inline static constexpr unsigned int KEEPHLBBDCG_TypeDefinitionIndex = 56078;
 
 	class KEEPHLBBDCG
 	{

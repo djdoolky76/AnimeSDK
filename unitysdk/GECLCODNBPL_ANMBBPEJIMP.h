@@ -4,15 +4,15 @@
 class NGMLJMLDCCG;
 namespace RPG::GameCore { class GameEntity; }
 
-#define GECLCODNBPL_ANMBBPEJIMP_CTOR_OFFSET UNITYSDK_OFFSET(0x159BCB60)
+#define GECLCODNBPL_ANMBBPEJIMP_CTOR_OFFSET UNITYSDK_OFFSET(0x17CC9F60)
 
-inline static constexpr unsigned int GECLCODNBPL_ANMBBPEJIMP_TypeDefinitionIndex = 71404;
+inline static constexpr unsigned int GECLCODNBPL_ANMBBPEJIMP_TypeDefinitionIndex = 73386;
 
 	class GECLCODNBPL_ANMBBPEJIMP : public ::System::Object
 	{
 	public:
-		::NGMLJMLDCCG* CEFDCEHLEFJ; // 0x10
-		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+		::NGMLJMLDCCG* CEFDCEHLEFJ; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GECLCODNBPL_ANMBBPEJIMP_CTOR_OFFSET))(this);

@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HMLLLNIEPHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABEDA0)
+#define HMLLLNIEPHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB32F0)
 
-inline static constexpr unsigned int HMLLLNIEPHL_TypeDefinitionIndex = 43764;
+inline static constexpr unsigned int HMLLLNIEPHL_TypeDefinitionIndex = 44839;
 
 	class HMLLLNIEPHL : public ::System::Object
 	{

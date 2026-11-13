@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GOCPANCACGA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE44030)
-#define GOCPANCACGA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE445B0)
-#define GOCPANCACGA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE441A0)
-#define GOCPANCACGA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE43AC0)
-#define GOCPANCACGA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE43D50)
-#define GOCPANCACGA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE44240)
-#define GOCPANCACGA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE44290)
-#define GOCPANCACGA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE44070)
-#define GOCPANCACGA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE43CF0)
-#define GOCPANCACGA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE43EC0)
-#define GOCPANCACGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE44100)
-#define GOCPANCACGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE43A40)
+#define GOCPANCACGA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E9C4740)
+#define GOCPANCACGA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C4CC0)
+#define GOCPANCACGA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E9C48B0)
+#define GOCPANCACGA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E9C41D0)
+#define GOCPANCACGA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E9C4460)
+#define GOCPANCACGA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E9C4950)
+#define GOCPANCACGA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E9C49A0)
+#define GOCPANCACGA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E9C4780)
+#define GOCPANCACGA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E9C4400)
+#define GOCPANCACGA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E9C45D0)
+#define GOCPANCACGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E9C4810)
+#define GOCPANCACGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E9C4150)
 
-inline static constexpr unsigned int GOCPANCACGA_TypeDefinitionIndex = 13302;
+inline static constexpr unsigned int GOCPANCACGA_TypeDefinitionIndex = 13374;
 
 	class GOCPANCACGA : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x17B60);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FreeStyleCharacterInfoConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FreeStyleCharacterInfoConfigRow*>**)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x17B68);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x12D80);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x17B70);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x12D88);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FreeStyleCharacterInfoConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x51B0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FreeStyleCharacterInfoConfigRow*>**)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x12D90);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x51B1);
+			return (::System::Byte*)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x3C60);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "GOCPANCACGA")->GetStaticField(0x3C61);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowRubbingUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IDBELDAHPJH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E5B520)
-#define IDBELDAHPJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E5B550)
+#define IDBELDAHPJH_CTOR_OFFSET UNITYSDK_OFFSET(0x188E87E0)
+#define IDBELDAHPJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188E8810)
 
-inline static constexpr unsigned int IDBELDAHPJH_TypeDefinitionIndex = 53285;
+inline static constexpr unsigned int IDBELDAHPJH_TypeDefinitionIndex = 54447;
 
 	class IDBELDAHPJH
 	{

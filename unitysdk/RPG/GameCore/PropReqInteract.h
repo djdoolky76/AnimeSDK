@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PropReqInteract; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PROPREQINTERACT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9251B0)
-#define RPG_GAMECORE_PROPREQINTERACT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9251E0)
-#define RPG_GAMECORE_PROPREQINTERACT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D925160)
+#define RPG_GAMECORE_PROPREQINTERACT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8EE00)
+#define RPG_GAMECORE_PROPREQINTERACT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF8EE30)
+#define RPG_GAMECORE_PROPREQINTERACT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF8EDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropReqInteract_TypeDefinitionIndex = 22326;
+	inline static constexpr unsigned int PropReqInteract_TypeDefinitionIndex = 22731;
 
 	class PropReqInteract : public ::RPG::GameCore::TaskConfig
 	{

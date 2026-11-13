@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS88_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD0C7E0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS88_0___PLAYOUTLINEFADEANIAMTION_B__0_OFFSET UNITYSDK_OFFSET(0xDD0D1B0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS88_0_CTOR_OFFSET UNITYSDK_OFFSET(0x171BC7C0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS88_0___PLAYOUTLINEFADEANIAMTION_B__0_OFFSET UNITYSDK_OFFSET(0x171BD190)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleBoard___c__DisplayClass88_0_TypeDefinitionIndex = 78654;
+	inline static constexpr unsigned int JigsawPuzzleBoard___c__DisplayClass88_0_TypeDefinitionIndex = 81389;
 
 	class JigsawPuzzleBoard___c__DisplayClass88_0 : public ::System::Object
 	{

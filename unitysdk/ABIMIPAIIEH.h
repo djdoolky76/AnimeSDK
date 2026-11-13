@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define ABIMIPAIIEH_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x3C36940)
-#define ABIMIPAIIEH_DJJBNDDBKIH_OFFSET UNITYSDK_OFFSET(0x3C36960)
+#define ABIMIPAIIEH_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x3F0F030)
+#define ABIMIPAIIEH_DJJBNDDBKIH_OFFSET UNITYSDK_OFFSET(0x3F0F050)
 
-inline static constexpr unsigned int ABIMIPAIIEH_TypeDefinitionIndex = 10817;
+inline static constexpr unsigned int ABIMIPAIIEH_TypeDefinitionIndex = 10833;
 
 	struct alignas(4) ABIMIPAIIEH
 	{

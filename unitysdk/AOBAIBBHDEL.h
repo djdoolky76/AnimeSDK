@@ -4,16 +4,16 @@
 class AOBAIBBHDEL;
 class FCOEMCEDLNL;
 
-#define AOBAIBBHDEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB9810)
-#define AOBAIBBHDEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB96F0)
+#define AOBAIBBHDEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECB52B0)
+#define AOBAIBBHDEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECB5190)
 
-inline static constexpr unsigned int AOBAIBBHDEL_TypeDefinitionIndex = 13644;
+inline static constexpr unsigned int AOBAIBBHDEL_TypeDefinitionIndex = 13769;
 
 	class AOBAIBBHDEL : public ::System::Object
 	{
 	public:
-		::System::UInt32 IMDPJFEGIDF; // 0x10
-		::System::UInt32 EEBLMLAEFHO; // 0x14
+		::System::UInt32 EEBLMLAEFHO; // 0x10
+		::System::UInt32 IMDPJFEGIDF; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOBAIBBHDEL_CTOR_OFFSET))(this);

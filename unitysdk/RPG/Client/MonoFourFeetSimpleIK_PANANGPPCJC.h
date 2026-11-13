@@ -5,21 +5,21 @@
 namespace RPG::Client { class MonoFourFeetSimpleIK_OriginTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_PANANGPPCJC_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0xD8265D0)
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_PANANGPPCJC_CTOR_OFFSET UNITYSDK_OFFSET(0xD8257D0)
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_PANANGPPCJC_MIBEAENEAFE_OFFSET UNITYSDK_OFFSET(0xD825E90)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_PANANGPPCJC_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x1AE0FFA0)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_PANANGPPCJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AE0F1A0)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_PANANGPPCJC_MIBEAENEAFE_OFFSET UNITYSDK_OFFSET(0x1AE0F860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoFourFeetSimpleIK_PANANGPPCJC_TypeDefinitionIndex = 68594;
+	inline static constexpr unsigned int MonoFourFeetSimpleIK_PANANGPPCJC_TypeDefinitionIndex = 70542;
 
 	class MonoFourFeetSimpleIK_PANANGPPCJC : public ::System::Object
 	{
 	public:
 		::RPG::Client::MonoFourFeetSimpleIK_OriginTransform* DICDJJOJKGF; // 0x10
 		::UnityEngine::Transform* DHIPFJBEJPI; // 0x18
-		::UnityEngine::Quaternion DGKOGKGKHJG; // 0x20
-		::System::Single APAKCBFMCAB; // 0x30
+		::System::Single APAKCBFMCAB; // 0x20
+		::UnityEngine::Quaternion DGKOGKGKHJG; // 0x24
 		::System::Void _ctor(::RPG::Client::MonoFourFeetSimpleIK_OriginTransform* a1, ::UnityEngine::Transform* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoFourFeetSimpleIK_OriginTransform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFOURFEETSIMPLEIK_PANANGPPCJC_CTOR_OFFSET))(this, a1, a2);

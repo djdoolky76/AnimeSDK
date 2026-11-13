@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByInAlertRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCDFHOOMDKH_CTOR_OFFSET UNITYSDK_OFFSET(0xB32ACA0)
-#define KCDFHOOMDKH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB32ACD0)
+#define KCDFHOOMDKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A47DA00)
+#define KCDFHOOMDKH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A47DA30)
 
-inline static constexpr unsigned int KCDFHOOMDKH_TypeDefinitionIndex = 53923;
+inline static constexpr unsigned int KCDFHOOMDKH_TypeDefinitionIndex = 55087;
 
 	class KCDFHOOMDKH
 	{

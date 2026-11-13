@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerPropEventInBattle; }
 
-#define PMAFOPGICGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC30A160)
-#define PMAFOPGICGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC30A190)
+#define PMAFOPGICGL_CTOR_OFFSET UNITYSDK_OFFSET(0x18896C30)
+#define PMAFOPGICGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18896C60)
 
-inline static constexpr unsigned int PMAFOPGICGL_TypeDefinitionIndex = 55763;
+inline static constexpr unsigned int PMAFOPGICGL_TypeDefinitionIndex = 56966;
 
 	class PMAFOPGICGL
 	{

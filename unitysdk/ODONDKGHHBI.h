@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ExtraEffectRow; }
 
-#define ODONDKGHHBI_CBHGELFFLKG_OFFSET UNITYSDK_OFFSET(0xBDEAF70)
-#define ODONDKGHHBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBDEAFE0)
+#define ODONDKGHHBI_CBHGELFFLKG_OFFSET UNITYSDK_OFFSET(0x17616C20)
+#define ODONDKGHHBI_CTOR_OFFSET UNITYSDK_OFFSET(0x17616C90)
 
-inline static constexpr unsigned int ODONDKGHHBI_TypeDefinitionIndex = 81046;
+inline static constexpr unsigned int ODONDKGHHBI_TypeDefinitionIndex = 83826;
 
 	class ODONDKGHHBI : public ::System::Object
 	{

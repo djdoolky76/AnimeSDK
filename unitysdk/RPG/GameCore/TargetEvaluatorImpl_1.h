@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetEvaluatorImpl_1_TypeDefinitionIndex = 59196;
+	inline static constexpr unsigned int TargetEvaluatorImpl_1_TypeDefinitionIndex = 60473;
 
 	template <typename T>
 	class TargetEvaluatorImpl_1

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CDABMABJFII_TypeDefinitionIndex = 29905;
+inline static constexpr unsigned int CDABMABJFII_TypeDefinitionIndex = 30803;
 
 	enum class CDABMABJFII : ::System::Int32
 	{

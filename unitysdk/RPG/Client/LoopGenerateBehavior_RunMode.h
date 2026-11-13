@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_RunMode_TypeDefinitionIndex = 70911;
+	inline static constexpr unsigned int LoopGenerateBehavior_RunMode_TypeDefinitionIndex = 72890;
 
 	enum class LoopGenerateBehavior_RunMode : ::System::Int32
 	{

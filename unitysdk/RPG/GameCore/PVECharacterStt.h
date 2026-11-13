@@ -3,11 +3,11 @@
 #include "unitysdk/BIMHOGHOCKP.h"
 class DPMFBDHCNNO;
 
-#define RPG_GAMECORE_PVECHARACTERSTT_CTOR_OFFSET UNITYSDK_OFFSET(0xE708130)
+#define RPG_GAMECORE_PVECHARACTERSTT_CTOR_OFFSET UNITYSDK_OFFSET(0x1926C140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PVECharacterStt_TypeDefinitionIndex = 57625;
+	inline static constexpr unsigned int PVECharacterStt_TypeDefinitionIndex = 58854;
 
 	class PVECharacterStt : public ::BIMHOGHOCKP
 	{

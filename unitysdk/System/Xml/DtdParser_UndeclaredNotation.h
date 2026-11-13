@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace System::Xml { class DtdParser_UndeclaredNotation; }
 
-#define SYSTEM_XML_DTDPARSER_UNDECLAREDNOTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6F280)
+#define SYSTEM_XML_DTDPARSER_UNDECLAREDNOTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D201D30)
 
 namespace System::Xml
 {
@@ -13,8 +13,8 @@ namespace System::Xml
 	class DtdParser_UndeclaredNotation : public ::System::Object
 	{
 	public:
-		::System::Xml::DtdParser_UndeclaredNotation* next; // 0x10
-		::System::String* name; // 0x18
+		::System::String* name; // 0x10
+		::System::Xml::DtdParser_UndeclaredNotation* next; // 0x18
 		::System::Int32 linePos; // 0x20
 		::System::Int32 lineNo; // 0x24
 		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)

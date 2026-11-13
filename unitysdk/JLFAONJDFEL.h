@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class OOCCBMLAELL;
 
-#define JLFAONJDFEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB238B70)
+#define JLFAONJDFEL_CTOR_OFFSET UNITYSDK_OFFSET(0x17B457A0)
 
-inline static constexpr unsigned int JLFAONJDFEL_TypeDefinitionIndex = 80573;
+inline static constexpr unsigned int JLFAONJDFEL_TypeDefinitionIndex = 83353;
 
 	class JLFAONJDFEL : public ::System::Object
 	{

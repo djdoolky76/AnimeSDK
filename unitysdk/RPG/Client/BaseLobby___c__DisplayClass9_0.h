@@ -5,13 +5,13 @@ namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7E4B80)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__KICKOUTPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xC7E8ED0)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__KICKOUTPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xC7E8F00)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFF83D0)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__KICKOUTPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x1AFFC700)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__KICKOUTPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0x1AFFC730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseLobby___c__DisplayClass9_0_TypeDefinitionIndex = 65773;
+	inline static constexpr unsigned int BaseLobby___c__DisplayClass9_0_TypeDefinitionIndex = 67705;
 
 	class BaseLobby___c__DisplayClass9_0 : public ::System::Object
 	{

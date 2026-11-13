@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOPFEKDHPJF_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D1AEF20)
+#define MOPFEKDHPJF_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1E881860)
 
-inline static constexpr unsigned int MOPFEKDHPJF_TypeDefinitionIndex = 10682;
+inline static constexpr unsigned int MOPFEKDHPJF_TypeDefinitionIndex = 10698;
 
 	class MOPFEKDHPJF : public ::System::Object
 	{

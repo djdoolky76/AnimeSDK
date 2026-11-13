@@ -7,11 +7,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client { class EasyFog_ExtraExportData; }
 
-#define SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9597F0)
+#define SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA455C0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EasyFog_ExportData_TypeDefinitionIndex = 49109;
+	inline static constexpr unsigned int EasyFog_ExportData_TypeDefinitionIndex = 50185;
 
 	class EasyFog_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

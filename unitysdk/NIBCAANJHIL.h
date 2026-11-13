@@ -8,27 +8,27 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NIBCAANJHIL_CTOR_OFFSET UNITYSDK_OFFSET(0xBBD7DE0)
-#define NIBCAANJHIL_DFNCHKNEAGJ_OFFSET UNITYSDK_OFFSET(0xBBD7060)
-#define NIBCAANJHIL_GJNPDJFDEAJ_OFFSET UNITYSDK_OFFSET(0xBBD7210)
-#define NIBCAANJHIL_GMFNACNGGPL_OFFSET UNITYSDK_OFFSET(0xBBD7570)
-#define NIBCAANJHIL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBBD70C0)
-#define NIBCAANJHIL_HOIEBKJPPFN_OFFSET UNITYSDK_OFFSET(0xBBD7340)
-#define NIBCAANJHIL_KFKNDLIIOIB_OFFSET UNITYSDK_OFFSET(0xBBD7430)
+#define NIBCAANJHIL_CTOR_OFFSET UNITYSDK_OFFSET(0x148B4B40)
+#define NIBCAANJHIL_DFNCHKNEAGJ_OFFSET UNITYSDK_OFFSET(0x148B3DC0)
+#define NIBCAANJHIL_GJNPDJFDEAJ_OFFSET UNITYSDK_OFFSET(0x148B3F70)
+#define NIBCAANJHIL_GMFNACNGGPL_OFFSET UNITYSDK_OFFSET(0x148B42D0)
+#define NIBCAANJHIL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x148B3E20)
+#define NIBCAANJHIL_HOIEBKJPPFN_OFFSET UNITYSDK_OFFSET(0x148B40A0)
+#define NIBCAANJHIL_KFKNDLIIOIB_OFFSET UNITYSDK_OFFSET(0x148B4190)
 
-inline static constexpr unsigned int NIBCAANJHIL_TypeDefinitionIndex = 73976;
+inline static constexpr unsigned int NIBCAANJHIL_TypeDefinitionIndex = 76112;
 
 	class NIBCAANJHIL : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AnchorInfo* ELOGPDHHGHO; // 0x10
-		::System::Action* FKJNCLCDKOL; // 0x18
-		::System::Collections::Generic::List_1<::KLEFGGIHGMI*>* HNFMNLPOMNK; // 0x20
-		::System::String* JGCDBLPNBML; // 0x28
-		::UnityEngine::Vector3 NDDPJBEIGIJ; // 0x30
-		::UnityEngine::Vector3 OPMGDNNAEJF; // 0x3C
-		::System::Single JODPHBJFOPL; // 0x48
-		::System::Single NGFAGMJHKJO; // 0x4C
+		::System::Action* FKJNCLCDKOL; // 0x10
+		::System::Collections::Generic::List_1<::KLEFGGIHGMI*>* HNFMNLPOMNK; // 0x18
+		::System::String* JGCDBLPNBML; // 0x20
+		::RPG::GameCore::AnchorInfo* ELOGPDHHGHO; // 0x28
+		::System::Single NGFAGMJHKJO; // 0x30
+		::UnityEngine::Vector3 NDDPJBEIGIJ; // 0x34
+		::UnityEngine::Vector3 OPMGDNNAEJF; // 0x40
+		::System::Single JODPHBJFOPL; // 0x4C
 		::UnityEngine::Vector3 LKLEKMMPAAN; // 0x50
 		::System::Void _ctor()
 		{

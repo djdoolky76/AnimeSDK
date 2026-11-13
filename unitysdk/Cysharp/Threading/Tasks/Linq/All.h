@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int All_TypeDefinitionIndex = 45214;
+	inline static constexpr unsigned int All_TypeDefinitionIndex = 46243;
 
 	class All : public ::System::Object
 	{

@@ -5,20 +5,20 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class SwitchCharacterAnchorV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBABPNBGHGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1654EF40)
-#define JBABPNBGHGP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1654F090)
-#define JBABPNBGHGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1654F420)
-#define JBABPNBGHGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1654F200)
-#define JBABPNBGHGP_TICK_OFFSET UNITYSDK_OFFSET(0x1654F280)
+#define JBABPNBGHGP_CTOR_OFFSET UNITYSDK_OFFSET(0x19A5EE20)
+#define JBABPNBGHGP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19A5EF70)
+#define JBABPNBGHGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A5F2C0)
+#define JBABPNBGHGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19A5F0D0)
+#define JBABPNBGHGP_TICK_OFFSET UNITYSDK_OFFSET(0x19A5F150)
 
-inline static constexpr unsigned int JBABPNBGHGP_TypeDefinitionIndex = 53304;
+inline static constexpr unsigned int JBABPNBGHGP_TypeDefinitionIndex = 54466;
 
 	class JBABPNBGHGP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SwitchCharacterAnchorV2* OFKGLJOAMLD; // 0x18
-		::KFELGAIGHAP* HFOFIODMFGB; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::KFELGAIGHAP* HFOFIODMFGB; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::SwitchCharacterAnchorV2* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchCharacterAnchorV2* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchCharacterAnchorV2*))((::PBYTE)hIl2Cpp + JBABPNBGHGP_CTOR_OFFSET))(this, a1, a2);

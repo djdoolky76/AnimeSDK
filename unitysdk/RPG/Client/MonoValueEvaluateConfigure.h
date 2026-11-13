@@ -5,12 +5,12 @@ namespace RPG::Client { class MonoValueEvaluateConfigure_FloatEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_CTOR_OFFSET UNITYSDK_OFFSET(0xD8763A0)
-#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_FINDFLOAT_OFFSET UNITYSDK_OFFSET(0xD8762A0)
+#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D296650)
+#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_FINDFLOAT_OFFSET UNITYSDK_OFFSET(0x1D296550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoValueEvaluateConfigure_TypeDefinitionIndex = 68623;
+	inline static constexpr unsigned int MonoValueEvaluateConfigure_TypeDefinitionIndex = 70571;
 
 	class MonoValueEvaluateConfigure : public ::UnityEngine::MonoBehaviour
 	{

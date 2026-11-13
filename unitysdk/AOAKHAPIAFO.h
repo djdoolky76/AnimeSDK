@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AlleySpecialOrderTarget; }
 
-#define AOAKHAPIAFO_JMGMFMGFIAO_OFFSET UNITYSDK_OFFSET(0x1589A600)
+#define AOAKHAPIAFO_JMGMFMGFIAO_OFFSET UNITYSDK_OFFSET(0x1A83F4B0)
 
-inline static constexpr unsigned int AOAKHAPIAFO_TypeDefinitionIndex = 62269;
+inline static constexpr unsigned int AOAKHAPIAFO_TypeDefinitionIndex = 63682;
 
 	class AOAKHAPIAFO : public ::System::Object
 	{

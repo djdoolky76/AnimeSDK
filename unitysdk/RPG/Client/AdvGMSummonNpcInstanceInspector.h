@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_ADVGMSUMMONNPCINSTANCEINSPECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C3440)
+#define RPG_CLIENT_ADVGMSUMMONNPCINSTANCEINSPECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x18D14120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdvGMSummonNpcInstanceInspector_TypeDefinitionIndex = 72728;
+	inline static constexpr unsigned int AdvGMSummonNpcInstanceInspector_TypeDefinitionIndex = 74807;
 
 	class AdvGMSummonNpcInstanceInspector : public ::UnityEngine::MonoBehaviour
 	{

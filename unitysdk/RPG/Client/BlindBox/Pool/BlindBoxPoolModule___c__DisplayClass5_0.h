@@ -4,18 +4,18 @@
 class MFCCCIMGMFL;
 namespace RPG::Client::BlindBox::Pool { class BlindBoxPoolModule; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC882020)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0___ONBLINDBOXGETDATASCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xC8855C0)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C550530)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0___ONBLINDBOXGETDATASCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x1C553B00)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int BlindBoxPoolModule___c__DisplayClass5_0_TypeDefinitionIndex = 74914;
+	inline static constexpr unsigned int BlindBoxPoolModule___c__DisplayClass5_0_TypeDefinitionIndex = 77241;
 
 	class BlindBoxPoolModule___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::BlindBox::Pool::BlindBoxPoolModule* __4__this; // 0x10
-		::MFCCCIMGMFL* protoPool; // 0x18
+		::MFCCCIMGMFL* protoPool; // 0x10
+		::RPG::Client::BlindBox::Pool::BlindBoxPoolModule* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

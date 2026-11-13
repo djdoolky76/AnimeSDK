@@ -4,10 +4,10 @@ class MOFBPDIGHKJ;
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define GCKNEMLNKNE_CTOR_OFFSET UNITYSDK_OFFSET(0x159776D0)
-#define GCKNEMLNKNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15977700)
+#define GCKNEMLNKNE_CTOR_OFFSET UNITYSDK_OFFSET(0x19EBCC10)
+#define GCKNEMLNKNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19EBCC40)
 
-inline static constexpr unsigned int GCKNEMLNKNE_TypeDefinitionIndex = 55424;
+inline static constexpr unsigned int GCKNEMLNKNE_TypeDefinitionIndex = 56609;
 
 	class GCKNEMLNKNE
 	{

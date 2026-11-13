@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace System::Reflection { class FieldInfo; }
 
-inline static constexpr unsigned int JGJAOBJPGDO__ToString_d__0_1_TypeDefinitionIndex = 15466;
+inline static constexpr unsigned int JGJAOBJPGDO__ToString_d__0_1_TypeDefinitionIndex = 15624;
 
 	template <typename T>
 	class JGJAOBJPGDO__ToString_d__0_1 : public ::System::Object

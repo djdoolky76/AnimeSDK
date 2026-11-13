@@ -5,10 +5,10 @@ class HEOAAAKKHLC;
 class PKJOPFLMLLB;
 namespace System { template <typename T> class Comparison_1; }
 
-#define HEOAAAKKHLC___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA98290)
-#define HEOAAAKKHLC___C__DISPLAYCLASS18_0___MAKECHOICE_B__1_OFFSET UNITYSDK_OFFSET(0x1CA99090)
+#define HEOAAAKKHLC___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9F330)
+#define HEOAAAKKHLC___C__DISPLAYCLASS18_0___MAKECHOICE_B__1_OFFSET UNITYSDK_OFFSET(0x1DAA0130)
 
-inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass18_0_TypeDefinitionIndex = 43034;
+inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass18_0_TypeDefinitionIndex = 44015;
 
 	class HEOAAAKKHLC___c__DisplayClass18_0 : public ::System::Object
 	{

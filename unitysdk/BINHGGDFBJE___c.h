@@ -8,47 +8,47 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BINHGGDFBJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB78F060)
-#define BINHGGDFBJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB78F0A0)
-#define BINHGGDFBJE___C__GETNEEDDOWNLOADAUDIOSIZE_B__43_0_OFFSET UNITYSDK_OFFSET(0xB78F0F0)
-#define BINHGGDFBJE___C__GETNEEDDOWNLOADSIZEFORWHITELIST_B__23_0_OFFSET UNITYSDK_OFFSET(0xB78F0B0)
-#define BINHGGDFBJE___C__GETNEEDDOWNLOADSIZEFORWHITELIST_B__23_1_OFFSET UNITYSDK_OFFSET(0xB78F0D0)
-#define BINHGGDFBJE___C__GETNEEDDOWNLOADVIDEOSIZE_B__44_0_OFFSET UNITYSDK_OFFSET(0xB78F110)
-#define BINHGGDFBJE___C___SAVEVIDEOLIST_B__58_0_OFFSET UNITYSDK_OFFSET(0xB78F130)
+#define BINHGGDFBJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAD2480)
+#define BINHGGDFBJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD24C0)
+#define BINHGGDFBJE___C__GETNEEDDOWNLOADAUDIOSIZE_B__43_0_OFFSET UNITYSDK_OFFSET(0x1BAD2510)
+#define BINHGGDFBJE___C__GETNEEDDOWNLOADSIZEFORWHITELIST_B__23_0_OFFSET UNITYSDK_OFFSET(0x1BAD24D0)
+#define BINHGGDFBJE___C__GETNEEDDOWNLOADSIZEFORWHITELIST_B__23_1_OFFSET UNITYSDK_OFFSET(0x1BAD24F0)
+#define BINHGGDFBJE___C__GETNEEDDOWNLOADVIDEOSIZE_B__44_0_OFFSET UNITYSDK_OFFSET(0x1BAD2530)
+#define BINHGGDFBJE___C___SAVEVIDEOLIST_B__58_0_OFFSET UNITYSDK_OFFSET(0x1BAD2550)
 
-inline static constexpr unsigned int BINHGGDFBJE___c_TypeDefinitionIndex = 59620;
+inline static constexpr unsigned int BINHGGDFBJE___c_TypeDefinitionIndex = 60897;
 
 	class BINHGGDFBJE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B660);
-		}
-
-		static ::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>** StaticGet___9__43_0()
-		{
-			return (::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B668);
-		}
-
-		static ::System::Func_2<::CHAANBOICNA*, ::System::String*>** StaticGet___9__58_0()
-		{
-			return (::System::Func_2<::CHAANBOICNA*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B670);
-		}
-
-		static ::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>** StaticGet___9__44_0()
-		{
-			return (::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B678);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66A00);
 		}
 
 		static ::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>** StaticGet___9__23_1()
 		{
-			return (::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B680);
+			return (::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66A08);
+		}
+
+		static ::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>** StaticGet___9__43_0()
+		{
+			return (::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66A10);
 		}
 
 		static ::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>** StaticGet___9__23_0()
 		{
-			return (::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B688);
+			return (::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66A18);
+		}
+
+		static ::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>** StaticGet___9__44_0()
+		{
+			return (::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66A20);
+		}
+
+		static ::System::Func_2<::CHAANBOICNA*, ::System::String*>** StaticGet___9__58_0()
+		{
+			return (::System::Func_2<::CHAANBOICNA*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66A28);
 		}
 
 		static ::System::Void _cctor()

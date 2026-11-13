@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvAddAIHangUpInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CFNONEHHLAE_CTOR_OFFSET UNITYSDK_OFFSET(0xCC53D00)
-#define CFNONEHHLAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC53D30)
+#define CFNONEHHLAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1782CA30)
+#define CFNONEHHLAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1782CA60)
 
-inline static constexpr unsigned int CFNONEHHLAE_TypeDefinitionIndex = 52332;
+inline static constexpr unsigned int CFNONEHHLAE_TypeDefinitionIndex = 53438;
 
 	class CFNONEHHLAE
 	{

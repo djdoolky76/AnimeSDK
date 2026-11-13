@@ -4,18 +4,18 @@
 class FIAHFIBLDLP;
 namespace System { class Object; }
 
-#define FIAHFIBLDLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3676E0)
-#define FIAHFIBLDLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E367720)
-#define FIAHFIBLDLP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E367730)
+#define FIAHFIBLDLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20699F60)
+#define FIAHFIBLDLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20699FA0)
+#define FIAHFIBLDLP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x20699FB0)
 
-inline static constexpr unsigned int FIAHFIBLDLP___c_TypeDefinitionIndex = 34008;
+inline static constexpr unsigned int FIAHFIBLDLP___c_TypeDefinitionIndex = 34923;
 
 	class FIAHFIBLDLP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x575D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43000);
 		}
 
 		static ::System::Void _cctor()

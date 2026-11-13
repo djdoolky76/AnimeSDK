@@ -4,10 +4,10 @@
 class GBDIKBFIMIM;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EDGKHGLGIGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1330F650)
-#define EDGKHGLGIGD_DPMMPFGKAFJ_OFFSET UNITYSDK_OFFSET(0x1330FCA0)
+#define EDGKHGLGIGD_CTOR_OFFSET UNITYSDK_OFFSET(0x186B7EB0)
+#define EDGKHGLGIGD_DPMMPFGKAFJ_OFFSET UNITYSDK_OFFSET(0x186B8520)
 
-inline static constexpr unsigned int EDGKHGLGIGD_TypeDefinitionIndex = 81067;
+inline static constexpr unsigned int EDGKHGLGIGD_TypeDefinitionIndex = 83847;
 
 	class EDGKHGLGIGD : public ::System::Object
 	{

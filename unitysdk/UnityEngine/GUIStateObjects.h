@@ -5,19 +5,19 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_GUISTATEOBJECTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F433230)
-#define UNITYENGINE_GUISTATEOBJECTS_GETSTATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F4330A0)
+#define UNITYENGINE_GUISTATEOBJECTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E24A940)
+#define UNITYENGINE_GUISTATEOBJECTS_GETSTATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E24A7B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIStateObjects_TypeDefinitionIndex = 5181;
+	inline static constexpr unsigned int GUIStateObjects_TypeDefinitionIndex = 5186;
 
 	class GUIStateObjects : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>** StaticGet_s_StateCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("UnityEngine", "GUIStateObjects")->GetStaticField(0x19210);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("UnityEngine", "GUIStateObjects")->GetStaticField(0x17070);
 		}
 
 		static ::System::Void _cctor()

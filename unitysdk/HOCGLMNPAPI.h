@@ -7,18 +7,18 @@ class FCOEMCEDLNL;
 class HOCGLMNPAPI;
 namespace System { class String; }
 
-#define HOCGLMNPAPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE9FE90)
-#define HOCGLMNPAPI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE9FEA0)
-#define HOCGLMNPAPI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE9FE60)
+#define HOCGLMNPAPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8413C0)
+#define HOCGLMNPAPI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8413D0)
+#define HOCGLMNPAPI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E841390)
 
-inline static constexpr unsigned int HOCGLMNPAPI_TypeDefinitionIndex = 19906;
+inline static constexpr unsigned int HOCGLMNPAPI_TypeDefinitionIndex = 20235;
 
 	class HOCGLMNPAPI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* FHLJGDGMMHK; // 0x18
-		::BGCNCMGEBBC KIODCPPMEIE; // 0x20
-		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x24
+		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x20
+		::BGCNCMGEBBC KIODCPPMEIE; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOCGLMNPAPI_CTOR_OFFSET))(this);

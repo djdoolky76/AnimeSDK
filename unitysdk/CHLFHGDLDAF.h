@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define CHLFHGDLDAF_CBOJKGGGMBL_OFFSET UNITYSDK_OFFSET(0xCF51FD0)
-#define CHLFHGDLDAF_CTOR_OFFSET UNITYSDK_OFFSET(0xCF52070)
+#define CHLFHGDLDAF_CBOJKGGGMBL_OFFSET UNITYSDK_OFFSET(0x16E265C0)
+#define CHLFHGDLDAF_CTOR_OFFSET UNITYSDK_OFFSET(0x16E26660)
 
-inline static constexpr unsigned int CHLFHGDLDAF_TypeDefinitionIndex = 81044;
+inline static constexpr unsigned int CHLFHGDLDAF_TypeDefinitionIndex = 83824;
 
 	class CHLFHGDLDAF : public ::System::Object
 	{

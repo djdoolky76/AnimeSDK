@@ -4,18 +4,18 @@
 class CLAKIACAACO;
 namespace System { class Object; }
 
-#define CLAKIACAACO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0C5A90)
-#define CLAKIACAACO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C5AD0)
-#define CLAKIACAACO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E0C5AE0)
+#define CLAKIACAACO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205D9070)
+#define CLAKIACAACO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205D90B0)
+#define CLAKIACAACO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x205D90C0)
 
-inline static constexpr unsigned int CLAKIACAACO___c_TypeDefinitionIndex = 26989;
+inline static constexpr unsigned int CLAKIACAACO___c_TypeDefinitionIndex = 27520;
 
 	class CLAKIACAACO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A9E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13500);
 		}
 
 		static ::System::Void _cctor()

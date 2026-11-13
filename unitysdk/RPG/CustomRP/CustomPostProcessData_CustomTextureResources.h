@@ -4,11 +4,11 @@
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture3D; }
 
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_CUSTOMTEXTURERESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF4EE0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_CUSTOMTEXTURERESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E86B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomPostProcessData_CustomTextureResources_TypeDefinitionIndex = 37772;
+	inline static constexpr unsigned int CustomPostProcessData_CustomTextureResources_TypeDefinitionIndex = 38701;
 
 	class CustomPostProcessData_CustomTextureResources : public ::System::Object
 	{

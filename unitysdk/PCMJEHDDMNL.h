@@ -4,15 +4,15 @@
 class CCGFCHPPIDH;
 namespace System { class String; }
 
-#define PCMJEHDDMNL_CTOR_OFFSET UNITYSDK_OFFSET(0xC000E50)
+#define PCMJEHDDMNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD8C10)
 
-inline static constexpr unsigned int PCMJEHDDMNL_TypeDefinitionIndex = 64787;
+inline static constexpr unsigned int PCMJEHDDMNL_TypeDefinitionIndex = 66331;
 
 	class PCMJEHDDMNL : public ::System::Object
 	{
 	public:
-		::System::String* ID; // 0x10
-		::CCGFCHPPIDH* Data; // 0x18
+		::CCGFCHPPIDH* Data; // 0x10
+		::System::String* ID; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCMJEHDDMNL_CTOR_OFFSET))(this);

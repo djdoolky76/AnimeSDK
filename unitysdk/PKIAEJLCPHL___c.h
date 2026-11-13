@@ -4,18 +4,18 @@
 class PKIAEJLCPHL;
 namespace System { class Object; }
 
-#define PKIAEJLCPHL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF66360)
-#define PKIAEJLCPHL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF663A0)
-#define PKIAEJLCPHL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF663B0)
+#define PKIAEJLCPHL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4A18F0)
+#define PKIAEJLCPHL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A1930)
+#define PKIAEJLCPHL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F4A1940)
 
-inline static constexpr unsigned int PKIAEJLCPHL___c_TypeDefinitionIndex = 30145;
+inline static constexpr unsigned int PKIAEJLCPHL___c_TypeDefinitionIndex = 31043;
 
 	class PKIAEJLCPHL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A750);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x430D0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvNpcRide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GHEAPPDMEIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0CB50)
-#define GHEAPPDMEIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A0CB80)
+#define GHEAPPDMEIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B61A0)
+#define GHEAPPDMEIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4B61D0)
 
-inline static constexpr unsigned int GHEAPPDMEIJ_TypeDefinitionIndex = 52457;
+inline static constexpr unsigned int GHEAPPDMEIJ_TypeDefinitionIndex = 53563;
 
 	class GHEAPPDMEIJ
 	{

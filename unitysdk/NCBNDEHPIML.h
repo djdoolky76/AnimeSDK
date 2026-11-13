@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByInCustomZone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCBNDEHPIML_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF16E0)
-#define NCBNDEHPIML_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBAF1710)
+#define NCBNDEHPIML_CTOR_OFFSET UNITYSDK_OFFSET(0x150E3580)
+#define NCBNDEHPIML_EVALUATE_OFFSET UNITYSDK_OFFSET(0x150E35B0)
 
-inline static constexpr unsigned int NCBNDEHPIML_TypeDefinitionIndex = 53116;
+inline static constexpr unsigned int NCBNDEHPIML_TypeDefinitionIndex = 54278;
 
 	class NCBNDEHPIML
 	{

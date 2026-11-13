@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LoadingSpecialTypeConfigRow; }
 
-#define RPG_GAMECORE_LOADINGSPECIALTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BF090)
-#define RPG_GAMECORE_LOADINGSPECIALTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7BEED0)
+#define RPG_GAMECORE_LOADINGSPECIALTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F071670)
+#define RPG_GAMECORE_LOADINGSPECIALTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0714B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingSpecialTypeConfigRow_TypeDefinitionIndex = 13991;
+	inline static constexpr unsigned int LoadingSpecialTypeConfigRow_TypeDefinitionIndex = 14148;
 
 	class LoadingSpecialTypeConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* AvailableEntranceIDList; // 0x10
-		::System::UInt32 Priority; // 0x18
-		::System::UInt32 SubMissionID; // 0x1C
+		::System::UInt32 SubMissionID; // 0x18
+		::System::UInt32 Priority; // 0x1C
 		::System::UInt32 LoadingType; // 0x20
 		::System::Void _ctor()
 		{

@@ -4,16 +4,17 @@
 class FCOEMCEDLNL;
 class NCPCKIGOAFA;
 
-#define NCPCKIGOAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C8EB0)
-#define NCPCKIGOAFA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B7CC0)
+#define NCPCKIGOAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E89C4E0)
+#define NCPCKIGOAFA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E88A5F0)
 
-inline static constexpr unsigned int NCPCKIGOAFA_TypeDefinitionIndex = 13883;
+inline static constexpr unsigned int NCPCKIGOAFA_TypeDefinitionIndex = 14040;
 
 	class NCPCKIGOAFA : public ::System::Object
 	{
 	public:
-		::System::UInt32 PHFMCACHFIJ; // 0x10
-		::System::Boolean BLPAFDKHEPJ; // 0x14
+		::System::Boolean BLPAFDKHEPJ; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::UInt32 PHFMCACHFIJ; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCPCKIGOAFA_CTOR_OFFSET))(this);

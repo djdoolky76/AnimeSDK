@@ -4,18 +4,18 @@
 class MEDCHLCIOEI;
 namespace System { class Object; }
 
-#define MEDCHLCIOEI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9DBC90)
-#define MEDCHLCIOEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9DBCD0)
-#define MEDCHLCIOEI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9DBCE0)
+#define MEDCHLCIOEI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD53BF0)
+#define MEDCHLCIOEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD53C30)
+#define MEDCHLCIOEI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD53C40)
 
-inline static constexpr unsigned int MEDCHLCIOEI___c_TypeDefinitionIndex = 34775;
+inline static constexpr unsigned int MEDCHLCIOEI___c_TypeDefinitionIndex = 35703;
 
 	class MEDCHLCIOEI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CFA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C030);
 		}
 
 		static ::System::Void _cctor()

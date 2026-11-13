@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int NishastagaTriggerV2_GameState_TypeDefinitionIndex = 78961;
+	inline static constexpr unsigned int NishastagaTriggerV2_GameState_TypeDefinitionIndex = 81737;
 
 	enum class NishastagaTriggerV2_GameState : ::System::Int32
 	{

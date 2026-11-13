@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropRuntimeReplaceArtPrefab; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KIKLBOKGFEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB42BC40)
-#define KIKLBOKGFEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB42BC70)
+#define KIKLBOKGFEG_CTOR_OFFSET UNITYSDK_OFFSET(0x19EF21E0)
+#define KIKLBOKGFEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19EF2210)
 
-inline static constexpr unsigned int KIKLBOKGFEG_TypeDefinitionIndex = 58345;
+inline static constexpr unsigned int KIKLBOKGFEG_TypeDefinitionIndex = 59601;
 
 	class KIKLBOKGFEG
 	{

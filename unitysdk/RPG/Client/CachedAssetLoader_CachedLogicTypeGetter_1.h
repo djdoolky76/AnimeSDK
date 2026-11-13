@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedAssetLoader_CachedLogicTypeGetter_1_TypeDefinitionIndex = 59437;
+	inline static constexpr unsigned int CachedAssetLoader_CachedLogicTypeGetter_1_TypeDefinitionIndex = 60714;
 
 	template <typename T>
 	class CachedAssetLoader_CachedLogicTypeGetter_1 : public ::System::Object

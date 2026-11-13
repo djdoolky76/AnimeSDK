@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LCKCLHLIHOP_TypeDefinitionIndex = 43821;
+inline static constexpr unsigned int LCKCLHLIHOP_TypeDefinitionIndex = 44896;
 
 	class LCKCLHLIHOP
 	{

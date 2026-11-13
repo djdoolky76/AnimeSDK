@@ -7,11 +7,11 @@ class MarbleTransformAnimationHandle;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GROUPTRANSFORMANIMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15B64BE0)
-#define GROUPTRANSFORMANIMATIONDATA_GET_ISLOOPANIM_OFFSET UNITYSDK_OFFSET(0x15B649C0)
-#define GROUPTRANSFORMANIMATIONDATA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15B64A30)
+#define GROUPTRANSFORMANIMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x17DD1D00)
+#define GROUPTRANSFORMANIMATIONDATA_GET_ISLOOPANIM_OFFSET UNITYSDK_OFFSET(0x17DD1AE0)
+#define GROUPTRANSFORMANIMATIONDATA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x17DD1B50)
 
-inline static constexpr unsigned int GroupTransformAnimationData_TypeDefinitionIndex = 47133;
+inline static constexpr unsigned int GroupTransformAnimationData_TypeDefinitionIndex = 48161;
 
 	class GroupTransformAnimationData : public ::UnityEngine::ScriptableObject
 	{

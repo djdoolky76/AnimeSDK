@@ -5,23 +5,23 @@ class APDMIIEDMLI_CFHOMFLPNNO;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define ELKPFFIBCDJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1551AD10)
-#define ELKPFFIBCDJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1551AD50)
-#define ELKPFFIBCDJ___C__TRANSLATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1551AD60)
+#define ELKPFFIBCDJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x199B0630)
+#define ELKPFFIBCDJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x199B0670)
+#define ELKPFFIBCDJ___C__TRANSLATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x199B0680)
 
-inline static constexpr unsigned int ELKPFFIBCDJ___c_TypeDefinitionIndex = 59957;
+inline static constexpr unsigned int ELKPFFIBCDJ___c_TypeDefinitionIndex = 61241;
 
 	class ELKPFFIBCDJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x399D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21750);
 		}
 
 		static ::System::Func_3<::System::Object*, ::System::Object*, ::System::Object*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_3<::System::Object*, ::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x399D8);
+			return (::System::Func_3<::System::Object*, ::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21758);
 		}
 
 		static ::System::Void _cctor()

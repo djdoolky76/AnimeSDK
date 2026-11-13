@@ -6,17 +6,18 @@
 class AMPPONMNKBD;
 class FCOEMCEDLNL;
 
-#define AMPPONMNKBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB3C30)
-#define AMPPONMNKBD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB3A30)
+#define AMPPONMNKBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECAF6D0)
+#define AMPPONMNKBD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECAF4D0)
 
-inline static constexpr unsigned int AMPPONMNKBD_TypeDefinitionIndex = 14946;
+inline static constexpr unsigned int AMPPONMNKBD_TypeDefinitionIndex = 15102;
 
 	class AMPPONMNKBD : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID OENAMINOLLF; // 0x10
-		::RPG::Client::TextID ANBDGFJDBPF; // 0x20
-		::RPG::GameCore::RogueTournAreaGroupID JFMBIOOCPIL; // 0x30
+		::RPG::GameCore::RogueTournAreaGroupID JFMBIOOCPIL; // 0x20
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID ANBDGFJDBPF; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMPPONMNKBD_CTOR_OFFSET))(this);

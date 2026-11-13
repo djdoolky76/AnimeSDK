@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OJGECHNBLGF_AnimTriggerType_TypeDefinitionIndex = 57918;
+inline static constexpr unsigned int OJGECHNBLGF_AnimTriggerType_TypeDefinitionIndex = 59155;
 
 	enum class OJGECHNBLGF_AnimTriggerType : ::System::Int32
 	{

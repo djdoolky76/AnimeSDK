@@ -1,25 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/MonsterRank.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 class CBJMIBEHHND;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define CBJMIBEHHND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D5580)
-#define CBJMIBEHHND_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D9D5810)
-#define CBJMIBEHHND_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D9D57D0)
-#define CBJMIBEHHND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9D5590)
-#define CBJMIBEHHND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9D5540)
+#define CBJMIBEHHND_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB132C0)
+#define CBJMIBEHHND_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1EB13590)
+#define CBJMIBEHHND_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EB13550)
+#define CBJMIBEHHND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB132D0)
+#define CBJMIBEHHND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB13280)
 
-inline static constexpr unsigned int CBJMIBEHHND_TypeDefinitionIndex = 23012;
+inline static constexpr unsigned int CBJMIBEHHND_TypeDefinitionIndex = 23440;
 
 	class CBJMIBEHHND : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::System::Boolean FDLNJFIELFJ; // 0x28
-		::System::Boolean JDDOFLBEPDN; // 0x29
+		::System::Boolean JDDOFLBEPDN; // 0x28
+		::System::Boolean FDLNJFIELFJ; // 0x29
+		::System::Byte _padding0[0x2];
+		::RPG::GameCore::MonsterRank OPCDDCDONFE; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CBJMIBEHHND_CTOR_OFFSET))(this);

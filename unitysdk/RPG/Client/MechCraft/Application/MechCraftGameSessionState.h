@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::Application
 {
-	inline static constexpr unsigned int MechCraftGameSessionState_TypeDefinitionIndex = 80227;
+	inline static constexpr unsigned int MechCraftGameSessionState_TypeDefinitionIndex = 83004;
 
 	enum class MechCraftGameSessionState : ::System::Int32
 	{

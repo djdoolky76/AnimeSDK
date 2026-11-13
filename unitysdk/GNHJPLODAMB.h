@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GKPDKBNFDGM;
 
-#define GNHJPLODAMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFEF10)
-#define GNHJPLODAMB_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0x15AFEEB0)
+#define GNHJPLODAMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1878C700)
+#define GNHJPLODAMB_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0x1878C6A0)
 
-inline static constexpr unsigned int GNHJPLODAMB_TypeDefinitionIndex = 61954;
+inline static constexpr unsigned int GNHJPLODAMB_TypeDefinitionIndex = 63366;
 
 	class GNHJPLODAMB : public ::System::Object
 	{

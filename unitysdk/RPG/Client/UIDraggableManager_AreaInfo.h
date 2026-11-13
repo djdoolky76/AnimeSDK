@@ -5,22 +5,21 @@
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE393660)
-#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANDRAG_OFFSET UNITYSDK_OFFSET(0xE391930)
-#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANHOVER_OFFSET UNITYSDK_OFFSET(0xE393810)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x17570720)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANDRAG_OFFSET UNITYSDK_OFFSET(0x1756E9F0)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_GET_CANHOVER_OFFSET UNITYSDK_OFFSET(0x175708D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDraggableManager_AreaInfo_TypeDefinitionIndex = 69090;
+	inline static constexpr unsigned int UIDraggableManager_AreaInfo_TypeDefinitionIndex = 71043;
 
 	class UIDraggableManager_AreaInfo : public ::System::Object
 	{
 	public:
 		::System::Object* UserObjectData; // 0x10
-		::System::Boolean IsEntered; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::Int32 InstanceID; // 0x1C
-		::RPG::Client::UIDraggableManager_AreaFlag Flags; // 0x20
+		::System::Int32 InstanceID; // 0x18
+		::RPG::Client::UIDraggableManager_AreaFlag Flags; // 0x1C
+		::System::Boolean IsEntered; // 0x20
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::System::Object* a2, ::RPG::Client::UIDraggableManager_AreaFlag a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Object*, ::RPG::Client::UIDraggableManager_AreaFlag))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_AREAINFO_CTOR_OFFSET))(this, a1, a2, a3);

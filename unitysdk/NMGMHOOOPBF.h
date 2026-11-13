@@ -6,17 +6,17 @@ class NMGMHOOOPBF;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define NMGMHOOOPBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D209970)
-#define NMGMHOOOPBF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2099B0)
-#define NMGMHOOOPBF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D209900)
+#define NMGMHOOOPBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E765670)
+#define NMGMHOOOPBF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7656B0)
+#define NMGMHOOOPBF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E765600)
 
-inline static constexpr unsigned int NMGMHOOOPBF_TypeDefinitionIndex = 21067;
+inline static constexpr unsigned int NMGMHOOOPBF_TypeDefinitionIndex = 21405;
 
 	class NMGMHOOOPBF : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EGGCADJJJOD; // 0x18
-		::System::String* GFNAPNFFGPJ; // 0x20
+		::System::String* GFNAPNFFGPJ; // 0x18
+		::Il2CppArray<::System::UInt32>* EGGCADJJJOD; // 0x20
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::System::String* PODFJDMHFMK; // 0x30
 		::System::Single LAONGKHOAPH; // 0x38

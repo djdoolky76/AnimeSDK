@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class DynamicStringList; }
 namespace RPG::GameCore { class SetupMapRotationCharger; }
 
-#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9FD20)
-#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9FD30)
-#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9FCF0)
+#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9ED160)
+#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9ED170)
+#define RPG_GAMECORE_SETUPMAPROTATIONCHARGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9ED130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupMapRotationCharger_TypeDefinitionIndex = 22302;
+	inline static constexpr unsigned int SetupMapRotationCharger_TypeDefinitionIndex = 22707;
 
 	class SetupMapRotationCharger : public ::RPG::GameCore::TaskConfig
 	{

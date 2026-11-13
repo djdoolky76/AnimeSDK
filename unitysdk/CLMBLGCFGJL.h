@@ -5,20 +5,20 @@ namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLMBLGCFGJL_CTOR_OFFSET UNITYSDK_OFFSET(0xD78B6B0)
-#define CLMBLGCFGJL_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xD78BC80)
-#define CLMBLGCFGJL_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xD78BCD0)
-#define CLMBLGCFGJL_LPBJDOMPMNA_OFFSET UNITYSDK_OFFSET(0xD78B6F0)
-#define CLMBLGCFGJL__GET_ISSHOW_B__5_0_OFFSET UNITYSDK_OFFSET(0xD78BEC0)
-#define CLMBLGCFGJL___GETISACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0xD78BD80)
+#define CLMBLGCFGJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1807E0)
+#define CLMBLGCFGJL_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1B180DB0)
+#define CLMBLGCFGJL_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x1B180E00)
+#define CLMBLGCFGJL_LPBJDOMPMNA_OFFSET UNITYSDK_OFFSET(0x1B180820)
+#define CLMBLGCFGJL__GET_ISSHOW_B__5_0_OFFSET UNITYSDK_OFFSET(0x1B180FF0)
+#define CLMBLGCFGJL___GETISACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B180EB0)
 
-inline static constexpr unsigned int CLMBLGCFGJL_TypeDefinitionIndex = 65490;
+inline static constexpr unsigned int CLMBLGCFGJL_TypeDefinitionIndex = 67401;
 
 	class CLMBLGCFGJL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* BDJNLOEBEIJ; // 0x10
-		::RPG::Client::GridFightTrait* ENFAMOIAMGL; // 0x18
+		::RPG::Client::GridFightTrait* ENFAMOIAMGL; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* BDJNLOEBEIJ; // 0x18
 		::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1, ::RPG::Client::GridFightTrait* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + CLMBLGCFGJL_CTOR_OFFSET))(this, a1, a2);

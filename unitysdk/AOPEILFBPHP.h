@@ -3,7 +3,7 @@
 class EANJILGOKBE;
 class GBJHJNNIFMB;
 
-inline static constexpr unsigned int AOPEILFBPHP_TypeDefinitionIndex = 71445;
+inline static constexpr unsigned int AOPEILFBPHP_TypeDefinitionIndex = 73427;
 
 	struct alignas(8) AOPEILFBPHP
 	{

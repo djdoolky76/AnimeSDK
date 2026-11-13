@@ -8,21 +8,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class NullableDateTimeFormatter; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLEDATETIMEFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB5AD60)
-#define MESSAGEPACK_FORMATTERS_NULLABLEDATETIMEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB5ABF0)
-#define MESSAGEPACK_FORMATTERS_NULLABLEDATETIMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB5AC20)
-#define MESSAGEPACK_FORMATTERS_NULLABLEDATETIMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB5AC00)
+#define MESSAGEPACK_FORMATTERS_NULLABLEDATETIMEFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17499C60)
+#define MESSAGEPACK_FORMATTERS_NULLABLEDATETIMEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x17499AF0)
+#define MESSAGEPACK_FORMATTERS_NULLABLEDATETIMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17499B20)
+#define MESSAGEPACK_FORMATTERS_NULLABLEDATETIMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17499B00)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableDateTimeFormatter_TypeDefinitionIndex = 7480;
+	inline static constexpr unsigned int NullableDateTimeFormatter_TypeDefinitionIndex = 7491;
 
 	class NullableDateTimeFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NullableDateTimeFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NullableDateTimeFormatter**)UnitySDK::FromName("MessagePack.Formatters", "NullableDateTimeFormatter")->GetStaticField(0x489E0);
+			return (::MessagePack::Formatters::NullableDateTimeFormatter**)UnitySDK::FromName("MessagePack.Formatters", "NullableDateTimeFormatter")->GetStaticField(0x2CB50);
 		}
 
 		::System::Void _ctor()

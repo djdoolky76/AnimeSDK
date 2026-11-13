@@ -8,18 +8,18 @@ class JDOLDFECMPL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define JDOLDFECMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFEBB80)
-#define JDOLDFECMPL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CFEBB90)
-#define JDOLDFECMPL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CFEBB50)
+#define JDOLDFECMPL_CTOR_OFFSET UNITYSDK_OFFSET(0xCA98680)
+#define JDOLDFECMPL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0xCA98690)
+#define JDOLDFECMPL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xCA98650)
 
-inline static constexpr unsigned int JDOLDFECMPL_TypeDefinitionIndex = 22781;
+inline static constexpr unsigned int JDOLDFECMPL_TypeDefinitionIndex = 23203;
 
 	class JDOLDFECMPL : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x18
-		::BJCNEJFNIID* OLOKHEMMGOH; // 0x20
-		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x28
+		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x18
+		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x20
+		::BJCNEJFNIID* OLOKHEMMGOH; // 0x28
 		::HAFGAIKHMMG FKCKKFALPBK; // 0x30
 		::System::Void _ctor()
 		{

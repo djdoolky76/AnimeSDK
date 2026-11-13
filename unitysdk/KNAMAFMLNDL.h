@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TrainPartySwitchPerformance; }
 
-#define KNAMAFMLNDL_CTOR_OFFSET UNITYSDK_OFFSET(0xB5709A0)
-#define KNAMAFMLNDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5709D0)
+#define KNAMAFMLNDL_CTOR_OFFSET UNITYSDK_OFFSET(0x18F98AA0)
+#define KNAMAFMLNDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F98AD0)
 
-inline static constexpr unsigned int KNAMAFMLNDL_TypeDefinitionIndex = 53431;
+inline static constexpr unsigned int KNAMAFMLNDL_TypeDefinitionIndex = 54593;
 
 	class KNAMAFMLNDL
 	{

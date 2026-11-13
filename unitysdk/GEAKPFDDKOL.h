@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class TaskContext; }
 
-#define GEAKPFDDKOL_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7B6E0)
-#define GEAKPFDDKOL_NCFPHCFJGNN_OFFSET UNITYSDK_OFFSET(0x2E7B710)
+#define GEAKPFDDKOL_CTOR_OFFSET UNITYSDK_OFFSET(0x3DEE610)
+#define GEAKPFDDKOL_NCFPHCFJGNN_OFFSET UNITYSDK_OFFSET(0x3DEE640)
 
-inline static constexpr unsigned int GEAKPFDDKOL_TypeDefinitionIndex = 56183;
+inline static constexpr unsigned int GEAKPFDDKOL_TypeDefinitionIndex = 57395;
 
 	struct alignas(8) GEAKPFDDKOL
 	{

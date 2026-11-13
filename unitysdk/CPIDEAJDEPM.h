@@ -3,10 +3,10 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-#define CPIDEAJDEPM_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x3C45AF0)
-#define CPIDEAJDEPM_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C45A80)
+#define CPIDEAJDEPM_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x3DE60B0)
+#define CPIDEAJDEPM_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3DE6040)
 
-inline static constexpr unsigned int CPIDEAJDEPM_TypeDefinitionIndex = 6222;
+inline static constexpr unsigned int CPIDEAJDEPM_TypeDefinitionIndex = 6229;
 
 	struct alignas(4) CPIDEAJDEPM
 	{

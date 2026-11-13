@@ -9,11 +9,11 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GMLPIDDNOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15ACAB90)
-#define GMLPIDDNOPO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15AC9EA0)
-#define GMLPIDDNOPO_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0x15ACA2E0)
+#define GMLPIDDNOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x16C83030)
+#define GMLPIDDNOPO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16C82340)
+#define GMLPIDDNOPO_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0x16C82780)
 
-inline static constexpr unsigned int GMLPIDDNOPO_TypeDefinitionIndex = 77345;
+inline static constexpr unsigned int GMLPIDDNOPO_TypeDefinitionIndex = 79679;
 
 	class GMLPIDDNOPO : public ::System::Object
 	{

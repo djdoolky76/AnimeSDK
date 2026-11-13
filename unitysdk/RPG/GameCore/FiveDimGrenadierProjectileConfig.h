@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimGrenadierProjectileConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRENADIERPROJECTILECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D696370)
-#define RPG_GAMECORE_FIVEDIMGRENADIERPROJECTILECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6962C0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERPROJECTILECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8630B0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERPROJECTILECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E863000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierProjectileConfig_TypeDefinitionIndex = 16702;
+	inline static constexpr unsigned int FiveDimGrenadierProjectileConfig_TypeDefinitionIndex = 16868;
 
 	class FiveDimGrenadierProjectileConfig : public ::RPG::GameCore::JsonConfig
 	{

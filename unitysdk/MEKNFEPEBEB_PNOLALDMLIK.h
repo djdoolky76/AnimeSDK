@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int MEKNFEPEBEB_PNOLALDMLIK_TypeDefinitionIndex = 81197;
+inline static constexpr unsigned int MEKNFEPEBEB_PNOLALDMLIK_TypeDefinitionIndex = 83977;
 
 	class MEKNFEPEBEB_PNOLALDMLIK : public ::System::Object
 	{

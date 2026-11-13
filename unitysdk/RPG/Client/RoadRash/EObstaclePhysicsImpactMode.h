@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int EObstaclePhysicsImpactMode_TypeDefinitionIndex = 75865;
+	inline static constexpr unsigned int EObstaclePhysicsImpactMode_TypeDefinitionIndex = 78192;
 
 	enum class EObstaclePhysicsImpactMode : ::System::Int32
 	{

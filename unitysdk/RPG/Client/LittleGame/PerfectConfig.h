@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_PERFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DA690)
+#define RPG_CLIENT_LITTLEGAME_PERFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x20712C60)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PerfectConfig_TypeDefinitionIndex = 42321;
+	inline static constexpr unsigned int PerfectConfig_TypeDefinitionIndex = 43296;
 
 	class PerfectConfig : public ::System::Object
 	{

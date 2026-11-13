@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define HAEBPNAFKDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15B66710)
+#define HAEBPNAFKDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17DD3D90)
 
-inline static constexpr unsigned int HAEBPNAFKDJ_TypeDefinitionIndex = 73237;
+inline static constexpr unsigned int HAEBPNAFKDJ_TypeDefinitionIndex = 75353;
 
 	class HAEBPNAFKDJ : public ::System::Object
 	{

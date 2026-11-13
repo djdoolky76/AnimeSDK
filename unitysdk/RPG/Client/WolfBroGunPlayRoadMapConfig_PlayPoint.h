@@ -4,7 +4,7 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayRoadMapConfig_PlayPoint_TypeDefinitionIndex = 68755;
+	inline static constexpr unsigned int WolfBroGunPlayRoadMapConfig_PlayPoint_TypeDefinitionIndex = 70707;
 
 	struct alignas(8) WolfBroGunPlayRoadMapConfig_PlayPoint
 	{

@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int DictionaryExtensions_TypeDefinitionIndex = 40625;
+	inline static constexpr unsigned int DictionaryExtensions_TypeDefinitionIndex = 41600;
 
 	class DictionaryExtensions : public ::System::Object
 	{

@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class OrigamiTraceTalk; }
 namespace RPG::GameCore { class PlayAndWaitSimpleTalk; }
 
-#define RPG_GAMECORE_ORIGAMITRACETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B90B0)
-#define RPG_GAMECORE_ORIGAMITRACETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B8F50)
+#define RPG_GAMECORE_ORIGAMITRACETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F13A680)
+#define RPG_GAMECORE_ORIGAMITRACETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F13A520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OrigamiTraceTalk_TypeDefinitionIndex = 21869;
+	inline static constexpr unsigned int OrigamiTraceTalk_TypeDefinitionIndex = 22260;
 
 	class OrigamiTraceTalk : public ::RPG::GameCore::JsonConfig
 	{

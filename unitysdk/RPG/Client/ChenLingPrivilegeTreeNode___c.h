@@ -5,31 +5,31 @@ namespace RPG::Client { class ChenLingPrivilegeTreeNode; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCAD55E0)
-#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCAD5620)
-#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__ADDCHILD_B__2_0_OFFSET UNITYSDK_OFFSET(0xCAD5680)
-#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__ADDPARENT_B__1_0_OFFSET UNITYSDK_OFFSET(0xCAD5630)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D888970)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8889B0)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__ADDCHILD_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D888A10)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__ADDPARENT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D8889C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex = 61446;
+	inline static constexpr unsigned int ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex = 62831;
 
 	class ChenLingPrivilegeTreeNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2210);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2218);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x9540);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2220);
+			return (::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x9548);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x9550);
 		}
 
 		static ::System::Void _cctor()

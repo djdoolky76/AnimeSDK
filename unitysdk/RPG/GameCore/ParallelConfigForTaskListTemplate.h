@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ParallelConfigForTaskListTemplate; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BF9F0)
-#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8BF6D0)
+#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F141A90)
+#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F141770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelConfigForTaskListTemplate_TypeDefinitionIndex = 23308;
+	inline static constexpr unsigned int ParallelConfigForTaskListTemplate_TypeDefinitionIndex = 23749;
 
 	class ParallelConfigForTaskListTemplate : public ::RPG::GameCore::JsonConfig
 	{

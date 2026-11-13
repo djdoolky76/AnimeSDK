@@ -3,10 +3,10 @@
 #include "unitysdk/NCHDFGJBFPN.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define KMPPPEBNIBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB56F030)
-#define KMPPPEBNIBC_ISPOINTINSIDELOCAL_OFFSET UNITYSDK_OFFSET(0xB56EF80)
+#define KMPPPEBNIBC_CTOR_OFFSET UNITYSDK_OFFSET(0x18F96A30)
+#define KMPPPEBNIBC_ISPOINTINSIDELOCAL_OFFSET UNITYSDK_OFFSET(0x18F96980)
 
-inline static constexpr unsigned int KMPPPEBNIBC_TypeDefinitionIndex = 73964;
+inline static constexpr unsigned int KMPPPEBNIBC_TypeDefinitionIndex = 76100;
 
 	class KMPPPEBNIBC
 	{

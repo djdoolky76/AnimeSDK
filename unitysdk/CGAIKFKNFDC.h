@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define CGAIKFKNFDC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1DCE8FA0)
-#define CGAIKFKNFDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCE9330)
+#define CGAIKFKNFDC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1798CBA0)
+#define CGAIKFKNFDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1798CF30)
 
-inline static constexpr unsigned int CGAIKFKNFDC_TypeDefinitionIndex = 6187;
+inline static constexpr unsigned int CGAIKFKNFDC_TypeDefinitionIndex = 6194;
 
 	class CGAIKFKNFDC : public ::System::Object
 	{

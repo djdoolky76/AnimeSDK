@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CaptureCurrentInteractProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LDINBGEBBJA_CTOR_OFFSET UNITYSDK_OFFSET(0xB61E0E0)
-#define LDINBGEBBJA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB61E0F0)
-#define LDINBGEBBJA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB61E1A0)
-#define LDINBGEBBJA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB61E310)
-#define LDINBGEBBJA_TICK_OFFSET UNITYSDK_OFFSET(0xB61E140)
+#define LDINBGEBBJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC7F120)
+#define LDINBGEBBJA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC7F130)
+#define LDINBGEBBJA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AC7F1E0)
+#define LDINBGEBBJA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AC7F350)
+#define LDINBGEBBJA_TICK_OFFSET UNITYSDK_OFFSET(0x1AC7F180)
 
-inline static constexpr unsigned int LDINBGEBBJA_TypeDefinitionIndex = 52633;
+inline static constexpr unsigned int LDINBGEBBJA_TypeDefinitionIndex = 53740;
 
 	class LDINBGEBBJA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CaptureCurrentInteractProp* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CaptureCurrentInteractProp* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CaptureCurrentInteractProp* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CaptureCurrentInteractProp*))((::PBYTE)hIl2Cpp + LDINBGEBBJA_CTOR_OFFSET))(this, a1, a2);

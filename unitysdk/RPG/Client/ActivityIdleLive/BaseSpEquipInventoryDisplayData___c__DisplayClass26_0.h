@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC44AE60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS26_0__PREVIEWEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xC44BFE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D131F80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS26_0__PREVIEWEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0x1D1330F0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c__DisplayClass26_0_TypeDefinitionIndex = 75436;
+	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c__DisplayClass26_0_TypeDefinitionIndex = 77763;
 
 	class BaseSpEquipInventoryDisplayData___c__DisplayClass26_0 : public ::System::Object
 	{

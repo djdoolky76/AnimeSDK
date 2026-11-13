@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CharacterReplaceOriginMaterial; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMOFBPNDDBD_CTOR_OFFSET UNITYSDK_OFFSET(0x164D35A0)
-#define IMOFBPNDDBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164D35D0)
+#define IMOFBPNDDBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DFE00)
+#define IMOFBPNDDBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5DFE30)
 
-inline static constexpr unsigned int IMOFBPNDDBD_TypeDefinitionIndex = 56350;
+inline static constexpr unsigned int IMOFBPNDDBD_TypeDefinitionIndex = 57564;
 
 	class IMOFBPNDDBD
 	{

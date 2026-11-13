@@ -8,29 +8,30 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define AHPMEFEPEBD_CLEAR_OFFSET UNITYSDK_OFFSET(0xEB88800)
-#define AHPMEFEPEBD_CTOR_OFFSET UNITYSDK_OFFSET(0xEB88E80)
-#define AHPMEFEPEBD_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xEB88E60)
-#define AHPMEFEPEBD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xEB88480)
-#define AHPMEFEPEBD_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0xEB88870)
-#define AHPMEFEPEBD_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xEB88E70)
+#define AHPMEFEPEBD_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B2E410)
+#define AHPMEFEPEBD_CTOR_OFFSET UNITYSDK_OFFSET(0x19B2EA90)
+#define AHPMEFEPEBD_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19B2EA70)
+#define AHPMEFEPEBD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x19B2E090)
+#define AHPMEFEPEBD_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0x19B2E480)
+#define AHPMEFEPEBD_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19B2EA80)
 
-inline static constexpr unsigned int AHPMEFEPEBD_TypeDefinitionIndex = 57084;
+inline static constexpr unsigned int AHPMEFEPEBD_TypeDefinitionIndex = 58311;
 
 	class AHPMEFEPEBD : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Vector3>* FJKLKJCBJGC; // 0x10
-		::Il2CppArray<::System::Single>* FNKPDLLALIO; // 0x18
-		::UnityEngine::Transform* AFIBNIPMICJ; // 0x20
-		::RPG::GameCore::GameEntity* IDHIFEDLFDN; // 0x28
-		::System::Single HBDJCFFDGDD; // 0x30
+		::UnityEngine::Transform* AFIBNIPMICJ; // 0x10
+		::RPG::GameCore::GameEntity* IDHIFEDLFDN; // 0x18
+		::Il2CppArray<::System::Single>* FNKPDLLALIO; // 0x20
+		::Il2CppArray<::UnityEngine::Vector3>* FJKLKJCBJGC; // 0x28
+		::System::Boolean _IsActive_k__BackingField; // 0x30
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 CBBLCMFPEOL; // 0x34
-		::System::Single NPINECOCALC; // 0x40
+		::System::Single HBDJCFFDGDD; // 0x40
 		::RPG::GameCore::AdventureMoveOnNavMeshFaceToType MLMEAGPKCIA; // 0x44
-		::System::Single IJKFPHAKDEA; // 0x48
+		::System::Single NPINECOCALC; // 0x48
 		::System::Single HPCHCEFOKJB; // 0x4C
-		::System::Boolean _IsActive_k__BackingField; // 0x50
+		::System::Single IJKFPHAKDEA; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AHPMEFEPEBD_CTOR_OFFSET))(this);

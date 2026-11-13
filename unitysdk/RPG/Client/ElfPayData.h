@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_ELFPAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCD9E670)
+#define RPG_CLIENT_ELFPAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AEA79E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfPayData_TypeDefinitionIndex = 63749;
+	inline static constexpr unsigned int ElfPayData_TypeDefinitionIndex = 65191;
 
 	class ElfPayData : public ::System::Object
 	{

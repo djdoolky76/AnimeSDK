@@ -4,9 +4,9 @@
 class BMCNDLNONMO;
 namespace RPG::Client { class IRogueTournPersonaModifier; }
 
-#define DDBJKHBFJCB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE254730)
+#define DDBJKHBFJCB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1772E920)
 
-inline static constexpr unsigned int DDBJKHBFJCB_TypeDefinitionIndex = 67698;
+inline static constexpr unsigned int DDBJKHBFJCB_TypeDefinitionIndex = 69643;
 
 	class DDBJKHBFJCB : public ::System::Object
 	{

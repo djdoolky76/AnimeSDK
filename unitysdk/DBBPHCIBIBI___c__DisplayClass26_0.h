@@ -6,10 +6,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DBBPHCIBIBI___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5ACA00)
-#define DBBPHCIBIBI___C__DISPLAYCLASS26_0___FORCECATTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0x1C5ACE80)
+#define DBBPHCIBIBI___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA61370)
+#define DBBPHCIBIBI___C__DISPLAYCLASS26_0___FORCECATTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0x1BA617F0)
 
-inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass26_0_TypeDefinitionIndex = 37284;
+inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass26_0_TypeDefinitionIndex = 38212;
 
 	class DBBPHCIBIBI___c__DisplayClass26_0 : public ::System::Object
 	{

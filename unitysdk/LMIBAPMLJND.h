@@ -7,34 +7,34 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleRunOut; }
 namespace System { class Action; }
 
-#define LMIBAPMLJND_CTOR_OFFSET UNITYSDK_OFFSET(0xB77CFD0)
-#define LMIBAPMLJND_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0xB77DC00)
-#define LMIBAPMLJND_FCOJOHCNHMP_OFFSET UNITYSDK_OFFSET(0xB77E070)
-#define LMIBAPMLJND_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB77E0C0)
-#define LMIBAPMLJND_KLJGMNELENC_OFFSET UNITYSDK_OFFSET(0xB77D2B0)
-#define LMIBAPMLJND_LOCLIGNNNKO_OFFSET UNITYSDK_OFFSET(0xB77D880)
-#define LMIBAPMLJND_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB77D210)
-#define LMIBAPMLJND_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB77E0D0)
+#define LMIBAPMLJND_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCD220)
+#define LMIBAPMLJND_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x1AFCDE50)
+#define LMIBAPMLJND_FCOJOHCNHMP_OFFSET UNITYSDK_OFFSET(0x1AFCE2C0)
+#define LMIBAPMLJND_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1AFCE310)
+#define LMIBAPMLJND_KLJGMNELENC_OFFSET UNITYSDK_OFFSET(0x1AFCD500)
+#define LMIBAPMLJND_LOCLIGNNNKO_OFFSET UNITYSDK_OFFSET(0x1AFCDAD0)
+#define LMIBAPMLJND_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1AFCD460)
+#define LMIBAPMLJND_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1AFCE320)
 
-inline static constexpr unsigned int LMIBAPMLJND_TypeDefinitionIndex = 78440;
+inline static constexpr unsigned int LMIBAPMLJND_TypeDefinitionIndex = 81175;
 
 	class LMIBAPMLJND : public ::System::Object
 	{
 	public:
-		::System::Action* MECKBKLEHAN; // 0x10
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x18
-		::System::Single MOEGDGLAJOC; // 0x20
-		::LMIBAPMLJND_RunOutStage PMCOAFPCDFM; // 0x24
-		::System::UInt32 NJFKHPIHDEF; // 0x28
-		::System::Single FOMCKBAHCFM; // 0x2C
-		::System::Single CGKGMIEKCFK; // 0x30
-		::System::Boolean _IsFinished_k__BackingField; // 0x34
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x10
+		::System::Action* MECKBKLEHAN; // 0x18
+		::System::Single BNKPEFBBIDI; // 0x20
+		::System::Single DKOFFPPGEFI; // 0x24
+		::System::Single ANIPBKCEANB; // 0x28
+		::System::Single CGKGMIEKCFK; // 0x2C
+		::System::Single FOMCKBAHCFM; // 0x30
+		::System::Single MOEGDGLAJOC; // 0x34
+		::System::Boolean _IsFinished_k__BackingField; // 0x38
 		::System::Byte _padding0[0x3];
-		::System::Single HDKHGKNBPBN; // 0x38
-		::System::Single ANIPBKCEANB; // 0x3C
-		::UnityEngine::Vector3 AHDEBHBGBCM; // 0x40
-		::System::Single BNKPEFBBIDI; // 0x4C
-		::System::Single DKOFFPPGEFI; // 0x50
+		::System::UInt32 NJFKHPIHDEF; // 0x3C
+		::LMIBAPMLJND_RunOutStage PMCOAFPCDFM; // 0x40
+		::System::Single HDKHGKNBPBN; // 0x44
+		::UnityEngine::Vector3 AHDEBHBGBCM; // 0x48
 		::System::Void _ctor(::RPG::GameCore::ChimeraBattleRunOut* a1, ::System::UInt32 a2, ::System::Int32 a3, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a4, ::System::Action* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleRunOut*, ::System::UInt32, ::System::Int32, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Action*))((::PBYTE)hIl2Cpp + LMIBAPMLJND_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

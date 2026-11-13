@@ -3,10 +3,10 @@
 namespace RPG::Client { class ByCanPlanetFesSkillLevelUp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DAFPDCJOFBE_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB8740)
-#define DAFPDCJOFBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFB8770)
+#define DAFPDCJOFBE_CTOR_OFFSET UNITYSDK_OFFSET(0x19943F30)
+#define DAFPDCJOFBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19943F60)
 
-inline static constexpr unsigned int DAFPDCJOFBE_TypeDefinitionIndex = 57966;
+inline static constexpr unsigned int DAFPDCJOFBE_TypeDefinitionIndex = 59204;
 
 	class DAFPDCJOFBE
 	{

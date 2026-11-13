@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GILFCOGNOCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7D630)
+#define GILFCOGNOCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA836E0)
 
-inline static constexpr unsigned int GILFCOGNOCB_TypeDefinitionIndex = 42904;
+inline static constexpr unsigned int GILFCOGNOCB_TypeDefinitionIndex = 43885;
 
 	class GILFCOGNOCB : public ::System::Object
 	{

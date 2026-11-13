@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchHandForbidUIOperate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKHHLIGGIHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB747090)
-#define LKHHLIGGIHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7470C0)
+#define LKHHLIGGIHL_CTOR_OFFSET UNITYSDK_OFFSET(0x18CF0610)
+#define LKHHLIGGIHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CF0640)
 
-inline static constexpr unsigned int LKHHLIGGIHL_TypeDefinitionIndex = 53313;
+inline static constexpr unsigned int LKHHLIGGIHL_TypeDefinitionIndex = 54475;
 
 	class LKHHLIGGIHL
 	{

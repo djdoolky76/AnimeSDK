@@ -3,10 +3,10 @@
 class FFCMNDPOADN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IHODKLMHMBA_CTOR_OFFSET UNITYSDK_OFFSET(0x16418EE0)
-#define IHODKLMHMBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16418F10)
+#define IHODKLMHMBA_CTOR_OFFSET UNITYSDK_OFFSET(0x193B81C0)
+#define IHODKLMHMBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193B81F0)
 
-inline static constexpr unsigned int IHODKLMHMBA_TypeDefinitionIndex = 52977;
+inline static constexpr unsigned int IHODKLMHMBA_TypeDefinitionIndex = 54136;
 
 	class IHODKLMHMBA
 	{

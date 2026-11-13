@@ -6,19 +6,19 @@ class EGAADKHGDJN;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define EGAADKHGDJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4C460)
-#define EGAADKHGDJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD4C470)
-#define EGAADKHGDJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD4C430)
+#define EGAADKHGDJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F103CC0)
+#define EGAADKHGDJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F103CD0)
+#define EGAADKHGDJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F103C90)
 
-inline static constexpr unsigned int EGAADKHGDJN_TypeDefinitionIndex = 19887;
+inline static constexpr unsigned int EGAADKHGDJN_TypeDefinitionIndex = 20216;
 
 	class EGAADKHGDJN : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x18
-		::System::UInt32 FEHABNJEENK; // 0x20
-		::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x24
-		::RPG::GameCore::FateRinCardPileType KODIKGGDENE; // 0x26
+		::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x20
+		::RPG::GameCore::FateRinCardPileType KODIKGGDENE; // 0x22
+		::System::UInt32 FEHABNJEENK; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGAADKHGDJN_CTOR_OFFSET))(this);

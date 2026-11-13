@@ -9,30 +9,30 @@ namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 
-#define IFJHFAIAGMM_AOKMJCJFKGM_OFFSET UNITYSDK_OFFSET(0x15F11550)
-#define IFJHFAIAGMM_CTOR_OFFSET UNITYSDK_OFFSET(0x15F11BC0)
-#define IFJHFAIAGMM_FOILLOKMKPG_OFFSET UNITYSDK_OFFSET(0x15F117B0)
-#define IFJHFAIAGMM_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x15F11980)
-#define IFJHFAIAGMM_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x15F11B10)
-#define IFJHFAIAGMM_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x15F11A60)
-#define IFJHFAIAGMM_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15F11150)
+#define IFJHFAIAGMM_AOKMJCJFKGM_OFFSET UNITYSDK_OFFSET(0x1BC19670)
+#define IFJHFAIAGMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC19D10)
+#define IFJHFAIAGMM_FOILLOKMKPG_OFFSET UNITYSDK_OFFSET(0x1BC19900)
+#define IFJHFAIAGMM_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1BC19AD0)
+#define IFJHFAIAGMM_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1BC19C60)
+#define IFJHFAIAGMM_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC19BB0)
+#define IFJHFAIAGMM_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1BC19240)
 
-inline static constexpr unsigned int IFJHFAIAGMM_TypeDefinitionIndex = 48057;
+inline static constexpr unsigned int IFJHFAIAGMM_TypeDefinitionIndex = 49088;
 
 	class IFJHFAIAGMM : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::UnityEngine::Camera* DMBMOHJLNEN; // 0x10
-		::UnityEngine::GameObject* KNGMBOLJFPN; // 0x18
-		::UnityEngine::Camera* IEMGKEFBPCG; // 0x20
+		::UnityEngine::GameObject* KNGMBOLJFPN; // 0x10
+		::UnityEngine::Camera* IEMGKEFBPCG; // 0x18
+		::UnityEngine::Camera* DMBMOHJLNEN; // 0x20
 		::UnityEngine::AnimationClip* EHAGPHLMPEJ; // 0x28
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x30
-		::System::Boolean DNFOKAPGFHA; // 0x3C
-		::System::Boolean NINHNNILLLF; // 0x3D
+		::System::Single ELCCJDOLGNG; // 0x3C
+		::System::Double NPINECOCALC; // 0x40
+		::System::Boolean NINHNNILLLF; // 0x48
+		::System::Boolean DNFOKAPGFHA; // 0x49
 		::System::Byte _padding0[0x2];
-		::System::Single ELCCJDOLGNG; // 0x40
-		::System::Single GJDEGANOCCO; // 0x44
-		::System::Double NPINECOCALC; // 0x48
+		::System::Single GJDEGANOCCO; // 0x4C
 		// static const ::System::Object HPJADEGEGDB; // 0x0
 		// static const ::System::Object BBAINMDMALF; // 0x0
 		::System::Void _ctor()

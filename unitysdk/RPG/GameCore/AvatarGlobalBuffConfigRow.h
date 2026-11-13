@@ -6,33 +6,34 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarGlobalBuffConfigRow; }
 
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EA100)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E8F90)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DD8B0)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2DC480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarGlobalBuffConfigRow_TypeDefinitionIndex = 12795;
+	inline static constexpr unsigned int AvatarGlobalBuffConfigRow_TypeDefinitionIndex = 12867;
 
 	class AvatarGlobalBuffConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::Il2CppArray<::System::UInt32>* TrialBagStageTypeWhiteList; // 0x18
-		::Il2CppArray<::System::UInt32>* TeamStageTypeBlackList; // 0x20
-		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x28
-		::Il2CppArray<::System::UInt32>* GameModeBlackList; // 0x30
-		::Il2CppArray<::System::UInt32>* StageTypeBlackList; // 0x38
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x40
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x48
-		::Il2CppArray<::System::UInt32>* TeamBlackList; // 0x50
-		::System::UInt32 MazeBuffID; // 0x58
-		::System::UInt32 AvatarID; // 0x5C
+		::Il2CppArray<::System::UInt32>* TrialBagStageTypeWhiteList; // 0x10
+		::Il2CppArray<::System::UInt32>* TeamStageTypeBlackList; // 0x18
+		::Il2CppArray<::System::UInt32>* StageTypeBlackList; // 0x20
+		::Il2CppArray<::System::UInt32>* TeamBlackList; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x30
+		::Il2CppArray<::System::UInt32>* GameModeBlackList; // 0x38
+		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x40
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x48
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x50
+		::System::UInt32 AvatarID; // 0x58
+		::System::Boolean AppendAvatarToBattle; // 0x5C
+		::System::Byte _padding0[0x3];
 		::RPG::Client::TextID SkillTag; // 0x60
 		::RPG::Client::TextID Desc; // 0x70
-		::RPG::Client::TextID Name; // 0x80
+		::RPG::Client::TextID SimpleDesc; // 0x80
 		::System::UInt32 SkillID; // 0x90
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID SimpleDesc; // 0x98
+		::System::UInt32 MazeBuffID; // 0x94
+		::RPG::Client::TextID Name; // 0x98
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW_CTOR_OFFSET))(this);

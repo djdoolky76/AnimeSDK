@@ -8,11 +8,11 @@
 namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SKIRTIKCONFIG_RUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE0DF730)
+#define RPG_CLIENT_SKIRTIKCONFIG_RUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1B41FCD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkirtIKConfig_Runtime_TypeDefinitionIndex = 68379;
+	inline static constexpr unsigned int SkirtIKConfig_Runtime_TypeDefinitionIndex = 70326;
 
 	class SkirtIKConfig_Runtime : public ::UnityEngine::ScriptableObject
 	{

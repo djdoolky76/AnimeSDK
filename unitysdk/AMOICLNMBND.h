@@ -6,10 +6,10 @@ namespace RPG::GameCore { class MoveToTargetPosition; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AMOICLNMBND_CTOR_OFFSET UNITYSDK_OFFSET(0x15580AE0)
-#define AMOICLNMBND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15580C30)
+#define AMOICLNMBND_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8165F0)
+#define AMOICLNMBND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A816740)
 
-inline static constexpr unsigned int AMOICLNMBND_TypeDefinitionIndex = 55229;
+inline static constexpr unsigned int AMOICLNMBND_TypeDefinitionIndex = 56410;
 
 	class AMOICLNMBND
 	{

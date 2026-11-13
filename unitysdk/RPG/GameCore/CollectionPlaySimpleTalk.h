@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CollectionPlaySimpleTalk; }
 namespace RPG::GameCore { class DynamicStringList; }
 namespace RPG::GameCore { class SimpleTalkInfo; }
 
-#define RPG_GAMECORE_COLLECTIONPLAYSIMPLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59CBD0)
-#define RPG_GAMECORE_COLLECTIONPLAYSIMPLETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59CBE0)
-#define RPG_GAMECORE_COLLECTIONPLAYSIMPLETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59CB90)
+#define RPG_GAMECORE_COLLECTIONPLAYSIMPLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F513110)
+#define RPG_GAMECORE_COLLECTIONPLAYSIMPLETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F513120)
+#define RPG_GAMECORE_COLLECTIONPLAYSIMPLETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5130D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CollectionPlaySimpleTalk_TypeDefinitionIndex = 20412;
+	inline static constexpr unsigned int CollectionPlaySimpleTalk_TypeDefinitionIndex = 20747;
 
 	class CollectionPlaySimpleTalk : public ::RPG::GameCore::TaskConfig
 	{

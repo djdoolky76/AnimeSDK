@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FCLGKGNNJOA_CTOR_OFFSET UNITYSDK_OFFSET(0x156C2830)
+#define FCLGKGNNJOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C028A30)
 
-inline static constexpr unsigned int FCLGKGNNJOA_TypeDefinitionIndex = 74034;
+inline static constexpr unsigned int FCLGKGNNJOA_TypeDefinitionIndex = 76170;
 
 	class FCLGKGNNJOA : public ::System::Object
 	{

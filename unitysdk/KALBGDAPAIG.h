@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEntityForceVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KALBGDAPAIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D7530)
-#define KALBGDAPAIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2D7560)
+#define KALBGDAPAIG_CTOR_OFFSET UNITYSDK_OFFSET(0x19DB4C60)
+#define KALBGDAPAIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DB4C90)
 
-inline static constexpr unsigned int KALBGDAPAIG_TypeDefinitionIndex = 56408;
+inline static constexpr unsigned int KALBGDAPAIG_TypeDefinitionIndex = 57626;
 
 	class KALBGDAPAIG
 	{

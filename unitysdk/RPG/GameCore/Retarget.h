@@ -8,13 +8,13 @@ namespace RPG::GameCore { class Retarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RETARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96AD90)
-#define RPG_GAMECORE_RETARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D96ADF0)
-#define RPG_GAMECORE_RETARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D96ABD0)
+#define RPG_GAMECORE_RETARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x2072F1F0)
+#define RPG_GAMECORE_RETARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x2072F250)
+#define RPG_GAMECORE_RETARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x2072F030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Retarget_TypeDefinitionIndex = 22907;
+	inline static constexpr unsigned int Retarget_TypeDefinitionIndex = 23333;
 
 	class Retarget : public ::RPG::GameCore::TaskConfig
 	{

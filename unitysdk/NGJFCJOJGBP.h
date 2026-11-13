@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/PlayerFlipState.h"
 #include "unitysdk/System/Object.h"
 
-#define NGJFCJOJGBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C932AD0)
+#define NGJFCJOJGBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C297FB0)
 
-inline static constexpr unsigned int NGJFCJOJGBP_TypeDefinitionIndex = 42341;
+inline static constexpr unsigned int NGJFCJOJGBP_TypeDefinitionIndex = 43316;
 
 	class NGJFCJOJGBP : public ::System::Object
 	{

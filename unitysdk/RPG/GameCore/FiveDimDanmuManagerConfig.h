@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FiveDimDanmuManagerConfig; }
 namespace RPG::GameCore { class FiveDimDanmuTrack; }
 namespace RPG::GameCore { class FiveDimDanmuTrackGroup; }
 
-#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68A030)
-#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D68A040)
-#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D689FE0)
+#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E857170)
+#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E857180)
+#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E857120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDanmuManagerConfig_TypeDefinitionIndex = 18826;
+	inline static constexpr unsigned int FiveDimDanmuManagerConfig_TypeDefinitionIndex = 18988;
 
 	class FiveDimDanmuManagerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

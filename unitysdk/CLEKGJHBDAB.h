@@ -6,10 +6,10 @@ class CFINHCPMLBB;
 class JIDKACGCHMA;
 namespace RPG::Client { class Freelook3rdRigParams; }
 
-#define CLEKGJHBDAB_CTOR_OFFSET UNITYSDK_OFFSET(0xD775670)
-#define CLEKGJHBDAB_IIGINGICOLL_OFFSET UNITYSDK_OFFSET(0xD775560)
+#define CLEKGJHBDAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD5EEF0)
+#define CLEKGJHBDAB_IIGINGICOLL_OFFSET UNITYSDK_OFFSET(0x1AD5EDE0)
 
-inline static constexpr unsigned int CLEKGJHBDAB_TypeDefinitionIndex = 69678;
+inline static constexpr unsigned int CLEKGJHBDAB_TypeDefinitionIndex = 71635;
 
 	class CLEKGJHBDAB : public ::System::Object
 	{

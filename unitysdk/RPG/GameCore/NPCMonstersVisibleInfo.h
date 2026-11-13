@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class NPCMonstersVisibleInfo; }
 
-#define RPG_GAMECORE_NPCMONSTERSVISIBLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A4BB0)
-#define RPG_GAMECORE_NPCMONSTERSVISIBLEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8A4A90)
+#define RPG_GAMECORE_NPCMONSTERSVISIBLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E495930)
+#define RPG_GAMECORE_NPCMONSTERSVISIBLEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E495810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCMonstersVisibleInfo_TypeDefinitionIndex = 20321;
+	inline static constexpr unsigned int NPCMonstersVisibleInfo_TypeDefinitionIndex = 20656;
 
 	class NPCMonstersVisibleInfo : public ::RPG::GameCore::JsonConfig
 	{

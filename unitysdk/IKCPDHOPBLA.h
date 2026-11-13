@@ -7,11 +7,11 @@ class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceAndPredicateConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IKCPDHOPBLA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C6AE6A0)
-#define IKCPDHOPBLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6AE7A0)
-#define IKCPDHOPBLA_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C6AE820)
+#define IKCPDHOPBLA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C118F70)
+#define IKCPDHOPBLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C119070)
+#define IKCPDHOPBLA_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C1190F0)
 
-inline static constexpr unsigned int IKCPDHOPBLA_TypeDefinitionIndex = 37412;
+inline static constexpr unsigned int IKCPDHOPBLA_TypeDefinitionIndex = 38340;
 
 	class IKCPDHOPBLA
 	{

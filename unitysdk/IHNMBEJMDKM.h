@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LLJAOGKDNFD.h"
 
-#define IHNMBEJMDKM_CTOR_OFFSET UNITYSDK_OFFSET(0x16418EC0)
+#define IHNMBEJMDKM_CTOR_OFFSET UNITYSDK_OFFSET(0x193B8020)
 
-inline static constexpr unsigned int IHNMBEJMDKM_TypeDefinitionIndex = 73552;
+inline static constexpr unsigned int IHNMBEJMDKM_TypeDefinitionIndex = 75675;
 
 	class IHNMBEJMDKM : public ::LLJAOGKDNFD
 	{

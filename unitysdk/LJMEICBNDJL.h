@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetColliderCenterFollowAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJMEICBNDJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB71A110)
-#define LJMEICBNDJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB71A140)
+#define LJMEICBNDJL_CTOR_OFFSET UNITYSDK_OFFSET(0x18CC2980)
+#define LJMEICBNDJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CC29B0)
 
-inline static constexpr unsigned int LJMEICBNDJL_TypeDefinitionIndex = 55375;
+inline static constexpr unsigned int LJMEICBNDJL_TypeDefinitionIndex = 56558;
 
 	class LJMEICBNDJL
 	{

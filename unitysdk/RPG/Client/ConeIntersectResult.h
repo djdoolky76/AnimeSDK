@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConeIntersectResult_TypeDefinitionIndex = 70210;
+	inline static constexpr unsigned int ConeIntersectResult_TypeDefinitionIndex = 72176;
 
 	enum class ConeIntersectResult : ::System::Int32
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatSkillAIEffectConfig; }
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E2940)
-#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E2850)
+#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C0480)
+#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3C0390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatSkillAIEffectConfig_TypeDefinitionIndex = 16124;
+	inline static constexpr unsigned int DiceCombatSkillAIEffectConfig_TypeDefinitionIndex = 16282;
 
 	class DiceCombatSkillAIEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

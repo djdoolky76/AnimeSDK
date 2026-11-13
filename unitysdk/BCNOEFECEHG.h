@@ -4,9 +4,9 @@
 class NEMIDPFEJFL;
 namespace RPG::Client { class MonopolyContentTrigger; }
 
-#define BCNOEFECEHG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x162DD3B0)
+#define BCNOEFECEHG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19D856A0)
 
-inline static constexpr unsigned int BCNOEFECEHG_TypeDefinitionIndex = 66280;
+inline static constexpr unsigned int BCNOEFECEHG_TypeDefinitionIndex = 68216;
 
 	class BCNOEFECEHG : public ::System::Object
 	{

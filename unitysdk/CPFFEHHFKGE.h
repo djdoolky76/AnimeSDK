@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define CPFFEHHFKGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCBF10)
+#define CPFFEHHFKGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1917D050)
 
-inline static constexpr unsigned int CPFFEHHFKGE_TypeDefinitionIndex = 53062;
+inline static constexpr unsigned int CPFFEHHFKGE_TypeDefinitionIndex = 54222;
 
 	class CPFFEHHFKGE : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 class EHLALANHDPD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BPEBJDAIMKC_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A1FD0)
-#define BPEBJDAIMKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1A2000)
+#define BPEBJDAIMKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6003F0)
+#define BPEBJDAIMKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B600420)
 
-inline static constexpr unsigned int BPEBJDAIMKC_TypeDefinitionIndex = 55213;
+inline static constexpr unsigned int BPEBJDAIMKC_TypeDefinitionIndex = 56394;
 
 	class BPEBJDAIMKC
 	{

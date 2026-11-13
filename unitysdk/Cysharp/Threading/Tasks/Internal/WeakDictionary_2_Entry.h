@@ -6,7 +6,7 @@ namespace System { template <typename T> class WeakReference_1; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int WeakDictionary_2_Entry_TypeDefinitionIndex = 38692;
+	inline static constexpr unsigned int WeakDictionary_2_Entry_TypeDefinitionIndex = 39621;
 
 	template <typename T1, typename T2>
 	class WeakDictionary_2_Entry : public ::System::Object

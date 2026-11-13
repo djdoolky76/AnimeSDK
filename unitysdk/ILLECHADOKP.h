@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define ILLECHADOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB4A1C0)
+#define ILLECHADOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC37000)
 
-inline static constexpr unsigned int ILLECHADOKP_TypeDefinitionIndex = 42961;
+inline static constexpr unsigned int ILLECHADOKP_TypeDefinitionIndex = 43942;
 
 	class ILLECHADOKP : public ::System::Object
 	{

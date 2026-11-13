@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MIGNJKKCDBA_TransformIndexPath_TypeDefinitionIndex = 47248;
+inline static constexpr unsigned int MIGNJKKCDBA_TransformIndexPath_TypeDefinitionIndex = 48276;
 
 	struct alignas(4) MIGNJKKCDBA_TransformIndexPath
 	{

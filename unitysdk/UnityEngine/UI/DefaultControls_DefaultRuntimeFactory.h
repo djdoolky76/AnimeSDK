@@ -6,20 +6,20 @@ namespace System { class Type; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class DefaultControls_IFactoryControls; }
 
-#define UNITYENGINE_UI_DEFAULTCONTROLS_DEFAULTRUNTIMEFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C1F60)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_DEFAULTRUNTIMEFACTORY_CREATEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F4B9E60)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_DEFAULTRUNTIMEFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C1F50)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_DEFAULTRUNTIMEFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD2E320)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_DEFAULTRUNTIMEFACTORY_CREATEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1CD26220)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_DEFAULTRUNTIMEFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD2E310)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int DefaultControls_DefaultRuntimeFactory_TypeDefinitionIndex = 6705;
+	inline static constexpr unsigned int DefaultControls_DefaultRuntimeFactory_TypeDefinitionIndex = 6716;
 
 	class DefaultControls_DefaultRuntimeFactory : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::DefaultControls_IFactoryControls** StaticGet_Default()
 		{
-			return (::UnityEngine::UI::DefaultControls_IFactoryControls**)UnitySDK::FromName("UnityEngine.UI", "DefaultRuntimeFactory")->GetStaticField(0x3B690);
+			return (::UnityEngine::UI::DefaultControls_IFactoryControls**)UnitySDK::FromName("UnityEngine.UI", "DefaultRuntimeFactory")->GetStaticField(0x2C9C0);
 		}
 
 		::System::Void _ctor()

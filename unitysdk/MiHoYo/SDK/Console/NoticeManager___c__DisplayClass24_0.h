@@ -6,22 +6,22 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC88930)
-#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0__REQUESTCROSSLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1BC88B40)
-#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0__REQUESTCROSSLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1BC88BF0)
-#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0__REQUESTCROSSLOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x1BC88BD0)
+#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1860E250)
+#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0__REQUESTCROSSLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1860E460)
+#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0__REQUESTCROSSLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1860E510)
+#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0__REQUESTCROSSLOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x1860E4F0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int NoticeManager___c__DisplayClass24_0_TypeDefinitionIndex = 8983;
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass24_0_TypeDefinitionIndex = 8992;
 
 	class NoticeManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::String* dest; // 0x10
-		::System::Action* webCloseCallback; // 0x18
+		::System::Action* webCloseCallback; // 0x10
+		::System::Action_1<::System::String*>* openWeb; // 0x18
 		::System::Action* __9__2; // 0x20
-		::System::Action_1<::System::String*>* openWeb; // 0x28
+		::System::String* dest; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0_CTOR_OFFSET))(this);

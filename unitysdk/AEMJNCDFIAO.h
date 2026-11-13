@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FourRotateVoxelCameraDirectionMask.h"
 #include "unitysdk/System/Object.h"
 
-#define AEMJNCDFIAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C84B420)
+#define AEMJNCDFIAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84F6C0)
 
-inline static constexpr unsigned int AEMJNCDFIAO_TypeDefinitionIndex = 43207;
+inline static constexpr unsigned int AEMJNCDFIAO_TypeDefinitionIndex = 44188;
 
 	class AEMJNCDFIAO : public ::System::Object
 	{

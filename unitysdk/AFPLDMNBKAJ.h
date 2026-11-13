@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInfiniteBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AFPLDMNBKAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCF1C630)
-#define AFPLDMNBKAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF1C660)
+#define AFPLDMNBKAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18DCC320)
+#define AFPLDMNBKAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18DCC350)
 
-inline static constexpr unsigned int AFPLDMNBKAJ_TypeDefinitionIndex = 55114;
+inline static constexpr unsigned int AFPLDMNBKAJ_TypeDefinitionIndex = 56291;
 
 	class AFPLDMNBKAJ
 	{

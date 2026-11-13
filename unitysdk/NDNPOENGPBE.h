@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RemoveShield; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NDNPOENGPBE_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4F370)
-#define NDNPOENGPBE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB4F380)
-#define NDNPOENGPBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB4F3C0)
-#define NDNPOENGPBE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB4F8B0)
-#define NDNPOENGPBE_TICK_OFFSET UNITYSDK_OFFSET(0xBB4F900)
+#define NDNPOENGPBE_CTOR_OFFSET UNITYSDK_OFFSET(0x16FCE3F0)
+#define NDNPOENGPBE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16FCE400)
+#define NDNPOENGPBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FCE440)
+#define NDNPOENGPBE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16FCE940)
+#define NDNPOENGPBE_TICK_OFFSET UNITYSDK_OFFSET(0x16FCE990)
 
-inline static constexpr unsigned int NDNPOENGPBE_TypeDefinitionIndex = 55312;
+inline static constexpr unsigned int NDNPOENGPBE_TypeDefinitionIndex = 56494;
 
 	class NDNPOENGPBE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RemoveShield* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RemoveShield* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RemoveShield* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RemoveShield*))((::PBYTE)hIl2Cpp + NDNPOENGPBE_CTOR_OFFSET))(this, a1, a2);

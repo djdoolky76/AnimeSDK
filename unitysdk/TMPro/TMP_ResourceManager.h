@@ -7,38 +7,38 @@ namespace TMPro { class TMP_FontAsset; }
 namespace TMPro { class TMP_ResourceManager; }
 namespace TMPro { class TMP_Settings; }
 
-#define TMPRO_TMP_RESOURCEMANAGER_ADDFONTASSET_OFFSET UNITYSDK_OFFSET(0x1F2F03A0)
-#define TMPRO_TMP_RESOURCEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2F01B0)
-#define TMPRO_TMP_RESOURCEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F02A0)
-#define TMPRO_TMP_RESOURCEMANAGER_GETTEXTSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F2F02B0)
-#define TMPRO_TMP_RESOURCEMANAGER_REBUILDFONTASSETCACHE_OFFSET UNITYSDK_OFFSET(0x1F2F0640)
-#define TMPRO_TMP_RESOURCEMANAGER_TRYGETFONTASSET_OFFSET UNITYSDK_OFFSET(0x1F2F0560)
+#define TMPRO_TMP_RESOURCEMANAGER_ADDFONTASSET_OFFSET UNITYSDK_OFFSET(0x19BC35B0)
+#define TMPRO_TMP_RESOURCEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x19BC33C0)
+#define TMPRO_TMP_RESOURCEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x19BC34B0)
+#define TMPRO_TMP_RESOURCEMANAGER_GETTEXTSETTINGS_OFFSET UNITYSDK_OFFSET(0x19BC34C0)
+#define TMPRO_TMP_RESOURCEMANAGER_REBUILDFONTASSETCACHE_OFFSET UNITYSDK_OFFSET(0x19BC3850)
+#define TMPRO_TMP_RESOURCEMANAGER_TRYGETFONTASSET_OFFSET UNITYSDK_OFFSET(0x19BC3770)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_ResourceManager_TypeDefinitionIndex = 44622;
+	inline static constexpr unsigned int TMP_ResourceManager_TypeDefinitionIndex = 45697;
 
 	class TMP_ResourceManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::TMPro::TMP_FontAsset*>** StaticGet_s_FontAssetReferenceLookup()
+		static ::TMPro::TMP_ResourceManager** StaticGet_s_instance()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::TMPro::TMP_FontAsset*>**)UnitySDK::FromName("TMPro", "TMP_ResourceManager")->GetStaticField(0x56D00);
-		}
-
-		static ::TMPro::TMP_Settings** StaticGet_s_TextSettings()
-		{
-			return (::TMPro::TMP_Settings**)UnitySDK::FromName("TMPro", "TMP_ResourceManager")->GetStaticField(0x56D08);
+			return (::TMPro::TMP_ResourceManager**)UnitySDK::FromName("TMPro", "TMP_ResourceManager")->GetStaticField(0x6AA40);
 		}
 
 		static ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>** StaticGet_s_FontAssetReferences()
 		{
-			return (::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>**)UnitySDK::FromName("TMPro", "TMP_ResourceManager")->GetStaticField(0x56D10);
+			return (::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>**)UnitySDK::FromName("TMPro", "TMP_ResourceManager")->GetStaticField(0x6AA48);
 		}
 
-		static ::TMPro::TMP_ResourceManager** StaticGet_s_instance()
+		static ::TMPro::TMP_Settings** StaticGet_s_TextSettings()
 		{
-			return (::TMPro::TMP_ResourceManager**)UnitySDK::FromName("TMPro", "TMP_ResourceManager")->GetStaticField(0x56D18);
+			return (::TMPro::TMP_Settings**)UnitySDK::FromName("TMPro", "TMP_ResourceManager")->GetStaticField(0x6AA50);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::TMPro::TMP_FontAsset*>** StaticGet_s_FontAssetReferenceLookup()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::TMPro::TMP_FontAsset*>**)UnitySDK::FromName("TMPro", "TMP_ResourceManager")->GetStaticField(0x6AA58);
 		}
 
 		static ::System::Void _cctor()

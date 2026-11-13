@@ -6,17 +6,17 @@ class FHFCJKKKNLP;
 namespace RPG::Client { class BaseGameFlow; }
 namespace System { class Exception; }
 
-#define BECJPAKGDMA___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x163033F0)
-#define BECJPAKGDMA___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x16303530)
-#define BECJPAKGDMA___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x16303610)
+#define BECJPAKGDMA___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9318F0)
+#define BECJPAKGDMA___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A931A30)
+#define BECJPAKGDMA___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1A931B10)
 
-inline static constexpr unsigned int BECJPAKGDMA___c__DisplayClass10_0_TypeDefinitionIndex = 58161;
+inline static constexpr unsigned int BECJPAKGDMA___c__DisplayClass10_0_TypeDefinitionIndex = 59414;
 
 	class BECJPAKGDMA___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::BECJPAKGDMA* __4__this; // 0x10
-		::FHFCJKKKNLP* gameFlowPrepareService; // 0x18
+		::FHFCJKKKNLP* gameFlowPrepareService; // 0x10
+		::BECJPAKGDMA* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BECJPAKGDMA___C__DISPLAYCLASS10_0_CTOR_OFFSET))(this);

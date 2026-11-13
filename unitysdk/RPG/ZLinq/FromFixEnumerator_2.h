@@ -4,7 +4,7 @@
 
 namespace RPG::ZLinq
 {
-	inline static constexpr unsigned int FromFixEnumerator_2_TypeDefinitionIndex = 10360;
+	inline static constexpr unsigned int FromFixEnumerator_2_TypeDefinitionIndex = 10370;
 
 	template <typename T1, typename T2>
 	struct alignas(8) FromFixEnumerator_2

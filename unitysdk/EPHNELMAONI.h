@@ -5,11 +5,11 @@ class EPHNELMAONI;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EPHNELMAONI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x155C9430)
-#define EPHNELMAONI_CTOR_OFFSET UNITYSDK_OFFSET(0x155C94A0)
-#define EPHNELMAONI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x155C94B0)
+#define EPHNELMAONI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16B38400)
+#define EPHNELMAONI_CTOR_OFFSET UNITYSDK_OFFSET(0x16B38470)
+#define EPHNELMAONI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16B38480)
 
-inline static constexpr unsigned int EPHNELMAONI_TypeDefinitionIndex = 62555;
+inline static constexpr unsigned int EPHNELMAONI_TypeDefinitionIndex = 63968;
 
 	class EPHNELMAONI : public ::System::Object
 	{

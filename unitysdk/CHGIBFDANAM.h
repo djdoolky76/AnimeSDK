@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetTargetAnimSpeedScale; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CHGIBFDANAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCF41DB0)
-#define CHGIBFDANAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF41DC0)
-#define CHGIBFDANAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF41E00)
-#define CHGIBFDANAM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF42000)
-#define CHGIBFDANAM_TICK_OFFSET UNITYSDK_OFFSET(0xCF42050)
+#define CHGIBFDANAM_CTOR_OFFSET UNITYSDK_OFFSET(0x16E16340)
+#define CHGIBFDANAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E16350)
+#define CHGIBFDANAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E16390)
+#define CHGIBFDANAM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16E16590)
+#define CHGIBFDANAM_TICK_OFFSET UNITYSDK_OFFSET(0x16E165E0)
 
-inline static constexpr unsigned int CHGIBFDANAM_TypeDefinitionIndex = 55575;
+inline static constexpr unsigned int CHGIBFDANAM_TypeDefinitionIndex = 56770;
 
 	class CHGIBFDANAM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetTargetAnimSpeedScale* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetTargetAnimSpeedScale* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTargetAnimSpeedScale* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetTargetAnimSpeedScale*))((::PBYTE)hIl2Cpp + CHGIBFDANAM_CTOR_OFFSET))(this, a1, a2);

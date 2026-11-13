@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemStroyLineRow; }
 
-#define RPG_GAMECORE_ITEMSTROYLINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76F060)
-#define RPG_GAMECORE_ITEMSTROYLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D76EF20)
+#define RPG_GAMECORE_ITEMSTROYLINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D921D10)
+#define RPG_GAMECORE_ITEMSTROYLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D921BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemStroyLineRow_TypeDefinitionIndex = 13894;
+	inline static constexpr unsigned int ItemStroyLineRow_TypeDefinitionIndex = 14051;
 
 	class ItemStroyLineRow : public ::System::Object
 	{

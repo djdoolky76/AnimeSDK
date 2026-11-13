@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextEditor_Direction_TypeDefinitionIndex = 5201;
+	inline static constexpr unsigned int TextEditor_Direction_TypeDefinitionIndex = 5206;
 
 	enum class TextEditor_Direction : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class CharacterHeadConstraint; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BFE00)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3EDC30)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterLookAtData_TypeDefinitionIndex = 47977;
+	inline static constexpr unsigned int CharacterLookAtData_TypeDefinitionIndex = 49008;
 
 	class CharacterLookAtData : public ::System::Object
 	{
@@ -24,7 +24,11 @@ namespace RPGTools::Timeline
 		::System::Single Duration; // 0x3C
 		::System::String* CurveName; // 0x40
 		::RPG::GameCore::CharacterHeadConstraint* Constraint; // 0x48
-		::System::Single OverrideMinSpringHairAngle; // 0x50
+		::System::Boolean UseAngleMode; // 0x50
+		::System::Byte _padding1[0x3];
+		::System::Single AngleYaw; // 0x54
+		::System::Single AnglePitch; // 0x58
+		::System::Single OverrideMinSpringHairAngle; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERLOOKATDATA_CTOR_OFFSET))(this);

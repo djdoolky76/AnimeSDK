@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define LAGKECNIKFL_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define LAGKECNIKFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17370)
+#define LAGKECNIKFL_CTOR_OFFSET UNITYSDK_OFFSET(0xADCE20)
+#define LAGKECNIKFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3E71F70)
 
-inline static constexpr unsigned int LAGKECNIKFL_TypeDefinitionIndex = 67674;
+inline static constexpr unsigned int LAGKECNIKFL_TypeDefinitionIndex = 69619;
 
 	struct alignas(4) LAGKECNIKFL
 	{

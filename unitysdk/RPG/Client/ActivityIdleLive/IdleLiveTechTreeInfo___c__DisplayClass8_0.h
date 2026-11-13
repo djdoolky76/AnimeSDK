@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC500160)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__DISPLAYCLASS8_0__GETACTIVENODESBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xC501AB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A0100)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__DISPLAYCLASS8_0__GETACTIVENODESBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1D3A1A50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTechTreeInfo___c__DisplayClass8_0_TypeDefinitionIndex = 75407;
+	inline static constexpr unsigned int IdleLiveTechTreeInfo___c__DisplayClass8_0_TypeDefinitionIndex = 77734;
 
 	class IdleLiveTechTreeInfo___c__DisplayClass8_0 : public ::System::Object
 	{

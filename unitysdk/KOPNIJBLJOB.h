@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetHitOverrideLayerWeight; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KOPNIJBLJOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB59D7E0)
-#define KOPNIJBLJOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB59D810)
+#define KOPNIJBLJOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1910DBF0)
+#define KOPNIJBLJOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1910DC20)
 
-inline static constexpr unsigned int KOPNIJBLJOB_TypeDefinitionIndex = 55519;
+inline static constexpr unsigned int KOPNIJBLJOB_TypeDefinitionIndex = 56711;
 
 	class KOPNIJBLJOB
 	{

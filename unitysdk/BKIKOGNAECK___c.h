@@ -4,18 +4,18 @@
 class BKIKOGNAECK;
 namespace System { class Object; }
 
-#define BKIKOGNAECK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF2C090)
-#define BKIKOGNAECK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF2C0D0)
-#define BKIKOGNAECK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF2C0E0)
+#define BKIKOGNAECK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAE44D0)
+#define BKIKOGNAECK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAE4510)
+#define BKIKOGNAECK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FAE4520)
 
-inline static constexpr unsigned int BKIKOGNAECK___c_TypeDefinitionIndex = 29299;
+inline static constexpr unsigned int BKIKOGNAECK___c_TypeDefinitionIndex = 29984;
 
 	class BKIKOGNAECK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ABD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B10);
 		}
 
 		static ::System::Void _cctor()

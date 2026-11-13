@@ -10,12 +10,12 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JMAAPINLPDI_AOFLGJGKMAK_OFFSET UNITYSDK_OFFSET(0xB2518D0)
-#define JMAAPINLPDI_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xB251800)
-#define JMAAPINLPDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB251EF0)
-#define JMAAPINLPDI_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0xB2517A0)
+#define JMAAPINLPDI_AOFLGJGKMAK_OFFSET UNITYSDK_OFFSET(0x1A0A0160)
+#define JMAAPINLPDI_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x1A0A0090)
+#define JMAAPINLPDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A0780)
+#define JMAAPINLPDI_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0x1A0A0030)
 
-inline static constexpr unsigned int JMAAPINLPDI_TypeDefinitionIndex = 77545;
+inline static constexpr unsigned int JMAAPINLPDI_TypeDefinitionIndex = 80280;
 
 	class JMAAPINLPDI : public ::System::Object
 	{

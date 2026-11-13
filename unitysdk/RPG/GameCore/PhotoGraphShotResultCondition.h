@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphResultPredicate; }
 namespace RPG::GameCore { class PhotoGraphShotResultCondition; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSHOTRESULTCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E5AA0)
-#define RPG_GAMECORE_PHOTOGRAPHSHOTRESULTCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E5850)
+#define RPG_GAMECORE_PHOTOGRAPHSHOTRESULTCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE54330)
+#define RPG_GAMECORE_PHOTOGRAPHSHOTRESULTCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE540E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphShotResultCondition_TypeDefinitionIndex = 21654;
+	inline static constexpr unsigned int PhotoGraphShotResultCondition_TypeDefinitionIndex = 22042;
 
 	class PhotoGraphShotResultCondition : public ::RPG::GameCore::JsonConfig
 	{

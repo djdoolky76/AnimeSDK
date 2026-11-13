@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KFOLAGEHKGF;
 
-#define LJGOHFMCPPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E1240)
+#define LJGOHFMCPPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63B320)
 
-inline static constexpr unsigned int LJGOHFMCPPM_TypeDefinitionIndex = 43410;
+inline static constexpr unsigned int LJGOHFMCPPM_TypeDefinitionIndex = 44391;
 
 	class LJGOHFMCPPM : public ::System::Object
 	{

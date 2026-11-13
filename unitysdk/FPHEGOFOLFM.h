@@ -6,10 +6,10 @@ class FCOEMCEDLNL;
 class FPHEGOFOLFM;
 namespace System { class String; }
 
-#define FPHEGOFOLFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDECC70)
-#define FPHEGOFOLFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDECB30)
+#define FPHEGOFOLFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3E230)
+#define FPHEGOFOLFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA3E0F0)
 
-inline static constexpr unsigned int FPHEGOFOLFM_TypeDefinitionIndex = 11629;
+inline static constexpr unsigned int FPHEGOFOLFM_TypeDefinitionIndex = 11680;
 
 	class FPHEGOFOLFM : public ::System::Object
 	{

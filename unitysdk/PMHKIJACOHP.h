@@ -5,10 +5,10 @@
 class KAKADGHNMFK;
 namespace RPG::GameCore { class ChimeraDuelEntityAttributeComparer; }
 
-#define PMHKIJACOHP_CTOR_OFFSET UNITYSDK_OFFSET(0xC315D40)
-#define PMHKIJACOHP_DDAIPDEDJBK_OFFSET UNITYSDK_OFFSET(0xC315D70)
+#define PMHKIJACOHP_CTOR_OFFSET UNITYSDK_OFFSET(0x188A2870)
+#define PMHKIJACOHP_DDAIPDEDJBK_OFFSET UNITYSDK_OFFSET(0x188A28A0)
 
-inline static constexpr unsigned int PMHKIJACOHP_TypeDefinitionIndex = 77441;
+inline static constexpr unsigned int PMHKIJACOHP_TypeDefinitionIndex = 80176;
 
 	class PMHKIJACOHP : public ::MKINHDIFEBD
 	{

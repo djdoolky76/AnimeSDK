@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-inline static constexpr unsigned int CJPHLIEGMDE_TypeDefinitionIndex = 49270;
+inline static constexpr unsigned int CJPHLIEGMDE_TypeDefinitionIndex = 50346;
 
 	class CJPHLIEGMDE : public ::System::Object
 	{

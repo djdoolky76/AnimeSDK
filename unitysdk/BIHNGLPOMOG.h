@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTargetCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BIHNGLPOMOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A46E0)
-#define BIHNGLPOMOG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4A4710)
+#define BIHNGLPOMOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB6E50)
+#define BIHNGLPOMOG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BAB6E80)
 
-inline static constexpr unsigned int BIHNGLPOMOG_TypeDefinitionIndex = 54579;
+inline static constexpr unsigned int BIHNGLPOMOG_TypeDefinitionIndex = 55744;
 
 	class BIHNGLPOMOG
 	{

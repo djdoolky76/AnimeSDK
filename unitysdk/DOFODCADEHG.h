@@ -6,72 +6,72 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define DOFODCADEHG_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FE2A40)
-#define DOFODCADEHG_CIPPMEDPIGP_OFFSET UNITYSDK_OFFSET(0x11FE1FE0)
-#define DOFODCADEHG_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE18F0)
-#define DOFODCADEHG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FE1DB0)
-#define DOFODCADEHG_ECCJCGOJDJB_OFFSET UNITYSDK_OFFSET(0x11FE2600)
-#define DOFODCADEHG_GHPAHMKMBKK_OFFSET UNITYSDK_OFFSET(0x11FE1E10)
-#define DOFODCADEHG_HDMGMDKOJKC_OFFSET UNITYSDK_OFFSET(0x11FE1F80)
-#define DOFODCADEHG_HLCHGJAAEKE_OFFSET UNITYSDK_OFFSET(0x11FE1E80)
-#define DOFODCADEHG_JBOJECABIMN_OFFSET UNITYSDK_OFFSET(0x11FE2820)
-#define DOFODCADEHG_KNGAAPOENNE_OFFSET UNITYSDK_OFFSET(0x11FE2210)
-#define DOFODCADEHG_LHOFCEBEKGK_OFFSET UNITYSDK_OFFSET(0x11FE2410)
-#define DOFODCADEHG_MLMNDNIKDNL_OFFSET UNITYSDK_OFFSET(0x11FE20E0)
-#define DOFODCADEHG_NGPEBNECDDM_OFFSET UNITYSDK_OFFSET(0x11FE2930)
-#define DOFODCADEHG_OINOLCLLOGH_OFFSET UNITYSDK_OFFSET(0x11FE29D0)
-#define DOFODCADEHG_PPJPFEBEHDL_OFFSET UNITYSDK_OFFSET(0x11FE2890)
+#define DOFODCADEHG_CCTOR_OFFSET UNITYSDK_OFFSET(0x191A5FC0)
+#define DOFODCADEHG_CIPPMEDPIGP_OFFSET UNITYSDK_OFFSET(0x191A5570)
+#define DOFODCADEHG_CTOR_OFFSET UNITYSDK_OFFSET(0x191A4E90)
+#define DOFODCADEHG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x191A5350)
+#define DOFODCADEHG_ECCJCGOJDJB_OFFSET UNITYSDK_OFFSET(0x191A5B80)
+#define DOFODCADEHG_GHPAHMKMBKK_OFFSET UNITYSDK_OFFSET(0x191A53A0)
+#define DOFODCADEHG_HDMGMDKOJKC_OFFSET UNITYSDK_OFFSET(0x191A5510)
+#define DOFODCADEHG_HLCHGJAAEKE_OFFSET UNITYSDK_OFFSET(0x191A5410)
+#define DOFODCADEHG_JBOJECABIMN_OFFSET UNITYSDK_OFFSET(0x191A5DA0)
+#define DOFODCADEHG_KNGAAPOENNE_OFFSET UNITYSDK_OFFSET(0x191A57A0)
+#define DOFODCADEHG_LHOFCEBEKGK_OFFSET UNITYSDK_OFFSET(0x191A5990)
+#define DOFODCADEHG_MLMNDNIKDNL_OFFSET UNITYSDK_OFFSET(0x191A5670)
+#define DOFODCADEHG_NGPEBNECDDM_OFFSET UNITYSDK_OFFSET(0x191A5EB0)
+#define DOFODCADEHG_OINOLCLLOGH_OFFSET UNITYSDK_OFFSET(0x191A5F50)
+#define DOFODCADEHG_PPJPFEBEHDL_OFFSET UNITYSDK_OFFSET(0x191A5E10)
 
-inline static constexpr unsigned int DOFODCADEHG_TypeDefinitionIndex = 78984;
+inline static constexpr unsigned int DOFODCADEHG_TypeDefinitionIndex = 81760;
 
 	class DOFODCADEHG : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* DHHIBLFADJG; // 0x10
-		::Il2CppArray<::UnityEngine::Transform*>* KDIJHBIADLJ; // 0x18
+		::Il2CppArray<::UnityEngine::Transform*>* KDIJHBIADLJ; // 0x10
+		::UnityEngine::GameObject* DHHIBLFADJG; // 0x18
 		::System::Collections::Generic::HashSet_1<::System::Int32>* PNKNCFGGBKA; // 0x20
-		::UnityEngine::Animator* HBLFBCHPBJH; // 0x28
-		::Il2CppArray<::UnityEngine::Animator*>* NPBEGGOLJED; // 0x30
+		::Il2CppArray<::UnityEngine::Animator*>* NPBEGGOLJED; // 0x28
+		::UnityEngine::Animator* HBLFBCHPBJH; // 0x30
 		::System::Int32 EJNMGLJJEOO; // 0x38
 		::System::Boolean LMPJEECAKEM; // 0x3C
-		static ::System::Int32* StaticGet_GIOLIKAKAGA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x159A0);
-		}
-
-		static ::System::Int32* StaticGet_AEEDFBCPNHG()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x159A4);
-		}
-
 		static ::System::Int32* StaticGet_ECOIODPLNOO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x159A8);
+			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x156F0);
 		}
 
 		static ::System::Int32* StaticGet_KKGDGIFMJKG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x159AC);
+			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x156F4);
 		}
 
 		static ::System::Int32* StaticGet_HKJDFLOAHLM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x159B0);
-		}
-
-		static ::System::Int32* StaticGet_JGLDPNJGHAI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x159B4);
-		}
-
-		static ::System::Int32* StaticGet_IBEABMNNOLE()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x159B8);
+			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x156F8);
 		}
 
 		static ::System::Int32* StaticGet_CCNKOOHPLHA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x159BC);
+			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x156FC);
+		}
+
+		static ::System::Int32* StaticGet_AEEDFBCPNHG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x15700);
+		}
+
+		static ::System::Int32* StaticGet_JGLDPNJGHAI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x15704);
+		}
+
+		static ::System::Int32* StaticGet_IBEABMNNOLE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x15708);
+		}
+
+		static ::System::Int32* StaticGet_GIOLIKAKAGA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DOFODCADEHG")->GetStaticField(0x1570C);
 		}
 
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::System::Int32 a2)

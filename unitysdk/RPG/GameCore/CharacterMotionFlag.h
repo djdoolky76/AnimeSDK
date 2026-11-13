@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterMotionFlag_TypeDefinitionIndex = 10441;
+	inline static constexpr unsigned int CharacterMotionFlag_TypeDefinitionIndex = 10452;
 
 	enum class CharacterMotionFlag : ::System::Int32
 	{

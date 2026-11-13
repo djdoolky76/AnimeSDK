@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBattleTargetID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MHOBCPOJDOD_CTOR_OFFSET UNITYSDK_OFFSET(0xB942450)
-#define MHOBCPOJDOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB942530)
+#define MHOBCPOJDOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B369520)
+#define MHOBCPOJDOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B369600)
 
-inline static constexpr unsigned int MHOBCPOJDOD_TypeDefinitionIndex = 58537;
+inline static constexpr unsigned int MHOBCPOJDOD_TypeDefinitionIndex = 59802;
 
 	class MHOBCPOJDOD
 	{

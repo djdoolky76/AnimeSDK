@@ -4,18 +4,18 @@
 class HILCBNGIFKL;
 namespace System { class Object; }
 
-#define HILCBNGIFKL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E56D050)
-#define HILCBNGIFKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E56D080)
-#define HILCBNGIFKL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E56D090)
+#define HILCBNGIFKL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20524D40)
+#define HILCBNGIFKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20524D70)
+#define HILCBNGIFKL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x20524D80)
 
-inline static constexpr unsigned int HILCBNGIFKL___c_TypeDefinitionIndex = 25306;
+inline static constexpr unsigned int HILCBNGIFKL___c_TypeDefinitionIndex = 25784;
 
 	class HILCBNGIFKL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34660);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FC50);
 		}
 
 		static ::System::Void _cctor()

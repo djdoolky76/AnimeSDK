@@ -11,23 +11,23 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStatisticsLineup
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditTeamViewModel_Factory; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC968BF0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC968BB0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1B6F0520)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F04F0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel_Factory_TypeDefinitionIndex = 81630;
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel_Factory_TypeDefinitionIndex = 84411;
 
 	class ChallengeTierceTeamEditViewModel_Factory : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel_Factory* _FriendRecommendationFactory; // 0x10
-		::ACNNMGIJMFK* _TeamConflictCheckService; // 0x18
+		::NHCHDKJLNBJ* _Repository; // 0x10
+		::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel_Factory* _TeamFactory; // 0x18
 		::ENJKEDGCLJF* _PlayerReturnTrialAvatarService; // 0x20
 		::KNOOGHJPPBL* _ObtainedAvatarService; // 0x28
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel_Factory* _StatisticsRecommendationFactory; // 0x30
-		::NHCHDKJLNBJ* _Repository; // 0x38
-		::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel_Factory* _TeamFactory; // 0x40
+		::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel_Factory* _FriendRecommendationFactory; // 0x30
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel_Factory* _StatisticsRecommendationFactory; // 0x38
+		::ACNNMGIJMFK* _TeamConflictCheckService; // 0x40
 		::System::Void _ctor(::NHCHDKJLNBJ* a1, ::KNOOGHJPPBL* a2, ::ACNNMGIJMFK* a3, ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel_Factory* a4, ::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel_Factory* a5, ::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel_Factory* a6, ::ENJKEDGCLJF* a7)
 		{
 			return ((::System::Void(*)(::PVOID, ::NHCHDKJLNBJ*, ::KNOOGHJPPBL*, ::ACNNMGIJMFK*, ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel_Factory*, ::RPG::Client::Challenge::Tierce::ChallengeTierceFriendLineupRecommendationViewModel_Factory*, ::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel_Factory*, ::ENJKEDGCLJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_FACTORY_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);

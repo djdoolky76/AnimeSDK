@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IPVersion_TypeDefinitionIndex = 43930;
+	inline static constexpr unsigned int IPVersion_TypeDefinitionIndex = 45005;
 
 	enum class IPVersion : ::System::Int32
 	{

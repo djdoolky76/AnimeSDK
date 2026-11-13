@@ -4,9 +4,9 @@
 namespace R3 { template <typename T> class Observable_1; }
 namespace RPG::UINavigation { class UINavigation; }
 
-#define CONAIOFALJB_NMHDDLOCHFO_OFFSET UNITYSDK_OFFSET(0xDCB8B80)
+#define CONAIOFALJB_NMHDDLOCHFO_OFFSET UNITYSDK_OFFSET(0x19169A60)
 
-inline static constexpr unsigned int CONAIOFALJB_TypeDefinitionIndex = 49829;
+inline static constexpr unsigned int CONAIOFALJB_TypeDefinitionIndex = 50877;
 
 	class CONAIOFALJB : public ::System::Object
 	{

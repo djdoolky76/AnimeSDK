@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureRemoveExtraMPCost; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OKBOMCCNEEO_CTOR_OFFSET UNITYSDK_OFFSET(0xBECBEB0)
-#define OKBOMCCNEEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBECBEE0)
+#define OKBOMCCNEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1786ECF0)
+#define OKBOMCCNEEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1786ED20)
 
-inline static constexpr unsigned int OKBOMCCNEEO_TypeDefinitionIndex = 57910;
+inline static constexpr unsigned int OKBOMCCNEEO_TypeDefinitionIndex = 59147;
 
 	class OKBOMCCNEEO
 	{

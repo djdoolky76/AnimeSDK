@@ -3,10 +3,10 @@
 class ECADOJALGKJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DJFDAGEJOML_CTOR_OFFSET UNITYSDK_OFFSET(0xF22B030)
-#define DJFDAGEJOML_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF22B060)
+#define DJFDAGEJOML_CTOR_OFFSET UNITYSDK_OFFSET(0x18BE4070)
+#define DJFDAGEJOML_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18BE40A0)
 
-inline static constexpr unsigned int DJFDAGEJOML_TypeDefinitionIndex = 54160;
+inline static constexpr unsigned int DJFDAGEJOML_TypeDefinitionIndex = 55324;
 
 	class DJFDAGEJOML
 	{

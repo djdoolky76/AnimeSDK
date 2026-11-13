@@ -4,18 +4,18 @@
 class DAGGFIOGHGE;
 namespace System { class Object; }
 
-#define DAGGFIOGHGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1245C0)
-#define DAGGFIOGHGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E124600)
-#define DAGGFIOGHGE___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E124610)
+#define DAGGFIOGHGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202A7480)
+#define DAGGFIOGHGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202A74C0)
+#define DAGGFIOGHGE___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x202A74D0)
 
-inline static constexpr unsigned int DAGGFIOGHGE___c_TypeDefinitionIndex = 31746;
+inline static constexpr unsigned int DAGGFIOGHGE___c_TypeDefinitionIndex = 32659;
 
 	class DAGGFIOGHGE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21A10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BA40);
 		}
 
 		static ::System::Void _cctor()

@@ -9,21 +9,21 @@ class MNGBPAKGEME;
 namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace System { class String; }
 
-#define HHEIPELCNLH_CTOR_OFFSET UNITYSDK_OFFSET(0x15CBD0D0)
-#define HHEIPELCNLH_KGBKOEOLDNJ_OFFSET UNITYSDK_OFFSET(0x15CBD710)
-#define HHEIPELCNLH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15CBD1A0)
-#define HHEIPELCNLH_OACBGCFADMP_OFFSET UNITYSDK_OFFSET(0x15CBD200)
+#define HHEIPELCNLH_CTOR_OFFSET UNITYSDK_OFFSET(0x190158E0)
+#define HHEIPELCNLH_KGBKOEOLDNJ_OFFSET UNITYSDK_OFFSET(0x19015F20)
+#define HHEIPELCNLH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x190159B0)
+#define HHEIPELCNLH_OACBGCFADMP_OFFSET UNITYSDK_OFFSET(0x19015A10)
 
-inline static constexpr unsigned int HHEIPELCNLH_TypeDefinitionIndex = 81201;
+inline static constexpr unsigned int HHEIPELCNLH_TypeDefinitionIndex = 83981;
 
 	class HHEIPELCNLH : public ::System::Object
 	{
 	public:
-		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x10
+		::LHBDMLAPLLP* NABLOINKCCC; // 0x10
 		::MNGBPAKGEME* LGFABLFAJBI; // 0x18
-		::FAODCLALLME* ILMLNDPKFNO; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ACFBFHAOFFI; // 0x28
-		::LHBDMLAPLLP* NABLOINKCCC; // 0x30
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ACFBFHAOFFI; // 0x20
+		::FAODCLALLME* ILMLNDPKFNO; // 0x28
+		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x30
 		::RPG::Client::TextID BHIOBDFAHLD; // 0x38
 		::System::Void _ctor(::FAODCLALLME* a1, ::RPG::Client::FateRin::Logging::ILogger* a2)
 		{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimLadderConfig; }
 
-#define IPMOGHMLJLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C6D0)
+#define IPMOGHMLJLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC49520)
 
-inline static constexpr unsigned int IPMOGHMLJLP_TypeDefinitionIndex = 43448;
+inline static constexpr unsigned int IPMOGHMLJLP_TypeDefinitionIndex = 44430;
 
 	class IPMOGHMLJLP : public ::System::Object
 	{

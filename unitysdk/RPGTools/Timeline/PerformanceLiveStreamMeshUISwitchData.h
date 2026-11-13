@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PerformanceLiveStreamMeshUISwitchData_TypeDefinitionIndex = 47893;
+	inline static constexpr unsigned int PerformanceLiveStreamMeshUISwitchData_TypeDefinitionIndex = 48924;
 
 	struct alignas(8) PerformanceLiveStreamMeshUISwitchData
 	{

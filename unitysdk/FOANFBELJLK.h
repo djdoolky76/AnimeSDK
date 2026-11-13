@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define FOANFBELJLK_CTOR_OFFSET UNITYSDK_OFFSET(0x158D4DA0)
+#define FOANFBELJLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1873FA80)
 
-inline static constexpr unsigned int FOANFBELJLK_TypeDefinitionIndex = 58617;
+inline static constexpr unsigned int FOANFBELJLK_TypeDefinitionIndex = 59882;
 
 	class FOANFBELJLK : public ::System::Object
 	{

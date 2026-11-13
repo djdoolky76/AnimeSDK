@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropPredicateWithEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LIJEEDGCBNK_CTOR_OFFSET UNITYSDK_OFFSET(0xB6CD570)
-#define LIJEEDGCBNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6CD5A0)
+#define LIJEEDGCBNK_CTOR_OFFSET UNITYSDK_OFFSET(0x172E8C30)
+#define LIJEEDGCBNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172E8C60)
 
-inline static constexpr unsigned int LIJEEDGCBNK_TypeDefinitionIndex = 53177;
+inline static constexpr unsigned int LIJEEDGCBNK_TypeDefinitionIndex = 54339;
 
 	class LIJEEDGCBNK
 	{

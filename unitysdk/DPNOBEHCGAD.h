@@ -6,11 +6,11 @@ namespace RPG::GameCore { class TargetSequence; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DPNOBEHCGAD_CTOR_OFFSET UNITYSDK_OFFSET(0x12658DF0)
-#define DPNOBEHCGAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12659160)
-#define DPNOBEHCGAD_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x12658F60)
+#define DPNOBEHCGAD_CTOR_OFFSET UNITYSDK_OFFSET(0x181B2FF0)
+#define DPNOBEHCGAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x181B3360)
+#define DPNOBEHCGAD_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x181B3160)
 
-inline static constexpr unsigned int DPNOBEHCGAD_TypeDefinitionIndex = 59199;
+inline static constexpr unsigned int DPNOBEHCGAD_TypeDefinitionIndex = 60476;
 
 	class DPNOBEHCGAD
 	{

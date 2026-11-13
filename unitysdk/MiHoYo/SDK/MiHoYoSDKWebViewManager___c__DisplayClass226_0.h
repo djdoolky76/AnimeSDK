@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS226_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB004F30)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS226_0__ONDESTROY_B__0_OFFSET UNITYSDK_OFFSET(0xB0119C0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS226_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF514C0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS226_0__ONDESTROY_B__0_OFFSET UNITYSDK_OFFSET(0x1BF5DD20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass226_0_TypeDefinitionIndex = 46629;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass226_0_TypeDefinitionIndex = 47657;
 
 	class MiHoYoSDKWebViewManager___c__DisplayClass226_0 : public ::System::Object
 	{

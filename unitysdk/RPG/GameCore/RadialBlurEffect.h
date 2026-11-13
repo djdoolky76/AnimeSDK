@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RadialBlurEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RADIALBLUREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D939130)
-#define RPG_GAMECORE_RADIALBLUREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D939190)
-#define RPG_GAMECORE_RADIALBLUREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9390B0)
+#define RPG_GAMECORE_RADIALBLUREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F222B80)
+#define RPG_GAMECORE_RADIALBLUREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F222BE0)
+#define RPG_GAMECORE_RADIALBLUREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F222B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RadialBlurEffect_TypeDefinitionIndex = 20258;
+	inline static constexpr unsigned int RadialBlurEffect_TypeDefinitionIndex = 20593;
 
 	class RadialBlurEffect : public ::RPG::GameCore::TaskConfig
 	{

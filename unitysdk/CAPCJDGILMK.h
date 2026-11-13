@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CAPCJDGILMK_CTOR_OFFSET UNITYSDK_OFFSET(0xC492DE0)
-#define CAPCJDGILMK_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xC492D40)
+#define CAPCJDGILMK_CTOR_OFFSET UNITYSDK_OFFSET(0x18FCFDD0)
+#define CAPCJDGILMK_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x18FCFD30)
 
-inline static constexpr unsigned int CAPCJDGILMK_TypeDefinitionIndex = 62458;
+inline static constexpr unsigned int CAPCJDGILMK_TypeDefinitionIndex = 63871;
 
 	class CAPCJDGILMK : public ::System::Object
 	{

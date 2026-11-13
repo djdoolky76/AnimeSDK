@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class CHAFEOFKPOJ;
 
-#define MCAIHGBMMMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F67E0)
+#define MCAIHGBMMMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25B980)
 
-inline static constexpr unsigned int MCAIHGBMMMJ_TypeDefinitionIndex = 43233;
+inline static constexpr unsigned int MCAIHGBMMMJ_TypeDefinitionIndex = 44214;
 
 	class MCAIHGBMMMJ : public ::System::Object
 	{

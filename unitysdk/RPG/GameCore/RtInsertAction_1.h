@@ -7,7 +7,7 @@ namespace RPG::GameCore { class GameWorld; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtInsertAction_1_TypeDefinitionIndex = 54114;
+	inline static constexpr unsigned int RtInsertAction_1_TypeDefinitionIndex = 55278;
 
 	template <typename T>
 	class RtInsertAction_1 : public ::System::Object

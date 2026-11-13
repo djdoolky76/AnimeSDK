@@ -3,10 +3,10 @@
 class MCAIABAKIJJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IGDOFEHHIME_CTOR_OFFSET UNITYSDK_OFFSET(0x163FCD70)
-#define IGDOFEHHIME_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163FCDA0)
+#define IGDOFEHHIME_CTOR_OFFSET UNITYSDK_OFFSET(0x19F58B00)
+#define IGDOFEHHIME_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19F58B30)
 
-inline static constexpr unsigned int IGDOFEHHIME_TypeDefinitionIndex = 55044;
+inline static constexpr unsigned int IGDOFEHHIME_TypeDefinitionIndex = 56220;
 
 	class IGDOFEHHIME
 	{

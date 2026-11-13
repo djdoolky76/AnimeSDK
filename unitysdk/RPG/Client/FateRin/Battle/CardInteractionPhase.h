@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int CardInteractionPhase_TypeDefinitionIndex = 80881;
+	inline static constexpr unsigned int CardInteractionPhase_TypeDefinitionIndex = 83661;
 
 	enum class CardInteractionPhase : ::System::Int32
 	{

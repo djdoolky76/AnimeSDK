@@ -8,13 +8,13 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 namespace RPG::GameCore { class DynamicValue; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP_CREATE_OFFSET UNITYSDK_OFFSET(0xCB3B6C0)
-#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP_CTOR_OFFSET UNITYSDK_OFFSET(0xCB3BF40)
-#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP__CREATE_G__LOADPRESETCHIMERAS_3_0_OFFSET UNITYSDK_OFFSET(0xCB3BDB0)
+#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP_CREATE_OFFSET UNITYSDK_OFFSET(0x1CE79730)
+#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE79FB0)
+#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP__CREATE_G__LOADPRESETCHIMERAS_3_0_OFFSET UNITYSDK_OFFSET(0x1CE79E20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelTools_ShowcaseBattleSetup_TypeDefinitionIndex = 63310;
+	inline static constexpr unsigned int ChimeraDuelTools_ShowcaseBattleSetup_TypeDefinitionIndex = 64748;
 
 	class ChimeraDuelTools_ShowcaseBattleSetup : public ::System::Object
 	{

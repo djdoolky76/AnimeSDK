@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JADIINBLALB_TypeDefinitionIndex = 31579;
+inline static constexpr unsigned int JADIINBLALB_TypeDefinitionIndex = 32492;
 
 	enum class JADIINBLALB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		LBBFEOIBHGK = 5116,
-		INODKICNKCI = 5142,
-		GJHBHLCAFPG = 5156,
-		INBLCJJGMKJ = 5134,
-		EHJLKMMHGFM = 5158,
-		IMJKPOEDFDH = 5125,
-		HAGCKNHKEOG = 5183,
-		FMGAHJHKACP = 5175,
-		HFCGJMALAFG = 5105,
-		HBHECCOIPBC = 5160,
-		LEFONMLBIGB = 5115,
+		GJHBHLCAFPG = 5118,
+		LBBFEOIBHGK = 5171,
+		EHJLKMMHGFM = 5159,
+		LEFONMLBIGB = 5170,
+		IMJKPOEDFDH = 5119,
+		INBLCJJGMKJ = 5174,
+		FMGAHJHKACP = 5187,
+		HFCGJMALAFG = 5131,
+		HAGCKNHKEOG = 5106,
+		INODKICNKCI = 5127,
+		HBHECCOIPBC = 5105,
 	};

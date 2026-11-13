@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeFloorUnlockRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEFLOORUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D839ED0)
-#define RPG_GAMECORE_MAZEFLOORUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D839DA0)
+#define RPG_GAMECORE_MAZEFLOORUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6E040)
+#define RPG_GAMECORE_MAZEFLOORUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB6DF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeFloorUnlockRow_TypeDefinitionIndex = 14064;
+	inline static constexpr unsigned int MazeFloorUnlockRow_TypeDefinitionIndex = 14221;
 
 	class MazeFloorUnlockRow : public ::System::Object
 	{

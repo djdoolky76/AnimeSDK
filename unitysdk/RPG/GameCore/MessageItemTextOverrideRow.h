@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MessageItemTextOverrideRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGEITEMTEXTOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84E6D0)
-#define RPG_GAMECORE_MESSAGEITEMTEXTOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D84E530)
+#define RPG_GAMECORE_MESSAGEITEMTEXTOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E0EF0)
+#define RPG_GAMECORE_MESSAGEITEMTEXTOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6E0D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageItemTextOverrideRow_TypeDefinitionIndex = 14485;
+	inline static constexpr unsigned int MessageItemTextOverrideRow_TypeDefinitionIndex = 14640;
 
 	class MessageItemTextOverrideRow : public ::System::Object
 	{

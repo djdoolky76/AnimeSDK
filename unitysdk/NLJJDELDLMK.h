@@ -6,10 +6,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define NLJJDELDLMK_BINIHENIJKE_OFFSET UNITYSDK_OFFSET(0x1C545680)
-#define NLJJDELDLMK_GMKKLAKHJBD_OFFSET UNITYSDK_OFFSET(0x1C5456E0)
+#define NLJJDELDLMK_BINIHENIJKE_OFFSET UNITYSDK_OFFSET(0x207BD140)
+#define NLJJDELDLMK_GMKKLAKHJBD_OFFSET UNITYSDK_OFFSET(0x207BD1A0)
 
-inline static constexpr unsigned int NLJJDELDLMK_TypeDefinitionIndex = 41651;
+inline static constexpr unsigned int NLJJDELDLMK_TypeDefinitionIndex = 42626;
 
 	class NLJJDELDLMK : public ::System::Object
 	{

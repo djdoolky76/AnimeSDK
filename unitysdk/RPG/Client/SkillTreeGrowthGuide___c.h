@@ -5,25 +5,25 @@ class NHPAANINLPK;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_SKILLTREEGROWTHGUIDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0DD290)
-#define RPG_CLIENT_SKILLTREEGROWTHGUIDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0DD2D0)
-#define RPG_CLIENT_SKILLTREEGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xE0DD2E0)
+#define RPG_CLIENT_SKILLTREEGROWTHGUIDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B41D810)
+#define RPG_CLIENT_SKILLTREEGROWTHGUIDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B41D850)
+#define RPG_CLIENT_SKILLTREEGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B41D860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillTreeGrowthGuide___c_TypeDefinitionIndex = 65561;
+	inline static constexpr unsigned int SkillTreeGrowthGuide___c_TypeDefinitionIndex = 67477;
 
 	class SkillTreeGrowthGuide___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::NHPAANINLPK*>** StaticGet___9__2_0()
 		{
-			return (::System::Predicate_1<::NHPAANINLPK*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F540);
+			return (::System::Predicate_1<::NHPAANINLPK*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x73920);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F548);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x73928);
 		}
 
 		static ::System::Void _cctor()

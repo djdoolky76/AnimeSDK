@@ -6,23 +6,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DMEFINKOHGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xFEB7040)
-#define DMEFINKOHGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB7080)
-#define DMEFINKOHGF___C__FINDBOTTOMPOINT_B__3_0_OFFSET UNITYSDK_OFFSET(0xFEB7090)
+#define DMEFINKOHGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18694870)
+#define DMEFINKOHGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x186948B0)
+#define DMEFINKOHGF___C__FINDBOTTOMPOINT_B__3_0_OFFSET UNITYSDK_OFFSET(0x186948C0)
 
-inline static constexpr unsigned int DMEFINKOHGF___c_TypeDefinitionIndex = 70361;
+inline static constexpr unsigned int DMEFINKOHGF___c_TypeDefinitionIndex = 72327;
 
 	class DMEFINKOHGF___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3>, ::System::Single>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3>, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B4A0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3>, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55CF0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B4A8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55CF8);
 		}
 
 		static ::System::Void _cctor()

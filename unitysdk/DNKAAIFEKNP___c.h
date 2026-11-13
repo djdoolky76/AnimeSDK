@@ -1,116 +1,116 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MongoObjectId.h"
-#include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/NativeString.h"
 class ELFJOFJPMJO;
 class MIHAAHEDBDH;
+namespace RPG::AvatarSystem { class AvatarPath; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DNKAAIFEKNP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FCCDF0)
-#define DNKAAIFEKNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x11FCCE30)
-#define DNKAAIFEKNP___C__REPORTBLINDBOXTRADEPETFILTER_B__155_0_OFFSET UNITYSDK_OFFSET(0x11FCD040)
-#define DNKAAIFEKNP___C__REPORTFATERINAPPLYRECOMMENDDECK_B__326_0_OFFSET UNITYSDK_OFFSET(0x11FCD2E0)
-#define DNKAAIFEKNP___C__REPORTFATERINAPPLYRECOMMENDDECK_B__326_1_OFFSET UNITYSDK_OFFSET(0x11FCD330)
-#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_0_OFFSET UNITYSDK_OFFSET(0x11FCD0E0)
-#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_1_OFFSET UNITYSDK_OFFSET(0x11FCD130)
-#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_2_OFFSET UNITYSDK_OFFSET(0x11FCD180)
-#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_3_OFFSET UNITYSDK_OFFSET(0x11FCD1F0)
-#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_4_OFFSET UNITYSDK_OFFSET(0x11FCD240)
-#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_5_OFFSET UNITYSDK_OFFSET(0x11FCD290)
-#define DNKAAIFEKNP___C__REPORTJUKEBOXWHITENOISEOPERATE_B__150_0_OFFSET UNITYSDK_OFFSET(0x11FCCFA0)
-#define DNKAAIFEKNP___C__REPORTROGUETOURNBUILDREFFILTER_B__9_0_OFFSET UNITYSDK_OFFSET(0x11FCCE40)
-#define DNKAAIFEKNP___C__REPORTROGUETOURNBUILDREFFILTER_B__9_1_OFFSET UNITYSDK_OFFSET(0x11FCCEA0)
-#define DNKAAIFEKNP___C___GENERATEPIXAIREQUIPMENTINFOCONTENT_B__323_0_OFFSET UNITYSDK_OFFSET(0x11FCD090)
-#define DNKAAIFEKNP___C___GENERATEROGUETOURNBUILDREFTEAMMEMBERJSON_B__15_0_OFFSET UNITYSDK_OFFSET(0x11FCCF00)
-#define DNKAAIFEKNP___C___GENERATESTRINGLIST_B__129_0_OFFSET UNITYSDK_OFFSET(0x11FCCF50)
+#define DNKAAIFEKNP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1918FDA0)
+#define DNKAAIFEKNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1918FDE0)
+#define DNKAAIFEKNP___C__REPORTBLINDBOXTRADEPETFILTER_B__156_0_OFFSET UNITYSDK_OFFSET(0x19190000)
+#define DNKAAIFEKNP___C__REPORTFATERINAPPLYRECOMMENDDECK_B__327_0_OFFSET UNITYSDK_OFFSET(0x191902A0)
+#define DNKAAIFEKNP___C__REPORTFATERINAPPLYRECOMMENDDECK_B__327_1_OFFSET UNITYSDK_OFFSET(0x191902F0)
+#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_0_OFFSET UNITYSDK_OFFSET(0x191900A0)
+#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_1_OFFSET UNITYSDK_OFFSET(0x191900F0)
+#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_2_OFFSET UNITYSDK_OFFSET(0x19190140)
+#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_3_OFFSET UNITYSDK_OFFSET(0x191901B0)
+#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_4_OFFSET UNITYSDK_OFFSET(0x19190200)
+#define DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_5_OFFSET UNITYSDK_OFFSET(0x19190250)
+#define DNKAAIFEKNP___C__REPORTJUKEBOXWHITENOISEOPERATE_B__151_0_OFFSET UNITYSDK_OFFSET(0x1918FF60)
+#define DNKAAIFEKNP___C__REPORTROGUETOURNBUILDREFFILTER_B__9_0_OFFSET UNITYSDK_OFFSET(0x1918FDF0)
+#define DNKAAIFEKNP___C__REPORTROGUETOURNBUILDREFFILTER_B__9_1_OFFSET UNITYSDK_OFFSET(0x1918FE50)
+#define DNKAAIFEKNP___C___GENERATEPIXAIREQUIPMENTINFOCONTENT_B__324_0_OFFSET UNITYSDK_OFFSET(0x19190050)
+#define DNKAAIFEKNP___C___GENERATEROGUETOURNBUILDREFTEAMMEMBERJSON_B__15_0_OFFSET UNITYSDK_OFFSET(0x1918FEB0)
+#define DNKAAIFEKNP___C___GENERATESTRINGLIST_B__129_0_OFFSET UNITYSDK_OFFSET(0x1918FF10)
 
-inline static constexpr unsigned int DNKAAIFEKNP___c_TypeDefinitionIndex = 59992;
+inline static constexpr unsigned int DNKAAIFEKNP___c_TypeDefinitionIndex = 61276;
 
 	class DNKAAIFEKNP___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::MongoObjectId, ::UnityEngine::NativeString>** StaticGet___9__9_0()
+		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__325_4()
 		{
-			return (::System::Func_2<::RPG::Client::MongoObjectId, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED80);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__326_1()
-		{
-			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED88);
+			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A610);
 		}
 
 		static ::System::Func_2<::System::String*, ::UnityEngine::NativeString>** StaticGet___9__129_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED90);
+			return (::System::Func_2<::System::String*, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A618);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::MongoObjectId, ::UnityEngine::NativeString>** StaticGet___9__9_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED98);
+			return (::System::Func_2<::RPG::Client::MongoObjectId, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A620);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__325_3()
+		{
+			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A628);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__327_1()
+		{
+			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A630);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__156_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A638);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__325_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A640);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__327_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A648);
 		}
 
 		static ::System::Func_2<::System::Int32, ::UnityEngine::NativeString>** StaticGet___9__9_1()
 		{
-			return (::System::Func_2<::System::Int32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDA0);
+			return (::System::Func_2<::System::Int32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A650);
 		}
 
-		static ::System::Func_2<::MIHAAHEDBDH*, ::UnityEngine::NativeString>** StaticGet___9__150_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::MIHAAHEDBDH*, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDA8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A658);
 		}
 
-		static ::System::Func_2<::ELFJOFJPMJO*, ::UnityEngine::NativeString>** StaticGet___9__324_2()
+		static ::System::Func_2<::MIHAAHEDBDH*, ::UnityEngine::NativeString>** StaticGet___9__151_0()
 		{
-			return (::System::Func_2<::ELFJOFJPMJO*, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDB0);
+			return (::System::Func_2<::MIHAAHEDBDH*, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A660);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__324_0()
+		static ::System::Func_2<::RPG::AvatarSystem::AvatarPath*, ::UnityEngine::NativeString>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDB8);
+			return (::System::Func_2<::RPG::AvatarSystem::AvatarPath*, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A668);
 		}
 
-		static ::System::Func_2<::RPG::GameCore::AvatarBaseType, ::UnityEngine::NativeString>** StaticGet___9__15_0()
+		static ::System::Func_2<::System::Int32, ::UnityEngine::NativeString>** StaticGet___9__324_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::AvatarBaseType, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDC0);
+			return (::System::Func_2<::System::Int32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A670);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__326_0()
+		static ::System::Func_2<::ELFJOFJPMJO*, ::UnityEngine::NativeString>** StaticGet___9__325_2()
 		{
-			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDC8);
+			return (::System::Func_2<::ELFJOFJPMJO*, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A678);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__324_5()
+		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__325_5()
 		{
-			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDD0);
+			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A680);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__155_0()
+		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__325_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDD8);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__324_4()
-		{
-			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDE0);
-		}
-
-		static ::System::Func_2<::System::Int32, ::UnityEngine::NativeString>** StaticGet___9__323_0()
-		{
-			return (::System::Func_2<::System::Int32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDE8);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__324_3()
-		{
-			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDF0);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>** StaticGet___9__324_1()
-		{
-			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EDF8);
+			return (::System::Func_2<::System::UInt32, ::UnityEngine::NativeString>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A688);
 		}
 
 		static ::System::Void _cctor()
@@ -133,9 +133,9 @@ inline static constexpr unsigned int DNKAAIFEKNP___c_TypeDefinitionIndex = 59992
 			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTROGUETOURNBUILDREFFILTER_B__9_1_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString __GenerateRogueTournBuildRefTeamMemberJson_b__15_0(::RPG::GameCore::AvatarBaseType a1)
+		::UnityEngine::NativeString __GenerateRogueTournBuildRefTeamMemberJson_b__15_0(::RPG::AvatarSystem::AvatarPath* a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C___GENERATEROGUETOURNBUILDREFTEAMMEMBERJSON_B__15_0_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::RPG::AvatarSystem::AvatarPath*))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C___GENERATEROGUETOURNBUILDREFTEAMMEMBERJSON_B__15_0_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::NativeString __GenerateStringList_b__129_0(::System::String* a1)
@@ -143,59 +143,59 @@ inline static constexpr unsigned int DNKAAIFEKNP___c_TypeDefinitionIndex = 59992
 			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C___GENERATESTRINGLIST_B__129_0_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportJukeboxWhiteNoiseOperate_b__150_0(::MIHAAHEDBDH* a1)
+		::UnityEngine::NativeString _ReportJukeboxWhiteNoiseOperate_b__151_0(::MIHAAHEDBDH* a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::MIHAAHEDBDH*))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTJUKEBOXWHITENOISEOPERATE_B__150_0_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::MIHAAHEDBDH*))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTJUKEBOXWHITENOISEOPERATE_B__151_0_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportBlindBoxTradePetFilter_b__155_0(::System::UInt32 a1)
+		::UnityEngine::NativeString _ReportBlindBoxTradePetFilter_b__156_0(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTBLINDBOXTRADEPETFILTER_B__155_0_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTBLINDBOXTRADEPETFILTER_B__156_0_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString __GeneratePixAirEquipmentInfoContent_b__323_0(::System::Int32 a1)
+		::UnityEngine::NativeString __GeneratePixAirEquipmentInfoContent_b__324_0(::System::Int32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C___GENERATEPIXAIREQUIPMENTINFOCONTENT_B__323_0_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C___GENERATEPIXAIREQUIPMENTINFOCONTENT_B__324_0_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__324_0(::System::UInt32 a1)
+		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__325_0(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_0_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_0_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__324_1(::System::UInt32 a1)
+		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__325_1(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_1_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_1_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__324_2(::ELFJOFJPMJO* a1)
+		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__325_2(::ELFJOFJPMJO* a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::ELFJOFJPMJO*))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_2_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::ELFJOFJPMJO*))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_2_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__324_3(::System::UInt32 a1)
+		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__325_3(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_3_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_3_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__324_4(::System::UInt32 a1)
+		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__325_4(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_4_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_4_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__324_5(::System::UInt32 a1)
+		::UnityEngine::NativeString _ReportFateRinTurnStatistics_b__325_5(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__324_5_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINTURNSTATISTICS_B__325_5_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportFateRinApplyRecommendDeck_b__326_0(::System::UInt32 a1)
+		::UnityEngine::NativeString _ReportFateRinApplyRecommendDeck_b__327_0(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINAPPLYRECOMMENDDECK_B__326_0_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINAPPLYRECOMMENDDECK_B__327_0_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NativeString _ReportFateRinApplyRecommendDeck_b__326_1(::System::UInt32 a1)
+		::UnityEngine::NativeString _ReportFateRinApplyRecommendDeck_b__327_1(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINAPPLYRECOMMENDDECK_B__326_1_OFFSET))(this, a1);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP___C__REPORTFATERINAPPLYRECOMMENDDECK_B__327_1_OFFSET))(this, a1);
 		}
 
 	};

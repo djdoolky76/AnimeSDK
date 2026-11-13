@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightSeasonRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD170160)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS26_0__GETSEASONROLE_B__0_OFFSET UNITYSDK_OFFSET(0xD173750)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD544B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS26_0__GETSEASONROLE_B__0_OFFSET UNITYSDK_OFFSET(0x1CD57060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass26_0_TypeDefinitionIndex = 64803;
+	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass26_0_TypeDefinitionIndex = 66347;
 
 	class GridFightGameRefTeam___c__DisplayClass26_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DecalPuzzleEnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NEDMDLKJLEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB53C40)
-#define NEDMDLKJLEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB53C70)
+#define NEDMDLKJLEP_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD2DD0)
+#define NEDMDLKJLEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FD2E00)
 
-inline static constexpr unsigned int NEDMDLKJLEP_TypeDefinitionIndex = 52730;
+inline static constexpr unsigned int NEDMDLKJLEP_TypeDefinitionIndex = 53874;
 
 	class NEDMDLKJLEP
 	{

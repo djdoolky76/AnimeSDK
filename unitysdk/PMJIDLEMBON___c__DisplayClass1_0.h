@@ -5,10 +5,10 @@ class PMJIDLEMBON;
 namespace RPG::Client { class EquipmentItemData; }
 namespace System { class String; }
 
-#define PMJIDLEMBON___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC31C1C0)
-#define PMJIDLEMBON___C__DISPLAYCLASS1_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0xC31C1E0)
+#define PMJIDLEMBON___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x188A8D80)
+#define PMJIDLEMBON___C__DISPLAYCLASS1_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x188A8DA0)
 
-inline static constexpr unsigned int PMJIDLEMBON___c__DisplayClass1_0_TypeDefinitionIndex = 65571;
+inline static constexpr unsigned int PMJIDLEMBON___c__DisplayClass1_0_TypeDefinitionIndex = 67487;
 
 	class PMJIDLEMBON___c__DisplayClass1_0 : public ::System::Object
 	{

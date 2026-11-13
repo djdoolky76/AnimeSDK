@@ -4,9 +4,9 @@
 class PMDPEENJIHC;
 namespace System { class String; }
 
-#define BJMJPNGEAMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A4630)
+#define BJMJPNGEAMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A63DB70)
 
-inline static constexpr unsigned int BJMJPNGEAMA_TypeDefinitionIndex = 64789;
+inline static constexpr unsigned int BJMJPNGEAMA_TypeDefinitionIndex = 66333;
 
 	class BJMJPNGEAMA : public ::System::Object
 	{

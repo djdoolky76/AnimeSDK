@@ -6,37 +6,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F5800)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F5830)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_0_OFFSET UNITYSDK_OFFSET(0x1F0F5840)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_1_OFFSET UNITYSDK_OFFSET(0x1F0F5880)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_2_OFFSET UNITYSDK_OFFSET(0x1F0F5940)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F168D70)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F168DA0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_0_OFFSET UNITYSDK_OFFSET(0x1F168DB0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_1_OFFSET UNITYSDK_OFFSET(0x1F168DF0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_2_OFFSET UNITYSDK_OFFSET(0x1F168EB0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int PlayerLoopHelper___c_TypeDefinitionIndex = 38209;
+	inline static constexpr unsigned int PlayerLoopHelper___c_TypeDefinitionIndex = 39138;
 
 	class PlayerLoopHelper___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>** StaticGet___9__21_2()
-		{
-			return (::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x372B0);
-		}
-
 		static ::System::Func_2<::UnityEngine::LowLevel::PlayerLoopSystem, ::System::Boolean>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::UnityEngine::LowLevel::PlayerLoopSystem, ::System::Boolean>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x372B8);
+			return (::System::Func_2<::UnityEngine::LowLevel::PlayerLoopSystem, ::System::Boolean>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x33AD0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x372C0);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x33AD8);
+		}
+
+		static ::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>** StaticGet___9__21_2()
+		{
+			return (::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x33AE0);
 		}
 
 		static ::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>** StaticGet___9__21_1()
 		{
-			return (::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x372C8);
+			return (::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x33AE8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,16 +4,16 @@
 class GAHPNAEGACM;
 class INJHLPEBAJL;
 
-#define INJHLPEBAJL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164E2910)
-#define INJHLPEBAJL___C__DISPLAYCLASS11_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x164E3740)
+#define INJHLPEBAJL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F0940)
+#define INJHLPEBAJL___C__DISPLAYCLASS11_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1A5F17D0)
 
-inline static constexpr unsigned int INJHLPEBAJL___c__DisplayClass11_0_TypeDefinitionIndex = 71269;
+inline static constexpr unsigned int INJHLPEBAJL___c__DisplayClass11_0_TypeDefinitionIndex = 73246;
 
 	class INJHLPEBAJL___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::GAHPNAEGACM* detail; // 0x10
-		::INJHLPEBAJL* __4__this; // 0x18
+		::INJHLPEBAJL* __4__this; // 0x10
+		::GAHPNAEGACM* detail; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INJHLPEBAJL___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);

@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GCICBJENBEH_CTOR_OFFSET UNITYSDK_OFFSET(0x15970440)
+#define GCICBJENBEH_CTOR_OFFSET UNITYSDK_OFFSET(0x19EB5E50)
 
-inline static constexpr unsigned int GCICBJENBEH_TypeDefinitionIndex = 47155;
+inline static constexpr unsigned int GCICBJENBEH_TypeDefinitionIndex = 48183;
 
 	class GCICBJENBEH : public ::System::Object
 	{

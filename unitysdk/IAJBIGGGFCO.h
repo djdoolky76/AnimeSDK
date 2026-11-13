@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define IAJBIGGGFCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD7ED0)
+#define IAJBIGGGFCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D956010)
 
-inline static constexpr unsigned int IAJBIGGGFCO_TypeDefinitionIndex = 43303;
+inline static constexpr unsigned int IAJBIGGGFCO_TypeDefinitionIndex = 44284;
 
 	class IAJBIGGGFCO : public ::System::Object
 	{
 	public:
-		::UnityEngine::Bounds IJNBNFHBENO; // 0x10
-		::UnityEngine::Bounds EHCKLHOKFEA; // 0x28
+		::UnityEngine::Bounds EHCKLHOKFEA; // 0x10
+		::UnityEngine::Bounds IJNBNFHBENO; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJBIGGGFCO_CTOR_OFFSET))(this);

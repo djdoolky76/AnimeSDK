@@ -8,23 +8,23 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OFBJANOJGCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE34840)
-#define OFBJANOJGCM_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xBE34C90)
-#define OFBJANOJGCM_JIJEOJIJEBA_OFFSET UNITYSDK_OFFSET(0xBE34EF0)
+#define OFBJANOJGCM_CTOR_OFFSET UNITYSDK_OFFSET(0x17663B50)
+#define OFBJANOJGCM_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x17663FA0)
+#define OFBJANOJGCM_JIJEOJIJEBA_OFFSET UNITYSDK_OFFSET(0x17664200)
 
-inline static constexpr unsigned int OFBJANOJGCM_TypeDefinitionIndex = 82270;
+inline static constexpr unsigned int OFBJANOJGCM_TypeDefinitionIndex = 85143;
 
 	class OFBJANOJGCM : public ::KAANKGHDHCB
 	{
 	public:
-		::System::Collections::Generic::List_1<::KAANKGHDHCB*>* HIMBONECCJK; // 0x20
+		::System::String* GKHIHPGCLIK; // 0x20
 		::System::Type* EPGPJMHNBON; // 0x28
-		::System::String* GKHIHPGCLIK; // 0x30
+		::System::Collections::Generic::List_1<::KAANKGHDHCB*>* HIMBONECCJK; // 0x30
 		::System::String* JIBMHCAGPNC; // 0x38
 		::RPG::Client::CachedAssetLogicType HEOJLHCIINP; // 0x40
 		static ::System::Int32* StaticGet_GMDBHJKEAEI()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OFBJANOJGCM")->GetStaticField(0x14600);
+			return (::System::Int32*)UnitySDK::FromName("", "OFBJANOJGCM")->GetStaticField(0x15450);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)

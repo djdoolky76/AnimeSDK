@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMonsterHUDType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OEOGLHPAPEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE30310)
-#define OEOGLHPAPEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE30340)
+#define OEOGLHPAPEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1765E8F0)
+#define OEOGLHPAPEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1765E920)
 
-inline static constexpr unsigned int OEOGLHPAPEM_TypeDefinitionIndex = 55543;
+inline static constexpr unsigned int OEOGLHPAPEM_TypeDefinitionIndex = 56735;
 
 	class OEOGLHPAPEM
 	{

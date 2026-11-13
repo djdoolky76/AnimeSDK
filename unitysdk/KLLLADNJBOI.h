@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/NPCBodySize.h"
 namespace RPG::Client { class CharacterRootMotionBakedData; }
 
-#define KLLLADNJBOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB528390)
-#define KLLLADNJBOI_KFNNNEBIFLL_OFFSET UNITYSDK_OFFSET(0xB528220)
+#define KLLLADNJBOI_CTOR_OFFSET UNITYSDK_OFFSET(0x17B857E0)
+#define KLLLADNJBOI_KFNNNEBIFLL_OFFSET UNITYSDK_OFFSET(0x17B85670)
 
-inline static constexpr unsigned int KLLLADNJBOI_TypeDefinitionIndex = 53623;
+inline static constexpr unsigned int KLLLADNJBOI_TypeDefinitionIndex = 54787;
 
 	class KLLLADNJBOI : public ::LPCLNJFNJCL
 	{

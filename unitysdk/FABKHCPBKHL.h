@@ -7,18 +7,18 @@ class HILBLEPGKKJ;
 namespace RPG::GameCore { class MarbleTaskConfig; }
 namespace System { class String; }
 
-#define FABKHCPBKHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD96560)
-#define FABKHCPBKHL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD96570)
-#define FABKHCPBKHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD96510)
+#define FABKHCPBKHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED27070)
+#define FABKHCPBKHL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED27080)
+#define FABKHCPBKHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED27020)
 
-inline static constexpr unsigned int FABKHCPBKHL_TypeDefinitionIndex = 16871;
+inline static constexpr unsigned int FABKHCPBKHL_TypeDefinitionIndex = 17038;
 
 	class FABKHCPBKHL : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:
 		::Il2CppArray<::HILBLEPGKKJ*>* HFPHJBGAJOJ; // 0x10
-		::Il2CppArray<::RPG::GameCore::MarbleTaskConfig*>* DLHHFOLGFLP; // 0x18
-		::System::String* KICLGMCEMNH; // 0x20
+		::System::String* KICLGMCEMNH; // 0x18
+		::Il2CppArray<::RPG::GameCore::MarbleTaskConfig*>* DLHHFOLGFLP; // 0x20
 		::System::Boolean HNMFDELHIEK; // 0x28
 		::System::Byte _padding0[0x3];
 		::System::Int32 KHFBFFHFOCA; // 0x2C

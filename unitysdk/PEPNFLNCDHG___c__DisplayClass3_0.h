@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class PEPNFLNCDHG;
 
-#define PEPNFLNCDHG___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F2880)
-#define PEPNFLNCDHG___C__DISPLAYCLASS3_0__SET2DATLASCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xC1F8BB0)
+#define PEPNFLNCDHG___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16D6DE30)
+#define PEPNFLNCDHG___C__DISPLAYCLASS3_0__SET2DATLASCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x16D6DE40)
 
-inline static constexpr unsigned int PEPNFLNCDHG___c__DisplayClass3_0_TypeDefinitionIndex = 57247;
+inline static constexpr unsigned int PEPNFLNCDHG___c__DisplayClass3_0_TypeDefinitionIndex = 58474;
 
 	class PEPNFLNCDHG___c__DisplayClass3_0 : public ::System::Object
 	{

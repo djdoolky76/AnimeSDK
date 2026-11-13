@@ -5,11 +5,11 @@ namespace RPG::GameCore { class GroupInitMemberEntityAnimParameter; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NJINMHEDJEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0B300)
-#define NJINMHEDJEJ_MFPDHJLPHFA_OFFSET UNITYSDK_OFFSET(0xBC0B720)
-#define NJINMHEDJEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC0B330)
+#define NJINMHEDJEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A78D840)
+#define NJINMHEDJEJ_MFPDHJLPHFA_OFFSET UNITYSDK_OFFSET(0x1A78DC60)
+#define NJINMHEDJEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A78D870)
 
-inline static constexpr unsigned int NJINMHEDJEJ_TypeDefinitionIndex = 52917;
+inline static constexpr unsigned int NJINMHEDJEJ_TypeDefinitionIndex = 54073;
 
 	class NJINMHEDJEJ
 	{

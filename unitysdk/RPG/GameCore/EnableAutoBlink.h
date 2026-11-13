@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EnableAutoBlink; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ENABLEAUTOBLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6105A0)
-#define RPG_GAMECORE_ENABLEAUTOBLINK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6105B0)
-#define RPG_GAMECORE_ENABLEAUTOBLINK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D610570)
+#define RPG_GAMECORE_ENABLEAUTOBLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E6FE0)
+#define RPG_GAMECORE_ENABLEAUTOBLINK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0E6FF0)
+#define RPG_GAMECORE_ENABLEAUTOBLINK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0E6FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableAutoBlink_TypeDefinitionIndex = 22411;
+	inline static constexpr unsigned int EnableAutoBlink_TypeDefinitionIndex = 22820;
 
 	class EnableAutoBlink : public ::RPG::GameCore::TaskConfig
 	{

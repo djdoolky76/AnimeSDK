@@ -4,11 +4,11 @@ namespace RPG::GameCore { class OpenFarmRelic; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHEOJPAOOEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1576CD80)
-#define FHEOJPAOOEP_JFMHMKKOBIC_OFFSET UNITYSDK_OFFSET(0x1576D010)
-#define FHEOJPAOOEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1576CE90)
+#define FHEOJPAOOEP_CTOR_OFFSET UNITYSDK_OFFSET(0x18AA2670)
+#define FHEOJPAOOEP_JFMHMKKOBIC_OFFSET UNITYSDK_OFFSET(0x18AA2900)
+#define FHEOJPAOOEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AA2780)
 
-inline static constexpr unsigned int FHEOJPAOOEP_TypeDefinitionIndex = 58241;
+inline static constexpr unsigned int FHEOJPAOOEP_TypeDefinitionIndex = 59497;
 
 	class FHEOJPAOOEP
 	{

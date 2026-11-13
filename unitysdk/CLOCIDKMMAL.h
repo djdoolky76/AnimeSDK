@@ -5,11 +5,11 @@ class ICCLDNDNHPD;
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace System { class Action; }
 
-#define CLOCIDKMMAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA173C0)
-#define CLOCIDKMMAL_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDA173D0)
-#define CLOCIDKMMAL_TICK_OFFSET UNITYSDK_OFFSET(0xDA17480)
+#define CLOCIDKMMAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B184770)
+#define CLOCIDKMMAL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B184780)
+#define CLOCIDKMMAL_TICK_OFFSET UNITYSDK_OFFSET(0x1B184830)
 
-inline static constexpr unsigned int CLOCIDKMMAL_TypeDefinitionIndex = 78348;
+inline static constexpr unsigned int CLOCIDKMMAL_TypeDefinitionIndex = 81083;
 
 	class CLOCIDKMMAL : public ::System::Object
 	{

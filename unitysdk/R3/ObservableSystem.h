@@ -6,30 +6,30 @@ namespace System { class Exception; }
 namespace System { class TimeProvider; }
 namespace System { template <typename T> class Action_1; }
 
-#define R3_OBSERVABLESYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3F56C0)
-#define R3_OBSERVABLESYSTEM_DEFAULTUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1C3F55D0)
-#define R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1C3F5570)
+#define R3_OBSERVABLESYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x2091BD80)
+#define R3_OBSERVABLESYSTEM_DEFAULTUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x2091BC90)
+#define R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x2091BC30)
 
 namespace R3
 {
-	inline static constexpr unsigned int ObservableSystem_TypeDefinitionIndex = 35924;
+	inline static constexpr unsigned int ObservableSystem_TypeDefinitionIndex = 36852;
 
 	class ObservableSystem : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Exception*>** StaticGet_unhandledException()
-		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA40);
-		}
-
 		static ::System::TimeProvider** StaticGet_defaultTimeProvider()
 		{
-			return (::System::TimeProvider**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA48);
+			return (::System::TimeProvider**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0x9F0);
 		}
 
 		static ::R3::FrameProvider** StaticGet_defaultFrameProvider()
 		{
-			return (::R3::FrameProvider**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA50);
+			return (::R3::FrameProvider**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0x9F8);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet_unhandledException()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA00);
 		}
 
 		static ::System::Void _cctor()

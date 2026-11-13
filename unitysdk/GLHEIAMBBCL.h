@@ -6,10 +6,10 @@ class HFLKAOHICMK;
 class KDKHADGLIPJ;
 namespace RPG::GameCore { class ChimeraAbility; }
 
-#define GLHEIAMBBCL_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x15AA83B0)
-#define GLHEIAMBBCL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15AA7EA0)
+#define GLHEIAMBBCL_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x16C60500)
+#define GLHEIAMBBCL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16C5FFF0)
 
-inline static constexpr unsigned int GLHEIAMBBCL_TypeDefinitionIndex = 76622;
+inline static constexpr unsigned int GLHEIAMBBCL_TypeDefinitionIndex = 78953;
 
 	class GLHEIAMBBCL : public ::System::Object
 	{

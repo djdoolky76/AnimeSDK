@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ConsentBannerParameters_TypeDefinitionIndex = 46224;
+	inline static constexpr unsigned int MHYSDKC_ConsentBannerParameters_TypeDefinitionIndex = 47253;
 
 	class MHYSDKC_ConsentBannerParameters : public ::System::Object
 	{

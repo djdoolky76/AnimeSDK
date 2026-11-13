@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DestroyBattleCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AKILOKHKJBM_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCF1B0)
-#define AKILOKHKJBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CCF1E0)
+#define AKILOKHKJBM_CTOR_OFFSET UNITYSDK_OFFSET(0x19D5D0A0)
+#define AKILOKHKJBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D5D0D0)
 
-inline static constexpr unsigned int AKILOKHKJBM_TypeDefinitionIndex = 55000;
+inline static constexpr unsigned int AKILOKHKJBM_TypeDefinitionIndex = 56174;
 
 	class AKILOKHKJBM
 	{

@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CheckPredicateAxis; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_CHECKPREDICATEAXIS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54E920)
-#define RPG_GAMECORE_CHECKPREDICATEAXIS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D54E930)
-#define RPG_GAMECORE_CHECKPREDICATEAXIS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D54E8F0)
+#define RPG_GAMECORE_CHECKPREDICATEAXIS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F34FE30)
+#define RPG_GAMECORE_CHECKPREDICATEAXIS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F34FE40)
+#define RPG_GAMECORE_CHECKPREDICATEAXIS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F34FE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckPredicateAxis_TypeDefinitionIndex = 15512;
+	inline static constexpr unsigned int CheckPredicateAxis_TypeDefinitionIndex = 15670;
 
 	class CheckPredicateAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{

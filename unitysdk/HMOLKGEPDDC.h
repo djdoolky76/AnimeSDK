@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HMOLKGEPDDC_TypeDefinitionIndex = 79087;
+inline static constexpr unsigned int HMOLKGEPDDC_TypeDefinitionIndex = 81863;
 
 	class HMOLKGEPDDC
 	{

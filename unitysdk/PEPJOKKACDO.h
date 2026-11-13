@@ -5,16 +5,16 @@ class EFHJJIGLPDL;
 namespace RPG::GameCore { class ByInVision; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PEPJOKKACDO_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F13F0)
-#define PEPJOKKACDO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC1F1550)
+#define PEPJOKKACDO_CTOR_OFFSET UNITYSDK_OFFSET(0x145474C0)
+#define PEPJOKKACDO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14547620)
 
-inline static constexpr unsigned int PEPJOKKACDO_TypeDefinitionIndex = 54477;
+inline static constexpr unsigned int PEPJOKKACDO_TypeDefinitionIndex = 55641;
 
 	class PEPJOKKACDO
 	{
 	public:
-		::DEEGAJPPPBG* MKDIGEHLFBH; // 0x28
-		::EFHJJIGLPDL* AKEOLMPCBHA; // 0x30
+		::EFHJJIGLPDL* AKEOLMPCBHA; // 0x28
+		::DEEGAJPPPBG* MKDIGEHLFBH; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByInVision* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ByInVision*))((::PBYTE)hIl2Cpp + PEPJOKKACDO_CTOR_OFFSET))(this, a1, a2);

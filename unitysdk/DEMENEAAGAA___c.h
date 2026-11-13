@@ -4,18 +4,18 @@
 class DEMENEAAGAA;
 namespace System { class Object; }
 
-#define DEMENEAAGAA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E169F70)
-#define DEMENEAAGAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E169FB0)
-#define DEMENEAAGAA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E169FC0)
+#define DEMENEAAGAA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFAA440)
+#define DEMENEAAGAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFAA480)
+#define DEMENEAAGAA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FFAA490)
 
-inline static constexpr unsigned int DEMENEAAGAA___c_TypeDefinitionIndex = 32835;
+inline static constexpr unsigned int DEMENEAAGAA___c_TypeDefinitionIndex = 33750;
 
 	class DEMENEAAGAA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C960);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27900);
 		}
 
 		static ::System::Void _cctor()

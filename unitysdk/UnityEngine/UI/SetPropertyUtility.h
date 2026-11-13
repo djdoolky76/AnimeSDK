@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Color.h"
 namespace UnityEngine::UI { class CustomUIVectot4EqualityComparer; }
 
-#define UNITYENGINE_UI_SETPROPERTYUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F51EBB0)
-#define UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1F4E24A0)
+#define UNITYENGINE_UI_SETPROPERTYUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x18595190)
+#define UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x18558860)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 6842;
+	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 6853;
 
 	class SetPropertyUtility : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::CustomUIVectot4EqualityComparer** StaticGet_vectot4EqualityComparer()
 		{
-			return (::UnityEngine::UI::CustomUIVectot4EqualityComparer**)UnitySDK::FromName("UnityEngine.UI", "SetPropertyUtility")->GetStaticField(0x41960);
+			return (::UnityEngine::UI::CustomUIVectot4EqualityComparer**)UnitySDK::FromName("UnityEngine.UI", "SetPropertyUtility")->GetStaticField(0x30570);
 		}
 
 		static ::System::Void _cctor()

@@ -6,28 +6,29 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EquipmentPromotionRow; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_EQUIPMENTPROMOTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D652250)
-#define RPG_GAMECORE_EQUIPMENTPROMOTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D651870)
+#define RPG_GAMECORE_EQUIPMENTPROMOTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F7650)
+#define RPG_GAMECORE_EQUIPMENTPROMOTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0F6C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentPromotionRow_TypeDefinitionIndex = 13238;
+	inline static constexpr unsigned int EquipmentPromotionRow_TypeDefinitionIndex = 13312;
 
 	class EquipmentPromotionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* PromotionCostList; // 0x10
-		::System::UInt32 WorldLevelRequire; // 0x18
-		::System::UInt32 Promotion; // 0x1C
-		::RPG::GameCore::FixPoint BaseHP; // 0x20
-		::System::UInt32 MaxLevel; // 0x28
-		::System::UInt32 PlayerLevelRequire; // 0x2C
+		::RPG::GameCore::FixPoint BaseHPAdd; // 0x18
+		::System::UInt32 MaxLevel; // 0x20
+		::System::UInt32 Promotion; // 0x24
+		::RPG::GameCore::FixPoint BaseHP; // 0x28
 		::RPG::GameCore::FixPoint BaseAttack; // 0x30
-		::RPG::GameCore::FixPoint BaseDefenceAdd; // 0x38
+		::RPG::GameCore::FixPoint BaseDefence; // 0x38
 		::RPG::GameCore::FixPoint BaseAttackAdd; // 0x40
-		::RPG::GameCore::FixPoint BaseHPAdd; // 0x48
-		::RPG::GameCore::FixPoint BaseDefence; // 0x50
+		::System::UInt32 WorldLevelRequire; // 0x48
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint BaseDefenceAdd; // 0x50
 		::System::UInt32 EquipmentID; // 0x58
+		::System::UInt32 PlayerLevelRequire; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EQUIPMENTPROMOTIONROW_CTOR_OFFSET))(this);

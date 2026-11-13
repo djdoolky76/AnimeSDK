@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToUniTaskAsyncEnumerable_1_TypeDefinitionIndex = 45702;
+	inline static constexpr unsigned int ToUniTaskAsyncEnumerable_1_TypeDefinitionIndex = 46731;
 
 	template <typename T>
 	class ToUniTaskAsyncEnumerable_1 : public ::System::Object

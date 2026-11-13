@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AdventurePhase; }
 
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS113_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5FE620)
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS113_0___DOENTITYMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xC60C090)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS113_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B6890)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS113_0___DOENTITYMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1B2B68A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhase___c__DisplayClass113_0_TypeDefinitionIndex = 60119;
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass113_0_TypeDefinitionIndex = 61403;
 
 	class AdventurePhase___c__DisplayClass113_0 : public ::System::Object
 	{

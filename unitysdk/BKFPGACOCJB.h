@@ -4,18 +4,18 @@
 class CFALFIPEHJH;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BKFPGACOCJB_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AF1F0)
-#define BKFPGACOCJB_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xB7AEE30)
-#define BKFPGACOCJB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB7AEFA0)
-#define BKFPGACOCJB_NEDKCFIHLPJ_OFFSET UNITYSDK_OFFSET(0xB7AF130)
+#define BKFPGACOCJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A64F380)
+#define BKFPGACOCJB_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0x1A64EFC0)
+#define BKFPGACOCJB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1A64F130)
+#define BKFPGACOCJB_NEDKCFIHLPJ_OFFSET UNITYSDK_OFFSET(0x1A64F2C0)
 
-inline static constexpr unsigned int BKFPGACOCJB_TypeDefinitionIndex = 74204;
+inline static constexpr unsigned int BKFPGACOCJB_TypeDefinitionIndex = 76352;
 
 	class BKFPGACOCJB : public ::FFPAFGCOKHK
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* IMCMKJPOKOH; // 0x40
-		::System::Collections::Generic::List_1<::System::Single>* KOAGGMPHDGK; // 0x48
+		::System::Collections::Generic::List_1<::System::Single>* KOAGGMPHDGK; // 0x40
+		::Il2CppArray<::System::UInt32>* IMCMKJPOKOH; // 0x48
 		::System::Single IALPGENFJPA; // 0x50
 		::System::Void _ctor()
 		{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LOMCBEKCFIH_CmdOptOptions_TypeDefinitionIndex = 49095;
+inline static constexpr unsigned int LOMCBEKCFIH_CmdOptOptions_TypeDefinitionIndex = 50171;
 
 	enum class LOMCBEKCFIH_CmdOptOptions : ::System::Int32
 	{

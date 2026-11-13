@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class CICNAOMJPGD;
 
-#define FJMOIMNDLFM_FONIPPOHCAK_CTOR_OFFSET UNITYSDK_OFFSET(0x157CE420)
+#define FJMOIMNDLFM_FONIPPOHCAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA83430)
 
-inline static constexpr unsigned int FJMOIMNDLFM_FONIPPOHCAK_TypeDefinitionIndex = 60463;
+inline static constexpr unsigned int FJMOIMNDLFM_FONIPPOHCAK_TypeDefinitionIndex = 61753;
 
 	class FJMOIMNDLFM_FONIPPOHCAK : public ::System::Object
 	{

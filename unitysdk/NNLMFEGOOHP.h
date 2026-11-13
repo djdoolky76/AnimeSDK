@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPamNormalActionSwitch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNLMFEGOOHP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCC3AC0)
-#define NNLMFEGOOHP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCC3AF0)
+#define NNLMFEGOOHP_CTOR_OFFSET UNITYSDK_OFFSET(0x17A08E80)
+#define NNLMFEGOOHP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17A08EB0)
 
-inline static constexpr unsigned int NNLMFEGOOHP_TypeDefinitionIndex = 53159;
+inline static constexpr unsigned int NNLMFEGOOHP_TypeDefinitionIndex = 54321;
 
 	class NNLMFEGOOHP
 	{

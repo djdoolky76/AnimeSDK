@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8710E0)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D870570)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D870440)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D870130)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D8703E0)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D8706C0)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8701B0)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D870700)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8708D0)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D870DC0)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D870830)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D870790)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E703630)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E702AC0)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E702990)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E702680)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E702930)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E702C10)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E702700)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E702C50)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E702E20)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E703310)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E702D80)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E702CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyEventConfigExcelTable_TypeDefinitionIndex = 12038;
+	inline static constexpr unsigned int MonopolyEventConfigExcelTable_TypeDefinitionIndex = 12095;
 
 	class MonopolyEventConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyEventConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyEventConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0x4CF50);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyEventConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0x42190);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0x4CF58);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0x42198);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0x4CF60);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0x421A0);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0x11970);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0xD450);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0x11971);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "MonopolyEventConfigExcelTable")->GetStaticField(0xD451);
 		}
 
 		static ::System::Void _cctor()

@@ -18,13 +18,13 @@ namespace MiHoYo::SDK { class UICameraConfig; }
 namespace MiHoYo::SDK { class WebViewModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIGMODEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC3BEB0)
-#define MIHOYO_SDK_CONFIGMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B980)
-#define MIHOYO_SDK_CONFIGMODEL_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1BC3BE00)
+#define MIHOYO_SDK_CONFIGMODEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4774E0)
+#define MIHOYO_SDK_CONFIGMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B476FB0)
+#define MIHOYO_SDK_CONFIGMODEL_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1B477430)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigModel_TypeDefinitionIndex = 7885;
+	inline static constexpr unsigned int ConfigModel_TypeDefinitionIndex = 7894;
 
 	class ConfigModel : public ::System::Object
 	{
@@ -52,17 +52,17 @@ namespace MiHoYo::SDK
 		::System::Boolean use_new_compliance_flow; // 0x93
 		static ::System::String** StaticGet_launcherId()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ConfigModel")->GetStaticField(0x5E0);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ConfigModel")->GetStaticField(0x8E70);
 		}
 
 		static ::MiHoYo::SDK::ConfigModel** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ConfigModel**)UnitySDK::FromName("MiHoYo.SDK", "ConfigModel")->GetStaticField(0x5E8);
+			return (::MiHoYo::SDK::ConfigModel**)UnitySDK::FromName("MiHoYo.SDK", "ConfigModel")->GetStaticField(0x8E78);
 		}
 
 		static ::System::String** StaticGet_loginLifecycleId()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ConfigModel")->GetStaticField(0x5F0);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ConfigModel")->GetStaticField(0x8E80);
 		}
 
 		::System::Void _ctor()

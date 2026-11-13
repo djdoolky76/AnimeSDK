@@ -9,23 +9,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EHIEFPKGLAN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA22070)
-#define EHIEFPKGLAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA22120)
+#define EHIEFPKGLAN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F4E5DD0)
+#define EHIEFPKGLAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4E5E80)
 
-inline static constexpr unsigned int EHIEFPKGLAN_TypeDefinitionIndex = 41985;
+inline static constexpr unsigned int EHIEFPKGLAN_TypeDefinitionIndex = 42960;
 
 	class EHIEFPKGLAN : public ::System::Object
 	{
 	public:
-		::KDKHADGLIPJ* BKMIDNJKMBO; // 0x10
-		::RPG::GameCore::ChimeraBattleExtraConditionEvaluator* JFKJFLLFEPJ; // 0x18
-		::System::String* OGOCEHKOEGP; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraAbilityModifier*, ::System::Collections::Generic::List_1<::System::Int32>*>* FMFPFOJNGIH; // 0x28
-		::RPG::GameCore::ChimeraBattleConditionEvaluator* EKIJFPIPCKF; // 0x30
-		::System::UInt32 LFKOCKPILLI; // 0x38
-		::System::Int32 CCEGPIGBPKC; // 0x3C
-		::System::Int32 LAMLAOOJAPO; // 0x40
-		::System::UInt32 ILOHGDCGKFA; // 0x44
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraAbilityModifier*, ::System::Collections::Generic::List_1<::System::Int32>*>* FMFPFOJNGIH; // 0x10
+		::KDKHADGLIPJ* BKMIDNJKMBO; // 0x18
+		::RPG::GameCore::ChimeraBattleConditionEvaluator* EKIJFPIPCKF; // 0x20
+		::System::String* OGOCEHKOEGP; // 0x28
+		::RPG::GameCore::ChimeraBattleExtraConditionEvaluator* JFKJFLLFEPJ; // 0x30
+		::System::UInt32 ILOHGDCGKFA; // 0x38
+		::System::UInt32 LFKOCKPILLI; // 0x3C
+		::System::Int32 CCEGPIGBPKC; // 0x40
+		::System::Int32 LAMLAOOJAPO; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHIEFPKGLAN_CTOR_OFFSET))(this);

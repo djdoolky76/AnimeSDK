@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 class JEFCCHAPOLA;
 
-#define JEFCCHAPOLA_CTOR_OFFSET UNITYSDK_OFFSET(0x16610410)
-#define JEFCCHAPOLA_EQUALS_OFFSET UNITYSDK_OFFSET(0x16610390)
+#define JEFCCHAPOLA_CTOR_OFFSET UNITYSDK_OFFSET(0x13064F60)
+#define JEFCCHAPOLA_EQUALS_OFFSET UNITYSDK_OFFSET(0x13064EE0)
 
-inline static constexpr unsigned int JEFCCHAPOLA_TypeDefinitionIndex = 54274;
+inline static constexpr unsigned int JEFCCHAPOLA_TypeDefinitionIndex = 55438;
 
 	class JEFCCHAPOLA : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::RtPropertyModifyData>* CDMKBCHLPAB; // 0x10
-		::System::UInt32 PMIEAEGJNMJ; // 0x18
-		::System::UInt32 AAGKEBFHLMC; // 0x1C
-		::System::UInt32 IHALFHPNNGL; // 0x20
+		::System::UInt32 AAGKEBFHLMC; // 0x18
+		::System::UInt32 IHALFHPNNGL; // 0x1C
+		::System::UInt32 PMIEAEGJNMJ; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JEFCCHAPOLA_CTOR_OFFSET))(this);

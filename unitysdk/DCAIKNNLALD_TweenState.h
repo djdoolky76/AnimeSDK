@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DCAIKNNLALD_TweenState_TypeDefinitionIndex = 71372;
+inline static constexpr unsigned int DCAIKNNLALD_TweenState_TypeDefinitionIndex = 73349;
 
 	enum class DCAIKNNLALD_TweenState : ::System::Int32
 	{

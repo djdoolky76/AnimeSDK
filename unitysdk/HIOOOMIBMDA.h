@@ -10,35 +10,36 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIOOOMIBMDA_CTOR_OFFSET UNITYSDK_OFFSET(0x15CF0B40)
-#define HIOOOMIBMDA_DIKCOEDBGLA_OFFSET UNITYSDK_OFFSET(0x15CF43B0)
-#define HIOOOMIBMDA_DOAILEHLIKH_1_OFFSET UNITYSDK_OFFSET(0x15CF33A0)
-#define HIOOOMIBMDA_DOAILEHLIKH_OFFSET UNITYSDK_OFFSET(0x15CF32B0)
-#define HIOOOMIBMDA_EELIPIABMFH_OFFSET UNITYSDK_OFFSET(0x15CF1F40)
-#define HIOOOMIBMDA_EPPOKBFGABE_OFFSET UNITYSDK_OFFSET(0x15CF2350)
-#define HIOOOMIBMDA_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x15CF10B0)
-#define HIOOOMIBMDA_HILELDGBKKM_OFFSET UNITYSDK_OFFSET(0x15CF3F80)
-#define HIOOOMIBMDA_HIMMIMHNCHA_1_OFFSET UNITYSDK_OFFSET(0x15CF0D80)
-#define HIOOOMIBMDA_HIMMIMHNCHA_OFFSET UNITYSDK_OFFSET(0x15CF3070)
-#define HIOOOMIBMDA_IBDCDPNEIFE_OFFSET UNITYSDK_OFFSET(0x15CF2890)
-#define HIOOOMIBMDA_LIKBNPONOAL_OFFSET UNITYSDK_OFFSET(0x15CF4360)
-#define HIOOOMIBMDA_NFCGOPKCBCP_OFFSET UNITYSDK_OFFSET(0x15CF4290)
-#define HIOOOMIBMDA_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x15CF18A0)
+#define HIOOOMIBMDA_CTOR_OFFSET UNITYSDK_OFFSET(0x181ED6A0)
+#define HIOOOMIBMDA_DIKCOEDBGLA_OFFSET UNITYSDK_OFFSET(0x181F0F10)
+#define HIOOOMIBMDA_DOAILEHLIKH_1_OFFSET UNITYSDK_OFFSET(0x181EFF00)
+#define HIOOOMIBMDA_DOAILEHLIKH_OFFSET UNITYSDK_OFFSET(0x181EFE10)
+#define HIOOOMIBMDA_EELIPIABMFH_OFFSET UNITYSDK_OFFSET(0x181EEAA0)
+#define HIOOOMIBMDA_EPPOKBFGABE_OFFSET UNITYSDK_OFFSET(0x181EEEB0)
+#define HIOOOMIBMDA_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x181EDC10)
+#define HIOOOMIBMDA_HILELDGBKKM_OFFSET UNITYSDK_OFFSET(0x181F0AE0)
+#define HIOOOMIBMDA_HIMMIMHNCHA_1_OFFSET UNITYSDK_OFFSET(0x181ED8E0)
+#define HIOOOMIBMDA_HIMMIMHNCHA_OFFSET UNITYSDK_OFFSET(0x181EFBD0)
+#define HIOOOMIBMDA_IBDCDPNEIFE_OFFSET UNITYSDK_OFFSET(0x181EF3F0)
+#define HIOOOMIBMDA_LIKBNPONOAL_OFFSET UNITYSDK_OFFSET(0x181F0EC0)
+#define HIOOOMIBMDA_NFCGOPKCBCP_OFFSET UNITYSDK_OFFSET(0x181F0DF0)
+#define HIOOOMIBMDA_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x181EE400)
 
-inline static constexpr unsigned int HIOOOMIBMDA_TypeDefinitionIndex = 73940;
+inline static constexpr unsigned int HIOOOMIBMDA_TypeDefinitionIndex = 76076;
 
 	class HIOOOMIBMDA : public ::System::Object
 	{
 	public:
-		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Int32, ::Collections::Pooled::PooledList_1<::APLEMBNFLAA*>*>* FPLPMPJBOFD; // 0x10
-		::System::Collections::Generic::List_1<::APLEMBNFLAA*>* GBMCFKOEJCA; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::APLEMBNFLAA*>* MDCLCCHILMI; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* IHDILINHDDJ; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::APLEMBNFLAA*>* BPKBIBKGDEH; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Collections::Pooled::PooledList_1<::APLEMBNFLAA*>*>* IHHKBFCBPBJ; // 0x38
-		::System::Int32 JIBOGDFLMIJ; // 0x40
-		::System::Boolean LEJEINIBNDB; // 0x44
-		::System::Boolean NCIIJGCCJKO; // 0x45
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::APLEMBNFLAA*>* BPKBIBKGDEH; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::APLEMBNFLAA*>* MDCLCCHILMI; // 0x18
+		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Int32, ::Collections::Pooled::PooledList_1<::APLEMBNFLAA*>*>* FPLPMPJBOFD; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Collections::Pooled::PooledList_1<::APLEMBNFLAA*>*>* IHHKBFCBPBJ; // 0x28
+		::System::Collections::Generic::List_1<::APLEMBNFLAA*>* GBMCFKOEJCA; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* IHDILINHDDJ; // 0x38
+		::System::Boolean LEJEINIBNDB; // 0x40
+		::System::Boolean NCIIJGCCJKO; // 0x41
+		::System::Byte _padding0[0x2];
+		::System::Int32 JIBOGDFLMIJ; // 0x44
 		::System::Void _ctor(::APLEMBNFLAA* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::APLEMBNFLAA*))((::PBYTE)hIl2Cpp + HIOOOMIBMDA_CTOR_OFFSET))(this, a1);

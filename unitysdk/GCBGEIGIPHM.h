@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define GCBGEIGIPHM_CTOR_OFFSET UNITYSDK_OFFSET(0x159545E0)
-#define GCBGEIGIPHM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15954570)
+#define GCBGEIGIPHM_CTOR_OFFSET UNITYSDK_OFFSET(0x19E990C0)
+#define GCBGEIGIPHM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E99050)
 
-inline static constexpr unsigned int GCBGEIGIPHM_TypeDefinitionIndex = 60875;
+inline static constexpr unsigned int GCBGEIGIPHM_TypeDefinitionIndex = 62254;
 
 	class GCBGEIGIPHM
 	{

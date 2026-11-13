@@ -4,11 +4,11 @@ namespace RPG::GameCore { class NPCComponent; }
 namespace RPG::GameCore { class ST_Side_MuteAlertValueDecline; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OIOCPENEBOH_CTOR_OFFSET UNITYSDK_OFFSET(0xBE9C050)
-#define OIOCPENEBOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE9C110)
-#define OIOCPENEBOH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE9C1A0)
+#define OIOCPENEBOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1949F8E0)
+#define OIOCPENEBOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1949F9A0)
+#define OIOCPENEBOH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1949FA30)
 
-inline static constexpr unsigned int OIOCPENEBOH_TypeDefinitionIndex = 52239;
+inline static constexpr unsigned int OIOCPENEBOH_TypeDefinitionIndex = 53345;
 
 	class OIOCPENEBOH
 	{

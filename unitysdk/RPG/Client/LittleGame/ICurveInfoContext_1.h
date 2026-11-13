@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ICurveInfoContext_1_TypeDefinitionIndex = 42703;
+	inline static constexpr unsigned int ICurveInfoContext_1_TypeDefinitionIndex = 43682;
 
 	template <typename T>
 	class ICurveInfoContext_1

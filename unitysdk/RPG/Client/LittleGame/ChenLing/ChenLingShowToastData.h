@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTOASTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD4083F0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTOASTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBED1C0)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingShowToastData_TypeDefinitionIndex = 77833;
+	inline static constexpr unsigned int ChenLingShowToastData_TypeDefinitionIndex = 80568;
 
 	class ChenLingShowToastData : public ::System::Object
 	{

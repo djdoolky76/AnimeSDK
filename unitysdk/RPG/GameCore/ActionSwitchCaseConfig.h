@@ -8,13 +8,13 @@ namespace RPG::GameCore { class ActionSwitchCaseItemConfig; }
 namespace RPG::GameCore { class MiActionConfigBase; }
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31AC10)
-#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31AC20)
-#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31ABB0)
+#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F7EF0)
+#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4F7F00)
+#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4F7E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionSwitchCaseConfig_TypeDefinitionIndex = 17056;
+	inline static constexpr unsigned int ActionSwitchCaseConfig_TypeDefinitionIndex = 17223;
 
 	class ActionSwitchCaseConfig : public ::RPG::GameCore::MiActionConfigBase
 	{

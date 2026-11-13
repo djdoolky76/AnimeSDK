@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonItemType_TypeDefinitionIndex = 12517;
+	inline static constexpr unsigned int TreasureDungeonItemType_TypeDefinitionIndex = 12584;
 
 	enum class TreasureDungeonItemType : ::System::Int32
 	{

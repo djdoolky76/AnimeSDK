@@ -9,31 +9,31 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleFailureTipsConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEFAILURETIPSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D431B00)
-#define RPG_GAMECORE_BATTLEFAILURETIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D431580)
+#define RPG_GAMECORE_BATTLEFAILURETIPSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C314B20)
+#define RPG_GAMECORE_BATTLEFAILURETIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C3145A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleFailureTipsConfigRow_TypeDefinitionIndex = 12865;
+	inline static constexpr unsigned int BattleFailureTipsConfigRow_TypeDefinitionIndex = 12937;
 
 	class BattleFailureTipsConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* StageIDForce; // 0x10
-		::Il2CppArray<::System::UInt32>* PlayerLevel; // 0x18
-		::Il2CppArray<::System::UInt32>* MonsterTemplateIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* WorldList; // 0x28
-		::Il2CppArray<::RPG::GameCore::StageType>* StageTypeForce; // 0x30
-		::Il2CppArray<::System::UInt32>* MainMissionUnfinishForce; // 0x38
-		::Il2CppArray<::System::UInt32>* MainMissionTakenForce; // 0x40
-		::Il2CppArray<::System::String*>* CustomStringList; // 0x48
-		::Il2CppArray<::System::UInt32>* MainMissionFinishForce; // 0x50
-		::Il2CppArray<::RPG::GameCore::GameModeType>* GameModeList; // 0x58
-		::Il2CppArray<::System::UInt32>* MazebuffIDList; // 0x60
-		::System::UInt32 Priority; // 0x68
-		::System::UInt32 BattleFailureTipID; // 0x6C
-		::RPG::Client::TextID TipContent; // 0x70
-		::RPG::GameCore::BattleFailureTipType Type; // 0x80
+		::Il2CppArray<::System::UInt32>* MainMissionTakenForce; // 0x10
+		::Il2CppArray<::System::UInt32>* MonsterTemplateIDList; // 0x18
+		::Il2CppArray<::System::String*>* CustomStringList; // 0x20
+		::Il2CppArray<::System::UInt32>* MainMissionFinishForce; // 0x28
+		::Il2CppArray<::System::UInt32>* WorldList; // 0x30
+		::Il2CppArray<::RPG::GameCore::GameModeType>* GameModeList; // 0x38
+		::Il2CppArray<::System::UInt32>* MainMissionUnfinishForce; // 0x40
+		::Il2CppArray<::System::UInt32>* StageIDForce; // 0x48
+		::Il2CppArray<::RPG::GameCore::StageType>* StageTypeForce; // 0x50
+		::Il2CppArray<::System::UInt32>* MazebuffIDList; // 0x58
+		::Il2CppArray<::System::UInt32>* PlayerLevel; // 0x60
+		::RPG::Client::TextID TipContent; // 0x68
+		::RPG::GameCore::BattleFailureTipType Type; // 0x78
+		::System::UInt32 BattleFailureTipID; // 0x7C
+		::System::UInt32 Priority; // 0x80
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEFAILURETIPSCONFIGROW_CTOR_OFFSET))(this);

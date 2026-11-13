@@ -6,12 +6,12 @@ namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class FiveDimEventReceiverItem; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68E890)
-#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68E740)
+#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85B870)
+#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E85B720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEventReceiverItem_TypeDefinitionIndex = 18633;
+	inline static constexpr unsigned int FiveDimEventReceiverItem_TypeDefinitionIndex = 18793;
 
 	class FiveDimEventReceiverItem : public ::RPG::GameCore::JsonConfig
 	{

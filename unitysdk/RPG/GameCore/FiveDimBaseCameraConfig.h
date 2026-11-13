@@ -13,13 +13,13 @@ namespace RPG::GameCore { class FiveDimCameraObserveConfig; }
 namespace RPG::GameCore { class FiveDimCameraSimpleOverrideFollow; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D683130)
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D683160)
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D682E20)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8500A0)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8500D0)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E84FD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBaseCameraConfig_TypeDefinitionIndex = 18624;
+	inline static constexpr unsigned int FiveDimBaseCameraConfig_TypeDefinitionIndex = 18784;
 
 	class FiveDimBaseCameraConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

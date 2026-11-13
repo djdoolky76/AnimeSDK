@@ -3,7 +3,7 @@
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_MultSubMesh_SingleMeshConfig_TypeDefinitionIndex = 52032;
+	inline static constexpr unsigned int BGCurvePCG_MultSubMesh_SingleMeshConfig_TypeDefinitionIndex = 53137;
 
 	struct alignas(4) BGCurvePCG_MultSubMesh_SingleMeshConfig
 	{

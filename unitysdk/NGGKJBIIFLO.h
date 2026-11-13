@@ -5,11 +5,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NGGKJBIIFLO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBA0D70)
-#define NGGKJBIIFLO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA0480)
-#define NGGKJBIIFLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBA04B0)
+#define NGGKJBIIFLO_CCTOR_OFFSET UNITYSDK_OFFSET(0x18E8AB90)
+#define NGGKJBIIFLO_CTOR_OFFSET UNITYSDK_OFFSET(0x18E8A2A0)
+#define NGGKJBIIFLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E8A2D0)
 
-inline static constexpr unsigned int NGGKJBIIFLO_TypeDefinitionIndex = 55888;
+inline static constexpr unsigned int NGGKJBIIFLO_TypeDefinitionIndex = 57091;
 
 	class NGGKJBIIFLO
 	{
@@ -17,7 +17,7 @@ inline static constexpr unsigned int NGGKJBIIFLO_TypeDefinitionIndex = 55888;
 		::System::Boolean LEIGKHEMCGE; // 0x28
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>** StaticGet_OHOKHLEJHKA()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("", "NGGKJBIIFLO")->GetStaticField(0x34C10);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("", "NGGKJBIIFLO")->GetStaticField(0x375B0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetAttachmentVisibility* a2)

@@ -9,22 +9,22 @@ class FJKMGCKMNNA;
 class IBGFKJMMICI;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IKCOHFPIHIA_CMOFKLBPNJG_OFFSET UNITYSDK_OFFSET(0x16475F80)
-#define IKCOHFPIHIA_CNHJMNHMFGK_OFFSET UNITYSDK_OFFSET(0x16476070)
-#define IKCOHFPIHIA_CTOR_OFFSET UNITYSDK_OFFSET(0x16476CE0)
-#define IKCOHFPIHIA_GMDEGPHLIJD_OFFSET UNITYSDK_OFFSET(0x16476C60)
-#define IKCOHFPIHIA_IGPIKCMMFNF_OFFSET UNITYSDK_OFFSET(0x16476B10)
-#define IKCOHFPIHIA_NHMEGICGKHG_OFFSET UNITYSDK_OFFSET(0x16475A70)
-#define IKCOHFPIHIA_OALPGPNHGPD_OFFSET UNITYSDK_OFFSET(0x164765B0)
-#define IKCOHFPIHIA_PKNJDNLGCGD_OFFSET UNITYSDK_OFFSET(0x16476CA0)
+#define IKCOHFPIHIA_CMOFKLBPNJG_OFFSET UNITYSDK_OFFSET(0x180741F0)
+#define IKCOHFPIHIA_CNHJMNHMFGK_OFFSET UNITYSDK_OFFSET(0x180742E0)
+#define IKCOHFPIHIA_CTOR_OFFSET UNITYSDK_OFFSET(0x18074F50)
+#define IKCOHFPIHIA_GMDEGPHLIJD_OFFSET UNITYSDK_OFFSET(0x18074ED0)
+#define IKCOHFPIHIA_IGPIKCMMFNF_OFFSET UNITYSDK_OFFSET(0x18074D80)
+#define IKCOHFPIHIA_NHMEGICGKHG_OFFSET UNITYSDK_OFFSET(0x18073CE0)
+#define IKCOHFPIHIA_OALPGPNHGPD_OFFSET UNITYSDK_OFFSET(0x18074820)
+#define IKCOHFPIHIA_PKNJDNLGCGD_OFFSET UNITYSDK_OFFSET(0x18074F10)
 
-inline static constexpr unsigned int IKCOHFPIHIA_TypeDefinitionIndex = 64035;
+inline static constexpr unsigned int IKCOHFPIHIA_TypeDefinitionIndex = 65480;
 
 	class IKCOHFPIHIA : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateLevelParamType, ::System::Double>* JOPBIICJOLA; // 0x10
-		::System::Collections::Generic::Dictionary_2<::KIMFJHFAEJE, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateContentParamType, ::System::Double>*>* KBICOGNOMEG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::KIMFJHFAEJE, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateContentParamType, ::System::Double>*>* KBICOGNOMEG; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateLevelParamType, ::System::Double>* JOPBIICJOLA; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKCOHFPIHIA_CTOR_OFFSET))(this);

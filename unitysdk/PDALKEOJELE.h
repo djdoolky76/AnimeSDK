@@ -5,25 +5,25 @@ class FCOEMCEDLNL;
 class PDALKEOJELE;
 namespace System { class String; }
 
-#define PDALKEOJELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D29EE30)
-#define PDALKEOJELE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D29EA60)
+#define PDALKEOJELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E709540)
+#define PDALKEOJELE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E709170)
 
-inline static constexpr unsigned int PDALKEOJELE_TypeDefinitionIndex = 20123;
+inline static constexpr unsigned int PDALKEOJELE_TypeDefinitionIndex = 20457;
 
 	class PDALKEOJELE : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::System::String*>* KKAAENBGDKI; // 0x10
-		::System::Single OKIJCIDLMDD; // 0x18
-		::System::Single IDHLPHBPOBK; // 0x1C
-		::System::Single IDCIEMGLMDP; // 0x20
-		::System::Boolean LPBOONOCHMD; // 0x24
-		::System::Boolean OGCDIADPCGJ; // 0x25
+		::System::Single CLIBJAPJEFI; // 0x18
+		::System::Single MKIEEKHILOI; // 0x1C
+		::System::Single OKIJCIDLMDD; // 0x20
+		::System::Single IDCIEMGLMDP; // 0x24
+		::System::Boolean OGCDIADPCGJ; // 0x28
+		::System::Boolean LPBOONOCHMD; // 0x29
 		::System::Byte _padding0[0x2];
-		::System::Single NAPCGLPKPGN; // 0x28
-		::System::Single CLIBJAPJEFI; // 0x2C
-		::System::Single MKIEEKHILOI; // 0x30
-		::System::Single NIGKPPNPBOA; // 0x34
+		::System::Single NIGKPPNPBOA; // 0x2C
+		::System::Single NAPCGLPKPGN; // 0x30
+		::System::Single IDHLPHBPOBK; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PDALKEOJELE_CTOR_OFFSET))(this);

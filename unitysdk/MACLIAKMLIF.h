@@ -7,19 +7,19 @@ class KLBFAHHPJMJ;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MACLIAKMLIF_CTOR_OFFSET UNITYSDK_OFFSET(0xB83B8D0)
-#define MACLIAKMLIF_GET_ATTRIBUTETYPE_OFFSET UNITYSDK_OFFSET(0xB83B8A0)
-#define MACLIAKMLIF_GET_MATPATH_OFFSET UNITYSDK_OFFSET(0xB83B8C0)
-#define MACLIAKMLIF_GET_PARTTYPE_OFFSET UNITYSDK_OFFSET(0xB83B8B0)
+#define MACLIAKMLIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D5E60)
+#define MACLIAKMLIF_GET_ATTRIBUTETYPE_OFFSET UNITYSDK_OFFSET(0x1B6D5E30)
+#define MACLIAKMLIF_GET_MATPATH_OFFSET UNITYSDK_OFFSET(0x1B6D5E50)
+#define MACLIAKMLIF_GET_PARTTYPE_OFFSET UNITYSDK_OFFSET(0x1B6D5E40)
 
-inline static constexpr unsigned int MACLIAKMLIF_TypeDefinitionIndex = 80129;
+inline static constexpr unsigned int MACLIAKMLIF_TypeDefinitionIndex = 82906;
 
 	class MACLIAKMLIF : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* _MatPath_k__BackingField; // 0x10
-		::RPG::Client::MechCraft::MechCraftAttributeType _AttributeType_k__BackingField; // 0x18
-		::RPG::Client::MechCraft::MechCraftPartType _PartType_k__BackingField; // 0x1C
+		::RPG::Client::MechCraft::MechCraftPartType _PartType_k__BackingField; // 0x18
+		::RPG::Client::MechCraft::MechCraftAttributeType _AttributeType_k__BackingField; // 0x1C
 		::System::Void _ctor(::KLBFAHHPJMJ* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::KLBFAHHPJMJ*))((::PBYTE)hIl2Cpp + MACLIAKMLIF_CTOR_OFFSET))(this, a1);

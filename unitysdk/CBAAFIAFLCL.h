@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define CBAAFIAFLCL_KHFHNDEBGDH_OFFSET UNITYSDK_OFFSET(0xC4963A0)
+#define CBAAFIAFLCL_KHFHNDEBGDH_OFFSET UNITYSDK_OFFSET(0x18FD3470)
 
-inline static constexpr unsigned int CBAAFIAFLCL_TypeDefinitionIndex = 75642;
+inline static constexpr unsigned int CBAAFIAFLCL_TypeDefinitionIndex = 77969;
 
 	class CBAAFIAFLCL : public ::System::Object
 	{

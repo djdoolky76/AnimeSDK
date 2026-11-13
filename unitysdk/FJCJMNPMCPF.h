@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsEnemy; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJCJMNPMCPF_CTOR_OFFSET UNITYSDK_OFFSET(0x157B69C0)
-#define FJCJMNPMCPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157B69F0)
+#define FJCJMNPMCPF_CTOR_OFFSET UNITYSDK_OFFSET(0x19820C90)
+#define FJCJMNPMCPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19820CC0)
 
-inline static constexpr unsigned int FJCJMNPMCPF_TypeDefinitionIndex = 54654;
+inline static constexpr unsigned int FJCJMNPMCPF_TypeDefinitionIndex = 55820;
 
 	class FJCJMNPMCPF
 	{

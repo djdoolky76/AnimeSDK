@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FireCoinWaveState_TypeDefinitionIndex = 76934;
+	inline static constexpr unsigned int FireCoinWaveState_TypeDefinitionIndex = 79268;
 
 	enum class FireCoinWaveState : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasInsertActionByTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KMDGPCNCCHD_CTOR_OFFSET UNITYSDK_OFFSET(0xB53D1A0)
-#define KMDGPCNCCHD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB53D1D0)
+#define KMDGPCNCCHD_CTOR_OFFSET UNITYSDK_OFFSET(0x17B9AC20)
+#define KMDGPCNCCHD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17B9AC50)
 
-inline static constexpr unsigned int KMDGPCNCCHD_TypeDefinitionIndex = 54615;
+inline static constexpr unsigned int KMDGPCNCCHD_TypeDefinitionIndex = 55781;
 
 	class KMDGPCNCCHD
 	{

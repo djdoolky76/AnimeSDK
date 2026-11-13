@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define JOHKNMBNPOD_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0x128F0)
+#define JOHKNMBNPOD_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0x3E74810)
 
-inline static constexpr unsigned int JOHKNMBNPOD_TypeDefinitionIndex = 78944;
+inline static constexpr unsigned int JOHKNMBNPOD_TypeDefinitionIndex = 81720;
 
 	struct alignas(4) JOHKNMBNPOD
 	{

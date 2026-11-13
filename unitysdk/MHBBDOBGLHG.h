@@ -6,24 +6,24 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MHBBDOBGLHG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D13BF20)
-#define MHBBDOBGLHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D13BF10)
-#define MHBBDOBGLHG_KDHKBOLJNNK_OFFSET UNITYSDK_OFFSET(0x1D13BE40)
-#define MHBBDOBGLHG_PGFOLIOCJHP_OFFSET UNITYSDK_OFFSET(0x1D13BEB0)
+#define MHBBDOBGLHG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB2500)
+#define MHBBDOBGLHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB24F0)
+#define MHBBDOBGLHG_KDHKBOLJNNK_OFFSET UNITYSDK_OFFSET(0x1BBB2420)
+#define MHBBDOBGLHG_PGFOLIOCJHP_OFFSET UNITYSDK_OFFSET(0x1BBB2490)
 
-inline static constexpr unsigned int MHBBDOBGLHG_TypeDefinitionIndex = 18276;
+inline static constexpr unsigned int MHBBDOBGLHG_TypeDefinitionIndex = 18438;
 
 	class MHBBDOBGLHG : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_MEMKOIEEHNN()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)UnitySDK::FromName("", "MHBBDOBGLHG")->GetStaticField(0x447E0);
-		}
-
 		static ::System::Collections::Generic::HashSet_1<::RPG::GameCore::TurnBasedModifierEvent>** StaticGet_MIFENNBPJPJ()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::TurnBasedModifierEvent>**)UnitySDK::FromName("", "MHBBDOBGLHG")->GetStaticField(0x447E8);
+			return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::TurnBasedModifierEvent>**)UnitySDK::FromName("", "MHBBDOBGLHG")->GetStaticField(0x43770);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_MEMKOIEEHNN()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)UnitySDK::FromName("", "MHBBDOBGLHG")->GetStaticField(0x43778);
 		}
 
 		::System::Void _ctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define JEOEOLCIPCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1662E0A0)
+#define JEOEOLCIPCF_CTOR_OFFSET UNITYSDK_OFFSET(0x13086450)
 
-inline static constexpr unsigned int JEOEOLCIPCF_TypeDefinitionIndex = 48089;
+inline static constexpr unsigned int JEOEOLCIPCF_TypeDefinitionIndex = 49120;
 
 	class JEOEOLCIPCF : public ::UnityEngine::Playables::PlayableBehaviour
 	{

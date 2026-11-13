@@ -3,10 +3,10 @@
 #include "unitysdk/ODLJOLJDLNI.h"
 namespace System { class String; }
 
-#define BKLEDBBFIOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA577F0)
-#define BKLEDBBFIOI_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0xBA57690)
+#define BKLEDBBFIOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A668C60)
+#define BKLEDBBFIOI_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0x1A668B00)
 
-inline static constexpr unsigned int BKLEDBBFIOI_TypeDefinitionIndex = 76352;
+inline static constexpr unsigned int BKLEDBBFIOI_TypeDefinitionIndex = 78683;
 
 	class BKLEDBBFIOI : public ::ODLJOLJDLNI
 	{

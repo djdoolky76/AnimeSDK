@@ -5,12 +5,12 @@ namespace RPG::Client { class CameraNormalConfigTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST_CTOR_OFFSET UNITYSDK_OFFSET(0xC931600)
-#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST_PBOLKOGPJJG_OFFSET UNITYSDK_OFFSET(0xC9295A0)
+#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDCE770)
+#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST_PBOLKOGPJJG_OFFSET UNITYSDK_OFFSET(0x1DDCE640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraNormalConfigTemplateList_TypeDefinitionIndex = 69690;
+	inline static constexpr unsigned int CameraNormalConfigTemplateList_TypeDefinitionIndex = 71647;
 
 	class CameraNormalConfigTemplateList : public ::UnityEngine::ScriptableObject
 	{

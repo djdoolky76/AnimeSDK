@@ -7,11 +7,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRI_BUILDINGRENDERERLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x16525530)
-#define IRI_BUILDINGRENDERERLIST_KPGEKGPDKCK_OFFSET UNITYSDK_OFFSET(0x165254D0)
-#define IRI_BUILDINGRENDERERLIST_OFNJFAEPOKO_OFFSET UNITYSDK_OFFSET(0x16525380)
+#define IRI_BUILDINGRENDERERLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x193129F0)
+#define IRI_BUILDINGRENDERERLIST_KPGEKGPDKCK_OFFSET UNITYSDK_OFFSET(0x19312990)
+#define IRI_BUILDINGRENDERERLIST_OFNJFAEPOKO_OFFSET UNITYSDK_OFFSET(0x19312840)
 
-inline static constexpr unsigned int IRI_BuildingRendererList_TypeDefinitionIndex = 47166;
+inline static constexpr unsigned int IRI_BuildingRendererList_TypeDefinitionIndex = 48194;
 
 	class IRI_BuildingRendererList : public ::UnityEngine::ScriptableObject
 	{

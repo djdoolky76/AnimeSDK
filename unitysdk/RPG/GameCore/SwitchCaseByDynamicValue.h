@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SwitchCaseByDynamicValue; }
 namespace RPG::GameCore { class SwitchCaseTaskList; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB12890)
-#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB128A0)
-#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB12850)
+#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E682390)
+#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6823A0)
+#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E682350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCaseByDynamicValue_TypeDefinitionIndex = 23772;
+	inline static constexpr unsigned int SwitchCaseByDynamicValue_TypeDefinitionIndex = 24228;
 
 	class SwitchCaseByDynamicValue : public ::RPG::GameCore::TaskConfig
 	{

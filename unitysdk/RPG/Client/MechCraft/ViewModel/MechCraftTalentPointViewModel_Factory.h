@@ -4,12 +4,12 @@
 class GMDIBFIGIEG;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewModel; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD67EFA0)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD67F040)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1E91D850)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E91D8F0)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftTalentPointViewModel_Factory_TypeDefinitionIndex = 79778;
+	inline static constexpr unsigned int MechCraftTalentPointViewModel_Factory_TypeDefinitionIndex = 82555;
 
 	class MechCraftTalentPointViewModel_Factory : public ::System::Object
 	{

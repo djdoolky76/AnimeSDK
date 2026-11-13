@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IMeshModifier_TypeDefinitionIndex = 6890;
+	inline static constexpr unsigned int IMeshModifier_TypeDefinitionIndex = 6901;
 
 	class IMeshModifier
 	{

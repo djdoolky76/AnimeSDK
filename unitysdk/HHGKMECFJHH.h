@@ -4,16 +4,16 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_SetConfirmDiceCountToModifierMap; }
 
-#define HHGKMECFJHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6388C0)
-#define HHGKMECFJHH_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6388D0)
+#define HHGKMECFJHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9210C0)
+#define HHGKMECFJHH_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C9210D0)
 
-inline static constexpr unsigned int HHGKMECFJHH_TypeDefinitionIndex = 36300;
+inline static constexpr unsigned int HHGKMECFJHH_TypeDefinitionIndex = 37228;
 
 	class HHGKMECFJHH : public ::AJBKGPOEBFG
 	{
 	public:
-		::RPG::GameCore::DiceCombatTaskConfig_SetConfirmDiceCountToModifierMap* IGHAHBNLIJA; // 0x18
-		::EHMBINMCDGN* EEFMDEHLLFI; // 0x20
+		::EHMBINMCDGN* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::DiceCombatTaskConfig_SetConfirmDiceCountToModifierMap* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_SetConfirmDiceCountToModifierMap* a1, ::EHMBINMCDGN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_SetConfirmDiceCountToModifierMap*, ::EHMBINMCDGN*))((::PBYTE)hIl2Cpp + HHGKMECFJHH_CTOR_OFFSET))(this, a1, a2);

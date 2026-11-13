@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelSmartObjectCommonPointInfo; }
 
-#define RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A0270)
-#define RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A0070)
+#define RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24F070)
+#define RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F24EE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSmartObjectCommonPointInfo_TypeDefinitionIndex = 17371;
+	inline static constexpr unsigned int LevelSmartObjectCommonPointInfo_TypeDefinitionIndex = 17539;
 
 	class LevelSmartObjectCommonPointInfo : public ::RPG::GameCore::JsonConfig
 	{

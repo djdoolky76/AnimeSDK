@@ -6,10 +6,10 @@ class LAAKKNLOHLO;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceBuffConfig; }
 
-#define LAAKKNLOHLO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C6EF6C0)
-#define LAAKKNLOHLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6EF760)
+#define LAAKKNLOHLO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1ABFEF70)
+#define LAAKKNLOHLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABFF010)
 
-inline static constexpr unsigned int LAAKKNLOHLO_TypeDefinitionIndex = 37404;
+inline static constexpr unsigned int LAAKKNLOHLO_TypeDefinitionIndex = 38332;
 
 	class LAAKKNLOHLO : public ::ENDEAPMHAOI
 	{

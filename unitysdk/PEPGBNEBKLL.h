@@ -5,18 +5,18 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define PEPGBNEBKLL_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F13C0)
-#define PEPGBNEBKLL_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xC1F1280)
-#define PEPGBNEBKLL_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC1F1320)
-#define PEPGBNEBKLL__ONBIND_OFFSET UNITYSDK_OFFSET(0xC1F1180)
+#define PEPGBNEBKLL_CTOR_OFFSET UNITYSDK_OFFSET(0x14547490)
+#define PEPGBNEBKLL_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x145473F0)
+#define PEPGBNEBKLL__ONBIND_OFFSET UNITYSDK_OFFSET(0x14547190)
+#define PEPGBNEBKLL__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x14547350)
 
-inline static constexpr unsigned int PEPGBNEBKLL_TypeDefinitionIndex = 71400;
+inline static constexpr unsigned int PEPGBNEBKLL_TypeDefinitionIndex = 73382;
 
 	class PEPGBNEBKLL : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x60
-		::UnityEngine::Animation* JPHOOFFIAAH; // 0x68
+		::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
+		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x68
 		::UnityEngine::Transform* LKCFNPNEFHH; // 0x70
 		::System::Boolean IAPJFCPEOBL; // 0x78
 		// static const ::System::String* FOJHBNDBANG; // 0x0
@@ -31,9 +31,9 @@ inline static constexpr unsigned int PEPGBNEBKLL_TypeDefinitionIndex = 71400;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEPGBNEBKLL__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEPGBNEBKLL_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEPGBNEBKLL__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void NKPPGDENJAE(::System::Boolean a1, ::System::Boolean a2)

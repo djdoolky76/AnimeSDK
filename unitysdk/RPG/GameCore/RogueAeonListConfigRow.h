@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueAeonListConfigRow; }
 
-#define RPG_GAMECORE_ROGUEAEONLISTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D97A400)
-#define RPG_GAMECORE_ROGUEAEONLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D97A280)
+#define RPG_GAMECORE_ROGUEAEONLISTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F55FB60)
+#define RPG_GAMECORE_ROGUEAEONLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F55F9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAeonListConfigRow_TypeDefinitionIndex = 14845;
+	inline static constexpr unsigned int RogueAeonListConfigRow_TypeDefinitionIndex = 15001;
 
 	class RogueAeonListConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Sort; // 0x10
-		::System::UInt32 ActivityModuleID; // 0x14
-		::System::UInt32 RogueAeonID; // 0x18
-		::System::UInt32 DisplayID; // 0x1C
+		::System::UInt32 ActivityModuleID; // 0x10
+		::System::UInt32 DisplayID; // 0x14
+		::System::UInt32 Sort; // 0x18
+		::System::UInt32 RogueAeonID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEAEONLISTCONFIGROW_CTOR_OFFSET))(this);

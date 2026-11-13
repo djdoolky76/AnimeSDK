@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/TimerThread_Queue.h"
 
-#define SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F05F460)
+#define SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF58B10)
 
 namespace System::Net
 {

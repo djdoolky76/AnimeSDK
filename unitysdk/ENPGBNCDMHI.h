@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvMonsterForbidSelect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ENPGBNCDMHI_CTOR_OFFSET UNITYSDK_OFFSET(0x155AB580)
-#define ENPGBNCDMHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155AB5B0)
+#define ENPGBNCDMHI_CTOR_OFFSET UNITYSDK_OFFSET(0x18816610)
+#define ENPGBNCDMHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18816640)
 
-inline static constexpr unsigned int ENPGBNCDMHI_TypeDefinitionIndex = 57880;
+inline static constexpr unsigned int ENPGBNCDMHI_TypeDefinitionIndex = 59117;
 
 	class ENPGBNCDMHI
 	{

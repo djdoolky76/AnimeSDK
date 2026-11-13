@@ -4,17 +4,17 @@
 class FDBODHHKGFB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IBPGDJEBPFN_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0x1C6600F0)
-#define IBPGDJEBPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C660150)
+#define IBPGDJEBPFN_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0x1C948730)
+#define IBPGDJEBPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C948790)
 
-inline static constexpr unsigned int IBPGDJEBPFN_TypeDefinitionIndex = 36462;
+inline static constexpr unsigned int IBPGDJEBPFN_TypeDefinitionIndex = 37390;
 
 	class IBPGDJEBPFN : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::FDBODHHKGFB*>* DHPACGHECNM; // 0x10
-		::System::Single IEHPFADHJFD; // 0x18
-		::System::Single IFEPJHGNCOI; // 0x1C
+		::System::Single IFEPJHGNCOI; // 0x18
+		::System::Single IEHPFADHJFD; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IBPGDJEBPFN_CTOR_OFFSET))(this);

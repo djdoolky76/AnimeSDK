@@ -7,18 +7,18 @@ class GKPDKBNFDGM;
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ABLBFIGHCLE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB104BD0)
-#define ABLBFIGHCLE_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0xB104830)
-#define ABLBFIGHCLE_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xB104A20)
+#define ABLBFIGHCLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x18CB5AD0)
+#define ABLBFIGHCLE_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0x18CB5730)
+#define ABLBFIGHCLE_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0x18CB5920)
 
-inline static constexpr unsigned int ABLBFIGHCLE_TypeDefinitionIndex = 61956;
+inline static constexpr unsigned int ABLBFIGHCLE_TypeDefinitionIndex = 63368;
 
 	class ABLBFIGHCLE : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SwordTrainingResultType, ::System::Func_1<::FCCPECCFHLN*>*>** StaticGet_EEMPAAFDLAP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SwordTrainingResultType, ::System::Func_1<::FCCPECCFHLN*>*>**)UnitySDK::FromName("", "ABLBFIGHCLE")->GetStaticField(0x40A30);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SwordTrainingResultType, ::System::Func_1<::FCCPECCFHLN*>*>**)UnitySDK::FromName("", "ABLBFIGHCLE")->GetStaticField(0x3B2A0);
 		}
 
 		static ::System::Void _cctor()

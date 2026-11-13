@@ -4,18 +4,18 @@
 class CEINLELLFLF;
 namespace System { class Object; }
 
-#define CEINLELLFLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E067180)
-#define CEINLELLFLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0671C0)
-#define CEINLELLFLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0671D0)
+#define CEINLELLFLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204CC180)
+#define CEINLELLFLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204CC1C0)
+#define CEINLELLFLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x204CC1D0)
 
-inline static constexpr unsigned int CEINLELLFLF___c_TypeDefinitionIndex = 32256;
+inline static constexpr unsigned int CEINLELLFLF___c_TypeDefinitionIndex = 33169;
 
 	class CEINLELLFLF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10030);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62F60);
 		}
 
 		static ::System::Void _cctor()

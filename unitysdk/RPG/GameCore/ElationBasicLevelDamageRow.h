@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElationBasicLevelDamageRow; }
 
-#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D604420)
-#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6042E0)
+#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DADE0)
+#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0DACA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationBasicLevelDamageRow_TypeDefinitionIndex = 13215;
+	inline static constexpr unsigned int ElationBasicLevelDamageRow_TypeDefinitionIndex = 13289;
 
 	class ElationBasicLevelDamageRow : public ::System::Object
 	{

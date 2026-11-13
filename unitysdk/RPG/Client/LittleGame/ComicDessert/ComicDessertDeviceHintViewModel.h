@@ -1,0 +1,126 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client::LittleGame::ComicDessert { class ComicDessertDeviceHintTimingConfig; }
+namespace RPG::Client::LittleGame::ComicDessert { class ViewModelEventHandler; }
+
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_ADD_ONHINTHIDE_OFFSET UNITYSDK_OFFSET(0x1E1474E0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_ADD_ONHINTSHOW_OFFSET UNITYSDK_OFFSET(0x1E147420)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_ADD_ONNODEVISIBLECHANGED_OFFSET UNITYSDK_OFFSET(0x1E1475A0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1477D0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_GET_DEVICEID_OFFSET UNITYSDK_OFFSET(0x1E147350)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_GET_MOMENTARYHOLDSECONDS_OFFSET UNITYSDK_OFFSET(0x1E1473B0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_GET_NODEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1E147390)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_GET_PERSISTENT_OFFSET UNITYSDK_OFFSET(0x1E147370)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_HIDE_OFFSET UNITYSDK_OFFSET(0x1E1476E0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_REMOVE_ONHINTHIDE_OFFSET UNITYSDK_OFFSET(0x1E147540)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_REMOVE_ONHINTSHOW_OFFSET UNITYSDK_OFFSET(0x1E147480)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_REMOVE_ONNODEVISIBLECHANGED_OFFSET UNITYSDK_OFFSET(0x1E147600)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SETNODEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1E147750)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SET_DEVICEID_OFFSET UNITYSDK_OFFSET(0x1E147360)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SET_NODEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1E1473A0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SET_PERSISTENT_OFFSET UNITYSDK_OFFSET(0x1E147380)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SHOW_OFFSET UNITYSDK_OFFSET(0x1E147660)
+
+namespace RPG::Client::LittleGame::ComicDessert
+{
+	inline static constexpr unsigned int ComicDessertDeviceHintViewModel_TypeDefinitionIndex = 80114;
+
+	class ComicDessertDeviceHintViewModel : public ::System::Object
+	{
+	public:
+		::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* OnHintHide; // 0x10
+		::RPG::Client::LittleGame::ComicDessert::ComicDessertDeviceHintTimingConfig* _TimingConfig; // 0x18
+		::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* OnNodeVisibleChanged; // 0x20
+		::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* OnHintShow; // 0x28
+		::System::UInt32 _DeviceID_k__BackingField; // 0x30
+		::System::Boolean _Persistent_k__BackingField; // 0x34
+		::System::Boolean _NodeVisible_k__BackingField; // 0x35
+		// static const ::System::Object _FALLBACK_HOLD_SECONDS; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DeviceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_GET_DEVICEID_OFFSET))(this);
+		}
+
+		::System::Void set_DeviceID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SET_DEVICEID_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_Persistent()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_GET_PERSISTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Persistent(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SET_PERSISTENT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_NodeVisible()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_GET_NODEVISIBLE_OFFSET))(this);
+		}
+
+		::System::Void set_NodeVisible(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SET_NODEVISIBLE_OFFSET))(this, a1);
+		}
+
+		::System::Single get_MomentaryHoldSeconds()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_GET_MOMENTARYHOLDSECONDS_OFFSET))(this);
+		}
+
+		::System::Void add_OnHintShow(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_ADD_ONHINTSHOW_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnHintShow(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_REMOVE_ONHINTSHOW_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnHintHide(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_ADD_ONHINTHIDE_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnHintHide(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_REMOVE_ONHINTHIDE_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnNodeVisibleChanged(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_ADD_ONNODEVISIBLECHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnNodeVisibleChanged(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_REMOVE_ONNODEVISIBLECHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void Show(::System::UInt32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SHOW_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Hide(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_HIDE_OFFSET))(this, a1);
+		}
+
+		::System::Void SetNodeVisible(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDEVICEHINTVIEWMODEL_SETNODEVISIBLE_OFFSET))(this, a1);
+		}
+
+	};
+}

@@ -4,8 +4,8 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB83F0)
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1EFB8400)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0BB40)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1DB0BB50)
 
 namespace System::ComponentModel::Design::Serialization
 {
@@ -14,8 +14,8 @@ namespace System::ComponentModel::Design::Serialization
 	class DesignerSerializerAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* serializerBaseTypeName; // 0x10
-		::System::String* serializerTypeName; // 0x18
+		::System::String* serializerTypeName; // 0x10
+		::System::String* serializerBaseTypeName; // 0x18
 		::System::String* typeId; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{

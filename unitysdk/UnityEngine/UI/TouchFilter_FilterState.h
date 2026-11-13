@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int TouchFilter_FilterState_TypeDefinitionIndex = 6872;
+	inline static constexpr unsigned int TouchFilter_FilterState_TypeDefinitionIndex = 6883;
 
 	enum class TouchFilter_FilterState : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int TextureLoader_TypeDefinitionIndex = 39648;
+	inline static constexpr unsigned int TextureLoader_TypeDefinitionIndex = 40577;
 
 	class TextureLoader
 	{

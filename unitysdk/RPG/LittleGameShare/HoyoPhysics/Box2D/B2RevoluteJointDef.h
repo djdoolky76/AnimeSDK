@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2RevoluteJointDef_TypeDefinitionIndex = 36739;
+	inline static constexpr unsigned int B2RevoluteJointDef_TypeDefinitionIndex = 37667;
 
 	struct alignas(4) B2RevoluteJointDef
 	{

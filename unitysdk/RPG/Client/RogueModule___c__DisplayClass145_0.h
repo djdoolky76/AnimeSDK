@@ -4,12 +4,12 @@
 class KPDDKCNHJAB;
 namespace RPG::Client { class RogueAreaData; }
 
-#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS145_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF47B10)
-#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS145_0___ONCMDSYNCROGUEAREAUNLOCKSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xDF4A360)
+#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS145_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB34D70)
+#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS145_0___ONCMDSYNCROGUEAREAUNLOCKSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x1CB37570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueModule___c__DisplayClass145_0_TypeDefinitionIndex = 67452;
+	inline static constexpr unsigned int RogueModule___c__DisplayClass145_0_TypeDefinitionIndex = 69396;
 
 	class RogueModule___c__DisplayClass145_0 : public ::System::Object
 	{

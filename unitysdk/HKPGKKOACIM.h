@@ -10,37 +10,36 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define HKPGKKOACIM_AHICKGJHFEG_OFFSET UNITYSDK_OFFSET(0x15D43D50)
-#define HKPGKKOACIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15D43CE0)
-#define HKPGKKOACIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D43D00)
-#define HKPGKKOACIM_FMNLLMGPDHI_OFFSET UNITYSDK_OFFSET(0x15D44790)
-#define HKPGKKOACIM_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x15D44E40)
-#define HKPGKKOACIM_NKDNCJDPHIO_OFFSET UNITYSDK_OFFSET(0x15D442B0)
-#define HKPGKKOACIM_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x15D44DE0)
-#define HKPGKKOACIM_ONSKIP_OFFSET UNITYSDK_OFFSET(0x15D44C30)
-#define HKPGKKOACIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D443A0)
-#define HKPGKKOACIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D447F0)
-#define HKPGKKOACIM_TICK_OFFSET UNITYSDK_OFFSET(0x15D44840)
+#define HKPGKKOACIM_AHICKGJHFEG_OFFSET UNITYSDK_OFFSET(0x19890BB0)
+#define HKPGKKOACIM_CTOR_OFFSET UNITYSDK_OFFSET(0x19890B40)
+#define HKPGKKOACIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19890B60)
+#define HKPGKKOACIM_FMNLLMGPDHI_OFFSET UNITYSDK_OFFSET(0x19891600)
+#define HKPGKKOACIM_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x19891CB0)
+#define HKPGKKOACIM_NKDNCJDPHIO_OFFSET UNITYSDK_OFFSET(0x19891110)
+#define HKPGKKOACIM_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x19891C50)
+#define HKPGKKOACIM_ONSKIP_OFFSET UNITYSDK_OFFSET(0x19891AA0)
+#define HKPGKKOACIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19891210)
+#define HKPGKKOACIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19891660)
+#define HKPGKKOACIM_TICK_OFFSET UNITYSDK_OFFSET(0x198916B0)
 
-inline static constexpr unsigned int HKPGKKOACIM_TypeDefinitionIndex = 52355;
+inline static constexpr unsigned int HKPGKKOACIM_TypeDefinitionIndex = 53461;
 
 	class HKPGKKOACIM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::GameEntity* ACJGKBDLCMF; // 0x18
-		::RPG::GameCore::GameEntity* NBEMEHAHGEG; // 0x20
-		::RPG::GameCore::AdventureCharacterController* OHMHKPLKPJI; // 0x28
-		::RPG::GameCore::TransformComponent* JDPKGCFJHJF; // 0x30
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
-		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x40
-		::RPG::GameCore::AdvEnablePropDialogMode* OFKGLJOAMLD; // 0x48
-		::System::Boolean FPGKLEODJJN; // 0x50
-		::System::Byte _padding0[0x3];
-		::UnityEngine::Vector3 KIPJGEFAHPF; // 0x54
-		::System::Nullable_1<::UnityEngine::Vector3> EPBKDBCMBDN; // 0x60
-		::System::Byte _padding1[0x8];
-		::System::Single MLIKCLDNOCI; // 0x70
-		::System::Single AKAHKABBNAF; // 0x74
+		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x18
+		::RPG::GameCore::AdventureCharacterController* OHMHKPLKPJI; // 0x20
+		::RPG::GameCore::GameEntity* NBEMEHAHGEG; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::RPG::GameCore::AdvEnablePropDialogMode* OFKGLJOAMLD; // 0x38
+		::RPG::GameCore::GameEntity* ACJGKBDLCMF; // 0x40
+		::RPG::GameCore::TransformComponent* JDPKGCFJHJF; // 0x48
+		::System::Nullable_1<::UnityEngine::Vector3> EPBKDBCMBDN; // 0x50
+		::System::Byte _padding0[0x8];
+		::System::Single MLIKCLDNOCI; // 0x60
+		::System::Single AKAHKABBNAF; // 0x64
+		::UnityEngine::Vector3 KIPJGEFAHPF; // 0x68
+		::System::Boolean FPGKLEODJJN; // 0x74
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvEnablePropDialogMode* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvEnablePropDialogMode*))((::PBYTE)hIl2Cpp + HKPGKKOACIM_CTOR_OFFSET))(this, a1, a2);

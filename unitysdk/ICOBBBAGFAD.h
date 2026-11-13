@@ -3,10 +3,10 @@
 #include "unitysdk/HBIAKFCLCIG.h"
 #include "unitysdk/CAHKKMIFGGB.h"
 
-#define ICOBBBAGFAD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E504C0)
-#define ICOBBBAGFAD_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x15E50440)
+#define ICOBBBAGFAD_CTOR_OFFSET UNITYSDK_OFFSET(0x188DD470)
+#define ICOBBBAGFAD_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x188DD3F0)
 
-inline static constexpr unsigned int ICOBBBAGFAD_TypeDefinitionIndex = 64928;
+inline static constexpr unsigned int ICOBBBAGFAD_TypeDefinitionIndex = 66499;
 
 	class ICOBBBAGFAD : public ::HBIAKFCLCIG
 	{

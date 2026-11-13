@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define MACCDOJMOPK_BLJLIHCPEAK_OFFSET UNITYSDK_OFFSET(0xB838470)
-#define MACCDOJMOPK_HILJEAIAMEL_OFFSET UNITYSDK_OFFSET(0xB838430)
+#define MACCDOJMOPK_BLJLIHCPEAK_OFFSET UNITYSDK_OFFSET(0x1B6D2A00)
+#define MACCDOJMOPK_HILJEAIAMEL_OFFSET UNITYSDK_OFFSET(0x1B6D29C0)
 
-inline static constexpr unsigned int MACCDOJMOPK_TypeDefinitionIndex = 51712;
+inline static constexpr unsigned int MACCDOJMOPK_TypeDefinitionIndex = 52797;
 
 	class MACCDOJMOPK : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HGIIIEDAIDK_TypeDefinitionIndex = 33888;
+inline static constexpr unsigned int HGIIIEDAIDK_TypeDefinitionIndex = 34803;
 
 	enum class HGIIIEDAIDK : ::System::Int32
 	{

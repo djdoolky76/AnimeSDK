@@ -8,37 +8,37 @@ namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define RPG_CLIENT_STATICLISTVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1341B0)
-#define RPG_CLIENT_STATICLISTVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1341E0)
-#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_0_OFFSET UNITYSDK_OFFSET(0xE1341F0)
-#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_1_OFFSET UNITYSDK_OFFSET(0xE134260)
-#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_2_OFFSET UNITYSDK_OFFSET(0xE134550)
+#define RPG_CLIENT_STATICLISTVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A921880)
+#define RPG_CLIENT_STATICLISTVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9218B0)
+#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_0_OFFSET UNITYSDK_OFFSET(0x1A9218C0)
+#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_1_OFFSET UNITYSDK_OFFSET(0x1A921930)
+#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_2_OFFSET UNITYSDK_OFFSET(0x1A921C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StaticListView___c_TypeDefinitionIndex = 72657;
+	inline static constexpr unsigned int StaticListView___c_TypeDefinitionIndex = 74736;
 
 	class StaticListView___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F910);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::StaticListViewItem*>** StaticGet___9__49_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::StaticListViewItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F918);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC840);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::StaticListViewItem*>** StaticGet___9__49_2()
 		{
-			return (::System::Comparison_1<::RPG::Client::StaticListViewItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F920);
+			return (::System::Comparison_1<::RPG::Client::StaticListViewItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC848);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::StaticListViewItem*>** StaticGet___9__49_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::StaticListViewItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC850);
 		}
 
 		static ::System::Action_2<::System::Collections::Generic::List_1<::RPG::Client::StaticListViewItem*>*, ::System::Collections::Generic::Queue_1<::RPG::Client::StaticListViewItem*>*>** StaticGet___9__49_1()
 		{
-			return (::System::Action_2<::System::Collections::Generic::List_1<::RPG::Client::StaticListViewItem*>*, ::System::Collections::Generic::Queue_1<::RPG::Client::StaticListViewItem*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F928);
+			return (::System::Action_2<::System::Collections::Generic::List_1<::RPG::Client::StaticListViewItem*>*, ::System::Collections::Generic::Queue_1<::RPG::Client::StaticListViewItem*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC858);
 		}
 
 		static ::System::Void _cctor()

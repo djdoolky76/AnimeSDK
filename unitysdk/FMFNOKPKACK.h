@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FMFNOKPKACK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CDDBF20)
-#define FMFNOKPKACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDDC520)
-#define FMFNOKPKACK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CDDC090)
-#define FMFNOKPKACK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CDDB950)
-#define FMFNOKPKACK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CDDBBE0)
-#define FMFNOKPKACK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CDDC130)
-#define FMFNOKPKACK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CDDC180)
-#define FMFNOKPKACK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CDDBF60)
-#define FMFNOKPKACK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CDDBB80)
-#define FMFNOKPKACK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CDDBD50)
-#define FMFNOKPKACK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDDBFF0)
-#define FMFNOKPKACK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDDB8D0)
+#define FMFNOKPKACK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1EA2C100)
+#define FMFNOKPKACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA2C700)
+#define FMFNOKPKACK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1EA2C270)
+#define FMFNOKPKACK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1EA2BB30)
+#define FMFNOKPKACK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1EA2BDC0)
+#define FMFNOKPKACK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1EA2C310)
+#define FMFNOKPKACK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1EA2C360)
+#define FMFNOKPKACK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1EA2C140)
+#define FMFNOKPKACK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1EA2BD60)
+#define FMFNOKPKACK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1EA2BF30)
+#define FMFNOKPKACK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1EA2C1D0)
+#define FMFNOKPKACK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EA2BAB0)
 
-inline static constexpr unsigned int FMFNOKPKACK_TypeDefinitionIndex = 13519;
+inline static constexpr unsigned int FMFNOKPKACK_TypeDefinitionIndex = 13614;
 
 	class FMFNOKPKACK : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightRoleServantStarConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightRoleServantStarConfigRow*>**)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0x9CD0);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0x12DB0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0x9CD8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0x12DB8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightRoleServantStarConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightRoleServantStarConfigRow*>**)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0x12DC0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0x3DA0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0x9CE0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0x3DA1);
+			return (::System::Byte*)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0xCA0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "FMFNOKPKACK")->GetStaticField(0xCA1);
 		}
 
 		static ::System::Void _cctor()

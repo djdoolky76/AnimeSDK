@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define GHHGBAOEKAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A13210)
+#define GHHGBAOEKAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BC920)
 
-inline static constexpr unsigned int GHHGBAOEKAJ_TypeDefinitionIndex = 48319;
+inline static constexpr unsigned int GHHGBAOEKAJ_TypeDefinitionIndex = 49360;
 
 	class GHHGBAOEKAJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{

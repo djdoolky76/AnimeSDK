@@ -5,23 +5,23 @@ class WaveSimPanel;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define IOLIAAFBFON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16503EC0)
-#define IOLIAAFBFON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16503F00)
-#define IOLIAAFBFON___C__UPDATEVOLUME_B__161_0_OFFSET UNITYSDK_OFFSET(0x16503F10)
+#define IOLIAAFBFON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x192F10B0)
+#define IOLIAAFBFON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x192F10F0)
+#define IOLIAAFBFON___C__UPDATEVOLUME_B__161_0_OFFSET UNITYSDK_OFFSET(0x192F1100)
 
-inline static constexpr unsigned int IOLIAAFBFON___c_TypeDefinitionIndex = 47498;
+inline static constexpr unsigned int IOLIAAFBFON___c_TypeDefinitionIndex = 48527;
 
 	class IOLIAAFBFON___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::WaveSimPanel*>** StaticGet___9__161_0()
-		{
-			return (::System::Comparison_1<::WaveSimPanel*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x695D0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x695D8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58B20);
+		}
+
+		static ::System::Comparison_1<::WaveSimPanel*>** StaticGet___9__161_0()
+		{
+			return (::System::Comparison_1<::WaveSimPanel*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58B28);
 		}
 
 		static ::System::Void _cctor()

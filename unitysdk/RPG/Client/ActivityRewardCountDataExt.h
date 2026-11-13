@@ -4,11 +4,11 @@
 namespace RPG::Client { class ActivityRewardCountData; }
 namespace RPG::Client { class ActivityRewardCountItemData; }
 
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATAEXT_GETHCOINCOUNT_OFFSET UNITYSDK_OFFSET(0xC576600)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATAEXT_GETHCOINCOUNT_OFFSET UNITYSDK_OFFSET(0x1DCB8FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardCountDataExt_TypeDefinitionIndex = 61787;
+	inline static constexpr unsigned int ActivityRewardCountDataExt_TypeDefinitionIndex = 63193;
 
 	class ActivityRewardCountDataExt : public ::System::Object
 	{

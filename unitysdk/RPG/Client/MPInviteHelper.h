@@ -4,12 +4,12 @@
 namespace RPG::Client { class ChatMessageData; }
 namespace RPG::Client { class ChatMessageInviteData; }
 
-#define RPG_CLIENT_MPINVITEHELPER_ACCEPTINVITATION_OFFSET UNITYSDK_OFFSET(0xD4F11E0)
-#define RPG_CLIENT_MPINVITEHELPER_ACCEPTLOBBYINVITATION_OFFSET UNITYSDK_OFFSET(0xD4F1280)
+#define RPG_CLIENT_MPINVITEHELPER_ACCEPTINVITATION_OFFSET UNITYSDK_OFFSET(0x194883B0)
+#define RPG_CLIENT_MPINVITEHELPER_ACCEPTLOBBYINVITATION_OFFSET UNITYSDK_OFFSET(0x19488450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MPInviteHelper_TypeDefinitionIndex = 60109;
+	inline static constexpr unsigned int MPInviteHelper_TypeDefinitionIndex = 61393;
 
 	class MPInviteHelper : public ::System::Object
 	{

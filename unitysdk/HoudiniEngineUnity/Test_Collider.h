@@ -4,13 +4,13 @@
 namespace HoudiniEngineUnity { class Test_Collider; }
 namespace UnityEngine { class Collider; }
 
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B98FB50)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B98FB80)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B98FB60)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x20879D80)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x20879DB0)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_ISNULL_OFFSET UNITYSDK_OFFSET(0x20879D90)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Collider_TypeDefinitionIndex = 40719;
+	inline static constexpr unsigned int Test_Collider_TypeDefinitionIndex = 41694;
 
 	class Test_Collider : public ::System::Object
 	{

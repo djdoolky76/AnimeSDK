@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_TILEMESHCACHEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xCB931A0)
+#define RPG_CLIENT_COASTINFOWAVEMONOPLUGIN_TILEMESHCACHEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D026E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TileMeshCacheEntry_TypeDefinitionIndex = 70931;
+	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TileMeshCacheEntry_TypeDefinitionIndex = 72910;
 
 	class CoastinfoWaveMonoPlugin_TileMeshCacheEntry : public ::System::Object
 	{

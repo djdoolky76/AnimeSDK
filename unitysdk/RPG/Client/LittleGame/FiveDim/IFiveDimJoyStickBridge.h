@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimJoyStickBridge_TypeDefinitionIndex = 77225;
+	inline static constexpr unsigned int IFiveDimJoyStickBridge_TypeDefinitionIndex = 79559;
 
 	class IFiveDimJoyStickBridge
 	{

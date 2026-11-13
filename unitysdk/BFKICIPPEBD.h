@@ -4,11 +4,11 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class String; }
 
-#define BFKICIPPEBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB16EC30)
-#define BFKICIPPEBD_GET_HASUNREADDOT_OFFSET UNITYSDK_OFFSET(0xB16ED30)
-#define BFKICIPPEBD_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xB16ED20)
+#define BFKICIPPEBD_CTOR_OFFSET UNITYSDK_OFFSET(0x151AD7D0)
+#define BFKICIPPEBD_GET_HASUNREADDOT_OFFSET UNITYSDK_OFFSET(0x151AD8D0)
+#define BFKICIPPEBD_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x151AD8C0)
 
-inline static constexpr unsigned int BFKICIPPEBD_TypeDefinitionIndex = 73467;
+inline static constexpr unsigned int BFKICIPPEBD_TypeDefinitionIndex = 75590;
 
 	class BFKICIPPEBD : public ::System::Object
 	{

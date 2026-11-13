@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFloorCustomStringV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DAANHAGONFD_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB0A60)
-#define DAANHAGONFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFB0A90)
+#define DAANHAGONFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1993BAC0)
+#define DAANHAGONFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1993BAF0)
 
-inline static constexpr unsigned int DAANHAGONFD_TypeDefinitionIndex = 52561;
+inline static constexpr unsigned int DAANHAGONFD_TypeDefinitionIndex = 53667;
 
 	class DAANHAGONFD
 	{

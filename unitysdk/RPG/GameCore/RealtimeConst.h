@@ -13,17 +13,17 @@ namespace RPG::GameCore { class RtBehaviorFlagListPair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_REALTIMECONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D942300)
-#define RPG_GAMECORE_REALTIMECONST_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1D942470)
-#define RPG_GAMECORE_REALTIMECONST_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1D942890)
-#define RPG_GAMECORE_REALTIMECONST_HAELGOMHLKP_OFFSET UNITYSDK_OFFSET(0x1D9423C0)
-#define RPG_GAMECORE_REALTIMECONST_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1D942320)
-#define RPG_GAMECORE_REALTIMECONST_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x1D9423A0)
-#define RPG_GAMECORE_REALTIMECONST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D941F90)
+#define RPG_GAMECORE_REALTIMECONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F22BB90)
+#define RPG_GAMECORE_REALTIMECONST_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1F22BD00)
+#define RPG_GAMECORE_REALTIMECONST_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1F22C120)
+#define RPG_GAMECORE_REALTIMECONST_HAELGOMHLKP_OFFSET UNITYSDK_OFFSET(0x1F22BC50)
+#define RPG_GAMECORE_REALTIMECONST_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1F22BBB0)
+#define RPG_GAMECORE_REALTIMECONST_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x1F22BC30)
+#define RPG_GAMECORE_REALTIMECONST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F22B820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RealtimeConst_TypeDefinitionIndex = 17647;
+	inline static constexpr unsigned int RealtimeConst_TypeDefinitionIndex = 17816;
 
 	class RealtimeConst : public ::RPG::GameCore::JsonConfig
 	{
@@ -39,7 +39,7 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RtBehaviorFlag, ::System::Collections::Generic::List_1<::RPG::GameCore::RtBehaviorFlag>*>* _reverseModifierBehaviorFlagImmuneMap; // 0x48
 		static ::RPG::GameCore::RealtimeConst** StaticGet_Config()
 		{
-			return (::RPG::GameCore::RealtimeConst**)UnitySDK::FromName("RPG.GameCore", "RealtimeConst")->GetStaticField(0x11B70);
+			return (::RPG::GameCore::RealtimeConst**)UnitySDK::FromName("RPG.GameCore", "RealtimeConst")->GetStaticField(0xB1B0);
 		}
 
 		::System::Void _ctor()

@@ -6,10 +6,10 @@ class DMGLFMNEJGL;
 class EFIDOJDHNGJ;
 namespace System { class String; }
 
-#define LDOGDMLGLPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB63C5D0)
-#define LDOGDMLGLPI_DODBOKHHICP_OFFSET UNITYSDK_OFFSET(0xB63B1A0)
+#define LDOGDMLGLPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC9EA60)
+#define LDOGDMLGLPI_DODBOKHHICP_OFFSET UNITYSDK_OFFSET(0x1AC9D5F0)
 
-inline static constexpr unsigned int LDOGDMLGLPI_TypeDefinitionIndex = 73422;
+inline static constexpr unsigned int LDOGDMLGLPI_TypeDefinitionIndex = 75545;
 
 	class LDOGDMLGLPI : public ::System::Object
 	{

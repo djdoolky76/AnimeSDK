@@ -5,11 +5,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NotifyHandler; }
 
-#define RPG_CLIENT_NOTIFYMANAGER_NOTIFYHANDLERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD9CC7E0)
+#define RPG_CLIENT_NOTIFYMANAGER_NOTIFYHANDLERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD8F800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyManager_NotifyHandlerInfo_TypeDefinitionIndex = 59287;
+	inline static constexpr unsigned int NotifyManager_NotifyHandlerInfo_TypeDefinitionIndex = 60564;
 
 	class NotifyManager_NotifyHandlerInfo : public ::System::Object
 	{

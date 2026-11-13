@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareEntityAuthoritySide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GPNFKDJIDBE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B55C80)
-#define GPNFKDJIDBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B55CB0)
+#define GPNFKDJIDBE_CTOR_OFFSET UNITYSDK_OFFSET(0x17DC2390)
+#define GPNFKDJIDBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17DC23C0)
 
-inline static constexpr unsigned int GPNFKDJIDBE_TypeDefinitionIndex = 52555;
+inline static constexpr unsigned int GPNFKDJIDBE_TypeDefinitionIndex = 53661;
 
 	class GPNFKDJIDBE
 	{

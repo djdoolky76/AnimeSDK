@@ -5,23 +5,23 @@ class KPGLJBFPDEG_CALIKBMPKEI;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KPGLJBFPDEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5B67E0)
-#define KPGLJBFPDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B6810)
-#define KPGLJBFPDEG___C__HASCUSTOMTOPPANEL_B__0_0_OFFSET UNITYSDK_OFFSET(0xB5B6820)
+#define KPGLJBFPDEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19126FD0)
+#define KPGLJBFPDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19127000)
+#define KPGLJBFPDEG___C__HASCUSTOMTOPPANEL_B__0_0_OFFSET UNITYSDK_OFFSET(0x19127010)
 
-inline static constexpr unsigned int KPGLJBFPDEG___c_TypeDefinitionIndex = 72044;
+inline static constexpr unsigned int KPGLJBFPDEG___c_TypeDefinitionIndex = 74075;
 
 	class KPGLJBFPDEG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63390);
-		}
-
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63398);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EF30);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EF38);
 		}
 
 		static ::System::Void _cctor()

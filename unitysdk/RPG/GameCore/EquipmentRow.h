@@ -8,36 +8,36 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EquipmentRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EQUIPMENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D652260)
-#define RPG_GAMECORE_EQUIPMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D64E070)
+#define RPG_GAMECORE_EQUIPMENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F7660)
+#define RPG_GAMECORE_EQUIPMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0F3470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentRow_TypeDefinitionIndex = 13236;
+	inline static constexpr unsigned int EquipmentRow_TypeDefinitionIndex = 13310;
 
 	class EquipmentRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* GachaResultOffset; // 0x10
-		::Il2CppArray<::System::UInt32>* RankUpCostList; // 0x18
-		::Il2CppArray<::System::Single>* BattleDialogOffset; // 0x20
+		::Il2CppArray<::System::UInt32>* RankUpCostList; // 0x10
+		::Il2CppArray<::System::Single>* AvatarDetailOffset; // 0x18
+		::Il2CppArray<::System::Single>* ItemRightPanelOffset; // 0x20
 		::System::String* ThumbnailPath; // 0x28
-		::Il2CppArray<::System::Single>* AvatarDetailOffset; // 0x30
-		::Il2CppArray<::System::Single>* ItemRightPanelOffset; // 0x38
+		::Il2CppArray<::System::Single>* GachaResultOffset; // 0x30
+		::Il2CppArray<::System::Single>* BattleDialogOffset; // 0x38
 		::System::String* ImagePath; // 0x40
-		::RPG::GameCore::AvatarBaseType AvatarBaseType; // 0x48
-		::System::UInt32 ExpType; // 0x4C
-		::RPG::GameCore::CombatPowerLightconeRarityType Rarity; // 0x50
-		::System::UInt32 MaxPromotion; // 0x54
-		::System::UInt32 EquipmentID; // 0x58
-		::System::UInt32 SkillID; // 0x5C
-		::System::UInt32 ExpProvide; // 0x60
-		::System::Boolean Release; // 0x64
+		::System::Boolean Release; // 0x48
 		::System::Byte _padding0[0x3];
+		::System::UInt32 MaxPromotion; // 0x4C
+		::System::UInt32 EquipmentID; // 0x50
+		::System::UInt32 ExpProvide; // 0x54
+		::System::UInt32 SkillID; // 0x58
+		::RPG::GameCore::CombatPowerLightconeRarityType Rarity; // 0x5C
+		::RPG::GameCore::AvatarBaseType AvatarBaseType; // 0x60
+		::System::UInt32 ExpType; // 0x64
 		::RPG::Client::TextID EquipmentName; // 0x68
-		::RPG::Client::TextID EquipmentDesc; // 0x78
-		::System::UInt32 CoinCost; // 0x88
-		::System::UInt32 MaxRank; // 0x8C
+		::System::UInt32 CoinCost; // 0x78
+		::System::UInt32 MaxRank; // 0x7C
+		::RPG::Client::TextID EquipmentDesc; // 0x80
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EQUIPMENTROW_CTOR_OFFSET))(this);

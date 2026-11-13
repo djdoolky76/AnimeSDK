@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FNLEMEHLPDI_OBBBNFCDCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1586EF50)
+#define FNLEMEHLPDI_OBBBNFCDCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17F226F0)
 
-inline static constexpr unsigned int FNLEMEHLPDI_OBBBNFCDCAJ_TypeDefinitionIndex = 57490;
+inline static constexpr unsigned int FNLEMEHLPDI_OBBBNFCDCAJ_TypeDefinitionIndex = 58718;
 
 	class FNLEMEHLPDI_OBBBNFCDCAJ : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SwordTrainingSetDynamicValueByHPMultiplier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKDNJNAHJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xD751E20)
-#define CKDNJNAHJOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD751F00)
+#define CKDNJNAHJOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD39DF0)
+#define CKDNJNAHJOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD39ED0)
 
-inline static constexpr unsigned int CKDNJNAHJOM_TypeDefinitionIndex = 55701;
+inline static constexpr unsigned int CKDNJNAHJOM_TypeDefinitionIndex = 56903;
 
 	class CKDNJNAHJOM
 	{

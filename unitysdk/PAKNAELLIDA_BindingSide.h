@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PAKNAELLIDA_BindingSide_TypeDefinitionIndex = 44058;
+inline static constexpr unsigned int PAKNAELLIDA_BindingSide_TypeDefinitionIndex = 45133;
 
 	enum class PAKNAELLIDA_BindingSide : ::System::Int32
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define MJONIALKJID_CTOR_OFFSET UNITYSDK_OFFSET(0x1D188800)
+#define MJONIALKJID_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58D380)
 
-inline static constexpr unsigned int MJONIALKJID_TypeDefinitionIndex = 25000;
+inline static constexpr unsigned int MJONIALKJID_TypeDefinitionIndex = 25480;
 
 	class MJONIALKJID : public ::System::Attribute
 	{

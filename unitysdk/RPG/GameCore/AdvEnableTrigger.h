@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AdvEnableTrigger; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENABLETRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36F4C0)
-#define RPG_GAMECORE_ADVENABLETRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D36F4D0)
-#define RPG_GAMECORE_ADVENABLETRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D36F490)
+#define RPG_GAMECORE_ADVENABLETRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB6E30)
+#define RPG_GAMECORE_ADVENABLETRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAB6E40)
+#define RPG_GAMECORE_ADVENABLETRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB6E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnableTrigger_TypeDefinitionIndex = 20538;
+	inline static constexpr unsigned int AdvEnableTrigger_TypeDefinitionIndex = 20874;
 
 	class AdvEnableTrigger : public ::RPG::GameCore::TaskConfig
 	{

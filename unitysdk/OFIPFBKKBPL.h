@@ -4,15 +4,15 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimSwitchPlatformConfig; }
 
-#define OFIPFBKKBPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95EAD0)
+#define OFIPFBKKBPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06D230)
 
-inline static constexpr unsigned int OFIPFBKKBPL_TypeDefinitionIndex = 43467;
+inline static constexpr unsigned int OFIPFBKKBPL_TypeDefinitionIndex = 44449;
 
 	class OFIPFBKKBPL : public ::System::Object
 	{
 	public:
-		::BNFBKAKHFDL BPAPBAFOMCH; // 0x10
-		::RPG::GameCore::FiveDimSwitchPlatformConfig* EABKOHGCHFP; // 0x28
+		::RPG::GameCore::FiveDimSwitchPlatformConfig* EABKOHGCHFP; // 0x10
+		::BNFBKAKHFDL BPAPBAFOMCH; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFIPFBKKBPL_CTOR_OFFSET))(this);

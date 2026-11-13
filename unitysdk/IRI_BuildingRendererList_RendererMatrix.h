@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRI_BUILDINGRENDERERLIST_RENDERERMATRIX_CTOR_OFFSET UNITYSDK_OFFSET(0x165254C0)
+#define IRI_BUILDINGRENDERERLIST_RENDERERMATRIX_CTOR_OFFSET UNITYSDK_OFFSET(0x19312980)
 
-inline static constexpr unsigned int IRI_BuildingRendererList_RendererMatrix_TypeDefinitionIndex = 47167;
+inline static constexpr unsigned int IRI_BuildingRendererList_RendererMatrix_TypeDefinitionIndex = 48195;
 
 	class IRI_BuildingRendererList_RendererMatrix : public ::System::Object
 	{

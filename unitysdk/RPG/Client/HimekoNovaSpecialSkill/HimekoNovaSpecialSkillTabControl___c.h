@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLTABCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD326DE0)
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLTABCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD326E20)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLTABCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1704E200)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLTABCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1704E240)
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
-	inline static constexpr unsigned int HimekoNovaSpecialSkillTabControl___c_TypeDefinitionIndex = 80491;
+	inline static constexpr unsigned int HimekoNovaSpecialSkillTabControl___c_TypeDefinitionIndex = 83271;
 
 	class HimekoNovaSpecialSkillTabControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.HimekoNovaSpecialSkill", "<>c")->GetStaticField(0x13B90);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.HimekoNovaSpecialSkill", "<>c")->GetStaticField(0x222E0);
 		}
 
 		static ::System::Void _cctor()

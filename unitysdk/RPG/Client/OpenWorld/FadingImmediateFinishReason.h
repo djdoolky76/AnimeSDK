@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int FadingImmediateFinishReason_TypeDefinitionIndex = 73947;
+	inline static constexpr unsigned int FadingImmediateFinishReason_TypeDefinitionIndex = 76083;
 
 	enum class FadingImmediateFinishReason : ::System::Int32
 	{

@@ -5,23 +5,23 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define GOCODBMFHPH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B1E950)
-#define GOCODBMFHPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1E990)
-#define GOCODBMFHPH___C___EXECUTESWITCHPHASE_B__9_3_OFFSET UNITYSDK_OFFSET(0x15B1E9A0)
+#define GOCODBMFHPH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x187AEDD0)
+#define GOCODBMFHPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x187AEE10)
+#define GOCODBMFHPH___C___EXECUTESWITCHPHASE_B__9_3_OFFSET UNITYSDK_OFFSET(0x187AEE20)
 
-inline static constexpr unsigned int GOCODBMFHPH___c_TypeDefinitionIndex = 76301;
+inline static constexpr unsigned int GOCODBMFHPH___c_TypeDefinitionIndex = 78632;
 
 	class GOCODBMFHPH___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6BA00);
-		}
-
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__9_3()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6BA08);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D70);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D78);
 		}
 
 		static ::System::Void _cctor()

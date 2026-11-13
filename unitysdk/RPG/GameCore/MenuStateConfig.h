@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MenuStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MENUSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D845FC0)
-#define RPG_GAMECORE_MENUSTATECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D845DC0)
+#define RPG_GAMECORE_MENUSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6D8930)
+#define RPG_GAMECORE_MENUSTATECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6D8730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MenuStateConfig_TypeDefinitionIndex = 16382;
+	inline static constexpr unsigned int MenuStateConfig_TypeDefinitionIndex = 16546;
 
 	class MenuStateConfig : public ::RPG::GameCore::JsonConfig
 	{

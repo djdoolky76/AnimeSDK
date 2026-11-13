@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtStopLookAt; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RTSTOPLOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA38570)
-#define RPG_GAMECORE_RTSTOPLOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA385B0)
-#define RPG_GAMECORE_RTSTOPLOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA38510)
+#define RPG_GAMECORE_RTSTOPLOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7D810)
+#define RPG_GAMECORE_RTSTOPLOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC7D850)
+#define RPG_GAMECORE_RTSTOPLOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC7D7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtStopLookAt_TypeDefinitionIndex = 24135;
+	inline static constexpr unsigned int RtStopLookAt_TypeDefinitionIndex = 24594;
 
 	class RtStopLookAt : public ::RPG::GameCore::TaskConfig
 	{

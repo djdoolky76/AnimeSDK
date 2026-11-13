@@ -5,19 +5,19 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::Prop { class AdjustContainer_ContainerController; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC0A8A0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS6_0___REGENERATENOREUSE_B__0_OFFSET UNITYSDK_OFFSET(0xDC0BA60)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS6_0___REGENERATENOREUSE_B__1_OFFSET UNITYSDK_OFFSET(0xDC0BF60)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19BEE0D0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS6_0___REGENERATENOREUSE_B__0_OFFSET UNITYSDK_OFFSET(0x19BEF2A0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS6_0___REGENERATENOREUSE_B__1_OFFSET UNITYSDK_OFFSET(0x19BEF7B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdjustContainer_ContainerController___c__DisplayClass6_0_TypeDefinitionIndex = 78196;
+	inline static constexpr unsigned int AdjustContainer_ContainerController___c__DisplayClass6_0_TypeDefinitionIndex = 80931;
 
 	class AdjustContainer_ContainerController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* controller; // 0x10
-		::RPG::Client::Prop::AdjustContainer_ContainerController* __4__this; // 0x18
+		::RPG::Client::Prop::AdjustContainer_ContainerController* __4__this; // 0x10
+		::UnityEngine::GameObject* controller; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);

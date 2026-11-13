@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchPhotoGraphMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNKHKFIAMDG_CTOR_OFFSET UNITYSDK_OFFSET(0xBCC05C0)
-#define NNKHKFIAMDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCC05F0)
+#define NNKHKFIAMDG_CTOR_OFFSET UNITYSDK_OFFSET(0x17A05800)
+#define NNKHKFIAMDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17A05830)
 
-inline static constexpr unsigned int NNKHKFIAMDG_TypeDefinitionIndex = 53322;
+inline static constexpr unsigned int NNKHKFIAMDG_TypeDefinitionIndex = 54484;
 
 	class NNKHKFIAMDG
 	{

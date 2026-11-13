@@ -4,13 +4,13 @@
 namespace HoudiniEngineUnity { class Test_Gradient; }
 namespace UnityEngine { class Gradient; }
 
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9906B0)
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9906D0)
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9906C0)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x2087A8E0)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x2087A900)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_ISNULL_OFFSET UNITYSDK_OFFSET(0x2087A8F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Gradient_TypeDefinitionIndex = 40745;
+	inline static constexpr unsigned int Test_Gradient_TypeDefinitionIndex = 41720;
 
 	class Test_Gradient : public ::System::Object
 	{

@@ -6,19 +6,19 @@ namespace RPG::GameCore { class UIImageNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLESHOWUIPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC8580F0)
+#define RPG_CLIENT_BATTLESHOWUIPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD86840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleShowUIPageParam_TypeDefinitionIndex = 71858;
+	inline static constexpr unsigned int BattleShowUIPageParam_TypeDefinitionIndex = 73879;
 
 	class BattleShowUIPageParam : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::BattleShowUIPageTextParam*>* UITextParams; // 0x10
-		::System::String* TargetName; // 0x18
-		::System::String* CasterName; // 0x20
-		::System::String* AssetPath; // 0x28
+		::System::String* AssetPath; // 0x18
+		::System::String* TargetName; // 0x20
+		::System::String* CasterName; // 0x28
 		::Il2CppArray<::RPG::GameCore::UIImageNode*>* UIImageNodes; // 0x30
 		::System::Single LifeTime; // 0x38
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnPointerDownHandler_TypeDefinitionIndex = 38636;
+	inline static constexpr unsigned int IAsyncOnPointerDownHandler_TypeDefinitionIndex = 39565;
 
 	class IAsyncOnPointerDownHandler
 	{

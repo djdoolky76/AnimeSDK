@@ -5,23 +5,23 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define DPEPJCBMELN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FF6000)
-#define DPEPJCBMELN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF6040)
-#define DPEPJCBMELN___C__EVALUATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x11FF6050)
+#define DPEPJCBMELN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x191BAF20)
+#define DPEPJCBMELN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x191BAF60)
+#define DPEPJCBMELN___C__EVALUATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x191BAF70)
 
-inline static constexpr unsigned int DPEPJCBMELN___c_TypeDefinitionIndex = 59130;
+inline static constexpr unsigned int DPEPJCBMELN___c_TypeDefinitionIndex = 60406;
 
 	class DPEPJCBMELN___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__1_0()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6F0);
+			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70350);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6F8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70358);
 		}
 
 		static ::System::Void _cctor()

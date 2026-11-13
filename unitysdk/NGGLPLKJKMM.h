@@ -9,22 +9,22 @@ class FCOEMCEDLNL;
 class NGGLPLKJKMM;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define NGGLPLKJKMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D9420)
-#define NGGLPLKJKMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D9020)
+#define NGGLPLKJKMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E745310)
+#define NGGLPLKJKMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E744F10)
 
-inline static constexpr unsigned int NGGLPLKJKMM_TypeDefinitionIndex = 18156;
+inline static constexpr unsigned int NGGLPLKJKMM_TypeDefinitionIndex = 18318;
 
 	class NGGLPLKJKMM : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* MDFKCMGPPDM; // 0x10
-		::RPG::GameCore::DynamicFloat* MJPLMGPIMHA; // 0x18
+		::RPG::GameCore::DynamicFloat* MJPLMGPIMHA; // 0x10
+		::RPG::GameCore::DynamicFloat* GKLLOMFGMBI; // 0x18
 		::RPG::GameCore::DynamicFloat* PIBDDOGGDKL; // 0x20
-		::RPG::GameCore::DynamicFloat* GKLLOMFGMBI; // 0x28
+		::RPG::GameCore::DynamicFloat* MDFKCMGPPDM; // 0x28
 		::RPG::GameCore::DynamicFloat* HDKGKHCCEGI; // 0x30
 		::RPG::GameCore::FinalDamageFormulaType NAGHIJIMOKL; // 0x38
-		::RPG::GameCore::HealFormulaType PEBICIMMFMK; // 0x3C
-		::RPG::GameCore::AttackFormulaType OHIAHBOOGII; // 0x40
+		::RPG::GameCore::AttackFormulaType OHIAHBOOGII; // 0x3C
+		::RPG::GameCore::HealFormulaType PEBICIMMFMK; // 0x40
 		::RPG::GameCore::ShieldFormulaType BCCLOHGGLCH; // 0x44
 		::System::Void _ctor()
 		{

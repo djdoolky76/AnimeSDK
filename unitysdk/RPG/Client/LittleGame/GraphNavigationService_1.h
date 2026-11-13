@@ -15,7 +15,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int GraphNavigationService_1_TypeDefinitionIndex = 76513;
+	inline static constexpr unsigned int GraphNavigationService_1_TypeDefinitionIndex = 78844;
 
 	template <typename T>
 	class GraphNavigationService_1 : public ::System::Object

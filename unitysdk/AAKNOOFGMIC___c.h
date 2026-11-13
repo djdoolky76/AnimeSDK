@@ -4,18 +4,18 @@
 class AAKNOOFGMIC;
 namespace System { class Object; }
 
-#define AAKNOOFGMIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD90480)
-#define AAKNOOFGMIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD904C0)
-#define AAKNOOFGMIC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DD904D0)
+#define AAKNOOFGMIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2030DDC0)
+#define AAKNOOFGMIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2030DE00)
+#define AAKNOOFGMIC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2030DE10)
 
-inline static constexpr unsigned int AAKNOOFGMIC___c_TypeDefinitionIndex = 26737;
+inline static constexpr unsigned int AAKNOOFGMIC___c_TypeDefinitionIndex = 27268;
 
 	class AAKNOOFGMIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ECE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32160);
 		}
 
 		static ::System::Void _cctor()

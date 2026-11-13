@@ -4,18 +4,18 @@
 class AHBLKPAJDPI;
 namespace System { class Object; }
 
-#define AHBLKPAJDPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E23F2F0)
-#define AHBLKPAJDPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E23F330)
-#define AHBLKPAJDPI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E23F340)
+#define AHBLKPAJDPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204F9480)
+#define AHBLKPAJDPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204F94C0)
+#define AHBLKPAJDPI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x204F94D0)
 
-inline static constexpr unsigned int AHBLKPAJDPI___c_TypeDefinitionIndex = 26609;
+inline static constexpr unsigned int AHBLKPAJDPI___c_TypeDefinitionIndex = 27140;
 
 	class AHBLKPAJDPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39830);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30C70);
 		}
 
 		static ::System::Void _cctor()

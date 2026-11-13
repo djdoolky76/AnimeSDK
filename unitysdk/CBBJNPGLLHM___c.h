@@ -4,18 +4,18 @@
 class CBBJNPGLLHM;
 namespace System { class Object; }
 
-#define CBBJNPGLLHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E034AB0)
-#define CBBJNPGLLHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E034AF0)
-#define CBBJNPGLLHM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E034B00)
+#define CBBJNPGLLHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203565B0)
+#define CBBJNPGLLHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203565F0)
+#define CBBJNPGLLHM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20356600)
 
-inline static constexpr unsigned int CBBJNPGLLHM___c_TypeDefinitionIndex = 34434;
+inline static constexpr unsigned int CBBJNPGLLHM___c_TypeDefinitionIndex = 35362;
 
 	class CBBJNPGLLHM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3390);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FD20);
 		}
 
 		static ::System::Void _cctor()

@@ -6,22 +6,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleySpecialOrderFinishRow; }
 
-#define RPG_GAMECORE_ALLEYSPECIALORDERFINISHROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BF430)
-#define RPG_GAMECORE_ALLEYSPECIALORDERFINISHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3BF1D0)
+#define RPG_GAMECORE_ALLEYSPECIALORDERFINISHROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA4770)
+#define RPG_GAMECORE_ALLEYSPECIALORDERFINISHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEA4510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleySpecialOrderFinishRow_TypeDefinitionIndex = 12626;
+	inline static constexpr unsigned int AlleySpecialOrderFinishRow_TypeDefinitionIndex = 12693;
 
 	class AlleySpecialOrderFinishRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID SpecialOrderFinishDesc; // 0x10
-		::System::UInt32 Param3; // 0x20
-		::RPG::GameCore::SpecialOrderFinishTypeEnum SpecialOrderFinishType; // 0x24
-		::System::UInt32 Param2; // 0x28
-		::System::UInt32 Param1; // 0x2C
-		::System::UInt32 SpecialOrderFinishID; // 0x30
+		::System::UInt32 Param3; // 0x10
+		::System::UInt32 Param2; // 0x14
+		::System::UInt32 Param1; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID SpecialOrderFinishDesc; // 0x20
+		::RPG::GameCore::SpecialOrderFinishTypeEnum SpecialOrderFinishType; // 0x30
+		::System::UInt32 SpecialOrderFinishID; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYSPECIALORDERFINISHROW_CTOR_OFFSET))(this);

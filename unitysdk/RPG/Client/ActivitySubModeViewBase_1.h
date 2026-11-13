@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySubModeViewBase_1_TypeDefinitionIndex = 61031;
+	inline static constexpr unsigned int ActivitySubModeViewBase_1_TypeDefinitionIndex = 62416;
 
 	template <typename T>
 	class ActivitySubModeViewBase_1 : public ::GODMPADCCGJ

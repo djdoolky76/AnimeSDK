@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareIsWolfBroBulletActivated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EMIPCKGKONC_CTOR_OFFSET UNITYSDK_OFFSET(0x15539100)
-#define EMIPCKGKONC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15539130)
+#define EMIPCKGKONC_CTOR_OFFSET UNITYSDK_OFFSET(0x187E0030)
+#define EMIPCKGKONC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x187E0060)
 
-inline static constexpr unsigned int EMIPCKGKONC_TypeDefinitionIndex = 52574;
+inline static constexpr unsigned int EMIPCKGKONC_TypeDefinitionIndex = 53680;
 
 	class EMIPCKGKONC
 	{

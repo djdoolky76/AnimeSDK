@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class KIGLHBEPNOG;
 
-#define DBBPHCIBIBI___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AABB0)
-#define DBBPHCIBIBI___C__DISPLAYCLASS5_0__GETCAKERACECORECYCLEABILITY_B__0_OFFSET UNITYSDK_OFFSET(0x1C5AD4D0)
+#define DBBPHCIBIBI___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5F530)
+#define DBBPHCIBIBI___C__DISPLAYCLASS5_0__GETCAKERACECORECYCLEABILITY_B__0_OFFSET UNITYSDK_OFFSET(0x1BA61E40)
 
-inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass5_0_TypeDefinitionIndex = 37286;
+inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass5_0_TypeDefinitionIndex = 38214;
 
 	class DBBPHCIBIBI___c__DisplayClass5_0 : public ::System::Object
 	{

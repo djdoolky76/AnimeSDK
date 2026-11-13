@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define FAHDGLFOOAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA34DB0)
+#define FAHDGLFOOAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1FF4A0)
 
-inline static constexpr unsigned int FAHDGLFOOAK_TypeDefinitionIndex = 43712;
+inline static constexpr unsigned int FAHDGLFOOAK_TypeDefinitionIndex = 44787;
 
 	class FAHDGLFOOAK : public ::System::Object
 	{

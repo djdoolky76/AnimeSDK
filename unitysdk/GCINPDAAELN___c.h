@@ -4,18 +4,18 @@
 class GCINPDAAELN;
 namespace System { class Object; }
 
-#define GCINPDAAELN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E410D10)
-#define GCINPDAAELN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E410D50)
-#define GCINPDAAELN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E410D60)
+#define GCINPDAAELN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20229620)
+#define GCINPDAAELN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20229660)
+#define GCINPDAAELN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20229670)
 
-inline static constexpr unsigned int GCINPDAAELN___c_TypeDefinitionIndex = 31622;
+inline static constexpr unsigned int GCINPDAAELN___c_TypeDefinitionIndex = 32535;
 
 	class GCINPDAAELN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE840);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BE10);
 		}
 
 		static ::System::Void _cctor()

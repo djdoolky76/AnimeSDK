@@ -4,18 +4,18 @@
 class IEDAMBICKBB;
 namespace System { class Object; }
 
-#define IEDAMBICKBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E608AC0)
-#define IEDAMBICKBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E608B00)
-#define IEDAMBICKBB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E608B10)
+#define IEDAMBICKBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20284C00)
+#define IEDAMBICKBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20284C40)
+#define IEDAMBICKBB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20284C50)
 
-inline static constexpr unsigned int IEDAMBICKBB___c_TypeDefinitionIndex = 31763;
+inline static constexpr unsigned int IEDAMBICKBB___c_TypeDefinitionIndex = 32676;
 
 	class IEDAMBICKBB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47680);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45F20);
 		}
 
 		static ::System::Void _cctor()

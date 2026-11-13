@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class RtSetDynamicValueByHealDataProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EPBBCEMBBDK_CTOR_OFFSET UNITYSDK_OFFSET(0x155C28B0)
-#define EPBBCEMBBDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155C2990)
+#define EPBBCEMBBDK_CTOR_OFFSET UNITYSDK_OFFSET(0x16B31100)
+#define EPBBCEMBBDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B311E0)
 
-inline static constexpr unsigned int EPBBCEMBBDK_TypeDefinitionIndex = 53866;
+inline static constexpr unsigned int EPBBCEMBBDK_TypeDefinitionIndex = 55030;
 
 	class EPBBCEMBBDK
 	{

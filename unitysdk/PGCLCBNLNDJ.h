@@ -5,10 +5,10 @@
 namespace Entitas { class IExecuteSystem; }
 namespace Entitas { class ISystem; }
 
-#define PGCLCBNLNDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC2152A0)
-#define PGCLCBNLNDJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC215390)
+#define PGCLCBNLNDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16D8AEE0)
+#define PGCLCBNLNDJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16D8AFD0)
 
-inline static constexpr unsigned int PGCLCBNLNDJ_TypeDefinitionIndex = 76771;
+inline static constexpr unsigned int PGCLCBNLNDJ_TypeDefinitionIndex = 79104;
 
 	class PGCLCBNLNDJ : public ::System::Object
 	{

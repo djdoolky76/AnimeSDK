@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-class IKBAMHGDEJC;
+class CMJDEKHCHGA;
 
-#define NCCLPHOILBE_EENAIDFFJGM_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF7760)
+#define NCCLPHOILBE_EENAIDFFJGM_CTOR_OFFSET UNITYSDK_OFFSET(0x150E96E0)
 
-inline static constexpr unsigned int NCCLPHOILBE_EENAIDFFJGM_TypeDefinitionIndex = 71594;
+inline static constexpr unsigned int NCCLPHOILBE_EENAIDFFJGM_TypeDefinitionIndex = 73582;
 
 	class NCCLPHOILBE_EENAIDFFJGM : public ::System::Object
 	{
 	public:
-		::IKBAMHGDEJC* MEKOAEAAFLF; // 0x10
+		::CMJDEKHCHGA* LJIGFPPJDKC; // 0x10
 		::System::Boolean GCIOLHOHLIJ; // 0x18
 		::System::Void _ctor()
 		{

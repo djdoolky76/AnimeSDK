@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseHelpers_TypeDefinitionIndex = 9896;
+	inline static constexpr unsigned int PromiseHelpers_TypeDefinitionIndex = 9904;
 
 	class PromiseHelpers : public ::System::Object
 	{

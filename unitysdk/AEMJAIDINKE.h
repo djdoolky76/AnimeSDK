@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowBillboardInStoryMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEMJAIDINKE_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFBBE0)
-#define AEMJAIDINKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCEFBC10)
+#define AEMJAIDINKE_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA7240)
+#define AEMJAIDINKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DA7270)
 
-inline static constexpr unsigned int AEMJAIDINKE_TypeDefinitionIndex = 58621;
+inline static constexpr unsigned int AEMJAIDINKE_TypeDefinitionIndex = 59886;
 
 	class AEMJAIDINKE
 	{

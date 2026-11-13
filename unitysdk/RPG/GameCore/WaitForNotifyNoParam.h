@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitForNotifyNoParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITFORNOTIFYNOPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6B290)
-#define RPG_GAMECORE_WAITFORNOTIFYNOPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6B2A0)
-#define RPG_GAMECORE_WAITFORNOTIFYNOPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6B260)
+#define RPG_GAMECORE_WAITFORNOTIFYNOPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED567F0)
+#define RPG_GAMECORE_WAITFORNOTIFYNOPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED56800)
+#define RPG_GAMECORE_WAITFORNOTIFYNOPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED567C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitForNotifyNoParam_TypeDefinitionIndex = 20912;
+	inline static constexpr unsigned int WaitForNotifyNoParam_TypeDefinitionIndex = 21250;
 
 	class WaitForNotifyNoParam : public ::RPG::GameCore::TaskConfig
 	{

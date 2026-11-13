@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/GaussianBlurGradual.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF4B40)
-#define RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF4AE0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3DFD090)
+#define RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x3DFD030)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_GaussianBlurParameter_TypeDefinitionIndex = 51859;
+	inline static constexpr unsigned int PPFilterStack_GaussianBlurParameter_TypeDefinitionIndex = 52945;
 
 	struct alignas(4) PPFilterStack_GaussianBlurParameter
 	{

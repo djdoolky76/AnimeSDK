@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define PAADPKGPFMJ___C__DISPLAYCLASS65_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBA840)
-#define PAADPKGPFMJ___C__DISPLAYCLASS65_0__PRELOADMOTIONCLIPS_B__0_OFFSET UNITYSDK_OFFSET(0xBFBCE80)
+#define PAADPKGPFMJ___C__DISPLAYCLASS65_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18AD16F0)
+#define PAADPKGPFMJ___C__DISPLAYCLASS65_0__PRELOADMOTIONCLIPS_B__0_OFFSET UNITYSDK_OFFSET(0x18AD32F0)
 
-inline static constexpr unsigned int PAADPKGPFMJ___c__DisplayClass65_0_TypeDefinitionIndex = 57288;
+inline static constexpr unsigned int PAADPKGPFMJ___c__DisplayClass65_0_TypeDefinitionIndex = 58515;
 
 	class PAADPKGPFMJ___c__DisplayClass65_0 : public ::System::Object
 	{

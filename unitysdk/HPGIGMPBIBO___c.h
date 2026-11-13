@@ -4,18 +4,18 @@
 class HPGIGMPBIBO;
 namespace System { class Object; }
 
-#define HPGIGMPBIBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5C8780)
-#define HPGIGMPBIBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C87C0)
-#define HPGIGMPBIBO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E5C87D0)
+#define HPGIGMPBIBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2004B820)
+#define HPGIGMPBIBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2004B860)
+#define HPGIGMPBIBO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x2004B870)
 
-inline static constexpr unsigned int HPGIGMPBIBO___c_TypeDefinitionIndex = 31261;
+inline static constexpr unsigned int HPGIGMPBIBO___c_TypeDefinitionIndex = 32174;
 
 	class HPGIGMPBIBO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EAD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F8C0);
 		}
 
 		static ::System::Void _cctor()

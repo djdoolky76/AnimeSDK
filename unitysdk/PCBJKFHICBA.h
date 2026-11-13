@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class OwnerEntityRemoveAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PCBJKFHICBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF5920)
-#define PCBJKFHICBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFF5930)
-#define PCBJKFHICBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF5970)
-#define PCBJKFHICBA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFF5AC0)
-#define PCBJKFHICBA_TICK_OFFSET UNITYSDK_OFFSET(0xBFF5B10)
+#define PCBJKFHICBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AACC270)
+#define PCBJKFHICBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AACC280)
+#define PCBJKFHICBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AACC2C0)
+#define PCBJKFHICBA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AACC410)
+#define PCBJKFHICBA_TICK_OFFSET UNITYSDK_OFFSET(0x1AACC460)
 
-inline static constexpr unsigned int PCBJKFHICBA_TypeDefinitionIndex = 55252;
+inline static constexpr unsigned int PCBJKFHICBA_TypeDefinitionIndex = 56434;
 
 	class PCBJKFHICBA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::OwnerEntityRemoveAbility* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::OwnerEntityRemoveAbility* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OwnerEntityRemoveAbility* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::OwnerEntityRemoveAbility*))((::PBYTE)hIl2Cpp + PCBJKFHICBA_CTOR_OFFSET))(this, a1, a2);

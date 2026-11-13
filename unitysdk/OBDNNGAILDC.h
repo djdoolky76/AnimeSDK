@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OBDNNGAILDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC0D810)
+#define OBDNNGAILDC_CTOR_OFFSET UNITYSDK_OFFSET(0x2078AFC0)
 
-inline static constexpr unsigned int OBDNNGAILDC_TypeDefinitionIndex = 35185;
+inline static constexpr unsigned int OBDNNGAILDC_TypeDefinitionIndex = 36113;
 
 	class OBDNNGAILDC : public ::System::Object
 	{

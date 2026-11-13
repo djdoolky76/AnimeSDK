@@ -4,11 +4,11 @@ namespace RPG::GameCore { class EnablePlayerPlayIdleShow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define DBDGLKHFJLG_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD2E40)
-#define DBDGLKHFJLG_LKFBHLBHPDI_OFFSET UNITYSDK_OFFSET(0xDFD2F60)
-#define DBDGLKHFJLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFD2E70)
+#define DBDGLKHFJLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1445E0)
+#define DBDGLKHFJLG_LKFBHLBHPDI_OFFSET UNITYSDK_OFFSET(0x1B144730)
+#define DBDGLKHFJLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B144610)
 
-inline static constexpr unsigned int DBDGLKHFJLG_TypeDefinitionIndex = 52746;
+inline static constexpr unsigned int DBDGLKHFJLG_TypeDefinitionIndex = 53890;
 
 	class DBDGLKHFJLG
 	{

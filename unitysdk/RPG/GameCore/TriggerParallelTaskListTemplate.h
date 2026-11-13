@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TriggerParallelTaskListTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC295C0)
-#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC295D0)
-#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC29590)
+#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E333C70)
+#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E333C80)
+#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E333C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerParallelTaskListTemplate_TypeDefinitionIndex = 23309;
+	inline static constexpr unsigned int TriggerParallelTaskListTemplate_TypeDefinitionIndex = 23750;
 
 	class TriggerParallelTaskListTemplate : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,9 +4,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GJANKOEDMLL_DFDOJBIOICK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4D5A0)
+#define GJANKOEDMLL_DFDOJBIOICK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FE480)
 
-inline static constexpr unsigned int GJANKOEDMLL_DFDOJBIOICK_TypeDefinitionIndex = 73259;
+inline static constexpr unsigned int GJANKOEDMLL_DFDOJBIOICK_TypeDefinitionIndex = 75375;
 
 	class GJANKOEDMLL_DFDOJBIOICK : public ::System::Object
 	{

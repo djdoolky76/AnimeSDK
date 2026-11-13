@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceAttackDamageType_TypeDefinitionIndex = 81456;
+	inline static constexpr unsigned int ChallengeTierceAttackDamageType_TypeDefinitionIndex = 84236;
 
 	enum class ChallengeTierceAttackDamageType : ::System::Int32
 	{

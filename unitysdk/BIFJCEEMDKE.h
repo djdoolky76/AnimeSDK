@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BIFJCEEMDKE_TypeDefinitionIndex = 33885;
+inline static constexpr unsigned int BIFJCEEMDKE_TypeDefinitionIndex = 34800;
 
 	enum class BIFJCEEMDKE : ::System::Int32
 	{

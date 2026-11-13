@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JHGPKBIJHDE_TypeDefinitionIndex = 30593;
+inline static constexpr unsigned int JHGPKBIJHDE_TypeDefinitionIndex = 31499;
 
 	enum class JHGPKBIJHDE : ::System::Int32
 	{

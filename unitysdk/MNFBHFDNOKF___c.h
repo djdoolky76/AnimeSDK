@@ -5,20 +5,20 @@
 class MNFBHFDNOKF;
 namespace System { class Object; }
 
-#define MNFBHFDNOKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA69740)
-#define MNFBHFDNOKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA69770)
-#define MNFBHFDNOKF___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1EA69780)
-#define MNFBHFDNOKF___C___CCTOR_B__68_1_OFFSET UNITYSDK_OFFSET(0x1EA697B0)
-#define MNFBHFDNOKF___C___CCTOR_B__68_2_OFFSET UNITYSDK_OFFSET(0x1EA697C0)
+#define MNFBHFDNOKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F971360)
+#define MNFBHFDNOKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F971390)
+#define MNFBHFDNOKF___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1F9713A0)
+#define MNFBHFDNOKF___C___CCTOR_B__68_1_OFFSET UNITYSDK_OFFSET(0x1F9713D0)
+#define MNFBHFDNOKF___C___CCTOR_B__68_2_OFFSET UNITYSDK_OFFSET(0x1F9713E0)
 
-inline static constexpr unsigned int MNFBHFDNOKF___c_TypeDefinitionIndex = 26315;
+inline static constexpr unsigned int MNFBHFDNOKF___c_TypeDefinitionIndex = 26842;
 
 	class MNFBHFDNOKF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x593A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50F50);
 		}
 
 		static ::System::Void _cctor()

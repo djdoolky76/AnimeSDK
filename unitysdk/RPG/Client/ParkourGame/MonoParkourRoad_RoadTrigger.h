@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 namespace RPG::Client::ParkourGame { class MonoParkourRoad_TriggerInfo; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_ROADTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0xDA72190)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_ROADTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC104B0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourRoad_RoadTrigger_TypeDefinitionIndex = 74156;
+	inline static constexpr unsigned int MonoParkourRoad_RoadTrigger_TypeDefinitionIndex = 76304;
 
 	class MonoParkourRoad_RoadTrigger : public ::System::Object
 	{

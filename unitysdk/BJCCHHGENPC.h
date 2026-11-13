@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BJCCHHGENPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88CED0)
+#define BJCCHHGENPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B7690)
 
-inline static constexpr unsigned int BJCCHHGENPC_TypeDefinitionIndex = 42139;
+inline static constexpr unsigned int BJCCHHGENPC_TypeDefinitionIndex = 43114;
 
 	class BJCCHHGENPC : public ::System::Object
 	{

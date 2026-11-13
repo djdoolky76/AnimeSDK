@@ -8,14 +8,14 @@
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/RendererListDesc.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F277E60)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1F2766B0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC200)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xE7580)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4A5F00)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1E4A4750)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x7CEE40)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xADBB90)
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 35444;
+	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 36372;
 
 	struct alignas(8) RendererList
 	{
@@ -25,14 +25,14 @@ namespace UnityEngine::Experimental::Rendering
 		::UnityEngine::Rendering::DrawingSettings drawSettings; // 0x28
 		::UnityEngine::Rendering::FilteringSettings filteringSettings; // 0x1A4
 		::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock> stateBlock; // 0x1CC
-		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
-		{
-			return (::UnityEngine::Rendering::ShaderTagId*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x135D0);
-		}
-
 		static ::UnityEngine::Experimental::Rendering::RendererList* StaticGet_nullRendererList()
 		{
-			return (::UnityEngine::Experimental::Rendering::RendererList*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x135D8);
+			return (::UnityEngine::Experimental::Rendering::RendererList*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x13970);
+		}
+
+		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
+		{
+			return (::UnityEngine::Rendering::ShaderTagId*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x13BA0);
 		}
 
 		static ::System::Void _cctor()

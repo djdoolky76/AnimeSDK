@@ -4,10 +4,10 @@
 class EDEPICFGMDM;
 namespace System { class String; }
 
-#define OLFLCEOMNAI___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFE8F0)
-#define OLFLCEOMNAI___C__DISPLAYCLASS35_0__GETINSTANTIATEOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0xBF00D30)
+#define OLFLCEOMNAI___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x178A5040)
+#define OLFLCEOMNAI___C__DISPLAYCLASS35_0__GETINSTANTIATEOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0x178A7480)
 
-inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass35_0_TypeDefinitionIndex = 82261;
+inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass35_0_TypeDefinitionIndex = 85134;
 
 	class OLFLCEOMNAI___c__DisplayClass35_0 : public ::System::Object
 	{

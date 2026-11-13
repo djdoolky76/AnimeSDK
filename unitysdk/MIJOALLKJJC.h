@@ -3,10 +3,10 @@
 class PDKPLHGKFOI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MIJOALLKJJC_CTOR_OFFSET UNITYSDK_OFFSET(0xB954B10)
-#define MIJOALLKJJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB954B40)
+#define MIJOALLKJJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A395130)
+#define MIJOALLKJJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A395160)
 
-inline static constexpr unsigned int MIJOALLKJJC_TypeDefinitionIndex = 54166;
+inline static constexpr unsigned int MIJOALLKJJC_TypeDefinitionIndex = 55330;
 
 	class MIJOALLKJJC
 	{

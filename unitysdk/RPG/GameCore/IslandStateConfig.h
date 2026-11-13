@@ -7,13 +7,13 @@ namespace RPG::GameCore { class IslandStateConditionSet; }
 namespace RPG::GameCore { class IslandStateConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ISLANDSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D75FEC0)
-#define RPG_GAMECORE_ISLANDSTATECONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D75FED0)
-#define RPG_GAMECORE_ISLANDSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D75FD90)
+#define RPG_GAMECORE_ISLANDSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE98D50)
+#define RPG_GAMECORE_ISLANDSTATECONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EE98D60)
+#define RPG_GAMECORE_ISLANDSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE98C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IslandStateConfig_TypeDefinitionIndex = 19133;
+	inline static constexpr unsigned int IslandStateConfig_TypeDefinitionIndex = 19321;
 
 	class IslandStateConfig : public ::RPG::GameCore::JsonConfig
 	{

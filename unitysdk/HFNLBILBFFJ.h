@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RedirectActionDelayChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFNLBILBFFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7F820)
-#define HFNLBILBFFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C7F850)
+#define HFNLBILBFFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4310F0)
+#define HFNLBILBFFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C431120)
 
-inline static constexpr unsigned int HFNLBILBFFJ_TypeDefinitionIndex = 55287;
+inline static constexpr unsigned int HFNLBILBFFJ_TypeDefinitionIndex = 56468;
 
 	class HFNLBILBFFJ
 	{

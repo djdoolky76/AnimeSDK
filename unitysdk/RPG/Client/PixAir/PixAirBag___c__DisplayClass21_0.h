@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::PixAir { class PixAirSlot; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRBAG___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB27150)
-#define RPG_CLIENT_PIXAIR_PIXAIRBAG___C__DISPLAYCLASS21_0__ADDNEWEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xDB28F60)
+#define RPG_CLIENT_PIXAIR_PIXAIRBAG___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E349B50)
+#define RPG_CLIENT_PIXAIR_PIXAIRBAG___C__DISPLAYCLASS21_0__ADDNEWEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0x1E34B970)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirBag___c__DisplayClass21_0_TypeDefinitionIndex = 79324;
+	inline static constexpr unsigned int PixAirBag___c__DisplayClass21_0_TypeDefinitionIndex = 82101;
 
 	class PixAirBag___c__DisplayClass21_0 : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class BOINNCFONAE;
 namespace System { class Object; }
 
-#define BOINNCFONAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E00ED40)
-#define BOINNCFONAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E00ED80)
-#define BOINNCFONAE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E00ED90)
+#define BOINNCFONAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF70DD0)
+#define BOINNCFONAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF70E10)
+#define BOINNCFONAE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FF70E20)
 
-inline static constexpr unsigned int BOINNCFONAE___c_TypeDefinitionIndex = 28815;
+inline static constexpr unsigned int BOINNCFONAE___c_TypeDefinitionIndex = 29405;
 
 	class BOINNCFONAE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D060);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_NPCBODYEYECONFIG_EYETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D2300)
+#define RPG_CLIENT_NPCBODYEYECONFIG_EYETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD94F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcBodyEyeConfig_EyeTransform_TypeDefinitionIndex = 60052;
+	inline static constexpr unsigned int NpcBodyEyeConfig_EyeTransform_TypeDefinitionIndex = 61336;
 
 	class NpcBodyEyeConfig_EyeTransform : public ::System::Object
 	{

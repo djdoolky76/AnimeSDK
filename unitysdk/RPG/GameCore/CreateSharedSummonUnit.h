@@ -9,13 +9,13 @@ namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CREATESHAREDSUMMONUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B8370)
-#define RPG_GAMECORE_CREATESHAREDSUMMONUNIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B8520)
-#define RPG_GAMECORE_CREATESHAREDSUMMONUNIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B8330)
+#define RPG_GAMECORE_CREATESHAREDSUMMONUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF1880)
+#define RPG_GAMECORE_CREATESHAREDSUMMONUNIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EFF1A30)
+#define RPG_GAMECORE_CREATESHAREDSUMMONUNIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFF1840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateSharedSummonUnit_TypeDefinitionIndex = 21162;
+	inline static constexpr unsigned int CreateSharedSummonUnit_TypeDefinitionIndex = 21505;
 
 	class CreateSharedSummonUnit : public ::RPG::GameCore::TaskConfig
 	{

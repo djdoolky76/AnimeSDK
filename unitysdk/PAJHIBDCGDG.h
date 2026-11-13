@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PAJHIBDCGDG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC3EF0)
+#define PAJHIBDCGDG_CTOR_OFFSET UNITYSDK_OFFSET(0x18ADBB10)
 
-inline static constexpr unsigned int PAJHIBDCGDG_TypeDefinitionIndex = 57034;
+inline static constexpr unsigned int PAJHIBDCGDG_TypeDefinitionIndex = 58261;
 
 	class PAJHIBDCGDG : public ::System::Object
 	{

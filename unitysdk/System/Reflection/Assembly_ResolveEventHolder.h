@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Reflection { class ModuleResolveEventHandler; }
 
-#define SYSTEM_REFLECTION_ASSEMBLY_RESOLVEEVENTHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2664C0)
+#define SYSTEM_REFLECTION_ASSEMBLY_RESOLVEEVENTHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E385460)
 
 namespace System::Reflection
 {

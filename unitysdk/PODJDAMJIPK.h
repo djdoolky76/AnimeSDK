@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PODJDAMJIPK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9CACE0)
-#define PODJDAMJIPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CADF0)
-#define PODJDAMJIPK_PHEMNJKGMDD_OFFSET UNITYSDK_OFFSET(0x1C9CAD30)
+#define PODJDAMJIPK_CLEAR_OFFSET UNITYSDK_OFFSET(0x207032C0)
+#define PODJDAMJIPK_CTOR_OFFSET UNITYSDK_OFFSET(0x207033D0)
+#define PODJDAMJIPK_PHEMNJKGMDD_OFFSET UNITYSDK_OFFSET(0x20703310)
 
-inline static constexpr unsigned int PODJDAMJIPK_TypeDefinitionIndex = 42096;
+inline static constexpr unsigned int PODJDAMJIPK_TypeDefinitionIndex = 43071;
 
 	class PODJDAMJIPK : public ::System::Object
 	{

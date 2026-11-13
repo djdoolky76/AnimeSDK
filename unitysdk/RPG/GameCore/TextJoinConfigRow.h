@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TextJoinConfigRow; }
 
-#define RPG_GAMECORE_TEXTJOINCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB54330)
-#define RPG_GAMECORE_TEXTJOINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB54120)
+#define RPG_GAMECORE_TEXTJOINCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C8F90)
+#define RPG_GAMECORE_TEXTJOINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5C8D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextJoinConfigRow_TypeDefinitionIndex = 15283;
+	inline static constexpr unsigned int TextJoinConfigRow_TypeDefinitionIndex = 15439;
 
 	class TextJoinConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TextJoinItemList; // 0x10
-		::System::UInt32 TextJoinID; // 0x18
-		::System::Boolean IsOverride; // 0x1C
+		::System::Boolean IsOverride; // 0x18
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::TextJoinOverrideType Type; // 0x20
+		::RPG::GameCore::TextJoinOverrideType Type; // 0x1C
+		::System::UInt32 TextJoinID; // 0x20
 		::System::UInt32 DefaultItem; // 0x24
 		::System::Void _ctor()
 		{

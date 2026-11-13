@@ -3,10 +3,10 @@
 namespace RPG::Client { class RoadRashGameAbility_ReleaseCharging; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKPJNGPLOKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15A9DAB0)
-#define GKPJNGPLOKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A9DAE0)
+#define GKPJNGPLOKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E4480)
+#define GKPJNGPLOKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A8E44B0)
 
-inline static constexpr unsigned int GKPJNGPLOKG_TypeDefinitionIndex = 58407;
+inline static constexpr unsigned int GKPJNGPLOKG_TypeDefinitionIndex = 59663;
 
 	class GKPJNGPLOKG
 	{

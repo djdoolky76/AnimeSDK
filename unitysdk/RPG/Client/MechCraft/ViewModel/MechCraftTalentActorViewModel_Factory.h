@@ -5,12 +5,12 @@ class BEEJHBCIGGI;
 class FOACJPEHDKO;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentActorViewModel; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTACTORVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD67CA10)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTACTORVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD67CA00)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTACTORVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1E91B2C0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTACTORVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E91B2B0)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftTalentActorViewModel_Factory_TypeDefinitionIndex = 79757;
+	inline static constexpr unsigned int MechCraftTalentActorViewModel_Factory_TypeDefinitionIndex = 82534;
 
 	class MechCraftTalentActorViewModel_Factory : public ::System::Object
 	{

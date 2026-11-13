@@ -5,23 +5,23 @@ class FCOEMCEDLNL;
 class HBCJLHBBDAB;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define HBCJLHBBDAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE54850)
-#define HBCJLHBBDAB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE54AD0)
-#define HBCJLHBBDAB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE54810)
+#define HBCJLHBBDAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D6D00)
+#define HBCJLHBBDAB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9D6F80)
+#define HBCJLHBBDAB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9D6CC0)
 
-inline static constexpr unsigned int HBCJLHBBDAB_TypeDefinitionIndex = 24174;
+inline static constexpr unsigned int HBCJLHBBDAB_TypeDefinitionIndex = 24633;
 
 	class HBCJLHBBDAB : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* DIPCHCFIPDB; // 0x18
-		::RPG::GameCore::DynamicFloat* OCGINFHNEPF; // 0x20
-		::RPG::GameCore::DynamicFloat* IHLBHMNLJMN; // 0x28
-		::RPG::GameCore::DynamicFloat* FBIJGGIOLNO; // 0x30
-		::RPG::GameCore::DynamicFloat* AANFIMJNOKA; // 0x38
-		::RPG::GameCore::DynamicFloat* NMMOOCJILEC; // 0x40
-		::RPG::GameCore::DynamicFloat* NBEEPDPFAHG; // 0x48
-		::RPG::GameCore::DynamicFloat* PINNPLKBABH; // 0x50
+		::RPG::GameCore::DynamicFloat* NBEEPDPFAHG; // 0x18
+		::RPG::GameCore::DynamicFloat* NMMOOCJILEC; // 0x20
+		::RPG::GameCore::DynamicFloat* DIPCHCFIPDB; // 0x28
+		::RPG::GameCore::DynamicFloat* AANFIMJNOKA; // 0x30
+		::RPG::GameCore::DynamicFloat* OCGINFHNEPF; // 0x38
+		::RPG::GameCore::DynamicFloat* PINNPLKBABH; // 0x40
+		::RPG::GameCore::DynamicFloat* IHLBHMNLJMN; // 0x48
+		::RPG::GameCore::DynamicFloat* FBIJGGIOLNO; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HBCJLHBBDAB_CTOR_OFFSET))(this);

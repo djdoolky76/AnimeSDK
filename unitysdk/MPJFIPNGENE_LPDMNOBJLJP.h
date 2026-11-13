@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 class NNDAJDLAHNC;
 
-#define MPJFIPNGENE_LPDMNOBJLJP_CTOR_OFFSET UNITYSDK_OFFSET(0x2EB0770)
+#define MPJFIPNGENE_LPDMNOBJLJP_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AC90)
 
-inline static constexpr unsigned int MPJFIPNGENE_LPDMNOBJLJP_TypeDefinitionIndex = 44028;
+inline static constexpr unsigned int MPJFIPNGENE_LPDMNOBJLJP_TypeDefinitionIndex = 45103;
 
 	struct alignas(8) MPJFIPNGENE_LPDMNOBJLJP
 	{

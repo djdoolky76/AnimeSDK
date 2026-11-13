@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RecordPropertyType_TypeDefinitionIndex = 72627;
+	inline static constexpr unsigned int RecordPropertyType_TypeDefinitionIndex = 74706;
 
 	enum class RecordPropertyType : ::System::Int32
 	{

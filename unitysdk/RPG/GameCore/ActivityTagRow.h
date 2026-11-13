@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityTagRow; }
 
-#define RPG_GAMECORE_ACTIVITYTAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D353A00)
-#define RPG_GAMECORE_ACTIVITYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3538A0)
+#define RPG_GAMECORE_ACTIVITYTAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9B8A0)
+#define RPG_GAMECORE_ACTIVITYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA9B740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTagRow_TypeDefinitionIndex = 11215;
+	inline static constexpr unsigned int ActivityTagRow_TypeDefinitionIndex = 11266;
 
 	class ActivityTagRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 TagID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Desc; // 0x18
+		::RPG::Client::TextID Desc; // 0x10
+		::System::UInt32 TagID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYTAGROW_CTOR_OFFSET))(this);

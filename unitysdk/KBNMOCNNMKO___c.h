@@ -5,23 +5,23 @@ namespace RPG::Client { class EvolveBuildCard; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define KBNMOCNNMKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB31D070)
-#define KBNMOCNNMKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB31D0A0)
-#define KBNMOCNNMKO___C__CREATECARDS_B__1_0_OFFSET UNITYSDK_OFFSET(0xB31D0B0)
+#define KBNMOCNNMKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A46FA00)
+#define KBNMOCNNMKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A46FA30)
+#define KBNMOCNNMKO___C__CREATECARDS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A46FA40)
 
-inline static constexpr unsigned int KBNMOCNNMKO___c_TypeDefinitionIndex = 63794;
+inline static constexpr unsigned int KBNMOCNNMKO___c_TypeDefinitionIndex = 65236;
 
 	class KBNMOCNNMKO___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x339C0);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::EvolveBuildCard*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildCard*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x339C8);
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildCard*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35960);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35968);
 		}
 
 		static ::System::Void _cctor()

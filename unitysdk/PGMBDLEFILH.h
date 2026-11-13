@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PGMBDLEFILH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BA9B0)
+#define PGMBDLEFILH_CTOR_OFFSET UNITYSDK_OFFSET(0x176BD910)
 
-inline static constexpr unsigned int PGMBDLEFILH_TypeDefinitionIndex = 43805;
+inline static constexpr unsigned int PGMBDLEFILH_TypeDefinitionIndex = 44880;
 
 	class PGMBDLEFILH : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/DocumentationInfo.h"
 
-#define UNITYENGINE_RENDERING_DOCUMENTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2936C0)
+#define UNITYENGINE_RENDERING_DOCUMENTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C17B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 35557;
+	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 36485;
 
 	class Documentation : public ::UnityEngine::Rendering::DocumentationInfo
 	{

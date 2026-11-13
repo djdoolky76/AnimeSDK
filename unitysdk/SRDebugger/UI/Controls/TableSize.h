@@ -4,12 +4,12 @@
 namespace SRDebugger::UI::Controls { class TableSize; }
 namespace System { class String; }
 
-#define SRDEBUGGER_UI_CONTROLS_TABLESIZE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED31AC0)
-#define SRDEBUGGER_UI_CONTROLS_TABLESIZE_SYSTEM_ICOMPARABLE_SRDEBUGGER_UI_CONTROLS_TABLESIZE__COMPARETO_OFFSET UNITYSDK_OFFSET(0x1ED31A90)
+#define SRDEBUGGER_UI_CONTROLS_TABLESIZE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D44D1B0)
+#define SRDEBUGGER_UI_CONTROLS_TABLESIZE_SYSTEM_ICOMPARABLE_SRDEBUGGER_UI_CONTROLS_TABLESIZE__COMPARETO_OFFSET UNITYSDK_OFFSET(0x1D44D180)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int TableSize_TypeDefinitionIndex = 38033;
+	inline static constexpr unsigned int TableSize_TypeDefinitionIndex = 38962;
 
 	class TableSize : public ::System::Object
 	{

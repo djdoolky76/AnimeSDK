@@ -4,19 +4,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MCMAHDJBBGN_CHAHBFGGIDL_OFFSET UNITYSDK_OFFSET(0xB8812E0)
-#define MCMAHDJBBGN_CTOR_OFFSET UNITYSDK_OFFSET(0xB881490)
-#define MCMAHDJBBGN_KGBGKEMKADL_OFFSET UNITYSDK_OFFSET(0xB8813D0)
-#define MCMAHDJBBGN_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB881210)
+#define MCMAHDJBBGN_CHAHBFGGIDL_OFFSET UNITYSDK_OFFSET(0x183BD8C0)
+#define MCMAHDJBBGN_CTOR_OFFSET UNITYSDK_OFFSET(0x183BDA70)
+#define MCMAHDJBBGN_KGBGKEMKADL_OFFSET UNITYSDK_OFFSET(0x183BD9B0)
+#define MCMAHDJBBGN_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x183BD7F0)
 
-inline static constexpr unsigned int MCMAHDJBBGN_TypeDefinitionIndex = 61239;
+inline static constexpr unsigned int MCMAHDJBBGN_TypeDefinitionIndex = 62624;
 
 	class MCMAHDJBBGN : public ::System::Object
 	{
 	public:
 		::System::String* ADKEMJKHDOF; // 0x10
-		::System::DateTime HFHLFIPLIOD; // 0x18
-		::System::DateTime DCNCKPBMJFL; // 0x20
+		::System::DateTime DCNCKPBMJFL; // 0x18
+		::System::DateTime HFHLFIPLIOD; // 0x20
 		::System::Double ABNCCCEINDA; // 0x28
 		::System::Void _ctor()
 		{

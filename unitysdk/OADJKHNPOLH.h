@@ -5,19 +5,19 @@
 class OADJKHNPOLH;
 namespace RPG::GameCore { class GameEntity; }
 
-#define OADJKHNPOLH_AEOIKFNKAAP_OFFSET UNITYSDK_OFFSET(0xBD15740)
-#define OADJKHNPOLH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD157B0)
-#define OADJKHNPOLH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBD15660)
-#define OADJKHNPOLH_LKFJFGPFEJJ_OFFSET UNITYSDK_OFFSET(0xBD156C0)
+#define OADJKHNPOLH_AEOIKFNKAAP_OFFSET UNITYSDK_OFFSET(0x1AB56EA0)
+#define OADJKHNPOLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB56F10)
+#define OADJKHNPOLH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1AB56DC0)
+#define OADJKHNPOLH_LKFJFGPFEJJ_OFFSET UNITYSDK_OFFSET(0x1AB56E20)
 
-inline static constexpr unsigned int OADJKHNPOLH_TypeDefinitionIndex = 57464;
+inline static constexpr unsigned int OADJKHNPOLH_TypeDefinitionIndex = 58692;
 
 	class OADJKHNPOLH : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
-		::System::Boolean GIMONLCMCMA; // 0x18
-		::System::Boolean DHHGLHOOCMA; // 0x19
+		::System::Boolean DHHGLHOOCMA; // 0x18
+		::System::Boolean GIMONLCMCMA; // 0x19
 		::System::Byte _padding0[0x2];
 		::RPG::GameCore::TargetSourceType MIAJNJNECOG; // 0x1C
 		::System::Void _ctor()

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_SHAPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F253370)
+#define UNITYENGINE_PROBUILDER_SHAPES_SHAPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A9E10)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int ShapeAttribute_TypeDefinitionIndex = 44468;
+	inline static constexpr unsigned int ShapeAttribute_TypeDefinitionIndex = 45543;
 
 	class ShapeAttribute : public ::System::Attribute
 	{

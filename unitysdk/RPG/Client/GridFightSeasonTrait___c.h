@@ -3,72 +3,53 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightTraitChallenge; }
 namespace RPG::Client { class GridFightTraitConfig; }
-namespace RPG::Client { class QuestData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD26AA90)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD26AAD0)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__ANYQUESTFINISHED_B__7_0_OFFSET UNITYSDK_OFFSET(0xD26ABB0)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__CHECKHASANYTRAITQUESTFINISHEDBYTYPE_B__2_0_OFFSET UNITYSDK_OFFSET(0xD26AAE0)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETFINISHRATIO_B__9_0_OFFSET UNITYSDK_OFFSET(0xD26ABD0)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETFINISHRATIO_B__9_1_OFFSET UNITYSDK_OFFSET(0xD26ABF0)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETTRAITCONFIGSWITHOUTCHECKCOMPLETED_B__5_1_OFFSET UNITYSDK_OFFSET(0xD26AB20)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETTRAITCONFIGSWITHOUTCHECKCOMPLETED_B__5_2_OFFSET UNITYSDK_OFFSET(0xD26AB90)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETTRAITCONFIGS_B__4_1_OFFSET UNITYSDK_OFFSET(0xD26AB00)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__ISALLQUESTGOT_B__10_0_OFFSET UNITYSDK_OFFSET(0xD26AC10)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4FC380)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4FC3C0)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__ANYQUESTFINISHED_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D4FC4A0)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__CHECKHASANYTRAITQUESTFINISHEDBYTYPE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D4FC3D0)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETTRAITCONFIGSWITHOUTCHECKCOMPLETED_B__5_1_OFFSET UNITYSDK_OFFSET(0x1D4FC410)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETTRAITCONFIGSWITHOUTCHECKCOMPLETED_B__5_2_OFFSET UNITYSDK_OFFSET(0x1D4FC480)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETTRAITCONFIGS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1D4FC3F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSeasonTrait___c_TypeDefinitionIndex = 65420;
+	inline static constexpr unsigned int GridFightSeasonTrait___c_TypeDefinitionIndex = 67315;
 
 	class GridFightSeasonTrait___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::RPG::Client::GridFightTraitConfig*>** StaticGet___9__4_1()
+		static ::System::Comparison_1<::RPG::Client::GridFightTraitChallenge*>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::RPG::Client::GridFightTraitConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EAF0);
-		}
-
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__9_1()
-		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EAF8);
-		}
-
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__10_0()
-		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EB00);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EB08);
-		}
-
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EB10);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EB18);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::System::Boolean>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EB20);
+			return (::System::Comparison_1<::RPG::Client::GridFightTraitChallenge*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE140);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::RPG::Client::GridFightTraitConfig*>** StaticGet___9__5_2()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::RPG::Client::GridFightTraitConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EB28);
+			return (::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::RPG::Client::GridFightTraitConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE148);
 		}
 
-		static ::System::Comparison_1<::RPG::Client::GridFightTraitChallenge*>** StaticGet___9__5_1()
+		static ::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::RPG::Client::GridFightTraitConfig*>** StaticGet___9__4_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::GridFightTraitChallenge*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EB30);
+			return (::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::RPG::Client::GridFightTraitConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE150);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::System::Boolean>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE158);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE160);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightTraitChallenge*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE168);
 		}
 
 		static ::System::Void _cctor()
@@ -104,21 +85,6 @@ namespace RPG::Client
 		::System::Boolean _AnyQuestFinished_b__7_0(::RPG::Client::GridFightTraitChallenge* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitChallenge*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__ANYQUESTFINISHED_B__7_0_OFFSET))(this, a1);
-		}
-
-		::System::Boolean _GetFinishRatio_b__9_0(::RPG::Client::QuestData* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETFINISHRATIO_B__9_0_OFFSET))(this, a1);
-		}
-
-		::System::Boolean _GetFinishRatio_b__9_1(::RPG::Client::QuestData* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__GETFINISHRATIO_B__9_1_OFFSET))(this, a1);
-		}
-
-		::System::Boolean _IsAllQuestGot_b__10_0(::RPG::Client::QuestData* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__ISALLQUESTGOT_B__10_0_OFFSET))(this, a1);
 		}
 
 	};

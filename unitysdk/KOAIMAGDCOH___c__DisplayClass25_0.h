@@ -6,10 +6,10 @@ class KOAIMAGDCOH_MPBMCPMMMHH;
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define KOAIMAGDCOH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB587A80)
-#define KOAIMAGDCOH___C__DISPLAYCLASS25_0___LOADSCENETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xB588B30)
+#define KOAIMAGDCOH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18FB47E0)
+#define KOAIMAGDCOH___C__DISPLAYCLASS25_0___LOADSCENETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0x18FB58A0)
 
-inline static constexpr unsigned int KOAIMAGDCOH___c__DisplayClass25_0_TypeDefinitionIndex = 68808;
+inline static constexpr unsigned int KOAIMAGDCOH___c__DisplayClass25_0_TypeDefinitionIndex = 70760;
 
 	class KOAIMAGDCOH___c__DisplayClass25_0 : public ::System::Object
 	{

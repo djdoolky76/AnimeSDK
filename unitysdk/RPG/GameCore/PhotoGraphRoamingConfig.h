@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphRoamingConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E4D70)
-#define RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8E4BD0)
+#define RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE53600)
+#define RPG_GAMECORE_PHOTOGRAPHROAMINGCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE53460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphRoamingConfig_TypeDefinitionIndex = 19056;
+	inline static constexpr unsigned int PhotoGraphRoamingConfig_TypeDefinitionIndex = 19243;
 
 	class PhotoGraphRoamingConfig : public ::RPG::GameCore::JsonConfig
 	{

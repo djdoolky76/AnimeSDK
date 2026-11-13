@@ -6,29 +6,29 @@ namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define JHOCADLMHCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB1BAF60)
-#define JHOCADLMHCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB1BAFA0)
-#define JHOCADLMHCA___C__GETSHEETVALUES_B__4_0_OFFSET UNITYSDK_OFFSET(0xB1BAFB0)
-#define JHOCADLMHCA___C__GETSHEETVALUES_B__4_1_OFFSET UNITYSDK_OFFSET(0xB1BAFD0)
+#define JHOCADLMHCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x173E9880)
+#define JHOCADLMHCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x173E98C0)
+#define JHOCADLMHCA___C__GETSHEETVALUES_B__4_0_OFFSET UNITYSDK_OFFSET(0x173E98D0)
+#define JHOCADLMHCA___C__GETSHEETVALUES_B__4_1_OFFSET UNITYSDK_OFFSET(0x173E98F0)
 
-inline static constexpr unsigned int JHOCADLMHCA___c_TypeDefinitionIndex = 50034;
+inline static constexpr unsigned int JHOCADLMHCA___c_TypeDefinitionIndex = 51082;
 
 	class JHOCADLMHCA___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::Newtonsoft::Json::Linq::JToken*, ::System::Int32, ::System::ValueTuple_2<::Newtonsoft::Json::Linq::JToken*, ::System::Int32>>** StaticGet___9__4_1()
 		{
-			return (::System::Func_3<::Newtonsoft::Json::Linq::JToken*, ::System::Int32, ::System::ValueTuple_2<::Newtonsoft::Json::Linq::JToken*, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12BB0);
+			return (::System::Func_3<::Newtonsoft::Json::Linq::JToken*, ::System::Int32, ::System::ValueTuple_2<::Newtonsoft::Json::Linq::JToken*, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD9B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12BB8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD9B8);
 		}
 
 		static ::System::Func_3<::Newtonsoft::Json::Linq::JToken*, ::System::Int32, ::System::ValueTuple_2<::Newtonsoft::Json::Linq::JToken*, ::System::Int32>>** StaticGet___9__4_0()
 		{
-			return (::System::Func_3<::Newtonsoft::Json::Linq::JToken*, ::System::Int32, ::System::ValueTuple_2<::Newtonsoft::Json::Linq::JToken*, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12BC0);
+			return (::System::Func_3<::Newtonsoft::Json::Linq::JToken*, ::System::Int32, ::System::ValueTuple_2<::Newtonsoft::Json::Linq::JToken*, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD9C0);
 		}
 
 		static ::System::Void _cctor()

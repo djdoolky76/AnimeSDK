@@ -4,17 +4,17 @@
 namespace RPG::Client { class MonoDanmuItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONODANMUCONTROLLER_APHLJGKNIMG_CTOR_OFFSET UNITYSDK_OFFSET(0xD740790)
+#define RPG_CLIENT_MONODANMUCONTROLLER_APHLJGKNIMG_CTOR_OFFSET UNITYSDK_OFFSET(0x14021470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDanmuController_APHLJGKNIMG_TypeDefinitionIndex = 68947;
+	inline static constexpr unsigned int MonoDanmuController_APHLJGKNIMG_TypeDefinitionIndex = 70900;
 
 	class MonoDanmuController_APHLJGKNIMG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Single>* JHBLAPMDDCJ; // 0x10
-		::Il2CppArray<::RPG::Client::MonoDanmuItem*>* DIPGFJIEGGE; // 0x18
+		::Il2CppArray<::RPG::Client::MonoDanmuItem*>* DIPGFJIEGGE; // 0x10
+		::System::Collections::Generic::List_1<::System::Single>* JHBLAPMDDCJ; // 0x18
 		::System::Boolean NOOJOFHAIAA; // 0x20
 		::System::Void _ctor()
 		{

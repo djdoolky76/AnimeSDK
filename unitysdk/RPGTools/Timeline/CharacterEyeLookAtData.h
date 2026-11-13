@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTEREYELOOKATDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BD7A0)
+#define RPGTOOLS_TIMELINE_CHARACTEREYELOOKATDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3EB320)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterEyeLookAtData_TypeDefinitionIndex = 47974;
+	inline static constexpr unsigned int CharacterEyeLookAtData_TypeDefinitionIndex = 49005;
 
 	class CharacterEyeLookAtData : public ::System::Object
 	{

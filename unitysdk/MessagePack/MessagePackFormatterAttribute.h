@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_MESSAGEPACKFORMATTERATTRIBUTE_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BB40A60)
-#define MESSAGEPACK_MESSAGEPACKFORMATTERATTRIBUTE_GET_FORMATTERTYPE_OFFSET UNITYSDK_OFFSET(0x1BB40A50)
+#define MESSAGEPACK_MESSAGEPACKFORMATTERATTRIBUTE_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x20976D60)
+#define MESSAGEPACK_MESSAGEPACKFORMATTERATTRIBUTE_GET_FORMATTERTYPE_OFFSET UNITYSDK_OFFSET(0x20976D50)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackFormatterAttribute_TypeDefinitionIndex = 6171;
+	inline static constexpr unsigned int MessagePackFormatterAttribute_TypeDefinitionIndex = 6178;
 
 	class MessagePackFormatterAttribute : public ::System::Attribute
 	{

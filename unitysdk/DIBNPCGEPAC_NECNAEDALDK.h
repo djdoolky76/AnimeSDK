@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DIBNPCGEPAC_NECNAEDALDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD7C940)
+#define DIBNPCGEPAC_NECNAEDALDK_CTOR_OFFSET UNITYSDK_OFFSET(0x20331FA0)
 
-inline static constexpr unsigned int DIBNPCGEPAC_NECNAEDALDK_TypeDefinitionIndex = 43946;
+inline static constexpr unsigned int DIBNPCGEPAC_NECNAEDALDK_TypeDefinitionIndex = 45021;
 
 	class DIBNPCGEPAC_NECNAEDALDK : public ::System::Object
 	{

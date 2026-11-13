@@ -6,11 +6,11 @@ class CIPGAPCNPGK;
 class NCINHOOPPNG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LHMOFCGDHOE_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xB6B5B80)
-#define LHMOFCGDHOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B5AC0)
-#define LHMOFCGDHOE_FOLPLPJHICL_OFFSET UNITYSDK_OFFSET(0xB6B5CA0)
+#define LHMOFCGDHOE_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1BCCE420)
+#define LHMOFCGDHOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCE360)
+#define LHMOFCGDHOE_FOLPLPJHICL_OFFSET UNITYSDK_OFFSET(0x1BCCE540)
 
-inline static constexpr unsigned int LHMOFCGDHOE_TypeDefinitionIndex = 62746;
+inline static constexpr unsigned int LHMOFCGDHOE_TypeDefinitionIndex = 64180;
 
 	class LHMOFCGDHOE : public ::System::Object
 	{

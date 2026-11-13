@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DestroyPropTrigger; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DESTROYPROPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CF980)
-#define RPG_GAMECORE_DESTROYPROPTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CF9B0)
-#define RPG_GAMECORE_DESTROYPROPTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CF930)
+#define RPG_GAMECORE_DESTROYPROPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F00A050)
+#define RPG_GAMECORE_DESTROYPROPTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F00A080)
+#define RPG_GAMECORE_DESTROYPROPTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F00A000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyPropTrigger_TypeDefinitionIndex = 21583;
+	inline static constexpr unsigned int DestroyPropTrigger_TypeDefinitionIndex = 21971;
 
 	class DestroyPropTrigger : public ::RPG::GameCore::TaskConfig
 	{

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define IKKAFGPNEGO_AJAGEDENGHL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E83570)
+#define IKKAFGPNEGO_AJAGEDENGHL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3DF3720)
 
-inline static constexpr unsigned int IKKAFGPNEGO_AJAGEDENGHL_TypeDefinitionIndex = 57296;
+inline static constexpr unsigned int IKKAFGPNEGO_AJAGEDENGHL_TypeDefinitionIndex = 58523;
 
 	struct alignas(4) IKKAFGPNEGO_AJAGEDENGHL
 	{

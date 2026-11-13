@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DFFJLIFMENE_CTOR_OFFSET UNITYSDK_OFFSET(0xE81C6C0)
+#define DFFJLIFMENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B38C410)
 
-inline static constexpr unsigned int DFFJLIFMENE_TypeDefinitionIndex = 64794;
+inline static constexpr unsigned int DFFJLIFMENE_TypeDefinitionIndex = 66338;
 
 	class DFFJLIFMENE : public ::System::Object
 	{

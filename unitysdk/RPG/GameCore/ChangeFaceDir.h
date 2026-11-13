@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChangeFaceDir; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHANGEFACEDIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D539440)
-#define RPG_GAMECORE_CHANGEFACEDIR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D539480)
-#define RPG_GAMECORE_CHANGEFACEDIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5393E0)
+#define RPG_GAMECORE_CHANGEFACEDIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC111C0)
+#define RPG_GAMECORE_CHANGEFACEDIR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC11200)
+#define RPG_GAMECORE_CHANGEFACEDIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC11160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeFaceDir_TypeDefinitionIndex = 22450;
+	inline static constexpr unsigned int ChangeFaceDir_TypeDefinitionIndex = 22859;
 
 	class ChangeFaceDir : public ::RPG::GameCore::TaskConfig
 	{

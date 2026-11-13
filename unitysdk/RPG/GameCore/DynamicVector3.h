@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicVector3; }
 
-#define RPG_GAMECORE_DYNAMICVECTOR3_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FF590)
-#define RPG_GAMECORE_DYNAMICVECTOR3_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FF3C0)
+#define RPG_GAMECORE_DYNAMICVECTOR3_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D6590)
+#define RPG_GAMECORE_DYNAMICVECTOR3_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D63C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicVector3_TypeDefinitionIndex = 23846;
+	inline static constexpr unsigned int DynamicVector3_TypeDefinitionIndex = 24303;
 
 	class DynamicVector3 : public ::RPG::GameCore::JsonConfig
 	{

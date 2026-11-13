@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CreateTeamFormationSnapshot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MBHOEOHDGDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB854E50)
-#define MBHOEOHDGDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB854E80)
+#define MBHOEOHDGDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8211F0)
+#define MBHOEOHDGDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B821220)
 
-inline static constexpr unsigned int MBHOEOHDGDC_TypeDefinitionIndex = 56354;
+inline static constexpr unsigned int MBHOEOHDGDC_TypeDefinitionIndex = 57568;
 
 	class MBHOEOHDGDC
 	{

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class UIPanelGroup; }
 
-#define RPG_GAMECORE_UIPANELGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC436A0)
-#define RPG_GAMECORE_UIPANELGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC435E0)
+#define RPG_GAMECORE_UIPANELGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2F230)
+#define RPG_GAMECORE_UIPANELGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED2F170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIPanelGroup_TypeDefinitionIndex = 17145;
+	inline static constexpr unsigned int UIPanelGroup_TypeDefinitionIndex = 17312;
 
 	class UIPanelGroup : public ::RPG::GameCore::JsonConfig
 	{

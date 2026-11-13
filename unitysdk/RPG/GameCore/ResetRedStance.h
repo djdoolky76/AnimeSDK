@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ResetRedStance; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RESETREDSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95DE00)
-#define RPG_GAMECORE_RESETREDSTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95DE10)
-#define RPG_GAMECORE_RESETREDSTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95DDC0)
+#define RPG_GAMECORE_RESETREDSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x20722460)
+#define RPG_GAMECORE_RESETREDSTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x20722470)
+#define RPG_GAMECORE_RESETREDSTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20722420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetRedStance_TypeDefinitionIndex = 22629;
+	inline static constexpr unsigned int ResetRedStance_TypeDefinitionIndex = 23051;
 
 	class ResetRedStance : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExpeditionBattleLevelConfigRow; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D661990)
-#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D661870)
+#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC86E30)
+#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1FC86D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleLevelConfigRow_TypeDefinitionIndex = 11446;
+	inline static constexpr unsigned int ExpeditionBattleLevelConfigRow_TypeDefinitionIndex = 11497;
 
 	class ExpeditionBattleLevelConfigRow : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MuseumTutorialTalkRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSEUMTUTORIALTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89DA20)
-#define RPG_GAMECORE_MUSEUMTUTORIALTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D89D920)
+#define RPG_GAMECORE_MUSEUMTUTORIALTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E48E760)
+#define RPG_GAMECORE_MUSEUMTUTORIALTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E48E660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumTutorialTalkRow_TypeDefinitionIndex = 14256;
+	inline static constexpr unsigned int MuseumTutorialTalkRow_TypeDefinitionIndex = 14413;
 
 	class MuseumTutorialTalkRow : public ::System::Object
 	{

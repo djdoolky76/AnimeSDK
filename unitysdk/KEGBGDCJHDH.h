@@ -11,24 +11,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Text { class StringBuilder; }
 
-#define KEGBGDCJHDH_ACIJAIOJEAK_OFFSET UNITYSDK_OFFSET(0xB371190)
-#define KEGBGDCJHDH_CTOR_OFFSET UNITYSDK_OFFSET(0xB372160)
-#define KEGBGDCJHDH_ECGOHNPHOKH_OFFSET UNITYSDK_OFFSET(0xB370640)
-#define KEGBGDCJHDH_EKMCDJNEDBM_OFFSET UNITYSDK_OFFSET(0xB371060)
-#define KEGBGDCJHDH_JIFANILBBEK_OFFSET UNITYSDK_OFFSET(0xB371200)
-#define KEGBGDCJHDH_KNKALOLLDEJ_OFFSET UNITYSDK_OFFSET(0xB36FD10)
-#define KEGBGDCJHDH_NFLGGCHDENJ_OFFSET UNITYSDK_OFFSET(0xB3705A0)
+#define KEGBGDCJHDH_ACIJAIOJEAK_OFFSET UNITYSDK_OFFSET(0x1B5DB060)
+#define KEGBGDCJHDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5DC030)
+#define KEGBGDCJHDH_ECGOHNPHOKH_OFFSET UNITYSDK_OFFSET(0x1B5DA520)
+#define KEGBGDCJHDH_EKMCDJNEDBM_OFFSET UNITYSDK_OFFSET(0x1B5DAF40)
+#define KEGBGDCJHDH_JIFANILBBEK_OFFSET UNITYSDK_OFFSET(0x1B5DB0D0)
+#define KEGBGDCJHDH_KNKALOLLDEJ_OFFSET UNITYSDK_OFFSET(0x1B5D9BF0)
+#define KEGBGDCJHDH_NFLGGCHDENJ_OFFSET UNITYSDK_OFFSET(0x1B5DA480)
 
-inline static constexpr unsigned int KEGBGDCJHDH_TypeDefinitionIndex = 73864;
+inline static constexpr unsigned int KEGBGDCJHDH_TypeDefinitionIndex = 75990;
 
 	class KEGBGDCJHDH : public ::System::Object
 	{
 	public:
-		::System::String* ANBDEIDCEAC; // 0x10
-		::System::Collections::Generic::HashSet_1<::MCLHMGFGEFK>* FIPHAHPENBP; // 0x18
-		::KLEFGGIHGMI* OKPMJOCEKBC; // 0x20
-		::RPG::GameCore::BlockNodeConfig* ALPMEMFCLJG; // 0x28
-		::System::Collections::Generic::Dictionary_2<::MCLHMGFGEFK, ::RPG::GameCore::BlockNodeConfig*>* BICDNBMIJPB; // 0x30
+		::System::Collections::Generic::HashSet_1<::MCLHMGFGEFK>* FIPHAHPENBP; // 0x10
+		::System::String* ANBDEIDCEAC; // 0x18
+		::System::Collections::Generic::Dictionary_2<::MCLHMGFGEFK, ::RPG::GameCore::BlockNodeConfig*>* BICDNBMIJPB; // 0x20
+		::KLEFGGIHGMI* OKPMJOCEKBC; // 0x28
+		::RPG::GameCore::BlockNodeConfig* ALPMEMFCLJG; // 0x30
 		::System::Collections::Generic::HashSet_1<::MCLHMGFGEFK>* OFPHHAJLNAI; // 0x38
 		::System::Void _ctor()
 		{

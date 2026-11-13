@@ -10,13 +10,13 @@ namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68A810)
-#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D68A820)
-#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68A7E0)
+#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8578D0)
+#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8578E0)
+#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8578A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDashOrbConfig_TypeDefinitionIndex = 18577;
+	inline static constexpr unsigned int FiveDimDashOrbConfig_TypeDefinitionIndex = 18737;
 
 	class FiveDimDashOrbConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

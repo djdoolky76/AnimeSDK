@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0905D0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1F0910C0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_MATCHPATTERN_OFFSET UNITYSDK_OFFSET(0x1F090E30)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_SCAN_OFFSET UNITYSDK_OFFSET(0x1F091130)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F0914D0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_CTOR_OFFSET UNITYSDK_OFFSET(0x190BDF50)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x190BEA40)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_MATCHPATTERN_OFFSET UNITYSDK_OFFSET(0x190BE7B0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_SCAN_OFFSET UNITYSDK_OFFSET(0x190BEAB0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x190BEE50)
 
 namespace System::Text::RegularExpressions
 {
@@ -17,16 +17,15 @@ namespace System::Text::RegularExpressions
 	class RegexBoyerMoore : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* _negativeASCII; // 0x10
-		::System::Globalization::CultureInfo* _culture; // 0x18
+		::System::Globalization::CultureInfo* _culture; // 0x10
+		::Il2CppArray<::System::Int32>* _positive; // 0x18
 		::System::String* _pattern; // 0x20
-		::Il2CppArray<::System::Int32>* _positive; // 0x28
-		::Il2CppArray<::Il2CppArray<::System::Int32>*>* _negativeUnicode; // 0x30
-		::System::Boolean _rightToLeft; // 0x38
-		::System::Boolean _caseInsensitive; // 0x39
-		::System::Byte _padding0[0x2];
-		::System::Int32 _lowASCII; // 0x3C
-		::System::Int32 _highASCII; // 0x40
+		::Il2CppArray<::Il2CppArray<::System::Int32>*>* _negativeUnicode; // 0x28
+		::Il2CppArray<::System::Int32>* _negativeASCII; // 0x30
+		::System::Int32 _lowASCII; // 0x38
+		::System::Int32 _highASCII; // 0x3C
+		::System::Boolean _rightToLeft; // 0x40
+		::System::Boolean _caseInsensitive; // 0x41
 		::System::Void _ctor(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Globalization::CultureInfo* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_CTOR_OFFSET))(this, a1, a2, a3, a4);

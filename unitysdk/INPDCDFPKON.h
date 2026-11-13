@@ -6,24 +6,24 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipmentData; }
 namespace RPG::GameCore { class IdleLiveEquipSlotRow; }
 namespace System { class String; }
 
-#define INPDCDFPKON_CTOR_OFFSET UNITYSDK_OFFSET(0x164EA880)
-#define INPDCDFPKON_GET_EQUIP_OFFSET UNITYSDK_OFFSET(0x164EA850)
-#define INPDCDFPKON_GET_SLOTID_OFFSET UNITYSDK_OFFSET(0x164EA870)
-#define INPDCDFPKON_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x164EA840)
-#define INPDCDFPKON_HGGABIEGFJB_OFFSET UNITYSDK_OFFSET(0x164EA8B0)
-#define INPDCDFPKON_MLNGAKHBJMI_OFFSET UNITYSDK_OFFSET(0x164EA900)
-#define INPDCDFPKON_SET_EQUIP_OFFSET UNITYSDK_OFFSET(0x164EA860)
+#define INPDCDFPKON_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F8CF0)
+#define INPDCDFPKON_GET_EQUIP_OFFSET UNITYSDK_OFFSET(0x1A5F8CC0)
+#define INPDCDFPKON_GET_SLOTID_OFFSET UNITYSDK_OFFSET(0x1A5F8CE0)
+#define INPDCDFPKON_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1A5F8CB0)
+#define INPDCDFPKON_HGGABIEGFJB_OFFSET UNITYSDK_OFFSET(0x1A5F8D20)
+#define INPDCDFPKON_MLNGAKHBJMI_OFFSET UNITYSDK_OFFSET(0x1A5F8D70)
+#define INPDCDFPKON_SET_EQUIP_OFFSET UNITYSDK_OFFSET(0x1A5F8CD0)
 
-inline static constexpr unsigned int INPDCDFPKON_TypeDefinitionIndex = 75222;
+inline static constexpr unsigned int INPDCDFPKON_TypeDefinitionIndex = 77549;
 
 	class INPDCDFPKON : public ::System::Object
 	{
 	public:
 		::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData* _Equip_k__BackingField; // 0x10
 		::System::String* NDKFOEHAIED; // 0x18
-		::RPG::Client::TextID _Title_k__BackingField; // 0x20
-		::System::UInt32 _SlotId_k__BackingField; // 0x30
-		::System::UInt32 IPONDHMHDBI; // 0x34
+		::System::UInt32 _SlotId_k__BackingField; // 0x20
+		::System::UInt32 IPONDHMHDBI; // 0x24
+		::RPG::Client::TextID _Title_k__BackingField; // 0x28
 		::System::Void _ctor(::RPG::GameCore::IdleLiveEquipSlotRow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveEquipSlotRow*))((::PBYTE)hIl2Cpp + INPDCDFPKON_CTOR_OFFSET))(this, a1);

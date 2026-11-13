@@ -10,12 +10,12 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NCLLCKELFPC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0F650)
-#define NCLLCKELFPC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB0F5B0)
-#define NCLLCKELFPC_HIHHHKGJAKO_OFFSET UNITYSDK_OFFSET(0xBB0F410)
-#define NCLLCKELFPC_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xBB0F160)
+#define NCLLCKELFPC_CTOR_OFFSET UNITYSDK_OFFSET(0x15103010)
+#define NCLLCKELFPC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15102F70)
+#define NCLLCKELFPC_HIHHHKGJAKO_OFFSET UNITYSDK_OFFSET(0x15102DD0)
+#define NCLLCKELFPC_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x15102B20)
 
-inline static constexpr unsigned int NCLLCKELFPC_TypeDefinitionIndex = 77392;
+inline static constexpr unsigned int NCLLCKELFPC_TypeDefinitionIndex = 79726;
 
 	class NCLLCKELFPC : public ::System::Object
 	{

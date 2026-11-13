@@ -5,10 +5,10 @@ class HFEOGNAMHCG;
 namespace RPG::Client { class RogueFormulaData; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define FIHMMMCPAOI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1579C910)
-#define FIHMMMCPAOI___C__DISPLAYCLASS4_0___PLAYFORMULASTORY_B__0_OFFSET UNITYSDK_OFFSET(0x1579CF90)
+#define FIHMMMCPAOI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x198061D0)
+#define FIHMMMCPAOI___C__DISPLAYCLASS4_0___PLAYFORMULASTORY_B__0_OFFSET UNITYSDK_OFFSET(0x19806850)
 
-inline static constexpr unsigned int FIHMMMCPAOI___c__DisplayClass4_0_TypeDefinitionIndex = 67640;
+inline static constexpr unsigned int FIHMMMCPAOI___c__DisplayClass4_0_TypeDefinitionIndex = 69584;
 
 	class FIHMMMCPAOI___c__DisplayClass4_0 : public ::System::Object
 	{

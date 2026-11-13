@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPEREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B895410)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPEREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B8953B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPEREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3AD0C0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPEREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F3AD060)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int TypeReflection_TypeDefinitionIndex = 5441;
+	inline static constexpr unsigned int TypeReflection_TypeDefinitionIndex = 5446;
 
 	class TypeReflection : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "TypeReflection")->GetStaticField(0x259A0);
+			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "TypeReflection")->GetStaticField(0x28BE0);
 		}
 
 		static ::System::Void _cctor()

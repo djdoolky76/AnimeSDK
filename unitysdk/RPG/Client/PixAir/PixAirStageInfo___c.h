@@ -5,25 +5,25 @@ namespace RPG::Client::PixAir { class PixAirStageData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRSTAGEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB63370)
-#define RPG_CLIENT_PIXAIR_PIXAIRSTAGEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB633B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRSTAGEINFO___C__GETSORTEDNORMALSTAGELIST_B__33_0_OFFSET UNITYSDK_OFFSET(0xDB633C0)
+#define RPG_CLIENT_PIXAIR_PIXAIRSTAGEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D82D910)
+#define RPG_CLIENT_PIXAIR_PIXAIRSTAGEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82D950)
+#define RPG_CLIENT_PIXAIR_PIXAIRSTAGEINFO___C__GETSORTEDNORMALSTAGELIST_B__33_0_OFFSET UNITYSDK_OFFSET(0x1D82D960)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirStageInfo___c_TypeDefinitionIndex = 79376;
+	inline static constexpr unsigned int PixAirStageInfo___c_TypeDefinitionIndex = 82153;
 
 	class PixAirStageInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::PixAir::PixAirStageData*>** StaticGet___9__33_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirStageData*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x21F40);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x21F48);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x3B8D0);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::PixAir::PixAirStageData*>** StaticGet___9__33_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirStageData*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x3B8D8);
 		}
 
 		static ::System::Void _cctor()

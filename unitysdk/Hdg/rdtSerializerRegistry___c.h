@@ -5,79 +5,79 @@ namespace Hdg { class rdtSerializerRegistry; }
 namespace Hdg { class rdtSerializerRegistry_ConvertObjectDelegate; }
 namespace System { class Object; }
 
-#define HDG_RDTSERIALIZERREGISTRY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF48970)
-#define HDG_RDTSERIALIZERREGISTRY___C_CTOR_OFFSET UNITYSDK_OFFSET(0xAF489A0)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_0_OFFSET UNITYSDK_OFFSET(0xAF489B0)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_1_OFFSET UNITYSDK_OFFSET(0xAF48A80)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_2_OFFSET UNITYSDK_OFFSET(0xAF48B50)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_3_OFFSET UNITYSDK_OFFSET(0xAF48C10)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_4_OFFSET UNITYSDK_OFFSET(0xAF48CD0)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_5_OFFSET UNITYSDK_OFFSET(0xAF48D90)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_6_OFFSET UNITYSDK_OFFSET(0xAF48E60)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_7_OFFSET UNITYSDK_OFFSET(0xAF48F20)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_8_OFFSET UNITYSDK_OFFSET(0xAF49090)
-#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_9_OFFSET UNITYSDK_OFFSET(0xAF49180)
+#define HDG_RDTSERIALIZERREGISTRY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6B1690)
+#define HDG_RDTSERIALIZERREGISTRY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6B16C0)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_0_OFFSET UNITYSDK_OFFSET(0x1A6B16D0)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_1_OFFSET UNITYSDK_OFFSET(0x1A6B17A0)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_2_OFFSET UNITYSDK_OFFSET(0x1A6B1870)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_3_OFFSET UNITYSDK_OFFSET(0x1A6B1930)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_4_OFFSET UNITYSDK_OFFSET(0x1A6B19F0)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_5_OFFSET UNITYSDK_OFFSET(0x1A6B1AB0)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_6_OFFSET UNITYSDK_OFFSET(0x1A6B1B80)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_7_OFFSET UNITYSDK_OFFSET(0x1A6B1C40)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_8_OFFSET UNITYSDK_OFFSET(0x1A6B1DD0)
+#define HDG_RDTSERIALIZERREGISTRY___C___CTOR_B__11_9_OFFSET UNITYSDK_OFFSET(0x1A6B1EC0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerRegistry___c_TypeDefinitionIndex = 46969;
+	inline static constexpr unsigned int rdtSerializerRegistry___c_TypeDefinitionIndex = 47997;
 
 	class rdtSerializerRegistry___c : public ::System::Object
 	{
 	public:
-		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_2()
+		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_9()
 		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D480);
-		}
-
-		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_1()
-		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D488);
-		}
-
-		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_3()
-		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D490);
-		}
-
-		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_0()
-		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D498);
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16540);
 		}
 
 		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_6()
 		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D4A0);
-		}
-
-		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_7()
-		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D4A8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D4B0);
-		}
-
-		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_9()
-		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D4B8);
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16548);
 		}
 
 		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_5()
 		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D4C0);
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16550);
+		}
+
+		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_1()
+		{
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16558);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16560);
 		}
 
 		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_8()
 		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D4C8);
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16568);
+		}
+
+		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_3()
+		{
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16570);
+		}
+
+		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_2()
+		{
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16578);
+		}
+
+		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_7()
+		{
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16580);
+		}
+
+		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_0()
+		{
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16588);
 		}
 
 		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet___9__11_4()
 		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x1D4D0);
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)UnitySDK::FromName("Hdg", "<>c")->GetStaticField(0x16590);
 		}
 
 		static ::System::Void _cctor()

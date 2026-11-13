@@ -4,18 +4,18 @@
 class BCDIFIIDPIA;
 namespace System { class Object; }
 
-#define BCDIFIIDPIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8D9E70)
-#define BCDIFIIDPIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D9EB0)
-#define BCDIFIIDPIA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8D9EC0)
+#define BCDIFIIDPIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA7B180)
+#define BCDIFIIDPIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA7B1C0)
+#define BCDIFIIDPIA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FA7B1D0)
 
-inline static constexpr unsigned int BCDIFIIDPIA___c_TypeDefinitionIndex = 31007;
+inline static constexpr unsigned int BCDIFIIDPIA___c_TypeDefinitionIndex = 31920;
 
 	class BCDIFIIDPIA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50480);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x453D0);
 		}
 
 		static ::System::Void _cctor()

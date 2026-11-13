@@ -4,7 +4,7 @@ class FFCOMIEHGJP;
 class HIKAAGHELPH;
 class LIIJGPOCFPL;
 
-inline static constexpr unsigned int KBAFKOIJEMH_TypeDefinitionIndex = 44247;
+inline static constexpr unsigned int KBAFKOIJEMH_TypeDefinitionIndex = 45322;
 
 	struct alignas(8) KBAFKOIJEMH
 	{

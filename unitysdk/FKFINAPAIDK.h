@@ -8,19 +8,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FKFINAPAIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x157E3930)
-#define FKFINAPAIDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157E39B0)
-#define FKFINAPAIDK_KGIIEOBJHLF_OFFSET UNITYSDK_OFFSET(0x157E3FC0)
-#define FKFINAPAIDK_MGIILEHMCJK_OFFSET UNITYSDK_OFFSET(0x157E3A60)
-#define FKFINAPAIDK_NDIDKJKOEJB_OFFSET UNITYSDK_OFFSET(0x157E3D70)
+#define FKFINAPAIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA9A040)
+#define FKFINAPAIDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AA9A0C0)
+#define FKFINAPAIDK_KGIIEOBJHLF_OFFSET UNITYSDK_OFFSET(0x1AA9A6D0)
+#define FKFINAPAIDK_MGIILEHMCJK_OFFSET UNITYSDK_OFFSET(0x1AA9A170)
+#define FKFINAPAIDK_NDIDKJKOEJB_OFFSET UNITYSDK_OFFSET(0x1AA9A480)
 
-inline static constexpr unsigned int FKFINAPAIDK_TypeDefinitionIndex = 55954;
+inline static constexpr unsigned int FKFINAPAIDK_TypeDefinitionIndex = 57157;
 
 	class FKFINAPAIDK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::PoolList_1<::RPG::GameCore::GameEntity*>*>* MFEJOOBOJBF; // 0x10
-		::RPG::GameCore::TurnBasedGameMode* JADHLODNADK; // 0x18
+		::RPG::GameCore::TurnBasedGameMode* JADHLODNADK; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::PoolList_1<::RPG::GameCore::GameEntity*>*>* MFEJOOBOJBF; // 0x18
 		::System::Void _ctor(::RPG::GameCore::TurnBasedGameMode* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedGameMode*))((::PBYTE)hIl2Cpp + FKFINAPAIDK_CTOR_OFFSET))(this, a1);

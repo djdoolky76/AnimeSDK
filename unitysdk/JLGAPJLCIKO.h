@@ -13,49 +13,49 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Transform; }
 
-#define JLGAPJLCIKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB242D40)
-#define JLGAPJLCIKO_DKDHDAFGLBG_OFFSET UNITYSDK_OFFSET(0xB23D050)
-#define JLGAPJLCIKO_ECKCIKHGLOB_OFFSET UNITYSDK_OFFSET(0xB242D20)
-#define JLGAPJLCIKO_HCGLEMAHPFK_OFFSET UNITYSDK_OFFSET(0xB242D30)
-#define JLGAPJLCIKO_JPFLALPJDEP_OFFSET UNITYSDK_OFFSET(0xB23D0A0)
-#define JLGAPJLCIKO_LMOBAHHAHMO_OFFSET UNITYSDK_OFFSET(0xB23D140)
-#define JLGAPJLCIKO_OAHBEHLEIJF_OFFSET UNITYSDK_OFFSET(0xB242860)
+#define JLGAPJLCIKO_CTOR_OFFSET UNITYSDK_OFFSET(0x17B4F980)
+#define JLGAPJLCIKO_DKDHDAFGLBG_OFFSET UNITYSDK_OFFSET(0x17B49C60)
+#define JLGAPJLCIKO_ECKCIKHGLOB_OFFSET UNITYSDK_OFFSET(0x17B4F960)
+#define JLGAPJLCIKO_HCGLEMAHPFK_OFFSET UNITYSDK_OFFSET(0x17B4F970)
+#define JLGAPJLCIKO_JPFLALPJDEP_OFFSET UNITYSDK_OFFSET(0x17B49CB0)
+#define JLGAPJLCIKO_LMOBAHHAHMO_OFFSET UNITYSDK_OFFSET(0x17B49D50)
+#define JLGAPJLCIKO_OAHBEHLEIJF_OFFSET UNITYSDK_OFFSET(0x17B4F4A0)
 
-inline static constexpr unsigned int JLGAPJLCIKO_TypeDefinitionIndex = 70679;
+inline static constexpr unsigned int JLGAPJLCIKO_TypeDefinitionIndex = 72656;
 
 	class JLGAPJLCIKO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* JJNCMDALPDO; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* FMFKOPJPOGD; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PEKOGPILMDD; // 0x20
-		::System::Collections::Generic::List_1<::System::Object*>* MBLLKLCCDFM; // 0x28
-		::System::Collections::Generic::List_1<::System::Int32>* HGMOCJOCPLN; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* EIFFCMLGKLN; // 0x38
-		::System::Collections::Generic::List_1<::System::Int32>* IFODBLGFHNN; // 0x40
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ALBEAFIIGCD; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* NJJPPIHJHJJ; // 0x50
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* PMOCGLMLBHO; // 0x58
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* HMFPJIFLALH; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* PABPOLMALKH; // 0x68
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* KEMNHANJJJP; // 0x70
-		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* IJHGPDMJHBJ; // 0x78
-		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* FCBEJBDAKLC; // 0x80
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* NGOBCKGDIDF; // 0x88
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* IHCGAIBAFLA; // 0x90
-		::UnityEngine::Material* CMODCKCLONC; // 0x98
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* DGDDEKKGABP; // 0xA0
-		::System::Collections::Generic::List_1<::System::Int32>* OBPONKLONKO; // 0xA8
-		::System::Collections::Generic::List_1<::System::Int32>* FKOGGBAGCEA; // 0xB0
-		::System::Collections::Generic::List_1<::System::Object*>* HNOBDDJKLCK; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* NKLHOCBLKND; // 0xC0
-		::System::Collections::Generic::List_1<::System::Int32>* LIBGHPDEAOE; // 0xC8
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* JDKBKGLICBM; // 0xD0
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PBCEGNLBHBO; // 0xD8
-		::JLGAPJLCIKO_DCEDGLBONKO KBOEMHCNBCL; // 0xE0
-		::System::Boolean HDMAFMJCBEH; // 0xF8
-		::System::Boolean BMKFMCGBOBN; // 0xF9
+		::System::Collections::Generic::List_1<::System::Int32>* HGMOCJOCPLN; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* FCBEJBDAKLC; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PBCEGNLBHBO; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* FKOGGBAGCEA; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* JDKBKGLICBM; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* NKLHOCBLKND; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* PABPOLMALKH; // 0x40
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* PMOCGLMLBHO; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* EIFFCMLGKLN; // 0x50
+		::UnityEngine::Material* CMODCKCLONC; // 0x58
+		::System::Collections::Generic::List_1<::System::Object*>* HNOBDDJKLCK; // 0x60
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* KEMNHANJJJP; // 0x68
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PEKOGPILMDD; // 0x70
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ALBEAFIIGCD; // 0x78
+		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* IJHGPDMJHBJ; // 0x80
+		::System::Collections::Generic::List_1<::System::Int32>* IFODBLGFHNN; // 0x88
+		::System::Collections::Generic::List_1<::System::Int32>* OBPONKLONKO; // 0x90
+		::System::Collections::Generic::List_1<::System::Int32>* JJNCMDALPDO; // 0x98
+		::System::Collections::Generic::List_1<::System::Int32>* LIBGHPDEAOE; // 0xA0
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* FMFKOPJPOGD; // 0xA8
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* NGOBCKGDIDF; // 0xB0
+		::System::Collections::Generic::List_1<::System::Object*>* MBLLKLCCDFM; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* NJJPPIHJHJJ; // 0xC0
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* DGDDEKKGABP; // 0xC8
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* IHCGAIBAFLA; // 0xD0
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* HMFPJIFLALH; // 0xD8
+		::System::Boolean HDMAFMJCBEH; // 0xE0
+		::System::Boolean BMKFMCGBOBN; // 0xE1
 		::System::Byte _padding0[0x2];
+		::JLGAPJLCIKO_DCEDGLBONKO KBOEMHCNBCL; // 0xE4
 		::UnityEngine::Ray DEAJNGOACHN; // 0xFC
 		::System::Void _ctor()
 		{

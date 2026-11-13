@@ -7,48 +7,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_SDKDISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0xB033290)
-#define MIHOYO_SDK_SDKDISPATCHER_CHECKINVOKE_OFFSET UNITYSDK_OFFSET(0xB031EE0)
-#define MIHOYO_SDK_SDKDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0xB033280)
-#define MIHOYO_SDK_SDKDISPATCHER_INITAPM_OFFSET UNITYSDK_OFFSET(0xB031C50)
-#define MIHOYO_SDK_SDKDISPATCHER_INIT_OFFSET UNITYSDK_OFFSET(0xB031EB0)
-#define MIHOYO_SDK_SDKDISPATCHER_SDKINVOKE_OFFSET UNITYSDK_OFFSET(0xB032220)
+#define MIHOYO_SDK_SDKDISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD0FCD0)
+#define MIHOYO_SDK_SDKDISPATCHER_CHECKINVOKE_OFFSET UNITYSDK_OFFSET(0x1DD0E8C0)
+#define MIHOYO_SDK_SDKDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD0FCC0)
+#define MIHOYO_SDK_SDKDISPATCHER_INITAPM_OFFSET UNITYSDK_OFFSET(0x1DD0E600)
+#define MIHOYO_SDK_SDKDISPATCHER_INIT_OFFSET UNITYSDK_OFFSET(0x1DD0E890)
+#define MIHOYO_SDK_SDKDISPATCHER_SDKINVOKE_OFFSET UNITYSDK_OFFSET(0x1DD0EBE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDispatcher_TypeDefinitionIndex = 46266;
+	inline static constexpr unsigned int SDKDispatcher_TypeDefinitionIndex = 47294;
 
 	class SDKDispatcher : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::Object*>** StaticGet_parameters0()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x29F30);
+		}
+
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_h5logFilteredFuncList()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x31EF0);
-		}
-
-		static ::Il2CppArray<::System::Object*>** StaticGet_parameters2()
-		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x31EF8);
-		}
-
-		static ::Il2CppArray<::System::Object*>** StaticGet_parameters1()
-		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x31F00);
+			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x29F38);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_supportModuleList()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x31F08);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x29F40);
 		}
 
-		static ::Il2CppArray<::System::Object*>** StaticGet_parameters0()
+		static ::Il2CppArray<::System::Object*>** StaticGet_parameters2()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x31F10);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x29F48);
+		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_parameters1()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x29F50);
 		}
 
 		static ::System::Int32* StaticGet_initialVOXThreadId()
 		{
-			return (::System::Int32*)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0xA470);
+			return (::System::Int32*)UnitySDK::FromName("MiHoYo.SDK", "SDKDispatcher")->GetStaticField(0x87B0);
 		}
 
 		::System::Void _ctor()

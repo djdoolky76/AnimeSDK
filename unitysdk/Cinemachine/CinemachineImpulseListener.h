@@ -5,12 +5,12 @@
 #include "unitysdk/Cinemachine/CameraState.h"
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x16680650)
-#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1667FF80)
+#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x19C5AB30)
+#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x19C5A460)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseListener_TypeDefinitionIndex = 39869;
+	inline static constexpr unsigned int CinemachineImpulseListener_TypeDefinitionIndex = 40798;
 
 	class CinemachineImpulseListener : public ::Cinemachine::CinemachineExtension
 	{

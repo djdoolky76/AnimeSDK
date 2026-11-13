@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NMCIEIIHGCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C941DA0)
+#define NMCIEIIHGCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0504C0)
 
-inline static constexpr unsigned int NMCIEIIHGCP_TypeDefinitionIndex = 42143;
+inline static constexpr unsigned int NMCIEIIHGCP_TypeDefinitionIndex = 43118;
 
 	class NMCIEIIHGCP : public ::System::Object
 	{

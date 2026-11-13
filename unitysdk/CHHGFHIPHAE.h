@@ -4,18 +4,18 @@
 class CHHGFHIPHAE;
 class ECONLFPJNAA;
 
-#define CHHGFHIPHAE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF43960)
-#define CHHGFHIPHAE_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xCF438A0)
+#define CHHGFHIPHAE_CTOR_OFFSET UNITYSDK_OFFSET(0x16E17F00)
+#define CHHGFHIPHAE_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x16E17E40)
 
-inline static constexpr unsigned int CHHGFHIPHAE_TypeDefinitionIndex = 56305;
+inline static constexpr unsigned int CHHGFHIPHAE_TypeDefinitionIndex = 57519;
 
 	class CHHGFHIPHAE : public ::System::Object
 	{
 	public:
 		::ECONLFPJNAA* FGNHFJHBPIM; // 0x10
-		::System::UInt32 HALECHFBIHK; // 0x18
-		::System::UInt32 AAGKEBFHLMC; // 0x1C
-		::System::UInt32 PKEKFAHEPAL; // 0x20
+		::System::UInt32 AAGKEBFHLMC; // 0x18
+		::System::UInt32 PKEKFAHEPAL; // 0x1C
+		::System::UInt32 HALECHFBIHK; // 0x20
 		::System::UInt32 IEDEBFCCKNL; // 0x24
 		::System::Void _ctor()
 		{

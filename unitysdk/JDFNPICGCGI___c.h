@@ -4,18 +4,18 @@
 class JDFNPICGCGI;
 namespace System { class Object; }
 
-#define JDFNPICGCGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6DD620)
-#define JDFNPICGCGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DD650)
-#define JDFNPICGCGI___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1E6DD660)
+#define JDFNPICGCGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20426790)
+#define JDFNPICGCGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204267C0)
+#define JDFNPICGCGI___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x204267D0)
 
-inline static constexpr unsigned int JDFNPICGCGI___c_TypeDefinitionIndex = 33124;
+inline static constexpr unsigned int JDFNPICGCGI___c_TypeDefinitionIndex = 34039;
 
 	class JDFNPICGCGI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A960);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CD60);
 		}
 
 		static ::System::Void _cctor()

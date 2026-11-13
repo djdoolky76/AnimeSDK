@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByContainsCharacterState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BIGFOBIGMON_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A3F10)
-#define BIGFOBIGMON_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4A3F40)
+#define BIGFOBIGMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB6680)
+#define BIGFOBIGMON_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BAB66B0)
 
-inline static constexpr unsigned int BIGFOBIGMON_TypeDefinitionIndex = 54893;
+inline static constexpr unsigned int BIGFOBIGMON_TypeDefinitionIndex = 56064;
 
 	class BIGFOBIGMON
 	{

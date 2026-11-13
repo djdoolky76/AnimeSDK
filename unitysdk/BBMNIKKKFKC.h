@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BBMNIKKKFKC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E86930)
-#define BBMNIKKKFKC_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15E86940)
+#define BBMNIKKKFKC_CTOR_OFFSET UNITYSDK_OFFSET(0x19D614D0)
+#define BBMNIKKKFKC_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x19D614E0)
 
-inline static constexpr unsigned int BBMNIKKKFKC_TypeDefinitionIndex = 67043;
+inline static constexpr unsigned int BBMNIKKKFKC_TypeDefinitionIndex = 68987;
 
 	class BBMNIKKKFKC : public ::System::Object
 	{

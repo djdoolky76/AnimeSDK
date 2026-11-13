@@ -8,49 +8,49 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB9DDD0)
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9DE10)
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_0_OFFSET UNITYSDK_OFFSET(0xCB9DE20)
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_1_OFFSET UNITYSDK_OFFSET(0xCB9DE40)
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_2_OFFSET UNITYSDK_OFFSET(0xCB9DE90)
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_3_OFFSET UNITYSDK_OFFSET(0xCB9DEE0)
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_4_OFFSET UNITYSDK_OFFSET(0xCB9DF30)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9805E0)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C980620)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_0_OFFSET UNITYSDK_OFFSET(0x1C980630)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_1_OFFSET UNITYSDK_OFFSET(0x1C980650)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_2_OFFSET UNITYSDK_OFFSET(0x1C9806A0)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_3_OFFSET UNITYSDK_OFFSET(0x1C9806F0)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL___C___BINDING_B__6_4_OFFSET UNITYSDK_OFFSET(0x1C980740)
 
 namespace RPG::Client::CommonButton
 {
-	inline static constexpr unsigned int CommonButtonControl___c_TypeDefinitionIndex = 81244;
+	inline static constexpr unsigned int CommonButtonControl___c_TypeDefinitionIndex = 84024;
 
 	class CommonButtonControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x17ED0);
-		}
-
-		static ::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x17ED8);
-		}
-
-		static ::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_2()
-		{
-			return (::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x17EE0);
-		}
-
-		static ::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_4()
-		{
-			return (::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x17EE8);
-		}
-
 		static ::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_3()
 		{
-			return (::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x17EF0);
+			return (::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x1BB60);
 		}
 
 		static ::System::Func_2<::KCFGMKGNMNP*, ::CEEGMMCFCBG*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::KCFGMKGNMNP*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x17EF8);
+			return (::System::Func_2<::KCFGMKGNMNP*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x1BB68);
+		}
+
+		static ::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_4()
+		{
+			return (::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x1BB70);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x1BB78);
+		}
+
+		static ::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_2()
+		{
+			return (::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x1BB80);
+		}
+
+		static ::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::KCFGMKGNMNP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.CommonButton", "<>c")->GetStaticField(0x1BB88);
 		}
 
 		static ::System::Void _cctor()

@@ -6,29 +6,29 @@ class POIONNNNCMJ;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define OFIILELJGIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C54B0E0)
-#define OFIILELJGIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54B120)
-#define OFIILELJGIE___C__GET_ISALLREQUIREDMET_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C54B130)
-#define OFIILELJGIE___C___ITERATEOPTIONALTRACKERS_B__36_0_OFFSET UNITYSDK_OFFSET(0x1C54B190)
+#define OFIILELJGIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x207C2B90)
+#define OFIILELJGIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x207C2BD0)
+#define OFIILELJGIE___C__GET_ISALLREQUIREDMET_B__5_0_OFFSET UNITYSDK_OFFSET(0x207C2BE0)
+#define OFIILELJGIE___C___ITERATEOPTIONALTRACKERS_B__36_0_OFFSET UNITYSDK_OFFSET(0x207C2C40)
 
-inline static constexpr unsigned int OFIILELJGIE___c_TypeDefinitionIndex = 41825;
+inline static constexpr unsigned int OFIILELJGIE___c_TypeDefinitionIndex = 42800;
 
 	class OFIILELJGIE___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x116E0);
+		}
+
 		static ::System::Func_2<::JEBPFBNCALB*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::JEBPFBNCALB*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23640);
+			return (::System::Func_2<::JEBPFBNCALB*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x116E8);
 		}
 
 		static ::System::Func_2<::POIONNNNCMJ*, ::JEBPFBNCALB*>** StaticGet___9__36_0()
 		{
-			return (::System::Func_2<::POIONNNNCMJ*, ::JEBPFBNCALB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23648);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23650);
+			return (::System::Func_2<::POIONNNNCMJ*, ::JEBPFBNCALB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x116F0);
 		}
 
 		static ::System::Void _cctor()

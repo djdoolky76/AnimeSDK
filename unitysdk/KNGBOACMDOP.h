@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleBySpineDamage; }
 
-#define KNGBOACMDOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DB5A0)
-#define KNGBOACMDOP_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C8DB670)
+#define KNGBOACMDOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D635420)
+#define KNGBOACMDOP_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1D6354F0)
 
-inline static constexpr unsigned int KNGBOACMDOP_TypeDefinitionIndex = 43158;
+inline static constexpr unsigned int KNGBOACMDOP_TypeDefinitionIndex = 44139;
 
 	class KNGBOACMDOP : public ::LHJPMDPJPEC
 	{

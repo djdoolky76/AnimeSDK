@@ -4,18 +4,18 @@
 class OCLIPJHEAGJ;
 namespace System { class Object; }
 
-#define OCLIPJHEAGJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDEADE0)
-#define OCLIPJHEAGJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEAE20)
-#define OCLIPJHEAGJ___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DDEAE30)
+#define OCLIPJHEAGJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB48540)
+#define OCLIPJHEAGJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB48580)
+#define OCLIPJHEAGJ___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FB48590)
 
-inline static constexpr unsigned int OCLIPJHEAGJ___c_TypeDefinitionIndex = 31236;
+inline static constexpr unsigned int OCLIPJHEAGJ___c_TypeDefinitionIndex = 32149;
 
 	class OCLIPJHEAGJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11B10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xDC70);
 		}
 
 		static ::System::Void _cctor()

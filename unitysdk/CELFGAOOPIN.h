@@ -5,20 +5,20 @@ class JKLCLLAFHOC;
 namespace RPG::Client { class ChessRogueBoardCellBossSelectData; }
 namespace RPG::Client { class ChessRogueBoardCellDecayData; }
 
-#define CELFGAOOPIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC9DD880)
-#define CELFGAOOPIN_GET_BOSSSELECTDATA_OFFSET UNITYSDK_OFFSET(0xC9DD960)
-#define CELFGAOOPIN_GET_DECAYDATA_OFFSET UNITYSDK_OFFSET(0xC9DD980)
-#define CELFGAOOPIN_JPJECAOFHOP_OFFSET UNITYSDK_OFFSET(0xC9DD890)
-#define CELFGAOOPIN_SET_BOSSSELECTDATA_OFFSET UNITYSDK_OFFSET(0xC9DD970)
-#define CELFGAOOPIN_SET_DECAYDATA_OFFSET UNITYSDK_OFFSET(0xC9DD990)
+#define CELFGAOOPIN_CTOR_OFFSET UNITYSDK_OFFSET(0x18820360)
+#define CELFGAOOPIN_GET_BOSSSELECTDATA_OFFSET UNITYSDK_OFFSET(0x18820440)
+#define CELFGAOOPIN_GET_DECAYDATA_OFFSET UNITYSDK_OFFSET(0x18820460)
+#define CELFGAOOPIN_JPJECAOFHOP_OFFSET UNITYSDK_OFFSET(0x18820370)
+#define CELFGAOOPIN_SET_BOSSSELECTDATA_OFFSET UNITYSDK_OFFSET(0x18820450)
+#define CELFGAOOPIN_SET_DECAYDATA_OFFSET UNITYSDK_OFFSET(0x18820470)
 
-inline static constexpr unsigned int CELFGAOOPIN_TypeDefinitionIndex = 66922;
+inline static constexpr unsigned int CELFGAOOPIN_TypeDefinitionIndex = 68866;
 
 	class CELFGAOOPIN : public ::GNFLPMACOFA
 	{
 	public:
-		::RPG::Client::ChessRogueBoardCellBossSelectData* _BossSelectData_k__BackingField; // 0x10
-		::RPG::Client::ChessRogueBoardCellDecayData* _DecayData_k__BackingField; // 0x18
+		::RPG::Client::ChessRogueBoardCellDecayData* _DecayData_k__BackingField; // 0x10
+		::RPG::Client::ChessRogueBoardCellBossSelectData* _BossSelectData_k__BackingField; // 0x18
 		::System::Void _ctor(::JKLCLLAFHOC* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::JKLCLLAFHOC*))((::PBYTE)hIl2Cpp + CELFGAOOPIN_CTOR_OFFSET))(this, a1);

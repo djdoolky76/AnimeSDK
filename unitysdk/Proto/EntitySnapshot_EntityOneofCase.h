@@ -3,7 +3,7 @@
 
 namespace Proto
 {
-	inline static constexpr unsigned int EntitySnapshot_EntityOneofCase_TypeDefinitionIndex = 25824;
+	inline static constexpr unsigned int EntitySnapshot_EntityOneofCase_TypeDefinitionIndex = 26321;
 
 	enum class EntitySnapshot_EntityOneofCase : ::System::Int32
 	{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchPuzzleEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NGFBGLMNIPF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB9E350)
-#define NGFBGLMNIPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB9E3C0)
+#define NGFBGLMNIPF_CTOR_OFFSET UNITYSDK_OFFSET(0x18E88B20)
+#define NGFBGLMNIPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18E88B90)
 
-inline static constexpr unsigned int NGFBGLMNIPF_TypeDefinitionIndex = 59107;
+inline static constexpr unsigned int NGFBGLMNIPF_TypeDefinitionIndex = 60383;
 
 	class NGFBGLMNIPF
 	{

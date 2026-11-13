@@ -10,31 +10,32 @@ namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NMLADOGHHGL_BJHBKFHPFLN_OFFSET UNITYSDK_OFFSET(0xBC83C20)
-#define NMLADOGHHGL_CLEAR_OFFSET UNITYSDK_OFFSET(0xBC83530)
-#define NMLADOGHHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC83400)
-#define NMLADOGHHGL_EPOLDGPEFPO_OFFSET UNITYSDK_OFFSET(0xBC83C80)
-#define NMLADOGHHGL_GET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xBC833E0)
-#define NMLADOGHHGL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBC83B30)
-#define NMLADOGHHGL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC83740)
-#define NMLADOGHHGL_ODMPOFLDMNI_OFFSET UNITYSDK_OFFSET(0xBC83980)
-#define NMLADOGHHGL_OFGFCCPIOAJ_OFFSET UNITYSDK_OFFSET(0xBC83DC0)
-#define NMLADOGHHGL_SET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xBC833F0)
+#define NMLADOGHHGL_BJHBKFHPFLN_OFFSET UNITYSDK_OFFSET(0x1A44A900)
+#define NMLADOGHHGL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A44A220)
+#define NMLADOGHHGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A44A0F0)
+#define NMLADOGHHGL_EPOLDGPEFPO_OFFSET UNITYSDK_OFFSET(0x1A44A960)
+#define NMLADOGHHGL_GET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0x1A44A0D0)
+#define NMLADOGHHGL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1A44A810)
+#define NMLADOGHHGL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1A44A420)
+#define NMLADOGHHGL_ODMPOFLDMNI_OFFSET UNITYSDK_OFFSET(0x1A44A660)
+#define NMLADOGHHGL_OFGFCCPIOAJ_OFFSET UNITYSDK_OFFSET(0x1A44AA10)
+#define NMLADOGHHGL_SET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0x1A44A0E0)
 
-inline static constexpr unsigned int NMLADOGHHGL_TypeDefinitionIndex = 57811;
+inline static constexpr unsigned int NMLADOGHHGL_TypeDefinitionIndex = 59046;
 
 	class NMLADOGHHGL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* OFPPCHFNLGH; // 0x10
-		::System::String* JMAMNFPCOJH; // 0x18
-		::System::Action_1<::RPG::GameCore::GameEntity*>* ECNKLKGHOEE; // 0x20
-		::System::Predicate_1<::RPG::GameCore::GameWorld*>* _ValidChecker_k__BackingField; // 0x28
-		::System::Action_1<::RPG::GameCore::GameEntity*>* MJBFIAAOMEM; // 0x30
+		::System::Action_1<::RPG::GameCore::GameEntity*>* ECNKLKGHOEE; // 0x10
+		::System::Predicate_1<::RPG::GameCore::GameWorld*>* _ValidChecker_k__BackingField; // 0x18
+		::System::String* JMAMNFPCOJH; // 0x20
+		::System::Action_1<::RPG::GameCore::GameEntity*>* MJBFIAAOMEM; // 0x28
+		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* OFPPCHFNLGH; // 0x30
 		::RPG::GameCore::GameWorld* JEOADHBDKMO; // 0x38
-		::System::Single NDDPHDAIEJI; // 0x40
-		::System::Int32 GMDBHJKEAEI; // 0x44
-		::RPG::GameCore::EntityTypeMask HFFEAICCHAC; // 0x48
+		::RPG::GameCore::EntityTypeMask HFFEAICCHAC; // 0x40
+		::System::Byte _padding0[0x4];
+		::System::Single NDDPHDAIEJI; // 0x48
+		::System::Int32 GMDBHJKEAEI; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NMLADOGHHGL_CTOR_OFFSET))(this);

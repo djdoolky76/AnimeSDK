@@ -3,10 +3,10 @@
 class ECLEGOCKEHD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PHHMHDKGOCP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2444E0)
-#define PHHMHDKGOCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC244510)
+#define PHHMHDKGOCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9AD8D0)
+#define PHHMHDKGOCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9AD900)
 
-inline static constexpr unsigned int PHHMHDKGOCP_TypeDefinitionIndex = 52812;
+inline static constexpr unsigned int PHHMHDKGOCP_TypeDefinitionIndex = 53956;
 
 	class PHHMHDKGOCP
 	{

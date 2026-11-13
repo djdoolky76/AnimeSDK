@@ -6,10 +6,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelSpawnAllyNpcHipplenMiniNode; }
 
-#define IMKCHCHHJPC_CTOR_OFFSET UNITYSDK_OFFSET(0x164CF330)
-#define IMKCHCHHJPC_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x164CF250)
+#define IMKCHCHHJPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DBB10)
+#define IMKCHCHHJPC_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x1A5DBA30)
 
-inline static constexpr unsigned int IMKCHCHHJPC_TypeDefinitionIndex = 77695;
+inline static constexpr unsigned int IMKCHCHHJPC_TypeDefinitionIndex = 80430;
 
 	class IMKCHCHHJPC : public ::HBLDGJCDJPF
 	{

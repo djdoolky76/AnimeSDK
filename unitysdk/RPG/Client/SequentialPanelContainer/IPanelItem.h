@@ -3,7 +3,7 @@
 
 namespace RPG::Client::SequentialPanelContainer
 {
-	inline static constexpr unsigned int IPanelItem_TypeDefinitionIndex = 74749;
+	inline static constexpr unsigned int IPanelItem_TypeDefinitionIndex = 76903;
 
 	class IPanelItem
 	{

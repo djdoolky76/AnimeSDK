@@ -4,17 +4,17 @@
 class JGDCIMPJDNN;
 namespace RPG::Client::Promises { class Promise; }
 
-#define JGDCIMPJDNN___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB192000)
-#define JGDCIMPJDNN___C__DISPLAYCLASS1_0__FULLSYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB192390)
-#define JGDCIMPJDNN___C__DISPLAYCLASS1_0__FULLSYNC_B__1_OFFSET UNITYSDK_OFFSET(0xB1923B0)
+#define JGDCIMPJDNN___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1934A3A0)
+#define JGDCIMPJDNN___C__DISPLAYCLASS1_0__FULLSYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1934A730)
+#define JGDCIMPJDNN___C__DISPLAYCLASS1_0__FULLSYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1934A750)
 
-inline static constexpr unsigned int JGDCIMPJDNN___c__DisplayClass1_0_TypeDefinitionIndex = 80520;
+inline static constexpr unsigned int JGDCIMPJDNN___c__DisplayClass1_0_TypeDefinitionIndex = 83300;
 
 	class JGDCIMPJDNN___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
-		::JGDCIMPJDNN* __4__this; // 0x18
+		::JGDCIMPJDNN* __4__this; // 0x10
+		::RPG::Client::Promises::Promise* promise; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JGDCIMPJDNN___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class LDOMEIGDIAK;
 namespace System { class Object; }
 
-#define LDOMEIGDIAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8D3F70)
-#define LDOMEIGDIAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D3FB0)
-#define LDOMEIGDIAK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8D3FC0)
+#define LDOMEIGDIAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F810740)
+#define LDOMEIGDIAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F810780)
+#define LDOMEIGDIAK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F810790)
 
-inline static constexpr unsigned int LDOMEIGDIAK___c_TypeDefinitionIndex = 31874;
+inline static constexpr unsigned int LDOMEIGDIAK___c_TypeDefinitionIndex = 32787;
 
 	class LDOMEIGDIAK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F330);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E200);
 		}
 
 		static ::System::Void _cctor()

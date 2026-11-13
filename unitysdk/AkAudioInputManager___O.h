@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 class AkCallbackManager_EventCallback;
 
-inline static constexpr unsigned int AkAudioInputManager___O_TypeDefinitionIndex = 44815;
+inline static constexpr unsigned int AkAudioInputManager___O_TypeDefinitionIndex = 45890;
 
 	class AkAudioInputManager___O : public ::System::Object
 	{
 	public:
 		static ::AkCallbackManager_EventCallback** StaticGet__0___EventCallback()
 		{
-			return (::AkCallbackManager_EventCallback**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1C10);
+			return (::AkCallbackManager_EventCallback**)UnitySDK::FromName("", "<>O")->GetStaticField(0x70820);
 		}
 
 	};

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define EFKIODJNHHJ___C__DISPLAYCLASS3_2_CTOR_OFFSET UNITYSDK_OFFSET(0x13A56D30)
-#define EFKIODJNHHJ___C__DISPLAYCLASS3_2__FILTERMODIFIERTOINFECT_B__4_OFFSET UNITYSDK_OFFSET(0x13A56F20)
+#define EFKIODJNHHJ___C__DISPLAYCLASS3_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1A340C70)
+#define EFKIODJNHHJ___C__DISPLAYCLASS3_2__FILTERMODIFIERTOINFECT_B__4_OFFSET UNITYSDK_OFFSET(0x1A340EA0)
 
-inline static constexpr unsigned int EFKIODJNHHJ___c__DisplayClass3_2_TypeDefinitionIndex = 55112;
+inline static constexpr unsigned int EFKIODJNHHJ___c__DisplayClass3_2_TypeDefinitionIndex = 56289;
 
 	template <typename T1, typename T2>
 	class EFKIODJNHHJ___c__DisplayClass3_2 : public ::System::Object

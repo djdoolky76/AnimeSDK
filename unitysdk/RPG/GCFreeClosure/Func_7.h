@@ -4,7 +4,7 @@
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int Func_7_TypeDefinitionIndex = 6501;
+	inline static constexpr unsigned int Func_7_TypeDefinitionIndex = 6508;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class Func_7 : public ::System::MulticastDelegate

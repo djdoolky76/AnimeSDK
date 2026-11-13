@@ -6,15 +6,15 @@ class EILOGENDCCG;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LBAMHOLCOJE_BIHKBFPBHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E59F0)
+#define LBAMHOLCOJE_BIHKBFPBHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B288F40)
 
-inline static constexpr unsigned int LBAMHOLCOJE_BIHKBFPBHEJ_TypeDefinitionIndex = 56530;
+inline static constexpr unsigned int LBAMHOLCOJE_BIHKBFPBHEJ_TypeDefinitionIndex = 57750;
 
 	class LBAMHOLCOJE_BIHKBFPBHEJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::DIFEEJPHMJC, ::EILOGENDCCG*>* CFKMGIJNLPA; // 0x10
-		::System::String* GGCHFLBKILE; // 0x18
+		::System::String* GGCHFLBKILE; // 0x10
+		::System::Collections::Generic::Dictionary_2<::DIFEEJPHMJC, ::EILOGENDCCG*>* CFKMGIJNLPA; // 0x18
 		::System::String* GDFNHMFHDKP; // 0x20
 		::System::Void _ctor()
 		{

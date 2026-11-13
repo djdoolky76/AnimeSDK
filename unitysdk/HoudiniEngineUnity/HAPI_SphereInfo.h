@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HOUDINIENGINEUNITY_HAPI_SPHEREINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x304C120)
+#define HOUDINIENGINEUNITY_HAPI_SPHEREINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x3DD8090)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_SphereInfo_TypeDefinitionIndex = 40517;
+	inline static constexpr unsigned int HAPI_SphereInfo_TypeDefinitionIndex = 41492;
 
 	struct alignas(8) HAPI_SphereInfo
 	{

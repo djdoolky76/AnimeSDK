@@ -7,17 +7,17 @@ class HPOJGFBONKL;
 namespace RPG::GameCore { class TextDynamicParamBase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NICILMLHFMN_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xBBD87B0)
-#define NICILMLHFMN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBD8A30)
+#define NICILMLHFMN_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x148B5510)
+#define NICILMLHFMN_CCTOR_OFFSET UNITYSDK_OFFSET(0x148B5790)
 
-inline static constexpr unsigned int NICILMLHFMN_TypeDefinitionIndex = 82138;
+inline static constexpr unsigned int NICILMLHFMN_TypeDefinitionIndex = 85011;
 
 	class NICILMLHFMN : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::ELAPFEAOANP*>** StaticGet_EBEKFJIIIFJ()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::ELAPFEAOANP*>**)UnitySDK::FromName("", "NICILMLHFMN")->GetStaticField(0x3A7E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::ELAPFEAOANP*>**)UnitySDK::FromName("", "NICILMLHFMN")->GetStaticField(0x3E380);
 		}
 
 		static ::System::Void _cctor()

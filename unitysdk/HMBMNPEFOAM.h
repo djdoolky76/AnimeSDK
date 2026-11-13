@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class LDMBNFAMCOI;
 
-#define HMBMNPEFOAM_CTOR_OFFSET UNITYSDK_OFFSET(0x15D6CE00)
+#define HMBMNPEFOAM_CTOR_OFFSET UNITYSDK_OFFSET(0x198BCCA0)
 
-inline static constexpr unsigned int HMBMNPEFOAM_TypeDefinitionIndex = 80562;
+inline static constexpr unsigned int HMBMNPEFOAM_TypeDefinitionIndex = 83342;
 
 	class HMBMNPEFOAM : public ::System::Object
 	{

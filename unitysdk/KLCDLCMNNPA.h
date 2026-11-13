@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapDamageChunkTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KLCDLCMNNPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB4DA150)
-#define KLCDLCMNNPA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB4DA170)
+#define KLCDLCMNNPA_CTOR_OFFSET UNITYSDK_OFFSET(0x173672B0)
+#define KLCDLCMNNPA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x173672D0)
 
-inline static constexpr unsigned int KLCDLCMNNPA_TypeDefinitionIndex = 59139;
+inline static constexpr unsigned int KLCDLCMNNPA_TypeDefinitionIndex = 60415;
 
 	class KLCDLCMNNPA
 	{

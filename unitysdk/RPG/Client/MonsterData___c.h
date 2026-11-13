@@ -5,31 +5,31 @@ namespace RPG::Client { class MonsterData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONSTERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8B2EC0)
-#define RPG_CLIENT_MONSTERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B2EF0)
-#define RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMIDLIST_B__17_0_OFFSET UNITYSDK_OFFSET(0xD8B2FC0)
-#define RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMSTAGEROW_B__14_0_OFFSET UNITYSDK_OFFSET(0xD8B2F00)
+#define RPG_CLIENT_MONSTERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A169A80)
+#define RPG_CLIENT_MONSTERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A169AB0)
+#define RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMIDLIST_B__19_0_OFFSET UNITYSDK_OFFSET(0x1A169B80)
+#define RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMSTAGEROW_B__16_0_OFFSET UNITYSDK_OFFSET(0x1A169AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterData___c_TypeDefinitionIndex = 63140;
+	inline static constexpr unsigned int MonsterData___c_TypeDefinitionIndex = 64578;
 
 	class MonsterData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__14_0()
+		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__16_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B180);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71910);
 		}
 
-		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__17_0()
+		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B188);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71918);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B190);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71920);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +42,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDATA___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _CreateDataListFromStageRow_b__14_0(::RPG::Client::MonsterData* a1, ::RPG::Client::MonsterData* a2)
+		::System::Int32 _CreateDataListFromStageRow_b__16_0(::RPG::Client::MonsterData* a1, ::RPG::Client::MonsterData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MonsterData*, ::RPG::Client::MonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMSTAGEROW_B__14_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MonsterData*, ::RPG::Client::MonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMSTAGEROW_B__16_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _CreateDataListFromIDList_b__17_0(::RPG::Client::MonsterData* a1, ::RPG::Client::MonsterData* a2)
+		::System::Int32 _CreateDataListFromIDList_b__19_0(::RPG::Client::MonsterData* a1, ::RPG::Client::MonsterData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MonsterData*, ::RPG::Client::MonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMIDLIST_B__17_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MonsterData*, ::RPG::Client::MonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMIDLIST_B__19_0_OFFSET))(this, a1, a2);
 		}
 
 	};

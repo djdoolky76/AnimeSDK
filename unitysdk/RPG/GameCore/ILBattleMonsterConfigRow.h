@@ -9,38 +9,38 @@ class JDOFOPKMEFJ;
 namespace RPG::GameCore { class ILBattleMonsterConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLEMONSTERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7489B0)
-#define RPG_GAMECORE_ILBATTLEMONSTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D748100)
+#define RPG_GAMECORE_ILBATTLEMONSTERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE81800)
+#define RPG_GAMECORE_ILBATTLEMONSTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE80F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleMonsterConfigRow_TypeDefinitionIndex = 13793;
+	inline static constexpr unsigned int ILBattleMonsterConfigRow_TypeDefinitionIndex = 13950;
 
 	class ILBattleMonsterConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonConfig; // 0x10
-		::Il2CppArray<::System::UInt32>* SummonIDList; // 0x18
+		::Il2CppArray<::System::String*>* AbilityNameList; // 0x10
+		::System::String* IconPath; // 0x18
 		::Il2CppArray<::System::UInt32>* SkillList; // 0x20
-		::System::String* RoundIconPath; // 0x28
-		::Il2CppArray<::System::String*>* AbilityNameList; // 0x30
-		::System::String* AIPath; // 0x38
-		::Il2CppArray<::JDOFOPKMEFJ*>* DynamicValues; // 0x40
-		::System::String* PrefabPath; // 0x48
-		::Il2CppArray<::System::String*>* CustomValueTags; // 0x50
-		::System::String* IconPath; // 0x58
-		::RPG::GameCore::FixPoint HPBase; // 0x60
-		::RPG::GameCore::FixPoint CriticalDamageBase; // 0x68
-		::RPG::GameCore::FixPoint CriticalChanceBase; // 0x70
-		::System::UInt32 ID; // 0x78
-		::RPG::GameCore::ILBattleMonsterRank Rank; // 0x7C
-		::RPG::Client::TextID MonsterName; // 0x80
-		::RPG::GameCore::FixPoint DefenceBase; // 0x90
-		::RPG::GameCore::FixPoint MoveSpeed; // 0x98
-		::RPG::GameCore::FixPoint AttackBase; // 0xA0
-		::System::Boolean ShowSpecialHpBar; // 0xA8
+		::System::String* AIPath; // 0x28
+		::System::String* JsonConfig; // 0x30
+		::System::String* RoundIconPath; // 0x38
+		::System::String* PrefabPath; // 0x40
+		::Il2CppArray<::System::String*>* CustomValueTags; // 0x48
+		::Il2CppArray<::JDOFOPKMEFJ*>* DynamicValues; // 0x50
+		::Il2CppArray<::System::UInt32>* SummonIDList; // 0x58
+		::RPG::GameCore::FixPoint MoveSpeed; // 0x60
+		::RPG::GameCore::FixPoint HPBase; // 0x68
+		::RPG::GameCore::FixPoint CriticalDamageBase; // 0x70
+		::RPG::GameCore::FixPoint DefenceBase; // 0x78
+		::RPG::GameCore::FixPoint AttackBase; // 0x80
+		::System::UInt32 OriginalTemplateID; // 0x88
+		::System::UInt32 ID; // 0x8C
+		::RPG::GameCore::ILBattleMonsterRank Rank; // 0x90
+		::System::Boolean ShowSpecialHpBar; // 0x94
 		::System::Byte _padding0[0x3];
-		::System::UInt32 OriginalTemplateID; // 0xAC
+		::RPG::GameCore::FixPoint CriticalChanceBase; // 0x98
+		::RPG::Client::TextID MonsterName; // 0xA0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILBATTLEMONSTERCONFIGROW_CTOR_OFFSET))(this);

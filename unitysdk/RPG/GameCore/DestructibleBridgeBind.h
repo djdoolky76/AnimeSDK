@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DestructibleBridgeBind; }
 
-#define RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D0150)
-#define RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D0030)
+#define RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1F00A7F0)
+#define RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F00A700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestructibleBridgeBind_TypeDefinitionIndex = 17574;
+	inline static constexpr unsigned int DestructibleBridgeBind_TypeDefinitionIndex = 17742;
 
 	class DestructibleBridgeBind : public ::RPG::GameCore::JsonConfig
 	{

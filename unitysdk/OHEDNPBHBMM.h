@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureTriggerFastRun; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OHEDNPBHBMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE5AD60)
-#define OHEDNPBHBMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE5AD90)
+#define OHEDNPBHBMM_CTOR_OFFSET UNITYSDK_OFFSET(0x18E09160)
+#define OHEDNPBHBMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E09190)
 
-inline static constexpr unsigned int OHEDNPBHBMM_TypeDefinitionIndex = 57925;
+inline static constexpr unsigned int OHEDNPBHBMM_TypeDefinitionIndex = 59162;
 
 	class OHEDNPBHBMM
 	{

@@ -4,13 +4,13 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_UI_DROPDOWN_OPTIONDATALIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C2670)
-#define UNITYENGINE_UI_DROPDOWN_OPTIONDATALIST_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1F4C6570)
-#define UNITYENGINE_UI_DROPDOWN_OPTIONDATALIST_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1F4C6580)
+#define UNITYENGINE_UI_DROPDOWN_OPTIONDATALIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD2EA00)
+#define UNITYENGINE_UI_DROPDOWN_OPTIONDATALIST_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1CD32830)
+#define UNITYENGINE_UI_DROPDOWN_OPTIONDATALIST_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1CD32840)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Dropdown_OptionDataList_TypeDefinitionIndex = 6710;
+	inline static constexpr unsigned int Dropdown_OptionDataList_TypeDefinitionIndex = 6721;
 
 	class Dropdown_OptionDataList : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class INNLEDLNDNN;
 
-#define KBGHNFJMHHO___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2F5170)
-#define KBGHNFJMHHO___C__DISPLAYCLASS21_0___SETUPBUTTONENABLE_B__0_OFFSET UNITYSDK_OFFSET(0xB2F6450)
+#define KBGHNFJMHHO___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19DD6B10)
+#define KBGHNFJMHHO___C__DISPLAYCLASS21_0___SETUPBUTTONENABLE_B__0_OFFSET UNITYSDK_OFFSET(0x19DD7DE0)
 
-inline static constexpr unsigned int KBGHNFJMHHO___c__DisplayClass21_0_TypeDefinitionIndex = 71627;
+inline static constexpr unsigned int KBGHNFJMHHO___c__DisplayClass21_0_TypeDefinitionIndex = 73615;
 
 	class KBGHNFJMHHO___c__DisplayClass21_0 : public ::System::Object
 	{

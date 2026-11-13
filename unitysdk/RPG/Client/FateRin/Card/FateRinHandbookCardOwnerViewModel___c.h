@@ -5,25 +5,25 @@ namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCEE6F30)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCEE6F70)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C__REFRESHACQUIRE_B__1_0_OFFSET UNITYSDK_OFFSET(0xCEE6F80)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0ACC10)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0ACC50)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C__REFRESHACQUIRE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1E0ACC60)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinHandbookCardOwnerViewModel___c_TypeDefinitionIndex = 81179;
+	inline static constexpr unsigned int FateRinHandbookCardOwnerViewModel___c_TypeDefinitionIndex = 83959;
 
 	class FateRinHandbookCardOwnerViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x54CE0);
-		}
-
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x54CE8);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x5BDF0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.Card", "<>c")->GetStaticField(0x5BDF8);
 		}
 
 		static ::System::Void _cctor()

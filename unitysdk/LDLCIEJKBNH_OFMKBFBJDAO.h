@@ -5,9 +5,9 @@
 #include "unitysdk/System/Object.h"
 class ALMFLCJCHKP;
 
-#define LDLCIEJKBNH_OFMKBFBJDAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB635A50)
+#define LDLCIEJKBNH_OFMKBFBJDAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC97A20)
 
-inline static constexpr unsigned int LDLCIEJKBNH_OFMKBFBJDAO_TypeDefinitionIndex = 77810;
+inline static constexpr unsigned int LDLCIEJKBNH_OFMKBFBJDAO_TypeDefinitionIndex = 80545;
 
 	class LDLCIEJKBNH_OFMKBFBJDAO : public ::System::Object
 	{

@@ -4,37 +4,37 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class EqualityComparer_1; }
 
-#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B832F50)
-#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_GET_BITWISEDOUBLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1B832E90)
-#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_GET_BITWISENULLABLEDOUBLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1B832EF0)
-#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_GET_BITWISENULLABLESINGLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1B832F20)
-#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_GET_BITWISESINGLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1B832EC0)
+#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEAA270)
+#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_GET_BITWISEDOUBLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1BEAA1B0)
+#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_GET_BITWISENULLABLEDOUBLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1BEAA210)
+#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_GET_BITWISENULLABLESINGLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1BEAA240)
+#define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_GET_BITWISESINGLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1BEAA1E0)
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int ProtobufEqualityComparers_TypeDefinitionIndex = 5586;
+	inline static constexpr unsigned int ProtobufEqualityComparers_TypeDefinitionIndex = 5591;
 
 	class ProtobufEqualityComparers : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<::System::Single>>** StaticGet__BitwiseNullableSingleEqualityComparer_k__BackingField()
 		{
-			return (::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<::System::Single>>**)UnitySDK::FromName("Google.Protobuf.Collections", "ProtobufEqualityComparers")->GetStaticField(0xD270);
-		}
-
-		static ::System::Collections::Generic::EqualityComparer_1<::System::Single>** StaticGet__BitwiseSingleEqualityComparer_k__BackingField()
-		{
-			return (::System::Collections::Generic::EqualityComparer_1<::System::Single>**)UnitySDK::FromName("Google.Protobuf.Collections", "ProtobufEqualityComparers")->GetStaticField(0xD278);
-		}
-
-		static ::System::Collections::Generic::EqualityComparer_1<::System::Double>** StaticGet__BitwiseDoubleEqualityComparer_k__BackingField()
-		{
-			return (::System::Collections::Generic::EqualityComparer_1<::System::Double>**)UnitySDK::FromName("Google.Protobuf.Collections", "ProtobufEqualityComparers")->GetStaticField(0xD280);
+			return (::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<::System::Single>>**)UnitySDK::FromName("Google.Protobuf.Collections", "ProtobufEqualityComparers")->GetStaticField(0xD060);
 		}
 
 		static ::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<::System::Double>>** StaticGet__BitwiseNullableDoubleEqualityComparer_k__BackingField()
 		{
-			return (::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<::System::Double>>**)UnitySDK::FromName("Google.Protobuf.Collections", "ProtobufEqualityComparers")->GetStaticField(0xD288);
+			return (::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<::System::Double>>**)UnitySDK::FromName("Google.Protobuf.Collections", "ProtobufEqualityComparers")->GetStaticField(0xD068);
+		}
+
+		static ::System::Collections::Generic::EqualityComparer_1<::System::Double>** StaticGet__BitwiseDoubleEqualityComparer_k__BackingField()
+		{
+			return (::System::Collections::Generic::EqualityComparer_1<::System::Double>**)UnitySDK::FromName("Google.Protobuf.Collections", "ProtobufEqualityComparers")->GetStaticField(0xD070);
+		}
+
+		static ::System::Collections::Generic::EqualityComparer_1<::System::Single>** StaticGet__BitwiseSingleEqualityComparer_k__BackingField()
+		{
+			return (::System::Collections::Generic::EqualityComparer_1<::System::Single>**)UnitySDK::FromName("Google.Protobuf.Collections", "ProtobufEqualityComparers")->GetStaticField(0xD078);
 		}
 
 		static ::System::Void _cctor()

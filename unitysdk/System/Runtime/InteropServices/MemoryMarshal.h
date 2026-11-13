@@ -4,11 +4,11 @@
 #include "unitysdk/System/ReadOnlyMemory_1.h"
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MEMORYMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x1EE18A40)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MEMORYMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x20786080)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int MemoryMarshal_TypeDefinitionIndex = 4989;
+	inline static constexpr unsigned int MemoryMarshal_TypeDefinitionIndex = 4994;
 
 	class MemoryMarshal : public ::System::Object
 	{

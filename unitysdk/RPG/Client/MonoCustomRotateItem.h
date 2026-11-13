@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOCUSTOMROTATEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD73D340)
-#define RPG_CLIENT_MONOCUSTOMROTATEITEM_TICK_OFFSET UNITYSDK_OFFSET(0xD73D1C0)
+#define RPG_CLIENT_MONOCUSTOMROTATEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1401E210)
+#define RPG_CLIENT_MONOCUSTOMROTATEITEM_TICK_OFFSET UNITYSDK_OFFSET(0x1401E090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCustomRotateItem_TypeDefinitionIndex = 68775;
+	inline static constexpr unsigned int MonoCustomRotateItem_TypeDefinitionIndex = 70727;
 
 	class MonoCustomRotateItem : public ::UnityEngine::MonoBehaviour
 	{

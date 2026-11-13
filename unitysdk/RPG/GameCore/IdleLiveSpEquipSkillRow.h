@@ -7,21 +7,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveSpEquipSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESPEQUIPSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D751970)
-#define RPG_GAMECORE_IDLELIVESPEQUIPSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D751710)
+#define RPG_GAMECORE_IDLELIVESPEQUIPSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8A7C0)
+#define RPG_GAMECORE_IDLELIVESPEQUIPSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE8A560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpEquipSkillRow_TypeDefinitionIndex = 11764;
+	inline static constexpr unsigned int IdleLiveSpEquipSkillRow_TypeDefinitionIndex = 11821;
 
 	class IdleLiveSpEquipSkillRow : public ::System::Object
 	{
 	public:
 		::System::String* AbilityName; // 0x10
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
-		::System::UInt32 Rarity; // 0x20
-		::System::UInt32 ID; // 0x24
-		::RPG::Client::TextID SkillDesc; // 0x28
+		::RPG::Client::TextID SkillDesc; // 0x20
+		::System::UInt32 Rarity; // 0x30
+		::System::UInt32 ID; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESPEQUIPSKILLROW_CTOR_OFFSET))(this);

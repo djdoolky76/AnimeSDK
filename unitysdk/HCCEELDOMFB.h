@@ -5,11 +5,11 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Net { class IPEndPoint; }
 
-#define HCCEELDOMFB_HICCDHCFMDG_OFFSET UNITYSDK_OFFSET(0x1DD7EE20)
-#define HCCEELDOMFB_LJEHAMLEKDI_OFFSET UNITYSDK_OFFSET(0x1DD7EF10)
-#define HCCEELDOMFB_NNAHGBKABPO_OFFSET UNITYSDK_OFFSET(0x1DD7FEC0)
+#define HCCEELDOMFB_HICCDHCFMDG_OFFSET UNITYSDK_OFFSET(0x203344A0)
+#define HCCEELDOMFB_LJEHAMLEKDI_OFFSET UNITYSDK_OFFSET(0x20334590)
+#define HCCEELDOMFB_NNAHGBKABPO_OFFSET UNITYSDK_OFFSET(0x20335330)
 
-inline static constexpr unsigned int HCCEELDOMFB_TypeDefinitionIndex = 43962;
+inline static constexpr unsigned int HCCEELDOMFB_TypeDefinitionIndex = 45037;
 
 	class HCCEELDOMFB : public ::System::Object
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLIMHAFFHCE_CTOR_OFFSET UNITYSDK_OFFSET(0x15829BE0)
-#define FLIMHAFFHCE_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15829B10)
+#define FLIMHAFFHCE_CTOR_OFFSET UNITYSDK_OFFSET(0x18964560)
+#define FLIMHAFFHCE_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x18964490)
 
-inline static constexpr unsigned int FLIMHAFFHCE_TypeDefinitionIndex = 62446;
+inline static constexpr unsigned int FLIMHAFFHCE_TypeDefinitionIndex = 63859;
 
 	class FLIMHAFFHCE : public ::System::Object
 	{

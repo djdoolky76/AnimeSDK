@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HoyoGroupCommonConfig; }
 
-#define RPG_GAMECORE_HOYOGROUPCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7437C0)
-#define RPG_GAMECORE_HOYOGROUPCOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7436F0)
+#define RPG_GAMECORE_HOYOGROUPCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7C570)
+#define RPG_GAMECORE_HOYOGROUPCOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE7C4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoyoGroupCommonConfig_TypeDefinitionIndex = 17626;
+	inline static constexpr unsigned int HoyoGroupCommonConfig_TypeDefinitionIndex = 17795;
 
 	class HoyoGroupCommonConfig : public ::RPG::GameCore::JsonConfig
 	{

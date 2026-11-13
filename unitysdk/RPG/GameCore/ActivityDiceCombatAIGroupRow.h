@@ -5,32 +5,32 @@ class FCOEMCEDLNL;
 class HPMCJCPNJEB;
 namespace RPG::GameCore { class ActivityDiceCombatAIGroupRow; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D322FF0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D322BF0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E500290)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4FFE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 11263;
+	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 11314;
 
 	class ActivityDiceCombatAIGroupRow : public ::System::Object
 	{
 	public:
-		::HPMCJCPNJEB* PrepareCancelWaitTimeRange; // 0x10
+		::HPMCJCPNJEB* ExchangeWaitTimeRange; // 0x10
 		::HPMCJCPNJEB* PrepareFinishWaitTimeRange; // 0x18
-		::HPMCJCPNJEB* ExchangeWaitTimeRange; // 0x20
-		::HPMCJCPNJEB* BuyTacticsCardWaitTimeRange; // 0x28
-		::HPMCJCPNJEB* SelectTimeRange; // 0x30
-		::HPMCJCPNJEB* UseTacticsCardWaitTimeRange; // 0x38
-		::System::Single SpecialRuleWeight; // 0x40
+		::HPMCJCPNJEB* SelectTimeRange; // 0x20
+		::HPMCJCPNJEB* UseTacticsCardWaitTimeRange; // 0x28
+		::HPMCJCPNJEB* BuyTacticsCardWaitTimeRange; // 0x30
+		::HPMCJCPNJEB* PrepareCancelWaitTimeRange; // 0x38
+		::System::Single SkillWeight; // 0x40
 		::System::UInt32 RerollMaxDefend; // 0x44
-		::System::Single Quantile; // 0x48
-		::System::Boolean CanUseTactics; // 0x4C
+		::System::Single ColorfulDiceWeight; // 0x48
+		::System::UInt32 RerollMaxAttack; // 0x4C
+		::System::UInt32 AIGroupID; // 0x50
+		::System::Single Quantile; // 0x54
+		::System::Boolean CanUseTactics; // 0x58
 		::System::Byte _padding0[0x3];
-		::System::Single SkillWeight; // 0x50
-		::System::Single ColorfulDiceWeight; // 0x54
-		::System::UInt32 RerollMaxAttack; // 0x58
-		::System::Single SelectWrongRate; // 0x5C
-		::System::UInt32 AIGroupID; // 0x60
+		::System::Single SpecialRuleWeight; // 0x5C
+		::System::Single SelectWrongRate; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_CTOR_OFFSET))(this);

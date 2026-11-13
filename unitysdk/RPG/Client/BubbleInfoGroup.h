@@ -4,13 +4,13 @@
 namespace RPG::Client { class BubbleInfoGroup; }
 namespace RPG::Client { class IBubbleInfoProvider; }
 
-#define RPG_CLIENT_BUBBLEINFOGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xC8C2E60)
-#define RPG_CLIENT_BUBBLEINFOGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xC8C2EC0)
-#define RPG_CLIENT_BUBBLEINFOGROUP_GETBUBBLEINFOPROVIDERLIST_OFFSET UNITYSDK_OFFSET(0xC8C2ED0)
+#define RPG_CLIENT_BUBBLEINFOGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x1BD62580)
+#define RPG_CLIENT_BUBBLEINFOGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD625E0)
+#define RPG_CLIENT_BUBBLEINFOGROUP_GETBUBBLEINFOPROVIDERLIST_OFFSET UNITYSDK_OFFSET(0x1BD625F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BubbleInfoGroup_TypeDefinitionIndex = 62940;
+	inline static constexpr unsigned int BubbleInfoGroup_TypeDefinitionIndex = 64378;
 
 	class BubbleInfoGroup : public ::System::Object
 	{

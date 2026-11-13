@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
 
-#define HKPODKLOLHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6399D0)
-#define HKPODKLOLHK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C639610)
-#define HKPODKLOLHK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C639810)
+#define HKPODKLOLHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9221D0)
+#define HKPODKLOLHK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C921E10)
+#define HKPODKLOLHK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C922010)
 
-inline static constexpr unsigned int HKPODKLOLHK_TypeDefinitionIndex = 36869;
+inline static constexpr unsigned int HKPODKLOLHK_TypeDefinitionIndex = 37797;
 
 	class HKPODKLOLHK : public ::System::Object
 	{

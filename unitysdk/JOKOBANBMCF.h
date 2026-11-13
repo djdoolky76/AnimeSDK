@@ -6,11 +6,11 @@ class PFFMOOLAIHJ;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JOKOBANBMCF_CLEAR_OFFSET UNITYSDK_OFFSET(0xB2A0930)
-#define JOKOBANBMCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0BA0)
-#define JOKOBANBMCF_ECNNDACGNBF_OFFSET UNITYSDK_OFFSET(0xB2A0A40)
+#define JOKOBANBMCF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B4E2AA0)
+#define JOKOBANBMCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E2D10)
+#define JOKOBANBMCF_ECNNDACGNBF_OFFSET UNITYSDK_OFFSET(0x1B4E2BB0)
 
-inline static constexpr unsigned int JOKOBANBMCF_TypeDefinitionIndex = 57715;
+inline static constexpr unsigned int JOKOBANBMCF_TypeDefinitionIndex = 58948;
 
 	class JOKOBANBMCF : public ::System::Object
 	{

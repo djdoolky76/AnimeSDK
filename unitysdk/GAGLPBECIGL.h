@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropSetupHitBox; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GAGLPBECIGL_CTOR_OFFSET UNITYSDK_OFFSET(0x15930450)
-#define GAGLPBECIGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15930480)
+#define GAGLPBECIGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B86BEE0)
+#define GAGLPBECIGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B86BF10)
 
-inline static constexpr unsigned int GAGLPBECIGL_TypeDefinitionIndex = 58352;
+inline static constexpr unsigned int GAGLPBECIGL_TypeDefinitionIndex = 59608;
 
 	class GAGLPBECIGL
 	{

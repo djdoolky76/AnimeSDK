@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_RealPersonElements_TypeDefinitionIndex = 46841;
+	inline static constexpr unsigned int UIConstants_RealPersonElements_TypeDefinitionIndex = 47869;
 
 	class UIConstants_RealPersonElements : public ::System::Object
 	{

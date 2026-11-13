@@ -3,10 +3,10 @@
 class HDOCLPDDMKK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CMLNHMPMCFB_CTOR_OFFSET UNITYSDK_OFFSET(0xDA34070)
-#define CMLNHMPMCFB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA340A0)
+#define CMLNHMPMCFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A3630)
+#define CMLNHMPMCFB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B1A3660)
 
-inline static constexpr unsigned int CMLNHMPMCFB_TypeDefinitionIndex = 53715;
+inline static constexpr unsigned int CMLNHMPMCFB_TypeDefinitionIndex = 54879;
 
 	class CMLNHMPMCFB
 	{

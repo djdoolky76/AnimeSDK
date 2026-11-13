@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByIsAttacker; }
 
-#define OFEPMNENCMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95EA50)
-#define OFEPMNENCMA_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C95EA60)
+#define OFEPMNENCMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06D1B0)
+#define OFEPMNENCMA_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1E06D1C0)
 
-inline static constexpr unsigned int OFEPMNENCMA_TypeDefinitionIndex = 43137;
+inline static constexpr unsigned int OFEPMNENCMA_TypeDefinitionIndex = 44118;
 
 	class OFEPMNENCMA : public ::LHJPMDPJPEC
 	{

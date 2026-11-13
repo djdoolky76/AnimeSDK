@@ -3,19 +3,19 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace System { class String; }
 
-#define INCONTROL_UNITYINPUTDEVICEPROFILELIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB33420)
-#define INCONTROL_UNITYINPUTDEVICEPROFILELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB33410)
+#define INCONTROL_UNITYINPUTDEVICEPROFILELIST_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6ACD60)
+#define INCONTROL_UNITYINPUTDEVICEPROFILELIST_CTOR_OFFSET UNITYSDK_OFFSET(0xC6ACD50)
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnityInputDeviceProfileList_TypeDefinitionIndex = 40901;
+	inline static constexpr unsigned int UnityInputDeviceProfileList_TypeDefinitionIndex = 41876;
 
 	class UnityInputDeviceProfileList : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_Profiles()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("InControl", "UnityInputDeviceProfileList")->GetStaticField(0x11540);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("InControl", "UnityInputDeviceProfileList")->GetStaticField(0x70780);
 		}
 
 		::System::Void _ctor()

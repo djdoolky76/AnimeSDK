@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Object.h"
 namespace UnityEngine { class LightmapData; }
 
-#define UNITYENGINE_LIGHTMAPSETTINGS_SET_LIGHTMAPS_OFFSET UNITYSDK_OFFSET(0x1F3C6DC0)
+#define UNITYENGINE_LIGHTMAPSETTINGS_SET_LIGHTMAPS_OFFSET UNITYSDK_OFFSET(0x20718BE0)
 
 namespace UnityEngine
 {

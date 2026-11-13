@@ -4,17 +4,17 @@
 namespace RPG::Client { class LocalizedText; }
 namespace System { class String; }
 
-#define MOAMMLKNHOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA16800)
-#define MOAMMLKNHOA_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBA16730)
-#define MOAMMLKNHOA_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBA16780)
+#define MOAMMLKNHOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2039D0)
+#define MOAMMLKNHOA_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1B203900)
+#define MOAMMLKNHOA_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1B203950)
 
-inline static constexpr unsigned int MOAMMLKNHOA_TypeDefinitionIndex = 72807;
+inline static constexpr unsigned int MOAMMLKNHOA_TypeDefinitionIndex = 74886;
 
 	class MOAMMLKNHOA : public ::LBAMBIMMJKB
 	{
 	public:
-		::RPG::Client::LocalizedText* MNOHILEHCNB; // 0x18
-		::RPG::Client::LocalizedText* KEGANNHEKHA; // 0x20
+		::RPG::Client::LocalizedText* KEGANNHEKHA; // 0x18
+		::RPG::Client::LocalizedText* MNOHILEHCNB; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOAMMLKNHOA_CTOR_OFFSET))(this);

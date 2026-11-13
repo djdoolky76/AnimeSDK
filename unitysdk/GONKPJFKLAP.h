@@ -3,10 +3,10 @@
 class DANFCLODJNK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GONKPJFKLAP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B300E0)
-#define GONKPJFKLAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B30110)
+#define GONKPJFKLAP_CTOR_OFFSET UNITYSDK_OFFSET(0x187C1030)
+#define GONKPJFKLAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187C1060)
 
-inline static constexpr unsigned int GONKPJFKLAP_TypeDefinitionIndex = 54821;
+inline static constexpr unsigned int GONKPJFKLAP_TypeDefinitionIndex = 55990;
 
 	class GONKPJFKLAP
 	{

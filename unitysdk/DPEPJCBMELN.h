@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchRogueMagicScepterList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DPEPJCBMELN_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF5D40)
-#define DPEPJCBMELN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FF5D90)
+#define DPEPJCBMELN_CTOR_OFFSET UNITYSDK_OFFSET(0x191BAC60)
+#define DPEPJCBMELN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x191BACB0)
 
-inline static constexpr unsigned int DPEPJCBMELN_TypeDefinitionIndex = 59129;
+inline static constexpr unsigned int DPEPJCBMELN_TypeDefinitionIndex = 60405;
 
 	class DPEPJCBMELN
 	{

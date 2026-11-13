@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KPMHFPMPBBD;
 
-#define GMLGDMKLIED_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC9B50)
-#define GMLGDMKLIED_GIGJMNCIFMJ_OFFSET UNITYSDK_OFFSET(0x15AC9A10)
+#define GMLGDMKLIED_CTOR_OFFSET UNITYSDK_OFFSET(0x16C81FF0)
+#define GMLGDMKLIED_GIGJMNCIFMJ_OFFSET UNITYSDK_OFFSET(0x16C81EB0)
 
-inline static constexpr unsigned int GMLGDMKLIED_TypeDefinitionIndex = 82137;
+inline static constexpr unsigned int GMLGDMKLIED_TypeDefinitionIndex = 85010;
 
 	class GMLGDMKLIED : public ::System::Object
 	{

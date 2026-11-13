@@ -5,10 +5,10 @@ class KMDEHNNGIDD;
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define KMDEHNNGIDD___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB53C3A0)
-#define KMDEHNNGIDD___C__DISPLAYCLASS27_0__TRYJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xB53C950)
+#define KMDEHNNGIDD___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17B99E20)
+#define KMDEHNNGIDD___C__DISPLAYCLASS27_0__TRYJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x17B9A3E0)
 
-inline static constexpr unsigned int KMDEHNNGIDD___c__DisplayClass27_0_TypeDefinitionIndex = 63057;
+inline static constexpr unsigned int KMDEHNNGIDD___c__DisplayClass27_0_TypeDefinitionIndex = 64495;
 
 	class KMDEHNNGIDD___c__DisplayClass27_0 : public ::System::Object
 	{

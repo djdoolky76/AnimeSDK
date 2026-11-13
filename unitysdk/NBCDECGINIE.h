@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTeamFormationRowIndex; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NBCDECGINIE_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB73E0)
-#define NBCDECGINIE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBAB7410)
+#define NBCDECGINIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB11030)
+#define NBCDECGINIE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BB11060)
 
-inline static constexpr unsigned int NBCDECGINIE_TypeDefinitionIndex = 54582;
+inline static constexpr unsigned int NBCDECGINIE_TypeDefinitionIndex = 55747;
 
 	class NBCDECGINIE
 	{

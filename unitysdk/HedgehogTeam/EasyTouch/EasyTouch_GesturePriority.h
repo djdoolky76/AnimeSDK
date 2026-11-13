@@ -3,7 +3,7 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_GesturePriority_TypeDefinitionIndex = 40328;
+	inline static constexpr unsigned int EasyTouch_GesturePriority_TypeDefinitionIndex = 41303;
 
 	enum class EasyTouch_GesturePriority : ::System::Int32
 	{

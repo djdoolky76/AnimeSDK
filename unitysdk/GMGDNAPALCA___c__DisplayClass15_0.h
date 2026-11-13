@@ -4,10 +4,10 @@
 class GMGDNAPALCA;
 namespace RPG::Client::ActivityMarble { class MarblePVPMatchContext; }
 
-#define GMGDNAPALCA___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC5630)
-#define GMGDNAPALCA___C__DISPLAYCLASS15_0__OPENMATCHPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15AC5640)
+#define GMGDNAPALCA___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16C7DA30)
+#define GMGDNAPALCA___C__DISPLAYCLASS15_0__OPENMATCHPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16C7DA40)
 
-inline static constexpr unsigned int GMGDNAPALCA___c__DisplayClass15_0_TypeDefinitionIndex = 75996;
+inline static constexpr unsigned int GMGDNAPALCA___c__DisplayClass15_0_TypeDefinitionIndex = 78323;
 
 	class GMGDNAPALCA___c__DisplayClass15_0 : public ::System::Object
 	{

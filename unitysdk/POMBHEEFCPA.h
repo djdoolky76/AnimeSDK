@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int POMBHEEFCPA_TypeDefinitionIndex = 6224;
+inline static constexpr unsigned int POMBHEEFCPA_TypeDefinitionIndex = 6231;
 
 	struct alignas(4) POMBHEEFCPA
 	{

@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AnniversaryCollectionGroupConfigRow; }
 
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C8210)
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3C8080)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAD4C0)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEAD330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionGroupConfigRow_TypeDefinitionIndex = 12668;
+	inline static constexpr unsigned int AnniversaryCollectionGroupConfigRow_TypeDefinitionIndex = 12735;
 
 	class AnniversaryCollectionGroupConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TabIDList; // 0x10
-		::RPG::GameCore::AnniversaryCollectionGroupType GroupID; // 0x18
-		::System::UInt32 ActivityID; // 0x1C
+		::System::UInt32 ActivityID; // 0x18
+		::RPG::GameCore::AnniversaryCollectionGroupType GroupID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW_CTOR_OFFSET))(this);

@@ -4,10 +4,10 @@
 class FOAKMDKBOJJ;
 namespace RPG::GameCore { class RtDamageConstConfig; }
 
-#define KLMOPOMAPLH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB528D00)
-#define KLMOPOMAPLH_KJBDNPJAHOP_OFFSET UNITYSDK_OFFSET(0xB528A50)
+#define KLMOPOMAPLH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x17B86140)
+#define KLMOPOMAPLH_KJBDNPJAHOP_OFFSET UNITYSDK_OFFSET(0x17B85E90)
 
-inline static constexpr unsigned int KLMOPOMAPLH_TypeDefinitionIndex = 54201;
+inline static constexpr unsigned int KLMOPOMAPLH_TypeDefinitionIndex = 55365;
 
 	class KLMOPOMAPLH : public ::System::Object
 	{

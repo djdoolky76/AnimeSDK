@@ -4,10 +4,10 @@
 class HAILIPBNAJL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HAILIPBNAJL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C623850)
-#define HAILIPBNAJL___C__DISPLAYCLASS8_0___AICHECKNEEDUSELIMITEDDICE_B__0_OFFSET UNITYSDK_OFFSET(0x1C62CD40)
+#define HAILIPBNAJL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA61080)
+#define HAILIPBNAJL___C__DISPLAYCLASS8_0___AICHECKNEEDUSELIMITEDDICE_B__0_OFFSET UNITYSDK_OFFSET(0x1AA6A620)
 
-inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass8_0_TypeDefinitionIndex = 36418;
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass8_0_TypeDefinitionIndex = 37346;
 
 	class HAILIPBNAJL___c__DisplayClass8_0 : public ::System::Object
 	{

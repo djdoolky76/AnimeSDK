@@ -13,25 +13,25 @@ namespace RPGTools::Timeline::Story { class NpcStoryMoveRunData; }
 namespace RPGTools::Timeline::Story { class NpcStoryMoveWalkData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JJHLNFOJLKE_CTOR_OFFSET UNITYSDK_OFFSET(0xB2009D0)
-#define JJHLNFOJLKE_EGIKNNLEGMK_1_OFFSET UNITYSDK_OFFSET(0xB200580)
-#define JJHLNFOJLKE_EGIKNNLEGMK_OFFSET UNITYSDK_OFFSET(0xB2004A0)
-#define JJHLNFOJLKE_FPNANILELJE_OFFSET UNITYSDK_OFFSET(0xB2007C0)
-#define JJHLNFOJLKE_GDNLKLHOFFF_1_OFFSET UNITYSDK_OFFSET(0xB200310)
-#define JJHLNFOJLKE_GDNLKLHOFFF_OFFSET UNITYSDK_OFFSET(0xB200230)
-#define JJHLNFOJLKE_GGCBPBLEEKI_OFFSET UNITYSDK_OFFSET(0xB200870)
-#define JJHLNFOJLKE_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0xB1FFB70)
-#define JJHLNFOJLKE_NDAHGBBIJJG_OFFSET UNITYSDK_OFFSET(0xB200710)
-#define JJHLNFOJLKE_OMKALAHPJAI_OFFSET UNITYSDK_OFFSET(0xB200920)
+#define JJHLNFOJLKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1742FBE0)
+#define JJHLNFOJLKE_EGIKNNLEGMK_1_OFFSET UNITYSDK_OFFSET(0x1742F790)
+#define JJHLNFOJLKE_EGIKNNLEGMK_OFFSET UNITYSDK_OFFSET(0x1742F6B0)
+#define JJHLNFOJLKE_FPNANILELJE_OFFSET UNITYSDK_OFFSET(0x1742F9D0)
+#define JJHLNFOJLKE_GDNLKLHOFFF_1_OFFSET UNITYSDK_OFFSET(0x1742F520)
+#define JJHLNFOJLKE_GDNLKLHOFFF_OFFSET UNITYSDK_OFFSET(0x1742F440)
+#define JJHLNFOJLKE_GGCBPBLEEKI_OFFSET UNITYSDK_OFFSET(0x1742FA80)
+#define JJHLNFOJLKE_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1742ED80)
+#define JJHLNFOJLKE_NDAHGBBIJJG_OFFSET UNITYSDK_OFFSET(0x1742F920)
+#define JJHLNFOJLKE_OMKALAHPJAI_OFFSET UNITYSDK_OFFSET(0x1742FB30)
 
-inline static constexpr unsigned int JJHLNFOJLKE_TypeDefinitionIndex = 48710;
+inline static constexpr unsigned int JJHLNFOJLKE_TypeDefinitionIndex = 49756;
 
 	class JJHLNFOJLKE : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveWalkData*>* DNGPKBHFGCN; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveRunData*>* DLHFOGGKKFJ; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveRunData*>* IDBBMHJLPBI; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveRunData*>* IDBBMHJLPBI; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveRunData*>* DLHFOGGKKFJ; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveWalkData*>* BCJFDOEAIBI; // 0x28
 		::System::Void _ctor()
 		{

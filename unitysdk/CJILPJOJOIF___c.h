@@ -4,18 +4,18 @@
 class CJILPJOJOIF;
 namespace System { class Object; }
 
-#define CJILPJOJOIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0B2F90)
-#define CJILPJOJOIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0B2FC0)
-#define CJILPJOJOIF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E0B2FD0)
+#define CJILPJOJOIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2058B960)
+#define CJILPJOJOIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2058B990)
+#define CJILPJOJOIF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2058B9A0)
 
-inline static constexpr unsigned int CJILPJOJOIF___c_TypeDefinitionIndex = 26887;
+inline static constexpr unsigned int CJILPJOJOIF___c_TypeDefinitionIndex = 27418;
 
 	class CJILPJOJOIF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18630);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11D50);
 		}
 
 		static ::System::Void _cctor()

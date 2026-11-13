@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIMAONEWSLIMAOICONTALKOPTIONEXTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD3EE380)
+#define RPG_CLIENT_LIMAONEWSLIMAOICONTALKOPTIONEXTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD2FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LimaoNewsLimaoIconTalkOptionExtData_TypeDefinitionIndex = 68041;
+	inline static constexpr unsigned int LimaoNewsLimaoIconTalkOptionExtData_TypeDefinitionIndex = 69987;
 
 	class LimaoNewsLimaoIconTalkOptionExtData : public ::System::Object
 	{

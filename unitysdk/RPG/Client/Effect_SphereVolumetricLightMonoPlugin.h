@@ -14,14 +14,14 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD637B0)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD63540)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD634F0)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0xCD63470)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x189A89C0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x189A8750)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x189A8700)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0x189A8680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 70558;
+	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 72533;
 
 	class Effect_SphereVolumetricLightMonoPlugin
 	{
@@ -59,7 +59,7 @@ namespace RPG::Client
 		::System::Single SharpingFactor; // 0xE4
 		static ::Il2CppArray<::System::Int32>** StaticGet_IAJGOMMCFBE()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client", "Effect_SphereVolumetricLightMonoPlugin")->GetStaticField(0x34740);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client", "Effect_SphereVolumetricLightMonoPlugin")->GetStaticField(0x43220);
 		}
 
 		::System::Void _ctor()

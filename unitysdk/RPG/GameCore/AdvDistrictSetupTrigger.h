@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
 
-#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36DEF0)
-#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D36DFA0)
-#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D36DE10)
+#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB5A70)
+#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAB5B20)
+#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB5990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvDistrictSetupTrigger_TypeDefinitionIndex = 21194;
+	inline static constexpr unsigned int AdvDistrictSetupTrigger_TypeDefinitionIndex = 21537;
 
 	class AdvDistrictSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{

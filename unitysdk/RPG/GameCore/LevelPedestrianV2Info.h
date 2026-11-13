@@ -7,13 +7,13 @@ namespace RPG::GameCore { class LevelPedestrianV2Info; }
 namespace RPG::GameCore { class LevelPedestrianV2RoadMapInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D793000)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D793010)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D796EC0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D944450)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D944460)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D945B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2Info_TypeDefinitionIndex = 17324;
+	inline static constexpr unsigned int LevelPedestrianV2Info_TypeDefinitionIndex = 17492;
 
 	class LevelPedestrianV2Info : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

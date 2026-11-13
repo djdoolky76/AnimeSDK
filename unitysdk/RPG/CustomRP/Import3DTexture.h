@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CUSTOMRP_IMPORT3DTEXTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC05D20)
+#define RPG_CUSTOMRP_IMPORT3DTEXTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x198CCD20)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int Import3DTexture_TypeDefinitionIndex = 37632;
+	inline static constexpr unsigned int Import3DTexture_TypeDefinitionIndex = 38560;
 
 	class Import3DTexture : public ::UnityEngine::MonoBehaviour
 	{

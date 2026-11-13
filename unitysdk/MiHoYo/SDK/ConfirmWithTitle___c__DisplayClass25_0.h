@@ -5,21 +5,21 @@ namespace MiHoYo::SDK { class ConfirmWithTitle; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIRMWITHTITLE___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC40970)
-#define MIHOYO_SDK_CONFIRMWITHTITLE___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BC40AD0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B47BFF0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B47C150)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfirmWithTitle___c__DisplayClass25_0_TypeDefinitionIndex = 8003;
+	inline static constexpr unsigned int ConfirmWithTitle___c__DisplayClass25_0_TypeDefinitionIndex = 8012;
 
 	class ConfirmWithTitle___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
 		::System::String* cancelButtonText; // 0x10
-		::System::Action* confirmCallback; // 0x18
+		::System::String* contentText; // 0x18
 		::System::String* confirmButtonText; // 0x20
-		::System::String* titleText; // 0x28
-		::System::String* contentText; // 0x30
+		::System::Action* confirmCallback; // 0x28
+		::System::String* titleText; // 0x30
 		::System::Action* cancelCallback; // 0x38
 		::System::Boolean bAutoHide; // 0x40
 		::System::Void _ctor()

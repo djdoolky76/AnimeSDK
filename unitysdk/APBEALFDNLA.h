@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetResilience; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define APBEALFDNLA_CTOR_OFFSET UNITYSDK_OFFSET(0x158BFAB0)
-#define APBEALFDNLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158BFAE0)
+#define APBEALFDNLA_CTOR_OFFSET UNITYSDK_OFFSET(0x184EC510)
+#define APBEALFDNLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184EC540)
 
-inline static constexpr unsigned int APBEALFDNLA_TypeDefinitionIndex = 55897;
+inline static constexpr unsigned int APBEALFDNLA_TypeDefinitionIndex = 57100;
 
 	class APBEALFDNLA
 	{

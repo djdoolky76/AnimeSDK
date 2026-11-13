@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BKEBOHAPGOF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7E3AF0)
-#define BKEBOHAPGOF_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D7E3780)
+#define BKEBOHAPGOF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F19D3A0)
+#define BKEBOHAPGOF_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1F19D030)
 
-inline static constexpr unsigned int BKEBOHAPGOF_TypeDefinitionIndex = 23858;
+inline static constexpr unsigned int BKEBOHAPGOF_TypeDefinitionIndex = 24315;
 
 	class BKEBOHAPGOF : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSeqOperation*>*>** StaticGet_MGJGAOOJLCJ()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSeqOperation*>*>**)UnitySDK::FromName("", "BKEBOHAPGOF")->GetStaticField(0x42F50);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSeqOperation*>*>**)UnitySDK::FromName("", "BKEBOHAPGOF")->GetStaticField(0x49B80);
 		}
 
 		static ::System::Void _cctor()

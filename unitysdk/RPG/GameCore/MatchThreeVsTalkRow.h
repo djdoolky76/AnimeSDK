@@ -5,19 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeVsTalkRow; }
 
-#define RPG_GAMECORE_MATCHTHREEVSTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D830580)
-#define RPG_GAMECORE_MATCHTHREEVSTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D830370)
+#define RPG_GAMECORE_MATCHTHREEVSTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB648C0)
+#define RPG_GAMECORE_MATCHTHREEVSTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB646B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeVsTalkRow_TypeDefinitionIndex = 11923;
+	inline static constexpr unsigned int MatchThreeVsTalkRow_TypeDefinitionIndex = 11980;
 
 	class MatchThreeVsTalkRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID OpponentTalk; // 0x10
-		::RPG::Client::TextID MyTalk; // 0x20
-		::System::UInt32 ID; // 0x30
+		::System::UInt32 ID; // 0x20
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID MyTalk; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEVSTALKROW_CTOR_OFFSET))(this);

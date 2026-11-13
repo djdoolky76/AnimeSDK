@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class PopImage; }
 
-#define MIHOYO_SDK_POPIMAGE___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7C660)
-#define MIHOYO_SDK_POPIMAGE___C__DISPLAYCLASS43_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BF7EC10)
+#define MIHOYO_SDK_POPIMAGE___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF8E3D0)
+#define MIHOYO_SDK_POPIMAGE___C__DISPLAYCLASS43_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1AF90980)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopImage___c__DisplayClass43_0_TypeDefinitionIndex = 8258;
+	inline static constexpr unsigned int PopImage___c__DisplayClass43_0_TypeDefinitionIndex = 8267;
 
 	class PopImage___c__DisplayClass43_0 : public ::System::Object
 	{

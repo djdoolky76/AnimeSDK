@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IKNPMFDGADK_AIJMLMNGDEB_CTOR_OFFSET UNITYSDK_OFFSET(0x16491B90)
+#define IKNPMFDGADK_AIJMLMNGDEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5811C0)
 
-inline static constexpr unsigned int IKNPMFDGADK_AIJMLMNGDEB_TypeDefinitionIndex = 79588;
+inline static constexpr unsigned int IKNPMFDGADK_AIJMLMNGDEB_TypeDefinitionIndex = 82365;
 
 	class IKNPMFDGADK_AIJMLMNGDEB : public ::System::Object
 	{

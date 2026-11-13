@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitBatch; }
 namespace RPG::GameCore { class WaitBatchItem; }
 
-#define RPG_GAMECORE_WAITBATCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC66E30)
-#define RPG_GAMECORE_WAITBATCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC66E40)
-#define RPG_GAMECORE_WAITBATCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC66DF0)
+#define RPG_GAMECORE_WAITBATCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED523A0)
+#define RPG_GAMECORE_WAITBATCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED523B0)
+#define RPG_GAMECORE_WAITBATCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED52360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitBatch_TypeDefinitionIndex = 23760;
+	inline static constexpr unsigned int WaitBatch_TypeDefinitionIndex = 24216;
 
 	class WaitBatch : public ::RPG::GameCore::TaskConfig
 	{

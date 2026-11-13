@@ -3,10 +3,10 @@
 #include "unitysdk/HBIAKFCLCIG.h"
 #include "unitysdk/CAHKKMIFGGB.h"
 
-#define GOIOPMEPJDE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B28D50)
-#define GOIOPMEPJDE_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x15B28BF0)
+#define GOIOPMEPJDE_CTOR_OFFSET UNITYSDK_OFFSET(0x187B9820)
+#define GOIOPMEPJDE_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x187B96C0)
 
-inline static constexpr unsigned int GOIOPMEPJDE_TypeDefinitionIndex = 64930;
+inline static constexpr unsigned int GOIOPMEPJDE_TypeDefinitionIndex = 66501;
 
 	class GOIOPMEPJDE : public ::HBIAKFCLCIG
 	{

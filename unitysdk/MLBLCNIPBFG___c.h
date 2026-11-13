@@ -4,18 +4,18 @@
 class MLBLCNIPBFG;
 namespace System { class Object; }
 
-#define MLBLCNIPBFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA52AE0)
-#define MLBLCNIPBFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA52B20)
-#define MLBLCNIPBFG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA52B30)
+#define MLBLCNIPBFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9583C0)
+#define MLBLCNIPBFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F958400)
+#define MLBLCNIPBFG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F958410)
 
-inline static constexpr unsigned int MLBLCNIPBFG___c_TypeDefinitionIndex = 31387;
+inline static constexpr unsigned int MLBLCNIPBFG___c_TypeDefinitionIndex = 32300;
 
 	class MLBLCNIPBFG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56050);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C2B0);
 		}
 
 		static ::System::Void _cctor()

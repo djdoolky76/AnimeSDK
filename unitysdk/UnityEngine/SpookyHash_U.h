@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_SPOOKYHASH_U_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define UNITYENGINE_SPOOKYHASH_U_CTOR_OFFSET UNITYSDK_OFFSET(0x6C8D40)
 
 namespace UnityEngine
 {

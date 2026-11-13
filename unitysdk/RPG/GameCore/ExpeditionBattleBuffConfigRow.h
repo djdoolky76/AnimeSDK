@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExpeditionBattleBuffConfigRow; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLEBUFFCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D660CD0)
-#define RPG_GAMECORE_EXPEDITIONBATTLEBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D660A60)
+#define RPG_GAMECORE_EXPEDITIONBATTLEBUFFCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC86170)
+#define RPG_GAMECORE_EXPEDITIONBATTLEBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1FC85F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleBuffConfigRow_TypeDefinitionIndex = 11448;
+	inline static constexpr unsigned int ExpeditionBattleBuffConfigRow_TypeDefinitionIndex = 11499;
 
 	class ExpeditionBattleBuffConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID BuffDataDesc; // 0x10
-		::System::UInt64 BuffRank; // 0x20
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 MazeBuffID; // 0x2C
+		::System::UInt64 BuffRank; // 0x10
+		::RPG::Client::TextID BuffDataDesc; // 0x18
+		::System::UInt32 MazeBuffID; // 0x28
+		::System::UInt32 ID; // 0x2C
 		::System::Boolean BuffDataIsPercentage; // 0x30
 		::System::Void _ctor()
 		{

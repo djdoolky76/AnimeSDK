@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3D8AF0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD3D8B30)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__SHOWSUBMITTEDPOSTWINDOW_B__74_0_OFFSET UNITYSDK_OFFSET(0xD3D8B40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD4AB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD4AF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__SHOWSUBMITTEDPOSTWINDOW_B__76_0_OFFSET UNITYSDK_OFFSET(0x1DFD4B00)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPostViewModel___c_TypeDefinitionIndex = 80470;
+	inline static constexpr unsigned int LimaoNewsPostViewModel___c_TypeDefinitionIndex = 83250;
 
 	class LimaoNewsPostViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x1FEF0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x37400);
 		}
 
-		static ::System::Action** StaticGet___9__74_0()
+		static ::System::Action** StaticGet___9__76_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x1FEF8);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x37408);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowSubmittedPostWindow_b__74_0()
+		::System::Void _ShowSubmittedPostWindow_b__76_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__SHOWSUBMITTEDPOSTWINDOW_B__74_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__SHOWSUBMITTEDPOSTWINDOW_B__76_0_OFFSET))(this);
 		}
 
 	};

@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class FHJKNCMMMON;
 
-#define FHJKNCMMMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC30D0)
-#define FHJKNCMMMON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC2FB0)
+#define FHJKNCMMMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1E457F60)
+#define FHJKNCMMMON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E457E40)
 
-inline static constexpr unsigned int FHJKNCMMMON_TypeDefinitionIndex = 11981;
+inline static constexpr unsigned int FHJKNCMMMON_TypeDefinitionIndex = 12038;
 
 	class FHJKNCMMMON : public ::System::Object
 	{
 	public:
-		::System::UInt32 GAOAMKBNDPN; // 0x10
-		::System::UInt32 EBJKJAGJGPK; // 0x14
+		::System::UInt32 EBJKJAGJGPK; // 0x10
+		::System::UInt32 GAOAMKBNDPN; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FHJKNCMMMON_CTOR_OFFSET))(this);

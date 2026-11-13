@@ -4,7 +4,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_TypeDefinitionIndex = 6637;
+	inline static constexpr unsigned int ImmutableHashSet_TypeDefinitionIndex = 6648;
 
 	class ImmutableHashSet : public ::System::Object
 	{

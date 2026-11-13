@@ -6,11 +6,11 @@ namespace RPG::Client { class PlanetFesSkillPhase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IFNHPAKOANE_CIOEDCPDEPA_OFFSET UNITYSDK_OFFSET(0x15F1A320)
-#define IFNHPAKOANE_CTOR_OFFSET UNITYSDK_OFFSET(0x15F1AFA0)
-#define IFNHPAKOANE_IOKIHHEAJLL_OFFSET UNITYSDK_OFFSET(0x15F1AAC0)
+#define IFNHPAKOANE_CIOEDCPDEPA_OFFSET UNITYSDK_OFFSET(0x1BC227A0)
+#define IFNHPAKOANE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC23420)
+#define IFNHPAKOANE_IOKIHHEAJLL_OFFSET UNITYSDK_OFFSET(0x1BC22F40)
 
-inline static constexpr unsigned int IFNHPAKOANE_TypeDefinitionIndex = 66635;
+inline static constexpr unsigned int IFNHPAKOANE_TypeDefinitionIndex = 68571;
 
 	class IFNHPAKOANE : public ::System::Object
 	{

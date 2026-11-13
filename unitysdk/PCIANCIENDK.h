@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TakePhoto; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PCIANCIENDK_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF91C0)
-#define PCIANCIENDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF91F0)
+#define PCIANCIENDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD05F0)
+#define PCIANCIENDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AAD0620)
 
-inline static constexpr unsigned int PCIANCIENDK_TypeDefinitionIndex = 53327;
+inline static constexpr unsigned int PCIANCIENDK_TypeDefinitionIndex = 54489;
 
 	class PCIANCIENDK
 	{

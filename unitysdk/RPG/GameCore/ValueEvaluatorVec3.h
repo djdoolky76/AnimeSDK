@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ValueEvaluatorConfig; }
 namespace RPG::GameCore { class ValueEvaluatorVec3; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VALUEEVALUATORVEC3_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC5F180)
-#define RPG_GAMECORE_VALUEEVALUATORVEC3_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC5F190)
-#define RPG_GAMECORE_VALUEEVALUATORVEC3_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC5F0A0)
+#define RPG_GAMECORE_VALUEEVALUATORVEC3_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED4A440)
+#define RPG_GAMECORE_VALUEEVALUATORVEC3_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1ED4A450)
+#define RPG_GAMECORE_VALUEEVALUATORVEC3_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED4A360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ValueEvaluatorVec3_TypeDefinitionIndex = 24039;
+	inline static constexpr unsigned int ValueEvaluatorVec3_TypeDefinitionIndex = 24498;
 
 	class ValueEvaluatorVec3 : public ::RPG::GameCore::JsonConfig
 	{

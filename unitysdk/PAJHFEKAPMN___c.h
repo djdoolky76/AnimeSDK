@@ -4,18 +4,18 @@
 class PAJHFEKAPMN;
 namespace System { class Object; }
 
-#define PAJHFEKAPMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEC23E0)
-#define PAJHFEKAPMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC2420)
-#define PAJHFEKAPMN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEC2430)
+#define PAJHFEKAPMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20375A70)
+#define PAJHFEKAPMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20375AB0)
+#define PAJHFEKAPMN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20375AC0)
 
-inline static constexpr unsigned int PAJHFEKAPMN___c_TypeDefinitionIndex = 29563;
+inline static constexpr unsigned int PAJHFEKAPMN___c_TypeDefinitionIndex = 30343;
 
 	class PAJHFEKAPMN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B710);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C340);
 		}
 
 		static ::System::Void _cctor()

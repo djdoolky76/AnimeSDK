@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5A3090)
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5A30D0)
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__SETUPVIEW_B__24_0_OFFSET UNITYSDK_OFFSET(0xD5A3100)
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__SETUPVIEW_B__24_1_OFFSET UNITYSDK_OFFSET(0xD5A30E0)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8E1AE0)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E1B20)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__SETUPVIEW_B__24_0_OFFSET UNITYSDK_OFFSET(0x1D8E1B50)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__SETUPVIEW_B__24_1_OFFSET UNITYSDK_OFFSET(0x1D8E1B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreePropPanel___c_TypeDefinitionIndex = 65970;
+	inline static constexpr unsigned int MatchThreePropPanel___c_TypeDefinitionIndex = 67902;
 
 	class MatchThreePropPanel___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x405E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D120);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::MatchThreePropItemPanel*>** StaticGet___9__24_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MatchThreePropItemPanel*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x405E8);
+			return (::System::Comparison_1<::RPG::Client::MatchThreePropItemPanel*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D128);
 		}
 
 		static ::System::Func_3<::RPG::Client::MatchThreePropItemPanel*, ::RPG::Client::MatchThreeGameProp*, ::System::Boolean>** StaticGet___9__24_1()
 		{
-			return (::System::Func_3<::RPG::Client::MatchThreePropItemPanel*, ::RPG::Client::MatchThreeGameProp*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x405F0);
+			return (::System::Func_3<::RPG::Client::MatchThreePropItemPanel*, ::RPG::Client::MatchThreeGameProp*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D130);
 		}
 
 		static ::System::Void _cctor()

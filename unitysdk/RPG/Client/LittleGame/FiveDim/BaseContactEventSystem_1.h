@@ -7,7 +7,7 @@ namespace RPG { template <typename T> class PoolList_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseContactEventSystem_1_TypeDefinitionIndex = 77070;
+	inline static constexpr unsigned int BaseContactEventSystem_1_TypeDefinitionIndex = 79404;
 
 	template <typename T>
 	class BaseContactEventSystem_1 : public ::System::Object

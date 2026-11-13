@@ -4,9 +4,9 @@
 class JKLGDLGFOPI;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DPKNLFCNBKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA02080)
+#define DPKNLFCNBKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB343D0)
 
-inline static constexpr unsigned int DPKNLFCNBKK_TypeDefinitionIndex = 42839;
+inline static constexpr unsigned int DPKNLFCNBKK_TypeDefinitionIndex = 43820;
 
 	class DPKNLFCNBKK : public ::System::Object
 	{

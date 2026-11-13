@@ -5,11 +5,11 @@
 namespace RPG::Client { class RogueTournPersonaRoomAttributeData; }
 namespace System { class Object; }
 
-#define FGHDJHDIJCD_CTOR_OFFSET UNITYSDK_OFFSET(0x157569F0)
-#define FGHDJHDIJCD_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x15756A00)
-#define FGHDJHDIJCD_JKDLNCIIMMF_OFFSET UNITYSDK_OFFSET(0x15756A90)
+#define FGHDJHDIJCD_CTOR_OFFSET UNITYSDK_OFFSET(0x18A8BCB0)
+#define FGHDJHDIJCD_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x18A8BCC0)
+#define FGHDJHDIJCD_JKDLNCIIMMF_OFFSET UNITYSDK_OFFSET(0x18A8BD50)
 
-inline static constexpr unsigned int FGHDJHDIJCD_TypeDefinitionIndex = 67256;
+inline static constexpr unsigned int FGHDJHDIJCD_TypeDefinitionIndex = 69200;
 
 	class FGHDJHDIJCD : public ::System::Object
 	{

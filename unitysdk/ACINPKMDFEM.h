@@ -6,10 +6,10 @@ class ACINPKMDFEM;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define ACINPKMDFEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC78590)
-#define ACINPKMDFEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC78340)
+#define ACINPKMDFEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0171C0)
+#define ACINPKMDFEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E016F70)
 
-inline static constexpr unsigned int ACINPKMDFEM_TypeDefinitionIndex = 12476;
+inline static constexpr unsigned int ACINPKMDFEM_TypeDefinitionIndex = 12543;
 
 	class ACINPKMDFEM : public ::System::Object
 	{

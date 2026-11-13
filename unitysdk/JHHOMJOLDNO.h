@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetLockStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHHOMJOLDNO_CTOR_OFFSET UNITYSDK_OFFSET(0xB1AD8A0)
-#define JHHOMJOLDNO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1AD8D0)
+#define JHHOMJOLDNO_CTOR_OFFSET UNITYSDK_OFFSET(0x173DA4C0)
+#define JHHOMJOLDNO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x173DA4F0)
 
-inline static constexpr unsigned int JHHOMJOLDNO_TypeDefinitionIndex = 55149;
+inline static constexpr unsigned int JHHOMJOLDNO_TypeDefinitionIndex = 56330;
 
 	class JHHOMJOLDNO
 	{

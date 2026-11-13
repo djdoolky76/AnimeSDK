@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightChargeType_TypeDefinitionIndex = 13498;
+	inline static constexpr unsigned int GridFightChargeType_TypeDefinitionIndex = 13589;
 
 	enum class GridFightChargeType : ::System::Int32
 	{

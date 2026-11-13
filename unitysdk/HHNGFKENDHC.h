@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimPlayerStateListenerConfig; }
 
-#define HHNGFKENDHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA9DD10)
+#define HHNGFKENDHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA4D90)
 
-inline static constexpr unsigned int HHNGFKENDHC_TypeDefinitionIndex = 43320;
+inline static constexpr unsigned int HHNGFKENDHC_TypeDefinitionIndex = 44301;
 
 	class HHNGFKENDHC : public ::System::Object
 	{

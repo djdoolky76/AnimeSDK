@@ -5,20 +5,20 @@ namespace RPG::Client { class GridFightGameRefData; }
 namespace RPG::Client { class GridFightPortalData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTPORTALCALCULATOR_CALCULATE_OFFSET UNITYSDK_OFFSET(0xD1D5370)
-#define RPG_CLIENT_GRIDFIGHTPORTALCALCULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD1D5A80)
-#define RPG_CLIENT_GRIDFIGHTPORTALCALCULATOR__CALCULATEPORTALSCORE_OFFSET UNITYSDK_OFFSET(0xD1D53C0)
+#define RPG_CLIENT_GRIDFIGHTPORTALCALCULATOR_CALCULATE_OFFSET UNITYSDK_OFFSET(0x1DF2E790)
+#define RPG_CLIENT_GRIDFIGHTPORTALCALCULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF2EEA0)
+#define RPG_CLIENT_GRIDFIGHTPORTALCALCULATOR__CALCULATEPORTALSCORE_OFFSET UNITYSDK_OFFSET(0x1DF2E7E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPortalCalculator_TypeDefinitionIndex = 64814;
+	inline static constexpr unsigned int GridFightPortalCalculator_TypeDefinitionIndex = 66358;
 
 	class GridFightPortalCalculator : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::Client::GridFightPortalData*>** StaticGet_Portals()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::GridFightPortalData*>**)UnitySDK::FromName("RPG.Client", "GridFightPortalCalculator")->GetStaticField(0x6B850);
+			return (::System::Collections::Generic::List_1<::RPG::Client::GridFightPortalData*>**)UnitySDK::FromName("RPG.Client", "GridFightPortalCalculator")->GetStaticField(0x72D10);
 		}
 
 		::System::Void _ctor()

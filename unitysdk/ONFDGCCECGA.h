@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePropType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ONFDGCCECGA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF4A060)
-#define ONFDGCCECGA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF4A090)
+#define ONFDGCCECGA_CTOR_OFFSET UNITYSDK_OFFSET(0x17D79340)
+#define ONFDGCCECGA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17D79370)
 
-inline static constexpr unsigned int ONFDGCCECGA_TypeDefinitionIndex = 52589;
+inline static constexpr unsigned int ONFDGCCECGA_TypeDefinitionIndex = 53695;
 
 	class ONFDGCCECGA
 	{

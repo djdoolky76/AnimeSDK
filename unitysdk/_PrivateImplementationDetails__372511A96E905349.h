@@ -4,7 +4,7 @@
 #include "unitysdk/_PrivateImplementationDetails__372511A96E905349___StaticArrayInitTypeSize_127.h"
 namespace System { class String; }
 
-#define _PRIVATEIMPLEMENTATIONDETAILS__372511A96E905349_COMPUTESTRINGHASH_OFFSET UNITYSDK_OFFSET(0x1EE1C4F0)
+#define _PRIVATEIMPLEMENTATIONDETAILS__372511A96E905349_COMPUTESTRINGHASH_OFFSET UNITYSDK_OFFSET(0x1FFBAF80)
 
 inline static constexpr unsigned int _PrivateImplementationDetails__372511A96E905349_TypeDefinitionIndex = 3831;
 

@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define JEMCLEGNBCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB61CB0)
+#define JEMCLEGNBCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFF560)
 
-inline static constexpr unsigned int JEMCLEGNBCP_TypeDefinitionIndex = 43737;
+inline static constexpr unsigned int JEMCLEGNBCP_TypeDefinitionIndex = 44812;
 
 	class JEMCLEGNBCP : public ::System::Object
 	{

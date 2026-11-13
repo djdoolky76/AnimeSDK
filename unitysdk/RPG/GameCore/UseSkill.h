@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class UseSkill; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_USESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4BA90)
-#define RPG_GAMECORE_USESKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC4BAA0)
-#define RPG_GAMECORE_USESKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4BA50)
+#define RPG_GAMECORE_USESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED37540)
+#define RPG_GAMECORE_USESKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED37550)
+#define RPG_GAMECORE_USESKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED37500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UseSkill_TypeDefinitionIndex = 22435;
+	inline static constexpr unsigned int UseSkill_TypeDefinitionIndex = 22844;
 
 	class UseSkill : public ::RPG::GameCore::TaskConfig
 	{

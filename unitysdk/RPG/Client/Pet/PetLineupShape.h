@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetLineupShape_TypeDefinitionIndex = 75687;
+	inline static constexpr unsigned int PetLineupShape_TypeDefinitionIndex = 78014;
 
 	enum class PetLineupShape : ::System::Int32
 	{

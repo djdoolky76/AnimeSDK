@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define LPFJALKEAKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB819260)
+#define LPFJALKEAKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B32D0)
 
-inline static constexpr unsigned int LPFJALKEAKI_TypeDefinitionIndex = 55844;
+inline static constexpr unsigned int LPFJALKEAKI_TypeDefinitionIndex = 57047;
 
 	class LPFJALKEAKI : public ::System::Object
 	{

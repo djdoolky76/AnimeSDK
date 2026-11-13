@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FMOEFNOMPOG;
 
-#define FMOEFNOMPOG___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15856EB0)
-#define FMOEFNOMPOG___C__DISPLAYCLASS37_0___TRYAUTOREMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x158572A0)
+#define FMOEFNOMPOG___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17F09D90)
+#define FMOEFNOMPOG___C__DISPLAYCLASS37_0___TRYAUTOREMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17F0A180)
 
-inline static constexpr unsigned int FMOEFNOMPOG___c__DisplayClass37_0_TypeDefinitionIndex = 78033;
+inline static constexpr unsigned int FMOEFNOMPOG___c__DisplayClass37_0_TypeDefinitionIndex = 80768;
 
 	class FMOEFNOMPOG___c__DisplayClass37_0 : public ::System::Object
 	{

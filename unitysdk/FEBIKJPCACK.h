@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FEBIKJPCACK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CDB1DD0)
-#define FEBIKJPCACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDB2350)
-#define FEBIKJPCACK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CDB1F40)
-#define FEBIKJPCACK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CDB1880)
-#define FEBIKJPCACK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CDB1B10)
-#define FEBIKJPCACK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CDB1FE0)
-#define FEBIKJPCACK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CDB2030)
-#define FEBIKJPCACK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CDB1E10)
-#define FEBIKJPCACK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CDB1AB0)
-#define FEBIKJPCACK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CDB1C40)
-#define FEBIKJPCACK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDB1EA0)
-#define FEBIKJPCACK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDB1800)
+#define FEBIKJPCACK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E445F50)
+#define FEBIKJPCACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4464D0)
+#define FEBIKJPCACK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E4460C0)
+#define FEBIKJPCACK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E445A00)
+#define FEBIKJPCACK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E445C90)
+#define FEBIKJPCACK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E446160)
+#define FEBIKJPCACK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E4461B0)
+#define FEBIKJPCACK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E445F90)
+#define FEBIKJPCACK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E445C30)
+#define FEBIKJPCACK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E445DC0)
+#define FEBIKJPCACK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E446020)
+#define FEBIKJPCACK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E445980)
 
-inline static constexpr unsigned int FEBIKJPCACK_TypeDefinitionIndex = 12336;
+inline static constexpr unsigned int FEBIKJPCACK_TypeDefinitionIndex = 12403;
 
 	class FEBIKJPCACK : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRelicBoxQuestConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRelicBoxQuestConfigRow*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x10400);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x10408);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRelicBoxQuestConfigRow*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x52C60);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x10410);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x52C68);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x52C70);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x3480);
+			return (::System::Boolean*)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x11C60);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x3481);
+			return (::System::Byte*)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x11C61);
 		}
 
 		static ::System::Void _cctor()

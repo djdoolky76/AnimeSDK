@@ -4,11 +4,11 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define INCHEAIJPMD_COCJCCJDMGE_OFFSET UNITYSDK_OFFSET(0x164D9360)
-#define INCHEAIJPMD_CTOR_OFFSET UNITYSDK_OFFSET(0x164D9430)
-#define INCHEAIJPMD_FLNKDEPJMBF_OFFSET UNITYSDK_OFFSET(0x164D9290)
+#define INCHEAIJPMD_COCJCCJDMGE_OFFSET UNITYSDK_OFFSET(0x1A5E5CB0)
+#define INCHEAIJPMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E5D80)
+#define INCHEAIJPMD_FLNKDEPJMBF_OFFSET UNITYSDK_OFFSET(0x1A5E5BE0)
 
-inline static constexpr unsigned int INCHEAIJPMD_TypeDefinitionIndex = 73834;
+inline static constexpr unsigned int INCHEAIJPMD_TypeDefinitionIndex = 75960;
 
 	class INCHEAIJPMD : public ::System::Object
 	{

@@ -6,23 +6,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HIDDJGKBEBC_NHFNCBMGABG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15CD4BB0)
-#define HIDDJGKBEBC_NHFNCBMGABG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD4BF0)
-#define HIDDJGKBEBC_NHFNCBMGABG___C__CREATESORTED_B__4_0_OFFSET UNITYSDK_OFFSET(0x15CD4C00)
+#define HIDDJGKBEBC_NHFNCBMGABG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1902D320)
+#define HIDDJGKBEBC_NHFNCBMGABG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1902D360)
+#define HIDDJGKBEBC_NHFNCBMGABG___C__CREATESORTED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1902D370)
 
-inline static constexpr unsigned int HIDDJGKBEBC_NHFNCBMGABG___c_TypeDefinitionIndex = 79593;
+inline static constexpr unsigned int HIDDJGKBEBC_NHFNCBMGABG___c_TypeDefinitionIndex = 82370;
 
 	class HIDDJGKBEBC_NHFNCBMGABG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C660);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C668);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBCE0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBCE8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 
-#define RPG_GAMECORE_FATERINCASEBOARDMOVEBASEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6709E0)
-#define RPG_GAMECORE_FATERINCASEBOARDMOVEBASEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D670860)
+#define RPG_GAMECORE_FATERINCASEBOARDMOVEBASEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC96270)
+#define RPG_GAMECORE_FATERINCASEBOARDMOVEBASEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1FC960F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinCaseBoardMoveBaseInfo_TypeDefinitionIndex = 19920;
+	inline static constexpr unsigned int FateRinCaseBoardMoveBaseInfo_TypeDefinitionIndex = 20249;
 
 	class FateRinCaseBoardMoveBaseInfo : public ::RPG::GameCore::JsonConfig
 	{

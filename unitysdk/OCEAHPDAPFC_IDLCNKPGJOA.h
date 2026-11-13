@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OCEAHPDAPFC_IDLCNKPGJOA_TypeDefinitionIndex = 30304;
+inline static constexpr unsigned int OCEAHPDAPFC_IDLCNKPGJOA_TypeDefinitionIndex = 31210;
 
 	enum class OCEAHPDAPFC_IDLCNKPGJOA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		OCJCOOLMCGD = 5,
-		NOGCKIHEDCE = 7,
-		HOCFMNJPCLI = 6,
+		OCJCOOLMCGD = 9,
+		NOGCKIHEDCE = 6,
+		HOCFMNJPCLI = 7,
 		JGMJFHLIAIL = 13,
-		IAFPOEBBJIL = 3,
-		LDBGGNHLFAM = 14,
-		HDMEPMHHOLP = 12,
+		IAFPOEBBJIL = 4,
+		LDBGGNHLFAM = 10,
+		HDMEPMHHOLP = 3,
 		JDGKFGONCJI = 15,
-		CGEFHJIEKGF = 1,
-		OILCNNHJKLE = 9,
-		KELKKMJMGKC = 4,
-		OCAJHAHNKIE = 8,
-		PABLJFNIPDL = 956,
+		CGEFHJIEKGF = 12,
+		OILCNNHJKLE = 14,
+		KELKKMJMGKC = 5,
+		OCAJHAHNKIE = 11,
+		PABLJFNIPDL = 728,
 	};

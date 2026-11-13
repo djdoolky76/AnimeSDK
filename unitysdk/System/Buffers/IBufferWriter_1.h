@@ -3,7 +3,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int IBufferWriter_1_TypeDefinitionIndex = 4994;
+	inline static constexpr unsigned int IBufferWriter_1_TypeDefinitionIndex = 4999;
 
 	template <typename T>
 	class IBufferWriter_1

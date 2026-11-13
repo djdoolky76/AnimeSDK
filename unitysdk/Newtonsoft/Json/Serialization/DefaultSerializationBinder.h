@@ -8,14 +8,14 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_BINDTOTYPE_OFFSET UNITYSDK_OFFSET(0x1C3B0A40)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3B0B40)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B0AC0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_GETTYPEFROMTYPENAMEKEY_OFFSET UNITYSDK_OFFSET(0x1C3B0640)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_BINDTOTYPE_OFFSET UNITYSDK_OFFSET(0x18423EE0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x18423FE0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x18423F60)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_GETTYPEFROMTYPENAMEKEY_OFFSET UNITYSDK_OFFSET(0x18423A90)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultSerializationBinder_TypeDefinitionIndex = 9714;
+	inline static constexpr unsigned int DefaultSerializationBinder_TypeDefinitionIndex = 9722;
 
 	class DefaultSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder
 	{
@@ -23,7 +23,7 @@ namespace Newtonsoft::Json::Serialization
 		::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, ::System::Type*>* _typeCache; // 0x10
 		static ::Newtonsoft::Json::Serialization::DefaultSerializationBinder** StaticGet_Instance()
 		{
-			return (::Newtonsoft::Json::Serialization::DefaultSerializationBinder**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "DefaultSerializationBinder")->GetStaticField(0x32B80);
+			return (::Newtonsoft::Json::Serialization::DefaultSerializationBinder**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "DefaultSerializationBinder")->GetStaticField(0x287B0);
 		}
 
 		::System::Void _ctor()

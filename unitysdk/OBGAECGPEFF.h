@@ -5,9 +5,9 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define OBGAECGPEFF_JLEAOOKNMPO_OFFSET UNITYSDK_OFFSET(0xBD37860)
+#define OBGAECGPEFF_JLEAOOKNMPO_OFFSET UNITYSDK_OFFSET(0x1AB7EA20)
 
-inline static constexpr unsigned int OBGAECGPEFF_TypeDefinitionIndex = 54990;
+inline static constexpr unsigned int OBGAECGPEFF_TypeDefinitionIndex = 56164;
 
 	class OBGAECGPEFF : public ::System::Object
 	{

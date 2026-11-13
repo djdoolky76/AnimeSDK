@@ -5,12 +5,12 @@ class BKEGIIJENMI;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GOFOGINDKEF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15B23240)
-#define GOFOGINDKEF_CTOR_OFFSET UNITYSDK_OFFSET(0x15B23500)
-#define GOFOGINDKEF_JBJPNCIBBKP_OFFSET UNITYSDK_OFFSET(0x15B22D70)
-#define GOFOGINDKEF_LKLNHGLLCNI_OFFSET UNITYSDK_OFFSET(0x15B22D10)
+#define GOFOGINDKEF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x187B3D10)
+#define GOFOGINDKEF_CTOR_OFFSET UNITYSDK_OFFSET(0x187B3FD0)
+#define GOFOGINDKEF_JBJPNCIBBKP_OFFSET UNITYSDK_OFFSET(0x187B3840)
+#define GOFOGINDKEF_LKLNHGLLCNI_OFFSET UNITYSDK_OFFSET(0x187B37E0)
 
-inline static constexpr unsigned int GOFOGINDKEF_TypeDefinitionIndex = 80137;
+inline static constexpr unsigned int GOFOGINDKEF_TypeDefinitionIndex = 82914;
 
 	class GOFOGINDKEF : public ::System::Object
 	{

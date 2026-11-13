@@ -8,20 +8,20 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PNJKHPMDMBP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC334200)
-#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_B__3_OFFSET UNITYSDK_OFFSET(0xC334B30)
-#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0xC334D60)
-#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0xC334BC0)
+#define PNJKHPMDMBP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x184B2C40)
+#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_B__3_OFFSET UNITYSDK_OFFSET(0x184B3570)
+#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0x184B37A0)
+#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0x184B3600)
 
-inline static constexpr unsigned int PNJKHPMDMBP___c__DisplayClass4_0_TypeDefinitionIndex = 55632;
+inline static constexpr unsigned int PNJKHPMDMBP___c__DisplayClass4_0_TypeDefinitionIndex = 56830;
 
 	class PNJKHPMDMBP___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>* _SortScoreDict; // 0x10
-		::RPG::GameCore::GameEntity* _Caster; // 0x18
-		::RPG::GameCore::SortByModifierValue* config; // 0x20
-		::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* __9__3; // 0x28
+		::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* __9__3; // 0x10
+		::RPG::GameCore::SortByModifierValue* config; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>* _SortScoreDict; // 0x20
+		::RPG::GameCore::GameEntity* _Caster; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNJKHPMDMBP___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

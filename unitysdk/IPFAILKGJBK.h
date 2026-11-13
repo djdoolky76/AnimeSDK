@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define IPFAILKGJBK_CTOR_OFFSET UNITYSDK_OFFSET(0x16511310)
-#define IPFAILKGJBK_JOLDEBJNCLL_OFFSET UNITYSDK_OFFSET(0x16511520)
-#define IPFAILKGJBK_PFEKEEJINJD_OFFSET UNITYSDK_OFFSET(0x16511330)
+#define IPFAILKGJBK_CTOR_OFFSET UNITYSDK_OFFSET(0x192FE8B0)
+#define IPFAILKGJBK_JOLDEBJNCLL_OFFSET UNITYSDK_OFFSET(0x192FEAC0)
+#define IPFAILKGJBK_PFEKEEJINJD_OFFSET UNITYSDK_OFFSET(0x192FE8D0)
 
-inline static constexpr unsigned int IPFAILKGJBK_TypeDefinitionIndex = 60081;
+inline static constexpr unsigned int IPFAILKGJBK_TypeDefinitionIndex = 61365;
 
 	class IPFAILKGJBK : public ::LNDHLHALKAK
 	{
 	public:
-		::System::Single CNDABONKHMH; // 0x30
-		::System::Single PDJLNAILECG; // 0x34
-		::UnityEngine::Vector3 GFNEIGDFCII; // 0x38
-		::System::Single OCKOLFPPGDF; // 0x44
+		::System::Single OCKOLFPPGDF; // 0x30
+		::UnityEngine::Vector3 GFNEIGDFCII; // 0x34
+		::System::Single PDJLNAILECG; // 0x40
+		::System::Single CNDABONKHMH; // 0x44
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + IPFAILKGJBK_CTOR_OFFSET))(this, a1, a2);

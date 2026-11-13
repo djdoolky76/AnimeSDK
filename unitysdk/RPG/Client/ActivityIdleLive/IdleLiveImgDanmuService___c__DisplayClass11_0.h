@@ -4,12 +4,12 @@
 class PBHBHNNFDCM;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveImgDanmuService; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4DCAA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__DISPLAYCLASS11_0___ADDIMAGEDANMU_B__0_OFFSET UNITYSDK_OFFSET(0xC4DCBE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C4910)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__DISPLAYCLASS11_0___ADDIMAGEDANMU_B__0_OFFSET UNITYSDK_OFFSET(0x1D6C4A50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveImgDanmuService___c__DisplayClass11_0_TypeDefinitionIndex = 75351;
+	inline static constexpr unsigned int IdleLiveImgDanmuService___c__DisplayClass11_0_TypeDefinitionIndex = 77678;
 
 	class IdleLiveImgDanmuService___c__DisplayClass11_0 : public ::System::Object
 	{

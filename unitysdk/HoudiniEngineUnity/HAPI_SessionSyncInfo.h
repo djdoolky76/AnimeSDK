@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_SessionSyncInfo_TypeDefinitionIndex = 40522;
+	inline static constexpr unsigned int HAPI_SessionSyncInfo_TypeDefinitionIndex = 41497;
 
 	struct alignas(4) HAPI_SessionSyncInfo
 	{

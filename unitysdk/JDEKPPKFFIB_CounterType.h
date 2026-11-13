@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JDEKPPKFFIB_CounterType_TypeDefinitionIndex = 71402;
+inline static constexpr unsigned int JDEKPPKFFIB_CounterType_TypeDefinitionIndex = 73384;
 
 	enum class JDEKPPKFFIB_CounterType : ::System::Int32
 	{

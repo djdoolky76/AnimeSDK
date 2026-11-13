@@ -4,18 +4,18 @@
 class CHOPOIIJCPD;
 namespace System { class Object; }
 
-#define CHOPOIIJCPD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0A0970)
-#define CHOPOIIJCPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A09B0)
-#define CHOPOIIJCPD___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E0A09C0)
+#define CHOPOIIJCPD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F840610)
+#define CHOPOIIJCPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F840650)
+#define CHOPOIIJCPD___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1F840660)
 
-inline static constexpr unsigned int CHOPOIIJCPD___c_TypeDefinitionIndex = 34470;
+inline static constexpr unsigned int CHOPOIIJCPD___c_TypeDefinitionIndex = 35398;
 
 	class CHOPOIIJCPD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16360);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF900);
 		}
 
 		static ::System::Void _cctor()

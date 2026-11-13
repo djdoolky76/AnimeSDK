@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RogueShowSelectMainPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AAONGKGABHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0D83E0)
-#define AAONGKGABHE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0D83F0)
-#define AAONGKGABHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0D8490)
-#define AAONGKGABHE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB0D8500)
-#define AAONGKGABHE_TICK_OFFSET UNITYSDK_OFFSET(0xB0D8430)
+#define AAONGKGABHE_CTOR_OFFSET UNITYSDK_OFFSET(0x18C89180)
+#define AAONGKGABHE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C89190)
+#define AAONGKGABHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C89230)
+#define AAONGKGABHE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18C892A0)
+#define AAONGKGABHE_TICK_OFFSET UNITYSDK_OFFSET(0x18C891D0)
 
-inline static constexpr unsigned int AAONGKGABHE_TypeDefinitionIndex = 58472;
+inline static constexpr unsigned int AAONGKGABHE_TypeDefinitionIndex = 59728;
 
 	class AAONGKGABHE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RogueShowSelectMainPage* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RogueShowSelectMainPage* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueShowSelectMainPage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RogueShowSelectMainPage*))((::PBYTE)hIl2Cpp + AAONGKGABHE_CTOR_OFFSET))(this, a1, a2);

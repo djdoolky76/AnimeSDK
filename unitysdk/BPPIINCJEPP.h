@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class TeamDataComponent; }
 
-inline static constexpr unsigned int BPPIINCJEPP_TypeDefinitionIndex = 55832;
+inline static constexpr unsigned int BPPIINCJEPP_TypeDefinitionIndex = 57035;
 
 	struct alignas(8) BPPIINCJEPP
 	{

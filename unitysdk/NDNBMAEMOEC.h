@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/LittleGameShare/DiceCombatCore/TacticsBuyFinishResult.h"
 class BKHHFIJCHEP;
 
-#define NDNBMAEMOEC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4CF80)
-#define NDNBMAEMOEC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBB4CF90)
+#define NDNBMAEMOEC_CTOR_OFFSET UNITYSDK_OFFSET(0x16FCC000)
+#define NDNBMAEMOEC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x16FCC010)
 
-inline static constexpr unsigned int NDNBMAEMOEC_TypeDefinitionIndex = 60347;
+inline static constexpr unsigned int NDNBMAEMOEC_TypeDefinitionIndex = 61632;
 
 	class NDNBMAEMOEC : public ::EFNJLACKEDH
 	{

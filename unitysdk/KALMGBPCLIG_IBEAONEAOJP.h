@@ -14,7 +14,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int KALMGBPCLIG_IBEAONEAOJP_TypeDefinitionIndex = 44181;
+inline static constexpr unsigned int KALMGBPCLIG_IBEAONEAOJP_TypeDefinitionIndex = 45256;
 
 	class KALMGBPCLIG_IBEAONEAOJP : public ::System::Object
 	{

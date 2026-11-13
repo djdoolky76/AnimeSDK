@@ -8,43 +8,43 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE72320)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CONNECT_OFFSET UNITYSDK_OFFSET(0x1BE714D0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE71410)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1BE722B0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_INIT_OFFSET UNITYSDK_OFFSET(0x1BE717A0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BE6FD00)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET UNITYSDK_OFFSET(0x1BE71850)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1BE71A00)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SDKRECEIVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BE71300)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1BE717B0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET UNITYSDK_OFFSET(0x1BE6F210)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C329E70)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CONNECT_OFFSET UNITYSDK_OFFSET(0x1C329020)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C328F60)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1C329E00)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_INIT_OFFSET UNITYSDK_OFFSET(0x1C3292F0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C327880)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET UNITYSDK_OFFSET(0x1C3293A0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1C329550)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SDKRECEIVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C328E50)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1C329300)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET UNITYSDK_OFFSET(0x1C326E50)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int CloudPipe_TypeDefinitionIndex = 9135;
+	inline static constexpr unsigned int CloudPipe_TypeDefinitionIndex = 9144;
 
 	class CloudPipe : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet_OnReceiveData()
 		{
-			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x12620);
-		}
-
-		static ::MiHoYo::SDK::MiHoYoCloud::CloudPipe** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::MiHoYoCloud::CloudPipe**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x12628);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x9CA0);
 		}
 
 		static ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler** StaticGet_receiveCallback()
 		{
-			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x12630);
+			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x9CA8);
 		}
 
 		static ::CloudGame::MailBox::Mailbox** StaticGet_mailbox()
 		{
-			return (::CloudGame::MailBox::Mailbox**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x12638);
+			return (::CloudGame::MailBox::Mailbox**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x9CB0);
+		}
+
+		static ::MiHoYo::SDK::MiHoYoCloud::CloudPipe** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::MiHoYoCloud::CloudPipe**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x9CB8);
 		}
 
 		// static const ::System::String* InvokeFunc; // 0x0

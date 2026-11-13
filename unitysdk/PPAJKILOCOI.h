@@ -7,22 +7,22 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define PPAJKILOCOI_CCTOR_OFFSET UNITYSDK_OFFSET(0xC372DF0)
-#define PPAJKILOCOI_DKLLOMMLDJB_OFFSET UNITYSDK_OFFSET(0xC3729F0)
-#define PPAJKILOCOI_DLHACJMNKEM_OFFSET UNITYSDK_OFFSET(0xC372B20)
-#define PPAJKILOCOI_HIBDOFIDBIB_OFFSET UNITYSDK_OFFSET(0xC372C70)
-#define PPAJKILOCOI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC370590)
-#define PPAJKILOCOI_LBMJMGMMALD_OFFSET UNITYSDK_OFFSET(0xC372C10)
-#define PPAJKILOCOI_LMLNKBPEDBI_OFFSET UNITYSDK_OFFSET(0xC372950)
+#define PPAJKILOCOI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B89F470)
+#define PPAJKILOCOI_DKLLOMMLDJB_OFFSET UNITYSDK_OFFSET(0x1B89F070)
+#define PPAJKILOCOI_DLHACJMNKEM_OFFSET UNITYSDK_OFFSET(0x1B89F1A0)
+#define PPAJKILOCOI_HIBDOFIDBIB_OFFSET UNITYSDK_OFFSET(0x1B89F2F0)
+#define PPAJKILOCOI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1B89C9C0)
+#define PPAJKILOCOI_LBMJMGMMALD_OFFSET UNITYSDK_OFFSET(0x1B89F290)
+#define PPAJKILOCOI_LMLNKBPEDBI_OFFSET UNITYSDK_OFFSET(0x1B89EFD0)
 
-inline static constexpr unsigned int PPAJKILOCOI_TypeDefinitionIndex = 59291;
+inline static constexpr unsigned int PPAJKILOCOI_TypeDefinitionIndex = 60568;
 
 	class PPAJKILOCOI : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::UInt16>** StaticGet_MKOKMGIHECP()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt16>**)UnitySDK::FromName("", "PPAJKILOCOI")->GetStaticField(0xBA20);
+			return (::System::Collections::Generic::HashSet_1<::System::UInt16>**)UnitySDK::FromName("", "PPAJKILOCOI")->GetStaticField(0xA710);
 		}
 
 		static ::System::Void _cctor()

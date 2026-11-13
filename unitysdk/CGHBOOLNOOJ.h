@@ -3,16 +3,18 @@
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 class CGHBOOLNOOJ;
 class FCOEMCEDLNL;
+namespace RPG::GameCore { class DynamicFloat; }
 
-#define CGHBOOLNOOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBDEC80)
-#define CGHBOOLNOOJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DBDEC90)
-#define CGHBOOLNOOJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBDEBC0)
+#define CGHBOOLNOOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x115F29F0)
+#define CGHBOOLNOOJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x115F2A60)
+#define CGHBOOLNOOJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x115F2960)
 
-inline static constexpr unsigned int CGHBOOLNOOJ_TypeDefinitionIndex = 22615;
+inline static constexpr unsigned int CGHBOOLNOOJ_TypeDefinitionIndex = 23030;
 
 	class CGHBOOLNOOJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:
+		::RPG::GameCore::DynamicFloat* NNNAGHMNFKB; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CGHBOOLNOOJ_CTOR_OFFSET))(this);

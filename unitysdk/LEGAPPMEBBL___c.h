@@ -4,18 +4,18 @@
 class LEGAPPMEBBL;
 namespace System { class Object; }
 
-#define LEGAPPMEBBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8FF4D0)
-#define LEGAPPMEBBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FF500)
-#define LEGAPPMEBBL___C___CCTOR_B__158_0_OFFSET UNITYSDK_OFFSET(0x1E8FF510)
+#define LEGAPPMEBBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F81B880)
+#define LEGAPPMEBBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F81B8B0)
+#define LEGAPPMEBBL___C___CCTOR_B__158_0_OFFSET UNITYSDK_OFFSET(0x1F81B8C0)
 
-inline static constexpr unsigned int LEGAPPMEBBL___c_TypeDefinitionIndex = 32011;
+inline static constexpr unsigned int LEGAPPMEBBL___c_TypeDefinitionIndex = 32924;
 
 	class LEGAPPMEBBL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31560);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F490);
 		}
 
 		static ::System::Void _cctor()

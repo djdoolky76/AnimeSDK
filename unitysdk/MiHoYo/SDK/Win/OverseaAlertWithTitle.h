@@ -8,16 +8,16 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD847B0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1BD84F60)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD84FC0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD84F40)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD84FA0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD84DD0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x19CD4DC0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CONFIRM_OFFSET UNITYSDK_OFFSET(0x19CD5570)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CTOR_OFFSET UNITYSDK_OFFSET(0x19CD55D0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x19CD5550)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19CD55B0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x19CD53E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAlertWithTitle_TypeDefinitionIndex = 9308;
+	inline static constexpr unsigned int OverseaAlertWithTitle_TypeDefinitionIndex = 9316;
 
 	class OverseaAlertWithTitle : public ::MiHoYo::SDK::UIElement
 	{
@@ -33,12 +33,12 @@ namespace MiHoYo::SDK::Win
 		::System::String* cancelTitle; // 0x98
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAlertWithTitle")->GetStaticField(0xE750);
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAlertWithTitle")->GetStaticField(0x2FB80);
 		}
 
 		static ::MiHoYo::SDK::Win::OverseaAlertWithTitle** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::OverseaAlertWithTitle**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAlertWithTitle")->GetStaticField(0xE758);
+			return (::MiHoYo::SDK::Win::OverseaAlertWithTitle**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAlertWithTitle")->GetStaticField(0x2FB88);
 		}
 
 		// static const ::System::String* PrefabName; // 0x0

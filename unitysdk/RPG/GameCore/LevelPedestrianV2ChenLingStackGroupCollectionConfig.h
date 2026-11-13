@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LevelPedestrianV2SpawnGroupInfo_ChenLingStack; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2CHENLINGSTACKGROUPCOLLECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D796610)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2CHENLINGSTACKGROUPCOLLECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D796530)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2CHENLINGSTACKGROUPCOLLECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9454A0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2CHENLINGSTACKGROUPCOLLECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9453A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2ChenLingStackGroupCollectionConfig_TypeDefinitionIndex = 17321;
+	inline static constexpr unsigned int LevelPedestrianV2ChenLingStackGroupCollectionConfig_TypeDefinitionIndex = 17489;
 
 	class LevelPedestrianV2ChenLingStackGroupCollectionConfig : public ::RPG::GameCore::JsonConfig
 	{

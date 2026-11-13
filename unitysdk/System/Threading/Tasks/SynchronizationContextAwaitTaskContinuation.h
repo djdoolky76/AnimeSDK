@@ -9,11 +9,11 @@ namespace System::Threading { class SendOrPostCallback; }
 namespace System::Threading { class SynchronizationContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C121800)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1213D0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_GETPOSTACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C121740)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_POSTACTION_OFFSET UNITYSDK_OFFSET(0x1C121650)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1C121420)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD6D2B0)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6CE80)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_GETPOSTACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1DD6D1F0)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_POSTACTION_OFFSET UNITYSDK_OFFSET(0x1DD6D100)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1DD6CED0)
 
 namespace System::Threading::Tasks
 {
@@ -23,14 +23,14 @@ namespace System::Threading::Tasks
 	{
 	public:
 		::System::Threading::SynchronizationContext* m_syncContext; // 0x20
-		static ::System::Threading::ContextCallback** StaticGet_s_postActionCallback()
-		{
-			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation")->GetStaticField(0x262E0);
-		}
-
 		static ::System::Threading::SendOrPostCallback** StaticGet_s_postCallback()
 		{
-			return (::System::Threading::SendOrPostCallback**)UnitySDK::FromName("System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation")->GetStaticField(0x262E8);
+			return (::System::Threading::SendOrPostCallback**)UnitySDK::FromName("System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation")->GetStaticField(0x18210);
+		}
+
+		static ::System::Threading::ContextCallback** StaticGet_s_postActionCallback()
+		{
+			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation")->GetStaticField(0x18218);
 		}
 
 		::System::Void _ctor(::System::Threading::SynchronizationContext* a1, ::System::Action* a2, ::System::Boolean a3, ::System::Threading::StackCrawlMark a4)

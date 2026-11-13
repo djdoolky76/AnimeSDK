@@ -6,24 +6,24 @@ namespace MessagePack::Resolvers { class SourceGeneratedFormatterResolver; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Reflection { class Assembly; }
 
-#define MESSAGEPACK_RESOLVERS_SOURCEGENERATEDFORMATTERRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4B60)
-#define MESSAGEPACK_RESOLVERS_SOURCEGENERATEDFORMATTERRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4B50)
+#define MESSAGEPACK_RESOLVERS_SOURCEGENERATEDFORMATTERRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF69AF0)
+#define MESSAGEPACK_RESOLVERS_SOURCEGENERATEDFORMATTERRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF69AE0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int SourceGeneratedFormatterResolver_TypeDefinitionIndex = 7272;
+	inline static constexpr unsigned int SourceGeneratedFormatterResolver_TypeDefinitionIndex = 7283;
 
 	class SourceGeneratedFormatterResolver : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::Assembly*, ::MessagePack::IFormatterResolver*>** StaticGet_AssemblyResolverCache()
-		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::Assembly*, ::MessagePack::IFormatterResolver*>**)UnitySDK::FromName("MessagePack.Resolvers", "SourceGeneratedFormatterResolver")->GetStaticField(0x4BCD0);
-		}
-
 		static ::MessagePack::Resolvers::SourceGeneratedFormatterResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::SourceGeneratedFormatterResolver**)UnitySDK::FromName("MessagePack.Resolvers", "SourceGeneratedFormatterResolver")->GetStaticField(0x4BCD8);
+			return (::MessagePack::Resolvers::SourceGeneratedFormatterResolver**)UnitySDK::FromName("MessagePack.Resolvers", "SourceGeneratedFormatterResolver")->GetStaticField(0x2EC90);
+		}
+
+		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::Assembly*, ::MessagePack::IFormatterResolver*>** StaticGet_AssemblyResolverCache()
+		{
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::Assembly*, ::MessagePack::IFormatterResolver*>**)UnitySDK::FromName("MessagePack.Resolvers", "SourceGeneratedFormatterResolver")->GetStaticField(0x2EC98);
 		}
 
 		::System::Void _ctor()

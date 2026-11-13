@@ -4,9 +4,9 @@
 class CameraPostion;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENECAMERAPOSITIONSSCRIPTABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xE9547D0)
+#define SCENECAMERAPOSITIONSSCRIPTABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA405B0)
 
-inline static constexpr unsigned int SceneCameraPositionsScriptableObject_TypeDefinitionIndex = 47099;
+inline static constexpr unsigned int SceneCameraPositionsScriptableObject_TypeDefinitionIndex = 48127;
 
 	class SceneCameraPositionsScriptableObject : public ::UnityEngine::ScriptableObject
 	{

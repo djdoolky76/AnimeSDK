@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKRESPONSEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEF080)
+#define MIHOYO_SDK_WATERMARK_WATERMARKRESPONSEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E1FA0)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkResponseData_TypeDefinitionIndex = 8877;
+	inline static constexpr unsigned int WatermarkResponseData_TypeDefinitionIndex = 8886;
 
 	class WatermarkResponseData : public ::System::Object
 	{

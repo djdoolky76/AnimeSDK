@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIDURATIONMEASUREMENTSCOPE_CTOR_OFFSET UNITYSDK_OFFSET(0x10B0)
-#define CRIWARE_CRIDURATIONMEASUREMENTSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define CRIWARE_CRIDURATIONMEASUREMENTSCOPE_CTOR_OFFSET UNITYSDK_OFFSET(0xB480)
+#define CRIWARE_CRIDURATIONMEASUREMENTSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB480)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriDurationMeasurementScope_TypeDefinitionIndex = 40136;
+	inline static constexpr unsigned int CriDurationMeasurementScope_TypeDefinitionIndex = 41111;
 
 	struct alignas(4) CriDurationMeasurementScope
 	{

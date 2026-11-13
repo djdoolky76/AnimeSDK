@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingBattleBezierPointConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEBEZIERPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D554DC0)
-#define RPG_GAMECORE_CHENLINGBATTLEBEZIERPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D554A10)
+#define RPG_GAMECORE_CHENLINGBATTLEBEZIERPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F356260)
+#define RPG_GAMECORE_CHENLINGBATTLEBEZIERPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F355EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleBezierPointConfig_TypeDefinitionIndex = 15717;
+	inline static constexpr unsigned int ChenLingBattleBezierPointConfig_TypeDefinitionIndex = 15875;
 
 	class ChenLingBattleBezierPointConfig : public ::RPG::GameCore::JsonConfig
 	{

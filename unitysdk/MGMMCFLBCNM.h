@@ -5,22 +5,22 @@
 class GLPPDCIBMIH;
 namespace System { class Action; }
 
-#define MGMMCFLBCNM_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB922BE0)
-#define MGMMCFLBCNM_CTOR_OFFSET UNITYSDK_OFFSET(0xB922BD0)
-#define MGMMCFLBCNM_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0xB922C10)
-#define MGMMCFLBCNM_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB922C00)
-#define MGMMCFLBCNM_GET_FROM_OFFSET UNITYSDK_OFFSET(0xB922C20)
-#define MGMMCFLBCNM_GET_TO_OFFSET UNITYSDK_OFFSET(0xB922C30)
-#define MGMMCFLBCNM_GET_UID_OFFSET UNITYSDK_OFFSET(0xB922C40)
+#define MGMMCFLBCNM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B348BA0)
+#define MGMMCFLBCNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B348B90)
+#define MGMMCFLBCNM_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1B348BD0)
+#define MGMMCFLBCNM_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1B348BC0)
+#define MGMMCFLBCNM_GET_FROM_OFFSET UNITYSDK_OFFSET(0x1B348BE0)
+#define MGMMCFLBCNM_GET_TO_OFFSET UNITYSDK_OFFSET(0x1B348BF0)
+#define MGMMCFLBCNM_GET_UID_OFFSET UNITYSDK_OFFSET(0x1B348C00)
 
-inline static constexpr unsigned int MGMMCFLBCNM_TypeDefinitionIndex = 76061;
+inline static constexpr unsigned int MGMMCFLBCNM_TypeDefinitionIndex = 78388;
 
 	class MGMMCFLBCNM : public ::System::Object
 	{
 	public:
 		::System::Action* _Callback_k__BackingField; // 0x10
-		::GLPPDCIBMIH* _To_k__BackingField; // 0x18
-		::GLPPDCIBMIH* _From_k__BackingField; // 0x20
+		::GLPPDCIBMIH* _From_k__BackingField; // 0x18
+		::GLPPDCIBMIH* _To_k__BackingField; // 0x20
 		::System::UInt32 _UID_k__BackingField; // 0x28
 		::RPG::Client::DiceCombat::DiceCombatV2DiceExchangeEventType _EventType_k__BackingField; // 0x2C
 		::System::Void _ctor(::RPG::Client::DiceCombat::DiceCombatV2DiceExchangeEventType a1, ::System::Action* a2)

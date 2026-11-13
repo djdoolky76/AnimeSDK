@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class LevelBattleAreaInfo; }
 
-inline static constexpr unsigned int GKOIGLGNOPC_FGJPJDNJOID_TypeDefinitionIndex = 62210;
+inline static constexpr unsigned int GKOIGLGNOPC_FGJPJDNJOID_TypeDefinitionIndex = 63623;
 
 	struct alignas(8) GKOIGLGNOPC_FGJPJDNJOID
 	{

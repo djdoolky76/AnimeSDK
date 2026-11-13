@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_IO_DIRECTORY_SEARCHDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2238F0)
+#define SYSTEM_IO_DIRECTORY_SEARCHDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x19E25FC0)
 
 namespace System::IO
 {
@@ -13,8 +13,8 @@ namespace System::IO
 	class Directory_SearchData : public ::System::Object
 	{
 	public:
-		::System::String* fullPath; // 0x10
-		::System::String* userPath; // 0x18
+		::System::String* userPath; // 0x10
+		::System::String* fullPath; // 0x18
 		::System::IO::SearchOption searchOption; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::IO::SearchOption a3)
 		{

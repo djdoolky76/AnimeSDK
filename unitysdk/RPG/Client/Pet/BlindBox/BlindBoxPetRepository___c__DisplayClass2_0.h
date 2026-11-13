@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 
-#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAA6B30)
-#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C__DISPLAYCLASS2_0__GETALLAPPEARANCES_B__0_OFFSET UNITYSDK_OFFSET(0xDAA75E0)
+#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C86E0)
+#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C__DISPLAYCLASS2_0__GETALLAPPEARANCES_B__0_OFFSET UNITYSDK_OFFSET(0x1C1C9190)
 
 namespace RPG::Client::Pet::BlindBox
 {
-	inline static constexpr unsigned int BlindBoxPetRepository___c__DisplayClass2_0_TypeDefinitionIndex = 75733;
+	inline static constexpr unsigned int BlindBoxPetRepository___c__DisplayClass2_0_TypeDefinitionIndex = 78060;
 
 	class BlindBoxPetRepository___c__DisplayClass2_0 : public ::System::Object
 	{

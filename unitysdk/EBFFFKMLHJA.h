@@ -4,18 +4,18 @@
 class EBFFFKMLHJA;
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleStatusViewModel; }
 
-#define EBFFFKMLHJA_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CEA4E0)
-#define EBFFFKMLHJA_COMPARE_OFFSET UNITYSDK_OFFSET(0x12CEA310)
-#define EBFFFKMLHJA_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEA4D0)
+#define EBFFFKMLHJA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3B8070)
+#define EBFFFKMLHJA_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C3B7EA0)
+#define EBFFFKMLHJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B8060)
 
-inline static constexpr unsigned int EBFFFKMLHJA_TypeDefinitionIndex = 80987;
+inline static constexpr unsigned int EBFFFKMLHJA_TypeDefinitionIndex = 83767;
 
 	class EBFFFKMLHJA : public ::System::Object
 	{
 	public:
 		static ::EBFFFKMLHJA** StaticGet_FMJPMFEDIJL()
 		{
-			return (::EBFFFKMLHJA**)UnitySDK::FromName("", "EBFFFKMLHJA")->GetStaticField(0x52BA0);
+			return (::EBFFFKMLHJA**)UnitySDK::FromName("", "EBFFFKMLHJA")->GetStaticField(0x5BB90);
 		}
 
 		::System::Void _ctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BySwitchMascotCanShootTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EAJGCKMEOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x126773C0)
-#define EAJGCKMEOMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x126773F0)
+#define EAJGCKMEOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x181D2BF0)
+#define EAJGCKMEOMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x181D2C20)
 
-inline static constexpr unsigned int EAJGCKMEOMN_TypeDefinitionIndex = 57994;
+inline static constexpr unsigned int EAJGCKMEOMN_TypeDefinitionIndex = 59233;
 
 	class EAJGCKMEOMN
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class EnableFreelookCameraBattleTransitionMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLEKIJEHOAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA3880)
-#define GLEKIJEHOAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15AA3890)
-#define GLEKIJEHOAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AA38D0)
-#define GLEKIJEHOAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AA47F0)
-#define GLEKIJEHOAL_TICK_OFFSET UNITYSDK_OFFSET(0x15AA4840)
+#define GLEKIJEHOAL_CTOR_OFFSET UNITYSDK_OFFSET(0x16C5B970)
+#define GLEKIJEHOAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C5B980)
+#define GLEKIJEHOAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C5B9C0)
+#define GLEKIJEHOAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16C5C8F0)
+#define GLEKIJEHOAL_TICK_OFFSET UNITYSDK_OFFSET(0x16C5C940)
 
-inline static constexpr unsigned int GLEKIJEHOAL_TypeDefinitionIndex = 58105;
+inline static constexpr unsigned int GLEKIJEHOAL_TypeDefinitionIndex = 59344;
 
 	class GLEKIJEHOAL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::EnableFreelookCameraBattleTransitionMode* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::EnableFreelookCameraBattleTransitionMode* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnableFreelookCameraBattleTransitionMode* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::EnableFreelookCameraBattleTransitionMode*))((::PBYTE)hIl2Cpp + GLEKIJEHOAL_CTOR_OFFSET))(this, a1, a2);

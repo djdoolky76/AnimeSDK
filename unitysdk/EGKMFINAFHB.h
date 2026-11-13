@@ -6,17 +6,17 @@ class EGKMFINAFHB;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define EGKMFINAFHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD502E0)
-#define EGKMFINAFHB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD502F0)
-#define EGKMFINAFHB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD502B0)
+#define EGKMFINAFHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1F107B80)
+#define EGKMFINAFHB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F107B90)
+#define EGKMFINAFHB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F107B50)
 
-inline static constexpr unsigned int EGKMFINAFHB_TypeDefinitionIndex = 23159;
+inline static constexpr unsigned int EGKMFINAFHB_TypeDefinitionIndex = 23589;
 
 	class EGKMFINAFHB : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* BDEMOIAOHJC; // 0x18
-		::RPG::GameCore::DynamicFloat* KKCKMCDGCGK; // 0x20
+		::RPG::GameCore::DynamicFloat* KKCKMCDGCGK; // 0x18
+		::RPG::GameCore::DynamicFloat* BDEMOIAOHJC; // 0x20
 		::RPG::GameCore::SilverWolf999UltraSkillUIState MEPFOEEGBEA; // 0x28
 		::System::Void _ctor()
 		{

@@ -5,17 +5,17 @@ class BDPODLBIFOH;
 class GNOCLCNNAPD;
 namespace RPG::Client::B51Racing { class B51RacingInitCarSelectPageViewModel; }
 
-#define EGFHAJCOOPO___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14510F00)
-#define EGFHAJCOOPO___C__DISPLAYCLASS11_0__SHOWINITCARSELECTPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14512D30)
+#define EGFHAJCOOPO___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17C0C500)
+#define EGFHAJCOOPO___C__DISPLAYCLASS11_0__SHOWINITCARSELECTPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x17C0E330)
 
-inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass11_0_TypeDefinitionIndex = 81744;
+inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass11_0_TypeDefinitionIndex = 84525;
 
 	class EGFHAJCOOPO___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
 		::BDPODLBIFOH* transient; // 0x10
-		::GNOCLCNNAPD* sceneService; // 0x18
-		::RPG::Client::B51Racing::B51RacingInitCarSelectPageViewModel* vm; // 0x20
+		::RPG::Client::B51Racing::B51RacingInitCarSelectPageViewModel* vm; // 0x18
+		::GNOCLCNNAPD* sceneService; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGFHAJCOOPO___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);

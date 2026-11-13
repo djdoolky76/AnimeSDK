@@ -4,7 +4,7 @@ namespace R3 { template <typename T> class Observable_1; }
 
 namespace R3
 {
-	inline static constexpr unsigned int AppendPrepend_1_TypeDefinitionIndex = 35931;
+	inline static constexpr unsigned int AppendPrepend_1_TypeDefinitionIndex = 36859;
 
 	template <typename T>
 	class AppendPrepend_1

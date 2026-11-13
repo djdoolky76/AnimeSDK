@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class NpcSetupTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LFCINPECDNB_CTOR_OFFSET UNITYSDK_OFFSET(0xB65C820)
-#define LFCINPECDNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB65C850)
+#define LFCINPECDNB_CTOR_OFFSET UNITYSDK_OFFSET(0x18C41A20)
+#define LFCINPECDNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C41A50)
 
-inline static constexpr unsigned int LFCINPECDNB_TypeDefinitionIndex = 58236;
+inline static constexpr unsigned int LFCINPECDNB_TypeDefinitionIndex = 59492;
 
 	class LFCINPECDNB
 	{

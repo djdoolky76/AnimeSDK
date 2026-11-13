@@ -6,12 +6,12 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesItemData; }
 namespace Sofa::Core { template <typename T> class ObservableList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CPDKPMMIJNN_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0xDCCA030)
-#define CPDKPMMIJNN_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCA210)
-#define CPDKPMMIJNN_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xDCCA1F0)
-#define CPDKPMMIJNN_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xDCCA200)
+#define CPDKPMMIJNN_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1917B160)
+#define CPDKPMMIJNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1917B340)
+#define CPDKPMMIJNN_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1917B320)
+#define CPDKPMMIJNN_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1917B330)
 
-inline static constexpr unsigned int CPDKPMMIJNN_TypeDefinitionIndex = 81288;
+inline static constexpr unsigned int CPDKPMMIJNN_TypeDefinitionIndex = 84068;
 
 	class CPDKPMMIJNN : public ::System::Object
 	{

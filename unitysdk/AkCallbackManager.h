@@ -21,107 +21,107 @@ class AkMusicSyncCallbackInfo;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AKCALLBACKMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F553010)
-#define AKCALLBACKMANAGER_GET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x1F550030)
-#define AKCALLBACKMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1F550CB0)
-#define AKCALLBACKMANAGER_POSTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1F5514F0)
-#define AKCALLBACKMANAGER_REMOVEBANKCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F5506C0)
-#define AKCALLBACKMANAGER_REMOVEEVENTCALLBACKCOOKIE_OFFSET UNITYSDK_OFFSET(0x1F550390)
-#define AKCALLBACKMANAGER_REMOVEEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F5500A0)
-#define AKCALLBACKMANAGER_SETBGMCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F551420)
-#define AKCALLBACKMANAGER_SETLASTADDEDPLAYINGID_OFFSET UNITYSDK_OFFSET(0x1F550A20)
-#define AKCALLBACKMANAGER_SETMONITORINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F551250)
-#define AKCALLBACKMANAGER_SET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x1F550070)
-#define AKCALLBACKMANAGER_TERM_OFFSET UNITYSDK_OFFSET(0x1F550F10)
+#define AKCALLBACKMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF018F0)
+#define AKCALLBACKMANAGER_GET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x1EEFE910)
+#define AKCALLBACKMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1EEFF590)
+#define AKCALLBACKMANAGER_POSTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1EEFFDD0)
+#define AKCALLBACKMANAGER_REMOVEBANKCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EEFEFA0)
+#define AKCALLBACKMANAGER_REMOVEEVENTCALLBACKCOOKIE_OFFSET UNITYSDK_OFFSET(0x1EEFEC70)
+#define AKCALLBACKMANAGER_REMOVEEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EEFE980)
+#define AKCALLBACKMANAGER_SETBGMCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EEFFD00)
+#define AKCALLBACKMANAGER_SETLASTADDEDPLAYINGID_OFFSET UNITYSDK_OFFSET(0x1EEFF300)
+#define AKCALLBACKMANAGER_SETMONITORINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EEFFB30)
+#define AKCALLBACKMANAGER_SET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x1EEFE950)
+#define AKCALLBACKMANAGER_TERM_OFFSET UNITYSDK_OFFSET(0x1EEFF7F0)
 
-inline static constexpr unsigned int AkCallbackManager_TypeDefinitionIndex = 44822;
+inline static constexpr unsigned int AkCallbackManager_TypeDefinitionIndex = 45897;
 
 	class AkCallbackManager : public ::System::Object
 	{
 	public:
-		static ::AkAudioSourceChangeCallbackInfo** StaticGet_AkAudioSourceChangeCallbackInfo()
+		static ::AkMIDIEventCallbackInfo** StaticGet_AkMIDIEventCallbackInfo()
 		{
-			return (::AkAudioSourceChangeCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D50);
-		}
-
-		static ::AkDynamicSequenceItemCallbackInfo** StaticGet_AkDynamicSequenceItemCallbackInfo()
-		{
-			return (::AkDynamicSequenceItemCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D58);
-		}
-
-		static ::AkCallbackManager_MonitoringCallback** StaticGet_m_MonitoringCB()
-		{
-			return (::AkCallbackManager_MonitoringCallback**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D60);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>** StaticGet_m_mapEventCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D68);
+			return (::AkMIDIEventCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x708C0);
 		}
 
 		static ::AkCallbackManager_EventCallbackPackage** StaticGet_m_LastAddedEventPackage()
 		{
-			return (::AkCallbackManager_EventCallbackPackage**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D70);
-		}
-
-		static ::AkCallbackManager_BGMCallbackPackage** StaticGet_ms_sourceChangeCallbackPkg()
-		{
-			return (::AkCallbackManager_BGMCallbackPackage**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D78);
-		}
-
-		static ::AkMIDIEventCallbackInfo** StaticGet_AkMIDIEventCallbackInfo()
-		{
-			return (::AkMIDIEventCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D80);
+			return (::AkCallbackManager_EventCallbackPackage**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x708C8);
 		}
 
 		static ::AkEventCallbackInfo** StaticGet_AkEventCallbackInfo()
 		{
-			return (::AkEventCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D88);
+			return (::AkEventCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x708D0);
 		}
 
-		static ::AkMonitoringCallbackInfo** StaticGet_AkMonitoringCallbackInfo()
+		static ::AkCallbackManager_BGMCallbackPackage** StaticGet_ms_sourceChangeCallbackPkg()
 		{
-			return (::AkMonitoringCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D90);
-		}
-
-		static ::AkMusicSyncCallbackInfo** StaticGet_AkMusicSyncCallbackInfo()
-		{
-			return (::AkMusicSyncCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2D98);
+			return (::AkCallbackManager_BGMCallbackPackage**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x708D8);
 		}
 
 		static ::AkBankCallbackInfo** StaticGet_AkBankCallbackInfo()
 		{
-			return (::AkBankCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2DA0);
+			return (::AkBankCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x708E0);
 		}
 
 		static ::AkMarkerCallbackInfo** StaticGet_AkMarkerCallbackInfo()
 		{
-			return (::AkMarkerCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2DA8);
+			return (::AkMarkerCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x708E8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>** StaticGet_m_mapBankCallbacks()
+		static ::AkCallbackManager_MonitoringCallback** StaticGet_m_MonitoringCB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2DB0);
+			return (::AkCallbackManager_MonitoringCallback**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x708F0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>** StaticGet_m_mapEventCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x708F8);
+		}
+
+		static ::AkAudioSourceChangeCallbackInfo** StaticGet_AkAudioSourceChangeCallbackInfo()
+		{
+			return (::AkAudioSourceChangeCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x70900);
+		}
+
+		static ::AkMonitoringCallbackInfo** StaticGet_AkMonitoringCallbackInfo()
+		{
+			return (::AkMonitoringCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x70908);
 		}
 
 		static ::AkDurationCallbackInfo** StaticGet_AkDurationCallbackInfo()
 		{
-			return (::AkDurationCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2DB8);
+			return (::AkDurationCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x70910);
+		}
+
+		static ::AkDynamicSequenceItemCallbackInfo** StaticGet_AkDynamicSequenceItemCallbackInfo()
+		{
+			return (::AkDynamicSequenceItemCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x70918);
+		}
+
+		static ::AkMusicSyncCallbackInfo** StaticGet_AkMusicSyncCallbackInfo()
+		{
+			return (::AkMusicSyncCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x70920);
 		}
 
 		static ::AkMusicPlaylistCallbackInfo** StaticGet_AkMusicPlaylistCallbackInfo()
 		{
-			return (::AkMusicPlaylistCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2DC0);
+			return (::AkMusicPlaylistCallbackInfo**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x70928);
 		}
 
-		static ::System::IntPtr* StaticGet_m_pNotifMem()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>** StaticGet_m_mapBankCallbacks()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2300);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x70930);
 		}
 
 		static ::System::Boolean* StaticGet__IsLoggingEnabled_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x2308);
+			return (::System::Boolean*)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x15940);
+		}
+
+		static ::System::IntPtr* StaticGet_m_pNotifMem()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("", "AkCallbackManager")->GetStaticField(0x15948);
 		}
 
 		static ::System::Void _cctor()

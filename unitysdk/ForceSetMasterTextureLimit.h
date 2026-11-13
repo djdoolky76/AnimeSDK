@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define FORCESETMASTERTEXTURELIMIT_CTOR_OFFSET UNITYSDK_OFFSET(0x15928D40)
-#define FORCESETMASTERTEXTURELIMIT_GIFENDBHOIH_OFFSET UNITYSDK_OFFSET(0x15928CF0)
+#define FORCESETMASTERTEXTURELIMIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B864130)
+#define FORCESETMASTERTEXTURELIMIT_GIFENDBHOIH_OFFSET UNITYSDK_OFFSET(0x1B8640E0)
 
-inline static constexpr unsigned int ForceSetMasterTextureLimit_TypeDefinitionIndex = 47589;
+inline static constexpr unsigned int ForceSetMasterTextureLimit_TypeDefinitionIndex = 48618;
 
 	class ForceSetMasterTextureLimit : public ::UnityEngine::MonoBehaviour
 	{

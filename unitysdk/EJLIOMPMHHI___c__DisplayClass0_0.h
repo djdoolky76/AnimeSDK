@@ -6,20 +6,20 @@ class HGCEOEHGPPE;
 class NMJLMAOJEHN;
 namespace System { class String; }
 
-#define EJLIOMPMHHI___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154D7C00)
-#define EJLIOMPMHHI___C__DISPLAYCLASS0_0__ADDAPPLYPREDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x154DE6E0)
-#define EJLIOMPMHHI___C__DISPLAYCLASS0_0__ADDAPPLYPREDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0x154DE640)
-#define EJLIOMPMHHI___C__DISPLAYCLASS0_0__ADDAPPLYPREDOWNLOAD_B__2_OFFSET UNITYSDK_OFFSET(0x154DE720)
+#define EJLIOMPMHHI___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19ABA300)
+#define EJLIOMPMHHI___C__DISPLAYCLASS0_0__ADDAPPLYPREDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x19AC0E60)
+#define EJLIOMPMHHI___C__DISPLAYCLASS0_0__ADDAPPLYPREDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0x19AC0DC0)
+#define EJLIOMPMHHI___C__DISPLAYCLASS0_0__ADDAPPLYPREDOWNLOAD_B__2_OFFSET UNITYSDK_OFFSET(0x19AC0EA0)
 
-inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass0_0_TypeDefinitionIndex = 59563;
+inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass0_0_TypeDefinitionIndex = 60840;
 
 	class EJLIOMPMHHI___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::String* pathDestRoot; // 0x10
-		::EJLIOMPMHHI* __4__this; // 0x18
-		::System::String* pathSrcRoot; // 0x20
-		::NMJLMAOJEHN* progress; // 0x28
+		::NMJLMAOJEHN* progress; // 0x10
+		::System::String* pathDestRoot; // 0x18
+		::EJLIOMPMHHI* __4__this; // 0x20
+		::System::String* pathSrcRoot; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJLIOMPMHHI___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

@@ -7,8 +7,8 @@ namespace System::Net { class Authorization; }
 namespace System::Net { class ICredentials; }
 namespace System::Net { class WebRequest; }
 
-#define MONO_HTTP_NTLMSESSION_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1EF8CB10)
-#define MONO_HTTP_NTLMSESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8D1A0)
+#define MONO_HTTP_NTLMSESSION_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1DAE03F0)
+#define MONO_HTTP_NTLMSESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE0A80)
 
 namespace Mono::Http
 {

@@ -6,10 +6,10 @@ class EBGGEOGBOGN;
 class OKIBHNGFOLI;
 namespace RPG::Client { class UIController; }
 
-#define BKOIFJEOHOF_CTOR_OFFSET UNITYSDK_OFFSET(0xBA5EA90)
-#define BKOIFJEOHOF_PFBGMPJELCL_OFFSET UNITYSDK_OFFSET(0xBA5EAA0)
+#define BKOIFJEOHOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A670640)
+#define BKOIFJEOHOF_PFBGMPJELCL_OFFSET UNITYSDK_OFFSET(0x1A670650)
 
-inline static constexpr unsigned int BKOIFJEOHOF_TypeDefinitionIndex = 82103;
+inline static constexpr unsigned int BKOIFJEOHOF_TypeDefinitionIndex = 84976;
 
 	class BKOIFJEOHOF : public ::System::Object
 	{

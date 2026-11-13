@@ -4,18 +4,18 @@
 class GAEBCDPICNH;
 namespace System { class Object; }
 
-#define GAEBCDPICNH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3EAB00)
-#define GAEBCDPICNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3EAB40)
-#define GAEBCDPICNH___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E3EAB50)
+#define GAEBCDPICNH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBA3410)
+#define GAEBCDPICNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBA3450)
+#define GAEBCDPICNH___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FBA3460)
 
-inline static constexpr unsigned int GAEBCDPICNH___c_TypeDefinitionIndex = 26153;
+inline static constexpr unsigned int GAEBCDPICNH___c_TypeDefinitionIndex = 26680;
 
 	class GAEBCDPICNH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54A20);
 		}
 
 		static ::System::Void _cctor()

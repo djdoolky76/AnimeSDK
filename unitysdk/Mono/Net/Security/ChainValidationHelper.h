@@ -18,16 +18,16 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1EF96840)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF96440)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EF96A50)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1EF963D0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1EF96BA0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EF96BB0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1EF96EB0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EF96C00)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET UNITYSDK_OFFSET(0x1EF97030)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET UNITYSDK_OFFSET(0x1EF96DE0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1DAEA210)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE9E10)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1DAEA420)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1DAE9DA0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1DAEA570)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1DAEA580)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1DAEA880)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1DAEA5D0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET UNITYSDK_OFFSET(0x1DAEAA00)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET UNITYSDK_OFFSET(0x1DAEA7B0)
 
 namespace Mono::Net::Security
 {
@@ -36,14 +36,14 @@ namespace Mono::Net::Security
 	class ChainValidationHelper : public ::System::Object
 	{
 	public:
-		::System::Net::ServerCertValidationCallback* certValidationCallback; // 0x10
-		::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper; // 0x18
-		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x20
-		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x28
+		::System::Net::HttpWebRequest* request; // 0x10
+		::System::Net::ServerCertValidationCallback* certValidationCallback; // 0x18
+		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x20
+		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x28
 		::System::Object* sender; // 0x30
-		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x38
-		::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback; // 0x40
-		::System::Net::HttpWebRequest* request; // 0x48
+		::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback; // 0x38
+		::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper; // 0x40
+		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x48
 		::System::Void _ctor(::Mono::Security::Interface::MonoTlsProvider* a1, ::Mono::Security::Interface::MonoTlsSettings* a2, ::System::Boolean a3, ::Mono::Net::Security::MonoTlsStream* a4, ::Mono::Net::Security::ServerCertValidationCallbackWrapper* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*, ::System::Boolean, ::Mono::Net::Security::MonoTlsStream*, ::Mono::Net::Security::ServerCertValidationCallbackWrapper*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueCurrentSkillUseParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KPJLPELJDAM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BA4F0)
-#define KPJLPELJDAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5BA5D0)
+#define KPJLPELJDAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1912AD00)
+#define KPJLPELJDAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1912ADE0)
 
-inline static constexpr unsigned int KPJLPELJDAM_TypeDefinitionIndex = 55482;
+inline static constexpr unsigned int KPJLPELJDAM_TypeDefinitionIndex = 56670;
 
 	class KPJLPELJDAM
 	{

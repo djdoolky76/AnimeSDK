@@ -4,18 +4,18 @@
 class HPHANFONFPF;
 namespace System { class Object; }
 
-#define HPHANFONFPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5C9750)
-#define HPHANFONFPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C9780)
-#define HPHANFONFPF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5C9790)
+#define HPHANFONFPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2004C7F0)
+#define HPHANFONFPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2004C820)
+#define HPHANFONFPF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2004C830)
 
-inline static constexpr unsigned int HPHANFONFPF___c_TypeDefinitionIndex = 30403;
+inline static constexpr unsigned int HPHANFONFPF___c_TypeDefinitionIndex = 31309;
 
 	class HPHANFONFPF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EC10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FA70);
 		}
 
 		static ::System::Void _cctor()

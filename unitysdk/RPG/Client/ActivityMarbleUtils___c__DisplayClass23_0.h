@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC553980)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS23_0__OPENMARBLEMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xC553DB0)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS23_0__OPENMARBLEMAINPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xC553F40)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C804AD0)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS23_0__OPENMARBLEMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1C804F00)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS23_0__OPENMARBLEMAINPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x1C805090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass23_0_TypeDefinitionIndex = 65796;
+	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass23_0_TypeDefinitionIndex = 67728;
 
 	class ActivityMarbleUtils___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onFinish; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::System::Action* onFinish; // 0x18
 		::System::UInt32 tabID; // 0x20
 		::System::Void _ctor()
 		{

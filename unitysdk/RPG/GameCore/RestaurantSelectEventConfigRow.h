@@ -6,21 +6,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantSelectEventConfigRow; }
 
-#define RPG_GAMECORE_RESTAURANTSELECTEVENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D968A60)
-#define RPG_GAMECORE_RESTAURANTSELECTEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9687F0)
+#define RPG_GAMECORE_RESTAURANTSELECTEVENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2072CEC0)
+#define RPG_GAMECORE_RESTAURANTSELECTEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2072CC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantSelectEventConfigRow_TypeDefinitionIndex = 11386;
+	inline static constexpr unsigned int RestaurantSelectEventConfigRow_TypeDefinitionIndex = 11437;
 
 	class RestaurantSelectEventConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 OpEffect1; // 0x10
+		::RPG::GameCore::RestaurantSelectEventBubbleType Type; // 0x10
 		::System::UInt32 SelectEventID; // 0x14
-		::System::UInt32 OpEffect2; // 0x18
+		::System::UInt32 OpEffect1; // 0x18
 		::System::UInt32 ContactsID; // 0x1C
-		::RPG::GameCore::RestaurantSelectEventBubbleType Type; // 0x20
+		::System::UInt32 OpEffect2; // 0x20
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Describe; // 0x28
 		::System::Void _ctor()

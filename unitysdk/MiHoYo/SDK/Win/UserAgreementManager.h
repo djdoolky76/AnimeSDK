@@ -5,21 +5,21 @@ namespace MiHoYo::SDK::Win { class UserAgreementManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDD69B0)
-#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD69A0)
-#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_1_OFFSET UNITYSDK_OFFSET(0x1BDD6990)
-#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x1BDD6980)
+#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x19621A20)
+#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x19621A10)
+#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_1_OFFSET UNITYSDK_OFFSET(0x19621A00)
+#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x196219F0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int UserAgreementManager_TypeDefinitionIndex = 9373;
+	inline static constexpr unsigned int UserAgreementManager_TypeDefinitionIndex = 9381;
 
 	class UserAgreementManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::UserAgreementManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::UserAgreementManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "UserAgreementManager")->GetStaticField(0x2F560);
+			return (::MiHoYo::SDK::Win::UserAgreementManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "UserAgreementManager")->GetStaticField(0x222D0);
 		}
 
 		::System::Void _ctor()

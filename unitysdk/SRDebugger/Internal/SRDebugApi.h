@@ -4,7 +4,7 @@
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int SRDebugApi_TypeDefinitionIndex = 38096;
+	inline static constexpr unsigned int SRDebugApi_TypeDefinitionIndex = 39025;
 
 	class SRDebugApi : public ::System::Object
 	{

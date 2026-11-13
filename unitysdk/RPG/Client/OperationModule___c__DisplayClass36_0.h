@@ -4,19 +4,19 @@
 class GHHJNCOAIJF;
 namespace System { class String; }
 
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA099E0)
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xDA0C1D0)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF07980)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0x1BF0A1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OperationModule___c__DisplayClass36_0_TypeDefinitionIndex = 66420;
+	inline static constexpr unsigned int OperationModule___c__DisplayClass36_0_TypeDefinitionIndex = 68356;
 
 	class OperationModule___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::GHHJNCOAIJF* req; // 0x10
-		::System::String* appID; // 0x18
-		::System::String* authKeyVer; // 0x20
+		::System::String* appID; // 0x10
+		::System::String* authKeyVer; // 0x18
+		::GHHJNCOAIJF* req; // 0x20
 		::System::String* signType; // 0x28
 		::System::Void _ctor()
 		{

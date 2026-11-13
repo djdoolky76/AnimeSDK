@@ -3,10 +3,10 @@
 #include "unitysdk/KKHEJKOOOKG.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PropMoveState.h"
 
-#define BDPNIDCKBON_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x162FAB20)
-#define BDPNIDCKBON_CTOR_OFFSET UNITYSDK_OFFSET(0x162FAD80)
+#define BDPNIDCKBON_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x1A928CF0)
+#define BDPNIDCKBON_CTOR_OFFSET UNITYSDK_OFFSET(0x1A928F80)
 
-inline static constexpr unsigned int BDPNIDCKBON_TypeDefinitionIndex = 77038;
+inline static constexpr unsigned int BDPNIDCKBON_TypeDefinitionIndex = 79372;
 
 	class BDPNIDCKBON : public ::KKHEJKOOOKG
 	{

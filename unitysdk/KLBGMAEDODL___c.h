@@ -4,18 +4,18 @@
 class KLBGMAEDODL;
 namespace System { class Object; }
 
-#define KLBGMAEDODL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E855E60)
-#define KLBGMAEDODL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E855EA0)
-#define KLBGMAEDODL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E855EB0)
+#define KLBGMAEDODL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFF4BB0)
+#define KLBGMAEDODL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFF4BF0)
+#define KLBGMAEDODL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FFF4C00)
 
-inline static constexpr unsigned int KLBGMAEDODL___c_TypeDefinitionIndex = 33574;
+inline static constexpr unsigned int KLBGMAEDODL___c_TypeDefinitionIndex = 34489;
 
 	class KLBGMAEDODL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D040);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18D30);
 		}
 
 		static ::System::Void _cctor()

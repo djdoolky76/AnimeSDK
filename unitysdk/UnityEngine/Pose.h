@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_POSE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3E0A10)
-#define UNITYENGINE_POSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A660)
-#define UNITYENGINE_POSE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C71F60)
-#define UNITYENGINE_POSE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C71E80)
-#define UNITYENGINE_POSE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C71FF0)
-#define UNITYENGINE_POSE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C71E70)
+#define UNITYENGINE_POSE_CCTOR_OFFSET UNITYSDK_OFFSET(0x203DF060)
+#define UNITYENGINE_POSE_CTOR_OFFSET UNITYSDK_OFFSET(0x3E94620)
+#define UNITYENGINE_POSE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3F6BCD0)
+#define UNITYENGINE_POSE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3F6BBF0)
+#define UNITYENGINE_POSE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3F6BD60)
+#define UNITYENGINE_POSE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3F6BBE0)
 
 namespace UnityEngine
 {
@@ -22,7 +22,7 @@ namespace UnityEngine
 		::UnityEngine::Quaternion rotation; // 0x1C
 		static ::UnityEngine::Pose* StaticGet_k_Identity()
 		{
-			return (::UnityEngine::Pose*)UnitySDK::FromName("UnityEngine", "Pose")->GetStaticField(0x3D30);
+			return (::UnityEngine::Pose*)UnitySDK::FromName("UnityEngine", "Pose")->GetStaticField(0x3620);
 		}
 
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)

@@ -6,18 +6,18 @@ namespace RPG::Client { class RPGAnimationEvent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 
-#define FJJDEHFCIIL_BCBKCCIEEGK_OFFSET UNITYSDK_OFFSET(0x157C6690)
-#define FJJDEHFCIIL_CTOR_OFFSET UNITYSDK_OFFSET(0x157C67F0)
-#define FJJDEHFCIIL_HDPGCOKHMDC_OFFSET UNITYSDK_OFFSET(0x157C66E0)
-#define FJJDEHFCIIL__ONBIND_OFFSET UNITYSDK_OFFSET(0x157C6500)
+#define FJJDEHFCIIL_BCBKCCIEEGK_OFFSET UNITYSDK_OFFSET(0x1AA7ACF0)
+#define FJJDEHFCIIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA7AE50)
+#define FJJDEHFCIIL_HDPGCOKHMDC_OFFSET UNITYSDK_OFFSET(0x1AA7AD40)
+#define FJJDEHFCIIL__ONBIND_OFFSET UNITYSDK_OFFSET(0x1AA7A790)
 
-inline static constexpr unsigned int FJJDEHFCIIL_TypeDefinitionIndex = 71446;
+inline static constexpr unsigned int FJJDEHFCIIL_TypeDefinitionIndex = 73428;
 
 	class FJJDEHFCIIL : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::RPGAnimationEvent* MEDGLNFKGDC; // 0x60
-		::UnityEngine::Animation* JPHOOFFIAAH; // 0x68
+		::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
+		::RPG::Client::RPGAnimationEvent* MEDGLNFKGDC; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FJJDEHFCIIL_CTOR_OFFSET))(this);

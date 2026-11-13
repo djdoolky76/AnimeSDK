@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShowPhaseUI; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWPHASEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB4E10)
-#define RPG_GAMECORE_SHOWPHASEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB4E20)
-#define RPG_GAMECORE_SHOWPHASEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB4DE0)
+#define RPG_GAMECORE_SHOWPHASEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EDF00)
+#define RPG_GAMECORE_SHOWPHASEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3EDF10)
+#define RPG_GAMECORE_SHOWPHASEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3EDED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowPhaseUI_TypeDefinitionIndex = 23686;
+	inline static constexpr unsigned int ShowPhaseUI_TypeDefinitionIndex = 24141;
 
 	class ShowPhaseUI : public ::RPG::GameCore::TaskConfig
 	{

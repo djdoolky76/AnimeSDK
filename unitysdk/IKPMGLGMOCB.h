@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetDitherGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IKPMGLGMOCB_CTOR_OFFSET UNITYSDK_OFFSET(0x16493330)
-#define IKPMGLGMOCB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16493340)
-#define IKPMGLGMOCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16493380)
-#define IKPMGLGMOCB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16493540)
-#define IKPMGLGMOCB_TICK_OFFSET UNITYSDK_OFFSET(0x16493590)
+#define IKPMGLGMOCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B582830)
+#define IKPMGLGMOCB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B582840)
+#define IKPMGLGMOCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B582880)
+#define IKPMGLGMOCB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B582A40)
+#define IKPMGLGMOCB_TICK_OFFSET UNITYSDK_OFFSET(0x1B582A90)
 
-inline static constexpr unsigned int IKPMGLGMOCB_TypeDefinitionIndex = 53881;
+inline static constexpr unsigned int IKPMGLGMOCB_TypeDefinitionIndex = 55045;
 
 	class IKPMGLGMOCB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetDitherGroup* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetDitherGroup* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDitherGroup* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDitherGroup*))((::PBYTE)hIl2Cpp + IKPMGLGMOCB_CTOR_OFFSET))(this, a1, a2);

@@ -6,10 +6,10 @@ class CIBFGDIDPJB;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define CIBFGDIDPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBE67B0)
-#define CIBFGDIDPJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBE6490)
+#define CIBFGDIDPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x115FA330)
+#define CIBFGDIDPJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x115F9FF0)
 
-inline static constexpr unsigned int CIBFGDIDPJB_TypeDefinitionIndex = 14411;
+inline static constexpr unsigned int CIBFGDIDPJB_TypeDefinitionIndex = 14568;
 
 	class CIBFGDIDPJB : public ::System::Object
 	{
@@ -17,13 +17,13 @@ inline static constexpr unsigned int CIBFGDIDPJB_TypeDefinitionIndex = 14411;
 		::System::String* HCDCEPGEMKD; // 0x10
 		::System::String* HFKHMNJPGMI; // 0x18
 		::System::Single EMNHIJAIMBE; // 0x20
-		::System::UInt32 AILMCDDKIFO; // 0x24
-		::System::UInt32 BEOFPCAACEP; // 0x28
-		::System::UInt32 FMLGGKAFMKC; // 0x2C
-		::RPG::GameCore::PetDiySlotType MPADIDFJBEF; // 0x30
-		::System::UInt32 DGIPOMANFEM; // 0x34
-		::System::UInt32 OBOMNIHKHMM; // 0x38
-		::System::UInt32 LLDCHLHNADA; // 0x3C
+		::System::UInt32 OBOMNIHKHMM; // 0x24
+		::System::UInt32 FMLGGKAFMKC; // 0x28
+		::RPG::GameCore::PetDiySlotType MPADIDFJBEF; // 0x2C
+		::System::UInt32 BEOFPCAACEP; // 0x30
+		::System::UInt32 LLDCHLHNADA; // 0x34
+		::System::UInt32 AILMCDDKIFO; // 0x38
+		::System::UInt32 DGIPOMANFEM; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIBFGDIDPJB_CTOR_OFFSET))(this);

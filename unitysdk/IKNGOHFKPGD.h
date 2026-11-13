@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define IKNGOHFKPGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1648FA70)
+#define IKNGOHFKPGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B57F060)
 
-inline static constexpr unsigned int IKNGOHFKPGD_TypeDefinitionIndex = 48814;
+inline static constexpr unsigned int IKNGOHFKPGD_TypeDefinitionIndex = 49860;
 
 	class IKNGOHFKPGD : public ::UnityEngine::Playables::PlayableBehaviour
 	{

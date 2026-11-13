@@ -3,10 +3,10 @@
 class MDPECFMPBMH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PNNFCILFPFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC348580)
-#define PNNFCILFPFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3485B0)
+#define PNNFCILFPFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x184C6F20)
+#define PNNFCILFPFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184C6F50)
 
-inline static constexpr unsigned int PNNFCILFPFJ_TypeDefinitionIndex = 54164;
+inline static constexpr unsigned int PNNFCILFPFJ_TypeDefinitionIndex = 55328;
 
 	class PNNFCILFPFJ
 	{

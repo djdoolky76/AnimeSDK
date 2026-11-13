@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageVoxelDataIndex; }
 namespace RPG::GameCore { class StageVoxelMetaData; }
 
-#define RPG_GAMECORE_STAGEVOXELMETADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEA0B0)
-#define RPG_GAMECORE_STAGEVOXELMETADATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEA000)
+#define RPG_GAMECORE_STAGEVOXELMETADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3BD0C0)
+#define RPG_GAMECORE_STAGEVOXELMETADATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3BD010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVoxelMetaData_TypeDefinitionIndex = 19154;
+	inline static constexpr unsigned int StageVoxelMetaData_TypeDefinitionIndex = 19344;
 
 	class StageVoxelMetaData : public ::RPG::GameCore::JsonConfig
 	{

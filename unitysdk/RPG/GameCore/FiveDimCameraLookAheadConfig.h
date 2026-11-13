@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimCameraLookAheadConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_FIVEDIMCAMERALOOKAHEADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D686620)
-#define RPG_GAMECORE_FIVEDIMCAMERALOOKAHEADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D686230)
+#define RPG_GAMECORE_FIVEDIMCAMERALOOKAHEADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E853890)
+#define RPG_GAMECORE_FIVEDIMCAMERALOOKAHEADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8534A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCameraLookAheadConfig_TypeDefinitionIndex = 18615;
+	inline static constexpr unsigned int FiveDimCameraLookAheadConfig_TypeDefinitionIndex = 18775;
 
 	class FiveDimCameraLookAheadConfig : public ::RPG::GameCore::JsonConfig
 	{

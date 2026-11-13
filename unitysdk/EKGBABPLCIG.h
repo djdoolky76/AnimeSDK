@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define EKGBABPLCIG_CTOR_OFFSET UNITYSDK_OFFSET(0x154F9BD0)
+#define EKGBABPLCIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1998F090)
 
-inline static constexpr unsigned int EKGBABPLCIG_TypeDefinitionIndex = 75822;
+inline static constexpr unsigned int EKGBABPLCIG_TypeDefinitionIndex = 78149;
 
 	class EKGBABPLCIG
 	{

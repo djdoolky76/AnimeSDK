@@ -6,32 +6,32 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ABIFFCKLEOF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C552A50)
-#define ABIFFCKLEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C552A40)
-#define ABIFFCKLEOF_EBKOAAPDLOD_OFFSET UNITYSDK_OFFSET(0x1C552730)
-#define ABIFFCKLEOF_ICDGPECDPFO_OFFSET UNITYSDK_OFFSET(0x1C5527A0)
-#define ABIFFCKLEOF_MEBPCCPOMHK_1_OFFSET UNITYSDK_OFFSET(0x1C5528D0)
-#define ABIFFCKLEOF_MEBPCCPOMHK_2_OFFSET UNITYSDK_OFFSET(0x1C552980)
-#define ABIFFCKLEOF_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x1C552820)
+#define ABIFFCKLEOF_CCTOR_OFFSET UNITYSDK_OFFSET(0x16FEEC80)
+#define ABIFFCKLEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x16FEEC70)
+#define ABIFFCKLEOF_EBKOAAPDLOD_OFFSET UNITYSDK_OFFSET(0x16FEE960)
+#define ABIFFCKLEOF_ICDGPECDPFO_OFFSET UNITYSDK_OFFSET(0x16FEE9D0)
+#define ABIFFCKLEOF_MEBPCCPOMHK_1_OFFSET UNITYSDK_OFFSET(0x16FEEB00)
+#define ABIFFCKLEOF_MEBPCCPOMHK_2_OFFSET UNITYSDK_OFFSET(0x16FEEBB0)
+#define ABIFFCKLEOF_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x16FEEA50)
 
-inline static constexpr unsigned int ABIFFCKLEOF_TypeDefinitionIndex = 37006;
+inline static constexpr unsigned int ABIFFCKLEOF_TypeDefinitionIndex = 37934;
 
 	class ABIFFCKLEOF : public ::System::Object
 	{
 	public:
 		static ::System::Single* StaticGet_LCHEBJKNFNF()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x148D0);
+			return (::System::Single*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x14C50);
 		}
 
 		static ::System::Guid* StaticGet_ALCCFEHEOBN()
 		{
-			return (::System::Guid*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x148D4);
+			return (::System::Guid*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x14C54);
 		}
 
 		static ::RPG::MVector3* StaticGet_EMHOCDLFGBN()
 		{
-			return (::RPG::MVector3*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x148E4);
+			return (::RPG::MVector3*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x14C64);
 		}
 
 		// static const ::System::Object GONCEDKMGHL; // 0x0

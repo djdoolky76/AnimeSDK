@@ -4,10 +4,10 @@
 class HPOJGFBONKL;
 namespace RPG::GameCore { class TextDynamicParamBase; }
 
-#define FKHAHMBIFHK_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x157E8130)
-#define FKHAHMBIFHK_CTOR_OFFSET UNITYSDK_OFFSET(0x157E8220)
+#define FKHAHMBIFHK_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x1AA9E950)
+#define FKHAHMBIFHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA9EA40)
 
-inline static constexpr unsigned int FKHAHMBIFHK_TypeDefinitionIndex = 64158;
+inline static constexpr unsigned int FKHAHMBIFHK_TypeDefinitionIndex = 65603;
 
 	class FKHAHMBIFHK : public ::System::Object
 	{

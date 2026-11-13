@@ -7,18 +7,18 @@ class IKIJNECGDFB;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define IKIJNECGDFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEEE7A0)
-#define IKIJNECGDFB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEEE7B0)
-#define IKIJNECGDFB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEEE770)
+#define IKIJNECGDFB_CTOR_OFFSET UNITYSDK_OFFSET(0xC993560)
+#define IKIJNECGDFB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0xC993570)
+#define IKIJNECGDFB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC993530)
 
-inline static constexpr unsigned int IKIJNECGDFB_TypeDefinitionIndex = 22409;
+inline static constexpr unsigned int IKIJNECGDFB_TypeDefinitionIndex = 22818;
 
 	class IKIJNECGDFB : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::GOCOEDLLDFP*>* FCPLACGGGKP; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* JMBDGIALBEN; // 0x18
 		::System::String* FKODHMAJOAB; // 0x20
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* JMBDGIALBEN; // 0x28
+		::Il2CppArray<::GOCOEDLLDFP*>* FCPLACGGGKP; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKIJNECGDFB_CTOR_OFFSET))(this);

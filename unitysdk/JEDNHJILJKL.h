@@ -4,10 +4,10 @@
 namespace RPG::Client { class ActivityRewardCountCollection; }
 namespace RPG::Client { class ActivityRewardCountData; }
 
-#define JEDNHJILJKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1660EA20)
-#define JEDNHJILJKL_HBGAMHIEDJC_OFFSET UNITYSDK_OFFSET(0x1660EA70)
+#define JEDNHJILJKL_CTOR_OFFSET UNITYSDK_OFFSET(0x13063570)
+#define JEDNHJILJKL_HBGAMHIEDJC_OFFSET UNITYSDK_OFFSET(0x130635C0)
 
-inline static constexpr unsigned int JEDNHJILJKL_TypeDefinitionIndex = 61788;
+inline static constexpr unsigned int JEDNHJILJKL_TypeDefinitionIndex = 63194;
 
 	class JEDNHJILJKL : public ::System::Object
 	{

@@ -7,20 +7,20 @@ class LEMHHFCGFFH;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LHHOJMMEEBH_AMLBGOFAJKA_OFFSET UNITYSDK_OFFSET(0xB6ACB80)
-#define LHHOJMMEEBH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6AD4E0)
-#define LHHOJMMEEBH_DHLBOBFAACE_OFFSET UNITYSDK_OFFSET(0xB6AC830)
-#define LHHOJMMEEBH_LDGOLILCBMI_OFFSET UNITYSDK_OFFSET(0xB6ACAD0)
-#define LHHOJMMEEBH_MNGLDJAECFP_OFFSET UNITYSDK_OFFSET(0xB6AD290)
+#define LHHOJMMEEBH_AMLBGOFAJKA_OFFSET UNITYSDK_OFFSET(0x1BCC5400)
+#define LHHOJMMEEBH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCC5D60)
+#define LHHOJMMEEBH_DHLBOBFAACE_OFFSET UNITYSDK_OFFSET(0x1BCC50B0)
+#define LHHOJMMEEBH_LDGOLILCBMI_OFFSET UNITYSDK_OFFSET(0x1BCC5350)
+#define LHHOJMMEEBH_MNGLDJAECFP_OFFSET UNITYSDK_OFFSET(0x1BCC5B10)
 
-inline static constexpr unsigned int LHHOJMMEEBH_TypeDefinitionIndex = 72938;
+inline static constexpr unsigned int LHHOJMMEEBH_TypeDefinitionIndex = 75048;
 
 	class LHHOJMMEEBH : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::UISymbolFilterType, ::LEMHHFCGFFH*>** StaticGet_LNPAHCPDHPD()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::UISymbolFilterType, ::LEMHHFCGFFH*>**)UnitySDK::FromName("", "LHHOJMMEEBH")->GetStaticField(0x631F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::UISymbolFilterType, ::LEMHHFCGFFH*>**)UnitySDK::FromName("", "LHHOJMMEEBH")->GetStaticField(0x66C00);
 		}
 
 		static ::System::Void _cctor()

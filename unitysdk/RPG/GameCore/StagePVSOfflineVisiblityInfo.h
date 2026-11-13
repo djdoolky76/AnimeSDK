@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StagePVSOfflineVisiblityInfo; }
 
-#define RPG_GAMECORE_STAGEPVSOFFLINEVISIBLITYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE50D0)
-#define RPG_GAMECORE_STAGEPVSOFFLINEVISIBLITYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE4C70)
+#define RPG_GAMECORE_STAGEPVSOFFLINEVISIBLITYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B8530)
+#define RPG_GAMECORE_STAGEPVSOFFLINEVISIBLITYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B80D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePVSOfflineVisiblityInfo_TypeDefinitionIndex = 19182;
+	inline static constexpr unsigned int StagePVSOfflineVisiblityInfo_TypeDefinitionIndex = 19372;
 
 	class StagePVSOfflineVisiblityInfo : public ::RPG::GameCore::JsonConfig
 	{

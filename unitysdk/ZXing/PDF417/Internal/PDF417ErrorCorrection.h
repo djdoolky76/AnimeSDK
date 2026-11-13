@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ZXING_PDF417_INTERNAL_PDF417ERRORCORRECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F69DB80)
-#define ZXING_PDF417_INTERNAL_PDF417ERRORCORRECTION_GENERATEERRORCORRECTION_OFFSET UNITYSDK_OFFSET(0x1F69D140)
-#define ZXING_PDF417_INTERNAL_PDF417ERRORCORRECTION_GETERRORCORRECTIONCODEWORDCOUNT_OFFSET UNITYSDK_OFFSET(0x1F69C510)
+#define ZXING_PDF417_INTERNAL_PDF417ERRORCORRECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x17A97F80)
+#define ZXING_PDF417_INTERNAL_PDF417ERRORCORRECTION_GENERATEERRORCORRECTION_OFFSET UNITYSDK_OFFSET(0x17A97570)
+#define ZXING_PDF417_INTERNAL_PDF417ERRORCORRECTION_GETERRORCORRECTIONCODEWORDCOUNT_OFFSET UNITYSDK_OFFSET(0x17A96940)
 
 namespace ZXing::PDF417::Internal
 {
-	inline static constexpr unsigned int PDF417ErrorCorrection_TypeDefinitionIndex = 7030;
+	inline static constexpr unsigned int PDF417ErrorCorrection_TypeDefinitionIndex = 7041;
 
 	class PDF417ErrorCorrection : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_EC_COEFFICIENTS()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.PDF417.Internal", "PDF417ErrorCorrection")->GetStaticField(0x46710);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.PDF417.Internal", "PDF417ErrorCorrection")->GetStaticField(0x2B000);
 		}
 
 		static ::System::Void _cctor()

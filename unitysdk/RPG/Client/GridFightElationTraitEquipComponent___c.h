@@ -7,67 +7,73 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD100B50)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD100B90)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__CANCRAFTTO_B__13_0_OFFSET UNITYSDK_OFFSET(0xD100BB0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__CRAFTTO_B__14_0_OFFSET UNITYSDK_OFFSET(0xD100BD0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__GETCRAFTTOCOMBINATION_B__15_0_OFFSET UNITYSDK_OFFSET(0xD100BF0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__GET_ISFULL_B__7_0_OFFSET UNITYSDK_OFFSET(0xD100BA0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__INITCONFIG_B__23_0_OFFSET UNITYSDK_OFFSET(0xD100C10)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__UPDATE_B__24_0_OFFSET UNITYSDK_OFFSET(0xD100C60)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__UPDATE_B__24_1_OFFSET UNITYSDK_OFFSET(0xD100C80)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__UPDATE_B__24_2_OFFSET UNITYSDK_OFFSET(0xD100CE0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D167AA0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D167AE0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__CANCRAFTTO_B__13_0_OFFSET UNITYSDK_OFFSET(0x1D167B00)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__CRAFTTO_B__14_0_OFFSET UNITYSDK_OFFSET(0x1D167BA0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__GETCRAFTTOCOMBINATION_B__15_0_OFFSET UNITYSDK_OFFSET(0x1D167BC0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__GET_BASICEQUIPITEMDATAS_B__34_0_OFFSET UNITYSDK_OFFSET(0x1D168270)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__GET_ISFULL_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D167AF0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__INITCONFIG_B__23_0_OFFSET UNITYSDK_OFFSET(0x1D167BE0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__UPDATE_B__24_0_OFFSET UNITYSDK_OFFSET(0x1D1681D0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__UPDATE_B__24_1_OFFSET UNITYSDK_OFFSET(0x1D1681F0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__UPDATE_B__24_2_OFFSET UNITYSDK_OFFSET(0x1D168250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightElationTraitEquipComponent___c_TypeDefinitionIndex = 65369;
+	inline static constexpr unsigned int GridFightElationTraitEquipComponent___c_TypeDefinitionIndex = 67162;
 
 	class GridFightElationTraitEquipComponent___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B40);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AB0);
 		}
 
 		static ::System::Func_2<::FHCEIOHLADG*, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__24_1()
 		{
-			return (::System::Func_2<::FHCEIOHLADG*, ::RPG::Client::GridFightEquipItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B48);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__15_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B50);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__23_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B58);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B60);
+			return (::System::Func_2<::FHCEIOHLADG*, ::RPG::Client::GridFightEquipItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AB8);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B68);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AC0);
 		}
 
 		static ::System::Func_2<::FHCEIOHLADG*, ::System::UInt32>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::FHCEIOHLADG*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B70);
+			return (::System::Func_2<::FHCEIOHLADG*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AC8);
 		}
 
-		static ::System::Func_2<::FHCEIOHLADG*, ::System::UInt32>** StaticGet___9__24_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::FHCEIOHLADG*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B78);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AD0);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightEquipItemConfig*, ::RPG::Client::GridFightEquipItemData*>** StaticGet___9__34_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemConfig*, ::RPG::Client::GridFightEquipItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AD8);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68B80);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AE0);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__23_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AE8);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__15_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AF0);
+		}
+
+		static ::System::Func_2<::FHCEIOHLADG*, ::System::UInt32>** StaticGet___9__24_2()
+		{
+			return (::System::Func_2<::FHCEIOHLADG*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x70AF8);
 		}
 
 		static ::System::Void _cctor()
@@ -118,6 +124,11 @@ namespace RPG::Client
 		::System::UInt32 _Update_b__24_2(::FHCEIOHLADG* a1)
 		{
 			return ((::System::UInt32(*)(::PVOID, ::FHCEIOHLADG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__UPDATE_B__24_2_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::GridFightEquipItemData* _get_BasicEquipItemDatas_b__34_0(::RPG::Client::GridFightEquipItemConfig* a1)
+		{
+			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::RPG::Client::GridFightEquipItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTELATIONTRAITEQUIPCOMPONENT___C__GET_BASICEQUIPITEMDATAS_B__34_0_OFFSET))(this, a1);
 		}
 
 	};

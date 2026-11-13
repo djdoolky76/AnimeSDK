@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PetMarbleGameConfig; }
 
-#define RPG_GAMECORE_PETMARBLEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DB740)
-#define RPG_GAMECORE_PETMARBLEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DB500)
+#define RPG_GAMECORE_PETMARBLEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4A110)
+#define RPG_GAMECORE_PETMARBLEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE49ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetMarbleGameConfig_TypeDefinitionIndex = 18929;
+	inline static constexpr unsigned int PetMarbleGameConfig_TypeDefinitionIndex = 19116;
 
 	class PetMarbleGameConfig : public ::RPG::GameCore::JsonConfig
 	{

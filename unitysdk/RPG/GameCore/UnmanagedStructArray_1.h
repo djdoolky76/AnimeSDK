@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnmanagedStructArray_1_TypeDefinitionIndex = 35187;
+	inline static constexpr unsigned int UnmanagedStructArray_1_TypeDefinitionIndex = 36115;
 
 	template <typename T>
 	class UnmanagedStructArray_1 : public ::System::Object

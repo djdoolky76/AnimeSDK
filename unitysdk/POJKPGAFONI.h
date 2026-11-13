@@ -6,25 +6,24 @@ namespace RPG::GameCore { class QuestProgressChangeListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define POJKPGAFONI_CTOR_OFFSET UNITYSDK_OFFSET(0xC365B80)
-#define POJKPGAFONI_DFJAMCIAJPP_OFFSET UNITYSDK_OFFSET(0xC365E00)
-#define POJKPGAFONI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC365E90)
-#define POJKPGAFONI_NPKJMIHJACM_OFFSET UNITYSDK_OFFSET(0xC366240)
-#define POJKPGAFONI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC365BA0)
-#define POJKPGAFONI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC365D40)
-#define POJKPGAFONI_TICK_OFFSET UNITYSDK_OFFSET(0xC365FF0)
+#define POJKPGAFONI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B88FAC0)
+#define POJKPGAFONI_DFJAMCIAJPP_OFFSET UNITYSDK_OFFSET(0x1B88FD40)
+#define POJKPGAFONI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B88FDD0)
+#define POJKPGAFONI_NPKJMIHJACM_OFFSET UNITYSDK_OFFSET(0x1B8900D0)
+#define POJKPGAFONI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B88FAE0)
+#define POJKPGAFONI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B88FC80)
+#define POJKPGAFONI_TICK_OFFSET UNITYSDK_OFFSET(0x1B88FF30)
 
-inline static constexpr unsigned int POJKPGAFONI_TypeDefinitionIndex = 58370;
+inline static constexpr unsigned int POJKPGAFONI_TypeDefinitionIndex = 59626;
 
 	class POJKPGAFONI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::QuestProgressChangeListener* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::QuestProgressChangeListener* IGHAHBNLIJA; // 0x20
 		::GELIALJDFBL* MJOEBIHKEIG; // 0x28
-		::System::Boolean BJIMNGNKDGD; // 0x30
-		::System::Byte _padding0[0x3];
-		::System::UInt32 AIDHKEPNBKJ; // 0x34
+		::System::UInt32 AIDHKEPNBKJ; // 0x30
+		::System::Boolean BJIMNGNKDGD; // 0x34
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::QuestProgressChangeListener* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::QuestProgressChangeListener*))((::PBYTE)hIl2Cpp + POJKPGAFONI_CTOR_OFFSET))(this, a1, a2);

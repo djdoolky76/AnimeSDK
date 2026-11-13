@@ -5,17 +5,17 @@ class BNFDPCPAELE;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define BNFDPCPAELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BB970)
-#define BNFDPCPAELE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9BB980)
-#define BNFDPCPAELE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9BB940)
+#define BNFDPCPAELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF8620)
+#define BNFDPCPAELE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAF8630)
+#define BNFDPCPAELE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAF85F0)
 
-inline static constexpr unsigned int BNFDPCPAELE_TypeDefinitionIndex = 22253;
+inline static constexpr unsigned int BNFDPCPAELE_TypeDefinitionIndex = 22658;
 
 	class BNFDPCPAELE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* GEKKHNPKLIB; // 0x18
-		::Il2CppArray<::System::String*>* EBBDLBHHPGB; // 0x20
+		::Il2CppArray<::System::String*>* EBBDLBHHPGB; // 0x18
+		::System::String* GEKKHNPKLIB; // 0x20
 		::System::Boolean GHPBDLBCLFE; // 0x28
 		::System::Void _ctor()
 		{

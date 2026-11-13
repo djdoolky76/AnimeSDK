@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideTimeRewindSpecularMatStyle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IHLIAOACLGA_CTOR_OFFSET UNITYSDK_OFFSET(0x16417EA0)
-#define IHLIAOACLGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16417ED0)
+#define IHLIAOACLGA_CTOR_OFFSET UNITYSDK_OFFSET(0x193B7010)
+#define IHLIAOACLGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193B7040)
 
-inline static constexpr unsigned int IHLIAOACLGA_TypeDefinitionIndex = 53380;
+inline static constexpr unsigned int IHLIAOACLGA_TypeDefinitionIndex = 54542;
 
 	class IHLIAOACLGA
 	{

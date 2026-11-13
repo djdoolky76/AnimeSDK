@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PCEHFACKCOM_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF69F0)
+#define PCEHFACKCOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AACD340)
 
-inline static constexpr unsigned int PCEHFACKCOM_TypeDefinitionIndex = 72398;
+inline static constexpr unsigned int PCEHFACKCOM_TypeDefinitionIndex = 74477;
 
 	class PCEHFACKCOM : public ::System::Object
 	{

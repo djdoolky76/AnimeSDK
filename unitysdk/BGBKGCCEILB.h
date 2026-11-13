@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AdventureMonsterTriggerMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGBKGCCEILB_CTOR_OFFSET UNITYSDK_OFFSET(0xB174C50)
-#define BGBKGCCEILB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB174C60)
-#define BGBKGCCEILB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB174CA0)
-#define BGBKGCCEILB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB175020)
-#define BGBKGCCEILB_TICK_OFFSET UNITYSDK_OFFSET(0xB175110)
+#define BGBKGCCEILB_CTOR_OFFSET UNITYSDK_OFFSET(0x151B3840)
+#define BGBKGCCEILB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x151B3850)
+#define BGBKGCCEILB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151B3890)
+#define BGBKGCCEILB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x151B3C10)
+#define BGBKGCCEILB_TICK_OFFSET UNITYSDK_OFFSET(0x151B3D00)
 
-inline static constexpr unsigned int BGBKGCCEILB_TypeDefinitionIndex = 57906;
+inline static constexpr unsigned int BGBKGCCEILB_TypeDefinitionIndex = 59143;
 
 	class BGBKGCCEILB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::AdventureMonsterTriggerMove* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::AdventureMonsterTriggerMove* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdventureMonsterTriggerMove* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdventureMonsterTriggerMove*))((::PBYTE)hIl2Cpp + BGBKGCCEILB_CTOR_OFFSET))(this, a1, a2);

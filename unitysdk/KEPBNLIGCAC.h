@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerUINotify; }
 
-#define KEPBNLIGCAC_CTOR_OFFSET UNITYSDK_OFFSET(0xB37D4C0)
-#define KEPBNLIGCAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB37D4F0)
+#define KEPBNLIGCAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5E8C50)
+#define KEPBNLIGCAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B5E8C80)
 
-inline static constexpr unsigned int KEPBNLIGCAC_TypeDefinitionIndex = 56477;
+inline static constexpr unsigned int KEPBNLIGCAC_TypeDefinitionIndex = 57697;
 
 	class KEPBNLIGCAC
 	{

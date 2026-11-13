@@ -7,28 +7,28 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE92EC20)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92E9E0)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92EBB0)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92E9D0)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA19EF0)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DA19CB0)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA19E80)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DA19CA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowFateShowCaptionDialogClip_TypeDefinitionIndex = 48294;
+	inline static constexpr unsigned int ShowFateShowCaptionDialogClip_TypeDefinitionIndex = 49335;
 
 	class ShowFateShowCaptionDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* UILuaPath; // 0x18
 		::System::String* UIParam; // 0x20
-		static ::System::String** StaticGet_UI_NAME()
-		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowFateShowCaptionDialogClip")->GetStaticField(0x6FE20);
-		}
-
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowFateShowCaptionDialogClip")->GetStaticField(0x6FE28);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowFateShowCaptionDialogClip")->GetStaticField(0xE960);
+		}
+
+		static ::System::String** StaticGet_UI_NAME()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowFateShowCaptionDialogClip")->GetStaticField(0xE968);
 		}
 
 		::System::Void _ctor()

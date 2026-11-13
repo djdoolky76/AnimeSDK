@@ -4,18 +4,18 @@
 class IBNCBEPCAPF;
 namespace System { class Object; }
 
-#define IBNCBEPCAPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5EDB70)
-#define IBNCBEPCAPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5EDBB0)
-#define IBNCBEPCAPF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E5EDBC0)
+#define IBNCBEPCAPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20125690)
+#define IBNCBEPCAPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201256D0)
+#define IBNCBEPCAPF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x201256E0)
 
-inline static constexpr unsigned int IBNCBEPCAPF___c_TypeDefinitionIndex = 34882;
+inline static constexpr unsigned int IBNCBEPCAPF___c_TypeDefinitionIndex = 35810;
 
 	class IBNCBEPCAPF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43F80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x471E0);
 		}
 
 		static ::System::Void _cctor()

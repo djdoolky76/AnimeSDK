@@ -4,21 +4,21 @@
 #include "unitysdk/SuperScrollView/RowColumnPair.h"
 namespace SuperScrollView { class RowColumnComparer; }
 
-#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9CFD30)
-#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xE9CFD20)
-#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0xE9CFC60)
-#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE9CFCC0)
+#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17138E00)
+#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x17138DF0)
+#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x17138D30)
+#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17138D90)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int RowColumnComparer_TypeDefinitionIndex = 47634;
+	inline static constexpr unsigned int RowColumnComparer_TypeDefinitionIndex = 48664;
 
 	class RowColumnComparer : public ::System::Object
 	{
 	public:
 		static ::SuperScrollView::RowColumnComparer** StaticGet_comparer()
 		{
-			return (::SuperScrollView::RowColumnComparer**)UnitySDK::FromName("SuperScrollView", "RowColumnComparer")->GetStaticField(0xEA00);
+			return (::SuperScrollView::RowColumnComparer**)UnitySDK::FromName("SuperScrollView", "RowColumnComparer")->GetStaticField(0x17E20);
 		}
 
 		::System::Void _ctor()

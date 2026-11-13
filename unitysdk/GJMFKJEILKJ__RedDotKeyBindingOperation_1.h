@@ -5,7 +5,7 @@ namespace R3 { template <typename T> class Observable_1; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int GJMFKJEILKJ__RedDotKeyBindingOperation_1_TypeDefinitionIndex = 79183;
+inline static constexpr unsigned int GJMFKJEILKJ__RedDotKeyBindingOperation_1_TypeDefinitionIndex = 81960;
 
 	template <typename T>
 	class GJMFKJEILKJ__RedDotKeyBindingOperation_1 : public ::System::Object

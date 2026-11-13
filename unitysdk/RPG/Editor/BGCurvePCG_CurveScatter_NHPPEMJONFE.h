@@ -4,18 +4,18 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_EDITOR_BGCURVEPCG_CURVESCATTER_NHPPEMJONFE_CTOR_OFFSET UNITYSDK_OFFSET(0xE496370)
+#define RPG_EDITOR_BGCURVEPCG_CURVESCATTER_NHPPEMJONFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1825B060)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_CurveScatter_NHPPEMJONFE_TypeDefinitionIndex = 52021;
+	inline static constexpr unsigned int BGCurvePCG_CurveScatter_NHPPEMJONFE_TypeDefinitionIndex = 53126;
 
 	class BGCurvePCG_CurveScatter_NHPPEMJONFE : public ::System::Object
 	{
 	public:
-		::UnityEngine::Quaternion NMELCPIOKNO; // 0x10
-		::UnityEngine::Vector3 PECPBEOHOJC; // 0x20
-		::UnityEngine::Vector3 NEMDKBKDFDN; // 0x2C
+		::UnityEngine::Vector3 NEMDKBKDFDN; // 0x10
+		::UnityEngine::Quaternion NMELCPIOKNO; // 0x1C
+		::UnityEngine::Vector3 PECPBEOHOJC; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_CURVESCATTER_NHPPEMJONFE_CTOR_OFFSET))(this);

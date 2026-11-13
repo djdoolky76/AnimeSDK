@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define EKNGLFNFDNN_CTOR_OFFSET UNITYSDK_OFFSET(0x15503A70)
+#define EKNGLFNFDNN_CTOR_OFFSET UNITYSDK_OFFSET(0x199992B0)
 
-inline static constexpr unsigned int EKNGLFNFDNN_TypeDefinitionIndex = 70242;
+inline static constexpr unsigned int EKNGLFNFDNN_TypeDefinitionIndex = 72208;
 
 	class EKNGLFNFDNN : public ::System::Attribute
 	{

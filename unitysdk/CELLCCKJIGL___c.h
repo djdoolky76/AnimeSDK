@@ -4,18 +4,18 @@
 class CELLCCKJIGL;
 namespace System { class Object; }
 
-#define CELLCCKJIGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E06E340)
-#define CELLCCKJIGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06E380)
-#define CELLCCKJIGL___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E06E390)
+#define CELLCCKJIGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204D3350)
+#define CELLCCKJIGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204D3390)
+#define CELLCCKJIGL___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x204D33A0)
 
-inline static constexpr unsigned int CELLCCKJIGL___c_TypeDefinitionIndex = 28695;
+inline static constexpr unsigned int CELLCCKJIGL___c_TypeDefinitionIndex = 29285;
 
 	class CELLCCKJIGL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11350);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x662E0);
 		}
 
 		static ::System::Void _cctor()

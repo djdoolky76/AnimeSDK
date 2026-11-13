@@ -9,14 +9,14 @@ namespace System::Linq::Expressions::Interpreter { class ThrowInstruction; }
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Runtime::CompilerServices { class RuntimeWrappedException; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDFE360)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFDE60)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDFDEC0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDFDE70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDFDEB0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_RUNTIMEWRAP_OFFSET UNITYSDK_OFFSET(0x1EDFE090)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDFDED0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_WRAPTHROWNOBJECT_OFFSET UNITYSDK_OFFSET(0x1EDFE000)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F78D4B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F78CFE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1F78D010)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1F78CFF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1F78D000)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_RUNTIMEWRAP_OFFSET UNITYSDK_OFFSET(0x1F78D1E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1F78D020)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_THROWINSTRUCTION_WRAPTHROWNOBJECT_OFFSET UNITYSDK_OFFSET(0x1F78D150)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -25,31 +25,31 @@ namespace System::Linq::Expressions::Interpreter
 	class ThrowInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		::System::Boolean _rethrow; // 0x10
-		::System::Boolean _hasResult; // 0x11
-		static ::System::Linq::Expressions::Interpreter::ThrowInstruction** StaticGet_Rethrow()
-		{
-			return (::System::Linq::Expressions::Interpreter::ThrowInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x3BFE0);
-		}
-
-		static ::System::Reflection::ConstructorInfo** StaticGet__runtimeWrappedExceptionCtor()
-		{
-			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x3BFE8);
-		}
-
+		::System::Boolean _hasResult; // 0x10
+		::System::Boolean _rethrow; // 0x11
 		static ::System::Linq::Expressions::Interpreter::ThrowInstruction** StaticGet_VoidThrow()
 		{
-			return (::System::Linq::Expressions::Interpreter::ThrowInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x3BFF0);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::ThrowInstruction** StaticGet_Throw()
-		{
-			return (::System::Linq::Expressions::Interpreter::ThrowInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x3BFF8);
+			return (::System::Linq::Expressions::Interpreter::ThrowInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x32870);
 		}
 
 		static ::System::Linq::Expressions::Interpreter::ThrowInstruction** StaticGet_VoidRethrow()
 		{
-			return (::System::Linq::Expressions::Interpreter::ThrowInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x3C000);
+			return (::System::Linq::Expressions::Interpreter::ThrowInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x32878);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::ThrowInstruction** StaticGet_Rethrow()
+		{
+			return (::System::Linq::Expressions::Interpreter::ThrowInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x32880);
+		}
+
+		static ::System::Reflection::ConstructorInfo** StaticGet__runtimeWrappedExceptionCtor()
+		{
+			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x32888);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::ThrowInstruction** StaticGet_Throw()
+		{
+			return (::System::Linq::Expressions::Interpreter::ThrowInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "ThrowInstruction")->GetStaticField(0x32890);
 		}
 
 		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2)

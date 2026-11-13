@@ -11,32 +11,32 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC2BF40)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC29A60)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CC29A90)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET UNITYSDK_OFFSET(0x1CC2B720)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC2B730)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC29A80)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET UNITYSDK_OFFSET(0x1CC29AF0)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET UNITYSDK_OFFSET(0x1CC2A9B0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0x198F2F10)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x198F0A30)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x198F0A60)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET UNITYSDK_OFFSET(0x198F26F0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x198F2700)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x198F0A50)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET UNITYSDK_OFFSET(0x198F0AC0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET UNITYSDK_OFFSET(0x198F1980)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensFlareRenderer_TypeDefinitionIndex = 37823;
+	inline static constexpr unsigned int RPGLensFlareRenderer_TypeDefinitionIndex = 38752;
 
 	class RPGLensFlareRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
 		::UnityEngine::Material* _LensFlareMat; // 0x28
 		::System::Boolean _RTCreated; // 0x30
-		static ::System::String** StaticGet__LF_FSD_KEY()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.CustomRP", "RPGLensFlareRenderer")->GetStaticField(0x2E450);
-		}
-
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>** StaticGet_s_LensFlareTargets()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>**)UnitySDK::FromName("RPG.CustomRP", "RPGLensFlareRenderer")->GetStaticField(0x2E458);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>**)UnitySDK::FromName("RPG.CustomRP", "RPGLensFlareRenderer")->GetStaticField(0x29870);
+		}
+
+		static ::System::String** StaticGet__LF_FSD_KEY()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.CustomRP", "RPGLensFlareRenderer")->GetStaticField(0x29878);
 		}
 
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1)

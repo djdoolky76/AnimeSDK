@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BHAGIDKJIEC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D7D2C50)
-#define BHAGIDKJIEC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7D31D0)
-#define BHAGIDKJIEC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D7D2DC0)
-#define BHAGIDKJIEC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D7D28D0)
-#define BHAGIDKJIEC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D7D2760)
-#define BHAGIDKJIEC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D7D2E60)
-#define BHAGIDKJIEC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D7D2EB0)
-#define BHAGIDKJIEC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D7D2C90)
-#define BHAGIDKJIEC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D64A2A0)
-#define BHAGIDKJIEC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D7D2B00)
-#define BHAGIDKJIEC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D7D2D20)
-#define BHAGIDKJIEC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D64A220)
+#define BHAGIDKJIEC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F18C350)
+#define BHAGIDKJIEC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F18C920)
+#define BHAGIDKJIEC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F18C4C0)
+#define BHAGIDKJIEC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F18BDC0)
+#define BHAGIDKJIEC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F18C050)
+#define BHAGIDKJIEC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F18C560)
+#define BHAGIDKJIEC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F18C5B0)
+#define BHAGIDKJIEC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F18C390)
+#define BHAGIDKJIEC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F18BFF0)
+#define BHAGIDKJIEC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F18C1C0)
+#define BHAGIDKJIEC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F18C420)
+#define BHAGIDKJIEC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F18BD40)
 
-inline static constexpr unsigned int BHAGIDKJIEC_TypeDefinitionIndex = 12332;
+inline static constexpr unsigned int BHAGIDKJIEC_TypeDefinitionIndex = 12399;
 
 	class BHAGIDKJIEC : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRebateTriggerConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRebateTriggerConfigRow*>**)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0x40B20);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0x40B28);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0x48130);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRebateTriggerConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRebateTriggerConfigRow*>**)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0x48138);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0x40B30);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0xF660);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0x48140);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0xF661);
+			return (::System::Byte*)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0xE000);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "BHAGIDKJIEC")->GetStaticField(0xE001);
 		}
 
 		static ::System::Void _cctor()

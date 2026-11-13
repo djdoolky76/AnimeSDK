@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HONIFDCKPFM.h"
 
-#define LLNDBINOCHH_CTOR_OFFSET UNITYSDK_OFFSET(0xB76D950)
-#define LLNDBINOCHH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB76D8E0)
-#define LLNDBINOCHH_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB76D8F0)
+#define LLNDBINOCHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBDBB0)
+#define LLNDBINOCHH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1AFBDB40)
+#define LLNDBINOCHH_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1AFBDB50)
 
-inline static constexpr unsigned int LLNDBINOCHH_TypeDefinitionIndex = 74011;
+inline static constexpr unsigned int LLNDBINOCHH_TypeDefinitionIndex = 76147;
 
 	class LLNDBINOCHH : public ::HONIFDCKPFM
 	{
 	public:
-		::System::Int32 PJKFLONMKED; // 0x18
-		::System::Int32 ENMIPOPKOOL; // 0x1C
+		::System::Int32 ENMIPOPKOOL; // 0x18
+		::System::Int32 PJKFLONMKED; // 0x1C
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + LLNDBINOCHH_CTOR_OFFSET))(this, a1, a2, a3);

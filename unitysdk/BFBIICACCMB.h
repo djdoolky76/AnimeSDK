@@ -8,19 +8,19 @@ namespace RPG::GameCore { class RtModifierPropertyOverrideData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BFBIICACCMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D640910)
-#define BFBIICACCMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D640920)
-#define BFBIICACCMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6408E0)
+#define BFBIICACCMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BB250)
+#define BFBIICACCMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1BB260)
+#define BFBIICACCMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1BB220)
 
-inline static constexpr unsigned int BFBIICACCMB_TypeDefinitionIndex = 24185;
+inline static constexpr unsigned int BFBIICACCMB_TypeDefinitionIndex = 24644;
 
 	class BFBIICACCMB : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x18
-		::Il2CppArray<::RPG::GameCore::RtModifierPropertyOverrideData*>* FBEBNLOPIBL; // 0x20
-		::System::String* IFNAGLOMHBK; // 0x28
-		::System::String* DNLHMCNMCBC; // 0x30
+		::System::String* DNLHMCNMCBC; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x20
+		::Il2CppArray<::RPG::GameCore::RtModifierPropertyOverrideData*>* FBEBNLOPIBL; // 0x28
+		::System::String* IFNAGLOMHBK; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BFBIICACCMB_CTOR_OFFSET))(this);

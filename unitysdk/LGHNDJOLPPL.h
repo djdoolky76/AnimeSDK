@@ -5,11 +5,11 @@ namespace RPG::GameCore { class TargetFetchNpcMonsterWithMazeBuff; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LGHNDJOLPPL_BEPKHIKFAIG_OFFSET UNITYSDK_OFFSET(0xB691290)
-#define LGHNDJOLPPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6910F0)
-#define LGHNDJOLPPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB691160)
+#define LGHNDJOLPPL_BEPKHIKFAIG_OFFSET UNITYSDK_OFFSET(0x1BCA8D70)
+#define LGHNDJOLPPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA8BD0)
+#define LGHNDJOLPPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BCA8C40)
 
-inline static constexpr unsigned int LGHNDJOLPPL_TypeDefinitionIndex = 59106;
+inline static constexpr unsigned int LGHNDJOLPPL_TypeDefinitionIndex = 60382;
 
 	class LGHNDJOLPPL
 	{

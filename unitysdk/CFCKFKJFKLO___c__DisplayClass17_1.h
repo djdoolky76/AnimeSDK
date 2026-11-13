@@ -5,18 +5,18 @@
 class MAKOLMIPFFE;
 namespace System { class Object; }
 
-#define CFCKFKJFKLO___C__DISPLAYCLASS17_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCA02610)
-#define CFCKFKJFKLO___C__DISPLAYCLASS17_1___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0xCA02920)
-#define CFCKFKJFKLO___C__DISPLAYCLASS17_1___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0xCA029B0)
+#define CFCKFKJFKLO___C__DISPLAYCLASS17_1_CTOR_OFFSET UNITYSDK_OFFSET(0x18845DC0)
+#define CFCKFKJFKLO___C__DISPLAYCLASS17_1___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x188460D0)
+#define CFCKFKJFKLO___C__DISPLAYCLASS17_1___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x18846160)
 
-inline static constexpr unsigned int CFCKFKJFKLO___c__DisplayClass17_1_TypeDefinitionIndex = 79567;
+inline static constexpr unsigned int CFCKFKJFKLO___c__DisplayClass17_1_TypeDefinitionIndex = 82344;
 
 	template <typename T>
 	class CFCKFKJFKLO___c__DisplayClass17_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
-		::MAKOLMIPFFE* valuePredicate; // 0x18
+		::MAKOLMIPFFE* valuePredicate; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CFCKFKJFKLO___C__DISPLAYCLASS17_1_CTOR_OFFSET))(this);

@@ -8,24 +8,24 @@ class FCOEMCEDLNL;
 class IOHJBPFFGMM;
 namespace System { class String; }
 
-#define IOHJBPFFGMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFB2A0)
-#define IOHJBPFFGMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEFAE80)
+#define IOHJBPFFGMM_CTOR_OFFSET UNITYSDK_OFFSET(0xC9A12D0)
+#define IOHJBPFFGMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC9A0EB0)
 
-inline static constexpr unsigned int IOHJBPFFGMM_TypeDefinitionIndex = 11535;
+inline static constexpr unsigned int IOHJBPFFGMM_TypeDefinitionIndex = 11586;
 
 	class IOHJBPFFGMM : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* MDEBFIFOKHH; // 0x10
-		::System::String* LBLJLNPBDPB; // 0x18
-		::Il2CppArray<::System::UInt32>* BEOGEKDEPLO; // 0x20
-		::System::UInt32 HNIMELBCBBJ; // 0x28
-		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::UInt32>* BEOGEKDEPLO; // 0x18
+		::System::String* LBLJLNPBDPB; // 0x20
+		::RPG::GameCore::FateAffixRarityType PMIEAEGJNMJ; // 0x28
+		::System::UInt32 HNIMELBCBBJ; // 0x2C
 		::RPG::Client::TextID IDABEFMAPFE; // 0x30
-		::RPG::GameCore::FateAffixRarityType PMIEAEGJNMJ; // 0x40
-		::System::UInt32 EFAIIOHKFGD; // 0x44
-		::RPG::Client::TextID KBNHPKIOGLH; // 0x48
-		::RPG::Client::TextID HEDNBIABAKP; // 0x58
+		::RPG::Client::TextID HEDNBIABAKP; // 0x40
+		::System::UInt32 EFAIIOHKFGD; // 0x50
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID KBNHPKIOGLH; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IOHJBPFFGMM_CTOR_OFFSET))(this);

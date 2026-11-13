@@ -6,10 +6,10 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CEIKPDGEEMG_FAFELDDCOFM_OFFSET UNITYSDK_OFFSET(0x1DCE7960)
-#define CEIKPDGEEMG_LOGDBNMPOPC_OFFSET UNITYSDK_OFFSET(0x1DCE7AD0)
+#define CEIKPDGEEMG_FAFELDDCOFM_OFFSET UNITYSDK_OFFSET(0x1798B560)
+#define CEIKPDGEEMG_LOGDBNMPOPC_OFFSET UNITYSDK_OFFSET(0x1798B6D0)
 
-inline static constexpr unsigned int CEIKPDGEEMG_TypeDefinitionIndex = 6195;
+inline static constexpr unsigned int CEIKPDGEEMG_TypeDefinitionIndex = 6202;
 
 	class CEIKPDGEEMG : public ::System::Object
 	{

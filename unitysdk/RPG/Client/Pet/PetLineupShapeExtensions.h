@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/Pet/PetLineupShape.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PET_PETLINEUPSHAPEEXTENSIONS_TOCLIENT_OFFSET UNITYSDK_OFFSET(0xDAB0DF0)
-#define RPG_CLIENT_PET_PETLINEUPSHAPEEXTENSIONS_TOPROTO_OFFSET UNITYSDK_OFFSET(0xDAB0E40)
+#define RPG_CLIENT_PET_PETLINEUPSHAPEEXTENSIONS_TOCLIENT_OFFSET UNITYSDK_OFFSET(0x1C1D2D40)
+#define RPG_CLIENT_PET_PETLINEUPSHAPEEXTENSIONS_TOPROTO_OFFSET UNITYSDK_OFFSET(0x1C1D2D90)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetLineupShapeExtensions_TypeDefinitionIndex = 75688;
+	inline static constexpr unsigned int PetLineupShapeExtensions_TypeDefinitionIndex = 78015;
 
 	class PetLineupShapeExtensions : public ::System::Object
 	{

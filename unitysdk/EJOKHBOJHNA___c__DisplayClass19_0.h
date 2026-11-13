@@ -5,10 +5,10 @@ class CFEFOGNGCMH;
 class EJOKHBOJHNA;
 namespace System { class Exception; }
 
-#define EJOKHBOJHNA___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154E9240)
-#define EJOKHBOJHNA___C__DISPLAYCLASS19_0___ENDMATCHANDADVANCE_B__0_OFFSET UNITYSDK_OFFSET(0x154EA380)
+#define EJOKHBOJHNA___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1997E350)
+#define EJOKHBOJHNA___C__DISPLAYCLASS19_0___ENDMATCHANDADVANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1997F490)
 
-inline static constexpr unsigned int EJOKHBOJHNA___c__DisplayClass19_0_TypeDefinitionIndex = 81848;
+inline static constexpr unsigned int EJOKHBOJHNA___c__DisplayClass19_0_TypeDefinitionIndex = 84629;
 
 	class EJOKHBOJHNA___c__DisplayClass19_0 : public ::System::Object
 	{

@@ -5,28 +5,29 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantShopItemRow; }
 
-#define RPG_GAMECORE_RESTAURANTSHOPITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D968E70)
-#define RPG_GAMECORE_RESTAURANTSHOPITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D968A70)
+#define RPG_GAMECORE_RESTAURANTSHOPITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2072D2D0)
+#define RPG_GAMECORE_RESTAURANTSHOPITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2072CED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantShopItemRow_TypeDefinitionIndex = 11354;
+	inline static constexpr unsigned int RestaurantShopItemRow_TypeDefinitionIndex = 11405;
 
 	class RestaurantShopItemRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* DeleteIDList; // 0x18
-		::System::UInt32 AddLimitParam; // 0x20
-		::System::UInt32 Count; // 0x24
-		::System::UInt32 ProductID; // 0x28
-		::RPG::GameCore::RestaurantShopItemRefreshType RefreshType; // 0x2C
-		::System::UInt32 ShopItemID; // 0x30
-		::System::UInt32 LimitCount; // 0x34
-		::System::UInt32 AddLimitDay; // 0x38
-		::System::UInt32 RefreshParam; // 0x3C
-		::System::UInt32 BuyPrice; // 0x40
-		::System::Boolean IsDiscount; // 0x44
+		::System::UInt32 ShopItemID; // 0x20
+		::System::UInt32 RefreshParam; // 0x24
+		::System::UInt32 BuyPrice; // 0x28
+		::System::UInt32 Count; // 0x2C
+		::System::Boolean IsDiscount; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::UInt32 ProductID; // 0x34
+		::System::UInt32 AddLimitParam; // 0x38
+		::System::UInt32 LimitCount; // 0x3C
+		::System::UInt32 AddLimitDay; // 0x40
+		::RPG::GameCore::RestaurantShopItemRefreshType RefreshType; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTSHOPITEMROW_CTOR_OFFSET))(this);

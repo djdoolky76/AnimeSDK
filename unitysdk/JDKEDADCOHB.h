@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCharacterDamageType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDKEDADCOHB_CTOR_OFFSET UNITYSDK_OFFSET(0x165C44F0)
-#define JDKEDADCOHB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165C4520)
+#define JDKEDADCOHB_CTOR_OFFSET UNITYSDK_OFFSET(0x16996250)
+#define JDKEDADCOHB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16996280)
 
-inline static constexpr unsigned int JDKEDADCOHB_TypeDefinitionIndex = 54488;
+inline static constexpr unsigned int JDKEDADCOHB_TypeDefinitionIndex = 55652;
 
 	class JDKEDADCOHB
 	{

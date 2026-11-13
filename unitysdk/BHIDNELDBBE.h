@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 
-#define BHIDNELDBBE_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x1CC61010)
-#define BHIDNELDBBE_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC60FA0)
-#define BHIDNELDBBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC61090)
+#define BHIDNELDBBE_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x20933BF0)
+#define BHIDNELDBBE_CONVERT_OFFSET UNITYSDK_OFFSET(0x20933B80)
+#define BHIDNELDBBE_CTOR_OFFSET UNITYSDK_OFFSET(0x20933C70)
 
-inline static constexpr unsigned int BHIDNELDBBE_TypeDefinitionIndex = 43893;
+inline static constexpr unsigned int BHIDNELDBBE_TypeDefinitionIndex = 44968;
 
 	class BHIDNELDBBE : public ::System::Object
 	{

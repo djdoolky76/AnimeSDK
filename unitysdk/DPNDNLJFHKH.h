@@ -9,17 +9,17 @@ class POKKCEHMFMJ;
 namespace RPG::GameCore { class SpecialAvatarRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DPNDNLJFHKH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x12658A80)
-#define DPNDNLJFHKH_CTOR_OFFSET UNITYSDK_OFFSET(0x126589F0)
-#define DPNDNLJFHKH_NBLLBHEEDNK_OFFSET UNITYSDK_OFFSET(0x12658C30)
+#define DPNDNLJFHKH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x181B2C70)
+#define DPNDNLJFHKH_CTOR_OFFSET UNITYSDK_OFFSET(0x181B2BE0)
+#define DPNDNLJFHKH_NBLLBHEEDNK_OFFSET UNITYSDK_OFFSET(0x181B2E20)
 
-inline static constexpr unsigned int DPNDNLJFHKH_TypeDefinitionIndex = 62827;
+inline static constexpr unsigned int DPNDNLJFHKH_TypeDefinitionIndex = 64265;
 
 	class DPNDNLJFHKH : public ::System::Object
 	{
 	public:
-		::POKKCEHMFMJ* LBNAGLIGKIO; // 0x10
-		::JCMDOLKLKEL* ONGDFCGGFDM; // 0x18
+		::JCMDOLKLKEL* ONGDFCGGFDM; // 0x10
+		::POKKCEHMFMJ* LBNAGLIGKIO; // 0x18
 		::System::Void _ctor(::JCMDOLKLKEL* a1, ::POKKCEHMFMJ* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::JCMDOLKLKEL*, ::POKKCEHMFMJ*))((::PBYTE)hIl2Cpp + DPNDNLJFHKH_CTOR_OFFSET))(this, a1, a2);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterEffectMaterialBlock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLDOCBPPCFG_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA3410)
-#define GLDOCBPPCFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AA3440)
+#define GLDOCBPPCFG_CTOR_OFFSET UNITYSDK_OFFSET(0x16C5B500)
+#define GLDOCBPPCFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C5B530)
 
-inline static constexpr unsigned int GLDOCBPPCFG_TypeDefinitionIndex = 58532;
+inline static constexpr unsigned int GLDOCBPPCFG_TypeDefinitionIndex = 59796;
 
 	class GLDOCBPPCFG
 	{

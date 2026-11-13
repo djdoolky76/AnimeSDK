@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClockParkCheckPointRow; }
 
-#define RPG_GAMECORE_CLOCKPARKCHECKPOINTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5901D0)
-#define RPG_GAMECORE_CLOCKPARKCHECKPOINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58F9E0)
+#define RPG_GAMECORE_CLOCKPARKCHECKPOINTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F506810)
+#define RPG_GAMECORE_CLOCKPARKCHECKPOINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F506020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkCheckPointRow_TypeDefinitionIndex = 11167;
+	inline static constexpr unsigned int ClockParkCheckPointRow_TypeDefinitionIndex = 11183;
 
 	class ClockParkCheckPointRow : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::Client::TextID>* CheckWinTextList; // 0x18
 		::System::UInt32 CheckParam1; // 0x20
 		::System::UInt32 CheckPointID; // 0x24
-		::System::UInt32 CheckParam2; // 0x28
-		::System::UInt32 CheckParam3; // 0x2C
+		::System::UInt32 CheckParam3; // 0x28
+		::System::UInt32 CheckParam2; // 0x2C
 		::RPG::GameCore::ClockParkCheckPointType CheckPointType; // 0x30
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID CheckPoint; // 0x38

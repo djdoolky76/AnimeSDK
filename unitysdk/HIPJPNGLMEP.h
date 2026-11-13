@@ -5,16 +5,16 @@
 class GELIALJDFBL;
 namespace RPG::GameCore { class DynamicToastConfig; }
 
-#define HIPJPNGLMEP_CPHHGKLIAKM_OFFSET UNITYSDK_OFFSET(0x15CF47D0)
-#define HIPJPNGLMEP_CTOR_OFFSET UNITYSDK_OFFSET(0x15CF4850)
+#define HIPJPNGLMEP_CPHHGKLIAKM_OFFSET UNITYSDK_OFFSET(0x181F1330)
+#define HIPJPNGLMEP_CTOR_OFFSET UNITYSDK_OFFSET(0x181F13B0)
 
-inline static constexpr unsigned int HIPJPNGLMEP_TypeDefinitionIndex = 57686;
+inline static constexpr unsigned int HIPJPNGLMEP_TypeDefinitionIndex = 58918;
 
 	class HIPJPNGLMEP : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::DynamicToastConfig* KKPDPAFFLBA; // 0x10
-		::GELIALJDFBL* PGDOEKBEAJM; // 0x18
+		::GELIALJDFBL* PGDOEKBEAJM; // 0x10
+		::RPG::GameCore::DynamicToastConfig* KKPDPAFFLBA; // 0x18
 		::RPG::GameCore::UseSkillErrorCode LDNBNFEAGMK; // 0x20
 		::System::Void _ctor()
 		{

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BezierProjectileData; }
 namespace RPG::GameCore { class ProjectileBezierControlPoint; }
 
-#define RPG_GAMECORE_BEZIERPROJECTILEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D43DB20)
-#define RPG_GAMECORE_BEZIERPROJECTILEDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D43DB30)
-#define RPG_GAMECORE_BEZIERPROJECTILEDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D43DAE0)
+#define RPG_GAMECORE_BEZIERPROJECTILEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF44840)
+#define RPG_GAMECORE_BEZIERPROJECTILEDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF44850)
+#define RPG_GAMECORE_BEZIERPROJECTILEDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF44800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BezierProjectileData_TypeDefinitionIndex = 15668;
+	inline static constexpr unsigned int BezierProjectileData_TypeDefinitionIndex = 15826;
 
 	class BezierProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{

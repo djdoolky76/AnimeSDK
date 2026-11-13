@@ -5,12 +5,12 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPOSEADJUSTER_CTOR_OFFSET UNITYSDK_OFFSET(0xD64BEA0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPOSEADJUSTER_GETPOSEPOINT_OFFSET UNITYSDK_OFFSET(0xD64BDA0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPOSEADJUSTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEC670)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPOSEADJUSTER_GETPOSEPOINT_OFFSET UNITYSDK_OFFSET(0x1DEEC570)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftPoseAdjuster_TypeDefinitionIndex = 79971;
+	inline static constexpr unsigned int MechCraftPoseAdjuster_TypeDefinitionIndex = 82748;
 
 	class MechCraftPoseAdjuster : public ::UnityEngine::MonoBehaviour
 	{

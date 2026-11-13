@@ -4,11 +4,11 @@ namespace RPG::GameCore { class AdvEnableTrigger; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JKHINHOHADB_CMMJFAELBKE_OFFSET UNITYSDK_OFFSET(0xB2174C0)
-#define JKHINHOHADB_CTOR_OFFSET UNITYSDK_OFFSET(0xB217490)
-#define JKHINHOHADB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB217660)
+#define JKHINHOHADB_CMMJFAELBKE_OFFSET UNITYSDK_OFFSET(0x17B230B0)
+#define JKHINHOHADB_CTOR_OFFSET UNITYSDK_OFFSET(0x17B23080)
+#define JKHINHOHADB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B23250)
 
-inline static constexpr unsigned int JKHINHOHADB_TypeDefinitionIndex = 52356;
+inline static constexpr unsigned int JKHINHOHADB_TypeDefinitionIndex = 53462;
 
 	class JKHINHOHADB
 	{

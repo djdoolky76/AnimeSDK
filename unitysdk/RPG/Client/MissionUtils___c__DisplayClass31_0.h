@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MissionUtils_SubMissionSortItem; }
 
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD713CC0)
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0xD7141E0)
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__1_OFFSET UNITYSDK_OFFSET(0xD714210)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19865C60)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0x19866180)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__1_OFFSET UNITYSDK_OFFSET(0x198661B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils___c__DisplayClass31_0_TypeDefinitionIndex = 66196;
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass31_0_TypeDefinitionIndex = 68132;
 
 	class MissionUtils___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 parentSubMissionID; // 0x10
-		::System::UInt32 childSubMissionID; // 0x14
+		::System::UInt32 childSubMissionID; // 0x10
+		::System::UInt32 parentSubMissionID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureTriggerMoveWithPath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEJADBEJCJF_CTOR_OFFSET UNITYSDK_OFFSET(0xB152300)
-#define AEJADBEJCJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB152330)
+#define AEJADBEJCJF_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA1E90)
+#define AEJADBEJCJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DA1EC0)
 
-inline static constexpr unsigned int AEJADBEJCJF_TypeDefinitionIndex = 57929;
+inline static constexpr unsigned int AEJADBEJCJF_TypeDefinitionIndex = 59166;
 
 	class AEJADBEJCJF
 	{

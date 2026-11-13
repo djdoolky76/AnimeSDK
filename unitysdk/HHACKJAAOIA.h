@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class DFGDEHAHLHC;
 
-#define HHACKJAAOIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA9CB10)
-#define HHACKJAAOIA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1CA9CD00)
-#define HHACKJAAOIA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1CA9D460)
+#define HHACKJAAOIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA3BA0)
+#define HHACKJAAOIA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1DAA3D90)
+#define HHACKJAAOIA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DAA44E0)
 
-inline static constexpr unsigned int HHACKJAAOIA_TypeDefinitionIndex = 42209;
+inline static constexpr unsigned int HHACKJAAOIA_TypeDefinitionIndex = 43184;
 
 	class HHACKJAAOIA : public ::CKFDNGOHNPC
 	{
@@ -16,8 +16,8 @@ inline static constexpr unsigned int HHACKJAAOIA_TypeDefinitionIndex = 42209;
 		::DFGDEHAHLHC* GALAHGAJODG; // 0x18
 		::DFGDEHAHLHC* CFKHNPGEAJA; // 0x20
 		::UnityEngine::Vector3 GCOPFADMJAH; // 0x28
-		::System::Single HBDJCFFDGDD; // 0x34
-		::System::Single PGMIOKKLHIE; // 0x38
+		::System::Single PGMIOKKLHIE; // 0x34
+		::System::Single HBDJCFFDGDD; // 0x38
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + HHACKJAAOIA_CTOR_OFFSET))(this, a1, a2);

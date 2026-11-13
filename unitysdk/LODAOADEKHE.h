@@ -4,18 +4,18 @@
 namespace RPG::Client { class ConfirmDialogContext; }
 namespace System { class String; }
 
-#define LODAOADEKHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7EE920)
-#define LODAOADEKHE_GNNMGJMFNAE_OFFSET UNITYSDK_OFFSET(0xB7EE430)
-#define LODAOADEKHE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7EE2E0)
+#define LODAOADEKHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5A23E0)
+#define LODAOADEKHE_GNNMGJMFNAE_OFFSET UNITYSDK_OFFSET(0x1A5A1EF0)
+#define LODAOADEKHE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1A5A1DA0)
 
-inline static constexpr unsigned int LODAOADEKHE_TypeDefinitionIndex = 61109;
+inline static constexpr unsigned int LODAOADEKHE_TypeDefinitionIndex = 62494;
 
 	class LODAOADEKHE : public ::System::Object
 	{
 	public:
-		::System::String* FHLCNCDFAKD; // 0x10
-		::System::String* OCNGEPBPGCM; // 0x18
-		::System::String* LDOHLFIHLNH; // 0x20
+		::System::String* LDOHLFIHLNH; // 0x10
+		::System::String* FHLCNCDFAKD; // 0x18
+		::System::String* OCNGEPBPGCM; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LODAOADEKHE_CTOR_OFFSET))(this);

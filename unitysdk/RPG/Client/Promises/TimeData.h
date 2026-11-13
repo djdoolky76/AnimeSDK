@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 9902;
+	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 9910;
 
 	struct alignas(4) TimeData
 	{

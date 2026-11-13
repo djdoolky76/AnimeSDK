@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NCOONILMDAC_GPBIGPHPOLC_TypeDefinitionIndex = 59740;
+inline static constexpr unsigned int NCOONILMDAC_GPBIGPHPOLC_TypeDefinitionIndex = 61020;
 
 	struct alignas(4) NCOONILMDAC_GPBIGPHPOLC
 	{

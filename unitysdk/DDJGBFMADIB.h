@@ -3,21 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class MiniGameCollectCoin_CurveConfig; }
 
-#define DDJGBFMADIB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9ED5B0)
-#define DDJGBFMADIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9ED600)
+#define DDJGBFMADIB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB1F850)
+#define DDJGBFMADIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1F8A0)
 
-inline static constexpr unsigned int DDJGBFMADIB_TypeDefinitionIndex = 43503;
+inline static constexpr unsigned int DDJGBFMADIB_TypeDefinitionIndex = 44485;
 
 	class DDJGBFMADIB : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::MiniGameCollectCoin_CurveConfig* LBAJEKMJFHH; // 0x10
-		::System::Boolean FPDBMNIGPCB; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::Single NHJMKDHJNJE; // 0x1C
-		::System::Single JJBOJONHNHJ; // 0x20
+		::System::Single JJBOJONHNHJ; // 0x18
+		::System::Single EAGMNGIMPNG; // 0x1C
+		::System::Single NHJMKDHJNJE; // 0x20
 		::System::Single JEJEAABCFLB; // 0x24
-		::System::Single EAGMNGIMPNG; // 0x28
+		::System::Boolean FPDBMNIGPCB; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDJGBFMADIB_CTOR_OFFSET))(this);

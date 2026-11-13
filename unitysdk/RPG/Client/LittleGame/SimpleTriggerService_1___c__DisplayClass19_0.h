@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleTriggerService_1___c__DisplayClass19_0_TypeDefinitionIndex = 76525;
+	inline static constexpr unsigned int SimpleTriggerService_1___c__DisplayClass19_0_TypeDefinitionIndex = 78856;
 
 	template <typename T>
 	class SimpleTriggerService_1___c__DisplayClass19_0 : public ::System::Object

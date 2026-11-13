@@ -6,31 +6,31 @@ namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC44BBE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC44BC20)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C___CTOR_B__19_0_OFFSET UNITYSDK_OFFSET(0xC44BC30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C___GETSTRONGESTEQUIPLIST_B__35_1_OFFSET UNITYSDK_OFFSET(0xC44BD40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D132CF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D132D30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C___CTOR_B__19_0_OFFSET UNITYSDK_OFFSET(0x1D132D40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C___GETSTRONGESTEQUIPLIST_B__35_1_OFFSET UNITYSDK_OFFSET(0x1D132E50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex = 75434;
+	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex = 77761;
 
 	class BaseSpEquipInventoryDisplayData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>** StaticGet___9__35_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1BD20);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1D780);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpecialEquip*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpecialEquip*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1BD28);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpecialEquip*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1D788);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>** StaticGet___9__35_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1BD30);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1D790);
 		}
 
 		static ::System::Void _cctor()

@@ -4,9 +4,9 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define GEHHDAPGKFG_BJFCPHAFOCE_OFFSET UNITYSDK_OFFSET(0x159CB3B0)
+#define GEHHDAPGKFG_BJFCPHAFOCE_OFFSET UNITYSDK_OFFSET(0x17CD7BD0)
 
-inline static constexpr unsigned int GEHHDAPGKFG_TypeDefinitionIndex = 49151;
+inline static constexpr unsigned int GEHHDAPGKFG_TypeDefinitionIndex = 50227;
 
 	class GEHHDAPGKFG : public ::System::Object
 	{

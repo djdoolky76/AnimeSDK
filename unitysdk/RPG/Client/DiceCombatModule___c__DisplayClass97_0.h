@@ -5,13 +5,13 @@ namespace RPG::Client { class DiceCombatModule; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS97_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCCBB5C0)
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS97_0__UPDATEV2FRIENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCCBD270)
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS97_0__UPDATEV2FRIENDDATA_B__1_OFFSET UNITYSDK_OFFSET(0xCCBD2B0)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS97_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA45E40)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS97_0__UPDATEV2FRIENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1DA45E50)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS97_0__UPDATEV2FRIENDDATA_B__1_OFFSET UNITYSDK_OFFSET(0x1DA45E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass97_0_TypeDefinitionIndex = 63562;
+	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass97_0_TypeDefinitionIndex = 65004;
 
 	class DiceCombatModule___c__DisplayClass97_0 : public ::System::Object
 	{

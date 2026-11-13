@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace R3
 {
-	inline static constexpr unsigned int AnonymousObserver_1_TypeDefinitionIndex = 35923;
+	inline static constexpr unsigned int AnonymousObserver_1_TypeDefinitionIndex = 36851;
 
 	template <typename T>
 	class AnonymousObserver_1

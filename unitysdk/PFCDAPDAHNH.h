@@ -8,17 +8,17 @@ class PFCDAPDAHNH;
 namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 namespace System { class String; }
 
-#define PFCDAPDAHNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AC2E0)
-#define PFCDAPDAHNH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2AC2F0)
-#define PFCDAPDAHNH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2AC2B0)
+#define PFCDAPDAHNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E717AD0)
+#define PFCDAPDAHNH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E717AE0)
+#define PFCDAPDAHNH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E717AA0)
 
-inline static constexpr unsigned int PFCDAPDAHNH_TypeDefinitionIndex = 21496;
+inline static constexpr unsigned int PFCDAPDAHNH_TypeDefinitionIndex = 21849;
 
 	class PFCDAPDAHNH : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* IEHPFADHJFD; // 0x18
-		::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x20
+		::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x18
+		::System::String* IEHPFADHJFD; // 0x20
 		::RPG::GameCore::LittleGameEntityType EAMICGDAKCN; // 0x28
 		::RPG::GameCore::ChenLingFesTargetType HILNFHCPEAD; // 0x2C
 		::System::Void _ctor()

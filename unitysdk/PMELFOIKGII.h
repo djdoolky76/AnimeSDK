@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvLogisticsRobotDoorOpen; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PMELFOIKGII_CTOR_OFFSET UNITYSDK_OFFSET(0xC311B90)
-#define PMELFOIKGII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC311BC0)
+#define PMELFOIKGII_CTOR_OFFSET UNITYSDK_OFFSET(0x1889E6E0)
+#define PMELFOIKGII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1889E710)
 
-inline static constexpr unsigned int PMELFOIKGII_TypeDefinitionIndex = 52393;
+inline static constexpr unsigned int PMELFOIKGII_TypeDefinitionIndex = 53499;
 
 	class PMELFOIKGII
 	{

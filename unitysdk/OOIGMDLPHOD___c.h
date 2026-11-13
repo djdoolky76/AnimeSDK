@@ -4,18 +4,18 @@
 class OOIGMDLPHOD;
 namespace System { class Object; }
 
-#define OOIGMDLPHOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEAAF90)
-#define OOIGMDLPHOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAAFD0)
-#define OOIGMDLPHOD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEAAFE0)
+#define OOIGMDLPHOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2035E5A0)
+#define OOIGMDLPHOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2035E5E0)
+#define OOIGMDLPHOD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2035E5F0)
 
-inline static constexpr unsigned int OOIGMDLPHOD___c_TypeDefinitionIndex = 31419;
+inline static constexpr unsigned int OOIGMDLPHOD___c_TypeDefinitionIndex = 32332;
 
 	class OOIGMDLPHOD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A100);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29DC0);
 		}
 
 		static ::System::Void _cctor()

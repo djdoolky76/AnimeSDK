@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirTagDisplayRow; }
 
-#define RPG_GAMECORE_PIXAIRTAGDISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F08E0)
-#define RPG_GAMECORE_PIXAIRTAGDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F06E0)
+#define RPG_GAMECORE_PIXAIRTAGDISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5F040)
+#define RPG_GAMECORE_PIXAIRTAGDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE5EE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirTagDisplayRow_TypeDefinitionIndex = 12167;
+	inline static constexpr unsigned int PixAirTagDisplayRow_TypeDefinitionIndex = 12224;
 
 	class PixAirTagDisplayRow : public ::System::Object
 	{

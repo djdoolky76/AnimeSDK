@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Spine
 {
-	inline static constexpr unsigned int Pool_1_TypeDefinitionIndex = 39635;
+	inline static constexpr unsigned int Pool_1_TypeDefinitionIndex = 40564;
 
 	template <typename T>
 	class Pool_1 : public ::System::Object

@@ -4,18 +4,18 @@
 #include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C34CA0)
-#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B00)
+#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3E3CBD0)
+#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3DD4B80)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass__Warmup_d__4_TypeDefinitionIndex = 37564;
+	inline static constexpr unsigned int DLSSPass__Warmup_d__4_TypeDefinitionIndex = 38492;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	struct alignas(4) DLSSPass__Warmup_d__4
 	{
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x30
+		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x10
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x18
 		::System::Int32 __1__state; // 0x38
 		::System::Void MoveNext()
 		{

@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GALEONNOFFJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x159373C0)
-#define GALEONNOFFJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15937400)
-#define GALEONNOFFJ___C__INFOMODIFIEREFFECTTARGETS_B__19_0_OFFSET UNITYSDK_OFFSET(0x15937410)
+#define GALEONNOFFJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B872CE0)
+#define GALEONNOFFJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B872D20)
+#define GALEONNOFFJ___C__INFOMODIFIEREFFECTTARGETS_B__19_0_OFFSET UNITYSDK_OFFSET(0x1B872D30)
 
-inline static constexpr unsigned int GALEONNOFFJ___c_TypeDefinitionIndex = 77563;
+inline static constexpr unsigned int GALEONNOFFJ___c_TypeDefinitionIndex = 80298;
 
 	class GALEONNOFFJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::KAKADGHNMFK*, ::System::String*>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::KAKADGHNMFK*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x569C0);
+			return (::System::Func_2<::KAKADGHNMFK*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59520);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x569C8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59528);
 		}
 
 		static ::System::Void _cctor()

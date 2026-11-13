@@ -4,23 +4,23 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 
-#define PIADFJMKFEI_CTOR_OFFSET UNITYSDK_OFFSET(0xC253290)
-#define PIADFJMKFEI_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xC253060)
-#define PIADFJMKFEI_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xC2530A0)
-#define PIADFJMKFEI_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC252D30)
-#define PIADFJMKFEI_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xC252D40)
+#define PIADFJMKFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9BDD30)
+#define PIADFJMKFEI_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x1A9BDB00)
+#define PIADFJMKFEI_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1A9BDB40)
+#define PIADFJMKFEI_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A9BD7D0)
+#define PIADFJMKFEI_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x1A9BD7E0)
 
-inline static constexpr unsigned int PIADFJMKFEI_TypeDefinitionIndex = 56149;
+inline static constexpr unsigned int PIADFJMKFEI_TypeDefinitionIndex = 57361;
 
 	class PIADFJMKFEI : public ::DBGDNLLDPFI
 	{
 	public:
-		::System::UInt32 BNCODJLHDMN; // 0x10
+		::RPG::GameCore::FixPoint IFLBAAABKAI; // 0x10
+		::System::UInt32 BNCODJLHDMN; // 0x18
+		::System::UInt32 AIMGACMOMDD; // 0x1C
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x20
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint KHBBNDBJAFK; // 0x18
-		::RPG::GameCore::FixPoint IFLBAAABKAI; // 0x20
-		::System::UInt32 AIMGACMOMDD; // 0x28
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x2C
+		::RPG::GameCore::FixPoint KHBBNDBJAFK; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIADFJMKFEI_CTOR_OFFSET))(this);

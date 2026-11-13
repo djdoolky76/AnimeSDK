@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_TriggerInstantAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BAEJOJBGELA_CTOR_OFFSET UNITYSDK_OFFSET(0x15BCD470)
-#define BAEJOJBGELA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BCD4A0)
+#define BAEJOJBGELA_CTOR_OFFSET UNITYSDK_OFFSET(0x199CC7E0)
+#define BAEJOJBGELA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199CC810)
 
-inline static constexpr unsigned int BAEJOJBGELA_TypeDefinitionIndex = 52104;
+inline static constexpr unsigned int BAEJOJBGELA_TypeDefinitionIndex = 53209;
 
 	class BAEJOJBGELA
 	{

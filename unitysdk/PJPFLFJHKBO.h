@@ -3,10 +3,10 @@
 class EJOCPHPCKDL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PJPFLFJHKBO_CTOR_OFFSET UNITYSDK_OFFSET(0xC296A60)
-#define PJPFLFJHKBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC296A90)
+#define PJPFLFJHKBO_CTOR_OFFSET UNITYSDK_OFFSET(0x147A1E10)
+#define PJPFLFJHKBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147A1E40)
 
-inline static constexpr unsigned int PJPFLFJHKBO_TypeDefinitionIndex = 58668;
+inline static constexpr unsigned int PJPFLFJHKBO_TypeDefinitionIndex = 59935;
 
 	class PJPFLFJHKBO
 	{

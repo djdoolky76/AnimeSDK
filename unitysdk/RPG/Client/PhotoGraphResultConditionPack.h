@@ -8,14 +8,14 @@ namespace RPG::Client { class PhotoGraphResultCondition; }
 namespace RPG::GameCore { class PhotoGraphShotResultCondition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0xDAF8AD0)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CTOR_OFFSET UNITYSDK_OFFSET(0xDAF8810)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDAF8B60)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0xDAF89A0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0x18D70D40)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CTOR_OFFSET UNITYSDK_OFFSET(0x18D70A80)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18D70DD0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0x18D70C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 69456;
+	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 71410;
 
 	class PhotoGraphResultConditionPack : public ::System::Object
 	{
@@ -23,9 +23,10 @@ namespace RPG::Client
 		::PEMJDEKBMAD* _ResultChange; // 0x10
 		::Il2CppArray<::RPG::Client::PhotoGraphResultCondition*>* PhotoGraphResultSingleConditions; // 0x18
 		::RPG::Client::TextID ConditionName; // 0x20
-		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x30
-		::System::Boolean AutoSnapFovLevel; // 0x34
-		::System::Boolean _LastResult; // 0x35
+		::System::Boolean _LastResult; // 0x30
+		::System::Boolean AutoSnapFovLevel; // 0x31
+		::System::Byte _padding0[0x2];
+		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x34
 		::System::Void _ctor(::RPG::GameCore::PhotoGraphShotResultCondition* a1, ::RPG::GameCore::TaskContext* a2, ::PEMJDEKBMAD* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PhotoGraphShotResultCondition*, ::RPG::GameCore::TaskContext*, ::PEMJDEKBMAD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CTOR_OFFSET))(this, a1, a2, a3);

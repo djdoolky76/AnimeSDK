@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetCameraRootFollow; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6BBA0)
-#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA6BBB0)
-#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA6BB70)
+#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F85D6F0)
+#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F85D700)
+#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F85D6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCameraRootFollow_TypeDefinitionIndex = 22890;
+	inline static constexpr unsigned int SetCameraRootFollow_TypeDefinitionIndex = 23316;
 
 	class SetCameraRootFollow : public ::RPG::GameCore::TaskConfig
 	{

@@ -11,39 +11,70 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define IKKJJHHENJB_ADGNKMJFOHF_OFFSET UNITYSDK_OFFSET(0x16485FA0)
-#define IKKJJHHENJB_AOEFBACEGIB_OFFSET UNITYSDK_OFFSET(0x16486120)
-#define IKKJJHHENJB_BLJPLIKHPPP_OFFSET UNITYSDK_OFFSET(0x16485D60)
-#define IKKJJHHENJB_BMALLPEEPAN_OFFSET UNITYSDK_OFFSET(0x16485360)
-#define IKKJJHHENJB_CHOKNLJGFGI_OFFSET UNITYSDK_OFFSET(0x16485850)
-#define IKKJJHHENJB_CTOR_OFFSET UNITYSDK_OFFSET(0x16484A90)
-#define IKKJJHHENJB_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x16484BF0)
-#define IKKJJHHENJB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16484AA0)
-#define IKKJJHHENJB_FPAPADPPFFI_OFFSET UNITYSDK_OFFSET(0x16484D50)
-#define IKKJJHHENJB_ICKCKJDFPIJ_OFFSET UNITYSDK_OFFSET(0x16485580)
-#define IKKJJHHENJB_JNCLHNHMOJD_OFFSET UNITYSDK_OFFSET(0x16484A30)
-#define IKKJJHHENJB_LHOAODMMMPE_OFFSET UNITYSDK_OFFSET(0x16485960)
-#define IKKJJHHENJB_LJNIHFDLPEA_OFFSET UNITYSDK_OFFSET(0x16485BE0)
-#define IKKJJHHENJB_NCNMMOHOOEE_OFFSET UNITYSDK_OFFSET(0x16484980)
-#define IKKJJHHENJB_NPOCLLEFICP_OFFSET UNITYSDK_OFFSET(0x16484CF0)
-#define IKKJJHHENJB_PCEINNJJIOO_OFFSET UNITYSDK_OFFSET(0x164850E0)
-#define IKKJJHHENJB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x16484AF0)
-#define IKKJJHHENJB_PNNLADJHCNH_OFFSET UNITYSDK_OFFSET(0x16484C50)
-#define IKKJJHHENJB_POCLGENBCCJ_OFFSET UNITYSDK_OFFSET(0x16486280)
+#define IKKJJHHENJB_ADGNKMJFOHF_OFFSET UNITYSDK_OFFSET(0x1B574D60)
+#define IKKJJHHENJB_AEFAIIDLFCI_OFFSET UNITYSDK_OFFSET(0x18083D60)
+#define IKKJJHHENJB_AEJDFJKLKKD_OFFSET UNITYSDK_OFFSET(0x18083BA0)
+#define IKKJJHHENJB_AOEFBACEGIB_OFFSET UNITYSDK_OFFSET(0x1B574FB0)
+#define IKKJJHHENJB_BAKDBPHHGFB_OFFSET UNITYSDK_OFFSET(0x18083F30)
+#define IKKJJHHENJB_BLJPLIKHPPP_OFFSET UNITYSDK_OFFSET(0x1B574B20)
+#define IKKJJHHENJB_BMALLPEEPAN_OFFSET UNITYSDK_OFFSET(0x18083470)
+#define IKKJJHHENJB_CDCEDACIKDI_OFFSET UNITYSDK_OFFSET(0x18083F80)
+#define IKKJJHHENJB_CTOR_OFFSET UNITYSDK_OFFSET(0x18082BC0)
+#define IKKJJHHENJB_DAFKLJBHGED_OFFSET UNITYSDK_OFFSET(0x1B5746F0)
+#define IKKJJHHENJB_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x18082DA0)
+#define IKKJJHHENJB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18082C10)
+#define IKKJJHHENJB_EMNKCMGHPCF_OFFSET UNITYSDK_OFFSET(0x18084840)
+#define IKKJJHHENJB_FGHECGAIAFH_OFFSET UNITYSDK_OFFSET(0x1B5747E0)
+#define IKKJJHHENJB_FJCPHCCFKEA_OFFSET UNITYSDK_OFFSET(0x180847D0)
+#define IKKJJHHENJB_FPAPADPPFFI_OFFSET UNITYSDK_OFFSET(0x18082E60)
+#define IKKJJHHENJB_GCBKDADGKPF_OFFSET UNITYSDK_OFFSET(0x18083E10)
+#define IKKJJHHENJB_HGNPCPODKBE_OFFSET UNITYSDK_OFFSET(0x18084200)
+#define IKKJJHHENJB_ICKCKJDFPIJ_OFFSET UNITYSDK_OFFSET(0x180837E0)
+#define IKKJJHHENJB_JFPNJEDBPPI_OFFSET UNITYSDK_OFFSET(0x180834C0)
+#define IKKJJHHENJB_JLLBIBNMEIH_OFFSET UNITYSDK_OFFSET(0x18084020)
+#define IKKJJHHENJB_JNCLHNHMOJD_OFFSET UNITYSDK_OFFSET(0x18082B60)
+#define IKKJJHHENJB_KEIJODDHCIO_OFFSET UNITYSDK_OFFSET(0x180848F0)
+#define IKKJJHHENJB_LHOAODMMMPE_OFFSET UNITYSDK_OFFSET(0x180843C0)
+#define IKKJJHHENJB_LJNIHFDLPEA_OFFSET UNITYSDK_OFFSET(0x180845B0)
+#define IKKJJHHENJB_LKMGNLCHDIE_OFFSET UNITYSDK_OFFSET(0x18082A50)
+#define IKKJJHHENJB_MNCLKLJPPLG_OFFSET UNITYSDK_OFFSET(0x18084160)
+#define IKKJJHHENJB_MOKFEPLHDKH_OFFSET UNITYSDK_OFFSET(0x18082A10)
+#define IKKJJHHENJB_NCNMMOHOOEE_OFFSET UNITYSDK_OFFSET(0x18082AB0)
+#define IKKJJHHENJB_NPOCLLEFICP_OFFSET UNITYSDK_OFFSET(0x18082E00)
+#define IKKJJHHENJB_PCEINNJJIOO_OFFSET UNITYSDK_OFFSET(0x180831F0)
+#define IKKJJHHENJB_PHHMKBBAKDA_OFFSET UNITYSDK_OFFSET(0x18084730)
+#define IKKJJHHENJB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x18082C60)
+#define IKKJJHHENJB_PNNLADJHCNH_OFFSET UNITYSDK_OFFSET(0x1B574A80)
+#define IKKJJHHENJB_POCLGENBCCJ_OFFSET UNITYSDK_OFFSET(0x1B575110)
 
-inline static constexpr unsigned int IKKJJHHENJB_TypeDefinitionIndex = 60745;
+inline static constexpr unsigned int IKKJJHHENJB_TypeDefinitionIndex = 62122;
 
 	class IKKJJHHENJB : public ::System::Object
 	{
 	public:
-		::RPG::Client::PerformanceManager* HDPDEGPELBN; // 0x10
-		::UnityEngine::Transform* BFJOMBDJAGH; // 0x18
-		::System::Collections::Generic::List_1<::System::Object*>* OHGIBJPLJMD; // 0x20
-		::System::Collections::Generic::List_1<::System::Object*>* CCGHHHBLPMN; // 0x28
-		::System::Boolean CAAPEIJJICA; // 0x30
+		::IKKJJHHENJB_KEIMAGBGCDP* BOOOIPJKFIE; // 0x10
+		::IKKJJHHENJB_KEIMAGBGCDP* MANJFKMHBBD; // 0x18
+		::RPG::Client::PerformanceManager* HDPDEGPELBN; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* OHGIBJPLJMD; // 0x28
+		::UnityEngine::Transform* BFJOMBDJAGH; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* FMNEHAPOPGN; // 0x38
+		::Il2CppArray<::System::Boolean>* NPIFDMBOPNH; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* CCGHHHBLPMN; // 0x48
+		::System::Boolean CAAPEIJJICA; // 0x50
+		// static const ::System::Object NDKEGAADDHI; // 0x0
 		::System::Void _ctor(::RPG::Client::PerformanceManager* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::PerformanceManager*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_CTOR_OFFSET))(this, a1);
+		}
+
+		static ::System::Int32 MOKFEPLHDKH(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + IKKJJHHENJB_MOKFEPLHDKH_OFFSET))(a1);
+		}
+
+		static ::System::Int32 LKMGNLCHDIE(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + IKKJJHHENJB_LKMGNLCHDIE_OFFSET))(a1);
 		}
 
 		::System::Boolean NCNMMOHOOEE()
@@ -91,9 +122,34 @@ inline static constexpr unsigned int IKKJJHHENJB_TypeDefinitionIndex = 60745;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_ICKCKJDFPIJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CHOKNLJGFGI()
+		::System::Void AEJDFJKLKKD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKKJJHHENJB_CHOKNLJGFGI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKKJJHHENJB_AEJDFJKLKKD_OFFSET))(this);
+		}
+
+		::System::Boolean AEFAIIDLFCI(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IKKJJHHENJB_AEFAIIDLFCI_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void CDCEDACIKDI(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_CDCEDACIKDI_OFFSET))(this, a1);
+		}
+
+		::System::Boolean GCBKDADGKPF(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IKKJJHHENJB_GCBKDADGKPF_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Boolean JLLBIBNMEIH(::System::String* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_JLLBIBNMEIH_OFFSET))(this, a1);
+		}
+
+		::System::Void BAKDBPHHGFB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKKJJHHENJB_BAKDBPHHGFB_OFFSET))(this);
 		}
 
 		::System::Void LHOAODMMMPE(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
@@ -106,9 +162,54 @@ inline static constexpr unsigned int IKKJJHHENJB_TypeDefinitionIndex = 60745;
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_LJNIHFDLPEA_OFFSET))(this, a1);
 		}
 
-		::System::Void PCEINNJJIOO(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::NPCSubType a2, ::System::String* a3)
+		::IKKJJHHENJB_KEIMAGBGCDP* PCEINNJJIOO(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::NPCSubType a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::NPCSubType, ::System::String*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_PCEINNJJIOO_OFFSET))(this, a1, a2, a3);
+			return ((::IKKJJHHENJB_KEIMAGBGCDP*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::NPCSubType, ::System::String*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_PCEINNJJIOO_OFFSET))(this, a1, a2, a3);
+		}
+
+		::IKKJJHHENJB_KEIMAGBGCDP* HGNPCPODKBE(::System::String* a1)
+		{
+			return ((::IKKJJHHENJB_KEIMAGBGCDP*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_HGNPCPODKBE_OFFSET))(this, a1);
+		}
+
+		::IKKJJHHENJB_KEIMAGBGCDP* MNCLKLJPPLG(::System::String* a1)
+		{
+			return ((::IKKJJHHENJB_KEIMAGBGCDP*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_MNCLKLJPPLG_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::NPCSubType PHHMKBBAKDA(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::RPG::GameCore::NPCSubType(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_PHHMKBBAKDA_OFFSET))(this, a1);
+		}
+
+		::System::Void JFPNJEDBPPI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKKJJHHENJB_JFPNJEDBPPI_OFFSET))(this);
+		}
+
+		::System::Void FJCPHCCFKEA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKKJJHHENJB_FJCPHCCFKEA_OFFSET))(this);
+		}
+
+		::System::Void EMNKCMGHPCF(::IKKJJHHENJB_KEIMAGBGCDP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IKKJJHHENJB_KEIMAGBGCDP*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_EMNKCMGHPCF_OFFSET))(this, a1);
+		}
+
+		::System::Int32 KEIJODDHCIO(::IKKJJHHENJB_KEIMAGBGCDP* a1, ::System::Int32 a2)
+		{
+			return ((::System::Int32(*)(::PVOID, ::IKKJJHHENJB_KEIMAGBGCDP*, ::System::Int32))((::PBYTE)hIl2Cpp + IKKJJHHENJB_KEIJODDHCIO_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void DAFKLJBHGED(::System::Collections::Generic::List_1<::System::Object*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + IKKJJHHENJB_DAFKLJBHGED_OFFSET))(this, a1);
+		}
+
+		::System::Void FGHECGAIAFH(::IKKJJHHENJB_KEIMAGBGCDP* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::IKKJJHHENJB_KEIMAGBGCDP*, ::System::Boolean))((::PBYTE)hIl2Cpp + IKKJJHHENJB_FGHECGAIAFH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PNNLADJHCNH()

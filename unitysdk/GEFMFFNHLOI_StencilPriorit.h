@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GEFMFFNHLOI_StencilPriorit_TypeDefinitionIndex = 70195;
+inline static constexpr unsigned int GEFMFFNHLOI_StencilPriorit_TypeDefinitionIndex = 72161;
 
 	enum class GEFMFFNHLOI_StencilPriorit : ::System::Int32
 	{

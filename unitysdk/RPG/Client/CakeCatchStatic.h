@@ -9,170 +9,170 @@ namespace RPG::Client { class TrainCakeCatchExhibitController; }
 namespace RPG::GameCore { class DynamicValue; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKECATCHSTATIC_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8E7860)
-#define RPG_CLIENT_CAKECATCHSTATIC_GETBUBBLEOFFSETINDEX_OFFSET UNITYSDK_OFFSET(0xC8D7240)
-#define RPG_CLIENT_CAKECATCHSTATIC_GETDEFAULTBUBBLEOFFSET_OFFSET UNITYSDK_OFFSET(0xC8D74B0)
-#define RPG_CLIENT_CAKECATCHSTATIC_GETEXHIBITCONTROLLER_OFFSET UNITYSDK_OFFSET(0xC8D04E0)
-#define RPG_CLIENT_CAKECATCHSTATIC_GETGROUNDBUBBLEOFFSETINDEX_OFFSET UNITYSDK_OFFSET(0xC8E77B0)
-#define RPG_CLIENT_CAKECATCHSTATIC_GETSHELFBUBBLEOFFSETINDEX_OFFSET UNITYSDK_OFFSET(0xC8E7810)
-#define RPG_CLIENT_CAKECATCHSTATIC_GETSHELFDATALIST_OFFSET UNITYSDK_OFFSET(0xC8E6B20)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_CATDIALOGUEBUBBLEOFFSETS_OFFSET UNITYSDK_OFFSET(0xC8E6A50)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_FINISHEDFIRSTCAKECATCH_OFFSET UNITYSDK_OFFSET(0xC8E0160)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_FINISHEDPREARRANGEMISSION_OFFSET UNITYSDK_OFFSET(0xC8E6740)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_FINISHEDPREGUIDEMISSION_OFFSET UNITYSDK_OFFSET(0xC8E6690)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_FINISHEDPRELEVELREQUIREMENT_OFFSET UNITYSDK_OFFSET(0xC8E65E0)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_MAX_CAT_OBTAINABLE_COUNT_OFFSET UNITYSDK_OFFSET(0xC8E2200)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_POSE1_UNLOCK_THRESHOLD_OFFSET UNITYSDK_OFFSET(0xC8D5CE0)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_POSE2_UNLOCK_THRESHOLD_OFFSET UNITYSDK_OFFSET(0xC8D5DE0)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_SOCIALPLAYUNLOCKED_OFFSET UNITYSDK_OFFSET(0xC8E68A0)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_SOCIALPLAYUNLOCKID_OFFSET UNITYSDK_OFFSET(0xC8E6950)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_STORY_UNLOCK_THRESHOLD_OFFSET UNITYSDK_OFFSET(0xC8D7D10)
-#define RPG_CLIENT_CAKECATCHSTATIC_GET_VISITFUNCTIONUNLOCKED_OFFSET UNITYSDK_OFFSET(0xC8E67F0)
-#define RPG_CLIENT_CAKECATCHSTATIC_ISCAKEGODSEEN_OFFSET UNITYSDK_OFFSET(0xC8E7310)
-#define RPG_CLIENT_CAKECATCHSTATIC_ISCATGODINTERACTABLE_OFFSET UNITYSDK_OFFSET(0xC8CFA00)
-#define RPG_CLIENT_CAKECATCHSTATIC_ISLOCALBOXOPENABLE_OFFSET UNITYSDK_OFFSET(0xC8CFBA0)
-#define RPG_CLIENT_CAKECATCHSTATIC_ISLOCALCATGODVISIBLE_OFFSET UNITYSDK_OFFSET(0xC8CFAD0)
-#define RPG_CLIENT_CAKECATCHSTATIC_ISSPECIALSHELFUNLOCKSTATUSSEEN_OFFSET UNITYSDK_OFFSET(0xC8E7260)
-#define RPG_CLIENT_CAKECATCHSTATIC_SETCAKEGODSEEN_OFFSET UNITYSDK_OFFSET(0xC8E74E0)
-#define RPG_CLIENT_CAKECATCHSTATIC_SETSPECIALSHELFUNLOCKSTATUSSEEN_OFFSET UNITYSDK_OFFSET(0xC8E72B0)
-#define RPG_CLIENT_CAKECATCHSTATIC_STARTCAKEPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xC8E6C90)
-#define RPG_CLIENT_CAKECATCHSTATIC__GETGROUNDTYPETOBUBBLEOFFSETID_OFFSET UNITYSDK_OFFSET(0xC8E7760)
+#define RPG_CLIENT_CAKECATCHSTATIC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD86CB0)
+#define RPG_CLIENT_CAKECATCHSTATIC_GETBUBBLEOFFSETINDEX_OFFSET UNITYSDK_OFFSET(0x1BD766B0)
+#define RPG_CLIENT_CAKECATCHSTATIC_GETDEFAULTBUBBLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1BD76920)
+#define RPG_CLIENT_CAKECATCHSTATIC_GETEXHIBITCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1BD6F950)
+#define RPG_CLIENT_CAKECATCHSTATIC_GETGROUNDBUBBLEOFFSETINDEX_OFFSET UNITYSDK_OFFSET(0x1BD86C00)
+#define RPG_CLIENT_CAKECATCHSTATIC_GETSHELFBUBBLEOFFSETINDEX_OFFSET UNITYSDK_OFFSET(0x1BD86C60)
+#define RPG_CLIENT_CAKECATCHSTATIC_GETSHELFDATALIST_OFFSET UNITYSDK_OFFSET(0x1BD85F80)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_CATDIALOGUEBUBBLEOFFSETS_OFFSET UNITYSDK_OFFSET(0x1BD85EB0)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_FINISHEDFIRSTCAKECATCH_OFFSET UNITYSDK_OFFSET(0x1BD7F5E0)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_FINISHEDPREARRANGEMISSION_OFFSET UNITYSDK_OFFSET(0x1BD85BA0)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_FINISHEDPREGUIDEMISSION_OFFSET UNITYSDK_OFFSET(0x1BD85AF0)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_FINISHEDPRELEVELREQUIREMENT_OFFSET UNITYSDK_OFFSET(0x1BD85A40)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_MAX_CAT_OBTAINABLE_COUNT_OFFSET UNITYSDK_OFFSET(0x1BD81660)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_POSE1_UNLOCK_THRESHOLD_OFFSET UNITYSDK_OFFSET(0x1BD75170)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_POSE2_UNLOCK_THRESHOLD_OFFSET UNITYSDK_OFFSET(0x1BD75270)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_SOCIALPLAYUNLOCKED_OFFSET UNITYSDK_OFFSET(0x1BD85D00)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_SOCIALPLAYUNLOCKID_OFFSET UNITYSDK_OFFSET(0x1BD85DB0)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_STORY_UNLOCK_THRESHOLD_OFFSET UNITYSDK_OFFSET(0x1BD77180)
+#define RPG_CLIENT_CAKECATCHSTATIC_GET_VISITFUNCTIONUNLOCKED_OFFSET UNITYSDK_OFFSET(0x1BD85C50)
+#define RPG_CLIENT_CAKECATCHSTATIC_ISCAKEGODSEEN_OFFSET UNITYSDK_OFFSET(0x1BD86760)
+#define RPG_CLIENT_CAKECATCHSTATIC_ISCATGODINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BD6EE70)
+#define RPG_CLIENT_CAKECATCHSTATIC_ISLOCALBOXOPENABLE_OFFSET UNITYSDK_OFFSET(0x1BD6F010)
+#define RPG_CLIENT_CAKECATCHSTATIC_ISLOCALCATGODVISIBLE_OFFSET UNITYSDK_OFFSET(0x1BD6EF40)
+#define RPG_CLIENT_CAKECATCHSTATIC_ISSPECIALSHELFUNLOCKSTATUSSEEN_OFFSET UNITYSDK_OFFSET(0x1BD866B0)
+#define RPG_CLIENT_CAKECATCHSTATIC_SETCAKEGODSEEN_OFFSET UNITYSDK_OFFSET(0x1BD86930)
+#define RPG_CLIENT_CAKECATCHSTATIC_SETSPECIALSHELFUNLOCKSTATUSSEEN_OFFSET UNITYSDK_OFFSET(0x1BD86700)
+#define RPG_CLIENT_CAKECATCHSTATIC_STARTCAKEPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x1BD860F0)
+#define RPG_CLIENT_CAKECATCHSTATIC__GETGROUNDTYPETOBUBBLEOFFSETID_OFFSET UNITYSDK_OFFSET(0x1BD86BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchStatic_TypeDefinitionIndex = 62971;
+	inline static constexpr unsigned int CakeCatchStatic_TypeDefinitionIndex = 64409;
 
 	class CakeCatchStatic : public ::System::Object
 	{
 	public:
-		static ::System::UInt32* StaticGet_PreGuideMissionGotoID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x2680);
-		}
-
-		static ::System::UInt32* StaticGet__FinishedPreGuideMissionUnlockID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x2684);
-		}
-
-		static ::System::UInt32* StaticGet__FinishedPreLevelRequirementUnlockID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x2688);
-		}
-
-		static ::System::Single* StaticGet_CatDialogueGroupCD()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x268C);
-		}
-
-		static ::System::UInt32* StaticGet_WEEKLY_MAX_CATCH_COUNT()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x2690);
-		}
-
-		static ::System::UInt32* StaticGet_CatBoxGroupID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x2694);
-		}
-
-		static ::System::UInt32* StaticGet_CatGodPropID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x2698);
-		}
-
-		static ::System::UInt32* StaticGet_CatGodGroupID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x269C);
-		}
-
-		static ::System::UInt32* StaticGet_ArrangeAreaInteractPropInstanceID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26A0);
-		}
-
-		static ::System::UInt32* StaticGet_OnlinePlayRoomFriendEntryId()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26A4);
-		}
-
-		static ::System::UInt32* StaticGet_CakeCatchShelfMappingInfoID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26A8);
-		}
-
-		static ::System::UInt32* StaticGet_TEXTJOIN_ID_CAKE_CATCH_WEEKLY_CAUGHT_COUNT()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26AC);
-		}
-
-		static ::System::Single* StaticGet_CatDialogueBubbleTime()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26B0);
-		}
-
-		static ::System::UInt32* StaticGet_PreMainMissionID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26B4);
-		}
-
-		static ::System::UInt32* StaticGet_CatGodMapIconType()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26B8);
-		}
-
-		static ::System::UInt32* StaticGet_CatGodInstanceID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26BC);
-		}
-
-		static ::System::UInt32* StaticGet_CatBoxInstanceID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26C0);
-		}
-
-		static ::System::UInt32* StaticGet__FinishedPreArrangeMissionUnlockID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26C4);
-		}
-
-		static ::System::UInt32* StaticGet_ArrangeAreaInteractPropGroupID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26C8);
-		}
-
 		static ::System::UInt32* StaticGet__VisitFunctionUnlockID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26CC);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x3090);
 		}
 
-		static ::System::UInt32* StaticGet_CatGodMappingInfoID()
+		static ::System::UInt32* StaticGet_PreGuideMissionGotoID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26D0);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x3094);
 		}
 
 		static ::System::Single* StaticGet_CatTextBubbleTime()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26D4);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x3098);
 		}
 
-		static ::System::UInt32* StaticGet_CAT_NUM_PER_ROOM()
+		static ::System::UInt32* StaticGet__FinishedPreGuideMissionUnlockID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26D8);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x309C);
 		}
 
-		static ::System::UInt32* StaticGet__FirstCatCatchUnlockID()
+		static ::System::UInt32* StaticGet_WEEKLY_MAX_CATCH_COUNT()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26DC);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30A0);
+		}
+
+		static ::System::UInt32* StaticGet_ArrangeAreaInteractPropGroupID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30A4);
 		}
 
 		static ::System::UInt32* StaticGet_MAX_CAT_ARRANGE_COUNT()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26E0);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30A8);
+		}
+
+		static ::System::UInt32* StaticGet_ArrangeAreaInteractPropInstanceID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30AC);
+		}
+
+		static ::System::UInt32* StaticGet__FirstCatCatchUnlockID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30B0);
+		}
+
+		static ::System::UInt32* StaticGet_TEXTJOIN_ID_CAKE_CATCH_WEEKLY_CAUGHT_COUNT()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30B4);
+		}
+
+		static ::System::UInt32* StaticGet_CatGodMappingInfoID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30B8);
+		}
+
+		static ::System::UInt32* StaticGet_CatGodMapIconType()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30BC);
+		}
+
+		static ::System::UInt32* StaticGet_CatBoxInstanceID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30C0);
+		}
+
+		static ::System::UInt32* StaticGet_CatBoxGroupID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30C4);
+		}
+
+		static ::System::UInt32* StaticGet_PreMainMissionID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30C8);
+		}
+
+		static ::System::UInt32* StaticGet_CatGodGroupID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30CC);
+		}
+
+		static ::System::UInt32* StaticGet_OnlinePlayRoomFriendEntryId()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30D0);
 		}
 
 		static ::System::UInt32* StaticGet_OnlinePlayRoomSelfEntryId()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x26E4);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30D4);
+		}
+
+		static ::System::UInt32* StaticGet_CatGodPropID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30D8);
+		}
+
+		static ::System::UInt32* StaticGet_CakeCatchShelfMappingInfoID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30DC);
+		}
+
+		static ::System::UInt32* StaticGet__FinishedPreArrangeMissionUnlockID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30E0);
+		}
+
+		static ::System::UInt32* StaticGet_CatGodInstanceID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30E4);
+		}
+
+		static ::System::UInt32* StaticGet_CAT_NUM_PER_ROOM()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30E8);
+		}
+
+		static ::System::Single* StaticGet_CatDialogueBubbleTime()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30EC);
+		}
+
+		static ::System::Single* StaticGet_CatDialogueGroupCD()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30F0);
+		}
+
+		static ::System::UInt32* StaticGet__FinishedPreLevelRequirementUnlockID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "CakeCatchStatic")->GetStaticField(0x30F4);
 		}
 
 		static ::System::Void _cctor()

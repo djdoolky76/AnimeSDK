@@ -4,10 +4,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EOOMOGCAAPH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x155C1020)
-#define EOOMOGCAAPH___C__DISPLAYCLASS1_0__PREFERTRUE_B__0_OFFSET UNITYSDK_OFFSET(0x155C17D0)
+#define EOOMOGCAAPH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16B2F7E0)
+#define EOOMOGCAAPH___C__DISPLAYCLASS1_0__PREFERTRUE_B__0_OFFSET UNITYSDK_OFFSET(0x16B2FF90)
 
-inline static constexpr unsigned int EOOMOGCAAPH___c__DisplayClass1_0_TypeDefinitionIndex = 62803;
+inline static constexpr unsigned int EOOMOGCAAPH___c__DisplayClass1_0_TypeDefinitionIndex = 64241;
 
 	class EOOMOGCAAPH___c__DisplayClass1_0 : public ::System::Object
 	{

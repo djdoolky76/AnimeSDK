@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ODFMHLICBNC_CTOR_OFFSET UNITYSDK_OFFSET(0xBD8B040)
-#define ODFMHLICBNC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xBD8AF70)
+#define ODFMHLICBNC_CTOR_OFFSET UNITYSDK_OFFSET(0x19A3F390)
+#define ODFMHLICBNC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x19A3F2C0)
 
-inline static constexpr unsigned int ODFMHLICBNC_TypeDefinitionIndex = 62447;
+inline static constexpr unsigned int ODFMHLICBNC_TypeDefinitionIndex = 63860;
 
 	class ODFMHLICBNC : public ::System::Object
 	{

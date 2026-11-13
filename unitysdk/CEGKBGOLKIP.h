@@ -8,11 +8,11 @@ namespace RPG::Client { class RoadRashGameAbilityTargetSelector_SlamTargetConfig
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CEGKBGOLKIP_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xC9D4FB0)
-#define CEGKBGOLKIP_CTOR_OFFSET UNITYSDK_OFFSET(0xC9D5110)
-#define CEGKBGOLKIP_PMEMJPBAKNO_OFFSET UNITYSDK_OFFSET(0xC9D4540)
+#define CEGKBGOLKIP_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x173D5F50)
+#define CEGKBGOLKIP_CTOR_OFFSET UNITYSDK_OFFSET(0x173D60B0)
+#define CEGKBGOLKIP_PMEMJPBAKNO_OFFSET UNITYSDK_OFFSET(0x173D54E0)
 
-inline static constexpr unsigned int CEGKBGOLKIP_TypeDefinitionIndex = 77406;
+inline static constexpr unsigned int CEGKBGOLKIP_TypeDefinitionIndex = 79740;
 
 	class CEGKBGOLKIP : public ::System::Object
 	{

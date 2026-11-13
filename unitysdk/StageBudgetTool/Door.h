@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define STAGEBUDGETTOOL_DOOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE97FF40)
+#define STAGEBUDGETTOOL_DOOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC499E0)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Door_TypeDefinitionIndex = 47724;
+	inline static constexpr unsigned int Door_TypeDefinitionIndex = 48754;
 
 	class Door : public ::System::Object
 	{

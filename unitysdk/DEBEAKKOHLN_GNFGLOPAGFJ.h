@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int DEBEAKKOHLN_GNFGLOPAGFJ_TypeDefinitionIndex = 69810;
+inline static constexpr unsigned int DEBEAKKOHLN_GNFGLOPAGFJ_TypeDefinitionIndex = 71769;
 
 	struct alignas(8) DEBEAKKOHLN_GNFGLOPAGFJ
 	{

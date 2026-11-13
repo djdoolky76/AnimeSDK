@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class SetAttachmentScaleForUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GBMEOKDMCAN_CTOR_OFFSET UNITYSDK_OFFSET(0x15947900)
+#define GBMEOKDMCAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8848A0)
 
-inline static constexpr unsigned int GBMEOKDMCAN_TypeDefinitionIndex = 55885;
+inline static constexpr unsigned int GBMEOKDMCAN_TypeDefinitionIndex = 57088;
 
 	class GBMEOKDMCAN : public ::JHJHLNDJKNM
 	{

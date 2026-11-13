@@ -3,10 +3,10 @@
 class LCDMLIEHLOE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JGHCLPFPNPG_CTOR_OFFSET UNITYSDK_OFFSET(0xB194080)
-#define JGHCLPFPNPG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1940B0)
+#define JGHCLPFPNPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1934DA80)
+#define JGHCLPFPNPG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1934DAB0)
 
-inline static constexpr unsigned int JGHCLPFPNPG_TypeDefinitionIndex = 54172;
+inline static constexpr unsigned int JGHCLPFPNPG_TypeDefinitionIndex = 55336;
 
 	class JGHCLPFPNPG
 	{

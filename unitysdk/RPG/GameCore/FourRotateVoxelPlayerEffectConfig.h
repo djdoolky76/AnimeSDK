@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimPlayerEffectConfig; }
 namespace RPG::GameCore { class FourRotateVoxelPlayerEffectConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYEREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C35A0)
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYEREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C34F0)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYEREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B7100)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYEREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B7050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelPlayerEffectConfig_TypeDefinitionIndex = 16736;
+	inline static constexpr unsigned int FourRotateVoxelPlayerEffectConfig_TypeDefinitionIndex = 16902;
 
 	class FourRotateVoxelPlayerEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

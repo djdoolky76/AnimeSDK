@@ -3,9 +3,9 @@
 #include "unitysdk/EnviromentSystemV2Space/EnvConfigType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define GNDMOHDFAGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF2E30)
+#define GNDMOHDFAGN_CTOR_OFFSET UNITYSDK_OFFSET(0x16CAB950)
 
-inline static constexpr unsigned int GNDMOHDFAGN_TypeDefinitionIndex = 49331;
+inline static constexpr unsigned int GNDMOHDFAGN_TypeDefinitionIndex = 50407;
 
 	class GNDMOHDFAGN : public ::System::Attribute
 	{

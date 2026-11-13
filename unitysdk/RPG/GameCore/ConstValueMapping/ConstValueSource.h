@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::ConstValueMapping
 {
-	inline static constexpr unsigned int ConstValueSource_TypeDefinitionIndex = 43874;
+	inline static constexpr unsigned int ConstValueSource_TypeDefinitionIndex = 44949;
 
 	enum class ConstValueSource : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF84D0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x3EEED00)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ChromaticAberrationParameter_TypeDefinitionIndex = 48553;
+	inline static constexpr unsigned int ChromaticAberrationParameter_TypeDefinitionIndex = 49594;
 
 	struct alignas(4) ChromaticAberrationParameter
 	{

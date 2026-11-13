@@ -5,31 +5,31 @@ namespace RPG::Client::PixAir { class PixAirSlot; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB32F10)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB32F50)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__REPLACESLOTWITHEMPTY_B__20_0_OFFSET UNITYSDK_OFFSET(0xDB33000)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__REPLACESLOTWITHEQUIP_B__19_0_OFFSET UNITYSDK_OFFSET(0xDB32F60)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3568A0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3568E0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__REPLACESLOTWITHEMPTY_B__20_0_OFFSET UNITYSDK_OFFSET(0x1E356990)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__REPLACESLOTWITHEQUIP_B__19_0_OFFSET UNITYSDK_OFFSET(0x1E3568F0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipBar___c_TypeDefinitionIndex = 79326;
+	inline static constexpr unsigned int PixAirEquipBar___c_TypeDefinitionIndex = 82103;
 
 	class PixAirEquipBar___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D2B0);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>** StaticGet___9__20_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D2B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34580);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D2C0);
+			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34588);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>** StaticGet___9__20_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34590);
 		}
 
 		static ::System::Void _cctor()

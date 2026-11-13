@@ -4,10 +4,10 @@
 class PKJOPFLMLLB;
 namespace System { class Object; }
 
-#define HEOAAAKKHLC___C__DISPLAYCLASS18_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA983B0)
-#define HEOAAAKKHLC___C__DISPLAYCLASS18_1___MAKECHOICE_B__2_OFFSET UNITYSDK_OFFSET(0x1CA99130)
+#define HEOAAAKKHLC___C__DISPLAYCLASS18_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9F450)
+#define HEOAAAKKHLC___C__DISPLAYCLASS18_1___MAKECHOICE_B__2_OFFSET UNITYSDK_OFFSET(0x1DAA01D0)
 
-inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass18_1_TypeDefinitionIndex = 43035;
+inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass18_1_TypeDefinitionIndex = 44016;
 
 	template <typename T>
 	class HEOAAAKKHLC___c__DisplayClass18_1 : public ::System::Object

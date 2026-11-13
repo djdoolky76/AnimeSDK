@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HOGGFNELOEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C504810)
-#define HOGGFNELOEL_OGFHOGEFBJF_OFFSET UNITYSDK_OFFSET(0x1C5046D0)
+#define HOGGFNELOEL_CTOR_OFFSET UNITYSDK_OFFSET(0x208A7170)
+#define HOGGFNELOEL_OGFHOGEFBJF_OFFSET UNITYSDK_OFFSET(0x208A7030)
 
-inline static constexpr unsigned int HOGGFNELOEL_TypeDefinitionIndex = 41607;
+inline static constexpr unsigned int HOGGFNELOEL_TypeDefinitionIndex = 42582;
 
 	class HOGGFNELOEL : public ::System::Object
 	{

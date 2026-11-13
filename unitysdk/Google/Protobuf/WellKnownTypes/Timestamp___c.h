@@ -4,20 +4,20 @@
 namespace Google::Protobuf::WellKnownTypes { class Timestamp; }
 namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B893890)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8938D0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1B8938E0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3AB540)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AB580)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F3AB590)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Timestamp___c_TypeDefinitionIndex = 5440;
+	inline static constexpr unsigned int Timestamp___c_TypeDefinitionIndex = 5445;
 
 	class Timestamp___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x25850);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x28880);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define KILNFPKCBCP_CTOR_OFFSET UNITYSDK_OFFSET(0xB42EBD0)
+#define KILNFPKCBCP_CTOR_OFFSET UNITYSDK_OFFSET(0x19EF5230)
 
-inline static constexpr unsigned int KILNFPKCBCP_TypeDefinitionIndex = 61872;
+inline static constexpr unsigned int KILNFPKCBCP_TypeDefinitionIndex = 63278;
 
 	class KILNFPKCBCP : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class CHNMJPLALEC;
 namespace System { class Object; }
 
-#define CHNMJPLALEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E09EF20)
-#define CHNMJPLALEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E09EF60)
-#define CHNMJPLALEC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E09EF70)
+#define CHNMJPLALEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F83EC00)
+#define CHNMJPLALEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F83EC40)
+#define CHNMJPLALEC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F83EC50)
 
-inline static constexpr unsigned int CHNMJPLALEC___c_TypeDefinitionIndex = 26626;
+inline static constexpr unsigned int CHNMJPLALEC___c_TypeDefinitionIndex = 27157;
 
 	class CHNMJPLALEC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16090);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF5F0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class OINLMMCBCFN;
 
-#define OINLMMCBCFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2597D0)
-#define OINLMMCBCFN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2596E0)
+#define OINLMMCBCFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FFF30)
+#define OINLMMCBCFN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9FFE40)
 
-inline static constexpr unsigned int OINLMMCBCFN_TypeDefinitionIndex = 13076;
+inline static constexpr unsigned int OINLMMCBCFN_TypeDefinitionIndex = 13144;
 
 	class OINLMMCBCFN : public ::System::Object
 	{
 	public:
-		::System::UInt32 DBLDCKODNEN; // 0x10
-		::System::UInt32 NCKAICABJIK; // 0x14
+		::System::UInt32 NCKAICABJIK; // 0x10
+		::System::UInt32 DBLDCKODNEN; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OINLMMCBCFN_CTOR_OFFSET))(this);

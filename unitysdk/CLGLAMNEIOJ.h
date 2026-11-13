@@ -6,12 +6,12 @@ namespace RPG::GameCore { class TargetSortByCustomFormationIndexClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLGLAMNEIOJ_COMPARE_OFFSET UNITYSDK_OFFSET(0xD778830)
-#define CLGLAMNEIOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD778810)
-#define CLGLAMNEIOJ_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xD7788E0)
-#define CLGLAMNEIOJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xD778930)
+#define CLGLAMNEIOJ_COMPARE_OFFSET UNITYSDK_OFFSET(0x1AD62050)
+#define CLGLAMNEIOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD62030)
+#define CLGLAMNEIOJ_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0x1AD62100)
+#define CLGLAMNEIOJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1AD62150)
 
-inline static constexpr unsigned int CLGLAMNEIOJ_TypeDefinitionIndex = 59168;
+inline static constexpr unsigned int CLGLAMNEIOJ_TypeDefinitionIndex = 60445;
 
 	class CLGLAMNEIOJ
 	{

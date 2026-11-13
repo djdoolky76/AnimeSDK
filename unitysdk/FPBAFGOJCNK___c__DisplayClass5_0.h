@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class FPBAFGOJCNK;
 
-#define FPBAFGOJCNK___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15901150)
+#define FPBAFGOJCNK___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1876CA10)
 
-inline static constexpr unsigned int FPBAFGOJCNK___c__DisplayClass5_0_TypeDefinitionIndex = 63907;
+inline static constexpr unsigned int FPBAFGOJCNK___c__DisplayClass5_0_TypeDefinitionIndex = 65349;
 
 	class FPBAFGOJCNK___c__DisplayClass5_0 : public ::System::Object
 	{

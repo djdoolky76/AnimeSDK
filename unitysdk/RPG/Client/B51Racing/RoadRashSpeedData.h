@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashSpeedData_TypeDefinitionIndex = 81673;
+	inline static constexpr unsigned int RoadRashSpeedData_TypeDefinitionIndex = 84454;
 
 	struct alignas(4) RoadRashSpeedData
 	{

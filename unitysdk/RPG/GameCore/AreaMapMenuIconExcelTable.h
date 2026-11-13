@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3C9AE0)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D3C9250)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D3C90E0)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D3C8DD0)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D3C9080)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D3C93E0)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3C8E50)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3C9420)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3C95F0)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D3C9770)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D3C9550)
-#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3C94B0)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEAED90)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DEAE500)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DEAE390)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DEAE080)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DEAE330)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DEAE690)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DEAE100)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DEAE6D0)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEAE8A0)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DEAEA20)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DEAE800)
+#define RPG_GAMECORE_AREAMAPMENUICONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DEAE760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AreaMapMenuIconExcelTable_TypeDefinitionIndex = 14007;
+	inline static constexpr unsigned int AreaMapMenuIconExcelTable_TypeDefinitionIndex = 14164;
 
 	class AreaMapMenuIconExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AreaMapMenuIconRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AreaMapMenuIconRow*>**)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x5BF90);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x5BF98);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x56850);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AreaMapMenuIconRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AreaMapMenuIconRow*>**)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x56858);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x5BFA0);
-		}
-
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x13DB0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x56860);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x13DB1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x12700);
+		}
+
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "AreaMapMenuIconExcelTable")->GetStaticField(0x12701);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsRogueTournLastRoom; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGFDLCKECEM_CTOR_OFFSET UNITYSDK_OFFSET(0x14508240)
-#define EGFDLCKECEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14508270)
+#define EGFDLCKECEM_CTOR_OFFSET UNITYSDK_OFFSET(0x17C03780)
+#define EGFDLCKECEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17C037B0)
 
-inline static constexpr unsigned int EGFDLCKECEM_TypeDefinitionIndex = 57986;
+inline static constexpr unsigned int EGFDLCKECEM_TypeDefinitionIndex = 59225;
 
 	class EGFDLCKECEM
 	{

@@ -4,18 +4,18 @@
 class LOHLENBEIEB;
 namespace System { class Object; }
 
-#define LOHLENBEIEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9928D0)
-#define LOHLENBEIEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E992910)
-#define LOHLENBEIEB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E992920)
+#define LOHLENBEIEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200D6050)
+#define LOHLENBEIEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200D6090)
+#define LOHLENBEIEB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x200D60A0)
 
-inline static constexpr unsigned int LOHLENBEIEB___c_TypeDefinitionIndex = 32693;
+inline static constexpr unsigned int LOHLENBEIEB___c_TypeDefinitionIndex = 33608;
 
 	class LOHLENBEIEB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41BA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45690);
 		}
 
 		static ::System::Void _cctor()

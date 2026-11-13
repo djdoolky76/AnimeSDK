@@ -5,17 +5,17 @@
 class DAKDIABDGKN;
 class OODEOHIDMEG;
 
-#define BJIHHDAGFOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88D870)
+#define BJIHHDAGFOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B8030)
 
-inline static constexpr unsigned int BJIHHDAGFOP_TypeDefinitionIndex = 43778;
+inline static constexpr unsigned int BJIHHDAGFOP_TypeDefinitionIndex = 44853;
 
 	class BJIHHDAGFOP : public ::System::Object
 	{
 	public:
 		::OODEOHIDMEG* EJJOKPFJBDE; // 0x10
 		::DAKDIABDGKN* FKIBGPJNCIJ; // 0x18
-		::RPG::GameCore::CakeRaceMoveState NPDNEEPHEKN; // 0x20
-		::RPG::GameCore::CakeRaceMoveState LMEFGJFMCIF; // 0x24
+		::RPG::GameCore::CakeRaceMoveState LMEFGJFMCIF; // 0x20
+		::RPG::GameCore::CakeRaceMoveState NPDNEEPHEKN; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BJIHHDAGFOP_CTOR_OFFSET))(this);

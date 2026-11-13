@@ -4,10 +4,10 @@
 class EFPPMIHCBAA;
 namespace System { class Action; }
 
-#define EFPPMIHCBAA___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBD8D50)
-#define EFPPMIHCBAA___C__DISPLAYCLASS11_0__GETACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1EBD9090)
+#define EFPPMIHCBAA___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE4FD0)
+#define EFPPMIHCBAA___C__DISPLAYCLASS11_0__GETACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1CAE5310)
 
-inline static constexpr unsigned int EFPPMIHCBAA___c__DisplayClass11_0_TypeDefinitionIndex = 35299;
+inline static constexpr unsigned int EFPPMIHCBAA___c__DisplayClass11_0_TypeDefinitionIndex = 36227;
 
 	class EFPPMIHCBAA___c__DisplayClass11_0 : public ::System::Object
 	{

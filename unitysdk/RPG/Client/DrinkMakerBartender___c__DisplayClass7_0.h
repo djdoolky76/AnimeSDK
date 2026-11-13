@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class DrinkMakerBartender_Cup; }
 
-#define RPG_CLIENT_DRINKMAKERBARTENDER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD5810)
-#define RPG_CLIENT_DRINKMAKERBARTENDER___C__DISPLAYCLASS7_0__GETCUP_B__0_OFFSET UNITYSDK_OFFSET(0xCCD6070)
+#define RPG_CLIENT_DRINKMAKERBARTENDER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5E8F0)
+#define RPG_CLIENT_DRINKMAKERBARTENDER___C__DISPLAYCLASS7_0__GETCUP_B__0_OFFSET UNITYSDK_OFFSET(0x1DA5F0A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBartender___c__DisplayClass7_0_TypeDefinitionIndex = 63607;
+	inline static constexpr unsigned int DrinkMakerBartender___c__DisplayClass7_0_TypeDefinitionIndex = 65049;
 
 	class DrinkMakerBartender___c__DisplayClass7_0 : public ::System::Object
 	{

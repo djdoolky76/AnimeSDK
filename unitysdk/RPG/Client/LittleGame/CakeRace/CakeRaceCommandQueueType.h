@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCommandQueueType_TypeDefinitionIndex = 78164;
+	inline static constexpr unsigned int CakeRaceCommandQueueType_TypeDefinitionIndex = 80899;
 
 	enum class CakeRaceCommandQueueType : ::System::Int32
 	{

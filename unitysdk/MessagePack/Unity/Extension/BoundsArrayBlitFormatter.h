@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_BOUNDSARRAYBLITFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB42E60)
-#define MESSAGEPACK_UNITY_EXTENSION_BOUNDSARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BB42E50)
+#define MESSAGEPACK_UNITY_EXTENSION_BOUNDSARRAYBLITFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x208F21C0)
+#define MESSAGEPACK_UNITY_EXTENSION_BOUNDSARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x208F21B0)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int BoundsArrayBlitFormatter_TypeDefinitionIndex = 10162;
+	inline static constexpr unsigned int BoundsArrayBlitFormatter_TypeDefinitionIndex = 10170;
 
 	class BoundsArrayBlitFormatter
 	{

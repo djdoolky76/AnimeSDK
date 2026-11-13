@@ -7,29 +7,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define GCJKKPABMDK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x159762E0)
-#define GCJKKPABMDK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15976320)
-#define GCJKKPABMDK___C__GETRANKENTRIES_B__27_0_OFFSET UNITYSDK_OFFSET(0x15976350)
-#define GCJKKPABMDK___C___GETDRIVERPANELICONSTATE_B__20_0_OFFSET UNITYSDK_OFFSET(0x15976330)
+#define GCJKKPABMDK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19EBB7C0)
+#define GCJKKPABMDK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19EBB800)
+#define GCJKKPABMDK___C__GETRANKENTRIES_B__27_0_OFFSET UNITYSDK_OFFSET(0x19EBB830)
+#define GCJKKPABMDK___C___GETDRIVERPANELICONSTATE_B__20_0_OFFSET UNITYSDK_OFFSET(0x19EBB810)
 
-inline static constexpr unsigned int GCJKKPABMDK___c_TypeDefinitionIndex = 81955;
+inline static constexpr unsigned int GCJKKPABMDK___c_TypeDefinitionIndex = 84736;
 
 	class GCJKKPABMDK___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::HBGNFKBHDJK*, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::HBGNFKBHDJK*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AFF0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AFF8);
+			return (::System::Func_2<::HBGNFKBHDJK*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E010);
 		}
 
 		static ::System::Comparison_1<::AFNPIPBLFJM*>** StaticGet___9__27_0()
 		{
-			return (::System::Comparison_1<::AFNPIPBLFJM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B000);
+			return (::System::Comparison_1<::AFNPIPBLFJM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E018);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E020);
 		}
 
 		static ::System::Void _cctor()

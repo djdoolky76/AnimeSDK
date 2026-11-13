@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class VCameraNormalConfig; }
 namespace RPG::GameCore { class VCameraStateAdditiveNormalConfig; }
 
-#define RPG_GAMECORE_VCAMERASTATEADDITIVENORMALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC522E0)
-#define RPG_GAMECORE_VCAMERASTATEADDITIVENORMALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC50050)
+#define RPG_GAMECORE_VCAMERASTATEADDITIVENORMALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3D5A0)
+#define RPG_GAMECORE_VCAMERASTATEADDITIVENORMALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED3B5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraStateAdditiveNormalConfig_TypeDefinitionIndex = 16425;
+	inline static constexpr unsigned int VCameraStateAdditiveNormalConfig_TypeDefinitionIndex = 16589;
 
 	class VCameraStateAdditiveNormalConfig : public ::RPG::GameCore::JsonConfig
 	{

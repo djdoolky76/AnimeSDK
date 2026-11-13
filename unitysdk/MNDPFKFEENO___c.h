@@ -4,18 +4,18 @@
 class MNDPFKFEENO;
 namespace System { class Object; }
 
-#define MNDPFKFEENO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA66C60)
-#define MNDPFKFEENO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA66C90)
-#define MNDPFKFEENO___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1EA66CA0)
+#define MNDPFKFEENO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F96E8C0)
+#define MNDPFKFEENO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F96E8F0)
+#define MNDPFKFEENO___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1F96E900)
 
-inline static constexpr unsigned int MNDPFKFEENO___c_TypeDefinitionIndex = 29774;
+inline static constexpr unsigned int MNDPFKFEENO___c_TypeDefinitionIndex = 30672;
 
 	class MNDPFKFEENO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57BA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50910);
 		}
 
 		static ::System::Void _cctor()

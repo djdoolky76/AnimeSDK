@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JNECPMMFEKP_TypeDefinitionIndex = 30796;
+inline static constexpr unsigned int JNECPMMFEKP_TypeDefinitionIndex = 31709;
 
 	enum class JNECPMMFEKP : ::System::Int32
 	{

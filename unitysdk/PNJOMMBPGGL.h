@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PNJOMMBPGGL_TypeDefinitionIndex = 41705;
+inline static constexpr unsigned int PNJOMMBPGGL_TypeDefinitionIndex = 42680;
 
 	class PNJOMMBPGGL
 	{

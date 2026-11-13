@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientPunkLordShareType_TypeDefinitionIndex = 66754;
+	inline static constexpr unsigned int ClientPunkLordShareType_TypeDefinitionIndex = 68690;
 
 	enum class ClientPunkLordShareType : ::System::Int32
 	{

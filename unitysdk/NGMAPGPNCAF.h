@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetTriggerSkipFakeAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGMAPGPNCAF_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA9180)
-#define NGMAPGPNCAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBA91B0)
+#define NGMAPGPNCAF_CTOR_OFFSET UNITYSDK_OFFSET(0x18E93760)
+#define NGMAPGPNCAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E93790)
 
-inline static constexpr unsigned int NGMAPGPNCAF_TypeDefinitionIndex = 52503;
+inline static constexpr unsigned int NGMAPGPNCAF_TypeDefinitionIndex = 53609;
 
 	class NGMAPGPNCAF
 	{

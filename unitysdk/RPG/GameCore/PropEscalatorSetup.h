@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicStringList; }
 namespace RPG::GameCore { class PropEscalatorSetup; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPESCALATORSETUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91D1A0)
-#define RPG_GAMECORE_PROPESCALATORSETUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D91D1E0)
-#define RPG_GAMECORE_PROPESCALATORSETUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91D140)
+#define RPG_GAMECORE_PROPESCALATORSETUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF873D0)
+#define RPG_GAMECORE_PROPESCALATORSETUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF87410)
+#define RPG_GAMECORE_PROPESCALATORSETUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF87370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropEscalatorSetup_TypeDefinitionIndex = 21016;
+	inline static constexpr unsigned int PropEscalatorSetup_TypeDefinitionIndex = 21354;
 
 	class PropEscalatorSetup : public ::RPG::GameCore::TaskConfig
 	{

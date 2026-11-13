@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DNGDKOGLNFP_LeavePhase_TypeDefinitionIndex = 60535;
+inline static constexpr unsigned int DNGDKOGLNFP_LeavePhase_TypeDefinitionIndex = 61824;
 
 	enum class DNGDKOGLNFP_LeavePhase : ::System::Int32
 	{

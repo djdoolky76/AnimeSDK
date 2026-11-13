@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class TalkOptionData; }
 
-#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS134_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE19D610)
-#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS134_0___ONCHOOSETALKOPTION_B__0_OFFSET UNITYSDK_OFFSET(0xE19E690)
+#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS134_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BDB10)
+#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS134_0___ONCHOOSETALKOPTION_B__0_OFFSET UNITYSDK_OFFSET(0x1C5BEB60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkModule___c__DisplayClass134_0_TypeDefinitionIndex = 68037;
+	inline static constexpr unsigned int TalkModule___c__DisplayClass134_0_TypeDefinitionIndex = 69983;
 
 	class TalkModule___c__DisplayClass134_0 : public ::System::Object
 	{

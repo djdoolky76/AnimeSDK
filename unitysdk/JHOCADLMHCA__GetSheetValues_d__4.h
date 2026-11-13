@@ -7,20 +7,20 @@ namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define JHOCADLMHCA__GETSHEETVALUES_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10AF0)
-#define JHOCADLMHCA__GETSHEETVALUES_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B00)
+#define JHOCADLMHCA__GETSHEETVALUES_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3DD4BA0)
+#define JHOCADLMHCA__GETSHEETVALUES_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3DAE1F0)
 
-inline static constexpr unsigned int JHOCADLMHCA__GetSheetValues_d__4_TypeDefinitionIndex = 50037;
+inline static constexpr unsigned int JHOCADLMHCA__GetSheetValues_d__4_TypeDefinitionIndex = 51085;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	struct alignas(8) JHOCADLMHCA__GetSheetValues_d__4
 	{
-		::System::String* docID; // 0x10
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppArray<::Il2CppArray<::Newtonsoft::Json::Linq::JToken*>*>*> __t__builder; // 0x18
+		::JHOCADLMHCA* __4__this; // 0x10
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x18
+		::System::String* docID; // 0x20
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppArray<::Il2CppArray<::Newtonsoft::Json::Linq::JToken*>*>*> __t__builder; // 0x28
 		::System::Byte _padding0[0x10];
-		::System::String* range; // 0x30
-		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x38
-		::JHOCADLMHCA* __4__this; // 0x40
+		::System::String* range; // 0x40
 		::System::Int32 __1__state; // 0x48
 		::System::Void MoveNext()
 		{

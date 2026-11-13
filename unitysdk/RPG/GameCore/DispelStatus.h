@@ -11,13 +11,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DISPELSTATUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E9F50)
-#define RPG_GAMECORE_DISPELSTATUS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E9F70)
-#define RPG_GAMECORE_DISPELSTATUS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E9F10)
+#define RPG_GAMECORE_DISPELSTATUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C7A60)
+#define RPG_GAMECORE_DISPELSTATUS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3C7A80)
+#define RPG_GAMECORE_DISPELSTATUS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3C7A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 22684;
+	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 23106;
 
 	class DispelStatus : public ::RPG::GameCore::TaskConfig
 	{

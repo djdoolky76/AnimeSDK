@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D597C10)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D597210)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D5970A0)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D596D90)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D597040)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D5973A0)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D596E10)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5973E0)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5975B0)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D5978A0)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D597510)
-#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D597470)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F50E1D0)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F50D7D0)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F50D660)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1F50D350)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1F50D600)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1F50D960)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1F50D3D0)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1F50D9A0)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F50DB70)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1F50DE60)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1F50DAD0)
+#define RPG_GAMECORE_CLOCKPARKSTORYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1F50DA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStoryExcelTable_TypeDefinitionIndex = 11179;
+	inline static constexpr unsigned int ClockParkStoryExcelTable_TypeDefinitionIndex = 11195;
 
 	class ClockParkStoryExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x18A50);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x13C60);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkStoryRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkStoryRow*>**)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x18A58);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkStoryRow*>**)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x13C68);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x18A60);
-		}
-
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x54E0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x13C70);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x54E1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x4690);
+		}
+
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ClockParkStoryExcelTable")->GetStaticField(0x4691);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define IOJNKNFOCLB_IDDNNHDDIPI_EDFDIKELADA_OFFSET UNITYSDK_OFFSET(0x1CC571B0)
+#define IOJNKNFOCLB_IDDNNHDDIPI_EDFDIKELADA_OFFSET UNITYSDK_OFFSET(0x208D7170)
 
-inline static constexpr unsigned int IOJNKNFOCLB_IDDNNHDDIPI_TypeDefinitionIndex = 43851;
+inline static constexpr unsigned int IOJNKNFOCLB_IDDNNHDDIPI_TypeDefinitionIndex = 44926;
 
 	class IOJNKNFOCLB_IDDNNHDDIPI : public ::System::Object
 	{

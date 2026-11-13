@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDFLYEFFECTVIEW___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFBD5C0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDFLYEFFECTVIEW___C__DISPLAYCLASS9_0__SCHEDULEAFTERDELAY_B__0_OFFSET UNITYSDK_OFFSET(0xCFBD680)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDFLYEFFECTVIEW___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4ED070)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDFLYEFFECTVIEW___C__DISPLAYCLASS9_0__SCHEDULEAFTERDELAY_B__0_OFFSET UNITYSDK_OFFSET(0x1C4ED130)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinCardFlyEffectView___c__DisplayClass9_0_TypeDefinitionIndex = 80674;
+	inline static constexpr unsigned int FateRinCardFlyEffectView___c__DisplayClass9_0_TypeDefinitionIndex = 83454;
 
 	class FateRinCardFlyEffectView___c__DisplayClass9_0 : public ::System::Object
 	{

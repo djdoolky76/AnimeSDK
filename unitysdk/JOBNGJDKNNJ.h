@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleActionAgainTowardBuffSource; }
 
-#define JOBNGJDKNNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB783A0)
-#define JOBNGJDKNNJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CB783B0)
+#define JOBNGJDKNNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE21020)
+#define JOBNGJDKNNJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DE21030)
 
-inline static constexpr unsigned int JOBNGJDKNNJ_TypeDefinitionIndex = 43100;
+inline static constexpr unsigned int JOBNGJDKNNJ_TypeDefinitionIndex = 44081;
 
 	class JOBNGJDKNNJ : public ::BKABEBEPPJK
 	{

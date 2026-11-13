@@ -4,20 +4,20 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5CC6F0)
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5CC720)
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE___C___CCTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0xD5CC730)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D727A20)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D727A50)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE___C___CCTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x1D727A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialBlockEffectBase___c_TypeDefinitionIndex = 70651;
+	inline static constexpr unsigned int MaterialBlockEffectBase___c_TypeDefinitionIndex = 72628;
 
 	class MaterialBlockEffectBase___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x43D90);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F5B0);
 		}
 
 		static ::System::Void _cctor()

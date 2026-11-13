@@ -2,27 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
 class KFELGAIGHAP;
+namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ListenPropInAnimState; }
 namespace RPG::GameCore { class TaskContext; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define GIIJMKDOOMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A301E0)
-#define GIIJMKDOOMB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A303A0)
-#define GIIJMKDOOMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A30500)
-#define GIIJMKDOOMB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A30550)
-#define GIIJMKDOOMB_TICK_OFFSET UNITYSDK_OFFSET(0x15A30620)
+#define GIIJMKDOOMB_ANIOHCLHMKL_OFFSET UNITYSDK_OFFSET(0x1A3E0A80)
+#define GIIJMKDOOMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E0660)
+#define GIIJMKDOOMB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A3E0830)
+#define GIIJMKDOOMB_KKHAEKMFIOC_OFFSET UNITYSDK_OFFSET(0x1A3E1020)
+#define GIIJMKDOOMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A3E0AD0)
+#define GIIJMKDOOMB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A3E0C10)
+#define GIIJMKDOOMB_TICK_OFFSET UNITYSDK_OFFSET(0x1A3E0DB0)
 
-inline static constexpr unsigned int GIIJMKDOOMB_TypeDefinitionIndex = 55140;
+inline static constexpr unsigned int GIIJMKDOOMB_TypeDefinitionIndex = 56321;
 
 	class GIIJMKDOOMB : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* FFKBFPKEPEN; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::ListenPropInAnimState* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x18
+		::RPG::GameCore::ListenPropInAnimState* OFKGLJOAMLD; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::Int32>* HFHILHOCPNL; // 0x28
 		::KFELGAIGHAP* NMPLHCJKEOI; // 0x30
-		::System::Collections::Generic::HashSet_1<::System::Int32>* HFHILHOCPNL; // 0x38
-		::System::Boolean CFDILKDNDPO; // 0x40
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
+		::KFELGAIGHAP* FFKBFPKEPEN; // 0x40
+		::System::Boolean CFDILKDNDPO; // 0x48
+		::System::Boolean KLHLDDIKAMB; // 0x49
+		::System::Byte _padding0[0x2];
+		::System::UInt32 NJGMBIDODOC; // 0x4C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ListenPropInAnimState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ListenPropInAnimState*))((::PBYTE)hIl2Cpp + GIIJMKDOOMB_CTOR_OFFSET))(this, a1, a2);
@@ -46,6 +54,16 @@ inline static constexpr unsigned int GIIJMKDOOMB_TypeDefinitionIndex = 55140;
 		::System::Void Tick(::System::Single a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GIIJMKDOOMB_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void KKHAEKMFIOC(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GIIJMKDOOMB_KKHAEKMFIOC_OFFSET))(this, a1);
+		}
+
+		::System::Void ANIOHCLHMKL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIIJMKDOOMB_ANIOHCLHMKL_OFFSET))(this);
 		}
 
 	};

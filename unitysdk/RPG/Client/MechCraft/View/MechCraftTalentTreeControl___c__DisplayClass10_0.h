@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class FOHGGGFAGNK;
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD665D20)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C__DISPLAYCLASS10_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xD666EB0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF06520)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C__DISPLAYCLASS10_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x1DF076C0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentTreeControl___c__DisplayClass10_0_TypeDefinitionIndex = 80055;
+	inline static constexpr unsigned int MechCraftTalentTreeControl___c__DisplayClass10_0_TypeDefinitionIndex = 82832;
 
 	class MechCraftTalentTreeControl___c__DisplayClass10_0 : public ::System::Object
 	{

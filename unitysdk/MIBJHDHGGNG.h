@@ -6,10 +6,10 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIBJHDHGGNG_CTOR_OFFSET UNITYSDK_OFFSET(0xB948030)
-#define MIBJHDHGGNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9482C0)
+#define MIBJHDHGGNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B36F150)
+#define MIBJHDHGGNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B36F3E0)
 
-inline static constexpr unsigned int MIBJHDHGGNG_TypeDefinitionIndex = 55873;
+inline static constexpr unsigned int MIBJHDHGGNG_TypeDefinitionIndex = 57076;
 
 	class MIBJHDHGGNG
 	{

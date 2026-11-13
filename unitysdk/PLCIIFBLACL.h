@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureIsTriggerBattleByNpcMonster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PLCIIFBLACL_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E5310)
-#define PLCIIFBLACL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2E5340)
+#define PLCIIFBLACL_CTOR_OFFSET UNITYSDK_OFFSET(0x18871CB0)
+#define PLCIIFBLACL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18871CE0)
 
-inline static constexpr unsigned int PLCIIFBLACL_TypeDefinitionIndex = 57896;
+inline static constexpr unsigned int PLCIIFBLACL_TypeDefinitionIndex = 59133;
 
 	class PLCIIFBLACL
 	{

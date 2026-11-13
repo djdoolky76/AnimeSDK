@@ -4,18 +4,18 @@
 class HMPGPHLEJKF;
 namespace System { class Object; }
 
-#define HMPGPHLEJKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5A9E90)
-#define HMPGPHLEJKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A9ED0)
-#define HMPGPHLEJKF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E5A9EE0)
+#define HMPGPHLEJKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE25250)
+#define HMPGPHLEJKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE25290)
+#define HMPGPHLEJKF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FE252A0)
 
-inline static constexpr unsigned int HMPGPHLEJKF___c_TypeDefinitionIndex = 30019;
+inline static constexpr unsigned int HMPGPHLEJKF___c_TypeDefinitionIndex = 30917;
 
 	class HMPGPHLEJKF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A880);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B110);
 		}
 
 		static ::System::Void _cctor()

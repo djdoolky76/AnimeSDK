@@ -10,31 +10,31 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOCACHE_OFFSET UNITYSDK_OFFSET(0xAFB8930)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOTEMPCACHE_OFFSET UNITYSDK_OFFSET(0xAFB8D20)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB8180)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_ENCODEREPORTANDSEND_OFFSET UNITYSDK_OFFSET(0xAFB92E0)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_HTTPREQUESTTIMER_OFFSET UNITYSDK_OFFSET(0xAFB83C0)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFB8410)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_LOOP_OFFSET UNITYSDK_OFFSET(0xAFB9120)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_PERFORMPOSTTASK_OFFSET UNITYSDK_OFFSET(0xAFB9B10)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_POSTREQUEST_OFFSET UNITYSDK_OFFSET(0xAFB98D0)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_SENDTOKIBANA_OFFSET UNITYSDK_OFFSET(0xAFB8490)
-#define MIHOYO_SDK_KIBANAREPORTSENDER__ENCODEREPORTANDSEND_B__17_0_OFFSET UNITYSDK_OFFSET(0xAFB9BB0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOCACHE_OFFSET UNITYSDK_OFFSET(0x1E2ECE60)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOTEMPCACHE_OFFSET UNITYSDK_OFFSET(0x1E2ED250)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2EC6B0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_ENCODEREPORTANDSEND_OFFSET UNITYSDK_OFFSET(0x1E2ED810)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_HTTPREQUESTTIMER_OFFSET UNITYSDK_OFFSET(0x1E2EC8F0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E2EC940)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_LOOP_OFFSET UNITYSDK_OFFSET(0x1E2ED650)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_PERFORMPOSTTASK_OFFSET UNITYSDK_OFFSET(0x1E2EE040)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_POSTREQUEST_OFFSET UNITYSDK_OFFSET(0x1E2EDE00)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_SENDTOKIBANA_OFFSET UNITYSDK_OFFSET(0x1E2EC9C0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER__ENCODEREPORTANDSEND_B__17_0_OFFSET UNITYSDK_OFFSET(0x1E2EE0E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaReportSender_TypeDefinitionIndex = 46568;
+	inline static constexpr unsigned int KibanaReportSender_TypeDefinitionIndex = 47596;
 
 	class KibanaReportSender : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _reportCacheTemp; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _reportCache; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _reportCache; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _reportCacheTemp; // 0x18
 		::System::Boolean _isSending; // 0x20
 		static ::MiHoYo::SDK::KibanaReportSender** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::KibanaReportSender**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReportSender")->GetStaticField(0x2A070);
+			return (::MiHoYo::SDK::KibanaReportSender**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReportSender")->GetStaticField(0x1D830);
 		}
 
 		// static const ::System::Object DEFAULT_MAX_COUNT; // 0x0

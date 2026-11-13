@@ -3,10 +3,10 @@
 #include "unitysdk/MDBGABPAOOF.h"
 #include "unitysdk/System/Object.h"
 
-#define BEGBOJLOPIC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C88A370)
-#define BEGBOJLOPIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88A6E0)
+#define BEGBOJLOPIC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D2B4B40)
+#define BEGBOJLOPIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B4EB0)
 
-inline static constexpr unsigned int BEGBOJLOPIC_TypeDefinitionIndex = 42013;
+inline static constexpr unsigned int BEGBOJLOPIC_TypeDefinitionIndex = 42988;
 
 	class BEGBOJLOPIC : public ::System::Object
 	{

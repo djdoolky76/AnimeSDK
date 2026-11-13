@@ -4,7 +4,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NonGenericDictionaryFormatter_1_TypeDefinitionIndex = 7404;
+	inline static constexpr unsigned int NonGenericDictionaryFormatter_1_TypeDefinitionIndex = 7415;
 
 	template <typename T>
 	class NonGenericDictionaryFormatter_1 : public ::System::Object

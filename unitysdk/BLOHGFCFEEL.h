@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BLOHGFCFEEL_TypeDefinitionIndex = 25278;
+inline static constexpr unsigned int BLOHGFCFEEL_TypeDefinitionIndex = 25756;
 
 	enum class BLOHGFCFEEL : ::System::Int32
 	{
@@ -103,11 +103,14 @@ inline static constexpr unsigned int BLOHGFCFEEL_TypeDefinitionIndex = 25278;
 		HBMLKNFMGEN = 97,
 		AFNFHMPAPFN = 98,
 		MOMBNANDPNO = 99,
+		EFJLHDDBCKK = 100,
+		MIKHGHEBBHJ = 101,
 		GHHLHLJIHHL = 102,
 		NFNEBINBIBO = 104,
 		PGOLFCJDGII = 105,
 		CIHMEJDKEHK = 106,
 		MGENIBAMDPC = 107,
 		OLOKBGLMBNF = 108,
+		GLKNKEIKKEA = 109,
 		MNCHBPDNAFC = 110,
 	};

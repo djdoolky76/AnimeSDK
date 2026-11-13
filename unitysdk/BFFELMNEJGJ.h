@@ -6,16 +6,16 @@ class ENGFCDJAFCG;
 class OFAKEFLLHNP;
 namespace RPG::Client { class GridFightRole; }
 
-#define BFFELMNEJGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB1608B0)
-#define BFFELMNEJGJ_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xB160940)
+#define BFFELMNEJGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9567C0)
+#define BFFELMNEJGJ_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0x1A956850)
 
-inline static constexpr unsigned int BFFELMNEJGJ_TypeDefinitionIndex = 65140;
+inline static constexpr unsigned int BFFELMNEJGJ_TypeDefinitionIndex = 66824;
 
 	class BFFELMNEJGJ : public ::System::Object
 	{
 	public:
-		::ENGFCDJAFCG* IGBMGBIDHOD; // 0x10
-		::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x18
+		::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x10
+		::ENGFCDJAFCG* IGBMGBIDHOD; // 0x18
 		::System::Void _ctor(::RPG::Client::GridFightRole* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + BFFELMNEJGJ_CTOR_OFFSET))(this, a1);

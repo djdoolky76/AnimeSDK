@@ -6,12 +6,12 @@ namespace RPG::GameCore { class GameEntryMenu; }
 namespace RPG::GameCore { class GameEntryStage; }
 namespace RPG::GameCore { class GameEntryUIConfig; }
 
-#define RPG_GAMECORE_GAMEENTRYUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E8C90)
-#define RPG_GAMECORE_GAMEENTRYUICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6E8B30)
+#define RPG_GAMECORE_GAMEENTRYUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED7B920)
+#define RPG_GAMECORE_GAMEENTRYUICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED670D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntryUIConfig_TypeDefinitionIndex = 16460;
+	inline static constexpr unsigned int GameEntryUIConfig_TypeDefinitionIndex = 16624;
 
 	class GameEntryUIConfig : public ::RPG::GameCore::JsonConfig
 	{

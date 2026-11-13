@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DIBNPCGEPAC_ConnectionState_TypeDefinitionIndex = 43944;
+inline static constexpr unsigned int DIBNPCGEPAC_ConnectionState_TypeDefinitionIndex = 45019;
 
 	enum class DIBNPCGEPAC_ConnectionState : ::System::Int32
 	{

@@ -6,27 +6,27 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define RPG_CLIENT_PREF_CHANGEPREFSWRAPPER_OFFSET UNITYSDK_OFFSET(0x1EC1D5A0)
-#define RPG_CLIENT_PREF_CHANGETOSERVERPREFS_OFFSET UNITYSDK_OFFSET(0x1EC1D4C0)
-#define RPG_CLIENT_PREF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EC1D3A0)
-#define RPG_CLIENT_PREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1D9E0)
-#define RPG_CLIENT_PREF_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1EC1D680)
-#define RPG_CLIENT_PREF_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1EC1D670)
-#define RPG_CLIENT_PREF_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1EC1D480)
-#define RPG_CLIENT_PREF_TRYSETSERVERPERFRELOAD_OFFSET UNITYSDK_OFFSET(0x1EC1D5F0)
+#define RPG_CLIENT_PREF_CHANGEPREFSWRAPPER_OFFSET UNITYSDK_OFFSET(0x2079ACD0)
+#define RPG_CLIENT_PREF_CHANGETOSERVERPREFS_OFFSET UNITYSDK_OFFSET(0x2079ABF0)
+#define RPG_CLIENT_PREF_CLEAR_OFFSET UNITYSDK_OFFSET(0x2079AAD0)
+#define RPG_CLIENT_PREF_CTOR_OFFSET UNITYSDK_OFFSET(0x2079B110)
+#define RPG_CLIENT_PREF_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x2079ADB0)
+#define RPG_CLIENT_PREF_GET_KEY_OFFSET UNITYSDK_OFFSET(0x2079ADA0)
+#define RPG_CLIENT_PREF_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x2079ABB0)
+#define RPG_CLIENT_PREF_TRYSETSERVERPERFRELOAD_OFFSET UNITYSDK_OFFSET(0x2079AD20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Pref_TypeDefinitionIndex = 35317;
+	inline static constexpr unsigned int Pref_TypeDefinitionIndex = 36245;
 
 	class Pref : public ::System::Object
 	{
 	public:
-		::System::String* _Key; // 0x10
-		::BCCCCPPIJDB* _PlayerPrefs; // 0x18
+		::BCCCCPPIJDB* _PlayerPrefs; // 0x10
+		::System::Object* _DefaultValue; // 0x18
 		::System::Object* _Value; // 0x20
-		::System::Type* _ValueType; // 0x28
-		::System::Object* _DefaultValue; // 0x30
+		::System::String* _Key; // 0x28
+		::System::Type* _ValueType; // 0x30
 		::System::Boolean _Dirty; // 0x38
 		::System::Boolean _Loaded; // 0x39
 		::System::Void _ctor()

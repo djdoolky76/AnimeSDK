@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetDynamicStageBattleEvent; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETDYNAMICSTAGEBATTLEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA71FE0)
-#define RPG_GAMECORE_SETDYNAMICSTAGEBATTLEEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA72080)
-#define RPG_GAMECORE_SETDYNAMICSTAGEBATTLEEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA71F20)
+#define RPG_GAMECORE_SETDYNAMICSTAGEBATTLEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F863930)
+#define RPG_GAMECORE_SETDYNAMICSTAGEBATTLEEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F8639D0)
+#define RPG_GAMECORE_SETDYNAMICSTAGEBATTLEEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F863870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicStageBattleEvent_TypeDefinitionIndex = 22745;
+	inline static constexpr unsigned int SetDynamicStageBattleEvent_TypeDefinitionIndex = 23167;
 
 	class SetDynamicStageBattleEvent : public ::RPG::GameCore::TaskConfig
 	{

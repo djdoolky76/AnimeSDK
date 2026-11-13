@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityRealityShow/RealityShowMedalTier.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+class EDDKLMGIMFP;
+class MJCMGOEMKCC;
+namespace RPG::Client::ActivityRealityShow { class RealityShowMedalItemViewModel; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB5870)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_CANCHALLENGE_OFFSET UNITYSDK_OFFSET(0x1DCB60F0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_CONSUMEDACTIONVALUE_OFFSET UNITYSDK_OFFSET(0x1DCB5FC0)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_CURRENTMEDALICONPATH_OFFSET UNITYSDK_OFFSET(0x1DCB5E60)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_CURRENTMEDALTIER_OFFSET UNITYSDK_OFFSET(0x1DCB5D70)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_HASRECORD_OFFSET UNITYSDK_OFFSET(0x1DCB5F00)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_MAXHPBARBREAKCOUNT_OFFSET UNITYSDK_OFFSET(0x1DCB5F70)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_MEDALS_OFFSET UNITYSDK_OFFSET(0x1DCB5D60)
+#define RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET__CURRENTTIER_OFFSET UNITYSDK_OFFSET(0x1DCB5E00)
+
+namespace RPG::Client::ActivityRealityShow
+{
+	inline static constexpr unsigned int RealityShowSecondStageViewModel_TypeDefinitionIndex = 84908;
+
+	class RealityShowSecondStageViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::EDDKLMGIMFP* _MedalLadder; // 0x20
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ActivityRealityShow::RealityShowMedalItemViewModel*>* _Medals_k__BackingField; // 0x28
+		::MJCMGOEMKCC* _Challenge; // 0x30
+		::System::Void _ctor(::MJCMGOEMKCC* a1, ::EDDKLMGIMFP* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::MJCMGOEMKCC*, ::EDDKLMGIMFP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ActivityRealityShow::RealityShowMedalItemViewModel*>* get_Medals()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ActivityRealityShow::RealityShowMedalItemViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_MEDALS_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CurrentMedalTier()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_CURRENTMEDALTIER_OFFSET))(this);
+		}
+
+		::System::String* get_CurrentMedalIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_CURRENTMEDALICONPATH_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasRecord()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_HASRECORD_OFFSET))(this);
+		}
+
+		::System::UInt32 get_MaxHpBarBreakCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_MAXHPBARBREAKCOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 get_ConsumedActionValue()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_CONSUMEDACTIONVALUE_OFFSET))(this);
+		}
+
+		::System::Boolean get_CanChallenge()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET_CANCHALLENGE_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityRealityShow::RealityShowMedalTier get__CurrentTier()
+		{
+			return ((::RPG::Client::ActivityRealityShow::RealityShowMedalTier(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREALITYSHOW_REALITYSHOWSECONDSTAGEVIEWMODEL_GET__CURRENTTIER_OFFSET))(this);
+		}
+
+	};
+}

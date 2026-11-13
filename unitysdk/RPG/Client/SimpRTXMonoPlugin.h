@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_SIMPRTXMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE0BFEB0)
+#define RPG_CLIENT_SIMPRTXMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B400420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXMonoPlugin_TypeDefinitionIndex = 70190;
+	inline static constexpr unsigned int SimpRTXMonoPlugin_TypeDefinitionIndex = 72156;
 
 	class SimpRTXMonoPlugin
 	{

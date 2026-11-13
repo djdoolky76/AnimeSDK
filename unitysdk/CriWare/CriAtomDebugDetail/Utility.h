@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMDEBUGDETAIL_UTILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x166BE580)
-#define CRIWARE_CRIATOMDEBUGDETAIL_UTILITY_PTRTOSTRINGAUTOORNULL_OFFSET UNITYSDK_OFFSET(0x166BE550)
+#define CRIWARE_CRIATOMDEBUGDETAIL_UTILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2C0000)
+#define CRIWARE_CRIATOMDEBUGDETAIL_UTILITY_PTRTOSTRINGAUTOORNULL_OFFSET UNITYSDK_OFFSET(0x1E2BFFD0)
 
 namespace CriWare::CriAtomDebugDetail
 {
-	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 40204;
+	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 41179;
 
 	class Utility : public ::System::Object
 	{

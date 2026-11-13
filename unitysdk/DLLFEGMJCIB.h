@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define DLLFEGMJCIB_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A5D70)
+#define DLLFEGMJCIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1867A370)
 
-inline static constexpr unsigned int DLLFEGMJCIB_TypeDefinitionIndex = 47835;
+inline static constexpr unsigned int DLLFEGMJCIB_TypeDefinitionIndex = 48866;
 
 	class DLLFEGMJCIB : public ::UnityEngine::Playables::PlayableBehaviour
 	{

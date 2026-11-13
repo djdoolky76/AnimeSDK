@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MessageSectionRow; }
 
-#define RPG_GAMECORE_MESSAGESECTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84F860)
-#define RPG_GAMECORE_MESSAGESECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D84F6A0)
+#define RPG_GAMECORE_MESSAGESECTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E2080)
+#define RPG_GAMECORE_MESSAGESECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6E1EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageSectionRow_TypeDefinitionIndex = 14461;
+	inline static constexpr unsigned int MessageSectionRow_TypeDefinitionIndex = 14616;
 
 	class MessageSectionRow : public ::System::Object
 	{

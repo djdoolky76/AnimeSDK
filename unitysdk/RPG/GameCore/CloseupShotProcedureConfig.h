@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CloseupShotProcedureConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59B0F0)
-#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59A720)
+#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F511670)
+#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F510CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 16413;
+	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 16577;
 
 	class CloseupShotProcedureConfig : public ::RPG::GameCore::JsonConfig
 	{

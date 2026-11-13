@@ -4,18 +4,18 @@
 class HDOKNMGIDMB;
 namespace System { class Object; }
 
-#define HDOKNMGIDMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E525E40)
-#define HDOKNMGIDMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E525E70)
-#define HDOKNMGIDMB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E525E80)
+#define HDOKNMGIDMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F87C050)
+#define HDOKNMGIDMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F87C080)
+#define HDOKNMGIDMB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F87C090)
 
-inline static constexpr unsigned int HDOKNMGIDMB___c_TypeDefinitionIndex = 25322;
+inline static constexpr unsigned int HDOKNMGIDMB___c_TypeDefinitionIndex = 25800;
 
 	class HDOKNMGIDMB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C680);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28680);
 		}
 
 		static ::System::Void _cctor()

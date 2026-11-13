@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OMMDKIBILJE.h"
 
-#define BNJIBLOMNEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBDD8D50)
-#define BNJIBLOMNEL_KLGKGCEDHFD_OFFSET UNITYSDK_OFFSET(0xBDD8C40)
-#define BNJIBLOMNEL_POPDGIDPFAK_OFFSET UNITYSDK_OFFSET(0xBDD8CD0)
+#define BNJIBLOMNEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A76FAF0)
+#define BNJIBLOMNEL_KLGKGCEDHFD_OFFSET UNITYSDK_OFFSET(0x1A76F9E0)
+#define BNJIBLOMNEL_POPDGIDPFAK_OFFSET UNITYSDK_OFFSET(0x1A76FA70)
 
-inline static constexpr unsigned int BNJIBLOMNEL_TypeDefinitionIndex = 53548;
+inline static constexpr unsigned int BNJIBLOMNEL_TypeDefinitionIndex = 54711;
 
 	class BNJIBLOMNEL : public ::OMMDKIBILJE
 	{
 	public:
-		::System::Single DKJHMPAELJD; // 0x28
-		::System::Single EJKJIMKBCGC; // 0x2C
+		::System::Single EJKJIMKBCGC; // 0x28
+		::System::Single DKJHMPAELJD; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNJIBLOMNEL_CTOR_OFFSET))(this);

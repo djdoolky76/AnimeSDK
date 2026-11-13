@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleProperty; }
 
-#define RPG_GAMECORE_MARBLEPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D817500)
-#define RPG_GAMECORE_MARBLEPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8173B0)
+#define RPG_GAMECORE_MARBLEPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4B970)
+#define RPG_GAMECORE_MARBLEPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB4B820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleProperty_TypeDefinitionIndex = 16829;
+	inline static constexpr unsigned int MarbleProperty_TypeDefinitionIndex = 16996;
 
 	class MarbleProperty : public ::RPG::GameCore::JsonConfig
 	{

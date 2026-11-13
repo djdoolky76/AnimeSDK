@@ -6,22 +6,22 @@ namespace RPG::Client { class ChallengePeakTarget; }
 namespace RPG::GameCore { class BattleTargetConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_CREATE_OFFSET UNITYSDK_OFFSET(0xC99A1E0)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0xC9ADA60)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_ID_OFFSET UNITYSDK_OFFSET(0xC99A5D0)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_ISPASSED_OFFSET UNITYSDK_OFFSET(0xC99A4D0)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_TARGETNAME_OFFSET UNITYSDK_OFFSET(0xC9AD9A0)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_TARGETPARAM_OFFSET UNITYSDK_OFFSET(0xC9ADA10)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_CREATE_OFFSET UNITYSDK_OFFSET(0x1C04E530)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1C04E5B0)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_ID_OFFSET UNITYSDK_OFFSET(0x1C04E380)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_ISPASSED_OFFSET UNITYSDK_OFFSET(0x1C04E490)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_TARGETNAME_OFFSET UNITYSDK_OFFSET(0x1C04E3D0)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_TARGETPARAM_OFFSET UNITYSDK_OFFSET(0x1C04E440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakTarget_TypeDefinitionIndex = 63191;
+	inline static constexpr unsigned int ChallengePeakTarget_TypeDefinitionIndex = 64629;
 
 	class ChallengePeakTarget : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::UInt32, ::System::Boolean>* _CheckIsPassed; // 0x10
-		::RPG::GameCore::BattleTargetConfigRow* _Meta; // 0x18
+		::RPG::GameCore::BattleTargetConfigRow* _Meta; // 0x10
+		::System::Func_2<::System::UInt32, ::System::Boolean>* _CheckIsPassed; // 0x18
 		::System::Void _ctor(::RPG::GameCore::BattleTargetConfigRow* a1, ::System::Func_2<::System::UInt32, ::System::Boolean>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleTargetConfigRow*, ::System::Func_2<::System::UInt32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTARGET_CTOR_OFFSET))(this, a1, a2);

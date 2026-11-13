@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JOLBKPNAIFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB799C0)
+#define JOLBKPNAIFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE22580)
 
-inline static constexpr unsigned int JOLBKPNAIFC_TypeDefinitionIndex = 41936;
+inline static constexpr unsigned int JOLBKPNAIFC_TypeDefinitionIndex = 42911;
 
 	class JOLBKPNAIFC : public ::System::Object
 	{

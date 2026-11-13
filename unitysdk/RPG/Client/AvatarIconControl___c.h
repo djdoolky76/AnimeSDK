@@ -21,391 +21,391 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_AVATARICONCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6F4A40)
-#define RPG_CLIENT_AVATARICONCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC6F4A80)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_0_OFFSET UNITYSDK_OFFSET(0xC6F4A90)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_1_OFFSET UNITYSDK_OFFSET(0xC6F4BB0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_2_OFFSET UNITYSDK_OFFSET(0xC6F4CD0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_3_OFFSET UNITYSDK_OFFSET(0xC6F4DF0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_0_OFFSET UNITYSDK_OFFSET(0xC6F8D10)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_1_OFFSET UNITYSDK_OFFSET(0xC6F8E90)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_2_OFFSET UNITYSDK_OFFSET(0xC6F8FB0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_3_OFFSET UNITYSDK_OFFSET(0xC6F9130)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_0_OFFSET UNITYSDK_OFFSET(0xC6F7F50)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_1_OFFSET UNITYSDK_OFFSET(0xC6F8070)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_2_OFFSET UNITYSDK_OFFSET(0xC6F8190)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_3_OFFSET UNITYSDK_OFFSET(0xC6F82B0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_4_OFFSET UNITYSDK_OFFSET(0xC6F83D0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_5_OFFSET UNITYSDK_OFFSET(0xC6F84F0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_6_OFFSET UNITYSDK_OFFSET(0xC6F8610)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_7_OFFSET UNITYSDK_OFFSET(0xC6F8730)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_0_OFFSET UNITYSDK_OFFSET(0xC6F4F10)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_1_OFFSET UNITYSDK_OFFSET(0xC6F5030)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_2_OFFSET UNITYSDK_OFFSET(0xC6F5150)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_3_OFFSET UNITYSDK_OFFSET(0xC6F5370)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_4_OFFSET UNITYSDK_OFFSET(0xC6F5490)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_5_OFFSET UNITYSDK_OFFSET(0xC6F5350)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_0_OFFSET UNITYSDK_OFFSET(0xC6F55B0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_1_OFFSET UNITYSDK_OFFSET(0xC6F57D0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_2_OFFSET UNITYSDK_OFFSET(0xC6F58F0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_3_OFFSET UNITYSDK_OFFSET(0xC6F5B30)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_4_OFFSET UNITYSDK_OFFSET(0xC6F57B0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_5_OFFSET UNITYSDK_OFFSET(0xC6F5AF0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_6_OFFSET UNITYSDK_OFFSET(0xC6F5D30)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_0_OFFSET UNITYSDK_OFFSET(0xC6F60B0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_10_OFFSET UNITYSDK_OFFSET(0xC6F68E0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_11_OFFSET UNITYSDK_OFFSET(0xC6F6AF0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_12_OFFSET UNITYSDK_OFFSET(0xC6F6D00)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_13_OFFSET UNITYSDK_OFFSET(0xC6F6F10)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_1_OFFSET UNITYSDK_OFFSET(0xC6F62C0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_2_OFFSET UNITYSDK_OFFSET(0xC6F64D0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_3_OFFSET UNITYSDK_OFFSET(0xC6F66E0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_4_OFFSET UNITYSDK_OFFSET(0xC6F68F0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_5_OFFSET UNITYSDK_OFFSET(0xC6F6B00)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_6_OFFSET UNITYSDK_OFFSET(0xC6F6D10)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_7_OFFSET UNITYSDK_OFFSET(0xC6F62B0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_8_OFFSET UNITYSDK_OFFSET(0xC6F64C0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_9_OFFSET UNITYSDK_OFFSET(0xC6F66D0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMATERIAL_B__52_0_OFFSET UNITYSDK_OFFSET(0xC6F8BB0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMATERIAL_B__52_1_OFFSET UNITYSDK_OFFSET(0xC6F8CD0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_0_OFFSET UNITYSDK_OFFSET(0xC6F5D70)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_1_OFFSET UNITYSDK_OFFSET(0xC6F5F90)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_2_OFFSET UNITYSDK_OFFSET(0xC6F5F70)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_0_OFFSET UNITYSDK_OFFSET(0xC6F73F0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_1_OFFSET UNITYSDK_OFFSET(0xC6F7880)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_2_OFFSET UNITYSDK_OFFSET(0xC6F79A0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_3_OFFSET UNITYSDK_OFFSET(0xC6F7AC0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_4_OFFSET UNITYSDK_OFFSET(0xC6F7850)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_5_OFFSET UNITYSDK_OFFSET(0xC6F7F20)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDREDDOT_B__51_0_OFFSET UNITYSDK_OFFSET(0xC6F8A90)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDROGUEHEX_B__50_0_OFFSET UNITYSDK_OFFSET(0xC6F8850)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDROGUEHEX_B__50_1_OFFSET UNITYSDK_OFFSET(0xC6F8970)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_0_OFFSET UNITYSDK_OFFSET(0xC6F6F20)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_1_OFFSET UNITYSDK_OFFSET(0xC6F7130)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_2_OFFSET UNITYSDK_OFFSET(0xC6F72D0)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_3_OFFSET UNITYSDK_OFFSET(0xC6F7120)
-#define RPG_CLIENT_AVATARICONCONTROL___C___BINDTUTORIAL_B__54_0_OFFSET UNITYSDK_OFFSET(0xC6F9250)
+#define RPG_CLIENT_AVATARICONCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4D2CA0)
+#define RPG_CLIENT_AVATARICONCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4D2CE0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_0_OFFSET UNITYSDK_OFFSET(0x1A4D2CF0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_1_OFFSET UNITYSDK_OFFSET(0x1A4D2E10)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_2_OFFSET UNITYSDK_OFFSET(0x1A4D2F30)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_3_OFFSET UNITYSDK_OFFSET(0x1A4D3050)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_0_OFFSET UNITYSDK_OFFSET(0x1A4D6F90)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_1_OFFSET UNITYSDK_OFFSET(0x1A4D7110)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_2_OFFSET UNITYSDK_OFFSET(0x1A4D7230)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_3_OFFSET UNITYSDK_OFFSET(0x1A4D73B0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_0_OFFSET UNITYSDK_OFFSET(0x1A4D61D0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_1_OFFSET UNITYSDK_OFFSET(0x1A4D62F0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_2_OFFSET UNITYSDK_OFFSET(0x1A4D6410)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_3_OFFSET UNITYSDK_OFFSET(0x1A4D6530)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_4_OFFSET UNITYSDK_OFFSET(0x1A4D6650)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_5_OFFSET UNITYSDK_OFFSET(0x1A4D6770)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_6_OFFSET UNITYSDK_OFFSET(0x1A4D6890)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_7_OFFSET UNITYSDK_OFFSET(0x1A4D69B0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_0_OFFSET UNITYSDK_OFFSET(0x1A4D3170)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_1_OFFSET UNITYSDK_OFFSET(0x1A4D3290)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_2_OFFSET UNITYSDK_OFFSET(0x1A4D33B0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_3_OFFSET UNITYSDK_OFFSET(0x1A4D35D0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_4_OFFSET UNITYSDK_OFFSET(0x1A4D36F0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_5_OFFSET UNITYSDK_OFFSET(0x1A4D35B0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_0_OFFSET UNITYSDK_OFFSET(0x1A4D3810)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_1_OFFSET UNITYSDK_OFFSET(0x1A4D3A30)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_2_OFFSET UNITYSDK_OFFSET(0x1A4D3B50)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_3_OFFSET UNITYSDK_OFFSET(0x1A4D3DA0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_4_OFFSET UNITYSDK_OFFSET(0x1A4D3A10)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_5_OFFSET UNITYSDK_OFFSET(0x1A4D3D50)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_6_OFFSET UNITYSDK_OFFSET(0x1A4D3FA0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_0_OFFSET UNITYSDK_OFFSET(0x1A4D4330)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_10_OFFSET UNITYSDK_OFFSET(0x1A4D4B60)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_11_OFFSET UNITYSDK_OFFSET(0x1A4D4D70)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_12_OFFSET UNITYSDK_OFFSET(0x1A4D4F80)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_13_OFFSET UNITYSDK_OFFSET(0x1A4D5190)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_1_OFFSET UNITYSDK_OFFSET(0x1A4D4540)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_2_OFFSET UNITYSDK_OFFSET(0x1A4D4750)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_3_OFFSET UNITYSDK_OFFSET(0x1A4D4960)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_4_OFFSET UNITYSDK_OFFSET(0x1A4D4B70)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_5_OFFSET UNITYSDK_OFFSET(0x1A4D4D80)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_6_OFFSET UNITYSDK_OFFSET(0x1A4D4F90)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_7_OFFSET UNITYSDK_OFFSET(0x1A4D4530)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_8_OFFSET UNITYSDK_OFFSET(0x1A4D4740)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_9_OFFSET UNITYSDK_OFFSET(0x1A4D4950)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMATERIAL_B__52_0_OFFSET UNITYSDK_OFFSET(0x1A4D6E30)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDMATERIAL_B__52_1_OFFSET UNITYSDK_OFFSET(0x1A4D6F50)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_0_OFFSET UNITYSDK_OFFSET(0x1A4D3FF0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_1_OFFSET UNITYSDK_OFFSET(0x1A4D4210)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_2_OFFSET UNITYSDK_OFFSET(0x1A4D41F0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_0_OFFSET UNITYSDK_OFFSET(0x1A4D5670)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_1_OFFSET UNITYSDK_OFFSET(0x1A4D5B00)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_2_OFFSET UNITYSDK_OFFSET(0x1A4D5C20)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_3_OFFSET UNITYSDK_OFFSET(0x1A4D5D40)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_4_OFFSET UNITYSDK_OFFSET(0x1A4D5AD0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_5_OFFSET UNITYSDK_OFFSET(0x1A4D61A0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDREDDOT_B__51_0_OFFSET UNITYSDK_OFFSET(0x1A4D6D10)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDROGUEHEX_B__50_0_OFFSET UNITYSDK_OFFSET(0x1A4D6AD0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDROGUEHEX_B__50_1_OFFSET UNITYSDK_OFFSET(0x1A4D6BF0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_0_OFFSET UNITYSDK_OFFSET(0x1A4D51A0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_1_OFFSET UNITYSDK_OFFSET(0x1A4D53B0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_2_OFFSET UNITYSDK_OFFSET(0x1A4D5550)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_3_OFFSET UNITYSDK_OFFSET(0x1A4D53A0)
+#define RPG_CLIENT_AVATARICONCONTROL___C___BINDTUTORIAL_B__54_0_OFFSET UNITYSDK_OFFSET(0x1A4D74D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarIconControl___c_TypeDefinitionIndex = 60099;
+	inline static constexpr unsigned int AvatarIconControl___c_TypeDefinitionIndex = 61383;
 
 	class AvatarIconControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>*>** StaticGet___9__52_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__42_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D50);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E430);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::UInt32>*>** StaticGet___9__54_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::UInt32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D58);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_4()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D60);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_8()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D68);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__49_3()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D70);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>** StaticGet___9__43_5()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D78);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_2()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D80);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::UInt32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E438);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__42_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D88);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarSpecialMarkType, ::System::Boolean>** StaticGet___9__46_3()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarSpecialMarkType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D90);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_9()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50D98);
-		}
-
-		static ::System::Action_2<::RPG::Client::MonoMaterialSwitch*, ::RPG::Client::AvatarMaterialIndex>** StaticGet___9__52_1()
-		{
-			return (::System::Action_2<::RPG::Client::MonoMaterialSwitch*, ::RPG::Client::AvatarMaterialIndex>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DA0);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__42_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DA8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::AGKODPKMDMA*>** StaticGet___9__53_3()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::AGKODPKMDMA*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DB0);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__41_2()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DB8);
-		}
-
-		static ::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>** StaticGet___9__48_5()
-		{
-			return (::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DC0);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__43_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DC8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_5()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DD0);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_10()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DD8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DE0);
-		}
-
-		static ::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>** StaticGet___9__43_4()
-		{
-			return (::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DE8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__50_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DF0);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__53_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50DF8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__43_3()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E00);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_13()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E08);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_3()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E10);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_7()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E18);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_5()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E20);
-		}
-
-		static ::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>** StaticGet___9__44_2()
-		{
-			return (::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E28);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__46_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E30);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E38);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_6()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E40);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__44_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E48);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__46_2()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E50);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E58);
-		}
-
-		static ::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>** StaticGet___9__42_5()
-		{
-			return (::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E60);
-		}
-
-		static ::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>** StaticGet___9__48_4()
-		{
-			return (::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E68);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__43_2()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E70);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E78);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__43_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E80);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__42_2()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E88);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>*>** StaticGet___9__51_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E90);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_3()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50E98);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>** StaticGet___9__43_6()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EA0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E440);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__50_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EA8);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E448);
 		}
 
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_12()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_3()
 		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EB0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E450);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__53_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EB8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EC0);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__44_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EC8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__48_2()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50ED0);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::CBJILMHOMGP*>** StaticGet___9__41_3()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::CBJILMHOMGP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50ED8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::GOKNJPBGBLE*>** StaticGet___9__53_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::GOKNJPBGBLE*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EE0);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_4()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EE8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_6()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EF0);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::CEEGMMCFCBG*>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50EF8);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F00);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_7()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F08);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__41_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F10);
-		}
-
-		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_11()
-		{
-			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F18);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__42_4()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F20);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__42_3()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F28);
-		}
-
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_1()
-		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F30);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E458);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F38);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E460);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__41_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E468);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E470);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_8()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E478);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>** StaticGet___9__43_5()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E480);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__42_3()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E488);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_7()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E490);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__44_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E498);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>** StaticGet___9__43_6()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4A0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__42_4()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4A8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4B0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_6()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4B8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__43_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4C0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4C8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::GOKNJPBGBLE*>** StaticGet___9__53_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::GOKNJPBGBLE*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4D0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__41_2()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4D8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_3()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4E0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4E8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4F0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::CEEGMMCFCBG*>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E4F8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::CBJILMHOMGP*>** StaticGet___9__41_3()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::CBJILMHOMGP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E500);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__46_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E508);
+		}
+
+		static ::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>** StaticGet___9__43_4()
+		{
+			return (::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E510);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_10()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E518);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__43_2()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E520);
+		}
+
+		static ::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>** StaticGet___9__48_5()
+		{
+			return (::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E528);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_11()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E530);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_4()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E538);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>*>** StaticGet___9__52_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E540);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_9()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E548);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__46_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x50F40);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E550);
+		}
+
+		static ::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>** StaticGet___9__44_2()
+		{
+			return (::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E558);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_6()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E560);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_13()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E568);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__43_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E570);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E578);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_2()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E580);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__50_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E588);
+		}
+
+		static ::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>** StaticGet___9__42_5()
+		{
+			return (::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E590);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__44_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E598);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_12()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5A0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__43_3()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5A8);
+		}
+
+		static ::System::Action_2<::RPG::Client::MonoMaterialSwitch*, ::RPG::Client::AvatarMaterialIndex>** StaticGet___9__52_1()
+		{
+			return (::System::Action_2<::RPG::Client::MonoMaterialSwitch*, ::RPG::Client::AvatarMaterialIndex>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5B0);
+		}
+
+		static ::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>** StaticGet___9__48_4()
+		{
+			return (::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5B8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__46_2()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5C0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__53_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5C8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::AGKODPKMDMA*>** StaticGet___9__53_3()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::AGKODPKMDMA*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5D0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__49_3()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5D8);
+		}
+
+		static ::System::Func_2<::RPG::Client::AvatarSpecialMarkType, ::System::Boolean>** StaticGet___9__46_3()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarSpecialMarkType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5E0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_7()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5E8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_5()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5F0);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__42_1()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E5F8);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>*>** StaticGet___9__51_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E600);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_4()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E608);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__48_2()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E610);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_5()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E618);
+		}
+
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_0()
+		{
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E620);
 		}
 
 		static ::System::Void _cctor()

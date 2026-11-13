@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_DOESNOTRETURNIFATTRIBUTE_C3471522133A2E2F_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB87F0)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_DOESNOTRETURNIFATTRIBUTE_C3471522133A2E2F_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6D7A0)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int DoesNotReturnIfAttribute_C3471522133A2E2F_TypeDefinitionIndex = 7525;
+	inline static constexpr unsigned int DoesNotReturnIfAttribute_C3471522133A2E2F_TypeDefinitionIndex = 7536;
 
 	class DoesNotReturnIfAttribute_C3471522133A2E2F : public ::System::Attribute
 	{

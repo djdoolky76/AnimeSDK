@@ -4,18 +4,18 @@
 class AAOAEMOHCEP;
 namespace System { class Object; }
 
-#define AAOAEMOHCEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD96CA0)
-#define AAOAEMOHCEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD96CD0)
-#define AAOAEMOHCEP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DD96CE0)
+#define AAOAEMOHCEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203145F0)
+#define AAOAEMOHCEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20314620)
+#define AAOAEMOHCEP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20314630)
 
-inline static constexpr unsigned int AAOAEMOHCEP___c_TypeDefinitionIndex = 26014;
+inline static constexpr unsigned int AAOAEMOHCEP___c_TypeDefinitionIndex = 26539;
 
 	class AAOAEMOHCEP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FE10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32E50);
 		}
 
 		static ::System::Void _cctor()

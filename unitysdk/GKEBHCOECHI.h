@@ -3,9 +3,9 @@
 #include "unitysdk/OEEKHELGHKF.h"
 #include "unitysdk/System/Object.h"
 
-#define GKEBHCOECHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA820C0)
+#define GKEBHCOECHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA88190)
 
-inline static constexpr unsigned int GKEBHCOECHI_TypeDefinitionIndex = 43279;
+inline static constexpr unsigned int GKEBHCOECHI_TypeDefinitionIndex = 44260;
 
 	class GKEBHCOECHI : public ::System::Object
 	{

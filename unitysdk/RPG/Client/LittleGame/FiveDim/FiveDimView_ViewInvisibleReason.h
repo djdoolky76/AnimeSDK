@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimView_ViewInvisibleReason_TypeDefinitionIndex = 77191;
+	inline static constexpr unsigned int FiveDimView_ViewInvisibleReason_TypeDefinitionIndex = 79525;
 
 	enum class FiveDimView_ViewInvisibleReason : ::System::UInt32
 	{

@@ -5,16 +5,16 @@ class ACNNMGIJMFK;
 class CLDOIEGCNLD;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define ACNNMGIJMFK___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB128000)
-#define ACNNMGIJMFK___C__DISPLAYCLASS13_0___CHECKHAVEEQUIPMENTCONFLICT_B__0_OFFSET UNITYSDK_OFFSET(0xB128A00)
+#define ACNNMGIJMFK___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18298B10)
+#define ACNNMGIJMFK___C__DISPLAYCLASS13_0___CHECKHAVEEQUIPMENTCONFLICT_B__0_OFFSET UNITYSDK_OFFSET(0x18299510)
 
-inline static constexpr unsigned int ACNNMGIJMFK___c__DisplayClass13_0_TypeDefinitionIndex = 81510;
+inline static constexpr unsigned int ACNNMGIJMFK___c__DisplayClass13_0_TypeDefinitionIndex = 84291;
 
 	class ACNNMGIJMFK___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::ACNNMGIJMFK* __4__this; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* lineupAvatarIDs; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* lineupAvatarIDs; // 0x10
+		::ACNNMGIJMFK* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACNNMGIJMFK___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);

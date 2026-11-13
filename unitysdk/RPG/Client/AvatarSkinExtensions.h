@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class AvatarSkin; }
 
-#define RPG_CLIENT_AVATARSKINEXTENSIONS_CHECKBELONGTOMULTIPATHAVATAR_OFFSET UNITYSDK_OFFSET(0xC70B520)
+#define RPG_CLIENT_AVATARSKINEXTENSIONS_CHECKBELONGTOMULTIPATHAVATAR_OFFSET UNITYSDK_OFFSET(0x1B0FB850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarSkinExtensions_TypeDefinitionIndex = 62574;
+	inline static constexpr unsigned int AvatarSkinExtensions_TypeDefinitionIndex = 63993;
 
 	class AvatarSkinExtensions : public ::System::Object
 	{

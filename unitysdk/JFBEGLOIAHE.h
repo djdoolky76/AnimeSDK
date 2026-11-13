@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByCheckSealId; }
 
-#define JFBEGLOIAHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB62090)
-#define JFBEGLOIAHE_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CB620B0)
+#define JFBEGLOIAHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFF940)
+#define JFBEGLOIAHE_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1DDFF960)
 
-inline static constexpr unsigned int JFBEGLOIAHE_TypeDefinitionIndex = 43151;
+inline static constexpr unsigned int JFBEGLOIAHE_TypeDefinitionIndex = 44132;
 
 	class JFBEGLOIAHE : public ::LHJPMDPJPEC
 	{

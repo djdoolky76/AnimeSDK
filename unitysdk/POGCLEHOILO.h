@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEntityFollowAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define POGCLEHOILO_CTOR_OFFSET UNITYSDK_OFFSET(0xC3587D0)
-#define POGCLEHOILO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC358800)
+#define POGCLEHOILO_CTOR_OFFSET UNITYSDK_OFFSET(0x184D6B00)
+#define POGCLEHOILO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184D6B30)
 
-inline static constexpr unsigned int POGCLEHOILO_TypeDefinitionIndex = 55503;
+inline static constexpr unsigned int POGCLEHOILO_TypeDefinitionIndex = 56691;
 
 	class POGCLEHOILO
 	{

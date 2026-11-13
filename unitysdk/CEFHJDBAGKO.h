@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CEFHJDBAGKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C59BBC0)
+#define CEFHJDBAGKO_CTOR_OFFSET UNITYSDK_OFFSET(0x17037CB0)
 
-inline static constexpr unsigned int CEFHJDBAGKO_TypeDefinitionIndex = 37097;
+inline static constexpr unsigned int CEFHJDBAGKO_TypeDefinitionIndex = 38025;
 
 	class CEFHJDBAGKO : public ::System::Object
 	{

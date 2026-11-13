@@ -4,12 +4,12 @@
 namespace RPG::Client { class UIController; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenMainController; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMAINCONTROLLER___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC415C30)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMAINCONTROLLER___C__DISPLAYCLASS9_0__ONENTERMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xC416DC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMAINCONTROLLER___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB0950)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMAINCONTROLLER___C__DISPLAYCLASS9_0__ONENTERMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1CCB1AE0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenMainController___c__DisplayClass9_0_TypeDefinitionIndex = 75476;
+	inline static constexpr unsigned int ActivityHipplenMainController___c__DisplayClass9_0_TypeDefinitionIndex = 77803;
 
 	class ActivityHipplenMainController___c__DisplayClass9_0 : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class KOBALACAPKF;
 namespace System { class Object; }
 
-#define KOBALACAPKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E87F340)
-#define KOBALACAPKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E87F380)
-#define KOBALACAPKF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E87F390)
+#define KOBALACAPKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205AA4A0)
+#define KOBALACAPKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205AA4E0)
+#define KOBALACAPKF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x205AA4F0)
 
-inline static constexpr unsigned int KOBALACAPKF___c_TypeDefinitionIndex = 26985;
+inline static constexpr unsigned int KOBALACAPKF___c_TypeDefinitionIndex = 27516;
 
 	class KOBALACAPKF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20F20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20440);
 		}
 
 		static ::System::Void _cctor()

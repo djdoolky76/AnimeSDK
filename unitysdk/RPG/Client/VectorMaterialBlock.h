@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VectorMaterialBlock_TypeDefinitionIndex = 69929;
+	inline static constexpr unsigned int VectorMaterialBlock_TypeDefinitionIndex = 71888;
 
 	struct alignas(4) VectorMaterialBlock
 	{

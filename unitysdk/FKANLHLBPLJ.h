@@ -7,12 +7,13 @@ namespace RPGTools::Timeline { class CharacterFullBodyClip; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define FKANLHLBPLJ_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x157D9590)
-#define FKANLHLBPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157DA010)
-#define FKANLHLBPLJ_OBCKIOEGOGL_OFFSET UNITYSDK_OFFSET(0x157D9C90)
-#define FKANLHLBPLJ_PMEJBHFCCJO_OFFSET UNITYSDK_OFFSET(0x157D9E10)
+#define FKANLHLBPLJ_AGEDNFOKALF_OFFSET UNITYSDK_OFFSET(0x1AA8F640)
+#define FKANLHLBPLJ_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x1AA8EEE0)
+#define FKANLHLBPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA8FA60)
+#define FKANLHLBPLJ_OBCKIOEGOGL_OFFSET UNITYSDK_OFFSET(0x1AA8F6E0)
+#define FKANLHLBPLJ_PMEJBHFCCJO_OFFSET UNITYSDK_OFFSET(0x1AA8F860)
 
-inline static constexpr unsigned int FKANLHLBPLJ_TypeDefinitionIndex = 47959;
+inline static constexpr unsigned int FKANLHLBPLJ_TypeDefinitionIndex = 48990;
 
 	class FKANLHLBPLJ : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
@@ -33,6 +34,11 @@ inline static constexpr unsigned int FKANLHLBPLJ_TypeDefinitionIndex = 47959;
 		::UnityEngine::Transform* PMEJBHFCCJO(::UnityEngine::GameObject* a1, ::RPGTools::Timeline::CharacterFullBodyChainData* a2)
 		{
 			return ((::UnityEngine::Transform*(*)(::PVOID, ::UnityEngine::GameObject*, ::RPGTools::Timeline::CharacterFullBodyChainData*))((::PBYTE)hIl2Cpp + FKANLHLBPLJ_PMEJBHFCCJO_OFFSET))(this, a1, a2);
+		}
+
+		::UnityEngine::GameObject* AGEDNFOKALF(::UnityEngine::GameObject* a1, ::RPGTools::Timeline::CharacterFullBodyChainData* a2)
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::RPGTools::Timeline::CharacterFullBodyChainData*))((::PBYTE)hIl2Cpp + FKANLHLBPLJ_AGEDNFOKALF_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Transform* OBCKIOEGOGL(::UnityEngine::GameObject* a1, ::RPGTools::Timeline::CharacterFullBodyChainData* a2)

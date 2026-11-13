@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FMGLILNMKDP_LineType_TypeDefinitionIndex = 70333;
+inline static constexpr unsigned int FMGLILNMKDP_LineType_TypeDefinitionIndex = 72299;
 
 	enum class FMGLILNMKDP_LineType : ::System::Int32
 	{

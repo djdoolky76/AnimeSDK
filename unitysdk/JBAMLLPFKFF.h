@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class JBAMLLPFKFF_GMMEADJNPBI;
 
-#define JBAMLLPFKFF_CTOR_OFFSET UNITYSDK_OFFSET(0x16550D20)
+#define JBAMLLPFKFF_CTOR_OFFSET UNITYSDK_OFFSET(0x19A60BA0)
 
-inline static constexpr unsigned int JBAMLLPFKFF_TypeDefinitionIndex = 59067;
+inline static constexpr unsigned int JBAMLLPFKFF_TypeDefinitionIndex = 60342;
 
 	class JBAMLLPFKFF : public ::System::Object
 	{

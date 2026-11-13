@@ -4,18 +4,18 @@
 class LMIFHAMFCFE;
 namespace System { class Object; }
 
-#define LMIFHAMFCFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E978860)
-#define LMIFHAMFCFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9788A0)
-#define LMIFHAMFCFE___C___CCTOR_B__44_0_OFFSET UNITYSDK_OFFSET(0x1E9788B0)
+#define LMIFHAMFCFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF537A0)
+#define LMIFHAMFCFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF537E0)
+#define LMIFHAMFCFE___C___CCTOR_B__56_0_OFFSET UNITYSDK_OFFSET(0x1FF537F0)
 
-inline static constexpr unsigned int LMIFHAMFCFE___c_TypeDefinitionIndex = 29427;
+inline static constexpr unsigned int LMIFHAMFCFE___c_TypeDefinitionIndex = 30149;
 
 	class LMIFHAMFCFE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DE60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42780);
 		}
 
 		static ::System::Void _cctor()
@@ -28,9 +28,9 @@ inline static constexpr unsigned int LMIFHAMFCFE___c_TypeDefinitionIndex = 29427
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIFHAMFCFE___C_CTOR_OFFSET))(this);
 		}
 
-		::LMIFHAMFCFE* __cctor_b__44_0()
+		::LMIFHAMFCFE* __cctor_b__56_0()
 		{
-			return ((::LMIFHAMFCFE*(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIFHAMFCFE___C___CCTOR_B__44_0_OFFSET))(this);
+			return ((::LMIFHAMFCFE*(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIFHAMFCFE___C___CCTOR_B__56_0_OFFSET))(this);
 		}
 
 	};

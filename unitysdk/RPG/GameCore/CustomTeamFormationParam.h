@@ -10,13 +10,14 @@ namespace RPG::GameCore { class LocationConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BCB80)
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5BCD20)
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5BCBA0)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF5FE0)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_JDOCFPJELJD_OFFSET UNITYSDK_OFFSET(0x1EFF5F90)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EFF6180)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFF6000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomTeamFormationParam_TypeDefinitionIndex = 16586;
+	inline static constexpr unsigned int CustomTeamFormationParam_TypeDefinitionIndex = 16752;
 
 	class CustomTeamFormationParam : public ::RPG::GameCore::JsonConfig
 	{
@@ -48,6 +49,11 @@ namespace RPG::GameCore
 		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CustomTeamFormationParam* a2)
 		{
 			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CustomTeamFormationParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_MGMEGEDLMAK_OFFSET))(a1, a2);
+		}
+
+		::System::Void JDOCFPJELJD(::RPG::GameCore::CustomTeamFormationParam* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CustomTeamFormationParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMTEAMFORMATIONPARAM_JDOCFPJELJD_OFFSET))(this, a1);
 		}
 
 	};

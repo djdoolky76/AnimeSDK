@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector3.h"
 
-#define CNLEEFGEKFB_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2A500)
-#define CNLEEFGEKFB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3C2A520)
+#define CNLEEFGEKFB_CTOR_OFFSET UNITYSDK_OFFSET(0x3E94030)
+#define CNLEEFGEKFB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3E94050)
 
-inline static constexpr unsigned int CNLEEFGEKFB_TypeDefinitionIndex = 37274;
+inline static constexpr unsigned int CNLEEFGEKFB_TypeDefinitionIndex = 38202;
 
 	struct alignas(4) CNLEEFGEKFB
 	{

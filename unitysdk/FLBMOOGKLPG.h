@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ST_ByInAttackDistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLBMOOGKLPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1581DF20)
-#define FLBMOOGKLPG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1581E010)
+#define FLBMOOGKLPG_CTOR_OFFSET UNITYSDK_OFFSET(0x18958350)
+#define FLBMOOGKLPG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18958440)
 
-inline static constexpr unsigned int FLBMOOGKLPG_TypeDefinitionIndex = 52200;
+inline static constexpr unsigned int FLBMOOGKLPG_TypeDefinitionIndex = 53305;
 
 	class FLBMOOGKLPG
 	{

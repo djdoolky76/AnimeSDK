@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MissionReplayData
 {
-	inline static constexpr unsigned int IMissionReplayPerformanceData_TypeDefinitionIndex = 74686;
+	inline static constexpr unsigned int IMissionReplayPerformanceData_TypeDefinitionIndex = 76834;
 
 	class IMissionReplayPerformanceData
 	{

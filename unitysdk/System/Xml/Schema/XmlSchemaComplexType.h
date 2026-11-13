@@ -8,15 +8,15 @@ namespace System::Xml::Schema { class XmlSchemaAnyAttribute; }
 namespace System::Xml::Schema { class XmlSchemaComplexType; }
 namespace System::Xml::Schema { class XmlSchemaParticle; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEB9180)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_CREATEANYTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB94D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB9A60)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_ANYTYPECONTENTVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1EEB9B80)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_ANYTYPE_OFFSET UNITYSDK_OFFSET(0x1EEBA2C0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_CONTENTTYPEPARTICLE_OFFSET UNITYSDK_OFFSET(0x1EEBA320)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SETATTRIBUTEWILDCARD_OFFSET UNITYSDK_OFFSET(0x1EEBA340)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SETCONTENTTYPEPARTICLE_OFFSET UNITYSDK_OFFSET(0x1EEBA330)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SET_ISMIXED_OFFSET UNITYSDK_OFFSET(0x1EEB9B50)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C65C1C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_CREATEANYTYPE_OFFSET UNITYSDK_OFFSET(0x1C65C510)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C65CAA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_ANYTYPECONTENTVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1C65CBC0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_ANYTYPE_OFFSET UNITYSDK_OFFSET(0x1C65D300)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_CONTENTTYPEPARTICLE_OFFSET UNITYSDK_OFFSET(0x1C65D360)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SETATTRIBUTEWILDCARD_OFFSET UNITYSDK_OFFSET(0x1C65D380)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SETCONTENTTYPEPARTICLE_OFFSET UNITYSDK_OFFSET(0x1C65D370)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SET_ISMIXED_OFFSET UNITYSDK_OFFSET(0x1C65CB90)
 
 namespace System::Xml::Schema
 {
@@ -25,23 +25,23 @@ namespace System::Xml::Schema
 	class XmlSchemaComplexType : public ::System::Xml::Schema::XmlSchemaType
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaParticle* contentTypeParticle; // 0x40
-		::System::Xml::Schema::XmlSchemaAnyAttribute* attributeWildcard; // 0x48
+		::System::Xml::Schema::XmlSchemaAnyAttribute* attributeWildcard; // 0x40
+		::System::Xml::Schema::XmlSchemaParticle* contentTypeParticle; // 0x48
 		::System::Xml::Schema::XmlSchemaDerivationMethod block; // 0x50
 		::System::Byte pvFlags; // 0x54
-		static ::System::Xml::Schema::XmlSchemaComplexType** StaticGet_anyTypeSkip()
-		{
-			return (::System::Xml::Schema::XmlSchemaComplexType**)UnitySDK::FromName("System.Xml.Schema", "XmlSchemaComplexType")->GetStaticField(0x2E4B0);
-		}
-
 		static ::System::Xml::Schema::XmlSchemaComplexType** StaticGet_untypedAnyType()
 		{
-			return (::System::Xml::Schema::XmlSchemaComplexType**)UnitySDK::FromName("System.Xml.Schema", "XmlSchemaComplexType")->GetStaticField(0x2E4B8);
+			return (::System::Xml::Schema::XmlSchemaComplexType**)UnitySDK::FromName("System.Xml.Schema", "XmlSchemaComplexType")->GetStaticField(0x1E8B0);
+		}
+
+		static ::System::Xml::Schema::XmlSchemaComplexType** StaticGet_anyTypeSkip()
+		{
+			return (::System::Xml::Schema::XmlSchemaComplexType**)UnitySDK::FromName("System.Xml.Schema", "XmlSchemaComplexType")->GetStaticField(0x1E8B8);
 		}
 
 		static ::System::Xml::Schema::XmlSchemaComplexType** StaticGet_anyTypeLax()
 		{
-			return (::System::Xml::Schema::XmlSchemaComplexType**)UnitySDK::FromName("System.Xml.Schema", "XmlSchemaComplexType")->GetStaticField(0x2E4C0);
+			return (::System::Xml::Schema::XmlSchemaComplexType**)UnitySDK::FromName("System.Xml.Schema", "XmlSchemaComplexType")->GetStaticField(0x1E8C0);
 		}
 
 		static ::System::Void _cctor()

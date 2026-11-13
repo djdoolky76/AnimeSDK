@@ -4,18 +4,18 @@
 class NOMPAIPDNKC;
 namespace System { class Object; }
 
-#define NOMPAIPDNKC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB628F0)
-#define NOMPAIPDNKC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB62930)
-#define NOMPAIPDNKC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB62940)
+#define NOMPAIPDNKC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB73750)
+#define NOMPAIPDNKC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB73790)
+#define NOMPAIPDNKC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FB737A0)
 
-inline static constexpr unsigned int NOMPAIPDNKC___c_TypeDefinitionIndex = 30890;
+inline static constexpr unsigned int NOMPAIPDNKC___c_TypeDefinitionIndex = 31803;
 
 	class NOMPAIPDNKC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBDD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53B90);
 		}
 
 		static ::System::Void _cctor()

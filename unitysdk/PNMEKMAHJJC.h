@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RogueAdvRoomCandyCrashPropEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PNMEKMAHJJC_CTOR_OFFSET UNITYSDK_OFFSET(0xC346700)
-#define PNMEKMAHJJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC346730)
+#define PNMEKMAHJJC_CTOR_OFFSET UNITYSDK_OFFSET(0x184C50A0)
+#define PNMEKMAHJJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184C50D0)
 
-inline static constexpr unsigned int PNMEKMAHJJC_TypeDefinitionIndex = 58441;
+inline static constexpr unsigned int PNMEKMAHJJC_TypeDefinitionIndex = 59697;
 
 	class PNMEKMAHJJC
 	{

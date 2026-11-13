@@ -3,10 +3,10 @@
 class AGAGMFCPBED;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GGOIFGGCMPK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A05DF0)
-#define GGOIFGGCMPK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A05E20)
+#define GGOIFGGCMPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AF310)
+#define GGOIFGGCMPK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B4AF340)
 
-inline static constexpr unsigned int GGOIFGGCMPK_TypeDefinitionIndex = 54497;
+inline static constexpr unsigned int GGOIFGGCMPK_TypeDefinitionIndex = 55661;
 
 	class GGOIFGGCMPK
 	{

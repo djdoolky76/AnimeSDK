@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define BOJPIOJDBAP_CAPJOMDLNIP_FKKNPACOCEF_OFFSET UNITYSDK_OFFSET(0xDD7D0)
+#define BOJPIOJDBAP_CAPJOMDLNIP_FKKNPACOCEF_OFFSET UNITYSDK_OFFSET(0x3E89480)
 
-inline static constexpr unsigned int BOJPIOJDBAP_CAPJOMDLNIP_TypeDefinitionIndex = 69597;
+inline static constexpr unsigned int BOJPIOJDBAP_CAPJOMDLNIP_TypeDefinitionIndex = 71554;
 
 	struct alignas(4) BOJPIOJDBAP_CAPJOMDLNIP
 	{

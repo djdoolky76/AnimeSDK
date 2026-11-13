@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class FloorCustomFloatConfig; }
 
-#define PKPMCCCJHED_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E4B20)
-#define PKPMCCCJHED_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0xC2E4C10)
+#define PKPMCCCJHED_CTOR_OFFSET UNITYSDK_OFFSET(0x188714C0)
+#define PKPMCCCJHED_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x188715B0)
 
-inline static constexpr unsigned int PKPMCCCJHED_TypeDefinitionIndex = 62085;
+inline static constexpr unsigned int PKPMCCCJHED_TypeDefinitionIndex = 63498;
 
 	class PKPMCCCJHED
 	{

@@ -7,18 +7,18 @@ class AEOBCFPOIBP;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define AEOBCFPOIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC85600)
-#define AEOBCFPOIBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC853D0)
+#define AEOBCFPOIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E024270)
+#define AEOBCFPOIBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E024040)
 
-inline static constexpr unsigned int AEOBCFPOIBP_TypeDefinitionIndex = 12008;
+inline static constexpr unsigned int AEOBCFPOIBP_TypeDefinitionIndex = 12065;
 
 	class AEOBCFPOIBP : public ::System::Object
 	{
 	public:
 		::System::String* MJPKBIGCFOM; // 0x10
-		::NEBMBGBIHHH GMPGDEINODK; // 0x18
-		::System::Int32 FLBGELFEBCK; // 0x1C
-		::RPG::Client::TextID OENAMINOLLF; // 0x20
+		::RPG::Client::TextID OENAMINOLLF; // 0x18
+		::NEBMBGBIHHH GMPGDEINODK; // 0x28
+		::System::Int32 FLBGELFEBCK; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEOBCFPOIBP_CTOR_OFFSET))(this);

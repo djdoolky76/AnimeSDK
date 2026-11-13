@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OBOLGLHJLBP_TypeDefinitionIndex = 79147;
+inline static constexpr unsigned int OBOLGLHJLBP_TypeDefinitionIndex = 81923;
 
 	class OBOLGLHJLBP
 	{

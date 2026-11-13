@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class MissionCustomValue; }
 
-#define RPGTOOLS_TIMELINE_QTEMISSIONCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0xE9256C0)
+#define RPGTOOLS_TIMELINE_QTEMISSIONCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C770600)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTEMissionCustomValue_TypeDefinitionIndex = 48262;
+	inline static constexpr unsigned int QTEMissionCustomValue_TypeDefinitionIndex = 49303;
 
 	class QTEMissionCustomValue : public ::System::Object
 	{

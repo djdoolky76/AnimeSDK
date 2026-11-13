@@ -7,31 +7,31 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingStoryRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB21FB0)
-#define RPG_GAMECORE_SWORDTRAININGSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB21990)
+#define RPG_GAMECORE_SWORDTRAININGSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E691A90)
+#define RPG_GAMECORE_SWORDTRAININGSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E691470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStoryRow_TypeDefinitionIndex = 12454;
+	inline static constexpr unsigned int SwordTrainingStoryRow_TypeDefinitionIndex = 12521;
 
 	class SwordTrainingStoryRow : public ::System::Object
 	{
 	public:
 		::System::String* StoryImage; // 0x10
 		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x18
-		::System::UInt32 Condition; // 0x20
+		::System::UInt32 RepeatPerformanceID; // 0x20
 		::System::UInt32 PartnerID; // 0x24
-		::RPG::Client::TextID StoryHint; // 0x28
-		::RPG::Client::TextID EffectDesc; // 0x38
-		::RPG::Client::TextID StoryDesc; // 0x48
-		::System::UInt32 PerformanceID; // 0x58
-		::System::UInt32 RepeatPerformanceID; // 0x5C
-		::RPG::Client::TextID ConditionDesc; // 0x60
-		::RPG::Client::TextID StoryTitle; // 0x70
-		::System::UInt32 MissionID; // 0x80
-		::System::UInt32 StoryID; // 0x84
-		::System::UInt32 ExamID; // 0x88
-		::RPG::GameCore::SwordTrainingStoryType StoryType; // 0x8C
+		::System::UInt32 MissionID; // 0x28
+		::System::UInt32 PerformanceID; // 0x2C
+		::RPG::Client::TextID ConditionDesc; // 0x30
+		::RPG::GameCore::SwordTrainingStoryType StoryType; // 0x40
+		::System::UInt32 ExamID; // 0x44
+		::RPG::Client::TextID EffectDesc; // 0x48
+		::RPG::Client::TextID StoryDesc; // 0x58
+		::System::UInt32 StoryID; // 0x68
+		::System::UInt32 Condition; // 0x6C
+		::RPG::Client::TextID StoryHint; // 0x70
+		::RPG::Client::TextID StoryTitle; // 0x80
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGSTORYROW_CTOR_OFFSET))(this);

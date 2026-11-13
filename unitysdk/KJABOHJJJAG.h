@@ -5,23 +5,23 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define KJABOHJJJAG_APKAPIKJDOA_OFFSET UNITYSDK_OFFSET(0xB434460)
-#define KJABOHJJJAG_CCTOR_OFFSET UNITYSDK_OFFSET(0xB4351C0)
-#define KJABOHJJJAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB4351B0)
+#define KJABOHJJJAG_APKAPIKJDOA_OFFSET UNITYSDK_OFFSET(0x19EFB110)
+#define KJABOHJJJAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x19EFBE70)
+#define KJABOHJJJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x19EFBE60)
 
-inline static constexpr unsigned int KJABOHJJJAG_TypeDefinitionIndex = 65306;
+inline static constexpr unsigned int KJABOHJJJAG_TypeDefinitionIndex = 67075;
 
 	class KJABOHJJJAG : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_GLLBJLJJJIO()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "KJABOHJJJAG")->GetStaticField(0x50170);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "KJABOHJJJAG")->GetStaticField(0x56940);
 		}
 
 		static ::System::Text::RegularExpressions::Regex** StaticGet_LCKDHILMCLE()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "KJABOHJJJAG")->GetStaticField(0x50178);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "KJABOHJJJAG")->GetStaticField(0x56948);
 		}
 
 		// static const ::System::String* ANOLLKPBNIJ; // 0x0

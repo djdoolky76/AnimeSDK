@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_InitOwedRollCount; }
 
-#define DFJNDPGIJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B09F0)
-#define DFJNDPGIJDL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5BA830)
+#define DFJNDPGIJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA65360)
+#define DFJNDPGIJDL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1BA6F160)
 
-inline static constexpr unsigned int DFJNDPGIJDL_TypeDefinitionIndex = 36325;
+inline static constexpr unsigned int DFJNDPGIJDL_TypeDefinitionIndex = 37253;
 
 	class DFJNDPGIJDL : public ::AJBKGPOEBFG
 	{

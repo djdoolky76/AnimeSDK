@@ -7,11 +7,11 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelGroupEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define EGEGHDENHPP_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x13A67390)
-#define EGEGHDENHPP_CTOR_OFFSET UNITYSDK_OFFSET(0x14506860)
-#define EGEGHDENHPP_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x145067A0)
+#define EGEGHDENHPP_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x17C01B90)
+#define EGEGHDENHPP_CTOR_OFFSET UNITYSDK_OFFSET(0x17C01D90)
+#define EGEGHDENHPP_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x17C01CD0)
 
-inline static constexpr unsigned int EGEGHDENHPP_TypeDefinitionIndex = 77505;
+inline static constexpr unsigned int EGEGHDENHPP_TypeDefinitionIndex = 80240;
 
 	class EGEGHDENHPP : public ::System::Object
 	{

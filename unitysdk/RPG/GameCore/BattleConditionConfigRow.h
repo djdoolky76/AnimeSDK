@@ -6,23 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleConditionConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLECONDITIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4284E0)
-#define RPG_GAMECORE_BATTLECONDITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D427D80)
+#define RPG_GAMECORE_BATTLECONDITIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C30B130)
+#define RPG_GAMECORE_BATTLECONDITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C30A9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleConditionConfigRow_TypeDefinitionIndex = 12844;
+	inline static constexpr unsigned int BattleConditionConfigRow_TypeDefinitionIndex = 12916;
 
 	class BattleConditionConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* AbilityName; // 0x10
-		::System::Boolean WinOrLose; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::UInt32 IsShowProgress; // 0x1C
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 TargetParam; // 0x24
-		::RPG::Client::TextID ConditionDes; // 0x28
+		::RPG::Client::TextID ConditionDes; // 0x18
+		::System::UInt32 IsShowProgress; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::System::UInt32 TargetParam; // 0x30
+		::System::Boolean WinOrLose; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECONDITIONCONFIGROW_CTOR_OFFSET))(this);

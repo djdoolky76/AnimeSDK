@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINFIREOUTCARDFLOWVIEW___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC4640)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINFIREOUTCARDFLOWVIEW___C__DISPLAYCLASS4_1___PLAYFIREOUTFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xCFC4690)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINFIREOUTCARDFLOWVIEW___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F4120)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINFIREOUTCARDFLOWVIEW___C__DISPLAYCLASS4_1___PLAYFIREOUTFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1C4F4170)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinFireOutCardFlowView___c__DisplayClass4_1_TypeDefinitionIndex = 80694;
+	inline static constexpr unsigned int FateRinFireOutCardFlowView___c__DisplayClass4_1_TypeDefinitionIndex = 83474;
 
 	template <typename T>
 	class FateRinFireOutCardFlowView___c__DisplayClass4_1 : public ::System::Object

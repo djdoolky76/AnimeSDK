@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Camera_TypeDefinitionIndex = 46183;
+	inline static constexpr unsigned int MHYSDKC_Camera_TypeDefinitionIndex = 47212;
 
 	class MHYSDKC_Camera : public ::System::Object
 	{

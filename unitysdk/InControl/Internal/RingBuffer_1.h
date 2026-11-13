@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace InControl::Internal
 {
-	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 40923;
+	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 41898;
 
 	template <typename T>
 	class RingBuffer_1 : public ::System::Object

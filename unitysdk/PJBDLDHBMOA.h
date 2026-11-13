@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class FloorCustomBoolConfig; }
 
-#define PJBDLDHBMOA_CTOR_OFFSET UNITYSDK_OFFSET(0xC273D20)
-#define PJBDLDHBMOA_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0xC273D50)
+#define PJBDLDHBMOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9DFEF0)
+#define PJBDLDHBMOA_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x1A9DFF20)
 
-inline static constexpr unsigned int PJBDLDHBMOA_TypeDefinitionIndex = 62086;
+inline static constexpr unsigned int PJBDLDHBMOA_TypeDefinitionIndex = 63499;
 
 	class PJBDLDHBMOA
 	{

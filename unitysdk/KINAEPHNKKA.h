@@ -4,10 +4,10 @@
 class FDPALAEIHPB;
 class PEMFMPIPNJN;
 
-#define KINAEPHNKKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8D2F70)
-#define KINAEPHNKKA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C8D2F80)
+#define KINAEPHNKKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A30C300)
+#define KINAEPHNKKA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A30C310)
 
-inline static constexpr unsigned int KINAEPHNKKA_TypeDefinitionIndex = 42485;
+inline static constexpr unsigned int KINAEPHNKKA_TypeDefinitionIndex = 43460;
 
 	class KINAEPHNKKA : public ::System::Object
 	{

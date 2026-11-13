@@ -4,15 +4,15 @@
 namespace RPG::GameCore { class LittleGameSmartObjectConfig; }
 namespace System { class String; }
 
-#define NDAHMHCJMIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB18910)
+#define NDAHMHCJMIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1510C260)
 
-inline static constexpr unsigned int NDAHMHCJMIP_TypeDefinitionIndex = 77251;
+inline static constexpr unsigned int NDAHMHCJMIP_TypeDefinitionIndex = 79585;
 
 	class NDAHMHCJMIP : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LittleGameSmartObjectConfig* NOKKJMDJBEF; // 0x10
-		::System::String* BDACPPLKLGL; // 0x18
+		::System::String* BDACPPLKLGL; // 0x10
+		::RPG::GameCore::LittleGameSmartObjectConfig* NOKKJMDJBEF; // 0x18
 		::System::Int32 AAGKEBFHLMC; // 0x20
 		::System::Void _ctor()
 		{

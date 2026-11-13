@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ACPNMANEGEH_CTOR_OFFSET UNITYSDK_OFFSET(0xB131BE0)
+#define ACPNMANEGEH_CTOR_OFFSET UNITYSDK_OFFSET(0x182A33F0)
 
-inline static constexpr unsigned int ACPNMANEGEH_TypeDefinitionIndex = 70240;
+inline static constexpr unsigned int ACPNMANEGEH_TypeDefinitionIndex = 72206;
 
 	class ACPNMANEGEH : public ::System::Attribute
 	{

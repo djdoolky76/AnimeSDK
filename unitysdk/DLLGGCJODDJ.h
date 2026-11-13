@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define DLLGGCJODDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A5D80)
+#define DLLGGCJODDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1867A380)
 
-inline static constexpr unsigned int DLLGGCJODDJ_TypeDefinitionIndex = 48383;
+inline static constexpr unsigned int DLLGGCJODDJ_TypeDefinitionIndex = 49424;
 
 	class DLLGGCJODDJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{

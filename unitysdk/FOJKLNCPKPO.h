@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define FOJKLNCPKPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE59D0)
+#define FOJKLNCPKPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA362A0)
 
-inline static constexpr unsigned int FOJKLNCPKPO_TypeDefinitionIndex = 24985;
+inline static constexpr unsigned int FOJKLNCPKPO_TypeDefinitionIndex = 25465;
 
 	class FOJKLNCPKPO : public ::System::Attribute
 	{

@@ -5,20 +5,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropTryGetNiudanReward; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHLJINBIDOE_CTOR_OFFSET UNITYSDK_OFFSET(0x15CC4FC0)
-#define HHLJINBIDOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CC4FD0)
-#define HHLJINBIDOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CC50C0)
-#define HHLJINBIDOE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15CC5010)
-#define HHLJINBIDOE_TICK_OFFSET UNITYSDK_OFFSET(0x15CC5060)
+#define HHLJINBIDOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1901D490)
+#define HHLJINBIDOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1901D4A0)
+#define HHLJINBIDOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1901D590)
+#define HHLJINBIDOE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1901D4E0)
+#define HHLJINBIDOE_TICK_OFFSET UNITYSDK_OFFSET(0x1901D530)
 
-inline static constexpr unsigned int HHLJINBIDOE_TypeDefinitionIndex = 58362;
+inline static constexpr unsigned int HHLJINBIDOE_TypeDefinitionIndex = 59618;
 
 	class HHLJINBIDOE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::PropTryGetNiudanReward* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x28
+		::RPG::GameCore::PropTryGetNiudanReward* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropTryGetNiudanReward* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropTryGetNiudanReward*))((::PBYTE)hIl2Cpp + HHLJINBIDOE_CTOR_OFFSET))(this, a1, a2);

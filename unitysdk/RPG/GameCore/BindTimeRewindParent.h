@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BindTimeRewindParent; }
 namespace RPG::GameCore { class TimeRewindChildConfig; }
 namespace RPG::GameCore { class TimeRewindParentPropStateConfig; }
 
-#define RPG_GAMECORE_BINDTIMEREWINDPARENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D440630)
-#define RPG_GAMECORE_BINDTIMEREWINDPARENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D440640)
-#define RPG_GAMECORE_BINDTIMEREWINDPARENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D440600)
+#define RPG_GAMECORE_BINDTIMEREWINDPARENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF471C0)
+#define RPG_GAMECORE_BINDTIMEREWINDPARENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF471D0)
+#define RPG_GAMECORE_BINDTIMEREWINDPARENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF47190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindTimeRewindParent_TypeDefinitionIndex = 20654;
+	inline static constexpr unsigned int BindTimeRewindParent_TypeDefinitionIndex = 20991;
 
 	class BindTimeRewindParent : public ::RPG::GameCore::TaskConfig
 	{

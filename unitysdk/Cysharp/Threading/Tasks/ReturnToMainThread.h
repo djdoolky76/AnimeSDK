@@ -4,12 +4,12 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/Cysharp/Threading/Tasks/ReturnToMainThread_Awaiter.h"
 
-#define CYSHARP_THREADING_TASKS_RETURNTOMAINTHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
-#define CYSHARP_THREADING_TASKS_RETURNTOMAINTHREAD_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x3C5EFF0)
+#define CYSHARP_THREADING_TASKS_RETURNTOMAINTHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0x3D9DFE0)
+#define CYSHARP_THREADING_TASKS_RETURNTOMAINTHREAD_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x3F46220)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int ReturnToMainThread_TypeDefinitionIndex = 38365;
+	inline static constexpr unsigned int ReturnToMainThread_TypeDefinitionIndex = 39294;
 
 	struct alignas(4) ReturnToMainThread
 	{

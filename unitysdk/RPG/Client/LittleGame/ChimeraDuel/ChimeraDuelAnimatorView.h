@@ -4,78 +4,78 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0xD414120)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD414110)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_EGNMELNENAC_OFFSET UNITYSDK_OFFSET(0xD4128E0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0xD413100)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_IMOJCHKGCAA_OFFSET UNITYSDK_OFFSET(0xD413EF0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_JAIHJDJLGLD_OFFSET UNITYSDK_OFFSET(0xD413660)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_JPPHNADENJD_OFFSET UNITYSDK_OFFSET(0xD413CB0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xD4135F0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_OANPILEOMJI_OFFSET UNITYSDK_OFFSET(0xD413870)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_OBKGEBIEKGP_OFFSET UNITYSDK_OFFSET(0xD413A90)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_PAIDAEBKNPL_OFFSET UNITYSDK_OFFSET(0xD413300)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_PLAYBACK_OFFSET UNITYSDK_OFFSET(0xD4131A0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_PLAYEYEANIMATION_OFFSET UNITYSDK_OFFSET(0xD412FA0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_PLAY_OFFSET UNITYSDK_OFFSET(0xD412890)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E134E80)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E134E70)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_EGNMELNENAC_OFFSET UNITYSDK_OFFSET(0x1E133640)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x1E133E60)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_IMOJCHKGCAA_OFFSET UNITYSDK_OFFSET(0x1E134C50)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_JAIHJDJLGLD_OFFSET UNITYSDK_OFFSET(0x1E1343C0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_JPPHNADENJD_OFFSET UNITYSDK_OFFSET(0x1E134A10)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x1E134350)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_OANPILEOMJI_OFFSET UNITYSDK_OFFSET(0x1E1345D0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_OBKGEBIEKGP_OFFSET UNITYSDK_OFFSET(0x1E1347F0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_PAIDAEBKNPL_OFFSET UNITYSDK_OFFSET(0x1E134060)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_PLAYBACK_OFFSET UNITYSDK_OFFSET(0x1E133F00)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_PLAYEYEANIMATION_OFFSET UNITYSDK_OFFSET(0x1E133D00)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELANIMATORVIEW_PLAY_OFFSET UNITYSDK_OFFSET(0x1E1335F0)
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelAnimatorView_TypeDefinitionIndex = 77708;
+	inline static constexpr unsigned int ChimeraDuelAnimatorView_TypeDefinitionIndex = 80443;
 
 	class ChimeraDuelAnimatorView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single HurtCDTimeConfig; // 0x18
 		::System::Single LNLADKOLPFM; // 0x1C
-		static ::System::Int32* StaticGet_LFJHKGPGMKN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7AE0);
-		}
-
-		static ::System::Int32* StaticGet_OJMAKFGNBOM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7AE4);
-		}
-
 		static ::System::Int32* StaticGet_DEDJFJNKCAG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7AE8);
-		}
-
-		static ::System::Int32* StaticGet_HILLGOLHOLO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7AEC);
-		}
-
-		static ::System::Int32* StaticGet_DODGEHMJGNA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7AF0);
-		}
-
-		static ::System::Int32* StaticGet_FLDGLNNLAFK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7AF4);
-		}
-
-		static ::System::Int32* StaticGet_HCNJEDMDAMK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7AF8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8D0);
 		}
 
 		static ::System::Int32* StaticGet_OJNCNOHNEEH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7AFC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8D4);
+		}
+
+		static ::System::Int32* StaticGet_OJMAKFGNBOM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8D8);
+		}
+
+		static ::System::Int32* StaticGet_HILLGOLHOLO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8DC);
+		}
+
+		static ::System::Int32* StaticGet_FLDGLNNLAFK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8E0);
 		}
 
 		static ::System::Int32* StaticGet_BMOKIOMMCIL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7B00);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8E4);
+		}
+
+		static ::System::Int32* StaticGet_DODGEHMJGNA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8E8);
+		}
+
+		static ::System::Int32* StaticGet_LFJHKGPGMKN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8EC);
 		}
 
 		static ::System::Int32* StaticGet_DFIPBEILGAH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0x7B04);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8F0);
+		}
+
+		static ::System::Int32* StaticGet_HCNJEDMDAMK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.LittleGame.ChimeraDuel", "ChimeraDuelAnimatorView")->GetStaticField(0xC8F4);
 		}
 
 		::System::Void _ctor()

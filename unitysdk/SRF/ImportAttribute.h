@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define SRF_IMPORTATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED44330)
-#define SRF_IMPORTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED44320)
+#define SRF_IMPORTATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x204365B0)
+#define SRF_IMPORTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x204365A0)
 
 namespace SRF
 {
-	inline static constexpr unsigned int ImportAttribute_TypeDefinitionIndex = 35363;
+	inline static constexpr unsigned int ImportAttribute_TypeDefinitionIndex = 36291;
 
 	class ImportAttribute : public ::System::Attribute
 	{

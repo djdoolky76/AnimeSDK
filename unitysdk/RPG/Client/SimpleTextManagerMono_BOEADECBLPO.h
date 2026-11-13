@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_BOEADECBLPO_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0xE0CA6F0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_BOEADECBLPO_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x1B40AC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTextManagerMono_BOEADECBLPO_TypeDefinitionIndex = 72648;
+	inline static constexpr unsigned int SimpleTextManagerMono_BOEADECBLPO_TypeDefinitionIndex = 74727;
 
 	class SimpleTextManagerMono_BOEADECBLPO : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropAttachPointRendererSetVisibility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CONFAAMKJGA_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB9120)
-#define CONFAAMKJGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCB9150)
+#define CONFAAMKJGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1916A040)
+#define CONFAAMKJGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1916A070)
 
-inline static constexpr unsigned int CONFAAMKJGA_TypeDefinitionIndex = 58302;
+inline static constexpr unsigned int CONFAAMKJGA_TypeDefinitionIndex = 59558;
 
 	class CONFAAMKJGA
 	{

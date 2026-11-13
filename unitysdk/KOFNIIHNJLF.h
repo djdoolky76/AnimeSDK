@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KOFNIIHNJLF_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D090F20)
+#define KOFNIIHNJLF_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1ECF1290)
 
-inline static constexpr unsigned int KOFNIIHNJLF_TypeDefinitionIndex = 10693;
+inline static constexpr unsigned int KOFNIIHNJLF_TypeDefinitionIndex = 10709;
 
 	class KOFNIIHNJLF : public ::System::Object
 	{

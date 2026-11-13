@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LNECJHDPPDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8EDC90)
+#define LNECJHDPPDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D647EB0)
 
-inline static constexpr unsigned int LNECJHDPPDI_TypeDefinitionIndex = 42558;
+inline static constexpr unsigned int LNECJHDPPDI_TypeDefinitionIndex = 43533;
 
 	class LNECJHDPPDI : public ::System::Object
 	{

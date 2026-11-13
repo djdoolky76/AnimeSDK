@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MOHNIMLCODA_TypeDefinitionIndex = 25293;
+inline static constexpr unsigned int MOHNIMLCODA_TypeDefinitionIndex = 25771;
 
 	enum class MOHNIMLCODA : ::System::Int32
 	{

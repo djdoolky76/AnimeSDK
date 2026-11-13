@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HFEIABPAKHD_OMMHMHNHOOM_OFFSET UNITYSDK_OFFSET(0x1CE71520)
+#define HFEIABPAKHD_OMMHMHNHOOM_OFFSET UNITYSDK_OFFSET(0x1E80EFA0)
 
-inline static constexpr unsigned int HFEIABPAKHD_TypeDefinitionIndex = 24846;
+inline static constexpr unsigned int HFEIABPAKHD_TypeDefinitionIndex = 25326;
 
 	class HFEIABPAKHD : public ::System::Object
 	{

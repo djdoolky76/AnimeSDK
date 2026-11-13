@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/AIVariable.h"
 namespace System { class Object; }
 
-#define GKHNBMDPFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x15A8C2C0)
+#define GKHNBMDPFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8D33D0)
 
-inline static constexpr unsigned int GKHNBMDPFNO_TypeDefinitionIndex = 54334;
+inline static constexpr unsigned int GKHNBMDPFNO_TypeDefinitionIndex = 55498;
 
 	class GKHNBMDPFNO : public ::RPG::GameCore::AIVariable
 	{

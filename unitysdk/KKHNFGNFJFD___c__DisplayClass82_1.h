@@ -6,18 +6,18 @@ namespace RPG::GameCore { class ModifierAffectedPreshowConfig; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class Object; }
 
-#define KKHNFGNFJFD___C__DISPLAYCLASS82_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB4C5660)
-#define KKHNFGNFJFD___C__DISPLAYCLASS82_1__ONCASTERMODIFIERPREVIEWAFFECTTARGETS_B__1_OFFSET UNITYSDK_OFFSET(0xB4C5670)
+#define KKHNFGNFJFD___C__DISPLAYCLASS82_1_CTOR_OFFSET UNITYSDK_OFFSET(0x17351EB0)
+#define KKHNFGNFJFD___C__DISPLAYCLASS82_1__ONCASTERMODIFIERPREVIEWAFFECTTARGETS_B__1_OFFSET UNITYSDK_OFFSET(0x17351EC0)
 
-inline static constexpr unsigned int KKHNFGNFJFD___c__DisplayClass82_1_TypeDefinitionIndex = 71306;
+inline static constexpr unsigned int KKHNFGNFJFD___c__DisplayClass82_1_TypeDefinitionIndex = 73283;
 
 	template <typename T>
 	class KKHNFGNFJFD___c__DisplayClass82_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
+		::RPG::GameCore::TurnBasedModifierInstance* modifier; // 0x10
 		::RPG::GameCore::ModifierAffectedPreshowConfig* pPreshowConfig; // 0x18
-		::RPG::GameCore::TurnBasedModifierInstance* modifier; // 0x20
+		::System::Object* CS___8__locals1; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKHNFGNFJFD___C__DISPLAYCLASS82_1_CTOR_OFFSET))(this);

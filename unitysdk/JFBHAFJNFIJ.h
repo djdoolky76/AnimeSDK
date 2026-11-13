@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JFBHAFJNFIJ_COMPARE_OFFSET UNITYSDK_OFFSET(0x16631CC0)
-#define JFBHAFJNFIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x166318E0)
-#define JFBHAFJNFIJ_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0x16631BC0)
-#define JFBHAFJNFIJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16631900)
+#define JFBHAFJNFIJ_COMPARE_OFFSET UNITYSDK_OFFSET(0x19328380)
+#define JFBHAFJNFIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19327FA0)
+#define JFBHAFJNFIJ_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0x19328280)
+#define JFBHAFJNFIJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x19327FC0)
 
-inline static constexpr unsigned int JFBHAFJNFIJ_TypeDefinitionIndex = 59177;
+inline static constexpr unsigned int JFBHAFJNFIJ_TypeDefinitionIndex = 60454;
 
 	class JFBHAFJNFIJ
 	{

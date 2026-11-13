@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CaptureEntity; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CAPTUREENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D529890)
-#define RPG_GAMECORE_CAPTUREENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5298A0)
-#define RPG_GAMECORE_CAPTUREENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D529860)
+#define RPG_GAMECORE_CAPTUREENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC02230)
+#define RPG_GAMECORE_CAPTUREENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC02240)
+#define RPG_GAMECORE_CAPTUREENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC02200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CaptureEntity_TypeDefinitionIndex = 20820;
+	inline static constexpr unsigned int CaptureEntity_TypeDefinitionIndex = 21157;
 
 	class CaptureEntity : public ::RPG::GameCore::TaskConfig
 	{

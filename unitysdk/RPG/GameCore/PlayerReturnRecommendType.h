@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnRecommendType_TypeDefinitionIndex = 14522;
+	inline static constexpr unsigned int PlayerReturnRecommendType_TypeDefinitionIndex = 14677;
 
 	enum class PlayerReturnRecommendType : ::System::Int32
 	{

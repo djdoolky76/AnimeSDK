@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE12BF0)
-#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xDE12990)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1905E220)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1905DFC0)
 
 namespace RPG::Client::RPGDemo
 {
-	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 75945;
+	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 78272;
 
 	class RPGDemoCameraController_Example : public ::UnityEngine::MonoBehaviour
 	{

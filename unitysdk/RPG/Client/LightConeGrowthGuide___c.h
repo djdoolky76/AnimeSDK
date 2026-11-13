@@ -5,25 +5,25 @@ class NHPAANINLPK;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD38CDD0)
-#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD38CE10)
-#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xD38CE20)
+#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEEB010)
+#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEEB050)
+#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1CEEB060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeGrowthGuide___c_TypeDefinitionIndex = 65551;
+	inline static constexpr unsigned int LightConeGrowthGuide___c_TypeDefinitionIndex = 67467;
 
 	class LightConeGrowthGuide___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::NHPAANINLPK*>** StaticGet___9__2_0()
 		{
-			return (::System::Predicate_1<::NHPAANINLPK*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x18BF0);
+			return (::System::Predicate_1<::NHPAANINLPK*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C220);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x18BF8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C228);
 		}
 
 		static ::System::Void _cctor()

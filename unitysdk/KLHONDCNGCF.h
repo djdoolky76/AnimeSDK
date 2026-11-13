@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyAiVisionExcludeTagRuntime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KLHONDCNGCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB521970)
-#define KLHONDCNGCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5219A0)
+#define KLHONDCNGCF_CTOR_OFFSET UNITYSDK_OFFSET(0x17B7E730)
+#define KLHONDCNGCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B7E760)
 
-inline static constexpr unsigned int KLHONDCNGCF_TypeDefinitionIndex = 53024;
+inline static constexpr unsigned int KLHONDCNGCF_TypeDefinitionIndex = 54184;
 
 	class KLHONDCNGCF
 	{

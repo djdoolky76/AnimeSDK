@@ -3,7 +3,7 @@
 #include "unitysdk/System/EventArgs.h"
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_ASSEMBLYLOADEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C07DDF0)
+#define SYSTEM_ASSEMBLYLOADEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E106760)
 
 namespace System
 {

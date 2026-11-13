@@ -5,10 +5,10 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define EBGKBGGBCBG___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C521970)
-#define EBGKBGGBCBG___C__DISPLAYCLASS0_0__DETERMINE_B__0_OFFSET UNITYSDK_OFFSET(0x1C521B40)
+#define EBGKBGGBCBG___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E784B40)
+#define EBGKBGGBCBG___C__DISPLAYCLASS0_0__DETERMINE_B__0_OFFSET UNITYSDK_OFFSET(0x1E784D10)
 
-inline static constexpr unsigned int EBGKBGGBCBG___c__DisplayClass0_0_TypeDefinitionIndex = 41892;
+inline static constexpr unsigned int EBGKBGGBCBG___c__DisplayClass0_0_TypeDefinitionIndex = 42867;
 
 	class EBGKBGGBCBG___c__DisplayClass0_0 : public ::System::Object
 	{

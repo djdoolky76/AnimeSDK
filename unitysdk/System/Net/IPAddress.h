@@ -6,29 +6,29 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_IPADDRESS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F03A110)
-#define SYSTEM_NET_IPADDRESS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F038DD0)
-#define SYSTEM_NET_IPADDRESS_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F038F80)
-#define SYSTEM_NET_IPADDRESS_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F038FD0)
-#define SYSTEM_NET_IPADDRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F038D60)
-#define SYSTEM_NET_IPADDRESS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F039D40)
-#define SYSTEM_NET_IPADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F039DC0)
-#define SYSTEM_NET_IPADDRESS_GETADDRESSBYTES_OFFSET UNITYSDK_OFFSET(0x1F01C2A0)
-#define SYSTEM_NET_IPADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F039F60)
-#define SYSTEM_NET_IPADDRESS_GET_ADDRESSFAMILY_OFFSET UNITYSDK_OFFSET(0x1F039310)
-#define SYSTEM_NET_IPADDRESS_GET_ISBROADCAST_OFFSET UNITYSDK_OFFSET(0x1F039D50)
-#define SYSTEM_NET_IPADDRESS_GET_SCOPEID_OFFSET UNITYSDK_OFFSET(0x1F039320)
-#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_1_OFFSET UNITYSDK_OFFSET(0x1F039B50)
-#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_2_OFFSET UNITYSDK_OFFSET(0x1F039B80)
-#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_OFFSET UNITYSDK_OFFSET(0x1F039AF0)
-#define SYSTEM_NET_IPADDRESS_INTERNALPARSE_OFFSET UNITYSDK_OFFSET(0x1F039010)
-#define SYSTEM_NET_IPADDRESS_ISLOOPBACK_OFFSET UNITYSDK_OFFSET(0x1F039C40)
-#define SYSTEM_NET_IPADDRESS_MAPTOIPV6_OFFSET UNITYSDK_OFFSET(0x1F03A050)
-#define SYSTEM_NET_IPADDRESS_NETWORKTOHOSTORDER_1_OFFSET UNITYSDK_OFFSET(0x1F039C00)
-#define SYSTEM_NET_IPADDRESS_NETWORKTOHOSTORDER_OFFSET UNITYSDK_OFFSET(0x1F039B90)
-#define SYSTEM_NET_IPADDRESS_PARSE_OFFSET UNITYSDK_OFFSET(0x1F008480)
-#define SYSTEM_NET_IPADDRESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F008930)
-#define SYSTEM_NET_IPADDRESS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1F008760)
+#define SYSTEM_NET_IPADDRESS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C419460)
+#define SYSTEM_NET_IPADDRESS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C4180F0)
+#define SYSTEM_NET_IPADDRESS_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C4182A0)
+#define SYSTEM_NET_IPADDRESS_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C4182F0)
+#define SYSTEM_NET_IPADDRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C418080)
+#define SYSTEM_NET_IPADDRESS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C419090)
+#define SYSTEM_NET_IPADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C419110)
+#define SYSTEM_NET_IPADDRESS_GETADDRESSBYTES_OFFSET UNITYSDK_OFFSET(0x1C3FB7B0)
+#define SYSTEM_NET_IPADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C4192B0)
+#define SYSTEM_NET_IPADDRESS_GET_ADDRESSFAMILY_OFFSET UNITYSDK_OFFSET(0x1C418660)
+#define SYSTEM_NET_IPADDRESS_GET_ISBROADCAST_OFFSET UNITYSDK_OFFSET(0x1C4190A0)
+#define SYSTEM_NET_IPADDRESS_GET_SCOPEID_OFFSET UNITYSDK_OFFSET(0x1C418670)
+#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_1_OFFSET UNITYSDK_OFFSET(0x1C418EA0)
+#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_2_OFFSET UNITYSDK_OFFSET(0x1C418ED0)
+#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_OFFSET UNITYSDK_OFFSET(0x1C418E40)
+#define SYSTEM_NET_IPADDRESS_INTERNALPARSE_OFFSET UNITYSDK_OFFSET(0x1C418330)
+#define SYSTEM_NET_IPADDRESS_ISLOOPBACK_OFFSET UNITYSDK_OFFSET(0x1C418F90)
+#define SYSTEM_NET_IPADDRESS_MAPTOIPV6_OFFSET UNITYSDK_OFFSET(0x1C4193A0)
+#define SYSTEM_NET_IPADDRESS_NETWORKTOHOSTORDER_1_OFFSET UNITYSDK_OFFSET(0x1C418F50)
+#define SYSTEM_NET_IPADDRESS_NETWORKTOHOSTORDER_OFFSET UNITYSDK_OFFSET(0x1C418EE0)
+#define SYSTEM_NET_IPADDRESS_PARSE_OFFSET UNITYSDK_OFFSET(0x1C3E7990)
+#define SYSTEM_NET_IPADDRESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C3E7E90)
+#define SYSTEM_NET_IPADDRESS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1C3E7CA0)
 
 namespace System::Net
 {
@@ -39,43 +39,43 @@ namespace System::Net
 	public:
 		::Il2CppArray<::System::UInt16>* m_Numbers; // 0x10
 		::System::String* m_ToString; // 0x18
-		::System::Net::Sockets::AddressFamily m_Family; // 0x20
-		::System::Int32 m_HashCode; // 0x24
-		::System::Int64 m_ScopeId; // 0x28
+		::System::Int64 m_ScopeId; // 0x20
+		::System::Net::Sockets::AddressFamily m_Family; // 0x28
+		::System::Int32 m_HashCode; // 0x2C
 		::System::Int64 m_Address; // 0x30
 		static ::System::Net::IPAddress** StaticGet_Broadcast()
 		{
-			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x1C3F0);
-		}
-
-		static ::System::Net::IPAddress** StaticGet_Any()
-		{
-			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x1C3F8);
+			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x15550);
 		}
 
 		static ::System::Net::IPAddress** StaticGet_Loopback()
 		{
-			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x1C400);
-		}
-
-		static ::System::Net::IPAddress** StaticGet_IPv6None()
-		{
-			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x1C408);
-		}
-
-		static ::System::Net::IPAddress** StaticGet_None()
-		{
-			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x1C410);
-		}
-
-		static ::System::Net::IPAddress** StaticGet_IPv6Any()
-		{
-			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x1C418);
+			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x15558);
 		}
 
 		static ::System::Net::IPAddress** StaticGet_IPv6Loopback()
 		{
-			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x1C420);
+			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x15560);
+		}
+
+		static ::System::Net::IPAddress** StaticGet_Any()
+		{
+			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x15568);
+		}
+
+		static ::System::Net::IPAddress** StaticGet_IPv6None()
+		{
+			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x15570);
+		}
+
+		static ::System::Net::IPAddress** StaticGet_None()
+		{
+			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x15578);
+		}
+
+		static ::System::Net::IPAddress** StaticGet_IPv6Any()
+		{
+			return (::System::Net::IPAddress**)UnitySDK::FromName("System.Net", "IPAddress")->GetStaticField(0x15580);
 		}
 
 		// static const ::System::Object LoopbackMask; // 0x0

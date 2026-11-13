@@ -4,13 +4,13 @@
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class PolygonCollider2D; }
 
-#define RPG_CLIENT_BASECUSTOMCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xC7DE230)
-#define RPG_CLIENT_BASECUSTOMCOLLIDER_HDJLPAMGMEJ_OFFSET UNITYSDK_OFFSET(0xC7DE110)
-#define RPG_CLIENT_BASECUSTOMCOLLIDER_IMHKPPFDLOG_OFFSET UNITYSDK_OFFSET(0xC7DDFF0)
+#define RPG_CLIENT_BASECUSTOMCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFF1AA0)
+#define RPG_CLIENT_BASECUSTOMCOLLIDER_HDJLPAMGMEJ_OFFSET UNITYSDK_OFFSET(0x1AFF1980)
+#define RPG_CLIENT_BASECUSTOMCOLLIDER_IMHKPPFDLOG_OFFSET UNITYSDK_OFFSET(0x1AFF1860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseCustomCollider_TypeDefinitionIndex = 68900;
+	inline static constexpr unsigned int BaseCustomCollider_TypeDefinitionIndex = 70853;
 
 	class BaseCustomCollider : public ::UnityEngine::MonoBehaviour
 	{

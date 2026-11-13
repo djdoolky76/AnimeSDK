@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ChenLingBattle { class Effect; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS65_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA44C70)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS65_0__REMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCA49070)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS65_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D0C70)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS65_0__REMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1D7D5010)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass65_0_TypeDefinitionIndex = 76337;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass65_0_TypeDefinitionIndex = 78668;
 
 	class ChenLingBattleGameSession___c__DisplayClass65_0 : public ::System::Object
 	{

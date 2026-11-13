@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_APPUTILS_CNAMEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6905D0)
+#define RPG_CLIENT_APPUTILS_CNAMEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA995F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AppUtils_CNameData_TypeDefinitionIndex = 59278;
+	inline static constexpr unsigned int AppUtils_CNameData_TypeDefinitionIndex = 60555;
 
 	struct alignas(8) AppUtils_CNameData
 	{
@@ -14,7 +14,7 @@ namespace RPG::Client
 		::System::String* CName; // 0x18
 		static ::RPG::Client::AppUtils_CNameData* StaticGet_Emtpy()
 		{
-			return (::RPG::Client::AppUtils_CNameData*)UnitySDK::FromName("RPG.Client", "CNameData")->GetStaticField(0x45B10);
+			return (::RPG::Client::AppUtils_CNameData*)UnitySDK::FromName("RPG.Client", "CNameData")->GetStaticField(0x56B00);
 		}
 
 		static ::System::Void _cctor()

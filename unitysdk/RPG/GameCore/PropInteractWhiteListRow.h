@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropInteractWhiteListRow; }
 
-#define RPG_GAMECORE_PROPINTERACTWHITELISTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D920FA0)
-#define RPG_GAMECORE_PROPINTERACTWHITELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D920F00)
+#define RPG_GAMECORE_PROPINTERACTWHITELISTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8B040)
+#define RPG_GAMECORE_PROPINTERACTWHITELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF8AFA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInteractWhiteListRow_TypeDefinitionIndex = 13234;
+	inline static constexpr unsigned int PropInteractWhiteListRow_TypeDefinitionIndex = 13308;
 
 	class PropInteractWhiteListRow : public ::System::Object
 	{

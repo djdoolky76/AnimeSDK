@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KPNDPCFELMN_BJOLEAFNACH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BEC50)
+#define KPNDPCFELMN_BJOLEAFNACH_CTOR_OFFSET UNITYSDK_OFFSET(0x1912FDA0)
 
-inline static constexpr unsigned int KPNDPCFELMN_BJOLEAFNACH_TypeDefinitionIndex = 69487;
+inline static constexpr unsigned int KPNDPCFELMN_BJOLEAFNACH_TypeDefinitionIndex = 71441;
 
 	class KPNDPCFELMN_BJOLEAFNACH : public ::System::Object
 	{

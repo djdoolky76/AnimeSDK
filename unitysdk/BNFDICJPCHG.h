@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define BNFDICJPCHG_CTOR_OFFSET UNITYSDK_OFFSET(0x11150)
-#define BNFDICJPCHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x23D00)
+#define BNFDICJPCHG_CTOR_OFFSET UNITYSDK_OFFSET(0x650320)
+#define BNFDICJPCHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3E62550)
 
-inline static constexpr unsigned int BNFDICJPCHG_TypeDefinitionIndex = 67434;
+inline static constexpr unsigned int BNFDICJPCHG_TypeDefinitionIndex = 69378;
 
 	struct alignas(4) BNFDICJPCHG
 	{

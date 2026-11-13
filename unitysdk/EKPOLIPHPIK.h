@@ -6,20 +6,19 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define EKPOLIPHPIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1550DBE0)
+#define EKPOLIPHPIK_CTOR_OFFSET UNITYSDK_OFFSET(0x199A3250)
 
-inline static constexpr unsigned int EKPOLIPHPIK_TypeDefinitionIndex = 51886;
+inline static constexpr unsigned int EKPOLIPHPIK_TypeDefinitionIndex = 52972;
 
 	class EKPOLIPHPIK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* KJEBCFIOPHB; // 0x10
-		::UnityEngine::Transform* KBBHFADBJCP; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* ONDPCNNKLOE; // 0x20
-		::System::Boolean AAAHCOIMADJ; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::Int32 IGCDCFGJMCL; // 0x2C
-		::UnityEngine::Vector3 HDKDECNKEEC; // 0x30
+		::UnityEngine::Transform* KBBHFADBJCP; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* ONDPCNNKLOE; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* KJEBCFIOPHB; // 0x20
+		::UnityEngine::Vector3 HDKDECNKEEC; // 0x28
+		::System::Int32 IGCDCFGJMCL; // 0x34
+		::System::Boolean AAAHCOIMADJ; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKPOLIPHPIK_CTOR_OFFSET))(this);

@@ -5,31 +5,31 @@ namespace RPG::Client { class GridFightTalentNode; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTPERMANENTTALENTNODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1CC340)
-#define RPG_CLIENT_GRIDFIGHTPERMANENTTALENTNODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1CC380)
-#define RPG_CLIENT_GRIDFIGHTPERMANENTTALENTNODE___C__GET_ISARRIVED_B__20_0_OFFSET UNITYSDK_OFFSET(0xD1CC390)
-#define RPG_CLIENT_GRIDFIGHTPERMANENTTALENTNODE___C__GET_ISARRIVED_B__20_1_OFFSET UNITYSDK_OFFSET(0xD1CC420)
+#define RPG_CLIENT_GRIDFIGHTPERMANENTTALENTNODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF206B0)
+#define RPG_CLIENT_GRIDFIGHTPERMANENTTALENTNODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF206F0)
+#define RPG_CLIENT_GRIDFIGHTPERMANENTTALENTNODE___C__GET_ISARRIVED_B__20_0_OFFSET UNITYSDK_OFFSET(0x1DF20700)
+#define RPG_CLIENT_GRIDFIGHTPERMANENTTALENTNODE___C__GET_ISARRIVED_B__20_1_OFFSET UNITYSDK_OFFSET(0x1DF20790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPermanentTalentNode___c_TypeDefinitionIndex = 65258;
+	inline static constexpr unsigned int GridFightPermanentTalentNode___c_TypeDefinitionIndex = 67009;
 
 	class GridFightPermanentTalentNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B750);
+			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72B70);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B758);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72B78);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>** StaticGet___9__20_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B760);
+			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72B80);
 		}
 
 		static ::System::Void _cctor()

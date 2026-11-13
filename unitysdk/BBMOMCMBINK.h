@@ -11,26 +11,26 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerModifierCustomEvent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define BBMOMCMBINK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E869B0)
-#define BBMOMCMBINK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E86B10)
-#define BBMOMCMBINK_EIEKAMLDNND_OFFSET UNITYSDK_OFFSET(0x15E87850)
-#define BBMOMCMBINK_NPHDJAKLKJF_OFFSET UNITYSDK_OFFSET(0x15E87B10)
-#define BBMOMCMBINK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E86B60)
+#define BBMOMCMBINK_CTOR_OFFSET UNITYSDK_OFFSET(0x19D61550)
+#define BBMOMCMBINK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19D616B0)
+#define BBMOMCMBINK_EIEKAMLDNND_OFFSET UNITYSDK_OFFSET(0x19D625B0)
+#define BBMOMCMBINK_NPHDJAKLKJF_OFFSET UNITYSDK_OFFSET(0x19D62870)
+#define BBMOMCMBINK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D61700)
 
-inline static constexpr unsigned int BBMOMCMBINK_TypeDefinitionIndex = 55747;
+inline static constexpr unsigned int BBMOMCMBINK_TypeDefinitionIndex = 56949;
 
 	class BBMOMCMBINK
 	{
 	public:
 		::RPG::PoolList_1<::RPG::GameCore::TurnBasedModifierInstance*>* HKGJKJHBOBG; // 0x28
-		::RPG::GameCore::GameEntity* BLDBOAKGDNH; // 0x30
+		::RPG::GameCore::GameEntity* GHBGHCLIMKC; // 0x30
 		::GELIALJDFBL* LLHKOFLJFCH; // 0x38
-		::RPG::GameCore::GameEntity* GHBGHCLIMKC; // 0x40
+		::RPG::GameCore::GameEntity* BLDBOAKGDNH; // 0x40
 		::RPG::GameCore::ModifierCustomEventConfig* FNKBIEBFFBO; // 0x48
-		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x50
-		::RPG::GameCore::ModifierCustomEventSortType OEAAMAEJBDP; // 0x54
-		::System::Int32 CIFEKCAKFPL; // 0x58
-		::System::Int32 HMLNECEFMEL; // 0x5C
+		::RPG::GameCore::ModifierCustomEventSortType OEAAMAEJBDP; // 0x50
+		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x54
+		::System::Int32 HMLNECEFMEL; // 0x58
+		::System::Int32 CIFEKCAKFPL; // 0x5C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerModifierCustomEvent* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerModifierCustomEvent*))((::PBYTE)hIl2Cpp + BBMOMCMBINK_CTOR_OFFSET))(this, a1, a2);

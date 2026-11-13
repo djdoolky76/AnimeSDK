@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LoadingFuncConfigRow; }
 
-#define RPG_CLIENT_LOADINGTIPSMODULE___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD488700)
-#define RPG_CLIENT_LOADINGTIPSMODULE___C__DISPLAYCLASS0_0__SETUPWORLDTELETIPS_B__0_OFFSET UNITYSDK_OFFSET(0xD488D70)
+#define RPG_CLIENT_LOADINGTIPSMODULE___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE2D20)
+#define RPG_CLIENT_LOADINGTIPSMODULE___C__DISPLAYCLASS0_0__SETUPWORLDTELETIPS_B__0_OFFSET UNITYSDK_OFFSET(0x1CDE3380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoadingTipsModule___c__DisplayClass0_0_TypeDefinitionIndex = 65765;
+	inline static constexpr unsigned int LoadingTipsModule___c__DisplayClass0_0_TypeDefinitionIndex = 67697;
 
 	class LoadingTipsModule___c__DisplayClass0_0 : public ::System::Object
 	{

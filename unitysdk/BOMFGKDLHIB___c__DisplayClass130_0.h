@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore::Match3 { class BirdPieceTypeWeightConfig; }
 
-#define BOMFGKDLHIB___C__DISPLAYCLASS130_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A37A0)
-#define BOMFGKDLHIB___C__DISPLAYCLASS130_0___GETPIECETYPEWEIGHT_B__0_OFFSET UNITYSDK_OFFSET(0x1C8AD4B0)
+#define BOMFGKDLHIB___C__DISPLAYCLASS130_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CE180)
+#define BOMFGKDLHIB___C__DISPLAYCLASS130_0___GETPIECETYPEWEIGHT_B__0_OFFSET UNITYSDK_OFFSET(0x1D2D8080)
 
-inline static constexpr unsigned int BOMFGKDLHIB___c__DisplayClass130_0_TypeDefinitionIndex = 43038;
+inline static constexpr unsigned int BOMFGKDLHIB___c__DisplayClass130_0_TypeDefinitionIndex = 44019;
 
 	class BOMFGKDLHIB___c__DisplayClass130_0 : public ::System::Object
 	{

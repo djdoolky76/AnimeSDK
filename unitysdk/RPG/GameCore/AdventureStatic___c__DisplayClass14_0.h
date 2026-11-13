@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LevelCurveInfo; }
 
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE579DF0)
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS14_0__FINDLEVELCURVEINFO_B__0_OFFSET UNITYSDK_OFFSET(0xE593ED0)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19FE3C00)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS14_0__FINDLEVELCURVEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x19FFD500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStatic___c__DisplayClass14_0_TypeDefinitionIndex = 59025;
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass14_0_TypeDefinitionIndex = 60300;
 
 	class AdventureStatic___c__DisplayClass14_0 : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLKJJAMDMPM_CIKLLMDFAJL_CTOR_OFFSET UNITYSDK_OFFSET(0x15830800)
+#define FLKJJAMDMPM_CIKLLMDFAJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1896B6B0)
 
-inline static constexpr unsigned int FLKJJAMDMPM_CIKLLMDFAJL_TypeDefinitionIndex = 59743;
+inline static constexpr unsigned int FLKJJAMDMPM_CIKLLMDFAJL_TypeDefinitionIndex = 61023;
 
 	class FLKJJAMDMPM_CIKLLMDFAJL : public ::System::Object
 	{

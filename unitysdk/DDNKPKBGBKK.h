@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DDNKPKBGBKK_IELMAIBIJOM_OFFSET UNITYSDK_OFFSET(0xF5630)
-#define DDNKPKBGBKK_PKMNGOHOIID_OFFSET UNITYSDK_OFFSET(0xF5610)
+#define DDNKPKBGBKK_IELMAIBIJOM_OFFSET UNITYSDK_OFFSET(0x3DDA090)
+#define DDNKPKBGBKK_PKMNGOHOIID_OFFSET UNITYSDK_OFFSET(0x3DDA070)
 
-inline static constexpr unsigned int DDNKPKBGBKK_TypeDefinitionIndex = 78890;
+inline static constexpr unsigned int DDNKPKBGBKK_TypeDefinitionIndex = 81661;
 
 	struct alignas(4) DDNKPKBGBKK
 	{

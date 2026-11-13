@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GJCOFAFLAEI_TypeDefinitionIndex = 34587;
+inline static constexpr unsigned int GJCOFAFLAEI_TypeDefinitionIndex = 35515;
 
 	enum class GJCOFAFLAEI : ::System::Int32
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MHALMEEDBAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9296A0)
+#define MHALMEEDBAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B34F690)
 
-inline static constexpr unsigned int MHALMEEDBAO_TypeDefinitionIndex = 77615;
+inline static constexpr unsigned int MHALMEEDBAO_TypeDefinitionIndex = 80350;
 
 	class MHALMEEDBAO : public ::System::Object
 	{

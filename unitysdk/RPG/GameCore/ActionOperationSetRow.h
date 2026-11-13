@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionOperationSetRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONOPERATIONSETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D318BF0)
-#define RPG_GAMECORE_ACTIONOPERATIONSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D318660)
+#define RPG_GAMECORE_ACTIONOPERATIONSETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F5ED0)
+#define RPG_GAMECORE_ACTIONOPERATIONSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4F5940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionOperationSetRow_TypeDefinitionIndex = 13813;
+	inline static constexpr unsigned int ActionOperationSetRow_TypeDefinitionIndex = 13970;
 
 	class ActionOperationSetRow : public ::System::Object
 	{

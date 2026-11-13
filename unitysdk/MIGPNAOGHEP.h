@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MIGPNAOGHEP_TypeDefinitionIndex = 32819;
+inline static constexpr unsigned int MIGPNAOGHEP_TypeDefinitionIndex = 33734;
 
 	enum class MIGPNAOGHEP : ::System::Int32
 	{

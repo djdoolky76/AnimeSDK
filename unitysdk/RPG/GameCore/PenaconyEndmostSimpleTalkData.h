@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PenaconyEndmostSimpleTalkData; }
 
-#define RPG_GAMECORE_PENACONYENDMOSTSIMPLETALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C7800)
-#define RPG_GAMECORE_PENACONYENDMOSTSIMPLETALKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C7680)
+#define RPG_GAMECORE_PENACONYENDMOSTSIMPLETALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1498E0)
+#define RPG_GAMECORE_PENACONYENDMOSTSIMPLETALKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F149760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PenaconyEndmostSimpleTalkData_TypeDefinitionIndex = 21825;
+	inline static constexpr unsigned int PenaconyEndmostSimpleTalkData_TypeDefinitionIndex = 22216;
 
 	class PenaconyEndmostSimpleTalkData : public ::RPG::GameCore::JsonConfig
 	{

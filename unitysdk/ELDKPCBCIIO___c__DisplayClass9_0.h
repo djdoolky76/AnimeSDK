@@ -4,10 +4,10 @@
 class ELDKPCBCIIO;
 namespace System { class Action; }
 
-#define ELDKPCBCIIO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x155121F0)
-#define ELDKPCBCIIO___C__DISPLAYCLASS9_0___CREATEUIMENUBGMEXITCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x15512310)
+#define ELDKPCBCIIO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x199A7850)
+#define ELDKPCBCIIO___C__DISPLAYCLASS9_0___CREATEUIMENUBGMEXITCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x199A7970)
 
-inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass9_0_TypeDefinitionIndex = 80623;
+inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass9_0_TypeDefinitionIndex = 83403;
 
 	class ELDKPCBCIIO___c__DisplayClass9_0 : public ::System::Object
 	{

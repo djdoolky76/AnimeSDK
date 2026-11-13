@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class CIPCDNCKCGE;
 
-#define PINPFDNJBBB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC26B450)
-#define PINPFDNJBBB___C__DISPLAYCLASS1_0__GETMAP_B__0_OFFSET UNITYSDK_OFFSET(0xC26CBE0)
+#define PINPFDNJBBB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D7980)
+#define PINPFDNJBBB___C__DISPLAYCLASS1_0__GETMAP_B__0_OFFSET UNITYSDK_OFFSET(0x1A9D90E0)
 
-inline static constexpr unsigned int PINPFDNJBBB___c__DisplayClass1_0_TypeDefinitionIndex = 80760;
+inline static constexpr unsigned int PINPFDNJBBB___c__DisplayClass1_0_TypeDefinitionIndex = 83540;
 
 	class PINPFDNJBBB___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class StartReShaSceneSelection; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_STARTRESHASCENESELECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF06A0)
-#define RPG_GAMECORE_STARTRESHASCENESELECTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF06B0)
-#define RPG_GAMECORE_STARTRESHASCENESELECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF0670)
+#define RPG_GAMECORE_STARTRESHASCENESELECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C35E0)
+#define RPG_GAMECORE_STARTRESHASCENESELECTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3C35F0)
+#define RPG_GAMECORE_STARTRESHASCENESELECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C35B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartReShaSceneSelection_TypeDefinitionIndex = 22028;
+	inline static constexpr unsigned int StartReShaSceneSelection_TypeDefinitionIndex = 22433;
 
 	class StartReShaSceneSelection : public ::RPG::GameCore::TaskConfig
 	{

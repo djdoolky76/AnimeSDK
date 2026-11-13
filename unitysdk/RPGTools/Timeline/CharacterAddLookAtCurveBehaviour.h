@@ -6,12 +6,12 @@
 namespace RPG::Client { class CharacterMonoAvatar; }
 namespace RPGTools::Timeline { class CharacterAddLookAtCurveData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BAEE0)
-#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8BAC30)
+#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E8C20)
+#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1E3E8930)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterAddLookAtCurveBehaviour_TypeDefinitionIndex = 47969;
+	inline static constexpr unsigned int CharacterAddLookAtCurveBehaviour_TypeDefinitionIndex = 49000;
 
 	class CharacterAddLookAtCurveBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

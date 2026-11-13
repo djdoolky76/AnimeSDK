@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IAlertDialog_TypeDefinitionIndex = 8470;
+	inline static constexpr unsigned int IAlertDialog_TypeDefinitionIndex = 8479;
 
 	class IAlertDialog
 	{

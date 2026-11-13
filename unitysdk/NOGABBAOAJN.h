@@ -5,10 +5,10 @@ class HOMJDGPEKOG;
 class IFEABBJBIGK;
 namespace System { template <typename T> class Action_1; }
 
-#define NOGABBAOAJN_HELEGONAMAL_OFFSET UNITYSDK_OFFSET(0xBCE47B0)
-#define NOGABBAOAJN_PFENFNFDDOM_OFFSET UNITYSDK_OFFSET(0xBCE4740)
+#define NOGABBAOAJN_HELEGONAMAL_OFFSET UNITYSDK_OFFSET(0x19CE32E0)
+#define NOGABBAOAJN_PFENFNFDDOM_OFFSET UNITYSDK_OFFSET(0x19CE3270)
 
-inline static constexpr unsigned int NOGABBAOAJN_TypeDefinitionIndex = 71115;
+inline static constexpr unsigned int NOGABBAOAJN_TypeDefinitionIndex = 73098;
 
 	class NOGABBAOAJN : public ::System::Object
 	{

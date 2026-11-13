@@ -6,13 +6,13 @@ namespace RPG::GameCore { class StartEffectAim; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTEFFECTAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEF090)
-#define RPG_GAMECORE_STARTEFFECTAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAEF0A0)
-#define RPG_GAMECORE_STARTEFFECTAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEF060)
+#define RPG_GAMECORE_STARTEFFECTAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C1FD0)
+#define RPG_GAMECORE_STARTEFFECTAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3C1FE0)
+#define RPG_GAMECORE_STARTEFFECTAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C1FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartEffectAim_TypeDefinitionIndex = 22454;
+	inline static constexpr unsigned int StartEffectAim_TypeDefinitionIndex = 22863;
 
 	class StartEffectAim : public ::RPG::GameCore::TaskConfig
 	{

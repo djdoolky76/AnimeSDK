@@ -3,10 +3,10 @@
 #include "unitysdk/JNIAKLNCCCH.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define FKDCGDOJBDM_CTOR_OFFSET UNITYSDK_OFFSET(0x157DB5A0)
-#define FKDCGDOJBDM_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x157DB450)
+#define FKDCGDOJBDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA918F0)
+#define FKDCGDOJBDM_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x1AA917A0)
 
-inline static constexpr unsigned int FKDCGDOJBDM_TypeDefinitionIndex = 55125;
+inline static constexpr unsigned int FKDCGDOJBDM_TypeDefinitionIndex = 56302;
 
 	class FKDCGDOJBDM : public ::JNIAKLNCCCH
 	{

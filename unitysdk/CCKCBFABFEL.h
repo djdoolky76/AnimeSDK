@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetTrackMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CCKCBFABFEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7472E0)
-#define CCKCBFABFEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC747310)
+#define CCKCBFABFEL_CTOR_OFFSET UNITYSDK_OFFSET(0x17391FB0)
+#define CCKCBFABFEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17391FE0)
 
-inline static constexpr unsigned int CCKCBFABFEL_TypeDefinitionIndex = 58588;
+inline static constexpr unsigned int CCKCBFABFEL_TypeDefinitionIndex = 59853;
 
 	class CCKCBFABFEL
 	{

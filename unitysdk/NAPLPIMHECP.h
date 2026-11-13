@@ -3,10 +3,10 @@
 class CBAGOLHBJJH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NAPLPIMHECP_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB3120)
-#define NAPLPIMHECP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB3150)
+#define NAPLPIMHECP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0C710)
+#define NAPLPIMHECP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BB0C740)
 
-inline static constexpr unsigned int NAPLPIMHECP_TypeDefinitionIndex = 53229;
+inline static constexpr unsigned int NAPLPIMHECP_TypeDefinitionIndex = 54391;
 
 	class NAPLPIMHECP
 	{

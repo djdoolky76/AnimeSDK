@@ -6,13 +6,13 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelQueryResult; }
 namespace MiHoYo::SDK::PC::OS { class UserQueryResult; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF05F30)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF05EF0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF05EE0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF825A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF82560)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF82550)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelQueryResult_TypeDefinitionIndex = 8645;
+	inline static constexpr unsigned int HoYoChannelQueryResult_TypeDefinitionIndex = 8654;
 
 	class HoYoChannelQueryResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

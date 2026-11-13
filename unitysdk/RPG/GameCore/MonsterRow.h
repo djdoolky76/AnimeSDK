@@ -18,59 +18,59 @@ namespace RPG::GameCore { class MonsterResistEntry; }
 namespace RPG::GameCore { class MonsterRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D889D80)
-#define RPG_GAMECORE_MONSTERROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D884D00)
-#define RPG_GAMECORE_MONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D885A90)
-#define RPG_GAMECORE_MONSTERROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D889CB0)
-#define RPG_GAMECORE_MONSTERROW_GETMONSTERRANK_OFFSET UNITYSDK_OFFSET(0x1D886E30)
-#define RPG_GAMECORE_MONSTERROW_GET_AETHERDIVIDETYPE_OFFSET UNITYSDK_OFFSET(0x1D889D90)
-#define RPG_GAMECORE_MONSTERROW_GET_MONSTERUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1D889E40)
-#define RPG_GAMECORE_MONSTERROW_GET__EXPANDEDDATAROW_OFFSET UNITYSDK_OFFSET(0x1D889DF0)
-#define RPG_GAMECORE_MONSTERROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D889D10)
+#define RPG_GAMECORE_MONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E47AB20)
+#define RPG_GAMECORE_MONSTERROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1E475AA0)
+#define RPG_GAMECORE_MONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E476830)
+#define RPG_GAMECORE_MONSTERROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1E47AA50)
+#define RPG_GAMECORE_MONSTERROW_GETMONSTERRANK_OFFSET UNITYSDK_OFFSET(0x1E477BD0)
+#define RPG_GAMECORE_MONSTERROW_GET_AETHERDIVIDETYPE_OFFSET UNITYSDK_OFFSET(0x1E47AB30)
+#define RPG_GAMECORE_MONSTERROW_GET_MONSTERUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1E47ABE0)
+#define RPG_GAMECORE_MONSTERROW_GET__EXPANDEDDATAROW_OFFSET UNITYSDK_OFFSET(0x1E47AB90)
+#define RPG_GAMECORE_MONSTERROW_RESET_OFFSET UNITYSDK_OFFSET(0x1E47AAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterRow_TypeDefinitionIndex = 14179;
+	inline static constexpr unsigned int MonsterRow_TypeDefinitionIndex = 14336;
 
 	class MonsterRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* StanceWeakList; // 0x10
-		::Il2CppArray<::DKNHMEHFNDB*>* OverrideAISkillSequence; // 0x18
-		::Il2CppArray<::JDOFOPKMEFJ*>* DynamicValues; // 0x20
-		::Il2CppArray<::RPG::Client::TextID>* MonsterStrategy; // 0x28
-		::Il2CppArray<::System::UInt32>* SkillList; // 0x30
-		::Il2CppArray<::System::UInt32>* SummonIDList; // 0x38
-		::Il2CppArray<::AOKFCBEPNNA*>* CustomValues; // 0x40
-		::Il2CppArray<::System::String*>* CustomValueTags; // 0x48
-		::Il2CppArray<::System::String*>* AbilityNameList; // 0x50
-		::Il2CppArray<::PNIHHKFGKPN*>* OverrideSkillParams; // 0x58
-		::RPG::GameCore::AetherDivideMonsterRow* _ExpandedDataRowCache; // 0x60
-		::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>* DebuffResist; // 0x68
-		::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* DamageTypeResistance; // 0x70
-		::System::String* OverrideAIPath; // 0x78
-		::RPG::GameCore::FixPoint DefenceModifyRatio; // 0x80
-		::RPG::Client::TextID MonsterName; // 0x88
-		::RPG::Client::TextID MonsterIntroduction; // 0x98
-		::System::UInt32 MonsterType; // 0xA8
-		::System::Int32 StanceCountDelta; // 0xAC
-		::RPG::GameCore::FixPoint SpeedModifyRatio; // 0xB0
-		::RPG::GameCore::FixPoint StanceModifyRatio; // 0xB8
-		::RPG::GameCore::FixPoint SpeedModifyValue; // 0xC0
-		::System::UInt32 MonsterID; // 0xC8
-		::System::UInt32 EliteGroup; // 0xCC
-		::RPG::GameCore::FixPoint HPModifyRatio; // 0xD0
-		::System::UInt32 MonsterTemplateID; // 0xD8
-		::System::UInt32 Level; // 0xDC
-		::RPG::GameCore::FixPoint DefenceModifyValue; // 0xE0
-		::RPG::GameCore::FixPoint StanceModifyValue; // 0xE8
-		::RPG::GameCore::FixPoint AttackModifyValue; // 0xF0
-		::RPG::Client::TextID MonsterBattleIntroduction; // 0xF8
-		::RPG::GameCore::FixPoint AttackModifyRatio; // 0x108
-		::System::UInt32 HardLevelGroup; // 0x110
-		::System::Boolean _IsCached; // 0x114
+		::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* DamageTypeResistance; // 0x10
+		::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>* DebuffResist; // 0x18
+		::System::String* OverrideAIPath; // 0x20
+		::Il2CppArray<::System::UInt32>* SummonIDList; // 0x28
+		::Il2CppArray<::System::String*>* CustomValueTags; // 0x30
+		::Il2CppArray<::System::String*>* AbilityNameList; // 0x38
+		::Il2CppArray<::JDOFOPKMEFJ*>* DynamicValues; // 0x40
+		::Il2CppArray<::System::UInt32>* SkillList; // 0x48
+		::RPG::GameCore::AetherDivideMonsterRow* _ExpandedDataRowCache; // 0x50
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* StanceWeakList; // 0x58
+		::Il2CppArray<::AOKFCBEPNNA*>* CustomValues; // 0x60
+		::Il2CppArray<::DKNHMEHFNDB*>* OverrideAISkillSequence; // 0x68
+		::Il2CppArray<::RPG::Client::TextID>* MonsterStrategy; // 0x70
+		::Il2CppArray<::PNIHHKFGKPN*>* OverrideSkillParams; // 0x78
+		::System::Boolean _IsCached; // 0x80
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::FixPoint HPModifyValue; // 0x118
+		::System::UInt32 MonsterID; // 0x84
+		::RPG::GameCore::FixPoint DefenceModifyRatio; // 0x88
+		::RPG::GameCore::FixPoint SpeedModifyValue; // 0x90
+		::RPG::Client::TextID MonsterBattleIntroduction; // 0x98
+		::RPG::Client::TextID MonsterIntroduction; // 0xA8
+		::RPG::GameCore::FixPoint AttackModifyRatio; // 0xB8
+		::RPG::GameCore::FixPoint HPModifyRatio; // 0xC0
+		::RPG::GameCore::FixPoint StanceModifyValue; // 0xC8
+		::System::UInt32 Level; // 0xD0
+		::System::Int32 StanceCountDelta; // 0xD4
+		::RPG::GameCore::FixPoint StanceModifyRatio; // 0xD8
+		::System::UInt32 MonsterType; // 0xE0
+		::System::UInt32 MonsterTemplateID; // 0xE4
+		::RPG::GameCore::FixPoint DefenceModifyValue; // 0xE8
+		::RPG::GameCore::FixPoint AttackModifyValue; // 0xF0
+		::RPG::GameCore::FixPoint SpeedModifyRatio; // 0xF8
+		::RPG::GameCore::FixPoint HPModifyValue; // 0x100
+		::RPG::Client::TextID MonsterName; // 0x108
+		::System::UInt32 EliteGroup; // 0x118
+		::System::UInt32 HardLevelGroup; // 0x11C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERROW_CTOR_OFFSET))(this);

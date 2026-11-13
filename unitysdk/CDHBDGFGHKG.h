@@ -11,11 +11,11 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CDHBDGFGHKG_CDFPFIHCPEH_OFFSET UNITYSDK_OFFSET(0xC7647B0)
-#define CDHBDGFGHKG_CTOR_OFFSET UNITYSDK_OFFSET(0xC7645E0)
-#define CDHBDGFGHKG_LCFMJCMIMJH_OFFSET UNITYSDK_OFFSET(0xC7645F0)
+#define CDHBDGFGHKG_CDFPFIHCPEH_OFFSET UNITYSDK_OFFSET(0x173AF2F0)
+#define CDHBDGFGHKG_CTOR_OFFSET UNITYSDK_OFFSET(0x173AF120)
+#define CDHBDGFGHKG_LCFMJCMIMJH_OFFSET UNITYSDK_OFFSET(0x173AF130)
 
-inline static constexpr unsigned int CDHBDGFGHKG_TypeDefinitionIndex = 79685;
+inline static constexpr unsigned int CDHBDGFGHKG_TypeDefinitionIndex = 82462;
 
 	class CDHBDGFGHKG : public ::System::Object
 	{

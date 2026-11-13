@@ -4,18 +4,18 @@
 class PDNABFBLEPG;
 namespace System { class Object; }
 
-#define PDNABFBLEPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEE5E40)
-#define PDNABFBLEPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE5E80)
-#define PDNABFBLEPG___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DEE5E90)
+#define PDNABFBLEPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20665AA0)
+#define PDNABFBLEPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20665AE0)
+#define PDNABFBLEPG___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x20665AF0)
 
-inline static constexpr unsigned int PDNABFBLEPG___c_TypeDefinitionIndex = 30997;
+inline static constexpr unsigned int PDNABFBLEPG___c_TypeDefinitionIndex = 31910;
 
 	class PDNABFBLEPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30720);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x321C0);
 		}
 
 		static ::System::Void _cctor()

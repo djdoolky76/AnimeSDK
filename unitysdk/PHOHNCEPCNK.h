@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowGuideText; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PHOHNCEPCNK_CTOR_OFFSET UNITYSDK_OFFSET(0xC250830)
-#define PHOHNCEPCNK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC250840)
-#define PHOHNCEPCNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC250880)
-#define PHOHNCEPCNK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC250B40)
-#define PHOHNCEPCNK_TICK_OFFSET UNITYSDK_OFFSET(0xC250B90)
+#define PHOHNCEPCNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B9FE0)
+#define PHOHNCEPCNK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A9B9FF0)
+#define PHOHNCEPCNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9BA030)
+#define PHOHNCEPCNK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A9BA260)
+#define PHOHNCEPCNK_TICK_OFFSET UNITYSDK_OFFSET(0x1A9BA2B0)
 
-inline static constexpr unsigned int PHOHNCEPCNK_TypeDefinitionIndex = 58661;
+inline static constexpr unsigned int PHOHNCEPCNK_TypeDefinitionIndex = 59928;
 
 	class PHOHNCEPCNK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowGuideText* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShowGuideText* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowGuideText* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowGuideText*))((::PBYTE)hIl2Cpp + PHOHNCEPCNK_CTOR_OFFSET))(this, a1, a2);

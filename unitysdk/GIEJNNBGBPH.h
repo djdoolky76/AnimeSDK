@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAbilityTagMapping; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GIEJNNBGBPH_CTOR_OFFSET UNITYSDK_OFFSET(0x15A28340)
-#define GIEJNNBGBPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A28370)
+#define GIEJNNBGBPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D8340)
+#define GIEJNNBGBPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A3D8370)
 
-inline static constexpr unsigned int GIEJNNBGBPH_TypeDefinitionIndex = 55332;
+inline static constexpr unsigned int GIEJNNBGBPH_TypeDefinitionIndex = 56514;
 
 	class GIEJNNBGBPH
 	{

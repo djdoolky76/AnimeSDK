@@ -8,7 +8,7 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseCameraSystem_1___c_TypeDefinitionIndex = 76910;
+	inline static constexpr unsigned int BaseCameraSystem_1___c_TypeDefinitionIndex = 79244;
 
 	template <typename T>
 	class BaseCameraSystem_1___c : public ::System::Object

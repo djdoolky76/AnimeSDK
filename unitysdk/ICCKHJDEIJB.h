@@ -5,16 +5,16 @@ class FCOEMCEDLNL;
 class ICCKHJDEIJB;
 namespace System { class String; }
 
-#define ICCKHJDEIJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEB38F0)
-#define ICCKHJDEIJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEB3770)
+#define ICCKHJDEIJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6AE1F0)
+#define ICCKHJDEIJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6AE070)
 
-inline static constexpr unsigned int ICCKHJDEIJB_TypeDefinitionIndex = 21059;
+inline static constexpr unsigned int ICCKHJDEIJB_TypeDefinitionIndex = 21397;
 
 	class ICCKHJDEIJB : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::System::String* AAMGOJCABAC; // 0x10
-		::System::String* KAHGDLPDJCD; // 0x18
+		::System::String* KAHGDLPDJCD; // 0x10
+		::System::String* AAMGOJCABAC; // 0x18
 		::System::UInt32 BIKLAFLEIOC; // 0x20
 		::System::Void _ctor()
 		{

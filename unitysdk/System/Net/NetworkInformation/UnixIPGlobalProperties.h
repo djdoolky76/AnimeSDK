@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/NetworkInformation/CommonUnixIPGlobalProperties.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXIPGLOBALPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F03F150)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXIPGLOBALPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C41E4B0)
 
 namespace System::Net::NetworkInformation
 {

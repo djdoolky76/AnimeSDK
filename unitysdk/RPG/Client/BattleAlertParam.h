@@ -5,17 +5,17 @@ class BNPCGCMCEOH;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLEALERTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F1830)
+#define RPG_CLIENT_BATTLEALERTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B004F20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAlertParam_TypeDefinitionIndex = 73289;
+	inline static constexpr unsigned int BattleAlertParam_TypeDefinitionIndex = 75405;
 
 	class BattleAlertParam : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* Entity; // 0x10
-		::System::Collections::Generic::List_1<::BNPCGCMCEOH*>* SkillParams; // 0x18
+		::System::Collections::Generic::List_1<::BNPCGCMCEOH*>* SkillParams; // 0x10
+		::RPG::GameCore::GameEntity* Entity; // 0x18
 		::System::Boolean IsShow; // 0x20
 		::System::Void _ctor()
 		{

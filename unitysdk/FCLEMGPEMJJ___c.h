@@ -5,23 +5,23 @@ class ILOOAAOHIIG;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FCLEMGPEMJJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x156C1D70)
-#define FCLEMGPEMJJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156C1DB0)
-#define FCLEMGPEMJJ___C__HANDLEASSISTANTRECOMMENDCHANGED_B__40_0_OFFSET UNITYSDK_OFFSET(0x156C1DC0)
+#define FCLEMGPEMJJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C027FA0)
+#define FCLEMGPEMJJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C027FE0)
+#define FCLEMGPEMJJ___C__HANDLEASSISTANTRECOMMENDCHANGED_B__40_0_OFFSET UNITYSDK_OFFSET(0x1C027FF0)
 
-inline static constexpr unsigned int FCLEMGPEMJJ___c_TypeDefinitionIndex = 79465;
+inline static constexpr unsigned int FCLEMGPEMJJ___c_TypeDefinitionIndex = 82242;
 
 	class FCLEMGPEMJJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55640);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AD40);
 		}
 
 		static ::System::Func_2<::ILOOAAOHIIG*, ::System::Boolean>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::ILOOAAOHIIG*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55648);
+			return (::System::Func_2<::ILOOAAOHIIG*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AD48);
 		}
 
 		static ::System::Void _cctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OEDBOINBMPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE1EDB0)
+#define OEDBOINBMPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1764BFB0)
 
-inline static constexpr unsigned int OEDBOINBMPM_TypeDefinitionIndex = 59966;
+inline static constexpr unsigned int OEDBOINBMPM_TypeDefinitionIndex = 61250;
 
 	class OEDBOINBMPM : public ::System::Object
 	{

@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C23BA50)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C23BA90)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__GET_ASYNCWAITHANDLE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1C23BAA0)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDBD330)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDBD370)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__GET_ASYNCWAITHANDLE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1EDBD380)
 
 namespace System::IO
 {
@@ -18,12 +18,12 @@ namespace System::IO
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x1AA70);
+			return (::System::Object**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x116A0);
 		}
 
 		static ::System::Func_1<::System::Threading::ManualResetEvent*>** StaticGet___9__12_0()
 		{
-			return (::System::Func_1<::System::Threading::ManualResetEvent*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x1AA78);
+			return (::System::Func_1<::System::Threading::ManualResetEvent*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x116A8);
 		}
 
 		static ::System::Void _cctor()

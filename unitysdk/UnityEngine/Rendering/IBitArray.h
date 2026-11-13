@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IBitArray_TypeDefinitionIndex = 35588;
+	inline static constexpr unsigned int IBitArray_TypeDefinitionIndex = 36516;
 
 	class IBitArray
 	{

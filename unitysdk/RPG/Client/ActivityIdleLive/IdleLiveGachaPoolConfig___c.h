@@ -5,25 +5,25 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaWorldTagConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4CC870)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC4CC8A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xC4CC8B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6B45A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B45D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1D6B45E0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGachaPoolConfig___c_TypeDefinitionIndex = 75252;
+	inline static constexpr unsigned int IdleLiveGachaPoolConfig___c_TypeDefinitionIndex = 77579;
 
 	class IdleLiveGachaPoolConfig___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x20040);
-		}
-
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaWorldTagConfig*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaWorldTagConfig*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x20048);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaWorldTagConfig*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x22F30);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x22F38);
 		}
 
 		static ::System::Void _cctor()

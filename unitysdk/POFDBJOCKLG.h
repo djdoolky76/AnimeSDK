@@ -6,20 +6,20 @@ namespace RPG::GameCore { class RefreshQingQueEnergyBarState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define POFDBJOCKLG_CTOR_OFFSET UNITYSDK_OFFSET(0xC357790)
-#define POFDBJOCKLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3579D0)
-#define POFDBJOCKLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC357A10)
-#define POFDBJOCKLG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC358320)
-#define POFDBJOCKLG_TICK_OFFSET UNITYSDK_OFFSET(0xC358370)
+#define POFDBJOCKLG_CTOR_OFFSET UNITYSDK_OFFSET(0x184D5AC0)
+#define POFDBJOCKLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x184D5D00)
+#define POFDBJOCKLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184D5D40)
+#define POFDBJOCKLG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x184D6650)
+#define POFDBJOCKLG_TICK_OFFSET UNITYSDK_OFFSET(0x184D66A0)
 
-inline static constexpr unsigned int POFDBJOCKLG_TypeDefinitionIndex = 55292;
+inline static constexpr unsigned int POFDBJOCKLG_TypeDefinitionIndex = 56473;
 
 	class POFDBJOCKLG : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::RefreshQingQueEnergyBarState* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::Il2CppArray<::System::Object*>* GHPNFDDOJML; // 0x28
+		::Il2CppArray<::System::Object*>* GHPNFDDOJML; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::RPG::GameCore::StringHash PGFABOACJBK; // 0x30
 		::RPG::GameCore::StringHash EONNKGEFNOD; // 0x34
 		::RPG::GameCore::StringHash PEBBMAFBICA; // 0x38

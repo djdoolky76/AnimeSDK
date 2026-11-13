@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveChatStoryPhaseRow; }
 
-#define RPG_GAMECORE_IDLELIVECHATSTORYPHASEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74B930)
-#define RPG_GAMECORE_IDLELIVECHATSTORYPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74B760)
+#define RPG_GAMECORE_IDLELIVECHATSTORYPHASEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE84780)
+#define RPG_GAMECORE_IDLELIVECHATSTORYPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE845B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChatStoryPhaseRow_TypeDefinitionIndex = 11782;
+	inline static constexpr unsigned int IdleLiveChatStoryPhaseRow_TypeDefinitionIndex = 11839;
 
 	class IdleLiveChatStoryPhaseRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChatList; // 0x10
-		::System::Single FlySpeed; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::System::Single Interval; // 0x20
+		::System::Single Interval; // 0x18
+		::System::Single FlySpeed; // 0x1C
+		::System::UInt32 ID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHATSTORYPHASEROW_CTOR_OFFSET))(this);

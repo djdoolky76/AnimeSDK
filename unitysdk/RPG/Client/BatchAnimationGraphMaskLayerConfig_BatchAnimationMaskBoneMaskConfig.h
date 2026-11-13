@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::Rendering { class BatchAnimationBoneMask; }
 
-#define RPG_CLIENT_BATCHANIMATIONGRAPHMASKLAYERCONFIG_BATCHANIMATIONMASKBONEMASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC7EF4A0)
+#define RPG_CLIENT_BATCHANIMATIONGRAPHMASKLAYERCONFIG_BATCHANIMATIONMASKBONEMASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B002CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_BatchAnimationMaskBoneMaskConfig_TypeDefinitionIndex = 60013;
+	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_BatchAnimationMaskBoneMaskConfig_TypeDefinitionIndex = 61297;
 
 	class BatchAnimationGraphMaskLayerConfig_BatchAnimationMaskBoneMaskConfig : public ::System::Object
 	{

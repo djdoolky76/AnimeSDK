@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Component; }
 
-#define IGIHJMJPCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16402830)
-#define IGIHJMJPCAJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x16402560)
-#define IGIHJMJPCAJ_IHOIDNEEMKC_OFFSET UNITYSDK_OFFSET(0x16402400)
-#define IGIHJMJPCAJ_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x164022C0)
+#define IGIHJMJPCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19F5E140)
+#define IGIHJMJPCAJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x19F5DE70)
+#define IGIHJMJPCAJ_IHOIDNEEMKC_OFFSET UNITYSDK_OFFSET(0x19F5DD10)
+#define IGIHJMJPCAJ_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x19F5DBD0)
 
-inline static constexpr unsigned int IGIHJMJPCAJ_TypeDefinitionIndex = 65958;
+inline static constexpr unsigned int IGIHJMJPCAJ_TypeDefinitionIndex = 67890;
 
 	class IGIHJMJPCAJ : public ::System::Object
 	{

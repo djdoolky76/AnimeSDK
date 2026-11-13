@@ -6,31 +6,31 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD65B330)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD65B370)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C___REFRESHATTRIBUTES_B__7_1_OFFSET UNITYSDK_OFFSET(0xD65B380)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C___REFRESHTRAITS_B__8_1_OFFSET UNITYSDK_OFFSET(0xD65B560)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEFBC20)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEFBC60)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C___REFRESHATTRIBUTES_B__7_1_OFFSET UNITYSDK_OFFSET(0x1DEFBC70)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C___REFRESHTRAITS_B__8_1_OFFSET UNITYSDK_OFFSET(0x1DEFBE50)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftSettleProductStatsControl___c_TypeDefinitionIndex = 80040;
+	inline static constexpr unsigned int MechCraftSettleProductStatsControl___c_TypeDefinitionIndex = 82817;
 
 	class MechCraftSettleProductStatsControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL** StaticGet___9__8_1()
 		{
-			return (::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x4D390);
+			return (::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x61240);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x4D398);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x61248);
 		}
 
 		static ::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL** StaticGet___9__7_1()
 		{
-			return (::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x4D3A0);
+			return (::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x61250);
 		}
 
 		static ::System::Void _cctor()

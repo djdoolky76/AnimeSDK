@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByGridFightHasSameTrait; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DPMDBLJLOBN_CTOR_OFFSET UNITYSDK_OFFSET(0x12656B00)
-#define DPMDBLJLOBN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12656B30)
+#define DPMDBLJLOBN_CTOR_OFFSET UNITYSDK_OFFSET(0x181B0DE0)
+#define DPMDBLJLOBN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x181B0E10)
 
-inline static constexpr unsigned int DPMDBLJLOBN_TypeDefinitionIndex = 54608;
+inline static constexpr unsigned int DPMDBLJLOBN_TypeDefinitionIndex = 55773;
 
 	class DPMDBLJLOBN
 	{

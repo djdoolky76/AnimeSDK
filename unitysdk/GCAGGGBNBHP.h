@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GameObjectPoolUsage.h"
 
-inline static constexpr unsigned int GCAGGGBNBHP_TypeDefinitionIndex = 59389;
+inline static constexpr unsigned int GCAGGGBNBHP_TypeDefinitionIndex = 60666;
 
 	struct alignas(4) GCAGGGBNBHP
 	{

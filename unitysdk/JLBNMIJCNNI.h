@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class AlleyPackGoodItemConfig; }
 
-#define JLBNMIJCNNI_CTOR_OFFSET UNITYSDK_OFFSET(0xB22DC20)
+#define JLBNMIJCNNI_CTOR_OFFSET UNITYSDK_OFFSET(0x17B3A080)
 
-inline static constexpr unsigned int JLBNMIJCNNI_TypeDefinitionIndex = 74105;
+inline static constexpr unsigned int JLBNMIJCNNI_TypeDefinitionIndex = 76253;
 
 	class JLBNMIJCNNI : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageCounterStyle_TypeDefinitionIndex = 24708;
+	inline static constexpr unsigned int DamageCounterStyle_TypeDefinitionIndex = 25183;
 
 	enum class DamageCounterStyle : ::System::Int32
 	{

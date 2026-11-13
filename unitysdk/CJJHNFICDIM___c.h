@@ -4,18 +4,18 @@
 class CJJHNFICDIM;
 namespace System { class Object; }
 
-#define CJJHNFICDIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0B4280)
-#define CJJHNFICDIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0B42B0)
-#define CJJHNFICDIM___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E0B42C0)
+#define CJJHNFICDIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2058CC60)
+#define CJJHNFICDIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2058CC90)
+#define CJJHNFICDIM___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x2058CCA0)
 
-inline static constexpr unsigned int CJJHNFICDIM___c_TypeDefinitionIndex = 28144;
+inline static constexpr unsigned int CJJHNFICDIM___c_TypeDefinitionIndex = 28734;
 
 	class CJJHNFICDIM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18980);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11F10);
 		}
 
 		static ::System::Void _cctor()

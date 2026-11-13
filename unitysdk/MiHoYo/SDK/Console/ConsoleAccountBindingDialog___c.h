@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::Console { class ConsoleAccountBindingDialog; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC667A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC667E0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C__SHOW_B__66_0_OFFSET UNITYSDK_OFFSET(0x1BC667F0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x185EC090)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x185EC0D0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C__SHOW_B__66_0_OFFSET UNITYSDK_OFFSET(0x185EC0E0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleAccountBindingDialog___c_TypeDefinitionIndex = 8995;
+	inline static constexpr unsigned int ConsoleAccountBindingDialog___c_TypeDefinitionIndex = 9004;
 
 	class ConsoleAccountBindingDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleAccountBindingDialog*>** StaticGet___9__66_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleAccountBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x55960);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x55968);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x3FC60);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleAccountBindingDialog*>** StaticGet___9__66_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleAccountBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x3FC68);
 		}
 
 		static ::System::Void _cctor()

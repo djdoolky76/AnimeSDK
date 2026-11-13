@@ -4,18 +4,18 @@
 class FGNGBABEENA;
 namespace System { class Object; }
 
-#define FGNGBABEENA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E356240)
-#define FGNGBABEENA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E356280)
-#define FGNGBABEENA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E356290)
+#define FGNGBABEENA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8C86A0)
+#define FGNGBABEENA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8C86E0)
+#define FGNGBABEENA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F8C86F0)
 
-inline static constexpr unsigned int FGNGBABEENA___c_TypeDefinitionIndex = 28980;
+inline static constexpr unsigned int FGNGBABEENA___c_TypeDefinitionIndex = 29570;
 
 	class FGNGBABEENA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55B40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51020);
 		}
 
 		static ::System::Void _cctor()

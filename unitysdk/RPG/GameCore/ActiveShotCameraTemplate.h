@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class VCameraBlend; }
 
-#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31D120)
-#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31D130)
-#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31D0E0)
+#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FA430)
+#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4FA440)
+#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4FA3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveShotCameraTemplate_TypeDefinitionIndex = 20828;
+	inline static constexpr unsigned int ActiveShotCameraTemplate_TypeDefinitionIndex = 21165;
 
 	class ActiveShotCameraTemplate : public ::RPG::GameCore::TaskConfig
 	{

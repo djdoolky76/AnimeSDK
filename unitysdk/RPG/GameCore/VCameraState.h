@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraState_TypeDefinitionIndex = 16434;
+	inline static constexpr unsigned int VCameraState_TypeDefinitionIndex = 16598;
 
 	enum class VCameraState : ::System::Int32
 	{

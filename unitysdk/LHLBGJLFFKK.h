@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LHLBGJLFFKK_TypeDefinitionIndex = 34699;
+inline static constexpr unsigned int LHLBGJLFFKK_TypeDefinitionIndex = 35627;
 
 	enum class LHLBGJLFFKK : ::System::Int32
 	{

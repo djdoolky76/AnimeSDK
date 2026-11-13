@@ -4,18 +4,18 @@
 namespace RPG::Client { class RogueTournRelicCocoonData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE02F600)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS18_0___CHECKISCOCOONDATAAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0xE02F730)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F1A50)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS18_0___CHECKISCOCOONDATAAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0x1E0F1B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c__DisplayClass18_0_TypeDefinitionIndex = 67770;
+	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c__DisplayClass18_0_TypeDefinitionIndex = 69715;
 
 	class RogueTournRelicCocoonCollection___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::RogueTournRelicCocoonData* cocoonData; // 0x10
-		::System::Predicate_1<::RPG::Client::RogueTournRelicCocoonData*>* __9__0; // 0x18
+		::System::Predicate_1<::RPG::Client::RogueTournRelicCocoonData*>* __9__0; // 0x10
+		::RPG::Client::RogueTournRelicCocoonData* cocoonData; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS18_0_CTOR_OFFSET))(this);

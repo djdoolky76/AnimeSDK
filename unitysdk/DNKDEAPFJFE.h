@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define DNKDEAPFJFE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FCE490)
-#define DNKDEAPFJFE_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x11FCD5D0)
+#define DNKDEAPFJFE_CTOR_OFFSET UNITYSDK_OFFSET(0x19191450)
+#define DNKDEAPFJFE_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x19190590)
 
-inline static constexpr unsigned int DNKDEAPFJFE_TypeDefinitionIndex = 63859;
+inline static constexpr unsigned int DNKDEAPFJFE_TypeDefinitionIndex = 65301;
 
 	class DNKDEAPFJFE : public ::System::Object
 	{

@@ -4,16 +4,16 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatTaskConfig_WriteCustomValue_ModifierData; }
 
-#define OKJHGHPGIGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7A28C0)
-#define OKJHGHPGIGB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7A28D0)
+#define OKJHGHPGIGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B083FE0)
+#define OKJHGHPGIGB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1B083FF0)
 
-inline static constexpr unsigned int OKJHGHPGIGB_TypeDefinitionIndex = 36367;
+inline static constexpr unsigned int OKJHGHPGIGB_TypeDefinitionIndex = 37295;
 
 	class OKJHGHPGIGB : public ::AJBKGPOEBFG
 	{
 	public:
-		::EGDGOMKKEJI* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_ModifierData* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_ModifierData* IGHAHBNLIJA; // 0x18
+		::EGDGOMKKEJI* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_ModifierData* a1, ::EGDGOMKKEJI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_ModifierData*, ::EGDGOMKKEJI*))((::PBYTE)hIl2Cpp + OKJHGHPGIGB_CTOR_OFFSET))(this, a1, a2);

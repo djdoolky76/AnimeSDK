@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeartDialTraceConsumeRow; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72B900)
-#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72B640)
+#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7AA80)
+#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA7A7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialTraceConsumeRow_TypeDefinitionIndex = 13732;
+	inline static constexpr unsigned int HeartDialTraceConsumeRow_TypeDefinitionIndex = 13889;
 
 	class HeartDialTraceConsumeRow : public ::System::Object
 	{

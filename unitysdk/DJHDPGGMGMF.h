@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimAnimatorStateListenerConfig; }
 
-#define DJHDPGGMGMF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9FC430)
-#define DJHDPGGMGMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9FC480)
+#define DJHDPGGMGMF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB2E710)
+#define DJHDPGGMGMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2E760)
 
-inline static constexpr unsigned int DJHDPGGMGMF_TypeDefinitionIndex = 43291;
+inline static constexpr unsigned int DJHDPGGMGMF_TypeDefinitionIndex = 44272;
 
 	class DJHDPGGMGMF : public ::System::Object
 	{

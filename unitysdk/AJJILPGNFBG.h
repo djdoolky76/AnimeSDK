@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchTurnOwnerEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AJJILPGNFBG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBCF40)
-#define AJJILPGNFBG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CBCF90)
+#define AJJILPGNFBG_CTOR_OFFSET UNITYSDK_OFFSET(0x19D43820)
+#define AJJILPGNFBG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19D43870)
 
-inline static constexpr unsigned int AJJILPGNFBG_TypeDefinitionIndex = 59112;
+inline static constexpr unsigned int AJJILPGNFBG_TypeDefinitionIndex = 60388;
 
 	class AJJILPGNFBG
 	{

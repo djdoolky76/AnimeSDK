@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DOGCOHFLPOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD840)
+#define DOGCOHFLPOH_CTOR_OFFSET UNITYSDK_OFFSET(0x654DF0)
 
-inline static constexpr unsigned int DOGCOHFLPOH_TypeDefinitionIndex = 73967;
+inline static constexpr unsigned int DOGCOHFLPOH_TypeDefinitionIndex = 76103;
 
 	struct alignas(4) DOGCOHFLPOH
 	{

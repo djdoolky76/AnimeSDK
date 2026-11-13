@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightElationPropertyExtraEffectConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTELATIONPROPERTYEXTRAEFFECTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FDF90)
-#define RPG_GAMECORE_GRIDFIGHTELATIONPROPERTYEXTRAEFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6FDE60)
+#define RPG_GAMECORE_GRIDFIGHTELATIONPROPERTYEXTRAEFFECTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20602F50)
+#define RPG_GAMECORE_GRIDFIGHTELATIONPROPERTYEXTRAEFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x20602E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightElationPropertyExtraEffectConfigRow_TypeDefinitionIndex = 13709;
+	inline static constexpr unsigned int GridFightElationPropertyExtraEffectConfigRow_TypeDefinitionIndex = 13836;
 
 	class GridFightElationPropertyExtraEffectConfigRow : public ::System::Object
 	{

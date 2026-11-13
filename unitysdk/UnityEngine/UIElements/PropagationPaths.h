@@ -7,15 +7,15 @@ namespace UnityEngine::UIElements { class PropagationPaths; }
 namespace UnityEngine::UIElements { class VisualElement; }
 namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_BUILD_OFFSET UNITYSDK_OFFSET(0x1F482FE0)
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F492AC0)
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_COPY_OFFSET UNITYSDK_OFFSET(0x1F483570)
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4928F0)
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F483FE0)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_BUILD_OFFSET UNITYSDK_OFFSET(0x1EFC6150)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5C00)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_COPY_OFFSET UNITYSDK_OFFSET(0x1EFC66E0)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5A30)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EFC7150)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PropagationPaths_TypeDefinitionIndex = 5989;
+	inline static constexpr unsigned int PropagationPaths_TypeDefinitionIndex = 5997;
 
 	class PropagationPaths : public ::System::Object
 	{
@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements
 		::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* bubbleUpPath; // 0x20
 		static ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>** StaticGet_s_Pool()
 		{
-			return (::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>**)UnitySDK::FromName("UnityEngine.UIElements", "PropagationPaths")->GetStaticField(0x2E240);
+			return (::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>**)UnitySDK::FromName("UnityEngine.UIElements", "PropagationPaths")->GetStaticField(0x1BC00);
 		}
 
 		::System::Void _ctor()

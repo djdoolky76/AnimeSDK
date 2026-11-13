@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define LEOMNDJDEEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB657170)
+#define LEOMNDJDEEE_CTOR_OFFSET UNITYSDK_OFFSET(0x18C3BE60)
 
-inline static constexpr unsigned int LEOMNDJDEEE_TypeDefinitionIndex = 52050;
+inline static constexpr unsigned int LEOMNDJDEEE_TypeDefinitionIndex = 53155;
 
 	class LEOMNDJDEEE : public ::System::Attribute
 	{

@@ -6,31 +6,31 @@ namespace RPG::Client { class MapTeleportData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHYBASEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD92F8E0)
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHYBASEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD92F920)
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHYBASEDATA___C__GETTELEPORTABLEICONS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD92F930)
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHYBASEDATA___C__GETTELEPORTABLEICONS_B__2_1_OFFSET UNITYSDK_OFFSET(0xD92F950)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHYBASEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19E33010)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHYBASEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19E33040)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHYBASEDATA___C__GETTELEPORTABLEICONS_B__2_0_OFFSET UNITYSDK_OFFSET(0x19E33050)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHYBASEDATA___C__GETTELEPORTABLEICONS_B__2_1_OFFSET UNITYSDK_OFFSET(0x19E33070)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int CartographyBaseData___c_TypeDefinitionIndex = 74509;
+	inline static constexpr unsigned int CartographyBaseData___c_TypeDefinitionIndex = 76657;
 
 	class CartographyBaseData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::MapMappingInfoData*, ::System::Boolean>** StaticGet___9__2_0()
+		static ::System::Func_2<::RPG::Client::MapTeleportData*, ::System::Boolean>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::RPG::Client::MapMappingInfoData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EE40);
+			return (::System::Func_2<::RPG::Client::MapTeleportData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x94C0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EE48);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x94C8);
 		}
 
-		static ::System::Func_2<::RPG::Client::MapTeleportData*, ::System::Boolean>** StaticGet___9__2_1()
+		static ::System::Func_2<::RPG::Client::MapMappingInfoData*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::Client::MapTeleportData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EE50);
+			return (::System::Func_2<::RPG::Client::MapMappingInfoData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x94D0);
 		}
 
 		static ::System::Void _cctor()

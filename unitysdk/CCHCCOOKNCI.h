@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DeployPuzzleChangeLineIntensity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CCHCCOOKNCI_CTOR_OFFSET UNITYSDK_OFFSET(0xC739310)
-#define CCHCCOOKNCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC739340)
+#define CCHCCOOKNCI_CTOR_OFFSET UNITYSDK_OFFSET(0x18FFB910)
+#define CCHCCOOKNCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FFB940)
 
-inline static constexpr unsigned int CCHCCOOKNCI_TypeDefinitionIndex = 58067;
+inline static constexpr unsigned int CCHCCOOKNCI_TypeDefinitionIndex = 59306;
 
 	class CCHCCOOKNCI
 	{

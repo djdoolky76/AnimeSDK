@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define PINNEDUIRATIOCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC393910)
+#define PINNEDUIRATIOCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C0920)
 
-inline static constexpr unsigned int PinnedUIRatioController_TypeDefinitionIndex = 47583;
+inline static constexpr unsigned int PinnedUIRatioController_TypeDefinitionIndex = 48612;
 
 	class PinnedUIRatioController : public ::UnityEngine::MonoBehaviour
 	{

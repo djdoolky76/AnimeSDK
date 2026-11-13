@@ -6,23 +6,23 @@
 class BHLIKCMOLLK;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MGKHJKBPDMO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB91FD70)
-#define MGKHJKBPDMO_KBMDPNFNKAC_1_OFFSET UNITYSDK_OFFSET(0xB91FCD0)
-#define MGKHJKBPDMO_KBMDPNFNKAC_OFFSET UNITYSDK_OFFSET(0xB91FC00)
+#define MGKHJKBPDMO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B345D30)
+#define MGKHJKBPDMO_KBMDPNFNKAC_1_OFFSET UNITYSDK_OFFSET(0x1B345C90)
+#define MGKHJKBPDMO_KBMDPNFNKAC_OFFSET UNITYSDK_OFFSET(0x1B345BC0)
 
-inline static constexpr unsigned int MGKHJKBPDMO_TypeDefinitionIndex = 57586;
+inline static constexpr unsigned int MGKHJKBPDMO_TypeDefinitionIndex = 58814;
 
 	class MGKHJKBPDMO : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::BHOMIGDKHEB>** StaticGet_FLFFHLKOEJF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::BHOMIGDKHEB>**)UnitySDK::FromName("", "MGKHJKBPDMO")->GetStaticField(0x5FE00);
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::BHOMIGDKHEB>**)UnitySDK::FromName("", "MGKHJKBPDMO")->GetStaticField(0x707F0);
 		}
 
 		static ::System::Int32* StaticGet_ENOKMMBIHKP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGKHJKBPDMO")->GetStaticField(0x14460);
+			return (::System::Int32*)UnitySDK::FromName("", "MGKHJKBPDMO")->GetStaticField(0x15910);
 		}
 
 		static ::System::Void _cctor()

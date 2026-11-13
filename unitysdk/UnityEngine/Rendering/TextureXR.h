@@ -10,122 +10,122 @@ namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class RTHandle; }
 
-#define UNITYENGINE_RENDERING_TEXTUREXR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F29EC90)
-#define UNITYENGINE_RENDERING_TEXTUREXR_CREATEBLACKUINTTEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x1F29E410)
-#define UNITYENGINE_RENDERING_TEXTUREXR_CREATEBLACKUINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F29E740)
-#define UNITYENGINE_RENDERING_TEXTUREXR_CREATETEXTURE2DARRAYFROMTEXTURE2D_OFFSET UNITYSDK_OFFSET(0x1F29EA70)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GETBLACKTEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x1F29D760)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GETBLACKTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F29D6B0)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GETBLACKUINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F29D4A0)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GETCLEARTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F29D550)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GETMAGENTATEXTURE_OFFSET UNITYSDK_OFFSET(0x1F29D600)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GETWHITETEXTURE_OFFSET UNITYSDK_OFFSET(0x1F29D7C0)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GET_DIMENSION_OFFSET UNITYSDK_OFFSET(0x1F29D420)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GET_SLICES_OFFSET UNITYSDK_OFFSET(0x1F29D390)
-#define UNITYENGINE_RENDERING_TEXTUREXR_GET_USETEXARRAY_OFFSET UNITYSDK_OFFSET(0x1F29D3F0)
-#define UNITYENGINE_RENDERING_TEXTUREXR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F29D870)
-#define UNITYENGINE_RENDERING_TEXTUREXR_SET_MAXVIEWS_OFFSET UNITYSDK_OFFSET(0x1F29D330)
+#define UNITYENGINE_RENDERING_TEXTUREXR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F652410)
+#define UNITYENGINE_RENDERING_TEXTUREXR_CREATEBLACKUINTTEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x1F651B90)
+#define UNITYENGINE_RENDERING_TEXTUREXR_CREATEBLACKUINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F651EC0)
+#define UNITYENGINE_RENDERING_TEXTUREXR_CREATETEXTURE2DARRAYFROMTEXTURE2D_OFFSET UNITYSDK_OFFSET(0x1F6521F0)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GETBLACKTEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x1F650EE0)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GETBLACKTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F650E30)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GETBLACKUINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F650C20)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GETCLEARTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F650CD0)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GETMAGENTATEXTURE_OFFSET UNITYSDK_OFFSET(0x1F650D80)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GETWHITETEXTURE_OFFSET UNITYSDK_OFFSET(0x1F650F40)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GET_DIMENSION_OFFSET UNITYSDK_OFFSET(0x1F650BA0)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GET_SLICES_OFFSET UNITYSDK_OFFSET(0x1F650B10)
+#define UNITYENGINE_RENDERING_TEXTUREXR_GET_USETEXARRAY_OFFSET UNITYSDK_OFFSET(0x1F650B70)
+#define UNITYENGINE_RENDERING_TEXTUREXR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F650FF0)
+#define UNITYENGINE_RENDERING_TEXTUREXR_SET_MAXVIEWS_OFFSET UNITYSDK_OFFSET(0x1F650AB0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TextureXR_TypeDefinitionIndex = 35587;
+	inline static constexpr unsigned int TextureXR_TypeDefinitionIndex = 36515;
 
 	class TextureXR : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_WhiteTexture2DArrayRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3B0);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_MagentaTexture2DArrayRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3B8);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_ClearTexture2DArrayRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3C0);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_BlackTextureRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3C8);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_WhiteTextureRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3D0);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_BlackUIntTexture2DArrayRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3D8);
-		}
-
 		static ::UnityEngine::Texture2DArray** StaticGet_m_BlackTexture2DArray()
 		{
-			return (::UnityEngine::Texture2DArray**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3E0);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_ClearTextureRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3E8);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_BlackTexture2DArrayRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3F0);
-		}
-
-		static ::UnityEngine::Texture2DArray** StaticGet_m_WhiteTexture2DArray()
-		{
-			return (::UnityEngine::Texture2DArray**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B3F8);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_MagentaTextureRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B400);
-		}
-
-		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_BlackUIntTextureRTH()
-		{
-			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B408);
+			return (::UnityEngine::Texture2DArray**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x613F0);
 		}
 
 		static ::UnityEngine::Texture2D** StaticGet_m_ClearTexture()
 		{
-			return (::UnityEngine::Texture2D**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B410);
+			return (::UnityEngine::Texture2D**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x613F8);
 		}
 
 		static ::UnityEngine::Texture2D** StaticGet_m_MagentaTexture()
 		{
-			return (::UnityEngine::Texture2D**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B418);
+			return (::UnityEngine::Texture2D**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61400);
 		}
 
-		static ::UnityEngine::Texture2DArray** StaticGet_m_MagentaTexture2DArray()
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_BlackTextureRTH()
 		{
-			return (::UnityEngine::Texture2DArray**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B420);
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61408);
 		}
 
 		static ::UnityEngine::Texture** StaticGet_m_BlackUIntTexture2DArray()
 		{
-			return (::UnityEngine::Texture**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B428);
+			return (::UnityEngine::Texture**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61410);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_BlackTexture2DArrayRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61418);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_WhiteTexture2DArrayRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61420);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_WhiteTextureRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61428);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_MagentaTexture2DArrayRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61430);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_MagentaTextureRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61438);
 		}
 
 		static ::UnityEngine::Texture2DArray** StaticGet_m_ClearTexture2DArray()
 		{
-			return (::UnityEngine::Texture2DArray**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B430);
+			return (::UnityEngine::Texture2DArray**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61440);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_ClearTextureRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61448);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_ClearTexture2DArrayRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61450);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_BlackUIntTexture2DArrayRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61458);
+		}
+
+		static ::UnityEngine::Rendering::RTHandle** StaticGet_m_BlackUIntTextureRTH()
+		{
+			return (::UnityEngine::Rendering::RTHandle**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61460);
+		}
+
+		static ::UnityEngine::Texture2DArray** StaticGet_m_WhiteTexture2DArray()
+		{
+			return (::UnityEngine::Texture2DArray**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61468);
+		}
+
+		static ::UnityEngine::Texture2DArray** StaticGet_m_MagentaTexture2DArray()
+		{
+			return (::UnityEngine::Texture2DArray**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61470);
 		}
 
 		static ::UnityEngine::Texture** StaticGet_m_BlackUIntTexture()
 		{
-			return (::UnityEngine::Texture**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x5B438);
+			return (::UnityEngine::Texture**)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x61478);
 		}
 
 		static ::System::Int32* StaticGet_m_MaxViews()
 		{
-			return (::System::Int32*)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x13B40);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.Rendering", "TextureXR")->GetStaticField(0x14130);
 		}
 
 		static ::System::Void _cctor()

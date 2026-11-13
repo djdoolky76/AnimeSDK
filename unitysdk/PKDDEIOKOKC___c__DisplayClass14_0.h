@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define PKDDEIOKOKC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2AB110)
-#define PKDDEIOKOKC___C__DISPLAYCLASS14_0___OFFSETMODELWHENREADY_B__0_OFFSET UNITYSDK_OFFSET(0xC2ABA50)
+#define PKDDEIOKOKC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x147B6740)
+#define PKDDEIOKOKC___C__DISPLAYCLASS14_0___OFFSETMODELWHENREADY_B__0_OFFSET UNITYSDK_OFFSET(0x147B70C0)
 
-inline static constexpr unsigned int PKDDEIOKOKC___c__DisplayClass14_0_TypeDefinitionIndex = 60208;
+inline static constexpr unsigned int PKDDEIOKOKC___c__DisplayClass14_0_TypeDefinitionIndex = 61492;
 
 	class PKDDEIOKOKC___c__DisplayClass14_0 : public ::System::Object
 	{

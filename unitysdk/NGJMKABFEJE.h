@@ -3,9 +3,9 @@
 #include "unitysdk/COBBNCGDBKN.h"
 #include "unitysdk/System/Object.h"
 
-#define NGJMKABFEJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C932AE0)
+#define NGJMKABFEJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C297FC0)
 
-inline static constexpr unsigned int NGJMKABFEJE_TypeDefinitionIndex = 42264;
+inline static constexpr unsigned int NGJMKABFEJE_TypeDefinitionIndex = 43239;
 
 	class NGJMKABFEJE : public ::System::Object
 	{

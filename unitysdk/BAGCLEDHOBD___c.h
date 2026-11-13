@@ -4,18 +4,18 @@
 class BAGCLEDHOBD;
 namespace System { class Object; }
 
-#define BAGCLEDHOBD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E787630)
-#define BAGCLEDHOBD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E787670)
-#define BAGCLEDHOBD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E787680)
+#define BAGCLEDHOBD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20575450)
+#define BAGCLEDHOBD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20575490)
+#define BAGCLEDHOBD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x205754A0)
 
-inline static constexpr unsigned int BAGCLEDHOBD___c_TypeDefinitionIndex = 30686;
+inline static constexpr unsigned int BAGCLEDHOBD___c_TypeDefinitionIndex = 31592;
 
 	class BAGCLEDHOBD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C190);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41A10);
 		}
 
 		static ::System::Void _cctor()

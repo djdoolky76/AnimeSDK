@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarColliderCameraConfig; }
 
-#define RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DFFA0)
-#define RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3DFE10)
+#define RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC51E0)
+#define RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEC50D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarColliderCameraConfig_TypeDefinitionIndex = 16432;
+	inline static constexpr unsigned int AvatarColliderCameraConfig_TypeDefinitionIndex = 16596;
 
 	class AvatarColliderCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

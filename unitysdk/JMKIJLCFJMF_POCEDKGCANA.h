@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int JMKIJLCFJMF_POCEDKGCANA_TypeDefinitionIndex = 58422;
+inline static constexpr unsigned int JMKIJLCFJMF_POCEDKGCANA_TypeDefinitionIndex = 59678;
 
 	struct alignas(8) JMKIJLCFJMF_POCEDKGCANA
 	{

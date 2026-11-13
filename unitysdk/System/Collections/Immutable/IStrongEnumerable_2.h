@@ -3,7 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int IStrongEnumerable_2_TypeDefinitionIndex = 6611;
+	inline static constexpr unsigned int IStrongEnumerable_2_TypeDefinitionIndex = 6622;
 
 	template <typename T1, typename T2>
 	class IStrongEnumerable_2

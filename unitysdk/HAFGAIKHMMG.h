@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HAFGAIKHMMG_TypeDefinitionIndex = 24654;
+inline static constexpr unsigned int HAFGAIKHMMG_TypeDefinitionIndex = 25126;
 
 	enum class HAFGAIKHMMG : ::System::Int32
 	{

@@ -5,23 +5,23 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FAJAMAAAHFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15675600)
-#define FAJAMAAAHFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15675630)
-#define FAJAMAAAHFG___C___CTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0x15675640)
+#define FAJAMAAAHFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA2DEB0)
+#define FAJAMAAAHFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2DEE0)
+#define FAJAMAAAHFG___C___CTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0x1BA2DEF0)
 
-inline static constexpr unsigned int FAJAMAAAHFG___c_TypeDefinitionIndex = 71684;
+inline static constexpr unsigned int FAJAMAAAHFG___c_TypeDefinitionIndex = 73675;
 
 	class FAJAMAAAHFG___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet___9__39_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x518D0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x518D8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F110);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet___9__39_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F118);
 		}
 
 		static ::System::Void _cctor()

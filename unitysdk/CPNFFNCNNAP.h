@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideSkillDisplayInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CPNFFNCNNAP_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD63A0)
-#define CPNFFNCNNAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCD63D0)
+#define CPNFFNCNNAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1990FA10)
+#define CPNFFNCNNAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1990FA40)
 
-inline static constexpr unsigned int CPNFFNCNNAP_TypeDefinitionIndex = 55100;
+inline static constexpr unsigned int CPNFFNCNNAP_TypeDefinitionIndex = 56277;
 
 	class CPNFFNCNNAP
 	{

@@ -4,11 +4,11 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraTriggerTutorial; }
 
-#define AFLCDFDBBAB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0B620)
-#define AFLCDFDBBAB_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xCF0B6D0)
-#define AFLCDFDBBAB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xCF0B660)
+#define AFLCDFDBBAB_CTOR_OFFSET UNITYSDK_OFFSET(0x18DB75C0)
+#define AFLCDFDBBAB_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x18DB7670)
+#define AFLCDFDBBAB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x18DB7600)
 
-inline static constexpr unsigned int AFLCDFDBBAB_TypeDefinitionIndex = 78419;
+inline static constexpr unsigned int AFLCDFDBBAB_TypeDefinitionIndex = 81154;
 
 	class AFLCDFDBBAB : public ::System::Object
 	{

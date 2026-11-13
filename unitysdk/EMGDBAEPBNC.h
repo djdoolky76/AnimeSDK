@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTeamLeaderPath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EMGDBAEPBNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1552B240)
-#define EMGDBAEPBNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1552B270)
+#define EMGDBAEPBNC_CTOR_OFFSET UNITYSDK_OFFSET(0x187D2140)
+#define EMGDBAEPBNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x187D2170)
 
-inline static constexpr unsigned int EMGDBAEPBNC_TypeDefinitionIndex = 52594;
+inline static constexpr unsigned int EMGDBAEPBNC_TypeDefinitionIndex = 53700;
 
 	class EMGDBAEPBNC
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD5C050)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x189A1270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleMonoPlugin_TypeDefinitionIndex = 70544;
+	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleMonoPlugin_TypeDefinitionIndex = 72519;
 
 	class Effect_PropScreenSpaceGPUParticleMonoPlugin
 	{

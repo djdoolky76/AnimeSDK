@@ -4,10 +4,10 @@
 class INNLEDLNDNN;
 namespace RPG::GameCore { class GameEntity; }
 
-#define BPDAPGHPAAC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC19FC10)
-#define BPDAPGHPAAC___C__DISPLAYCLASS14_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0xC1A0930)
+#define BPDAPGHPAAC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5FE070)
+#define BPDAPGHPAAC___C__DISPLAYCLASS14_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x1B5FED90)
 
-inline static constexpr unsigned int BPDAPGHPAAC___c__DisplayClass14_0_TypeDefinitionIndex = 71620;
+inline static constexpr unsigned int BPDAPGHPAAC___c__DisplayClass14_0_TypeDefinitionIndex = 73608;
 
 	class BPDAPGHPAAC___c__DisplayClass14_0 : public ::System::Object
 	{

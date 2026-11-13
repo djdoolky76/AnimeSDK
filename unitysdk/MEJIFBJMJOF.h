@@ -10,23 +10,23 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define MEJIFBJMJOF_ANAHFGMKJMB_OFFSET UNITYSDK_OFFSET(0xB8D3B50)
-#define MEJIFBJMJOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB8D3020)
-#define MEJIFBJMJOF_GET_SKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0xB8D3000)
-#define MEJIFBJMJOF_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0xB8D3500)
-#define MEJIFBJMJOF_LMHNAJPLMFI_OFFSET UNITYSDK_OFFSET(0xB8D3470)
-#define MEJIFBJMJOF_PFBKHFIPJEC_OFFSET UNITYSDK_OFFSET(0xB8D3350)
-#define MEJIFBJMJOF_SET_SKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0xB8D3010)
+#define MEJIFBJMJOF_ANAHFGMKJMB_OFFSET UNITYSDK_OFFSET(0x17C63A40)
+#define MEJIFBJMJOF_CTOR_OFFSET UNITYSDK_OFFSET(0x17C62F10)
+#define MEJIFBJMJOF_GET_SKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x17C62EF0)
+#define MEJIFBJMJOF_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0x17C633F0)
+#define MEJIFBJMJOF_LMHNAJPLMFI_OFFSET UNITYSDK_OFFSET(0x17C63360)
+#define MEJIFBJMJOF_PFBKHFIPJEC_OFFSET UNITYSDK_OFFSET(0x17C63240)
+#define MEJIFBJMJOF_SET_SKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x17C62F00)
 
-inline static constexpr unsigned int MEJIFBJMJOF_TypeDefinitionIndex = 51939;
+inline static constexpr unsigned int MEJIFBJMJOF_TypeDefinitionIndex = 53040;
 
 	class MEJIFBJMJOF : public ::System::Object
 	{
 	public:
 		::PAIFNKMCPGB* _SkillRowDataProvider_k__BackingField; // 0x10
 		::OEFFFNEOGMC* MPKAFBADCAI; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KHNFFHCLLIF*>* IEHKMMAEDMH; // 0x20
-		::System::Collections::Generic::IReadOnlyList_1<::BCGKEELAOEA*>* KBEMHKFOKOF; // 0x28
+		::System::Collections::Generic::IReadOnlyList_1<::BCGKEELAOEA*>* KBEMHKFOKOF; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KHNFFHCLLIF*>* IEHKMMAEDMH; // 0x28
 		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::OEFFFNEOGMC* a2, ::System::Collections::Generic::IReadOnlyList_1<::BCGKEELAOEA*>* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::OEFFFNEOGMC*, ::System::Collections::Generic::IReadOnlyList_1<::BCGKEELAOEA*>*))((::PBYTE)hIl2Cpp + MEJIFBJMJOF_CTOR_OFFSET))(this, a1, a2, a3);

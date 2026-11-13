@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShuffleTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MFALCEEIHPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB8E30B0)
-#define MFALCEEIHPO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8E30C0)
-#define MFALCEEIHPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8E3100)
-#define MFALCEEIHPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8E3300)
-#define MFALCEEIHPO_TICK_OFFSET UNITYSDK_OFFSET(0xB8E3350)
+#define MFALCEEIHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x17C72E60)
+#define MFALCEEIHPO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17C72E70)
+#define MFALCEEIHPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17C72EB0)
+#define MFALCEEIHPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17C730B0)
+#define MFALCEEIHPO_TICK_OFFSET UNITYSDK_OFFSET(0x17C73100)
 
-inline static constexpr unsigned int MFALCEEIHPO_TypeDefinitionIndex = 55620;
+inline static constexpr unsigned int MFALCEEIHPO_TypeDefinitionIndex = 56818;
 
 	class MFALCEEIHPO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShuffleTargetList* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShuffleTargetList* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShuffleTargetList* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShuffleTargetList*))((::PBYTE)hIl2Cpp + MFALCEEIHPO_CTOR_OFFSET))(this, a1, a2);

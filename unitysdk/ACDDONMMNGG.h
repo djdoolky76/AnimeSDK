@@ -10,54 +10,54 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ACDDONMMNGG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CC750B0)
-#define ACDDONMMNGG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC75AC0)
-#define ACDDONMMNGG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CC75220)
-#define ACDDONMMNGG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CC74B20)
-#define ACDDONMMNGG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CC74DB0)
-#define ACDDONMMNGG_HFBAFEEPOLN_OFFSET UNITYSDK_OFFSET(0x1CC75A80)
-#define ACDDONMMNGG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CC752C0)
-#define ACDDONMMNGG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CC75310)
-#define ACDDONMMNGG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CC750F0)
-#define ACDDONMMNGG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CC74D50)
-#define ACDDONMMNGG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CC74F20)
-#define ACDDONMMNGG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CC75180)
-#define ACDDONMMNGG_PMCANNHCOCK_OFFSET UNITYSDK_OFFSET(0x1CC75680)
-#define ACDDONMMNGG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CC74AA0)
+#define ACDDONMMNGG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E013CE0)
+#define ACDDONMMNGG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0146F0)
+#define ACDDONMMNGG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E013E50)
+#define ACDDONMMNGG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E013750)
+#define ACDDONMMNGG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E0139E0)
+#define ACDDONMMNGG_HFBAFEEPOLN_OFFSET UNITYSDK_OFFSET(0x1E0146B0)
+#define ACDDONMMNGG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E013EF0)
+#define ACDDONMMNGG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E013F40)
+#define ACDDONMMNGG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E013D20)
+#define ACDDONMMNGG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E013980)
+#define ACDDONMMNGG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E013B50)
+#define ACDDONMMNGG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E013DB0)
+#define ACDDONMMNGG_PMCANNHCOCK_OFFSET UNITYSDK_OFFSET(0x1E0142B0)
+#define ACDDONMMNGG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E0136D0)
 
-inline static constexpr unsigned int ACDDONMMNGG_TypeDefinitionIndex = 12794;
+inline static constexpr unsigned int ACDDONMMNGG_TypeDefinitionIndex = 12866;
 
 	class ACDDONMMNGG : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarEnhancedSeasonRow*>** StaticGet_ELDLAEBHHPP()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarEnhancedSeasonRow*>**)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x3D890);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarEnhancedSeasonRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarEnhancedSeasonRow*>**)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x3D898);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x3D8A0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x32D60);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarEnhancedSeasonRow*>** StaticGet_ELDLAEBHHPP()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarEnhancedSeasonRow*>**)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x32D68);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x3D8A8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x32D70);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarEnhancedSeasonRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarEnhancedSeasonRow*>**)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x32D78);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0xE790);
+			return (::System::Byte*)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x9D90);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0xE791);
+			return (::System::Boolean*)UnitySDK::FromName("", "ACDDONMMNGG")->GetStaticField(0x9D91);
 		}
 
 		static ::System::Void _cctor()

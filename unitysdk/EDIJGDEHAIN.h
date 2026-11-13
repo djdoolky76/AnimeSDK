@@ -7,22 +7,22 @@ namespace RPG::GameCore { class BattleVersusClickQTEConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDIJGDEHAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x13319D20)
-#define EDIJGDEHAIN_EGHECGPBNPI_OFFSET UNITYSDK_OFFSET(0x13319E80)
+#define EDIJGDEHAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x186C26D0)
+#define EDIJGDEHAIN_EGHECGPBNPI_OFFSET UNITYSDK_OFFSET(0x186C2820)
 
-inline static constexpr unsigned int EDIJGDEHAIN_TypeDefinitionIndex = 56194;
+inline static constexpr unsigned int EDIJGDEHAIN_TypeDefinitionIndex = 57406;
 
 	class EDIJGDEHAIN : public ::GIBILAKDENF
 	{
 	public:
 		::ENEIHJJPNPI* GHDIMNMDKBN; // 0x48
 		::RPG::GameCore::FloatCurve* BPELOLLILDK; // 0x50
-		::RPG::GameCore::FloatCurve* OOOAEGPJECD; // 0x58
-		::RPG::GameCore::FloatCurve* FOOACKFOING; // 0x60
+		::RPG::GameCore::FloatCurve* FOOACKFOING; // 0x58
+		::RPG::GameCore::FloatCurve* OOOAEGPJECD; // 0x60
 		::RPG::GameCore::StringHash CJDMFDGGAND; // 0x68
-		::System::Single EFJAHDEMACL; // 0x6C
+		::System::Single DDOGPCKGEAI; // 0x6C
 		::System::Single OCKLDNKHHHG; // 0x70
-		::System::Single DDOGPCKGEAI; // 0x74
+		::System::Single EFJAHDEMACL; // 0x74
 		::System::Single MPHNBEOHEHK; // 0x78
 		::System::Void _ctor(::RPG::GameCore::BattleVersusClickQTEConfig* a1, ::RPG::GameCore::TaskContext* a2)
 		{

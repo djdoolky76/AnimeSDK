@@ -4,9 +4,9 @@
 #include "unitysdk/NHHMEPILLHL.h"
 namespace RPG::Client { class RogueBuffInfo; }
 
-#define KOJHMGMKDPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB592BB0)
+#define KOJHMGMKDPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19102480)
 
-inline static constexpr unsigned int KOJHMGMKDPJ_TypeDefinitionIndex = 67071;
+inline static constexpr unsigned int KOJHMGMKDPJ_TypeDefinitionIndex = 69015;
 
 	class KOJHMGMKDPJ : public ::EBIMENNAEIE
 	{

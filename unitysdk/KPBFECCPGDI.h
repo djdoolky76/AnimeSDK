@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchMascotResetSection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KPBFECCPGDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB5A8F00)
-#define KPBFECCPGDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5A8F30)
+#define KPBFECCPGDI_CTOR_OFFSET UNITYSDK_OFFSET(0x191192E0)
+#define KPBFECCPGDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19119310)
 
-inline static constexpr unsigned int KPBFECCPGDI_TypeDefinitionIndex = 58748;
+inline static constexpr unsigned int KPBFECCPGDI_TypeDefinitionIndex = 60016;
 
 	class KPBFECCPGDI
 	{

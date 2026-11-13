@@ -5,25 +5,25 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGAMEFLOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4D7310)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGAMEFLOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC4D7350)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGAMEFLOW___C___SHOWDIALOGSONBATTLEBEGIN_B__123_0_OFFSET UNITYSDK_OFFSET(0xC4D7360)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGAMEFLOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6BF140)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGAMEFLOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BF180)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGAMEFLOW___C___SHOWDIALOGSONBATTLEBEGIN_B__123_0_OFFSET UNITYSDK_OFFSET(0x1D6BF190)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGameFlow___c_TypeDefinitionIndex = 75297;
+	inline static constexpr unsigned int IdleLiveGameFlow___c_TypeDefinitionIndex = 77624;
 
 	class IdleLiveGameFlow___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__123_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x21020);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x23320);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x21028);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x23328);
 		}
 
 		static ::System::Void _cctor()

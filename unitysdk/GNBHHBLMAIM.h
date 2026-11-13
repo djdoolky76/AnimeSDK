@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ShotAnimMovementData; }
 
-#define GNBHHBLMAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF0690)
+#define GNBHHBLMAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x16CA9260)
 
-inline static constexpr unsigned int GNBHHBLMAIM_TypeDefinitionIndex = 69648;
+inline static constexpr unsigned int GNBHHBLMAIM_TypeDefinitionIndex = 71605;
 
 	class GNBHHBLMAIM : public ::System::Object
 	{

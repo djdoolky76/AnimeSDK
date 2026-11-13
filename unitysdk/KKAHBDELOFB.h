@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtSkillAllowBeHit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKAHBDELOFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB45AE90)
-#define KKAHBDELOFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB45AEC0)
+#define KKAHBDELOFB_CTOR_OFFSET UNITYSDK_OFFSET(0x17336B80)
+#define KKAHBDELOFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17336BB0)
 
-inline static constexpr unsigned int KKAHBDELOFB_TypeDefinitionIndex = 53932;
+inline static constexpr unsigned int KKAHBDELOFB_TypeDefinitionIndex = 55096;
 
 	class KKAHBDELOFB
 	{

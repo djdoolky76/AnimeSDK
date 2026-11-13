@@ -5,12 +5,12 @@ namespace RPG::Client { class EntityTimelineControlNode; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ENTITYTIMELINECONTROLNODE_CTOR_OFFSET UNITYSDK_OFFSET(0xCDEC420)
-#define RPG_CLIENT_ENTITYTIMELINECONTROLNODE_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xCDEC360)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6D94D0)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLNODE_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x1A6D9410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityTimelineControlNode_TypeDefinitionIndex = 63768;
+	inline static constexpr unsigned int EntityTimelineControlNode_TypeDefinitionIndex = 65210;
 
 	class EntityTimelineControlNode : public ::System::Object
 	{

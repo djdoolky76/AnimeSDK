@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Exception; }
 
-#define KJFJGNGCMBB_JDAKLMKCKKL_OFFSET UNITYSDK_OFFSET(0xB442490)
+#define KJFJGNGCMBB_JDAKLMKCKKL_OFFSET UNITYSDK_OFFSET(0x19F09470)
 
-inline static constexpr unsigned int KJFJGNGCMBB_TypeDefinitionIndex = 61263;
+inline static constexpr unsigned int KJFJGNGCMBB_TypeDefinitionIndex = 62648;
 
 	class KJFJGNGCMBB : public ::System::Object
 	{

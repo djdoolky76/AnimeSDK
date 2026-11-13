@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ELDNAILNPNL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E74830)
+#define ELDNAILNPNL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3E3FBB0)
 
-inline static constexpr unsigned int ELDNAILNPNL_TypeDefinitionIndex = 57648;
+inline static constexpr unsigned int ELDNAILNPNL_TypeDefinitionIndex = 58878;
 
 	struct alignas(4) ELDNAILNPNL
 	{

@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F264370)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2643B0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING___C__SETAUTOUV_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F2643C0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2BAC40)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2BAC80)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING___C__SETAUTOUV_B__0_0_OFFSET UNITYSDK_OFFSET(0x1A2BAC90)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int UvUnwrapping___c_TypeDefinitionIndex = 44448;
+	inline static constexpr unsigned int UvUnwrapping___c_TypeDefinitionIndex = 45523;
 
 	class UvUnwrapping___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x534C0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x69440);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x534C8);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x69448);
 		}
 
 		static ::System::Void _cctor()

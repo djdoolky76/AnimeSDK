@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/LittleGame/TRFMsgType.h"
 namespace System { class Object; }
 
-#define KPOPIBFJNDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DE120)
-#define KPOPIBFJNDA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C8DE130)
+#define KPOPIBFJNDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D637FC0)
+#define KPOPIBFJNDA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1D637FD0)
 
-inline static constexpr unsigned int KPOPIBFJNDA_TypeDefinitionIndex = 42471;
+inline static constexpr unsigned int KPOPIBFJNDA_TypeDefinitionIndex = 43446;
 
 	class KPOPIBFJNDA : public ::KIDPCOMKMKJ
 	{

@@ -4,13 +4,13 @@
 namespace HoudiniEngineUnity { class Test_Material; }
 namespace UnityEngine { class Material; }
 
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9928A0)
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9928D0)
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9928B0)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x2087CAD0)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x2087CB00)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_ISNULL_OFFSET UNITYSDK_OFFSET(0x2087CAE0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Material_TypeDefinitionIndex = 40716;
+	inline static constexpr unsigned int Test_Material_TypeDefinitionIndex = 41691;
 
 	class Test_Material : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD2CF670)
-#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE_CTOR_OFFSET UNITYSDK_OFFSET(0xD2CF660)
+#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CA150C0)
+#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA150B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightVictoryCountRule_TypeDefinitionIndex = 65076;
+	inline static constexpr unsigned int GridFightVictoryCountRule_TypeDefinitionIndex = 66745;
 
 	class GridFightVictoryCountRule : public ::System::Object
 	{

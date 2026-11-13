@@ -8,25 +8,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace XLua { class LuaTable; }
 
-#define JONCNPOBOEF_AIGJICBKNJP_OFFSET UNITYSDK_OFFSET(0xB2A7170)
-#define JONCNPOBOEF_AMEKECLOMMM_1_OFFSET UNITYSDK_OFFSET(0xB2A66D0)
-#define JONCNPOBOEF_AMEKECLOMMM_OFFSET UNITYSDK_OFFSET(0xB2A6390)
-#define JONCNPOBOEF_CJNDJIEGDOJ_OFFSET UNITYSDK_OFFSET(0xB2A6AA0)
-#define JONCNPOBOEF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A7C60)
-#define JONCNPOBOEF_NILIPFGFPOM_OFFSET UNITYSDK_OFFSET(0xB2A7880)
+#define JONCNPOBOEF_AIGJICBKNJP_OFFSET UNITYSDK_OFFSET(0x1B4E93A0)
+#define JONCNPOBOEF_AMEKECLOMMM_1_OFFSET UNITYSDK_OFFSET(0x1B4E8900)
+#define JONCNPOBOEF_AMEKECLOMMM_OFFSET UNITYSDK_OFFSET(0x1B4E85C0)
+#define JONCNPOBOEF_CJNDJIEGDOJ_OFFSET UNITYSDK_OFFSET(0x1B4E8CD0)
+#define JONCNPOBOEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E9EA0)
+#define JONCNPOBOEF_NILIPFGFPOM_OFFSET UNITYSDK_OFFSET(0x1B4E9AC0)
 
-inline static constexpr unsigned int JONCNPOBOEF_TypeDefinitionIndex = 59997;
+inline static constexpr unsigned int JONCNPOBOEF_TypeDefinitionIndex = 61281;
 
 	class JONCNPOBOEF : public ::System::Object
 	{
 	public:
 		::System::String* BOIJNHAFIDH; // 0x10
-		::RPG::Client::RPGProfilerMarker* NBCPAOCIHEL; // 0x18
-		::RPG::Client::RPGProfilerMarker* PBPAADBDKIO; // 0x20
-		::RPG::Client::RPGProfilerMarker* DPBGHAPJHKC; // 0x28
+		::RPG::Client::RPGProfilerMarker* PBPAADBDKIO; // 0x18
+		::RPG::Client::RPGProfilerMarker* AABOMBAEELI; // 0x20
+		::RPG::Client::RPGProfilerMarker* NBCPAOCIHEL; // 0x28
 		::RPG::Client::RPGProfilerMarker* FALLNHJEKLL; // 0x30
-		::RPG::Client::RPGProfilerMarker* AABOMBAEELI; // 0x38
-		::HoudiniEngineUnity::JSONObject* EOCNNGBKFAN; // 0x40
+		::HoudiniEngineUnity::JSONObject* EOCNNGBKFAN; // 0x38
+		::RPG::Client::RPGProfilerMarker* DPBGHAPJHKC; // 0x40
 		::RPG::Client::RPGProfilerMarker* MHNHCBNCFPD; // 0x48
 		::System::Void _ctor()
 		{

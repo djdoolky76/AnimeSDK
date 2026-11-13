@@ -5,21 +5,21 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define EHNHBPFGJMA_CTOR_OFFSET UNITYSDK_OFFSET(0x154AC1D0)
-#define EHNHBPFGJMA_GET_ROGUEMODE_OFFSET UNITYSDK_OFFSET(0x154AC1B0)
-#define EHNHBPFGJMA_GET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x154AC190)
-#define EHNHBPFGJMA_GET_SUBMODECLASS_OFFSET UNITYSDK_OFFSET(0x154AC180)
-#define EHNHBPFGJMA_SET_ROGUEMODE_OFFSET UNITYSDK_OFFSET(0x154AC1C0)
-#define EHNHBPFGJMA_SET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x154AC1A0)
+#define EHNHBPFGJMA_CTOR_OFFSET UNITYSDK_OFFSET(0x18BDCEF0)
+#define EHNHBPFGJMA_GET_ROGUEMODE_OFFSET UNITYSDK_OFFSET(0x18BDCED0)
+#define EHNHBPFGJMA_GET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x18BDCEB0)
+#define EHNHBPFGJMA_GET_SUBMODECLASS_OFFSET UNITYSDK_OFFSET(0x18BDCEA0)
+#define EHNHBPFGJMA_SET_ROGUEMODE_OFFSET UNITYSDK_OFFSET(0x18BDCEE0)
+#define EHNHBPFGJMA_SET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x18BDCEC0)
 
-inline static constexpr unsigned int EHNHBPFGJMA_TypeDefinitionIndex = 56021;
+inline static constexpr unsigned int EHNHBPFGJMA_TypeDefinitionIndex = 57225;
 
 	class EHNHBPFGJMA : public ::System::Attribute
 	{
 	public:
 		::System::Type* _SubModeClass_k__BackingField; // 0x10
-		::RPG::GameCore::StageType _StageType_k__BackingField; // 0x18
-		::RPG::GameCore::RogueMode _RogueMode_k__BackingField; // 0x1C
+		::RPG::GameCore::RogueMode _RogueMode_k__BackingField; // 0x18
+		::RPG::GameCore::StageType _StageType_k__BackingField; // 0x1C
 		::System::Void _ctor(::System::Type* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + EHNHBPFGJMA_CTOR_OFFSET))(this, a1);

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ExtrudeMethod_TypeDefinitionIndex = 44403;
+	inline static constexpr unsigned int ExtrudeMethod_TypeDefinitionIndex = 45478;
 
 	enum class ExtrudeMethod : ::System::Int32
 	{

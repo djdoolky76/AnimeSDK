@@ -8,16 +8,16 @@ class JIAFOPELMJJ;
 class KGPCBBIOGLB;
 namespace System { class Object; }
 
-#define JIAFOPELMJJ___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1C8EF0)
-#define JIAFOPELMJJ___C__DISPLAYCLASS11_0___MAKEAUDIOPACKPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xB1DEC90)
+#define JIAFOPELMJJ___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x173F7A80)
+#define JIAFOPELMJJ___C__DISPLAYCLASS11_0___MAKEAUDIOPACKPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x1740D840)
 
-inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass11_0_TypeDefinitionIndex = 59501;
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass11_0_TypeDefinitionIndex = 60778;
 
 	class JIAFOPELMJJ___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::CEOABLKMPKE* audioHPatch; // 0x10
-		::JIAFOPELMJJ* __4__this; // 0x18
+		::JIAFOPELMJJ* __4__this; // 0x10
+		::CEOABLKMPKE* audioHPatch; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);

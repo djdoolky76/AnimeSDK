@@ -8,21 +8,21 @@ namespace RPG::Client { class MultiLightEffectMaterialBlock; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD85A10)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_CGMJDCGIKNI_OFFSET UNITYSDK_OFFSET(0xDD85340)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_CTOR_OFFSET UNITYSDK_OFFSET(0xDD856D0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_EPACFKIMEKB_OFFSET UNITYSDK_OFFSET(0xDD84730)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_MOOMLIBMBFD_OFFSET UNITYSDK_OFFSET(0xDD84DB0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_OCLOBFJDOPH_OFFSET UNITYSDK_OFFSET(0xDD84670)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_OHPCADPGKOG_OFFSET UNITYSDK_OFFSET(0xDD85570)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_PKMJLIADPOD_OFFSET UNITYSDK_OFFSET(0xDD851F0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_STOP_OFFSET UNITYSDK_OFFSET(0xDD84270)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_TRYINIT_OFFSET UNITYSDK_OFFSET(0xDD83A70)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD84430)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1745D4A0)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_CGMJDCGIKNI_OFFSET UNITYSDK_OFFSET(0x1745CDD0)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1745D160)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_EPACFKIMEKB_OFFSET UNITYSDK_OFFSET(0x1745C1C0)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_MOOMLIBMBFD_OFFSET UNITYSDK_OFFSET(0x1745C840)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_OCLOBFJDOPH_OFFSET UNITYSDK_OFFSET(0x1745C100)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_OHPCADPGKOG_OFFSET UNITYSDK_OFFSET(0x1745D000)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_PKMJLIADPOD_OFFSET UNITYSDK_OFFSET(0x1745CC80)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_STOP_OFFSET UNITYSDK_OFFSET(0x1745BD00)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_TRYINIT_OFFSET UNITYSDK_OFFSET(0x1745B4F0)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_UPDATE_OFFSET UNITYSDK_OFFSET(0x1745BEC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueDLCCompass_TypeDefinitionIndex = 78953;
+	inline static constexpr unsigned int RogueDLCCompass_TypeDefinitionIndex = 81729;
 
 	class RogueDLCCompass : public ::UnityEngine::MonoBehaviour
 	{
@@ -63,102 +63,102 @@ namespace RPG::Client::Prop
 		::System::Single FJMMAGJDJDC; // 0xB8
 		static ::System::String** StaticGet_TWO_OVERLAP()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C080);
-		}
-
-		static ::System::String** StaticGet_THREE_OVERLAP()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C088);
-		}
-
-		static ::System::String** StaticGet_OUTER_STOP()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C090);
-		}
-
-		static ::System::String** StaticGet_COMPASS_FINISH()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C098);
-		}
-
-		static ::System::String** StaticGet_RTPC_MIDDLE()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0A0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DCC0);
 		}
 
 		static ::System::String** StaticGet_COUNTDOWN_END()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0A8);
-		}
-
-		static ::System::String** StaticGet_INNER_SELECT()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0B0);
-		}
-
-		static ::System::String** StaticGet_COUNTDOWN_START()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0B8);
-		}
-
-		static ::System::String** StaticGet_OUTER_SELECT()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0C0);
-		}
-
-		static ::System::String** StaticGet_MIDDLE_SELECT()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0C8);
-		}
-
-		static ::System::String** StaticGet_MIDDLE_STOP()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0D0);
-		}
-
-		static ::System::String** StaticGet_MIDDLE_ROTATE()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0D8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DCC8);
 		}
 
 		static ::System::String** StaticGet_RTPC_OUTER()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0E0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DCD0);
 		}
 
-		static ::System::String** StaticGet_INNER_ROTATE()
+		static ::System::String** StaticGet_MIDDLE_ROTATE()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0E8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DCD8);
+		}
+
+		static ::System::String** StaticGet_COMPASS_FINISH()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DCE0);
 		}
 
 		static ::System::String** StaticGet_OUTER_ROTATE()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0F0);
-		}
-
-		static ::System::String** StaticGet_COMPASS_FINISH_LV3()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C0F8);
-		}
-
-		static ::System::String** StaticGet_FINISH_STRONG_EFFECT()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C100);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DCE8);
 		}
 
 		static ::System::String** StaticGet_RTPC_INNER()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C108);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DCF0);
 		}
 
-		static ::System::String** StaticGet_FINISH_WEAK_EFFECT()
+		static ::System::String** StaticGet_OUTER_SELECT()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C110);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DCF8);
+		}
+
+		static ::System::String** StaticGet_MIDDLE_STOP()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD00);
 		}
 
 		static ::System::String** StaticGet_INNER_STOP()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x4C118);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD08);
+		}
+
+		static ::System::String** StaticGet_FINISH_WEAK_EFFECT()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD10);
+		}
+
+		static ::System::String** StaticGet_COUNTDOWN_START()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD18);
+		}
+
+		static ::System::String** StaticGet_MIDDLE_SELECT()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD20);
+		}
+
+		static ::System::String** StaticGet_RTPC_MIDDLE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD28);
+		}
+
+		static ::System::String** StaticGet_THREE_OVERLAP()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD30);
+		}
+
+		static ::System::String** StaticGet_COMPASS_FINISH_LV3()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD38);
+		}
+
+		static ::System::String** StaticGet_FINISH_STRONG_EFFECT()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD40);
+		}
+
+		static ::System::String** StaticGet_OUTER_STOP()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD48);
+		}
+
+		static ::System::String** StaticGet_INNER_ROTATE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD50);
+		}
+
+		static ::System::String** StaticGet_INNER_SELECT()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RogueDLCCompass")->GetStaticField(0x5DD58);
 		}
 
 		::System::Void _ctor()

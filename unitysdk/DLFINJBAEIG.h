@@ -5,18 +5,18 @@ class DLFINJBAEIG;
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 namespace System { class String; }
 
-#define DLFINJBAEIG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xF899390)
-#define DLFINJBAEIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF899510)
-#define DLFINJBAEIG_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xF8994A0)
-#define DLFINJBAEIG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xF899420)
+#define DLFINJBAEIG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1866D260)
+#define DLFINJBAEIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1866D3E0)
+#define DLFINJBAEIG_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1866D370)
+#define DLFINJBAEIG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1866D2F0)
 
-inline static constexpr unsigned int DLFINJBAEIG_TypeDefinitionIndex = 78172;
+inline static constexpr unsigned int DLFINJBAEIG_TypeDefinitionIndex = 80907;
 
 	class DLFINJBAEIG : public ::AJHHFMBOCEN
 	{
 	public:
-		::System::String* GLGOFGALBHP; // 0x20
-		::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* FOIJHDEGJMM; // 0x28
+		::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* FOIJHDEGJMM; // 0x20
+		::System::String* GLGOFGALBHP; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLFINJBAEIG_CTOR_OFFSET))(this);

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD03E050)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD03E060)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x19AEA1B0)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19AEA1C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_EdgeConnectionInfo_TypeDefinitionIndex = 64231;
+	inline static constexpr unsigned int FloorConnectivityData_EdgeConnectionInfo_TypeDefinitionIndex = 65676;
 
 	class FloorConnectivityData_EdgeConnectionInfo : public ::System::Object
 	{

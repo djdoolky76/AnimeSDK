@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSDEBUGMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE284000)
+#define RPG_CLIENT_TIMESPACECRISSCROSSDEBUGMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A13D780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossDebugMonoPlugin_TypeDefinitionIndex = 70200;
+	inline static constexpr unsigned int TimeSpaceCrisscrossDebugMonoPlugin_TypeDefinitionIndex = 72166;
 
 	class TimeSpaceCrisscrossDebugMonoPlugin
 	{

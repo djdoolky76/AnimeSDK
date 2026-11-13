@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicComboType_TypeDefinitionIndex = 18713;
+	inline static constexpr unsigned int MusicComboType_TypeDefinitionIndex = 18874;
 
 	enum class MusicComboType : ::System::Int32
 	{

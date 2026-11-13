@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Pet { class IPetInstance; }
 
-#define DONPAICOHMP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x11FEEC60)
-#define DONPAICOHMP___C__DISPLAYCLASS1_0__CONTAINS_B__0_OFFSET UNITYSDK_OFFSET(0x11FEEC70)
+#define DONPAICOHMP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x191B2720)
+#define DONPAICOHMP___C__DISPLAYCLASS1_0__CONTAINS_B__0_OFFSET UNITYSDK_OFFSET(0x191B2730)
 
-inline static constexpr unsigned int DONPAICOHMP___c__DisplayClass1_0_TypeDefinitionIndex = 75656;
+inline static constexpr unsigned int DONPAICOHMP___c__DisplayClass1_0_TypeDefinitionIndex = 77983;
 
 	class DONPAICOHMP___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MADHNHEMBOJ_ADIMGCIBHBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB840510)
+#define MADHNHEMBOJ_ADIMGCIBHBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DB7D0)
 
-inline static constexpr unsigned int MADHNHEMBOJ_ADIMGCIBHBC_TypeDefinitionIndex = 71203;
+inline static constexpr unsigned int MADHNHEMBOJ_ADIMGCIBHBC_TypeDefinitionIndex = 73185;
 
 	class MADHNHEMBOJ_ADIMGCIBHBC : public ::System::Object
 	{

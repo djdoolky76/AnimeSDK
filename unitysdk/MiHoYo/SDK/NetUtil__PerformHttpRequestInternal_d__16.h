@@ -12,59 +12,59 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7EB60)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BE814A0)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BE82F50)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BE82FB0)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BE82F60)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BE81490)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_CTOR_OFFSET UNITYSDK_OFFSET(0x1C336340)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C338C40)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C33A710)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C33A770)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C33A720)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTINTERNAL_D__16_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C338C30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil__PerformHttpRequestInternal_d__16_TypeDefinitionIndex = 8192;
+	inline static constexpr unsigned int NetUtil__PerformHttpRequestInternal_d__16_TypeDefinitionIndex = 8201;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16>
 	class NetUtil__PerformHttpRequestInternal_d__16 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::INetworkInterceptor* _interceptor_5__6; // 0x10
-		::System::Action* timeoutCallback; // 0x18
-		::System::String* url; // 0x20
-		::System::String* _errorMsg_5__13; // 0x28
-		::System::String* _value_5__9; // 0x30
-		::System::Object* __2__current; // 0x38
-		::MiHoYo::SDK::INetworkInterceptor* _interceptor_5__11; // 0x40
-		::UnityEngine::Networking::UnityWebRequest* _request_5__4; // 0x48
-		::System::String* _downloadMD5_5__18; // 0x50
-		::MiHoYo::SDK::NetUtil_ResponseModel* _responseModel_5__14; // 0x58
-		::System::String* _key_5__8; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _responseHeaders_5__20; // 0x68
-		::System::Object* __s__22; // 0x70
+		::System::String* url; // 0x10
+		::System::String* _errorMsg_5__13; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* reportDict; // 0x20
+		::System::Object* __s__10; // 0x28
 		::System::Byte _padding0[0x10];
-		::System::Object* __s__5; // 0x88
+		::MiHoYo::SDK::INetworkInterceptor* _interceptor_5__23; // 0x40
+		::System::String* _processedUrl_5__3; // 0x48
+		::MiHoYo::SDK::NetUtil_ResponseModel* _responseModel_5__19; // 0x50
+		::System::Object* __s__5; // 0x58
 		::System::Byte _padding1[0x10];
-		::System::String* _processedUrl_5__3; // 0xA0
-		::System::String* _responseString_5__21; // 0xA8
-		::System::Object* __s__10; // 0xB0
+		::System::String* _value_5__9; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x78
+		::MiHoYo::SDK::INetworkInterceptor* _interceptor_5__11; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _responseHeaders_5__20; // 0x88
+		::UnityEngine::Networking::UnityWebRequest* _request_5__4; // 0x90
+		::System::Exception* _ex_5__24; // 0x98
+		::System::Object* __2__current; // 0xA0
+		::System::String* _downloadMD5_5__18; // 0xA8
+		::System::Object* __s__7; // 0xB0
 		::System::Byte _padding2[0x10];
-		::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>* buildRequestFun; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* reportDict; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0xD8
-		::MiHoYo::SDK::NetUtil_ResponseModel* _responseModel_5__15; // 0xE0
-		::MiHoYo::SDK::NetUtil_ResponseCallback* responseCallback; // 0xE8
-		::MiHoYo::SDK::INetworkInterceptor* _interceptor_5__23; // 0xF0
-		::System::Object* __s__7; // 0xF8
+		::MiHoYo::SDK::NetUtil_ResponseModel* _responseModel_5__15; // 0xC8
+		::System::String* _targetMD5_5__17; // 0xD0
+		::System::Object* __s__22; // 0xD8
 		::System::Byte _padding3[0x10];
-		::System::Exception* _ex_5__24; // 0x110
-		::MiHoYo::SDK::NetUtil_ResponseModel* _responseModel_5__19; // 0x118
+		::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>* buildRequestFun; // 0xF0
+		::System::String* _key_5__8; // 0xF8
+		::System::Action* timeoutCallback; // 0x100
+		::MiHoYo::SDK::INetworkInterceptor* _interceptor_5__6; // 0x108
+		::MiHoYo::SDK::NetUtil_ResponseCallback* responseCallback; // 0x110
+		::MiHoYo::SDK::NetUtil_ResponseModel* _responseModel_5__14; // 0x118
 		::MiHoYo::SDK::NetUtil_ResponseModel* _responseModel_5__16; // 0x120
-		::System::String* _targetMD5_5__17; // 0x128
-		::System::Int32 _delayTimeMs_5__1; // 0x130
-		::System::Int32 __1__state; // 0x134
-		::System::Boolean checkMD5; // 0x138
+		::System::String* _responseString_5__21; // 0x128
+		::System::Boolean checkMD5; // 0x130
 		::System::Byte _padding4[0x3];
-		::System::Int32 _leftRetryCount_5__2; // 0x13C
-		::System::Int64 _responseCode_5__12; // 0x140
+		::System::Int32 __1__state; // 0x134
+		::System::Int64 _responseCode_5__12; // 0x138
+		::System::Int32 _leftRetryCount_5__2; // 0x140
+		::System::Int32 _delayTimeMs_5__1; // 0x144
 		::System::Single timeoutSecond; // 0x148
 		::System::Int32 retryLimit; // 0x14C
 		::System::Void _ctor(::System::Int32 a1)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierUIPosition_TypeDefinitionIndex = 18241;
+	inline static constexpr unsigned int ModifierUIPosition_TypeDefinitionIndex = 18403;
 
 	enum class ModifierUIPosition : ::System::Int32
 	{

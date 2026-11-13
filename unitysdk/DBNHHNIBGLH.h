@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RefreshFormationCenter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DBNHHNIBGLH_CTOR_OFFSET UNITYSDK_OFFSET(0xE22CB00)
-#define DBNHHNIBGLH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE22CB30)
+#define DBNHHNIBGLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B158AC0)
+#define DBNHHNIBGLH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B158AF0)
 
-inline static constexpr unsigned int DBNHHNIBGLH_TypeDefinitionIndex = 56382;
+inline static constexpr unsigned int DBNHHNIBGLH_TypeDefinitionIndex = 57598;
 
 	class DBNHHNIBGLH
 	{

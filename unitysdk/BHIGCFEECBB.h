@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BoomRobotGameplayBoomHit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHIGCFEECBB_CTOR_OFFSET UNITYSDK_OFFSET(0xB488BF0)
-#define BHIGCFEECBB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB488C20)
+#define BHIGCFEECBB_CTOR_OFFSET UNITYSDK_OFFSET(0x151FB140)
+#define BHIGCFEECBB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151FB170)
 
-inline static constexpr unsigned int BHIGCFEECBB_TypeDefinitionIndex = 52541;
+inline static constexpr unsigned int BHIGCFEECBB_TypeDefinitionIndex = 53647;
 
 	class BHIGCFEECBB
 	{

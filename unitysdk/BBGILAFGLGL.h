@@ -9,24 +9,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindLoopControlStateChangeListener; }
 namespace System { class Object; }
 
-#define BBGILAFGLGL_CTOR_OFFSET UNITYSDK_OFFSET(0x15E7C6A0)
-#define BBGILAFGLGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E7CAD0)
-#define BBGILAFGLGL_FEKHNFNGLNO_OFFSET UNITYSDK_OFFSET(0x15E7CCA0)
-#define BBGILAFGLGL_FKEHGKBJHCC_OFFSET UNITYSDK_OFFSET(0x15E7CE80)
-#define BBGILAFGLGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E7C730)
-#define BBGILAFGLGL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E7C930)
-#define BBGILAFGLGL_TICK_OFFSET UNITYSDK_OFFSET(0x15E7CA70)
+#define BBGILAFGLGL_CTOR_OFFSET UNITYSDK_OFFSET(0x199F5330)
+#define BBGILAFGLGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x199F5760)
+#define BBGILAFGLGL_FEKHNFNGLNO_OFFSET UNITYSDK_OFFSET(0x199F5930)
+#define BBGILAFGLGL_FKEHGKBJHCC_OFFSET UNITYSDK_OFFSET(0x199F5B00)
+#define BBGILAFGLGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199F53C0)
+#define BBGILAFGLGL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x199F55C0)
+#define BBGILAFGLGL_TICK_OFFSET UNITYSDK_OFFSET(0x199F5700)
 
-inline static constexpr unsigned int BBGILAFGLGL_TypeDefinitionIndex = 53401;
+inline static constexpr unsigned int BBGILAFGLGL_TypeDefinitionIndex = 54563;
 
 	class BBGILAFGLGL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::EntityTimeRewindComponent* GLBECKBELNK; // 0x20
-		::RPG::GameCore::GameEntity* LOBKOPJPFIB; // 0x28
+		::RPG::GameCore::EntityTimeRewindComponent* GLBECKBELNK; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TimeRewindLoopControlStateChangeListener* OFKGLJOAMLD; // 0x28
 		::KFELGAIGHAP* PKIGFJMEKNJ; // 0x30
-		::RPG::GameCore::TimeRewindLoopControlStateChangeListener* OFKGLJOAMLD; // 0x38
+		::RPG::GameCore::GameEntity* LOBKOPJPFIB; // 0x38
 		::System::UInt32 PIBNIOEBKJI; // 0x40
 		::System::Int32 CFMADNLMFGL; // 0x44
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TimeRewindLoopControlStateChangeListener* a2)

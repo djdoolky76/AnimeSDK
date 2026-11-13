@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FreeStyleAnimEventEntry; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLEANIMEVENTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C59E0)
-#define RPG_GAMECORE_FREESTYLEANIMEVENTENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C58D0)
+#define RPG_GAMECORE_FREESTYLEANIMEVENTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B9540)
+#define RPG_GAMECORE_FREESTYLEANIMEVENTENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B9430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleAnimEventEntry_TypeDefinitionIndex = 16299;
+	inline static constexpr unsigned int FreeStyleAnimEventEntry_TypeDefinitionIndex = 16462;
 
 	class FreeStyleAnimEventEntry : public ::RPG::GameCore::JsonConfig
 	{

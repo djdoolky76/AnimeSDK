@@ -11,48 +11,48 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define GEAKPMPCALG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE04840)
-#define GEAKPMPCALG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE04E50)
-#define GEAKPMPCALG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE049B0)
-#define GEAKPMPCALG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE042E0)
-#define GEAKPMPCALG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE04570)
-#define GEAKPMPCALG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE04A50)
-#define GEAKPMPCALG_IKBMBPKEFLD_OFFSET UNITYSDK_OFFSET(0x1CE04E00)
-#define GEAKPMPCALG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE04AA0)
-#define GEAKPMPCALG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE04880)
-#define GEAKPMPCALG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE04510)
-#define GEAKPMPCALG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE046A0)
-#define GEAKPMPCALG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE04910)
-#define GEAKPMPCALG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE04260)
+#define GEAKPMPCALG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E626230)
+#define GEAKPMPCALG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E626840)
+#define GEAKPMPCALG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E6263A0)
+#define GEAKPMPCALG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E625E60)
+#define GEAKPMPCALG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E625D30)
+#define GEAKPMPCALG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E626440)
+#define GEAKPMPCALG_IKBMBPKEFLD_OFFSET UNITYSDK_OFFSET(0x1E6267F0)
+#define GEAKPMPCALG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E626490)
+#define GEAKPMPCALG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E626270)
+#define GEAKPMPCALG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E625CD0)
+#define GEAKPMPCALG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E626090)
+#define GEAKPMPCALG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E626300)
+#define GEAKPMPCALG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EA55F00)
 
-inline static constexpr unsigned int GEAKPMPCALG_TypeDefinitionIndex = 12688;
+inline static constexpr unsigned int GEAKPMPCALG_TypeDefinitionIndex = 12755;
 
 	class GEAKPMPCALG : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0x14C90);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StoryAtlasRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StoryAtlasRow*>**)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0x14C98);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0xBFE0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0x14CA0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0xBFE8);
 		}
 
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StoryAtlasRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0x46D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StoryAtlasRow*>**)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0xBFF0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0x46D1);
+			return (::System::Boolean*)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0x1810);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "GEAKPMPCALG")->GetStaticField(0x1811);
 		}
 
 		static ::System::Void _cctor()

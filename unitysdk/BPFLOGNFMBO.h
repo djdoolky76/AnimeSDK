@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DAKCNNBAHEP.h"
 
-#define BPFLOGNFMBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC37F20)
-#define BPFLOGNFMBO_DPMJELFJBBE_OFFSET UNITYSDK_OFFSET(0x1EC37F40)
+#define BPFLOGNFMBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E521A60)
+#define BPFLOGNFMBO_DPMJELFJBBE_OFFSET UNITYSDK_OFFSET(0x1E521A80)
 
-inline static constexpr unsigned int BPFLOGNFMBO_TypeDefinitionIndex = 44195;
+inline static constexpr unsigned int BPFLOGNFMBO_TypeDefinitionIndex = 45270;
 
 	class BPFLOGNFMBO
 	{

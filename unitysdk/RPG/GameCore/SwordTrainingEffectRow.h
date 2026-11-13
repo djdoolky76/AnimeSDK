@@ -5,22 +5,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define RPG_GAMECORE_SWORDTRAININGEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1BB30)
-#define RPG_GAMECORE_SWORDTRAININGEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB1B8D0)
+#define RPG_GAMECORE_SWORDTRAININGEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68B610)
+#define RPG_GAMECORE_SWORDTRAININGEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E68B3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingEffectRow_TypeDefinitionIndex = 12424;
+	inline static constexpr unsigned int SwordTrainingEffectRow_TypeDefinitionIndex = 12491;
 
 	class SwordTrainingEffectRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::Il2CppArray<::System::UInt32>* EnhanceActionList; // 0x18
+		::Il2CppArray<::System::UInt32>* EnhanceActionList; // 0x10
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
 		::RPG::GameCore::SwordTrainingEffectType EffectType; // 0x20
-		::System::UInt32 Condition; // 0x24
+		::System::UInt32 Count; // 0x24
 		::System::UInt32 ID; // 0x28
-		::System::UInt32 Count; // 0x2C
+		::System::UInt32 Condition; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGEFFECTROW_CTOR_OFFSET))(this);

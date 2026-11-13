@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define CGHMJEKOHNP_LFBOCIBEHJO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBDF9E0)
+#define CGHMJEKOHNP_LFBOCIBEHJO_CCTOR_OFFSET UNITYSDK_OFFSET(0x115F3830)
 
-inline static constexpr unsigned int CGHMJEKOHNP_LFBOCIBEHJO_TypeDefinitionIndex = 10872;
+inline static constexpr unsigned int CGHMJEKOHNP_LFBOCIBEHJO_TypeDefinitionIndex = 10888;
 
 	class CGHMJEKOHNP_LFBOCIBEHJO : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_JOMKKCOEHAJ()
 		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LFBOCIBEHJO")->GetStaticField(0x3CBD0);
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LFBOCIBEHJO")->GetStaticField(0x57790);
 		}
 
 		static ::System::Void _cctor()

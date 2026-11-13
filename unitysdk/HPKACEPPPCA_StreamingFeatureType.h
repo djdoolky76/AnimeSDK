@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HPKACEPPPCA_StreamingFeatureType_TypeDefinitionIndex = 73935;
+inline static constexpr unsigned int HPKACEPPPCA_StreamingFeatureType_TypeDefinitionIndex = 76071;
 
 	enum class HPKACEPPPCA_StreamingFeatureType : ::System::Int16
 	{

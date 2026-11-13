@@ -5,17 +5,16 @@
 class FCOEMCEDLNL;
 class OALEENCGNEC;
 
-#define OALEENCGNEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D21EC30)
-#define OALEENCGNEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D21EAB0)
+#define OALEENCGNEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F8860)
+#define OALEENCGNEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5F86E0)
 
-inline static constexpr unsigned int OALEENCGNEC_TypeDefinitionIndex = 11511;
+inline static constexpr unsigned int OALEENCGNEC_TypeDefinitionIndex = 11562;
 
 	class OALEENCGNEC : public ::System::Object
 	{
 	public:
-		::System::UInt32 LOEPLBPFMEN; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID FNBIFDIHIJH; // 0x18
+		::RPG::Client::TextID FNBIFDIHIJH; // 0x10
+		::System::UInt32 LOEPLBPFMEN; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OALEENCGNEC_CTOR_OFFSET))(this);

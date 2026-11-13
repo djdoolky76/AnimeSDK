@@ -6,12 +6,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF1010)
-#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCDF0FC0)
+#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6DE0C0)
+#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1A6DE070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_TypeDefinitionIndex = 71063;
+	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_TypeDefinitionIndex = 73044;
 
 	class EnvWindReceiverMonoPlugin
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FBPGHCAMICJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA37E30)
+#define FBPGHCAMICJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C202520)
 
-inline static constexpr unsigned int FBPGHCAMICJ_TypeDefinitionIndex = 43257;
+inline static constexpr unsigned int FBPGHCAMICJ_TypeDefinitionIndex = 44238;
 
 	class FBPGHCAMICJ : public ::System::Object
 	{

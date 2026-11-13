@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSelectSkillEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDDMEFKNGBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1598B910)
-#define GDDMEFKNGBB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1598B940)
+#define GDDMEFKNGBB_CTOR_OFFSET UNITYSDK_OFFSET(0x19ED14A0)
+#define GDDMEFKNGBB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19ED14D0)
 
-inline static constexpr unsigned int GDDMEFKNGBB_TypeDefinitionIndex = 54564;
+inline static constexpr unsigned int GDDMEFKNGBB_TypeDefinitionIndex = 55729;
 
 	class GDDMEFKNGBB
 	{

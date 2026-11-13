@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::BlindBox::Pool { class BlindBoxPoolModule; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC884290)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS18_0___REGISTERSCHEDULEWATCHER_B__0_OFFSET UNITYSDK_OFFSET(0xC885590)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5527D0)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS18_0___REGISTERSCHEDULEWATCHER_B__0_OFFSET UNITYSDK_OFFSET(0x1C553AD0)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int BlindBoxPoolModule___c__DisplayClass18_0_TypeDefinitionIndex = 74913;
+	inline static constexpr unsigned int BlindBoxPoolModule___c__DisplayClass18_0_TypeDefinitionIndex = 77240;
 
 	class BlindBoxPoolModule___c__DisplayClass18_0 : public ::System::Object
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B2F00)
-#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6B2F10)
-#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B2ED0)
+#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A6B70)
+#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F7A6B80)
+#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7A6B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSwitchPlatformConfig_TypeDefinitionIndex = 18559;
+	inline static constexpr unsigned int FiveDimSwitchPlatformConfig_TypeDefinitionIndex = 18719;
 
 	class FiveDimSwitchPlatformConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

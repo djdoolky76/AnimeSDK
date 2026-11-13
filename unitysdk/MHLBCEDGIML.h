@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckMechanismBarPhase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MHLBCEDGIML_CTOR_OFFSET UNITYSDK_OFFSET(0xB93F470)
-#define MHLBCEDGIML_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB93F4A0)
+#define MHLBCEDGIML_CTOR_OFFSET UNITYSDK_OFFSET(0x1B366550)
+#define MHLBCEDGIML_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B366580)
 
-inline static constexpr unsigned int MHLBCEDGIML_TypeDefinitionIndex = 54500;
+inline static constexpr unsigned int MHLBCEDGIML_TypeDefinitionIndex = 55665;
 
 	class MHLBCEDGIML
 	{

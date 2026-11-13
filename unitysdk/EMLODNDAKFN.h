@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnterHipplenGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EMLODNDAKFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15546AF0)
-#define EMLODNDAKFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15546B20)
+#define EMLODNDAKFN_CTOR_OFFSET UNITYSDK_OFFSET(0x187F04B0)
+#define EMLODNDAKFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187F04E0)
 
-inline static constexpr unsigned int EMLODNDAKFN_TypeDefinitionIndex = 52269;
+inline static constexpr unsigned int EMLODNDAKFN_TypeDefinitionIndex = 53375;
 
 	class EMLODNDAKFN
 	{

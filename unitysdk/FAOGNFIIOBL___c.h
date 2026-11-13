@@ -6,35 +6,35 @@ class IOIIFAENPNH;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define FAOGNFIIOBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1567D450)
-#define FAOGNFIIOBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1567D480)
-#define FAOGNFIIOBL___C___TRYADDSHOWDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x1567D4D0)
-#define FAOGNFIIOBL___C___UPDATEENTITYMODIFIERLIST_B__6_0_OFFSET UNITYSDK_OFFSET(0x1567D490)
-#define FAOGNFIIOBL___C___UPDATEENTITYMODIFIERLIST_B__6_1_OFFSET UNITYSDK_OFFSET(0x1567D4B0)
+#define FAOGNFIIOBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA35C50)
+#define FAOGNFIIOBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA35C80)
+#define FAOGNFIIOBL___C___TRYADDSHOWDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x1BA35CD0)
+#define FAOGNFIIOBL___C___UPDATEENTITYMODIFIERLIST_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BA35C90)
+#define FAOGNFIIOBL___C___UPDATEENTITYMODIFIERLIST_B__6_1_OFFSET UNITYSDK_OFFSET(0x1BA35CB0)
 
-inline static constexpr unsigned int FAOGNFIIOBL___c_TypeDefinitionIndex = 72073;
+inline static constexpr unsigned int FAOGNFIIOBL___c_TypeDefinitionIndex = 74106;
 
 	class FAOGNFIIOBL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51F70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FB40);
 		}
 
 		static ::System::Comparison_1<::EANJILGOKBE*>** StaticGet___9__6_1()
 		{
-			return (::System::Comparison_1<::EANJILGOKBE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51F78);
+			return (::System::Comparison_1<::EANJILGOKBE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FB48);
 		}
 
 		static ::System::Comparison_1<::EANJILGOKBE*>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::EANJILGOKBE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51F80);
+			return (::System::Comparison_1<::EANJILGOKBE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FB50);
 		}
 
 		static ::System::Comparison_1<::IOIIFAENPNH*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::IOIIFAENPNH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51F88);
+			return (::System::Comparison_1<::IOIIFAENPNH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FB58);
 		}
 
 		static ::System::Void _cctor()

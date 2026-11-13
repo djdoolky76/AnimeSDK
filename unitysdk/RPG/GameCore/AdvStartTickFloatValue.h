@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvFloatValueTickType; }
 namespace RPG::GameCore { class AdvStartTickFloatValue; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D385600)
-#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D385610)
-#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3855D0)
+#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E71A0)
+#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8E71B0)
+#define RPG_GAMECORE_ADVSTARTTICKFLOATVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E7170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvStartTickFloatValue_TypeDefinitionIndex = 21024;
+	inline static constexpr unsigned int AdvStartTickFloatValue_TypeDefinitionIndex = 21362;
 
 	class AdvStartTickFloatValue : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareEnhancedID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ONPMOFAHIFC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF59900)
-#define ONPMOFAHIFC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF59930)
+#define ONPMOFAHIFC_CTOR_OFFSET UNITYSDK_OFFSET(0x17D899D0)
+#define ONPMOFAHIFC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17D89A00)
 
-inline static constexpr unsigned int ONPMOFAHIFC_TypeDefinitionIndex = 54531;
+inline static constexpr unsigned int ONPMOFAHIFC_TypeDefinitionIndex = 55696;
 
 	class ONPMOFAHIFC
 	{

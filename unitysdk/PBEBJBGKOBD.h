@@ -3,10 +3,10 @@
 namespace RPG::Client { class PlanetFesClearSpinAnim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBEBJBGKOBD_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE3080)
-#define PBEBJBGKOBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFE30B0)
+#define PBEBJBGKOBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAB8D90)
+#define PBEBJBGKOBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AAB8DC0)
 
-inline static constexpr unsigned int PBEBJBGKOBD_TypeDefinitionIndex = 58259;
+inline static constexpr unsigned int PBEBJBGKOBD_TypeDefinitionIndex = 59515;
 
 	class PBEBJBGKOBD
 	{

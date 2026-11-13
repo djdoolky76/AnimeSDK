@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GJIGHKNMILJ_TypeDefinitionIndex = 31604;
+inline static constexpr unsigned int GJIGHKNMILJ_TypeDefinitionIndex = 32517;
 
 	enum class GJIGHKNMILJ : ::System::Int32
 	{

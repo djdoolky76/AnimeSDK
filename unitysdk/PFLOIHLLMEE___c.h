@@ -4,18 +4,18 @@
 class PFLOIHLLMEE;
 namespace System { class Object; }
 
-#define PFLOIHLLMEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF99B0)
-#define PFLOIHLLMEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF99E0)
-#define PFLOIHLLMEE___C___CCTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x1DEF99F0)
+#define PFLOIHLLMEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2067B1B0)
+#define PFLOIHLLMEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2067B1E0)
+#define PFLOIHLLMEE___C___CCTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x2067B1F0)
 
-inline static constexpr unsigned int PFLOIHLLMEE___c_TypeDefinitionIndex = 33629;
+inline static constexpr unsigned int PFLOIHLLMEE___c_TypeDefinitionIndex = 34544;
 
 	class PFLOIHLLMEE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31D60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36760);
 		}
 
 		static ::System::Void _cctor()

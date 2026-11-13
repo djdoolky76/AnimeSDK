@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OANCJPLFJJD_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D21FC50)
+#define OANCJPLFJJD_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1E5F9880)
 
-inline static constexpr unsigned int OANCJPLFJJD_TypeDefinitionIndex = 10707;
+inline static constexpr unsigned int OANCJPLFJJD_TypeDefinitionIndex = 10723;
 
 	class OANCJPLFJJD : public ::System::Object
 	{

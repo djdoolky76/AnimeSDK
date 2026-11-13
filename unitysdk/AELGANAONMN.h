@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AELGANAONMN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CC84B20)
-#define AELGANAONMN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC850A0)
-#define AELGANAONMN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CC84C90)
-#define AELGANAONMN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CC845D0)
-#define AELGANAONMN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CC84860)
-#define AELGANAONMN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CC84D30)
-#define AELGANAONMN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CC84D80)
-#define AELGANAONMN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CC84B60)
-#define AELGANAONMN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CC84800)
-#define AELGANAONMN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CC849D0)
-#define AELGANAONMN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CC84BF0)
-#define AELGANAONMN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CC84550)
+#define AELGANAONMN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E023750)
+#define AELGANAONMN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E023CD0)
+#define AELGANAONMN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E0238C0)
+#define AELGANAONMN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E023200)
+#define AELGANAONMN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E023490)
+#define AELGANAONMN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E023960)
+#define AELGANAONMN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E0239B0)
+#define AELGANAONMN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E023790)
+#define AELGANAONMN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E023430)
+#define AELGANAONMN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E023600)
+#define AELGANAONMN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E023820)
+#define AELGANAONMN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E023180)
 
-inline static constexpr unsigned int AELGANAONMN_TypeDefinitionIndex = 12904;
+inline static constexpr unsigned int AELGANAONMN_TypeDefinitionIndex = 12976;
 
 	class AELGANAONMN : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BookSeriesWorldConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BookSeriesWorldConfigRow*>**)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0x33DB0);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0x3E2D0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0x33DB8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0x3E2D8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BookSeriesWorldConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BookSeriesWorldConfigRow*>**)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0x3E2E0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0x33DC0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0xEAC0);
+			return (::System::Byte*)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0xA0D0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0xEAC1);
+			return (::System::Boolean*)UnitySDK::FromName("", "AELGANAONMN")->GetStaticField(0xA0D1);
 		}
 
 		static ::System::Void _cctor()

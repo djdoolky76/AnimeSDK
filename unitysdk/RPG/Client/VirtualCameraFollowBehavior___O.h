@@ -5,14 +5,14 @@ namespace RPG::CustomRP { class CRPVirtualCameraVolumn_PostUpdateVCCamera; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCameraFollowBehavior___O_TypeDefinitionIndex = 70347;
+	inline static constexpr unsigned int VirtualCameraFollowBehavior___O_TypeDefinitionIndex = 72313;
 
 	class VirtualCameraFollowBehavior___O : public ::System::Object
 	{
 	public:
 		static ::RPG::CustomRP::CRPVirtualCameraVolumn_PostUpdateVCCamera** StaticGet__0___PostUpdateVcCamera()
 		{
-			return (::RPG::CustomRP::CRPVirtualCameraVolumn_PostUpdateVCCamera**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x3E710);
+			return (::RPG::CustomRP::CRPVirtualCameraVolumn_PostUpdateVCCamera**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x5C280);
 		}
 
 	};

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Xml::Schema { class ContentValidator; }
 
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE7B5B0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE7B570)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7B560)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1EE7B580)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0x1EE7B590)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D20E070)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D20E030)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D20E020)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1D20E040)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0x1D20E050)
 
 namespace System::Xml::Schema
 {
@@ -23,22 +23,22 @@ namespace System::Xml::Schema
 		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x14
 		static ::System::Xml::Schema::ContentValidator** StaticGet_Mixed()
 		{
-			return (::System::Xml::Schema::ContentValidator**)UnitySDK::FromName("System.Xml.Schema", "ContentValidator")->GetStaticField(0x2C7B0);
+			return (::System::Xml::Schema::ContentValidator**)UnitySDK::FromName("System.Xml.Schema", "ContentValidator")->GetStaticField(0x1B5A0);
 		}
 
 		static ::System::Xml::Schema::ContentValidator** StaticGet_TextOnly()
 		{
-			return (::System::Xml::Schema::ContentValidator**)UnitySDK::FromName("System.Xml.Schema", "ContentValidator")->GetStaticField(0x2C7B8);
+			return (::System::Xml::Schema::ContentValidator**)UnitySDK::FromName("System.Xml.Schema", "ContentValidator")->GetStaticField(0x1B5A8);
 		}
 
 		static ::System::Xml::Schema::ContentValidator** StaticGet_Any()
 		{
-			return (::System::Xml::Schema::ContentValidator**)UnitySDK::FromName("System.Xml.Schema", "ContentValidator")->GetStaticField(0x2C7C0);
+			return (::System::Xml::Schema::ContentValidator**)UnitySDK::FromName("System.Xml.Schema", "ContentValidator")->GetStaticField(0x1B5B0);
 		}
 
 		static ::System::Xml::Schema::ContentValidator** StaticGet_Empty()
 		{
-			return (::System::Xml::Schema::ContentValidator**)UnitySDK::FromName("System.Xml.Schema", "ContentValidator")->GetStaticField(0x2C7C8);
+			return (::System::Xml::Schema::ContentValidator**)UnitySDK::FromName("System.Xml.Schema", "ContentValidator")->GetStaticField(0x1B5B8);
 		}
 
 		::System::Void _ctor(::System::Xml::Schema::XmlSchemaContentType a1)

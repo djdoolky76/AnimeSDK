@@ -4,31 +4,31 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_TOAST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFB8910)
-#define MIHOYO_SDK_TOAST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB8950)
-#define MIHOYO_SDK_TOAST___C__SHOWPLUGINUI_B__7_0_OFFSET UNITYSDK_OFFSET(0x1BFB8960)
-#define MIHOYO_SDK_TOAST___C__SHOW_B__8_1_OFFSET UNITYSDK_OFFSET(0x1BFB8A00)
+#define MIHOYO_SDK_TOAST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D04D630)
+#define MIHOYO_SDK_TOAST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04D670)
+#define MIHOYO_SDK_TOAST___C__SHOWPLUGINUI_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D04D680)
+#define MIHOYO_SDK_TOAST___C__SHOW_B__8_1_OFFSET UNITYSDK_OFFSET(0x1D04D720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Toast___c_TypeDefinitionIndex = 8229;
+	inline static constexpr unsigned int Toast___c_TypeDefinitionIndex = 8238;
 
 	class Toast___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C8A0);
+		}
+
 		static ::System::Action** StaticGet___9__7_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2A9E0);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C8A8);
 		}
 
 		static ::System::Action** StaticGet___9__8_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2A9E8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2A9F0);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C8B0);
 		}
 
 		static ::System::Void _cctor()

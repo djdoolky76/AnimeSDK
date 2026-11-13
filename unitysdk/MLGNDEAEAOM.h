@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define MLGNDEAEAOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A7FA0)
+#define MLGNDEAEAOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B91D640)
 
-inline static constexpr unsigned int MLGNDEAEAOM_TypeDefinitionIndex = 52060;
+inline static constexpr unsigned int MLGNDEAEAOM_TypeDefinitionIndex = 53165;
 
 	class MLGNDEAEAOM : public ::System::Attribute
 	{

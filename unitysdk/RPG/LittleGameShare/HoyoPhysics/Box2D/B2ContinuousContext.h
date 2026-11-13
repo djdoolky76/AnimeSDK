@@ -10,7 +10,7 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContinuousContext_TypeDefinitionIndex = 36635;
+	inline static constexpr unsigned int B2ContinuousContext_TypeDefinitionIndex = 37563;
 
 	struct alignas(8) B2ContinuousContext
 	{

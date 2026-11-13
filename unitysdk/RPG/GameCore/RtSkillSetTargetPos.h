@@ -9,13 +9,13 @@ namespace RPG::GameCore { class RtSkillSetTargetPos; }
 namespace RPG::GameCore { class RtTargetFormationPosConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RTSKILLSETTARGETPOS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA370E0)
-#define RPG_GAMECORE_RTSKILLSETTARGETPOS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA370F0)
-#define RPG_GAMECORE_RTSKILLSETTARGETPOS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA370A0)
+#define RPG_GAMECORE_RTSKILLSETTARGETPOS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7C410)
+#define RPG_GAMECORE_RTSKILLSETTARGETPOS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC7C420)
+#define RPG_GAMECORE_RTSKILLSETTARGETPOS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC7C3D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillSetTargetPos_TypeDefinitionIndex = 24226;
+	inline static constexpr unsigned int RtSkillSetTargetPos_TypeDefinitionIndex = 24685;
 
 	class RtSkillSetTargetPos : public ::RPG::GameCore::TaskConfig
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DEIPIMGMGPO_TypeDefinitionIndex = 64904;
+inline static constexpr unsigned int DEIPIMGMGPO_TypeDefinitionIndex = 66469;
 
 	class DEIPIMGMGPO
 	{

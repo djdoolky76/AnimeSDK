@@ -5,7 +5,7 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int AsyncUniTaskMethodBuilder_1_TypeDefinitionIndex = 38703;
+	inline static constexpr unsigned int AsyncUniTaskMethodBuilder_1_TypeDefinitionIndex = 39632;
 
 	template <typename T>
 	struct alignas(8) AsyncUniTaskMethodBuilder_1

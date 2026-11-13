@@ -5,24 +5,24 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfTakeOutTakeOrder; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HEJOBJLPCNL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4A5C0)
-#define HEJOBJLPCNL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C4ACF0)
-#define HEJOBJLPCNL_KPBODLMCDMI_OFFSET UNITYSDK_OFFSET(0x15C4AB80)
-#define HEJOBJLPCNL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C4A5F0)
-#define HEJOBJLPCNL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C4A840)
-#define HEJOBJLPCNL_TICK_OFFSET UNITYSDK_OFFSET(0x15C4A890)
+#define HEJOBJLPCNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2013E0)
+#define HEJOBJLPCNL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A201B10)
+#define HEJOBJLPCNL_KPBODLMCDMI_OFFSET UNITYSDK_OFFSET(0x1A2019A0)
+#define HEJOBJLPCNL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A201410)
+#define HEJOBJLPCNL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A201660)
+#define HEJOBJLPCNL_TICK_OFFSET UNITYSDK_OFFSET(0x1A2016B0)
 
-inline static constexpr unsigned int HEJOBJLPCNL_TypeDefinitionIndex = 52165;
+inline static constexpr unsigned int HEJOBJLPCNL_TypeDefinitionIndex = 53270;
 
 	class HEJOBJLPCNL
 	{
 	public:
-		::RPG::Client::LittleGame::ElfRestaurantGameEntity* HOPJIONMGFC; // 0x28
-		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
-		::System::Single FKHKAMDOPBE; // 0x38
-		::System::Boolean HJBDGPIFELM; // 0x3C
+		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* HOPJIONMGFC; // 0x30
+		::System::Boolean HJBDGPIFELM; // 0x38
 		::System::Byte _padding0[0x3];
-		::System::Single PGMIOKKLHIE; // 0x40
+		::System::Single PGMIOKKLHIE; // 0x3C
+		::System::Single FKHKAMDOPBE; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfTakeOutTakeOrder* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_ElfTakeOutTakeOrder*))((::PBYTE)hIl2Cpp + HEJOBJLPCNL_CTOR_OFFSET))(this, a1, a2);

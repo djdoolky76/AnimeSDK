@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MoveTeam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFIFKPOLDLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1663A7D0)
-#define JFIFKPOLDLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1663A800)
+#define JFIFKPOLDLG_CTOR_OFFSET UNITYSDK_OFFSET(0x19330E10)
+#define JFIFKPOLDLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19330E40)
 
-inline static constexpr unsigned int JFIFKPOLDLG_TypeDefinitionIndex = 55227;
+inline static constexpr unsigned int JFIFKPOLDLG_TypeDefinitionIndex = 56408;
 
 	class JFIFKPOLDLG
 	{

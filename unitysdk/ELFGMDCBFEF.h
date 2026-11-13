@@ -4,24 +4,24 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ELFGMDCBFEF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15513B90)
-#define ELFGMDCBFEF_CGCPPMMNFDI_OFFSET UNITYSDK_OFFSET(0x155135C0)
-#define ELFGMDCBFEF_CTOR_OFFSET UNITYSDK_OFFSET(0x15513AE0)
-#define ELFGMDCBFEF_HOCIDNHMGNK_OFFSET UNITYSDK_OFFSET(0x155138D0)
-#define ELFGMDCBFEF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15513560)
+#define ELFGMDCBFEF_CCTOR_OFFSET UNITYSDK_OFFSET(0x199A91F0)
+#define ELFGMDCBFEF_CGCPPMMNFDI_OFFSET UNITYSDK_OFFSET(0x199A8C20)
+#define ELFGMDCBFEF_CTOR_OFFSET UNITYSDK_OFFSET(0x199A9140)
+#define ELFGMDCBFEF_HOCIDNHMGNK_OFFSET UNITYSDK_OFFSET(0x199A8F30)
+#define ELFGMDCBFEF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x199A8BC0)
 
-inline static constexpr unsigned int ELFGMDCBFEF_TypeDefinitionIndex = 47158;
+inline static constexpr unsigned int ELFGMDCBFEF_TypeDefinitionIndex = 48186;
 
 	class ELFGMDCBFEF : public ::System::Object
 	{
 	public:
-		::System::Object* DCOPELFHOLO; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* PPLBOGOCJGO; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* FHBGOMGAIMO; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* FHBGOMGAIMO; // 0x10
+		::System::Object* DCOPELFHOLO; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* PPLBOGOCJGO; // 0x20
 		::System::Int32 HDHPNOOMAGE; // 0x28
 		static ::System::Int32* StaticGet_NEAJAFLCGCP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "ELFGMDCBFEF")->GetStaticField(0xB920);
+			return (::System::Int32*)UnitySDK::FromName("", "ELFGMDCBFEF")->GetStaticField(0x7020);
 		}
 
 		::System::Void _ctor()

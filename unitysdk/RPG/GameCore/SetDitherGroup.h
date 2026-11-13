@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetDitherGroup; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDITHERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA71480)
-#define RPG_GAMECORE_SETDITHERGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA71490)
-#define RPG_GAMECORE_SETDITHERGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA71450)
+#define RPG_GAMECORE_SETDITHERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F862DD0)
+#define RPG_GAMECORE_SETDITHERGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F862DE0)
+#define RPG_GAMECORE_SETDITHERGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F862DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDitherGroup_TypeDefinitionIndex = 22911;
+	inline static constexpr unsigned int SetDitherGroup_TypeDefinitionIndex = 23337;
 
 	class SetDitherGroup : public ::RPG::GameCore::TaskConfig
 	{

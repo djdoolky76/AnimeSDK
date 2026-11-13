@@ -6,10 +6,10 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class LittleGameBaseEventAction; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define GJBCDOPBIFG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA81960)
-#define GJBCDOPBIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA81A20)
+#define GJBCDOPBIFG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DA87A30)
+#define GJBCDOPBIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA87AF0)
 
-inline static constexpr unsigned int GJBCDOPBIFG_TypeDefinitionIndex = 43412;
+inline static constexpr unsigned int GJBCDOPBIFG_TypeDefinitionIndex = 44393;
 
 	class GJBCDOPBIFG : public ::System::Object
 	{
@@ -17,9 +17,9 @@ inline static constexpr unsigned int GJBCDOPBIFG_TypeDefinitionIndex = 43412;
 		::UnityEngine::AnimationCurve* FDBFGGMDJBM; // 0x10
 		::RPG::PoolList_1<::RPG::GameCore::LittleGameBaseEventAction*>* GKMGEAJGIKN; // 0x18
 		::UnityEngine::Vector3 IJHDBLGLCMN; // 0x20
-		::System::Single OIKGNPCGODF; // 0x2C
+		::System::Single IEHPFADHJFD; // 0x2C
 		::UnityEngine::Vector3 DLKMKNFJLIK; // 0x30
-		::System::Single IEHPFADHJFD; // 0x3C
+		::System::Single OIKGNPCGODF; // 0x3C
 		::System::Single IFEPJHGNCOI; // 0x40
 		::System::Void _ctor()
 		{

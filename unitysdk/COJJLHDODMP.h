@@ -4,9 +4,9 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class IGridFightTraitEffect; }
 
-#define COJJLHDODMP_KPKLEJFGPHO_OFFSET UNITYSDK_OFFSET(0xDCB1770)
+#define COJJLHDODMP_KPKLEJFGPHO_OFFSET UNITYSDK_OFFSET(0x19162760)
 
-inline static constexpr unsigned int COJJLHDODMP_TypeDefinitionIndex = 65456;
+inline static constexpr unsigned int COJJLHDODMP_TypeDefinitionIndex = 67352;
 
 	class COJJLHDODMP : public ::System::Object
 	{

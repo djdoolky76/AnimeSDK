@@ -3,10 +3,10 @@
 class MPMBKGMHKGO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OPBOLBNBHBK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF99410)
-#define OPBOLBNBHBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF99440)
+#define OPBOLBNBHBK_CTOR_OFFSET UNITYSDK_OFFSET(0x196C1000)
+#define OPBOLBNBHBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x196C1030)
 
-inline static constexpr unsigned int OPBOLBNBHBK_TypeDefinitionIndex = 58632;
+inline static constexpr unsigned int OPBOLBNBHBK_TypeDefinitionIndex = 59899;
 
 	class OPBOLBNBHBK
 	{

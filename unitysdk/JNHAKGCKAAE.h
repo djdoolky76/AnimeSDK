@@ -6,20 +6,20 @@ class JNHAKGCKAAE;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define JNHAKGCKAAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D023D10)
-#define JNHAKGCKAAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D023D20)
-#define JNHAKGCKAAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D023CE0)
+#define JNHAKGCKAAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5CBB60)
+#define JNHAKGCKAAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5CBB70)
+#define JNHAKGCKAAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5CBB30)
 
-inline static constexpr unsigned int JNHAKGCKAAE_TypeDefinitionIndex = 21291;
+inline static constexpr unsigned int JNHAKGCKAAE_TypeDefinitionIndex = 21634;
 
 	class JNHAKGCKAAE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* NCMKOFAAAOI; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* LEGADFBLDKA; // 0x20
-		::RPG::GameCore::DynamicString* PEEJFDAFPBJ; // 0x28
-		::System::Boolean PJOKHJGPJCM; // 0x30
-		::System::Boolean IIACEHCDKNN; // 0x31
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* LEGADFBLDKA; // 0x18
+		::RPG::GameCore::DynamicString* PEEJFDAFPBJ; // 0x20
+		::RPG::GameCore::DynamicString* NCMKOFAAAOI; // 0x28
+		::System::Boolean IIACEHCDKNN; // 0x30
+		::System::Boolean PJOKHJGPJCM; // 0x31
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JNHAKGCKAAE_CTOR_OFFSET))(this);

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-inline static constexpr unsigned int MAIGDLAGBLF_TypeDefinitionIndex = 73735;
+inline static constexpr unsigned int MAIGDLAGBLF_TypeDefinitionIndex = 75858;
 
 	struct alignas(4) MAIGDLAGBLF
 	{

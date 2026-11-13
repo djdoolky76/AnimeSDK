@@ -4,18 +4,18 @@
 class AMDJAFAHKEL;
 namespace System { class Object; }
 
-#define AMDJAFAHKEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4ECDD0)
-#define AMDJAFAHKEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4ECE10)
-#define AMDJAFAHKEL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E4ECE20)
+#define AMDJAFAHKEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20027060)
+#define AMDJAFAHKEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200270A0)
+#define AMDJAFAHKEL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x200270B0)
 
-inline static constexpr unsigned int AMDJAFAHKEL___c_TypeDefinitionIndex = 28547;
+inline static constexpr unsigned int AMDJAFAHKEL___c_TypeDefinitionIndex = 29137;
 
 	class AMDJAFAHKEL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44780);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39420);
 		}
 
 		static ::System::Void _cctor()

@@ -17,33 +17,33 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EGFMHEDPFOC_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x14514960)
-#define EGFMHEDPFOC_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x14514A30)
-#define EGFMHEDPFOC_CTOR_OFFSET UNITYSDK_OFFSET(0x14514AD0)
-#define EGFMHEDPFOC_DMAFBAONBII_OFFSET UNITYSDK_OFFSET(0x145141F0)
-#define EGFMHEDPFOC_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x14513FF0)
-#define EGFMHEDPFOC_HBKKEDNCBOE_OFFSET UNITYSDK_OFFSET(0x14514870)
-#define EGFMHEDPFOC_HNDGOJLMBFA_OFFSET UNITYSDK_OFFSET(0x14514500)
-#define EGFMHEDPFOC_IHLINKNMKMM_OFFSET UNITYSDK_OFFSET(0x14514470)
-#define EGFMHEDPFOC_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x145137F0)
-#define EGFMHEDPFOC_OBCBFAJALEG_OFFSET UNITYSDK_OFFSET(0x14514680)
-#define EGFMHEDPFOC_OPPGCKPOFKJ_OFFSET UNITYSDK_OFFSET(0x14514070)
-#define EGFMHEDPFOC_PBKHADFHMJK_OFFSET UNITYSDK_OFFSET(0x145142D0)
-#define EGFMHEDPFOC_PGFLAMALOPG_OFFSET UNITYSDK_OFFSET(0x14514380)
-#define EGFMHEDPFOC__ONBIND_OFFSET UNITYSDK_OFFSET(0x145137B0)
-#define EGFMHEDPFOC__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x14514030)
+#define EGFMHEDPFOC_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x17C0FFD0)
+#define EGFMHEDPFOC_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x17C100A0)
+#define EGFMHEDPFOC_CTOR_OFFSET UNITYSDK_OFFSET(0x17C10140)
+#define EGFMHEDPFOC_DMAFBAONBII_OFFSET UNITYSDK_OFFSET(0x17C0F860)
+#define EGFMHEDPFOC_HBKKEDNCBOE_OFFSET UNITYSDK_OFFSET(0x17C0FEE0)
+#define EGFMHEDPFOC_HNDGOJLMBFA_OFFSET UNITYSDK_OFFSET(0x17C0FB70)
+#define EGFMHEDPFOC_IHLINKNMKMM_OFFSET UNITYSDK_OFFSET(0x17C0FAE0)
+#define EGFMHEDPFOC_OBCBFAJALEG_OFFSET UNITYSDK_OFFSET(0x17C0FCF0)
+#define EGFMHEDPFOC_OPPGCKPOFKJ_OFFSET UNITYSDK_OFFSET(0x17C0F670)
+#define EGFMHEDPFOC_PBKHADFHMJK_OFFSET UNITYSDK_OFFSET(0x17C0F940)
+#define EGFMHEDPFOC_PGFLAMALOPG_OFFSET UNITYSDK_OFFSET(0x17C0F9F0)
+#define EGFMHEDPFOC__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x17C0EDF0)
+#define EGFMHEDPFOC__ONBIND_OFFSET UNITYSDK_OFFSET(0x17C0EDB0)
+#define EGFMHEDPFOC__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x17C0F630)
+#define EGFMHEDPFOC__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x17C0F5F0)
 
-inline static constexpr unsigned int EGFMHEDPFOC_TypeDefinitionIndex = 71595;
+inline static constexpr unsigned int EGFMHEDPFOC_TypeDefinitionIndex = 73583;
 
 	class EGFMHEDPFOC : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::DamageTextStyle*>* GNKGANNNMGI; // 0x60
-		::DamageTextStyle* MEEBEGPKBBM; // 0x68
-		::DamageTextStyle* LDCIMODGNCN; // 0x70
-		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::RPG::Client::TextID>*>* LADHCMMDAOA; // 0x78
-		::DamageTextStyle* PCHICPLDDIB; // 0x80
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::DamageTextStyle*>* BHNHLHHOKLJ; // 0x88
+		::DamageTextStyle* MEEBEGPKBBM; // 0x60
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::RPG::Client::TextID>*>* LADHCMMDAOA; // 0x68
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::DamageTextStyle*>* BHNHLHHOKLJ; // 0x70
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::DamageTextStyle*>* GNKGANNNMGI; // 0x78
+		::DamageTextStyle* LDCIMODGNCN; // 0x80
+		::DamageTextStyle* PCHICPLDDIB; // 0x88
 		::RPG::Client::UIFloatingTextType OJPMJFFIGCP; // 0x90
 		::System::Void _ctor()
 		{
@@ -55,14 +55,14 @@ inline static constexpr unsigned int EGFMHEDPFOC_TypeDefinitionIndex = 71595;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGFMHEDPFOC__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGFMHEDPFOC_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGFMHEDPFOC__INITVARONCE_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGFMHEDPFOC_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGFMHEDPFOC__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void _OnDispose()

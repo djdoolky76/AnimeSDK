@@ -4,33 +4,33 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class TeamDataRefreshParam; }
 
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM_ADDMASK_OFFSET UNITYSDK_OFFSET(0xE1C5B20)
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1C5B70)
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CHECKMASK_OFFSET UNITYSDK_OFFSET(0xE1C5AD0)
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xE1C5A60)
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C5AC0)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM_ADDMASK_OFFSET UNITYSDK_OFFSET(0x1ACC7210)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ACC7260)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CHECKMASK_OFFSET UNITYSDK_OFFSET(0x1ACC71C0)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x1ACC7150)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1ACC71B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamDataRefreshParam_TypeDefinitionIndex = 68116;
+	inline static constexpr unsigned int TeamDataRefreshParam_TypeDefinitionIndex = 70062;
 
 	class TeamDataRefreshParam : public ::System::Object
 	{
 	public:
 		::RPG::Client::TeamDataRefreshMask Mask; // 0x10
-		static ::RPG::Client::TeamDataRefreshParam** StaticGet_Default()
+		static ::RPG::Client::TeamDataRefreshParam** StaticGet_Full()
 		{
-			return (::RPG::Client::TeamDataRefreshParam**)UnitySDK::FromName("RPG.Client", "TeamDataRefreshParam")->GetStaticField(0x10A80);
+			return (::RPG::Client::TeamDataRefreshParam**)UnitySDK::FromName("RPG.Client", "TeamDataRefreshParam")->GetStaticField(0x191B0);
 		}
 
 		static ::RPG::Client::TeamDataRefreshParam** StaticGet_MemberList()
 		{
-			return (::RPG::Client::TeamDataRefreshParam**)UnitySDK::FromName("RPG.Client", "TeamDataRefreshParam")->GetStaticField(0x10A88);
+			return (::RPG::Client::TeamDataRefreshParam**)UnitySDK::FromName("RPG.Client", "TeamDataRefreshParam")->GetStaticField(0x191B8);
 		}
 
-		static ::RPG::Client::TeamDataRefreshParam** StaticGet_Full()
+		static ::RPG::Client::TeamDataRefreshParam** StaticGet_Default()
 		{
-			return (::RPG::Client::TeamDataRefreshParam**)UnitySDK::FromName("RPG.Client", "TeamDataRefreshParam")->GetStaticField(0x10A90);
+			return (::RPG::Client::TeamDataRefreshParam**)UnitySDK::FromName("RPG.Client", "TeamDataRefreshParam")->GetStaticField(0x191C0);
 		}
 
 		::System::Void _ctor()

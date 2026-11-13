@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FoundationAndBallBind; }
 namespace RPG::GameCore { class FoundationPropStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOUNDATIONANDBALLBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BEA10)
-#define RPG_GAMECORE_FOUNDATIONANDBALLBIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BE6F0)
+#define RPG_GAMECORE_FOUNDATIONANDBALLBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B27B0)
+#define RPG_GAMECORE_FOUNDATIONANDBALLBIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B2540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FoundationAndBallBind_TypeDefinitionIndex = 17575;
+	inline static constexpr unsigned int FoundationAndBallBind_TypeDefinitionIndex = 17743;
 
 	class FoundationAndBallBind : public ::RPG::GameCore::JsonConfig
 	{

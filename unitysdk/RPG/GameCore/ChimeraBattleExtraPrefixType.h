@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleExtraPrefixType_TypeDefinitionIndex = 15830;
+	inline static constexpr unsigned int ChimeraBattleExtraPrefixType_TypeDefinitionIndex = 15988;
 
 	enum class ChimeraBattleExtraPrefixType : ::System::Int32
 	{

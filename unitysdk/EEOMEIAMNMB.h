@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EEOMEIAMNMB_TypeDefinitionIndex = 27258;
+inline static constexpr unsigned int EEOMEIAMNMB_TypeDefinitionIndex = 27789;
 
 	enum class EEOMEIAMNMB : ::System::Int32
 	{

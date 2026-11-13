@@ -7,23 +7,23 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenMiniGameManager; }
 namespace RPG::GameCore { class HipplenGameWaitEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define APNHLNMDIIE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB31B0)
-#define APNHLNMDIIE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BB34C0)
-#define APNHLNMDIIE_ILEMLGEGLCC_OFFSET UNITYSDK_OFFSET(0x15BB3610)
-#define APNHLNMDIIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BB31C0)
-#define APNHLNMDIIE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15BB3470)
-#define APNHLNMDIIE_TICK_OFFSET UNITYSDK_OFFSET(0x15BB33C0)
+#define APNHLNMDIIE_CTOR_OFFSET UNITYSDK_OFFSET(0x18518DC0)
+#define APNHLNMDIIE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18519120)
+#define APNHLNMDIIE_ILEMLGEGLCC_OFFSET UNITYSDK_OFFSET(0x18519270)
+#define APNHLNMDIIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18518DD0)
+#define APNHLNMDIIE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x185190D0)
+#define APNHLNMDIIE_TICK_OFFSET UNITYSDK_OFFSET(0x18518FD0)
 
-inline static constexpr unsigned int APNHLNMDIIE_TypeDefinitionIndex = 52276;
+inline static constexpr unsigned int APNHLNMDIIE_TypeDefinitionIndex = 53382;
 
 	class APNHLNMDIIE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::HipplenGameWaitEvent* OFKGLJOAMLD; // 0x18
-		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager* CDPFMOHMFPO; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::KDJNAAOFMMJ* HEAGLNNMMNJ; // 0x30
-		::APNHLNMDIIE_HNBIIAGFOHF* OOEABHBKAKC; // 0x38
+		::APNHLNMDIIE_HNBIIAGFOHF* OOEABHBKAKC; // 0x18
+		::KDJNAAOFMMJ* HEAGLNNMMNJ; // 0x20
+		::RPG::GameCore::HipplenGameWaitEvent* OFKGLJOAMLD; // 0x28
+		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager* CDPFMOHMFPO; // 0x30
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HipplenGameWaitEvent* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::HipplenGameWaitEvent*))((::PBYTE)hIl2Cpp + APNHLNMDIIE_CTOR_OFFSET))(this, a1, a2);

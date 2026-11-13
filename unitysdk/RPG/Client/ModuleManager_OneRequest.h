@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_MODULEMANAGER_ONEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0xD722860)
+#define RPG_CLIENT_MODULEMANAGER_ONEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x19874740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModuleManager_OneRequest_TypeDefinitionIndex = 66211;
+	inline static constexpr unsigned int ModuleManager_OneRequest_TypeDefinitionIndex = 68147;
 
 	class ModuleManager_OneRequest : public ::System::Object
 	{

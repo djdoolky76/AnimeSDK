@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvCharacterLerpAnimRunPoseParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GHFPIJILGGE_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0F8C0)
-#define GHFPIJILGGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A0F8F0)
+#define GHFPIJILGGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B8FD0)
+#define GHFPIJILGGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4B9000)
 
-inline static constexpr unsigned int GHFPIJILGGE_TypeDefinitionIndex = 52338;
+inline static constexpr unsigned int GHFPIJILGGE_TypeDefinitionIndex = 53444;
 
 	class GHFPIJILGGE
 	{

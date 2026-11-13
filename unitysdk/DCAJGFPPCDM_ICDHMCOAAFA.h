@@ -5,19 +5,19 @@
 class HEKHCLACHJE;
 namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
 
-#define DCAJGFPPCDM_ICDHMCOAAFA_CTOR_OFFSET UNITYSDK_OFFSET(0xE2310F0)
-#define DCAJGFPPCDM_ICDHMCOAAFA_GET_REACHEDTARGETS_OFFSET UNITYSDK_OFFSET(0xE2310D0)
-#define DCAJGFPPCDM_ICDHMCOAAFA_GET_VALUES_OFFSET UNITYSDK_OFFSET(0xE2310B0)
-#define DCAJGFPPCDM_ICDHMCOAAFA_SET_REACHEDTARGETS_OFFSET UNITYSDK_OFFSET(0xE2310E0)
-#define DCAJGFPPCDM_ICDHMCOAAFA_SET_VALUES_OFFSET UNITYSDK_OFFSET(0xE2310C0)
+#define DCAJGFPPCDM_ICDHMCOAAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B14BE30)
+#define DCAJGFPPCDM_ICDHMCOAAFA_GET_REACHEDTARGETS_OFFSET UNITYSDK_OFFSET(0x1B15CD70)
+#define DCAJGFPPCDM_ICDHMCOAAFA_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x1B15CD50)
+#define DCAJGFPPCDM_ICDHMCOAAFA_SET_REACHEDTARGETS_OFFSET UNITYSDK_OFFSET(0x1B15CD80)
+#define DCAJGFPPCDM_ICDHMCOAAFA_SET_VALUES_OFFSET UNITYSDK_OFFSET(0x1B15CD60)
 
-inline static constexpr unsigned int DCAJGFPPCDM_ICDHMCOAAFA_TypeDefinitionIndex = 79799;
+inline static constexpr unsigned int DCAJGFPPCDM_ICDHMCOAAFA_TypeDefinitionIndex = 82576;
 
 	class DCAJGFPPCDM_ICDHMCOAAFA : public ::System::Object
 	{
 	public:
-		::HEKHCLACHJE* _Values_k__BackingField; // 0x10
-		::System::Collections::Immutable::IImmutableSet_1<::RPG::Client::MechCraft::MechCraftAttributeType>* _ReachedTargets_k__BackingField; // 0x18
+		::System::Collections::Immutable::IImmutableSet_1<::RPG::Client::MechCraft::MechCraftAttributeType>* _ReachedTargets_k__BackingField; // 0x10
+		::HEKHCLACHJE* _Values_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DCAJGFPPCDM_ICDHMCOAAFA_CTOR_OFFSET))(this);

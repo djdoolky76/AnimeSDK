@@ -4,43 +4,43 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/DateTimePro.h"
 
-#define RPG_CLIENT_TIMEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC1E6B0)
-#define RPG_CLIENT_TIMEUTILS_GET_CLIENTNOWMSTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1EC1E220)
-#define RPG_CLIENT_TIMEUTILS_GET_CLIENTNOWTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1EC1E2C0)
-#define RPG_CLIENT_TIMEUTILS_GET_NETRTTMSTIME_OFFSET UNITYSDK_OFFSET(0x1EC1E3D0)
-#define RPG_CLIENT_TIMEUTILS_GET_NETSIGNALSTRENGTH_OFFSET UNITYSDK_OFFSET(0x1EC1E450)
-#define RPG_CLIENT_TIMEUTILS_GET_SERVERTIMEZONE_OFFSET UNITYSDK_OFFSET(0x1EC1E600)
-#define RPG_CLIENT_TIMEUTILS_SET_NETRTTMSTIME_OFFSET UNITYSDK_OFFSET(0x1EC1E410)
-#define RPG_CLIENT_TIMEUTILS_SET_SERVERTIMEZONE_OFFSET UNITYSDK_OFFSET(0x1EC1E640)
-#define RPG_CLIENT_TIMEUTILS_TIMESTAMPINSECONDSTODATETIME_1_OFFSET UNITYSDK_OFFSET(0x1EC1E540)
-#define RPG_CLIENT_TIMEUTILS_TIMESTAMPINSECONDSTODATETIME_2_OFFSET UNITYSDK_OFFSET(0x1EC1E5A0)
-#define RPG_CLIENT_TIMEUTILS_TIMESTAMPINSECONDSTODATETIME_OFFSET UNITYSDK_OFFSET(0x1EC1E4E0)
+#define RPG_CLIENT_TIMEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x2079BDE0)
+#define RPG_CLIENT_TIMEUTILS_GET_CLIENTNOWMSTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x2079B950)
+#define RPG_CLIENT_TIMEUTILS_GET_CLIENTNOWTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x2079B9F0)
+#define RPG_CLIENT_TIMEUTILS_GET_NETRTTMSTIME_OFFSET UNITYSDK_OFFSET(0x2079BB00)
+#define RPG_CLIENT_TIMEUTILS_GET_NETSIGNALSTRENGTH_OFFSET UNITYSDK_OFFSET(0x2079BB80)
+#define RPG_CLIENT_TIMEUTILS_GET_SERVERTIMEZONE_OFFSET UNITYSDK_OFFSET(0x2079BD30)
+#define RPG_CLIENT_TIMEUTILS_SET_NETRTTMSTIME_OFFSET UNITYSDK_OFFSET(0x2079BB40)
+#define RPG_CLIENT_TIMEUTILS_SET_SERVERTIMEZONE_OFFSET UNITYSDK_OFFSET(0x2079BD70)
+#define RPG_CLIENT_TIMEUTILS_TIMESTAMPINSECONDSTODATETIME_1_OFFSET UNITYSDK_OFFSET(0x2079BC70)
+#define RPG_CLIENT_TIMEUTILS_TIMESTAMPINSECONDSTODATETIME_2_OFFSET UNITYSDK_OFFSET(0x2079BCD0)
+#define RPG_CLIENT_TIMEUTILS_TIMESTAMPINSECONDSTODATETIME_OFFSET UNITYSDK_OFFSET(0x2079BC10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeUtils_TypeDefinitionIndex = 35327;
+	inline static constexpr unsigned int TimeUtils_TypeDefinitionIndex = 36255;
 
 	class TimeUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet__ServerTimeZoneSynced()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "TimeUtils")->GetStaticField(0x4CC0);
-		}
-
 		static ::System::Single* StaticGet__ServerTimeZone()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "TimeUtils")->GetStaticField(0x4CC4);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "TimeUtils")->GetStaticField(0x3B50);
 		}
 
-		static ::System::DateTime* StaticGet_StartConstTime()
+		static ::System::Boolean* StaticGet__ServerTimeZoneSynced()
 		{
-			return (::System::DateTime*)UnitySDK::FromName("RPG.Client", "TimeUtils")->GetStaticField(0x4CC8);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "TimeUtils")->GetStaticField(0x3B54);
 		}
 
 		static ::System::Single* StaticGet__NetRttMsTime_k__BackingField()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "TimeUtils")->GetStaticField(0x4CD0);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "TimeUtils")->GetStaticField(0x3B58);
+		}
+
+		static ::System::DateTime* StaticGet_StartConstTime()
+		{
+			return (::System::DateTime*)UnitySDK::FromName("RPG.Client", "TimeUtils")->GetStaticField(0x3B60);
 		}
 
 		static ::System::Void _cctor()

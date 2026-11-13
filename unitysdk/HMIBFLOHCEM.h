@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine::Events { template <typename T1, typename T2> class UnityAction_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-inline static constexpr unsigned int HMIBFLOHCEM_TypeDefinitionIndex = 49170;
+inline static constexpr unsigned int HMIBFLOHCEM_TypeDefinitionIndex = 50246;
 
 	class HMIBFLOHCEM : public ::System::Object
 	{

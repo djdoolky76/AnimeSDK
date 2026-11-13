@@ -4,10 +4,10 @@
 class BICOIIAPJKC;
 namespace System { class Object; }
 
-#define NFAGNNPKMBM___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB70B50)
-#define NFAGNNPKMBM___C__DISPLAYCLASS1_0__CLOSECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xBB70B90)
+#define NFAGNNPKMBM___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18E59F20)
+#define NFAGNNPKMBM___C__DISPLAYCLASS1_0__CLOSECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x18E59F60)
 
-inline static constexpr unsigned int NFAGNNPKMBM___c__DisplayClass1_0_TypeDefinitionIndex = 80513;
+inline static constexpr unsigned int NFAGNNPKMBM___c__DisplayClass1_0_TypeDefinitionIndex = 83293;
 
 	class NFAGNNPKMBM___c__DisplayClass1_0 : public ::System::Object
 	{

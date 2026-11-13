@@ -8,31 +8,31 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD086420)
-#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD086460)
-#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__19_0_OFFSET UNITYSDK_OFFSET(0xD086470)
-#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__19_1_OFFSET UNITYSDK_OFFSET(0xD086490)
+#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A7F1470)
+#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7F14B0)
+#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__19_0_OFFSET UNITYSDK_OFFSET(0x1A7F14C0)
+#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__19_1_OFFSET UNITYSDK_OFFSET(0x1A7F14E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GPUParticleTransformLoopAnim___c_TypeDefinitionIndex = 70316;
+	inline static constexpr unsigned int GPUParticleTransformLoopAnim___c_TypeDefinitionIndex = 72282;
 
 	class GPUParticleTransformLoopAnim___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__19_1()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F90);
-		}
-
 		static ::System::Func_2<::System::Object*, ::UnityEngine::Mesh*>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::System::Object*, ::UnityEngine::Mesh*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F98);
+			return (::System::Func_2<::System::Object*, ::UnityEngine::Mesh*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A8D0);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__19_1()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A8D8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63FA0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A8E0);
 		}
 
 		static ::System::Void _cctor()

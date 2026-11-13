@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/MultiLightEffectMatBlockType.h"
 #include "unitysdk/System/Object.h"
 
-#define JKNJBPBDOBE_HJKIEKODDAL_OFFSET UNITYSDK_OFFSET(0xB2236B0)
+#define JKNJBPBDOBE_HJKIEKODDAL_OFFSET UNITYSDK_OFFSET(0x17B2FA30)
 
-inline static constexpr unsigned int JKNJBPBDOBE_TypeDefinitionIndex = 70688;
+inline static constexpr unsigned int JKNJBPBDOBE_TypeDefinitionIndex = 72665;
 
 	class JKNJBPBDOBE : public ::System::Object
 	{

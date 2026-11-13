@@ -7,19 +7,19 @@ class KOCDPFMMHIN;
 namespace RPG::Client { class RPGProfilerMarker; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JIAHILBIPBA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBB1280)
-#define JIAHILBIPBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB07C0)
-#define JIAHILBIPBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CBB1000)
-#define JIAHILBIPBA_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0x1CBB0B40)
-#define JIAHILBIPBA_EMLECBJHPHN_OFFSET UNITYSDK_OFFSET(0x1CBB1110)
-#define JIAHILBIPBA_GIMOCJDJNEA_OFFSET UNITYSDK_OFFSET(0x1CBB0B20)
-#define JIAHILBIPBA_IGBILCMNKMD_OFFSET UNITYSDK_OFFSET(0x1CBB0DA0)
-#define JIAHILBIPBA_JLJMIHALBNN_OFFSET UNITYSDK_OFFSET(0x1CBB1040)
-#define JIAHILBIPBA_KFFDCBEDNFG_OFFSET UNITYSDK_OFFSET(0x1CBAF430)
-#define JIAHILBIPBA_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0x1CBB0F10)
-#define JIAHILBIPBA_PHFIEDGBECP_OFFSET UNITYSDK_OFFSET(0x1CBAF640)
+#define JIAHILBIPBA_CCTOR_OFFSET UNITYSDK_OFFSET(0x2096B160)
+#define JIAHILBIPBA_CTOR_OFFSET UNITYSDK_OFFSET(0x2096A6A0)
+#define JIAHILBIPBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2096AEE0)
+#define JIAHILBIPBA_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0x2096AA20)
+#define JIAHILBIPBA_EMLECBJHPHN_OFFSET UNITYSDK_OFFSET(0x2096AFF0)
+#define JIAHILBIPBA_GIMOCJDJNEA_OFFSET UNITYSDK_OFFSET(0x2096AA00)
+#define JIAHILBIPBA_IGBILCMNKMD_OFFSET UNITYSDK_OFFSET(0x2096AC80)
+#define JIAHILBIPBA_JLJMIHALBNN_OFFSET UNITYSDK_OFFSET(0x2096AF20)
+#define JIAHILBIPBA_KFFDCBEDNFG_OFFSET UNITYSDK_OFFSET(0x20969310)
+#define JIAHILBIPBA_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0x2096ADF0)
+#define JIAHILBIPBA_PHFIEDGBECP_OFFSET UNITYSDK_OFFSET(0x20969520)
 
-inline static constexpr unsigned int JIAHILBIPBA_TypeDefinitionIndex = 43823;
+inline static constexpr unsigned int JIAHILBIPBA_TypeDefinitionIndex = 44898;
 
 	class JIAHILBIPBA : public ::System::Object
 	{
@@ -29,27 +29,27 @@ inline static constexpr unsigned int JIAHILBIPBA_TypeDefinitionIndex = 43823;
 		::System::Boolean LINBEGOFFLB; // 0x19
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_CADCEEPBCDC()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xEB0);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xFB0);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_EOPGCINLMOA()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xEB8);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xFB8);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_ACGJKBIKNMN()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xEC0);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xFC0);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_BLEGGAFMDAJ()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xEC8);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xFC8);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_DHENEGNOJBE()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xED0);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "JIAHILBIPBA")->GetStaticField(0xFD0);
 		}
 
 		::System::Void _ctor(::System::Boolean a1)

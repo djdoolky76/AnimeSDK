@@ -5,17 +5,17 @@ class DHAFGMHPMHG_NNIFNAGDEHL;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define DHAFGMHPMHG___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0xEBAEBB0)
-#define DHAFGMHPMHG___C__DISPLAYCLASS2_1___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0xEBAEBC0)
+#define DHAFGMHPMHG___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADC9200)
+#define DHAFGMHPMHG___C__DISPLAYCLASS2_1___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1ADCB1A0)
 
-inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass2_1_TypeDefinitionIndex = 59583;
+inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass2_1_TypeDefinitionIndex = 60860;
 
 	template <typename T>
 	class DHAFGMHPMHG___c__DisplayClass2_1 : public ::System::Object
 	{
 	public:
-		::DHAFGMHPMHG_NNIFNAGDEHL* item; // 0x10
-		::System::Object* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::DHAFGMHPMHG_NNIFNAGDEHL* item; // 0x18
 		::System::Int32 iItem; // 0x20
 		::System::Int32 iProcess; // 0x24
 		::System::Void _ctor()

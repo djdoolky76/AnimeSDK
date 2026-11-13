@@ -4,8 +4,8 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1EEE5740)
-#define SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EF0CEB0)
+#define SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x18A27920)
+#define SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18A4F170)
 
 namespace System::Xml::Serialization
 {
@@ -14,8 +14,8 @@ namespace System::Xml::Serialization
 	class XmlTextAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* dataType; // 0x10
-		::System::Type* type; // 0x18
+		::System::Type* type; // 0x10
+		::System::String* dataType; // 0x18
 		::System::String* get_DataType()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_DATATYPE_OFFSET))(this);

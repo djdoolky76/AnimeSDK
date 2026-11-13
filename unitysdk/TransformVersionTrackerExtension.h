@@ -7,28 +7,28 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define TRANSFORMVERSIONTRACKEREXTENSION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6090A0)
-#define TRANSFORMVERSIONTRACKEREXTENSION_CHECKRECENTLYCHANGED_OFFSET UNITYSDK_OFFSET(0x1F608F70)
-#define TRANSFORMVERSIONTRACKEREXTENSION_GETTRACKER_OFFSET UNITYSDK_OFFSET(0x1F6087A0)
+#define TRANSFORMVERSIONTRACKEREXTENSION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBE0FA0)
+#define TRANSFORMVERSIONTRACKEREXTENSION_CHECKRECENTLYCHANGED_OFFSET UNITYSDK_OFFSET(0x1EBE0E70)
+#define TRANSFORMVERSIONTRACKEREXTENSION_GETTRACKER_OFFSET UNITYSDK_OFFSET(0x1EBE06A0)
 
-inline static constexpr unsigned int TransformVersionTrackerExtension_TypeDefinitionIndex = 44974;
+inline static constexpr unsigned int TransformVersionTrackerExtension_TypeDefinitionIndex = 46049;
 
 	class TransformVersionTrackerExtension : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet__ToRemoveTrackerList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0x13880);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0xBBE0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::System::Object*>*>** StaticGet__TrackerDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::System::Object*>*>**)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0x13888);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::System::Object*>*>**)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0xBBE8);
 		}
 
 		static ::System::Int32* StaticGet__AllocTrackerCounter()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0x4040);
+			return (::System::Int32*)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0x16A0);
 		}
 
 		// static const ::System::Object RemoveInvalidTrackerInterval; // 0x0

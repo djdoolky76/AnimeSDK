@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_NET_VALIDATIONHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F060460)
-#define SYSTEM_NET_VALIDATIONHELPER_ISBLANKSTRING_OFFSET UNITYSDK_OFFSET(0x1F060450)
-#define SYSTEM_NET_VALIDATIONHELPER_MAKESTRINGNULL_OFFSET UNITYSDK_OFFSET(0x1F060440)
-#define SYSTEM_NET_VALIDATIONHELPER_VALIDATETCPPORT_OFFSET UNITYSDK_OFFSET(0x1F05E010)
+#define SYSTEM_NET_VALIDATIONHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF59B10)
+#define SYSTEM_NET_VALIDATIONHELPER_ISBLANKSTRING_OFFSET UNITYSDK_OFFSET(0x1CF59B00)
+#define SYSTEM_NET_VALIDATIONHELPER_MAKESTRINGNULL_OFFSET UNITYSDK_OFFSET(0x1CF59AF0)
+#define SYSTEM_NET_VALIDATIONHELPER_VALIDATETCPPORT_OFFSET UNITYSDK_OFFSET(0x1CF575A0)
 
 namespace System::Net
 {
@@ -15,19 +15,19 @@ namespace System::Net
 	class ValidationHelper : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_InvalidMethodChars()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net", "ValidationHelper")->GetStaticField(0x336F0);
-		}
-
 		static ::Il2CppArray<::System::Char>** StaticGet_InvalidParamChars()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net", "ValidationHelper")->GetStaticField(0x336F8);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net", "ValidationHelper")->GetStaticField(0x28040);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_InvalidMethodChars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net", "ValidationHelper")->GetStaticField(0x28048);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_EmptyArray()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Net", "ValidationHelper")->GetStaticField(0x33700);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Net", "ValidationHelper")->GetStaticField(0x28050);
 		}
 
 		static ::System::Void _cctor()

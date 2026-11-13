@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9411C0)
-#define RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE941020)
+#define RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2CD20)
+#define RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1DA2CB70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TimeScaleBehaviour_TypeDefinitionIndex = 48515;
+	inline static constexpr unsigned int TimeScaleBehaviour_TypeDefinitionIndex = 49556;
 
 	class TimeScaleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

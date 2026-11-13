@@ -5,14 +5,14 @@ namespace CriWare { class CriAtomPlugin_CallbackFromNativeDelegate; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomPlugin___O_TypeDefinitionIndex = 39932;
+	inline static constexpr unsigned int CriAtomPlugin___O_TypeDefinitionIndex = 40907;
 
 	class CriAtomPlugin___O : public ::System::Object
 	{
 	public:
 		static ::CriWare::CriAtomPlugin_CallbackFromNativeDelegate** StaticGet__0___CallbackFromNative()
 		{
-			return (::CriWare::CriAtomPlugin_CallbackFromNativeDelegate**)UnitySDK::FromName("CriWare", "<>O")->GetStaticField(0x564C0);
+			return (::CriWare::CriAtomPlugin_CallbackFromNativeDelegate**)UnitySDK::FromName("CriWare", "<>O")->GetStaticField(0x5C7C0);
 		}
 
 	};

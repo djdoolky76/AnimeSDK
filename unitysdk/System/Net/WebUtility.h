@@ -8,15 +8,15 @@ namespace System { class String; }
 namespace System::IO { class TextWriter; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_NET_WEBUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F078C30)
-#define SYSTEM_NET_WEBUTILITY_GETNEXTUNICODESCALARVALUEFROMUTF16SURROGATE_OFFSET UNITYSDK_OFFSET(0x1F078670)
-#define SYSTEM_NET_WEBUTILITY_GET_HTMLENCODECONFORMANCE_OFFSET UNITYSDK_OFFSET(0x1F0785A0)
-#define SYSTEM_NET_WEBUTILITY_HEXTOINT_OFFSET UNITYSDK_OFFSET(0x1F078A80)
-#define SYSTEM_NET_WEBUTILITY_HTMLENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F077F30)
-#define SYSTEM_NET_WEBUTILITY_HTMLENCODE_OFFSET UNITYSDK_OFFSET(0x1F077CE0)
-#define SYSTEM_NET_WEBUTILITY_INDEXOFHTMLENCODINGCHARS_OFFSET UNITYSDK_OFFSET(0x1F077DD0)
-#define SYSTEM_NET_WEBUTILITY_URLDECODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F0786D0)
-#define SYSTEM_NET_WEBUTILITY_URLDECODE_OFFSET UNITYSDK_OFFSET(0x1F078BC0)
+#define SYSTEM_NET_WEBUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF725A0)
+#define SYSTEM_NET_WEBUTILITY_GETNEXTUNICODESCALARVALUEFROMUTF16SURROGATE_OFFSET UNITYSDK_OFFSET(0x1CF71FE0)
+#define SYSTEM_NET_WEBUTILITY_GET_HTMLENCODECONFORMANCE_OFFSET UNITYSDK_OFFSET(0x1CF71F10)
+#define SYSTEM_NET_WEBUTILITY_HEXTOINT_OFFSET UNITYSDK_OFFSET(0x1CF723F0)
+#define SYSTEM_NET_WEBUTILITY_HTMLENCODE_1_OFFSET UNITYSDK_OFFSET(0x1CF718A0)
+#define SYSTEM_NET_WEBUTILITY_HTMLENCODE_OFFSET UNITYSDK_OFFSET(0x1CF71650)
+#define SYSTEM_NET_WEBUTILITY_INDEXOFHTMLENCODINGCHARS_OFFSET UNITYSDK_OFFSET(0x1CF71740)
+#define SYSTEM_NET_WEBUTILITY_URLDECODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1CF72040)
+#define SYSTEM_NET_WEBUTILITY_URLDECODE_OFFSET UNITYSDK_OFFSET(0x1CF72530)
 
 namespace System::Net
 {
@@ -27,17 +27,17 @@ namespace System::Net
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet__htmlEntityEndingChars()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0x34B80);
-		}
-
-		static ::System::Net::Configuration::UnicodeDecodingConformance* StaticGet__htmlDecodeConformance()
-		{
-			return (::System::Net::Configuration::UnicodeDecodingConformance*)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0xAA90);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0x28F50);
 		}
 
 		static ::System::Net::Configuration::UnicodeEncodingConformance* StaticGet__htmlEncodeConformance()
 		{
-			return (::System::Net::Configuration::UnicodeEncodingConformance*)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0xAA94);
+			return (::System::Net::Configuration::UnicodeEncodingConformance*)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0x8580);
+		}
+
+		static ::System::Net::Configuration::UnicodeDecodingConformance* StaticGet__htmlDecodeConformance()
+		{
+			return (::System::Net::Configuration::UnicodeDecodingConformance*)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0x8584);
 		}
 
 		static ::System::Void _cctor()

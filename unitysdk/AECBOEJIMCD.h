@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int AECBOEJIMCD_TypeDefinitionIndex = 75727;
+inline static constexpr unsigned int AECBOEJIMCD_TypeDefinitionIndex = 78054;
 
 	class AECBOEJIMCD : public ::System::Object
 	{

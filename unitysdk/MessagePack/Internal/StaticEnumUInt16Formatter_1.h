@@ -4,7 +4,7 @@
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int StaticEnumUInt16Formatter_1_TypeDefinitionIndex = 7349;
+	inline static constexpr unsigned int StaticEnumUInt16Formatter_1_TypeDefinitionIndex = 7360;
 
 	template <typename T>
 	class StaticEnumUInt16Formatter_1 : public ::System::Object

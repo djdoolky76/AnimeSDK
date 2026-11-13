@@ -7,10 +7,10 @@ class HIOEAKHGILF;
 namespace RPG::GameCore { class FiveDimTriggerEventEmitterConfig; }
 namespace UnityEngine { class Collider; }
 
-#define AJJCKLMCOMM___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBC1F0)
-#define AJJCKLMCOMM___C__DISPLAYCLASS14_0___CREATEONTRIGGERENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x12CBCD90)
+#define AJJCKLMCOMM___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19D42AD0)
+#define AJJCKLMCOMM___C__DISPLAYCLASS14_0___CREATEONTRIGGERENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x19D43670)
 
-inline static constexpr unsigned int AJJCKLMCOMM___c__DisplayClass14_0_TypeDefinitionIndex = 77091;
+inline static constexpr unsigned int AJJCKLMCOMM___c__DisplayClass14_0_TypeDefinitionIndex = 79425;
 
 	class AJJCKLMCOMM___c__DisplayClass14_0 : public ::System::Object
 	{

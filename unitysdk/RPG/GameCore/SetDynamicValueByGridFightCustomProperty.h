@@ -5,25 +5,27 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class SetDynamicValueByGridFightCustomProperty; }
+namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA77420)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DA77600)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA77430)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA773F0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F868AE0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1F868D00)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F868AF0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F868AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByGridFightCustomProperty_TypeDefinitionIndex = 22534;
+	inline static constexpr unsigned int SetDynamicValueByGridFightCustomProperty_TypeDefinitionIndex = 22945;
 
 	class SetDynamicValueByGridFightCustomProperty : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
 		::System::String* DynamicKey; // 0x18
-		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x20
+		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
+		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x28
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::JsonEnum* CustomType; // 0x28
+		::RPG::GameCore::JsonEnum* CustomType; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTCUSTOMPROPERTY_CTOR_OFFSET))(this);

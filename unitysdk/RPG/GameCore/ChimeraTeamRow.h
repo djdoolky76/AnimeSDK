@@ -6,23 +6,23 @@ namespace RPG::GameCore { class ChimeraTeamRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHIMERATEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D582A00)
-#define RPG_GAMECORE_CHIMERATEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D582790)
+#define RPG_GAMECORE_CHIMERATEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F9200)
+#define RPG_GAMECORE_CHIMERATEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F4F8F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTeamRow_TypeDefinitionIndex = 13031;
+	inline static constexpr unsigned int ChimeraTeamRow_TypeDefinitionIndex = 13099;
 
 	class ChimeraTeamRow : public ::System::Object
 	{
 	public:
 		::System::String* TeamName; // 0x10
-		::System::String* TeamConfigJson; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* RoundTalkMap; // 0x18
 		::System::String* TeamAvatarIcon; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* RoundTalkMap; // 0x28
-		::System::String* TeamIcon; // 0x30
-		::System::UInt32 Sort; // 0x38
-		::System::UInt32 TeamID; // 0x3C
+		::System::String* TeamIcon; // 0x28
+		::System::String* TeamConfigJson; // 0x30
+		::System::UInt32 TeamID; // 0x38
+		::System::UInt32 Sort; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATEAMROW_CTOR_OFFSET))(this);

@@ -5,11 +5,11 @@ namespace RPG::Client::BlindBox::Trade { class BlindBoxTradePublishOrderPetItem;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO_OFFERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xC89E180)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO_OFFERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56CC40)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradePublishOrderInfo_OfferGroup_TypeDefinitionIndex = 74889;
+	inline static constexpr unsigned int BlindBoxTradePublishOrderInfo_OfferGroup_TypeDefinitionIndex = 77216;
 
 	class BlindBoxTradePublishOrderInfo_OfferGroup : public ::System::Object
 	{

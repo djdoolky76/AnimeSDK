@@ -5,13 +5,13 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelAchievementsResult; }
 namespace MiHoYo::SDK::PC::OS { class XboxAchievementsExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF6E70)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BEF6E30)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BEF6E20)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EF930)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1B0EF8F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1B0EF8E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAchievementsResult_TypeDefinitionIndex = 8629;
+	inline static constexpr unsigned int HoYoChannelAchievementsResult_TypeDefinitionIndex = 8638;
 
 	class HoYoChannelAchievementsResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

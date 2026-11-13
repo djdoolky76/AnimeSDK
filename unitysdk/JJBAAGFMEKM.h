@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class Airline; }
 
-#define JJBAAGFMEKM_CTOR_OFFSET UNITYSDK_OFFSET(0x10D20)
+#define JJBAAGFMEKM_CTOR_OFFSET UNITYSDK_OFFSET(0x3D73C50)
 
-inline static constexpr unsigned int JJBAAGFMEKM_TypeDefinitionIndex = 59778;
+inline static constexpr unsigned int JJBAAGFMEKM_TypeDefinitionIndex = 61058;
 
 	struct alignas(8) JJBAAGFMEKM
 	{

@@ -5,21 +5,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SilverWolfQuestConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABB840)
-#define RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DABB650)
+#define RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F4870)
+#define RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3F4680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SilverWolfQuestConfigRow_TypeDefinitionIndex = 12353;
+	inline static constexpr unsigned int SilverWolfQuestConfigRow_TypeDefinitionIndex = 12420;
 
 	class SilverWolfQuestConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::System::String* FigurePath; // 0x18
-		::System::UInt32 QuestID; // 0x20
+		::System::UInt32 RaidID; // 0x20
 		::System::UInt32 HardLevel; // 0x24
-		::System::UInt32 RaidID; // 0x28
+		::System::UInt32 QuestID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW_CTOR_OFFSET))(this);

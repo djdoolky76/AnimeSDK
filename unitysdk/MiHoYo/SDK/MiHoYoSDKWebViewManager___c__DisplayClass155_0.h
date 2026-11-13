@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS155_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFF55D0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS155_0__PLAYCLOSEANIMATIONFORISR_B__0_OFFSET UNITYSDK_OFFSET(0xB010430)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS155_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF41C00)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS155_0__PLAYCLOSEANIMATIONFORISR_B__0_OFFSET UNITYSDK_OFFSET(0x1BF5C790)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass155_0_TypeDefinitionIndex = 46624;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass155_0_TypeDefinitionIndex = 47652;
 
 	class MiHoYoSDKWebViewManager___c__DisplayClass155_0 : public ::System::Object
 	{

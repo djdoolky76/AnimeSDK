@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class FeatureSwitchModule; }
 
-#define BEIKEPBIGDB_CTOR_OFFSET UNITYSDK_OFFSET(0x16317E10)
-#define BEIKEPBIGDB_EMMPCNEIFGM_OFFSET UNITYSDK_OFFSET(0x16317E90)
+#define BEIKEPBIGDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A946510)
+#define BEIKEPBIGDB_EMMPCNEIFGM_OFFSET UNITYSDK_OFFSET(0x1A946590)
 
-inline static constexpr unsigned int BEIKEPBIGDB_TypeDefinitionIndex = 74919;
+inline static constexpr unsigned int BEIKEPBIGDB_TypeDefinitionIndex = 77246;
 
 	class BEIKEPBIGDB : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildSeason_TypeDefinitionIndex = 11398;
+	inline static constexpr unsigned int EvolveBuildSeason_TypeDefinitionIndex = 11449;
 
 	enum class EvolveBuildSeason : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_BOOLENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A3660)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_BOOLENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D1740)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorControlTimelineClip_BoolEntry_TypeDefinitionIndex = 47802;
+	inline static constexpr unsigned int AnimatorControlTimelineClip_BoolEntry_TypeDefinitionIndex = 48833;
 
 	class AnimatorControlTimelineClip_BoolEntry : public ::System::Object
 	{

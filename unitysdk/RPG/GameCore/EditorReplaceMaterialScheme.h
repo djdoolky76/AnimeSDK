@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EditorReplaceMaterialScheme; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EDITORREPLACEMATERIALSCHEME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D600B90)
-#define RPG_GAMECORE_EDITORREPLACEMATERIALSCHEME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D600A10)
+#define RPG_GAMECORE_EDITORREPLACEMATERIALSCHEME_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D7980)
+#define RPG_GAMECORE_EDITORREPLACEMATERIALSCHEME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D7800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EditorReplaceMaterialScheme_TypeDefinitionIndex = 17432;
+	inline static constexpr unsigned int EditorReplaceMaterialScheme_TypeDefinitionIndex = 17600;
 
 	class EditorReplaceMaterialScheme : public ::RPG::GameCore::JsonConfig
 	{

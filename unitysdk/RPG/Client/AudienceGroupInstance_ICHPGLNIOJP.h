@@ -6,12 +6,12 @@
 namespace RPG::Client { class AudienceLayoutConfig; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_ICHPGLNIOJP_CTOR_OFFSET UNITYSDK_OFFSET(0xC6AB440)
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_ICHPGLNIOJP_EEOOMIBEMNH_OFFSET UNITYSDK_OFFSET(0xC6AB460)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_ICHPGLNIOJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB54A0)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_ICHPGLNIOJP_EEOOMIBEMNH_OFFSET UNITYSDK_OFFSET(0x1CAB54C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_ICHPGLNIOJP_TypeDefinitionIndex = 69144;
+	inline static constexpr unsigned int AudienceGroupInstance_ICHPGLNIOJP_TypeDefinitionIndex = 71097;
 
 	class AudienceGroupInstance_ICHPGLNIOJP : public ::RPG::Client::AudienceGroupInstance_FJBBJCJGFNF
 	{

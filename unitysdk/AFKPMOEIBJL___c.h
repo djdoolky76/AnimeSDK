@@ -9,29 +9,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define AFKPMOEIBJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C852C70)
-#define AFKPMOEIBJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C852CB0)
-#define AFKPMOEIBJL___C___BUILDSHUFFLELIBRARY_B__21_0_OFFSET UNITYSDK_OFFSET(0x1C852D90)
-#define AFKPMOEIBJL___C___CREATEBOMBS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C852CC0)
+#define AFKPMOEIBJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D856FD0)
+#define AFKPMOEIBJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D857010)
+#define AFKPMOEIBJL___C___BUILDSHUFFLELIBRARY_B__21_0_OFFSET UNITYSDK_OFFSET(0x1D8570F0)
+#define AFKPMOEIBJL___C___CREATEBOMBS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1D857020)
 
-inline static constexpr unsigned int AFKPMOEIBJL___c_TypeDefinitionIndex = 42303;
+inline static constexpr unsigned int AFKPMOEIBJL___c_TypeDefinitionIndex = 43278;
 
 	class AFKPMOEIBJL___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag>, ::System::Boolean>** StaticGet___9__21_0()
-		{
-			return (::System::Func_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x245F0);
-		}
-
 		static ::System::Comparison_1<::EFHNDMENDHI*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x245F8);
+			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x122F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24600);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x122F8);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag>, ::System::Boolean>** StaticGet___9__21_0()
+		{
+			return (::System::Func_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12300);
 		}
 
 		static ::System::Void _cctor()

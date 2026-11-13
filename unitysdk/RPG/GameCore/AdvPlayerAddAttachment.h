@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AdvPlayerAddAttachment; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37CBC0)
-#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D37CBD0)
-#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D37CB90)
+#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DE5F0)
+#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8DE600)
+#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DE5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPlayerAddAttachment_TypeDefinitionIndex = 21049;
+	inline static constexpr unsigned int AdvPlayerAddAttachment_TypeDefinitionIndex = 21387;
 
 	class AdvPlayerAddAttachment : public ::RPG::GameCore::TaskConfig
 	{

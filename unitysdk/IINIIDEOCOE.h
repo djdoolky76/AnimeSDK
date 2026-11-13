@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IINIIDEOCOE_CTOR_OFFSET UNITYSDK_OFFSET(0x164465C0)
+#define IINIIDEOCOE_CTOR_OFFSET UNITYSDK_OFFSET(0x193F67E0)
 
-inline static constexpr unsigned int IINIIDEOCOE_TypeDefinitionIndex = 81016;
+inline static constexpr unsigned int IINIIDEOCOE_TypeDefinitionIndex = 83796;
 
 	class IINIIDEOCOE : public ::System::Object
 	{

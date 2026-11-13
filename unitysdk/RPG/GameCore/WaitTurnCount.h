@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitTurnCount; }
 
-#define RPG_GAMECORE_WAITTURNCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC765F0)
-#define RPG_GAMECORE_WAITTURNCOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC76650)
-#define RPG_GAMECORE_WAITTURNCOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC76570)
+#define RPG_GAMECORE_WAITTURNCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x20804000)
+#define RPG_GAMECORE_WAITTURNCOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x20804060)
+#define RPG_GAMECORE_WAITTURNCOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20803F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTurnCount_TypeDefinitionIndex = 23412;
+	inline static constexpr unsigned int WaitTurnCount_TypeDefinitionIndex = 23858;
 
 	class WaitTurnCount : public ::RPG::GameCore::TaskConfig
 	{

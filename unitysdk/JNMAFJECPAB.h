@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KIDPCOMKMKJ.h"
 
-#define JNMAFJECPAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB78380)
-#define JNMAFJECPAB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1CB78220)
+#define JNMAFJECPAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE21000)
+#define JNMAFJECPAB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1DE20EA0)
 
-inline static constexpr unsigned int JNMAFJECPAB_TypeDefinitionIndex = 42473;
+inline static constexpr unsigned int JNMAFJECPAB_TypeDefinitionIndex = 43448;
 
 	class JNMAFJECPAB : public ::KIDPCOMKMKJ
 	{

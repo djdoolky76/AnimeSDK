@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrawType_TypeDefinitionIndex = 68896;
+	inline static constexpr unsigned int DrawType_TypeDefinitionIndex = 70849;
 
 	enum class DrawType : ::System::Int32
 	{

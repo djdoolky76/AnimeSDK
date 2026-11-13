@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleActionAgain; }
 
-#define LICCHBDGBME_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E0B20)
-#define LICCHBDGBME_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C8E0B30)
+#define LICCHBDGBME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63ABE0)
+#define LICCHBDGBME_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1D63ABF0)
 
-inline static constexpr unsigned int LICCHBDGBME_TypeDefinitionIndex = 43099;
+inline static constexpr unsigned int LICCHBDGBME_TypeDefinitionIndex = 44080;
 
 	class LICCHBDGBME : public ::BKABEBEPPJK
 	{

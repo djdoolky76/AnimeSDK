@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureSkillTriggerAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KJDEGDLFIIN_CTOR_OFFSET UNITYSDK_OFFSET(0xB43AFF0)
-#define KJDEGDLFIIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB43B020)
+#define KJDEGDLFIIN_CTOR_OFFSET UNITYSDK_OFFSET(0x19F01FB0)
+#define KJDEGDLFIIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F01FE0)
 
-inline static constexpr unsigned int KJDEGDLFIIN_TypeDefinitionIndex = 57914;
+inline static constexpr unsigned int KJDEGDLFIIN_TypeDefinitionIndex = 59151;
 
 	class KJDEGDLFIIN
 	{

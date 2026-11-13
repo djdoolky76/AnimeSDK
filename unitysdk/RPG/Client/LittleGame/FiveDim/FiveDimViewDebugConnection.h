@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimEntityBehaviour; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEWDEBUGCONNECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD44D570)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEWDEBUGCONNECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A4510)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimViewDebugConnection_TypeDefinitionIndex = 76871;
+	inline static constexpr unsigned int FiveDimViewDebugConnection_TypeDefinitionIndex = 79205;
 
 	class FiveDimViewDebugConnection : public ::UnityEngine::MonoBehaviour
 	{

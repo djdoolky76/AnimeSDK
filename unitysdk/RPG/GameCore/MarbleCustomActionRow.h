@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleCustomActionRow; }
 
-#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80EB10)
-#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D80E990)
+#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB42F90)
+#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB42E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleCustomActionRow_TypeDefinitionIndex = 11892;
+	inline static constexpr unsigned int MarbleCustomActionRow_TypeDefinitionIndex = 11949;
 
 	class MarbleCustomActionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* LaunchParamList; // 0x10
-		::System::UInt32 SealInsID; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 SealInsID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLECUSTOMACTIONROW_CTOR_OFFSET))(this);

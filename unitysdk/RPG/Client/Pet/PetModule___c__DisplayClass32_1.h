@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Pet { class IPetInstance; }
 
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS32_1_CTOR_OFFSET UNITYSDK_OFFSET(0xDAB5FF0)
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS32_1___ONSUMMONPETSCRSP_B__2_OFFSET UNITYSDK_OFFSET(0xDAB78F0)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS32_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D7F00)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS32_1___ONSUMMONPETSCRSP_B__2_OFFSET UNITYSDK_OFFSET(0x1C1D9800)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetModule___c__DisplayClass32_1_TypeDefinitionIndex = 75697;
+	inline static constexpr unsigned int PetModule___c__DisplayClass32_1_TypeDefinitionIndex = 78024;
 
 	template <typename T>
 	class PetModule___c__DisplayClass32_1 : public ::System::Object

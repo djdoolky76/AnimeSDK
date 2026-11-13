@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define GDCKNLDGDDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1598B5D0)
+#define GDCKNLDGDDI_CTOR_OFFSET UNITYSDK_OFFSET(0x19ED1160)
 
-inline static constexpr unsigned int GDCKNLDGDDI_TypeDefinitionIndex = 48721;
+inline static constexpr unsigned int GDCKNLDGDDI_TypeDefinitionIndex = 49767;
 
 	class GDCKNLDGDDI : public ::UnityEngine::Playables::PlayableBehaviour
 	{

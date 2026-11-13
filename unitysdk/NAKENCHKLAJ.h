@@ -5,17 +5,17 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define NAKENCHKLAJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA9D250)
-#define NAKENCHKLAJ_OEPCGHPGFOK_OFFSET UNITYSDK_OFFSET(0xBA9CC30)
+#define NAKENCHKLAJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAF67A0)
+#define NAKENCHKLAJ_OEPCGHPGFOK_OFFSET UNITYSDK_OFFSET(0x1BAF6180)
 
-inline static constexpr unsigned int NAKENCHKLAJ_TypeDefinitionIndex = 67243;
+inline static constexpr unsigned int NAKENCHKLAJ_TypeDefinitionIndex = 69187;
 
 	class NAKENCHKLAJ : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>** StaticGet_LFEOEENNDBB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>**)UnitySDK::FromName("", "NAKENCHKLAJ")->GetStaticField(0x1C5C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>**)UnitySDK::FromName("", "NAKENCHKLAJ")->GetStaticField(0x16470);
 		}
 
 		// static const ::System::Object FLMHFGHHGDB; // 0x0

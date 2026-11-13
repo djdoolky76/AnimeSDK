@@ -4,9 +4,9 @@
 class PDPMIHGIFDP;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define POHFDKCHDNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C9910)
+#define POHFDKCHDNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0AB0D0)
 
-inline static constexpr unsigned int POHFDKCHDNK_TypeDefinitionIndex = 36449;
+inline static constexpr unsigned int POHFDKCHDNK_TypeDefinitionIndex = 37377;
 
 	class POHFDKCHDNK : public ::System::Object
 	{

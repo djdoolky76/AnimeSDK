@@ -4,18 +4,18 @@
 class MELHONKGEIM;
 namespace System { class Object; }
 
-#define MELHONKGEIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9E2E80)
-#define MELHONKGEIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E2EC0)
-#define MELHONKGEIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9E2ED0)
+#define MELHONKGEIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB0C6D0)
+#define MELHONKGEIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB0C710)
+#define MELHONKGEIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB0C720)
 
-inline static constexpr unsigned int MELHONKGEIM___c_TypeDefinitionIndex = 34354;
+inline static constexpr unsigned int MELHONKGEIM___c_TypeDefinitionIndex = 35282;
 
 	class MELHONKGEIM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DF20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DB30);
 		}
 
 		static ::System::Void _cctor()

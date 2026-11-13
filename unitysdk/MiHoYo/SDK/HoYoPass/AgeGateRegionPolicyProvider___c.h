@@ -6,55 +6,55 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE235C0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE23600)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1BE23610)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_1_OFFSET UNITYSDK_OFFSET(0x1BE23790)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_2_OFFSET UNITYSDK_OFFSET(0x1BE23950)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_3_OFFSET UNITYSDK_OFFSET(0x1BE23730)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_4_OFFSET UNITYSDK_OFFSET(0x1BE238B0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_5_OFFSET UNITYSDK_OFFSET(0x1BE23A70)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B66B790)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B66B7D0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B66B7E0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_1_OFFSET UNITYSDK_OFFSET(0x1B66B960)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_2_OFFSET UNITYSDK_OFFSET(0x1B66BB20)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_3_OFFSET UNITYSDK_OFFSET(0x1B66B900)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_4_OFFSET UNITYSDK_OFFSET(0x1B66BA80)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_5_OFFSET UNITYSDK_OFFSET(0x1B66BC40)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateRegionPolicyProvider___c_TypeDefinitionIndex = 8272;
+	inline static constexpr unsigned int AgeGateRegionPolicyProvider___c_TypeDefinitionIndex = 8281;
 
 	class AgeGateRegionPolicyProvider___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__7_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xE8F0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x4BAE0);
 		}
 
 		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__7_1()
 		{
-			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xE8F8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xE900);
-		}
-
-		static ::System::Func_1<::System::String*>** StaticGet___9__7_5()
-		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xE908);
-		}
-
-		static ::System::Func_1<::System::String*>** StaticGet___9__7_4()
-		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xE910);
+			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x4BAE8);
 		}
 
 		static ::System::Func_1<::System::String*>** StaticGet___9__7_3()
 		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xE918);
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x4BAF0);
+		}
+
+		static ::System::Func_1<::System::String*>** StaticGet___9__7_4()
+		{
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x4BAF8);
+		}
+
+		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__7_0()
+		{
+			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x4BB00);
+		}
+
+		static ::System::Func_1<::System::String*>** StaticGet___9__7_5()
+		{
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x4BB08);
 		}
 
 		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__7_2()
 		{
-			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xE920);
+			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x4BB10);
 		}
 
 		static ::System::Void _cctor()

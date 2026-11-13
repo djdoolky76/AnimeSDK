@@ -5,18 +5,18 @@ class DKOHHGBCGEI;
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 namespace System { class String; }
 
-#define DKOHHGBCGEI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xF886DC0)
-#define DKOHHGBCGEI_CTOR_OFFSET UNITYSDK_OFFSET(0xF886F60)
-#define DKOHHGBCGEI_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xF886EF0)
-#define DKOHHGBCGEI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xF886E50)
+#define DKOHHGBCGEI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18C24FA0)
+#define DKOHHGBCGEI_CTOR_OFFSET UNITYSDK_OFFSET(0x18C25140)
+#define DKOHHGBCGEI_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x18C250D0)
+#define DKOHHGBCGEI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x18C25030)
 
-inline static constexpr unsigned int DKOHHGBCGEI_TypeDefinitionIndex = 78171;
+inline static constexpr unsigned int DKOHHGBCGEI_TypeDefinitionIndex = 80906;
 
 	class DKOHHGBCGEI : public ::AJHHFMBOCEN
 	{
 	public:
-		::System::String* GOLLNCJAPJC; // 0x20
-		::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* FOIJHDEGJMM; // 0x28
+		::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* FOIJHDEGJMM; // 0x20
+		::System::String* GOLLNCJAPJC; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DKOHHGBCGEI_CTOR_OFFSET))(this);

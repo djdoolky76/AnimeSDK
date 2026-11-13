@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitEffectChangeHintType_TypeDefinitionIndex = 24723;
+	inline static constexpr unsigned int GridFightTraitEffectChangeHintType_TypeDefinitionIndex = 25199;
 
 	enum class GridFightTraitEffectChangeHintType : ::System::Int32
 	{

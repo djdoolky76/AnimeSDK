@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Rendering/BANodeHash.h"
 namespace UnityEngine::Rendering { class BAGraphAsset; }
 
-#define UNITYENGINE_RENDERING_BAPLAYCLIPNODEPARAMATERS_SETCLIP_OFFSET UNITYSDK_OFFSET(0x1F3ECEC0)
+#define UNITYENGINE_RENDERING_BAPLAYCLIPNODEPARAMATERS_SETCLIP_OFFSET UNITYSDK_OFFSET(0x202C7570)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAPlayClipNodeParamaters_TypeDefinitionIndex = 4798;
+	inline static constexpr unsigned int BAPlayClipNodeParamaters_TypeDefinitionIndex = 4802;
 
 	struct alignas(4) BAPlayClipNodeParamaters
 	{

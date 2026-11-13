@@ -1,12 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class BattleGridFightAvatarData; }
 namespace RPG::GameCore { class ByGridFightCompareRoleExtInfo; }
+namespace RPG::GameCore { class GridFightManager; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLNGIMDCEJA_CTOR_OFFSET UNITYSDK_OFFSET(0x15AB2220)
-#define GLNGIMDCEJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AB2250)
+#define GLNGIMDCEJA_BADPECNPHIM_OFFSET UNITYSDK_OFFSET(0x16C6A6C0)
+#define GLNGIMDCEJA_CTOR_OFFSET UNITYSDK_OFFSET(0x16C6A3E0)
+#define GLNGIMDCEJA_EGGGHHIAHAB_OFFSET UNITYSDK_OFFSET(0x16C6A5B0)
+#define GLNGIMDCEJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16C6A410)
 
-inline static constexpr unsigned int GLNGIMDCEJA_TypeDefinitionIndex = 54606;
+inline static constexpr unsigned int GLNGIMDCEJA_TypeDefinitionIndex = 55771;
 
 	class GLNGIMDCEJA
 	{
@@ -19,6 +23,16 @@ inline static constexpr unsigned int GLNGIMDCEJA_TypeDefinitionIndex = 54606;
 		::System::Boolean Evaluate()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GLNGIMDCEJA_EVALUATE_OFFSET))(this);
+		}
+
+		::System::UInt32 EGGGHHIAHAB(::RPG::GameCore::BattleGridFightAvatarData* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::BattleGridFightAvatarData*))((::PBYTE)hIl2Cpp + GLNGIMDCEJA_EGGGHHIAHAB_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 BADPECNPHIM(::RPG::GameCore::GridFightManager* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::GridFightManager*))((::PBYTE)hIl2Cpp + GLNGIMDCEJA_BADPECNPHIM_OFFSET))(this, a1);
 		}
 
 	};

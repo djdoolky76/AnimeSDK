@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ProgressBarTypeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROGRESSBARTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D915460)
-#define RPG_GAMECORE_PROGRESSBARTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D915390)
+#define RPG_GAMECORE_PROGRESSBARTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7F660)
+#define RPG_GAMECORE_PROGRESSBARTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF7F590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProgressBarTypeConfig_TypeDefinitionIndex = 22735;
+	inline static constexpr unsigned int ProgressBarTypeConfig_TypeDefinitionIndex = 23157;
 
 	class ProgressBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

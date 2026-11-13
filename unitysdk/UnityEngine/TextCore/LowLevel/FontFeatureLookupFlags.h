@@ -3,7 +3,7 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int FontFeatureLookupFlags_TypeDefinitionIndex = 5842;
+	inline static constexpr unsigned int FontFeatureLookupFlags_TypeDefinitionIndex = 5850;
 
 	enum class FontFeatureLookupFlags : ::System::Int32
 	{

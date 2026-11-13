@@ -4,18 +4,18 @@
 class GECHEPGEIKF;
 namespace System { class Object; }
 
-#define GECHEPGEIKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E425AA0)
-#define GECHEPGEIKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E425AE0)
-#define GECHEPGEIKF___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E425AF0)
+#define GECHEPGEIKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2023E480)
+#define GECHEPGEIKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2023E4C0)
+#define GECHEPGEIKF___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x2023E4D0)
 
-inline static constexpr unsigned int GECHEPGEIKF___c_TypeDefinitionIndex = 28561;
+inline static constexpr unsigned int GECHEPGEIKF___c_TypeDefinitionIndex = 29151;
 
 	class GECHEPGEIKF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D6D0);
 		}
 
 		static ::System::Void _cctor()

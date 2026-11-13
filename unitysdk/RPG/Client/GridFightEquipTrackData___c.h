@@ -3,74 +3,61 @@
 #include "unitysdk/IHMJHLGKLHP.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_5.h"
-namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightEquipTrack; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD121B90)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD121BD0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__UPDATEEQUIPTRACK_B__17_0_OFFSET UNITYSDK_OFFSET(0xD121BE0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___ADDTRACKTOLASTANDSEND_B__35_0_OFFSET UNITYSDK_OFFSET(0xD121C80)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___GETMAXPRIORITY_B__30_0_OFFSET UNITYSDK_OFFSET(0xD121C00)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___GETMINPRIORITY_B__31_0_OFFSET UNITYSDK_OFFSET(0xD121C20)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___RESETALLTRACKSPRIORITYANDSEND_B__34_0_OFFSET UNITYSDK_OFFSET(0xD121C40)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___RESETALLTRACKSPRIORITYANDSEND_B__34_1_OFFSET UNITYSDK_OFFSET(0xD121C60)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___TRYASSIGNBASICEQUIP_B__45_1_OFFSET UNITYSDK_OFFSET(0xD121CC0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___TRYCRAFTEQUIPFORTRAITEFFECT_B__44_0_OFFSET UNITYSDK_OFFSET(0xD121CA0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D18FB60)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D18FBA0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__UPDATEEQUIPTRACKFROMSERVER_B__17_0_OFFSET UNITYSDK_OFFSET(0x1D18FBB0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___ADDTRACKTOLASTANDSEND_B__35_0_OFFSET UNITYSDK_OFFSET(0x1D18FC50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___GETMAXPRIORITY_B__30_0_OFFSET UNITYSDK_OFFSET(0x1D18FBD0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___GETMINPRIORITY_B__31_0_OFFSET UNITYSDK_OFFSET(0x1D18FBF0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___RESETALLTRACKSPRIORITYANDSEND_B__34_0_OFFSET UNITYSDK_OFFSET(0x1D18FC10)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___RESETALLTRACKSPRIORITYANDSEND_B__34_1_OFFSET UNITYSDK_OFFSET(0x1D18FC30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackData___c_TypeDefinitionIndex = 65325;
+	inline static constexpr unsigned int GridFightEquipTrackData___c_TypeDefinitionIndex = 67094;
 
 	class GridFightEquipTrackData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::UInt32>** StaticGet___9__31_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69410);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__44_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69418);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__45_1()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69420);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::UInt32>** StaticGet___9__30_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69428);
-		}
-
-		static ::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>** StaticGet___9__35_0()
-		{
-			return (::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69430);
-		}
-
-		static ::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>** StaticGet___9__34_1()
-		{
-			return (::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69438);
+			return (::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71030);
 		}
 
 		static ::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>** StaticGet___9__34_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69440);
+			return (::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71038);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::UInt32>** StaticGet___9__31_0()
+		static ::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>** StaticGet___9__34_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69448);
+			return (::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71040);
+		}
+
+		static ::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>** StaticGet___9__35_0()
+		{
+			return (::System::Comparison_1<::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71048);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::Int64>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::Int64>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69450);
+			return (::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::Int64>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71050);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::UInt32>** StaticGet___9__30_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightEquipTrack*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71058);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71060);
 		}
 
 		static ::System::Void _cctor()
@@ -83,9 +70,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int64 _UpdateEquipTrack_b__17_0(::RPG::Client::GridFightEquipTrack* a1)
+		::System::Int64 _UpdateEquipTrackFromServer_b__17_0(::RPG::Client::GridFightEquipTrack* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__UPDATEEQUIPTRACK_B__17_0_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__UPDATEEQUIPTRACKFROMSERVER_B__17_0_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 __GetMaxPriority_b__30_0(::RPG::Client::GridFightEquipTrack* a1)
@@ -111,16 +98,6 @@ namespace RPG::Client
 		::System::Int32 __AddTrackToLastAndSend_b__35_0(::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32> a1, ::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32> a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>, ::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___ADDTRACKTOLASTANDSEND_B__35_0_OFFSET))(this, a1, a2);
-		}
-
-		::System::Boolean __TryCraftEquipForTraitEffect_b__44_0(::RPG::Client::GridFightEquipItemData* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___TRYCRAFTEQUIPFORTRAITEFFECT_B__44_0_OFFSET))(this, a1);
-		}
-
-		::System::Boolean __TryAssignBasicEquip_b__45_1(::RPG::Client::GridFightEquipItemData* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C___TRYASSIGNBASICEQUIP_B__45_1_OFFSET))(this, a1);
 		}
 
 	};

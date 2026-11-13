@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IGHLNPAPDBP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CECC590)
-#define IGHLNPAPDBP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CECCB60)
-#define IGHLNPAPDBP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CECC700)
-#define IGHLNPAPDBP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CECC000)
-#define IGHLNPAPDBP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CECC290)
-#define IGHLNPAPDBP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CECC7A0)
-#define IGHLNPAPDBP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CECC7F0)
-#define IGHLNPAPDBP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CECC5D0)
-#define IGHLNPAPDBP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CECC230)
-#define IGHLNPAPDBP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CECC400)
-#define IGHLNPAPDBP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CECC660)
-#define IGHLNPAPDBP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CECBF80)
+#define IGHLNPAPDBP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E6C7700)
+#define IGHLNPAPDBP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C7CD0)
+#define IGHLNPAPDBP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E6C7870)
+#define IGHLNPAPDBP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E6C7170)
+#define IGHLNPAPDBP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E6C7400)
+#define IGHLNPAPDBP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E6C7910)
+#define IGHLNPAPDBP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E6C7960)
+#define IGHLNPAPDBP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E6C7740)
+#define IGHLNPAPDBP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E6C73A0)
+#define IGHLNPAPDBP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E6C7570)
+#define IGHLNPAPDBP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E6C77D0)
+#define IGHLNPAPDBP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E6C70F0)
 
-inline static constexpr unsigned int IGHLNPAPDBP_TypeDefinitionIndex = 14088;
+inline static constexpr unsigned int IGHLNPAPDBP_TypeDefinitionIndex = 14245;
 
 	class IGHLNPAPDBP : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePuzzleDollyZoomTeleportRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePuzzleDollyZoomTeleportRow*>**)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x1F4C0);
+		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x21B10);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x1F4C8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x21B18);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePuzzleDollyZoomTeleportRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePuzzleDollyZoomTeleportRow*>**)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x21B20);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x7650);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x1F4D0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x7651);
+			return (::System::Byte*)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x69F0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "IGHLNPAPDBP")->GetStaticField(0x69F1);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_SubChainShapeType_TypeDefinitionIndex = 73582;
+	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_SubChainShapeType_TypeDefinitionIndex = 75705;
 
 	enum class Effect_ElectricChainV2Behavior_SubChainShapeType : ::System::Int32
 	{

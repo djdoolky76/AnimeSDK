@@ -3,10 +3,10 @@
 #include "unitysdk/DGBHGHNHBHO.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define FAINGEBCGFO_CTOR_OFFSET UNITYSDK_OFFSET(0x15673760)
-#define FAINGEBCGFO_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x15673750)
+#define FAINGEBCGFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2BFF0)
+#define FAINGEBCGFO_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x1BA2BFE0)
 
-inline static constexpr unsigned int FAINGEBCGFO_TypeDefinitionIndex = 76793;
+inline static constexpr unsigned int FAINGEBCGFO_TypeDefinitionIndex = 79127;
 
 	class FAINGEBCGFO : public ::DGBHGHNHBHO
 	{

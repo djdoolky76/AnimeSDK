@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ElementAt_TypeDefinitionIndex = 45354;
+	inline static constexpr unsigned int ElementAt_TypeDefinitionIndex = 46383;
 
 	class ElementAt : public ::System::Object
 	{

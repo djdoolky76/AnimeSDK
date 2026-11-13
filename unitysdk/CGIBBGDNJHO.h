@@ -5,9 +5,9 @@
 class OOCCBMLAELL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CGIBBGDNJHO_CTOR_OFFSET UNITYSDK_OFFSET(0xCC83DB0)
+#define CGIBBGDNJHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1785D0D0)
 
-inline static constexpr unsigned int CGIBBGDNJHO_TypeDefinitionIndex = 80587;
+inline static constexpr unsigned int CGIBBGDNJHO_TypeDefinitionIndex = 83367;
 
 	class CGIBBGDNJHO : public ::System::Object
 	{

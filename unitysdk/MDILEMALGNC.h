@@ -9,21 +9,21 @@ namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MDILEMALGNC_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB8A5620)
-#define MDILEMALGNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A5610)
-#define MDILEMALGNC_FMLAODJELFJ_OFFSET UNITYSDK_OFFSET(0xB8A57C0)
-#define MDILEMALGNC_JBIKAAECIEL_OFFSET UNITYSDK_OFFSET(0xB8A5770)
-#define MDILEMALGNC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB8A56E0)
+#define MDILEMALGNC_CTOR_1_OFFSET UNITYSDK_OFFSET(0x183E5540)
+#define MDILEMALGNC_CTOR_OFFSET UNITYSDK_OFFSET(0x183E5530)
+#define MDILEMALGNC_FMLAODJELFJ_OFFSET UNITYSDK_OFFSET(0x183E56E0)
+#define MDILEMALGNC_JBIKAAECIEL_OFFSET UNITYSDK_OFFSET(0x183E5690)
+#define MDILEMALGNC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x183E5600)
 
-inline static constexpr unsigned int MDILEMALGNC_TypeDefinitionIndex = 69610;
+inline static constexpr unsigned int MDILEMALGNC_TypeDefinitionIndex = 71567;
 
 	class MDILEMALGNC : public ::System::Object
 	{
 	public:
-		::RPG::Client::PipelineCameraGlobalConfig* LNJOKGMKCCH; // 0x10
-		::RPG::Client::PipelineCameraEngine* CFCHNJIKNCH; // 0x18
-		::RPG::Client::CameraDataAndFlags* FJCAKOIDONG; // 0x20
-		::RPG::Client::CameraModuleConfigCollection* OLJOLFIABHF; // 0x28
+		::RPG::Client::PipelineCameraEngine* CFCHNJIKNCH; // 0x10
+		::RPG::Client::CameraModuleConfigCollection* OLJOLFIABHF; // 0x18
+		::RPG::Client::PipelineCameraGlobalConfig* LNJOKGMKCCH; // 0x20
+		::RPG::Client::CameraDataAndFlags* FJCAKOIDONG; // 0x28
 		::RPG::Client::CameraModuleType GMPGDEINODK; // 0x30
 		::System::Void _ctor()
 		{

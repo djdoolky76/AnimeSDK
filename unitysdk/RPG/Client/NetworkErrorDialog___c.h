@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_NETWORKERRORDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9756D0)
-#define RPG_CLIENT_NETWORKERRORDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD975710)
-#define RPG_CLIENT_NETWORKERRORDIALOG___C__SHOWNETWORKERROR_B__0_0_OFFSET UNITYSDK_OFFSET(0xD975720)
+#define RPG_CLIENT_NETWORKERRORDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8C8AC0)
+#define RPG_CLIENT_NETWORKERRORDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C8B00)
+#define RPG_CLIENT_NETWORKERRORDIALOG___C__SHOWNETWORKERROR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B8C8B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkErrorDialog___c_TypeDefinitionIndex = 72723;
+	inline static constexpr unsigned int NetworkErrorDialog___c_TypeDefinitionIndex = 74802;
 
 	class NetworkErrorDialog___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F3D0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE3D0);
 		}
 
 		static ::System::Action** StaticGet___9__0_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F3D8);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE3D8);
 		}
 
 		static ::System::Void _cctor()

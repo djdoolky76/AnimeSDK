@@ -5,16 +5,16 @@
 class LGAJIAAJIJI;
 namespace RPG::GameCore { class LittleGameCustomVisibilityConfig; }
 
-#define IIAFMCJPKDE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB488E0)
-#define IIAFMCJPKDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB48940)
+#define IIAFMCJPKDE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EC35730)
+#define IIAFMCJPKDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC35790)
 
-inline static constexpr unsigned int IIAFMCJPKDE_TypeDefinitionIndex = 43299;
+inline static constexpr unsigned int IIAFMCJPKDE_TypeDefinitionIndex = 44280;
 
 	class IIAFMCJPKDE : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LittleGameCustomVisibilityConfig* EABKOHGCHFP; // 0x10
-		::LGAJIAAJIJI* NNANJMDMAOC; // 0x18
+		::LGAJIAAJIJI* NNANJMDMAOC; // 0x10
+		::RPG::GameCore::LittleGameCustomVisibilityConfig* EABKOHGCHFP; // 0x18
 		::FDOEFAEOPNC PBOCJBPJJOE; // 0x20
 		::System::Void _ctor()
 		{

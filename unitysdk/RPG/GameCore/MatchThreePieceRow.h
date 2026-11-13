@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreePieceRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEPIECEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82BDC0)
-#define RPG_GAMECORE_MATCHTHREEPIECEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82B740)
+#define RPG_GAMECORE_MATCHTHREEPIECEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB60140)
+#define RPG_GAMECORE_MATCHTHREEPIECEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB5FAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreePieceRow_TypeDefinitionIndex = 11913;
+	inline static constexpr unsigned int MatchThreePieceRow_TypeDefinitionIndex = 11970;
 
 	class MatchThreePieceRow : public ::System::Object
 	{
 	public:
-		::System::String* SquareBombPath; // 0x10
-		::System::String* RowBombPath; // 0x18
+		::System::String* RowBombPath; // 0x10
+		::System::String* SquareBombPath; // 0x18
 		::System::String* ImagePath; // 0x20
 		::System::UInt32 PieceID; // 0x28
 		::System::Void _ctor()

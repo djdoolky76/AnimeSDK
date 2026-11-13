@@ -4,10 +4,10 @@
 class JOMBGMMOHDE;
 namespace RPG::GameCore { class GameComponentBase; }
 
-#define JOMBGMMOHDE_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A2F80)
-#define JOMBGMMOHDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB2A2F30)
+#define JOMBGMMOHDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E5100)
+#define JOMBGMMOHDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1B4E50B0)
 
-inline static constexpr unsigned int JOMBGMMOHDE_TypeDefinitionIndex = 57568;
+inline static constexpr unsigned int JOMBGMMOHDE_TypeDefinitionIndex = 58796;
 
 	class JOMBGMMOHDE : public ::System::Object
 	{

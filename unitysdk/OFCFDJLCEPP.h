@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvClientChangePropState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OFCFDJLCEPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBE35C00)
-#define OFCFDJLCEPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE35C30)
+#define OFCFDJLCEPP_CTOR_OFFSET UNITYSDK_OFFSET(0x17664F10)
+#define OFCFDJLCEPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17664F40)
 
-inline static constexpr unsigned int OFCFDJLCEPP_TypeDefinitionIndex = 52343;
+inline static constexpr unsigned int OFCFDJLCEPP_TypeDefinitionIndex = 53449;
 
 	class OFCFDJLCEPP
 	{

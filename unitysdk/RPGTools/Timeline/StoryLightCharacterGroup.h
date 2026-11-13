@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryLightCharacterGroup_TypeDefinitionIndex = 48343;
+	inline static constexpr unsigned int StoryLightCharacterGroup_TypeDefinitionIndex = 49384;
 
 	struct alignas(8) StoryLightCharacterGroup
 	{

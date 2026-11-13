@@ -7,10 +7,10 @@ namespace RPG::Client { class CameraNormalConfigData; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace RPG::GameCore { class VCameraNoiseChange; }
 
-#define JBDGMDEOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x16559AE0)
-#define JBDGMDEOBIO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x16559A30)
+#define JBDGMDEOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x19A69960)
+#define JBDGMDEOBIO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x19A698B0)
 
-inline static constexpr unsigned int JBDGMDEOBIO_TypeDefinitionIndex = 69562;
+inline static constexpr unsigned int JBDGMDEOBIO_TypeDefinitionIndex = 71519;
 
 	class JBDGMDEOBIO : public ::System::Object
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TryRequestEnterRegion; }
 
-#define RPG_GAMECORE_TRYREQUESTENTERREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC33490)
-#define RPG_GAMECORE_TRYREQUESTENTERREGION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC33590)
-#define RPG_GAMECORE_TRYREQUESTENTERREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC33360)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33C680)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E33C780)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33C550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TryRequestEnterRegion_TypeDefinitionIndex = 20758;
+	inline static constexpr unsigned int TryRequestEnterRegion_TypeDefinitionIndex = 21095;
 
 	class TryRequestEnterRegion : public ::RPG::GameCore::TaskConfig
 	{

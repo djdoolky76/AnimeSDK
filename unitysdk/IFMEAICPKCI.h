@@ -8,12 +8,12 @@ namespace RPG::Client::Pet { class IPetInstanceRepository; }
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define IFMEAICPKCI_AGHCACKCDAM_OFFSET UNITYSDK_OFFSET(0x15F18AB0)
-#define IFMEAICPKCI_CTOR_OFFSET UNITYSDK_OFFSET(0x15EF5560)
-#define IFMEAICPKCI_DJEEPPHMNNI_OFFSET UNITYSDK_OFFSET(0x15F188F0)
-#define IFMEAICPKCI_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x15F188A0)
+#define IFMEAICPKCI_AGHCACKCDAM_OFFSET UNITYSDK_OFFSET(0x1BC20F30)
+#define IFMEAICPKCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF9E60)
+#define IFMEAICPKCI_DJEEPPHMNNI_OFFSET UNITYSDK_OFFSET(0x1BC20D70)
+#define IFMEAICPKCI_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x1BC20D20)
 
-inline static constexpr unsigned int IFMEAICPKCI_TypeDefinitionIndex = 75710;
+inline static constexpr unsigned int IFMEAICPKCI_TypeDefinitionIndex = 78037;
 
 	class IFMEAICPKCI : public ::System::Object
 	{

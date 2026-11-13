@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightDivisionConfig; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2657E0)
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD265820)
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION___C__GETDISPLAYDIVISIONCONFIGS_B__5_0_OFFSET UNITYSDK_OFFSET(0xD265830)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4F7670)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F76B0)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION___C__GETDISPLAYDIVISIONCONFIGS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D4F76C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSeasonDivision___c_TypeDefinitionIndex = 64542;
+	inline static constexpr unsigned int GridFightSeasonDivision___c_TypeDefinitionIndex = 66074;
 
 	class GridFightSeasonDivision___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::GridFightDivisionConfig*>** StaticGet___9__5_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::GridFightDivisionConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EAB0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EAB8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xDF20);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::GridFightDivisionConfig*>** StaticGet___9__5_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::GridFightDivisionConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xDF28);
 		}
 
 		static ::System::Void _cctor()

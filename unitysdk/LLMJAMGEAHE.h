@@ -5,9 +5,9 @@ namespace RPG::GameCore { class BlockNodeConfig; }
 namespace RPG::GameCore { class StageGrassOverrideConfig; }
 namespace System { class String; }
 
-#define LLMJAMGEAHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB76D8D0)
+#define LLMJAMGEAHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBDB30)
 
-inline static constexpr unsigned int LLMJAMGEAHE_TypeDefinitionIndex = 73922;
+inline static constexpr unsigned int LLMJAMGEAHE_TypeDefinitionIndex = 76058;
 
 	class LLMJAMGEAHE : public ::System::Object
 	{

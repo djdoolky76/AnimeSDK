@@ -4,18 +4,18 @@
 class ABGMGHNOONM;
 namespace System { class Object; }
 
-#define ABGMGHNOONM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD9EE10)
-#define ABGMGHNOONM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD9EE50)
-#define ABGMGHNOONM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DD9EE60)
+#define ABGMGHNOONM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2031C710)
+#define ABGMGHNOONM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2031C750)
+#define ABGMGHNOONM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2031C760)
 
-inline static constexpr unsigned int ABGMGHNOONM___c_TypeDefinitionIndex = 28820;
+inline static constexpr unsigned int ABGMGHNOONM___c_TypeDefinitionIndex = 29410;
 
 	class ABGMGHNOONM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30C10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34F30);
 		}
 
 		static ::System::Void _cctor()

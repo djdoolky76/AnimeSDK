@@ -6,9 +6,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MPBKPGBDOMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBA33430)
+#define MPBKPGBDOMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2206B0)
 
-inline static constexpr unsigned int MPBKPGBDOMF_TypeDefinitionIndex = 55837;
+inline static constexpr unsigned int MPBKPGBDOMF_TypeDefinitionIndex = 57040;
 
 	class MPBKPGBDOMF : public ::System::Object
 	{

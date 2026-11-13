@@ -3,7 +3,7 @@
 
 namespace AstraFX::Fireworks
 {
-	inline static constexpr unsigned int LaunchMode_TypeDefinitionIndex = 49025;
+	inline static constexpr unsigned int LaunchMode_TypeDefinitionIndex = 50095;
 
 	enum class LaunchMode : ::System::Int32
 	{

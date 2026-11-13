@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CHOEPDCHGMF_EFlexibleLimitSource_TypeDefinitionIndex = 57134;
+inline static constexpr unsigned int CHOEPDCHGMF_EFlexibleLimitSource_TypeDefinitionIndex = 58363;
 
 	enum class CHOEPDCHGMF_EFlexibleLimitSource : ::System::Int32
 	{

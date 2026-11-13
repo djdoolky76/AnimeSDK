@@ -9,11 +9,11 @@ namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PICMINKDDFA_FMAKAHMBAPF_1_OFFSET UNITYSDK_OFFSET(0xC2555B0)
-#define PICMINKDDFA_FMAKAHMBAPF_2_OFFSET UNITYSDK_OFFSET(0xC255640)
-#define PICMINKDDFA_FMAKAHMBAPF_OFFSET UNITYSDK_OFFSET(0xC2553A0)
+#define PICMINKDDFA_FMAKAHMBAPF_1_OFFSET UNITYSDK_OFFSET(0x1A9C19C0)
+#define PICMINKDDFA_FMAKAHMBAPF_2_OFFSET UNITYSDK_OFFSET(0x1A9C1A50)
+#define PICMINKDDFA_FMAKAHMBAPF_OFFSET UNITYSDK_OFFSET(0x1A9C17B0)
 
-inline static constexpr unsigned int PICMINKDDFA_TypeDefinitionIndex = 74597;
+inline static constexpr unsigned int PICMINKDDFA_TypeDefinitionIndex = 76745;
 
 	class PICMINKDDFA : public ::System::Object
 	{

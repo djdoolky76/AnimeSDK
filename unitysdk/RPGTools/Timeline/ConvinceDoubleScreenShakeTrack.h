@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8CAE60)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8CAFE0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D8EB700)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EB880)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceDoubleScreenShakeTrack_TypeDefinitionIndex = 48041;
+	inline static constexpr unsigned int ConvinceDoubleScreenShakeTrack_TypeDefinitionIndex = 49072;
 
 	class ConvinceDoubleScreenShakeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

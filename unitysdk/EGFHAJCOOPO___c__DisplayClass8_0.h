@@ -4,10 +4,10 @@
 class OJHMEHAHDNI;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define EGFHAJCOOPO___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14510A50)
-#define EGFHAJCOOPO___C__DISPLAYCLASS8_0__REQUESTDATAANDSHOWMAINPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14513670)
+#define EGFHAJCOOPO___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17C0C050)
+#define EGFHAJCOOPO___C__DISPLAYCLASS8_0__REQUESTDATAANDSHOWMAINPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x17C0EC70)
 
-inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass8_0_TypeDefinitionIndex = 81751;
+inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass8_0_TypeDefinitionIndex = 84532;
 
 	class EGFHAJCOOPO___c__DisplayClass8_0 : public ::System::Object
 	{

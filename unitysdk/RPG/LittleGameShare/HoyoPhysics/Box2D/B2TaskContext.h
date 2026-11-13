@@ -5,20 +5,20 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SensorHit.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C837A00)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE7B640)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TaskContext_TypeDefinitionIndex = 36791;
+	inline static constexpr unsigned int B2TaskContext_TypeDefinitionIndex = 37719;
 
 	class B2TaskContext : public ::System::Object
 	{
 	public:
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BitSet contactStateBitSet; // 0x10
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BitSet awakeIslandBitSet; // 0x20
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Array_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorHit> sensorHits; // 0x30
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Array_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorHit> sensorHits; // 0x10
 		::System::Byte _padding0[0x8];
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BitSet enlargedSimBitSet; // 0x40
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BitSet awakeIslandBitSet; // 0x20
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BitSet enlargedSimBitSet; // 0x30
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BitSet contactStateBitSet; // 0x40
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BitSet jointStateBitSet; // 0x50
 		::System::Int32 splitIslandId; // 0x60
 		::System::Single splitSleepTime; // 0x64

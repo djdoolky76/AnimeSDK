@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 
-#define GELEOLEEDHH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA5B1A0)
-#define GELEOLEEDHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA5B230)
-#define GELEOLEEDHH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA5B000)
-#define GELEOLEEDHH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA5B160)
+#define GELEOLEEDHH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C225930)
+#define GELEOLEEDHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2259C0)
+#define GELEOLEEDHH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C225790)
+#define GELEOLEEDHH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C2258F0)
 
-inline static constexpr unsigned int GELEOLEEDHH_TypeDefinitionIndex = 43318;
+inline static constexpr unsigned int GELEOLEEDHH_TypeDefinitionIndex = 44299;
 
 	class GELEOLEEDHH : public ::System::Object
 	{
 	public:
-		::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* OHOBDOJJKEE; // 0x10
-		::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* JKNPFKEAJPE; // 0x18
+		::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* JKNPFKEAJPE; // 0x10
+		::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* OHOBDOJJKEE; // 0x18
 		::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* DJDDDPCHCCP; // 0x20
 		::System::Void _ctor()
 		{

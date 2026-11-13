@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HHLOEMDFFMG_TypeDefinitionIndex = 79647;
+inline static constexpr unsigned int HHLOEMDFFMG_TypeDefinitionIndex = 82424;
 
 	class HHLOEMDFFMG
 	{

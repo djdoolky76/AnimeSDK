@@ -5,19 +5,19 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF17580)
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_1__SHOWPAYAGELIMITNEWFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BF17590)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF93C20)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_1__SHOWPAYAGELIMITNEWFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BF93C30)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass9_1_TypeDefinitionIndex = 8719;
+	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass9_1_TypeDefinitionIndex = 8728;
 
 	template <typename T>
 	class PayErrorHandler___c__DisplayClass9_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
-		::System::String* cookieToken; // 0x18
+		::System::String* cookieToken; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 		::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ret; // 0x20
 		::System::Void _ctor()
 		{

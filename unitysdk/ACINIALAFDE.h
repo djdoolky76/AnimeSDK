@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ACINIALAFDE_TypeDefinitionIndex = 25272;
+inline static constexpr unsigned int ACINIALAFDE_TypeDefinitionIndex = 25750;
 
 	enum class ACINIALAFDE : ::System::Int32
 	{

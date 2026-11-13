@@ -6,10 +6,10 @@
 class IOLIAAFBFON;
 class WaveSimPanel;
 
-#define KKAKDKDKNKM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB45B510)
-#define KKAKDKDKNKM___C__DISPLAYCLASS9_0__TRIGGERFALLEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB45CA00)
+#define KKAKDKDKNKM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17337200)
+#define KKAKDKDKNKM___C__DISPLAYCLASS9_0__TRIGGERFALLEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17338710)
 
-inline static constexpr unsigned int KKAKDKDKNKM___c__DisplayClass9_0_TypeDefinitionIndex = 70866;
+inline static constexpr unsigned int KKAKDKDKNKM___c__DisplayClass9_0_TypeDefinitionIndex = 72845;
 
 	class KKAKDKDKNKM___c__DisplayClass9_0 : public ::System::Object
 	{

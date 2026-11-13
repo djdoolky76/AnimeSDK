@@ -7,7 +7,7 @@ namespace Cysharp::Threading::Tasks::Internal { template <typename T> class Mini
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 38652;
+	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 39581;
 
 	template <typename T>
 	class ArrayPool_1 : public ::System::Object

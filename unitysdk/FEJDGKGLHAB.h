@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HFHPLJLKOKJ;
 
-#define FEJDGKGLHAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA3E480)
+#define FEJDGKGLHAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C208C20)
 
-inline static constexpr unsigned int FEJDGKGLHAB_TypeDefinitionIndex = 42363;
+inline static constexpr unsigned int FEJDGKGLHAB_TypeDefinitionIndex = 43338;
 
 	class FEJDGKGLHAB : public ::System::Object
 	{

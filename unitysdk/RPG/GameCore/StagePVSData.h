@@ -7,12 +7,12 @@ namespace RPG::GameCore { class OfflineCullingLod; }
 namespace RPG::GameCore { class StageLightData; }
 namespace RPG::GameCore { class StagePVSData; }
 
-#define RPG_GAMECORE_STAGEPVSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE40A0)
-#define RPG_GAMECORE_STAGEPVSDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE3C30)
+#define RPG_GAMECORE_STAGEPVSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B7600)
+#define RPG_GAMECORE_STAGEPVSDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B7190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePVSData_TypeDefinitionIndex = 19174;
+	inline static constexpr unsigned int StagePVSData_TypeDefinitionIndex = 19364;
 
 	class StagePVSData : public ::RPG::GameCore::JsonConfig
 	{

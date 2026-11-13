@@ -8,20 +8,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Transform; }
 
-#define NJMCHDHCHOL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC14DA0)
-#define NJMCHDHCHOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC14E20)
-#define NJMCHDHCHOL_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBC14E80)
-#define NJMCHDHCHOL_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBC15100)
-#define NJMCHDHCHOL_KHILLALHDJC_OFFSET UNITYSDK_OFFSET(0xBC14F70)
+#define NJMCHDHCHOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7972D0)
+#define NJMCHDHCHOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A797350)
+#define NJMCHDHCHOL_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1A7973B0)
+#define NJMCHDHCHOL_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1A797630)
+#define NJMCHDHCHOL_KHILLALHDJC_OFFSET UNITYSDK_OFFSET(0x1A7974A0)
 
-inline static constexpr unsigned int NJMCHDHCHOL_TypeDefinitionIndex = 57498;
+inline static constexpr unsigned int NJMCHDHCHOL_TypeDefinitionIndex = 58726;
 
 	class NJMCHDHCHOL : public ::EDLDHDMLJDH
 	{
 	public:
 		::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>* ILEMLGEGLCC; // 0xA0
-		::UnityEngine::Transform* MELOKNOIJPA; // 0xA8
-		::UnityEngine::Transform* MMIPMDKKPNN; // 0xB0
+		::UnityEngine::Transform* MMIPMDKKPNN; // 0xA8
+		::UnityEngine::Transform* MELOKNOIJPA; // 0xB0
 		::System::Boolean IBMOGFCHNBN; // 0xB8
 		::System::Byte _padding0[0x3];
 		::System::Int32 KKPGNHCACEB; // 0xBC

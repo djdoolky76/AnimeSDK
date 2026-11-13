@@ -4,11 +4,11 @@
 namespace RPG::Client { class BlendConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CINEMACHINEBRAINBLENDCONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0xCB68740)
+#define RPG_CLIENT_CINEMACHINEBRAINBLENDCONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFBE90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CinemachineBrainBlendConfigs_TypeDefinitionIndex = 69700;
+	inline static constexpr unsigned int CinemachineBrainBlendConfigs_TypeDefinitionIndex = 71657;
 
 	class CinemachineBrainBlendConfigs : public ::UnityEngine::ScriptableObject
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OFPMAOGICKP_CTOR_OFFSET UNITYSDK_OFFSET(0xBE464C0)
-#define OFPMAOGICKP_EEBLEFFIHBP_OFFSET UNITYSDK_OFFSET(0xBE46420)
+#define OFPMAOGICKP_CTOR_OFFSET UNITYSDK_OFFSET(0x18DF4650)
+#define OFPMAOGICKP_EEBLEFFIHBP_OFFSET UNITYSDK_OFFSET(0x18DF45A0)
 
-inline static constexpr unsigned int OFPMAOGICKP_TypeDefinitionIndex = 62658;
+inline static constexpr unsigned int OFPMAOGICKP_TypeDefinitionIndex = 64092;
 
 	class OFPMAOGICKP : public ::System::Object
 	{

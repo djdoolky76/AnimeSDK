@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveMazeBuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKNNFMPDHLK_CTOR_OFFSET UNITYSDK_OFFSET(0x15504330)
-#define EKNNFMPDHLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15504360)
+#define EKNNFMPDHLK_CTOR_OFFSET UNITYSDK_OFFSET(0x19999B70)
+#define EKNNFMPDHLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19999BA0)
 
-inline static constexpr unsigned int EKNNFMPDHLK_TypeDefinitionIndex = 58388;
+inline static constexpr unsigned int EKNNFMPDHLK_TypeDefinitionIndex = 59644;
 
 	class EKNNFMPDHLK
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xE2CA4B0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xE2CA5D0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C623220)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C623350)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_NormalItemComparer_TypeDefinitionIndex = 74293;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_NormalItemComparer_TypeDefinitionIndex = 76441;
 
 	class TrainPartyBuildDisplayWallContext_NormalItemComparer : public ::System::Object
 	{

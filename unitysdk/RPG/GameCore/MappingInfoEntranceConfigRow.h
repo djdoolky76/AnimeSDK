@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MappingInfoEntranceConfigRow; }
 
-#define RPG_GAMECORE_MAPPINGINFOENTRANCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D807440)
-#define RPG_GAMECORE_MAPPINGINFOENTRANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D806EE0)
+#define RPG_GAMECORE_MAPPINGINFOENTRANCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F091500)
+#define RPG_GAMECORE_MAPPINGINFOENTRANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F090FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MappingInfoEntranceConfigRow_TypeDefinitionIndex = 12582;
+	inline static constexpr unsigned int MappingInfoEntranceConfigRow_TypeDefinitionIndex = 12649;
 
 	class MappingInfoEntranceConfigRow : public ::System::Object
 	{

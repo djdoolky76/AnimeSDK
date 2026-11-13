@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AdvFireStimulus; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVFIRESTIMULUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D371460)
-#define RPG_GAMECORE_ADVFIRESTIMULUS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D371470)
-#define RPG_GAMECORE_ADVFIRESTIMULUS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D371430)
+#define RPG_GAMECORE_ADVFIRESTIMULUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB8D50)
+#define RPG_GAMECORE_ADVFIRESTIMULUS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAB8D60)
+#define RPG_GAMECORE_ADVFIRESTIMULUS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB8D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvFireStimulus_TypeDefinitionIndex = 20558;
+	inline static constexpr unsigned int AdvFireStimulus_TypeDefinitionIndex = 20894;
 
 	class AdvFireStimulus : public ::RPG::GameCore::TaskConfig
 	{

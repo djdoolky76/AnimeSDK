@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OCLACMHKMFO_TypeDefinitionIndex = 25729;
+inline static constexpr unsigned int OCLACMHKMFO_TypeDefinitionIndex = 26226;
 
 	enum class OCLACMHKMFO : ::System::Int32
 	{

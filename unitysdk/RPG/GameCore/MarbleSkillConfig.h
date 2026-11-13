@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleSkillConfig; }
 namespace RPG::GameCore { class MarbleTaskConfig; }
 
-#define RPG_GAMECORE_MARBLESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81B7F0)
-#define RPG_GAMECORE_MARBLESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81B120)
+#define RPG_GAMECORE_MARBLESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4FC60)
+#define RPG_GAMECORE_MARBLESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB4F590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSkillConfig_TypeDefinitionIndex = 16898;
+	inline static constexpr unsigned int MarbleSkillConfig_TypeDefinitionIndex = 17065;
 
 	class MarbleSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

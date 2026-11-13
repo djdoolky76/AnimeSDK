@@ -4,18 +4,18 @@
 class PIOJJEGMOOF;
 namespace System { class Object; }
 
-#define PIOJJEGMOOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF45500)
-#define PIOJJEGMOOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF45540)
-#define PIOJJEGMOOF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF45550)
+#define PIOJJEGMOOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20559F10)
+#define PIOJJEGMOOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20559F50)
+#define PIOJJEGMOOF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20559F60)
 
-inline static constexpr unsigned int PIOJJEGMOOF___c_TypeDefinitionIndex = 29937;
+inline static constexpr unsigned int PIOJJEGMOOF___c_TypeDefinitionIndex = 30835;
 
 	class PIOJJEGMOOF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35D40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E3D0);
 		}
 
 		static ::System::Void _cctor()

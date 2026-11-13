@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPamNormalAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILDAHELBCKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1649B670)
-#define ILDAHELBCKK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1649B6A0)
+#define ILDAHELBCKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B58AB50)
+#define ILDAHELBCKK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B58AB80)
 
-inline static constexpr unsigned int ILDAHELBCKK_TypeDefinitionIndex = 53160;
+inline static constexpr unsigned int ILDAHELBCKK_TypeDefinitionIndex = 54322;
 
 	class ILDAHELBCKK
 	{

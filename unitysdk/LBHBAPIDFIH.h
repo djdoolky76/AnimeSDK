@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class ChimeraDuelBubbleData; }
 
-#define LBHBAPIDFIH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F4DA0)
-#define LBHBAPIDFIH_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0xB5F4D40)
+#define LBHBAPIDFIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B299150)
+#define LBHBAPIDFIH_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0x1B2990F0)
 
-inline static constexpr unsigned int LBHBAPIDFIH_TypeDefinitionIndex = 78291;
+inline static constexpr unsigned int LBHBAPIDFIH_TypeDefinitionIndex = 81026;
 
 	class LBHBAPIDFIH : public ::System::Object
 	{

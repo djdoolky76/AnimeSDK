@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropUnloadHitBox; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDCNLKFDIOA_CTOR_OFFSET UNITYSDK_OFFSET(0x165B00E0)
-#define JDCNLKFDIOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165B0110)
+#define JDCNLKFDIOA_CTOR_OFFSET UNITYSDK_OFFSET(0x16981540)
+#define JDCNLKFDIOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16981570)
 
-inline static constexpr unsigned int JDCNLKFDIOA_TypeDefinitionIndex = 58363;
+inline static constexpr unsigned int JDCNLKFDIOA_TypeDefinitionIndex = 59619;
 
 	class JDCNLKFDIOA
 	{

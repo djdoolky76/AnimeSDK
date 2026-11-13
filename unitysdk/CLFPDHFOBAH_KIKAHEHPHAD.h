@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLFPDHFOBAH_KIKAHEHPHAD_NADHPCNENFL_OFFSET UNITYSDK_OFFSET(0xD7784B0)
+#define CLFPDHFOBAH_KIKAHEHPHAD_NADHPCNENFL_OFFSET UNITYSDK_OFFSET(0x1AD61CD0)
 
-inline static constexpr unsigned int CLFPDHFOBAH_KIKAHEHPHAD_TypeDefinitionIndex = 47129;
+inline static constexpr unsigned int CLFPDHFOBAH_KIKAHEHPHAD_TypeDefinitionIndex = 48157;
 
 	class CLFPDHFOBAH_KIKAHEHPHAD : public ::System::Object
 	{

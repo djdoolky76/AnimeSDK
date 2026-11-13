@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RequestMissionCustomValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGBBBLJMCGO_CTOR_OFFSET UNITYSDK_OFFSET(0xB90E5A0)
-#define MGBBBLJMCGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB90E5D0)
+#define MGBBBLJMCGO_CTOR_OFFSET UNITYSDK_OFFSET(0x17C9EA60)
+#define MGBBBLJMCGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17C9EA90)
 
-inline static constexpr unsigned int MGBBBLJMCGO_TypeDefinitionIndex = 53202;
+inline static constexpr unsigned int MGBBBLJMCGO_TypeDefinitionIndex = 54364;
 
 	class MGBBBLJMCGO
 	{

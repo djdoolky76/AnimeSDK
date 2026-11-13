@@ -4,12 +4,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Light; }
 
-#define RPG_CUSTOMRP_OBJECTLIGHTBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0C020)
-#define RPG_CUSTOMRP_OBJECTLIGHTBIND_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CC0C010)
+#define RPG_CUSTOMRP_OBJECTLIGHTBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x198D3000)
+#define RPG_CUSTOMRP_OBJECTLIGHTBIND_ONENABLE_OFFSET UNITYSDK_OFFSET(0x198D2FF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ObjectLightBind_TypeDefinitionIndex = 37641;
+	inline static constexpr unsigned int ObjectLightBind_TypeDefinitionIndex = 38569;
 
 	class ObjectLightBind : public ::UnityEngine::MonoBehaviour
 	{

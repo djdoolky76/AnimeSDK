@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviour.h"
 
-#define SRDEBUGGER_UI_OTHER_LOADINGSPINNERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED36270)
-#define SRDEBUGGER_UI_OTHER_LOADINGSPINNERBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED36040)
+#define SRDEBUGGER_UI_OTHER_LOADINGSPINNERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D451960)
+#define SRDEBUGGER_UI_OTHER_LOADINGSPINNERBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D451730)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int LoadingSpinnerBehaviour_TypeDefinitionIndex = 38008;
+	inline static constexpr unsigned int LoadingSpinnerBehaviour_TypeDefinitionIndex = 38937;
 
 	class LoadingSpinnerBehaviour : public ::SRF::SRMonoBehaviour
 	{

@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class KFELGAIGHAP;
 
-#define IGCBDPPGKMD_CTOR_OFFSET UNITYSDK_OFFSET(0x163E7410)
+#define IGCBDPPGKMD_CTOR_OFFSET UNITYSDK_OFFSET(0x19F43210)
 
-inline static constexpr unsigned int IGCBDPPGKMD_TypeDefinitionIndex = 54106;
+inline static constexpr unsigned int IGCBDPPGKMD_TypeDefinitionIndex = 55270;
 
 	class IGCBDPPGKMD : public ::System::Object
 	{

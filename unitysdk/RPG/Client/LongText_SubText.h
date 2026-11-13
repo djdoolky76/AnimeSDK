@@ -5,17 +5,17 @@ namespace UnityEngine { class CanvasRenderer; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LONGTEXT_SUBTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xD4A6990)
+#define RPG_CLIENT_LONGTEXT_SUBTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1945B940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LongText_SubText_TypeDefinitionIndex = 72569;
+	inline static constexpr unsigned int LongText_SubText_TypeDefinitionIndex = 74648;
 
 	class LongText_SubText : public ::System::Object
 	{
 	public:
-		::UnityEngine::CanvasRenderer* renderer; // 0x10
-		::UnityEngine::GameObject* go; // 0x18
+		::UnityEngine::GameObject* go; // 0x10
+		::UnityEngine::CanvasRenderer* renderer; // 0x18
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Int32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SUBTEXT_CTOR_OFFSET))(this, a1, a2);

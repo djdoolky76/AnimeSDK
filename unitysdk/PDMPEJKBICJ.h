@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTargetCustomUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PDMPEJKBICJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC01A110)
-#define PDMPEJKBICJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC01A140)
+#define PDMPEJKBICJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF25F0)
+#define PDMPEJKBICJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AAF2620)
 
-inline static constexpr unsigned int PDMPEJKBICJ_TypeDefinitionIndex = 54691;
+inline static constexpr unsigned int PDMPEJKBICJ_TypeDefinitionIndex = 55857;
 
 	class PDMPEJKBICJ
 	{

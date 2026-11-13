@@ -4,18 +4,18 @@
 class JGAMELLGLGE;
 namespace System { class Object; }
 
-#define JGAMELLGLGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E706F40)
-#define JGAMELLGLGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E706F80)
-#define JGAMELLGLGE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E706F90)
+#define JGAMELLGLGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206281C0)
+#define JGAMELLGLGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20628200)
+#define JGAMELLGLGE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20628210)
 
-inline static constexpr unsigned int JGAMELLGLGE___c_TypeDefinitionIndex = 34191;
+inline static constexpr unsigned int JGAMELLGLGE___c_TypeDefinitionIndex = 35119;
 
 	class JGAMELLGLGE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DED0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FE00);
 		}
 
 		static ::System::Void _cctor()

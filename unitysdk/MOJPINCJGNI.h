@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class SetDynamicValueByProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOJPINCJGNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2D1B0)
+#define MOJPINCJGNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B21A380)
 
-inline static constexpr unsigned int MOJPINCJGNI_TypeDefinitionIndex = 55460;
+inline static constexpr unsigned int MOJPINCJGNI_TypeDefinitionIndex = 56648;
 
 	class MOJPINCJGNI : public ::DNOPKLPLACJ
 	{

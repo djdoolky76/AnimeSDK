@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class IronTombNormalModeThresholdConfig; }
 namespace RPG::GameCore { class SetIronTombProgress; }
 
-#define RPG_GAMECORE_SETIRONTOMBPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA896D0)
-#define RPG_GAMECORE_SETIRONTOMBPROGRESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA896E0)
-#define RPG_GAMECORE_SETIRONTOMBPROGRESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA89690)
+#define RPG_GAMECORE_SETIRONTOMBPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D6FE0)
+#define RPG_GAMECORE_SETIRONTOMBPROGRESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D6FF0)
+#define RPG_GAMECORE_SETIRONTOMBPROGRESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D6FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetIronTombProgress_TypeDefinitionIndex = 22802;
+	inline static constexpr unsigned int SetIronTombProgress_TypeDefinitionIndex = 23224;
 
 	class SetIronTombProgress : public ::RPG::GameCore::TaskConfig
 	{

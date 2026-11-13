@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetLevelFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFLPOEJJCGC_CTOR_OFFSET UNITYSDK_OFFSET(0x16643590)
-#define JFLPOEJJCGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166435C0)
+#define JFLPOEJJCGC_CTOR_OFFSET UNITYSDK_OFFSET(0x19339BB0)
+#define JFLPOEJJCGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19339BE0)
 
-inline static constexpr unsigned int JFLPOEJJCGC_TypeDefinitionIndex = 58551;
+inline static constexpr unsigned int JFLPOEJJCGC_TypeDefinitionIndex = 59816;
 
 	class JFLPOEJJCGC
 	{

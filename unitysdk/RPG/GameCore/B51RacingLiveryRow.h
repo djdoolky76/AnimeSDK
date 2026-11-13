@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class B51RacingLiveryRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_B51RACINGLIVERYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4062C0)
-#define RPG_GAMECORE_B51RACINGLIVERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4060D0)
+#define RPG_GAMECORE_B51RACINGLIVERYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2FA1E0)
+#define RPG_GAMECORE_B51RACINGLIVERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2F9FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingLiveryRow_TypeDefinitionIndex = 10952;
+	inline static constexpr unsigned int B51RacingLiveryRow_TypeDefinitionIndex = 10968;
 
 	class B51RacingLiveryRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* AssetPath; // 0x18
+		::System::String* AssetPath; // 0x10
+		::System::String* IconPath; // 0x18
 		::System::UInt32 ID; // 0x20
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Name; // 0x28

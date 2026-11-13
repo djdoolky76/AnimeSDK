@@ -6,10 +6,10 @@ class PKBOFOOJCGL;
 namespace RPG::GameCore { class HipplenIncidentRandomStepConfig; }
 namespace RPG::GameCore { class HipplenIncidentStepConfig; }
 
-#define IBGLNMIFFJI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15E25450)
-#define IBGLNMIFFJI_ODHGGOOEIAC_OFFSET UNITYSDK_OFFSET(0x15E256D0)
+#define IBGLNMIFFJI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x188AF350)
+#define IBGLNMIFFJI_ODHGGOOEIAC_OFFSET UNITYSDK_OFFSET(0x188AF5D0)
 
-inline static constexpr unsigned int IBGLNMIFFJI_TypeDefinitionIndex = 75554;
+inline static constexpr unsigned int IBGLNMIFFJI_TypeDefinitionIndex = 77881;
 
 	class IBGLNMIFFJI : public ::System::Object
 	{

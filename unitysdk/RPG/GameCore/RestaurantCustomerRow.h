@@ -7,26 +7,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantCustomerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTCUSTOMERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D962700)
-#define RPG_GAMECORE_RESTAURANTCUSTOMERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D962390)
+#define RPG_GAMECORE_RESTAURANTCUSTOMERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20726B60)
+#define RPG_GAMECORE_RESTAURANTCUSTOMERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x207267F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantCustomerRow_TypeDefinitionIndex = 11363;
+	inline static constexpr unsigned int RestaurantCustomerRow_TypeDefinitionIndex = 11414;
 
 	class RestaurantCustomerRow : public ::System::Object
 	{
 	public:
-		::System::String* IMGPath; // 0x10
-		::System::String* IconPath; // 0x18
-		::System::String* Model; // 0x20
-		::System::UInt32 ConfigID; // 0x28
-		::RPG::GameCore::RestaurantCustomerType Type; // 0x2C
-		::System::UInt32 CustomerID; // 0x30
-		::System::UInt32 BehaviorID; // 0x34
-		::RPG::Client::TextID Name; // 0x38
-		::System::UInt32 GroupID; // 0x48
-		::System::UInt32 NPCID; // 0x4C
+		::System::String* IconPath; // 0x10
+		::System::String* Model; // 0x18
+		::System::String* IMGPath; // 0x20
+		::System::UInt32 BehaviorID; // 0x28
+		::System::UInt32 GroupID; // 0x2C
+		::RPG::Client::TextID Name; // 0x30
+		::RPG::GameCore::RestaurantCustomerType Type; // 0x40
+		::System::UInt32 NPCID; // 0x44
+		::System::UInt32 CustomerID; // 0x48
+		::System::UInt32 ConfigID; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTCUSTOMERROW_CTOR_OFFSET))(this);

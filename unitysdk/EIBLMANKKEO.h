@@ -4,11 +4,11 @@ namespace RPG::GameCore { class AttachEntityDeparted; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define EIBLMANKKEO_CTOR_OFFSET UNITYSDK_OFFSET(0x154AFF40)
-#define EIBLMANKKEO_HKIGAJAMNFG_OFFSET UNITYSDK_OFFSET(0x154B0020)
-#define EIBLMANKKEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154AFF70)
+#define EIBLMANKKEO_CTOR_OFFSET UNITYSDK_OFFSET(0x19A893A0)
+#define EIBLMANKKEO_HKIGAJAMNFG_OFFSET UNITYSDK_OFFSET(0x19A89480)
+#define EIBLMANKKEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A893D0)
 
-inline static constexpr unsigned int EIBLMANKKEO_TypeDefinitionIndex = 54856;
+inline static constexpr unsigned int EIBLMANKKEO_TypeDefinitionIndex = 56026;
 
 	class EIBLMANKKEO
 	{

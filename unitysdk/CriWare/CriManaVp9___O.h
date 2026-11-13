@@ -5,14 +5,14 @@ namespace System { class Action; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaVp9___O_TypeDefinitionIndex = 40203;
+	inline static constexpr unsigned int CriManaVp9___O_TypeDefinitionIndex = 41178;
 
 	class CriManaVp9___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0___SetupVp9Decoder()
 		{
-			return (::System::Action**)UnitySDK::FromName("CriWare", "<>O")->GetStaticField(0x593F0);
+			return (::System::Action**)UnitySDK::FromName("CriWare", "<>O")->GetStaticField(0x5E3F0);
 		}
 
 	};

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BBAAOCLHKGH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E74030)
+#define BBAAOCLHKGH_CTOR_OFFSET UNITYSDK_OFFSET(0x199EC110)
 
-inline static constexpr unsigned int BBAAOCLHKGH_TypeDefinitionIndex = 81646;
+inline static constexpr unsigned int BBAAOCLHKGH_TypeDefinitionIndex = 84427;
 
 	class BBAAOCLHKGH : public ::System::Object
 	{

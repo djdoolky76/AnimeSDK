@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PHHBEONLPNB_CTOR_OFFSET UNITYSDK_OFFSET(0xC244000)
+#define PHHBEONLPNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9AD3F0)
 
-inline static constexpr unsigned int PHHBEONLPNB_TypeDefinitionIndex = 79651;
+inline static constexpr unsigned int PHHBEONLPNB_TypeDefinitionIndex = 82428;
 
 	class PHHBEONLPNB : public ::System::Object
 	{

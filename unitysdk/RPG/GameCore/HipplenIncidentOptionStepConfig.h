@@ -6,13 +6,13 @@ namespace RPG::GameCore { class HipplenIncidentOptionConfig; }
 namespace RPG::GameCore { class HipplenIncidentOptionStepConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONSTEPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73FC30)
-#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONSTEPCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D73FC40)
-#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONSTEPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73FBE0)
+#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONSTEPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE78C10)
+#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONSTEPCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE78C20)
+#define RPG_GAMECORE_HIPPLENINCIDENTOPTIONSTEPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE78BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenIncidentOptionStepConfig_TypeDefinitionIndex = 16806;
+	inline static constexpr unsigned int HipplenIncidentOptionStepConfig_TypeDefinitionIndex = 16973;
 
 	class HipplenIncidentOptionStepConfig : public ::RPG::GameCore::HipplenIncidentStepConfig
 	{

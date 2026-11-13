@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterVisiblityFollowFlag_TypeDefinitionIndex = 24644;
+	inline static constexpr unsigned int CharacterVisiblityFollowFlag_TypeDefinitionIndex = 25116;
 
 	enum class CharacterVisiblityFollowFlag : ::System::UInt16
 	{

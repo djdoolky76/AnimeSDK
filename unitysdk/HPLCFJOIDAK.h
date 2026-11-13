@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByShield; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HPLCFJOIDAK_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC4BB0)
-#define HPLCFJOIDAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DC4C90)
+#define HPLCFJOIDAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3EC70)
+#define HPLCFJOIDAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AF3ED50)
 
-inline static constexpr unsigned int HPLCFJOIDAK_TypeDefinitionIndex = 55465;
+inline static constexpr unsigned int HPLCFJOIDAK_TypeDefinitionIndex = 56653;
 
 	class HPLCFJOIDAK
 	{

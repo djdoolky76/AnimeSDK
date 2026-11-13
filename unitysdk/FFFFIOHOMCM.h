@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetFetchTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FFFFIOHOMCM_CTOR_OFFSET UNITYSDK_OFFSET(0x15728F40)
-#define FFFFIOHOMCM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15728FB0)
+#define FFFFIOHOMCM_CTOR_OFFSET UNITYSDK_OFFSET(0x130DAC00)
+#define FFFFIOHOMCM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x130DAC70)
 
-inline static constexpr unsigned int FFFFIOHOMCM_TypeDefinitionIndex = 53796;
+inline static constexpr unsigned int FFFFIOHOMCM_TypeDefinitionIndex = 54960;
 
 	class FFFFIOHOMCM
 	{

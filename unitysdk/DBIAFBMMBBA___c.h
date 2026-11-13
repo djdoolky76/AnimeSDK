@@ -6,23 +6,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DBIAFBMMBBA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFD96B0)
-#define DBIAFBMMBBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD96F0)
-#define DBIAFBMMBBA___C___CREATESNAPSHOT_B__31_1_OFFSET UNITYSDK_OFFSET(0xDFD9700)
+#define DBIAFBMMBBA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B14C3C0)
+#define DBIAFBMMBBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B14C400)
+#define DBIAFBMMBBA___C___CREATESNAPSHOT_B__31_1_OFFSET UNITYSDK_OFFSET(0x1B14C410)
 
-inline static constexpr unsigned int DBIAFBMMBBA___c_TypeDefinitionIndex = 79554;
+inline static constexpr unsigned int DBIAFBMMBBA___c_TypeDefinitionIndex = 82331;
 
 	class DBIAFBMMBBA___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59330);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__31_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59338);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54100);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54108);
 		}
 
 		static ::System::Void _cctor()

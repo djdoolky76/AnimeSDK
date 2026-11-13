@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IRogueTournPersonaStyle; }
 
-#define LMGDNCNDAKK_CTOR_OFFSET UNITYSDK_OFFSET(0xB77A070)
-#define LMGDNCNDAKK_GET_STYLE_OFFSET UNITYSDK_OFFSET(0xB77A0D0)
-#define LMGDNCNDAKK_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB77A080)
+#define LMGDNCNDAKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCA2D0)
+#define LMGDNCNDAKK_GET_STYLE_OFFSET UNITYSDK_OFFSET(0x1AFCA330)
+#define LMGDNCNDAKK_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1AFCA2E0)
 
-inline static constexpr unsigned int LMGDNCNDAKK_TypeDefinitionIndex = 67038;
+inline static constexpr unsigned int LMGDNCNDAKK_TypeDefinitionIndex = 68982;
 
 	class LMGDNCNDAKK : public ::System::Object
 	{

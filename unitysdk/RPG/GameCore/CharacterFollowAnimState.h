@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CharacterFollowAnimState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D543A60)
-#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D543A70)
-#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D543A20)
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F345210)
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F345220)
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3451D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterFollowAnimState_TypeDefinitionIndex = 22426;
+	inline static constexpr unsigned int CharacterFollowAnimState_TypeDefinitionIndex = 22835;
 
 	class CharacterFollowAnimState : public ::RPG::GameCore::TaskConfig
 	{

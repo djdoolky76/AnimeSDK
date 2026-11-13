@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPFEILBIAGP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D217D00)
-#define NPFEILBIAGP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D218280)
-#define NPFEILBIAGP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D217E70)
-#define NPFEILBIAGP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2177B0)
-#define NPFEILBIAGP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D217A40)
-#define NPFEILBIAGP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D217F10)
-#define NPFEILBIAGP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D217F60)
-#define NPFEILBIAGP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D217D40)
-#define NPFEILBIAGP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2179E0)
-#define NPFEILBIAGP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D217B70)
-#define NPFEILBIAGP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D217DD0)
-#define NPFEILBIAGP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D217730)
+#define NPFEILBIAGP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E5F0E80)
+#define NPFEILBIAGP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5F1400)
+#define NPFEILBIAGP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E5F0FF0)
+#define NPFEILBIAGP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E5F0930)
+#define NPFEILBIAGP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E5F0BC0)
+#define NPFEILBIAGP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E5F1090)
+#define NPFEILBIAGP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E5F10E0)
+#define NPFEILBIAGP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E5F0EC0)
+#define NPFEILBIAGP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E5F0B60)
+#define NPFEILBIAGP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E5F0CF0)
+#define NPFEILBIAGP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E5F0F50)
+#define NPFEILBIAGP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E5F08B0)
 
-inline static constexpr unsigned int NPFEILBIAGP_TypeDefinitionIndex = 12923;
+inline static constexpr unsigned int NPFEILBIAGP_TypeDefinitionIndex = 12995;
 
 	class NPFEILBIAGP : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingClubActivityQuestConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingClubActivityQuestConfigRow*>**)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0x42810);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0x42818);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingClubActivityQuestConfigRow*>**)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0x54CD0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0x42820);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0x54CD8);
 		}
 
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0xFCA0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0x54CE0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0xFCA1);
+			return (::System::Boolean*)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0x12280);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "NPFEILBIAGP")->GetStaticField(0x12281);
 		}
 
 		static ::System::Void _cctor()

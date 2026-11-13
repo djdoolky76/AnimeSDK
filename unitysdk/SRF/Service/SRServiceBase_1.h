@@ -4,7 +4,7 @@
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceBase_1_TypeDefinitionIndex = 35415;
+	inline static constexpr unsigned int SRServiceBase_1_TypeDefinitionIndex = 36343;
 
 	template <typename T>
 	class SRServiceBase_1 : public ::SRF::SRMonoBehaviourEx

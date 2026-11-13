@@ -5,22 +5,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SKillNavigationConfigRow; }
 
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA410A0)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA40980)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC86340)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC85C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SKillNavigationConfigRow_TypeDefinitionIndex = 13823;
+	inline static constexpr unsigned int SKillNavigationConfigRow_TypeDefinitionIndex = 13980;
 
 	class SKillNavigationConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Down; // 0x10
-		::System::UInt32 PointID; // 0x14
-		::RPG::GameCore::AvatarBaseType AvatarBaseType; // 0x18
-		::System::UInt32 Up; // 0x1C
-		::System::UInt32 Right; // 0x20
-		::System::UInt32 Left; // 0x24
+		::System::UInt32 Up; // 0x10
+		::RPG::GameCore::AvatarBaseType AvatarBaseType; // 0x14
+		::System::UInt32 Left; // 0x18
+		::System::UInt32 Right; // 0x1C
+		::System::UInt32 Down; // 0x20
+		::System::UInt32 PointID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLNAVIGATIONCONFIGROW_CTOR_OFFSET))(this);

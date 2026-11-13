@@ -5,23 +5,23 @@ namespace RPG::Client { class ChimeraDuelRankData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define POBNHFMGBMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC34FF80)
-#define POBNHFMGBMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC34FFB0)
-#define POBNHFMGBMO___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0xC34FFC0)
+#define POBNHFMGBMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x184CE950)
+#define POBNHFMGBMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x184CE980)
+#define POBNHFMGBMO___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x184CE990)
 
-inline static constexpr unsigned int POBNHFMGBMO___c_TypeDefinitionIndex = 63379;
+inline static constexpr unsigned int POBNHFMGBMO___c_TypeDefinitionIndex = 64817;
 
 	class POBNHFMGBMO___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ChimeraDuelRankData*>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::ChimeraDuelRankData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x700D0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x700D8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73D60);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::ChimeraDuelRankData*>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::ChimeraDuelRankData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73D68);
 		}
 
 		static ::System::Void _cctor()

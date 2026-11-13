@@ -4,16 +4,16 @@
 class GAHPNAEGACM;
 class GBANCICKCLK;
 
-#define GBANCICKCLK___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1593B750)
-#define GBANCICKCLK___C__DISPLAYCLASS19_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1593C470)
+#define GBANCICKCLK___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8772D0)
+#define GBANCICKCLK___C__DISPLAYCLASS19_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1B878010)
 
-inline static constexpr unsigned int GBANCICKCLK___c__DisplayClass19_0_TypeDefinitionIndex = 71291;
+inline static constexpr unsigned int GBANCICKCLK___c__DisplayClass19_0_TypeDefinitionIndex = 73268;
 
 	class GBANCICKCLK___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::GAHPNAEGACM* detail; // 0x10
-		::GBANCICKCLK* __4__this; // 0x18
+		::GBANCICKCLK* __4__this; // 0x10
+		::GAHPNAEGACM* detail; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GBANCICKCLK___C__DISPLAYCLASS19_0_CTOR_OFFSET))(this);

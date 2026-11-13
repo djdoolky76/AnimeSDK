@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class BrowserWin32Helper_WndProcDelegate; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper___O_TypeDefinitionIndex = 46616;
+	inline static constexpr unsigned int BrowserWin32Helper___O_TypeDefinitionIndex = 47644;
 
 	class BrowserWin32Helper___O : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc** StaticGet__1___EnumThreadWindowsProc()
-		{
-			return (::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F7A0);
-		}
-
 		static ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate** StaticGet__0___wndProc()
 		{
-			return (::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F7A8);
+			return (::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x18B60);
+		}
+
+		static ::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc** StaticGet__1___EnumThreadWindowsProc()
+		{
+			return (::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x18B68);
 		}
 
 	};

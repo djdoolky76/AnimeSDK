@@ -8,21 +8,21 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_BABELFISHCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0xAF5B380)
-#define MIHOYO_SDK_BABELFISHCLIENT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xAF5AB90)
-#define MIHOYO_SDK_BABELFISHCLIENT_SETCONFIGURL_OFFSET UNITYSDK_OFFSET(0xAF5AB70)
-#define MIHOYO_SDK_BABELFISHCLIENT_SETTRANSLATEURL_OFFSET UNITYSDK_OFFSET(0xAF5AB80)
-#define MIHOYO_SDK_BABELFISHCLIENT_TRANSLATE_OFFSET UNITYSDK_OFFSET(0xAF5AE50)
+#define MIHOYO_SDK_BABELFISHCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAFCE40)
+#define MIHOYO_SDK_BABELFISHCLIENT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x1AAFC650)
+#define MIHOYO_SDK_BABELFISHCLIENT_SETCONFIGURL_OFFSET UNITYSDK_OFFSET(0x1AAFC630)
+#define MIHOYO_SDK_BABELFISHCLIENT_SETTRANSLATEURL_OFFSET UNITYSDK_OFFSET(0x1AAFC640)
+#define MIHOYO_SDK_BABELFISHCLIENT_TRANSLATE_OFFSET UNITYSDK_OFFSET(0x1AAFC910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BabelfishClient_TypeDefinitionIndex = 46574;
+	inline static constexpr unsigned int BabelfishClient_TypeDefinitionIndex = 47602;
 
 	class BabelfishClient : public ::System::Object
 	{
 	public:
-		::System::String* _configUrl; // 0x10
-		::System::String* _translateUrl; // 0x18
+		::System::String* _translateUrl; // 0x10
+		::System::String* _configUrl; // 0x18
 		// static const ::System::Object DEFAULT_TIMEOUT_SEC; // 0x0
 		// static const ::System::Object MIN_TIMEOUT_SEC; // 0x0
 		// static const ::System::Object NO_RETRY; // 0x0

@@ -5,16 +5,16 @@
 class FCOEMCEDLNL;
 class JEHFLGKKMCG;
 
-#define JEHFLGKKMCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF0550)
-#define JEHFLGKKMCG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CFF02E0)
+#define JEHFLGKKMCG_CTOR_OFFSET UNITYSDK_OFFSET(0xCA9D2F0)
+#define JEHFLGKKMCG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xCA9D1C0)
 
-inline static constexpr unsigned int JEHFLGKKMCG_TypeDefinitionIndex = 13522;
+inline static constexpr unsigned int JEHFLGKKMCG_TypeDefinitionIndex = 13617;
 
 	class JEHFLGKKMCG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GridFightRoleSkillTag BFHMAFAGGFM; // 0x10
-		::System::UInt32 NALMBOOCCIN; // 0x14
+		::System::UInt32 NALMBOOCCIN; // 0x10
+		::RPG::GameCore::GridFightRoleSkillTag BFHMAFAGGFM; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JEHFLGKKMCG_CTOR_OFFSET))(this);

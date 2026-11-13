@@ -3,10 +3,10 @@
 #include "unitysdk/NOOHPODHIAA.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PBGIBGFCJFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C976950)
-#define PBGIBGFCJFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9769B0)
+#define PBGIBGFCJFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x176786E0)
+#define PBGIBGFCJFP_CTOR_OFFSET UNITYSDK_OFFSET(0x17678740)
 
-inline static constexpr unsigned int PBGIBGFCJFP_TypeDefinitionIndex = 43538;
+inline static constexpr unsigned int PBGIBGFCJFP_TypeDefinitionIndex = 44520;
 
 	class PBGIBGFCJFP : public ::NOOHPODHIAA
 	{

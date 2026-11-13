@@ -7,22 +7,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define BEHKFEIHCDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD2F20)
-#define BEHKFEIHCDG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCD3020)
-#define BEHKFEIHCDG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCD2DF0)
+#define BEHKFEIHCDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCE1D0)
+#define BEHKFEIHCDG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECCE2D0)
+#define BEHKFEIHCDG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECCE0A0)
 
-inline static constexpr unsigned int BEHKFEIHCDG_TypeDefinitionIndex = 22156;
+inline static constexpr unsigned int BEHKFEIHCDG_TypeDefinitionIndex = 22561;
 
 	class BEHKFEIHCDG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* CFAHJNIEMEM; // 0x18
-		::RPG::GameCore::DynamicFloat* IGJJKEHKJOI; // 0x20
+		::RPG::GameCore::DynamicFloat* MAIMGNJKMEJ; // 0x20
 		::RPG::GameCore::DynamicString* EALNBEBALJM; // 0x28
 		::RPG::GameCore::DynamicFloat* JODPHBJFOPL; // 0x30
-		::RPG::GameCore::DynamicFloat* MAIMGNJKMEJ; // 0x38
-		::RPG::MVector3 KCFICHILJEM; // 0x40
-		::System::Boolean OPBKCOJPOPI; // 0x4C
+		::RPG::GameCore::DynamicFloat* IGJJKEHKJOI; // 0x38
+		::System::Boolean OPBKCOJPOPI; // 0x40
+		::System::Byte _padding0[0x3];
+		::RPG::MVector3 KCFICHILJEM; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEHKFEIHCDG_CTOR_OFFSET))(this);

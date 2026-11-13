@@ -6,10 +6,10 @@ class HILBLEPGKKJ;
 namespace RPG::GameCore { class MarbleTaskConfig; }
 namespace System { class String; }
 
-#define HILBLEPGKKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE816C0)
-#define HILBLEPGKKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE81510)
+#define HILBLEPGKKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E820FA0)
+#define HILBLEPGKKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E820DF0)
 
-inline static constexpr unsigned int HILBLEPGKKJ_TypeDefinitionIndex = 16870;
+inline static constexpr unsigned int HILBLEPGKKJ_TypeDefinitionIndex = 17037;
 
 	class HILBLEPGKKJ : public ::RPG::GameCore::JsonConfig
 	{

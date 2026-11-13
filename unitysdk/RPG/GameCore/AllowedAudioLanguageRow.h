@@ -6,21 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AllowedAudioLanguageRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C14A0)
-#define RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3C0E00)
+#define RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA67E0)
+#define RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEA6180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AllowedAudioLanguageRow_TypeDefinitionIndex = 12648;
+	inline static constexpr unsigned int AllowedAudioLanguageRow_TypeDefinitionIndex = 12715;
 
 	class AllowedAudioLanguageRow : public ::System::Object
 	{
 	public:
 		::System::String* AudioLanguageKey; // 0x10
 		::System::String* WwiseLanguageKey; // 0x18
-		::System::UInt32 AudioTrackIndex; // 0x20
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID ShowString; // 0x28
+		::RPG::Client::TextID ShowString; // 0x20
+		::System::UInt32 AudioTrackIndex; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW_CTOR_OFFSET))(this);

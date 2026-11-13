@@ -4,12 +4,12 @@
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB63CC0)
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__ISCURRENTROUNDMISSIONOPTIONFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xCB64940)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF6970)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__ISCURRENTROUNDMISSIONOPTIONFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x1CFF76C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass36_0_TypeDefinitionIndex = 63511;
+	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass36_0_TypeDefinitionIndex = 64949;
 
 	class ChimeraWorkRoundInfo___c__DisplayClass36_0 : public ::System::Object
 	{

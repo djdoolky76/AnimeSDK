@@ -7,20 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class B51RacingDevelopmentActionRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D405DC0)
-#define RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D405BE0)
+#define RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F9CC0)
+#define RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2F9AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingDevelopmentActionRow_TypeDefinitionIndex = 10970;
+	inline static constexpr unsigned int B51RacingDevelopmentActionRow_TypeDefinitionIndex = 10986;
 
 	class B51RacingDevelopmentActionRow : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* AddStatValueMap; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 ID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW_CTOR_OFFSET))(this);

@@ -4,7 +4,7 @@
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int MethodCall_2_TypeDefinitionIndex = 9644;
+	inline static constexpr unsigned int MethodCall_2_TypeDefinitionIndex = 9652;
 
 	template <typename T1, typename T2>
 	class MethodCall_2 : public ::System::MulticastDelegate

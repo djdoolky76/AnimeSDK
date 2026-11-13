@@ -5,25 +5,25 @@ namespace RPG::Client::Pet { class IPetInstance; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PET_IPETINSTANCEREPOSITORYEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAAB050)
-#define RPG_CLIENT_PET_IPETINSTANCEREPOSITORYEXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAAB090)
-#define RPG_CLIENT_PET_IPETINSTANCEREPOSITORYEXTENSIONS___C__HASANYBLINDBOXPET_B__3_0_OFFSET UNITYSDK_OFFSET(0xDAAB0A0)
+#define RPG_CLIENT_PET_IPETINSTANCEREPOSITORYEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1CCBA0)
+#define RPG_CLIENT_PET_IPETINSTANCEREPOSITORYEXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1CCBE0)
+#define RPG_CLIENT_PET_IPETINSTANCEREPOSITORYEXTENSIONS___C__HASANYBLINDBOXPET_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C1CCBF0)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int IPetInstanceRepositoryExtensions___c_TypeDefinitionIndex = 75651;
+	inline static constexpr unsigned int IPetInstanceRepositoryExtensions___c_TypeDefinitionIndex = 77978;
 
 	class IPetInstanceRepositoryExtensions___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x14D30);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x2A020);
 		}
 
 		static ::System::Func_2<::RPG::Client::Pet::IPetInstance*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::Pet::IPetInstance*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x14D38);
+			return (::System::Func_2<::RPG::Client::Pet::IPetInstance*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x2A028);
 		}
 
 		static ::System::Void _cctor()

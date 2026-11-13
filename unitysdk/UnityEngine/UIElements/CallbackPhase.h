@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int CallbackPhase_TypeDefinitionIndex = 5934;
+	inline static constexpr unsigned int CallbackPhase_TypeDefinitionIndex = 5942;
 
 	enum class CallbackPhase : ::System::Int32
 	{

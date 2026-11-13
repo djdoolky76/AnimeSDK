@@ -5,23 +5,22 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MKHPAECGJBE_CTOR_OFFSET UNITYSDK_OFFSET(0xB992250)
-#define MKHPAECGJBE_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0xB9921F0)
-#define MKHPAECGJBE_GET_ADDSTATVALUEMAP_OFFSET UNITYSDK_OFFSET(0xB992230)
-#define MKHPAECGJBE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB992210)
-#define MKHPAECGJBE_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0xB992200)
-#define MKHPAECGJBE_SET_ADDSTATVALUEMAP_OFFSET UNITYSDK_OFFSET(0xB992240)
-#define MKHPAECGJBE_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB992220)
+#define MKHPAECGJBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B906A80)
+#define MKHPAECGJBE_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1B906A20)
+#define MKHPAECGJBE_GET_ADDSTATVALUEMAP_OFFSET UNITYSDK_OFFSET(0x1B906A60)
+#define MKHPAECGJBE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B906A40)
+#define MKHPAECGJBE_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1B906A30)
+#define MKHPAECGJBE_SET_ADDSTATVALUEMAP_OFFSET UNITYSDK_OFFSET(0x1B906A70)
+#define MKHPAECGJBE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B906A50)
 
-inline static constexpr unsigned int MKHPAECGJBE_TypeDefinitionIndex = 81666;
+inline static constexpr unsigned int MKHPAECGJBE_TypeDefinitionIndex = 84447;
 
 	class MKHPAECGJBE : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* _AddStatValueMap_k__BackingField; // 0x10
-		::System::UInt32 _ActionID_k__BackingField; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _Name_k__BackingField; // 0x20
+		::RPG::Client::TextID _Name_k__BackingField; // 0x18
+		::System::UInt32 _ActionID_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MKHPAECGJBE_CTOR_OFFSET))(this);

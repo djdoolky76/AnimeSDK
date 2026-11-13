@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RefreshChangePhaseUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADFEINDJFEH_CTOR_OFFSET UNITYSDK_OFFSET(0xB134DF0)
-#define ADFEINDJFEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB134E20)
+#define ADFEINDJFEH_CTOR_OFFSET UNITYSDK_OFFSET(0x182A6BD0)
+#define ADFEINDJFEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182A6C00)
 
-inline static constexpr unsigned int ADFEINDJFEH_TypeDefinitionIndex = 55290;
+inline static constexpr unsigned int ADFEINDJFEH_TypeDefinitionIndex = 56471;
 
 	class ADFEINDJFEH
 	{

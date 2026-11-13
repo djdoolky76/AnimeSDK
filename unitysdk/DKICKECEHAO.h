@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetPropCanBePlayerLock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DKICKECEHAO_CTOR_OFFSET UNITYSDK_OFFSET(0xF87B130)
-#define DKICKECEHAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF87B160)
+#define DKICKECEHAO_CTOR_OFFSET UNITYSDK_OFFSET(0x18C19220)
+#define DKICKECEHAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C19250)
 
-inline static constexpr unsigned int DKICKECEHAO_TypeDefinitionIndex = 53253;
+inline static constexpr unsigned int DKICKECEHAO_TypeDefinitionIndex = 54415;
 
 	class DKICKECEHAO
 	{

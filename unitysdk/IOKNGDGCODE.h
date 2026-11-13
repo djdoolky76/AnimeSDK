@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define IOKNGDGCODE_DEHGFAEJGCO_OFFSET UNITYSDK_OFFSET(0x164F9FE0)
-#define IOKNGDGCODE_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x2E847B0)
+#define IOKNGDGCODE_DEHGFAEJGCO_OFFSET UNITYSDK_OFFSET(0x192E7310)
+#define IOKNGDGCODE_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x3E35070)
 
-inline static constexpr unsigned int IOKNGDGCODE_TypeDefinitionIndex = 70148;
+inline static constexpr unsigned int IOKNGDGCODE_TypeDefinitionIndex = 72114;
 
 	struct alignas(4) IOKNGDGCODE
 	{

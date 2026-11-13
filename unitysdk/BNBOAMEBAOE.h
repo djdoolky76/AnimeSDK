@@ -4,10 +4,10 @@
 class GELIALJDFBL;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define BNBOAMEBAOE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC38B0)
-#define BNBOAMEBAOE_FADEIFNLDDM_OFFSET UNITYSDK_OFFSET(0xBDC38A0)
+#define BNBOAMEBAOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A759A50)
+#define BNBOAMEBAOE_FADEIFNLDDM_OFFSET UNITYSDK_OFFSET(0x1A759A40)
 
-inline static constexpr unsigned int BNBOAMEBAOE_TypeDefinitionIndex = 54772;
+inline static constexpr unsigned int BNBOAMEBAOE_TypeDefinitionIndex = 55941;
 
 	class BNBOAMEBAOE : public ::GELIALJDFBL
 	{

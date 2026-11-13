@@ -4,25 +4,25 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define MNLHJMMEHEI_NNKHNDEBHDA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0F4D0)
-#define MNLHJMMEHEI_NNKHNDEBHDA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xBA10440)
-#define MNLHJMMEHEI_NNKHNDEBHDA_JNEKHBHNKNM_OFFSET UNITYSDK_OFFSET(0xBA103B0)
+#define MNLHJMMEHEI_NNKHNDEBHDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1FC340)
+#define MNLHJMMEHEI_NNKHNDEBHDA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1FD2C0)
+#define MNLHJMMEHEI_NNKHNDEBHDA_JNEKHBHNKNM_OFFSET UNITYSDK_OFFSET(0x1B1FD230)
 
-inline static constexpr unsigned int MNLHJMMEHEI_NNKHNDEBHDA_TypeDefinitionIndex = 57001;
+inline static constexpr unsigned int MNLHJMMEHEI_NNKHNDEBHDA_TypeDefinitionIndex = 58227;
 
 	class MNLHJMMEHEI_NNKHNDEBHDA : public ::System::Object
 	{
 	public:
 		::System::String* CDEEHGCEOKN; // 0x10
-		::UnityEngine::Vector3 BHCMCMADHBF; // 0x18
-		::System::UInt32 LFIEOIKFGNG; // 0x24
-		::System::Boolean JAMNDDOGHLA; // 0x28
-		::System::Boolean LMHIBNLEOMD; // 0x29
-		::System::Boolean KMPIPOGCGDD; // 0x2A
+		::UnityEngine::Vector3 OBJEAOODKLK; // 0x18
+		::UnityEngine::Vector3 ABIIKNGPAIE; // 0x24
+		::System::Boolean LMHIBNLEOMD; // 0x30
+		::System::Boolean JAMNDDOGHLA; // 0x31
+		::System::Boolean KMPIPOGCGDD; // 0x32
 		::System::Byte _padding0[0x1];
-		::UnityEngine::Vector3 ABIIKNGPAIE; // 0x2C
-		::System::Single NNFHBOPOLCO; // 0x38
-		::UnityEngine::Vector3 OBJEAOODKLK; // 0x3C
+		::UnityEngine::Vector3 BHCMCMADHBF; // 0x34
+		::System::UInt32 LFIEOIKFGNG; // 0x40
+		::System::Single NNFHBOPOLCO; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MNLHJMMEHEI_NNKHNDEBHDA_CTOR_OFFSET))(this);

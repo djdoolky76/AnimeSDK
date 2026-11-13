@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionRoulette; }
 
-#define MLCHCKBLLCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C721110)
-#define MLCHCKBLLCH_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C721120)
+#define MLCHCKBLLCH_CTOR_OFFSET UNITYSDK_OFFSET(0x16061AA0)
+#define MLCHCKBLLCH_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x16061AB0)
 
-inline static constexpr unsigned int MLCHCKBLLCH_TypeDefinitionIndex = 37393;
+inline static constexpr unsigned int MLCHCKBLLCH_TypeDefinitionIndex = 38321;
 
 	class MLCHCKBLLCH : public ::GPLOFONGBGI
 	{

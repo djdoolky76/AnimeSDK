@@ -3,10 +3,10 @@
 class LNCKPENJCCC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GGNDEPPEOPB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A053E0)
-#define GGNDEPPEOPB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A05410)
+#define GGNDEPPEOPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AE900)
+#define GGNDEPPEOPB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B4AE930)
 
-inline static constexpr unsigned int GGNDEPPEOPB_TypeDefinitionIndex = 53839;
+inline static constexpr unsigned int GGNDEPPEOPB_TypeDefinitionIndex = 55003;
 
 	class GGNDEPPEOPB
 	{

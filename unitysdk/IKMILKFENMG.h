@@ -5,11 +5,11 @@ class IKMILKFENMG;
 namespace RPG::Client::PixAir { class PixAirEquipItemChangeInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IKMILKFENMG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1648E080)
-#define IKMILKFENMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1648E100)
-#define IKMILKFENMG_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1648E110)
+#define IKMILKFENMG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1B57CEA0)
+#define IKMILKFENMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B57CF20)
+#define IKMILKFENMG_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1B57CF30)
 
-inline static constexpr unsigned int IKMILKFENMG_TypeDefinitionIndex = 79276;
+inline static constexpr unsigned int IKMILKFENMG_TypeDefinitionIndex = 82053;
 
 	class IKMILKFENMG : public ::EEBDFMJEMBM
 	{

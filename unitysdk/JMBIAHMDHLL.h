@@ -7,17 +7,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define JMBIAHMDHLL_CLEAR_OFFSET UNITYSDK_OFFSET(0xB258080)
-#define JMBIAHMDHLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2580E0)
+#define JMBIAHMDHLL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A0A6970)
+#define JMBIAHMDHLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A69D0)
 
-inline static constexpr unsigned int JMBIAHMDHLL_TypeDefinitionIndex = 57693;
+inline static constexpr unsigned int JMBIAHMDHLL_TypeDefinitionIndex = 58925;
 
 	class JMBIAHMDHLL : public ::System::Object
 	{
 	public:
-		::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* JPHPCHAHHOF; // 0x10
-		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x18
-		::RPG::GameCore::GameEntity* BPLHBABBLIO; // 0x20
+		::RPG::GameCore::GameEntity* BPLHBABBLIO; // 0x10
+		::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* JPHPCHAHHOF; // 0x18
+		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x20
 		::RPG::GameCore::RedirectSkillTargetAffectTeam JKNCJPCLCCP; // 0x28
 		::System::Int32 JMBHCPLJNNM; // 0x2C
 		::RPG::GameCore::FixPoint MJEKNGAOGDI; // 0x30

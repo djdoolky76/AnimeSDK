@@ -7,26 +7,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DDKIDMKIJMG_ACDGPABGIFE_OFFSET UNITYSDK_OFFSET(0xE4E31D0)
-#define DDKIDMKIJMG_AJDCANKOGBK_OFFSET UNITYSDK_OFFSET(0xE4E3180)
-#define DDKIDMKIJMG_CTOR_OFFSET UNITYSDK_OFFSET(0xE4E3B10)
-#define DDKIDMKIJMG_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0xE4E34D0)
-#define DDKIDMKIJMG_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0xE4E39B0)
-#define DDKIDMKIJMG_KGJAMKFPOAB_OFFSET UNITYSDK_OFFSET(0xE4E3A60)
-#define DDKIDMKIJMG_MBAEJHBGACF_OFFSET UNITYSDK_OFFSET(0xE4E35F0)
-#define DDKIDMKIJMG_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xE4E3310)
+#define DDKIDMKIJMG_ACDGPABGIFE_OFFSET UNITYSDK_OFFSET(0x17741340)
+#define DDKIDMKIJMG_AJDCANKOGBK_OFFSET UNITYSDK_OFFSET(0x177412F0)
+#define DDKIDMKIJMG_CTOR_OFFSET UNITYSDK_OFFSET(0x17741C80)
+#define DDKIDMKIJMG_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x17741640)
+#define DDKIDMKIJMG_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x17741B20)
+#define DDKIDMKIJMG_KGJAMKFPOAB_OFFSET UNITYSDK_OFFSET(0x17741BD0)
+#define DDKIDMKIJMG_MBAEJHBGACF_OFFSET UNITYSDK_OFFSET(0x17741760)
+#define DDKIDMKIJMG_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x17741480)
 
-inline static constexpr unsigned int DDKIDMKIJMG_TypeDefinitionIndex = 69161;
+inline static constexpr unsigned int DDKIDMKIJMG_TypeDefinitionIndex = 71114;
 
 	class DDKIDMKIJMG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::FGHBKHHINFP*>* PGMOEJGBLLG; // 0x10
+		::System::Collections::Generic::List_1<::FGHBKHHINFP*>* JHLBFPBGGIN; // 0x10
 		::RPG::GameCore::ConfigTrainDispatcher* EJJEEJENLDA; // 0x18
-		::System::Collections::Generic::List_1<::FGHBKHHINFP*>* JHLBFPBGGIN; // 0x20
-		::System::Boolean AAECOAAJBFE; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::Int32 ILIHFKCDBDH; // 0x2C
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::FGHBKHHINFP*>* PGMOEJGBLLG; // 0x20
+		::System::Int32 ILIHFKCDBDH; // 0x28
+		::System::Boolean AAECOAAJBFE; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDKIDMKIJMG_CTOR_OFFSET))(this);

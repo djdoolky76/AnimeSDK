@@ -5,10 +5,10 @@
 class KNAKIBHJLFN;
 namespace RPG::Client { class UIController; }
 
-#define KFIMHLNFPHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB3B09F0)
-#define KFIMHLNFPHJ_HDMBIMBAKFB_OFFSET UNITYSDK_OFFSET(0xB3B0910)
+#define KFIMHLNFPHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x176F6F30)
+#define KFIMHLNFPHJ_HDMBIMBAKFB_OFFSET UNITYSDK_OFFSET(0x176F6E50)
 
-inline static constexpr unsigned int KFIMHLNFPHJ_TypeDefinitionIndex = 64618;
+inline static constexpr unsigned int KFIMHLNFPHJ_TypeDefinitionIndex = 66147;
 
 	class KFIMHLNFPHJ : public ::GHODJENKHNE
 	{

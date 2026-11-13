@@ -4,17 +4,17 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define NGANFOCANHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB9AE50)
-#define NGANFOCANHB_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBB9AD40)
-#define NGANFOCANHB_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBB9ADB0)
+#define NGANFOCANHB_CTOR_OFFSET UNITYSDK_OFFSET(0x18E84400)
+#define NGANFOCANHB_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x18E842F0)
+#define NGANFOCANHB_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x18E84360)
 
-inline static constexpr unsigned int NGANFOCANHB_TypeDefinitionIndex = 72328;
+inline static constexpr unsigned int NGANFOCANHB_TypeDefinitionIndex = 74405;
 
 	class NGANFOCANHB : public ::LBAMBIMMJKB
 	{
 	public:
-		::UnityEngine::UI::Text* DDFDOBAACDC; // 0x18
-		::UnityEngine::UI::Text* OHECLMGMKJL; // 0x20
+		::UnityEngine::UI::Text* OHECLMGMKJL; // 0x18
+		::UnityEngine::UI::Text* DDFDOBAACDC; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NGANFOCANHB_CTOR_OFFSET))(this);

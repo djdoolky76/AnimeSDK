@@ -4,18 +4,18 @@
 class LDPGAPPKBBB;
 namespace System { class Object; }
 
-#define LDPGAPPKBBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8D4F50)
-#define LDPGAPPKBBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D4F80)
-#define LDPGAPPKBBB___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E8D4F90)
+#define LDPGAPPKBBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F811730)
+#define LDPGAPPKBBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F811760)
+#define LDPGAPPKBBB___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F811770)
 
-inline static constexpr unsigned int LDPGAPPKBBB___c_TypeDefinitionIndex = 29088;
+inline static constexpr unsigned int LDPGAPPKBBB___c_TypeDefinitionIndex = 29678;
 
 	class LDPGAPPKBBB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F6F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E390);
 		}
 
 		static ::System::Void _cctor()

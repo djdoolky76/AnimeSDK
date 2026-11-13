@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GAJOCNCABJL_TypeDefinitionIndex = 49783;
+inline static constexpr unsigned int GAJOCNCABJL_TypeDefinitionIndex = 50831;
 
 	class GAJOCNCABJL
 	{

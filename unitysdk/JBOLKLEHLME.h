@@ -8,25 +8,25 @@ namespace RPG::GameCore { class FiveDimFogOfWarConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JBOLKLEHLME_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16568660)
-#define JBOLKLEHLME_CTOR_OFFSET UNITYSDK_OFFSET(0x16568B60)
-#define JBOLKLEHLME_GET_FACESIZE_OFFSET UNITYSDK_OFFSET(0x16568BE0)
-#define JBOLKLEHLME_GET_FOGS_OFFSET UNITYSDK_OFFSET(0x16568C00)
-#define JBOLKLEHLME_GET_SECTIONS_OFFSET UNITYSDK_OFFSET(0x16568BC0)
-#define JBOLKLEHLME_GET_SECTIONVERTICES_OFFSET UNITYSDK_OFFSET(0x16568BA0)
-#define JBOLKLEHLME_SET_FACESIZE_OFFSET UNITYSDK_OFFSET(0x16568BF0)
-#define JBOLKLEHLME_SET_FOGS_OFFSET UNITYSDK_OFFSET(0x16568C10)
-#define JBOLKLEHLME_SET_SECTIONS_OFFSET UNITYSDK_OFFSET(0x16568BD0)
-#define JBOLKLEHLME_SET_SECTIONVERTICES_OFFSET UNITYSDK_OFFSET(0x16568BB0)
+#define JBOLKLEHLME_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19A78D90)
+#define JBOLKLEHLME_CTOR_OFFSET UNITYSDK_OFFSET(0x19A79290)
+#define JBOLKLEHLME_GET_FACESIZE_OFFSET UNITYSDK_OFFSET(0x19A79310)
+#define JBOLKLEHLME_GET_FOGS_OFFSET UNITYSDK_OFFSET(0x19A79330)
+#define JBOLKLEHLME_GET_SECTIONS_OFFSET UNITYSDK_OFFSET(0x19A792F0)
+#define JBOLKLEHLME_GET_SECTIONVERTICES_OFFSET UNITYSDK_OFFSET(0x19A792D0)
+#define JBOLKLEHLME_SET_FACESIZE_OFFSET UNITYSDK_OFFSET(0x19A79320)
+#define JBOLKLEHLME_SET_FOGS_OFFSET UNITYSDK_OFFSET(0x19A79340)
+#define JBOLKLEHLME_SET_SECTIONS_OFFSET UNITYSDK_OFFSET(0x19A79300)
+#define JBOLKLEHLME_SET_SECTIONVERTICES_OFFSET UNITYSDK_OFFSET(0x19A792E0)
 
-inline static constexpr unsigned int JBOLKLEHLME_TypeDefinitionIndex = 74667;
+inline static constexpr unsigned int JBOLKLEHLME_TypeDefinitionIndex = 76815;
 
 	class JBOLKLEHLME : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::MVector2>* _SectionVertices_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::NavMap::FiveDim::SectionConfig*>* _Sections_k__BackingField; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _Fogs_k__BackingField; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _Fogs_k__BackingField; // 0x10
+		::Il2CppArray<::RPG::MVector2>* _SectionVertices_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::NavMap::FiveDim::SectionConfig*>* _Sections_k__BackingField; // 0x20
 		::RPG::MVector2 _FaceSize_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{

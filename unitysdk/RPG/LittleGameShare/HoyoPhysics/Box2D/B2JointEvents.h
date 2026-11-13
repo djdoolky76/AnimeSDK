@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2JointEvent.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2JOINTEVENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x140C0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2JOINTEVENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x6513E0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointEvents_TypeDefinitionIndex = 36697;
+	inline static constexpr unsigned int B2JointEvents_TypeDefinitionIndex = 37625;
 
 	struct alignas(8) B2JointEvents
 	{

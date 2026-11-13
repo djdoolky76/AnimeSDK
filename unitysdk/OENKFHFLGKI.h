@@ -8,26 +8,26 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TrackNpcVisionConfig; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define OENKFHFLGKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBE2C240)
-#define OENKFHFLGKI_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xBE2CAD0)
-#define OENKFHFLGKI_GET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0xBE2CB10)
-#define OENKFHFLGKI_GET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0xBE2CAF0)
-#define OENKFHFLGKI_NGKHCGOIPEC_OFFSET UNITYSDK_OFFSET(0xBE2C630)
-#define OENKFHFLGKI_OICMACAMLAA_OFFSET UNITYSDK_OFFSET(0xBE2C4E0)
-#define OENKFHFLGKI_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xBE2CAE0)
-#define OENKFHFLGKI_SET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0xBE2CB20)
-#define OENKFHFLGKI_SET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0xBE2CB00)
+#define OENKFHFLGKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1765A380)
+#define OENKFHFLGKI_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1765AC20)
+#define OENKFHFLGKI_GET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0x1765AC60)
+#define OENKFHFLGKI_GET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0x1765AC40)
+#define OENKFHFLGKI_NGKHCGOIPEC_OFFSET UNITYSDK_OFFSET(0x1765A780)
+#define OENKFHFLGKI_OICMACAMLAA_OFFSET UNITYSDK_OFFSET(0x1765A630)
+#define OENKFHFLGKI_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1765AC30)
+#define OENKFHFLGKI_SET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0x1765AC70)
+#define OENKFHFLGKI_SET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0x1765AC50)
 
-inline static constexpr unsigned int OENKFHFLGKI_TypeDefinitionIndex = 53549;
+inline static constexpr unsigned int OENKFHFLGKI_TypeDefinitionIndex = 54712;
 
 	class OENKFHFLGKI : public ::JNPJMKLDDJA
 	{
 	public:
-		::System::Boolean _UseForVision_k__BackingField; // 0x60
+		::UnityEngine::Quaternion LFPEIILLEIG; // 0x60
+		::System::Boolean _UseForVision_k__BackingField; // 0x70
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::VisionZoneTag _VisionTag_k__BackingField; // 0x64
-		::UnityEngine::Quaternion LFPEIILLEIG; // 0x68
-		::System::UInt32 _Priority_k__BackingField; // 0x78
+		::System::UInt32 _Priority_k__BackingField; // 0x74
+		::RPG::GameCore::VisionZoneTag _VisionTag_k__BackingField; // 0x78
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TransformComponent* a2, ::RPG::GameCore::TrackNpcVisionConfig* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TransformComponent*, ::RPG::GameCore::TrackNpcVisionConfig*))((::PBYTE)hIl2Cpp + OENKFHFLGKI_CTOR_OFFSET))(this, a1, a2, a3);

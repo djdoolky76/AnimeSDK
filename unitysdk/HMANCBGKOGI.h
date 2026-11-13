@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HMANCBGKOGI_TypeDefinitionIndex = 43459;
+inline static constexpr unsigned int HMANCBGKOGI_TypeDefinitionIndex = 44441;
 
 	struct alignas(4) HMANCBGKOGI
 	{

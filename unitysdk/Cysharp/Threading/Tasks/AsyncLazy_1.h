@@ -9,7 +9,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AsyncLazy_1_TypeDefinitionIndex = 38117;
+	inline static constexpr unsigned int AsyncLazy_1_TypeDefinitionIndex = 39046;
 
 	template <typename T>
 	class AsyncLazy_1 : public ::System::Object

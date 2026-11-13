@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::B51Racing { class B51RacingDIYPageControl; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7873E0)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL___C__DISPLAYCLASS16_0___SUBMIT_B__0_OFFSET UNITYSDK_OFFSET(0xC7873F0)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B122F70)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL___C__DISPLAYCLASS16_0___SUBMIT_B__0_OFFSET UNITYSDK_OFFSET(0x1B127BF0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDIYPageControl___c__DisplayClass16_0_TypeDefinitionIndex = 81778;
+	inline static constexpr unsigned int B51RacingDIYPageControl___c__DisplayClass16_0_TypeDefinitionIndex = 84559;
 
 	class B51RacingDIYPageControl___c__DisplayClass16_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StackBoostPointDirty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHDBCBJEGLI_CTOR_OFFSET UNITYSDK_OFFSET(0x15769E80)
-#define FHDBCBJEGLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15769EB0)
+#define FHDBCBJEGLI_CTOR_OFFSET UNITYSDK_OFFSET(0x18A9F780)
+#define FHDBCBJEGLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A9F7B0)
 
-inline static constexpr unsigned int FHDBCBJEGLI_TypeDefinitionIndex = 55638;
+inline static constexpr unsigned int FHDBCBJEGLI_TypeDefinitionIndex = 56836;
 
 	class FHDBCBJEGLI
 	{

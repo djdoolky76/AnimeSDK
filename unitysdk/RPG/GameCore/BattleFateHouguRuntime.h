@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class FABMDCOFHCG;
 
-#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE5B5E20)
-#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5B5DD0)
+#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1AE64740)
+#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AE646F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleFateHouguRuntime_TypeDefinitionIndex = 56091;
+	inline static constexpr unsigned int BattleFateHouguRuntime_TypeDefinitionIndex = 57303;
 
 	class BattleFateHouguRuntime : public ::System::Object
 	{

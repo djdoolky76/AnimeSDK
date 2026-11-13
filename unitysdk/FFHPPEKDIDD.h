@@ -4,21 +4,21 @@
 namespace RPG::GameCore { class ClockParkStorySetBackgroundFrontVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FFHPPEKDIDD_CTOR_OFFSET UNITYSDK_OFFSET(0x15733A40)
-#define FFHPPEKDIDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15733B50)
-#define FFHPPEKDIDD_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x15733A50)
-#define FFHPPEKDIDD_ONSKIP_OFFSET UNITYSDK_OFFSET(0x15733A60)
-#define FFHPPEKDIDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15733BF0)
-#define FFHPPEKDIDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15733D00)
-#define FFHPPEKDIDD_TICK_OFFSET UNITYSDK_OFFSET(0x15733B90)
+#define FFHPPEKDIDD_CTOR_OFFSET UNITYSDK_OFFSET(0x130E6040)
+#define FFHPPEKDIDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x130E6150)
+#define FFHPPEKDIDD_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x130E6050)
+#define FFHPPEKDIDD_ONSKIP_OFFSET UNITYSDK_OFFSET(0x130E6060)
+#define FFHPPEKDIDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x130E61F0)
+#define FFHPPEKDIDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x130E6300)
+#define FFHPPEKDIDD_TICK_OFFSET UNITYSDK_OFFSET(0x130E6190)
 
-inline static constexpr unsigned int FFHPPEKDIDD_TypeDefinitionIndex = 52691;
+inline static constexpr unsigned int FFHPPEKDIDD_TypeDefinitionIndex = 53798;
 
 	class FFHPPEKDIDD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ClockParkStorySetBackgroundFrontVisible* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::ClockParkStorySetBackgroundFrontVisible* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ClockParkStorySetBackgroundFrontVisible* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ClockParkStorySetBackgroundFrontVisible*))((::PBYTE)hIl2Cpp + FFHPPEKDIDD_CTOR_OFFSET))(this, a1, a2);

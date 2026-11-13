@@ -8,13 +8,13 @@ namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChimeraTalkContent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERABATTLESHOWBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56AB60)
-#define RPG_GAMECORE_CHIMERABATTLESHOWBUBBLETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D56AB70)
-#define RPG_GAMECORE_CHIMERABATTLESHOWBUBBLETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56C090)
+#define RPG_GAMECORE_CHIMERABATTLESHOWBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F920250)
+#define RPG_GAMECORE_CHIMERABATTLESHOWBUBBLETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F920260)
+#define RPG_GAMECORE_CHIMERABATTLESHOWBUBBLETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F921CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleShowBubbleTalk_TypeDefinitionIndex = 15881;
+	inline static constexpr unsigned int ChimeraBattleShowBubbleTalk_TypeDefinitionIndex = 16039;
 
 	class ChimeraBattleShowBubbleTalk : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

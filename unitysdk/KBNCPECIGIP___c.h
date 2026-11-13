@@ -7,29 +7,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define KBNCPECIGIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB31C380)
-#define KBNCPECIGIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB31C3B0)
-#define KBNCPECIGIP___C___INITDESTRUCTIBLEPROP_B__4_0_OFFSET UNITYSDK_OFFSET(0xB31C3C0)
-#define KBNCPECIGIP___C___INITDESTRUCTIBLEPROP_B__4_1_OFFSET UNITYSDK_OFFSET(0xB31C3F0)
+#define KBNCPECIGIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A46ED00)
+#define KBNCPECIGIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A46ED30)
+#define KBNCPECIGIP___C___INITDESTRUCTIBLEPROP_B__4_0_OFFSET UNITYSDK_OFFSET(0x1A46ED40)
+#define KBNCPECIGIP___C___INITDESTRUCTIBLEPROP_B__4_1_OFFSET UNITYSDK_OFFSET(0x1A46ED70)
 
-inline static constexpr unsigned int KBNCPECIGIP___c_TypeDefinitionIndex = 77082;
+inline static constexpr unsigned int KBNCPECIGIP___c_TypeDefinitionIndex = 79416;
 
 	class KBNCPECIGIP___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::KBNCPECIGIP*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__4_1()
-		{
-			return (::System::Action_3<::KBNCPECIGIP*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x338D0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x338D8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35630);
 		}
 
 		static ::System::Action_3<::KBNCPECIGIP*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_3<::KBNCPECIGIP*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x338E0);
+			return (::System::Action_3<::KBNCPECIGIP*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35638);
+		}
+
+		static ::System::Action_3<::KBNCPECIGIP*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__4_1()
+		{
+			return (::System::Action_3<::KBNCPECIGIP*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35640);
 		}
 
 		static ::System::Void _cctor()

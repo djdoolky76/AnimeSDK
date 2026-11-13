@@ -5,23 +5,23 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2BodyState; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C7D2AD0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1C7DC860)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_CREATE_OFFSET UNITYSDK_OFFSET(0x1C7DC7D0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7DC530)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_CLEAR_OFFSET UNITYSDK_OFFSET(0xC89C360)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_COPYFROM_OFFSET UNITYSDK_OFFSET(0xC8A6030)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_CREATE_OFFSET UNITYSDK_OFFSET(0xC8A5FA0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A5D00)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodyState_TypeDefinitionIndex = 36598;
+	inline static constexpr unsigned int B2BodyState_TypeDefinitionIndex = 37526;
 
 	class B2BodyState : public ::System::Object
 	{
 	public:
-		::System::Single angularVelocity; // 0x10
-		::System::UInt32 flags; // 0x14
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 deltaPosition; // 0x18
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Rot deltaRotation; // 0x20
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 linearVelocity; // 0x28
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 linearVelocity; // 0x10
+		::System::UInt32 flags; // 0x18
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 deltaPosition; // 0x1C
+		::System::Single angularVelocity; // 0x24
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Rot deltaRotation; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSTATE_CTOR_OFFSET))(this);

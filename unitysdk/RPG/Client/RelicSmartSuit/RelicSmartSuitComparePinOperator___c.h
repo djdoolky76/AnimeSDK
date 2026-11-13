@@ -5,31 +5,31 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREPINOPERATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE8D630)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREPINOPERATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE8D670)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREPINOPERATOR___C__PINRELIC_B__17_1_OFFSET UNITYSDK_OFFSET(0xDE8D680)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREPINOPERATOR___C__UNPINRELIC_B__18_1_OFFSET UNITYSDK_OFFSET(0xDE8D710)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREPINOPERATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1972CA80)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREPINOPERATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1972CAC0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREPINOPERATOR___C__PINRELIC_B__17_1_OFFSET UNITYSDK_OFFSET(0x1972CAD0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREPINOPERATOR___C__UNPINRELIC_B__18_1_OFFSET UNITYSDK_OFFSET(0x1972CB60)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RelicSmartSuitComparePinOperator___c_TypeDefinitionIndex = 74400;
+	inline static constexpr unsigned int RelicSmartSuitComparePinOperator___c_TypeDefinitionIndex = 76548;
 
 	class RelicSmartSuitComparePinOperator___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x5DDA0);
-		}
-
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__17_1()
-		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x5DDA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x6F7E0);
 		}
 
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__18_1()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x5DDB0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x6F7E8);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__17_1()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x6F7F0);
 		}
 
 		static ::System::Void _cctor()

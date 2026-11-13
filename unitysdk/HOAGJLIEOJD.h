@@ -4,10 +4,10 @@ class BACCOPOCMPC;
 namespace RPG::GameCore { class ST_ByExitCombat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOAGJLIEOJD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D9CEC0)
-#define HOAGJLIEOJD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D9CF80)
+#define HOAGJLIEOJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A380870)
+#define HOAGJLIEOJD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A380930)
 
-inline static constexpr unsigned int HOAGJLIEOJD_TypeDefinitionIndex = 52190;
+inline static constexpr unsigned int HOAGJLIEOJD_TypeDefinitionIndex = 53295;
 
 	class HOAGJLIEOJD
 	{

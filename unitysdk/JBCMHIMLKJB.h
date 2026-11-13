@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define JBCMHIMLKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5EE00)
+#define JBCMHIMLKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFC6B0)
 
-inline static constexpr unsigned int JBCMHIMLKJB_TypeDefinitionIndex = 42803;
+inline static constexpr unsigned int JBCMHIMLKJB_TypeDefinitionIndex = 43783;
 
 	class JBCMHIMLKJB : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

@@ -5,11 +5,11 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTRIGGERCOLLISIONENTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5EA510)
-#define AKTRIGGERCOLLISIONENTER_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x1F5EA330)
-#define AKTRIGGERCOLLISIONENTER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1F5EA440)
+#define AKTRIGGERCOLLISIONENTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC2420)
+#define AKTRIGGERCOLLISIONENTER_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x1EBC2240)
+#define AKTRIGGERCOLLISIONENTER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1EBC2350)
 
-inline static constexpr unsigned int AkTriggerCollisionEnter_TypeDefinitionIndex = 44961;
+inline static constexpr unsigned int AkTriggerCollisionEnter_TypeDefinitionIndex = 46036;
 
 	class AkTriggerCollisionEnter : public ::AkTriggerBase
 	{

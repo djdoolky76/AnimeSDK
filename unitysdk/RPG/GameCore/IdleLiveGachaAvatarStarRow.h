@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveGachaAvatarStarRow; }
 
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74E050)
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74DED0)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE86EA0)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE86D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGachaAvatarStarRow_TypeDefinitionIndex = 11770;
+	inline static constexpr unsigned int IdleLiveGachaAvatarStarRow_TypeDefinitionIndex = 11827;
 
 	class IdleLiveGachaAvatarStarRow : public ::System::Object
 	{

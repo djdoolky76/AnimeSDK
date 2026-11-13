@@ -8,31 +8,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_POOLCONTENTS460___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC887200)
-#define RPG_CLIENT_BLINDBOX_POOL_POOLCONTENTS460___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC887240)
-#define RPG_CLIENT_BLINDBOX_POOL_POOLCONTENTS460___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC887250)
-#define RPG_CLIENT_BLINDBOX_POOL_POOLCONTENTS460___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0xC8872A0)
+#define RPG_CLIENT_BLINDBOX_POOL_POOLCONTENTS460___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C555DD0)
+#define RPG_CLIENT_BLINDBOX_POOL_POOLCONTENTS460___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C555E10)
+#define RPG_CLIENT_BLINDBOX_POOL_POOLCONTENTS460___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C555E20)
+#define RPG_CLIENT_BLINDBOX_POOL_POOLCONTENTS460___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C555E70)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int PoolContents460___c_TypeDefinitionIndex = 74931;
+	inline static constexpr unsigned int PoolContents460___c_TypeDefinitionIndex = 77258;
 
 	class PoolContents460___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x63BA0);
-		}
-
 		static ::System::Func_2<::RPG::Client::BlindBox::Pool::IPoolContentEntry*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Pet::BlindBox::IBlindBoxPet*>*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::BlindBox::Pool::IPoolContentEntry*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Pet::BlindBox::IBlindBoxPet*>*>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x63BA8);
+			return (::System::Func_2<::RPG::Client::BlindBox::Pool::IPoolContentEntry*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Pet::BlindBox::IBlindBoxPet*>*>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x69500);
 		}
 
 		static ::System::Func_2<::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::RPG::Client::Pet::PetIdentifier>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::RPG::Client::Pet::PetIdentifier>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x63BB0);
+			return (::System::Func_2<::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::RPG::Client::Pet::PetIdentifier>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x69508);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x69510);
 		}
 
 		static ::System::Void _cctor()

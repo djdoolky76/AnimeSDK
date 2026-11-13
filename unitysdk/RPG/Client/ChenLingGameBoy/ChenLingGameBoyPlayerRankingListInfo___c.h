@@ -5,25 +5,25 @@ namespace RPG::Client::ChenLingGameBoy { class ChenLingGameBoyRankingInfo; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCACFE80)
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCACFEC0)
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C___SORT_B__4_0_OFFSET UNITYSDK_OFFSET(0xCACFED0)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D883210)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D883250)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C___SORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D883260)
 
 namespace RPG::Client::ChenLingGameBoy
 {
-	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex = 74802;
+	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex = 76956;
 
 	class ChenLingGameBoyPlayerRankingListInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingGameBoy", "<>c")->GetStaticField(0x1CE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingGameBoy", "<>c")->GetStaticField(0x91B0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>**)UnitySDK::FromName("RPG.Client.ChenLingGameBoy", "<>c")->GetStaticField(0x1CE8);
+			return (::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>**)UnitySDK::FromName("RPG.Client.ChenLingGameBoy", "<>c")->GetStaticField(0x91B8);
 		}
 
 		static ::System::Void _cctor()

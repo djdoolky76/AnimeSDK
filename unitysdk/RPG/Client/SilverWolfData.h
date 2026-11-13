@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SILVERWOLFDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0BA6E0)
+#define RPG_CLIENT_SILVERWOLFDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3FAC20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SilverWolfData_TypeDefinitionIndex = 67955;
+	inline static constexpr unsigned int SilverWolfData_TypeDefinitionIndex = 69901;
 
 	class SilverWolfData : public ::System::Object
 	{

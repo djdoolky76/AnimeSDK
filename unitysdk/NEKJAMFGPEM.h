@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByIsBattlePostureType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NEKJAMFGPEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB68F80)
-#define NEKJAMFGPEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB68FB0)
+#define NEKJAMFGPEM_CTOR_OFFSET UNITYSDK_OFFSET(0x16FE8840)
+#define NEKJAMFGPEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16FE8870)
 
-inline static constexpr unsigned int NEKJAMFGPEM_TypeDefinitionIndex = 54463;
+inline static constexpr unsigned int NEKJAMFGPEM_TypeDefinitionIndex = 55627;
 
 	class NEKJAMFGPEM
 	{

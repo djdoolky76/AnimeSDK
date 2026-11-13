@@ -5,31 +5,31 @@ class HCAOKGHPNLA;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC89FD0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC8A010)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___CHECKPUZZLEFINISH_B__31_0_OFFSET UNITYSDK_OFFSET(0xDC8A0A0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___SETPUZZLEANSWER_B__23_0_OFFSET UNITYSDK_OFFSET(0xDC8A020)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4FFCA0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FFCE0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___CHECKPUZZLEFINISH_B__31_0_OFFSET UNITYSDK_OFFSET(0x1A4FFD70)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___SETPUZZLEANSWER_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A4FFCF0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleBoard___c_TypeDefinitionIndex = 78529;
+	inline static constexpr unsigned int DeployPuzzleBoard___c_TypeDefinitionIndex = 81264;
 
 	class DeployPuzzleBoard___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::HCAOKGHPNLA*>** StaticGet___9__23_0()
-		{
-			return (::System::Comparison_1<::HCAOKGHPNLA*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x3D460);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x3D468);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x5C730);
+		}
+
+		static ::System::Comparison_1<::HCAOKGHPNLA*>** StaticGet___9__23_0()
+		{
+			return (::System::Comparison_1<::HCAOKGHPNLA*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x5C738);
 		}
 
 		static ::System::Comparison_1<::HCAOKGHPNLA*>** StaticGet___9__31_0()
 		{
-			return (::System::Comparison_1<::HCAOKGHPNLA*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x3D470);
+			return (::System::Comparison_1<::HCAOKGHPNLA*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x5C740);
 		}
 
 		static ::System::Void _cctor()

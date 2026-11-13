@@ -10,31 +10,31 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_CAPSULEAOPASS_BUFFERDISPOSE_OFFSET UNITYSDK_OFFSET(0x1CBCB330)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBDF3C0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_COMPUTEHIZLEVEL_OFFSET UNITYSDK_OFFSET(0x1CBDF390)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_CREATERES_OFFSET UNITYSDK_OFFSET(0x1CBD23B0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBC5C80)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CBD2EA0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_GETHIZTEXSIZE_OFFSET UNITYSDK_OFFSET(0x1CBDF190)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_INNEREXCUTE_OFFSET UNITYSDK_OFFSET(0x1CBD24A0)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_BUFFERDISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1BEDD0)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1D2C70)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_COMPUTEHIZLEVEL_OFFSET UNITYSDK_OFFSET(0x1A1D2C40)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_CREATERES_OFFSET UNITYSDK_OFFSET(0x1A1C5DA0)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B9750)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1A1C6860)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_GETHIZTEXSIZE_OFFSET UNITYSDK_OFFSET(0x1A1D2A40)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_INNEREXCUTE_OFFSET UNITYSDK_OFFSET(0x1A1C5E90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CapsuleAOPass_TypeDefinitionIndex = 37551;
+	inline static constexpr unsigned int CapsuleAOPass_TypeDefinitionIndex = 38479;
 
 	class CapsuleAOPass : public ::System::Object
 	{
 	public:
-		::UnityEngine::ComputeShader* cs_CapsuleAO; // 0x10
-		::UnityEngine::ComputeBuffer* _DynamicOccluderBuffer; // 0x18
-		::UnityEngine::Texture2D* capsuleBakeTex; // 0x20
-		::UnityEngine::ComputeBuffer* _OccluderListBufferRW; // 0x28
+		::UnityEngine::ComputeBuffer* _DynamicOccluderBuffer; // 0x10
+		::UnityEngine::Texture2D* capsuleBakeTex; // 0x18
+		::UnityEngine::ComputeBuffer* _OccluderListBufferRW; // 0x20
+		::UnityEngine::ComputeShader* cs_CapsuleAO; // 0x28
 		::System::Int32 _OccluderListLookupTextureRW; // 0x30
 		::UnityEngine::RenderTextureDescriptor _CapsuleCoutDesc; // 0x34
 		static ::System::Int32* StaticGet__CapsuleMainCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CapsuleAOPass")->GetStaticField(0x8CE0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CapsuleAOPass")->GetStaticField(0x7B80);
 		}
 
 		// static const ::System::String* _Tag; // 0x0

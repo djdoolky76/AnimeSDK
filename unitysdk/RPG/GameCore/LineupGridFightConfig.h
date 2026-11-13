@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LineupGridFightAvatarData; }
 namespace RPG::GameCore { class LineupGridFightConfig; }
 namespace RPG::GameCore { class LineupGridFightTraitParam; }
 
-#define RPG_GAMECORE_LINEUPGRIDFIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A7C50)
-#define RPG_GAMECORE_LINEUPGRIDFIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A79E0)
+#define RPG_GAMECORE_LINEUPGRIDFIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F256B20)
+#define RPG_GAMECORE_LINEUPGRIDFIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F2568B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupGridFightConfig_TypeDefinitionIndex = 18129;
+	inline static constexpr unsigned int LineupGridFightConfig_TypeDefinitionIndex = 18291;
 
 	class LineupGridFightConfig : public ::RPG::GameCore::JsonConfig
 	{

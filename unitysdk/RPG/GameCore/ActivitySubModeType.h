@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivitySubModeType_TypeDefinitionIndex = 56023;
+	inline static constexpr unsigned int ActivitySubModeType_TypeDefinitionIndex = 57227;
 
 	enum class ActivitySubModeType : ::System::Int32
 	{
@@ -17,9 +17,10 @@ namespace RPG::GameCore
 		LocalLegend = 7,
 		Expedition = 8,
 		FinalityActivity = 9,
-		GridFight = 10,
-		RogueMagic = 11,
-		RogueTourn = 12,
-		Challenge = 13,
+		RealityShowActivity = 10,
+		GridFight = 11,
+		RogueMagic = 12,
+		RogueTourn = 13,
+		Challenge = 14,
 	};
 }

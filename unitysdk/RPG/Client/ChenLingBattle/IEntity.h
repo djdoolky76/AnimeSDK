@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int IEntity_TypeDefinitionIndex = 76366;
+	inline static constexpr unsigned int IEntity_TypeDefinitionIndex = 78697;
 
 	class IEntity
 	{

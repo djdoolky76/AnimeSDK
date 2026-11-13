@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2MotorJointDef_TypeDefinitionIndex = 36713;
+	inline static constexpr unsigned int B2MotorJointDef_TypeDefinitionIndex = 37641;
 
 	struct alignas(4) B2MotorJointDef
 	{

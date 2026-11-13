@@ -5,24 +5,24 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define EIDGANKEKNL_AGLAMBFJFIA_OFFSET UNITYSDK_OFFSET(0x154B2750)
-#define EIDGANKEKNL_CTOR_OFFSET UNITYSDK_OFFSET(0x154B27E0)
-#define EIDGANKEKNL_JJKEICHBLLC_OFFSET UNITYSDK_OFFSET(0x154B25E0)
-#define EIDGANKEKNL__ONBIND_OFFSET UNITYSDK_OFFSET(0x154B2430)
+#define EIDGANKEKNL_AGLAMBFJFIA_OFFSET UNITYSDK_OFFSET(0x19A8BD90)
+#define EIDGANKEKNL_CTOR_OFFSET UNITYSDK_OFFSET(0x19A8BE20)
+#define EIDGANKEKNL_JJKEICHBLLC_OFFSET UNITYSDK_OFFSET(0x19A8BC20)
+#define EIDGANKEKNL__ONBIND_OFFSET UNITYSDK_OFFSET(0x19A8B9B0)
 
-inline static constexpr unsigned int EIDGANKEKNL_TypeDefinitionIndex = 71885;
+inline static constexpr unsigned int EIDGANKEKNL_TypeDefinitionIndex = 73906;
 
 	class EIDGANKEKNL : public ::FMPCODLIOLG
 	{
 	public:
 		::System::String* MPEGEIGHBOM; // 0x60
 		::System::String* BDACPPLKLGL; // 0x68
-		::UnityEngine::UI::Image* LCPFCFOENPI; // 0x70
-		::UnityEngine::UI::Image* HNKPLEBEAKM; // 0x78
+		::UnityEngine::UI::Image* HNKPLEBEAKM; // 0x70
+		::UnityEngine::Transform* HMCPKNPBAJN; // 0x78
 		::System::String* FHFGFIPPKDH; // 0x80
-		::UnityEngine::Transform* EOIBPJEAFFC; // 0x88
-		::UnityEngine::Transform* CNPOCMJEMLP; // 0x90
-		::UnityEngine::Transform* HMCPKNPBAJN; // 0x98
+		::UnityEngine::Transform* CNPOCMJEMLP; // 0x88
+		::UnityEngine::Transform* EOIBPJEAFFC; // 0x90
+		::UnityEngine::UI::Image* LCPFCFOENPI; // 0x98
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EIDGANKEKNL_CTOR_OFFSET))(this);

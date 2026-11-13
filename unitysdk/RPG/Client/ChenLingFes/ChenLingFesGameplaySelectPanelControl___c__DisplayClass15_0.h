@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplaySelectPanelControl; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSELECTPANELCONTROL___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA9F470)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSELECTPANELCONTROL___C__DISPLAYCLASS15_0___ONTOGGLESELECTEXPANDED_B__0_OFFSET UNITYSDK_OFFSET(0xCAA06A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSELECTPANELCONTROL___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC702F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSELECTPANELCONTROL___C__DISPLAYCLASS15_0___ONTOGGLESELECTEXPANDED_B__0_OFFSET UNITYSDK_OFFSET(0x1CC71520)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplaySelectPanelControl___c__DisplayClass15_0_TypeDefinitionIndex = 81325;
+	inline static constexpr unsigned int ChenLingFesGameplaySelectPanelControl___c__DisplayClass15_0_TypeDefinitionIndex = 84105;
 
 	class ChenLingFesGameplaySelectPanelControl___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -6,7 +6,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WhenAnyLRPromise_1_TypeDefinitionIndex = 38326;
+	inline static constexpr unsigned int UniTask_WhenAnyLRPromise_1_TypeDefinitionIndex = 39255;
 
 	template <typename T>
 	class UniTask_WhenAnyLRPromise_1 : public ::System::Object

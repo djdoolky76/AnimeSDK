@@ -3,10 +3,10 @@
 namespace RPG::Client { class FateGameData; }
 namespace System { class String; }
 
-#define KOGLKLCCAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5900C0)
-#define KOGLKLCCAGE_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB590070)
+#define KOGLKLCCAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x190FF310)
+#define KOGLKLCCAGE_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x190FF2C0)
 
-inline static constexpr unsigned int KOGLKLCCAGE_TypeDefinitionIndex = 63995;
+inline static constexpr unsigned int KOGLKLCCAGE_TypeDefinitionIndex = 65440;
 
 	class KOGLKLCCAGE
 	{

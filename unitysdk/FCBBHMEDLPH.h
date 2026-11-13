@@ -6,21 +6,21 @@ namespace RPG::GameCore { class OnMuseumPerformanceEnd; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define FCBBHMEDLPH_CTOR_OFFSET UNITYSDK_OFFSET(0x156A32B0)
-#define FCBBHMEDLPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156A32C0)
-#define FCBBHMEDLPH_OCFKLGFHKAC_OFFSET UNITYSDK_OFFSET(0x156A3530)
-#define FCBBHMEDLPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156A3300)
-#define FCBBHMEDLPH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156A3480)
-#define FCBBHMEDLPH_TICK_OFFSET UNITYSDK_OFFSET(0x156A34D0)
+#define FCBBHMEDLPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C007AD0)
+#define FCBBHMEDLPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C007AE0)
+#define FCBBHMEDLPH_OCFKLGFHKAC_OFFSET UNITYSDK_OFFSET(0x1C007D50)
+#define FCBBHMEDLPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C007B20)
+#define FCBBHMEDLPH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C007CA0)
+#define FCBBHMEDLPH_TICK_OFFSET UNITYSDK_OFFSET(0x1C007CF0)
 
-inline static constexpr unsigned int FCBBHMEDLPH_TypeDefinitionIndex = 58238;
+inline static constexpr unsigned int FCBBHMEDLPH_TypeDefinitionIndex = 59494;
 
 	class FCBBHMEDLPH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::OnMuseumPerformanceEnd* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::OnMuseumPerformanceEnd* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OnMuseumPerformanceEnd* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::OnMuseumPerformanceEnd*))((::PBYTE)hIl2Cpp + FCBBHMEDLPH_CTOR_OFFSET))(this, a1, a2);

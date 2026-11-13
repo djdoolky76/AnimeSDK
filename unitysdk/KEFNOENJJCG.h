@@ -4,9 +4,9 @@
 class EILFKJPMCGL;
 namespace UnityEngine { class GameObject; }
 
-#define KEFNOENJJCG_LOPDPKNMMHN_OFFSET UNITYSDK_OFFSET(0xB36F960)
+#define KEFNOENJJCG_LOPDPKNMMHN_OFFSET UNITYSDK_OFFSET(0x1B5D9840)
 
-inline static constexpr unsigned int KEFNOENJJCG_TypeDefinitionIndex = 72661;
+inline static constexpr unsigned int KEFNOENJJCG_TypeDefinitionIndex = 74740;
 
 	class KEFNOENJJCG : public ::System::Object
 	{

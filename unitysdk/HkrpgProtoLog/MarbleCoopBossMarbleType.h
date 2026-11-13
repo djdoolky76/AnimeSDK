@@ -3,7 +3,7 @@
 
 namespace HkrpgProtoLog
 {
-	inline static constexpr unsigned int MarbleCoopBossMarbleType_TypeDefinitionIndex = 25050;
+	inline static constexpr unsigned int MarbleCoopBossMarbleType_TypeDefinitionIndex = 25528;
 
 	enum class MarbleCoopBossMarbleType : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMonsterPhase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJEFFJPJAOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DAFB0)
-#define LJEFFJPJAOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB6DAFE0)
+#define LJEFFJPJAOH_CTOR_OFFSET UNITYSDK_OFFSET(0x172F7EF0)
+#define LJEFFJPJAOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x172F7F20)
 
-inline static constexpr unsigned int LJEFFJPJAOH_TypeDefinitionIndex = 54549;
+inline static constexpr unsigned int LJEFFJPJAOH_TypeDefinitionIndex = 55714;
 
 	class LJEFFJPJAOH
 	{

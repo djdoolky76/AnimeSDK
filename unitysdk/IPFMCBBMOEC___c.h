@@ -4,18 +4,18 @@
 class IPFMCBBMOEC;
 namespace System { class Object; }
 
-#define IPFMCBBMOEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B16A0)
-#define IPFMCBBMOEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B16D0)
-#define IPFMCBBMOEC___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E6B16E0)
+#define IPFMCBBMOEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F688EC0)
+#define IPFMCBBMOEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F688EF0)
+#define IPFMCBBMOEC___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F688F00)
 
-inline static constexpr unsigned int IPFMCBBMOEC___c_TypeDefinitionIndex = 26294;
+inline static constexpr unsigned int IPFMCBBMOEC___c_TypeDefinitionIndex = 26821;
 
 	class IPFMCBBMOEC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55EF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54010);
 		}
 
 		static ::System::Void _cctor()

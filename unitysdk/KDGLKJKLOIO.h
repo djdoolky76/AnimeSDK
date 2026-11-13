@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class GHNMNFHDCME;
 
-#define KDGLKJKLOIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E0690)
+#define KDGLKJKLOIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABEFF80)
 
-inline static constexpr unsigned int KDGLKJKLOIO_TypeDefinitionIndex = 36441;
+inline static constexpr unsigned int KDGLKJKLOIO_TypeDefinitionIndex = 37369;
 
 	class KDGLKJKLOIO : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AHFJABLPNFI_CTOR_OFFSET UNITYSDK_OFFSET(0x16F0)
+#define AHFJABLPNFI_CTOR_OFFSET UNITYSDK_OFFSET(0x6551C0)
 
-inline static constexpr unsigned int AHFJABLPNFI_TypeDefinitionIndex = 62141;
+inline static constexpr unsigned int AHFJABLPNFI_TypeDefinitionIndex = 63554;
 
 	struct alignas(4) AHFJABLPNFI
 	{

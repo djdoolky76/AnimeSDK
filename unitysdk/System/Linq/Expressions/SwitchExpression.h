@@ -6,10 +6,10 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class SwitchCase; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_CASES_OFFSET UNITYSDK_OFFSET(0x1EE06B40)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET UNITYSDK_OFFSET(0x1EE06B60)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_DEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1EE06B50)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET UNITYSDK_OFFSET(0x1EE06B30)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_CASES_OFFSET UNITYSDK_OFFSET(0x1F795C90)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET UNITYSDK_OFFSET(0x1F795CB0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_DEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1F795CA0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET UNITYSDK_OFFSET(0x1F795C80)
 
 namespace System::Linq::Expressions
 {
@@ -19,9 +19,9 @@ namespace System::Linq::Expressions
 	{
 	public:
 		::System::Linq::Expressions::Expression* _SwitchValue_k__BackingField; // 0x10
-		::System::Linq::Expressions::Expression* _DefaultBody_k__BackingField; // 0x18
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* _Cases_k__BackingField; // 0x20
-		::System::Reflection::MethodInfo* _Comparison_k__BackingField; // 0x28
+		::System::Reflection::MethodInfo* _Comparison_k__BackingField; // 0x18
+		::System::Linq::Expressions::Expression* _DefaultBody_k__BackingField; // 0x20
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* _Cases_k__BackingField; // 0x28
 		::System::Linq::Expressions::Expression* get_SwitchValue()
 		{
 			return ((::System::Linq::Expressions::Expression*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET))(this);

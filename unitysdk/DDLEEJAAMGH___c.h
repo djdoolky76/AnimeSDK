@@ -4,18 +4,18 @@
 class DDLEEJAAMGH;
 namespace System { class Object; }
 
-#define DDLEEJAAMGH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E153C80)
-#define DDLEEJAAMGH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E153CC0)
-#define DDLEEJAAMGH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E153CD0)
+#define DDLEEJAAMGH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F483DC0)
+#define DDLEEJAAMGH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F483E00)
+#define DDLEEJAAMGH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F483E10)
 
-inline static constexpr unsigned int DDLEEJAAMGH___c_TypeDefinitionIndex = 33568;
+inline static constexpr unsigned int DDLEEJAAMGH___c_TypeDefinitionIndex = 34483;
 
 	class DDLEEJAAMGH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25FF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x219C0);
 		}
 
 		static ::System::Void _cctor()

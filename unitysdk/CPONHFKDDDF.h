@@ -5,16 +5,16 @@
 class CPONHFKDDDF;
 class FCOEMCEDLNL;
 
-#define CPONHFKDDDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC97720)
-#define CPONHFKDDDF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC97620)
+#define CPONHFKDDDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB99700)
+#define CPONHFKDDDF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB99600)
 
-inline static constexpr unsigned int CPONHFKDDDF_TypeDefinitionIndex = 13717;
+inline static constexpr unsigned int CPONHFKDDDF_TypeDefinitionIndex = 13874;
 
 	class CPONHFKDDDF : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::HeartDialEmoType BNFEAFPEOIE; // 0x10
-		::System::UInt32 POAIHJCEKCF; // 0x14
+		::System::UInt32 POAIHJCEKCF; // 0x10
+		::RPG::GameCore::HeartDialEmoType BNFEAFPEOIE; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CPONHFKDDDF_CTOR_OFFSET))(this);

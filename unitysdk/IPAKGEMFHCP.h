@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class MCDOIAPPMBF;
 
-#define IPAKGEMFHCP_LKEDAANNIAL_OFFSET UNITYSDK_OFFSET(0x1650F1C0)
+#define IPAKGEMFHCP_LKEDAANNIAL_OFFSET UNITYSDK_OFFSET(0x192FC2A0)
 
-inline static constexpr unsigned int IPAKGEMFHCP_TypeDefinitionIndex = 82157;
+inline static constexpr unsigned int IPAKGEMFHCP_TypeDefinitionIndex = 85030;
 
 	class IPAKGEMFHCP : public ::System::Object
 	{

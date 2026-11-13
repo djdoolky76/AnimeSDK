@@ -4,9 +4,9 @@
 class LIGHCKCMMAD;
 class NLJMEMAMJLC;
 
-#define MLDENEFOJHG_EDGIMFLNFEB_OFFSET UNITYSDK_OFFSET(0xB9A1290)
+#define MLDENEFOJHG_EDGIMFLNFEB_OFFSET UNITYSDK_OFFSET(0x1B916110)
 
-inline static constexpr unsigned int MLDENEFOJHG_TypeDefinitionIndex = 49728;
+inline static constexpr unsigned int MLDENEFOJHG_TypeDefinitionIndex = 50776;
 
 	class MLDENEFOJHG : public ::System::Object
 	{

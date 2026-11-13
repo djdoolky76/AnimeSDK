@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KLEFGGIHGMI_RootVisibleReason_TypeDefinitionIndex = 73907;
+inline static constexpr unsigned int KLEFGGIHGMI_RootVisibleReason_TypeDefinitionIndex = 76035;
 
 	enum class KLEFGGIHGMI_RootVisibleReason : ::System::Int32
 	{

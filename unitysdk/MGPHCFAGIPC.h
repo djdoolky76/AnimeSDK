@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetAlwaysAutoBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGPHCFAGIPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB926FA0)
-#define MGPHCFAGIPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB926FD0)
+#define MGPHCFAGIPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B34CFA0)
+#define MGPHCFAGIPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B34CFD0)
 
-inline static constexpr unsigned int MGPHCFAGIPC_TypeDefinitionIndex = 55574;
+inline static constexpr unsigned int MGPHCFAGIPC_TypeDefinitionIndex = 56769;
 
 	class MGPHCFAGIPC
 	{

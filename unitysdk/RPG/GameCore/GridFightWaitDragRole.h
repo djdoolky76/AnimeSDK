@@ -6,13 +6,13 @@ namespace RPG::GameCore { class GridFightDragOpGridSelector; }
 namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
 namespace RPG::GameCore { class GridFightWaitDragRole; }
 
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71C080)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D71C090)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71C050)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6B3A0)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA6B3B0)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA6B370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightWaitDragRole_TypeDefinitionIndex = 19960;
+	inline static constexpr unsigned int GridFightWaitDragRole_TypeDefinitionIndex = 20290;
 
 	class GridFightWaitDragRole : public ::RPG::GameCore::TaskConfig
 	{

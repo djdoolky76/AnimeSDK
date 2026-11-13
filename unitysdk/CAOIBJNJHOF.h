@@ -5,10 +5,10 @@ class IOGNBKGNPFD;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CAOIBJNJHOF_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xC4917B0)
-#define CAOIBJNJHOF_CTOR_OFFSET UNITYSDK_OFFSET(0xC491C80)
+#define CAOIBJNJHOF_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x18FCDF00)
+#define CAOIBJNJHOF_CTOR_OFFSET UNITYSDK_OFFSET(0x18FCE3D0)
 
-inline static constexpr unsigned int CAOIBJNJHOF_TypeDefinitionIndex = 77371;
+inline static constexpr unsigned int CAOIBJNJHOF_TypeDefinitionIndex = 79705;
 
 	class CAOIBJNJHOF : public ::System::Object
 	{

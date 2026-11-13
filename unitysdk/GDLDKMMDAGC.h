@@ -3,18 +3,18 @@
 namespace RPG::GameCore { class SetBaseHitStateSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDLDKMMDAGC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1599A1B0)
-#define GDLDKMMDAGC_CTOR_OFFSET UNITYSDK_OFFSET(0x15999D90)
-#define GDLDKMMDAGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15999DC0)
+#define GDLDKMMDAGC_CCTOR_OFFSET UNITYSDK_OFFSET(0x17CA71E0)
+#define GDLDKMMDAGC_CTOR_OFFSET UNITYSDK_OFFSET(0x17CA6DC0)
+#define GDLDKMMDAGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CA6DF0)
 
-inline static constexpr unsigned int GDLDKMMDAGC_TypeDefinitionIndex = 55890;
+inline static constexpr unsigned int GDLDKMMDAGC_TypeDefinitionIndex = 57093;
 
 	class GDLDKMMDAGC
 	{
 	public:
 		static ::System::Int32* StaticGet_BCEDIKIDHMD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GDLDKMMDAGC")->GetStaticField(0x140F0);
+			return (::System::Int32*)UnitySDK::FromName("", "GDLDKMMDAGC")->GetStaticField(0x14340);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetBaseHitStateSpeed* a2)

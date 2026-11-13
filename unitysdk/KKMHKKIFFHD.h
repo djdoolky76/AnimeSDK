@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGameShare/ChangeType.h"
 #include "unitysdk/System/Object.h"
 
-#define KKMHKKIFFHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E77A0)
+#define KKMHKKIFFHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF7070)
 
-inline static constexpr unsigned int KKMHKKIFFHD_TypeDefinitionIndex = 36916;
+inline static constexpr unsigned int KKMHKKIFFHD_TypeDefinitionIndex = 37844;
 
 	class KKMHKKIFFHD : public ::System::Object
 	{

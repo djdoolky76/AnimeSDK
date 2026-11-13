@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchMascotSetHudActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DGGPLJEDHGH_CTOR_OFFSET UNITYSDK_OFFSET(0xE83F320)
-#define DGGPLJEDHGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE83F350)
+#define DGGPLJEDHGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB3B30)
+#define DGGPLJEDHGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1ADB3B60)
 
-inline static constexpr unsigned int DGGPLJEDHGH_TypeDefinitionIndex = 58749;
+inline static constexpr unsigned int DGGPLJEDHGH_TypeDefinitionIndex = 60017;
 
 	class DGGPLJEDHGH
 	{

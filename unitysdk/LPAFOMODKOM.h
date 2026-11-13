@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CakeRaceBanDragCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPAFOMODKOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB80F760)
-#define LPAFOMODKOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB80F790)
+#define LPAFOMODKOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C5200)
+#define LPAFOMODKOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5C5230)
 
-inline static constexpr unsigned int LPAFOMODKOM_TypeDefinitionIndex = 52620;
+inline static constexpr unsigned int LPAFOMODKOM_TypeDefinitionIndex = 53727;
 
 	class LPAFOMODKOM
 	{

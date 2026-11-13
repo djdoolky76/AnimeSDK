@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialWaitCustomString; }
 
-#define AOCBNIHNBLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1589AF10)
+#define AOCBNIHNBLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A83FDC0)
 
-inline static constexpr unsigned int AOCBNIHNBLG_TypeDefinitionIndex = 58833;
+inline static constexpr unsigned int AOCBNIHNBLG_TypeDefinitionIndex = 60101;
 
 	class AOCBNIHNBLG : public ::MPLFJICIMNH
 	{

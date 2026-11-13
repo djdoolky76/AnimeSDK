@@ -5,17 +5,17 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraSetAttachPointActive; }
 
-#define JHDFICKHEEK_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A4070)
-#define JHDFICKHEEK_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB1A40B0)
-#define JHDFICKHEEK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB1A40F0)
+#define JHDFICKHEEK_CTOR_OFFSET UNITYSDK_OFFSET(0x193631D0)
+#define JHDFICKHEEK_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x19363210)
+#define JHDFICKHEEK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x19363250)
 
-inline static constexpr unsigned int JHDFICKHEEK_TypeDefinitionIndex = 78416;
+inline static constexpr unsigned int JHDFICKHEEK_TypeDefinitionIndex = 81151;
 
 	class JHDFICKHEEK : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
 		::RPG::GameCore::ChimeraSetAttachPointActive* IGHAHBNLIJA; // 0x20
 		::System::UInt32 NCBAPGKFFJA; // 0x28
 		::System::UInt32 AJLJMGEEKOJ; // 0x2C

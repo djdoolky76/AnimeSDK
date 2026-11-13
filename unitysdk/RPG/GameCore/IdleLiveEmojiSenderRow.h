@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveEmojiSenderRow; }
 
-#define RPG_GAMECORE_IDLELIVEEMOJISENDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74C750)
-#define RPG_GAMECORE_IDLELIVEEMOJISENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74C5D0)
+#define RPG_GAMECORE_IDLELIVEEMOJISENDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE855A0)
+#define RPG_GAMECORE_IDLELIVEEMOJISENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE85420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEmojiSenderRow_TypeDefinitionIndex = 11818;
+	inline static constexpr unsigned int IdleLiveEmojiSenderRow_TypeDefinitionIndex = 11875;
 
 	class IdleLiveEmojiSenderRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Name; // 0x10
+		::System::UInt32 ID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEEMOJISENDERROW_CTOR_OFFSET))(this);

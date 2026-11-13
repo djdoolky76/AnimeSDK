@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamFormationTemplateConfig; }
 namespace RPG::GameCore { class TeamFormationTemplateSingleConfig; }
 
-#define RPG_GAMECORE_TEAMFORMATIONTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4C5A0)
-#define RPG_GAMECORE_TEAMFORMATIONTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4C4B0)
+#define RPG_GAMECORE_TEAMFORMATIONTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C12E0)
+#define RPG_GAMECORE_TEAMFORMATIONTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C11F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationTemplateConfig_TypeDefinitionIndex = 16582;
+	inline static constexpr unsigned int TeamFormationTemplateConfig_TypeDefinitionIndex = 16748;
 
 	class TeamFormationTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,9 +5,9 @@
 class DCEHAGKAHFE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GBCCMPLLDPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1593FE70)
+#define GBCCMPLLDPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B87BCE0)
 
-inline static constexpr unsigned int GBCCMPLLDPG_TypeDefinitionIndex = 71617;
+inline static constexpr unsigned int GBCCMPLLDPG_TypeDefinitionIndex = 73605;
 
 	class GBCCMPLLDPG : public ::System::Object
 	{

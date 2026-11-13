@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongAddPointConfig; }
 
-#define RPG_GAMECORE_PINGPONGADDPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E7470)
-#define RPG_GAMECORE_PINGPONGADDPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E72E0)
+#define RPG_GAMECORE_PINGPONGADDPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE55D00)
+#define RPG_GAMECORE_PINGPONGADDPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE55B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongAddPointConfig_TypeDefinitionIndex = 16977;
+	inline static constexpr unsigned int PingPongAddPointConfig_TypeDefinitionIndex = 17144;
 
 	class PingPongAddPointConfig : public ::RPG::GameCore::JsonConfig
 	{

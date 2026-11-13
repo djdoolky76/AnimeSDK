@@ -12,59 +12,59 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Transform; }
 
-#define OODMOIBKGCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF71EE0)
-#define OODMOIBKGCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF71F20)
-#define OODMOIBKGCP___C__CREATEBALL_B__9_0_OFFSET UNITYSDK_OFFSET(0xBF71FC0)
-#define OODMOIBKGCP___C__CREATEDROPITEM_B__10_0_OFFSET UNITYSDK_OFFSET(0xBF71FF0)
-#define OODMOIBKGCP___C__CREATEENEMYBULLET_B__8_0_OFFSET UNITYSDK_OFFSET(0xBF71F90)
-#define OODMOIBKGCP___C__CREATEENEMY_B__15_0_OFFSET UNITYSDK_OFFSET(0xBF72020)
-#define OODMOIBKGCP___C__CREATERACKETBULLET_B__7_0_OFFSET UNITYSDK_OFFSET(0xBF71F60)
-#define OODMOIBKGCP___C__CREATERACKET_B__6_0_OFFSET UNITYSDK_OFFSET(0xBF71F30)
-#define OODMOIBKGCP___C___CREATEENEMYUNIT_B__21_0_OFFSET UNITYSDK_OFFSET(0xBF72060)
+#define OODMOIBKGCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19697F60)
+#define OODMOIBKGCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19697FA0)
+#define OODMOIBKGCP___C__CREATEBALL_B__9_0_OFFSET UNITYSDK_OFFSET(0x19698040)
+#define OODMOIBKGCP___C__CREATEDROPITEM_B__10_0_OFFSET UNITYSDK_OFFSET(0x19698070)
+#define OODMOIBKGCP___C__CREATEENEMYBULLET_B__8_0_OFFSET UNITYSDK_OFFSET(0x19698010)
+#define OODMOIBKGCP___C__CREATEENEMY_B__15_0_OFFSET UNITYSDK_OFFSET(0x196980A0)
+#define OODMOIBKGCP___C__CREATERACKETBULLET_B__7_0_OFFSET UNITYSDK_OFFSET(0x19697FE0)
+#define OODMOIBKGCP___C__CREATERACKET_B__6_0_OFFSET UNITYSDK_OFFSET(0x19697FB0)
+#define OODMOIBKGCP___C___CREATEENEMYUNIT_B__21_0_OFFSET UNITYSDK_OFFSET(0x196980E0)
 
-inline static constexpr unsigned int OODMOIBKGCP___c_TypeDefinitionIndex = 76655;
+inline static constexpr unsigned int OODMOIBKGCP___c_TypeDefinitionIndex = 78986;
 
 	class OODMOIBKGCP___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>** StaticGet___9__15_0()
-		{
-			return (::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63270);
-		}
-
 		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63278);
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68860);
 		}
 
-		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__9_0()
+		static ::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>** StaticGet___9__15_0()
 		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63280);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63288);
-		}
-
-		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__8_0()
-		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63290);
-		}
-
-		static ::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>** StaticGet___9__21_0()
-		{
-			return (::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63298);
+			return (::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68868);
 		}
 
 		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x632A0);
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68870);
+		}
+
+		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__9_0()
+		{
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68878);
+		}
+
+		static ::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>** StaticGet___9__21_0()
+		{
+			return (::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68880);
 		}
 
 		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x632A8);
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68888);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68890);
+		}
+
+		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__8_0()
+		{
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68898);
 		}
 
 		static ::System::Void _cctor()

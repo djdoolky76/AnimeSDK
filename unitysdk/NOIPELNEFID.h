@@ -7,10 +7,10 @@ class IJFIHJJPHNA;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Filter; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NOIPELNEFID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79B880)
-#define NOIPELNEFID_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C79B890)
+#define NOIPELNEFID_CTOR_OFFSET UNITYSDK_OFFSET(0x1B07CFC0)
+#define NOIPELNEFID_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1B07CFD0)
 
-inline static constexpr unsigned int NOIPELNEFID_TypeDefinitionIndex = 36388;
+inline static constexpr unsigned int NOIPELNEFID_TypeDefinitionIndex = 37316;
 
 	class NOIPELNEFID : public ::IFNMPBPNBIF
 	{

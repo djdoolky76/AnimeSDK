@@ -4,11 +4,11 @@
 namespace RPG::Client { class TimeRewindAnimRaycastBind; }
 namespace RPG::Client { class TimeRewindRaycastInfo; }
 
-#define RPG_CLIENT_TIMEREWINDRAYCAST_CTOR_OFFSET UNITYSDK_OFFSET(0xE27BD80)
+#define RPG_CLIENT_TIMEREWINDRAYCAST_CTOR_OFFSET UNITYSDK_OFFSET(0x1A135540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindRaycast_TypeDefinitionIndex = 60848;
+	inline static constexpr unsigned int TimeRewindRaycast_TypeDefinitionIndex = 62227;
 
 	class TimeRewindRaycast : public ::UnityEngine::MonoBehaviour
 	{

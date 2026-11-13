@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS70_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3F110)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS70_0__FORGOTPASSWORD_B__0_OFFSET UNITYSDK_OFFSET(0x1BE486D0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS70_0__FORGOTPASSWORD_B__1_OFFSET UNITYSDK_OFFSET(0x1BE48BD0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS70_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6872E0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS70_0__FORGOTPASSWORD_B__0_OFFSET UNITYSDK_OFFSET(0x1B690850)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS70_0__FORGOTPASSWORD_B__1_OFFSET UNITYSDK_OFFSET(0x1B690D50)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass70_0_TypeDefinitionIndex = 8335;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass70_0_TypeDefinitionIndex = 8344;
 
 	class LoginManager___c__DisplayClass70_0 : public ::System::Object
 	{

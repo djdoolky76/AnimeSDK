@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FFAHCMHJDAA_CTOR_OFFSET UNITYSDK_OFFSET(0x15723550)
+#define FFAHCMHJDAA_CTOR_OFFSET UNITYSDK_OFFSET(0x130D5020)
 
-inline static constexpr unsigned int FFAHCMHJDAA_TypeDefinitionIndex = 72399;
+inline static constexpr unsigned int FFAHCMHJDAA_TypeDefinitionIndex = 74478;
 
 	class FFAHCMHJDAA : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATCONTENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC44F7F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATCONTENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D136910)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int EmojiChatContentData_TypeDefinitionIndex = 75343;
+	inline static constexpr unsigned int EmojiChatContentData_TypeDefinitionIndex = 77670;
 
 	class EmojiChatContentData : public ::System::Object
 	{

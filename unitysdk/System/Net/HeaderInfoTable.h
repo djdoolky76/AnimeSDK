@@ -6,11 +6,11 @@ namespace System::Collections { class Hashtable; }
 namespace System::Net { class HeaderInfo; }
 namespace System::Net { class HeaderParser; }
 
-#define SYSTEM_NET_HEADERINFOTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F01D990)
-#define SYSTEM_NET_HEADERINFOTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F01F710)
-#define SYSTEM_NET_HEADERINFOTABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F01F5E0)
-#define SYSTEM_NET_HEADERINFOTABLE_PARSEMULTIVALUE_OFFSET UNITYSDK_OFFSET(0x1F01D4F0)
-#define SYSTEM_NET_HEADERINFOTABLE_PARSESINGLEVALUE_OFFSET UNITYSDK_OFFSET(0x1F01D4B0)
+#define SYSTEM_NET_HEADERINFOTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3FCE90)
+#define SYSTEM_NET_HEADERINFOTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FEC10)
+#define SYSTEM_NET_HEADERINFOTABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1C3FEAE0)
+#define SYSTEM_NET_HEADERINFOTABLE_PARSEMULTIVALUE_OFFSET UNITYSDK_OFFSET(0x1C3FC9F0)
+#define SYSTEM_NET_HEADERINFOTABLE_PARSESINGLEVALUE_OFFSET UNITYSDK_OFFSET(0x1C3FC9B0)
 
 namespace System::Net
 {
@@ -19,24 +19,24 @@ namespace System::Net
 	class HeaderInfoTable : public ::System::Object
 	{
 	public:
-		static ::System::Net::HeaderParser** StaticGet_MultiParser()
-		{
-			return (::System::Net::HeaderParser**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x2FD80);
-		}
-
 		static ::System::Net::HeaderInfo** StaticGet_UnknownHeaderInfo()
 		{
-			return (::System::Net::HeaderInfo**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x2FD88);
+			return (::System::Net::HeaderInfo**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x1EDB0);
 		}
 
 		static ::System::Net::HeaderParser** StaticGet_SingleParser()
 		{
-			return (::System::Net::HeaderParser**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x2FD90);
+			return (::System::Net::HeaderParser**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x1EDB8);
 		}
 
 		static ::System::Collections::Hashtable** StaticGet_HeaderHashTable()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x2FD98);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x1EDC0);
+		}
+
+		static ::System::Net::HeaderParser** StaticGet_MultiParser()
+		{
+			return (::System::Net::HeaderParser**)UnitySDK::FromName("System.Net", "HeaderInfoTable")->GetStaticField(0x1EDC8);
 		}
 
 		static ::System::Void _cctor()

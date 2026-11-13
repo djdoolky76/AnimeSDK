@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/PuzzleTutorialType.h"
 #include "unitysdk/System/Object.h"
 
-#define JKELHPDPDMH_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0xB214AD0)
+#define JKELHPDPDMH_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0x17B20660)
 
-inline static constexpr unsigned int JKELHPDPDMH_TypeDefinitionIndex = 78785;
+inline static constexpr unsigned int JKELHPDPDMH_TypeDefinitionIndex = 81520;
 
 	class JKELHPDPDMH : public ::System::Object
 	{

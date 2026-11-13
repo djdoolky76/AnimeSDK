@@ -5,9 +5,9 @@
 #include "unitysdk/System/Nullable_1.h"
 class PIIOAKOEACN;
 
-#define EBGKBGGBCBG_FJEMDBOOCHJ_OFFSET UNITYSDK_OFFSET(0x1C520F40)
+#define EBGKBGGBCBG_FJEMDBOOCHJ_OFFSET UNITYSDK_OFFSET(0x1E784110)
 
-inline static constexpr unsigned int EBGKBGGBCBG_TypeDefinitionIndex = 41891;
+inline static constexpr unsigned int EBGKBGGBCBG_TypeDefinitionIndex = 42866;
 
 	class EBGKBGGBCBG : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_BLENDSHAPESMOUTHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCDDCAF0)
+#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_BLENDSHAPESMOUTHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C9DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapesMouthConfig_TypeDefinitionIndex = 60038;
+	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapesMouthConfig_TypeDefinitionIndex = 61322;
 
 	class EmoBlendShapesConfig_BlendShapesMouthConfig : public ::System::Object
 	{

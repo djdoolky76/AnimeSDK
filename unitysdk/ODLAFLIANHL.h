@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class GroupToMemberEntityDataAdapter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ODLAFLIANHL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD91E80)
-#define ODLAFLIANHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD91EB0)
+#define ODLAFLIANHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1760EB50)
+#define ODLAFLIANHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1760EB80)
 
-inline static constexpr unsigned int ODLAFLIANHL_TypeDefinitionIndex = 52921;
+inline static constexpr unsigned int ODLAFLIANHL_TypeDefinitionIndex = 54077;
 
 	class ODLAFLIANHL
 	{

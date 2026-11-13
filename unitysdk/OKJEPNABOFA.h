@@ -7,12 +7,12 @@ namespace RPG::Client::Pet { class IPetLineup; }
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define OKJEPNABOFA_AGHCACKCDAM_OFFSET UNITYSDK_OFFSET(0xBED4780)
-#define OKJEPNABOFA_CTOR_OFFSET UNITYSDK_OFFSET(0xBED4660)
-#define OKJEPNABOFA_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xBED4730)
-#define OKJEPNABOFA_JIFPIGBJFEH_OFFSET UNITYSDK_OFFSET(0xBED47D0)
+#define OKJEPNABOFA_AGHCACKCDAM_OFFSET UNITYSDK_OFFSET(0x17879050)
+#define OKJEPNABOFA_CTOR_OFFSET UNITYSDK_OFFSET(0x17878F30)
+#define OKJEPNABOFA_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x17879000)
+#define OKJEPNABOFA_JIFPIGBJFEH_OFFSET UNITYSDK_OFFSET(0x178790A0)
 
-inline static constexpr unsigned int OKJEPNABOFA_TypeDefinitionIndex = 75711;
+inline static constexpr unsigned int OKJEPNABOFA_TypeDefinitionIndex = 78038;
 
 	class OKJEPNABOFA : public ::System::Object
 	{

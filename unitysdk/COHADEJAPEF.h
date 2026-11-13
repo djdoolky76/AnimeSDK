@@ -6,10 +6,10 @@ class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleTaskConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define COHADEJAPEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E4E80)
-#define COHADEJAPEF_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C9E4FD0)
+#define COHADEJAPEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB170E0)
+#define COHADEJAPEF_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DB17230)
 
-inline static constexpr unsigned int COHADEJAPEF_TypeDefinitionIndex = 43164;
+inline static constexpr unsigned int COHADEJAPEF_TypeDefinitionIndex = 44145;
 
 	class COHADEJAPEF : public ::BKABEBEPPJK
 	{

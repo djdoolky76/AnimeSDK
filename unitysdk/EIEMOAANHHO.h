@@ -6,18 +6,18 @@ class GHFNPKEGLGN;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EIEMOAANHHO_CTOR_OFFSET UNITYSDK_OFFSET(0x154B5550)
+#define EIEMOAANHHO_CTOR_OFFSET UNITYSDK_OFFSET(0x19A8EBC0)
 
-inline static constexpr unsigned int EIEMOAANHHO_TypeDefinitionIndex = 61093;
+inline static constexpr unsigned int EIEMOAANHHO_TypeDefinitionIndex = 62478;
 
 	class EIEMOAANHHO : public ::System::Object
 	{
 	public:
-		::System::String* BFHFGLBKHDH; // 0x10
-		::System::String* PHJMDBNHNBH; // 0x18
-		::System::String* NJIAFHIPAFO; // 0x20
-		::GHFNPKEGLGN* OHIPGNMJDGG; // 0x28
-		::System::String* JHFIFEGLDEC; // 0x30
+		::System::String* JHFIFEGLDEC; // 0x10
+		::System::String* NJIAFHIPAFO; // 0x18
+		::System::String* PHJMDBNHNBH; // 0x20
+		::System::String* BFHFGLBKHDH; // 0x28
+		::GHFNPKEGLGN* OHIPGNMJDGG; // 0x30
 		::System::Collections::Generic::List_1<::System::String*>* JEGAGKHJACD; // 0x38
 		::System::String* AABNPBGMOFN; // 0x40
 		::System::Nullable_1<::System::Boolean> ENENJJENNOL; // 0x48

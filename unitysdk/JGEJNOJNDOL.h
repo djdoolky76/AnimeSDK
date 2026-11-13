@@ -4,9 +4,9 @@
 class CEHLPJAPDIP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JGEJNOJNDOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB66440)
+#define JGEJNOJNDOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE03AF0)
 
-inline static constexpr unsigned int JGEJNOJNDOL_TypeDefinitionIndex = 41937;
+inline static constexpr unsigned int JGEJNOJNDOL_TypeDefinitionIndex = 42912;
 
 	class JGEJNOJNDOL : public ::System::Object
 	{

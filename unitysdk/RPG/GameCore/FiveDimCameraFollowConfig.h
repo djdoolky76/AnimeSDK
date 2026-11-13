@@ -8,12 +8,12 @@ namespace RPG::GameCore { class FiveDimCameraFollowConfig; }
 namespace RPG::GameCore { class FiveDimCameraLookAheadConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D686210)
-#define RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6848F0)
+#define RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E853480)
+#define RPG_GAMECORE_FIVEDIMCAMERAFOLLOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E851B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCameraFollowConfig_TypeDefinitionIndex = 18621;
+	inline static constexpr unsigned int FiveDimCameraFollowConfig_TypeDefinitionIndex = 18781;
 
 	class FiveDimCameraFollowConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftChipMoldFilterItemType_TypeDefinitionIndex = 79519;
+	inline static constexpr unsigned int MechCraftChipMoldFilterItemType_TypeDefinitionIndex = 82296;
 
 	enum class MechCraftChipMoldFilterItemType : ::System::Int32
 	{

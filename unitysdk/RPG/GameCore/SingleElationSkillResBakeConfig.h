@@ -6,12 +6,12 @@ namespace RPG::GameCore { class EffectDurationConfig; }
 namespace RPG::GameCore { class SingleElationSkillResBakeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABDBE0)
-#define RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABD9B0)
+#define RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F6C90)
+#define RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3F6A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleElationSkillResBakeConfig_TypeDefinitionIndex = 16346;
+	inline static constexpr unsigned int SingleElationSkillResBakeConfig_TypeDefinitionIndex = 16510;
 
 	class SingleElationSkillResBakeConfig : public ::RPG::GameCore::JsonConfig
 	{

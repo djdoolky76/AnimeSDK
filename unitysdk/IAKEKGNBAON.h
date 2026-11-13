@@ -5,10 +5,10 @@
 class LHKNCMFEPFK;
 namespace RPG::Client { class IRogueMiracleInfo; }
 
-#define IAKEKGNBAON_CTOR_OFFSET UNITYSDK_OFFSET(0x15E0A100)
-#define IAKEKGNBAON_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x15E0A110)
+#define IAKEKGNBAON_CTOR_OFFSET UNITYSDK_OFFSET(0x1942A2E0)
+#define IAKEKGNBAON_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x1942A2F0)
 
-inline static constexpr unsigned int IAKEKGNBAON_TypeDefinitionIndex = 67097;
+inline static constexpr unsigned int IAKEKGNBAON_TypeDefinitionIndex = 69041;
 
 	class IAKEKGNBAON : public ::DOLNICOMJJM
 	{

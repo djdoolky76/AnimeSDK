@@ -4,10 +4,10 @@
 class CFIAGNDOLBD;
 namespace RPG::Client { class GridFightPrayQuest; }
 
-#define GCLFOCEELOA_CBGILKCGKAG_OFFSET UNITYSDK_OFFSET(0x15978480)
-#define GCLFOCEELOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15978520)
+#define GCLFOCEELOA_CBGILKCGKAG_OFFSET UNITYSDK_OFFSET(0x19EBD9B0)
+#define GCLFOCEELOA_CTOR_OFFSET UNITYSDK_OFFSET(0x19EBDA60)
 
-inline static constexpr unsigned int GCLFOCEELOA_TypeDefinitionIndex = 65097;
+inline static constexpr unsigned int GCLFOCEELOA_TypeDefinitionIndex = 66767;
 
 	class GCLFOCEELOA : public ::System::Object
 	{

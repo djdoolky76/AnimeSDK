@@ -42,64 +42,64 @@ namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define HHCLFOHEKNM_CBKPMHCOCMH_OFFSET UNITYSDK_OFFSET(0x15CADAA0)
-#define HHCLFOHEKNM_CTOR_OFFSET UNITYSDK_OFFSET(0x15CAEC40)
-#define HHCLFOHEKNM_DOEOAIGJALE_OFFSET UNITYSDK_OFFSET(0x15CAEBF0)
-#define HHCLFOHEKNM_EKJLNFJKNNB_OFFSET UNITYSDK_OFFSET(0x15CAEB50)
-#define HHCLFOHEKNM_FFFIGPLJBMI_OFFSET UNITYSDK_OFFSET(0x15CAD7B0)
-#define HHCLFOHEKNM_FKNOBCMLHAG_OFFSET UNITYSDK_OFFSET(0x15CAC7E0)
-#define HHCLFOHEKNM_HHFDPNNLOBJ_OFFSET UNITYSDK_OFFSET(0x15CAEBA0)
-#define HHCLFOHEKNM_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0x15CAD6D0)
-#define HHCLFOHEKNM_IJICJDNHKHN_OFFSET UNITYSDK_OFFSET(0x15CAC8B0)
-#define HHCLFOHEKNM_JMFBLNEOHEB_OFFSET UNITYSDK_OFFSET(0x15CAE860)
-#define HHCLFOHEKNM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15CAC620)
-#define HHCLFOHEKNM_LNLLMIPMLPL_OFFSET UNITYSDK_OFFSET(0x15CAC690)
-#define HHCLFOHEKNM_LPCAMOJGABA_OFFSET UNITYSDK_OFFSET(0x15CAEB00)
-#define HHCLFOHEKNM_MFAHFOEDLDL_OFFSET UNITYSDK_OFFSET(0x15CAC760)
-#define HHCLFOHEKNM_MGODDGLJHLN_OFFSET UNITYSDK_OFFSET(0x15CACB00)
-#define HHCLFOHEKNM_PAJNECIGPHO_OFFSET UNITYSDK_OFFSET(0x15CADB10)
-#define HHCLFOHEKNM_PHGJENJNGDG_OFFSET UNITYSDK_OFFSET(0x15CACAB0)
+#define HHCLFOHEKNM_CBKPMHCOCMH_OFFSET UNITYSDK_OFFSET(0x19006370)
+#define HHCLFOHEKNM_CTOR_OFFSET UNITYSDK_OFFSET(0x190074F0)
+#define HHCLFOHEKNM_DOEOAIGJALE_OFFSET UNITYSDK_OFFSET(0x190074A0)
+#define HHCLFOHEKNM_EKJLNFJKNNB_OFFSET UNITYSDK_OFFSET(0x19007400)
+#define HHCLFOHEKNM_FFFIGPLJBMI_OFFSET UNITYSDK_OFFSET(0x19006090)
+#define HHCLFOHEKNM_FKNOBCMLHAG_OFFSET UNITYSDK_OFFSET(0x190050C0)
+#define HHCLFOHEKNM_HHFDPNNLOBJ_OFFSET UNITYSDK_OFFSET(0x19007450)
+#define HHCLFOHEKNM_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0x19005FB0)
+#define HHCLFOHEKNM_IJICJDNHKHN_OFFSET UNITYSDK_OFFSET(0x19005190)
+#define HHCLFOHEKNM_JMFBLNEOHEB_OFFSET UNITYSDK_OFFSET(0x19007140)
+#define HHCLFOHEKNM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x19004F00)
+#define HHCLFOHEKNM_LNLLMIPMLPL_OFFSET UNITYSDK_OFFSET(0x19004F70)
+#define HHCLFOHEKNM_LPCAMOJGABA_OFFSET UNITYSDK_OFFSET(0x190073B0)
+#define HHCLFOHEKNM_MFAHFOEDLDL_OFFSET UNITYSDK_OFFSET(0x19005040)
+#define HHCLFOHEKNM_MGODDGLJHLN_OFFSET UNITYSDK_OFFSET(0x190053E0)
+#define HHCLFOHEKNM_PAJNECIGPHO_OFFSET UNITYSDK_OFFSET(0x190063F0)
+#define HHCLFOHEKNM_PHGJENJNGDG_OFFSET UNITYSDK_OFFSET(0x19005390)
 
-inline static constexpr unsigned int HHCLFOHEKNM_TypeDefinitionIndex = 69965;
+inline static constexpr unsigned int HHCLFOHEKNM_TypeDefinitionIndex = 71925;
 
 	class HHCLFOHEKNM : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>* GJAGKCGIAMO; // 0x18
-		::RPG::Client::MonoEffectPluginCharaPropCrystal* KHBLCKNKAJO; // 0x20
+		::RPG::Client::MonoEffectPluginCharaPropDissolve* BGHAGPKHKHA; // 0x18
+		::RPG::Client::MonoEffectPluginCharaPropRefSpecular* LEIBKGCCGLL; // 0x20
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>* JFOIGEBOCMP; // 0x28
-		::RPG::Client::MonoEffectPluginCharaPropCustomLightDir* BHEAGHOFLMJ; // 0x30
-		::RPG::Client::MonoEffectPluginCharaPropBloom* NAPPNNHMPFI; // 0x38
-		::RPG::Client::MonoEffectPluginCharaPropDirectionDissolve* FMMHJNHJKEN; // 0x40
-		::RPG::Client::MonoEffectPluginCharaPropRimShadow* MOIDIBEKMJO; // 0x48
-		::RPG::Client::MonoEffectPluginCharaPropFaceDiffuse* GPGLBNIMJDA; // 0x50
-		::RPG::Client::MonoEffectPluginCharaPropFaceRim* JGHGMEJKNKL; // 0x58
-		::RPG::Client::MonoEffectPluginCharaPropFaceSpecialEye* INLGDPIJONG; // 0x60
-		::RPG::Client::MonoEffectPluginCharaPropHairRimLight* KGNGIAGHFGA; // 0x68
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* KOJAKKFLPMG; // 0x70
-		::RPG::Client::MonoEffectPluginCharaPropDissolve* BGHAGPKHKHA; // 0x78
-		::RPG::Client::MonoEffectPluginCharaPropRefSpecular* LEIBKGCCGLL; // 0x80
-		::RPG::Client::MonoEffectPluginCharaPropDiffuseLighting* KKEHHMIPBJK; // 0x88
-		::RPG::Client::MonoEffectPluginCharaPropStencil* IOMKBACPFIN; // 0x90
-		::RPG::Client::MonoEffectPluginCharaPropEmission* FLIHMCHOGFM; // 0x98
-		::RPG::Client::MonoEffectPluginCharaPropOutline* CLOHICDEMLK; // 0xA0
-		::RPG::Client::MonoEffectPluginCharaPropMaps* FLDIDKBGGJL; // 0xA8
-		::RPG::Client::MonoEffectPluginCharaPropOverrideLight* MKDNAKGIAIF; // 0xB0
-		::RPG::Client::MonoEffectPluginCharaPropSpecularLighting* ENBPIEHOMCE; // 0xB8
-		::RPG::Client::MonoEffectPluginCharaPropStock* KGKJDIBMAAA; // 0xC0
-		::RPG::Client::MonoEffectPluginCharaPropPartsSelection* OPFKKKJPCMK; // 0xC8
-		::RPG::Client::MonoEffectPluginCharaPropRimLight* BCPBALACPCB; // 0xD0
-		::RPG::Client::MonoEffectPluginCharaPropFaceOutline* BOOEBNLNKIL; // 0xD8
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* HKKGFJNLKHM; // 0xE0
-		::RPG::Client::MonoEffectPluginCharaPropStarrySky* MFPAHIHICNH; // 0xE8
+		::RPG::Client::MonoEffectPluginCharaPropDirectionDissolve* FMMHJNHJKEN; // 0x30
+		::RPG::Client::MonoEffectPluginCharaPropOverrideLight* MKDNAKGIAIF; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* HKKGFJNLKHM; // 0x40
+		::RPG::Client::MonoEffectPluginCharaPropCrystal* KHBLCKNKAJO; // 0x48
+		::RPG::Client::MonoEffectPluginCharaPropEmission* FLIHMCHOGFM; // 0x50
+		::RPG::Client::MonoEffectPluginCharaPropMaps* FLDIDKBGGJL; // 0x58
+		::RPG::Client::MonoEffectPluginCharaPropPartsSelection* OPFKKKJPCMK; // 0x60
+		::RPG::Client::MonoEffectPluginCharaPropSpecularLighting* ENBPIEHOMCE; // 0x68
+		::RPG::Client::MonoEffectPluginCharaPropRimShadow* MOIDIBEKMJO; // 0x70
+		::RPG::Client::MonoEffectPluginCharaPropFaceOutline* BOOEBNLNKIL; // 0x78
+		::RPG::Client::MonoEffectPluginCharaPropDiffuseLighting* KKEHHMIPBJK; // 0x80
+		::RPG::Client::MonoEffectPluginCharaPropRimLight* BCPBALACPCB; // 0x88
+		::RPG::Client::MonoEffectPluginCharaPropFaceDiffuse* GPGLBNIMJDA; // 0x90
+		::RPG::Client::MonoEffectPluginCharaPropHairRimLight* KGNGIAGHFGA; // 0x98
+		::RPG::Client::MonoEffectPluginCharaPropStencil* IOMKBACPFIN; // 0xA0
+		::RPG::Client::MonoEffectPluginCharaPropFaceRim* JGHGMEJKNKL; // 0xA8
+		::RPG::Client::MonoEffectPluginCharaPropOutline* CLOHICDEMLK; // 0xB0
+		::RPG::Client::MonoEffectPluginCharaPropFaceSpecialEye* INLGDPIJONG; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>* GJAGKCGIAMO; // 0xC0
+		::RPG::Client::MonoEffectPluginCharaPropBloom* NAPPNNHMPFI; // 0xC8
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* KOJAKKFLPMG; // 0xD0
+		::RPG::Client::MonoEffectPluginCharaPropStarrySky* MFPAHIHICNH; // 0xD8
+		::RPG::Client::MonoEffectPluginCharaPropCustomLightDir* BHEAGHOFLMJ; // 0xE0
+		::RPG::Client::MonoEffectPluginCharaPropStock* KGKJDIBMAAA; // 0xE8
 		::RPG::Client::MonoEffectPluginCharaPropFaceExpression* FIFEODGJIMJ; // 0xF0
 		::HHCLFOHEKNM_HairProp HPOLEJPFNGM; // 0xF8
-		::System::Boolean CHCABKIDJNO; // 0xFC
-		::System::Boolean HJGGKOEAJEG; // 0xFD
+		::HHCLFOHEKNM_OtherProp DFJGLFEJEDJ; // 0xFC
+		::System::Boolean HJGGKOEAJEG; // 0x100
+		::System::Boolean CHCABKIDJNO; // 0x101
 		::System::Byte _padding0[0x2];
-		::HHCLFOHEKNM_CharaProp IAKPKCEDIOO; // 0x100
-		::HHCLFOHEKNM_FaceProp KEEHEAHBMPA; // 0x104
-		::HHCLFOHEKNM_OtherProp DFJGLFEJEDJ; // 0x108
+		::HHCLFOHEKNM_CharaProp IAKPKCEDIOO; // 0x104
+		::HHCLFOHEKNM_FaceProp KEEHEAHBMPA; // 0x108
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHCLFOHEKNM_CTOR_OFFSET))(this);

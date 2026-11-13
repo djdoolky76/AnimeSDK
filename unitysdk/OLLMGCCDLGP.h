@@ -4,21 +4,21 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define OLLMGCCDLGP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF09150)
-#define OLLMGCCDLGP_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xBF09000)
-#define OLLMGCCDLGP_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBF09040)
-#define OLLMGCCDLGP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBF08DB0)
-#define OLLMGCCDLGP_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBF08DC0)
+#define OLLMGCCDLGP_CTOR_OFFSET UNITYSDK_OFFSET(0x178B1430)
+#define OLLMGCCDLGP_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x178B12E0)
+#define OLLMGCCDLGP_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x178B1320)
+#define OLLMGCCDLGP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x178B1090)
+#define OLLMGCCDLGP_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x178B10A0)
 
-inline static constexpr unsigned int OLLMGCCDLGP_TypeDefinitionIndex = 56106;
+inline static constexpr unsigned int OLLMGCCDLGP_TypeDefinitionIndex = 57318;
 
 	class OLLMGCCDLGP : public ::DBGDNLLDPFI
 	{
 	public:
-		::System::String* MCLLALGABAB; // 0x10
-		::System::String* GDCCJFKJGPD; // 0x18
-		::System::Int32 KBAPBCNJHDB; // 0x20
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x24
+		::System::String* GDCCJFKJGPD; // 0x10
+		::System::String* MCLLALGABAB; // 0x18
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x20
+		::System::Int32 KBAPBCNJHDB; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OLLMGCCDLGP_CTOR_OFFSET))(this);

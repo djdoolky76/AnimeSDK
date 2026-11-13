@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PGFJBCEDDLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BA990)
+#define PGFJBCEDDLN_CTOR_OFFSET UNITYSDK_OFFSET(0x176BD8F0)
 
-inline static constexpr unsigned int PGFJBCEDDLN_TypeDefinitionIndex = 41973;
+inline static constexpr unsigned int PGFJBCEDDLN_TypeDefinitionIndex = 42948;
 
 	class PGFJBCEDDLN : public ::System::Object
 	{
 	public:
-		::System::String* AADAFGFFODK; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* LPCOFGEEBIP; // 0x18
-		::System::UInt32 BOKJJKFCFME; // 0x20
-		::System::UInt32 NALMBOOCCIN; // 0x24
-		::System::Int32 BHKEBNJFACD; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* LPCOFGEEBIP; // 0x10
+		::System::String* AADAFGFFODK; // 0x18
+		::System::UInt32 NALMBOOCCIN; // 0x20
+		::System::Int32 BHKEBNJFACD; // 0x24
+		::System::UInt32 BOKJJKFCFME; // 0x28
 		::System::Int32 DDEPKGPNDEA; // 0x2C
 		::System::Int32 GOHPCPGPIFB; // 0x30
 		::System::Void _ctor()

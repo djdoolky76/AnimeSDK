@@ -4,10 +4,10 @@
 class BLCOAJAODFE;
 namespace System { class String; }
 
-#define KFLOFDNCIPO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB3BE810)
-#define KFLOFDNCIPO___C__DISPLAYCLASS9_0__COMPILE_B__0_OFFSET UNITYSDK_OFFSET(0xB3BE8A0)
+#define KFLOFDNCIPO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17707DA0)
+#define KFLOFDNCIPO___C__DISPLAYCLASS9_0__COMPILE_B__0_OFFSET UNITYSDK_OFFSET(0x17707E30)
 
-inline static constexpr unsigned int KFLOFDNCIPO___c__DisplayClass9_0_TypeDefinitionIndex = 65281;
+inline static constexpr unsigned int KFLOFDNCIPO___c__DisplayClass9_0_TypeDefinitionIndex = 67036;
 
 	class KFLOFDNCIPO___c__DisplayClass9_0 : public ::System::Object
 	{

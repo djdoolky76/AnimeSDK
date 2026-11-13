@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveStageAbilityByName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BNMDAJMHMCP_CTOR_OFFSET UNITYSDK_OFFSET(0xBDDAD30)
-#define BNMDAJMHMCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDDAD60)
+#define BNMDAJMHMCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7730B0)
+#define BNMDAJMHMCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A7730E0)
 
-inline static constexpr unsigned int BNMDAJMHMCP_TypeDefinitionIndex = 55313;
+inline static constexpr unsigned int BNMDAJMHMCP_TypeDefinitionIndex = 56495;
 
 	class BNMDAJMHMCP
 	{

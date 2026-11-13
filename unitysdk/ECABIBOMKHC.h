@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPamMovePhaseTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ECABIBOMKHC_CTOR_OFFSET UNITYSDK_OFFSET(0x12D001C0)
-#define ECABIBOMKHC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12D001F0)
+#define ECABIBOMKHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3CE070)
+#define ECABIBOMKHC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C3CE0A0)
 
-inline static constexpr unsigned int ECABIBOMKHC_TypeDefinitionIndex = 53158;
+inline static constexpr unsigned int ECABIBOMKHC_TypeDefinitionIndex = 54320;
 
 	class ECABIBOMKHC
 	{

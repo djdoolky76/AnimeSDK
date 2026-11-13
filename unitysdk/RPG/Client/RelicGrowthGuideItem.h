@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICGROWTHGUIDEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDE69000)
+#define RPG_CLIENT_RELICGROWTHGUIDEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D08F020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicGrowthGuideItem_TypeDefinitionIndex = 65558;
+	inline static constexpr unsigned int RelicGrowthGuideItem_TypeDefinitionIndex = 67474;
 
 	class RelicGrowthGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* RelicItems; // 0x20
-		::System::Func_1<::System::String*>* GetGuideDesc; // 0x28
+		::System::Func_1<::System::String*>* GetGuideDesc; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* RelicItems; // 0x28
 		::RPG::Client::RelicSmartSuit::RankType RankType; // 0x30
 		::System::Void _ctor()
 		{

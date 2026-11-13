@@ -5,16 +5,16 @@
 class HNLKNLJBHDD;
 class ODCELNBAEIB;
 
-#define ODCELNBAEIB___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD7B230)
-#define ODCELNBAEIB___C__DISPLAYCLASS51_0___ONPLAYSPAWNISLANDPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xBD7FB70)
+#define ODCELNBAEIB___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A2EF80)
+#define ODCELNBAEIB___C__DISPLAYCLASS51_0___ONPLAYSPAWNISLANDPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x19A33990)
 
-inline static constexpr unsigned int ODCELNBAEIB___c__DisplayClass51_0_TypeDefinitionIndex = 79102;
+inline static constexpr unsigned int ODCELNBAEIB___c__DisplayClass51_0_TypeDefinitionIndex = 81878;
 
 	class ODCELNBAEIB___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
-		::HNLKNLJBHDD* curControlEntity; // 0x10
-		::ODCELNBAEIB* __4__this; // 0x18
+		::ODCELNBAEIB* __4__this; // 0x10
+		::HNLKNLJBHDD* curControlEntity; // 0x18
 		::RPG::MVector3 brickPosition; // 0x20
 		::System::Void _ctor()
 		{

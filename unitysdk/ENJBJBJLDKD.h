@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPamOnlineFirst; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ENJBJBJLDKD_CTOR_OFFSET UNITYSDK_OFFSET(0x155A4D60)
-#define ENJBJBJLDKD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155A4D90)
+#define ENJBJBJLDKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1880FD40)
+#define ENJBJBJLDKD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1880FD70)
 
-inline static constexpr unsigned int ENJBJBJLDKD_TypeDefinitionIndex = 53161;
+inline static constexpr unsigned int ENJBJBJLDKD_TypeDefinitionIndex = 54323;
 
 	class ENJBJBJLDKD
 	{

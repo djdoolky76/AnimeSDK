@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderTestMode_TypeDefinitionIndex = 61203;
+	inline static constexpr unsigned int RenderTestMode_TypeDefinitionIndex = 62588;
 
 	enum class RenderTestMode : ::System::Int32
 	{

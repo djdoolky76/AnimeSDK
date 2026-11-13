@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class MonopolyMapCell; }
 
-#define LKKOKFPLGAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E1BD0)
+#define LKKOKFPLGAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63BCC0)
 
-inline static constexpr unsigned int LKKOKFPLGAF_TypeDefinitionIndex = 42553;
+inline static constexpr unsigned int LKKOKFPLGAF_TypeDefinitionIndex = 43528;
 
 	class LKKOKFPLGAF : public ::System::Object
 	{

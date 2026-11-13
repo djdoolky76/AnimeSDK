@@ -9,35 +9,35 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_CTOR_OFFSET UNITYSDK_OFFSET(0xB0629B0)
-#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xB062C80)
-#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB063EE0)
-#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB063F40)
-#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB063EF0)
-#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB062C70)
+#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF09F00)
+#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CF0A1E0)
+#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CF0B440)
+#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CF0B4A0)
+#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1CF0B450)
+#define MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CF0A1D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCNetwork__PerformHttpRequestBinary_d__6_TypeDefinitionIndex = 46455;
+	inline static constexpr unsigned int UGCNetwork__PerformHttpRequestBinary_d__6_TypeDefinitionIndex = 47483;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class UGCNetwork__PerformHttpRequestBinary_d__6 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Networking::UnityWebRequest* _request_5__4; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* reportDict; // 0x10
 		::System::Object* __2__current; // 0x18
 		::System::Func_1<::UnityEngine::Networking::UnityWebRequest*>* buildRequestFun; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* reportDict; // 0x30
-		::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* completeCallback; // 0x38
-		::System::Action* timeoutCallback; // 0x40
-		::System::Single timeoutSecond; // 0x48
-		::System::Int32 __1__state; // 0x4C
-		::System::Int32 retryLimit; // 0x50
-		::System::Boolean checkMD5; // 0x54
+		::System::Action* timeoutCallback; // 0x30
+		::UnityEngine::Networking::UnityWebRequest* _request_5__4; // 0x38
+		::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* completeCallback; // 0x40
+		::System::Boolean checkMD5; // 0x48
 		::System::Byte _padding0[0x3];
-		::System::Int32 _leftRetryCount_5__3; // 0x58
-		::System::Int32 _delayTimeMs_5__2; // 0x5C
+		::System::Single timeoutSecond; // 0x4C
+		::System::Int32 _leftRetryCount_5__3; // 0x50
+		::System::Int32 _delayTimeMs_5__2; // 0x54
+		::System::Int32 retryLimit; // 0x58
+		::System::Int32 __1__state; // 0x5C
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK__PERFORMHTTPREQUESTBINARY_D__6_CTOR_OFFSET))(this, a1);

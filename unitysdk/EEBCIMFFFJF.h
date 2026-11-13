@@ -4,16 +4,16 @@
 class EEBCIMFFFJF;
 class FCOEMCEDLNL;
 
-#define EEBCIMFFFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD442F0)
-#define EEBCIMFFFJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD44200)
+#define EEBCIMFFFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0FBDA0)
+#define EEBCIMFFFJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0FBCB0)
 
-inline static constexpr unsigned int EEBCIMFFFJF_TypeDefinitionIndex = 13314;
+inline static constexpr unsigned int EEBCIMFFFJF_TypeDefinitionIndex = 13386;
 
 	class EEBCIMFFFJF : public ::System::Object
 	{
 	public:
-		::System::UInt32 MNDFOPKBHKP; // 0x10
-		::System::UInt32 BFLIFKBEOPJ; // 0x14
+		::System::UInt32 BFLIFKBEOPJ; // 0x10
+		::System::UInt32 MNDFOPKBHKP; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEBCIMFFFJF_CTOR_OFFSET))(this);

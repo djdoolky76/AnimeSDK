@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByMuseumProjectorThemeNum; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGOGKOCDFON_CTOR_OFFSET UNITYSDK_OFFSET(0xCC872E0)
-#define CGOGKOCDFON_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC87310)
+#define CGOGKOCDFON_CTOR_OFFSET UNITYSDK_OFFSET(0x17860600)
+#define CGOGKOCDFON_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17860630)
 
-inline static constexpr unsigned int CGOGKOCDFON_TypeDefinitionIndex = 53154;
+inline static constexpr unsigned int CGOGKOCDFON_TypeDefinitionIndex = 54316;
 
 	class CGOGKOCDFON
 	{

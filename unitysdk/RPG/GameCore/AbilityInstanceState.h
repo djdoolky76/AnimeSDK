@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityInstanceState_TypeDefinitionIndex = 54400;
+	inline static constexpr unsigned int AbilityInstanceState_TypeDefinitionIndex = 55564;
 
 	enum class AbilityInstanceState : ::System::Int32
 	{

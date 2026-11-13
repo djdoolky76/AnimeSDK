@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Rendering/BAVariantKey.h"
 namespace RPG::Client { class BAPartVariantRef; }
 
-#define MJMCCBBANDN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1DAA0)
+#define MJMCCBBANDN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3E5C490)
 
-inline static constexpr unsigned int MJMCCBBANDN_TypeDefinitionIndex = 69521;
+inline static constexpr unsigned int MJMCCBBANDN_TypeDefinitionIndex = 71478;
 
 	struct alignas(8) MJMCCBBANDN
 	{

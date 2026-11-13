@@ -4,9 +4,9 @@
 class DKNHOGCDNHH;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HNHDELFECHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C431EB0)
+#define HNHDELFECHK_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF2440)
 
-inline static constexpr unsigned int HNHDELFECHK_TypeDefinitionIndex = 41464;
+inline static constexpr unsigned int HNHDELFECHK_TypeDefinitionIndex = 42439;
 
 	class HNHDELFECHK : public ::System::Object
 	{

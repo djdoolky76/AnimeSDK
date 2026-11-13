@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGenericViewLoadCallbackContext_1_TypeDefinitionIndex = 42710;
+	inline static constexpr unsigned int IGenericViewLoadCallbackContext_1_TypeDefinitionIndex = 43689;
 
 	template <typename T>
 	class IGenericViewLoadCallbackContext_1

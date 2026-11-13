@@ -6,22 +6,21 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define BFAIBLBIHHH_CTOR_OFFSET UNITYSDK_OFFSET(0xB15C470)
-#define BFAIBLBIHHH_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB15C310)
-#define BFAIBLBIHHH_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB15C350)
-#define BFAIBLBIHHH_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB15C0A0)
-#define BFAIBLBIHHH_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB15C0B0)
+#define BFAIBLBIHHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A951F90)
+#define BFAIBLBIHHH_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x1A951E30)
+#define BFAIBLBIHHH_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1A951E70)
+#define BFAIBLBIHHH_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A951BC0)
+#define BFAIBLBIHHH_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x1A951BD0)
 
-inline static constexpr unsigned int BFAIBLBIHHH_TypeDefinitionIndex = 56144;
+inline static constexpr unsigned int BFAIBLBIHHH_TypeDefinitionIndex = 57356;
 
 	class BFAIBLBIHHH : public ::DBGDNLLDPFI
 	{
 	public:
 		::System::String* ODMGLJAJIJC; // 0x10
 		::CEBEOIBOBPA GPKCGOLOJKC; // 0x18
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x30
-		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint EKFIEAALOFF; // 0x38
+		::RPG::GameCore::FixPoint EKFIEAALOFF; // 0x30
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BFAIBLBIHHH_CTOR_OFFSET))(this);

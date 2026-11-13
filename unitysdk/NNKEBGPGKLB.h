@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace Proto { class SceneEntityInfo; }
 
-inline static constexpr unsigned int NNKEBGPGKLB_TypeDefinitionIndex = 62016;
+inline static constexpr unsigned int NNKEBGPGKLB_TypeDefinitionIndex = 63428;
 
 	struct alignas(8) NNKEBGPGKLB
 	{

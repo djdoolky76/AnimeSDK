@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InventorySortType_TypeDefinitionIndex = 13859;
+	inline static constexpr unsigned int InventorySortType_TypeDefinitionIndex = 14016;
 
 	enum class InventorySortType : ::System::Int32
 	{

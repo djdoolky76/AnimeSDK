@@ -4,10 +4,10 @@
 namespace RPG::Client { class RoadRashGameAbilityValueModifer; }
 namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer; }
 
-#define JOIJIEOCBFO_FHAFHANKIJL_OFFSET UNITYSDK_OFFSET(0x1CB79860)
-#define JOIJIEOCBFO_MIJGMJAHHDO_OFFSET UNITYSDK_OFFSET(0x1CB79620)
+#define JOIJIEOCBFO_FHAFHANKIJL_OFFSET UNITYSDK_OFFSET(0x1DE22420)
+#define JOIJIEOCBFO_MIJGMJAHHDO_OFFSET UNITYSDK_OFFSET(0x1DE221E0)
 
-inline static constexpr unsigned int JOIJIEOCBFO_TypeDefinitionIndex = 42886;
+inline static constexpr unsigned int JOIJIEOCBFO_TypeDefinitionIndex = 43867;
 
 	class JOIJIEOCBFO : public ::System::Object
 	{

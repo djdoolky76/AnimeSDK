@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ForceKill; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_FORCEKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BB670)
-#define RPG_GAMECORE_FORCEKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6BB680)
-#define RPG_GAMECORE_FORCEKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BB630)
+#define RPG_GAMECORE_FORCEKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7AF4B0)
+#define RPG_GAMECORE_FORCEKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F7AF4C0)
+#define RPG_GAMECORE_FORCEKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7AF470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceKill_TypeDefinitionIndex = 22681;
+	inline static constexpr unsigned int ForceKill_TypeDefinitionIndex = 23103;
 
 	class ForceKill : public ::RPG::GameCore::TaskConfig
 	{

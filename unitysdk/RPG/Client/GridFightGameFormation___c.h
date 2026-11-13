@@ -8,67 +8,67 @@ namespace RPG::Client { class GridFightSeasonRole; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1428D0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD142910)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_ISEMPTY_B__74_0_OFFSET UNITYSDK_OFFSET(0xD142B60)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_ISEMPTY_B__74_1_OFFSET UNITYSDK_OFFSET(0xD142B70)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_MAINROLES_B__92_0_OFFSET UNITYSDK_OFFSET(0xD142B80)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDBASICEQUIPS_B__51_0_OFFSET UNITYSDK_OFFSET(0xD1429C0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDBASICEQUIPS_B__51_1_OFFSET UNITYSDK_OFFSET(0xD1429D0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDEQUIPS_B__53_0_OFFSET UNITYSDK_OFFSET(0xD142A90)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDEQUIPS_B__53_1_OFFSET UNITYSDK_OFFSET(0xD142AA0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__HASANYEQUIPTOTRACK_B__29_0_OFFSET UNITYSDK_OFFSET(0xD142920)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6808D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D680910)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_ISEMPTY_B__80_0_OFFSET UNITYSDK_OFFSET(0x1D680A00)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_ISEMPTY_B__80_1_OFFSET UNITYSDK_OFFSET(0x1D680A10)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_MAINROLES_B__98_0_OFFSET UNITYSDK_OFFSET(0x1D680A20)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDBASICEQUIPS_B__56_0_OFFSET UNITYSDK_OFFSET(0x1D6809C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDBASICEQUIPS_B__56_1_OFFSET UNITYSDK_OFFSET(0x1D6809D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDEQUIPS_B__58_0_OFFSET UNITYSDK_OFFSET(0x1D6809E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDEQUIPS_B__58_1_OFFSET UNITYSDK_OFFSET(0x1D6809F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__HASANYEQUIPTOTRACK_B__29_0_OFFSET UNITYSDK_OFFSET(0x1D680920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormation___c_TypeDefinitionIndex = 64681;
+	inline static constexpr unsigned int GridFightGameFormation___c_TypeDefinitionIndex = 66216;
 
 	class GridFightGameFormation___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightSeasonRole*, ::RPG::Client::GridFightRole*>** StaticGet___9__92_0()
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>** StaticGet___9__56_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightSeasonRole*, ::RPG::Client::GridFightRole*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B00);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x714C0);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__53_0()
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__80_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B08);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x714C8);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__74_0()
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__80_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B10);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x714D0);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightSeasonRole*, ::RPG::Client::GridFightRole*>** StaticGet___9__98_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightSeasonRole*, ::RPG::Client::GridFightRole*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x714D8);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__58_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x714E0);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>** StaticGet___9__58_1()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x714E8);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__56_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x714F0);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightFormationRole*, ::System::Boolean>** StaticGet___9__29_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightFormationRole*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B18);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__51_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B20);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>** StaticGet___9__53_1()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B28);
+			return (::System::Func_2<::RPG::Client::GridFightFormationRole*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x714F8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B30);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__74_1()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B38);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>** StaticGet___9__51_1()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69B40);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71500);
 		}
 
 		static ::System::Void _cctor()
@@ -86,39 +86,39 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFormationRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__HASANYEQUIPTOTRACK_B__29_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_RecommendBasicEquips_b__51_0(::System::UInt32 a1)
+		::System::Boolean _get_RecommendBasicEquips_b__56_0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDBASICEQUIPS_B__51_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDBASICEQUIPS_B__56_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightEquipItemData* _get_RecommendBasicEquips_b__51_1(::System::UInt32 a1)
+		::RPG::Client::GridFightEquipItemData* _get_RecommendBasicEquips_b__56_1(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDBASICEQUIPS_B__51_1_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDBASICEQUIPS_B__56_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_RecommendEquips_b__53_0(::System::UInt32 a1)
+		::System::Boolean _get_RecommendEquips_b__58_0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDEQUIPS_B__53_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDEQUIPS_B__58_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightEquipItemData* _get_RecommendEquips_b__53_1(::System::UInt32 a1)
+		::RPG::Client::GridFightEquipItemData* _get_RecommendEquips_b__58_1(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDEQUIPS_B__53_1_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_RECOMMENDEQUIPS_B__58_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_IsEmpty_b__74_0(::System::UInt32 a1)
+		::System::Boolean _get_IsEmpty_b__80_0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_ISEMPTY_B__74_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_ISEMPTY_B__80_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_IsEmpty_b__74_1(::System::UInt32 a1)
+		::System::Boolean _get_IsEmpty_b__80_1(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_ISEMPTY_B__74_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_ISEMPTY_B__80_1_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightRole* _get_MainRoles_b__92_0(::RPG::Client::GridFightSeasonRole* a1)
+		::RPG::Client::GridFightRole* _get_MainRoles_b__98_0(::RPG::Client::GridFightSeasonRole* a1)
 		{
-			return ((::RPG::Client::GridFightRole*(*)(::PVOID, ::RPG::Client::GridFightSeasonRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_MAINROLES_B__92_0_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightRole*(*)(::PVOID, ::RPG::Client::GridFightSeasonRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION___C__GET_MAINROLES_B__98_0_OFFSET))(this, a1);
 		}
 
 	};

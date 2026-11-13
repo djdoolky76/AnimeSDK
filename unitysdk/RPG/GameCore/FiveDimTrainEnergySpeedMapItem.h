@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimTrainEnergySpeedMapItem; }
 
-#define RPG_GAMECORE_FIVEDIMTRAINENERGYSPEEDMAPITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B3800)
-#define RPG_GAMECORE_FIVEDIMTRAINENERGYSPEEDMAPITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B36F0)
+#define RPG_GAMECORE_FIVEDIMTRAINENERGYSPEEDMAPITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A7470)
+#define RPG_GAMECORE_FIVEDIMTRAINENERGYSPEEDMAPITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7A7360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTrainEnergySpeedMapItem_TypeDefinitionIndex = 18531;
+	inline static constexpr unsigned int FiveDimTrainEnergySpeedMapItem_TypeDefinitionIndex = 18691;
 
 	class FiveDimTrainEnergySpeedMapItem : public ::RPG::GameCore::JsonConfig
 	{

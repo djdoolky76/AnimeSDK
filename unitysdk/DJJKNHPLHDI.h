@@ -3,10 +3,10 @@
 #include "unitysdk/Entitas/Systems.h"
 namespace System { class String; }
 
-#define DJJKNHPLHDI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C9E4780)
-#define DJJKNHPLHDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9FC490)
+#define DJJKNHPLHDI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DB169C0)
+#define DJJKNHPLHDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2E770)
 
-inline static constexpr unsigned int DJJKNHPLHDI_TypeDefinitionIndex = 41923;
+inline static constexpr unsigned int DJJKNHPLHDI_TypeDefinitionIndex = 42898;
 
 	class DJJKNHPLHDI : public ::Entitas::Systems
 	{

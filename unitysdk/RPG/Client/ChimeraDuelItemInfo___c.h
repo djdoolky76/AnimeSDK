@@ -6,37 +6,37 @@ namespace RPG::GameCore { class ChimeraDuelItemRow; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERADUELITEMINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB2CA40)
-#define RPG_CLIENT_CHIMERADUELITEMINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB2CA70)
-#define RPG_CLIENT_CHIMERADUELITEMINFO___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0xCB2CA80)
-#define RPG_CLIENT_CHIMERADUELITEMINFO___C___CTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0xCB2CB00)
-#define RPG_CLIENT_CHIMERADUELITEMINFO___C___CTOR_B__1_2_OFFSET UNITYSDK_OFFSET(0xCB2CB10)
+#define RPG_CLIENT_CHIMERADUELITEMINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E002260)
+#define RPG_CLIENT_CHIMERADUELITEMINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E002290)
+#define RPG_CLIENT_CHIMERADUELITEMINFO___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1E0022A0)
+#define RPG_CLIENT_CHIMERADUELITEMINFO___C___CTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0x1E002320)
+#define RPG_CLIENT_CHIMERADUELITEMINFO___C___CTOR_B__1_2_OFFSET UNITYSDK_OFFSET(0x1E002330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelItemInfo___c_TypeDefinitionIndex = 63368;
+	inline static constexpr unsigned int ChimeraDuelItemInfo___c_TypeDefinitionIndex = 64806;
 
 	class ChimeraDuelItemInfo___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::GameCore::ChimeraDuelItemRow*, ::RPG::Client::ChimeraDuelItemData*>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::ChimeraDuelItemRow*, ::RPG::Client::ChimeraDuelItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10AB0);
+		}
+
 		static ::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11860);
+			return (::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10AB8);
 		}
 
 		static ::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::Boolean>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11868);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::ChimeraDuelItemRow*, ::RPG::Client::ChimeraDuelItemData*>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::ChimeraDuelItemRow*, ::RPG::Client::ChimeraDuelItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11870);
+			return (::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10AC0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11878);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10AC8);
 		}
 
 		static ::System::Void _cctor()

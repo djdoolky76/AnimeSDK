@@ -4,10 +4,10 @@
 namespace RPG::Client { class NpcBodyEyeConfig_EyeTransform; }
 namespace UnityEngine { class Transform; }
 
-#define GPPPDGFLHLJ_EYETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B5E580)
-#define GPPPDGFLHLJ_EYETRANSFORM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15B5E590)
+#define GPPPDGFLHLJ_EYETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x17DCB000)
+#define GPPPDGFLHLJ_EYETRANSFORM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x17DCB010)
 
-inline static constexpr unsigned int GPPPDGFLHLJ_EyeTransform_TypeDefinitionIndex = 60055;
+inline static constexpr unsigned int GPPPDGFLHLJ_EyeTransform_TypeDefinitionIndex = 61339;
 
 	class GPPPDGFLHLJ_EyeTransform : public ::System::Object
 	{

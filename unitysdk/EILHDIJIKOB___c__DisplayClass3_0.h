@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 class IFPAJBFOHLN;
 
-#define EILHDIJIKOB___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154C4010)
-#define EILHDIJIKOB___C__DISPLAYCLASS3_0__GETEXPERTINNODE_B__0_OFFSET UNITYSDK_OFFSET(0x154C4050)
+#define EILHDIJIKOB___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A9F750)
+#define EILHDIJIKOB___C__DISPLAYCLASS3_0__GETEXPERTINNODE_B__0_OFFSET UNITYSDK_OFFSET(0x19A9F790)
 
-inline static constexpr unsigned int EILHDIJIKOB___c__DisplayClass3_0_TypeDefinitionIndex = 65032;
+inline static constexpr unsigned int EILHDIJIKOB___c__DisplayClass3_0_TypeDefinitionIndex = 66632;
 
 	class EILHDIJIKOB___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 sectionID; // 0x10
-		::System::UInt32 chapterID; // 0x14
+		::System::UInt32 chapterID; // 0x10
+		::System::UInt32 sectionID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EILHDIJIKOB___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

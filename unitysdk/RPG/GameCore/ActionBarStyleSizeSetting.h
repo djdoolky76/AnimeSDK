@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionBarStyleSizeSetting; }
 
-#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D316140)
-#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D314A50)
+#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F3420)
+#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4F2950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 17152;
+	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 17319;
 
 	class ActionBarStyleSizeSetting : public ::RPG::GameCore::JsonConfig
 	{

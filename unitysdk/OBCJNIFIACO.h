@@ -8,20 +8,21 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OBCJNIFIACO_CDFEEDDEKKF_OFFSET UNITYSDK_OFFSET(0xBD30F00)
-#define OBCJNIFIACO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD30190)
-#define OBCJNIFIACO_GOGBDHKKKAD_OFFSET UNITYSDK_OFFSET(0xBD30CA0)
-#define OBCJNIFIACO_HKEGGBCDIJA_OFFSET UNITYSDK_OFFSET(0xBD30900)
-#define OBCJNIFIACO_HMMHOOCBCMA_OFFSET UNITYSDK_OFFSET(0xBD30480)
-#define OBCJNIFIACO_JOKEMACJGAN_OFFSET UNITYSDK_OFFSET(0xBD30C20)
-#define OBCJNIFIACO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD301F0)
+#define OBCJNIFIACO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB76AA0)
+#define OBCJNIFIACO_GOGBDHKKKAD_OFFSET UNITYSDK_OFFSET(0x1AB77830)
+#define OBCJNIFIACO_HKEGGBCDIJA_OFFSET UNITYSDK_OFFSET(0x1AB77490)
+#define OBCJNIFIACO_HMMHOOCBCMA_OFFSET UNITYSDK_OFFSET(0x1AB76F10)
+#define OBCJNIFIACO_JOKEMACJGAN_OFFSET UNITYSDK_OFFSET(0x1AB777B0)
+#define OBCJNIFIACO_ONHPNCONEAA_OFFSET UNITYSDK_OFFSET(0x1AB77AA0)
+#define OBCJNIFIACO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AB76B90)
 
-inline static constexpr unsigned int OBCJNIFIACO_TypeDefinitionIndex = 55260;
+inline static constexpr unsigned int OBCJNIFIACO_TypeDefinitionIndex = 56442;
 
 	class OBCJNIFIACO
 	{
 	public:
 		::RPG::GameCore::StringHash JJOIEPIHIPG; // 0x28
+		::RPG::GameCore::StringHash CENAHPMFJFA; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::GDBOEBBNHLP* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::GDBOEBBNHLP*))((::PBYTE)hIl2Cpp + OBCJNIFIACO_CTOR_OFFSET))(this, a1, a2);
@@ -42,9 +43,9 @@ inline static constexpr unsigned int OBCJNIFIACO_TypeDefinitionIndex = 55260;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>*))((::PBYTE)hIl2Cpp + OBCJNIFIACO_HKEGGBCDIJA_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Int32 CDFEEDDEKKF(::RPG::GameCore::TurnBasedModifierInstance* a1, ::RPG::GameCore::TurnBasedModifierInstance* a2)
+		::System::Int32 ONHPNCONEAA(::RPG::GameCore::TurnBasedModifierInstance* a1, ::RPG::GameCore::TurnBasedModifierInstance* a2)
 		{
-			return ((::System::Int32(*)(::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + OBCJNIFIACO_CDFEEDDEKKF_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + OBCJNIFIACO_ONHPNCONEAA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void JOKEMACJGAN(::RPG::GameCore::TurnBasedModifierInstance* a1, ::RPG::GameCore::FixPoint a2)

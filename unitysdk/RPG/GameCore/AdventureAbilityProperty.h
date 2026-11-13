@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAbilityProperty_TypeDefinitionIndex = 17494;
+	inline static constexpr unsigned int AdventureAbilityProperty_TypeDefinitionIndex = 17662;
 
 	enum class AdventureAbilityProperty : ::System::Int32
 	{

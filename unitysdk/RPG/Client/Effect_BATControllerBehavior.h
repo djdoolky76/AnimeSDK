@@ -3,50 +3,50 @@
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 namespace RPG::Client { class Effect_BATControllerMonoPlugin; }
 
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD163D0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xCD15CE0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xCD163C0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xCD160F0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xCD15D40)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCD15B90)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xCD15E00)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xCD15C80)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xCD16360)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xCD15DA0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xCD15C20)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xCD16320)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x17BD1E60)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0x17BD1770)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x17BD1E50)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x17BD1B80)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0x17BD17D0)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x17BD1620)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0x17BD1890)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x17BD1710)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0x17BD1DF0)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0x17BD1830)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x17BD16B0)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0x17BD1DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_BATControllerBehavior_TypeDefinitionIndex = 70431;
+	inline static constexpr unsigned int Effect_BATControllerBehavior_TypeDefinitionIndex = 72398;
 
 	class Effect_BATControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
 		::System::Single _TickTime; // 0x38
-		static ::System::Int32* StaticGet__AnimationTexture()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xA110);
-		}
-
-		static ::System::Int32* StaticGet__FrameIndex()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xA114);
-		}
-
-		static ::System::Int32* StaticGet__NumberOfBones()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xA118);
-		}
-
 		static ::System::Int32* StaticGet__BoneIndicesWeightsTexture()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xA11C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xC3B0);
 		}
 
 		static ::System::Int32* StaticGet__VertexCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xA120);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xC3B4);
+		}
+
+		static ::System::Int32* StaticGet__AnimationTexture()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xC3B8);
+		}
+
+		static ::System::Int32* StaticGet__NumberOfBones()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xC3BC);
+		}
+
+		static ::System::Int32* StaticGet__FrameIndex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_BATControllerBehavior")->GetStaticField(0xC3C0);
 		}
 
 		::System::Void _ctor()

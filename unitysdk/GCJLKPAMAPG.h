@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetExcludeInMultiCharacterFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GCJLKPAMAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x159763E0)
-#define GCJLKPAMAPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159763F0)
-#define GCJLKPAMAPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15976430)
-#define GCJLKPAMAPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159765D0)
-#define GCJLKPAMAPG_TICK_OFFSET UNITYSDK_OFFSET(0x15976620)
+#define GCJLKPAMAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x19EBB8C0)
+#define GCJLKPAMAPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19EBB8D0)
+#define GCJLKPAMAPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19EBB910)
+#define GCJLKPAMAPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19EBBAB0)
+#define GCJLKPAMAPG_TICK_OFFSET UNITYSDK_OFFSET(0x19EBBB00)
 
-inline static constexpr unsigned int GCJLKPAMAPG_TypeDefinitionIndex = 55507;
+inline static constexpr unsigned int GCJLKPAMAPG_TypeDefinitionIndex = 56695;
 
 	class GCJLKPAMAPG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetExcludeInMultiCharacterFormation* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetExcludeInMultiCharacterFormation* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetExcludeInMultiCharacterFormation* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetExcludeInMultiCharacterFormation*))((::PBYTE)hIl2Cpp + GCJLKPAMAPG_CTOR_OFFSET))(this, a1, a2);

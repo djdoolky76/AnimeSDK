@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PAKPEDEPHLE_TypeDefinitionIndex = 78294;
+inline static constexpr unsigned int PAKPEDEPHLE_TypeDefinitionIndex = 81029;
 
 	class PAKPEDEPHLE
 	{

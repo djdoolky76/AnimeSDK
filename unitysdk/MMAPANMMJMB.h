@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LogicStateType.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int MMAPANMMJMB_TypeDefinitionIndex = 66686;
+inline static constexpr unsigned int MMAPANMMJMB_TypeDefinitionIndex = 68622;
 
 	struct alignas(8) MMAPANMMJMB
 	{

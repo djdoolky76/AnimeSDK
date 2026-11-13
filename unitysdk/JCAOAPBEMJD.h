@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class JCAOAPBEMJD;
 namespace System { class String; }
 
-#define JCAOAPBEMJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE7520)
-#define JCAOAPBEMJD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CFE73B0)
+#define JCAOAPBEMJD_CTOR_OFFSET UNITYSDK_OFFSET(0xCA93FE0)
+#define JCAOAPBEMJD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xCA93E70)
 
-inline static constexpr unsigned int JCAOAPBEMJD_TypeDefinitionIndex = 11574;
+inline static constexpr unsigned int JCAOAPBEMJD_TypeDefinitionIndex = 11625;
 
 	class JCAOAPBEMJD : public ::System::Object
 	{

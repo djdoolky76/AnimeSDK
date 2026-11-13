@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareAbilityProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MNIMMIONAGG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA07530)
-#define MNIMMIONAGG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA07560)
+#define MNIMMIONAGG_CTOR_OFFSET UNITYSDK_OFFSET(0x189371E0)
+#define MNIMMIONAGG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18937210)
 
-inline static constexpr unsigned int MNIMMIONAGG_TypeDefinitionIndex = 54511;
+inline static constexpr unsigned int MNIMMIONAGG_TypeDefinitionIndex = 55676;
 
 	class MNIMMIONAGG
 	{

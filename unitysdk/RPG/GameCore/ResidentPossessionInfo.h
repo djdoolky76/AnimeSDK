@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ResidentPossessionInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESIDENTPOSSESSIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95F790)
-#define RPG_GAMECORE_RESIDENTPOSSESSIONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95F4A0)
+#define RPG_GAMECORE_RESIDENTPOSSESSIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x20723CF0)
+#define RPG_GAMECORE_RESIDENTPOSSESSIONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20723B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResidentPossessionInfo_TypeDefinitionIndex = 16537;
+	inline static constexpr unsigned int ResidentPossessionInfo_TypeDefinitionIndex = 16703;
 
 	class ResidentPossessionInfo : public ::RPG::GameCore::JsonConfig
 	{

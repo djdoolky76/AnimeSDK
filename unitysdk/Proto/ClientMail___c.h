@@ -4,20 +4,20 @@
 namespace Proto { class ClientMail; }
 namespace System { class Object; }
 
-#define PROTO_CLIENTMAIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFBE000)
-#define PROTO_CLIENTMAIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBE030)
-#define PROTO_CLIENTMAIL___C___CCTOR_B__73_0_OFFSET UNITYSDK_OFFSET(0x1DFBE040)
+#define PROTO_CLIENTMAIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4BC700)
+#define PROTO_CLIENTMAIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4BC730)
+#define PROTO_CLIENTMAIL___C___CCTOR_B__73_0_OFFSET UNITYSDK_OFFSET(0x1F4BC740)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ClientMail___c_TypeDefinitionIndex = 30485;
+	inline static constexpr unsigned int ClientMail___c_TypeDefinitionIndex = 31391;
 
 	class ClientMail___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x49840);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4E8E0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/FourRotateVoxelAnimalType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_FRVCUSTOMMAXEMISSIONINTENSITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD4626C0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_FRVCUSTOMMAXEMISSIONINTENSITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBCD90)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGlobalData_FRVCustomMaxEmissionIntensityData_TypeDefinitionIndex = 76856;
+	inline static constexpr unsigned int FourRotateVoxelGlobalData_FRVCustomMaxEmissionIntensityData_TypeDefinitionIndex = 79190;
 
 	class FourRotateVoxelGlobalData_FRVCustomMaxEmissionIntensityData : public ::System::Object
 	{

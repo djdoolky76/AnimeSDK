@@ -6,10 +6,10 @@ class BACIMFPMOPJ;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define BACIMFPMOPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC2980)
-#define BACIMFPMOPJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCC26D0)
+#define BACIMFPMOPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECBE420)
+#define BACIMFPMOPJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECBE170)
 
-inline static constexpr unsigned int BACIMFPMOPJ_TypeDefinitionIndex = 11568;
+inline static constexpr unsigned int BACIMFPMOPJ_TypeDefinitionIndex = 11619;
 
 	class BACIMFPMOPJ : public ::System::Object
 	{
@@ -17,8 +17,8 @@ inline static constexpr unsigned int BACIMFPMOPJ_TypeDefinitionIndex = 11568;
 		::Il2CppArray<::System::UInt32>* FOHHOOKJPIM; // 0x10
 		::System::String* BFMNOLGCCKH; // 0x18
 		::System::UInt32 HNEIIAGADGO; // 0x20
-		::System::UInt32 JFDHFPIIGCC; // 0x24
-		::System::UInt32 DOBKKDIECDO; // 0x28
+		::System::UInt32 DOBKKDIECDO; // 0x24
+		::System::UInt32 JFDHFPIIGCC; // 0x28
 		::System::UInt32 PHFMCACHFIJ; // 0x2C
 		::RPG::Client::TextID OENAMINOLLF; // 0x30
 		::System::Void _ctor()

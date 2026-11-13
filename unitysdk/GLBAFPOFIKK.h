@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 class GLBAFPOFIKK;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define GLBAFPOFIKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE33B10)
-#define GLBAFPOFIKK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE33BB0)
-#define GLBAFPOFIKK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE33A50)
+#define GLBAFPOFIKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E653AF0)
+#define GLBAFPOFIKK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E653B90)
+#define GLBAFPOFIKK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E653A30)
 
-inline static constexpr unsigned int GLBAFPOFIKK_TypeDefinitionIndex = 23370;
+inline static constexpr unsigned int GLBAFPOFIKK_TypeDefinitionIndex = 23812;
 
 	class GLBAFPOFIKK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* MOHHAFINOHJ; // 0x18
+		::RPG::GameCore::DynamicFloat* KBFAHKBJHBN; // 0x18
 		::RPG::GameCore::DynamicFloat* JLEJBKOKIHD; // 0x20
-		::RPG::GameCore::DynamicFloat* KBFAHKBJHBN; // 0x28
+		::RPG::GameCore::DynamicFloat* MOHHAFINOHJ; // 0x28
 		::System::Boolean MOKNCFJICIC; // 0x30
 		::System::Void _ctor()
 		{

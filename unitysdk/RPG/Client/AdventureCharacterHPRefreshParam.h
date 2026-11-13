@@ -7,11 +7,11 @@
 namespace RPG::Client { class MemberData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ADVENTURECHARACTERHPREFRESHPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC5CF7D0)
+#define RPG_CLIENT_ADVENTURECHARACTERHPREFRESHPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x18D207D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureCharacterHPRefreshParam_TypeDefinitionIndex = 68125;
+	inline static constexpr unsigned int AdventureCharacterHPRefreshParam_TypeDefinitionIndex = 70071;
 
 	class AdventureCharacterHPRefreshParam : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MemberData*, ::RPG::GameCore::FixPoint>>* ChangeList; // 0x10
 		::System::Single ChangeRatio; // 0x18
 		::OAJOCEIKAGK Reason; // 0x1C
-		::System::Boolean TriggerCommonEffect; // 0x20
-		::System::Boolean Overflow; // 0x21
+		::System::Boolean Overflow; // 0x20
+		::System::Boolean TriggerCommonEffect; // 0x21
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTURECHARACTERHPREFRESHPARAM_CTOR_OFFSET))(this);

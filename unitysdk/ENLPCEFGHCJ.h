@@ -7,27 +7,27 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define ENLPCEFGHCJ_AIFJLBIEPFA_OFFSET UNITYSDK_OFFSET(0x155A6FD0)
-#define ENLPCEFGHCJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x155A7710)
-#define ENLPCEFGHCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x155A7700)
-#define ENLPCEFGHCJ_EAOCDOBNOOH_OFFSET UNITYSDK_OFFSET(0x155A6950)
-#define ENLPCEFGHCJ_GPKCCLNFIBO_OFFSET UNITYSDK_OFFSET(0x155A6F10)
-#define ENLPCEFGHCJ_JNGKBAHBKHI_OFFSET UNITYSDK_OFFSET(0x155A7160)
-#define ENLPCEFGHCJ_MHIBGHDOLAM_OFFSET UNITYSDK_OFFSET(0x155A6A30)
+#define ENLPCEFGHCJ_AIFJLBIEPFA_OFFSET UNITYSDK_OFFSET(0x18812030)
+#define ENLPCEFGHCJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x18812770)
+#define ENLPCEFGHCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18812760)
+#define ENLPCEFGHCJ_EAOCDOBNOOH_OFFSET UNITYSDK_OFFSET(0x18811930)
+#define ENLPCEFGHCJ_GPKCCLNFIBO_OFFSET UNITYSDK_OFFSET(0x18811F70)
+#define ENLPCEFGHCJ_JNGKBAHBKHI_OFFSET UNITYSDK_OFFSET(0x188121C0)
+#define ENLPCEFGHCJ_MHIBGHDOLAM_OFFSET UNITYSDK_OFFSET(0x18811A50)
 
-inline static constexpr unsigned int ENLPCEFGHCJ_TypeDefinitionIndex = 61226;
+inline static constexpr unsigned int ENLPCEFGHCJ_TypeDefinitionIndex = 62611;
 
 	class ENLPCEFGHCJ : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_NEIMDKJOLOB()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "ENLPCEFGHCJ")->GetStaticField(0x410E0);
-		}
-
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_GOBMLFPGJLH()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "ENLPCEFGHCJ")->GetStaticField(0x410E8);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "ENLPCEFGHCJ")->GetStaticField(0x2A7C0);
+		}
+
+		static ::System::Object** StaticGet_NEIMDKJOLOB()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "ENLPCEFGHCJ")->GetStaticField(0x2A7C8);
 		}
 
 		// static const ::System::String* KLFGNENIAMP; // 0x0

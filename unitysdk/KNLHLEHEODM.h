@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightBonusResultData; }
 
-#define KNLHLEHEODM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5811F0)
-#define KNLHLEHEODM_DISTRIBUTE_OFFSET UNITYSDK_OFFSET(0xB581200)
+#define KNLHLEHEODM_CTOR_OFFSET UNITYSDK_OFFSET(0x18FADF70)
+#define KNLHLEHEODM_DISTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18FADF80)
 
-inline static constexpr unsigned int KNLHLEHEODM_TypeDefinitionIndex = 64418;
+inline static constexpr unsigned int KNLHLEHEODM_TypeDefinitionIndex = 65876;
 
 	class KNLHLEHEODM : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NDPGFPEKEJN_TypeDefinitionIndex = 33887;
+inline static constexpr unsigned int NDPGFPEKEJN_TypeDefinitionIndex = 34802;
 
 	enum class NDPGFPEKEJN : ::System::Int32
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JMACCEFONDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB75030)
+#define JMACCEFONDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE1A4E0)
 
-inline static constexpr unsigned int JMACCEFONDA_TypeDefinitionIndex = 42542;
+inline static constexpr unsigned int JMACCEFONDA_TypeDefinitionIndex = 43517;
 
 	class JMACCEFONDA : public ::System::Object
 	{

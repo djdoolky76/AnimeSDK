@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FPAMNIDHKHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA43CB0)
+#define FPAMNIDHKHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20E490)
 
-inline static constexpr unsigned int FPAMNIDHKHC_TypeDefinitionIndex = 42983;
+inline static constexpr unsigned int FPAMNIDHKHC_TypeDefinitionIndex = 43964;
 
 	class FPAMNIDHKHC : public ::System::Object
 	{

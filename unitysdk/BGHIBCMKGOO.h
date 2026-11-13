@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFloorCustomFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGHIBCMKGOO_CTOR_OFFSET UNITYSDK_OFFSET(0xB1872C0)
-#define BGHIBCMKGOO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1872F0)
+#define BGHIBCMKGOO_CTOR_OFFSET UNITYSDK_OFFSET(0x151C5D50)
+#define BGHIBCMKGOO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x151C5D80)
 
-inline static constexpr unsigned int BGHIBCMKGOO_TypeDefinitionIndex = 52558;
+inline static constexpr unsigned int BGHIBCMKGOO_TypeDefinitionIndex = 53664;
 
 	class BGHIBCMKGOO
 	{

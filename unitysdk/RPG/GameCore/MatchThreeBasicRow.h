@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeBasicRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEBASICROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8268C0)
-#define RPG_GAMECORE_MATCHTHREEBASICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8262D0)
+#define RPG_GAMECORE_MATCHTHREEBASICROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5ACE0)
+#define RPG_GAMECORE_MATCHTHREEBASICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB5A6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeBasicRow_TypeDefinitionIndex = 11911;
+	inline static constexpr unsigned int MatchThreeBasicRow_TypeDefinitionIndex = 11968;
 
 	class MatchThreeBasicRow : public ::System::Object
 	{

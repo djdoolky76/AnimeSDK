@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GHADLBDBHNA.h"
 
-#define DKFLMHICIJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C75F0)
+#define DKFLMHICIJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA7BED0)
 
-inline static constexpr unsigned int DKFLMHICIJG_TypeDefinitionIndex = 36867;
+inline static constexpr unsigned int DKFLMHICIJG_TypeDefinitionIndex = 37795;
 
 	class DKFLMHICIJG : public ::GHADLBDBHNA
 	{

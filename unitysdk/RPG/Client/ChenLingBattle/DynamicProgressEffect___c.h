@@ -5,25 +5,25 @@ namespace RPG::Client::ChenLingBattle { class EffectProgressConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA4DDA0)
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA4DDE0)
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CREATEDYNAMICPROGRESSEFFECT_B__0_0_OFFSET UNITYSDK_OFFSET(0xCA4DDF0)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7D9D40)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D9D80)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CREATEDYNAMICPROGRESSEFFECT_B__0_0_OFFSET UNITYSDK_OFFSET(0x1D7D9D90)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int DynamicProgressEffect___c_TypeDefinitionIndex = 76358;
+	inline static constexpr unsigned int DynamicProgressEffect___c_TypeDefinitionIndex = 78689;
 
 	class DynamicProgressEffect___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6EF70);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x71F00);
 		}
 
 		static ::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6EF78);
+			return (::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x71F08);
 		}
 
 		static ::System::Void _cctor()

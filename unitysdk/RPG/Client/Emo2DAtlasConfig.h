@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Emo2DAtlasConfig_TypeDefinitionIndex = 71134;
+	inline static constexpr unsigned int Emo2DAtlasConfig_TypeDefinitionIndex = 73117;
 
 	struct alignas(4) Emo2DAtlasConfig
 	{

@@ -4,10 +4,10 @@
 class EGEJIOKOFOF;
 namespace System { class String; }
 
-#define KJHGBANLEIC___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB44C320)
-#define KJHGBANLEIC___C__DISPLAYCLASS56_0__ADDTEM_B__0_OFFSET UNITYSDK_OFFSET(0xB44F9B0)
+#define KJHGBANLEIC___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19F13330)
+#define KJHGBANLEIC___C__DISPLAYCLASS56_0__ADDTEM_B__0_OFFSET UNITYSDK_OFFSET(0x19F16A30)
 
-inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass56_0_TypeDefinitionIndex = 59599;
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass56_0_TypeDefinitionIndex = 60876;
 
 	class KJHGBANLEIC___c__DisplayClass56_0 : public ::System::Object
 	{

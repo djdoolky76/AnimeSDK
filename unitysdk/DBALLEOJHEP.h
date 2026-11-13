@@ -6,10 +6,10 @@ class JOOHEPGEHNK;
 class KKGMHJNMOID;
 namespace System { class String; }
 
-#define DBALLEOJHEP_CTOR_OFFSET UNITYSDK_OFFSET(0xDFCB1E0)
-#define DBALLEOJHEP_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xDFCB1F0)
+#define DBALLEOJHEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B13C860)
+#define DBALLEOJHEP_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1B13C870)
 
-inline static constexpr unsigned int DBALLEOJHEP_TypeDefinitionIndex = 79699;
+inline static constexpr unsigned int DBALLEOJHEP_TypeDefinitionIndex = 82476;
 
 	class DBALLEOJHEP : public ::System::Object
 	{

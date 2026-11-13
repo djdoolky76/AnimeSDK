@@ -6,9 +6,9 @@ namespace Mono::Security::Interface { class MonoTlsSettings; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF9F8F0)
-#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_CREATEX509CHAIN_OFFSET UNITYSDK_OFFSET(0x1EF9F9F0)
-#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_NEEDSCHAIN_OFFSET UNITYSDK_OFFSET(0x1EF975C0)
+#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAF3030)
+#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_CREATEX509CHAIN_OFFSET UNITYSDK_OFFSET(0x1DAF3130)
+#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_NEEDSCHAIN_OFFSET UNITYSDK_OFFSET(0x1DAEAF90)
 
 namespace Mono::Net::Security
 {
@@ -17,14 +17,14 @@ namespace Mono::Net::Security
 	class SystemCertificateValidator : public ::System::Object
 	{
 	public:
-		static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags* StaticGet_s_flags()
-		{
-			return (::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags*)UnitySDK::FromName("Mono.Net.Security", "SystemCertificateValidator")->GetStaticField(0x8B70);
-		}
-
 		static ::System::Boolean* StaticGet_is_macosx()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Mono.Net.Security", "SystemCertificateValidator")->GetStaticField(0x8B74);
+			return (::System::Boolean*)UnitySDK::FromName("Mono.Net.Security", "SystemCertificateValidator")->GetStaticField(0x9B20);
+		}
+
+		static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags* StaticGet_s_flags()
+		{
+			return (::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags*)UnitySDK::FromName("Mono.Net.Security", "SystemCertificateValidator")->GetStaticField(0x9B24);
 		}
 
 		static ::System::Void _cctor()

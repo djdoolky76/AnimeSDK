@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PlayVideoSequence; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PHOFPMAJNHF_CTOR_OFFSET UNITYSDK_OFFSET(0xC250700)
-#define PHOFPMAJNHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC250730)
+#define PHOFPMAJNHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B9EB0)
+#define PHOFPMAJNHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9B9EE0)
 
-inline static constexpr unsigned int PHOFPMAJNHF_TypeDefinitionIndex = 53105;
+inline static constexpr unsigned int PHOFPMAJNHF_TypeDefinitionIndex = 54267;
 
 	class PHOFPMAJNHF
 	{

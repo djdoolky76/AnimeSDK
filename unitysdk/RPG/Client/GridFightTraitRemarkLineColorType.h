@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineColorType_TypeDefinitionIndex = 65473;
+	inline static constexpr unsigned int GridFightTraitRemarkLineColorType_TypeDefinitionIndex = 67378;
 
 	enum class GridFightTraitRemarkLineColorType : ::System::Int32
 	{

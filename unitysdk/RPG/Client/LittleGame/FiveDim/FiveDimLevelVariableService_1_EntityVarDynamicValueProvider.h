@@ -6,7 +6,7 @@ class HNEJODMMPKC;
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimLevelVariableService_1_EntityVarDynamicValueProvider_TypeDefinitionIndex = 76890;
+	inline static constexpr unsigned int FiveDimLevelVariableService_1_EntityVarDynamicValueProvider_TypeDefinitionIndex = 79224;
 
 	template <typename T>
 	class FiveDimLevelVariableService_1_EntityVarDynamicValueProvider : public ::System::Object

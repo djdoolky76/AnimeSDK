@@ -3,7 +3,7 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class IACGHDENOPA;
 
-inline static constexpr unsigned int IACGHDENOPA_Enumerator_TypeDefinitionIndex = 6328;
+inline static constexpr unsigned int IACGHDENOPA_Enumerator_TypeDefinitionIndex = 6335;
 
 	struct alignas(8) IACGHDENOPA_Enumerator
 	{

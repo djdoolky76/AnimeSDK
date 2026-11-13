@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDDBD50)
-#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDBD90)
-#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C__ONGETUNIWEBVIEWMESSAGE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1BDDBDA0)
+#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19626DC0)
+#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19626E00)
+#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C__ONGETUNIWEBVIEWMESSAGE_B__16_0_OFFSET UNITYSDK_OFFSET(0x19626E10)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int UserCenterManager___c_TypeDefinitionIndex = 9481;
+	inline static constexpr unsigned int UserCenterManager___c_TypeDefinitionIndex = 9489;
 
 	class UserCenterManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__16_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2F750);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22460);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2F758);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22468);
 		}
 
 		static ::System::Void _cctor()

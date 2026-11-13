@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVROverlayIntersectionMaskPrimitiveType_TypeDefinitionIndex = 39256;
+	inline static constexpr unsigned int EVROverlayIntersectionMaskPrimitiveType_TypeDefinitionIndex = 40185;
 
 	enum class EVROverlayIntersectionMaskPrimitiveType : ::System::Int32
 	{

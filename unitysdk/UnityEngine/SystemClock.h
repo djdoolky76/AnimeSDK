@@ -3,8 +3,8 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_SYSTEMCLOCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4046D0)
-#define UNITYENGINE_SYSTEMCLOCK_GET_NOW_OFFSET UNITYSDK_OFFSET(0x1F404640)
+#define UNITYENGINE_SYSTEMCLOCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x2073D5A0)
+#define UNITYENGINE_SYSTEMCLOCK_GET_NOW_OFFSET UNITYSDK_OFFSET(0x2073D510)
 
 namespace UnityEngine
 {
@@ -15,7 +15,7 @@ namespace UnityEngine
 	public:
 		static ::System::DateTime* StaticGet_s_Epoch()
 		{
-			return (::System::DateTime*)UnitySDK::FromName("UnityEngine", "SystemClock")->GetStaticField(0x4B60);
+			return (::System::DateTime*)UnitySDK::FromName("UnityEngine", "SystemClock")->GetStaticField(0x4860);
 		}
 
 		static ::System::Void _cctor()

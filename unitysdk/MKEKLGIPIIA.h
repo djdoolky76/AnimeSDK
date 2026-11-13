@@ -3,7 +3,7 @@
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
-inline static constexpr unsigned int MKEKLGIPIIA_TypeDefinitionIndex = 54854;
+inline static constexpr unsigned int MKEKLGIPIIA_TypeDefinitionIndex = 56024;
 
 	struct alignas(8) MKEKLGIPIIA
 	{

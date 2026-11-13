@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BattleQTEBaseConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_BATTLEQTEBASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D439410)
-#define RPG_GAMECORE_BATTLEQTEBASECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4391D0)
-#define RPG_GAMECORE_BATTLEQTEBASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D438830)
+#define RPG_GAMECORE_BATTLEQTEBASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C31BC50)
+#define RPG_GAMECORE_BATTLEQTEBASECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1C31BA10)
+#define RPG_GAMECORE_BATTLEQTEBASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C31B860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleQTEBaseConfig_TypeDefinitionIndex = 23343;
+	inline static constexpr unsigned int BattleQTEBaseConfig_TypeDefinitionIndex = 23785;
 
 	class BattleQTEBaseConfig : public ::RPG::GameCore::JsonConfig
 	{

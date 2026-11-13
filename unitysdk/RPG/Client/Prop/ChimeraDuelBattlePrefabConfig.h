@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELBATTLEPREFABCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDC4C300)
+#define RPG_CLIENT_PROP_CHIMERADUELBATTLEPREFABCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE8430)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelBattlePrefabConfig_TypeDefinitionIndex = 78310;
+	inline static constexpr unsigned int ChimeraDuelBattlePrefabConfig_TypeDefinitionIndex = 81045;
 
 	class ChimeraDuelBattlePrefabConfig : public ::UnityEngine::MonoBehaviour
 	{

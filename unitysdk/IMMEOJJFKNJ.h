@@ -3,10 +3,10 @@
 class NIGOALBAAPN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMMEOJJFKNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x164D12D0)
-#define IMMEOJJFKNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164D1300)
+#define IMMEOJJFKNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DDAB0)
+#define IMMEOJJFKNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5DDAE0)
 
-inline static constexpr unsigned int IMMEOJJFKNJ_TypeDefinitionIndex = 52843;
+inline static constexpr unsigned int IMMEOJJFKNJ_TypeDefinitionIndex = 53996;
 
 	class IMMEOJJFKNJ
 	{

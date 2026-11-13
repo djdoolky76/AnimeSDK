@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightRole; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2CF5B0)
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2CF5F0)
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__TRYGETVALUEFROMTEAM_B__3_0_OFFSET UNITYSDK_OFFSET(0xD2CF600)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA12E40)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA12E80)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__TRYGETVALUEFROMTEAM_B__3_0_OFFSET UNITYSDK_OFFSET(0x1CA12E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightValueComponent___c_TypeDefinitionIndex = 65184;
+	inline static constexpr unsigned int GridFightValueComponent___c_TypeDefinitionIndex = 66881;
 
 	class GridFightValueComponent___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEEC0);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x191E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEEC8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x191E8);
 		}
 
 		static ::System::Void _cctor()

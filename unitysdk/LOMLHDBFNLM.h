@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DebateReturnTestimony; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOMLHDBFNLM_CTOR_OFFSET UNITYSDK_OFFSET(0xB807AF0)
-#define LOMLHDBFNLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB807B20)
+#define LOMLHDBFNLM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BD1F0)
+#define LOMLHDBFNLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5BD220)
 
-inline static constexpr unsigned int LOMLHDBFNLM_TypeDefinitionIndex = 52727;
+inline static constexpr unsigned int LOMLHDBFNLM_TypeDefinitionIndex = 53871;
 
 	class LOMLHDBFNLM
 	{

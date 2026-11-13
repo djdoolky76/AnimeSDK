@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowGridFightProgressToWhitebox; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MLACAHPMLGP_CTOR_OFFSET UNITYSDK_OFFSET(0xB99EDA0)
-#define MLACAHPMLGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB99EDD0)
+#define MLACAHPMLGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B913AB0)
+#define MLACAHPMLGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B913AE0)
 
-inline static constexpr unsigned int MLACAHPMLGP_TypeDefinitionIndex = 58620;
+inline static constexpr unsigned int MLACAHPMLGP_TypeDefinitionIndex = 59885;
 
 	class MLACAHPMLGP
 	{

@@ -9,73 +9,73 @@ namespace RPG::GameCore { class PVECharacterStt; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE770A00)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE770A30)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_0_OFFSET UNITYSDK_OFFSET(0xE770A40)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_1_OFFSET UNITYSDK_OFFSET(0xE770A60)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_2_OFFSET UNITYSDK_OFFSET(0xE770A80)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_3_OFFSET UNITYSDK_OFFSET(0xE770AA0)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_4_OFFSET UNITYSDK_OFFSET(0xE770AF0)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_5_OFFSET UNITYSDK_OFFSET(0xE770B40)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_6_OFFSET UNITYSDK_OFFSET(0xE770B90)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_7_OFFSET UNITYSDK_OFFSET(0xE770BE0)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_8_OFFSET UNITYSDK_OFFSET(0xE770C30)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x120633B0)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x120633E0)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_0_OFFSET UNITYSDK_OFFSET(0x120633F0)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_1_OFFSET UNITYSDK_OFFSET(0x12063410)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_2_OFFSET UNITYSDK_OFFSET(0x12063430)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_3_OFFSET UNITYSDK_OFFSET(0x12063450)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_4_OFFSET UNITYSDK_OFFSET(0x120634A0)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_5_OFFSET UNITYSDK_OFFSET(0x120634F0)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_6_OFFSET UNITYSDK_OFFSET(0x12063540)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_7_OFFSET UNITYSDK_OFFSET(0x12063590)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_8_OFFSET UNITYSDK_OFFSET(0x120635E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatisticsComponent___c_TypeDefinitionIndex = 57634;
+	inline static constexpr unsigned int StatisticsComponent___c_TypeDefinitionIndex = 58863;
 
 	class StatisticsComponent___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_8()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A590);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_5()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A598);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::COMGNGLLCFN*>** StaticGet___9__2_3()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A5A0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A5A8);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::PVECharacterStt*, ::System::Int32>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::PVECharacterStt*, ::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A5B0);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_6()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A5B8);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::UInt32>** StaticGet___9__2_2()
-		{
-			return (::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A5C0);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::Boolean>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A5C8);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_7()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A5D0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72E70);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_4()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6A5D8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72E78);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::Boolean>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72E80);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_7()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72E88);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_6()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72E90);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::PVECharacterStt*, ::System::Int32>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::PVECharacterStt*, ::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72E98);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::COMGNGLLCFN*>** StaticGet___9__2_3()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72EA0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72EA8);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_8()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72EB0);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::UInt32>** StaticGet___9__2_2()
+		{
+			return (::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72EB8);
 		}
 
 		static ::System::Void _cctor()

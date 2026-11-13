@@ -3,10 +3,10 @@
 class IJCKIFGGMDN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GOMIPMJDKMM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2E610)
-#define GOMIPMJDKMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B2E640)
+#define GOMIPMJDKMM_CTOR_OFFSET UNITYSDK_OFFSET(0x187BF120)
+#define GOMIPMJDKMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187BF150)
 
-inline static constexpr unsigned int GOMIPMJDKMM_TypeDefinitionIndex = 52839;
+inline static constexpr unsigned int GOMIPMJDKMM_TypeDefinitionIndex = 53992;
 
 	class GOMIPMJDKMM
 	{

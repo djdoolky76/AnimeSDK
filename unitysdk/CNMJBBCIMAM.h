@@ -5,17 +5,17 @@ class BOJOBHMEEIH;
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define CNMJBBCIMAM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC39970)
-#define CNMJBBCIMAM_JMPCNFIGLBK_OFFSET UNITYSDK_OFFSET(0x1EC39500)
+#define CNMJBBCIMAM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5234A0)
+#define CNMJBBCIMAM_JMPCNFIGLBK_OFFSET UNITYSDK_OFFSET(0x1E523030)
 
-inline static constexpr unsigned int CNMJBBCIMAM_TypeDefinitionIndex = 44253;
+inline static constexpr unsigned int CNMJBBCIMAM_TypeDefinitionIndex = 45328;
 
 	class CNMJBBCIMAM : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet_IMFLPKHBNEO()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("", "CNMJBBCIMAM")->GetStaticField(0x47430);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("", "CNMJBBCIMAM")->GetStaticField(0x5F800);
 		}
 
 		static ::System::Void _cctor()

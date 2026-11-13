@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DataActionProgress_1_BatchItem_TypeDefinitionIndex = 59547;
+	inline static constexpr unsigned int DataActionProgress_1_BatchItem_TypeDefinitionIndex = 60824;
 
 	template <typename T>
 	class DataActionProgress_1_BatchItem : public ::System::Object

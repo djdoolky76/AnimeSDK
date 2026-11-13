@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class HGCEOEHGPPE;
 
-#define NGAHHINMIAF___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB98B60)
-#define NGAHHINMIAF___C__DISPLAYCLASS17_0__PROGRESSSTART_B__0_OFFSET UNITYSDK_OFFSET(0xBB9A520)
+#define NGAHHINMIAF___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18E82110)
+#define NGAHHINMIAF___C__DISPLAYCLASS17_0__PROGRESSSTART_B__0_OFFSET UNITYSDK_OFFSET(0x18E83AD0)
 
-inline static constexpr unsigned int NGAHHINMIAF___c__DisplayClass17_0_TypeDefinitionIndex = 59628;
+inline static constexpr unsigned int NGAHHINMIAF___c__DisplayClass17_0_TypeDefinitionIndex = 60905;
 
 	class NGAHHINMIAF___c__DisplayClass17_0 : public ::System::Object
 	{

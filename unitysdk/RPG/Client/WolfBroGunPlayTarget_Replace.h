@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayTarget.h"
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_REPLACE_CTOR_OFFSET UNITYSDK_OFFSET(0xE46E490)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_REPLACE_CTOR_OFFSET UNITYSDK_OFFSET(0x18232F60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_Replace_TypeDefinitionIndex = 68731;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_Replace_TypeDefinitionIndex = 70683;
 
 	class WolfBroGunPlayTarget_Replace : public ::RPG::Client::WolfBroGunPlayTarget
 	{

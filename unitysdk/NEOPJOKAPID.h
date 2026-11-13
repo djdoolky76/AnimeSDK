@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NEOPJOKAPID_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1CFBB0)
-#define NEOPJOKAPID_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1D0700)
-#define NEOPJOKAPID_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1CFF50)
-#define NEOPJOKAPID_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1CFBF0)
-#define NEOPJOKAPID_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1D0440)
-#define NEOPJOKAPID_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1CFFF0)
-#define NEOPJOKAPID_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1D0040)
-#define NEOPJOKAPID_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1CFE20)
-#define NEOPJOKAPID_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1D03E0)
-#define NEOPJOKAPID_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1D0570)
-#define NEOPJOKAPID_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1CFEB0)
-#define NEOPJOKAPID_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1D0360)
+#define NEOPJOKAPID_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E8A3430)
+#define NEOPJOKAPID_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8A3F80)
+#define NEOPJOKAPID_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E8A37D0)
+#define NEOPJOKAPID_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E8A3470)
+#define NEOPJOKAPID_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E8A3CC0)
+#define NEOPJOKAPID_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E8A3870)
+#define NEOPJOKAPID_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E8A38C0)
+#define NEOPJOKAPID_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E8A36A0)
+#define NEOPJOKAPID_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E8A3C60)
+#define NEOPJOKAPID_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E8A3DF0)
+#define NEOPJOKAPID_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E8A3730)
+#define NEOPJOKAPID_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E8A3BE0)
 
-inline static constexpr unsigned int NEOPJOKAPID_TypeDefinitionIndex = 15177;
+inline static constexpr unsigned int NEOPJOKAPID_TypeDefinitionIndex = 15333;
 
 	class NEOPJOKAPID : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x4EF10);
+		}
+
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DifficultyAdjustmentStageRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DifficultyAdjustmentStageRow*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x3F570);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DifficultyAdjustmentStageRow*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x4EF18);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x3F578);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x3F580);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0xEF70);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x4EF20);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0xEF71);
+			return (::System::Boolean*)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x114E0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x114E1);
 		}
 
 		static ::System::Void _cctor()

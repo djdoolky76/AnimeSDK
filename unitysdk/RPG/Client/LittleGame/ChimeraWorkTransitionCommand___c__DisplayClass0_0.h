@@ -4,18 +4,18 @@
 namespace RPG::Client::LittleGame { class ChimeraWorkTransitionCommand; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD41CBD0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xD41D080)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E13D930)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1E13DDD0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraWorkTransitionCommand___c__DisplayClass0_0_TypeDefinitionIndex = 76640;
+	inline static constexpr unsigned int ChimeraWorkTransitionCommand___c__DisplayClass0_0_TypeDefinitionIndex = 78971;
 
 	class ChimeraWorkTransitionCommand___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* puzzle; // 0x10
-		::RPG::Client::LittleGame::ChimeraWorkTransitionCommand* __4__this; // 0x18
+		::RPG::Client::LittleGame::ChimeraWorkTransitionCommand* __4__this; // 0x10
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* puzzle; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

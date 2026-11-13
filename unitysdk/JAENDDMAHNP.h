@@ -6,10 +6,10 @@ class FCOEMCEDLNL;
 class JAENDDMAHNP;
 namespace System { class String; }
 
-#define JAENDDMAHNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF05DD0)
-#define JAENDDMAHNP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF05C10)
+#define JAENDDMAHNP_CTOR_OFFSET UNITYSDK_OFFSET(0xC9AC350)
+#define JAENDDMAHNP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC9AC190)
 
-inline static constexpr unsigned int JAENDDMAHNP_TypeDefinitionIndex = 14399;
+inline static constexpr unsigned int JAENDDMAHNP_TypeDefinitionIndex = 14556;
 
 	class JAENDDMAHNP : public ::System::Object
 	{

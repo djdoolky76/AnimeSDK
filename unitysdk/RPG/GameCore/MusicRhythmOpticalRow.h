@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MusicRhythmOpticalRow; }
 
-#define RPG_GAMECORE_MUSICRHYTHMOPTICALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A04F0)
-#define RPG_GAMECORE_MUSICRHYTHMOPTICALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8A0250)
+#define RPG_GAMECORE_MUSICRHYTHMOPTICALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E491270)
+#define RPG_GAMECORE_MUSICRHYTHMOPTICALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E490FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmOpticalRow_TypeDefinitionIndex = 14273;
+	inline static constexpr unsigned int MusicRhythmOpticalRow_TypeDefinitionIndex = 14430;
 
 	class MusicRhythmOpticalRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID Progress; // 0x10
-		::System::UInt32 MainMissionID; // 0x20
-		::System::UInt32 QuestID; // 0x24
-		::System::UInt32 ActivityModuleID; // 0x28
-		::System::UInt32 GotoConfig; // 0x2C
-		::System::UInt32 RealProgress; // 0x30
-		::System::UInt32 Type; // 0x34
+		::System::UInt32 QuestID; // 0x20
+		::System::UInt32 ActivityModuleID; // 0x24
+		::System::UInt32 Type; // 0x28
+		::System::UInt32 RealProgress; // 0x2C
+		::System::UInt32 MainMissionID; // 0x30
+		::System::UInt32 GotoConfig; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMOPTICALROW_CTOR_OFFSET))(this);

@@ -4,7 +4,7 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int PIDMOBAAHOE_TypeDefinitionIndex = 49833;
+inline static constexpr unsigned int PIDMOBAAHOE_TypeDefinitionIndex = 50881;
 
 	class PIDMOBAAHOE : public ::System::Object
 	{

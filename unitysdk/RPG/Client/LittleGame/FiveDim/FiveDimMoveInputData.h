@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimMoveInputData_TypeDefinitionIndex = 77237;
+	inline static constexpr unsigned int FiveDimMoveInputData_TypeDefinitionIndex = 79571;
 
 	struct alignas(4) FiveDimMoveInputData
 	{

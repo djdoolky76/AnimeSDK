@@ -3,10 +3,10 @@
 class MBIADGFPAGK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DGPMOACDAHD_CTOR_OFFSET UNITYSDK_OFFSET(0xE851EB0)
-#define DGPMOACDAHD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE851EE0)
+#define DGPMOACDAHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADC6E20)
+#define DGPMOACDAHD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1ADC6E50)
 
-inline static constexpr unsigned int DGPMOACDAHD_TypeDefinitionIndex = 56391;
+inline static constexpr unsigned int DGPMOACDAHD_TypeDefinitionIndex = 57610;
 
 	class DGPMOACDAHD
 	{

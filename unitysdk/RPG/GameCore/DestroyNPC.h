@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DestroyNPC; }
 namespace RPG::GameCore { class GroupEntityInfo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DESTROYNPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CF180)
-#define RPG_GAMECORE_DESTROYNPC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CF190)
-#define RPG_GAMECORE_DESTROYNPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CF150)
+#define RPG_GAMECORE_DESTROYNPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F009850)
+#define RPG_GAMECORE_DESTROYNPC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F009860)
+#define RPG_GAMECORE_DESTROYNPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F009820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyNPC_TypeDefinitionIndex = 21946;
+	inline static constexpr unsigned int DestroyNPC_TypeDefinitionIndex = 22337;
 
 	class DestroyNPC : public ::RPG::GameCore::TaskConfig
 	{

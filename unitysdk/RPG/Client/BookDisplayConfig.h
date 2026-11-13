@@ -4,17 +4,17 @@
 #include "unitysdk/TMPro/TextAlignmentOptions.h"
 #include "unitysdk/UnityEngine/TextAnchor.h"
 
-#define RPG_CLIENT_BOOKDISPLAYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A6F90)
+#define RPG_CLIENT_BOOKDISPLAYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C575A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookDisplayConfig_TypeDefinitionIndex = 66376;
+	inline static constexpr unsigned int BookDisplayConfig_TypeDefinitionIndex = 68312;
 
 	class BookDisplayConfig : public ::System::Object
 	{
 	public:
-		::UnityEngine::TextAnchor Alignment; // 0x10
-		::TMPro::TextAlignmentOptions TMPAlignment; // 0x14
+		::TMPro::TextAlignmentOptions TMPAlignment; // 0x10
+		::UnityEngine::TextAnchor Alignment; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKDISPLAYCONFIG_CTOR_OFFSET))(this);

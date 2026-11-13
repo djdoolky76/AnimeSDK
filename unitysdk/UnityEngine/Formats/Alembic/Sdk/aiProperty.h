@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPROPERTY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F150F60)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPROPERTY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E590AF0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiProperty_TypeDefinitionIndex = 45839;
+	inline static constexpr unsigned int aiProperty_TypeDefinitionIndex = 46868;
 
 	struct alignas(4) aiProperty
 	{

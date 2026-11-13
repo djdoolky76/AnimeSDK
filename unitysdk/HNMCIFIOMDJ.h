@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckCharacterFly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HNMCIFIOMDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15D94840)
-#define HNMCIFIOMDJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D94870)
+#define HNMCIFIOMDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A378380)
+#define HNMCIFIOMDJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A3783B0)
 
-inline static constexpr unsigned int HNMCIFIOMDJ_TypeDefinitionIndex = 54495;
+inline static constexpr unsigned int HNMCIFIOMDJ_TypeDefinitionIndex = 55659;
 
 	class HNMCIFIOMDJ
 	{

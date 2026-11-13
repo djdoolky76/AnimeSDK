@@ -9,35 +9,35 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define EAKHEENLDKM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA039C0)
-#define EAKHEENLDKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA03A00)
-#define EAKHEENLDKM___C__GETSORTEDCHIMERATEAM_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CA03A10)
-#define EAKHEENLDKM___C___CTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1CA03A70)
-#define EAKHEENLDKM___C___CTOR_B__45_1_OFFSET UNITYSDK_OFFSET(0x1CA03AA0)
+#define EAKHEENLDKM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB35D00)
+#define EAKHEENLDKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB35D40)
+#define EAKHEENLDKM___C__GETSORTEDCHIMERATEAM_B__1_0_OFFSET UNITYSDK_OFFSET(0x1DB35D50)
+#define EAKHEENLDKM___C___CTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1DB35DB0)
+#define EAKHEENLDKM___C___CTOR_B__45_1_OFFSET UNITYSDK_OFFSET(0x1DB35DE0)
 
-inline static constexpr unsigned int EAKHEENLDKM___c_TypeDefinitionIndex = 41981;
+inline static constexpr unsigned int EAKHEENLDKM___c_TypeDefinitionIndex = 42956;
 
 	class EAKHEENLDKM___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__45_0()
 		{
-			return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32450);
+			return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F0A0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32458);
-		}
-
-		static ::System::Comparison_1<::KDKHADGLIPJ*>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::KDKHADGLIPJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32460);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F0A8);
 		}
 
 		static ::System::Func_1<::KDKHADGLIPJ*>** StaticGet___9__45_1()
 		{
-			return (::System::Func_1<::KDKHADGLIPJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32468);
+			return (::System::Func_1<::KDKHADGLIPJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F0B0);
+		}
+
+		static ::System::Comparison_1<::KDKHADGLIPJ*>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::KDKHADGLIPJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F0B8);
 		}
 
 		static ::System::Void _cctor()

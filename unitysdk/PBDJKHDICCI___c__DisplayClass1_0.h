@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FFPFEGNEJDA;
 
-#define PBDJKHDICCI___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFDD9D0)
-#define PBDJKHDICCI___C__DISPLAYCLASS1_0__GETPIXAIREQUIPPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0xBFDD9F0)
+#define PBDJKHDICCI___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18AF6040)
+#define PBDJKHDICCI___C__DISPLAYCLASS1_0__GETPIXAIREQUIPPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x18AF6060)
 
-inline static constexpr unsigned int PBDJKHDICCI___c__DisplayClass1_0_TypeDefinitionIndex = 79213;
+inline static constexpr unsigned int PBDJKHDICCI___c__DisplayClass1_0_TypeDefinitionIndex = 81990;
 
 	class PBDJKHDICCI___c__DisplayClass1_0 : public ::System::Object
 	{

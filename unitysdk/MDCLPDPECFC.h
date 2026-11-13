@@ -4,9 +4,9 @@
 class KHDKLIANAKD;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MDCLPDPECFC_CTOR_OFFSET UNITYSDK_OFFSET(0xB897CC0)
+#define MDCLPDPECFC_CTOR_OFFSET UNITYSDK_OFFSET(0x183D4DC0)
 
-inline static constexpr unsigned int MDCLPDPECFC_TypeDefinitionIndex = 48927;
+inline static constexpr unsigned int MDCLPDPECFC_TypeDefinitionIndex = 49986;
 
 	class MDCLPDPECFC : public ::System::Object
 	{

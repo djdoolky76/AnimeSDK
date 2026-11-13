@@ -3,10 +3,10 @@
 class EGKMFINAFHB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LHINEDDINDL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6AD770)
-#define LHINEDDINDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6AD7A0)
+#define LHINEDDINDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC5FF0)
+#define LHINEDDINDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCC6020)
 
-inline static constexpr unsigned int LHINEDDINDL_TypeDefinitionIndex = 55564;
+inline static constexpr unsigned int LHINEDDINDL_TypeDefinitionIndex = 56758;
 
 	class LHINEDDINDL
 	{

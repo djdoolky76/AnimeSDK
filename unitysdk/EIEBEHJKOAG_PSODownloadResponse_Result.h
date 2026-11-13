@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class SerializedWarmupPSO;
 
-inline static constexpr unsigned int EIEBEHJKOAG_PSODownloadResponse_Result_TypeDefinitionIndex = 47410;
+inline static constexpr unsigned int EIEBEHJKOAG_PSODownloadResponse_Result_TypeDefinitionIndex = 48439;
 
 	struct alignas(8) EIEBEHJKOAG_PSODownloadResponse_Result
 	{

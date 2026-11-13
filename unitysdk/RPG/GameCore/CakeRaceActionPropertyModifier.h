@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CakeRaceBasePredicateConfig; }
 namespace RPG::GameCore { class CakeRaceBaseTargetSelectorConfig; }
 namespace RPG::GameCore { class CakeRacePropertyModifier; }
 
-#define RPG_GAMECORE_CAKERACEACTIONPROPERTYMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51C050)
-#define RPG_GAMECORE_CAKERACEACTIONPROPERTYMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51C060)
-#define RPG_GAMECORE_CAKERACEACTIONPROPERTYMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D51C020)
+#define RPG_GAMECORE_CAKERACEACTIONPROPERTYMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF4ED0)
+#define RPG_GAMECORE_CAKERACEACTIONPROPERTYMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBF4EE0)
+#define RPG_GAMECORE_CAKERACEACTIONPROPERTYMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBF4EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceActionPropertyModifier_TypeDefinitionIndex = 18333;
+	inline static constexpr unsigned int CakeRaceActionPropertyModifier_TypeDefinitionIndex = 18493;
 
 	class CakeRaceActionPropertyModifier : public ::RPG::GameCore::CakeRaceActionBase
 	{

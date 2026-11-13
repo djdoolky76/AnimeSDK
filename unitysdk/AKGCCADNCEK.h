@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define AKGCCADNCEK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C55D590)
+#define AKGCCADNCEK_CCTOR_OFFSET UNITYSDK_OFFSET(0x16FF9770)
 
-inline static constexpr unsigned int AKGCCADNCEK_TypeDefinitionIndex = 37055;
+inline static constexpr unsigned int AKGCCADNCEK_TypeDefinitionIndex = 37983;
 
 	class AKGCCADNCEK : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AKGCCADNCEK")->GetStaticField(0x15D60);
-		}
-
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "AKGCCADNCEK")->GetStaticField(0x15D68);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "AKGCCADNCEK")->GetStaticField(0xEBE0);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AKGCCADNCEK")->GetStaticField(0xEBE8);
 		}
 
 		// static const ::System::Object NMGAJKCCJKO; // 0x0

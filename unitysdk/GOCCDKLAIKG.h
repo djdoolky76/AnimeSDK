@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GOCCDKLAIKG_CLEAR_OFFSET UNITYSDK_OFFSET(0x15B1DB60)
-#define GOCCDKLAIKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1DBB0)
+#define GOCCDKLAIKG_CLEAR_OFFSET UNITYSDK_OFFSET(0x187ADFE0)
+#define GOCCDKLAIKG_CTOR_OFFSET UNITYSDK_OFFSET(0x187AE030)
 
-inline static constexpr unsigned int GOCCDKLAIKG_TypeDefinitionIndex = 54855;
+inline static constexpr unsigned int GOCCDKLAIKG_TypeDefinitionIndex = 56025;
 
 	class GOCCDKLAIKG : public ::System::Object
 	{

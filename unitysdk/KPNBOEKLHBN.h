@@ -4,11 +4,11 @@
 namespace RPG::Client { class MainMissionData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KPNBOEKLHBN_ADCHIINIAHH_OFFSET UNITYSDK_OFFSET(0xB5BBFF0)
-#define KPNBOEKLHBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BC2A0)
-#define KPNBOEKLHBN_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0xB5BBB60)
+#define KPNBOEKLHBN_ADCHIINIAHH_OFFSET UNITYSDK_OFFSET(0x1912D140)
+#define KPNBOEKLHBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1912D3F0)
+#define KPNBOEKLHBN_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0x1912CCB0)
 
-inline static constexpr unsigned int KPNBOEKLHBN_TypeDefinitionIndex = 66176;
+inline static constexpr unsigned int KPNBOEKLHBN_TypeDefinitionIndex = 68112;
 
 	class KPNBOEKLHBN : public ::System::Object
 	{

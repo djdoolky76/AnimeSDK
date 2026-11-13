@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MiniGameCollectCoin_CurveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8533B0)
-#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D853060)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E5A20)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6E56F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniGameCollectCoin_CurveConfig_TypeDefinitionIndex = 18802;
+	inline static constexpr unsigned int MiniGameCollectCoin_CurveConfig_TypeDefinitionIndex = 18963;
 
 	class MiniGameCollectCoin_CurveConfig : public ::RPG::GameCore::JsonConfig
 	{

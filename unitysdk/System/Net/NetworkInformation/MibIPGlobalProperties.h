@@ -3,8 +3,8 @@
 #include "unitysdk/System/Net/NetworkInformation/UnixIPGlobalProperties.h"
 namespace System { class String; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_MIBIPGLOBALPROPERTIES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F03FA80)
-#define SYSTEM_NET_NETWORKINFORMATION_MIBIPGLOBALPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F03F0A0)
+#define SYSTEM_NET_NETWORKINFORMATION_MIBIPGLOBALPROPERTIES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C41EDE0)
+#define SYSTEM_NET_NETWORKINFORMATION_MIBIPGLOBALPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C41E400)
 
 namespace System::Net::NetworkInformation
 {
@@ -13,15 +13,15 @@ namespace System::Net::NetworkInformation
 	class MibIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties
 	{
 	public:
-		::System::String* StatisticsFile; // 0x10
-		::System::String* Tcp6File; // 0x18
-		::System::String* StatisticsFileIPv6; // 0x20
-		::System::String* TcpFile; // 0x28
+		::System::String* UdpFile; // 0x10
+		::System::String* StatisticsFileIPv6; // 0x18
+		::System::String* TcpFile; // 0x20
+		::System::String* StatisticsFile; // 0x28
 		::System::String* Udp6File; // 0x30
-		::System::String* UdpFile; // 0x38
+		::System::String* Tcp6File; // 0x38
 		static ::Il2CppArray<::System::Char>** StaticGet_wsChars()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net.NetworkInformation", "MibIPGlobalProperties")->GetStaticField(0x31850);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net.NetworkInformation", "MibIPGlobalProperties")->GetStaticField(0x21880);
 		}
 
 		::System::Void _ctor(::System::String* a1)

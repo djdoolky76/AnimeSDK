@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class DOLMCHMNEIL;
+namespace System { class Object; }
+
+#define DOLMCHMNEIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F75DE80)
+#define DOLMCHMNEIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F75DEB0)
+#define DOLMCHMNEIL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F75DEC0)
+
+inline static constexpr unsigned int DOLMCHMNEIL___c_TypeDefinitionIndex = 33368;
+
+	class DOLMCHMNEIL___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38F30);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DOLMCHMNEIL___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOLMCHMNEIL___C_CTOR_OFFSET))(this);
+		}
+
+		::DOLMCHMNEIL* __cctor_b__28_0()
+		{
+			return ((::DOLMCHMNEIL*(*)(::PVOID))((::PBYTE)hIl2Cpp + DOLMCHMNEIL___C___CCTOR_B__28_0_OFFSET))(this);
+		}
+
+	};

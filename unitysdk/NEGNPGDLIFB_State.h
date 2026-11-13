@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NEGNPGDLIFB_State_TypeDefinitionIndex = 58876;
+inline static constexpr unsigned int NEGNPGDLIFB_State_TypeDefinitionIndex = 60148;
 
 	enum class NEGNPGDLIFB_State : ::System::Int32
 	{

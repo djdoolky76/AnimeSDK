@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicToastConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class UsableConditionConfig; }
 
-#define RPG_GAMECORE_USABLECONDITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4B5C0)
-#define RPG_GAMECORE_USABLECONDITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4B480)
+#define RPG_GAMECORE_USABLECONDITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED37070)
+#define RPG_GAMECORE_USABLECONDITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED36F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UsableConditionConfig_TypeDefinitionIndex = 18187;
+	inline static constexpr unsigned int UsableConditionConfig_TypeDefinitionIndex = 18349;
 
 	class UsableConditionConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,19 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesLandTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESLANDTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8FA700)
-#define RPG_GAMECORE_PLANETFESLANDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F9FE0)
+#define RPG_GAMECORE_PLANETFESLANDTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE68E60)
+#define RPG_GAMECORE_PLANETFESLANDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE68700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesLandTypeRow_TypeDefinitionIndex = 12185;
+	inline static constexpr unsigned int PlanetFesLandTypeRow_TypeDefinitionIndex = 12242;
 
 	class PlanetFesLandTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* SmallBuffIconPath; // 0x10
+		::System::String* BigBuffIconPath; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::String* BigBuffIconPath; // 0x20
+		::System::String* SmallBuffIconPath; // 0x20
 		::RPG::Client::TextID Name; // 0x28
 		::RPG::GameCore::PlanetFesLandType Type; // 0x38
 		::System::Void _ctor()

@@ -9,38 +9,38 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define PIKFJEEPMPG_CLIGNBKCDPO_OFFSET UNITYSDK_OFFSET(0xC263890)
-#define PIKFJEEPMPG_CONFIAMBBBC_OFFSET UNITYSDK_OFFSET(0xC263600)
-#define PIKFJEEPMPG_CTOR_OFFSET UNITYSDK_OFFSET(0xC265340)
-#define PIKFJEEPMPG_EBBJOKFAMHK_OFFSET UNITYSDK_OFFSET(0xC264F20)
-#define PIKFJEEPMPG_FCNHIJCHFJI_OFFSET UNITYSDK_OFFSET(0xC264950)
-#define PIKFJEEPMPG_GET_ENABLERUNTIMETICK_OFFSET UNITYSDK_OFFSET(0xC265330)
-#define PIKFJEEPMPG_JDOKPKPNICG_OFFSET UNITYSDK_OFFSET(0xC264B00)
-#define PIKFJEEPMPG_NNGOEGHABPB_OFFSET UNITYSDK_OFFSET(0xC264330)
-#define PIKFJEEPMPG_PJIBOFIPDIN_OFFSET UNITYSDK_OFFSET(0xC2640C0)
+#define PIKFJEEPMPG_CLIGNBKCDPO_OFFSET UNITYSDK_OFFSET(0x1A9CFDE0)
+#define PIKFJEEPMPG_CONFIAMBBBC_OFFSET UNITYSDK_OFFSET(0x1A9CFB50)
+#define PIKFJEEPMPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D18B0)
+#define PIKFJEEPMPG_EBBJOKFAMHK_OFFSET UNITYSDK_OFFSET(0x1A9D14A0)
+#define PIKFJEEPMPG_FCNHIJCHFJI_OFFSET UNITYSDK_OFFSET(0x1A9D0EC0)
+#define PIKFJEEPMPG_GET_ENABLERUNTIMETICK_OFFSET UNITYSDK_OFFSET(0x1A9D18A0)
+#define PIKFJEEPMPG_JDOKPKPNICG_OFFSET UNITYSDK_OFFSET(0x1A9D1070)
+#define PIKFJEEPMPG_NNGOEGHABPB_OFFSET UNITYSDK_OFFSET(0x1A9D08A0)
+#define PIKFJEEPMPG_PJIBOFIPDIN_OFFSET UNITYSDK_OFFSET(0x1A9D0630)
 
-inline static constexpr unsigned int PIKFJEEPMPG_TypeDefinitionIndex = 70633;
+inline static constexpr unsigned int PIKFJEEPMPG_TypeDefinitionIndex = 72610;
 
 	class PIKFJEEPMPG : public ::BCIAMPIIHPF
 	{
 	public:
-		::System::Object* AMFAHMJGOEE; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::TAUtils::SimpleTransform>* IKJPLHINJMH; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GINMNCLNFCF; // 0x30
+		::PIKFJEEPMPG_OENANCJLKHA* GJBOKLDCKEG; // 0x38
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* EJJJMLPECEJ; // 0x40
-		::PIKFJEEPMPG_OENANCJLKHA* GJBOKLDCKEG; // 0x48
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GINMNCLNFCF; // 0x50
-		::System::Collections::Generic::Queue_1<::UnityEngine::Vector3>* JAHPONLMCEN; // 0x58
-		::UnityEngine::Vector3 EHAIKBDMGFJ; // 0x60
-		::System::Int32 HOCMHABKLGJ; // 0x6C
-		::System::Int32 KBJBJFNMKJD; // 0x70
-		::System::Single MJNJKFNENFD; // 0x74
-		::UnityEngine::Vector3 OGPDIJFMIHM; // 0x78
-		::System::Int32 HOGEMAHFFEF; // 0x84
-		::UnityEngine::Vector3 MLPLPKGKGEG; // 0x88
-		::System::Boolean IKKGNCDIAAC; // 0x94
+		::System::Object* AMFAHMJGOEE; // 0x48
+		::System::Collections::Generic::Queue_1<::UnityEngine::Vector3>* JAHPONLMCEN; // 0x50
+		::System::Collections::Generic::List_1<::RPG::Client::TAUtils::SimpleTransform>* IKJPLHINJMH; // 0x58
+		::System::Int32 KBJBJFNMKJD; // 0x60
+		::UnityEngine::Vector3 PCEBHJHHLLF; // 0x64
+		::UnityEngine::Vector3 OGPDIJFMIHM; // 0x70
+		::UnityEngine::Vector3 EHAIKBDMGFJ; // 0x7C
+		::System::Int32 HOGEMAHFFEF; // 0x88
+		::UnityEngine::Vector3 NIMMIBKOCCC; // 0x8C
+		::System::Int32 HOCMHABKLGJ; // 0x98
+		::System::Boolean IKKGNCDIAAC; // 0x9C
 		::System::Byte _padding0[0x3];
-		::UnityEngine::Vector3 NIMMIBKOCCC; // 0x98
-		::UnityEngine::Vector3 PCEBHJHHLLF; // 0xA4
+		::UnityEngine::Vector3 MLPLPKGKGEG; // 0xA0
+		::System::Single MJNJKFNENFD; // 0xAC
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIKFJEEPMPG_CTOR_OFFSET))(this);

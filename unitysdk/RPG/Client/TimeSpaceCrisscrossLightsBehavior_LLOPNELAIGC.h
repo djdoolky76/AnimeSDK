@@ -5,21 +5,22 @@
 namespace RPG::CustomRP { class CustomAdditionalLightData; }
 namespace UnityEngine { class Light; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_LLOPNELAIGC_CTOR_OFFSET UNITYSDK_OFFSET(0xE294000)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_LLOPNELAIGC_MILOJPIDFBJ_OFFSET UNITYSDK_OFFSET(0xE298F70)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_LLOPNELAIGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A14D770)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_LLOPNELAIGC_MILOJPIDFBJ_OFFSET UNITYSDK_OFFSET(0x1A1526E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC_TypeDefinitionIndex = 70230;
+	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC_TypeDefinitionIndex = 72196;
 
 	class TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC : public ::System::Object
 	{
 	public:
-		::UnityEngine::Light* LFMEKFKILBC; // 0x10
-		::RPG::CustomRP::CustomAdditionalLightData* OHPGEHKFABM; // 0x18
+		::RPG::CustomRP::CustomAdditionalLightData* OHPGEHKFABM; // 0x10
+		::UnityEngine::Light* LFMEKFKILBC; // 0x18
 		::System::Single EIGMMFGILLJ; // 0x20
-		::UnityEngine::Bounds DCCKCNLNKDG; // 0x24
-		::System::Boolean ELLLBPMKMCE; // 0x3C
+		::System::Boolean ELLLBPMKMCE; // 0x24
+		::System::Byte _padding0[0x3];
+		::UnityEngine::Bounds DCCKCNLNKDG; // 0x28
 		::System::Void _ctor(::UnityEngine::Light* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_LLOPNELAIGC_CTOR_OFFSET))(this, a1);

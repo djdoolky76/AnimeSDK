@@ -10,27 +10,27 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeV2PVPScoreRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82F7D0)
-#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82F2B0)
+#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB63B10)
+#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB635F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 11952;
+	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 12009;
 
 	class MatchThreeV2PVPScoreRow : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* ParamMap; // 0x10
-		::Il2CppArray<::RPG::GameCore::MultiPlayerGameMode>* GameModeList; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* FixedScoreMap; // 0x20
-		::RPG::Client::TextID Title2; // 0x28
-		::RPG::GameCore::MatchThreeScoreType Type; // 0x38
-		::RPG::GameCore::MatchThreeScoreFinishType FinishType; // 0x3C
-		::RPG::Client::TextID Title; // 0x40
-		::RPG::GameCore::MatchThreeRarityType Rarity; // 0x50
-		::System::Int32 Param; // 0x54
-		::System::UInt32 ScoreID; // 0x58
-		::System::UInt32 ActivityID; // 0x5C
+		::Il2CppArray<::RPG::GameCore::MultiPlayerGameMode>* GameModeList; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* FixedScoreMap; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* ParamMap; // 0x20
+		::System::Int32 Param; // 0x28
+		::RPG::GameCore::MatchThreeScoreFinishType FinishType; // 0x2C
+		::RPG::Client::TextID Title; // 0x30
+		::RPG::GameCore::MatchThreeRarityType Rarity; // 0x40
+		::System::UInt32 ScoreID; // 0x44
+		::RPG::Client::TextID Title2; // 0x48
+		::System::UInt32 ActivityID; // 0x58
+		::RPG::GameCore::MatchThreeScoreType Type; // 0x5C
 		::RPG::Client::TextID Desc; // 0x60
 		::System::Void _ctor()
 		{

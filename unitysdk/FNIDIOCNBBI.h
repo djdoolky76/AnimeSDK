@@ -3,10 +3,10 @@
 #include "unitysdk/MLKDDLHNNHH.h"
 namespace RPG::Client { class MatchThreeBoard; }
 
-#define FNIDIOCNBBI_CLEAR_OFFSET UNITYSDK_OFFSET(0x15865990)
-#define FNIDIOCNBBI_CTOR_OFFSET UNITYSDK_OFFSET(0x158659E0)
+#define FNIDIOCNBBI_CLEAR_OFFSET UNITYSDK_OFFSET(0x17F19130)
+#define FNIDIOCNBBI_CTOR_OFFSET UNITYSDK_OFFSET(0x17F19180)
 
-inline static constexpr unsigned int FNIDIOCNBBI_TypeDefinitionIndex = 65849;
+inline static constexpr unsigned int FNIDIOCNBBI_TypeDefinitionIndex = 67781;
 
 	class FNIDIOCNBBI : public ::MLKDDLHNNHH
 	{

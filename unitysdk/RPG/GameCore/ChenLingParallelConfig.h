@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class ChenLingParallelConfig; }
 
-#define RPG_GAMECORE_CHENLINGPARALLELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D565770)
-#define RPG_GAMECORE_CHENLINGPARALLELCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D565780)
-#define RPG_GAMECORE_CHENLINGPARALLELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D565720)
+#define RPG_GAMECORE_CHENLINGPARALLELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F91AD90)
+#define RPG_GAMECORE_CHENLINGPARALLELCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F91ADA0)
+#define RPG_GAMECORE_CHENLINGPARALLELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F91AD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingParallelConfig_TypeDefinitionIndex = 15815;
+	inline static constexpr unsigned int ChenLingParallelConfig_TypeDefinitionIndex = 15973;
 
 	class ChenLingParallelConfig : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

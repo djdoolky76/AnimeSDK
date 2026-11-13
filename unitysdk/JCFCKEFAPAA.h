@@ -4,9 +4,9 @@
 namespace RPG::Client { class ElfFarmCellData; }
 namespace System { class String; }
 
-#define JCFCKEFAPAA_BMABDKMLHMG_OFFSET UNITYSDK_OFFSET(0x1657A360)
+#define JCFCKEFAPAA_BMABDKMLHMG_OFFSET UNITYSDK_OFFSET(0x16948F00)
 
-inline static constexpr unsigned int JCFCKEFAPAA_TypeDefinitionIndex = 68661;
+inline static constexpr unsigned int JCFCKEFAPAA_TypeDefinitionIndex = 70613;
 
 	class JCFCKEFAPAA : public ::System::Object
 	{

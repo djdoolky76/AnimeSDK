@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PNNPALLKLED_CCTOR_OFFSET UNITYSDK_OFFSET(0xC348DD0)
-#define PNNPALLKLED_CDMBJFLNNHD_OFFSET UNITYSDK_OFFSET(0xC348CB0)
-#define PNNPALLKLED_EIMINJCDELC_OFFSET UNITYSDK_OFFSET(0xC348B90)
+#define PNNPALLKLED_CCTOR_OFFSET UNITYSDK_OFFSET(0x184C7770)
+#define PNNPALLKLED_CDMBJFLNNHD_OFFSET UNITYSDK_OFFSET(0x184C7650)
+#define PNNPALLKLED_EIMINJCDELC_OFFSET UNITYSDK_OFFSET(0x184C7530)
 
-inline static constexpr unsigned int PNNPALLKLED_TypeDefinitionIndex = 51848;
+inline static constexpr unsigned int PNNPALLKLED_TypeDefinitionIndex = 52934;
 
 	class PNNPALLKLED : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int64>** StaticGet_LIGAMFDAPKG()
-		{
-			return (::Il2CppArray<::System::Int64>**)UnitySDK::FromName("", "PNNPALLKLED")->GetStaticField(0x700A0);
-		}
-
 		static ::Il2CppArray<::System::Int64>** StaticGet_JAIMAIPPDOJ()
 		{
-			return (::Il2CppArray<::System::Int64>**)UnitySDK::FromName("", "PNNPALLKLED")->GetStaticField(0x700A8);
+			return (::Il2CppArray<::System::Int64>**)UnitySDK::FromName("", "PNNPALLKLED")->GetStaticField(0x73D30);
+		}
+
+		static ::Il2CppArray<::System::Int64>** StaticGet_LIGAMFDAPKG()
+		{
+			return (::Il2CppArray<::System::Int64>**)UnitySDK::FromName("", "PNNPALLKLED")->GetStaticField(0x73D38);
 		}
 
 		static ::System::Void _cctor()

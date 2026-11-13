@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class AkEnvironment;
 
-#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYPRIORITY_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F561990)
-#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F561970)
+#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYPRIORITY_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EF10190)
+#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF10170)
 
-inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareByPriority_TypeDefinitionIndex = 44918;
+inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareByPriority_TypeDefinitionIndex = 45993;
 
 	class AkEnvironment_AkEnvironment_CompareByPriority : public ::System::Object
 	{

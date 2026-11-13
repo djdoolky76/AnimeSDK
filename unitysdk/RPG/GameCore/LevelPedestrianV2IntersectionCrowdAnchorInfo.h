@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelPedestrianV2IntersectionCrowdAnchorInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROWDANCHORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D799310)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROWDANCHORINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D799060)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROWDANCHORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9476D0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROWDANCHORINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D947530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionCrowdAnchorInfo_TypeDefinitionIndex = 17310;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionCrowdAnchorInfo_TypeDefinitionIndex = 17478;
 
 	class LevelPedestrianV2IntersectionCrowdAnchorInfo : public ::RPG::GameCore::JsonConfig
 	{

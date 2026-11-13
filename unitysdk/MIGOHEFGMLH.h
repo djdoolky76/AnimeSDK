@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/SyncCheckItemBase.h"
 namespace System { class String; }
 
-#define MIGOHEFGMLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB952AF0)
-#define MIGOHEFGMLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB952AA0)
+#define MIGOHEFGMLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3926A0)
+#define MIGOHEFGMLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A392650)
 
-inline static constexpr unsigned int MIGOHEFGMLH_TypeDefinitionIndex = 59878;
+inline static constexpr unsigned int MIGOHEFGMLH_TypeDefinitionIndex = 61162;
 
 	class MIGOHEFGMLH : public ::RPG::Client::SyncCheckItemBase
 	{

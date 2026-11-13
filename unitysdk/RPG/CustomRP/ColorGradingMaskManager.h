@@ -5,30 +5,30 @@ namespace RPG::CustomRP { class ColorGradingMaskController; }
 namespace RPG::CustomRP { class ColorGradingMaskManager_MaskCb; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBF0A80)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1CBEF7B0)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1CBEFA00)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1E42C0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1A1E31E0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1A1E33D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingMaskManager_TypeDefinitionIndex = 37767;
+	inline static constexpr unsigned int ColorGradingMaskManager_TypeDefinitionIndex = 38696;
 
 	class ColorGradingMaskManager : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::ColorGradingMaskController*>** StaticGet__instances()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::ColorGradingMaskController*>**)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskManager")->GetStaticField(0x2B560);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::ColorGradingMaskController*>**)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskManager")->GetStaticField(0x22BD0);
 		}
 
 		static ::RPG::CustomRP::ColorGradingMaskManager_MaskCb** StaticGet__cb()
 		{
-			return (::RPG::CustomRP::ColorGradingMaskManager_MaskCb**)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskManager")->GetStaticField(0x2B568);
+			return (::RPG::CustomRP::ColorGradingMaskManager_MaskCb**)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskManager")->GetStaticField(0x22BD8);
 		}
 
 		static ::System::Boolean* StaticGet_InvertMask()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskManager")->GetStaticField(0x8E50);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskManager")->GetStaticField(0x7E00);
 		}
 
 		static ::System::Void _cctor()

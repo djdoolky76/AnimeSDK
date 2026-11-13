@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HGEAGNCENFG_KJKFDMILFAC_TypeDefinitionIndex = 47735;
+inline static constexpr unsigned int HGEAGNCENFG_KJKFDMILFAC_TypeDefinitionIndex = 48765;
 
 	enum class HGEAGNCENFG_KJKFDMILFAC : ::System::Int32
 	{

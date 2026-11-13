@@ -6,25 +6,25 @@ namespace RPG::GameCore { class RequestSetServerGroupPropertyV2; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define DNJOIOBINCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1195E850)
-#define DNJOIOBINCP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1195ED80)
-#define DNJOIOBINCP_OBBAMDNOEHC_OFFSET UNITYSDK_OFFSET(0x1195EDC0)
-#define DNJOIOBINCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1195E8C0)
-#define DNJOIOBINCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1195E860)
-#define DNJOIOBINCP_TICK_OFFSET UNITYSDK_OFFSET(0x1195ED20)
+#define DNJOIOBINCP_CTOR_OFFSET UNITYSDK_OFFSET(0x12CD4490)
+#define DNJOIOBINCP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CD49C0)
+#define DNJOIOBINCP_OBBAMDNOEHC_OFFSET UNITYSDK_OFFSET(0x12CD4A00)
+#define DNJOIOBINCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CD4500)
+#define DNJOIOBINCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CD44A0)
+#define DNJOIOBINCP_TICK_OFFSET UNITYSDK_OFFSET(0x12CD4960)
 
-inline static constexpr unsigned int DNJOIOBINCP_TypeDefinitionIndex = 53204;
+inline static constexpr unsigned int DNJOIOBINCP_TypeDefinitionIndex = 54366;
 
 	class DNJOIOBINCP : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* MACKGFGJMLE; // 0x18
-		::KFELGAIGHAP* BCEOFGNHABE; // 0x20
-		::RPG::GameCore::RequestSetServerGroupPropertyV2* OFKGLJOAMLD; // 0x28
+		::KFELGAIGHAP* BCEOFGNHABE; // 0x18
+		::RPG::GameCore::RequestSetServerGroupPropertyV2* OFKGLJOAMLD; // 0x20
+		::KFELGAIGHAP* MACKGFGJMLE; // 0x28
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
-		::System::UInt32 GILPDKAEMGP; // 0x38
-		::System::UInt32 PEEFHNHDBMF; // 0x3C
-		::System::UInt32 DLHOKIMOHFG; // 0x40
+		::System::UInt32 PEEFHNHDBMF; // 0x38
+		::System::UInt32 DLHOKIMOHFG; // 0x3C
+		::System::UInt32 GILPDKAEMGP; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RequestSetServerGroupPropertyV2* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RequestSetServerGroupPropertyV2*))((::PBYTE)hIl2Cpp + DNJOIOBINCP_CTOR_OFFSET))(this, a1, a2);

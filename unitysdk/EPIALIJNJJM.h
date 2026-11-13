@@ -4,16 +4,16 @@
 class PEBBBNOOCFO;
 namespace RPG::Client { class MapNpcDef; }
 
-#define EPIALIJNJJM_CTOR_OFFSET UNITYSDK_OFFSET(0x155C9690)
-#define EPIALIJNJJM_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x155C96A0)
+#define EPIALIJNJJM_CTOR_OFFSET UNITYSDK_OFFSET(0x16B38660)
+#define EPIALIJNJJM_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x16B38670)
 
-inline static constexpr unsigned int EPIALIJNJJM_TypeDefinitionIndex = 60632;
+inline static constexpr unsigned int EPIALIJNJJM_TypeDefinitionIndex = 62009;
 
 	class EPIALIJNJJM : public ::System::Object
 	{
 	public:
-		::RPG::Client::MapNpcDef* CMBIMHDPELH; // 0x10
-		::PEBBBNOOCFO* LKCGAFENIJG; // 0x18
+		::PEBBBNOOCFO* LKCGAFENIJG; // 0x10
+		::RPG::Client::MapNpcDef* CMBIMHDPELH; // 0x18
 		::System::Void _ctor(::RPG::Client::MapNpcDef* a1, ::PEBBBNOOCFO* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapNpcDef*, ::PEBBBNOOCFO*))((::PBYTE)hIl2Cpp + EPIALIJNJJM_CTOR_OFFSET))(this, a1, a2);

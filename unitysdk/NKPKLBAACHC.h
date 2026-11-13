@@ -8,26 +8,26 @@ class FCOEMCEDLNL;
 class NKPKLBAACHC;
 namespace System { class String; }
 
-#define NKPKLBAACHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D203380)
-#define NKPKLBAACHC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D202EA0)
+#define NKPKLBAACHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E75EFE0)
+#define NKPKLBAACHC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E75EA60)
 
-inline static constexpr unsigned int NKPKLBAACHC_TypeDefinitionIndex = 12491;
+inline static constexpr unsigned int NKPKLBAACHC_TypeDefinitionIndex = 12558;
 
 	class NKPKLBAACHC : public ::System::Object
 	{
 	public:
 		::System::String* MEIFEJGOLJC; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x18
-		::System::String* OLOIFNNLKJP; // 0x20
-		::RPG::Client::TextID OENAMINOLLF; // 0x28
-		::System::Single EJKGHBAGFIB; // 0x38
-		::RPG::GameCore::TeamTowersPlayerSkillType GMPGDEINODK; // 0x3C
-		::System::UInt32 ODEKADIBFAO; // 0x40
-		::System::UInt32 PHFMCACHFIJ; // 0x44
-		::System::UInt32 AAGKEBFHLMC; // 0x48
-		::System::Single CNGOPBADLLP; // 0x4C
-		::RPG::Client::TextID NMAHGFAPENI; // 0x50
-		::RPG::Client::TextID HEIHBJEEGPB; // 0x60
+		::System::String* OLOIFNNLKJP; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x20
+		::System::UInt32 AAGKEBFHLMC; // 0x28
+		::System::Single EJKGHBAGFIB; // 0x2C
+		::RPG::Client::TextID HEIHBJEEGPB; // 0x30
+		::RPG::Client::TextID NMAHGFAPENI; // 0x40
+		::RPG::Client::TextID OENAMINOLLF; // 0x50
+		::System::UInt32 PHFMCACHFIJ; // 0x60
+		::System::UInt32 ODEKADIBFAO; // 0x64
+		::System::Single CNGOPBADLLP; // 0x68
+		::RPG::GameCore::TeamTowersPlayerSkillType GMPGDEINODK; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKPKLBAACHC_CTOR_OFFSET))(this);

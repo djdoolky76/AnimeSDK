@@ -6,36 +6,36 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_FATEROUNDINFOITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFC99E0)
-#define RPG_CLIENT_FATEROUNDINFOITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC96B0)
-#define RPG_CLIENT_FATEROUNDINFOITEM_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xCFC9940)
-#define RPG_CLIENT_FATEROUNDINFOITEM_GET_NUMTEXT_OFFSET UNITYSDK_OFFSET(0xCFC9810)
-#define RPG_CLIENT_FATEROUNDINFOITEM_GET_ROUNDINDEX_OFFSET UNITYSDK_OFFSET(0xCFC96C0)
-#define RPG_CLIENT_FATEROUNDINFOITEM_GET_ROUNDTYPETEXT_OFFSET UNITYSDK_OFFSET(0xCFC9740)
-#define RPG_CLIENT_FATEROUNDINFOITEM_GET_ROUNDTYPE_OFFSET UNITYSDK_OFFSET(0xCFC9700)
+#define RPG_CLIENT_FATEROUNDINFOITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4F91B0)
+#define RPG_CLIENT_FATEROUNDINFOITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F8E80)
+#define RPG_CLIENT_FATEROUNDINFOITEM_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1C4F9110)
+#define RPG_CLIENT_FATEROUNDINFOITEM_GET_NUMTEXT_OFFSET UNITYSDK_OFFSET(0x1C4F8FE0)
+#define RPG_CLIENT_FATEROUNDINFOITEM_GET_ROUNDINDEX_OFFSET UNITYSDK_OFFSET(0x1C4F8E90)
+#define RPG_CLIENT_FATEROUNDINFOITEM_GET_ROUNDTYPETEXT_OFFSET UNITYSDK_OFFSET(0x1C4F8F10)
+#define RPG_CLIENT_FATEROUNDINFOITEM_GET_ROUNDTYPE_OFFSET UNITYSDK_OFFSET(0x1C4F8ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateRoundInfoItem_TypeDefinitionIndex = 64115;
+	inline static constexpr unsigned int FateRoundInfoItem_TypeDefinitionIndex = 65560;
 
 	class FateRoundInfoItem : public ::System::Object
 	{
 	public:
-		::System::UInt32 _RoundIndex; // 0x10
-		::RPG::GameCore::FateRoundType _RoundType; // 0x14
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRoundType, ::RPG::Client::TextID>** StaticGet__RoundType2Text()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRoundType, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "FateRoundInfoItem")->GetStaticField(0x5A360);
-		}
-
+		::RPG::GameCore::FateRoundType _RoundType; // 0x10
+		::System::UInt32 _RoundIndex; // 0x14
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TextID>** StaticGet__Index2NumText()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "FateRoundInfoItem")->GetStaticField(0x5A368);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "FateRoundInfoItem")->GetStaticField(0x5EF50);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRoundType, ::RPG::Client::TextID>** StaticGet__RoundType2Text()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRoundType, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "FateRoundInfoItem")->GetStaticField(0x5EF58);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRoundType, ::System::String*>** StaticGet__RoundType2Icon()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRoundType, ::System::String*>**)UnitySDK::FromName("RPG.Client", "FateRoundInfoItem")->GetStaticField(0x5A370);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRoundType, ::System::String*>**)UnitySDK::FromName("RPG.Client", "FateRoundInfoItem")->GetStaticField(0x5EF60);
 		}
 
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::FateRoundType a2)

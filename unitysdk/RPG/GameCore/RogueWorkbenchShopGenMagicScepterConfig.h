@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueWorkbenchShopGenMagicScepterConfig; }
 
-#define RPG_GAMECORE_ROGUEWORKBENCHSHOPGENMAGICSCEPTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA18F40)
-#define RPG_GAMECORE_ROGUEWORKBENCHSHOPGENMAGICSCEPTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA18F00)
+#define RPG_GAMECORE_ROGUEWORKBENCHSHOPGENMAGICSCEPTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF39790)
+#define RPG_GAMECORE_ROGUEWORKBENCHSHOPGENMAGICSCEPTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF39750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueWorkbenchShopGenMagicScepterConfig_TypeDefinitionIndex = 18026;
+	inline static constexpr unsigned int RogueWorkbenchShopGenMagicScepterConfig_TypeDefinitionIndex = 18193;
 
 	class RogueWorkbenchShopGenMagicScepterConfig : public ::RPG::GameCore::JsonConfig
 	{

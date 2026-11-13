@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RewardItem
 {
-	inline static constexpr unsigned int RewardItemMarkFlags_TypeDefinitionIndex = 79136;
+	inline static constexpr unsigned int RewardItemMarkFlags_TypeDefinitionIndex = 81912;
 
 	enum class RewardItemMarkFlags : ::System::Int32
 	{

@@ -5,25 +5,25 @@ namespace RPG::Client { class Effect_TransformToMaterialBehavior_TransformProper
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD6BBD0)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD6BC10)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C__ONENABLE_B__7_0_OFFSET UNITYSDK_OFFSET(0xCD6BC20)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x189B0D00)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x189B0D40)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C__ONENABLE_B__7_0_OFFSET UNITYSDK_OFFSET(0x189B0D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior___c_TypeDefinitionIndex = 70583;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior___c_TypeDefinitionIndex = 72560;
 
 	class Effect_TransformToMaterialBehavior___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x357A0);
-		}
-
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x357A8);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x43A40);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x43A48);
 		}
 
 		static ::System::Void _cctor()

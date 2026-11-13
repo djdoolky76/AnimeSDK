@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EGMOEMCIINO_TypeDefinitionIndex = 25811;
+inline static constexpr unsigned int EGMOEMCIINO_TypeDefinitionIndex = 26308;
 
 	enum class EGMOEMCIINO : ::System::Int32
 	{

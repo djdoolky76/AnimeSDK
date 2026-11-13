@@ -11,47 +11,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HLDCDMHAMOG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE91300)
-#define HLDCDMHAMOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE918D0)
-#define HLDCDMHAMOG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE91470)
-#define HLDCDMHAMOG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE90D70)
-#define HLDCDMHAMOG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE91000)
-#define HLDCDMHAMOG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE91510)
-#define HLDCDMHAMOG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE91560)
-#define HLDCDMHAMOG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE91340)
-#define HLDCDMHAMOG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE90FA0)
-#define HLDCDMHAMOG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE91170)
-#define HLDCDMHAMOG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE913D0)
-#define HLDCDMHAMOG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE90CF0)
+#define HLDCDMHAMOG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E832890)
+#define HLDCDMHAMOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E832E60)
+#define HLDCDMHAMOG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E832A00)
+#define HLDCDMHAMOG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E832300)
+#define HLDCDMHAMOG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E832590)
+#define HLDCDMHAMOG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E832AA0)
+#define HLDCDMHAMOG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E832AF0)
+#define HLDCDMHAMOG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E8328D0)
+#define HLDCDMHAMOG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E832530)
+#define HLDCDMHAMOG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E832700)
+#define HLDCDMHAMOG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E832960)
+#define HLDCDMHAMOG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E832280)
 
-inline static constexpr unsigned int HLDCDMHAMOG_TypeDefinitionIndex = 13932;
+inline static constexpr unsigned int HLDCDMHAMOG_TypeDefinitionIndex = 14089;
 
 	class HLDCDMHAMOG : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::DMHNMEJKELL*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x1CC70);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::DMHNMEJKELL*>**)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x18C10);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x1CC78);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x18C18);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::DMHNMEJKELL*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::DMHNMEJKELL*>**)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x1CC80);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x6350);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x18C20);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x6351);
+			return (::System::Boolean*)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x5910);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "HLDCDMHAMOG")->GetStaticField(0x5911);
 		}
 
 		static ::System::Void _cctor()

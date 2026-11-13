@@ -7,47 +7,47 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2354B0)
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_DIJKSTRA_OFFSET UNITYSDK_OFFSET(0x1F2346E0)
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETMINIMALPATH_OFFSET UNITYSDK_OFFSET(0x1F234590)
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETPATH_OFFSET UNITYSDK_OFFSET(0x1F2342F0)
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1F234FF0)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A28C0D0)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_DIJKSTRA_OFFSET UNITYSDK_OFFSET(0x1A28B300)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETMINIMALPATH_OFFSET UNITYSDK_OFFSET(0x1A28B1B0)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETPATH_OFFSET UNITYSDK_OFFSET(0x1A28AF10)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1A28BC10)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectPathFaces_TypeDefinitionIndex = 44416;
+	inline static constexpr unsigned int SelectPathFaces_TypeDefinitionIndex = 45491;
 
 	class SelectPathFaces : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_cachedPredecessors()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet_s_cachedFacesIndex()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x51770);
-		}
-
-		static ::UnityEngine::ProBuilder::ProBuilderMesh** StaticGet_s_cachedMesh()
-		{
-			return (::UnityEngine::ProBuilder::ProBuilderMesh**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x51778);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x68750);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>** StaticGet_s_cachedWings()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x51780);
+			return (::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x68758);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet_s_cachedFacesIndex()
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_cachedPredecessors()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x51788);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x68760);
+		}
+
+		static ::UnityEngine::ProBuilder::ProBuilderMesh** StaticGet_s_cachedMesh()
+		{
+			return (::UnityEngine::ProBuilder::ProBuilderMesh**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x68768);
 		}
 
 		static ::System::Int32* StaticGet_s_cachedFacesCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x12560);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x14950);
 		}
 
 		static ::System::Int32* StaticGet_s_cachedStart()
 		{
-			return (::System::Int32*)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x12564);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x14954);
 		}
 
 		static ::System::Void _cctor()

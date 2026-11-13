@@ -6,7 +6,7 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule { template <ty
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraph_RenderPass_1_TypeDefinitionIndex = 35453;
+	inline static constexpr unsigned int RenderGraph_RenderPass_1_TypeDefinitionIndex = 36381;
 
 	template <typename T>
 	class RenderGraph_RenderPass_1 : public ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraph_RenderPass

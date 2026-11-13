@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CMMPOONMOII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E4BF0)
+#define CMMPOONMOII_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB16E50)
 
-inline static constexpr unsigned int CMMPOONMOII_TypeDefinitionIndex = 43802;
+inline static constexpr unsigned int CMMPOONMOII_TypeDefinitionIndex = 44877;
 
 	class CMMPOONMOII : public ::System::Object
 	{

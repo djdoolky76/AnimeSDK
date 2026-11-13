@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateAgeAppealOptionDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB1350)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG___C__DISPLAYCLASS33_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BEB1790)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C367780)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG___C__DISPLAYCLASS33_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1C367BC0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldAgeGateAgeAppealOptionDialog___c__DisplayClass33_0_TypeDefinitionIndex = 8781;
+	inline static constexpr unsigned int HandheldAgeGateAgeAppealOptionDialog___c__DisplayClass33_0_TypeDefinitionIndex = 8790;
 
 	class HandheldAgeGateAgeAppealOptionDialog___c__DisplayClass33_0 : public ::System::Object
 	{

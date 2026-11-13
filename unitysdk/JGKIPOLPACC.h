@@ -7,22 +7,22 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 
-#define JGKIPOLPACC_AEGMLJMJBDO_OFFSET UNITYSDK_OFFSET(0xB194F00)
-#define JGKIPOLPACC_CTOR_OFFSET UNITYSDK_OFFSET(0xB194CE0)
-#define JGKIPOLPACC_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0xB195190)
-#define JGKIPOLPACC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB194CF0)
-#define JGKIPOLPACC_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB194DA0)
-#define JGKIPOLPACC_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xB194EB0)
-#define JGKIPOLPACC_TICK_OFFSET UNITYSDK_OFFSET(0xB194D40)
+#define JGKIPOLPACC_AEGMLJMJBDO_OFFSET UNITYSDK_OFFSET(0x1934EDF0)
+#define JGKIPOLPACC_CTOR_OFFSET UNITYSDK_OFFSET(0x1934EBD0)
+#define JGKIPOLPACC_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x1934F080)
+#define JGKIPOLPACC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1934EBE0)
+#define JGKIPOLPACC_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x1934EC90)
+#define JGKIPOLPACC_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x1934EDA0)
+#define JGKIPOLPACC_TICK_OFFSET UNITYSDK_OFFSET(0x1934EC30)
 
-inline static constexpr unsigned int JGKIPOLPACC_TypeDefinitionIndex = 55861;
+inline static constexpr unsigned int JGKIPOLPACC_TypeDefinitionIndex = 57064;
 
 	class JGKIPOLPACC : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x10
-		::RPG::GameCore::AdventureCharacterController* CPIIOIPAAKK; // 0x18
-		::ILHNCGGCBBL* ONBOGBCKHDC; // 0x20
+		::RPG::GameCore::AdventureCharacterController* CPIIOIPAAKK; // 0x10
+		::ILHNCGGCBBL* ONBOGBCKHDC; // 0x18
+		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x20
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::AdventureCharacterController* a2, ::ILHNCGGCBBL* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AdventureCharacterController*, ::ILHNCGGCBBL*))((::PBYTE)hIl2Cpp + JGKIPOLPACC_CTOR_OFFSET))(this, a1, a2, a3);

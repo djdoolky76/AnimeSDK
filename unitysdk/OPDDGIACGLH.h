@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSomatoType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OPDDGIACGLH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF9E010)
-#define OPDDGIACGLH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF9E040)
+#define OPDDGIACGLH_CTOR_OFFSET UNITYSDK_OFFSET(0x18AB4790)
+#define OPDDGIACGLH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18AB47C0)
 
-inline static constexpr unsigned int OPDDGIACGLH_TypeDefinitionIndex = 54568;
+inline static constexpr unsigned int OPDDGIACGLH_TypeDefinitionIndex = 55733;
 
 	class OPDDGIACGLH
 	{

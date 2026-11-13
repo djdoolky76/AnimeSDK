@@ -5,12 +5,12 @@ namespace RPG::Client::MechCraft::View { class MechCraftEntranceControl; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftEntranceViewModel; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD634790)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROL___C__DISPLAYCLASS12_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xD6351C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DED4130)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROL___C__DISPLAYCLASS12_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x1DED4D10)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftEntranceControl___c__DisplayClass12_0_TypeDefinitionIndex = 79953;
+	inline static constexpr unsigned int MechCraftEntranceControl___c__DisplayClass12_0_TypeDefinitionIndex = 82730;
 
 	class MechCraftEntranceControl___c__DisplayClass12_0 : public ::System::Object
 	{

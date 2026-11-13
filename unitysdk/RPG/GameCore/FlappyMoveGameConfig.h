@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FlappyMoveGameConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FLAPPYMOVEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B5BF0)
-#define RPG_GAMECORE_FLAPPYMOVEGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6B5C00)
-#define RPG_GAMECORE_FLAPPYMOVEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B5BC0)
+#define RPG_GAMECORE_FLAPPYMOVEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A9BC0)
+#define RPG_GAMECORE_FLAPPYMOVEGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F7A9BD0)
+#define RPG_GAMECORE_FLAPPYMOVEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7A9B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FlappyMoveGameConfig_TypeDefinitionIndex = 16729;
+	inline static constexpr unsigned int FlappyMoveGameConfig_TypeDefinitionIndex = 16895;
 
 	class FlappyMoveGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

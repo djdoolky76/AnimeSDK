@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LOADPICBEPE_EPhase_TypeDefinitionIndex = 74206;
+inline static constexpr unsigned int LOADPICBEPE_EPhase_TypeDefinitionIndex = 76354;
 
 	enum class LOADPICBEPE_EPhase : ::System::Int32
 	{

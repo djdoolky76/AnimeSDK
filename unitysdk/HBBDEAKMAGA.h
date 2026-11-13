@@ -5,22 +5,22 @@
 class PAIJKCEOIJP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HBBDEAKMAGA_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD8B80)
-#define HBBDEAKMAGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BD8BF0)
-#define HBBDEAKMAGA_HLJACLAHEPH_OFFSET UNITYSDK_OFFSET(0x15BD8D90)
-#define HBBDEAKMAGA_MOOLLCMKOLP_OFFSET UNITYSDK_OFFSET(0x15BD8FA0)
-#define HBBDEAKMAGA_PHFNIBMMLAH_OFFSET UNITYSDK_OFFSET(0x15BD8E90)
+#define HBBDEAKMAGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C151220)
+#define HBBDEAKMAGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C151290)
+#define HBBDEAKMAGA_HLJACLAHEPH_OFFSET UNITYSDK_OFFSET(0x1C151430)
+#define HBBDEAKMAGA_MOOLLCMKOLP_OFFSET UNITYSDK_OFFSET(0x1C151640)
+#define HBBDEAKMAGA_PHFNIBMMLAH_OFFSET UNITYSDK_OFFSET(0x1C151530)
 
-inline static constexpr unsigned int HBBDEAKMAGA_TypeDefinitionIndex = 78558;
+inline static constexpr unsigned int HBBDEAKMAGA_TypeDefinitionIndex = 81293;
 
 	class HBBDEAKMAGA : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::PAIJKCEOIJP*>* IKMGNAONFMJ; // 0x10
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::PAIJKCEOIJP*>*>* IKLHJKCLHCF; // 0x18
-		::System::Int32 EONBOLJMAIH; // 0x20
-		::System::Int32 FLBNKDEDJPB; // 0x24
-		::System::Int32 GJENFEMGNAN; // 0x28
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::PAIJKCEOIJP*>*>* IKLHJKCLHCF; // 0x10
+		::System::Collections::Generic::List_1<::PAIJKCEOIJP*>* IKMGNAONFMJ; // 0x18
+		::System::Int32 FLBNKDEDJPB; // 0x20
+		::System::Int32 GJENFEMGNAN; // 0x24
+		::System::Int32 EONBOLJMAIH; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HBBDEAKMAGA_CTOR_OFFSET))(this);

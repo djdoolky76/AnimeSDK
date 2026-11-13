@@ -5,18 +5,18 @@ namespace RPG::GameCore { class SetDynamicMaterialLoadState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IFPLOLBLOID_CTOR_OFFSET UNITYSDK_OFFSET(0x15F26E60)
-#define IFPLOLBLOID_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F26E90)
-#define IFPLOLBLOID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F26ED0)
+#define IFPLOLBLOID_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2F290)
+#define IFPLOLBLOID_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BC2F2C0)
+#define IFPLOLBLOID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BC2F300)
 
-inline static constexpr unsigned int IFPLOLBLOID_TypeDefinitionIndex = 55401;
+inline static constexpr unsigned int IFPLOLBLOID_TypeDefinitionIndex = 56586;
 
 	class IFPLOLBLOID
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::Client::DynamicMaterialLoader*>** StaticGet_KPGKNONGLCM()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::DynamicMaterialLoader*>**)UnitySDK::FromName("", "IFPLOLBLOID")->GetStaticField(0x4ED00);
+			return (::System::Collections::Generic::List_1<::RPG::Client::DynamicMaterialLoader*>**)UnitySDK::FromName("", "IFPLOLBLOID")->GetStaticField(0x4FB20);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicMaterialLoadState* a2)

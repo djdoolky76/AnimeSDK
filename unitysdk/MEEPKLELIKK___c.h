@@ -4,18 +4,18 @@
 class MEEPKLELIKK;
 namespace System { class Object; }
 
-#define MEEPKLELIKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9DD930)
-#define MEEPKLELIKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9DD970)
-#define MEEPKLELIKK___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9DD980)
+#define MEEPKLELIKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB07260)
+#define MEEPKLELIKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB072A0)
+#define MEEPKLELIKK___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FB072B0)
 
-inline static constexpr unsigned int MEEPKLELIKK___c_TypeDefinitionIndex = 34947;
+inline static constexpr unsigned int MEEPKLELIKK___c_TypeDefinitionIndex = 35875;
 
 	class MEEPKLELIKK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D250);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CCC0);
 		}
 
 		static ::System::Void _cctor()

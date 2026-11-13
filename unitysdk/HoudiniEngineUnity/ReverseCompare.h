@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_REVERSECOMPARE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1B98EB50)
-#define HOUDINIENGINEUNITY_REVERSECOMPARE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B98EBB0)
+#define HOUDINIENGINEUNITY_REVERSECOMPARE_COMPARE_OFFSET UNITYSDK_OFFSET(0x20878D80)
+#define HOUDINIENGINEUNITY_REVERSECOMPARE_CTOR_OFFSET UNITYSDK_OFFSET(0x20878DE0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int ReverseCompare_TypeDefinitionIndex = 40633;
+	inline static constexpr unsigned int ReverseCompare_TypeDefinitionIndex = 41608;
 
 	class ReverseCompare : public ::System::Object
 	{

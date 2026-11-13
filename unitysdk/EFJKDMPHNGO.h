@@ -6,26 +6,26 @@ class PKLHDDGKKOC;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPropAnimState; }
 
-#define EFJKDMPHNGO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4F770)
-#define EFJKDMPHNGO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A4F8B0)
-#define EFJKDMPHNGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A4FA10)
-#define EFJKDMPHNGO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A4FAB0)
-#define EFJKDMPHNGO_TICK_OFFSET UNITYSDK_OFFSET(0x13A4FB80)
+#define EFJKDMPHNGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3388D0)
+#define EFJKDMPHNGO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A338A10)
+#define EFJKDMPHNGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A338B70)
+#define EFJKDMPHNGO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A338C10)
+#define EFJKDMPHNGO_TICK_OFFSET UNITYSDK_OFFSET(0x1A338CE0)
 
-inline static constexpr unsigned int EFJKDMPHNGO_TypeDefinitionIndex = 55812;
+inline static constexpr unsigned int EFJKDMPHNGO_TypeDefinitionIndex = 57015;
 
 	class EFJKDMPHNGO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::PKLHDDGKKOC* ODHAMLOAKEE; // 0x20
-		::KFELGAIGHAP* FOFLNCAEEOM; // 0x28
-		::KFELGAIGHAP* PIKHPDDHLHO; // 0x30
-		::RPG::GameCore::WaitPropAnimState* OFKGLJOAMLD; // 0x38
+		::KFELGAIGHAP* PIKHPDDHLHO; // 0x18
+		::RPG::GameCore::WaitPropAnimState* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::KFELGAIGHAP* FOFLNCAEEOM; // 0x30
+		::PKLHDDGKKOC* ODHAMLOAKEE; // 0x38
 		::System::Boolean CFDILKDNDPO; // 0x40
 		::System::Byte _padding0[0x3];
-		::System::Int32 HFHILHOCPNL; // 0x44
-		::System::Single JFKEJBNEINL; // 0x48
+		::System::Single JFKEJBNEINL; // 0x44
+		::System::Int32 HFHILHOCPNL; // 0x48
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitPropAnimState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitPropAnimState*))((::PBYTE)hIl2Cpp + EFJKDMPHNGO_CTOR_OFFSET))(this, a1, a2);

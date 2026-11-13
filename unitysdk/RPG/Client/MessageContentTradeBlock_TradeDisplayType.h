@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentTradeBlock_TradeDisplayType_TypeDefinitionIndex = 63254;
+	inline static constexpr unsigned int MessageContentTradeBlock_TradeDisplayType_TypeDefinitionIndex = 64692;
 
 	enum class MessageContentTradeBlock_TradeDisplayType : ::System::Int32
 	{

@@ -10,13 +10,13 @@ namespace RPG::GameCore { class ModifyShield; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86B860)
-#define RPG_GAMECORE_MODIFYSHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86B870)
-#define RPG_GAMECORE_MODIFYSHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86B820)
+#define RPG_GAMECORE_MODIFYSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FDE40)
+#define RPG_GAMECORE_MODIFYSHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6FDE50)
+#define RPG_GAMECORE_MODIFYSHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6FDE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyShield_TypeDefinitionIndex = 23118;
+	inline static constexpr unsigned int ModifyShield_TypeDefinitionIndex = 23547;
 
 	class ModifyShield : public ::RPG::GameCore::TaskConfig
 	{

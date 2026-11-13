@@ -4,20 +4,20 @@
 namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceOptions; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEOPTIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF01A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEOPTIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF01E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEOPTIONS___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x1BBF01F0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEOPTIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6AECB0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEOPTIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6AECF0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEOPTIONS___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x1C6AED00)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceOptions___c_TypeDefinitionIndex = 35802;
+	inline static constexpr unsigned int ServiceOptions___c_TypeDefinitionIndex = 36730;
 
 	class ServiceOptions___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x5F240);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x67970);
 		}
 
 		static ::System::Void _cctor()

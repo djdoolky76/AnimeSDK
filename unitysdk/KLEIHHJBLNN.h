@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define KLEIHHJBLNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB51F5A0)
+#define KLEIHHJBLNN_CTOR_OFFSET UNITYSDK_OFFSET(0x17B7C3A0)
 
-inline static constexpr unsigned int KLEIHHJBLNN_TypeDefinitionIndex = 48800;
+inline static constexpr unsigned int KLEIHHJBLNN_TypeDefinitionIndex = 49846;
 
 	class KLEIHHJBLNN : public ::UnityEngine::Playables::PlayableBehaviour
 	{

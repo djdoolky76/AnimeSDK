@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NJACFPMJMHH_PathNodeState_TypeDefinitionIndex = 54221;
+inline static constexpr unsigned int NJACFPMJMHH_PathNodeState_TypeDefinitionIndex = 55385;
 
 	enum class NJACFPMJMHH_PathNodeState : ::System::Int32
 	{

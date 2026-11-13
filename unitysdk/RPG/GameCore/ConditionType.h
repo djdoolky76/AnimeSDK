@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConditionType_TypeDefinitionIndex = 13077;
+	inline static constexpr unsigned int ConditionType_TypeDefinitionIndex = 13145;
 
 	enum class ConditionType : ::System::Int32
 	{
@@ -38,5 +38,7 @@ namespace RPG::GameCore
 		LimaoCondition = 29,
 		AvatarPathUnlock = 30,
 		ActivityInSchedule = 31,
+		ActivityMainPageUnlock = 471,
+		AvatarEidolon = 32,
 	};
 }

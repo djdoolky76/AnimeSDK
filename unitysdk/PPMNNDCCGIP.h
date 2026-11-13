@@ -11,32 +11,32 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PPMNNDCCGIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xC38DA20)
-#define PPMNNDCCGIP_CTOR_OFFSET UNITYSDK_OFFSET(0xC38CF70)
-#define PPMNNDCCGIP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC38D090)
-#define PPMNNDCCGIP_DOONENTER_OFFSET UNITYSDK_OFFSET(0xC38D270)
-#define PPMNNDCCGIP_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xC38D480)
-#define PPMNNDCCGIP_FLELNHONPHB_OFFSET UNITYSDK_OFFSET(0xC38D5D0)
-#define PPMNNDCCGIP_KDAMHPHLBKK_OFFSET UNITYSDK_OFFSET(0xC38D2E0)
-#define PPMNNDCCGIP_MGOMLAEAIAC_OFFSET UNITYSDK_OFFSET(0xC38D170)
-#define PPMNNDCCGIP_ONTRIGGEREDLOGICFINISH_OFFSET UNITYSDK_OFFSET(0xC38D4E0)
-#define PPMNNDCCGIP__TICKCD_OFFSET UNITYSDK_OFFSET(0xC38D520)
+#define PPMNNDCCGIP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8BA840)
+#define PPMNNDCCGIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B9DB0)
+#define PPMNNDCCGIP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B8B9ED0)
+#define PPMNNDCCGIP_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1B8BA0A0)
+#define PPMNNDCCGIP_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1B8BA2B0)
+#define PPMNNDCCGIP_FLELNHONPHB_OFFSET UNITYSDK_OFFSET(0x1B8BA400)
+#define PPMNNDCCGIP_KDAMHPHLBKK_OFFSET UNITYSDK_OFFSET(0x1B8BA110)
+#define PPMNNDCCGIP_MGOMLAEAIAC_OFFSET UNITYSDK_OFFSET(0x1B8B9FA0)
+#define PPMNNDCCGIP_ONTRIGGEREDLOGICFINISH_OFFSET UNITYSDK_OFFSET(0x1B8BA310)
+#define PPMNNDCCGIP__TICKCD_OFFSET UNITYSDK_OFFSET(0x1B8BA350)
 
-inline static constexpr unsigned int PPMNNDCCGIP_TypeDefinitionIndex = 57525;
+inline static constexpr unsigned int PPMNNDCCGIP_TypeDefinitionIndex = 58753;
 
 	class PPMNNDCCGIP : public ::RPG::GameCore::PropInteractionTrigger
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* IJLODCCJMFH; // 0xD0
-		::RPG::GameCore::PropInteractionTrigger_ButtonParam* PJDOOHMAJEJ; // 0xD8
+		::RPG::GameCore::PropInteractionTrigger_ButtonParam* PJDOOHMAJEJ; // 0xD0
+		::RPG::GameCore::PropInteractionTrigger_ButtonParam* PNCCMJKGPAK; // 0xD8
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KIIOOGNDFPM; // 0xE0
-		::RPG::GameCore::PropInteractionTrigger_ButtonParam* PNCCMJKGPAK; // 0xE8
-		::System::Single MIFCMKJDOOM; // 0xF0
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* IJLODCCJMFH; // 0xE8
+		::System::UInt32 JJBOPOPCOCH; // 0xF0
 		::System::Single KLADNOMNBJJ; // 0xF4
-		::System::UInt32 JJBOPOPCOCH; // 0xF8
+		::System::Single MIFCMKJDOOM; // 0xF8
 		static ::System::String** StaticGet_JKMABBEGEAH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "PPMNNDCCGIP")->GetStaticField(0xE1D0);
+			return (::System::String**)UnitySDK::FromName("", "PPMNNDCCGIP")->GetStaticField(0xC350);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::PropComponent* a1, ::RPG::GameCore::TaskContext* a2, ::IINMGKKBIME* a3, ::IINMGKKBIME* a4, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a5, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a6, ::System::Single a7)

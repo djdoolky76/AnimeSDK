@@ -7,27 +7,27 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JANKDPCJDKH_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0x1CF8D1B0)
-#define JANKDPCJDKH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFA8E80)
-#define JANKDPCJDKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA8E70)
-#define JANKDPCJDKH_EMOLMLBAMDH_OFFSET UNITYSDK_OFFSET(0x1CFA8E20)
-#define JANKDPCJDKH_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x1CF07940)
-#define JANKDPCJDKH_JNNMHAJLFJB_OFFSET UNITYSDK_OFFSET(0x1CF278B0)
-#define JANKDPCJDKH_KNDDJKPMOCO_OFFSET UNITYSDK_OFFSET(0x1CF235E0)
+#define JANKDPCJDKH_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0xCA373C0)
+#define JANKDPCJDKH_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA53E20)
+#define JANKDPCJDKH_CTOR_OFFSET UNITYSDK_OFFSET(0xCA53E10)
+#define JANKDPCJDKH_EMOLMLBAMDH_OFFSET UNITYSDK_OFFSET(0xCA53DC0)
+#define JANKDPCJDKH_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0xC9ADF00)
+#define JANKDPCJDKH_JNNMHAJLFJB_OFFSET UNITYSDK_OFFSET(0xC9CEFB0)
+#define JANKDPCJDKH_KNDDJKPMOCO_OFFSET UNITYSDK_OFFSET(0xC9CAC00)
 
-inline static constexpr unsigned int JANKDPCJDKH_TypeDefinitionIndex = 13250;
+inline static constexpr unsigned int JANKDPCJDKH_TypeDefinitionIndex = 13322;
 
 	class JANKDPCJDKH : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_GAGGHJBPEEA()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JANKDPCJDKH")->GetStaticField(0x8330);
-		}
-
 		static ::System::Boolean* StaticGet_PHMOENAMGHA()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JANKDPCJDKH")->GetStaticField(0x8331);
+			return (::System::Boolean*)UnitySDK::FromName("", "JANKDPCJDKH")->GetStaticField(0x8230);
+		}
+
+		static ::System::Boolean* StaticGet_GAGGHJBPEEA()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "JANKDPCJDKH")->GetStaticField(0x8231);
 		}
 
 		::System::Void _ctor()

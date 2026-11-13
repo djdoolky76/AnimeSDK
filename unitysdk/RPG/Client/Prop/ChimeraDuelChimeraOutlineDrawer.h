@@ -8,14 +8,14 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC53380)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC532C0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_DBFIEIPFDPH_OFFSET UNITYSDK_OFFSET(0xDC4FBF0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_LJINMLEMHIP_OFFSET UNITYSDK_OFFSET(0xDC4F4B0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFEF6D0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEF610)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_DBFIEIPFDPH_OFFSET UNITYSDK_OFFSET(0x1BFEBD10)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_LJINMLEMHIP_OFFSET UNITYSDK_OFFSET(0x1BFEB5D0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex = 78328;
+	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex = 81063;
 
 	class ChimeraDuelChimeraOutlineDrawer : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,12 +24,12 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::ChimeraDuelChimeraOutlineDrawer_OutlineConfig* _HighlightOutlineConfig; // 0x20
 		static ::System::Int32* StaticGet_AHDCEJGBNNO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelChimeraOutlineDrawer")->GetStaticField(0xB2E0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelChimeraOutlineDrawer")->GetStaticField(0x127B0);
 		}
 
 		static ::System::Int32* StaticGet_HBEFIMAAJHD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelChimeraOutlineDrawer")->GetStaticField(0xB2E4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelChimeraOutlineDrawer")->GetStaticField(0x127B4);
 		}
 
 		::System::Void _ctor()

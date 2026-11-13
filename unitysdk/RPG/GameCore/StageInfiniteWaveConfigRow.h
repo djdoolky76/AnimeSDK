@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageInfiniteWaveConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE0B90)
-#define RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAE08B0)
+#define RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B40F0)
+#define RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3B3E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInfiniteWaveConfigRow_TypeDefinitionIndex = 15150;
+	inline static constexpr unsigned int StageInfiniteWaveConfigRow_TypeDefinitionIndex = 15306;
 
 	class StageInfiniteWaveConfigRow : public ::System::Object
 	{
@@ -19,10 +19,11 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
 		::Il2CppArray<::System::UInt32>* MonsterGroupIDList; // 0x18
 		::System::String* Ability; // 0x20
-		::System::Int32 MaxTeammateCount; // 0x28
+		::System::UInt32 InfiniteWaveID; // 0x28
 		::System::Int32 MaxMonsterCount; // 0x2C
-		::System::UInt32 InfiniteWaveID; // 0x30
-		::System::Boolean ClearPreviousAbility; // 0x34
+		::System::Boolean ClearPreviousAbility; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::Int32 MaxTeammateCount; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW_CTOR_OFFSET))(this);

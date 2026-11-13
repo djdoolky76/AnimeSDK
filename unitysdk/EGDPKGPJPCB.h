@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EGDPKGPJPCB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD4D420)
-#define EGDPKGPJPCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD4DA20)
-#define EGDPKGPJPCB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD4D590)
-#define EGDPKGPJPCB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD4CE50)
-#define EGDPKGPJPCB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD4D0E0)
-#define EGDPKGPJPCB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD4D630)
-#define EGDPKGPJPCB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD4D680)
-#define EGDPKGPJPCB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD4D460)
-#define EGDPKGPJPCB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD4D080)
-#define EGDPKGPJPCB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD4D250)
-#define EGDPKGPJPCB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD4D4F0)
-#define EGDPKGPJPCB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD4CDD0)
+#define EGDPKGPJPCB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F104C80)
+#define EGDPKGPJPCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F105280)
+#define EGDPKGPJPCB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F104DF0)
+#define EGDPKGPJPCB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F1046B0)
+#define EGDPKGPJPCB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F104940)
+#define EGDPKGPJPCB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F104E90)
+#define EGDPKGPJPCB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F104EE0)
+#define EGDPKGPJPCB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F104CC0)
+#define EGDPKGPJPCB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F1048E0)
+#define EGDPKGPJPCB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F104AB0)
+#define EGDPKGPJPCB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F104D50)
+#define EGDPKGPJPCB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F104630)
 
-inline static constexpr unsigned int EGDPKGPJPCB_TypeDefinitionIndex = 14857;
+inline static constexpr unsigned int EGDPKGPJPCB_TypeDefinitionIndex = 15013;
 
 	class EGDPKGPJPCB : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMagicLayerRoomRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMagicLayerRoomRow*>**)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0x4D2B0);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0x4D2B8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0x46AF0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMagicLayerRoomRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMagicLayerRoomRow*>**)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0x46AF8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0x4D2C0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0x46B00);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0x11A40);
+			return (::System::Boolean*)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0xDCA0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0x11A41);
+			return (::System::Byte*)UnitySDK::FromName("", "EGDPKGPJPCB")->GetStaticField(0xDCA1);
 		}
 
 		static ::System::Void _cctor()

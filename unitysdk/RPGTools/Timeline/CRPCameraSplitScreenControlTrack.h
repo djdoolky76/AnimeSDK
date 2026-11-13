@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8B7560)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENCONTROLTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B76B0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1E3E54A0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENCONTROLTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E55F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSplitScreenControlTrack_TypeDefinitionIndex = 47909;
+	inline static constexpr unsigned int CRPCameraSplitScreenControlTrack_TypeDefinitionIndex = 48940;
 
 	class CRPCameraSplitScreenControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

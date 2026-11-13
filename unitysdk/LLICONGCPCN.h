@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBossLeftHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLICONGCPCN_CTOR_OFFSET UNITYSDK_OFFSET(0xB768F50)
-#define LLICONGCPCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB769030)
+#define LLICONGCPCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB87E0)
+#define LLICONGCPCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFB88C0)
 
-inline static constexpr unsigned int LLICONGCPCN_TypeDefinitionIndex = 55415;
+inline static constexpr unsigned int LLICONGCPCN_TypeDefinitionIndex = 56600;
 
 	class LLICONGCPCN
 	{

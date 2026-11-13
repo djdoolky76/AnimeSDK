@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SkillDataPropertyModifyItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86C360)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86C3A0)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86C300)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FE940)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6FE980)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6FE8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySkillPropertyByName_TypeDefinitionIndex = 23556;
+	inline static constexpr unsigned int ModifySkillPropertyByName_TypeDefinitionIndex = 24002;
 
 	class ModifySkillPropertyByName : public ::RPG::GameCore::TaskConfig
 	{

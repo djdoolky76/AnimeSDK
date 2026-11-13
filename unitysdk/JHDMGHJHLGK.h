@@ -5,13 +5,13 @@
 #include "unitysdk/UnityEngine/Color.h"
 class AEIDHPBIDKK;
 
-#define JHDMGHJHLGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A4950)
-#define JHDMGHJHLGK_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xB1A44C0)
-#define JHDMGHJHLGK_EJDAKAECODE_OFFSET UNITYSDK_OFFSET(0xB1A47B0)
-#define JHDMGHJHLGK_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB1A4520)
-#define JHDMGHJHLGK_HHNCOGOHCHC_OFFSET UNITYSDK_OFFSET(0xB1A4700)
+#define JHDMGHJHLGK_CTOR_OFFSET UNITYSDK_OFFSET(0x19363A90)
+#define JHDMGHJHLGK_EJDAKAECODE_OFFSET UNITYSDK_OFFSET(0x193638F0)
+#define JHDMGHJHLGK_HHNCOGOHCHC_OFFSET UNITYSDK_OFFSET(0x19363840)
+#define JHDMGHJHLGK__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x19363620)
+#define JHDMGHJHLGK__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19363680)
 
-inline static constexpr unsigned int JHDMGHJHLGK_TypeDefinitionIndex = 71405;
+inline static constexpr unsigned int JHDMGHJHLGK_TypeDefinitionIndex = 73387;
 
 	class JHDMGHJHLGK : public ::FMPCODLIOLG
 	{
@@ -23,14 +23,14 @@ inline static constexpr unsigned int JHDMGHJHLGK_TypeDefinitionIndex = 71405;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JHDMGHJHLGK_CTOR_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + JHDMGHJHLGK_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + JHDMGHJHLGK__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JHDMGHJHLGK_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JHDMGHJHLGK__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void HHNCOGOHCHC(::UnityEngine::Color a1)

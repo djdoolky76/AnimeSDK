@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsRebuiltSummonUnit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFBHPLJPAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x16631F60)
-#define JFBHPLJPAPH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16631F90)
+#define JFBHPLJPAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x19328620)
+#define JFBHPLJPAPH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19328650)
 
-inline static constexpr unsigned int JFBHPLJPAPH_TypeDefinitionIndex = 54680;
+inline static constexpr unsigned int JFBHPLJPAPH_TypeDefinitionIndex = 55846;
 
 	class JFBHPLJPAPH
 	{

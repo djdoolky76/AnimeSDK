@@ -5,11 +5,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_GAMECORE_COLLIDERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xE612EA0)
+#define RPG_GAMECORE_COLLIDERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xFD87DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ColliderGroup_TypeDefinitionIndex = 57227;
+	inline static constexpr unsigned int ColliderGroup_TypeDefinitionIndex = 58454;
 
 	class ColliderGroup : public ::System::Object
 	{

@@ -6,16 +6,16 @@ class EANKAFJCEEH;
 namespace RPG::GameCore { class BattleInstance; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define KANKEPCJION_JNLBIIDFHMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DE230)
+#define KANKEPCJION_JNLBIIDFHMK_CTOR_OFFSET UNITYSDK_OFFSET(0x19DBBDD0)
 
-inline static constexpr unsigned int KANKEPCJION_JNLBIIDFHMK_TypeDefinitionIndex = 71895;
+inline static constexpr unsigned int KANKEPCJION_JNLBIIDFHMK_TypeDefinitionIndex = 73916;
 
 	class KANKEPCJION_JNLBIIDFHMK : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* ALLAIOIIIBN; // 0x10
-		::RPG::GameCore::BattleInstance* DOLKMGHOGBM; // 0x18
-		::EANKAFJCEEH* HLIIPKKCPOM; // 0x20
+		::RPG::GameCore::BattleInstance* DOLKMGHOGBM; // 0x10
+		::EANKAFJCEEH* HLIIPKKCPOM; // 0x18
+		::RPG::GameCore::GameEntity* ALLAIOIIIBN; // 0x20
 		::RPG::Client::UISkillIndex GMDBHJKEAEI; // 0x28
 		::System::Void _ctor()
 		{

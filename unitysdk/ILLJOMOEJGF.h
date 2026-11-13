@@ -5,16 +5,16 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ILLJOMOEJGF_CTOR_OFFSET UNITYSDK_OFFSET(0x164B7A10)
+#define ILLJOMOEJGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5ABE90)
 
-inline static constexpr unsigned int ILLJOMOEJGF_TypeDefinitionIndex = 52505;
+inline static constexpr unsigned int ILLJOMOEJGF_TypeDefinitionIndex = 53611;
 
 	class ILLJOMOEJGF : public ::System::Object
 	{
 	public:
-		::System::String* PHFMCACHFIJ; // 0x10
-		::System::String* DNOIFDEGGNA; // 0x18
-		::System::String* LHAOGGODHCB; // 0x20
+		::System::String* LHAOGGODHCB; // 0x10
+		::System::String* PHFMCACHFIJ; // 0x18
+		::System::String* DNOIFDEGGNA; // 0x20
 		::RPG::Client::TextID GDLFBAPFPBF; // 0x28
 		::RPG::GameCore::ButtonShowPriority DOPGIAJMFFO; // 0x38
 		::System::Void _ctor()

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PLCBOOPCBDP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D2CFF60)
-#define PLCBOOPCBDP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2D04E0)
-#define PLCBOOPCBDP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D2D00D0)
-#define PLCBOOPCBDP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2CFA10)
-#define PLCBOOPCBDP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D2CFCA0)
-#define PLCBOOPCBDP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D2D0170)
-#define PLCBOOPCBDP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D2D01C0)
-#define PLCBOOPCBDP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D2CFFA0)
-#define PLCBOOPCBDP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2CFC40)
-#define PLCBOOPCBDP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D2CFDD0)
-#define PLCBOOPCBDP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2D0030)
-#define PLCBOOPCBDP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2CF990)
+#define PLCBOOPCBDP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E73C280)
+#define PLCBOOPCBDP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E73C800)
+#define PLCBOOPCBDP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E73C3F0)
+#define PLCBOOPCBDP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E73BD30)
+#define PLCBOOPCBDP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E73BFC0)
+#define PLCBOOPCBDP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E73C490)
+#define PLCBOOPCBDP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E73C4E0)
+#define PLCBOOPCBDP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E73C2C0)
+#define PLCBOOPCBDP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E73BF60)
+#define PLCBOOPCBDP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E73C0F0)
+#define PLCBOOPCBDP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E73C350)
+#define PLCBOOPCBDP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E73BCB0)
 
-inline static constexpr unsigned int PLCBOOPCBDP_TypeDefinitionIndex = 11149;
+inline static constexpr unsigned int PLCBOOPCBDP_TypeDefinitionIndex = 11165;
 
 	class PLCBOOPCBDP : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelTriggerEventRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelTriggerEventRow*>**)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0x513D0);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0x513D8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelTriggerEventRow*>**)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0x40AA0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0x513E0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0x40AA8);
 		}
 
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0x124A0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0x40AB0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0x124A1);
+			return (::System::Boolean*)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0xD030);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "PLCBOOPCBDP")->GetStaticField(0xD031);
 		}
 
 		static ::System::Void _cctor()

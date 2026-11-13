@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvNpcMoveTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJANDPELBKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FA570)
-#define JJANDPELBKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1FA5A0)
+#define JJANDPELBKI_CTOR_OFFSET UNITYSDK_OFFSET(0x17428A80)
+#define JJANDPELBKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17428AB0)
 
-inline static constexpr unsigned int JJANDPELBKI_TypeDefinitionIndex = 52455;
+inline static constexpr unsigned int JJANDPELBKI_TypeDefinitionIndex = 53561;
 
 	class JJANDPELBKI
 	{

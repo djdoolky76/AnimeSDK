@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class HeliobusSkillData; }
 
-#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS57_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD311860)
-#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS57_0__GETSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD315BE0)
+#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS57_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F4FC0)
+#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS57_0__GETSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1C5F9350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusModule___c__DisplayClass57_0_TypeDefinitionIndex = 65665;
+	inline static constexpr unsigned int HeliobusModule___c__DisplayClass57_0_TypeDefinitionIndex = 67587;
 
 	class HeliobusModule___c__DisplayClass57_0 : public ::System::Object
 	{

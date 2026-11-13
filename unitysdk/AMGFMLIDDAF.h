@@ -6,9 +6,9 @@ class BPHJOOGJPKD;
 class GGDIMKDOIGA;
 class IJFIHJJPHNA;
 
-#define AMGFMLIDDAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C565C50)
+#define AMGFMLIDDAF_CTOR_OFFSET UNITYSDK_OFFSET(0x17001CD0)
 
-inline static constexpr unsigned int AMGFMLIDDAF_TypeDefinitionIndex = 36536;
+inline static constexpr unsigned int AMGFMLIDDAF_TypeDefinitionIndex = 37464;
 
 	class AMGFMLIDDAF : public ::OFJHHGBDJHM
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AboveSwitchDialog; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMEFLOW___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA391C0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMEFLOW___C__DISPLAYCLASS16_0___SHOWBLACKDIALOGWAITCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0xCA396F0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMEFLOW___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C51B0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMEFLOW___C__DISPLAYCLASS16_0___SHOWBLACKDIALOGWAITCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x1D7C56E0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameFlow___c__DisplayClass16_0_TypeDefinitionIndex = 76235;
+	inline static constexpr unsigned int ChenLingBattleGameFlow___c__DisplayClass16_0_TypeDefinitionIndex = 78566;
 
 	class ChenLingBattleGameFlow___c__DisplayClass16_0 : public ::System::Object
 	{

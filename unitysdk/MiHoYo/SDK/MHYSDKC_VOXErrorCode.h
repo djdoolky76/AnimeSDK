@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOXErrorCode_TypeDefinitionIndex = 46245;
+	inline static constexpr unsigned int MHYSDKC_VOXErrorCode_TypeDefinitionIndex = 47274;
 
 	class MHYSDKC_VOXErrorCode : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_VariantProviderBase_1_TypeDefinitionIndex = 81527;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_VariantProviderBase_1_TypeDefinitionIndex = 84308;
 
 	template <typename T>
 	class ChallengeTierceNodeVariantListControl_VariantProviderBase_1 : public ::System::Object

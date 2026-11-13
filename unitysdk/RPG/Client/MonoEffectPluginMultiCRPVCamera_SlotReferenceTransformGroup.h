@@ -4,11 +4,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINMULTICRPVCAMERA_SLOTREFERENCETRANSFORMGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xD7F9040)
+#define RPG_CLIENT_MONOEFFECTPLUGINMULTICRPVCAMERA_SLOTREFERENCETRANSFORMGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x193A94B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginMultiCRPVCamera_SlotReferenceTransformGroup_TypeDefinitionIndex = 70080;
+	inline static constexpr unsigned int MonoEffectPluginMultiCRPVCamera_SlotReferenceTransformGroup_TypeDefinitionIndex = 72045;
 
 	class MonoEffectPluginMultiCRPVCamera_SlotReferenceTransformGroup : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CPUGPUInfo; }
 namespace RPG::GameCore { class TempFixDevice; }
 
-#define RPG_GAMECORE_TEMPFIXDEVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB52390)
-#define RPG_GAMECORE_TEMPFIXDEVICE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB522D0)
+#define RPG_GAMECORE_TEMPFIXDEVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C6ED0)
+#define RPG_GAMECORE_TEMPFIXDEVICE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C6E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TempFixDevice_TypeDefinitionIndex = 18274;
+	inline static constexpr unsigned int TempFixDevice_TypeDefinitionIndex = 18436;
 
 	class TempFixDevice : public ::RPG::GameCore::JsonConfig
 	{

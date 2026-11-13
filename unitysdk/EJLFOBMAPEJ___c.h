@@ -4,18 +4,18 @@
 class EJLFOBMAPEJ;
 namespace System { class Object; }
 
-#define EJLFOBMAPEJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E290000)
-#define EJLFOBMAPEJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E290040)
-#define EJLFOBMAPEJ___C___CCTOR_B__83_0_OFFSET UNITYSDK_OFFSET(0x1E290050)
+#define EJLFOBMAPEJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE53D90)
+#define EJLFOBMAPEJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE53DD0)
+#define EJLFOBMAPEJ___C___CCTOR_B__83_0_OFFSET UNITYSDK_OFFSET(0x1FE53DE0)
 
-inline static constexpr unsigned int EJLFOBMAPEJ___c_TypeDefinitionIndex = 31379;
+inline static constexpr unsigned int EJLFOBMAPEJ___c_TypeDefinitionIndex = 32292;
 
 	class EJLFOBMAPEJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D4A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x418D0);
 		}
 
 		static ::System::Void _cctor()

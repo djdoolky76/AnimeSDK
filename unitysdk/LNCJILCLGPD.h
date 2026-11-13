@@ -8,28 +8,28 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtModifierConfig; }
 namespace System { class String; }
 
-#define LNCJILCLGPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D01B0)
-#define LNCJILCLGPD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB7D0160)
-#define LNCJILCLGPD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB7D0110)
-#define LNCJILCLGPD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7CFFF0)
+#define LNCJILCLGPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFDC530)
+#define LNCJILCLGPD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1AFDC4E0)
+#define LNCJILCLGPD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1AFDC490)
+#define LNCJILCLGPD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1AFDC370)
 
-inline static constexpr unsigned int LNCJILCLGPD_TypeDefinitionIndex = 54076;
+inline static constexpr unsigned int LNCJILCLGPD_TypeDefinitionIndex = 55240;
 
 	class LNCJILCLGPD : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::String* KBKOGLCAEKG; // 0x18
-		::System::String* IFNAGLOMHBK; // 0x20
-		::RPG::GameCore::GameEntity* DOAPLIILBKP; // 0x28
-		::RPG::GameCore::GameEntity* GDCCJFKJGPD; // 0x30
-		::RPG::GameCore::RtModifierConfig* ALMAIAIDFHM; // 0x38
+		::RPG::GameCore::GameEntity* GDCCJFKJGPD; // 0x20
+		::System::String* IFNAGLOMHBK; // 0x28
+		::RPG::GameCore::RtModifierConfig* ALMAIAIDFHM; // 0x30
+		::RPG::GameCore::GameEntity* DOAPLIILBKP; // 0x38
 		::RPG::GameCore::FixPoint LKFNPPCHCII; // 0x40
-		::RPG::GameCore::FixPoint KAHOALBCMNE; // 0x48
-		::System::Boolean NGDAIHFFEBC; // 0x50
-		::System::Boolean EIIMAEHCGBC; // 0x51
-		::System::Boolean EBFMNCJNMPF; // 0x52
+		::System::Boolean EIIMAEHCGBC; // 0x48
+		::System::Boolean EBFMNCJNMPF; // 0x49
+		::System::Boolean NGDAIHFFEBC; // 0x4A
 		::System::Byte _padding0[0x5];
-		::RPG::GameCore::FixPoint KIPAGNCANAJ; // 0x58
+		::RPG::GameCore::FixPoint KIPAGNCANAJ; // 0x50
+		::RPG::GameCore::FixPoint KAHOALBCMNE; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LNCJILCLGPD_CTOR_OFFSET))(this);

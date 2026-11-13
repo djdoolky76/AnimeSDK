@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1E3600)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1E3640)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES___C__SPLITBYMAXVERTEXCOUNT_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F1E3650)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD6FBF30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD6FBF70)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES___C__SPLITBYMAXVERTEXCOUNT_B__5_0_OFFSET UNITYSDK_OFFSET(0xD6FBF80)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int CombineMeshes___c_TypeDefinitionIndex = 44483;
+	inline static constexpr unsigned int CombineMeshes___c_TypeDefinitionIndex = 45558;
 
 	class CombineMeshes___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x4F1E0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x66830);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x4F1E8);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x66838);
 		}
 
 		static ::System::Void _cctor()

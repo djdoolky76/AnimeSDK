@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ComposeItemData; }
 
-#define RPG_CLIENT_COMPOSEITEMDATA_COMPOSEITEMDATACOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0xCBAF380)
+#define RPG_CLIENT_COMPOSEITEMDATA_COMPOSEITEMDATACOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C991D30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComposeItemData_ComposeItemDataCount_TypeDefinitionIndex = 65759;
+	inline static constexpr unsigned int ComposeItemData_ComposeItemDataCount_TypeDefinitionIndex = 67691;
 
 	class ComposeItemData_ComposeItemDataCount : public ::System::Object
 	{

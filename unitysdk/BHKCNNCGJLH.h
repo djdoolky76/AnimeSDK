@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMuseumProjectorState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHKCNNCGJLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB4897D0)
-#define BHKCNNCGJLH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB489800)
+#define BHKCNNCGJLH_CTOR_OFFSET UNITYSDK_OFFSET(0x151FBD20)
+#define BHKCNNCGJLH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151FBD50)
 
-inline static constexpr unsigned int BHKCNNCGJLH_TypeDefinitionIndex = 53246;
+inline static constexpr unsigned int BHKCNNCGJLH_TypeDefinitionIndex = 54408;
 
 	class BHKCNNCGJLH
 	{

@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByValueReach; }
 
-#define GHBFJIHCDLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73990)
-#define GHBFJIHCDLD_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CA739B0)
+#define GHBFJIHCDLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA79A60)
+#define GHBFJIHCDLD_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1DA79A80)
 
-inline static constexpr unsigned int GHBFJIHCDLD_TypeDefinitionIndex = 43148;
+inline static constexpr unsigned int GHBFJIHCDLD_TypeDefinitionIndex = 44129;
 
 	class GHBFJIHCDLD : public ::LHJPMDPJPEC
 	{

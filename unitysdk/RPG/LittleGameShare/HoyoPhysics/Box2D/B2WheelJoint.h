@@ -6,7 +6,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2WheelJoint_TypeDefinitionIndex = 36810;
+	inline static constexpr unsigned int B2WheelJoint_TypeDefinitionIndex = 37738;
 
 	struct alignas(4) B2WheelJoint
 	{

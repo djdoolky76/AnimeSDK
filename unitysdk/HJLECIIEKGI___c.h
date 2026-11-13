@@ -4,18 +4,18 @@
 class HJLECIIEKGI;
 namespace System { class Object; }
 
-#define HJLECIIEKGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E57DDE0)
-#define HJLECIIEKGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E57DE20)
-#define HJLECIIEKGI___C___CCTOR_B__41_0_OFFSET UNITYSDK_OFFSET(0x1E57DE30)
+#define HJLECIIEKGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20166CA0)
+#define HJLECIIEKGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20166CE0)
+#define HJLECIIEKGI___C___CCTOR_B__41_0_OFFSET UNITYSDK_OFFSET(0x20166CF0)
 
-inline static constexpr unsigned int HJLECIIEKGI___c_TypeDefinitionIndex = 34785;
+inline static constexpr unsigned int HJLECIIEKGI___c_TypeDefinitionIndex = 35713;
 
 	class HJLECIIEKGI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35C10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31FC0);
 		}
 
 		static ::System::Void _cctor()

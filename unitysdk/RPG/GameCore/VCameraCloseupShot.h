@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class VCameraCloseupShot; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERACLOSEUPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4D320)
-#define RPG_GAMECORE_VCAMERACLOSEUPSHOT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4CAA0)
+#define RPG_GAMECORE_VCAMERACLOSEUPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED38CD0)
+#define RPG_GAMECORE_VCAMERACLOSEUPSHOT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED38550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraCloseupShot_TypeDefinitionIndex = 16414;
+	inline static constexpr unsigned int VCameraCloseupShot_TypeDefinitionIndex = 16578;
 
 	class VCameraCloseupShot : public ::RPG::GameCore::JsonConfig
 	{

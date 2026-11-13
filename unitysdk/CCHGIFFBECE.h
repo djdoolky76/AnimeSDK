@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CCHGIFFBECE_CTOR_OFFSET UNITYSDK_OFFSET(0xC739ED0)
+#define CCHGIFFBECE_CTOR_OFFSET UNITYSDK_OFFSET(0x18FFC460)
 
-inline static constexpr unsigned int CCHGIFFBECE_TypeDefinitionIndex = 74697;
+inline static constexpr unsigned int CCHGIFFBECE_TypeDefinitionIndex = 76845;
 
 	class CCHGIFFBECE : public ::System::Object
 	{

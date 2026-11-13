@@ -5,21 +5,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemConfig; }
 namespace RPG::GameCore { class MazePuzzleOrigamiColonyRow; }
 
-#define RPG_GAMECORE_MAZEPUZZLEORIGAMICOLONYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D83FBF0)
-#define RPG_GAMECORE_MAZEPUZZLEORIGAMICOLONYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D83F9D0)
+#define RPG_GAMECORE_MAZEPUZZLEORIGAMICOLONYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6D2410)
+#define RPG_GAMECORE_MAZEPUZZLEORIGAMICOLONYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6D21F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleOrigamiColonyRow_TypeDefinitionIndex = 14074;
+	inline static constexpr unsigned int MazePuzzleOrigamiColonyRow_TypeDefinitionIndex = 14231;
 
 	class MazePuzzleOrigamiColonyRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MaterialCost; // 0x10
-		::System::UInt32 MirrorFloorID; // 0x18
-		::System::UInt32 FinishQuestID; // 0x1C
-		::System::UInt32 FloorID; // 0x20
-		::System::UInt32 OrigamiColonyID; // 0x24
+		::System::UInt32 FloorID; // 0x18
+		::System::UInt32 MirrorFloorID; // 0x1C
+		::System::UInt32 OrigamiColonyID; // 0x20
+		::System::UInt32 FinishQuestID; // 0x24
 		::System::UInt32 TalkSentenceID; // 0x28
 		::System::Void _ctor()
 		{

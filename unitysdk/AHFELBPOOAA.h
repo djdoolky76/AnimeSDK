@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtSkillPauseTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHFELBPOOAA_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7B210)
-#define AHFELBPOOAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB7B240)
+#define AHFELBPOOAA_CTOR_OFFSET UNITYSDK_OFFSET(0x19B20790)
+#define AHFELBPOOAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19B207C0)
 
-inline static constexpr unsigned int AHFELBPOOAA_TypeDefinitionIndex = 53934;
+inline static constexpr unsigned int AHFELBPOOAA_TypeDefinitionIndex = 55098;
 
 	class AHFELBPOOAA
 	{

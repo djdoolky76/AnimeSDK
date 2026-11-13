@@ -4,11 +4,11 @@ namespace RPG::GameCore { class FeverTimeInfoChangeParam; }
 namespace RPG::GameCore { class NotifyFeverTimeInfoChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HMCBAFHIOLP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D6CE10)
-#define HMCBAFHIOLP_ELPCLGDHAAG_OFFSET UNITYSDK_OFFSET(0x15D6D0A0)
-#define HMCBAFHIOLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D6CE40)
+#define HMCBAFHIOLP_CTOR_OFFSET UNITYSDK_OFFSET(0x198BCCB0)
+#define HMCBAFHIOLP_ELPCLGDHAAG_OFFSET UNITYSDK_OFFSET(0x198BCF40)
+#define HMCBAFHIOLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x198BCCE0)
 
-inline static constexpr unsigned int HMCBAFHIOLP_TypeDefinitionIndex = 55235;
+inline static constexpr unsigned int HMCBAFHIOLP_TypeDefinitionIndex = 56416;
 
 	class HMCBAFHIOLP
 	{

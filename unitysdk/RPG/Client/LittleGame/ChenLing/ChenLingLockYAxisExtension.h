@@ -5,12 +5,12 @@
 #include "unitysdk/Cinemachine/CameraState.h"
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGLOCKYAXISEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0xD406B30)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGLOCKYAXISEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xD4069E0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGLOCKYAXISEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEB900)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGLOCKYAXISEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1CBEB7B0)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingLockYAxisExtension_TypeDefinitionIndex = 77974;
+	inline static constexpr unsigned int ChenLingLockYAxisExtension_TypeDefinitionIndex = 80709;
 
 	class ChenLingLockYAxisExtension : public ::Cinemachine::CinemachineExtension
 	{

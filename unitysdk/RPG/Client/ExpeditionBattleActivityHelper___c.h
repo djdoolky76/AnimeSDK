@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLEACTIVITYHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE3D890)
-#define RPG_CLIENT_EXPEDITIONBATTLEACTIVITYHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE3D8D0)
-#define RPG_CLIENT_EXPEDITIONBATTLEACTIVITYHELPER___C__GETRANDOMMONSTERICONPATHS_B__4_0_OFFSET UNITYSDK_OFFSET(0xCE3D8E0)
+#define RPG_CLIENT_EXPEDITIONBATTLEACTIVITYHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB690E0)
+#define RPG_CLIENT_EXPEDITIONBATTLEACTIVITYHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB69120)
+#define RPG_CLIENT_EXPEDITIONBATTLEACTIVITYHELPER___C__GETRANDOMMONSTERICONPATHS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1DB69130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleActivityHelper___c_TypeDefinitionIndex = 61617;
+	inline static constexpr unsigned int ExpeditionBattleActivityHelper___c_TypeDefinitionIndex = 63015;
 
 	class ExpeditionBattleActivityHelper___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46A30);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58670);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46A38);
+			return (::System::Func_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58678);
 		}
 
 		static ::System::Void _cctor()

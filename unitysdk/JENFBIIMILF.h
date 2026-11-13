@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/AttackType.h"
 #include "unitysdk/System/Object.h"
 
-#define JENFBIIMILF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1662DE20)
-#define JENFBIIMILF_CTOR_OFFSET UNITYSDK_OFFSET(0x1662DE70)
+#define JENFBIIMILF_CLEAR_OFFSET UNITYSDK_OFFSET(0x130861E0)
+#define JENFBIIMILF_CTOR_OFFSET UNITYSDK_OFFSET(0x13086230)
 
-inline static constexpr unsigned int JENFBIIMILF_TypeDefinitionIndex = 53734;
+inline static constexpr unsigned int JENFBIIMILF_TypeDefinitionIndex = 54898;
 
 	class JENFBIIMILF : public ::System::Object
 	{

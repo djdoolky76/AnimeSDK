@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/GameCore/ChenLingDamageType.h"
 #include "unitysdk/System/Object.h"
 
-#define OLOMPFPLLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96F910)
+#define OLOMPFPLLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x176716B0)
 
-inline static constexpr unsigned int OLOMPFPLLBF_TypeDefinitionIndex = 43775;
+inline static constexpr unsigned int OLOMPFPLLBF_TypeDefinitionIndex = 44850;
 
 	class OLOMPFPLLBF : public ::System::Object
 	{
 	public:
-		::System::Boolean NFJCFJABEBD; // 0x10
+		::RPG::GameCore::ChenLingDamageType HODMHEGIDOF; // 0x10
+		::System::Boolean NFJCFJABEBD; // 0x14
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::ChenLingDamageType HODMHEGIDOF; // 0x14
 		::System::Int32 CCKOKPOPKKK; // 0x18
 		::System::Void _ctor()
 		{

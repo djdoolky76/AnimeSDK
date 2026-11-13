@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHoverBrain; }
 
-#define HBHIBMCNPJL_BEMHFPJIJME_OFFSET UNITYSDK_OFFSET(0x15BF7980)
-#define HBHIBMCNPJL_CTOR_OFFSET UNITYSDK_OFFSET(0x15BF7A30)
+#define HBHIBMCNPJL_BEMHFPJIJME_OFFSET UNITYSDK_OFFSET(0x1C16FD60)
+#define HBHIBMCNPJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C16FE10)
 
-inline static constexpr unsigned int HBHIBMCNPJL_TypeDefinitionIndex = 80989;
+inline static constexpr unsigned int HBHIBMCNPJL_TypeDefinitionIndex = 83769;
 
 	class HBHIBMCNPJL : public ::OMCMJNICFCH
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/Entitas/CodeGeneration/Attributes/EntityIndexType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_ABSTRACTENTITYINDEXATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x167490A0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_ABSTRACTENTITYINDEXATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20850340)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int AbstractEntityIndexAttribute_TypeDefinitionIndex = 10077;
+	inline static constexpr unsigned int AbstractEntityIndexAttribute_TypeDefinitionIndex = 10085;
 
 	class AbstractEntityIndexAttribute : public ::System::Attribute
 	{

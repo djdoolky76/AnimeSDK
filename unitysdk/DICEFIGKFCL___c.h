@@ -4,18 +4,18 @@
 class DICEFIGKFCL;
 namespace System { class Object; }
 
-#define DICEFIGKFCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E18E6B0)
-#define DICEFIGKFCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E18E6F0)
-#define DICEFIGKFCL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E18E700)
+#define DICEFIGKFCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2065B3E0)
+#define DICEFIGKFCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2065B420)
+#define DICEFIGKFCL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x2065B430)
 
-inline static constexpr unsigned int DICEFIGKFCL___c_TypeDefinitionIndex = 29915;
+inline static constexpr unsigned int DICEFIGKFCL___c_TypeDefinitionIndex = 30813;
 
 	class DICEFIGKFCL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31130);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B290);
 		}
 
 		static ::System::Void _cctor()

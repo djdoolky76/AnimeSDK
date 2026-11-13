@@ -4,9 +4,9 @@
 class AGCPAMNLCGN;
 class BKFOHAKAJLP;
 
-#define NEIPCLPIJIB_NKCKKFAHKNN_OFFSET UNITYSDK_OFFSET(0xBB58650)
+#define NEIPCLPIJIB_NKCKKFAHKNN_OFFSET UNITYSDK_OFFSET(0x16FD7F30)
 
-inline static constexpr unsigned int NEIPCLPIJIB_TypeDefinitionIndex = 78005;
+inline static constexpr unsigned int NEIPCLPIJIB_TypeDefinitionIndex = 80740;
 
 	class NEIPCLPIJIB : public ::System::Object
 	{

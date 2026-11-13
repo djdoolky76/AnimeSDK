@@ -4,18 +4,18 @@
 class AJGFHIIBNGP;
 namespace System { class Object; }
 
-#define AJGFHIIBNGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E394260)
-#define AJGFHIIBNGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3942A0)
-#define AJGFHIIBNGP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E3942B0)
+#define AJGFHIIBNGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20630F60)
+#define AJGFHIIBNGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20630FA0)
+#define AJGFHIIBNGP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x20630FB0)
 
-inline static constexpr unsigned int AJGFHIIBNGP___c_TypeDefinitionIndex = 34908;
+inline static constexpr unsigned int AJGFHIIBNGP___c_TypeDefinitionIndex = 35836;
 
 	class AJGFHIIBNGP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DA50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31AE0);
 		}
 
 		static ::System::Void _cctor()

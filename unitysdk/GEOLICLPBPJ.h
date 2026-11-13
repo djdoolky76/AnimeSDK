@@ -4,10 +4,10 @@
 #include "unitysdk/System/ValueTuple_2.h"
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define GEOLICLPBPJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA5B4E0)
-#define GEOLICLPBPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA5B540)
+#define GEOLICLPBPJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C225C80)
+#define GEOLICLPBPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C225CE0)
 
-inline static constexpr unsigned int GEOLICLPBPJ_TypeDefinitionIndex = 42279;
+inline static constexpr unsigned int GEOLICLPBPJ_TypeDefinitionIndex = 43254;
 
 	class GEOLICLPBPJ : public ::System::Object
 	{

@@ -6,25 +6,26 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerWaitEating; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define KILKDCEJLIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB42D720)
-#define KILKDCEJLIG_HHGNECAGCCA_OFFSET UNITYSDK_OFFSET(0xB42E8D0)
-#define KILKDCEJLIG_NEACKLFJFDL_OFFSET UNITYSDK_OFFSET(0xB42E250)
-#define KILKDCEJLIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB42D770)
-#define KILKDCEJLIG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB42D9C0)
-#define KILKDCEJLIG_PFHBHAKCCME_OFFSET UNITYSDK_OFFSET(0xB42E500)
-#define KILKDCEJLIG_TICK_OFFSET UNITYSDK_OFFSET(0xB42DA10)
+#define KILKDCEJLIG_CTOR_OFFSET UNITYSDK_OFFSET(0x19EF3D80)
+#define KILKDCEJLIG_HHGNECAGCCA_OFFSET UNITYSDK_OFFSET(0x19EF4F30)
+#define KILKDCEJLIG_NEACKLFJFDL_OFFSET UNITYSDK_OFFSET(0x19EF48B0)
+#define KILKDCEJLIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19EF3DD0)
+#define KILKDCEJLIG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19EF4020)
+#define KILKDCEJLIG_PFHBHAKCCME_OFFSET UNITYSDK_OFFSET(0x19EF4B60)
+#define KILKDCEJLIG_TICK_OFFSET UNITYSDK_OFFSET(0x19EF4070)
 
-inline static constexpr unsigned int KILKDCEJLIG_TypeDefinitionIndex = 52158;
+inline static constexpr unsigned int KILKDCEJLIG_TypeDefinitionIndex = 53263;
 
 	class KILKDCEJLIG
 	{
 	public:
-		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* IJDCKBPPNMD; // 0x28
 		::System::String* EPDMDINOGJO; // 0x30
-		::RPG::Client::LittleGame::ElfRestaurantGameEntity* IJDCKBPPNMD; // 0x38
-		::System::Single PGMIOKKLHIE; // 0x40
-		::System::Single MCFPCODHEBK; // 0x44
-		::System::Boolean IOCHOFBMBKG; // 0x48
+		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x38
+		::System::Single MCFPCODHEBK; // 0x40
+		::System::Boolean IOCHOFBMBKG; // 0x44
+		::System::Byte _padding0[0x3];
+		::System::Single PGMIOKKLHIE; // 0x48
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfCustomerWaitEating* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_ElfCustomerWaitEating*))((::PBYTE)hIl2Cpp + KILKDCEJLIG_CTOR_OFFSET))(this, a1, a2);

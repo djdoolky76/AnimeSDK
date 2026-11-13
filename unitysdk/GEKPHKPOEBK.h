@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropCurveMoveStop; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GEKPHKPOEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x159D4F80)
-#define GEKPHKPOEBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159D4FB0)
+#define GEKPHKPOEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x17CE2300)
+#define GEKPHKPOEBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CE2330)
 
-inline static constexpr unsigned int GEKPHKPOEBK_TypeDefinitionIndex = 58315;
+inline static constexpr unsigned int GEKPHKPOEBK_TypeDefinitionIndex = 59571;
 
 	class GEKPHKPOEBK
 	{

@@ -6,22 +6,22 @@ namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define MFHDFHJOKJC_KEBPOPNPNBB_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F80E0)
-#define MFHDFHJOKJC_KEBPOPNPNBB_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0xB8F7690)
-#define MFHDFHJOKJC_KEBPOPNPNBB_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB8F8740)
-#define MFHDFHJOKJC_KEBPOPNPNBB_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xB8F7D70)
+#define MFHDFHJOKJC_KEBPOPNPNBB_CTOR_OFFSET UNITYSDK_OFFSET(0x17C88330)
+#define MFHDFHJOKJC_KEBPOPNPNBB_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0x17C878E0)
+#define MFHDFHJOKJC_KEBPOPNPNBB_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x17C88990)
+#define MFHDFHJOKJC_KEBPOPNPNBB_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x17C87FC0)
 
-inline static constexpr unsigned int MFHDFHJOKJC_KEBPOPNPNBB_TypeDefinitionIndex = 69866;
+inline static constexpr unsigned int MFHDFHJOKJC_KEBPOPNPNBB_TypeDefinitionIndex = 71825;
 
 	class MFHDFHJOKJC_KEBPOPNPNBB : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* MFJGOGDDHNM; // 0x10
-		::UnityEngine::LineRenderer* GGOANBOGFKL; // 0x18
-		::RPG::Client::CharacterEffect* FIJPFBNGMJL; // 0x20
-		::UnityEngine::Material* DOLIHDOBGEI; // 0x28
-		::UnityEngine::Material* EEOCHLOPPCH; // 0x30
-		::UnityEngine::Transform* INNJMAABJDK; // 0x38
+		::UnityEngine::Material* EEOCHLOPPCH; // 0x10
+		::RPG::Client::CharacterEffect* FIJPFBNGMJL; // 0x18
+		::UnityEngine::LineRenderer* GGOANBOGFKL; // 0x20
+		::UnityEngine::Transform* INNJMAABJDK; // 0x28
+		::UnityEngine::Material* DOLIHDOBGEI; // 0x30
+		::UnityEngine::Transform* MFJGOGDDHNM; // 0x38
 		::System::Single PNFADLCDMFF; // 0x40
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::LineRenderer* a3, ::UnityEngine::Transform* a4, ::RPG::Client::CharacterEffect* a5)
 		{

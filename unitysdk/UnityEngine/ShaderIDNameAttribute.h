@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SHADERIDNAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FF270)
+#define UNITYENGINE_SHADERIDNAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F52FEE0)
 
 namespace UnityEngine
 {

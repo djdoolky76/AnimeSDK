@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class CJFGDKCJIJL;
 
-#define IEEGLLJNIFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD9EF0)
+#define IEEGLLJNIFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D958040)
 
-inline static constexpr unsigned int IEEGLLJNIFE_TypeDefinitionIndex = 42538;
+inline static constexpr unsigned int IEEGLLJNIFE_TypeDefinitionIndex = 43513;
 
 	class IEEGLLJNIFE : public ::System::Object
 	{

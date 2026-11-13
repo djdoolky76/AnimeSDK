@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DMHILEFFPFL_TypeDefinitionIndex = 30354;
+inline static constexpr unsigned int DMHILEFFPFL_TypeDefinitionIndex = 31260;
 
 	enum class DMHILEFFPFL : ::System::Int32
 	{
@@ -25,4 +25,5 @@ inline static constexpr unsigned int DMHILEFFPFL_TypeDefinitionIndex = 30354;
 		IOMPNOBDPIL = 18,
 		DCEPKLGOCEO = 19,
 		PFDNAOJIDEP = 20,
+		OGCOPOIMJIM = 21,
 	};

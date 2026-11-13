@@ -5,9 +5,9 @@ class BKHHFIJCHEP;
 class IBPGDJEBPFN;
 class JCLBAEHIBLA;
 
-#define CEOPAIMDOHN_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F1020)
+#define CEOPAIMDOHN_CTOR_OFFSET UNITYSDK_OFFSET(0x18834890)
 
-inline static constexpr unsigned int CEOPAIMDOHN_TypeDefinitionIndex = 60340;
+inline static constexpr unsigned int CEOPAIMDOHN_TypeDefinitionIndex = 61625;
 
 	class CEOPAIMDOHN : public ::DAMIINECKKH
 	{

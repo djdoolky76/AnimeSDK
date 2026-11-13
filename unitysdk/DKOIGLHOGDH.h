@@ -8,17 +8,17 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DKOIGLHOGDH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5C7650)
-#define DKOIGLHOGDH_HJJFOBGFBIO_OFFSET UNITYSDK_OFFSET(0x1C5BA3D0)
+#define DKOIGLHOGDH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA7BF30)
+#define DKOIGLHOGDH_HJJFOBGFBIO_OFFSET UNITYSDK_OFFSET(0x1BA6ECF0)
 
-inline static constexpr unsigned int DKOIGLHOGDH_TypeDefinitionIndex = 37429;
+inline static constexpr unsigned int DKOIGLHOGDH_TypeDefinitionIndex = 38357;
 
 	class DKOIGLHOGDH : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_JMAPGFDDINP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "DKOIGLHOGDH")->GetStaticField(0x68540);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "DKOIGLHOGDH")->GetStaticField(0x6F720);
 		}
 
 		static ::System::Void _cctor()

@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define HFALFOEAKOM_CCTOR_OFFSET UNITYSDK_OFFSET(0x15C5AEB0)
-#define HFALFOEAKOM_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5AEA0)
+#define HFALFOEAKOM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2118F0)
+#define HFALFOEAKOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2118E0)
 
-inline static constexpr unsigned int HFALFOEAKOM_TypeDefinitionIndex = 67561;
+inline static constexpr unsigned int HFALFOEAKOM_TypeDefinitionIndex = 69505;
 
 	class HFALFOEAKOM : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_ONFNBJHEIBB()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "HFALFOEAKOM")->GetStaticField(0x11120);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "HFALFOEAKOM")->GetStaticField(0x72780);
 		}
 
 		// static const ::System::String* EGGIIFLGBJO; // 0x0

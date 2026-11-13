@@ -5,7 +5,7 @@
 
 namespace R3
 {
-	inline static constexpr unsigned int Observer_1_TypeDefinitionIndex = 35921;
+	inline static constexpr unsigned int Observer_1_TypeDefinitionIndex = 36849;
 
 	template <typename T>
 	class Observer_1 : public ::System::Object

@@ -8,22 +8,21 @@
 namespace RPG::Client { class MonoEmoPlayableGraph; }
 namespace System { class Object; }
 
-#define DONFNDKLPNB_CTOR_OFFSET UNITYSDK_OFFSET(0x11FEE1A0)
-#define DONFNDKLPNB_GET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0x11FED670)
-#define DONFNDKLPNB_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x11FED6E0)
-#define DONFNDKLPNB_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x11FED690)
-#define DONFNDKLPNB_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x11FEDC70)
-#define DONFNDKLPNB_SET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0x11FED680)
+#define DONFNDKLPNB_CTOR_OFFSET UNITYSDK_OFFSET(0x191B1C60)
+#define DONFNDKLPNB_GET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0x191B1130)
+#define DONFNDKLPNB_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x191B11A0)
+#define DONFNDKLPNB_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x191B1150)
+#define DONFNDKLPNB_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x191B1730)
+#define DONFNDKLPNB_SET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0x191B1140)
 
-inline static constexpr unsigned int DONFNDKLPNB_TypeDefinitionIndex = 48773;
+inline static constexpr unsigned int DONFNDKLPNB_TypeDefinitionIndex = 49819;
 
 	class DONFNDKLPNB : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPG::Client::MonoEmoPlayableGraph* IPKADGBKLEK; // 0x10
-		::RPGTools::Timeline::Emotion::EmoTrackType _TrackType_k__BackingField; // 0x18
-		::System::Byte _padding0[0x4];
-		::UnityEngine::Animations::AnimationLayerMixerPlayable MJODFJKEDHK; // 0x20
+		::UnityEngine::Animations::AnimationLayerMixerPlayable MJODFJKEDHK; // 0x18
+		::RPGTools::Timeline::Emotion::EmoTrackType _TrackType_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DONFNDKLPNB_CTOR_OFFSET))(this);

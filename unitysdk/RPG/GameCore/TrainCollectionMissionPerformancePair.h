@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainCollectionMissionPerformancePair; }
 
-#define RPG_GAMECORE_TRAINCOLLECTIONMISSIONPERFORMANCEPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBFEB30)
-#define RPG_GAMECORE_TRAINCOLLECTIONMISSIONPERFORMANCEPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBFE9C0)
+#define RPG_GAMECORE_TRAINCOLLECTIONMISSIONPERFORMANCEPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D7DB0)
+#define RPG_GAMECORE_TRAINCOLLECTIONMISSIONPERFORMANCEPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D7C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainCollectionMissionPerformancePair_TypeDefinitionIndex = 21038;
+	inline static constexpr unsigned int TrainCollectionMissionPerformancePair_TypeDefinitionIndex = 21376;
 
 	class TrainCollectionMissionPerformancePair : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvNPCSetFrozen; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IPBMNDDMDAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1650F3B0)
-#define IPBMNDDMDAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1650F3E0)
+#define IPBMNDDMDAE_CTOR_OFFSET UNITYSDK_OFFSET(0x192FC490)
+#define IPBMNDDMDAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x192FC4C0)
 
-inline static constexpr unsigned int IPBMNDDMDAE_TypeDefinitionIndex = 52441;
+inline static constexpr unsigned int IPBMNDDMDAE_TypeDefinitionIndex = 53547;
 
 	class IPBMNDDMDAE
 	{

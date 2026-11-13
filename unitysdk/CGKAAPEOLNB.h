@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class DarkTeamDestroyCheck; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGKAAPEOLNB_CTOR_OFFSET UNITYSDK_OFFSET(0xCC850F0)
-#define CGKAAPEOLNB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC85100)
-#define CGKAAPEOLNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC85140)
-#define CGKAAPEOLNB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC85250)
-#define CGKAAPEOLNB_OPDLLNNEBPF_OFFSET UNITYSDK_OFFSET(0xCC851A0)
-#define CGKAAPEOLNB_TICK_OFFSET UNITYSDK_OFFSET(0xCC852A0)
+#define CGKAAPEOLNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1785E410)
+#define CGKAAPEOLNB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1785E420)
+#define CGKAAPEOLNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1785E460)
+#define CGKAAPEOLNB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1785E570)
+#define CGKAAPEOLNB_OPDLLNNEBPF_OFFSET UNITYSDK_OFFSET(0x1785E4C0)
+#define CGKAAPEOLNB_TICK_OFFSET UNITYSDK_OFFSET(0x1785E5C0)
 
-inline static constexpr unsigned int CGKAAPEOLNB_TypeDefinitionIndex = 58063;
+inline static constexpr unsigned int CGKAAPEOLNB_TypeDefinitionIndex = 59302;
 
 	class CGKAAPEOLNB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::DarkTeamDestroyCheck* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::DarkTeamDestroyCheck* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DarkTeamDestroyCheck* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::DarkTeamDestroyCheck*))((::PBYTE)hIl2Cpp + CGKAAPEOLNB_CTOR_OFFSET))(this, a1, a2);

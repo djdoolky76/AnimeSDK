@@ -6,14 +6,14 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::PetDiy
 {
-	inline static constexpr unsigned int PetDiyEditControllerBase___O_TypeDefinitionIndex = 74485;
+	inline static constexpr unsigned int PetDiyEditControllerBase___O_TypeDefinitionIndex = 76633;
 
 	class PetDiyEditControllerBase___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::PetDiy::PetDiyData*>** StaticGet__0___SortFunc()
 		{
-			return (::System::Comparison_1<::RPG::Client::PetDiy::PetDiyData*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>O")->GetStaticField(0x16080);
+			return (::System::Comparison_1<::RPG::Client::PetDiy::PetDiyData*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>O")->GetStaticField(0x2B610);
 		}
 
 	};

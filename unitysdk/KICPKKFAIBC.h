@@ -10,27 +10,27 @@ namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KICPKKFAIBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB413360)
-#define KICPKKFAIBC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB414800)
-#define KICPKKFAIBC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB413510)
-#define KICPKKFAIBC_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB413B40)
-#define KICPKKFAIBC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB414930)
-#define KICPKKFAIBC_PEHCBGNEEII_OFFSET UNITYSDK_OFFSET(0xB414460)
+#define KICPKKFAIBC_CTOR_OFFSET UNITYSDK_OFFSET(0x19ED9820)
+#define KICPKKFAIBC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x19EDACC0)
+#define KICPKKFAIBC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x19ED99D0)
+#define KICPKKFAIBC_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x19EDA000)
+#define KICPKKFAIBC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x19EDADF0)
+#define KICPKKFAIBC_PEHCBGNEEII_OFFSET UNITYSDK_OFFSET(0x19EDA920)
 
-inline static constexpr unsigned int KICPKKFAIBC_TypeDefinitionIndex = 77910;
+inline static constexpr unsigned int KICPKKFAIBC_TypeDefinitionIndex = 80645;
 
 	class KICPKKFAIBC : public ::JNALBIEDNLH
 	{
 	public:
-		::RPG::GameCore::ChenLingBattleAbility_Rotation* DEHFDECCMJG; // 0x28
-		::System::Collections::Generic::Dictionary_2<::ALMFLCJCHKP*, ::System::Single>* NMFECMKJOFP; // 0x30
-		::System::Collections::Generic::Dictionary_2<::ALMFLCJCHKP*, ::UnityEngine::Quaternion>* JIGAHLICPHA; // 0x38
-		::System::Collections::Generic::List_1<::ALMFLCJCHKP*>* MCNNKBAGPLB; // 0x40
-		::System::Collections::Generic::List_1<::ALMFLCJCHKP*>* HGCNLFIMDKL; // 0x48
-		::System::Collections::Generic::List_1<::RPG::GameCore::ChenLingBattleAnimEventConfig*>* AHOOLDFODPL; // 0x50
+		::System::Collections::Generic::Dictionary_2<::ALMFLCJCHKP*, ::System::Single>* NMFECMKJOFP; // 0x28
+		::System::Collections::Generic::Dictionary_2<::ALMFLCJCHKP*, ::UnityEngine::Quaternion>* JIGAHLICPHA; // 0x30
+		::System::Collections::Generic::List_1<::ALMFLCJCHKP*>* HGCNLFIMDKL; // 0x38
+		::System::Collections::Generic::List_1<::RPG::GameCore::ChenLingBattleAnimEventConfig*>* AHOOLDFODPL; // 0x40
+		::System::Collections::Generic::List_1<::ALMFLCJCHKP*>* MCNNKBAGPLB; // 0x48
+		::RPG::GameCore::ChenLingBattleAbility_Rotation* DEHFDECCMJG; // 0x50
 		::System::Single NCMEPPHLGEG; // 0x58
-		::System::Single BCGHNNBGMCM; // 0x5C
-		::System::Single HPCHCEFOKJB; // 0x60
+		::System::Single HPCHCEFOKJB; // 0x5C
+		::System::Single BCGHNNBGMCM; // 0x60
 		::System::Void _ctor(::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig* a1, ::CIIKBJFOKHL* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig*, ::CIIKBJFOKHL*))((::PBYTE)hIl2Cpp + KICPKKFAIBC_CTOR_OFFSET))(this, a1, a2);

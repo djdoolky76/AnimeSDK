@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DisPlaySelectServerStatus_TypeDefinitionIndex = 69391;
+	inline static constexpr unsigned int DisPlaySelectServerStatus_TypeDefinitionIndex = 71345;
 
 	enum class DisPlaySelectServerStatus : ::System::Int32
 	{

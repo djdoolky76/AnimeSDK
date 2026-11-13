@@ -4,10 +4,10 @@
 class NMEGIPHFFDA;
 namespace System { class Object; }
 
-#define HDCIKKPIPKA___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x15C23AB0)
-#define HDCIKKPIPKA___C__DISPLAYCLASS0_1__TOPUBLICORDERS_B__0_OFFSET UNITYSDK_OFFSET(0x15C23CA0)
+#define HDCIKKPIPKA___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C41B0)
+#define HDCIKKPIPKA___C__DISPLAYCLASS0_1__TOPUBLICORDERS_B__0_OFFSET UNITYSDK_OFFSET(0x1B7C43A0)
 
-inline static constexpr unsigned int HDCIKKPIPKA___c__DisplayClass0_1_TypeDefinitionIndex = 74865;
+inline static constexpr unsigned int HDCIKKPIPKA___c__DisplayClass0_1_TypeDefinitionIndex = 77192;
 
 	template <typename T>
 	class HDCIKKPIPKA___c__DisplayClass0_1 : public ::System::Object

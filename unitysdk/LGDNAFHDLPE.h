@@ -8,18 +8,18 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LGDNAFHDLPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DFB20)
-#define LGDNAFHDLPE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C8DFD70)
-#define LGDNAFHDLPE_FILTER_OFFSET UNITYSDK_OFFSET(0x1C8DFCB0)
-#define LGDNAFHDLPE_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C8DFB90)
+#define LGDNAFHDLPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D639C10)
+#define LGDNAFHDLPE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D639E60)
+#define LGDNAFHDLPE_FILTER_OFFSET UNITYSDK_OFFSET(0x1D639DA0)
+#define LGDNAFHDLPE_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1D639C80)
 
-inline static constexpr unsigned int LGDNAFHDLPE_TypeDefinitionIndex = 42212;
+inline static constexpr unsigned int LGDNAFHDLPE_TypeDefinitionIndex = 43187;
 
 	class LGDNAFHDLPE
 	{
 	public:
-		::KGOFMBPFCFD* HINDODOFCLK; // 0x28
-		::FDPALAEIHPB* FKINCGODJEP; // 0x30
+		::FDPALAEIHPB* FKINCGODJEP; // 0x28
+		::KGOFMBPFCFD* HINDODOFCLK; // 0x30
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::HJNDPHEDAGM* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*, ::HJNDPHEDAGM*))((::PBYTE)hIl2Cpp + LGDNAFHDLPE_CTOR_OFFSET))(this, a1, a2);

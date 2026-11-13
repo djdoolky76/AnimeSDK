@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IBattleReusablePanel_1_TypeDefinitionIndex = 72299;
+	inline static constexpr unsigned int IBattleReusablePanel_1_TypeDefinitionIndex = 74376;
 
 	template <typename T>
 	class IBattleReusablePanel_1

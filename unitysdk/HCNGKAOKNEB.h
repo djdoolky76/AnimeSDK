@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class VCameraConfig; }
 
-#define HCNGKAOKNEB_MCNGJFOADFK_OFFSET UNITYSDK_OFFSET(0x15C1CE50)
+#define HCNGKAOKNEB_MCNGJFOADFK_OFFSET UNITYSDK_OFFSET(0x1B7BD1B0)
 
-inline static constexpr unsigned int HCNGKAOKNEB_TypeDefinitionIndex = 73251;
+inline static constexpr unsigned int HCNGKAOKNEB_TypeDefinitionIndex = 75367;
 
 	class HCNGKAOKNEB : public ::System::Object
 	{

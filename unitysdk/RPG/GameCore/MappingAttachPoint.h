@@ -6,13 +6,13 @@ namespace RPG::GameCore { class MappingAttachPoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPPINGATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D805510)
-#define RPG_GAMECORE_MAPPINGATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D805550)
-#define RPG_GAMECORE_MAPPINGATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8054B0)
+#define RPG_GAMECORE_MAPPINGATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08F5D0)
+#define RPG_GAMECORE_MAPPINGATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F08F610)
+#define RPG_GAMECORE_MAPPINGATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F08F570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MappingAttachPoint_TypeDefinitionIndex = 23192;
+	inline static constexpr unsigned int MappingAttachPoint_TypeDefinitionIndex = 23623;
 
 	class MappingAttachPoint : public ::RPG::GameCore::TaskConfig
 	{

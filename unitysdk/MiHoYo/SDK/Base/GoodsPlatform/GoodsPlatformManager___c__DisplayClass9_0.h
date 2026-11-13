@@ -7,19 +7,19 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC14070)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0__RETRIEVEGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1BC146C0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0__RETRIEVEGOODSLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1BC15150)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B44F610)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0__RETRIEVEGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1B44FC60)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0__RETRIEVEGOODSLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1B4506F0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_0_TypeDefinitionIndex = 8844;
+	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_0_TypeDefinitionIndex = 8853;
 
 	class GoodsPlatformManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* onGoodsListResult; // 0x18
+		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* onGoodsListResult; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 		::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager* __4__this; // 0x20
 		::System::Void _ctor()
 		{

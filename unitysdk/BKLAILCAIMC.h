@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsCharacterChangeTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKLAILCAIMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA57250)
-#define BKLAILCAIMC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA57280)
+#define BKLAILCAIMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6686C0)
+#define BKLAILCAIMC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A6686F0)
 
-inline static constexpr unsigned int BKLAILCAIMC_TypeDefinitionIndex = 54841;
+inline static constexpr unsigned int BKLAILCAIMC_TypeDefinitionIndex = 56011;
 
 	class BKLAILCAIMC
 	{

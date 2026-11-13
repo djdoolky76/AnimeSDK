@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropAnimTriggerRandomPlay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AELLMIMNCMI_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFAF10)
-#define AELLMIMNCMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCEFAF40)
+#define AELLMIMNCMI_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA6590)
+#define AELLMIMNCMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DA65C0)
 
-inline static constexpr unsigned int AELLMIMNCMI_TypeDefinitionIndex = 55881;
+inline static constexpr unsigned int AELLMIMNCMI_TypeDefinitionIndex = 57084;
 
 	class AELLMIMNCMI
 	{

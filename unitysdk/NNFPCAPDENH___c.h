@@ -4,18 +4,18 @@
 class NNFPCAPDENH;
 namespace System { class Object; }
 
-#define NNFPCAPDENH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB55F00)
-#define NNFPCAPDENH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB55F40)
-#define NNFPCAPDENH___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EB55F50)
+#define NNFPCAPDENH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEE1600)
+#define NNFPCAPDENH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEE1640)
+#define NNFPCAPDENH___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FEE1650)
 
-inline static constexpr unsigned int NNFPCAPDENH___c_TypeDefinitionIndex = 29538;
+inline static constexpr unsigned int NNFPCAPDENH___c_TypeDefinitionIndex = 30300;
 
 	class NNFPCAPDENH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51810);
 		}
 
 		static ::System::Void _cctor()

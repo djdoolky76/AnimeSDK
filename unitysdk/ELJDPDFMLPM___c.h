@@ -4,18 +4,18 @@
 class ELJDPDFMLPM;
 namespace System { class Object; }
 
-#define ELJDPDFMLPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2A68C0)
-#define ELJDPDFMLPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A6900)
-#define ELJDPDFMLPM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2A6910)
+#define ELJDPDFMLPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206CB080)
+#define ELJDPDFMLPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206CB0C0)
+#define ELJDPDFMLPM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x206CB0D0)
 
-inline static constexpr unsigned int ELJDPDFMLPM___c_TypeDefinitionIndex = 33114;
+inline static constexpr unsigned int ELJDPDFMLPM___c_TypeDefinitionIndex = 34029;
 
 	class ELJDPDFMLPM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51AA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46D80);
 		}
 
 		static ::System::Void _cctor()

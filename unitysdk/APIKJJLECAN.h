@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInCharmAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define APIKJJLECAN_CTOR_OFFSET UNITYSDK_OFFSET(0x15B9F880)
-#define APIKJJLECAN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B9F8B0)
+#define APIKJJLECAN_CTOR_OFFSET UNITYSDK_OFFSET(0x185050E0)
+#define APIKJJLECAN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18505110)
 
-inline static constexpr unsigned int APIKJJLECAN_TypeDefinitionIndex = 54665;
+inline static constexpr unsigned int APIKJJLECAN_TypeDefinitionIndex = 55831;
 
 	class APIKJJLECAN
 	{

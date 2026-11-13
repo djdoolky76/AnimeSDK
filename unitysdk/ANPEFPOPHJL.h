@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByHPSharedGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ANPEFPOPHJL_CTOR_OFFSET UNITYSDK_OFFSET(0x15898870)
-#define ANPEFPOPHJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15898950)
+#define ANPEFPOPHJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A83D720)
+#define ANPEFPOPHJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A83D800)
 
-inline static constexpr unsigned int ANPEFPOPHJL_TypeDefinitionIndex = 55446;
+inline static constexpr unsigned int ANPEFPOPHJL_TypeDefinitionIndex = 56634;
 
 	class ANPEFPOPHJL
 	{

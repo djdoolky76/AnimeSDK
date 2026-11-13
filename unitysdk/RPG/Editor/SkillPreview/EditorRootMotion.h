@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Action; }
 
-#define RPG_EDITOR_SKILLPREVIEW_EDITORROOTMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A3750)
-#define RPG_EDITOR_SKILLPREVIEW_EDITORROOTMOTION_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xE4A36F0)
+#define RPG_EDITOR_SKILLPREVIEW_EDITORROOTMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x18268490)
+#define RPG_EDITOR_SKILLPREVIEW_EDITORROOTMOTION_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0x18268430)
 
 namespace RPG::Editor::SkillPreview
 {
-	inline static constexpr unsigned int EditorRootMotion_TypeDefinitionIndex = 52067;
+	inline static constexpr unsigned int EditorRootMotion_TypeDefinitionIndex = 53172;
 
 	class EditorRootMotion : public ::UnityEngine::MonoBehaviour
 	{

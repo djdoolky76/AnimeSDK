@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define UNITYENGINE_TIMELINE_MARKERTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F35F440)
-#define UNITYENGINE_TIMELINE_MARKERTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1F35F0D0)
+#define UNITYENGINE_TIMELINE_MARKERTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E9500)
+#define UNITYENGINE_TIMELINE_MARKERTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1D6E9190)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int MarkerTrack_TypeDefinitionIndex = 38830;
+	inline static constexpr unsigned int MarkerTrack_TypeDefinitionIndex = 39759;
 
 	class MarkerTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

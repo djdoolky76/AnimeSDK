@@ -4,9 +4,9 @@
 #include "unitysdk/NHHMEPILLHL.h"
 namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 
-#define OBDGDODGFAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD30F80)
+#define OBDGDODGFAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB77C20)
 
-inline static constexpr unsigned int OBDGDODGFAM_TypeDefinitionIndex = 67098;
+inline static constexpr unsigned int OBDGDODGFAM_TypeDefinitionIndex = 69042;
 
 	class OBDGDODGFAM : public ::EBIMENNAEIE
 	{

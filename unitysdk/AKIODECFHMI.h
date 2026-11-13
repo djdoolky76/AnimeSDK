@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define AKIODECFHMI_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCFF80)
+#define AKIODECFHMI_CTOR_OFFSET UNITYSDK_OFFSET(0x19D5DE30)
 
-inline static constexpr unsigned int AKIODECFHMI_TypeDefinitionIndex = 54963;
+inline static constexpr unsigned int AKIODECFHMI_TypeDefinitionIndex = 56137;
 
 	class AKIODECFHMI : public ::System::Object
 	{

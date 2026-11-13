@@ -4,18 +4,18 @@
 class MKDPFLPICJB;
 namespace System { class Object; }
 
-#define MKDPFLPICJB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA28910)
-#define MKDPFLPICJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA28940)
-#define MKDPFLPICJB___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1EA28950)
+#define MKDPFLPICJB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205CE450)
+#define MKDPFLPICJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205CE480)
+#define MKDPFLPICJB___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x205CE490)
 
-inline static constexpr unsigned int MKDPFLPICJB___c_TypeDefinitionIndex = 34739;
+inline static constexpr unsigned int MKDPFLPICJB___c_TypeDefinitionIndex = 35667;
 
 	class MKDPFLPICJB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54C80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EF40);
 		}
 
 		static ::System::Void _cctor()

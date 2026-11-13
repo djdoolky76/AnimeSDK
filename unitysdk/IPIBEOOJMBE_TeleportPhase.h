@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IPIBEOOJMBE_TeleportPhase_TypeDefinitionIndex = 60556;
+inline static constexpr unsigned int IPIBEOOJMBE_TeleportPhase_TypeDefinitionIndex = 61845;
 
 	enum class IPIBEOOJMBE_TeleportPhase : ::System::Int32
 	{

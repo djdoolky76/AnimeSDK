@@ -7,22 +7,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerTagCombinationRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F8170)
-#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F7EB0)
+#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D5C00)
+#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3D5940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerTagCombinationRow_TypeDefinitionIndex = 13152;
+	inline static constexpr unsigned int DrinkMakerTagCombinationRow_TypeDefinitionIndex = 13226;
 
 	class DrinkMakerTagCombinationRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ExcludeTags; // 0x10
-		::Il2CppArray<::System::UInt32>* IncludeTags; // 0x18
-		::System::String* HintStr; // 0x20
-		::RPG::Client::TextID TagRequestDesc; // 0x28
-		::System::UInt32 TagCombinationID; // 0x38
-		::RPG::GameCore::DrinkMakerQuantifyTagType HintIconType; // 0x3C
+		::Il2CppArray<::System::UInt32>* IncludeTags; // 0x10
+		::System::String* HintStr; // 0x18
+		::Il2CppArray<::System::UInt32>* ExcludeTags; // 0x20
+		::System::UInt32 TagCombinationID; // 0x28
+		::RPG::GameCore::DrinkMakerQuantifyTagType HintIconType; // 0x2C
+		::RPG::Client::TextID TagRequestDesc; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_CTOR_OFFSET))(this);

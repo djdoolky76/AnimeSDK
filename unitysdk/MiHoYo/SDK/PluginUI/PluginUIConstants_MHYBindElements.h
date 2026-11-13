@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_MHYBindElements_TypeDefinitionIndex = 9207;
+	inline static constexpr unsigned int PluginUIConstants_MHYBindElements_TypeDefinitionIndex = 9216;
 
 	class PluginUIConstants_MHYBindElements : public ::System::Object
 	{

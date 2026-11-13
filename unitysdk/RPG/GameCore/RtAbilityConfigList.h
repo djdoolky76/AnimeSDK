@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TaskListTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTABILITYCONFIGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1ACF0)
-#define RPG_GAMECORE_RTABILITYCONFIGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1AB40)
+#define RPG_GAMECORE_RTABILITYCONFIGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF3C170)
+#define RPG_GAMECORE_RTABILITYCONFIGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF3BFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAbilityConfigList_TypeDefinitionIndex = 17649;
+	inline static constexpr unsigned int RtAbilityConfigList_TypeDefinitionIndex = 17818;
 
 	class RtAbilityConfigList : public ::RPG::GameCore::JsonConfig
 	{

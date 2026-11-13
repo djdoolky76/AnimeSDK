@@ -3,10 +3,10 @@
 class JCBAIKOADID;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GFLFBNLAKOH_CTOR_OFFSET UNITYSDK_OFFSET(0x159F00A0)
-#define GFLFBNLAKOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159F00D0)
+#define GFLFBNLAKOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B499590)
+#define GFLFBNLAKOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B4995C0)
 
-inline static constexpr unsigned int GFLFBNLAKOH_TypeDefinitionIndex = 54572;
+inline static constexpr unsigned int GFLFBNLAKOH_TypeDefinitionIndex = 55737;
 
 	class GFLFBNLAKOH
 	{

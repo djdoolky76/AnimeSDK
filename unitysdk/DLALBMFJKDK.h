@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class ECNEEKNHIOE;
 
-#define DLALBMFJKDK_CTOR_OFFSET UNITYSDK_OFFSET(0xF88AEC0)
+#define DLALBMFJKDK_CTOR_OFFSET UNITYSDK_OFFSET(0x18C290D0)
 
-inline static constexpr unsigned int DLALBMFJKDK_TypeDefinitionIndex = 80556;
+inline static constexpr unsigned int DLALBMFJKDK_TypeDefinitionIndex = 83336;
 
 	class DLALBMFJKDK : public ::System::Object
 	{

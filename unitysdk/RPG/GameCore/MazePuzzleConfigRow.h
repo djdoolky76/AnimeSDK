@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazePuzzleConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D83D340)
-#define RPG_GAMECORE_MAZEPUZZLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D83CC70)
+#define RPG_GAMECORE_MAZEPUZZLECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CFBA0)
+#define RPG_GAMECORE_MAZEPUZZLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB70D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleConfigRow_TypeDefinitionIndex = 14568;
+	inline static constexpr unsigned int MazePuzzleConfigRow_TypeDefinitionIndex = 14723;
 
 	class MazePuzzleConfigRow : public ::System::Object
 	{

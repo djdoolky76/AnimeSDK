@@ -4,18 +4,18 @@
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define IMOAFBKNDGG_CTOR_OFFSET UNITYSDK_OFFSET(0x164D3570)
-#define IMOAFBKNDGG_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x164D34B0)
-#define IMOAFBKNDGG__ONBIND_OFFSET UNITYSDK_OFFSET(0x164D3370)
+#define IMOAFBKNDGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DFDD0)
+#define IMOAFBKNDGG_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1A5DFD10)
+#define IMOAFBKNDGG__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A5DFB60)
 
-inline static constexpr unsigned int IMOAFBKNDGG_TypeDefinitionIndex = 71871;
+inline static constexpr unsigned int IMOAFBKNDGG_TypeDefinitionIndex = 73892;
 
 	class IMOAFBKNDGG : public ::FMPCODLIOLG
 	{
 	public:
 		::UnityEngine::Animation* KCOAILOHDND; // 0x60
-		::UnityEngine::Transform* GHGAKNDLKGM; // 0x68
-		::UnityEngine::Transform* NLOFDELKDOI; // 0x70
+		::UnityEngine::Transform* NLOFDELKDOI; // 0x68
+		::UnityEngine::Transform* GHGAKNDLKGM; // 0x70
 		// static const ::System::String* FPGPODGIBFN; // 0x0
 		::System::Void _ctor()
 		{

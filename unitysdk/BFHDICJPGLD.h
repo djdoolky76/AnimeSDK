@@ -5,9 +5,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BFHDICJPGLD_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xFD00)
+#define BFHDICJPGLD_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x3E64CE0)
 
-inline static constexpr unsigned int BFHDICJPGLD_TypeDefinitionIndex = 56894;
+inline static constexpr unsigned int BFHDICJPGLD_TypeDefinitionIndex = 58118;
 
 	struct alignas(8) BFHDICJPGLD
 	{

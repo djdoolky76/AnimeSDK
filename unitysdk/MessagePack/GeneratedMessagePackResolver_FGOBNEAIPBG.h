@@ -5,7 +5,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GeneratedMessagePackResolver_FGOBNEAIPBG_TypeDefinitionIndex = 36094;
+	inline static constexpr unsigned int GeneratedMessagePackResolver_FGOBNEAIPBG_TypeDefinitionIndex = 37022;
 
 	class GeneratedMessagePackResolver_FGOBNEAIPBG : public ::System::Object
 	{

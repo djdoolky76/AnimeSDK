@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_CHANNELDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1F020)
+#define MIHOYO_SDK_CHANNELDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B45A630)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ChannelDefine_TypeDefinitionIndex = 7574;
+	inline static constexpr unsigned int ChannelDefine_TypeDefinitionIndex = 7583;
 
 	class ChannelDefine : public ::System::Object
 	{

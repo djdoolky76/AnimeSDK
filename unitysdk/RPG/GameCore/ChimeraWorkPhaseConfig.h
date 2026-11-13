@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraWorkPhase; }
 namespace RPG::GameCore { class ChimeraWorkPhaseConfig; }
 
-#define RPG_GAMECORE_CHIMERAWORKPHASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D583DC0)
-#define RPG_GAMECORE_CHIMERAWORKPHASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D583A70)
+#define RPG_GAMECORE_CHIMERAWORKPHASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4FA5C0)
+#define RPG_GAMECORE_CHIMERAWORKPHASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F4FA270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkPhaseConfig_TypeDefinitionIndex = 15884;
+	inline static constexpr unsigned int ChimeraWorkPhaseConfig_TypeDefinitionIndex = 16042;
 
 	class ChimeraWorkPhaseConfig : public ::RPG::GameCore::JsonConfig
 	{

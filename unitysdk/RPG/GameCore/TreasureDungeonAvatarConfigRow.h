@@ -5,24 +5,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TreasureDungeonAvatarConfigRow; }
 
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC11550)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC10D10)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31ADD0)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E31A590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonAvatarConfigRow_TypeDefinitionIndex = 12538;
+	inline static constexpr unsigned int TreasureDungeonAvatarConfigRow_TypeDefinitionIndex = 12605;
 
 	class TreasureDungeonAvatarConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* FigureDiff; // 0x10
-		::System::Single FigureScale; // 0x18
-		::System::UInt32 AvatarPickID; // 0x1C
-		::RPG::Client::TextID Dialogue2; // 0x20
-		::System::UInt32 SpecialAvataID; // 0x30
+		::RPG::Client::TextID Dialogue2; // 0x18
+		::RPG::Client::TextID Dialogue1; // 0x28
+		::System::UInt32 AvatarPickID; // 0x38
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Dialogue1; // 0x38
-		::RPG::Client::TextID Dialogue3; // 0x48
+		::RPG::Client::TextID Dialogue3; // 0x40
+		::System::Single FigureScale; // 0x50
+		::System::UInt32 SpecialAvataID; // 0x54
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGROW_CTOR_OFFSET))(this);

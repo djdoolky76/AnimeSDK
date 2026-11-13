@@ -8,27 +8,26 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AHEFENOJHLH_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xEB781C0)
-#define AHEFENOJHLH_CTOR_OFFSET UNITYSDK_OFFSET(0xEB78650)
-#define AHEFENOJHLH_DNHFCKDIFBC_OFFSET UNITYSDK_OFFSET(0xEB78130)
-#define AHEFENOJHLH_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0xEB78110)
-#define AHEFENOJHLH_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xEB780E0)
-#define AHEFENOJHLH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xEB78460)
-#define AHEFENOJHLH_PABKEMGJJAO_OFFSET UNITYSDK_OFFSET(0xEB78560)
-#define AHEFENOJHLH_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0xEB78120)
-#define AHEFENOJHLH_SET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xEB78100)
+#define AHEFENOJHLH_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0x19B1D740)
+#define AHEFENOJHLH_CTOR_OFFSET UNITYSDK_OFFSET(0x19B1DBD0)
+#define AHEFENOJHLH_DNHFCKDIFBC_OFFSET UNITYSDK_OFFSET(0x19B1D6B0)
+#define AHEFENOJHLH_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x19B1D690)
+#define AHEFENOJHLH_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x19B1D660)
+#define AHEFENOJHLH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x19B1D9E0)
+#define AHEFENOJHLH_PABKEMGJJAO_OFFSET UNITYSDK_OFFSET(0x19B1DAE0)
+#define AHEFENOJHLH_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0x19B1D6A0)
+#define AHEFENOJHLH_SET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x19B1D680)
 
-inline static constexpr unsigned int AHEFENOJHLH_TypeDefinitionIndex = 62582;
+inline static constexpr unsigned int AHEFENOJHLH_TypeDefinitionIndex = 64003;
 
 	class AHEFENOJHLH : public ::System::Object
 	{
 	public:
 		::RPG::AvatarSystem::Avatar* _Avatar_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::AEMKMKIBMEE*>* ONOKAJIHCBO; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* AMJBJGDBBDA; // 0x20
-		::System::Boolean EPBPJGGDJKC; // 0x28
-		::System::Byte _padding0[0x3];
-		::AHHNGJGLOKA _Identifier_k__BackingField; // 0x2C
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* AMJBJGDBBDA; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::AEMKMKIBMEE*>* ONOKAJIHCBO; // 0x20
+		::AHHNGJGLOKA _Identifier_k__BackingField; // 0x28
+		::System::Boolean EPBPJGGDJKC; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AHEFENOJHLH_CTOR_OFFSET))(this);

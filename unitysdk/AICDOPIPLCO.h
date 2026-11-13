@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class LNHNHNPJKGD;
 
-#define AICDOPIPLCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C85F800)
+#define AICDOPIPLCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D863B30)
 
-inline static constexpr unsigned int AICDOPIPLCO_TypeDefinitionIndex = 43647;
+inline static constexpr unsigned int AICDOPIPLCO_TypeDefinitionIndex = 44630;
 
 	class AICDOPIPLCO : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveSpecialRoomIconRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESPECIALROOMICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D752060)
-#define RPG_GAMECORE_IDLELIVESPECIALROOMICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D751F30)
+#define RPG_GAMECORE_IDLELIVESPECIALROOMICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8AEB0)
+#define RPG_GAMECORE_IDLELIVESPECIALROOMICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE8AD80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpecialRoomIconRow_TypeDefinitionIndex = 11835;
+	inline static constexpr unsigned int IdleLiveSpecialRoomIconRow_TypeDefinitionIndex = 11892;
 
 	class IdleLiveSpecialRoomIconRow : public ::System::Object
 	{

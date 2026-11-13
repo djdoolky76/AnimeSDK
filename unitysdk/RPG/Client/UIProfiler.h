@@ -7,33 +7,33 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_UIPROFILER_ASYNCSHOWUI_OFFSET UNITYSDK_OFFSET(0xE3E8300)
-#define RPG_CLIENT_UIPROFILER_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0xE3E7CA0)
-#define RPG_CLIENT_UIPROFILER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3E85B0)
-#define RPG_CLIENT_UIPROFILER_CLOSEUI_OFFSET UNITYSDK_OFFSET(0xE3E84E0)
-#define RPG_CLIENT_UIPROFILER_CTOR_OFFSET UNITYSDK_OFFSET(0xE3E85A0)
-#define RPG_CLIENT_UIPROFILER_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0xE3E7FB0)
+#define RPG_CLIENT_UIPROFILER_ASYNCSHOWUI_OFFSET UNITYSDK_OFFSET(0x1DBA9AF0)
+#define RPG_CLIENT_UIPROFILER_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0x1DBA9490)
+#define RPG_CLIENT_UIPROFILER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBA9DA0)
+#define RPG_CLIENT_UIPROFILER_CLOSEUI_OFFSET UNITYSDK_OFFSET(0x1DBA9CD0)
+#define RPG_CLIENT_UIPROFILER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBA9D90)
+#define RPG_CLIENT_UIPROFILER_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1DBA97A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProfiler_TypeDefinitionIndex = 73176;
+	inline static constexpr unsigned int UIProfiler_TypeDefinitionIndex = 75290;
 
 	class UIProfiler : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::UIController** StaticGet__Controller()
-		{
-			return (::RPG::Client::UIController**)UnitySDK::FromName("RPG.Client", "UIProfiler")->GetStaticField(0x35640);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet__SampleDataMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "UIProfiler")->GetStaticField(0x35648);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "UIProfiler")->GetStaticField(0x53180);
+		}
+
+		static ::RPG::Client::UIController** StaticGet__Controller()
+		{
+			return (::RPG::Client::UIController**)UnitySDK::FromName("RPG.Client", "UIProfiler")->GetStaticField(0x53188);
 		}
 
 		static ::System::Boolean* StaticGet_Enable()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "UIProfiler")->GetStaticField(0xAC60);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "UIProfiler")->GetStaticField(0x11D70);
 		}
 
 		::System::Void _ctor()

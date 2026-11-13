@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByRankActivatedFromLineup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCOBHNKNCBK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C1D720)
-#define HCOBHNKNCBK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C1D750)
+#define HCOBHNKNCBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7BD920)
+#define HCOBHNKNCBK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B7BD950)
 
-inline static constexpr unsigned int HCOBHNKNCBK_TypeDefinitionIndex = 54712;
+inline static constexpr unsigned int HCOBHNKNCBK_TypeDefinitionIndex = 55879;
 
 	class HCOBHNKNCBK
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowSkillReadyCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHCDIJMPLPA_CTOR_OFFSET UNITYSDK_OFFSET(0x15766780)
-#define FHCDIJMPLPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157667B0)
+#define FHCDIJMPLPA_CTOR_OFFSET UNITYSDK_OFFSET(0x18A9BFB0)
+#define FHCDIJMPLPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A9BFE0)
 
-inline static constexpr unsigned int FHCDIJMPLPA_TypeDefinitionIndex = 55617;
+inline static constexpr unsigned int FHCDIJMPLPA_TypeDefinitionIndex = 56815;
 
 	class FHCDIJMPLPA
 	{

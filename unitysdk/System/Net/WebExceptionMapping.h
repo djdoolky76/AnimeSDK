@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_NET_WEBEXCEPTIONMAPPING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F06F2B0)
-#define SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1F06F060)
+#define SYSTEM_NET_WEBEXCEPTIONMAPPING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF68960)
+#define SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1CF68710)
 
 namespace System::Net
 {
@@ -16,7 +16,7 @@ namespace System::Net
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_Mapping()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Net", "WebExceptionMapping")->GetStaticField(0x33F60);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Net", "WebExceptionMapping")->GetStaticField(0x288E0);
 		}
 
 		static ::System::Void _cctor()

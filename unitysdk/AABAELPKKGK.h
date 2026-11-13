@@ -6,20 +6,20 @@ namespace RPG::GameCore { class ProcessStoredDamage; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define AABAELPKKGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BEC00)
-#define AABAELPKKGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0BEC10)
-#define AABAELPKKGK_FENDMHJDPJD_OFFSET UNITYSDK_OFFSET(0xB0BF3E0)
-#define AABAELPKKGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0BEC50)
-#define AABAELPKKGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB0BF5E0)
-#define AABAELPKKGK_TICK_OFFSET UNITYSDK_OFFSET(0xB0BF630)
+#define AABAELPKKGK_CTOR_OFFSET UNITYSDK_OFFSET(0x18C6DE60)
+#define AABAELPKKGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C6DE70)
+#define AABAELPKKGK_FENDMHJDPJD_OFFSET UNITYSDK_OFFSET(0x18C6E640)
+#define AABAELPKKGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C6DEB0)
+#define AABAELPKKGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18C6E840)
+#define AABAELPKKGK_TICK_OFFSET UNITYSDK_OFFSET(0x18C6E890)
 
-inline static constexpr unsigned int AABAELPKKGK_TypeDefinitionIndex = 55269;
+inline static constexpr unsigned int AABAELPKKGK_TypeDefinitionIndex = 56450;
 
 	class AABAELPKKGK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ProcessStoredDamage* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ProcessStoredDamage* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ProcessStoredDamage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ProcessStoredDamage*))((::PBYTE)hIl2Cpp + AABAELPKKGK_CTOR_OFFSET))(this, a1, a2);

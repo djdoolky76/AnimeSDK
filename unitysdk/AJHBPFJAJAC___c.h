@@ -9,35 +9,35 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define AJHBPFJAJAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CB8540)
-#define AJHBPFJAJAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB8570)
-#define AJHBPFJAJAC___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x12CB8580)
-#define AJHBPFJAJAC___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x12CB8730)
-#define AJHBPFJAJAC___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x12CB8740)
+#define AJHBPFJAJAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19D3ED00)
+#define AJHBPFJAJAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19D3ED30)
+#define AJHBPFJAJAC___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x19D3ED40)
+#define AJHBPFJAJAC___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x19D3EEE0)
+#define AJHBPFJAJAC___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x19D3EEF0)
 
-inline static constexpr unsigned int AJHBPFJAJAC___c_TypeDefinitionIndex = 61335;
+inline static constexpr unsigned int AJHBPFJAJAC___c_TypeDefinitionIndex = 62720;
 
 	class AJHBPFJAJAC___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>** StaticGet___9__1_1()
+		static ::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>** StaticGet___9__1_2()
 		{
-			return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B60);
+			return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x596B0);
 		}
 
 		static ::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B68);
-		}
-
-		static ::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>** StaticGet___9__1_2()
-		{
-			return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B70);
+			return (::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x596B8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B78);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x596C0);
+		}
+
+		static ::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>** StaticGet___9__1_1()
+		{
+			return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x596C8);
 		}
 
 		static ::System::Void _cctor()

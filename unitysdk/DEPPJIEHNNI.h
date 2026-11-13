@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DEPPJIEHNNI_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CCE58C0)
+#define DEPPJIEHNNI_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1E7D9A80)
 
-inline static constexpr unsigned int DEPPJIEHNNI_TypeDefinitionIndex = 10688;
+inline static constexpr unsigned int DEPPJIEHNNI_TypeDefinitionIndex = 10704;
 
 	class DEPPJIEHNNI : public ::System::Object
 	{

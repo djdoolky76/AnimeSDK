@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LoadSavedEnvProfile; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AOPLCAHMLCF_CTOR_OFFSET UNITYSDK_OFFSET(0x158BC880)
-#define AOPLCAHMLCF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158BC890)
-#define AOPLCAHMLCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158BC8D0)
-#define AOPLCAHMLCF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158BC9D0)
-#define AOPLCAHMLCF_TICK_OFFSET UNITYSDK_OFFSET(0x158BCA20)
+#define AOPLCAHMLCF_CTOR_OFFSET UNITYSDK_OFFSET(0x184E92D0)
+#define AOPLCAHMLCF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x184E92E0)
+#define AOPLCAHMLCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184E9320)
+#define AOPLCAHMLCF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x184E9420)
+#define AOPLCAHMLCF_TICK_OFFSET UNITYSDK_OFFSET(0x184E9470)
 
-inline static constexpr unsigned int AOPLCAHMLCF_TypeDefinitionIndex = 58199;
+inline static constexpr unsigned int AOPLCAHMLCF_TypeDefinitionIndex = 59454;
 
 	class AOPLCAHMLCF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::LoadSavedEnvProfile* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::LoadSavedEnvProfile* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LoadSavedEnvProfile* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LoadSavedEnvProfile*))((::PBYTE)hIl2Cpp + AOPLCAHMLCF_CTOR_OFFSET))(this, a1, a2);

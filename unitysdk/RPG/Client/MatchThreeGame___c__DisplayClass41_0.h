@@ -4,12 +4,12 @@
 class LPHCHEJEMPD;
 namespace RPG::Client { class MatchThreeGameOpponent; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD58A480)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0___UPDATEROYALEPLAYERREALTIMEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD591A50)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CBA30)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0___UPDATEROYALEPLAYERREALTIMEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1D8D38A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass41_0_TypeDefinitionIndex = 65939;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass41_0_TypeDefinitionIndex = 67871;
 
 	class MatchThreeGame___c__DisplayClass41_0 : public ::System::Object
 	{

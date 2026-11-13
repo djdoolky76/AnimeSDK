@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HEOKGLKBLNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6369D0)
+#define HEOKGLKBLNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA74290)
 
-inline static constexpr unsigned int HEOKGLKBLNF_TypeDefinitionIndex = 36434;
+inline static constexpr unsigned int HEOKGLKBLNF_TypeDefinitionIndex = 37362;
 
 	class HEOKGLKBLNF : public ::System::Object
 	{

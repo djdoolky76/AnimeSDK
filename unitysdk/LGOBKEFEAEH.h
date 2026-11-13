@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerRogueEnterNextRoom; }
 
-#define LGOBKEFEAEH_CTOR_OFFSET UNITYSDK_OFFSET(0xB696740)
-#define LGOBKEFEAEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB696770)
+#define LGOBKEFEAEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAE3B0)
+#define LGOBKEFEAEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCAE3E0)
 
-inline static constexpr unsigned int LGOBKEFEAEH_TypeDefinitionIndex = 58796;
+inline static constexpr unsigned int LGOBKEFEAEH_TypeDefinitionIndex = 60064;
 
 	class LGOBKEFEAEH
 	{

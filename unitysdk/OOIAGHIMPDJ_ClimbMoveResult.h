@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OOIAGHIMPDJ_ClimbMoveResult_TypeDefinitionIndex = 54740;
+inline static constexpr unsigned int OOIAGHIMPDJ_ClimbMoveResult_TypeDefinitionIndex = 55907;
 
 	enum class OOIAGHIMPDJ_ClimbMoveResult : ::System::Int32
 	{

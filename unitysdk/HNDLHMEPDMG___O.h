@@ -6,39 +6,39 @@ class PJNDEJDPCLP;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-inline static constexpr unsigned int HNDLHMEPDMG___O_TypeDefinitionIndex = 71502;
+inline static constexpr unsigned int HNDLHMEPDMG___O_TypeDefinitionIndex = 73487;
 
 	class HNDLHMEPDMG___O : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Boolean>** StaticGet__0____CanCreateTestPanel()
-		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x2E010);
-		}
-
-		static ::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>** StaticGet__5____CreateElationPointPanel()
-		{
-			return (::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x2E018);
-		}
-
-		static ::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>** StaticGet__3____CreateGridFightTraitListPanel()
-		{
-			return (::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x2E020);
-		}
-
-		static ::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>** StaticGet__1____CreateTestPanel()
-		{
-			return (::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x2E028);
-		}
-
 		static ::System::Func_1<::System::Boolean>** StaticGet__4____CanCreateElationPointPanel()
 		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x2E030);
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1F790);
 		}
 
 		static ::System::Func_1<::System::Boolean>** StaticGet__2____CanCreateGridFightTraitListPanel()
 		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x2E038);
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1F798);
+		}
+
+		static ::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>** StaticGet__3____CreateGridFightTraitListPanel()
+		{
+			return (::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1F7A0);
+		}
+
+		static ::System::Func_1<::System::Boolean>** StaticGet__0____CanCreateTestPanel()
+		{
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1F7A8);
+		}
+
+		static ::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>** StaticGet__1____CreateTestPanel()
+		{
+			return (::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1F7B0);
+		}
+
+		static ::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>** StaticGet__5____CreateElationPointPanel()
+		{
+			return (::System::Func_2<::HNDLHMEPDMG*, ::PJNDEJDPCLP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1F7B8);
 		}
 
 	};

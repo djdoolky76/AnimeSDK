@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7BED70)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D7BE5A0)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D7BE430)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D7BE120)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D7BE3D0)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D7BE6F0)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7BE1A0)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7BE730)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7BE900)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D7BEA50)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D7BE860)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7BE7C0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F071350)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F070B80)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F070A10)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1F070700)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1F0709B0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1F070CD0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1F070780)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1F070D10)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F070EE0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1F071030)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1F070E40)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1F070DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingImageExcelTable_TypeDefinitionIndex = 13988;
+	inline static constexpr unsigned int LoadingImageExcelTable_TypeDefinitionIndex = 14145;
 
 	class LoadingImageExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingImageRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingImageRow*>**)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0x39B40);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingImageRow*>**)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0x370B0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0x39B48);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0x370B8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0x39B50);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0x370C0);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0xBAC0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0xAC90);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0xBAC1);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "LoadingImageExcelTable")->GetStaticField(0xAC91);
 		}
 
 		static ::System::Void _cctor()

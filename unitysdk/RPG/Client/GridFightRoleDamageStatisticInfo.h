@@ -5,12 +5,12 @@
 class PLFKMENCDMM;
 namespace RPG::Client { class GridFightSeasonRole; }
 
-#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD1F1110)
-#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xD1F1450)
+#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DFE10)
+#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_GET_ROLE_OFFSET UNITYSDK_OFFSET(0x1D4E0400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 64415;
+	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 65862;
 
 	class GridFightRoleDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{

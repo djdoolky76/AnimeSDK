@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StanceLevelEffectRow; }
 
-#define RPG_GAMECORE_STANCELEVELEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAECC90)
-#define RPG_GAMECORE_STANCELEVELEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAEC2C0)
+#define RPG_GAMECORE_STANCELEVELEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3BFCA0)
+#define RPG_GAMECORE_STANCELEVELEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3BF2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StanceLevelEffectRow_TypeDefinitionIndex = 15178;
+	inline static constexpr unsigned int StanceLevelEffectRow_TypeDefinitionIndex = 15334;
 
 	class StanceLevelEffectRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint StanceLevelEffect; // 0x10
-		::System::Int32 ID; // 0x18
-		::System::Int32 LevelDifference; // 0x1C
+		::System::Int32 ID; // 0x10
+		::System::Int32 LevelDifference; // 0x14
+		::RPG::GameCore::FixPoint StanceLevelEffect; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STANCELEVELEFFECTROW_CTOR_OFFSET))(this);

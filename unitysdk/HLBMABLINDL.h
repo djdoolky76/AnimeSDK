@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareScepterFuncType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HLBMABLINDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4E390)
-#define HLBMABLINDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D4E3C0)
+#define HLBMABLINDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1989B4E0)
+#define HLBMABLINDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1989B510)
 
-inline static constexpr unsigned int HLBMABLINDL_TypeDefinitionIndex = 54888;
+inline static constexpr unsigned int HLBMABLINDL_TypeDefinitionIndex = 56059;
 
 	class HLBMABLINDL
 	{

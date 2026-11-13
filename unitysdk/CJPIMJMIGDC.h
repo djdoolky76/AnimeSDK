@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindGlobalUnselectable; }
 
-#define CJPIMJMIGDC_CTOR_OFFSET UNITYSDK_OFFSET(0xD74ACC0)
-#define CJPIMJMIGDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD74ACF0)
+#define CJPIMJMIGDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD32C60)
+#define CJPIMJMIGDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD32C90)
 
-inline static constexpr unsigned int CJPIMJMIGDC_TypeDefinitionIndex = 53400;
+inline static constexpr unsigned int CJPIMJMIGDC_TypeDefinitionIndex = 54562;
 
 	class CJPIMJMIGDC
 	{

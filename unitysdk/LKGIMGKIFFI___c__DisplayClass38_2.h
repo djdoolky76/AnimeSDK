@@ -8,18 +8,18 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 namespace System { class Object; }
 
-#define LKGIMGKIFFI___C__DISPLAYCLASS38_2_CTOR_OFFSET UNITYSDK_OFFSET(0xB73E340)
-#define LKGIMGKIFFI___C__DISPLAYCLASS38_2__EXECUTE_B__4_OFFSET UNITYSDK_OFFSET(0xB740450)
+#define LKGIMGKIFFI___C__DISPLAYCLASS38_2_CTOR_OFFSET UNITYSDK_OFFSET(0x18CE71C0)
+#define LKGIMGKIFFI___C__DISPLAYCLASS38_2__EXECUTE_B__4_OFFSET UNITYSDK_OFFSET(0x18CE92E0)
 
-inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass38_2_TypeDefinitionIndex = 76763;
+inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass38_2_TypeDefinitionIndex = 79096;
 
 	template <typename T1, typename T2>
 	class LKGIMGKIFFI___c__DisplayClass38_2 : public ::System::Object
 	{
 	public:
 		::System::Object* CS___8__locals1; // 0x10
-		::UnityEngine::Vector3 canonicalPos; // 0x18
-		::UnityEngine::Vector3 settleAnchor; // 0x24
+		::UnityEngine::Vector3 settleAnchor; // 0x18
+		::UnityEngine::Vector3 canonicalPos; // 0x24
 		::UnityEngine::Quaternion ed; // 0x30
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int RedDotDebugEvent_TypeDefinitionIndex = 79169;
+	inline static constexpr unsigned int RedDotDebugEvent_TypeDefinitionIndex = 81945;
 
 	enum class RedDotDebugEvent : ::System::Int32
 	{

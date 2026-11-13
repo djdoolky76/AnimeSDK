@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimPortalTarget; }
 namespace RPG::GameCore { class FourRotateVoxelPortalTarget; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C3AD0)
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C3980)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B7670)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B74E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelPortalTarget_TypeDefinitionIndex = 16753;
+	inline static constexpr unsigned int FourRotateVoxelPortalTarget_TypeDefinitionIndex = 16919;
 
 	class FourRotateVoxelPortalTarget : public ::RPG::GameCore::JsonConfig
 	{
@@ -19,6 +19,7 @@ namespace RPG::GameCore
 		::System::Boolean Is5D; // 0x14
 		::System::Byte _padding0[0x3];
 		::RPG::GameCore::FiveDimPortalTarget* Target; // 0x18
+		::System::UInt32 TargetEntityID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_CTOR_OFFSET))(this);

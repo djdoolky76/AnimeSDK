@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseRedDotFilter.h"
 
-#define PGPPCPIOGOF_CTOR_OFFSET UNITYSDK_OFFSET(0xC22EDE0)
+#define PGPPCPIOGOF_CTOR_OFFSET UNITYSDK_OFFSET(0x16DABA20)
 
-inline static constexpr unsigned int PGPPCPIOGOF_TypeDefinitionIndex = 64262;
+inline static constexpr unsigned int PGPPCPIOGOF_TypeDefinitionIndex = 65707;
 
 	class PGPPCPIOGOF : public ::RPG::Client::BaseRedDotFilter
 	{

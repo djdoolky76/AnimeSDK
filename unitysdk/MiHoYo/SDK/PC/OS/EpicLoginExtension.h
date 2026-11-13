@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_EPICLOGINEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE4D10)
+#define MIHOYO_SDK_PC_OS_EPICLOGINEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0DD7A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int EpicLoginExtension_TypeDefinitionIndex = 8528;
+	inline static constexpr unsigned int EpicLoginExtension_TypeDefinitionIndex = 8537;
 
 	class EpicLoginExtension : public ::System::Object
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class MissionTalkStyle; }
 namespace RPG::GameCore { class PlayMissionTalk; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PLAYMISSIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9001F0)
-#define RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D900200)
-#define RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9001B0)
+#define RPG_GAMECORE_PLAYMISSIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6E980)
+#define RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1EE6E990)
+#define RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE6E940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayMissionTalk_TypeDefinitionIndex = 23807;
+	inline static constexpr unsigned int PlayMissionTalk_TypeDefinitionIndex = 24263;
 
 	class PlayMissionTalk : public ::RPG::GameCore::SimpleTalkListConfig
 	{

@@ -4,23 +4,22 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define FNAMEPPFEJI_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x1585DFF0)
-#define FNAMEPPFEJI_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0x1585E0A0)
-#define FNAMEPPFEJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1585E2B0)
-#define FNAMEPPFEJI_DKKJNPPHDPM_OFFSET UNITYSDK_OFFSET(0x1585DEB0)
-#define FNAMEPPFEJI_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x1585E1A0)
-#define FNAMEPPFEJI__ONBIND_OFFSET UNITYSDK_OFFSET(0x1585E140)
+#define FNAMEPPFEJI_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x17F10DE0)
+#define FNAMEPPFEJI_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0x17F10E90)
+#define FNAMEPPFEJI_CTOR_OFFSET UNITYSDK_OFFSET(0x17F110E0)
+#define FNAMEPPFEJI_DKKJNPPHDPM_OFFSET UNITYSDK_OFFSET(0x17F10CA0)
+#define FNAMEPPFEJI__ONBIND_OFFSET UNITYSDK_OFFSET(0x17F10F30)
+#define FNAMEPPFEJI__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x17F10FD0)
 
-inline static constexpr unsigned int FNAMEPPFEJI_TypeDefinitionIndex = 71881;
+inline static constexpr unsigned int FNAMEPPFEJI_TypeDefinitionIndex = 73902;
 
 	class FNAMEPPFEJI : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Animator* APPGGMLEPLN; // 0x60
-		::System::String* IGJJHEEENHC; // 0x68
-		::System::Boolean IDBHEIBEGBA; // 0x70
-		::System::Byte _padding0[0x3];
-		::System::Single ADPMMNEFDPA; // 0x74
+		::System::String* IGJJHEEENHC; // 0x60
+		::UnityEngine::Animator* APPGGMLEPLN; // 0x68
+		::System::Single ADPMMNEFDPA; // 0x70
+		::System::Boolean IDBHEIBEGBA; // 0x74
 		// static const ::System::String* MKKFPJGMJOO; // 0x0
 		::System::Void _ctor()
 		{
@@ -42,9 +41,9 @@ inline static constexpr unsigned int FNAMEPPFEJI_TypeDefinitionIndex = 71881;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNAMEPPFEJI__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNAMEPPFEJI_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNAMEPPFEJI__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void BIOBBNGDGDF(::System::String* a1, ::System::Single a2)

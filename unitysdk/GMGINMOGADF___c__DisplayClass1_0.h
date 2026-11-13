@@ -4,10 +4,10 @@
 class OPEJFIDCNPO;
 namespace RPG::GameCore { class GameEntity; }
 
-#define GMGINMOGADF___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC5F10)
-#define GMGINMOGADF___C__DISPLAYCLASS1_0__SELECTABLEENEMYALIVECOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x15AC6660)
+#define GMGINMOGADF___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16C7E330)
+#define GMGINMOGADF___C__DISPLAYCLASS1_0__SELECTABLEENEMYALIVECOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x16C7EA80)
 
-inline static constexpr unsigned int GMGINMOGADF___c__DisplayClass1_0_TypeDefinitionIndex = 54361;
+inline static constexpr unsigned int GMGINMOGADF___c__DisplayClass1_0_TypeDefinitionIndex = 55525;
 
 	class GMGINMOGADF___c__DisplayClass1_0 : public ::System::Object
 	{

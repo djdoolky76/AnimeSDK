@@ -4,18 +4,18 @@
 class LFCHHMGGMPC;
 namespace System { class Object; }
 
-#define LFCHHMGGMPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E90D7A0)
-#define LFCHHMGGMPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E90D7E0)
-#define LFCHHMGGMPC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E90D7F0)
+#define LFCHHMGGMPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAA6AE0)
+#define LFCHHMGGMPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAA6B20)
+#define LFCHHMGGMPC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FAA6B30)
 
-inline static constexpr unsigned int LFCHHMGGMPC___c_TypeDefinitionIndex = 32137;
+inline static constexpr unsigned int LFCHHMGGMPC___c_TypeDefinitionIndex = 33050;
 
 	class LFCHHMGGMPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x328C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31490);
 		}
 
 		static ::System::Void _cctor()

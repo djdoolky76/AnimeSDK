@@ -7,35 +7,35 @@ class POIONNNNCMJ;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CCEIJBFAOAI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C51B1F0)
-#define CCEIJBFAOAI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C51B230)
-#define CCEIJBFAOAI___C__DESTROYALLCHIPPIECES_B__41_0_OFFSET UNITYSDK_OFFSET(0x1C51B290)
-#define CCEIJBFAOAI___C__INITPROGRESS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1C51B240)
-#define CCEIJBFAOAI___C__INITPROGRESS_B__35_1_OFFSET UNITYSDK_OFFSET(0x1C51B270)
+#define CCEIJBFAOAI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E77E3C0)
+#define CCEIJBFAOAI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E77E400)
+#define CCEIJBFAOAI___C__DESTROYALLCHIPPIECES_B__41_0_OFFSET UNITYSDK_OFFSET(0x1E77E460)
+#define CCEIJBFAOAI___C__INITPROGRESS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1E77E410)
+#define CCEIJBFAOAI___C__INITPROGRESS_B__35_1_OFFSET UNITYSDK_OFFSET(0x1E77E440)
 
-inline static constexpr unsigned int CCEIJBFAOAI___c_TypeDefinitionIndex = 41791;
+inline static constexpr unsigned int CCEIJBFAOAI___c_TypeDefinitionIndex = 42766;
 
 	class CCEIJBFAOAI___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::NKIJFPHFJCO*, ::System::Boolean>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::NKIJFPHFJCO*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FD00);
-		}
-
 		static ::System::Func_2<::POIONNNNCMJ*, ::System::Boolean>** StaticGet___9__35_0()
 		{
-			return (::System::Func_2<::POIONNNNCMJ*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FD08);
+			return (::System::Func_2<::POIONNNNCMJ*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xDF70);
 		}
 
 		static ::System::Func_2<::POIONNNNCMJ*, ::KKGMHJNMOID*>** StaticGet___9__35_1()
 		{
-			return (::System::Func_2<::POIONNNNCMJ*, ::KKGMHJNMOID*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FD10);
+			return (::System::Func_2<::POIONNNNCMJ*, ::KKGMHJNMOID*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xDF78);
+		}
+
+		static ::System::Func_2<::NKIJFPHFJCO*, ::System::Boolean>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::NKIJFPHFJCO*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xDF80);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FD18);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xDF88);
 		}
 
 		static ::System::Void _cctor()

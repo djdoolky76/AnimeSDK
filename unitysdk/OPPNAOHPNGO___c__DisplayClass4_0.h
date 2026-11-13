@@ -6,10 +6,10 @@ class HMFFHLKHOMJ;
 class OPPNAOHPNGO;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define OPPNAOHPNGO___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFAF030)
-#define OPPNAOHPNGO___C__DISPLAYCLASS4_0__SENDTEAMTOWERSFINISHPVESTAGECSREQ_B__0_OFFSET UNITYSDK_OFFSET(0xBFAF1D0)
+#define OPPNAOHPNGO___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18AC5810)
+#define OPPNAOHPNGO___C__DISPLAYCLASS4_0__SENDTEAMTOWERSFINISHPVESTAGECSREQ_B__0_OFFSET UNITYSDK_OFFSET(0x18AC59B0)
 
-inline static constexpr unsigned int OPPNAOHPNGO___c__DisplayClass4_0_TypeDefinitionIndex = 79047;
+inline static constexpr unsigned int OPPNAOHPNGO___c__DisplayClass4_0_TypeDefinitionIndex = 81823;
 
 	class OPPNAOHPNGO___c__DisplayClass4_0 : public ::System::Object
 	{

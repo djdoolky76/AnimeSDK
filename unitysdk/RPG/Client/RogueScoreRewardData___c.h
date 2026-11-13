@@ -5,25 +5,25 @@ namespace RPG::GameCore { class RogueScoreRewardRow; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUESCOREREWARDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF5F910)
-#define RPG_CLIENT_ROGUESCOREREWARDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF5F950)
-#define RPG_CLIENT_ROGUESCOREREWARDDATA___C__GETCURSCOREREWARDROWS_B__4_0_OFFSET UNITYSDK_OFFSET(0xDF5F960)
+#define RPG_CLIENT_ROGUESCOREREWARDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8508D0)
+#define RPG_CLIENT_ROGUESCOREREWARDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C850910)
+#define RPG_CLIENT_ROGUESCOREREWARDDATA___C__GETCURSCOREREWARDROWS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C850920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueScoreRewardData___c_TypeDefinitionIndex = 67470;
+	inline static constexpr unsigned int RogueScoreRewardData___c_TypeDefinitionIndex = 69414;
 
 	class RogueScoreRewardData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::RogueScoreRewardRow*>** StaticGet___9__4_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::RogueScoreRewardRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69260);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69268);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72160);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::RogueScoreRewardRow*>** StaticGet___9__4_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::RogueScoreRewardRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72168);
 		}
 
 		static ::System::Void _cctor()

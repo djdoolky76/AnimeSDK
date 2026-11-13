@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ENLNFBCDEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x155A6940)
+#define ENLNFBCDEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x18811920)
 
-inline static constexpr unsigned int ENLNFBCDEIO_TypeDefinitionIndex = 78945;
+inline static constexpr unsigned int ENLNFBCDEIO_TypeDefinitionIndex = 81721;
 
 	class ENLNFBCDEIO : public ::System::Object
 	{

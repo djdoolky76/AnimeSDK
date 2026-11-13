@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_INCLUDEINSCHEMA_OFFSET UNITYSDK_OFFSET(0x1EF0CEC0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1EF0CED0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x1EEDE540)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_INCLUDEINSCHEMA_OFFSET UNITYSDK_OFFSET(0x18A4F180)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x18A4F190)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x18A20720)
 
 namespace System::Xml::Serialization
 {
@@ -14,8 +14,8 @@ namespace System::Xml::Serialization
 	class XmlTypeAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* ns; // 0x10
-		::System::String* typeName; // 0x18
+		::System::String* typeName; // 0x10
+		::System::String* ns; // 0x18
 		::System::Boolean includeInSchema; // 0x20
 		::System::Boolean get_IncludeInSchema()
 		{

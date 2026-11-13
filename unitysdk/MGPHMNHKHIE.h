@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MGPHMNHKHIE_CTOR_OFFSET UNITYSDK_OFFSET(0xB927190)
-#define MGPHMNHKHIE_GET_CLOSEFULLSCREEN_OFFSET UNITYSDK_OFFSET(0xB9271C0)
-#define MGPHMNHKHIE_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xB9271A0)
-#define MGPHMNHKHIE_SET_CLOSEFULLSCREEN_OFFSET UNITYSDK_OFFSET(0xB9271D0)
-#define MGPHMNHKHIE_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xB9271B0)
+#define MGPHMNHKHIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B34D190)
+#define MGPHMNHKHIE_GET_CLOSEFULLSCREEN_OFFSET UNITYSDK_OFFSET(0x1B34D1C0)
+#define MGPHMNHKHIE_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0x1B34D1A0)
+#define MGPHMNHKHIE_SET_CLOSEFULLSCREEN_OFFSET UNITYSDK_OFFSET(0x1B34D1D0)
+#define MGPHMNHKHIE_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0x1B34D1B0)
 
-inline static constexpr unsigned int MGPHMNHKHIE_TypeDefinitionIndex = 80278;
+inline static constexpr unsigned int MGPHMNHKHIE_TypeDefinitionIndex = 83055;
 
 	class MGPHMNHKHIE : public ::System::Object
 	{
 	public:
-		::System::Boolean _CloseFullScreen_k__BackingField; // 0x10
-		::System::Boolean _CloseWindow_k__BackingField; // 0x11
+		::System::Boolean _CloseWindow_k__BackingField; // 0x10
+		::System::Boolean _CloseFullScreen_k__BackingField; // 0x11
 		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MGPHMNHKHIE_CTOR_OFFSET))(this, a1, a2);

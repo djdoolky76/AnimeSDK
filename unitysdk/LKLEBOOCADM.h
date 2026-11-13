@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class IAFKJCICCOP;
 
-#define LKLEBOOCADM_CTOR_OFFSET UNITYSDK_OFFSET(0xB74CCD0)
+#define LKLEBOOCADM_CTOR_OFFSET UNITYSDK_OFFSET(0x18CF6310)
 
-inline static constexpr unsigned int LKLEBOOCADM_TypeDefinitionIndex = 67128;
+inline static constexpr unsigned int LKLEBOOCADM_TypeDefinitionIndex = 69072;
 
 	class LKLEBOOCADM : public ::System::Object
 	{

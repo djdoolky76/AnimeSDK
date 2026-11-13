@@ -4,18 +4,18 @@
 class PNOLLIAKGDB;
 namespace System { class Object; }
 
-#define PNOLLIAKGDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF93AF0)
-#define PNOLLIAKGDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF93B20)
-#define PNOLLIAKGDB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF93B30)
+#define PNOLLIAKGDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCB7780)
+#define PNOLLIAKGDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCB77B0)
+#define PNOLLIAKGDB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FCB77C0)
 
-inline static constexpr unsigned int PNOLLIAKGDB___c_TypeDefinitionIndex = 32033;
+inline static constexpr unsigned int PNOLLIAKGDB___c_TypeDefinitionIndex = 32946;
 
 	class PNOLLIAKGDB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43250);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E800);
 		}
 
 		static ::System::Void _cctor()

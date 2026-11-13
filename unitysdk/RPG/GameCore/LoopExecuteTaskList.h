@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class LoopExecuteTaskList; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LOOPEXECUTETASKLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C7E70)
-#define RPG_GAMECORE_LOOPEXECUTETASKLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C7EE0)
-#define RPG_GAMECORE_LOOPEXECUTETASKLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C7C40)
+#define RPG_GAMECORE_LOOPEXECUTETASKLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07A1F0)
+#define RPG_GAMECORE_LOOPEXECUTETASKLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F07A260)
+#define RPG_GAMECORE_LOOPEXECUTETASKLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F079FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopExecuteTaskList_TypeDefinitionIndex = 22896;
+	inline static constexpr unsigned int LoopExecuteTaskList_TypeDefinitionIndex = 23322;
 
 	class LoopExecuteTaskList : public ::RPG::GameCore::TaskConfig
 	{

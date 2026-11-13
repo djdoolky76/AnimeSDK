@@ -6,18 +6,18 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class RectTransform; }
 
-#define MKMLDELEKJC_CGBKEJEHBBK_OFFSET UNITYSDK_OFFSET(0xB998150)
-#define MKMLDELEKJC_CTOR_OFFSET UNITYSDK_OFFSET(0xB998440)
-#define MKMLDELEKJC_EPFNMBNMOJJ_OFFSET UNITYSDK_OFFSET(0xB998310)
-#define MKMLDELEKJC_OEFNECLNDEC_OFFSET UNITYSDK_OFFSET(0xB998160)
+#define MKMLDELEKJC_CGBKEJEHBBK_OFFSET UNITYSDK_OFFSET(0x1B90CDF0)
+#define MKMLDELEKJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B90D0E0)
+#define MKMLDELEKJC_EPFNMBNMOJJ_OFFSET UNITYSDK_OFFSET(0x1B90CFB0)
+#define MKMLDELEKJC_OEFNECLNDEC_OFFSET UNITYSDK_OFFSET(0x1B90CE00)
 
-inline static constexpr unsigned int MKMLDELEKJC_TypeDefinitionIndex = 68990;
+inline static constexpr unsigned int MKMLDELEKJC_TypeDefinitionIndex = 70943;
 
 	class MKMLDELEKJC : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Vector3>* LMKBPJHEPIL; // 0x10
-		::Il2CppArray<::UnityEngine::Vector3>* EMMOPLHDJLL; // 0x18
+		::Il2CppArray<::UnityEngine::Vector3>* EMMOPLHDJLL; // 0x10
+		::Il2CppArray<::UnityEngine::Vector3>* LMKBPJHEPIL; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MKMLDELEKJC_CTOR_OFFSET))(this);

@@ -8,26 +8,26 @@ namespace System { class Action; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define HDEPIHNOOHF_CJFDCDHGDDM_OFFSET UNITYSDK_OFFSET(0x15C25BB0)
-#define HDEPIHNOOHF_CLEAR_OFFSET UNITYSDK_OFFSET(0x15C25A70)
-#define HDEPIHNOOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C25C60)
-#define HDEPIHNOOHF_GET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x15C25C40)
-#define HDEPIHNOOHF_IECGFFIHLMC_OFFSET UNITYSDK_OFFSET(0x15C25B50)
-#define HDEPIHNOOHF_SET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x15C25C50)
+#define HDEPIHNOOHF_CJFDCDHGDDM_OFFSET UNITYSDK_OFFSET(0x1B7C62F0)
+#define HDEPIHNOOHF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B7C61C0)
+#define HDEPIHNOOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C63A0)
+#define HDEPIHNOOHF_GET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x1B7C6380)
+#define HDEPIHNOOHF_IECGFFIHLMC_OFFSET UNITYSDK_OFFSET(0x1B7C6290)
+#define HDEPIHNOOHF_SET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x1B7C6390)
 
-inline static constexpr unsigned int HDEPIHNOOHF_TypeDefinitionIndex = 72792;
+inline static constexpr unsigned int HDEPIHNOOHF_TypeDefinitionIndex = 74871;
 
 	class HDEPIHNOOHF : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::RawImage* LLEBFFLOKFK; // 0x10
-		::RPG::Client::UIMeta* FGACGGHECGO; // 0x18
+		::RPG::Client::UIMeta* FGACGGHECGO; // 0x10
+		::UnityEngine::RenderTexture* _CaptureTexture_k__BackingField; // 0x18
 		::RPG::Client::UIValueChangeAnimation* MKNKLKMHLBB; // 0x20
 		::System::Action* COJINAIKIID; // 0x28
-		::UnityEngine::RenderTexture* _CaptureTexture_k__BackingField; // 0x30
-		::System::Single HLMHCCCJFBA; // 0x38
+		::UnityEngine::UI::RawImage* LLEBFFLOKFK; // 0x30
+		::System::Single MNEMEGANFBD; // 0x38
 		::RPG::GameCore::FrameCaptureFadeoutType PFNGCIBCAAN; // 0x3C
-		::System::Single MNEMEGANFBD; // 0x40
+		::System::Single HLMHCCCJFBA; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDEPIHNOOHF_CTOR_OFFSET))(this);

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_ROADRASHTREVENTTRIGGERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC7CB420)
+#define RPG_CLIENT_B51RACING_ROADRASHTREVENTTRIGGERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA8B640)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashTREventTriggerData_TypeDefinitionIndex = 81681;
+	inline static constexpr unsigned int RoadRashTREventTriggerData_TypeDefinitionIndex = 84462;
 
 	class RoadRashTREventTriggerData : public ::System::Object
 	{

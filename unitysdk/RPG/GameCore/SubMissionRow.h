@@ -8,38 +8,38 @@ namespace RPG::GameCore { class SubMissionRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SUBMISSIONROW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB09CA0)
-#define RPG_GAMECORE_SUBMISSIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB09780)
-#define RPG_GAMECORE_SUBMISSIONROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1DB028E0)
-#define RPG_GAMECORE_SUBMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB02AC0)
-#define RPG_GAMECORE_SUBMISSIONROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DB09700)
-#define RPG_GAMECORE_SUBMISSIONROW_GETMAINMISSIONIDBYSUBMISSION_OFFSET UNITYSDK_OFFSET(0x1DB09A60)
-#define RPG_GAMECORE_SUBMISSIONROW_GET_INITED_OFFSET UNITYSDK_OFFSET(0x1DB09790)
-#define RPG_GAMECORE_SUBMISSIONROW_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x1DB09C70)
-#define RPG_GAMECORE_SUBMISSIONROW_LAZYLOADLEGACYIDMAPPING_OFFSET UNITYSDK_OFFSET(0x1DB097B0)
-#define RPG_GAMECORE_SUBMISSIONROW_RESET_OFFSET UNITYSDK_OFFSET(0x1DB09760)
-#define RPG_GAMECORE_SUBMISSIONROW_SET_INITED_OFFSET UNITYSDK_OFFSET(0x1DB097A0)
+#define RPG_GAMECORE_SUBMISSIONROW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E679B30)
+#define RPG_GAMECORE_SUBMISSIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E679630)
+#define RPG_GAMECORE_SUBMISSIONROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1E672790)
+#define RPG_GAMECORE_SUBMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E672970)
+#define RPG_GAMECORE_SUBMISSIONROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1E6795B0)
+#define RPG_GAMECORE_SUBMISSIONROW_GETMAINMISSIONIDBYSUBMISSION_OFFSET UNITYSDK_OFFSET(0x1E6798F0)
+#define RPG_GAMECORE_SUBMISSIONROW_GET_INITED_OFFSET UNITYSDK_OFFSET(0x1E679640)
+#define RPG_GAMECORE_SUBMISSIONROW_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x1E679B00)
+#define RPG_GAMECORE_SUBMISSIONROW_LAZYLOADLEGACYIDMAPPING_OFFSET UNITYSDK_OFFSET(0x1E679660)
+#define RPG_GAMECORE_SUBMISSIONROW_RESET_OFFSET UNITYSDK_OFFSET(0x1E679610)
+#define RPG_GAMECORE_SUBMISSIONROW_SET_INITED_OFFSET UNITYSDK_OFFSET(0x1E679650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionRow_TypeDefinitionIndex = 14139;
+	inline static constexpr unsigned int SubMissionRow_TypeDefinitionIndex = 14296;
 
 	class SubMissionRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID DescrptionText; // 0x10
-		::RPG::Client::TextID TargetText; // 0x20
-		::System::Boolean _Inited_k__BackingField; // 0x30
+		::System::UInt32 SubMissionID; // 0x10
+		::System::Boolean _Inited_k__BackingField; // 0x14
 		::System::Byte _padding0[0x3];
-		::System::UInt32 SubMissionID; // 0x34
+		::RPG::Client::TextID DescrptionText; // 0x18
+		::RPG::Client::TextID TargetText; // 0x28
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>** StaticGet__LegacyMissionIDPair()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "SubMissionRow")->GetStaticField(0x1C8C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "SubMissionRow")->GetStaticField(0x1BF90);
 		}
 
 		static ::System::String** StaticGet_MISSION_ID_PAIR_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "SubMissionRow")->GetStaticField(0x1C8C8);
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "SubMissionRow")->GetStaticField(0x1BF98);
 		}
 
 		::System::Void _ctor()

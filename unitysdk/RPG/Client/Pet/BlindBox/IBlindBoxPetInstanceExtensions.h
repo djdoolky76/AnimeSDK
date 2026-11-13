@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Pet::BlindBox { class IBlindBoxPetInstance; }
 
-#define RPG_CLIENT_PET_BLINDBOX_IBLINDBOXPETINSTANCEEXTENSIONS_ISCHROMAEFFECTIVE_OFFSET UNITYSDK_OFFSET(0xDAA8F40)
+#define RPG_CLIENT_PET_BLINDBOX_IBLINDBOXPETINSTANCEEXTENSIONS_ISCHROMAEFFECTIVE_OFFSET UNITYSDK_OFFSET(0x1C1CAAF0)
 
 namespace RPG::Client::Pet::BlindBox
 {
-	inline static constexpr unsigned int IBlindBoxPetInstanceExtensions_TypeDefinitionIndex = 75744;
+	inline static constexpr unsigned int IBlindBoxPetInstanceExtensions_TypeDefinitionIndex = 78071;
 
 	class IBlindBoxPetInstanceExtensions : public ::System::Object
 	{

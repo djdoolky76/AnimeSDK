@@ -6,11 +6,11 @@ class EFKCHNCGGIO;
 namespace RPG::Client { class GridFightGameSession; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EFKCHNCGGIO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A52E60)
-#define EFKCHNCGGIO_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x13A52DC0)
-#define EFKCHNCGGIO_IJDBKJANJGD_OFFSET UNITYSDK_OFFSET(0x13A53150)
+#define EFKCHNCGGIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A33C100)
+#define EFKCHNCGGIO_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1A33C060)
+#define EFKCHNCGGIO_IJDBKJANJGD_OFFSET UNITYSDK_OFFSET(0x1A33C600)
 
-inline static constexpr unsigned int EFKCHNCGGIO_TypeDefinitionIndex = 64841;
+inline static constexpr unsigned int EFKCHNCGGIO_TypeDefinitionIndex = 66389;
 
 	class EFKCHNCGGIO : public ::System::Object
 	{
@@ -18,7 +18,7 @@ inline static constexpr unsigned int EFKCHNCGGIO_TypeDefinitionIndex = 64841;
 		::System::Collections::Generic::List_1<::EBMFAGKJIIM*>* APPIAANONPF; // 0x10
 		static ::EFKCHNCGGIO** StaticGet_FLMODBLFAGD()
 		{
-			return (::EFKCHNCGGIO**)UnitySDK::FromName("", "EFKCHNCGGIO")->GetStaticField(0x6FFB0);
+			return (::EFKCHNCGGIO**)UnitySDK::FromName("", "EFKCHNCGGIO")->GetStaticField(0x72F30);
 		}
 
 		::System::Void _ctor()

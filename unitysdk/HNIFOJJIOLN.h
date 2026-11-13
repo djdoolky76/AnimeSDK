@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByPreShowStanceBreak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HNIFOJJIOLN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8A1F0)
-#define HNIFOJJIOLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D8A2D0)
+#define HNIFOJJIOLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A36DDA0)
+#define HNIFOJJIOLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A36DE80)
 
-inline static constexpr unsigned int HNIFOJJIOLN_TypeDefinitionIndex = 54707;
+inline static constexpr unsigned int HNIFOJJIOLN_TypeDefinitionIndex = 55874;
 
 	class HNIFOJJIOLN
 	{

@@ -10,15 +10,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7E5960)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_CTOR_OFFSET UNITYSDK_OFFSET(0xD7E5890)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_INIT_OFFSET UNITYSDK_OFFSET(0xD7E49E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_UNINIT_OFFSET UNITYSDK_OFFSET(0xD7E4D90)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7E4E30)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x19395970)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_CTOR_OFFSET UNITYSDK_OFFSET(0x193958A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_INIT_OFFSET UNITYSDK_OFFSET(0x193949F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_UNINIT_OFFSET UNITYSDK_OFFSET(0x19394DA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19394E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropStencil_TypeDefinitionIndex = 69981;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropStencil_TypeDefinitionIndex = 71941;
 
 	class MonoEffectPluginCharaPropStencil : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -73,94 +73,94 @@ namespace RPG::Client
 		::System::Int32 Clear_RenderQueue; // 0xF4
 		::Il2CppArray<::System::Int32>* JAAFPHPEJOJ; // 0xF8
 		::UnityEngine::Material* CJMPDEJJAJL; // 0x100
-		static ::System::Int32* StaticGet_NPPKDIGLJEB()
+		static ::System::Int32* StaticGet_FGHDEJBJPLO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14620);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150D0);
 		}
 
 		static ::System::Int32* StaticGet_CNFBMOCJIOP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14624);
-		}
-
-		static ::System::Int32* StaticGet_EBKGIACBLCP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14628);
-		}
-
-		static ::System::Int32* StaticGet_DOKFILOMPMC()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x1462C);
-		}
-
-		static ::System::Int32* StaticGet_CODBNIJBPPM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14630);
-		}
-
-		static ::System::Int32* StaticGet_LLIPLFICHEP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14634);
-		}
-
-		static ::System::Int32* StaticGet_HIJMELLNKDK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14638);
-		}
-
-		static ::System::Int32* StaticGet_KMBKGHPHPMN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x1463C);
-		}
-
-		static ::System::Int32* StaticGet_AIMEAGPLPDP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14640);
-		}
-
-		static ::System::Int32* StaticGet_CJEMBNIFDFH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14644);
-		}
-
-		static ::System::Int32* StaticGet_ODGMANJEJLI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14648);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150D4);
 		}
 
 		static ::System::Int32* StaticGet_DDHONBJPDDP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x1464C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150D8);
 		}
 
-		static ::System::Int32* StaticGet_FGHDEJBJPLO()
+		static ::System::Int32* StaticGet_HIJMELLNKDK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14650);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150DC);
 		}
 
-		static ::System::Int32* StaticGet_AFGGOEBDLED()
+		static ::System::Int32* StaticGet_DOKFILOMPMC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14654);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150E0);
+		}
+
+		static ::System::Int32* StaticGet_EBKGIACBLCP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150E4);
+		}
+
+		static ::System::Int32* StaticGet_LLIPLFICHEP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150E8);
 		}
 
 		static ::System::Int32* StaticGet_PIGEDHNCKCM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14658);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150EC);
 		}
 
-		static ::System::Int32* StaticGet_JBMMAILFCHJ()
+		static ::System::Int32* StaticGet_AIMEAGPLPDP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x1465C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150F0);
 		}
 
 		static ::System::Int32* StaticGet_CHLJAIJEFCA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14660);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150F4);
+		}
+
+		static ::System::Int32* StaticGet_ODGMANJEJLI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150F8);
+		}
+
+		static ::System::Int32* StaticGet_CJEMBNIFDFH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x150FC);
+		}
+
+		static ::System::Int32* StaticGet_JBMMAILFCHJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x15100);
 		}
 
 		static ::System::Int32* StaticGet_PEKKLOGJHPK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x14664);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x15104);
+		}
+
+		static ::System::Int32* StaticGet_KMBKGHPHPMN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x15108);
+		}
+
+		static ::System::Int32* StaticGet_AFGGOEBDLED()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x1510C);
+		}
+
+		static ::System::Int32* StaticGet_NPPKDIGLJEB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x15110);
+		}
+
+		static ::System::Int32* StaticGet_CODBNIJBPPM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginCharaPropStencil")->GetStaticField(0x15114);
 		}
 
 		::System::Void _ctor()

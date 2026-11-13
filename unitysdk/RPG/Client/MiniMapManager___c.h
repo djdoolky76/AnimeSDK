@@ -6,37 +6,37 @@ namespace RPG::Client { class MiniMapZone; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MINIMAPMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD6B7EC0)
-#define RPG_CLIENT_MINIMAPMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD6B7EF0)
-#define RPG_CLIENT_MINIMAPMANAGER___C__GETMINIMAPICONS_B__20_0_OFFSET UNITYSDK_OFFSET(0xD6B7F00)
-#define RPG_CLIENT_MINIMAPMANAGER___C__GETMINIMAPICONS_B__20_1_OFFSET UNITYSDK_OFFSET(0xD6B8420)
-#define RPG_CLIENT_MINIMAPMANAGER___C___REGISTERZONEINTERNAL_B__25_0_OFFSET UNITYSDK_OFFSET(0xD6B8620)
+#define RPG_CLIENT_MINIMAPMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1965AF80)
+#define RPG_CLIENT_MINIMAPMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1965AFB0)
+#define RPG_CLIENT_MINIMAPMANAGER___C__GETMINIMAPICONS_B__20_0_OFFSET UNITYSDK_OFFSET(0x1965AFC0)
+#define RPG_CLIENT_MINIMAPMANAGER___C__GETMINIMAPICONS_B__20_1_OFFSET UNITYSDK_OFFSET(0x1965B4E0)
+#define RPG_CLIENT_MINIMAPMANAGER___C___REGISTERZONEINTERNAL_B__25_0_OFFSET UNITYSDK_OFFSET(0x1965B6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MiniMapManager___c_TypeDefinitionIndex = 60659;
+	inline static constexpr unsigned int MiniMapManager___c_TypeDefinitionIndex = 62036;
 
 	class MiniMapManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::MiniMapZone*>** StaticGet___9__25_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::MiniMapZone*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x52EA0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x52EA8);
-		}
-
 		static ::System::Comparison_1<::JGIBKJLGLIC*>** StaticGet___9__20_1()
 		{
-			return (::System::Comparison_1<::JGIBKJLGLIC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x52EB0);
+			return (::System::Comparison_1<::JGIBKJLGLIC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F330);
 		}
 
 		static ::System::Comparison_1<::JGIBKJLGLIC*>** StaticGet___9__20_0()
 		{
-			return (::System::Comparison_1<::JGIBKJLGLIC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x52EB8);
+			return (::System::Comparison_1<::JGIBKJLGLIC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F338);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::MiniMapZone*>** StaticGet___9__25_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::MiniMapZone*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F340);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F348);
 		}
 
 		static ::System::Void _cctor()

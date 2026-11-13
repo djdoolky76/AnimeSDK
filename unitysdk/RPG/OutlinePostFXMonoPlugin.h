@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/OutlineOccluderMode.h"
 #include "unitysdk/UnityEngine/Color.h"
 namespace RPG { class OutlinePostFXMonoPlugin; }
 namespace RPG { class OutlineSettings; }
@@ -8,19 +9,22 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xE871760)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE871730)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDOBJECTRENDERERLIST_OFFSET UNITYSDK_OFFSET(0xE8700E0)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDSETTINGS_OFFSET UNITYSDK_OFFSET(0xE870140)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_HASUNIFIEDMANAGER_OFFSET UNITYSDK_OFFSET(0xE8712B0)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_REGISTERPLUGIN_OFFSET UNITYSDK_OFFSET(0xE86F380)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_UNREGISTERPLUGIN_OFFSET UNITYSDK_OFFSET(0xE86F860)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_UPDATEUNIFIEDRENDERERLIST_OFFSET UNITYSDK_OFFSET(0xE871310)
-#define RPG_OUTLINEPOSTFXMONOPLUGIN_UPDATEUNIFIEDSETTINGS_OFFSET UNITYSDK_OFFSET(0xE871120)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA23680)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA23630)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDGLOWRENDERERLIST_OFFSET UNITYSDK_OFFSET(0x1AA200D0)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDOBJECTRENDERERLIST_OFFSET UNITYSDK_OFFSET(0x1AA20050)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDOCCLUDERRENDERERLIST_OFFSET UNITYSDK_OFFSET(0x1AA22320)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1AA20150)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDUIMASKRENDERERLIST_OFFSET UNITYSDK_OFFSET(0x1AA223A0)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_HASUNIFIEDMANAGER_OFFSET UNITYSDK_OFFSET(0x1AA22610)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_REGISTERPLUGIN_OFFSET UNITYSDK_OFFSET(0x1AA1ED90)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_UNREGISTERPLUGIN_OFFSET UNITYSDK_OFFSET(0x1AA1F440)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_UPDATEUNIFIEDRENDERERLIST_OFFSET UNITYSDK_OFFSET(0x1AA22690)
+#define RPG_OUTLINEPOSTFXMONOPLUGIN_UPDATEUNIFIEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1AA22420)
 
 namespace RPG
 {
-	inline static constexpr unsigned int OutlinePostFXMonoPlugin_TypeDefinitionIndex = 51719;
+	inline static constexpr unsigned int OutlinePostFXMonoPlugin_TypeDefinitionIndex = 52805;
 
 	class OutlinePostFXMonoPlugin
 	{
@@ -31,27 +35,54 @@ namespace RPG
 		::System::Byte _padding0[0x3];
 		::System::Int32 Downsample; // 0x4C
 		::System::Single BlurSize; // 0x50
-		::System::Byte _padding1[0x4];
-		::UnityEngine::Shader* OutlineShader; // 0x58
-		::UnityEngine::Material* OutlineMaterial; // 0x60
+		::System::Boolean EnableDepthTest; // 0x54
+		::System::Byte _padding1[0x3];
+		::System::Single DepthTestBias; // 0x58
+		::System::Boolean EnableOccluder; // 0x5C
+		::System::Byte _padding2[0x3];
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* OccluderRendererList; // 0x60
+		::RPG::OutlineOccluderMode OccluderMode; // 0x68
+		::System::Single OccludedOutlineAlpha; // 0x6C
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* GlowRendererList; // 0x70
+		::UnityEngine::Color GlowColor; // 0x78
+		::System::Single GlowIntensity; // 0x88
+		::System::Single GlowRange; // 0x8C
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* UIMaskRendererList; // 0x90
+		::UnityEngine::Shader* OutlineShader; // 0x98
+		::UnityEngine::Material* OutlineMaterial; // 0xA0
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet__unifiedOccluderRendererList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x73700);
+		}
+
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet__unifiedObjectRendererList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x6F270);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x73708);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet__unifiedUIMaskRendererList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x73710);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet__unifiedGlowRendererList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x73718);
 		}
 
 		static ::System::Collections::Generic::List_1<::RPG::OutlinePostFXMonoPlugin*>** StaticGet_activeList()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::OutlinePostFXMonoPlugin*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x6F278);
+			return (::System::Collections::Generic::List_1<::RPG::OutlinePostFXMonoPlugin*>**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x73720);
 		}
 
 		static ::RPG::OutlineSettings** StaticGet__unifiedSettings()
 		{
-			return (::RPG::OutlineSettings**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x6F280);
+			return (::RPG::OutlineSettings**)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x73728);
 		}
 
 		static ::System::Boolean* StaticGet__hasUnifiedManager()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x158C0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG", "OutlinePostFXMonoPlugin")->GetStaticField(0x16280);
 		}
 
 		::System::Void _ctor()
@@ -67,6 +98,21 @@ namespace RPG
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* GetUnifiedObjectRendererList()
 		{
 			return ((::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*(*)())((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDOBJECTRENDERERLIST_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* GetUnifiedGlowRendererList()
+		{
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*(*)())((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDGLOWRENDERERLIST_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* GetUnifiedOccluderRendererList()
+		{
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*(*)())((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDOCCLUDERRENDERERLIST_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* GetUnifiedUIMaskRendererList()
+		{
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*(*)())((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXMONOPLUGIN_GETUNIFIEDUIMASKRENDERERLIST_OFFSET))();
 		}
 
 		static ::RPG::OutlineSettings* GetUnifiedSettings()

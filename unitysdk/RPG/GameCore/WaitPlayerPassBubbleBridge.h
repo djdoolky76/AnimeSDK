@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitPlayerPassBubbleBridge; }
 
-#define RPG_GAMECORE_WAITPLAYERPASSBUBBLEBRIDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC704C0)
-#define RPG_GAMECORE_WAITPLAYERPASSBUBBLEBRIDGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC704D0)
-#define RPG_GAMECORE_WAITPLAYERPASSBUBBLEBRIDGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC70480)
+#define RPG_GAMECORE_WAITPLAYERPASSBUBBLEBRIDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x207FDF50)
+#define RPG_GAMECORE_WAITPLAYERPASSBUBBLEBRIDGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x207FDF60)
+#define RPG_GAMECORE_WAITPLAYERPASSBUBBLEBRIDGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207FDF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPlayerPassBubbleBridge_TypeDefinitionIndex = 22307;
+	inline static constexpr unsigned int WaitPlayerPassBubbleBridge_TypeDefinitionIndex = 22712;
 
 	class WaitPlayerPassBubbleBridge : public ::RPG::GameCore::AdvWaitingEventBase
 	{

@@ -3,7 +3,7 @@
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightTypeID_TypeDefinitionIndex = 49098;
+	inline static constexpr unsigned int LightTypeID_TypeDefinitionIndex = 50174;
 
 	enum class LightTypeID : ::System::Int32
 	{

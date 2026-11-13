@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define NJHKONOLLPK_FAKEKMHJIBI_OFFSET UNITYSDK_OFFSET(0x216B0)
-#define NJHKONOLLPK_IBLFENNIHDN_OFFSET UNITYSDK_OFFSET(0x21690)
+#define NJHKONOLLPK_FAKEKMHJIBI_OFFSET UNITYSDK_OFFSET(0x3E629C0)
+#define NJHKONOLLPK_IBLFENNIHDN_OFFSET UNITYSDK_OFFSET(0x3E629A0)
 
-inline static constexpr unsigned int NJHKONOLLPK_TypeDefinitionIndex = 57167;
+inline static constexpr unsigned int NJHKONOLLPK_TypeDefinitionIndex = 58396;
 
 	struct alignas(4) NJHKONOLLPK
 	{

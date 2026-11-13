@@ -7,27 +7,27 @@
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F257E10)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2596D0)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_GETCIRCLEPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1F2591A0)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_GETCIRCLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1F258BB0)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F257F30)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F257EA0)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2AE870)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2B0130)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_GETCIRCLEPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1A2AFC00)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_GETCIRCLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1A2AF610)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2AE990)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A2AE900)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Torus_TypeDefinitionIndex = 44473;
+	inline static constexpr unsigned int Torus_TypeDefinitionIndex = 45548;
 
 	class Torus : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
 		::System::Single m_VerticalCircumference; // 0x10
-		::System::Boolean m_Smooth; // 0x14
+		::System::Int32 m_Rows; // 0x14
+		::System::Boolean m_Smooth; // 0x18
 		::System::Byte _padding0[0x3];
-		::System::Single m_TubeRadius; // 0x18
-		::System::Single m_HorizontalCircumference; // 0x1C
-		::System::Int32 m_Rows; // 0x20
-		::System::Int32 m_Columns; // 0x24
+		::System::Int32 m_Columns; // 0x1C
+		::System::Single m_HorizontalCircumference; // 0x20
+		::System::Single m_TubeRadius; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_TORUS_CTOR_OFFSET))(this);

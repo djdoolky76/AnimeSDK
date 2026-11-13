@@ -4,15 +4,15 @@
 namespace RPG::GameCore { class SpecialNPCDataRow; }
 namespace System { class String; }
 
-#define KNDOCIJHHFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB57AB00)
+#define KNDOCIJHHFA_CTOR_OFFSET UNITYSDK_OFFSET(0x18FA2DF0)
 
-inline static constexpr unsigned int KNDOCIJHHFA_TypeDefinitionIndex = 68105;
+inline static constexpr unsigned int KNDOCIJHHFA_TypeDefinitionIndex = 70051;
 
 	class KNDOCIJHHFA : public ::System::Object
 	{
 	public:
-		::System::String* IFIKOCPHOAP; // 0x10
-		::RPG::GameCore::SpecialNPCDataRow* NKFANPJFKFN; // 0x18
+		::RPG::GameCore::SpecialNPCDataRow* NKFANPJFKFN; // 0x10
+		::System::String* IFIKOCPHOAP; // 0x18
 		::System::UInt32 GAKJEOCGEIN; // 0x20
 		::System::UInt32 FDOELDMEBPE; // 0x24
 		::System::Void _ctor(::System::UInt32 a1)

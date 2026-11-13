@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow_InitParameters_TypeDefinitionIndex = 76443;
+	inline static constexpr unsigned int CakeRaceGameFlow_InitParameters_TypeDefinitionIndex = 78774;
 
 	struct alignas(8) CakeRaceGameFlow_InitParameters
 	{

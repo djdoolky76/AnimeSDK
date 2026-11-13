@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class BHFIFFBLMJK;
 
-#define BHFIFFBLMJK___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB472CB0)
-#define BHFIFFBLMJK___C__DISPLAYCLASS19_0__SETVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0xB473740)
+#define BHFIFFBLMJK___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x151E4BA0)
+#define BHFIFFBLMJK___C__DISPLAYCLASS19_0__SETVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x151E5650)
 
-inline static constexpr unsigned int BHFIFFBLMJK___c__DisplayClass19_0_TypeDefinitionIndex = 72322;
+inline static constexpr unsigned int BHFIFFBLMJK___c__DisplayClass19_0_TypeDefinitionIndex = 74399;
 
 	class BHFIFFBLMJK___c__DisplayClass19_0 : public ::System::Object
 	{

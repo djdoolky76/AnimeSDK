@@ -7,19 +7,19 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterData
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CREATEALL_OFFSET UNITYSDK_OFFSET(0xC95CF60)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CREATEONE_OFFSET UNITYSDK_OFFSET(0xC961DE0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC961DD0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CREATEALL_OFFSET UNITYSDK_OFFSET(0x1B6E92B0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CREATEONE_OFFSET UNITYSDK_OFFSET(0x1B6E9200)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E91F0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageViewModel_Factory_TypeDefinitionIndex = 81576;
+	inline static constexpr unsigned int ChallengeTierceStageViewModel_Factory_TypeDefinitionIndex = 84357;
 
 	class ChallengeTierceStageViewModel_Factory : public ::System::Object
 	{
 	public:
-		::EFCKAAKHBKG* _AvatarQueryService; // 0x10
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider_Factory* _MonsterDataProviderFactory; // 0x18
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider_Factory* _MonsterDataProviderFactory; // 0x10
+		::EFCKAAKHBKG* _AvatarQueryService; // 0x18
 		::System::Void _ctor(::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider_Factory* a1, ::EFCKAAKHBKG* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider_Factory*, ::EFCKAAKHBKG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CTOR_OFFSET))(this, a1, a2);

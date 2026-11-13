@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NKOOKDOKLMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC45E70)
+#define NKOOKDOKLMK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7C9280)
 
-inline static constexpr unsigned int NKOOKDOKLMK_TypeDefinitionIndex = 72395;
+inline static constexpr unsigned int NKOOKDOKLMK_TypeDefinitionIndex = 74474;
 
 	class NKOOKDOKLMK : public ::System::Object
 	{

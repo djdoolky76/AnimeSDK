@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingGameBoyRankingsNPCRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGGAMEBOYRANKINGSNPCROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D565370)
-#define RPG_GAMECORE_CHENLINGGAMEBOYRANKINGSNPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5650E0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYRANKINGSNPCROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F91A990)
+#define RPG_GAMECORE_CHENLINGGAMEBOYRANKINGSNPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F91A700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyRankingsNPCRow_TypeDefinitionIndex = 14109;
+	inline static constexpr unsigned int ChenLingGameBoyRankingsNPCRow_TypeDefinitionIndex = 14266;
 
 	class ChenLingGameBoyRankingsNPCRow : public ::System::Object
 	{
 	public:
 		::System::String* NPCIconPath; // 0x10
-		::RPG::Client::TextID NPCNameID; // 0x18
-		::System::UInt32 NPCScore; // 0x28
-		::System::UInt32 GameBoyRankingsNPCID; // 0x2C
+		::System::UInt32 NPCScore; // 0x18
+		::System::UInt32 GameBoyRankingsNPCID; // 0x1C
+		::RPG::Client::TextID NPCNameID; // 0x20
 		::RPG::Client::TextID NPCSignature; // 0x30
 		::System::Void _ctor()
 		{

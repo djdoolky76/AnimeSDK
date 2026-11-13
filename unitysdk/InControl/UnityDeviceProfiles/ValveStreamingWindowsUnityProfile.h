@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_VALVESTREAMINGWINDOWSUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB136A0)
-#define INCONTROL_UNITYDEVICEPROFILES_VALVESTREAMINGWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BB12430)
+#define INCONTROL_UNITYDEVICEPROFILES_VALVESTREAMINGWINDOWSUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xC68CFE0)
+#define INCONTROL_UNITYDEVICEPROFILES_VALVESTREAMINGWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC68BD70)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int ValveStreamingWindowsUnityProfile_TypeDefinitionIndex = 41097;
+	inline static constexpr unsigned int ValveStreamingWindowsUnityProfile_TypeDefinitionIndex = 42072;
 
 	class ValveStreamingWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{

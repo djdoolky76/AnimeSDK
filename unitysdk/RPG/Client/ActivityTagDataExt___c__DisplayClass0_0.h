@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivityTagData; }
 
-#define RPG_CLIENT_ACTIVITYTAGDATAEXT___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5B6F30)
-#define RPG_CLIENT_ACTIVITYTAGDATAEXT___C__DISPLAYCLASS0_0__CONTAINSTAG_B__0_OFFSET UNITYSDK_OFFSET(0xC5B6F40)
+#define RPG_CLIENT_ACTIVITYTAGDATAEXT___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCD53D0)
+#define RPG_CLIENT_ACTIVITYTAGDATAEXT___C__DISPLAYCLASS0_0__CONTAINSTAG_B__0_OFFSET UNITYSDK_OFFSET(0x1DCD53E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTagDataExt___c__DisplayClass0_0_TypeDefinitionIndex = 61708;
+	inline static constexpr unsigned int ActivityTagDataExt___c__DisplayClass0_0_TypeDefinitionIndex = 63114;
 
 	class ActivityTagDataExt___c__DisplayClass0_0 : public ::System::Object
 	{

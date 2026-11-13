@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyMapRewardRow; }
 
-#define RPG_GAMECORE_ALLEYMAPREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BA160)
-#define RPG_GAMECORE_ALLEYMAPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B9FB0)
+#define RPG_GAMECORE_ALLEYMAPREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE9F520)
+#define RPG_GAMECORE_ALLEYMAPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DE9F370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMapRewardRow_TypeDefinitionIndex = 12640;
+	inline static constexpr unsigned int AlleyMapRewardRow_TypeDefinitionIndex = 12707;
 
 	class AlleyMapRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ScoreID; // 0x10
-		::RPG::GameCore::AlleyFloorType LayerID; // 0x14
-		::System::UInt32 MapScore; // 0x18
-		::System::UInt32 RewardID; // 0x1C
+		::System::UInt32 MapScore; // 0x10
+		::System::UInt32 RewardID; // 0x14
+		::RPG::GameCore::AlleyFloorType LayerID; // 0x18
+		::System::UInt32 ScoreID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYMAPREWARDROW_CTOR_OFFSET))(this);

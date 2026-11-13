@@ -4,9 +4,9 @@
 class FFKHFDJFAGM;
 class KGNMOPCCKCB;
 
-#define HLGIDLIGKMB_GOKNKIJGKIA_OFFSET UNITYSDK_OFFSET(0x15D52E20)
+#define HLGIDLIGKMB_GOKNKIJGKIA_OFFSET UNITYSDK_OFFSET(0x198A0700)
 
-inline static constexpr unsigned int HLGIDLIGKMB_TypeDefinitionIndex = 79293;
+inline static constexpr unsigned int HLGIDLIGKMB_TypeDefinitionIndex = 82070;
 
 	class HLGIDLIGKMB : public ::System::Object
 	{

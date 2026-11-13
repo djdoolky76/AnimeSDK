@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C11FFF0)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C120030)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C__THROWASYNCIFNECESSARY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1C120040)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD6BAA0)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6BAE0)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C__THROWASYNCIFNECESSARY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1DD6BAF0)
 
 namespace System::Threading::Tasks
 {
@@ -17,12 +17,12 @@ namespace System::Threading::Tasks
 	public:
 		static ::System::Threading::WaitCallback** StaticGet___9__17_0()
 		{
-			return (::System::Threading::WaitCallback**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x26280);
+			return (::System::Threading::WaitCallback**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x18190);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x26288);
+			return (::System::Object**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x18198);
 		}
 
 		static ::System::Void _cctor()

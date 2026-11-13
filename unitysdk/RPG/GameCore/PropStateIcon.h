@@ -8,29 +8,29 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropStateIcon; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSTATEICON_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D92B780)
-#define RPG_GAMECORE_PROPSTATEICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92B770)
-#define RPG_GAMECORE_PROPSTATEICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D92B620)
+#define RPG_GAMECORE_PROPSTATEICON_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF94D80)
+#define RPG_GAMECORE_PROPSTATEICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF94D70)
+#define RPG_GAMECORE_PROPSTATEICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF94C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateIcon_TypeDefinitionIndex = 12546;
+	inline static constexpr unsigned int PropStateIcon_TypeDefinitionIndex = 12613;
 
 	class PropStateIcon : public ::System::Object
 	{
 	public:
-		::System::String* Color; // 0x10
+		::System::String* TimeRewindState; // 0x10
 		::System::String* AnchorKey; // 0x18
-		::System::String* TimeRewindState; // 0x20
+		::System::String* Color; // 0x20
 		::System::Boolean ColorInited; // 0x28
 		::System::Byte _padding0[0x3];
 		::UnityEngine::Color ColorResult; // 0x2C
 		::RPG::GameCore::LevelPropStateIconCategory Category; // 0x3C
-		::RPG::GameCore::PropState State; // 0x40
-		::System::UInt32 IconID; // 0x44
+		::System::UInt32 IconID; // 0x40
+		::RPG::GameCore::PropState State; // 0x44
 		static ::RPG::GameCore::PropStateIcon** StaticGet_INVALID()
 		{
-			return (::RPG::GameCore::PropStateIcon**)UnitySDK::FromName("RPG.GameCore", "PropStateIcon")->GetStaticField(0x595B0);
+			return (::RPG::GameCore::PropStateIcon**)UnitySDK::FromName("RPG.GameCore", "PropStateIcon")->GetStaticField(0x41670);
 		}
 
 		::System::Void _ctor()

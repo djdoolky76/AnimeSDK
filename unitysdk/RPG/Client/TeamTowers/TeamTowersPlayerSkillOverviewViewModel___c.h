@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1F3550)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1F3590)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C__GET_PLAYERSKILLGROUPS_B__7_0_OFFSET UNITYSDK_OFFSET(0xE1F35D0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C___INITPLAYERSKILLS_B__4_0_OFFSET UNITYSDK_OFFSET(0xE1F35A0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C___INITPLAYERSKILLS_B__4_1_OFFSET UNITYSDK_OFFSET(0xE1F35B0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2378D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D237910)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C__GET_PLAYERSKILLGROUPS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D237950)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C___INITPLAYERSKILLS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D237920)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C___INITPLAYERSKILLS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1D237930)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersPlayerSkillOverviewViewModel___c_TypeDefinitionIndex = 79084;
+	inline static constexpr unsigned int TeamTowersPlayerSkillOverviewViewModel___c_TypeDefinitionIndex = 81860;
 
 	class TeamTowersPlayerSkillOverviewViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>** StaticGet___9__4_0()
+		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x14530);
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x1DD20);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x14538);
-		}
-
-		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x14540);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x1DD28);
 		}
 
 		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x14548);
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x1DD30);
+		}
+
+		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x1DD38);
 		}
 
 		static ::System::Void _cctor()

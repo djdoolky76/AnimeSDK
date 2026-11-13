@@ -4,23 +4,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightSeasonModuleConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONMODULECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D713100)
-#define RPG_GAMECORE_GRIDFIGHTSEASONMODULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D712EC0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONMODULECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA602F0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONMODULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA600F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonModuleConfigRow_TypeDefinitionIndex = 13590;
+	inline static constexpr unsigned int GridFightSeasonModuleConfigRow_TypeDefinitionIndex = 13701;
 
 	class GridFightSeasonModuleConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 MaxRewardExp; // 0x10
-		::System::UInt32 ActivityModuleID; // 0x14
-		::System::UInt32 SeasonID; // 0x18
-		::System::UInt32 SubSeasonID; // 0x1C
-		::System::UInt32 ActivityQuestConfigID; // 0x20
-		::System::UInt32 OfferingID; // 0x24
-		::System::UInt32 GirlHeroSpecialAvatarId; // 0x28
+		::System::UInt32 ActivityModuleID; // 0x10
+		::System::UInt32 SubSeasonID; // 0x14
+		::System::UInt32 OfferingID; // 0x18
+		::System::UInt32 ActivityQuestConfigID; // 0x1C
+		::System::UInt32 MaxRewardExp; // 0x20
+		::System::UInt32 SeasonID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONMODULECONFIGROW_CTOR_OFFSET))(this);

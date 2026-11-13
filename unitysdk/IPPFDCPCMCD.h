@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DefineHPSharedGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IPPFDCPCMCD_CTOR_OFFSET UNITYSDK_OFFSET(0x165186F0)
-#define IPPFDCPCMCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16518720)
+#define IPPFDCPCMCD_CTOR_OFFSET UNITYSDK_OFFSET(0x19306110)
+#define IPPFDCPCMCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19306140)
 
-inline static constexpr unsigned int IPPFDCPCMCD_TypeDefinitionIndex = 55087;
+inline static constexpr unsigned int IPPFDCPCMCD_TypeDefinitionIndex = 56264;
 
 	class IPPFDCPCMCD
 	{

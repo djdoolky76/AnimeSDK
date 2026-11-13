@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvEntityResetCameraRootTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBJEEKBIPBK_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEA370)
-#define PBJEEKBIPBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFEA3A0)
+#define PBJEEKBIPBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC0990)
+#define PBJEEKBIPBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AAC09C0)
 
-inline static constexpr unsigned int PBJEEKBIPBK_TypeDefinitionIndex = 52367;
+inline static constexpr unsigned int PBJEEKBIPBK_TypeDefinitionIndex = 53473;
 
 	class PBJEEKBIPBK
 	{

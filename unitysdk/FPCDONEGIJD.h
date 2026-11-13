@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class RebuildPipeConfig; }
 
-#define FPCDONEGIJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA43EC0)
+#define FPCDONEGIJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20E6A0)
 
-inline static constexpr unsigned int FPCDONEGIJD_TypeDefinitionIndex = 43506;
+inline static constexpr unsigned int FPCDONEGIJD_TypeDefinitionIndex = 44488;
 
 	class FPCDONEGIJD : public ::System::Object
 	{

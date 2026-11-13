@@ -5,22 +5,22 @@ namespace RPG::Client::DirectDeliveryNotice { class ActivityAvatarInfoViewModel;
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class String; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCCC1A70)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC1C60)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOVIEWMODEL___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0xCCC1D20)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x1DA4A900)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4AA50)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOVIEWMODEL___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1DA4AB10)
 
 namespace RPG::Client::DirectDeliveryNotice
 {
-	inline static constexpr unsigned int ActivityAvatarInfoViewModel_TypeDefinitionIndex = 81240;
+	inline static constexpr unsigned int ActivityAvatarInfoViewModel_TypeDefinitionIndex = 84020;
 
 	class ActivityAvatarInfoViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:
-		::Sofa::Core::SimpleCommand* OnAvatarDetailClick; // 0x18
-		::System::String* ProfessionName; // 0x20
-		::System::String* ProfessionIcon; // 0x28
-		::System::String* AvatarName; // 0x30
-		::System::String* DamageTypeIcon; // 0x38
+		::System::String* AvatarName; // 0x18
+		::System::String* ProfessionIcon; // 0x20
+		::System::String* DamageTypeIcon; // 0x28
+		::System::String* ProfessionName; // 0x30
+		::Sofa::Core::SimpleCommand* OnAvatarDetailClick; // 0x38
 		::System::UInt32 Rarity; // 0x40
 		::System::UInt32 AvatarID; // 0x44
 		::System::Void _ctor()

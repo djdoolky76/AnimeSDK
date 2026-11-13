@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace R3
 {
-	inline static constexpr unsigned int DistinctUntilChanged_1__DistinctUntilChanged_TypeDefinitionIndex = 35940;
+	inline static constexpr unsigned int DistinctUntilChanged_1__DistinctUntilChanged_TypeDefinitionIndex = 36868;
 
 	template <typename T>
 	class DistinctUntilChanged_1__DistinctUntilChanged

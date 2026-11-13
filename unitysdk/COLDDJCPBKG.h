@@ -11,18 +11,18 @@ namespace RPG::GameCore { class ChimeraDuelBuffConfig; }
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define COLDDJCPBKG_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0xDCB3800)
-#define COLDDJCPBKG_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB3FE0)
-#define COLDDJCPBKG_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xDCB3870)
-#define COLDDJCPBKG_NGMNJFOPLIN_OFFSET UNITYSDK_OFFSET(0xDCB3E30)
+#define COLDDJCPBKG_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0x19164AF0)
+#define COLDDJCPBKG_CTOR_OFFSET UNITYSDK_OFFSET(0x19165300)
+#define COLDDJCPBKG_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x19164B60)
+#define COLDDJCPBKG_NGMNJFOPLIN_OFFSET UNITYSDK_OFFSET(0x19165150)
 
-inline static constexpr unsigned int COLDDJCPBKG_TypeDefinitionIndex = 77455;
+inline static constexpr unsigned int COLDDJCPBKG_TypeDefinitionIndex = 80190;
 
 	class COLDDJCPBKG : public ::LDCOFDFFPBD
 	{
 	public:
-		::MDHIBNLFCFL* LMJGBLDGMEN; // 0x10
-		::OMFDCMJIAHG* KOHNGCOONLN; // 0x18
+		::OMFDCMJIAHG* KOHNGCOONLN; // 0x10
+		::MDHIBNLFCFL* LMJGBLDGMEN; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COLDDJCPBKG_CTOR_OFFSET))(this);

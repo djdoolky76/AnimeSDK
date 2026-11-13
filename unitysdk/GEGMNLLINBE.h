@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByCanMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GEGMNLLINBE_CTOR_OFFSET UNITYSDK_OFFSET(0x159CAE80)
-#define GEGMNLLINBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159CAEB0)
+#define GEGMNLLINBE_CTOR_OFFSET UNITYSDK_OFFSET(0x17CD76A0)
+#define GEGMNLLINBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17CD76D0)
 
-inline static constexpr unsigned int GEGMNLLINBE_TypeDefinitionIndex = 54174;
+inline static constexpr unsigned int GEGMNLLINBE_TypeDefinitionIndex = 55338;
 
 	class GEGMNLLINBE
 	{

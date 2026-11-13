@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class EOKOEJKEFMN;
 
-#define JOCGLOLCKBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB298510)
+#define JOCGLOLCKBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9B90)
 
-inline static constexpr unsigned int JOCGLOLCKBD_TypeDefinitionIndex = 81105;
+inline static constexpr unsigned int JOCGLOLCKBD_TypeDefinitionIndex = 83885;
 
 	class JOCGLOLCKBD : public ::System::Object
 	{

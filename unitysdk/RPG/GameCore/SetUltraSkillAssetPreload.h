@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetUltraSkillAssetPreload; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9B4F0)
-#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9B580)
-#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9B440)
+#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E89E0)
+#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9E8A70)
+#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9E8930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetUltraSkillAssetPreload_TypeDefinitionIndex = 22805;
+	inline static constexpr unsigned int SetUltraSkillAssetPreload_TypeDefinitionIndex = 23228;
 
 	class SetUltraSkillAssetPreload : public ::RPG::GameCore::TaskConfig
 	{

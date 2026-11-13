@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC218E0)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS10_0__ONGETPIPEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1BC22050)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B45CEF0)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS10_0__ONGETPIPEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1B45D660)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int CloudPipe___c__DisplayClass10_0_TypeDefinitionIndex = 8887;
+	inline static constexpr unsigned int CloudPipe___c__DisplayClass10_0_TypeDefinitionIndex = 8896;
 
 	class CloudPipe___c__DisplayClass10_0 : public ::System::Object
 	{

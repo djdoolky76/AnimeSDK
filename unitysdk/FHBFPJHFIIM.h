@@ -7,25 +7,25 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropFastDeliverSwitchTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHBFPJHFIIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15765790)
-#define FHBFPJHFIIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15766120)
-#define FHBFPJHFIIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157657A0)
-#define FHBFPJHFIIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157660D0)
-#define FHBFPJHFIIM_TICK_OFFSET UNITYSDK_OFFSET(0x15766180)
+#define FHBFPJHFIIM_CTOR_OFFSET UNITYSDK_OFFSET(0x18A9AFC0)
+#define FHBFPJHFIIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18A9B950)
+#define FHBFPJHFIIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A9AFD0)
+#define FHBFPJHFIIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18A9B900)
+#define FHBFPJHFIIM_TICK_OFFSET UNITYSDK_OFFSET(0x18A9B9B0)
 
-inline static constexpr unsigned int FHBFPJHFIIM_TypeDefinitionIndex = 58327;
+inline static constexpr unsigned int FHBFPJHFIIM_TypeDefinitionIndex = 59583;
 
 	class FHBFPJHFIIM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::Prop::FastDeliverPuzzleEntityData* NFHPANNPJLG; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x18
+		::RPG::Client::Prop::FastDeliverPuzzleEntityData* CFNOKPLDCGM; // 0x20
 		::RPG::GameCore::GameEntity* JBLCDCPMAHA; // 0x28
-		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x30
-		::RPG::Client::Prop::FastDeliverPuzzleEntityData* CFNOKPLDCGM; // 0x38
-		::RPG::GameCore::PropFastDeliverSwitchTarget* OFKGLJOAMLD; // 0x40
-		::UnityEngine::Vector3 CCNHAICHLBK; // 0x48
-		::UnityEngine::Vector3 KOGCFJCMFLD; // 0x54
+		::RPG::Client::Prop::FastDeliverPuzzleEntityData* NFHPANNPJLG; // 0x30
+		::RPG::GameCore::PropFastDeliverSwitchTarget* OFKGLJOAMLD; // 0x38
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x40
+		::UnityEngine::Vector3 KOGCFJCMFLD; // 0x48
+		::UnityEngine::Vector3 CCNHAICHLBK; // 0x54
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropFastDeliverSwitchTarget* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropFastDeliverSwitchTarget*))((::PBYTE)hIl2Cpp + FHBFPJHFIIM_CTOR_OFFSET))(this, a1, a2);

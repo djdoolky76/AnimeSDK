@@ -12,7 +12,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Min__MinAwaitWithCancellationAsync_d__23_1_TypeDefinitionIndex = 45506;
+	inline static constexpr unsigned int Min__MinAwaitWithCancellationAsync_d__23_1_TypeDefinitionIndex = 46535;
 
 	template <typename T>
 	struct alignas(8) Min__MinAwaitWithCancellationAsync_d__23_1

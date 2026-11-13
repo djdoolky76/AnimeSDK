@@ -9,7 +9,7 @@ namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator_1_TypeDefinitionIndex = 38408;
+	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator_1_TypeDefinitionIndex = 39337;
 
 	template <typename T>
 	class UniTaskExtensions_ToCoroutineEnumerator_1 : public ::System::Object

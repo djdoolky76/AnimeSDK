@@ -5,16 +5,16 @@ class HAJDFCHFBGN;
 class KAKADGHNMFK;
 namespace RPG::GameCore { class ChimeraDuelEntitiesFilterSelectorConfig; }
 
-#define NCMJPMNKHGI___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB10A20)
-#define NCMJPMNKHGI___C__DISPLAYCLASS1_0___SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0xBB10A40)
+#define NCMJPMNKHGI___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x151043E0)
+#define NCMJPMNKHGI___C__DISPLAYCLASS1_0___SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x15104400)
 
-inline static constexpr unsigned int NCMJPMNKHGI___c__DisplayClass1_0_TypeDefinitionIndex = 77523;
+inline static constexpr unsigned int NCMJPMNKHGI___c__DisplayClass1_0_TypeDefinitionIndex = 80258;
 
 	class NCMJPMNKHGI___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChimeraDuelEntitiesFilterSelectorConfig* config; // 0x10
-		::HAJDFCHFBGN* context; // 0x18
+		::HAJDFCHFBGN* context; // 0x10
+		::RPG::GameCore::ChimeraDuelEntitiesFilterSelectorConfig* config; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCMJPMNKHGI___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

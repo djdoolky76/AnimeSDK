@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveQuestionOptionRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEQUESTIONOPTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D750AC0)
-#define RPG_GAMECORE_IDLELIVEQUESTIONOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D750810)
+#define RPG_GAMECORE_IDLELIVEQUESTIONOPTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE89910)
+#define RPG_GAMECORE_IDLELIVEQUESTIONOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE89660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestionOptionRow_TypeDefinitionIndex = 11827;
+	inline static constexpr unsigned int IdleLiveQuestionOptionRow_TypeDefinitionIndex = 11884;
 
 	class IdleLiveQuestionOptionRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* SpecialChatList; // 0x18
-		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* SpecialChatList; // 0x10
+		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x18
+		::System::String* IconPath; // 0x20
 		::System::UInt32 ID; // 0x28
-		::System::Single GiftDelayTime; // 0x2C
-		::RPG::GameCore::IdleLiveQuestionOptionType Type; // 0x30
+		::RPG::GameCore::IdleLiveQuestionOptionType Type; // 0x2C
+		::System::Single GiftDelayTime; // 0x30
 		::System::UInt32 SpineAnimGroupId; // 0x34
 		::System::Void _ctor()
 		{

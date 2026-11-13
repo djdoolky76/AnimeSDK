@@ -3,10 +3,10 @@
 #include "unitysdk/EHDCFBBIJIM.h"
 namespace System { class String; }
 
-#define LEMPCCICHAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB657040)
-#define LEMPCCICHAA_GAGLFGLKEOJ_OFFSET UNITYSDK_OFFSET(0xB656F40)
+#define LEMPCCICHAA_CTOR_OFFSET UNITYSDK_OFFSET(0x18C3BD30)
+#define LEMPCCICHAA_GAGLFGLKEOJ_OFFSET UNITYSDK_OFFSET(0x18C3BC30)
 
-inline static constexpr unsigned int LEMPCCICHAA_TypeDefinitionIndex = 77557;
+inline static constexpr unsigned int LEMPCCICHAA_TypeDefinitionIndex = 80292;
 
 	class LEMPCCICHAA : public ::EHDCFBBIJIM
 	{

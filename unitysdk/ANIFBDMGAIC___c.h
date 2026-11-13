@@ -4,18 +4,18 @@
 class ANIFBDMGAIC;
 namespace System { class Object; }
 
-#define ANIFBDMGAIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6336C0)
-#define ANIFBDMGAIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6336F0)
-#define ANIFBDMGAIC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E633700)
+#define ANIFBDMGAIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2019F330)
+#define ANIFBDMGAIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2019F360)
+#define ANIFBDMGAIC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2019F370)
 
-inline static constexpr unsigned int ANIFBDMGAIC___c_TypeDefinitionIndex = 34633;
+inline static constexpr unsigned int ANIFBDMGAIC___c_TypeDefinitionIndex = 35561;
 
 	class ANIFBDMGAIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47550);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BF70);
 		}
 
 		static ::System::Void _cctor()

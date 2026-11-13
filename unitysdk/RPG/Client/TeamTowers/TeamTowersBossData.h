@@ -6,32 +6,32 @@ namespace RPG::Client::TeamTowers { class TeamTowersBossSkillData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE1E2860)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_BOSSID_OFFSET UNITYSDK_OFFSET(0xE1E2D20)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_BOSSSKILLDATALIST_OFFSET UNITYSDK_OFFSET(0xE1E2D90)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_BOSSSKILLGROUPID_OFFSET UNITYSDK_OFFSET(0xE1E2D80)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_BUBBLEGROUPID_OFFSET UNITYSDK_OFFSET(0xE1E2D70)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xE1E2D40)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xE1E2D50)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xE1E2D30)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xE1E2D60)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE3B20)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_BOSSID_OFFSET UNITYSDK_OFFSET(0x1ACE3FE0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_BOSSSKILLDATALIST_OFFSET UNITYSDK_OFFSET(0x1ACE4050)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_BOSSSKILLGROUPID_OFFSET UNITYSDK_OFFSET(0x1ACE4040)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_BUBBLEGROUPID_OFFSET UNITYSDK_OFFSET(0x1ACE4030)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1ACE4000)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1ACE4010)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1ACE3FF0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x1ACE4020)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersBossData_TypeDefinitionIndex = 79018;
+	inline static constexpr unsigned int TeamTowersBossData_TypeDefinitionIndex = 81794;
 
 	class TeamTowersBossData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::TeamTowers::TeamTowersBossSkillData*>* _BossSkillDataList_k__BackingField; // 0x10
-		::System::String* _PrefabPath_k__BackingField; // 0x18
-		::System::String* _ImagePath_k__BackingField; // 0x20
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x28
-		::System::UInt32 _BubbleGroupID_k__BackingField; // 0x38
-		::System::UInt32 _BossSkillGroupID_k__BackingField; // 0x3C
-		::System::UInt32 _BossID_k__BackingField; // 0x40
+		::System::String* _PrefabPath_k__BackingField; // 0x10
+		::System::String* _ImagePath_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::TeamTowers::TeamTowersBossSkillData*>* _BossSkillDataList_k__BackingField; // 0x20
+		::System::UInt32 _BossID_k__BackingField; // 0x28
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _Name_k__BackingField; // 0x48
+		::RPG::Client::TextID _Name_k__BackingField; // 0x30
+		::System::UInt32 _BubbleGroupID_k__BackingField; // 0x40
+		::System::UInt32 _BossSkillGroupID_k__BackingField; // 0x44
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x48
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBOSSDATA_CTOR_OFFSET))(this, a1);

@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 namespace SuperScrollView { class GridViewLayoutParam; }
 
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CHECKPARAM_OFFSET UNITYSDK_OFFSET(0xE993500)
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE993670)
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_INITFROM_OFFSET UNITYSDK_OFFSET(0xE9935B0)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CHECKPARAM_OFFSET UNITYSDK_OFFSET(0x1AC5CDF0)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5CF60)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_INITFROM_OFFSET UNITYSDK_OFFSET(0x1AC5CEA0)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int GridViewLayoutParam_TypeDefinitionIndex = 47676;
+	inline static constexpr unsigned int GridViewLayoutParam_TypeDefinitionIndex = 48706;
 
 	class GridViewLayoutParam : public ::System::Object
 	{
@@ -17,8 +17,8 @@ namespace SuperScrollView
 		::Il2CppArray<::System::Single>* mCustomColumnOrRowOffsetArray; // 0x10
 		::System::Single mItemWidthOrHeight; // 0x18
 		::System::Single mPadding1; // 0x1C
-		::System::Single mPadding2; // 0x20
-		::System::Int32 mColumnOrRowCount; // 0x24
+		::System::Int32 mColumnOrRowCount; // 0x20
+		::System::Single mPadding2; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CTOR_OFFSET))(this);

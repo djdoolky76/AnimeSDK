@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OCBJLBIEFJN_CTOR_OFFSET UNITYSDK_OFFSET(0xBD509C0)
-#define OCBJLBIEFJN_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBD509A0)
-#define OCBJLBIEFJN_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBD509B0)
+#define OCBJLBIEFJN_CTOR_OFFSET UNITYSDK_OFFSET(0x19A02A80)
+#define OCBJLBIEFJN_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19A02A60)
+#define OCBJLBIEFJN_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19A02A70)
 
-inline static constexpr unsigned int OCBJLBIEFJN_TypeDefinitionIndex = 79780;
+inline static constexpr unsigned int OCBJLBIEFJN_TypeDefinitionIndex = 82557;
 
 	class OCBJLBIEFJN : public ::System::Object
 	{

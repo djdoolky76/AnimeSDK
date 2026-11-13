@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCChessBoardRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D992010)
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D991E50)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F577ED0)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F577D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCChessBoardRow_TypeDefinitionIndex = 14770;
+	inline static constexpr unsigned int RogueDLCChessBoardRow_TypeDefinitionIndex = 14926;
 
 	class RogueDLCChessBoardRow : public ::System::Object
 	{

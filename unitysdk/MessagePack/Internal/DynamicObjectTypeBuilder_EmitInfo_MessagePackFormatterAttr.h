@@ -3,23 +3,23 @@
 #include "unitysdk/System/Object.h"
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO_MESSAGEPACKFORMATTERATTR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB86110)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO_MESSAGEPACKFORMATTERATTR_CCTOR_OFFSET UNITYSDK_OFFSET(0x174C51A0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo_MessagePackFormatterAttr_TypeDefinitionIndex = 7317;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo_MessagePackFormatterAttr_TypeDefinitionIndex = 7328;
 
 	class DynamicObjectTypeBuilder_EmitInfo_MessagePackFormatterAttr : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet_FormatterType()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackFormatterAttr")->GetStaticField(0x4A2E0);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackFormatterAttr")->GetStaticField(0x2DE70);
 		}
 
 		static ::System::Reflection::MethodInfo** StaticGet_Arguments()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackFormatterAttr")->GetStaticField(0x4A2E8);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackFormatterAttr")->GetStaticField(0x2DE78);
 		}
 
 		static ::System::Void _cctor()

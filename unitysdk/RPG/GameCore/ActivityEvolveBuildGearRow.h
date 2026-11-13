@@ -6,26 +6,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityEvolveBuildGearRow; }
 namespace RPG::GameCore { class MazeBuffRow; }
 
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32B4C0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D32B210)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_GETMAXLEVEL_OFFSET UNITYSDK_OFFSET(0x1D32B510)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_GETMAZEBUFF_OFFSET UNITYSDK_OFFSET(0x1D32B4D0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_ISMATERIALOFFORGE_OFFSET UNITYSDK_OFFSET(0x1D32B580)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E508740)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5079A0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_GETMAXLEVEL_OFFSET UNITYSDK_OFFSET(0x1E508790)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_GETMAZEBUFF_OFFSET UNITYSDK_OFFSET(0x1E508750)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_ISMATERIALOFFORGE_OFFSET UNITYSDK_OFFSET(0x1E508800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveBuildGearRow_TypeDefinitionIndex = 11400;
+	inline static constexpr unsigned int ActivityEvolveBuildGearRow_TypeDefinitionIndex = 11451;
 
 	class ActivityEvolveBuildGearRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* SimpIndexList; // 0x10
+		::Il2CppArray<::System::UInt32>* IndexList; // 0x10
 		::Il2CppArray<::System::UInt32>* DynamicIndexList; // 0x18
-		::Il2CppArray<::System::UInt32>* IndexList; // 0x20
-		::System::UInt32 GearID; // 0x28
-		::System::UInt32 MazeBuffID; // 0x2C
-		::RPG::GameCore::EvolveGearType Type; // 0x30
-		::System::UInt32 Level; // 0x34
+		::Il2CppArray<::System::UInt32>* SimpIndexList; // 0x20
+		::System::UInt32 Level; // 0x28
+		::RPG::GameCore::EvolveGearType Type; // 0x2C
+		::System::UInt32 GearID; // 0x30
+		::System::UInt32 MazeBuffID; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_CTOR_OFFSET))(this);

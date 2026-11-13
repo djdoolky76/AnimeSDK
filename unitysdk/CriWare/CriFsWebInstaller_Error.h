@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsWebInstaller_Error_TypeDefinitionIndex = 40121;
+	inline static constexpr unsigned int CriFsWebInstaller_Error_TypeDefinitionIndex = 41096;
 
 	enum class CriFsWebInstaller_Error : ::System::Int32
 	{

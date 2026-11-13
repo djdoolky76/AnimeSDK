@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FourRotateVoxel2DPlatformConfig; }
 
-#define JDBJBNPMLNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB619A0)
+#define JDBJBNPMLNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFF250)
 
-inline static constexpr unsigned int JDBJBNPMLNH_TypeDefinitionIndex = 43186;
+inline static constexpr unsigned int JDBJBNPMLNH_TypeDefinitionIndex = 44167;
 
 	class JDBJBNPMLNH : public ::System::Object
 	{

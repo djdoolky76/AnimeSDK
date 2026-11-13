@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int COPMGEHDGNP_TypeDefinitionIndex = 82085;
+inline static constexpr unsigned int COPMGEHDGNP_TypeDefinitionIndex = 84958;
 
 	class COPMGEHDGNP
 	{

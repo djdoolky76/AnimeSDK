@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BLDEOEECPOC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D7F6150)
-#define BLDEOEECPOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7F66D0)
-#define BLDEOEECPOC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D7F62C0)
-#define BLDEOEECPOC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D7F5C00)
-#define BLDEOEECPOC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D7F5E90)
-#define BLDEOEECPOC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D7F6360)
-#define BLDEOEECPOC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D7F63B0)
-#define BLDEOEECPOC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D7F6190)
-#define BLDEOEECPOC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D7F5E30)
-#define BLDEOEECPOC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D7F6000)
-#define BLDEOEECPOC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D7F6220)
-#define BLDEOEECPOC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D7F5B80)
+#define BLDEOEECPOC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F1AEF40)
+#define BLDEOEECPOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1AF4C0)
+#define BLDEOEECPOC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F1AF0B0)
+#define BLDEOEECPOC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F1AE9F0)
+#define BLDEOEECPOC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F1AEC80)
+#define BLDEOEECPOC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F1AF150)
+#define BLDEOEECPOC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F1AF1A0)
+#define BLDEOEECPOC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F1AEF80)
+#define BLDEOEECPOC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F1AEC20)
+#define BLDEOEECPOC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F1AEDF0)
+#define BLDEOEECPOC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F1AF010)
+#define BLDEOEECPOC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F1AE970)
 
-inline static constexpr unsigned int BLDEOEECPOC_TypeDefinitionIndex = 12982;
+inline static constexpr unsigned int BLDEOEECPOC_TypeDefinitionIndex = 13050;
 
 	class BLDEOEECPOC : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengePeakBossConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengePeakBossConfigRow*>**)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0x446E0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0x4AF40);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0x446E8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0x4AF48);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengePeakBossConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0x446F0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0x102D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengePeakBossConfigRow*>**)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0x4AF50);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0x102D1);
+			return (::System::Byte*)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0xE5B0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "BLDEOEECPOC")->GetStaticField(0xE5B1);
 		}
 
 		static ::System::Void _cctor()

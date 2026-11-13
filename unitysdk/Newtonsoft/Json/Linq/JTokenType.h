@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JTokenType_TypeDefinitionIndex = 9790;
+	inline static constexpr unsigned int JTokenType_TypeDefinitionIndex = 9798;
 
 	enum class JTokenType : ::System::Int32
 	{

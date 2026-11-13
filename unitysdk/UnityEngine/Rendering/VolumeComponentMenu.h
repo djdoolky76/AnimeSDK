@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENTMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B1B70)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENTMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1F665360)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeComponentMenu_TypeDefinitionIndex = 35615;
+	inline static constexpr unsigned int VolumeComponentMenu_TypeDefinitionIndex = 36543;
 
 	class VolumeComponentMenu : public ::System::Attribute
 	{

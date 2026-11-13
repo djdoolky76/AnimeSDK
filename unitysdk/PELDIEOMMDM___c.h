@@ -4,18 +4,18 @@
 class PELDIEOMMDM;
 namespace System { class Object; }
 
-#define PELDIEOMMDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEEE6D0)
-#define PELDIEOMMDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEE710)
-#define PELDIEOMMDM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEEE720)
+#define PELDIEOMMDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2066F600)
+#define PELDIEOMMDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2066F640)
+#define PELDIEOMMDM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2066F650)
 
-inline static constexpr unsigned int PELDIEOMMDM___c_TypeDefinitionIndex = 25242;
+inline static constexpr unsigned int PELDIEOMMDM___c_TypeDefinitionIndex = 25720;
 
 	class PELDIEOMMDM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30F20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33F70);
 		}
 
 		static ::System::Void _cctor()

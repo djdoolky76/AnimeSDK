@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SavedValueDimensionConfig; }
 
-#define RPG_GAMECORE_SAVEDVALUEDIMENSIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5AD60)
-#define RPG_GAMECORE_SAVEDVALUEDIMENSIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5AB90)
+#define RPG_GAMECORE_SAVEDVALUEDIMENSIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F84CA80)
+#define RPG_GAMECORE_SAVEDVALUEDIMENSIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F84C8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SavedValueDimensionConfig_TypeDefinitionIndex = 17347;
+	inline static constexpr unsigned int SavedValueDimensionConfig_TypeDefinitionIndex = 17515;
 
 	class SavedValueDimensionConfig : public ::RPG::GameCore::JsonConfig
 	{

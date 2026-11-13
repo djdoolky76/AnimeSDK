@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCanAutoUseItemToRecoverMP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CFMKDOLABJG_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F190)
-#define CFMKDOLABJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC4F1C0)
+#define CFMKDOLABJG_CTOR_OFFSET UNITYSDK_OFFSET(0x17827EE0)
+#define CFMKDOLABJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17827F10)
 
-inline static constexpr unsigned int CFMKDOLABJG_TypeDefinitionIndex = 52548;
+inline static constexpr unsigned int CFMKDOLABJG_TypeDefinitionIndex = 53654;
 
 	class CFMKDOLABJG
 	{

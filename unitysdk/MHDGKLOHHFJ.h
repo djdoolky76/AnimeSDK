@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace RPG { template <typename T> class PoolHashSet_1; }
 
-#define MHDGKLOHHFJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8FC6E0)
-#define MHDGKLOHHFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FC920)
-#define MHDGKLOHHFJ_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C8FC780)
-#define MHDGKLOHHFJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C8FC8E0)
+#define MHDGKLOHHFJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C261880)
+#define MHDGKLOHHFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C261AC0)
+#define MHDGKLOHHFJ_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C261920)
+#define MHDGKLOHHFJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C261A80)
 
-inline static constexpr unsigned int MHDGKLOHHFJ_TypeDefinitionIndex = 43455;
+inline static constexpr unsigned int MHDGKLOHHFJ_TypeDefinitionIndex = 44437;
 
 	class MHDGKLOHHFJ : public ::System::Object
 	{
 	public:
 		::RPG::PoolHashSet_1<::System::Int32>* HEFGMLHIFDG; // 0x10
-		::RPG::PoolHashSet_1<::System::Int32>* BBEODDICNEN; // 0x18
-		::RPG::PoolHashSet_1<::System::Int32>* PKIMKNGFFHJ; // 0x20
+		::RPG::PoolHashSet_1<::System::Int32>* PKIMKNGFFHJ; // 0x18
+		::RPG::PoolHashSet_1<::System::Int32>* BBEODDICNEN; // 0x20
 		::System::Int32 MNMHMECGDAK; // 0x28
 		::System::Void _ctor()
 		{

@@ -4,23 +4,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define IPKBMMPHPGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5356F0)
-#define IPKBMMPHPGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C535730)
-#define IPKBMMPHPGL___C___TRYCREATECHIPSPREDICATETRACKER_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C535740)
+#define IPKBMMPHPGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7988A0)
+#define IPKBMMPHPGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7988E0)
+#define IPKBMMPHPGL___C___TRYCREATECHIPSPREDICATETRACKER_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E7988F0)
 
-inline static constexpr unsigned int IPKBMMPHPGL___c_TypeDefinitionIndex = 41836;
+inline static constexpr unsigned int IPKBMMPHPGL___c_TypeDefinitionIndex = 42811;
 
 	class IPKBMMPHPGL___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21E60);
-		}
-
 		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21E68);
+			return (::System::Func_2<::System::Int32, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFF20);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFF28);
 		}
 
 		static ::System::Void _cctor()

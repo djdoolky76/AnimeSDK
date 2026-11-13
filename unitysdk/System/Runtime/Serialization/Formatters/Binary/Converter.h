@@ -9,23 +9,23 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2EA3A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_CREATEPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x1C2E9CE0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1C2EA320)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITARRAYTYPEA_OFFSET UNITYSDK_OFFSET(0x1C2E9080)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITCODEA_OFFSET UNITYSDK_OFFSET(0x1C2EA180)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITTYPEA_OFFSET UNITYSDK_OFFSET(0x1C2E96B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITTYPECODEA_OFFSET UNITYSDK_OFFSET(0x1C2E9F20)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITVALUEA_OFFSET UNITYSDK_OFFSET(0x1C2E9D50)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_ISPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x1C2E3620)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_ISWRITEASBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1C2E9040)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x1C2E4690)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOCODE_OFFSET UNITYSDK_OFFSET(0x1C2E3E00)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOCOMTYPE_OFFSET UNITYSDK_OFFSET(0x1C2E4490)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOPRIMITIVETYPEENUM_OFFSET UNITYSDK_OFFSET(0x1C2E8F50)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOTYPECODE_OFFSET UNITYSDK_OFFSET(0x1C2EA090)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOTYPE_OFFSET UNITYSDK_OFFSET(0x1C2E4590)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TYPELENGTH_OFFSET UNITYSDK_OFFSET(0x1C2E9060)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A73DA80)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_CREATEPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x1A73D3C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1A73DA00)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITARRAYTYPEA_OFFSET UNITYSDK_OFFSET(0x1A73C760)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITCODEA_OFFSET UNITYSDK_OFFSET(0x1A73D860)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITTYPEA_OFFSET UNITYSDK_OFFSET(0x1A73CD90)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITTYPECODEA_OFFSET UNITYSDK_OFFSET(0x1A73D600)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITVALUEA_OFFSET UNITYSDK_OFFSET(0x1A73D430)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_ISPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x1A736DA0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_ISWRITEASBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1A73C720)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x1A737E10)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOCODE_OFFSET UNITYSDK_OFFSET(0x1A737580)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOCOMTYPE_OFFSET UNITYSDK_OFFSET(0x1A737C10)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOPRIMITIVETYPEENUM_OFFSET UNITYSDK_OFFSET(0x1A73C630)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOTYPECODE_OFFSET UNITYSDK_OFFSET(0x1A73D770)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOTYPE_OFFSET UNITYSDK_OFFSET(0x1A737D10)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TYPELENGTH_OFFSET UNITYSDK_OFFSET(0x1A73C740)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -34,239 +34,239 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	class Converter : public ::System::Object
 	{
 	public:
-		static ::System::Type** StaticGet_typeofByteArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E110);
-		}
-
-		static ::System::Type** StaticGet_typeofMarshalByRefObject()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E118);
-		}
-
-		static ::System::Type** StaticGet_typeofConverter()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E120);
-		}
-
-		static ::System::Type** StaticGet_typeofSByte()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E128);
-		}
-
-		static ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>** StaticGet_codeA()
-		{
-			return (::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E130);
-		}
-
-		static ::System::Type** StaticGet_typeofUInt64Array()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E138);
-		}
-
-		static ::System::Type** StaticGet_typeofDecimal()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E140);
-		}
-
-		static ::System::Type** StaticGet_typeofDateTimeArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E148);
-		}
-
-		static ::System::Type** StaticGet_typeofUInt64()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E150);
-		}
-
-		static ::System::Type** StaticGet_typeofSystemVoid()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E158);
-		}
-
-		static ::System::Type** StaticGet_typeofSingleArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E160);
-		}
-
-		static ::System::Reflection::Assembly** StaticGet_urtAssembly()
-		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E168);
-		}
-
-		static ::System::Type** StaticGet_typeofTimeSpan()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E170);
-		}
-
-		static ::System::Type** StaticGet_typeofByte()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E178);
-		}
-
-		static ::System::Type** StaticGet_typeofInt32Array()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E180);
-		}
-
-		static ::System::Type** StaticGet_typeofObjectArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E188);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_valueA()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E190);
-		}
-
-		static ::System::String** StaticGet_urtAssemblyString()
-		{
-			return (::System::String**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E198);
-		}
-
 		static ::System::Type** StaticGet_typeofBooleanArray()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1A0);
-		}
-
-		static ::System::Type** StaticGet_typeofInt64Array()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1A8);
-		}
-
-		static ::System::Type** StaticGet_typeofSByteArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1B0);
-		}
-
-		static ::System::Type** StaticGet_typeofDouble()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1B8);
-		}
-
-		static ::System::Type** StaticGet_typeofCharArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1C0);
-		}
-
-		static ::System::Type** StaticGet_typeofObject()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1C8);
-		}
-
-		static ::System::Type** StaticGet_typeofStringArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1D0);
-		}
-
-		static ::System::Type** StaticGet_typeofTimeSpanArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1D8);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x18FE0);
 		}
 
 		static ::System::Type** StaticGet_typeofDecimalArray()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1E0);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x18FE8);
 		}
 
-		static ::System::Type** StaticGet_typeofDateTime()
+		static ::System::Type** StaticGet_typeofDouble()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1E8);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x18FF0);
+		}
+
+		static ::System::Type** StaticGet_typeofSByte()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x18FF8);
+		}
+
+		static ::System::Type** StaticGet_typeofStringArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19000);
+		}
+
+		static ::System::Type** StaticGet_typeofSByteArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19008);
 		}
 
 		static ::System::Type** StaticGet_typeofISerializable()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1F0);
-		}
-
-		static ::System::Type** StaticGet_typeofInt32()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E1F8);
-		}
-
-		static ::Il2CppArray<::System::Type*>** StaticGet_arrayTypeA()
-		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E200);
-		}
-
-		static ::Il2CppArray<::System::TypeCode>** StaticGet_typeCodeA()
-		{
-			return (::Il2CppArray<::System::TypeCode>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E208);
-		}
-
-		static ::System::Type** StaticGet_typeofUInt16Array()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E210);
-		}
-
-		static ::System::Type** StaticGet_typeofUInt32Array()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E218);
-		}
-
-		static ::Il2CppArray<::System::Type*>** StaticGet_typeA()
-		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E220);
-		}
-
-		static ::System::Type** StaticGet_typeofSingle()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E228);
-		}
-
-		static ::System::Type** StaticGet_typeofUInt16()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E230);
-		}
-
-		static ::System::Type** StaticGet_typeofString()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E238);
-		}
-
-		static ::System::Type** StaticGet_typeofInt64()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E240);
-		}
-
-		static ::System::Type** StaticGet_typeofChar()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E248);
-		}
-
-		static ::System::Type** StaticGet_typeofDoubleArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E250);
-		}
-
-		static ::System::Type** StaticGet_typeofTypeArray()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E258);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19010);
 		}
 
 		static ::System::Type** StaticGet_typeofInt16Array()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E260);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19018);
+		}
+
+		static ::System::Type** StaticGet_typeofUInt32Array()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19020);
+		}
+
+		static ::System::Reflection::Assembly** StaticGet_urtAssembly()
+		{
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19028);
+		}
+
+		static ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>** StaticGet_codeA()
+		{
+			return (::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19030);
+		}
+
+		static ::System::Type** StaticGet_typeofSingleArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19038);
+		}
+
+		static ::System::Type** StaticGet_typeofByte()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19040);
+		}
+
+		static ::Il2CppArray<::System::TypeCode>** StaticGet_typeCodeA()
+		{
+			return (::Il2CppArray<::System::TypeCode>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19048);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_valueA()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19050);
+		}
+
+		static ::System::Type** StaticGet_typeofInt64Array()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19058);
+		}
+
+		static ::Il2CppArray<::System::Type*>** StaticGet_typeA()
+		{
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19060);
+		}
+
+		static ::System::Type** StaticGet_typeofTypeArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19068);
+		}
+
+		static ::System::Type** StaticGet_typeofUInt16()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19070);
+		}
+
+		static ::System::Type** StaticGet_typeofByteArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19078);
+		}
+
+		static ::System::Type** StaticGet_typeofChar()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19080);
+		}
+
+		static ::System::Type** StaticGet_typeofDateTime()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19088);
 		}
 
 		static ::System::Type** StaticGet_typeofBoolean()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E268);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19090);
 		}
 
-		static ::System::Type** StaticGet_typeofInt16()
+		static ::System::Type** StaticGet_typeofTimeSpanArray()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E270);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19098);
+		}
+
+		static ::System::Type** StaticGet_typeofUInt16Array()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190A0);
+		}
+
+		static ::System::String** StaticGet_urtAssemblyString()
+		{
+			return (::System::String**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190A8);
+		}
+
+		static ::System::Type** StaticGet_typeofInt32Array()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190B0);
+		}
+
+		static ::System::Type** StaticGet_typeofObject()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190B8);
+		}
+
+		static ::System::Type** StaticGet_typeofDoubleArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190C0);
+		}
+
+		static ::System::Type** StaticGet_typeofMarshalByRefObject()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190C8);
+		}
+
+		static ::System::Type** StaticGet_typeofString()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190D0);
+		}
+
+		static ::Il2CppArray<::System::Type*>** StaticGet_arrayTypeA()
+		{
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190D8);
+		}
+
+		static ::System::Type** StaticGet_typeofSingle()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190E0);
+		}
+
+		static ::System::Type** StaticGet_typeofDateTimeArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190E8);
+		}
+
+		static ::System::Type** StaticGet_typeofTimeSpan()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190F0);
+		}
+
+		static ::System::Type** StaticGet_typeofInt32()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x190F8);
 		}
 
 		static ::System::Type** StaticGet_typeofUInt32()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x1E278);
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19100);
+		}
+
+		static ::System::Type** StaticGet_typeofSystemVoid()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19108);
+		}
+
+		static ::System::Type** StaticGet_typeofUInt64Array()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19110);
+		}
+
+		static ::System::Type** StaticGet_typeofDecimal()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19118);
+		}
+
+		static ::System::Type** StaticGet_typeofUInt64()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19120);
+		}
+
+		static ::System::Type** StaticGet_typeofObjectArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19128);
+		}
+
+		static ::System::Type** StaticGet_typeofCharArray()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19130);
+		}
+
+		static ::System::Type** StaticGet_typeofInt64()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19138);
+		}
+
+		static ::System::Type** StaticGet_typeofConverter()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19140);
+		}
+
+		static ::System::Type** StaticGet_typeofInt16()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x19148);
 		}
 
 		static ::System::Int32* StaticGet_primitiveTypeEnumLength()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x6D90);
+			return (::System::Int32*)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "Converter")->GetStaticField(0x59F0);
 		}
 
 		static ::System::Void _cctor()

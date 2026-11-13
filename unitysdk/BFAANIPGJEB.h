@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BFAANIPGJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C589010)
+#define BFAANIPGJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x17025150)
 
-inline static constexpr unsigned int BFAANIPGJEB_TypeDefinitionIndex = 36206;
+inline static constexpr unsigned int BFAANIPGJEB_TypeDefinitionIndex = 37134;
 
 	class BFAANIPGJEB : public ::System::Object
 	{

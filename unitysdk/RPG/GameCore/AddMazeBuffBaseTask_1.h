@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddMazeBuffBaseTask_1_TypeDefinitionIndex = 57862;
+	inline static constexpr unsigned int AddMazeBuffBaseTask_1_TypeDefinitionIndex = 59099;
 
 	template <typename T>
 	class AddMazeBuffBaseTask_1

@@ -5,14 +5,14 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_DISCRETEBAR_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC7320)
-#define RPG_CLIENT_DISCRETEBAR_GET_CURRATE_OFFSET UNITYSDK_OFFSET(0xCCC6FC0)
-#define RPG_CLIENT_DISCRETEBAR_REFRESH_OFFSET UNITYSDK_OFFSET(0xCCC7090)
-#define RPG_CLIENT_DISCRETEBAR_SET_CURRATE_OFFSET UNITYSDK_OFFSET(0xCCC7010)
+#define RPG_CLIENT_DISCRETEBAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA500F0)
+#define RPG_CLIENT_DISCRETEBAR_GET_CURRATE_OFFSET UNITYSDK_OFFSET(0x1DA4FD90)
+#define RPG_CLIENT_DISCRETEBAR_REFRESH_OFFSET UNITYSDK_OFFSET(0x1DA4FE60)
+#define RPG_CLIENT_DISCRETEBAR_SET_CURRATE_OFFSET UNITYSDK_OFFSET(0x1DA4FDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiscreteBar_TypeDefinitionIndex = 72524;
+	inline static constexpr unsigned int DiscreteBar_TypeDefinitionIndex = 74603;
 
 	class DiscreteBar : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,6 +4,7 @@
 #include "unitysdk/IDEGLFHLFPE_EffectType.h"
 class JEJLOGJHKFN;
 namespace RPG::Client { class GridFightEquipItemConfig; }
+namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::GameCore { class BattleGridFightEquipData; }
 namespace System { class Object; }
@@ -11,28 +12,29 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 
-#define IDEGLFHLFPE_AOCANOGJPDC_OFFSET UNITYSDK_OFFSET(0x15EB8160)
-#define IDEGLFHLFPE_CTOR_OFFSET UNITYSDK_OFFSET(0x15EB8510)
-#define IDEGLFHLFPE_EIMEDLNCNMO_OFFSET UNITYSDK_OFFSET(0x15EB8240)
-#define IDEGLFHLFPE_FGFILICHKOH_OFFSET UNITYSDK_OFFSET(0x15EB81E0)
-#define IDEGLFHLFPE_FMOLAHJHOMI_OFFSET UNITYSDK_OFFSET(0x15EB7EA0)
-#define IDEGLFHLFPE_GJFNGHECENA_OFFSET UNITYSDK_OFFSET(0x15EB7E20)
-#define IDEGLFHLFPE_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15EB7EF0)
-#define IDEGLFHLFPE_PKLFICMKCOI_OFFSET UNITYSDK_OFFSET(0x15EB80D0)
-#define IDEGLFHLFPE__ONBIND_OFFSET UNITYSDK_OFFSET(0x15EB7CA0)
+#define IDEGLFHLFPE_AOCANOGJPDC_OFFSET UNITYSDK_OFFSET(0x1777BF10)
+#define IDEGLFHLFPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1777C2B0)
+#define IDEGLFHLFPE_EIMEDLNCNMO_OFFSET UNITYSDK_OFFSET(0x1777BFE0)
+#define IDEGLFHLFPE_FGFILICHKOH_OFFSET UNITYSDK_OFFSET(0x1777BF80)
+#define IDEGLFHLFPE_FMOLAHJHOMI_OFFSET UNITYSDK_OFFSET(0x1777BC10)
+#define IDEGLFHLFPE_GJFNGHECENA_OFFSET UNITYSDK_OFFSET(0x1777BB90)
+#define IDEGLFHLFPE_NKPPGDENJAE_1_OFFSET UNITYSDK_OFFSET(0x1777BE70)
+#define IDEGLFHLFPE_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1777BC60)
+#define IDEGLFHLFPE__ONBIND_OFFSET UNITYSDK_OFFSET(0x1777B900)
 
-inline static constexpr unsigned int IDEGLFHLFPE_TypeDefinitionIndex = 72263;
+inline static constexpr unsigned int IDEGLFHLFPE_TypeDefinitionIndex = 74338;
 
 	class IDEGLFHLFPE : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Button* AAFGIHCCPOP; // 0x60
+		::UnityEngine::GameObject* PJDPBHBIFFF; // 0x60
 		::JEJLOGJHKFN* HODEFJKEDJD; // 0x68
-		::UnityEngine::Animator* APPGGMLEPLN; // 0x70
-		::RPG::Client::PrefabLoadMeta* JMJJBJOAEPB; // 0x78
-		::UnityEngine::GameObject* PJDPBHBIFFF; // 0x80
-		::RPG::Client::GridFightEquipItemConfig* CJMEHHAEPDA; // 0x88
-		::System::Boolean BFGEKIHIDAE; // 0x90
+		::RPG::Client::PrefabLoadMeta* JMJJBJOAEPB; // 0x70
+		::RPG::Client::GridFightEquipItemData* CICAEADOHLJ; // 0x78
+		::RPG::Client::GridFightEquipItemConfig* CJMEHHAEPDA; // 0x80
+		::UnityEngine::Animator* APPGGMLEPLN; // 0x88
+		::UnityEngine::UI::Button* AAFGIHCCPOP; // 0x90
+		::System::Boolean BFGEKIHIDAE; // 0x98
 		// static const ::System::String* BDACPPLKLGL; // 0x0
 		// static const ::System::String* JNHGEEFDKFG; // 0x0
 		// static const ::System::String* HJOGMPDEOIL; // 0x0
@@ -61,9 +63,9 @@ inline static constexpr unsigned int IDEGLFHLFPE_TypeDefinitionIndex = 72263;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleGridFightEquipData*))((::PBYTE)hIl2Cpp + IDEGLFHLFPE_NKPPGDENJAE_OFFSET))(this, a1);
 		}
 
-		::System::Void PKLFICMKCOI(::RPG::Client::GridFightEquipItemConfig* a1)
+		::System::Void NKPPGDENJAE_1(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipItemConfig*))((::PBYTE)hIl2Cpp + IDEGLFHLFPE_PKLFICMKCOI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + IDEGLFHLFPE_NKPPGDENJAE_1_OFFSET))(this, a1);
 		}
 
 		::System::Void AOCANOGJPDC(::System::Object* a1)

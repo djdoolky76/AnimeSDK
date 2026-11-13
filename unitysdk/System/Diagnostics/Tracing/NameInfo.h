@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Diagnostics::Tracing { class NameInfo; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1D0500)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x1C1D04E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x1C1D03E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C1D03B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D0270)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_RESERVEEVENTIDSBELOW_OFFSET UNITYSDK_OFFSET(0x1C1C7530)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0DCEC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x1C0DCEA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x1C0DCDA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C0DCD70)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0DCC30)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_RESERVEEVENTIDSBELOW_OFFSET UNITYSDK_OFFSET(0x1C0D3F30)
 
 namespace System::Diagnostics::Tracing
 {
@@ -19,13 +19,13 @@ namespace System::Diagnostics::Tracing
 	class NameInfo
 	{
 	public:
-		::Il2CppArray<::System::Byte>* nameMetadata; // 0x10
-		::System::String* name; // 0x18
-		::System::Diagnostics::Tracing::EventTags tags; // 0x20
-		::System::Int32 identity; // 0x24
+		::System::String* name; // 0x10
+		::Il2CppArray<::System::Byte>* nameMetadata; // 0x18
+		::System::Int32 identity; // 0x20
+		::System::Diagnostics::Tracing::EventTags tags; // 0x24
 		static ::System::Int32* StaticGet_lastIdentity()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Diagnostics.Tracing", "NameInfo")->GetStaticField(0x4400);
+			return (::System::Int32*)UnitySDK::FromName("System.Diagnostics.Tracing", "NameInfo")->GetStaticField(0x3560);
 		}
 
 		::System::Void _ctor(::System::String* a1, ::System::Diagnostics::Tracing::EventTags a2, ::System::Int32 a3)

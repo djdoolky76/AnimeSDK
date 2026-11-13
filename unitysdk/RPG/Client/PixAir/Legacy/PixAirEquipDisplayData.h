@@ -6,26 +6,26 @@
 namespace RPG::Client::PixAir::Legacy { class PixAirEquipDisplayData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xDB248D0)
-#define RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDB24960)
-#define RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xDB24970)
-#define RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xDB24980)
+#define RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18D9DEF0)
+#define RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x18D9DF80)
+#define RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x18D9DF90)
+#define RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x18D9DFA0)
 
 namespace RPG::Client::PixAir::Legacy
 {
-	inline static constexpr unsigned int PixAirEquipDisplayData_TypeDefinitionIndex = 79405;
+	inline static constexpr unsigned int PixAirEquipDisplayData_TypeDefinitionIndex = 82182;
 
 	class PixAirEquipDisplayData : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* TagList; // 0x10
-		::System::String* EquipIcon; // 0x18
-		::System::String* Name; // 0x20
+		::System::String* EquipIcon; // 0x10
+		::System::String* Name; // 0x18
+		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* TagList; // 0x20
 		::System::UInt32 _Level_k__BackingField; // 0x28
 		::System::Boolean IsCore; // 0x2C
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::PixAirSlotType SlotType; // 0x30
-		::System::UInt32 EquipID; // 0x34
+		::System::UInt32 EquipID; // 0x30
+		::RPG::GameCore::PixAirSlotType SlotType; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_LEGACY_PIXAIREQUIPDISPLAYDATA_CTOR_OFFSET))(this);

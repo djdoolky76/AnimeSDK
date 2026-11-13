@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define IBGPCEMGGEG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E27F70)
+#define IBGPCEMGGEG_CTOR_OFFSET UNITYSDK_OFFSET(0x188B1E10)
 
-inline static constexpr unsigned int IBGPCEMGGEG_TypeDefinitionIndex = 61267;
+inline static constexpr unsigned int IBGPCEMGGEG_TypeDefinitionIndex = 62652;
 
 	class IBGPCEMGGEG : public ::System::Exception
 	{

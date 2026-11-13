@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerUINotifyWithTarget; }
 
-#define PGKIMELFNFP_CTOR_OFFSET UNITYSDK_OFFSET(0xC21C8E0)
-#define PGKIMELFNFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC21C910)
+#define PGKIMELFNFP_CTOR_OFFSET UNITYSDK_OFFSET(0x16D992F0)
+#define PGKIMELFNFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D99320)
 
-inline static constexpr unsigned int PGKIMELFNFP_TypeDefinitionIndex = 56479;
+inline static constexpr unsigned int PGKIMELFNFP_TypeDefinitionIndex = 57699;
 
 	class PGKIMELFNFP
 	{

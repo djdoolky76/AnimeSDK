@@ -10,18 +10,18 @@ namespace UnityEngine { class Canvas; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class GraphicRegistry; }
 
-#define UNITYENGINE_UI_GRAPHICREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4D0ED0)
-#define UNITYENGINE_UI_GRAPHICREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D0C50)
-#define UNITYENGINE_UI_GRAPHICREGISTRY_GETGRAPHICSFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1F4CEB10)
-#define UNITYENGINE_UI_GRAPHICREGISTRY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F4D0E40)
-#define UNITYENGINE_UI_GRAPHICREGISTRY_REGISTERCANVASGRAPHICSCHANGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F4D02F0)
-#define UNITYENGINE_UI_GRAPHICREGISTRY_REGISTERGRAPHICFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1F4C8100)
-#define UNITYENGINE_UI_GRAPHICREGISTRY_UNREGISTERCANVASGRAPHICSCHANGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F4D04E0)
-#define UNITYENGINE_UI_GRAPHICREGISTRY_UNREGISTERGRAPHICFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1F4C7CF0)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD3D190)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD3CF10)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_GETGRAPHICSFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1CD3ADD0)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CD3D100)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_REGISTERCANVASGRAPHICSCHANGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1CD3C5B0)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_REGISTERGRAPHICFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1CD343C0)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_UNREGISTERCANVASGRAPHICSCHANGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1CD3C7A0)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_UNREGISTERGRAPHICFORCANVAS_OFFSET UNITYSDK_OFFSET(0x1CD33FB0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicRegistry_TypeDefinitionIndex = 6722;
+	inline static constexpr unsigned int GraphicRegistry_TypeDefinitionIndex = 6733;
 
 	class GraphicRegistry : public ::System::Object
 	{
@@ -29,12 +29,12 @@ namespace UnityEngine::UI
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::System::Object*>* m_Graphics; // 0x10
 		static ::UnityEngine::UI::GraphicRegistry** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::UI::GraphicRegistry**)UnitySDK::FromName("UnityEngine.UI", "GraphicRegistry")->GetStaticField(0x3C300);
+			return (::UnityEngine::UI::GraphicRegistry**)UnitySDK::FromName("UnityEngine.UI", "GraphicRegistry")->GetStaticField(0x2D0C0);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>** StaticGet_s_EmptyList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>**)UnitySDK::FromName("UnityEngine.UI", "GraphicRegistry")->GetStaticField(0x3C308);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>**)UnitySDK::FromName("UnityEngine.UI", "GraphicRegistry")->GetStaticField(0x2D0C8);
 		}
 
 		::System::Void _ctor()

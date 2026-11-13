@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/ProBuilder/Edge.h"
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A91B0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY___C__DISPLAYCLASS0_0__GETSHAREDVERTEXHANDLEEDGES_B__0_OFFSET UNITYSDK_OFFSET(0x1F1AA630)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C1BC0)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY___C__DISPLAYCLASS0_0__GETSHAREDVERTEXHANDLEEDGES_B__0_OFFSET UNITYSDK_OFFSET(0xD6C3060)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EdgeUtility___c__DisplayClass0_0_TypeDefinitionIndex = 44355;
+	inline static constexpr unsigned int EdgeUtility___c__DisplayClass0_0_TypeDefinitionIndex = 45430;
 
 	class EdgeUtility___c__DisplayClass0_0 : public ::System::Object
 	{

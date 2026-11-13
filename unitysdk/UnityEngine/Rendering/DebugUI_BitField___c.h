@@ -6,25 +6,25 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GUIContent; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F28F7E0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F28F820)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__SET_ENUMTYPE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1F28F830)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4BD8D0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4BD910)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__SET_ENUMTYPE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1E4BD920)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_BitField___c_TypeDefinitionIndex = 35538;
+	inline static constexpr unsigned int DebugUI_BitField___c_TypeDefinitionIndex = 36466;
 
 	class DebugUI_BitField___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5A6A0);
+			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x60D30);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5A6A8);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x60D38);
 		}
 
 		static ::System::Void _cctor()

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/TextCore/LowLevel/GlyphValueRecord.h"
 
-#define TMPRO_GLYPHVALUERECORD_LEGACY_CTOR_OFFSET UNITYSDK_OFFSET(0x2EDF140)
-#define TMPRO_GLYPHVALUERECORD_LEGACY_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1F2B7CE0)
+#define TMPRO_GLYPHVALUERECORD_LEGACY_CTOR_OFFSET UNITYSDK_OFFSET(0x6A7F10)
+#define TMPRO_GLYPHVALUERECORD_LEGACY_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x19B8B040)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int GlyphValueRecord_Legacy_TypeDefinitionIndex = 44577;
+	inline static constexpr unsigned int GlyphValueRecord_Legacy_TypeDefinitionIndex = 45652;
 
 	struct alignas(4) GlyphValueRecord_Legacy
 	{

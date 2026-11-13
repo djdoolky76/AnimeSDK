@@ -8,12 +8,12 @@ namespace RPG::GameCore { class StateTreeStateBaseConfig; }
 namespace RPG::GameCore { class StateTreeTransitionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATETREEROOTSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF1BD0)
-#define RPG_GAMECORE_STATETREEROOTSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF19F0)
+#define RPG_GAMECORE_STATETREEROOTSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C4980)
+#define RPG_GAMECORE_STATETREEROOTSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C47A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeRootStateConfig_TypeDefinitionIndex = 15494;
+	inline static constexpr unsigned int StateTreeRootStateConfig_TypeDefinitionIndex = 15652;
 
 	class StateTreeRootStateConfig : public ::RPG::GameCore::JsonConfig
 	{

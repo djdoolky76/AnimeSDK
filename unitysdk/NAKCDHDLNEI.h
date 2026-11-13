@@ -4,10 +4,10 @@
 class FNJFKHMDPDJ;
 namespace RPG::GameCore { class FiveDimBorderPlatConfig; }
 
-#define NAKCDHDLNEI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9068F0)
-#define NAKCDHDLNEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C906950)
+#define NAKCDHDLNEI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C26BA80)
+#define NAKCDHDLNEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C26BAE0)
 
-inline static constexpr unsigned int NAKCDHDLNEI_TypeDefinitionIndex = 43501;
+inline static constexpr unsigned int NAKCDHDLNEI_TypeDefinitionIndex = 44483;
 
 	class NAKCDHDLNEI : public ::System::Object
 	{

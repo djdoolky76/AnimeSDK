@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SwordTrainingSetDynamicValueByEnemyRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CEPBFKNPBKD_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F1030)
-#define CEPBFKNPBKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9F1110)
+#define CEPBFKNPBKD_CTOR_OFFSET UNITYSDK_OFFSET(0x188348A0)
+#define CEPBFKNPBKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18834980)
 
-inline static constexpr unsigned int CEPBFKNPBKD_TypeDefinitionIndex = 55700;
+inline static constexpr unsigned int CEPBFKNPBKD_TypeDefinitionIndex = 56902;
 
 	class CEPBFKNPBKD
 	{

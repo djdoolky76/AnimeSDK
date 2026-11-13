@@ -4,10 +4,10 @@
 class BIGECLNFJPJ;
 namespace System { class String; }
 
-#define BIGECLNFJPJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A1AB0)
-#define BIGECLNFJPJ___C__DISPLAYCLASS8_0__SETTIMEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xB4A3120)
+#define BIGECLNFJPJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB4220)
+#define BIGECLNFJPJ___C__DISPLAYCLASS8_0__SETTIMEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x1BAB5890)
 
-inline static constexpr unsigned int BIGECLNFJPJ___c__DisplayClass8_0_TypeDefinitionIndex = 49201;
+inline static constexpr unsigned int BIGECLNFJPJ___c__DisplayClass8_0_TypeDefinitionIndex = 50277;
 
 	class BIGECLNFJPJ___c__DisplayClass8_0 : public ::System::Object
 	{

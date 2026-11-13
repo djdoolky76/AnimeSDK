@@ -7,12 +7,12 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_CTOR_OFFSET UNITYSDK_OFFSET(0xCD507A0)
-#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD50750)
+#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x18995A10)
+#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x189959C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticlePathFlow_TypeDefinitionIndex = 70521;
+	inline static constexpr unsigned int Effect_ParticlePathFlow_TypeDefinitionIndex = 72496;
 
 	class Effect_ParticlePathFlow
 	{

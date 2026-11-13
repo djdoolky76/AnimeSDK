@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EPPIBFOLFKN;
 
-#define JIGBEFNLENA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1ECF70)
-#define JIGBEFNLENA___C__DISPLAYCLASS4_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB1F43A0)
+#define JIGBEFNLENA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1741B670)
+#define JIGBEFNLENA___C__DISPLAYCLASS4_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x17422AA0)
 
-inline static constexpr unsigned int JIGBEFNLENA___c__DisplayClass4_0_TypeDefinitionIndex = 66590;
+inline static constexpr unsigned int JIGBEFNLENA___c__DisplayClass4_0_TypeDefinitionIndex = 68526;
 
 	class JIGBEFNLENA___c__DisplayClass4_0 : public ::System::Object
 	{

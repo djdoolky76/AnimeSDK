@@ -4,18 +4,18 @@
 class ECGBLDGLGFL;
 namespace System { class Object; }
 
-#define ECGBLDGLGFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2210D0)
-#define ECGBLDGLGFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E221110)
-#define ECGBLDGLGFL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E221120)
+#define ECGBLDGLGFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3749B0)
+#define ECGBLDGLGFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3749F0)
+#define ECGBLDGLGFL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F374A00)
 
-inline static constexpr unsigned int ECGBLDGLGFL___c_TypeDefinitionIndex = 26351;
+inline static constexpr unsigned int ECGBLDGLGFL___c_TypeDefinitionIndex = 26878;
 
 	class ECGBLDGLGFL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42210);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x451A0);
 		}
 
 		static ::System::Void _cctor()

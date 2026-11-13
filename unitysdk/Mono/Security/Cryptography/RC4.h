@@ -4,11 +4,11 @@
 namespace Mono::Security::Cryptography { class RC4; }
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C04CF00)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_CREATE_OFFSET UNITYSDK_OFFSET(0x1C04CEB0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_CTOR_OFFSET UNITYSDK_OFFSET(0x1C041FD0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_GET_IV_OFFSET UNITYSDK_OFFSET(0x1C04CEA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_SET_IV_OFFSET UNITYSDK_OFFSET(0x1C0425E0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_CCTOR_OFFSET UNITYSDK_OFFSET(0x17AE1B80)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_CREATE_OFFSET UNITYSDK_OFFSET(0x17AE1B30)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_CTOR_OFFSET UNITYSDK_OFFSET(0x17AD6C20)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_GET_IV_OFFSET UNITYSDK_OFFSET(0x17AE1B20)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_SET_IV_OFFSET UNITYSDK_OFFSET(0x17AD7230)
 
 namespace Mono::Security::Cryptography
 {
@@ -19,12 +19,12 @@ namespace Mono::Security::Cryptography
 	public:
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0xC480);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0xB360);
 		}
 
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0xC488);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0xB368);
 		}
 
 		::System::Void _ctor()

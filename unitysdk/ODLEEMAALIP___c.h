@@ -4,18 +4,18 @@
 class ODLEEMAALIP;
 namespace System { class Object; }
 
-#define ODLEEMAALIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDF3580)
-#define ODLEEMAALIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF35C0)
-#define ODLEEMAALIP___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1DDF35D0)
+#define ODLEEMAALIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB51EC0)
+#define ODLEEMAALIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB51F00)
+#define ODLEEMAALIP___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1FB51F10)
 
-inline static constexpr unsigned int ODLEEMAALIP___c_TypeDefinitionIndex = 31555;
+inline static constexpr unsigned int ODLEEMAALIP___c_TypeDefinitionIndex = 32468;
 
 	class ODLEEMAALIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12A60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE8B0);
 		}
 
 		static ::System::Void _cctor()

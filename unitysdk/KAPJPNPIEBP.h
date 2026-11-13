@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class KAPJPNPIEBP;
 namespace System { class String; }
 
-#define KAPJPNPIEBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D031650)
-#define KAPJPNPIEBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0314E0)
+#define KAPJPNPIEBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F93E730)
+#define KAPJPNPIEBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F93E5C0)
 
-inline static constexpr unsigned int KAPJPNPIEBP_TypeDefinitionIndex = 15312;
+inline static constexpr unsigned int KAPJPNPIEBP_TypeDefinitionIndex = 15468;
 
 	class KAPJPNPIEBP : public ::System::Object
 	{
 	public:
 		::System::String* BHGKDNAPGOC; // 0x10
-		::System::UInt32 ALNDEGPBMLI; // 0x18
-		::System::UInt32 NMMKHFIFPEJ; // 0x1C
+		::System::UInt32 NMMKHFIFPEJ; // 0x18
+		::System::UInt32 ALNDEGPBMLI; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAPJPNPIEBP_CTOR_OFFSET))(this);

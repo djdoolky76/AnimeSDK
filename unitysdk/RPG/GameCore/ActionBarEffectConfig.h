@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ActionBarEffectConfig; }
 namespace RPG::GameCore { class ActionBarEffectTextConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONBAREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3148D0)
-#define RPG_GAMECORE_ACTIONBAREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D314700)
+#define RPG_GAMECORE_ACTIONBAREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F27D0)
+#define RPG_GAMECORE_ACTIONBAREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4F2600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarEffectConfig_TypeDefinitionIndex = 22947;
+	inline static constexpr unsigned int ActionBarEffectConfig_TypeDefinitionIndex = 23375;
 
 	class ActionBarEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

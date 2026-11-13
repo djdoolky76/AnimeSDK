@@ -6,11 +6,11 @@ class KDBJHIOOOLB;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FMDODCIIAJA_CTOR_OFFSET UNITYSDK_OFFSET(0x158444E0)
-#define FMDODCIIAJA_ICBPOKHOLOE_OFFSET UNITYSDK_OFFSET(0x158442D0)
-#define FMDODCIIAJA_IDOFFOMIPIC_OFFSET UNITYSDK_OFFSET(0x15844400)
+#define FMDODCIIAJA_CTOR_OFFSET UNITYSDK_OFFSET(0x17EF58E0)
+#define FMDODCIIAJA_ICBPOKHOLOE_OFFSET UNITYSDK_OFFSET(0x17EF56D0)
+#define FMDODCIIAJA_IDOFFOMIPIC_OFFSET UNITYSDK_OFFSET(0x17EF5800)
 
-inline static constexpr unsigned int FMDODCIIAJA_TypeDefinitionIndex = 79214;
+inline static constexpr unsigned int FMDODCIIAJA_TypeDefinitionIndex = 81991;
 
 	class FMDODCIIAJA : public ::System::Object
 	{

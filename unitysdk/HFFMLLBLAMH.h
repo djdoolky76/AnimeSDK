@@ -6,11 +6,11 @@ class HFFMLLBLAMH;
 namespace RPG::GameCore { class FateRinCaseBoardBaseTeamInfo; }
 namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 
-#define HFFMLLBLAMH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE723B0)
-#define HFFMLLBLAMH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE723C0)
-#define HFFMLLBLAMH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE72380)
+#define HFFMLLBLAMH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80FE30)
+#define HFFMLLBLAMH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E80FE40)
+#define HFFMLLBLAMH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E80FE00)
 
-inline static constexpr unsigned int HFFMLLBLAMH_TypeDefinitionIndex = 19928;
+inline static constexpr unsigned int HFFMLLBLAMH_TypeDefinitionIndex = 20257;
 
 	class HFFMLLBLAMH : public ::RPG::GameCore::TaskConfig
 	{

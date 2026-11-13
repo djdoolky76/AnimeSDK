@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RenderTestCameraConfig; }
 
-#define RPG_GAMECORE_RENDERTESTCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D959F50)
-#define RPG_GAMECORE_RENDERTESTCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D959A60)
+#define RPG_GAMECORE_RENDERTESTCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F243A30)
+#define RPG_GAMECORE_RENDERTESTCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F243540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RenderTestCameraConfig_TypeDefinitionIndex = 24400;
+	inline static constexpr unsigned int RenderTestCameraConfig_TypeDefinitionIndex = 24859;
 
 	class RenderTestCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

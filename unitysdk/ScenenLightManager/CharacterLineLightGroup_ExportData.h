@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9597C0)
+#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA45590)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int CharacterLineLightGroup_ExportData_TypeDefinitionIndex = 49106;
+	inline static constexpr unsigned int CharacterLineLightGroup_ExportData_TypeDefinitionIndex = 50182;
 
 	class CharacterLineLightGroup_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

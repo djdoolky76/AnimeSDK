@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropOverrideAnimLayerConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPOVERRIDEANIMLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D923020)
-#define RPG_GAMECORE_PROPOVERRIDEANIMLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D922F10)
+#define RPG_GAMECORE_PROPOVERRIDEANIMLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8CEC0)
+#define RPG_GAMECORE_PROPOVERRIDEANIMLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF8CDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropOverrideAnimLayerConfig_TypeDefinitionIndex = 17584;
+	inline static constexpr unsigned int PropOverrideAnimLayerConfig_TypeDefinitionIndex = 17752;
 
 	class PropOverrideAnimLayerConfig : public ::RPG::GameCore::JsonConfig
 	{

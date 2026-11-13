@@ -3,10 +3,10 @@
 class IFBFJDCECML;
 namespace Entitas { template <typename T> class IMatcher_1; }
 
-#define GMIFBFGDGJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6195E0)
-#define GMIFBFGDGJK_GETCORESTATETREEMATCHER_OFFSET UNITYSDK_OFFSET(0x1C619540)
+#define GMIFBFGDGJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA56EB0)
+#define GMIFBFGDGJK_GETCORESTATETREEMATCHER_OFFSET UNITYSDK_OFFSET(0x1AA56E10)
 
-inline static constexpr unsigned int GMIFBFGDGJK_TypeDefinitionIndex = 37048;
+inline static constexpr unsigned int GMIFBFGDGJK_TypeDefinitionIndex = 37976;
 
 	class GMIFBFGDGJK
 	{

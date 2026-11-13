@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IKHINIIBOBN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CEED330)
-#define IKHINIIBOBN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEED8B0)
-#define IKHINIIBOBN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CEED4A0)
-#define IKHINIIBOBN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CEECE20)
-#define IKHINIIBOBN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CEED0B0)
-#define IKHINIIBOBN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CEED540)
-#define IKHINIIBOBN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CEED590)
-#define IKHINIIBOBN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CEED370)
-#define IKHINIIBOBN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CEED050)
-#define IKHINIIBOBN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CEED1E0)
-#define IKHINIIBOBN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEED400)
-#define IKHINIIBOBN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEECDA0)
+#define IKHINIIBOBN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0xC992130)
+#define IKHINIIBOBN_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9926B0)
+#define IKHINIIBOBN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0xC9922A0)
+#define IKHINIIBOBN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0xC991C20)
+#define IKHINIIBOBN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0xC991EB0)
+#define IKHINIIBOBN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0xC992340)
+#define IKHINIIBOBN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0xC992390)
+#define IKHINIIBOBN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0xC992170)
+#define IKHINIIBOBN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0xC991E50)
+#define IKHINIIBOBN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xC991FE0)
+#define IKHINIIBOBN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0xC992200)
+#define IKHINIIBOBN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0xC991BA0)
 
-inline static constexpr unsigned int IKHINIIBOBN_TypeDefinitionIndex = 13921;
+inline static constexpr unsigned int IKHINIIBOBN_TypeDefinitionIndex = 14078;
 
 	class IKHINIIBOBN : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x23360);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JFILEJFAMPN*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JFILEJFAMPN*>**)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x23368);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x20FD0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x23370);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x20FD8);
 		}
 
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JFILEJFAMPN*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x79F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JFILEJFAMPN*>**)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x20FE0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x79F1);
+			return (::System::Boolean*)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x7760);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "IKHINIIBOBN")->GetStaticField(0x7761);
 		}
 
 		static ::System::Void _cctor()

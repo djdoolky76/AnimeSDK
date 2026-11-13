@@ -5,10 +5,10 @@ class AEKEIBNBMDJ;
 namespace System { class Object; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define OGEKMAAPMEE_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4FBE0)
-#define OGEKMAAPMEE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBE4FB80)
+#define OGEKMAAPMEE_CTOR_OFFSET UNITYSDK_OFFSET(0x18DFDDC0)
+#define OGEKMAAPMEE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x18DFDD60)
 
-inline static constexpr unsigned int OGEKMAAPMEE_TypeDefinitionIndex = 49547;
+inline static constexpr unsigned int OGEKMAAPMEE_TypeDefinitionIndex = 50623;
 
 	class OGEKMAAPMEE : public ::System::Object
 	{

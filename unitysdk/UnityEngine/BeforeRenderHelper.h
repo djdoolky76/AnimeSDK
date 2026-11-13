@@ -5,11 +5,11 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define UNITYENGINE_BEFORERENDERHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A6140)
-#define UNITYENGINE_BEFORERENDERHELPER_GETUPDATEORDER_OFFSET UNITYSDK_OFFSET(0x1F3A5F70)
-#define UNITYENGINE_BEFORERENDERHELPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3A3270)
-#define UNITYENGINE_BEFORERENDERHELPER_REGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F3A2480)
-#define UNITYENGINE_BEFORERENDERHELPER_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F3A2860)
+#define UNITYENGINE_BEFORERENDERHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9C6D30)
+#define UNITYENGINE_BEFORERENDERHELPER_GETUPDATEORDER_OFFSET UNITYSDK_OFFSET(0x1F9C6B60)
+#define UNITYENGINE_BEFORERENDERHELPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F9C3E70)
+#define UNITYENGINE_BEFORERENDERHELPER_REGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F9C3040)
+#define UNITYENGINE_BEFORERENDERHELPER_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F9C3420)
 
 namespace UnityEngine
 {
@@ -20,7 +20,7 @@ namespace UnityEngine
 	public:
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_s_OrderBlocks()
 		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("UnityEngine", "BeforeRenderHelper")->GetStaticField(0xE940);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("UnityEngine", "BeforeRenderHelper")->GetStaticField(0xAD30);
 		}
 
 		static ::System::Void _cctor()

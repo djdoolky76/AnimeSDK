@@ -6,21 +6,21 @@ namespace RPG::GameCore { class EntityTimeRewindComponent; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EGEEPDAIFGO_CLEAR_OFFSET UNITYSDK_OFFSET(0x13A66160)
-#define EGEEPDAIFGO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A661E0)
-#define EGEEPDAIFGO_GPEHBFDFLHB_OFFSET UNITYSDK_OFFSET(0x13A65770)
-#define EGEEPDAIFGO_HPILNIEIPJI_OFFSET UNITYSDK_OFFSET(0x13A65930)
-#define EGEEPDAIFGO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x13A65620)
+#define EGEEPDAIFGO_CLEAR_OFFSET UNITYSDK_OFFSET(0x17C00730)
+#define EGEEPDAIFGO_CTOR_OFFSET UNITYSDK_OFFSET(0x17C007B0)
+#define EGEEPDAIFGO_GPEHBFDFLHB_OFFSET UNITYSDK_OFFSET(0x17BFFD40)
+#define EGEEPDAIFGO_HPILNIEIPJI_OFFSET UNITYSDK_OFFSET(0x17BFFF00)
+#define EGEEPDAIFGO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x17BFFBF0)
 
-inline static constexpr unsigned int EGEEPDAIFGO_TypeDefinitionIndex = 60835;
+inline static constexpr unsigned int EGEEPDAIFGO_TypeDefinitionIndex = 62214;
 
 	class EGEEPDAIFGO : public ::System::Object
 	{
 	public:
 		::System::Object* OMHNKKKKNID; // 0x10
 		::Il2CppArray<::RPG::GameCore::EntityTimeRewindComponent*>* KGDLDFAHHMI; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* KBINOPCHKJC; // 0x20
-		::RPG::GameCore::EntityTimeRewindComponent* FNKOAJJKJNC; // 0x28
+		::RPG::GameCore::EntityTimeRewindComponent* FNKOAJJKJNC; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* KBINOPCHKJC; // 0x28
 		::RPG::GameCore::BindTimeRewindMultiControlType GKEBDIGBODK; // 0x30
 		::System::Int32 NMFFGLHFDDE; // 0x34
 		::System::Void _ctor()

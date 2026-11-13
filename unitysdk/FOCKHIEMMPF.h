@@ -3,10 +3,10 @@
 class NNMNLEFGMOC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FOCKHIEMMPF_CTOR_OFFSET UNITYSDK_OFFSET(0x158D99B0)
-#define FOCKHIEMMPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158D99E0)
+#define FOCKHIEMMPF_CTOR_OFFSET UNITYSDK_OFFSET(0x18744660)
+#define FOCKHIEMMPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18744690)
 
-inline static constexpr unsigned int FOCKHIEMMPF_TypeDefinitionIndex = 55056;
+inline static constexpr unsigned int FOCKHIEMMPF_TypeDefinitionIndex = 56232;
 
 	class FOCKHIEMMPF
 	{

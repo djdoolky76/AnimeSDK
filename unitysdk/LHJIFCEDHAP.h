@@ -7,23 +7,23 @@ namespace RPG::GameCore { class PropCurveSetStartPoint; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define LHJIFCEDHAP_CTOR_OFFSET UNITYSDK_OFFSET(0xB6AE4B0)
-#define LHJIFCEDHAP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6AE4C0)
-#define LHJIFCEDHAP_INMFMFPMMOC_OFFSET UNITYSDK_OFFSET(0xB6AEE80)
-#define LHJIFCEDHAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6AE6A0)
-#define LHJIFCEDHAP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6AE5F0)
-#define LHJIFCEDHAP_TICK_OFFSET UNITYSDK_OFFSET(0xB6AEE20)
+#define LHJIFCEDHAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC6D30)
+#define LHJIFCEDHAP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCC6D40)
+#define LHJIFCEDHAP_INMFMFPMMOC_OFFSET UNITYSDK_OFFSET(0x1BCC7710)
+#define LHJIFCEDHAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCC6F10)
+#define LHJIFCEDHAP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BCC6E60)
+#define LHJIFCEDHAP_TICK_OFFSET UNITYSDK_OFFSET(0x1BCC76B0)
 
-inline static constexpr unsigned int LHJIFCEDHAP_TypeDefinitionIndex = 58317;
+inline static constexpr unsigned int LHJIFCEDHAP_TypeDefinitionIndex = 59573;
 
 	class LHJIFCEDHAP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x18
-		::System::String* IJMGEMMNNPI; // 0x20
-		::RPG::GameCore::PropCurveSetStartPoint* OFKGLJOAMLD; // 0x28
-		::LHJIFCEDHAP_NDCJAJHGHCO* MBOEDFCNCJF; // 0x30
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x20
+		::LHJIFCEDHAP_NDCJAJHGHCO* MBOEDFCNCJF; // 0x28
+		::System::String* IJMGEMMNNPI; // 0x30
+		::RPG::GameCore::PropCurveSetStartPoint* OFKGLJOAMLD; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropCurveSetStartPoint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropCurveSetStartPoint*))((::PBYTE)hIl2Cpp + LHJIFCEDHAP_CTOR_OFFSET))(this, a1, a2);

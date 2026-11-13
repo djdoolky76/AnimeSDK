@@ -5,10 +5,10 @@ class JBDOALOEMAB;
 class KAKADGHNMFK;
 namespace RPG::GameCore { class ChimeraDuelMasterSelectorConfig; }
 
-#define JBDOALOEMAB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1655B620)
-#define JBDOALOEMAB___C__DISPLAYCLASS6_0___SELECTENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0x1655B810)
+#define JBDOALOEMAB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A6B440)
+#define JBDOALOEMAB___C__DISPLAYCLASS6_0___SELECTENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0x19A6B630)
 
-inline static constexpr unsigned int JBDOALOEMAB___c__DisplayClass6_0_TypeDefinitionIndex = 77637;
+inline static constexpr unsigned int JBDOALOEMAB___c__DisplayClass6_0_TypeDefinitionIndex = 80372;
 
 	class JBDOALOEMAB___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CPGEJLFBDNP_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCD040)
+#define CPGEJLFBDNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1917E1A0)
 
-inline static constexpr unsigned int CPGEJLFBDNP_TypeDefinitionIndex = 81996;
+inline static constexpr unsigned int CPGEJLFBDNP_TypeDefinitionIndex = 84777;
 
 	class CPGEJLFBDNP : public ::System::Object
 	{

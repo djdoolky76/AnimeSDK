@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define EBOAPGFADNL_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C46A80)
+#define EBOAPGFADNL_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3DE7050)
 
-inline static constexpr unsigned int EBOAPGFADNL_TypeDefinitionIndex = 6278;
+inline static constexpr unsigned int EBOAPGFADNL_TypeDefinitionIndex = 6285;
 
 	struct alignas(4) EBOAPGFADNL
 	{

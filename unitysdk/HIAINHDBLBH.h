@@ -3,10 +3,10 @@
 class DAFKCJCPINC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIAINHDBLBH_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD0590)
-#define HIAINHDBLBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CD05C0)
+#define HIAINHDBLBH_CTOR_OFFSET UNITYSDK_OFFSET(0x19028D00)
+#define HIAINHDBLBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19028D30)
 
-inline static constexpr unsigned int HIAINHDBLBH_TypeDefinitionIndex = 52870;
+inline static constexpr unsigned int HIAINHDBLBH_TypeDefinitionIndex = 54026;
 
 	class HIAINHDBLBH
 	{

@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceActionBase; }
 namespace RPG::GameCore { class CakeRaceAoeConfig; }
 
-#define RPG_GAMECORE_CAKERACEAOECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51D120)
-#define RPG_GAMECORE_CAKERACEAOECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D51C720)
+#define RPG_GAMECORE_CAKERACEAOECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF5FA0)
+#define RPG_GAMECORE_CAKERACEAOECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBF55A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceAoeConfig_TypeDefinitionIndex = 18366;
+	inline static constexpr unsigned int CakeRaceAoeConfig_TypeDefinitionIndex = 18526;
 
 	class CakeRaceAoeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,20 +4,20 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define CEFEPAIHCAG_CTOR_1_OFFSET UNITYSDK_OFFSET(0xC7808E0)
-#define CEFEPAIHCAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC7807A0)
-#define CEFEPAIHCAG_GET_CONTAINERNAME_OFFSET UNITYSDK_OFFSET(0xC780770)
-#define CEFEPAIHCAG_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0xC780780)
-#define CEFEPAIHCAG_GET_PARAMKINDS_OFFSET UNITYSDK_OFFSET(0xC780790)
+#define CEFEPAIHCAG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x173CCBC0)
+#define CEFEPAIHCAG_CTOR_OFFSET UNITYSDK_OFFSET(0x173CCA80)
+#define CEFEPAIHCAG_GET_CONTAINERNAME_OFFSET UNITYSDK_OFFSET(0x173CCA50)
+#define CEFEPAIHCAG_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0x173CCA60)
+#define CEFEPAIHCAG_GET_PARAMKINDS_OFFSET UNITYSDK_OFFSET(0x173CCA70)
 
-inline static constexpr unsigned int CEFEPAIHCAG_TypeDefinitionIndex = 49038;
+inline static constexpr unsigned int CEFEPAIHCAG_TypeDefinitionIndex = 50114;
 
 	class CEFEPAIHCAG : public ::System::Attribute
 	{
 	public:
-		::Il2CppArray<::LightCodeGen::VarKind>* _ParamKinds_k__BackingField; // 0x10
-		::System::String* _ContainerName_k__BackingField; // 0x18
-		::System::String* _MethodName_k__BackingField; // 0x20
+		::System::String* _ContainerName_k__BackingField; // 0x10
+		::System::String* _MethodName_k__BackingField; // 0x18
+		::Il2CppArray<::LightCodeGen::VarKind>* _ParamKinds_k__BackingField; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CEFEPAIHCAG_CTOR_OFFSET))(this, a1, a2);

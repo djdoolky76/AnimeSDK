@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightRoleTagInfoConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLETAGINFOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7126E0)
-#define RPG_GAMECORE_GRIDFIGHTROLETAGINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D712560)
+#define RPG_GAMECORE_GRIDFIGHTROLETAGINFOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5F570)
+#define RPG_GAMECORE_GRIDFIGHTROLETAGINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA5F3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleTagInfoConfigRow_TypeDefinitionIndex = 13525;
+	inline static constexpr unsigned int GridFightRoleTagInfoConfigRow_TypeDefinitionIndex = 13620;
 
 	class GridFightRoleTagInfoConfigRow : public ::System::Object
 	{

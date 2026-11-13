@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByCheckSealLevel; }
 
-#define LGPLCAEPBPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E0860)
-#define LGPLCAEPBPO_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C8E0880)
+#define LGPLCAEPBPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63A940)
+#define LGPLCAEPBPO_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1D63A960)
 
-inline static constexpr unsigned int LGPLCAEPBPO_TypeDefinitionIndex = 43154;
+inline static constexpr unsigned int LGPLCAEPBPO_TypeDefinitionIndex = 44135;
 
 	class LGPLCAEPBPO : public ::LHJPMDPJPEC
 	{

@@ -5,12 +5,12 @@ namespace RPG::GameCore { class TAMonoTickLodTemplate; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIDNKDBOJHD_CTOR_OFFSET UNITYSDK_OFFSET(0xC255760)
-#define PIDNKDBOJHD_LDBMFCMJBMO_OFFSET UNITYSDK_OFFSET(0xC2557B0)
-#define PIDNKDBOJHD_PGLHAMMBGLG_OFFSET UNITYSDK_OFFSET(0xC255B80)
-#define PIDNKDBOJHD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC255B10)
+#define PIDNKDBOJHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9C1B70)
+#define PIDNKDBOJHD_LDBMFCMJBMO_OFFSET UNITYSDK_OFFSET(0x1A9C1BC0)
+#define PIDNKDBOJHD_PGLHAMMBGLG_OFFSET UNITYSDK_OFFSET(0x1A9C1F90)
+#define PIDNKDBOJHD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1A9C1F20)
 
-inline static constexpr unsigned int PIDNKDBOJHD_TypeDefinitionIndex = 73982;
+inline static constexpr unsigned int PIDNKDBOJHD_TypeDefinitionIndex = 76118;
 
 	class PIDNKDBOJHD : public ::System::Object
 	{

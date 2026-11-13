@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AddMissionMenuItem; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KHDICJNFHLD_CTOR_OFFSET UNITYSDK_OFFSET(0xB3F9050)
-#define KHDICJNFHLD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3F9060)
-#define KHDICJNFHLD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3F90A0)
-#define KHDICJNFHLD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3F94C0)
-#define KHDICJNFHLD_TICK_OFFSET UNITYSDK_OFFSET(0xB3F9510)
+#define KHDICJNFHLD_CTOR_OFFSET UNITYSDK_OFFSET(0x19788A90)
+#define KHDICJNFHLD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19788AA0)
+#define KHDICJNFHLD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19788AE0)
+#define KHDICJNFHLD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19788F00)
+#define KHDICJNFHLD_TICK_OFFSET UNITYSDK_OFFSET(0x19788F50)
 
-inline static constexpr unsigned int KHDICJNFHLD_TypeDefinitionIndex = 57865;
+inline static constexpr unsigned int KHDICJNFHLD_TypeDefinitionIndex = 59102;
 
 	class KHDICJNFHLD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::AddMissionMenuItem* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::AddMissionMenuItem* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AddMissionMenuItem* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AddMissionMenuItem*))((::PBYTE)hIl2Cpp + KHDICJNFHLD_CTOR_OFFSET))(this, a1, a2);

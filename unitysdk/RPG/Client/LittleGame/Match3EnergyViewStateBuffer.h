@@ -5,23 +5,23 @@ class IFEABBJBIGK;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0xD465870)
-#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_EXECUTESEQUENCE_OFFSET UNITYSDK_OFFSET(0xD465770)
-#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER__ONSEQUENCEFINISH_OFFSET UNITYSDK_OFFSET(0xD465820)
+#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBFFB0)
+#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_EXECUTESEQUENCE_OFFSET UNITYSDK_OFFSET(0x1CDBFEB0)
+#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER__ONSEQUENCEFINISH_OFFSET UNITYSDK_OFFSET(0x1CDBFF60)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int Match3EnergyViewStateBuffer_TypeDefinitionIndex = 76569;
+	inline static constexpr unsigned int Match3EnergyViewStateBuffer_TypeDefinitionIndex = 78900;
 
 	class Match3EnergyViewStateBuffer : public ::System::Object
 	{
 	public:
-		::IFEABBJBIGK* CommandSequence; // 0x10
-		::System::Func_2<::System::UInt32, ::IFEABBJBIGK*>* GenIncreaseCommand; // 0x18
-		::IFEABBJBIGK* IncreaseCommand; // 0x20
-		::System::Action* OnFinishIncrease; // 0x28
-		::System::Boolean WaitIncrease; // 0x30
-		::System::Boolean CanDecrease; // 0x31
+		::System::Action* OnFinishIncrease; // 0x10
+		::IFEABBJBIGK* IncreaseCommand; // 0x18
+		::System::Func_2<::System::UInt32, ::IFEABBJBIGK*>* GenIncreaseCommand; // 0x20
+		::IFEABBJBIGK* CommandSequence; // 0x28
+		::System::Boolean CanDecrease; // 0x30
+		::System::Boolean WaitIncrease; // 0x31
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_CTOR_OFFSET))(this);

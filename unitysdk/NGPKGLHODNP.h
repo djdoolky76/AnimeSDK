@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByWorldLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGPKGLHODNP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAD260)
-#define NGPKGLHODNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBAD340)
+#define NGPKGLHODNP_CTOR_OFFSET UNITYSDK_OFFSET(0x148855D0)
+#define NGPKGLHODNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148856B0)
 
-inline static constexpr unsigned int NGPKGLHODNP_TypeDefinitionIndex = 55481;
+inline static constexpr unsigned int NGPKGLHODNP_TypeDefinitionIndex = 56669;
 
 	class NGPKGLHODNP
 	{

@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class InControlActionMapRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INCONTROLACTIONMAPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D755340)
-#define RPG_GAMECORE_INCONTROLACTIONMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D754BB0)
+#define RPG_GAMECORE_INCONTROLACTIONMAPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8E190)
+#define RPG_GAMECORE_INCONTROLACTIONMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE8DA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InControlActionMapRow_TypeDefinitionIndex = 13809;
+	inline static constexpr unsigned int InControlActionMapRow_TypeDefinitionIndex = 13966;
 
 	class InControlActionMapRow : public ::System::Object
 	{
 	public:
-		::System::String* defaultMouseType; // 0x10
-		::System::String* defaultKey; // 0x18
-		::System::String* actionName; // 0x20
-		::Il2CppArray<::System::UInt32>* actionTypeList; // 0x28
-		::Il2CppArray<::System::String*>* defaultInControlTypes; // 0x30
-		::Il2CppArray<::System::UInt32>* FuncGotoIDList; // 0x38
+		::System::String* actionName; // 0x10
+		::Il2CppArray<::System::UInt32>* actionTypeList; // 0x18
+		::Il2CppArray<::System::String*>* defaultInControlTypes; // 0x20
+		::Il2CppArray<::System::UInt32>* FuncGotoIDList; // 0x28
+		::System::String* defaultMouseType; // 0x30
+		::System::String* defaultKey; // 0x38
 		::RPG::Client::TextID actionTextmapID; // 0x40
 		::System::Void _ctor()
 		{

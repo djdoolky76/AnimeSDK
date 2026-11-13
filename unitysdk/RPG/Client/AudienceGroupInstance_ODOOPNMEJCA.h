@@ -4,19 +4,19 @@
 namespace RPG::Client { class AudienceLayoutConfig; }
 namespace RPG::GameCore { class LevelCurveInstance; }
 
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_ODOOPNMEJCA_CTOR_OFFSET UNITYSDK_OFFSET(0xC6AB940)
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_ODOOPNMEJCA_EEOOMIBEMNH_OFFSET UNITYSDK_OFFSET(0xC6AB960)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_ODOOPNMEJCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB59A0)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_ODOOPNMEJCA_EEOOMIBEMNH_OFFSET UNITYSDK_OFFSET(0x1CAB59C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_ODOOPNMEJCA_TypeDefinitionIndex = 69145;
+	inline static constexpr unsigned int AudienceGroupInstance_ODOOPNMEJCA_TypeDefinitionIndex = 71098;
 
 	class AudienceGroupInstance_ODOOPNMEJCA : public ::RPG::Client::AudienceGroupInstance_FJBBJCJGFNF
 	{
 	public:
 		::RPG::Client::AudienceLayoutConfig* EABKOHGCHFP; // 0x10
-		::System::Single NPAFMEBNFOB; // 0x18
-		::System::Single BJPFKNECHPL; // 0x1C
+		::System::Single BJPFKNECHPL; // 0x18
+		::System::Single NPAFMEBNFOB; // 0x1C
 		::System::Single NKPKPNKBBAP; // 0x20
 		::System::Void _ctor(::RPG::Client::AudienceLayoutConfig* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{

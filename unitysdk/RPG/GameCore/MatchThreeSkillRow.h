@@ -6,24 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREESKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82D7C0)
-#define RPG_GAMECORE_MATCHTHREESKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82D4D0)
+#define RPG_GAMECORE_MATCHTHREESKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB61B00)
+#define RPG_GAMECORE_MATCHTHREESKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB61810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeSkillRow_TypeDefinitionIndex = 11905;
+	inline static constexpr unsigned int MatchThreeSkillRow_TypeDefinitionIndex = 11962;
 
 	class MatchThreeSkillRow : public ::System::Object
 	{
 	public:
 		::System::String* SkillUnchangedImg; // 0x10
-		::System::String* SkillChargedImg; // 0x18
-		::System::String* SkillJson; // 0x20
-		::System::String* DescFigure; // 0x28
-		::System::String* BirdSkillTrailEffectPath; // 0x30
-		::System::UInt32 VideoID; // 0x38
-		::System::UInt32 SkillID; // 0x3C
-		::RPG::Client::TextID Desc; // 0x40
+		::System::String* BirdSkillTrailEffectPath; // 0x18
+		::System::String* DescFigure; // 0x20
+		::System::String* SkillChargedImg; // 0x28
+		::System::String* SkillJson; // 0x30
+		::RPG::Client::TextID Desc; // 0x38
+		::System::UInt32 SkillID; // 0x48
+		::System::UInt32 VideoID; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREESKILLROW_CTOR_OFFSET))(this);

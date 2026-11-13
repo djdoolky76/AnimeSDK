@@ -4,18 +4,18 @@
 class APODDGMLMLF;
 namespace System { class Object; }
 
-#define APODDGMLMLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E64DC90)
-#define APODDGMLMLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E64DCC0)
-#define APODDGMLMLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E64DCD0)
+#define APODDGMLMLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2056CB40)
+#define APODDGMLMLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2056CB70)
+#define APODDGMLMLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2056CB80)
 
-inline static constexpr unsigned int APODDGMLMLF___c_TypeDefinitionIndex = 32426;
+inline static constexpr unsigned int APODDGMLMLF___c_TypeDefinitionIndex = 33339;
 
 	class APODDGMLMLF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4ACF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40810);
 		}
 
 		static ::System::Void _cctor()

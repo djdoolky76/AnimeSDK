@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PuManHintNotifyConfig; }
 
-#define RPG_GAMECORE_PUMANHINTNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92F630)
-#define RPG_GAMECORE_PUMANHINTNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92F530)
+#define RPG_GAMECORE_PUMANHINTNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF98A30)
+#define RPG_GAMECORE_PUMANHINTNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF98930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuManHintNotifyConfig_TypeDefinitionIndex = 16963;
+	inline static constexpr unsigned int PuManHintNotifyConfig_TypeDefinitionIndex = 17130;
 
 	class PuManHintNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InitBattleItemProgressInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NEMBLAHFCFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6B0B0)
-#define NEMBLAHFCFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB6B0E0)
+#define NEMBLAHFCFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16FEB2F0)
+#define NEMBLAHFCFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FEB320)
 
-inline static constexpr unsigned int NEMBLAHFCFJ_TypeDefinitionIndex = 47603;
+inline static constexpr unsigned int NEMBLAHFCFJ_TypeDefinitionIndex = 48632;
 
 	class NEMBLAHFCFJ
 	{

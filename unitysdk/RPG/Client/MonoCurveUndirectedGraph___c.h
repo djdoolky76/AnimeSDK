@@ -5,25 +5,25 @@ namespace RPG::Client { class CurveUndirectedEdgeSetting; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD73CF40)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD73CF80)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__GENERATECURVEEDGES_B__7_0_OFFSET UNITYSDK_OFFSET(0xD73CF90)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1401DE10)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1401DE50)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__GENERATECURVEEDGES_B__7_0_OFFSET UNITYSDK_OFFSET(0x1401DE60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph___c_TypeDefinitionIndex = 68574;
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c_TypeDefinitionIndex = 70522;
 
 	class MonoCurveUndirectedGraph___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::CurveUndirectedEdgeSetting*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::CurveUndirectedEdgeSetting*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5AC20);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5AC28);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68640);
+		}
+
+		static ::System::Func_2<::RPG::Client::CurveUndirectedEdgeSetting*, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::CurveUndirectedEdgeSetting*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68648);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_STORYLINEUTILS___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE13C190)
-#define RPG_CLIENT_STORYLINEUTILS___C__DISPLAYCLASS0_0__SHOWSWITCHLINEDIALOGONDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0xE13C1A0)
+#define RPG_CLIENT_STORYLINEUTILS___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCDE9B0)
+#define RPG_CLIENT_STORYLINEUTILS___C__DISPLAYCLASS0_0__SHOWSWITCHLINEDIALOGONDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1CCDE9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineUtils___c__DisplayClass0_0_TypeDefinitionIndex = 67998;
+	inline static constexpr unsigned int StoryLineUtils___c__DisplayClass0_0_TypeDefinitionIndex = 69944;
 
 	class StoryLineUtils___c__DisplayClass0_0 : public ::System::Object
 	{

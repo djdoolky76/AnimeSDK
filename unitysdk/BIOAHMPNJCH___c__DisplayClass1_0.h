@@ -4,10 +4,10 @@
 class BIOAHMPNJCH;
 namespace RPG::Client { class UIController; }
 
-#define BIOAHMPNJCH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB78F8C0)
-#define BIOAHMPNJCH___C__DISPLAYCLASS1_0__TRYAUTOSHOW_B__0_OFFSET UNITYSDK_OFFSET(0xB790700)
+#define BIOAHMPNJCH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD2CC0)
+#define BIOAHMPNJCH___C__DISPLAYCLASS1_0__TRYAUTOSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BAD3B00)
 
-inline static constexpr unsigned int BIOAHMPNJCH___c__DisplayClass1_0_TypeDefinitionIndex = 82073;
+inline static constexpr unsigned int BIOAHMPNJCH___c__DisplayClass1_0_TypeDefinitionIndex = 84946;
 
 	class BIOAHMPNJCH___c__DisplayClass1_0 : public ::System::Object
 	{

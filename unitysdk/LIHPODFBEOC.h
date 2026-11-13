@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BoomRobotGameplayEnterBoomCam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LIHPODFBEOC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C4FE0)
-#define LIHPODFBEOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6C5010)
+#define LIHPODFBEOC_CTOR_OFFSET UNITYSDK_OFFSET(0x172E06B0)
+#define LIHPODFBEOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172E06E0)
 
-inline static constexpr unsigned int LIHPODFBEOC_TypeDefinitionIndex = 52545;
+inline static constexpr unsigned int LIHPODFBEOC_TypeDefinitionIndex = 53651;
 
 	class LIHPODFBEOC
 	{

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KLEFBEGIEGA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0769D0)
-#define KLEFBEGIEGA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D076FA0)
-#define KLEFBEGIEGA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D076B40)
-#define KLEFBEGIEGA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D076440)
-#define KLEFBEGIEGA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0766D0)
-#define KLEFBEGIEGA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D076BE0)
-#define KLEFBEGIEGA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D076C30)
-#define KLEFBEGIEGA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D076A10)
-#define KLEFBEGIEGA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D076670)
-#define KLEFBEGIEGA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D076840)
-#define KLEFBEGIEGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D076AA0)
-#define KLEFBEGIEGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0763C0)
+#define KLEFBEGIEGA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1ECD5D70)
+#define KLEFBEGIEGA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECD6340)
+#define KLEFBEGIEGA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1ECD5EE0)
+#define KLEFBEGIEGA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1ECD57E0)
+#define KLEFBEGIEGA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1ECD5A70)
+#define KLEFBEGIEGA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1ECD5F80)
+#define KLEFBEGIEGA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1ECD5FD0)
+#define KLEFBEGIEGA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1ECD5DB0)
+#define KLEFBEGIEGA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1ECD5A10)
+#define KLEFBEGIEGA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1ECD5BE0)
+#define KLEFBEGIEGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1ECD5E40)
+#define KLEFBEGIEGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1ECD5760)
 
-inline static constexpr unsigned int KLEFBEGIEGA_TypeDefinitionIndex = 11195;
+inline static constexpr unsigned int KLEFBEGIEGA_TypeDefinitionIndex = 11211;
 
 	class KLEFBEGIEGA : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0x35500);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0x35508);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0x379B0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkTalkTextRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkTalkTextRow*>**)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0x35510);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkTalkTextRow*>**)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0x379B8);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0x379C0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0xAC30);
+			return (::System::Byte*)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0xAED0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0xAC31);
+			return (::System::Boolean*)UnitySDK::FromName("", "KLEFBEGIEGA")->GetStaticField(0xAED1);
 		}
 
 		static ::System::Void _cctor()

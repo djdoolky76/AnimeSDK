@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE9191C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C764100)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineTrack_TypeDefinitionIndex = 48571;
+	inline static constexpr unsigned int DOFTimelineTrack_TypeDefinitionIndex = 49612;
 
 	class DOFTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

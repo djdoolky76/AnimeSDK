@@ -5,35 +5,35 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define NCCMCBNNOHC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAFCCA0)
-#define NCCMCBNNOHC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBAFCCD0)
-#define NCCMCBNNOHC___C__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xBAFCCE0)
-#define NCCMCBNNOHC___C__ONTASKBEGIN_B__3_1_OFFSET UNITYSDK_OFFSET(0xBAFCD60)
-#define NCCMCBNNOHC___C__ONTASKBEGIN_B__3_2_OFFSET UNITYSDK_OFFSET(0xBAFCDE0)
+#define NCCMCBNNOHC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x150EEDA0)
+#define NCCMCBNNOHC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x150EEDD0)
+#define NCCMCBNNOHC___C__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0x150EEDE0)
+#define NCCMCBNNOHC___C__ONTASKBEGIN_B__3_1_OFFSET UNITYSDK_OFFSET(0x150EEE60)
+#define NCCMCBNNOHC___C__ONTASKBEGIN_B__3_2_OFFSET UNITYSDK_OFFSET(0x150EEEE0)
 
-inline static constexpr unsigned int NCCMCBNNOHC___c_TypeDefinitionIndex = 56422;
+inline static constexpr unsigned int NCCMCBNNOHC___c_TypeDefinitionIndex = 57640;
 
 	class NCCMCBNNOHC___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet___9__3_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22610);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E950);
 		}
 
 		static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet___9__3_1()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22618);
+			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E958);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet___9__3_2()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E960);
 		}
 
 		static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22620);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22628);
+			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E968);
 		}
 
 		static ::System::Void _cctor()

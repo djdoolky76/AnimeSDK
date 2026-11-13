@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMonsterEliteDropItemRow; }
 
-#define RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ED640)
-#define RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9ED530)
+#define RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x207A4E50)
+#define RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x207A4D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMonsterEliteDropItemRow_TypeDefinitionIndex = 14693;
+	inline static constexpr unsigned int RogueMonsterEliteDropItemRow_TypeDefinitionIndex = 14849;
 
 	class RogueMonsterEliteDropItemRow : public ::System::Object
 	{

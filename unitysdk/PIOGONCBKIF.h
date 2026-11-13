@@ -5,19 +5,19 @@ class MEDGOLOBNJM;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define PIOGONCBKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC26D830)
-#define PIOGONCBKIF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC26D590)
-#define PIOGONCBKIF__ONBIND_OFFSET UNITYSDK_OFFSET(0xC26D3E0)
+#define PIOGONCBKIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D9DD0)
+#define PIOGONCBKIF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1A9D9B30)
+#define PIOGONCBKIF__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A9D9920)
 
-inline static constexpr unsigned int PIOGONCBKIF_TypeDefinitionIndex = 71329;
+inline static constexpr unsigned int PIOGONCBKIF_TypeDefinitionIndex = 73306;
 
 	class PIOGONCBKIF : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* BIIDDLHFPPG; // 0x60
-		::UnityEngine::UI::Text* CCOIIOCJIDI; // 0x68
-		::UnityEngine::Transform* FCLGOLCJBOE; // 0x70
-		::UnityEngine::Transform* AGOGNADGDNM; // 0x78
+		::UnityEngine::Transform* AGOGNADGDNM; // 0x60
+		::UnityEngine::Transform* BIIDDLHFPPG; // 0x68
+		::UnityEngine::UI::Text* CCOIIOCJIDI; // 0x70
+		::UnityEngine::Transform* FCLGOLCJBOE; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIOGONCBKIF_CTOR_OFFSET))(this);

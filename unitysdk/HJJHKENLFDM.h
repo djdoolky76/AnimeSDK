@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtStackProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HJJHKENLFDM_CTOR_OFFSET UNITYSDK_OFFSET(0x15D19910)
-#define HJJHKENLFDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D19940)
+#define HJJHKENLFDM_CTOR_OFFSET UNITYSDK_OFFSET(0x182172B0)
+#define HJJHKENLFDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182172E0)
 
-inline static constexpr unsigned int HJJHKENLFDM_TypeDefinitionIndex = 53917;
+inline static constexpr unsigned int HJJHKENLFDM_TypeDefinitionIndex = 55081;
 
 	class HJJHKENLFDM
 	{

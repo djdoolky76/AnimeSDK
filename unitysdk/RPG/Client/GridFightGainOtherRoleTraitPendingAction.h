@@ -1,0 +1,148 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GridFightProtoPendingAction.h"
+class CHCHAJIANIM;
+namespace RPG::Client { class GridFightEffectController; }
+namespace RPG::Client { class GridFightRole; }
+namespace RPG::Client { class GridFightTraitConfig; }
+namespace RPG::Client { class LuaUIController; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D675200)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GETACTIONID_OFFSET UNITYSDK_OFFSET(0x1D675410)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1D675140)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_CANDIDATEROLES_OFFSET UNITYSDK_OFFSET(0x1D6751A0)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0x1D6751E0)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0x1D675180)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_TRAITID_OFFSET UNITYSDK_OFFSET(0x1D675160)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SELECTROLE_OFFSET UNITYSDK_OFFSET(0x1D675D20)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SETEFFECTCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1D675CD0)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1D675150)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0x1D6751F0)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0x1D675190)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SET_TRAITID_OFFSET UNITYSDK_OFFSET(0x1D675170)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D675450)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__GETTRAITROLES_OFFSET UNITYSDK_OFFSET(0x1D676270)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__ONFINISH_OFFSET UNITYSDK_OFFSET(0x1D676080)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__ONSTART_OFFSET UNITYSDK_OFFSET(0x1D675F80)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__PLAYFINISHEFFECTS_OFFSET UNITYSDK_OFFSET(0x1D6760F0)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__REFRESHCANDIDATEROLES_OFFSET UNITYSDK_OFFSET(0x1D6754F0)
+#define RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__SYNCFROMPROTO_OFFSET UNITYSDK_OFFSET(0x1D675260)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightGainOtherRoleTraitPendingAction_TypeDefinitionIndex = 66703;
+
+	class GridFightGainOtherRoleTraitPendingAction : public ::RPG::Client::GridFightProtoPendingAction
+	{
+	public:
+		::RPG::Client::LuaUIController* _HandleUI; // 0x20
+		::RPG::Client::GridFightTraitConfig* _TraitConfig_k__BackingField; // 0x28
+		::RPG::Client::GridFightEffectController* _EffectController; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* _CandidateRoles; // 0x38
+		::System::UInt32 _TraitID_k__BackingField; // 0x40
+		::System::UInt32 _TraitEffectID_k__BackingField; // 0x44
+		::System::UInt32 _ActionID_k__BackingField; // 0x48
+		::System::Void _ctor(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_ACTIONID_OFFSET))(this);
+		}
+
+		::System::Void set_ActionID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SET_ACTIONID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_TraitID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_TRAITID_OFFSET))(this);
+		}
+
+		::System::Void set_TraitID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SET_TRAITID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_TraitEffectID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_TRAITEFFECTID_OFFSET))(this);
+		}
+
+		::System::Void set_TraitEffectID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SET_TRAITEFFECTID_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::GridFightRole*>* get_CandidateRoles()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::GridFightRole*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_CANDIDATEROLES_OFFSET))(this);
+		}
+
+		::RPG::Client::GridFightTraitConfig* get_TraitConfig()
+		{
+			return ((::RPG::Client::GridFightTraitConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GET_TRAITCONFIG_OFFSET))(this);
+		}
+
+		::System::Void set_TraitConfig(::RPG::Client::GridFightTraitConfig* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SET_TRAITCONFIG_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_GETACTIONID_OFFSET))(this);
+		}
+
+		::System::Void Update(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_UPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Void _SyncFromProto(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__SYNCFROMPROTO_OFFSET))(this, a1);
+		}
+
+		::System::Void _RefreshCandidateRoles(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__REFRESHCANDIDATEROLES_OFFSET))(this, a1);
+		}
+
+		::System::Void SetEffectController(::RPG::Client::GridFightEffectController* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEffectController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SETEFFECTCONTROLLER_OFFSET))(this, a1);
+		}
+
+		::System::Void SelectRole(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION_SELECTROLE_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__ONSTART_OFFSET))(this);
+		}
+
+		::System::Void _OnFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__ONFINISH_OFFSET))(this);
+		}
+
+		::System::Void _PlayFinishEffects()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__PLAYFINISHEFFECTS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* _GetTraitRoles()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAINOTHERROLETRAITPENDINGACTION__GETTRAITROLES_OFFSET))(this);
+		}
+
+	};
+}

@@ -7,35 +7,35 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define OIFLCPEKGBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE86E60)
-#define OIFLCPEKGBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBE86E90)
-#define OIFLCPEKGBC___C__GET_ISINASYNCINITIALIZE_B__36_0_OFFSET UNITYSDK_OFFSET(0xBE86EA0)
-#define OIFLCPEKGBC___C__UNREGISTERTSCIRIRENDERERS_B__155_0_OFFSET UNITYSDK_OFFSET(0xBE86EC0)
-#define OIFLCPEKGBC___C__UNREGISTERTSCIRIRENDERERS_B__155_1_OFFSET UNITYSDK_OFFSET(0xBE86F50)
+#define OIFLCPEKGBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18E36030)
+#define OIFLCPEKGBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18E36060)
+#define OIFLCPEKGBC___C__GET_ISINASYNCINITIALIZE_B__36_0_OFFSET UNITYSDK_OFFSET(0x18E36070)
+#define OIFLCPEKGBC___C__UNREGISTERTSCIRIRENDERERS_B__155_0_OFFSET UNITYSDK_OFFSET(0x1948A4D0)
+#define OIFLCPEKGBC___C__UNREGISTERTSCIRIRENDERERS_B__155_1_OFFSET UNITYSDK_OFFSET(0x1948A560)
 
-inline static constexpr unsigned int OIFLCPEKGBC___c_TypeDefinitionIndex = 70222;
+inline static constexpr unsigned int OIFLCPEKGBC___c_TypeDefinitionIndex = 72188;
 
 	class OIFLCPEKGBC___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::TimeSpaceCrisscrossGroupBehavior*, ::System::Boolean>** StaticGet___9__36_0()
-		{
-			return (::System::Func_2<::RPG::Client::TimeSpaceCrisscrossGroupBehavior*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x641C0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x641C8);
-		}
-
-		static ::System::Predicate_1<::IDEFMHBFDKL*>** StaticGet___9__155_0()
-		{
-			return (::System::Predicate_1<::IDEFMHBFDKL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x641D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70680);
 		}
 
 		static ::System::Predicate_1<::IDEFMHBFDKL*>** StaticGet___9__155_1()
 		{
-			return (::System::Predicate_1<::IDEFMHBFDKL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x641D8);
+			return (::System::Predicate_1<::IDEFMHBFDKL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70688);
+		}
+
+		static ::System::Func_2<::RPG::Client::TimeSpaceCrisscrossGroupBehavior*, ::System::Boolean>** StaticGet___9__36_0()
+		{
+			return (::System::Func_2<::RPG::Client::TimeSpaceCrisscrossGroupBehavior*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70690);
+		}
+
+		static ::System::Predicate_1<::IDEFMHBFDKL*>** StaticGet___9__155_0()
+		{
+			return (::System::Predicate_1<::IDEFMHBFDKL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70698);
 		}
 
 		static ::System::Void _cctor()

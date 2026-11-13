@@ -5,25 +5,25 @@ class NHPAANINLPK;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_AVATARGROWTHGUIDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6E8540)
-#define RPG_CLIENT_AVATARGROWTHGUIDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC6E8580)
-#define RPG_CLIENT_AVATARGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xC6E8590)
+#define RPG_CLIENT_AVATARGROWTHGUIDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4C60E0)
+#define RPG_CLIENT_AVATARGROWTHGUIDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4C6120)
+#define RPG_CLIENT_AVATARGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A4C6130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarGrowthGuide___c_TypeDefinitionIndex = 65545;
+	inline static constexpr unsigned int AvatarGrowthGuide___c_TypeDefinitionIndex = 67461;
 
 	class AvatarGrowthGuide___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::NHPAANINLPK*>** StaticGet___9__2_0()
-		{
-			return (::System::Predicate_1<::NHPAANINLPK*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4DD80);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4DD88);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5DE00);
+		}
+
+		static ::System::Predicate_1<::NHPAANINLPK*>** StaticGet___9__2_0()
+		{
+			return (::System::Predicate_1<::NHPAANINLPK*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5DE08);
 		}
 
 		static ::System::Void _cctor()

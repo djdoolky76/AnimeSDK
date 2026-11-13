@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BOJPMACOMHG_TypeDefinitionIndex = 28812;
+inline static constexpr unsigned int BOJPMACOMHG_TypeDefinitionIndex = 29402;
 
 	enum class BOJPMACOMHG : ::System::Int32
 	{

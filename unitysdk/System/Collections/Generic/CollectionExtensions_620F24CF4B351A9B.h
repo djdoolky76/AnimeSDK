@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int CollectionExtensions_620F24CF4B351A9B_TypeDefinitionIndex = 35877;
+	inline static constexpr unsigned int CollectionExtensions_620F24CF4B351A9B_TypeDefinitionIndex = 36805;
 
 	class CollectionExtensions_620F24CF4B351A9B : public ::System::Object
 	{

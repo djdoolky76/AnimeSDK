@@ -4,22 +4,22 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_CLOUDUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xCB898A0)
-#define RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET UNITYSDK_OFFSET(0xCB89170)
-#define RPG_CLIENT_CLOUDUTILS_ISCLOUDGAMEURLCONFIGURATED_OFFSET UNITYSDK_OFFSET(0xCB89810)
-#define RPG_CLIENT_CLOUDUTILS_KEEPALIVEBYAUTOBATTLE_OFFSET UNITYSDK_OFFSET(0xCB895A0)
-#define RPG_CLIENT_CLOUDUTILS_ONGETCLIPBOARDDATA_OFFSET UNITYSDK_OFFSET(0xCB892A0)
+#define RPG_CLIENT_CLOUDUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01CF70)
+#define RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET UNITYSDK_OFFSET(0x1D01C840)
+#define RPG_CLIENT_CLOUDUTILS_ISCLOUDGAMEURLCONFIGURATED_OFFSET UNITYSDK_OFFSET(0x1D01CEE0)
+#define RPG_CLIENT_CLOUDUTILS_KEEPALIVEBYAUTOBATTLE_OFFSET UNITYSDK_OFFSET(0x1D01CC70)
+#define RPG_CLIENT_CLOUDUTILS_ONGETCLIPBOARDDATA_OFFSET UNITYSDK_OFFSET(0x1D01C970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUtils_TypeDefinitionIndex = 59863;
+	inline static constexpr unsigned int CloudUtils_TypeDefinitionIndex = 61144;
 
 	class CloudUtils : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::System::Boolean, ::System::String*>** StaticGet__clipboardCallback()
 		{
-			return (::System::Action_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("RPG.Client", "CloudUtils")->GetStaticField(0x15F60);
+			return (::System::Action_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("RPG.Client", "CloudUtils")->GetStaticField(0x18230);
 		}
 
 		// static const ::System::String* AUTO_BATTLE_KEEP_ALIVE; // 0x0

@@ -4,18 +4,18 @@
 class COMJKPOMILA;
 namespace System { class Object; }
 
-#define COMJKPOMILA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E109EF0)
-#define COMJKPOMILA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E109F30)
-#define COMJKPOMILA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E109F40)
+#define COMJKPOMILA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204DFDC0)
+#define COMJKPOMILA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204DFE00)
+#define COMJKPOMILA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x204DFE10)
 
-inline static constexpr unsigned int COMJKPOMILA___c_TypeDefinitionIndex = 28507;
+inline static constexpr unsigned int COMJKPOMILA___c_TypeDefinitionIndex = 29097;
 
 	class COMJKPOMILA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E7C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17D80);
 		}
 
 		static ::System::Void _cctor()

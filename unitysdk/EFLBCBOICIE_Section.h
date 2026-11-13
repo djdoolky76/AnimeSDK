@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EFLBCBOICIE_Section_TypeDefinitionIndex = 41456;
+inline static constexpr unsigned int EFLBCBOICIE_Section_TypeDefinitionIndex = 42431;
 
 	enum class EFLBCBOICIE_Section : ::System::Int32
 	{

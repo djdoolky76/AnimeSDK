@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PropStartPuzzle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PROPSTARTPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92A990)
-#define RPG_GAMECORE_PROPSTARTPUZZLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D92A9C0)
-#define RPG_GAMECORE_PROPSTARTPUZZLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92A940)
+#define RPG_GAMECORE_PROPSTARTPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF93F90)
+#define RPG_GAMECORE_PROPSTARTPUZZLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF93FC0)
+#define RPG_GAMECORE_PROPSTARTPUZZLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF93F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStartPuzzle_TypeDefinitionIndex = 21984;
+	inline static constexpr unsigned int PropStartPuzzle_TypeDefinitionIndex = 22375;
 
 	class PropStartPuzzle : public ::RPG::GameCore::TaskConfig
 	{

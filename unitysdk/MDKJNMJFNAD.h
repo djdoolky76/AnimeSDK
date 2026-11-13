@@ -5,11 +5,11 @@ namespace System { class Object; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace UnityEngine { class Object; }
 
-#define MDKJNMJFNAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC593D0)
-#define MDKJNMJFNAD_IEGNMOODDAK_OFFSET UNITYSDK_OFFSET(0x1EC4BE10)
-#define MDKJNMJFNAD_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1EC4B660)
+#define MDKJNMJFNAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E542F30)
+#define MDKJNMJFNAD_IEGNMOODDAK_OFFSET UNITYSDK_OFFSET(0x1E5359A0)
+#define MDKJNMJFNAD_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1E5351F0)
 
-inline static constexpr unsigned int MDKJNMJFNAD_TypeDefinitionIndex = 44243;
+inline static constexpr unsigned int MDKJNMJFNAD_TypeDefinitionIndex = 45318;
 
 	class MDKJNMJFNAD : public ::System::Object
 	{

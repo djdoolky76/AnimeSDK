@@ -8,31 +8,31 @@ namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_FATESTATISTICSINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFD0F50)
-#define RPG_CLIENT_FATESTATISTICSINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFD0F90)
-#define RPG_CLIENT_FATESTATISTICSINFO___C___SYNCDIFFICULTYINFO_B__4_0_OFFSET UNITYSDK_OFFSET(0xCFD0FA0)
-#define RPG_CLIENT_FATESTATISTICSINFO___C___SYNCDIFFICULTYINFO_B__4_2_OFFSET UNITYSDK_OFFSET(0xCFD1040)
+#define RPG_CLIENT_FATESTATISTICSINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5006F0)
+#define RPG_CLIENT_FATESTATISTICSINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C500730)
+#define RPG_CLIENT_FATESTATISTICSINFO___C___SYNCDIFFICULTYINFO_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C500740)
+#define RPG_CLIENT_FATESTATISTICSINFO___C___SYNCDIFFICULTYINFO_B__4_2_OFFSET UNITYSDK_OFFSET(0x1C5007E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsInfo___c_TypeDefinitionIndex = 64132;
+	inline static constexpr unsigned int FateStatisticsInfo___c_TypeDefinitionIndex = 65577;
 
 	class FateStatisticsInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::HJHMNDBJPND*>>** StaticGet___9__4_2()
 		{
-			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::HJHMNDBJPND*>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5A880);
+			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::HJHMNDBJPND*>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F310);
 		}
 
 		static ::System::Func_1<::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5A888);
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F318);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5A890);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F320);
 		}
 
 		static ::System::Void _cctor()

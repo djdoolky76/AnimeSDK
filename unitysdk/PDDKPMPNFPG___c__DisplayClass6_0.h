@@ -6,17 +6,17 @@ class JJKOHCPBGAL;
 namespace RPG::Client { class ChimeraDuelGameSession; }
 namespace RPG::Client::Prop { class ChimeraDuelShopViewEffectBase; }
 
-#define PDDKPMPNFPG___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC0085F0)
-#define PDDKPMPNFPG___C__DISPLAYCLASS6_0___TRYCREATEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC009690)
+#define PDDKPMPNFPG___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE0FF0)
+#define PDDKPMPNFPG___C__DISPLAYCLASS6_0___TRYCREATEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1AAE2090)
 
-inline static constexpr unsigned int PDDKPMPNFPG___c__DisplayClass6_0_TypeDefinitionIndex = 78347;
+inline static constexpr unsigned int PDDKPMPNFPG___c__DisplayClass6_0_TypeDefinitionIndex = 81082;
 
 	class PDDKPMPNFPG___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::FNGKJFAMKLI* effectData; // 0x10
-		::JJKOHCPBGAL* skill; // 0x18
-		::RPG::Client::ChimeraDuelGameSession* session; // 0x20
+		::RPG::Client::ChimeraDuelGameSession* session; // 0x10
+		::FNGKJFAMKLI* effectData; // 0x18
+		::JJKOHCPBGAL* skill; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PDDKPMPNFPG___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);

@@ -7,26 +7,26 @@
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_CUBE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24CFF0)
-#define UNITYENGINE_PROBUILDER_SHAPES_CUBE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F24CC00)
-#define UNITYENGINE_PROBUILDER_SHAPES_CUBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24CFE0)
-#define UNITYENGINE_PROBUILDER_SHAPES_CUBE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F24CC10)
+#define UNITYENGINE_PROBUILDER_SHAPES_CUBE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2A3A90)
+#define UNITYENGINE_PROBUILDER_SHAPES_CUBE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2A36A0)
+#define UNITYENGINE_PROBUILDER_SHAPES_CUBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A3A80)
+#define UNITYENGINE_PROBUILDER_SHAPES_CUBE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2A36B0)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Cube_TypeDefinitionIndex = 44460;
+	inline static constexpr unsigned int Cube_TypeDefinitionIndex = 45535;
 
 	class Cube : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_k_CubeVertices()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Cube")->GetStaticField(0x52C60);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Cube")->GetStaticField(0x68DE0);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_k_CubeTriangles()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Cube")->GetStaticField(0x52C68);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.Shapes", "Cube")->GetStaticField(0x68DE8);
 		}
 
 		::System::Void _ctor()

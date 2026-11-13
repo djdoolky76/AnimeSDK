@@ -4,7 +4,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int VersionInfo_TypeDefinitionIndex = 37980;
+	inline static constexpr unsigned int VersionInfo_TypeDefinitionIndex = 38909;
 
 	class VersionInfo : public ::System::Object
 	{

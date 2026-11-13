@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define HBGALLIPGDA_ELEDFHBCLDO_OFFSET UNITYSDK_OFFSET(0x1C524BD0)
+#define HBGALLIPGDA_ELEDFHBCLDO_OFFSET UNITYSDK_OFFSET(0x1E787D90)
 
-inline static constexpr unsigned int HBGALLIPGDA_TypeDefinitionIndex = 41646;
+inline static constexpr unsigned int HBGALLIPGDA_TypeDefinitionIndex = 42621;
 
 	class HBGALLIPGDA : public ::System::Object
 	{

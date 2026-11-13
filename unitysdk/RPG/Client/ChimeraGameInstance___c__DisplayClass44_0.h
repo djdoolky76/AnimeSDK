@@ -5,19 +5,19 @@ namespace RPG::Client { class ChimeraGameInstance; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB47110)
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS44_0__TRYSWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0xCB47C00)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE852C0)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS44_0__TRYSWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0x1CE85DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGameInstance___c__DisplayClass44_0_TypeDefinitionIndex = 60457;
+	inline static constexpr unsigned int ChimeraGameInstance___c__DisplayClass44_0_TypeDefinitionIndex = 61747;
 
 	class ChimeraGameInstance___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChimeraGameInstance* __4__this; // 0x10
-		::System::Action* callback; // 0x18
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* view; // 0x20
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* view; // 0x18
+		::System::Action* callback; // 0x20
 		::System::Int32 newWorkIndex; // 0x28
 		::System::Void _ctor()
 		{

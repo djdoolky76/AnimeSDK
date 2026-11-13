@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopBlendShapesEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KOCFGHGABAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB589DD0)
-#define KOCFGHGABAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB589E00)
+#define KOCFGHGABAH_CTOR_OFFSET UNITYSDK_OFFSET(0x190F8AB0)
+#define KOCFGHGABAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x190F8AE0)
 
-inline static constexpr unsigned int KOCFGHGABAH_TypeDefinitionIndex = 55901;
+inline static constexpr unsigned int KOCFGHGABAH_TypeDefinitionIndex = 57104;
 
 	class KOCFGHGABAH
 	{

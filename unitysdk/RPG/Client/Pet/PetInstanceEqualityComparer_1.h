@@ -5,7 +5,7 @@ namespace RPG::Client::Pet { template <typename T> class PetInstanceEqualityComp
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetInstanceEqualityComparer_1_TypeDefinitionIndex = 75680;
+	inline static constexpr unsigned int PetInstanceEqualityComparer_1_TypeDefinitionIndex = 78007;
 
 	template <typename T>
 	class PetInstanceEqualityComparer_1 : public ::System::Object

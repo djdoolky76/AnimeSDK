@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CKBLLOPFINO_TypeDefinitionIndex = 75001;
+inline static constexpr unsigned int CKBLLOPFINO_TypeDefinitionIndex = 77328;
 
 	class CKBLLOPFINO
 	{

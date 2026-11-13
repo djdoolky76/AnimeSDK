@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ILDIODEDNPO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CEF0B90)
-#define ILDIODEDNPO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEF1160)
-#define ILDIODEDNPO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CEF0D00)
-#define ILDIODEDNPO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CEF0600)
-#define ILDIODEDNPO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CEF0890)
-#define ILDIODEDNPO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CEF0DA0)
-#define ILDIODEDNPO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CEF0DF0)
-#define ILDIODEDNPO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CEF0BD0)
-#define ILDIODEDNPO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CEF0830)
-#define ILDIODEDNPO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CEF0A00)
-#define ILDIODEDNPO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEF0C60)
-#define ILDIODEDNPO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEF0580)
+#define ILDIODEDNPO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0xC995950)
+#define ILDIODEDNPO_CCTOR_OFFSET UNITYSDK_OFFSET(0xC995F20)
+#define ILDIODEDNPO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0xC995AC0)
+#define ILDIODEDNPO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0xC9953C0)
+#define ILDIODEDNPO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0xC995650)
+#define ILDIODEDNPO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0xC995B60)
+#define ILDIODEDNPO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0xC995BB0)
+#define ILDIODEDNPO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0xC995990)
+#define ILDIODEDNPO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0xC9955F0)
+#define ILDIODEDNPO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xC9957C0)
+#define ILDIODEDNPO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0xC995A20)
+#define ILDIODEDNPO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0xC995340)
 
-inline static constexpr unsigned int ILDIODEDNPO_TypeDefinitionIndex = 13895;
+inline static constexpr unsigned int ILDIODEDNPO_TypeDefinitionIndex = 14052;
 
 	class ILDIODEDNPO : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemStroyLineRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemStroyLineRow*>**)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x21280);
+		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x23620);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x21288);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x23628);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemStroyLineRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemStroyLineRow*>**)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x23630);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x7A40);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x21290);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x7A41);
+			return (::System::Boolean*)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x77F0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "ILDIODEDNPO")->GetStaticField(0x77F1);
 		}
 
 		static ::System::Void _cctor()

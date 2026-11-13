@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define MJAKNKNBFAC_CTOR_OFFSET UNITYSDK_OFFSET(0xB95C410)
+#define MJAKNKNBFAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A39D500)
 
-inline static constexpr unsigned int MJAKNKNBFAC_TypeDefinitionIndex = 47958;
+inline static constexpr unsigned int MJAKNKNBFAC_TypeDefinitionIndex = 48989;
 
 	class MJAKNKNBFAC : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifySwitchHandControlParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNNPPNMFFII_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD6430)
-#define DNNPPNMFFII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FD6460)
+#define DNNPPNMFFII_CTOR_OFFSET UNITYSDK_OFFSET(0x191995C0)
+#define DNNPPNMFFII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x191995F0)
 
-inline static constexpr unsigned int DNNPPNMFFII_TypeDefinitionIndex = 53029;
+inline static constexpr unsigned int DNNPPNMFFII_TypeDefinitionIndex = 54189;
 
 	class DNNPPNMFFII
 	{

@@ -8,12 +8,12 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class PreviewAvatarProxy; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BDICLAJIEKA_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x162EE870)
-#define BDICLAJIEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x162EE7F0)
-#define BDICLAJIEKA_MLAJEHANLNL_OFFSET UNITYSDK_OFFSET(0x162EECA0)
-#define BDICLAJIEKA_NKFLPDLCLCM_OFFSET UNITYSDK_OFFSET(0x162EEAA0)
+#define BDICLAJIEKA_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x19D982E0)
+#define BDICLAJIEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x19D98260)
+#define BDICLAJIEKA_MLAJEHANLNL_OFFSET UNITYSDK_OFFSET(0x19D98710)
+#define BDICLAJIEKA_NKFLPDLCLCM_OFFSET UNITYSDK_OFFSET(0x19D98510)
 
-inline static constexpr unsigned int BDICLAJIEKA_TypeDefinitionIndex = 62697;
+inline static constexpr unsigned int BDICLAJIEKA_TypeDefinitionIndex = 64131;
 
 	class BDICLAJIEKA : public ::System::Object
 	{

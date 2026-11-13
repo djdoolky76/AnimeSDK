@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define KHHBDDFHACN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB89EE0)
+#define KHHBDDFHACN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C9AF0)
 
-inline static constexpr unsigned int KHHBDDFHACN_TypeDefinitionIndex = 42245;
+inline static constexpr unsigned int KHHBDDFHACN_TypeDefinitionIndex = 43220;
 
 	class KHHBDDFHACN : public ::System::Object
 	{

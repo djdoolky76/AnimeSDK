@@ -4,18 +4,18 @@
 class BGDHGALEOIK;
 namespace System { class Object; }
 
-#define BGDHGALEOIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA44570)
-#define BGDHGALEOIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA445A0)
-#define BGDHGALEOIK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA445B0)
+#define BGDHGALEOIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201044B0)
+#define BGDHGALEOIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201044E0)
+#define BGDHGALEOIK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201044F0)
 
-inline static constexpr unsigned int BGDHGALEOIK___c_TypeDefinitionIndex = 33250;
+inline static constexpr unsigned int BGDHGALEOIK___c_TypeDefinitionIndex = 34165;
 
 	class BGDHGALEOIK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54600);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DD60);
 		}
 
 		static ::System::Void _cctor()

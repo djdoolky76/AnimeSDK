@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define DCEHAGKAHFE_CTOR_OFFSET UNITYSDK_OFFSET(0xE2391B0)
+#define DCEHAGKAHFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B167710)
 
-inline static constexpr unsigned int DCEHAGKAHFE_TypeDefinitionIndex = 71618;
+inline static constexpr unsigned int DCEHAGKAHFE_TypeDefinitionIndex = 73606;
 
 	class DCEHAGKAHFE : public ::System::Object
 	{

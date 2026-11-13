@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GBAMDDGPLFP_CPGODLFKMEN_OFFSET UNITYSDK_OFFSET(0x1593AAB0)
+#define GBAMDDGPLFP_CPGODLFKMEN_OFFSET UNITYSDK_OFFSET(0x1B876410)
 
-inline static constexpr unsigned int GBAMDDGPLFP_TypeDefinitionIndex = 59640;
+inline static constexpr unsigned int GBAMDDGPLFP_TypeDefinitionIndex = 60917;
 
 	class GBAMDDGPLFP : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_HNNPINMLNDA()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GBAMDDGPLFP")->GetStaticField(0x13280);
-		}
-
 		static ::System::Boolean* StaticGet_JDDNLBBFDCK()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GBAMDDGPLFP")->GetStaticField(0x13281);
+			return (::System::Boolean*)UnitySDK::FromName("", "GBAMDDGPLFP")->GetStaticField(0x13070);
 		}
 
 		static ::System::Boolean* StaticGet_NAJGBKEANGN()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GBAMDDGPLFP")->GetStaticField(0x13282);
+			return (::System::Boolean*)UnitySDK::FromName("", "GBAMDDGPLFP")->GetStaticField(0x13071);
+		}
+
+		static ::System::Boolean* StaticGet_HNNPINMLNDA()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "GBAMDDGPLFP")->GetStaticField(0x13072);
 		}
 
 		// static const ::System::Object PLMNNMLCMIG; // 0x0

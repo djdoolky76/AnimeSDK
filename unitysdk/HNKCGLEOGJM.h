@@ -7,21 +7,21 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class Volume; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define HNKCGLEOGJM_CTOR_OFFSET UNITYSDK_OFFSET(0x15D91EF0)
-#define HNKCGLEOGJM_GET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15D91ED0)
-#define HNKCGLEOGJM_GET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15D91EB0)
-#define HNKCGLEOGJM_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15D91EE0)
-#define HNKCGLEOGJM_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15D91EC0)
+#define HNKCGLEOGJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A375A30)
+#define HNKCGLEOGJM_GET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x1A375A10)
+#define HNKCGLEOGJM_GET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x1A3759F0)
+#define HNKCGLEOGJM_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x1A375A20)
+#define HNKCGLEOGJM_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x1A375A00)
 
-inline static constexpr unsigned int HNKCGLEOGJM_TypeDefinitionIndex = 73998;
+inline static constexpr unsigned int HNKCGLEOGJM_TypeDefinitionIndex = 76134;
 
 	class HNKCGLEOGJM : public ::System::Object
 	{
 	public:
-		::LJFHKAJPFNE* EKHCOEPOJDL; // 0x10
-		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* _FilterStreamingItem_k__BackingField; // 0x18
-		::RPG::Client::OpenWorld::Volume* EDHBBJADHHJ; // 0x20
-		::System::Collections::Generic::HashSet_1<::KLEFGGIHGMI*>* _FilterStreamingBlock_k__BackingField; // 0x28
+		::RPG::Client::OpenWorld::Volume* EDHBBJADHHJ; // 0x10
+		::System::Collections::Generic::HashSet_1<::KLEFGGIHGMI*>* _FilterStreamingBlock_k__BackingField; // 0x18
+		::LJFHKAJPFNE* EKHCOEPOJDL; // 0x20
+		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* _FilterStreamingItem_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNKCGLEOGJM_CTOR_OFFSET))(this);

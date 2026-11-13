@@ -6,19 +6,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicMainAffixBaseValueRow; }
 
-#define RPG_GAMECORE_RELICMAINAFFIXBASEVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D951460)
-#define RPG_GAMECORE_RELICMAINAFFIXBASEVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D951290)
+#define RPG_GAMECORE_RELICMAINAFFIXBASEVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F23AF00)
+#define RPG_GAMECORE_RELICMAINAFFIXBASEVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F23AD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicMainAffixBaseValueRow_TypeDefinitionIndex = 10877;
+	inline static constexpr unsigned int RelicMainAffixBaseValueRow_TypeDefinitionIndex = 10893;
 
 	class RelicMainAffixBaseValueRow : public ::System::Object
 	{
 	public:
 		::System::Single ValuePerLevel; // 0x10
-		::RPG::GameCore::AvatarPropertyType RelicMainAffix; // 0x14
-		::System::Single BaseValue; // 0x18
+		::System::Single BaseValue; // 0x14
+		::RPG::GameCore::AvatarPropertyType RelicMainAffix; // 0x18
 		::RPG::GameCore::RelicAffixType Type; // 0x1C
 		::System::Void _ctor()
 		{

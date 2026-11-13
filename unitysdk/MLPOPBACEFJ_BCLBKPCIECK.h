@@ -3,7 +3,7 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int MLPOPBACEFJ_BCLBKPCIECK_TypeDefinitionIndex = 76879;
+inline static constexpr unsigned int MLPOPBACEFJ_BCLBKPCIECK_TypeDefinitionIndex = 79213;
 
 	struct alignas(8) MLPOPBACEFJ_BCLBKPCIECK
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSpecialSPRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FDMJHPOOPKN_CTOR_OFFSET UNITYSDK_OFFSET(0x156D3490)
-#define FDMJHPOOPKN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156D34C0)
+#define FDMJHPOOPKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C039940)
+#define FDMJHPOOPKN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C039970)
 
-inline static constexpr unsigned int FDMJHPOOPKN_TypeDefinitionIndex = 54570;
+inline static constexpr unsigned int FDMJHPOOPKN_TypeDefinitionIndex = 55735;
 
 	class FDMJHPOOPKN
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define FNBEJHMDNOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA43020)
+#define FNBEJHMDNOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D7F0)
 
-inline static constexpr unsigned int FNBEJHMDNOG_TypeDefinitionIndex = 41993;
+inline static constexpr unsigned int FNBEJHMDNOG_TypeDefinitionIndex = 42968;
 
 	class FNBEJHMDNOG : public ::System::Object
 	{

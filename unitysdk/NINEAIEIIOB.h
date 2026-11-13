@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define NINEAIEIIOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C93E680)
+#define NINEAIEIIOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E04CD70)
 
-inline static constexpr unsigned int NINEAIEIIOB_TypeDefinitionIndex = 42789;
+inline static constexpr unsigned int NINEAIEIIOB_TypeDefinitionIndex = 43769;
 
 	class NINEAIEIIOB : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NINEAIEIIOB")->GetStaticField(0x36410);
-		}
-
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "NINEAIEIIOB")->GetStaticField(0x36418);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "NINEAIEIIOB")->GetStaticField(0x23400);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NINEAIEIIOB")->GetStaticField(0x23408);
 		}
 
 		// static const ::System::Object BMDGOBBDEMM; // 0x0

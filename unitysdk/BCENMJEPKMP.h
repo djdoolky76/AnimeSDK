@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int BCENMJEPKMP_TypeDefinitionIndex = 60517;
+inline static constexpr unsigned int BCENMJEPKMP_TypeDefinitionIndex = 61806;
 
 	struct alignas(4) BCENMJEPKMP
 	{

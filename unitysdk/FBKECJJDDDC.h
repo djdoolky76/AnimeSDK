@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionChangeCurWaitTime; }
 
-#define FBKECJJDDDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E33D0)
-#define FBKECJJDDDC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C5E33E0)
+#define FBKECJJDDDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA97BA0)
+#define FBKECJJDDDC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1BA97BB0)
 
-inline static constexpr unsigned int FBKECJJDDDC_TypeDefinitionIndex = 37380;
+inline static constexpr unsigned int FBKECJJDDDC_TypeDefinitionIndex = 38308;
 
 	class FBKECJJDDDC : public ::GPLOFONGBGI
 	{

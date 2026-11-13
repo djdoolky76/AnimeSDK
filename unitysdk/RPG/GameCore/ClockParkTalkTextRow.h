@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClockParkTalkTextRow; }
 
-#define RPG_GAMECORE_CLOCKPARKTALKTEXTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D599940)
-#define RPG_GAMECORE_CLOCKPARKTALKTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5997C0)
+#define RPG_GAMECORE_CLOCKPARKTALKTEXTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F50FEC0)
+#define RPG_GAMECORE_CLOCKPARKTALKTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F50FD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkTalkTextRow_TypeDefinitionIndex = 11194;
+	inline static constexpr unsigned int ClockParkTalkTextRow_TypeDefinitionIndex = 11210;
 
 	class ClockParkTalkTextRow : public ::System::Object
 	{

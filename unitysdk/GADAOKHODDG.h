@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define GADAOKHODDG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA45690)
+#define GADAOKHODDG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C20FE70)
 
-inline static constexpr unsigned int GADAOKHODDG_TypeDefinitionIndex = 42798;
+inline static constexpr unsigned int GADAOKHODDG_TypeDefinitionIndex = 43778;
 
 	class GADAOKHODDG : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GADAOKHODDG")->GetStaticField(0x31230);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GADAOKHODDG")->GetStaticField(0x1D400);
 		}
 
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "GADAOKHODDG")->GetStaticField(0x31238);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "GADAOKHODDG")->GetStaticField(0x1D408);
 		}
 
 		// static const ::System::Object LMKDKIACLHP; // 0x0

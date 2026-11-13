@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckAdvModifierCallBackBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GHPKEOKHHIN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A22460)
-#define GHPKEOKHHIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A22490)
+#define GHPKEOKHHIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D2470)
+#define GHPKEOKHHIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A3D24A0)
 
-inline static constexpr unsigned int GHPKEOKHHIN_TypeDefinitionIndex = 54492;
+inline static constexpr unsigned int GHPKEOKHHIN_TypeDefinitionIndex = 55656;
 
 	class GHPKEOKHHIN
 	{

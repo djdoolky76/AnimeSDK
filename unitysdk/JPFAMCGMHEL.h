@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define JPFAMCGMHEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2B5E20)
-#define JPFAMCGMHEL_GET_ACTUALVALUE_OFFSET UNITYSDK_OFFSET(0xB2B5DE0)
-#define JPFAMCGMHEL_GET_EXPECTEDVALUE_OFFSET UNITYSDK_OFFSET(0xB2B5E00)
-#define JPFAMCGMHEL_GET_INITIALVALUE_OFFSET UNITYSDK_OFFSET(0xB2B5DC0)
-#define JPFAMCGMHEL_SET_ACTUALVALUE_OFFSET UNITYSDK_OFFSET(0xB2B5DF0)
-#define JPFAMCGMHEL_SET_EXPECTEDVALUE_OFFSET UNITYSDK_OFFSET(0xB2B5E10)
-#define JPFAMCGMHEL_SET_INITIALVALUE_OFFSET UNITYSDK_OFFSET(0xB2B5DD0)
+#define JPFAMCGMHEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F7F50)
+#define JPFAMCGMHEL_GET_ACTUALVALUE_OFFSET UNITYSDK_OFFSET(0x1B4F7F10)
+#define JPFAMCGMHEL_GET_EXPECTEDVALUE_OFFSET UNITYSDK_OFFSET(0x1B4F7F30)
+#define JPFAMCGMHEL_GET_INITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1B4F7EF0)
+#define JPFAMCGMHEL_SET_ACTUALVALUE_OFFSET UNITYSDK_OFFSET(0x1B4F7F20)
+#define JPFAMCGMHEL_SET_EXPECTEDVALUE_OFFSET UNITYSDK_OFFSET(0x1B4F7F40)
+#define JPFAMCGMHEL_SET_INITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1B4F7F00)
 
-inline static constexpr unsigned int JPFAMCGMHEL_TypeDefinitionIndex = 77852;
+inline static constexpr unsigned int JPFAMCGMHEL_TypeDefinitionIndex = 80587;
 
 	class JPFAMCGMHEL : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint _ActualValue_k__BackingField; // 0x10
-		::RPG::GameCore::FixPoint _ExpectedValue_k__BackingField; // 0x18
-		::RPG::GameCore::FixPoint _InitialValue_k__BackingField; // 0x20
+		::RPG::GameCore::FixPoint _ExpectedValue_k__BackingField; // 0x10
+		::RPG::GameCore::FixPoint _InitialValue_k__BackingField; // 0x18
+		::RPG::GameCore::FixPoint _ActualValue_k__BackingField; // 0x20
 		::System::Void _ctor(::RPG::GameCore::FixPoint a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JPFAMCGMHEL_CTOR_OFFSET))(this, a1);

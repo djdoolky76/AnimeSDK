@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CAKERACEACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8FEAC0)
-#define RPG_CLIENT_CAKERACEACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8FEB00)
-#define RPG_CLIENT_CAKERACEACTIVITYDATA___C___GOTOENTRANCEPAGE_B__5_1_OFFSET UNITYSDK_OFFSET(0xC8FEB10)
+#define RPG_CLIENT_CAKERACEACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2E3E80)
+#define RPG_CLIENT_CAKERACEACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E3EC0)
+#define RPG_CLIENT_CAKERACEACTIVITYDATA___C___GOTOENTRANCEPAGE_B__5_1_OFFSET UNITYSDK_OFFSET(0x1D2E3ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceActivityData___c_TypeDefinitionIndex = 61600;
+	inline static constexpr unsigned int CakeRaceActivityData___c_TypeDefinitionIndex = 62997;
 
 	class CakeRaceActivityData___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__5_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x691A0);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F260);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x691A8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F268);
 		}
 
 		static ::System::Void _cctor()

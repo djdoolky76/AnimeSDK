@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class NGFHCJIAOLH;
 
-#define DLCCMDJFHPE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF88BB70)
-#define DLCCMDJFHPE___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xF88BE10)
+#define DLCCMDJFHPE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1865F4D0)
+#define DLCCMDJFHPE___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1865F770)
 
-inline static constexpr unsigned int DLCCMDJFHPE___c__DisplayClass1_0_TypeDefinitionIndex = 52671;
+inline static constexpr unsigned int DLCCMDJFHPE___c__DisplayClass1_0_TypeDefinitionIndex = 53778;
 
 	class DLCCMDJFHPE___c__DisplayClass1_0 : public ::System::Object
 	{

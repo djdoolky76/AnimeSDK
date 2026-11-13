@@ -5,7 +5,7 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class UIDragSource; }
 namespace System { class Action; }
 
-inline static constexpr unsigned int ODFFMAMIAEI_TypeDefinitionIndex = 49853;
+inline static constexpr unsigned int ODFFMAMIAEI_TypeDefinitionIndex = 50901;
 
 	class ODFFMAMIAEI : public ::System::Object
 	{

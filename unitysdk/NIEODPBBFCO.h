@@ -11,62 +11,62 @@ namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define NIEODPBBFCO_ADBPJCAGPPC_OFFSET UNITYSDK_OFFSET(0xBBDDC40)
-#define NIEODPBBFCO_ANFELDIEJKH_OFFSET UNITYSDK_OFFSET(0xBBE2120)
-#define NIEODPBBFCO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBE3350)
-#define NIEODPBBFCO_CNKCEHKIMLN_OFFSET UNITYSDK_OFFSET(0xBBDEA10)
-#define NIEODPBBFCO_DBJMLDDHBBH_OFFSET UNITYSDK_OFFSET(0xBBE0CD0)
-#define NIEODPBBFCO_DJHAMGOIFEM_OFFSET UNITYSDK_OFFSET(0xBBDDB30)
-#define NIEODPBBFCO_EKJADDMNIFK_OFFSET UNITYSDK_OFFSET(0xBBDCD20)
-#define NIEODPBBFCO_FFFMLOOKNOC_OFFSET UNITYSDK_OFFSET(0xBBE2CB0)
-#define NIEODPBBFCO_FKBLDMIADMM_OFFSET UNITYSDK_OFFSET(0xBBE1FD0)
-#define NIEODPBBFCO_FLHODNMCDMM_OFFSET UNITYSDK_OFFSET(0xBBDF570)
-#define NIEODPBBFCO_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xBBDE9C0)
-#define NIEODPBBFCO_LBEFFDLKNLC_OFFSET UNITYSDK_OFFSET(0xBBE2B20)
-#define NIEODPBBFCO_LDILIGLIGMI_OFFSET UNITYSDK_OFFSET(0xBBDE670)
-#define NIEODPBBFCO_LHJODLJJIGK_OFFSET UNITYSDK_OFFSET(0xBBE1020)
-#define NIEODPBBFCO_LIJOIBFBDJK_OFFSET UNITYSDK_OFFSET(0xBBE14B0)
-#define NIEODPBBFCO_MPONJNGHCIO_OFFSET UNITYSDK_OFFSET(0xBBE3240)
-#define NIEODPBBFCO_PLJKBJPECBN_OFFSET UNITYSDK_OFFSET(0xBBE0560)
+#define NIEODPBBFCO_ADBPJCAGPPC_OFFSET UNITYSDK_OFFSET(0x148BC580)
+#define NIEODPBBFCO_ANFELDIEJKH_OFFSET UNITYSDK_OFFSET(0x148C0A60)
+#define NIEODPBBFCO_CCTOR_OFFSET UNITYSDK_OFFSET(0x148C1C90)
+#define NIEODPBBFCO_CNKCEHKIMLN_OFFSET UNITYSDK_OFFSET(0x148BD350)
+#define NIEODPBBFCO_DBJMLDDHBBH_OFFSET UNITYSDK_OFFSET(0x148BF610)
+#define NIEODPBBFCO_DJHAMGOIFEM_OFFSET UNITYSDK_OFFSET(0x148BC470)
+#define NIEODPBBFCO_EKJADDMNIFK_OFFSET UNITYSDK_OFFSET(0x148BB660)
+#define NIEODPBBFCO_FFFMLOOKNOC_OFFSET UNITYSDK_OFFSET(0x148C15F0)
+#define NIEODPBBFCO_FKBLDMIADMM_OFFSET UNITYSDK_OFFSET(0x148C0910)
+#define NIEODPBBFCO_FLHODNMCDMM_OFFSET UNITYSDK_OFFSET(0x148BDEB0)
+#define NIEODPBBFCO_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x148BD300)
+#define NIEODPBBFCO_LBEFFDLKNLC_OFFSET UNITYSDK_OFFSET(0x148C1460)
+#define NIEODPBBFCO_LDILIGLIGMI_OFFSET UNITYSDK_OFFSET(0x148BCFB0)
+#define NIEODPBBFCO_LHJODLJJIGK_OFFSET UNITYSDK_OFFSET(0x148BF960)
+#define NIEODPBBFCO_LIJOIBFBDJK_OFFSET UNITYSDK_OFFSET(0x148BFDF0)
+#define NIEODPBBFCO_MPONJNGHCIO_OFFSET UNITYSDK_OFFSET(0x148C1B80)
+#define NIEODPBBFCO_PLJKBJPECBN_OFFSET UNITYSDK_OFFSET(0x148BEEA0)
 
-inline static constexpr unsigned int NIEODPBBFCO_TypeDefinitionIndex = 57805;
+inline static constexpr unsigned int NIEODPBBFCO_TypeDefinitionIndex = 59040;
 
 	class NIEODPBBFCO : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Quaternion>** StaticGet_IEDBDPKEGHA()
-		{
-			return (::Il2CppArray<::UnityEngine::Quaternion>**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3B020);
-		}
-
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_NBOJGJECNMK()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3B028);
-		}
-
 		static ::RPG::GameCore::EntityPosAdaptionConfig** StaticGet_OKGHMKEOPNB()
 		{
-			return (::RPG::GameCore::EntityPosAdaptionConfig**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3B030);
-		}
-
-		static ::UnityEngine::AI::NavMeshPath** StaticGet_KLHJCLLFKEI()
-		{
-			return (::UnityEngine::AI::NavMeshPath**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3B038);
-		}
-
-		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_HGEJCFJANNM()
-		{
-			return (::Il2CppArray<::UnityEngine::Collider*>**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3B040);
+			return (::RPG::GameCore::EntityPosAdaptionConfig**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3E9A0);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_NKODDEFFCBB()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3B048);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3E9A8);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_NBOJGJECNMK()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3E9B0);
+		}
+
+		static ::UnityEngine::AI::NavMeshPath** StaticGet_KLHJCLLFKEI()
+		{
+			return (::UnityEngine::AI::NavMeshPath**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3E9B8);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_HGEJCFJANNM()
+		{
+			return (::Il2CppArray<::UnityEngine::Collider*>**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3E9C0);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Quaternion>** StaticGet_IEDBDPKEGHA()
+		{
+			return (::Il2CppArray<::UnityEngine::Quaternion>**)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0x3E9C8);
 		}
 
 		static ::System::Int32* StaticGet_LICKEEGLHKH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0xBE60);
+			return (::System::Int32*)UnitySDK::FromName("", "NIEODPBBFCO")->GetStaticField(0xC8B0);
 		}
 
 		// static const ::System::Object DAHJLBFAANH; // 0x0

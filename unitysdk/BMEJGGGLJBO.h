@@ -6,10 +6,10 @@ namespace RPG::GameCore { class TargetAlias; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BMEJGGGLJBO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD9F340)
-#define BMEJGGGLJBO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD9F4A0)
+#define BMEJGGGLJBO_CTOR_OFFSET UNITYSDK_OFFSET(0x18B7ADF0)
+#define BMEJGGGLJBO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18B7AF50)
 
-inline static constexpr unsigned int BMEJGGGLJBO_TypeDefinitionIndex = 59197;
+inline static constexpr unsigned int BMEJGGGLJBO_TypeDefinitionIndex = 60474;
 
 	class BMEJGGGLJBO
 	{

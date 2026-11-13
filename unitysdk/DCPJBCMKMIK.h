@@ -7,11 +7,11 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define DCPJBCMKMIK_BDDDKINALPG_OFFSET UNITYSDK_OFFSET(0xE24EA00)
-#define DCPJBCMKMIK_CTOR_OFFSET UNITYSDK_OFFSET(0xE24F240)
-#define DCPJBCMKMIK_HGOCMAKIHBC_OFFSET UNITYSDK_OFFSET(0xE24EEF0)
+#define DCPJBCMKMIK_BDDDKINALPG_OFFSET UNITYSDK_OFFSET(0x17728950)
+#define DCPJBCMKMIK_CTOR_OFFSET UNITYSDK_OFFSET(0x17729190)
+#define DCPJBCMKMIK_HGOCMAKIHBC_OFFSET UNITYSDK_OFFSET(0x17728E40)
 
-inline static constexpr unsigned int DCPJBCMKMIK_TypeDefinitionIndex = 79399;
+inline static constexpr unsigned int DCPJBCMKMIK_TypeDefinitionIndex = 82176;
 
 	class DCPJBCMKMIK : public ::System::Object
 	{

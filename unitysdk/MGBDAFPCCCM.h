@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockMainStreamSourceToSwitchAnchorPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGBDAFPCCCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB90E730)
-#define MGBDAFPCCCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB90E760)
+#define MGBDAFPCCCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3336C0)
+#define MGBDAFPCCCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B3336F0)
 
-inline static constexpr unsigned int MGBDAFPCCCM_TypeDefinitionIndex = 58205;
+inline static constexpr unsigned int MGBDAFPCCCM_TypeDefinitionIndex = 59460;
 
 	class MGBDAFPCCCM
 	{

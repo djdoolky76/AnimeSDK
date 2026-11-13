@@ -4,7 +4,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int MemoryFormatter_1_TypeDefinitionIndex = 7378;
+	inline static constexpr unsigned int MemoryFormatter_1_TypeDefinitionIndex = 7389;
 
 	template <typename T>
 	class MemoryFormatter_1 : public ::System::Object

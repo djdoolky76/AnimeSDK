@@ -7,18 +7,18 @@ namespace RPG::GameCore { class RtLifeBindingConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define HNLAMNAIFNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE9F060)
-#define HNLAMNAIFNF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE9F070)
-#define HNLAMNAIFNF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE9F030)
+#define HNLAMNAIFNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E840590)
+#define HNLAMNAIFNF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8405A0)
+#define HNLAMNAIFNF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E840560)
 
-inline static constexpr unsigned int HNLAMNAIFNF_TypeDefinitionIndex = 24159;
+inline static constexpr unsigned int HNLAMNAIFNF_TypeDefinitionIndex = 24618;
 
 	class HNLAMNAIFNF : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::RtLifeBindingConfig* ECNHHNDAHKB; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* CABHEAGLNDD; // 0x28
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* CABHEAGLNDD; // 0x18
+		::RPG::GameCore::RtLifeBindingConfig* ECNHHNDAHKB; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNLAMNAIFNF_CTOR_OFFSET))(this);

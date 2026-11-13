@@ -3,10 +3,10 @@
 #include "unitysdk/WwiseObjectReference.h"
 #include "unitysdk/WwiseObjectType.h"
 
-#define WWISETRIGGERREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F609680)
-#define WWISETRIGGERREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F609670)
+#define WWISETRIGGERREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE1580)
+#define WWISETRIGGERREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1EBE1570)
 
-inline static constexpr unsigned int WwiseTriggerReference_TypeDefinitionIndex = 44893;
+inline static constexpr unsigned int WwiseTriggerReference_TypeDefinitionIndex = 45968;
 
 	class WwiseTriggerReference : public ::WwiseObjectReference
 	{

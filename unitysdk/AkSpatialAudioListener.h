@@ -5,28 +5,28 @@ class AkAudioListener;
 class AkSpatialAudioListener;
 class AkSpatialAudioListener_SpatialAudioListenerList;
 
-#define AKSPATIALAUDIOLISTENER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F5DB620)
-#define AKSPATIALAUDIOLISTENER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5DB9A0)
-#define AKSPATIALAUDIOLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DB990)
-#define AKSPATIALAUDIOLISTENER_GET_SPATIALAUDIOLISTENERS_OFFSET UNITYSDK_OFFSET(0x1F5DB5F0)
-#define AKSPATIALAUDIOLISTENER_GET_THESPATIALAUDIOLISTENER_OFFSET UNITYSDK_OFFSET(0x1F5DB380)
-#define AKSPATIALAUDIOLISTENER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F5DB850)
-#define AKSPATIALAUDIOLISTENER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F5DB6C0)
+#define AKSPATIALAUDIOLISTENER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1EBB35D0)
+#define AKSPATIALAUDIOLISTENER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBB3950)
+#define AKSPATIALAUDIOLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB3940)
+#define AKSPATIALAUDIOLISTENER_GET_SPATIALAUDIOLISTENERS_OFFSET UNITYSDK_OFFSET(0x1EBB35A0)
+#define AKSPATIALAUDIOLISTENER_GET_THESPATIALAUDIOLISTENER_OFFSET UNITYSDK_OFFSET(0x1EBB3330)
+#define AKSPATIALAUDIOLISTENER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EBB3800)
+#define AKSPATIALAUDIOLISTENER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EBB3670)
 
-inline static constexpr unsigned int AkSpatialAudioListener_TypeDefinitionIndex = 44953;
+inline static constexpr unsigned int AkSpatialAudioListener_TypeDefinitionIndex = 46028;
 
 	class AkSpatialAudioListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::AkAudioListener* AkAudioListener; // 0x18
-		static ::AkSpatialAudioListener** StaticGet_s_SpatialAudioListener()
-		{
-			return (::AkSpatialAudioListener**)UnitySDK::FromName("", "AkSpatialAudioListener")->GetStaticField(0x11A40);
-		}
-
 		static ::AkSpatialAudioListener_SpatialAudioListenerList** StaticGet_spatialAudioListeners()
 		{
-			return (::AkSpatialAudioListener_SpatialAudioListenerList**)UnitySDK::FromName("", "AkSpatialAudioListener")->GetStaticField(0x11A48);
+			return (::AkSpatialAudioListener_SpatialAudioListenerList**)UnitySDK::FromName("", "AkSpatialAudioListener")->GetStaticField(0x9100);
+		}
+
+		static ::AkSpatialAudioListener** StaticGet_s_SpatialAudioListener()
+		{
+			return (::AkSpatialAudioListener**)UnitySDK::FromName("", "AkSpatialAudioListener")->GetStaticField(0x9108);
 		}
 
 		::System::Void _ctor()

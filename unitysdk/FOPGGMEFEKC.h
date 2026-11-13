@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOPGGMEFEKC_CTOR_OFFSET UNITYSDK_OFFSET(0x158FE3F0)
+#define FOPGGMEFEKC_CTOR_OFFSET UNITYSDK_OFFSET(0x18769700)
 
-inline static constexpr unsigned int FOPGGMEFEKC_TypeDefinitionIndex = 75561;
+inline static constexpr unsigned int FOPGGMEFEKC_TypeDefinitionIndex = 77888;
 
 	class FOPGGMEFEKC : public ::System::Object
 	{

@@ -6,21 +6,21 @@
 #include "unitysdk/RPG/GameCore/MonsterEnergyBarType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 class FCOEMCEDLNL;
+namespace RPG::GameCore { class BossInfoBarCustomizedBaseClickConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
-namespace RPG::GameCore { class MonsterEnergyBarBaseClickConfig; }
 namespace RPG::GameCore { class MonsterEnergyBarCustomColor; }
 namespace RPG::GameCore { class SetMonsterEnergyBarState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8D9A0)
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8DA00)
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8D920)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9DB230)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9DB290)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9DB1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterEnergyBarState_TypeDefinitionIndex = 23650;
+	inline static constexpr unsigned int SetMonsterEnergyBarState_TypeDefinitionIndex = 24098;
 
 	class SetMonsterEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
@@ -49,7 +49,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::MonsterEnergyBarNumColor NumColor; // 0x98
 		::System::Byte _padding3[0x4];
 		::RPG::GameCore::MonsterEnergyBarCustomColor* CustomColor; // 0xA0
-		::RPG::GameCore::MonsterEnergyBarBaseClickConfig* ClickConfig; // 0xA8
+		::RPG::GameCore::BossInfoBarCustomizedBaseClickConfig* ClickConfig; // 0xA8
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERENERGYBARSTATE_CTOR_OFFSET))(this);

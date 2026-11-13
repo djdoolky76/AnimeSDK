@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client { class RuntimeGroupManager_GroupRefreshExtraInfo; }
 
-inline static constexpr unsigned int JAEIIPPDMMC_TypeDefinitionIndex = 62194;
+inline static constexpr unsigned int JAEIIPPDMMC_TypeDefinitionIndex = 63607;
 
 	struct alignas(8) JAEIIPPDMMC
 	{

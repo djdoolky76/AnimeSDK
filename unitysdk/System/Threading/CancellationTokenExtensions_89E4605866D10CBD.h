@@ -6,11 +6,11 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define SYSTEM_THREADING_CANCELLATIONTOKENEXTENSIONS_89E4605866D10CBD_UNSAFEREGISTER_OFFSET UNITYSDK_OFFSET(0x1C3F0030)
+#define SYSTEM_THREADING_CANCELLATIONTOKENEXTENSIONS_89E4605866D10CBD_UNSAFEREGISTER_OFFSET UNITYSDK_OFFSET(0x20978370)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int CancellationTokenExtensions_89E4605866D10CBD_TypeDefinitionIndex = 41362;
+	inline static constexpr unsigned int CancellationTokenExtensions_89E4605866D10CBD_TypeDefinitionIndex = 42337;
 
 	class CancellationTokenExtensions_89E4605866D10CBD : public ::System::Object
 	{

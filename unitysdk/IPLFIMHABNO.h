@@ -9,23 +9,24 @@ namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define IPLFIMHABNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF04910)
-#define IPLFIMHABNO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF04990)
-#define IPLFIMHABNO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF04870)
+#define IPLFIMHABNO_CTOR_OFFSET UNITYSDK_OFFSET(0xC9AA9C0)
+#define IPLFIMHABNO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0xC9AAA40)
+#define IPLFIMHABNO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC9AA920)
 
-inline static constexpr unsigned int IPLFIMHABNO_TypeDefinitionIndex = 24165;
+inline static constexpr unsigned int IPLFIMHABNO_TypeDefinitionIndex = 24624;
 
 	class IPLFIMHABNO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x18
-		::RPG::GameCore::DynamicFloat* JOKLPMNDMAJ; // 0x20
+		::RPG::GameCore::DynamicFloat* JOKLPMNDMAJ; // 0x18
+		::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x20
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
-		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x30
-		::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x38
+		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x30
+		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x38
 		::RPG::GameCore::AttackType HIFKEKCELFB; // 0x40
-		::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x44
-		::System::Boolean AELFMDGFAIK; // 0x48
+		::System::Boolean AELFMDGFAIK; // 0x44
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IPLFIMHABNO_CTOR_OFFSET))(this);

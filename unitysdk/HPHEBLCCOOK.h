@@ -3,7 +3,7 @@
 namespace RPG::GameCore { class TeamDataComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-inline static constexpr unsigned int HPHEBLCCOOK_TypeDefinitionIndex = 56895;
+inline static constexpr unsigned int HPHEBLCCOOK_TypeDefinitionIndex = 58119;
 
 	struct alignas(8) HPHEBLCCOOK
 	{

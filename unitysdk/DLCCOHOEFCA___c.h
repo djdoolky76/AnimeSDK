@@ -4,18 +4,18 @@
 class DLCCOHOEFCA;
 namespace System { class Object; }
 
-#define DLCCOHOEFCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1B0DB0)
-#define DLCCOHOEFCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B0DE0)
-#define DLCCOHOEFCA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1B0DF0)
+#define DLCCOHOEFCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB452B0)
+#define DLCCOHOEFCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB452E0)
+#define DLCCOHOEFCA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB452F0)
 
-inline static constexpr unsigned int DLCCOHOEFCA___c_TypeDefinitionIndex = 30808;
+inline static constexpr unsigned int DLCCOHOEFCA___c_TypeDefinitionIndex = 31721;
 
 	class DLCCOHOEFCA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34920);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E360);
 		}
 
 		static ::System::Void _cctor()

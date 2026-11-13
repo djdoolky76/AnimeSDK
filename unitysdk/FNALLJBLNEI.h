@@ -6,9 +6,9 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define FNALLJBLNEI_EGNOMFBOLKG_OFFSET UNITYSDK_OFFSET(0x2E790C0)
+#define FNALLJBLNEI_EGNOMFBOLKG_OFFSET UNITYSDK_OFFSET(0x3DF2F90)
 
-inline static constexpr unsigned int FNALLJBLNEI_TypeDefinitionIndex = 55643;
+inline static constexpr unsigned int FNALLJBLNEI_TypeDefinitionIndex = 56841;
 
 	struct alignas(8) FNALLJBLNEI
 	{

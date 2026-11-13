@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Func_1; }
 
-#define BNGHOKMIDGD_JOJPKPMJLOG_CLEAR_OFFSET UNITYSDK_OFFSET(0xBDD4F30)
-#define BNGHOKMIDGD_JOJPKPMJLOG_CTOR_OFFSET UNITYSDK_OFFSET(0xBDCE510)
+#define BNGHOKMIDGD_JOJPKPMJLOG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A76BF60)
+#define BNGHOKMIDGD_JOJPKPMJLOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A765550)
 
-inline static constexpr unsigned int BNGHOKMIDGD_JOJPKPMJLOG_TypeDefinitionIndex = 60793;
+inline static constexpr unsigned int BNGHOKMIDGD_JOJPKPMJLOG_TypeDefinitionIndex = 62172;
 
 	class BNGHOKMIDGD_JOJPKPMJLOG : public ::System::Object
 	{

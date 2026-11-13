@@ -4,18 +4,18 @@
 class EMDKLICDPKK;
 namespace System { class Object; }
 
-#define EMDKLICDPKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2B1BB0)
-#define EMDKLICDPKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B1BF0)
-#define EMDKLICDPKK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E2B1C00)
+#define EMDKLICDPKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206D6210)
+#define EMDKLICDPKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206D6250)
+#define EMDKLICDPKK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x206D6260)
 
-inline static constexpr unsigned int EMDKLICDPKK___c_TypeDefinitionIndex = 30668;
+inline static constexpr unsigned int EMDKLICDPKK___c_TypeDefinitionIndex = 31574;
 
 	class EMDKLICDPKK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52CC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49900);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableSelectionProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FMGNCKPJLPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1584A720)
-#define FMGNCKPJLPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1584A750)
+#define FMGNCKPJLPH_CTOR_OFFSET UNITYSDK_OFFSET(0x17EFBB40)
+#define FMGNCKPJLPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17EFBB70)
 
-inline static constexpr unsigned int FMGNCKPJLPH_TypeDefinitionIndex = 58111;
+inline static constexpr unsigned int FMGNCKPJLPH_TypeDefinitionIndex = 59350;
 
 	class FMGNCKPJLPH
 	{

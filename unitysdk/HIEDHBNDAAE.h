@@ -5,18 +5,18 @@
 #include "unitysdk/System/Object.h"
 class JBAPFPNFAIE;
 
-#define HIEDHBNDAAE_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD5CA0)
-#define HIEDHBNDAAE_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0x15CD5C70)
-#define HIEDHBNDAAE_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15CD5C90)
-#define HIEDHBNDAAE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15CD5C80)
+#define HIEDHBNDAAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1902E3D0)
+#define HIEDHBNDAAE_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0x1902E3A0)
+#define HIEDHBNDAAE_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1902E3C0)
+#define HIEDHBNDAAE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1902E3B0)
 
-inline static constexpr unsigned int HIEDHBNDAAE_TypeDefinitionIndex = 80091;
+inline static constexpr unsigned int HIEDHBNDAAE_TypeDefinitionIndex = 82868;
 
 	class HIEDHBNDAAE : public ::System::Object
 	{
 	public:
-		::System::Int32 _CacheKey_k__BackingField; // 0x10
-		::RPG::Client::MechCraft::MechCraftConditionType _Type_k__BackingField; // 0x14
+		::RPG::Client::MechCraft::MechCraftConditionType _Type_k__BackingField; // 0x10
+		::System::Int32 _CacheKey_k__BackingField; // 0x14
 		::RPG::Client::TextID _Desc_k__BackingField; // 0x18
 		::System::Void _ctor(::JBAPFPNFAIE* a1)
 		{

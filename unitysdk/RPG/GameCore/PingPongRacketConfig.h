@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongRacketConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PINGPONGRACKETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EB190)
-#define RPG_GAMECORE_PINGPONGRACKETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E9DF0)
+#define RPG_GAMECORE_PINGPONGRACKETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE59A20)
+#define RPG_GAMECORE_PINGPONGRACKETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE58680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongRacketConfig_TypeDefinitionIndex = 16978;
+	inline static constexpr unsigned int PingPongRacketConfig_TypeDefinitionIndex = 17145;
 
 	class PingPongRacketConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class JOLAHHGIFHA;
 
-#define DHGNBCEBBKC___C__DISPLAYCLASS3_1_CTOR_OFFSET UNITYSDK_OFFSET(0xEBCBF60)
-#define DHGNBCEBBKC___C__DISPLAYCLASS3_1__SYNCMOTIONINFO_B__2_OFFSET UNITYSDK_OFFSET(0xEBCDE70)
+#define DHGNBCEBBKC___C__DISPLAYCLASS3_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADE8490)
+#define DHGNBCEBBKC___C__DISPLAYCLASS3_1__SYNCMOTIONINFO_B__2_OFFSET UNITYSDK_OFFSET(0x1ADEA360)
 
-inline static constexpr unsigned int DHGNBCEBBKC___c__DisplayClass3_1_TypeDefinitionIndex = 66390;
+inline static constexpr unsigned int DHGNBCEBBKC___c__DisplayClass3_1_TypeDefinitionIndex = 68326;
 
 	template <typename T>
 	class DHGNBCEBBKC___c__DisplayClass3_1 : public ::System::Object

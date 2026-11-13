@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/Entity.h"
 
-#define AAHBILOBJKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C849570)
+#define AAHBILOBJKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84D800)
 
-inline static constexpr unsigned int AAHBILOBJKI_TypeDefinitionIndex = 42832;
+inline static constexpr unsigned int AAHBILOBJKI_TypeDefinitionIndex = 43813;
 
 	class AAHBILOBJKI : public ::Entitas::Entity
 	{

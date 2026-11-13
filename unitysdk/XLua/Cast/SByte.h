@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define XLUA_CAST_SBYTE_CTOR_OFFSET UNITYSDK_OFFSET(0x14CB4430)
+#define XLUA_CAST_SBYTE_CTOR_OFFSET UNITYSDK_OFFSET(0xE7BC560)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int SByte_TypeDefinitionIndex = 50293;
+	inline static constexpr unsigned int SByte_TypeDefinitionIndex = 51344;
 
 	class SByte
 	{

@@ -8,26 +8,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleScoringConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLESCORINGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D43AA50)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D43A1B0)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF40FF0)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DF40750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleScoringConfigRow_TypeDefinitionIndex = 12880;
+	inline static constexpr unsigned int BattleScoringConfigRow_TypeDefinitionIndex = 12952;
 
 	class BattleScoringConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::BattleScoringDisplayType>* DisplayTypeList; // 0x10
-		::System::String* AbilityName; // 0x18
-		::Il2CppArray<::System::Single>* ParamList; // 0x20
-		::System::UInt32 ScoringID; // 0x28
-		::RPG::GameCore::BattleScoringType ScoringType; // 0x2C
-		::System::UInt32 BonusScore; // 0x30
-		::System::UInt32 GameModeGroup; // 0x34
-		::RPG::Client::TextID BonusSimpleDesc; // 0x38
-		::RPG::Client::TextID ScoreRuleDesc; // 0x48
-		::RPG::Client::TextID BonusDesc; // 0x58
+		::Il2CppArray<::System::Single>* ParamList; // 0x10
+		::Il2CppArray<::RPG::GameCore::BattleScoringDisplayType>* DisplayTypeList; // 0x18
+		::System::String* AbilityName; // 0x20
+		::RPG::Client::TextID BonusSimpleDesc; // 0x28
+		::System::UInt32 GameModeGroup; // 0x38
+		::System::UInt32 ScoringID; // 0x3C
+		::RPG::Client::TextID BonusDesc; // 0x40
+		::RPG::GameCore::BattleScoringType ScoringType; // 0x50
+		::System::UInt32 BonusScore; // 0x54
+		::RPG::Client::TextID ScoreRuleDesc; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLESCORINGCONFIGROW_CTOR_OFFSET))(this);

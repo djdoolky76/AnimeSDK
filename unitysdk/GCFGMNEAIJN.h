@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class FiveDimConveyorConfig; }
 
-#define GCFGMNEAIJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA52370)
-#define GCFGMNEAIJN_GOBOGHMEFKM_OFFSET UNITYSDK_OFFSET(0x1CA51F80)
-#define GCFGMNEAIJN_HDFEPMNKAPK_OFFSET UNITYSDK_OFFSET(0x1CA52130)
+#define GCFGMNEAIJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C21CAF0)
+#define GCFGMNEAIJN_GOBOGHMEFKM_OFFSET UNITYSDK_OFFSET(0x1C21C700)
+#define GCFGMNEAIJN_HDFEPMNKAPK_OFFSET UNITYSDK_OFFSET(0x1C21C8B0)
 
-inline static constexpr unsigned int GCFGMNEAIJN_TypeDefinitionIndex = 43473;
+inline static constexpr unsigned int GCFGMNEAIJN_TypeDefinitionIndex = 44455;
 
 	class GCFGMNEAIJN : public ::System::Object
 	{

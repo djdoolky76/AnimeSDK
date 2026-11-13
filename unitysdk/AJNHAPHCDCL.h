@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define AJNHAPHCDCL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x12CC3470)
-#define AJNHAPHCDCL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC3460)
+#define AJNHAPHCDCL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x19D4A280)
+#define AJNHAPHCDCL_CTOR_OFFSET UNITYSDK_OFFSET(0x19D4A270)
 
-inline static constexpr unsigned int AJNHAPHCDCL_TypeDefinitionIndex = 69341;
+inline static constexpr unsigned int AJNHAPHCDCL_TypeDefinitionIndex = 71295;
 
 	class AJNHAPHCDCL : public ::System::Attribute
 	{

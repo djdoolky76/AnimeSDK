@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CIHOEEPIBAI_TypeDefinitionIndex = 28673;
+inline static constexpr unsigned int CIHOEEPIBAI_TypeDefinitionIndex = 29263;
 
 	enum class CIHOEEPIBAI : ::System::Int32
 	{

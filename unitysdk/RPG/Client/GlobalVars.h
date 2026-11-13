@@ -89,595 +89,595 @@ namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GLOBALVARS_ASYNCINITENTERGAMESTEP_OFFSET UNITYSDK_OFFSET(0xD0B30A0)
-#define RPG_CLIENT_GLOBALVARS_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0AFF70)
-#define RPG_CLIENT_GLOBALVARS_CHECKPACKAGEREINSTALL_OFFSET UNITYSDK_OFFSET(0xD0B03A0)
-#define RPG_CLIENT_GLOBALVARS_CLEARHIDEINTERACTIVEUIREASONS_OFFSET UNITYSDK_OFFSET(0xD0B64D0)
-#define RPG_CLIENT_GLOBALVARS_CLEAROLDINSTALLFILES_OFFSET UNITYSDK_OFFSET(0xD0B66E0)
-#define RPG_CLIENT_GLOBALVARS_GETINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0xD0B7230)
-#define RPG_CLIENT_GLOBALVARS_GETLASTPACKAGEVERSION_OFFSET UNITYSDK_OFFSET(0xD0B7060)
-#define RPG_CLIENT_GLOBALVARS_GET_S_BASELINEMODE_OFFSET UNITYSDK_OFFSET(0xD0B7660)
-#define RPG_CLIENT_GLOBALVARS_GET_S_BATTLECLIENTONLYRANDOM_OFFSET UNITYSDK_OFFSET(0xD0B7720)
-#define RPG_CLIENT_GLOBALVARS_GET_S_FPSCOUNTER_OFFSET UNITYSDK_OFFSET(0xD0B7360)
-#define RPG_CLIENT_GLOBALVARS_GET_S_HIDEINTERACTIVEUI_OFFSET UNITYSDK_OFFSET(0xD0B6450)
-#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONCONTROLLER_OFFSET UNITYSDK_OFFSET(0xD0B73B0)
-#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONSPEEDREAL_OFFSET UNITYSDK_OFFSET(0xD0B75A0)
-#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0xD0B7420)
-#define RPG_CLIENT_GLOBALVARS_HIDEINTERACTIVEUI_OFFSET UNITYSDK_OFFSET(0xD0B6170)
-#define RPG_CLIENT_GLOBALVARS_INITBASEANDSTARTUPSTEP_OFFSET UNITYSDK_OFFSET(0xD0B3130)
-#define RPG_CLIENT_GLOBALVARS_INITBASECONFIGSTEP_OFFSET UNITYSDK_OFFSET(0xD0B0120)
-#define RPG_CLIENT_GLOBALVARS_INITCONFIGMANAGER_OFFSET UNITYSDK_OFFSET(0xD0B06E0)
-#define RPG_CLIENT_GLOBALVARS_INITENTERGAMESTEP_OFFSET UNITYSDK_OFFSET(0xD0B29F0)
-#define RPG_CLIENT_GLOBALVARS_INITMOTIONMANAGER_OFFSET UNITYSDK_OFFSET(0xD0B6090)
-#define RPG_CLIENT_GLOBALVARS_INITSTARTUPSTEP_OFFSET UNITYSDK_OFFSET(0xD0B07D0)
-#define RPG_CLIENT_GLOBALVARS_ISENTITYTICKLODCHECKRENDERERVISIBLE_OFFSET UNITYSDK_OFFSET(0xD0B6620)
-#define RPG_CLIENT_GLOBALVARS_ISENTITYTICKLODOPEN_OFFSET UNITYSDK_OFFSET(0xD0B6590)
-#define RPG_CLIENT_GLOBALVARS_REMOVETMPINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0xD0B6D90)
-#define RPG_CLIENT_GLOBALVARS_SAVEINSTALLVERSIONTMP_OFFSET UNITYSDK_OFFSET(0xD0B6D30)
-#define RPG_CLIENT_GLOBALVARS_SAVEINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0xD0B6680)
-#define RPG_CLIENT_GLOBALVARS_SET_S_BASELINEMODE_OFFSET UNITYSDK_OFFSET(0xD0B76A0)
-#define RPG_CLIENT_GLOBALVARS_SET_S_BATTLECLIENTONLYRANDOM_OFFSET UNITYSDK_OFFSET(0xD0B7760)
-#define RPG_CLIENT_GLOBALVARS_SET_S_SIMULATIONCONTROLLER_OFFSET UNITYSDK_OFFSET(0xD0B73E0)
-#define RPG_CLIENT_GLOBALVARS_SHADERWARMUP_OFFSET UNITYSDK_OFFSET(0xD0B31A0)
-#define RPG_CLIENT_GLOBALVARS_TESTERMPTY_OFFSET UNITYSDK_OFFSET(0xD0B00E0)
-#define RPG_CLIENT_GLOBALVARS_UNINITGLOBALVARS_OFFSET UNITYSDK_OFFSET(0xD0B3410)
-#define RPG_CLIENT_GLOBALVARS__INITDICONTAINER_OFFSET UNITYSDK_OFFSET(0xD0B2890)
-#define RPG_CLIENT_GLOBALVARS__INITUNITYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xD0B2140)
-#define RPG_CLIENT_GLOBALVARS__RELEASEGLOBALRESOURCES_OFFSET UNITYSDK_OFFSET(0xD0B3360)
-#define RPG_CLIENT_GLOBALVARS__SAVEINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0xD0B6880)
-#define RPG_CLIENT_GLOBALVARS__SHOULDCLEARPERISISTENTDIR_OFFSET UNITYSDK_OFFSET(0xD0B6E10)
-#define RPG_CLIENT_GLOBALVARS__UNINITUNITYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xD0B6050)
+#define RPG_CLIENT_GLOBALVARS_ASYNCINITENTERGAMESTEP_OFFSET UNITYSDK_OFFSET(0x1C708B00)
+#define RPG_CLIENT_GLOBALVARS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C705970)
+#define RPG_CLIENT_GLOBALVARS_CHECKPACKAGEREINSTALL_OFFSET UNITYSDK_OFFSET(0x1C705DA0)
+#define RPG_CLIENT_GLOBALVARS_CLEARHIDEINTERACTIVEUIREASONS_OFFSET UNITYSDK_OFFSET(0x1C70BEF0)
+#define RPG_CLIENT_GLOBALVARS_CLEAROLDINSTALLFILES_OFFSET UNITYSDK_OFFSET(0x1C70C100)
+#define RPG_CLIENT_GLOBALVARS_GETINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0x1C70CC50)
+#define RPG_CLIENT_GLOBALVARS_GETLASTPACKAGEVERSION_OFFSET UNITYSDK_OFFSET(0x1C70CA80)
+#define RPG_CLIENT_GLOBALVARS_GET_S_BASELINEMODE_OFFSET UNITYSDK_OFFSET(0x1C70D080)
+#define RPG_CLIENT_GLOBALVARS_GET_S_BATTLECLIENTONLYRANDOM_OFFSET UNITYSDK_OFFSET(0x1C70D140)
+#define RPG_CLIENT_GLOBALVARS_GET_S_FPSCOUNTER_OFFSET UNITYSDK_OFFSET(0x1C70CD80)
+#define RPG_CLIENT_GLOBALVARS_GET_S_HIDEINTERACTIVEUI_OFFSET UNITYSDK_OFFSET(0x1C70BE70)
+#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1C70CDD0)
+#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONSPEEDREAL_OFFSET UNITYSDK_OFFSET(0x1C70CFC0)
+#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0x1C70CE40)
+#define RPG_CLIENT_GLOBALVARS_HIDEINTERACTIVEUI_OFFSET UNITYSDK_OFFSET(0x1C70BB90)
+#define RPG_CLIENT_GLOBALVARS_INITBASEANDSTARTUPSTEP_OFFSET UNITYSDK_OFFSET(0x1C708B90)
+#define RPG_CLIENT_GLOBALVARS_INITBASECONFIGSTEP_OFFSET UNITYSDK_OFFSET(0x1C705B20)
+#define RPG_CLIENT_GLOBALVARS_INITCONFIGMANAGER_OFFSET UNITYSDK_OFFSET(0x1C7060E0)
+#define RPG_CLIENT_GLOBALVARS_INITENTERGAMESTEP_OFFSET UNITYSDK_OFFSET(0x1C708450)
+#define RPG_CLIENT_GLOBALVARS_INITMOTIONMANAGER_OFFSET UNITYSDK_OFFSET(0x1C70BAB0)
+#define RPG_CLIENT_GLOBALVARS_INITSTARTUPSTEP_OFFSET UNITYSDK_OFFSET(0x1C7061D0)
+#define RPG_CLIENT_GLOBALVARS_ISENTITYTICKLODCHECKRENDERERVISIBLE_OFFSET UNITYSDK_OFFSET(0x1C70C040)
+#define RPG_CLIENT_GLOBALVARS_ISENTITYTICKLODOPEN_OFFSET UNITYSDK_OFFSET(0x1C70BFB0)
+#define RPG_CLIENT_GLOBALVARS_REMOVETMPINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0x1C70C7B0)
+#define RPG_CLIENT_GLOBALVARS_SAVEINSTALLVERSIONTMP_OFFSET UNITYSDK_OFFSET(0x1C70C750)
+#define RPG_CLIENT_GLOBALVARS_SAVEINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0x1C70C0A0)
+#define RPG_CLIENT_GLOBALVARS_SET_S_BASELINEMODE_OFFSET UNITYSDK_OFFSET(0x1C70D0C0)
+#define RPG_CLIENT_GLOBALVARS_SET_S_BATTLECLIENTONLYRANDOM_OFFSET UNITYSDK_OFFSET(0x1C70D180)
+#define RPG_CLIENT_GLOBALVARS_SET_S_SIMULATIONCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1C70CE00)
+#define RPG_CLIENT_GLOBALVARS_SHADERWARMUP_OFFSET UNITYSDK_OFFSET(0x1C708C00)
+#define RPG_CLIENT_GLOBALVARS_TESTERMPTY_OFFSET UNITYSDK_OFFSET(0x1C705AE0)
+#define RPG_CLIENT_GLOBALVARS_UNINITGLOBALVARS_OFFSET UNITYSDK_OFFSET(0x1C708E70)
+#define RPG_CLIENT_GLOBALVARS__INITDICONTAINER_OFFSET UNITYSDK_OFFSET(0x1C7082F0)
+#define RPG_CLIENT_GLOBALVARS__INITUNITYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C707BA0)
+#define RPG_CLIENT_GLOBALVARS__RELEASEGLOBALRESOURCES_OFFSET UNITYSDK_OFFSET(0x1C708DC0)
+#define RPG_CLIENT_GLOBALVARS__SAVEINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0x1C70C2A0)
+#define RPG_CLIENT_GLOBALVARS__SHOULDCLEARPERISISTENTDIR_OFFSET UNITYSDK_OFFSET(0x1C70C830)
+#define RPG_CLIENT_GLOBALVARS__UNINITUNITYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C70BA70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GlobalVars_TypeDefinitionIndex = 61291;
+	inline static constexpr unsigned int GlobalVars_TypeDefinitionIndex = 62676;
 
 	class GlobalVars : public ::System::Object
 	{
 	public:
-		static ::KHCGCOFBMDC** StaticGet_s_VirtualServerManager()
-		{
-			return (::KHCGCOFBMDC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12A0);
-		}
-
-		static ::EEKGPHOPONF** StaticGet_BetaHintDialogContext()
-		{
-			return (::EEKGPHOPONF**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12A8);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::HideInteractiveUIReason>** StaticGet__HideInteractiveUIReasons()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::HideInteractiveUIReason>**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12B0);
-		}
-
-		static ::RPG::Client::IFixGlobalExtendMemberManager** StaticGet_s_IFixGlobalExtendMemberManager()
-		{
-			return (::RPG::Client::IFixGlobalExtendMemberManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12B8);
-		}
-
-		static ::RPG::Client::PreDownloadManager** StaticGet_s_PreDownloadManager()
-		{
-			return (::RPG::Client::PreDownloadManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12C0);
-		}
-
-		static ::UnityEngine::GameObject** StaticGet_s_WwiseInitializerGameObject()
-		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12C8);
-		}
-
-		static ::RPG::Client::InputSettingKeyConflictManager** StaticGet_s_InputSettingKeyConflictManager()
-		{
-			return (::RPG::Client::InputSettingKeyConflictManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12D0);
-		}
-
-		static ::RPG::Client::AssetMgr** StaticGet_s_AssetMgr()
-		{
-			return (::RPG::Client::AssetMgr**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12D8);
-		}
-
-		static ::RPG::Client::GameFlowManager** StaticGet_s_GameFlowManager()
-		{
-			return (::RPG::Client::GameFlowManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12E0);
-		}
-
-		static ::UnityEngine::Camera** StaticGet_s_UI3DCamera()
-		{
-			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12E8);
-		}
-
-		static ::DAIHKPJPMCE** StaticGet_s_CRPCameraManager()
-		{
-			return (::DAIHKPJPMCE**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12F0);
-		}
-
-		static ::HGDBKOHKGBI** StaticGet_s_Tween()
-		{
-			return (::HGDBKOHKGBI**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12F8);
-		}
-
-		static ::HBAJIJEAJDK** StaticGet_s_MaterialBlockEffectManager()
-		{
-			return (::HBAJIJEAJDK**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1300);
-		}
-
-		static ::OAMEEKBFMHL** StaticGet_s_IFixPatchManager()
-		{
-			return (::OAMEEKBFMHL**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1308);
-		}
-
-		static ::HGJGNMPOIKN** StaticGet_s_MultiplayerManager()
-		{
-			return (::HGJGNMPOIKN**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1310);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_BillboardRoot()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1318);
-		}
-
-		static ::RPG::Client::ResolutionController** StaticGet_s_ResolutionController()
-		{
-			return (::RPG::Client::ResolutionController**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1320);
-		}
-
-		static ::BCAOJMKPGOI** StaticGet_s_CustomLateUpdateManager()
-		{
-			return (::BCAOJMKPGOI**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1328);
-		}
-
-		static ::FCEAMALPJPH** StaticGet_s_GamePlayAssetLoader()
-		{
-			return (::FCEAMALPJPH**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1330);
-		}
-
-		static ::LBJLBMOOJGM** StaticGet_s_DiContainer()
-		{
-			return (::LBJLBMOOJGM**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1338);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_UI3DRoot()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1340);
-		}
-
-		static ::FFPEBJDFJDN** StaticGet_s_ShaderPropertyTransitionManager()
-		{
-			return (::FFPEBJDFJDN**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1348);
-		}
-
-		static ::IJOJFKGLIKA** StaticGet_s_AsyncProcessor()
-		{
-			return (::IJOJFKGLIKA**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1350);
-		}
-
-		static ::RPG::Client::NetworkManager** StaticGet_s_NetworkManager()
-		{
-			return (::RPG::Client::NetworkManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1358);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_UIRoot()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1360);
-		}
-
-		static ::NCEDGGKOMIH** StaticGet_s_TimelineManager()
-		{
-			return (::NCEDGGKOMIH**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1368);
-		}
-
-		static ::EFGKKPOMAEM** StaticGet_s_ThirdPartSDKManager()
-		{
-			return (::EFGKKPOMAEM**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1370);
-		}
-
-		static ::BCFPJDNFAFO** StaticGet_s_RuntimeAtlasManager()
-		{
-			return (::BCFPJDNFAFO**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1378);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_UICache()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1380);
-		}
-
-		static ::RPG::Client::RenderOptionsManager** StaticGet_s_RenderOptionsManager()
-		{
-			return (::RPG::Client::RenderOptionsManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1388);
-		}
-
-		static ::FKFPKFPHBJO** StaticGet_s_VideoManager()
-		{
-			return (::FKFPKFPHBJO**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1390);
-		}
-
-		static ::RPG::Client::UIManager** StaticGet_s_UIManager()
-		{
-			return (::RPG::Client::UIManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1398);
-		}
-
-		static ::PEINNEOBJDA** StaticGet_s_StackCameraManager()
-		{
-			return (::PEINNEOBJDA**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13A0);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_CharacterCache()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13A8);
-		}
-
-		static ::RPG::Client::SettingManager** StaticGet_s_SettingManager()
-		{
-			return (::RPG::Client::SettingManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13B0);
-		}
-
-		static ::AMJCOOEKGEN** StaticGet_s_FollowPointMappingManager()
-		{
-			return (::AMJCOOEKGEN**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13B8);
-		}
-
-		static ::RPG::GameCore::VersionData** StaticGet_s_VersionData()
-		{
-			return (::RPG::GameCore::VersionData**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13C0);
-		}
-
-		static ::RPG::Client::GyroManager** StaticGet_s_GyroManager()
-		{
-			return (::RPG::Client::GyroManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13C8);
-		}
-
-		static ::RPG::Client::InControlActionsManager** StaticGet_s_InControlActionsManager()
-		{
-			return (::RPG::Client::InControlActionsManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13D0);
-		}
-
-		static ::UnityEngine::GameObject** StaticGet_s_EasytouchGameObject()
-		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13D8);
-		}
-
-		static ::UnityEngine::GameObject** StaticGet_s_MainGameObject()
-		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13E0);
-		}
-
-		static ::RPG::Client::TextmapDownloadManager** StaticGet_s_TextDownloadManager()
-		{
-			return (::RPG::Client::TextmapDownloadManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13E8);
-		}
-
-		static ::PDJCPAFHFIN** StaticGet_s_RdrMatCacheMgr()
-		{
-			return (::PDJCPAFHFIN**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13F0);
-		}
-
-		static ::RPG::Client::GlobalConfigManager** StaticGet_s_ConfigManager()
-		{
-			return (::RPG::Client::GlobalConfigManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13F8);
-		}
-
-		static ::RPG::Client::LuaSystem** StaticGet_s_LuaSystem()
-		{
-			return (::RPG::Client::LuaSystem**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1400);
-		}
-
-		static ::LFPJGOEOLNH** StaticGet_s_GoPoolMgr()
-		{
-			return (::LFPJGOEOLNH**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1408);
-		}
-
-		static ::RPG::Client::PipelineCameraEngine** StaticGet_s_PipelineCamera()
-		{
-			return (::RPG::Client::PipelineCameraEngine**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1410);
-		}
-
-		static ::NDEBPOONLKC** StaticGet_s_CloudSupporter()
-		{
-			return (::NDEBPOONLKC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1418);
-		}
-
-		static ::RPG::Client::PlayGoManager** StaticGet_s_PlayGoManager()
-		{
-			return (::RPG::Client::PlayGoManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1420);
-		}
-
-		static ::RPG::Client::MonoEffectManager** StaticGet_s_MonoEffectManager()
-		{
-			return (::RPG::Client::MonoEffectManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1428);
-		}
-
-		static ::KEDHGJIILLI** StaticGet_s_CharacterEffectManager()
-		{
-			return (::KEDHGJIILLI**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1430);
-		}
-
-		static ::BEHEGJCEGIC** StaticGet_s_RogueManager()
-		{
-			return (::BEHEGJCEGIC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1438);
-		}
-
-		static ::DEEOAMEMOFD** StaticGet_s_EntityTickLodManager()
-		{
-			return (::DEEOAMEMOFD**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1440);
-		}
-
-		static ::JIAJFGCHLJE** StaticGet_s_MainCameraOccluder()
-		{
-			return (::JIAJFGCHLJE**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1448);
-		}
-
-		static ::UnityEngine::Canvas** StaticGet_s_Canvas3D()
-		{
-			return (::UnityEngine::Canvas**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1450);
-		}
-
-		static ::DHFGHIEPFIF** StaticGet_s_PhaseModeManager()
-		{
-			return (::DHFGHIEPFIF**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1458);
-		}
-
-		static ::RPG::Client::GamePhaseManager** StaticGet_s_GamePhaseManager()
-		{
-			return (::RPG::Client::GamePhaseManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1460);
-		}
-
-		static ::RPG::Client::ModuleManager** StaticGet_s_ModuleManager()
-		{
-			return (::RPG::Client::ModuleManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1468);
-		}
-
-		static ::PFGDFMBOOLK** StaticGet_s_MaterialGroupCbManager()
-		{
-			return (::PFGDFMBOOLK**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1470);
-		}
-
-		static ::RPG::Client::VietNam18DialogContext** StaticGet_VietNam18DialogContext()
-		{
-			return (::RPG::Client::VietNam18DialogContext**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1478);
-		}
-
-		static ::RPG::Client::EffectPluginManager** StaticGet_s_EffectPluginManager()
-		{
-			return (::RPG::Client::EffectPluginManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1480);
-		}
-
-		static ::RPG::Client::GamePlayLockManager** StaticGet_s_GamePlayLockManager()
-		{
-			return (::RPG::Client::GamePlayLockManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1488);
-		}
-
-		static ::LNCKJIOBNDO** StaticGet_s_EmotionLateUpdateManager()
-		{
-			return (::LNCKJIOBNDO**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1490);
-		}
-
 		static ::RPG::Client::PSManager** StaticGet_s_PSManager()
 		{
-			return (::RPG::Client::PSManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1498);
+			return (::RPG::Client::PSManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11B0);
 		}
 
 		static ::RPG::Client::LoadingManager** StaticGet_s_LoadingManager()
 		{
-			return (::RPG::Client::LoadingManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14A0);
+			return (::RPG::Client::LoadingManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11B8);
 		}
 
-		static ::IDECOCBLLBC** StaticGet_s_ShaderWarmupManager()
+		static ::RPG::Client::GameFlowManager** StaticGet_s_GameFlowManager()
 		{
-			return (::IDECOCBLLBC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14A8);
-		}
-
-		static ::InControl::InControlInputModule** StaticGet_s_InControlInputModule()
-		{
-			return (::InControl::InControlInputModule**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14B0);
-		}
-
-		static ::NBIOOMEPCFJ** StaticGet_LongPressHintDialogContext()
-		{
-			return (::NBIOOMEPCFJ**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14B8);
-		}
-
-		static ::UnityEngine::Canvas** StaticGet_s_PageCanvas()
-		{
-			return (::UnityEngine::Canvas**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14C0);
-		}
-
-		static ::CHIOEBDCOAA** StaticGet_s_TAMonoTickManager()
-		{
-			return (::CHIOEBDCOAA**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14C8);
+			return (::RPG::Client::GameFlowManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11C0);
 		}
 
 		static ::CBCEIDBNIHC** StaticGet_s_ProfilerManager()
 		{
-			return (::CBCEIDBNIHC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14D0);
-		}
-
-		static ::RPG::Client::SimulateSpeedController** StaticGet__s_SimulationController_k__BackingField()
-		{
-			return (::RPG::Client::SimulateSpeedController**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14D8);
-		}
-
-		static ::FFFOAONFDMJ** StaticGet_s_ThreadSchedulerManager()
-		{
-			return (::FFFOAONFDMJ**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14E0);
-		}
-
-		static ::JIAJFGCHLJE** StaticGet_s_UI3DCameraOccluder()
-		{
-			return (::JIAJFGCHLJE**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14E8);
-		}
-
-		static ::RPG::Client::DialogueManager** StaticGet_s_DialogueManager()
-		{
-			return (::RPG::Client::DialogueManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14F0);
-		}
-
-		static ::RPG::Client::CameraManager** StaticGet_s_CameraManager()
-		{
-			return (::RPG::Client::CameraManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x14F8);
-		}
-
-		static ::UnityEngine::Camera** StaticGet_s_MainCamera()
-		{
-			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1500);
-		}
-
-		static ::OLGJAPMAPHL** StaticGet_s_DynamicOptimizeCenter()
-		{
-			return (::OLGJAPMAPHL**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1508);
-		}
-
-		static ::ODCPCHEIMKK** StaticGet_s_MotionManager()
-		{
-			return (::ODCPCHEIMKK**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1510);
-		}
-
-		static ::RPG::Client::TimerManager** StaticGet_s_TimerManager()
-		{
-			return (::RPG::Client::TimerManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1518);
-		}
-
-		static ::KGGIOGDDHGH** StaticGet_DebugInfoWidgetContext()
-		{
-			return (::KGGIOGDDHGH**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1520);
-		}
-
-		static ::HFDGMMPMGIC** StaticGet_s_LuaHotfixManager()
-		{
-			return (::HFDGMMPMGIC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1528);
-		}
-
-		static ::RPG::Client::TimeManager** StaticGet_s_TimeManager()
-		{
-			return (::RPG::Client::TimeManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1530);
-		}
-
-		static ::UnityEngine::GameObject** StaticGet_s_EventSystemGameObject()
-		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1538);
-		}
-
-		static ::RPG::Client::EnvironmentSystem** StaticGet_s_EnvironmentSystem()
-		{
-			return (::RPG::Client::EnvironmentSystem**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1540);
+			return (::CBCEIDBNIHC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11C8);
 		}
 
 		static ::RPG::Client::RPGSDKAccountManager** StaticGet_s_AccountManager()
 		{
-			return (::RPG::Client::RPGSDKAccountManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1548);
+			return (::RPG::Client::RPGSDKAccountManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11D0);
 		}
 
-		static ::MKBBKAKCMCG** StaticGet_s_AttachPointManager()
+		static ::OLGJAPMAPHL** StaticGet_s_DynamicOptimizeCenter()
 		{
-			return (::MKBBKAKCMCG**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1550);
+			return (::OLGJAPMAPHL**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11D8);
+		}
+
+		static ::RPG::Client::PipelineCameraEngine** StaticGet_s_PipelineCamera()
+		{
+			return (::RPG::Client::PipelineCameraEngine**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11E0);
+		}
+
+		static ::ODCPCHEIMKK** StaticGet_s_MotionManager()
+		{
+			return (::ODCPCHEIMKK**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11E8);
+		}
+
+		static ::RPG::Client::SimulateSpeedController** StaticGet__s_SimulationController_k__BackingField()
+		{
+			return (::RPG::Client::SimulateSpeedController**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11F0);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_s_UIRoot()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x11F8);
+		}
+
+		static ::UnityEngine::Canvas** StaticGet_s_Canvas3D()
+		{
+			return (::UnityEngine::Canvas**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1200);
+		}
+
+		static ::PEINNEOBJDA** StaticGet_s_StackCameraManager()
+		{
+			return (::PEINNEOBJDA**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1208);
+		}
+
+		static ::RPG::Client::GamePhaseManager** StaticGet_s_GamePhaseManager()
+		{
+			return (::RPG::Client::GamePhaseManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1210);
+		}
+
+		static ::RPG::Client::TimerManager** StaticGet_s_TimerManager()
+		{
+			return (::RPG::Client::TimerManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1218);
+		}
+
+		static ::RPG::Client::IFixGlobalExtendMemberManager** StaticGet_s_IFixGlobalExtendMemberManager()
+		{
+			return (::RPG::Client::IFixGlobalExtendMemberManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1220);
 		}
 
 		static ::RPG::Client::ClientOnlyCommonConfig** StaticGet_s_ClientOnlyCommonConfig()
 		{
-			return (::RPG::Client::ClientOnlyCommonConfig**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1558);
+			return (::RPG::Client::ClientOnlyCommonConfig**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1228);
 		}
 
-		static ::RPG::Client::LocalizationManager** StaticGet_s_LocalizationManager()
+		static ::JIAJFGCHLJE** StaticGet_s_UI3DCameraOccluder()
 		{
-			return (::RPG::Client::LocalizationManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1560);
+			return (::JIAJFGCHLJE**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1230);
 		}
 
-		static ::RPG::Client::AudioManager** StaticGet_s_AudioManager()
+		static ::InControl::InControlInputModule** StaticGet_s_InControlInputModule()
 		{
-			return (::RPG::Client::AudioManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1568);
+			return (::InControl::InControlInputModule**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1238);
+		}
+
+		static ::RPG::Client::PreDownloadManager** StaticGet_s_PreDownloadManager()
+		{
+			return (::RPG::Client::PreDownloadManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1240);
+		}
+
+		static ::RPG::Client::CameraManager** StaticGet_s_CameraManager()
+		{
+			return (::RPG::Client::CameraManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1248);
+		}
+
+		static ::RPG::Client::LuaSystem** StaticGet_s_LuaSystem()
+		{
+			return (::RPG::Client::LuaSystem**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1250);
+		}
+
+		static ::HBAJIJEAJDK** StaticGet_s_MaterialBlockEffectManager()
+		{
+			return (::HBAJIJEAJDK**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1258);
+		}
+
+		static ::RPG::Client::PlayGoManager** StaticGet_s_PlayGoManager()
+		{
+			return (::RPG::Client::PlayGoManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1260);
+		}
+
+		static ::RPG::Client::MonoEffectManager** StaticGet_s_MonoEffectManager()
+		{
+			return (::RPG::Client::MonoEffectManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1268);
+		}
+
+		static ::IDECOCBLLBC** StaticGet_s_ShaderWarmupManager()
+		{
+			return (::IDECOCBLLBC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1270);
+		}
+
+		static ::RPG::Client::AssetMgr** StaticGet_s_AssetMgr()
+		{
+			return (::RPG::Client::AssetMgr**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1278);
 		}
 
 		static ::UnityEngine::Camera** StaticGet_s_UICamera()
 		{
-			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1570);
+			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1280);
 		}
 
-		static ::System::Int32* StaticGet__DebugRandomCounter()
+		static ::UnityEngine::GameObject** StaticGet_s_WwiseInitializerGameObject()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x740);
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1288);
 		}
 
-		static ::System::Single* StaticGet_s_FirstUIDisplayedTimestamp()
+		static ::PDJCPAFHFIN** StaticGet_s_RdrMatCacheMgr()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x744);
+			return (::PDJCPAFHFIN**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1290);
 		}
 
-		static ::System::Single* StaticGet_s_LogoUIDisplayedTimestamp()
+		static ::RPG::Client::LocalizationManager** StaticGet_s_LocalizationManager()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x748);
+			return (::RPG::Client::LocalizationManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1298);
 		}
 
-		static ::System::Int32* StaticGet_s_CustomUpdatePreloadTimeMs()
+		static ::RPG::Client::VietNam18DialogContext** StaticGet_VietNam18DialogContext()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x74C);
+			return (::RPG::Client::VietNam18DialogContext**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12A0);
 		}
 
-		static ::System::Boolean* StaticGet_s_ShowLevelSelectUI()
+		static ::LNCKJIOBNDO** StaticGet_s_EmotionLateUpdateManager()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x750);
+			return (::LNCKJIOBNDO**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12A8);
 		}
 
-		static ::System::Boolean* StaticGet_s_Inited()
+		static ::UnityEngine::Transform** StaticGet_s_BillboardRoot()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x751);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12B0);
 		}
 
-		static ::System::Boolean* StaticGet__BaselineMode()
+		static ::FKFPKFPHBJO** StaticGet_s_VideoManager()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x752);
+			return (::FKFPKFPHBJO**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12B8);
+		}
+
+		static ::KEDHGJIILLI** StaticGet_s_CharacterEffectManager()
+		{
+			return (::KEDHGJIILLI**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12C0);
+		}
+
+		static ::NCEDGGKOMIH** StaticGet_s_TimelineManager()
+		{
+			return (::NCEDGGKOMIH**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12C8);
+		}
+
+		static ::PFGDFMBOOLK** StaticGet_s_MaterialGroupCbManager()
+		{
+			return (::PFGDFMBOOLK**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12D0);
+		}
+
+		static ::UnityEngine::Camera** StaticGet_s_UI3DCamera()
+		{
+			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12D8);
+		}
+
+		static ::BEHEGJCEGIC** StaticGet_s_RogueManager()
+		{
+			return (::BEHEGJCEGIC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12E0);
+		}
+
+		static ::UnityEngine::Camera** StaticGet_s_MainCamera()
+		{
+			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12E8);
+		}
+
+		static ::RPG::GameCore::VersionData** StaticGet_s_VersionData()
+		{
+			return (::RPG::GameCore::VersionData**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12F0);
+		}
+
+		static ::IJOJFKGLIKA** StaticGet_s_AsyncProcessor()
+		{
+			return (::IJOJFKGLIKA**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x12F8);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::HideInteractiveUIReason>** StaticGet__HideInteractiveUIReasons()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::HideInteractiveUIReason>**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1300);
+		}
+
+		static ::RPG::Client::GamePlayLockManager** StaticGet_s_GamePlayLockManager()
+		{
+			return (::RPG::Client::GamePlayLockManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1308);
+		}
+
+		static ::BCAOJMKPGOI** StaticGet_s_CustomLateUpdateManager()
+		{
+			return (::BCAOJMKPGOI**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1310);
+		}
+
+		static ::NBIOOMEPCFJ** StaticGet_LongPressHintDialogContext()
+		{
+			return (::NBIOOMEPCFJ**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1318);
+		}
+
+		static ::EEKGPHOPONF** StaticGet_BetaHintDialogContext()
+		{
+			return (::EEKGPHOPONF**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1320);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_s_CharacterCache()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1328);
+		}
+
+		static ::DAIHKPJPMCE** StaticGet_s_CRPCameraManager()
+		{
+			return (::DAIHKPJPMCE**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1330);
+		}
+
+		static ::RPG::Client::TextmapDownloadManager** StaticGet_s_TextDownloadManager()
+		{
+			return (::RPG::Client::TextmapDownloadManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1338);
+		}
+
+		static ::EFGKKPOMAEM** StaticGet_s_ThirdPartSDKManager()
+		{
+			return (::EFGKKPOMAEM**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1340);
+		}
+
+		static ::RPG::Client::EnvironmentSystem** StaticGet_s_EnvironmentSystem()
+		{
+			return (::RPG::Client::EnvironmentSystem**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1348);
+		}
+
+		static ::MKBBKAKCMCG** StaticGet_s_AttachPointManager()
+		{
+			return (::MKBBKAKCMCG**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1350);
+		}
+
+		static ::HGJGNMPOIKN** StaticGet_s_MultiplayerManager()
+		{
+			return (::HGJGNMPOIKN**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1358);
+		}
+
+		static ::RPG::Client::NetworkManager** StaticGet_s_NetworkManager()
+		{
+			return (::RPG::Client::NetworkManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1360);
+		}
+
+		static ::UnityEngine::GameObject** StaticGet_s_MainGameObject()
+		{
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1368);
+		}
+
+		static ::HGDBKOHKGBI** StaticGet_s_Tween()
+		{
+			return (::HGDBKOHKGBI**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1370);
+		}
+
+		static ::RPG::Client::UIManager** StaticGet_s_UIManager()
+		{
+			return (::RPG::Client::UIManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1378);
+		}
+
+		static ::LBJLBMOOJGM** StaticGet_s_DiContainer()
+		{
+			return (::LBJLBMOOJGM**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1380);
+		}
+
+		static ::RPG::Client::TimeManager** StaticGet_s_TimeManager()
+		{
+			return (::RPG::Client::TimeManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1388);
+		}
+
+		static ::UnityEngine::GameObject** StaticGet_s_EventSystemGameObject()
+		{
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1390);
+		}
+
+		static ::LFPJGOEOLNH** StaticGet_s_GoPoolMgr()
+		{
+			return (::LFPJGOEOLNH**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1398);
+		}
+
+		static ::RPG::Client::ResolutionController** StaticGet_s_ResolutionController()
+		{
+			return (::RPG::Client::ResolutionController**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13A0);
+		}
+
+		static ::HFDGMMPMGIC** StaticGet_s_LuaHotfixManager()
+		{
+			return (::HFDGMMPMGIC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13A8);
+		}
+
+		static ::RPG::Client::EffectPluginManager** StaticGet_s_EffectPluginManager()
+		{
+			return (::RPG::Client::EffectPluginManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13B0);
+		}
+
+		static ::FFPEBJDFJDN** StaticGet_s_ShaderPropertyTransitionManager()
+		{
+			return (::FFPEBJDFJDN**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13B8);
+		}
+
+		static ::FCEAMALPJPH** StaticGet_s_GamePlayAssetLoader()
+		{
+			return (::FCEAMALPJPH**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13C0);
+		}
+
+		static ::RPG::Client::DialogueManager** StaticGet_s_DialogueManager()
+		{
+			return (::RPG::Client::DialogueManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13C8);
+		}
+
+		static ::NDEBPOONLKC** StaticGet_s_CloudSupporter()
+		{
+			return (::NDEBPOONLKC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13D0);
+		}
+
+		static ::BCFPJDNFAFO** StaticGet_s_RuntimeAtlasManager()
+		{
+			return (::BCFPJDNFAFO**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13D8);
+		}
+
+		static ::RPG::Client::RenderOptionsManager** StaticGet_s_RenderOptionsManager()
+		{
+			return (::RPG::Client::RenderOptionsManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13E0);
+		}
+
+		static ::KHCGCOFBMDC** StaticGet_s_VirtualServerManager()
+		{
+			return (::KHCGCOFBMDC**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13E8);
+		}
+
+		static ::DEEOAMEMOFD** StaticGet_s_EntityTickLodManager()
+		{
+			return (::DEEOAMEMOFD**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13F0);
+		}
+
+		static ::CHIOEBDCOAA** StaticGet_s_TAMonoTickManager()
+		{
+			return (::CHIOEBDCOAA**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x13F8);
+		}
+
+		static ::RPG::Client::InControlActionsManager** StaticGet_s_InControlActionsManager()
+		{
+			return (::RPG::Client::InControlActionsManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1400);
+		}
+
+		static ::RPG::Client::GyroManager** StaticGet_s_GyroManager()
+		{
+			return (::RPG::Client::GyroManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1408);
+		}
+
+		static ::OAMEEKBFMHL** StaticGet_s_IFixPatchManager()
+		{
+			return (::OAMEEKBFMHL**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1410);
+		}
+
+		static ::RPG::Client::InputSettingKeyConflictManager** StaticGet_s_InputSettingKeyConflictManager()
+		{
+			return (::RPG::Client::InputSettingKeyConflictManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1418);
+		}
+
+		static ::RPG::Client::GlobalConfigManager** StaticGet_s_ConfigManager()
+		{
+			return (::RPG::Client::GlobalConfigManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1420);
+		}
+
+		static ::JIAJFGCHLJE** StaticGet_s_MainCameraOccluder()
+		{
+			return (::JIAJFGCHLJE**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1428);
+		}
+
+		static ::DHFGHIEPFIF** StaticGet_s_PhaseModeManager()
+		{
+			return (::DHFGHIEPFIF**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1430);
+		}
+
+		static ::RPG::Client::SettingManager** StaticGet_s_SettingManager()
+		{
+			return (::RPG::Client::SettingManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1438);
+		}
+
+		static ::UnityEngine::Canvas** StaticGet_s_PageCanvas()
+		{
+			return (::UnityEngine::Canvas**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1440);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_s_UI3DRoot()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1448);
+		}
+
+		static ::RPG::Client::ModuleManager** StaticGet_s_ModuleManager()
+		{
+			return (::RPG::Client::ModuleManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1450);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_s_UICache()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1458);
+		}
+
+		static ::FFFOAONFDMJ** StaticGet_s_ThreadSchedulerManager()
+		{
+			return (::FFFOAONFDMJ**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1460);
+		}
+
+		static ::KGGIOGDDHGH** StaticGet_DebugInfoWidgetContext()
+		{
+			return (::KGGIOGDDHGH**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1468);
+		}
+
+		static ::UnityEngine::GameObject** StaticGet_s_EasytouchGameObject()
+		{
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1470);
+		}
+
+		static ::AMJCOOEKGEN** StaticGet_s_FollowPointMappingManager()
+		{
+			return (::AMJCOOEKGEN**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1478);
+		}
+
+		static ::RPG::Client::AudioManager** StaticGet_s_AudioManager()
+		{
+			return (::RPG::Client::AudioManager**)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x1480);
 		}
 
 		static ::System::Boolean* StaticGet_s_OpenEntityTickLodCheckRendererVisible()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x753);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x710);
+		}
+
+		static ::System::Boolean* StaticGet_s_Inited()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x711);
 		}
 
 		static ::System::Boolean* StaticGet_s_OpenEntityTickLod()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x754);
-		}
-
-		static ::System::Boolean* StaticGet_s_OpenEntityTickBalance()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x755);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x712);
 		}
 
 		static ::System::Boolean* StaticGet_s_UseLogicFrame()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x756);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x713);
 		}
 
-		static ::System::Boolean* StaticGet__s_BattleClientOnlyRandom_k__BackingField()
+		static ::System::Single* StaticGet_s_FirstUIDisplayedTimestamp()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x757);
-		}
-
-		static ::System::Boolean* StaticGet_s_UseMapRotation()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x758);
-		}
-
-		static ::System::Boolean* StaticGet_s_OpenEntityTickLodByGM()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x759);
-		}
-
-		static ::System::Boolean* StaticGet_s_ReinstallPackage()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x75A);
-		}
-
-		static ::RPG::Client::StartUpReasonType* StaticGet_StartUpReasonType()
-		{
-			return (::RPG::Client::StartUpReasonType*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x75C);
-		}
-
-		static ::System::Int32* StaticGet_s_LogicFrameRate()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x760);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x714);
 		}
 
 		static ::System::Single* StaticGet_s_LogicFrameInterval()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x764);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x718);
+		}
+
+		static ::System::Int32* StaticGet__DebugRandomCounter()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x71C);
+		}
+
+		static ::System::Int32* StaticGet_s_LogicFrameRate()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x720);
+		}
+
+		static ::System::Single* StaticGet_s_LogoUIDisplayedTimestamp()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x724);
+		}
+
+		static ::System::Int32* StaticGet_s_CustomUpdatePreloadTimeMs()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x728);
+		}
+
+		static ::System::Boolean* StaticGet_s_OpenEntityTickLodByGM()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x72C);
+		}
+
+		static ::System::Boolean* StaticGet_s_OpenEntityTickBalance()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x72D);
+		}
+
+		static ::System::Boolean* StaticGet__s_BattleClientOnlyRandom_k__BackingField()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x72E);
+		}
+
+		static ::System::Boolean* StaticGet__BaselineMode()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x72F);
+		}
+
+		static ::RPG::Client::StartUpReasonType* StaticGet_StartUpReasonType()
+		{
+			return (::RPG::Client::StartUpReasonType*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x730);
+		}
+
+		static ::System::Boolean* StaticGet_s_ShowLevelSelectUI()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x734);
+		}
+
+		static ::System::Boolean* StaticGet_s_UseMapRotation()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x735);
+		}
+
+		static ::System::Boolean* StaticGet_s_ReinstallPackage()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GlobalVars")->GetStaticField(0x736);
 		}
 
 		// static const ::System::String* installVersionFileName; // 0x0

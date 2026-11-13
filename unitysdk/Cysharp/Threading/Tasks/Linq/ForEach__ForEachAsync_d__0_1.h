@@ -10,7 +10,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ForEach__ForEachAsync_d__0_1_TypeDefinitionIndex = 45366;
+	inline static constexpr unsigned int ForEach__ForEachAsync_d__0_1_TypeDefinitionIndex = 46395;
 
 	template <typename T>
 	struct alignas(8) ForEach__ForEachAsync_d__0_1

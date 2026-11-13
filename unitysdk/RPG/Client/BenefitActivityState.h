@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BenefitActivityState_TypeDefinitionIndex = 61389;
+	inline static constexpr unsigned int BenefitActivityState_TypeDefinitionIndex = 62774;
 
 	enum class BenefitActivityState : ::System::UInt32
 	{

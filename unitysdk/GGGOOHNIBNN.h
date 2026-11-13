@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class HCKGCOJLJMK;
 
-#define GGGOOHNIBNN_CTOR_OFFSET UNITYSDK_OFFSET(0x159F8D30)
-#define GGGOOHNIBNN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x159F8CE0)
+#define GGGOOHNIBNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A2200)
+#define GGGOOHNIBNN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1B4A21B0)
 
-inline static constexpr unsigned int GGGOOHNIBNN_TypeDefinitionIndex = 76933;
+inline static constexpr unsigned int GGGOOHNIBNN_TypeDefinitionIndex = 79267;
 
 	class GGGOOHNIBNN : public ::System::Object
 	{

@@ -6,22 +6,22 @@ namespace MiHoYo::SDK::PC::OS { class XboxPayInfo; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0F340)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BF12B60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BF12D10)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__2_OFFSET UNITYSDK_OFFSET(0x1BF12E00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF8B9B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BF8F200)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BF8F3B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__2_OFFSET UNITYSDK_OFFSET(0x1BF8F4A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass40_0_TypeDefinitionIndex = 8651;
+	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass40_0_TypeDefinitionIndex = 8660;
 
 	class HoYoChannelXbox___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* __9__2; // 0x10
-		::System::Action_1<::System::String*>* __9__1; // 0x18
-		::MiHoYo::SDK::PC::OS::HoYoChannelXbox* __4__this; // 0x20
-		::MiHoYo::SDK::PC::OS::XboxPayInfo* payInfo; // 0x28
+		::MiHoYo::SDK::PC::OS::XboxPayInfo* payInfo; // 0x10
+		::MiHoYo::SDK::PC::OS::HoYoChannelXbox* __4__this; // 0x18
+		::System::Action_1<::System::String*>* __9__1; // 0x20
+		::System::Action_1<::System::String*>* __9__2; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0_CTOR_OFFSET))(this);

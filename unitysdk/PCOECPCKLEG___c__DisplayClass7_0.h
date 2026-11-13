@@ -4,10 +4,10 @@
 class ENDEAPMHAOI;
 namespace RPG::GameCore { class CakeRaceBuffConfig; }
 
-#define PCOECPCKLEG___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BDA70)
-#define PCOECPCKLEG___C__DISPLAYCLASS7_0__ADDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1C7BDF80)
+#define PCOECPCKLEG___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B09F290)
+#define PCOECPCKLEG___C__DISPLAYCLASS7_0__ADDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1B09F7A0)
 
-inline static constexpr unsigned int PCOECPCKLEG___c__DisplayClass7_0_TypeDefinitionIndex = 37289;
+inline static constexpr unsigned int PCOECPCKLEG___c__DisplayClass7_0_TypeDefinitionIndex = 38217;
 
 	class PCOECPCKLEG___c__DisplayClass7_0 : public ::System::Object
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeV2SpecialRuleRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82FD50)
-#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82FB90)
+#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB64090)
+#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB63ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2SpecialRuleRow_TypeDefinitionIndex = 11934;
+	inline static constexpr unsigned int MatchThreeV2SpecialRuleRow_TypeDefinitionIndex = 11991;
 
 	class MatchThreeV2SpecialRuleRow : public ::System::Object
 	{

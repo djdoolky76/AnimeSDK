@@ -5,7 +5,7 @@ namespace ObservableCollections { template <typename T> class IObservableCollect
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableCollectionChanged_1_TypeDefinitionIndex = 41365;
+	inline static constexpr unsigned int ObservableCollectionChanged_1_TypeDefinitionIndex = 42340;
 
 	template <typename T>
 	class ObservableCollectionChanged_1

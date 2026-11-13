@@ -5,11 +5,11 @@ namespace RPGTools::Timeline { class CharacterBodyControlData; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define BJIFEEEDFAO_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xB79C2C0)
-#define BJIFEEEDFAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB79C6C0)
-#define BJIFEEEDFAO_OBCKIOEGOGL_OFFSET UNITYSDK_OFFSET(0xB79C540)
+#define BJIFEEEDFAO_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x1A6349C0)
+#define BJIFEEEDFAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A634DC0)
+#define BJIFEEEDFAO_OBCKIOEGOGL_OFFSET UNITYSDK_OFFSET(0x1A634C40)
 
-inline static constexpr unsigned int BJIFEEEDFAO_TypeDefinitionIndex = 47937;
+inline static constexpr unsigned int BJIFEEEDFAO_TypeDefinitionIndex = 48968;
 
 	class BJIFEEEDFAO : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

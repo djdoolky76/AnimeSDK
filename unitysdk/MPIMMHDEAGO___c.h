@@ -4,18 +4,18 @@
 class MPIMMHDEAGO;
 namespace System { class Object; }
 
-#define MPIMMHDEAGO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA8C320)
-#define MPIMMHDEAGO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8C360)
-#define MPIMMHDEAGO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EA8C370)
+#define MPIMMHDEAGO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201412C0)
+#define MPIMMHDEAGO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20141300)
+#define MPIMMHDEAGO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x20141310)
 
-inline static constexpr unsigned int MPIMMHDEAGO___c_TypeDefinitionIndex = 31124;
+inline static constexpr unsigned int MPIMMHDEAGO___c_TypeDefinitionIndex = 32037;
 
 	class MPIMMHDEAGO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BCB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55BC0);
 		}
 
 		static ::System::Void _cctor()

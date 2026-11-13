@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RandomSelectMuseumStuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BMFFALCIJBN_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA0620)
-#define BMFFALCIJBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDA0650)
+#define BMFFALCIJBN_CTOR_OFFSET UNITYSDK_OFFSET(0x18B7C0D0)
+#define BMFFALCIJBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18B7C100)
 
-inline static constexpr unsigned int BMFFALCIJBN_TypeDefinitionIndex = 53194;
+inline static constexpr unsigned int BMFFALCIJBN_TypeDefinitionIndex = 54356;
 
 	class BMFFALCIJBN
 	{

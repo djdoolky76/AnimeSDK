@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int DNKAAIFEKNP_IEBCPOIDMDG_TypeDefinitionIndex = 59988;
+inline static constexpr unsigned int DNKAAIFEKNP_IEBCPOIDMDG_TypeDefinitionIndex = 61272;
 
 	struct alignas(8) DNKAAIFEKNP_IEBCPOIDMDG
 	{

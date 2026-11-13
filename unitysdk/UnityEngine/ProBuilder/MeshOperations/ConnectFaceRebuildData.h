@@ -4,11 +4,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class FaceRebuildData; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTFACEREBUILDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1EAC70)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTFACEREBUILDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD703600)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ConnectFaceRebuildData_TypeDefinitionIndex = 44484;
+	inline static constexpr unsigned int ConnectFaceRebuildData_TypeDefinitionIndex = 45559;
 
 	class ConnectFaceRebuildData : public ::System::Object
 	{

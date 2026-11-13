@@ -4,12 +4,12 @@
 class HJFCEEBAGMF;
 namespace RPG::Client { class FateBuffSlotData; }
 
-#define RPG_CLIENT_FATESTATISTICSGAMESETTLEDATAITEM___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFCEE70)
-#define RPG_CLIENT_FATESTATISTICSGAMESETTLEDATAITEM___C__DISPLAYCLASS7_0___SYNCBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xCFCF910)
+#define RPG_CLIENT_FATESTATISTICSGAMESETTLEDATAITEM___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4FE610)
+#define RPG_CLIENT_FATESTATISTICSGAMESETTLEDATAITEM___C__DISPLAYCLASS7_0___SYNCBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1C4FF0B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsGameSettleDataItem___c__DisplayClass7_0_TypeDefinitionIndex = 64130;
+	inline static constexpr unsigned int FateStatisticsGameSettleDataItem___c__DisplayClass7_0_TypeDefinitionIndex = 65575;
 
 	class FateStatisticsGameSettleDataItem___c__DisplayClass7_0 : public ::System::Object
 	{

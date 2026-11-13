@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvNotifyAiSpecialEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JLKPENLPDHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB2493F0)
-#define JLKPENLPDHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB249420)
+#define JLKPENLPDHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A097B70)
+#define JLKPENLPDHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A097BA0)
 
-inline static constexpr unsigned int JLKPENLPDHJ_TypeDefinitionIndex = 52447;
+inline static constexpr unsigned int JLKPENLPDHJ_TypeDefinitionIndex = 53553;
 
 	class JLKPENLPDHJ
 	{

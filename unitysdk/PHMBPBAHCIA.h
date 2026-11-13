@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBattleConditionProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PHMBPBAHCIA_CTOR_OFFSET UNITYSDK_OFFSET(0xC24DEB0)
-#define PHMBPBAHCIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC24E040)
+#define PHMBPBAHCIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B7640)
+#define PHMBPBAHCIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9B77D0)
 
-inline static constexpr unsigned int PHMBPBAHCIA_TypeDefinitionIndex = 58536;
+inline static constexpr unsigned int PHMBPBAHCIA_TypeDefinitionIndex = 59801;
 
 	class PHMBPBAHCIA
 	{

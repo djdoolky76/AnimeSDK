@@ -4,17 +4,17 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define AGIFGJHLPCO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF2C130)
-#define AGIFGJHLPCO_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0xCF2BCD0)
+#define AGIFGJHLPCO_CTOR_OFFSET UNITYSDK_OFFSET(0x18DDCF30)
+#define AGIFGJHLPCO_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0x18DDCAD0)
 
-inline static constexpr unsigned int AGIFGJHLPCO_TypeDefinitionIndex = 67906;
+inline static constexpr unsigned int AGIFGJHLPCO_TypeDefinitionIndex = 69851;
 
 	class AGIFGJHLPCO : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_FPNHGIOHNPA()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)UnitySDK::FromName("", "AGIFGJHLPCO")->GetStaticField(0x4BE20);
+			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)UnitySDK::FromName("", "AGIFGJHLPCO")->GetStaticField(0x4FF80);
 		}
 
 		::System::Void _ctor()

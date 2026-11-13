@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int DispatchMode_TypeDefinitionIndex = 5870;
+	inline static constexpr unsigned int DispatchMode_TypeDefinitionIndex = 5878;
 
 	enum class DispatchMode : ::System::Int32
 	{

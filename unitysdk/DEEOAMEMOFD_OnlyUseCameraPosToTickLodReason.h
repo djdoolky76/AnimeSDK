@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DEEOAMEMOFD_OnlyUseCameraPosToTickLodReason_TypeDefinitionIndex = 57790;
+inline static constexpr unsigned int DEEOAMEMOFD_OnlyUseCameraPosToTickLodReason_TypeDefinitionIndex = 59025;
 
 	enum class DEEOAMEMOFD_OnlyUseCameraPosToTickLodReason : ::System::Int32
 	{
@@ -12,4 +12,5 @@ inline static constexpr unsigned int DEEOAMEMOFD_OnlyUseCameraPosToTickLodReason
 		Chimera = 16,
 		PhotoGraph = 32,
 		B51Racing = 64,
+		LittleGameSandbox = 128,
 	};

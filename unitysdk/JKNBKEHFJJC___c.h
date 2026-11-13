@@ -7,41 +7,41 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JKNBKEHFJJC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C53CF60)
-#define JKNBKEHFJJC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C53CFA0)
-#define JKNBKEHFJJC___C__COUNTPOSITIVE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1C53CFF0)
-#define JKNBKEHFJJC___C__ITERATEALL_B__6_1_OFFSET UNITYSDK_OFFSET(0x1C53CFB0)
-#define JKNBKEHFJJC___C__ITERATEPOSITIVE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C53CFE0)
-#define JKNBKEHFJJC___C__TOSTRING_B__19_0_OFFSET UNITYSDK_OFFSET(0x1C53D000)
+#define JKNBKEHFJJC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A0110)
+#define JKNBKEHFJJC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A0150)
+#define JKNBKEHFJJC___C__COUNTPOSITIVE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1E7A01A0)
+#define JKNBKEHFJJC___C__ITERATEALL_B__6_1_OFFSET UNITYSDK_OFFSET(0x1E7A0160)
+#define JKNBKEHFJJC___C__ITERATEPOSITIVE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1E7A0190)
+#define JKNBKEHFJJC___C__TOSTRING_B__19_0_OFFSET UNITYSDK_OFFSET(0x1E7A01B0)
 
-inline static constexpr unsigned int JKNBKEHFJJC___c_TypeDefinitionIndex = 41731;
+inline static constexpr unsigned int JKNBKEHFJJC___c_TypeDefinitionIndex = 42706;
 
 	class JKNBKEHFJJC___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::String*>** StaticGet___9__19_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x222A0);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Boolean>** StaticGet___9__11_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x222A8);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x222B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10370);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x222B8);
+			return (::System::Func_2<::System::Object*, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10378);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x222C0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10380);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::String*>** StaticGet___9__19_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10388);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Boolean>** StaticGet___9__11_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10390);
 		}
 
 		static ::System::Void _cctor()

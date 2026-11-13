@@ -6,7 +6,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int ResponsiveEnable_Entry_TypeDefinitionIndex = 35386;
+	inline static constexpr unsigned int ResponsiveEnable_Entry_TypeDefinitionIndex = 36314;
 
 	struct alignas(8) ResponsiveEnable_Entry
 	{

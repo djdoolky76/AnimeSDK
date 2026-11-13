@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/ModifierEffectType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHESSROGUEBOARDEVENTNOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCAE5780)
+#define RPG_CLIENT_CHESSROGUEBOARDEVENTNOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D899660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueBoardEventNotifyParam_TypeDefinitionIndex = 66927;
+	inline static constexpr unsigned int ChessRogueBoardEventNotifyParam_TypeDefinitionIndex = 68871;
 
 	class ChessRogueBoardEventNotifyParam : public ::System::Object
 	{
 	public:
-		::System::UInt32 BoardEventID; // 0x10
-		::RPG::GameCore::ModifierEffectType ModifierEffectType; // 0x14
+		::RPG::GameCore::ModifierEffectType ModifierEffectType; // 0x10
+		::System::UInt32 BoardEventID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDEVENTNOTIFYPARAM_CTOR_OFFSET))(this);

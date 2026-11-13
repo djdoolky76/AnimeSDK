@@ -7,13 +7,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MoveTeam; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MOVETEAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88F810)
-#define RPG_GAMECORE_MOVETEAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D88F820)
-#define RPG_GAMECORE_MOVETEAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88F7D0)
+#define RPG_GAMECORE_MOVETEAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4805D0)
+#define RPG_GAMECORE_MOVETEAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4805E0)
+#define RPG_GAMECORE_MOVETEAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E480590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MoveTeam_TypeDefinitionIndex = 22637;
+	inline static constexpr unsigned int MoveTeam_TypeDefinitionIndex = 23059;
 
 	class MoveTeam : public ::RPG::GameCore::TaskConfig
 	{

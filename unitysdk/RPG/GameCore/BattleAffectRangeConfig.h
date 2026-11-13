@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleAffectRangeConfig; }
 
-#define RPG_GAMECORE_BATTLEAFFECTRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D413650)
-#define RPG_GAMECORE_BATTLEAFFECTRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D413490)
+#define RPG_GAMECORE_BATTLEAFFECTRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C307230)
+#define RPG_GAMECORE_BATTLEAFFECTRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C307070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleAffectRangeConfig_TypeDefinitionIndex = 17618;
+	inline static constexpr unsigned int BattleAffectRangeConfig_TypeDefinitionIndex = 17787;
 
 	class BattleAffectRangeConfig : public ::RPG::GameCore::JsonConfig
 	{

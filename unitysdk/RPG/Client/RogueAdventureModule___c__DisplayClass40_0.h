@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class DPEGLPPPAJJ;
 
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDEDF030)
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__REMOVETRIGGEREDACTIONID_B__0_OFFSET UNITYSDK_OFFSET(0xDEE2C90)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BE320)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__REMOVETRIGGEREDACTIONID_B__0_OFFSET UNITYSDK_OFFSET(0x1C7C1E20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueAdventureModule___c__DisplayClass40_0_TypeDefinitionIndex = 67364;
+	inline static constexpr unsigned int RogueAdventureModule___c__DisplayClass40_0_TypeDefinitionIndex = 69308;
 
 	class RogueAdventureModule___c__DisplayClass40_0 : public ::System::Object
 	{

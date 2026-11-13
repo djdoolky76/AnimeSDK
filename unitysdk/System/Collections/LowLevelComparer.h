@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Collections { class LowLevelComparer; }
 
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C09C860)
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C09C5A0)
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C09C590)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1251D0)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E124F10)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E124F00)
 
 namespace System::Collections
 {
@@ -17,7 +17,7 @@ namespace System::Collections
 	public:
 		static ::System::Collections::LowLevelComparer** StaticGet_Default()
 		{
-			return (::System::Collections::LowLevelComparer**)UnitySDK::FromName("System.Collections", "LowLevelComparer")->GetStaticField(0xF010);
+			return (::System::Collections::LowLevelComparer**)UnitySDK::FromName("System.Collections", "LowLevelComparer")->GetStaticField(0xD400);
 		}
 
 		::System::Void _ctor()

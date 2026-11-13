@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByAttackType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PMNONBEMIGO_CTOR_OFFSET UNITYSDK_OFFSET(0xC3212C0)
-#define PMNONBEMIGO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC3212F0)
+#define PMNONBEMIGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1849BFB0)
+#define PMNONBEMIGO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1849BFE0)
 
-inline static constexpr unsigned int PMNONBEMIGO_TypeDefinitionIndex = 54485;
+inline static constexpr unsigned int PMNONBEMIGO_TypeDefinitionIndex = 55649;
 
 	class PMNONBEMIGO
 	{

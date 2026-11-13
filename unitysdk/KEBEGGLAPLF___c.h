@@ -4,18 +4,18 @@
 class KEBEGGLAPLF;
 namespace System { class Object; }
 
-#define KEBEGGLAPLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7DC130)
-#define KEBEGGLAPLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DC160)
-#define KEBEGGLAPLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7DC170)
+#define KEBEGGLAPLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F99C290)
+#define KEBEGGLAPLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F99C2C0)
+#define KEBEGGLAPLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F99C2D0)
 
-inline static constexpr unsigned int KEBEGGLAPLF___c_TypeDefinitionIndex = 34536;
+inline static constexpr unsigned int KEBEGGLAPLF___c_TypeDefinitionIndex = 35464;
 
 	class KEBEGGLAPLF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11200);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA300);
 		}
 
 		static ::System::Void _cctor()

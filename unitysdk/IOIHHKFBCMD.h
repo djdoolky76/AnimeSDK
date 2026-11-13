@@ -4,9 +4,9 @@
 class PDADGGHNJKF;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IOIHHKFBCMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C100)
+#define IOIHHKFBCMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC48F50)
 
-inline static constexpr unsigned int IOIHHKFBCMD_TypeDefinitionIndex = 42836;
+inline static constexpr unsigned int IOIHHKFBCMD_TypeDefinitionIndex = 43817;
 
 	class IOIHHKFBCMD : public ::System::Object
 	{

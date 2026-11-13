@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentExtensions___c__27_1_TypeDefinitionIndex = 72775;
+	inline static constexpr unsigned int ComponentExtensions___c__27_1_TypeDefinitionIndex = 74854;
 
 	template <typename T>
 	class ComponentExtensions___c__27_1 : public ::System::Object

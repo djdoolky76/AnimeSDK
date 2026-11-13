@@ -5,17 +5,17 @@ class FOPJIACKHCC;
 class MBLFLAMBGDH;
 namespace RPG::GameCore { class GameEntity; }
 
-#define MBLFLAMBGDH___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB85A5A0)
-#define MBLFLAMBGDH___C__DISPLAYCLASS3_0__SETFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0xB85BF50)
+#define MBLFLAMBGDH___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B826760)
+#define MBLFLAMBGDH___C__DISPLAYCLASS3_0__SETFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B827E90)
 
-inline static constexpr unsigned int MBLFLAMBGDH___c__DisplayClass3_0_TypeDefinitionIndex = 71535;
+inline static constexpr unsigned int MBLFLAMBGDH___c__DisplayClass3_0_TypeDefinitionIndex = 73521;
 
 	class MBLFLAMBGDH___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* entity; // 0x10
-		::FOPJIACKHCC* follow; // 0x18
-		::MBLFLAMBGDH* __4__this; // 0x20
+		::MBLFLAMBGDH* __4__this; // 0x18
+		::FOPJIACKHCC* follow; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MBLFLAMBGDH___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

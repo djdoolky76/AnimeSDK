@@ -4,9 +4,9 @@
 class GIJPBMMNJKO;
 namespace System { class String; }
 
-#define AIJOILDMIAP_ECIAEOJIOKI_OFFSET UNITYSDK_OFFSET(0xEBA9AF0)
+#define AIJOILDMIAP_ECIAEOJIOKI_OFFSET UNITYSDK_OFFSET(0x19D23830)
 
-inline static constexpr unsigned int AIJOILDMIAP_TypeDefinitionIndex = 74607;
+inline static constexpr unsigned int AIJOILDMIAP_TypeDefinitionIndex = 76755;
 
 	class AIJOILDMIAP : public ::System::Object
 	{

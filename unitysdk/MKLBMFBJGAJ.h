@@ -5,10 +5,10 @@
 class OONGDLIDJJJ;
 namespace RPG::GameCore { class CheckVisionAxis; }
 
-#define MKLBMFBJGAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB997020)
-#define MKLBMFBJGAJ_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB997030)
+#define MKLBMFBJGAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B90B900)
+#define MKLBMFBJGAJ_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x1B90B910)
 
-inline static constexpr unsigned int MKLBMFBJGAJ_TypeDefinitionIndex = 54377;
+inline static constexpr unsigned int MKLBMFBJGAJ_TypeDefinitionIndex = 55541;
 
 	class MKLBMFBJGAJ : public ::BEMKNPIFMBI
 	{

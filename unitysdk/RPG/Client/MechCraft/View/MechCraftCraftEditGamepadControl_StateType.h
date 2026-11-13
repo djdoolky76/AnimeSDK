@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftEditGamepadControl_StateType_TypeDefinitionIndex = 79880;
+	inline static constexpr unsigned int MechCraftCraftEditGamepadControl_StateType_TypeDefinitionIndex = 82657;
 
 	enum class MechCraftCraftEditGamepadControl_StateType : ::System::Int32
 	{

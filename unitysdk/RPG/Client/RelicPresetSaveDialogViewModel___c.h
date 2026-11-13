@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE7B370)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE7B3B0)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__BUILDPLANVIEWMODELS_B__16_0_OFFSET UNITYSDK_OFFSET(0xDE7B3C0)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_0_OFFSET UNITYSDK_OFFSET(0xDE7B400)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_1_OFFSET UNITYSDK_OFFSET(0xDE7B420)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1971AFF0)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1971B030)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__BUILDPLANVIEWMODELS_B__16_0_OFFSET UNITYSDK_OFFSET(0x1971B040)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1971B080)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL___C__GETDISPLAYPLANS_B__17_1_OFFSET UNITYSDK_OFFSET(0x1971B0A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex = 66878;
+	inline static constexpr unsigned int RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex = 68824;
 
 	class RelicPresetSaveDialogViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::RelicPresetPlanData*>** StaticGet___9__16_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::RelicPresetPlanData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D360);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D368);
-		}
-
-		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D370);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F590);
 		}
 
 		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__17_1()
 		{
-			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D378);
+			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F598);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::RelicPresetPlanData*>** StaticGet___9__16_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::RelicPresetPlanData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F5A0);
+		}
+
+		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F5A8);
 		}
 
 		static ::System::Void _cctor()

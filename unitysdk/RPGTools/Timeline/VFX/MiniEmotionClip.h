@@ -11,13 +11,13 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE948200)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9483A0)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9481F0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DA33DE0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA341A0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DA33DD0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int MiniEmotionClip_TypeDefinitionIndex = 48658;
+	inline static constexpr unsigned int MiniEmotionClip_TypeDefinitionIndex = 49704;
 
 	class MiniEmotionClip : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ChimeraDuelChimeraPresetRow; }
 
-#define BBBEMIEOGAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E75900)
-#define BBBEMIEOGAG_FMHKLHAKMKO_OFFSET UNITYSDK_OFFSET(0x15E758C0)
-#define BBBEMIEOGAG_GET__ROW_OFFSET UNITYSDK_OFFSET(0x15E758B0)
+#define BBBEMIEOGAG_CTOR_OFFSET UNITYSDK_OFFSET(0x199EE030)
+#define BBBEMIEOGAG_FMHKLHAKMKO_OFFSET UNITYSDK_OFFSET(0x199EDFF0)
+#define BBBEMIEOGAG_GET__ROW_OFFSET UNITYSDK_OFFSET(0x199EDFE0)
 
-inline static constexpr unsigned int BBBEMIEOGAG_TypeDefinitionIndex = 63355;
+inline static constexpr unsigned int BBBEMIEOGAG_TypeDefinitionIndex = 64793;
 
 	class BBBEMIEOGAG : public ::System::Object
 	{

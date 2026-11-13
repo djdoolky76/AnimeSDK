@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NNLOPBCELBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C946500)
+#define NNLOPBCELBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E054BE0)
 
-inline static constexpr unsigned int NNLOPBCELBL_TypeDefinitionIndex = 42333;
+inline static constexpr unsigned int NNLOPBCELBL_TypeDefinitionIndex = 43308;
 
 	class NNLOPBCELBL : public ::System::Object
 	{

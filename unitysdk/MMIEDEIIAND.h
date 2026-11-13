@@ -10,22 +10,22 @@ namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MMIEDEIIAND_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C98C0)
-#define MMIEDEIIAND_DDGKJNMINPL_1_OFFSET UNITYSDK_OFFSET(0xB9CA330)
-#define MMIEDEIIAND_DDGKJNMINPL_OFFSET UNITYSDK_OFFSET(0xB9C9D30)
-#define MMIEDEIIAND_HIPMAGHGNBK_OFFSET UNITYSDK_OFFSET(0xB9CA660)
-#define MMIEDEIIAND_OOCGNGDBNNN_1_OFFSET UNITYSDK_OFFSET(0xB9C9FB0)
-#define MMIEDEIIAND_OOCGNGDBNNN_OFFSET UNITYSDK_OFFSET(0xB9C99A0)
-#define MMIEDEIIAND_PGCJBDEHIHO_OFFSET UNITYSDK_OFFSET(0xB9CA9A0)
+#define MMIEDEIIAND_CTOR_OFFSET UNITYSDK_OFFSET(0x188F7E20)
+#define MMIEDEIIAND_DDGKJNMINPL_1_OFFSET UNITYSDK_OFFSET(0x188F8890)
+#define MMIEDEIIAND_DDGKJNMINPL_OFFSET UNITYSDK_OFFSET(0x188F8290)
+#define MMIEDEIIAND_HIPMAGHGNBK_OFFSET UNITYSDK_OFFSET(0x188F8BC0)
+#define MMIEDEIIAND_OOCGNGDBNNN_1_OFFSET UNITYSDK_OFFSET(0x188F8510)
+#define MMIEDEIIAND_OOCGNGDBNNN_OFFSET UNITYSDK_OFFSET(0x188F7F00)
+#define MMIEDEIIAND_PGCJBDEHIHO_OFFSET UNITYSDK_OFFSET(0x188F8F00)
 
-inline static constexpr unsigned int MMIEDEIIAND_TypeDefinitionIndex = 81216;
+inline static constexpr unsigned int MMIEDEIIAND_TypeDefinitionIndex = 83996;
 
 	class MMIEDEIIAND : public ::System::Object
 	{
 	public:
-		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x10
-		::JJNNAGMLCIC* HEJEGOGBFMP; // 0x18
-		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* JKMKALIDPJH; // 0x20
+		::JJNNAGMLCIC* HEJEGOGBFMP; // 0x10
+		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* JKMKALIDPJH; // 0x18
+		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x20
 		::System::Void _ctor(::JJNNAGMLCIC* a1, ::RPG::Client::FateRin::Logging::ILoggerFactory* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::JJNNAGMLCIC*, ::RPG::Client::FateRin::Logging::ILoggerFactory*))((::PBYTE)hIl2Cpp + MMIEDEIIAND_CTOR_OFFSET))(this, a1, a2);

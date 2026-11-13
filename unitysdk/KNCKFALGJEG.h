@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DeployPuzzleChangeBoardState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KNCKFALGJEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB575C70)
-#define KNCKFALGJEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB575CA0)
+#define KNCKFALGJEG_CTOR_OFFSET UNITYSDK_OFFSET(0x18F9DF90)
+#define KNCKFALGJEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F9DFC0)
 
-inline static constexpr unsigned int KNCKFALGJEG_TypeDefinitionIndex = 58068;
+inline static constexpr unsigned int KNCKFALGJEG_TypeDefinitionIndex = 59307;
 
 	class KNCKFALGJEG
 	{

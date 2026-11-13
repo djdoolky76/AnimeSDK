@@ -4,31 +4,31 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F63B7A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F63B7E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C___CTOR_B__76_0_OFFSET UNITYSDK_OFFSET(0x1F63B7F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C___CTOR_B__76_1_OFFSET UNITYSDK_OFFSET(0x1F63B800)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1BAAF0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1BAB30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C___CTOR_B__76_0_OFFSET UNITYSDK_OFFSET(0x1F1BAB40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C___CTOR_B__76_1_OFFSET UNITYSDK_OFFSET(0x1F1BAB50)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PointerUIBase___c_TypeDefinitionIndex = 39483;
+	inline static constexpr unsigned int PointerUIBase___c_TypeDefinitionIndex = 40412;
 
 	class PointerUIBase___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x47030);
+		}
+
 		static ::System::Action** StaticGet___9__76_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x45AB0);
+			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x47038);
 		}
 
 		static ::System::Action** StaticGet___9__76_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x45AB8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x45AC0);
+			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x47040);
 		}
 
 		static ::System::Void _cctor()

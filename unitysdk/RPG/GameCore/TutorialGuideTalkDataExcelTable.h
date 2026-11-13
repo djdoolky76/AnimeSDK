@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC3E740)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DC3E5B0)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DC3E440)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DC3E360)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DC3E3E0)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DC3D9A0)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DC3D9E0)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DC3DC10)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC3DDE0)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DC3DFF0)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DC3DD40)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DC3DCA0)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E347A70)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E3478E0)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E347770)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E347690)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E347710)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E346CD0)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E346D10)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E346F40)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E347110)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E347320)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E347070)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E346FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideTalkDataExcelTable_TypeDefinitionIndex = 15389;
+	inline static constexpr unsigned int TutorialGuideTalkDataExcelTable_TypeDefinitionIndex = 15545;
 
 	class TutorialGuideTalkDataExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x261C0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x2B010);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TutorialGuideTalkDataRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TutorialGuideTalkDataRow*>**)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x261C8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TutorialGuideTalkDataRow*>**)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x2B018);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x261D0);
-		}
-
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x82F0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x2B020);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x82F1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x8B40);
+		}
+
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "TutorialGuideTalkDataExcelTable")->GetStaticField(0x8B41);
 		}
 
 		static ::System::Void _cctor()

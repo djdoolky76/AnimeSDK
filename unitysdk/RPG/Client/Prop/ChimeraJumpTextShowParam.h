@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_CHIMERAJUMPTEXTSHOWPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xDC73130)
+#define RPG_CLIENT_PROP_CHIMERAJUMPTEXTSHOWPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E8E10)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraJumpTextShowParam_TypeDefinitionIndex = 78418;
+	inline static constexpr unsigned int ChimeraJumpTextShowParam_TypeDefinitionIndex = 81153;
 
 	class ChimeraJumpTextShowParam : public ::System::Object
 	{

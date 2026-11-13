@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1674A270)
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1674A2B0)
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1674A2C0)
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1674A580)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20851510)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20851550)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x20851560)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x20851820)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex = 9994;
+	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex = 10002;
 
 	class ContextStillHasRetainedEntitiesException___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("Entitas", "<>c")->GetStaticField(0x3B480);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Entitas", "<>c")->GetStaticField(0x3B488);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("Entitas", "<>c")->GetStaticField(0x310E0);
 		}
 
 		static ::System::Func_2<::Entitas::IEntity*, ::System::String*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::Entitas::IEntity*, ::System::String*>**)UnitySDK::FromName("Entitas", "<>c")->GetStaticField(0x3B490);
+			return (::System::Func_2<::Entitas::IEntity*, ::System::String*>**)UnitySDK::FromName("Entitas", "<>c")->GetStaticField(0x310E8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Entitas", "<>c")->GetStaticField(0x310F0);
 		}
 
 		static ::System::Void _cctor()

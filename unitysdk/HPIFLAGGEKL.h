@@ -4,10 +4,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class GridFightRole; }
 
-#define HPIFLAGGEKL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC18B0)
-#define HPIFLAGGEKL_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0x15DC1860)
+#define HPIFLAGGEKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3B930)
+#define HPIFLAGGEKL_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0x1AF3B8E0)
 
-inline static constexpr unsigned int HPIFLAGGEKL_TypeDefinitionIndex = 65191;
+inline static constexpr unsigned int HPIFLAGGEKL_TypeDefinitionIndex = 66888;
 
 	class HPIFLAGGEKL : public ::DLKIJPKFOFO
 	{

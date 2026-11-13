@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GAANBJEPKKG_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x15929000)
+#define GAANBJEPKKG_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1B8643F0)
 
-inline static constexpr unsigned int GAANBJEPKKG_TypeDefinitionIndex = 49474;
+inline static constexpr unsigned int GAANBJEPKKG_TypeDefinitionIndex = 50550;
 
 	class GAANBJEPKKG : public ::System::Object
 	{

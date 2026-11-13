@@ -6,10 +6,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelNpcLeaveNode; }
 
-#define LEBPPFADNNF_CTOR_OFFSET UNITYSDK_OFFSET(0xB6450A0)
-#define LEBPPFADNNF_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB644FC0)
+#define LEBPPFADNNF_CTOR_OFFSET UNITYSDK_OFFSET(0x18C2B150)
+#define LEBPPFADNNF_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x18C2B070)
 
-inline static constexpr unsigned int LEBPPFADNNF_TypeDefinitionIndex = 77689;
+inline static constexpr unsigned int LEBPPFADNNF_TypeDefinitionIndex = 80424;
 
 	class LEBPPFADNNF : public ::HBLDGJCDJPF
 	{

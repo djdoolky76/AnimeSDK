@@ -9,25 +9,25 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define JDFLPJDIAPD_CTOR_OFFSET UNITYSDK_OFFSET(0x165B3A90)
-#define JDFLPJDIAPD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x165B3FF0)
-#define JDFLPJDIAPD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x165B3E20)
-#define JDFLPJDIAPD_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x165B3F10)
-#define JDFLPJDIAPD_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x165B3AD0)
+#define JDFLPJDIAPD_CTOR_OFFSET UNITYSDK_OFFSET(0x169855D0)
+#define JDFLPJDIAPD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x16985B20)
+#define JDFLPJDIAPD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x16985950)
+#define JDFLPJDIAPD_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x16985A40)
+#define JDFLPJDIAPD_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x16985610)
 
-inline static constexpr unsigned int JDFLPJDIAPD_TypeDefinitionIndex = 79090;
+inline static constexpr unsigned int JDFLPJDIAPD_TypeDefinitionIndex = 81866;
 
 	class JDFLPJDIAPD : public ::System::Object
 	{
 	public:
-		::LEEEMFAEDLN* EPKIDMNCGAA; // 0x10
-		::UnityEngine::GameObject* LBNBPMIFDHI; // 0x18
-		::UnityEngine::Transform* GKNBCPMJHMN; // 0x20
-		::JEHEMLENCIE* OLNEEDIAGBF; // 0x28
-		::System::String* OINCGJJMAEF; // 0x30
+		::UnityEngine::GameObject* LBNBPMIFDHI; // 0x10
+		::JEHEMLENCIE* OLNEEDIAGBF; // 0x18
+		::System::String* OINCGJJMAEF; // 0x20
+		::LEEEMFAEDLN* EPKIDMNCGAA; // 0x28
+		::UnityEngine::Transform* GKNBCPMJHMN; // 0x30
 		::UnityEngine::Vector3 BNMMHILFJDD; // 0x38
-		::System::Single HBDJCFFDGDD; // 0x44
-		::UnityEngine::Vector3 AOBKAEDDOBC; // 0x48
+		::UnityEngine::Vector3 AOBKAEDDOBC; // 0x44
+		::System::Single HBDJCFFDGDD; // 0x50
 		::System::Void _ctor(::System::String* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::UnityEngine::Transform* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + JDFLPJDIAPD_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

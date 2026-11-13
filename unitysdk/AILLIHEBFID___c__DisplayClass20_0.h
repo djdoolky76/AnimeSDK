@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/DCHICFMEANN.h"
 
-#define AILLIHEBFID___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBAD020)
-#define AILLIHEBFID___C__DISPLAYCLASS20_0___ONSELFMARBLESELECTEDREQUESTED_B__0_OFFSET UNITYSDK_OFFSET(0xEBADDB0)
+#define AILLIHEBFID___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19D27130)
+#define AILLIHEBFID___C__DISPLAYCLASS20_0___ONSELFMARBLESELECTEDREQUESTED_B__0_OFFSET UNITYSDK_OFFSET(0x19D27E90)
 
-inline static constexpr unsigned int AILLIHEBFID___c__DisplayClass20_0_TypeDefinitionIndex = 74726;
+inline static constexpr unsigned int AILLIHEBFID___c__DisplayClass20_0_TypeDefinitionIndex = 76874;
 
 	class AILLIHEBFID___c__DisplayClass20_0 : public ::System::Object
 	{

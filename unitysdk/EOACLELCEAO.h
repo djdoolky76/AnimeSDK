@@ -4,10 +4,10 @@
 class KAANKGHDHCB;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define EOACLELCEAO_CTOR_OFFSET UNITYSDK_OFFSET(0x155AC0B0)
-#define EOACLELCEAO_MBOIPCKGKPE_OFFSET UNITYSDK_OFFSET(0x155AC010)
+#define EOACLELCEAO_CTOR_OFFSET UNITYSDK_OFFSET(0x188178E0)
+#define EOACLELCEAO_MBOIPCKGKPE_OFFSET UNITYSDK_OFFSET(0x18817840)
 
-inline static constexpr unsigned int EOACLELCEAO_TypeDefinitionIndex = 82264;
+inline static constexpr unsigned int EOACLELCEAO_TypeDefinitionIndex = 85137;
 
 	class EOACLELCEAO : public ::NMBPFIMKHLA
 	{

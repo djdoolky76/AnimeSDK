@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define EKBGEFFPJGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA268A0)
+#define EKBGEFFPJGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4EA580)
 
-inline static constexpr unsigned int EKBGEFFPJGI_TypeDefinitionIndex = 42820;
+inline static constexpr unsigned int EKBGEFFPJGI_TypeDefinitionIndex = 43800;
 
 	class EKBGEFFPJGI : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTargetValid; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EOFCKCECPCI_CTOR_OFFSET UNITYSDK_OFFSET(0x155B24E0)
-#define EOFCKCECPCI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155B2510)
+#define EOFCKCECPCI_CTOR_OFFSET UNITYSDK_OFFSET(0x16B20890)
+#define EOFCKCECPCI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16B208C0)
 
-inline static constexpr unsigned int EOFCKCECPCI_TypeDefinitionIndex = 54692;
+inline static constexpr unsigned int EOFCKCECPCI_TypeDefinitionIndex = 55858;
 
 	class EOFCKCECPCI
 	{

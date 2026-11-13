@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitConditionString; }
 
-#define DJGAFEKPLKI_CTOR_OFFSET UNITYSDK_OFFSET(0xF22F4F0)
+#define DJGAFEKPLKI_CTOR_OFFSET UNITYSDK_OFFSET(0x18BE88C0)
 
-inline static constexpr unsigned int DJGAFEKPLKI_TypeDefinitionIndex = 58879;
+inline static constexpr unsigned int DJGAFEKPLKI_TypeDefinitionIndex = 60151;
 
 	class DJGAFEKPLKI : public ::ODKMIIMEEPG
 	{

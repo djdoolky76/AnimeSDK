@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 namespace RPG::Client::MechCraft::View { class MechCraftMechatronView; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPRODUCTUI3DCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD64F630)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPRODUCTUI3DCONTROLBINDER_GET_MECHATRONVIEW_OFFSET UNITYSDK_OFFSET(0xD64F580)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPRODUCTUI3DCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEFE00)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPRODUCTUI3DCONTROLBINDER_GET_MECHATRONVIEW_OFFSET UNITYSDK_OFFSET(0x1DEEFD50)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftProductUI3DControlBinder_TypeDefinitionIndex = 80050;
+	inline static constexpr unsigned int MechCraftProductUI3DControlBinder_TypeDefinitionIndex = 82827;
 
 	class MechCraftProductUI3DControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

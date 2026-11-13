@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomValueType_TypeDefinitionIndex = 10574;
+	inline static constexpr unsigned int CustomValueType_TypeDefinitionIndex = 10590;
 
 	enum class CustomValueType : ::System::Int32
 	{

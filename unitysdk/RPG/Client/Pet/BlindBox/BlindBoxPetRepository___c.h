@@ -5,25 +5,25 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAA7420)
-#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAA7460)
-#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C__HASCHROMAAPPEARANCE_B__3_1_OFFSET UNITYSDK_OFFSET(0xDAA7470)
+#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1C8FD0)
+#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C9010)
+#define RPG_CLIENT_PET_BLINDBOX_BLINDBOXPETREPOSITORY___C__HASCHROMAAPPEARANCE_B__3_1_OFFSET UNITYSDK_OFFSET(0x1C1C9020)
 
 namespace RPG::Client::Pet::BlindBox
 {
-	inline static constexpr unsigned int BlindBoxPetRepository___c_TypeDefinitionIndex = 75732;
+	inline static constexpr unsigned int BlindBoxPetRepository___c_TypeDefinitionIndex = 78059;
 
 	class BlindBoxPetRepository___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::System::Boolean>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Pet.BlindBox", "<>c")->GetStaticField(0x14B60);
+			return (::System::Func_2<::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Pet.BlindBox", "<>c")->GetStaticField(0x29DB0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Pet.BlindBox", "<>c")->GetStaticField(0x14B68);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Pet.BlindBox", "<>c")->GetStaticField(0x29DB8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define AGALPCLOLOG_CPGOKIHOPMH_OFFSET UNITYSDK_OFFSET(0xCF1E060)
+#define AGALPCLOLOG_CPGOKIHOPMH_OFFSET UNITYSDK_OFFSET(0x18DCDD60)
 
-inline static constexpr unsigned int AGALPCLOLOG_TypeDefinitionIndex = 62709;
+inline static constexpr unsigned int AGALPCLOLOG_TypeDefinitionIndex = 64143;
 
 	class AGALPCLOLOG : public ::System::Object
 	{

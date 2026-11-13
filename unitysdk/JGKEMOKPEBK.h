@@ -3,9 +3,9 @@
 #include "unitysdk/FMNFBBPPCNN.h"
 #include "unitysdk/System/Object.h"
 
-#define JGKEMOKPEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB66450)
+#define JGKEMOKPEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE03B00)
 
-inline static constexpr unsigned int JGKEMOKPEBK_TypeDefinitionIndex = 42277;
+inline static constexpr unsigned int JGKEMOKPEBK_TypeDefinitionIndex = 43252;
 
 	class JGKEMOKPEBK : public ::System::Object
 	{

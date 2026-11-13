@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define IDMGKNGKLDH_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0x2E81550)
+#define IDMGKNGKLDH_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0x3DDA910)
 
-inline static constexpr unsigned int IDMGKNGKLDH_TypeDefinitionIndex = 56920;
+inline static constexpr unsigned int IDMGKNGKLDH_TypeDefinitionIndex = 58144;
 
 	struct alignas(8) IDMGKNGKLDH
 	{

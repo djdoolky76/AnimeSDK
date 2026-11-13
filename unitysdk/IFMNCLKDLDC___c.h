@@ -5,29 +5,29 @@ class HKAJMEMCBLC;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define IFMNCLKDLDC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15F1A290)
-#define IFMNCLKDLDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15F1A2D0)
-#define IFMNCLKDLDC___C__GETRECOMMENDDECK_B__1_0_OFFSET UNITYSDK_OFFSET(0x15F1A2E0)
-#define IFMNCLKDLDC___C___GETMASTERCARDPRESET_B__2_0_OFFSET UNITYSDK_OFFSET(0x15F1A300)
+#define IFMNCLKDLDC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC22710)
+#define IFMNCLKDLDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC22750)
+#define IFMNCLKDLDC___C__GETRECOMMENDDECK_B__1_0_OFFSET UNITYSDK_OFFSET(0x1BC22760)
+#define IFMNCLKDLDC___C___GETMASTERCARDPRESET_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BC22780)
 
-inline static constexpr unsigned int IFMNCLKDLDC___c_TypeDefinitionIndex = 81112;
+inline static constexpr unsigned int IFMNCLKDLDC___c_TypeDefinitionIndex = 83892;
 
 	class IFMNCLKDLDC___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>** StaticGet___9__2_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E410);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E210);
 		}
 
 		static ::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E418);
+			return (::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E218);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>** StaticGet___9__2_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E420);
+			return (::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E220);
 		}
 
 		static ::System::Void _cctor()

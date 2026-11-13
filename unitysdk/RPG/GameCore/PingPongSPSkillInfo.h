@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongSPSkillInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PINGPONGSPSKILLINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EB360)
-#define RPG_GAMECORE_PINGPONGSPSKILLINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8EB1D0)
+#define RPG_GAMECORE_PINGPONGSPSKILLINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE59BF0)
+#define RPG_GAMECORE_PINGPONGSPSKILLINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE59A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongSPSkillInfo_TypeDefinitionIndex = 16982;
+	inline static constexpr unsigned int PingPongSPSkillInfo_TypeDefinitionIndex = 17149;
 
 	class PingPongSPSkillInfo : public ::RPG::GameCore::JsonConfig
 	{

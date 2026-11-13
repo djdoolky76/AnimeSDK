@@ -5,16 +5,16 @@ class NEADDHNBPHB;
 namespace RPG::Client { class BattleUITeamBlockData; }
 namespace RPG::Client { class NullTeamBlockBattleBuffGroupViewData; }
 
-#define LGFFIJLEPGJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB68A980)
+#define LGFFIJLEPGJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1BCA1160)
 
-inline static constexpr unsigned int LGFFIJLEPGJ_TypeDefinitionIndex = 71522;
+inline static constexpr unsigned int LGFFIJLEPGJ_TypeDefinitionIndex = 73507;
 
 	class LGFFIJLEPGJ : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::NullTeamBlockBattleBuffGroupViewData** StaticGet_KEBCHBEFDAE()
 		{
-			return (::RPG::Client::NullTeamBlockBattleBuffGroupViewData**)UnitySDK::FromName("", "LGFFIJLEPGJ")->GetStaticField(0x5F9A0);
+			return (::RPG::Client::NullTeamBlockBattleBuffGroupViewData**)UnitySDK::FromName("", "LGFFIJLEPGJ")->GetStaticField(0x62920);
 		}
 
 		static ::NEADDHNBPHB* BPLPBPMEODA(::RPG::Client::BattleUITeamBlockData* a1)

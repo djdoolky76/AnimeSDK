@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareQuestGetReward; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NIJBCFPHMMD_CTOR_OFFSET UNITYSDK_OFFSET(0xBBE7520)
-#define NIJBCFPHMMD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBE7550)
+#define NIJBCFPHMMD_CTOR_OFFSET UNITYSDK_OFFSET(0x148C6330)
+#define NIJBCFPHMMD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x148C6360)
 
-inline static constexpr unsigned int NIJBCFPHMMD_TypeDefinitionIndex = 53135;
+inline static constexpr unsigned int NIJBCFPHMMD_TypeDefinitionIndex = 54297;
 
 	class NIJBCFPHMMD
 	{

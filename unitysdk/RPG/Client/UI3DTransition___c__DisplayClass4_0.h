@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IUI3DController; }
 
-#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE35CF50)
-#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS4_0__EXECUTEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0xE35D7E0)
+#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E6290)
+#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS4_0__EXECUTEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x1A0E6B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DTransition___c__DisplayClass4_0_TypeDefinitionIndex = 73011;
+	inline static constexpr unsigned int UI3DTransition___c__DisplayClass4_0_TypeDefinitionIndex = 75123;
 
 	class UI3DTransition___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Threading { class ReaderWriterCount; }
 
-#define SYSTEM_THREADING_READERWRITERCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE0FB20)
+#define SYSTEM_THREADING_READERWRITERCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x208B53F0)
 
 namespace System::Threading
 {

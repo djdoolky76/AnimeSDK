@@ -11,7 +11,7 @@ namespace System
 	public:
 		static ::System::Boolean* StaticGet_DontThrowOnInvalidSurrogatePairs()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "LocalAppContextSwitches")->GetStaticField(0x7C40);
+			return (::System::Boolean*)UnitySDK::FromName("System", "LocalAppContextSwitches")->GetStaticField(0x8570);
 		}
 
 	};

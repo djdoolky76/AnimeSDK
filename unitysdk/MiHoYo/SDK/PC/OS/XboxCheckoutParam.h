@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXCHECKOUTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF17890)
+#define MIHOYO_SDK_PC_OS_XBOXCHECKOUTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF93F30)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxCheckoutParam_TypeDefinitionIndex = 8658;
+	inline static constexpr unsigned int XboxCheckoutParam_TypeDefinitionIndex = 8667;
 
 	class XboxCheckoutParam : public ::System::Object
 	{

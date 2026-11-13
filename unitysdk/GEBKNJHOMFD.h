@@ -5,11 +5,11 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GEBKNJHOMFD_AKEINJEDMBK_OFFSET UNITYSDK_OFFSET(0x159BC2A0)
-#define GEBKNJHOMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x159BBBF0)
-#define GEBKNJHOMFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159BBC20)
+#define GEBKNJHOMFD_AKEINJEDMBK_OFFSET UNITYSDK_OFFSET(0x17CC9650)
+#define GEBKNJHOMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x17CC8FA0)
+#define GEBKNJHOMFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CC8FD0)
 
-inline static constexpr unsigned int GEBKNJHOMFD_TypeDefinitionIndex = 55224;
+inline static constexpr unsigned int GEBKNJHOMFD_TypeDefinitionIndex = 56405;
 
 	class GEBKNJHOMFD
 	{

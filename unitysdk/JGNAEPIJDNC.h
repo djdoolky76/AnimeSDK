@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JGNAEPIJDNC_TypeDefinitionIndex = 33476;
+inline static constexpr unsigned int JGNAEPIJDNC_TypeDefinitionIndex = 34391;
 
 	enum class JGNAEPIJDNC : ::System::Int32
 	{

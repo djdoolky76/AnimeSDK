@@ -4,10 +4,10 @@
 class KICHJEFBCIH;
 namespace RPG::GameCore { class FiveDimDashOrbConfig; }
 
-#define MLFECPOBGHM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8FE5B0)
-#define MLFECPOBGHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FE610)
+#define MLFECPOBGHM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C263700)
+#define MLFECPOBGHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C263760)
 
-inline static constexpr unsigned int MLFECPOBGHM_TypeDefinitionIndex = 43510;
+inline static constexpr unsigned int MLFECPOBGHM_TypeDefinitionIndex = 44492;
 
 	class MLFECPOBGHM : public ::System::Object
 	{

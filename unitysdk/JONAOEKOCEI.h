@@ -13,87 +13,87 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define JONAOEKOCEI_APOPHIOCKJD_OFFSET UNITYSDK_OFFSET(0xB2A3B30)
-#define JONAOEKOCEI_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2A5BD0)
-#define JONAOEKOCEI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A2F90)
-#define JONAOEKOCEI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2A3160)
-#define JONAOEKOCEI_EBEJJPEHLKG_OFFSET UNITYSDK_OFFSET(0xB2A42C0)
-#define JONAOEKOCEI_FDPDCNKMBBP_OFFSET UNITYSDK_OFFSET(0xB2A38C0)
-#define JONAOEKOCEI_IGEIDPNEPGL_OFFSET UNITYSDK_OFFSET(0xB2A3910)
-#define JONAOEKOCEI_KDCFNLFAKKN_OFFSET UNITYSDK_OFFSET(0xB2A3CF0)
-#define JONAOEKOCEI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB2A33D0)
-#define JONAOEKOCEI_KNMOGIELNHH_OFFSET UNITYSDK_OFFSET(0xB2A40F0)
-#define JONAOEKOCEI_LOPICLODLIG_OFFSET UNITYSDK_OFFSET(0xB2A3C90)
-#define JONAOEKOCEI_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB2A3370)
-#define JONAOEKOCEI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB2A4FA0)
+#define JONAOEKOCEI_APOPHIOCKJD_OFFSET UNITYSDK_OFFSET(0x1B4E5D60)
+#define JONAOEKOCEI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4E7E00)
+#define JONAOEKOCEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E51C0)
+#define JONAOEKOCEI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B4E5390)
+#define JONAOEKOCEI_EBEJJPEHLKG_OFFSET UNITYSDK_OFFSET(0x1B4E64F0)
+#define JONAOEKOCEI_FDPDCNKMBBP_OFFSET UNITYSDK_OFFSET(0x1B4E5AF0)
+#define JONAOEKOCEI_IGEIDPNEPGL_OFFSET UNITYSDK_OFFSET(0x1B4E5B40)
+#define JONAOEKOCEI_KDCFNLFAKKN_OFFSET UNITYSDK_OFFSET(0x1B4E5F20)
+#define JONAOEKOCEI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1B4E5600)
+#define JONAOEKOCEI_KNMOGIELNHH_OFFSET UNITYSDK_OFFSET(0x1B4E6320)
+#define JONAOEKOCEI_LOPICLODLIG_OFFSET UNITYSDK_OFFSET(0x1B4E5EC0)
+#define JONAOEKOCEI_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1B4E55A0)
+#define JONAOEKOCEI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1B4E71D0)
 
-inline static constexpr unsigned int JONAOEKOCEI_TypeDefinitionIndex = 60181;
+inline static constexpr unsigned int JONAOEKOCEI_TypeDefinitionIndex = 61465;
 
 	class JONAOEKOCEI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* HGCNLFIMDKL; // 0x10
-		::RPG::GameCore::GameEntity* KDCHKNNCNLC; // 0x18
-		::JONAOEKOCEI_CAEJNKICJLN* GBBPKOEKFKP; // 0x20
-		::System::Collections::Generic::List_1<::System::Object*>* GECAOGJCCBE; // 0x28
-		::System::Collections::Generic::List_1<::System::String*>* KFJCCHGKIDB; // 0x30
-		::System::Collections::Generic::List_1<::System::Object*>* BAIENHLAKDL; // 0x38
+		::RPG::GameCore::GameEntity* KDCHKNNCNLC; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* BAIENHLAKDL; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* GECAOGJCCBE; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* HGCNLFIMDKL; // 0x28
+		::UnityEngine::GameObject* PHLIBDMIHHP; // 0x30
+		::UnityEngine::Transform* CDGPBICDJEO; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>* BKLHLKGDFNK; // 0x40
-		::UnityEngine::GameObject* PHLIBDMIHHP; // 0x48
-		::UnityEngine::Transform* CDGPBICDJEO; // 0x50
-		::UnityEngine::Vector3 AHAJBOAPBMC; // 0x58
-		::System::Nullable_1<::UnityEngine::Vector3> PAIBLILBHKH; // 0x64
+		::JONAOEKOCEI_CAEJNKICJLN* GBBPKOEKFKP; // 0x48
+		::System::Collections::Generic::List_1<::System::String*>* KFJCCHGKIDB; // 0x50
+		::System::Single LJEOPKOBAGF; // 0x58
+		::System::Int32 PJHBEBBPKDG; // 0x5C
+		::System::Nullable_1<::UnityEngine::Vector3> PAIBLILBHKH; // 0x60
 		::System::Byte _padding0[0x8];
-		::System::Single LJEOPKOBAGF; // 0x74
-		::System::Int32 PJHBEBBPKDG; // 0x78
-		static ::System::String** StaticGet_CEODFDGHPPO()
+		::UnityEngine::Vector3 AHAJBOAPBMC; // 0x70
+		static ::System::String** StaticGet_ICEBBOPPAOH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x25050);
+			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x29770);
 		}
 
 		static ::System::String** StaticGet_CJNOIBEOAFA()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x25058);
+			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x29778);
 		}
 
 		static ::System::String** StaticGet_JMPCCDNCODM()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x25060);
+			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x29780);
 		}
 
-		static ::System::String** StaticGet_ICEBBOPPAOH()
+		static ::System::String** StaticGet_CEODFDGHPPO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x25068);
-		}
-
-		static ::System::Int32* StaticGet_IKGNGKCPPLJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x7FC0);
+			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x29788);
 		}
 
 		static ::System::Int32* StaticGet_MLEDIEKPADF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x7FC4);
-		}
-
-		static ::System::Single* StaticGet_FFJKBNAHAFA()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x7FC8);
-		}
-
-		static ::System::Int32* StaticGet_MMEKAEBKHGC()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x7FCC);
+			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x86C0);
 		}
 
 		static ::System::Int32* StaticGet_JDILJDFJBMM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x7FD0);
+			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x86C4);
+		}
+
+		static ::System::Int32* StaticGet_IKGNGKCPPLJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x86C8);
+		}
+
+		static ::System::Int32* StaticGet_MMEKAEBKHGC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x86CC);
+		}
+
+		static ::System::Single* StaticGet_FFJKBNAHAFA()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x86D0);
 		}
 
 		static ::System::Int32* StaticGet_BBCJKGPEPAF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x7FD4);
+			return (::System::Int32*)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x86D4);
 		}
 
 		::System::Void _ctor(::UnityEngine::Transform* a1)

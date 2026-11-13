@@ -4,10 +4,10 @@
 class BPJGFDAOCKG;
 namespace System { class String; }
 
-#define APNOMCNDKBJ_BHAFIIMIFNK_OFFSET UNITYSDK_OFFSET(0x15BB3710)
-#define APNOMCNDKBJ_FBGEOJGDFPL_OFFSET UNITYSDK_OFFSET(0x15BB37F0)
+#define APNOMCNDKBJ_BHAFIIMIFNK_OFFSET UNITYSDK_OFFSET(0x18519370)
+#define APNOMCNDKBJ_FBGEOJGDFPL_OFFSET UNITYSDK_OFFSET(0x18519450)
 
-inline static constexpr unsigned int APNOMCNDKBJ_TypeDefinitionIndex = 82094;
+inline static constexpr unsigned int APNOMCNDKBJ_TypeDefinitionIndex = 84967;
 
 	class APNOMCNDKBJ : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class KHENECNMFPI;
 namespace System { class Object; }
 
-#define KHENECNMFPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8142B0)
-#define KHENECNMFPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8142E0)
-#define KHENECNMFPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8142F0)
+#define KHENECNMFPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F551280)
+#define KHENECNMFPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5512B0)
+#define KHENECNMFPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F5512C0)
 
-inline static constexpr unsigned int KHENECNMFPI___c_TypeDefinitionIndex = 26522;
+inline static constexpr unsigned int KHENECNMFPI___c_TypeDefinitionIndex = 27053;
 
 	class KHENECNMFPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15EF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10BB0);
 		}
 
 		static ::System::Void _cctor()

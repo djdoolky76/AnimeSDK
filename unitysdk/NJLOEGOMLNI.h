@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareHipplenEnergy; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJLOEGOMLNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBC14AC0)
-#define NJLOEGOMLNI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC14AF0)
+#define NJLOEGOMLNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A796FF0)
+#define NJLOEGOMLNI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A797020)
 
-inline static constexpr unsigned int NJLOEGOMLNI_TypeDefinitionIndex = 52268;
+inline static constexpr unsigned int NJLOEGOMLNI_TypeDefinitionIndex = 53374;
 
 	class NJLOEGOMLNI
 	{

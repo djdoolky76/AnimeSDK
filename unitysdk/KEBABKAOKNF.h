@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByMazeSkillUseCheck; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KEBABKAOKNF_CTOR_OFFSET UNITYSDK_OFFSET(0xB368FB0)
-#define KEBABKAOKNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB368FE0)
+#define KEBABKAOKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D2EF0)
+#define KEBABKAOKNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B5D2F20)
 
-inline static constexpr unsigned int KEBABKAOKNF_TypeDefinitionIndex = 54471;
+inline static constexpr unsigned int KEBABKAOKNF_TypeDefinitionIndex = 55635;
 
 	class KEBABKAOKNF
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SCENELIGHTMANAGERCONFIGDATA_STAGEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9548B0)
+#define SCENELIGHTMANAGERCONFIGDATA_STAGEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA40690)
 
-inline static constexpr unsigned int SceneLightManagerConfigData_StageData_TypeDefinitionIndex = 47388;
+inline static constexpr unsigned int SceneLightManagerConfigData_StageData_TypeDefinitionIndex = 48417;
 
 	class SceneLightManagerConfigData_StageData : public ::System::Object
 	{

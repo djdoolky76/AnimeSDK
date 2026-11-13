@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelPropStateIcon; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPROPSTATEICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79DE00)
-#define RPG_GAMECORE_LEVELPROPSTATEICON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D79DBD0)
+#define RPG_GAMECORE_LEVELPROPSTATEICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24CC20)
+#define RPG_GAMECORE_LEVELPROPSTATEICON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F24C9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPropStateIcon_TypeDefinitionIndex = 17235;
+	inline static constexpr unsigned int LevelPropStateIcon_TypeDefinitionIndex = 17403;
 
 	class LevelPropStateIcon : public ::RPG::GameCore::JsonConfig
 	{

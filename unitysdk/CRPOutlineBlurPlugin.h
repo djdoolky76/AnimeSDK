@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CRPOUTLINEBLURPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD7DC0)
-#define CRPOUTLINEBLURPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDCD7D60)
-#define CRPOUTLINEBLURPLUGIN_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCD7CE0)
+#define CRPOUTLINEBLURPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x19911810)
+#define CRPOUTLINEBLURPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x199117B0)
+#define CRPOUTLINEBLURPLUGIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x19911730)
 
-inline static constexpr unsigned int CRPOutlineBlurPlugin_TypeDefinitionIndex = 47326;
+inline static constexpr unsigned int CRPOutlineBlurPlugin_TypeDefinitionIndex = 48355;
 
 	class CRPOutlineBlurPlugin : public ::UnityEngine::MonoBehaviour
 	{

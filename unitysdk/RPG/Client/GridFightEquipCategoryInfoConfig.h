@@ -6,26 +6,27 @@
 namespace RPG::Client { class GridFightEquipCategoryInfoConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD103DE0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xD103D70)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_GET_CANBEUSEDASCRAFTCOST_OFFSET UNITYSDK_OFFSET(0xD103E80)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_GET_CATEGORYNAME_OFFSET UNITYSDK_OFFSET(0xD103E60)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_GET_EQUIPCATEGORY_OFFSET UNITYSDK_OFFSET(0xD103E40)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_SET_CATEGORYNAME_OFFSET UNITYSDK_OFFSET(0xD103E70)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_SET_EQUIPCATEGORY_OFFSET UNITYSDK_OFFSET(0xD103E50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D16C9A0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x1D16C930)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_GET_CANBEUSEDASCRAFTCOST_OFFSET UNITYSDK_OFFSET(0x1D159AA0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_GET_CATEGORYNAME_OFFSET UNITYSDK_OFFSET(0x1D16CA20)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_GET_EQUIPCATEGORY_OFFSET UNITYSDK_OFFSET(0x1D16CA00)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_SET_CATEGORYNAME_OFFSET UNITYSDK_OFFSET(0x1D16CA30)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCATEGORYINFOCONFIG_SET_EQUIPCATEGORY_OFFSET UNITYSDK_OFFSET(0x1D16CA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCategoryInfoConfig_TypeDefinitionIndex = 64510;
+	inline static constexpr unsigned int GridFightEquipCategoryInfoConfig_TypeDefinitionIndex = 66037;
 
 	class GridFightEquipCategoryInfoConfig : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID _CategoryName_k__BackingField; // 0x10
-		::RPG::GameCore::GridFightEquipCategory _EquipCategory_k__BackingField; // 0x20
+		::RPG::GameCore::GridFightEquipCategory _EquipCategory_k__BackingField; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID _CategoryName_k__BackingField; // 0x18
 		static ::System::Func_2<::RPG::GameCore::GridFightEquipCategory, ::RPG::Client::GridFightEquipCategoryInfoConfig*>** StaticGet_GetConfigImpl()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightEquipCategory, ::RPG::Client::GridFightEquipCategoryInfoConfig*>**)UnitySDK::FromName("RPG.Client", "GridFightEquipCategoryInfoConfig")->GetStaticField(0x68CB0);
+			return (::System::Func_2<::RPG::GameCore::GridFightEquipCategory, ::RPG::Client::GridFightEquipCategoryInfoConfig*>**)UnitySDK::FromName("RPG.Client", "GridFightEquipCategoryInfoConfig")->GetStaticField(0x70C50);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::GridFightEquipCategory a1)

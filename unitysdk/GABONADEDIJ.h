@@ -3,10 +3,10 @@
 class AOOFHMBDLPL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GABONADEDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1592B950)
-#define GABONADEDIJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1592B980)
+#define GABONADEDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B866D40)
+#define GABONADEDIJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B866D70)
 
-inline static constexpr unsigned int GABONADEDIJ_TypeDefinitionIndex = 52932;
+inline static constexpr unsigned int GABONADEDIJ_TypeDefinitionIndex = 54088;
 
 	class GABONADEDIJ
 	{

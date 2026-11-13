@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAnimatingObjectState_TypeDefinitionIndex = 17175;
+	inline static constexpr unsigned int LevelAnimatingObjectState_TypeDefinitionIndex = 17343;
 
 	enum class LevelAnimatingObjectState : ::System::Int32
 	{

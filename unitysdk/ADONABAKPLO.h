@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ADONABAKPLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C84A360)
+#define ADONABAKPLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84E5F0)
 
-inline static constexpr unsigned int ADONABAKPLO_TypeDefinitionIndex = 42981;
+inline static constexpr unsigned int ADONABAKPLO_TypeDefinitionIndex = 43962;
 
 	class ADONABAKPLO : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class LEGPFIAPLOO;
 namespace System { class Object; }
 
-#define LEGPFIAPLOO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9026D0)
-#define LEGPFIAPLOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E902710)
-#define LEGPFIAPLOO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E902720)
+#define LEGPFIAPLOO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F81E9A0)
+#define LEGPFIAPLOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F81E9E0)
+#define LEGPFIAPLOO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F81E9F0)
 
-inline static constexpr unsigned int LEGPFIAPLOO___c_TypeDefinitionIndex = 29479;
+inline static constexpr unsigned int LEGPFIAPLOO___c_TypeDefinitionIndex = 30205;
 
 	class LEGPFIAPLOO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31710);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F8F0);
 		}
 
 		static ::System::Void _cctor()

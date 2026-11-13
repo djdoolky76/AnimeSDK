@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HAFJLNJDEGI_PhotoGraphSwipeCameraState_TypeDefinitionIndex = 69667;
+inline static constexpr unsigned int HAFJLNJDEGI_PhotoGraphSwipeCameraState_TypeDefinitionIndex = 71624;
 
 	enum class HAFJLNJDEGI_PhotoGraphSwipeCameraState : ::System::Int32
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnbasedPluginBase_1_TypeDefinitionIndex = 56243;
+	inline static constexpr unsigned int TurnbasedPluginBase_1_TypeDefinitionIndex = 57457;
 
 	template <typename T>
 	class TurnbasedPluginBase_1 : public ::System::Object

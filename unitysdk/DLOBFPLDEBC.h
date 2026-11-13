@@ -9,26 +9,26 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DLOBFPLDEBC_ALLGGMNBKLE_OFFSET UNITYSDK_OFFSET(0xF8B6150)
-#define DLOBFPLDEBC_BNKEFJGIIHK_OFFSET UNITYSDK_OFFSET(0xF8B4E50)
-#define DLOBFPLDEBC_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B6440)
-#define DLOBFPLDEBC_DIAFNAONIMA_OFFSET UNITYSDK_OFFSET(0xF8B4DF0)
-#define DLOBFPLDEBC_FFALJOJANIF_1_OFFSET UNITYSDK_OFFSET(0xF8B60C0)
-#define DLOBFPLDEBC_FFALJOJANIF_OFFSET UNITYSDK_OFFSET(0xF8B5D90)
-#define DLOBFPLDEBC_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0xF8B4B00)
-#define DLOBFPLDEBC_KAOLPGACCID_OFFSET UNITYSDK_OFFSET(0xF8B4C30)
-#define DLOBFPLDEBC_NNJNDKBKGKG_OFFSET UNITYSDK_OFFSET(0xF8B4C20)
+#define DLOBFPLDEBC_ALLGGMNBKLE_OFFSET UNITYSDK_OFFSET(0x1868A760)
+#define DLOBFPLDEBC_BNKEFJGIIHK_OFFSET UNITYSDK_OFFSET(0x18689410)
+#define DLOBFPLDEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1868AA50)
+#define DLOBFPLDEBC_DIAFNAONIMA_OFFSET UNITYSDK_OFFSET(0x186893B0)
+#define DLOBFPLDEBC_FFALJOJANIF_1_OFFSET UNITYSDK_OFFSET(0x1868A6D0)
+#define DLOBFPLDEBC_FFALJOJANIF_OFFSET UNITYSDK_OFFSET(0x1868A370)
+#define DLOBFPLDEBC_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0x186890D0)
+#define DLOBFPLDEBC_KAOLPGACCID_OFFSET UNITYSDK_OFFSET(0x18689200)
+#define DLOBFPLDEBC_NNJNDKBKGKG_OFFSET UNITYSDK_OFFSET(0x186891F0)
 
-inline static constexpr unsigned int DLOBFPLDEBC_TypeDefinitionIndex = 48497;
+inline static constexpr unsigned int DLOBFPLDEBC_TypeDefinitionIndex = 49538;
 
 	class DLOBFPLDEBC : public ::System::Object
 	{
 	public:
-		::RPG::Client::IAssetOperation* BBOFBHCDHBO; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::String*>* GBEECFJEDCO; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::IAssetOperation*>* GFAOOMGHJDN; // 0x20
-		::System::Action_1<::System::String*>* GICMMIMFLIM; // 0x28
-		::System::String* DOEIHCMGBDL; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::IAssetOperation*>* GFAOOMGHJDN; // 0x10
+		::System::Action_1<::System::String*>* GICMMIMFLIM; // 0x18
+		::System::String* DOEIHCMGBDL; // 0x20
+		::RPG::Client::IAssetOperation* BBOFBHCDHBO; // 0x28
+		::System::Collections::Generic::HashSet_1<::System::String*>* GBEECFJEDCO; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLOBFPLDEBC_CTOR_OFFSET))(this);

@@ -6,7 +6,7 @@ namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::Text::RegularExpressions { class RegexNode; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXTREE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0A3160)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXTREE_CTOR_OFFSET UNITYSDK_OFFSET(0x190D0930)
 
 namespace System::Text::RegularExpressions
 {
@@ -16,12 +16,12 @@ namespace System::Text::RegularExpressions
 	{
 	public:
 		::Il2CppArray<::System::Int32>* _capnumlist; // 0x10
-		::Il2CppArray<::System::String*>* _capslist; // 0x18
-		::System::Text::RegularExpressions::RegexNode* _root; // 0x20
-		::System::Collections::Hashtable* _caps; // 0x28
-		::System::Collections::Hashtable* _capnames; // 0x30
-		::System::Int32 _captop; // 0x38
-		::System::Text::RegularExpressions::RegexOptions _options; // 0x3C
+		::System::Collections::Hashtable* _capnames; // 0x18
+		::System::Collections::Hashtable* _caps; // 0x20
+		::System::Text::RegularExpressions::RegexNode* _root; // 0x28
+		::Il2CppArray<::System::String*>* _capslist; // 0x30
+		::System::Text::RegularExpressions::RegexOptions _options; // 0x38
+		::System::Int32 _captop; // 0x3C
 		::System::Void _ctor(::System::Text::RegularExpressions::RegexNode* a1, ::System::Collections::Hashtable* a2, ::Il2CppArray<::System::Int32>* a3, ::System::Int32 a4, ::System::Collections::Hashtable* a5, ::Il2CppArray<::System::String*>* a6, ::System::Text::RegularExpressions::RegexOptions a7)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Collections::Hashtable*, ::Il2CppArray<::System::String*>*, ::System::Text::RegularExpressions::RegexOptions))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXTREE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);

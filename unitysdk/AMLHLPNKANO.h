@@ -3,10 +3,10 @@
 namespace RPG::Client { class ST_Parkour_ByCompareLapCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMLHLPNKANO_CTOR_OFFSET UNITYSDK_OFFSET(0x155794A0)
-#define AMLHLPNKANO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155794D0)
+#define AMLHLPNKANO_CTOR_OFFSET UNITYSDK_OFFSET(0x197DF370)
+#define AMLHLPNKANO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x197DF3A0)
 
-inline static constexpr unsigned int AMLHLPNKANO_TypeDefinitionIndex = 52131;
+inline static constexpr unsigned int AMLHLPNKANO_TypeDefinitionIndex = 53236;
 
 	class AMLHLPNKANO
 	{

@@ -3,24 +3,24 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack { class IFormatterResolver; }
 
-#define MESSAGEPACK_UNITY_UNITYRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB47A50)
-#define MESSAGEPACK_UNITY_UNITYRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB47A40)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x208F6DB0)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x208F6DA0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int UnityResolver_TypeDefinitionIndex = 10142;
+	inline static constexpr unsigned int UnityResolver_TypeDefinitionIndex = 10150;
 
 	class UnityResolver : public ::System::Object
 	{
 	public:
-		static ::MessagePack::IFormatterResolver** StaticGet_InstanceWithStandardResolver()
-		{
-			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("MessagePack.Unity", "UnityResolver")->GetStaticField(0x7A0);
-		}
-
 		static ::MessagePack::IFormatterResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("MessagePack.Unity", "UnityResolver")->GetStaticField(0x7A8);
+			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("MessagePack.Unity", "UnityResolver")->GetStaticField(0x750);
+		}
+
+		static ::MessagePack::IFormatterResolver** StaticGet_InstanceWithStandardResolver()
+		{
+			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("MessagePack.Unity", "UnityResolver")->GetStaticField(0x758);
 		}
 
 		::System::Void _ctor()

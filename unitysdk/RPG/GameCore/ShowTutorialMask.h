@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ShowTutorialMask; }
 namespace RPG::GameCore { class TutorialAnimConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWTUTORIALMASK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB9510)
-#define RPG_GAMECORE_SHOWTUTORIALMASK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB9520)
-#define RPG_GAMECORE_SHOWTUTORIALMASK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB94D0)
+#define RPG_GAMECORE_SHOWTUTORIALMASK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F2640)
+#define RPG_GAMECORE_SHOWTUTORIALMASK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3F2650)
+#define RPG_GAMECORE_SHOWTUTORIALMASK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3F2600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowTutorialMask_TypeDefinitionIndex = 24343;
+	inline static constexpr unsigned int ShowTutorialMask_TypeDefinitionIndex = 24802;
 
 	class ShowTutorialMask : public ::RPG::GameCore::TaskConfig
 	{

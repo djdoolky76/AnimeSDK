@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetSortByValueEvaluator; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KNBCGEHJLHK_CTOR_OFFSET UNITYSDK_OFFSET(0xB570B60)
-#define KNBCGEHJLHK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB570B80)
+#define KNBCGEHJLHK_CTOR_OFFSET UNITYSDK_OFFSET(0x18F98E80)
+#define KNBCGEHJLHK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x18F98EA0)
 
-inline static constexpr unsigned int KNBCGEHJLHK_TypeDefinitionIndex = 59163;
+inline static constexpr unsigned int KNBCGEHJLHK_TypeDefinitionIndex = 60440;
 
 	class KNBCGEHJLHK
 	{

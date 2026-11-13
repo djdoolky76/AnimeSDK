@@ -3,10 +3,10 @@
 #include "unitysdk/AkCommonAdvancedSettings.h"
 class AkPlatformInitSettings;
 
-#define AKPS4SETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F57EDA0)
-#define AKPS4SETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57ECA0)
+#define AKPS4SETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F30F830)
+#define AKPS4SETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F30F730)
 
-inline static constexpr unsigned int AkPS4Settings_PlatformAdvancedSettings_TypeDefinitionIndex = 44896;
+inline static constexpr unsigned int AkPS4Settings_PlatformAdvancedSettings_TypeDefinitionIndex = 45971;
 
 	class AkPS4Settings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 	{

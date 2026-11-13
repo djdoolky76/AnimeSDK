@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1ECC7E00)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC8450)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x209294C0)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x20929B10)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineAnimationStateTrack_TypeDefinitionIndex = 45911;
+	inline static constexpr unsigned int SpineAnimationStateTrack_TypeDefinitionIndex = 46940;
 
 	class SpineAnimationStateTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

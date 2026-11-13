@@ -5,22 +5,22 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Action; }
 
-#define CEDOCEHLDLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AF3C0)
+#define CEDOCEHLDLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D9FD0)
 
-inline static constexpr unsigned int CEDOCEHLDLF_TypeDefinitionIndex = 43197;
+inline static constexpr unsigned int CEDOCEHLDLF_TypeDefinitionIndex = 44178;
 
 	class CEDOCEHLDLF : public ::System::Object
 	{
 	public:
 		::System::Action* DPANHIICMLD; // 0x10
-		::UnityEngine::Quaternion LMHMOCNANAE; // 0x18
-		::UnityEngine::Vector3 ILPMEGCIAOA; // 0x28
-		::System::Single IEHPFADHJFD; // 0x34
-		::System::Boolean ELLNLDDDJLO; // 0x38
+		::UnityEngine::Vector3 ILPMEGCIAOA; // 0x18
+		::UnityEngine::Vector3 DNFLHFPODGF; // 0x24
+		::System::Single IEHPFADHJFD; // 0x30
+		::UnityEngine::Quaternion LMHMOCNANAE; // 0x34
+		::System::Boolean ELLNLDDDJLO; // 0x44
 		::System::Byte _padding0[0x3];
-		::UnityEngine::Quaternion PHKKNFLLCFF; // 0x3C
-		::System::Single BJMAMHMCOEL; // 0x4C
-		::UnityEngine::Vector3 DNFLHFPODGF; // 0x50
+		::UnityEngine::Quaternion PHKKNFLLCFF; // 0x48
+		::System::Single BJMAMHMCOEL; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEDOCEHLDLF_CTOR_OFFSET))(this);

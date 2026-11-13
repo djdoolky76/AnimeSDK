@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NKIFOJOJOCG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC2F140)
+#define NKIFOJOJOCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7B2250)
 
-inline static constexpr unsigned int NKIFOJOJOCG_TypeDefinitionIndex = 54926;
+inline static constexpr unsigned int NKIFOJOJOCG_TypeDefinitionIndex = 56098;
 
 	class NKIFOJOJOCG : public ::System::Object
 	{

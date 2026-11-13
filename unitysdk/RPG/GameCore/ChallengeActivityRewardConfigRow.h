@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengeActivityRewardConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEACTIVITYREWARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D52D7F0)
-#define RPG_GAMECORE_CHALLENGEACTIVITYREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D52D180)
+#define RPG_GAMECORE_CHALLENGEACTIVITYREWARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC06190)
+#define RPG_GAMECORE_CHALLENGEACTIVITYREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC05B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeActivityRewardConfigRow_TypeDefinitionIndex = 12950;
+	inline static constexpr unsigned int ChallengeActivityRewardConfigRow_TypeDefinitionIndex = 13022;
 
 	class ChallengeActivityRewardConfigRow : public ::System::Object
 	{

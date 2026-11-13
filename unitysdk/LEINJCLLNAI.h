@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpenHipplenGrowthPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LEINJCLLNAI_CTOR_OFFSET UNITYSDK_OFFSET(0xB6505B0)
-#define LEINJCLLNAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6505E0)
+#define LEINJCLLNAI_CTOR_OFFSET UNITYSDK_OFFSET(0x18C36AC0)
+#define LEINJCLLNAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C36AF0)
 
-inline static constexpr unsigned int LEINJCLLNAI_TypeDefinitionIndex = 52281;
+inline static constexpr unsigned int LEINJCLLNAI_TypeDefinitionIndex = 53387;
 
 	class LEINJCLLNAI
 	{

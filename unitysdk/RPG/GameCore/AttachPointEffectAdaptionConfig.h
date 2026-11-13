@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AttachPointEffectAdaptionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACHPOINTEFFECTADAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D4710)
-#define RPG_GAMECORE_ATTACHPOINTEFFECTADAPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3D4600)
+#define RPG_GAMECORE_ATTACHPOINTEFFECTADAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB99B0)
+#define RPG_GAMECORE_ATTACHPOINTEFFECTADAPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEB98A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachPointEffectAdaptionConfig_TypeDefinitionIndex = 16510;
+	inline static constexpr unsigned int AttachPointEffectAdaptionConfig_TypeDefinitionIndex = 16674;
 
 	class AttachPointEffectAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{

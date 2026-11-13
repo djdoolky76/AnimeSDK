@@ -3,14 +3,14 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define JGDJANDMKOB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB192980)
-#define JGDJANDMKOB_CTOR_1_OFFSET UNITYSDK_OFFSET(0x10410)
-#define JGDJANDMKOB_CTOR_OFFSET UNITYSDK_OFFSET(0x10400)
-#define JGDJANDMKOB_LCJMKJPECAP_1_OFFSET UNITYSDK_OFFSET(0x10540)
-#define JGDJANDMKOB_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x104B0)
-#define JGDJANDMKOB_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x10450)
+#define JGDJANDMKOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1934AD20)
+#define JGDJANDMKOB_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3E36B40)
+#define JGDJANDMKOB_CTOR_OFFSET UNITYSDK_OFFSET(0x6516D0)
+#define JGDJANDMKOB_LCJMKJPECAP_1_OFFSET UNITYSDK_OFFSET(0x3E36C70)
+#define JGDJANDMKOB_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x3E36BE0)
+#define JGDJANDMKOB_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x3E36B80)
 
-inline static constexpr unsigned int JGDJANDMKOB_TypeDefinitionIndex = 60649;
+inline static constexpr unsigned int JGDJANDMKOB_TypeDefinitionIndex = 62026;
 
 	struct alignas(4) JGDJANDMKOB
 	{
@@ -18,12 +18,12 @@ inline static constexpr unsigned int JGDJANDMKOB_TypeDefinitionIndex = 60649;
 		::UnityEngine::Vector2 NKAACMGNNPK; // 0x18
 		static ::JGDJANDMKOB* StaticGet_IGCMPJGPOND()
 		{
-			return (::JGDJANDMKOB*)UnitySDK::FromName("", "JGDJANDMKOB")->GetStaticField(0x36F0);
+			return (::JGDJANDMKOB*)UnitySDK::FromName("", "JGDJANDMKOB")->GetStaticField(0x14020);
 		}
 
 		static ::JGDJANDMKOB* StaticGet_COAHELMPGLI()
 		{
-			return (::JGDJANDMKOB*)UnitySDK::FromName("", "JGDJANDMKOB")->GetStaticField(0x3700);
+			return (::JGDJANDMKOB*)UnitySDK::FromName("", "JGDJANDMKOB")->GetStaticField(0x14030);
 		}
 
 		::System::Void _ctor(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimSplineMovePoint.h"
 
-#define NFPFJHBOKFM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D1D6D30)
-#define NFPFJHBOKFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D6D50)
+#define NFPFJHBOKFM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E742AA0)
+#define NFPFJHBOKFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E742AC0)
 
-inline static constexpr unsigned int NFPFJHBOKFM_TypeDefinitionIndex = 24853;
+inline static constexpr unsigned int NFPFJHBOKFM_TypeDefinitionIndex = 25333;
 
 	class NFPFJHBOKFM : public ::RPG::GameCore::FiveDimSplineMovePoint
 	{

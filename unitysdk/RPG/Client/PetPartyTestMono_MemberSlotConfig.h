@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_PETPARTYTESTMONO_MEMBERSLOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDAE4AC0)
+#define RPG_CLIENT_PETPARTYTESTMONO_MEMBERSLOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x18D5CD30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PetPartyTestMono_MemberSlotConfig_TypeDefinitionIndex = 60210;
+	inline static constexpr unsigned int PetPartyTestMono_MemberSlotConfig_TypeDefinitionIndex = 61494;
 
 	class PetPartyTestMono_MemberSlotConfig : public ::System::Object
 	{

@@ -9,15 +9,16 @@ namespace RPG::GameCore { class LevelLittleGameInfo; }
 namespace RPG::GameCore { class LittleGameLevelVarBindingMap; }
 namespace RPG::GameCore { class LittleGameNavInfo; }
 namespace RPG::GameCore { class LittleGameRequireMissionInfo; }
+namespace RPG::GameCore { class LittleGameSandboxProfileRef; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7843A0)
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D7843B0)
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D784360)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D936B50)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D936B60)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D936B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLittleGameInfo_TypeDefinitionIndex = 17341;
+	inline static constexpr unsigned int LevelLittleGameInfo_TypeDefinitionIndex = 17509;
 
 	class LevelLittleGameInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
@@ -47,6 +48,7 @@ namespace RPG::GameCore
 		::System::Byte _padding4[0x7];
 		::RPG::GameCore::LittleGameRequireMissionInfo* RequireMissionInfo; // 0xA0
 		::Il2CppArray<::System::UInt32>* MinimapFogIDList; // 0xA8
+		::RPG::GameCore::LittleGameSandboxProfileRef* SandboxProfileRef; // 0xB0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLITTLEGAMEINFO_CTOR_OFFSET))(this);

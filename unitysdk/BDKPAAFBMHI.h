@@ -3,18 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define BDKPAAFBMHI_CTOR_OFFSET UNITYSDK_OFFSET(0x162F1230)
-#define BDKPAAFBMHI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x162F10E0)
-#define BDKPAAFBMHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x162F1130)
+#define BDKPAAFBMHI_CTOR_OFFSET UNITYSDK_OFFSET(0x19D9ACC0)
+#define BDKPAAFBMHI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x19D9AB70)
+#define BDKPAAFBMHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19D9ABC0)
 
-inline static constexpr unsigned int BDKPAAFBMHI_TypeDefinitionIndex = 68289;
+inline static constexpr unsigned int BDKPAAFBMHI_TypeDefinitionIndex = 70235;
 
 	class BDKPAAFBMHI : public ::System::Object
 	{
 	public:
-		::System::UInt32 FDAKECLCKGP; // 0x10
-		::System::Boolean DKBNNGMAIFO; // 0x14
-		::System::Boolean KKKIONIDKFA; // 0x15
+		::System::Boolean DKBNNGMAIFO; // 0x10
+		::System::Boolean KKKIONIDKFA; // 0x11
+		::System::Byte _padding0[0x2];
+		::System::UInt32 FDAKECLCKGP; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDKPAAFBMHI_CTOR_OFFSET))(this);

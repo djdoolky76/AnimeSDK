@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KODIMAJKOMJ.h"
 
-#define FDNMIDJAILJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB0990)
+#define FDNMIDJAILJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E444B10)
 
-inline static constexpr unsigned int FDNMIDJAILJ_TypeDefinitionIndex = 25007;
+inline static constexpr unsigned int FDNMIDJAILJ_TypeDefinitionIndex = 25485;
 
 	class FDNMIDJAILJ : public ::KODIMAJKOMJ
 	{

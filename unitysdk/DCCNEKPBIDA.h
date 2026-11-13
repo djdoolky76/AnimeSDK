@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class ECNEEKNHIOE;
 
-#define DCCNEKPBIDA_CTOR_OFFSET UNITYSDK_OFFSET(0xE238C10)
+#define DCCNEKPBIDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1670C0)
 
-inline static constexpr unsigned int DCCNEKPBIDA_TypeDefinitionIndex = 80564;
+inline static constexpr unsigned int DCCNEKPBIDA_TypeDefinitionIndex = 83344;
 
 	class DCCNEKPBIDA : public ::System::Object
 	{

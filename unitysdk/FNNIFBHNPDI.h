@@ -4,11 +4,11 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FNNIFBHNPDI_CGCCCMOCCHN_OFFSET UNITYSDK_OFFSET(0x1587A510)
-#define FNNIFBHNPDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1587A430)
-#define FNNIFBHNPDI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1587A4A0)
+#define FNNIFBHNPDI_CGCCCMOCCHN_OFFSET UNITYSDK_OFFSET(0x17F2E1E0)
+#define FNNIFBHNPDI_CTOR_OFFSET UNITYSDK_OFFSET(0x17F2E100)
+#define FNNIFBHNPDI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x17F2E170)
 
-inline static constexpr unsigned int FNNIFBHNPDI_TypeDefinitionIndex = 67058;
+inline static constexpr unsigned int FNNIFBHNPDI_TypeDefinitionIndex = 69002;
 
 	class FNNIFBHNPDI : public ::System::Object
 	{

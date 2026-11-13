@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYPROGRESSVIEWCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC79A4E0)
-#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYPROGRESSVIEWCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC79A3F0)
+#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYPROGRESSVIEWCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA5ACE0)
+#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYPROGRESSVIEWCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1CA5ABF0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingGameplayProgressViewControl_TypeDefinitionIndex = 81896;
+	inline static constexpr unsigned int B51RacingGameplayProgressViewControl_TypeDefinitionIndex = 84677;
 
 	class B51RacingGameplayProgressViewControl : public ::Sofa::BaseSofaControl
 	{

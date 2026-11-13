@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class PingPongEnemyGroupEventBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OHGHFGFIEFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C965A20)
+#define OHGHFGFIEFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0741D0)
 
-inline static constexpr unsigned int OHGHFGFIEFD_TypeDefinitionIndex = 42965;
+inline static constexpr unsigned int OHGHFGFIEFD_TypeDefinitionIndex = 43946;
 
 	class OHGHFGFIEFD : public ::System::Object
 	{

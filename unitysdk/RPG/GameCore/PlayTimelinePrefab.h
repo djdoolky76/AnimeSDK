@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PlayTimelinePrefab; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYTIMELINEPREFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D904CC0)
-#define RPG_GAMECORE_PLAYTIMELINEPREFAB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D904CD0)
-#define RPG_GAMECORE_PLAYTIMELINEPREFAB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D904C90)
+#define RPG_GAMECORE_PLAYTIMELINEPREFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6EEB0)
+#define RPG_GAMECORE_PLAYTIMELINEPREFAB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF6EEC0)
+#define RPG_GAMECORE_PLAYTIMELINEPREFAB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF6EE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayTimelinePrefab_TypeDefinitionIndex = 21925;
+	inline static constexpr unsigned int PlayTimelinePrefab_TypeDefinitionIndex = 22316;
 
 	class PlayTimelinePrefab : public ::RPG::GameCore::TaskConfig
 	{

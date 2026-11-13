@@ -4,11 +4,11 @@
 namespace MiHoYo::SDK::PC::OS { class EpicAuthStatusExtension; }
 namespace MiHoYo::SDK::PC::OS { class XboxAuthStatusExtension; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHSTATUSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF6F10)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHSTATUSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EF9D0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAuthStatusResult_TypeDefinitionIndex = 8603;
+	inline static constexpr unsigned int HoYoChannelAuthStatusResult_TypeDefinitionIndex = 8612;
 
 	class HoYoChannelAuthStatusResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

@@ -5,29 +5,29 @@ class KJIOGEFIOCD;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define HILNADIJDAJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15CEBB60)
-#define HILNADIJDAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15CEBBA0)
-#define HILNADIJDAJ___C__TRYTRIGGERPAMCHATGREETING_B__2_0_OFFSET UNITYSDK_OFFSET(0x15CEBBD0)
-#define HILNADIJDAJ___C__TRYTRIGGERPAMCHATHUDBUBBLE_B__1_0_OFFSET UNITYSDK_OFFSET(0x15CEBBB0)
+#define HILNADIJDAJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x181E8500)
+#define HILNADIJDAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x181E8540)
+#define HILNADIJDAJ___C__TRYTRIGGERPAMCHATGREETING_B__2_0_OFFSET UNITYSDK_OFFSET(0x181E8570)
+#define HILNADIJDAJ___C__TRYTRIGGERPAMCHATHUDBUBBLE_B__1_0_OFFSET UNITYSDK_OFFSET(0x181E8550)
 
-inline static constexpr unsigned int HILNADIJDAJ___c_TypeDefinitionIndex = 63284;
+inline static constexpr unsigned int HILNADIJDAJ___c_TypeDefinitionIndex = 64722;
 
 	class HILNADIJDAJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::KJIOGEFIOCD*>** StaticGet___9__1_0()
+		static ::System::Predicate_1<::KJIOGEFIOCD*>** StaticGet___9__2_0()
 		{
-			return (::System::Predicate_1<::KJIOGEFIOCD*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DA80);
+			return (::System::Predicate_1<::KJIOGEFIOCD*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF430);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DA88);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF438);
 		}
 
-		static ::System::Predicate_1<::KJIOGEFIOCD*>** StaticGet___9__2_0()
+		static ::System::Predicate_1<::KJIOGEFIOCD*>** StaticGet___9__1_0()
 		{
-			return (::System::Predicate_1<::KJIOGEFIOCD*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DA90);
+			return (::System::Predicate_1<::KJIOGEFIOCD*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF440);
 		}
 
 		static ::System::Void _cctor()

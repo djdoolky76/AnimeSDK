@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int IStreamDescriptor_TypeDefinitionIndex = 45887;
+	inline static constexpr unsigned int IStreamDescriptor_TypeDefinitionIndex = 46916;
 
 	class IStreamDescriptor
 	{

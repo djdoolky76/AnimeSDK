@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleAbility_Rotation; }
 namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5534A0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ROTATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5534B0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ROTATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D553450)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F354AC0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ROTATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F354AD0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_ROTATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F354A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_Rotation_TypeDefinitionIndex = 15749;
+	inline static constexpr unsigned int ChenLingBattleAbility_Rotation_TypeDefinitionIndex = 15907;
 
 	class ChenLingBattleAbility_Rotation : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

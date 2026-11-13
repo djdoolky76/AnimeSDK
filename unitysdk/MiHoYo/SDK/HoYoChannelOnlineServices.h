@@ -11,56 +11,56 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF99F80)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPERMISSION_OFFSET UNITYSDK_OFFSET(0xAF99810)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPRIVILEGE_OFFSET UNITYSDK_OFFSET(0xAF98D40)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0xAF92E10)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CTOR_OFFSET UNITYSDK_OFFSET(0xAF89A30)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPERMISSIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF988F0)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPRIVILEGECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF983F0)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONRESOLVEPRIVILEGECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF984A0)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_RESOLVEPRIVILEGE_OFFSET UNITYSDK_OFFSET(0xAF990C0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB3BFE0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPERMISSION_OFFSET UNITYSDK_OFFSET(0x1AB3B870)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPRIVILEGE_OFFSET UNITYSDK_OFFSET(0x1AB3ADA0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1AB34E10)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB2B9C0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPERMISSIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3A950)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPRIVILEGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3A450)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONRESOLVEPRIVILEGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB3A500)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_RESOLVEPRIVILEGE_OFFSET UNITYSDK_OFFSET(0x1AB3B120)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelOnlineServices_TypeDefinitionIndex = 46538;
+	inline static constexpr unsigned int HoYoChannelOnlineServices_TypeDefinitionIndex = 47566;
 
 	class HoYoChannelOnlineServices : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult** StaticGet_s_checkPrivilegeResult()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x23590);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_checkPermissionTimeouts()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x23598);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_privilegeTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x235A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x1A880);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>** StaticGet_s_checkPermissionCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x235A8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x1A888);
 		}
 
-		static ::System::Object** StaticGet_s_checkPermissionLock()
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult** StaticGet_s_checkPrivilegeResult()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x235B0);
-		}
-
-		static ::System::Object** StaticGet_s_privilegeLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x235B8);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x1A890);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>** StaticGet_s_privilegeCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x235C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x1A898);
+		}
+
+		static ::System::Object** StaticGet_s_privilegeLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x1A8A0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_privilegeTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x1A8A8);
+		}
+
+		static ::System::Object** StaticGet_s_checkPermissionLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x1A8B0);
 		}
 
 		// static const ::System::Object PRIVILEGE_TIMEOUT_SECONDS; // 0x0

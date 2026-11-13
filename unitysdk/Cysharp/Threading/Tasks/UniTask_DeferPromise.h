@@ -8,22 +8,22 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F114EF0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F119690)
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F1196A0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F1196F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F119700)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E554940)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1E5590D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1E5590E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1E559130)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1E559140)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DeferPromise_TypeDefinitionIndex = 38247;
+	inline static constexpr unsigned int UniTask_DeferPromise_TypeDefinitionIndex = 39176;
 
 	class UniTask_DeferPromise : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::UniTask_Awaiter awaiter; // 0x10
-		::Cysharp::Threading::Tasks::UniTask task; // 0x20
-		::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* factory; // 0x30
+		::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* factory; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter awaiter; // 0x18
+		::Cysharp::Threading::Tasks::UniTask task; // 0x28
 		::System::Void _ctor(::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Func_1<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_CTOR_OFFSET))(this, a1);

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LightTeamFightFormationConfig; }
 namespace RPG::GameCore { class TeamFormationTemplateSingleConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEAMFORMATIONTEMPLATESINGLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4C6C0)
-#define RPG_GAMECORE_TEAMFORMATIONTEMPLATESINGLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4C5B0)
+#define RPG_GAMECORE_TEAMFORMATIONTEMPLATESINGLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C1400)
+#define RPG_GAMECORE_TEAMFORMATIONTEMPLATESINGLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C12F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationTemplateSingleConfig_TypeDefinitionIndex = 16581;
+	inline static constexpr unsigned int TeamFormationTemplateSingleConfig_TypeDefinitionIndex = 16747;
 
 	class TeamFormationTemplateSingleConfig : public ::RPG::GameCore::JsonConfig
 	{

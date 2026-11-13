@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class DDJGBFMADIB;
 
-#define IBEFMPBANFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAD8E70)
-#define IBEFMPBANFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD8EF0)
+#define IBEFMPBANFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D956FB0)
+#define IBEFMPBANFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D957030)
 
-inline static constexpr unsigned int IBEFMPBANFL_TypeDefinitionIndex = 43504;
+inline static constexpr unsigned int IBEFMPBANFL_TypeDefinitionIndex = 44486;
 
 	class IBEFMPBANFL : public ::System::Object
 	{

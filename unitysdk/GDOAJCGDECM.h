@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearEntityRelationGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDOAJCGDECM_CTOR_OFFSET UNITYSDK_OFFSET(0x159B38E0)
-#define GDOAJCGDECM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159B3910)
+#define GDOAJCGDECM_CTOR_OFFSET UNITYSDK_OFFSET(0x17CC0B70)
+#define GDOAJCGDECM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CC0BA0)
 
-inline static constexpr unsigned int GDOAJCGDECM_TypeDefinitionIndex = 55021;
+inline static constexpr unsigned int GDOAJCGDECM_TypeDefinitionIndex = 56195;
 
 	class GDOAJCGDECM
 	{

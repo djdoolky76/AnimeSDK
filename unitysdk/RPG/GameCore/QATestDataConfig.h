@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class QAAdventurePlayerRow; }
 namespace RPG::GameCore { class QATestDataConfig; }
 
-#define RPG_GAMECORE_QATESTDATACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D930DA0)
-#define RPG_GAMECORE_QATESTDATACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D930CB0)
+#define RPG_GAMECORE_QATESTDATACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F21A7F0)
+#define RPG_GAMECORE_QATESTDATACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F21A700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QATestDataConfig_TypeDefinitionIndex = 19065;
+	inline static constexpr unsigned int QATestDataConfig_TypeDefinitionIndex = 19252;
 
 	class QATestDataConfig : public ::RPG::GameCore::JsonConfig
 	{

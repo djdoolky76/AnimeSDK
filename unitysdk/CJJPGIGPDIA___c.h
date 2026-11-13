@@ -4,18 +4,18 @@
 class CJJPGIGPDIA;
 namespace System { class Object; }
 
-#define CJJPGIGPDIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0B4BD0)
-#define CJJPGIGPDIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0B4C10)
-#define CJJPGIGPDIA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0B4C20)
+#define CJJPGIGPDIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2058D5B0)
+#define CJJPGIGPDIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2058D5F0)
+#define CJJPGIGPDIA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2058D600)
 
-inline static constexpr unsigned int CJJPGIGPDIA___c_TypeDefinitionIndex = 30169;
+inline static constexpr unsigned int CJJPGIGPDIA___c_TypeDefinitionIndex = 31067;
 
 	class CJJPGIGPDIA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18A30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11F50);
 		}
 
 		static ::System::Void _cctor()

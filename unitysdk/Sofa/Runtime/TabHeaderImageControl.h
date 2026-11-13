@@ -5,12 +5,12 @@ class HIKAAGHELPH;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define SOFA_RUNTIME_TABHEADERIMAGECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE974E20)
-#define SOFA_RUNTIME_TABHEADERIMAGECONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE974AB0)
+#define SOFA_RUNTIME_TABHEADERIMAGECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3E910)
+#define SOFA_RUNTIME_TABHEADERIMAGECONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0x1AC3E5A0)
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderImageControl_TypeDefinitionIndex = 49730;
+	inline static constexpr unsigned int TabHeaderImageControl_TypeDefinitionIndex = 50778;
 
 	class TabHeaderImageControl
 	{

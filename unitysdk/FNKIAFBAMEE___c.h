@@ -5,29 +5,29 @@ class FPPNANNOMPF;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FNKIAFBAMEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1586BB70)
-#define FNKIAFBAMEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1586BBB0)
-#define FNKIAFBAMEE___C__BUILDGAMESETTLECONTEXT_B__19_0_OFFSET UNITYSDK_OFFSET(0x1586BBC0)
-#define FNKIAFBAMEE___C___BUILDOFFLINELEVELDATA_B__20_0_OFFSET UNITYSDK_OFFSET(0x1586BBD0)
+#define FNKIAFBAMEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17F1F310)
+#define FNKIAFBAMEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17F1F350)
+#define FNKIAFBAMEE___C__BUILDGAMESETTLECONTEXT_B__19_0_OFFSET UNITYSDK_OFFSET(0x17F1F360)
+#define FNKIAFBAMEE___C___BUILDOFFLINELEVELDATA_B__20_0_OFFSET UNITYSDK_OFFSET(0x17F1F370)
 
-inline static constexpr unsigned int FNKIAFBAMEE___c_TypeDefinitionIndex = 81291;
+inline static constexpr unsigned int FNKIAFBAMEE___c_TypeDefinitionIndex = 84071;
 
 	class FNKIAFBAMEE___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::FPPNANNOMPF*, ::System::Boolean>** StaticGet___9__20_0()
-		{
-			return (::System::Func_2<::FPPNANNOMPF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50490);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50498);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D710);
+		}
+
+		static ::System::Func_2<::FPPNANNOMPF*, ::System::Boolean>** StaticGet___9__20_0()
+		{
+			return (::System::Func_2<::FPPNANNOMPF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D718);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x504A0);
+			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D720);
 		}
 
 		static ::System::Void _cctor()

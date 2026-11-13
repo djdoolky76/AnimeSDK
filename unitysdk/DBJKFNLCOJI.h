@@ -4,9 +4,9 @@
 #include "unitysdk/NHHMEPILLHL.h"
 namespace RPG::Client { class RogueTournTitanBlessInfo; }
 
-#define DBJKFNLCOJI_CTOR_OFFSET UNITYSDK_OFFSET(0xE220DA0)
+#define DBJKFNLCOJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B14CE70)
 
-inline static constexpr unsigned int DBJKFNLCOJI_TypeDefinitionIndex = 67121;
+inline static constexpr unsigned int DBJKFNLCOJI_TypeDefinitionIndex = 69065;
 
 	class DBJKFNLCOJI : public ::EBIMENNAEIE
 	{

@@ -5,20 +5,20 @@
 class CFGGOBEDJOK;
 namespace System { class Object; }
 
-#define CFGGOBEDJOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0759B0)
-#define CFGGOBEDJOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0759F0)
-#define CFGGOBEDJOK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E075A00)
-#define CFGGOBEDJOK___C___CCTOR_B__28_1_OFFSET UNITYSDK_OFFSET(0x1E075A50)
-#define CFGGOBEDJOK___C___CCTOR_B__28_2_OFFSET UNITYSDK_OFFSET(0x1E075A60)
+#define CFGGOBEDJOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD17A80)
+#define CFGGOBEDJOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD17AC0)
+#define CFGGOBEDJOK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD17AD0)
+#define CFGGOBEDJOK___C___CCTOR_B__28_1_OFFSET UNITYSDK_OFFSET(0x1FD17B20)
+#define CFGGOBEDJOK___C___CCTOR_B__28_2_OFFSET UNITYSDK_OFFSET(0x1FD17B30)
 
-inline static constexpr unsigned int CFGGOBEDJOK___c_TypeDefinitionIndex = 26381;
+inline static constexpr unsigned int CFGGOBEDJOK___c_TypeDefinitionIndex = 26908;
 
 	class CFGGOBEDJOK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11CF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x9940);
 		}
 
 		static ::System::Void _cctor()

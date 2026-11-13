@@ -6,10 +6,10 @@ class BPANGADOKAM;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define BPANGADOKAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C9820)
-#define BPANGADOKAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9C9710)
+#define BPANGADOKAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB06790)
+#define BPANGADOKAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB06680)
 
-inline static constexpr unsigned int BPANGADOKAM_TypeDefinitionIndex = 13994;
+inline static constexpr unsigned int BPANGADOKAM_TypeDefinitionIndex = 14151;
 
 	class BPANGADOKAM : public ::System::Object
 	{

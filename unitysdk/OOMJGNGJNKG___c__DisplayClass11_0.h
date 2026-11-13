@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class BDOHIOEMGCI;
 
-#define OOMJGNGJNKG___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF87E40)
-#define OOMJGNGJNKG___C__DISPLAYCLASS11_0___CREATEITEMIFNEED_B__0_OFFSET UNITYSDK_OFFSET(0xBF883B0)
+#define OOMJGNGJNKG___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x196AF060)
+#define OOMJGNGJNKG___C__DISPLAYCLASS11_0___CREATEITEMIFNEED_B__0_OFFSET UNITYSDK_OFFSET(0x196AF6A0)
 
-inline static constexpr unsigned int OOMJGNGJNKG___c__DisplayClass11_0_TypeDefinitionIndex = 71553;
+inline static constexpr unsigned int OOMJGNGJNKG___c__DisplayClass11_0_TypeDefinitionIndex = 73537;
 
 	class OOMJGNGJNKG___c__DisplayClass11_0 : public ::System::Object
 	{

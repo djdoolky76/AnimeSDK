@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattlePerformCreateActor; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D437250)
-#define RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D436F40)
+#define RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C31A2C0)
+#define RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C319FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformCreateActor_TypeDefinitionIndex = 23386;
+	inline static constexpr unsigned int BattlePerformCreateActor_TypeDefinitionIndex = 23832;
 
 	class BattlePerformCreateActor : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightWaveInfo; }
 
-#define RPG_GAMECORE_GRIDFIGHTWAVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71C530)
-#define RPG_GAMECORE_GRIDFIGHTWAVEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71C410)
+#define RPG_GAMECORE_GRIDFIGHTWAVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6B850)
+#define RPG_GAMECORE_GRIDFIGHTWAVEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA6B730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightWaveInfo_TypeDefinitionIndex = 18165;
+	inline static constexpr unsigned int GridFightWaveInfo_TypeDefinitionIndex = 18327;
 
 	class GridFightWaveInfo : public ::RPG::GameCore::JsonConfig
 	{

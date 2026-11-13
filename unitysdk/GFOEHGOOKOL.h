@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPhotoGraphFovLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GFOEHGOOKOL_CTOR_OFFSET UNITYSDK_OFFSET(0x159F3670)
-#define GFOEHGOOKOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159F36A0)
+#define GFOEHGOOKOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B49CB60)
+#define GFOEHGOOKOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B49CB90)
 
-inline static constexpr unsigned int GFOEHGOOKOL_TypeDefinitionIndex = 53164;
+inline static constexpr unsigned int GFOEHGOOKOL_TypeDefinitionIndex = 54326;
 
 	class GFOEHGOOKOL
 	{

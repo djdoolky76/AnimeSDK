@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_CurveDrawCollisionWrapper_TypeDefinitionIndex = 40558;
+	inline static constexpr unsigned int HEU_CurveDrawCollisionWrapper_TypeDefinitionIndex = 41533;
 
 	enum class HEU_CurveDrawCollisionWrapper : ::System::Int32
 	{

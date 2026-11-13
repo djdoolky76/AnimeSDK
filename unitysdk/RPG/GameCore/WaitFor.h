@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class WaitFor; }
 
-#define RPG_GAMECORE_WAITFOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6B140)
-#define RPG_GAMECORE_WAITFOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6B150)
-#define RPG_GAMECORE_WAITFOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6B110)
+#define RPG_GAMECORE_WAITFOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED566A0)
+#define RPG_GAMECORE_WAITFOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED566B0)
+#define RPG_GAMECORE_WAITFOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED56670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitFor_TypeDefinitionIndex = 23792;
+	inline static constexpr unsigned int WaitFor_TypeDefinitionIndex = 24248;
 
 	class WaitFor : public ::RPG::GameCore::TaskConfig
 	{

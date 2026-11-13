@@ -4,49 +4,49 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PLAYERMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDBF11E0)
-#define RPG_CLIENT_PLAYERMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDBF1220)
-#define RPG_CLIENT_PLAYERMODULE___C___CMDPLAYERGETTOKENSCRSP_B__57_1_OFFSET UNITYSDK_OFFSET(0xDBF1230)
-#define RPG_CLIENT_PLAYERMODULE___C___CMDPLAYERGETTOKENSCRSP_B__57_2_OFFSET UNITYSDK_OFFSET(0xDBF1270)
-#define RPG_CLIENT_PLAYERMODULE___C___CMDPLAYERGETTOKENSCRSP_B__57_3_OFFSET UNITYSDK_OFFSET(0xDBF12B0)
-#define RPG_CLIENT_PLAYERMODULE___C___ONCMDPLAYERLOGINSCRSP_B__58_1_OFFSET UNITYSDK_OFFSET(0xDBF12F0)
-#define RPG_CLIENT_PLAYERMODULE___C___ONCMDPLAYERLOGINSCRSP_B__58_2_OFFSET UNITYSDK_OFFSET(0xDBF1340)
+#define RPG_CLIENT_PLAYERMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19BD3D80)
+#define RPG_CLIENT_PLAYERMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19BD3DC0)
+#define RPG_CLIENT_PLAYERMODULE___C___CMDPLAYERGETTOKENSCRSP_B__57_1_OFFSET UNITYSDK_OFFSET(0x19BD3DD0)
+#define RPG_CLIENT_PLAYERMODULE___C___CMDPLAYERGETTOKENSCRSP_B__57_2_OFFSET UNITYSDK_OFFSET(0x19BD3E10)
+#define RPG_CLIENT_PLAYERMODULE___C___CMDPLAYERGETTOKENSCRSP_B__57_3_OFFSET UNITYSDK_OFFSET(0x19BD3E50)
+#define RPG_CLIENT_PLAYERMODULE___C___ONCMDPLAYERLOGINSCRSP_B__58_1_OFFSET UNITYSDK_OFFSET(0x19BD3E90)
+#define RPG_CLIENT_PLAYERMODULE___C___ONCMDPLAYERLOGINSCRSP_B__58_2_OFFSET UNITYSDK_OFFSET(0x19BD3EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerModule___c_TypeDefinitionIndex = 66688;
+	inline static constexpr unsigned int PlayerModule___c_TypeDefinitionIndex = 68624;
 
 	class PlayerModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__57_3()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x30460);
-		}
-
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__58_1()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x30468);
-		}
-
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__58_2()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x30470);
-		}
-
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__57_2()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x30478);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D100);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x30480);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D108);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__57_3()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D110);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__58_1()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D118);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__58_2()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D120);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__57_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x30488);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D128);
 		}
 
 		static ::System::Void _cctor()

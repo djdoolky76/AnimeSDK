@@ -4,23 +4,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KIKMPDALGLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB42D160)
-#define KIKMPDALGLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB42D1A0)
-#define KIKMPDALGLP___C__SELECTTARGETS_B__0_0_OFFSET UNITYSDK_OFFSET(0xB42D1B0)
+#define KIKMPDALGLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19EF3700)
+#define KIKMPDALGLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19EF3740)
+#define KIKMPDALGLP___C__SELECTTARGETS_B__0_0_OFFSET UNITYSDK_OFFSET(0x19EF3750)
 
-inline static constexpr unsigned int KIKMPDALGLP___c_TypeDefinitionIndex = 77379;
+inline static constexpr unsigned int KIKMPDALGLP___c_TypeDefinitionIndex = 79713;
 
 	class KIKMPDALGLP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x500D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55AB0);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x500D8);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55AB8);
 		}
 
 		static ::System::Void _cctor()

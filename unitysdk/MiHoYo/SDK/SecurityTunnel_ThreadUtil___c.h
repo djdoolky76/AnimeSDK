@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB04CF20)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB04CF60)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__RANDOMSTRING_B__8_0_OFFSET UNITYSDK_OFFSET(0xB04CF70)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD29920)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD29960)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__RANDOMSTRING_B__8_0_OFFSET UNITYSDK_OFFSET(0x1DD29970)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c_TypeDefinitionIndex = 46412;
+	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c_TypeDefinitionIndex = 47440;
 
 	class SecurityTunnel_ThreadUtil___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x33060);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2B130);
 		}
 
 		static ::System::Func_2<::System::String*, ::System::Char>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::Char>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x33068);
+			return (::System::Func_2<::System::String*, ::System::Char>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2B138);
 		}
 
 		static ::System::Void _cctor()

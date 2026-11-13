@@ -3,10 +3,10 @@
 #include "unitysdk/EADABGHLCIG.h"
 #include "unitysdk/RPG/Client/Prop/DestroyRootPuzzleChessType.h"
 
-#define PPCHBGLABDH_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0xC373660)
-#define PPCHBGLABDH_CTOR_OFFSET UNITYSDK_OFFSET(0xC3736B0)
+#define PPCHBGLABDH_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0x1B89FCE0)
+#define PPCHBGLABDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B89FD30)
 
-inline static constexpr unsigned int PPCHBGLABDH_TypeDefinitionIndex = 78552;
+inline static constexpr unsigned int PPCHBGLABDH_TypeDefinitionIndex = 81287;
 
 	class PPCHBGLABDH : public ::EADABGHLCIG
 	{

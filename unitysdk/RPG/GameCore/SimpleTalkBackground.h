@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SimpleTalkBackground; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SIMPLETALKBACKGROUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABC360)
-#define RPG_GAMECORE_SIMPLETALKBACKGROUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABC230)
+#define RPG_GAMECORE_SIMPLETALKBACKGROUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F5390)
+#define RPG_GAMECORE_SIMPLETALKBACKGROUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3F5260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleTalkBackground_TypeDefinitionIndex = 21121;
+	inline static constexpr unsigned int SimpleTalkBackground_TypeDefinitionIndex = 21462;
 
 	class SimpleTalkBackground : public ::RPG::GameCore::JsonConfig
 	{

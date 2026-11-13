@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NALGGFHJEBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C48BDC0)
-#define NALGGFHJEBB_NOIBFOCJMDB_OFFSET UNITYSDK_OFFSET(0x1C48BDD0)
-#define NALGGFHJEBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C498010)
+#define NALGGFHJEBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD040E0)
+#define NALGGFHJEBB_NOIBFOCJMDB_OFFSET UNITYSDK_OFFSET(0x1BD040F0)
+#define NALGGFHJEBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BD102F0)
 
-inline static constexpr unsigned int NALGGFHJEBB_TypeDefinitionIndex = 41559;
+inline static constexpr unsigned int NALGGFHJEBB_TypeDefinitionIndex = 42534;
 
 	class NALGGFHJEBB : public ::System::Object
 	{
 	public:
 		::System::UInt32 JFAGECNFHJL; // 0x10
-		::System::UInt32 ELFDDLBMMPC; // 0x14
-		::RPG::Client::SectionType GMPGDEINODK; // 0x18
+		::RPG::Client::SectionType GMPGDEINODK; // 0x14
+		::System::UInt32 ELFDDLBMMPC; // 0x18
 		::System::UInt32 DEFBCHJCDGL; // 0x1C
 		::System::Void _ctor()
 		{

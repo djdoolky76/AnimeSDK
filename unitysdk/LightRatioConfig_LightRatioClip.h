@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define LIGHTRATIOCONFIG_LIGHTRATIOCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xB831B30)
+#define LIGHTRATIOCONFIG_LIGHTRATIOCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CBCF0)
 
-inline static constexpr unsigned int LightRatioConfig_LightRatioClip_TypeDefinitionIndex = 47562;
+inline static constexpr unsigned int LightRatioConfig_LightRatioClip_TypeDefinitionIndex = 48591;
 
 	class LightRatioConfig_LightRatioClip : public ::System::Object
 	{

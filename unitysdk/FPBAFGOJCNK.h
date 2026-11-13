@@ -13,23 +13,23 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define FPBAFGOJCNK_CCTOR_OFFSET UNITYSDK_OFFSET(0x15901D30)
-#define FPBAFGOJCNK_CTOR_OFFSET UNITYSDK_OFFSET(0x159007D0)
-#define FPBAFGOJCNK_EAFBILPIOHI_OFFSET UNITYSDK_OFFSET(0x15901A80)
-#define FPBAFGOJCNK_JGIONOJIDDB_OFFSET UNITYSDK_OFFSET(0x15901160)
-#define FPBAFGOJCNK_PAKJHBKAKPB_OFFSET UNITYSDK_OFFSET(0x159007E0)
+#define FPBAFGOJCNK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1876D5F0)
+#define FPBAFGOJCNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1876C090)
+#define FPBAFGOJCNK_EAFBILPIOHI_OFFSET UNITYSDK_OFFSET(0x1876D340)
+#define FPBAFGOJCNK_JGIONOJIDDB_OFFSET UNITYSDK_OFFSET(0x1876CA20)
+#define FPBAFGOJCNK_PAKJHBKAKPB_OFFSET UNITYSDK_OFFSET(0x1876C0A0)
 
-inline static constexpr unsigned int FPBAFGOJCNK_TypeDefinitionIndex = 63906;
+inline static constexpr unsigned int FPBAFGOJCNK_TypeDefinitionIndex = 65348;
 
 	class FPBAFGOJCNK : public ::System::Object
 	{
 	public:
-		::LJEEEDGAJOC* ICIKOFLGOLL; // 0x10
-		::MGKEJEAJGGK* HJOADEMMCLN; // 0x18
-		::NAHFJHAGNGE* PMIJOPOIDML; // 0x20
+		::MGKEJEAJGGK* HJOADEMMCLN; // 0x10
+		::NAHFJHAGNGE* PMIJOPOIDML; // 0x18
+		::LJEEEDGAJOC* ICIKOFLGOLL; // 0x20
 		static ::Il2CppArray<::RPG::GameCore::ExpeditionBattleFlowStateType>** StaticGet_OIHBECGKGPH()
 		{
-			return (::Il2CppArray<::RPG::GameCore::ExpeditionBattleFlowStateType>**)UnitySDK::FromName("", "FPBAFGOJCNK")->GetStaticField(0x53440);
+			return (::Il2CppArray<::RPG::GameCore::ExpeditionBattleFlowStateType>**)UnitySDK::FromName("", "FPBAFGOJCNK")->GetStaticField(0x56050);
 		}
 
 		::System::Void _ctor(::MGKEJEAJGGK* a1, ::LJEEEDGAJOC* a2, ::NAHFJHAGNGE* a3)

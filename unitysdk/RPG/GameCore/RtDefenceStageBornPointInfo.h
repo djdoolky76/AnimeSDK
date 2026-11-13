@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtDefenceStageBornPointInfo; }
 
-#define RPG_GAMECORE_RTDEFENCESTAGEBORNPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2E190)
-#define RPG_GAMECORE_RTDEFENCESTAGEBORNPOINTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2E040)
+#define RPG_GAMECORE_RTDEFENCESTAGEBORNPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC731A0)
+#define RPG_GAMECORE_RTDEFENCESTAGEBORNPOINTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC73050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceStageBornPointInfo_TypeDefinitionIndex = 18063;
+	inline static constexpr unsigned int RtDefenceStageBornPointInfo_TypeDefinitionIndex = 18229;
 
 	class RtDefenceStageBornPointInfo : public ::RPG::GameCore::JsonConfig
 	{

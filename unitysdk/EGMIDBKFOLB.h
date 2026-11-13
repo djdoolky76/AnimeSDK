@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EGMIDBKFOLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA21EB0)
+#define EGMIDBKFOLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4E5C20)
 
-inline static constexpr unsigned int EGMIDBKFOLB_TypeDefinitionIndex = 42456;
+inline static constexpr unsigned int EGMIDBKFOLB_TypeDefinitionIndex = 43431;
 
 	class EGMIDBKFOLB : public ::System::Object
 	{

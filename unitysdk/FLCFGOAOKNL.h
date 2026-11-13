@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OODEOHIDMEG;
 
-#define FLCFGOAOKNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA42C40)
+#define FLCFGOAOKNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D400)
 
-inline static constexpr unsigned int FLCFGOAOKNL_TypeDefinitionIndex = 43789;
+inline static constexpr unsigned int FLCFGOAOKNL_TypeDefinitionIndex = 44864;
 
 	class FLCFGOAOKNL : public ::System::Object
 	{

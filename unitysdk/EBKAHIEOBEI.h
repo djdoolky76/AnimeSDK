@@ -5,19 +5,19 @@ class GNKHIPBNELK;
 namespace System { class Version; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EBKAHIEOBEI_CABKEIBGPLJ_OFFSET UNITYSDK_OFFSET(0x12CFB710)
-#define EBKAHIEOBEI_CCNNGPIPKFF_OFFSET UNITYSDK_OFFSET(0x12CFB3B0)
-#define EBKAHIEOBEI_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFB7F0)
-#define EBKAHIEOBEI_GET_LATESTVERSION_OFFSET UNITYSDK_OFFSET(0x12CFB390)
-#define EBKAHIEOBEI_SET_LATESTVERSION_OFFSET UNITYSDK_OFFSET(0x12CFB3A0)
+#define EBKAHIEOBEI_CABKEIBGPLJ_OFFSET UNITYSDK_OFFSET(0x1C3C9350)
+#define EBKAHIEOBEI_CCNNGPIPKFF_OFFSET UNITYSDK_OFFSET(0x1C3C8FF0)
+#define EBKAHIEOBEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C9430)
+#define EBKAHIEOBEI_GET_LATESTVERSION_OFFSET UNITYSDK_OFFSET(0x1C3C8FD0)
+#define EBKAHIEOBEI_SET_LATESTVERSION_OFFSET UNITYSDK_OFFSET(0x1C3C8FE0)
 
-inline static constexpr unsigned int EBKAHIEOBEI_TypeDefinitionIndex = 82244;
+inline static constexpr unsigned int EBKAHIEOBEI_TypeDefinitionIndex = 85117;
 
 	class EBKAHIEOBEI : public ::System::Object
 	{
 	public:
-		::System::Version* _latestVersion_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::GNKHIPBNELK*>* BBOFAEJHNAL; // 0x18
+		::System::Collections::Generic::List_1<::GNKHIPBNELK*>* BBOFAEJHNAL; // 0x10
+		::System::Version* _latestVersion_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBKAHIEOBEI_CTOR_OFFSET))(this);

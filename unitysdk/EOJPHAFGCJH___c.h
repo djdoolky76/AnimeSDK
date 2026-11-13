@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EOJPHAFGCJH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5E25B0)
-#define EOJPHAFGCJH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E25F0)
-#define EOJPHAFGCJH___C__TRYSHOWBOSSPERSISTENTTIPSPERFORMANCE_B__48_0_OFFSET UNITYSDK_OFFSET(0x1C5E2600)
+#define EOJPHAFGCJH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA96DC0)
+#define EOJPHAFGCJH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA96E00)
+#define EOJPHAFGCJH___C__TRYSHOWBOSSPERSISTENTTIPSPERFORMANCE_B__48_0_OFFSET UNITYSDK_OFFSET(0x1BA96E10)
 
-inline static constexpr unsigned int EOJPHAFGCJH___c_TypeDefinitionIndex = 36482;
+inline static constexpr unsigned int EOJPHAFGCJH___c_TypeDefinitionIndex = 37410;
 
 	class EOJPHAFGCJH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68BD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FC70);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>** StaticGet___9__48_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68BD8);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FC78);
 		}
 
 		static ::System::Void _cctor()

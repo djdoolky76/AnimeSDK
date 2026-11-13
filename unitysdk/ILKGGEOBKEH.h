@@ -5,10 +5,10 @@
 namespace RPG::Client { class ActivityPanelData; }
 namespace RPG::GameCore { class ActivityPanelRow; }
 
-#define ILKGGEOBKEH_CTOR_OFFSET UNITYSDK_OFFSET(0x164B5E90)
-#define ILKGGEOBKEH_OPOLKCHBODB_OFFSET UNITYSDK_OFFSET(0x164B5BC0)
+#define ILKGGEOBKEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A9600)
+#define ILKGGEOBKEH_OPOLKCHBODB_OFFSET UNITYSDK_OFFSET(0x1B5A9330)
 
-inline static constexpr unsigned int ILKGGEOBKEH_TypeDefinitionIndex = 61701;
+inline static constexpr unsigned int ILKGGEOBKEH_TypeDefinitionIndex = 63107;
 
 	class ILKGGEOBKEH : public ::System::Object
 	{

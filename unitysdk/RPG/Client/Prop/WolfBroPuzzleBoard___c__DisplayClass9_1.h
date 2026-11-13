@@ -4,12 +4,12 @@
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0xDDCF470)
-#define RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD___C__DISPLAYCLASS9_1__PICKUPBULLET_B__0_OFFSET UNITYSDK_OFFSET(0xDDD6FA0)
+#define RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x18713940)
+#define RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD___C__DISPLAYCLASS9_1__PICKUPBULLET_B__0_OFFSET UNITYSDK_OFFSET(0x1871B470)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WolfBroPuzzleBoard___c__DisplayClass9_1_TypeDefinitionIndex = 78694;
+	inline static constexpr unsigned int WolfBroPuzzleBoard___c__DisplayClass9_1_TypeDefinitionIndex = 81429;
 
 	template <typename T>
 	class WolfBroPuzzleBoard___c__DisplayClass9_1 : public ::System::Object

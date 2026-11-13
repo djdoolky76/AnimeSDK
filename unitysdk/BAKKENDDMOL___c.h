@@ -4,18 +4,18 @@
 class BAKKENDDMOL;
 namespace System { class Object; }
 
-#define BAKKENDDMOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E78D4C0)
-#define BAKKENDDMOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78D500)
-#define BAKKENDDMOL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E78D510)
+#define BAKKENDDMOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2057B2C0)
+#define BAKKENDDMOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2057B300)
+#define BAKKENDDMOL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2057B310)
 
-inline static constexpr unsigned int BAKKENDDMOL___c_TypeDefinitionIndex = 28018;
+inline static constexpr unsigned int BAKKENDDMOL___c_TypeDefinitionIndex = 28608;
 
 	class BAKKENDDMOL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CC20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42630);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateAffixInsertMonsterPhaseType_TypeDefinitionIndex = 11532;
+	inline static constexpr unsigned int FateAffixInsertMonsterPhaseType_TypeDefinitionIndex = 11583;
 
 	enum class FateAffixInsertMonsterPhaseType : ::System::Int32
 	{

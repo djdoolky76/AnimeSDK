@@ -6,13 +6,13 @@ namespace RPG::Client::Prop { class WormCompassPuzzleItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_WORMCOMPASSFINISHROUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xDDD7490)
-#define RPG_CLIENT_PROP_WORMCOMPASSFINISHROUTE_DGCGLNOLDIB_1_OFFSET UNITYSDK_OFFSET(0xDDD7200)
-#define RPG_CLIENT_PROP_WORMCOMPASSFINISHROUTE_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0xDDD70F0)
+#define RPG_CLIENT_PROP_WORMCOMPASSFINISHROUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1871B960)
+#define RPG_CLIENT_PROP_WORMCOMPASSFINISHROUTE_DGCGLNOLDIB_1_OFFSET UNITYSDK_OFFSET(0x1871B6D0)
+#define RPG_CLIENT_PROP_WORMCOMPASSFINISHROUTE_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0x1871B5C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassFinishRoute_TypeDefinitionIndex = 78924;
+	inline static constexpr unsigned int WormCompassFinishRoute_TypeDefinitionIndex = 81700;
 
 	class WormCompassFinishRoute : public ::System::Object
 	{

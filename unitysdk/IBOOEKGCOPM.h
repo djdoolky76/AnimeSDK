@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IBOOEKGCOPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD8F00)
+#define IBOOEKGCOPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D957040)
 
-inline static constexpr unsigned int IBOOEKGCOPM_TypeDefinitionIndex = 42370;
+inline static constexpr unsigned int IBOOEKGCOPM_TypeDefinitionIndex = 43345;
 
 	class IBOOEKGCOPM : public ::System::Object
 	{
 	public:
-		::System::Int32 LADCLGKLDBP; // 0x10
-		::System::Boolean JCOBPKGDNOI; // 0x14
-		::System::Boolean PKJGDBGMFJL; // 0x15
+		::System::Boolean JCOBPKGDNOI; // 0x10
+		::System::Boolean PKJGDBGMFJL; // 0x11
 		::System::Byte _padding0[0x2];
+		::System::Int32 LADCLGKLDBP; // 0x14
 		::System::Int32 GJMJAKAMKLJ; // 0x18
 		::System::Single HMBJNEIEIJK; // 0x1C
 		::System::Void _ctor()

@@ -7,21 +7,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_LPFLKFCMFKA_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7EC6C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_LPFLKFCMFKA_EFNBIDMIMMH_OFFSET UNITYSDK_OFFSET(0xD7EBFE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_LPFLKFCMFKA_GAFCECMAHIB_OFFSET UNITYSDK_OFFSET(0xD7EAE20)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_LPFLKFCMFKA_JDONBJDIGFL_OFFSET UNITYSDK_OFFSET(0xD7EB780)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_LPFLKFCMFKA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1939C6D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_LPFLKFCMFKA_EFNBIDMIMMH_OFFSET UNITYSDK_OFFSET(0x1939BFF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_LPFLKFCMFKA_GAFCECMAHIB_OFFSET UNITYSDK_OFFSET(0x1939AE30)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_LPFLKFCMFKA_JDONBJDIGFL_OFFSET UNITYSDK_OFFSET(0x1939B790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDialogRenderer_LPFLKFCMFKA_TypeDefinitionIndex = 69994;
+	inline static constexpr unsigned int MonoEffectPluginDialogRenderer_LPFLKFCMFKA_TypeDefinitionIndex = 71954;
 
 	class MonoEffectPluginDialogRenderer_LPFLKFCMFKA : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::RPG::Client::DialogRenderer*>*>** StaticGet_CFHMMIFLAKP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::RPG::Client::DialogRenderer*>*>**)UnitySDK::FromName("RPG.Client", "LPFLKFCMFKA")->GetStaticField(0x62AD0);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::RPG::Client::DialogRenderer*>*>**)UnitySDK::FromName("RPG.Client", "LPFLKFCMFKA")->GetStaticField(0x6EDD0);
 		}
 
 		static ::System::Void _cctor()

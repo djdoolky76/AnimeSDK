@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KDAELFIKPHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB83300)
+#define KDAELFIKPHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2BEA0)
 
-inline static constexpr unsigned int KDAELFIKPHH_TypeDefinitionIndex = 43731;
+inline static constexpr unsigned int KDAELFIKPHH_TypeDefinitionIndex = 44806;
 
 	class KDAELFIKPHH : public ::System::Object
 	{

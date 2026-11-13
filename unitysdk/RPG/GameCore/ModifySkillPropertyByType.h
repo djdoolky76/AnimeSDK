@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ModifySkillPropertyByType; }
 namespace RPG::GameCore { class SkillDataPropertyModifyItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86C880)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D86C8C0)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D86C820)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FEE60)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6FEEA0)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6FEE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySkillPropertyByType_TypeDefinitionIndex = 23558;
+	inline static constexpr unsigned int ModifySkillPropertyByType_TypeDefinitionIndex = 24004;
 
 	class ModifySkillPropertyByType : public ::RPG::GameCore::TaskConfig
 	{

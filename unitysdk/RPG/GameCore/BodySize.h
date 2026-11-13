@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BodySize_TypeDefinitionIndex = 10446;
+	inline static constexpr unsigned int BodySize_TypeDefinitionIndex = 10457;
 
 	enum class BodySize : ::System::Int32
 	{

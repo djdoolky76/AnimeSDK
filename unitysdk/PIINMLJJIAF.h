@@ -4,29 +4,28 @@
 class IDEFMHBFDKL;
 namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC; }
 
-#define PIINMLJJIAF_CTOR_OFFSET UNITYSDK_OFFSET(0xC2619A0)
-#define PIINMLJJIAF_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0xC261980)
-#define PIINMLJJIAF_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0xC261960)
-#define PIINMLJJIAF_GET_X_OFFSET UNITYSDK_OFFSET(0xC261920)
-#define PIINMLJJIAF_GET_Y_OFFSET UNITYSDK_OFFSET(0xC261940)
-#define PIINMLJJIAF_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0xC261990)
-#define PIINMLJJIAF_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0xC261970)
-#define PIINMLJJIAF_SET_X_OFFSET UNITYSDK_OFFSET(0xC261930)
-#define PIINMLJJIAF_SET_Y_OFFSET UNITYSDK_OFFSET(0xC261950)
+#define PIINMLJJIAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9CDEE0)
+#define PIINMLJJIAF_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1A9CDEC0)
+#define PIINMLJJIAF_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1A9CDEA0)
+#define PIINMLJJIAF_GET_X_OFFSET UNITYSDK_OFFSET(0x1A9CDE60)
+#define PIINMLJJIAF_GET_Y_OFFSET UNITYSDK_OFFSET(0x1A9CDE80)
+#define PIINMLJJIAF_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1A9CDED0)
+#define PIINMLJJIAF_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1A9CDEB0)
+#define PIINMLJJIAF_SET_X_OFFSET UNITYSDK_OFFSET(0x1A9CDE70)
+#define PIINMLJJIAF_SET_Y_OFFSET UNITYSDK_OFFSET(0x1A9CDE90)
 
-inline static constexpr unsigned int PIINMLJJIAF_TypeDefinitionIndex = 70233;
+inline static constexpr unsigned int PIINMLJJIAF_TypeDefinitionIndex = 72199;
 
 	class PIINMLJJIAF : public ::System::Object
 	{
 	public:
-		::IDEFMHBFDKL* JIOHGPCINFI; // 0x10
-		::RPG::Client::TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC* GANKCDOEOCF; // 0x18
-		::System::Single _X_k__BackingField; // 0x20
-		::System::Single _Y_k__BackingField; // 0x24
-		::System::Boolean IJIJEFDMAND; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::Single _Height_k__BackingField; // 0x2C
-		::System::Single _Width_k__BackingField; // 0x30
+		::RPG::Client::TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC* GANKCDOEOCF; // 0x10
+		::IDEFMHBFDKL* JIOHGPCINFI; // 0x18
+		::System::Single _Width_k__BackingField; // 0x20
+		::System::Single _X_k__BackingField; // 0x24
+		::System::Single _Height_k__BackingField; // 0x28
+		::System::Single _Y_k__BackingField; // 0x2C
+		::System::Boolean IJIJEFDMAND; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIINMLJJIAF_CTOR_OFFSET))(this);

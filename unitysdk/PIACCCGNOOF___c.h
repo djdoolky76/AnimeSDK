@@ -4,18 +4,18 @@
 class PIACCCGNOOF;
 namespace System { class Object; }
 
-#define PIACCCGNOOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF12BF0)
-#define PIACCCGNOOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF12C20)
-#define PIACCCGNOOF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF12C30)
+#define PIACCCGNOOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20260FC0)
+#define PIACCCGNOOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20260FF0)
+#define PIACCCGNOOF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20261000)
 
-inline static constexpr unsigned int PIACCCGNOOF___c_TypeDefinitionIndex = 33270;
+inline static constexpr unsigned int PIACCCGNOOF___c_TypeDefinitionIndex = 34185;
 
 	class PIACCCGNOOF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x342C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3AE00);
 		}
 
 		static ::System::Void _cctor()

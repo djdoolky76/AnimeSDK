@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class OfferingLevelUnlockConfigRow; }
 
-#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B13F0)
-#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B1270)
+#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F132BE0)
+#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F132A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfferingLevelUnlockConfigRow_TypeDefinitionIndex = 14295;
+	inline static constexpr unsigned int OfferingLevelUnlockConfigRow_TypeDefinitionIndex = 14452;
 
 	class OfferingLevelUnlockConfigRow : public ::System::Object
 	{

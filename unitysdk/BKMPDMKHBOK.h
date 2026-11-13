@@ -1,19 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/RPG/GameCore/ElationEchoPointUIType.h"
 #include "unitysdk/IGKFNIEJGLM.h"
+#include "unitysdk/JKHCFCIMIBJ.h"
+class ANJIIFAPKCD;
+class KJLPEOPGAMA;
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
 
-#define BKMPDMKHBOK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA5D150)
-#define BKMPDMKHBOK_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xBA5D0F0)
-#define BKMPDMKHBOK__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA5D010)
+#define BKMPDMKHBOK_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A66ED70)
+#define BKMPDMKHBOK_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1A66EE40)
+#define BKMPDMKHBOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A66EEE0)
+#define BKMPDMKHBOK_DBFINJHALNL_OFFSET UNITYSDK_OFFSET(0x1A66E680)
+#define BKMPDMKHBOK_DBLIALBBCII_OFFSET UNITYSDK_OFFSET(0x1A66EAD0)
+#define BKMPDMKHBOK_DEOCOHMHHEA_OFFSET UNITYSDK_OFFSET(0x1A66EB30)
+#define BKMPDMKHBOK_DGJLHNMLEIJ_OFFSET UNITYSDK_OFFSET(0x1A66EC10)
+#define BKMPDMKHBOK_GCPKEEMKGGF_OFFSET UNITYSDK_OFFSET(0x1A66EBA0)
+#define BKMPDMKHBOK_LIDKFDENKAP_OFFSET UNITYSDK_OFFSET(0x1A66E5D0)
+#define BKMPDMKHBOK_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x1A66E940)
+#define BKMPDMKHBOK_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1A66EA30)
+#define BKMPDMKHBOK__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A66E430)
+#define BKMPDMKHBOK__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x1A66E520)
+#define BKMPDMKHBOK__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1A66E630)
 
-inline static constexpr unsigned int BKMPDMKHBOK_TypeDefinitionIndex = 71472;
+inline static constexpr unsigned int BKMPDMKHBOK_TypeDefinitionIndex = 73457;
 
 	class BKMPDMKHBOK : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x60
+		::UnityEngine::Transform* LGNIFMDFDCK; // 0x60
+		::KJLPEOPGAMA* DIMFIPKFFGA; // 0x68
+		::System::String* NHJNLPKCEIE; // 0x70
+		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x78
+		::ANJIIFAPKCD* CNNFCEEIJAB; // 0x80
+		// static const ::System::String* JFCMCPFPDFP; // 0x0
+		// static const ::System::String* NEDFPDMNEED; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_CTOR_OFFSET))(this);
@@ -24,9 +48,64 @@ inline static constexpr unsigned int BKMPDMKHBOK_TypeDefinitionIndex = 71472;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + BKMPDMKHBOK__ONINITPARAMS_OFFSET))(this, a1);
+		}
+
+		::System::Void _SetupView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK__SETUPVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnAcquire(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_ONACQUIRE_OFFSET))(this, a1);
+		}
+
+		::System::Void OnReturn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_ONRETURN_OFFSET))(this);
+		}
+
+		::System::Void LIDKFDENKAP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_LIDKFDENKAP_OFFSET))(this);
+		}
+
+		::System::Void DEOCOHMHHEA(::JKHCFCIMIBJ a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::JKHCFCIMIBJ))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_DEOCOHMHHEA_OFFSET))(this, a1);
+		}
+
+		::System::Void DBFINJHALNL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_DBFINJHALNL_OFFSET))(this);
+		}
+
+		::System::Void DBLIALBBCII()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_DBLIALBBCII_OFFSET))(this);
+		}
+
+		::System::String* GCPKEEMKGGF(::RPG::GameCore::ElationEchoPointUIType a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::ElationEchoPointUIType))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_GCPKEEMKGGF_OFFSET))(this, a1);
+		}
+
+		::System::Void DGJLHNMLEIJ(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_DGJLHNMLEIJ_OFFSET))(this, a1);
+		}
+
+		::System::Void AutoBindCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_AUTOBINDCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void AutoRemoveCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKMPDMKHBOK_AUTOREMOVECALLBACK_OFFSET))(this);
 		}
 
 	};

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 class CDEAABODKCP;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define JOKKAPDAMPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0900)
-#define JOKKAPDAMPL_EOMJBFAECGD_OFFSET UNITYSDK_OFFSET(0xB2A0000)
-#define JOKKAPDAMPL_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xB29FEF0)
-#define JOKKAPDAMPL_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xB2A05E0)
-#define JOKKAPDAMPL_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xB29FF50)
+#define JOKKAPDAMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E2A70)
+#define JOKKAPDAMPL_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x1B4E2050)
+#define JOKKAPDAMPL_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x1B4E2740)
+#define JOKKAPDAMPL_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x1B4E20B0)
+#define JOKKAPDAMPL_UPDATEROLE_OFFSET UNITYSDK_OFFSET(0x1B4E2160)
 
-inline static constexpr unsigned int JOKKAPDAMPL_TypeDefinitionIndex = 65343;
+inline static constexpr unsigned int JOKKAPDAMPL_TypeDefinitionIndex = 67111;
 
-	class JOKKAPDAMPL : public ::AMCOEFHHBPO
+	class JOKKAPDAMPL : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* FIIOJMAOIFK; // 0x10
@@ -34,9 +34,9 @@ inline static constexpr unsigned int JOKKAPDAMPL_TypeDefinitionIndex = 65343;
 			return ((::System::Void(*)(::PVOID, ::JJDFGMMMCMI, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + JOKKAPDAMPL_UPDATEBEFORE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EOMJBFAECGD(::CDEAABODKCP* a1)
+		::System::Void UpdateRole(::CDEAABODKCP* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CDEAABODKCP*))((::PBYTE)hIl2Cpp + JOKKAPDAMPL_EOMJBFAECGD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CDEAABODKCP*))((::PBYTE)hIl2Cpp + JOKKAPDAMPL_UPDATEROLE_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateAfter(::JJDFGMMMCMI a1)

@@ -4,10 +4,10 @@
 class BIDINAPIGNA;
 namespace RPG::GameCore { class ChimeraDuelAttackJumpTextNode; }
 
-#define CLKPNGLFNGO_CTOR_OFFSET UNITYSDK_OFFSET(0xD78B5D0)
-#define CLKPNGLFNGO_DCAICGJHLPP_OFFSET UNITYSDK_OFFSET(0xD78B5E0)
+#define CLKPNGLFNGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B180700)
+#define CLKPNGLFNGO_DCAICGJHLPP_OFFSET UNITYSDK_OFFSET(0x1B180710)
 
-inline static constexpr unsigned int CLKPNGLFNGO_TypeDefinitionIndex = 77625;
+inline static constexpr unsigned int CLKPNGLFNGO_TypeDefinitionIndex = 80360;
 
 	class CLKPNGLFNGO : public ::HMDKMIJLJFH
 	{

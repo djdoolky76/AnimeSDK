@@ -6,7 +6,7 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-inline static constexpr unsigned int OBGAECGPEFF_EJADJCCBOAB_TypeDefinitionIndex = 54991;
+inline static constexpr unsigned int OBGAECGPEFF_EJADJCCBOAB_TypeDefinitionIndex = 56165;
 
 	struct alignas(8) OBGAECGPEFF_EJADJCCBOAB
 	{

@@ -6,12 +6,12 @@ namespace RPG::GameCore { class TimelineIntermediaStateConfig; }
 namespace RPG::GameCore { class TimelineStateTransitionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMELINESTATETRANSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5C6D0)
-#define RPG_GAMECORE_TIMELINESTATETRANSITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5C540)
+#define RPG_GAMECORE_TIMELINESTATETRANSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D0E80)
+#define RPG_GAMECORE_TIMELINESTATETRANSITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5D0CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimelineStateTransitionConfig_TypeDefinitionIndex = 16611;
+	inline static constexpr unsigned int TimelineStateTransitionConfig_TypeDefinitionIndex = 16777;
 
 	class TimelineStateTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyPerformanceFreeStyleAction; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCEFREESTYLEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC06CE0)
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCEFREESTYLEACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC06B90)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCEFREESTYLEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3105C0)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCEFREESTYLEACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E310470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPerformanceFreeStyleAction_TypeDefinitionIndex = 16262;
+	inline static constexpr unsigned int TrainPartyPerformanceFreeStyleAction_TypeDefinitionIndex = 16420;
 
 	class TrainPartyPerformanceFreeStyleAction : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 class MIBMLOEAJII;
 
-#define MIBMLOEAJII_CTOR_OFFSET UNITYSDK_OFFSET(0x1D182500)
-#define MIBMLOEAJII_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D182510)
-#define MIBMLOEAJII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1823B0)
+#define MIBMLOEAJII_CTOR_OFFSET UNITYSDK_OFFSET(0x1F587030)
+#define MIBMLOEAJII_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F587040)
+#define MIBMLOEAJII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F586EE0)
 
-inline static constexpr unsigned int MIBMLOEAJII_TypeDefinitionIndex = 21552;
+inline static constexpr unsigned int MIBMLOEAJII_TypeDefinitionIndex = 21940;
 
 	class MIBMLOEAJII : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::Boolean ICJMOAILNCH; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x18
+		::System::Boolean ICJMOAILNCH; // 0x1C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 PHFMCACHFIJ; // 0x1C
 		::System::Single CKIFAIJPDEN; // 0x20
 		::System::Void _ctor()
 		{

@@ -11,54 +11,54 @@ namespace RPG::Client::CrowdAnimator { class CrowdPrototype; }
 namespace RPG::Client::CrowdAnimator { class CrowdVariant; }
 namespace System { class Object; }
 
-#define CKAMKNNDAFO_AJIGALIAMLJ_1_OFFSET UNITYSDK_OFFSET(0xD74D140)
-#define CKAMKNNDAFO_AJIGALIAMLJ_OFFSET UNITYSDK_OFFSET(0xD74CD20)
-#define CKAMKNNDAFO_AODHDMJMBNO_OFFSET UNITYSDK_OFFSET(0xD74CF30)
-#define CKAMKNNDAFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xD74C870)
-#define CKAMKNNDAFO_FNJGFKFHPJA_OFFSET UNITYSDK_OFFSET(0xD74D510)
-#define CKAMKNNDAFO_GIEMABLIHLF_OFFSET UNITYSDK_OFFSET(0xD74D480)
-#define CKAMKNNDAFO_HNPFGLDAEIE_OFFSET UNITYSDK_OFFSET(0xD74D2C0)
-#define CKAMKNNDAFO_JOOCENHOOED_1_OFFSET UNITYSDK_OFFSET(0xD74D050)
-#define CKAMKNNDAFO_JOOCENHOOED_OFFSET UNITYSDK_OFFSET(0xD74CC30)
-#define CKAMKNNDAFO_KCOMICMBJCM_OFFSET UNITYSDK_OFFSET(0xD74D230)
-#define CKAMKNNDAFO_NIKACLEHEME_OFFSET UNITYSDK_OFFSET(0xD74CE10)
-#define CKAMKNNDAFO_NNALCIHNPFE_OFFSET UNITYSDK_OFFSET(0xD74D3F0)
-#define CKAMKNNDAFO_PILNEEFIHOK_OFFSET UNITYSDK_OFFSET(0xD74D360)
-#define CKAMKNNDAFO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xD74CAE0)
+#define CKAMKNNDAFO_AJIGALIAMLJ_1_OFFSET UNITYSDK_OFFSET(0x1AD350F0)
+#define CKAMKNNDAFO_AJIGALIAMLJ_OFFSET UNITYSDK_OFFSET(0x1AD34CD0)
+#define CKAMKNNDAFO_AODHDMJMBNO_OFFSET UNITYSDK_OFFSET(0x1AD34EE0)
+#define CKAMKNNDAFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD34820)
+#define CKAMKNNDAFO_FNJGFKFHPJA_OFFSET UNITYSDK_OFFSET(0x1AD354C0)
+#define CKAMKNNDAFO_GIEMABLIHLF_OFFSET UNITYSDK_OFFSET(0x1AD35430)
+#define CKAMKNNDAFO_HNPFGLDAEIE_OFFSET UNITYSDK_OFFSET(0x1AD35270)
+#define CKAMKNNDAFO_JOOCENHOOED_1_OFFSET UNITYSDK_OFFSET(0x1AD35000)
+#define CKAMKNNDAFO_JOOCENHOOED_OFFSET UNITYSDK_OFFSET(0x1AD34BE0)
+#define CKAMKNNDAFO_KCOMICMBJCM_OFFSET UNITYSDK_OFFSET(0x1AD351E0)
+#define CKAMKNNDAFO_NIKACLEHEME_OFFSET UNITYSDK_OFFSET(0x1AD34DC0)
+#define CKAMKNNDAFO_NNALCIHNPFE_OFFSET UNITYSDK_OFFSET(0x1AD353A0)
+#define CKAMKNNDAFO_PILNEEFIHOK_OFFSET UNITYSDK_OFFSET(0x1AD35310)
+#define CKAMKNNDAFO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1AD34A90)
 
-inline static constexpr unsigned int CKAMKNNDAFO_TypeDefinitionIndex = 69132;
+inline static constexpr unsigned int CKAMKNNDAFO_TypeDefinitionIndex = 71085;
 
 	class CKAMKNNDAFO : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_CHHOGMJFINC()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x43BD0);
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2EC30);
 		}
 
 		static ::System::Object** StaticGet_LIJACOBKEBJ()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x43BD8);
-		}
-
-		static ::System::Object** StaticGet_CGCPGJJHIMN()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x43BE0);
-		}
-
-		static ::System::Object** StaticGet_PJOIIMGLKBM()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x43BE8);
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2EC38);
 		}
 
 		static ::System::Object** StaticGet_CJJLFKBLJKD()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x43BF0);
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2EC40);
+		}
+
+		static ::System::Object** StaticGet_CGCPGJJHIMN()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2EC48);
 		}
 
 		static ::System::Object** StaticGet_EOGNIHBOCBE()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x43BF8);
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2EC50);
+		}
+
+		static ::System::Object** StaticGet_PJOIIMGLKBM()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2EC58);
 		}
 
 		static ::System::Void _cctor()

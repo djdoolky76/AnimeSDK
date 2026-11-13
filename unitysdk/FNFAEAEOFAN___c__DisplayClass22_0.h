@@ -6,18 +6,18 @@ class FNFAEAEOFAN;
 namespace RPG::Client { class MonoEffect; }
 namespace UnityEngine { class GameObject; }
 
-#define FNFAEAEOFAN___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15862210)
-#define FNFAEAEOFAN___C__DISPLAYCLASS22_0___FIRETRAILEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x158627C0)
+#define FNFAEAEOFAN___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17F15040)
+#define FNFAEAEOFAN___C__DISPLAYCLASS22_0___FIRETRAILEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17F155F0)
 
-inline static constexpr unsigned int FNFAEAEOFAN___c__DisplayClass22_0_TypeDefinitionIndex = 60610;
+inline static constexpr unsigned int FNFAEAEOFAN___c__DisplayClass22_0_TypeDefinitionIndex = 61987;
 
 	class FNFAEAEOFAN___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* targetGo; // 0x10
-		::UnityEngine::GameObject* transitGo; // 0x18
-		::RPG::Client::MonoEffect* energyEffect; // 0x20
-		::FNFAEAEOFAN* __4__this; // 0x28
+		::FNFAEAEOFAN* __4__this; // 0x10
+		::UnityEngine::GameObject* targetGo; // 0x18
+		::UnityEngine::GameObject* transitGo; // 0x20
+		::RPG::Client::MonoEffect* energyEffect; // 0x28
 		::System::Int32 energyNum; // 0x30
 		::System::Void _ctor()
 		{

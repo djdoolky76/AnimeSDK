@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindSetResetPlayerAnchor; }
 
-#define CCPKNIEFEIC_CTOR_OFFSET UNITYSDK_OFFSET(0xC751170)
-#define CCPKNIEFEIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7511A0)
+#define CCPKNIEFEIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1739BE20)
+#define CCPKNIEFEIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1739BE50)
 
-inline static constexpr unsigned int CCPKNIEFEIC_TypeDefinitionIndex = 53404;
+inline static constexpr unsigned int CCPKNIEFEIC_TypeDefinitionIndex = 54566;
 
 	class CCPKNIEFEIC
 	{

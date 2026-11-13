@@ -6,31 +6,31 @@ namespace RPG::Client { class AirlineWay_BKDFMLDIINE; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_AIRLINEWAY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC63F330)
-#define RPG_CLIENT_AIRLINEWAY___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC63F360)
-#define RPG_CLIENT_AIRLINEWAY___C__AWAKE_B__54_0_OFFSET UNITYSDK_OFFSET(0xC63F370)
-#define RPG_CLIENT_AIRLINEWAY___C__INITRACINGBOOSTRINGS_B__63_0_OFFSET UNITYSDK_OFFSET(0xC63F3B0)
+#define RPG_CLIENT_AIRLINEWAY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2EAF20)
+#define RPG_CLIENT_AIRLINEWAY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2EAF50)
+#define RPG_CLIENT_AIRLINEWAY___C__AWAKE_B__54_0_OFFSET UNITYSDK_OFFSET(0x1B2EAF60)
+#define RPG_CLIENT_AIRLINEWAY___C__INITRACINGBOOSTRINGS_B__63_0_OFFSET UNITYSDK_OFFSET(0x1B2EAFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineWay___c_TypeDefinitionIndex = 59777;
+	inline static constexpr unsigned int AirlineWay___c_TypeDefinitionIndex = 61057;
 
 	class AirlineWay___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3FB80);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::AirlineVariableScalePoint*>** StaticGet___9__54_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::AirlineVariableScalePoint*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3FB88);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4E530);
 		}
 
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__63_0()
 		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3FB90);
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4E538);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::AirlineVariableScalePoint*>** StaticGet___9__54_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::AirlineVariableScalePoint*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4E540);
 		}
 
 		static ::System::Void _cctor()

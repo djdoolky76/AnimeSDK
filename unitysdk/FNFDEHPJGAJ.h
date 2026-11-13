@@ -4,9 +4,9 @@
 namespace Entitas { class ISystem; }
 namespace System { class String; }
 
-#define FNFDEHPJGAJ_OFPLCANEGOK_OFFSET UNITYSDK_OFFSET(0x15862830)
+#define FNFDEHPJGAJ_OFPLCANEGOK_OFFSET UNITYSDK_OFFSET(0x17F15660)
 
-inline static constexpr unsigned int FNFDEHPJGAJ_TypeDefinitionIndex = 76769;
+inline static constexpr unsigned int FNFDEHPJGAJ_TypeDefinitionIndex = 79102;
 
 	class FNFDEHPJGAJ : public ::System::Object
 	{

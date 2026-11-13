@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveEffectOnCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CEDFFPCDGOE_CTOR_OFFSET UNITYSDK_OFFSET(0xC77B820)
-#define CEDFFPCDGOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC77B850)
+#define CEDFFPCDGOE_CTOR_OFFSET UNITYSDK_OFFSET(0x173C7C00)
+#define CEDFFPCDGOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173C7C30)
 
-inline static constexpr unsigned int CEDFFPCDGOE_TypeDefinitionIndex = 58386;
+inline static constexpr unsigned int CEDFFPCDGOE_TypeDefinitionIndex = 59642;
 
 	class CEDFFPCDGOE
 	{

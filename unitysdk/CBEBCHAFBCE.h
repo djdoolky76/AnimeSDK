@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define CBEBCHAFBCE_CFKKENJPLFH_OFFSET UNITYSDK_OFFSET(0xC499620)
-#define CBEBCHAFBCE_CTOR_OFFSET UNITYSDK_OFFSET(0xC499610)
+#define CBEBCHAFBCE_CFKKENJPLFH_OFFSET UNITYSDK_OFFSET(0x18FD68D0)
+#define CBEBCHAFBCE_CTOR_OFFSET UNITYSDK_OFFSET(0x18FD68C0)
 
-inline static constexpr unsigned int CBEBCHAFBCE_TypeDefinitionIndex = 49149;
+inline static constexpr unsigned int CBEBCHAFBCE_TypeDefinitionIndex = 50225;
 
 	class CBEBCHAFBCE : public ::System::Object
 	{

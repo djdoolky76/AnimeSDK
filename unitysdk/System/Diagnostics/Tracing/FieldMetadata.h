@@ -5,10 +5,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1C92D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C9290)
-#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_ENCODE_OFFSET UNITYSDK_OFFSET(0x1C1C9650)
-#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_INCREMENTSTRUCTFIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x1C1C95E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0D5CD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D5C90)
+#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_ENCODE_OFFSET UNITYSDK_OFFSET(0x1C0D6050)
+#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_INCREMENTSTRUCTFIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x1C0D5FE0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -17,13 +17,13 @@ namespace System::Diagnostics::Tracing
 	class FieldMetadata : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::Il2CppArray<::System::Byte>* custom; // 0x18
-		::System::Int32 nameSize; // 0x20
-		::System::Diagnostics::Tracing::EventFieldTags tags; // 0x24
-		::System::Byte outType; // 0x28
-		::System::Byte inType; // 0x29
-		::System::UInt16 fixedCount; // 0x2A
+		::Il2CppArray<::System::Byte>* custom; // 0x10
+		::System::String* name; // 0x18
+		::System::Diagnostics::Tracing::EventFieldTags tags; // 0x20
+		::System::Int32 nameSize; // 0x24
+		::System::UInt16 fixedCount; // 0x28
+		::System::Byte outType; // 0x2A
+		::System::Byte inType; // 0x2B
 		::System::Void _ctor(::System::String* a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2, ::System::Diagnostics::Tracing::EventFieldTags a3, ::System::Boolean a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingDataType, ::System::Diagnostics::Tracing::EventFieldTags, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_CTOR_OFFSET))(this, a1, a2, a3, a4);

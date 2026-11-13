@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOEFFECTRANDOMROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0xD809080)
-#define RPG_CLIENT_MONOEFFECTRANDOMROTATION_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD809030)
+#define RPG_CLIENT_MONOEFFECTRANDOMROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADF2BE0)
+#define RPG_CLIENT_MONOEFFECTRANDOMROTATION_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1ADF2B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectRandomRotation_TypeDefinitionIndex = 68586;
+	inline static constexpr unsigned int MonoEffectRandomRotation_TypeDefinitionIndex = 70534;
 
 	class MonoEffectRandomRotation
 	{

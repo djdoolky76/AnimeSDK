@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define FNCGHDEINFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1585E9D0)
+#define FNCGHDEINFN_CTOR_OFFSET UNITYSDK_OFFSET(0x17F11800)
 
-inline static constexpr unsigned int FNCGHDEINFN_TypeDefinitionIndex = 48240;
+inline static constexpr unsigned int FNCGHDEINFN_TypeDefinitionIndex = 49281;
 
 	class FNCGHDEINFN : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -4,21 +4,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerChatRow; }
 
-#define RPG_GAMECORE_DRINKMAKERCHATROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ECC50)
-#define RPG_GAMECORE_DRINKMAKERCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5EC620)
+#define RPG_GAMECORE_DRINKMAKERCHATROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CA6A0)
+#define RPG_GAMECORE_DRINKMAKERCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3CA070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerChatRow_TypeDefinitionIndex = 13182;
+	inline static constexpr unsigned int DrinkMakerChatRow_TypeDefinitionIndex = 13256;
 
 	class DrinkMakerChatRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RequestID; // 0x10
+		::System::UInt32 ChatID; // 0x10
 		::System::UInt32 SuccessNextChatID; // 0x14
-		::System::UInt32 FailNextChatID; // 0x18
+		::System::UInt32 RequestID; // 0x18
 		::System::UInt32 PerformanceID; // 0x1C
-		::System::UInt32 ChatID; // 0x20
+		::System::UInt32 FailNextChatID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERCHATROW_CTOR_OFFSET))(this);

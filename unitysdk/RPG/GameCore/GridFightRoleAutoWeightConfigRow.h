@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightRoleAutoWeightConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70EA00)
-#define RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D70E820)
+#define RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5AB50)
+#define RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA5A970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleAutoWeightConfigRow_TypeDefinitionIndex = 13536;
+	inline static constexpr unsigned int GridFightRoleAutoWeightConfigRow_TypeDefinitionIndex = 13631;
 
 	class GridFightRoleAutoWeightConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint OverWriteDamageCarry; // 0x10
-		::System::Boolean IsDamageEnhancedByEquip; // 0x18
+		::System::UInt32 RoleID; // 0x10
+		::System::Boolean IsDamageEnhancedByEquip; // 0x14
 		::System::Byte _padding0[0x3];
-		::System::UInt32 RoleID; // 0x1C
+		::RPG::GameCore::FixPoint OverWriteDamageCarry; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW_CTOR_OFFSET))(this);

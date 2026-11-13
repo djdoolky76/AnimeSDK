@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define BCGANHPJODA_CTOR_OFFSET UNITYSDK_OFFSET(0x15E99FE0)
-#define BCGANHPJODA_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x15E99EA0)
+#define BCGANHPJODA_CTOR_OFFSET UNITYSDK_OFFSET(0x19D74CB0)
+#define BCGANHPJODA_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x19D74B70)
 
-inline static constexpr unsigned int BCGANHPJODA_TypeDefinitionIndex = 69736;
+inline static constexpr unsigned int BCGANHPJODA_TypeDefinitionIndex = 71693;
 
 	class BCGANHPJODA
 	{

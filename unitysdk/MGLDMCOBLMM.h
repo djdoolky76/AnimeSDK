@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByFormationIndex; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGLDMCOBLMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB921CB0)
-#define MGLDMCOBLMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB921D90)
+#define MGLDMCOBLMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B347C50)
+#define MGLDMCOBLMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B347D30)
 
-inline static constexpr unsigned int MGLDMCOBLMM_TypeDefinitionIndex = 55436;
+inline static constexpr unsigned int MGLDMCOBLMM_TypeDefinitionIndex = 56622;
 
 	class MGLDMCOBLMM
 	{

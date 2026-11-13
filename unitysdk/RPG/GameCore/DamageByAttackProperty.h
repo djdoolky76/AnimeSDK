@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AttackType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AttackData; }
@@ -12,14 +11,14 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C25D0)
-#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5C2640)
-#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C2390)
-#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1D5C3180)
+#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFFBA10)
+#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EFFBA80)
+#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFFB7D0)
+#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1EFFC570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageByAttackProperty_TypeDefinitionIndex = 22595;
+	inline static constexpr unsigned int DamageByAttackProperty_TypeDefinitionIndex = 23010;
 
 	class DamageByAttackProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,19 +32,17 @@ namespace RPG::GameCore
 		::System::Boolean IsConvert; // 0x39
 		::System::Byte _padding1[0x6];
 		::System::String* EffectMessage; // 0x40
-		::RPG::GameCore::AttackType AttackType; // 0x48
-		::System::Byte _padding2[0x4];
-		::RPG::GameCore::DamageDisplayData* DisplayData; // 0x50
-		::System::Boolean CanOverkill; // 0x58
+		::RPG::GameCore::DamageDisplayData* DisplayData; // 0x48
+		::System::Boolean CanOverkill; // 0x50
+		::System::Byte _padding2[0x7];
+		::RPG::GameCore::DynamicFloat* PerformanceDelay; // 0x58
+		::System::Boolean IsHitAnimPerformanceDelay; // 0x60
 		::System::Byte _padding3[0x7];
-		::RPG::GameCore::DynamicFloat* PerformanceDelay; // 0x60
-		::System::Boolean IsHitAnimPerformanceDelay; // 0x68
-		::System::Byte _padding4[0x7];
-		::RPG::GameCore::TargetEvaluator* OverrideAttacker; // 0x70
-		::RPG::GameCore::TargetEvaluator* OverrideDamagePropertySource; // 0x78
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterHit; // 0x80
-		::System::Boolean DealAfterRootHitEnd; // 0x88
-		::System::Boolean EqualSplitInTargets; // 0x89
+		::RPG::GameCore::TargetEvaluator* OverrideAttacker; // 0x68
+		::RPG::GameCore::TargetEvaluator* OverrideDamagePropertySource; // 0x70
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterHit; // 0x78
+		::System::Boolean DealAfterRootHitEnd; // 0x80
+		::System::Boolean EqualSplitInTargets; // 0x81
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_CTOR_OFFSET))(this);

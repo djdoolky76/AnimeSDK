@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowMissionInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJJJLJKGOCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB713470)
-#define LJJJLJKGOCG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB713480)
-#define LJJJLJKGOCG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7134C0)
-#define LJJJLJKGOCG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB713570)
-#define LJJJLJKGOCG_TICK_OFFSET UNITYSDK_OFFSET(0xB7135C0)
+#define LJJJLJKGOCG_CTOR_OFFSET UNITYSDK_OFFSET(0x18CBB730)
+#define LJJJLJKGOCG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18CBB740)
+#define LJJJLJKGOCG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CBB780)
+#define LJJJLJKGOCG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18CBB830)
+#define LJJJLJKGOCG_TICK_OFFSET UNITYSDK_OFFSET(0x18CBB880)
 
-inline static constexpr unsigned int LJJJLJKGOCG_TypeDefinitionIndex = 53280;
+inline static constexpr unsigned int LJJJLJKGOCG_TypeDefinitionIndex = 54442;
 
 	class LJJJLJKGOCG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowMissionInfo* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowMissionInfo* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowMissionInfo* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowMissionInfo*))((::PBYTE)hIl2Cpp + LJJJLJKGOCG_CTOR_OFFSET))(this, a1, a2);

@@ -3,11 +3,11 @@
 #include "unitysdk/MiHoYo/SDK/SwitchBaseConfig.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_NOTICENATIVETASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8D260)
+#define MIHOYO_SDK_NOTICENATIVETASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C344A30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NoticeNativeTaskConfig_TypeDefinitionIndex = 7928;
+	inline static constexpr unsigned int NoticeNativeTaskConfig_TypeDefinitionIndex = 7937;
 
 	class NoticeNativeTaskConfig : public ::MiHoYo::SDK::SwitchBaseConfig
 	{

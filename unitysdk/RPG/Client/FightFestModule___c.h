@@ -9,55 +9,55 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FIGHTFESTMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFF4620)
-#define RPG_CLIENT_FIGHTFESTMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFF4650)
-#define RPG_CLIENT_FIGHTFESTMODULE___C__GETAVAILABLEPAPERIDS_B__78_0_OFFSET UNITYSDK_OFFSET(0xCFF4760)
-#define RPG_CLIENT_FIGHTFESTMODULE___C__GETAVAILABLEPAPERIDS_B__78_1_OFFSET UNITYSDK_OFFSET(0xCFF4780)
-#define RPG_CLIENT_FIGHTFESTMODULE___C__GETPAPERPROGRESS_B__183_0_OFFSET UNITYSDK_OFFSET(0xCFF4940)
-#define RPG_CLIENT_FIGHTFESTMODULE___C__ISSHOWSCORERACENEWTIPS_B__135_0_OFFSET UNITYSDK_OFFSET(0xCFF48E0)
-#define RPG_CLIENT_FIGHTFESTMODULE___C___INITPAPERS_B__77_0_OFFSET UNITYSDK_OFFSET(0xCFF4660)
-#define RPG_CLIENT_FIGHTFESTMODULE___C___INITPHASES_B__86_0_OFFSET UNITYSDK_OFFSET(0xCFF47E0)
+#define RPG_CLIENT_FIGHTFESTMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B306E30)
+#define RPG_CLIENT_FIGHTFESTMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B306E60)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__GETAVAILABLEPAPERIDS_B__78_0_OFFSET UNITYSDK_OFFSET(0x1B306F70)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__GETAVAILABLEPAPERIDS_B__78_1_OFFSET UNITYSDK_OFFSET(0x1B306F90)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__GETPAPERPROGRESS_B__183_0_OFFSET UNITYSDK_OFFSET(0x1B307150)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__ISSHOWSCORERACENEWTIPS_B__135_0_OFFSET UNITYSDK_OFFSET(0x1B3070F0)
+#define RPG_CLIENT_FIGHTFESTMODULE___C___INITPAPERS_B__77_0_OFFSET UNITYSDK_OFFSET(0x1B306E70)
+#define RPG_CLIENT_FIGHTFESTMODULE___C___INITPHASES_B__86_0_OFFSET UNITYSDK_OFFSET(0x1B306FF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestModule___c_TypeDefinitionIndex = 64188;
+	inline static constexpr unsigned int FightFestModule___c_TypeDefinitionIndex = 65633;
 
 	class FightFestModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::FightFestPaper*, ::System::UInt32>** StaticGet___9__78_1()
-		{
-			return (::System::Func_2<::RPG::Client::FightFestPaper*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BA80);
-		}
-
 		static ::System::Func_2<::RPG::Client::FightFestPaper*, ::System::Boolean>** StaticGet___9__183_0()
 		{
-			return (::System::Func_2<::RPG::Client::FightFestPaper*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BA88);
-		}
-
-		static ::System::Func_2<::RPG::Client::FightFestScoreRace*, ::System::Boolean>** StaticGet___9__135_0()
-		{
-			return (::System::Func_2<::RPG::Client::FightFestScoreRace*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BA90);
+			return (::System::Func_2<::RPG::Client::FightFestPaper*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62A20);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BA98);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::FightFestPaperInterview*>** StaticGet___9__77_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::FightFestPaperInterview*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BAA0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62A28);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::FightFestPhase*>** StaticGet___9__86_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FightFestPhase*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BAA8);
+			return (::System::Comparison_1<::RPG::Client::FightFestPhase*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62A30);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::FightFestPaperInterview*>** StaticGet___9__77_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::FightFestPaperInterview*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62A38);
+		}
+
+		static ::System::Func_2<::RPG::Client::FightFestScoreRace*, ::System::Boolean>** StaticGet___9__135_0()
+		{
+			return (::System::Func_2<::RPG::Client::FightFestScoreRace*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62A40);
 		}
 
 		static ::System::Func_2<::RPG::Client::FightFestPaper*, ::System::Boolean>** StaticGet___9__78_0()
 		{
-			return (::System::Func_2<::RPG::Client::FightFestPaper*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BAB0);
+			return (::System::Func_2<::RPG::Client::FightFestPaper*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62A48);
+		}
+
+		static ::System::Func_2<::RPG::Client::FightFestPaper*, ::System::UInt32>** StaticGet___9__78_1()
+		{
+			return (::System::Func_2<::RPG::Client::FightFestPaper*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x62A50);
 		}
 
 		static ::System::Void _cctor()

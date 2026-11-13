@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class NewFireProjectile; }
 namespace RPG::GameCore { class NewProjectileConfig; }
 
-#define RPG_GAMECORE_NEWFIREPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A95C0)
-#define RPG_GAMECORE_NEWFIREPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8A95E0)
-#define RPG_GAMECORE_NEWFIREPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8A9580)
+#define RPG_GAMECORE_NEWFIREPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E49A190)
+#define RPG_GAMECORE_NEWFIREPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E49A1B0)
+#define RPG_GAMECORE_NEWFIREPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E49A150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewFireProjectile_TypeDefinitionIndex = 22581;
+	inline static constexpr unsigned int NewFireProjectile_TypeDefinitionIndex = 22996;
 
 	class NewFireProjectile : public ::RPG::GameCore::FireProjectileBase
 	{

@@ -6,24 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerIconConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERICONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9076A0)
-#define RPG_GAMECORE_PLAYERICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D906F20)
+#define RPG_GAMECORE_PLAYERICONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF71890)
+#define RPG_GAMECORE_PLAYERICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF71110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerIconConfigRow_TypeDefinitionIndex = 14496;
+	inline static constexpr unsigned int PlayerIconConfigRow_TypeDefinitionIndex = 14651;
 
 	class PlayerIconConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::UInt32 SortType; // 0x18
-		::System::UInt32 AvatarID; // 0x1C
-		::RPG::GameCore::IconType Type; // 0x20
-		::System::Boolean IsVisible; // 0x24
+		::RPG::GameCore::IconType Type; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 Sort; // 0x20
+		::System::UInt32 AvatarID; // 0x24
+		::System::Boolean IsVisible; // 0x28
 		::System::Byte _padding0[0x3];
-		::System::UInt32 Sort; // 0x28
-		::System::UInt32 ID; // 0x2C
+		::System::UInt32 SortType; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERICONCONFIGROW_CTOR_OFFSET))(this);

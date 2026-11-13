@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HMBIHENJNMJ;
 
-#define IOJFBCMGMCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C120)
+#define IOJFBCMGMCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC48F70)
 
-inline static constexpr unsigned int IOJFBCMGMCB_TypeDefinitionIndex = 43231;
+inline static constexpr unsigned int IOJFBCMGMCB_TypeDefinitionIndex = 44212;
 
 	class IOJFBCMGMCB : public ::System::Object
 	{

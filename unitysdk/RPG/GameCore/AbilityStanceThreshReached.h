@@ -8,22 +8,22 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4B10B0)
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CTOR_OFFSET UNITYSDK_OFFSET(0xE4B11A0)
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4B1150)
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4B1100)
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_INIT_OFFSET UNITYSDK_OFFSET(0xE4B1020)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CLEAR_OFFSET UNITYSDK_OFFSET(0x18276370)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CTOR_OFFSET UNITYSDK_OFFSET(0x18276460)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18276410)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x182763C0)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_INIT_OFFSET UNITYSDK_OFFSET(0x182762E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityStanceThreshReached_TypeDefinitionIndex = 56587;
+	inline static constexpr unsigned int AbilityStanceThreshReached_TypeDefinitionIndex = 57808;
 
 	class AbilityStanceThreshReached : public ::CMPGEAFHHDC
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* LockHPKeys; // 0x18
-		::RPG::GameCore::GameEntity* AttackerEntity; // 0x20
-		::RPG::GameCore::GameEntity* DefenderEntity; // 0x28
+		::RPG::GameCore::GameEntity* AttackerEntity; // 0x18
+		::RPG::GameCore::GameEntity* DefenderEntity; // 0x20
+		::System::Collections::Generic::List_1<::System::String*>* LockHPKeys; // 0x28
 		::System::Int32 SumStanceCount; // 0x30
 		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint Threshold; // 0x38

@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FontWeight_TypeDefinitionIndex = 44654;
+	inline static constexpr unsigned int FontWeight_TypeDefinitionIndex = 45729;
 
 	enum class FontWeight : ::System::Int32
 	{

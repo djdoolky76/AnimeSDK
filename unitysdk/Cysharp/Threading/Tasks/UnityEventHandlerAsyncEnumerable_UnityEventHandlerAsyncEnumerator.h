@@ -11,37 +11,37 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1359E0)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F135320)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F135810)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F135330)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F135600)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1F135340)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_ONCANCELED1_OFFSET UNITYSDK_OFFSET(0x1F1356B0)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_ONCANCELED2_OFFSET UNITYSDK_OFFSET(0x1F135880)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E575700)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1E575040)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1E575530)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E575050)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E575320)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1E575060)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_ONCANCELED1_OFFSET UNITYSDK_OFFSET(0x1E5753D0)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_ONCANCELED2_OFFSET UNITYSDK_OFFSET(0x1E5755A0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_UnityEventHandlerAsyncEnumerator_TypeDefinitionIndex = 38484;
+	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_UnityEventHandlerAsyncEnumerator_TypeDefinitionIndex = 39413;
 
 	class UnityEventHandlerAsyncEnumerable_UnityEventHandlerAsyncEnumerator : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
 	public:
-		::System::Threading::CancellationTokenRegistration registration2; // 0x30
-		::UnityEngine::Events::UnityAction* unityAction; // 0x48
-		::System::Threading::CancellationToken cancellationToken1; // 0x50
-		::System::Threading::CancellationToken cancellationToken2; // 0x58
-		::System::Threading::CancellationTokenRegistration registration1; // 0x60
-		::UnityEngine::Events::UnityEvent* unityEvent; // 0x78
+		::UnityEngine::Events::UnityEvent* unityEvent; // 0x30
+		::System::Threading::CancellationTokenRegistration registration2; // 0x38
+		::UnityEngine::Events::UnityAction* unityAction; // 0x50
+		::System::Threading::CancellationToken cancellationToken1; // 0x58
+		::System::Threading::CancellationToken cancellationToken2; // 0x60
+		::System::Threading::CancellationTokenRegistration registration1; // 0x68
 		::System::Boolean isDisposed; // 0x80
-		static ::System::Action_1<::System::Object*>** StaticGet_cancel1()
-		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UnityEventHandlerAsyncEnumerator")->GetStaticField(0x3C170);
-		}
-
 		static ::System::Action_1<::System::Object*>** StaticGet_cancel2()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UnityEventHandlerAsyncEnumerator")->GetStaticField(0x3C178);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UnityEventHandlerAsyncEnumerator")->GetStaticField(0x3AEB0);
+		}
+
+		static ::System::Action_1<::System::Object*>** StaticGet_cancel1()
+		{
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UnityEventHandlerAsyncEnumerator")->GetStaticField(0x3AEB8);
 		}
 
 		::System::Void _ctor(::UnityEngine::Events::UnityEvent* a1, ::System::Threading::CancellationToken a2, ::System::Threading::CancellationToken a3)

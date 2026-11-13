@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7ED90)
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS19_0__HTTPGETBINARY_B__0_OFFSET UNITYSDK_OFFSET(0x1BE7F7B0)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C336560)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS19_0__HTTPGETBINARY_B__0_OFFSET UNITYSDK_OFFSET(0x1C336F80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil___c__DisplayClass19_0_TypeDefinitionIndex = 8195;
+	inline static constexpr unsigned int NetUtil___c__DisplayClass19_0_TypeDefinitionIndex = 8204;
 
 	class NetUtil___c__DisplayClass19_0 : public ::System::Object
 	{

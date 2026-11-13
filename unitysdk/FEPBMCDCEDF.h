@@ -3,10 +3,10 @@
 class OLCFDLCNOHH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FEPBMCDCEDF_CTOR_OFFSET UNITYSDK_OFFSET(0x157234A0)
-#define FEPBMCDCEDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157234D0)
+#define FEPBMCDCEDF_CTOR_OFFSET UNITYSDK_OFFSET(0x130D3A90)
+#define FEPBMCDCEDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x130D3AC0)
 
-inline static constexpr unsigned int FEPBMCDCEDF_TypeDefinitionIndex = 55694;
+inline static constexpr unsigned int FEPBMCDCEDF_TypeDefinitionIndex = 56896;
 
 	class FEPBMCDCEDF
 	{

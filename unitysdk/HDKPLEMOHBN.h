@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HDKPLEMOHBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA8F950)
+#define HDKPLEMOHBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA96A90)
 
-inline static constexpr unsigned int HDKPLEMOHBN_TypeDefinitionIndex = 42990;
+inline static constexpr unsigned int HDKPLEMOHBN_TypeDefinitionIndex = 43971;
 
 	class HDKPLEMOHBN : public ::System::Object
 	{

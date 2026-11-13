@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_SWORDTRAININGMARCHSEVEN_CTOR_OFFSET UNITYSDK_OFFSET(0xE169670)
+#define RPG_CLIENT_SWORDTRAININGMARCHSEVEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD0BA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingMarchSeven_TypeDefinitionIndex = 72931;
+	inline static constexpr unsigned int SwordTrainingMarchSeven_TypeDefinitionIndex = 75041;
 
 	class SwordTrainingMarchSeven : public ::UnityEngine::MonoBehaviour
 	{

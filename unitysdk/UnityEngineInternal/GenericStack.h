@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/Stack.h"
 
-#define UNITYENGINEINTERNAL_GENERICSTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F414160)
+#define UNITYENGINEINTERNAL_GENERICSTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x208501C0)
 
 namespace UnityEngineInternal
 {

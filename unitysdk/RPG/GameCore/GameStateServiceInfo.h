@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameStateServiceInfo_TypeDefinitionIndex = 13371;
+	inline static constexpr unsigned int GameStateServiceInfo_TypeDefinitionIndex = 13443;
 
 	enum class GameStateServiceInfo : ::System::Int32
 	{

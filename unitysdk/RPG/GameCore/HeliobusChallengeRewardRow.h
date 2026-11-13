@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeliobusChallengeRewardRow; }
 
-#define RPG_GAMECORE_HELIOBUSCHALLENGEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D730520)
-#define RPG_GAMECORE_HELIOBUSCHALLENGEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72FE80)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7F6E0)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA7F000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusChallengeRewardRow_TypeDefinitionIndex = 13769;
+	inline static constexpr unsigned int HeliobusChallengeRewardRow_TypeDefinitionIndex = 13926;
 
 	class HeliobusChallengeRewardRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 UnlockQuest; // 0x18
-		::System::UInt32 ChallengePhaseID; // 0x1C
-		::System::UInt32 ChallengeRewardTabID; // 0x20
+		::System::UInt32 ChallengePhaseID; // 0x18
+		::System::UInt32 ChallengeRewardTabID; // 0x1C
+		::System::UInt32 UnlockQuest; // 0x20
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID ChallengeRewardTabName; // 0x28
 		::System::Void _ctor()

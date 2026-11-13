@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsExcludeInMultiCharacterFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CBPPKOABNCB_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B2D40)
-#define CBPPKOABNCB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4B2D70)
+#define CBPPKOABNCB_CTOR_OFFSET UNITYSDK_OFFSET(0x18FF0020)
+#define CBPPKOABNCB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18FF0050)
 
-inline static constexpr unsigned int CBPPKOABNCB_TypeDefinitionIndex = 55508;
+inline static constexpr unsigned int CBPPKOABNCB_TypeDefinitionIndex = 56696;
 
 	class CBPPKOABNCB
 	{

@@ -4,18 +4,18 @@
 class CHDPILMCJNP;
 namespace System { class Object; }
 
-#define CHDPILMCJNP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0958B0)
-#define CHDPILMCJNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0958F0)
-#define CHDPILMCJNP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E095900)
+#define CHDPILMCJNP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8355F0)
+#define CHDPILMCJNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F835630)
+#define CHDPILMCJNP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F835640)
 
-inline static constexpr unsigned int CHDPILMCJNP___c_TypeDefinitionIndex = 33060;
+inline static constexpr unsigned int CHDPILMCJNP___c_TypeDefinitionIndex = 33975;
 
 	class CHDPILMCJNP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15100);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE2A0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int MiniGameEventReason_TypeDefinitionIndex = 43382;
+	inline static constexpr unsigned int MiniGameEventReason_TypeDefinitionIndex = 44363;
 
 	enum class MiniGameEventReason : ::System::Int32
 	{

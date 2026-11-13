@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityTelevisionQuestRow; }
 
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D355380)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D354CD0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9D220)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA9CB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTelevisionQuestRow_TypeDefinitionIndex = 12506;
+	inline static constexpr unsigned int ActivityTelevisionQuestRow_TypeDefinitionIndex = 12573;
 
 	class ActivityTelevisionQuestRow : public ::System::Object
 	{

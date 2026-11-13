@@ -3,10 +3,10 @@
 class MADACECCBAJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IBKNOMOILIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E2FC20)
-#define IBKNOMOILIO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E2FC50)
+#define IBKNOMOILIO_CTOR_OFFSET UNITYSDK_OFFSET(0x188B9ED0)
+#define IBKNOMOILIO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188B9F00)
 
-inline static constexpr unsigned int IBKNOMOILIO_TypeDefinitionIndex = 53826;
+inline static constexpr unsigned int IBKNOMOILIO_TypeDefinitionIndex = 54990;
 
 	class IBKNOMOILIO
 	{

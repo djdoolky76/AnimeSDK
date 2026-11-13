@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyDialogueEventEffectConfig; }
 
-#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC03270)
-#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC03230)
+#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DBA70)
+#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5DBA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyDialogueEventEffectConfig_TypeDefinitionIndex = 18092;
+	inline static constexpr unsigned int TrainPartyDialogueEventEffectConfig_TypeDefinitionIndex = 18254;
 
 	class TrainPartyDialogueEventEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

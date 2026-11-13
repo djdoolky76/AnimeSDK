@@ -14,49 +14,49 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define AKAUDIOINPUTMANAGER_ADDPLAYINGID_OFFSET UNITYSDK_OFFSET(0x1F546520)
-#define AKAUDIOINPUTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F546D40)
-#define AKAUDIOINPUTMANAGER_EVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F546A00)
-#define AKAUDIOINPUTMANAGER_INTERNALAUDIOFORMATDELEGATE_OFFSET UNITYSDK_OFFSET(0x1F546090)
-#define AKAUDIOINPUTMANAGER_INTERNALAUDIOSAMPLESDELEGATE_OFFSET UNITYSDK_OFFSET(0x1F545EE0)
-#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_1_OFFSET UNITYSDK_OFFSET(0x1F5466E0)
-#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_2_OFFSET UNITYSDK_OFFSET(0x1F546850)
-#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_OFFSET UNITYSDK_OFFSET(0x1F5462E0)
-#define AKAUDIOINPUTMANAGER_TRYINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F546440)
+#define AKAUDIOINPUTMANAGER_ADDPLAYINGID_OFFSET UNITYSDK_OFFSET(0x1EEF4E90)
+#define AKAUDIOINPUTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEF56B0)
+#define AKAUDIOINPUTMANAGER_EVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EEF5370)
+#define AKAUDIOINPUTMANAGER_INTERNALAUDIOFORMATDELEGATE_OFFSET UNITYSDK_OFFSET(0x1EEF4A00)
+#define AKAUDIOINPUTMANAGER_INTERNALAUDIOSAMPLESDELEGATE_OFFSET UNITYSDK_OFFSET(0x1EEF4850)
+#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_1_OFFSET UNITYSDK_OFFSET(0x1EEF5050)
+#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_2_OFFSET UNITYSDK_OFFSET(0x1EEF51C0)
+#define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_OFFSET UNITYSDK_OFFSET(0x1EEF4C50)
+#define AKAUDIOINPUTMANAGER_TRYINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EEF4DB0)
 
-inline static constexpr unsigned int AkAudioInputManager_TypeDefinitionIndex = 44810;
+inline static constexpr unsigned int AkAudioInputManager_TypeDefinitionIndex = 45885;
 
 	class AkAudioInputManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>** StaticGet_audioSamplesDelegates()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CB0);
-		}
-
 		static ::AkAudioInputManager_AudioFormatInteropDelegate** StaticGet_audioFormatDelegate()
 		{
-			return (::AkAudioInputManager_AudioFormatInteropDelegate**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CB8);
-		}
-
-		static ::AkAudioInputManager_AudioSamplesInteropDelegate** StaticGet_audioSamplesDelegate()
-		{
-			return (::AkAudioInputManager_AudioSamplesInteropDelegate**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CC0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>** StaticGet_audioFormatDelegates()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CC8);
+			return (::AkAudioInputManager_AudioFormatInteropDelegate**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x70830);
 		}
 
 		static ::AkAudioFormat** StaticGet_audioFormat()
 		{
-			return (::AkAudioFormat**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1CD0);
+			return (::AkAudioFormat**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x70838);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>** StaticGet_audioSamplesDelegates()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x70840);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>** StaticGet_audioFormatDelegates()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x70848);
+		}
+
+		static ::AkAudioInputManager_AudioSamplesInteropDelegate** StaticGet_audioSamplesDelegate()
+		{
+			return (::AkAudioInputManager_AudioSamplesInteropDelegate**)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x70850);
 		}
 
 		static ::System::Boolean* StaticGet_initialized()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x1C80);
+			return (::System::Boolean*)UnitySDK::FromName("", "AkAudioInputManager")->GetStaticField(0x15920);
 		}
 
 		static ::System::Void _cctor()

@@ -5,9 +5,9 @@
 class OMBIMJDIHLE;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KHGFBJNGOIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB89ED0)
+#define KHGFBJNGOIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C9AE0)
 
-inline static constexpr unsigned int KHGFBJNGOIB_TypeDefinitionIndex = 41997;
+inline static constexpr unsigned int KHGFBJNGOIB_TypeDefinitionIndex = 42972;
 
 	class KHGFBJNGOIB : public ::System::Object
 	{

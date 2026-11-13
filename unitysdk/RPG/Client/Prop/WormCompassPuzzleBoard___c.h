@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDE2B00)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDDE2B40)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C___CONFIRMCLICKINTERNAL_B__78_0_OFFSET UNITYSDK_OFFSET(0xDDE2B50)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18726FD0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18727010)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C___CONFIRMCLICKINTERNAL_B__78_0_OFFSET UNITYSDK_OFFSET(0x18727020)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassPuzzleBoard___c_TypeDefinitionIndex = 78926;
+	inline static constexpr unsigned int WormCompassPuzzleBoard___c_TypeDefinitionIndex = 81702;
 
 	class WormCompassPuzzleBoard___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x53C10);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x66A60);
 		}
 
 		static ::System::Action** StaticGet___9__78_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x53C18);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x66A68);
 		}
 
 		static ::System::Void _cctor()

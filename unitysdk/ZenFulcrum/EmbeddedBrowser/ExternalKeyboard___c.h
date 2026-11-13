@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F62F380)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F62F3C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C___CTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1F62F3D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDC9840)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDC9880)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C___CTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1DDC9890)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int ExternalKeyboard___c_TypeDefinitionIndex = 39502;
+	inline static constexpr unsigned int ExternalKeyboard___c_TypeDefinitionIndex = 40431;
 
 	class ExternalKeyboard___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44560);
+			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x441A0);
 		}
 
 		static ::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>** StaticGet___9__22_0()
 		{
-			return (::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44568);
+			return (::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x441A8);
 		}
 
 		static ::System::Void _cctor()

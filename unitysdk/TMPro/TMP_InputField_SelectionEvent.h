@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define TMPRO_TMP_INPUTFIELD_SELECTIONEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2D5400)
+#define TMPRO_TMP_INPUTFIELD_SELECTIONEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x19BA8630)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_SelectionEvent_TypeDefinitionIndex = 44601;
+	inline static constexpr unsigned int TMP_InputField_SelectionEvent_TypeDefinitionIndex = 45676;
 
 	class TMP_InputField_SelectionEvent
 	{

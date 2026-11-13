@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_BATTLETARGETCHANGEPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xE5C0B60)
+#define RPG_GAMECORE_BATTLETARGETCHANGEPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1AE6FE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTargetChangeParams_TypeDefinitionIndex = 58527;
+	inline static constexpr unsigned int BattleTargetChangeParams_TypeDefinitionIndex = 59791;
 
 	class BattleTargetChangeParams : public ::System::Object
 	{

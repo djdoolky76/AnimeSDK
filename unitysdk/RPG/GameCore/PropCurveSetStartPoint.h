@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropCurveSetStartPoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91AEE0)
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D91AF30)
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91AE60)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF84FD0)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF85020)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF84F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveSetStartPoint_TypeDefinitionIndex = 21001;
+	inline static constexpr unsigned int PropCurveSetStartPoint_TypeDefinitionIndex = 21339;
 
 	class PropCurveSetStartPoint : public ::RPG::GameCore::TaskConfig
 	{

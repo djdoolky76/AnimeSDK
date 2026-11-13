@@ -5,17 +5,17 @@ class BEFFANHAGFG;
 class BKOBHMFCKJH;
 class MGEHMMODJHE;
 
-#define BKOBHMFCKJH___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA5DB50)
-#define BKOBHMFCKJH___C__DISPLAYCLASS2_0__POSTEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xBA5E7B0)
+#define BKOBHMFCKJH___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A66F700)
+#define BKOBHMFCKJH___C__DISPLAYCLASS2_0__POSTEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x1A670360)
 
-inline static constexpr unsigned int BKOBHMFCKJH___c__DisplayClass2_0_TypeDefinitionIndex = 77421;
+inline static constexpr unsigned int BKOBHMFCKJH___c__DisplayClass2_0_TypeDefinitionIndex = 80156;
 
 	class BKOBHMFCKJH___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::BEFFANHAGFG* context; // 0x10
-		::BKOBHMFCKJH* __4__this; // 0x18
-		::MGEHMMODJHE* evt; // 0x20
+		::BKOBHMFCKJH* __4__this; // 0x10
+		::MGEHMMODJHE* evt; // 0x18
+		::BEFFANHAGFG* context; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKOBHMFCKJH___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

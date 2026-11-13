@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowBattleTalkBGUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJFEEIBGJND_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB5A60)
-#define AJFEEIBGJND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CB5A90)
+#define AJFEEIBGJND_CTOR_OFFSET UNITYSDK_OFFSET(0x19D3C210)
+#define AJFEEIBGJND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D3C240)
 
-inline static constexpr unsigned int AJFEEIBGJND_TypeDefinitionIndex = 58612;
+inline static constexpr unsigned int AJFEEIBGJND_TypeDefinitionIndex = 59877;
 
 	class AJFEEIBGJND
 	{

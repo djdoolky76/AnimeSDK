@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGRESIDENTREWARDPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7AE8B0)
+#define RPG_CLIENT_B51RACING_B51RACINGRESIDENTREWARDPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6F590)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingResidentRewardPageViewModel_TypeDefinitionIndex = 82050;
+	inline static constexpr unsigned int B51RacingResidentRewardPageViewModel_TypeDefinitionIndex = 84831;
 
 	class B51RacingResidentRewardPageViewModel : public ::System::Object
 	{

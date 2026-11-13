@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_SHINECONTROLSTRUCT_CTOR_OFFSET UNITYSDK_OFFSET(0xCD11FB0)
+#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_SHINECONTROLSTRUCT_CTOR_OFFSET UNITYSDK_OFFSET(0x17BCDA40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AbyssShineControl_ShineControlStruct_TypeDefinitionIndex = 70425;
+	inline static constexpr unsigned int Effect_AbyssShineControl_ShineControlStruct_TypeDefinitionIndex = 72392;
 
 	class Effect_AbyssShineControl_ShineControlStruct : public ::System::Object
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SubLevelGraphDynamicFloatOverride; }
 namespace RPG::GameCore { class SubLevelGraphDynamicStringOverride; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF0D40)
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF0D50)
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF0D10)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C3AF0)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3C3B00)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C3AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartSummonUnitGameplay_TypeDefinitionIndex = 21163;
+	inline static constexpr unsigned int StartSummonUnitGameplay_TypeDefinitionIndex = 21506;
 
 	class StartSummonUnitGameplay : public ::RPG::GameCore::TaskConfig
 	{

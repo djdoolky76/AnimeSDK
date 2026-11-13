@@ -5,25 +5,25 @@ namespace RPG::Client { class Effect_KaleidoscopeAnimatorBehavior_ParticleData; 
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD386A0)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD386E0)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C___UPDATE_B__8_0_OFFSET UNITYSDK_OFFSET(0xCD386F0)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17BF9310)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17BF9340)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C___UPDATE_B__8_0_OFFSET UNITYSDK_OFFSET(0x17BF9350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorBehavior___c_TypeDefinitionIndex = 70494;
+	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorBehavior___c_TypeDefinitionIndex = 72469;
 
 	class Effect_KaleidoscopeAnimatorBehavior___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x327F0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3F910);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x327F8);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3F918);
 		}
 
 		static ::System::Void _cctor()

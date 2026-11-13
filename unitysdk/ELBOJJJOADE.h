@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvRemoveAIHangUpInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ELBOJJJOADE_CTOR_OFFSET UNITYSDK_OFFSET(0x15510510)
-#define ELBOJJJOADE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15510540)
+#define ELBOJJJOADE_CTOR_OFFSET UNITYSDK_OFFSET(0x199A5B80)
+#define ELBOJJJOADE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199A5BB0)
 
-inline static constexpr unsigned int ELBOJJJOADE_TypeDefinitionIndex = 52480;
+inline static constexpr unsigned int ELBOJJJOADE_TypeDefinitionIndex = 53586;
 
 	class ELBOJJJOADE
 	{

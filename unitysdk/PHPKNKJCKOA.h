@@ -7,38 +7,38 @@ namespace RPG::GameCore { class SO_MoveTo; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define PHPKNKJCKOA_AAPKNHGHGPA_OFFSET UNITYSDK_OFFSET(0xC252530)
-#define PHPKNKJCKOA_BFJBKDGAJMO_OFFSET UNITYSDK_OFFSET(0xC252AE0)
-#define PHPKNKJCKOA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC252D10)
-#define PHPKNKJCKOA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2523C0)
-#define PHPKNKJCKOA_EBDMKPBFDLB_OFFSET UNITYSDK_OFFSET(0xC2528E0)
-#define PHPKNKJCKOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC252430)
-#define PHPKNKJCKOA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC252BC0)
-#define PHPKNKJCKOA_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0xC252B30)
-#define PHPKNKJCKOA_TICK_OFFSET UNITYSDK_OFFSET(0xC252C80)
+#define PHPKNKJCKOA_AAPKNHGHGPA_OFFSET UNITYSDK_OFFSET(0x1A9BCFD0)
+#define PHPKNKJCKOA_BFJBKDGAJMO_OFFSET UNITYSDK_OFFSET(0x1A9BD580)
+#define PHPKNKJCKOA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9BD7B0)
+#define PHPKNKJCKOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9BCE60)
+#define PHPKNKJCKOA_EBDMKPBFDLB_OFFSET UNITYSDK_OFFSET(0x1A9BD380)
+#define PHPKNKJCKOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9BCED0)
+#define PHPKNKJCKOA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A9BD660)
+#define PHPKNKJCKOA_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0x1A9BD5D0)
+#define PHPKNKJCKOA_TICK_OFFSET UNITYSDK_OFFSET(0x1A9BD720)
 
-inline static constexpr unsigned int PHPKNKJCKOA_TypeDefinitionIndex = 52120;
+inline static constexpr unsigned int PHPKNKJCKOA_TypeDefinitionIndex = 53225;
 
 	class PHPKNKJCKOA
 	{
 	public:
 		::RPG::GameCore::TransformComponent* GGLEFOFHHCN; // 0x40
-		::UnityEngine::Vector3 KOGCFJCMFLD; // 0x48
-		::System::Single NGAEMPHCOAI; // 0x54
-		::UnityEngine::Quaternion MBOJLOPIEEK; // 0x58
+		::UnityEngine::Quaternion MBOJLOPIEEK; // 0x48
+		::System::Single NGAEMPHCOAI; // 0x58
+		::UnityEngine::Vector3 KOGCFJCMFLD; // 0x5C
+		static ::System::Single* StaticGet_DCIBOJNNDCI()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "PHPKNKJCKOA")->GetStaticField(0x16200);
+		}
+
 		static ::System::Single* StaticGet_OEJOIIMPMDP()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "PHPKNKJCKOA")->GetStaticField(0x15B00);
+			return (::System::Single*)UnitySDK::FromName("", "PHPKNKJCKOA")->GetStaticField(0x16204);
 		}
 
 		static ::System::Single* StaticGet_KJPPFFLLMAB()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "PHPKNKJCKOA")->GetStaticField(0x15B04);
-		}
-
-		static ::System::Single* StaticGet_DCIBOJNNDCI()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "PHPKNKJCKOA")->GetStaticField(0x15B08);
+			return (::System::Single*)UnitySDK::FromName("", "PHPKNKJCKOA")->GetStaticField(0x16208);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SO_MoveTo* a2)

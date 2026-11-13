@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSwitchHandGestureType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NEECFPCMILK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB53CD0)
-#define NEECFPCMILK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB53D00)
+#define NEECFPCMILK_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD2E60)
+#define NEECFPCMILK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16FD2E90)
 
-inline static constexpr unsigned int NEECFPCMILK_TypeDefinitionIndex = 53138;
+inline static constexpr unsigned int NEECFPCMILK_TypeDefinitionIndex = 54300;
 
 	class NEECFPCMILK
 	{

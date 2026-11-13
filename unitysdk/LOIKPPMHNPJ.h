@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleRemoveBuff; }
 
-#define LOIKPPMHNPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F0940)
-#define LOIKPPMHNPJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C8F0950)
+#define LOIKPPMHNPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D64A990)
+#define LOIKPPMHNPJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1D64A9A0)
 
-inline static constexpr unsigned int LOIKPPMHNPJ_TypeDefinitionIndex = 43096;
+inline static constexpr unsigned int LOIKPPMHNPJ_TypeDefinitionIndex = 44077;
 
 	class LOIKPPMHNPJ : public ::BKABEBEPPJK
 	{

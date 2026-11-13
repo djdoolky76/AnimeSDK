@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetGraphDynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA87610)
-#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA87620)
-#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA875D0)
+#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D4E80)
+#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9D4E90)
+#define RPG_GAMECORE_SETGRAPHDYNAMICSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9D4E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetGraphDynamicString_TypeDefinitionIndex = 20711;
+	inline static constexpr unsigned int SetGraphDynamicString_TypeDefinitionIndex = 21048;
 
 	class SetGraphDynamicString : public ::RPG::GameCore::TaskConfig
 	{

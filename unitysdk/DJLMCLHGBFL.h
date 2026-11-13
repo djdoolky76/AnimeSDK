@@ -4,10 +4,10 @@
 class GHHJNCOAIJF;
 namespace System { class String; }
 
-#define DJLMCLHGBFL_CTOR_OFFSET UNITYSDK_OFFSET(0xF2379B0)
-#define DJLMCLHGBFL_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0xF237AF0)
+#define DJLMCLHGBFL_CTOR_OFFSET UNITYSDK_OFFSET(0x18BF0E10)
+#define DJLMCLHGBFL_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x18BF0F50)
 
-inline static constexpr unsigned int DJLMCLHGBFL_TypeDefinitionIndex = 69348;
+inline static constexpr unsigned int DJLMCLHGBFL_TypeDefinitionIndex = 71302;
 
 	class DJLMCLHGBFL : public ::FPNCAGDDHPO
 	{

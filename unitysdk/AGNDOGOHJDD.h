@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AGNDOGOHJDD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3C900)
+#define AGNDOGOHJDD_CTOR_OFFSET UNITYSDK_OFFSET(0x19B13600)
 
-inline static constexpr unsigned int AGNDOGOHJDD_TypeDefinitionIndex = 63657;
+inline static constexpr unsigned int AGNDOGOHJDD_TypeDefinitionIndex = 65099;
 
 	class AGNDOGOHJDD : public ::System::Object
 	{

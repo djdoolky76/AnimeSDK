@@ -6,12 +6,12 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D0510)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F0D0520)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D6E50)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E5D6E60)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int EveryUpdate_TypeDefinitionIndex = 45712;
+	inline static constexpr unsigned int EveryUpdate_TypeDefinitionIndex = 46741;
 
 	class EveryUpdate : public ::System::Object
 	{

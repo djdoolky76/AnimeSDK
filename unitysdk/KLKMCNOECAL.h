@@ -4,9 +4,9 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define KLKMCNOECAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB526290)
+#define KLKMCNOECAL_CTOR_OFFSET UNITYSDK_OFFSET(0x17B835E0)
 
-inline static constexpr unsigned int KLKMCNOECAL_TypeDefinitionIndex = 59297;
+inline static constexpr unsigned int KLKMCNOECAL_TypeDefinitionIndex = 60574;
 
 	class KLKMCNOECAL : public ::System::Object
 	{

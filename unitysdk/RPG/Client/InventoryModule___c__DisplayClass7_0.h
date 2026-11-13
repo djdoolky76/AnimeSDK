@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ItemData; }
 
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD350470)
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__GETSORTEDMPITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xD369FC0)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x170780E0)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__GETSORTEDMPITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x17091010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___c__DisplayClass7_0_TypeDefinitionIndex = 65688;
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass7_0_TypeDefinitionIndex = 67614;
 
 	class InventoryModule___c__DisplayClass7_0 : public ::System::Object
 	{

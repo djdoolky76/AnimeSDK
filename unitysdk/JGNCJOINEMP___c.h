@@ -4,18 +4,18 @@
 class JGNCJOINEMP;
 namespace System { class Object; }
 
-#define JGNCJOINEMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E710910)
-#define JGNCJOINEMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E710950)
-#define JGNCJOINEMP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E710960)
+#define JGNCJOINEMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204A6C20)
+#define JGNCJOINEMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204A6C60)
+#define JGNCJOINEMP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x204A6C70)
 
-inline static constexpr unsigned int JGNCJOINEMP___c_TypeDefinitionIndex = 28604;
+inline static constexpr unsigned int JGNCJOINEMP___c_TypeDefinitionIndex = 29194;
 
 	class JGNCJOINEMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E910);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60520);
 		}
 
 		static ::System::Void _cctor()

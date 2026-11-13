@@ -4,18 +4,18 @@
 class LDABILELOFN;
 namespace System { class Object; }
 
-#define LDABILELOFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8C3390)
-#define LDABILELOFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C33C0)
-#define LDABILELOFN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8C33D0)
+#define LDABILELOFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F90D510)
+#define LDABILELOFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F90D540)
+#define LDABILELOFN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F90D550)
 
-inline static constexpr unsigned int LDABILELOFN___c_TypeDefinitionIndex = 27871;
+inline static constexpr unsigned int LDABILELOFN___c_TypeDefinitionIndex = 28448;
 
 	class LDABILELOFN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CE40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B950);
 		}
 
 		static ::System::Void _cctor()

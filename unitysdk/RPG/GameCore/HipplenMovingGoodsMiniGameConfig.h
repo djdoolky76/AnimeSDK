@@ -10,12 +10,12 @@ namespace RPG::GameCore { class HipplenMovingGoodsMiniGameConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENMOVINGGOODSMINIGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D741440)
-#define RPG_GAMECORE_HIPPLENMOVINGGOODSMINIGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D741090)
+#define RPG_GAMECORE_HIPPLENMOVINGGOODSMINIGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7A420)
+#define RPG_GAMECORE_HIPPLENMOVINGGOODSMINIGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE7A070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenMovingGoodsMiniGameConfig_TypeDefinitionIndex = 16793;
+	inline static constexpr unsigned int HipplenMovingGoodsMiniGameConfig_TypeDefinitionIndex = 16960;
 
 	class HipplenMovingGoodsMiniGameConfig : public ::RPG::GameCore::JsonConfig
 	{

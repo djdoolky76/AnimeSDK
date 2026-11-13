@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKRESPONSEMODELEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE886C0)
-#define MIHOYO_SDK_NETWORKRESPONSEMODELEX_TOJSONOBJECT_OFFSET UNITYSDK_OFFSET(0x1BE8D0C0)
+#define MIHOYO_SDK_NETWORKRESPONSEMODELEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1C33FE90)
+#define MIHOYO_SDK_NETWORKRESPONSEMODELEX_TOJSONOBJECT_OFFSET UNITYSDK_OFFSET(0x1C344890)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkResponseModelEx_TypeDefinitionIndex = 8178;
+	inline static constexpr unsigned int NetworkResponseModelEx_TypeDefinitionIndex = 8187;
 
 	class NetworkResponseModelEx : public ::System::Object
 	{

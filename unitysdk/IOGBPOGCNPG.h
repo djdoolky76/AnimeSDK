@@ -3,10 +3,10 @@
 class NPHIKPFNJJO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IOGBPOGCNPG_CTOR_OFFSET UNITYSDK_OFFSET(0x164F46E0)
-#define IOGBPOGCNPG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164F4710)
+#define IOGBPOGCNPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6045C0)
+#define IOGBPOGCNPG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A6045F0)
 
-inline static constexpr unsigned int IOGBPOGCNPG_TypeDefinitionIndex = 53017;
+inline static constexpr unsigned int IOGBPOGCNPG_TypeDefinitionIndex = 54176;
 
 	class IOGBPOGCNPG
 	{

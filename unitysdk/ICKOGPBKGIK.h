@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 
-#define ICKOGPBKGIK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E44D90)
+#define ICKOGPBKGIK_CTOR_OFFSET UNITYSDK_OFFSET(0x188D1410)
 
-inline static constexpr unsigned int ICKOGPBKGIK_TypeDefinitionIndex = 71303;
+inline static constexpr unsigned int ICKOGPBKGIK_TypeDefinitionIndex = 73280;
 
 	class ICKOGPBKGIK : public ::FMPCODLIOLG
 	{

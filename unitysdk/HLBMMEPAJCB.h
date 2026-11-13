@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PAPOPANPGIJ;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByIsSkillCD; }
 
-#define HLBMMEPAJCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6399E0)
-#define HLBMMEPAJCB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C639AC0)
+#define HLBMMEPAJCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9221E0)
+#define HLBMMEPAJCB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C9222C0)
 
-inline static constexpr unsigned int HLBMMEPAJCB_TypeDefinitionIndex = 36985;
+inline static constexpr unsigned int HLBMMEPAJCB_TypeDefinitionIndex = 37913;
 
 	class HLBMMEPAJCB
 	{

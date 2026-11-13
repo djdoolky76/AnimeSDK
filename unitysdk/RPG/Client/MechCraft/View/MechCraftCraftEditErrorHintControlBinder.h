@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD611AB0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E80A0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftEditErrorHintControlBinder_TypeDefinitionIndex = 79878;
+	inline static constexpr unsigned int MechCraftCraftEditErrorHintControlBinder_TypeDefinitionIndex = 82655;
 
 	class MechCraftCraftEditErrorHintControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

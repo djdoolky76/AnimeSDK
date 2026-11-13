@@ -4,22 +4,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightSeasonExpScoreRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D712D80)
-#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D712B60)
+#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5FDB0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA5FB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonExpScoreRow_TypeDefinitionIndex = 13577;
+	inline static constexpr unsigned int GridFightSeasonExpScoreRow_TypeDefinitionIndex = 13686;
 
 	class GridFightSeasonExpScoreRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 WeeklyScore; // 0x10
-		::System::UInt32 DivisionID; // 0x14
-		::System::UInt32 SectionID; // 0x18
+		::System::UInt32 SectionID; // 0x10
+		::System::UInt32 WeeklyScore; // 0x14
+		::System::UInt32 DivisionID; // 0x18
 		::System::UInt32 Exp; // 0x1C
-		::System::UInt32 ChapterID; // 0x20
-		::System::UInt32 ScoreRuleID; // 0x24
+		::System::UInt32 ScoreRuleID; // 0x20
+		::System::UInt32 ChapterID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class LCFDPFCHIIC;
 namespace System { class Object; }
 
-#define LCFDPFCHIIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8BF320)
-#define LCFDPFCHIIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BF360)
-#define LCFDPFCHIIC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8BF370)
+#define LCFDPFCHIIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9088A0)
+#define LCFDPFCHIIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9088E0)
+#define LCFDPFCHIIC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F9088F0)
 
-inline static constexpr unsigned int LCFDPFCHIIC___c_TypeDefinitionIndex = 26373;
+inline static constexpr unsigned int LCFDPFCHIIC___c_TypeDefinitionIndex = 26900;
 
 	class LCFDPFCHIIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C970);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B250);
 		}
 
 		static ::System::Void _cctor()

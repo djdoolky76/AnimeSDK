@@ -9,21 +9,21 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBEE170)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1BBEE0C0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BBEC4E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1BBDA9B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6ACC80)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C6ACBD0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C6AAFF0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C6994F0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil_TypeDefinitionIndex = 35847;
+	inline static constexpr unsigned int ReflectionUtil_TypeDefinitionIndex = 36775;
 
 	class ReflectionUtil : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Type*>** StaticGet_EmptyTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "ReflectionUtil")->GetStaticField(0x5E800);
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "ReflectionUtil")->GetStaticField(0x670F0);
 		}
 
 		static ::System::Void _cctor()

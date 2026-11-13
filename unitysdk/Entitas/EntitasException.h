@@ -3,11 +3,11 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define ENTITAS_ENTITASEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x167494A0)
+#define ENTITAS_ENTITASEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x20850740)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntitasException_TypeDefinitionIndex = 10002;
+	inline static constexpr unsigned int EntitasException_TypeDefinitionIndex = 10010;
 
 	class EntitasException : public ::System::Exception
 	{

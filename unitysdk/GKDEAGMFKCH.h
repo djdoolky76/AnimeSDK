@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasBillboard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKDEAGMFKCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15A860B0)
-#define GKDEAGMFKCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A860E0)
+#define GKDEAGMFKCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8CD090)
+#define GKDEAGMFKCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A8CD0C0)
 
-inline static constexpr unsigned int GKDEAGMFKCH_TypeDefinitionIndex = 54611;
+inline static constexpr unsigned int GKDEAGMFKCH_TypeDefinitionIndex = 55777;
 
 	class GKDEAGMFKCH
 	{

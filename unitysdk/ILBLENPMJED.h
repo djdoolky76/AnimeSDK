@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/EntityRelationMemberType.h"
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int ILBLENPMJED_TypeDefinitionIndex = 55024;
+inline static constexpr unsigned int ILBLENPMJED_TypeDefinitionIndex = 56200;
 
 	struct alignas(8) ILBLENPMJED
 	{

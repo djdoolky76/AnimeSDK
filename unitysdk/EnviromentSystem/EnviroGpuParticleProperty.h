@@ -13,32 +13,32 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_AFHGEEMLPLC_OFFSET UNITYSDK_OFFSET(0x155ED1D0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_AHNDNJDFPED_OFFSET UNITYSDK_OFFSET(0x155EFFE0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_AOHGNELBJOB_OFFSET UNITYSDK_OFFSET(0x155EF810)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0x155ED2E0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_CCTOR_OFFSET UNITYSDK_OFFSET(0x155F03B0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_CIDBPDMJMMJ_OFFSET UNITYSDK_OFFSET(0x155EF250)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x155E94A0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x155E9360)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_DCEDDCPIHPC_OFFSET UNITYSDK_OFFSET(0x155EAB40)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x155EE4C0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_DNJIAAJGNMJ_OFFSET UNITYSDK_OFFSET(0x155E9CE0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_EAIHBIMFKPE_OFFSET UNITYSDK_OFFSET(0x155EA810)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_EEPIDFNPIPG_OFFSET UNITYSDK_OFFSET(0x155EAE30)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_FMDIMGPGIHD_OFFSET UNITYSDK_OFFSET(0x155E9880)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_GOHOOFAPHKP_OFFSET UNITYSDK_OFFSET(0x155ECFE0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0x155ED430)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_KIJHKHCLJBL_OFFSET UNITYSDK_OFFSET(0x155EF500)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_LGNNAOLPNIP_OFFSET UNITYSDK_OFFSET(0x155E9D60)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_LPCOOHGAICK_OFFSET UNITYSDK_OFFSET(0x155E9BA0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_MIDBIIDBIMC_OFFSET UNITYSDK_OFFSET(0x155EFCB0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_ONGEFLHHCAG_OFFSET UNITYSDK_OFFSET(0x155ECB30)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x155EA440)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_AFHGEEMLPLC_OFFSET UNITYSDK_OFFSET(0x16B5A3C0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_AHNDNJDFPED_OFFSET UNITYSDK_OFFSET(0x16B5D1D0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_AOHGNELBJOB_OFFSET UNITYSDK_OFFSET(0x16B5CA00)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0x16B5A4D0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_CCTOR_OFFSET UNITYSDK_OFFSET(0x16B5D5A0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_CIDBPDMJMMJ_OFFSET UNITYSDK_OFFSET(0x16B5C440)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16B56690)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x16B56550)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_DCEDDCPIHPC_OFFSET UNITYSDK_OFFSET(0x16B57D30)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x16B5B6B0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_DNJIAAJGNMJ_OFFSET UNITYSDK_OFFSET(0x16B56ED0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_EAIHBIMFKPE_OFFSET UNITYSDK_OFFSET(0x16B57A00)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_EEPIDFNPIPG_OFFSET UNITYSDK_OFFSET(0x16B58020)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_FMDIMGPGIHD_OFFSET UNITYSDK_OFFSET(0x16B56A70)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_GOHOOFAPHKP_OFFSET UNITYSDK_OFFSET(0x16B5A1D0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0x16B5A620)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_KIJHKHCLJBL_OFFSET UNITYSDK_OFFSET(0x16B5C6F0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_LGNNAOLPNIP_OFFSET UNITYSDK_OFFSET(0x16B56F50)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_LPCOOHGAICK_OFFSET UNITYSDK_OFFSET(0x16B56D90)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_MIDBIIDBIMC_OFFSET UNITYSDK_OFFSET(0x16B5CEA0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_ONGEFLHHCAG_OFFSET UNITYSDK_OFFSET(0x16B59D20)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x16B57630)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGpuParticleProperty_TypeDefinitionIndex = 49600;
+	inline static constexpr unsigned int EnviroGpuParticleProperty_TypeDefinitionIndex = 50676;
 
 	class EnviroGpuParticleProperty : public ::EnviromentSystem::EnviroAssetProperty
 	{
@@ -53,134 +53,134 @@ namespace EnviromentSystem
 		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* tmpMaterial; // 0x78
 		::Il2CppArray<::UnityEngine::Matrix4x4>* _OccludersMatrixArray; // 0x80
-		static ::System::String** StaticGet__Noise2DPath()
-		{
-			return (::System::String**)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x48240);
-		}
-
 		static ::System::Collections::Generic::List_1<::RPG::Client::GpuParticleOccluder*>** StaticGet_GpuParticleOccluders()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::GpuParticleOccluder*>**)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x48248);
+			return (::System::Collections::Generic::List_1<::RPG::Client::GpuParticleOccluder*>**)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x30470);
 		}
 
 		static ::System::String** StaticGet__Noise3DPath()
 		{
-			return (::System::String**)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x48250);
+			return (::System::String**)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x30478);
 		}
 
-		static ::System::Int32* StaticGet__OccluderAsVolumeID()
+		static ::System::String** StaticGet__Noise2DPath()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D00);
-		}
-
-		static ::System::Int32* StaticGet__RangeMinOldShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D04);
-		}
-
-		static ::System::Int32* StaticGet__PositionTexShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D08);
-		}
-
-		static ::System::Int32* StaticGet__SpeedTexReadShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D0C);
-		}
-
-		static ::System::Int32* StaticGet__RangeMaxShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D10);
-		}
-
-		static ::System::Int32* StaticGet__WindZoneShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D14);
-		}
-
-		static ::System::Int32* StaticGet__NoiseTillingShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D18);
-		}
-
-		static ::System::Int32* StaticGet__RangeMaxOldShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D1C);
-		}
-
-		static ::System::Int32* StaticGet__NoiseTex2DShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D20);
-		}
-
-		static ::System::Int32* StaticGet__TimeShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D24);
-		}
-
-		static ::System::Int32* StaticGet__NoiseTexShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D28);
-		}
-
-		static ::System::Int32* StaticGet__GpuParticleOccluderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D2C);
-		}
-
-		static ::System::Int32* StaticGet__SpeedTexShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D30);
+			return (::System::String**)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x30480);
 		}
 
 		static ::System::Int32* StaticGet__RandomSizeShaderID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D34);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9620);
 		}
 
-		static ::System::Int32* StaticGet__DeltaTimeShaderID()
+		static ::System::Int32* StaticGet__RangeMaxOldShaderID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D38);
-		}
-
-		static ::System::Int32* StaticGet__WindScaleShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D3C);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9624);
 		}
 
 		static ::System::Int32* StaticGet__PositionTexReadShaderID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D40);
-		}
-
-		static ::System::Int32* StaticGet__RangeMinShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D44);
-		}
-
-		static ::System::Int32* StaticGet__NoiseScaleShaderID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D48);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9628);
 		}
 
 		static ::System::Int32* StaticGet__WindZoneBBoxMaxPosShaderID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D4C);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x962C);
+		}
+
+		static ::System::Int32* StaticGet__GpuParticleOccluderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9630);
+		}
+
+		static ::System::Int32* StaticGet__OccluderAsVolumeID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9634);
+		}
+
+		static ::System::Int32* StaticGet__WindScaleShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9638);
+		}
+
+		static ::System::Int32* StaticGet__NoiseScaleShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x963C);
 		}
 
 		static ::System::Int32* StaticGet__WindGlobalShaderID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D50);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9640);
+		}
+
+		static ::System::Int32* StaticGet__NoiseTillingShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9644);
+		}
+
+		static ::System::Int32* StaticGet__RangeMinShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9648);
 		}
 
 		static ::System::Int32* StaticGet__WindZoneBBoxMinPosShaderID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D54);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x964C);
+		}
+
+		static ::System::Int32* StaticGet__TimeShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9650);
+		}
+
+		static ::System::Int32* StaticGet__DeltaTimeShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9654);
+		}
+
+		static ::System::Int32* StaticGet__WindZoneShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9658);
+		}
+
+		static ::System::Int32* StaticGet__RangeMinOldShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x965C);
+		}
+
+		static ::System::Int32* StaticGet__NoiseTex2DShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9660);
+		}
+
+		static ::System::Int32* StaticGet__PositionTexShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9664);
+		}
+
+		static ::System::Int32* StaticGet__RangeMaxShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9668);
+		}
+
+		static ::System::Int32* StaticGet__NoiseTexShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x966C);
 		}
 
 		static ::System::Int32* StaticGet__Occluder()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x10D58);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9670);
+		}
+
+		static ::System::Int32* StaticGet__SpeedTexReadShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9674);
+		}
+
+		static ::System::Int32* StaticGet__SpeedTexShaderID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGpuParticleProperty")->GetStaticField(0x9678);
 		}
 
 		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1)

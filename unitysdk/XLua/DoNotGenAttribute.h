@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_DONOTGENATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B4890)
+#define XLUA_DONOTGENATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20977970)
 
 namespace XLua
 {
-	inline static constexpr unsigned int DoNotGenAttribute_TypeDefinitionIndex = 5610;
+	inline static constexpr unsigned int DoNotGenAttribute_TypeDefinitionIndex = 5615;
 
 	class DoNotGenAttribute : public ::System::Attribute
 	{

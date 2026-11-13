@@ -5,7 +5,7 @@ class BEFJBNOEMCK;
 class FIGBDBDMHIC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int JJLLMEENHJC_TypeDefinitionIndex = 44153;
+inline static constexpr unsigned int JJLLMEENHJC_TypeDefinitionIndex = 45228;
 
 	class JJLLMEENHJC : public ::System::Object
 	{

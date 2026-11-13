@@ -9,12 +9,12 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define EDNMLIKIMHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x13328B50)
-#define EDNMLIKIMHK_CTOR_OFFSET UNITYSDK_OFFSET(0x13328B00)
-#define EDNMLIKIMHK_HABIPGHPLEB_OFFSET UNITYSDK_OFFSET(0x13328750)
-#define EDNMLIKIMHK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x133283B0)
+#define EDNMLIKIMHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x186D1B10)
+#define EDNMLIKIMHK_CTOR_OFFSET UNITYSDK_OFFSET(0x186D1AC0)
+#define EDNMLIKIMHK_HABIPGHPLEB_OFFSET UNITYSDK_OFFSET(0x186D1710)
+#define EDNMLIKIMHK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x186D1370)
 
-inline static constexpr unsigned int EDNMLIKIMHK_TypeDefinitionIndex = 57179;
+inline static constexpr unsigned int EDNMLIKIMHK_TypeDefinitionIndex = 58406;
 
 	class EDNMLIKIMHK : public ::System::Object
 	{
@@ -22,7 +22,7 @@ inline static constexpr unsigned int EDNMLIKIMHK_TypeDefinitionIndex = 57179;
 		::System::Collections::Generic::List_1<::HPELHHKMIEK*>* BPKGBGDJCHG; // 0x10
 		static ::RPG::MVector3* StaticGet_JDFCENAIIAG()
 		{
-			return (::RPG::MVector3*)UnitySDK::FromName("", "EDNMLIKIMHK")->GetStaticField(0x15BA0);
+			return (::RPG::MVector3*)UnitySDK::FromName("", "EDNMLIKIMHK")->GetStaticField(0x15EF0);
 		}
 
 		// static const ::System::Object EBDACMJDHFN; // 0x0

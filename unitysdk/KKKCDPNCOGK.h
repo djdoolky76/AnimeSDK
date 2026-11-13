@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define KKKCDPNCOGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x160F0)
-#define KKKCDPNCOGK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x160E0)
+#define KKKCDPNCOGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3DD4050)
+#define KKKCDPNCOGK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3DD4040)
 
-inline static constexpr unsigned int KKKCDPNCOGK_TypeDefinitionIndex = 71087;
+inline static constexpr unsigned int KKKCDPNCOGK_TypeDefinitionIndex = 73070;
 
 	struct alignas(4) KKKCDPNCOGK
 	{

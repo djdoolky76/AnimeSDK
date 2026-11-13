@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-inline static constexpr unsigned int KJGEHBINBJP_TypeDefinitionIndex = 68495;
+inline static constexpr unsigned int KJGEHBINBJP_TypeDefinitionIndex = 70443;
 
 	struct alignas(8) KJGEHBINBJP
 	{

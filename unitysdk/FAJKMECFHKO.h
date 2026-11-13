@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class TaskConfig; }
 
-#define FAJKMECFHKO_HCDBMMFEHHK_1_OFFSET UNITYSDK_OFFSET(0x15676450)
-#define FAJKMECFHKO_HCDBMMFEHHK_OFFSET UNITYSDK_OFFSET(0x156763C0)
+#define FAJKMECFHKO_HCDBMMFEHHK_1_OFFSET UNITYSDK_OFFSET(0x1BA2EC40)
+#define FAJKMECFHKO_HCDBMMFEHHK_OFFSET UNITYSDK_OFFSET(0x1BA2EBB0)
 
-inline static constexpr unsigned int FAJKMECFHKO_TypeDefinitionIndex = 57458;
+inline static constexpr unsigned int FAJKMECFHKO_TypeDefinitionIndex = 58686;
 
 	class FAJKMECFHKO : public ::System::Object
 	{

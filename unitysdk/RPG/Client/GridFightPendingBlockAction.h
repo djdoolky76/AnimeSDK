@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HOIDGPICBOJ.h"
+#include "unitysdk/RPG/Client/GridFightProtoPendingAction.h"
+class CHCHAJIANIM;
+
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1DF1E860)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF1E5E0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_GETACTIONID_OFFSET UNITYSDK_OFFSET(0x1DF1E750)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1DF1E5A0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_GET_BLOCKTYPE_OFFSET UNITYSDK_OFFSET(0x1DF1E5C0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1DF1E5B0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_SET_BLOCKTYPE_OFFSET UNITYSDK_OFFSET(0x1DF1E5D0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DF1E790)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION__ONFINISH_OFFSET UNITYSDK_OFFSET(0x1DF1EA60)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION__ONSTART_OFFSET UNITYSDK_OFFSET(0x1DF1E9E0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION__SYNCFROMPROTO_OFFSET UNITYSDK_OFFSET(0x1DF1E6A0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightPendingBlockAction_TypeDefinitionIndex = 66710;
+
+	class GridFightPendingBlockAction : public ::RPG::Client::GridFightProtoPendingAction
+	{
+	public:
+		::System::Boolean _IsConfirmed; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _ActionID_k__BackingField; // 0x24
+		::HOIDGPICBOJ _BlockType_k__BackingField; // 0x28
+		::System::Void _ctor(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_GET_ACTIONID_OFFSET))(this);
+		}
+
+		::System::Void set_ActionID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_SET_ACTIONID_OFFSET))(this, a1);
+		}
+
+		::HOIDGPICBOJ get_BlockType()
+		{
+			return ((::HOIDGPICBOJ(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_GET_BLOCKTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_BlockType(::HOIDGPICBOJ a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HOIDGPICBOJ))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_SET_BLOCKTYPE_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_GETACTIONID_OFFSET))(this);
+		}
+
+		::System::Void Update(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_UPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Void Confirm()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION_CONFIRM_OFFSET))(this);
+		}
+
+		::System::Void _OnStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION__ONSTART_OFFSET))(this);
+		}
+
+		::System::Void _OnFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION__ONFINISH_OFFSET))(this);
+		}
+
+		::System::Void _SyncFromProto(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGBLOCKACTION__SYNCFROMPROTO_OFFSET))(this, a1);
+		}
+
+	};
+}

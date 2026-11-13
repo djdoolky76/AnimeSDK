@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEvolveBuildFeature; }
 
-#define DADIBNPCOCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB7310)
-#define DADIBNPCOCJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFB7340)
+#define DADIBNPCOCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19942370)
+#define DADIBNPCOCJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199423A0)
 
-inline static constexpr unsigned int DADIBNPCOCJ_TypeDefinitionIndex = 58783;
+inline static constexpr unsigned int DADIBNPCOCJ_TypeDefinitionIndex = 60051;
 
 	class DADIBNPCOCJ
 	{

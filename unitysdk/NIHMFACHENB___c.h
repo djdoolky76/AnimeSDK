@@ -4,18 +4,18 @@
 class NIHMFACHENB;
 namespace System { class Object; }
 
-#define NIHMFACHENB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB03160)
-#define NIHMFACHENB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB031A0)
-#define NIHMFACHENB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB031B0)
+#define NIHMFACHENB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAC6090)
+#define NIHMFACHENB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC60D0)
+#define NIHMFACHENB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAC60E0)
 
-inline static constexpr unsigned int NIHMFACHENB___c_TypeDefinitionIndex = 26255;
+inline static constexpr unsigned int NIHMFACHENB___c_TypeDefinitionIndex = 26782;
 
 	class NIHMFACHENB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65570);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62B20);
 		}
 
 		static ::System::Void _cctor()

@@ -6,11 +6,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CIHABHPNGJB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF6D4B0)
-#define CIHABHPNGJB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF6D520)
-#define CIHABHPNGJB_HHIHNBDLEOJ_OFFSET UNITYSDK_OFFSET(0xCF6D7A0)
+#define CIHABHPNGJB_CTOR_OFFSET UNITYSDK_OFFSET(0x16E47530)
+#define CIHABHPNGJB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16E47580)
+#define CIHABHPNGJB_HHIHNBDLEOJ_OFFSET UNITYSDK_OFFSET(0x16E477C0)
 
-inline static constexpr unsigned int CIHABHPNGJB_TypeDefinitionIndex = 59104;
+inline static constexpr unsigned int CIHABHPNGJB_TypeDefinitionIndex = 60379;
 
 	class CIHABHPNGJB
 	{

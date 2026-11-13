@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamTowersBossBrickEntryConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSBOSSBRICKENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4E800)
-#define RPG_GAMECORE_TEAMTOWERSBOSSBRICKENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4E680)
+#define RPG_GAMECORE_TEAMTOWERSBOSSBRICKENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C3460)
+#define RPG_GAMECORE_TEAMTOWERSBOSSBRICKENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C32E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersBossBrickEntryConfig_TypeDefinitionIndex = 18957;
+	inline static constexpr unsigned int TeamTowersBossBrickEntryConfig_TypeDefinitionIndex = 19144;
 
 	class TeamTowersBossBrickEntryConfig : public ::RPG::GameCore::JsonConfig
 	{

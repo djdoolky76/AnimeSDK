@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AIRLINEVARIABLESCALEPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xC63A260)
+#define RPG_CLIENT_AIRLINEVARIABLESCALEPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E5E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineVariableScalePoint_TypeDefinitionIndex = 59771;
+	inline static constexpr unsigned int AirlineVariableScalePoint_TypeDefinitionIndex = 61051;
 
 	class AirlineVariableScalePoint : public ::System::Object
 	{

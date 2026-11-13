@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class BKHHFIJCHEP;
 
-#define LJKNCLIOGAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB716130)
-#define LJKNCLIOGAG_GET_GAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xB716120)
+#define LJKNCLIOGAG_CTOR_OFFSET UNITYSDK_OFFSET(0x18CBE600)
+#define LJKNCLIOGAG_GET_GAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x18CBE5F0)
 
-inline static constexpr unsigned int LJKNCLIOGAG_TypeDefinitionIndex = 76055;
+inline static constexpr unsigned int LJKNCLIOGAG_TypeDefinitionIndex = 78382;
 
 	class LJKNCLIOGAG : public ::System::Object
 	{

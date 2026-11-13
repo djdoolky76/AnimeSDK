@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTournCollectionData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNCOLLECTIONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF91840)
-#define RPG_CLIENT_ROGUETOURNCOLLECTIONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF91880)
-#define RPG_CLIENT_ROGUETOURNCOLLECTIONINFO___C__GET_UNLOCKEDCOLLECTIONCOUNT_B__28_0_OFFSET UNITYSDK_OFFSET(0xDF91890)
+#define RPG_CLIENT_ROGUETOURNCOLLECTIONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C882B10)
+#define RPG_CLIENT_ROGUETOURNCOLLECTIONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C882B50)
+#define RPG_CLIENT_ROGUETOURNCOLLECTIONINFO___C__GET_UNLOCKEDCOLLECTIONCOUNT_B__28_0_OFFSET UNITYSDK_OFFSET(0x1C882B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournCollectionInfo___c_TypeDefinitionIndex = 67572;
+	inline static constexpr unsigned int RogueTournCollectionInfo___c_TypeDefinitionIndex = 69516;
 
 	class RogueTournCollectionInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::RogueTournCollectionData*, ::System::Boolean>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournCollectionData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69EA0);
+			return (::System::Func_2<::RPG::Client::RogueTournCollectionData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72880);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69EA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72888);
 		}
 
 		static ::System::Void _cctor()

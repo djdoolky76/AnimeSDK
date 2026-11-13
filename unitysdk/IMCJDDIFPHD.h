@@ -3,10 +3,10 @@
 class FOIBLOANLCJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMCJDDIFPHD_CTOR_OFFSET UNITYSDK_OFFSET(0x164C1560)
-#define IMCJDDIFPHD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164C1590)
+#define IMCJDDIFPHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5CD950)
+#define IMCJDDIFPHD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5CD980)
 
-inline static constexpr unsigned int IMCJDDIFPHD_TypeDefinitionIndex = 56436;
+inline static constexpr unsigned int IMCJDDIFPHD_TypeDefinitionIndex = 57654;
 
 	class IMCJDDIFPHD
 	{

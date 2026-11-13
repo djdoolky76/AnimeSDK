@@ -5,11 +5,11 @@ class FDPALAEIHPB;
 class KHPOKIKCOFO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KPJPPOMHPDP_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1C8DD720)
-#define KPJPPOMHPDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD710)
-#define KPJPPOMHPDP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C8DE020)
+#define KPJPPOMHPDP_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1D6375C0)
+#define KPJPPOMHPDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6375B0)
+#define KPJPPOMHPDP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D637EC0)
 
-inline static constexpr unsigned int KPJPPOMHPDP_TypeDefinitionIndex = 42089;
+inline static constexpr unsigned int KPJPPOMHPDP_TypeDefinitionIndex = 43064;
 
 	class KPJPPOMHPDP : public ::System::Object
 	{

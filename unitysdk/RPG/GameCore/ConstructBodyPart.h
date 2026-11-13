@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ConstructBodyPart; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONSTRUCTBODYPART_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ACE40)
-#define RPG_GAMECORE_CONSTRUCTBODYPART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5ACE60)
-#define RPG_GAMECORE_CONSTRUCTBODYPART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5ACE00)
+#define RPG_GAMECORE_CONSTRUCTBODYPART_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE66F0)
+#define RPG_GAMECORE_CONSTRUCTBODYPART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EFE6710)
+#define RPG_GAMECORE_CONSTRUCTBODYPART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFE66B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConstructBodyPart_TypeDefinitionIndex = 22699;
+	inline static constexpr unsigned int ConstructBodyPart_TypeDefinitionIndex = 23121;
 
 	class ConstructBodyPart : public ::RPG::GameCore::TaskConfig
 	{

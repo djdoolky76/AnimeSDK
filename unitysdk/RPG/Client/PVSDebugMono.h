@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PVSDEBUGMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA61C40)
+#define RPG_CLIENT_PVSDEBUGMONO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1E5C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PVSDebugMono_TypeDefinitionIndex = 68897;
+	inline static constexpr unsigned int PVSDebugMono_TypeDefinitionIndex = 70850;
 
 	class PVSDebugMono : public ::UnityEngine::MonoBehaviour
 	{

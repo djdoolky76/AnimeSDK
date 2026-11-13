@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define EHNPADGDEKI_CTOR_OFFSET UNITYSDK_OFFSET(0x154AD720)
+#define EHNPADGDEKI_CTOR_OFFSET UNITYSDK_OFFSET(0x18BDE370)
 
-inline static constexpr unsigned int EHNPADGDEKI_TypeDefinitionIndex = 50048;
+inline static constexpr unsigned int EHNPADGDEKI_TypeDefinitionIndex = 51096;
 
 	class EHNPADGDEKI : public ::System::Attribute
 	{

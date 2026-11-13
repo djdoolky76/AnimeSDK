@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLLMAJPOMOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15AB1160)
-#define GLLMAJPOMOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AB1190)
+#define GLLMAJPOMOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16C69320)
+#define GLLMAJPOMOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C69350)
 
-inline static constexpr unsigned int GLLMAJPOMOJ_TypeDefinitionIndex = 55314;
+inline static constexpr unsigned int GLLMAJPOMOJ_TypeDefinitionIndex = 56496;
 
 	class GLLMAJPOMOJ
 	{

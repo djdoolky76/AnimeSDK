@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvNpcHeadLookAtPlayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NKGIBAHPOPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBC2E6D0)
-#define NKGIBAHPOPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC2E700)
+#define NKGIBAHPOPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7B10D0)
+#define NKGIBAHPOPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A7B1100)
 
-inline static constexpr unsigned int NKGIBAHPOPP_TypeDefinitionIndex = 52450;
+inline static constexpr unsigned int NKGIBAHPOPP_TypeDefinitionIndex = 53556;
 
 	class NKGIBAHPOPP
 	{

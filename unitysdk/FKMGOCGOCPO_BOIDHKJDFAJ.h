@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 class OBCBNMHLAJA;
 
-#define FKMGOCGOCPO_BOIDHKJDFAJ_NEHBDBHHHCJ_OFFSET UNITYSDK_OFFSET(0x2E78980)
+#define FKMGOCGOCPO_BOIDHKJDFAJ_NEHBDBHHHCJ_OFFSET UNITYSDK_OFFSET(0x3E07A90)
 
-inline static constexpr unsigned int FKMGOCGOCPO_BOIDHKJDFAJ_TypeDefinitionIndex = 55909;
+inline static constexpr unsigned int FKMGOCGOCPO_BOIDHKJDFAJ_TypeDefinitionIndex = 57112;
 
 	struct alignas(8) FKMGOCGOCPO_BOIDHKJDFAJ
 	{

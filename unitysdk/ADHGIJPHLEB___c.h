@@ -4,18 +4,18 @@
 class ADHGIJPHLEB;
 namespace System { class Object; }
 
-#define ADHGIJPHLEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDB48F0)
-#define ADHGIJPHLEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB4930)
-#define ADHGIJPHLEB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DDB4940)
+#define ADHGIJPHLEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2009D960)
+#define ADHGIJPHLEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2009D9A0)
+#define ADHGIJPHLEB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2009D9B0)
 
-inline static constexpr unsigned int ADHGIJPHLEB___c_TypeDefinitionIndex = 25634;
+inline static constexpr unsigned int ADHGIJPHLEB___c_TypeDefinitionIndex = 26131;
 
 	class ADHGIJPHLEB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32E10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39D40);
 		}
 
 		static ::System::Void _cctor()

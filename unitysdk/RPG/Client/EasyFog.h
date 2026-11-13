@@ -7,13 +7,13 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_EASYFOG_CTOR_OFFSET UNITYSDK_OFFSET(0xCD06010)
-#define RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET UNITYSDK_OFFSET(0xCD05FC0)
-#define RPG_CLIENT_EASYFOG_GET_OPACITYMAP_OFFSET UNITYSDK_OFFSET(0xCD05F70)
+#define RPG_CLIENT_EASYFOG_CTOR_OFFSET UNITYSDK_OFFSET(0x17BC1A90)
+#define RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET UNITYSDK_OFFSET(0x17BC1A40)
+#define RPG_CLIENT_EASYFOG_GET_OPACITYMAP_OFFSET UNITYSDK_OFFSET(0x17BC19F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EasyFog_TypeDefinitionIndex = 70783;
+	inline static constexpr unsigned int EasyFog_TypeDefinitionIndex = 72762;
 
 	class EasyFog
 	{

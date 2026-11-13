@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/WeightConfig.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_PLACEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DA630)
+#define RPG_CLIENT_LITTLEGAME_PLACEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x20712C00)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PlacementConfig_TypeDefinitionIndex = 42314;
+	inline static constexpr unsigned int PlacementConfig_TypeDefinitionIndex = 43289;
 
 	class PlacementConfig : public ::RPG::Client::LittleGame::WeightConfig
 	{

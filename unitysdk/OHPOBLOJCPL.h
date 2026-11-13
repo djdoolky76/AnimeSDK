@@ -3,17 +3,19 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define OHPOBLOJCPL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE6E900)
+#define OHPOBLOJCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x18E1D910)
 
-inline static constexpr unsigned int OHPOBLOJCPL_TypeDefinitionIndex = 82054;
+inline static constexpr unsigned int OHPOBLOJCPL_TypeDefinitionIndex = 84835;
 
 	class OHPOBLOJCPL : public ::System::Object
 	{
 	public:
-		::System::Int32 GBJLLAJJEOL; // 0x10
-		::System::Int32 MNAKIEOGPDK; // 0x14
-		::RPG::Client::TextID POFLNFDFEKB; // 0x18
-		::System::Boolean GDBPKGCLAPF; // 0x28
+		::System::Boolean GDBPKGCLAPF; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::Int32 GBJLLAJJEOL; // 0x14
+		::System::Int32 MNAKIEOGPDK; // 0x18
+		::System::Byte _padding1[0x4];
+		::RPG::Client::TextID POFLNFDFEKB; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OHPOBLOJCPL_CTOR_OFFSET))(this);

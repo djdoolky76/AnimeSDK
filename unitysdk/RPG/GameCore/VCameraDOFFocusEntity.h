@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class VCameraDOFFocusEntity; }
 
-#define RPG_GAMECORE_VCAMERADOFFOCUSENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC50A20)
-#define RPG_GAMECORE_VCAMERADOFFOCUSENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC50230)
+#define RPG_GAMECORE_VCAMERADOFFOCUSENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3BF90)
+#define RPG_GAMECORE_VCAMERADOFFOCUSENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED3B7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraDOFFocusEntity_TypeDefinitionIndex = 16423;
+	inline static constexpr unsigned int VCameraDOFFocusEntity_TypeDefinitionIndex = 16587;
 
 	class VCameraDOFFocusEntity : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GrowableBuffer_GrowMode_TypeDefinitionIndex = 35566;
+	inline static constexpr unsigned int GrowableBuffer_GrowMode_TypeDefinitionIndex = 36494;
 
 	enum class GrowableBuffer_GrowMode : ::System::Int32
 	{

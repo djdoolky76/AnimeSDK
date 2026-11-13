@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_PLAYSTATION3BWINDOWSUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE80A0)
-#define INCONTROL_UNITYDEVICEPROFILES_PLAYSTATION3BWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BAE6E10)
+#define INCONTROL_UNITYDEVICEPROFILES_PLAYSTATION3BWINDOWSUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xC6619E0)
+#define INCONTROL_UNITYDEVICEPROFILES_PLAYSTATION3BWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC660750)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int PlayStation3BWindowsUnityProfile_TypeDefinitionIndex = 41089;
+	inline static constexpr unsigned int PlayStation3BWindowsUnityProfile_TypeDefinitionIndex = 42064;
 
 	class PlayStation3BWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{

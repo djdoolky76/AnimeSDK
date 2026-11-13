@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LensGlitchEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKPNHJKHBHH_CTOR_OFFSET UNITYSDK_OFFSET(0xD769E30)
-#define CKPNHJKHBHH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD769E40)
-#define CKPNHJKHBHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD769E80)
-#define CKPNHJKHBHH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD76A130)
-#define CKPNHJKHBHH_TICK_OFFSET UNITYSDK_OFFSET(0xD76A180)
+#define CKPNHJKHBHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD52760)
+#define CKPNHJKHBHH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AD52770)
+#define CKPNHJKHBHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD527B0)
+#define CKPNHJKHBHH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AD52A60)
+#define CKPNHJKHBHH_TICK_OFFSET UNITYSDK_OFFSET(0x1AD52AB0)
 
-inline static constexpr unsigned int CKPNHJKHBHH_TypeDefinitionIndex = 55136;
+inline static constexpr unsigned int CKPNHJKHBHH_TypeDefinitionIndex = 56317;
 
 	class CKPNHJKHBHH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::LensGlitchEffect* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::LensGlitchEffect* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LensGlitchEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LensGlitchEffect*))((::PBYTE)hIl2Cpp + CKPNHJKHBHH_CTOR_OFFSET))(this, a1, a2);

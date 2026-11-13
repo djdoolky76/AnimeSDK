@@ -4,22 +4,22 @@
 class FDPFMFINJCO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CHDBFLFJFGH_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC8D670)
-#define CHDBFLFJFGH_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8D9F0)
-#define CHDBFLFJFGH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC8D980)
+#define CHDBFLFJFGH_CLEAR_OFFSET UNITYSDK_OFFSET(0x178669A0)
+#define CHDBFLFJFGH_CTOR_OFFSET UNITYSDK_OFFSET(0x17866D20)
+#define CHDBFLFJFGH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17866CB0)
 
-inline static constexpr unsigned int CHDBFLFJFGH_TypeDefinitionIndex = 67554;
+inline static constexpr unsigned int CHDBFLFJFGH_TypeDefinitionIndex = 69498;
 
 	class CHDBFLFJFGH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* IENDLNEPDBB; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* EEKLCEMHPDP; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* AHHGCGNNOCC; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* KNIGNIIIBIE; // 0x28
-		::System::Collections::Generic::List_1<::FDPFMFINJCO*>* KDNCHAPIFME; // 0x30
-		::System::UInt32 NDPOIKOIFFM; // 0x38
-		::System::UInt32 EHCDPMAMHGK; // 0x3C
+		::System::Collections::Generic::List_1<::System::UInt32>* AHHGCGNNOCC; // 0x10
+		::System::Collections::Generic::List_1<::FDPFMFINJCO*>* KDNCHAPIFME; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* IENDLNEPDBB; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* EEKLCEMHPDP; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* KNIGNIIIBIE; // 0x30
+		::System::UInt32 EHCDPMAMHGK; // 0x38
+		::System::UInt32 NDPOIKOIFFM; // 0x3C
 		::System::UInt32 JDPPODLLEAN; // 0x40
 		::System::Void _ctor()
 		{

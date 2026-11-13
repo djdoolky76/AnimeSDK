@@ -4,18 +4,18 @@
 class CJPOMFIDLOA;
 namespace System { class Object; }
 
-#define CJPOMFIDLOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0BAAF0)
-#define CJPOMFIDLOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0BAB30)
-#define CJPOMFIDLOA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0BAB40)
+#define CJPOMFIDLOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205934C0)
+#define CJPOMFIDLOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20593500)
+#define CJPOMFIDLOA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20593510)
 
-inline static constexpr unsigned int CJPOMFIDLOA___c_TypeDefinitionIndex = 29508;
+inline static constexpr unsigned int CJPOMFIDLOA___c_TypeDefinitionIndex = 30260;
 
 	class CJPOMFIDLOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x124F0);
 		}
 
 		static ::System::Void _cctor()

@@ -9,55 +9,55 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MemberInfo; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3AF470)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3AF4A0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__CREATEPROPERTIES_B__60_0_OFFSET UNITYSDK_OFFSET(0x1C3AFCF0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETATTRIBUTECONSTRUCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1C3AFC30)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETEXTENSIONDATAMEMBERFORTYPE_B__33_0_OFFSET UNITYSDK_OFFSET(0x1C3AF510)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETEXTENSIONDATAMEMBERFORTYPE_B__33_1_OFFSET UNITYSDK_OFFSET(0x1C3AF660)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETSERIALIZABLEMEMBERS_B__30_0_OFFSET UNITYSDK_OFFSET(0x1C3AF4B0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETSERIALIZABLEMEMBERS_B__30_1_OFFSET UNITYSDK_OFFSET(0x1C3AF4E0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x184228C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x184228F0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__CREATEPROPERTIES_B__60_0_OFFSET UNITYSDK_OFFSET(0x18423140)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETATTRIBUTECONSTRUCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x18423080)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETEXTENSIONDATAMEMBERFORTYPE_B__33_0_OFFSET UNITYSDK_OFFSET(0x18422960)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETEXTENSIONDATAMEMBERFORTYPE_B__33_1_OFFSET UNITYSDK_OFFSET(0x18422AB0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETSERIALIZABLEMEMBERS_B__30_0_OFFSET UNITYSDK_OFFSET(0x18422900)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__GETSERIALIZABLEMEMBERS_B__30_1_OFFSET UNITYSDK_OFFSET(0x18422930)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c_TypeDefinitionIndex = 9708;
+	inline static constexpr unsigned int DefaultContractResolver___c_TypeDefinitionIndex = 9716;
 
 	class DefaultContractResolver___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__30_0()
+		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Int32>** StaticGet___9__60_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x35090);
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Int32>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2A9B0);
 		}
 
 		static ::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*>** StaticGet___9__33_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x35098);
+			return (::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2A9B8);
 		}
 
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__30_1()
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x350A0);
-		}
-
-		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Int32>** StaticGet___9__60_0()
-		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Int32>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x350A8);
-		}
-
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__33_1()
-		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x350B0);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2A9C0);
 		}
 
 		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__36_0()
 		{
-			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x350B8);
+			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2A9C8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x350C0);
+			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2A9D0);
+		}
+
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__33_1()
+		{
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2A9D8);
+		}
+
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__30_1()
+		{
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2A9E0);
 		}
 
 		static ::System::Void _cctor()

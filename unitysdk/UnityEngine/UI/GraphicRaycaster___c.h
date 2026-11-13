@@ -5,31 +5,31 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define UNITYENGINE_UI_GRAPHICRAYCASTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4D0970)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D09A0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__RAYCASTOPTIMIZED_B__36_0_OFFSET UNITYSDK_OFFSET(0x1F4D0B00)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__RAYCAST_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F4D09B0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD3CC30)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD3CC60)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__RAYCASTOPTIMIZED_B__36_0_OFFSET UNITYSDK_OFFSET(0x1CD3CDC0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__RAYCAST_B__28_0_OFFSET UNITYSDK_OFFSET(0x1CD3CC70)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicRaycaster___c_TypeDefinitionIndex = 6721;
+	inline static constexpr unsigned int GraphicRaycaster___c_TypeDefinitionIndex = 6732;
 
 	class GraphicRaycaster___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::UI::Graphic*>** StaticGet___9__28_0()
-		{
-			return (::System::Comparison_1<::UnityEngine::UI::Graphic*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3C280);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3C288);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2D000);
 		}
 
 		static ::System::Comparison_1<::UnityEngine::UI::Graphic*>** StaticGet___9__36_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::UI::Graphic*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3C290);
+			return (::System::Comparison_1<::UnityEngine::UI::Graphic*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2D008);
+		}
+
+		static ::System::Comparison_1<::UnityEngine::UI::Graphic*>** StaticGet___9__28_0()
+		{
+			return (::System::Comparison_1<::UnityEngine::UI::Graphic*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2D010);
 		}
 
 		static ::System::Void _cctor()

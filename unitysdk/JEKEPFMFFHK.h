@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JEKEPFMFFHK_CTOR_OFFSET UNITYSDK_OFFSET(0x16629D60)
+#define JEKEPFMFFHK_CTOR_OFFSET UNITYSDK_OFFSET(0x13081E70)
 
-inline static constexpr unsigned int JEKEPFMFFHK_TypeDefinitionIndex = 64795;
+inline static constexpr unsigned int JEKEPFMFFHK_TypeDefinitionIndex = 66339;
 
 	class JEKEPFMFFHK : public ::System::Object
 	{

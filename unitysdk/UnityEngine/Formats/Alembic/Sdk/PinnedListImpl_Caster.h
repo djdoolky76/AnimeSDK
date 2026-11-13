@@ -5,7 +5,7 @@ namespace UnityEngine::Formats::Alembic::Sdk { class PinnedListImpl_ListData; }
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int PinnedListImpl_Caster_TypeDefinitionIndex = 45846;
+	inline static constexpr unsigned int PinnedListImpl_Caster_TypeDefinitionIndex = 46875;
 
 	struct alignas(8) PinnedListImpl_Caster
 	{

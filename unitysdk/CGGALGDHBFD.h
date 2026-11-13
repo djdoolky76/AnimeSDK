@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CGGALGDHBFD_CTOR_OFFSET UNITYSDK_OFFSET(0xCC83080)
+#define CGGALGDHBFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1785C3A0)
 
-inline static constexpr unsigned int CGGALGDHBFD_TypeDefinitionIndex = 79206;
+inline static constexpr unsigned int CGGALGDHBFD_TypeDefinitionIndex = 81983;
 
 	class CGGALGDHBFD : public ::System::Object
 	{

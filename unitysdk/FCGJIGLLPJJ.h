@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByDynamicValueDefined; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCGJIGLLPJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156B0890)
-#define FCGJIGLLPJJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156B08C0)
+#define FCGJIGLLPJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C016720)
+#define FCGJIGLLPJJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C016750)
 
-inline static constexpr unsigned int FCGJIGLLPJJ_TypeDefinitionIndex = 54897;
+inline static constexpr unsigned int FCGJIGLLPJJ_TypeDefinitionIndex = 56068;
 
 	class FCGJIGLLPJJ
 	{

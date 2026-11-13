@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_TOAST_POPUPQUEUEHELPER_ISSOFAWINDOW_OFFSET UNITYSDK_OFFSET(0xE2A5EC0)
+#define RPG_CLIENT_TOAST_POPUPQUEUEHELPER_ISSOFAWINDOW_OFFSET UNITYSDK_OFFSET(0x1A15F590)
 
 namespace RPG::Client::Toast
 {
-	inline static constexpr unsigned int PopupQueueHelper_TypeDefinitionIndex = 79002;
+	inline static constexpr unsigned int PopupQueueHelper_TypeDefinitionIndex = 81778;
 
 	class PopupQueueHelper : public ::System::Object
 	{

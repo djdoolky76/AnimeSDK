@@ -5,19 +5,19 @@
 class IALIPBPEPOJ;
 namespace System { class Object; }
 
-#define LDPAFLGPEBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70C1D0)
-#define LDPAFLGPEBL_EDJKPBJMNMK_OFFSET UNITYSDK_OFFSET(0x1C70C200)
-#define LDPAFLGPEBL_FKHABBFPGFA_OFFSET UNITYSDK_OFFSET(0x1C70C410)
-#define LDPAFLGPEBL_IKOCHGBIGPJ_OFFSET UNITYSDK_OFFSET(0x1C70C3C0)
+#define LDPAFLGPEBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC1BAB0)
+#define LDPAFLGPEBL_EDJKPBJMNMK_OFFSET UNITYSDK_OFFSET(0x1AC1BAE0)
+#define LDPAFLGPEBL_FKHABBFPGFA_OFFSET UNITYSDK_OFFSET(0x1AC1BCD0)
+#define LDPAFLGPEBL_IKOCHGBIGPJ_OFFSET UNITYSDK_OFFSET(0x1AC1BC90)
 
-inline static constexpr unsigned int LDPAFLGPEBL_TypeDefinitionIndex = 36545;
+inline static constexpr unsigned int LDPAFLGPEBL_TypeDefinitionIndex = 37473;
 
 	class LDPAFLGPEBL : public ::KDCAPEBJDIO
 	{
 	public:
-		::RPG::MVector2 NCMEPPHLGEG; // 0x38
-		::System::Single NLIFGOAGCCG; // 0x40
-		::System::Single DCBJLCHENHJ; // 0x44
+		::System::Single DCBJLCHENHJ; // 0x38
+		::System::Single NLIFGOAGCCG; // 0x3C
+		::RPG::MVector2 NCMEPPHLGEG; // 0x40
 		::System::Void _ctor(::IALIPBPEPOJ* a1, ::System::Object* a2, ::System::Single a3, ::System::Single a4, ::RPG::MVector2 a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::IALIPBPEPOJ*, ::System::Object*, ::System::Single, ::System::Single, ::RPG::MVector2))((::PBYTE)hIl2Cpp + LDPAFLGPEBL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

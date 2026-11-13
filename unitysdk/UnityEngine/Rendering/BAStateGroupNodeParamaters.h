@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Rendering/BANodeHash.h"
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BASTATEGROUPNODEPARAMATERS_GETACTIVESTATE_OFFSET UNITYSDK_OFFSET(0x1F3ECEF0)
-#define UNITYENGINE_RENDERING_BASTATEGROUPNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x1F3ECEE0)
+#define UNITYENGINE_RENDERING_BASTATEGROUPNODEPARAMATERS_GETACTIVESTATE_OFFSET UNITYSDK_OFFSET(0x202C75A0)
+#define UNITYENGINE_RENDERING_BASTATEGROUPNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x202C7590)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAStateGroupNodeParamaters_TypeDefinitionIndex = 4800;
+	inline static constexpr unsigned int BAStateGroupNodeParamaters_TypeDefinitionIndex = 4804;
 
 	struct alignas(4) BAStateGroupNodeParamaters
 	{

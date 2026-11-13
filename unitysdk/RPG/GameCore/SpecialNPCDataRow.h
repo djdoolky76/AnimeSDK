@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpecialNPCDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPECIALNPCDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD2400)
-#define RPG_GAMECORE_SPECIALNPCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAD1810)
+#define RPG_GAMECORE_SPECIALNPCDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A5740)
+#define RPG_GAMECORE_SPECIALNPCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3A4BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialNPCDataRow_TypeDefinitionIndex = 15128;
+	inline static constexpr unsigned int SpecialNPCDataRow_TypeDefinitionIndex = 15284;
 
 	class SpecialNPCDataRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonPath; // 0x10
+		::System::String* PrefabPath; // 0x10
 		::System::String* ConfigEntityPath; // 0x18
-		::System::String* PrefabPath; // 0x20
+		::System::String* JsonPath; // 0x20
 		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x28
 		::System::UInt32 ID; // 0x30
 		::System::Void _ctor()

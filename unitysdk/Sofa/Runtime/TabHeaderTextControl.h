@@ -5,12 +5,12 @@ class IIFJAHONOGC;
 namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine { class Transform; }
 
-#define SOFA_RUNTIME_TABHEADERTEXTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE976D20)
-#define SOFA_RUNTIME_TABHEADERTEXTCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE9769B0)
+#define SOFA_RUNTIME_TABHEADERTEXTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC40810)
+#define SOFA_RUNTIME_TABHEADERTEXTCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0x1AC404A0)
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderTextControl_TypeDefinitionIndex = 49736;
+	inline static constexpr unsigned int TabHeaderTextControl_TypeDefinitionIndex = 50784;
 
 	class TabHeaderTextControl
 	{

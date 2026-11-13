@@ -7,28 +7,28 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define HIKIBKBECKO__COLLECT_D__9_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE4400)
-#define HIKIBKBECKO__COLLECT_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15CE8630)
-#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_STRING__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15CE8AE0)
-#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_STRING__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15CE8A70)
-#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15CE8B70)
-#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15CE8AD0)
-#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15CE8A80)
-#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CE84F0)
-#define HIKIBKBECKO__COLLECT_D__9___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15CE8530)
+#define HIKIBKBECKO__COLLECT_D__9_CTOR_OFFSET UNITYSDK_OFFSET(0x1903E550)
+#define HIKIBKBECKO__COLLECT_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19042750)
+#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_STRING__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19042C00)
+#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_STRING__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19042B90)
+#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19042C90)
+#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19042BF0)
+#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19042BA0)
+#define HIKIBKBECKO__COLLECT_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19042610)
+#define HIKIBKBECKO__COLLECT_D__9___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x19042650)
 
-inline static constexpr unsigned int HIKIBKBECKO__Collect_d__9_TypeDefinitionIndex = 75893;
+inline static constexpr unsigned int HIKIBKBECKO__Collect_d__9_TypeDefinitionIndex = 78220;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	class HIKIBKBECKO__Collect_d__9 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerator_1<::System::String*>* __7__wrap1; // 0x10
-		::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig config; // 0x18
-		::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig __3__config; // 0x40
-		::System::String* __2__current; // 0x68
-		::System::Int32 __1__state; // 0x70
-		::System::Int32 __l__initialThreadId; // 0x74
+		::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig config; // 0x10
+		::System::Collections::Generic::IEnumerator_1<::System::String*>* __7__wrap1; // 0x38
+		::System::String* __2__current; // 0x40
+		::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig __3__config; // 0x48
+		::System::Int32 __l__initialThreadId; // 0x70
+		::System::Int32 __1__state; // 0x74
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HIKIBKBECKO__COLLECT_D__9_CTOR_OFFSET))(this, a1);

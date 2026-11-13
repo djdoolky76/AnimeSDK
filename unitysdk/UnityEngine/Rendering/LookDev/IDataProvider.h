@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::LookDev
 {
-	inline static constexpr unsigned int IDataProvider_TypeDefinitionIndex = 35669;
+	inline static constexpr unsigned int IDataProvider_TypeDefinitionIndex = 36597;
 
 	class IDataProvider
 	{

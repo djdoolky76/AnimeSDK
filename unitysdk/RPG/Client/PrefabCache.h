@@ -5,17 +5,17 @@ class AIBOPLOBAFN;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PREFABCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC00490)
-#define RPG_CLIENT_PREFABCACHE_CTOR_OFFSET UNITYSDK_OFFSET(0xDC00480)
-#define RPG_CLIENT_PREFABCACHE_GETPOOL_OFFSET UNITYSDK_OFFSET(0xDBFFEB0)
-#define RPG_CLIENT_PREFABCACHE_GET_MPREFAB_OFFSET UNITYSDK_OFFSET(0xDBFFD20)
-#define RPG_CLIENT_PREFABCACHE_LDNMLDJEOHG_OFFSET UNITYSDK_OFFSET(0xDBFFDB0)
-#define RPG_CLIENT_PREFABCACHE_PREFABDESPAWNCHECK_OFFSET UNITYSDK_OFFSET(0xDC00260)
-#define RPG_CLIENT_PREFABCACHE_SET_MPREFAB_OFFSET UNITYSDK_OFFSET(0xDBFFD60)
+#define RPG_CLIENT_PREFABCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x19BE3CF0)
+#define RPG_CLIENT_PREFABCACHE_CTOR_OFFSET UNITYSDK_OFFSET(0x19BE3CE0)
+#define RPG_CLIENT_PREFABCACHE_GETPOOL_OFFSET UNITYSDK_OFFSET(0x19BE3710)
+#define RPG_CLIENT_PREFABCACHE_GET_MPREFAB_OFFSET UNITYSDK_OFFSET(0x19BE3580)
+#define RPG_CLIENT_PREFABCACHE_LDNMLDJEOHG_OFFSET UNITYSDK_OFFSET(0x19BE3610)
+#define RPG_CLIENT_PREFABCACHE_PREFABDESPAWNCHECK_OFFSET UNITYSDK_OFFSET(0x19BE3AC0)
+#define RPG_CLIENT_PREFABCACHE_SET_MPREFAB_OFFSET UNITYSDK_OFFSET(0x19BE35C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefabCache_TypeDefinitionIndex = 72631;
+	inline static constexpr unsigned int PrefabCache_TypeDefinitionIndex = 74710;
 
 	class PrefabCache : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,12 +24,12 @@ namespace RPG::Client
 		::UnityEngine::GameObject* OIBJBILPJHB; // 0x20
 		static ::System::Boolean* StaticGet_PrefabCacheEnable()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "PrefabCache")->GetStaticField(0xA150);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "PrefabCache")->GetStaticField(0x11650);
 		}
 
 		static ::System::Boolean* StaticGet_PrefabCacheCheckEnable()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "PrefabCache")->GetStaticField(0xA151);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "PrefabCache")->GetStaticField(0x11651);
 		}
 
 		// static const ::System::String* JMFOAIMENHE; // 0x0

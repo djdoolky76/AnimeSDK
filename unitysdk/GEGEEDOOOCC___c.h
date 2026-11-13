@@ -5,23 +5,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define GEGEEDOOOCC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x159C9CD0)
-#define GEGEEDOOOCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159C9D10)
-#define GEGEEDOOOCC___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0x159C9D20)
+#define GEGEEDOOOCC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17CD6420)
+#define GEGEEDOOOCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17CD6460)
+#define GEGEEDOOOCC___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0x17CD6470)
 
-inline static constexpr unsigned int GEGEEDOOOCC___c_TypeDefinitionIndex = 65592;
+inline static constexpr unsigned int GEGEEDOOOCC___c_TypeDefinitionIndex = 67508;
 
 	class GEGEEDOOOCC___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::System::String*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FD90);
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x675E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FD98);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x675E8);
 		}
 
 		static ::System::Void _cctor()

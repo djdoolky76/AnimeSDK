@@ -9,25 +9,25 @@ namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5FF10)
-#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3F25BD0)
+#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xB480)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__9_TypeDefinitionIndex = 38491;
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__9_TypeDefinitionIndex = 39420;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	struct alignas(8) UnityBindingExtensions__BindToCore_d__9
 	{
-		::System::Object* __u__1; // 0x10
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Boolean>* _e_5__3; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x20
+		::UnityEngine::UI::Selectable* selectable; // 0x30
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Boolean>* source; // 0x38
+		::System::Object* __7__wrap3; // 0x40
+		::System::Object* __u__1; // 0x48
 		::System::Byte _padding0[0x8];
-		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x28
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Boolean>* _e_5__3; // 0x30
-		::UnityEngine::UI::Selectable* selectable; // 0x38
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Boolean>* source; // 0x40
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x48
-		::System::Object* __7__wrap3; // 0x58
+		::System::Threading::CancellationToken cancellationToken; // 0x58
 		::System::Int32 __1__state; // 0x60
 		::System::Int32 __7__wrap4; // 0x64
 		::System::Boolean _repeat_5__2; // 0x68

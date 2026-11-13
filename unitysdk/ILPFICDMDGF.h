@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByLocalPlayerIsFakeAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILPFICDMDGF_CTOR_OFFSET UNITYSDK_OFFSET(0x164BDCA0)
-#define ILPFICDMDGF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164BDCD0)
+#define ILPFICDMDGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C9420)
+#define ILPFICDMDGF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A5C9450)
 
-inline static constexpr unsigned int ILPFICDMDGF_TypeDefinitionIndex = 53152;
+inline static constexpr unsigned int ILPFICDMDGF_TypeDefinitionIndex = 54314;
 
 	class ILPFICDMDGF
 	{

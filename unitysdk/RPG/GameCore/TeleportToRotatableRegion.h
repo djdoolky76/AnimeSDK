@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TeleportToRotatableRegion; }
 
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB52080)
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB52090)
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB52050)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C6BC0)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F5C6BD0)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C6B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeleportToRotatableRegion_TypeDefinitionIndex = 20917;
+	inline static constexpr unsigned int TeleportToRotatableRegion_TypeDefinitionIndex = 21255;
 
 	class TeleportToRotatableRegion : public ::RPG::GameCore::TaskConfig
 	{

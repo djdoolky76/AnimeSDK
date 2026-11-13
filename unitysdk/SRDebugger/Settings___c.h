@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SRDEBUGGER_SETTINGS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED26390)
-#define SRDEBUGGER_SETTINGS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED263D0)
-#define SRDEBUGGER_SETTINGS___C__SET_ENTRYCODE_B__40_0_OFFSET UNITYSDK_OFFSET(0x1ED263E0)
+#define SRDEBUGGER_SETTINGS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D441A80)
+#define SRDEBUGGER_SETTINGS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D441AC0)
+#define SRDEBUGGER_SETTINGS___C__SET_ENTRYCODE_B__40_0_OFFSET UNITYSDK_OFFSET(0x1D441AD0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int Settings___c_TypeDefinitionIndex = 37979;
+	inline static constexpr unsigned int Settings___c_TypeDefinitionIndex = 38908;
 
 	class Settings___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("SRDebugger", "<>c")->GetStaticField(0x34530);
-		}
-
 		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("SRDebugger", "<>c")->GetStaticField(0x34538);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("SRDebugger", "<>c")->GetStaticField(0x2E740);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("SRDebugger", "<>c")->GetStaticField(0x2E748);
 		}
 
 		static ::System::Void _cctor()

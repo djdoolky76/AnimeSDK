@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
-inline static constexpr unsigned int ComponentDestroyManager___O_TypeDefinitionIndex = 47242;
+inline static constexpr unsigned int ComponentDestroyManager___O_TypeDefinitionIndex = 48270;
 
 	class ComponentDestroyManager___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction** StaticGet__0___ProcessPendingDestroy()
 		{
-			return (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction**)UnitySDK::FromName("", "<>O")->GetStaticField(0x55220);
+			return (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction**)UnitySDK::FromName("", "<>O")->GetStaticField(0x4AA10);
 		}
 
 	};

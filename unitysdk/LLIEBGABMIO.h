@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define LLIEBGABMIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C711C50)
+#define LLIEBGABMIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC21470)
 
-inline static constexpr unsigned int LLIEBGABMIO_TypeDefinitionIndex = 37060;
+inline static constexpr unsigned int LLIEBGABMIO_TypeDefinitionIndex = 37988;
 
 	class LLIEBGABMIO : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

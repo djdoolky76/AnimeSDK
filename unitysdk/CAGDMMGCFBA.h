@@ -7,10 +7,10 @@ class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelRepeatNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CAGDMMGCFBA_CTOR_OFFSET UNITYSDK_OFFSET(0xC474AB0)
-#define CAGDMMGCFBA_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xC474AC0)
+#define CAGDMMGCFBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6239B0)
+#define CAGDMMGCFBA_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x1B6239C0)
 
-inline static constexpr unsigned int CAGDMMGCFBA_TypeDefinitionIndex = 77693;
+inline static constexpr unsigned int CAGDMMGCFBA_TypeDefinitionIndex = 80428;
 
 	class CAGDMMGCFBA : public ::HBLDGJCDJPF
 	{

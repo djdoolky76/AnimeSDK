@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class Terrain; }
 
-#define HOUDINIENGINEUNITY_TEST_TERRAIN_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B996740)
-#define HOUDINIENGINEUNITY_TEST_TERRAIN_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B996780)
-#define HOUDINIENGINEUNITY_TEST_TERRAIN_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B996790)
-#define HOUDINIENGINEUNITY_TEST_TERRAIN_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B9967D0)
+#define HOUDINIENGINEUNITY_TEST_TERRAIN_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20880970)
+#define HOUDINIENGINEUNITY_TEST_TERRAIN_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x208809B0)
+#define HOUDINIENGINEUNITY_TEST_TERRAIN_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x208809C0)
+#define HOUDINIENGINEUNITY_TEST_TERRAIN_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x20880A00)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Terrain_Extensions___c_TypeDefinitionIndex = 40765;
+	inline static constexpr unsigned int Test_Terrain_Extensions___c_TypeDefinitionIndex = 41740;
 
 	class Test_Terrain_Extensions___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x695A0);
+		}
+
 		static ::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x644A0);
+			return (::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x695A8);
 		}
 
 		static ::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x644A8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x644B0);
+			return (::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x695B0);
 		}
 
 		static ::System::Void _cctor()

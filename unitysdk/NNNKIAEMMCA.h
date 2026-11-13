@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class DMDPOFBLBIE;
 
-#define NNNKIAEMMCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCCF0C0)
-#define NNNKIAEMMCA_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0xBCCEF40)
+#define NNNKIAEMMCA_CTOR_OFFSET UNITYSDK_OFFSET(0x17A145E0)
+#define NNNKIAEMMCA_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x17A14460)
 
-inline static constexpr unsigned int NNNKIAEMMCA_TypeDefinitionIndex = 72433;
+inline static constexpr unsigned int NNNKIAEMMCA_TypeDefinitionIndex = 74512;
 
 	class NNNKIAEMMCA : public ::System::Object
 	{

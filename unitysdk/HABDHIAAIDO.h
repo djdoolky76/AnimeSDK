@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StackAIUpperGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HABDHIAAIDO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B64C00)
-#define HABDHIAAIDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B64C30)
+#define HABDHIAAIDO_CTOR_OFFSET UNITYSDK_OFFSET(0x17DD1D20)
+#define HABDHIAAIDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17DD1D50)
 
-inline static constexpr unsigned int HABDHIAAIDO_TypeDefinitionIndex = 47613;
+inline static constexpr unsigned int HABDHIAAIDO_TypeDefinitionIndex = 48642;
 
 	class HABDHIAAIDO
 	{

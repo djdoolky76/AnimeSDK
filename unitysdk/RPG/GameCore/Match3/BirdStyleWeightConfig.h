@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore::Match3 { class BirdStyleWeightConfig; }
 
-#define RPG_GAMECORE_MATCH3_BIRDSTYLEWEIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81D910)
-#define RPG_GAMECORE_MATCH3_BIRDSTYLEWEIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81D820)
+#define RPG_GAMECORE_MATCH3_BIRDSTYLEWEIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB51D30)
+#define RPG_GAMECORE_MATCH3_BIRDSTYLEWEIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB51C40)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int BirdStyleWeightConfig_TypeDefinitionIndex = 24934;
+	inline static constexpr unsigned int BirdStyleWeightConfig_TypeDefinitionIndex = 25414;
 
 	class BirdStyleWeightConfig : public ::RPG::GameCore::JsonConfig
 	{

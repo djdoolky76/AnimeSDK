@@ -4,7 +4,7 @@
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeRaycastAPI_Ray_TypeDefinitionIndex = 47014;
+	inline static constexpr unsigned int EmbreeRaycastAPI_Ray_TypeDefinitionIndex = 48042;
 
 	struct alignas(4) EmbreeRaycastAPI_Ray
 	{

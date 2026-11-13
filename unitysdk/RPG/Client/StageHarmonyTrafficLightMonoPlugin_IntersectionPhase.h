@@ -5,12 +5,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_INTERSECTIONPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0xE111EA0)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_INTERSECTIONPHASE_EMMIMPKEIOG_OFFSET UNITYSDK_OFFSET(0xE111040)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_INTERSECTIONPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8FF4F0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_INTERSECTIONPHASE_EMMIMPKEIOG_OFFSET UNITYSDK_OFFSET(0x1A8FE690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_TypeDefinitionIndex = 71001;
+	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_TypeDefinitionIndex = 72980;
 
 	class StageHarmonyTrafficLightMonoPlugin_IntersectionPhase : public ::System::Object
 	{

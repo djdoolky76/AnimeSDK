@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GOPHGIHIDPP_TypeDefinitionIndex = 31330;
+inline static constexpr unsigned int GOPHGIHIDPP_TypeDefinitionIndex = 32243;
 
 	enum class GOPHGIHIDPP : ::System::Int32
 	{

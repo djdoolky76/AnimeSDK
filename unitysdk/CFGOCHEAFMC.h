@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvOnTargetLost; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CFGOCHEAFMC_CTOR_OFFSET UNITYSDK_OFFSET(0xCC45EB0)
-#define CFGOCHEAFMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC45EE0)
+#define CFGOCHEAFMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1781EC70)
+#define CFGOCHEAFMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1781ECA0)
 
-inline static constexpr unsigned int CFGOCHEAFMC_TypeDefinitionIndex = 52459;
+inline static constexpr unsigned int CFGOCHEAFMC_TypeDefinitionIndex = 53565;
 
 	class CFGOCHEAFMC
 	{

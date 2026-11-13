@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GLBHHMGOOEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA837D0)
+#define GLBHHMGOOEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA898D0)
 
-inline static constexpr unsigned int GLBHHMGOOEK_TypeDefinitionIndex = 43261;
+inline static constexpr unsigned int GLBHHMGOOEK_TypeDefinitionIndex = 44242;
 
 	class GLBHHMGOOEK : public ::System::Object
 	{

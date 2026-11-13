@@ -4,18 +4,18 @@
 class CAIHACOKAJO;
 namespace System { class Object; }
 
-#define CAIHACOKAJO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E02E510)
-#define CAIHACOKAJO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E02E550)
-#define CAIHACOKAJO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E02E560)
+#define CAIHACOKAJO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2034ED70)
+#define CAIHACOKAJO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2034EDB0)
+#define CAIHACOKAJO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2034EDC0)
 
-inline static constexpr unsigned int CAIHACOKAJO___c_TypeDefinitionIndex = 34815;
+inline static constexpr unsigned int CAIHACOKAJO___c_TypeDefinitionIndex = 35743;
 
 	class CAIHACOKAJO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F9E0);
 		}
 
 		static ::System::Void _cctor()

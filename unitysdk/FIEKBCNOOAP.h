@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FIEKBCNOOAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA401B0)
+#define FIEKBCNOOAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20A970)
 
-inline static constexpr unsigned int FIEKBCNOOAP_TypeDefinitionIndex = 42271;
+inline static constexpr unsigned int FIEKBCNOOAP_TypeDefinitionIndex = 43246;
 
 	class FIEKBCNOOAP : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 class EKAFJOGBCFA;
 
-#define DDHEIHMPJKE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE25D950)
-#define DDHEIHMPJKE___C__DISPLAYCLASS12_0___ONTIMELINEBIND_B__0_OFFSET UNITYSDK_OFFSET(0xE25D960)
+#define DDHEIHMPJKE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17737F50)
+#define DDHEIHMPJKE___C__DISPLAYCLASS12_0___ONTIMELINEBIND_B__0_OFFSET UNITYSDK_OFFSET(0x17737F60)
 
-inline static constexpr unsigned int DDHEIHMPJKE___c__DisplayClass12_0_TypeDefinitionIndex = 57954;
+inline static constexpr unsigned int DDHEIHMPJKE___c__DisplayClass12_0_TypeDefinitionIndex = 59191;
 
 	class DDHEIHMPJKE___c__DisplayClass12_0 : public ::System::Object
 	{

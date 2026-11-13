@@ -6,23 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingSkillTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSKILLTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1FFF0)
-#define RPG_GAMECORE_SWORDTRAININGSKILLTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB1FC90)
+#define RPG_GAMECORE_SWORDTRAININGSKILLTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68FAD0)
+#define RPG_GAMECORE_SWORDTRAININGSKILLTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E68F770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingSkillTypeRow_TypeDefinitionIndex = 12443;
+	inline static constexpr unsigned int SwordTrainingSkillTypeRow_TypeDefinitionIndex = 12510;
 
 	class SwordTrainingSkillTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* SkillTypeIcon; // 0x10
-		::RPG::Client::TextID SkillTypeName; // 0x18
-		::RPG::Client::TextID SkillTypeDesc; // 0x28
-		::System::UInt32 StatusID; // 0x38
-		::System::UInt32 SkillTypeID; // 0x3C
-		::RPG::Client::TextID SkillTypeTag; // 0x40
-		::System::UInt32 UnlockID; // 0x50
+		::System::UInt32 StatusID; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID SkillTypeDesc; // 0x20
+		::RPG::Client::TextID SkillTypeTag; // 0x30
+		::System::UInt32 UnlockID; // 0x40
+		::System::UInt32 SkillTypeID; // 0x44
+		::RPG::Client::TextID SkillTypeName; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGSKILLTYPEROW_CTOR_OFFSET))(this);

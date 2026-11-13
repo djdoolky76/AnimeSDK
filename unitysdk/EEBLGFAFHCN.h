@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEntityRelationGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EEBLGFAFHCN_CTOR_OFFSET UNITYSDK_OFFSET(0x13349A60)
-#define EEBLGFAFHCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13349A90)
+#define EEBLGFAFHCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A310DD0)
+#define EEBLGFAFHCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A310E00)
 
-inline static constexpr unsigned int EEBLGFAFHCN_TypeDefinitionIndex = 55020;
+inline static constexpr unsigned int EEBLGFAFHCN_TypeDefinitionIndex = 56194;
 
 	class EEBLGFAFHCN
 	{

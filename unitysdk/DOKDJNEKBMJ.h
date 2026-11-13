@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BaseGachaPoolData; }
 
-#define DOKDJNEKBMJ_AGDONHEEJGP_OFFSET UNITYSDK_OFFSET(0x11FE7ED0)
+#define DOKDJNEKBMJ_AGDONHEEJGP_OFFSET UNITYSDK_OFFSET(0x191AB260)
 
-inline static constexpr unsigned int DOKDJNEKBMJ_TypeDefinitionIndex = 64321;
+inline static constexpr unsigned int DOKDJNEKBMJ_TypeDefinitionIndex = 65766;
 
 	class DOKDJNEKBMJ : public ::System::Object
 	{

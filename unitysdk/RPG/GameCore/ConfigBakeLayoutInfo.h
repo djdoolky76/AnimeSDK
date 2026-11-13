@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ConfigBakeLayoutInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONFIGBAKELAYOUTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A6EF0)
-#define RPG_GAMECORE_CONFIGBAKELAYOUTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A6D20)
+#define RPG_GAMECORE_CONFIGBAKELAYOUTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE07D0)
+#define RPG_GAMECORE_CONFIGBAKELAYOUTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFE0600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigBakeLayoutInfo_TypeDefinitionIndex = 16447;
+	inline static constexpr unsigned int ConfigBakeLayoutInfo_TypeDefinitionIndex = 16611;
 
 	class ConfigBakeLayoutInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ST_RtMain_MoveToTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ST_RTMAIN_MOVETOTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA54470)
-#define RPG_GAMECORE_ST_RTMAIN_MOVETOTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA54480)
-#define RPG_GAMECORE_ST_RTMAIN_MOVETOTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA54440)
+#define RPG_GAMECORE_ST_RTMAIN_MOVETOTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC99710)
+#define RPG_GAMECORE_ST_RTMAIN_MOVETOTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC99720)
+#define RPG_GAMECORE_ST_RTMAIN_MOVETOTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC996E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_RtMain_MoveToTarget_TypeDefinitionIndex = 24076;
+	inline static constexpr unsigned int ST_RtMain_MoveToTarget_TypeDefinitionIndex = 24535;
 
 	class ST_RtMain_MoveToTarget : public ::RPG::GameCore::STTaskConfig
 	{

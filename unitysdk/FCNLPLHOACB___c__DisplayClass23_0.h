@@ -5,10 +5,10 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class AAFIACIMMHE;
 
-#define FCNLPLHOACB___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C524480)
-#define FCNLPLHOACB___C__DISPLAYCLASS23_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1C524920)
+#define FCNLPLHOACB___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E787640)
+#define FCNLPLHOACB___C__DISPLAYCLASS23_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1E787AE0)
 
-inline static constexpr unsigned int FCNLPLHOACB___c__DisplayClass23_0_TypeDefinitionIndex = 41833;
+inline static constexpr unsigned int FCNLPLHOACB___c__DisplayClass23_0_TypeDefinitionIndex = 42808;
 
 	class FCNLPLHOACB___c__DisplayClass23_0 : public ::System::Object
 	{

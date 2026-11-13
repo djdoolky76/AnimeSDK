@@ -3,7 +3,7 @@
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int IBlindBoxOpenOneResult_TypeDefinitionIndex = 74959;
+	inline static constexpr unsigned int IBlindBoxOpenOneResult_TypeDefinitionIndex = 77286;
 
 	class IBlindBoxOpenOneResult
 	{

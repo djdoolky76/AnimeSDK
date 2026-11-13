@@ -8,11 +8,11 @@ namespace RPG::GameCore { class ChimeraDuelEntitiesIntersectionSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DDCFKCEAELI_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xE2556A0)
-#define DDCFKCEAELI_CTOR_OFFSET UNITYSDK_OFFSET(0xE256020)
-#define DDCFKCEAELI_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xE255760)
+#define DDCFKCEAELI_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x1772F890)
+#define DDCFKCEAELI_CTOR_OFFSET UNITYSDK_OFFSET(0x17730200)
+#define DDCFKCEAELI_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x1772F950)
 
-inline static constexpr unsigned int DDCFKCEAELI_TypeDefinitionIndex = 77524;
+inline static constexpr unsigned int DDCFKCEAELI_TypeDefinitionIndex = 80259;
 
 	class DDCFKCEAELI : public ::System::Object
 	{

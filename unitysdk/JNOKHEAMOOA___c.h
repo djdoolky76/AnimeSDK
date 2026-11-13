@@ -5,23 +5,23 @@ namespace RPG::GameCore { class BattleFateHouguRuntime; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JNOKHEAMOOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB28B3D0)
-#define JNOKHEAMOOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB28B410)
-#define JNOKHEAMOOA___C__EVALUATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xB28B420)
+#define JNOKHEAMOOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4CCB70)
+#define JNOKHEAMOOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CCBB0)
+#define JNOKHEAMOOA___C__EVALUATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B4CCBC0)
 
-inline static constexpr unsigned int JNOKHEAMOOA___c_TypeDefinitionIndex = 64146;
+inline static constexpr unsigned int JNOKHEAMOOA___c_TypeDefinitionIndex = 65591;
 
 	class JNOKHEAMOOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23E40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28560);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::BattleFateHouguRuntime*, ::System::Int64>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::BattleFateHouguRuntime*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23E48);
+			return (::System::Func_2<::RPG::GameCore::BattleFateHouguRuntime*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28568);
 		}
 
 		static ::System::Void _cctor()

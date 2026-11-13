@@ -5,12 +5,12 @@ class DBPABFJKNGL;
 namespace RPG::Client::B51Racing { class B51RacingDIYPageControl; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL___C__DISPLAYCLASS16_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC787440)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL___C__DISPLAYCLASS16_1___SUBMIT_B__1_OFFSET UNITYSDK_OFFSET(0xC787450)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL___C__DISPLAYCLASS16_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1B122F80)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL___C__DISPLAYCLASS16_1___SUBMIT_B__1_OFFSET UNITYSDK_OFFSET(0x1B127C40)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDIYPageControl___c__DisplayClass16_1_TypeDefinitionIndex = 81779;
+	inline static constexpr unsigned int B51RacingDIYPageControl___c__DisplayClass16_1_TypeDefinitionIndex = 84560;
 
 	template <typename T>
 	class B51RacingDIYPageControl___c__DisplayClass16_1 : public ::System::Object

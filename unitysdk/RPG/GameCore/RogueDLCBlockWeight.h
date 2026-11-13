@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCBlockWeight; }
 
-#define RPG_GAMECORE_ROGUEDLCBLOCKWEIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D98ED30)
-#define RPG_GAMECORE_ROGUEDLCBLOCKWEIGHT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D98EC10)
+#define RPG_GAMECORE_ROGUEDLCBLOCKWEIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F574BF0)
+#define RPG_GAMECORE_ROGUEDLCBLOCKWEIGHT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F574AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCBlockWeight_TypeDefinitionIndex = 17911;
+	inline static constexpr unsigned int RogueDLCBlockWeight_TypeDefinitionIndex = 18080;
 
 	class RogueDLCBlockWeight : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSpecialVisionProtect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MMCPJIOAOJF_CTOR_OFFSET UNITYSDK_OFFSET(0xB9BA860)
-#define MMCPJIOAOJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9BA890)
+#define MMCPJIOAOJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9302F0)
+#define MMCPJIOAOJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B930320)
 
-inline static constexpr unsigned int MMCPJIOAOJF_TypeDefinitionIndex = 52510;
+inline static constexpr unsigned int MMCPJIOAOJF_TypeDefinitionIndex = 53616;
 
 	class MMCPJIOAOJF
 	{

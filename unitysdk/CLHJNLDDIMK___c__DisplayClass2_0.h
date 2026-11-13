@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MatchThreeGameProp; }
 
-#define CLHJNLDDIMK___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD7856E0)
-#define CLHJNLDDIMK___C__DISPLAYCLASS2_0__ONEXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xD785700)
+#define CLHJNLDDIMK___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B17A890)
+#define CLHJNLDDIMK___C__DISPLAYCLASS2_0__ONEXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1B17A8B0)
 
-inline static constexpr unsigned int CLHJNLDDIMK___c__DisplayClass2_0_TypeDefinitionIndex = 65881;
+inline static constexpr unsigned int CLHJNLDDIMK___c__DisplayClass2_0_TypeDefinitionIndex = 67813;
 
 	class CLHJNLDDIMK___c__DisplayClass2_0 : public ::System::Object
 	{

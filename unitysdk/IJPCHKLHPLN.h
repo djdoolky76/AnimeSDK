@@ -5,7 +5,7 @@
 class NCJILFFNINI;
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-inline static constexpr unsigned int IJPCHKLHPLN_TypeDefinitionIndex = 54987;
+inline static constexpr unsigned int IJPCHKLHPLN_TypeDefinitionIndex = 56161;
 
 	struct alignas(8) IJPCHKLHPLN
 	{

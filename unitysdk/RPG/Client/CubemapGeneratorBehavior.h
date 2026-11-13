@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-#define RPG_CLIENT_CUBEMAPGENERATORBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xCBCC690)
+#define RPG_CLIENT_CUBEMAPGENERATORBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E4350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CubemapGeneratorBehavior_TypeDefinitionIndex = 71040;
+	inline static constexpr unsigned int CubemapGeneratorBehavior_TypeDefinitionIndex = 73019;
 
 	class CubemapGeneratorBehavior : public ::RPG::Client::TABehaviorBase
 	{

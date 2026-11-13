@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2BitSet.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SENSORTASKCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C821510)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SENSORTASKCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xC8EAB30)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SensorTaskContext_TypeDefinitionIndex = 36754;
+	inline static constexpr unsigned int B2SensorTaskContext_TypeDefinitionIndex = 37682;
 
 	class B2SensorTaskContext : public ::System::Object
 	{

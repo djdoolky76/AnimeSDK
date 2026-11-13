@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByComparePropertyRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMIBOEFAKAI_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBC850)
-#define DMIBOEFAKAI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEBC880)
+#define DMIBOEFAKAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1869A880)
+#define DMIBOEFAKAI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1869A8B0)
 
-inline static constexpr unsigned int DMIBOEFAKAI_TypeDefinitionIndex = 53914;
+inline static constexpr unsigned int DMIBOEFAKAI_TypeDefinitionIndex = 55078;
 
 	class DMIBOEFAKAI
 	{

@@ -8,83 +8,83 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Reflection { class Assembly; }
 
-#define DKHCPHJLBLN_CCTOR_OFFSET UNITYSDK_OFFSET(0xF87A320)
-#define DKHCPHJLBLN_DKIIGLAIMNL_OFFSET UNITYSDK_OFFSET(0xF878760)
-#define DKHCPHJLBLN_HMEBFMPPIEB_OFFSET UNITYSDK_OFFSET(0xF879880)
-#define DKHCPHJLBLN_IKBGDHPPDLH_OFFSET UNITYSDK_OFFSET(0xF877020)
-#define DKHCPHJLBLN_JNACBACPDEM_OFFSET UNITYSDK_OFFSET(0xF879FB0)
-#define DKHCPHJLBLN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF879EF0)
-#define DKHCPHJLBLN_LLFPEANIJIC_OFFSET UNITYSDK_OFFSET(0xF8790E0)
-#define DKHCPHJLBLN_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xF87A070)
-#define DKHCPHJLBLN_NDLJJFBNEAP_OFFSET UNITYSDK_OFFSET(0xF876E80)
-#define DKHCPHJLBLN_OBOJEIPJBBJ_OFFSET UNITYSDK_OFFSET(0xF877740)
-#define DKHCPHJLBLN_OKCFAOIMOKA_OFFSET UNITYSDK_OFFSET(0xF876CE0)
-#define DKHCPHJLBLN_OLFFELAAEFF_OFFSET UNITYSDK_OFFSET(0xF8774C0)
-#define DKHCPHJLBLN_PPBEHEGLOPD_OFFSET UNITYSDK_OFFSET(0xF876A10)
+#define DKHCPHJLBLN_CCTOR_OFFSET UNITYSDK_OFFSET(0x18C18410)
+#define DKHCPHJLBLN_DKIIGLAIMNL_OFFSET UNITYSDK_OFFSET(0x18C16850)
+#define DKHCPHJLBLN_HMEBFMPPIEB_OFFSET UNITYSDK_OFFSET(0x18C17970)
+#define DKHCPHJLBLN_IKBGDHPPDLH_OFFSET UNITYSDK_OFFSET(0x18C15110)
+#define DKHCPHJLBLN_JNACBACPDEM_OFFSET UNITYSDK_OFFSET(0x18C180A0)
+#define DKHCPHJLBLN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x18C17FE0)
+#define DKHCPHJLBLN_LLFPEANIJIC_OFFSET UNITYSDK_OFFSET(0x18C171D0)
+#define DKHCPHJLBLN_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x18C18160)
+#define DKHCPHJLBLN_NDLJJFBNEAP_OFFSET UNITYSDK_OFFSET(0x18C14F70)
+#define DKHCPHJLBLN_OBOJEIPJBBJ_OFFSET UNITYSDK_OFFSET(0x18C15830)
+#define DKHCPHJLBLN_OKCFAOIMOKA_OFFSET UNITYSDK_OFFSET(0x18C14DD0)
+#define DKHCPHJLBLN_OLFFELAAEFF_OFFSET UNITYSDK_OFFSET(0x18C155B0)
+#define DKHCPHJLBLN_PPBEHEGLOPD_OFFSET UNITYSDK_OFFSET(0x18C14B00)
 
-inline static constexpr unsigned int DKHCPHJLBLN_TypeDefinitionIndex = 82296;
+inline static constexpr unsigned int DKHCPHJLBLN_TypeDefinitionIndex = 85169;
 
 	class DKHCPHJLBLN : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::Assembly** StaticGet_MPPLBHPHKHP()
+		static ::System::Reflection::Assembly** StaticGet_KAELENPNIIN()
 		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56120);
-		}
-
-		static ::System::Reflection::Assembly** StaticGet_OLENABBNMEN()
-		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56128);
-		}
-
-		static ::System::Reflection::Assembly** StaticGet_EMOJAPPLEBK()
-		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56130);
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE20);
 		}
 
 		static ::System::Reflection::Assembly** StaticGet_ONHAHIEIHNB()
 		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56138);
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE28);
 		}
 
-		static ::System::Reflection::Assembly** StaticGet_JGCCKBDNOIJ()
+		static ::System::Reflection::Assembly** StaticGet_EMOJAPPLEBK()
 		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56140);
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE30);
 		}
 
-		static ::System::Reflection::Assembly** StaticGet_GKGJBCHOPIB()
+		static ::System::Reflection::Assembly** StaticGet_OLENABBNMEN()
 		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56148);
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE38);
 		}
 
 		static ::System::Reflection::Assembly** StaticGet_KKCCIOFNPDH()
 		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56150);
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE40);
 		}
 
-		static ::System::Reflection::Assembly** StaticGet_IMONHFNMCPD()
+		static ::System::Reflection::Assembly** StaticGet_JGCCKBDNOIJ()
 		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56158);
-		}
-
-		static ::System::Reflection::Assembly** StaticGet_KAELENPNIIN()
-		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56160);
-		}
-
-		static ::System::Reflection::Assembly** StaticGet_ONIKFMCJHDA()
-		{
-			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56168);
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE48);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_MBKJECMNENK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x56170);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE50);
+		}
+
+		static ::System::Reflection::Assembly** StaticGet_GKGJBCHOPIB()
+		{
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE58);
+		}
+
+		static ::System::Reflection::Assembly** StaticGet_ONIKFMCJHDA()
+		{
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE60);
+		}
+
+		static ::System::Reflection::Assembly** StaticGet_MPPLBHPHKHP()
+		{
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE68);
+		}
+
+		static ::System::Reflection::Assembly** StaticGet_IMONHFNMCPD()
+		{
+			return (::System::Reflection::Assembly**)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x6EE70);
 		}
 
 		static ::System::Char* StaticGet_APIDJJBCJEM()
 		{
-			return (::System::Char*)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x130F0);
+			return (::System::Char*)UnitySDK::FromName("", "DKHCPHJLBLN")->GetStaticField(0x15180);
 		}
 
 		static ::System::Void _cctor()

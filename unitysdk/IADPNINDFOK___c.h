@@ -4,18 +4,18 @@
 class IADPNINDFOK;
 namespace System { class Object; }
 
-#define IADPNINDFOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5D64B0)
-#define IADPNINDFOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D64F0)
-#define IADPNINDFOK___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E5D6500)
+#define IADPNINDFOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2039C8D0)
+#define IADPNINDFOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2039C910)
+#define IADPNINDFOK___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2039C920)
 
-inline static constexpr unsigned int IADPNINDFOK___c_TypeDefinitionIndex = 34886;
+inline static constexpr unsigned int IADPNINDFOK___c_TypeDefinitionIndex = 35814;
 
 	class IADPNINDFOK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41FD0);
 		}
 
 		static ::System::Void _cctor()

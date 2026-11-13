@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_BOXCONFIGMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B8D0)
+#define MIHOYO_SDK_BOXCONFIGMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B456EE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BoxConfigModel_TypeDefinitionIndex = 7867;
+	inline static constexpr unsigned int BoxConfigModel_TypeDefinitionIndex = 7876;
 
 	class BoxConfigModel : public ::System::Object
 	{

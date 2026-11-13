@@ -4,12 +4,12 @@
 class BCFAKEGJPKN;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftActorViewModel; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD66DB20)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD66DBC0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1E90C110)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTACTORVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E90C1B0)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftActorViewModel_Factory_TypeDefinitionIndex = 79656;
+	inline static constexpr unsigned int MechCraftActorViewModel_Factory_TypeDefinitionIndex = 82433;
 
 	class MechCraftActorViewModel_Factory : public ::System::Object
 	{

@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_VOLUMELIGHTBLOOMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE94E350)
+#define RPGTOOLS_TIMELINE_VFX_VOLUMELIGHTBLOOMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3A000)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VolumeLightBloomConfig_TypeDefinitionIndex = 48692;
+	inline static constexpr unsigned int VolumeLightBloomConfig_TypeDefinitionIndex = 49738;
 
 	class VolumeLightBloomConfig : public ::System::Object
 	{

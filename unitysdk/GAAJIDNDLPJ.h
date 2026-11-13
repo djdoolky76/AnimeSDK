@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class CycleScore; }
 
-#define GAAJIDNDLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15928FF0)
-#define GAAJIDNDLPJ_KNPLBKEBIHP_OFFSET UNITYSDK_OFFSET(0x15928F50)
+#define GAAJIDNDLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8643E0)
+#define GAAJIDNDLPJ_KNPLBKEBIHP_OFFSET UNITYSDK_OFFSET(0x1B864340)
 
-inline static constexpr unsigned int GAAJIDNDLPJ_TypeDefinitionIndex = 63546;
+inline static constexpr unsigned int GAAJIDNDLPJ_TypeDefinitionIndex = 64988;
 
 	class GAAJIDNDLPJ : public ::System::Object
 	{

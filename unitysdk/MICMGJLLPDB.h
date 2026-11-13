@@ -5,20 +5,20 @@ namespace RPG::GameCore { class ShowTransitionLoadingUI; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define MICMGJLLPDB_AILOHLMKGBB_OFFSET UNITYSDK_OFFSET(0xB94B860)
-#define MICMGJLLPDB_CTOR_OFFSET UNITYSDK_OFFSET(0xB94B580)
-#define MICMGJLLPDB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB94B590)
-#define MICMGJLLPDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB94B5D0)
-#define MICMGJLLPDB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB94B7B0)
-#define MICMGJLLPDB_TICK_OFFSET UNITYSDK_OFFSET(0xB94B800)
+#define MICMGJLLPDB_AILOHLMKGBB_OFFSET UNITYSDK_OFFSET(0x1A38B3F0)
+#define MICMGJLLPDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A38B110)
+#define MICMGJLLPDB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A38B120)
+#define MICMGJLLPDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A38B160)
+#define MICMGJLLPDB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A38B340)
+#define MICMGJLLPDB_TICK_OFFSET UNITYSDK_OFFSET(0x1A38B390)
 
-inline static constexpr unsigned int MICMGJLLPDB_TypeDefinitionIndex = 58697;
+inline static constexpr unsigned int MICMGJLLPDB_TypeDefinitionIndex = 59965;
 
 	class MICMGJLLPDB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowTransitionLoadingUI* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShowTransitionLoadingUI* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowTransitionLoadingUI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowTransitionLoadingUI*))((::PBYTE)hIl2Cpp + MICMGJLLPDB_CTOR_OFFSET))(this, a1, a2);

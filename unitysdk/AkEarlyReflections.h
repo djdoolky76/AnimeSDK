@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace AK::Wwise { class AuxBus; }
 
-#define AKEARLYREFLECTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F560FF0)
-#define AKEARLYREFLECTIONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F560E80)
-#define AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET UNITYSDK_OFFSET(0x1F560F50)
+#define AKEARLYREFLECTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF0F7C0)
+#define AKEARLYREFLECTIONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EF0F650)
+#define AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET UNITYSDK_OFFSET(0x1EF0F720)
 
-inline static constexpr unsigned int AkEarlyReflections_TypeDefinitionIndex = 44915;
+inline static constexpr unsigned int AkEarlyReflections_TypeDefinitionIndex = 45990;
 
 	class AkEarlyReflections : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,18 +4,18 @@
 class MOHAGOFLGAP;
 namespace System { class Object; }
 
-#define MOHAGOFLGAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA7C6F0)
-#define MOHAGOFLGAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7C730)
-#define MOHAGOFLGAP___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1EA7C740)
+#define MOHAGOFLGAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF12C10)
+#define MOHAGOFLGAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF12C50)
+#define MOHAGOFLGAP___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1FF12C60)
 
-inline static constexpr unsigned int MOHAGOFLGAP___c_TypeDefinitionIndex = 25731;
+inline static constexpr unsigned int MOHAGOFLGAP___c_TypeDefinitionIndex = 26228;
 
 	class MOHAGOFLGAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A970);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54280);
 		}
 
 		static ::System::Void _cctor()

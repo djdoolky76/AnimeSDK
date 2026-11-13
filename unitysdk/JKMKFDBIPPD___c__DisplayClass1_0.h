@@ -4,10 +4,10 @@
 class JAODHHPIKGJ;
 class JKMKFDBIPPD;
 
-#define JKMKFDBIPPD___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB21CF30)
-#define JKMKFDBIPPD___C__DISPLAYCLASS1_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xB21DEA0)
+#define JKMKFDBIPPD___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17B293F0)
+#define JKMKFDBIPPD___C__DISPLAYCLASS1_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x17B2A360)
 
-inline static constexpr unsigned int JKMKFDBIPPD___c__DisplayClass1_0_TypeDefinitionIndex = 76797;
+inline static constexpr unsigned int JKMKFDBIPPD___c__DisplayClass1_0_TypeDefinitionIndex = 79131;
 
 	class JKMKFDBIPPD___c__DisplayClass1_0 : public ::System::Object
 	{

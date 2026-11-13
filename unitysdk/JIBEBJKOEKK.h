@@ -4,9 +4,9 @@
 class FAHKECADCOF;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JIBEBJKOEKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB67230)
+#define JIBEBJKOEKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE0D3B0)
 
-inline static constexpr unsigned int JIBEBJKOEKK_TypeDefinitionIndex = 42835;
+inline static constexpr unsigned int JIBEBJKOEKK_TypeDefinitionIndex = 43816;
 
 	class JIBEBJKOEKK : public ::System::Object
 	{

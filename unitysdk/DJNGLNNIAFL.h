@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DJNGLNNIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0xF23BD10)
+#define DJNGLNNIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x18BF5290)
 
-inline static constexpr unsigned int DJNGLNNIAFL_TypeDefinitionIndex = 64342;
+inline static constexpr unsigned int DJNGLNNIAFL_TypeDefinitionIndex = 65789;
 
 	class DJNGLNNIAFL : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class BADCAMHNGKA;
 namespace System { class Object; }
 
-#define BADCAMHNGKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E783100)
-#define BADCAMHNGKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E783140)
-#define BADCAMHNGKA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E783150)
+#define BADCAMHNGKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20570F00)
+#define BADCAMHNGKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20570F40)
+#define BADCAMHNGKA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20570F50)
 
-inline static constexpr unsigned int BADCAMHNGKA___c_TypeDefinitionIndex = 31074;
+inline static constexpr unsigned int BADCAMHNGKA___c_TypeDefinitionIndex = 31987;
 
 	class BADCAMHNGKA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B820);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41020);
 		}
 
 		static ::System::Void _cctor()

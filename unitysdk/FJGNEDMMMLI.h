@@ -3,10 +3,10 @@
 #include "unitysdk/MFLJIEBFMOF.h"
 namespace System { class String; }
 
-#define FJGNEDMMMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x157B83E0)
-#define FJGNEDMMMLI_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x157B83D0)
+#define FJGNEDMMMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x19826B30)
+#define FJGNEDMMMLI_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x19826B20)
 
-inline static constexpr unsigned int FJGNEDMMMLI_TypeDefinitionIndex = 68930;
+inline static constexpr unsigned int FJGNEDMMMLI_TypeDefinitionIndex = 70883;
 
 	class FJGNEDMMMLI : public ::MFLJIEBFMOF
 	{

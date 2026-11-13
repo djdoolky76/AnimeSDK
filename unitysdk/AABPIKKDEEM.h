@@ -4,11 +4,11 @@ namespace RPG::Client { class MockAnimator; }
 namespace RPG::GameCore { class ByAnimatorParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AABPIKKDEEM_CMIKPABDNLD_OFFSET UNITYSDK_OFFSET(0xB0BFCF0)
-#define AABPIKKDEEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF8E0)
-#define AABPIKKDEEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB0BF910)
+#define AABPIKKDEEM_CMIKPABDNLD_OFFSET UNITYSDK_OFFSET(0x18C6EF50)
+#define AABPIKKDEEM_CTOR_OFFSET UNITYSDK_OFFSET(0x18C6EB40)
+#define AABPIKKDEEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18C6EB70)
 
-inline static constexpr unsigned int AABPIKKDEEM_TypeDefinitionIndex = 54482;
+inline static constexpr unsigned int AABPIKKDEEM_TypeDefinitionIndex = 55646;
 
 	class AABPIKKDEEM
 	{

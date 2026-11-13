@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/YieldInstruction.h"
 
-#define UNITYENGINE_WAITFORFIXEDUPDATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F413020)
+#define UNITYENGINE_WAITFORFIXEDUPDATE_CTOR_OFFSET UNITYSDK_OFFSET(0x2084F080)
 
 namespace UnityEngine
 {

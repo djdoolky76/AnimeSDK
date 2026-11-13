@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueInRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNOACAFJOHK_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD6680)
-#define DNOACAFJOHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FD6760)
+#define DNOACAFJOHK_CTOR_OFFSET UNITYSDK_OFFSET(0x19199820)
+#define DNOACAFJOHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19199900)
 
-inline static constexpr unsigned int DNOACAFJOHK_TypeDefinitionIndex = 55483;
+inline static constexpr unsigned int DNOACAFJOHK_TypeDefinitionIndex = 56671;
 
 	class DNOACAFJOHK
 	{

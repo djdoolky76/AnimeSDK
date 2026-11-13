@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 
-inline static constexpr unsigned int FPENNHBGGEG___c_TypeDefinitionIndex = 49765;
+inline static constexpr unsigned int FPENNHBGGEG___c_TypeDefinitionIndex = 50813;
 
 	class FPENNHBGGEG___c : public ::System::Object
 	{

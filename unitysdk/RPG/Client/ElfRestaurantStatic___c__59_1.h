@@ -7,7 +7,7 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantStatic___c__59_1_TypeDefinitionIndex = 63661;
+	inline static constexpr unsigned int ElfRestaurantStatic___c__59_1_TypeDefinitionIndex = 65103;
 
 	template <typename T>
 	class ElfRestaurantStatic___c__59_1 : public ::System::Object

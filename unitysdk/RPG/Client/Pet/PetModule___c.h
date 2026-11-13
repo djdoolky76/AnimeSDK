@@ -4,31 +4,31 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PET_PETMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAB7080)
-#define RPG_CLIENT_PET_PETMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAB70C0)
-#define RPG_CLIENT_PET_PETMODULE___C___ONRECALLPETSCRSP_B__33_1_OFFSET UNITYSDK_OFFSET(0xDAB70E0)
-#define RPG_CLIENT_PET_PETMODULE___C___ONSUMMONPETSCRSP_B__32_1_OFFSET UNITYSDK_OFFSET(0xDAB70D0)
+#define RPG_CLIENT_PET_PETMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1D8F90)
+#define RPG_CLIENT_PET_PETMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D8FD0)
+#define RPG_CLIENT_PET_PETMODULE___C___ONRECALLPETSCRSP_B__33_1_OFFSET UNITYSDK_OFFSET(0x1C1D8FF0)
+#define RPG_CLIENT_PET_PETMODULE___C___ONSUMMONPETSCRSP_B__32_1_OFFSET UNITYSDK_OFFSET(0x1C1D8FE0)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetModule___c_TypeDefinitionIndex = 75690;
+	inline static constexpr unsigned int PetModule___c_TypeDefinitionIndex = 78017;
 
 	class PetModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__33_1()
-		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x15440);
-		}
-
 		static ::System::Action** StaticGet___9__32_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x15448);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x2A690);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x15450);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x2A698);
+		}
+
+		static ::System::Action** StaticGet___9__33_1()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.Pet", "<>c")->GetStaticField(0x2A6A0);
 		}
 
 		static ::System::Void _cctor()

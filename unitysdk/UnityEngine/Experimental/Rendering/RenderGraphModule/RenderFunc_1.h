@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderFunc_1_TypeDefinitionIndex = 35450;
+	inline static constexpr unsigned int RenderFunc_1_TypeDefinitionIndex = 36378;
 
 	template <typename T>
 	class RenderFunc_1 : public ::System::MulticastDelegate

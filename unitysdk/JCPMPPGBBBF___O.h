@@ -7,29 +7,29 @@ class EFHNDMENDHI;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-inline static constexpr unsigned int JCPMPPGBBBF___O_TypeDefinitionIndex = 76575;
+inline static constexpr unsigned int JCPMPPGBBBF___O_TypeDefinitionIndex = 78906;
 
 	class JCPMPPGBBBF___O : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet__3___FromVector2Int()
+		static ::System::Comparison_1<::EFHNDMENDHI*>** StaticGet__1____BirdSkillCreateItemPackComparison()
 		{
-			return (::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6B800);
+			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x66CD0);
 		}
 
-		static ::System::Comparison_1<::EFHNDMENDHI*>** StaticGet__0____BirdSkillCreatePieceComparison()
+		static ::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet__3___FromVector2Int()
 		{
-			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6B808);
+			return (::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x66CD8);
 		}
 
 		static ::System::Comparison_1<::EFHNDMENDHI*>** StaticGet__2____BirdSkillGainPropComparison()
 		{
-			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6B810);
+			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x66CE0);
 		}
 
-		static ::System::Comparison_1<::EFHNDMENDHI*>** StaticGet__1____BirdSkillCreateItemPackComparison()
+		static ::System::Comparison_1<::EFHNDMENDHI*>** StaticGet__0____BirdSkillCreatePieceComparison()
 		{
-			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6B818);
+			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x66CE8);
 		}
 
 	};

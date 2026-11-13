@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UsePassiveSkill; }
 
-#define CNLDBOPKHFE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA50AA0)
-#define CNLDBOPKHFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA50AD0)
+#define CNLDBOPKHFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1914E490)
+#define CNLDBOPKHFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1914E4C0)
 
-inline static constexpr unsigned int CNLDBOPKHFE_TypeDefinitionIndex = 58845;
+inline static constexpr unsigned int CNLDBOPKHFE_TypeDefinitionIndex = 60113;
 
 	class CNLDBOPKHFE
 	{

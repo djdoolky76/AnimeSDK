@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowBattleUIInTimeline; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PEBLEPNPDPD_CTOR_OFFSET UNITYSDK_OFFSET(0xC02BAB0)
-#define PEBLEPNPDPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC02BAE0)
+#define PEBLEPNPDPD_CTOR_OFFSET UNITYSDK_OFFSET(0x104472E0)
+#define PEBLEPNPDPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10447310)
 
-inline static constexpr unsigned int PEBLEPNPDPD_TypeDefinitionIndex = 58613;
+inline static constexpr unsigned int PEBLEPNPDPD_TypeDefinitionIndex = 59878;
 
 	class PEBLEPNPDPD
 	{

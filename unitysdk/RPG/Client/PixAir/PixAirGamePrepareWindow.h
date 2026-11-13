@@ -8,25 +8,25 @@ namespace RPG::Client::PixAir { class PixAirGameProgressControl; }
 namespace RPG::Client::PixAir { class PixAirPrepareContentControl; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xDB43C80)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB443B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB43F90)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0xDB44460)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB43D70)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E367A70)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1E3681A0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1E367D80)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0x1E368250)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1E367B60)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGamePrepareWindow_TypeDefinitionIndex = 79231;
+	inline static constexpr unsigned int PixAirGamePrepareWindow_TypeDefinitionIndex = 82008;
 
 	class PixAirGamePrepareWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
-		::OBJANKHLNGO* _Messenger; // 0x48
+		::RPG::Client::PixAir::PixAirGameProgressControl* _ProgressControl; // 0x48
 		::RPG::Client::PixAir::PixAirGameEquipListControl* _EquipListControl; // 0x50
-		::UnityEngine::UI::Button* _BtnSwitch; // 0x58
-		::UnityEngine::UI::Button* _BtnClose; // 0x60
-		::RPG::Client::PixAir::PixAirPrepareContentControl* _ContentControl; // 0x68
-		::RPG::Client::PixAir::PixAirGameProgressControl* _ProgressControl; // 0x70
+		::OBJANKHLNGO* _Messenger; // 0x58
+		::RPG::Client::PixAir::PixAirPrepareContentControl* _ContentControl; // 0x60
+		::UnityEngine::UI::Button* _BtnClose; // 0x68
+		::UnityEngine::UI::Button* _BtnSwitch; // 0x70
 		::System::Void _ctor(::RPG::Client::PixAir::PixAirGamePrepareViewModel* a1, ::OBJANKHLNGO* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::PixAir::PixAirGamePrepareViewModel*, ::OBJANKHLNGO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_CTOR_OFFSET))(this, a1, a2);

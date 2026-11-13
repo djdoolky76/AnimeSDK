@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int FFNOMKOBGGL_CKKEDLEFAPL_TypeDefinitionIndex = 73276;
+inline static constexpr unsigned int FFNOMKOBGGL_CKKEDLEFAPL_TypeDefinitionIndex = 75392;
 
 	struct alignas(8) FFNOMKOBGGL_CKKEDLEFAPL
 	{

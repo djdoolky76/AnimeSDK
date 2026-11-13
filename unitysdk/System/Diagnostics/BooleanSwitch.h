@@ -3,7 +3,7 @@
 #include "unitysdk/System/Diagnostics/Switch.h"
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_BOOLEANSWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD5D90)
+#define SYSTEM_DIAGNOSTICS_BOOLEANSWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1926B0)
 
 namespace System::Diagnostics
 {

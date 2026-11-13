@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int BAJJCEMANBH_TypeDefinitionIndex = 80746;
+inline static constexpr unsigned int BAJJCEMANBH_TypeDefinitionIndex = 83526;
 
 	class BAJJCEMANBH : public ::System::Object
 	{

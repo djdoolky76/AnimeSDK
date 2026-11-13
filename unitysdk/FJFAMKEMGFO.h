@@ -5,9 +5,9 @@ class AGCPAMNLCGN;
 class BLLEONBDOMJ;
 class ENFDMFGIJDC;
 
-#define FJFAMKEMGFO_NKCKKFAHKNN_OFFSET UNITYSDK_OFFSET(0x157B79B0)
+#define FJFAMKEMGFO_NKCKKFAHKNN_OFFSET UNITYSDK_OFFSET(0x19821CA0)
 
-inline static constexpr unsigned int FJFAMKEMGFO_TypeDefinitionIndex = 77986;
+inline static constexpr unsigned int FJFAMKEMGFO_TypeDefinitionIndex = 80721;
 
 	class FJFAMKEMGFO : public ::System::Object
 	{

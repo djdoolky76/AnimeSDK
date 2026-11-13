@@ -9,14 +9,14 @@ namespace System
 	class CompatibilitySwitches : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x4680);
-		}
-
 		static ::System::Boolean* StaticGet_IsAppEarlierThanWindowsPhone8()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x4681);
+			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x3850);
+		}
+
+		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x3851);
 		}
 
 	};

@@ -4,18 +4,18 @@
 class KNIBJEJBDLO;
 namespace System { class Object; }
 
-#define KNIBJEJBDLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E877800)
-#define KNIBJEJBDLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E877840)
-#define KNIBJEJBDLO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E877850)
+#define KNIBJEJBDLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205A29E0)
+#define KNIBJEJBDLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205A2A20)
+#define KNIBJEJBDLO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x205A2A30)
 
-inline static constexpr unsigned int KNIBJEJBDLO___c_TypeDefinitionIndex = 27650;
+inline static constexpr unsigned int KNIBJEJBDLO___c_TypeDefinitionIndex = 28181;
 
 	class KNIBJEJBDLO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x201B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F970);
 		}
 
 		static ::System::Void _cctor()

@@ -5,35 +5,35 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define HIIBKHBAJOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15CD9140)
-#define HIIBKHBAJOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD9180)
-#define HIIBKHBAJOI___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0x15CD9190)
-#define HIIBKHBAJOI___C__CREATEITEM_B__1_1_OFFSET UNITYSDK_OFFSET(0x15CD9230)
-#define HIIBKHBAJOI___C__CREATEITEM_B__1_2_OFFSET UNITYSDK_OFFSET(0x15CD92D0)
+#define HIIBKHBAJOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19031880)
+#define HIIBKHBAJOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x190318C0)
+#define HIIBKHBAJOI___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0x190318D0)
+#define HIIBKHBAJOI___C__CREATEITEM_B__1_1_OFFSET UNITYSDK_OFFSET(0x19031970)
+#define HIIBKHBAJOI___C__CREATEITEM_B__1_2_OFFSET UNITYSDK_OFFSET(0x19031A10)
 
-inline static constexpr unsigned int HIIBKHBAJOI___c_TypeDefinitionIndex = 65565;
+inline static constexpr unsigned int HIIBKHBAJOI___c_TypeDefinitionIndex = 67481;
 
 	class HIIBKHBAJOI___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::String*>** StaticGet___9__1_0()
-		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C990);
-		}
-
-		static ::System::Func_1<::System::String*>** StaticGet___9__1_2()
-		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C998);
-		}
-
 		static ::System::Func_1<::System::String*>** StaticGet___9__1_1()
 		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C9A0);
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC0C0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C9A8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC0C8);
+		}
+
+		static ::System::Func_1<::System::String*>** StaticGet___9__1_2()
+		{
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC0D0);
+		}
+
+		static ::System::Func_1<::System::String*>** StaticGet___9__1_0()
+		{
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC0D8);
 		}
 
 		static ::System::Void _cctor()

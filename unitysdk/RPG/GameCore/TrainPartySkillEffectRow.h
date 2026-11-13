@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartySkillEffectRow; }
 
-#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC07BF0)
-#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC07A60)
+#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3114D0)
+#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E311340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartySkillEffectRow_TypeDefinitionIndex = 15335;
+	inline static constexpr unsigned int TrainPartySkillEffectRow_TypeDefinitionIndex = 15491;
 
 	class TrainPartySkillEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::RPG::GameCore::TrainPartySkillEffectType EffectType; // 0x18
-		::System::UInt32 EffectID; // 0x1C
+		::System::UInt32 EffectID; // 0x18
+		::RPG::GameCore::TrainPartySkillEffectType EffectType; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_CTOR_OFFSET))(this);

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_WAVESIMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE459060)
+#define RPG_CLIENT_WAVESIMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC89990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaveSimConfig_TypeDefinitionIndex = 70870;
+	inline static constexpr unsigned int WaveSimConfig_TypeDefinitionIndex = 72849;
 
 	class WaveSimConfig : public ::UnityEngine::ScriptableObject
 	{

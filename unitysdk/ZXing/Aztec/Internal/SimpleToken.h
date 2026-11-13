@@ -5,19 +5,19 @@ namespace System { class String; }
 namespace ZXing::Aztec::Internal { class Token; }
 namespace ZXing::Common { class BitArray; }
 
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_APPENDTO_OFFSET UNITYSDK_OFFSET(0x1F675310)
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6752A0)
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F675340)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_APPENDTO_OFFSET UNITYSDK_OFFSET(0x17A6F770)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x17A6F700)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17A6F7A0)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int SimpleToken_TypeDefinitionIndex = 7026;
+	inline static constexpr unsigned int SimpleToken_TypeDefinitionIndex = 7037;
 
 	class SimpleToken : public ::ZXing::Aztec::Internal::Token
 	{
 	public:
-		::System::Int16 bitCount; // 0x18
-		::System::Int16 value; // 0x1A
+		::System::Int16 value; // 0x18
+		::System::Int16 bitCount; // 0x1A
 		::System::Void _ctor(::ZXing::Aztec::Internal::Token* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::ZXing::Aztec::Internal::Token*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_SIMPLETOKEN_CTOR_OFFSET))(this, a1, a2, a3);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByIsInRotation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KHBHGGBBGGO_CTOR_OFFSET UNITYSDK_OFFSET(0xB3F5D10)
-#define KHBHGGBBGGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3F5D40)
+#define KHBHGGBBGGO_CTOR_OFFSET UNITYSDK_OFFSET(0x19785770)
+#define KHBHGGBBGGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197857A0)
 
-inline static constexpr unsigned int KHBHGGBBGGO_TypeDefinitionIndex = 54466;
+inline static constexpr unsigned int KHBHGGBBGGO_TypeDefinitionIndex = 55630;
 
 	class KHBHGGBBGGO
 	{

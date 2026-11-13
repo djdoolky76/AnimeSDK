@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_JoyPadType_TypeDefinitionIndex = 46206;
+	inline static constexpr unsigned int MHYSDKC_JoyPadType_TypeDefinitionIndex = 47235;
 
 	class MHYSDKC_JoyPadType : public ::System::Object
 	{

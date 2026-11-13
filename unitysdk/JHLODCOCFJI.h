@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MoveStageOnTargetForward; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHLODCOCFJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB1B4F70)
-#define JHLODCOCFJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1B4FA0)
+#define JHLODCOCFJI_CTOR_OFFSET UNITYSDK_OFFSET(0x173E3AA0)
+#define JHLODCOCFJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173E3AD0)
 
-inline static constexpr unsigned int JHLODCOCFJI_TypeDefinitionIndex = 55225;
+inline static constexpr unsigned int JHLODCOCFJI_TypeDefinitionIndex = 56406;
 
 	class JHLODCOCFJI
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/MVector3.h"
 class FNHGDJOJACD;
 
-#define LNMFOJCBPLC_MHCCKABLLNJ_OFFSET UNITYSDK_OFFSET(0xE630)
-#define LNMFOJCBPLC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1B260)
+#define LNMFOJCBPLC_MHCCKABLLNJ_OFFSET UNITYSDK_OFFSET(0xC940)
+#define LNMFOJCBPLC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x3E5DE60)
 
-inline static constexpr unsigned int LNMFOJCBPLC_TypeDefinitionIndex = 56954;
+inline static constexpr unsigned int LNMFOJCBPLC_TypeDefinitionIndex = 58180;
 
 	struct alignas(8) LNMFOJCBPLC
 	{

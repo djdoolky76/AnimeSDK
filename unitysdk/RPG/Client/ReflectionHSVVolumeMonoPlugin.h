@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDE59FA0)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDE59F50)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D07FE70)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1D07FE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 70707;
+	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 72684;
 
 	class ReflectionHSVVolumeMonoPlugin
 	{

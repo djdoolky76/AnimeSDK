@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EntityLodLoadingArtData; }
 namespace RPG::GameCore { class EntityRuntimeReplaceArtPrefab; }
 
-#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D64C090)
-#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFAB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D64C000)
+#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F1520)
+#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFAB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0F1490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefab_TypeDefinitionIndex = 19103;
+	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefab_TypeDefinitionIndex = 19290;
 
 	class EntityRuntimeReplaceArtPrefab : public ::RPG::GameCore::JsonConfig
 	{

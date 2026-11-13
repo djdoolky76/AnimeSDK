@@ -9,12 +9,12 @@ namespace RPG::Client { class RoadRashGameAbilityTargetSelector_FireTargetConfig
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define JCIMMGKBPJM_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x165872B0)
-#define JCIMMGKBPJM_CTOR_OFFSET UNITYSDK_OFFSET(0x165886F0)
-#define JCIMMGKBPJM_MEHFBLBEGMA_OFFSET UNITYSDK_OFFSET(0x16587D60)
-#define JCIMMGKBPJM_PMEMJPBAKNO_OFFSET UNITYSDK_OFFSET(0x165880D0)
+#define JCIMMGKBPJM_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x16955D10)
+#define JCIMMGKBPJM_CTOR_OFFSET UNITYSDK_OFFSET(0x16957150)
+#define JCIMMGKBPJM_MEHFBLBEGMA_OFFSET UNITYSDK_OFFSET(0x169567C0)
+#define JCIMMGKBPJM_PMEMJPBAKNO_OFFSET UNITYSDK_OFFSET(0x16956B30)
 
-inline static constexpr unsigned int JCIMMGKBPJM_TypeDefinitionIndex = 77404;
+inline static constexpr unsigned int JCIMMGKBPJM_TypeDefinitionIndex = 79738;
 
 	class JCIMMGKBPJM : public ::System::Object
 	{

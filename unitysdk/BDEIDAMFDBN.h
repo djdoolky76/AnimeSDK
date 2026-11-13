@@ -10,17 +10,17 @@ namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define BDEIDAMFDBN_CTOR_OFFSET UNITYSDK_OFFSET(0x162E7760)
-#define BDEIDAMFDBN_PPEGOIODAKI_1_OFFSET UNITYSDK_OFFSET(0x162E7630)
-#define BDEIDAMFDBN_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x162E74B0)
+#define BDEIDAMFDBN_CTOR_OFFSET UNITYSDK_OFFSET(0x19D91190)
+#define BDEIDAMFDBN_PPEGOIODAKI_1_OFFSET UNITYSDK_OFFSET(0x19D91060)
+#define BDEIDAMFDBN_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x19D90EE0)
 
-inline static constexpr unsigned int BDEIDAMFDBN_TypeDefinitionIndex = 78831;
+inline static constexpr unsigned int BDEIDAMFDBN_TypeDefinitionIndex = 81602;
 
 	class BDEIDAMFDBN : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* DECBKALIAHF; // 0x10
-		::RPG::Client::Prop::RubikCubePuzzleBrick* IDMPPJCHPAM; // 0x18
+		::RPG::Client::Prop::RubikCubePuzzleBrick* IDMPPJCHPAM; // 0x10
+		::UnityEngine::GameObject* DECBKALIAHF; // 0x18
 		::System::Int32 DBBKDKFEKPP; // 0x20
 		::System::Void _ctor()
 		{

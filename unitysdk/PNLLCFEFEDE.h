@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class MNCOPNHONHO;
 
-#define PNLLCFEFEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC345D30)
-#define PNLLCFEFEDE_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC345D40)
+#define PNLLCFEFEDE_CTOR_OFFSET UNITYSDK_OFFSET(0x184C46D0)
+#define PNLLCFEFEDE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x184C46E0)
 
-inline static constexpr unsigned int PNLLCFEFEDE_TypeDefinitionIndex = 76821;
+inline static constexpr unsigned int PNLLCFEFEDE_TypeDefinitionIndex = 79155;
 
 	class PNLLCFEFEDE : public ::System::Object
 	{

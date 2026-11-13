@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class VCameraFreelook3rdBaseChangeParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERAFREELOOK3RDBASECHANGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC510B0)
-#define RPG_GAMECORE_VCAMERAFREELOOK3RDBASECHANGEPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC50D40)
+#define RPG_GAMECORE_VCAMERAFREELOOK3RDBASECHANGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3C5B0)
+#define RPG_GAMECORE_VCAMERAFREELOOK3RDBASECHANGEPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED3C2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraFreelook3rdBaseChangeParam_TypeDefinitionIndex = 16409;
+	inline static constexpr unsigned int VCameraFreelook3rdBaseChangeParam_TypeDefinitionIndex = 16573;
 
 	class VCameraFreelook3rdBaseChangeParam : public ::RPG::GameCore::JsonConfig
 	{

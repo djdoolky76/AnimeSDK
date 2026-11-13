@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationChargerIconConfig; }
 
-#define RPG_GAMECORE_MAPROTATIONCHARGERICONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D801700)
-#define RPG_GAMECORE_MAPROTATIONCHARGERICONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8015A0)
+#define RPG_GAMECORE_MAPROTATIONCHARGERICONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08B7A0)
+#define RPG_GAMECORE_MAPROTATIONCHARGERICONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F08B640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationChargerIconConfig_TypeDefinitionIndex = 17036;
+	inline static constexpr unsigned int MapRotationChargerIconConfig_TypeDefinitionIndex = 17203;
 
 	class MapRotationChargerIconConfig : public ::RPG::GameCore::JsonConfig
 	{

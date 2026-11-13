@@ -6,21 +6,21 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class MapProp; }
 
-#define AENGHANIAFE_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFC290)
+#define AENGHANIAFE_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA78F0)
 
-inline static constexpr unsigned int AENGHANIAFE_TypeDefinitionIndex = 60654;
+inline static constexpr unsigned int AENGHANIAFE_TypeDefinitionIndex = 62031;
 
 	class AENGHANIAFE : public ::System::Object
 	{
 	public:
 		::RPG::Client::MapProp* EMDMCJMDJPJ; // 0x10
 		::Il2CppArray<::RPG::MVector2>* IPACDKEBGIJ; // 0x18
-		::System::Single NBFBEAKDKAA; // 0x20
-		::System::Int32 OPNGHDENCAB; // 0x24
-		::System::Int32 NICDJEMEJEP; // 0x28
-		::UnityEngine::Vector2 NPIHAOHNNCG; // 0x2C
-		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x34
-		::System::Single NMELCPIOKNO; // 0x40
+		::System::Int32 OPNGHDENCAB; // 0x20
+		::UnityEngine::Vector2 NPIHAOHNNCG; // 0x24
+		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x2C
+		::System::Single NBFBEAKDKAA; // 0x38
+		::System::Single NMELCPIOKNO; // 0x3C
+		::System::Int32 NICDJEMEJEP; // 0x40
 		::System::Void _ctor(::System::Int32 a1, ::RPG::Client::MapProp* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::MapProp*))((::PBYTE)hIl2Cpp + AENGHANIAFE_CTOR_OFFSET))(this, a1, a2);

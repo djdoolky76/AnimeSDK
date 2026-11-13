@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChimeraDuelShopGuideDragUpgrade; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MAKOKEMJAFD_CTOR_OFFSET UNITYSDK_OFFSET(0xB84BC30)
-#define MAKOKEMJAFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB84BC60)
+#define MAKOKEMJAFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E5DF0)
+#define MAKOKEMJAFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B8137C0)
 
-inline static constexpr unsigned int MAKOKEMJAFD_TypeDefinitionIndex = 53170;
+inline static constexpr unsigned int MAKOKEMJAFD_TypeDefinitionIndex = 54332;
 
 	class MAKOKEMJAFD
 	{

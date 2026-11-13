@@ -8,11 +8,11 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DKDOKGBEHBD_AOFLGJGKMAK_OFFSET UNITYSDK_OFFSET(0xF870BF0)
-#define DKDOKGBEHBD_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xF870B20)
-#define DKDOKGBEHBD_CTOR_OFFSET UNITYSDK_OFFSET(0xF871210)
+#define DKDOKGBEHBD_AOFLGJGKMAK_OFFSET UNITYSDK_OFFSET(0x18C0ED60)
+#define DKDOKGBEHBD_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x18C0EC90)
+#define DKDOKGBEHBD_CTOR_OFFSET UNITYSDK_OFFSET(0x18C0F380)
 
-inline static constexpr unsigned int DKDOKGBEHBD_TypeDefinitionIndex = 77530;
+inline static constexpr unsigned int DKDOKGBEHBD_TypeDefinitionIndex = 80265;
 
 	class DKDOKGBEHBD : public ::System::Object
 	{

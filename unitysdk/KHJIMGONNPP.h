@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowSkillTextDialog; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KHJIMGONNPP_CTOR_OFFSET UNITYSDK_OFFSET(0xB404610)
-#define KHJIMGONNPP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB404620)
-#define KHJIMGONNPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB404660)
-#define KHJIMGONNPP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB404700)
-#define KHJIMGONNPP_TICK_OFFSET UNITYSDK_OFFSET(0xB404750)
+#define KHJIMGONNPP_CTOR_OFFSET UNITYSDK_OFFSET(0x197959B0)
+#define KHJIMGONNPP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x197959C0)
+#define KHJIMGONNPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19795A00)
+#define KHJIMGONNPP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19795AA0)
+#define KHJIMGONNPP_TICK_OFFSET UNITYSDK_OFFSET(0x19795AF0)
 
-inline static constexpr unsigned int KHJIMGONNPP_TypeDefinitionIndex = 56458;
+inline static constexpr unsigned int KHJIMGONNPP_TypeDefinitionIndex = 57676;
 
 	class KHJIMGONNPP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowSkillTextDialog* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowSkillTextDialog* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowSkillTextDialog* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowSkillTextDialog*))((::PBYTE)hIl2Cpp + KHJIMGONNPP_CTOR_OFFSET))(this, a1, a2);

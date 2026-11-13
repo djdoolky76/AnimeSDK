@@ -7,21 +7,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB5ED10)
-#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB5E9B0)
-#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB5EA30)
-#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB5E9C0)
+#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1749DC10)
+#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1749D8B0)
+#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1749D930)
+#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1749D8C0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 7500;
+	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 7511;
 
 	class QuaternionFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Quaternion>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Quaternion>**)UnitySDK::FromName("MessagePack.Formatters", "QuaternionFormatter")->GetStaticField(0x48EF0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Quaternion>**)UnitySDK::FromName("MessagePack.Formatters", "QuaternionFormatter")->GetStaticField(0x2CDB0);
 		}
 
 		::System::Void _ctor()

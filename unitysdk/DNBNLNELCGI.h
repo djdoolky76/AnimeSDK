@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvLerpGatheredSpeedToZero; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNBNLNELCGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1193B610)
-#define DNBNLNELCGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1193B640)
+#define DNBNLNELCGI_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB0680)
+#define DNBNLNELCGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CB06B0)
 
-inline static constexpr unsigned int DNBNLNELCGI_TypeDefinitionIndex = 57878;
+inline static constexpr unsigned int DNBNLNELCGI_TypeDefinitionIndex = 59115;
 
 	class DNBNLNELCGI
 	{

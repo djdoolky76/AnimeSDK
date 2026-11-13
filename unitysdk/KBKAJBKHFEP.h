@@ -6,11 +6,11 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class LittleGameAbilityTargetSelectorLastAttackerConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define KBKAJBKHFEP_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xB303630)
-#define KBKAJBKHFEP_CTOR_OFFSET UNITYSDK_OFFSET(0xB303BC0)
-#define KBKAJBKHFEP_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0xB303B00)
+#define KBKAJBKHFEP_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x1A455F70)
+#define KBKAJBKHFEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A456500)
+#define KBKAJBKHFEP_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0x1A456440)
 
-inline static constexpr unsigned int KBKAJBKHFEP_TypeDefinitionIndex = 77384;
+inline static constexpr unsigned int KBKAJBKHFEP_TypeDefinitionIndex = 79718;
 
 	class KBKAJBKHFEP : public ::System::Object
 	{

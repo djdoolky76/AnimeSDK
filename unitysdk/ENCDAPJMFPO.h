@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ClearAISkillUseRecord; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ENCDAPJMFPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1559B6F0)
-#define ENCDAPJMFPO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1559B700)
-#define ENCDAPJMFPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1559B740)
-#define ENCDAPJMFPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1559B870)
-#define ENCDAPJMFPO_TICK_OFFSET UNITYSDK_OFFSET(0x1559B8C0)
+#define ENCDAPJMFPO_CTOR_OFFSET UNITYSDK_OFFSET(0x18806210)
+#define ENCDAPJMFPO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18806220)
+#define ENCDAPJMFPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18806260)
+#define ENCDAPJMFPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18806390)
+#define ENCDAPJMFPO_TICK_OFFSET UNITYSDK_OFFSET(0x188063E0)
 
-inline static constexpr unsigned int ENCDAPJMFPO_TypeDefinitionIndex = 54957;
+inline static constexpr unsigned int ENCDAPJMFPO_TypeDefinitionIndex = 56131;
 
 	class ENCDAPJMFPO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ClearAISkillUseRecord* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ClearAISkillUseRecord* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ClearAISkillUseRecord* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ClearAISkillUseRecord*))((::PBYTE)hIl2Cpp + ENCDAPJMFPO_CTOR_OFFSET))(this, a1, a2);

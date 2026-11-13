@@ -9,29 +9,32 @@ namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define ICIMFKPDDMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E413D0)
-#define ICIMFKPDDMD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x15E41450)
-#define ICIMFKPDDMD_INIJCJJLPKM_1_OFFSET UNITYSDK_OFFSET(0x15E414A0)
-#define ICIMFKPDDMD_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x15E417D0)
-#define ICIMFKPDDMD_NMENMJMBNOL_OFFSET UNITYSDK_OFFSET(0x15E41620)
+#define ICIMFKPDDMD_CTOR_OFFSET UNITYSDK_OFFSET(0x188CCEC0)
+#define ICIMFKPDDMD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x188CD030)
+#define ICIMFKPDDMD_INIJCJJLPKM_1_OFFSET UNITYSDK_OFFSET(0x188CD080)
+#define ICIMFKPDDMD_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x188CD370)
+#define ICIMFKPDDMD_NMENMJMBNOL_OFFSET UNITYSDK_OFFSET(0x188CD1C0)
 
-inline static constexpr unsigned int ICIMFKPDDMD_TypeDefinitionIndex = 71176;
+inline static constexpr unsigned int ICIMFKPDDMD_TypeDefinitionIndex = 73159;
 
 	class ICIMFKPDDMD : public ::System::Object
 	{
 	public:
 		::RPG::Client::UIPrefabLoader* HMELCEOFACP; // 0x10
-		::ICIMFKPDDMD_CEHBLMGKHHN* IGHAHBNLIJA; // 0x18
+		::System::String* GEJIJFFILEB; // 0x18
 		::System::Collections::Generic::Queue_1<::UnityEngine::GameObject*>* BEHHICMOFIE; // 0x20
-		::System::String* GEJIJFFILEB; // 0x28
+		::ICIMFKPDDMD_CEHBLMGKHHN* IGHAHBNLIJA; // 0x28
+		::System::Boolean PHPDDOADFJA; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::Int32 FHOEGPHJJHB; // 0x34
 		::System::Void _ctor(::System::String* a1, ::ICIMFKPDDMD_CEHBLMGKHHN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::ICIMFKPDDMD_CEHBLMGKHHN*))((::PBYTE)hIl2Cpp + ICIMFKPDDMD_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void HADOHLNHHGB()
+		::System::Void Dispose()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ICIMFKPDDMD_HADOHLNHHGB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ICIMFKPDDMD_DISPOSE_OFFSET))(this);
 		}
 
 		::UnityEngine::Transform* INIJCJJLPKM_1()

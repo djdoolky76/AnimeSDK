@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int IPredicateContext_1_TypeDefinitionIndex = 37042;
+	inline static constexpr unsigned int IPredicateContext_1_TypeDefinitionIndex = 37970;
 
 	template <typename T>
 	class IPredicateContext_1

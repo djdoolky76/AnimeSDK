@@ -3,10 +3,10 @@
 class BALFAPGPFGA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MFONAJOKPNB_CTOR_OFFSET UNITYSDK_OFFSET(0xB90A9F0)
-#define MFONAJOKPNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB90AA20)
+#define MFONAJOKPNB_CTOR_OFFSET UNITYSDK_OFFSET(0x17C9AC00)
+#define MFONAJOKPNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17C9AC30)
 
-inline static constexpr unsigned int MFONAJOKPNB_TypeDefinitionIndex = 55692;
+inline static constexpr unsigned int MFONAJOKPNB_TypeDefinitionIndex = 56894;
 
 	class MFONAJOKPNB
 	{

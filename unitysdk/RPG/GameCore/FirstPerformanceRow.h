@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FirstPerformanceRow; }
 
-#define RPG_GAMECORE_FIRSTPERFORMANCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67F7C0)
-#define RPG_GAMECORE_FIRSTPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D67F700)
+#define RPG_GAMECORE_FIRSTPERFORMANCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84C700)
+#define RPG_GAMECORE_FIRSTPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E84C640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FirstPerformanceRow_TypeDefinitionIndex = 13140;
+	inline static constexpr unsigned int FirstPerformanceRow_TypeDefinitionIndex = 13214;
 
 	class FirstPerformanceRow : public ::System::Object
 	{

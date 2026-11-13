@@ -3,13 +3,14 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemSubType_TypeDefinitionIndex = 13849;
+	inline static constexpr unsigned int ItemSubType_TypeDefinitionIndex = 14006;
 
 	enum class ItemSubType : ::System::Int32
 	{
 		Unknown = 0,
 		Virtual = 101,
 		GameplayCounter = 102,
+		Fiat = 103,
 		AvatarCard = 201,
 		Equipment = 301,
 		Relic = 401,
@@ -51,6 +52,7 @@ namespace RPG::GameCore
 		FateRinHougu = 615,
 		IdleLiveItem = 616,
 		PixAirMaterial = 617,
+		AvatarExRankMaterial = 618,
 		AvatarExp = 651,
 		AvatarRank = 652,
 		TracePath = 653,

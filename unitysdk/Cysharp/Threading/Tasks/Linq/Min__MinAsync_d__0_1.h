@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class Comparer_1;
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Min__MinAsync_d__0_1_TypeDefinitionIndex = 45470;
+	inline static constexpr unsigned int Min__MinAsync_d__0_1_TypeDefinitionIndex = 46499;
 
 	template <typename T>
 	struct alignas(8) Min__MinAsync_d__0_1

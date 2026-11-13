@@ -5,26 +5,27 @@ class KJMHIDMOBMB;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BOBCDAJAKGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE3B80)
-#define BOBCDAJAKGC_GET_BATTLEPOWER_OFFSET UNITYSDK_OFFSET(0xBDE3B10)
-#define BOBCDAJAKGC_GET_CAPTAINNUM_OFFSET UNITYSDK_OFFSET(0xBDE3B20)
-#define BOBCDAJAKGC_GET_CHAPTERINDEX_OFFSET UNITYSDK_OFFSET(0xBDE3B30)
-#define BOBCDAJAKGC_GET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0xBDE3B40)
-#define BOBCDAJAKGC_GET_METCHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0xBDE3B60)
-#define BOBCDAJAKGC_GET_TOPPARTICIPATEDAVATARS_OFFSET UNITYSDK_OFFSET(0xBDE3B70)
-#define BOBCDAJAKGC_SET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0xBDE3B50)
+#define BOBCDAJAKGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A77CB60)
+#define BOBCDAJAKGC_GET_BATTLEPOWER_OFFSET UNITYSDK_OFFSET(0x1A77CAF0)
+#define BOBCDAJAKGC_GET_CAPTAINNUM_OFFSET UNITYSDK_OFFSET(0x1A77CB00)
+#define BOBCDAJAKGC_GET_CHAPTERINDEX_OFFSET UNITYSDK_OFFSET(0x1A77CB10)
+#define BOBCDAJAKGC_GET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0x1A77CB20)
+#define BOBCDAJAKGC_GET_METCHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0x1A77CB40)
+#define BOBCDAJAKGC_GET_TOPPARTICIPATEDAVATARS_OFFSET UNITYSDK_OFFSET(0x1A77CB50)
+#define BOBCDAJAKGC_SET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0x1A77CB30)
 
-inline static constexpr unsigned int BOBCDAJAKGC_TypeDefinitionIndex = 75137;
+inline static constexpr unsigned int BOBCDAJAKGC_TypeDefinitionIndex = 77464;
 
 	class BOBCDAJAKGC : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* _TopParticipatedAvatars_k__BackingField; // 0x10
-		::System::UInt64 _BattlePower_k__BackingField; // 0x18
+		::System::UInt32 _CaptainNum_k__BackingField; // 0x18
+		::System::UInt32 _MetCharacterCount_k__BackingField; // 0x1C
 		::System::UInt32 _ChapterIndex_k__BackingField; // 0x20
-		::System::UInt32 _CaptainNum_k__BackingField; // 0x24
-		::System::UInt32 _MetCharacterCount_k__BackingField; // 0x28
-		::System::Boolean _IsFinalActFinished_k__BackingField; // 0x2C
+		::System::Boolean _IsFinalActFinished_k__BackingField; // 0x24
+		::System::Byte _padding0[0x3];
+		::System::UInt64 _BattlePower_k__BackingField; // 0x28
 		::System::Void _ctor(::KJMHIDMOBMB* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::KJMHIDMOBMB*))((::PBYTE)hIl2Cpp + BOBCDAJAKGC_CTOR_OFFSET))(this, a1);

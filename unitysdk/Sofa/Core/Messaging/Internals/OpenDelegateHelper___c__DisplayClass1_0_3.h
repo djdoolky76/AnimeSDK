@@ -5,7 +5,7 @@ class CMGMEOACHDC;
 
 namespace Sofa::Core::Messaging::Internals
 {
-	inline static constexpr unsigned int OpenDelegateHelper___c__DisplayClass1_0_3_TypeDefinitionIndex = 44277;
+	inline static constexpr unsigned int OpenDelegateHelper___c__DisplayClass1_0_3_TypeDefinitionIndex = 45352;
 
 	template <typename T1, typename T2, typename T3>
 	class OpenDelegateHelper___c__DisplayClass1_0_3 : public ::System::Object

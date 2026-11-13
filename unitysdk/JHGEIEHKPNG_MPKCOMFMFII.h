@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-inline static constexpr unsigned int JHGEIEHKPNG_MPKCOMFMFII_TypeDefinitionIndex = 49877;
+inline static constexpr unsigned int JHGEIEHKPNG_MPKCOMFMFII_TypeDefinitionIndex = 50925;
 
 	class JHGEIEHKPNG_MPKCOMFMFII : public ::System::Object
 	{

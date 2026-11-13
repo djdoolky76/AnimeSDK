@@ -6,19 +6,19 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define KBNEBNCGMOC_CCTOR_OFFSET UNITYSDK_OFFSET(0xB31CA10)
-#define KBNEBNCGMOC_CTOR_OFFSET UNITYSDK_OFFSET(0xB31C420)
-#define KBNEBNCGMOC_ODEBBPOGCMA_OFFSET UNITYSDK_OFFSET(0xB31C800)
-#define KBNEBNCGMOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB31C450)
+#define KBNEBNCGMOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A46F3A0)
+#define KBNEBNCGMOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A46EDA0)
+#define KBNEBNCGMOC_ODEBBPOGCMA_OFFSET UNITYSDK_OFFSET(0x1A46F190)
+#define KBNEBNCGMOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A46EDD0)
 
-inline static constexpr unsigned int KBNEBNCGMOC_TypeDefinitionIndex = 58349;
+inline static constexpr unsigned int KBNEBNCGMOC_TypeDefinitionIndex = 59605;
 
 	class KBNEBNCGMOC
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_MOECGMPCECP()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "KBNEBNCGMOC")->GetStaticField(0x33950);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "KBNEBNCGMOC")->GetStaticField(0x357F0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropSetVisibility* a2)

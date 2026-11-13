@@ -6,12 +6,12 @@ namespace RPG::Client { class StaticListViewItem; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_STATICLISTVIEW___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE12AE60)
-#define RPG_CLIENT_STATICLISTVIEW___C__DISPLAYCLASS30_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0xE1345C0)
+#define RPG_CLIENT_STATICLISTVIEW___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A918840)
+#define RPG_CLIENT_STATICLISTVIEW___C__DISPLAYCLASS30_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x1A921C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StaticListView___c__DisplayClass30_0_TypeDefinitionIndex = 72658;
+	inline static constexpr unsigned int StaticListView___c__DisplayClass30_0_TypeDefinitionIndex = 74737;
 
 	class StaticListView___c__DisplayClass30_0 : public ::System::Object
 	{

@@ -6,26 +6,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityFinalityBattleRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYFINALITYBATTLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D337710)
-#define RPG_GAMECORE_ACTIVITYFINALITYBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D337390)
+#define RPG_GAMECORE_ACTIVITYFINALITYBATTLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5149D0)
+#define RPG_GAMECORE_ACTIVITYFINALITYBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E514650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFinalityBattleRow_TypeDefinitionIndex = 11604;
+	inline static constexpr unsigned int ActivityFinalityBattleRow_TypeDefinitionIndex = 11655;
 
 	class ActivityFinalityBattleRow : public ::System::Object
 	{
 	public:
 		::System::String* EntranceBigIconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* LevelList; // 0x18
-		::System::String* EntranceSmallIconPath; // 0x20
-		::Il2CppArray<::System::UInt32>* LeadingRoleList; // 0x28
+		::Il2CppArray<::System::UInt32>* LeadingRoleList; // 0x18
+		::Il2CppArray<::System::UInt32>* LevelList; // 0x20
+		::System::String* EntranceSmallIconPath; // 0x28
 		::RPG::Client::TextID GroupTitle; // 0x30
 		::System::UInt32 TutorialGuideID; // 0x40
-		::System::UInt32 Order; // 0x44
-		::System::UInt32 ID; // 0x48
-		::System::UInt32 PerfectRound; // 0x4C
-		::System::UInt32 ActivityModuleID; // 0x50
+		::System::UInt32 ActivityModuleID; // 0x44
+		::System::UInt32 PerfectRound; // 0x48
+		::System::UInt32 Order; // 0x4C
+		::System::UInt32 ID; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYFINALITYBATTLEROW_CTOR_OFFSET))(this);

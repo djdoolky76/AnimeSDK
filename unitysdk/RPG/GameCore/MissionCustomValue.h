@@ -7,13 +7,13 @@ namespace RPG::GameCore { class MissionCustomValue; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D856F00)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D856F10)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D844A60)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E94B0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E6E94C0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6D73D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValue_TypeDefinitionIndex = 18989;
+	inline static constexpr unsigned int MissionCustomValue_TypeDefinitionIndex = 19176;
 
 	class MissionCustomValue : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GPFEAEOEGFA_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15B482F0)
+#define GPFEAEOEGFA_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x17DB5700)
 
-inline static constexpr unsigned int GPFEAEOEGFA_ExtraExportData_TypeDefinitionIndex = 49040;
+inline static constexpr unsigned int GPFEAEOEGFA_ExtraExportData_TypeDefinitionIndex = 50116;
 
 	class GPFEAEOEGFA_ExtraExportData : public ::System::Object
 	{

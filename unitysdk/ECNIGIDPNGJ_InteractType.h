@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ECNIGIDPNGJ_InteractType_TypeDefinitionIndex = 68278;
+inline static constexpr unsigned int ECNIGIDPNGJ_InteractType_TypeDefinitionIndex = 70224;
 
 	enum class ECNIGIDPNGJ_InteractType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_METADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3E0FC0)
+#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_METADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x203DF600)
 
 namespace UnityEngine::Profiling::Memory::Experimental
 {

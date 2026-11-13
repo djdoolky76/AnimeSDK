@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int StageHarmonyLightModLinkSlot_DJLPONHKPCL_TypeDefinitionIndex = 47540;
+inline static constexpr unsigned int StageHarmonyLightModLinkSlot_DJLPONHKPCL_TypeDefinitionIndex = 48569;
 
 	struct alignas(4) StageHarmonyLightModLinkSlot_DJLPONHKPCL
 	{

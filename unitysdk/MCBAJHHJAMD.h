@@ -4,18 +4,18 @@
 #include "unitysdk/UnityEngine/Vector3Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MCBAJHHJAMD_BJPOGNABBLE_OFFSET UNITYSDK_OFFSET(0xB86CD10)
-#define MCBAJHHJAMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB86CEC0)
-#define MCBAJHHJAMD_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xB86CE10)
-#define MCBAJHHJAMD_PLFJCMLDIKG_OFFSET UNITYSDK_OFFSET(0xB86CC30)
+#define MCBAJHHJAMD_BJPOGNABBLE_OFFSET UNITYSDK_OFFSET(0x1B838AC0)
+#define MCBAJHHJAMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B838C70)
+#define MCBAJHHJAMD_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0x1B838BC0)
+#define MCBAJHHJAMD_PLFJCMLDIKG_OFFSET UNITYSDK_OFFSET(0x1B8389E0)
 
-inline static constexpr unsigned int MCBAJHHJAMD_TypeDefinitionIndex = 52059;
+inline static constexpr unsigned int MCBAJHHJAMD_TypeDefinitionIndex = 53164;
 
 	class MCBAJHHJAMD : public ::System::Object
 	{
 	public:
-		::System::Single HAHMJKDKEKC; // 0x10
-		::UnityEngine::Vector3Int OGPDIJFMIHM; // 0x14
+		::UnityEngine::Vector3Int OGPDIJFMIHM; // 0x10
+		::System::Single HAHMJKDKEKC; // 0x1C
 		::UnityEngine::Vector3Int BBFOLEOPPPL; // 0x20
 		::System::Void _ctor()
 		{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvSetSkillSlotData; }
 namespace RPG::GameCore { class AdvSetSkillSlotDataItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D383440)
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D383480)
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3833E0)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E4FE0)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8E5020)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E4F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetSkillSlotData_TypeDefinitionIndex = 20202;
+	inline static constexpr unsigned int AdvSetSkillSlotData_TypeDefinitionIndex = 20537;
 
 	class AdvSetSkillSlotData : public ::RPG::GameCore::TaskConfig
 	{

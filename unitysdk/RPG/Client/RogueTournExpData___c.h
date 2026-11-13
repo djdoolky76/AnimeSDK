@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTournExpRewardDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNEXPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFE0830)
-#define RPG_CLIENT_ROGUETOURNEXPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE0860)
-#define RPG_CLIENT_ROGUETOURNEXPDATA___C___TRYINITREWARDROWS_B__12_0_OFFSET UNITYSDK_OFFSET(0xDFE0870)
+#define RPG_CLIENT_ROGUETOURNEXPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEA78E0)
+#define RPG_CLIENT_ROGUETOURNEXPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA7910)
+#define RPG_CLIENT_ROGUETOURNEXPDATA___C___TRYINITREWARDROWS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1CEA7920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournExpData___c_TypeDefinitionIndex = 67866;
+	inline static constexpr unsigned int RogueTournExpData___c_TypeDefinitionIndex = 69811;
 
 	class RogueTournExpData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::RogueTournExpRewardDataItem*>** StaticGet___9__12_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournExpRewardDataItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A2A0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A2A8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72990);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::RogueTournExpRewardDataItem*>** StaticGet___9__12_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::RogueTournExpRewardDataItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72998);
 		}
 
 		static ::System::Void _cctor()

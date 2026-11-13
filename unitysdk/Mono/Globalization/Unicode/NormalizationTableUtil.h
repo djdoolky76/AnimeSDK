@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Mono::Globalization::Unicode { class CodePointIndexer; }
 
-#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C02BAE0)
-#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_MAPIDX_OFFSET UNITYSDK_OFFSET(0x1C02C0C0)
-#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_PROPIDX_OFFSET UNITYSDK_OFFSET(0x1C02BFE0)
+#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x17AC0770)
+#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_MAPIDX_OFFSET UNITYSDK_OFFSET(0x17AC0D50)
+#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_PROPIDX_OFFSET UNITYSDK_OFFSET(0x17AC0C70)
 
 namespace Mono::Globalization::Unicode
 {
@@ -14,29 +14,29 @@ namespace Mono::Globalization::Unicode
 	class NormalizationTableUtil : public ::System::Object
 	{
 	public:
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Prop()
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Map()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x2A40);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x9E10);
 		}
 
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Helper()
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Prop()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x2A48);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x9E18);
 		}
 
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Composite()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x2A50);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x9E20);
+		}
+
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Helper()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x9E28);
 		}
 
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Combining()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x2A58);
-		}
-
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Map()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x2A60);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "NormalizationTableUtil")->GetStaticField(0x9E30);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class GMBMNFLMKPI;
 namespace System { class Object; }
 
-#define GMBMNFLMKPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E49D790)
-#define GMBMNFLMKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E49D7D0)
-#define GMBMNFLMKPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E49D7E0)
+#define GMBMNFLMKPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA48610)
+#define GMBMNFLMKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA48650)
+#define GMBMNFLMKPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FA48660)
 
-inline static constexpr unsigned int GMBMNFLMKPI___c_TypeDefinitionIndex = 29132;
+inline static constexpr unsigned int GMBMNFLMKPI___c_TypeDefinitionIndex = 29733;
 
 	class GMBMNFLMKPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DBF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17520);
 		}
 
 		static ::System::Void _cctor()

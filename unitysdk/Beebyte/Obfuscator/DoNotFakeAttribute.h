@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEEBYTE_OBFUSCATOR_DONOTFAKEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xAF0E000)
+#define BEEBYTE_OBFUSCATOR_DONOTFAKEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A676AF0)
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int DoNotFakeAttribute_TypeDefinitionIndex = 47033;
+	inline static constexpr unsigned int DoNotFakeAttribute_TypeDefinitionIndex = 48061;
 
 	class DoNotFakeAttribute : public ::System::Attribute
 	{

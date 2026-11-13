@@ -6,9 +6,9 @@ class IOGNBKGNPFD;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define FLNNDOOCHNF_JIHDMDMDPHG_OFFSET UNITYSDK_OFFSET(0x158369E0)
+#define FLNNDOOCHNF_JIHDMDMDPHG_OFFSET UNITYSDK_OFFSET(0x18971970)
 
-inline static constexpr unsigned int FLNNDOOCHNF_TypeDefinitionIndex = 77387;
+inline static constexpr unsigned int FLNNDOOCHNF_TypeDefinitionIndex = 79721;
 
 	class FLNNDOOCHNF : public ::System::Object
 	{

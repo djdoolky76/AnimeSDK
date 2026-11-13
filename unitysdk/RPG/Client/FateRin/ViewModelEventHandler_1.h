@@ -4,7 +4,7 @@
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int ViewModelEventHandler_1_TypeDefinitionIndex = 80629;
+	inline static constexpr unsigned int ViewModelEventHandler_1_TypeDefinitionIndex = 83409;
 
 	template <typename T>
 	class ViewModelEventHandler_1 : public ::System::MulticastDelegate

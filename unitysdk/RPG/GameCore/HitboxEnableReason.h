@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitboxEnableReason_TypeDefinitionIndex = 57223;
+	inline static constexpr unsigned int HitboxEnableReason_TypeDefinitionIndex = 58450;
 
 	enum class HitboxEnableReason : ::System::Int32
 	{
@@ -21,5 +21,6 @@ namespace RPG::GameCore
 		EraFlipDeviceControl = 11,
 		MonsterAvaliable = 12,
 		FiveDim = 13,
+		LittleGameSandbox = 14,
 	};
 }

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define EKKAKHININL_AIJHHGPIBJG_OFFSET UNITYSDK_OFFSET(0x154FFB40)
-#define EKKAKHININL_FBHHGMHOCLA_OFFSET UNITYSDK_OFFSET(0x154FF190)
+#define EKKAKHININL_AIJHHGPIBJG_OFFSET UNITYSDK_OFFSET(0x19995390)
+#define EKKAKHININL_FBHHGMHOCLA_OFFSET UNITYSDK_OFFSET(0x199949E0)
 
-inline static constexpr unsigned int EKKAKHININL_TypeDefinitionIndex = 52855;
+inline static constexpr unsigned int EKKAKHININL_TypeDefinitionIndex = 54010;
 
 	class EKKAKHININL : public ::System::Object
 	{

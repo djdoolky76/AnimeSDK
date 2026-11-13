@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueHandbookTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A1960)
-#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9A1240)
+#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2076F4F0)
+#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2076EDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueHandbookTypeRow_TypeDefinitionIndex = 14828;
+	inline static constexpr unsigned int RogueHandbookTypeRow_TypeDefinitionIndex = 14984;
 
 	class RogueHandbookTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* HandBookIconPath; // 0x10
-		::System::UInt32 HandBookType; // 0x18
+		::RPG::Client::TextID RogueHandBookType; // 0x18
+		::System::UInt32 HandBookType; // 0x28
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID RogueHandBookType; // 0x20
 		::RPG::Client::TextID RogueHandBookDesc; // 0x30
 		::System::Void _ctor()
 		{

@@ -4,20 +4,20 @@
 namespace Google::Protobuf::WellKnownTypes { class EnumValue; }
 namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUMVALUE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B88A8E0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUMVALUE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B88A920)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUMVALUE___C___CCTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x1B88A930)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUMVALUE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A25B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUMVALUE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A25F0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUMVALUE___C___CCTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x1F3A2600)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int EnumValue___c_TypeDefinitionIndex = 5453;
+	inline static constexpr unsigned int EnumValue___c_TypeDefinitionIndex = 5458;
 
 	class EnumValue___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x25140);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x28080);
 		}
 
 		static ::System::Void _cctor()

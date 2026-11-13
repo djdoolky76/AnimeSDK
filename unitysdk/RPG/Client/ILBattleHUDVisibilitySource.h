@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ILBattleHUDVisibilitySource_TypeDefinitionIndex = 71742;
+	inline static constexpr unsigned int ILBattleHUDVisibilitySource_TypeDefinitionIndex = 73733;
 
 	enum class ILBattleHUDVisibilitySource : ::System::Int32
 	{

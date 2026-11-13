@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JNBOIFCNBCH_TypeDefinitionIndex = 33882;
+inline static constexpr unsigned int JNBOIFCNBCH_TypeDefinitionIndex = 34797;
 
 	enum class JNBOIFCNBCH : ::System::Int32
 	{

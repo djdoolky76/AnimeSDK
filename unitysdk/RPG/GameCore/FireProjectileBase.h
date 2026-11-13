@@ -9,13 +9,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_FIREPROJECTILEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67E910)
-#define RPG_GAMECORE_FIREPROJECTILEBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D67EB10)
-#define RPG_GAMECORE_FIREPROJECTILEBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D67E930)
+#define RPG_GAMECORE_FIREPROJECTILEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84B670)
+#define RPG_GAMECORE_FIREPROJECTILEBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E84B870)
+#define RPG_GAMECORE_FIREPROJECTILEBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E84B690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FireProjectileBase_TypeDefinitionIndex = 22579;
+	inline static constexpr unsigned int FireProjectileBase_TypeDefinitionIndex = 22994;
 
 	class FireProjectileBase : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class DirectDeliveryNoticeData; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICETOASTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC5860)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICETOASTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4E630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DirectDeliveryNoticeToastData_TypeDefinitionIndex = 63583;
+	inline static constexpr unsigned int DirectDeliveryNoticeToastData_TypeDefinitionIndex = 65025;
 
 	class DirectDeliveryNoticeToastData : public ::System::Object
 	{

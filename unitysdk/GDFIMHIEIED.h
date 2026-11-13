@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int GDFIMHIEIED_TypeDefinitionIndex = 67336;
+inline static constexpr unsigned int GDFIMHIEIED_TypeDefinitionIndex = 69280;
 
 	class GDFIMHIEIED : public ::System::Object
 	{

@@ -5,13 +5,13 @@ namespace EnviromentSystem { class EnviroBoolProperty; }
 namespace EnviromentSystem { class EnviromentProfile; }
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEM_ENVIROEPROBEOVERRIDEPROPERTY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x155E16B0)
-#define ENVIROMENTSYSTEM_ENVIROEPROBEOVERRIDEPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x155E1600)
-#define ENVIROMENTSYSTEM_ENVIROEPROBEOVERRIDEPROPERTY_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0x155E1790)
+#define ENVIROMENTSYSTEM_ENVIROEPROBEOVERRIDEPROPERTY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16B50150)
+#define ENVIROMENTSYSTEM_ENVIROEPROBEOVERRIDEPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x16B500A0)
+#define ENVIROMENTSYSTEM_ENVIROEPROBEOVERRIDEPROPERTY_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0x16B50230)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroEProbeOverrideProperty_TypeDefinitionIndex = 49596;
+	inline static constexpr unsigned int EnviroEProbeOverrideProperty_TypeDefinitionIndex = 50672;
 
 	class EnviroEProbeOverrideProperty : public ::EnviromentSystem::EnviroBoolProperty
 	{

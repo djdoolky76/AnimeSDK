@@ -4,13 +4,13 @@
 namespace MiHoYo::SDK { class GameRoleModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_GAMEROLEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1AEB0)
-#define MIHOYO_SDK_GAMEROLEMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE1ABF0)
-#define MIHOYO_SDK_GAMEROLEMODEL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE1ADD0)
+#define MIHOYO_SDK_GAMEROLEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B662E30)
+#define MIHOYO_SDK_GAMEROLEMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B662A70)
+#define MIHOYO_SDK_GAMEROLEMODEL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B662C50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GameRoleModel_TypeDefinitionIndex = 7880;
+	inline static constexpr unsigned int GameRoleModel_TypeDefinitionIndex = 7889;
 
 	class GameRoleModel : public ::System::Object
 	{
@@ -34,7 +34,7 @@ namespace MiHoYo::SDK
 		::System::String* account_id; // 0x90
 		static ::MiHoYo::SDK::GameRoleModel** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::GameRoleModel**)UnitySDK::FromName("MiHoYo.SDK", "GameRoleModel")->GetStaticField(0xE370);
+			return (::MiHoYo::SDK::GameRoleModel**)UnitySDK::FromName("MiHoYo.SDK", "GameRoleModel")->GetStaticField(0x4B2D0);
 		}
 
 		::System::Void _ctor()

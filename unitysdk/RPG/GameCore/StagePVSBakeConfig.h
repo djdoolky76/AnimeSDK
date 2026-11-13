@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StagePVSBakeConfig; }
 
-#define RPG_GAMECORE_STAGEPVSBAKECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE3C20)
-#define RPG_GAMECORE_STAGEPVSBAKECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE3BE0)
+#define RPG_GAMECORE_STAGEPVSBAKECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B7180)
+#define RPG_GAMECORE_STAGEPVSBAKECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B7140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePVSBakeConfig_TypeDefinitionIndex = 19177;
+	inline static constexpr unsigned int StagePVSBakeConfig_TypeDefinitionIndex = 19367;
 
 	class StagePVSBakeConfig : public ::RPG::GameCore::JsonConfig
 	{

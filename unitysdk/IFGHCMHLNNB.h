@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 class IFGHCMHLNNB;
 namespace System { class String; }
 
-#define IFGHCMHLNNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC1880)
-#define IFGHCMHLNNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEC1620)
+#define IFGHCMHLNNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BC2A0)
+#define IFGHCMHLNNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6BC040)
 
-inline static constexpr unsigned int IFGHCMHLNNB_TypeDefinitionIndex = 12016;
+inline static constexpr unsigned int IFGHCMHLNNB_TypeDefinitionIndex = 12073;
 
 	class IFGHCMHLNNB : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BEEMLBPEGKH; // 0x10
 		::System::String* FBKAMIHGLFK; // 0x18
-		::System::Single JONJKELPPAI; // 0x20
-		::System::UInt32 PHFMCACHFIJ; // 0x24
-		::RPG::Client::TextID AABNPBGMOFN; // 0x28
+		::RPG::Client::TextID AABNPBGMOFN; // 0x20
+		::System::UInt32 PHFMCACHFIJ; // 0x30
+		::System::Single JONJKELPPAI; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFGHCMHLNNB_CTOR_OFFSET))(this);

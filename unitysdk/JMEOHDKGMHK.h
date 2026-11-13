@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JMEOHDKGMHK_TypeDefinitionIndex = 32459;
+inline static constexpr unsigned int JMEOHDKGMHK_TypeDefinitionIndex = 33374;
 
 	enum class JMEOHDKGMHK : ::System::Int32
 	{

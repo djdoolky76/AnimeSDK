@@ -4,12 +4,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class BillboardController_ExportData; }
 
-#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE956C70)
-#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xE956C60)
+#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA42A40)
+#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DA42A30)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BillboardController_SceneLightExportData_TypeDefinitionIndex = 49055;
+	inline static constexpr unsigned int BillboardController_SceneLightExportData_TypeDefinitionIndex = 50131;
 
 	class BillboardController_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

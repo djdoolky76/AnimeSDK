@@ -5,17 +5,17 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class NJGDIEAIHPD;
 
-#define IIKHIOLBMHG_ANOGKEGBNJE_OFFSET UNITYSDK_OFFSET(0x164336D0)
-#define IIKHIOLBMHG_CTOR_OFFSET UNITYSDK_OFFSET(0x16433400)
-#define IIKHIOLBMHG_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0x16433410)
+#define IIKHIOLBMHG_ANOGKEGBNJE_OFFSET UNITYSDK_OFFSET(0x193D66C0)
+#define IIKHIOLBMHG_CTOR_OFFSET UNITYSDK_OFFSET(0x193D63F0)
+#define IIKHIOLBMHG_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0x193D6400)
 
-inline static constexpr unsigned int IIKHIOLBMHG_TypeDefinitionIndex = 62515;
+inline static constexpr unsigned int IIKHIOLBMHG_TypeDefinitionIndex = 63928;
 
 	class IIKHIOLBMHG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarPropertyType BFPOCEDAOMA; // 0x10
-		::RPG::GameCore::AvatarPropertyType GGKLKCAMNJK; // 0x14
+		::RPG::GameCore::AvatarPropertyType GGKLKCAMNJK; // 0x10
+		::RPG::GameCore::AvatarPropertyType BFPOCEDAOMA; // 0x14
 		::System::Void _ctor(::RPG::GameCore::AvatarPropertyType a1, ::RPG::GameCore::AvatarPropertyType a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + IIKHIOLBMHG_CTOR_OFFSET))(this, a1, a2);

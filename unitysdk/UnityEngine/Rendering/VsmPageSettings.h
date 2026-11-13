@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VsmPageSettings_TypeDefinitionIndex = 4891;
+	inline static constexpr unsigned int VsmPageSettings_TypeDefinitionIndex = 4896;
 
 	struct alignas(4) VsmPageSettings
 	{

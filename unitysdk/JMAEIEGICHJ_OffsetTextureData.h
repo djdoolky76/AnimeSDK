@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define JMAEIEGICHJ_OFFSETTEXTUREDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB253150)
+#define JMAEIEGICHJ_OFFSETTEXTUREDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A19E0)
 
-inline static constexpr unsigned int JMAEIEGICHJ_OffsetTextureData_TypeDefinitionIndex = 51845;
+inline static constexpr unsigned int JMAEIEGICHJ_OffsetTextureData_TypeDefinitionIndex = 52931;
 
 	class JMAEIEGICHJ_OffsetTextureData : public ::System::Object
 	{

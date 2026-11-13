@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtBattleSetCameraFocusTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GGNJOILILIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15A05B40)
-#define GGNJOILILIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A05B70)
+#define GGNJOILILIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AF060)
+#define GGNJOILILIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4AF090)
 
-inline static constexpr unsigned int GGNJOILILIM_TypeDefinitionIndex = 54155;
+inline static constexpr unsigned int GGNJOILILIM_TypeDefinitionIndex = 55319;
 
 	class GGNJOILILIM
 	{

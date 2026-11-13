@@ -4,18 +4,18 @@
 class PKKFNODINEM;
 namespace System { class Object; }
 
-#define PKKFNODINEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF66930)
-#define PKKFNODINEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF66970)
-#define PKKFNODINEM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DF66980)
+#define PKKFNODINEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4A1EC0)
+#define PKKFNODINEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A1F00)
+#define PKKFNODINEM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F4A1F10)
 
-inline static constexpr unsigned int PKKFNODINEM___c_TypeDefinitionIndex = 26942;
+inline static constexpr unsigned int PKKFNODINEM___c_TypeDefinitionIndex = 27473;
 
 	class PKKFNODINEM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A810);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x431D0);
 		}
 
 		static ::System::Void _cctor()

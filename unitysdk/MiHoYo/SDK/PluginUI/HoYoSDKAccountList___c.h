@@ -5,37 +5,37 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0150F0)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB015130)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DOSHOW_B__6_0_OFFSET UNITYSDK_OFFSET(0xB015140)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DOSHOW_B__6_1_OFFSET UNITYSDK_OFFSET(0xB015170)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DOSHOW_B__6_2_OFFSET UNITYSDK_OFFSET(0xB0151A0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF61830)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF61870)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DOSHOW_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BF61880)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DOSHOW_B__6_1_OFFSET UNITYSDK_OFFSET(0x1BF618B0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DOSHOW_B__6_2_OFFSET UNITYSDK_OFFSET(0x1BF618E0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKAccountList___c_TypeDefinitionIndex = 46738;
+	inline static constexpr unsigned int HoYoSDKAccountList___c_TypeDefinitionIndex = 47766;
 
 	class HoYoSDKAccountList___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x2F820);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x23990);
 		}
 
 		static ::System::Action_1<::System::String*>** StaticGet___9__6_2()
 		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x2F828);
-		}
-
-		static ::System::Action_1<::System::String*>** StaticGet___9__6_0()
-		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x2F830);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x23998);
 		}
 
 		static ::System::Action_1<::System::String*>** StaticGet___9__6_1()
 		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x2F838);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x239A0);
+		}
+
+		static ::System::Action_1<::System::String*>** StaticGet___9__6_0()
+		{
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x239A8);
 		}
 
 		static ::System::Void _cctor()

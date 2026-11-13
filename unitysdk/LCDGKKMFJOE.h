@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchCurrentInsertTurnSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LCDGKKMFJOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB60CED0)
-#define LCDGKKMFJOE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB60CF20)
+#define LCDGKKMFJOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC6B7A0)
+#define LCDGKKMFJOE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AC6B7F0)
 
-inline static constexpr unsigned int LCDGKKMFJOE_TypeDefinitionIndex = 59160;
+inline static constexpr unsigned int LCDGKKMFJOE_TypeDefinitionIndex = 60436;
 
 	class LCDGKKMFJOE
 	{

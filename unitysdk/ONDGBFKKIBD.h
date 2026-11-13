@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AdvNpcSearchProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ONDGBFKKIBD_CTOR_OFFSET UNITYSDK_OFFSET(0xBF47D20)
-#define ONDGBFKKIBD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF47D30)
-#define ONDGBFKKIBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF47DD0)
-#define ONDGBFKKIBD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF47E20)
-#define ONDGBFKKIBD_TICK_OFFSET UNITYSDK_OFFSET(0xBF47D70)
+#define ONDGBFKKIBD_CTOR_OFFSET UNITYSDK_OFFSET(0x17D76C20)
+#define ONDGBFKKIBD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17D76C30)
+#define ONDGBFKKIBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17D76CD0)
+#define ONDGBFKKIBD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17D76D20)
+#define ONDGBFKKIBD_TICK_OFFSET UNITYSDK_OFFSET(0x17D76C70)
 
-inline static constexpr unsigned int ONDGBFKKIBD_TypeDefinitionIndex = 52440;
+inline static constexpr unsigned int ONDGBFKKIBD_TypeDefinitionIndex = 53546;
 
 	class ONDGBFKKIBD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::AdvNpcSearchProp* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::AdvNpcSearchProp* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvNpcSearchProp* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvNpcSearchProp*))((::PBYTE)hIl2Cpp + ONDGBFKKIBD_CTOR_OFFSET))(this, a1, a2);

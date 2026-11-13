@@ -3,10 +3,10 @@
 namespace RPG::Client { class ParkourSetCountDownAnimSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FAJDHEEANKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15675690)
-#define FAJDHEEANKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156756C0)
+#define FAJDHEEANKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2DF40)
+#define FAJDHEEANKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BA2DF70)
 
-inline static constexpr unsigned int FAJDHEEANKP_TypeDefinitionIndex = 53057;
+inline static constexpr unsigned int FAJDHEEANKP_TypeDefinitionIndex = 54217;
 
 	class FAJDHEEANKP
 	{

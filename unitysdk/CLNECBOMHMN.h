@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CLNECBOMHMN_TypeDefinitionIndex = 32809;
+inline static constexpr unsigned int CLNECBOMHMN_TypeDefinitionIndex = 33724;
 
 	enum class CLNECBOMHMN : ::System::Int32
 	{

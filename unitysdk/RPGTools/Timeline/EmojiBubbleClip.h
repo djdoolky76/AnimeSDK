@@ -10,21 +10,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D9E30)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D9F90)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D9E20)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D8FAAE0)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8FAC70)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D8FAAD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmojiBubbleClip_TypeDefinitionIndex = 48096;
+	inline static constexpr unsigned int EmojiBubbleClip_TypeDefinitionIndex = 49127;
 
 	class EmojiBubbleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::System::UInt32 PositionIndex; // 0x20
-		::System::Boolean IsVertical; // 0x24
-		::System::Byte _padding0[0x3];
+		::System::Boolean UseRootAsAttachPoint; // 0x24
+		::System::Boolean IsVertical; // 0x25
+		::System::Byte _padding0[0x2];
 		::System::String* BubbleBGPath; // 0x28
 		::System::Collections::Generic::List_1<::System::String*>* EmojiIconPaths; // 0x30
 		::RPG::Client::EmojiIconConfig* BgConfig; // 0x38

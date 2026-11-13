@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define BMPBGPIFPNA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C88EF80)
+#define BMPBGPIFPNA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2B9740)
 
-inline static constexpr unsigned int BMPBGPIFPNA_TypeDefinitionIndex = 42782;
+inline static constexpr unsigned int BMPBGPIFPNA_TypeDefinitionIndex = 43761;
 
 	class BMPBGPIFPNA : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BMPBGPIFPNA")->GetStaticField(0x2CC80);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BMPBGPIFPNA")->GetStaticField(0x16E50);
 		}
 
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "BMPBGPIFPNA")->GetStaticField(0x2CC88);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "BMPBGPIFPNA")->GetStaticField(0x16E58);
 		}
 
 		// static const ::System::Object MJCOFFAOFMD; // 0x0

@@ -4,18 +4,18 @@
 class LABMFHEEPBI;
 namespace System { class Object; }
 
-#define LABMFHEEPBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E89A610)
-#define LABMFHEEPBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E89A650)
-#define LABMFHEEPBI___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E89A660)
+#define LABMFHEEPBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20382A10)
+#define LABMFHEEPBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20382A50)
+#define LABMFHEEPBI___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x20382A60)
 
-inline static constexpr unsigned int LABMFHEEPBI___c_TypeDefinitionIndex = 28004;
+inline static constexpr unsigned int LABMFHEEPBI___c_TypeDefinitionIndex = 28594;
 
 	class LABMFHEEPBI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24380);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23520);
 		}
 
 		static ::System::Void _cctor()

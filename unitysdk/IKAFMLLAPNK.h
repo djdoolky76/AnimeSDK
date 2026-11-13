@@ -8,10 +8,10 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class BlockNodeConfig; }
 namespace System { class String; }
 
-#define IKAFMLLAPNK_CTOR_OFFSET UNITYSDK_OFFSET(0x16474100)
-#define IKAFMLLAPNK_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0x16474140)
+#define IKAFMLLAPNK_CTOR_OFFSET UNITYSDK_OFFSET(0x18072350)
+#define IKAFMLLAPNK_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0x18072390)
 
-inline static constexpr unsigned int IKAFMLLAPNK_TypeDefinitionIndex = 73895;
+inline static constexpr unsigned int IKAFMLLAPNK_TypeDefinitionIndex = 76023;
 
 	class IKAFMLLAPNK : public ::GDKHHPPIFBC
 	{

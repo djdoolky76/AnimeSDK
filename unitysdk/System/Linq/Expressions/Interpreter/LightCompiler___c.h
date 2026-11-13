@@ -8,11 +8,11 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class SwitchCase; }
 namespace System::Linq::Expressions::Interpreter { class LightCompiler; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDE5D30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE5D70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILENOLABELPUSH_B__101_0_OFFSET UNITYSDK_OFFSET(0x1EDE5F20)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILESWITCHEXPRESSION_B__56_0_OFFSET UNITYSDK_OFFSET(0x1EDE5D80)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILESWITCHEXPRESSION_B__56_1_OFFSET UNITYSDK_OFFSET(0x1EDE5EB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C494EB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C494EF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILENOLABELPUSH_B__101_0_OFFSET UNITYSDK_OFFSET(0x1C4950A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILESWITCHEXPRESSION_B__56_0_OFFSET UNITYSDK_OFFSET(0x1C494F00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILESWITCHEXPRESSION_B__56_1_OFFSET UNITYSDK_OFFSET(0x1C495030)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -21,24 +21,24 @@ namespace System::Linq::Expressions::Interpreter
 	class LightCompiler___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Linq::Expressions::Expression*, ::System::Boolean>** StaticGet___9__56_1()
-		{
-			return (::System::Func_2<::System::Linq::Expressions::Expression*, ::System::Boolean>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x3D150);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x3D158);
+			return (::System::Object**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x33AA0);
 		}
 
 		static ::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>** StaticGet___9__101_0()
 		{
-			return (::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x3D160);
+			return (::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x33AA8);
 		}
 
 		static ::System::Func_2<::System::Linq::Expressions::SwitchCase*, ::System::Boolean>** StaticGet___9__56_0()
 		{
-			return (::System::Func_2<::System::Linq::Expressions::SwitchCase*, ::System::Boolean>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x3D168);
+			return (::System::Func_2<::System::Linq::Expressions::SwitchCase*, ::System::Boolean>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x33AB0);
+		}
+
+		static ::System::Func_2<::System::Linq::Expressions::Expression*, ::System::Boolean>** StaticGet___9__56_1()
+		{
+			return (::System::Func_2<::System::Linq::Expressions::Expression*, ::System::Boolean>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x33AB8);
 		}
 
 		static ::System::Void _cctor()

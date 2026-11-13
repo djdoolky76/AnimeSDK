@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformancePropVisiableInfo; }
 
-#define RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CFAB0)
-#define RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8CF9C0)
+#define RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F151A50)
+#define RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F151960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformancePropVisiableInfo_TypeDefinitionIndex = 21854;
+	inline static constexpr unsigned int PerformancePropVisiableInfo_TypeDefinitionIndex = 22245;
 
 	class PerformancePropVisiableInfo : public ::RPG::GameCore::JsonConfig
 	{

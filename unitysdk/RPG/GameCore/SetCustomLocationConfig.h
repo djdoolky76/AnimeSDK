@@ -6,13 +6,13 @@ namespace RPG::GameCore { class LocationConfig; }
 namespace RPG::GameCore { class SetCustomLocationConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCUSTOMLOCATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA70460)
-#define RPG_GAMECORE_SETCUSTOMLOCATIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA70470)
-#define RPG_GAMECORE_SETCUSTOMLOCATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA70420)
+#define RPG_GAMECORE_SETCUSTOMLOCATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F861DB0)
+#define RPG_GAMECORE_SETCUSTOMLOCATIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F861DC0)
+#define RPG_GAMECORE_SETCUSTOMLOCATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F861D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCustomLocationConfig_TypeDefinitionIndex = 22491;
+	inline static constexpr unsigned int SetCustomLocationConfig_TypeDefinitionIndex = 22900;
 
 	class SetCustomLocationConfig : public ::RPG::GameCore::TaskConfig
 	{

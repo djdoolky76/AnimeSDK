@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Tutorial
 {
-	inline static constexpr unsigned int ITutorialGuideCollection_TypeDefinitionIndex = 78994;
+	inline static constexpr unsigned int ITutorialGuideCollection_TypeDefinitionIndex = 81770;
 
 	class ITutorialGuideCollection
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SwitchCaseByTeammateCount; }
 namespace RPG::GameCore { class SwitchCaseTaskList; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SWITCHCASEBYTEAMMATECOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB12B80)
-#define RPG_GAMECORE_SWITCHCASEBYTEAMMATECOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB12B90)
-#define RPG_GAMECORE_SWITCHCASEBYTEAMMATECOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB12B40)
+#define RPG_GAMECORE_SWITCHCASEBYTEAMMATECOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E682680)
+#define RPG_GAMECORE_SWITCHCASEBYTEAMMATECOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E682690)
+#define RPG_GAMECORE_SWITCHCASEBYTEAMMATECOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E682640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCaseByTeammateCount_TypeDefinitionIndex = 23773;
+	inline static constexpr unsigned int SwitchCaseByTeammateCount_TypeDefinitionIndex = 24229;
 
 	class SwitchCaseByTeammateCount : public ::RPG::GameCore::TaskConfig
 	{

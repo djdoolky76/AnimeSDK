@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphTipRangeConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHTIPRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E6440)
-#define RPG_GAMECORE_PHOTOGRAPHTIPRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E6280)
+#define RPG_GAMECORE_PHOTOGRAPHTIPRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE54CD0)
+#define RPG_GAMECORE_PHOTOGRAPHTIPRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE54B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphTipRangeConfig_TypeDefinitionIndex = 21638;
+	inline static constexpr unsigned int PhotoGraphTipRangeConfig_TypeDefinitionIndex = 22026;
 
 	class PhotoGraphTipRangeConfig : public ::RPG::GameCore::JsonConfig
 	{

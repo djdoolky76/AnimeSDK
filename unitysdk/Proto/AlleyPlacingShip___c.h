@@ -4,20 +4,20 @@
 namespace Proto { class AlleyPlacingShip; }
 namespace System { class Object; }
 
-#define PROTO_ALLEYPLACINGSHIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFB97D0)
-#define PROTO_ALLEYPLACINGSHIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB9810)
-#define PROTO_ALLEYPLACINGSHIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFB9820)
+#define PROTO_ALLEYPLACINGSHIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4B7F20)
+#define PROTO_ALLEYPLACINGSHIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B7F60)
+#define PROTO_ALLEYPLACINGSHIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F4B7F70)
 
 namespace Proto
 {
-	inline static constexpr unsigned int AlleyPlacingShip___c_TypeDefinitionIndex = 26215;
+	inline static constexpr unsigned int AlleyPlacingShip___c_TypeDefinitionIndex = 26742;
 
 	class AlleyPlacingShip___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x482D0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4DF40);
 		}
 
 		static ::System::Void _cctor()

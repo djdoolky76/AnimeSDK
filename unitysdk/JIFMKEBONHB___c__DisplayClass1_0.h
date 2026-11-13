@@ -6,10 +6,10 @@
 class HIOAMIPNLIN;
 class JIFMKEBONHB;
 
-#define JIFMKEBONHB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E9B10)
-#define JIFMKEBONHB___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0xB1E9B20)
+#define JIFMKEBONHB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x174187D0)
+#define JIFMKEBONHB___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0x174187E0)
 
-inline static constexpr unsigned int JIFMKEBONHB___c__DisplayClass1_0_TypeDefinitionIndex = 53891;
+inline static constexpr unsigned int JIFMKEBONHB___c__DisplayClass1_0_TypeDefinitionIndex = 55055;
 
 	class JIFMKEBONHB___c__DisplayClass1_0 : public ::System::Object
 	{

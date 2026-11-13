@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack::Resolvers { class StaticEnumResolver; }
 
-#define MESSAGEPACK_RESOLVERS_STATICENUMRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4F30)
-#define MESSAGEPACK_RESOLVERS_STATICENUMRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4F20)
+#define MESSAGEPACK_RESOLVERS_STATICENUMRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF69EC0)
+#define MESSAGEPACK_RESOLVERS_STATICENUMRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF69EB0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int StaticEnumResolver_TypeDefinitionIndex = 7277;
+	inline static constexpr unsigned int StaticEnumResolver_TypeDefinitionIndex = 7288;
 
 	class StaticEnumResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::StaticEnumResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::StaticEnumResolver**)UnitySDK::FromName("MessagePack.Resolvers", "StaticEnumResolver")->GetStaticField(0x4BCF0);
+			return (::MessagePack::Resolvers::StaticEnumResolver**)UnitySDK::FromName("MessagePack.Resolvers", "StaticEnumResolver")->GetStaticField(0x2ECA0);
 		}
 
 		::System::Void _ctor()

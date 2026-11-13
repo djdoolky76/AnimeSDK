@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class ECNEEKNHIOE;
 
-#define HDMMDHABKGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C31B70)
+#define HDMMDHABKGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7D2A90)
 
-inline static constexpr unsigned int HDMMDHABKGN_TypeDefinitionIndex = 80567;
+inline static constexpr unsigned int HDMMDHABKGN_TypeDefinitionIndex = 83347;
 
 	class HDMMDHABKGN : public ::System::Object
 	{

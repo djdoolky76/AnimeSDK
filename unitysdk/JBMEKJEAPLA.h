@@ -4,9 +4,9 @@
 class EBNKFDBMHLA;
 namespace System { class IDisposable; }
 
-#define JBMEKJEAPLA_HCLHNCAMGHL_OFFSET UNITYSDK_OFFSET(0x1EC49D80)
+#define JBMEKJEAPLA_HCLHNCAMGHL_OFFSET UNITYSDK_OFFSET(0x1E533910)
 
-inline static constexpr unsigned int JBMEKJEAPLA_TypeDefinitionIndex = 44098;
+inline static constexpr unsigned int JBMEKJEAPLA_TypeDefinitionIndex = 45173;
 
 	class JBMEKJEAPLA : public ::System::Object
 	{

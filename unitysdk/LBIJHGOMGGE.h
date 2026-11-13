@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpenHipplenMainPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LBIJHGOMGGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F5BE0)
-#define LBIJHGOMGGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5F5C10)
+#define LBIJHGOMGGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B29A0F0)
+#define LBIJHGOMGGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B29A120)
 
-inline static constexpr unsigned int LBIJHGOMGGE_TypeDefinitionIndex = 52282;
+inline static constexpr unsigned int LBIJHGOMGGE_TypeDefinitionIndex = 53388;
 
 	class LBIJHGOMGGE
 	{

@@ -4,18 +4,18 @@
 class CFNEMEIDMID;
 namespace System { class Object; }
 
-#define CFNEMEIDMID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E07A4B0)
-#define CFNEMEIDMID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E07A4F0)
-#define CFNEMEIDMID___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E07A500)
+#define CFNEMEIDMID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD1D480)
+#define CFNEMEIDMID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD1D4C0)
+#define CFNEMEIDMID___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD1D4D0)
 
-inline static constexpr unsigned int CFNEMEIDMID___c_TypeDefinitionIndex = 28929;
+inline static constexpr unsigned int CFNEMEIDMID___c_TypeDefinitionIndex = 29519;
 
 	class CFNEMEIDMID___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12440);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAEC0);
 		}
 
 		static ::System::Void _cctor()

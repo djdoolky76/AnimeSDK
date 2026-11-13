@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define KDGCGMKBFNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB83310)
+#define KDGCGMKBFNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2BEB0)
 
-inline static constexpr unsigned int KDGCGMKBFNG_TypeDefinitionIndex = 42285;
+inline static constexpr unsigned int KDGCGMKBFNG_TypeDefinitionIndex = 43260;
 
 	class KDGCGMKBFNG : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class ONBINEIJCEG;
 
-#define IBFOLDJOINN_CTOR_OFFSET UNITYSDK_OFFSET(0x15E24810)
+#define IBFOLDJOINN_CTOR_OFFSET UNITYSDK_OFFSET(0x188AE710)
 
-inline static constexpr unsigned int IBFOLDJOINN_TypeDefinitionIndex = 54322;
+inline static constexpr unsigned int IBFOLDJOINN_TypeDefinitionIndex = 55486;
 
 	class IBFOLDJOINN : public ::System::Object
 	{

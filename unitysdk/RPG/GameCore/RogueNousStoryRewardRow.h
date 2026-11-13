@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueNousStoryRewardRow; }
 
-#define RPG_GAMECORE_ROGUENOUSSTORYREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F8A60)
-#define RPG_GAMECORE_ROGUENOUSSTORYREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9F8490)
+#define RPG_GAMECORE_ROGUENOUSSTORYREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x207B02F0)
+#define RPG_GAMECORE_ROGUENOUSSTORYREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x207AFD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousStoryRewardRow_TypeDefinitionIndex = 14932;
+	inline static constexpr unsigned int RogueNousStoryRewardRow_TypeDefinitionIndex = 15088;
 
 	class RogueNousStoryRewardRow : public ::System::Object
 	{

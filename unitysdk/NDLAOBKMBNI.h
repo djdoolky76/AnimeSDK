@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GKPDKBNFDGM;
 
-#define NDLAOBKMBNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB45C40)
-#define NDLAOBKMBNI_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xBB45BD0)
+#define NDLAOBKMBNI_CTOR_OFFSET UNITYSDK_OFFSET(0x16FC4C80)
+#define NDLAOBKMBNI_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0x16FC4C10)
 
-inline static constexpr unsigned int NDLAOBKMBNI_TypeDefinitionIndex = 61951;
+inline static constexpr unsigned int NDLAOBKMBNI_TypeDefinitionIndex = 63363;
 
 	class NDLAOBKMBNI : public ::System::Object
 	{

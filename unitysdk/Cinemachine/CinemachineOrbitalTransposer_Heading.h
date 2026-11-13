@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cinemachine/CinemachineOrbitalTransposer_Heading_HeadingDefinition.h"
 
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_HEADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1990330)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER_HEADING_CTOR_OFFSET UNITYSDK_OFFSET(0x3DA3E20)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineOrbitalTransposer_Heading_TypeDefinitionIndex = 39782;
+	inline static constexpr unsigned int CinemachineOrbitalTransposer_Heading_TypeDefinitionIndex = 40711;
 
 	struct alignas(4) CinemachineOrbitalTransposer_Heading
 	{

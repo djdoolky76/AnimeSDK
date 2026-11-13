@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchNextTurnOwnerEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LNJCEKPLOPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB7DDFE0)
-#define LNJCEKPLOPD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7DE030)
+#define LNJCEKPLOPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5918E0)
+#define LNJCEKPLOPD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A591930)
 
-inline static constexpr unsigned int LNJCEKPLOPD_TypeDefinitionIndex = 59185;
+inline static constexpr unsigned int LNJCEKPLOPD_TypeDefinitionIndex = 60462;
 
 	class LNJCEKPLOPD
 	{

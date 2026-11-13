@@ -6,23 +6,23 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LEEIEHAGAKL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6486A0)
-#define LEEIEHAGAKL_LEGNMDLCKLE_OFFSET UNITYSDK_OFFSET(0xB6485E0)
-#define LEEIEHAGAKL_PNCHIFBCBJH_OFFSET UNITYSDK_OFFSET(0xB6484B0)
+#define LEEIEHAGAKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x18C2EB60)
+#define LEEIEHAGAKL_LEGNMDLCKLE_OFFSET UNITYSDK_OFFSET(0x18C2EAA0)
+#define LEEIEHAGAKL_PNCHIFBCBJH_OFFSET UNITYSDK_OFFSET(0x18C2E970)
 
-inline static constexpr unsigned int LEEIEHAGAKL_TypeDefinitionIndex = 57835;
+inline static constexpr unsigned int LEEIEHAGAKL_TypeDefinitionIndex = 59072;
 
 	class LEEIEHAGAKL : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::BFFKCODOCCC>** StaticGet_GBKLAKDLIBA()
-		{
-			return (::System::Collections::Generic::List_1<::BFFKCODOCCC>**)UnitySDK::FromName("", "LEEIEHAGAKL")->GetStaticField(0x5A1C0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Int32>** StaticGet_NOGJPJJOMHL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Int32>**)UnitySDK::FromName("", "LEEIEHAGAKL")->GetStaticField(0x5A1C8);
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Int32>**)UnitySDK::FromName("", "LEEIEHAGAKL")->GetStaticField(0x5CCF0);
+		}
+
+		static ::System::Collections::Generic::List_1<::BFFKCODOCCC>** StaticGet_GBKLAKDLIBA()
+		{
+			return (::System::Collections::Generic::List_1<::BFFKCODOCCC>**)UnitySDK::FromName("", "LEEIEHAGAKL")->GetStaticField(0x5CCF8);
 		}
 
 		static ::System::Void _cctor()

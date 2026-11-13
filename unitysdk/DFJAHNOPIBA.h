@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LoadSwordTrainingProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DFJAHNOPIBA_CTOR_OFFSET UNITYSDK_OFFSET(0xE824020)
-#define DFJAHNOPIBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE824050)
+#define DFJAHNOPIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B394470)
+#define DFJAHNOPIBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B3944A0)
 
-inline static constexpr unsigned int DFJAHNOPIBA_TypeDefinitionIndex = 55143;
+inline static constexpr unsigned int DFJAHNOPIBA_TypeDefinitionIndex = 56324;
 
 	class DFJAHNOPIBA
 	{

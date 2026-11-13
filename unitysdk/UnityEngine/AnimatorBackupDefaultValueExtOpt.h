@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorBackupDefaultValueExtOpt_TypeDefinitionIndex = 5702;
+	inline static constexpr unsigned int AnimatorBackupDefaultValueExtOpt_TypeDefinitionIndex = 5708;
 
 	enum class AnimatorBackupDefaultValueExtOpt : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AvatarOutfit; }
 
-#define HFEONGANBHM_CTOR_OFFSET UNITYSDK_OFFSET(0x15C69E60)
-#define HFEONGANBHM_GET_OUTFIT_OFFSET UNITYSDK_OFFSET(0x15C69E40)
-#define HFEONGANBHM_SET_OUTFIT_OFFSET UNITYSDK_OFFSET(0x15C69E50)
+#define HFEONGANBHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A223500)
+#define HFEONGANBHM_GET_OUTFIT_OFFSET UNITYSDK_OFFSET(0x1A2234E0)
+#define HFEONGANBHM_SET_OUTFIT_OFFSET UNITYSDK_OFFSET(0x1A2234F0)
 
-inline static constexpr unsigned int HFEONGANBHM_TypeDefinitionIndex = 51914;
+inline static constexpr unsigned int HFEONGANBHM_TypeDefinitionIndex = 53005;
 
 	class HFEONGANBHM : public ::System::Object
 	{

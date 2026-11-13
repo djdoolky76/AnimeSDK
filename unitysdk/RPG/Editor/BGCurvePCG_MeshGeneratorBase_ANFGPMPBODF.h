@@ -3,20 +3,20 @@
 #include "unitysdk/HAGAFPDHLCK_BFEEDDEBNLH.h"
 namespace System { class Object; }
 
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_ANFGPMPBODF_CLONE_OFFSET UNITYSDK_OFFSET(0xE49CAA0)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_ANFGPMPBODF_CTOR_OFFSET UNITYSDK_OFFSET(0xE49CA70)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_ANFGPMPBODF_CLONE_OFFSET UNITYSDK_OFFSET(0x182617E0)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_ANFGPMPBODF_CTOR_OFFSET UNITYSDK_OFFSET(0x182617A0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_ANFGPMPBODF_TypeDefinitionIndex = 52029;
+	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_ANFGPMPBODF_TypeDefinitionIndex = 53134;
 
 	class BGCurvePCG_MeshGeneratorBase_ANFGPMPBODF : public ::HAGAFPDHLCK_BFEEDDEBNLH
 	{
 	public:
 		::System::Single BJOCBPFKJDP; // 0x50
-		::System::Single OLLPMCIJNPD; // 0x54
-		::System::Single HLPIIANJHLN; // 0x58
-		::System::Single KJJLMBOOIMG; // 0x5C
+		::System::Single HLPIIANJHLN; // 0x54
+		::System::Single KJJLMBOOIMG; // 0x58
+		::System::Single OLLPMCIJNPD; // 0x5C
 		::System::Single EJKGJKBDMMJ; // 0x60
 		::System::Void _ctor()
 		{

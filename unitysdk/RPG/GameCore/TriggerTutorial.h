@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TriggerTutorial; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERTUTORIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC318A0)
-#define RPG_GAMECORE_TRIGGERTUTORIAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC318B0)
-#define RPG_GAMECORE_TRIGGERTUTORIAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC31860)
+#define RPG_GAMECORE_TRIGGERTUTORIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33AAE0)
+#define RPG_GAMECORE_TRIGGERTUTORIAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E33AAF0)
+#define RPG_GAMECORE_TRIGGERTUTORIAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33AAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerTutorial_TypeDefinitionIndex = 24373;
+	inline static constexpr unsigned int TriggerTutorial_TypeDefinitionIndex = 24832;
 
 	class TriggerTutorial : public ::RPG::GameCore::TaskConfig
 	{

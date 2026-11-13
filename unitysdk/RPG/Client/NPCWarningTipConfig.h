@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_NPCWARNINGTIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD927090)
+#define RPG_CLIENT_NPCWARNINGTIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CD000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCWarningTipConfig_TypeDefinitionIndex = 69103;
+	inline static constexpr unsigned int NPCWarningTipConfig_TypeDefinitionIndex = 71056;
 
 	class NPCWarningTipConfig : public ::System::Object
 	{

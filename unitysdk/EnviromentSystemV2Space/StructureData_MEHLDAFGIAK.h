@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EnviromentSystemV2Space/BlendingValBase.h"
 
-#define ENVIROMENTSYSTEMV2SPACE_STRUCTUREDATA_MEHLDAFGIAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1564BD40)
+#define ENVIROMENTSYSTEMV2SPACE_STRUCTUREDATA_MEHLDAFGIAK_CTOR_OFFSET UNITYSDK_OFFSET(0x136D2330)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int StructureData_MEHLDAFGIAK_TypeDefinitionIndex = 49404;
+	inline static constexpr unsigned int StructureData_MEHLDAFGIAK_TypeDefinitionIndex = 50480;
 
 	class StructureData_MEHLDAFGIAK : public ::EnviromentSystemV2Space::BlendingValBase
 	{

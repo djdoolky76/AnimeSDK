@@ -3,10 +3,10 @@
 class AEFGJJICLON;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGCIPDAANJK_CTOR_OFFSET UNITYSDK_OFFSET(0xB175280)
-#define BGCIPDAANJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1752B0)
+#define BGCIPDAANJK_CTOR_OFFSET UNITYSDK_OFFSET(0x151B3E70)
+#define BGCIPDAANJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151B3EA0)
 
-inline static constexpr unsigned int BGCIPDAANJK_TypeDefinitionIndex = 53824;
+inline static constexpr unsigned int BGCIPDAANJK_TypeDefinitionIndex = 54988;
 
 	class BGCIPDAANJK
 	{

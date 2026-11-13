@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BLEKHNKKPGM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4099C0)
-#define BLEKHNKKPGM_FIEOEFKGIJE_OFFSET UNITYSDK_OFFSET(0x1C409650)
-#define BLEKHNKKPGM_KJOFHPFEFIO_OFFSET UNITYSDK_OFFSET(0x1C4095F0)
-#define BLEKHNKKPGM_OLJONBLIMLE_OFFSET UNITYSDK_OFFSET(0x1C409450)
-#define BLEKHNKKPGM_OMBLDFAGIEJ_OFFSET UNITYSDK_OFFSET(0x1C409800)
+#define BLEKHNKKPGM_CCTOR_OFFSET UNITYSDK_OFFSET(0x15ACC4F0)
+#define BLEKHNKKPGM_FIEOEFKGIJE_OFFSET UNITYSDK_OFFSET(0x15ACC180)
+#define BLEKHNKKPGM_KJOFHPFEFIO_OFFSET UNITYSDK_OFFSET(0x15ACC120)
+#define BLEKHNKKPGM_OLJONBLIMLE_OFFSET UNITYSDK_OFFSET(0x15ACBF80)
+#define BLEKHNKKPGM_OMBLDFAGIEJ_OFFSET UNITYSDK_OFFSET(0x15ACC330)
 
-inline static constexpr unsigned int BLEKHNKKPGM_TypeDefinitionIndex = 41390;
+inline static constexpr unsigned int BLEKHNKKPGM_TypeDefinitionIndex = 42365;
 
 	class BLEKHNKKPGM : public ::System::Object
 	{
 	public:
+		static ::System::Boolean* StaticGet_EOANOCIBEAM()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "BLEKHNKKPGM")->GetStaticField(0x1880);
+		}
+
 		static ::System::Boolean* StaticGet_KOOHOOAPILD()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BLEKHNKKPGM")->GetStaticField(0x3FA0);
+			return (::System::Boolean*)UnitySDK::FromName("", "BLEKHNKKPGM")->GetStaticField(0x1881);
 		}
 
 		static ::System::Boolean* StaticGet_BOJFKDPCKGI()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BLEKHNKKPGM")->GetStaticField(0x3FA1);
-		}
-
-		static ::System::Boolean* StaticGet_EOANOCIBEAM()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BLEKHNKKPGM")->GetStaticField(0x3FA2);
+			return (::System::Boolean*)UnitySDK::FromName("", "BLEKHNKKPGM")->GetStaticField(0x1882);
 		}
 
 		static ::System::Void _cctor()

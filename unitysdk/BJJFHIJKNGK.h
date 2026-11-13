@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LittleGameRadialBlurEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJJFHIJKNGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB79D8B0)
-#define BJJFHIJKNGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB79D8E0)
+#define BJJFHIJKNGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A636E10)
+#define BJJFHIJKNGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A636E40)
 
-inline static constexpr unsigned int BJJFHIJKNGK_TypeDefinitionIndex = 52972;
+inline static constexpr unsigned int BJJFHIJKNGK_TypeDefinitionIndex = 54131;
 
 	class BJJFHIJKNGK
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CBDFLJKPJAC_CTOR_OFFSET UNITYSDK_OFFSET(0xC4985A0)
+#define CBDFLJKPJAC_CTOR_OFFSET UNITYSDK_OFFSET(0x18FD56B0)
 
-inline static constexpr unsigned int CBDFLJKPJAC_TypeDefinitionIndex = 80197;
+inline static constexpr unsigned int CBDFLJKPJAC_TypeDefinitionIndex = 82974;
 
 	class CBDFLJKPJAC : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PauseTimelineReason_TypeDefinitionIndex = 48500;
+	inline static constexpr unsigned int PauseTimelineReason_TypeDefinitionIndex = 49541;
 
 	enum class PauseTimelineReason : ::System::Int32
 	{

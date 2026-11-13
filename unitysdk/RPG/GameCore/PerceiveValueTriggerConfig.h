@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PerceiveValueTriggerConfig; }
 
-#define RPG_GAMECORE_PERCEIVEVALUETRIGGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C7AB0)
-#define RPG_GAMECORE_PERCEIVEVALUETRIGGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C7950)
+#define RPG_GAMECORE_PERCEIVEVALUETRIGGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F149B90)
+#define RPG_GAMECORE_PERCEIVEVALUETRIGGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F149A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerceiveValueTriggerConfig_TypeDefinitionIndex = 22183;
+	inline static constexpr unsigned int PerceiveValueTriggerConfig_TypeDefinitionIndex = 22588;
 
 	class PerceiveValueTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{

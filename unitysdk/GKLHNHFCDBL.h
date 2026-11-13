@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define GKLHNHFCDBL_CTOR_OFFSET UNITYSDK_OFFSET(0x15A95920)
+#define GKLHNHFCDBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8DC960)
 
-inline static constexpr unsigned int GKLHNHFCDBL_TypeDefinitionIndex = 67778;
+inline static constexpr unsigned int GKLHNHFCDBL_TypeDefinitionIndex = 69723;
 
 	class GKLHNHFCDBL : public ::System::Object
 	{

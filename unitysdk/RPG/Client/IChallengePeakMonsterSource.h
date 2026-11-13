@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChallengePeakMonsterSource_TypeDefinitionIndex = 63204;
+	inline static constexpr unsigned int IChallengePeakMonsterSource_TypeDefinitionIndex = 64642;
 
 	class IChallengePeakMonsterSource
 	{

@@ -7,10 +7,10 @@ class NDDFLGNNMDK;
 class PEEDLCHFAFL;
 namespace Entitas { template <typename T> class IGroup_1; }
 
-#define BBMABKBNOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15E86270)
-#define BBMABKBNOGJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15E86310)
+#define BBMABKBNOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x19D60E10)
+#define BBMABKBNOGJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x19D60EB0)
 
-inline static constexpr unsigned int BBMABKBNOGJ_TypeDefinitionIndex = 76947;
+inline static constexpr unsigned int BBMABKBNOGJ_TypeDefinitionIndex = 79281;
 
 	class BBMABKBNOGJ : public ::System::Object
 	{

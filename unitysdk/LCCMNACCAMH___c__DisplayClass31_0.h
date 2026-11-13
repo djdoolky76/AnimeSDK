@@ -4,16 +4,16 @@
 class LAJCPEFEOPN;
 class LCCMNACCAMH;
 
-#define LCCMNACCAMH___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB60C6A0)
-#define LCCMNACCAMH___C__DISPLAYCLASS31_0__REGISTERPEDESTRIAN_B__0_OFFSET UNITYSDK_OFFSET(0xB60CAB0)
+#define LCCMNACCAMH___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC6AF60)
+#define LCCMNACCAMH___C__DISPLAYCLASS31_0__REGISTERPEDESTRIAN_B__0_OFFSET UNITYSDK_OFFSET(0x1AC6B370)
 
-inline static constexpr unsigned int LCCMNACCAMH___c__DisplayClass31_0_TypeDefinitionIndex = 69314;
+inline static constexpr unsigned int LCCMNACCAMH___c__DisplayClass31_0_TypeDefinitionIndex = 71268;
 
 	class LCCMNACCAMH___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
-		::LCCMNACCAMH* __4__this; // 0x10
-		::LAJCPEFEOPN* pedestrian; // 0x18
+		::LAJCPEFEOPN* pedestrian; // 0x10
+		::LCCMNACCAMH* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LCCMNACCAMH___C__DISPLAYCLASS31_0_CTOR_OFFSET))(this);

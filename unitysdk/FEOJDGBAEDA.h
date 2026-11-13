@@ -4,9 +4,9 @@
 class AOFHFKPKKJI;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FEOJDGBAEDA_CTOR_OFFSET UNITYSDK_OFFSET(0x15721F90)
+#define FEOJDGBAEDA_CTOR_OFFSET UNITYSDK_OFFSET(0x130D2590)
 
-inline static constexpr unsigned int FEOJDGBAEDA_TypeDefinitionIndex = 80596;
+inline static constexpr unsigned int FEOJDGBAEDA_TypeDefinitionIndex = 83376;
 
 	class FEOJDGBAEDA : public ::System::Object
 	{

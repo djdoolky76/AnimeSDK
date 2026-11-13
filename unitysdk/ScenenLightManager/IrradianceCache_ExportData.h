@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_IRRADIANCECACHE_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9598B0)
+#define SCENENLIGHTMANAGER_IRRADIANCECACHE_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC2C550)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int IrradianceCache_ExportData_TypeDefinitionIndex = 49111;
+	inline static constexpr unsigned int IrradianceCache_ExportData_TypeDefinitionIndex = 50187;
 
 	class IrradianceCache_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

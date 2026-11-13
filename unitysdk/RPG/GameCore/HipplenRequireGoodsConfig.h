@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HipplenRequireGoodsConfig; }
 
-#define RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D741D80)
-#define RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D741BC0)
+#define RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7ACD0)
+#define RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE7AB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenRequireGoodsConfig_TypeDefinitionIndex = 16797;
+	inline static constexpr unsigned int HipplenRequireGoodsConfig_TypeDefinitionIndex = 16964;
 
 	class HipplenRequireGoodsConfig : public ::RPG::GameCore::JsonConfig
 	{

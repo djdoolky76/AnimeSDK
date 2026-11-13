@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongBaseStateConfig; }
 
-#define RPG_GAMECORE_PINGPONGBASESTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E7870)
-#define RPG_GAMECORE_PINGPONGBASESTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E76E0)
+#define RPG_GAMECORE_PINGPONGBASESTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE56100)
+#define RPG_GAMECORE_PINGPONGBASESTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE55F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongBaseStateConfig_TypeDefinitionIndex = 16976;
+	inline static constexpr unsigned int PingPongBaseStateConfig_TypeDefinitionIndex = 17143;
 
 	class PingPongBaseStateConfig : public ::RPG::GameCore::JsonConfig
 	{

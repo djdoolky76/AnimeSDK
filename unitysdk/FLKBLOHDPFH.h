@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerRogueShopEnterBattle; }
 
-#define FLKBLOHDPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1582A3B0)
-#define FLKBLOHDPFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1582A3E0)
+#define FLKBLOHDPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x18964D30)
+#define FLKBLOHDPFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18964D60)
 
-inline static constexpr unsigned int FLKBLOHDPFH_TypeDefinitionIndex = 58800;
+inline static constexpr unsigned int FLKBLOHDPFH_TypeDefinitionIndex = 60068;
 
 	class FLKBLOHDPFH
 	{

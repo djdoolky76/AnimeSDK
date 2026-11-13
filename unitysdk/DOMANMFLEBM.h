@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchCallBackModifierCaster; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DOMANMFLEBM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FEB020)
-#define DOMANMFLEBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FEB070)
+#define DOMANMFLEBM_CTOR_OFFSET UNITYSDK_OFFSET(0x191AEB30)
+#define DOMANMFLEBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x191AEB80)
 
-inline static constexpr unsigned int DOMANMFLEBM_TypeDefinitionIndex = 59222;
+inline static constexpr unsigned int DOMANMFLEBM_TypeDefinitionIndex = 60499;
 
 	class DOMANMFLEBM
 	{

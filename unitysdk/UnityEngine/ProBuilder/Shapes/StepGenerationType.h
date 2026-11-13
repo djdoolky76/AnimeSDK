@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int StepGenerationType_TypeDefinitionIndex = 44471;
+	inline static constexpr unsigned int StepGenerationType_TypeDefinitionIndex = 45546;
 
 	enum class StepGenerationType : ::System::Int32
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class StopRandomMissionTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEHJKLCEJFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB150E80)
-#define AEHJKLCEJFB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB150E90)
-#define AEHJKLCEJFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB150ED0)
-#define AEHJKLCEJFB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB150F30)
-#define AEHJKLCEJFB_TICK_OFFSET UNITYSDK_OFFSET(0xB150F80)
+#define AEHJKLCEJFB_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA08A0)
+#define AEHJKLCEJFB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DA08B0)
+#define AEHJKLCEJFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DA08F0)
+#define AEHJKLCEJFB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18DA0950)
+#define AEHJKLCEJFB_TICK_OFFSET UNITYSDK_OFFSET(0x18DA09A0)
 
-inline static constexpr unsigned int AEHJKLCEJFB_TypeDefinitionIndex = 58735;
+inline static constexpr unsigned int AEHJKLCEJFB_TypeDefinitionIndex = 60003;
 
 	class AEHJKLCEJFB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::StopRandomMissionTalk* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::StopRandomMissionTalk* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StopRandomMissionTalk* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopRandomMissionTalk*))((::PBYTE)hIl2Cpp + AEHJKLCEJFB_CTOR_OFFSET))(this, a1, a2);

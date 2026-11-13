@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class OpenFarmRelic; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_OPENFARMRELIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B3940)
-#define RPG_GAMECORE_OPENFARMRELIC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8B3950)
-#define RPG_GAMECORE_OPENFARMRELIC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B3910)
+#define RPG_GAMECORE_OPENFARMRELIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F134F10)
+#define RPG_GAMECORE_OPENFARMRELIC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F134F20)
+#define RPG_GAMECORE_OPENFARMRELIC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F134EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenFarmRelic_TypeDefinitionIndex = 22093;
+	inline static constexpr unsigned int OpenFarmRelic_TypeDefinitionIndex = 22498;
 
 	class OpenFarmRelic : public ::RPG::GameCore::TaskConfig
 	{

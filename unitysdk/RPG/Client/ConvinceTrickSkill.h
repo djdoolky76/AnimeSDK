@@ -5,23 +5,24 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONVINCETRICKSKILL_CANTRIGGER_OFFSET UNITYSDK_OFFSET(0xCBBEB60)
-#define RPG_CLIENT_CONVINCETRICKSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0xCBBEBB0)
-#define RPG_CLIENT_CONVINCETRICKSKILL_GETSKILLEVENTNAME_OFFSET UNITYSDK_OFFSET(0xCBBEA80)
-#define RPG_CLIENT_CONVINCETRICKSKILL_GET_USENUM_OFFSET UNITYSDK_OFFSET(0xCBBE9C0)
-#define RPG_CLIENT_CONVINCETRICKSKILL_INIT_OFFSET UNITYSDK_OFFSET(0xCBBEA10)
+#define RPG_CLIENT_CONVINCETRICKSKILL_CANTRIGGER_OFFSET UNITYSDK_OFFSET(0x1B7D6A60)
+#define RPG_CLIENT_CONVINCETRICKSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7D6AB0)
+#define RPG_CLIENT_CONVINCETRICKSKILL_GETSKILLEVENTNAME_OFFSET UNITYSDK_OFFSET(0x1B7D6980)
+#define RPG_CLIENT_CONVINCETRICKSKILL_GET_USENUM_OFFSET UNITYSDK_OFFSET(0x1B7D68C0)
+#define RPG_CLIENT_CONVINCETRICKSKILL_INIT_OFFSET UNITYSDK_OFFSET(0x1B7D6910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceTrickSkill_TypeDefinitionIndex = 60685;
+	inline static constexpr unsigned int ConvinceTrickSkill_TypeDefinitionIndex = 62062;
 
 	class ConvinceTrickSkill : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* UseTurnIndexList; // 0x10
-		::System::String* CustomEvtStr; // 0x18
-		::RPG::GameCore::ConvinceTrickSkillType SkillType; // 0x20
-		::System::Boolean IsTakingEffect; // 0x24
+		::System::String* CustomEvtStr; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* UseTurnIndexList; // 0x18
+		::System::Boolean IsTakingEffect; // 0x20
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::ConvinceTrickSkillType SkillType; // 0x24
 		// static const ::System::String* EVT_CONVINCE_TRICK_SKILL; // 0x0
 		::System::Void _ctor()
 		{

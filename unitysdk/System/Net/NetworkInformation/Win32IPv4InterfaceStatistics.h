@@ -3,7 +3,7 @@
 #include "unitysdk/System/Net/NetworkInformation/IPv4InterfaceStatistics.h"
 #include "unitysdk/System/Net/NetworkInformation/Win32_MIB_IFROW.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPV4INTERFACESTATISTICS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0437B0)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPV4INTERFACESTATISTICS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C422A50)
 
 namespace System::Net::NetworkInformation
 {

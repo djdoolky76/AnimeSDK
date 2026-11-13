@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class DestroyAllNPCMonsterInArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define INNFAFAKGKH_CTOR_OFFSET UNITYSDK_OFFSET(0x164EA2D0)
-#define INNFAFAKGKH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164EA2E0)
-#define INNFAFAKGKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164EA320)
-#define INNFAFAKGKH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164EA690)
-#define INNFAFAKGKH_TICK_OFFSET UNITYSDK_OFFSET(0x164EA6E0)
+#define INNFAFAKGKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F8670)
+#define INNFAFAKGKH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5F8680)
+#define INNFAFAKGKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5F86C0)
+#define INNFAFAKGKH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A5F8A30)
+#define INNFAFAKGKH_TICK_OFFSET UNITYSDK_OFFSET(0x1A5F8A80)
 
-inline static constexpr unsigned int INNFAFAKGKH_TypeDefinitionIndex = 52732;
+inline static constexpr unsigned int INNFAFAKGKH_TypeDefinitionIndex = 53876;
 
 	class INNFAFAKGKH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::DestroyAllNPCMonsterInArea* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::DestroyAllNPCMonsterInArea* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DestroyAllNPCMonsterInArea* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::DestroyAllNPCMonsterInArea*))((::PBYTE)hIl2Cpp + INNFAFAKGKH_CTOR_OFFSET))(this, a1, a2);

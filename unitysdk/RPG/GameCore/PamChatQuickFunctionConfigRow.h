@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PamChatQuickFunctionConfigRow; }
 
-#define RPG_GAMECORE_PAMCHATQUICKFUNCTIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BE8E0)
-#define RPG_GAMECORE_PAMCHATQUICKFUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BE6D0)
+#define RPG_GAMECORE_PAMCHATQUICKFUNCTIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F13FE30)
+#define RPG_GAMECORE_PAMCHATQUICKFUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F13FC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatQuickFunctionConfigRow_TypeDefinitionIndex = 14312;
+	inline static constexpr unsigned int PamChatQuickFunctionConfigRow_TypeDefinitionIndex = 14469;
 
 	class PamChatQuickFunctionConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID BtnName; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
 		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID BtnName; // 0x18
 		::RPG::Client::TextID PlayerInputText; // 0x28
 		::System::Void _ctor()
 		{

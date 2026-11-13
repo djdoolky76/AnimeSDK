@@ -5,9 +5,9 @@ namespace RPG::Client { class MonoEffectPluginMiniEmotion; }
 namespace RPG::GameCore { class MiniEmoEffectOverride; }
 namespace UnityEngine { class GameObject; }
 
-#define OOBEBLOLPCK_GDGIGAJPDAD_OFFSET UNITYSDK_OFFSET(0xBF5B930)
+#define OOBEBLOLPCK_GDGIGAJPDAD_OFFSET UNITYSDK_OFFSET(0x19680FB0)
 
-inline static constexpr unsigned int OOBEBLOLPCK_TypeDefinitionIndex = 55743;
+inline static constexpr unsigned int OOBEBLOLPCK_TypeDefinitionIndex = 56945;
 
 	class OOBEBLOLPCK : public ::System::Object
 	{

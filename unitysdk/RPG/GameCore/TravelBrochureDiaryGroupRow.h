@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TravelBrochureDiaryGroupRow; }
 
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0E180)
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC0DF40)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E317A80)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E317840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureDiaryGroupRow_TypeDefinitionIndex = 15372;
+	inline static constexpr unsigned int TravelBrochureDiaryGroupRow_TypeDefinitionIndex = 15528;
 
 	class TravelBrochureDiaryGroupRow : public ::System::Object
 	{
@@ -18,8 +18,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* ChoiceIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* TextIDList; // 0x18
 		::RPG::Client::TextID DiaryDescription; // 0x20
-		::System::UInt32 RewardID; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 ID; // 0x30
+		::System::UInt32 RewardID; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_CTOR_OFFSET))(this);

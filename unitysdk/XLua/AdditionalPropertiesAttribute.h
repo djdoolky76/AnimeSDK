@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_ADDITIONALPROPERTIESATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B4840)
+#define XLUA_ADDITIONALPROPERTIESATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20977920)
 
 namespace XLua
 {
-	inline static constexpr unsigned int AdditionalPropertiesAttribute_TypeDefinitionIndex = 5611;
+	inline static constexpr unsigned int AdditionalPropertiesAttribute_TypeDefinitionIndex = 5616;
 
 	class AdditionalPropertiesAttribute : public ::System::Attribute
 	{

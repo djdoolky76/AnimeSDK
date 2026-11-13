@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEDDE80)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL___C__DISPLAYCLASS2_0__TRYREMOVECARD_B__0_OFFSET UNITYSDK_OFFSET(0xCEDDFB0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD04320)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL___C__DISPLAYCLASS2_0__TRYREMOVECARD_B__0_OFFSET UNITYSDK_OFFSET(0x1DD04450)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinCardDeckSectionViewModel___c__DisplayClass2_0_TypeDefinitionIndex = 81130;
+	inline static constexpr unsigned int FateRinCardDeckSectionViewModel___c__DisplayClass2_0_TypeDefinitionIndex = 83910;
 
 	class FateRinCardDeckSectionViewModel___c__DisplayClass2_0 : public ::System::Object
 	{

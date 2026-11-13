@@ -5,25 +5,25 @@ namespace RPG::Client { class AssemNPC; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ASSEMNPCCONFIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6960F0)
-#define RPG_CLIENT_ASSEMNPCCONFIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC696130)
-#define RPG_CLIENT_ASSEMNPCCONFIG___C__INSERTNPCTODIC_B__5_0_OFFSET UNITYSDK_OFFSET(0xC696140)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAA0610)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA0650)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C__INSERTNPCTODIC_B__5_0_OFFSET UNITYSDK_OFFSET(0x1CAA0660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPCConfig___c_TypeDefinitionIndex = 60005;
+	inline static constexpr unsigned int AssemNPCConfig___c_TypeDefinitionIndex = 61289;
 
 	class AssemNPCConfig___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::AssemNPC*>** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::AssemNPC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46CF0);
+			return (::System::Comparison_1<::RPG::Client::AssemNPC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57430);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46CF8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57438);
 		}
 
 		static ::System::Void _cctor()

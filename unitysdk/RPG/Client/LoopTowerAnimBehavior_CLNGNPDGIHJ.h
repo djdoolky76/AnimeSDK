@@ -8,21 +8,21 @@ namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLNGNPDGIHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD4E4110)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLNGNPDGIHJ_HOCPIHMJFCG_OFFSET UNITYSDK_OFFSET(0xD4E4EA0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLNGNPDGIHJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xD4E47A0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLNGNPDGIHJ_PFJANGKDOLH_OFFSET UNITYSDK_OFFSET(0xD4E4C10)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLNGNPDGIHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1947B4A0)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLNGNPDGIHJ_HOCPIHMJFCG_OFFSET UNITYSDK_OFFSET(0x1947C230)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLNGNPDGIHJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1947BB30)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLNGNPDGIHJ_PFJANGKDOLH_OFFSET UNITYSDK_OFFSET(0x1947BFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopTowerAnimBehavior_CLNGNPDGIHJ_TypeDefinitionIndex = 70920;
+	inline static constexpr unsigned int LoopTowerAnimBehavior_CLNGNPDGIHJ_TypeDefinitionIndex = 72899;
 
 	class LoopTowerAnimBehavior_CLNGNPDGIHJ : public ::System::Object
 	{
 	public:
 		::KJCHLFOFENJ* ABLGIJMIFBI; // 0x10
-		::RPG::Client::PipelineCameraEngine* NJDDFOALODJ; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* HNAJLHHAJCA; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* HNAJLHHAJCA; // 0x18
+		::RPG::Client::PipelineCameraEngine* NJDDFOALODJ; // 0x20
 		::System::Single CHKGHIJNNJK; // 0x28
 		::RPG::Client::LoopTowerAnimBehavior_TowerDirectionType DJKDDPLPLFK; // 0x2C
 		::System::Void _ctor(::System::Single a1, ::RPG::Client::LoopTowerAnimBehavior_TowerDirectionType a2)

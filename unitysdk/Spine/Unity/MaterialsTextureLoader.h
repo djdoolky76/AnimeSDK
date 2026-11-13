@@ -6,13 +6,13 @@ namespace Spine::Unity { class SpineAtlasAsset; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SPINE_UNITY_MATERIALSTEXTURELOADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD9900)
-#define SPINE_UNITY_MATERIALSTEXTURELOADER_LOAD_OFFSET UNITYSDK_OFFSET(0x1ECD9910)
-#define SPINE_UNITY_MATERIALSTEXTURELOADER_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1ECD9D60)
+#define SPINE_UNITY_MATERIALSTEXTURELOADER_CTOR_OFFSET UNITYSDK_OFFSET(0x191E3EC0)
+#define SPINE_UNITY_MATERIALSTEXTURELOADER_LOAD_OFFSET UNITYSDK_OFFSET(0x191E3ED0)
+#define SPINE_UNITY_MATERIALSTEXTURELOADER_UNLOAD_OFFSET UNITYSDK_OFFSET(0x191E4320)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MaterialsTextureLoader_TypeDefinitionIndex = 45010;
+	inline static constexpr unsigned int MaterialsTextureLoader_TypeDefinitionIndex = 46085;
 
 	class MaterialsTextureLoader : public ::System::Object
 	{

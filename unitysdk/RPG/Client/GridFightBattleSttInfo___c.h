@@ -7,37 +7,37 @@ class PLFKMENCDMM;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0D90F0)
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0D9130)
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0xD0D9140)
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C__SYNC_B__0_1_OFFSET UNITYSDK_OFFSET(0xD0D9160)
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C__SYNC_B__0_2_OFFSET UNITYSDK_OFFSET(0xD0D9180)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C73E3B0)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73E3F0)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C73E400)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C__SYNC_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C73E420)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO___C__SYNC_B__0_2_OFFSET UNITYSDK_OFFSET(0x1C73E440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBattleSttInfo___c_TypeDefinitionIndex = 64413;
+	inline static constexpr unsigned int GridFightBattleSttInfo___c_TypeDefinitionIndex = 65860;
 
 	class GridFightBattleSttInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::KINJHHBJNJP*, ::System::Double>** StaticGet___9__0_1()
+		static ::System::Func_2<::NFIDNDFHJGN*, ::System::Double>** StaticGet___9__0_2()
 		{
-			return (::System::Func_2<::KINJHHBJNJP*, ::System::Double>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68240);
-		}
-
-		static ::System::Func_2<::PLFKMENCDMM*, ::System::Double>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::PLFKMENCDMM*, ::System::Double>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68248);
+			return (::System::Func_2<::NFIDNDFHJGN*, ::System::Double>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FD00);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68250);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FD08);
 		}
 
-		static ::System::Func_2<::NFIDNDFHJGN*, ::System::Double>** StaticGet___9__0_2()
+		static ::System::Func_2<::PLFKMENCDMM*, ::System::Double>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::NFIDNDFHJGN*, ::System::Double>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68258);
+			return (::System::Func_2<::PLFKMENCDMM*, ::System::Double>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FD10);
+		}
+
+		static ::System::Func_2<::KINJHHBJNJP*, ::System::Double>** StaticGet___9__0_1()
+		{
+			return (::System::Func_2<::KINJHHBJNJP*, ::System::Double>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6FD18);
 		}
 
 		static ::System::Void _cctor()

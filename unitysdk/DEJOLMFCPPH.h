@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DEJOLMFCPPH_COMPARE_OFFSET UNITYSDK_OFFSET(0xE510800)
-#define DEJOLMFCPPH_CTOR_OFFSET UNITYSDK_OFFSET(0xE510D10)
+#define DEJOLMFCPPH_COMPARE_OFFSET UNITYSDK_OFFSET(0x1B3777D0)
+#define DEJOLMFCPPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B377CE0)
 
-inline static constexpr unsigned int DEJOLMFCPPH_TypeDefinitionIndex = 66570;
+inline static constexpr unsigned int DEJOLMFCPPH_TypeDefinitionIndex = 68506;
 
 	class DEJOLMFCPPH : public ::System::Object
 	{

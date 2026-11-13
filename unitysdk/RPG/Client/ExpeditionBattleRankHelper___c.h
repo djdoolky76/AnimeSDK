@@ -8,31 +8,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLERANKHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE45E60)
-#define RPG_CLIENT_EXPEDITIONBATTLERANKHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE45EA0)
-#define RPG_CLIENT_EXPEDITIONBATTLERANKHELPER___C__FROMSTAR_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE45EB0)
-#define RPG_CLIENT_EXPEDITIONBATTLERANKHELPER___C__GETRANKSORDEREDBYSTARDESCENDING_B__3_0_OFFSET UNITYSDK_OFFSET(0xCE45F10)
+#define RPG_CLIENT_EXPEDITIONBATTLERANKHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB82FA0)
+#define RPG_CLIENT_EXPEDITIONBATTLERANKHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB82FE0)
+#define RPG_CLIENT_EXPEDITIONBATTLERANKHELPER___C__FROMSTAR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CB82FF0)
+#define RPG_CLIENT_EXPEDITIONBATTLERANKHELPER___C__GETRANKSORDEREDBYSTARDESCENDING_B__3_0_OFFSET UNITYSDK_OFFSET(0x1CB83050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleRankHelper___c_TypeDefinitionIndex = 63848;
+	inline static constexpr unsigned int ExpeditionBattleRankHelper___c_TypeDefinitionIndex = 65290;
 
 	class ExpeditionBattleRankHelper___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47440);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C800);
 		}
 
 		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47448);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C808);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::UInt32>** StaticGet___9__1_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47450);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C810);
 		}
 
 		static ::System::Void _cctor()

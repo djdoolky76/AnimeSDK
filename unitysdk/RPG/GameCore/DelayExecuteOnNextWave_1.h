@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DelayExecuteOnNextWave_1_TypeDefinitionIndex = 57603;
+	inline static constexpr unsigned int DelayExecuteOnNextWave_1_TypeDefinitionIndex = 58831;
 
 	template <typename T>
 	class DelayExecuteOnNextWave_1 : public ::JNIAKLNCCCH

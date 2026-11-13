@@ -5,17 +5,17 @@ class NOEBJBDLNGN;
 namespace RPG::GameCore { class ST_ByDistanceToEnchantTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BLNGJEBNEGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7A540)
-#define BLNGJEBNEGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA7AAA0)
-#define BLNGJEBNEGL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA7A6C0)
+#define BLNGJEBNEGL_CTOR_OFFSET UNITYSDK_OFFSET(0x18B58EA0)
+#define BLNGJEBNEGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18B59400)
+#define BLNGJEBNEGL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18B59020)
 
-inline static constexpr unsigned int BLNGJEBNEGL_TypeDefinitionIndex = 52187;
+inline static constexpr unsigned int BLNGJEBNEGL_TypeDefinitionIndex = 53292;
 
 	class BLNGJEBNEGL
 	{
 	public:
-		::NOEBJBDLNGN* KDKKFJKEIAA; // 0x28
-		::GELIALJDFBL* LJLLGOEGPIM; // 0x30
+		::GELIALJDFBL* LJLLGOEGPIM; // 0x28
+		::NOEBJBDLNGN* KDKKFJKEIAA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_ByDistanceToEnchantTarget* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_ByDistanceToEnchantTarget*))((::PBYTE)hIl2Cpp + BLNGJEBNEGL_CTOR_OFFSET))(this, a1, a2);

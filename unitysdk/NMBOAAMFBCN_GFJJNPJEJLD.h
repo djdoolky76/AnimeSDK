@@ -3,7 +3,7 @@
 #include "unitysdk/NMBOAAMFBCN_KBGOLCFNGOE.h"
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int NMBOAAMFBCN_GFJJNPJEJLD_TypeDefinitionIndex = 60600;
+inline static constexpr unsigned int NMBOAAMFBCN_GFJJNPJEJLD_TypeDefinitionIndex = 61977;
 
 	struct alignas(8) NMBOAAMFBCN_GFJJNPJEJLD
 	{

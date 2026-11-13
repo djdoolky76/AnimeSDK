@@ -5,20 +5,20 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class MakeSuccess; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NFNBKIOGDBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB95BD0)
-#define NFNBKIOGDBL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB95C90)
-#define NFNBKIOGDBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB95D60)
-#define NFNBKIOGDBL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB96040)
-#define NFNBKIOGDBL_TICK_OFFSET UNITYSDK_OFFSET(0xBB962A0)
+#define NFNBKIOGDBL_CTOR_OFFSET UNITYSDK_OFFSET(0x18E7DB10)
+#define NFNBKIOGDBL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18E7DBD0)
+#define NFNBKIOGDBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E7DCA0)
+#define NFNBKIOGDBL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18E7DED0)
+#define NFNBKIOGDBL_TICK_OFFSET UNITYSDK_OFFSET(0x18E7E0C0)
 
-inline static constexpr unsigned int NFNBKIOGDBL_TypeDefinitionIndex = 55167;
+inline static constexpr unsigned int NFNBKIOGDBL_TypeDefinitionIndex = 56348;
 
 	class NFNBKIOGDBL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::MakeSuccess* OFKGLJOAMLD; // 0x18
+		::GELIALJDFBL* LFONBBDGMEN; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::GELIALJDFBL* LFONBBDGMEN; // 0x28
+		::RPG::GameCore::MakeSuccess* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MakeSuccess* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MakeSuccess*))((::PBYTE)hIl2Cpp + NFNBKIOGDBL_CTOR_OFFSET))(this, a1, a2);

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FABNBEOJOFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA34B50)
+#define FABNBEOJOFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1FF240)
 
-inline static constexpr unsigned int FABNBEOJOFD_TypeDefinitionIndex = 43387;
+inline static constexpr unsigned int FABNBEOJOFD_TypeDefinitionIndex = 44368;
 
 	class FABNBEOJOFD : public ::System::Object
 	{

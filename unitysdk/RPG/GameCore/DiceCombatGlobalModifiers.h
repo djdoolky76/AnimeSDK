@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DiceCombatGlobalModifiers; }
 namespace RPG::GameCore { class DiceCombatInsertAbilityConfig; }
 namespace RPG::GameCore { class DiceCombatModifierConfig; }
 
-#define RPG_GAMECORE_DICECOMBATGLOBALMODIFIERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DBD40)
-#define RPG_GAMECORE_DICECOMBATGLOBALMODIFIERS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5DBBE0)
+#define RPG_GAMECORE_DICECOMBATGLOBALMODIFIERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3B9880)
+#define RPG_GAMECORE_DICECOMBATGLOBALMODIFIERS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3B9720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatGlobalModifiers_TypeDefinitionIndex = 16160;
+	inline static constexpr unsigned int DiceCombatGlobalModifiers_TypeDefinitionIndex = 16318;
 
 	class DiceCombatGlobalModifiers : public ::RPG::GameCore::JsonConfig
 	{

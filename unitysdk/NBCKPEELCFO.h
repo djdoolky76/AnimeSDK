@@ -7,22 +7,22 @@ namespace RPG::GameCore { class AlleyConditionExtendParam; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NBCKPEELCFO_ECOIBJGJFEJ_OFFSET UNITYSDK_OFFSET(0xBAB7C70)
-#define NBCKPEELCFO_IBCLLIJNJIB_1_OFFSET UNITYSDK_OFFSET(0xBAB7BA0)
-#define NBCKPEELCFO_IBCLLIJNJIB_OFFSET UNITYSDK_OFFSET(0xBAB7A50)
-#define NBCKPEELCFO_ICIMHOAPNOJ_OFFSET UNITYSDK_OFFSET(0xBAB7E00)
-#define NBCKPEELCFO_IGCBMFNANHK_OFFSET UNITYSDK_OFFSET(0xBAB7D30)
-#define NBCKPEELCFO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBAB76F0)
-#define NBCKPEELCFO_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xBAB7B10)
+#define NBCKPEELCFO_ECOIBJGJFEJ_OFFSET UNITYSDK_OFFSET(0x1BB118C0)
+#define NBCKPEELCFO_IBCLLIJNJIB_1_OFFSET UNITYSDK_OFFSET(0x1BB117F0)
+#define NBCKPEELCFO_IBCLLIJNJIB_OFFSET UNITYSDK_OFFSET(0x1BB116A0)
+#define NBCKPEELCFO_ICIMHOAPNOJ_OFFSET UNITYSDK_OFFSET(0x1BB11A50)
+#define NBCKPEELCFO_IGCBMFNANHK_OFFSET UNITYSDK_OFFSET(0x1BB11980)
+#define NBCKPEELCFO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1BB11340)
+#define NBCKPEELCFO_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0x1BB11760)
 
-inline static constexpr unsigned int NBCKPEELCFO_TypeDefinitionIndex = 62273;
+inline static constexpr unsigned int NBCKPEELCFO_TypeDefinitionIndex = 63686;
 
 	class NBCKPEELCFO : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AlleyConditionType, ::System::Object*>** StaticGet_MANLKLDGKEC()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AlleyConditionType, ::System::Object*>**)UnitySDK::FromName("", "NBCKPEELCFO")->GetStaticField(0x1DF10);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AlleyConditionType, ::System::Object*>**)UnitySDK::FromName("", "NBCKPEELCFO")->GetStaticField(0x18110);
 		}
 
 		static ::System::Void KPJGDHLENIP()

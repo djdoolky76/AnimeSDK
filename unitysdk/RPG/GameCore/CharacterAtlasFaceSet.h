@@ -6,12 +6,12 @@ namespace RPG::GameCore { class CharacterAtlasFaceEyeBlink; }
 namespace RPG::GameCore { class CharacterAtlasFaceSet; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERATLASFACESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53BD30)
-#define RPG_GAMECORE_CHARACTERATLASFACESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D53BB80)
+#define RPG_GAMECORE_CHARACTERATLASFACESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F33DAC0)
+#define RPG_GAMECORE_CHARACTERATLASFACESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F33D910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterAtlasFaceSet_TypeDefinitionIndex = 17456;
+	inline static constexpr unsigned int CharacterAtlasFaceSet_TypeDefinitionIndex = 17624;
 
 	class CharacterAtlasFaceSet : public ::RPG::GameCore::JsonConfig
 	{

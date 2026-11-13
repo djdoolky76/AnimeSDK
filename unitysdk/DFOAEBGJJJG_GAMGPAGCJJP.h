@@ -4,21 +4,20 @@
 class INMMPMDELKE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DFOAEBGJJJG_GAMGPAGCJJP_CTOR_OFFSET UNITYSDK_OFFSET(0xE828DB0)
-#define DFOAEBGJJJG_GAMGPAGCJJP_IJJMIMJMNBN_OFFSET UNITYSDK_OFFSET(0xE82B160)
-#define DFOAEBGJJJG_GAMGPAGCJJP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xE82A520)
+#define DFOAEBGJJJG_GAMGPAGCJJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3A1310)
+#define DFOAEBGJJJG_GAMGPAGCJJP_IJJMIMJMNBN_OFFSET UNITYSDK_OFFSET(0x1B3A36D0)
+#define DFOAEBGJJJG_GAMGPAGCJJP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1B3A2A90)
 
-inline static constexpr unsigned int DFOAEBGJJJG_GAMGPAGCJJP_TypeDefinitionIndex = 76717;
+inline static constexpr unsigned int DFOAEBGJJJG_GAMGPAGCJJP_TypeDefinitionIndex = 79050;
 
 	class DFOAEBGJJJG_GAMGPAGCJJP : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::INMMPMDELKE*>* OKPJCMLPCKB; // 0x10
 		::System::Collections::Generic::List_1<::INMMPMDELKE*>* NEAPJHEDMCI; // 0x18
-		::System::Boolean OOMAMFDJJPM; // 0x20
-		::System::Byte _padding0[0x3];
-		::System::Int32 GOIEJJKDFAL; // 0x24
-		::System::Int32 EPAGHFGAJCE; // 0x28
+		::System::Int32 GOIEJJKDFAL; // 0x20
+		::System::Int32 EPAGHFGAJCE; // 0x24
+		::System::Boolean OOMAMFDJJPM; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DFOAEBGJJJG_GAMGPAGCJJP_CTOR_OFFSET))(this);

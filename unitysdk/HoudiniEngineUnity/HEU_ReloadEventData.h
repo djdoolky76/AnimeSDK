@@ -5,11 +5,11 @@ namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_RELOADEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B95B970)
+#define HOUDINIENGINEUNITY_HEU_RELOADEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C81DD70)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ReloadEventData_TypeDefinitionIndex = 40357;
+	inline static constexpr unsigned int HEU_ReloadEventData_TypeDefinitionIndex = 41332;
 
 	class HEU_ReloadEventData : public ::HoudiniEngineUnity::HEU_AssetEventData
 	{

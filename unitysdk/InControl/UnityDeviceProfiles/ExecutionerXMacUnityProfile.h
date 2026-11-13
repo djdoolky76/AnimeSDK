@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_EXECUTIONERXMACUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA882B0)
-#define INCONTROL_UNITYDEVICEPROFILES_EXECUTIONERXMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA87020)
+#define INCONTROL_UNITYDEVICEPROFILES_EXECUTIONERXMACUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xC601BF0)
+#define INCONTROL_UNITYDEVICEPROFILES_EXECUTIONERXMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC600960)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int ExecutionerXMacUnityProfile_TypeDefinitionIndex = 41013;
+	inline static constexpr unsigned int ExecutionerXMacUnityProfile_TypeDefinitionIndex = 41988;
 
 	class ExecutionerXMacUnityProfile : public ::InControl::InputDeviceProfile
 	{

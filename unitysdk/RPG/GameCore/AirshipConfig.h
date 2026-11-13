@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AirshipConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AIRSHIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B18C0)
-#define RPG_GAMECORE_AIRSHIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B14E0)
+#define RPG_GAMECORE_AIRSHIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE96C80)
+#define RPG_GAMECORE_AIRSHIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE96940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AirshipConfig_TypeDefinitionIndex = 16937;
+	inline static constexpr unsigned int AirshipConfig_TypeDefinitionIndex = 17104;
 
 	class AirshipConfig : public ::RPG::GameCore::JsonConfig
 	{

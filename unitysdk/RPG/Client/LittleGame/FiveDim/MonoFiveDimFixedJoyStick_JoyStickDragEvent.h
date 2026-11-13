@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMFIXEDJOYSTICK_JOYSTICKDRAGEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD4509B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMFIXEDJOYSTICK_JOYSTICKDRAGEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A7670)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int MonoFiveDimFixedJoyStick_JoyStickDragEvent_TypeDefinitionIndex = 77236;
+	inline static constexpr unsigned int MonoFiveDimFixedJoyStick_JoyStickDragEvent_TypeDefinitionIndex = 79570;
 
 	class MonoFiveDimFixedJoyStick_JoyStickDragEvent
 	{

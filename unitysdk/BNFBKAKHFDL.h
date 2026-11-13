@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/SwitchPlatformState.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int BNFBKAKHFDL_TypeDefinitionIndex = 43466;
+inline static constexpr unsigned int BNFBKAKHFDL_TypeDefinitionIndex = 44448;
 
 	struct alignas(8) BNFBKAKHFDL
 	{

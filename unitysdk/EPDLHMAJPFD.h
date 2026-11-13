@@ -4,26 +4,26 @@
 class OKIPLLDOPCA;
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define EPDLHMAJPFD_CCTOR_OFFSET UNITYSDK_OFFSET(0x155C65D0)
-#define EPDLHMAJPFD_CTOR_OFFSET UNITYSDK_OFFSET(0x155C65C0)
-#define EPDLHMAJPFD_ENMMKMCIEHB_OFFSET UNITYSDK_OFFSET(0x155C63B0)
-#define EPDLHMAJPFD_FLJBINCFIOD_OFFSET UNITYSDK_OFFSET(0x155C64F0)
-#define EPDLHMAJPFD_HHFNCDMNHAC_OFFSET UNITYSDK_OFFSET(0x155C6300)
-#define EPDLHMAJPFD_JBEAGPLPBAH_OFFSET UNITYSDK_OFFSET(0x155C6250)
+#define EPDLHMAJPFD_CCTOR_OFFSET UNITYSDK_OFFSET(0x16B34E70)
+#define EPDLHMAJPFD_CTOR_OFFSET UNITYSDK_OFFSET(0x16B34E60)
+#define EPDLHMAJPFD_ENMMKMCIEHB_OFFSET UNITYSDK_OFFSET(0x16B34C50)
+#define EPDLHMAJPFD_FLJBINCFIOD_OFFSET UNITYSDK_OFFSET(0x16B34D90)
+#define EPDLHMAJPFD_HHFNCDMNHAC_OFFSET UNITYSDK_OFFSET(0x16B34BA0)
+#define EPDLHMAJPFD_JBEAGPLPBAH_OFFSET UNITYSDK_OFFSET(0x16B34AF0)
 
-inline static constexpr unsigned int EPDLHMAJPFD_TypeDefinitionIndex = 47693;
+inline static constexpr unsigned int EPDLHMAJPFD_TypeDefinitionIndex = 48723;
 
 	class EPDLHMAJPFD : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::OKIPLLDOPCA*>** StaticGet_CIMODNKAAPF()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::OKIPLLDOPCA*>**)UnitySDK::FromName("", "EPDLHMAJPFD")->GetStaticField(0x43ED0);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::OKIPLLDOPCA*>**)UnitySDK::FromName("", "EPDLHMAJPFD")->GetStaticField(0x2E9B0);
 		}
 
 		static ::System::UInt32* StaticGet_AEGGLFIFGML()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "EPDLHMAJPFD")->GetStaticField(0x10160);
+			return (::System::UInt32*)UnitySDK::FromName("", "EPDLHMAJPFD")->GetStaticField(0x9450);
 		}
 
 		// static const ::System::Object PMIDCJIDKKD; // 0x0

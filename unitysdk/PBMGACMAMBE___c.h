@@ -4,18 +4,18 @@
 class PBMGACMAMBE;
 namespace System { class Object; }
 
-#define PBMGACMAMBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DECD6B0)
-#define PBMGACMAMBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DECD6F0)
-#define PBMGACMAMBE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DECD700)
+#define PBMGACMAMBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBEF2C0)
+#define PBMGACMAMBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBEF300)
+#define PBMGACMAMBE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FBEF310)
 
-inline static constexpr unsigned int PBMGACMAMBE___c_TypeDefinitionIndex = 33167;
+inline static constexpr unsigned int PBMGACMAMBE___c_TypeDefinitionIndex = 34082;
 
 	class PBMGACMAMBE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CCD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E180);
 		}
 
 		static ::System::Void _cctor()

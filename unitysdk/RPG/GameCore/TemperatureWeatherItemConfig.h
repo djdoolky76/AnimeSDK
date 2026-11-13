@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TemperatureWeatherItemConfig; }
 
-#define RPG_GAMECORE_TEMPERATUREWEATHERITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB52590)
-#define RPG_GAMECORE_TEMPERATUREWEATHERITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB523A0)
+#define RPG_GAMECORE_TEMPERATUREWEATHERITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C70D0)
+#define RPG_GAMECORE_TEMPERATUREWEATHERITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C6EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TemperatureWeatherItemConfig_TypeDefinitionIndex = 22792;
+	inline static constexpr unsigned int TemperatureWeatherItemConfig_TypeDefinitionIndex = 23214;
 
 	class TemperatureWeatherItemConfig : public ::RPG::GameCore::JsonConfig
 	{

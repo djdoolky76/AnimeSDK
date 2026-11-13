@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class CAKNHIMMBOM;
 
-#define JDKEJJBIGHO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CB61BF0)
-#define JDKEJJBIGHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB61C90)
+#define JDKEJJBIGHO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1DDFF4A0)
+#define JDKEJJBIGHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFF540)
 
-inline static constexpr unsigned int JDKEJJBIGHO_TypeDefinitionIndex = 43009;
+inline static constexpr unsigned int JDKEJJBIGHO_TypeDefinitionIndex = 43990;
 
 	class JDKEJJBIGHO : public ::System::Object
 	{

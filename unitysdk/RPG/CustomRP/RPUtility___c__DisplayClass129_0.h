@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3CDC0)
-#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0__GETASSEMBLYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1CC3D410)
+#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19903D20)
+#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0__GETASSEMBLYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x19904370)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPUtility___c__DisplayClass129_0_TypeDefinitionIndex = 37900;
+	inline static constexpr unsigned int RPUtility___c__DisplayClass129_0_TypeDefinitionIndex = 38829;
 
 	class RPUtility___c__DisplayClass129_0 : public ::System::Object
 	{

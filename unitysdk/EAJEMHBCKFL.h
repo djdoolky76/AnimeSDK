@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearFormationFaceDelta; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EAJEMHBCKFL_CTOR_OFFSET UNITYSDK_OFFSET(0x12677060)
-#define EAJEMHBCKFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12677090)
+#define EAJEMHBCKFL_CTOR_OFFSET UNITYSDK_OFFSET(0x181D2890)
+#define EAJEMHBCKFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x181D28C0)
 
-inline static constexpr unsigned int EAJEMHBCKFL_TypeDefinitionIndex = 54922;
+inline static constexpr unsigned int EAJEMHBCKFL_TypeDefinitionIndex = 56094;
 
 	class EAJEMHBCKFL
 	{

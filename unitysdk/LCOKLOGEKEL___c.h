@@ -4,18 +4,18 @@
 class LCOKLOGEKEL;
 namespace System { class Object; }
 
-#define LCOKLOGEKEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8C27D0)
-#define LCOKLOGEKEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C2810)
-#define LCOKLOGEKEL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E8C2820)
+#define LCOKLOGEKEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F90C920)
+#define LCOKLOGEKEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F90C960)
+#define LCOKLOGEKEL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F90C970)
 
-inline static constexpr unsigned int LCOKLOGEKEL___c_TypeDefinitionIndex = 33833;
+inline static constexpr unsigned int LCOKLOGEKEL___c_TypeDefinitionIndex = 34748;
 
 	class LCOKLOGEKEL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CD10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B810);
 		}
 
 		static ::System::Void _cctor()

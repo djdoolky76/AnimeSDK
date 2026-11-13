@@ -4,18 +4,18 @@
 class ELGLKEAPLGM;
 namespace System { class Object; }
 
-#define ELGLKEAPLGM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2A38C0)
-#define ELGLKEAPLGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A3900)
-#define ELGLKEAPLGM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2A3910)
+#define ELGLKEAPLGM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE684B0)
+#define ELGLKEAPLGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE684F0)
+#define ELGLKEAPLGM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE68500)
 
-inline static constexpr unsigned int ELGLKEAPLGM___c_TypeDefinitionIndex = 29177;
+inline static constexpr unsigned int ELGLKEAPLGM___c_TypeDefinitionIndex = 29821;
 
 	class ELGLKEAPLGM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x515F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x446C0);
 		}
 
 		static ::System::Void _cctor()

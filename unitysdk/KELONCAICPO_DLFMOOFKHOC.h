@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KELONCAICPO_DLFMOOFKHOC_TypeDefinitionIndex = 71688;
+inline static constexpr unsigned int KELONCAICPO_DLFMOOFKHOC_TypeDefinitionIndex = 73679;
 
 	class KELONCAICPO_DLFMOOFKHOC
 	{

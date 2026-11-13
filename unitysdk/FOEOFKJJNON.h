@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class IPromise; }
 
-#define FOEOFKJJNON_CTOR_OFFSET UNITYSDK_OFFSET(0x158DC2F0)
-#define FOEOFKJJNON_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x158DC3E0)
-#define FOEOFKJJNON___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x158DC420)
+#define FOEOFKJJNON_CTOR_OFFSET UNITYSDK_OFFSET(0x18746FA0)
+#define FOEOFKJJNON_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x18747090)
+#define FOEOFKJJNON___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x187470D0)
 
-inline static constexpr unsigned int FOEOFKJJNON_TypeDefinitionIndex = 59273;
+inline static constexpr unsigned int FOEOFKJJNON_TypeDefinitionIndex = 60550;
 
 	class FOEOFKJJNON : public ::System::Object
 	{

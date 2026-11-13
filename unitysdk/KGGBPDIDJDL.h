@@ -3,10 +3,10 @@
 #include "unitysdk/KDLEIHJGDAP.h"
 #include "unitysdk/UnityEngine/NetworkReachability.h"
 
-#define KGGBPDIDJDL_CTOR_OFFSET UNITYSDK_OFFSET(0xB3D7130)
-#define KGGBPDIDJDL_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB3D7080)
+#define KGGBPDIDJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x19764000)
+#define KGGBPDIDJDL_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x19763F50)
 
-inline static constexpr unsigned int KGGBPDIDJDL_TypeDefinitionIndex = 61103;
+inline static constexpr unsigned int KGGBPDIDJDL_TypeDefinitionIndex = 62488;
 
 	class KGGBPDIDJDL : public ::KDLEIHJGDAP
 	{

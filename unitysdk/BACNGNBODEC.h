@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BACNGNBODEC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CCC3020)
-#define BACNGNBODEC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCC35F0)
-#define BACNGNBODEC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CCC3190)
-#define BACNGNBODEC_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1CCC2E10)
-#define BACNGNBODEC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CCC2A10)
-#define BACNGNBODEC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CCC2CA0)
-#define BACNGNBODEC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CCC3230)
-#define BACNGNBODEC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CCC3280)
-#define BACNGNBODEC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CCC3060)
-#define BACNGNBODEC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CCC2C40)
-#define BACNGNBODEC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CCC2E90)
-#define BACNGNBODEC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCC30F0)
-#define BACNGNBODEC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCC2990)
+#define BACNGNBODEC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1ECBEAC0)
+#define BACNGNBODEC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECBF090)
+#define BACNGNBODEC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1ECBEC30)
+#define BACNGNBODEC_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1ECBE8B0)
+#define BACNGNBODEC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1ECBE4B0)
+#define BACNGNBODEC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1ECBE740)
+#define BACNGNBODEC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1ECBECD0)
+#define BACNGNBODEC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1ECBED20)
+#define BACNGNBODEC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1ECBEB00)
+#define BACNGNBODEC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1ECBE6E0)
+#define BACNGNBODEC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1ECBE930)
+#define BACNGNBODEC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1ECBEB90)
+#define BACNGNBODEC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1ECBE430)
 
-inline static constexpr unsigned int BACNGNBODEC_TypeDefinitionIndex = 13652;
+inline static constexpr unsigned int BACNGNBODEC_TypeDefinitionIndex = 13777;
 
 	class BACNGNBODEC : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTutorialTaskRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0x435E0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTutorialTaskRow*>**)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0x34310);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0x435E8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0x34318);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTutorialTaskRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTutorialTaskRow*>**)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0x435F0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0xFF90);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0x34320);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0xFF91);
+			return (::System::Byte*)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0xA230);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "BACNGNBODEC")->GetStaticField(0xA231);
 		}
 
 		static ::System::Void _cctor()

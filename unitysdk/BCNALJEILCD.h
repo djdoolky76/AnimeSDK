@@ -6,23 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 namespace RPG::GameCore { class FateRinCaseBoardTeamRelationInfo; }
 
-#define BCNALJEILCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCC5D0)
-#define BCNALJEILCD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCCC5F0)
-#define BCNALJEILCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCCC580)
+#define BCNALJEILCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC78D0)
+#define BCNALJEILCD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC78F0)
+#define BCNALJEILCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC7880)
 
-inline static constexpr unsigned int BCNALJEILCD_TypeDefinitionIndex = 19929;
+inline static constexpr unsigned int BCNALJEILCD_TypeDefinitionIndex = 20258;
 
 	class BCNALJEILCD : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FateRinCaseBoardEffectInfo*>* LDCJONHGDAN; // 0x18
-		::RPG::GameCore::FateRinCaseBoardTeamRelationInfo* NLKANDACMLF; // 0x20
-		::System::Single NCMIKMNHBHC; // 0x28
-		::System::Single KJGIGGFHKEA; // 0x2C
-		::System::Boolean GNDCCBNILML; // 0x30
-		::System::Boolean EMFAOBHNLBF; // 0x31
-		::System::Byte _padding0[0x2];
-		::System::Single IEHPFADHJFD; // 0x34
+		::RPG::GameCore::FateRinCaseBoardTeamRelationInfo* NLKANDACMLF; // 0x18
+		::Il2CppArray<::RPG::GameCore::FateRinCaseBoardEffectInfo*>* LDCJONHGDAN; // 0x20
+		::System::Single KJGIGGFHKEA; // 0x28
+		::System::Single IEHPFADHJFD; // 0x2C
+		::System::Single NCMIKMNHBHC; // 0x30
+		::System::Boolean GNDCCBNILML; // 0x34
+		::System::Boolean EMFAOBHNLBF; // 0x35
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BCNALJEILCD_CTOR_OFFSET))(this);

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DHBPGKONLGI_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC18C0)
-#define DHBPGKONLGI_GET_ENTITYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xEBC18A0)
-#define DHBPGKONLGI_GET_RARITYLIST_OFFSET UNITYSDK_OFFSET(0xEBC18B0)
+#define DHBPGKONLGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADDDEA0)
+#define DHBPGKONLGI_GET_ENTITYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1ADDDE80)
+#define DHBPGKONLGI_GET_RARITYLIST_OFFSET UNITYSDK_OFFSET(0x1ADDDE90)
 
-inline static constexpr unsigned int DHBPGKONLGI_TypeDefinitionIndex = 75420;
+inline static constexpr unsigned int DHBPGKONLGI_TypeDefinitionIndex = 77747;
 
 	class DHBPGKONLGI : public ::System::Object
 	{

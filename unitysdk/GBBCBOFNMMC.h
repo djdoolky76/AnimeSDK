@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckIsLimboRevivable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GBBCBOFNMMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1593C7E0)
-#define GBBCBOFNMMC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1593C810)
+#define GBBCBOFNMMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B878380)
+#define GBBCBOFNMMC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B8783B0)
 
-inline static constexpr unsigned int GBBCBOFNMMC_TypeDefinitionIndex = 54499;
+inline static constexpr unsigned int GBBCBOFNMMC_TypeDefinitionIndex = 55664;
 
 	class GBBCBOFNMMC
 	{

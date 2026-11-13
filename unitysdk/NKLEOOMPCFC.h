@@ -6,10 +6,10 @@ class KAKADGHNMFK;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NKLEOOMPCFC_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xBC354B0)
-#define NKLEOOMPCFC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC35570)
+#define NKLEOOMPCFC_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x1A7B8770)
+#define NKLEOOMPCFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7B8830)
 
-inline static constexpr unsigned int NKLEOOMPCFC_TypeDefinitionIndex = 77536;
+inline static constexpr unsigned int NKLEOOMPCFC_TypeDefinitionIndex = 80271;
 
 	class NKLEOOMPCFC : public ::System::Object
 	{

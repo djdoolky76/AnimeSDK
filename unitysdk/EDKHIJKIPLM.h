@@ -8,19 +8,19 @@ class OFAKEFLLHNP;
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightTraitElationEffect; }
 
-#define EDKHIJKIPLM_CTOR_OFFSET UNITYSDK_OFFSET(0x13320A40)
-#define EDKHIJKIPLM_ENBIKBNMNMO_OFFSET UNITYSDK_OFFSET(0x13320BA0)
-#define EDKHIJKIPLM_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0x13320B20)
-#define EDKHIJKIPLM_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0x133216F0)
-#define EDKHIJKIPLM_PFBNDKLPNKF_OFFSET UNITYSDK_OFFSET(0x13321460)
+#define EDKHIJKIPLM_CTOR_OFFSET UNITYSDK_OFFSET(0x186C9700)
+#define EDKHIJKIPLM_ENBIKBNMNMO_OFFSET UNITYSDK_OFFSET(0x186C9860)
+#define EDKHIJKIPLM_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0x186C97E0)
+#define EDKHIJKIPLM_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0x186CA3B0)
+#define EDKHIJKIPLM_PFBNDKLPNKF_OFFSET UNITYSDK_OFFSET(0x186CA120)
 
-inline static constexpr unsigned int EDKHIJKIPLM_TypeDefinitionIndex = 65381;
+inline static constexpr unsigned int EDKHIJKIPLM_TypeDefinitionIndex = 67174;
 
 	class EDKHIJKIPLM : public ::System::Object
 	{
 	public:
-		::CIEEHMBGEIF* IAFNNMFIMOI; // 0x10
-		::RPG::Client::GridFightTraitElationEffect* INKLGHHCKIK; // 0x18
+		::RPG::Client::GridFightTraitElationEffect* INKLGHHCKIK; // 0x10
+		::CIEEHMBGEIF* IAFNNMFIMOI; // 0x18
 		::System::Void _ctor(::RPG::Client::GridFightTraitElationEffect* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTraitElationEffect*))((::PBYTE)hIl2Cpp + EDKHIJKIPLM_CTOR_OFFSET))(this, a1);

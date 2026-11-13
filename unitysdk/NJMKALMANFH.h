@@ -4,18 +4,18 @@ class PKKNEBGOION;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TryCancelEnterRegion; }
 
-#define NJMKALMANFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBC196A0)
-#define NJMKALMANFH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC196D0)
-#define NJMKALMANFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC19760)
-#define NJMKALMANFH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC19710)
+#define NJMKALMANFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A79BB90)
+#define NJMKALMANFH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A79BBC0)
+#define NJMKALMANFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A79BC50)
+#define NJMKALMANFH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A79BC00)
 
-inline static constexpr unsigned int NJMKALMANFH_TypeDefinitionIndex = 58804;
+inline static constexpr unsigned int NJMKALMANFH_TypeDefinitionIndex = 60072;
 
 	class NJMKALMANFH
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::PKKNEBGOION* AABBECIEAAP; // 0x30
+		::PKKNEBGOION* AABBECIEAAP; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TryCancelEnterRegion* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TryCancelEnterRegion*))((::PBYTE)hIl2Cpp + NJMKALMANFH_CTOR_OFFSET))(this, a1, a2);

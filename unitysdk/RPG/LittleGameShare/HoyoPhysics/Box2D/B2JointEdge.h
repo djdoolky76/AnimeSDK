@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointEdge_TypeDefinitionIndex = 36695;
+	inline static constexpr unsigned int B2JointEdge_TypeDefinitionIndex = 37623;
 
 	struct alignas(4) B2JointEdge
 	{

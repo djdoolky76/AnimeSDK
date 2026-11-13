@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ChimeraAbilityPassive; }
 
-#define GNMNPMMCJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA86A50)
+#define GNMNPMMCJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8CB60)
 
-inline static constexpr unsigned int GNMNPMMCJDK_TypeDefinitionIndex = 41983;
+inline static constexpr unsigned int GNMNPMMCJDK_TypeDefinitionIndex = 42958;
 
 	class GNMNPMMCJDK : public ::System::Object
 	{

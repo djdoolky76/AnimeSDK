@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ElfGame; }
 
-#define HOAKIBHGHLJ___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15D9D1C0)
-#define HOAKIBHGHLJ___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15D9D280)
+#define HOAKIBHGHLJ___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A380CF0)
+#define HOAKIBHGHLJ___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1A380DB0)
 
-inline static constexpr unsigned int HOAKIBHGHLJ___c__DisplayClass2_0_TypeDefinitionIndex = 58095;
+inline static constexpr unsigned int HOAKIBHGHLJ___c__DisplayClass2_0_TypeDefinitionIndex = 59334;
 
 	class HOAKIBHGHLJ___c__DisplayClass2_0 : public ::System::Object
 	{

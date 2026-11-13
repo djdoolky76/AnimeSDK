@@ -3,9 +3,9 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define KBNONEGEOMC_ADBGGJHAFDL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB31D0F0)
+#define KBNONEGEOMC_ADBGGJHAFDL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1A46FA80)
 
-inline static constexpr unsigned int KBNONEGEOMC_ADBGGJHAFDL_TypeDefinitionIndex = 51811;
+inline static constexpr unsigned int KBNONEGEOMC_ADBGGJHAFDL_TypeDefinitionIndex = 52897;
 
 	struct alignas(8) KBNONEGEOMC_ADBGGJHAFDL
 	{

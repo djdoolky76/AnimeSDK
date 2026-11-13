@@ -6,29 +6,29 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define OKKFJLFMPFK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBEE16D0)
-#define OKKFJLFMPFK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE1710)
-#define OKKFJLFMPFK___C___CUTSCENEAUDIOBEGIN_B__30_0_OFFSET UNITYSDK_OFFSET(0xBEE1720)
-#define OKKFJLFMPFK___C___INITCUTSCENEINFO_B__51_0_OFFSET UNITYSDK_OFFSET(0xBEE1730)
+#define OKKFJLFMPFK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17885F40)
+#define OKKFJLFMPFK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17885F80)
+#define OKKFJLFMPFK___C___CUTSCENEAUDIOBEGIN_B__30_0_OFFSET UNITYSDK_OFFSET(0x17885F90)
+#define OKKFJLFMPFK___C___INITCUTSCENEINFO_B__51_0_OFFSET UNITYSDK_OFFSET(0x17885FA0)
 
-inline static constexpr unsigned int OKKFJLFMPFK___c_TypeDefinitionIndex = 56370;
+inline static constexpr unsigned int OKKFJLFMPFK___c_TypeDefinitionIndex = 57584;
 
 	class OKKFJLFMPFK___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D720);
+		}
+
 		static ::System::Comparison_1<::RPG::GameCore::CutSceneSFXItem*>** StaticGet___9__51_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::CutSceneSFXItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C400);
+			return (::System::Comparison_1<::RPG::GameCore::CutSceneSFXItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D728);
 		}
 
 		static ::System::Action_1<::System::UInt32>** StaticGet___9__30_0()
 		{
-			return (::System::Action_1<::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C408);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C410);
+			return (::System::Action_1<::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D730);
 		}
 
 		static ::System::Void _cctor()

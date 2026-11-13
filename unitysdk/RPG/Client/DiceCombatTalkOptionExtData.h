@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBATTALKOPTIONEXTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCCBE740)
+#define RPG_CLIENT_DICECOMBATTALKOPTIONEXTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA475C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatTalkOptionExtData_TypeDefinitionIndex = 68040;
+	inline static constexpr unsigned int DiceCombatTalkOptionExtData_TypeDefinitionIndex = 69986;
 
 	class DiceCombatTalkOptionExtData : public ::System::Object
 	{
 	public:
-		::System::Boolean IsShowHardLevel; // 0x10
-		::System::Byte _padding0[0x3];
-		::System::UInt32 StageID; // 0x14
+		::System::UInt32 StageID; // 0x10
+		::System::Boolean IsShowHardLevel; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATTALKOPTIONEXTDATA_CTOR_OFFSET))(this);

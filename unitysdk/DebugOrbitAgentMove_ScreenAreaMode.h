@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DebugOrbitAgentMove_ScreenAreaMode_TypeDefinitionIndex = 47097;
+inline static constexpr unsigned int DebugOrbitAgentMove_ScreenAreaMode_TypeDefinitionIndex = 48125;
 
 	enum class DebugOrbitAgentMove_ScreenAreaMode : ::System::Int32
 	{

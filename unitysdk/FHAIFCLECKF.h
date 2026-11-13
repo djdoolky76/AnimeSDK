@@ -5,9 +5,9 @@
 class BCFLJPCHOEB;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FHAIFCLECKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA40110)
+#define FHAIFCLECKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20A8D0)
 
-inline static constexpr unsigned int FHAIFCLECKF_TypeDefinitionIndex = 43216;
+inline static constexpr unsigned int FHAIFCLECKF_TypeDefinitionIndex = 44197;
 
 	class FHAIFCLECKF : public ::System::Object
 	{

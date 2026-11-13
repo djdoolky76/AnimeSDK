@@ -5,29 +5,29 @@ namespace RPG::Client { class ChimeraBattlePuzzleArea; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define CHAIHGFHKJM_ABEJAIICNOJ_OFFSET UNITYSDK_OFFSET(0xCC8A8E0)
-#define CHAIHGFHKJM_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0xCC8A050)
-#define CHAIHGFHKJM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC89FE0)
-#define CHAIHGFHKJM_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0xCC8AFB0)
-#define CHAIHGFHKJM_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xCC8B1D0)
-#define CHAIHGFHKJM_GKLJACJDJPE_OFFSET UNITYSDK_OFFSET(0xCC8A270)
-#define CHAIHGFHKJM_LMGLHEKNHKD_OFFSET UNITYSDK_OFFSET(0xCC8B030)
-#define CHAIHGFHKJM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xCC8A1F0)
-#define CHAIHGFHKJM_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xCC8B1E0)
+#define CHAIHGFHKJM_ABEJAIICNOJ_OFFSET UNITYSDK_OFFSET(0x17863C10)
+#define CHAIHGFHKJM_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x17863380)
+#define CHAIHGFHKJM_CTOR_OFFSET UNITYSDK_OFFSET(0x17863310)
+#define CHAIHGFHKJM_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x178642E0)
+#define CHAIHGFHKJM_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x17864500)
+#define CHAIHGFHKJM_GKLJACJDJPE_OFFSET UNITYSDK_OFFSET(0x178635A0)
+#define CHAIHGFHKJM_LMGLHEKNHKD_OFFSET UNITYSDK_OFFSET(0x17864360)
+#define CHAIHGFHKJM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x17863520)
+#define CHAIHGFHKJM_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x17864510)
 
-inline static constexpr unsigned int CHAIHGFHKJM_TypeDefinitionIndex = 78442;
+inline static constexpr unsigned int CHAIHGFHKJM_TypeDefinitionIndex = 81177;
 
 	class CHAIHGFHKJM : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x10
-		::RPG::Client::ChimeraBattlePuzzleArea* BJIAFANLGIB; // 0x18
-		::System::Action* MECKBKLEHAN; // 0x20
-		::RPG::Client::ChimeraBattlePuzzleArea* GEJIPOFHMHO; // 0x28
-		::System::Single FOMCKBAHCFM; // 0x30
+		::RPG::Client::ChimeraBattlePuzzleArea* BJIAFANLGIB; // 0x10
+		::System::Action* MECKBKLEHAN; // 0x18
+		::RPG::Client::ChimeraBattlePuzzleArea* GEJIPOFHMHO; // 0x20
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x28
+		::System::Single MFLNKDOADDG; // 0x30
 		::System::Boolean _IsFinished_k__BackingField; // 0x34
 		::System::Byte _padding0[0x3];
-		::System::Single MFLNKDOADDG; // 0x38
+		::System::Single FOMCKBAHCFM; // 0x38
 		::System::Void _ctor(::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a1, ::System::Action* a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Action*, ::System::Single))((::PBYTE)hIl2Cpp + CHAIHGFHKJM_CTOR_OFFSET))(this, a1, a2, a3);

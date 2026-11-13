@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTimelineEntityState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKMCHPOPKDB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A96C50)
-#define GKMCHPOPKDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A96C80)
+#define GKMCHPOPKDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8DDCA0)
+#define GKMCHPOPKDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A8DDCD0)
 
-inline static constexpr unsigned int GKMCHPOPKDB_TypeDefinitionIndex = 53396;
+inline static constexpr unsigned int GKMCHPOPKDB_TypeDefinitionIndex = 54558;
 
 	class GKMCHPOPKDB
 	{

@@ -6,14 +6,14 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyUtils___O_TypeDefinitionIndex = 68171;
+	inline static constexpr unsigned int TrainPartyUtils___O_TypeDefinitionIndex = 70117;
 
 	class TrainPartyUtils___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet__0____OnEntityLoadFinish()
 		{
-			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x211F0);
+			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x33E90);
 		}
 
 	};

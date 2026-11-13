@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FKJEJCFGKNJ.h"
 
-#define HJKOHGKHOKO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D1F490)
-#define HJKOHGKHOKO_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0x15D1F4D0)
+#define HJKOHGKHOKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1821CE90)
+#define HJKOHGKHOKO_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0x1821CED0)
 
-inline static constexpr unsigned int HJKOHGKHOKO_TypeDefinitionIndex = 68938;
+inline static constexpr unsigned int HJKOHGKHOKO_TypeDefinitionIndex = 70891;
 
 	class HJKOHGKHOKO : public ::FKJEJCFGKNJ
 	{

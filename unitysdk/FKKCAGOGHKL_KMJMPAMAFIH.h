@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableStringProperty.h"
 
-#define FKKCAGOGHKL_KMJMPAMAFIH_CCTOR_OFFSET UNITYSDK_OFFSET(0x157F8D50)
+#define FKKCAGOGHKL_KMJMPAMAFIH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAAF3B0)
 
-inline static constexpr unsigned int FKKCAGOGHKL_KMJMPAMAFIH_TypeDefinitionIndex = 59338;
+inline static constexpr unsigned int FKKCAGOGHKL_KMJMPAMAFIH_TypeDefinitionIndex = 60615;
 
 	class FKKCAGOGHKL_KMJMPAMAFIH : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_HJKJJAHGAKK()
-		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "KMJMPAMAFIH")->GetStaticField(0x2FE20);
-		}
-
 		static ::UnityEngine::ConsoleVariableStringProperty* StaticGet_NAINKMNAELB()
 		{
-			return (::UnityEngine::ConsoleVariableStringProperty*)UnitySDK::FromName("", "KMJMPAMAFIH")->GetStaticField(0x2FE30);
+			return (::UnityEngine::ConsoleVariableStringProperty*)UnitySDK::FromName("", "KMJMPAMAFIH")->GetStaticField(0x2F180);
+		}
+
+		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_HJKJJAHGAKK()
+		{
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "KMJMPAMAFIH")->GetStaticField(0x2F190);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@ class DBPJGJICHOI;
 class KDCNOMHGMNO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CELIPIMJDPA_CTOR_OFFSET UNITYSDK_OFFSET(0xC9DDBA0)
-#define CELIPIMJDPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9DDCB0)
+#define CELIPIMJDPA_CTOR_OFFSET UNITYSDK_OFFSET(0x18820680)
+#define CELIPIMJDPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18820790)
 
-inline static constexpr unsigned int CELIPIMJDPA_TypeDefinitionIndex = 53860;
+inline static constexpr unsigned int CELIPIMJDPA_TypeDefinitionIndex = 55024;
 
 	class CELIPIMJDPA
 	{

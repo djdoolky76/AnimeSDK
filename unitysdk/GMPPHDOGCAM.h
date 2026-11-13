@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAvatarByID; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GMPPHDOGCAM_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD2760)
-#define GMPPHDOGCAM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AD27D0)
+#define GMPPHDOGCAM_CTOR_OFFSET UNITYSDK_OFFSET(0x16C8ADC0)
+#define GMPPHDOGCAM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16C8AE30)
 
-inline static constexpr unsigned int GMPPHDOGCAM_TypeDefinitionIndex = 59236;
+inline static constexpr unsigned int GMPPHDOGCAM_TypeDefinitionIndex = 60513;
 
 	class GMPPHDOGCAM
 	{

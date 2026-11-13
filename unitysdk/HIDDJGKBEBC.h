@@ -4,11 +4,11 @@
 namespace R3 { template <typename T> class Observable_1; }
 namespace System { class String; }
 
-#define HIDDJGKBEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD4370)
-#define HIDDJGKBEBC_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15CD4360)
-#define HIDDJGKBEBC_GET_ICON_OFFSET UNITYSDK_OFFSET(0x15CD4350)
+#define HIDDJGKBEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1902CAE0)
+#define HIDDJGKBEBC_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1902CAD0)
+#define HIDDJGKBEBC_GET_ICON_OFFSET UNITYSDK_OFFSET(0x1902CAC0)
 
-inline static constexpr unsigned int HIDDJGKBEBC_TypeDefinitionIndex = 79591;
+inline static constexpr unsigned int HIDDJGKBEBC_TypeDefinitionIndex = 82368;
 
 	class HIDDJGKBEBC : public ::System::Object
 	{

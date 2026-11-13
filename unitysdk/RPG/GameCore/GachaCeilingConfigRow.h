@@ -6,19 +6,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GachaCeilingConfigRow; }
 
-#define RPG_GAMECORE_GACHACEILINGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CD510)
-#define RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6CCEF0)
+#define RPG_GAMECORE_GACHACEILINGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5FD50)
+#define RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED5F730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 13354;
+	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 13426;
 
 	class GachaCeilingConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CeilingItemList; // 0x10
-		::RPG::GameCore::CeilingType CeilingType; // 0x18
-		::RPG::GameCore::GachaType GachaType; // 0x1C
+		::RPG::GameCore::GachaType GachaType; // 0x18
+		::RPG::GameCore::CeilingType CeilingType; // 0x1C
 		::System::UInt32 CeilingNum; // 0x20
 		::System::Void _ctor()
 		{

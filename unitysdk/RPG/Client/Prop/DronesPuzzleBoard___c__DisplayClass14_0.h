@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class DronesPuzzleBoard; }
 
-#define RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC95590)
-#define RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0__BUILDACHIEVEMENTAREAS_B__1_OFFSET UNITYSDK_OFFSET(0xDC96070)
+#define RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A50B0B0)
+#define RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0__BUILDACHIEVEMENTAREAS_B__1_OFFSET UNITYSDK_OFFSET(0x1A50BB90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleBoard___c__DisplayClass14_0_TypeDefinitionIndex = 78567;
+	inline static constexpr unsigned int DronesPuzzleBoard___c__DisplayClass14_0_TypeDefinitionIndex = 81302;
 
 	class DronesPuzzleBoard___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::DronesPuzzleBoard* __4__this; // 0x10
-		::RPG::Client::Prop::DronesPuzzleAchieveAreaConfig areaConfig; // 0x18
+		::RPG::Client::Prop::DronesPuzzleAchieveAreaConfig areaConfig; // 0x10
+		::RPG::Client::Prop::DronesPuzzleBoard* __4__this; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0_CTOR_OFFSET))(this);

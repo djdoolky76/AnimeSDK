@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MPJFIPNGENE_ThreadState_TypeDefinitionIndex = 44023;
+inline static constexpr unsigned int MPJFIPNGENE_ThreadState_TypeDefinitionIndex = 45098;
 
 	enum class MPJFIPNGENE_ThreadState : ::System::Int32
 	{

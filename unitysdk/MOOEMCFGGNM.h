@@ -6,17 +6,17 @@ class MOOEMCFGGNM_PICKDNMPCLL;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOOEMCFGGNM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA30C70)
-#define MOOEMCFGGNM_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xBA30010)
-#define MOOEMCFGGNM_LODCDEIDBMA_OFFSET UNITYSDK_OFFSET(0xBA2FF80)
+#define MOOEMCFGGNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B21DDA0)
+#define MOOEMCFGGNM_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0x1B21D140)
+#define MOOEMCFGGNM_LODCDEIDBMA_OFFSET UNITYSDK_OFFSET(0x1B21D0B0)
 
-inline static constexpr unsigned int MOOEMCFGGNM_TypeDefinitionIndex = 56080;
+inline static constexpr unsigned int MOOEMCFGGNM_TypeDefinitionIndex = 57292;
 
 	class MOOEMCFGGNM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* AEGOBFGGCLF; // 0x10
-		::System::Collections::Generic::List_1<::System::Object*>* FHNILDEKKOP; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* FHNILDEKKOP; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* AEGOBFGGCLF; // 0x18
 		::System::UInt32 ADMKIBOHAGG; // 0x20
 		::System::Int32 HDPPACHDAOA; // 0x24
 		::System::Void _ctor()

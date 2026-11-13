@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CylinderCaptureMode_TypeDefinitionIndex = 70192;
+	inline static constexpr unsigned int CylinderCaptureMode_TypeDefinitionIndex = 72158;
 
 	enum class CylinderCaptureMode : ::System::Int32
 	{

@@ -5,31 +5,31 @@ namespace RPG::Client { class RogueSiteData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ROGUEMAPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF38850)
-#define RPG_CLIENT_ROGUEMAPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF38890)
-#define RPG_CLIENT_ROGUEMAPDATA___C__GETBRANCHTOTALNUM_B__10_0_OFFSET UNITYSDK_OFFSET(0xDF38910)
-#define RPG_CLIENT_ROGUEMAPDATA___C__GETSTARTROGUESITEDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0xDF388A0)
+#define RPG_CLIENT_ROGUEMAPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB25E60)
+#define RPG_CLIENT_ROGUEMAPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB25EA0)
+#define RPG_CLIENT_ROGUEMAPDATA___C__GETBRANCHTOTALNUM_B__10_0_OFFSET UNITYSDK_OFFSET(0x1CB25F20)
+#define RPG_CLIENT_ROGUEMAPDATA___C__GETSTARTROGUESITEDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x1CB25EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMapData___c_TypeDefinitionIndex = 67460;
+	inline static constexpr unsigned int RogueMapData___c_TypeDefinitionIndex = 69404;
 
 	class RogueMapData___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::RogueSiteData*>** StaticGet___9__5_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::RPG::Client::RogueSiteData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x681C0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71A40);
 		}
 
 		static ::System::Predicate_1<::RPG::Client::RogueSiteData*>** StaticGet___9__10_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::RogueSiteData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x681C8);
+			return (::System::Predicate_1<::RPG::Client::RogueSiteData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71A48);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Predicate_1<::RPG::Client::RogueSiteData*>** StaticGet___9__5_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x681D0);
+			return (::System::Predicate_1<::RPG::Client::RogueSiteData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71A50);
 		}
 
 		static ::System::Void _cctor()

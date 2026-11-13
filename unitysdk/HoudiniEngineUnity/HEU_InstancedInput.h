@@ -5,12 +5,12 @@
 namespace HoudiniEngineUnity { class HEU_InstancedInput; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_INSTANCEDINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B924C10)
-#define HOUDINIENGINEUNITY_HEU_INSTANCEDINPUT_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B924920)
+#define HOUDINIENGINEUNITY_HEU_INSTANCEDINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x126C3120)
+#define HOUDINIENGINEUNITY_HEU_INSTANCEDINPUT_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x126C2E30)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InstancedInput_TypeDefinitionIndex = 40414;
+	inline static constexpr unsigned int HEU_InstancedInput_TypeDefinitionIndex = 41389;
 
 	class HEU_InstancedInput : public ::System::Object
 	{

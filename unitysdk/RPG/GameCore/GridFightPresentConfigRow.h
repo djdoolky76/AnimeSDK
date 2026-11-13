@@ -6,20 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightPresentConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTPRESENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70DB80)
-#define RPG_GAMECORE_GRIDFIGHTPRESENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D70D8E0)
+#define RPG_GAMECORE_GRIDFIGHTPRESENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA59BA0)
+#define RPG_GAMECORE_GRIDFIGHTPRESENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA59900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPresentConfigRow_TypeDefinitionIndex = 13427;
+	inline static constexpr unsigned int GridFightPresentConfigRow_TypeDefinitionIndex = 13499;
 
 	class GridFightPresentConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BonusID; // 0x10
+		::RPG::Client::TextID PresentName; // 0x10
+		::System::UInt32 BonusID; // 0x20
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID PresentDesc; // 0x18
-		::RPG::Client::TextID PresentName; // 0x28
+		::RPG::Client::TextID PresentDesc; // 0x28
 		::System::UInt32 ID; // 0x38
 		::RPG::GameCore::GridFightPresentShortenType ShortenType; // 0x3C
 		::System::Void _ctor()

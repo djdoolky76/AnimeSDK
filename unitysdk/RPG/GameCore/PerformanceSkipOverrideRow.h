@@ -8,29 +8,28 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceSkipOverrideRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D8B40)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D8D7A20)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8D7DC0)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D8D8AB0)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D8D8B10)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE47590)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1EE46480)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE46820)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1EE47510)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1EE47570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipOverrideRow_TypeDefinitionIndex = 14364;
+	inline static constexpr unsigned int PerformanceSkipOverrideRow_TypeDefinitionIndex = 14521;
 
 	class PerformanceSkipOverrideRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* OverrideCharacterList; // 0x10
-		::System::UInt32 IsConfirmRequiredToSkipFlag; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Desc; // 0x20
-		::System::UInt32 OverrideImportantFlag; // 0x30
+		::RPG::Client::TextID Desc; // 0x18
+		::System::UInt32 OverrideImportantFlag; // 0x28
+		::System::UInt32 IsOverrideCharacter; // 0x2C
+		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x30
 		::System::UInt32 PackID; // 0x34
-		::System::UInt32 PerformanceID; // 0x38
-		::System::UInt32 IsOverrideImportantFlag; // 0x3C
-		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x40
-		::System::UInt32 IsOverrideCharacter; // 0x44
+		::System::UInt32 IsOverrideImportantFlag; // 0x38
+		::System::UInt32 IsConfirmRequiredToSkipFlag; // 0x3C
+		::System::UInt32 PerformanceID; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_CTOR_OFFSET))(this);

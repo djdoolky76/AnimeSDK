@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ResourceOverallRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESOURCEOVERALLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D960B80)
-#define RPG_GAMECORE_RESOURCEOVERALLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9605F0)
+#define RPG_GAMECORE_RESOURCEOVERALLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20724FE0)
+#define RPG_GAMECORE_RESOURCEOVERALLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x20724A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResourceOverallRow_TypeDefinitionIndex = 14654;
+	inline static constexpr unsigned int ResourceOverallRow_TypeDefinitionIndex = 14810;
 
 	class ResourceOverallRow : public ::System::Object
 	{

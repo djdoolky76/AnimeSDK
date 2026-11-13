@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FateParamGetMapValueConfig; }
 namespace RPG::GameCore { class MiParameterConfigBase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D66E700)
-#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D66E710)
-#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66E6B0)
+#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC93F10)
+#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1FC93F20)
+#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1FC93EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateParamGetMapValueConfig_TypeDefinitionIndex = 16643;
+	inline static constexpr unsigned int FateParamGetMapValueConfig_TypeDefinitionIndex = 16809;
 
 	class FateParamGetMapValueConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{

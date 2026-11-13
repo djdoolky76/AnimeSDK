@@ -4,10 +4,10 @@
 class FJNBODHINDM;
 namespace System { class Object; }
 
-#define PCNHBHBGLGK_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xC001440)
-#define PCNHBHBGLGK_CTOR_OFFSET UNITYSDK_OFFSET(0xC0016A0)
+#define PCNHBHBGLGK_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0x1AAD9220)
+#define PCNHBHBGLGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD9480)
 
-inline static constexpr unsigned int PCNHBHBGLGK_TypeDefinitionIndex = 54290;
+inline static constexpr unsigned int PCNHBHBGLGK_TypeDefinitionIndex = 55454;
 
 	class PCNHBHBGLGK : public ::System::Object
 	{

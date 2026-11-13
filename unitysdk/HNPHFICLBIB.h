@@ -4,9 +4,9 @@
 class BACCOPOCMPC;
 namespace RPG::GameCore { class GameEntity; }
 
-#define HNPHFICLBIB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D9A320)
+#define HNPHFICLBIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A37DCD0)
 
-inline static constexpr unsigned int HNPHFICLBIB_TypeDefinitionIndex = 57076;
+inline static constexpr unsigned int HNPHFICLBIB_TypeDefinitionIndex = 58303;
 
 	class HNPHFICLBIB : public ::System::Object
 	{

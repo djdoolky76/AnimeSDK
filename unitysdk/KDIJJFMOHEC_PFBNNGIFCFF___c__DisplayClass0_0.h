@@ -6,16 +6,16 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Collision; }
 
-#define KDIJJFMOHEC_PFBNNGIFCFF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB35BB00)
-#define KDIJJFMOHEC_PFBNNGIFCFF___C__DISPLAYCLASS0_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0xB35BE10)
+#define KDIJJFMOHEC_PFBNNGIFCFF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C5A30)
+#define KDIJJFMOHEC_PFBNNGIFCFF___C__DISPLAYCLASS0_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x1B5C5D40)
 
-inline static constexpr unsigned int KDIJJFMOHEC_PFBNNGIFCFF___c__DisplayClass0_0_TypeDefinitionIndex = 75566;
+inline static constexpr unsigned int KDIJJFMOHEC_PFBNNGIFCFF___c__DisplayClass0_0_TypeDefinitionIndex = 77893;
 
 	class KDIJJFMOHEC_PFBNNGIFCFF___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::UnityEngine::Collision*, ::System::Object*>* onCollisionCallback; // 0x10
-		::KDIJJFMOHEC_PFBNNGIFCFF* __4__this; // 0x18
+		::KDIJJFMOHEC_PFBNNGIFCFF* __4__this; // 0x10
+		::System::Action_2<::UnityEngine::Collision*, ::System::Object*>* onCollisionCallback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KDIJJFMOHEC_PFBNNGIFCFF___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

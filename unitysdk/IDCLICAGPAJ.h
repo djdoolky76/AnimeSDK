@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePropID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IDCLICAGPAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15EA27D0)
-#define IDCLICAGPAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15EA2800)
+#define IDCLICAGPAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x188ED5C0)
+#define IDCLICAGPAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x188ED5F0)
 
-inline static constexpr unsigned int IDCLICAGPAJ_TypeDefinitionIndex = 52587;
+inline static constexpr unsigned int IDCLICAGPAJ_TypeDefinitionIndex = 53693;
 
 	class IDCLICAGPAJ
 	{

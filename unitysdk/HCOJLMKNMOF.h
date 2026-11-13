@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSpecialAvatarType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCOJLMKNMOF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C22220)
-#define HCOJLMKNMOF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C22250)
+#define HCOJLMKNMOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C2410)
+#define HCOJLMKNMOF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B7C2440)
 
-inline static constexpr unsigned int HCOJLMKNMOF_TypeDefinitionIndex = 54569;
+inline static constexpr unsigned int HCOJLMKNMOF_TypeDefinitionIndex = 55734;
 
 	class HCOJLMKNMOF
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ColorMaterialBlock_TypeDefinitionIndex = 69928;
+	inline static constexpr unsigned int ColorMaterialBlock_TypeDefinitionIndex = 71887;
 
 	struct alignas(4) ColorMaterialBlock
 	{

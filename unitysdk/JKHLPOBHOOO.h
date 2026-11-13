@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAvatarGlobalBuffState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JKHLPOBHOOO_CTOR_OFFSET UNITYSDK_OFFSET(0xB217970)
-#define JKHLPOBHOOO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2179A0)
+#define JKHLPOBHOOO_CTOR_OFFSET UNITYSDK_OFFSET(0x17B235F0)
+#define JKHLPOBHOOO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B23620)
 
-inline static constexpr unsigned int JKHLPOBHOOO_TypeDefinitionIndex = 55349;
+inline static constexpr unsigned int JKHLPOBHOOO_TypeDefinitionIndex = 56532;
 
 	class JKHLPOBHOOO
 	{

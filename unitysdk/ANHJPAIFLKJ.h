@@ -7,22 +7,22 @@
 class LJFHKAJPFNE;
 namespace UnityEngine { class Camera; }
 
-#define ANHJPAIFLKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1558C3E0)
-#define ANHJPAIFLKJ_MAELMLEBIMH_OFFSET UNITYSDK_OFFSET(0x1558C030)
-#define ANHJPAIFLKJ_MKBOIKJNJCB_OFFSET UNITYSDK_OFFSET(0x1558BFB0)
-#define ANHJPAIFLKJ_NIMPADIFBKJ_OFFSET UNITYSDK_OFFSET(0x1558BDE0)
+#define ANHJPAIFLKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A822DA0)
+#define ANHJPAIFLKJ_MAELMLEBIMH_OFFSET UNITYSDK_OFFSET(0x1A8229F0)
+#define ANHJPAIFLKJ_MKBOIKJNJCB_OFFSET UNITYSDK_OFFSET(0x1A822970)
+#define ANHJPAIFLKJ_NIMPADIFBKJ_OFFSET UNITYSDK_OFFSET(0x1A8227A0)
 
-inline static constexpr unsigned int ANHJPAIFLKJ_TypeDefinitionIndex = 73814;
+inline static constexpr unsigned int ANHJPAIFLKJ_TypeDefinitionIndex = 75940;
 
 	class ANHJPAIFLKJ : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::UnityEngine::Plane>* PLEDIKJGBHK; // 0x10
 		::System::Single DOHPGABAGNA; // 0x18
-		::System::Boolean PGOFBBMGANH; // 0x1C
-		::System::Boolean HDIMLIAJGLL; // 0x1D
+		::System::Single ECKMPJKMOHN; // 0x1C
+		::System::Boolean HDIMLIAJGLL; // 0x20
+		::System::Boolean PGOFBBMGANH; // 0x21
 		::System::Byte _padding0[0x2];
-		::System::Single ECKMPJKMOHN; // 0x20
 		::UnityEngine::Matrix4x4 BJLGJEOBJBH; // 0x24
 		// static const ::System::Object GMFHCDPBDIL; // 0x0
 		// static const ::System::Object ABEJJLFNPNH; // 0x0

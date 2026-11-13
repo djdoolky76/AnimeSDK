@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierEvent_TypeDefinitionIndex = 18238;
+	inline static constexpr unsigned int TurnBasedModifierEvent_TypeDefinitionIndex = 18400;
 
 	enum class TurnBasedModifierEvent : ::System::Int32
 	{
@@ -245,6 +245,9 @@ namespace RPG::GameCore
 		OnListenForceProcessModifierLifeStep = 235,
 		OnShieldModifierConvert = 236,
 		OnModifierTeamBlockChange = 237,
-		Count = 238,
+		OnRelationGroupMemberChange = 238,
+		OnBattlePerformStart = 239,
+		OnBattlePerformFinish = 240,
+		Count = 241,
 	};
 }

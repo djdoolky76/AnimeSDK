@@ -4,10 +4,10 @@
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Object; }
 
-#define LOCALAMBIENTVOLUME___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB831E00)
-#define LOCALAMBIENTVOLUME___C__DISPLAYCLASS1_0__UNSERIALIZEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB8344A0)
+#define LOCALAMBIENTVOLUME___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CBFC0)
+#define LOCALAMBIENTVOLUME___C__DISPLAYCLASS1_0__UNSERIALIZEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B6CE640)
 
-inline static constexpr unsigned int LocalAmbientVolume___c__DisplayClass1_0_TypeDefinitionIndex = 47467;
+inline static constexpr unsigned int LocalAmbientVolume___c__DisplayClass1_0_TypeDefinitionIndex = 48496;
 
 	class LocalAmbientVolume___c__DisplayClass1_0 : public ::System::Object
 	{

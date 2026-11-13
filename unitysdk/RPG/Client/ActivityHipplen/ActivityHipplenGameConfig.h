@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenGameConfig_TypeDefinitionIndex = 75534;
+	inline static constexpr unsigned int ActivityHipplenGameConfig_TypeDefinitionIndex = 77861;
 
 	struct alignas(8) ActivityHipplenGameConfig
 	{

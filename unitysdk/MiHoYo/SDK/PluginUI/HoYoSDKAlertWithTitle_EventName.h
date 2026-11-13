@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKAlertWithTitle_EventName_TypeDefinitionIndex = 46743;
+	inline static constexpr unsigned int HoYoSDKAlertWithTitle_EventName_TypeDefinitionIndex = 47771;
 
 	class HoYoSDKAlertWithTitle_EventName : public ::System::Object
 	{

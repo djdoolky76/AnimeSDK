@@ -5,31 +5,31 @@ namespace RPG::Client { class ActivityLocalLegendData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC52F6E0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC52F720)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDMODULE___C__GETALLEASYANDHARDCHALLENGED_B__12_0_OFFSET UNITYSDK_OFFSET(0xC52F750)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDMODULE___C__SHOWNEWCONTENTREDDOT_B__11_0_OFFSET UNITYSDK_OFFSET(0xC52F730)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7E07D0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E0810)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDMODULE___C__GETALLEASYANDHARDCHALLENGED_B__12_0_OFFSET UNITYSDK_OFFSET(0x1C7E0840)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDMODULE___C__SHOWNEWCONTENTREDDOT_B__11_0_OFFSET UNITYSDK_OFFSET(0x1C7E0820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendModule___c_TypeDefinitionIndex = 61561;
+	inline static constexpr unsigned int ActivityLocalLegendModule___c_TypeDefinitionIndex = 62958;
 
 	class ActivityLocalLegendModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityLocalLegendData*, ::System::Boolean>** StaticGet___9__12_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityLocalLegendData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C3F0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2D0F0);
 		}
 
 		static ::System::Func_2<::RPG::Client::ActivityLocalLegendData*, ::System::Boolean>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityLocalLegendData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C3F8);
+			return (::System::Func_2<::RPG::Client::ActivityLocalLegendData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2D0F8);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::ActivityLocalLegendData*, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2C400);
+			return (::System::Func_2<::RPG::Client::ActivityLocalLegendData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2D100);
 		}
 
 		static ::System::Void _cctor()

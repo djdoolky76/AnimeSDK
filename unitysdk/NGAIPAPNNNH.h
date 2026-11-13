@@ -6,11 +6,11 @@ class NGAIPAPNNNH;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define NGAIPAPNNNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D6FB0)
-#define NGAIPAPNNNH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1D6FF0)
-#define NGAIPAPNNNH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D6F50)
+#define NGAIPAPNNNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E742D20)
+#define NGAIPAPNNNH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E742D60)
+#define NGAIPAPNNNH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E742CC0)
 
-inline static constexpr unsigned int NGAIPAPNNNH_TypeDefinitionIndex = 23203;
+inline static constexpr unsigned int NGAIPAPNNNH_TypeDefinitionIndex = 23634;
 
 	class NGAIPAPNNNH : public ::RPG::GameCore::TaskConfig
 	{
@@ -18,6 +18,7 @@ inline static constexpr unsigned int NGAIPAPNNNH_TypeDefinitionIndex = 23203;
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* DNCFBGANPCD; // 0x18
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 		::System::Boolean BCOKPOLAFCG; // 0x28
+		::System::Boolean JHLNDMMBMJP; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NGAIPAPNNNH_CTOR_OFFSET))(this);

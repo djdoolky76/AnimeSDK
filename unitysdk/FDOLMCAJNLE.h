@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByWaveStageCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FDOLMCAJNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x156D5340)
-#define FDOLMCAJNLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156D5420)
+#define FDOLMCAJNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C03BBE0)
+#define FDOLMCAJNLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C03BCC0)
 
-inline static constexpr unsigned int FDOLMCAJNLE_TypeDefinitionIndex = 58540;
+inline static constexpr unsigned int FDOLMCAJNLE_TypeDefinitionIndex = 59805;
 
 	class FDOLMCAJNLE
 	{

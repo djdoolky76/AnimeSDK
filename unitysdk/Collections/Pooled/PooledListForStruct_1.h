@@ -5,7 +5,7 @@ namespace System::Buffers { template <typename T> class ArrayPool_1; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledListForStruct_1_TypeDefinitionIndex = 5116;
+	inline static constexpr unsigned int PooledListForStruct_1_TypeDefinitionIndex = 5121;
 
 	template <typename T>
 	class PooledListForStruct_1 : public ::System::Object

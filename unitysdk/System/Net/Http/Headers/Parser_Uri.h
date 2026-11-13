@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace System { class Uri; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_URI_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE2A370)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_URI_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1FFC8D20)
 
 namespace System::Net::Http::Headers
 {

@@ -6,17 +6,17 @@ class JFEFADICJCM;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define JFEFADICJCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF53A0)
-#define JFEFADICJCM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CFF53B0)
-#define JFEFADICJCM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CFF5370)
+#define JFEFADICJCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59B4E0)
+#define JFEFADICJCM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E59B4F0)
+#define JFEFADICJCM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E59B4B0)
 
-inline static constexpr unsigned int JFEFADICJCM_TypeDefinitionIndex = 21434;
+inline static constexpr unsigned int JFEFADICJCM_TypeDefinitionIndex = 21777;
 
 	class JFEFADICJCM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* MNMHMECGDAK; // 0x18
-		::Il2CppArray<::System::String*>* BOLBCGBEBPG; // 0x20
+		::Il2CppArray<::System::String*>* BOLBCGBEBPG; // 0x18
+		::RPG::GameCore::DynamicString* MNMHMECGDAK; // 0x20
 		::System::Boolean MOKNCFJICIC; // 0x28
 		::System::Void _ctor()
 		{

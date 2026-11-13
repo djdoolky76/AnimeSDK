@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonopolyEventOptionDataItem; }
 
-#define RPG_CLIENT_MONOPOLYEVENTDATAITEM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD87F670)
-#define RPG_CLIENT_MONOPOLYEVENTDATAITEM___C__DISPLAYCLASS3_0__GETOPTIONDATAITEM_B__0_OFFSET UNITYSDK_OFFSET(0xD87FD10)
+#define RPG_CLIENT_MONOPOLYEVENTDATAITEM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7ED070)
+#define RPG_CLIENT_MONOPOLYEVENTDATAITEM___C__DISPLAYCLASS3_0__GETOPTIONDATAITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1D7ED710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyEventDataItem___c__DisplayClass3_0_TypeDefinitionIndex = 66251;
+	inline static constexpr unsigned int MonopolyEventDataItem___c__DisplayClass3_0_TypeDefinitionIndex = 68187;
 
 	class MonopolyEventDataItem___c__DisplayClass3_0 : public ::System::Object
 	{

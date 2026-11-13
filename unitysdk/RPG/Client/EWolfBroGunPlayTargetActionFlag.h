@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EWolfBroGunPlayTargetActionFlag_TypeDefinitionIndex = 68689;
+	inline static constexpr unsigned int EWolfBroGunPlayTargetActionFlag_TypeDefinitionIndex = 70641;
 
 	enum class EWolfBroGunPlayTargetActionFlag : ::System::Int32
 	{

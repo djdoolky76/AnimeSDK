@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsElfRestaurantFarmPlantFull; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KAAECPHEDBE_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C93F0)
-#define KAAECPHEDBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2C9420)
+#define KAAECPHEDBE_CTOR_OFFSET UNITYSDK_OFFSET(0x19DA5410)
+#define KAAECPHEDBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19DA5440)
 
-inline static constexpr unsigned int KAAECPHEDBE_TypeDefinitionIndex = 54651;
+inline static constexpr unsigned int KAAECPHEDBE_TypeDefinitionIndex = 55817;
 
 	class KAAECPHEDBE
 	{

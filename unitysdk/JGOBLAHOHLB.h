@@ -7,26 +7,30 @@ namespace Google::Protobuf::Collections { template <typename T1, typename T2> cl
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JGOBLAHOHLB_BBIMDNBFOCJ_OFFSET UNITYSDK_OFFSET(0xB19F6B0)
-#define JGOBLAHOHLB_CTOR_OFFSET UNITYSDK_OFFSET(0xB19FC80)
-#define JGOBLAHOHLB_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xB19F400)
-#define JGOBLAHOHLB_JCDLGHGLDEL_OFFSET UNITYSDK_OFFSET(0xB19F360)
-#define JGOBLAHOHLB_LAEELDNCGHL_OFFSET UNITYSDK_OFFSET(0xB19EDF0)
-#define JGOBLAHOHLB_LHFHPPJCEGA_OFFSET UNITYSDK_OFFSET(0xB19FB60)
-#define JGOBLAHOHLB_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xB19F2A0)
-#define JGOBLAHOHLB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB19F1B0)
-#define JGOBLAHOHLB_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xB19EE30)
+#define JGOBLAHOHLB_BBIMDNBFOCJ_OFFSET UNITYSDK_OFFSET(0x1935A7E0)
+#define JGOBLAHOHLB_CTOR_OFFSET UNITYSDK_OFFSET(0x19359D60)
+#define JGOBLAHOHLB_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0x1935A460)
+#define JGOBLAHOHLB_IAHKPNOENCE_OFFSET UNITYSDK_OFFSET(0x1935A6F0)
+#define JGOBLAHOHLB_JCDLGHGLDEL_OFFSET UNITYSDK_OFFSET(0x1935A3C0)
+#define JGOBLAHOHLB_KKADFBHIPKI_OFFSET UNITYSDK_OFFSET(0x1935AE70)
+#define JGOBLAHOHLB_LAEELDNCGHL_OFFSET UNITYSDK_OFFSET(0x19359E40)
+#define JGOBLAHOHLB_LHFHPPJCEGA_OFFSET UNITYSDK_OFFSET(0x1935AC90)
+#define JGOBLAHOHLB_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1935A300)
+#define JGOBLAHOHLB_PFAPFKDPDMO_OFFSET UNITYSDK_OFFSET(0x1935ADA0)
+#define JGOBLAHOHLB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1935A210)
+#define JGOBLAHOHLB_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x19359E80)
 
-inline static constexpr unsigned int JGOBLAHOHLB_TypeDefinitionIndex = 56294;
+inline static constexpr unsigned int JGOBLAHOHLB_TypeDefinitionIndex = 57508;
 
 	class JGOBLAHOHLB : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* GJJBKFGELLP; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* IHFMCMFBHLH; // 0x18
-		::System::Void _ctor()
+		::System::Int32 BNPCLOPOJAC; // 0x20
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JGOBLAHOHLB_CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + JGOBLAHOHLB_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* LAEELDNCGHL()
@@ -67,6 +71,21 @@ inline static constexpr unsigned int JGOBLAHOHLB_TypeDefinitionIndex = 56294;
 		::System::Void LHFHPPJCEGA(::System::String* a1, ::System::UInt32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + JGOBLAHOHLB_LHFHPPJCEGA_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::GameCore::FixPoint KKADFBHIPKI()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + JGOBLAHOHLB_KKADFBHIPKI_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint PFAPFKDPDMO(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JGOBLAHOHLB_PFAPFKDPDMO_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 IAHKPNOENCE(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JGOBLAHOHLB_IAHKPNOENCE_OFFSET))(this, a1);
 		}
 
 	};

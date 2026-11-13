@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_INFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE554B0)
+#define MIHOYO_SDK_INFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B69E210)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Info_TypeDefinitionIndex = 8226;
+	inline static constexpr unsigned int Info_TypeDefinitionIndex = 8235;
 
 	class Info : public ::System::Object
 	{

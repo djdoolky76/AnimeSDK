@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_HYPERTEXTLINK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD32A550)
-#define RPG_CLIENT_HYPERTEXTLINK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD32A590)
-#define RPG_CLIENT_HYPERTEXTLINK___C__UPDATEQUADIMAGE_B__14_0_OFFSET UNITYSDK_OFFSET(0xD32A5A0)
+#define RPG_CLIENT_HYPERTEXTLINK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17051970)
+#define RPG_CLIENT_HYPERTEXTLINK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x170519B0)
+#define RPG_CLIENT_HYPERTEXTLINK___C__UPDATEQUADIMAGE_B__14_0_OFFSET UNITYSDK_OFFSET(0x170519C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HyperTextLink___c_TypeDefinitionIndex = 72542;
+	inline static constexpr unsigned int HyperTextLink___c_TypeDefinitionIndex = 74621;
 
 	class HyperTextLink___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13E30);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x22450);
 		}
 
 		static ::System::Predicate_1<::UnityEngine::UI::Image*>** StaticGet___9__14_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::UI::Image*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13E38);
+			return (::System::Predicate_1<::UnityEngine::UI::Image*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x22458);
 		}
 
 		static ::System::Void _cctor()

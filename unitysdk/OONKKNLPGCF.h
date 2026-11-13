@@ -4,17 +4,17 @@
 class FCOEMCEDLNL;
 class OONKKNLPGCF;
 
-#define OONKKNLPGCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D28C570)
-#define OONKKNLPGCF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D28C420)
+#define OONKKNLPGCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1E4270)
+#define OONKKNLPGCF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F1E4120)
 
-inline static constexpr unsigned int OONKKNLPGCF_TypeDefinitionIndex = 12006;
+inline static constexpr unsigned int OONKKNLPGCF_TypeDefinitionIndex = 12063;
 
 	class OONKKNLPGCF : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FACDDCMCMIP; // 0x10
-		::System::UInt32 KJIFHEPDMEI; // 0x18
-		::System::UInt32 AAGKEBFHLMC; // 0x1C
+		::System::UInt32 AAGKEBFHLMC; // 0x18
+		::System::UInt32 KJIFHEPDMEI; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OONKKNLPGCF_CTOR_OFFSET))(this);

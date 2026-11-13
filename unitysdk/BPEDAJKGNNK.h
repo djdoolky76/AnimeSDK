@@ -5,20 +5,20 @@ namespace RPG::GameCore { class CancelMazePuzzleChallenge; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BPEDAJKGNNK_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A2510)
-#define BPEDAJKGNNK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1A2520)
-#define BPEDAJKGNNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1A2560)
-#define BPEDAJKGNNK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1A2740)
-#define BPEDAJKGNNK_TICK_OFFSET UNITYSDK_OFFSET(0xC1A2790)
+#define BPEDAJKGNNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B600980)
+#define BPEDAJKGNNK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B600990)
+#define BPEDAJKGNNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B6009D0)
+#define BPEDAJKGNNK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B600BB0)
+#define BPEDAJKGNNK_TICK_OFFSET UNITYSDK_OFFSET(0x1B600C00)
 
-inline static constexpr unsigned int BPEDAJKGNNK_TypeDefinitionIndex = 52631;
+inline static constexpr unsigned int BPEDAJKGNNK_TypeDefinitionIndex = 53738;
 
 	class BPEDAJKGNNK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CancelMazePuzzleChallenge* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::PropComponent* GBLNDEKFNNJ; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::CancelMazePuzzleChallenge* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::PropComponent* GBLNDEKFNNJ; // 0x28
 		::System::UInt32 DNCPEJNPCBC; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CancelMazePuzzleChallenge* a2)
 		{

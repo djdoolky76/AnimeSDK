@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PauseEntityFollowAttach; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ELPLMEGAJKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1551E0C0)
-#define ELPLMEGAJKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1551E0F0)
+#define ELPLMEGAJKA_CTOR_OFFSET UNITYSDK_OFFSET(0x199B5070)
+#define ELPLMEGAJKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199B50A0)
 
-inline static constexpr unsigned int ELPLMEGAJKA_TypeDefinitionIndex = 55256;
+inline static constexpr unsigned int ELPLMEGAJKA_TypeDefinitionIndex = 56438;
 
 	class ELPLMEGAJKA
 	{

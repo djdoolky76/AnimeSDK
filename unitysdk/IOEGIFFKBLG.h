@@ -6,21 +6,21 @@ class GIPELBHHIHI;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define IOEGIFFKBLG_CTOR_OFFSET UNITYSDK_OFFSET(0x164F2800)
-#define IOEGIFFKBLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164F2900)
-#define IOEGIFFKBLG_DOONENTER_OFFSET UNITYSDK_OFFSET(0x164F29A0)
-#define IOEGIFFKBLG_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x164F2A20)
+#define IOEGIFFKBLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6026D0)
+#define IOEGIFFKBLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A6027D0)
+#define IOEGIFFKBLG_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1A602870)
+#define IOEGIFFKBLG_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1A6028F0)
 
-inline static constexpr unsigned int IOEGIFFKBLG_TypeDefinitionIndex = 60593;
+inline static constexpr unsigned int IOEGIFFKBLG_TypeDefinitionIndex = 61970;
 
 	class IOEGIFFKBLG : public ::EDLDHDMLJDH
 	{
 	public:
 		::GIPELBHHIHI* NLOIFCLPHAC; // 0xA0
 		::System::String* LOHNGOHDLEK; // 0xA8
-		::System::UInt32 JGGDKOCIEGH; // 0xB0
-		::System::UInt32 PEEFHNHDBMF; // 0xB4
-		::System::UInt32 JAGLDFFBENK; // 0xB8
+		::System::UInt32 PEEFHNHDBMF; // 0xB0
+		::System::UInt32 JAGLDFFBENK; // 0xB4
+		::System::UInt32 JGGDKOCIEGH; // 0xB8
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::String* a4, ::System::UInt32 a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32, ::System::UInt32, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + IOEGIFFKBLG_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

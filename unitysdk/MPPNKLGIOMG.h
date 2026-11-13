@@ -5,17 +5,17 @@ class EOEELFBJNBG;
 class FCOEMCEDLNL;
 class MPPNKLGIOMG;
 
-#define MPPNKLGIOMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B7310)
-#define MPPNKLGIOMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B7180)
+#define MPPNKLGIOMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E889C60)
+#define MPPNKLGIOMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E889AD0)
 
-inline static constexpr unsigned int MPPNKLGIOMG_TypeDefinitionIndex = 13505;
+inline static constexpr unsigned int MPPNKLGIOMG_TypeDefinitionIndex = 13598;
 
 	class MPPNKLGIOMG : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::EOEELFBJNBG*>* MGNHKOHFLPO; // 0x10
-		::System::UInt32 PNPJBPCMINL; // 0x18
-		::System::UInt32 PIKLFGGHKGD; // 0x1C
+		::System::UInt32 PIKLFGGHKGD; // 0x18
+		::System::UInt32 PNPJBPCMINL; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MPPNKLGIOMG_CTOR_OFFSET))(this);

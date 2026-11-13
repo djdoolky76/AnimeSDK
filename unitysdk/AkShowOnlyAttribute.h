@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define AKSHOWONLYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5934D0)
+#define AKSHOWONLYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F323E00)
 
-inline static constexpr unsigned int AkShowOnlyAttribute_TypeDefinitionIndex = 44851;
+inline static constexpr unsigned int AkShowOnlyAttribute_TypeDefinitionIndex = 45926;
 
 	class AkShowOnlyAttribute : public ::UnityEngine::PropertyAttribute
 	{

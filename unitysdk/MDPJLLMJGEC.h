@@ -7,18 +7,18 @@ class FCOEMCEDLNL;
 class MDPJLLMJGEC;
 namespace System { class String; }
 
-#define MDPJLLMJGEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D11F350)
-#define MDPJLLMJGEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D11F140)
+#define MDPJLLMJGEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB95690)
+#define MDPJLLMJGEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1BB95480)
 
-inline static constexpr unsigned int MDPJLLMJGEC_TypeDefinitionIndex = 15396;
+inline static constexpr unsigned int MDPJLLMJGEC_TypeDefinitionIndex = 15552;
 
 	class MDPJLLMJGEC : public ::System::Object
 	{
 	public:
 		::System::String* FBKAMIHGLFK; // 0x10
-		::System::UInt32 PHFMCACHFIJ; // 0x18
-		::RPG::GameCore::TutorialPlatformType FLEADHOPGGN; // 0x1C
-		::RPG::Client::TextID PJHMJKEIGOA; // 0x20
+		::RPG::Client::TextID PJHMJKEIGOA; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x28
+		::RPG::GameCore::TutorialPlatformType FLEADHOPGGN; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDPJLLMJGEC_CTOR_OFFSET))(this);

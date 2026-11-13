@@ -5,22 +5,23 @@ namespace RPG::GameCore { class IdleLiveCLTriggerRow; }
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define DIJLHCMEPDE_CTOR_OFFSET UNITYSDK_OFFSET(0xF205E80)
-#define DIJLHCMEPDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF205F30)
-#define DIJLHCMEPDE_DLFDEMDCBAH_OFFSET UNITYSDK_OFFSET(0xF205F80)
-#define DIJLHCMEPDE_HGHFKLCGJLP_OFFSET UNITYSDK_OFFSET(0xF2060F0)
-#define DIJLHCMEPDE_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0xF206160)
-#define DIJLHCMEPDE_KEKLIKEIHLB_OFFSET UNITYSDK_OFFSET(0xF206040)
+#define DIJLHCMEPDE_CTOR_OFFSET UNITYSDK_OFFSET(0x18EC0340)
+#define DIJLHCMEPDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18EC03F0)
+#define DIJLHCMEPDE_DLFDEMDCBAH_OFFSET UNITYSDK_OFFSET(0x18EC0440)
+#define DIJLHCMEPDE_HGHFKLCGJLP_OFFSET UNITYSDK_OFFSET(0x18EC05B0)
+#define DIJLHCMEPDE_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0x18EC0620)
+#define DIJLHCMEPDE_KEKLIKEIHLB_OFFSET UNITYSDK_OFFSET(0x18EC0500)
 
-inline static constexpr unsigned int DIJLHCMEPDE_TypeDefinitionIndex = 75461;
+inline static constexpr unsigned int DIJLHCMEPDE_TypeDefinitionIndex = 77788;
 
 	class DIJLHCMEPDE : public ::System::Object
 	{
 	public:
 		::System::Action* LIOAPMDFLPL; // 0x10
-		::System::Int32 NEMONPEMLDP; // 0x18
-		::System::Int32 JHDFLJHFHEI; // 0x1C
-		::System::Boolean AFLGDFPEMNP; // 0x20
+		::System::Boolean AFLGDFPEMNP; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Int32 NEMONPEMLDP; // 0x1C
+		::System::Int32 JHDFLJHFHEI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::IdleLiveCLTriggerRow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveCLTriggerRow*))((::PBYTE)hIl2Cpp + DIJLHCMEPDE_CTOR_OFFSET))(this, a1);

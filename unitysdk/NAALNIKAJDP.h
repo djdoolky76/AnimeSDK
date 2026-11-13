@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TutorialB51RacingGameButtonType.h"
 
-#define NAALNIKAJDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED10)
+#define NAALNIKAJDP_CTOR_OFFSET UNITYSDK_OFFSET(0x653400)
 
-inline static constexpr unsigned int NAALNIKAJDP_TypeDefinitionIndex = 58813;
+inline static constexpr unsigned int NAALNIKAJDP_TypeDefinitionIndex = 60081;
 
 	struct alignas(4) NAALNIKAJDP
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::CustomRP { class CRPGraphicsSettingsData_LocalLightLOD; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSPERPLATFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xDE20070)
+#define RPG_CLIENT_RPGQUALITYSETTINGSPERPLATFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1906B5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsPerPlatform_TypeDefinitionIndex = 67939;
+	inline static constexpr unsigned int RPGQualitySettingsPerPlatform_TypeDefinitionIndex = 69885;
 
 	class RPGQualitySettingsPerPlatform : public ::System::Object
 	{

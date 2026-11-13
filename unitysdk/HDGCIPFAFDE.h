@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddReShaSwitchProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HDGCIPFAFDE_CTOR_OFFSET UNITYSDK_OFFSET(0x15C26840)
-#define HDGCIPFAFDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C26870)
+#define HDGCIPFAFDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C7220)
+#define HDGCIPFAFDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7C7250)
 
-inline static constexpr unsigned int HDGCIPFAFDE_TypeDefinitionIndex = 52328;
+inline static constexpr unsigned int HDGCIPFAFDE_TypeDefinitionIndex = 53434;
 
 	class HDGCIPFAFDE
 	{

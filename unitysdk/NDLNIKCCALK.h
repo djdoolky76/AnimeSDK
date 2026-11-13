@@ -12,56 +12,57 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NDLNIKCCALK_BIPGANGGAEC_OFFSET UNITYSDK_OFFSET(0x1EABDCE0)
-#define NDLNIKCCALK_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1EABE270)
-#define NDLNIKCCALK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EABE6C0)
-#define NDLNIKCCALK_CLONE_OFFSET UNITYSDK_OFFSET(0x1EABDC30)
-#define NDLNIKCCALK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EABDB80)
-#define NDLNIKCCALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EABDB30)
-#define NDLNIKCCALK_EGDNLCIFBKO_OFFSET UNITYSDK_OFFSET(0x1EABDCF0)
-#define NDLNIKCCALK_ENEIEIPBBPN_OFFSET UNITYSDK_OFFSET(0x1EABDCB0)
-#define NDLNIKCCALK_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1EABDDE0)
-#define NDLNIKCCALK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EABDD10)
-#define NDLNIKCCALK_FFFDGCMLLAI_OFFSET UNITYSDK_OFFSET(0x1EABDCA0)
-#define NDLNIKCCALK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EABDE70)
-#define NDLNIKCCALK_GIJCKNDLBLA_OFFSET UNITYSDK_OFFSET(0x1EABDD00)
-#define NDLNIKCCALK_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1EABDAC0)
-#define NDLNIKCCALK_LIOLLGPIICP_OFFSET UNITYSDK_OFFSET(0x1EABDC90)
-#define NDLNIKCCALK_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1EABE590)
-#define NDLNIKCCALK_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1EABE520)
-#define NDLNIKCCALK_NEJDALLPIMG_OFFSET UNITYSDK_OFFSET(0x1EABDCD0)
-#define NDLNIKCCALK_OBEMPKMPHFN_OFFSET UNITYSDK_OFFSET(0x1EABDCC0)
-#define NDLNIKCCALK_OHHLPNGBBGG_OFFSET UNITYSDK_OFFSET(0x1EABDC80)
-#define NDLNIKCCALK_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EABDB20)
-#define NDLNIKCCALK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EABDFB0)
-#define NDLNIKCCALK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EABE010)
+#define NDLNIKCCALK_BIPGANGGAEC_OFFSET UNITYSDK_OFFSET(0x203015C0)
+#define NDLNIKCCALK_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x20301B50)
+#define NDLNIKCCALK_CCTOR_OFFSET UNITYSDK_OFFSET(0x20301FB0)
+#define NDLNIKCCALK_CLONE_OFFSET UNITYSDK_OFFSET(0x20301530)
+#define NDLNIKCCALK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20301490)
+#define NDLNIKCCALK_CTOR_OFFSET UNITYSDK_OFFSET(0x20301440)
+#define NDLNIKCCALK_EGDNLCIFBKO_OFFSET UNITYSDK_OFFSET(0x20301590)
+#define NDLNIKCCALK_ENEIEIPBBPN_OFFSET UNITYSDK_OFFSET(0x20301600)
+#define NDLNIKCCALK_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x203016E0)
+#define NDLNIKCCALK_EQUALS_OFFSET UNITYSDK_OFFSET(0x20301610)
+#define NDLNIKCCALK_FFFDGCMLLAI_OFFSET UNITYSDK_OFFSET(0x203015F0)
+#define NDLNIKCCALK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x20301770)
+#define NDLNIKCCALK_GIJCKNDLBLA_OFFSET UNITYSDK_OFFSET(0x203015A0)
+#define NDLNIKCCALK_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x203013D0)
+#define NDLNIKCCALK_LIOLLGPIICP_OFFSET UNITYSDK_OFFSET(0x203015E0)
+#define NDLNIKCCALK_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x20301E80)
+#define NDLNIKCCALK_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x20301E10)
+#define NDLNIKCCALK_NEJDALLPIMG_OFFSET UNITYSDK_OFFSET(0x203015B0)
+#define NDLNIKCCALK_OBEMPKMPHFN_OFFSET UNITYSDK_OFFSET(0x20301580)
+#define NDLNIKCCALK_OHHLPNGBBGG_OFFSET UNITYSDK_OFFSET(0x203015D0)
+#define NDLNIKCCALK_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x20301430)
+#define NDLNIKCCALK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x203018A0)
+#define NDLNIKCCALK_WRITETO_OFFSET UNITYSDK_OFFSET(0x20301900)
 
-inline static constexpr unsigned int NDLNIKCCALK_TypeDefinitionIndex = 29680;
+inline static constexpr unsigned int NDLNIKCCALK_TypeDefinitionIndex = 30498;
 
 	class NDLNIKCCALK : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* PFLPFHFLBMH; // 0x18
-		::System::Int64 MFHNPAODGGN; // 0x20
-		::System::Int64 DPNKODHICIJ; // 0x28
-		::System::UInt32 DDGIBCDPLEF; // 0x30
-		::System::Boolean NBCKNGCAFCA; // 0x34
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* PFLPFHFLBMH; // 0x10
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
+		::System::Int64 DPNKODHICIJ; // 0x20
+		::System::Int64 MFHNPAODGGN; // 0x28
+		::System::Boolean NBCKNGCAFCA; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::UInt32 DDGIBCDPLEF; // 0x34
 		static ::Google::Protobuf::MessageParser_1<::NDLNIKCCALK*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::NDLNIKCCALK*>**)UnitySDK::FromName("", "NDLNIKCCALK")->GetStaticField(0x5FF00);
+			return (::Google::Protobuf::MessageParser_1<::NDLNIKCCALK*>**)UnitySDK::FromName("", "NDLNIKCCALK")->GetStaticField(0x5DEF0);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FMDLALGLENN()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "NDLNIKCCALK")->GetStaticField(0x5FF08);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "NDLNIKCCALK")->GetStaticField(0x5DEF8);
 		}
 
+		// static const ::System::Object DIFMBKCJENG; // 0x0
+		// static const ::System::Object OJMGLODBDDK; // 0x0
+		// static const ::System::Object ICGAGDOBKAM; // 0x0
 		// static const ::System::Object MNEFDLLPPHJ; // 0x0
 		// static const ::System::Object FIEMKPOELCD; // 0x0
-		// static const ::System::Object DIFMBKCJENG; // 0x0
-		// static const ::System::Object ICGAGDOBKAM; // 0x0
-		// static const ::System::Object OJMGLODBDDK; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_CTOR_OFFSET))(this);
@@ -92,6 +93,31 @@ inline static constexpr unsigned int NDLNIKCCALK_TypeDefinitionIndex = 29680;
 			return ((::NDLNIKCCALK*(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_CLONE_OFFSET))(this);
 		}
 
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* OBEMPKMPHFN()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_OBEMPKMPHFN_OFFSET))(this);
+		}
+
+		::System::UInt32 EGDNLCIFBKO()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_EGDNLCIFBKO_OFFSET))(this);
+		}
+
+		::System::Void GIJCKNDLBLA(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NDLNIKCCALK_GIJCKNDLBLA_OFFSET))(this, a1);
+		}
+
+		::System::Int64 NEJDALLPIMG()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_NEJDALLPIMG_OFFSET))(this);
+		}
+
+		::System::Void BIPGANGGAEC(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + NDLNIKCCALK_BIPGANGGAEC_OFFSET))(this, a1);
+		}
+
 		::System::Boolean OHHLPNGBBGG()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_OHHLPNGBBGG_OFFSET))(this);
@@ -110,31 +136,6 @@ inline static constexpr unsigned int NDLNIKCCALK_TypeDefinitionIndex = 29680;
 		::System::Void ENEIEIPBBPN(::System::Int64 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + NDLNIKCCALK_ENEIEIPBBPN_OFFSET))(this, a1);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* OBEMPKMPHFN()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_OBEMPKMPHFN_OFFSET))(this);
-		}
-
-		::System::Int64 NEJDALLPIMG()
-		{
-			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_NEJDALLPIMG_OFFSET))(this);
-		}
-
-		::System::Void BIPGANGGAEC(::System::Int64 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + NDLNIKCCALK_BIPGANGGAEC_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 EGDNLCIFBKO()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + NDLNIKCCALK_EGDNLCIFBKO_OFFSET))(this);
-		}
-
-		::System::Void GIJCKNDLBLA(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NDLNIKCCALK_GIJCKNDLBLA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

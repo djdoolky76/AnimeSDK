@@ -4,18 +4,18 @@
 class ECCKHOLLPPC;
 namespace System { class Object; }
 
-#define ECCKHOLLPPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E21F770)
-#define ECCKHOLLPPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E21F7B0)
-#define ECCKHOLLPPC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E21F7C0)
+#define ECCKHOLLPPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F373030)
+#define ECCKHOLLPPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F373070)
+#define ECCKHOLLPPC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F373080)
 
-inline static constexpr unsigned int ECCKHOLLPPC___c_TypeDefinitionIndex = 25200;
+inline static constexpr unsigned int ECCKHOLLPPC___c_TypeDefinitionIndex = 25678;
 
 	class ECCKHOLLPPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42030);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44FD0);
 		}
 
 		static ::System::Void _cctor()

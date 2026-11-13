@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int ChannelWriter_1_TypeDefinitionIndex = 38144;
+	inline static constexpr unsigned int ChannelWriter_1_TypeDefinitionIndex = 39073;
 
 	template <typename T>
 	class ChannelWriter_1 : public ::System::Object

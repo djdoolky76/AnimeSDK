@@ -4,18 +4,18 @@
 class BAGAOALHAJI;
 namespace System { class Object; }
 
-#define BAGAOALHAJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E786DD0)
-#define BAGAOALHAJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E786E10)
-#define BAGAOALHAJI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E786E20)
+#define BAGAOALHAJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20574BF0)
+#define BAGAOALHAJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20574C30)
+#define BAGAOALHAJI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20574C40)
 
-inline static constexpr unsigned int BAGAOALHAJI___c_TypeDefinitionIndex = 31780;
+inline static constexpr unsigned int BAGAOALHAJI___c_TypeDefinitionIndex = 32693;
 
 	class BAGAOALHAJI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C120);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41940);
 		}
 
 		static ::System::Void _cctor()

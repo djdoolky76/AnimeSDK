@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_CRASH_TypeDefinitionIndex = 46493;
+	inline static constexpr unsigned int APMC_CRASH_TypeDefinitionIndex = 47521;
 
 	class APMC_CRASH : public ::System::Object
 	{

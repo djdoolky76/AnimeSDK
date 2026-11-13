@@ -8,20 +8,20 @@ class CCDMGPLMKHJ;
 class FCOEMCEDLNL;
 class JHCAHJLOHAG;
 
-#define CCDMGPLMKHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9DBF70)
-#define CCDMGPLMKHJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9DBD30)
+#define CCDMGPLMKHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x115645C0)
+#define CCDMGPLMKHJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x11564380)
 
-inline static constexpr unsigned int CCDMGPLMKHJ_TypeDefinitionIndex = 15408;
+inline static constexpr unsigned int CCDMGPLMKHJ_TypeDefinitionIndex = 15565;
 
 	class CCDMGPLMKHJ : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::JHCAHJLOHAG*>* HHBEAPOCLPC; // 0x10
-		::System::UInt32 PPBBCGALMLJ; // 0x18
-		::System::UInt32 FAONKFODAHF; // 0x1C
-		::RPG::GameCore::RelicType EMLJEDBDDDM; // 0x20
-		::RPG::GameCore::UpgradeAvatarSubRelicType AMAPBCEEKFP; // 0x24
-		::RPG::GameCore::CombatPowerRelicRarityType GMNJOHLBFDA; // 0x28
+		::System::UInt32 FAONKFODAHF; // 0x18
+		::RPG::GameCore::RelicType EMLJEDBDDDM; // 0x1C
+		::RPG::GameCore::UpgradeAvatarSubRelicType AMAPBCEEKFP; // 0x20
+		::RPG::GameCore::CombatPowerRelicRarityType GMNJOHLBFDA; // 0x24
+		::System::UInt32 PPBBCGALMLJ; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCDMGPLMKHJ_CTOR_OFFSET))(this);

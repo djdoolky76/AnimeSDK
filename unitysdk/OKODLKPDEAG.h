@@ -4,9 +4,9 @@
 class JCLBAEHIBLA;
 class JLNOLMNPIGN;
 
-#define OKODLKPDEAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7A8A80)
+#define OKODLKPDEAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B08A1A0)
 
-inline static constexpr unsigned int OKODLKPDEAG_TypeDefinitionIndex = 36273;
+inline static constexpr unsigned int OKODLKPDEAG_TypeDefinitionIndex = 37201;
 
 	class OKODLKPDEAG : public ::System::Object
 	{

@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define OEDKBKLPANI_CTOR_OFFSET UNITYSDK_OFFSET(0xBE1EE60)
-#define OEDKBKLPANI_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xBE1EEF0)
-#define OEDKBKLPANI_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBE1EDC0)
+#define OEDKBKLPANI_CTOR_OFFSET UNITYSDK_OFFSET(0x1764C060)
+#define OEDKBKLPANI_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0x1764C0F0)
+#define OEDKBKLPANI_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1764BFC0)
 
-inline static constexpr unsigned int OEDKBKLPANI_TypeDefinitionIndex = 66226;
+inline static constexpr unsigned int OEDKBKLPANI_TypeDefinitionIndex = 68162;
 
 	class OEDKBKLPANI : public ::System::Object
 	{
 	public:
-		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x10
-		::System::UInt32 AIKAPJELHNK; // 0x14
+		::System::UInt32 AIKAPJELHNK; // 0x10
+		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x14
 		::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Proto::MonopolyActionResult*))((::PBYTE)hIl2Cpp + OEDKBKLPANI_CTOR_OFFSET))(this, a1);

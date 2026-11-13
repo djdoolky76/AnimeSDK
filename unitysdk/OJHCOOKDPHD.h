@@ -11,47 +11,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OJHCOOKDPHD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D25BC10)
-#define OJHCOOKDPHD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D25C1D0)
-#define OJHCOOKDPHD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D25BD80)
-#define OJHCOOKDPHD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D25B670)
-#define OJHCOOKDPHD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D25B900)
-#define OJHCOOKDPHD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D25BE20)
-#define OJHCOOKDPHD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D25BE70)
-#define OJHCOOKDPHD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D25BC50)
-#define OJHCOOKDPHD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D25B8A0)
-#define OJHCOOKDPHD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D25BA70)
-#define OJHCOOKDPHD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D25BCE0)
-#define OJHCOOKDPHD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D25B5F0)
+#define OJHCOOKDPHD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1EA02370)
+#define OJHCOOKDPHD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA02930)
+#define OJHCOOKDPHD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1EA024E0)
+#define OJHCOOKDPHD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1EA01DD0)
+#define OJHCOOKDPHD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1EA02060)
+#define OJHCOOKDPHD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1EA02580)
+#define OJHCOOKDPHD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1EA025D0)
+#define OJHCOOKDPHD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1EA023B0)
+#define OJHCOOKDPHD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1EA02000)
+#define OJHCOOKDPHD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1EA021D0)
+#define OJHCOOKDPHD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1EA02440)
+#define OJHCOOKDPHD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EA01D50)
 
-inline static constexpr unsigned int OJHCOOKDPHD_TypeDefinitionIndex = 14516;
+inline static constexpr unsigned int OJHCOOKDPHD_TypeDefinitionIndex = 14671;
 
 	class OJHCOOKDPHD : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MMLMAKEPJLP*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x482F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MMLMAKEPJLP*>**)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x58200);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x482F8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x58208);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MMLMAKEPJLP*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MMLMAKEPJLP*>**)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x48300);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x58210);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x10D80);
+			return (::System::Byte*)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x12B90);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x10D81);
+			return (::System::Boolean*)UnitySDK::FromName("", "OJHCOOKDPHD")->GetStaticField(0x12B91);
 		}
 
 		static ::System::Void _cctor()

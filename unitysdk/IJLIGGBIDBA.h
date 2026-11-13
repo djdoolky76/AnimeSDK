@@ -4,15 +4,15 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define IJLIGGBIDBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB494D0)
+#define IJLIGGBIDBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC36320)
 
-inline static constexpr unsigned int IJLIGGBIDBA_TypeDefinitionIndex = 43687;
+inline static constexpr unsigned int IJLIGGBIDBA_TypeDefinitionIndex = 44670;
 
 	class IJLIGGBIDBA : public ::System::Object
 	{
 	public:
-		::System::String* GINFOPOAKHK; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x10
+		::System::String* GINFOPOAKHK; // 0x18
 		::System::UInt32 BOKJJKFCFME; // 0x20
 		::System::Void _ctor()
 		{

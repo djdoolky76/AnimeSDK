@@ -4,20 +4,20 @@
 namespace Proto { class EraFlipperSnapshot; }
 namespace System { class Object; }
 
-#define PROTO_ERAFLIPPERSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFC34C0)
-#define PROTO_ERAFLIPPERSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC3500)
-#define PROTO_ERAFLIPPERSNAPSHOT___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DFC3510)
+#define PROTO_ERAFLIPPERSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C1B10)
+#define PROTO_ERAFLIPPERSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C1B50)
+#define PROTO_ERAFLIPPERSNAPSHOT___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F4C1B60)
 
 namespace Proto
 {
-	inline static constexpr unsigned int EraFlipperSnapshot___c_TypeDefinitionIndex = 25845;
+	inline static constexpr unsigned int EraFlipperSnapshot___c_TypeDefinitionIndex = 26342;
 
 	class EraFlipperSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4A330);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4F930);
 		}
 
 		static ::System::Void _cctor()

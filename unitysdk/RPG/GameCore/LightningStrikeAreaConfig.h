@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class LightningStrikeAreaConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A2710)
-#define RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A2210)
+#define RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F251980)
+#define RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F2514A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightningStrikeAreaConfig_TypeDefinitionIndex = 21075;
+	inline static constexpr unsigned int LightningStrikeAreaConfig_TypeDefinitionIndex = 21413;
 
 	class LightningStrikeAreaConfig : public ::RPG::GameCore::JsonConfig
 	{

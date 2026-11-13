@@ -4,15 +4,15 @@
 class AFOPMEOBPCM;
 class KOAOAKKCCPK;
 
-#define GIPOOAFFGMM_BDOGHDGNNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15A49B20)
+#define GIPOOAFFGMM_BDOGHDGNNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FAAF0)
 
-inline static constexpr unsigned int GIPOOAFFGMM_BDOGHDGNNIM_TypeDefinitionIndex = 72060;
+inline static constexpr unsigned int GIPOOAFFGMM_BDOGHDGNNIM_TypeDefinitionIndex = 74091;
 
 	class GIPOOAFFGMM_BDOGHDGNNIM : public ::System::Object
 	{
 	public:
-		::AFOPMEOBPCM* GDHMONNJFIM; // 0x10
-		::KOAOAKKCCPK* ANHEGDAFFJC; // 0x18
+		::KOAOAKKCCPK* ANHEGDAFFJC; // 0x10
+		::AFOPMEOBPCM* GDHMONNJFIM; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIPOOAFFGMM_BDOGHDGNNIM_CTOR_OFFSET))(this);

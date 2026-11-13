@@ -4,24 +4,24 @@
 namespace RPG::Client { class NotifyHandler; }
 namespace System { class Action; }
 
-inline static constexpr unsigned int NPPODGNEDLF___O_TypeDefinitionIndex = 61171;
+inline static constexpr unsigned int NPPODGNEDLF___O_TypeDefinitionIndex = 62556;
 
 	class NPPODGNEDLF___O : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::NotifyHandler** StaticGet__1____OnBattleToMazeTransit()
+		static ::RPG::Client::NotifyHandler** StaticGet__0____OnTansitionFadeInDone()
 		{
-			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("", "<>O")->GetStaticField(0x55E00);
+			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("", "<>O")->GetStaticField(0x627F0);
 		}
 
 		static ::System::Action** StaticGet__2____ShowBattleToMazeTransit()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>O")->GetStaticField(0x55E08);
+			return (::System::Action**)UnitySDK::FromName("", "<>O")->GetStaticField(0x627F8);
 		}
 
-		static ::RPG::Client::NotifyHandler** StaticGet__0____OnTansitionFadeInDone()
+		static ::RPG::Client::NotifyHandler** StaticGet__1____OnBattleToMazeTransit()
 		{
-			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("", "<>O")->GetStaticField(0x55E10);
+			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("", "<>O")->GetStaticField(0x62800);
 		}
 
 	};

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SyncWait; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SYNCWAIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB23040)
-#define RPG_GAMECORE_SYNCWAIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB23050)
-#define RPG_GAMECORE_SYNCWAIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB23010)
+#define RPG_GAMECORE_SYNCWAIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6929F0)
+#define RPG_GAMECORE_SYNCWAIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E692A00)
+#define RPG_GAMECORE_SYNCWAIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6929C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SyncWait_TypeDefinitionIndex = 20436;
+	inline static constexpr unsigned int SyncWait_TypeDefinitionIndex = 20771;
 
 	class SyncWait : public ::RPG::GameCore::TaskConfig
 	{

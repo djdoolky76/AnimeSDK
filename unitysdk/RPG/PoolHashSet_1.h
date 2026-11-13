@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int PoolHashSet_1_TypeDefinitionIndex = 5632;
+	inline static constexpr unsigned int PoolHashSet_1_TypeDefinitionIndex = 5637;
 
 	template <typename T>
 	class PoolHashSet_1

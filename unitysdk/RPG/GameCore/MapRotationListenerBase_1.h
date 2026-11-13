@@ -6,7 +6,7 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationListenerBase_1_TypeDefinitionIndex = 52991;
+	inline static constexpr unsigned int MapRotationListenerBase_1_TypeDefinitionIndex = 54150;
 
 	template <typename T>
 	class MapRotationListenerBase_1 : public ::GELIALJDFBL

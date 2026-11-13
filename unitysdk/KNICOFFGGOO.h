@@ -5,17 +5,17 @@ class KNICOFFGGOO;
 class PMDPEENJIHC;
 namespace System { class String; }
 
-#define KNICOFFGGOO_CTOR_OFFSET UNITYSDK_OFFSET(0xB57F790)
-#define KNICOFFGGOO_GOKHCCIKBHD_OFFSET UNITYSDK_OFFSET(0xB57F700)
+#define KNICOFFGGOO_CTOR_OFFSET UNITYSDK_OFFSET(0x18FA8580)
+#define KNICOFFGGOO_GOKHCCIKBHD_OFFSET UNITYSDK_OFFSET(0x18FA84F0)
 
-inline static constexpr unsigned int KNICOFFGGOO_TypeDefinitionIndex = 64779;
+inline static constexpr unsigned int KNICOFFGGOO_TypeDefinitionIndex = 66323;
 
 	class KNICOFFGGOO : public ::System::Object
 	{
 	public:
 		::PMDPEENJIHC* Base; // 0x10
-		::System::Int32 PageSize; // 0x18
-		::System::Int32 PageNum; // 0x1C
+		::System::Int32 PageNum; // 0x18
+		::System::Int32 PageSize; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNICOFFGGOO_CTOR_OFFSET))(this);

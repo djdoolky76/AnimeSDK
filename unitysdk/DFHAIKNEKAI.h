@@ -13,58 +13,58 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DFHAIKNEKAI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CCE9E60)
-#define DFHAIKNEKAI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCEAAE0)
-#define DFHAIKNEKAI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CCE9FD0)
-#define DFHAIKNEKAI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CCE9850)
-#define DFHAIKNEKAI_FEMMFBGGCKJ_OFFSET UNITYSDK_OFFSET(0x1CCEA490)
-#define DFHAIKNEKAI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CCE9AE0)
-#define DFHAIKNEKAI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CCEA070)
-#define DFHAIKNEKAI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CCEA0C0)
-#define DFHAIKNEKAI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CCE9EA0)
-#define DFHAIKNEKAI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CCE9A80)
-#define DFHAIKNEKAI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CCE9C50)
-#define DFHAIKNEKAI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCE9F30)
-#define DFHAIKNEKAI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCE97D0)
+#define DFHAIKNEKAI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E7DE0C0)
+#define DFHAIKNEKAI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7DED40)
+#define DFHAIKNEKAI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E7DE230)
+#define DFHAIKNEKAI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E7DDAB0)
+#define DFHAIKNEKAI_FEMMFBGGCKJ_OFFSET UNITYSDK_OFFSET(0x1E7DE6F0)
+#define DFHAIKNEKAI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E7DDD40)
+#define DFHAIKNEKAI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E7DE2D0)
+#define DFHAIKNEKAI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E7DE320)
+#define DFHAIKNEKAI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E7DE100)
+#define DFHAIKNEKAI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E7DDCE0)
+#define DFHAIKNEKAI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E7DDEB0)
+#define DFHAIKNEKAI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E7DE190)
+#define DFHAIKNEKAI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E7DDA30)
 
-inline static constexpr unsigned int DFHAIKNEKAI_TypeDefinitionIndex = 13681;
+inline static constexpr unsigned int DFHAIKNEKAI_TypeDefinitionIndex = 13808;
 
 	class DFHAIKNEKAI : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x451D0);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x451D8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x3CBF0);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x3CBF8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet_LKLFLPPKLKK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x451E0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet_NMGKDLKIBIJ()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x451E8);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x3CC00);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitBonusConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitBonusConfigRow*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x451F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitBonusConfigRow*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x3CC08);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet_NMGKDLKIBIJ()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x10500);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*>**)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x3CC10);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0x10501);
+			return (::System::Byte*)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0xC1A0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DFHAIKNEKAI")->GetStaticField(0xC1A1);
 		}
 
 		static ::System::Void _cctor()

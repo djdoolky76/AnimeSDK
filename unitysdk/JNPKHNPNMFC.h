@@ -7,19 +7,19 @@ class DDPFPHOOCLN;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define JNPKHNPNMFC_BDGLMELIJHO_OFFSET UNITYSDK_OFFSET(0xB28CBC0)
-#define JNPKHNPNMFC_CLEAR_OFFSET UNITYSDK_OFFSET(0xB28CAB0)
-#define JNPKHNPNMFC_CTOR_OFFSET UNITYSDK_OFFSET(0xB28CD30)
-#define JNPKHNPNMFC_DLBEJAHBOBK_OFFSET UNITYSDK_OFFSET(0xB28CD20)
-#define JNPKHNPNMFC_KNCCKBGHLAC_OFFSET UNITYSDK_OFFSET(0xB28CCD0)
+#define JNPKHNPNMFC_BDGLMELIJHO_OFFSET UNITYSDK_OFFSET(0x1B4CE370)
+#define JNPKHNPNMFC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B4CE260)
+#define JNPKHNPNMFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CE4E0)
+#define JNPKHNPNMFC_DLBEJAHBOBK_OFFSET UNITYSDK_OFFSET(0x1B4CE4D0)
+#define JNPKHNPNMFC_KNCCKBGHLAC_OFFSET UNITYSDK_OFFSET(0x1B4CE480)
 
-inline static constexpr unsigned int JNPKHNPNMFC_TypeDefinitionIndex = 69843;
+inline static constexpr unsigned int JNPKHNPNMFC_TypeDefinitionIndex = 71802;
 
 	class JNPKHNPNMFC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::FBGCEENEKND, ::DDPFPHOOCLN*>* CAAJDHDLEHI; // 0x10
-		::Il2CppArray<::UnityEngine::Material*>* FCAIIKJDOHF; // 0x18
+		::Il2CppArray<::UnityEngine::Material*>* FCAIIKJDOHF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::FBGCEENEKND, ::DDPFPHOOCLN*>* CAAJDHDLEHI; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JNPKHNPNMFC_CTOR_OFFSET))(this);

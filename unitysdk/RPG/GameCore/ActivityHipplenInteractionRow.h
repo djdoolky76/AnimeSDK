@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityHipplenInteractionRow; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33A500)
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33A370)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5177C0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E517630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenInteractionRow_TypeDefinitionIndex = 11655;
+	inline static constexpr unsigned int ActivityHipplenInteractionRow_TypeDefinitionIndex = 11706;
 
 	class ActivityHipplenInteractionRow : public ::System::Object
 	{

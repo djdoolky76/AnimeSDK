@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/RPGDepthOfField_DepthOfFieldDebugMethod.h"
 namespace RPG::CustomRP { class RPGDepthOfField; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFEFFECTPARAMETER_CAMLHIGMMJI_OFFSET UNITYSDK_OFFSET(0xF8A20)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFEFFECTPARAMETER_CAMLHIGMMJI_OFFSET UNITYSDK_OFFSET(0x3EEF250)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFEffectParameter_TypeDefinitionIndex = 48565;
+	inline static constexpr unsigned int DOFEffectParameter_TypeDefinitionIndex = 49606;
 
 	struct alignas(4) DOFEffectParameter
 	{

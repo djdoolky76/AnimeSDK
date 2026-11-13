@@ -5,12 +5,12 @@ namespace RPG::Client { class SignalTransformProcessor; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE1082F0)
-#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE1082A0)
+#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F5940)
+#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1A8F58F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonySignalAnimationMonoPlugin_TypeDefinitionIndex = 70981;
+	inline static constexpr unsigned int StageHarmonySignalAnimationMonoPlugin_TypeDefinitionIndex = 72960;
 
 	class StageHarmonySignalAnimationMonoPlugin
 	{

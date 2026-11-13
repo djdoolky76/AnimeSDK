@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DeployPuzzleFadeout; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ONLIODKCIAI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF514A0)
-#define ONLIODKCIAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF514D0)
+#define ONLIODKCIAI_CTOR_OFFSET UNITYSDK_OFFSET(0x17D812C0)
+#define ONLIODKCIAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17D812F0)
 
-inline static constexpr unsigned int ONLIODKCIAI_TypeDefinitionIndex = 58070;
+inline static constexpr unsigned int ONLIODKCIAI_TypeDefinitionIndex = 59309;
 
 	class ONLIODKCIAI
 	{

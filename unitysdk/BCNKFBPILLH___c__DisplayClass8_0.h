@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class BCNKFBPILLH;
 
-#define BCNKFBPILLH___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x162DCC30)
-#define BCNKFBPILLH___C__DISPLAYCLASS8_0__SETPROGRESSFILL_B__0_OFFSET UNITYSDK_OFFSET(0x162DCF90)
+#define BCNKFBPILLH___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19D84F20)
+#define BCNKFBPILLH___C__DISPLAYCLASS8_0__SETPROGRESSFILL_B__0_OFFSET UNITYSDK_OFFSET(0x19D85280)
 
-inline static constexpr unsigned int BCNKFBPILLH___c__DisplayClass8_0_TypeDefinitionIndex = 71624;
+inline static constexpr unsigned int BCNKFBPILLH___c__DisplayClass8_0_TypeDefinitionIndex = 73612;
 
 	class BCNKFBPILLH___c__DisplayClass8_0 : public ::System::Object
 	{

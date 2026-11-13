@@ -7,11 +7,11 @@ namespace RPG::GameCore { class HipplenIncidentCommitOptionConfig; }
 namespace RPG::GameCore { class HipplenIncidentOptionConfig; }
 namespace RPG::GameCore { class HipplenIncidentRandomOptionConfig; }
 
-#define JEAMJIEKBOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16607820)
-#define JEAMJIEKBOL_HLAFINMGAMF_OFFSET UNITYSDK_OFFSET(0x16607950)
-#define JEAMJIEKBOL_IGGHFPBDCBK_OFFSET UNITYSDK_OFFSET(0x166079C0)
+#define JEAMJIEKBOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1305F990)
+#define JEAMJIEKBOL_HLAFINMGAMF_OFFSET UNITYSDK_OFFSET(0x1305FAC0)
+#define JEAMJIEKBOL_IGGHFPBDCBK_OFFSET UNITYSDK_OFFSET(0x1305FB30)
 
-inline static constexpr unsigned int JEAMJIEKBOL_TypeDefinitionIndex = 75548;
+inline static constexpr unsigned int JEAMJIEKBOL_TypeDefinitionIndex = 77875;
 
 	class JEAMJIEKBOL : public ::System::Object
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_FIGHTFESTPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x11150)
+#define RPG_CLIENT_FIGHTFESTPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x650320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestProgress_TypeDefinitionIndex = 64195;
+	inline static constexpr unsigned int FightFestProgress_TypeDefinitionIndex = 65640;
 
 	struct alignas(4) FightFestProgress
 	{

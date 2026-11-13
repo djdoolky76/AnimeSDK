@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockOrthographicReset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GEGFEIDNFPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x159C9DC0)
-#define GEGFEIDNFPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159C9DF0)
+#define GEGFEIDNFPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17CD6510)
+#define GEGFEIDNFPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CD6540)
 
-inline static constexpr unsigned int GEGFEIDNFPJ_TypeDefinitionIndex = 58206;
+inline static constexpr unsigned int GEGFEIDNFPJ_TypeDefinitionIndex = 59462;
 
 	class GEGFEIDNFPJ
 	{

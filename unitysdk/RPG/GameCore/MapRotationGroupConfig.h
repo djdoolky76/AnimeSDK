@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationGroupConfig; }
 
-#define RPG_GAMECORE_MAPROTATIONGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D802770)
-#define RPG_GAMECORE_MAPROTATIONGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8025E0)
+#define RPG_GAMECORE_MAPROTATIONGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08C810)
+#define RPG_GAMECORE_MAPROTATIONGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F08C680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationGroupConfig_TypeDefinitionIndex = 17043;
+	inline static constexpr unsigned int MapRotationGroupConfig_TypeDefinitionIndex = 17210;
 
 	class MapRotationGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

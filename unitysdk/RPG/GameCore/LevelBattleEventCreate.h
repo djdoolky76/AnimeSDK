@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelBattleEventCreate; }
 
-#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D6FE0)
-#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D6F90)
-#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D6F40)
-#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_INIT_OFFSET UNITYSDK_OFFSET(0xE6D6EE0)
+#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_CTOR_OFFSET UNITYSDK_OFFSET(0x184914A0)
+#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18491450)
+#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18491400)
+#define RPG_GAMECORE_LEVELBATTLEEVENTCREATE_INIT_OFFSET UNITYSDK_OFFSET(0x184913A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBattleEventCreate_TypeDefinitionIndex = 56771;
+	inline static constexpr unsigned int LevelBattleEventCreate_TypeDefinitionIndex = 57995;
 
 	class LevelBattleEventCreate : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* Caster; // 0x18
-		::RPG::GameCore::GameEntity* BattleEventEntity; // 0x20
+		::RPG::GameCore::GameEntity* BattleEventEntity; // 0x18
+		::RPG::GameCore::GameEntity* Caster; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBATTLEEVENTCREATE_CTOR_OFFSET))(this);

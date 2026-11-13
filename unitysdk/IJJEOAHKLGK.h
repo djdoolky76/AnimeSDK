@@ -4,9 +4,9 @@
 class ELKFMEKPEMA;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IJJEOAHKLGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB494B0)
+#define IJJEOAHKLGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC36300)
 
-inline static constexpr unsigned int IJJEOAHKLGK_TypeDefinitionIndex = 42449;
+inline static constexpr unsigned int IJJEOAHKLGK_TypeDefinitionIndex = 43424;
 
 	class IJJEOAHKLGK : public ::System::Object
 	{

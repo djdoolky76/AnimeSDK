@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9597A0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9597E0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C___ONBINDVIEWMODEL_B__12_5_OFFSET UNITYSDK_OFFSET(0xC9597F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDF6330)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF6370)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C___ONBINDVIEWMODEL_B__12_5_OFFSET UNITYSDK_OFFSET(0x1DDF6380)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectTabControl___c_TypeDefinitionIndex = 81556;
+	inline static constexpr unsigned int ChallengeTierceStageSelectTabControl___c_TypeDefinitionIndex = 84337;
 
 	class ChallengeTierceStageSelectTabControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6A5E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x705A0);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__12_5()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x6A5E8);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.Challenge.Tierce", "<>c")->GetStaticField(0x705A8);
 		}
 
 		static ::System::Void _cctor()

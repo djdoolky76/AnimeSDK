@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QingQueEnergyBarIconType_TypeDefinitionIndex = 71827;
+	inline static constexpr unsigned int QingQueEnergyBarIconType_TypeDefinitionIndex = 73848;
 
 	enum class QingQueEnergyBarIconType : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureTargetUseSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HPIIHMHKDIE_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC18C0)
-#define HPIIHMHKDIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DC18F0)
+#define HPIIHMHKDIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3B940)
+#define HPIIHMHKDIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AF3B970)
 
-inline static constexpr unsigned int HPIIHMHKDIE_TypeDefinitionIndex = 57916;
+inline static constexpr unsigned int HPIIHMHKDIE_TypeDefinitionIndex = 59153;
 
 	class HPIIHMHKDIE
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuteMazeCharacterVOReason_TypeDefinitionIndex = 60492;
+	inline static constexpr unsigned int MuteMazeCharacterVOReason_TypeDefinitionIndex = 61782;
 
 	enum class MuteMazeCharacterVOReason : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 class BEBIJAKFNLO;
 namespace System { class Object; }
 
-#define BEBIJAKFNLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F43F0)
-#define BEBIJAKFNLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F4430)
-#define BEBIJAKFNLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8F4440)
+#define BEBIJAKFNLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9F7FF0)
+#define BEBIJAKFNLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9F8030)
+#define BEBIJAKFNLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F9F8040)
 
-inline static constexpr unsigned int BEBIJAKFNLO___c_TypeDefinitionIndex = 29420;
+inline static constexpr unsigned int BEBIJAKFNLO___c_TypeDefinitionIndex = 30136;
 
 	class BEBIJAKFNLO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52E60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48850);
 		}
 
 		static ::System::Void _cctor()

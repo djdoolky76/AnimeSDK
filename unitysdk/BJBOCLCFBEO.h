@@ -6,18 +6,18 @@ class EJLMLFDJLLH;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BJBOCLCFBEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB791DD0)
-#define BJBOCLCFBEO_GET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0xB791DA0)
-#define BJBOCLCFBEO_GET_PREDECESSORS_OFFSET UNITYSDK_OFFSET(0xB791DC0)
-#define BJBOCLCFBEO_SET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0xB791DB0)
+#define BJBOCLCFBEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD51D0)
+#define BJBOCLCFBEO_GET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0x1BAD51A0)
+#define BJBOCLCFBEO_GET_PREDECESSORS_OFFSET UNITYSDK_OFFSET(0x1BAD51C0)
+#define BJBOCLCFBEO_SET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0x1BAD51B0)
 
-inline static constexpr unsigned int BJBOCLCFBEO_TypeDefinitionIndex = 74539;
+inline static constexpr unsigned int BJBOCLCFBEO_TypeDefinitionIndex = 76687;
 
 	class BJBOCLCFBEO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::EJLMLFDJLLH*>>* _Predecessors_k__BackingField; // 0x10
-		::System::Func_2<::System::UInt32, ::System::Boolean>* _IsEndVertex_k__BackingField; // 0x18
+		::System::Func_2<::System::UInt32, ::System::Boolean>* _IsEndVertex_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::EJLMLFDJLLH*>>* _Predecessors_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BJBOCLCFBEO_CTOR_OFFSET))(this);

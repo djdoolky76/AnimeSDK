@@ -4,33 +4,33 @@
 namespace MiHoYo::SDK::Win { class HTTPServerManager; }
 namespace MiHoYo::SDK::Win { class MiHoYoSDKHTTPServer; }
 
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD27FD0)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD27FC0)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1BD27330)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_SETHTTPSERVERENABLE_OFFSET UNITYSDK_OFFSET(0x1BD27300)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1BD27700)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_STOP_OFFSET UNITYSDK_OFFSET(0x1BD27C90)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x19C78620)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x19C78610)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x19C77980)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_SETHTTPSERVERENABLE_OFFSET UNITYSDK_OFFSET(0x19C77950)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_START_OFFSET UNITYSDK_OFFSET(0x19C77D50)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_STOP_OFFSET UNITYSDK_OFFSET(0x19C782E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int HTTPServerManager_TypeDefinitionIndex = 9435;
+	inline static constexpr unsigned int HTTPServerManager_TypeDefinitionIndex = 9443;
 
 	class HTTPServerManager : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Win::MiHoYoSDKHTTPServer** StaticGet_server()
-		{
-			return (::MiHoYo::SDK::Win::MiHoYoSDKHTTPServer**)UnitySDK::FromName("MiHoYo.SDK.Win", "HTTPServerManager")->GetStaticField(0x324B0);
-		}
-
 		static ::MiHoYo::SDK::Win::HTTPServerManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::HTTPServerManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "HTTPServerManager")->GetStaticField(0x324B8);
+			return (::MiHoYo::SDK::Win::HTTPServerManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "HTTPServerManager")->GetStaticField(0x2B0E0);
+		}
+
+		static ::MiHoYo::SDK::Win::MiHoYoSDKHTTPServer** StaticGet_server()
+		{
+			return (::MiHoYo::SDK::Win::MiHoYoSDKHTTPServer**)UnitySDK::FromName("MiHoYo.SDK.Win", "HTTPServerManager")->GetStaticField(0x2B0E8);
 		}
 
 		static ::System::Boolean* StaticGet_isUsingHttpServer()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK.Win", "HTTPServerManager")->GetStaticField(0xA530);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK.Win", "HTTPServerManager")->GetStaticField(0x8B70);
 		}
 
 		// static const ::System::String* ServerResourcesPath; // 0x0

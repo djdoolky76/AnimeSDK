@@ -8,19 +8,19 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_INITDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC868DA0)
-#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_INITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC868E40)
+#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_INITDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1CD97FB0)
+#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_INITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD98050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BeneficialBuffViewData_InitData_TypeDefinitionIndex = 71187;
+	inline static constexpr unsigned int BeneficialBuffViewData_InitData_TypeDefinitionIndex = 73170;
 
 	class BeneficialBuffViewData_InitData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Modifiers; // 0x10
+		::RPG::GameCore::ElationCharacterUIConfig* ElationUIConfig; // 0x10
 		::RPG::GameCore::TurnBasedAbilityComponent* AbilityComponent; // 0x18
-		::RPG::GameCore::ElationCharacterUIConfig* ElationUIConfig; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Modifiers; // 0x20
 		::RPG::Client::BattleUITeamBlockData* BlockData; // 0x28
 		::System::Void _ctor()
 		{

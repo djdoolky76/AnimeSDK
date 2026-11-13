@@ -4,16 +4,16 @@
 class KBKJEDAFBDO;
 namespace RPG::Client { class Stage; }
 
-#define KBKJEDAFBDO___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB306400)
-#define KBKJEDAFBDO___C__DISPLAYCLASS4_0__ENTERREGION_B__0_OFFSET UNITYSDK_OFFSET(0xB30B660)
+#define KBKJEDAFBDO___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A458CB0)
+#define KBKJEDAFBDO___C__DISPLAYCLASS4_0__ENTERREGION_B__0_OFFSET UNITYSDK_OFFSET(0x1A45DF00)
 
-inline static constexpr unsigned int KBKJEDAFBDO___c__DisplayClass4_0_TypeDefinitionIndex = 60524;
+inline static constexpr unsigned int KBKJEDAFBDO___c__DisplayClass4_0_TypeDefinitionIndex = 61813;
 
 	class KBKJEDAFBDO___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::KBKJEDAFBDO* __4__this; // 0x10
-		::RPG::Client::Stage* currentStage; // 0x18
+		::RPG::Client::Stage* currentStage; // 0x10
+		::KBKJEDAFBDO* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KBKJEDAFBDO___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

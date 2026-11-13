@@ -5,21 +5,20 @@ class FCOEMCEDLNL;
 class FHDGGEBJGCO;
 namespace RPG::GameCore { class FiveDimRandomBubbleTalkInfoGroup; }
 
-#define FHDGGEBJGCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC2CF0)
-#define FHDGGEBJGCO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDC2D00)
-#define FHDGGEBJGCO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC2CB0)
+#define FHDGGEBJGCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E457B80)
+#define FHDGGEBJGCO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E457B90)
+#define FHDGGEBJGCO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E457B40)
 
-inline static constexpr unsigned int FHDGGEBJGCO_TypeDefinitionIndex = 21483;
+inline static constexpr unsigned int FHDGGEBJGCO_TypeDefinitionIndex = 21828;
 
 	class FHDGGEBJGCO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FiveDimRandomBubbleTalkInfoGroup*>* JDJDBKFDIPB; // 0x18
-		::System::Boolean BNIMJJNOLAI; // 0x20
-		::System::Boolean LHPMNOHBIMI; // 0x21
-		::System::Byte _padding0[0x2];
-		::System::UInt32 AHGIENEMKFI; // 0x24
-		::System::Single OKILLMNGPGB; // 0x28
+		::System::UInt32 AHGIENEMKFI; // 0x20
+		::System::Single OKILLMNGPGB; // 0x24
+		::System::Boolean BNIMJJNOLAI; // 0x28
+		::System::Boolean LHPMNOHBIMI; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FHDGGEBJGCO_CTOR_OFFSET))(this);

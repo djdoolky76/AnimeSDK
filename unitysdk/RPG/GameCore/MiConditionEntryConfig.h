@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MiConditionEntryConfig; }
 
-#define RPG_GAMECORE_MICONDITIONENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8519D0)
-#define RPG_GAMECORE_MICONDITIONENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D851990)
+#define RPG_GAMECORE_MICONDITIONENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E41F0)
+#define RPG_GAMECORE_MICONDITIONENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6E41B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiConditionEntryConfig_TypeDefinitionIndex = 17072;
+	inline static constexpr unsigned int MiConditionEntryConfig_TypeDefinitionIndex = 17239;
 
 	class MiConditionEntryConfig : public ::RPG::GameCore::JsonConfig
 	{

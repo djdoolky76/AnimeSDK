@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftDiyViewEventType_TypeDefinitionIndex = 79615;
+	inline static constexpr unsigned int MechCraftDiyViewEventType_TypeDefinitionIndex = 82392;
 
 	enum class MechCraftDiyViewEventType : ::System::Int32
 	{

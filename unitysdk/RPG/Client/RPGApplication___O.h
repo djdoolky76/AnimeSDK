@@ -5,14 +5,14 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGApplication___O_TypeDefinitionIndex = 69493;
+	inline static constexpr unsigned int RPGApplication___O_TypeDefinitionIndex = 71447;
 
 	class RPGApplication___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0___Quit()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x56A00);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x68210);
 		}
 
 	};

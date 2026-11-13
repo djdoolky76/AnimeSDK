@@ -3,33 +3,33 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MuseumPropertyData; }
 
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_CLEARALLDATA_OFFSET UNITYSDK_OFFSET(0xD8FB080)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_CLEARPREVIEWDATA_OFFSET UNITYSDK_OFFSET(0xD8E88C0)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xD8FB0E0)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD8E6A80)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_CANUPDATE_OFFSET UNITYSDK_OFFSET(0xD8FB030)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_PREVIEWCURNUM_OFFSET UNITYSDK_OFFSET(0xD8FAF70)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_PREVIEWMAXNUM_OFFSET UNITYSDK_OFFSET(0xD8FAFD0)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_ISMAX_OFFSET UNITYSDK_OFFSET(0xD8E8CB0)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_CLEARALLDATA_OFFSET UNITYSDK_OFFSET(0x1C2A0A30)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_CLEARPREVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1C2A09E0)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x1C2A0A90)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A0B10)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_CANUPDATE_OFFSET UNITYSDK_OFFSET(0x1C2A0990)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_PREVIEWCURNUM_OFFSET UNITYSDK_OFFSET(0x1C2A08D0)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_PREVIEWMAXNUM_OFFSET UNITYSDK_OFFSET(0x1C2A0930)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_ISMAX_OFFSET UNITYSDK_OFFSET(0x1C29F460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumPropertyData_TypeDefinitionIndex = 66331;
+	inline static constexpr unsigned int MuseumPropertyData_TypeDefinitionIndex = 68267;
 
 	class MuseumPropertyData : public ::System::Object
 	{
 	public:
-		::System::UInt32 AddCurNum; // 0x10
-		::System::Boolean IsJustMax; // 0x14
-		::System::Boolean IsAddMaxNumMinus; // 0x15
-		::System::Boolean IsJustAdd; // 0x16
-		::System::Boolean IsAddCurNumMinus; // 0x17
-		::System::UInt32 AddMaxNum; // 0x18
-		::System::UInt32 MaxNum; // 0x1C
-		::System::UInt32 MaxLevel; // 0x20
-		::System::UInt32 Level; // 0x24
+		::System::Boolean IsJustAdd; // 0x10
+		::System::Boolean IsAddMaxNumMinus; // 0x11
+		::System::Boolean IsAddCurNumMinus; // 0x12
+		::System::Boolean IsJustMax; // 0x13
+		::System::UInt32 AddMaxNum; // 0x14
+		::System::UInt32 MaxLevel; // 0x18
+		::System::UInt32 Level; // 0x1C
+		::System::UInt32 MaxNum; // 0x20
+		::System::UInt32 UpdateCost; // 0x24
 		::System::UInt32 CurNum; // 0x28
-		::System::UInt32 UpdateCost; // 0x2C
+		::System::UInt32 AddCurNum; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMPROPERTYDATA_CTOR_OFFSET))(this);

@@ -5,10 +5,10 @@
 class INMMPMDELKE;
 class MMBLENLAFEK;
 
-#define MMBLENLAFEK___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B9E60)
-#define MMBLENLAFEK___C__DISPLAYCLASS4_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xB9BA250)
+#define MMBLENLAFEK___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B92F490)
+#define MMBLENLAFEK___C__DISPLAYCLASS4_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x1B92F880)
 
-inline static constexpr unsigned int MMBLENLAFEK___c__DisplayClass4_0_TypeDefinitionIndex = 76799;
+inline static constexpr unsigned int MMBLENLAFEK___c__DisplayClass4_0_TypeDefinitionIndex = 79133;
 
 	class MMBLENLAFEK___c__DisplayClass4_0 : public ::System::Object
 	{

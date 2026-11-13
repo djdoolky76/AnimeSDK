@@ -4,7 +4,7 @@
 namespace R3 { template <typename T> class Observable_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int MFMHHMPPLEE_TypeDefinitionIndex = 49794;
+inline static constexpr unsigned int MFMHHMPPLEE_TypeDefinitionIndex = 50842;
 
 	class MFMHHMPPLEE : public ::System::Object
 	{

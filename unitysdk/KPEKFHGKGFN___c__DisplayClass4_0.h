@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GDADEGMMPPD;
 
-#define KPEKFHGKGFN___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5AF7C0)
-#define KPEKFHGKGFN___C__DISPLAYCLASS4_0__GETSPONSOR_B__0_OFFSET UNITYSDK_OFFSET(0xB5AFCB0)
+#define KPEKFHGKGFN___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1911FF60)
+#define KPEKFHGKGFN___C__DISPLAYCLASS4_0__GETSPONSOR_B__0_OFFSET UNITYSDK_OFFSET(0x19120450)
 
-inline static constexpr unsigned int KPEKFHGKGFN___c__DisplayClass4_0_TypeDefinitionIndex = 80339;
+inline static constexpr unsigned int KPEKFHGKGFN___c__DisplayClass4_0_TypeDefinitionIndex = 83116;
 
 	class KPEKFHGKGFN___c__DisplayClass4_0 : public ::System::Object
 	{

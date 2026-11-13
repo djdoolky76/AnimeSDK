@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGFIREPROJECTILETARGETSNAPSHOT_GET_ISFIRSTSTAGETARGET_OFFSET UNITYSDK_OFFSET(0xE2B60)
+#define RPG_CLIENT_B51RACING_B51RACINGFIREPROJECTILETARGETSNAPSHOT_GET_ISFIRSTSTAGETARGET_OFFSET UNITYSDK_OFFSET(0x3E71370)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingFireProjectileTargetSnapshot_TypeDefinitionIndex = 81674;
+	inline static constexpr unsigned int B51RacingFireProjectileTargetSnapshot_TypeDefinitionIndex = 84455;
 
 	struct alignas(8) B51RacingFireProjectileTargetSnapshot
 	{

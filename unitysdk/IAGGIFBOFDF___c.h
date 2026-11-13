@@ -4,18 +4,18 @@
 class IAGGIFBOFDF;
 namespace System { class Object; }
 
-#define IAGGIFBOFDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5D7970)
-#define IAGGIFBOFDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D79B0)
-#define IAGGIFBOFDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E5D79C0)
+#define IAGGIFBOFDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2039DD90)
+#define IAGGIFBOFDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2039DDD0)
+#define IAGGIFBOFDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x2039DDE0)
 
-inline static constexpr unsigned int IAGGIFBOFDF___c_TypeDefinitionIndex = 25681;
+inline static constexpr unsigned int IAGGIFBOFDF___c_TypeDefinitionIndex = 26178;
 
 	class IAGGIFBOFDF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42840);
 		}
 
 		static ::System::Void _cctor()

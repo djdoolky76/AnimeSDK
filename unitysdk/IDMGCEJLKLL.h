@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define IDMGCEJLKLL_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED0120)
+#define IDMGCEJLKLL_CTOR_OFFSET UNITYSDK_OFFSET(0x17793D00)
 
-inline static constexpr unsigned int IDMGCEJLKLL_TypeDefinitionIndex = 60836;
+inline static constexpr unsigned int IDMGCEJLKLL_TypeDefinitionIndex = 62215;
 
 	class IDMGCEJLKLL : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerReturnConstValueRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERRETURNCONSTVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90B1F0)
-#define RPG_GAMECORE_PLAYERRETURNCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D90AC00)
+#define RPG_GAMECORE_PLAYERRETURNCONSTVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF75360)
+#define RPG_GAMECORE_PLAYERRETURNCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF74D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnConstValueRow_TypeDefinitionIndex = 14525;
+	inline static constexpr unsigned int PlayerReturnConstValueRow_TypeDefinitionIndex = 14680;
 
 	class PlayerReturnConstValueRow : public ::System::Object
 	{

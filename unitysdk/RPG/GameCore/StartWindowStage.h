@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class StartWindowStage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STARTWINDOWSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF15A0)
-#define RPG_GAMECORE_STARTWINDOWSTAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF15B0)
-#define RPG_GAMECORE_STARTWINDOWSTAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF1570)
+#define RPG_GAMECORE_STARTWINDOWSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C4350)
+#define RPG_GAMECORE_STARTWINDOWSTAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3C4360)
+#define RPG_GAMECORE_STARTWINDOWSTAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3C4320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartWindowStage_TypeDefinitionIndex = 21285;
+	inline static constexpr unsigned int StartWindowStage_TypeDefinitionIndex = 21628;
 
 	class StartWindowStage : public ::RPG::GameCore::TaskConfig
 	{

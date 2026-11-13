@@ -5,25 +5,25 @@ namespace RPG::Client { class IRogueTournClassicGameLevelRoom; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF8BD00)
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF8BD40)
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C___SYNCROOMSFULL_B__9_0_OFFSET UNITYSDK_OFFSET(0xDF8BD50)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C87D010)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C87D050)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C___SYNCROOMSFULL_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C87D060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournClassicGameLevelLayerData___c_TypeDefinitionIndex = 67632;
+	inline static constexpr unsigned int RogueTournClassicGameLevelLayerData___c_TypeDefinitionIndex = 69576;
 
 	class RogueTournClassicGameLevelLayerData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69D40);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72860);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelRoom*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelRoom*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69D48);
+			return (::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelRoom*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72868);
 		}
 
 		static ::System::Void _cctor()

@@ -6,16 +6,16 @@ class HNLKNLJBHDD;
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define JLMJPNBAOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB24A420)
-#define JLMJPNBAOCK_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0xB24A430)
+#define JLMJPNBAOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A098B80)
+#define JLMJPNBAOCK_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0x1A098B90)
 
-inline static constexpr unsigned int JLMJPNBAOCK_TypeDefinitionIndex = 79098;
+inline static constexpr unsigned int JLMJPNBAOCK_TypeDefinitionIndex = 81874;
 
 	class JLMJPNBAOCK : public ::System::Object
 	{
 	public:
-		::UnityEngine::Camera* IEMGKEFBPCG; // 0x10
-		::UnityEngine::Transform* GKNBCPMJHMN; // 0x18
+		::UnityEngine::Transform* GKNBCPMJHMN; // 0x10
+		::UnityEngine::Camera* IEMGKEFBPCG; // 0x18
 		::System::Single NJFJFGDCNNK; // 0x20
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Camera* a2, ::System::Single a3)
 		{

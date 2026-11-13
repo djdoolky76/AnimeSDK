@@ -9,15 +9,15 @@ class JIFJCBNMOHA;
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MKNOAOJPALD_CTOR_OFFSET UNITYSDK_OFFSET(0xB99B4D0)
+#define MKNOAOJPALD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B910160)
 
-inline static constexpr unsigned int MKNOAOJPALD_TypeDefinitionIndex = 62124;
+inline static constexpr unsigned int MKNOAOJPALD_TypeDefinitionIndex = 63537;
 
 	class MKNOAOJPALD : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LevelGraphValueSource* DGKFAHEENCC; // 0x10
-		::System::Collections::Generic::List_1<::JIFJCBNMOHA*>* KJCFCOMEBMD; // 0x18
+		::System::Collections::Generic::List_1<::JIFJCBNMOHA*>* KJCFCOMEBMD; // 0x10
+		::RPG::GameCore::LevelGraphValueSource* DGKFAHEENCC; // 0x18
 		::System::Nullable_1<::UnityEngine::Vector3> LDDBFJDDNJO; // 0x20
 		::System::Byte _padding0[0x8];
 		::System::Nullable_1<::UnityEngine::Quaternion> KHOPAMJJINE; // 0x30

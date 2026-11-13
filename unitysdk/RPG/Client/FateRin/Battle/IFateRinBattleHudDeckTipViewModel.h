@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudDeckTipViewModel_TypeDefinitionIndex = 80896;
+	inline static constexpr unsigned int IFateRinBattleHudDeckTipViewModel_TypeDefinitionIndex = 83676;
 
 	class IFateRinBattleHudDeckTipViewModel
 	{

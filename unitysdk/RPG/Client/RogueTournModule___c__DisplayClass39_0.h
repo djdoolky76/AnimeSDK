@@ -6,12 +6,12 @@ class MNKPPNJIFLL;
 namespace RPG::Client { class RogueTournModule; }
 namespace RPG::Client { template <typename T> class RPGHttpPlatformActResponse_1; }
 
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDFF6AD0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS39_0__SENDSETROGUETOURNBUILDREFLIKEHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0xE006F50)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEBDBF0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS39_0__SENDSETROGUETOURNBUILDREFLIKEHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0x1CECE010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournModule___c__DisplayClass39_0_TypeDefinitionIndex = 67801;
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass39_0_TypeDefinitionIndex = 69746;
 
 	class RogueTournModule___c__DisplayClass39_0 : public ::System::Object
 	{

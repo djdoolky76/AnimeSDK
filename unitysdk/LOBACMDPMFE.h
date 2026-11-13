@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define LOBACMDPMFE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7EB840)
+#define LOBACMDPMFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A59F230)
 
-inline static constexpr unsigned int LOBACMDPMFE_TypeDefinitionIndex = 71250;
+inline static constexpr unsigned int LOBACMDPMFE_TypeDefinitionIndex = 73227;
 
 	class LOBACMDPMFE : public ::System::Object
 	{

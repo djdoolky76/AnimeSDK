@@ -5,12 +5,12 @@ class KJHIAECCGBD;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS45_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA60760)
-#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS45_0__GETPSSESSIONDATAWITHSESSIONID_B__0_OFFSET UNITYSDK_OFFSET(0xDA612B0)
+#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS45_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1D060)
+#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS45_0__GETPSSESSIONDATAWITHSESSIONID_B__0_OFFSET UNITYSDK_OFFSET(0x1BF1DC30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PSManager___c__DisplayClass45_0_TypeDefinitionIndex = 66739;
+	inline static constexpr unsigned int PSManager___c__DisplayClass45_0_TypeDefinitionIndex = 68675;
 
 	class PSManager___c__DisplayClass45_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 namespace Spine::Unity { class SkeletonDataCompatibility_VersionInfo; }
 namespace System { class String; }
 
-#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_COMPATIBILITYPROBLEMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE6140)
-#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_COMPATIBILITYPROBLEMINFO_DESCRIPTIONSTRING_OFFSET UNITYSDK_OFFSET(0x1ECE5D40)
+#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_COMPATIBILITYPROBLEMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x191F0710)
+#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_COMPATIBILITYPROBLEMINFO_DESCRIPTIONSTRING_OFFSET UNITYSDK_OFFSET(0x191F0310)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonDataCompatibility_CompatibilityProblemInfo_TypeDefinitionIndex = 45006;
+	inline static constexpr unsigned int SkeletonDataCompatibility_CompatibilityProblemInfo_TypeDefinitionIndex = 46081;
 
 	class SkeletonDataCompatibility_CompatibilityProblemInfo : public ::System::Object
 	{

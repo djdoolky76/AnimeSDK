@@ -6,20 +6,20 @@ class BHELCIBGKGA;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define BHELCIBGKGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D50A0)
-#define BHELCIBGKGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D4CB0)
+#define BHELCIBGKGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F18E7F0)
+#define BHELCIBGKGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F18E400)
 
-inline static constexpr unsigned int BHELCIBGKGA_TypeDefinitionIndex = 22860;
+inline static constexpr unsigned int BHELCIBGKGA_TypeDefinitionIndex = 23285;
 
 	class BHELCIBGKGA : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* IKMMBBLANIC; // 0x10
+		::RPG::GameCore::DynamicFloat* IDKONBFPBLH; // 0x10
 		::RPG::GameCore::DynamicFloat* HBAMPJPOOLM; // 0x18
-		::RPG::GameCore::DynamicFloat* NEMDKBKDFDN; // 0x20
-		::RPG::GameCore::DynamicFloat* DBFCBDAFGAP; // 0x28
-		::RPG::GameCore::DynamicFloat* NHJNGNINNIL; // 0x30
-		::RPG::GameCore::DynamicFloat* IDKONBFPBLH; // 0x38
+		::RPG::GameCore::DynamicFloat* IKMMBBLANIC; // 0x20
+		::RPG::GameCore::DynamicFloat* NEMDKBKDFDN; // 0x28
+		::RPG::GameCore::DynamicFloat* DBFCBDAFGAP; // 0x30
+		::RPG::GameCore::DynamicFloat* NHJNGNINNIL; // 0x38
 		::RPG::GameCore::OrbitTargetPosType ILCCOJAOAFO; // 0x40
 		::System::Void _ctor()
 		{

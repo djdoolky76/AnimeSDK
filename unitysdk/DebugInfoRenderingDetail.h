@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine::UI { class Text; }
 
-#define DEBUGINFORENDERINGDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x12661D40)
+#define DEBUGINFORENDERINGDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x181BBF70)
 
-inline static constexpr unsigned int DebugInfoRenderingDetail_TypeDefinitionIndex = 47582;
+inline static constexpr unsigned int DebugInfoRenderingDetail_TypeDefinitionIndex = 48611;
 
 	class DebugInfoRenderingDetail : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,7 +21,7 @@ inline static constexpr unsigned int DebugInfoRenderingDetail_TypeDefinitionInde
 		::UnityEngine::UI::Text* FDMBMMDAOHE; // 0x30
 		static ::System::Int32* StaticGet_showMode()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DebugInfoRenderingDetail")->GetStaticField(0x15D90);
+			return (::System::Int32*)UnitySDK::FromName("", "DebugInfoRenderingDetail")->GetStaticField(0x165C0);
 		}
 
 		::System::Void _ctor()

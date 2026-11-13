@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMonsterViewPhase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NEBHECDJLOL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB51EF0)
-#define NEBHECDJLOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB51F20)
+#define NEBHECDJLOL_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD1080)
+#define NEBHECDJLOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FD10B0)
 
-inline static constexpr unsigned int NEBHECDJLOL_TypeDefinitionIndex = 55552;
+inline static constexpr unsigned int NEBHECDJLOL_TypeDefinitionIndex = 56744;
 
 	class NEBHECDJLOL
 	{

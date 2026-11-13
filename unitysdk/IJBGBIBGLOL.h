@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define IJBGBIBGLOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB49410)
+#define IJBGBIBGLOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC36260)
 
-inline static constexpr unsigned int IJBGBIBGLOL_TypeDefinitionIndex = 42815;
+inline static constexpr unsigned int IJBGBIBGLOL_TypeDefinitionIndex = 43795;
 
 	class IJBGBIBGLOL : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

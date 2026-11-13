@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FoundationPropStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOUNDATIONPROPSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BEBA0)
-#define RPG_GAMECORE_FOUNDATIONPROPSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BEA20)
+#define RPG_GAMECORE_FOUNDATIONPROPSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B2940)
+#define RPG_GAMECORE_FOUNDATIONPROPSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B27C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FoundationPropStateConfig_TypeDefinitionIndex = 17578;
+	inline static constexpr unsigned int FoundationPropStateConfig_TypeDefinitionIndex = 17746;
 
 	class FoundationPropStateConfig : public ::RPG::GameCore::JsonConfig
 	{

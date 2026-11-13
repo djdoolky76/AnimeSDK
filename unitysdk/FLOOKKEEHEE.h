@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HAGAHJEDCHF.h"
 
-#define FLOOKKEEHEE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA42DB0)
-#define FLOOKKEEHEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA42E00)
+#define FLOOKKEEHEE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C20D570)
+#define FLOOKKEEHEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D5C0)
 
-inline static constexpr unsigned int FLOOKKEEHEE_TypeDefinitionIndex = 43487;
+inline static constexpr unsigned int FLOOKKEEHEE_TypeDefinitionIndex = 44469;
 
 	class FLOOKKEEHEE : public ::HAGAHJEDCHF
 	{

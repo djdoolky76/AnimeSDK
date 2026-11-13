@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINGROUPS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F471470)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINGROUPS_CTOR_OFFSET UNITYSDK_OFFSET(0x2092B650)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainUtility_TerrainGroups_TypeDefinitionIndex = 5346;
+	inline static constexpr unsigned int TerrainUtility_TerrainGroups_TypeDefinitionIndex = 5351;
 
 	class TerrainUtility_TerrainGroups
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElationLevelSetting; }
 
-#define RPG_GAMECORE_ELATIONLEVELSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D604EA0)
-#define RPG_GAMECORE_ELATIONLEVELSETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D604D50)
+#define RPG_GAMECORE_ELATIONLEVELSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DB950)
+#define RPG_GAMECORE_ELATIONLEVELSETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DB800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationLevelSetting_TypeDefinitionIndex = 17153;
+	inline static constexpr unsigned int ElationLevelSetting_TypeDefinitionIndex = 17320;
 
 	class ElationLevelSetting : public ::RPG::GameCore::JsonConfig
 	{

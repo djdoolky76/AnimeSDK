@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueTournPersonaStyleExpChangeParam; }
 
-#define IILNAKFNHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1643D250)
-#define IILNAKFNHPO_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1643D260)
+#define IILNAKFNHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x193DF760)
+#define IILNAKFNHPO_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x193DF770)
 
-inline static constexpr unsigned int IILNAKFNHPO_TypeDefinitionIndex = 67039;
+inline static constexpr unsigned int IILNAKFNHPO_TypeDefinitionIndex = 68983;
 
 	class IILNAKFNHPO : public ::System::Object
 	{

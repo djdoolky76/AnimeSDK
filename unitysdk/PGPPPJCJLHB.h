@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LoadLittleGameArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PGPPPJCJLHB_CTOR_OFFSET UNITYSDK_OFFSET(0xC22EDF0)
-#define PGPPPJCJLHB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC22EF40)
-#define PGPPPJCJLHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC22EE00)
-#define PGPPPJCJLHB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC22EEF0)
-#define PGPPPJCJLHB_TICK_OFFSET UNITYSDK_OFFSET(0xC22EF80)
+#define PGPPPJCJLHB_CTOR_OFFSET UNITYSDK_OFFSET(0x16DABA30)
+#define PGPPPJCJLHB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DABB80)
+#define PGPPPJCJLHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DABA40)
+#define PGPPPJCJLHB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16DABB30)
+#define PGPPPJCJLHB_TICK_OFFSET UNITYSDK_OFFSET(0x16DABBC0)
 
-inline static constexpr unsigned int PGPPPJCJLHB_TypeDefinitionIndex = 58198;
+inline static constexpr unsigned int PGPPPJCJLHB_TypeDefinitionIndex = 59453;
 
 	class PGPPPJCJLHB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::LoadLittleGameArea* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::LoadLittleGameArea* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LoadLittleGameArea* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LoadLittleGameArea*))((::PBYTE)hIl2Cpp + PGPPPJCJLHB_CTOR_OFFSET))(this, a1, a2);

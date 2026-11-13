@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetEffectAnimatorTrigger; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA815E0)
-#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA815F0)
-#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA815B0)
+#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9CEF80)
+#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F9CEF90)
+#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9CEF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEffectAnimatorTrigger_TypeDefinitionIndex = 22887;
+	inline static constexpr unsigned int SetEffectAnimatorTrigger_TypeDefinitionIndex = 23313;
 
 	class SetEffectAnimatorTrigger : public ::RPG::GameCore::TaskConfig
 	{

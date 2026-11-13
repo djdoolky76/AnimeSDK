@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class NILCNHEGMDG;
 namespace System { class String; }
 
-#define NILCNHEGMDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E60D0)
-#define NILCNHEGMDG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1E5FA0)
+#define NILCNHEGMDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E752270)
+#define NILCNHEGMDG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E752140)
 
-inline static constexpr unsigned int NILCNHEGMDG_TypeDefinitionIndex = 11661;
+inline static constexpr unsigned int NILCNHEGMDG_TypeDefinitionIndex = 11712;
 
 	class NILCNHEGMDG : public ::System::Object
 	{

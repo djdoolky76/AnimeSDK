@@ -7,14 +7,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define IFIX_CORE_EXTERNINVOKER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B99C520)
-#define IFIX_CORE_EXTERNINVOKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B99C410)
-#define IFIX_CORE_EXTERNINVOKER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B99C5C0)
-#define IFIX_CORE_EXTERNINVOKER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B99C500)
+#define IFIX_CORE_EXTERNINVOKER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E8AD040)
+#define IFIX_CORE_EXTERNINVOKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8ACF30)
+#define IFIX_CORE_EXTERNINVOKER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E8AD0E0)
+#define IFIX_CORE_EXTERNINVOKER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E8AD020)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ExternInvoker_TypeDefinitionIndex = 7138;
+	inline static constexpr unsigned int ExternInvoker_TypeDefinitionIndex = 7149;
 
 	class ExternInvoker : public ::System::MulticastDelegate
 	{

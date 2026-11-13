@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SRDEBUGGER_OPTIONDEFINITIONINITPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED0E490)
+#define SRDEBUGGER_OPTIONDEFINITIONINITPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D429B60)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int OptionDefinitionInitParams_TypeDefinitionIndex = 37954;
+	inline static constexpr unsigned int OptionDefinitionInitParams_TypeDefinitionIndex = 38883;
 
 	class OptionDefinitionInitParams : public ::System::Object
 	{

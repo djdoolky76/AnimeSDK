@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ElfEntranceAnchorConfig; }
 namespace RPG::GameCore { class ElfEntranceNPCSet; }
 namespace RPG::GameCore { class ElfEntranceObjects; }
 
-#define RPG_GAMECORE_ELFENTRANCEOBJECTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D608190)
-#define RPG_GAMECORE_ELFENTRANCEOBJECTS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D607FF0)
+#define RPG_GAMECORE_ELFENTRANCEOBJECTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DEC40)
+#define RPG_GAMECORE_ELFENTRANCEOBJECTS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DEAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfEntranceObjects_TypeDefinitionIndex = 16194;
+	inline static constexpr unsigned int ElfEntranceObjects_TypeDefinitionIndex = 16352;
 
 	class ElfEntranceObjects : public ::RPG::GameCore::JsonConfig
 	{

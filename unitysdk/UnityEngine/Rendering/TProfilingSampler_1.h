@@ -6,7 +6,7 @@ namespace UnityEngine::Rendering { template <typename T> class TProfilingSampler
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TProfilingSampler_1_TypeDefinitionIndex = 35553;
+	inline static constexpr unsigned int TProfilingSampler_1_TypeDefinitionIndex = 36481;
 
 	template <typename T>
 	class TProfilingSampler_1 : public ::UnityEngine::Rendering::ProfilingSampler

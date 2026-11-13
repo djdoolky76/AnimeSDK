@@ -6,32 +6,32 @@
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define EIGEAJKEBGK_CCTOR_OFFSET UNITYSDK_OFFSET(0x154B8DB0)
-#define EIGEAJKEBGK_GEIKBPMEHHK_OFFSET UNITYSDK_OFFSET(0x154B8D50)
+#define EIGEAJKEBGK_CCTOR_OFFSET UNITYSDK_OFFSET(0x19A926D0)
+#define EIGEAJKEBGK_GEIKBPMEHHK_OFFSET UNITYSDK_OFFSET(0x19A92670)
 
-inline static constexpr unsigned int EIGEAJKEBGK_TypeDefinitionIndex = 48986;
+inline static constexpr unsigned int EIGEAJKEBGK_TypeDefinitionIndex = 50055;
 
 	class EIGEAJKEBGK : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector3* StaticGet_BFJMPGOIEND()
-		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "EIGEAJKEBGK")->GetStaticField(0x4410);
-		}
-
 		static ::UnityEngine::LayerMask* StaticGet_NJHGKJIKBPB()
 		{
-			return (::UnityEngine::LayerMask*)UnitySDK::FromName("", "EIGEAJKEBGK")->GetStaticField(0x441C);
+			return (::UnityEngine::LayerMask*)UnitySDK::FromName("", "EIGEAJKEBGK")->GetStaticField(0x5170);
 		}
 
 		static ::UnityEngine::Color* StaticGet_COEBBAICICB()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("", "EIGEAJKEBGK")->GetStaticField(0x4420);
+			return (::UnityEngine::Color*)UnitySDK::FromName("", "EIGEAJKEBGK")->GetStaticField(0x5174);
 		}
 
 		static ::System::Boolean* StaticGet_AMLFKIFMDAF()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "EIGEAJKEBGK")->GetStaticField(0x4430);
+			return (::System::Boolean*)UnitySDK::FromName("", "EIGEAJKEBGK")->GetStaticField(0x5184);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_BFJMPGOIEND()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "EIGEAJKEBGK")->GetStaticField(0x5188);
 		}
 
 		// static const ::System::String* MHJAEKOHKEM; // 0x0

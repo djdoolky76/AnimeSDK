@@ -5,16 +5,16 @@
 class DEIMJPPODHL;
 class FCOEMCEDLNL;
 
-#define DEIMJPPODHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE46C0)
-#define DEIMJPPODHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE4460)
+#define DEIMJPPODHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F633D60)
+#define DEIMJPPODHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F633B00)
 
-inline static constexpr unsigned int DEIMJPPODHL_TypeDefinitionIndex = 11542;
+inline static constexpr unsigned int DEIMJPPODHL_TypeDefinitionIndex = 11593;
 
 	class DEIMJPPODHL : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID OENAMINOLLF; // 0x10
-		::RPG::Client::TextID NMAHGFAPENI; // 0x20
+		::RPG::Client::TextID NMAHGFAPENI; // 0x10
+		::RPG::Client::TextID OENAMINOLLF; // 0x20
 		::System::Boolean NKEJALOLCIF; // 0x30
 		::System::Byte _padding0[0x3];
 		::System::UInt32 PHFMCACHFIJ; // 0x34

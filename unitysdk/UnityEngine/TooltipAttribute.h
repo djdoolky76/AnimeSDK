@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 namespace System { class String; }
 
-#define UNITYENGINE_TOOLTIPATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F409430)
+#define UNITYENGINE_TOOLTIPATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20742150)
 
 namespace UnityEngine
 {

@@ -5,14 +5,14 @@ namespace MiHoYo::SDK { class LanguageModel; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LANGUAGEMODEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE6BEA0)
-#define MIHOYO_SDK_LANGUAGEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE67CB0)
-#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1BE66510)
-#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x1BE6BBA0)
+#define MIHOYO_SDK_LANGUAGEMODEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C323AE0)
+#define MIHOYO_SDK_LANGUAGEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C31F8F0)
+#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1C31E150)
+#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x1C3237E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 7884;
+	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 7893;
 
 	class LanguageModel : public ::System::Object
 	{
@@ -713,7 +713,7 @@ namespace MiHoYo::SDK
 		::System::String* loading; // 0x15B8
 		static ::MiHoYo::SDK::LanguageModel** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::LanguageModel**)UnitySDK::FromName("MiHoYo.SDK", "LanguageModel")->GetStaticField(0x1A00);
+			return (::MiHoYo::SDK::LanguageModel**)UnitySDK::FromName("MiHoYo.SDK", "LanguageModel")->GetStaticField(0x9020);
 		}
 
 		::System::Void _ctor()

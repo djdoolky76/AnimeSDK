@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DefaultRtPropertyValueRuleCreator_1_TypeDefinitionIndex = 54021;
+	inline static constexpr unsigned int DefaultRtPropertyValueRuleCreator_1_TypeDefinitionIndex = 55185;
 
 	template <typename T>
 	class DefaultRtPropertyValueRuleCreator_1 : public ::System::Object

@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HealPoolConfigRow; }
 
-#define RPG_GAMECORE_HEALPOOLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D728B00)
-#define RPG_GAMECORE_HEALPOOLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D728990)
+#define RPG_GAMECORE_HEALPOOLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA77C60)
+#define RPG_GAMECORE_HEALPOOLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA77AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HealPoolConfigRow_TypeDefinitionIndex = 13715;
+	inline static constexpr unsigned int HealPoolConfigRow_TypeDefinitionIndex = 13872;
 
 	class HealPoolConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 MaxHealPool; // 0x10
-		::System::UInt32 PlayerLevel; // 0x14
+		::System::UInt32 PlayerLevel; // 0x10
+		::System::UInt32 MaxHealPool; // 0x14
 		::System::UInt32 RecoverTime; // 0x18
 		::System::Void _ctor()
 		{

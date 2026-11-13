@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePerformance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKBEKIPNPGG_CTOR_OFFSET UNITYSDK_OFFSET(0xC2A4250)
-#define PKBEKIPNPGG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2A4280)
+#define PKBEKIPNPGG_CTOR_OFFSET UNITYSDK_OFFSET(0x147AF850)
+#define PKBEKIPNPGG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x147AF880)
 
-inline static constexpr unsigned int PKBEKIPNPGG_TypeDefinitionIndex = 52583;
+inline static constexpr unsigned int PKBEKIPNPGG_TypeDefinitionIndex = 53689;
 
 	class PKBEKIPNPGG
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrackPhotoIdentifyState_TypeDefinitionIndex = 60920;
+	inline static constexpr unsigned int TrackPhotoIdentifyState_TypeDefinitionIndex = 62296;
 
 	enum class TrackPhotoIdentifyState : ::System::Int32
 	{

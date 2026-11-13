@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitLastKillFinish; }
 
-#define GAJMCFJOMPF_CTOR_OFFSET UNITYSDK_OFFSET(0x15932C60)
-#define GAJMCFJOMPF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15932C70)
-#define GAJMCFJOMPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15932CB0)
-#define GAJMCFJOMPF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15932D50)
-#define GAJMCFJOMPF_TICK_OFFSET UNITYSDK_OFFSET(0x15932DA0)
+#define GAJMCFJOMPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B86E580)
+#define GAJMCFJOMPF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B86E590)
+#define GAJMCFJOMPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B86E5D0)
+#define GAJMCFJOMPF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B86E670)
+#define GAJMCFJOMPF_TICK_OFFSET UNITYSDK_OFFSET(0x1B86E6C0)
 
-inline static constexpr unsigned int GAJMCFJOMPF_TypeDefinitionIndex = 58900;
+inline static constexpr unsigned int GAJMCFJOMPF_TypeDefinitionIndex = 60173;
 
 	class GAJMCFJOMPF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::WaitLastKillFinish* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::WaitLastKillFinish* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitLastKillFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitLastKillFinish*))((::PBYTE)hIl2Cpp + GAJMCFJOMPF_CTOR_OFFSET))(this, a1, a2);

@@ -20,43 +20,43 @@ namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_APGOLAKPKPB_OFFSET UNITYSDK_OFFSET(0xE090160)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xE092BD0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xE08E5D0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CMNJJFNNPLC_OFFSET UNITYSDK_OFFSET(0xE08D070)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE0924A0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_DMKFDFGHMHG_OFFSET UNITYSDK_OFFSET(0xE08EC00)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xE08E2A0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ENIEDGAMBGN_OFFSET UNITYSDK_OFFSET(0xE08B570)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GET__ISBAKEDATACONTAINERMODE_OFFSET UNITYSDK_OFFSET(0xE08B240)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xE08B2D0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GGGIIHBKFAJ_OFFSET UNITYSDK_OFFSET(0xE0903F0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GGPIBEJPLJH_OFFSET UNITYSDK_OFFSET(0xE092320)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_HBPEOKGAFBL_OFFSET UNITYSDK_OFFSET(0xE08FED0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_HDLPCFOCKLC_OFFSET UNITYSDK_OFFSET(0xE08E8A0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_HOHBLKDLOEL_OFFSET UNITYSDK_OFFSET(0xE08EB20)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ICIHPGNCCCN_OFFSET UNITYSDK_OFFSET(0xE08B6A0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_IEDENBINHAN_OFFSET UNITYSDK_OFFSET(0xE08E9E0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_JPNAHEDJLKH_OFFSET UNITYSDK_OFFSET(0xE08F840)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_KKGAMPFPBFG_OFFSET UNITYSDK_OFFSET(0xE08F440)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_KMOEIOPHGND_OFFSET UNITYSDK_OFFSET(0xE08F630)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE08B320)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xE08CF70)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_LDABNJOLEFL_OFFSET UNITYSDK_OFFSET(0xE08FDD0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xE08E500)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0xE08E840)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_MPDKBLAAEAG_OFFSET UNITYSDK_OFFSET(0xE08D190)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE08E750)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_NJJPDFCOFAH_OFFSET UNITYSDK_OFFSET(0xE090830)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xE08B470)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_PIKMJJIHPME_OFFSET UNITYSDK_OFFSET(0xE08F160)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_PKAMJIMNLKM_OFFSET UNITYSDK_OFFSET(0xE092440)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xE08E710)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xE08CEE0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_APGOLAKPKPB_OFFSET UNITYSDK_OFFSET(0x1C08B230)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C08DC80)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0x1C089680)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CMNJJFNNPLC_OFFSET UNITYSDK_OFFSET(0x1C0880F0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C08D570)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_DMKFDFGHMHG_OFFSET UNITYSDK_OFFSET(0x1C089CB0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x1C089320)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ENIEDGAMBGN_OFFSET UNITYSDK_OFFSET(0x1C086620)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GET__ISBAKEDATACONTAINERMODE_OFFSET UNITYSDK_OFFSET(0x1C0862F0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1C086380)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GGGIIHBKFAJ_OFFSET UNITYSDK_OFFSET(0x1C08B4C0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GGPIBEJPLJH_OFFSET UNITYSDK_OFFSET(0x1C08D3F0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_HBPEOKGAFBL_OFFSET UNITYSDK_OFFSET(0x1C08AFA0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_HDLPCFOCKLC_OFFSET UNITYSDK_OFFSET(0x1C089950)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_HOHBLKDLOEL_OFFSET UNITYSDK_OFFSET(0x1C089BD0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ICIHPGNCCCN_OFFSET UNITYSDK_OFFSET(0x1C086750)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_IEDENBINHAN_OFFSET UNITYSDK_OFFSET(0x1C089A90)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_JPNAHEDJLKH_OFFSET UNITYSDK_OFFSET(0x1C08A930)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_KKGAMPFPBFG_OFFSET UNITYSDK_OFFSET(0x1C08A4D0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_KMOEIOPHGND_OFFSET UNITYSDK_OFFSET(0x1C08A6F0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C0863D0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0x1C087FF0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_LDABNJOLEFL_OFFSET UNITYSDK_OFFSET(0x1C08AEC0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x1C0895B0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0x1C0898F0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_MPDKBLAAEAG_OFFSET UNITYSDK_OFFSET(0x1C088210)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0x1C089800)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_NJJPDFCOFAH_OFFSET UNITYSDK_OFFSET(0x1C08B900)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x1C086520)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_PIKMJJIHPME_OFFSET UNITYSDK_OFFSET(0x1C08A1F0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_PKAMJIMNLKM_OFFSET UNITYSDK_OFFSET(0x1C08D510)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0x1C0897C0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x1C087F60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Scene_InstanceArrayBehavior_TypeDefinitionIndex = 70845;
+	inline static constexpr unsigned int Scene_InstanceArrayBehavior_TypeDefinitionIndex = 72824;
 
 	class Scene_InstanceArrayBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -99,129 +99,129 @@ namespace RPG::Client
 		::System::Int32 _RuntimeLastStructureHashFrame; // 0x15C
 		::UnityEngine::Animator* _CachedAnimator; // 0x160
 		::System::Boolean _AnimatorCacheValid; // 0x168
-		static ::System::Int32* StaticGet__PropID_LTZ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x156F0);
-		}
-
-		static ::System::Int32* StaticGet__PropID_LinZY2()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x156F4);
-		}
-
-		static ::System::Int32* StaticGet__Poly_DitherOn()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x156F8);
-		}
-
-		static ::System::Int32* StaticGet__Poly_IsLodSwitching()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x156FC);
-		}
-
-		static ::System::Int32* StaticGet__PropID_LinYX1()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15700);
-		}
-
-		static ::System::Int32* StaticGet__PropID_LinXZ1()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15704);
-		}
-
-		static ::System::Int32* StaticGet__PropID_LinMainUVScale()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15708);
-		}
-
-		static ::System::Int32* StaticGet__PropID_UseAtlas()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1570C);
-		}
-
 		static ::System::Int32* StaticGet__PropID_LinForceUpN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15710);
-		}
-
-		static ::System::Int32* StaticGet__PropID_RTY()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15714);
-		}
-
-		static ::System::Int32* StaticGet__PropID_LinUVOffset()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15718);
-		}
-
-		static ::System::Int32* StaticGet__PropID_ModuleSize()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1571C);
-		}
-
-		static ::System::Int32* StaticGet__PropID_InstanceScale()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15720);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x160E0);
 		}
 
 		static ::System::Int32* StaticGet__PropID_LinYZ1()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15724);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x160E4);
 		}
 
-		static ::System::Int32* StaticGet__Poly_TerrainRate()
+		static ::System::Int32* StaticGet__PropID_ModuleSize()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15728);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x160E8);
 		}
 
-		static ::System::Int32* StaticGet__Poly_DitherAlpha()
+		static ::System::Int32* StaticGet__PropID_UseAtlas()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1572C);
-		}
-
-		static ::System::Int32* StaticGet__PropID_LinXY1()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15730);
-		}
-
-		static ::System::Int32* StaticGet__PropID_RTX()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15734);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x160EC);
 		}
 
 		static ::System::Int32* StaticGet__PropID_LinXZ2()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15738);
-		}
-
-		static ::System::Int32* StaticGet__Poly_DitherFadeIn()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1573C);
-		}
-
-		static ::System::Int32* StaticGet__PropID_AtlasID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15740);
-		}
-
-		static ::System::Int32* StaticGet__PropID_RTZ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15744);
-		}
-
-		static ::System::Int32* StaticGet__Poly_DistanceType()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15748);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x160F0);
 		}
 
 		static ::System::Int32* StaticGet__Poly_AdjustAlbedo()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1574C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x160F4);
+		}
+
+		static ::System::Int32* StaticGet__PropID_AtlasID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x160F8);
 		}
 
 		static ::System::Int32* StaticGet__PropID_LinYZ2()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x15750);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x160FC);
+		}
+
+		static ::System::Int32* StaticGet__PropID_LinUVOffset()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16100);
+		}
+
+		static ::System::Int32* StaticGet__Poly_TerrainRate()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16104);
+		}
+
+		static ::System::Int32* StaticGet__PropID_InstanceScale()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16108);
+		}
+
+		static ::System::Int32* StaticGet__PropID_RTY()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1610C);
+		}
+
+		static ::System::Int32* StaticGet__PropID_LinXZ1()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16110);
+		}
+
+		static ::System::Int32* StaticGet__PropID_RTZ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16114);
+		}
+
+		static ::System::Int32* StaticGet__Poly_DistanceType()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16118);
+		}
+
+		static ::System::Int32* StaticGet__PropID_LTZ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1611C);
+		}
+
+		static ::System::Int32* StaticGet__Poly_DitherOn()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16120);
+		}
+
+		static ::System::Int32* StaticGet__PropID_LinMainUVScale()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16124);
+		}
+
+		static ::System::Int32* StaticGet__PropID_LinZY2()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16128);
+		}
+
+		static ::System::Int32* StaticGet__PropID_LinXY1()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1612C);
+		}
+
+		static ::System::Int32* StaticGet__Poly_IsLodSwitching()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16130);
+		}
+
+		static ::System::Int32* StaticGet__Poly_DitherAlpha()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16134);
+		}
+
+		static ::System::Int32* StaticGet__PropID_RTX()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16138);
+		}
+
+		static ::System::Int32* StaticGet__Poly_DitherFadeIn()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x1613C);
+		}
+
+		static ::System::Int32* StaticGet__PropID_LinYX1()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Scene_InstanceArrayBehavior")->GetStaticField(0x16140);
 		}
 
 		// static const ::System::Object kMaxBatchSize; // 0x0

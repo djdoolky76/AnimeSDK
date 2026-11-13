@@ -7,13 +7,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class SetAbilityTagMapping; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETABILITYTAGMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA64730)
-#define RPG_GAMECORE_SETABILITYTAGMAPPING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA64740)
-#define RPG_GAMECORE_SETABILITYTAGMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA64700)
+#define RPG_GAMECORE_SETABILITYTAGMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8562E0)
+#define RPG_GAMECORE_SETABILITYTAGMAPPING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F8562F0)
+#define RPG_GAMECORE_SETABILITYTAGMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F8562B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAbilityTagMapping_TypeDefinitionIndex = 22714;
+	inline static constexpr unsigned int SetAbilityTagMapping_TypeDefinitionIndex = 23136;
 
 	class SetAbilityTagMapping : public ::RPG::GameCore::TaskConfig
 	{

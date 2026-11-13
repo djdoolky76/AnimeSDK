@@ -4,9 +4,9 @@
 class IFNMPBPNBIF;
 namespace System { class String; }
 
-#define PLKIFOPLIAB_IGPCBGPIHII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C68A0)
+#define PLKIFOPLIAB_IGPCBGPIHII_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A8060)
 
-inline static constexpr unsigned int PLKIFOPLIAB_IGPCBGPIHII_TypeDefinitionIndex = 36292;
+inline static constexpr unsigned int PLKIFOPLIAB_IGPCBGPIHII_TypeDefinitionIndex = 37220;
 
 	class PLKIFOPLIAB_IGPCBGPIHII : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class BONOIPBEEAP;
 namespace System { class Object; }
 
-#define BONOIPBEEAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E011050)
-#define BONOIPBEEAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E011090)
-#define BONOIPBEEAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0110A0)
+#define BONOIPBEEAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF73230)
+#define BONOIPBEEAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF73270)
+#define BONOIPBEEAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FF73280)
 
-inline static constexpr unsigned int BONOIPBEEAP___c_TypeDefinitionIndex = 30123;
+inline static constexpr unsigned int BONOIPBEEAP___c_TypeDefinitionIndex = 31021;
 
 	class BONOIPBEEAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E630);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D360);
 		}
 
 		static ::System::Void _cctor()

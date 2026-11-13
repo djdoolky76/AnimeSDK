@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EHFIOFCHLMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA21ED0)
+#define EHFIOFCHLMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4E5C40)
 
-inline static constexpr unsigned int EHFIOFCHLMN_TypeDefinitionIndex = 42102;
+inline static constexpr unsigned int EHFIOFCHLMN_TypeDefinitionIndex = 43077;
 
 	class EHFIOFCHLMN : public ::System::Object
 	{

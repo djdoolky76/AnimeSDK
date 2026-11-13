@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE90EA40)
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE90F310)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1C7595D0)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C759EA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlaybackTimelineTrack_TypeDefinitionIndex = 48460;
+	inline static constexpr unsigned int PlaybackTimelineTrack_TypeDefinitionIndex = 49501;
 
 	class PlaybackTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

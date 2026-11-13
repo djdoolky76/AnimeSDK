@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GIGJKOIHAAC;
 
-#define FDNAOLMKNIE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA387F0)
-#define FDNAOLMKNIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA38850)
+#define FDNAOLMKNIE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C202EF0)
+#define FDNAOLMKNIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C202F70)
 
-inline static constexpr unsigned int FDNAOLMKNIE_TypeDefinitionIndex = 43342;
+inline static constexpr unsigned int FDNAOLMKNIE_TypeDefinitionIndex = 44323;
 
 	class FDNAOLMKNIE : public ::System::Object
 	{

@@ -9,22 +9,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OFENEHICIDC_COOIIMOPJAC_OFFSET UNITYSDK_OFFSET(0xBE37880)
-#define OFENEHICIDC_CTOR_OFFSET UNITYSDK_OFFSET(0xBE37A60)
-#define OFENEHICIDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE37B80)
-#define OFENEHICIDC_DJMDKDKBHDM_OFFSET UNITYSDK_OFFSET(0xBE37120)
-#define OFENEHICIDC_FHBANFEMAOC_OFFSET UNITYSDK_OFFSET(0xBE37420)
-#define OFENEHICIDC_LBHIGGIECDK_OFFSET UNITYSDK_OFFSET(0xBE37710)
+#define OFENEHICIDC_COOIIMOPJAC_OFFSET UNITYSDK_OFFSET(0x17666BE0)
+#define OFENEHICIDC_CTOR_OFFSET UNITYSDK_OFFSET(0x17666DC0)
+#define OFENEHICIDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17666EE0)
+#define OFENEHICIDC_DJMDKDKBHDM_OFFSET UNITYSDK_OFFSET(0x17666470)
+#define OFENEHICIDC_FHBANFEMAOC_OFFSET UNITYSDK_OFFSET(0x17666770)
+#define OFENEHICIDC_LBHIGGIECDK_OFFSET UNITYSDK_OFFSET(0x17666A70)
 
-inline static constexpr unsigned int OFENEHICIDC_TypeDefinitionIndex = 60579;
+inline static constexpr unsigned int OFENEHICIDC_TypeDefinitionIndex = 61956;
 
 	class OFENEHICIDC : public ::System::Object
 	{
 	public:
-		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraph*>*>* NNLFEPDDPNH; // 0x10
-		::RPG::Client::MapDef* MJKJCCNJACA; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LevelGraph*, ::RPG::GameCore::ShowHintEffect*>* IOGKKFKMOBF; // 0x20
-		::System::String* HOLHGLKFGAO; // 0x28
+		::RPG::Client::MapDef* MJKJCCNJACA; // 0x10
+		::System::String* HOLHGLKFGAO; // 0x18
+		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraph*>*>* NNLFEPDDPNH; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LevelGraph*, ::RPG::GameCore::ShowHintEffect*>* IOGKKFKMOBF; // 0x28
 		::System::Void _ctor(::RPG::Client::MapDef* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapDef*))((::PBYTE)hIl2Cpp + OFENEHICIDC_CTOR_OFFSET))(this, a1);

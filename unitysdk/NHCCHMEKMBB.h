@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowBattleEventButton; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHCCHMEKMBB_CTOR_OFFSET UNITYSDK_OFFSET(0xBBB67D0)
-#define NHCCHMEKMBB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBB67E0)
-#define NHCCHMEKMBB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBB6820)
-#define NHCCHMEKMBB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBB68A0)
-#define NHCCHMEKMBB_TICK_OFFSET UNITYSDK_OFFSET(0xBBB68F0)
+#define NHCCHMEKMBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1488EB00)
+#define NHCCHMEKMBB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1488EB10)
+#define NHCCHMEKMBB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1488EB50)
+#define NHCCHMEKMBB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1488EBD0)
+#define NHCCHMEKMBB_TICK_OFFSET UNITYSDK_OFFSET(0x1488EC20)
 
-inline static constexpr unsigned int NHCCHMEKMBB_TypeDefinitionIndex = 56444;
+inline static constexpr unsigned int NHCCHMEKMBB_TypeDefinitionIndex = 57662;
 
 	class NHCCHMEKMBB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowBattleEventButton* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowBattleEventButton* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowBattleEventButton* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowBattleEventButton*))((::PBYTE)hIl2Cpp + NHCCHMEKMBB_CTOR_OFFSET))(this, a1, a2);

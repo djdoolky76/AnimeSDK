@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define EDMFJBLKKIF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA04E90)
-#define EDMFJBLKKIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA04EF0)
+#define EDMFJBLKKIF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB371B0)
+#define EDMFJBLKKIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB37210)
 
-inline static constexpr unsigned int EDMFJBLKKIF_TypeDefinitionIndex = 43285;
+inline static constexpr unsigned int EDMFJBLKKIF_TypeDefinitionIndex = 44266;
 
 	class EDMFJBLKKIF : public ::System::Object
 	{

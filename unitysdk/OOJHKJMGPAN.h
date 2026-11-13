@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OOJHKJMGPAN_BHHABIPDODD_OFFSET UNITYSDK_OFFSET(0xBF834D0)
-#define OOJHKJMGPAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF83430)
-#define OOJHKJMGPAN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF84290)
-#define OOJHKJMGPAN_HJJFOBGFBIO_OFFSET UNITYSDK_OFFSET(0xBF84330)
+#define OOJHKJMGPAN_BHHABIPDODD_OFFSET UNITYSDK_OFFSET(0x196AA6D0)
+#define OOJHKJMGPAN_CTOR_OFFSET UNITYSDK_OFFSET(0x196AA630)
+#define OOJHKJMGPAN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196AB490)
+#define OOJHKJMGPAN_HJJFOBGFBIO_OFFSET UNITYSDK_OFFSET(0x196AB530)
 
-inline static constexpr unsigned int OOJHKJMGPAN_TypeDefinitionIndex = 77365;
+inline static constexpr unsigned int OOJHKJMGPAN_TypeDefinitionIndex = 79699;
 
 	class OOJHKJMGPAN : public ::System::Object
 	{

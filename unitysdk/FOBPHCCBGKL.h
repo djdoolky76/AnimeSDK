@@ -6,20 +6,20 @@ namespace RPG::GameCore { class AdvNPCIdle; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FOBPHCCBGKL_CTOR_OFFSET UNITYSDK_OFFSET(0x158D6470)
-#define FOBPHCCBGKL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158D65C0)
-#define FOBPHCCBGKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158D6600)
-#define FOBPHCCBGKL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158D6720)
-#define FOBPHCCBGKL_TICK_OFFSET UNITYSDK_OFFSET(0x158D6770)
+#define FOBPHCCBGKL_CTOR_OFFSET UNITYSDK_OFFSET(0x18741130)
+#define FOBPHCCBGKL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18741280)
+#define FOBPHCCBGKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187412C0)
+#define FOBPHCCBGKL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x187413E0)
+#define FOBPHCCBGKL_TICK_OFFSET UNITYSDK_OFFSET(0x18741430)
 
-inline static constexpr unsigned int FOBPHCCBGKL_TypeDefinitionIndex = 52427;
+inline static constexpr unsigned int FOBPHCCBGKL_TypeDefinitionIndex = 53533;
 
 	class FOBPHCCBGKL : public ::GELIALJDFBL
 	{
 	public:
-		::FOOIINCDBFA* EIJAMKAKADD; // 0x18
+		::RPG::GameCore::AdventureCharacterController* EEMOFHKBEBO; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::AdventureCharacterController* EEMOFHKBEBO; // 0x28
+		::FOOIINCDBFA* EIJAMKAKADD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvNPCIdle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvNPCIdle*))((::PBYTE)hIl2Cpp + FOBPHCCBGKL_CTOR_OFFSET))(this, a1, a2);

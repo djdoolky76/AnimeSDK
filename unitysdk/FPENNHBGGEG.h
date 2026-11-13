@@ -4,7 +4,7 @@
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int FPENNHBGGEG_TypeDefinitionIndex = 49764;
+inline static constexpr unsigned int FPENNHBGGEG_TypeDefinitionIndex = 50812;
 
 	class FPENNHBGGEG : public ::System::Object
 	{

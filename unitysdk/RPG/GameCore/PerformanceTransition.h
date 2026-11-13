@@ -15,13 +15,13 @@ namespace RPG::GameCore { class DestroyProp; }
 namespace RPG::GameCore { class PerformanceTransition; }
 namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
-#define RPG_GAMECORE_PERFORMANCETRANSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D99C0)
-#define RPG_GAMECORE_PERFORMANCETRANSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8D99E0)
-#define RPG_GAMECORE_PERFORMANCETRANSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D9970)
+#define RPG_GAMECORE_PERFORMANCETRANSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE48390)
+#define RPG_GAMECORE_PERFORMANCETRANSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE483B0)
+#define RPG_GAMECORE_PERFORMANCETRANSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE48340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceTransition_TypeDefinitionIndex = 21859;
+	inline static constexpr unsigned int PerformanceTransition_TypeDefinitionIndex = 22250;
 
 	class PerformanceTransition : public ::RPG::GameCore::TaskConfig
 	{

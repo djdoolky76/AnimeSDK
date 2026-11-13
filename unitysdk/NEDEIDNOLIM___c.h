@@ -4,18 +4,18 @@
 class NEDEIDNOLIM;
 namespace System { class Object; }
 
-#define NEDEIDNOLIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAC3AC0)
-#define NEDEIDNOLIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC3B00)
-#define NEDEIDNOLIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAC3B10)
+#define NEDEIDNOLIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE8B120)
+#define NEDEIDNOLIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE8B160)
+#define NEDEIDNOLIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FE8B170)
 
-inline static constexpr unsigned int NEDEIDNOLIM___c_TypeDefinitionIndex = 33514;
+inline static constexpr unsigned int NEDEIDNOLIM___c_TypeDefinitionIndex = 34429;
 
 	class NEDEIDNOLIM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60430);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E920);
 		}
 
 		static ::System::Void _cctor()

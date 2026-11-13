@@ -8,47 +8,47 @@ class HDPCKPMCKCF;
 namespace RPG::GameCore { class CharacterModelScaleEventParam; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define DIKGMCHCBPE_CCTOR_OFFSET UNITYSDK_OFFSET(0xF20C050)
-#define DIKGMCHCBPE_CTOR_OFFSET UNITYSDK_OFFSET(0xF20A990)
-#define DIKGMCHCBPE_DJGNHODODOL_OFFSET UNITYSDK_OFFSET(0xF20BDE0)
-#define DIKGMCHCBPE_DLOFGILFCLJ_OFFSET UNITYSDK_OFFSET(0xF20B8B0)
-#define DIKGMCHCBPE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xF20C040)
-#define DIKGMCHCBPE_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xF20BE60)
-#define DIKGMCHCBPE_HAOOGGNGFOO_OFFSET UNITYSDK_OFFSET(0xF20B5C0)
-#define DIKGMCHCBPE_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xF20A9F0)
-#define DIKGMCHCBPE_KFGHIGOCBFI_OFFSET UNITYSDK_OFFSET(0xF20BEB0)
-#define DIKGMCHCBPE_NNIPLABFNNM_OFFSET UNITYSDK_OFFSET(0xF20B630)
-#define DIKGMCHCBPE_ODBMAOOOGHP_OFFSET UNITYSDK_OFFSET(0xF20B690)
+#define DIKGMCHCBPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x18EC6580)
+#define DIKGMCHCBPE_CTOR_OFFSET UNITYSDK_OFFSET(0x18EC4ED0)
+#define DIKGMCHCBPE_DJGNHODODOL_OFFSET UNITYSDK_OFFSET(0x18EC6310)
+#define DIKGMCHCBPE_DLOFGILFCLJ_OFFSET UNITYSDK_OFFSET(0x18EC5DF0)
+#define DIKGMCHCBPE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x18EC6570)
+#define DIKGMCHCBPE_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x18EC6390)
+#define DIKGMCHCBPE_HAOOGGNGFOO_OFFSET UNITYSDK_OFFSET(0x18EC5B00)
+#define DIKGMCHCBPE_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0x18EC4F30)
+#define DIKGMCHCBPE_KFGHIGOCBFI_OFFSET UNITYSDK_OFFSET(0x18EC63E0)
+#define DIKGMCHCBPE_NNIPLABFNNM_OFFSET UNITYSDK_OFFSET(0x18EC5B70)
+#define DIKGMCHCBPE_ODBMAOOOGHP_OFFSET UNITYSDK_OFFSET(0x18EC5BD0)
 
-inline static constexpr unsigned int DIKGMCHCBPE_TypeDefinitionIndex = 57025;
+inline static constexpr unsigned int DIKGMCHCBPE_TypeDefinitionIndex = 58252;
 
 	class DIKGMCHCBPE : public ::BDENDNDOFLF
 	{
 	public:
 		::HDPCKPMCKCF* JIFOGMDGJAP; // 0x68
-		::RPG::GameCore::CharacterModelScaleEventParam* GJMEBCMNPMK; // 0x70
-		::GHHIAGDFMMN* KCIMDDOEHJE; // 0x78
-		::System::Single JFJOLFHJKNF; // 0x80
-		::System::Single NMMAFJCIBHG; // 0x84
-		::System::Single FAPCGFINDFF; // 0x88
-		::UnityEngine::Vector3 EKKPMIOJMGM; // 0x8C
-		::UnityEngine::Vector3 BJNKIKNBFOJ; // 0x98
-		::System::Single BFGGMAHHOLF; // 0xA4
-		::System::Single HIHIBOIKOOM; // 0xA8
-		::System::Single CEEAGJMFPLO; // 0xAC
-		::System::Boolean EHJOLABCMOD; // 0xB0
-		::System::Boolean JALFBJDPLOG; // 0xB1
+		::GHHIAGDFMMN* KCIMDDOEHJE; // 0x70
+		::RPG::GameCore::CharacterModelScaleEventParam* GJMEBCMNPMK; // 0x78
+		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x80
+		::UnityEngine::Vector3 BJNKIKNBFOJ; // 0x84
+		::System::Single FAPCGFINDFF; // 0x90
+		::System::Single HIHIBOIKOOM; // 0x94
+		::System::Single JFJOLFHJKNF; // 0x98
+		::UnityEngine::Vector3 EKKPMIOJMGM; // 0x9C
+		::System::Single BFGGMAHHOLF; // 0xA8
+		::System::Boolean EHJOLABCMOD; // 0xAC
+		::System::Boolean JALFBJDPLOG; // 0xAD
 		::System::Byte _padding0[0x2];
+		::System::Single CEEAGJMFPLO; // 0xB0
 		::System::Single BGKNMHEKMIA; // 0xB4
-		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0xB8
-		static ::System::Int32* StaticGet_COKLIJKIGAN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DIKGMCHCBPE")->GetStaticField(0x125C0);
-		}
-
+		::System::Single NMMAFJCIBHG; // 0xB8
 		static ::System::Int32* StaticGet_ILDMDABEPEK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DIKGMCHCBPE")->GetStaticField(0x125C4);
+			return (::System::Int32*)UnitySDK::FromName("", "DIKGMCHCBPE")->GetStaticField(0x14AC0);
+		}
+
+		static ::System::Int32* StaticGet_COKLIJKIGAN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DIKGMCHCBPE")->GetStaticField(0x14AC4);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)

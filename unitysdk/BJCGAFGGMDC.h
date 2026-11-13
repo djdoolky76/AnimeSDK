@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTrashSummonHUDState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJCGAFGGMDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB7922B0)
-#define BJCGAFGGMDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7922E0)
+#define BJCGAFGGMDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD56A0)
+#define BJCGAFGGMDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BAD56D0)
 
-inline static constexpr unsigned int BJCGAFGGMDC_TypeDefinitionIndex = 47611;
+inline static constexpr unsigned int BJCGAFGGMDC_TypeDefinitionIndex = 48640;
 
 	class BJCGAFGGMDC
 	{

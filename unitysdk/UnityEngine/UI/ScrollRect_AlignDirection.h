@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ScrollRect_AlignDirection_TypeDefinitionIndex = 6829;
+	inline static constexpr unsigned int ScrollRect_AlignDirection_TypeDefinitionIndex = 6840;
 
 	enum class ScrollRect_AlignDirection : ::System::Int32
 	{

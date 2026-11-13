@@ -5,7 +5,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int OffMeshLinkData_TypeDefinitionIndex = 5650;
+	inline static constexpr unsigned int OffMeshLinkData_TypeDefinitionIndex = 5655;
 
 	struct alignas(4) OffMeshLinkData
 	{

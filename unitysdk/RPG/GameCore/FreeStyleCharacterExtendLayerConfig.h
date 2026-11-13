@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FreeStyleCharacterExtendLayerConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLECHARACTEREXTENDLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C6270)
-#define RPG_GAMECORE_FREESTYLECHARACTEREXTENDLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C6170)
+#define RPG_GAMECORE_FREESTYLECHARACTEREXTENDLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED58B00)
+#define RPG_GAMECORE_FREESTYLECHARACTEREXTENDLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED58A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleCharacterExtendLayerConfig_TypeDefinitionIndex = 16309;
+	inline static constexpr unsigned int FreeStyleCharacterExtendLayerConfig_TypeDefinitionIndex = 16472;
 
 	class FreeStyleCharacterExtendLayerConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,9 +4,9 @@
 class BJHMBGLPOLB;
 class OOCCBMLAELL;
 
-#define LHLEJAADHNE_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B3A20)
+#define LHLEJAADHNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCC2D0)
 
-inline static constexpr unsigned int LHLEJAADHNE_TypeDefinitionIndex = 80581;
+inline static constexpr unsigned int LHLEJAADHNE_TypeDefinitionIndex = 83361;
 
 	class LHLEJAADHNE : public ::System::Object
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class RandomSelectMuseumStuff; }
 
-#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93ECF0)
-#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D93ED50)
-#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D93EC70)
+#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F228740)
+#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F2287A0)
+#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F2286C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectMuseumStuff_TypeDefinitionIndex = 21089;
+	inline static constexpr unsigned int RandomSelectMuseumStuff_TypeDefinitionIndex = 21430;
 
 	class RandomSelectMuseumStuff : public ::RPG::GameCore::TaskConfig
 	{

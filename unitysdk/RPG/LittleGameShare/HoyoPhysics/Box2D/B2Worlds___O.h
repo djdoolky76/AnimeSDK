@@ -18,79 +18,79 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { template <typename T> class
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Worlds___O_TypeDefinitionIndex = 36822;
+	inline static constexpr unsigned int B2Worlds___O_TypeDefinitionIndex = 37750;
 
 	class B2Worlds___O : public ::System::Object
 	{
 	public:
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FinishTaskCallback** StaticGet__3___b2DefaultFinishTaskFcn()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FinishTaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x249C0);
-		}
-
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2RestitutionCallback** StaticGet__1___b2DefaultRestitutionCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2RestitutionCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x249C8);
-		}
-
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeRayCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>** StaticGet__8___RayCastCallback()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeRayCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x249D0);
-		}
-
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeShapeCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverCastContext>** StaticGet__11___MoverCastCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeShapeCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverCastContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x249D8);
-		}
-
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverContext>** StaticGet__12___TreeCollideCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x249E0);
-		}
-
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldQueryContext>** StaticGet__6___TreeQueryCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldQueryContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x249E8);
-		}
-
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2EnqueueTaskCallback** StaticGet__2___b2DefaultAddTaskFcn()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2EnqueueTaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x249F0);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeRayCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DAD0);
 		}
 
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__4___b2UpdateTreesTask()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x249F8);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DAD8);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldQueryContext>** StaticGet__6___TreeQueryCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldQueryContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DAE0);
 		}
 
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FrictionCallback** StaticGet__0___b2DefaultFrictionCallback()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FrictionCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x24A00);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FrictionCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DAE8);
 		}
 
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__5___b2CollideTask()
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2EnqueueTaskCallback** StaticGet__2___b2DefaultAddTaskFcn()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x24A08);
-		}
-
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ExplosionContext>** StaticGet__13___ExplosionCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ExplosionContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x24A10);
-		}
-
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldOverlapContext>** StaticGet__7___TreeOverlapCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldOverlapContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x24A18);
-		}
-
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeShapeCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>** StaticGet__10___ShapeCastCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeShapeCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x24A20);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2EnqueueTaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DAF0);
 		}
 
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeRayCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>** StaticGet__9___RayCastClosestCallback()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeRayCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x24A28);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeRayCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DAF8);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2RestitutionCallback** StaticGet__1___b2DefaultRestitutionCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2RestitutionCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DB00);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ExplosionContext>** StaticGet__13___ExplosionCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ExplosionContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DB08);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FinishTaskCallback** StaticGet__3___b2DefaultFinishTaskFcn()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FinishTaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DB10);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__5___b2CollideTask()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DB18);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeShapeCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>** StaticGet__10___ShapeCastCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeShapeCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DB20);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverContext>** StaticGet__12___TreeCollideCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DB28);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldOverlapContext>** StaticGet__7___TreeOverlapCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldOverlapContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DB30);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeShapeCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverCastContext>** StaticGet__11___MoverCastCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeShapeCastCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverCastContext>**)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "<>O")->GetStaticField(0x1DB38);
 		}
 
 	};

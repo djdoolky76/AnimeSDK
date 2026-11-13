@@ -5,10 +5,10 @@ class CIIKBJFOKHL;
 namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BFKDDHJFHBO_CTOR_OFFSET UNITYSDK_OFFSET(0xB16E9C0)
-#define BFKDDHJFHBO_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB16E2B0)
+#define BFKDDHJFHBO_CTOR_OFFSET UNITYSDK_OFFSET(0x151AD560)
+#define BFKDDHJFHBO_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x151ACE50)
 
-inline static constexpr unsigned int BFKDDHJFHBO_TypeDefinitionIndex = 77884;
+inline static constexpr unsigned int BFKDDHJFHBO_TypeDefinitionIndex = 80619;
 
 	class BFKDDHJFHBO : public ::System::Object
 	{

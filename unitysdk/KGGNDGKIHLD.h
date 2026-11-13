@@ -7,24 +7,24 @@ namespace Collections::Pooled { template <typename T> class PooledSet_1; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarConfigure; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define KGGNDGKIHLD_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0xB3E5560)
-#define KGGNDGKIHLD_CTOR_OFFSET UNITYSDK_OFFSET(0xB3E5650)
-#define KGGNDGKIHLD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3E4A00)
-#define KGGNDGKIHLD_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0xB3E4E40)
-#define KGGNDGKIHLD_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB3E54A0)
-#define KGGNDGKIHLD_JMIBHMICFOG_OFFSET UNITYSDK_OFFSET(0xB3E48B0)
-#define KGGNDGKIHLD_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xB3E5260)
-#define KGGNDGKIHLD_OAFKAFLEMFK_OFFSET UNITYSDK_OFFSET(0xB3E47B0)
+#define KGGNDGKIHLD_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0x197746A0)
+#define KGGNDGKIHLD_CTOR_OFFSET UNITYSDK_OFFSET(0x19774770)
+#define KGGNDGKIHLD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19773BD0)
+#define KGGNDGKIHLD_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0x19774010)
+#define KGGNDGKIHLD_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x19774600)
+#define KGGNDGKIHLD_JMIBHMICFOG_OFFSET UNITYSDK_OFFSET(0x19773AC0)
+#define KGGNDGKIHLD_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0x19774400)
+#define KGGNDGKIHLD_OAFKAFLEMFK_OFFSET UNITYSDK_OFFSET(0x197739F0)
 
-inline static constexpr unsigned int KGGNDGKIHLD_TypeDefinitionIndex = 82168;
+inline static constexpr unsigned int KGGNDGKIHLD_TypeDefinitionIndex = 85041;
 
 	class KGGNDGKIHLD : public ::System::Object
 	{
 	public:
-		::Collections::Pooled::PooledSet_1<::System::UInt32>* OPMMMHCANFL; // 0x10
-		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::HBFIBDGJLHE*>* PHPHJBFOCEL; // 0x18
-		::System::Single PJJLEJDPNHI; // 0x20
-		::System::UInt32 GGHPONDNCDC; // 0x24
+		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::HBFIBDGJLHE*>* PHPHJBFOCEL; // 0x10
+		::Collections::Pooled::PooledSet_1<::System::UInt32>* OPMMMHCANFL; // 0x18
+		::System::UInt32 GGHPONDNCDC; // 0x20
+		::System::Single PJJLEJDPNHI; // 0x24
 		::RPG::CustomRP::Quality KCOOKDJPHLF; // 0x28
 		// static const ::System::Object PMIDCJIDKKD; // 0x0
 		::System::Void _ctor()

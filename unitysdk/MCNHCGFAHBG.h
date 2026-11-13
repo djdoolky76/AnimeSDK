@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtBattleTargetCameraFocusTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MCNHCGFAHBG_CTOR_OFFSET UNITYSDK_OFFSET(0xB882320)
-#define MCNHCGFAHBG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB882390)
+#define MCNHCGFAHBG_CTOR_OFFSET UNITYSDK_OFFSET(0x183BF090)
+#define MCNHCGFAHBG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x183BF100)
 
-inline static constexpr unsigned int MCNHCGFAHBG_TypeDefinitionIndex = 53798;
+inline static constexpr unsigned int MCNHCGFAHBG_TypeDefinitionIndex = 54962;
 
 	class MCNHCGFAHBG
 	{

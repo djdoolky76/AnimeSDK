@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivityData; }
 
-#define NEGDBAFNLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB576E0)
-#define NEGDBAFNLAI_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xBB57660)
+#define NEGDBAFNLAI_CTOR_OFFSET UNITYSDK_OFFSET(0x16FD6860)
+#define NEGDBAFNLAI_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x16FD67E0)
 
-inline static constexpr unsigned int NEGDBAFNLAI_TypeDefinitionIndex = 61720;
+inline static constexpr unsigned int NEGDBAFNLAI_TypeDefinitionIndex = 63126;
 
 	class NEGDBAFNLAI : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define IOJIOFNKIKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C130)
+#define IOJIOFNKIKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC48F80)
 
-inline static constexpr unsigned int IOJIOFNKIKK_TypeDefinitionIndex = 43744;
+inline static constexpr unsigned int IOJIOFNKIKK_TypeDefinitionIndex = 44819;
 
 	class IOJIOFNKIKK : public ::System::Object
 	{

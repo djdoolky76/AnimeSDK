@@ -4,18 +4,18 @@
 class KAFLJMENFBA;
 namespace System { class Object; }
 
-#define KAFLJMENFBA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7B0D10)
-#define KAFLJMENFBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B0D50)
-#define KAFLJMENFBA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7B0D60)
+#define KAFLJMENFBA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8E9630)
+#define KAFLJMENFBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8E9670)
+#define KAFLJMENFBA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F8E9680)
 
-inline static constexpr unsigned int KAFLJMENFBA___c_TypeDefinitionIndex = 31449;
+inline static constexpr unsigned int KAFLJMENFBA___c_TypeDefinitionIndex = 32362;
 
 	class KAFLJMENFBA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBDC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69560);
 		}
 
 		static ::System::Void _cctor()

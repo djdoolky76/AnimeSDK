@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLEREDDOTHELPER_GETNEWUNLOCKMAPS_OFFSET UNITYSDK_OFFSET(0xCE3CB20)
-#define RPG_CLIENT_EXPEDITIONBATTLEREDDOTHELPER_ISFINISHALLAVAILABLEMAP_OFFSET UNITYSDK_OFFSET(0xCE3CC60)
+#define RPG_CLIENT_EXPEDITIONBATTLEREDDOTHELPER_GETNEWUNLOCKMAPS_OFFSET UNITYSDK_OFFSET(0x1CB84D50)
+#define RPG_CLIENT_EXPEDITIONBATTLEREDDOTHELPER_ISFINISHALLAVAILABLEMAP_OFFSET UNITYSDK_OFFSET(0x1CB84E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleRedDotHelper_TypeDefinitionIndex = 63861;
+	inline static constexpr unsigned int ExpeditionBattleRedDotHelper_TypeDefinitionIndex = 65303;
 
 	class ExpeditionBattleRedDotHelper : public ::System::Object
 	{

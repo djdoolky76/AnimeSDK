@@ -4,26 +4,26 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define FFBKGMBENAA_CTOR_OFFSET UNITYSDK_OFFSET(0x157246D0)
-#define FFBKGMBENAA_DALKINCKLJJ_OFFSET UNITYSDK_OFFSET(0x15724100)
-#define FFBKGMBENAA_DNOPLMGEEJE_OFFSET UNITYSDK_OFFSET(0x15724290)
-#define FFBKGMBENAA_GOLHJJIFDEA_OFFSET UNITYSDK_OFFSET(0x157245E0)
-#define FFBKGMBENAA_INHBJHGKPGP_OFFSET UNITYSDK_OFFSET(0x157244F0)
-#define FFBKGMBENAA_LPANHDEIMPH_OFFSET UNITYSDK_OFFSET(0x15724420)
+#define FFBKGMBENAA_CTOR_OFFSET UNITYSDK_OFFSET(0x130D62E0)
+#define FFBKGMBENAA_DALKINCKLJJ_OFFSET UNITYSDK_OFFSET(0x130D5D10)
+#define FFBKGMBENAA_DNOPLMGEEJE_OFFSET UNITYSDK_OFFSET(0x130D5EA0)
+#define FFBKGMBENAA_GOLHJJIFDEA_OFFSET UNITYSDK_OFFSET(0x130D61F0)
+#define FFBKGMBENAA_INHBJHGKPGP_OFFSET UNITYSDK_OFFSET(0x130D6100)
+#define FFBKGMBENAA_LPANHDEIMPH_OFFSET UNITYSDK_OFFSET(0x130D6030)
 
-inline static constexpr unsigned int FFBKGMBENAA_TypeDefinitionIndex = 76224;
+inline static constexpr unsigned int FFBKGMBENAA_TypeDefinitionIndex = 78555;
 
 	class FFBKGMBENAA : public ::System::Object
 	{
 	public:
-		::System::String* DBGAADAGCJC; // 0x10
-		::System::String* LKGEHKPLJII; // 0x18
-		::System::String* FHGKDPJPMBK; // 0x20
-		::System::String* CDPNAMLJGCN; // 0x28
-		::System::String* JFBNIFLNGOJ; // 0x30
-		::System::String* JMIGDFGDIKF; // 0x38
-		::Il2CppArray<::System::String*>* KELKMCMLHHA; // 0x40
-		::System::String* GOAFEIBMOGG; // 0x48
+		::System::String* FHGKDPJPMBK; // 0x10
+		::System::String* CDPNAMLJGCN; // 0x18
+		::System::String* JFBNIFLNGOJ; // 0x20
+		::System::String* DBGAADAGCJC; // 0x28
+		::Il2CppArray<::System::String*>* KELKMCMLHHA; // 0x30
+		::System::String* LKGEHKPLJII; // 0x38
+		::System::String* GOAFEIBMOGG; // 0x40
+		::System::String* JMIGDFGDIKF; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFBKGMBENAA_CTOR_OFFSET))(this);

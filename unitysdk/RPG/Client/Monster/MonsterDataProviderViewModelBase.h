@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONSTER_MONSTERDATAPROVIDERVIEWMODELBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xD8AF7C0)
-#define RPG_CLIENT_MONSTER_MONSTERDATAPROVIDERVIEWMODELBASE_GET_ISSHOWWAVEINDEX_OFFSET UNITYSDK_OFFSET(0xD8AF780)
+#define RPG_CLIENT_MONSTER_MONSTERDATAPROVIDERVIEWMODELBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A166200)
+#define RPG_CLIENT_MONSTER_MONSTERDATAPROVIDERVIEWMODELBASE_GET_ISSHOWWAVEINDEX_OFFSET UNITYSDK_OFFSET(0x1A1661C0)
 
 namespace RPG::Client::Monster
 {
-	inline static constexpr unsigned int MonsterDataProviderViewModelBase_TypeDefinitionIndex = 79409;
+	inline static constexpr unsigned int MonsterDataProviderViewModelBase_TypeDefinitionIndex = 82186;
 
 	class MonsterDataProviderViewModelBase : public ::System::Object
 	{

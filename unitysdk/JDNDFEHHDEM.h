@@ -7,21 +7,21 @@ namespace RPG::Client { class MonoUIColorSwitcher; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define JDNDFEHHDEM_CTOR_OFFSET UNITYSDK_OFFSET(0x165CA2D0)
-#define JDNDFEHHDEM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x165CA020)
-#define JDNDFEHHDEM_PHIMKHKMNOH_OFFSET UNITYSDK_OFFSET(0x165CA140)
-#define JDNDFEHHDEM__ONBIND_OFFSET UNITYSDK_OFFSET(0x165C9F80)
+#define JDNDFEHHDEM_CTOR_OFFSET UNITYSDK_OFFSET(0x130203A0)
+#define JDNDFEHHDEM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x130200F0)
+#define JDNDFEHHDEM_PHIMKHKMNOH_OFFSET UNITYSDK_OFFSET(0x13020210)
+#define JDNDFEHHDEM__ONBIND_OFFSET UNITYSDK_OFFSET(0x1301FF90)
 
-inline static constexpr unsigned int JDNDFEHHDEM_TypeDefinitionIndex = 72274;
+inline static constexpr unsigned int JDNDFEHHDEM_TypeDefinitionIndex = 74350;
 
 	class JDNDFEHHDEM : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::MonoUIColorSwitcher* NFNKELKMJPJ; // 0x60
-		::UnityEngine::Sprite* EKHDCANFFIL; // 0x68
-		::FFLFKJJLJEJ* AKEKCBLCBEK; // 0x70
-		::RPG::Client::GridFightAugmentConfig* IGHAHBNLIJA; // 0x78
-		::UnityEngine::UI::SmoothMask* LMAMGADEJDM; // 0x80
+		::UnityEngine::UI::SmoothMask* LMAMGADEJDM; // 0x60
+		::FFLFKJJLJEJ* AKEKCBLCBEK; // 0x68
+		::RPG::Client::GridFightAugmentConfig* IGHAHBNLIJA; // 0x70
+		::RPG::Client::MonoUIColorSwitcher* NFNKELKMJPJ; // 0x78
+		::UnityEngine::Sprite* EKHDCANFFIL; // 0x80
 		::System::Double GBOONBHNDFC; // 0x88
 		::System::Void _ctor()
 		{

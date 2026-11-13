@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE_CTOR_OFFSET UNITYSDK_OFFSET(0xCD78770)
-#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE_LOICGIBKHMM_OFFSET UNITYSDK_OFFSET(0xCD7B5C0)
+#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE_CTOR_OFFSET UNITYSDK_OFFSET(0x189BE160)
+#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE_LOICGIBKHMM_OFFSET UNITYSDK_OFFSET(0x189C0FB0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 73597;
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 75720;
 
 	class Sphere : public ::RPG::Client::ElectricChainV2::Shape
 	{

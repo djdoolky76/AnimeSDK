@@ -6,10 +6,10 @@ class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelWaitReplaceEffectNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LJEBKOIENMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DAFA0)
-#define LJEBKOIENMG_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB6DAEA0)
+#define LJEBKOIENMG_CTOR_OFFSET UNITYSDK_OFFSET(0x172F7EE0)
+#define LJEBKOIENMG_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x172F7DE0)
 
-inline static constexpr unsigned int LJEBKOIENMG_TypeDefinitionIndex = 77700;
+inline static constexpr unsigned int LJEBKOIENMG_TypeDefinitionIndex = 80435;
 
 	class LJEBKOIENMG : public ::HBLDGJCDJPF
 	{

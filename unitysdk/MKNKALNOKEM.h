@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetPropCablelineVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MKNKALNOKEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB99AB00)
-#define MKNKALNOKEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB99AB30)
+#define MKNKALNOKEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B90F790)
+#define MKNKALNOKEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B90F7C0)
 
-inline static constexpr unsigned int MKNKALNOKEM_TypeDefinitionIndex = 58568;
+inline static constexpr unsigned int MKNKALNOKEM_TypeDefinitionIndex = 59833;
 
 	class MKNKALNOKEM
 	{

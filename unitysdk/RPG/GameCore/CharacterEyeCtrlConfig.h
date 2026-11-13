@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterEyeCtrlConfig; }
 
-#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5434C0)
-#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D542C00)
+#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F344C70)
+#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3448E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEyeCtrlConfig_TypeDefinitionIndex = 17448;
+	inline static constexpr unsigned int CharacterEyeCtrlConfig_TypeDefinitionIndex = 17616;
 
 	class CharacterEyeCtrlConfig : public ::RPG::GameCore::JsonConfig
 	{

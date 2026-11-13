@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HIECHPAKPFL;
 
-#define BHOGEICMOND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88CCB0)
+#define BHOGEICMOND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B7470)
 
-inline static constexpr unsigned int BHOGEICMOND_TypeDefinitionIndex = 43224;
+inline static constexpr unsigned int BHOGEICMOND_TypeDefinitionIndex = 44205;
 
 	class BHOGEICMOND : public ::System::Object
 	{

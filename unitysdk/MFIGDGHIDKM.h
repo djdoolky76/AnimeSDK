@@ -3,10 +3,10 @@
 class IANEMJNCHDN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MFIGDGHIDKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F8FF0)
-#define MFIGDGHIDKM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8F9020)
+#define MFIGDGHIDKM_CTOR_OFFSET UNITYSDK_OFFSET(0x17C89240)
+#define MFIGDGHIDKM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17C89270)
 
-inline static constexpr unsigned int MFIGDGHIDKM_TypeDefinitionIndex = 54162;
+inline static constexpr unsigned int MFIGDGHIDKM_TypeDefinitionIndex = 55326;
 
 	class MFIGDGHIDKM
 	{

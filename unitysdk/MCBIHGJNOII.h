@@ -5,18 +5,18 @@ namespace RPG::GameCore { class NPCAppearancePreset; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MCBIHGJNOII_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xB86D240)
-#define MCBIHGJNOII_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xB86D430)
-#define MCBIHGJNOII_LLKNHOGPEAH_OFFSET UNITYSDK_OFFSET(0xB86D4D0)
+#define MCBIHGJNOII_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x1B8392A0)
+#define MCBIHGJNOII_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0x1B839490)
+#define MCBIHGJNOII_LLKNHOGPEAH_OFFSET UNITYSDK_OFFSET(0x1B839530)
 
-inline static constexpr unsigned int MCBIHGJNOII_TypeDefinitionIndex = 73301;
+inline static constexpr unsigned int MCBIHGJNOII_TypeDefinitionIndex = 75417;
 
 	class MCBIHGJNOII : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::NPCAppearancePreset*>** StaticGet_KNLDGAEEMCH()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::NPCAppearancePreset*>**)UnitySDK::FromName("", "MCBIHGJNOII")->GetStaticField(0x5C260);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::NPCAppearancePreset*>**)UnitySDK::FromName("", "MCBIHGJNOII")->GetStaticField(0x725C0);
 		}
 
 		static ::System::Void HCFINLKPIHL()

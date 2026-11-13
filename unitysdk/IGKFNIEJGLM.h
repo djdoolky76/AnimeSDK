@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-#define IGKFNIEJGLM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16403240)
-#define IGKFNIEJGLM_LDPGMGLCCPM_OFFSET UNITYSDK_OFFSET(0x2E82930)
+#define IGKFNIEJGLM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19F5F0C0)
+#define IGKFNIEJGLM_LDPGMGLCCPM_OFFSET UNITYSDK_OFFSET(0x3E547F0)
 
-inline static constexpr unsigned int IGKFNIEJGLM_TypeDefinitionIndex = 73022;
+inline static constexpr unsigned int IGKFNIEJGLM_TypeDefinitionIndex = 75136;
 
 	struct alignas(8) IGKFNIEJGLM
 	{

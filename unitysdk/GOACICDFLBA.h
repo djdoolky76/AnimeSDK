@@ -4,10 +4,10 @@ class EEFPHECAIEK;
 class KFELGAIGHAP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GOACICDFLBA_CTOR_OFFSET UNITYSDK_OFFSET(0x15B16D70)
-#define GOACICDFLBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B16E10)
+#define GOACICDFLBA_CTOR_OFFSET UNITYSDK_OFFSET(0x187A6CB0)
+#define GOACICDFLBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187A6D50)
 
-inline static constexpr unsigned int GOACICDFLBA_TypeDefinitionIndex = 53828;
+inline static constexpr unsigned int GOACICDFLBA_TypeDefinitionIndex = 54992;
 
 	class GOACICDFLBA
 	{

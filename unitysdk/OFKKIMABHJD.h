@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class FateGameData; }
 
-#define OFKKIMABHJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3E550)
+#define OFKKIMABHJD_CTOR_OFFSET UNITYSDK_OFFSET(0x18DEBF40)
 
-inline static constexpr unsigned int OFKKIMABHJD_TypeDefinitionIndex = 64037;
+inline static constexpr unsigned int OFKKIMABHJD_TypeDefinitionIndex = 65482;
 
 	class OFKKIMABHJD : public ::System::Object
 	{

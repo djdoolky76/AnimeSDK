@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BackgroundTalkInfo; }
 namespace RPG::GameCore { class BattlePlayTalk; }
 
-#define RPG_GAMECORE_BATTLEPLAYTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D437AA0)
-#define RPG_GAMECORE_BATTLEPLAYTALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D437AB0)
-#define RPG_GAMECORE_BATTLEPLAYTALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D437A70)
+#define RPG_GAMECORE_BATTLEPLAYTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C31AAD0)
+#define RPG_GAMECORE_BATTLEPLAYTALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1C31AAE0)
+#define RPG_GAMECORE_BATTLEPLAYTALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C31AAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePlayTalk_TypeDefinitionIndex = 23383;
+	inline static constexpr unsigned int BattlePlayTalk_TypeDefinitionIndex = 23828;
 
 	class BattlePlayTalk : public ::RPG::GameCore::TaskConfig
 	{

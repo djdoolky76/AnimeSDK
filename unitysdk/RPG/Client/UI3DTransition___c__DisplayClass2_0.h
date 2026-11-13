@@ -5,21 +5,21 @@ namespace RPG::Client { class IUI3DController; }
 namespace RPG::Client { class UI3DControllerConfig; }
 namespace RPG::Client { class UIController; }
 
-#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE35C7E0)
-#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS2_0__EXECUTEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0xE35D490)
+#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E5B20)
+#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS2_0__EXECUTEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x1A0E67E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DTransition___c__DisplayClass2_0_TypeDefinitionIndex = 73009;
+	inline static constexpr unsigned int UI3DTransition___c__DisplayClass2_0_TypeDefinitionIndex = 75121;
 
 	class UI3DTransition___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::UI3DControllerConfig* fromConfig; // 0x10
-		::RPG::Client::IUI3DController* to3d; // 0x18
-		::RPG::Client::UIController* from2d; // 0x20
-		::RPG::Client::UIController* to2d; // 0x28
-		::RPG::Client::IUI3DController* from3d; // 0x30
+		::RPG::Client::UIController* from2d; // 0x10
+		::RPG::Client::IUI3DController* from3d; // 0x18
+		::RPG::Client::UI3DControllerConfig* fromConfig; // 0x20
+		::RPG::Client::IUI3DController* to3d; // 0x28
+		::RPG::Client::UIController* to2d; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

@@ -12,19 +12,19 @@ namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_APPLY_OFFSET UNITYSDK_OFFSET(0x1562CA70)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1562E1B0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1562E170)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0x1562D6D0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x1562C150)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x1562C210)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x1562C070)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x1562D640)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x1562C2D0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_APPLY_OFFSET UNITYSDK_OFFSET(0x136B3000)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x136B4740)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x136B4700)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0x136B3C60)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x136B26E0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x136B27A0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x136B2600)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x136B3BD0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x136B2860)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ES_GPUParticleComponent_TypeDefinitionIndex = 49301;
+	inline static constexpr unsigned int ES_GPUParticleComponent_TypeDefinitionIndex = 50377;
 
 	class ES_GPUParticleComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
@@ -51,109 +51,109 @@ namespace EnviromentSystemV2Space
 		::System::Boolean DOFJLCMOJML; // 0xA8
 		::System::Byte _padding3[0x7];
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* JMHEKAAEOPB; // 0xB0
-		static ::System::Int32* StaticGet_IsTransitionTargetID()
+		static ::System::Int32* StaticGet_PLAGCLBBDAB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11540);
-		}
-
-		static ::System::Int32* StaticGet_DOFHONMAMLA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11544);
-		}
-
-		static ::System::Int32* StaticGet_JJJEAOMNLHP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11548);
-		}
-
-		static ::System::Int32* StaticGet_MLDDPJFBOBL()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x1154C);
-		}
-
-		static ::System::Int32* StaticGet_LECMCDEBBHA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11550);
-		}
-
-		static ::System::Int32* StaticGet_EHKJHMDOOOC()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11554);
-		}
-
-		static ::System::Int32* StaticGet_JCKILNLNDJO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11558);
-		}
-
-		static ::System::Int32* StaticGet_JOIHPCGIGCN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x1155C);
-		}
-
-		static ::System::Int32* StaticGet_HGBAIEPJAGF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11560);
-		}
-
-		static ::System::Int32* StaticGet_LINLNENIKAH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11564);
-		}
-
-		static ::System::Int32* StaticGet_HMNAHOPLJFH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11568);
-		}
-
-		static ::System::Int32* StaticGet_KLBOPOKAPNL()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x1156C);
-		}
-
-		static ::System::Int32* StaticGet_FKFKILFFPLI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11570);
-		}
-
-		static ::System::Int32* StaticGet_DKCAJJGMLAP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11574);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAC0);
 		}
 
 		static ::System::Int32* StaticGet_PCDJHNDMNOG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11578);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAC4);
 		}
 
-		static ::System::Int32* StaticGet_BNDIEPGIJNO()
+		static ::System::Int32* StaticGet_MLDDPJFBOBL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x1157C);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAC8);
+		}
+
+		static ::System::Int32* StaticGet_JOIHPCGIGCN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAACC);
+		}
+
+		static ::System::Int32* StaticGet_JJJEAOMNLHP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAD0);
+		}
+
+		static ::System::Int32* StaticGet_HMNAHOPLJFH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAD4);
 		}
 
 		static ::System::Int32* StaticGet_CHDFDHFNOBE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11580);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAD8);
+		}
+
+		static ::System::Int32* StaticGet_LINLNENIKAH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAADC);
+		}
+
+		static ::System::Int32* StaticGet_DKCAJJGMLAP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAE0);
 		}
 
 		static ::System::Int32* StaticGet_ALDNKFOBOIF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11584);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAE4);
 		}
 
-		static ::System::Int32* StaticGet_PLAGCLBBDAB()
+		static ::System::Int32* StaticGet_JCKILNLNDJO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11588);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAE8);
+		}
+
+		static ::System::Int32* StaticGet_EHKJHMDOOOC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAEC);
+		}
+
+		static ::System::Int32* StaticGet_KLBOPOKAPNL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAF0);
 		}
 
 		static ::System::Int32* StaticGet_AHELBELLIDM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x1158C);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAF4);
+		}
+
+		static ::System::Int32* StaticGet_IsTransitionTargetID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAF8);
+		}
+
+		static ::System::Int32* StaticGet_HGBAIEPJAGF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAAFC);
+		}
+
+		static ::System::Int32* StaticGet_LECMCDEBBHA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAB00);
+		}
+
+		static ::System::Int32* StaticGet_FKFKILFFPLI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAB04);
 		}
 
 		static ::System::Int32* StaticGet_PIGBKOJJDAI()
 		{
-			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0x11590);
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAB08);
+		}
+
+		static ::System::Int32* StaticGet_BNDIEPGIJNO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAB0C);
+		}
+
+		static ::System::Int32* StaticGet_DOFHONMAMLA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_GPUParticleComponent")->GetStaticField(0xAB10);
 		}
 
 		::System::Void _ctor()

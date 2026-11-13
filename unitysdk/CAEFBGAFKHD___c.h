@@ -4,18 +4,18 @@
 class CAEFBGAFKHD;
 namespace System { class Object; }
 
-#define CAEFBGAFKHD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E02A2B0)
-#define CAEFBGAFKHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E02A2F0)
-#define CAEFBGAFKHD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E02A300)
+#define CAEFBGAFKHD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2034A120)
+#define CAEFBGAFKHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2034A160)
+#define CAEFBGAFKHD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2034A170)
 
-inline static constexpr unsigned int CAEFBGAFKHD___c_TypeDefinitionIndex = 33459;
+inline static constexpr unsigned int CAEFBGAFKHD___c_TypeDefinitionIndex = 34374;
 
 	class CAEFBGAFKHD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60250);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F760);
 		}
 
 		static ::System::Void _cctor()

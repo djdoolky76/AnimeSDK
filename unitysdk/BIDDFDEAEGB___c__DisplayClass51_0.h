@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MapNpcDef; }
 
-#define BIDDFDEAEGB___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB49CFA0)
-#define BIDDFDEAEGB___C__DISPLAYCLASS51_0__HASLOCALNPC_B__0_OFFSET UNITYSDK_OFFSET(0xB49E0A0)
+#define BIDDFDEAEGB___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAAF720)
+#define BIDDFDEAEGB___C__DISPLAYCLASS51_0__HASLOCALNPC_B__0_OFFSET UNITYSDK_OFFSET(0x1BAB0810)
 
-inline static constexpr unsigned int BIDDFDEAEGB___c__DisplayClass51_0_TypeDefinitionIndex = 62121;
+inline static constexpr unsigned int BIDDFDEAEGB___c__DisplayClass51_0_TypeDefinitionIndex = 63534;
 
 	class BIDDFDEAEGB___c__DisplayClass51_0 : public ::System::Object
 	{

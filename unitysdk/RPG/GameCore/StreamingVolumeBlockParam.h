@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StreamingVolumeBlockParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAFD6F0)
-#define RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAFD4B0)
+#define RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E66D3B0)
+#define RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E66D170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingVolumeBlockParam_TypeDefinitionIndex = 19119;
+	inline static constexpr unsigned int StreamingVolumeBlockParam_TypeDefinitionIndex = 19307;
 
 	class StreamingVolumeBlockParam : public ::RPG::GameCore::JsonConfig
 	{

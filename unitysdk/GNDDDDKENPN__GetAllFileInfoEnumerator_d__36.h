@@ -8,34 +8,34 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::IO { class FileInfo; }
 
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE3560)
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EBEE300)
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_IO_FILEINFO__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EBEE9C0)
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_IO_FILEINFO__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EBEE950)
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EBEEA50)
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EBEE9B0)
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EBEE960)
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EBEE1C0)
-#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EBEE200)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAEF770)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CAFA4D0)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_IO_FILEINFO__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CAFAB90)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_IO_FILEINFO__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CAFAB20)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CAFAC20)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CAFAB80)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1CAFAB30)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CAFA390)
+#define GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1CAFA3D0)
 
-inline static constexpr unsigned int GNDDDDKENPN__GetAllFileInfoEnumerator_d__36_TypeDefinitionIndex = 35309;
+inline static constexpr unsigned int GNDDDDKENPN__GetAllFileInfoEnumerator_d__36_TypeDefinitionIndex = 36237;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36>
 	class GNDDDDKENPN__GetAllFileInfoEnumerator_d__36 : public ::System::Object
 	{
 	public:
-		::System::String* path; // 0x10
-		::System::IO::FileInfo* __2__current; // 0x18
-		::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap1; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::String*>* excludeExtList; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::String*>* __3__includeExtList; // 0x30
-		::System::Collections::Generic::HashSet_1<::System::String*>* includeExtList; // 0x38
-		::System::String* __3__path; // 0x40
-		::System::Collections::Generic::HashSet_1<::System::String*>* __3__excludeExtList; // 0x48
-		::System::Int32 __1__state; // 0x50
-		::System::Int32 __l__initialThreadId; // 0x54
-		::System::Boolean recursion; // 0x58
-		::System::Boolean __3__recursion; // 0x59
+		::System::IO::FileInfo* __2__current; // 0x10
+		::System::String* path; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::String*>* excludeExtList; // 0x20
+		::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap1; // 0x28
+		::System::String* __3__path; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::String*>* __3__excludeExtList; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::String*>* includeExtList; // 0x40
+		::System::Collections::Generic::HashSet_1<::System::String*>* __3__includeExtList; // 0x48
+		::System::Int32 __l__initialThreadId; // 0x50
+		::System::Int32 __1__state; // 0x54
+		::System::Boolean __3__recursion; // 0x58
+		::System::Boolean recursion; // 0x59
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GNDDDDKENPN__GETALLFILEINFOENUMERATOR_D__36_CTOR_OFFSET))(this, a1);

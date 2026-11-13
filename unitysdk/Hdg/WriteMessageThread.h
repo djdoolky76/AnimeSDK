@@ -11,33 +11,32 @@ namespace System::IO { class Stream; }
 namespace System::Threading { class AutoResetEvent; }
 namespace System::Threading { class Thread; }
 
-#define HDG_WRITEMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0xAF2E1F0)
-#define HDG_WRITEMESSAGETHREAD_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0xAF2BCF0)
-#define HDG_WRITEMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xAF2E9C0)
-#define HDG_WRITEMESSAGETHREAD_ONIDLE_OFFSET UNITYSDK_OFFSET(0xAF39220)
-#define HDG_WRITEMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0xAF39D00)
-#define HDG_WRITEMESSAGETHREAD_ONWRITING_OFFSET UNITYSDK_OFFSET(0xAF393C0)
-#define HDG_WRITEMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0xAF2DA30)
-#define HDG_WRITEMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xAF39140)
+#define HDG_WRITEMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A696D60)
+#define HDG_WRITEMESSAGETHREAD_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A694830)
+#define HDG_WRITEMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1A697530)
+#define HDG_WRITEMESSAGETHREAD_ONIDLE_OFFSET UNITYSDK_OFFSET(0x1A6A1E10)
+#define HDG_WRITEMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x1A6A28F0)
+#define HDG_WRITEMESSAGETHREAD_ONWRITING_OFFSET UNITYSDK_OFFSET(0x1A6A1FB0)
+#define HDG_WRITEMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1A696570)
+#define HDG_WRITEMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x1A6A1D30)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int WriteMessageThread_TypeDefinitionIndex = 46947;
+	inline static constexpr unsigned int WriteMessageThread_TypeDefinitionIndex = 47975;
 
 	class WriteMessageThread : public ::System::Object
 	{
 	public:
-		::Hdg::rdtTcpMessage* m_currentMessage; // 0x10
-		::System::String* m_name; // 0x18
-		::System::IO::BinaryWriter* m_writer; // 0x20
-		::System::Threading::Thread* m_thread; // 0x28
-		::System::Threading::AutoResetEvent* m_event; // 0x30
-		::System::Collections::Generic::Queue_1<::Hdg::rdtTcpMessage*>* m_messageQueue; // 0x38
-		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x40
-		::System::IO::Stream* m_stream; // 0x48
-		::System::Boolean m_run; // 0x50
-		::System::Byte _padding0[0x3];
-		::Hdg::WriteMessageThread_State m_state; // 0x54
+		::System::Threading::AutoResetEvent* m_event; // 0x10
+		::System::Threading::Thread* m_thread; // 0x18
+		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x20
+		::System::Collections::Generic::Queue_1<::Hdg::rdtTcpMessage*>* m_messageQueue; // 0x28
+		::Hdg::rdtTcpMessage* m_currentMessage; // 0x30
+		::System::IO::Stream* m_stream; // 0x38
+		::System::IO::BinaryWriter* m_writer; // 0x40
+		::System::String* m_name; // 0x48
+		::Hdg::WriteMessageThread_State m_state; // 0x50
+		::System::Boolean m_run; // 0x54
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_WRITEMESSAGETHREAD_CTOR_OFFSET))(this, a1, a2);

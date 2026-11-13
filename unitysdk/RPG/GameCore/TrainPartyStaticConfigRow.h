@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyStaticConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYSTATICCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC07FC0)
-#define RPG_GAMECORE_TRAINPARTYSTATICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC07D70)
+#define RPG_GAMECORE_TRAINPARTYSTATICCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3118A0)
+#define RPG_GAMECORE_TRAINPARTYSTATICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E311650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyStaticConfigRow_TypeDefinitionIndex = 15329;
+	inline static constexpr unsigned int TrainPartyStaticConfigRow_TypeDefinitionIndex = 15485;
 
 	class TrainPartyStaticConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SlotList; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::Boolean UseLowLight; // 0x24
+		::System::UInt32 AreaID; // 0x20
+		::System::UInt32 ID; // 0x24
+		::System::Boolean UseLowLight; // 0x28
 		::System::Byte _padding0[0x3];
-		::System::UInt32 AreaID; // 0x28
 		::RPG::GameCore::TrainPartyStaticType Type; // 0x2C
 		::System::Void _ctor()
 		{

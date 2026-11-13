@@ -5,21 +5,21 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerDrinkMakerBartendInMainMission; }
 namespace System { class Object; }
 
-#define NLNGDGPHKCJ_BHEIANKOOPN_OFFSET UNITYSDK_OFFSET(0xBC70A10)
-#define NLNGDGPHKCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBC706A0)
-#define NLNGDGPHKCJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC706B0)
-#define NLNGDGPHKCJ_IDBIMHPJLOO_OFFSET UNITYSDK_OFFSET(0xBC70B80)
-#define NLNGDGPHKCJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC70770)
-#define NLNGDGPHKCJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC70B30)
-#define NLNGDGPHKCJ_TICK_OFFSET UNITYSDK_OFFSET(0xBC70AD0)
+#define NLNGDGPHKCJ_BHEIANKOOPN_OFFSET UNITYSDK_OFFSET(0x1A4369D0)
+#define NLNGDGPHKCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A436660)
+#define NLNGDGPHKCJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A436670)
+#define NLNGDGPHKCJ_IDBIMHPJLOO_OFFSET UNITYSDK_OFFSET(0x1A436B40)
+#define NLNGDGPHKCJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A436730)
+#define NLNGDGPHKCJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A436AF0)
+#define NLNGDGPHKCJ_TICK_OFFSET UNITYSDK_OFFSET(0x1A436A90)
 
-inline static constexpr unsigned int NLNGDGPHKCJ_TypeDefinitionIndex = 58778;
+inline static constexpr unsigned int NLNGDGPHKCJ_TypeDefinitionIndex = 60046;
 
 	class NLNGDGPHKCJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::TriggerDrinkMakerBartendInMainMission* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TriggerDrinkMakerBartendInMainMission* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerDrinkMakerBartendInMainMission* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerDrinkMakerBartendInMainMission*))((::PBYTE)hIl2Cpp + NLNGDGPHKCJ_CTOR_OFFSET))(this, a1, a2);

@@ -4,10 +4,10 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define FNIGBODNGFD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA43040)
-#define FNIGBODNGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA43090)
+#define FNIGBODNGFD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C20D810)
+#define FNIGBODNGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20D860)
 
-inline static constexpr unsigned int FNIGBODNGFD_TypeDefinitionIndex = 42108;
+inline static constexpr unsigned int FNIGBODNGFD_TypeDefinitionIndex = 43083;
 
 	class FNIGBODNGFD : public ::System::Object
 	{

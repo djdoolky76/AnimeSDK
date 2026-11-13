@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 class BJDBKICFGAM;
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xD630200)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DECFBB0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftTargetWindow_TypeDefinitionIndex = 79950;
+	inline static constexpr unsigned int MechCraftCraftTargetWindow_TypeDefinitionIndex = 82727;
 
 	class MechCraftCraftTargetWindow
 	{

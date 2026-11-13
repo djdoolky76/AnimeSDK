@@ -11,191 +11,191 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define IFOEBJMEFKG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15F23280)
-#define IFOEBJMEFKG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15F232C0)
-#define IFOEBJMEFKG___C__GET_CANCLICK_B__32_0_OFFSET UNITYSDK_OFFSET(0x15F23350)
-#define IFOEBJMEFKG___C__GET_ISTALKVISIBLE_B__27_0_OFFSET UNITYSDK_OFFSET(0x15F23340)
-#define IFOEBJMEFKG___C__GET_RECOMMENDEDMOLD_B__17_0_OFFSET UNITYSDK_OFFSET(0x15F232D0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_1_OFFSET UNITYSDK_OFFSET(0x15F233F0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_2_OFFSET UNITYSDK_OFFSET(0x15F23400)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_3_OFFSET UNITYSDK_OFFSET(0x15F23410)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_4_OFFSET UNITYSDK_OFFSET(0x15F23420)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_5_OFFSET UNITYSDK_OFFSET(0x15F23430)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_7_OFFSET UNITYSDK_OFFSET(0x15F23450)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_10_OFFSET UNITYSDK_OFFSET(0x15F23650)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_13_OFFSET UNITYSDK_OFFSET(0x15F23670)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_1_OFFSET UNITYSDK_OFFSET(0x15F235D0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_2_OFFSET UNITYSDK_OFFSET(0x15F235E0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_3_OFFSET UNITYSDK_OFFSET(0x15F235F0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_4_OFFSET UNITYSDK_OFFSET(0x15F23600)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_6_OFFSET UNITYSDK_OFFSET(0x15F23610)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_7_OFFSET UNITYSDK_OFFSET(0x15F23620)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_8_OFFSET UNITYSDK_OFFSET(0x15F23630)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_9_OFFSET UNITYSDK_OFFSET(0x15F23640)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFOREXAM_B__51_1_OFFSET UNITYSDK_OFFSET(0x15F233C0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFOREXAM_B__51_3_OFFSET UNITYSDK_OFFSET(0x15F233E0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_0_OFFSET UNITYSDK_OFFSET(0x15F234C0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_10_OFFSET UNITYSDK_OFFSET(0x15F23560)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_2_OFFSET UNITYSDK_OFFSET(0x15F234D0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_3_OFFSET UNITYSDK_OFFSET(0x15F234E0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_4_OFFSET UNITYSDK_OFFSET(0x15F234F0)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_5_OFFSET UNITYSDK_OFFSET(0x15F23500)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_6_OFFSET UNITYSDK_OFFSET(0x15F23510)
-#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_9_OFFSET UNITYSDK_OFFSET(0x15F23530)
+#define IFOEBJMEFKG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC2B6A0)
+#define IFOEBJMEFKG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2B6E0)
+#define IFOEBJMEFKG___C__GET_CANCLICK_B__32_0_OFFSET UNITYSDK_OFFSET(0x1BC2B770)
+#define IFOEBJMEFKG___C__GET_ISTALKVISIBLE_B__27_0_OFFSET UNITYSDK_OFFSET(0x1BC2B760)
+#define IFOEBJMEFKG___C__GET_RECOMMENDEDMOLD_B__17_0_OFFSET UNITYSDK_OFFSET(0x1BC2B6F0)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_1_OFFSET UNITYSDK_OFFSET(0x1BC2B810)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_2_OFFSET UNITYSDK_OFFSET(0x1BC2B820)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_3_OFFSET UNITYSDK_OFFSET(0x1BC2B830)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_4_OFFSET UNITYSDK_OFFSET(0x1BC2B840)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_5_OFFSET UNITYSDK_OFFSET(0x1BC2B850)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_7_OFFSET UNITYSDK_OFFSET(0x1BC2B870)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_10_OFFSET UNITYSDK_OFFSET(0x1BC2BA70)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_13_OFFSET UNITYSDK_OFFSET(0x1BC2BA90)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_1_OFFSET UNITYSDK_OFFSET(0x1BC2B9F0)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_2_OFFSET UNITYSDK_OFFSET(0x1BC2BA00)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_3_OFFSET UNITYSDK_OFFSET(0x1BC2BA10)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_4_OFFSET UNITYSDK_OFFSET(0x1BC2BA20)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_6_OFFSET UNITYSDK_OFFSET(0x1BC2BA30)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_7_OFFSET UNITYSDK_OFFSET(0x1BC2BA40)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_8_OFFSET UNITYSDK_OFFSET(0x1BC2BA50)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_9_OFFSET UNITYSDK_OFFSET(0x1BC2BA60)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFOREXAM_B__51_1_OFFSET UNITYSDK_OFFSET(0x1BC2B7E0)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFOREXAM_B__51_3_OFFSET UNITYSDK_OFFSET(0x1BC2B800)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_0_OFFSET UNITYSDK_OFFSET(0x1BC2B8E0)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_10_OFFSET UNITYSDK_OFFSET(0x1BC2B980)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_2_OFFSET UNITYSDK_OFFSET(0x1BC2B8F0)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_3_OFFSET UNITYSDK_OFFSET(0x1BC2B900)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_4_OFFSET UNITYSDK_OFFSET(0x1BC2B910)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_5_OFFSET UNITYSDK_OFFSET(0x1BC2B920)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_6_OFFSET UNITYSDK_OFFSET(0x1BC2B930)
+#define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_9_OFFSET UNITYSDK_OFFSET(0x1BC2B950)
 
-inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79445;
+inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 82222;
 
 	class IFOEBJMEFKG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6B0);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__54_8()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6B8);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>** StaticGet___9__52_4()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6C0);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__52_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6C8);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__53_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6D0);
-		}
-
-		static ::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__54_6()
-		{
-			return (::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6D8);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>** StaticGet___9__54_4()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6E0);
-		}
-
-		static ::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>** StaticGet___9__53_3()
-		{
-			return (::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6E8);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__52_3()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6F0);
-		}
-
-		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__53_6()
-		{
-			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E6F8);
-		}
-
-		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>** StaticGet___9__54_2()
-		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E700);
-		}
-
 		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>** StaticGet___9__52_2()
 		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E708);
-		}
-
-		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__53_9()
-		{
-			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E710);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__53_4()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E718);
-		}
-
-		static ::System::Func_2<::CHGHIALKMFM*, ::System::Int32>** StaticGet___9__52_7()
-		{
-			return (::System::Func_2<::CHGHIALKMFM*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E720);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>** StaticGet___9__53_5()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E728);
-		}
-
-		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__51_3()
-		{
-			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E730);
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA20);
 		}
 
 		static ::System::Func_2<::CHGHIALKMFM*, ::System::Int32>** StaticGet___9__54_13()
 		{
-			return (::System::Func_2<::CHGHIALKMFM*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E738);
+			return (::System::Func_2<::CHGHIALKMFM*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA28);
 		}
 
-		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__52_5()
+		static ::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__54_6()
 		{
-			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E740);
+			return (::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA30);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__54_1()
+		static ::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>** StaticGet___9__53_3()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E748);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__27_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E750);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__51_1()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E758);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>** StaticGet___9__54_9()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E760);
-		}
-
-		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__54_10()
-		{
-			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E768);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__32_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E770);
-		}
-
-		static ::System::Func_2<::System::Object*, ::CHGHIALKMFM*>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::System::Object*, ::CHGHIALKMFM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E778);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__54_3()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E780);
-		}
-
-		static ::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>** StaticGet___9__54_7()
-		{
-			return (::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E788);
-		}
-
-		static ::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__53_2()
-		{
-			return (::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E790);
+			return (::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA38);
 		}
 
 		static ::System::Func_2<::CHGHIALKMFM*, ::System::Int32>** StaticGet___9__53_10()
 		{
-			return (::System::Func_2<::CHGHIALKMFM*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E798);
+			return (::System::Func_2<::CHGHIALKMFM*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA40);
+		}
+
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>** StaticGet___9__54_2()
+		{
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA48);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__53_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA50);
+		}
+
+		static ::System::Func_2<::CHGHIALKMFM*, ::System::Int32>** StaticGet___9__52_7()
+		{
+			return (::System::Func_2<::CHGHIALKMFM*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA58);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__52_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA60);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>** StaticGet___9__54_9()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA68);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__54_3()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA70);
+		}
+
+		static ::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__53_2()
+		{
+			return (::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA78);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__53_4()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA80);
+		}
+
+		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__54_10()
+		{
+			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA88);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__27_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA90);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__32_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EA98);
+		}
+
+		static ::System::Func_2<::System::Object*, ::CHGHIALKMFM*>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::System::Object*, ::CHGHIALKMFM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAA0);
+		}
+
+		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__52_5()
+		{
+			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAA8);
+		}
+
+		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__51_3()
+		{
+			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAB0);
+		}
+
+		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__53_6()
+		{
+			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAB8);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__52_3()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAC0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAC8);
+		}
+
+		static ::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>** StaticGet___9__54_7()
+		{
+			return (::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAD0);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>** StaticGet___9__54_4()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAD8);
+		}
+
+		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__53_9()
+		{
+			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAE0);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__54_8()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAE8);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>** StaticGet___9__53_5()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAF0);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__51_1()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EAF8);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>** StaticGet___9__52_4()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EB00);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__54_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EB08);
 		}
 
 		static ::System::Void _cctor()

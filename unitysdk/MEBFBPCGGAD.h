@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockMainStreamSourceToPlayerTeleportPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MEBFBPCGGAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B2710)
-#define MEBFBPCGGAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8B2740)
+#define MEBFBPCGGAD_CTOR_OFFSET UNITYSDK_OFFSET(0x183F4320)
+#define MEBFBPCGGAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x183F4350)
 
-inline static constexpr unsigned int MEBFBPCGGAD_TypeDefinitionIndex = 58204;
+inline static constexpr unsigned int MEBFBPCGGAD_TypeDefinitionIndex = 59459;
 
 	class MEBFBPCGGAD
 	{

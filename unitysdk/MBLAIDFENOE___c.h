@@ -4,18 +4,18 @@
 class MBLAIDFENOE;
 namespace System { class Object; }
 
-#define MBLAIDFENOE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9BACC0)
-#define MBLAIDFENOE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9BAD00)
-#define MBLAIDFENOE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9BAD10)
+#define MBLAIDFENOE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBC2FE0)
+#define MBLAIDFENOE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC3020)
+#define MBLAIDFENOE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FBC3030)
 
-inline static constexpr unsigned int MBLAIDFENOE___c_TypeDefinitionIndex = 34599;
+inline static constexpr unsigned int MBLAIDFENOE___c_TypeDefinitionIndex = 35527;
 
 	class MBLAIDFENOE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47E30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B120);
 		}
 
 		static ::System::Void _cctor()

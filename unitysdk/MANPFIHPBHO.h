@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareGraphDynamicString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MANPFIHPBHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB84F9A0)
-#define MANPFIHPBHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB84F9D0)
+#define MANPFIHPBHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8174F0)
+#define MANPFIHPBHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B817520)
 
-inline static constexpr unsigned int MANPFIHPBHO_TypeDefinitionIndex = 52566;
+inline static constexpr unsigned int MANPFIHPBHO_TypeDefinitionIndex = 53672;
 
 	class MANPFIHPBHO
 	{

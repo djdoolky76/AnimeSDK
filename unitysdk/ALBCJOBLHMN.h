@@ -9,82 +9,82 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture; }
 
-#define ALBCJOBLHMN_APEPOGHMCHJ_OFFSET UNITYSDK_OFFSET(0x12CDD380)
-#define ALBCJOBLHMN_BKGBLACNHBC_OFFSET UNITYSDK_OFFSET(0x12CDD100)
-#define ALBCJOBLHMN_BMFNDAIAEHE_OFFSET UNITYSDK_OFFSET(0x12CDD240)
-#define ALBCJOBLHMN_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CDEAC0)
-#define ALBCJOBLHMN_CJCPIPONNCA_OFFSET UNITYSDK_OFFSET(0x12CDDA30)
-#define ALBCJOBLHMN_FJGGODFCDCJ_OFFSET UNITYSDK_OFFSET(0x12CDDCF0)
-#define ALBCJOBLHMN_FMPAOKGPMNG_OFFSET UNITYSDK_OFFSET(0x12CDD770)
-#define ALBCJOBLHMN_GIBIBHNGPMC_OFFSET UNITYSDK_OFFSET(0x12CDCD30)
-#define ALBCJOBLHMN_IJDHKJHFOIO_OFFSET UNITYSDK_OFFSET(0x12CDCFC0)
-#define ALBCJOBLHMN_MAMMHHIGJGC_OFFSET UNITYSDK_OFFSET(0x12CDCDB0)
-#define ALBCJOBLHMN_NHDEGHHPLPN_OFFSET UNITYSDK_OFFSET(0x12CDD4C0)
-#define ALBCJOBLHMN_NHKAEONHIFF_OFFSET UNITYSDK_OFFSET(0x12CDD600)
+#define ALBCJOBLHMN_APEPOGHMCHJ_OFFSET UNITYSDK_OFFSET(0x197B3790)
+#define ALBCJOBLHMN_BKGBLACNHBC_OFFSET UNITYSDK_OFFSET(0x197B3510)
+#define ALBCJOBLHMN_BMFNDAIAEHE_OFFSET UNITYSDK_OFFSET(0x197B3650)
+#define ALBCJOBLHMN_CCTOR_OFFSET UNITYSDK_OFFSET(0x197B4ED0)
+#define ALBCJOBLHMN_CJCPIPONNCA_OFFSET UNITYSDK_OFFSET(0x197B3E40)
+#define ALBCJOBLHMN_FJGGODFCDCJ_OFFSET UNITYSDK_OFFSET(0x197B4100)
+#define ALBCJOBLHMN_FMPAOKGPMNG_OFFSET UNITYSDK_OFFSET(0x197B3B80)
+#define ALBCJOBLHMN_GIBIBHNGPMC_OFFSET UNITYSDK_OFFSET(0x197B3140)
+#define ALBCJOBLHMN_IJDHKJHFOIO_OFFSET UNITYSDK_OFFSET(0x197B33D0)
+#define ALBCJOBLHMN_MAMMHHIGJGC_OFFSET UNITYSDK_OFFSET(0x197B31C0)
+#define ALBCJOBLHMN_NHDEGHHPLPN_OFFSET UNITYSDK_OFFSET(0x197B38D0)
+#define ALBCJOBLHMN_NHKAEONHIFF_OFFSET UNITYSDK_OFFSET(0x197B3A10)
 
-inline static constexpr unsigned int ALBCJOBLHMN_TypeDefinitionIndex = 49276;
+inline static constexpr unsigned int ALBCJOBLHMN_TypeDefinitionIndex = 50352;
 
 	class ALBCJOBLHMN : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>** StaticGet_IMPGKPJOLCD()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x59FD0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>** StaticGet_MADMNEKDHCD()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x59FD8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>** StaticGet_MBCJBHAGGMC()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x59FE0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>** StaticGet_DJPPKAKIHGL()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x59FE8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>** StaticGet_IOJOLJIDBLK()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x59FF0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>** StaticGet_JIICPOOGDKB()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x59FF8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>** StaticGet_HKHMCCODEFC()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x5A000);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>** StaticGet_FEFPFADCMLH()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x5A008);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::FJLGIJAOIOI, ::System::Int32>*>** StaticGet_KOGMONJGLKH()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::FJLGIJAOIOI, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x5A010);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>** StaticGet_JJIOFIMOFAF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x5A018);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x52380);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::FJLGIJAOIOI, ::System::Int32>*>** StaticGet_JBEPMMENIOP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::FJLGIJAOIOI, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x5A020);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::FJLGIJAOIOI, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x52388);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>** StaticGet_MADMNEKDHCD()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x52390);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::FJLGIJAOIOI, ::System::Int32>*>** StaticGet_KOGMONJGLKH()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::FJLGIJAOIOI, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x52398);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>** StaticGet_DJPPKAKIHGL()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x523A0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>** StaticGet_IOJOLJIDBLK()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x523A8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>** StaticGet_FEFPFADCMLH()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x523B0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>** StaticGet_HKHMCCODEFC()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x523B8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>** StaticGet_IMPGKPJOLCD()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x523C0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>** StaticGet_JIICPOOGDKB()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x523C8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>** StaticGet_MBCJBHAGGMC()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x523D0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>** StaticGet_IDNECHIOJPL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x5A028);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>**)UnitySDK::FromName("", "ALBCJOBLHMN")->GetStaticField(0x523D8);
 		}
 
 		static ::System::Void _cctor()

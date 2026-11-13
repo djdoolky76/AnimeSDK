@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CacheCharacterAtlasFaceEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KBHJGFCNHPG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2FA940)
-#define KBHJGFCNHPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2FA970)
+#define KBHJGFCNHPG_CTOR_OFFSET UNITYSDK_OFFSET(0x19DDC2A0)
+#define KBHJGFCNHPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DDC2D0)
 
-inline static constexpr unsigned int KBHJGFCNHPG_TypeDefinitionIndex = 56347;
+inline static constexpr unsigned int KBHJGFCNHPG_TypeDefinitionIndex = 57561;
 
 	class KBHJGFCNHPG
 	{

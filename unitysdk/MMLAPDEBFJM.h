@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MMLAPDEBFJM_TypeDefinitionIndex = 32210;
+inline static constexpr unsigned int MMLAPDEBFJM_TypeDefinitionIndex = 33123;
 
 	enum class MMLAPDEBFJM : ::System::Int32
 	{

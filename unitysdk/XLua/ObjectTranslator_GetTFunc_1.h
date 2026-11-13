@@ -4,7 +4,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator_GetTFunc_1_TypeDefinitionIndex = 50077;
+	inline static constexpr unsigned int ObjectTranslator_GetTFunc_1_TypeDefinitionIndex = 51125;
 
 	template <typename T>
 	class ObjectTranslator_GetTFunc_1 : public ::System::MulticastDelegate

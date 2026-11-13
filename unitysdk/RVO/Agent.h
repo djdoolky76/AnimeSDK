@@ -9,39 +9,39 @@ namespace RVO { class Obstacle; }
 namespace RVO { class Simulator; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RVO_AGENT_COMPUTENEIGHBORS_OFFSET UNITYSDK_OFFSET(0xB085530)
-#define RVO_AGENT_COMPUTENEWVELOCITY_OFFSET UNITYSDK_OFFSET(0xB085830)
-#define RVO_AGENT_CTOR_OFFSET UNITYSDK_OFFSET(0xB085440)
-#define RVO_AGENT_INSERTAGENTNEIGHBOR_OFFSET UNITYSDK_OFFSET(0xB08A000)
-#define RVO_AGENT_INSERTOBSTACLENEIGHBOR_OFFSET UNITYSDK_OFFSET(0xB08AB90)
-#define RVO_AGENT_LINEARPROGRAM1_OFFSET UNITYSDK_OFFSET(0xB08B5A0)
-#define RVO_AGENT_LINEARPROGRAM2_OFFSET UNITYSDK_OFFSET(0xB087E60)
-#define RVO_AGENT_LINEARPROGRAM3_OFFSET UNITYSDK_OFFSET(0xB088430)
-#define RVO_AGENT_UPDATE_OFFSET UNITYSDK_OFFSET(0xB08B540)
+#define RVO_AGENT_COMPUTENEIGHBORS_OFFSET UNITYSDK_OFFSET(0x1CF2CA90)
+#define RVO_AGENT_COMPUTENEWVELOCITY_OFFSET UNITYSDK_OFFSET(0x1CF2CD90)
+#define RVO_AGENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF2C9A0)
+#define RVO_AGENT_INSERTAGENTNEIGHBOR_OFFSET UNITYSDK_OFFSET(0x1CF31580)
+#define RVO_AGENT_INSERTOBSTACLENEIGHBOR_OFFSET UNITYSDK_OFFSET(0x1CF32110)
+#define RVO_AGENT_LINEARPROGRAM1_OFFSET UNITYSDK_OFFSET(0x1CF32B50)
+#define RVO_AGENT_LINEARPROGRAM2_OFFSET UNITYSDK_OFFSET(0x1CF2F420)
+#define RVO_AGENT_LINEARPROGRAM3_OFFSET UNITYSDK_OFFSET(0x1CF2F9B0)
+#define RVO_AGENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CF32AC0)
 
 namespace RVO
 {
-	inline static constexpr unsigned int Agent_TypeDefinitionIndex = 46026;
+	inline static constexpr unsigned int Agent_TypeDefinitionIndex = 47055;
 
 	class Agent : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::RVO::Obstacle*>>* obstacleNeighbors_; // 0x10
-		::System::Collections::Generic::IList_1<::RVO::Line>* orcaLines_; // 0x18
-		::RVO::Simulator* _simulator; // 0x20
-		::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::RVO::Agent*>>* agentNeighbors_; // 0x28
-		::System::Single neighborDist_; // 0x30
-		::System::Single timeHorizon_; // 0x34
-		::System::Single height_; // 0x38
-		::RVO::Vector2 newVelocity_; // 0x3C
-		::System::Single radius_; // 0x44
-		::RVO::Vector2 velocity_; // 0x48
-		::System::Int32 maxNeighbors_; // 0x50
+		::RVO::Simulator* _simulator; // 0x10
+		::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::RVO::Obstacle*>>* obstacleNeighbors_; // 0x18
+		::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::RVO::Agent*>>* agentNeighbors_; // 0x20
+		::System::Collections::Generic::IList_1<::RVO::Line>* orcaLines_; // 0x28
+		::System::Int32 maxNeighbors_; // 0x30
+		::System::Single height_; // 0x34
+		::System::Single neighborDist_; // 0x38
+		::RVO::Vector2 prefVelocity_; // 0x3C
+		::System::Int32 id_; // 0x44
+		::System::Single radius_; // 0x48
+		::System::Single timeHorizon_; // 0x4C
+		::System::Single maxSpeed_; // 0x50
 		::System::Single timeHorizonObst_; // 0x54
-		::System::Single maxSpeed_; // 0x58
-		::RVO::Vector2 position_; // 0x5C
-		::System::Int32 id_; // 0x64
-		::RVO::Vector2 prefVelocity_; // 0x68
+		::RVO::Vector2 velocity_; // 0x58
+		::RVO::Vector2 newVelocity_; // 0x60
+		::RVO::Vector2 position_; // 0x68
 		::System::Void _ctor(::RVO::Simulator* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RVO::Simulator*))((::PBYTE)hIl2Cpp + RVO_AGENT_CTOR_OFFSET))(this, a1);

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class StackProperty; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD5A40)
-#define RPG_GAMECORE_STACKPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD5A50)
-#define RPG_GAMECORE_STACKPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD5A10)
+#define RPG_GAMECORE_STACKPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A8CF0)
+#define RPG_GAMECORE_STACKPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3A8D00)
+#define RPG_GAMECORE_STACKPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3A8CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackProperty_TypeDefinitionIndex = 23561;
+	inline static constexpr unsigned int StackProperty_TypeDefinitionIndex = 24007;
 
 	class StackProperty : public ::RPG::GameCore::TaskConfig
 	{

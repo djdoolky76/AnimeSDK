@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_DiceAllSame; }
 
-#define NGHPNNNKDCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C767D90)
-#define NGHPNNNKDCN_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C767DB0)
+#define NGHPNNNKDCN_CTOR_OFFSET UNITYSDK_OFFSET(0x160A8610)
+#define NGHPNNNKDCN_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x160A8630)
 
-inline static constexpr unsigned int NGHPNNNKDCN_TypeDefinitionIndex = 36344;
+inline static constexpr unsigned int NGHPNNNKDCN_TypeDefinitionIndex = 37272;
 
 	class NGHPNNNKDCN : public ::HHOHBHGLHHF
 	{

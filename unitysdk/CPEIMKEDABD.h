@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DeployPuzzleGiveBackStone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CPEIMKEDABD_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCA2C0)
-#define CPEIMKEDABD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCCA2F0)
+#define CPEIMKEDABD_CTOR_OFFSET UNITYSDK_OFFSET(0x1917B3F0)
+#define CPEIMKEDABD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1917B420)
 
-inline static constexpr unsigned int CPEIMKEDABD_TypeDefinitionIndex = 58072;
+inline static constexpr unsigned int CPEIMKEDABD_TypeDefinitionIndex = 59311;
 
 	class CPEIMKEDABD
 	{

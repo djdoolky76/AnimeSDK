@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByTeamFormationRow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IHELLIBKJMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1640D4E0)
-#define IHELLIBKJMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1640D5C0)
+#define IHELLIBKJMC_CTOR_OFFSET UNITYSDK_OFFSET(0x19F6CDD0)
+#define IHELLIBKJMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F6CEB0)
 
-inline static constexpr unsigned int IHELLIBKJMC_TypeDefinitionIndex = 56403;
+inline static constexpr unsigned int IHELLIBKJMC_TypeDefinitionIndex = 57621;
 
 	class IHELLIBKJMC
 	{

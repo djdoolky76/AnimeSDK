@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int HMPBCMLDFIP_TypeDefinitionIndex = 6242;
+inline static constexpr unsigned int HMPBCMLDFIP_TypeDefinitionIndex = 6249;
 
 	struct alignas(4) HMPBCMLDFIP
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournMiracleGroupRow; }
 
-#define RPG_GAMECORE_ROGUETOURNMIRACLEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA11F00)
-#define RPG_GAMECORE_ROGUETOURNMIRACLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA11E40)
+#define RPG_GAMECORE_ROGUETOURNMIRACLEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF327A0)
+#define RPG_GAMECORE_ROGUETOURNMIRACLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF326E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournMiracleGroupRow_TypeDefinitionIndex = 15021;
+	inline static constexpr unsigned int RogueTournMiracleGroupRow_TypeDefinitionIndex = 15177;
 
 	class RogueTournMiracleGroupRow : public ::System::Object
 	{

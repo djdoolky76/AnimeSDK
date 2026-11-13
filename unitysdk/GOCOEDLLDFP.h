@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class GOCOEDLLDFP;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define GOCOEDLLDFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE43A30)
-#define GOCOEDLLDFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE43910)
+#define GOCOEDLLDFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C4140)
+#define GOCOEDLLDFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9C4020)
 
-inline static constexpr unsigned int GOCOEDLLDFP_TypeDefinitionIndex = 22408;
+inline static constexpr unsigned int GOCOEDLLDFP_TypeDefinitionIndex = 22817;
 
 	class GOCOEDLLDFP : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,18 +5,18 @@
 namespace RPG::Client::B51Racing { class B51RacingCarActiveSkillItemViewModel; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGINITCARSELECTPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7A91D0)
+#define RPG_CLIENT_B51RACING_B51RACINGINITCARSELECTPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA69EF0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingInitCarSelectPageViewModel_TypeDefinitionIndex = 82004;
+	inline static constexpr unsigned int B51RacingInitCarSelectPageViewModel_TypeDefinitionIndex = 84785;
 
 	class B51RacingInitCarSelectPageViewModel : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::UInt32>* OnCarReselected; // 0x10
-		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* CarActiveSkillViewModel2; // 0x18
-		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* CarActiveSkillViewModel1; // 0x20
+		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* CarActiveSkillViewModel1; // 0x10
+		::System::Action_1<::System::UInt32>* OnCarReselected; // 0x18
+		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* CarActiveSkillViewModel2; // 0x20
 		::System::UInt32 CurrentSelectedCarID; // 0x28
 		::System::UInt32 CarID1; // 0x2C
 		::RPG::Client::B51Racing::B51RacingInitCarSelectOpenMode OpenMode; // 0x30

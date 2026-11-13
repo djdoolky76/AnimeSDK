@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightPrepTutorialPopupPanelVisibleParam; }
 
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALPOPUPPANELVISIBLEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70D6F0)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALPOPUPPANELVISIBLEPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D70D2F0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALPOPUPPANELVISIBLEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA59710)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALPOPUPPANELVISIBLEPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA59310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialPopupPanelVisibleParam_TypeDefinitionIndex = 19968;
+	inline static constexpr unsigned int GridFightPrepTutorialPopupPanelVisibleParam_TypeDefinitionIndex = 20298;
 
 	class GridFightPrepTutorialPopupPanelVisibleParam : public ::RPG::GameCore::JsonConfig
 	{

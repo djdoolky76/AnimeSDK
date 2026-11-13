@@ -8,24 +8,24 @@ namespace RPG::Client { class BattleSkillDescItemFitterParamCollector; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0xC858BB0)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0xC858A60)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_CTOR_OFFSET UNITYSDK_OFFSET(0xC858B60)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0xC858E10)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0xC858E70)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0xC858FB0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0x1CD87900)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0x1CD877B0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD878B0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0x1CD87B60)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0x1CD87BC0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0x1CD87D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 71889;
+	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 73910;
 
 	class BattleSkillDescFitter : public ::System::Object
 	{
 	public:
-		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x10
-		::UnityEngine::RectTransform* _PosChangeTransform; // 0x18
-		::EFINDGEDGMD* _RootTransformCornerData; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x28
+		::UnityEngine::RectTransform* _PosChangeTransform; // 0x10
+		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x20
+		::EFINDGEDGMD* _RootTransformCornerData; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCFITTER_CTOR_OFFSET))(this);

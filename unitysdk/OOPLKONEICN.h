@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterVisibilityFollow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOPLKONEICN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF90C10)
-#define OOPLKONEICN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF90C40)
+#define OOPLKONEICN_CTOR_OFFSET UNITYSDK_OFFSET(0x196B83F0)
+#define OOPLKONEICN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x196B8420)
 
-inline static constexpr unsigned int OOPLKONEICN_TypeDefinitionIndex = 55373;
+inline static constexpr unsigned int OOPLKONEICN_TypeDefinitionIndex = 56556;
 
 	class OOPLKONEICN
 	{

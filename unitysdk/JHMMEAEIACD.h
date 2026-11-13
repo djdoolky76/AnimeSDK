@@ -6,22 +6,22 @@ namespace RPG::GameCore { class SwitchHandCatchStateListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define JHMMEAEIACD_CTOR_OFFSET UNITYSDK_OFFSET(0xB1B8A20)
-#define JHMMEAEIACD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1B8B00)
-#define JHMMEAEIACD_KNAADBJDGDN_OFFSET UNITYSDK_OFFSET(0xB1B9110)
-#define JHMMEAEIACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1B8ED0)
-#define JHMMEAEIACD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1B9380)
-#define JHMMEAEIACD_TICK_OFFSET UNITYSDK_OFFSET(0xB1B8D10)
+#define JHMMEAEIACD_CTOR_OFFSET UNITYSDK_OFFSET(0x173E7560)
+#define JHMMEAEIACD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x173E7640)
+#define JHMMEAEIACD_KNAADBJDGDN_OFFSET UNITYSDK_OFFSET(0x173E7B80)
+#define JHMMEAEIACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173E7940)
+#define JHMMEAEIACD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x173E7D40)
+#define JHMMEAEIACD_TICK_OFFSET UNITYSDK_OFFSET(0x173E7850)
 
-inline static constexpr unsigned int JHMMEAEIACD_TypeDefinitionIndex = 53308;
+inline static constexpr unsigned int JHMMEAEIACD_TypeDefinitionIndex = 54470;
 
 	class JHMMEAEIACD : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* OFEFKGDFIEN; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::SwitchHandCatchStateListener* IGHAHBNLIJA; // 0x18
+		::KFELGAIGHAP* OFEFKGDFIEN; // 0x20
 		::KFELGAIGHAP* OHMNAFJEMJL; // 0x28
-		::RPG::GameCore::SwitchHandCatchStateListener* IGHAHBNLIJA; // 0x30
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchHandCatchStateListener* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchHandCatchStateListener*))((::PBYTE)hIl2Cpp + JHMMEAEIACD_CTOR_OFFSET))(this, a1, a2);

@@ -6,25 +6,25 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionGroupRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D317CA0)
-#define RPG_GAMECORE_ACTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D317480)
+#define RPG_GAMECORE_ACTIONGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F4F80)
+#define RPG_GAMECORE_ACTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E4F4760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionGroupRow_TypeDefinitionIndex = 13815;
+	inline static constexpr unsigned int ActionGroupRow_TypeDefinitionIndex = 13972;
 
 	class ActionGroupRow : public ::System::Object
 	{
 	public:
-		::System::String* GermanyKeyMouseImagePath; // 0x10
-		::System::String* PsImagePath; // 0x18
-		::Il2CppArray<::System::String*>* ActionListForOr; // 0x20
-		::System::String* ActionGroupName; // 0x28
-		::System::String* KeyMouseImagePath; // 0x30
+		::System::String* PsImagePath; // 0x10
+		::System::String* GermanyKeyMouseImagePath; // 0x18
+		::System::String* KeyMouseImagePath; // 0x20
+		::System::String* XboxImagePath; // 0x28
+		::System::String* ActionName; // 0x30
 		::System::String* FranceKeyMouseImagePath; // 0x38
-		::System::String* ActionName; // 0x40
+		::System::String* ActionGroupName; // 0x40
 		::Il2CppArray<::System::String*>* ActionListForAnd; // 0x48
-		::System::String* XboxImagePath; // 0x50
+		::Il2CppArray<::System::String*>* ActionListForOr; // 0x50
 		::RPG::Client::TextID ActionGroupTextmapID; // 0x58
 		::System::Void _ctor()
 		{

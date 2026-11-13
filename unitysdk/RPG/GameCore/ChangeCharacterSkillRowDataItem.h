@@ -8,12 +8,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D538440)
-#define RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D538160)
+#define RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC106E0)
+#define RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC10400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterSkillRowDataItem_TypeDefinitionIndex = 23676;
+	inline static constexpr unsigned int ChangeCharacterSkillRowDataItem_TypeDefinitionIndex = 24130;
 
 	class ChangeCharacterSkillRowDataItem : public ::RPG::GameCore::JsonConfig
 	{

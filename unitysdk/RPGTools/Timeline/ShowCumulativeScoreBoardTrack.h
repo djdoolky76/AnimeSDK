@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE92E710)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE92E6A0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA199E0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1DA19970)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowCumulativeScoreBoardTrack_TypeDefinitionIndex = 48280;
+	inline static constexpr unsigned int ShowCumulativeScoreBoardTrack_TypeDefinitionIndex = 49321;
 
 	class ShowCumulativeScoreBoardTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LevelDirector.h"
 namespace RPG::GameCore { class GameWorld; }
 
-#define JLDNJKKGJKA_CTOR_OFFSET UNITYSDK_OFFSET(0xB2367A0)
-#define JLDNJKKGJKA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2367E0)
-#define JLDNJKKGJKA_TICK_OFFSET UNITYSDK_OFFSET(0xB236850)
+#define JLDNJKKGJKA_CTOR_OFFSET UNITYSDK_OFFSET(0x17B433C0)
+#define JLDNJKKGJKA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B43400)
+#define JLDNJKKGJKA_TICK_OFFSET UNITYSDK_OFFSET(0x17B43470)
 
-inline static constexpr unsigned int JLDNJKKGJKA_TypeDefinitionIndex = 59298;
+inline static constexpr unsigned int JLDNJKKGJKA_TypeDefinitionIndex = 60575;
 
 	class JLDNJKKGJKA : public ::RPG::Client::LevelDirector
 	{

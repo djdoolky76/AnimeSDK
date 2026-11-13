@@ -5,18 +5,18 @@
 class DHAPPCLCHEJ;
 class FCOEMCEDLNL;
 
-#define DHAPPCLCHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF36F0)
-#define DHAPPCLCHEJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF3560)
+#define DHAPPCLCHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E8440)
+#define DHAPPCLCHEJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7E82B0)
 
-inline static constexpr unsigned int DHAPPCLCHEJ_TypeDefinitionIndex = 12942;
+inline static constexpr unsigned int DHAPPCLCHEJ_TypeDefinitionIndex = 13014;
 
 	class DHAPPCLCHEJ : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChallengeGroupType NDEEOPGAILP; // 0x10
-		::System::UInt32 NAGOAODFACD; // 0x14
-		::System::UInt32 NEBFIEHMLJB; // 0x18
-		::System::UInt32 CEELPELAICJ; // 0x1C
+		::System::UInt32 NEBFIEHMLJB; // 0x10
+		::RPG::GameCore::ChallengeGroupType NDEEOPGAILP; // 0x14
+		::System::UInt32 CEELPELAICJ; // 0x18
+		::System::UInt32 NAGOAODFACD; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DHAPPCLCHEJ_CTOR_OFFSET))(this);

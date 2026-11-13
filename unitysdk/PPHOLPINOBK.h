@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/GenderType.h"
 #include "unitysdk/System/Object.h"
 
-#define PPHOLPINOBK_CTOR_OFFSET UNITYSDK_OFFSET(0xC37FCE0)
-#define PPHOLPINOBK_JCEBBIMJCMK_OFFSET UNITYSDK_OFFSET(0xC37FC20)
+#define PPHOLPINOBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AC2E0)
+#define PPHOLPINOBK_JCEBBIMJCMK_OFFSET UNITYSDK_OFFSET(0x1B8AC220)
 
-inline static constexpr unsigned int PPHOLPINOBK_TypeDefinitionIndex = 62655;
+inline static constexpr unsigned int PPHOLPINOBK_TypeDefinitionIndex = 64089;
 
 	class PPHOLPINOBK : public ::System::Object
 	{

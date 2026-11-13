@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEHUDBUBBLEFADEINMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD3F91D0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEHUDBUBBLEFADEINMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBDDE50)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceHUDBubbleFadeinMessage_TypeDefinitionIndex = 78138;
+	inline static constexpr unsigned int CakeRaceHUDBubbleFadeinMessage_TypeDefinitionIndex = 80873;
 
 	class CakeRaceHUDBubbleFadeinMessage : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* PivotGameObject; // 0x10
-		::System::String* IconPath; // 0x18
-		::UnityEngine::GameObject* Key; // 0x20
-		::System::String* TextStr; // 0x28
+		::System::String* IconPath; // 0x10
+		::UnityEngine::GameObject* PivotGameObject; // 0x18
+		::System::String* TextStr; // 0x20
+		::UnityEngine::GameObject* Key; // 0x28
 		::System::Boolean IsForceShow; // 0x30
 		::System::Byte _padding0[0x3];
 		::RPG::Client::LittleGame::CakeRace::CakeRaceGameplayBubbleType BubbleType; // 0x34

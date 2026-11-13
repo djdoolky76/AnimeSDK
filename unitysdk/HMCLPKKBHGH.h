@@ -7,20 +7,20 @@
 namespace RPG::GameCore { class AdventureModifierInstance; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define HMCLPKKBHGH_ABBKNIKBKPP_OFFSET UNITYSDK_OFFSET(0x15D6D530)
-#define HMCLPKKBHGH_CTOR_OFFSET UNITYSDK_OFFSET(0x15D6D250)
-#define HMCLPKKBHGH_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x15D6D5A0)
-#define HMCLPKKBHGH_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0x15D6D2A0)
-#define HMCLPKKBHGH_NDAENKCAIJF_OFFSET UNITYSDK_OFFSET(0x15D6D400)
+#define HMCLPKKBHGH_ABBKNIKBKPP_OFFSET UNITYSDK_OFFSET(0x1A34BAD0)
+#define HMCLPKKBHGH_CTOR_OFFSET UNITYSDK_OFFSET(0x198BD220)
+#define HMCLPKKBHGH_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x1A34BB40)
+#define HMCLPKKBHGH_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0x1A34B840)
+#define HMCLPKKBHGH_NDAENKCAIJF_OFFSET UNITYSDK_OFFSET(0x1A34B9A0)
 
-inline static constexpr unsigned int HMCLPKKBHGH_TypeDefinitionIndex = 57028;
+inline static constexpr unsigned int HMCLPKKBHGH_TypeDefinitionIndex = 58255;
 
 	class HMCLPKKBHGH : public ::NHPNLANLMDB
 	{
 	public:
-		::System::Nullable_1<::System::Single> HDEPECEDLBO; // 0x90
+		::System::Nullable_1<::System::Single> KMNKEBCIPEM; // 0x90
 		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x98
-		::System::Nullable_1<::System::Single> KMNKEBCIPEM; // 0x9C
+		::System::Nullable_1<::System::Single> HDEPECEDLBO; // 0x9C
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + HMCLPKKBHGH_CTOR_OFFSET))(this, a1);

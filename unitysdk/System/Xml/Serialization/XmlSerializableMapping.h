@@ -8,7 +8,7 @@ namespace System::Xml::Schema { class XmlSchemaComplexType; }
 namespace System::Xml::Serialization { class TypeData; }
 namespace System::Xml::Serialization { class XmlRootAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZABLEMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDE5E0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZABLEMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x18A207C0)
 
 namespace System::Xml::Serialization
 {

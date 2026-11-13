@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define LOCALAMBIENTVOLUME_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB834570)
+#define LOCALAMBIENTVOLUME_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CE710)
 
-inline static constexpr unsigned int LocalAmbientVolume_ExtraExportData_TypeDefinitionIndex = 47466;
+inline static constexpr unsigned int LocalAmbientVolume_ExtraExportData_TypeDefinitionIndex = 48495;
 
 	class LocalAmbientVolume_ExtraExportData : public ::System::Object
 	{

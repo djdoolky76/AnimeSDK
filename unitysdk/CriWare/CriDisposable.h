@@ -3,11 +3,11 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIDISPOSABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x166E06A0)
+#define CRIWARE_CRIDISPOSABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4BE70)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriDisposable_TypeDefinitionIndex = 40195;
+	inline static constexpr unsigned int CriDisposable_TypeDefinitionIndex = 41170;
 
 	class CriDisposable : public ::System::Object
 	{

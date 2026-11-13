@@ -4,18 +4,18 @@
 class IGLLJCAMGMO;
 namespace System { class Object; }
 
-#define IGLLJCAMGMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6243C0)
-#define IGLLJCAMGMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E624400)
-#define IGLLJCAMGMO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E624410)
+#define IGLLJCAMGMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7E73D0)
+#define IGLLJCAMGMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7E7410)
+#define IGLLJCAMGMO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F7E7420)
 
-inline static constexpr unsigned int IGLLJCAMGMO___c_TypeDefinitionIndex = 26811;
+inline static constexpr unsigned int IGLLJCAMGMO___c_TypeDefinitionIndex = 27342;
 
 	class IGLLJCAMGMO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BEB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46430);
 		}
 
 		static ::System::Void _cctor()

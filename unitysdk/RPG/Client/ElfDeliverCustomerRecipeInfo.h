@@ -3,19 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFDELIVERCUSTOMERRECIPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCD7DE80)
+#define RPG_CLIENT_ELFDELIVERCUSTOMERRECIPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x189C3870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfDeliverCustomerRecipeInfo_TypeDefinitionIndex = 63742;
+	inline static constexpr unsigned int ElfDeliverCustomerRecipeInfo_TypeDefinitionIndex = 65184;
 
 	class ElfDeliverCustomerRecipeInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* RecipeIDList; // 0x10
-		::System::UInt32 CustomerID; // 0x18
-		::System::Boolean IsDrink; // 0x1C
-		::System::Boolean IsExtraPay; // 0x1D
+		::System::Boolean IsExtraPay; // 0x18
+		::System::Boolean IsDrink; // 0x19
+		::System::Byte _padding0[0x2];
+		::System::UInt32 CustomerID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFDELIVERCUSTOMERRECIPEINFO_CTOR_OFFSET))(this);

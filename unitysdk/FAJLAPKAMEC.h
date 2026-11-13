@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetFaceDirectionLocked; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FAJLAPKAMEC_CTOR_OFFSET UNITYSDK_OFFSET(0x15676840)
-#define FAJLAPKAMEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15676870)
+#define FAJLAPKAMEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2F030)
+#define FAJLAPKAMEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BA2F060)
 
-inline static constexpr unsigned int FAJLAPKAMEC_TypeDefinitionIndex = 55509;
+inline static constexpr unsigned int FAJLAPKAMEC_TypeDefinitionIndex = 56697;
 
 	class FAJLAPKAMEC
 	{

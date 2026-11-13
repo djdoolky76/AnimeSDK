@@ -4,11 +4,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropSwitchShowInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPMPJNFMGND_BOLJDDJDNII_OFFSET UNITYSDK_OFFSET(0xBD09A80)
-#define NPMPJNFMGND_CTOR_OFFSET UNITYSDK_OFFSET(0xBD096E0)
-#define NPMPJNFMGND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD09710)
+#define NPMPJNFMGND_BOLJDDJDNII_OFFSET UNITYSDK_OFFSET(0x19D0BD80)
+#define NPMPJNFMGND_CTOR_OFFSET UNITYSDK_OFFSET(0x19D0B9E0)
+#define NPMPJNFMGND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D0BA10)
 
-inline static constexpr unsigned int NPMPJNFMGND_TypeDefinitionIndex = 53185;
+inline static constexpr unsigned int NPMPJNFMGND_TypeDefinitionIndex = 54347;
 
 	class NPMPJNFMGND
 	{

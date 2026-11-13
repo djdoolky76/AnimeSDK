@@ -10,20 +10,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_POPUPDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF7EEB0)
-#define MIHOYO_SDK_POPUPDIALOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF7FFB0)
-#define MIHOYO_SDK_POPUPDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7FF60)
-#define MIHOYO_SDK_POPUPDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF7FB70)
-#define MIHOYO_SDK_POPUPDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF7FF30)
-#define MIHOYO_SDK_POPUPDIALOG_ONTAPBOTTOM_OFFSET UNITYSDK_OFFSET(0x1BF7FEC0)
-#define MIHOYO_SDK_POPUPDIALOG_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x1BF7FDE0)
-#define MIHOYO_SDK_POPUPDIALOG_ONTAPTOP_OFFSET UNITYSDK_OFFSET(0x1BF7FE50)
-#define MIHOYO_SDK_POPUPDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF7F7E0)
-#define MIHOYO_SDK_POPUPDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1BF7F620)
+#define MIHOYO_SDK_POPUPDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AF90C20)
+#define MIHOYO_SDK_POPUPDIALOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF91D20)
+#define MIHOYO_SDK_POPUPDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF91CD0)
+#define MIHOYO_SDK_POPUPDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1AF918E0)
+#define MIHOYO_SDK_POPUPDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AF91CA0)
+#define MIHOYO_SDK_POPUPDIALOG_ONTAPBOTTOM_OFFSET UNITYSDK_OFFSET(0x1AF91C30)
+#define MIHOYO_SDK_POPUPDIALOG_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x1AF91B50)
+#define MIHOYO_SDK_POPUPDIALOG_ONTAPTOP_OFFSET UNITYSDK_OFFSET(0x1AF91BC0)
+#define MIHOYO_SDK_POPUPDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1AF91550)
+#define MIHOYO_SDK_POPUPDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1AF91390)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopupDialog_TypeDefinitionIndex = 8008;
+	inline static constexpr unsigned int PopupDialog_TypeDefinitionIndex = 8017;
 
 	class PopupDialog : public ::MiHoYo::SDK::UIElement
 	{
@@ -43,12 +43,12 @@ namespace MiHoYo::SDK
 		::UnityEngine::UI::Text* bottomButtonText; // 0xA8
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "PopupDialog")->GetStaticField(0x22DD0);
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "PopupDialog")->GetStaticField(0x1B350);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_PopupDialogHideTaskList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "PopupDialog")->GetStaticField(0x22DD8);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "PopupDialog")->GetStaticField(0x1B358);
 		}
 
 		// static const ::System::String* PrefabName; // 0x0

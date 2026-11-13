@@ -3,17 +3,17 @@
 #include "unitysdk/PAJBIMMACKK_PlayerMoveState.h"
 #include "unitysdk/System/Object.h"
 
-#define PAJBIMMACKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C976920)
+#define PAJBIMMACKK_CTOR_OFFSET UNITYSDK_OFFSET(0x176786B0)
 
-inline static constexpr unsigned int PAJBIMMACKK_TypeDefinitionIndex = 43192;
+inline static constexpr unsigned int PAJBIMMACKK_TypeDefinitionIndex = 44173;
 
 	class PAJBIMMACKK : public ::System::Object
 	{
 	public:
-		::PAJBIMMACKK_PlayerMoveState LABNOBJEDBD; // 0x10
+		::PAJBIMMACKK_PlayerMoveState MEPFOEEGBEA; // 0x10
 		::System::Boolean GJGJCPBLGNB; // 0x14
 		::System::Byte _padding0[0x3];
-		::PAJBIMMACKK_PlayerMoveState MEPFOEEGBEA; // 0x18
+		::PAJBIMMACKK_PlayerMoveState LABNOBJEDBD; // 0x18
 		::System::Single MMJEKNOAKOA; // 0x1C
 		::System::Void _ctor()
 		{

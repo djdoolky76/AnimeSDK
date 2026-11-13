@@ -16,13 +16,13 @@ namespace RPG::GameCore { class TurnInsertAbilityConditionBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNINSERTABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC36470)
-#define RPG_GAMECORE_TURNINSERTABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC364C0)
-#define RPG_GAMECORE_TURNINSERTABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC363F0)
+#define RPG_GAMECORE_TURNINSERTABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33F6B0)
+#define RPG_GAMECORE_TURNINSERTABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E33F700)
+#define RPG_GAMECORE_TURNINSERTABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33F630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAbility_TypeDefinitionIndex = 22664;
+	inline static constexpr unsigned int TurnInsertAbility_TypeDefinitionIndex = 23086;
 
 	class TurnInsertAbility : public ::RPG::GameCore::TaskConfig
 	{

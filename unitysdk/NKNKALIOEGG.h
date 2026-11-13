@@ -5,17 +5,18 @@
 class FCOEMCEDLNL;
 class NKNKALIOEGG;
 
-#define NKNKALIOEGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D202E90)
-#define NKNKALIOEGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D202CA0)
+#define NKNKALIOEGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E75EA50)
+#define NKNKALIOEGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E75E860)
 
-inline static constexpr unsigned int NKNKALIOEGG_TypeDefinitionIndex = 11559;
+inline static constexpr unsigned int NKNKALIOEGG_TypeDefinitionIndex = 11610;
 
 	class NKNKALIOEGG : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID NIHODMLGCIK; // 0x10
-		::RPG::Client::TextID POLNOFFLNID; // 0x20
-		::System::UInt32 AAGKEBFHLMC; // 0x30
+		::RPG::Client::TextID POLNOFFLNID; // 0x10
+		::System::UInt32 AAGKEBFHLMC; // 0x20
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID NIHODMLGCIK; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKNKALIOEGG_CTOR_OFFSET))(this);

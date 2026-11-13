@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/DanmuType.h"
 #include "unitysdk/System/Object.h"
 
-#define MFLJIEBFMOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB8FFC90)
-#define MFLJIEBFMOF_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB8FFC70)
-#define MFLJIEBFMOF_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xB8FFC80)
+#define MFLJIEBFMOF_CTOR_OFFSET UNITYSDK_OFFSET(0x17C8FEF0)
+#define MFLJIEBFMOF_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17C8FED0)
+#define MFLJIEBFMOF_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x17C8FEE0)
 
-inline static constexpr unsigned int MFLJIEBFMOF_TypeDefinitionIndex = 68927;
+inline static constexpr unsigned int MFLJIEBFMOF_TypeDefinitionIndex = 70880;
 
 	class MFLJIEBFMOF : public ::System::Object
 	{

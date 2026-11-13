@@ -4,9 +4,9 @@
 namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define KCEOHCCIPIE_GLBDDNOPOJN_CTOR_OFFSET UNITYSDK_OFFSET(0xB32D970)
+#define KCEOHCCIPIE_GLBDDNOPOJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A480B50)
 
-inline static constexpr unsigned int KCEOHCCIPIE_GLBDDNOPOJN_TypeDefinitionIndex = 71941;
+inline static constexpr unsigned int KCEOHCCIPIE_GLBDDNOPOJN_TypeDefinitionIndex = 73965;
 
 	class KCEOHCCIPIE_GLBDDNOPOJN : public ::System::Object
 	{

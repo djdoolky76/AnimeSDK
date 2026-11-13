@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WriteCustomValueToStatistic; }
 
-#define MBBCOABFGON_CTOR_OFFSET UNITYSDK_OFFSET(0xB852BA0)
-#define MBBCOABFGON_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB852BD0)
+#define MBBCOABFGON_CTOR_OFFSET UNITYSDK_OFFSET(0x1B81CAF0)
+#define MBBCOABFGON_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B81CB20)
 
-inline static constexpr unsigned int MBBCOABFGON_TypeDefinitionIndex = 55816;
+inline static constexpr unsigned int MBBCOABFGON_TypeDefinitionIndex = 57019;
 
 	class MBBCOABFGON
 	{

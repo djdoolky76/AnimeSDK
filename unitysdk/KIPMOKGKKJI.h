@@ -4,10 +4,10 @@ class FOANFBELJLK;
 namespace RPG::GameCore { class ShowBattleWhiteboxImage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KIPMOKGKKJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB432EA0)
-#define KIPMOKGKKJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB432ED0)
+#define KIPMOKGKKJI_CTOR_OFFSET UNITYSDK_OFFSET(0x19EF97A0)
+#define KIPMOKGKKJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19EF97D0)
 
-inline static constexpr unsigned int KIPMOKGKKJI_TypeDefinitionIndex = 58618;
+inline static constexpr unsigned int KIPMOKGKKJI_TypeDefinitionIndex = 59883;
 
 	class KIPMOKGKKJI
 	{

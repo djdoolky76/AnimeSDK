@@ -5,9 +5,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntityList; }
 
-#define MDFIHKILAPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB89C630)
+#define MDFIHKILAPL_CTOR_OFFSET UNITYSDK_OFFSET(0x183DC630)
+#define MDFIHKILAPL_HPDAOJEINIE_OFFSET UNITYSDK_OFFSET(0x183DC5E0)
 
-inline static constexpr unsigned int MDFIHKILAPL_TypeDefinitionIndex = 58140;
+inline static constexpr unsigned int MDFIHKILAPL_TypeDefinitionIndex = 59385;
 
 	class MDFIHKILAPL : public ::System::Object
 	{
@@ -19,6 +20,11 @@ inline static constexpr unsigned int MDFIHKILAPL_TypeDefinitionIndex = 58140;
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDFIHKILAPL_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean HPDAOJEINIE()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MDFIHKILAPL_HPDAOJEINIE_OFFSET))(this);
 		}
 
 	};

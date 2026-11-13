@@ -4,17 +4,17 @@
 class LCKBHJBKHNH;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define LAMEBEBEBHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E0AC0)
-#define LAMEBEBEBHO_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB5E07F0)
-#define LAMEBEBEBHO__ONEXECUTE_B__0_0_OFFSET UNITYSDK_OFFSET(0xB5E0AD0)
+#define LAMEBEBEBHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B284830)
+#define LAMEBEBEBHO_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B284560)
+#define LAMEBEBEBHO__ONEXECUTE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B284840)
 
-inline static constexpr unsigned int LAMEBEBEBHO_TypeDefinitionIndex = 76252;
+inline static constexpr unsigned int LAMEBEBEBHO_TypeDefinitionIndex = 78583;
 
 	class LAMEBEBEBHO : public ::MLKDDLHNNHH
 	{
 	public:
-		::LCKBHJBKHNH* PMAPIEMDKKA; // 0x20
-		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* FGHLCBFGPEE; // 0x28
+		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* FGHLCBFGPEE; // 0x20
+		::LCKBHJBKHNH* PMAPIEMDKKA; // 0x28
 		::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::LCKBHJBKHNH* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::LCKBHJBKHNH*))((::PBYTE)hIl2Cpp + LAMEBEBEBHO_CTOR_OFFSET))(this, a1, a2);

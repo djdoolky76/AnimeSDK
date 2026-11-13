@@ -6,20 +6,20 @@ namespace HoudiniEngineUnity { class HEU_LoadBufferMesh; }
 namespace HoudiniEngineUnity { class HEU_LoadBufferVolume; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B973170)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8355C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadObject_TypeDefinitionIndex = 40617;
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadObject_TypeDefinitionIndex = 41592;
 
 	class HEU_ThreadedTaskLoadGeo_HEU_LoadObject : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* _instancerBuffers; // 0x10
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>* _meshBuffers; // 0x18
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* _terrainBuffers; // 0x20
-		::System::Int32 _objectNodeID; // 0x28
-		::System::Int32 _displayNodeID; // 0x2C
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>* _meshBuffers; // 0x10
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* _terrainBuffers; // 0x18
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* _instancerBuffers; // 0x20
+		::System::Int32 _displayNodeID; // 0x28
+		::System::Int32 _objectNodeID; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADOBJECT_CTOR_OFFSET))(this);

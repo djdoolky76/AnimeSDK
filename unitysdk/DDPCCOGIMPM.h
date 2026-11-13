@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroActivateBullet; }
 
-#define DDPCCOGIMPM_CTOR_OFFSET UNITYSDK_OFFSET(0xE4F0770)
-#define DDPCCOGIMPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4F07A0)
+#define DDPCCOGIMPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1774F6D0)
+#define DDPCCOGIMPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1774F700)
 
-inline static constexpr unsigned int DDPCCOGIMPM_TypeDefinitionIndex = 58952;
+inline static constexpr unsigned int DDPCCOGIMPM_TypeDefinitionIndex = 60225;
 
 	class DDPCCOGIMPM
 	{

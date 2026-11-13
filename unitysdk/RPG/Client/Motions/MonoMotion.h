@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class ODCPCHEIMKK;
 
-#define RPG_CLIENT_MOTIONS_MONOMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B6EE0)
-#define RPG_CLIENT_MOTIONS_MONOMOTION_START_OFFSET UNITYSDK_OFFSET(0xD8B6DD0)
-#define RPG_CLIENT_MOTIONS_MONOMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8B6E50)
+#define RPG_CLIENT_MOTIONS_MONOMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1A16DAD0)
+#define RPG_CLIENT_MOTIONS_MONOMOTION_START_OFFSET UNITYSDK_OFFSET(0x1A16D9C0)
+#define RPG_CLIENT_MOTIONS_MONOMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A16DA40)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoMotion_TypeDefinitionIndex = 73531;
+	inline static constexpr unsigned int MonoMotion_TypeDefinitionIndex = 75654;
 
 	class MonoMotion : public ::UnityEngine::MonoBehaviour
 	{

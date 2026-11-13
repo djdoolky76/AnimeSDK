@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_CustomPredicatorType_TypeDefinitionIndex = 62056;
+	inline static constexpr unsigned int RuntimeGroupManager_CustomPredicatorType_TypeDefinitionIndex = 63469;
 
 	enum class RuntimeGroupManager_CustomPredicatorType : ::System::Int32
 	{
@@ -12,5 +12,6 @@ namespace RPG::Client
 		SpaceRotate = 2,
 		FiveDim = 3,
 		PlatformQuality = 4,
+		LittleGameSandbox = 5,
 	};
 }

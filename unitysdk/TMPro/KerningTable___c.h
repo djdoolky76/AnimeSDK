@@ -5,31 +5,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace TMPro { class KerningPair; }
 
-#define TMPRO_KERNINGTABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2B8B30)
-#define TMPRO_KERNINGTABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B8B70)
-#define TMPRO_KERNINGTABLE___C__SORTKERNINGPAIRS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F2B8B80)
-#define TMPRO_KERNINGTABLE___C__SORTKERNINGPAIRS_B__7_1_OFFSET UNITYSDK_OFFSET(0x1F2B8BA0)
+#define TMPRO_KERNINGTABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19B8BE90)
+#define TMPRO_KERNINGTABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19B8BED0)
+#define TMPRO_KERNINGTABLE___C__SORTKERNINGPAIRS_B__7_0_OFFSET UNITYSDK_OFFSET(0x19B8BEE0)
+#define TMPRO_KERNINGTABLE___C__SORTKERNINGPAIRS_B__7_1_OFFSET UNITYSDK_OFFSET(0x19B8BF00)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int KerningTable___c_TypeDefinitionIndex = 44580;
+	inline static constexpr unsigned int KerningTable___c_TypeDefinitionIndex = 45655;
 
 	class KerningTable___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::TMPro::KerningPair*, ::System::UInt32>** StaticGet___9__7_1()
-		{
-			return (::System::Func_2<::TMPro::KerningPair*, ::System::UInt32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x54510);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x54518);
+			return (::System::Object**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x69AB0);
+		}
+
+		static ::System::Func_2<::TMPro::KerningPair*, ::System::UInt32>** StaticGet___9__7_1()
+		{
+			return (::System::Func_2<::TMPro::KerningPair*, ::System::UInt32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x69AB8);
 		}
 
 		static ::System::Func_2<::TMPro::KerningPair*, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::TMPro::KerningPair*, ::System::UInt32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x54520);
+			return (::System::Func_2<::TMPro::KerningPair*, ::System::UInt32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x69AC0);
 		}
 
 		static ::System::Void _cctor()

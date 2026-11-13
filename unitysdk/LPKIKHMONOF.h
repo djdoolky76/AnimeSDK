@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LPKIKHMONOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB81C440)
-#define LPKIKHMONOF_HFIFIEKBACF_OFFSET UNITYSDK_OFFSET(0xB81C2F0)
-#define LPKIKHMONOF_IMIKJMCGGML_OFFSET UNITYSDK_OFFSET(0xB81C360)
-#define LPKIKHMONOF_LJAHDMJLMCE_OFFSET UNITYSDK_OFFSET(0xB81C3B0)
-#define LPKIKHMONOF_OHHOHMEIKEM_OFFSET UNITYSDK_OFFSET(0xB81C4F0)
+#define LPKIKHMONOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B64B0)
+#define LPKIKHMONOF_HFIFIEKBACF_OFFSET UNITYSDK_OFFSET(0x1B6B6360)
+#define LPKIKHMONOF_IMIKJMCGGML_OFFSET UNITYSDK_OFFSET(0x1B6B63D0)
+#define LPKIKHMONOF_LJAHDMJLMCE_OFFSET UNITYSDK_OFFSET(0x1B6B6420)
+#define LPKIKHMONOF_OHHOHMEIKEM_OFFSET UNITYSDK_OFFSET(0x1B6B6560)
 
-inline static constexpr unsigned int LPKIKHMONOF_TypeDefinitionIndex = 47635;
+inline static constexpr unsigned int LPKIKHMONOF_TypeDefinitionIndex = 48665;
 
 	class LPKIKHMONOF : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* DLKNHBOMIJF; // 0x10
 		::System::Collections::Generic::List_1<::System::Int32>* FKHEFMGFKED; // 0x18
-		::System::Int32 MBNLJEMMPNC; // 0x20
-		::System::Single HBAMPJPOOLM; // 0x24
+		::System::Single HBAMPJPOOLM; // 0x20
+		::System::Int32 MBNLJEMMPNC; // 0x24
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LPKIKHMONOF_CTOR_OFFSET))(this, a1);

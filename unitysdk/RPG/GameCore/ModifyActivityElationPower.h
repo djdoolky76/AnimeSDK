@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifyActivityElationPower; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYACTIVITYELATIONPOWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8625E0)
-#define RPG_GAMECORE_MODIFYACTIVITYELATIONPOWER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8625F0)
-#define RPG_GAMECORE_MODIFYACTIVITYELATIONPOWER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8625B0)
+#define RPG_GAMECORE_MODIFYACTIVITYELATIONPOWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F4B00)
+#define RPG_GAMECORE_MODIFYACTIVITYELATIONPOWER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6F4B10)
+#define RPG_GAMECORE_MODIFYACTIVITYELATIONPOWER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6F4AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyActivityElationPower_TypeDefinitionIndex = 23149;
+	inline static constexpr unsigned int ModifyActivityElationPower_TypeDefinitionIndex = 23578;
 
 	class ModifyActivityElationPower : public ::RPG::GameCore::TaskConfig
 	{

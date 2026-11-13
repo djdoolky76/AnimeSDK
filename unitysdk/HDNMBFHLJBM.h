@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetStepperDecisionGroupIndex; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HDNMBFHLJBM_CTOR_OFFSET UNITYSDK_OFFSET(0x15C31B80)
-#define HDNMBFHLJBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C31BB0)
+#define HDNMBFHLJBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7D2AA0)
+#define HDNMBFHLJBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7D2AD0)
 
-inline static constexpr unsigned int HDNMBFHLJBM_TypeDefinitionIndex = 55571;
+inline static constexpr unsigned int HDNMBFHLJBM_TypeDefinitionIndex = 56766;
 
 	class HDNMBFHLJBM
 	{

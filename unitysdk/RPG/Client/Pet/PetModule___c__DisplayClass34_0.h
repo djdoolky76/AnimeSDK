@@ -4,18 +4,18 @@
 class HEGDIJGNIHK;
 namespace RPG::Client::Pet { class PetModule; }
 
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAB6C10)
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS34_0___ONSETBLINDBOXPETLINEUPSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xDAB7940)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D8B20)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS34_0___ONSETBLINDBOXPETLINEUPSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x1C1D9850)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetModule___c__DisplayClass34_0_TypeDefinitionIndex = 75700;
+	inline static constexpr unsigned int PetModule___c__DisplayClass34_0_TypeDefinitionIndex = 78027;
 
 	class PetModule___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Pet::PetModule* __4__this; // 0x10
-		::HEGDIJGNIHK* rsp; // 0x18
+		::HEGDIJGNIHK* rsp; // 0x10
+		::RPG::Client::Pet::PetModule* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS34_0_CTOR_OFFSET))(this);

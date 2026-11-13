@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SettingManager_HoekeySettingType_TypeDefinitionIndex = 68309;
+	inline static constexpr unsigned int SettingManager_HoekeySettingType_TypeDefinitionIndex = 70255;
 
 	enum class SettingManager_HoekeySettingType : ::System::Int32
 	{

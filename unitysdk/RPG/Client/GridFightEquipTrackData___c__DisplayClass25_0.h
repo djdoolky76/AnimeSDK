@@ -5,19 +5,19 @@
 namespace RPG::Client { class GridFightEquipTrack; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD11E780)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__ISTRACKSAME_B__0_OFFSET UNITYSDK_OFFSET(0xD122050)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D18D950)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__ISTRACKSAME_B__0_OFFSET UNITYSDK_OFFSET(0x1D18FF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass25_0_TypeDefinitionIndex = 65332;
+	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass25_0_TypeDefinitionIndex = 67100;
 
 	class GridFightEquipTrackData___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IList_1<::System::UInt32>* trackEquipIDList; // 0x10
-		::IHMJHLGKLHP trackSource; // 0x18
-		::System::UInt32 roleID; // 0x1C
+		::System::UInt32 roleID; // 0x18
+		::IHMJHLGKLHP trackSource; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0_CTOR_OFFSET))(this);

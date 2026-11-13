@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ShowSpaceZooMainPage; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB7900)
-#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB7910)
-#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB78D0)
+#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F0A30)
+#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3F0A40)
+#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3F0A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSpaceZooMainPage_TypeDefinitionIndex = 20907;
+	inline static constexpr unsigned int ShowSpaceZooMainPage_TypeDefinitionIndex = 21245;
 
 	class ShowSpaceZooMainPage : public ::RPG::GameCore::TaskConfig
 	{

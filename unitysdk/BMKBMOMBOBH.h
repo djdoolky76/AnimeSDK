@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define BMKBMOMBOBH_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define BMKBMOMBOBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x23B40)
+#define BMKBMOMBOBH_CTOR_OFFSET UNITYSDK_OFFSET(0xADCE20)
+#define BMKBMOMBOBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3E62230)
 
-inline static constexpr unsigned int BMKBMOMBOBH_TypeDefinitionIndex = 67387;
+inline static constexpr unsigned int BMKBMOMBOBH_TypeDefinitionIndex = 69331;
 
 	struct alignas(4) BMKBMOMBOBH
 	{

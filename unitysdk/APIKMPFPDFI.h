@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define APIKMPFPDFI_BKJGMFOKKKN_OFFSET UNITYSDK_OFFSET(0x1EC36FF0)
-#define APIKMPFPDFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC36E10)
-#define APIKMPFPDFI_FIKCGFJGOCA_OFFSET UNITYSDK_OFFSET(0x1EC36EA0)
-#define APIKMPFPDFI_JJGCHFLLIAO_OFFSET UNITYSDK_OFFSET(0x1EC36B20)
+#define APIKMPFPDFI_BKJGMFOKKKN_OFFSET UNITYSDK_OFFSET(0x1E520B30)
+#define APIKMPFPDFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E520950)
+#define APIKMPFPDFI_FIKCGFJGOCA_OFFSET UNITYSDK_OFFSET(0x1E5209E0)
+#define APIKMPFPDFI_JJGCHFLLIAO_OFFSET UNITYSDK_OFFSET(0x1E520660)
 
-inline static constexpr unsigned int APIKMPFPDFI_TypeDefinitionIndex = 44093;
+inline static constexpr unsigned int APIKMPFPDFI_TypeDefinitionIndex = 45168;
 
 	class APIKMPFPDFI : public ::System::Object
 	{
@@ -20,7 +20,7 @@ inline static constexpr unsigned int APIKMPFPDFI_TypeDefinitionIndex = 44093;
 		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* MHCJMICIIBM; // 0x10
 		static ::APIKMPFPDFI** StaticGet_EFLHEPNNJJN()
 		{
-			return (::APIKMPFPDFI**)UnitySDK::FromName("", "APIKMPFPDFI")->GetStaticField(0x47150);
+			return (::APIKMPFPDFI**)UnitySDK::FromName("", "APIKMPFPDFI")->GetStaticField(0x5F550);
 		}
 
 		::System::Void _ctor()

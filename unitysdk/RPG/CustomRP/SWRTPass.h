@@ -15,69 +15,69 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_SWRTPASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC43E30)
-#define RPG_CUSTOMRP_SWRTPASS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CC44C50)
-#define RPG_CUSTOMRP_SWRTPASS_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1CC43EF0)
-#define RPG_CUSTOMRP_SWRTPASS_GET_ATLASALBEDO_OFFSET UNITYSDK_OFFSET(0x1CC44000)
-#define RPG_CUSTOMRP_SWRTPASS_GET_ATLASNORMAL_OFFSET UNITYSDK_OFFSET(0x1CC44010)
-#define RPG_CUSTOMRP_SWRTPASS_GET_BLASINDEX_OFFSET UNITYSDK_OFFSET(0x1CC43FC0)
-#define RPG_CUSTOMRP_SWRTPASS_GET_BLASOFFSETS8_OFFSET UNITYSDK_OFFSET(0x1CC43FA0)
-#define RPG_CUSTOMRP_SWRTPASS_GET_BUILDREVISION_OFFSET UNITYSDK_OFFSET(0x1CC43F10)
-#define RPG_CUSTOMRP_SWRTPASS_GET_BVHNODES8_OFFSET UNITYSDK_OFFSET(0x1CC43F70)
-#define RPG_CUSTOMRP_SWRTPASS_GET_INDICES_OFFSET UNITYSDK_OFFSET(0x1CC43F30)
-#define RPG_CUSTOMRP_SWRTPASS_GET_LOCALTOWORLDS_OFFSET UNITYSDK_OFFSET(0x1CC43FE0)
-#define RPG_CUSTOMRP_SWRTPASS_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x1CC43FD0)
-#define RPG_CUSTOMRP_SWRTPASS_GET_POSITIONS_OFFSET UNITYSDK_OFFSET(0x1CC43F40)
-#define RPG_CUSTOMRP_SWRTPASS_GET_RENDERERINDEX8_OFFSET UNITYSDK_OFFSET(0x1CC43FB0)
-#define RPG_CUSTOMRP_SWRTPASS_GET_TANGENTS_OFFSET UNITYSDK_OFFSET(0x1CC43F50)
-#define RPG_CUSTOMRP_SWRTPASS_GET_TRIANGLE8_OFFSET UNITYSDK_OFFSET(0x1CC43F90)
-#define RPG_CUSTOMRP_SWRTPASS_GET_TRIANGLEINDEX8_OFFSET UNITYSDK_OFFSET(0x1CC43F80)
-#define RPG_CUSTOMRP_SWRTPASS_GET_UVS_OFFSET UNITYSDK_OFFSET(0x1CC43F60)
-#define RPG_CUSTOMRP_SWRTPASS_GET_WORLDTOLOCALS_OFFSET UNITYSDK_OFFSET(0x1CC43FF0)
-#define RPG_CUSTOMRP_SWRTPASS_INNEREXCUTE_OFFSET UNITYSDK_OFFSET(0x1CC44020)
-#define RPG_CUSTOMRP_SWRTPASS_SET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1CC43F00)
-#define RPG_CUSTOMRP_SWRTPASS_SET_BUILDREVISION_OFFSET UNITYSDK_OFFSET(0x1CC43F20)
-#define RPG_CUSTOMRP_SWRTPASS_UPDATETESTCUBE_OFFSET UNITYSDK_OFFSET(0x1CC45F20)
-#define RPG_CUSTOMRP_SWRTPASS__ENSURERESULTRT_OFFSET UNITYSDK_OFFSET(0x1CC46AB0)
-#define RPG_CUSTOMRP_SWRTPASS__RECORDATLASBLIT_OFFSET UNITYSDK_OFFSET(0x1CC45670)
-#define RPG_CUSTOMRP_SWRTPASS__RELEASERESULTRT_OFFSET UNITYSDK_OFFSET(0x1CC46D30)
+#define RPG_CUSTOMRP_SWRTPASS_CTOR_OFFSET UNITYSDK_OFFSET(0x20747F00)
+#define RPG_CUSTOMRP_SWRTPASS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x20748D20)
+#define RPG_CUSTOMRP_SWRTPASS_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x20747FC0)
+#define RPG_CUSTOMRP_SWRTPASS_GET_ATLASALBEDO_OFFSET UNITYSDK_OFFSET(0x207480D0)
+#define RPG_CUSTOMRP_SWRTPASS_GET_ATLASNORMAL_OFFSET UNITYSDK_OFFSET(0x207480E0)
+#define RPG_CUSTOMRP_SWRTPASS_GET_BLASINDEX_OFFSET UNITYSDK_OFFSET(0x20748090)
+#define RPG_CUSTOMRP_SWRTPASS_GET_BLASOFFSETS8_OFFSET UNITYSDK_OFFSET(0x20748070)
+#define RPG_CUSTOMRP_SWRTPASS_GET_BUILDREVISION_OFFSET UNITYSDK_OFFSET(0x20747FE0)
+#define RPG_CUSTOMRP_SWRTPASS_GET_BVHNODES8_OFFSET UNITYSDK_OFFSET(0x20748040)
+#define RPG_CUSTOMRP_SWRTPASS_GET_INDICES_OFFSET UNITYSDK_OFFSET(0x20748000)
+#define RPG_CUSTOMRP_SWRTPASS_GET_LOCALTOWORLDS_OFFSET UNITYSDK_OFFSET(0x207480B0)
+#define RPG_CUSTOMRP_SWRTPASS_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x207480A0)
+#define RPG_CUSTOMRP_SWRTPASS_GET_POSITIONS_OFFSET UNITYSDK_OFFSET(0x20748010)
+#define RPG_CUSTOMRP_SWRTPASS_GET_RENDERERINDEX8_OFFSET UNITYSDK_OFFSET(0x20748080)
+#define RPG_CUSTOMRP_SWRTPASS_GET_TANGENTS_OFFSET UNITYSDK_OFFSET(0x20748020)
+#define RPG_CUSTOMRP_SWRTPASS_GET_TRIANGLE8_OFFSET UNITYSDK_OFFSET(0x20748060)
+#define RPG_CUSTOMRP_SWRTPASS_GET_TRIANGLEINDEX8_OFFSET UNITYSDK_OFFSET(0x20748050)
+#define RPG_CUSTOMRP_SWRTPASS_GET_UVS_OFFSET UNITYSDK_OFFSET(0x20748030)
+#define RPG_CUSTOMRP_SWRTPASS_GET_WORLDTOLOCALS_OFFSET UNITYSDK_OFFSET(0x207480C0)
+#define RPG_CUSTOMRP_SWRTPASS_INNEREXCUTE_OFFSET UNITYSDK_OFFSET(0x207480F0)
+#define RPG_CUSTOMRP_SWRTPASS_SET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x20747FD0)
+#define RPG_CUSTOMRP_SWRTPASS_SET_BUILDREVISION_OFFSET UNITYSDK_OFFSET(0x20747FF0)
+#define RPG_CUSTOMRP_SWRTPASS_UPDATETESTCUBE_OFFSET UNITYSDK_OFFSET(0x20749DA0)
+#define RPG_CUSTOMRP_SWRTPASS__ENSURERESULTRT_OFFSET UNITYSDK_OFFSET(0x2074A930)
+#define RPG_CUSTOMRP_SWRTPASS__RECORDATLASBLIT_OFFSET UNITYSDK_OFFSET(0x207494F0)
+#define RPG_CUSTOMRP_SWRTPASS__RELEASERESULTRT_OFFSET UNITYSDK_OFFSET(0x2074ABB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SWRTPass_TypeDefinitionIndex = 37870;
+	inline static constexpr unsigned int SWRTPass_TypeDefinitionIndex = 38799;
 
 	class SWRTPass : public ::System::Object
 	{
 	public:
-		::UnityEngine::ComputeBuffer* _RendererIndex8; // 0x10
-		::UnityEngine::ComputeBuffer* _BlasIndex; // 0x18
-		::UnityEngine::ComputeBuffer* _TriangleIndex8; // 0x20
-		::UnityEngine::ComputeBuffer* _Materials; // 0x28
-		::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _CaptureColors; // 0x30
-		::Il2CppArray<::UnityEngine::Rendering::RenderBufferLoadAction>* _CaptureColorLoads; // 0x38
-		::UnityEngine::ComputeBuffer* _BlasOffsets8; // 0x40
-		::UnityEngine::ComputeShader* _CachedComputeCS; // 0x48
-		::UnityEngine::RenderTexture* _AtlasAlbedo; // 0x50
-		::UnityEngine::ComputeBuffer* _Triangle8; // 0x58
-		::UnityEngine::RenderTexture* _ComputeResultRT; // 0x60
-		::UnityEngine::ComputeBuffer* _Positions; // 0x68
-		::UnityEngine::Material* _CaptureMaterial; // 0x70
-		::Il2CppArray<::UnityEngine::Rendering::RenderBufferStoreAction>* _CaptureColorStores; // 0x78
-		::UnityEngine::ComputeBuffer* _Tangents; // 0x80
-		::UnityEngine::ComputeBuffer* _BVHNodes8; // 0x88
-		::UnityEngine::RenderTexture* _AtlasNormal; // 0x90
-		::UnityEngine::ComputeBuffer* _Indices; // 0x98
-		::UnityEngine::ComputeBuffer* _UVs; // 0xA0
+		::UnityEngine::Material* _CaptureMaterial; // 0x10
+		::UnityEngine::ComputeBuffer* _Positions; // 0x18
+		::UnityEngine::ComputeBuffer* _BlasIndex; // 0x20
+		::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _CaptureColors; // 0x28
+		::UnityEngine::ComputeBuffer* _LocalToWorlds; // 0x30
+		::UnityEngine::ComputeBuffer* _BlasOffsets8; // 0x38
+		::UnityEngine::ComputeBuffer* _BVHNodes8; // 0x40
+		::UnityEngine::ComputeBuffer* _TriangleIndex8; // 0x48
+		::UnityEngine::ComputeBuffer* _Tangents; // 0x50
+		::Il2CppArray<::UnityEngine::Rendering::RenderBufferStoreAction>* _CaptureColorStores; // 0x58
+		::UnityEngine::ComputeBuffer* _UVs; // 0x60
+		::UnityEngine::Material* _BlitMaterial; // 0x68
+		::UnityEngine::RenderTexture* _AtlasAlbedo; // 0x70
+		::UnityEngine::RenderTexture* _ComputeResultRT; // 0x78
+		::UnityEngine::ComputeBuffer* _Materials; // 0x80
+		::UnityEngine::ComputeShader* _CachedComputeCS; // 0x88
+		::UnityEngine::ComputeBuffer* _Triangle8; // 0x90
+		::UnityEngine::RenderTexture* _AtlasNormal; // 0x98
+		::UnityEngine::ComputeBuffer* _RendererIndex8; // 0xA0
 		::UnityEngine::Rendering::RenderTargetBinding _CaptureBinding; // 0xA8
-		::SWRTAsset* _CurAsset; // 0xF0
-		::UnityEngine::ComputeBuffer* _WorldToLocals; // 0xF8
-		::UnityEngine::Material* _BlitMaterial; // 0x100
-		::UnityEngine::ComputeBuffer* _LocalToWorlds; // 0x108
+		::UnityEngine::ComputeBuffer* _Indices; // 0xF0
+		::SWRTAsset* _CurAsset; // 0xF8
+		::Il2CppArray<::UnityEngine::Rendering::RenderBufferLoadAction>* _CaptureColorLoads; // 0x100
+		::UnityEngine::ComputeBuffer* _WorldToLocals; // 0x108
 		::System::Int32 _BuildRevision_k__BackingField; // 0x110
 		::System::Int32 _CachedKernel; // 0x114
 		static ::RPG::CustomRP::SWRTPass** StaticGet__Active_k__BackingField()
 		{
-			return (::RPG::CustomRP::SWRTPass**)UnitySDK::FromName("RPG.CustomRP", "SWRTPass")->GetStaticField(0x30410);
+			return (::RPG::CustomRP::SWRTPass**)UnitySDK::FromName("RPG.CustomRP", "SWRTPass")->GetStaticField(0x2BAB0);
 		}
 
 		// static const ::System::String* KeywordCompute; // 0x0

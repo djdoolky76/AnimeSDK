@@ -6,9 +6,9 @@ namespace System::Threading { class ThreadPoolWorkQueue; }
 namespace System::Threading { class ThreadPoolWorkQueueThreadLocals; }
 namespace System::Threading { class ThreadPoolWorkQueue_WorkStealingQueue; }
 
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1C134330)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C132700)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C134430)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1DD7FDE0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD7E1B0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1DD7FEB0)
 
 namespace System::Threading
 {
@@ -17,9 +17,9 @@ namespace System::Threading
 	class ThreadPoolWorkQueueThreadLocals : public ::System::Object
 	{
 	public:
-		::System::Threading::ThreadPoolWorkQueue* workQueue; // 0x10
-		::System::Random* random; // 0x18
-		::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* workStealingQueue; // 0x20
+		::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* workStealingQueue; // 0x10
+		::System::Threading::ThreadPoolWorkQueue* workQueue; // 0x18
+		::System::Random* random; // 0x20
 		static ::System::Threading::ThreadPoolWorkQueueThreadLocals** StaticGet_threadLocals()
 		{
 			return (::System::Threading::ThreadPoolWorkQueueThreadLocals**)UnitySDK::FromName("System.Threading", "ThreadPoolWorkQueueThreadLocals")->GetStaticField(0x0);

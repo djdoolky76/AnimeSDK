@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F23F0)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D914890)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FresnelRimMaterialAnimateTrack_TypeDefinitionIndex = 48073;
+	inline static constexpr unsigned int FresnelRimMaterialAnimateTrack_TypeDefinitionIndex = 49104;
 
 	class FresnelRimMaterialAnimateTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

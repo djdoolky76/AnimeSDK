@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class IPromise; }
 
-#define OKEBEBMINDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBECF430)
+#define OKEBEBMINDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17872850)
 
-inline static constexpr unsigned int OKEBEBMINDJ_TypeDefinitionIndex = 61069;
+inline static constexpr unsigned int OKEBEBMINDJ_TypeDefinitionIndex = 62454;
 
 	class OKEBEBMINDJ : public ::System::Object
 	{

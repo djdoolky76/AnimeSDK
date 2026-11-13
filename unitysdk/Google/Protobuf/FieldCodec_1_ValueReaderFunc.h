@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1_ValueReaderFunc_TypeDefinitionIndex = 5387;
+	inline static constexpr unsigned int FieldCodec_1_ValueReaderFunc_TypeDefinitionIndex = 5392;
 
 	template <typename T>
 	class FieldCodec_1_ValueReaderFunc : public ::System::MulticastDelegate

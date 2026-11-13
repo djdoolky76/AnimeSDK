@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/GameCore/HeartDialStepType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_NOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE741DB0)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_NOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x12035350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHeartDialToastTask_NotifyParam_TypeDefinitionIndex = 53274;
+	inline static constexpr unsigned int ShowHeartDialToastTask_NotifyParam_TypeDefinitionIndex = 54436;
 
 	class ShowHeartDialToastTask_NotifyParam : public ::System::Object
 	{

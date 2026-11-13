@@ -7,18 +7,18 @@ class FCOEMCEDLNL;
 class GPOKNODKHGL;
 namespace System { class String; }
 
-#define GPOKNODKHGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE4C640)
-#define GPOKNODKHGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE4C430)
+#define GPOKNODKHGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9CDAF0)
+#define GPOKNODKHGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9CD8E0)
 
-inline static constexpr unsigned int GPOKNODKHGL_TypeDefinitionIndex = 11313;
+inline static constexpr unsigned int GPOKNODKHGL_TypeDefinitionIndex = 11364;
 
 	class GPOKNODKHGL : public ::System::Object
 	{
 	public:
 		::System::String* OOLEAPLDIEA; // 0x10
-		::RPG::Client::TextID PEPOHJHNFHF; // 0x18
-		::MAKCGPLBAFI LLBDOPKHHEB; // 0x28
-		::System::UInt32 PHFMCACHFIJ; // 0x2C
+		::MAKCGPLBAFI LLBDOPKHHEB; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x1C
+		::RPG::Client::TextID PEPOHJHNFHF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GPOKNODKHGL_CTOR_OFFSET))(this);

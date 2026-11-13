@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchTurnActionEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FAKIJIHMHHE_CTOR_OFFSET UNITYSDK_OFFSET(0x15676FB0)
-#define FAKIJIHMHHE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15677000)
+#define FAKIJIHMHHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2F790)
+#define FAKIJIHMHHE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BA2F7E0)
 
-inline static constexpr unsigned int FAKIJIHMHHE_TypeDefinitionIndex = 59111;
+inline static constexpr unsigned int FAKIJIHMHHE_TypeDefinitionIndex = 60387;
 
 	class FAKIJIHMHHE
 	{

@@ -6,21 +6,21 @@ namespace RPG::Client { class FuncUnlockData; }
 namespace RPG::GameCore { class FunctionConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BPGOCAJGNBI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC1A3EB0)
-#define BPGOCAJGNBI_CEKEHDFCHNL_OFFSET UNITYSDK_OFFSET(0xC1A3D50)
-#define BPGOCAJGNBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A3F20)
-#define BPGOCAJGNBI_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0xC1A3C50)
-#define BPGOCAJGNBI_MKPNHOKPKJG_OFFSET UNITYSDK_OFFSET(0xC1A3E00)
-#define BPGOCAJGNBI_NPLNADKMELF_OFFSET UNITYSDK_OFFSET(0xC1A3CA0)
+#define BPGOCAJGNBI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1B602310)
+#define BPGOCAJGNBI_CEKEHDFCHNL_OFFSET UNITYSDK_OFFSET(0x1B6021B0)
+#define BPGOCAJGNBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B602380)
+#define BPGOCAJGNBI_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0x1B6020B0)
+#define BPGOCAJGNBI_MKPNHOKPKJG_OFFSET UNITYSDK_OFFSET(0x1B602260)
+#define BPGOCAJGNBI_NPLNADKMELF_OFFSET UNITYSDK_OFFSET(0x1B602100)
 
-inline static constexpr unsigned int BPGOCAJGNBI_TypeDefinitionIndex = 68019;
+inline static constexpr unsigned int BPGOCAJGNBI_TypeDefinitionIndex = 69965;
 
 	class BPGOCAJGNBI : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FunctionConfigRow* POBMBPIIJND; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* BHINHANLDAL; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* KLLKKBOFKEK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* BHINHANLDAL; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* KLLKKBOFKEK; // 0x18
+		::RPG::GameCore::FunctionConfigRow* POBMBPIIJND; // 0x20
 		::System::Void _ctor(::RPG::GameCore::FunctionConfigRow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FunctionConfigRow*))((::PBYTE)hIl2Cpp + BPGOCAJGNBI_CTOR_OFFSET))(this, a1);

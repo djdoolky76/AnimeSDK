@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvRecoverTickValue; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVRECOVERTICKVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37E700)
-#define RPG_GAMECORE_ADVRECOVERTICKVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D37E740)
-#define RPG_GAMECORE_ADVRECOVERTICKVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D37E6A0)
+#define RPG_GAMECORE_ADVRECOVERTICKVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E00B0)
+#define RPG_GAMECORE_ADVRECOVERTICKVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8E00F0)
+#define RPG_GAMECORE_ADVRECOVERTICKVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E0050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvRecoverTickValue_TypeDefinitionIndex = 21026;
+	inline static constexpr unsigned int AdvRecoverTickValue_TypeDefinitionIndex = 21364;
 
 	class AdvRecoverTickValue : public ::RPG::GameCore::TaskConfig
 	{

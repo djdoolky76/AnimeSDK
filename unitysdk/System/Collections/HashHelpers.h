@@ -5,11 +5,11 @@ namespace System { class Object; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_HASHHELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0956E0)
-#define SYSTEM_COLLECTIONS_HASHHELPERS_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x1C0956C0)
-#define SYSTEM_COLLECTIONS_HASHHELPERS_GETPRIME_OFFSET UNITYSDK_OFFSET(0x1C095580)
-#define SYSTEM_COLLECTIONS_HASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x1C095440)
-#define SYSTEM_COLLECTIONS_HASHHELPERS_ISPRIME_OFFSET UNITYSDK_OFFSET(0x1C095500)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E11E050)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x1E11E030)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_GETPRIME_OFFSET UNITYSDK_OFFSET(0x1E11DEF0)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x1E11DDB0)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_ISPRIME_OFFSET UNITYSDK_OFFSET(0x1E11DE70)
 
 namespace System::Collections
 {
@@ -20,12 +20,12 @@ namespace System::Collections
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_primes()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("System.Collections", "HashHelpers")->GetStaticField(0x109C0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("System.Collections", "HashHelpers")->GetStaticField(0xD540);
 		}
 
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet_s_SerializationInfoTable()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)UnitySDK::FromName("System.Collections", "HashHelpers")->GetStaticField(0x109C8);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)UnitySDK::FromName("System.Collections", "HashHelpers")->GetStaticField(0xD548);
 		}
 
 		static ::System::Void _cctor()

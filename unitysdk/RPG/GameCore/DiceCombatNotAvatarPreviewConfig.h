@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DC940)
-#define RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5DC7F0)
+#define RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BA480)
+#define RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3BA330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatNotAvatarPreviewConfig_TypeDefinitionIndex = 16126;
+	inline static constexpr unsigned int DiceCombatNotAvatarPreviewConfig_TypeDefinitionIndex = 16284;
 
 	class DiceCombatNotAvatarPreviewConfig : public ::RPG::GameCore::JsonConfig
 	{

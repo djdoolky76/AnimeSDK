@@ -8,23 +8,22 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E20D0)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMER_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F0E2100)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E8A20)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMER_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E5E8A50)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Timer_TypeDefinitionIndex = 45721;
+	inline static constexpr unsigned int Timer_TypeDefinitionIndex = 46750;
 
 	class Timer : public ::System::Object
 	{
 	public:
-		::System::Nullable_1<::System::TimeSpan> period; // 0x10
+		::System::TimeSpan dueTime; // 0x10
+		::System::Nullable_1<::System::TimeSpan> period; // 0x18
 		::System::Byte _padding0[0x8];
-		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x20
-		::System::Boolean cancelImmediately; // 0x24
-		::System::Boolean ignoreTimeScale; // 0x25
-		::System::Byte _padding1[0x2];
-		::System::TimeSpan dueTime; // 0x28
+		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x28
+		::System::Boolean ignoreTimeScale; // 0x2C
+		::System::Boolean cancelImmediately; // 0x2D
 		::System::Void _ctor(::System::TimeSpan a1, ::System::Nullable_1<::System::TimeSpan> a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::System::Nullable_1<::System::TimeSpan>, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

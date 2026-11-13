@@ -4,18 +4,18 @@
 class GFMNPNJADFN;
 namespace System { class Object; }
 
-#define GFMNPNJADFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E445F30)
-#define GFMNPNJADFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E445F70)
-#define GFMNPNJADFN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E445F80)
+#define GFMNPNJADFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20086C80)
+#define GFMNPNJADFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20086CC0)
+#define GFMNPNJADFN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20086CD0)
 
-inline static constexpr unsigned int GFMNPNJADFN___c_TypeDefinitionIndex = 31937;
+inline static constexpr unsigned int GFMNPNJADFN___c_TypeDefinitionIndex = 32850;
 
 	class GFMNPNJADFN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x146F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC730);
 		}
 
 		static ::System::Void _cctor()

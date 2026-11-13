@@ -4,18 +4,18 @@
 class CILKBJMGNGL;
 namespace System { class Object; }
 
-#define CILKBJMGNGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0A83A0)
-#define CILKBJMGNGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A83D0)
-#define CILKBJMGNGL___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E0A83E0)
+#define CILKBJMGNGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F848AE0)
+#define CILKBJMGNGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F848B10)
+#define CILKBJMGNGL___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F848B20)
 
-inline static constexpr unsigned int CILKBJMGNGL___c_TypeDefinitionIndex = 33552;
+inline static constexpr unsigned int CILKBJMGNGL___c_TypeDefinitionIndex = 34467;
 
 	class CILKBJMGNGL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17490);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10AD0);
 		}
 
 		static ::System::Void _cctor()

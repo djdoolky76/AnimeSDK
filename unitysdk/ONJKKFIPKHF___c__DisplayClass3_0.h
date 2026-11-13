@@ -4,10 +4,10 @@
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionBase; }
 
-#define ONJKKFIPKHF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7B5D80)
-#define ONJKKFIPKHF___C__DISPLAYCLASS3_0__TICK_B__0_OFFSET UNITYSDK_OFFSET(0x1C7B5F50)
+#define ONJKKFIPKHF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B097500)
+#define ONJKKFIPKHF___C__DISPLAYCLASS3_0__TICK_B__0_OFFSET UNITYSDK_OFFSET(0x1B0976D0)
 
-inline static constexpr unsigned int ONJKKFIPKHF___c__DisplayClass3_0_TypeDefinitionIndex = 37347;
+inline static constexpr unsigned int ONJKKFIPKHF___c__DisplayClass3_0_TypeDefinitionIndex = 38275;
 
 	class ONJKKFIPKHF___c__DisplayClass3_0 : public ::System::Object
 	{

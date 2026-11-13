@@ -4,10 +4,10 @@ class IFBFJDCECML;
 class PAPOPANPGIJ;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByIdleCanEnterAIState; }
 
-#define MJOOBPJDNAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71EE50)
-#define MJOOBPJDNAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C71EED0)
+#define MJOOBPJDNAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1605F7F0)
+#define MJOOBPJDNAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1605F870)
 
-inline static constexpr unsigned int MJOOBPJDNAF_TypeDefinitionIndex = 36984;
+inline static constexpr unsigned int MJOOBPJDNAF_TypeDefinitionIndex = 37912;
 
 	class MJOOBPJDNAF
 	{

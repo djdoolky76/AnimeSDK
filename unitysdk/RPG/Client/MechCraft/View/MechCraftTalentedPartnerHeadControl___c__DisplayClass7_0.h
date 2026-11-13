@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class FKKIAHNJCBC;
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTEDPARTNERHEADCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD668D40)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTEDPARTNERHEADCONTROL___C__DISPLAYCLASS7_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xD668F80)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTEDPARTNERHEADCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF09240)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTEDPARTNERHEADCONTROL___C__DISPLAYCLASS7_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x1DF09480)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentedPartnerHeadControl___c__DisplayClass7_0_TypeDefinitionIndex = 79831;
+	inline static constexpr unsigned int MechCraftTalentedPartnerHeadControl___c__DisplayClass7_0_TypeDefinitionIndex = 82608;
 
 	class MechCraftTalentedPartnerHeadControl___c__DisplayClass7_0 : public ::System::Object
 	{

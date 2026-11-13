@@ -4,18 +4,18 @@
 class MAGMMMINOAJ;
 namespace System { class Object; }
 
-#define MAGMMMINOAJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9AC3D0)
-#define MAGMMMINOAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9AC410)
-#define MAGMMMINOAJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9AC420)
+#define MAGMMMINOAJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBB3D40)
+#define MAGMMMINOAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBB3D80)
+#define MAGMMMINOAJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FBB3D90)
 
-inline static constexpr unsigned int MAGMMMINOAJ___c_TypeDefinitionIndex = 30296;
+inline static constexpr unsigned int MAGMMMINOAJ___c_TypeDefinitionIndex = 31202;
 
 	class MAGMMMINOAJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45B20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48DF0);
 		}
 
 		static ::System::Void _cctor()

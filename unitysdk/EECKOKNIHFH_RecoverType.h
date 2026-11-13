@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EECKOKNIHFH_RecoverType_TypeDefinitionIndex = 72962;
+inline static constexpr unsigned int EECKOKNIHFH_RecoverType_TypeDefinitionIndex = 75074;
 
 	enum class EECKOKNIHFH_RecoverType : ::System::Int32
 	{

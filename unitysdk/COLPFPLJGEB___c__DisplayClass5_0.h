@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 
-#define COLPFPLJGEB___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB6310)
-#define COLPFPLJGEB___C__DISPLAYCLASS5_0__BUILDCATTARGETLOCKCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xDCB8260)
+#define COLPFPLJGEB___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19167560)
+#define COLPFPLJGEB___C__DISPLAYCLASS5_0__BUILDCATTARGETLOCKCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x19169140)
 
-inline static constexpr unsigned int COLPFPLJGEB___c__DisplayClass5_0_TypeDefinitionIndex = 76428;
+inline static constexpr unsigned int COLPFPLJGEB___c__DisplayClass5_0_TypeDefinitionIndex = 78759;
 
 	class COLPFPLJGEB___c__DisplayClass5_0 : public ::System::Object
 	{

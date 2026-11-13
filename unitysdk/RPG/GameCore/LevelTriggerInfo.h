@@ -7,12 +7,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelTriggerInfo; }
 
-#define RPG_GAMECORE_LEVELTRIGGERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A1530)
-#define RPG_GAMECORE_LEVELTRIGGERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D786D40)
+#define RPG_GAMECORE_LEVELTRIGGERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F250650)
+#define RPG_GAMECORE_LEVELTRIGGERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F24BE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTriggerInfo_TypeDefinitionIndex = 17228;
+	inline static constexpr unsigned int LevelTriggerInfo_TypeDefinitionIndex = 17396;
 
 	class LevelTriggerInfo : public ::RPG::GameCore::JsonConfig
 	{

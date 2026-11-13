@@ -5,21 +5,21 @@
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class IB2ArenaAllocatable; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ARENAALLOCATOR_ASSPAN_OFFSET UNITYSDK_OFFSET(0x1C7CB810)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ARENAALLOCATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CB750)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ARENAALLOCATOR_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1C7CB730)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ARENAALLOCATOR_RESIZE_OFFSET UNITYSDK_OFFSET(0x1C7CB790)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ARENAALLOCATOR_ASSPAN_OFFSET UNITYSDK_OFFSET(0xC895050)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ARENAALLOCATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xC894F90)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ARENAALLOCATOR_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xC894F70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ARENAALLOCATOR_RESIZE_OFFSET UNITYSDK_OFFSET(0xC894FD0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ArenaAllocator_TypeDefinitionIndex = 36572;
+	inline static constexpr unsigned int B2ArenaAllocator_TypeDefinitionIndex = 37500;
 
 	class B2ArenaAllocator : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::IB2ArenaAllocatable*>* _lookup; // 0x10
-		::System::Object* _lock; // 0x18
-		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::IB2ArenaAllocatable*>* _allocators; // 0x20
+		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::IB2ArenaAllocatable*>* _allocators; // 0x10
+		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::IB2ArenaAllocatable*>* _lookup; // 0x18
+		::System::Object* _lock; // 0x20
 		::System::Int32 _capacity; // 0x28
 		::System::Void _ctor(::System::Int32 a1)
 		{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CharacterPhaseAnimConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERCHANGEPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53D130)
-#define RPG_GAMECORE_CHARACTERCHANGEPHASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D53D140)
-#define RPG_GAMECORE_CHARACTERCHANGEPHASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D53D0F0)
+#define RPG_GAMECORE_CHARACTERCHANGEPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F33EEC0)
+#define RPG_GAMECORE_CHARACTERCHANGEPHASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F33EED0)
+#define RPG_GAMECORE_CHARACTERCHANGEPHASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F33EE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterChangePhase_TypeDefinitionIndex = 22479;
+	inline static constexpr unsigned int CharacterChangePhase_TypeDefinitionIndex = 22888;
 
 	class CharacterChangePhase : public ::RPG::GameCore::TaskConfig
 	{

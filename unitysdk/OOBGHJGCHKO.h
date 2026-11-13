@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByViewModeSwitchEmptyServant; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOBGHJGCHKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF5BD90)
-#define OOBGHJGCHKO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF5BDC0)
+#define OOBGHJGCHKO_CTOR_OFFSET UNITYSDK_OFFSET(0x19681410)
+#define OOBGHJGCHKO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19681440)
 
-inline static constexpr unsigned int OOBGHJGCHKO_TypeDefinitionIndex = 53169;
+inline static constexpr unsigned int OOBGHJGCHKO_TypeDefinitionIndex = 54331;
 
 	class OOBGHJGCHKO
 	{

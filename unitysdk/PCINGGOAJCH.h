@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPamAnchorContinous; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PCINGGOAJCH_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF99D0)
-#define PCINGGOAJCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFF9A00)
+#define PCINGGOAJCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD0E00)
+#define PCINGGOAJCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AAD0E30)
 
-inline static constexpr unsigned int PCINGGOAJCH_TypeDefinitionIndex = 53156;
+inline static constexpr unsigned int PCINGGOAJCH_TypeDefinitionIndex = 54318;
 
 	class PCINGGOAJCH
 	{

@@ -6,10 +6,10 @@ namespace RPG::GameCore { class MaterialPropertyConfig; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class ParticleSystemForceField; }
 
-#define MHDJGJNGAGA_DCJLCKGOCJM_OFFSET UNITYSDK_OFFSET(0xB92D740)
-#define MHDJGJNGAGA_DNHFHGPAHLM_OFFSET UNITYSDK_OFFSET(0xB92D8E0)
+#define MHDJGJNGAGA_DCJLCKGOCJM_OFFSET UNITYSDK_OFFSET(0x1B353880)
+#define MHDJGJNGAGA_DNHFHGPAHLM_OFFSET UNITYSDK_OFFSET(0x1B353A20)
 
-inline static constexpr unsigned int MHDJGJNGAGA_TypeDefinitionIndex = 70144;
+inline static constexpr unsigned int MHDJGJNGAGA_TypeDefinitionIndex = 72110;
 
 	class MHDJGJNGAGA : public ::System::Object
 	{

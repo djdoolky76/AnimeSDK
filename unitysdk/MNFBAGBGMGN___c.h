@@ -4,18 +4,18 @@
 class MNFBAGBGMGN;
 namespace System { class Object; }
 
-#define MNFBAGBGMGN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA67D30)
-#define MNFBAGBGMGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA67D70)
-#define MNFBAGBGMGN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EA67D80)
+#define MNFBAGBGMGN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F96F990)
+#define MNFBAGBGMGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F96F9D0)
+#define MNFBAGBGMGN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F96F9E0)
 
-inline static constexpr unsigned int MNFBAGBGMGN___c_TypeDefinitionIndex = 27710;
+inline static constexpr unsigned int MNFBAGBGMGN___c_TypeDefinitionIndex = 28241;
 
 	class MNFBAGBGMGN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50C90);
 		}
 
 		static ::System::Void _cctor()

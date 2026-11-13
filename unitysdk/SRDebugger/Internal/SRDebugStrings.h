@@ -4,27 +4,27 @@
 namespace SRDebugger::Internal { class SRDebugStrings; }
 namespace System { class String; }
 
-#define SRDEBUGGER_INTERNAL_SRDEBUGSTRINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED0D0C0)
-#define SRDEBUGGER_INTERNAL_SRDEBUGSTRINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED0D030)
+#define SRDEBUGGER_INTERNAL_SRDEBUGSTRINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D428710)
+#define SRDEBUGGER_INTERNAL_SRDEBUGSTRINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D428680)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int SRDebugStrings_TypeDefinitionIndex = 38107;
+	inline static constexpr unsigned int SRDebugStrings_TypeDefinitionIndex = 39036;
 
 	class SRDebugStrings : public ::System::Object
 	{
 	public:
-		::System::String* PinEntryPrompt; // 0x10
-		::System::String* Console_NoStackTrace; // 0x18
-		::System::String* Profiler_DisableProfilerInfo; // 0x20
+		::System::String* Profiler_NoProInfo; // 0x10
+		::System::String* Profiler_DisableProfilerInfo; // 0x18
+		::System::String* Console_NoStackTrace; // 0x20
 		::System::String* Profiler_EnableProfilerInfo; // 0x28
 		::System::String* Console_MessageTruncated; // 0x30
 		::System::String* ProfilerCameraListenerHelp; // 0x38
-		::System::String* Profiler_NoProInfo; // 0x40
+		::System::String* PinEntryPrompt; // 0x40
 		::System::String* Profiler_NotSupported; // 0x48
 		static ::SRDebugger::Internal::SRDebugStrings** StaticGet_Current()
 		{
-			return (::SRDebugger::Internal::SRDebugStrings**)UnitySDK::FromName("SRDebugger.Internal", "SRDebugStrings")->GetStaticField(0x33250);
+			return (::SRDebugger::Internal::SRDebugStrings**)UnitySDK::FromName("SRDebugger.Internal", "SRDebugStrings")->GetStaticField(0x2D680);
 		}
 
 		::System::Void _ctor()

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SummonUnitTriggerConfig; }
 namespace RPG::GameCore { class UnitCustomTriggerConfig; }
 namespace RPG::GameCore { class UnitHintTriggerConfig; }
 
-#define RPG_GAMECORE_SUMMONUNITTRIGGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB11180)
-#define RPG_GAMECORE_SUMMONUNITTRIGGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0F140)
+#define RPG_GAMECORE_SUMMONUNITTRIGGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E680BC0)
+#define RPG_GAMECORE_SUMMONUNITTRIGGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E67EB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitTriggerConfig_TypeDefinitionIndex = 17603;
+	inline static constexpr unsigned int SummonUnitTriggerConfig_TypeDefinitionIndex = 17772;
 
 	class SummonUnitTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{

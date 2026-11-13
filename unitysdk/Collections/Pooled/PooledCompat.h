@@ -4,7 +4,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledCompat_TypeDefinitionIndex = 5100;
+	inline static constexpr unsigned int PooledCompat_TypeDefinitionIndex = 5105;
 
 	class PooledCompat : public ::System::Object
 	{

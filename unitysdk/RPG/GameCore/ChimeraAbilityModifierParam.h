@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraAbilityModifierParam; }
 
-#define RPG_GAMECORE_CHIMERAABILITYMODIFIERPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56A160)
-#define RPG_GAMECORE_CHIMERAABILITYMODIFIERPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56A010)
+#define RPG_GAMECORE_CHIMERAABILITYMODIFIERPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F91F8D0)
+#define RPG_GAMECORE_CHIMERAABILITYMODIFIERPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F91F780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraAbilityModifierParam_TypeDefinitionIndex = 15844;
+	inline static constexpr unsigned int ChimeraAbilityModifierParam_TypeDefinitionIndex = 16002;
 
 	class ChimeraAbilityModifierParam : public ::RPG::GameCore::JsonConfig
 	{

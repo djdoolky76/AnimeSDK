@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GDFPOKAIKEE_Section_TypeDefinitionIndex = 41538;
+inline static constexpr unsigned int GDFPOKAIKEE_Section_TypeDefinitionIndex = 42513;
 
 	enum class GDFPOKAIKEE_Section : ::System::Int32
 	{

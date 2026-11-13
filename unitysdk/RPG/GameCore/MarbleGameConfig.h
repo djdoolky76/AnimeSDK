@@ -8,13 +8,13 @@ namespace RPG::GameCore { class MarbleNpcConfig; }
 namespace RPG::GameCore { class PetMarbleGameConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80FDD0)
-#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D80FDE0)
-#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D80FDA0)
+#define RPG_GAMECORE_MARBLEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB44250)
+#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1EB44260)
+#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB44220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleGameConfig_TypeDefinitionIndex = 18927;
+	inline static constexpr unsigned int MarbleGameConfig_TypeDefinitionIndex = 19114;
 
 	class MarbleGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

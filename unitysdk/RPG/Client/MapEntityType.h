@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapEntityType_TypeDefinitionIndex = 62102;
+	inline static constexpr unsigned int MapEntityType_TypeDefinitionIndex = 63515;
 
 	enum class MapEntityType : ::System::Int32
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOMOUSEFOLLOWER_CTOR_OFFSET UNITYSDK_OFFSET(0xD8440F0)
-#define RPG_CLIENT_MONOMOUSEFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD843EE0)
+#define RPG_CLIENT_MONOMOUSEFOLLOWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D264460)
+#define RPG_CLIENT_MONOMOUSEFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1D264250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMouseFollower_TypeDefinitionIndex = 72822;
+	inline static constexpr unsigned int MonoMouseFollower_TypeDefinitionIndex = 74901;
 
 	class MonoMouseFollower : public ::UnityEngine::MonoBehaviour
 	{

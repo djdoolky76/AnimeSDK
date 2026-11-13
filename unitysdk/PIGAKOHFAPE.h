@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PIGAKOHFAPE_CTOR_OFFSET UNITYSDK_OFFSET(0xC258310)
+#define PIGAKOHFAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9C4740)
 
-inline static constexpr unsigned int PIGAKOHFAPE_TypeDefinitionIndex = 49327;
+inline static constexpr unsigned int PIGAKOHFAPE_TypeDefinitionIndex = 50403;
 
 	class PIGAKOHFAPE : public ::System::Attribute
 	{

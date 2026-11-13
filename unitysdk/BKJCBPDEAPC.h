@@ -4,11 +4,11 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraBattleShowNPCTalkBubble; }
 
-#define BKJCBPDEAPC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA55F50)
-#define BKJCBPDEAPC_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBA560D0)
-#define BKJCBPDEAPC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBA55F90)
+#define BKJCBPDEAPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6662E0)
+#define BKJCBPDEAPC_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x1A666460)
+#define BKJCBPDEAPC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1A666320)
 
-inline static constexpr unsigned int BKJCBPDEAPC_TypeDefinitionIndex = 78408;
+inline static constexpr unsigned int BKJCBPDEAPC_TypeDefinitionIndex = 81143;
 
 	class BKJCBPDEAPC : public ::System::Object
 	{

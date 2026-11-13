@@ -7,13 +7,13 @@ namespace RPG::GameCore { class RemoveEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D957000)
-#define RPG_GAMECORE_REMOVEEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D957020)
-#define RPG_GAMECORE_REMOVEEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D956FB0)
+#define RPG_GAMECORE_REMOVEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F240B20)
+#define RPG_GAMECORE_REMOVEEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F240B40)
+#define RPG_GAMECORE_REMOVEEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F240AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveEffect_TypeDefinitionIndex = 22882;
+	inline static constexpr unsigned int RemoveEffect_TypeDefinitionIndex = 23308;
 
 	class RemoveEffect : public ::RPG::GameCore::TaskConfig
 	{

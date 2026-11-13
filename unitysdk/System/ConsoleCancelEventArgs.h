@@ -3,9 +3,9 @@
 #include "unitysdk/System/ConsoleSpecialKey.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define SYSTEM_CONSOLECANCELEVENTARGS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C167480)
-#define SYSTEM_CONSOLECANCELEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1670D0)
-#define SYSTEM_CONSOLECANCELEVENTARGS_GET_CANCEL_OFFSET UNITYSDK_OFFSET(0x1C167470)
+#define SYSTEM_CONSOLECANCELEVENTARGS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B938C10)
+#define SYSTEM_CONSOLECANCELEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B938860)
+#define SYSTEM_CONSOLECANCELEVENTARGS_GET_CANCEL_OFFSET UNITYSDK_OFFSET(0x1B938C00)
 
 namespace System
 {
@@ -14,8 +14,9 @@ namespace System
 	class ConsoleCancelEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::ConsoleSpecialKey _type; // 0x10
-		::System::Boolean _cancel; // 0x14
+		::System::Boolean _cancel; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::ConsoleSpecialKey _type; // 0x14
 		::System::Void _ctor(::System::ConsoleSpecialKey a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::ConsoleSpecialKey))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLECANCELEVENTARGS_CTOR_OFFSET))(this, a1);

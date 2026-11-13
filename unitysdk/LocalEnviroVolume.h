@@ -10,17 +10,17 @@ namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 
-#define LOCALENVIROVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0xB834580)
-#define LOCALENVIROVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0xB835270)
-#define LOCALENVIROVOLUME_GHFBBHJMMEC_OFFSET UNITYSDK_OFFSET(0xB834660)
-#define LOCALENVIROVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB834F00)
-#define LOCALENVIROVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB834E80)
-#define LOCALENVIROVOLUME_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0xB834F80)
-#define LOCALENVIROVOLUME_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0xB835020)
-#define LOCALENVIROVOLUME_START_OFFSET UNITYSDK_OFFSET(0xB8345E0)
-#define LOCALENVIROVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0xB8350B0)
+#define LOCALENVIROVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B6CE720)
+#define LOCALENVIROVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CF460)
+#define LOCALENVIROVOLUME_GHFBBHJMMEC_OFFSET UNITYSDK_OFFSET(0x1B6CE830)
+#define LOCALENVIROVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B6CF0F0)
+#define LOCALENVIROVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B6CF070)
+#define LOCALENVIROVOLUME_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0x1B6CF170)
+#define LOCALENVIROVOLUME_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x1B6CF210)
+#define LOCALENVIROVOLUME_START_OFFSET UNITYSDK_OFFSET(0x1B6CE7B0)
+#define LOCALENVIROVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B6CF2A0)
 
-inline static constexpr unsigned int LocalEnviroVolume_TypeDefinitionIndex = 47468;
+inline static constexpr unsigned int LocalEnviroVolume_TypeDefinitionIndex = 48497;
 
 	class LocalEnviroVolume : public ::UnityEngine::MonoBehaviour
 	{
@@ -54,14 +54,14 @@ inline static constexpr unsigned int LocalEnviroVolume_TypeDefinitionIndex = 474
 		::UnityEngine::Vector4 DEPBHNDLAFI; // 0xA0
 		::System::String* PresetEnviroAsset; // 0xB0
 		::System::Boolean ICDEHEBKGJJ; // 0xB8
-		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_POFPNDIOHGK()
-		{
-			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("", "LocalEnviroVolume")->GetStaticField(0x15650);
-		}
-
 		static ::System::Int32* StaticGet_AHCEMNHINFE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "LocalEnviroVolume")->GetStaticField(0x15654);
+			return (::System::Int32*)UnitySDK::FromName("", "LocalEnviroVolume")->GetStaticField(0x15E10);
+		}
+
+		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_POFPNDIOHGK()
+		{
+			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("", "LocalEnviroVolume")->GetStaticField(0x15E14);
 		}
 
 		::System::Void _ctor()

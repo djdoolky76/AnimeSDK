@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MAJKFOCKHOH_ABBDPNGJPMG_OFFSET UNITYSDK_OFFSET(0xB84B8B0)
-#define MAJKFOCKHOH_BDEEKDMIDJF_OFFSET UNITYSDK_OFFSET(0xB84AC30)
-#define MAJKFOCKHOH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB84BAB0)
-#define MAJKFOCKHOH_ILGJPLFKGEG_1_OFFSET UNITYSDK_OFFSET(0xB84B4A0)
-#define MAJKFOCKHOH_ILGJPLFKGEG_OFFSET UNITYSDK_OFFSET(0xB84AF80)
-#define MAJKFOCKHOH_LJIHFCICHOP_1_OFFSET UNITYSDK_OFFSET(0xB84B290)
-#define MAJKFOCKHOH_LJIHFCICHOP_OFFSET UNITYSDK_OFFSET(0xB84AC70)
-#define MAJKFOCKHOH_PHIOPIOPMPF_OFFSET UNITYSDK_OFFSET(0xB84B6B0)
+#define MAJKFOCKHOH_ABBDPNGJPMG_OFFSET UNITYSDK_OFFSET(0x1B6E5A70)
+#define MAJKFOCKHOH_BDEEKDMIDJF_OFFSET UNITYSDK_OFFSET(0x1B6E4DF0)
+#define MAJKFOCKHOH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6E5C70)
+#define MAJKFOCKHOH_ILGJPLFKGEG_1_OFFSET UNITYSDK_OFFSET(0x1B6E5660)
+#define MAJKFOCKHOH_ILGJPLFKGEG_OFFSET UNITYSDK_OFFSET(0x1B6E5140)
+#define MAJKFOCKHOH_LJIHFCICHOP_1_OFFSET UNITYSDK_OFFSET(0x1B6E5450)
+#define MAJKFOCKHOH_LJIHFCICHOP_OFFSET UNITYSDK_OFFSET(0x1B6E4E30)
+#define MAJKFOCKHOH_PHIOPIOPMPF_OFFSET UNITYSDK_OFFSET(0x1B6E5870)
 
-inline static constexpr unsigned int MAJKFOCKHOH_TypeDefinitionIndex = 49211;
+inline static constexpr unsigned int MAJKFOCKHOH_TypeDefinitionIndex = 50287;
 
 	class MAJKFOCKHOH : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Object*>** StaticGet_DDMIGFCDDEC()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Object*>**)UnitySDK::FromName("", "MAJKFOCKHOH")->GetStaticField(0x5B4F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Object*>**)UnitySDK::FromName("", "MAJKFOCKHOH")->GetStaticField(0x71E00);
 		}
 
 		static ::System::Void _cctor()

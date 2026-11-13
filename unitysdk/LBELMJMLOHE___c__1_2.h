@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int LBELMJMLOHE___c__1_2_TypeDefinitionIndex = 49851;
+inline static constexpr unsigned int LBELMJMLOHE___c__1_2_TypeDefinitionIndex = 50899;
 
 	template <typename T1, typename T2>
 	class LBELMJMLOHE___c__1_2 : public ::System::Object

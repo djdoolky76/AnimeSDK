@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupBy_4_TypeDefinitionIndex = 45375;
+	inline static constexpr unsigned int GroupBy_4_TypeDefinitionIndex = 46404;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	class GroupBy_4 : public ::System::Object

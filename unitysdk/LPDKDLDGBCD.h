@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class OverrideFinishActionAutoTransfer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPDKDLDGBCD_CTOR_OFFSET UNITYSDK_OFFSET(0xB818420)
-#define LPDKDLDGBCD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB818430)
-#define LPDKDLDGBCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB818470)
-#define LPDKDLDGBCD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB818510)
-#define LPDKDLDGBCD_TICK_OFFSET UNITYSDK_OFFSET(0xB818560)
+#define LPDKDLDGBCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B2490)
+#define LPDKDLDGBCD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B6B24A0)
+#define LPDKDLDGBCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B6B24E0)
+#define LPDKDLDGBCD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B6B2580)
+#define LPDKDLDGBCD_TICK_OFFSET UNITYSDK_OFFSET(0x1B6B25D0)
 
-inline static constexpr unsigned int LPDKDLDGBCD_TypeDefinitionIndex = 53051;
+inline static constexpr unsigned int LPDKDLDGBCD_TypeDefinitionIndex = 54211;
 
 	class LPDKDLDGBCD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::OverrideFinishActionAutoTransfer* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::OverrideFinishActionAutoTransfer* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OverrideFinishActionAutoTransfer* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::OverrideFinishActionAutoTransfer*))((::PBYTE)hIl2Cpp + LPDKDLDGBCD_CTOR_OFFSET))(this, a1, a2);

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimSetBillboardInfo; }
 
-#define RPG_GAMECORE_FIVEDIMSETBILLBOARDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AB670)
-#define RPG_GAMECORE_FIVEDIMSETBILLBOARDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AB440)
+#define RPG_GAMECORE_FIVEDIMSETBILLBOARDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F79F660)
+#define RPG_GAMECORE_FIVEDIMSETBILLBOARDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F79F430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSetBillboardInfo_TypeDefinitionIndex = 21479;
+	inline static constexpr unsigned int FiveDimSetBillboardInfo_TypeDefinitionIndex = 21824;
 
 	class FiveDimSetBillboardInfo : public ::RPG::GameCore::JsonConfig
 	{

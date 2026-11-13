@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/PingPongSPSkillType.h"
 #include "unitysdk/System/Object.h"
 
-#define CDBFAGCNIMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AF220)
+#define CDBFAGCNIMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D9E40)
 
-inline static constexpr unsigned int CDBFAGCNIMO_TypeDefinitionIndex = 42986;
+inline static constexpr unsigned int CDBFAGCNIMO_TypeDefinitionIndex = 43967;
 
 	class CDBFAGCNIMO : public ::System::Object
 	{

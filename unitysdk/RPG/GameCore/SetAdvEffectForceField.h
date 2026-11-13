@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetAdvEffectForceField; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA65B00)
-#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA65B10)
-#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA65AD0)
+#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F857730)
+#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F857740)
+#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F857700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAdvEffectForceField_TypeDefinitionIndex = 22322;
+	inline static constexpr unsigned int SetAdvEffectForceField_TypeDefinitionIndex = 22727;
 
 	class SetAdvEffectForceField : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,23 +5,23 @@ class JEBPFBNCALB;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HPNFJGOCNLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DC8B50)
-#define HPNFJGOCNLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC8B90)
-#define HPNFJGOCNLC___C___REFRESHISCOMPLETE_B__7_0_OFFSET UNITYSDK_OFFSET(0x15DC8BA0)
+#define HPNFJGOCNLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF42FA0)
+#define HPNFJGOCNLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF42FE0)
+#define HPNFJGOCNLC___C___REFRESHISCOMPLETE_B__7_0_OFFSET UNITYSDK_OFFSET(0x1AF42FF0)
 
-inline static constexpr unsigned int HPNFJGOCNLC___c_TypeDefinitionIndex = 79562;
+inline static constexpr unsigned int HPNFJGOCNLC___c_TypeDefinitionIndex = 82339;
 
 	class HPNFJGOCNLC___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::JEBPFBNCALB*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::JEBPFBNCALB*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33040);
+			return (::System::Func_2<::JEBPFBNCALB*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A340);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33048);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A348);
 		}
 
 		static ::System::Void _cctor()

@@ -11,13 +11,13 @@ namespace RPG::GameCore { class FourRotateVoxelLevelTargetProgressConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C22B0)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C22C0)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C2280)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B5E50)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F7B5E60)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B5E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelSettings_TypeDefinitionIndex = 16750;
+	inline static constexpr unsigned int FourRotateVoxelLevelSettings_TypeDefinitionIndex = 16916;
 
 	class FourRotateVoxelLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{

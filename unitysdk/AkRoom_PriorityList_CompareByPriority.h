@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class AkRoom;
 
-#define AKROOM_PRIORITYLIST_COMPAREBYPRIORITY_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F58CC30)
-#define AKROOM_PRIORITYLIST_COMPAREBYPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58CC20)
+#define AKROOM_PRIORITYLIST_COMPAREBYPRIORITY_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F31D5D0)
+#define AKROOM_PRIORITYLIST_COMPAREBYPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F31D5C0)
 
-inline static constexpr unsigned int AkRoom_PriorityList_CompareByPriority_TypeDefinitionIndex = 44945;
+inline static constexpr unsigned int AkRoom_PriorityList_CompareByPriority_TypeDefinitionIndex = 46020;
 
 	class AkRoom_PriorityList_CompareByPriority : public ::System::Object
 	{

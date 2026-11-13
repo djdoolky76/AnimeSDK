@@ -4,10 +4,10 @@
 class KAAMFILLIND;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceAllOddOrEven; }
 
-#define HANBKLPHHHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C62DBD0)
-#define HANBKLPHHHK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C62DBE0)
+#define HANBKLPHHHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA6B4B0)
+#define HANBKLPHHHK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1AA6B4C0)
 
-inline static constexpr unsigned int HANBKLPHHHK_TypeDefinitionIndex = 36209;
+inline static constexpr unsigned int HANBKLPHHHK_TypeDefinitionIndex = 37137;
 
 	class HANBKLPHHHK : public ::PNECKGBKMEL
 	{

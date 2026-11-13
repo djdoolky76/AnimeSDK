@@ -5,19 +5,19 @@ class IFJAGMJNJIL;
 namespace RPG::Client::MechCraft::View { class MechCraftWorkshopLevelUpControl; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD66C370)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPCONTROL___C__DISPLAYCLASS7_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xD66C760)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPCONTROL___C__DISPLAYCLASS7_0___REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0xD66C910)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E90A960)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPCONTROL___C__DISPLAYCLASS7_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x1E90AD50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPCONTROL___C__DISPLAYCLASS7_0___REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x1E90AF00)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftWorkshopLevelUpControl___c__DisplayClass7_0_TypeDefinitionIndex = 80076;
+	inline static constexpr unsigned int MechCraftWorkshopLevelUpControl___c__DisplayClass7_0_TypeDefinitionIndex = 82853;
 
 	class MechCraftWorkshopLevelUpControl___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::IFJAGMJNJIL* vm; // 0x10
-		::RPG::Client::MechCraft::View::MechCraftWorkshopLevelUpControl* __4__this; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftWorkshopLevelUpControl* __4__this; // 0x10
+		::IFJAGMJNJIL* vm; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);

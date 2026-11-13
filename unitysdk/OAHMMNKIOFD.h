@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System::IO { class Stream; }
 
-#define OAHMMNKIOFD_BIKABOFADBP_1_OFFSET UNITYSDK_OFFSET(0x1CC5A5B0)
-#define OAHMMNKIOFD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC60450)
-#define OAHMMNKIOFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC60070)
-#define OAHMMNKIOFD_DCDDKNNINEB_1_OFFSET UNITYSDK_OFFSET(0x1CC5C600)
+#define OAHMMNKIOFD_BIKABOFADBP_1_OFFSET UNITYSDK_OFFSET(0x208DA570)
+#define OAHMMNKIOFD_CCTOR_OFFSET UNITYSDK_OFFSET(0x208E0410)
+#define OAHMMNKIOFD_CTOR_OFFSET UNITYSDK_OFFSET(0x208E0030)
+#define OAHMMNKIOFD_DCDDKNNINEB_1_OFFSET UNITYSDK_OFFSET(0x208DC5C0)
 
-inline static constexpr unsigned int OAHMMNKIOFD_TypeDefinitionIndex = 43861;
+inline static constexpr unsigned int OAHMMNKIOFD_TypeDefinitionIndex = 44936;
 
 	class OAHMMNKIOFD : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_JNAMGBBBNII()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "OAHMMNKIOFD")->GetStaticField(0xF10);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "OAHMMNKIOFD")->GetStaticField(0x1010);
 		}
 
 		// static const ::System::Object LIKDOPMKGCO; // 0x0

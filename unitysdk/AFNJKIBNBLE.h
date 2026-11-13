@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByFateLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AFNJKIBNBLE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF130D0)
-#define AFNJKIBNBLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF131B0)
+#define AFNJKIBNBLE_CTOR_OFFSET UNITYSDK_OFFSET(0x18DC0FB0)
+#define AFNJKIBNBLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DC1090)
 
-inline static constexpr unsigned int AFNJKIBNBLE_TypeDefinitionIndex = 55434;
+inline static constexpr unsigned int AFNJKIBNBLE_TypeDefinitionIndex = 56620;
 
 	class AFNJKIBNBLE
 	{

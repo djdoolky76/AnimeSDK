@@ -4,16 +4,16 @@
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define ACKABEKCMOH_NHGPPEFMBMD_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB122540)
-#define ACKABEKCMOH_NHGPPEFMBMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB122530)
+#define ACKABEKCMOH_NHGPPEFMBMD_CTOR_1_OFFSET UNITYSDK_OFFSET(0x18293080)
+#define ACKABEKCMOH_NHGPPEFMBMD_CTOR_OFFSET UNITYSDK_OFFSET(0x18293070)
 
-inline static constexpr unsigned int ACKABEKCMOH_NHGPPEFMBMD_TypeDefinitionIndex = 65957;
+inline static constexpr unsigned int ACKABEKCMOH_NHGPPEFMBMD_TypeDefinitionIndex = 67889;
 
 	class ACKABEKCMOH_NHGPPEFMBMD : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* DHIPFJBEJPI; // 0x10
-		::System::Object* JPHGPKBOHPE; // 0x18
+		::System::Object* JPHGPKBOHPE; // 0x10
+		::UnityEngine::Transform* DHIPFJBEJPI; // 0x18
 		::System::Boolean HNOBLPHCDBN; // 0x20
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Object* a2)
 		{

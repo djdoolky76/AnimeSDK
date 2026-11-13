@@ -8,19 +8,19 @@ class HLOHDPOEMDK;
 class NLJLFIEPHEL;
 namespace RPG::Client::FateRin::Card { class IFateRinBattleCardPileSectionViewModel; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEDADC0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xCEDB230)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD014D0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1DD01940)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinBattleCardPileTypeViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 81121;
+	inline static constexpr unsigned int FateRinBattleCardPileTypeViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 83901;
 
 	class FateRinBattleCardPileTypeViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::DEGELHCLDJB* ownerFactory; // 0x10
-		::NLJLFIEPHEL* cardVmFactory; // 0x18
-		::HLOHDPOEMDK* cardGameModel; // 0x20
+		::NLJLFIEPHEL* cardVmFactory; // 0x10
+		::HLOHDPOEMDK* cardGameModel; // 0x18
+		::DEGELHCLDJB* ownerFactory; // 0x20
 		::RPG::Client::FateRin::Card::FateRinBattleCardPileType type; // 0x28
 		::System::Void _ctor()
 		{

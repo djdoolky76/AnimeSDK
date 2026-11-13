@@ -7,19 +7,19 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelXbox; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0D990)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS28_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1BF11970)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF8A000)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS28_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1BF8E010)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass28_0_TypeDefinitionIndex = 8648;
+	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass28_0_TypeDefinitionIndex = 8657;
 
 	class HoYoChannelXbox___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
+		::MiHoYo::SDK::JSONArray* productArray; // 0x10
 		::MiHoYo::SDK::PC::OS::HoYoChannelXbox* __4__this; // 0x18
-		::MiHoYo::SDK::JSONArray* productArray; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS28_0_CTOR_OFFSET))(this);

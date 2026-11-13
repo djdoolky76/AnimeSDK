@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define FEMCFBBGBDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1571A070)
+#define FEMCFBBGBDM_CTOR_OFFSET UNITYSDK_OFFSET(0x130CA4F0)
 
-inline static constexpr unsigned int FEMCFBBGBDM_TypeDefinitionIndex = 57365;
+inline static constexpr unsigned int FEMCFBBGBDM_TypeDefinitionIndex = 58593;
 
 	class FEMCFBBGBDM : public ::System::Object
 	{

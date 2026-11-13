@@ -5,26 +5,26 @@ namespace RPG::Client { class MonsterData; }
 namespace RPG::Client { class StarFightRedDotFilter; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STARFIGHTUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE120D00)
-#define RPG_CLIENT_STARFIGHTUTILS_GETMONSTERDATALIST_OFFSET UNITYSDK_OFFSET(0xE1208A0)
-#define RPG_CLIENT_STARFIGHTUTILS_GET_NATIVEFILTER_OFFSET UNITYSDK_OFFSET(0xE11C280)
-#define RPG_CLIENT_STARFIGHTUTILS_ISINSTARFIGHTACTIVITYBATTLE_OFFSET UNITYSDK_OFFSET(0xE1204A0)
+#define RPG_CLIENT_STARFIGHTUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A90E300)
+#define RPG_CLIENT_STARFIGHTUTILS_GETMONSTERDATALIST_OFFSET UNITYSDK_OFFSET(0x1A90DEB0)
+#define RPG_CLIENT_STARFIGHTUTILS_GET_NATIVEFILTER_OFFSET UNITYSDK_OFFSET(0x1A909890)
+#define RPG_CLIENT_STARFIGHTUTILS_ISINSTARFIGHTACTIVITYBATTLE_OFFSET UNITYSDK_OFFSET(0x1A90DAA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StarFightUtils_TypeDefinitionIndex = 67985;
+	inline static constexpr unsigned int StarFightUtils_TypeDefinitionIndex = 69931;
 
 	class StarFightUtils : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::StarFightRedDotFilter** StaticGet__NativeFilter()
 		{
-			return (::RPG::Client::StarFightRedDotFilter**)UnitySDK::FromName("RPG.Client", "StarFightUtils")->GetStaticField(0x6F8B0);
+			return (::RPG::Client::StarFightRedDotFilter**)UnitySDK::FromName("RPG.Client", "StarFightUtils")->GetStaticField(0xBBF0);
 		}
 
 		static ::System::UInt32* StaticGet_REWARD_ID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "StarFightUtils")->GetStaticField(0x15A80);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "StarFightUtils")->GetStaticField(0x16B0);
 		}
 
 		static ::System::Void _cctor()

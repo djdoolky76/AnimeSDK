@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByCompareProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPDHCMEJCJN_CTOR_OFFSET UNITYSDK_OFFSET(0xB2AD940)
-#define JPDHCMEJCJN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2AD970)
+#define JPDHCMEJCJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EFB90)
+#define JPDHCMEJCJN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B4EFBC0)
 
-inline static constexpr unsigned int JPDHCMEJCJN_TypeDefinitionIndex = 53915;
+inline static constexpr unsigned int JPDHCMEJCJN_TypeDefinitionIndex = 55079;
 
 	class JPDHCMEJCJN
 	{

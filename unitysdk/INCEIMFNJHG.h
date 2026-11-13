@@ -6,9 +6,9 @@
 class BGMKDGACBNI;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define INCEIMFNJHG_CHGHBOEABAK_OFFSET UNITYSDK_OFFSET(0x164D8980)
+#define INCEIMFNJHG_CHGHBOEABAK_OFFSET UNITYSDK_OFFSET(0x1A5E52D0)
 
-inline static constexpr unsigned int INCEIMFNJHG_TypeDefinitionIndex = 53739;
+inline static constexpr unsigned int INCEIMFNJHG_TypeDefinitionIndex = 54903;
 
 	class INCEIMFNJHG : public ::System::Object
 	{

@@ -4,9 +4,9 @@
 class IMFGILLIKOL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DEMPJKLAAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F7300)
+#define DEMPJKLAAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB295E0)
 
-inline static constexpr unsigned int DEMPJKLAAPG_TypeDefinitionIndex = 43713;
+inline static constexpr unsigned int DEMPJKLAAPG_TypeDefinitionIndex = 44788;
 
 	class DEMPJKLAAPG : public ::System::Object
 	{

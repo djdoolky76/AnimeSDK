@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirNodeRow; }
 
-#define RPG_GAMECORE_PIXAIRNODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EF390)
-#define RPG_GAMECORE_PIXAIRNODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EF280)
+#define RPG_GAMECORE_PIXAIRNODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5DAE0)
+#define RPG_GAMECORE_PIXAIRNODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE5D9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirNodeRow_TypeDefinitionIndex = 12131;
+	inline static constexpr unsigned int PixAirNodeRow_TypeDefinitionIndex = 12188;
 
 	class PixAirNodeRow : public ::System::Object
 	{

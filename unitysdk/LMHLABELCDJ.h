@@ -7,17 +7,17 @@ class LMHLABELCDJ;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define LMHLABELCDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E86C0)
-#define LMHLABELCDJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0E86D0)
-#define LMHLABELCDJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0E8690)
+#define LMHLABELCDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E40FAD0)
+#define LMHLABELCDJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E40FAE0)
+#define LMHLABELCDJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E40FAA0)
 
-inline static constexpr unsigned int LMHLABELCDJ_TypeDefinitionIndex = 23239;
+inline static constexpr unsigned int LMHLABELCDJ_TypeDefinitionIndex = 23679;
 
 	class LMHLABELCDJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x20
+		::RPG::GameCore::DynamicFloat* MNDFOPKBHKP; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 		::GNOHFPEFGGA NOCCJLJPLKJ; // 0x28
 		::System::Void _ctor()
 		{

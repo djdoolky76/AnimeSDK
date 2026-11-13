@@ -5,17 +5,18 @@ class BKALIFMAGPM;
 class FCOEMCEDLNL;
 class NCOOOFILFOE;
 
-#define NCOOOFILFOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C8E80)
-#define NCOOOFILFOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1C8CB0)
+#define NCOOOFILFOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E89C4D0)
+#define NCOOOFILFOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E89C380)
 
-inline static constexpr unsigned int NCOOOFILFOE_TypeDefinitionIndex = 16813;
+inline static constexpr unsigned int NCOOOFILFOE_TypeDefinitionIndex = 16980;
 
 	class NCOOOFILFOE : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::BKALIFMAGPM* BLNDPOKLJAK; // 0x10
-		::System::UInt64 NIJMKCCGEHK; // 0x18
-		::System::Single JMBHCPLJNNM; // 0x20
+		::System::Single JMBHCPLJNNM; // 0x18
+		::System::Byte _padding0[0x4];
+		::System::UInt64 NIJMKCCGEHK; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCOOOFILFOE_CTOR_OFFSET))(this);

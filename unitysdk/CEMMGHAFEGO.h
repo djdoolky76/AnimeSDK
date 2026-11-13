@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CEMMGHAFEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBDC310)
-#define CEMMGHAFEGO_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1DBDC300)
+#define CEMMGHAFEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x115EFCE0)
+#define CEMMGHAFEGO_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x115EFCD0)
 
-inline static constexpr unsigned int CEMMGHAFEGO_TypeDefinitionIndex = 10741;
+inline static constexpr unsigned int CEMMGHAFEGO_TypeDefinitionIndex = 10757;
 
 	class CEMMGHAFEGO : public ::System::Attribute
 	{

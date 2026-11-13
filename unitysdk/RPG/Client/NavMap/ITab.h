@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int ITab_TypeDefinitionIndex = 74624;
+	inline static constexpr unsigned int ITab_TypeDefinitionIndex = 76772;
 
 	class ITab
 	{

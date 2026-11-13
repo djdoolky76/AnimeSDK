@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleEntitySkillLevelWhiteBoxData; }
 
-#define RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4292B0)
-#define RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D429150)
+#define RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C30BF00)
+#define RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C30BDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEntitySkillLevelWhiteBoxData_TypeDefinitionIndex = 22750;
+	inline static constexpr unsigned int BattleEntitySkillLevelWhiteBoxData_TypeDefinitionIndex = 23172;
 
 	class BattleEntitySkillLevelWhiteBoxData : public ::RPG::GameCore::JsonConfig
 	{

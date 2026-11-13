@@ -4,16 +4,16 @@
 class NJCHNLINLMK;
 namespace System { class String; }
 
-#define FMMKENDGOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x158559A0)
-#define FMMKENDGOPH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15855950)
+#define FMMKENDGOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x17F07970)
+#define FMMKENDGOPH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x17F07920)
 
-inline static constexpr unsigned int FMMKENDGOPH_TypeDefinitionIndex = 82303;
+inline static constexpr unsigned int FMMKENDGOPH_TypeDefinitionIndex = 85176;
 
 	class FMMKENDGOPH : public ::System::Object
 	{
 	public:
-		::NJCHNLINLMK* HOPJMFJMOBD; // 0x10
-		::System::String* IIHFKAGKEMC; // 0x18
+		::System::String* IIHFKAGKEMC; // 0x10
+		::NJCHNLINLMK* HOPJMFJMOBD; // 0x18
 		::System::Boolean KOLOPKBBIFG; // 0x20
 		::System::Void _ctor()
 		{

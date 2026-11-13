@@ -9,12 +9,12 @@ namespace RPG::GameCore::Match3 { class BirdStyleWeightConfig; }
 namespace RPG::GameCore::Match3 { class Match3ActionBase; }
 namespace RPG::GameCore::Match3 { class Match3BirdSkillConfig; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81E9C0)
-#define RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81E7B0)
+#define RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB52DE0)
+#define RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB52BD0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3BirdSkillConfig_TypeDefinitionIndex = 24937;
+	inline static constexpr unsigned int Match3BirdSkillConfig_TypeDefinitionIndex = 25417;
 
 	class Match3BirdSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

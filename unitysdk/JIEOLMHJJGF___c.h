@@ -4,18 +4,18 @@
 class JIEOLMHJJGF;
 namespace System { class Object; }
 
-#define JIEOLMHJJGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E71E9C0)
-#define JIEOLMHJJGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E71EA00)
-#define JIEOLMHJJGF___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E71EA10)
+#define JIEOLMHJJGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204B5610)
+#define JIEOLMHJJGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204B5650)
+#define JIEOLMHJJGF___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x204B5660)
 
-inline static constexpr unsigned int JIEOLMHJJGF___c_TypeDefinitionIndex = 28884;
+inline static constexpr unsigned int JIEOLMHJJGF___c_TypeDefinitionIndex = 29474;
 
 	class JIEOLMHJJGF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F930);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60890);
 		}
 
 		static ::System::Void _cctor()

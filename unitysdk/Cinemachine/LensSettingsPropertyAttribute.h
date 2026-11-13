@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_LENSSETTINGSPROPERTYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1669CD50)
+#define CINEMACHINE_LENSSETTINGSPROPERTYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20884000)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int LensSettingsPropertyAttribute_TypeDefinitionIndex = 39824;
+	inline static constexpr unsigned int LensSettingsPropertyAttribute_TypeDefinitionIndex = 40753;
 
 	class LensSettingsPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{

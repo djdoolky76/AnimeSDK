@@ -6,25 +6,25 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F23DB70)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F23DBB0)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__GENERATEFACEPICKINGOBJECTS_B__24_0_OFFSET UNITYSDK_OFFSET(0x1F23DBC0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A294790)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2947D0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__GENERATEFACEPICKINGOBJECTS_B__24_0_OFFSET UNITYSDK_OFFSET(0x1A2947E0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer___c_TypeDefinitionIndex = 44424;
+	inline static constexpr unsigned int SelectionPickerRenderer___c_TypeDefinitionIndex = 45499;
 
 	class SelectionPickerRenderer___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__24_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x51C00);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x51C08);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x68820);
+		}
+
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__24_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x68828);
 		}
 
 		static ::System::Void _cctor()

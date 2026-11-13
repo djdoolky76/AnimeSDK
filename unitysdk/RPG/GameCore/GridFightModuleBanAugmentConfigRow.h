@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightModuleBanAugmentConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTMODULEBANAUGMENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7089D0)
-#define RPG_GAMECORE_GRIDFIGHTMODULEBANAUGMENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7088B0)
+#define RPG_GAMECORE_GRIDFIGHTMODULEBANAUGMENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x208BCAC0)
+#define RPG_GAMECORE_GRIDFIGHTMODULEBANAUGMENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x208BC9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModuleBanAugmentConfigRow_TypeDefinitionIndex = 13477;
+	inline static constexpr unsigned int GridFightModuleBanAugmentConfigRow_TypeDefinitionIndex = 13553;
 
 	class GridFightModuleBanAugmentConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ModuleId; // 0x10
-		::System::UInt32 BanAugmentId; // 0x14
+		::System::UInt32 BanAugmentId; // 0x10
+		::System::UInt32 ModuleId; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODULEBANAUGMENTCONFIGROW_CTOR_OFFSET))(this);

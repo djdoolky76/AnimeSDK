@@ -6,7 +6,7 @@
 #include "unitysdk/UnityEngine/Windows/Speech/SemanticMeaning.h"
 namespace System { class String; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x3C7E430)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x3F980E0)
 
 namespace UnityEngine::Windows::Speech
 {

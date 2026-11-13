@@ -4,18 +4,18 @@
 class GIPBHLBFDAH;
 namespace System { class Object; }
 
-#define GIPBHLBFDAH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E477070)
-#define GIPBHLBFDAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4770B0)
-#define GIPBHLBFDAH___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E4770C0)
+#define GIPBHLBFDAH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBD8B30)
+#define GIPBHLBFDAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBD8B70)
+#define GIPBHLBFDAH___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1FBD8B80)
 
-inline static constexpr unsigned int GIPBHLBFDAH___c_TypeDefinitionIndex = 27758;
+inline static constexpr unsigned int GIPBHLBFDAH___c_TypeDefinitionIndex = 28289;
 
 	class GIPBHLBFDAH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19A00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12830);
 		}
 
 		static ::System::Void _cctor()

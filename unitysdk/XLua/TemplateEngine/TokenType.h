@@ -3,7 +3,7 @@
 
 namespace XLua::TemplateEngine
 {
-	inline static constexpr unsigned int TokenType_TypeDefinitionIndex = 50285;
+	inline static constexpr unsigned int TokenType_TypeDefinitionIndex = 51336;
 
 	enum class TokenType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 namespace RPG::Client::ChenLingBattle { class Grid; }
 namespace RPG::Client::ChenLingBattle { class PrepareEditPhase; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA503D0)
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS3_0__REQUESTUSEHANDCARD_B__0_OFFSET UNITYSDK_OFFSET(0xCA51F60)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DC370)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS3_0__REQUESTUSEHANDCARD_B__0_OFFSET UNITYSDK_OFFSET(0x1D7DDF00)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PrepareEditPhase___c__DisplayClass3_0_TypeDefinitionIndex = 76306;
+	inline static constexpr unsigned int PrepareEditPhase___c__DisplayClass3_0_TypeDefinitionIndex = 78637;
 
 	class PrepareEditPhase___c__DisplayClass3_0 : public ::System::Object
 	{

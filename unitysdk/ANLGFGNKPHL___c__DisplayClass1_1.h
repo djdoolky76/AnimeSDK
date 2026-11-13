@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class AEPEINGEKCD;
 
-#define ANLGFGNKPHL___C__DISPLAYCLASS1_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1588EC30)
-#define ANLGFGNKPHL___C__DISPLAYCLASS1_1__CREATE_B__2_OFFSET UNITYSDK_OFFSET(0x1588F490)
+#define ANLGFGNKPHL___C__DISPLAYCLASS1_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1A831B60)
+#define ANLGFGNKPHL___C__DISPLAYCLASS1_1__CREATE_B__2_OFFSET UNITYSDK_OFFSET(0x1A832410)
 
-inline static constexpr unsigned int ANLGFGNKPHL___c__DisplayClass1_1_TypeDefinitionIndex = 78396;
+inline static constexpr unsigned int ANLGFGNKPHL___c__DisplayClass1_1_TypeDefinitionIndex = 81131;
 
 	template <typename T>
 	class ANLGFGNKPHL___c__DisplayClass1_1 : public ::System::Object

@@ -4,21 +4,21 @@
 namespace MessagePack { class MessagePackEventSource; }
 namespace System { class String; }
 
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB91360)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB91310)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTART_OFFSET UNITYSDK_OFFSET(0x1BB75C20)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET UNITYSDK_OFFSET(0x1BB91350)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x174D03F0)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x174D03A0)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTART_OFFSET UNITYSDK_OFFSET(0x174B4C90)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET UNITYSDK_OFFSET(0x174D03E0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackEventSource_TypeDefinitionIndex = 7169;
+	inline static constexpr unsigned int MessagePackEventSource_TypeDefinitionIndex = 7180;
 
 	class MessagePackEventSource : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:
 		static ::MessagePack::MessagePackEventSource** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackEventSource**)UnitySDK::FromName("MessagePack", "MessagePackEventSource")->GetStaticField(0x4A0E0);
+			return (::MessagePack::MessagePackEventSource**)UnitySDK::FromName("MessagePack", "MessagePackEventSource")->GetStaticField(0x2DCD0);
 		}
 
 		::System::Void _ctor()

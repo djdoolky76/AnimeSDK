@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LCGAEPCCCPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8CDCF0)
+#define LCGAEPCCCPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D638BD0)
 
-inline static constexpr unsigned int LCGAEPCCCPB_TypeDefinitionIndex = 42147;
+inline static constexpr unsigned int LCGAEPCCCPB_TypeDefinitionIndex = 43122;
 
 	class LCGAEPCCCPB : public ::System::Object
 	{

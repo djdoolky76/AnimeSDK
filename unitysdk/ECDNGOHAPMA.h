@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ECDNGOHAPMA_TypeDefinitionIndex = 73185;
+inline static constexpr unsigned int ECDNGOHAPMA_TypeDefinitionIndex = 75299;
 
 	class ECDNGOHAPMA
 	{

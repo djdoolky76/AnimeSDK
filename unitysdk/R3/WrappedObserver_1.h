@@ -4,7 +4,7 @@ namespace R3 { template <typename T> class Observer_1; }
 
 namespace R3
 {
-	inline static constexpr unsigned int WrappedObserver_1_TypeDefinitionIndex = 35930;
+	inline static constexpr unsigned int WrappedObserver_1_TypeDefinitionIndex = 36858;
 
 	template <typename T>
 	class WrappedObserver_1

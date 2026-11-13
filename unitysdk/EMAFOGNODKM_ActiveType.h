@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EMAFOGNODKM_ActiveType_TypeDefinitionIndex = 71807;
+inline static constexpr unsigned int EMAFOGNODKM_ActiveType_TypeDefinitionIndex = 73827;
 
 	enum class EMAFOGNODKM_ActiveType : ::System::Int32
 	{

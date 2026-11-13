@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DeviceOrientation_TypeDefinitionIndex = 5782;
+	inline static constexpr unsigned int DeviceOrientation_TypeDefinitionIndex = 5788;
 
 	enum class DeviceOrientation : ::System::Int32
 	{

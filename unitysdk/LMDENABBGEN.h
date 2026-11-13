@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetLevelChallengeTurnLimit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMDENABBGEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB774050)
-#define LMDENABBGEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB774080)
+#define LMDENABBGEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC42C0)
+#define LMDENABBGEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFC42F0)
 
-inline static constexpr unsigned int LMDENABBGEN_TypeDefinitionIndex = 55528;
+inline static constexpr unsigned int LMDENABBGEN_TypeDefinitionIndex = 56720;
 
 	class LMDENABBGEN
 	{

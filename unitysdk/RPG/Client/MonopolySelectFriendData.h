@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonopolySelectFriendData; }
 
-#define RPG_CLIENT_MONOPOLYSELECTFRIENDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD8A40A0)
-#define RPG_CLIENT_MONOPOLYSELECTFRIENDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD8A4130)
+#define RPG_CLIENT_MONOPOLYSELECTFRIENDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1D7EDB60)
+#define RPG_CLIENT_MONOPOLYSELECTFRIENDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D811C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolySelectFriendData_TypeDefinitionIndex = 66256;
+	inline static constexpr unsigned int MonopolySelectFriendData_TypeDefinitionIndex = 68192;
 
 	class MonopolySelectFriendData : public ::System::Object
 	{
 	public:
-		::System::UInt32 AddCoin; // 0x10
+		::System::UInt32 SubCoin; // 0x10
 		::System::UInt32 FriendUID; // 0x14
-		::System::UInt32 SubCoin; // 0x18
+		::System::UInt32 AddCoin; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYSELECTFRIENDDATA_CTOR_OFFSET))(this);

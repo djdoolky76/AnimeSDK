@@ -6,19 +6,19 @@ namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC1070)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS9_0__PLAYDRAWFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xCFC2080)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F0B10)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS9_0__PLAYDRAWFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1C4F1B40)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass9_0_TypeDefinitionIndex = 80687;
+	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass9_0_TypeDefinitionIndex = 83467;
 
 	class FateRinDrawCardFlowView___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::IPendingPromise* pending; // 0x10
-		::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* posCtrls; // 0x18
-		::MDBOGJINCFP* audioService; // 0x20
+		::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* posCtrls; // 0x10
+		::MDBOGJINCFP* audioService; // 0x18
+		::RPG::Client::Promises::IPendingPromise* pending; // 0x20
 		::System::Int32 count; // 0x28
 		::System::Void _ctor()
 		{

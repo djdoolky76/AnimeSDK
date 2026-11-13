@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvTrackNpcSoundTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDCHKEIBMCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1598A4F0)
-#define GDCHKEIBMCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1598A520)
+#define GDCHKEIBMCK_CTOR_OFFSET UNITYSDK_OFFSET(0x19ED0080)
+#define GDCHKEIBMCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19ED00B0)
 
-inline static constexpr unsigned int GDCHKEIBMCK_TypeDefinitionIndex = 52514;
+inline static constexpr unsigned int GDCHKEIBMCK_TypeDefinitionIndex = 53620;
 
 	class GDCHKEIBMCK
 	{

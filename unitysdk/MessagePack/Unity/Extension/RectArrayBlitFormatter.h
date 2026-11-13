@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_RECTARRAYBLITFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB42F80)
-#define MESSAGEPACK_UNITY_EXTENSION_RECTARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BB42F70)
+#define MESSAGEPACK_UNITY_EXTENSION_RECTARRAYBLITFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x208F22E0)
+#define MESSAGEPACK_UNITY_EXTENSION_RECTARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x208F22D0)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int RectArrayBlitFormatter_TypeDefinitionIndex = 10163;
+	inline static constexpr unsigned int RectArrayBlitFormatter_TypeDefinitionIndex = 10171;
 
 	class RectArrayBlitFormatter
 	{

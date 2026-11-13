@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChimeraAbilityBase; }
 namespace RPG::GameCore { class ChimeraBattleConditionEvaluator; }
 namespace RPG::GameCore { class ChimeraBattleExtraConditionEvaluator; }
 
-#define RPG_GAMECORE_CHIMERAABILITYBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D568900)
-#define RPG_GAMECORE_CHIMERAABILITYBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D568AC0)
-#define RPG_GAMECORE_CHIMERAABILITYBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D568910)
+#define RPG_GAMECORE_CHIMERAABILITYBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F91E070)
+#define RPG_GAMECORE_CHIMERAABILITYBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F91E230)
+#define RPG_GAMECORE_CHIMERAABILITYBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F91E080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraAbilityBase_TypeDefinitionIndex = 15840;
+	inline static constexpr unsigned int ChimeraAbilityBase_TypeDefinitionIndex = 15998;
 
 	class ChimeraAbilityBase : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchElationTimeAllTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ADEDPLANPOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB134130)
-#define ADEDPLANPOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB134180)
+#define ADEDPLANPOA_CTOR_OFFSET UNITYSDK_OFFSET(0x182A5F10)
+#define ADEDPLANPOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x182A5F60)
 
-inline static constexpr unsigned int ADEDPLANPOA_TypeDefinitionIndex = 59188;
+inline static constexpr unsigned int ADEDPLANPOA_TypeDefinitionIndex = 60465;
 
 	class ADEDPLANPOA
 	{

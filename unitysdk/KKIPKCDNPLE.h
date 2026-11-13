@@ -7,27 +7,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KKIPKCDNPLE_CTOR_OFFSET UNITYSDK_OFFSET(0xB4C7730)
-#define KKIPKCDNPLE_DJJJMLNDNHH_OFFSET UNITYSDK_OFFSET(0xB4C6C40)
-#define KKIPKCDNPLE_EOJLNDIPOHK_OFFSET UNITYSDK_OFFSET(0xB4C7110)
-#define KKIPKCDNPLE_GAMKJOEPBKO_OFFSET UNITYSDK_OFFSET(0xB4C7170)
-#define KKIPKCDNPLE_GET_ALLYCHIMERAS_OFFSET UNITYSDK_OFFSET(0xB4C6C00)
-#define KKIPKCDNPLE_GET_ENEMYCHIMERAS_OFFSET UNITYSDK_OFFSET(0xB4C6C20)
-#define KKIPKCDNPLE_MMFOLOJJFIA_OFFSET UNITYSDK_OFFSET(0xB4C74B0)
-#define KKIPKCDNPLE_NAGCIEFMPGA_OFFSET UNITYSDK_OFFSET(0xB4C73B0)
-#define KKIPKCDNPLE_PDMGEKCCJNK_OFFSET UNITYSDK_OFFSET(0xB4C6CA0)
-#define KKIPKCDNPLE_SET_ALLYCHIMERAS_OFFSET UNITYSDK_OFFSET(0xB4C6C10)
-#define KKIPKCDNPLE_SET_ENEMYCHIMERAS_OFFSET UNITYSDK_OFFSET(0xB4C6C30)
+#define KKIPKCDNPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x17353F70)
+#define KKIPKCDNPLE_DJJJMLNDNHH_OFFSET UNITYSDK_OFFSET(0x17353480)
+#define KKIPKCDNPLE_EOJLNDIPOHK_OFFSET UNITYSDK_OFFSET(0x17353950)
+#define KKIPKCDNPLE_GAMKJOEPBKO_OFFSET UNITYSDK_OFFSET(0x173539B0)
+#define KKIPKCDNPLE_GET_ALLYCHIMERAS_OFFSET UNITYSDK_OFFSET(0x17353440)
+#define KKIPKCDNPLE_GET_ENEMYCHIMERAS_OFFSET UNITYSDK_OFFSET(0x17353460)
+#define KKIPKCDNPLE_MMFOLOJJFIA_OFFSET UNITYSDK_OFFSET(0x17353CF0)
+#define KKIPKCDNPLE_NAGCIEFMPGA_OFFSET UNITYSDK_OFFSET(0x17353BF0)
+#define KKIPKCDNPLE_PDMGEKCCJNK_OFFSET UNITYSDK_OFFSET(0x173534E0)
+#define KKIPKCDNPLE_SET_ALLYCHIMERAS_OFFSET UNITYSDK_OFFSET(0x17353450)
+#define KKIPKCDNPLE_SET_ENEMYCHIMERAS_OFFSET UNITYSDK_OFFSET(0x17353470)
 
-inline static constexpr unsigned int KKIPKCDNPLE_TypeDefinitionIndex = 63312;
+inline static constexpr unsigned int KKIPKCDNPLE_TypeDefinitionIndex = 64750;
 
 	class KKIPKCDNPLE : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* _AllyChimeras_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* _EnemyChimeras_k__BackingField; // 0x18
-		::System::UInt32 MHOGLAHCCED; // 0x20
-		::System::UInt32 ODNLKFEADMI; // 0x24
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* _EnemyChimeras_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* _AllyChimeras_k__BackingField; // 0x18
+		::System::UInt32 ODNLKFEADMI; // 0x20
+		::System::UInt32 MHOGLAHCCED; // 0x24
 		::System::Int32 IAKDNNCLGAN; // 0x28
 		::System::Boolean PAKNNEFOEON; // 0x2C
 		// static const ::System::Object MMGGPJHNDNF; // 0x0

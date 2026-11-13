@@ -4,18 +4,18 @@
 class HLDLJBFIMOO;
 namespace System { class Object; }
 
-#define HLDLJBFIMOO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E58DE60)
-#define HLDLJBFIMOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E58DEA0)
-#define HLDLJBFIMOO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E58DEB0)
+#define HLDLJBFIMOO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20177660)
+#define HLDLJBFIMOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201776A0)
+#define HLDLJBFIMOO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201776B0)
 
-inline static constexpr unsigned int HLDLJBFIMOO___c_TypeDefinitionIndex = 31707;
+inline static constexpr unsigned int HLDLJBFIMOO___c_TypeDefinitionIndex = 32620;
 
 	class HLDLJBFIMOO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37B00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x345C0);
 		}
 
 		static ::System::Void _cctor()

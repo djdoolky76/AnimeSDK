@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearRegardAsSkillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OMKALBBBDNA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF28950)
-#define OMKALBBBDNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF28980)
+#define OMKALBBBDNA_CTOR_OFFSET UNITYSDK_OFFSET(0x17D57400)
+#define OMKALBBBDNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17D57430)
 
-inline static constexpr unsigned int OMKALBBBDNA_TypeDefinitionIndex = 54966;
+inline static constexpr unsigned int OMKALBBBDNA_TypeDefinitionIndex = 56140;
 
 	class OMKALBBBDNA
 	{

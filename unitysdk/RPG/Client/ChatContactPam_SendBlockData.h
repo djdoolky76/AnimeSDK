@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHATCONTACTPAM_SENDBLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCA23170)
+#define RPG_CLIENT_CHATCONTACTPAM_SENDBLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7ADD00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatContactPam_SendBlockData_TypeDefinitionIndex = 63217;
+	inline static constexpr unsigned int ChatContactPam_SendBlockData_TypeDefinitionIndex = 64655;
 
 	class ChatContactPam_SendBlockData : public ::System::Object
 	{

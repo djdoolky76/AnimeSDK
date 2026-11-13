@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterLodMaterialProperty; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D544E80)
-#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D544CB0)
+#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F346630)
+#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F346460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterLodMaterialProperty_TypeDefinitionIndex = 19100;
+	inline static constexpr unsigned int CharacterLodMaterialProperty_TypeDefinitionIndex = 19287;
 
 	class CharacterLodMaterialProperty : public ::RPG::GameCore::JsonConfig
 	{

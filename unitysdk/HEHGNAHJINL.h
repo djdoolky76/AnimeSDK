@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class NBFCOGKMDGA;
 
-#define HEHGNAHJINL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA90BB0)
+#define HEHGNAHJINL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA97D00)
 
-inline static constexpr unsigned int HEHGNAHJINL_TypeDefinitionIndex = 41958;
+inline static constexpr unsigned int HEHGNAHJINL_TypeDefinitionIndex = 42933;
 
 	class HEHGNAHJINL : public ::System::Object
 	{

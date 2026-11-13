@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/ElectricChainV2/Constraint.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_ELECTRICCHAINV2_GAUSSIANCONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0xCD79360)
-#define RPG_CLIENT_ELECTRICCHAINV2_GAUSSIANCONSTRAINT_PKGJKCHPMJF_OFFSET UNITYSDK_OFFSET(0xCD79270)
+#define RPG_CLIENT_ELECTRICCHAINV2_GAUSSIANCONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x189BED50)
+#define RPG_CLIENT_ELECTRICCHAINV2_GAUSSIANCONSTRAINT_PKGJKCHPMJF_OFFSET UNITYSDK_OFFSET(0x189BEC60)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int GaussianConstraint_TypeDefinitionIndex = 73606;
+	inline static constexpr unsigned int GaussianConstraint_TypeDefinitionIndex = 75729;
 
 	class GaussianConstraint : public ::RPG::Client::ElectricChainV2::Constraint
 	{

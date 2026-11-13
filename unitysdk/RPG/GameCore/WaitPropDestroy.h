@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitPropDestroy; }
 
-#define RPG_GAMECORE_WAITPROPDESTROY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC71320)
-#define RPG_GAMECORE_WAITPROPDESTROY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC71350)
-#define RPG_GAMECORE_WAITPROPDESTROY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC712D0)
+#define RPG_GAMECORE_WAITPROPDESTROY_CTOR_OFFSET UNITYSDK_OFFSET(0x207FEE20)
+#define RPG_GAMECORE_WAITPROPDESTROY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x207FEE50)
+#define RPG_GAMECORE_WAITPROPDESTROY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207FEDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropDestroy_TypeDefinitionIndex = 21569;
+	inline static constexpr unsigned int WaitPropDestroy_TypeDefinitionIndex = 21957;
 
 	class WaitPropDestroy : public ::RPG::GameCore::TaskConfig
 	{

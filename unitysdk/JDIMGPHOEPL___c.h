@@ -4,18 +4,18 @@
 class JDIMGPHOEPL;
 namespace System { class Object; }
 
-#define JDIMGPHOEPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6DEBC0)
-#define JDIMGPHOEPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DEC00)
-#define JDIMGPHOEPL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E6DEC10)
+#define JDIMGPHOEPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20427D30)
+#define JDIMGPHOEPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20427D70)
+#define JDIMGPHOEPL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x20427D80)
 
-inline static constexpr unsigned int JDIMGPHOEPL___c_TypeDefinitionIndex = 31326;
+inline static constexpr unsigned int JDIMGPHOEPL___c_TypeDefinitionIndex = 32239;
 
 	class JDIMGPHOEPL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AB50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CEE0);
 		}
 
 		static ::System::Void _cctor()

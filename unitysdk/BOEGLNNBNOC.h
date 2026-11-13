@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByIsSkillUsing; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BOEGLNNBNOC_CTOR_OFFSET UNITYSDK_OFFSET(0xC18E110)
-#define BOEGLNNBNOC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC18E140)
+#define BOEGLNNBNOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7839E0)
+#define BOEGLNNBNOC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A783A10)
 
-inline static constexpr unsigned int BOEGLNNBNOC_TypeDefinitionIndex = 53925;
+inline static constexpr unsigned int BOEGLNNBNOC_TypeDefinitionIndex = 55089;
 
 	class BOEGLNNBNOC
 	{

@@ -5,21 +5,21 @@ namespace RPG::GameCore { class NotifyOverrideFuncBtnParam; }
 namespace RPG::GameCore { class SetFuncBtn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PCAGOJKGEOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF2570)
-#define PCAGOJKGEOI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFF25E0)
-#define PCAGOJKGEOI_ODOANILDLFC_OFFSET UNITYSDK_OFFSET(0xBFF2690)
-#define PCAGOJKGEOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF2630)
-#define PCAGOJKGEOI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFF27B0)
-#define PCAGOJKGEOI_TICK_OFFSET UNITYSDK_OFFSET(0xBFF2580)
+#define PCAGOJKGEOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC8F30)
+#define PCAGOJKGEOI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AAC8FA0)
+#define PCAGOJKGEOI_ODOANILDLFC_OFFSET UNITYSDK_OFFSET(0x1AAC9050)
+#define PCAGOJKGEOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AAC8FF0)
+#define PCAGOJKGEOI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AAC9170)
+#define PCAGOJKGEOI_TICK_OFFSET UNITYSDK_OFFSET(0x1AAC8F40)
 
-inline static constexpr unsigned int PCAGOJKGEOI_TypeDefinitionIndex = 53237;
+inline static constexpr unsigned int PCAGOJKGEOI_TypeDefinitionIndex = 54399;
 
 	class PCAGOJKGEOI : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::NotifyOverrideFuncBtnParam* IBCIAIIMPFM; // 0x20
-		::RPG::GameCore::SetFuncBtn* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::SetFuncBtn* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::NotifyOverrideFuncBtnParam* IBCIAIIMPFM; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetFuncBtn* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetFuncBtn*))((::PBYTE)hIl2Cpp + PCAGOJKGEOI_CTOR_OFFSET))(this, a1, a2);

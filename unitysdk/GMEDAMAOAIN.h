@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GMEDAMAOAIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x15ABFA00)
-#define GMEDAMAOAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABF9F0)
-#define GMEDAMAOAIN_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x15ABEA80)
-#define GMEDAMAOAIN_JFOCGBEJGAC_OFFSET UNITYSDK_OFFSET(0x15ABF1C0)
-#define GMEDAMAOAIN_KGDGIGNOFNA_OFFSET UNITYSDK_OFFSET(0x15ABF070)
-#define GMEDAMAOAIN_MMGEGIJLJAB_OFFSET UNITYSDK_OFFSET(0x15ABEF10)
+#define GMEDAMAOAIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C780C0)
+#define GMEDAMAOAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x16C780B0)
+#define GMEDAMAOAIN_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x16C77140)
+#define GMEDAMAOAIN_JFOCGBEJGAC_OFFSET UNITYSDK_OFFSET(0x16C77880)
+#define GMEDAMAOAIN_KGDGIGNOFNA_OFFSET UNITYSDK_OFFSET(0x16C77730)
+#define GMEDAMAOAIN_MMGEGIJLJAB_OFFSET UNITYSDK_OFFSET(0x16C775D0)
 
-inline static constexpr unsigned int GMEDAMAOAIN_TypeDefinitionIndex = 65316;
+inline static constexpr unsigned int GMEDAMAOAIN_TypeDefinitionIndex = 67085;
 
 	class GMEDAMAOAIN : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_LLFBFMNLPKO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "GMEDAMAOAIN")->GetStaticField(0x6AB60);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "GMEDAMAOAIN")->GetStaticField(0x710B0);
 		}
 
 		::System::Void _ctor()

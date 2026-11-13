@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerHitProp; }
 
-#define RPG_GAMECORE_TRIGGERHITPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC26030)
-#define RPG_GAMECORE_TRIGGERHITPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC26040)
-#define RPG_GAMECORE_TRIGGERHITPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC26000)
+#define RPG_GAMECORE_TRIGGERHITPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E330880)
+#define RPG_GAMECORE_TRIGGERHITPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E330890)
+#define RPG_GAMECORE_TRIGGERHITPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E330850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerHitProp_TypeDefinitionIndex = 20212;
+	inline static constexpr unsigned int TriggerHitProp_TypeDefinitionIndex = 20547;
 
 	class TriggerHitProp : public ::RPG::GameCore::TaskConfig
 	{

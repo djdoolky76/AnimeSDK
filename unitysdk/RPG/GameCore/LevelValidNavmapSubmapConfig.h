@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelEntityRef; }
 namespace RPG::GameCore { class LevelValidNavmapSubmapConfig; }
 
-#define RPG_GAMECORE_LEVELVALIDNAVMAPSUBMAPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A1810)
-#define RPG_GAMECORE_LEVELVALIDNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A16B0)
+#define RPG_GAMECORE_LEVELVALIDNAVMAPSUBMAPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F250930)
+#define RPG_GAMECORE_LEVELVALIDNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F2507D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelValidNavmapSubmapConfig_TypeDefinitionIndex = 17342;
+	inline static constexpr unsigned int LevelValidNavmapSubmapConfig_TypeDefinitionIndex = 17510;
 
 	class LevelValidNavmapSubmapConfig : public ::RPG::GameCore::JsonConfig
 	{

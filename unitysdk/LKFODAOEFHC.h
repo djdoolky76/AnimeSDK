@@ -4,29 +4,29 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define LKFODAOEFHC_CLEAR_OFFSET UNITYSDK_OFFSET(0xB72C9A0)
-#define LKFODAOEFHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB72CA20)
-#define LKFODAOEFHC_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xB72C980)
-#define LKFODAOEFHC_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xB72C960)
-#define LKFODAOEFHC_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xB72C990)
-#define LKFODAOEFHC_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xB72C970)
+#define LKFODAOEFHC_CLEAR_OFFSET UNITYSDK_OFFSET(0x18CD5500)
+#define LKFODAOEFHC_CTOR_OFFSET UNITYSDK_OFFSET(0x18CD5580)
+#define LKFODAOEFHC_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x18CD54E0)
+#define LKFODAOEFHC_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x18CD54C0)
+#define LKFODAOEFHC_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x18CD54F0)
+#define LKFODAOEFHC_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x18CD54D0)
 
-inline static constexpr unsigned int LKFODAOEFHC_TypeDefinitionIndex = 54979;
+inline static constexpr unsigned int LKFODAOEFHC_TypeDefinitionIndex = 56153;
 
 	class LKFODAOEFHC : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
-		::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x18
-		::RPG::GameCore::GameEntity* OBGGPEHLPBG; // 0x20
+		::RPG::GameCore::GameEntity* OBGGPEHLPBG; // 0x18
+		::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x20
 		::RPG::GameCore::FixPoint GBCIHEMICFM; // 0x28
 		::RPG::GameCore::FixPoint HDKGKHCCEGI; // 0x30
-		::System::Boolean BPKFCCGIEPH; // 0x38
-		::System::Boolean _LockDamageZero_k__BackingField; // 0x39
-		::System::Boolean _IsPropagateAttack_k__BackingField; // 0x3A
-		::System::Boolean KFHFGGIGAKK; // 0x3B
-		::System::Boolean LBAFIMAMNPL; // 0x3C
-		::System::Boolean GNIKNANDLNH; // 0x3D
+		::System::Boolean _LockDamageZero_k__BackingField; // 0x38
+		::System::Boolean GNIKNANDLNH; // 0x39
+		::System::Boolean LBAFIMAMNPL; // 0x3A
+		::System::Boolean _IsPropagateAttack_k__BackingField; // 0x3B
+		::System::Boolean KFHFGGIGAKK; // 0x3C
+		::System::Boolean BPKFCCGIEPH; // 0x3D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LKFODAOEFHC_CTOR_OFFSET))(this);

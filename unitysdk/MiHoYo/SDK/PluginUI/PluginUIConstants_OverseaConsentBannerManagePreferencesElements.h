@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_OverseaConsentBannerManagePreferencesElements_TypeDefinitionIndex = 9253;
+	inline static constexpr unsigned int PluginUIConstants_OverseaConsentBannerManagePreferencesElements_TypeDefinitionIndex = 9262;
 
 	class PluginUIConstants_OverseaConsentBannerManagePreferencesElements : public ::System::Object
 	{

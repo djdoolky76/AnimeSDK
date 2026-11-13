@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB30860)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB308A0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xDB308B0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3541F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E354230)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEVIEWMODEL___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1E354240)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipAssembleViewModel___c_TypeDefinitionIndex = 79253;
+	inline static constexpr unsigned int PixAirEquipAssembleViewModel___c_TypeDefinitionIndex = 82030;
 
 	class PixAirEquipAssembleViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D190);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34360);
 		}
 
 		static ::System::Action** StaticGet___9__0_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x1D198);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x34368);
 		}
 
 		static ::System::Void _cctor()

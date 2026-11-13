@@ -3,10 +3,10 @@
 class MHBOBKKNBAP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NFCHBMFDNMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB72D20)
-#define NFCHBMFDNMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB72D50)
+#define NFCHBMFDNMK_CTOR_OFFSET UNITYSDK_OFFSET(0x18E5C420)
+#define NFCHBMFDNMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E5C450)
 
-inline static constexpr unsigned int NFCHBMFDNMK_TypeDefinitionIndex = 58666;
+inline static constexpr unsigned int NFCHBMFDNMK_TypeDefinitionIndex = 59933;
 
 	class NFCHBMFDNMK
 	{

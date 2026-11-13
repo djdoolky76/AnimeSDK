@@ -5,19 +5,19 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CACHEDASSETLOADER_CACHEDLOGICTYPEGETTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8CED50)
-#define RPG_CLIENT_CACHEDASSETLOADER_CACHEDLOGICTYPEGETTER_GET_1_OFFSET UNITYSDK_OFFSET(0xC8CD4F0)
+#define RPG_CLIENT_CACHEDASSETLOADER_CACHEDLOGICTYPEGETTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD6E1B0)
+#define RPG_CLIENT_CACHEDASSETLOADER_CACHEDLOGICTYPEGETTER_GET_1_OFFSET UNITYSDK_OFFSET(0x1BD6C950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedAssetLoader_CachedLogicTypeGetter_TypeDefinitionIndex = 59436;
+	inline static constexpr unsigned int CachedAssetLoader_CachedLogicTypeGetter_TypeDefinitionIndex = 60713;
 
 	class CachedAssetLoader_CachedLogicTypeGetter : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::CachedAssetLogicType>** StaticGet__CachedAssetLogicTypeMapping()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::CachedAssetLogicType>**)UnitySDK::FromName("RPG.Client", "CachedLogicTypeGetter")->GetStaticField(0x68400);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::CachedAssetLogicType>**)UnitySDK::FromName("RPG.Client", "CachedLogicTypeGetter")->GetStaticField(0x69FC0);
 		}
 
 		static ::System::Void _cctor()

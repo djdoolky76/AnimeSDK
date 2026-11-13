@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DONDNFKDBBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA01760)
+#define DONDNFKDBBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB33AA0)
 
-inline static constexpr unsigned int DONDNFKDBBJ_TypeDefinitionIndex = 43796;
+inline static constexpr unsigned int DONDNFKDBBJ_TypeDefinitionIndex = 44871;
 
 	class DONDNFKDBBJ : public ::System::Object
 	{

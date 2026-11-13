@@ -4,18 +4,18 @@
 class HEMHDLMIKKA;
 namespace System { class Object; }
 
-#define HEMHDLMIKKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E52E8E0)
-#define HEMHDLMIKKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E52E920)
-#define HEMHDLMIKKA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E52E930)
+#define HEMHDLMIKKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F885740)
+#define HEMHDLMIKKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F885780)
+#define HEMHDLMIKKA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F885790)
 
-inline static constexpr unsigned int HEMHDLMIKKA___c_TypeDefinitionIndex = 32497;
+inline static constexpr unsigned int HEMHDLMIKKA___c_TypeDefinitionIndex = 33412;
 
 	class HEMHDLMIKKA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D550);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x297C0);
 		}
 
 		static ::System::Void _cctor()

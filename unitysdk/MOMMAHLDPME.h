@@ -3,10 +3,10 @@
 #include "unitysdk/JNOCOHFFHCP.h"
 namespace RPG::GameCore { class PropComponent; }
 
-#define MOMMAHLDPME_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2F9B0)
-#define MOMMAHLDPME_GET_ICONID_OFFSET UNITYSDK_OFFSET(0xBA2F770)
+#define MOMMAHLDPME_CTOR_OFFSET UNITYSDK_OFFSET(0x1B21CAC0)
+#define MOMMAHLDPME_GET_ICONID_OFFSET UNITYSDK_OFFSET(0x1B21C8E0)
 
-inline static constexpr unsigned int MOMMAHLDPME_TypeDefinitionIndex = 60644;
+inline static constexpr unsigned int MOMMAHLDPME_TypeDefinitionIndex = 62021;
 
 	class MOMMAHLDPME : public ::JNOCOHFFHCP
 	{

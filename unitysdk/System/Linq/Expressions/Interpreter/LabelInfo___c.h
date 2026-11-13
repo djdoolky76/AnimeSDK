@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Linq::Expressions::Interpreter { class LabelScopeInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDCAA40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCAA80)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C__VALIDATEJUMP_B__9_0_OFFSET UNITYSDK_OFFSET(0x1EDCAA90)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C479BC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C479C00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C__VALIDATEJUMP_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C479C10)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -18,12 +18,12 @@ namespace System::Linq::Expressions::Interpreter
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x3C2B0);
+			return (::System::Object**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x329F0);
 		}
 
 		static ::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x3C2B8);
+			return (::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x329F8);
 		}
 
 		static ::System::Void _cctor()

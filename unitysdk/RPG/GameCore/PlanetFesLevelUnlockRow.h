@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesLevelUnlockRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESLEVELUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8FC970)
-#define RPG_GAMECORE_PLANETFESLEVELUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8FC210)
+#define RPG_GAMECORE_PLANETFESLEVELUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6B0D0)
+#define RPG_GAMECORE_PLANETFESLEVELUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE6A970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesLevelUnlockRow_TypeDefinitionIndex = 12269;
+	inline static constexpr unsigned int PlanetFesLevelUnlockRow_TypeDefinitionIndex = 12326;
 
 	class PlanetFesLevelUnlockRow : public ::System::Object
 	{

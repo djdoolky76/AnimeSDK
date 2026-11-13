@@ -3,10 +3,10 @@
 class MIBMLOEAJII;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HGEBBGIHKOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C87E20)
-#define HGEBBGIHKOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C87E50)
+#define HGEBBGIHKOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C43BEB0)
+#define HGEBBGIHKOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C43BEE0)
 
-inline static constexpr unsigned int HGEBBGIHKOC_TypeDefinitionIndex = 53351;
+inline static constexpr unsigned int HGEBBGIHKOC_TypeDefinitionIndex = 54513;
 
 	class HGEBBGIHKOC
 	{

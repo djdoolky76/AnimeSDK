@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define JMDAIKOHCAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB258560)
-#define JMDAIKOHCAE_GET_ID_OFFSET UNITYSDK_OFFSET(0xB258520)
-#define JMDAIKOHCAE_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xB258530)
-#define JMDAIKOHCAE_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xB258550)
+#define JMDAIKOHCAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A6E50)
+#define JMDAIKOHCAE_GET_ID_OFFSET UNITYSDK_OFFSET(0x1A0A6E10)
+#define JMDAIKOHCAE_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1A0A6E20)
+#define JMDAIKOHCAE_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1A0A6E40)
 
-inline static constexpr unsigned int JMDAIKOHCAE_TypeDefinitionIndex = 73340;
+inline static constexpr unsigned int JMDAIKOHCAE_TypeDefinitionIndex = 75457;
 
 	class JMDAIKOHCAE : public ::System::Object
 	{
 	public:
-		::System::UInt32 _ID_k__BackingField; // 0x10
-		::UnityEngine::Vector3 _Position_k__BackingField; // 0x14
+		::UnityEngine::Vector3 _Position_k__BackingField; // 0x10
+		::System::UInt32 _ID_k__BackingField; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JMDAIKOHCAE_CTOR_OFFSET))(this, a1);

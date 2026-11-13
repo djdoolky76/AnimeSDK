@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int IActivityHipplenIncidentShowParam_TypeDefinitionIndex = 75555;
+	inline static constexpr unsigned int IActivityHipplenIncidentShowParam_TypeDefinitionIndex = 77882;
 
 	class IActivityHipplenIncidentShowParam
 	{

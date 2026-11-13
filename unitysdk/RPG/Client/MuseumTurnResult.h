@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MuseumPropertyData; }
 
-#define RPG_CLIENT_MUSEUMTURNRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xD8F4170)
+#define RPG_CLIENT_MUSEUMTURNRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A37A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumTurnResult_TypeDefinitionIndex = 66340;
+	inline static constexpr unsigned int MuseumTurnResult_TypeDefinitionIndex = 68276;
 
 	class MuseumTurnResult : public ::System::Object
 	{
@@ -15,11 +15,11 @@ namespace RPG::Client
 		::Il2CppArray<::System::UInt32>* AreasRenewPoints; // 0x10
 		::Il2CppArray<::System::UInt32>* AreasFunds; // 0x18
 		::RPG::Client::MuseumPropertyData* ResultPropertyData; // 0x20
-		::System::UInt32 TotalAreaFunds; // 0x28
-		::System::UInt32 ExhibitSkillFunds; // 0x2C
-		::System::UInt32 Level; // 0x30
+		::System::UInt32 Level; // 0x28
+		::System::UInt32 BuffFunds; // 0x2C
+		::System::UInt32 TotalAreaFunds; // 0x30
 		::System::UInt32 TotalFunds; // 0x34
-		::System::UInt32 BuffFunds; // 0x38
+		::System::UInt32 ExhibitSkillFunds; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTURNRESULT_CTOR_OFFSET))(this);

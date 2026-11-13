@@ -8,30 +8,30 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TreasureDungeonGridConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC12DF0)
-#define RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC128E0)
+#define RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31C670)
+#define RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E31C160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonGridConfigRow_TypeDefinitionIndex = 12528;
+	inline static constexpr unsigned int TreasureDungeonGridConfigRow_TypeDefinitionIndex = 12595;
 
 	class TreasureDungeonGridConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* TutorialTriggerString; // 0x10
+		::System::String* IconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* TypeParam; // 0x18
 		::System::String* IconPath2D; // 0x20
-		::System::String* IconPath; // 0x28
-		::RPG::GameCore::TreasureDungeonGridType GridType; // 0x30
-		::RPG::GameCore::TreasureDungeonGridEffectType EffectType; // 0x34
-		::System::UInt32 ReplaceGridID; // 0x38
-		::System::UInt32 OpenBuff; // 0x3C
-		::System::UInt32 TutorialTriggerType; // 0x40
+		::System::String* TutorialTriggerString; // 0x28
+		::RPG::Client::TextID Desc; // 0x30
+		::System::UInt32 ParamInt; // 0x40
 		::System::UInt32 GridSubType; // 0x44
 		::RPG::Client::TextID Name; // 0x48
-		::System::UInt32 GridID; // 0x58
-		::System::UInt32 ParamInt; // 0x5C
-		::RPG::Client::TextID Desc; // 0x60
+		::System::UInt32 TutorialTriggerType; // 0x58
+		::System::UInt32 ReplaceGridID; // 0x5C
+		::RPG::GameCore::TreasureDungeonGridType GridType; // 0x60
+		::System::UInt32 OpenBuff; // 0x64
+		::System::UInt32 GridID; // 0x68
+		::RPG::GameCore::TreasureDungeonGridEffectType EffectType; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_CTOR_OFFSET))(this);

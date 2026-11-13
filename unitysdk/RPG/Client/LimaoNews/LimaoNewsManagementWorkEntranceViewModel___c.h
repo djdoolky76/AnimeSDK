@@ -5,25 +5,25 @@ namespace RPG::Client::LimaoNews { class LimaoNewsEmployeeCheckData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3BA550)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD3BA590)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL___C___GETFIRSTRECRUITABLEEMPLOYEE_B__8_0_OFFSET UNITYSDK_OFFSET(0xD3BA5A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFB8260)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB82A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL___C___GETFIRSTRECRUITABLEEMPLOYEE_B__8_0_OFFSET UNITYSDK_OFFSET(0x1DFB82B0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsManagementWorkEntranceViewModel___c_TypeDefinitionIndex = 80430;
+	inline static constexpr unsigned int LimaoNewsManagementWorkEntranceViewModel___c_TypeDefinitionIndex = 83210;
 
 	class LimaoNewsManagementWorkEntranceViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x1D2A0);
+			return (::System::Comparison_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x331D0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x1D2A8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x331D8);
 		}
 
 		static ::System::Void _cctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DLKBCENGNCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA00400)
+#define DLKBCENGNCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB32710)
 
-inline static constexpr unsigned int DLKBCENGNCN_TypeDefinitionIndex = 42152;
+inline static constexpr unsigned int DLKBCENGNCN_TypeDefinitionIndex = 43127;
 
 	class DLKBCENGNCN : public ::System::Object
 	{

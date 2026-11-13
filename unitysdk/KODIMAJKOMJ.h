@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define KODIMAJKOMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D090050)
+#define KODIMAJKOMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF03C0)
 
-inline static constexpr unsigned int KODIMAJKOMJ_TypeDefinitionIndex = 25006;
+inline static constexpr unsigned int KODIMAJKOMJ_TypeDefinitionIndex = 25484;
 
 	class KODIMAJKOMJ : public ::System::Attribute
 	{

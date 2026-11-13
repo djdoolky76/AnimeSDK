@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/SkillInputType.h"
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int OLLDNCNFBHH_TypeDefinitionIndex = 72004;
+inline static constexpr unsigned int OLLDNCNFBHH_TypeDefinitionIndex = 74033;
 
 	struct alignas(8) OLLDNCNFBHH
 	{

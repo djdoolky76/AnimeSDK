@@ -6,19 +6,19 @@ class OAIPJANPCEK;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BHPNOCKFMDA_CTOR_OFFSET UNITYSDK_OFFSET(0xB48FE00)
-#define BHPNOCKFMDA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB490170)
-#define BHPNOCKFMDA_GPACOODFGAH_OFFSET UNITYSDK_OFFSET(0xB4904F0)
-#define BHPNOCKFMDA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB490130)
-#define BHPNOCKFMDA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB490390)
+#define BHPNOCKFMDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA2680)
+#define BHPNOCKFMDA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BAA2A00)
+#define BHPNOCKFMDA_GPACOODFGAH_OFFSET UNITYSDK_OFFSET(0x1BAA2D80)
+#define BHPNOCKFMDA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1BAA29C0)
+#define BHPNOCKFMDA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1BAA2C20)
 
-inline static constexpr unsigned int BHPNOCKFMDA_TypeDefinitionIndex = 77777;
+inline static constexpr unsigned int BHPNOCKFMDA_TypeDefinitionIndex = 80512;
 
 	class BHPNOCKFMDA : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup_1<::NGFHCJIAOLH*>* MBBMBOMFIGF; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* LAKFMBIIAAK; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* LAKFMBIIAAK; // 0x10
+		::Entitas::IGroup_1<::NGFHCJIAOLH*>* MBBMBOMFIGF; // 0x18
 		::OAIPJANPCEK* PDENFEFCAGN; // 0x20
 		::System::UInt32 IAGMNMEJPMN; // 0x28
 		::System::Void _ctor(::OAIPJANPCEK* a1)

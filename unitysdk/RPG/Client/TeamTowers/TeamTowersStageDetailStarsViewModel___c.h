@@ -5,25 +5,25 @@ namespace RPG::Client::TeamTowers { class TeamTowersGameStageStarInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1F9C70)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1F9CB0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C__GET_ACHIEVEDCOUNT_B__4_0_OFFSET UNITYSDK_OFFSET(0xE1F9CC0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D23DFF0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D23E030)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C__GET_ACHIEVEDCOUNT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D23E040)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersStageDetailStarsViewModel___c_TypeDefinitionIndex = 79075;
+	inline static constexpr unsigned int TeamTowersStageDetailStarsViewModel___c_TypeDefinitionIndex = 81851;
 
 	class TeamTowersStageDetailStarsViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*, ::System::Boolean>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x14BA0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x14BA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x1E6F0);
+		}
+
+		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*, ::System::Boolean>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x1E6F8);
 		}
 
 		static ::System::Void _cctor()

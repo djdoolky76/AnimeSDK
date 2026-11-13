@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleCameraService_1_TypeDefinitionIndex = 76519;
+	inline static constexpr unsigned int SimpleCameraService_1_TypeDefinitionIndex = 78850;
 
 	template <typename T>
 	class SimpleCameraService_1 : public ::System::Object

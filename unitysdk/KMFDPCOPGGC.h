@@ -5,16 +5,16 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KMFDPCOPGGC_CTOR_OFFSET UNITYSDK_OFFSET(0xB54BFF0)
-#define KMFDPCOPGGC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB54C000)
+#define KMFDPCOPGGC_CTOR_OFFSET UNITYSDK_OFFSET(0x17BA9AA0)
+#define KMFDPCOPGGC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17BA9AB0)
 
-inline static constexpr unsigned int KMFDPCOPGGC_TypeDefinitionIndex = 61940;
+inline static constexpr unsigned int KMFDPCOPGGC_TypeDefinitionIndex = 63352;
 
 	class KMFDPCOPGGC : public ::System::Object
 	{
 	public:
-		::System::Action* NKHBIAGFFFC; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* GOJCJPGDBCD; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* GOJCJPGDBCD; // 0x10
+		::System::Action* NKHBIAGFFFC; // 0x18
 		::RPG::Client::SwordTrainingPerformanceType DNGFHOEACBI; // 0x20
 		::System::Void _ctor(::RPG::Client::SwordTrainingPerformanceType a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Action* a3)
 		{

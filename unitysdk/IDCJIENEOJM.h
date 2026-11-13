@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int IDCJIENEOJM_TypeDefinitionIndex = 19069;
+inline static constexpr unsigned int IDCJIENEOJM_TypeDefinitionIndex = 19256;
 
 	class IDCJIENEOJM : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class MNPGEDIDKEN;
 namespace System { class Object; }
 
-#define MNPGEDIDKEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA76BC0)
-#define MNPGEDIDKEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA76C00)
-#define MNPGEDIDKEN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA76C10)
+#define MNPGEDIDKEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF0C650)
+#define MNPGEDIDKEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF0C690)
+#define MNPGEDIDKEN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FF0C6A0)
 
-inline static constexpr unsigned int MNPGEDIDKEN___c_TypeDefinitionIndex = 26229;
+inline static constexpr unsigned int MNPGEDIDKEN___c_TypeDefinitionIndex = 26756;
 
 	class MNPGEDIDKEN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A4B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x533F0);
 		}
 
 		static ::System::Void _cctor()

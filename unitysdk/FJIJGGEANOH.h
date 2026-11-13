@@ -5,24 +5,24 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftOrderItemViewModel;
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define FJIJGGEANOH_ADD_ONORDERNAVIGATEREQUESTED_OFFSET UNITYSDK_OFFSET(0x157C39F0)
-#define FJIJGGEANOH_ADD_ONORDERSELECTREQUESTED_OFFSET UNITYSDK_OFFSET(0x157C38F0)
-#define FJIJGGEANOH_BGKFAKCBKBJ_OFFSET UNITYSDK_OFFSET(0x157C3AF0)
-#define FJIJGGEANOH_CTOR_OFFSET UNITYSDK_OFFSET(0x157C3BD0)
-#define FJIJGGEANOH_GET_ORDERS_OFFSET UNITYSDK_OFFSET(0x157C38D0)
-#define FJIJGGEANOH_HMAKPHPEBFJ_OFFSET UNITYSDK_OFFSET(0x157C3B60)
-#define FJIJGGEANOH_REMOVE_ONORDERNAVIGATEREQUESTED_OFFSET UNITYSDK_OFFSET(0x157C3A70)
-#define FJIJGGEANOH_REMOVE_ONORDERSELECTREQUESTED_OFFSET UNITYSDK_OFFSET(0x157C3970)
-#define FJIJGGEANOH_SET_ORDERS_OFFSET UNITYSDK_OFFSET(0x157C38E0)
+#define FJIJGGEANOH_ADD_ONORDERNAVIGATEREQUESTED_OFFSET UNITYSDK_OFFSET(0x1AA77C30)
+#define FJIJGGEANOH_ADD_ONORDERSELECTREQUESTED_OFFSET UNITYSDK_OFFSET(0x1AA77B30)
+#define FJIJGGEANOH_BGKFAKCBKBJ_OFFSET UNITYSDK_OFFSET(0x1AA77D30)
+#define FJIJGGEANOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA77E10)
+#define FJIJGGEANOH_GET_ORDERS_OFFSET UNITYSDK_OFFSET(0x1AA77B10)
+#define FJIJGGEANOH_HMAKPHPEBFJ_OFFSET UNITYSDK_OFFSET(0x1AA77DA0)
+#define FJIJGGEANOH_REMOVE_ONORDERNAVIGATEREQUESTED_OFFSET UNITYSDK_OFFSET(0x1AA77CB0)
+#define FJIJGGEANOH_REMOVE_ONORDERSELECTREQUESTED_OFFSET UNITYSDK_OFFSET(0x1AA77BB0)
+#define FJIJGGEANOH_SET_ORDERS_OFFSET UNITYSDK_OFFSET(0x1AA77B20)
 
-inline static constexpr unsigned int FJIJGGEANOH_TypeDefinitionIndex = 79675;
+inline static constexpr unsigned int FJIJGGEANOH_TypeDefinitionIndex = 82452;
 
 	class FJIJGGEANOH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MechCraft::ViewModel::MechCraftOrderItemViewModel*>* _Orders_k__BackingField; // 0x10
-		::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftOrderItemViewModel*>* OnOrderSelectRequested; // 0x18
-		::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftOrderItemViewModel*>* OnOrderNavigateRequested; // 0x20
+		::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftOrderItemViewModel*>* OnOrderSelectRequested; // 0x10
+		::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftOrderItemViewModel*>* OnOrderNavigateRequested; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MechCraft::ViewModel::MechCraftOrderItemViewModel*>* _Orders_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FJIJGGEANOH_CTOR_OFFSET))(this);

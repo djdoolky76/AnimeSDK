@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarEnhancedSkillTreeRow; }
 
-#define RPG_GAMECORE_AVATARENHANCEDSKILLTREEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E5AD0)
-#define RPG_GAMECORE_AVATARENHANCEDSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E5720)
+#define RPG_GAMECORE_AVATARENHANCEDSKILLTREEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D8F30)
+#define RPG_GAMECORE_AVATARENHANCEDSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2D8B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEnhancedSkillTreeRow_TypeDefinitionIndex = 12789;
+	inline static constexpr unsigned int AvatarEnhancedSkillTreeRow_TypeDefinitionIndex = 12861;
 
 	class AvatarEnhancedSkillTreeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SkillTreeID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID DescBefore; // 0x18
-		::RPG::Client::TextID Comment01; // 0x28
-		::RPG::Client::TextID DescAfter; // 0x38
+		::RPG::Client::TextID DescAfter; // 0x10
+		::RPG::Client::TextID Comment01; // 0x20
+		::RPG::Client::TextID DescBefore; // 0x30
+		::System::UInt32 SkillTreeID; // 0x40
+		::System::UInt32 AvatarID; // 0x44
 		::System::UInt32 CommentIndex; // 0x48
-		::System::UInt32 AvatarID; // 0x4C
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Comment02; // 0x50
 		::System::Void _ctor()
 		{

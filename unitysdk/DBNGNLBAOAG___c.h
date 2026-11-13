@@ -5,23 +5,23 @@ namespace RPG::Client { class ActivityBenefitV2Round; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DBNGNLBAOAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE22C4D0)
-#define DBNGNLBAOAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE22C510)
-#define DBNGNLBAOAG___C__ISALLREWARDCLAIMED_B__10_0_OFFSET UNITYSDK_OFFSET(0xE22C520)
+#define DBNGNLBAOAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B158490)
+#define DBNGNLBAOAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1584D0)
+#define DBNGNLBAOAG___C__ISALLREWARDCLAIMED_B__10_0_OFFSET UNITYSDK_OFFSET(0x1B1584E0)
 
-inline static constexpr unsigned int DBNGNLBAOAG___c_TypeDefinitionIndex = 61409;
+inline static constexpr unsigned int DBNGNLBAOAG___c_TypeDefinitionIndex = 62794;
 
 	class DBNGNLBAOAG___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ActivityBenefitV2Round*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityBenefitV2Round*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A290);
+			return (::System::Func_2<::RPG::Client::ActivityBenefitV2Round*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54F20);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A298);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54F28);
 		}
 
 		static ::System::Void _cctor()

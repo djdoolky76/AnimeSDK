@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_AGEGATEDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC09720)
+#define MIHOYO_SDK_AGEGATEDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B444D40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AgeGateDefine_TypeDefinitionIndex = 7551;
+	inline static constexpr unsigned int AgeGateDefine_TypeDefinitionIndex = 7562;
 
 	class AgeGateDefine : public ::System::Object
 	{

@@ -6,21 +6,21 @@ namespace RPG::Client { class MapDef; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define DJOHHNPBKBG_CTOR_OFFSET UNITYSDK_OFFSET(0xF249610)
-#define DJOHHNPBKBG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF2494E0)
-#define DJOHHNPBKBG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xF2490A0)
-#define DJOHHNPBKBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF249530)
+#define DJOHHNPBKBG_CTOR_OFFSET UNITYSDK_OFFSET(0x18C043F0)
+#define DJOHHNPBKBG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x18C042C0)
+#define DJOHHNPBKBG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x18C03E80)
+#define DJOHHNPBKBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18C04310)
 
-inline static constexpr unsigned int DJOHHNPBKBG_TypeDefinitionIndex = 60759;
+inline static constexpr unsigned int DJOHHNPBKBG_TypeDefinitionIndex = 62136;
 
 	class DJOHHNPBKBG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* DGCEHLHOGAE; // 0x10
-		::System::String* JIDLKIHJLFL; // 0x18
-		::System::Boolean ADAMOADIAPO; // 0x20
-		::System::Boolean FKCJMOLAMKL; // 0x21
-		::System::Boolean KLOIHHLKCNG; // 0x22
+		::System::String* JIDLKIHJLFL; // 0x10
+		::RPG::GameCore::GameEntity* DGCEHLHOGAE; // 0x18
+		::System::Boolean KLOIHHLKCNG; // 0x20
+		::System::Boolean ADAMOADIAPO; // 0x21
+		::System::Boolean FKCJMOLAMKL; // 0x22
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJOHHNPBKBG_CTOR_OFFSET))(this);

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField_TypeDefinitionIndex = 70657;
+	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField_TypeDefinitionIndex = 72634;
 
 	struct alignas(8) MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField
 	{

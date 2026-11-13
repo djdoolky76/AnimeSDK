@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvByPlayerInVisionZone___O_TypeDefinitionIndex = 20019;
+	inline static constexpr unsigned int AdvByPlayerInVisionZone___O_TypeDefinitionIndex = 20353;
 
 	class AdvByPlayerInVisionZone___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x578E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x50190);
 		}
 
 	};

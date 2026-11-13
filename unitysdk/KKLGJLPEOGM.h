@@ -3,10 +3,10 @@
 namespace RPG::Client { class ByPlantFesIsInMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKLGJLPEOGM_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CBB50)
-#define KKLGJLPEOGM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4CBB80)
+#define KKLGJLPEOGM_CTOR_OFFSET UNITYSDK_OFFSET(0x17358B90)
+#define KKLGJLPEOGM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17358BC0)
 
-inline static constexpr unsigned int KKLGJLPEOGM_TypeDefinitionIndex = 57991;
+inline static constexpr unsigned int KKLGJLPEOGM_TypeDefinitionIndex = 59230;
 
 	class KKLGJLPEOGM
 	{

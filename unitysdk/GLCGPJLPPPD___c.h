@@ -4,18 +4,18 @@
 class GLCGPJLPPPD;
 namespace System { class Object; }
 
-#define GLCGPJLPPPD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E491030)
-#define GLCGPJLPPPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E491060)
-#define GLCGPJLPPPD___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E491070)
+#define GLCGPJLPPPD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA3B600)
+#define GLCGPJLPPPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA3B630)
+#define GLCGPJLPPPD___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FA3B640)
 
-inline static constexpr unsigned int GLCGPJLPPPD___c_TypeDefinitionIndex = 32089;
+inline static constexpr unsigned int GLCGPJLPPPD___c_TypeDefinitionIndex = 33002;
 
 	class GLCGPJLPPPD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C8B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x160D0);
 		}
 
 		static ::System::Void _cctor()

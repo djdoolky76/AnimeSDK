@@ -4,21 +4,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExpeditionRewardRow; }
 
-#define RPG_GAMECORE_EXPEDITIONREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D666B40)
-#define RPG_GAMECORE_EXPEDITIONREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D666430)
+#define RPG_GAMECORE_EXPEDITIONREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC8BFE0)
+#define RPG_GAMECORE_EXPEDITIONREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1FC8B8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionRewardRow_TypeDefinitionIndex = 13263;
+	inline static constexpr unsigned int ExpeditionRewardRow_TypeDefinitionIndex = 13335;
 
 	class ExpeditionRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ExpeditionID; // 0x10
+		::System::UInt32 Duration; // 0x10
 		::System::UInt32 AvatarNum; // 0x14
-		::System::UInt32 Duration; // 0x18
+		::System::UInt32 ExtraRewardID; // 0x18
 		::System::UInt32 RewardID; // 0x1C
-		::System::UInt32 ExtraRewardID; // 0x20
+		::System::UInt32 ExpeditionID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONREWARDROW_CTOR_OFFSET))(this);

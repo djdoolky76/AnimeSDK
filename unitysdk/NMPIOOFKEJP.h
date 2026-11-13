@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NMPIOOFKEJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9452C0)
+#define NMPIOOFKEJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0539C0)
 
-inline static constexpr unsigned int NMPIOOFKEJP_TypeDefinitionIndex = 42458;
+inline static constexpr unsigned int NMPIOOFKEJP_TypeDefinitionIndex = 43433;
 
 	class NMPIOOFKEJP : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 LDDBFJDDNJO; // 0x10
-		::System::Boolean JBDJFBPNAGG; // 0x1C
-		::System::Boolean LBJCCPDANIB; // 0x1D
-		::System::Boolean AANFGJCJMPF; // 0x1E
-		::System::Boolean LGLGFNFFBMI; // 0x1F
-		::System::Single EMNHIJAIMBE; // 0x20
+		::System::Single EMNHIJAIMBE; // 0x10
+		::UnityEngine::Vector3 LDDBFJDDNJO; // 0x14
+		::System::Boolean LBJCCPDANIB; // 0x20
+		::System::Boolean JBDJFBPNAGG; // 0x21
+		::System::Boolean AANFGJCJMPF; // 0x22
+		::System::Boolean LGLGFNFFBMI; // 0x23
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NMPIOOFKEJP_CTOR_OFFSET))(this);

@@ -6,10 +6,10 @@ namespace RPG::GameCore { class TargetFilter; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JOAKJOLODCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB2965A0)
-#define JOAKJOLODCH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB2965C0)
+#define JOAKJOLODCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D7D50)
+#define JOAKJOLODCH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B4D7D70)
 
-inline static constexpr unsigned int JOAKJOLODCH_TypeDefinitionIndex = 59198;
+inline static constexpr unsigned int JOAKJOLODCH_TypeDefinitionIndex = 60475;
 
 	class JOAKJOLODCH
 	{

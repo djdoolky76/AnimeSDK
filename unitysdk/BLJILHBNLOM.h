@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DisableMazeLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BLJILHBNLOM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA75440)
-#define BLJILHBNLOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA75470)
+#define BLJILHBNLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x18B53DF0)
+#define BLJILHBNLOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18B53E20)
 
-inline static constexpr unsigned int BLJILHBNLOM_TypeDefinitionIndex = 52735;
+inline static constexpr unsigned int BLJILHBNLOM_TypeDefinitionIndex = 53879;
 
 	class BLJILHBNLOM
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByAnimStateLogicType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FGLNACGOGAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1575DB50)
-#define FGLNACGOGAK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1575DB80)
+#define FGLNACGOGAK_CTOR_OFFSET UNITYSDK_OFFSET(0x18A92F00)
+#define FGLNACGOGAK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18A92F30)
 
-inline static constexpr unsigned int FGLNACGOGAK_TypeDefinitionIndex = 54481;
+inline static constexpr unsigned int FGLNACGOGAK_TypeDefinitionIndex = 55645;
 
 	class FGLNACGOGAK
 	{

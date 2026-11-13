@@ -2,22 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class CHAAEPHBCLP;
+class LNJFHOIKPFK;
 class PBMPKABBHOO;
 namespace RPG::Client::Compliance::Ftc::DirectPurchase { class FtcDirectPurchase; }
 
-#define MCDMPLPDIEK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB871650)
-#define MCDMPLPDIEK_CTOR_OFFSET UNITYSDK_OFFSET(0xB8715D0)
+#define MCDMPLPDIEK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1B83E5D0)
+#define MCDMPLPDIEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B83E520)
 
-inline static constexpr unsigned int MCDMPLPDIEK_TypeDefinitionIndex = 74832;
+inline static constexpr unsigned int MCDMPLPDIEK_TypeDefinitionIndex = 77003;
 
 	class MCDMPLPDIEK : public ::System::Object
 	{
 	public:
-		::PBMPKABBHOO* KKHDIBEHPJA; // 0x10
-		::CHAAEPHBCLP* ADHGPMBAAFG; // 0x18
-		::System::Void _ctor(::CHAAEPHBCLP* a1, ::PBMPKABBHOO* a2)
+		::CHAAEPHBCLP* ADHGPMBAAFG; // 0x10
+		::PBMPKABBHOO* KKHDIBEHPJA; // 0x18
+		::LNJFHOIKPFK* JMGMBCPMBBC; // 0x20
+		::System::Void _ctor(::CHAAEPHBCLP* a1, ::PBMPKABBHOO* a2, ::LNJFHOIKPFK* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::CHAAEPHBCLP*, ::PBMPKABBHOO*))((::PBYTE)hIl2Cpp + MCDMPLPDIEK_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::CHAAEPHBCLP*, ::PBMPKABBHOO*, ::LNJFHOIKPFK*))((::PBYTE)hIl2Cpp + MCDMPLPDIEK_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchase* BPLPBPMEODA(::System::UInt32 a1)

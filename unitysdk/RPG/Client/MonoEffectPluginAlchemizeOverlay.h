@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaOverlayMatBase.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINALCHEMIZEOVERLAY_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7B9A40)
-#define RPG_CLIENT_MONOEFFECTPLUGINALCHEMIZEOVERLAY_CTOR_OFFSET UNITYSDK_OFFSET(0xD7B98E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINALCHEMIZEOVERLAY_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD7B9520)
+#define RPG_CLIENT_MONOEFFECTPLUGINALCHEMIZEOVERLAY_CCTOR_OFFSET UNITYSDK_OFFSET(0x14057F30)
+#define RPG_CLIENT_MONOEFFECTPLUGINALCHEMIZEOVERLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x14057E70)
+#define RPG_CLIENT_MONOEFFECTPLUGINALCHEMIZEOVERLAY_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0x14057BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginAlchemizeOverlay_TypeDefinitionIndex = 69934;
+	inline static constexpr unsigned int MonoEffectPluginAlchemizeOverlay_TypeDefinitionIndex = 71893;
 
 	class MonoEffectPluginAlchemizeOverlay : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
@@ -18,12 +18,12 @@ namespace RPG::Client
 		::System::Single GradientRange; // 0x224
 		static ::System::Int32* StaticGet_KMLFHFCKOHI()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAlchemizeOverlay")->GetStaticField(0x14340);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAlchemizeOverlay")->GetStaticField(0x14C20);
 		}
 
 		static ::System::Int32* StaticGet_HILHNCNKMKL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAlchemizeOverlay")->GetStaticField(0x14344);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoEffectPluginAlchemizeOverlay")->GetStaticField(0x14C24);
 		}
 
 		::System::Void _ctor()

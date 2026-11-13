@@ -5,18 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StoryTextConfigRow; }
 
-#define RPG_GAMECORE_STORYTEXTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAFBA40)
-#define RPG_GAMECORE_STORYTEXTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAFB8C0)
+#define RPG_GAMECORE_STORYTEXTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E66B700)
+#define RPG_GAMECORE_STORYTEXTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E66B580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryTextConfigRow_TypeDefinitionIndex = 12692;
+	inline static constexpr unsigned int StoryTextConfigRow_TypeDefinitionIndex = 12759;
 
 	class StoryTextConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID StoryName; // 0x10
-		::System::UInt32 StoryID; // 0x20
+		::System::UInt32 StoryID; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID StoryName; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYTEXTCONFIGROW_CTOR_OFFSET))(this);

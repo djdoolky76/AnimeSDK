@@ -4,18 +4,18 @@
 class OPHOEIDJDMO;
 namespace System { class Object; }
 
-#define OPHOEIDJDMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEB5230)
-#define OPHOEIDJDMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB5270)
-#define OPHOEIDJDMO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEB5280)
+#define OPHOEIDJDMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20368840)
+#define OPHOEIDJDMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20368880)
+#define OPHOEIDJDMO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20368890)
 
-inline static constexpr unsigned int OPHOEIDJDMO___c_TypeDefinitionIndex = 28405;
+inline static constexpr unsigned int OPHOEIDJDMO___c_TypeDefinitionIndex = 28995;
 
 	class OPHOEIDJDMO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B100);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B200);
 		}
 
 		static ::System::Void _cctor()

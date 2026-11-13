@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_ANIMATIONCURVEPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F278020)
+#define UNITYENGINE_RENDERING_ANIMATIONCURVEPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4A60C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AnimationCurveParameter_TypeDefinitionIndex = 35659;
+	inline static constexpr unsigned int AnimationCurveParameter_TypeDefinitionIndex = 36587;
 
 	class AnimationCurveParameter
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define SPINE_SKIN_SKINKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3C53580)
+#define SPINE_SKIN_SKINKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3DC8FB0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_SkinKey_TypeDefinitionIndex = 39698;
+	inline static constexpr unsigned int Skin_SkinKey_TypeDefinitionIndex = 40627;
 
 	struct alignas(8) Skin_SkinKey
 	{

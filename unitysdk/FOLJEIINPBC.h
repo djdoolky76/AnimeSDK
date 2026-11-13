@@ -4,10 +4,10 @@
 class AOBICCEGAMM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOLJEIINPBC_CTOR_OFFSET UNITYSDK_OFFSET(0x158ED1C0)
-#define FOLJEIINPBC_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x158ECDE0)
+#define FOLJEIINPBC_CTOR_OFFSET UNITYSDK_OFFSET(0x18758040)
+#define FOLJEIINPBC_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x18757C60)
 
-inline static constexpr unsigned int FOLJEIINPBC_TypeDefinitionIndex = 67152;
+inline static constexpr unsigned int FOLJEIINPBC_TypeDefinitionIndex = 69096;
 
 	class FOLJEIINPBC : public ::System::Object
 	{

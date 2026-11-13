@@ -5,9 +5,9 @@ class IBFPIDMKFCB;
 class PBHJHNFMFDH;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IBFPIDMKFCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C523270)
+#define IBFPIDMKFCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E786430)
 
-inline static constexpr unsigned int IBFPIDMKFCB_TypeDefinitionIndex = 41872;
+inline static constexpr unsigned int IBFPIDMKFCB_TypeDefinitionIndex = 42847;
 
 	class IBFPIDMKFCB : public ::System::Object
 	{

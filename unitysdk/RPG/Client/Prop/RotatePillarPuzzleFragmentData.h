@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDD8F690)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1746CE00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzleFragmentData_TypeDefinitionIndex = 78804;
+	inline static constexpr unsigned int RotatePillarPuzzleFragmentData_TypeDefinitionIndex = 81575;
 
 	class RotatePillarPuzzleFragmentData : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPDefaultMaterialType_TypeDefinitionIndex = 37867;
+	inline static constexpr unsigned int CRPDefaultMaterialType_TypeDefinitionIndex = 38796;
 
 	enum class CRPDefaultMaterialType : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ProtocolWebViewInfo_TypeDefinitionIndex = 46236;
+	inline static constexpr unsigned int MHYSDKC_ProtocolWebViewInfo_TypeDefinitionIndex = 47265;
 
 	class MHYSDKC_ProtocolWebViewInfo : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/JMDAIKOHCAE.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define IKOIKKCBNJA_CTOR_OFFSET UNITYSDK_OFFSET(0x16491BA0)
+#define IKOIKKCBNJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5811D0)
 
-inline static constexpr unsigned int IKOIKKCBNJA_TypeDefinitionIndex = 73341;
+inline static constexpr unsigned int IKOIKKCBNJA_TypeDefinitionIndex = 75458;
 
 	class IKOIKKCBNJA : public ::JMDAIKOHCAE
 	{

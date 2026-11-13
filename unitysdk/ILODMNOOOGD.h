@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveHitByTimeRewindListener; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILODMNOOOGD_CTOR_OFFSET UNITYSDK_OFFSET(0x164BABE0)
-#define ILODMNOOOGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164BAC10)
+#define ILODMNOOOGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AF370)
+#define ILODMNOOOGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B5AF3A0)
 
-inline static constexpr unsigned int ILODMNOOOGD_TypeDefinitionIndex = 53385;
+inline static constexpr unsigned int ILODMNOOOGD_TypeDefinitionIndex = 54547;
 
 	class ILODMNOOOGD
 	{

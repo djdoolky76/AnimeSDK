@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchLastZombieEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MLCAFEOLGJO_CTOR_OFFSET UNITYSDK_OFFSET(0xB99FB90)
-#define MLCAFEOLGJO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB99FC00)
+#define MLCAFEOLGJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B914A00)
+#define MLCAFEOLGJO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B914A70)
 
-inline static constexpr unsigned int MLCAFEOLGJO_TypeDefinitionIndex = 59123;
+inline static constexpr unsigned int MLCAFEOLGJO_TypeDefinitionIndex = 60399;
 
 	class MLCAFEOLGJO
 	{

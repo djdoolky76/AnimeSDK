@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define EFJAJBNPIIA___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4E960)
-#define EFJAJBNPIIA___C__DISPLAYCLASS3_0___SHOWROGUENOUSNEWSUBSTORYPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x13A4F450)
+#define EFJAJBNPIIA___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A337AA0)
+#define EFJAJBNPIIA___C__DISPLAYCLASS3_0___SHOWROGUENOUSNEWSUBSTORYPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1A338590)
 
-inline static constexpr unsigned int EFJAJBNPIIA___c__DisplayClass3_0_TypeDefinitionIndex = 67482;
+inline static constexpr unsigned int EFJAJBNPIIA___c__DisplayClass3_0_TypeDefinitionIndex = 69426;
 
 	class EFJAJBNPIIA___c__DisplayClass3_0 : public ::System::Object
 	{

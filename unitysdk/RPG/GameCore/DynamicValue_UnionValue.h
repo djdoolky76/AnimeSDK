@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DynamicValue_DynamicValueType.h"
 
-#define RPG_GAMECORE_DYNAMICVALUE_UNIONVALUE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5FEA90)
+#define RPG_GAMECORE_DYNAMICVALUE_UNIONVALUE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0D5A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValue_UnionValue_TypeDefinitionIndex = 10839;
+	inline static constexpr unsigned int DynamicValue_UnionValue_TypeDefinitionIndex = 10855;
 
 	struct alignas(4) DynamicValue_UnionValue
 	{
@@ -15,7 +15,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicValue_DynamicValueType valueType; // 0x18
 		static ::RPG::GameCore::DynamicValue_UnionValue* StaticGet_Empty()
 		{
-			return (::RPG::GameCore::DynamicValue_UnionValue*)UnitySDK::FromName("RPG.GameCore", "UnionValue")->GetStaticField(0x76B0);
+			return (::RPG::GameCore::DynamicValue_UnionValue*)UnitySDK::FromName("RPG.GameCore", "UnionValue")->GetStaticField(0x6370);
 		}
 
 		static ::System::Void _cctor()

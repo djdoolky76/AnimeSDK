@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int EIEBEHJKOAG_PSODownloadResponse_Status_TypeDefinitionIndex = 47409;
+inline static constexpr unsigned int EIEBEHJKOAG_PSODownloadResponse_Status_TypeDefinitionIndex = 48438;
 
 	struct alignas(8) EIEBEHJKOAG_PSODownloadResponse_Status
 	{

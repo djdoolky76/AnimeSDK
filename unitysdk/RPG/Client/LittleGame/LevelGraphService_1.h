@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int LevelGraphService_1_TypeDefinitionIndex = 76495;
+	inline static constexpr unsigned int LevelGraphService_1_TypeDefinitionIndex = 78826;
 
 	template <typename T>
 	class LevelGraphService_1 : public ::System::Object

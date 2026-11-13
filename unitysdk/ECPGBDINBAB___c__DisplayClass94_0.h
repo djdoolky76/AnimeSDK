@@ -4,17 +4,17 @@
 class ECPGBDINBAB;
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 
-#define ECPGBDINBAB___C__DISPLAYCLASS94_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13308150)
-#define ECPGBDINBAB___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__0_OFFSET UNITYSDK_OFFSET(0x13308970)
-#define ECPGBDINBAB___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__1_OFFSET UNITYSDK_OFFSET(0x13308A00)
+#define ECPGBDINBAB___C__DISPLAYCLASS94_0_CTOR_OFFSET UNITYSDK_OFFSET(0x186AFF50)
+#define ECPGBDINBAB___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__0_OFFSET UNITYSDK_OFFSET(0x186B0770)
+#define ECPGBDINBAB___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__1_OFFSET UNITYSDK_OFFSET(0x186B0800)
 
-inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass94_0_TypeDefinitionIndex = 78020;
+inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass94_0_TypeDefinitionIndex = 80755;
 
 	class ECPGBDINBAB___c__DisplayClass94_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* championCatView; // 0x10
-		::ECPGBDINBAB* __4__this; // 0x18
+		::ECPGBDINBAB* __4__this; // 0x10
+		::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* championCatView; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ECPGBDINBAB___C__DISPLAYCLASS94_0_CTOR_OFFSET))(this);

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ReactionItemConfig; }
 namespace RPG::GameCore { class ReactionTaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REACTIONITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D941CA0)
-#define RPG_GAMECORE_REACTIONITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D941AE0)
+#define RPG_GAMECORE_REACTIONITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F22B360)
+#define RPG_GAMECORE_REACTIONITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F22B1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReactionItemConfig_TypeDefinitionIndex = 15636;
+	inline static constexpr unsigned int ReactionItemConfig_TypeDefinitionIndex = 15794;
 
 	class ReactionItemConfig : public ::RPG::GameCore::JsonConfig
 	{

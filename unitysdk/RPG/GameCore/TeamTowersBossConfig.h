@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamTowersBossConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEAMTOWERSBOSSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4EC80)
-#define RPG_GAMECORE_TEAMTOWERSBOSSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4EA40)
+#define RPG_GAMECORE_TEAMTOWERSBOSSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C38E0)
+#define RPG_GAMECORE_TEAMTOWERSBOSSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C36A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersBossConfig_TypeDefinitionIndex = 18956;
+	inline static constexpr unsigned int TeamTowersBossConfig_TypeDefinitionIndex = 19143;
 
 	class TeamTowersBossConfig : public ::RPG::GameCore::JsonConfig
 	{

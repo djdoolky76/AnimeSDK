@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Pet::BlindBox
 {
-	inline static constexpr unsigned int BlindBoxPetKind_TypeDefinitionIndex = 75729;
+	inline static constexpr unsigned int BlindBoxPetKind_TypeDefinitionIndex = 78056;
 
 	enum class BlindBoxPetKind : ::System::Int32
 	{

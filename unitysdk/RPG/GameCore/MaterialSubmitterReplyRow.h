@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MaterialSubmitterReplyRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATERIALSUBMITTERREPLYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D831AA0)
-#define RPG_GAMECORE_MATERIALSUBMITTERREPLYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D831340)
+#define RPG_GAMECORE_MATERIALSUBMITTERREPLYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB65D60)
+#define RPG_GAMECORE_MATERIALSUBMITTERREPLYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB65600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialSubmitterReplyRow_TypeDefinitionIndex = 11963;
+	inline static constexpr unsigned int MaterialSubmitterReplyRow_TypeDefinitionIndex = 12020;
 
 	class MaterialSubmitterReplyRow : public ::System::Object
 	{
 	public:
 		::System::String* HeadIconPath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 Tag; // 0x1C
+		::System::UInt32 Tag; // 0x18
+		::System::UInt32 ID; // 0x1C
 		::RPG::Client::TextID Content; // 0x20
 		::RPG::Client::TextID PersonName; // 0x30
 		::System::Void _ctor()

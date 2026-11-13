@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/RogueTournRelicCocoonTeamSaveType.h"
 #include "unitysdk/System/Object.h"
 
-#define IJDMNPNMMPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1644D2A0)
+#define IJDMNPNMMPI_CTOR_OFFSET UNITYSDK_OFFSET(0x180416B0)
 
-inline static constexpr unsigned int IJDMNPNMMPI_TypeDefinitionIndex = 67774;
+inline static constexpr unsigned int IJDMNPNMMPI_TypeDefinitionIndex = 69719;
 
 	class IJDMNPNMMPI : public ::System::Object
 	{

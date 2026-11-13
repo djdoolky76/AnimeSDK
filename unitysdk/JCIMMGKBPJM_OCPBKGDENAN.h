@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class ENEIHJJPNPI;
 
-inline static constexpr unsigned int JCIMMGKBPJM_OCPBKGDENAN_TypeDefinitionIndex = 77405;
+inline static constexpr unsigned int JCIMMGKBPJM_OCPBKGDENAN_TypeDefinitionIndex = 79739;
 
 	struct alignas(8) JCIMMGKBPJM_OCPBKGDENAN
 	{

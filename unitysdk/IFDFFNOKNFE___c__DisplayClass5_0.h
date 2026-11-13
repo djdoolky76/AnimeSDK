@@ -4,10 +4,10 @@
 class PHKFMKDHNBO;
 namespace RPG::GameCore { class SkillData; }
 
-#define IFDFFNOKNFE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15EFED20)
-#define IFDFFNOKNFE___C__DISPLAYCLASS5_0__REMOVESKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0x15EFEFC0)
+#define IFDFFNOKNFE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC06C60)
+#define IFDFFNOKNFE___C__DISPLAYCLASS5_0__REMOVESKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1BC06F00)
 
-inline static constexpr unsigned int IFDFFNOKNFE___c__DisplayClass5_0_TypeDefinitionIndex = 72152;
+inline static constexpr unsigned int IFDFFNOKNFE___c__DisplayClass5_0_TypeDefinitionIndex = 74205;
 
 	class IFDFFNOKNFE___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/Module.h"
 
-#define SYSTEM_REFLECTION_RUNTIMEMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27C620)
+#define SYSTEM_REFLECTION_RUNTIMEMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAD040)
 
 namespace System::Reflection
 {

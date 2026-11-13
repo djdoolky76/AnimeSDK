@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAdvProp; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JFPBFJFFMBA_CTOR_OFFSET UNITYSDK_OFFSET(0x16648450)
-#define JFPBFJFFMBA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x166484A0)
+#define JFPBFJFFMBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1933EAE0)
+#define JFPBFJFFMBA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1933EB30)
 
-inline static constexpr unsigned int JFPBFJFFMBA_TypeDefinitionIndex = 59085;
+inline static constexpr unsigned int JFPBFJFFMBA_TypeDefinitionIndex = 60360;
 
 	class JFPBFJFFMBA
 	{

@@ -4,18 +4,18 @@
 class HGEAOCGDCHD;
 namespace System { class Object; }
 
-#define HGEAOCGDCHD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E54A830)
-#define HGEAOCGDCHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E54A870)
-#define HGEAOCGDCHD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E54A880)
+#define HGEAOCGDCHD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAF85C0)
+#define HGEAOCGDCHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAF8600)
+#define HGEAOCGDCHD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FAF8610)
 
-inline static constexpr unsigned int HGEAOCGDCHD___c_TypeDefinitionIndex = 29130;
+inline static constexpr unsigned int HGEAOCGDCHD___c_TypeDefinitionIndex = 29731;
 
 	class HGEAOCGDCHD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30D10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C140);
 		}
 
 		static ::System::Void _cctor()

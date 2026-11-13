@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int PolyShape_PolyEditMode_TypeDefinitionIndex = 44384;
+	inline static constexpr unsigned int PolyShape_PolyEditMode_TypeDefinitionIndex = 45459;
 
 	enum class PolyShape_PolyEditMode : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StroyLineTrialAvatarDataRow; }
 
-#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB00AD0)
-#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB008C0)
+#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6707F0)
+#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6705C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StroyLineTrialAvatarDataRow_TypeDefinitionIndex = 15200;
+	inline static constexpr unsigned int StroyLineTrialAvatarDataRow_TypeDefinitionIndex = 15356;
 
 	class StroyLineTrialAvatarDataRow : public ::System::Object
 	{

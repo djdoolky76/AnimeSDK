@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowPhaseUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MJLOGMEBKAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB968ED0)
-#define MJLOGMEBKAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB968F00)
+#define MJLOGMEBKAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3ADC70)
+#define MJLOGMEBKAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A3ADCA0)
 
-inline static constexpr unsigned int MJLOGMEBKAH_TypeDefinitionIndex = 47612;
+inline static constexpr unsigned int MJLOGMEBKAH_TypeDefinitionIndex = 48641;
 
 	class MJLOGMEBKAH
 	{

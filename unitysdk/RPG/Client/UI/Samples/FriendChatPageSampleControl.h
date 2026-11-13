@@ -8,12 +8,12 @@ namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class TabView; }
 namespace RPG::Client::ResBar { class TopBarControl; }
 
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE405220)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE4039A0)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBC7330)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0x1DBC5AB0)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int FriendChatPageSampleControl_TypeDefinitionIndex = 73435;
+	inline static constexpr unsigned int FriendChatPageSampleControl_TypeDefinitionIndex = 75558;
 
 	class FriendChatPageSampleControl
 	{

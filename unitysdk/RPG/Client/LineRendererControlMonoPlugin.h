@@ -4,12 +4,12 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD3EFED0)
-#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD3EFE80)
+#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD4AF0)
+#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1CBD4AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LineRendererControlMonoPlugin_TypeDefinitionIndex = 70645;
+	inline static constexpr unsigned int LineRendererControlMonoPlugin_TypeDefinitionIndex = 72622;
 
 	class LineRendererControlMonoPlugin
 	{

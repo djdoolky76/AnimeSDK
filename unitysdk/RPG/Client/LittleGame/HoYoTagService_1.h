@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int HoYoTagService_1_TypeDefinitionIndex = 76485;
+	inline static constexpr unsigned int HoYoTagService_1_TypeDefinitionIndex = 78816;
 
 	template <typename T>
 	class HoYoTagService_1 : public ::System::Object

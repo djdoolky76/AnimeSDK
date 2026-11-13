@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__12_2_TypeDefinitionIndex = 38488;
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__12_2_TypeDefinitionIndex = 39417;
 
 	template <typename T1, typename T2>
 	struct alignas(8) UnityBindingExtensions__BindToCore_d__12_2

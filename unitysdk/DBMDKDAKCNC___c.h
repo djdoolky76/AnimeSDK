@@ -4,18 +4,18 @@
 class DBMDKDAKCNC;
 namespace System { class Object; }
 
-#define DBMDKDAKCNC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E133CA0)
-#define DBMDKDAKCNC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E133CE0)
-#define DBMDKDAKCNC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E133CF0)
+#define DBMDKDAKCNC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202B6CF0)
+#define DBMDKDAKCNC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202B6D30)
+#define DBMDKDAKCNC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x202B6D40)
 
-inline static constexpr unsigned int DBMDKDAKCNC___c_TypeDefinitionIndex = 30635;
+inline static constexpr unsigned int DBMDKDAKCNC___c_TypeDefinitionIndex = 31541;
 
 	class DBMDKDAKCNC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23160);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DBA0);
 		}
 
 		static ::System::Void _cctor()

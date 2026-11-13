@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KOAOAKKCCPK;
 
-#define DMOJAEDFBID_OBNPEIIPFMA_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC7770)
+#define DMOJAEDFBID_OBNPEIIPFMA_CTOR_OFFSET UNITYSDK_OFFSET(0xCA9E840)
 
-inline static constexpr unsigned int DMOJAEDFBID_OBNPEIIPFMA_TypeDefinitionIndex = 71315;
+inline static constexpr unsigned int DMOJAEDFBID_OBNPEIIPFMA_TypeDefinitionIndex = 73292;
 
 	class DMOJAEDFBID_OBNPEIIPFMA : public ::System::Object
 	{

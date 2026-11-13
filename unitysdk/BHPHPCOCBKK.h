@@ -3,10 +3,10 @@
 class IHLFEBHOKAP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHPHPCOCBKK_CTOR_OFFSET UNITYSDK_OFFSET(0xB48F860)
-#define BHPHPCOCBKK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB48F890)
+#define BHPHPCOCBKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA20F0)
+#define BHPHPCOCBKK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BAA2120)
 
-inline static constexpr unsigned int BHPHPCOCBKK_TypeDefinitionIndex = 53841;
+inline static constexpr unsigned int BHPHPCOCBKK_TypeDefinitionIndex = 55005;
 
 	class BHPHPCOCBKK
 	{

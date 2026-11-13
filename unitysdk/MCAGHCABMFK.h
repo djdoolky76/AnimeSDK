@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetNpcStatus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MCAGHCABMFK_CTOR_OFFSET UNITYSDK_OFFSET(0xB86B7F0)
-#define MCAGHCABMFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB86B820)
+#define MCAGHCABMFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8375A0)
+#define MCAGHCABMFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B8375D0)
 
-inline static constexpr unsigned int MCAGHCABMFK_TypeDefinitionIndex = 53250;
+inline static constexpr unsigned int MCAGHCABMFK_TypeDefinitionIndex = 54412;
 
 	class MCAGHCABMFK
 	{

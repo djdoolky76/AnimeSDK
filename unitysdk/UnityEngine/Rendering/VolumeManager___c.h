@@ -4,20 +4,20 @@
 namespace System { class Object; }
 namespace UnityEngine::Rendering { class VolumeManager; }
 
-#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2B4EF0)
-#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B4F20)
-#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1F2B4F30)
+#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6686E0)
+#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F668710)
+#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1F668720)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeManager___c_TypeDefinitionIndex = 35620;
+	inline static constexpr unsigned int VolumeManager___c_TypeDefinitionIndex = 36548;
 
 	class VolumeManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5C570);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x62BB0);
 		}
 
 		static ::System::Void _cctor()

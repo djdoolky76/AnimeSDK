@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionRemoveBuff; }
 
-#define OBGIMOPFHNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79CBE0)
-#define OBGIMOPFHNN_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C79CBF0)
+#define OBGIMOPFHNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B07E310)
+#define OBGIMOPFHNN_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1B07E320)
 
-inline static constexpr unsigned int OBGIMOPFHNN_TypeDefinitionIndex = 37392;
+inline static constexpr unsigned int OBGIMOPFHNN_TypeDefinitionIndex = 38320;
 
 	class OBGIMOPFHNN : public ::GPLOFONGBGI
 	{

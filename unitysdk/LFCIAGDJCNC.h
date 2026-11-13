@@ -3,10 +3,10 @@
 #include "unitysdk/DLPNMGKEIHD.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define LFCIAGDJCNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB65C800)
-#define LFCIAGDJCNC_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xB65C7F0)
+#define LFCIAGDJCNC_CTOR_OFFSET UNITYSDK_OFFSET(0x18C41A00)
+#define LFCIAGDJCNC_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x18C419F0)
 
-inline static constexpr unsigned int LFCIAGDJCNC_TypeDefinitionIndex = 47132;
+inline static constexpr unsigned int LFCIAGDJCNC_TypeDefinitionIndex = 48160;
 
 	class LFCIAGDJCNC : public ::DLPNMGKEIHD
 	{

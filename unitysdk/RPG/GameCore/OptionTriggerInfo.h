@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OPTIONTRIGGERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B7C70)
-#define RPG_GAMECORE_OPTIONTRIGGERINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B7AA0)
+#define RPG_GAMECORE_OPTIONTRIGGERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F139240)
+#define RPG_GAMECORE_OPTIONTRIGGERINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F139070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OptionTriggerInfo_TypeDefinitionIndex = 21592;
+	inline static constexpr unsigned int OptionTriggerInfo_TypeDefinitionIndex = 21980;
 
 	class OptionTriggerInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropCurveReadMoveRatio; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91AC90)
-#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D91ACE0)
-#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91AC20)
+#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF84D80)
+#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF84DD0)
+#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF84D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveReadMoveRatio_TypeDefinitionIndex = 21002;
+	inline static constexpr unsigned int PropCurveReadMoveRatio_TypeDefinitionIndex = 21340;
 
 	class PropCurveReadMoveRatio : public ::RPG::GameCore::TaskConfig
 	{

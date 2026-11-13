@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_EARLYACCESSMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD05400)
-#define RPG_CLIENT_EARLYACCESSMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD05430)
-#define RPG_CLIENT_EARLYACCESSMODULE___C__GETDOINGCONTENT_B__17_0_OFFSET UNITYSDK_OFFSET(0xCD05460)
-#define RPG_CLIENT_EARLYACCESSMODULE___C__SENDEARLYACCESSDATA_B__9_0_OFFSET UNITYSDK_OFFSET(0xCD05440)
+#define RPG_CLIENT_EARLYACCESSMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17BC0E80)
+#define RPG_CLIENT_EARLYACCESSMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17BC0EB0)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__GETDOINGCONTENT_B__17_0_OFFSET UNITYSDK_OFFSET(0x17BC0EE0)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__SENDEARLYACCESSDATA_B__9_0_OFFSET UNITYSDK_OFFSET(0x17BC0EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessModule___c_TypeDefinitionIndex = 63647;
+	inline static constexpr unsigned int EarlyAccessModule___c_TypeDefinitionIndex = 65089;
 
 	class EarlyAccessModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::Client::EarlyAccessContent*>** StaticGet___9__17_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::EarlyAccessContent*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2EF70);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2EF78);
+			return (::System::Predicate_1<::RPG::Client::EarlyAccessContent*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3B260);
 		}
 
 		static ::System::Func_2<::RPG::Client::EarlyAccessContent*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::EarlyAccessContent*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2EF80);
+			return (::System::Func_2<::RPG::Client::EarlyAccessContent*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3B268);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3B270);
 		}
 
 		static ::System::Void _cctor()

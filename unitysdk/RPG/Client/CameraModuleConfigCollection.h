@@ -5,12 +5,12 @@
 namespace RPG::Client { class CameraModuleConfigBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAMERAMODULECONFIGCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xC931450)
-#define RPG_CLIENT_CAMERAMODULECONFIGCOLLECTION_IHKBEFMPDGI_OFFSET UNITYSDK_OFFSET(0xC9312C0)
+#define RPG_CLIENT_CAMERAMODULECONFIGCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDCDA20)
+#define RPG_CLIENT_CAMERAMODULECONFIGCOLLECTION_IHKBEFMPDGI_OFFSET UNITYSDK_OFFSET(0x1DDCD890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraModuleConfigCollection_TypeDefinitionIndex = 69670;
+	inline static constexpr unsigned int CameraModuleConfigCollection_TypeDefinitionIndex = 71627;
 
 	class CameraModuleConfigCollection : public ::UnityEngine::ScriptableObject
 	{

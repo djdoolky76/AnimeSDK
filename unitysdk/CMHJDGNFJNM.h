@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleDebug; }
 
-#define CMHJDGNFJNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E4B10)
-#define CMHJDGNFJNM_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C9E4B20)
+#define CMHJDGNFJNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB16D70)
+#define CMHJDGNFJNM_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DB16D80)
 
-inline static constexpr unsigned int CMHJDGNFJNM_TypeDefinitionIndex = 43133;
+inline static constexpr unsigned int CMHJDGNFJNM_TypeDefinitionIndex = 44114;
 
 	class CMHJDGNFJNM : public ::BKABEBEPPJK
 	{

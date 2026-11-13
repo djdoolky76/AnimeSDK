@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BELNHOOINJK_TypeDefinitionIndex = 44229;
+inline static constexpr unsigned int BELNHOOINJK_TypeDefinitionIndex = 45304;
 
 	class BELNHOOINJK
 	{

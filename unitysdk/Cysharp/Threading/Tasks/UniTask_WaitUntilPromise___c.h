@@ -4,26 +4,26 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11E000)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F11E040)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F11E0B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F11E050)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E55DA80)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55DAC0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1E55DB30)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1E55DAD0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitUntilPromise___c_TypeDefinitionIndex = 38253;
+	inline static constexpr unsigned int UniTask_WaitUntilPromise___c_TypeDefinitionIndex = 39182;
 
 	class UniTask_WaitUntilPromise___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet___9__11_0()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x39FB0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x38520);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x39FB8);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x38528);
 		}
 
 		static ::System::Void _cctor()

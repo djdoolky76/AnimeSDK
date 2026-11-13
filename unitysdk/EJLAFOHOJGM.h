@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvForceNpcGoBack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EJLAFOHOJGM_CTOR_OFFSET UNITYSDK_OFFSET(0x154D4FF0)
-#define EJLAFOHOJGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154D5020)
+#define EJLAFOHOJGM_CTOR_OFFSET UNITYSDK_OFFSET(0x19AB76A0)
+#define EJLAFOHOJGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19AB76D0)
 
-inline static constexpr unsigned int EJLAFOHOJGM_TypeDefinitionIndex = 52422;
+inline static constexpr unsigned int EJLAFOHOJGM_TypeDefinitionIndex = 53528;
 
 	class EJLAFOHOJGM
 	{

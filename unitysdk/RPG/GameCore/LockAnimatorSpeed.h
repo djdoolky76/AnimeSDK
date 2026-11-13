@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class LockAnimatorSpeed; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_LOCKANIMATORSPEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C2340)
-#define RPG_GAMECORE_LOCKANIMATORSPEED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C2350)
-#define RPG_GAMECORE_LOCKANIMATORSPEED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C2310)
+#define RPG_GAMECORE_LOCKANIMATORSPEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0746C0)
+#define RPG_GAMECORE_LOCKANIMATORSPEED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0746D0)
+#define RPG_GAMECORE_LOCKANIMATORSPEED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F074690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockAnimatorSpeed_TypeDefinitionIndex = 23237;
+	inline static constexpr unsigned int LockAnimatorSpeed_TypeDefinitionIndex = 23677;
 
 	class LockAnimatorSpeed : public ::RPG::GameCore::TaskConfig
 	{

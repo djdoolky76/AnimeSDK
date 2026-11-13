@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define OECNOHOLGPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C549BE0)
-#define OECNOHOLGPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C549C20)
-#define OECNOHOLGPP___C__LIFTMANY_B__39_0_OFFSET UNITYSDK_OFFSET(0x1C549C30)
+#define OECNOHOLGPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x207C1690)
+#define OECNOHOLGPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x207C16D0)
+#define OECNOHOLGPP___C__LIFTMANY_B__39_0_OFFSET UNITYSDK_OFFSET(0x207C16E0)
 
-inline static constexpr unsigned int OECNOHOLGPP___c_TypeDefinitionIndex = 41794;
+inline static constexpr unsigned int OECNOHOLGPP___c_TypeDefinitionIndex = 42769;
 
 	class OECNOHOLGPP___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::NKIJFPHFJCO*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>** StaticGet___9__39_0()
-		{
-			return (::System::Func_2<::NKIJFPHFJCO*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x231E0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x231E8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11570);
+		}
+
+		static ::System::Func_2<::NKIJFPHFJCO*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>** StaticGet___9__39_0()
+		{
+			return (::System::Func_2<::NKIJFPHFJCO*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11578);
 		}
 
 		static ::System::Void _cctor()

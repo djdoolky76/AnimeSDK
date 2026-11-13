@@ -6,17 +6,17 @@ class CAJDCGPFPBA;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CAJDCGPFPBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D25B0)
-#define CAJDCGPFPBA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9D25C0)
-#define CAJDCGPFPBA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9D2580)
+#define CAJDCGPFPBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0F510)
+#define CAJDCGPFPBA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB0F520)
+#define CAJDCGPFPBA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB0F4E0)
 
-inline static constexpr unsigned int CAJDCGPFPBA_TypeDefinitionIndex = 23752;
+inline static constexpr unsigned int CAJDCGPFPBA_TypeDefinitionIndex = 24208;
 
 	class CAJDCGPFPBA : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* JACJMOPEPDA; // 0x18
-		::RPG::GameCore::FormatString ECNKCCNJNPJ; // 0x20
+		::RPG::GameCore::FormatString ECNKCCNJNPJ; // 0x18
+		::RPG::GameCore::TargetEvaluator* JACJMOPEPDA; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAJDCGPFPBA_CTOR_OFFSET))(this);

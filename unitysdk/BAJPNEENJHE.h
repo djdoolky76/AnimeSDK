@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define BAJPNEENJHE_CTOR_OFFSET UNITYSDK_OFFSET(0x15E64240)
+#define BAJPNEENJHE_CTOR_OFFSET UNITYSDK_OFFSET(0x199DC0D0)
 
-inline static constexpr unsigned int BAJPNEENJHE_TypeDefinitionIndex = 52065;
+inline static constexpr unsigned int BAJPNEENJHE_TypeDefinitionIndex = 53170;
 
 	class BAJPNEENJHE : public ::System::Attribute
 	{

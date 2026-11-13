@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBBA7C0)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS14_0__SHOWSERVERSTOPHINT_B__0_OFFSET UNITYSDK_OFFSET(0xCBBD180)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7D5060)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS14_0__SHOWSERVERSTOPHINT_B__0_OFFSET UNITYSDK_OFFSET(0x1B7D5070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConfirmDialogUtil___c__DisplayClass14_0_TypeDefinitionIndex = 72717;
+	inline static constexpr unsigned int ConfirmDialogUtil___c__DisplayClass14_0_TypeDefinitionIndex = 74796;
 
 	class ConfirmDialogUtil___c__DisplayClass14_0 : public ::System::Object
 	{

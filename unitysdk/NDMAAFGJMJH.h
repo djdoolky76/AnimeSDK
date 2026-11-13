@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define NDMAAFGJMJH_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define NDMAAFGJMJH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FEB0)
+#define NDMAAFGJMJH_CTOR_OFFSET UNITYSDK_OFFSET(0xADCE20)
+#define NDMAAFGJMJH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3DD11C0)
 
-inline static constexpr unsigned int NDMAAFGJMJH_TypeDefinitionIndex = 67215;
+inline static constexpr unsigned int NDMAAFGJMJH_TypeDefinitionIndex = 69159;
 
 	struct alignas(4) NDMAAFGJMJH
 	{

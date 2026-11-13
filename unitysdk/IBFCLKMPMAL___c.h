@@ -4,18 +4,18 @@
 class IBFCLKMPMAL;
 namespace System { class Object; }
 
-#define IBFCLKMPMAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5E7150)
-#define IBFCLKMPMAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E7180)
-#define IBFCLKMPMAL___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1E5E7190)
+#define IBFCLKMPMAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203AD570)
+#define IBFCLKMPMAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203AD5A0)
+#define IBFCLKMPMAL___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x203AD5B0)
 
-inline static constexpr unsigned int IBFCLKMPMAL___c_TypeDefinitionIndex = 34108;
+inline static constexpr unsigned int IBFCLKMPMAL___c_TypeDefinitionIndex = 35023;
 
 	class IBFCLKMPMAL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43190);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44580);
 		}
 
 		static ::System::Void _cctor()

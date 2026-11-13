@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client { class DynamicTrailModule; }
 
-#define RPG_CLIENT_EFFECT_DYNAMICTRAILMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD1C950)
+#define RPG_CLIENT_EFFECT_DYNAMICTRAILMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x17BD9D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_DynamicTrailMonoPlugin_TypeDefinitionIndex = 70447;
+	inline static constexpr unsigned int Effect_DynamicTrailMonoPlugin_TypeDefinitionIndex = 72418;
 
 	class Effect_DynamicTrailMonoPlugin
 	{

@@ -8,30 +8,30 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class TravelBrochureConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0CFF0)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC0BA60)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3168F0)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E315340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureConfigRow_TypeDefinitionIndex = 15370;
+	inline static constexpr unsigned int TravelBrochureConfigRow_TypeDefinitionIndex = 15526;
 
 	class TravelBrochureConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* FrontPrefab; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x18
-		::System::String* PicPath; // 0x20
-		::System::String* PasterAchievementPic; // 0x28
-		::System::String* BackgroundPrefab; // 0x30
-		::System::UInt32 Sort; // 0x38
-		::System::UInt32 DiaryGroupID; // 0x3C
-		::RPG::GameCore::TravelBrochureType Type; // 0x40
-		::System::Boolean ShowInDirectory; // 0x44
-		::System::Boolean ShowUnlockToast; // 0x45
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x10
+		::System::String* PicPath; // 0x18
+		::System::String* FrontPrefab; // 0x20
+		::System::String* BackgroundPrefab; // 0x28
+		::System::String* PasterAchievementPic; // 0x30
+		::System::Boolean ShowInDirectory; // 0x38
+		::System::Boolean ShowUnlockToast; // 0x39
 		::System::Byte _padding0[0x2];
+		::System::UInt32 FinishQuestID; // 0x3C
+		::System::UInt32 ID; // 0x40
+		::System::UInt32 Sort; // 0x44
 		::RPG::Client::TextID DirectoryName; // 0x48
-		::System::UInt32 ID; // 0x58
-		::System::UInt32 FinishQuestID; // 0x5C
+		::RPG::GameCore::TravelBrochureType Type; // 0x58
+		::System::UInt32 DiaryGroupID; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHURECONFIGROW_CTOR_OFFSET))(this);

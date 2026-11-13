@@ -5,25 +5,25 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDisplayRow; }
 
-#define RPG_GAMECORE_CHIMERADISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56CDB0)
-#define RPG_GAMECORE_CHIMERADISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D56C8D0)
+#define RPG_GAMECORE_CHIMERADISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F922C60)
+#define RPG_GAMECORE_CHIMERADISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F922780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDisplayRow_TypeDefinitionIndex = 13019;
+	inline static constexpr unsigned int ChimeraDisplayRow_TypeDefinitionIndex = 13087;
 
 	class ChimeraDisplayRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 DisplayID; // 0x10
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Story1Title; // 0x18
-		::RPG::Client::TextID Story3; // 0x28
-		::RPG::Client::TextID ChimeraName; // 0x38
-		::RPG::Client::TextID Story2; // 0x48
-		::RPG::Client::TextID Story3Title; // 0x58
-		::RPG::Client::TextID Story2Title; // 0x68
-		::RPG::Client::TextID Story1; // 0x78
+		::RPG::Client::TextID Story2Title; // 0x18
+		::RPG::Client::TextID Story2; // 0x28
+		::RPG::Client::TextID Story1; // 0x38
+		::RPG::Client::TextID Story3Title; // 0x48
+		::RPG::Client::TextID Story1Title; // 0x58
+		::RPG::Client::TextID Story3; // 0x68
+		::RPG::Client::TextID ChimeraName; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADISPLAYROW_CTOR_OFFSET))(this);

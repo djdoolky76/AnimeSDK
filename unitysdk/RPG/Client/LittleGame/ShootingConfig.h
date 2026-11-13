@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame { class PlacementConfig; }
 
-#define RPG_CLIENT_LITTLEGAME_SHOOTINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DB130)
+#define RPG_CLIENT_LITTLEGAME_SHOOTINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x20713700)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ShootingConfig_TypeDefinitionIndex = 42322;
+	inline static constexpr unsigned int ShootingConfig_TypeDefinitionIndex = 43297;
 
 	class ShootingConfig : public ::System::Object
 	{

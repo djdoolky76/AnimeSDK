@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetTargetTypeNotifyConfig; }
 
-#define RPG_GAMECORE_SETTARGETTYPENOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA98EA0)
-#define RPG_GAMECORE_SETTARGETTYPENOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA98DE0)
+#define RPG_GAMECORE_SETTARGETTYPENOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E6400)
+#define RPG_GAMECORE_SETTARGETTYPENOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F9E6340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetTypeNotifyConfig_TypeDefinitionIndex = 16965;
+	inline static constexpr unsigned int SetTargetTypeNotifyConfig_TypeDefinitionIndex = 17132;
 
 	class SetTargetTypeNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

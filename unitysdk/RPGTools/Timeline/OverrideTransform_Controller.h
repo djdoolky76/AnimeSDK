@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE907DF0)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C752590)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int OverrideTransform_Controller_TypeDefinitionIndex = 48526;
+	inline static constexpr unsigned int OverrideTransform_Controller_TypeDefinitionIndex = 49567;
 
 	class OverrideTransform_Controller : public ::System::Object
 	{

@@ -5,17 +5,17 @@
 class APLNKIAIFEA;
 namespace RPG::Client::Promises { class Promise; }
 
-#define APLNKIAIFEA___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA7BB0)
-#define APLNKIAIFEA___C__DISPLAYCLASS13_0___SHOWNEWPARTHINTDIALOGFORDIRECTACQUIREASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15BA84B0)
+#define APLNKIAIFEA___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1850D8F0)
+#define APLNKIAIFEA___C__DISPLAYCLASS13_0___SHOWNEWPARTHINTDIALOGFORDIRECTACQUIREASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1850E1E0)
 
-inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass13_0_TypeDefinitionIndex = 81809;
+inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass13_0_TypeDefinitionIndex = 84590;
 
 	class APLNKIAIFEA___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::APLNKIAIFEA_MOODJBCCCPC syncResult; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x20
-		::APLNKIAIFEA* __4__this; // 0x28
+		::APLNKIAIFEA* __4__this; // 0x10
+		::APLNKIAIFEA_MOODJBCCCPC syncResult; // 0x18
+		::RPG::Client::Promises::Promise* promise; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + APLNKIAIFEA___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);

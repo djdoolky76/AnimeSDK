@@ -7,17 +7,17 @@ namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine::AI { class NavMeshPath; }
 namespace UnityEngine::AI { class NavMeshPathAsyncOperation; }
 
-#define FOOIINCDBFA___C__DISPLAYCLASS76_0_CTOR_OFFSET UNITYSDK_OFFSET(0x158FC400)
-#define FOOIINCDBFA___C__DISPLAYCLASS76_0___STARTPATHQUERY_B__0_OFFSET UNITYSDK_OFFSET(0x158FDDB0)
+#define FOOIINCDBFA___C__DISPLAYCLASS76_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18767730)
+#define FOOIINCDBFA___C__DISPLAYCLASS76_0___STARTPATHQUERY_B__0_OFFSET UNITYSDK_OFFSET(0x187690C0)
 
-inline static constexpr unsigned int FOOIINCDBFA___c__DisplayClass76_0_TypeDefinitionIndex = 57122;
+inline static constexpr unsigned int FOOIINCDBFA___c__DisplayClass76_0_TypeDefinitionIndex = 58351;
 
 	class FOOIINCDBFA___c__DisplayClass76_0 : public ::System::Object
 	{
 	public:
-		::FOOIINCDBFA* __4__this; // 0x10
+		::UnityEngine::AI::NavMeshPathAsyncOperation* op; // 0x10
 		::UnityEngine::AI::NavMeshPath* path; // 0x18
-		::UnityEngine::AI::NavMeshPathAsyncOperation* op; // 0x20
+		::FOOIINCDBFA* __4__this; // 0x20
 		::PEDAPLLONJD* request; // 0x28
 		::System::Void _ctor()
 		{

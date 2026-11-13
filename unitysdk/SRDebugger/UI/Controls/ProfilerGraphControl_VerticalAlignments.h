@@ -3,7 +3,7 @@
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerGraphControl_VerticalAlignments_TypeDefinitionIndex = 38039;
+	inline static constexpr unsigned int ProfilerGraphControl_VerticalAlignments_TypeDefinitionIndex = 38968;
 
 	enum class ProfilerGraphControl_VerticalAlignments : ::System::Int32
 	{

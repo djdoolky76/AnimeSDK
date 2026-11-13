@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser_VisibleChangedDelegate; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0103A0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB0103E0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__INIT_B__148_0_OFFSET UNITYSDK_OFFSET(0xB0103F0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF5C700)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF5C740)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__INIT_B__148_0_OFFSET UNITYSDK_OFFSET(0x1BF5C750)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c_TypeDefinitionIndex = 46623;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c_TypeDefinitionIndex = 47651;
 
 	class MiHoYoSDKWebViewManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2DAA0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x22650);
 		}
 
 		static ::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate** StaticGet___9__148_0()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2DAA8);
+			return (::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x22658);
 		}
 
 		static ::System::Void _cctor()

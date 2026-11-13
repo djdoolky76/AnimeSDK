@@ -5,9 +5,9 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class IConfigReader; }
 
-#define UNITYENGINE_CONFIGREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3ADF60)
-#define UNITYENGINE_CONFIGREADER_GET_CUSTOMREADERS_OFFSET UNITYSDK_OFFSET(0x1F3ADF30)
-#define UNITYENGINE_CONFIGREADER_READFROMPATH_OFFSET UNITYSDK_OFFSET(0x1F3ADD80)
+#define UNITYENGINE_CONFIGREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F707D70)
+#define UNITYENGINE_CONFIGREADER_GET_CUSTOMREADERS_OFFSET UNITYSDK_OFFSET(0x1F707D40)
+#define UNITYENGINE_CONFIGREADER_READFROMPATH_OFFSET UNITYSDK_OFFSET(0x1F707B90)
 
 namespace UnityEngine
 {
@@ -18,7 +18,7 @@ namespace UnityEngine
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::IConfigReader*>** StaticGet__customReaders_k__BackingField()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::IConfigReader*>**)UnitySDK::FromName("UnityEngine", "ConfigReader")->GetStaticField(0xF580);
+			return (::System::Collections::Generic::List_1<::UnityEngine::IConfigReader*>**)UnitySDK::FromName("UnityEngine", "ConfigReader")->GetStaticField(0xD280);
 		}
 
 		static ::System::Void _cctor()

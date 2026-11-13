@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NHKBCCOIKLG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1E2000)
-#define NHKBCCOIKLG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1E25D0)
-#define NHKBCCOIKLG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1E2170)
-#define NHKBCCOIKLG_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1D1E1DF0)
-#define NHKBCCOIKLG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1E19F0)
-#define NHKBCCOIKLG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1E1C80)
-#define NHKBCCOIKLG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1E2210)
-#define NHKBCCOIKLG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1E2260)
-#define NHKBCCOIKLG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1E2040)
-#define NHKBCCOIKLG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1E1C20)
-#define NHKBCCOIKLG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1E1E70)
-#define NHKBCCOIKLG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1E20D0)
-#define NHKBCCOIKLG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1E1970)
+#define NHKBCCOIKLG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E74DEF0)
+#define NHKBCCOIKLG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E74E4C0)
+#define NHKBCCOIKLG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E74E060)
+#define NHKBCCOIKLG_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1E74DCE0)
+#define NHKBCCOIKLG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E74D8E0)
+#define NHKBCCOIKLG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E74DB70)
+#define NHKBCCOIKLG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E74E100)
+#define NHKBCCOIKLG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E74E150)
+#define NHKBCCOIKLG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E74DF30)
+#define NHKBCCOIKLG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E74DB10)
+#define NHKBCCOIKLG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E74DD60)
+#define NHKBCCOIKLG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E74DFC0)
+#define NHKBCCOIKLG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E74D860)
 
-inline static constexpr unsigned int NHKBCCOIKLG_TypeDefinitionIndex = 11264;
+inline static constexpr unsigned int NHKBCCOIKLG_TypeDefinitionIndex = 11315;
 
 	class NHKBCCOIKLG : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0x40BC0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAIGroupRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAIGroupRow*>**)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0x40BC8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0x51A50);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0x40BD0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0x51A58);
 		}
 
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAIGroupRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0xF6A0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAIGroupRow*>**)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0x51A60);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0xF6A1);
+			return (::System::Boolean*)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0x119B0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "NHKBCCOIKLG")->GetStaticField(0x119B1);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define NGIMBCAPKDF_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA3B50)
-#define NGIMBCAPKDF_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0xBBA3B60)
+#define NGIMBCAPKDF_CTOR_OFFSET UNITYSDK_OFFSET(0x18E8D8D0)
+#define NGIMBCAPKDF_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0x18E8D8E0)
 
-inline static constexpr unsigned int NGIMBCAPKDF_TypeDefinitionIndex = 82155;
+inline static constexpr unsigned int NGIMBCAPKDF_TypeDefinitionIndex = 85028;
 
 	class NGIMBCAPKDF : public ::System::Attribute
 	{

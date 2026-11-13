@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnviromentControlPriority_TypeDefinitionIndex = 24438;
+	inline static constexpr unsigned int EnviromentControlPriority_TypeDefinitionIndex = 24897;
 
 	enum class EnviromentControlPriority : ::System::Int32
 	{
@@ -12,6 +12,7 @@ namespace RPG::GameCore
 		SCENEAREA = 2,
 		LEVEL_TRIGGER = 3,
 		CHARACTER_EDITOR = 4,
+		TEMPORARY_SUB_STAGE = 5,
 		LOCAL_EVENT = 6,
 		TRANSIT_ENV_TASK = 7,
 		DYNAMIC_BLOCK_AREA = 8,

@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueEscapeLaserConfigRow; }
 
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99DC40)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99D4F0)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2076B7D0)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2076B080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueEscapeLaserConfigRow_TypeDefinitionIndex = 14672;
+	inline static constexpr unsigned int RogueEscapeLaserConfigRow_TypeDefinitionIndex = 14828;
 
 	class RogueEscapeLaserConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ScoreperRound; // 0x10
-		::Il2CppArray<::System::UInt32>* ScoreRange; // 0x18
+		::Il2CppArray<::System::UInt32>* ScoreRange; // 0x10
+		::Il2CppArray<::System::UInt32>* ScoreperRound; // 0x18
 		::System::UInt32 GameTimeperRound; // 0x20
 		::System::UInt32 ScoreperWave; // 0x24
 		::System::UInt32 TotalRounds; // 0x28

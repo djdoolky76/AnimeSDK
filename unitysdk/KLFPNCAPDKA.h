@@ -3,10 +3,10 @@
 class NPCJAJABFIB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KLFPNCAPDKA_CTOR_OFFSET UNITYSDK_OFFSET(0xB51FA00)
-#define KLFPNCAPDKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB51FA30)
+#define KLFPNCAPDKA_CTOR_OFFSET UNITYSDK_OFFSET(0x17B7C800)
+#define KLFPNCAPDKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B7C830)
 
-inline static constexpr unsigned int KLFPNCAPDKA_TypeDefinitionIndex = 53339;
+inline static constexpr unsigned int KLFPNCAPDKA_TypeDefinitionIndex = 54501;
 
 	class KLFPNCAPDKA
 	{

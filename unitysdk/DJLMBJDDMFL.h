@@ -3,10 +3,10 @@
 namespace RPG::Client { class RoadRashGameAbility_SlamCast; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DJLMBJDDMFL_CTOR_OFFSET UNITYSDK_OFFSET(0xF237870)
-#define DJLMBJDDMFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF2378A0)
+#define DJLMBJDDMFL_CTOR_OFFSET UNITYSDK_OFFSET(0x18BF0CD0)
+#define DJLMBJDDMFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BF0D00)
 
-inline static constexpr unsigned int DJLMBJDDMFL_TypeDefinitionIndex = 58408;
+inline static constexpr unsigned int DJLMBJDDMFL_TypeDefinitionIndex = 59664;
 
 	class DJLMBJDDMFL
 	{

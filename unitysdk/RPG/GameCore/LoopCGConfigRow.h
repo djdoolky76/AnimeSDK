@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LoopCGConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOOPCGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C7AA0)
-#define RPG_GAMECORE_LOOPCGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7C7020)
+#define RPG_GAMECORE_LOOPCGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F079E20)
+#define RPG_GAMECORE_LOOPCGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0793A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopCGConfigRow_TypeDefinitionIndex = 15414;
+	inline static constexpr unsigned int LoopCGConfigRow_TypeDefinitionIndex = 15571;
 
 	class LoopCGConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* VideoPath; // 0x10
-		::System::String* CaptionPath; // 0x18
+		::System::String* CaptionPath; // 0x10
+		::System::String* VideoPath; // 0x18
 		::System::Boolean IsPlayerInvolved; // 0x20
 		::System::Byte _padding0[0x3];
 		::System::UInt32 VideoID; // 0x24

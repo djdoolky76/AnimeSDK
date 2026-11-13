@@ -6,19 +6,19 @@ namespace CriWare::CriMana { class Player_SubtitleCallbackFromNativeDelegate; }
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player___O_TypeDefinitionIndex = 40227;
+	inline static constexpr unsigned int Player___O_TypeDefinitionIndex = 41202;
 
 	class Player___O : public ::System::Object
 	{
 	public:
 		static ::CriWare::CriMana::Player_SubtitleCallbackFromNativeDelegate** StaticGet__0___SubtitleCallbackFromNative()
 		{
-			return (::CriWare::CriMana::Player_SubtitleCallbackFromNativeDelegate**)UnitySDK::FromName("CriWare.CriMana", "<>O")->GetStaticField(0x57750);
+			return (::CriWare::CriMana::Player_SubtitleCallbackFromNativeDelegate**)UnitySDK::FromName("CriWare.CriMana", "<>O")->GetStaticField(0x5DDD0);
 		}
 
 		static ::CriWare::CriMana::Player_CuePointCallbackFromNativeDelegate** StaticGet__1___CuePointCallbackFromNative()
 		{
-			return (::CriWare::CriMana::Player_CuePointCallbackFromNativeDelegate**)UnitySDK::FromName("CriWare.CriMana", "<>O")->GetStaticField(0x57758);
+			return (::CriWare::CriMana::Player_CuePointCallbackFromNativeDelegate**)UnitySDK::FromName("CriWare.CriMana", "<>O")->GetStaticField(0x5DDD8);
 		}
 
 	};

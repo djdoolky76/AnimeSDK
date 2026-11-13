@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LDBKEIPCNGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C70AE80)
-#define LDBKEIPCNGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70AEC0)
-#define LDBKEIPCNGA___C___TRYADDCOLORDICEMODIFIER_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C70AED0)
+#define LDBKEIPCNGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC1A750)
+#define LDBKEIPCNGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC1A790)
+#define LDBKEIPCNGA___C___TRYADDCOLORDICEMODIFIER_B__4_0_OFFSET UNITYSDK_OFFSET(0x1AC1A7A0)
 
-inline static constexpr unsigned int LDBKEIPCNGA___c_TypeDefinitionIndex = 36423;
+inline static constexpr unsigned int LDBKEIPCNGA___c_TypeDefinitionIndex = 37351;
 
 	class LDBKEIPCNGA___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14340);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14348);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBEC0);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBEC8);
 		}
 
 		static ::System::Void _cctor()

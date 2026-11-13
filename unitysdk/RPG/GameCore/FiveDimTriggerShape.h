@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B4730)
-#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6B4740)
-#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A3260)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A83D0)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F7A83E0)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7997C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTriggerShape_TypeDefinitionIndex = 18533;
+	inline static constexpr unsigned int FiveDimTriggerShape_TypeDefinitionIndex = 18693;
 
 	class FiveDimTriggerShape : public ::RPG::GameCore::LittleGameComponentConfig
 	{

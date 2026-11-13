@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define PEDCIFADFOG_CTOR_OFFSET UNITYSDK_OFFSET(0xC02CDA0)
+#define PEDCIFADFOG_CTOR_OFFSET UNITYSDK_OFFSET(0x104485D0)
 
-inline static constexpr unsigned int PEDCIFADFOG_TypeDefinitionIndex = 74006;
+inline static constexpr unsigned int PEDCIFADFOG_TypeDefinitionIndex = 76142;
 
 	class PEDCIFADFOG
 	{

@@ -4,18 +4,18 @@
 class IGNNGONLFAJ;
 namespace System { class Object; }
 
-#define IGNNGONLFAJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6265E0)
-#define IGNNGONLFAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E626620)
-#define IGNNGONLFAJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E626630)
+#define IGNNGONLFAJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7E9620)
+#define IGNNGONLFAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7E9660)
+#define IGNNGONLFAJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F7E9670)
 
-inline static constexpr unsigned int IGNNGONLFAJ___c_TypeDefinitionIndex = 34859;
+inline static constexpr unsigned int IGNNGONLFAJ___c_TypeDefinitionIndex = 35787;
 
 	class IGNNGONLFAJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C140);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46470);
 		}
 
 		static ::System::Void _cctor()

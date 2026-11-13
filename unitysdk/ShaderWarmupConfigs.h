@@ -4,33 +4,33 @@
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define SHADERWARMUPCONFIGS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE95F380)
-#define SHADERWARMUPCONFIGS_GET_ISPSOWARMUP_OFFSET UNITYSDK_OFFSET(0xE95F320)
-#define SHADERWARMUPCONFIGS_GET_SUPPORTPSOWARMUP_OFFSET UNITYSDK_OFFSET(0xE95F310)
+#define SHADERWARMUPCONFIGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC31FC0)
+#define SHADERWARMUPCONFIGS_GET_ISPSOWARMUP_OFFSET UNITYSDK_OFFSET(0x1AC31F60)
+#define SHADERWARMUPCONFIGS_GET_SUPPORTPSOWARMUP_OFFSET UNITYSDK_OFFSET(0x1AC31F50)
 
-inline static constexpr unsigned int ShaderWarmupConfigs_TypeDefinitionIndex = 47433;
+inline static constexpr unsigned int ShaderWarmupConfigs_TypeDefinitionIndex = 48462;
 
 	class ShaderWarmupConfigs : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_PSOWarmupCountPerTickCVar()
-		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "ShaderWarmupConfigs")->GetStaticField(0xAA40);
-		}
-
-		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_ForcePSOIgnoreUserSettingsCVar()
-		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ShaderWarmupConfigs")->GetStaticField(0xAA50);
-		}
-
 		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_PreferPSOWarmupCVar()
 		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ShaderWarmupConfigs")->GetStaticField(0xAA60);
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ShaderWarmupConfigs")->GetStaticField(0x13160);
+		}
+
+		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_PSOWarmupCountPerTickCVar()
+		{
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "ShaderWarmupConfigs")->GetStaticField(0x13170);
 		}
 
 		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_EnableWarmupCVar()
 		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ShaderWarmupConfigs")->GetStaticField(0xAA70);
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ShaderWarmupConfigs")->GetStaticField(0x13180);
+		}
+
+		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_ForcePSOIgnoreUserSettingsCVar()
+		{
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ShaderWarmupConfigs")->GetStaticField(0x13190);
 		}
 
 		static ::System::Void _cctor()

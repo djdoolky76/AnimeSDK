@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class JMOFEOFNLDC;
 
-#define JMHEMBCIHCE_CTOR_OFFSET UNITYSDK_OFFSET(0xB260390)
-#define JMHEMBCIHCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB260610)
+#define JMHEMBCIHCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AEC70)
+#define JMHEMBCIHCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A0AEEF0)
 
-inline static constexpr unsigned int JMHEMBCIHCE_TypeDefinitionIndex = 69568;
+inline static constexpr unsigned int JMHEMBCIHCE_TypeDefinitionIndex = 71525;
 
 	class JMHEMBCIHCE : public ::System::Object
 	{

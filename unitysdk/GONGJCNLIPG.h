@@ -4,10 +4,10 @@
 class ADGFFEDNPPO;
 namespace RPG::GameCore { class GameWorld; }
 
-#define GONGJCNLIPG_CIAAPMPJPBB_OFFSET UNITYSDK_OFFSET(0x15B2EF40)
-#define GONGJCNLIPG_HNDBKEFFPNE_1_OFFSET UNITYSDK_OFFSET(0x15B2EFD0)
+#define GONGJCNLIPG_CIAAPMPJPBB_OFFSET UNITYSDK_OFFSET(0x187BFAB0)
+#define GONGJCNLIPG_HNDBKEFFPNE_1_OFFSET UNITYSDK_OFFSET(0x187BFB40)
 
-inline static constexpr unsigned int GONGJCNLIPG_TypeDefinitionIndex = 53713;
+inline static constexpr unsigned int GONGJCNLIPG_TypeDefinitionIndex = 54877;
 
 	class GONGJCNLIPG : public ::System::Object
 	{

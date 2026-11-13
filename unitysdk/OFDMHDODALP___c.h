@@ -4,18 +4,18 @@
 class OFDMHDODALP;
 namespace System { class Object; }
 
-#define OFDMHDODALP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE0A140)
-#define OFDMHDODALP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE0A180)
-#define OFDMHDODALP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DE0A190)
+#define OFDMHDODALP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1F9CD0)
+#define OFDMHDODALP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F9D10)
+#define OFDMHDODALP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F1F9D20)
 
-inline static constexpr unsigned int OFDMHDODALP___c_TypeDefinitionIndex = 30300;
+inline static constexpr unsigned int OFDMHDODALP___c_TypeDefinitionIndex = 31206;
 
 	class OFDMHDODALP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x152A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11CF0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define DIKAEHJFGEE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF2091A0)
-#define DIKAEHJFGEE___C__DISPLAYCLASS10_0___FILLBOSSHP_B__0_OFFSET UNITYSDK_OFFSET(0xF209320)
+#define DIKAEHJFGEE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18EC3690)
+#define DIKAEHJFGEE___C__DISPLAYCLASS10_0___FILLBOSSHP_B__0_OFFSET UNITYSDK_OFFSET(0x18EC3810)
 
-inline static constexpr unsigned int DIKAEHJFGEE___c__DisplayClass10_0_TypeDefinitionIndex = 57608;
+inline static constexpr unsigned int DIKAEHJFGEE___c__DisplayClass10_0_TypeDefinitionIndex = 58836;
 
 	class DIKAEHJFGEE___c__DisplayClass10_0 : public ::System::Object
 	{

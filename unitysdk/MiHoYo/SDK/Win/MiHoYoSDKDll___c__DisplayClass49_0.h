@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6BBA0)
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS49_0__LOGIN_WILL_ENTER_GAME_B__0_OFFSET UNITYSDK_OFFSET(0x1BD733D0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19CBC1D0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS49_0__LOGIN_WILL_ENTER_GAME_B__0_OFFSET UNITYSDK_OFFSET(0x19CC39E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass49_0_TypeDefinitionIndex = 9438;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass49_0_TypeDefinitionIndex = 9446;
 
 	class MiHoYoSDKDll___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:
-		::System::String* jsonString; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x10
+		::System::String* jsonString; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS49_0_CTOR_OFFSET))(this);

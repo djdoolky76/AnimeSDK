@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KLEAFONPDBM_ChangeSource_TypeDefinitionIndex = 73312;
+inline static constexpr unsigned int KLEAFONPDBM_ChangeSource_TypeDefinitionIndex = 75429;
 
 	enum class KLEAFONPDBM_ChangeSource : ::System::Int32
 	{

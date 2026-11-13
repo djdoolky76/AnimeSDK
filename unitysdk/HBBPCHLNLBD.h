@@ -9,11 +9,11 @@ class MDIMPDIOOIE;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define HBBPCHLNLBD_FCGIIIPNJAH_OFFSET UNITYSDK_OFFSET(0x1C4590E0)
-#define HBBPCHLNLBD_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C459240)
-#define HBBPCHLNLBD_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C4580A0)
+#define HBBPCHLNLBD_FCGIIIPNJAH_OFFSET UNITYSDK_OFFSET(0x15B18FE0)
+#define HBBPCHLNLBD_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x15B19140)
+#define HBBPCHLNLBD_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x15B17FA0)
 
-inline static constexpr unsigned int HBBPCHLNLBD_TypeDefinitionIndex = 41540;
+inline static constexpr unsigned int HBBPCHLNLBD_TypeDefinitionIndex = 42515;
 
 	class HBBPCHLNLBD : public ::System::Object
 	{

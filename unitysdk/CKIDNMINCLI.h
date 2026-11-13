@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define CKIDNMINCLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E48B0)
+#define CKIDNMINCLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB16AF0)
 
-inline static constexpr unsigned int CKIDNMINCLI_TypeDefinitionIndex = 42807;
+inline static constexpr unsigned int CKIDNMINCLI_TypeDefinitionIndex = 43787;
 
 	class CKIDNMINCLI : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

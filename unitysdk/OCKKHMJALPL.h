@@ -7,7 +7,7 @@ class OEIKFPLBOMH;
 namespace Sofa { class BaseSofaControl; }
 namespace System { class IDisposable; }
 
-inline static constexpr unsigned int OCKKHMJALPL_TypeDefinitionIndex = 49841;
+inline static constexpr unsigned int OCKKHMJALPL_TypeDefinitionIndex = 50889;
 
 	class OCKKHMJALPL : public ::System::Object
 	{

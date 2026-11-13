@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PackedConsistencyCheckData_TypeDefinitionIndex = 76561;
+	inline static constexpr unsigned int PackedConsistencyCheckData_TypeDefinitionIndex = 78892;
 
 	struct alignas(8) PackedConsistencyCheckData
 	{

@@ -4,18 +4,18 @@
 class ECOAKLBOLDA;
 namespace System { class Object; }
 
-#define ECOAKLBOLDA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E22A780)
-#define ECOAKLBOLDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E22A7B0)
-#define ECOAKLBOLDA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E22A7C0)
+#define ECOAKLBOLDA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F37E100)
+#define ECOAKLBOLDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F37E130)
+#define ECOAKLBOLDA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F37E140)
 
-inline static constexpr unsigned int ECOAKLBOLDA___c_TypeDefinitionIndex = 31279;
+inline static constexpr unsigned int ECOAKLBOLDA___c_TypeDefinitionIndex = 32192;
 
 	class ECOAKLBOLDA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42F70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45750);
 		}
 
 		static ::System::Void _cctor()

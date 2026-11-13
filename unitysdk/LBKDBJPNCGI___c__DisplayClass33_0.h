@@ -5,16 +5,16 @@ class LBKDBJPNCGI;
 namespace RPG::Client::DiceCombat { class DiceCombatChangeDicePageParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define LBKDBJPNCGI___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5FD100)
-#define LBKDBJPNCGI___C__DISPLAYCLASS33_0__HANDLESHOWCHANGEDICEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xB600560)
+#define LBKDBJPNCGI___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B2A1600)
+#define LBKDBJPNCGI___C__DISPLAYCLASS33_0__HANDLESHOWCHANGEDICEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1B2A4A60)
 
-inline static constexpr unsigned int LBKDBJPNCGI___c__DisplayClass33_0_TypeDefinitionIndex = 76112;
+inline static constexpr unsigned int LBKDBJPNCGI___c__DisplayClass33_0_TypeDefinitionIndex = 78439;
 
 	class LBKDBJPNCGI___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::DiceCombat::DiceCombatChangeDicePageParam* param; // 0x10
-		::LBKDBJPNCGI* __4__this; // 0x18
+		::LBKDBJPNCGI* __4__this; // 0x10
+		::RPG::Client::DiceCombat::DiceCombatChangeDicePageParam* param; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBKDBJPNCGI___C__DISPLAYCLASS33_0_CTOR_OFFSET))(this);

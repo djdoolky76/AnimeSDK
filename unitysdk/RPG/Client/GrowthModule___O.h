@@ -5,44 +5,49 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthModule___O_TypeDefinitionIndex = 65603;
+	inline static constexpr unsigned int GrowthModule___O_TypeDefinitionIndex = 67521;
 
 	class GrowthModule___O : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__4___IsWeeklyMonsterDrop()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19DF0);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__7___IsTrackOfDestiny()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19DF8);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__5___IsCredit()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19E00);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__3___IsTracePath()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19E08);
+		}
+
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__0___IsAvatarExp()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0xFE20);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19E10);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__4___IsCredit()
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__2___IsAvatarRank()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0xFE28);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19E18);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__6___IsTrackOfDestiny()
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__1___IsEquipmentExp()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0xFE30);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19E20);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__3___IsWeeklyMonsterDrop()
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__6___IsCommonMonsterDrop()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0xFE38);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__5___IsCommonMonsterDrop()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0xFE40);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__2___IsTracePath()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0xFE48);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__1___IsAvatarRank()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0xFE50);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19E28);
 		}
 
 	};

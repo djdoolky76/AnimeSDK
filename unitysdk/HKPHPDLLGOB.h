@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BuildTimelineEntityState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HKPHPDLLGOB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D44E50)
-#define HKPHPDLLGOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D44E80)
+#define HKPHPDLLGOB_CTOR_OFFSET UNITYSDK_OFFSET(0x19891CC0)
+#define HKPHPDLLGOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19891CF0)
 
-inline static constexpr unsigned int HKPHPDLLGOB_TypeDefinitionIndex = 53364;
+inline static constexpr unsigned int HKPHPDLLGOB_TypeDefinitionIndex = 54526;
 
 	class HKPHPDLLGOB
 	{

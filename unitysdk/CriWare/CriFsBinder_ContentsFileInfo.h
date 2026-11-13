@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIFSBINDER_CONTENTSFILEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E8EDF0)
+#define CRIWARE_CRIFSBINDER_CONTENTSFILEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x3F367F0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsBinder_ContentsFileInfo_TypeDefinitionIndex = 40104;
+	inline static constexpr unsigned int CriFsBinder_ContentsFileInfo_TypeDefinitionIndex = 41079;
 
 	struct alignas(8) CriFsBinder_ContentsFileInfo
 	{

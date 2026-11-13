@@ -5,16 +5,16 @@
 #include "unitysdk/System/Object.h"
 class KFELGAIGHAP;
 
-#define DJJBLMHHLDL_CTOR_OFFSET UNITYSDK_OFFSET(0xF230B40)
+#define DJJBLMHHLDL_CTOR_OFFSET UNITYSDK_OFFSET(0x18BE9F60)
 
-inline static constexpr unsigned int DJJBLMHHLDL_TypeDefinitionIndex = 55842;
+inline static constexpr unsigned int DJJBLMHHLDL_TypeDefinitionIndex = 57045;
 
 	class DJJBLMHHLDL : public ::System::Object
 	{
 	public:
 		::KFELGAIGHAP* OGDBCFBPOAH; // 0x10
-		::RPG::GameCore::ModifierBehaviorFlagEventType GMPGDEINODK; // 0x18
-		::RPG::GameCore::ModifierBehaviorFlag FNPGDNFLMPC; // 0x1C
+		::RPG::GameCore::ModifierBehaviorFlag FNPGDNFLMPC; // 0x18
+		::RPG::GameCore::ModifierBehaviorFlagEventType GMPGDEINODK; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJJBLMHHLDL_CTOR_OFFSET))(this);

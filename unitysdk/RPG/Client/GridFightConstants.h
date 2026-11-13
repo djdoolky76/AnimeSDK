@@ -9,265 +9,361 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0E9120)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS_CTOR_OFFSET UNITYSDK_OFFSET(0xD0E9110)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS_GETSEASONUPDATEDESC_OFFSET UNITYSDK_OFFSET(0xD0E8ED0)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUEBOOL_OFFSET UNITYSDK_OFFSET(0xD0E85F0)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUEDICT_OFFSET UNITYSDK_OFFSET(0xD0E86C0)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUELIST_OFFSET UNITYSDK_OFFSET(0xD0E83B0)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xD0E82F0)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETSEASONUPDATEDESCSWITCH_OFFSET UNITYSDK_OFFSET(0xD0E8A90)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5960C0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5960B0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS_GETSEASONUPDATEDESC_OFFSET UNITYSDK_OFFSET(0x1D595E70)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUEBOOL_OFFSET UNITYSDK_OFFSET(0x1D5955E0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUEDICT_OFFSET UNITYSDK_OFFSET(0x1D5956B0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUELIST_OFFSET UNITYSDK_OFFSET(0x1D5953A0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUESTRING_OFFSET UNITYSDK_OFFSET(0x1D595230)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUE_OFFSET UNITYSDK_OFFSET(0x1D5952E0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETSEASONUPDATEDESCSWITCH_OFFSET UNITYSDK_OFFSET(0x1D595A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightConstants_TypeDefinitionIndex = 64860;
+	inline static constexpr unsigned int GridFightConstants_TypeDefinitionIndex = 66409;
 
 	class GridFightConstants : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TextID>** StaticGet__SeasonUpdateDescSwitch()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C60);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_DivisionLevelUpTable()
-		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C68);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_TanTaoAffixIDs()
-		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C70);
-		}
-
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_GuideLevels()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C78);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightEquipCategory>** StaticGet_CraftCostEquipCategories()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightEquipCategory>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C80);
-		}
-
-		static ::System::String** StaticGet_SeasonNameTextID()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C88);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD590);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_TutorialSpecialStageIDList()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C90);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD598);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_ShowSubTraitNameTraitList()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5A0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TextID>** StaticGet__SeasonUpdateDescSwitch()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5A8);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_EquipAtlasBanList()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5B0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightEquipCategory>** StaticGet_CraftCostEquipCategories()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightEquipCategory>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5B8);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_GridFight_EquipType_Support()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5C0);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_GridFight_EquipType_Attack()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5C8);
+		}
+
+		static ::System::String** StaticGet_SeasonNameTextID()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5D0);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_AhaRoleIDList()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5D8);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_ShowEffectRoleIDsInEnhance()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C98);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5E0);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_SevenPriceRoleIDList()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5E8);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_TanTaoAffixIDs()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5F0);
+		}
+
+		static ::System::String** StaticGet_AhaGrowthSavedValueKey()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD5F8);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_DivisionLevelUpTable()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD600);
 		}
 
 		static ::Il2CppArray<::RPG::GameCore::AvatarPropertyType>** StaticGet_HandBookAvatarPropertyTypes()
 		{
-			return (::Il2CppArray<::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1CA0);
-		}
-
-		static ::System::UInt32* StaticGet_GridFightContentID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BD0);
-		}
-
-		static ::System::UInt32* StaticGet_PropMappingInfoID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BD4);
-		}
-
-		static ::System::UInt32* StaticGet_FormationSlotNum()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BD8);
-		}
-
-		static ::System::UInt32* StaticGet_GridStartIndex()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BDC);
-		}
-
-		static ::System::UInt32* StaticGet_MaxMemberCount()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BE0);
-		}
-
-		static ::System::UInt32* StaticGet_ElationSpecialOrbID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BE4);
-		}
-
-		static ::System::UInt32* StaticGet_FormationTitleLengthLimit()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BE8);
-		}
-
-		static ::System::UInt32* StaticGet_MaxBoardMemberCount()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BEC);
+			return (::Il2CppArray<::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0xD608);
 		}
 
 		static ::RPG::Client::TextID* StaticGet_DefaultSeasonUpdateDescTextID()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1BF0);
-		}
-
-		static ::System::UInt32* StaticGet_NewBieDivisionLevel()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C00);
-		}
-
-		static ::System::UInt32* StaticGet_TrialRoleWorldLevel()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C04);
-		}
-
-		static ::System::UInt32* StaticGet_FormationDescLengthLimit()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C08);
-		}
-
-		static ::System::UInt32* StaticGet_DraftRoleStar()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C0C);
-		}
-
-		static ::System::UInt32* StaticGet_PropEntranceID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C10);
-		}
-
-		static ::System::UInt32* StaticGet_FormationEditEquipDragAngle()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C14);
-		}
-
-		static ::System::UInt32* StaticGet_MaxFrontMemberCount()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C18);
-		}
-
-		static ::System::UInt32* StaticGet_EquipTrackMaxMemberCount()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C1C);
-		}
-
-		static ::System::UInt32* StaticGet_MaxOverCrowdCount()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C20);
-		}
-
-		static ::System::Single* StaticGet_ExtraSeasonExpRatio()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C24);
-		}
-
-		static ::System::UInt32* StaticGet_TanTaoLevel()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C28);
-		}
-
-		static ::System::UInt32* StaticGet_MaxBackMemberCount()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C2C);
-		}
-
-		static ::System::UInt32* StaticGet_MaxRoleStar()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C30);
-		}
-
-		static ::System::UInt32* StaticGet_IsDoubleSeasonExp()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C34);
-		}
-
-		static ::System::Boolean* StaticGet_IsShowSeasonUpdatedNotice()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C38);
-		}
-
-		static ::System::Boolean* StaticGet_IsShowSeasonTimeOverHint()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C39);
-		}
-
-		static ::System::UInt32* StaticGet_RoleStarUpgradeCountRequirement()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C3C);
-		}
-
-		static ::System::UInt32* StaticGet_OpenOrbWaitMs()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C40);
-		}
-
-		static ::System::UInt32* StaticGet_NewSeasonLockModuleID()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C44);
-		}
-
-		static ::System::UInt32* StaticGet_ExtraSeasonExpMax()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C48);
-		}
-
-		static ::System::UInt32* StaticGet_FormationEditRoleDragAngle()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C4C);
-		}
-
-		static ::System::UInt32* StaticGet_MaxBenchMemberCount()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C50);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D40);
 		}
 
 		static ::System::UInt32* StaticGet_MainPageUnlockId()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C54);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D50);
 		}
 
-		static ::System::UInt32* StaticGet_RelicItemID()
+		static ::System::UInt32* StaticGet_NewBieDivisionLevel()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C58);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D54);
 		}
 
-		static ::System::UInt32* StaticGet_OverChargeModeUnlockQuestID()
+		static ::System::UInt32* StaticGet_MaxMemberCount()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C5C);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D58);
 		}
 
-		static ::System::UInt32* StaticGet_GalaxyRangersLeaderID()
+		static ::System::Boolean* StaticGet_IsShowSeasonUpdatedNotice()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C60);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D5C);
+		}
+
+		static ::System::Boolean* StaticGet_IsShowSeasonTimeOverHint()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D5D);
+		}
+
+		static ::System::UInt32* StaticGet_EquipTrackMaxMemberCount()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D60);
+		}
+
+		static ::System::Single* StaticGet_ExtraSeasonExpRatio()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D64);
+		}
+
+		static ::System::UInt32* StaticGet_MaxFrontMemberCount()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D68);
+		}
+
+		static ::System::UInt32* StaticGet_IsDoubleSeasonExp()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D6C);
+		}
+
+		static ::System::UInt32* StaticGet_OpenOrbWaitMs()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D70);
+		}
+
+		static ::System::UInt32* StaticGet_SpotLightDifficultyThreshold()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D74);
+		}
+
+		static ::System::UInt32* StaticGet_MaxOverCrowdCount()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D78);
+		}
+
+		static ::System::UInt32* StaticGet_FormationEditEquipDragAngle()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D7C);
+		}
+
+		static ::System::UInt32* StaticGet_AdditionalTraitRoleChooseTraitID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D80);
+		}
+
+		static ::System::UInt32* StaticGet_TanTaoLevel()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D84);
+		}
+
+		static ::System::UInt32* StaticGet_RoleStarUpgradeCountRequirement()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D88);
+		}
+
+		static ::System::UInt32* StaticGet_FormationEditRoleDragAngle()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D8C);
+		}
+
+		static ::System::UInt32* StaticGet_FormationDescLengthLimit()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D90);
+		}
+
+		static ::System::UInt32* StaticGet_S2DanHengPTID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D94);
 		}
 
 		static ::System::UInt32* StaticGet_DivisionLevelUpMaxValuePerGame()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C64);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D98);
 		}
 
-		static ::System::UInt32* StaticGet_ActivityID()
+		static ::System::UInt32* StaticGet_OverChargeModeUnlockQuestID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C68);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2D9C);
 		}
 
-		static ::System::UInt32* StaticGet_CoinItemID()
+		static ::System::UInt32* StaticGet_GridStartIndex()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C6C);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DA0);
+		}
+
+		static ::System::UInt32* StaticGet_GalaxyRangersLeaderID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DA4);
+		}
+
+		static ::System::UInt32* StaticGet_S2DanHengILID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DA8);
+		}
+
+		static ::System::UInt32* StaticGet_FormationTitleLengthLimit()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DAC);
+		}
+
+		static ::System::UInt32* StaticGet_MaxBenchMemberCount()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DB0);
+		}
+
+		static ::System::UInt32* StaticGet_CyreneSpecialGoodsGroupID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DB4);
+		}
+
+		static ::System::UInt32* StaticGet_WorkaholicChimeraID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DB8);
+		}
+
+		static ::System::UInt32* StaticGet_RelicItemID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DBC);
+		}
+
+		static ::System::UInt32* StaticGet_AhaSpecialGoodsGroupID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DC0);
+		}
+
+		static ::System::UInt32* StaticGet_TraitEffectUnlockLevel()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DC4);
+		}
+
+		static ::System::UInt32* StaticGet_AhaUpperSpecialGoodsGroupID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DC8);
 		}
 
 		static ::System::UInt32* StaticGet_ShowSpecialFrontBackTypeTraitID()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C70);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DCC);
+		}
+
+		static ::System::UInt32* StaticGet_CoinItemID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DD0);
+		}
+
+		static ::System::UInt32* StaticGet_ElationSpecialOrbID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DD4);
 		}
 
 		static ::System::UInt32* StaticGet_MaxRoleEquipCount()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x1C74);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DD8);
+		}
+
+		static ::System::UInt32* StaticGet_TrialRoleWorldLevel()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DDC);
+		}
+
+		static ::System::UInt32* StaticGet_MaxBackMemberCount()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DE0);
+		}
+
+		static ::System::UInt32* StaticGet_ExtraSeasonExpMax()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DE4);
+		}
+
+		static ::System::UInt32* StaticGet_NewSeasonLockModuleID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DE8);
+		}
+
+		static ::System::UInt32* StaticGet_PropEntranceID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DEC);
+		}
+
+		static ::System::UInt32* StaticGet_PropMappingInfoID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DF0);
+		}
+
+		static ::System::UInt32* StaticGet_MaxRoleStar()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DF4);
+		}
+
+		static ::System::UInt32* StaticGet_GridFightContentID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DF8);
+		}
+
+		static ::System::UInt32* StaticGet_AhaAvatarID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2DFC);
+		}
+
+		static ::System::UInt32* StaticGet_MaxBoardMemberCount()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2E00);
+		}
+
+		static ::System::UInt32* StaticGet_FormationSlotNum()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2E04);
+		}
+
+		static ::System::UInt32* StaticGet_DraftRoleStar()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2E08);
+		}
+
+		static ::System::UInt32* StaticGet_FeiYingRoleID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2E0C);
+		}
+
+		static ::System::UInt32* StaticGet_PamKingID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2E10);
+		}
+
+		static ::System::UInt32* StaticGet_ActivityID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "GridFightConstants")->GetStaticField(0x2E14);
 		}
 
 		::System::Void _ctor()
@@ -278,6 +374,11 @@ namespace RPG::Client
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCONSTANTS_CCTOR_OFFSET))();
+		}
+
+		static ::System::String* _GetConstValueString(::System::String* a1, ::System::String* a2)
+		{
+			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUESTRING_OFFSET))(a1, a2);
 		}
 
 		static ::System::UInt32 _GetConstValue(::System::String* a1, ::System::UInt32 a2)

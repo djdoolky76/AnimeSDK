@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRPLANESTATUSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB5DA20)
-#define RPG_CLIENT_PIXAIR_PIXAIRPLANESTATUSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB5DA60)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLANESTATUSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D827C10)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLANESTATUSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D827C50)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneStatusControl___c_TypeDefinitionIndex = 79246;
+	inline static constexpr unsigned int PixAirPlaneStatusControl___c_TypeDefinitionIndex = 82023;
 
 	class PixAirPlaneStatusControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x21B80);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x3B280);
 		}
 
 		static ::System::Void _cctor()

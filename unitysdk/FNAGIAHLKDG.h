@@ -3,10 +3,10 @@
 class DNILHDGHLGL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNAGIAHLKDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1585C200)
-#define FNAGIAHLKDG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1585C230)
+#define FNAGIAHLKDG_CTOR_OFFSET UNITYSDK_OFFSET(0x17F0F060)
+#define FNAGIAHLKDG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17F0F090)
 
-inline static constexpr unsigned int FNAGIAHLKDG_TypeDefinitionIndex = 54702;
+inline static constexpr unsigned int FNAGIAHLKDG_TypeDefinitionIndex = 55868;
 
 	class FNAGIAHLKDG
 	{

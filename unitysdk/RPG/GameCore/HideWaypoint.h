@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HideWaypoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HIDEWAYPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73C2B0)
-#define RPG_GAMECORE_HIDEWAYPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D73C2C0)
-#define RPG_GAMECORE_HIDEWAYPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73C270)
+#define RPG_GAMECORE_HIDEWAYPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE75490)
+#define RPG_GAMECORE_HIDEWAYPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE754A0)
+#define RPG_GAMECORE_HIDEWAYPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE75450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideWaypoint_TypeDefinitionIndex = 20871;
+	inline static constexpr unsigned int HideWaypoint_TypeDefinitionIndex = 21208;
 
 	class HideWaypoint : public ::RPG::GameCore::TaskConfig
 	{

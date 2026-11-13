@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearHPSharedGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCECJCDPGIC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C0B550)
-#define HCECJCDPGIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C0B580)
+#define HCECJCDPGIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7AAA50)
+#define HCECJCDPGIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7AAA80)
 
-inline static constexpr unsigned int HCECJCDPGIC_TypeDefinitionIndex = 55088;
+inline static constexpr unsigned int HCECJCDPGIC_TypeDefinitionIndex = 56265;
 
 	class HCECJCDPGIC
 	{

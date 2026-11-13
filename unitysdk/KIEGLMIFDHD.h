@@ -10,19 +10,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define KIEGLMIFDHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8D2ED0)
-#define KIEGLMIFDHD_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x1C8D2E10)
-#define KIEGLMIFDHD_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1C8D2D80)
+#define KIEGLMIFDHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A30C260)
+#define KIEGLMIFDHD_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x1A30C1A0)
+#define KIEGLMIFDHD_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1A30C110)
 
-inline static constexpr unsigned int KIEGLMIFDHD_TypeDefinitionIndex = 43185;
+inline static constexpr unsigned int KIEGLMIFDHD_TypeDefinitionIndex = 44166;
 
 	class KIEGLMIFDHD : public ::System::Object
 	{
 	public:
 		::UnityEngine::GameObject* DPOACALMDHL; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*>* OPFONBJKILL; // 0x18
-		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>* PHNLEFPHEJJ; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayerType, ::CDENJKCGLIB*>* PAHBOBOBKGH; // 0x28
+		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>* PHNLEFPHEJJ; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayerType, ::CDENJKCGLIB*>* PAHBOBOBKGH; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*>* OPFONBJKILL; // 0x28
 		::FOPMCFANCBP* PBADFMGJPAM; // 0x30
 		::System::Void _ctor()
 		{

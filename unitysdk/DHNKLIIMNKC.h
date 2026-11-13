@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBattleResultAsWin; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DHNKLIIMNKC_CTOR_OFFSET UNITYSDK_OFFSET(0xEBE5680)
-#define DHNKLIIMNKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBE56B0)
+#define DHNKLIIMNKC_CTOR_OFFSET UNITYSDK_OFFSET(0x18EACDC0)
+#define DHNKLIIMNKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18EACDF0)
 
-inline static constexpr unsigned int DHNKLIIMNKC_TypeDefinitionIndex = 58518;
+inline static constexpr unsigned int DHNKLIIMNKC_TypeDefinitionIndex = 59782;
 
 	class DHNKLIIMNKC
 	{

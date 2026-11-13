@@ -6,20 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantContactsConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D962380)
-#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9621E0)
+#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x207267E0)
+#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x20726640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantContactsConfigRow_TypeDefinitionIndex = 11390;
+	inline static constexpr unsigned int RestaurantContactsConfigRow_TypeDefinitionIndex = 11441;
 
 	class RestaurantContactsConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 ContactsID; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 ContactsID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_CTOR_OFFSET))(this);

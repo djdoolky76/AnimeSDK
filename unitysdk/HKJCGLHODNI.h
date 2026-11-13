@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HALHKJLBIKJ;
 
-#define HKJCGLHODNI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D3B700)
+#define HKJCGLHODNI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19884F20)
 
-inline static constexpr unsigned int HKJCGLHODNI_TypeDefinitionIndex = 76424;
+inline static constexpr unsigned int HKJCGLHODNI_TypeDefinitionIndex = 78755;
 
 	class HKJCGLHODNI : public ::System::Object
 	{

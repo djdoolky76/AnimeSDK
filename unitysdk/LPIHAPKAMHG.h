@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PrefabLoadMeta; }
 
-inline static constexpr unsigned int LPIHAPKAMHG_TypeDefinitionIndex = 49973;
+inline static constexpr unsigned int LPIHAPKAMHG_TypeDefinitionIndex = 51021;
 
 	class LPIHAPKAMHG : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 class MFKCHBKHKLO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JBEKMNHAJGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1655B890)
-#define JBEKMNHAJGA_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0x1655B880)
+#define JBEKMNHAJGA_CTOR_OFFSET UNITYSDK_OFFSET(0x19A6B6B0)
+#define JBEKMNHAJGA_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0x19A6B6A0)
 
-inline static constexpr unsigned int JBEKMNHAJGA_TypeDefinitionIndex = 80753;
+inline static constexpr unsigned int JBEKMNHAJGA_TypeDefinitionIndex = 83533;
 
 	class JBEKMNHAJGA : public ::System::Object
 	{

@@ -6,19 +6,19 @@ namespace System { class Object; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define KLKKNCOCOAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB525A10)
-#define KLKKNCOCOAJ_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xB525980)
-#define KLKKNCOCOAJ_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xB525A70)
-#define KLKKNCOCOAJ_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xB525A20)
+#define KLKKNCOCOAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17B82D60)
+#define KLKKNCOCOAJ_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x17B82CD0)
+#define KLKKNCOCOAJ_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x17B82DC0)
+#define KLKKNCOCOAJ_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x17B82D70)
 
-inline static constexpr unsigned int KLKKNCOCOAJ_TypeDefinitionIndex = 64549;
+inline static constexpr unsigned int KLKKNCOCOAJ_TypeDefinitionIndex = 66079;
 
 	class KLKKNCOCOAJ : public ::System::Object
 	{
 	public:
 		static ::KLKKNCOCOAJ** StaticGet_FLMODBLFAGD()
 		{
-			return (::KLKKNCOCOAJ**)UnitySDK::FromName("", "KLKKNCOCOAJ")->GetStaticField(0x5A6C0);
+			return (::KLKKNCOCOAJ**)UnitySDK::FromName("", "KLKKNCOCOAJ")->GetStaticField(0x66C70);
 		}
 
 		::System::Void _ctor()

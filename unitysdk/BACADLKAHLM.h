@@ -3,10 +3,10 @@
 class EPJLDNFONEE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BACADLKAHLM_CTOR_OFFSET UNITYSDK_OFFSET(0x15BC63F0)
-#define BACADLKAHLM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15BC6420)
+#define BACADLKAHLM_CTOR_OFFSET UNITYSDK_OFFSET(0x199C5780)
+#define BACADLKAHLM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x199C57B0)
 
-inline static constexpr unsigned int BACADLKAHLM_TypeDefinitionIndex = 54908;
+inline static constexpr unsigned int BACADLKAHLM_TypeDefinitionIndex = 56080;
 
 	class BACADLKAHLM
 	{

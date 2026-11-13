@@ -5,19 +5,19 @@ namespace RPG::Client { class LuaUIController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD8FE230)
-#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS5_0__SHOWMUSEUMMARKETPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xD8FE300)
-#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS5_0__SHOWMUSEUMMARKETPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xD8FE480)
+#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A3F80)
+#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS5_0__SHOWMUSEUMMARKETPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1C2A4100)
+#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS5_0__SHOWMUSEUMMARKETPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x1C2A4280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumUtils___c__DisplayClass5_0_TypeDefinitionIndex = 66357;
+	inline static constexpr unsigned int MuseumUtils___c__DisplayClass5_0_TypeDefinitionIndex = 68293;
 
 	class MuseumUtils___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::RPG::Client::LuaUIController*>* callback; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::System::Action_1<::RPG::Client::LuaUIController*>* callback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

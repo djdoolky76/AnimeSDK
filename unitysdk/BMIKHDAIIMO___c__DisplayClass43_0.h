@@ -5,10 +5,10 @@ class BMIKHDAIIMO;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace UnityEngine { class Object; }
 
-#define BMIKHDAIIMO___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB4430)
-#define BMIKHDAIIMO___C__DISPLAYCLASS43_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xBDB8930)
+#define BMIKHDAIIMO___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A74F620)
+#define BMIKHDAIIMO___C__DISPLAYCLASS43_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x1A74F630)
 
-inline static constexpr unsigned int BMIKHDAIIMO___c__DisplayClass43_0_TypeDefinitionIndex = 73879;
+inline static constexpr unsigned int BMIKHDAIIMO___c__DisplayClass43_0_TypeDefinitionIndex = 76005;
 
 	class BMIKHDAIIMO___c__DisplayClass43_0 : public ::System::Object
 	{

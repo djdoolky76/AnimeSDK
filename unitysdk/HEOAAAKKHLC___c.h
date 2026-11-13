@@ -12,47 +12,47 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define HEOAAAKKHLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA98F40)
-#define HEOAAAKKHLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA98F80)
-#define HEOAAAKKHLC___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1CA98F90)
-#define HEOAAAKKHLC___C___CTOR_B__0_2_OFFSET UNITYSDK_OFFSET(0x1CA98FB0)
-#define HEOAAAKKHLC___C___CTOR_B__0_3_OFFSET UNITYSDK_OFFSET(0x1CA98FD0)
-#define HEOAAAKKHLC___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1CA99030)
-#define HEOAAAKKHLC___C___MAKECHOICE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CA98FF0)
+#define HEOAAAKKHLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA9FFE0)
+#define HEOAAAKKHLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA0020)
+#define HEOAAAKKHLC___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1DAA0030)
+#define HEOAAAKKHLC___C___CTOR_B__0_2_OFFSET UNITYSDK_OFFSET(0x1DAA0050)
+#define HEOAAAKKHLC___C___CTOR_B__0_3_OFFSET UNITYSDK_OFFSET(0x1DAA0070)
+#define HEOAAAKKHLC___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1DAA00D0)
+#define HEOAAAKKHLC___C___MAKECHOICE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DAA0090)
 
-inline static constexpr unsigned int HEOAAAKKHLC___c_TypeDefinitionIndex = 43032;
+inline static constexpr unsigned int HEOAAAKKHLC___c_TypeDefinitionIndex = 44013;
 
 	class HEOAAAKKHLC___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::PKJOPFLMLLB*>** StaticGet___9__18_0()
-		{
-			return (::System::Comparison_1<::PKJOPFLMLLB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41F20);
-		}
-
 		static ::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>** StaticGet___9__31_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41F28);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41F30);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>** StaticGet___9__0_2()
-		{
-			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41F38);
+			return (::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F700);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>** StaticGet___9__0_3()
 		{
-			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41F40);
+			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F708);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>** StaticGet___9__0_2()
+		{
+			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F710);
+		}
+
+		static ::System::Comparison_1<::PKJOPFLMLLB*>** StaticGet___9__18_0()
+		{
+			return (::System::Comparison_1<::PKJOPFLMLLB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F718);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41F48);
+			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F720);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F728);
 		}
 
 		static ::System::Void _cctor()

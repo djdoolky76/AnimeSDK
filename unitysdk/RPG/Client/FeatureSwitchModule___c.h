@@ -5,25 +5,25 @@ class HBJLNKAFNAD;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FEATURESWITCHMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFDF0C0)
-#define RPG_CLIENT_FEATURESWITCHMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFDF100)
-#define RPG_CLIENT_FEATURESWITCHMODULE___C___CHECKSHIELDEDOUTFITSCHANGED_B__24_0_OFFSET UNITYSDK_OFFSET(0xCFDF110)
+#define RPG_CLIENT_FEATURESWITCHMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C50E8B0)
+#define RPG_CLIENT_FEATURESWITCHMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C50E8F0)
+#define RPG_CLIENT_FEATURESWITCHMODULE___C___CHECKSHIELDEDOUTFITSCHANGED_B__24_0_OFFSET UNITYSDK_OFFSET(0x1C50E900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FeatureSwitchModule___c_TypeDefinitionIndex = 64168;
+	inline static constexpr unsigned int FeatureSwitchModule___c_TypeDefinitionIndex = 65613;
 
 	class FeatureSwitchModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B110);
-		}
-
 		static ::System::Func_2<::HBJLNKAFNAD*, ::System::UInt32>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::HBJLNKAFNAD*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B118);
+			return (::System::Func_2<::HBJLNKAFNAD*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60BC0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60BC8);
 		}
 
 		static ::System::Void _cctor()

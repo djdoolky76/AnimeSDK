@@ -6,21 +6,22 @@
 #include "unitysdk/RPG/GameCore/RtModifierBehaviorLifeBinding.h"
 namespace System { class String; }
 
-#define EDOELGFAKAL_CTOR_OFFSET UNITYSDK_OFFSET(0x13329340)
-#define EDOELGFAKAL_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x13329170)
-#define EDOELGFAKAL_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0x13328FF0)
-#define EDOELGFAKAL_EFKLLLLPAJH_OFFSET UNITYSDK_OFFSET(0x13328FE0)
-#define EDOELGFAKAL_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x13329030)
+#define EDOELGFAKAL_CTOR_OFFSET UNITYSDK_OFFSET(0x186D24C0)
+#define EDOELGFAKAL_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x186D22F0)
+#define EDOELGFAKAL_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0x186D2170)
+#define EDOELGFAKAL_EFKLLLLPAJH_OFFSET UNITYSDK_OFFSET(0x186D2160)
+#define EDOELGFAKAL_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x186D21B0)
 
-inline static constexpr unsigned int EDOELGFAKAL_TypeDefinitionIndex = 53757;
+inline static constexpr unsigned int EDOELGFAKAL_TypeDefinitionIndex = 54921;
 
 	class EDOELGFAKAL : public ::GJPFGOGOLBI
 	{
 	public:
 		::System::String* JNJCCHFBKPB; // 0x18
-		::RPG::GameCore::FixPoint GELAMLPPBKE; // 0x20
-		::RPG::GameCore::AntiLockHPStrength AIDNPNEBLII; // 0x28
-		::System::Boolean IHFLEJFHICI; // 0x2C
+		::RPG::GameCore::AntiLockHPStrength AIDNPNEBLII; // 0x20
+		::System::Boolean IHFLEJFHICI; // 0x24
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::FixPoint GELAMLPPBKE; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDOELGFAKAL_CTOR_OFFSET))(this);

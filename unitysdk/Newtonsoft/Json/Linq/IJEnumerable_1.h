@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int IJEnumerable_1_TypeDefinitionIndex = 9759;
+	inline static constexpr unsigned int IJEnumerable_1_TypeDefinitionIndex = 9767;
 
 	template <typename T>
 	class IJEnumerable_1

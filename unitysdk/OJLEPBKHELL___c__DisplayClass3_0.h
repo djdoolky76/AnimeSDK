@@ -4,10 +4,10 @@
 class FHFCJKKKNLP;
 class OJLEPBKHELL;
 
-#define OJLEPBKHELL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB6BF0)
-#define OJLEPBKHELL___C__DISPLAYCLASS3_0__ENTERGAME_B__0_OFFSET UNITYSDK_OFFSET(0xBEB7030)
+#define OJLEPBKHELL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x194BB740)
+#define OJLEPBKHELL___C__DISPLAYCLASS3_0__ENTERGAME_B__0_OFFSET UNITYSDK_OFFSET(0x194BBB80)
 
-inline static constexpr unsigned int OJLEPBKHELL___c__DisplayClass3_0_TypeDefinitionIndex = 75284;
+inline static constexpr unsigned int OJLEPBKHELL___c__DisplayClass3_0_TypeDefinitionIndex = 77611;
 
 	class OJLEPBKHELL___c__DisplayClass3_0 : public ::System::Object
 	{

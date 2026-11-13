@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CGAIKFKNFDC_JKKACMIHCLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCE9320)
+#define CGAIKFKNFDC_JKKACMIHCLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1798CF20)
 
-inline static constexpr unsigned int CGAIKFKNFDC_JKKACMIHCLN_TypeDefinitionIndex = 6188;
+inline static constexpr unsigned int CGAIKFKNFDC_JKKACMIHCLN_TypeDefinitionIndex = 6195;
 
 	class CGAIKFKNFDC_JKKACMIHCLN : public ::System::Object
 	{

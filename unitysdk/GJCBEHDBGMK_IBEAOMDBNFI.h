@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class GJCBEHDBGMK_IBEAOMDBNFI;
 
-#define GJCBEHDBGMK_IBEAOMDBNFI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4FFC0)
+#define GJCBEHDBGMK_IBEAOMDBNFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A400EC0)
 
-inline static constexpr unsigned int GJCBEHDBGMK_IBEAOMDBNFI_TypeDefinitionIndex = 47263;
+inline static constexpr unsigned int GJCBEHDBGMK_IBEAOMDBNFI_TypeDefinitionIndex = 48291;
 
 	class GJCBEHDBGMK_IBEAOMDBNFI : public ::System::Object
 	{

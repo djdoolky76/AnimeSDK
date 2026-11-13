@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialLevelEvent_TypeDefinitionIndex = 24815;
+	inline static constexpr unsigned int TutorialLevelEvent_TypeDefinitionIndex = 25295;
 
 	enum class TutorialLevelEvent : ::System::Int32
 	{

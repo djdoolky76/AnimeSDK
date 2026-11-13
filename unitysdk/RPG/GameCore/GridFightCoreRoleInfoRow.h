@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightCoreRoleInfoRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FB2F0)
-#define RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6FB0F0)
+#define RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x20600090)
+#define RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x205FFE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightCoreRoleInfoRow_TypeDefinitionIndex = 13686;
+	inline static constexpr unsigned int GridFightCoreRoleInfoRow_TypeDefinitionIndex = 13813;
 
 	class GridFightCoreRoleInfoRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SubTraitID; // 0x10
-		::System::UInt32 RoleID; // 0x14
-		::RPG::Client::TextID ChooseDesc; // 0x18
-		::System::UInt32 TraitID; // 0x28
+		::RPG::Client::TextID ChooseDesc; // 0x10
+		::System::UInt32 TraitID; // 0x20
+		::System::UInt32 SubTraitID; // 0x24
+		::System::UInt32 RoleID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW_CTOR_OFFSET))(this);

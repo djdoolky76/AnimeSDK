@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FeverTimePeriodType_TypeDefinitionIndex = 24729;
+	inline static constexpr unsigned int FeverTimePeriodType_TypeDefinitionIndex = 25205;
 
 	enum class FeverTimePeriodType : ::System::Int32
 	{

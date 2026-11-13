@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddHitByTimeRewindListener; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OGHFMKFJPPD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4FD60)
-#define OGHFMKFJPPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE4FD90)
+#define OGHFMKFJPPD_CTOR_OFFSET UNITYSDK_OFFSET(0x18DFDF40)
+#define OGHFMKFJPPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DFDF70)
 
-inline static constexpr unsigned int OGHFMKFJPPD_TypeDefinitionIndex = 53358;
+inline static constexpr unsigned int OGHFMKFJPPD_TypeDefinitionIndex = 54520;
 
 	class OGHFMKFJPPD
 	{

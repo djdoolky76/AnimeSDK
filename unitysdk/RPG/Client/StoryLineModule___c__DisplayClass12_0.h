@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_STORYLINEMODULE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1394F0)
-#define RPG_CLIENT_STORYLINEMODULE___C__DISPLAYCLASS12_0__SWITCHLINE_B__0_OFFSET UNITYSDK_OFFSET(0xE13BD70)
+#define RPG_CLIENT_STORYLINEMODULE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCDBCB0)
+#define RPG_CLIENT_STORYLINEMODULE___C__DISPLAYCLASS12_0__SWITCHLINE_B__0_OFFSET UNITYSDK_OFFSET(0x1CCDE590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineModule___c__DisplayClass12_0_TypeDefinitionIndex = 67994;
+	inline static constexpr unsigned int StoryLineModule___c__DisplayClass12_0_TypeDefinitionIndex = 69940;
 
 	class StoryLineModule___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 contentID; // 0x10
-		::System::UInt32 entryID; // 0x14
+		::System::UInt32 id; // 0x10
+		::System::UInt32 contentID; // 0x14
 		::System::UInt32 teleportID; // 0x18
-		::System::UInt32 id; // 0x1C
+		::System::UInt32 entryID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STORYLINEMODULE___C__DISPLAYCLASS12_0_CTOR_OFFSET))(this);

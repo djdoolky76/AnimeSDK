@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTriggeredBlockDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MKOIFIBANFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB99C2A0)
-#define MKOIFIBANFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB99C2D0)
+#define MKOIFIBANFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B910F30)
+#define MKOIFIBANFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B910F60)
 
-inline static constexpr unsigned int MKOIFIBANFA_TypeDefinitionIndex = 54697;
+inline static constexpr unsigned int MKOIFIBANFA_TypeDefinitionIndex = 55863;
 
 	class MKOIFIBANFA
 	{

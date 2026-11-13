@@ -4,7 +4,7 @@
 class CEEGMMCFCBG;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int EEPCLEHOFOO_TypeDefinitionIndex = 49857;
+inline static constexpr unsigned int EEPCLEHOFOO_TypeDefinitionIndex = 50905;
 
 	class EEPCLEHOFOO : public ::System::Object
 	{

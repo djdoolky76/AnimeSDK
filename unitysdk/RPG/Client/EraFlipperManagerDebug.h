@@ -5,13 +5,13 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0xCE12CA0)
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_HDPMELCDAMA_OFFSET UNITYSDK_OFFSET(0xCE12C90)
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_NBBEMNGKEFD_OFFSET UNITYSDK_OFFSET(0xCE12C10)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A700810)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_HDPMELCDAMA_OFFSET UNITYSDK_OFFSET(0x1A700800)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_NBBEMNGKEFD_OFFSET UNITYSDK_OFFSET(0x1A700780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManagerDebug_TypeDefinitionIndex = 60513;
+	inline static constexpr unsigned int EraFlipperManagerDebug_TypeDefinitionIndex = 61802;
 
 	class EraFlipperManagerDebug : public ::UnityEngine::MonoBehaviour
 	{

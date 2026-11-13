@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FourRotateVoxelGuideHintBillboardConfig; }
 
-#define GCACIOKADOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA4D770)
+#define GCACIOKADOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C217EF0)
 
-inline static constexpr unsigned int GCACIOKADOO_TypeDefinitionIndex = 43236;
+inline static constexpr unsigned int GCACIOKADOO_TypeDefinitionIndex = 44217;
 
 	class GCACIOKADOO : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class ANDEHGAKOHE;
 
-#define GKKLKLCOOHA___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A943D0)
-#define GKKLKLCOOHA___C__DISPLAYCLASS7_0__BUILDBATTLELOADINGGRAPH_B__1_OFFSET UNITYSDK_OFFSET(0x15A94880)
+#define GKKLKLCOOHA___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8DB410)
+#define GKKLKLCOOHA___C__DISPLAYCLASS7_0__BUILDBATTLELOADINGGRAPH_B__1_OFFSET UNITYSDK_OFFSET(0x1A8DB8C0)
 
-inline static constexpr unsigned int GKKLKLCOOHA___c__DisplayClass7_0_TypeDefinitionIndex = 73265;
+inline static constexpr unsigned int GKKLKLCOOHA___c__DisplayClass7_0_TypeDefinitionIndex = 75381;
 
 	class GKKLKLCOOHA___c__DisplayClass7_0 : public ::System::Object
 	{

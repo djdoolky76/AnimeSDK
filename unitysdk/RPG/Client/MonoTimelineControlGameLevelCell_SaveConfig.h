@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_SAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD863640)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_SAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D283920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_SaveConfig_TypeDefinitionIndex = 60442;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_SaveConfig_TypeDefinitionIndex = 61732;
 
 	class MonoTimelineControlGameLevelCell_SaveConfig : public ::System::Object
 	{

@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class ConvinceInitialize; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KAMBCPANHOK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D7DF0)
-#define KAMBCPANHOK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2D7E00)
-#define KAMBCPANHOK_IJMONDLGAIP_OFFSET UNITYSDK_OFFSET(0xB2D8120)
-#define KAMBCPANHOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2D7E50)
-#define KAMBCPANHOK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2D8070)
-#define KAMBCPANHOK_TICK_OFFSET UNITYSDK_OFFSET(0xB2D80C0)
+#define KAMBCPANHOK_CTOR_OFFSET UNITYSDK_OFFSET(0x19DB5520)
+#define KAMBCPANHOK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DB5530)
+#define KAMBCPANHOK_IJMONDLGAIP_OFFSET UNITYSDK_OFFSET(0x19DB5850)
+#define KAMBCPANHOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DB5580)
+#define KAMBCPANHOK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19DB57A0)
+#define KAMBCPANHOK_TICK_OFFSET UNITYSDK_OFFSET(0x19DB57F0)
 
-inline static constexpr unsigned int KAMBCPANHOK_TypeDefinitionIndex = 52705;
+inline static constexpr unsigned int KAMBCPANHOK_TypeDefinitionIndex = 53849;
 
 	class KAMBCPANHOK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ConvinceInitialize* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ConvinceInitialize* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ConvinceInitialize* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ConvinceInitialize*))((::PBYTE)hIl2Cpp + KAMBCPANHOK_CTOR_OFFSET))(this, a1, a2);

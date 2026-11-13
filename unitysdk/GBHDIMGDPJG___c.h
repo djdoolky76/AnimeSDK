@@ -4,18 +4,18 @@
 class GBHDIMGDPJG;
 namespace System { class Object; }
 
-#define GBHDIMGDPJG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3FE310)
-#define GBHDIMGDPJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3FE350)
-#define GBHDIMGDPJG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3FE360)
+#define GBHDIMGDPJG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC4BCA0)
+#define GBHDIMGDPJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4BCE0)
+#define GBHDIMGDPJG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC4BCF0)
 
-inline static constexpr unsigned int GBHDIMGDPJG___c_TypeDefinitionIndex = 27390;
+inline static constexpr unsigned int GBHDIMGDPJG___c_TypeDefinitionIndex = 27921;
 
 	class GBHDIMGDPJG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC860);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56FC0);
 		}
 
 		static ::System::Void _cctor()

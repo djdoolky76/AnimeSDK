@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
-	inline static constexpr unsigned int CakeRaceTargetLockerPriority_TypeDefinitionIndex = 37220;
+	inline static constexpr unsigned int CakeRaceTargetLockerPriority_TypeDefinitionIndex = 38148;
 
 	enum class CakeRaceTargetLockerPriority : ::System::Int32
 	{

@@ -7,10 +7,10 @@ class IJFIHJJPHNA;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Color; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PBKLNHJGMDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BC500)
-#define PBKLNHJGMDJ_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C7BC510)
+#define PBKLNHJGMDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B09DD20)
+#define PBKLNHJGMDJ_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1B09DD30)
 
-inline static constexpr unsigned int PBKLNHJGMDJ_TypeDefinitionIndex = 36383;
+inline static constexpr unsigned int PBKLNHJGMDJ_TypeDefinitionIndex = 37311;
 
 	class PBKLNHJGMDJ : public ::IFNMPBPNBIF
 	{

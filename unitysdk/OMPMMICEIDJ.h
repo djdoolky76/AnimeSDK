@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByBreakStanceDamageType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OMPMMICEIDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBF42A10)
-#define OMPMMICEIDJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF42A40)
+#define OMPMMICEIDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17D714F0)
+#define OMPMMICEIDJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17D71520)
 
-inline static constexpr unsigned int OMPMMICEIDJ_TypeDefinitionIndex = 54487;
+inline static constexpr unsigned int OMPMMICEIDJ_TypeDefinitionIndex = 55651;
 
 	class OMPMMICEIDJ
 	{

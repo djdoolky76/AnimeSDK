@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AsyncSelectorEnumerableSorter_2_TypeDefinitionIndex = 45522;
+	inline static constexpr unsigned int AsyncSelectorEnumerableSorter_2_TypeDefinitionIndex = 46551;
 
 	template <typename T1, typename T2>
 	class AsyncSelectorEnumerableSorter_2

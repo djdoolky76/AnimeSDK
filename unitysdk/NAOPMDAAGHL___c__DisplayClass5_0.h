@@ -5,10 +5,10 @@ class NAOPMDAAGHL;
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define NAOPMDAAGHL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA8440)
-#define NAOPMDAAGHL___C__DISPLAYCLASS5_0__TRIGGEREFFECTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xBAB17B0)
+#define NAOPMDAAGHL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB01AB0)
+#define NAOPMDAAGHL___C__DISPLAYCLASS5_0__TRIGGEREFFECTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1BB0ADD0)
 
-inline static constexpr unsigned int NAOPMDAAGHL___c__DisplayClass5_0_TypeDefinitionIndex = 77263;
+inline static constexpr unsigned int NAOPMDAAGHL___c__DisplayClass5_0_TypeDefinitionIndex = 79597;
 
 	class NAOPMDAAGHL___c__DisplayClass5_0 : public ::System::Object
 	{

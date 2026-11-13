@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleViewModeStatusTagData_BattleViewModeExtraEffectStatusTagType_TypeDefinitionIndex = 72094;
+	inline static constexpr unsigned int BattleViewModeStatusTagData_BattleViewModeExtraEffectStatusTagType_TypeDefinitionIndex = 74129;
 
 	enum class BattleViewModeStatusTagData_BattleViewModeExtraEffectStatusTagType : ::System::Int32
 	{

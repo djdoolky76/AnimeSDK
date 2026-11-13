@@ -4,14 +4,14 @@
 namespace RPG::Client { class BaseLobby; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int IILCHDOMOME___O_TypeDefinitionIndex = 66042;
+inline static constexpr unsigned int IILCHDOMOME___O_TypeDefinitionIndex = 67974;
 
 	class IILCHDOMOME___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::Client::BaseLobby*>** StaticGet__0____UiOpenLobbyPage()
 		{
-			return (::System::Action_1<::RPG::Client::BaseLobby*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5FFB0);
+			return (::System::Action_1<::RPG::Client::BaseLobby*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x66E10);
 		}
 
 	};

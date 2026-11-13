@@ -4,18 +4,18 @@
 class DOEJLDNIDED;
 namespace System { class Object; }
 
-#define DOEJLDNIDED___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1D10E0)
-#define DOEJLDNIDED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D1120)
-#define DOEJLDNIDED___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1D1130)
+#define DOEJLDNIDED___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201EE800)
+#define DOEJLDNIDED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201EE840)
+#define DOEJLDNIDED___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201EE850)
 
-inline static constexpr unsigned int DOEJLDNIDED___c_TypeDefinitionIndex = 33353;
+inline static constexpr unsigned int DOEJLDNIDED___c_TypeDefinitionIndex = 34268;
 
 	class DOEJLDNIDED___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37BF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x378F0);
 		}
 
 		static ::System::Void _cctor()

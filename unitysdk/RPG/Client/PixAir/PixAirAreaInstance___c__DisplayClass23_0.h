@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::PixAir { class PixAirNodeInstance; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRAREAINSTANCE___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB25820)
-#define RPG_CLIENT_PIXAIR_PIXAIRAREAINSTANCE___C__DISPLAYCLASS23_0__GETNODEINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0xDB258C0)
+#define RPG_CLIENT_PIXAIR_PIXAIRAREAINSTANCE___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18D9EE40)
+#define RPG_CLIENT_PIXAIR_PIXAIRAREAINSTANCE___C__DISPLAYCLASS23_0__GETNODEINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1E3482D0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirAreaInstance___c__DisplayClass23_0_TypeDefinitionIndex = 79311;
+	inline static constexpr unsigned int PixAirAreaInstance___c__DisplayClass23_0_TypeDefinitionIndex = 82088;
 
 	class PixAirAreaInstance___c__DisplayClass23_0 : public ::System::Object
 	{

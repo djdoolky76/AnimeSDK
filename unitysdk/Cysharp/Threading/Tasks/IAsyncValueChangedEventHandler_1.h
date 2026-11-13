@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IAsyncValueChangedEventHandler_1_TypeDefinitionIndex = 38473;
+	inline static constexpr unsigned int IAsyncValueChangedEventHandler_1_TypeDefinitionIndex = 39402;
 
 	template <typename T>
 	class IAsyncValueChangedEventHandler_1

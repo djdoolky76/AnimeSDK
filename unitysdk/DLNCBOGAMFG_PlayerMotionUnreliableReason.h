@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DLNCBOGAMFG_PlayerMotionUnreliableReason_TypeDefinitionIndex = 65791;
+inline static constexpr unsigned int DLNCBOGAMFG_PlayerMotionUnreliableReason_TypeDefinitionIndex = 67723;
 
 	enum class DLNCBOGAMFG_PlayerMotionUnreliableReason : ::System::Int32
 	{

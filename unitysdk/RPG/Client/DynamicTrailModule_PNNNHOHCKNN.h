@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DYNAMICTRAILMODULE_PNNNHOHCKNN_CTOR_OFFSET UNITYSDK_OFFSET(0xCCFE7D0)
-#define RPG_CLIENT_DYNAMICTRAILMODULE_PNNNHOHCKNN_PIPAEGBCBIN_OFFSET UNITYSDK_OFFSET(0xCCFE7E0)
-#define RPG_CLIENT_DYNAMICTRAILMODULE_PNNNHOHCKNN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCCFE990)
+#define RPG_CLIENT_DYNAMICTRAILMODULE_PNNNHOHCKNN_CTOR_OFFSET UNITYSDK_OFFSET(0x17BBA2A0)
+#define RPG_CLIENT_DYNAMICTRAILMODULE_PNNNHOHCKNN_PIPAEGBCBIN_OFFSET UNITYSDK_OFFSET(0x17BBA2B0)
+#define RPG_CLIENT_DYNAMICTRAILMODULE_PNNNHOHCKNN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x17BBA460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicTrailModule_PNNNHOHCKNN_TypeDefinitionIndex = 70444;
+	inline static constexpr unsigned int DynamicTrailModule_PNNNHOHCKNN_TypeDefinitionIndex = 72415;
 
 	class DynamicTrailModule_PNNNHOHCKNN : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* EIBGEGPABFK; // 0x10
-		::Il2CppArray<::System::Single>* IMBNIMPKJHE; // 0x18
-		::Il2CppArray<::System::Single>* OGPNODHENKN; // 0x20
-		::Il2CppArray<::System::Single>* HLMJFIOJLNF; // 0x28
-		::Il2CppArray<::System::Single>* KIBPKPGDECO; // 0x30
-		::Il2CppArray<::System::Single>* KCBPBMOJOKJ; // 0x38
-		::Il2CppArray<::System::Single>* JPDBDLEEHGK; // 0x40
-		::Il2CppArray<::System::Single>* BPAJHNDPGKG; // 0x48
-		::Il2CppArray<::System::Single>* PICLIGEAJFN; // 0x50
-		::Il2CppArray<::System::Single>* OGDIJEEIOCG; // 0x58
+		::Il2CppArray<::System::Single>* KIBPKPGDECO; // 0x10
+		::Il2CppArray<::System::Single>* OGPNODHENKN; // 0x18
+		::Il2CppArray<::System::Single>* JPDBDLEEHGK; // 0x20
+		::Il2CppArray<::System::Single>* IMBNIMPKJHE; // 0x28
+		::Il2CppArray<::System::Single>* OGDIJEEIOCG; // 0x30
+		::Il2CppArray<::System::Single>* PICLIGEAJFN; // 0x38
+		::Il2CppArray<::System::Single>* HLMJFIOJLNF; // 0x40
+		::Il2CppArray<::System::Single>* EIBGEGPABFK; // 0x48
+		::Il2CppArray<::System::Single>* KCBPBMOJOKJ; // 0x50
+		::Il2CppArray<::System::Single>* BPAJHNDPGKG; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DYNAMICTRAILMODULE_PNNNHOHCKNN_CTOR_OFFSET))(this);

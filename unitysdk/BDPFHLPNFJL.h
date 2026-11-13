@@ -4,10 +4,10 @@
 class MHDGKLOHHFJ;
 namespace RPG::GameCore { class FiveDimOneSidePassConfig; }
 
-#define BDPFHLPNFJL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C88A2E0)
-#define BDPFHLPNFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88A340)
+#define BDPFHLPNFJL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D2B4AB0)
+#define BDPFHLPNFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B4B10)
 
-inline static constexpr unsigned int BDPFHLPNFJL_TypeDefinitionIndex = 43456;
+inline static constexpr unsigned int BDPFHLPNFJL_TypeDefinitionIndex = 44438;
 
 	class BDPFHLPNFJL : public ::System::Object
 	{

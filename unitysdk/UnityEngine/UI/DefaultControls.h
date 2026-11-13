@@ -11,66 +11,66 @@ namespace UnityEngine::UI { class DefaultControls_IFactoryControls; }
 namespace UnityEngine::UI { class Selectable; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C1E90)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEBUTTON_OFFSET UNITYSDK_OFFSET(0x1F4BA980)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1F4BE7B0)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEIMAGE_OFFSET UNITYSDK_OFFSET(0x1F4BB1D0)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x1F4BD730)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEPANEL_OFFSET UNITYSDK_OFFSET(0x1F4BA410)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATERAWIMAGE_OFFSET UNITYSDK_OFFSET(0x1F4BB2E0)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATESCROLLBAR_OFFSET UNITYSDK_OFFSET(0x1F4BC250)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATESCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x1F4C1060)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATESLIDER_OFFSET UNITYSDK_OFFSET(0x1F4BB3F0)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATETEXT_OFFSET UNITYSDK_OFFSET(0x1F4BAFB0)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATETOGGLE_OFFSET UNITYSDK_OFFSET(0x1F4BCA80)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEUIELEMENTROOT_OFFSET UNITYSDK_OFFSET(0x1F4B9C70)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEUIOBJECT_OFFSET UNITYSDK_OFFSET(0x1F4B9EE0)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0x1F4B9C10)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_SETDEFAULTCOLORTRANSITIONVALUES_OFFSET UNITYSDK_OFFSET(0x1F4BA300)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_SETDEFAULTTEXTVALUES_OFFSET UNITYSDK_OFFSET(0x1F4BA100)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_SETLAYERRECURSIVELY_OFFSET UNITYSDK_OFFSET(0x1F4BA320)
-#define UNITYENGINE_UI_DEFAULTCONTROLS_SETPARENTANDALIGN_OFFSET UNITYSDK_OFFSET(0x1F4BA050)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD2E250)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEBUTTON_OFFSET UNITYSDK_OFFSET(0x1CD26D40)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1CD2AB70)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEIMAGE_OFFSET UNITYSDK_OFFSET(0x1CD27590)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x1CD29AF0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEPANEL_OFFSET UNITYSDK_OFFSET(0x1CD267D0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATERAWIMAGE_OFFSET UNITYSDK_OFFSET(0x1CD276A0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATESCROLLBAR_OFFSET UNITYSDK_OFFSET(0x1CD28610)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATESCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x1CD2D420)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATESLIDER_OFFSET UNITYSDK_OFFSET(0x1CD277B0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATETEXT_OFFSET UNITYSDK_OFFSET(0x1CD27370)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATETOGGLE_OFFSET UNITYSDK_OFFSET(0x1CD28E40)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEUIELEMENTROOT_OFFSET UNITYSDK_OFFSET(0x1CD26030)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_CREATEUIOBJECT_OFFSET UNITYSDK_OFFSET(0x1CD262A0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0x1CD25FD0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_SETDEFAULTCOLORTRANSITIONVALUES_OFFSET UNITYSDK_OFFSET(0x1CD266C0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_SETDEFAULTTEXTVALUES_OFFSET UNITYSDK_OFFSET(0x1CD264C0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_SETLAYERRECURSIVELY_OFFSET UNITYSDK_OFFSET(0x1CD266E0)
+#define UNITYENGINE_UI_DEFAULTCONTROLS_SETPARENTANDALIGN_OFFSET UNITYSDK_OFFSET(0x1CD26410)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int DefaultControls_TypeDefinitionIndex = 6703;
+	inline static constexpr unsigned int DefaultControls_TypeDefinitionIndex = 6714;
 
 	class DefaultControls : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::DefaultControls_IFactoryControls** StaticGet_m_CurrentFactory()
 		{
-			return (::UnityEngine::UI::DefaultControls_IFactoryControls**)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0x3B160);
-		}
-
-		static ::UnityEngine::Color* StaticGet_s_DefaultSelectableColor()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0xBEA0);
+			return (::UnityEngine::UI::DefaultControls_IFactoryControls**)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0x2C700);
 		}
 
 		static ::UnityEngine::Vector2* StaticGet_s_ThickElementSize()
 		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0xBEB0);
-		}
-
-		static ::UnityEngine::Color* StaticGet_s_TextColor()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0xBEB8);
-		}
-
-		static ::UnityEngine::Color* StaticGet_s_PanelColor()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0xBEC8);
-		}
-
-		static ::UnityEngine::Vector2* StaticGet_s_ThinElementSize()
-		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0xBED8);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0x8F10);
 		}
 
 		static ::UnityEngine::Vector2* StaticGet_s_ImageElementSize()
 		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0xBEE0);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0x8F18);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_DefaultSelectableColor()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0x8F20);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_PanelColor()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0x8F30);
+		}
+
+		static ::UnityEngine::Vector2* StaticGet_s_ThinElementSize()
+		{
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0x8F40);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_TextColor()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.UI", "DefaultControls")->GetStaticField(0x8F48);
 		}
 
 		// static const ::System::Object kWidth; // 0x0

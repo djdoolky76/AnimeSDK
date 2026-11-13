@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StrongChallengeQuestGroupRow; }
 
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAFF4A0)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAFEE60)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E66F1A0)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E66EB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StrongChallengeQuestGroupRow_TypeDefinitionIndex = 12399;
+	inline static constexpr unsigned int StrongChallengeQuestGroupRow_TypeDefinitionIndex = 12466;
 
 	class StrongChallengeQuestGroupRow : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/EGFGCOMABKB.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PropMoveState.h"
 
-#define MAAMBDPMAKI_BPMGPFLHPLC_OFFSET UNITYSDK_OFFSET(0xB836F10)
-#define MAAMBDPMAKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB836F60)
+#define MAAMBDPMAKI_BPMGPFLHPLC_OFFSET UNITYSDK_OFFSET(0x1B6D10E0)
+#define MAAMBDPMAKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D1130)
 
-inline static constexpr unsigned int MAAMBDPMAKI_TypeDefinitionIndex = 77032;
+inline static constexpr unsigned int MAAMBDPMAKI_TypeDefinitionIndex = 79366;
 
 	class MAAMBDPMAKI : public ::EGFGCOMABKB
 	{

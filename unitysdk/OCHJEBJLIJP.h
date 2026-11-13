@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OCHJEBJLIJP_TypeDefinitionIndex = 77733;
+inline static constexpr unsigned int OCHJEBJLIJP_TypeDefinitionIndex = 80468;
 
 	class OCHJEBJLIJP
 	{

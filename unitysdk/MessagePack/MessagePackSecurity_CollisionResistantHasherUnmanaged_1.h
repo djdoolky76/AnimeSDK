@@ -4,7 +4,7 @@ namespace System { class Object; }
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_CollisionResistantHasherUnmanaged_1_TypeDefinitionIndex = 7203;
+	inline static constexpr unsigned int MessagePackSecurity_CollisionResistantHasherUnmanaged_1_TypeDefinitionIndex = 7214;
 
 	template <typename T>
 	class MessagePackSecurity_CollisionResistantHasherUnmanaged_1

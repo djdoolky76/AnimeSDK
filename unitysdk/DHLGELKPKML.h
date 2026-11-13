@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define DHLGELKPKML_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF4530)
+#define DHLGELKPKML_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E9260)
 
-inline static constexpr unsigned int DHLGELKPKML_TypeDefinitionIndex = 25028;
+inline static constexpr unsigned int DHLGELKPKML_TypeDefinitionIndex = 25506;
 
 	class DHLGELKPKML : public ::System::Attribute
 	{

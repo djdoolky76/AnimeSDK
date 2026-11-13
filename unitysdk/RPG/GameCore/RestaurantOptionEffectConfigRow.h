@@ -6,24 +6,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantOptionEffectConfigRow; }
 
-#define RPG_GAMECORE_RESTAURANTOPTIONEFFECTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D964D50)
-#define RPG_GAMECORE_RESTAURANTOPTIONEFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D964A60)
+#define RPG_GAMECORE_RESTAURANTOPTIONEFFECTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x207291B0)
+#define RPG_GAMECORE_RESTAURANTOPTIONEFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x20728EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantOptionEffectConfigRow_TypeDefinitionIndex = 11388;
+	inline static constexpr unsigned int RestaurantOptionEffectConfigRow_TypeDefinitionIndex = 11439;
 
 	class RestaurantOptionEffectConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 EventRewardID; // 0x10
-		::RPG::GameCore::RestaurantSelectionType Type; // 0x14
-		::RPG::Client::TextID ResultText; // 0x18
-		::System::UInt32 Param; // 0x28
+		::RPG::Client::TextID OptionText; // 0x10
+		::System::UInt32 EventRewardID; // 0x20
+		::RPG::GameCore::RestaurantSelectionType Type; // 0x24
+		::System::UInt32 ContactsID; // 0x28
+		::System::UInt32 Param; // 0x2C
+		::System::UInt32 ID; // 0x30
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID OptionText; // 0x30
-		::System::UInt32 ContactsID; // 0x40
-		::System::UInt32 ID; // 0x44
+		::RPG::Client::TextID ResultText; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTOPTIONEFFECTCONFIGROW_CTOR_OFFSET))(this);

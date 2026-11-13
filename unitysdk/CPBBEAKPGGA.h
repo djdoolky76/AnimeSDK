@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define CPBBEAKPGGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E52D0)
+#define CPBBEAKPGGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17530)
 
-inline static constexpr unsigned int CPBBEAKPGGA_TypeDefinitionIndex = 42118;
+inline static constexpr unsigned int CPBBEAKPGGA_TypeDefinitionIndex = 43093;
 
 	class CPBBEAKPGGA : public ::System::Object
 	{

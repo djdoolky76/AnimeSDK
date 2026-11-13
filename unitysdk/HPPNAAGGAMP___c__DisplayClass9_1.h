@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 class EKAFJOGBCFA;
 
-#define HPPNAAGGAMP___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD50B0)
-#define HPPNAAGGAMP___C__DISPLAYCLASS9_1__PLAYTIMELINE_B__1_OFFSET UNITYSDK_OFFSET(0x15DD50C0)
+#define HPPNAAGGAMP___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF4CA30)
+#define HPPNAAGGAMP___C__DISPLAYCLASS9_1__PLAYTIMELINE_B__1_OFFSET UNITYSDK_OFFSET(0x1AF4FCD0)
 
-inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass9_1_TypeDefinitionIndex = 48489;
+inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass9_1_TypeDefinitionIndex = 49530;
 
 	template <typename T>
 	class HPPNAAGGAMP___c__DisplayClass9_1 : public ::System::Object

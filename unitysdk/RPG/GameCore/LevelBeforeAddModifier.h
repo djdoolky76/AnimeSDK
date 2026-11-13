@@ -9,29 +9,30 @@ namespace RPG::GameCore { class LevelBeforeAddModifier; }
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xE6D7430)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6D73E0)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6D7390)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xE6D7210)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x184918D0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18491880)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18491830)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0x184916C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 56773;
+	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 57997;
 
 	class LevelBeforeAddModifier : public ::CMPGEAFHHDC
 	{
 	public:
-		::CHMCAGBDPJH ChangeParams; // 0x18
-		::System::String* AbilityName; // 0x128
-		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x130
-		::RPG::GameCore::GameEntity* Receiver; // 0x138
-		::System::String* ModifierName; // 0x140
-		::RPG::GameCore::GameEntity* Caster; // 0x148
-		::RPG::GameCore::FixPoint Chance; // 0x150
-		::RPG::GameCore::FixPoint BaseChance; // 0x158
+		::System::String* AbilityName; // 0x18
+		::RPG::GameCore::GameEntity* Caster; // 0x20
+		::RPG::GameCore::GameEntity* Receiver; // 0x28
+		::CHMCAGBDPJH ChangeParams; // 0x30
+		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x148
+		::System::String* ModifierName; // 0x150
+		::RPG::GameCore::FixPoint Chance; // 0x158
 		::System::Int32 LifeTime; // 0x160
-		::System::Boolean DisableFloatingMessage; // 0x164
-		::System::Boolean IsSuccess; // 0x165
+		::System::Boolean IsSuccess; // 0x164
+		::System::Boolean DisableFloatingMessage; // 0x165
+		::System::Byte _padding0[0x2];
+		::RPG::GameCore::FixPoint BaseChance; // 0x168
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFOREADDMODIFIER_CTOR_OFFSET))(this);

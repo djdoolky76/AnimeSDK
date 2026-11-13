@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ShowEnterPasswordPage; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAD440)
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAAD450)
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAAD400)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3E6520)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3E6530)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3E64E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEnterPasswordPage_TypeDefinitionIndex = 21953;
+	inline static constexpr unsigned int ShowEnterPasswordPage_TypeDefinitionIndex = 22344;
 
 	class ShowEnterPasswordPage : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_ASSETSPATHDICT_CTOR_OFFSET UNITYSDK_OFFSET(0xC699480)
+#define RPG_CLIENT_ASSETSPATHDICT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA39C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssetsPathDict_TypeDefinitionIndex = 60010;
+	inline static constexpr unsigned int AssetsPathDict_TypeDefinitionIndex = 61294;
 
 	class AssetsPathDict : public ::System::Object
 	{

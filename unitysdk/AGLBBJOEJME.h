@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define AGLBBJOEJME_CTOR_OFFSET UNITYSDK_OFFSET(0xCF389A0)
+#define AGLBBJOEJME_CTOR_OFFSET UNITYSDK_OFFSET(0x19B0F6C0)
 
-inline static constexpr unsigned int AGLBBJOEJME_TypeDefinitionIndex = 47293;
+inline static constexpr unsigned int AGLBBJOEJME_TypeDefinitionIndex = 48322;
 
 	class AGLBBJOEJME : public ::System::Object
 	{

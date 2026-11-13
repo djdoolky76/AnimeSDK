@@ -6,24 +6,24 @@ class OFLIAAOJPJC;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define OFLIAAOJPJC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D23C570)
-#define OFLIAAOJPJC_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1D23C4B0)
-#define OFLIAAOJPJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D23C460)
-#define OFLIAAOJPJC_READROW_OFFSET UNITYSDK_OFFSET(0x1D23C510)
+#define OFLIAAOJPJC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E615F80)
+#define OFLIAAOJPJC_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1E615EC0)
+#define OFLIAAOJPJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E615E70)
+#define OFLIAAOJPJC_READROW_OFFSET UNITYSDK_OFFSET(0x1E615F20)
 
-inline static constexpr unsigned int OFLIAAOJPJC_TypeDefinitionIndex = 10830;
+inline static constexpr unsigned int OFLIAAOJPJC_TypeDefinitionIndex = 10846;
 
 	class OFLIAAOJPJC
 	{
 	public:
-		static ::IACGHDENOPA** StaticGet_LLFPDGEEGCD()
-		{
-			return (::IACGHDENOPA**)UnitySDK::FromName("", "OFLIAAOJPJC")->GetStaticField(0x14940);
-		}
-
 		static ::OFLIAAOJPJC** StaticGet_OBNANPFLCOO()
 		{
-			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "OFLIAAOJPJC")->GetStaticField(0x14948);
+			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "OFLIAAOJPJC")->GetStaticField(0xBA90);
+		}
+
+		static ::IACGHDENOPA** StaticGet_LLFPDGEEGCD()
+		{
+			return (::IACGHDENOPA**)UnitySDK::FromName("", "OFLIAAOJPJC")->GetStaticField(0xBA98);
 		}
 
 		::System::Void _ctor(::System::String* a1)

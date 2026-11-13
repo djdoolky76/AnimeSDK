@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineDialogueShot_GKNCLALBPAF_TypeDefinitionIndex = 49641;
+	inline static constexpr unsigned int CinemachineDialogueShot_GKNCLALBPAF_TypeDefinitionIndex = 50717;
 
 	struct alignas(4) CinemachineDialogueShot_GKNCLALBPAF
 	{

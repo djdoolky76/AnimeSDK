@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityFeverTimeUnderlineRow; }
 
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D334910)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D334330)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E511BD0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5115F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeUnderlineRow_TypeDefinitionIndex = 11593;
+	inline static constexpr unsigned int ActivityFeverTimeUnderlineRow_TypeDefinitionIndex = 11644;
 
 	class ActivityFeverTimeUnderlineRow : public ::System::Object
 	{

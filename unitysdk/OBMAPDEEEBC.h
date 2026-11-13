@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OBMAPDEEEBC_CTOR_OFFSET UNITYSDK_OFFSET(0xBD450D0)
+#define OBMAPDEEEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB8C1E0)
 
-inline static constexpr unsigned int OBMAPDEEEBC_TypeDefinitionIndex = 62380;
+inline static constexpr unsigned int OBMAPDEEEBC_TypeDefinitionIndex = 63793;
 
 	class OBMAPDEEEBC : public ::System::Object
 	{

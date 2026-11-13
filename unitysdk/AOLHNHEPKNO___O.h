@@ -4,14 +4,14 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int AOLHNHEPKNO___O_TypeDefinitionIndex = 56096;
+inline static constexpr unsigned int AOLHNHEPKNO___O_TypeDefinitionIndex = 57308;
 
 	class AOLHNHEPKNO___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::String*>** StaticGet__0___SampleError()
 		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5F3A0);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5C950);
 		}
 
 	};

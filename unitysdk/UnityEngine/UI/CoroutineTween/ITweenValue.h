@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::CoroutineTween
 {
-	inline static constexpr unsigned int ITweenValue_TypeDefinitionIndex = 6895;
+	inline static constexpr unsigned int ITweenValue_TypeDefinitionIndex = 6906;
 
 	class ITweenValue
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerBranchByActivitySwordTrainingStoryLine; }
 
-#define DGNMOLJMCCB_CTOR_OFFSET UNITYSDK_OFFSET(0xE84D370)
-#define DGNMOLJMCCB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE84D380)
-#define DGNMOLJMCCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE84D3C0)
-#define DGNMOLJMCCB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE84D590)
-#define DGNMOLJMCCB_TICK_OFFSET UNITYSDK_OFFSET(0xE84D5E0)
+#define DGNMOLJMCCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADC22D0)
+#define DGNMOLJMCCB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ADC22E0)
+#define DGNMOLJMCCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1ADC2320)
+#define DGNMOLJMCCB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1ADC24F0)
+#define DGNMOLJMCCB_TICK_OFFSET UNITYSDK_OFFSET(0x1ADC2540)
 
-inline static constexpr unsigned int DGNMOLJMCCB_TypeDefinitionIndex = 58772;
+inline static constexpr unsigned int DGNMOLJMCCB_TypeDefinitionIndex = 60040;
 
 	class DGNMOLJMCCB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerBranchByActivitySwordTrainingStoryLine* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerBranchByActivitySwordTrainingStoryLine* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerBranchByActivitySwordTrainingStoryLine* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerBranchByActivitySwordTrainingStoryLine*))((::PBYTE)hIl2Cpp + DGNMOLJMCCB_CTOR_OFFSET))(this, a1, a2);

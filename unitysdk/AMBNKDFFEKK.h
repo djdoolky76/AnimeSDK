@@ -5,17 +5,17 @@ class DDEMJGKFLMJ;
 class OOHIKDKFGFF;
 namespace System { class String; }
 
-#define AMBNKDFFEKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1556ADD0)
+#define AMBNKDFFEKK_CTOR_OFFSET UNITYSDK_OFFSET(0x197D18C0)
 
-inline static constexpr unsigned int AMBNKDFFEKK_TypeDefinitionIndex = 48935;
+inline static constexpr unsigned int AMBNKDFFEKK_TypeDefinitionIndex = 49994;
 
 	class AMBNKDFFEKK : public ::System::Object
 	{
 	public:
 		::System::String* GeneratedBy; // 0x10
-		::System::String* OperationMode; // 0x18
+		::DDEMJGKFLMJ* Model; // 0x18
 		::OOHIKDKFGFF* Prompts; // 0x20
-		::DDEMJGKFLMJ* Model; // 0x28
+		::System::String* OperationMode; // 0x28
 		::System::String* CreatedAt; // 0x30
 		::System::String* TaskId; // 0x38
 		::System::Void _ctor()

@@ -7,21 +7,21 @@ namespace RPG::Client { class CakeRaceParticipantData; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC913700)
-#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC913860)
-#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_GET_EFFECTID_OFFSET UNITYSDK_OFFSET(0xC9137D0)
-#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_GET_PARTICIPANTDATALIST_OFFSET UNITYSDK_OFFSET(0xC913820)
-#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_GET_VOTEPLAYERIDLIST_OFFSET UNITYSDK_OFFSET(0xC913780)
+#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1D2F8D60)
+#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F8EC0)
+#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_GET_EFFECTID_OFFSET UNITYSDK_OFFSET(0x1D2F8E30)
+#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_GET_PARTICIPANTDATALIST_OFFSET UNITYSDK_OFFSET(0x1D2F8E80)
+#define RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_GET_VOTEPLAYERIDLIST_OFFSET UNITYSDK_OFFSET(0x1D2F8DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceGameVoteEffectData_TypeDefinitionIndex = 63069;
+	inline static constexpr unsigned int CakeRaceGameVoteEffectData_TypeDefinitionIndex = 64507;
 
 	class CakeRaceGameVoteEffectData : public ::System::Object
 	{
 	public:
-		::LIELJCGKNJN* _VoteData; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceParticipantData*>* _ParticipantDataList; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceParticipantData*>* _ParticipantDataList; // 0x10
+		::LIELJCGKNJN* _VoteData; // 0x18
 		::System::Void _ctor(::LIELJCGKNJN* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::LIELJCGKNJN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEVOTEEFFECTDATA_CTOR_OFFSET))(this, a1);

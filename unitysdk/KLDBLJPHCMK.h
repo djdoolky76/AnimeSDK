@@ -5,11 +5,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSoundMusicRhythmStageBGM; }
 namespace System { class String; }
 
-#define KLDBLJPHCMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB4E6080)
-#define KLDBLJPHCMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4E60B0)
-#define KLDBLJPHCMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4E60F0)
+#define KLDBLJPHCMK_CTOR_OFFSET UNITYSDK_OFFSET(0x17373C50)
+#define KLDBLJPHCMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17373C80)
+#define KLDBLJPHCMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17373CC0)
 
-inline static constexpr unsigned int KLDBLJPHCMK_TypeDefinitionIndex = 56475;
+inline static constexpr unsigned int KLDBLJPHCMK_TypeDefinitionIndex = 57695;
 
 	class KLDBLJPHCMK
 	{

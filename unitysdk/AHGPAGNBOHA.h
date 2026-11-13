@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AHGPAGNBOHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C85F780)
+#define AHGPAGNBOHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D863AC0)
 
-inline static constexpr unsigned int AHGPAGNBOHA_TypeDefinitionIndex = 41943;
+inline static constexpr unsigned int AHGPAGNBOHA_TypeDefinitionIndex = 42918;
 
 	class AHGPAGNBOHA : public ::System::Object
 	{

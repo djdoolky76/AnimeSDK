@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByAllowInstantKill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define INLIKDBOKNK_CTOR_OFFSET UNITYSDK_OFFSET(0x164E8C50)
-#define INLIKDBOKNK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164E8C80)
+#define INLIKDBOKNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F6CF0)
+#define INLIKDBOKNK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A5F6D20)
 
-inline static constexpr unsigned int INLIKDBOKNK_TypeDefinitionIndex = 54478;
+inline static constexpr unsigned int INLIKDBOKNK_TypeDefinitionIndex = 55642;
 
 	class INLIKDBOKNK
 	{

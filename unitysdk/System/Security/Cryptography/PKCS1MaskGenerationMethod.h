@@ -3,7 +3,7 @@
 #include "unitysdk/System/Security/Cryptography/MaskGenerationMethod.h"
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_PKCS1MASKGENERATIONMETHOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C338850)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_PKCS1MASKGENERATIONMETHOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF169B0)
 
 namespace System::Security::Cryptography
 {

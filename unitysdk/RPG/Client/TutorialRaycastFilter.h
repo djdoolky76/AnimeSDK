@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_TUTORIALRAYCASTFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE336BC0)
-#define RPG_CLIENT_TUTORIALRAYCASTFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xE336A70)
+#define RPG_CLIENT_TUTORIALRAYCASTFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BE1A0)
+#define RPG_CLIENT_TUTORIALRAYCASTFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0x1C9BE050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialRaycastFilter_TypeDefinitionIndex = 69035;
+	inline static constexpr unsigned int TutorialRaycastFilter_TypeDefinitionIndex = 70988;
 
 	class TutorialRaycastFilter : public ::UnityEngine::MonoBehaviour
 	{

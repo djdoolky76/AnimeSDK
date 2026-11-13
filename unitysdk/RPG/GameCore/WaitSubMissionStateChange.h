@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitSubMissionStateChange; }
 
-#define RPG_GAMECORE_WAITSUBMISSIONSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC751A0)
-#define RPG_GAMECORE_WAITSUBMISSIONSTATECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC751B0)
-#define RPG_GAMECORE_WAITSUBMISSIONSTATECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC75160)
+#define RPG_GAMECORE_WAITSUBMISSIONSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x20802BB0)
+#define RPG_GAMECORE_WAITSUBMISSIONSTATECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x20802BC0)
+#define RPG_GAMECORE_WAITSUBMISSIONSTATECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20802B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitSubMissionStateChange_TypeDefinitionIndex = 20726;
+	inline static constexpr unsigned int WaitSubMissionStateChange_TypeDefinitionIndex = 21063;
 
 	class WaitSubMissionStateChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{

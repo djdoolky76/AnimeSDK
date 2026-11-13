@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyFateLevelParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PHLEFHDGLEB_CTOR_OFFSET UNITYSDK_OFFSET(0xC24D840)
-#define PHLEFHDGLEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC24D870)
+#define PHLEFHDGLEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B6FD0)
+#define PHLEFHDGLEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9B7000)
 
-inline static constexpr unsigned int PHLEFHDGLEB_TypeDefinitionIndex = 55202;
+inline static constexpr unsigned int PHLEFHDGLEB_TypeDefinitionIndex = 56383;
 
 	class PHLEFHDGLEB
 	{

@@ -6,17 +6,17 @@ class DNFLPDDLIPA;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define DNFLPDDLIPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1C5D0)
-#define DNFLPDDLIPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD1C450)
+#define DNFLPDDLIPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E990EB0)
+#define DNFLPDDLIPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E990D30)
 
-inline static constexpr unsigned int DNFLPDDLIPA_TypeDefinitionIndex = 12021;
+inline static constexpr unsigned int DNFLPDDLIPA_TypeDefinitionIndex = 12078;
 
 	class DNFLPDDLIPA : public ::System::Object
 	{
 	public:
 		::System::String* OJFFBFCEMKL; // 0x10
-		::LJGCILDAOEP OAPONHEHCOJ; // 0x18
-		::System::UInt32 EHLMAJICIGJ; // 0x1C
+		::System::UInt32 EHLMAJICIGJ; // 0x18
+		::LJGCILDAOEP OAPONHEHCOJ; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DNFLPDDLIPA_CTOR_OFFSET))(this);

@@ -7,19 +7,19 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define GHMHPIANEIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1CB90)
-#define GHMHPIANEIG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1CE1CE20)
-#define GHMHPIANEIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1CE1CDA0)
-#define GHMHPIANEIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE1CBD0)
-#define GHMHPIANEIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE1CB10)
+#define GHMHPIANEIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E63E6B0)
+#define GHMHPIANEIG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1E63E920)
+#define GHMHPIANEIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E63E8C0)
+#define GHMHPIANEIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E63E6F0)
+#define GHMHPIANEIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E63E650)
 
-inline static constexpr unsigned int GHMHPIANEIG_TypeDefinitionIndex = 22919;
+inline static constexpr unsigned int GHMHPIANEIG_TypeDefinitionIndex = 23345;
 
 	class GHMHPIANEIG : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::Il2CppArray<::System::String*>* FNKLEPJFCNB; // 0x28
+		::Il2CppArray<::System::String*>* FNKLEPJFCNB; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHMHPIANEIG_CTOR_OFFSET))(this);

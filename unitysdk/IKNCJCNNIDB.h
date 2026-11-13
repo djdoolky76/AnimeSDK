@@ -3,7 +3,7 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StageMonsterWave; }
 
-inline static constexpr unsigned int IKNCJCNNIDB_TypeDefinitionIndex = 59021;
+inline static constexpr unsigned int IKNCJCNNIDB_TypeDefinitionIndex = 60296;
 
 	struct alignas(8) IKNCJCNNIDB
 	{

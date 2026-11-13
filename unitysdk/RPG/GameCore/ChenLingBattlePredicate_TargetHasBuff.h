@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattlePredicate_TargetHasBuff; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_TARGETHASBUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D559610)
-#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_TARGETHASBUFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D559620)
-#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_TARGETHASBUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5595C0)
+#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_TARGETHASBUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F35A240)
+#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_TARGETHASBUFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F35A250)
+#define RPG_GAMECORE_CHENLINGBATTLEPREDICATE_TARGETHASBUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F35A1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattlePredicate_TargetHasBuff_TypeDefinitionIndex = 15812;
+	inline static constexpr unsigned int ChenLingBattlePredicate_TargetHasBuff_TypeDefinitionIndex = 15970;
 
 	class ChenLingBattlePredicate_TargetHasBuff : public ::RPG::GameCore::BaseChenLingBattlePredicate
 	{

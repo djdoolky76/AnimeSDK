@@ -7,7 +7,7 @@ namespace UnityEngine::ProBuilder::KdTree { template <typename T> class ITypeMat
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int KdTree_2_TypeDefinitionIndex = 38722;
+	inline static constexpr unsigned int KdTree_2_TypeDefinitionIndex = 39651;
 
 	template <typename T1, typename T2>
 	class KdTree_2 : public ::System::Object

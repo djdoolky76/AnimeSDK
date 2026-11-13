@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerSDFTextEffect___O_TypeDefinitionIndex = 23636;
+	inline static constexpr unsigned int TriggerSDFTextEffect___O_TypeDefinitionIndex = 24083;
 
 	class TriggerSDFTextEffect___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x25780);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x2A2B0);
 		}
 
 	};

@@ -9,12 +9,12 @@ namespace RPG::GameCore { class ChimeraDuelBuffDisplayConfig; }
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56DEE0)
-#define RPG_GAMECORE_CHIMERADUELBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56DD30)
+#define RPG_GAMECORE_CHIMERADUELBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F923F90)
+#define RPG_GAMECORE_CHIMERADUELBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F923DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelBuffConfig_TypeDefinitionIndex = 16004;
+	inline static constexpr unsigned int ChimeraDuelBuffConfig_TypeDefinitionIndex = 16162;
 
 	class ChimeraDuelBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTalkNameConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA03CA0)
-#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA035C0)
+#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF24580)
+#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF23EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTalkNameConfigRow_TypeDefinitionIndex = 14809;
+	inline static constexpr unsigned int RogueTalkNameConfigRow_TypeDefinitionIndex = 14965;
 
 	class RogueTalkNameConfigRow : public ::System::Object
 	{

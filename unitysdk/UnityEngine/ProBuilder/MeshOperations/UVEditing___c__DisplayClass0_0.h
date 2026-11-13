@@ -4,12 +4,12 @@
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F20F430)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__DISPLAYCLASS0_0__AUTOSTITCH_B__0_OFFSET UNITYSDK_OFFSET(0x1F214CE0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD727DF0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__DISPLAYCLASS0_0__AUTOSTITCH_B__0_OFFSET UNITYSDK_OFFSET(0xD72D710)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int UVEditing___c__DisplayClass0_0_TypeDefinitionIndex = 44521;
+	inline static constexpr unsigned int UVEditing___c__DisplayClass0_0_TypeDefinitionIndex = 45596;
 
 	class UVEditing___c__DisplayClass0_0 : public ::System::Object
 	{

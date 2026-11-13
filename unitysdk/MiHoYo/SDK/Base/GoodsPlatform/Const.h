@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC13960)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CONST_CTOR_OFFSET UNITYSDK_OFFSET(0x1B44EF00)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int Const_TypeDefinitionIndex = 8841;
+	inline static constexpr unsigned int Const_TypeDefinitionIndex = 8850;
 
 	class Const : public ::System::Object
 	{

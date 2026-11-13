@@ -6,20 +6,20 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerCableProceduralEffect; }
 
-#define JKFDCGGIACG_CTOR_OFFSET UNITYSDK_OFFSET(0xB215230)
-#define JKFDCGGIACG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB215620)
-#define JKFDCGGIACG_LBMACDLKEDF_OFFSET UNITYSDK_OFFSET(0xB2156C0)
-#define JKFDCGGIACG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB215240)
-#define JKFDCGGIACG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2155D0)
-#define JKFDCGGIACG_TICK_OFFSET UNITYSDK_OFFSET(0xB215660)
+#define JKFDCGGIACG_CTOR_OFFSET UNITYSDK_OFFSET(0x17B20DC0)
+#define JKFDCGGIACG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B211B0)
+#define JKFDCGGIACG_LBMACDLKEDF_OFFSET UNITYSDK_OFFSET(0x17B21250)
+#define JKFDCGGIACG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B20DD0)
+#define JKFDCGGIACG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17B21160)
+#define JKFDCGGIACG_TICK_OFFSET UNITYSDK_OFFSET(0x17B211F0)
 
-inline static constexpr unsigned int JKFDCGGIACG_TypeDefinitionIndex = 55724;
+inline static constexpr unsigned int JKFDCGGIACG_TypeDefinitionIndex = 56926;
 
 	class JKFDCGGIACG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerCableProceduralEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerCableProceduralEffect* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerCableProceduralEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerCableProceduralEffect*))((::PBYTE)hIl2Cpp + JKFDCGGIACG_CTOR_OFFSET))(this, a1, a2);

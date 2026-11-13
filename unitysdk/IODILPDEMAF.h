@@ -4,16 +4,17 @@
 class FCOEMCEDLNL;
 class IODILPDEMAF;
 
-#define IODILPDEMAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFAE70)
-#define IODILPDEMAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEFAD50)
+#define IODILPDEMAF_CTOR_OFFSET UNITYSDK_OFFSET(0xC9A0BB0)
+#define IODILPDEMAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xC9A0A90)
 
-inline static constexpr unsigned int IODILPDEMAF_TypeDefinitionIndex = 11570;
+inline static constexpr unsigned int IODILPDEMAF_TypeDefinitionIndex = 11621;
 
 	class IODILPDEMAF : public ::System::Object
 	{
 	public:
-		::System::UInt32 NDAIGIEMABD; // 0x10
-		::System::Boolean NLCEDPNILIE; // 0x14
+		::System::Boolean NLCEDPNILIE; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::UInt32 NDAIGIEMABD; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IODILPDEMAF_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class OGCKAGAMDJP;
 namespace System { class Object; }
 
-#define OGCKAGAMDJP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE225A0)
-#define OGCKAGAMDJP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE225E0)
-#define OGCKAGAMDJP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DE225F0)
+#define OGCKAGAMDJP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2121E0)
+#define OGCKAGAMDJP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F212220)
+#define OGCKAGAMDJP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F212230)
 
-inline static constexpr unsigned int OGCKAGAMDJP___c_TypeDefinitionIndex = 28385;
+inline static constexpr unsigned int OGCKAGAMDJP___c_TypeDefinitionIndex = 28975;
 
 	class OGCKAGAMDJP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17860);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14A40);
 		}
 
 		static ::System::Void _cctor()

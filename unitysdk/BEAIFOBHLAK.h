@@ -3,10 +3,10 @@
 class NFFBDBNDOCG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BEAIFOBHLAK_CTOR_OFFSET UNITYSDK_OFFSET(0x162FC820)
-#define BEAIFOBHLAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162FC850)
+#define BEAIFOBHLAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A92AA20)
+#define BEAIFOBHLAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A92AA50)
 
-inline static constexpr unsigned int BEAIFOBHLAK_TypeDefinitionIndex = 55599;
+inline static constexpr unsigned int BEAIFOBHLAK_TypeDefinitionIndex = 56795;
 
 	class BEAIFOBHLAK
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeVariantListControl_KHIAAPEMPMN; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC945240)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE29F0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl___c__DisplayClass20_0_TypeDefinitionIndex = 81530;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl___c__DisplayClass20_0_TypeDefinitionIndex = 84311;
 
 	class ChallengeTierceNodeVariantListControl___c__DisplayClass20_0 : public ::System::Object
 	{

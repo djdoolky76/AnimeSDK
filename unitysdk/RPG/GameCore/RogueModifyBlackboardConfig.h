@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueModifyBlackboardConfig; }
 
-#define RPG_GAMECORE_ROGUEMODIFYBLACKBOARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ED520)
-#define RPG_GAMECORE_ROGUEMODIFYBLACKBOARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9ED4E0)
+#define RPG_GAMECORE_ROGUEMODIFYBLACKBOARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x207A4D30)
+#define RPG_GAMECORE_ROGUEMODIFYBLACKBOARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207A4CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifyBlackboardConfig_TypeDefinitionIndex = 19790;
+	inline static constexpr unsigned int RogueModifyBlackboardConfig_TypeDefinitionIndex = 20121;
 
 	class RogueModifyBlackboardConfig : public ::RPG::GameCore::JsonConfig
 	{

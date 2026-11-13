@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LELCKJPOPAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B7550)
+#define LELCKJPOPAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E950FE0)
 
-inline static constexpr unsigned int LELCKJPOPAO_TypeDefinitionIndex = 10799;
+inline static constexpr unsigned int LELCKJPOPAO_TypeDefinitionIndex = 10815;
 
 	class LELCKJPOPAO : public ::System::Object
 	{

@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveTeamSlotUpgradeCostRow; }
 
-#define RPG_GAMECORE_IDLELIVETEAMSLOTUPGRADECOSTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7539A0)
-#define RPG_GAMECORE_IDLELIVETEAMSLOTUPGRADECOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D753820)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTUPGRADECOSTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8C7F0)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTUPGRADECOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE8C670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamSlotUpgradeCostRow_TypeDefinitionIndex = 11685;
+	inline static constexpr unsigned int IdleLiveTeamSlotUpgradeCostRow_TypeDefinitionIndex = 11742;
 
 	class IdleLiveTeamSlotUpgradeCostRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint LevelAddPower; // 0x10
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 Cost; // 0x1C
+		::System::UInt32 Level; // 0x10
+		::System::UInt32 Cost; // 0x14
+		::RPG::GameCore::FixPoint LevelAddPower; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVETEAMSLOTUPGRADECOSTROW_CTOR_OFFSET))(this);

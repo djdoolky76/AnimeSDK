@@ -5,14 +5,14 @@ namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdRenderer___O_TypeDefinitionIndex = 73724;
+	inline static constexpr unsigned int CrowdRenderer___O_TypeDefinitionIndex = 75847;
 
 	class CrowdRenderer___O : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::NotifyHandler** StaticGet__0___OnCameraSwitch()
 		{
-			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "<>O")->GetStaticField(0x1A070);
+			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "<>O")->GetStaticField(0x20750);
 		}
 
 	};

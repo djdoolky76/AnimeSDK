@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CGOGDJKALMH_TypeDefinitionIndex = 30797;
+inline static constexpr unsigned int CGOGDJKALMH_TypeDefinitionIndex = 31710;
 
 	enum class CGOGDJKALMH : ::System::Int32
 	{

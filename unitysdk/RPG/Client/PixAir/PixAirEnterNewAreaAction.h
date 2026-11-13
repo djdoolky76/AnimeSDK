@@ -6,24 +6,24 @@ class EIFBMCGPNMG;
 class INOEJKDIMKO;
 namespace RPG::Client::PixAir { class PixAirGameSession; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDB30690)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION_RECORDCHANGE_OFFSET UNITYSDK_OFFSET(0xDB2FBE0)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION__RECORDBASICCHANGE_OFFSET UNITYSDK_OFFSET(0xDB301C0)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION__RECORDSLOTNUMCHANGE_OFFSET UNITYSDK_OFFSET(0xDB30630)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E354020)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION_RECORDCHANGE_OFFSET UNITYSDK_OFFSET(0x1E353530)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION__RECORDBASICCHANGE_OFFSET UNITYSDK_OFFSET(0x1E353B20)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION__RECORDSLOTNUMCHANGE_OFFSET UNITYSDK_OFFSET(0x1E353FC0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEnterNewAreaAction_TypeDefinitionIndex = 79277;
+	inline static constexpr unsigned int PixAirEnterNewAreaAction_TypeDefinitionIndex = 82054;
 
 	class PixAirEnterNewAreaAction : public ::System::Object
 	{
 	public:
-		::System::Int32 _TempMaxHp; // 0x10
-		::System::Int32 _TempSlotNum; // 0x14
-		::System::Int32 AddSlotNum; // 0x18
-		::System::Int32 _TempCoin; // 0x1C
+		::System::Int32 AddSlotNum; // 0x10
+		::System::Int32 _TempCoin; // 0x14
+		::System::Int32 AddCoin; // 0x18
+		::System::Int32 _TempSlotNum; // 0x1C
 		::System::Int32 AddMaxHp; // 0x20
-		::System::Int32 AddCoin; // 0x24
+		::System::Int32 _TempMaxHp; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERNEWAREAACTION_CTOR_OFFSET))(this);

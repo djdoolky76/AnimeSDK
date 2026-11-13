@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RVO { class Obstacle; }
 
-#define RVO_OBSTACLE_CTOR_OFFSET UNITYSDK_OFFSET(0xB090280)
+#define RVO_OBSTACLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF37830)
 
 namespace RVO
 {
-	inline static constexpr unsigned int Obstacle_TypeDefinitionIndex = 46032;
+	inline static constexpr unsigned int Obstacle_TypeDefinitionIndex = 47061;
 
 	class Obstacle : public ::System::Object
 	{
@@ -17,9 +17,10 @@ namespace RVO
 		::RVO::Obstacle* next_; // 0x18
 		::System::Single height_; // 0x20
 		::System::Int32 id_; // 0x24
-		::RVO::Vector2 point_; // 0x28
-		::RVO::Vector2 direction_; // 0x30
-		::System::Boolean convex_; // 0x38
+		::System::Boolean convex_; // 0x28
+		::System::Byte _padding0[0x3];
+		::RVO::Vector2 point_; // 0x2C
+		::RVO::Vector2 direction_; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_OBSTACLE_CTOR_OFFSET))(this);

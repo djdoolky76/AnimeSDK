@@ -5,29 +5,29 @@ namespace SWRT { class BVH2; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SWRT_BVH8_BUILD_OFFSET UNITYSDK_OFFSET(0x1CC541F0)
-#define SWRT_BVH8_CALCULATEDECISION_OFFSET UNITYSDK_OFFSET(0x1CC538F0)
-#define SWRT_BVH8_CONVERTTOCWBVH_OFFSET UNITYSDK_OFFSET(0x1CC54BB0)
-#define SWRT_BVH8_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC53560)
-#define SWRT_BVH8_GATHERPRIMITIVES_OFFSET UNITYSDK_OFFSET(0x1CC55D90)
-#define SWRT_BVH8_GETCHILDREN_OFFSET UNITYSDK_OFFSET(0x1CC55390)
-#define SWRT_BVH8_NEXTPOWEROFTWOFLOATUNSAFE_OFFSET UNITYSDK_OFFSET(0x1CC55E70)
-#define SWRT_BVH8_SORTCHILDREN_OFFSET UNITYSDK_OFFSET(0x1CC55540)
+#define SWRT_BVH8_BUILD_OFFSET UNITYSDK_OFFSET(0x20758050)
+#define SWRT_BVH8_CALCULATEDECISION_OFFSET UNITYSDK_OFFSET(0x20757750)
+#define SWRT_BVH8_CONVERTTOCWBVH_OFFSET UNITYSDK_OFFSET(0x20758A10)
+#define SWRT_BVH8_CTOR_OFFSET UNITYSDK_OFFSET(0x207573C0)
+#define SWRT_BVH8_GATHERPRIMITIVES_OFFSET UNITYSDK_OFFSET(0x20759BF0)
+#define SWRT_BVH8_GETCHILDREN_OFFSET UNITYSDK_OFFSET(0x207591F0)
+#define SWRT_BVH8_NEXTPOWEROFTWOFLOATUNSAFE_OFFSET UNITYSDK_OFFSET(0x20759CD0)
+#define SWRT_BVH8_SORTCHILDREN_OFFSET UNITYSDK_OFFSET(0x207593A0)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH8_TypeDefinitionIndex = 37498;
+	inline static constexpr unsigned int BVH8_TypeDefinitionIndex = 38426;
 
 	class BVH8 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Object*>* _Decisions; // 0x10
-		::System::Object* _Cost; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* _PrimIndices; // 0x20
+		::Il2CppArray<::System::Int32>* _ChildrenCopy; // 0x10
+		::Il2CppArray<::System::Boolean>* _SlotEmpty; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* _CWNodes; // 0x20
 		::System::Collections::Generic::List_1<::System::Object*>* _WNodes; // 0x28
-		::Il2CppArray<::System::Boolean>* _SlotEmpty; // 0x30
-		::Il2CppArray<::System::Int32>* _ChildrenCopy; // 0x38
-		::System::Collections::Generic::List_1<::System::Object*>* _CWNodes; // 0x40
+		::Il2CppArray<::System::Object*>* _Decisions; // 0x30
+		::System::Object* _Cost; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* _PrimIndices; // 0x40
 		::Il2CppArray<::System::Int32>* _Assignment; // 0x48
 		::System::Void _ctor(::SWRT::BVH2* a1)
 		{

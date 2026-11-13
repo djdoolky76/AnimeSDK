@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DMMNKCGDCDI_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBFA40)
+#define DMMNKCGDCDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1869DA40)
 
-inline static constexpr unsigned int DMMNKCGDCDI_TypeDefinitionIndex = 65092;
+inline static constexpr unsigned int DMMNKCGDCDI_TypeDefinitionIndex = 66761;
 
 	class DMMNKCGDCDI : public ::System::Object
 	{

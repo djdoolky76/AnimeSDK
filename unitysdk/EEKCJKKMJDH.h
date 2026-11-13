@@ -3,10 +3,10 @@
 class FGMDCIDDILA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EEKCJKKMJDH_CTOR_OFFSET UNITYSDK_OFFSET(0x13A32100)
-#define EEKCJKKMJDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A32130)
+#define EEKCJKKMJDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A31A7E0)
+#define EEKCJKKMJDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A31A810)
 
-inline static constexpr unsigned int EEKCJKKMJDH_TypeDefinitionIndex = 53352;
+inline static constexpr unsigned int EEKCJKKMJDH_TypeDefinitionIndex = 54514;
 
 	class EEKCJKKMJDH
 	{

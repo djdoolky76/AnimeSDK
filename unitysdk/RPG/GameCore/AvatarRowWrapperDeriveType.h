@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarRowWrapperDeriveType_TypeDefinitionIndex = 56874;
+	inline static constexpr unsigned int AvatarRowWrapperDeriveType_TypeDefinitionIndex = 58098;
 
 	enum class AvatarRowWrapperDeriveType : ::System::Int32
 	{

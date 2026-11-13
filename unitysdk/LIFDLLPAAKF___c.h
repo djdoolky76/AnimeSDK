@@ -4,18 +4,18 @@
 class LIFDLLPAAKF;
 namespace System { class Object; }
 
-#define LIFDLLPAAKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E93F5C0)
-#define LIFDLLPAAKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E93F600)
-#define LIFDLLPAAKF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E93F610)
+#define LIFDLLPAAKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201C8C80)
+#define LIFDLLPAAKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201C8CC0)
+#define LIFDLLPAAKF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x201C8CD0)
 
-inline static constexpr unsigned int LIFDLLPAAKF___c_TypeDefinitionIndex = 31645;
+inline static constexpr unsigned int LIFDLLPAAKF___c_TypeDefinitionIndex = 32558;
 
 	class LIFDLLPAAKF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37FA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A530);
 		}
 
 		static ::System::Void _cctor()

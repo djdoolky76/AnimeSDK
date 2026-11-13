@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BGLEHLDOFPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88C160)
+#define BGLEHLDOFPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B6920)
 
-inline static constexpr unsigned int BGLEHLDOFPP_TypeDefinitionIndex = 42543;
+inline static constexpr unsigned int BGLEHLDOFPP_TypeDefinitionIndex = 43518;
 
 	class BGLEHLDOFPP : public ::System::Object
 	{

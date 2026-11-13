@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_ALLEYROUTEBIRDCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC66EFB0)
+#define RPG_CLIENT_ALLEYROUTEBIRDCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8D0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyRouteBirdControl_TypeDefinitionIndex = 62292;
+	inline static constexpr unsigned int AlleyRouteBirdControl_TypeDefinitionIndex = 63705;
 
 	class AlleyRouteBirdControl : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,20 +5,20 @@ class KDJNAAOFMMJ;
 namespace RPG::GameCore { class PropStateExecute; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HKEDANCIGMG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D33C30)
-#define HKEDANCIGMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D33C40)
-#define HKEDANCIGMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D33CA0)
-#define HKEDANCIGMG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D33E30)
-#define HKEDANCIGMG_TICK_OFFSET UNITYSDK_OFFSET(0x15D33E90)
+#define HKEDANCIGMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1987A050)
+#define HKEDANCIGMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1987A060)
+#define HKEDANCIGMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1987A0C0)
+#define HKEDANCIGMG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1987A230)
+#define HKEDANCIGMG_TICK_OFFSET UNITYSDK_OFFSET(0x1987A290)
 
-inline static constexpr unsigned int HKEDANCIGMG_TypeDefinitionIndex = 53184;
+inline static constexpr unsigned int HKEDANCIGMG_TypeDefinitionIndex = 54346;
 
 	class HKEDANCIGMG : public ::GELIALJDFBL
 	{
 	public:
-		::KDJNAAOFMMJ* KPDELFCJIIA; // 0x18
-		::RPG::GameCore::PropStateExecute* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::KDJNAAOFMMJ* KPDELFCJIIA; // 0x20
+		::RPG::GameCore::PropStateExecute* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropStateExecute* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropStateExecute*))((::PBYTE)hIl2Cpp + HKEDANCIGMG_CTOR_OFFSET))(this, a1, a2);

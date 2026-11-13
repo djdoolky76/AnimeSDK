@@ -7,19 +7,19 @@ namespace RPG::Client::Dev { class VirtualServerLaunchConfig; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KHCGCOFBMDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB3F8B00)
-#define KHCGCOFBMDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3F8A20)
-#define KHCGCOFBMDC_DLHGEHNNCDA_OFFSET UNITYSDK_OFFSET(0xB3F8A60)
-#define KHCGCOFBMDC_EJACOFEBELP_OFFSET UNITYSDK_OFFSET(0xB3F8AF0)
-#define KHCGCOFBMDC_EONHLGBKOAC_OFFSET UNITYSDK_OFFSET(0xB3F8AB0)
+#define KHCGCOFBMDC_CTOR_OFFSET UNITYSDK_OFFSET(0x19788540)
+#define KHCGCOFBMDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19788460)
+#define KHCGCOFBMDC_DLHGEHNNCDA_OFFSET UNITYSDK_OFFSET(0x197884A0)
+#define KHCGCOFBMDC_EJACOFEBELP_OFFSET UNITYSDK_OFFSET(0x19788530)
+#define KHCGCOFBMDC_EONHLGBKOAC_OFFSET UNITYSDK_OFFSET(0x197884F0)
 
-inline static constexpr unsigned int KHCGCOFBMDC_TypeDefinitionIndex = 82122;
+inline static constexpr unsigned int KHCGCOFBMDC_TypeDefinitionIndex = 84995;
 
 	class KHCGCOFBMDC : public ::System::Object
 	{
 	public:
-		::RPG::Client::Dev::VirtualServerLaunchConfig* IDNKIOEBEIH; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::LMJAGGOPGDD*>* PPPPOOGFCBG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::LMJAGGOPGDD*>* PPPPOOGFCBG; // 0x10
+		::RPG::Client::Dev::VirtualServerLaunchConfig* IDNKIOEBEIH; // 0x18
 		::System::Boolean EGGNNPNDIDD; // 0x20
 		::System::Void _ctor()
 		{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PauseTimeRewindTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C5A10)
-#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8C5A20)
-#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C59D0)
+#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F147AF0)
+#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F147B00)
+#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F147AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PauseTimeRewindTarget_TypeDefinitionIndex = 20659;
+	inline static constexpr unsigned int PauseTimeRewindTarget_TypeDefinitionIndex = 20996;
 
 	class PauseTimeRewindTarget : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class TrackExtensionMonoPlugin; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_JUMPLINK_CTOR_OFFSET UNITYSDK_OFFSET(0xDEDB3B0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_JUMPLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BA6B0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashJumpData_JumpLink_TypeDefinitionIndex = 75880;
+	inline static constexpr unsigned int MonoRoadRashJumpData_JumpLink_TypeDefinitionIndex = 78207;
 
 	class MonoRoadRashJumpData_JumpLink : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PJAEFBNMFBN_CTOR_OFFSET UNITYSDK_OFFSET(0xC2705B0)
-#define PJAEFBNMFBN_NGCMBKFFGJK_1_OFFSET UNITYSDK_OFFSET(0xC2701D0)
-#define PJAEFBNMFBN_NGCMBKFFGJK_OFFSET UNITYSDK_OFFSET(0xC26FE60)
+#define PJAEFBNMFBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9DCB40)
+#define PJAEFBNMFBN_NGCMBKFFGJK_1_OFFSET UNITYSDK_OFFSET(0x1A9DC760)
+#define PJAEFBNMFBN_NGCMBKFFGJK_OFFSET UNITYSDK_OFFSET(0x1A9DC3F0)
 
-inline static constexpr unsigned int PJAEFBNMFBN_TypeDefinitionIndex = 61082;
+inline static constexpr unsigned int PJAEFBNMFBN_TypeDefinitionIndex = 62467;
 
 	class PJAEFBNMFBN : public ::System::Object
 	{

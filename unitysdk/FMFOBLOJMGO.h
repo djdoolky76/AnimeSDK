@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowWaypointByProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FMFOBLOJMGO_CTOR_OFFSET UNITYSDK_OFFSET(0x15847C40)
-#define FMFOBLOJMGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15847C70)
+#define FMFOBLOJMGO_CTOR_OFFSET UNITYSDK_OFFSET(0x17EF9060)
+#define FMFOBLOJMGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17EF9090)
 
-inline static constexpr unsigned int FMFOBLOJMGO_TypeDefinitionIndex = 58710;
+inline static constexpr unsigned int FMFOBLOJMGO_TypeDefinitionIndex = 59978;
 
 	class FMFOBLOJMGO
 	{

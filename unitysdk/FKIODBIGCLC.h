@@ -4,9 +4,9 @@
 class MOILELMFJPL;
 namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 
-#define FKIODBIGCLC_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0x157F3B70)
+#define FKIODBIGCLC_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0x1AAAA640)
 
-inline static constexpr unsigned int FKIODBIGCLC_TypeDefinitionIndex = 63470;
+inline static constexpr unsigned int FKIODBIGCLC_TypeDefinitionIndex = 64908;
 
 	class FKIODBIGCLC : public ::System::Object
 	{

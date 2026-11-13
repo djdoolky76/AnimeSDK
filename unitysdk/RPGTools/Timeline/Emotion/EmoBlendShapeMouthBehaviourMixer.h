@@ -6,12 +6,12 @@
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E1130)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8E10A0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D901DF0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1D901D60)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeMouthBehaviourMixer_TypeDefinitionIndex = 48749;
+	inline static constexpr unsigned int EmoBlendShapeMouthBehaviourMixer_TypeDefinitionIndex = 49795;
 
 	class EmoBlendShapeMouthBehaviourMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MPDLPOCLIDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C72A6B0)
-#define MPDLPOCLIDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C72A6F0)
-#define MPDLPOCLIDP___C___ROLLDICEBYPRESET_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C72A700)
+#define MPDLPOCLIDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1606B050)
+#define MPDLPOCLIDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1606B090)
+#define MPDLPOCLIDP___C___ROLLDICEBYPRESET_B__8_0_OFFSET UNITYSDK_OFFSET(0x1606B0A0)
 
-inline static constexpr unsigned int MPDLPOCLIDP___c_TypeDefinitionIndex = 36505;
+inline static constexpr unsigned int MPDLPOCLIDP___c_TypeDefinitionIndex = 37433;
 
 	class MPDLPOCLIDP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16300);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF130);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::String*>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16308);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF138);
 		}
 
 		static ::System::Void _cctor()

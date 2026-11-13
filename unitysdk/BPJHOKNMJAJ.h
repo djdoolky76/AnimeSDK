@@ -5,20 +5,20 @@ class DEEJKBIMHAA;
 namespace RPG::GameCore { class RandomSelectInTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BPJHOKNMJAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A5740)
-#define BPJHOKNMJAJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1A5780)
-#define BPJHOKNMJAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1A57C0)
-#define BPJHOKNMJAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1A5B00)
-#define BPJHOKNMJAJ_TICK_OFFSET UNITYSDK_OFFSET(0xC1A5B50)
+#define BPJHOKNMJAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B603E40)
+#define BPJHOKNMJAJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B603E80)
+#define BPJHOKNMJAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B603EC0)
+#define BPJHOKNMJAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B604200)
+#define BPJHOKNMJAJ_TICK_OFFSET UNITYSDK_OFFSET(0x1B604250)
 
-inline static constexpr unsigned int BPJHOKNMJAJ_TypeDefinitionIndex = 55276;
+inline static constexpr unsigned int BPJHOKNMJAJ_TypeDefinitionIndex = 56457;
 
 	class BPJHOKNMJAJ : public ::GELIALJDFBL
 	{
 	public:
-		::DEEJKBIMHAA* AIJGGLCAEON; // 0x18
-		::RPG::GameCore::RandomSelectInTargetList* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::DEEJKBIMHAA* AIJGGLCAEON; // 0x20
+		::RPG::GameCore::RandomSelectInTargetList* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RandomSelectInTargetList* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RandomSelectInTargetList*))((::PBYTE)hIl2Cpp + BPJHOKNMJAJ_CTOR_OFFSET))(this, a1, a2);

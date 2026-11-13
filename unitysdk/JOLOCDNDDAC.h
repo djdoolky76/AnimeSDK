@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SwordTrainingNotifySelectStory; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JOLOCDNDDAC_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0E60)
-#define JOLOCDNDDAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2A0E70)
-#define JOLOCDNDDAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2A0EB0)
-#define JOLOCDNDDAC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2A0F30)
-#define JOLOCDNDDAC_TICK_OFFSET UNITYSDK_OFFSET(0xB2A0F80)
+#define JOLOCDNDDAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E2FC0)
+#define JOLOCDNDDAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B4E2FD0)
+#define JOLOCDNDDAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4E3010)
+#define JOLOCDNDDAC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B4E3090)
+#define JOLOCDNDDAC_TICK_OFFSET UNITYSDK_OFFSET(0x1B4E30E0)
 
-inline static constexpr unsigned int JOLOCDNDDAC_TypeDefinitionIndex = 58757;
+inline static constexpr unsigned int JOLOCDNDDAC_TypeDefinitionIndex = 60025;
 
 	class JOLOCDNDDAC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SwordTrainingNotifySelectStory* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SwordTrainingNotifySelectStory* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwordTrainingNotifySelectStory* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwordTrainingNotifySelectStory*))((::PBYTE)hIl2Cpp + JOLOCDNDDAC_CTOR_OFFSET))(this, a1, a2);

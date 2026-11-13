@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JOINAFEGKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D02A4E0)
+#define JOINAFEGKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9367F0)
 
-inline static constexpr unsigned int JOINAFEGKLF_TypeDefinitionIndex = 10380;
+inline static constexpr unsigned int JOINAFEGKLF_TypeDefinitionIndex = 10390;
 
 	class JOINAFEGKLF : public ::System::Attribute
 	{

@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCEDB40)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCEDB80)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__ONCREATEORDER_B__54_2_OFFSET UNITYSDK_OFFSET(0x1BCEDB90)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__REQUESTLISTPAYPLATV2_B__64_1_OFFSET UNITYSDK_OFFSET(0x1BCEDBF0)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17240AE0)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17240B20)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__ONCREATEORDER_B__54_2_OFFSET UNITYSDK_OFFSET(0x17240B30)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__REQUESTLISTPAYPLATV2_B__64_1_OFFSET UNITYSDK_OFFSET(0x17240B90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CNPayPlatManager___c_TypeDefinitionIndex = 9280;
+	inline static constexpr unsigned int CNPayPlatManager___c_TypeDefinitionIndex = 9288;
 
 	class CNPayPlatManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::PayPlatInfoModel*>** StaticGet___9__64_1()
-		{
-			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::PayPlatInfoModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2E6B0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2E6B8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x237A0);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__54_2()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2E6C0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x237A8);
+		}
+
+		static ::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::PayPlatInfoModel*>** StaticGet___9__64_1()
+		{
+			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::PayPlatInfoModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x237B0);
 		}
 
 		static ::System::Void _cctor()

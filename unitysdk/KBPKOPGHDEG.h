@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchChallengeBossInfoPanelState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KBPKOPGHDEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB31F460)
-#define KBPKOPGHDEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB31F490)
+#define KBPKOPGHDEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A472220)
+#define KBPKOPGHDEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A472250)
 
-inline static constexpr unsigned int KBPKOPGHDEG_TypeDefinitionIndex = 55678;
+inline static constexpr unsigned int KBPKOPGHDEG_TypeDefinitionIndex = 56876;
 
 	class KBPKOPGHDEG
 	{

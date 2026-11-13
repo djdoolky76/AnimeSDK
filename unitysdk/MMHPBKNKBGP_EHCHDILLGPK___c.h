@@ -5,35 +5,35 @@ class NMNIJNNFPGP;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MMHPBKNKBGP_EHCHDILLGPK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9C84B0)
-#define MMHPBKNKBGP_EHCHDILLGPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C84E0)
-#define MMHPBKNKBGP_EHCHDILLGPK___C__ALLBUTTONS_B__29_0_OFFSET UNITYSDK_OFFSET(0xB9C8500)
-#define MMHPBKNKBGP_EHCHDILLGPK___C__BUTTONS_B__27_0_OFFSET UNITYSDK_OFFSET(0xB9C84F0)
-#define MMHPBKNKBGP_EHCHDILLGPK___C__GETALLACTIVEBUTTONS_B__45_0_OFFSET UNITYSDK_OFFSET(0xB9C8510)
+#define MMHPBKNKBGP_EHCHDILLGPK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x188F6A20)
+#define MMHPBKNKBGP_EHCHDILLGPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x188F6A50)
+#define MMHPBKNKBGP_EHCHDILLGPK___C__ALLBUTTONS_B__29_0_OFFSET UNITYSDK_OFFSET(0x188F6A70)
+#define MMHPBKNKBGP_EHCHDILLGPK___C__BUTTONS_B__27_0_OFFSET UNITYSDK_OFFSET(0x188F6A60)
+#define MMHPBKNKBGP_EHCHDILLGPK___C__GETALLACTIVEBUTTONS_B__45_0_OFFSET UNITYSDK_OFFSET(0x188F6A80)
 
-inline static constexpr unsigned int MMHPBKNKBGP_EHCHDILLGPK___c_TypeDefinitionIndex = 71901;
+inline static constexpr unsigned int MMHPBKNKBGP_EHCHDILLGPK___c_TypeDefinitionIndex = 73922;
 
 	class MMHPBKNKBGP_EHCHDILLGPK___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>** StaticGet___9__45_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xEA10);
+			return (::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x9320);
 		}
 
 		static ::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>** StaticGet___9__27_0()
 		{
-			return (::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xEA18);
+			return (::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x9328);
 		}
 
 		static ::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>** StaticGet___9__29_0()
 		{
-			return (::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xEA20);
+			return (::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x9330);
 		}
 
-		static ::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>** StaticGet___9__45_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::NMNIJNNFPGP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xEA28);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x9338);
 		}
 
 		static ::System::Void _cctor()

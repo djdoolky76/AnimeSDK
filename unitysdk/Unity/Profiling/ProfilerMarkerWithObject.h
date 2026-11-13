@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Unity/Profiling/LowLevel/MarkerFlags.h"
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITY_PROFILING_PROFILERMARKERWITHOBJECT_BEGIN_OFFSET UNITYSDK_OFFSET(0x3C6B800)
-#define UNITY_PROFILING_PROFILERMARKERWITHOBJECT_CREATE_OFFSET UNITYSDK_OFFSET(0x1F39EE00)
-#define UNITY_PROFILING_PROFILERMARKERWITHOBJECT_END_OFFSET UNITYSDK_OFFSET(0x3C6B6D0)
+#define UNITY_PROFILING_PROFILERMARKERWITHOBJECT_BEGIN_OFFSET UNITYSDK_OFFSET(0x3F5FA50)
+#define UNITY_PROFILING_PROFILERMARKERWITHOBJECT_CREATE_OFFSET UNITYSDK_OFFSET(0x1F9BF9C0)
+#define UNITY_PROFILING_PROFILERMARKERWITHOBJECT_END_OFFSET UNITYSDK_OFFSET(0x3F5F920)
 
 namespace Unity::Profiling
 {
@@ -16,9 +17,9 @@ namespace Unity::Profiling
 		::System::IntPtr _marker; // 0x10
 		::System::Int32 _metadataCount; // 0x18
 		/*
-		static ::Unity::Profiling::ProfilerMarkerWithObject Create(::System::String* a1, ::System::String* a2, ::System::String* a3)
+		static ::Unity::Profiling::ProfilerMarkerWithObject Create(::System::String* a1, ::System::String* a2, ::System::String* a3, ::Unity::Profiling::LowLevel::MarkerFlags a4)
 		{
-			return ((::Unity::Profiling::ProfilerMarkerWithObject(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITY_PROFILING_PROFILERMARKERWITHOBJECT_CREATE_OFFSET))(a1, a2, a3);
+			return ((::Unity::Profiling::ProfilerMarkerWithObject(*)(::System::String*, ::System::String*, ::System::String*, ::Unity::Profiling::LowLevel::MarkerFlags))((::PBYTE)hIl2Cpp + UNITY_PROFILING_PROFILERMARKERWITHOBJECT_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 

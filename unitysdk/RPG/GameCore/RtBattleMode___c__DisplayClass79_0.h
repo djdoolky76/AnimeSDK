@@ -4,12 +4,12 @@
 class AENGOKAEEOA;
 class ANGGDDJJBKO;
 
-#define RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE7340D0)
-#define RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0___INITTEAMCHARACTERS_B__0_OFFSET UNITYSDK_OFFSET(0xE735B50)
+#define RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19298030)
+#define RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0___INITTEAMCHARACTERS_B__0_OFFSET UNITYSDK_OFFSET(0x19299AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleMode___c__DisplayClass79_0_TypeDefinitionIndex = 54271;
+	inline static constexpr unsigned int RtBattleMode___c__DisplayClass79_0_TypeDefinitionIndex = 55435;
 
 	class RtBattleMode___c__DisplayClass79_0 : public ::System::Object
 	{

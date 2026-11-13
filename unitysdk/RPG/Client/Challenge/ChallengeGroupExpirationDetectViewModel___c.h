@@ -5,25 +5,25 @@ namespace RPG::Client { class ChallengeGroupData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC937B50)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC937B90)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C___DETECT_B__9_0_OFFSET UNITYSDK_OFFSET(0xC937BA0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDD5120)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD5160)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C___DETECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1DDD5170)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeGroupExpirationDetectViewModel___c_TypeDefinitionIndex = 81424;
+	inline static constexpr unsigned int ChallengeGroupExpirationDetectViewModel___c_TypeDefinitionIndex = 84204;
 
 	class ChallengeGroupExpirationDetectViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x69F10);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x69F18);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x6FED0);
+		}
+
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x6FED8);
 		}
 
 		static ::System::Void _cctor()

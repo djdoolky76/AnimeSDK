@@ -4,11 +4,11 @@
 class OKGKPCLMCNC;
 namespace System { class Object; }
 
-#define OKGKPCLMCNC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE6CD10)
-#define OKGKPCLMCNC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6CD40)
-#define OKGKPCLMCNC___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DE6CD50)
+#define OKGKPCLMCNC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD59030)
+#define OKGKPCLMCNC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD59060)
+#define OKGKPCLMCNC___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1FD59070)
 
-inline static constexpr unsigned int OKGKPCLMCNC___c_TypeDefinitionIndex = 25424;
+inline static constexpr unsigned int OKGKPCLMCNC___c_TypeDefinitionIndex = 25903;
 
 	class OKGKPCLMCNC___c : public ::System::Object
 	{

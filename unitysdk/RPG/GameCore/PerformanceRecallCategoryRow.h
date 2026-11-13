@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceRecallCategoryRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D1030)
-#define RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8D0330)
+#define RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F152FD0)
+#define RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F1522D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceRecallCategoryRow_TypeDefinitionIndex = 14337;
+	inline static constexpr unsigned int PerformanceRecallCategoryRow_TypeDefinitionIndex = 14494;
 
 	class PerformanceRecallCategoryRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Category; // 0x18
-		::System::Boolean isSubCategory; // 0x28
+		::System::UInt32 CategoryID; // 0x18
+		::System::Boolean isSubCategory; // 0x1C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 CategoryID; // 0x2C
+		::RPG::Client::TextID Category; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW_CTOR_OFFSET))(this);

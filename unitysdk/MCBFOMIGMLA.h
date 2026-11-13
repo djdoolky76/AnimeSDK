@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MCBFOMIGMLA_TypeDefinitionIndex = 25284;
+inline static constexpr unsigned int MCBFOMIGMLA_TypeDefinitionIndex = 25762;
 
 	enum class MCBFOMIGMLA : ::System::Int32
 	{

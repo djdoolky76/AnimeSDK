@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFes3DIncomePreviewViewModel_State_TypeDefinitionIndex = 81366;
+	inline static constexpr unsigned int ChenLingFes3DIncomePreviewViewModel_State_TypeDefinitionIndex = 84146;
 
 	enum class ChenLingFes3DIncomePreviewViewModel_State : ::System::Int32
 	{

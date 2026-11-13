@@ -4,7 +4,7 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
-	inline static constexpr unsigned int ExposedList_1_Enumerator_TypeDefinitionIndex = 39671;
+	inline static constexpr unsigned int ExposedList_1_Enumerator_TypeDefinitionIndex = 40600;
 
 	template <typename T>
 	struct alignas(8) ExposedList_1_Enumerator

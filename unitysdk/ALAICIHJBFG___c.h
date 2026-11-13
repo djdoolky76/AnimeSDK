@@ -6,23 +6,23 @@ namespace RPG::GameCore { class FloorSavedValueOverride; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ALAICIHJBFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CDCAC0)
-#define ALAICIHJBFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CDCB00)
-#define ALAICIHJBFG___C___GETFLOORSAVEDVALUEOVERRIDELIST_B__14_0_OFFSET UNITYSDK_OFFSET(0x12CDCB10)
+#define ALAICIHJBFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x197B2ED0)
+#define ALAICIHJBFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x197B2F10)
+#define ALAICIHJBFG___C___GETFLOORSAVEDVALUEOVERRIDELIST_B__14_0_OFFSET UNITYSDK_OFFSET(0x197B2F20)
 
-inline static constexpr unsigned int ALAICIHJBFG___c_TypeDefinitionIndex = 75291;
+inline static constexpr unsigned int ALAICIHJBFG___c_TypeDefinitionIndex = 77618;
 
 	class ALAICIHJBFG___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::NMHEPKCFAFH*, ::RPG::GameCore::FloorSavedValueOverride*>** StaticGet___9__14_0()
-		{
-			return (::System::Func_2<::NMHEPKCFAFH*, ::RPG::GameCore::FloorSavedValueOverride*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59F50);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59F58);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x522E0);
+		}
+
+		static ::System::Func_2<::NMHEPKCFAFH*, ::RPG::GameCore::FloorSavedValueOverride*>** StaticGet___9__14_0()
+		{
+			return (::System::Func_2<::NMHEPKCFAFH*, ::RPG::GameCore::FloorSavedValueOverride*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x522E8);
 		}
 
 		static ::System::Void _cctor()

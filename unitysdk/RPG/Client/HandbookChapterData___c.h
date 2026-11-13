@@ -5,37 +5,37 @@ namespace RPG::Client { class MissionChronicleMainPathData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2E3F00)
-#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2E3F40)
-#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C__ISPROCESSING_B__49_0_OFFSET UNITYSDK_OFFSET(0xD2E3F90)
-#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C__SETMAINPATHLIST_B__48_0_OFFSET UNITYSDK_OFFSET(0xD2E3F50)
-#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C__SETMAINPATHLIST_B__48_1_OFFSET UNITYSDK_OFFSET(0xD2E3F70)
+#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5C86A0)
+#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C86E0)
+#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C__ISPROCESSING_B__49_0_OFFSET UNITYSDK_OFFSET(0x1C5C8730)
+#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C__SETMAINPATHLIST_B__48_0_OFFSET UNITYSDK_OFFSET(0x1C5C86F0)
+#define RPG_CLIENT_HANDBOOKCHAPTERDATA___C__SETMAINPATHLIST_B__48_1_OFFSET UNITYSDK_OFFSET(0x1C5C8710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookChapterData___c_TypeDefinitionIndex = 65615;
+	inline static constexpr unsigned int HandbookChapterData___c_TypeDefinitionIndex = 67539;
 
 	class HandbookChapterData___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>** StaticGet___9__48_1()
-		{
-			return (::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10270);
-		}
-
 		static ::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>** StaticGet___9__49_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10278);
-		}
-
-		static ::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>** StaticGet___9__48_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10280);
+			return (::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1C550);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10288);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1C558);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>** StaticGet___9__48_1()
+		{
+			return (::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1C560);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>** StaticGet___9__48_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::MissionChronicleMainPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1C568);
 		}
 
 		static ::System::Void _cctor()

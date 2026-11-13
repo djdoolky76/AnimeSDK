@@ -8,11 +8,11 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GPLGGNDACGL_CDFGGCGIKBM_OFFSET UNITYSDK_OFFSET(0x15B52380)
-#define GPLGGNDACGL_GCKADCMDNJG_OFFSET UNITYSDK_OFFSET(0x15B51E00)
-#define GPLGGNDACGL_JIBKHDGAEEP_OFFSET UNITYSDK_OFFSET(0x15B51E80)
+#define GPLGGNDACGL_CDFGGCGIKBM_OFFSET UNITYSDK_OFFSET(0x17DBEAC0)
+#define GPLGGNDACGL_GCKADCMDNJG_OFFSET UNITYSDK_OFFSET(0x17DBE540)
+#define GPLGGNDACGL_JIBKHDGAEEP_OFFSET UNITYSDK_OFFSET(0x17DBE5C0)
 
-inline static constexpr unsigned int GPLGGNDACGL_TypeDefinitionIndex = 74608;
+inline static constexpr unsigned int GPLGGNDACGL_TypeDefinitionIndex = 76756;
 
 	class GPLGGNDACGL : public ::System::Object
 	{

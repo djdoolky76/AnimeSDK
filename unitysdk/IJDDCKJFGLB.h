@@ -4,17 +4,17 @@
 class IOIIFAENPNH;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IJDDCKJFGLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1644BDB0)
-#define IJDDCKJFGLB_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0x1644BD50)
-#define IJDDCKJFGLB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1644BCB0)
+#define IJDDCKJFGLB_CTOR_OFFSET UNITYSDK_OFFSET(0x180401C0)
+#define IJDDCKJFGLB_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0x18040160)
+#define IJDDCKJFGLB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x18040090)
 
-inline static constexpr unsigned int IJDDCKJFGLB_TypeDefinitionIndex = 72076;
+inline static constexpr unsigned int IJDDCKJFGLB_TypeDefinitionIndex = 74109;
 
 	class IJDDCKJFGLB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::IOIIFAENPNH*>* HPAPACKPNJD; // 0x10
-		::System::Collections::Generic::List_1<::IOIIFAENPNH*>* OHPGEHKFABM; // 0x18
+		::System::Collections::Generic::List_1<::IOIIFAENPNH*>* OHPGEHKFABM; // 0x10
+		::System::Collections::Generic::List_1<::IOIIFAENPNH*>* HPAPACKPNJD; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJDDCKJFGLB_CTOR_OFFSET))(this);

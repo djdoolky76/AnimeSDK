@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetCameraConfigPriority; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGNHIODHCFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1451BC50)
-#define EGNHIODHCFM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1451BC60)
-#define EGNHIODHCFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1451BCA0)
-#define EGNHIODHCFM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1451BE20)
-#define EGNHIODHCFM_TICK_OFFSET UNITYSDK_OFFSET(0x1451BE70)
+#define EGNHIODHCFM_CTOR_OFFSET UNITYSDK_OFFSET(0x17C1B720)
+#define EGNHIODHCFM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17C1B730)
+#define EGNHIODHCFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17C1B770)
+#define EGNHIODHCFM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17C1B8F0)
+#define EGNHIODHCFM_TICK_OFFSET UNITYSDK_OFFSET(0x17C1B940)
 
-inline static constexpr unsigned int EGNHIODHCFM_TypeDefinitionIndex = 55364;
+inline static constexpr unsigned int EGNHIODHCFM_TypeDefinitionIndex = 56547;
 
 	class EGNHIODHCFM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetCameraConfigPriority* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetCameraConfigPriority* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetCameraConfigPriority* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetCameraConfigPriority*))((::PBYTE)hIl2Cpp + EGNHIODHCFM_CTOR_OFFSET))(this, a1, a2);

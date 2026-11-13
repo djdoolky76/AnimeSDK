@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MEHEPKNJPOA_FANDKJFOLKB.h"
 
-#define MEHEPKNJPOA_BJPKPKNOKKC_CTOR_OFFSET UNITYSDK_OFFSET(0xB8C8B90)
+#define MEHEPKNJPOA_BJPKPKNOKKC_CTOR_OFFSET UNITYSDK_OFFSET(0x17C589F0)
 
-inline static constexpr unsigned int MEHEPKNJPOA_BJPKPKNOKKC_TypeDefinitionIndex = 74176;
+inline static constexpr unsigned int MEHEPKNJPOA_BJPKPKNOKKC_TypeDefinitionIndex = 76324;
 
 	class MEHEPKNJPOA_BJPKPKNOKKC : public ::MEHEPKNJPOA_FANDKJFOLKB
 	{

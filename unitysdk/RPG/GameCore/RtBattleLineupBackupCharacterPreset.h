@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtBattleLineupBackupCharacterPreset; }
 
-#define RPG_GAMECORE_RTBATTLELINEUPBACKUPCHARACTERPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA20660)
-#define RPG_GAMECORE_RTBATTLELINEUPBACKUPCHARACTERPRESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA20620)
+#define RPG_GAMECORE_RTBATTLELINEUPBACKUPCHARACTERPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF41950)
+#define RPG_GAMECORE_RTBATTLELINEUPBACKUPCHARACTERPRESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF41910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleLineupBackupCharacterPreset_TypeDefinitionIndex = 18049;
+	inline static constexpr unsigned int RtBattleLineupBackupCharacterPreset_TypeDefinitionIndex = 18215;
 
 	class RtBattleLineupBackupCharacterPreset : public ::RPG::GameCore::JsonConfig
 	{

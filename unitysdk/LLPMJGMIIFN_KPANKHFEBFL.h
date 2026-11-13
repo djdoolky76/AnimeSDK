@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CityAtmosphereThread/ECityAtmosphereThreadType.h"
 
-inline static constexpr unsigned int LLPMJGMIIFN_KPANKHFEBFL_TypeDefinitionIndex = 71074;
+inline static constexpr unsigned int LLPMJGMIIFN_KPANKHFEBFL_TypeDefinitionIndex = 73055;
 
 	struct alignas(4) LLPMJGMIIFN_KPANKHFEBFL
 	{

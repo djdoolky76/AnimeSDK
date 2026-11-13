@@ -4,18 +4,18 @@
 class GACMFAOEKMP;
 namespace System { class Object; }
 
-#define GACMFAOEKMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3E8980)
-#define GACMFAOEKMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E89C0)
-#define GACMFAOEKMP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E3E89D0)
+#define GACMFAOEKMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBA1180)
+#define GACMFAOEKMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBA11C0)
+#define GACMFAOEKMP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FBA11D0)
 
-inline static constexpr unsigned int GACMFAOEKMP___c_TypeDefinitionIndex = 30856;
+inline static constexpr unsigned int GACMFAOEKMP___c_TypeDefinitionIndex = 31769;
 
 	class GACMFAOEKMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1810);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54690);
 		}
 
 		static ::System::Void _cctor()

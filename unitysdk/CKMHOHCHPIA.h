@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetFollowLightDeviceDamp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKMHOHCHPIA_CTOR_OFFSET UNITYSDK_OFFSET(0xD75DC40)
-#define CKMHOHCHPIA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD75DCE0)
-#define CKMHOHCHPIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD75DC50)
-#define CKMHOHCHPIA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD75DD20)
-#define CKMHOHCHPIA_TICK_OFFSET UNITYSDK_OFFSET(0xD75DD70)
+#define CKMHOHCHPIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD46020)
+#define CKMHOHCHPIA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AD460C0)
+#define CKMHOHCHPIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD46030)
+#define CKMHOHCHPIA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AD46100)
+#define CKMHOHCHPIA_TICK_OFFSET UNITYSDK_OFFSET(0x1AD46150)
 
-inline static constexpr unsigned int CKMHOHCHPIA_TypeDefinitionIndex = 52775;
+inline static constexpr unsigned int CKMHOHCHPIA_TypeDefinitionIndex = 53919;
 
 	class CKMHOHCHPIA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetFollowLightDeviceDamp* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetFollowLightDeviceDamp* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetFollowLightDeviceDamp* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetFollowLightDeviceDamp*))((::PBYTE)hIl2Cpp + CKMHOHCHPIA_CTOR_OFFSET))(this, a1, a2);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-#define ANABDAAAEEA_KALINMHKHPK_CTOR_OFFSET UNITYSDK_OFFSET(0x15586460)
+#define ANABDAAAEEA_KALINMHKHPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A81C410)
 
-inline static constexpr unsigned int ANABDAAAEEA_KALINMHKHPK_TypeDefinitionIndex = 71253;
+inline static constexpr unsigned int ANABDAAAEEA_KALINMHKHPK_TypeDefinitionIndex = 73230;
 
 	class ANABDAAAEEA_KALINMHKHPK : public ::System::Object
 	{

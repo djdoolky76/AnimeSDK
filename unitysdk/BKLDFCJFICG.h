@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FourRotateVoxelChestHintConfig; }
 
-#define BKLDFCJFICG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88E290)
+#define BKLDFCJFICG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B8A50)
 
-inline static constexpr unsigned int BKLDFCJFICG_TypeDefinitionIndex = 43242;
+inline static constexpr unsigned int BKLDFCJFICG_TypeDefinitionIndex = 44223;
 
 	class BKLDFCJFICG : public ::System::Object
 	{

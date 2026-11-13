@@ -4,18 +4,18 @@
 class BICDPPOGHND;
 namespace System { class Object; }
 
-#define BICDPPOGHND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDD2DC0)
-#define BICDPPOGHND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD2E00)
-#define BICDPPOGHND___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDD2E10)
+#define BICDPPOGHND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAC5790)
+#define BICDPPOGHND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAC57C0)
+#define BICDPPOGHND___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FAC57D0)
 
-inline static constexpr unsigned int BICDPPOGHND___c_TypeDefinitionIndex = 32361;
+inline static constexpr unsigned int BICDPPOGHND___c_TypeDefinitionIndex = 33274;
 
 	class BICDPPOGHND___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x576C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53480);
 		}
 
 		static ::System::Void _cctor()

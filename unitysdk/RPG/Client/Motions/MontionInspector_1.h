@@ -5,7 +5,7 @@ namespace RPG::Client::Motions { class MonoMontionInspector; }
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MontionInspector_1_TypeDefinitionIndex = 73492;
+	inline static constexpr unsigned int MontionInspector_1_TypeDefinitionIndex = 75615;
 
 	template <typename T>
 	class MontionInspector_1 : public ::MOGBNBGMIHF

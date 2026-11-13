@@ -6,12 +6,12 @@ class HPKACEPPPCA;
 class KLEFGGIHGMI;
 namespace System { class String; }
 
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA81FA0)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__ONSTREAMINGINSTANCECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xDA852E0)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC205F0)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__ONSTREAMINGINSTANCECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1DC238E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass24_0_TypeDefinitionIndex = 73320;
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass24_0_TypeDefinitionIndex = 75437;
 
 	class PartialFlipDeviceComponent___c__DisplayClass24_0 : public ::System::Object
 	{

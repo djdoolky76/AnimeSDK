@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class PhotoGraphRoamingConfig; }
 
-#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAF73D0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS10_0__GETROAMINGCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xDAF8210)
+#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18D6F640)
+#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS10_0__GETROAMINGCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x18D70480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphModule___c__DisplayClass10_0_TypeDefinitionIndex = 66459;
+	inline static constexpr unsigned int PhotoGraphModule___c__DisplayClass10_0_TypeDefinitionIndex = 68395;
 
 	class PhotoGraphModule___c__DisplayClass10_0 : public ::System::Object
 	{

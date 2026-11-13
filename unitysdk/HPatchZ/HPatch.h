@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HPATCHZ_HPATCH_CTOR_OFFSET UNITYSDK_OFFSET(0xAF28730)
-#define HPATCHZ_HPATCH_HPATCHZ_OFFSET UNITYSDK_OFFSET(0xAF28630)
-#define HPATCHZ_HPATCH_PATCH_OFFSET UNITYSDK_OFFSET(0xAF28720)
+#define HPATCHZ_HPATCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A691220)
+#define HPATCHZ_HPATCH_HPATCHZ_OFFSET UNITYSDK_OFFSET(0x1A691120)
+#define HPATCHZ_HPATCH_PATCH_OFFSET UNITYSDK_OFFSET(0x1A691210)
 
 namespace HPatchZ
 {
-	inline static constexpr unsigned int HPatch_TypeDefinitionIndex = 46993;
+	inline static constexpr unsigned int HPatch_TypeDefinitionIndex = 48021;
 
 	class HPatch : public ::System::Object
 	{

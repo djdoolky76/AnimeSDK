@@ -5,16 +5,16 @@ class FCOEMCEDLNL;
 class HEKOMMJCPJF;
 namespace System { class String; }
 
-#define HEKOMMJCPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6D400)
-#define HEKOMMJCPJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE6D2D0)
+#define HEKOMMJCPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EF920)
+#define HEKOMMJCPJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9EF7F0)
 
-inline static constexpr unsigned int HEKOMMJCPJF_TypeDefinitionIndex = 23201;
+inline static constexpr unsigned int HEKOMMJCPJF_TypeDefinitionIndex = 23632;
 
 	class HEKOMMJCPJF : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::System::String* ICEPLFPKAHC; // 0x10
-		::System::String* BFDAADMGNFD; // 0x18
+		::System::String* BFDAADMGNFD; // 0x10
+		::System::String* ICEPLFPKAHC; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEKOMMJCPJF_CTOR_OFFSET))(this);

@@ -6,18 +6,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournExhibitionConfigRow; }
 
-#define RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0B4C0)
-#define RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA0B360)
+#define RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF2BDA0)
+#define RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EF2BC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournExhibitionConfigRow_TypeDefinitionIndex = 14995;
+	inline static constexpr unsigned int RogueTournExhibitionConfigRow_TypeDefinitionIndex = 15151;
 
 	class RogueTournExhibitionConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueExhibitionType Type; // 0x10
-		::System::UInt32 PaintingID; // 0x14
+		::System::UInt32 PaintingID; // 0x10
+		::RPG::GameCore::RogueExhibitionType Type; // 0x14
 		::RPG::GameCore::RogueTournCollectionExhibitionPropFloor Floor; // 0x18
 		::System::Void _ctor()
 		{

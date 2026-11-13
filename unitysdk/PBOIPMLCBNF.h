@@ -5,20 +5,20 @@ namespace RPG::GameCore { class BattlePlayTalk; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define PBOIPMLCBNF_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEF4E0)
-#define PBOIPMLCBNF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFEF4F0)
-#define PBOIPMLCBNF_GANACOCPDLF_OFFSET UNITYSDK_OFFSET(0xBFEF740)
-#define PBOIPMLCBNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFEF5B0)
-#define PBOIPMLCBNF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFEF690)
-#define PBOIPMLCBNF_TICK_OFFSET UNITYSDK_OFFSET(0xBFEF6E0)
+#define PBOIPMLCBNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC5EF0)
+#define PBOIPMLCBNF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AAC5F00)
+#define PBOIPMLCBNF_GANACOCPDLF_OFFSET UNITYSDK_OFFSET(0x1AAC6150)
+#define PBOIPMLCBNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AAC5FC0)
+#define PBOIPMLCBNF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AAC60A0)
+#define PBOIPMLCBNF_TICK_OFFSET UNITYSDK_OFFSET(0x1AAC60F0)
 
-inline static constexpr unsigned int PBOIPMLCBNF_TypeDefinitionIndex = 57955;
+inline static constexpr unsigned int PBOIPMLCBNF_TypeDefinitionIndex = 59192;
 
 	class PBOIPMLCBNF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::BattlePlayTalk* EJJEEJENLDA; // 0x18
-		::RPG::GameCore::TaskContext* APKCDIIEJLO; // 0x20
+		::RPG::GameCore::TaskContext* APKCDIIEJLO; // 0x18
+		::RPG::GameCore::BattlePlayTalk* EJJEEJENLDA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::BattlePlayTalk* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::BattlePlayTalk*))((::PBYTE)hIl2Cpp + PBOIPMLCBNF_CTOR_OFFSET))(this, a1, a2);

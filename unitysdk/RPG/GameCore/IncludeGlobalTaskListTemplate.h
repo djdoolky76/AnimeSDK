@@ -8,13 +8,13 @@ namespace RPG::GameCore { class IncludeGlobalTaskListTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D758310)
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D758320)
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7582E0)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE91160)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE91170)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE91130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IncludeGlobalTaskListTemplate_TypeDefinitionIndex = 23832;
+	inline static constexpr unsigned int IncludeGlobalTaskListTemplate_TypeDefinitionIndex = 24289;
 
 	class IncludeGlobalTaskListTemplate : public ::RPG::GameCore::TaskConfig
 	{

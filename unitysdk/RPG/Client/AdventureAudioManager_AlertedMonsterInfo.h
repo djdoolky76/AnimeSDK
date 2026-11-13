@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_ADVENTUREAUDIOMANAGER_ALERTEDMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC5CC3C0)
+#define RPG_CLIENT_ADVENTUREAUDIOMANAGER_ALERTEDMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x18D1D520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureAudioManager_AlertedMonsterInfo_TypeDefinitionIndex = 60488;
+	inline static constexpr unsigned int AdventureAudioManager_AlertedMonsterInfo_TypeDefinitionIndex = 61778;
 
 	class AdventureAudioManager_AlertedMonsterInfo : public ::System::Object
 	{

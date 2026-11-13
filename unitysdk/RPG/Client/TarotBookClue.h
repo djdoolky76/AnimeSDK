@@ -7,23 +7,23 @@ namespace RPG::Client { class TarotBookClue_IServerAgent; }
 namespace RPG::GameCore { class TarotBookClueRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TAROTBOOKCLUE_CREATE_OFFSET UNITYSDK_OFFSET(0xE1A3FC0)
-#define RPG_CLIENT_TAROTBOOKCLUE_CTOR_OFFSET UNITYSDK_OFFSET(0xE1A40D0)
-#define RPG_CLIENT_TAROTBOOKCLUE_GETSDFFONTASSETPATH_OFFSET UNITYSDK_OFFSET(0xE1A40E0)
-#define RPG_CLIENT_TAROTBOOKCLUE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xE1A3E60)
-#define RPG_CLIENT_TAROTBOOKCLUE_GET_ID_OFFSET UNITYSDK_OFFSET(0xE1A3E10)
-#define RPG_CLIENT_TAROTBOOKCLUE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xE1A3F00)
-#define RPG_CLIENT_TAROTBOOKCLUE_GET_STYLE_OFFSET UNITYSDK_OFFSET(0xE1A3F70)
+#define RPG_CLIENT_TAROTBOOKCLUE_CREATE_OFFSET UNITYSDK_OFFSET(0x1C5C4490)
+#define RPG_CLIENT_TAROTBOOKCLUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C45A0)
+#define RPG_CLIENT_TAROTBOOKCLUE_GETSDFFONTASSETPATH_OFFSET UNITYSDK_OFFSET(0x1C5C45B0)
+#define RPG_CLIENT_TAROTBOOKCLUE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1C5C4330)
+#define RPG_CLIENT_TAROTBOOKCLUE_GET_ID_OFFSET UNITYSDK_OFFSET(0x1C5C42E0)
+#define RPG_CLIENT_TAROTBOOKCLUE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C5C43D0)
+#define RPG_CLIENT_TAROTBOOKCLUE_GET_STYLE_OFFSET UNITYSDK_OFFSET(0x1C5C4440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookClue_TypeDefinitionIndex = 68056;
+	inline static constexpr unsigned int TarotBookClue_TypeDefinitionIndex = 70002;
 
 	class TarotBookClue : public ::System::Object
 	{
 	public:
-		::RPG::Client::TarotBookClue_IServerAgent* _ServerAgent; // 0x10
-		::RPG::GameCore::TarotBookClueRow* _Meta; // 0x18
+		::RPG::GameCore::TarotBookClueRow* _Meta; // 0x10
+		::RPG::Client::TarotBookClue_IServerAgent* _ServerAgent; // 0x18
 		::System::Void _ctor(::RPG::GameCore::TarotBookClueRow* a1, ::RPG::Client::TarotBookClue_IServerAgent* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookClueRow*, ::RPG::Client::TarotBookClue_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCLUE_CTOR_OFFSET))(this, a1, a2);

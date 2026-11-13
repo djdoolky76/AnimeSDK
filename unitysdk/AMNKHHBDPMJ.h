@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AMNKHHBDPMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8702D0)
+#define AMNKHHBDPMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D874570)
 
-inline static constexpr unsigned int AMNKHHBDPMJ_TypeDefinitionIndex = 42149;
+inline static constexpr unsigned int AMNKHHBDPMJ_TypeDefinitionIndex = 43124;
 
 	class AMNKHHBDPMJ : public ::System::Object
 	{

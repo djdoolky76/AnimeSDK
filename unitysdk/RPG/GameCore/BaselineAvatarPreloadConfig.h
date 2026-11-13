@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaselineAvatarPreloadConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D412E20)
-#define RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D412C60)
+#define RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C306A00)
+#define RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C306840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaselineAvatarPreloadConfig_TypeDefinitionIndex = 16354;
+	inline static constexpr unsigned int BaselineAvatarPreloadConfig_TypeDefinitionIndex = 16518;
 
 	class BaselineAvatarPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

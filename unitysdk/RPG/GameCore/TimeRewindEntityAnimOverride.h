@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimeRewindEntityAnimOverride; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDENTITYANIMOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5A680)
-#define RPG_GAMECORE_TIMEREWINDENTITYANIMOVERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5A4E0)
+#define RPG_GAMECORE_TIMEREWINDENTITYANIMOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5CEEB0)
+#define RPG_GAMECORE_TIMEREWINDENTITYANIMOVERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5CED10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindEntityAnimOverride_TypeDefinitionIndex = 17582;
+	inline static constexpr unsigned int TimeRewindEntityAnimOverride_TypeDefinitionIndex = 17750;
 
 	class TimeRewindEntityAnimOverride : public ::RPG::GameCore::JsonConfig
 	{

@@ -9,50 +9,50 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define IFNPKBOEJJO_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x15F1BA90)
-#define IFNPKBOEJJO_BBNACAKCOCL_OFFSET UNITYSDK_OFFSET(0x15F1CE60)
-#define IFNPKBOEJJO_CTOR_OFFSET UNITYSDK_OFFSET(0x15F1EA70)
-#define IFNPKBOEJJO_DHBFMONMAEO_OFFSET UNITYSDK_OFFSET(0x15F1DDE0)
-#define IFNPKBOEJJO_FJKLKOPDCLG_OFFSET UNITYSDK_OFFSET(0x15F1D950)
-#define IFNPKBOEJJO_HLDOCDODOHG_OFFSET UNITYSDK_OFFSET(0x15F1E700)
-#define IFNPKBOEJJO_KEJKDOCABII_OFFSET UNITYSDK_OFFSET(0x15F1DBD0)
-#define IFNPKBOEJJO_NMKFFAMBCKE_OFFSET UNITYSDK_OFFSET(0x15F1D380)
-#define IFNPKBOEJJO_NOPNOHMMIEB_OFFSET UNITYSDK_OFFSET(0x15F1C0C0)
-#define IFNPKBOEJJO_OPOCOKKJCNJ_OFFSET UNITYSDK_OFFSET(0x15F1E840)
-#define IFNPKBOEJJO_PFCCBIKGLPL_OFFSET UNITYSDK_OFFSET(0x15F1E600)
+#define IFNPKBOEJJO_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x1BC23F10)
+#define IFNPKBOEJJO_BBNACAKCOCL_OFFSET UNITYSDK_OFFSET(0x1BC252E0)
+#define IFNPKBOEJJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC26EA0)
+#define IFNPKBOEJJO_DHBFMONMAEO_OFFSET UNITYSDK_OFFSET(0x1BC26240)
+#define IFNPKBOEJJO_FJKLKOPDCLG_OFFSET UNITYSDK_OFFSET(0x1BC25D80)
+#define IFNPKBOEJJO_HLDOCDODOHG_OFFSET UNITYSDK_OFFSET(0x1BC26B30)
+#define IFNPKBOEJJO_KEJKDOCABII_OFFSET UNITYSDK_OFFSET(0x1BC26020)
+#define IFNPKBOEJJO_NMKFFAMBCKE_OFFSET UNITYSDK_OFFSET(0x1BC257B0)
+#define IFNPKBOEJJO_NOPNOHMMIEB_OFFSET UNITYSDK_OFFSET(0x1BC24540)
+#define IFNPKBOEJJO_OPOCOKKJCNJ_OFFSET UNITYSDK_OFFSET(0x1BC26C70)
+#define IFNPKBOEJJO_PFCCBIKGLPL_OFFSET UNITYSDK_OFFSET(0x1BC26A30)
 
-inline static constexpr unsigned int IFNPKBOEJJO_TypeDefinitionIndex = 48980;
+inline static constexpr unsigned int IFNPKBOEJJO_TypeDefinitionIndex = 50049;
 
 	class IFNPKBOEJJO : public ::System::Object
 	{
 	public:
-		::UnityEngine::Material* COMHMOMAFPD; // 0x10
-		::UnityEngine::RenderTexture* BGHJBDABICK; // 0x18
-		::UnityEngine::ComputeShader* EBNAEPPAOPH; // 0x20
-		::UnityEngine::RenderTexture* MICCPGFBPBD; // 0x28
-		::UnityEngine::RenderTexture* MMEECOOHDID; // 0x30
-		::UnityEngine::RenderTexture* NIMCMMDBDOB; // 0x38
-		::UnityEngine::RenderTexture* AGAODNAJEOE; // 0x40
-		::UnityEngine::RenderTexture* BBCDDGGHMOH; // 0x48
-		::UnityEngine::Material* KENDPCMNNEI; // 0x50
-		::UnityEngine::RenderTexture* CKPGANKHILD; // 0x58
-		::UnityEngine::RenderTexture* IBEJIKOOOOE; // 0x60
-		::Il2CppArray<::UnityEngine::Color>* PIOAGGMMLCL; // 0x68
-		::UnityEngine::RenderTexture* PPFCJMJCEIN; // 0x70
-		::UnityEngine::Texture2D* PDMBNMEAIDG; // 0x78
-		::UnityEngine::RenderTexture* PHIEDCAFGDL; // 0x80
-		::UnityEngine::ComputeShader* CJFHKLAKLBM; // 0x88
-		::UnityEngine::RenderTexture* JAIJCHNBNJA; // 0x90
+		::UnityEngine::RenderTexture* JAIJCHNBNJA; // 0x10
+		::Il2CppArray<::UnityEngine::Color>* PIOAGGMMLCL; // 0x18
+		::UnityEngine::Material* KENDPCMNNEI; // 0x20
+		::UnityEngine::RenderTexture* NIMCMMDBDOB; // 0x28
+		::UnityEngine::RenderTexture* PHIEDCAFGDL; // 0x30
+		::UnityEngine::ComputeShader* CJFHKLAKLBM; // 0x38
+		::UnityEngine::RenderTexture* BGHJBDABICK; // 0x40
+		::UnityEngine::RenderTexture* PPFCJMJCEIN; // 0x48
+		::UnityEngine::RenderTexture* MICCPGFBPBD; // 0x50
+		::UnityEngine::Material* COMHMOMAFPD; // 0x58
+		::UnityEngine::RenderTexture* CKPGANKHILD; // 0x60
+		::UnityEngine::RenderTexture* AGAODNAJEOE; // 0x68
+		::UnityEngine::RenderTexture* MMEECOOHDID; // 0x70
+		::UnityEngine::RenderTexture* BBCDDGGHMOH; // 0x78
+		::UnityEngine::ComputeShader* EBNAEPPAOPH; // 0x80
+		::UnityEngine::Texture2D* PDMBNMEAIDG; // 0x88
+		::UnityEngine::RenderTexture* IBEJIKOOOOE; // 0x90
 		::System::Int32 PDJMGJAELFE; // 0x98
-		::System::Boolean HGLEGIJBIMA; // 0x9C
+		::System::Single GAKENFHDBEJ; // 0x9C
+		::System::Single GFMNPBNJLPA; // 0xA0
+		::System::Single BJLOGBPLKKK; // 0xA4
+		::System::Single LINMLGPDPHA; // 0xA8
+		::System::Boolean HGLEGIJBIMA; // 0xAC
 		::System::Byte _padding0[0x3];
-		::System::Single IIEPDMJDGCL; // 0xA0
-		::System::Single LINMLGPDPHA; // 0xA4
-		::System::Single GAKENFHDBEJ; // 0xA8
-		::System::Int32 OJLMBOKOFFL; // 0xAC
-		::System::Single GFMNPBNJLPA; // 0xB0
-		::System::Single BJLOGBPLKKK; // 0xB4
-		::System::Single DHNDCDKAJIF; // 0xB8
+		::System::Single DHNDCDKAJIF; // 0xB0
+		::System::Int32 OJLMBOKOFFL; // 0xB4
+		::System::Single IIEPDMJDGCL; // 0xB8
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFNPKBOEJJO_CTOR_OFFSET))(this);

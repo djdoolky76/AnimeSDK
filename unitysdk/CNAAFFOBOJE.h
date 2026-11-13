@@ -6,11 +6,11 @@ namespace RPG::GameCore { class RtTargetMapEmptyGridNearby; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CNAAFFOBOJE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA3E800)
-#define CNAAFFOBOJE_EBIDFEGMEAO_OFFSET UNITYSDK_OFFSET(0xDA3F2A0)
-#define CNAAFFOBOJE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA3E820)
+#define CNAAFFOBOJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1ADBB0)
+#define CNAAFFOBOJE_EBIDFEGMEAO_OFFSET UNITYSDK_OFFSET(0x1B1AE650)
+#define CNAAFFOBOJE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B1ADBD0)
 
-inline static constexpr unsigned int CNAAFFOBOJE_TypeDefinitionIndex = 53811;
+inline static constexpr unsigned int CNAAFFOBOJE_TypeDefinitionIndex = 54975;
 
 	class CNAAFFOBOJE
 	{

@@ -7,9 +7,9 @@ namespace RPG::Client { template <typename T> class INewsTickerPoolableItemCreat
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NLBBIDMLLIL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC598E0)
+#define NLBBIDMLLIL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1A41C410)
 
-inline static constexpr unsigned int NLBBIDMLLIL_TypeDefinitionIndex = 68997;
+inline static constexpr unsigned int NLBBIDMLLIL_TypeDefinitionIndex = 70950;
 
 	class NLBBIDMLLIL : public ::System::Object
 	{

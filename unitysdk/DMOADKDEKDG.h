@@ -3,10 +3,10 @@
 namespace RPG::Client { class PlanetFesAvatarStopMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMOADKDEKDG_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC1B10)
-#define DMOADKDEKDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEC1B40)
+#define DMOADKDEKDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1869F960)
+#define DMOADKDEKDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1869F990)
 
-inline static constexpr unsigned int DMOADKDEKDG_TypeDefinitionIndex = 58258;
+inline static constexpr unsigned int DMOADKDEKDG_TypeDefinitionIndex = 59514;
 
 	class DMOADKDEKDG
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NNGLODINPCK_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA1C40)
+#define NNGLODINPCK_CTOR_OFFSET UNITYSDK_OFFSET(0x179E3A20)
 
-inline static constexpr unsigned int NNGLODINPCK_TypeDefinitionIndex = 73835;
+inline static constexpr unsigned int NNGLODINPCK_TypeDefinitionIndex = 75961;
 
 	class NNGLODINPCK : public ::System::Object
 	{

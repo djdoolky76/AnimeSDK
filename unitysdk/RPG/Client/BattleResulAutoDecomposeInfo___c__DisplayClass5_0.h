@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class LIOALDPOLJE;
 
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC84D350)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO___C__DISPLAYCLASS5_0__MERGE_B__0_OFFSET UNITYSDK_OFFSET(0xC84D9E0)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F55F0)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO___C__DISPLAYCLASS5_0__MERGE_B__0_OFFSET UNITYSDK_OFFSET(0x1B1F5C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleResulAutoDecomposeInfo___c__DisplayClass5_0_TypeDefinitionIndex = 62886;
+	inline static constexpr unsigned int BattleResulAutoDecomposeInfo___c__DisplayClass5_0_TypeDefinitionIndex = 64324;
 
 	class BattleResulAutoDecomposeInfo___c__DisplayClass5_0 : public ::System::Object
 	{

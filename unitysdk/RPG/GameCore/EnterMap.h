@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class EnterMap; }
 
-#define RPG_GAMECORE_ENTERMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6173C0)
-#define RPG_GAMECORE_ENTERMAP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6173D0)
-#define RPG_GAMECORE_ENTERMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D617390)
+#define RPG_GAMECORE_ENTERMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0EDD80)
+#define RPG_GAMECORE_ENTERMAP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0EDD90)
+#define RPG_GAMECORE_ENTERMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0EDD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnterMap_TypeDefinitionIndex = 21570;
+	inline static constexpr unsigned int EnterMap_TypeDefinitionIndex = 21958;
 
 	class EnterMap : public ::RPG::GameCore::TaskConfig
 	{

@@ -14,14 +14,14 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define JDMNPLMAKGE_BFKDBGMADKP_OFFSET UNITYSDK_OFFSET(0x2E86410)
-#define JDMNPLMAKGE_BIOGBGLMBHB_OFFSET UNITYSDK_OFFSET(0x2E86420)
-#define JDMNPLMAKGE_DMAIICFHMFD_OFFSET UNITYSDK_OFFSET(0x2E86400)
-#define JDMNPLMAKGE_EELGKPGOMGC_OFFSET UNITYSDK_OFFSET(0x165C9E90)
-#define JDMNPLMAKGE_HNFKDENOAJK_OFFSET UNITYSDK_OFFSET(0x2E86450)
-#define JDMNPLMAKGE_LOEOILGHEEP_OFFSET UNITYSDK_OFFSET(0x2E863F0)
+#define JDMNPLMAKGE_BFKDBGMADKP_OFFSET UNITYSDK_OFFSET(0x3DA9D20)
+#define JDMNPLMAKGE_BIOGBGLMBHB_OFFSET UNITYSDK_OFFSET(0x3DA9D30)
+#define JDMNPLMAKGE_DMAIICFHMFD_OFFSET UNITYSDK_OFFSET(0x3DA9D10)
+#define JDMNPLMAKGE_EELGKPGOMGC_OFFSET UNITYSDK_OFFSET(0x1301FEA0)
+#define JDMNPLMAKGE_HNFKDENOAJK_OFFSET UNITYSDK_OFFSET(0x3DA9D60)
+#define JDMNPLMAKGE_LOEOILGHEEP_OFFSET UNITYSDK_OFFSET(0x3DA9D00)
 
-inline static constexpr unsigned int JDMNPLMAKGE_TypeDefinitionIndex = 54425;
+inline static constexpr unsigned int JDMNPLMAKGE_TypeDefinitionIndex = 55589;
 
 	struct alignas(8) JDMNPLMAKGE
 	{
@@ -54,10 +54,8 @@ inline static constexpr unsigned int JDMNPLMAKGE_TypeDefinitionIndex = 54425;
 		::System::String* MAOMFGBJACJ; // 0xA8
 		::System::Nullable_1<::RPG::GameCore::ElementDamageType> DOGLPHFNGPK; // 0xB0
 		::System::String* OCMJCIFFBHF; // 0xB8
-		::System::Boolean PBOJPLGNLKD; // 0xC0
-		::System::Boolean JAHAMKOPFHG; // 0xC1
-		::System::Boolean EGGMAJKNIGC; // 0xC2
-		::System::Boolean NHBHKLEFHLJ; // 0xC3
+		::System::Boolean EGGMAJKNIGC; // 0xC0
+		::System::Boolean NHBHKLEFHLJ; // 0xC1
 		::System::Void LOEOILGHEEP(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::DamageDisplayData* a2, ::RPG::GameCore::TaskContext* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::DamageDisplayData*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + JDMNPLMAKGE_LOEOILGHEEP_OFFSET))(this, a1, a2, a3);

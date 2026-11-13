@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class BattlePerformCaptureActor; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define LEILONLGEGA_GEHBDPBKEII_CTOR_OFFSET UNITYSDK_OFFSET(0xB64FAB0)
+#define LEILONLGEGA_GEHBDPBKEII_CTOR_OFFSET UNITYSDK_OFFSET(0x18C35FC0)
 
-inline static constexpr unsigned int LEILONLGEGA_GEHBDPBKEII_TypeDefinitionIndex = 57352;
+inline static constexpr unsigned int LEILONLGEGA_GEHBDPBKEII_TypeDefinitionIndex = 58580;
 
 	class LEILONLGEGA_GEHBDPBKEII : public ::System::Object
 	{

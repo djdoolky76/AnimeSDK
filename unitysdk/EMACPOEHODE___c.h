@@ -4,18 +4,18 @@
 class EMACPOEHODE;
 namespace System { class Object; }
 
-#define EMACPOEHODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2AF260)
-#define EMACPOEHODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2AF290)
-#define EMACPOEHODE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E2AF2A0)
+#define EMACPOEHODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206D38C0)
+#define EMACPOEHODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206D38F0)
+#define EMACPOEHODE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x206D3900)
 
-inline static constexpr unsigned int EMACPOEHODE___c_TypeDefinitionIndex = 30760;
+inline static constexpr unsigned int EMACPOEHODE___c_TypeDefinitionIndex = 31666;
 
 	class EMACPOEHODE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x529A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48760);
 		}
 
 		static ::System::Void _cctor()

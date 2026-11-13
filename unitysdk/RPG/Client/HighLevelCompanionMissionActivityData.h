@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD31BD30)
-#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0xD31BD50)
+#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FF4C0)
+#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0x1C5FF4E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HighLevelCompanionMissionActivityData_TypeDefinitionIndex = 61635;
+	inline static constexpr unsigned int HighLevelCompanionMissionActivityData_TypeDefinitionIndex = 63033;
 
 	class HighLevelCompanionMissionActivityData : public ::RPG::Client::ActivityPanelData
 	{

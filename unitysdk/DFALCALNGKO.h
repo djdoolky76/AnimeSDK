@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionTriggerActionOnFight; }
 
-#define DFALCALNGKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BA5D0)
-#define DFALCALNGKO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C5BA5E0)
+#define DFALCALNGKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA6EF00)
+#define DFALCALNGKO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1BA6EF10)
 
-inline static constexpr unsigned int DFALCALNGKO_TypeDefinitionIndex = 37399;
+inline static constexpr unsigned int DFALCALNGKO_TypeDefinitionIndex = 38327;
 
 	class DFALCALNGKO : public ::GPLOFONGBGI
 	{

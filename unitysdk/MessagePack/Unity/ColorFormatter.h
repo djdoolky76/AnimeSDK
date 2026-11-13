@@ -6,13 +6,13 @@
 #include "unitysdk/UnityEngine/Color.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_COLORFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB42E40)
-#define MESSAGEPACK_UNITY_COLORFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB429E0)
-#define MESSAGEPACK_UNITY_COLORFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB42970)
+#define MESSAGEPACK_UNITY_COLORFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x208F21A0)
+#define MESSAGEPACK_UNITY_COLORFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x208F1D40)
+#define MESSAGEPACK_UNITY_COLORFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x208F1CD0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int ColorFormatter_TypeDefinitionIndex = 10122;
+	inline static constexpr unsigned int ColorFormatter_TypeDefinitionIndex = 10130;
 
 	class ColorFormatter : public ::System::Object
 	{

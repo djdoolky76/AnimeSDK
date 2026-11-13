@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ModifierBindEffectConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85FA40)
-#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D85F910)
+#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F1FB0)
+#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6F1E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBindEffectConfig_TypeDefinitionIndex = 16487;
+	inline static constexpr unsigned int ModifierBindEffectConfig_TypeDefinitionIndex = 16651;
 
 	class ModifierBindEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

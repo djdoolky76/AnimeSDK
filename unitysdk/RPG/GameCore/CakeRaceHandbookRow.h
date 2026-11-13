@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceHandbookRow; }
 
-#define RPG_GAMECORE_CAKERACEHANDBOOKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D523010)
-#define RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D522E30)
+#define RPG_GAMECORE_CAKERACEHANDBOOKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFBE30)
+#define RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBFBC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 11025;
+	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 11041;
 
 	class CakeRaceHandbookRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BubblePerformanceIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* AvatarTalkIDList; // 0x18
-		::System::UInt32 Order; // 0x20
-		::System::UInt32 CatID; // 0x24
+		::System::UInt32 CatID; // 0x20
+		::System::UInt32 Order; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEHANDBOOKROW_CTOR_OFFSET))(this);

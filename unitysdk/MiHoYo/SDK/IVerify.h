@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int IVerify_TypeDefinitionIndex = 46256;
+	inline static constexpr unsigned int IVerify_TypeDefinitionIndex = 47285;
 
 	class IVerify
 	{

@@ -4,18 +4,18 @@
 class LDPHOLLGPKE;
 namespace System { class Object; }
 
-#define LDPHOLLGPKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8D5CC0)
-#define LDPHOLLGPKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D5D00)
-#define LDPHOLLGPKE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8D5D10)
+#define LDPHOLLGPKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F812480)
+#define LDPHOLLGPKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8124C0)
+#define LDPHOLLGPKE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F8124D0)
 
-inline static constexpr unsigned int LDPHOLLGPKE___c_TypeDefinitionIndex = 30475;
+inline static constexpr unsigned int LDPHOLLGPKE___c_TypeDefinitionIndex = 31381;
 
 	class LDPHOLLGPKE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FB70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E450);
 		}
 
 		static ::System::Void _cctor()

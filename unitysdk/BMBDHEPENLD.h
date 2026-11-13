@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define BMBDHEPENLD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA86B00)
-#define BMBDHEPENLD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBA867F0)
+#define BMBDHEPENLD_CTOR_OFFSET UNITYSDK_OFFSET(0x18B658A0)
+#define BMBDHEPENLD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x18B65590)
 
-inline static constexpr unsigned int BMBDHEPENLD_TypeDefinitionIndex = 79009;
+inline static constexpr unsigned int BMBDHEPENLD_TypeDefinitionIndex = 81785;
 
 	class BMBDHEPENLD : public ::System::Object
 	{

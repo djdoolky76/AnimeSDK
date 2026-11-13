@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define OFEDNOALGAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95EA40)
+#define OFEDNOALGAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06D1A0)
 
-inline static constexpr unsigned int OFEDNOALGAE_TypeDefinitionIndex = 42816;
+inline static constexpr unsigned int OFEDNOALGAE_TypeDefinitionIndex = 43796;
 
 	class OFEDNOALGAE : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CumulativeConsumptionActivity_IServerAgent_TypeDefinitionIndex = 63537;
+	inline static constexpr unsigned int CumulativeConsumptionActivity_IServerAgent_TypeDefinitionIndex = 64979;
 
 	class CumulativeConsumptionActivity_IServerAgent
 	{

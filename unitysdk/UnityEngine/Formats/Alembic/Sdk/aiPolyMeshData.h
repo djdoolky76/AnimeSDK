@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiPolyMeshData_TypeDefinitionIndex = 45812;
+	inline static constexpr unsigned int aiPolyMeshData_TypeDefinitionIndex = 46841;
 
 	struct alignas(8) aiPolyMeshData
 	{

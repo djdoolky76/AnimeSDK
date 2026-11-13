@@ -6,12 +6,12 @@ namespace RPG::Client { class IRogueFormulaBuffCountItem; }
 namespace RPG::GameCore { class RogueTournFormulaRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define HGANHABDFLB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C82400)
-#define HGANHABDFLB_GET_ISACTIVATED_OFFSET UNITYSDK_OFFSET(0x15C826F0)
-#define HGANHABDFLB_GET_MAINITEM_OFFSET UNITYSDK_OFFSET(0x15C826D0)
-#define HGANHABDFLB_GET_SUBITEM_OFFSET UNITYSDK_OFFSET(0x15C826E0)
+#define HGANHABDFLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C436000)
+#define HGANHABDFLB_GET_ISACTIVATED_OFFSET UNITYSDK_OFFSET(0x1C4362F0)
+#define HGANHABDFLB_GET_MAINITEM_OFFSET UNITYSDK_OFFSET(0x1C4362D0)
+#define HGANHABDFLB_GET_SUBITEM_OFFSET UNITYSDK_OFFSET(0x1C4362E0)
 
-inline static constexpr unsigned int HGANHABDFLB_TypeDefinitionIndex = 67207;
+inline static constexpr unsigned int HGANHABDFLB_TypeDefinitionIndex = 69151;
 
 	class HGANHABDFLB : public ::System::Object
 	{

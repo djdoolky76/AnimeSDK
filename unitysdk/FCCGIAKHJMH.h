@@ -8,31 +8,31 @@ namespace RPG::GameCore { class EntityLodLoadingArtData; }
 namespace RPG::GameCore { class EntityRuntimeReplaceArtPrefabConfig; }
 namespace System { class String; }
 
-#define FCCGIAKHJMH_CCTOR_OFFSET UNITYSDK_OFFSET(0x156A4A90)
-#define FCCGIAKHJMH_CKGMAJFCFLB_OFFSET UNITYSDK_OFFSET(0x156A4890)
-#define FCCGIAKHJMH_FIMOFHJMJCB_OFFSET UNITYSDK_OFFSET(0x156A4370)
-#define FCCGIAKHJMH_NGIEBCMOPKM_OFFSET UNITYSDK_OFFSET(0x156A4610)
-#define FCCGIAKHJMH_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0x156A3FB0)
-#define FCCGIAKHJMH_PHFIONFIMEH_OFFSET UNITYSDK_OFFSET(0x156A4070)
+#define FCCGIAKHJMH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0092C0)
+#define FCCGIAKHJMH_CKGMAJFCFLB_OFFSET UNITYSDK_OFFSET(0x1C0090C0)
+#define FCCGIAKHJMH_FIMOFHJMJCB_OFFSET UNITYSDK_OFFSET(0x1C008BA0)
+#define FCCGIAKHJMH_NGIEBCMOPKM_OFFSET UNITYSDK_OFFSET(0x1C008E40)
+#define FCCGIAKHJMH_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0x1C0087E0)
+#define FCCGIAKHJMH_PHFIONFIMEH_OFFSET UNITYSDK_OFFSET(0x1C0088A0)
 
-inline static constexpr unsigned int FCCGIAKHJMH_TypeDefinitionIndex = 69760;
+inline static constexpr unsigned int FCCGIAKHJMH_TypeDefinitionIndex = 71717;
 
 	class FCCGIAKHJMH : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig** StaticGet_PJMJBNAGAAP()
-		{
-			return (::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig**)UnitySDK::FromName("", "FCCGIAKHJMH")->GetStaticField(0x545C0);
-		}
-
 		static ::RPG::GameCore::CharacterLodConfig** StaticGet_GBPIBEILGLJ()
 		{
-			return (::RPG::GameCore::CharacterLodConfig**)UnitySDK::FromName("", "FCCGIAKHJMH")->GetStaticField(0x545C8);
+			return (::RPG::GameCore::CharacterLodConfig**)UnitySDK::FromName("", "FCCGIAKHJMH")->GetStaticField(0x474C0);
+		}
+
+		static ::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig** StaticGet_PJMJBNAGAAP()
+		{
+			return (::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig**)UnitySDK::FromName("", "FCCGIAKHJMH")->GetStaticField(0x474C8);
 		}
 
 		static ::System::Int32* StaticGet_GGKBDIMDCEL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "FCCGIAKHJMH")->GetStaticField(0x12D00);
+			return (::System::Int32*)UnitySDK::FromName("", "FCCGIAKHJMH")->GetStaticField(0xDDF0);
 		}
 
 		// static const ::System::String* PLNHFAKJEKH; // 0x0

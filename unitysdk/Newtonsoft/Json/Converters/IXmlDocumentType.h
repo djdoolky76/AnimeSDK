@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int IXmlDocumentType_TypeDefinitionIndex = 9832;
+	inline static constexpr unsigned int IXmlDocumentType_TypeDefinitionIndex = 9840;
 
 	class IXmlDocumentType
 	{

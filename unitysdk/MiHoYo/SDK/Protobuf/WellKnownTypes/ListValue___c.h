@@ -4,20 +4,20 @@
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes { class ListValue; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF89E0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF8A20)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE___C___CCTOR_B__24_0_OFFSET UNITYSDK_OFFSET(0x1BBF8A30)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20907400)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20907440)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE___C___CCTOR_B__24_0_OFFSET UNITYSDK_OFFSET(0x20907450)
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int ListValue___c_TypeDefinitionIndex = 35753;
+	inline static constexpr unsigned int ListValue___c_TypeDefinitionIndex = 36681;
 
 	class ListValue___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x940);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x8F0);
 		}
 
 		static ::System::Void _cctor()

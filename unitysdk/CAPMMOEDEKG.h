@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CAPMMOEDEKG_CTOR_OFFSET UNITYSDK_OFFSET(0xC495CC0)
+#define CAPMMOEDEKG_CTOR_OFFSET UNITYSDK_OFFSET(0x18FD2CC0)
 
-inline static constexpr unsigned int CAPMMOEDEKG_TypeDefinitionIndex = 81266;
+inline static constexpr unsigned int CAPMMOEDEKG_TypeDefinitionIndex = 84046;
 
 	class CAPMMOEDEKG : public ::System::Object
 	{

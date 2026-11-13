@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudUltraTipViewModel_TypeDefinitionIndex = 80940;
+	inline static constexpr unsigned int IFateRinBattleHudUltraTipViewModel_TypeDefinitionIndex = 83720;
 
 	class IFateRinBattleHudUltraTipViewModel
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HAILIPBNAJL_CELAFJHKDBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C62D800)
+#define HAILIPBNAJL_CELAFJHKDBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA6B0E0)
 
-inline static constexpr unsigned int HAILIPBNAJL_CELAFJHKDBO_TypeDefinitionIndex = 36408;
+inline static constexpr unsigned int HAILIPBNAJL_CELAFJHKDBO_TypeDefinitionIndex = 37336;
 
 	class HAILIPBNAJL_CELAFJHKDBO : public ::System::Object
 	{

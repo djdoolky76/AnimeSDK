@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByMaxBP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DGNPPLALJOC_CTOR_OFFSET UNITYSDK_OFFSET(0xE84D640)
-#define DGNPPLALJOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE84D720)
+#define DGNPPLALJOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADC25A0)
+#define DGNPPLALJOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1ADC2680)
 
-inline static constexpr unsigned int DGNPPLALJOC_TypeDefinitionIndex = 55452;
+inline static constexpr unsigned int DGNPPLALJOC_TypeDefinitionIndex = 56640;
 
 	class DGNPPLALJOC
 	{

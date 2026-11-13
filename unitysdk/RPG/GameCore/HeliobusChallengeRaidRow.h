@@ -5,22 +5,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeliobusChallengeRaidRow; }
 
-#define RPG_GAMECORE_HELIOBUSCHALLENGERAIDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72F640)
-#define RPG_GAMECORE_HELIOBUSCHALLENGERAIDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72EFA0)
+#define RPG_GAMECORE_HELIOBUSCHALLENGERAIDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7E7C0)
+#define RPG_GAMECORE_HELIOBUSCHALLENGERAIDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA7E0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusChallengeRaidRow_TypeDefinitionIndex = 13767;
+	inline static constexpr unsigned int HeliobusChallengeRaidRow_TypeDefinitionIndex = 13924;
 
 	class HeliobusChallengeRaidRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* HeliobusSkillRecList; // 0x10
 		::System::UInt32 UnlockQuestID; // 0x18
-		::System::UInt32 ChallengeRaidID; // 0x1C
-		::System::UInt32 RaidID; // 0x20
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID UnlockTips; // 0x28
+		::RPG::Client::TextID UnlockTips; // 0x20
+		::System::UInt32 ChallengeRaidID; // 0x30
+		::System::UInt32 RaidID; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCHALLENGERAIDROW_CTOR_OFFSET))(this);

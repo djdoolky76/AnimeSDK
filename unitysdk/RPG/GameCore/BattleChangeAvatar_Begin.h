@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BattleChangeAvatar_Begin; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4259A0)
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D425A10)
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D425910)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3085F0)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1C308660)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1C308560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleChangeAvatar_Begin_TypeDefinitionIndex = 22775;
+	inline static constexpr unsigned int BattleChangeAvatar_Begin_TypeDefinitionIndex = 23197;
 
 	class BattleChangeAvatar_Begin : public ::RPG::GameCore::TaskConfig
 	{

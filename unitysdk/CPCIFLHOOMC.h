@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 namespace UnityEngine { class AnimationCurve; }
 
-inline static constexpr unsigned int CPCIFLHOOMC_TypeDefinitionIndex = 42517;
+inline static constexpr unsigned int CPCIFLHOOMC_TypeDefinitionIndex = 43492;
 
 	struct alignas(8) CPCIFLHOOMC
 	{

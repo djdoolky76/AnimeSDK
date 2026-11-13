@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define IFIX_CORE_EXCEPTIONHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B99C400)
+#define IFIX_CORE_EXCEPTIONHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8ACF20)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ExceptionHandler_TypeDefinitionIndex = 7113;
+	inline static constexpr unsigned int ExceptionHandler_TypeDefinitionIndex = 7124;
 
 	class ExceptionHandler : public ::System::Object
 	{

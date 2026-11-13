@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyMtCategoryScoreRow; }
 
-#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC05750)
-#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC055E0)
+#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DDF50)
+#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5DDDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyMtCategoryScoreRow_TypeDefinitionIndex = 15332;
+	inline static constexpr unsigned int TrainPartyMtCategoryScoreRow_TypeDefinitionIndex = 15488;
 
 	class TrainPartyMtCategoryScoreRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 Level; // 0x10
-		::System::UInt32 CategoryID; // 0x14
-		::System::UInt32 Ratio; // 0x18
+		::System::UInt32 Ratio; // 0x14
+		::System::UInt32 CategoryID; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_CTOR_OFFSET))(this);

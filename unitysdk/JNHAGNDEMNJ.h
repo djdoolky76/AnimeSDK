@@ -7,18 +7,18 @@ class FCOEMCEDLNL;
 class JNHAGNDEMNJ;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define JNHAGNDEMNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D023B00)
-#define JNHAGNDEMNJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D023B10)
-#define JNHAGNDEMNJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D023AC0)
+#define JNHAGNDEMNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5CB950)
+#define JNHAGNDEMNJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5CB960)
+#define JNHAGNDEMNJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5CB910)
 
-inline static constexpr unsigned int JNHAGNDEMNJ_TypeDefinitionIndex = 22608;
+inline static constexpr unsigned int JNHAGNDEMNJ_TypeDefinitionIndex = 23023;
 
 	class JNHAGNDEMNJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x18
-		::RPG::GameCore::PropertyModifyFunction FKCKKFALPBK; // 0x20
-		::RPG::GameCore::TeamType BEGKIKOGEOD; // 0x24
+		::RPG::GameCore::TeamType BEGKIKOGEOD; // 0x20
+		::RPG::GameCore::PropertyModifyFunction FKCKKFALPBK; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JNHAGNDEMNJ_CTOR_OFFSET))(this);

@@ -6,13 +6,13 @@
 #include "unitysdk/UnityEngine/Keyframe.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB45320)
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB44EB0)
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB44E40)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x208F4680)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x208F4210)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x208F41A0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 10127;
+	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 10135;
 
 	class KeyframeFormatter : public ::System::Object
 	{

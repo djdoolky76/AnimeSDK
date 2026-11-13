@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-#define SYSTEM_XML_SCHEMA_POSITION_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
+#define SYSTEM_XML_SCHEMA_POSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x3D9DFE0)
 
 namespace System::Xml::Schema
 {

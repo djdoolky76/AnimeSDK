@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define BANMMCONAFC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E70CB0)
-#define BANMMCONAFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E70CF0)
-#define BANMMCONAFC___C___DOSPLIT_B__11_1_OFFSET UNITYSDK_OFFSET(0x15E70D00)
+#define BANMMCONAFC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x199E8DB0)
+#define BANMMCONAFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x199E8DF0)
+#define BANMMCONAFC___C___DOSPLIT_B__11_1_OFFSET UNITYSDK_OFFSET(0x199E8E00)
 
-inline static constexpr unsigned int BANMMCONAFC___c_TypeDefinitionIndex = 77897;
+inline static constexpr unsigned int BANMMCONAFC___c_TypeDefinitionIndex = 80632;
 
 	class BANMMCONAFC___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::UnityEngine::Vector3>** StaticGet___9__11_1()
 		{
-			return (::System::Action_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64DE0);
+			return (::System::Action_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66DD0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64DE8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66DD8);
 		}
 
 		static ::System::Void _cctor()

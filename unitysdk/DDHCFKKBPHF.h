@@ -5,15 +5,15 @@ class ABMMBFKIGHO;
 class NGADEHKILOC;
 class PLGNNPBFHCJ;
 
-#define DDHCFKKBPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9ED5A0)
+#define DDHCFKKBPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1F840)
 
-inline static constexpr unsigned int DDHCFKKBPHF_TypeDefinitionIndex = 42461;
+inline static constexpr unsigned int DDHCFKKBPHF_TypeDefinitionIndex = 43436;
 
 	class DDHCFKKBPHF : public ::System::Object
 	{
 	public:
-		::NGADEHKILOC* PNJPMAGFIGK; // 0x10
-		::ABMMBFKIGHO* PPDGAHKIGNJ; // 0x18
+		::ABMMBFKIGHO* PPDGAHKIGNJ; // 0x10
+		::NGADEHKILOC* PNJPMAGFIGK; // 0x18
 		::PLGNNPBFHCJ* GFJCFIKCOLF; // 0x20
 		::System::Void _ctor()
 		{

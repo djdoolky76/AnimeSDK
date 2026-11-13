@@ -7,12 +7,12 @@ namespace RPG::GameCore { class GridFightStageTemplateConfig; }
 namespace RPG::GameCore { class GridFightWaveInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSTAGETEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D717C40)
-#define RPG_GAMECORE_GRIDFIGHTSTAGETEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D717910)
+#define RPG_GAMECORE_GRIDFIGHTSTAGETEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA65C00)
+#define RPG_GAMECORE_GRIDFIGHTSTAGETEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA658D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightStageTemplateConfig_TypeDefinitionIndex = 18169;
+	inline static constexpr unsigned int GridFightStageTemplateConfig_TypeDefinitionIndex = 18331;
 
 	class GridFightStageTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

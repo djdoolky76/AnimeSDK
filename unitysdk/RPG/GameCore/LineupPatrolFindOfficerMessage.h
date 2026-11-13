@@ -4,20 +4,20 @@
 class MKENMOHJNCP;
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LINEUPPATROLFINDOFFICERMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F7790)
-#define RPG_GAMECORE_LINEUPPATROLFINDOFFICERMESSAGE_EMPTY_OFFSET UNITYSDK_OFFSET(0xE6F7750)
+#define RPG_GAMECORE_LINEUPPATROLFINDOFFICERMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1925B6F0)
+#define RPG_GAMECORE_LINEUPPATROLFINDOFFICERMESSAGE_EMPTY_OFFSET UNITYSDK_OFFSET(0x1925B6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupPatrolFindOfficerMessage_TypeDefinitionIndex = 52429;
+	inline static constexpr unsigned int LineupPatrolFindOfficerMessage_TypeDefinitionIndex = 53535;
 
 	class LineupPatrolFindOfficerMessage : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* Soldier; // 0x10
-		::MKENMOHJNCP* SoldierTask; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 GroupID; // 0x24
+		::MKENMOHJNCP* SoldierTask; // 0x10
+		::RPG::GameCore::GameEntity* Soldier; // 0x18
+		::System::UInt32 GroupID; // 0x20
+		::System::UInt32 ID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPPATROLFINDOFFICERMESSAGE_CTOR_OFFSET))(this);

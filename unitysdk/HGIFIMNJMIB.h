@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetPhotoGraphTargets; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HGIFIMNJMIB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C93350)
-#define HGIFIMNJMIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C93380)
+#define HGIFIMNJMIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C447550)
+#define HGIFIMNJMIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C447580)
 
-inline static constexpr unsigned int HGIFIMNJMIB_TypeDefinitionIndex = 53207;
+inline static constexpr unsigned int HGIFIMNJMIB_TypeDefinitionIndex = 54369;
 
 	class HGIFIMNJMIB
 	{

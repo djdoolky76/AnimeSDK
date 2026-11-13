@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FloorCustomStringConfig; }
 namespace System { class String; }
 
-#define ECCCMPOJNJE_CTOR_OFFSET UNITYSDK_OFFSET(0x12D036D0)
-#define ECCCMPOJNJE_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x12D03700)
+#define ECCCMPOJNJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D17A0)
+#define ECCCMPOJNJE_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x1C3D17D0)
 
-inline static constexpr unsigned int ECCCMPOJNJE_TypeDefinitionIndex = 62087;
+inline static constexpr unsigned int ECCCMPOJNJE_TypeDefinitionIndex = 63500;
 
 	class ECCCMPOJNJE
 	{

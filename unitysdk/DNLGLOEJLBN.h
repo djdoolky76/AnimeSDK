@@ -4,10 +4,10 @@
 class ADDNEJFFFJB;
 namespace UnityEngine { class RectTransform; }
 
-#define DNLGLOEJLBN_CFEEHOEFHHO_OFFSET UNITYSDK_OFFSET(0x11FD2320)
-#define DNLGLOEJLBN_IKNMBGBHGIJ_OFFSET UNITYSDK_OFFSET(0x11FD24A0)
+#define DNLGLOEJLBN_CFEEHOEFHHO_OFFSET UNITYSDK_OFFSET(0x191954D0)
+#define DNLGLOEJLBN_IKNMBGBHGIJ_OFFSET UNITYSDK_OFFSET(0x19195620)
 
-inline static constexpr unsigned int DNLGLOEJLBN_TypeDefinitionIndex = 68986;
+inline static constexpr unsigned int DNLGLOEJLBN_TypeDefinitionIndex = 70939;
 
 	class DNLGLOEJLBN : public ::System::Object
 	{

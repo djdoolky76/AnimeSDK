@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DialogueEntityInteractOverride; }
 namespace RPG::GameCore { class VCameraBlend; }
 
-#define RPG_GAMECORE_DIALOGUEENTITYINTERACTOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D3290)
-#define RPG_GAMECORE_DIALOGUEENTITYINTERACTOVERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D3160)
+#define RPG_GAMECORE_DIALOGUEENTITYINTERACTOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3B0D50)
+#define RPG_GAMECORE_DIALOGUEENTITYINTERACTOVERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3B0C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueEntityInteractOverride_TypeDefinitionIndex = 20393;
+	inline static constexpr unsigned int DialogueEntityInteractOverride_TypeDefinitionIndex = 20728;
 
 	class DialogueEntityInteractOverride : public ::RPG::GameCore::JsonConfig
 	{

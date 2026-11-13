@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCSubStoryRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCSUBSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9990D0)
-#define RPG_GAMECORE_ROGUEDLCSUBSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D998E40)
+#define RPG_GAMECORE_ROGUEDLCSUBSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57F040)
+#define RPG_GAMECORE_ROGUEDLCSUBSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F57EDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCSubStoryRow_TypeDefinitionIndex = 14799;
+	inline static constexpr unsigned int RogueDLCSubStoryRow_TypeDefinitionIndex = 14955;
 
 	class RogueDLCSubStoryRow : public ::System::Object
 	{
 	public:
-		::System::String* OptionPath; // 0x10
+		::System::String* LevelGraphPath; // 0x10
 		::System::String* ImgPath; // 0x18
-		::System::String* LevelGraphPath; // 0x20
-		::System::UInt32 Layer; // 0x28
-		::System::UInt32 RogueDLCSubStoryID; // 0x2C
-		::RPG::Client::TextID SubStoryName; // 0x30
+		::System::String* OptionPath; // 0x20
+		::RPG::Client::TextID SubStoryName; // 0x28
+		::System::UInt32 Layer; // 0x38
+		::System::UInt32 RogueDLCSubStoryID; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCSUBSTORYROW_CTOR_OFFSET))(this);

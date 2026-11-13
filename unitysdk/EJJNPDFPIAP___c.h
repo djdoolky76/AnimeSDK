@@ -4,18 +4,18 @@
 class EJJNPDFPIAP;
 namespace System { class Object; }
 
-#define EJJNPDFPIAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E28D640)
-#define EJJNPDFPIAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E28D670)
-#define EJJNPDFPIAP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E28D680)
+#define EJJNPDFPIAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE513F0)
+#define EJJNPDFPIAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE51420)
+#define EJJNPDFPIAP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FE51430)
 
-inline static constexpr unsigned int EJJNPDFPIAP___c_TypeDefinitionIndex = 34114;
+inline static constexpr unsigned int EJJNPDFPIAP___c_TypeDefinitionIndex = 35029;
 
 	class EJJNPDFPIAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D050);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41420);
 		}
 
 		static ::System::Void _cctor()

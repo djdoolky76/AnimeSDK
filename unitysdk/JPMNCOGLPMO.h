@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PropPuzzleEventSender; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPMNCOGLPMO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C3EE0)
-#define JPMNCOGLPMO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2C3EF0)
-#define JPMNCOGLPMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2C3F90)
-#define JPMNCOGLPMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2C42D0)
-#define JPMNCOGLPMO_TICK_OFFSET UNITYSDK_OFFSET(0xB2C3F30)
+#define JPMNCOGLPMO_CTOR_OFFSET UNITYSDK_OFFSET(0x19D9F990)
+#define JPMNCOGLPMO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19D9F9A0)
+#define JPMNCOGLPMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D9FA40)
+#define JPMNCOGLPMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x19D9FD80)
+#define JPMNCOGLPMO_TICK_OFFSET UNITYSDK_OFFSET(0x19D9F9E0)
 
-inline static constexpr unsigned int JPMNCOGLPMO_TypeDefinitionIndex = 58339;
+inline static constexpr unsigned int JPMNCOGLPMO_TypeDefinitionIndex = 59595;
 
 	class JPMNCOGLPMO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::PropPuzzleEventSender* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::PropPuzzleEventSender* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropPuzzleEventSender* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropPuzzleEventSender*))((::PBYTE)hIl2Cpp + JPMNCOGLPMO_CTOR_OFFSET))(this, a1, a2);

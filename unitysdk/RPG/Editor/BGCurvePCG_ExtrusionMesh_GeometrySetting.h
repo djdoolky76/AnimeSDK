@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 class HAGAFPDHLCK_Section;
 
-#define RPG_EDITOR_BGCURVEPCG_EXTRUSIONMESH_GEOMETRYSETTING_CCTOR_OFFSET UNITYSDK_OFFSET(0xE498220)
+#define RPG_EDITOR_BGCURVEPCG_EXTRUSIONMESH_GEOMETRYSETTING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1825CF20)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex = 52024;
+	inline static constexpr unsigned int BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex = 53129;
 
 	struct alignas(8) BGCurvePCG_ExtrusionMesh_GeometrySetting
 	{
@@ -27,7 +27,7 @@ namespace RPG::Editor
 		::System::Boolean IfGenerateSection; // 0x48
 		static ::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting* StaticGet_init()
 		{
-			return (::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting*)UnitySDK::FromName("RPG.Editor", "GeometrySetting")->GetStaticField(0x45780);
+			return (::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting*)UnitySDK::FromName("RPG.Editor", "GeometrySetting")->GetStaticField(0x60F30);
 		}
 
 		static ::System::Void _cctor()

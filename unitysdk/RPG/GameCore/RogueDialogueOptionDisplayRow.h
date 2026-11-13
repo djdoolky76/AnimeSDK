@@ -5,19 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDialogueOptionDisplayRow; }
 
-#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99B950)
-#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99B2F0)
+#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x207694E0)
+#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x207692F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueOptionDisplayRow_TypeDefinitionIndex = 14820;
+	inline static constexpr unsigned int RogueDialogueOptionDisplayRow_TypeDefinitionIndex = 14976;
 
 	class RogueDialogueOptionDisplayRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID OptionTitle; // 0x10
-		::RPG::Client::TextID OptionDesc; // 0x20
-		::System::UInt32 OptionDisplayID; // 0x30
+		::System::UInt32 OptionDisplayID; // 0x20
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID OptionDesc; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW_CTOR_OFFSET))(this);

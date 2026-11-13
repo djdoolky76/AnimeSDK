@@ -4,13 +4,13 @@
 namespace System { class Object; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET UNITYSDK_OFFSET(0xD9D35F0)
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISNOTNULL_OFFSET UNITYSDK_OFFSET(0xD9D3590)
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISNULL_OFFSET UNITYSDK_OFFSET(0xD9D3530)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET UNITYSDK_OFFSET(0x1AD961F0)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISNOTNULL_OFFSET UNITYSDK_OFFSET(0x1AD96190)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISNULL_OFFSET UNITYSDK_OFFSET(0x1AD96130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ObjectExtensions_TypeDefinitionIndex = 72779;
+	inline static constexpr unsigned int ObjectExtensions_TypeDefinitionIndex = 74858;
 
 	class ObjectExtensions : public ::System::Object
 	{

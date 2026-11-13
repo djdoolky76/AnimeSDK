@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MuteEntitySound; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILPIAMPNNKK_CTOR_OFFSET UNITYSDK_OFFSET(0x164BDE30)
-#define ILPIAMPNNKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164BDE60)
+#define ILPIAMPNNKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C95B0)
+#define ILPIAMPNNKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5C95E0)
 
-inline static constexpr unsigned int ILPIAMPNNKK_TypeDefinitionIndex = 53033;
+inline static constexpr unsigned int ILPIAMPNNKK_TypeDefinitionIndex = 54193;
 
 	class ILPIAMPNNKK
 	{

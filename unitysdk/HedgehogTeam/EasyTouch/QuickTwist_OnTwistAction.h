@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ONTWISTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x16748430)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ONTWISTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98A100)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTwist_OnTwistAction_TypeDefinitionIndex = 40281;
+	inline static constexpr unsigned int QuickTwist_OnTwistAction_TypeDefinitionIndex = 41256;
 
 	class QuickTwist_OnTwistAction
 	{

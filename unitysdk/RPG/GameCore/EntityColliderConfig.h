@@ -7,12 +7,12 @@ namespace RPG::GameCore { class EntityColliderCameraConfig; }
 namespace RPG::GameCore { class EntityColliderConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTITYCOLLIDERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D617F50)
-#define RPG_GAMECORE_ENTITYCOLLIDERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D617E00)
+#define RPG_GAMECORE_ENTITYCOLLIDERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0EE910)
+#define RPG_GAMECORE_ENTITYCOLLIDERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0EE7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityColliderConfig_TypeDefinitionIndex = 16557;
+	inline static constexpr unsigned int EntityColliderConfig_TypeDefinitionIndex = 16723;
 
 	class EntityColliderConfig : public ::RPG::GameCore::JsonConfig
 	{

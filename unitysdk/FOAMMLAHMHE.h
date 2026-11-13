@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByRandomChance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FOAMMLAHMHE_CTOR_OFFSET UNITYSDK_OFFSET(0x158D4B10)
-#define FOAMMLAHMHE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158D4B40)
+#define FOAMMLAHMHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1873F7F0)
+#define FOAMMLAHMHE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1873F820)
 
-inline static constexpr unsigned int FOAMMLAHMHE_TypeDefinitionIndex = 54709;
+inline static constexpr unsigned int FOAMMLAHMHE_TypeDefinitionIndex = 55876;
 
 	class FOAMMLAHMHE
 	{

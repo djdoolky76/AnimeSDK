@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class WaitAnimEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITANIMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC65DE0)
-#define RPG_GAMECORE_WAITANIMEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC65DF0)
-#define RPG_GAMECORE_WAITANIMEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC65DB0)
+#define RPG_GAMECORE_WAITANIMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED51350)
+#define RPG_GAMECORE_WAITANIMEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED51360)
+#define RPG_GAMECORE_WAITANIMEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED51320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitAnimEvent_TypeDefinitionIndex = 22877;
+	inline static constexpr unsigned int WaitAnimEvent_TypeDefinitionIndex = 23303;
 
 	class WaitAnimEvent : public ::RPG::GameCore::TaskConfig
 	{

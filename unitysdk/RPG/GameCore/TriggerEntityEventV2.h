@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerEntityEventV2; }
 
-#define RPG_GAMECORE_TRIGGERENTITYEVENTV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC24DF0)
-#define RPG_GAMECORE_TRIGGERENTITYEVENTV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC24E00)
-#define RPG_GAMECORE_TRIGGERENTITYEVENTV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC24DC0)
+#define RPG_GAMECORE_TRIGGERENTITYEVENTV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1E32F640)
+#define RPG_GAMECORE_TRIGGERENTITYEVENTV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E32F650)
+#define RPG_GAMECORE_TRIGGERENTITYEVENTV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E32F610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEntityEventV2_TypeDefinitionIndex = 20723;
+	inline static constexpr unsigned int TriggerEntityEventV2_TypeDefinitionIndex = 21060;
 
 	class TriggerEntityEventV2 : public ::RPG::GameCore::TaskConfig
 	{

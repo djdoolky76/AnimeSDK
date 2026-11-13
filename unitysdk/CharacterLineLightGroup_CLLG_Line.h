@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class CharacterLineLightGroup_CLLG_Point;
 
-#define CHARACTERLINELIGHTGROUP_CLLG_LINE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE1DB0)
-#define CHARACTERLINELIGHTGROUP_CLLG_LINE_GJCADMIGBDA_OFFSET UNITYSDK_OFFSET(0xDCE2140)
+#define CHARACTERLINELIGHTGROUP_CLLG_LINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1991B750)
+#define CHARACTERLINELIGHTGROUP_CLLG_LINE_GJCADMIGBDA_OFFSET UNITYSDK_OFFSET(0x1991BAE0)
 
-inline static constexpr unsigned int CharacterLineLightGroup_CLLG_Line_TypeDefinitionIndex = 47463;
+inline static constexpr unsigned int CharacterLineLightGroup_CLLG_Line_TypeDefinitionIndex = 48492;
 
 	class CharacterLineLightGroup_CLLG_Line : public ::System::Object
 	{

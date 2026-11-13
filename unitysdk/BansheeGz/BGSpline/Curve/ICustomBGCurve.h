@@ -3,7 +3,7 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int ICustomBGCurve_TypeDefinitionIndex = 36011;
+	inline static constexpr unsigned int ICustomBGCurve_TypeDefinitionIndex = 36939;
 
 	class ICustomBGCurve
 	{

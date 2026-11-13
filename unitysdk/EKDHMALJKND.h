@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EKDHMALJKND_CTOR_OFFSET UNITYSDK_OFFSET(0x154F54F0)
-#define EKDHMALJKND_HHNOCHCDKPP_OFFSET UNITYSDK_OFFSET(0x154F5410)
+#define EKDHMALJKND_CTOR_OFFSET UNITYSDK_OFFSET(0x1998A990)
+#define EKDHMALJKND_HHNOCHCDKPP_OFFSET UNITYSDK_OFFSET(0x1998A8B0)
 
-inline static constexpr unsigned int EKDHMALJKND_TypeDefinitionIndex = 80173;
+inline static constexpr unsigned int EKDHMALJKND_TypeDefinitionIndex = 82950;
 
 	class EKDHMALJKND : public ::System::Object
 	{

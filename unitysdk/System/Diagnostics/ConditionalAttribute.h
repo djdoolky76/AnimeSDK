@@ -3,7 +3,7 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_CONDITIONALATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A3520)
+#define SYSTEM_DIAGNOSTICS_CONDITIONALATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9747D0)
 
 namespace System::Diagnostics
 {

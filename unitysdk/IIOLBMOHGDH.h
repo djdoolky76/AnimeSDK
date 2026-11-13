@@ -7,20 +7,20 @@ namespace RPG::GameCore { class SelectAISkillTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IIOLBMOHGDH_CTOR_OFFSET UNITYSDK_OFFSET(0x16447890)
-#define IIOLBMOHGDH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164478A0)
-#define IIOLBMOHGDH_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x16447EB0)
-#define IIOLBMOHGDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164478E0)
-#define IIOLBMOHGDH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16447F60)
-#define IIOLBMOHGDH_TICK_OFFSET UNITYSDK_OFFSET(0x16447FB0)
+#define IIOLBMOHGDH_CTOR_OFFSET UNITYSDK_OFFSET(0x193F7AD0)
+#define IIOLBMOHGDH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x193F7AE0)
+#define IIOLBMOHGDH_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x193F80F0)
+#define IIOLBMOHGDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193F7B20)
+#define IIOLBMOHGDH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x193F81A0)
+#define IIOLBMOHGDH_TICK_OFFSET UNITYSDK_OFFSET(0x193F81F0)
 
-inline static constexpr unsigned int IIOLBMOHGDH_TypeDefinitionIndex = 54393;
+inline static constexpr unsigned int IIOLBMOHGDH_TypeDefinitionIndex = 55557;
 
 	class IIOLBMOHGDH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::SelectAISkillTarget* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SelectAISkillTarget* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SelectAISkillTarget* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SelectAISkillTarget*))((::PBYTE)hIl2Cpp + IIOLBMOHGDH_CTOR_OFFSET))(this, a1, a2);

@@ -5,16 +5,16 @@ class CLGMBADPMOO;
 namespace Sofa { class BaseSofaUI3DWindow; }
 namespace System { class Object; }
 
-#define CLGMBADPMOO___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD779F80)
-#define CLGMBADPMOO___C__DISPLAYCLASS11_0___GETORCREATEUI3DWINDOW_B__0_OFFSET UNITYSDK_OFFSET(0xD77A0E0)
+#define CLGMBADPMOO___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD637A0)
+#define CLGMBADPMOO___C__DISPLAYCLASS11_0___GETORCREATEUI3DWINDOW_B__0_OFFSET UNITYSDK_OFFSET(0x1AD63900)
 
-inline static constexpr unsigned int CLGMBADPMOO___c__DisplayClass11_0_TypeDefinitionIndex = 80509;
+inline static constexpr unsigned int CLGMBADPMOO___c__DisplayClass11_0_TypeDefinitionIndex = 83289;
 
 	class CLGMBADPMOO___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::Sofa::BaseSofaUI3DWindow* window; // 0x10
-		::CLGMBADPMOO* __4__this; // 0x18
+		::CLGMBADPMOO* __4__this; // 0x10
+		::Sofa::BaseSofaUI3DWindow* window; // 0x18
 		::System::Object* viewModel; // 0x20
 		::System::Void _ctor()
 		{

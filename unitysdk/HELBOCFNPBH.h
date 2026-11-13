@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerWavePerformStartString; }
 
-#define HELBOCFNPBH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4D840)
-#define HELBOCFNPBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C4D870)
+#define HELBOCFNPBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2046D0)
+#define HELBOCFNPBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A204700)
 
-inline static constexpr unsigned int HELBOCFNPBH_TypeDefinitionIndex = 58803;
+inline static constexpr unsigned int HELBOCFNPBH_TypeDefinitionIndex = 60071;
 
 	class HELBOCFNPBH
 	{

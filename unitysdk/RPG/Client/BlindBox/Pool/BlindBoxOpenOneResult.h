@@ -6,21 +6,21 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xC87FD30)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_GET_OBTAINEDPETS_OFFSET UNITYSDK_OFFSET(0xC87FEC0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_GET_OPENEDBOXINDEX_OFFSET UNITYSDK_OFFSET(0xC87FEB0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_GET_POOLID_OFFSET UNITYSDK_OFFSET(0xC87FEA0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_GET_PROTECTTIME_OFFSET UNITYSDK_OFFSET(0xC87FF00)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAED50)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_GET_OBTAINEDPETS_OFFSET UNITYSDK_OFFSET(0x1CDAEEE0)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_GET_OPENEDBOXINDEX_OFFSET UNITYSDK_OFFSET(0x1CDAEED0)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_GET_POOLID_OFFSET UNITYSDK_OFFSET(0x1CDAEEC0)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXOPENONERESULT_GET_PROTECTTIME_OFFSET UNITYSDK_OFFSET(0x1CDAEF20)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int BlindBoxOpenOneResult_TypeDefinitionIndex = 74952;
+	inline static constexpr unsigned int BlindBoxOpenOneResult_TypeDefinitionIndex = 77279;
 
 	class BlindBoxOpenOneResult : public ::System::Object
 	{
 	public:
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::BlindBox::Pool::BlindBoxOpenResultPet*>* _ObtainedPetsReadOnly; // 0x10
-		::Il2CppArray<::RPG::Client::BlindBox::Pool::BlindBoxOpenResultPet*>* _ObtainedPets; // 0x18
+		::Il2CppArray<::RPG::Client::BlindBox::Pool::BlindBoxOpenResultPet*>* _ObtainedPets; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::BlindBox::Pool::BlindBoxOpenResultPet*>* _ObtainedPetsReadOnly; // 0x18
 		::System::UInt32 _OpenedBoxIndex_k__BackingField; // 0x20
 		::System::UInt32 _PoolId_k__BackingField; // 0x24
 		::System::Single _ProtectTime_k__BackingField; // 0x28

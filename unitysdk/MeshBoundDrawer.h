@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Renderer; }
 
-#define MESHBOUNDDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0xBA44EF0)
-#define MESHBOUNDDRAWER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xBA44CB0)
-#define MESHBOUNDDRAWER_START_OFFSET UNITYSDK_OFFSET(0xBA44A10)
+#define MESHBOUNDDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B233870)
+#define MESHBOUNDDRAWER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1B233630)
+#define MESHBOUNDDRAWER_START_OFFSET UNITYSDK_OFFSET(0x1B233390)
 
-inline static constexpr unsigned int MeshBoundDrawer_TypeDefinitionIndex = 47287;
+inline static constexpr unsigned int MeshBoundDrawer_TypeDefinitionIndex = 48316;
 
 	class MeshBoundDrawer : public ::UnityEngine::MonoBehaviour
 	{

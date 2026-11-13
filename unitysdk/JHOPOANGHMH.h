@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckModifierCallBackStatusType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHOPOANGHMH_CTOR_OFFSET UNITYSDK_OFFSET(0xB1C2B40)
-#define JHOPOANGHMH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1C2B70)
+#define JHOPOANGHMH_CTOR_OFFSET UNITYSDK_OFFSET(0x173F14E0)
+#define JHOPOANGHMH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x173F1510)
 
-inline static constexpr unsigned int JHOPOANGHMH_TypeDefinitionIndex = 54507;
+inline static constexpr unsigned int JHOPOANGHMH_TypeDefinitionIndex = 55672;
 
 	class JHOPOANGHMH
 	{

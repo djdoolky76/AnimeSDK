@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceRollingSubtitlesScrollEffectParam; }
 
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESSCROLLEFFECTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D5730)
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESSCROLLEFFECTPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D5600)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESSCROLLEFFECTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F157660)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESSCROLLEFFECTPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F157530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceRollingSubtitlesScrollEffectParam_TypeDefinitionIndex = 24410;
+	inline static constexpr unsigned int PerformanceRollingSubtitlesScrollEffectParam_TypeDefinitionIndex = 24869;
 
 	class PerformanceRollingSubtitlesScrollEffectParam : public ::RPG::GameCore::JsonConfig
 	{

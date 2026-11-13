@@ -4,11 +4,11 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define NNOBKIHIEHP_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBCCF9E0)
-#define NNOBKIHIEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCCF940)
-#define NNOBKIHIEHP_GET_SHARECODE_OFFSET UNITYSDK_OFFSET(0xBCCFA90)
+#define NNOBKIHIEHP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A14FB0)
+#define NNOBKIHIEHP_CTOR_OFFSET UNITYSDK_OFFSET(0x17A14F10)
+#define NNOBKIHIEHP_GET_SHARECODE_OFFSET UNITYSDK_OFFSET(0x17A15060)
 
-inline static constexpr unsigned int NNOBKIHIEHP_TypeDefinitionIndex = 67507;
+inline static constexpr unsigned int NNOBKIHIEHP_TypeDefinitionIndex = 69451;
 
 	class NNOBKIHIEHP : public ::System::Exception
 	{

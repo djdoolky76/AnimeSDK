@@ -6,20 +6,20 @@ class BEMBBOJGAON;
 namespace RPG::Client { class UIController; }
 namespace System { template <typename T> class Action_1; }
 
-#define AKBKPOFPBAL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC4690)
+#define AKBKPOFPBAL_CTOR_OFFSET UNITYSDK_OFFSET(0x19D52930)
 
-inline static constexpr unsigned int AKBKPOFPBAL_TypeDefinitionIndex = 73118;
+inline static constexpr unsigned int AKBKPOFPBAL_TypeDefinitionIndex = 75232;
 
 	class AKBKPOFPBAL : public ::System::Object
 	{
 	public:
-		::System::Action_1<::AKBKPOFPBAL*>* DPANHIICMLD; // 0x10
-		::BEMBBOJGAON* LGNNAOLPNIP; // 0x18
-		::RPG::Client::UIController* ANIHEHNCACM; // 0x20
-		::RPG::Client::UIController* LPJMDKIBPCG; // 0x28
-		::RPG::Client::UIController* LFGGECDJFHB; // 0x30
-		::System::Boolean FEBKMOCOJLE; // 0x38
-		::System::Boolean CCKPNCIBDGP; // 0x39
+		::BEMBBOJGAON* LGNNAOLPNIP; // 0x10
+		::RPG::Client::UIController* ANIHEHNCACM; // 0x18
+		::RPG::Client::UIController* LFGGECDJFHB; // 0x20
+		::System::Action_1<::AKBKPOFPBAL*>* DPANHIICMLD; // 0x28
+		::RPG::Client::UIController* LPJMDKIBPCG; // 0x30
+		::System::Boolean CCKPNCIBDGP; // 0x38
+		::System::Boolean FEBKMOCOJLE; // 0x39
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKBKPOFPBAL_CTOR_OFFSET))(this);

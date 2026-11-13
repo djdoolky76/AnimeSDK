@@ -5,11 +5,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ADVGMSUMMONMONSTERITEMCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C3430)
+#define RPG_CLIENT_ADVGMSUMMONMONSTERITEMCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x18D14110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdvGMSummonMonsterItemContext_TypeDefinitionIndex = 72727;
+	inline static constexpr unsigned int AdvGMSummonMonsterItemContext_TypeDefinitionIndex = 74806;
 
 	class AdvGMSummonMonsterItemContext : public ::UnityEngine::MonoBehaviour
 	{

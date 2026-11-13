@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface_TaskResult_1_TypeDefinitionIndex = 46680;
+	inline static constexpr unsigned int MiHoYoMTRInterface_TaskResult_1_TypeDefinitionIndex = 47708;
 
 	template <typename T>
 	class MiHoYoMTRInterface_TaskResult_1 : public ::System::Object

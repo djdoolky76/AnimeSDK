@@ -3,10 +3,11 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OpenWorldCullingPauseReason_TypeDefinitionIndex = 73771;
+	inline static constexpr unsigned int OpenWorldCullingPauseReason_TypeDefinitionIndex = 75895;
 
 	enum class OpenWorldCullingPauseReason : ::System::Int32
 	{
 		MapRotation = 0,
+		Gameplay = 1,
 	};
 }

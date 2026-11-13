@@ -4,18 +4,18 @@
 class IMPIBDBDHCA;
 namespace System { class Object; }
 
-#define IMPIBDBDHCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E68E4E0)
-#define IMPIBDBDHCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68E520)
-#define IMPIBDBDHCA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E68E530)
+#define IMPIBDBDHCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206C2260)
+#define IMPIBDBDHCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206C22A0)
+#define IMPIBDBDHCA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x206C22B0)
 
-inline static constexpr unsigned int IMPIBDBDHCA___c_TypeDefinitionIndex = 33995;
+inline static constexpr unsigned int IMPIBDBDHCA___c_TypeDefinitionIndex = 34910;
 
 	class IMPIBDBDHCA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x530C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4F080);
 		}
 
 		static ::System::Void _cctor()

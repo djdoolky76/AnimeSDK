@@ -3,10 +3,10 @@
 class LIMGBAHNNIK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHDOJFFJGEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1576A1A0)
-#define FHDOJFFJGEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1576A1D0)
+#define FHDOJFFJGEA_CTOR_OFFSET UNITYSDK_OFFSET(0x18A9FAA0)
+#define FHDOJFFJGEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A9FAD0)
 
-inline static constexpr unsigned int FHDOJFFJGEA_TypeDefinitionIndex = 54955;
+inline static constexpr unsigned int FHDOJFFJGEA_TypeDefinitionIndex = 56129;
 
 	class FHDOJFFJGEA
 	{

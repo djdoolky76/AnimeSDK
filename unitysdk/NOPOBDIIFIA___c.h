@@ -4,18 +4,18 @@
 class NOPOBDIIFIA;
 namespace System { class Object; }
 
-#define NOPOBDIIFIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB64E40)
-#define NOPOBDIIFIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB64E70)
-#define NOPOBDIIFIA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB64E80)
+#define NOPOBDIIFIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB75CA0)
+#define NOPOBDIIFIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB75CD0)
+#define NOPOBDIIFIA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB75CE0)
 
-inline static constexpr unsigned int NOPOBDIIFIA___c_TypeDefinitionIndex = 34161;
+inline static constexpr unsigned int NOPOBDIIFIA___c_TypeDefinitionIndex = 35076;
 
 	class NOPOBDIIFIA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC4B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54080);
 		}
 
 		static ::System::Void _cctor()

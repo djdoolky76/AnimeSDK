@@ -4,18 +4,18 @@
 class PANIFOJDEBM;
 namespace System { class Object; }
 
-#define PANIFOJDEBM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEC4980)
-#define PANIFOJDEBM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC49B0)
-#define PANIFOJDEBM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DEC49C0)
+#define PANIFOJDEBM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBE58C0)
+#define PANIFOJDEBM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBE58F0)
+#define PANIFOJDEBM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FBE5900)
 
-inline static constexpr unsigned int PANIFOJDEBM___c_TypeDefinitionIndex = 32626;
+inline static constexpr unsigned int PANIFOJDEBM___c_TypeDefinitionIndex = 33541;
 
 	class PANIFOJDEBM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C1E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CE90);
 		}
 
 		static ::System::Void _cctor()

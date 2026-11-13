@@ -16,275 +16,275 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define GCHHPCDKEKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA54E50)
-#define GCHHPCDKEKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA54E80)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_0_OFFSET UNITYSDK_OFFSET(0x1CA54E90)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_10_OFFSET UNITYSDK_OFFSET(0x1CA55270)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_11_OFFSET UNITYSDK_OFFSET(0x1CA55320)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_12_OFFSET UNITYSDK_OFFSET(0x1CA55370)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_13_OFFSET UNITYSDK_OFFSET(0x1CA553C0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_14_OFFSET UNITYSDK_OFFSET(0x1CA55410)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_15_OFFSET UNITYSDK_OFFSET(0x1CA55460)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_16_OFFSET UNITYSDK_OFFSET(0x1CA554B0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_1_OFFSET UNITYSDK_OFFSET(0x1CA54EE0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_2_OFFSET UNITYSDK_OFFSET(0x1CA54F60)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_3_OFFSET UNITYSDK_OFFSET(0x1CA54FB0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_4_OFFSET UNITYSDK_OFFSET(0x1CA55000)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_5_OFFSET UNITYSDK_OFFSET(0x1CA55050)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_6_OFFSET UNITYSDK_OFFSET(0x1CA550D0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_7_OFFSET UNITYSDK_OFFSET(0x1CA55120)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_8_OFFSET UNITYSDK_OFFSET(0x1CA55170)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_9_OFFSET UNITYSDK_OFFSET(0x1CA551F0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CA55520)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__1_1_OFFSET UNITYSDK_OFFSET(0x1CA555A0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__1_2_OFFSET UNITYSDK_OFFSET(0x1CA555F0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__1_3_OFFSET UNITYSDK_OFFSET(0x1CA55640)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_0_OFFSET UNITYSDK_OFFSET(0x1CA55690)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_1_OFFSET UNITYSDK_OFFSET(0x1CA55700)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_2_OFFSET UNITYSDK_OFFSET(0x1CA55770)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_3_OFFSET UNITYSDK_OFFSET(0x1CA557E0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_4_OFFSET UNITYSDK_OFFSET(0x1CA55850)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_5_OFFSET UNITYSDK_OFFSET(0x1CA558C0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_6_OFFSET UNITYSDK_OFFSET(0x1CA55930)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_7_OFFSET UNITYSDK_OFFSET(0x1CA559A0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__3_0_OFFSET UNITYSDK_OFFSET(0x1CA55A10)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__4_0_OFFSET UNITYSDK_OFFSET(0x1CA55A60)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__4_1_OFFSET UNITYSDK_OFFSET(0x1CA55AB0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__4_2_OFFSET UNITYSDK_OFFSET(0x1CA55B20)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_0_OFFSET UNITYSDK_OFFSET(0x1CA55B70)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_1_OFFSET UNITYSDK_OFFSET(0x1CA55C10)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_2_OFFSET UNITYSDK_OFFSET(0x1CA55C80)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_3_OFFSET UNITYSDK_OFFSET(0x1CA55CF0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_4_OFFSET UNITYSDK_OFFSET(0x1CA55D60)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_5_OFFSET UNITYSDK_OFFSET(0x1CA55DD0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_6_OFFSET UNITYSDK_OFFSET(0x1CA55E40)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_7_OFFSET UNITYSDK_OFFSET(0x1CA55EB0)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_8_OFFSET UNITYSDK_OFFSET(0x1CA55F20)
-#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_9_OFFSET UNITYSDK_OFFSET(0x1CA55F90)
+#define GCHHPCDKEKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C21F5D0)
+#define GCHHPCDKEKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C21F600)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C21F610)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_10_OFFSET UNITYSDK_OFFSET(0x1C21F9F0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_11_OFFSET UNITYSDK_OFFSET(0x1C21FAA0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_12_OFFSET UNITYSDK_OFFSET(0x1C21FAF0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_13_OFFSET UNITYSDK_OFFSET(0x1C21FB40)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_14_OFFSET UNITYSDK_OFFSET(0x1C21FB90)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_15_OFFSET UNITYSDK_OFFSET(0x1C21FBE0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_16_OFFSET UNITYSDK_OFFSET(0x1C21FC30)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C21F660)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_2_OFFSET UNITYSDK_OFFSET(0x1C21F6E0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_3_OFFSET UNITYSDK_OFFSET(0x1C21F730)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_4_OFFSET UNITYSDK_OFFSET(0x1C21F780)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_5_OFFSET UNITYSDK_OFFSET(0x1C21F7D0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_6_OFFSET UNITYSDK_OFFSET(0x1C21F850)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_7_OFFSET UNITYSDK_OFFSET(0x1C21F8A0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_8_OFFSET UNITYSDK_OFFSET(0x1C21F8F0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_9_OFFSET UNITYSDK_OFFSET(0x1C21F970)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C21FC80)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__1_1_OFFSET UNITYSDK_OFFSET(0x1C21FD00)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__1_2_OFFSET UNITYSDK_OFFSET(0x1C21FD50)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__1_3_OFFSET UNITYSDK_OFFSET(0x1C21FDA0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C21FDF0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_1_OFFSET UNITYSDK_OFFSET(0x1C21FE60)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_2_OFFSET UNITYSDK_OFFSET(0x1C21FED0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_3_OFFSET UNITYSDK_OFFSET(0x1C21FF40)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_4_OFFSET UNITYSDK_OFFSET(0x1C21FFB0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_5_OFFSET UNITYSDK_OFFSET(0x1C220020)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_6_OFFSET UNITYSDK_OFFSET(0x1C220090)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_7_OFFSET UNITYSDK_OFFSET(0x1C220100)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C220170)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C2201C0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__4_1_OFFSET UNITYSDK_OFFSET(0x1C220210)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__4_2_OFFSET UNITYSDK_OFFSET(0x1C220280)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C2202D0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_1_OFFSET UNITYSDK_OFFSET(0x1C220370)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_2_OFFSET UNITYSDK_OFFSET(0x1C2203E0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_3_OFFSET UNITYSDK_OFFSET(0x1C220450)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_4_OFFSET UNITYSDK_OFFSET(0x1C2204C0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_5_OFFSET UNITYSDK_OFFSET(0x1C220530)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_6_OFFSET UNITYSDK_OFFSET(0x1C2205A0)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_7_OFFSET UNITYSDK_OFFSET(0x1C220610)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_8_OFFSET UNITYSDK_OFFSET(0x1C220680)
+#define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_9_OFFSET UNITYSDK_OFFSET(0x1C2206F0)
 
-inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831;
+inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 43812;
 
 	class GCHHPCDKEKE___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::String*>** StaticGet___9__0_10()
 		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBB0);
-		}
-
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__5_7()
-		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBB8);
-		}
-
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__2_5()
-		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBC0);
-		}
-
-		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::Int32>** StaticGet___9__1_2()
-		{
-			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBC8);
-		}
-
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_2()
-		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBD0);
-		}
-
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__5_2()
-		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBD8);
-		}
-
-		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__1_1()
-		{
-			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBE0);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>** StaticGet___9__0_1()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBE8);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_15()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBF0);
-		}
-
-		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__1_3()
-		{
-			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BBF8);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>** StaticGet___9__0_0()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC00);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::CustomPropMoveType>** StaticGet___9__0_2()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::CustomPropMoveType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC08);
-		}
-
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_4()
-		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC10);
-		}
-
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_8()
-		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC18);
-		}
-
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_0()
-		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC20);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_12()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC28);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_6()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC30);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::EntityTag>** StaticGet___9__0_4()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::EntityTag>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC38);
-		}
-
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_5()
-		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC40);
-		}
-
-		static ::System::Func_3<::NGFHCJIAOLH*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__3_0()
-		{
-			return (::System::Func_3<::NGFHCJIAOLH*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC48);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_3()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC50);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__0_7()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC58);
-		}
-
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_3()
-		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC60);
-		}
-
-		static ::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt16>** StaticGet___9__4_1()
-		{
-			return (::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt16>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC68);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::String*>** StaticGet___9__0_5()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC70);
-		}
-
-		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>** StaticGet___9__1_0()
-		{
-			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC78);
-		}
-
-		static ::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__4_0()
-		{
-			return (::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC80);
-		}
-
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_3()
-		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC88);
-		}
-
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_7()
-		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC90);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Boolean>** StaticGet___9__0_16()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC98);
-		}
-
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_6()
-		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCA0);
-		}
-
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>** StaticGet___9__0_11()
-		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCA8);
-		}
-
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_4()
-		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCB0);
-		}
-
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__2_6()
-		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCB8);
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ACD0);
 		}
 
 		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_14()
 		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCC0);
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ACD8);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_15()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ACE0);
 		}
 
 		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_9()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCC8);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ACE8);
+		}
+
+		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>** StaticGet___9__1_0()
+		{
+			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ACF0);
+		}
+
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_5()
+		{
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ACF8);
 		}
 
 		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>** StaticGet___9__0_9()
 		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCD0);
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD00);
 		}
 
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_0()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_0()
 		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCD8);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD08);
+		}
+
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_2()
+		{
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD10);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Boolean>** StaticGet___9__0_16()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD18);
 		}
 
 		static ::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::String*>** StaticGet___9__4_2()
 		{
-			return (::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCE0);
+			return (::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD20);
 		}
 
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__5_1()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_4()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCE8);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD28);
 		}
 
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_13()
+		static ::System::Func_3<::NGFHCJIAOLH*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCF0);
+			return (::System::Func_3<::NGFHCJIAOLH*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD30);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>** StaticGet___9__0_0()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD38);
+		}
+
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__5_7()
+		{
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD40);
+		}
+
+		static ::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__4_0()
+		{
+			return (::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD48);
+		}
+
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_3()
+		{
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD50);
+		}
+
+		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::Int32>** StaticGet___9__1_2()
+		{
+			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD58);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__0_7()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD60);
 		}
 
 		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>** StaticGet___9__0_8()
 		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BCF8);
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD68);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_6()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD70);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BD00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD78);
+		}
+
+		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__1_1()
+		{
+			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD80);
 		}
 
 		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_1()
 		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BD08);
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD88);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::String*>** StaticGet___9__0_5()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD90);
+		}
+
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_7()
+		{
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AD98);
+		}
+
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__5_1()
+		{
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADA0);
+		}
+
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__2_5()
+		{
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADA8);
+		}
+
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_3()
+		{
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADB0);
+		}
+
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_0()
+		{
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADB8);
+		}
+
+		static ::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt16>** StaticGet___9__4_1()
+		{
+			return (::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt16>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADC0);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_3()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADC8);
+		}
+
+		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__1_3()
+		{
+			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADD0);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::CustomPropMoveType>** StaticGet___9__0_2()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::CustomPropMoveType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADD8);
+		}
+
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_8()
+		{
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADE0);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>** StaticGet___9__0_11()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADE8);
+		}
+
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_6()
+		{
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADF0);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_12()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ADF8);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::EntityTag>** StaticGet___9__0_4()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::EntityTag>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AE00);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__0_13()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AE08);
+		}
+
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__5_2()
+		{
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AE10);
+		}
+
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_4()
+		{
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AE18);
+		}
+
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__2_6()
+		{
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AE20);
+		}
+
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>** StaticGet___9__0_1()
+		{
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AE28);
 		}
 
 		static ::System::Void _cctor()

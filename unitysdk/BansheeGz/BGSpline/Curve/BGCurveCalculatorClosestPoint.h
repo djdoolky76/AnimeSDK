@@ -5,14 +5,14 @@
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x1C4E6000)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4EBF80)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E5FF0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1C4EBFF0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x192446A0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1924A620)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x19244690)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1924A690)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 36005;
+	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 36933;
 
 	class BGCurveCalculatorClosestPoint : public ::System::Object
 	{
@@ -22,7 +22,7 @@ namespace BansheeGz::BGSpline::Curve
 		::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math; // 0x20
 		static ::Il2CppArray<::System::Int32>** StaticGet_TransitionsForPartitions()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "BGCurveCalculatorClosestPoint")->GetStaticField(0x62BF0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "BGCurveCalculatorClosestPoint")->GetStaticField(0x68D10);
 		}
 
 		static ::System::Void _cctor()

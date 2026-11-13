@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/CRPLightDebugData.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_CRPLIGHTDEBUG_RESET_OFFSET UNITYSDK_OFFSET(0x3C34BC0)
+#define RPG_CUSTOMRP_CRPLIGHTDEBUG_RESET_OFFSET UNITYSDK_OFFSET(0x3E5A680)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPLightDebug_TypeDefinitionIndex = 37569;
+	inline static constexpr unsigned int CRPLightDebug_TypeDefinitionIndex = 38497;
 
 	struct alignas(8) CRPLightDebug
 	{

@@ -4,18 +4,18 @@
 class DBGHCHPONOH;
 namespace System { class Object; }
 
-#define DBGHCHPONOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E12EB10)
-#define DBGHCHPONOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E12EB50)
-#define DBGHCHPONOH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E12EB60)
+#define DBGHCHPONOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202B1BA0)
+#define DBGHCHPONOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202B1BE0)
+#define DBGHCHPONOH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x202B1BF0)
 
-inline static constexpr unsigned int DBGHCHPONOH___c_TypeDefinitionIndex = 34872;
+inline static constexpr unsigned int DBGHCHPONOH___c_TypeDefinitionIndex = 35800;
 
 	class DBGHCHPONOH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22A00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D260);
 		}
 
 		static ::System::Void _cctor()

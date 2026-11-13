@@ -6,12 +6,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE91CFD0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE91D080)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1C767F10)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C767FC0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidTimelineTrack_TypeDefinitionIndex = 48596;
+	inline static constexpr unsigned int PolaroidTimelineTrack_TypeDefinitionIndex = 49637;
 
 	class PolaroidTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

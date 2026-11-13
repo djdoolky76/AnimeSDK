@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class EAHCLJPMCIG;
 
-#define JNBPOOEIKAP_CTOR_OFFSET UNITYSDK_OFFSET(0xB271D60)
+#define JNBPOOEIKAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C1190)
 
-inline static constexpr unsigned int JNBPOOEIKAP_TypeDefinitionIndex = 80570;
+inline static constexpr unsigned int JNBPOOEIKAP_TypeDefinitionIndex = 83350;
 
 	class JNBPOOEIKAP : public ::System::Object
 	{

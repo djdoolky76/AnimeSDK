@@ -5,22 +5,22 @@ namespace RPG::Client::ActivityIdleLive { class BaseSpEquipInventoryDisplayData;
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HJCFEMICJHI_AHMDGKINKML_OFFSET UNITYSDK_OFFSET(0x15CF7720)
-#define HJCFEMICJHI_BDJINPHIJIO_OFFSET UNITYSDK_OFFSET(0x15CF7B90)
-#define HJCFEMICJHI_CNIAMENELDD_OFFSET UNITYSDK_OFFSET(0x15CF7A10)
-#define HJCFEMICJHI_CTOR_OFFSET UNITYSDK_OFFSET(0x15CF75C0)
-#define HJCFEMICJHI_KALLNOPDLHC_OFFSET UNITYSDK_OFFSET(0x15CF7C60)
-#define HJCFEMICJHI_NDOEMEGBMDC_OFFSET UNITYSDK_OFFSET(0x15CF7900)
-#define HJCFEMICJHI_OALPEFEJIJN_OFFSET UNITYSDK_OFFSET(0x15CF7630)
-#define HJCFEMICJHI_PGALHCIDLHC_OFFSET UNITYSDK_OFFSET(0x15CF77C0)
+#define HJCFEMICJHI_AHMDGKINKML_OFFSET UNITYSDK_OFFSET(0x181F4310)
+#define HJCFEMICJHI_BDJINPHIJIO_OFFSET UNITYSDK_OFFSET(0x181F4780)
+#define HJCFEMICJHI_CNIAMENELDD_OFFSET UNITYSDK_OFFSET(0x181F4600)
+#define HJCFEMICJHI_CTOR_OFFSET UNITYSDK_OFFSET(0x181F41B0)
+#define HJCFEMICJHI_KALLNOPDLHC_OFFSET UNITYSDK_OFFSET(0x181F4850)
+#define HJCFEMICJHI_NDOEMEGBMDC_OFFSET UNITYSDK_OFFSET(0x181F44F0)
+#define HJCFEMICJHI_OALPEFEJIJN_OFFSET UNITYSDK_OFFSET(0x181F4220)
+#define HJCFEMICJHI_PGALHCIDLHC_OFFSET UNITYSDK_OFFSET(0x181F43B0)
 
-inline static constexpr unsigned int HJCFEMICJHI_TypeDefinitionIndex = 75230;
+inline static constexpr unsigned int HJCFEMICJHI_TypeDefinitionIndex = 77557;
 
 	class HJCFEMICJHI : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::SpecialEquip* AFOBIFOCBMD; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::SpecialEquip*>* PEHEIFFLILI; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::SpecialEquip*>* PEHEIFFLILI; // 0x10
+		::RPG::Client::ActivityIdleLive::SpecialEquip* AFOBIFOCBMD; // 0x18
 		::RPG::Client::ActivityIdleLive::BaseSpEquipInventoryDisplayData* GLBBINMGMDL; // 0x20
 		::System::Void _ctor(::RPG::Client::ActivityIdleLive::BaseSpEquipInventoryDisplayData* a1, ::RPG::Client::ActivityIdleLive::SpecialEquip* a2)
 		{

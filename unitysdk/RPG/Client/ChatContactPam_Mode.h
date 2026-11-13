@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatContactPam_Mode_TypeDefinitionIndex = 63216;
+	inline static constexpr unsigned int ChatContactPam_Mode_TypeDefinitionIndex = 64654;
 
 	enum class ChatContactPam_Mode : ::System::Int32
 	{

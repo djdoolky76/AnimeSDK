@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_CONSOLEINPUTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE181A0)
+#define MIHOYO_SDK_CONSOLEINPUTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD68CB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleInputParam_TypeDefinitionIndex = 7582;
+	inline static constexpr unsigned int ConsoleInputParam_TypeDefinitionIndex = 7591;
 
 	class ConsoleInputParam : public ::System::Object
 	{

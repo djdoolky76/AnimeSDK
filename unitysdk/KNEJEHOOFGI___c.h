@@ -4,18 +4,18 @@
 class KNEJEHOOFGI;
 namespace System { class Object; }
 
-#define KNEJEHOOFGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E875180)
-#define KNEJEHOOFGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8751C0)
-#define KNEJEHOOFGI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8751D0)
+#define KNEJEHOOFGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205A0380)
+#define KNEJEHOOFGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205A03C0)
+#define KNEJEHOOFGI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x205A03D0)
 
-inline static constexpr unsigned int KNEJEHOOFGI___c_TypeDefinitionIndex = 32917;
+inline static constexpr unsigned int KNEJEHOOFGI___c_TypeDefinitionIndex = 33832;
 
 	class KNEJEHOOFGI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FDE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F330);
 		}
 
 		static ::System::Void _cctor()

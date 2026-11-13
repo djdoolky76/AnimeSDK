@@ -12,27 +12,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DKNFHBOHMAF_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xF884F00)
-#define DKNFHBOHMAF_CCTOR_OFFSET UNITYSDK_OFFSET(0xF885120)
-#define DKNFHBOHMAF_CTOR_OFFSET UNITYSDK_OFFSET(0xF884A50)
-#define DKNFHBOHMAF_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF884A60)
-#define DKNFHBOHMAF_LCCNFHFIGIM_OFFSET UNITYSDK_OFFSET(0xF884C50)
-#define DKNFHBOHMAF_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0xF884F40)
-#define DKNFHBOHMAF_TICK_OFFSET UNITYSDK_OFFSET(0xF884E90)
+#define DKNFHBOHMAF_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x18C230C0)
+#define DKNFHBOHMAF_CCTOR_OFFSET UNITYSDK_OFFSET(0x18C232E0)
+#define DKNFHBOHMAF_CTOR_OFFSET UNITYSDK_OFFSET(0x18C22C10)
+#define DKNFHBOHMAF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18C22C20)
+#define DKNFHBOHMAF_LCCNFHFIGIM_OFFSET UNITYSDK_OFFSET(0x18C22E10)
+#define DKNFHBOHMAF_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0x18C23100)
+#define DKNFHBOHMAF_TICK_OFFSET UNITYSDK_OFFSET(0x18C23050)
 
-inline static constexpr unsigned int DKNFHBOHMAF_TypeDefinitionIndex = 77653;
+inline static constexpr unsigned int DKNFHBOHMAF_TypeDefinitionIndex = 80388;
 
 	class DKNFHBOHMAF : public ::System::Object
 	{
 	public:
-		::AFNDGNFOAKC* HFOFIODMFGB; // 0x10
+		::KAKADGHNMFK* PFHKDKKPBMF; // 0x10
 		::HAJDFCHFBGN* JDANNEMAPJK; // 0x18
-		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x20
-		::KAKADGHNMFK* PFHKDKKPBMF; // 0x28
+		::AFNDGNFOAKC* HFOFIODMFGB; // 0x20
+		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x28
 		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelMasterShowType DNANDLAPIFP; // 0x30
 		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelMasterShowType, ::System::String*>** StaticGet_GDOCHLDOBPM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelMasterShowType, ::System::String*>**)UnitySDK::FromName("", "DKNFHBOHMAF")->GetStaticField(0x56C10);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelMasterShowType, ::System::String*>**)UnitySDK::FromName("", "DKNFHBOHMAF")->GetStaticField(0x6F2D0);
 		}
 
 		::System::Void _ctor(::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelMasterShowType a1, ::KAKADGHNMFK* a2, ::HAJDFCHFBGN* a3)

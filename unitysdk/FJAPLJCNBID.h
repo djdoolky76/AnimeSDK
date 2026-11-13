@@ -7,21 +7,21 @@ namespace RPG::GameCore { class RogueMagicScepterRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FJAPLJCNBID_CTOR_1_OFFSET UNITYSDK_OFFSET(0x157AAB90)
-#define FJAPLJCNBID_CTOR_OFFSET UNITYSDK_OFFSET(0x157AA990)
-#define FJAPLJCNBID_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157AAFB0)
-#define FJAPLJCNBID_GETALLSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0x157AB0C0)
-#define FJAPLJCNBID_GETLOCKEDUNITS_OFFSET UNITYSDK_OFFSET(0x157AB080)
-#define FJAPLJCNBID_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0x157AB190)
-#define FJAPLJCNBID_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0x157AB140)
+#define FJAPLJCNBID_CTOR_1_OFFSET UNITYSDK_OFFSET(0x198144C0)
+#define FJAPLJCNBID_CTOR_OFFSET UNITYSDK_OFFSET(0x198142C0)
+#define FJAPLJCNBID_DISPOSE_OFFSET UNITYSDK_OFFSET(0x198148E0)
+#define FJAPLJCNBID_GETALLSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0x198149F0)
+#define FJAPLJCNBID_GETLOCKEDUNITS_OFFSET UNITYSDK_OFFSET(0x198149B0)
+#define FJAPLJCNBID_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0x19814AC0)
+#define FJAPLJCNBID_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0x19814A70)
 
-inline static constexpr unsigned int FJAPLJCNBID_TypeDefinitionIndex = 67418;
+inline static constexpr unsigned int FJAPLJCNBID_TypeDefinitionIndex = 69362;
 
 	class FJAPLJCNBID : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* MHCEPJECNGO; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* BKADBEIPNJC; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* BKADBEIPNJC; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* MHCEPJECNGO; // 0x18
 		::System::Void _ctor(::RPG::GameCore::RogueMagicScepterRow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueMagicScepterRow*))((::PBYTE)hIl2Cpp + FJAPLJCNBID_CTOR_OFFSET))(this, a1);

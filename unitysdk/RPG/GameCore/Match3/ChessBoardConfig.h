@@ -6,12 +6,12 @@ namespace RPG::GameCore::Match3 { class BombCreateConfig; }
 namespace RPG::GameCore::Match3 { class ChessBoardConfig; }
 namespace RPG::GameCore::Match3 { class PieceConfig; }
 
-#define RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81DCD0)
-#define RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81DB30)
+#define RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB520F0)
+#define RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB51F50)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int ChessBoardConfig_TypeDefinitionIndex = 24869;
+	inline static constexpr unsigned int ChessBoardConfig_TypeDefinitionIndex = 25349;
 
 	class ChessBoardConfig : public ::RPG::GameCore::JsonConfig
 	{

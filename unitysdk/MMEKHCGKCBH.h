@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetAsRogueDialogue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MMEKHCGKCBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB9BC770)
-#define MMEKHCGKCBH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9BC780)
-#define MMEKHCGKCBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9BC7C0)
-#define MMEKHCGKCBH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9BC970)
-#define MMEKHCGKCBH_TICK_OFFSET UNITYSDK_OFFSET(0xB9BC9C0)
+#define MMEKHCGKCBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9321B0)
+#define MMEKHCGKCBH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B9321C0)
+#define MMEKHCGKCBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B932200)
+#define MMEKHCGKCBH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B9323B0)
+#define MMEKHCGKCBH_TICK_OFFSET UNITYSDK_OFFSET(0x1B932400)
 
-inline static constexpr unsigned int MMEKHCGKCBH_TypeDefinitionIndex = 58510;
+inline static constexpr unsigned int MMEKHCGKCBH_TypeDefinitionIndex = 59774;
 
 	class MMEKHCGKCBH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetAsRogueDialogue* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetAsRogueDialogue* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetAsRogueDialogue* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetAsRogueDialogue*))((::PBYTE)hIl2Cpp + MMEKHCGKCBH_CTOR_OFFSET))(this, a1, a2);

@@ -5,14 +5,14 @@ namespace MiHoYo::SDK::Uploader { class UploadCallbackAction; }
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int DesktopUploaderWorker___O_TypeDefinitionIndex = 46660;
+	inline static constexpr unsigned int DesktopUploaderWorker___O_TypeDefinitionIndex = 47688;
 
 	class DesktopUploaderWorker___O : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Uploader::UploadCallbackAction** StaticGet__0___MiHoYoUploaderIntrnalCallback()
 		{
-			return (::MiHoYo::SDK::Uploader::UploadCallbackAction**)UnitySDK::FromName("MiHoYo.SDK.Uploader", "<>O")->GetStaticField(0x35240);
+			return (::MiHoYo::SDK::Uploader::UploadCallbackAction**)UnitySDK::FromName("MiHoYo.SDK.Uploader", "<>O")->GetStaticField(0x2CF10);
 		}
 
 	};

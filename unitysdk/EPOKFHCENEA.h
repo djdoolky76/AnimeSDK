@@ -3,10 +3,10 @@
 class MJCOCAMJABP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EPOKFHCENEA_CTOR_OFFSET UNITYSDK_OFFSET(0x155CD640)
-#define EPOKFHCENEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155CD670)
+#define EPOKFHCENEA_CTOR_OFFSET UNITYSDK_OFFSET(0x16B3C620)
+#define EPOKFHCENEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16B3C650)
 
-inline static constexpr unsigned int EPOKFHCENEA_TypeDefinitionIndex = 53889;
+inline static constexpr unsigned int EPOKFHCENEA_TypeDefinitionIndex = 55053;
 
 	class EPOKFHCENEA
 	{

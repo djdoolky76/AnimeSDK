@@ -3,7 +3,7 @@
 #include "unitysdk/System/Diagnostics/DebuggableAttribute_DebuggingModes.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A3530)
+#define SYSTEM_DIAGNOSTICS_DEBUGGABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9747E0)
 
 namespace System::Diagnostics
 {

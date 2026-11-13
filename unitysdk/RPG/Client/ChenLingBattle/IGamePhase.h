@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int IGamePhase_TypeDefinitionIndex = 76289;
+	inline static constexpr unsigned int IGamePhase_TypeDefinitionIndex = 78620;
 
 	class IGamePhase
 	{

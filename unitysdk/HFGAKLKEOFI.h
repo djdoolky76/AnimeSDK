@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class JLLEGKDHCIE;
 
-#define HFGAKLKEOFI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA99EA0)
-#define HFGAKLKEOFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA99F20)
+#define HFGAKLKEOFI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DAA0F50)
+#define HFGAKLKEOFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA0FB0)
 
-inline static constexpr unsigned int HFGAKLKEOFI_TypeDefinitionIndex = 43498;
+inline static constexpr unsigned int HFGAKLKEOFI_TypeDefinitionIndex = 44480;
 
 	class HFGAKLKEOFI : public ::System::Object
 	{

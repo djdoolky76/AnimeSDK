@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SwitchEffectBattleArea; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB13CA0)
-#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB13CB0)
-#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB13C70)
+#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6837A0)
+#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6837B0)
+#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E683770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchEffectBattleArea_TypeDefinitionIndex = 23322;
+	inline static constexpr unsigned int SwitchEffectBattleArea_TypeDefinitionIndex = 23763;
 
 	class SwitchEffectBattleArea : public ::RPG::GameCore::TaskConfig
 	{

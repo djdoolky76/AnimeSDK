@@ -4,12 +4,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class LocalFogSphereInstance_ExportData; }
 
-#define SCENENLIGHTMANAGER_LOCALFOGSPHEREINSTANCE_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE95B9D0)
-#define SCENENLIGHTMANAGER_LOCALFOGSPHEREINSTANCE_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xE95B9C0)
+#define SCENENLIGHTMANAGER_LOCALFOGSPHEREINSTANCE_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC2E630)
+#define SCENENLIGHTMANAGER_LOCALFOGSPHEREINSTANCE_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1AC2E620)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LocalFogSphereInstance_SceneLightExportData_TypeDefinitionIndex = 49059;
+	inline static constexpr unsigned int LocalFogSphereInstance_SceneLightExportData_TypeDefinitionIndex = 50135;
 
 	class LocalFogSphereInstance_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

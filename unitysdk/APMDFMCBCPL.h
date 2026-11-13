@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchElationTimeSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define APMDFMCBCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA89A0)
-#define APMDFMCBCPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15BA8A10)
+#define APMDFMCBCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1850E6D0)
+#define APMDFMCBCPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1850E740)
 
-inline static constexpr unsigned int APMDFMCBCPL_TypeDefinitionIndex = 59189;
+inline static constexpr unsigned int APMDFMCBCPL_TypeDefinitionIndex = 60466;
 
 	class APMDFMCBCPL
 	{

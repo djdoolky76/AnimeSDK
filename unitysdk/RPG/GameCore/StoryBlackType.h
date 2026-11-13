@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryBlackType_TypeDefinitionIndex = 10468;
+	inline static constexpr unsigned int StoryBlackType_TypeDefinitionIndex = 10479;
 
 	enum class StoryBlackType : ::System::Int32
 	{

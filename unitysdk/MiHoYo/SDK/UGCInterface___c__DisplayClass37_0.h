@@ -6,13 +6,13 @@ namespace MiHoYo::SDK { class UGCInterface; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB05E500)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS37_0__POSTHTTPREQUESTTASK_B__0_OFFSET UNITYSDK_OFFSET(0xB061670)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS37_0__POSTHTTPREQUESTTASK_B__1_OFFSET UNITYSDK_OFFSET(0xB0619F0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3AEF0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS37_0__POSTHTTPREQUESTTASK_B__0_OFFSET UNITYSDK_OFFSET(0x1DD3DFE0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS37_0__POSTHTTPREQUESTTASK_B__1_OFFSET UNITYSDK_OFFSET(0x1DD3E360)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass37_0_TypeDefinitionIndex = 46444;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass37_0_TypeDefinitionIndex = 47472;
 
 	class UGCInterface___c__DisplayClass37_0 : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_TEAMMEMBERSLOTSPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xDC43D10)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSTATECONTROLLER_TEAMMEMBERSLOTSPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFDFE00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraArrangementStateController_TeamMemberSlotsProfile_TypeDefinitionIndex = 78490;
+	inline static constexpr unsigned int ChimeraArrangementStateController_TeamMemberSlotsProfile_TypeDefinitionIndex = 81225;
 
 	class ChimeraArrangementStateController_TeamMemberSlotsProfile : public ::System::Object
 	{

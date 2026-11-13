@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_IO_TEXTREADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C241820)
-#define SYSTEM_IO_TEXTREADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C241850)
-#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1C241860)
-#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_1_OFFSET UNITYSDK_OFFSET(0x1C241920)
+#define SYSTEM_IO_TEXTREADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDC3220)
+#define SYSTEM_IO_TEXTREADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC3250)
+#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1EDC3260)
+#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_1_OFFSET UNITYSDK_OFFSET(0x1EDC3320)
 
 namespace System::IO
 {
@@ -18,7 +18,7 @@ namespace System::IO
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x1AC40);
+			return (::System::Object**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x11BE0);
 		}
 
 		static ::System::Void _cctor()

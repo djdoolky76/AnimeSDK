@@ -6,23 +6,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define PDPIHJEBAEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C97B720)
-#define PDPIHJEBAEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C97B750)
-#define PDPIHJEBAEC___C__PROJECT_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C97B760)
+#define PDPIHJEBAEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1767D560)
+#define PDPIHJEBAEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1767D590)
+#define PDPIHJEBAEC___C__PROJECT_B__3_0_OFFSET UNITYSDK_OFFSET(0x1767D5A0)
 
-inline static constexpr unsigned int PDPIHJEBAEC___c_TypeDefinitionIndex = 43370;
+inline static constexpr unsigned int PDPIHJEBAEC___c_TypeDefinitionIndex = 44351;
 
 	class PDPIHJEBAEC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x593D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x587D0);
 		}
 
 		static ::System::Func_3<::UnityEngine::Vector3, ::KLNKLOMDIIC, ::System::Single>** StaticGet___9__3_0()
 		{
-			return (::System::Func_3<::UnityEngine::Vector3, ::KLNKLOMDIIC, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x593D8);
+			return (::System::Func_3<::UnityEngine::Vector3, ::KLNKLOMDIIC, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x587D8);
 		}
 
 		static ::System::Void _cctor()

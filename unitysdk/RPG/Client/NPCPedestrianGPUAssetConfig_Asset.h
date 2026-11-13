@@ -5,12 +5,12 @@ namespace RPG::Client { class IPedestrianMemberExternalConfig; }
 namespace RPG::Client { class NPCPedestrianGPUAssetConfig_WalkBakedData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_CTOR_OFFSET UNITYSDK_OFFSET(0xD9269B0)
-#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_PNJGKDFAACN_OFFSET UNITYSDK_OFFSET(0xD926970)
+#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CC920)
+#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_PNJGKDFAACN_OFFSET UNITYSDK_OFFSET(0x1C2CC8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig_Asset_TypeDefinitionIndex = 69239;
+	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig_Asset_TypeDefinitionIndex = 71193;
 
 	class NPCPedestrianGPUAssetConfig_Asset : public ::System::Object
 	{

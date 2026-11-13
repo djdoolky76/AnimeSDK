@@ -3,10 +3,10 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define PPCEOBNEDEH_CTOR_OFFSET UNITYSDK_OFFSET(0xC373560)
-#define PPCEOBNEDEH_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0xC3735D0)
+#define PPCEOBNEDEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B89FBE0)
+#define PPCEOBNEDEH_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1B89FC50)
 
-inline static constexpr unsigned int PPCEOBNEDEH_TypeDefinitionIndex = 50044;
+inline static constexpr unsigned int PPCEOBNEDEH_TypeDefinitionIndex = 51092;
 
 	class PPCEOBNEDEH : public ::System::Exception
 	{

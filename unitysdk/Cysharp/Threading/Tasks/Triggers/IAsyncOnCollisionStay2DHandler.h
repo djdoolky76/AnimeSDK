@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnCollisionStay2DHandler_TypeDefinitionIndex = 38538;
+	inline static constexpr unsigned int IAsyncOnCollisionStay2DHandler_TypeDefinitionIndex = 39467;
 
 	class IAsyncOnCollisionStay2DHandler
 	{

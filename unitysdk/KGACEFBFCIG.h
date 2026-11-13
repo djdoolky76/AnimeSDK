@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PropClosePuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KGACEFBFCIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C3C60)
-#define KGACEFBFCIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3C3E70)
-#define KGACEFBFCIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3C3C70)
-#define KGACEFBFCIG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3C3E20)
-#define KGACEFBFCIG_TICK_OFFSET UNITYSDK_OFFSET(0xB3C3EB0)
+#define KGACEFBFCIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1770CFD0)
+#define KGACEFBFCIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1770D1B0)
+#define KGACEFBFCIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1770CFE0)
+#define KGACEFBFCIG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1770D160)
+#define KGACEFBFCIG_TICK_OFFSET UNITYSDK_OFFSET(0x1770D1F0)
 
-inline static constexpr unsigned int KGACEFBFCIG_TypeDefinitionIndex = 58304;
+inline static constexpr unsigned int KGACEFBFCIG_TypeDefinitionIndex = 59560;
 
 	class KGACEFBFCIG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::PropClosePuzzle* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::PropClosePuzzle* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropClosePuzzle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropClosePuzzle*))((::PBYTE)hIl2Cpp + KGACEFBFCIG_CTOR_OFFSET))(this, a1, a2);

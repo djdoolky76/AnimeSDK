@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_OverseaAccountLoginElements_TypeDefinitionIndex = 46852;
+	inline static constexpr unsigned int UIConstants_OverseaAccountLoginElements_TypeDefinitionIndex = 47880;
 
 	class UIConstants_OverseaAccountLoginElements : public ::System::Object
 	{

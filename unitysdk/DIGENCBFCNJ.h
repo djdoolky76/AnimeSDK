@@ -6,26 +6,26 @@ namespace RPG::GameCore { class PlayMusicRhythmTimeline; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define DIGENCBFCNJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xEBF02D0)
-#define DIGENCBFCNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xEBEFE20)
-#define DIGENCBFCNJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEBEFE30)
-#define DIGENCBFCNJ_FHOBEDMEJAN_OFFSET UNITYSDK_OFFSET(0xEBF0070)
-#define DIGENCBFCNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBEFE70)
-#define DIGENCBFCNJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBF0100)
-#define DIGENCBFCNJ_TICK_OFFSET UNITYSDK_OFFSET(0xEBF0150)
+#define DIGENCBFCNJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x18EB8270)
+#define DIGENCBFCNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18EB7DC0)
+#define DIGENCBFCNJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18EB7DD0)
+#define DIGENCBFCNJ_FHOBEDMEJAN_OFFSET UNITYSDK_OFFSET(0x18EB8010)
+#define DIGENCBFCNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18EB7E10)
+#define DIGENCBFCNJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18EB80A0)
+#define DIGENCBFCNJ_TICK_OFFSET UNITYSDK_OFFSET(0x18EB80F0)
 
-inline static constexpr unsigned int DIGENCBFCNJ_TypeDefinitionIndex = 53099;
+inline static constexpr unsigned int DIGENCBFCNJ_TypeDefinitionIndex = 54260;
 
 	class DIGENCBFCNJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::MusicRhythmBoard* MNBHJEELNBA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
-		::RPG::GameCore::PlayMusicRhythmTimeline* IGHAHBNLIJA; // 0x28
+		::RPG::GameCore::PlayMusicRhythmTimeline* IGHAHBNLIJA; // 0x18
+		::RPG::Client::MusicRhythmBoard* MNBHJEELNBA; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
 		::System::Boolean HANAHDNCPJM; // 0x30
 		static ::System::String** StaticGet_IMOALFMKIHP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "DIGENCBFCNJ")->GetStaticField(0x4EC90);
+			return (::System::String**)UnitySDK::FromName("", "DIGENCBFCNJ")->GetStaticField(0x68980);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlayMusicRhythmTimeline* a2)

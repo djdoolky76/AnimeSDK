@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCAeonCrossRow; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONCROSSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D986E10)
-#define RPG_GAMECORE_ROGUEDLCAEONCROSSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D986C20)
+#define RPG_GAMECORE_ROGUEDLCAEONCROSSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F56CB50)
+#define RPG_GAMECORE_ROGUEDLCAEONCROSSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F56C960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonCrossRow_TypeDefinitionIndex = 14739;
+	inline static constexpr unsigned int RogueDLCAeonCrossRow_TypeDefinitionIndex = 14895;
 
 	class RogueDLCAeonCrossRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BuffGroup; // 0x10
+		::System::UInt32 MainAeonID; // 0x10
 		::System::UInt32 MainAeonNum; // 0x14
-		::System::UInt32 MainAeonID; // 0x18
+		::System::UInt32 BuffGroup; // 0x18
 		::System::UInt32 SubAeonNum; // 0x1C
 		::System::UInt32 SubAeonID; // 0x20
 		::System::Void _ctor()

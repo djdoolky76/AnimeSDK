@@ -9,25 +9,25 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PuzzleBoxmanInBoard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLIIMJGHCBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB769610)
-#define LLIIMJGHCBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7698B0)
-#define LLIIMJGHCBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB769810)
-#define LLIIMJGHCBN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB769860)
-#define LLIIMJGHCBN_TICK_OFFSET UNITYSDK_OFFSET(0xB769A10)
+#define LLIIMJGHCBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB8EA0)
+#define LLIIMJGHCBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AFB9140)
+#define LLIIMJGHCBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AFB90A0)
+#define LLIIMJGHCBN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AFB90F0)
+#define LLIIMJGHCBN_TICK_OFFSET UNITYSDK_OFFSET(0x1AFB92A0)
 
-inline static constexpr unsigned int LLIIMJGHCBN_TypeDefinitionIndex = 58368;
+inline static constexpr unsigned int LLIIMJGHCBN_TypeDefinitionIndex = 59624;
 
 	class LLIIMJGHCBN : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* BHENBGMFOLJ; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
-		::RPG::GameCore::PuzzleBoxmanInBoard* IGHAHBNLIJA; // 0x28
+		::KFELGAIGHAP* GBEAGJJBPAN; // 0x18
+		::RPG::Client::Prop::BoxmanPuzzleBoard* CCAHGFIABKE; // 0x20
+		::RPG::GameCore::PropComponent* ALMDGNBNPLB; // 0x28
 		::KDJNAAOFMMJ* KLOAHJPKECK; // 0x30
-		::RPG::Client::Prop::BoxmanPuzzleBoard* CCAHGFIABKE; // 0x38
-		::RPG::GameCore::PropComponent* ALMDGNBNPLB; // 0x40
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x38
+		::RPG::GameCore::PuzzleBoxmanInBoard* IGHAHBNLIJA; // 0x40
 		::KDJNAAOFMMJ* EEMAFOMJMEB; // 0x48
-		::KFELGAIGHAP* GBEAGJJBPAN; // 0x50
+		::KFELGAIGHAP* BHENBGMFOLJ; // 0x50
 		::RPG::Client::Prop::BoxmanPuzzlePlayerInBoardState OHOMIFJPGFE; // 0x58
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PuzzleBoxmanInBoard* a2)
 		{

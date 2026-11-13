@@ -3,11 +3,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD264F0)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x17BE7820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_TypeDefinitionIndex = 70484;
+	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_TypeDefinitionIndex = 72459;
 
 	class Effect_GPUParticleShapeEmitterMonoPlugin
 	{

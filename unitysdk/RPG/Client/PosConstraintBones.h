@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_POSCONSTRAINTBONES_CTOR_OFFSET UNITYSDK_OFFSET(0xDBFCCA0)
+#define RPG_CLIENT_POSCONSTRAINTBONES_CTOR_OFFSET UNITYSDK_OFFSET(0x19BE04F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PosConstraintBones_TypeDefinitionIndex = 70243;
+	inline static constexpr unsigned int PosConstraintBones_TypeDefinitionIndex = 72209;
 
 	class PosConstraintBones : public ::System::Object
 	{

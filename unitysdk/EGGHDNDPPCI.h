@@ -6,10 +6,10 @@ class HIOAMIPNLIN;
 namespace RPG::GameCore { class SetModifierDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGGHDNDPPCI_CTOR_OFFSET UNITYSDK_OFFSET(0x14514DA0)
-#define EGGHDNDPPCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14514DD0)
+#define EGGHDNDPPCI_CTOR_OFFSET UNITYSDK_OFFSET(0x17C10430)
+#define EGGHDNDPPCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17C10460)
 
-inline static constexpr unsigned int EGGHDNDPPCI_TypeDefinitionIndex = 55534;
+inline static constexpr unsigned int EGGHDNDPPCI_TypeDefinitionIndex = 56726;
 
 	class EGGHDNDPPCI
 	{

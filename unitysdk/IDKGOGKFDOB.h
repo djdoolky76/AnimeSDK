@@ -5,9 +5,9 @@ namespace RPG::Client::ChenLingBattle { class Soldier; }
 namespace RPG::Client::ChenLingBattle { class SoldierPropertyChangeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IDKGOGKFDOB_CTOR_OFFSET UNITYSDK_OFFSET(0x15ECD970)
+#define IDKGOGKFDOB_CTOR_OFFSET UNITYSDK_OFFSET(0x17791520)
 
-inline static constexpr unsigned int IDKGOGKFDOB_TypeDefinitionIndex = 76383;
+inline static constexpr unsigned int IDKGOGKFDOB_TypeDefinitionIndex = 78714;
 
 	class IDKGOGKFDOB : public ::System::Object
 	{

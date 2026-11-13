@@ -11,52 +11,52 @@ namespace AK::Wwise { class Event; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENTPLAYABLEBEHAVIOR_CALLBACKHANDLER_OFFSET UNITYSDK_OFFSET(0x1F562EC0)
-#define AKEVENTPLAYABLEBEHAVIOR_CHECKFORFADEINFADEOUT_OFFSET UNITYSDK_OFFSET(0x1F563520)
-#define AKEVENTPLAYABLEBEHAVIOR_CHECKFORFADEOUT_OFFSET UNITYSDK_OFFSET(0x1F563680)
-#define AKEVENTPLAYABLEBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F564320)
-#define AKEVENTPLAYABLEBEHAVIOR_GETPROPORTIONALTIME_OFFSET UNITYSDK_OFFSET(0x1F563930)
-#define AKEVENTPLAYABLEBEHAVIOR_ISSCRUBBING_OFFSET UNITYSDK_OFFSET(0x1F563030)
-#define AKEVENTPLAYABLEBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1F563A90)
-#define AKEVENTPLAYABLEBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F563740)
-#define AKEVENTPLAYABLEBEHAVIOR_PLAYEVENT_OFFSET UNITYSDK_OFFSET(0x1F563E40)
-#define AKEVENTPLAYABLEBEHAVIOR_POSTEVENT_OFFSET UNITYSDK_OFFSET(0x1F564230)
-#define AKEVENTPLAYABLEBEHAVIOR_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1F5630A0)
-#define AKEVENTPLAYABLEBEHAVIOR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F563BF0)
-#define AKEVENTPLAYABLEBEHAVIOR_RETRIGGEREVENT_OFFSET UNITYSDK_OFFSET(0x1F563F60)
-#define AKEVENTPLAYABLEBEHAVIOR_SEEKTOTIME_OFFSET UNITYSDK_OFFSET(0x1F563EA0)
-#define AKEVENTPLAYABLEBEHAVIOR_SHOULDPLAY_OFFSET UNITYSDK_OFFSET(0x1F5633A0)
-#define AKEVENTPLAYABLEBEHAVIOR_STOPEVENT_OFFSET UNITYSDK_OFFSET(0x1F563B80)
-#define AKEVENTPLAYABLEBEHAVIOR_TRIGGERFADEIN_OFFSET UNITYSDK_OFFSET(0x1F564020)
-#define AKEVENTPLAYABLEBEHAVIOR_TRIGGERFADEOUT_OFFSET UNITYSDK_OFFSET(0x1F564130)
+#define AKEVENTPLAYABLEBEHAVIOR_CALLBACKHANDLER_OFFSET UNITYSDK_OFFSET(0x1EF11700)
+#define AKEVENTPLAYABLEBEHAVIOR_CHECKFORFADEINFADEOUT_OFFSET UNITYSDK_OFFSET(0x1EF11D60)
+#define AKEVENTPLAYABLEBEHAVIOR_CHECKFORFADEOUT_OFFSET UNITYSDK_OFFSET(0x1EF11EC0)
+#define AKEVENTPLAYABLEBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF12B60)
+#define AKEVENTPLAYABLEBEHAVIOR_GETPROPORTIONALTIME_OFFSET UNITYSDK_OFFSET(0x1EF12170)
+#define AKEVENTPLAYABLEBEHAVIOR_ISSCRUBBING_OFFSET UNITYSDK_OFFSET(0x1EF11870)
+#define AKEVENTPLAYABLEBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1EF122D0)
+#define AKEVENTPLAYABLEBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1EF11F80)
+#define AKEVENTPLAYABLEBEHAVIOR_PLAYEVENT_OFFSET UNITYSDK_OFFSET(0x1EF12680)
+#define AKEVENTPLAYABLEBEHAVIOR_POSTEVENT_OFFSET UNITYSDK_OFFSET(0x1EF12A70)
+#define AKEVENTPLAYABLEBEHAVIOR_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1EF118E0)
+#define AKEVENTPLAYABLEBEHAVIOR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1EF12430)
+#define AKEVENTPLAYABLEBEHAVIOR_RETRIGGEREVENT_OFFSET UNITYSDK_OFFSET(0x1EF127A0)
+#define AKEVENTPLAYABLEBEHAVIOR_SEEKTOTIME_OFFSET UNITYSDK_OFFSET(0x1EF126E0)
+#define AKEVENTPLAYABLEBEHAVIOR_SHOULDPLAY_OFFSET UNITYSDK_OFFSET(0x1EF11BE0)
+#define AKEVENTPLAYABLEBEHAVIOR_STOPEVENT_OFFSET UNITYSDK_OFFSET(0x1EF123C0)
+#define AKEVENTPLAYABLEBEHAVIOR_TRIGGERFADEIN_OFFSET UNITYSDK_OFFSET(0x1EF12860)
+#define AKEVENTPLAYABLEBEHAVIOR_TRIGGERFADEOUT_OFFSET UNITYSDK_OFFSET(0x1EF12970)
 
-inline static constexpr unsigned int AkEventPlayableBehavior_TypeDefinitionIndex = 44926;
+inline static constexpr unsigned int AkEventPlayableBehavior_TypeDefinitionIndex = 46001;
 
 	class AkEventPlayableBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::UnityEngine::GameObject* eventObject; // 0x10
-		::AK::Wwise::Event* akEvent; // 0x18
-		::AkEventPlayableBehavior_Actions requiredActions; // 0x20
-		::System::Boolean retriggerEvent; // 0x24
-		::System::Boolean overrideTrackEmitterObject; // 0x25
-		::System::Boolean StopEventAtClipEnd; // 0x26
-		::System::Boolean wasScrubbingAndRequiresRetrigger; // 0x27
-		::AkCurveInterpolation blendOutCurve; // 0x28
-		::System::Single currentDurationProportion; // 0x2C
-		::System::Single previousEventStartTime; // 0x30
-		::System::Single eventDurationMax; // 0x34
-		::System::Single easeInDuration; // 0x38
-		::System::Single easeOutDuration; // 0x3C
-		::System::Boolean eventIsPlaying; // 0x40
-		::System::Boolean fadeoutTriggered; // 0x41
-		::System::Boolean fadeinTriggered; // 0x42
+		::AK::Wwise::Event* akEvent; // 0x10
+		::UnityEngine::GameObject* eventObject; // 0x18
+		::System::Single eventDurationMax; // 0x20
+		::System::Single currentDuration; // 0x24
+		::System::Single previousEventStartTime; // 0x28
+		::AkEventPlayableBehavior_Actions requiredActions; // 0x2C
+		::System::Single easeOutDuration; // 0x30
+		::System::Single eventDurationMin; // 0x34
+		::AkCurveInterpolation blendOutCurve; // 0x38
+		::System::Single blendOutDuration; // 0x3C
+		::System::Single blendInDuration; // 0x40
+		::System::Boolean StopEventAtClipEnd; // 0x44
+		::System::Boolean fadeinTriggered; // 0x45
+		::System::Boolean overrideTrackEmitterObject; // 0x46
 		::System::Byte _padding0[0x1];
-		::System::Single currentDuration; // 0x44
-		::System::Single blendOutDuration; // 0x48
-		::System::Single blendInDuration; // 0x4C
+		::System::Single currentDurationProportion; // 0x48
+		::System::Boolean retriggerEvent; // 0x4C
+		::System::Boolean wasScrubbingAndRequiresRetrigger; // 0x4D
+		::System::Boolean eventIsPlaying; // 0x4E
+		::System::Boolean fadeoutTriggered; // 0x4F
 		::AkCurveInterpolation blendInCurve; // 0x50
-		::System::Single eventDurationMin; // 0x54
+		::System::Single easeInDuration; // 0x54
 		// static const ::System::Object CallbackFlags; // 0x0
 		// static const ::System::Object scrubPlaybackLengthMs; // 0x0
 		// static const ::System::Object alph; // 0x0

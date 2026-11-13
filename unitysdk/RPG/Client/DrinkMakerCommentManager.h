@@ -7,32 +7,32 @@ namespace RPG::GameCore { class DrinkMakerGuestCommentRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xCCE8130)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER_GETRANDOMCOMMENTS_OFFSET UNITYSDK_OFFSET(0xCCE8140)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__CHECKHUEINTERVAL_OFFSET UNITYSDK_OFFSET(0xCCE9E40)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__CHECKINGREDIENTTYPECOUNT_OFFSET UNITYSDK_OFFSET(0xCCE9C30)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__CHECKTAGCOMBINATION_OFFSET UNITYSDK_OFFSET(0xCCE9B10)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__GETALLTRIGGEREDCOMMENTS_OFFSET UNITYSDK_OFFSET(0xCCE93F0)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__GETRANDOMFAILCOMMENT_OFFSET UNITYSDK_OFFSET(0xCCE89B0)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__GETRANDOMSUCCESSCOMMENT_OFFSET UNITYSDK_OFFSET(0xCCE8AC0)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__INIT_OFFSET UNITYSDK_OFFSET(0xCCE81F0)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__RANDOMSELECTIONBYWEIGHT_OFFSET UNITYSDK_OFFSET(0xCCE8E00)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA71190)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER_GETRANDOMCOMMENTS_OFFSET UNITYSDK_OFFSET(0x1DA711A0)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__CHECKHUEINTERVAL_OFFSET UNITYSDK_OFFSET(0x1DA72E70)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__CHECKINGREDIENTTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x1DA72C90)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__CHECKTAGCOMBINATION_OFFSET UNITYSDK_OFFSET(0x1DA72B70)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__GETALLTRIGGEREDCOMMENTS_OFFSET UNITYSDK_OFFSET(0x1DA72450)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__GETRANDOMFAILCOMMENT_OFFSET UNITYSDK_OFFSET(0x1DA71A10)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__GETRANDOMSUCCESSCOMMENT_OFFSET UNITYSDK_OFFSET(0x1DA71B20)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__INIT_OFFSET UNITYSDK_OFFSET(0x1DA71250)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER__RANDOMSELECTIONBYWEIGHT_OFFSET UNITYSDK_OFFSET(0x1DA71E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerCommentManager_TypeDefinitionIndex = 63633;
+	inline static constexpr unsigned int DrinkMakerCommentManager_TypeDefinitionIndex = 65075;
 
 	class DrinkMakerCommentManager : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::DrinkMakerGuestCommentRow*>*>* _SatisfyCommentDict; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::DrinkMakerGuestCommentRow*>*>* _UnsatisyCommentDict; // 0x18
-		::System::UInt32 _RequestCommentSelectCount; // 0x20
-		::System::Single _ValueThreashold; // 0x24
-		::System::Single _SaturationThreashold; // 0x28
-		::System::Boolean _IsInited; // 0x2C
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::DrinkMakerGuestCommentRow*>*>* _UnsatisyCommentDict; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::DrinkMakerGuestCommentRow*>*>* _SatisfyCommentDict; // 0x18
+		::System::Boolean _IsInited; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::UInt32 _CommentSelectCount; // 0x30
+		::System::Single _ValueThreashold; // 0x24
+		::System::UInt32 _CommentSelectCount; // 0x28
+		::System::UInt32 _RequestCommentSelectCount; // 0x2C
+		::System::Single _SaturationThreashold; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCOMMENTMANAGER_CTOR_OFFSET))(this);

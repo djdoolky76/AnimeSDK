@@ -4,18 +4,18 @@
 class ABPLALCHNFA;
 namespace System { class Object; }
 
-#define ABPLALCHNFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDA6F60)
-#define ABPLALCHNFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA6FA0)
-#define ABPLALCHNFA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DDA6FB0)
+#define ABPLALCHNFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2008F490)
+#define ABPLALCHNFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2008F4D0)
+#define ABPLALCHNFA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2008F4E0)
 
-inline static constexpr unsigned int ABPLALCHNFA___c_TypeDefinitionIndex = 29394;
+inline static constexpr unsigned int ABPLALCHNFA___c_TypeDefinitionIndex = 30110;
 
 	class ABPLALCHNFA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31CA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37700);
 		}
 
 		static ::System::Void _cctor()

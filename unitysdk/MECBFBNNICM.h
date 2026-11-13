@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MECBFBNNICM_BDGELOGOIKA_OFFSET UNITYSDK_OFFSET(0xB8B4910)
-#define MECBFBNNICM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B4750)
-#define MECBFBNNICM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB8B4800)
-#define MECBFBNNICM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB8B4890)
+#define MECBFBNNICM_BDGELOGOIKA_OFFSET UNITYSDK_OFFSET(0x183F6520)
+#define MECBFBNNICM_CTOR_OFFSET UNITYSDK_OFFSET(0x183F6360)
+#define MECBFBNNICM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x183F6410)
+#define MECBFBNNICM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x183F64A0)
 
-inline static constexpr unsigned int MECBFBNNICM_TypeDefinitionIndex = 67051;
+inline static constexpr unsigned int MECBFBNNICM_TypeDefinitionIndex = 68995;
 
 	class MECBFBNNICM : public ::System::Object
 	{

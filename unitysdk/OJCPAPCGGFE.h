@@ -6,22 +6,22 @@ class OJCPAPCGGFE;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define OJCPAPCGGFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D25B260)
-#define OJCPAPCGGFE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D25B270)
-#define OJCPAPCGGFE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D25B230)
+#define OJCPAPCGGFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA019C0)
+#define OJCPAPCGGFE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA019D0)
+#define OJCPAPCGGFE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA01990)
 
-inline static constexpr unsigned int OJCPAPCGGFE_TypeDefinitionIndex = 21440;
+inline static constexpr unsigned int OJCPAPCGGFE_TypeDefinitionIndex = 21783;
 
 	class OJCPAPCGGFE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicString* ODMPMJCAHPN; // 0x18
 		::Il2CppArray<::System::String*>* MMMJJJOGBBI; // 0x20
-		::System::Boolean IJJCPANIEPG; // 0x28
-		::System::Boolean NANMKBGJCEB; // 0x29
+		::System::Boolean NANMKBGJCEB; // 0x28
+		::System::Boolean FMLMJLMDBPF; // 0x29
 		::System::Boolean GEOPPFCKACN; // 0x2A
 		::System::Boolean DLHKHJGAAKN; // 0x2B
-		::System::Boolean FMLMJLMDBPF; // 0x2C
+		::System::Boolean IJJCPANIEPG; // 0x2C
 		::System::Byte _padding0[0x3];
 		::System::Single IKIOEBEGLJE; // 0x30
 		::System::Void _ctor()

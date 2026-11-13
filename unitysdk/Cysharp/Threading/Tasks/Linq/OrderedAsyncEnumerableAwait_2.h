@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int OrderedAsyncEnumerableAwait_2_TypeDefinitionIndex = 45530;
+	inline static constexpr unsigned int OrderedAsyncEnumerableAwait_2_TypeDefinitionIndex = 46559;
 
 	template <typename T1, typename T2>
 	class OrderedAsyncEnumerableAwait_2

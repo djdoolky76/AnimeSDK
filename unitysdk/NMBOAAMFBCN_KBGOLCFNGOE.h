@@ -3,7 +3,7 @@
 namespace RPG::GameCore { class LevelLittleGameInfo; }
 namespace System { class String; }
 
-inline static constexpr unsigned int NMBOAAMFBCN_KBGOLCFNGOE_TypeDefinitionIndex = 60599;
+inline static constexpr unsigned int NMBOAAMFBCN_KBGOLCFNGOE_TypeDefinitionIndex = 61976;
 
 	struct alignas(8) NMBOAAMFBCN_KBGOLCFNGOE
 	{

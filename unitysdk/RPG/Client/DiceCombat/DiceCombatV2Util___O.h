@@ -7,14 +7,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2Util___O_TypeDefinitionIndex = 76177;
+	inline static constexpr unsigned int DiceCombatV2Util___O_TypeDefinitionIndex = 78504;
 
 	class DiceCombatV2Util___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::LPGJPLMHKFL*, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*>** StaticGet__0___Create()
 		{
-			return (::System::Func_2<::LPGJPLMHKFL*, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>O")->GetStaticField(0x24200);
+			return (::System::Func_2<::LPGJPLMHKFL*, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>O")->GetStaticField(0x2D2A0);
 		}
 
 	};

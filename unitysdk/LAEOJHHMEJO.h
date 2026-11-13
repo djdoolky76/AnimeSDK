@@ -7,20 +7,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LAEOJHHMEJO_COMPARE_OFFSET UNITYSDK_OFFSET(0xB5D6750)
-#define LAEOJHHMEJO_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D6710)
-#define LAEOJHHMEJO_IKJFCHCHHNH_OFFSET UNITYSDK_OFFSET(0xB5D6A10)
-#define LAEOJHHMEJO_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xB5D6BC0)
-#define LAEOJHHMEJO_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB5D6CA0)
+#define LAEOJHHMEJO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1B27A690)
+#define LAEOJHHMEJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B27A650)
+#define LAEOJHHMEJO_IKJFCHCHHNH_OFFSET UNITYSDK_OFFSET(0x1B27A950)
+#define LAEOJHHMEJO_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0x1B27AB10)
+#define LAEOJHHMEJO_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B27ABF0)
 
-inline static constexpr unsigned int LAEOJHHMEJO_TypeDefinitionIndex = 59167;
+inline static constexpr unsigned int LAEOJHHMEJO_TypeDefinitionIndex = 60444;
 
 	class LAEOJHHMEJO
 	{
 	public:
-		::RPG::GameCore::JsonEnum* AALGBNBLDFG; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Int32>* HNGJMPDONDF; // 0x20
-		::System::Int32 OOHLBFDJMBJ; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Int32>* HNGJMPDONDF; // 0x18
+		::RPG::GameCore::JsonEnum* AALGBNBLDFG; // 0x20
+		::System::Boolean NECCFJNAMFL; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::Int32 OOHLBFDJMBJ; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TargetSortByElationPriority* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetSortByElationPriority*))((::PBYTE)hIl2Cpp + LAEOJHHMEJO_CTOR_OFFSET))(this, a1);

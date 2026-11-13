@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_ENVSOLARDEBUGOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xCDEC5E0)
+#define RPG_CLIENT_ENVSOLARDEBUGOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6D9690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvSolarDebugObject_TypeDefinitionIndex = 69788;
+	inline static constexpr unsigned int EnvSolarDebugObject_TypeDefinitionIndex = 71747;
 
 	class EnvSolarDebugObject : public ::UnityEngine::MonoBehaviour
 	{

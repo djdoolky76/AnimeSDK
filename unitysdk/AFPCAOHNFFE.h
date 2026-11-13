@@ -3,10 +3,10 @@
 class NJACMDCJMBH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AFPCAOHNFFE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF192C0)
-#define AFPCAOHNFFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF192F0)
+#define AFPCAOHNFFE_CTOR_OFFSET UNITYSDK_OFFSET(0x18DC71B0)
+#define AFPCAOHNFFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DC71E0)
 
-inline static constexpr unsigned int AFPCAOHNFFE_TypeDefinitionIndex = 52867;
+inline static constexpr unsigned int AFPCAOHNFFE_TypeDefinitionIndex = 54023;
 
 	class AFPCAOHNFFE
 	{

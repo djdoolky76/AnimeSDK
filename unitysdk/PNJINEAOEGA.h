@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ActionCountDownPreview; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PNJINEAOEGA_CTOR_OFFSET UNITYSDK_OFFSET(0xC332D60)
-#define PNJINEAOEGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC332D90)
+#define PNJINEAOEGA_CTOR_OFFSET UNITYSDK_OFFSET(0x184B17A0)
+#define PNJINEAOEGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184B17D0)
 
-inline static constexpr unsigned int PNJINEAOEGA_TypeDefinitionIndex = 54797;
+inline static constexpr unsigned int PNJINEAOEGA_TypeDefinitionIndex = 55966;
 
 	class PNJINEAOEGA
 	{

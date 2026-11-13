@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsBodyPartOwner; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JNAAFPFHLCO_CTOR_OFFSET UNITYSDK_OFFSET(0xB26DFD0)
-#define JNAAFPFHLCO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB26E000)
+#define JNAAFPFHLCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BCC40)
+#define JNAAFPFHLCO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A0BCC70)
 
-inline static constexpr unsigned int JNAAFPFHLCO_TypeDefinitionIndex = 54637;
+inline static constexpr unsigned int JNAAFPFHLCO_TypeDefinitionIndex = 55803;
 
 	class JNAAFPFHLCO
 	{

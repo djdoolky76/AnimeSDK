@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFluteEffectType_TypeDefinitionIndex = 14115;
+	inline static constexpr unsigned int FiveDimFluteEffectType_TypeDefinitionIndex = 14272;
 
 	enum class FiveDimFluteEffectType : ::System::Int32
 	{

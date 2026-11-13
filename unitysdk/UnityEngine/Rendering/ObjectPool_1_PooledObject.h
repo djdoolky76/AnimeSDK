@@ -4,7 +4,7 @@ namespace UnityEngine::Rendering { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ObjectPool_1_PooledObject_TypeDefinitionIndex = 35490;
+	inline static constexpr unsigned int ObjectPool_1_PooledObject_TypeDefinitionIndex = 36418;
 
 	template <typename T>
 	struct alignas(8) ObjectPool_1_PooledObject

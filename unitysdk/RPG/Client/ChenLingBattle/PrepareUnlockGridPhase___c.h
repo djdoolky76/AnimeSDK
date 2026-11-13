@@ -5,25 +5,25 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA526E0)
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA52720)
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__REQUESTUNLOCKGRID_B__3_0_OFFSET UNITYSDK_OFFSET(0xCA52730)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7DE680)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DE6C0)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__REQUESTUNLOCKGRID_B__3_0_OFFSET UNITYSDK_OFFSET(0x1D7DE6D0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PrepareUnlockGridPhase___c_TypeDefinitionIndex = 76309;
+	inline static constexpr unsigned int PrepareUnlockGridPhase___c_TypeDefinitionIndex = 78640;
 
 	class PrepareUnlockGridPhase___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6F0D0);
-		}
-
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__3_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6F0D8);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x72020);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x72028);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingEffectCompType_TypeDefinitionIndex = 12416;
+	inline static constexpr unsigned int SwordTrainingEffectCompType_TypeDefinitionIndex = 12483;
 
 	enum class SwordTrainingEffectCompType : ::System::Int32
 	{

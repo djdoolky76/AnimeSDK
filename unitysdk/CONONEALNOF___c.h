@@ -4,18 +4,18 @@
 class CONONEALNOF;
 namespace System { class Object; }
 
-#define CONONEALNOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E10AC10)
-#define CONONEALNOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E10AC50)
-#define CONONEALNOF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E10AC60)
+#define CONONEALNOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204E1430)
+#define CONONEALNOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204E1470)
+#define CONONEALNOF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x204E1480)
 
-inline static constexpr unsigned int CONONEALNOF___c_TypeDefinitionIndex = 29187;
+inline static constexpr unsigned int CONONEALNOF___c_TypeDefinitionIndex = 29831;
 
 	class CONONEALNOF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E8D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17F50);
 		}
 
 		static ::System::Void _cctor()

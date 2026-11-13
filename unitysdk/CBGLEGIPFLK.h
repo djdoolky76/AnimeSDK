@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CBGLEGIPFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBCCE80)
-#define CBGLEGIPFLK_ODBILIAKBFD_OFFSET UNITYSDK_OFFSET(0x1EBCCC60)
+#define CBGLEGIPFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD9140)
+#define CBGLEGIPFLK_ODBILIAKBFD_OFFSET UNITYSDK_OFFSET(0x1CAD8F20)
 
-inline static constexpr unsigned int CBGLEGIPFLK_TypeDefinitionIndex = 35172;
+inline static constexpr unsigned int CBGLEGIPFLK_TypeDefinitionIndex = 36100;
 
 	class CBGLEGIPFLK : public ::System::Object
 	{

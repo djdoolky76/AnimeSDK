@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightTraitElationTemplateConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITELATIONTEMPLATECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D719D70)
-#define RPG_GAMECORE_GRIDFIGHTTRAITELATIONTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D719B40)
+#define RPG_GAMECORE_GRIDFIGHTTRAITELATIONTEMPLATECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA686A0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITELATIONTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA68470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitElationTemplateConfigRow_TypeDefinitionIndex = 13705;
+	inline static constexpr unsigned int GridFightTraitElationTemplateConfigRow_TypeDefinitionIndex = 13832;
 
 	class GridFightTraitElationTemplateConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PreEquipList; // 0x10
-		::Il2CppArray<::System::UInt32>* FirstRecommendEquipList; // 0x18
-		::Il2CppArray<::System::UInt32>* SecondRecommendEquipList; // 0x20
+		::Il2CppArray<::System::UInt32>* FirstRecommendEquipList; // 0x10
+		::Il2CppArray<::System::UInt32>* SecondRecommendEquipList; // 0x18
+		::Il2CppArray<::System::UInt32>* PreEquipList; // 0x20
 		::System::UInt32 ID; // 0x28
 		::System::UInt32 Weight; // 0x2C
 		::System::Void _ctor()

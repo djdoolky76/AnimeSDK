@@ -4,17 +4,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OMNHCBOKFMN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF2D3C0)
-#define OMNHCBOKFMN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF2D3B0)
+#define OMNHCBOKFMN_CCTOR_OFFSET UNITYSDK_OFFSET(0x17D5BFA0)
+#define OMNHCBOKFMN_CTOR_OFFSET UNITYSDK_OFFSET(0x17D5BF90)
 
-inline static constexpr unsigned int OMNHCBOKFMN_TypeDefinitionIndex = 73772;
+inline static constexpr unsigned int OMNHCBOKFMN_TypeDefinitionIndex = 75896;
 
 	class OMNHCBOKFMN : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_JNACBACPDEM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("", "OMNHCBOKFMN")->GetStaticField(0xD640);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("", "OMNHCBOKFMN")->GetStaticField(0x66820);
 		}
 
 		// static const ::System::Object NLCDGIPGFDJ; // 0x0

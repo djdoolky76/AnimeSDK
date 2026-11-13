@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xE9212E0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF9240)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0x1C76C210)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3EEFA70)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int TransitionParameter_TypeDefinitionIndex = 48624;
+	inline static constexpr unsigned int TransitionParameter_TypeDefinitionIndex = 49665;
 
 	struct alignas(4) TransitionParameter
 	{

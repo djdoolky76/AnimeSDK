@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HPBar_ColorAnimState_TypeDefinitionIndex = 72539;
+	inline static constexpr unsigned int HPBar_ColorAnimState_TypeDefinitionIndex = 74618;
 
 	struct alignas(4) HPBar_ColorAnimState
 	{

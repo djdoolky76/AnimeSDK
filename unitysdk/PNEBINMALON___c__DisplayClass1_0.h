@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class ItemCost; }
 
-#define PNEBINMALON___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC32D360)
-#define PNEBINMALON___C__DISPLAYCLASS1_0__ADDCOSTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xC32D6C0)
+#define PNEBINMALON___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x184ABA40)
+#define PNEBINMALON___C__DISPLAYCLASS1_0__ADDCOSTITEM_B__0_OFFSET UNITYSDK_OFFSET(0x184ABDA0)
 
-inline static constexpr unsigned int PNEBINMALON___c__DisplayClass1_0_TypeDefinitionIndex = 65701;
+inline static constexpr unsigned int PNEBINMALON___c__DisplayClass1_0_TypeDefinitionIndex = 67627;
 
 	class PNEBINMALON___c__DisplayClass1_0 : public ::System::Object
 	{

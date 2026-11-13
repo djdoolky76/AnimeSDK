@@ -3,7 +3,7 @@
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Option_8C0E13CE6C7FAB03_TypeDefinitionIndex = 7123;
+	inline static constexpr unsigned int Option_8C0E13CE6C7FAB03_TypeDefinitionIndex = 7134;
 
 	enum class Option_8C0E13CE6C7FAB03 : ::System::Int32
 	{

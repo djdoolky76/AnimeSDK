@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class LIDHGFLAJMF;
 
-#define BODHKELBMKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88F810)
+#define BODHKELBMKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B9FE0)
 
-inline static constexpr unsigned int BODHKELBMKA_TypeDefinitionIndex = 43227;
+inline static constexpr unsigned int BODHKELBMKA_TypeDefinitionIndex = 44208;
 
 	class BODHKELBMKA : public ::System::Object
 	{

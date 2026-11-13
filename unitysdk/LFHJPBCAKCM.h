@@ -4,11 +4,11 @@ class NMFCOFBDPKK;
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LFHJPBCAKCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB6670F0)
-#define LFHJPBCAKCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB667120)
-#define LFHJPBCAKCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB667160)
+#define LFHJPBCAKCM_CTOR_OFFSET UNITYSDK_OFFSET(0x18C4CBD0)
+#define LFHJPBCAKCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C4CC00)
+#define LFHJPBCAKCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C4CC40)
 
-inline static constexpr unsigned int LFHJPBCAKCM_TypeDefinitionIndex = 53820;
+inline static constexpr unsigned int LFHJPBCAKCM_TypeDefinitionIndex = 54984;
 
 	class LFHJPBCAKCM
 	{

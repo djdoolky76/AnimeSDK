@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PIHNINOCKCM_TypeDefinitionIndex = 26482;
+inline static constexpr unsigned int PIHNINOCKCM_TypeDefinitionIndex = 27013;
 
 	enum class PIHNINOCKCM : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		HENBLPKEDJM = 10113,
-		MFHOPJIHAFK = 10110,
-		NHFHKPFMPJM = 10117,
-		PNNJDENCDEI = 10116,
-		IELOCLHBKIC = 10108,
-		HPKHLJIKPND = 10104,
+		IELOCLHBKIC = 10120,
+		HPKHLJIKPND = 10116,
+		PNNJDENCDEI = 10108,
+		MFHOPJIHAFK = 10115,
+		NHFHKPFMPJM = 10104,
+		HENBLPKEDJM = 10109,
 	};

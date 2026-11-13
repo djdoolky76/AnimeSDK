@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IDCBNMFDICO_TypeDefinitionIndex = 33623;
+inline static constexpr unsigned int IDCBNMFDICO_TypeDefinitionIndex = 34538;
 
 	enum class IDCBNMFDICO : ::System::Int32
 	{

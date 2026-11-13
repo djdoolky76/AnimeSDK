@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/DynamicValueReadType.h"
 namespace System { class String; }
 
-#define MFDEBKGHEIO_KICKOCALNHC_OFFSET UNITYSDK_OFFSET(0x1D128C40)
+#define MFDEBKGHEIO_KICKOCALNHC_OFFSET UNITYSDK_OFFSET(0x1BB9EFA0)
 
-inline static constexpr unsigned int MFDEBKGHEIO_TypeDefinitionIndex = 10847;
+inline static constexpr unsigned int MFDEBKGHEIO_TypeDefinitionIndex = 10863;
 
 	struct alignas(8) MFDEBKGHEIO
 	{

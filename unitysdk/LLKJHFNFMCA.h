@@ -5,16 +5,16 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define LLKJHFNFMCA_CTOR_OFFSET UNITYSDK_OFFSET(0xB76D180)
+#define LLKJHFNFMCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBD460)
 
-inline static constexpr unsigned int LLKJHFNFMCA_TypeDefinitionIndex = 68009;
+inline static constexpr unsigned int LLKJHFNFMCA_TypeDefinitionIndex = 69955;
 
 	class LLKJHFNFMCA : public ::System::Object
 	{
 	public:
 		::System::String* EINFJLDMHOA; // 0x10
-		::RPG::GameCore::PropState MEPFOEEGBEA; // 0x18
-		::DDNJKAMIHHI GMPGDEINODK; // 0x1C
+		::DDNJKAMIHHI GMPGDEINODK; // 0x18
+		::RPG::GameCore::PropState MEPFOEEGBEA; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLKJHFNFMCA_CTOR_OFFSET))(this);

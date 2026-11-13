@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtBattleTriggerCharacterCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOLEHDGCAGM_CTOR_OFFSET UNITYSDK_OFFSET(0xB804FF0)
-#define LOLEHDGCAGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB805020)
+#define LOLEHDGCAGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BA6C0)
+#define LOLEHDGCAGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5BA6F0)
 
-inline static constexpr unsigned int LOLEHDGCAGM_TypeDefinitionIndex = 54158;
+inline static constexpr unsigned int LOLEHDGCAGM_TypeDefinitionIndex = 55322;
 
 	class LOLEHDGCAGM
 	{

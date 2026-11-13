@@ -5,31 +5,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_SMOOTHING___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F25CCD0)
-#define UNITYENGINE_PROBUILDER_SMOOTHING___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F25CD10)
-#define UNITYENGINE_PROBUILDER_SMOOTHING___C__APPLYSMOOTHINGGROUPS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1F25CD40)
-#define UNITYENGINE_PROBUILDER_SMOOTHING___C__GETUNUSEDSMOOTHINGGROUP_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F25CD20)
+#define UNITYENGINE_PROBUILDER_SMOOTHING___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2B36A0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2B36E0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING___C__APPLYSMOOTHINGGROUPS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A2B3710)
+#define UNITYENGINE_PROBUILDER_SMOOTHING___C__GETUNUSEDSMOOTHINGGROUP_B__5_0_OFFSET UNITYSDK_OFFSET(0x1A2B36F0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Smoothing___c_TypeDefinitionIndex = 44438;
+	inline static constexpr unsigned int Smoothing___c_TypeDefinitionIndex = 45513;
 
 	class Smoothing___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x53300);
-		}
-
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x53308);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x691E0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x691E8);
 		}
 
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x53310);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x691F0);
 		}
 
 		static ::System::Void _cctor()

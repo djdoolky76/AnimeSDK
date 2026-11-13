@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TrainPartyEventCharacterTriggerEmotion; }
 
-#define KNMGJFKPBJO_CTOR_OFFSET UNITYSDK_OFFSET(0xB582040)
-#define KNMGJFKPBJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB582070)
+#define KNMGJFKPBJO_CTOR_OFFSET UNITYSDK_OFFSET(0x18FAEDC0)
+#define KNMGJFKPBJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FAEDF0)
 
-inline static constexpr unsigned int KNMGJFKPBJO_TypeDefinitionIndex = 53423;
+inline static constexpr unsigned int KNMGJFKPBJO_TypeDefinitionIndex = 54585;
 
 	class KNMGJFKPBJO
 	{

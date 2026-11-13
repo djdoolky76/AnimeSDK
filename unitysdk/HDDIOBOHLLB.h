@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsContainAdventureModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HDDIOBOHLLB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C247F0)
-#define HDDIOBOHLLB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C24820)
+#define HDDIOBOHLLB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C4F30)
+#define HDDIOBOHLLB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B7C4F60)
 
-inline static constexpr unsigned int HDDIOBOHLLB_TypeDefinitionIndex = 54641;
+inline static constexpr unsigned int HDDIOBOHLLB_TypeDefinitionIndex = 55807;
 
 	class HDDIOBOHLLB
 	{

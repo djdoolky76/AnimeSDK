@@ -3,7 +3,7 @@
 namespace System::Threading { class CancellationCallbackInfo; }
 namespace System::Threading { template <typename T> class SparselyPopulatedArrayFragment_1; }
 
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKCOREWORKARGUMENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x140C0)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKCOREWORKARGUMENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x6513E0)
 
 namespace System::Threading
 {

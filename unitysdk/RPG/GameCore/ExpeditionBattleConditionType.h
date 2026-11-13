@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleConditionType_TypeDefinitionIndex = 11451;
+	inline static constexpr unsigned int ExpeditionBattleConditionType_TypeDefinitionIndex = 11502;
 
 	enum class ExpeditionBattleConditionType : ::System::Int32
 	{

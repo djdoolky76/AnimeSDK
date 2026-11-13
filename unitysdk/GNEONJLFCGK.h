@@ -3,10 +3,10 @@
 class GMODDCLOONA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNEONJLFCGK_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF5080)
-#define GNEONJLFCGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AF50B0)
+#define GNEONJLFCGK_CTOR_OFFSET UNITYSDK_OFFSET(0x16CADBB0)
+#define GNEONJLFCGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16CADBE0)
 
-inline static constexpr unsigned int GNEONJLFCGK_TypeDefinitionIndex = 58603;
+inline static constexpr unsigned int GNEONJLFCGK_TypeDefinitionIndex = 59868;
 
 	class GNEONJLFCGK
 	{

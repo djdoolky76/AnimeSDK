@@ -20,130 +20,130 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ACHIEVEMENTS_OFFSET UNITYSDK_OFFSET(0xAF80A10)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ACTIVITY_OFFSET UNITYSDK_OFFSET(0xAF821F0)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF86750)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0xAF83BA0)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_CLEARINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF83B60)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_CTOR_OFFSET UNITYSDK_OFFSET(0xAF86740)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_INVITE_OFFSET UNITYSDK_OFFSET(0xAF82940)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_LEADERBOARD_OFFSET UNITYSDK_OFFSET(0xAF81AA0)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONACHIEVEMENTSCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF7EEF0)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONACTIVITYCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF7FBE0)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONINVITECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF80030)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF808D0)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONLEADERBOARDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF7F790)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONRECENTPLAYERSCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF80480)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONSTATISTICSCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF7F340)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_RECENTPLAYERS_OFFSET UNITYSDK_OFFSET(0xAF83090)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_REGISTERINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF837E0)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_STATISTICS_OFFSET UNITYSDK_OFFSET(0xAF81350)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ACHIEVEMENTS_OFFSET UNITYSDK_OFFSET(0x1AB22980)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ACTIVITY_OFFSET UNITYSDK_OFFSET(0x1AB24160)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB286E0)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1AB25B10)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_CLEARINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB25AD0)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_CTOR_OFFSET UNITYSDK_OFFSET(0x1AB286D0)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_INVITE_OFFSET UNITYSDK_OFFSET(0x1AB248B0)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_LEADERBOARD_OFFSET UNITYSDK_OFFSET(0x1AB23A10)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONACHIEVEMENTSCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB20E60)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONACTIVITYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB21B50)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONINVITECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB21FA0)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB22840)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONLEADERBOARDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB21700)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONRECENTPLAYERSCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB223F0)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_ONSTATISTICSCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB212B0)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_RECENTPLAYERS_OFFSET UNITYSDK_OFFSET(0x1AB25000)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_REGISTERINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB25750)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES_STATISTICS_OFFSET UNITYSDK_OFFSET(0x1AB232C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelGameplayServices_TypeDefinitionIndex = 46507;
+	inline static constexpr unsigned int HoYoChannelGameplayServices_TypeDefinitionIndex = 47535;
 
 	class HoYoChannelGameplayServices : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelActivityResult*>*>** StaticGet_s_activityCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelActivityResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22130);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteResult*>*>** StaticGet_s_inviteCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22138);
-		}
-
-		static ::System::Object** StaticGet_s_statisticsLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22140);
-		}
-
-		static ::System::Object** StaticGet_s_inviteLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22148);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>*>** StaticGet_s_achievementsCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22150);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>*>** StaticGet_s_recentPlayersCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22158);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_activityTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22160);
-		}
-
-		static ::System::Object** StaticGet_s_achievementsLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22168);
-		}
-
-		static ::System::Object** StaticGet_s_activityLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22170);
-		}
-
-		static ::System::Object** StaticGet_s_recentPlayersLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22178);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_statisticsTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22180);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_achievementsTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22188);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_leaderboardTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22190);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>*>** StaticGet_s_statisticsCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x22198);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_recentPlayersTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x221A0);
-		}
-
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteReceivedResult*>** StaticGet_s_inviteReceivedCallback()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteReceivedResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x221A8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_inviteTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x221B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A4E0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLeaderboardResult*>*>** StaticGet_s_leaderboardCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLeaderboardResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x221B8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLeaderboardResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A4E8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_leaderboardTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A4F0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_statisticsTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A4F8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_achievementsTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A500);
+		}
+
+		static ::System::Object** StaticGet_s_recentPlayersLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A508);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_inviteTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A510);
+		}
+
+		static ::System::Object** StaticGet_s_inviteLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A518);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>*>** StaticGet_s_recentPlayersCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A520);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>*>** StaticGet_s_achievementsCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A528);
+		}
+
+		static ::System::Object** StaticGet_s_statisticsLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A530);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteReceivedResult*>** StaticGet_s_inviteReceivedCallback()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteReceivedResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A538);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_activityTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A540);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_recentPlayersTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A548);
+		}
+
+		static ::System::Object** StaticGet_s_achievementsLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A550);
 		}
 
 		static ::System::Object** StaticGet_s_leaderboardLock()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x221C0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A558);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelActivityResult*>*>** StaticGet_s_activityCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelActivityResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A560);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteResult*>*>** StaticGet_s_inviteCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelInviteResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A568);
+		}
+
+		static ::System::Object** StaticGet_s_activityLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x1A570);
 		}
 
 		static ::System::Boolean* StaticGet_s_inviteReceivedRegistered()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x7750);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelGameplayServices")->GetStaticField(0x5DA0);
 		}
 
 		// static const ::System::Object ACHIEVEMENTS_TIMEOUT_SECONDS; // 0x0

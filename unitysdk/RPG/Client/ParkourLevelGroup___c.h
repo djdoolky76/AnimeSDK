@@ -5,31 +5,31 @@ namespace RPG::Client { class ParkourLevel; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PARKOURLEVELGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA7D130)
-#define RPG_CLIENT_PARKOURLEVELGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA7D170)
-#define RPG_CLIENT_PARKOURLEVELGROUP___C__GET_HASUNLOCKED_B__16_0_OFFSET UNITYSDK_OFFSET(0xDA7D180)
-#define RPG_CLIENT_PARKOURLEVELGROUP___C__GET_ISNEW_B__18_0_OFFSET UNITYSDK_OFFSET(0xDA7D1B0)
+#define RPG_CLIENT_PARKOURLEVELGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC1B7E0)
+#define RPG_CLIENT_PARKOURLEVELGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC1B820)
+#define RPG_CLIENT_PARKOURLEVELGROUP___C__GET_HASUNLOCKED_B__16_0_OFFSET UNITYSDK_OFFSET(0x1DC1B830)
+#define RPG_CLIENT_PARKOURLEVELGROUP___C__GET_ISNEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DC1B860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourLevelGroup___c_TypeDefinitionIndex = 61856;
+	inline static constexpr unsigned int ParkourLevelGroup___c_TypeDefinitionIndex = 63262;
 
 	class ParkourLevelGroup___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>** StaticGet___9__16_0()
+		{
+			return (::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x23700);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11C10);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x23708);
 		}
 
 		static ::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11C18);
-		}
-
-		static ::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>** StaticGet___9__16_0()
-		{
-			return (::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11C20);
+			return (::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x23710);
 		}
 
 		static ::System::Void _cctor()

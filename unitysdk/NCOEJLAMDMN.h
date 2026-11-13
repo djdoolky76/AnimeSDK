@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByFromBattleViewModeChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCOEJLAMDMN_CTOR_OFFSET UNITYSDK_OFFSET(0xBB16A30)
-#define NCOEJLAMDMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB16A60)
+#define NCOEJLAMDMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1510A380)
+#define NCOEJLAMDMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1510A3B0)
 
-inline static constexpr unsigned int NCOEJLAMDMN_TypeDefinitionIndex = 54604;
+inline static constexpr unsigned int NCOEJLAMDMN_TypeDefinitionIndex = 55769;
 
 	class NCOEJLAMDMN
 	{

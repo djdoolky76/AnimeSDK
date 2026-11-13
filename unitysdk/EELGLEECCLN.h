@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroPuzzleReport; }
 
-#define EELGLEECCLN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A36CA0)
-#define EELGLEECCLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A36CD0)
+#define EELGLEECCLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A31F360)
+#define EELGLEECCLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A31F390)
 
-inline static constexpr unsigned int EELGLEECCLN_TypeDefinitionIndex = 58963;
+inline static constexpr unsigned int EELGLEECCLN_TypeDefinitionIndex = 60236;
 
 	class EELGLEECCLN
 	{

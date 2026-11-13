@@ -5,25 +5,25 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATEACTIVITYPANELDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE70490)
-#define RPG_CLIENT_FATEACTIVITYPANELDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE704D0)
-#define RPG_CLIENT_FATEACTIVITYPANELDATA___C__ISLOCKEDBYPRECONDITIONS_B__8_0_OFFSET UNITYSDK_OFFSET(0xCE704E0)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBAD190)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBAD1D0)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA___C__ISLOCKEDBYPRECONDITIONS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1CBAD1E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateActivityPanelData___c_TypeDefinitionIndex = 61619;
+	inline static constexpr unsigned int FateActivityPanelData___c_TypeDefinitionIndex = 63017;
 
 	class FateActivityPanelData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::GameCore::ConditionParam*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::ConditionParam*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4B200);
+			return (::System::Func_2<::RPG::GameCore::ConditionParam*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E100);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4B208);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E108);
 		}
 
 		static ::System::Void _cctor()

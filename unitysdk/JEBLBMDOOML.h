@@ -8,25 +8,25 @@ class FCOEMCEDLNL;
 class JEBLBMDOOML;
 namespace System { class String; }
 
-#define JEBLBMDOOML_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFEC850)
-#define JEBLBMDOOML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CFEC400)
+#define JEBLBMDOOML_CTOR_OFFSET UNITYSDK_OFFSET(0xCA99350)
+#define JEBLBMDOOML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xCA98F00)
 
-inline static constexpr unsigned int JEBLBMDOOML_TypeDefinitionIndex = 15063;
+inline static constexpr unsigned int JEBLBMDOOML_TypeDefinitionIndex = 15219;
 
 	class JEBLBMDOOML : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x10
-		::System::String* OLOIFNNLKJP; // 0x18
+		::System::String* OLOIFNNLKJP; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x18
 		::Il2CppArray<::System::UInt32>* NIKKAPEIDJO; // 0x20
-		::RPG::Client::TextID MJOOFPBABEA; // 0x28
-		::RPG::Client::TextID DEGHFCJNECP; // 0x38
-		::System::Boolean HILFNIOLPHN; // 0x48
+		::System::UInt32 KGOEAGHJFKD; // 0x28
+		::System::Boolean HILFNIOLPHN; // 0x2C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 FMDMDDCBPAM; // 0x4C
-		::RPG::Client::TextID NMAHGFAPENI; // 0x50
-		::System::UInt32 KGOEAGHJFKD; // 0x60
-		::RPG::GameCore::RogueTournPersonaStyleGiftRarityType PMIEAEGJNMJ; // 0x64
+		::RPG::GameCore::RogueTournPersonaStyleGiftRarityType PMIEAEGJNMJ; // 0x30
+		::System::UInt32 FMDMDDCBPAM; // 0x34
+		::RPG::Client::TextID MJOOFPBABEA; // 0x38
+		::RPG::Client::TextID NMAHGFAPENI; // 0x48
+		::RPG::Client::TextID DEGHFCJNECP; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JEBLBMDOOML_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvAttachEntityToPropEX; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCECOOCCIHA_CTOR_OFFSET UNITYSDK_OFFSET(0x156AB930)
-#define FCECOOCCIHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156AB960)
+#define FCECOOCCIHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C010440)
+#define FCECOOCCIHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C010470)
 
-inline static constexpr unsigned int FCECOOCCIHA_TypeDefinitionIndex = 57869;
+inline static constexpr unsigned int FCECOOCCIHA_TypeDefinitionIndex = 59106;
 
 	class FCECOOCCIHA
 	{

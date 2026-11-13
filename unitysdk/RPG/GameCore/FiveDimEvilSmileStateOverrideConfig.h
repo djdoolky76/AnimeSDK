@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEvilSmileStateOverrideConfig; }
 
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68FD60)
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68FC20)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85CB30)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E85C9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEvilSmileStateOverrideConfig_TypeDefinitionIndex = 18584;
+	inline static constexpr unsigned int FiveDimEvilSmileStateOverrideConfig_TypeDefinitionIndex = 18744;
 
 	class FiveDimEvilSmileStateOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

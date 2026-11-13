@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS { class XboxLeaderboardParamExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF05C00)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF05BF0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF82270)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF82260)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelLeaderboardParams_TypeDefinitionIndex = 8633;
+	inline static constexpr unsigned int HoYoChannelLeaderboardParams_TypeDefinitionIndex = 8642;
 
 	class HoYoChannelLeaderboardParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

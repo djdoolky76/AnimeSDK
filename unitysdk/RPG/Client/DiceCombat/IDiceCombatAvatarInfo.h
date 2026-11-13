@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int IDiceCombatAvatarInfo_TypeDefinitionIndex = 76092;
+	inline static constexpr unsigned int IDiceCombatAvatarInfo_TypeDefinitionIndex = 78419;
 
 	class IDiceCombatAvatarInfo
 	{

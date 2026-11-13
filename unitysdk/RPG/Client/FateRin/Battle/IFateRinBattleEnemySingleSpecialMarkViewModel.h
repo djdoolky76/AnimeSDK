@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleEnemySingleSpecialMarkViewModel_TypeDefinitionIndex = 80869;
+	inline static constexpr unsigned int IFateRinBattleEnemySingleSpecialMarkViewModel_TypeDefinitionIndex = 83649;
 
 	class IFateRinBattleEnemySingleSpecialMarkViewModel
 	{

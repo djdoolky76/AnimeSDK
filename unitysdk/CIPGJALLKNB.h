@@ -7,24 +7,25 @@ class CIPGJALLKNB;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define CIPGJALLKNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB924A0)
-#define CIPGJALLKNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DBEAC90)
+#define CIPGJALLKNB_CTOR_OFFSET UNITYSDK_OFFSET(0x115A3750)
+#define CIPGJALLKNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x115FF580)
 
-inline static constexpr unsigned int CIPGJALLKNB_TypeDefinitionIndex = 12474;
+inline static constexpr unsigned int CIPGJALLKNB_TypeDefinitionIndex = 12541;
 
 	class CIPGJALLKNB : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PPNLEBDNKNI; // 0x10
-		::System::String* AJJOOHJFNMC; // 0x18
-		::System::String* IOCHHAPIOJA; // 0x20
-		::Il2CppArray<::System::UInt32>* PEOFHNELHLJ; // 0x28
-		::Il2CppArray<::System::UInt32>* EBDLFNOELLO; // 0x30
-		::Il2CppArray<::System::UInt32>* JDKLJBMHHKO; // 0x38
-		::RPG::Client::TextID MMOFKKMMKLK; // 0x40
-		::RPG::GameCore::TeamTowersStageType GMPGDEINODK; // 0x50
-		::System::UInt32 PHFMCACHFIJ; // 0x54
-		::System::UInt32 BFDOFFNMCPO; // 0x58
+		::Il2CppArray<::System::UInt32>* PEOFHNELHLJ; // 0x10
+		::System::String* IOCHHAPIOJA; // 0x18
+		::Il2CppArray<::System::UInt32>* PPNLEBDNKNI; // 0x20
+		::Il2CppArray<::System::UInt32>* JDKLJBMHHKO; // 0x28
+		::System::String* AJJOOHJFNMC; // 0x30
+		::Il2CppArray<::System::UInt32>* EBDLFNOELLO; // 0x38
+		::System::UInt32 PHFMCACHFIJ; // 0x40
+		::System::UInt32 BFDOFFNMCPO; // 0x44
+		::RPG::GameCore::TeamTowersStageType GMPGDEINODK; // 0x48
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID MMOFKKMMKLK; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIPGJALLKNB_CTOR_OFFSET))(this);

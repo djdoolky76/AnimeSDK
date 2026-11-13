@@ -4,22 +4,22 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define BNOOADMJELI_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE1510)
-#define BNOOADMJELI_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0xBDE1B40)
-#define BNOOADMJELI_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xBDE1D90)
-#define BNOOADMJELI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBDE1710)
-#define BNOOADMJELI_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xBDE1DA0)
+#define BNOOADMJELI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A77A500)
+#define BNOOADMJELI_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x1A77AB30)
+#define BNOOADMJELI_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1A77AD80)
+#define BNOOADMJELI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1A77A700)
+#define BNOOADMJELI_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1A77AD90)
 
-inline static constexpr unsigned int BNOOADMJELI_TypeDefinitionIndex = 78438;
+inline static constexpr unsigned int BNOOADMJELI_TypeDefinitionIndex = 81173;
 
 	class BNOOADMJELI : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x10
-		::System::Action* MECKBKLEHAN; // 0x18
-		::System::Int32 GGDBFECPDPF; // 0x20
+		::System::Action* MECKBKLEHAN; // 0x10
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x18
+		::System::Single MFLNKDOADDG; // 0x20
 		::System::Single FOMCKBAHCFM; // 0x24
-		::System::Single MFLNKDOADDG; // 0x28
+		::System::Int32 GGDBFECPDPF; // 0x28
 		::System::Boolean _IsFinished_k__BackingField; // 0x2C
 		::System::Void _ctor(::System::Single a1, ::System::Int32 a2, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a3, ::System::Action* a4)
 		{

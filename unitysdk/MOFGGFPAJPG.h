@@ -3,10 +3,10 @@
 class IPLFIMHABNO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOFGGFPAJPG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA245F0)
-#define MOFGGFPAJPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA24620)
+#define MOFGGFPAJPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B211560)
+#define MOFGGFPAJPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B211590)
 
-inline static constexpr unsigned int MOFGGFPAJPG_TypeDefinitionIndex = 53867;
+inline static constexpr unsigned int MOFGGFPAJPG_TypeDefinitionIndex = 55031;
 
 	class MOFGGFPAJPG
 	{

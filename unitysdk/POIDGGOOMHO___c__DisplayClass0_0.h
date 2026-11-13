@@ -6,16 +6,16 @@ class POIDGGOOMHO;
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define POIDGGOOMHO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC360F80)
-#define POIDGGOOMHO___C__DISPLAYCLASS0_0___APPLYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC363F80)
+#define POIDGGOOMHO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B88E020)
+#define POIDGGOOMHO___C__DISPLAYCLASS0_0___APPLYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1B88E030)
 
-inline static constexpr unsigned int POIDGGOOMHO___c__DisplayClass0_0_TypeDefinitionIndex = 80236;
+inline static constexpr unsigned int POIDGGOOMHO___c__DisplayClass0_0_TypeDefinitionIndex = 83013;
 
 	class POIDGGOOMHO___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__0; // 0x10
-		::POIDGGOOMHO* __4__this; // 0x18
+		::POIDGGOOMHO* __4__this; // 0x10
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__0; // 0x18
 		::System::Int32 generation; // 0x20
 		::System::Void _ctor()
 		{

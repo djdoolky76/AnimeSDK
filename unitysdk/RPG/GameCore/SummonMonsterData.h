@@ -9,12 +9,12 @@ namespace RPG::GameCore { class SummonMonsterData; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONMONSTERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0CA20)
-#define RPG_GAMECORE_SUMMONMONSTERDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB0BD20)
+#define RPG_GAMECORE_SUMMONMONSTERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67C850)
+#define RPG_GAMECORE_SUMMONMONSTERDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E67BB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonsterData_TypeDefinitionIndex = 22655;
+	inline static constexpr unsigned int SummonMonsterData_TypeDefinitionIndex = 23077;
 
 	class SummonMonsterData : public ::RPG::GameCore::JsonConfig
 	{

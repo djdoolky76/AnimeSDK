@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ONSWIPEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x16747160)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ONSWIPEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E988E10)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickSwipe_OnSwipeAction_TypeDefinitionIndex = 40270;
+	inline static constexpr unsigned int QuickSwipe_OnSwipeAction_TypeDefinitionIndex = 41245;
 
 	class QuickSwipe_OnSwipeAction
 	{

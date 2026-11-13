@@ -7,24 +7,24 @@ class BCNKFBPILLH_CFOGOGNKFCK;
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
-#define BCNKFBPILLH_CTOR_OFFSET UNITYSDK_OFFSET(0x162DCF60)
-#define BCNKFBPILLH_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x162DC8B0)
-#define BCNKFBPILLH_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x162DCC40)
-#define BCNKFBPILLH_NFHJDCECMOD_OFFSET UNITYSDK_OFFSET(0x162DC9B0)
-#define BCNKFBPILLH__ONBIND_OFFSET UNITYSDK_OFFSET(0x162DC7C0)
+#define BCNKFBPILLH_CTOR_OFFSET UNITYSDK_OFFSET(0x19D85250)
+#define BCNKFBPILLH_NFHJDCECMOD_OFFSET UNITYSDK_OFFSET(0x19D84CA0)
+#define BCNKFBPILLH__ONBIND_OFFSET UNITYSDK_OFFSET(0x19D84940)
+#define BCNKFBPILLH__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x19D84BA0)
+#define BCNKFBPILLH__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19D84F30)
 
-inline static constexpr unsigned int BCNKFBPILLH_TypeDefinitionIndex = 71622;
+inline static constexpr unsigned int BCNKFBPILLH_TypeDefinitionIndex = 73610;
 
 	class BCNKFBPILLH : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Image* LGIDLJJEPMN; // 0x60
-		::UnityEngine::Animation* JPHOOFFIAAH; // 0x68
-		::BCNKFBPILLH_CFOGOGNKFCK* MOFHGHGKAFP; // 0x70
-		::UnityEngine::UI::Image* LKAOENJHMHA; // 0x78
+		::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
+		::UnityEngine::UI::Image* LGIDLJJEPMN; // 0x68
+		::UnityEngine::UI::Image* LKAOENJHMHA; // 0x70
+		::BCNKFBPILLH_CFOGOGNKFCK* MOFHGHGKAFP; // 0x78
 		::UnityEngine::UI::Image* PLPHEFCFGBG; // 0x80
-		::System::Single PGFKAOFFKHD; // 0x88
-		::System::Single JJOACHEJAAE; // 0x8C
+		::System::Single JJOACHEJAAE; // 0x88
+		::System::Single PGFKAOFFKHD; // 0x8C
 		::System::Nullable_1<::System::Boolean> JKJAIJONJNN; // 0x90
 		::System::Single JBDOICCALDN; // 0x94
 		// static const ::System::String* DJCBDJMACFH; // 0x0
@@ -40,9 +40,9 @@ inline static constexpr unsigned int BCNKFBPILLH_TypeDefinitionIndex = 71622;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BCNKFBPILLH__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + BCNKFBPILLH_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + BCNKFBPILLH__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void NFHJDCECMOD(::System::Boolean a1)
@@ -50,9 +50,9 @@ inline static constexpr unsigned int BCNKFBPILLH_TypeDefinitionIndex = 71622;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BCNKFBPILLH_NFHJDCECMOD_OFFSET))(this, a1);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BCNKFBPILLH_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BCNKFBPILLH__SETUPVIEW_OFFSET))(this);
 		}
 
 	};

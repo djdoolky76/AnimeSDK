@@ -4,12 +4,12 @@
 #include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC50C380)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0___UPDATEQUICKSTRATEGYSELECTEDEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0xC50CD80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AC350)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0___UPDATEQUICKSTRATEGYSELECTEDEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0x1D3ACD60)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass3_0_TypeDefinitionIndex = 75439;
+	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass3_0_TypeDefinitionIndex = 77766;
 
 	class SpEquipInventoryDisplayData___c__DisplayClass3_0 : public ::System::Object
 	{

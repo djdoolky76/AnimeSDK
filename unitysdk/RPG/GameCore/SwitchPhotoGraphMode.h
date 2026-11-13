@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SwitchPhotoGraphMode; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB174E0)
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB174F0)
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB174A0)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E686FB0)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E686FC0)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E686F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchPhotoGraphMode_TypeDefinitionIndex = 20522;
+	inline static constexpr unsigned int SwitchPhotoGraphMode_TypeDefinitionIndex = 20858;
 
 	class SwitchPhotoGraphMode : public ::RPG::GameCore::TaskConfig
 	{

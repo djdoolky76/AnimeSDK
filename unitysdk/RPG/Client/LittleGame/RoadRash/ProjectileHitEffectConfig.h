@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int ProjectileHitEffectConfig_TypeDefinitionIndex = 42935;
+	inline static constexpr unsigned int ProjectileHitEffectConfig_TypeDefinitionIndex = 43916;
 
 	struct alignas(8) ProjectileHitEffectConfig
 	{

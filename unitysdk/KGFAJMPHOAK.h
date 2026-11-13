@@ -5,9 +5,9 @@
 class APMIBDHBPBI;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KGFAJMPHOAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB89DE0)
+#define KGFAJMPHOAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C99F0)
 
-inline static constexpr unsigned int KGFAJMPHOAK_TypeDefinitionIndex = 43759;
+inline static constexpr unsigned int KGFAJMPHOAK_TypeDefinitionIndex = 44834;
 
 	class KGFAJMPHOAK : public ::System::Object
 	{

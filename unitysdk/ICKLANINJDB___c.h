@@ -4,18 +4,18 @@
 class ICKLANINJDB;
 namespace System { class Object; }
 
-#define ICKLANINJDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5F6AC0)
-#define ICKLANINJDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F6B00)
-#define ICKLANINJDB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E5F6B10)
+#define ICKLANINJDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2012EB10)
+#define ICKLANINJDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2012EB50)
+#define ICKLANINJDB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2012EB60)
 
-inline static constexpr unsigned int ICKLANINJDB___c_TypeDefinitionIndex = 28505;
+inline static constexpr unsigned int ICKLANINJDB___c_TypeDefinitionIndex = 29095;
 
 	class ICKLANINJDB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45500);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x490B0);
 		}
 
 		static ::System::Void _cctor()

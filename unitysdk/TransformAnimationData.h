@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define TRANSFORMANIMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9D8CF0)
-#define TRANSFORMANIMATIONDATA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE9D8CA0)
+#define TRANSFORMANIMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x17142420)
+#define TRANSFORMANIMATIONDATA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x171423D0)
 
-inline static constexpr unsigned int TransformAnimationData_TypeDefinitionIndex = 47144;
+inline static constexpr unsigned int TransformAnimationData_TypeDefinitionIndex = 48172;
 
 	class TransformAnimationData : public ::UnityEngine::ScriptableObject
 	{

@@ -13,13 +13,13 @@ namespace RPG::GameCore { class DestroyProp; }
 namespace RPG::GameCore { class ScrTrfActPerformance; }
 namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5CCF0)
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA5CD00)
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5CCC0)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F84EA10)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F84EA20)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F84E9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScrTrfActPerformance_TypeDefinitionIndex = 21951;
+	inline static constexpr unsigned int ScrTrfActPerformance_TypeDefinitionIndex = 22342;
 
 	class ScrTrfActPerformance : public ::RPG::GameCore::ScreenTransferBaseAction
 	{

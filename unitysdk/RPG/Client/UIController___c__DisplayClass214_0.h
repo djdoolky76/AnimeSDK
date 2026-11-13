@@ -5,12 +5,12 @@ namespace RPG::Client { class UIController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS214_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE387740)
-#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS214_0__ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE38B670)
+#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS214_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1104B0)
+#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS214_0__ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0x1A114380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIController___c__DisplayClass214_0_TypeDefinitionIndex = 73038;
+	inline static constexpr unsigned int UIController___c__DisplayClass214_0_TypeDefinitionIndex = 75152;
 
 	class UIController___c__DisplayClass214_0 : public ::System::Object
 	{

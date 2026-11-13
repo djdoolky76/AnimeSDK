@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class GCACIOKADOO;
 
-#define GCBNKFDOJCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA4D780)
+#define GCBNKFDOJCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C217F00)
 
-inline static constexpr unsigned int GCBNKFDOJCP_TypeDefinitionIndex = 43237;
+inline static constexpr unsigned int GCBNKFDOJCP_TypeDefinitionIndex = 44218;
 
 	class GCBNKFDOJCP : public ::System::Object
 	{

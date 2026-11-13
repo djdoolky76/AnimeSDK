@@ -4,9 +4,9 @@
 #include "unitysdk/AHLEKJMMLBA.h"
 namespace RPG::GameCore { class IAvatarPromotionCommonRowWrap; }
 
-#define LKEFMDGOHKL_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0xB727950)
+#define LKEFMDGOHKL_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0x18CD0200)
 
-inline static constexpr unsigned int LKEFMDGOHKL_TypeDefinitionIndex = 62643;
+inline static constexpr unsigned int LKEFMDGOHKL_TypeDefinitionIndex = 64077;
 
 	class LKEFMDGOHKL : public ::System::Object
 	{

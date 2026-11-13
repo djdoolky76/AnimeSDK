@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionBaseData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC455810)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__GETPROMOTIONBYUNLOCKSTAR_B__0_OFFSET UNITYSDK_OFFSET(0xC455B60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D13C8D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__GETPROMOTIONBYUNLOCKSTAR_B__0_OFFSET UNITYSDK_OFFSET(0x1D13CC20)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveAvatarData___c__DisplayClass2_0_TypeDefinitionIndex = 75073;
+	inline static constexpr unsigned int IdleLiveAvatarData___c__DisplayClass2_0_TypeDefinitionIndex = 77400;
 
 	class IdleLiveAvatarData___c__DisplayClass2_0 : public ::System::Object
 	{

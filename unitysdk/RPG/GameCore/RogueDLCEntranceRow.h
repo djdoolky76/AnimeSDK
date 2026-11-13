@@ -7,23 +7,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCEntranceRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCENTRANCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D994200)
-#define RPG_GAMECORE_ROGUEDLCENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D993A50)
+#define RPG_GAMECORE_ROGUEDLCENTRANCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57A100)
+#define RPG_GAMECORE_ROGUEDLCENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F579910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCEntranceRow_TypeDefinitionIndex = 14803;
+	inline static constexpr unsigned int RogueDLCEntranceRow_TypeDefinitionIndex = 14959;
 
 	class RogueDLCEntranceRow : public ::System::Object
 	{
 	public:
 		::System::String* ButtonPath; // 0x10
-		::System::String* PatternBgPath; // 0x18
-		::Il2CppArray<::System::UInt32>* RewardList; // 0x20
-		::System::String* SwitchBannerImgPath; // 0x28
-		::RPG::Client::TextID SubTypeTitle; // 0x30
-		::System::UInt32 ID; // 0x40
-		::RPG::GameCore::RogueSubMode SubType; // 0x44
+		::Il2CppArray<::System::UInt32>* RewardList; // 0x18
+		::System::String* SwitchBannerImgPath; // 0x20
+		::System::String* PatternBgPath; // 0x28
+		::System::UInt32 ID; // 0x30
+		::RPG::GameCore::RogueSubMode SubType; // 0x34
+		::RPG::Client::TextID SubTypeTitle; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCENTRANCEROW_CTOR_OFFSET))(this);

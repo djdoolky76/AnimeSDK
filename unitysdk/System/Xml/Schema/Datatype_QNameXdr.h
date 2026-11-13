@@ -8,12 +8,12 @@ namespace System { class Type; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE879B0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE824B0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE87950)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EE876F0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EE878F0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EE87700)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D21A470)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D214F70)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1D21A410)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1D21A1B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1D21A3B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1D21A1C0)
 
 namespace System::Xml::Schema
 {
@@ -22,14 +22,14 @@ namespace System::Xml::Schema
 	class Datatype_QNameXdr : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
-		static ::System::Type** StaticGet_atomicValueType()
-		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_QNameXdr")->GetStaticField(0x2D730);
-		}
-
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_QNameXdr")->GetStaticField(0x2D738);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_QNameXdr")->GetStaticField(0x1D610);
+		}
+
+		static ::System::Type** StaticGet_atomicValueType()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_QNameXdr")->GetStaticField(0x1D618);
 		}
 
 		::System::Void _ctor()

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3DC8C0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD3DC900)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBBEDE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBEE20)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsSponsorControl___c_TypeDefinitionIndex = 80399;
+	inline static constexpr unsigned int LimaoNewsSponsorControl___c_TypeDefinitionIndex = 83179;
 
 	class LimaoNewsSponsorControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x209A0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x38B80);
 		}
 
 		static ::System::Void _cctor()

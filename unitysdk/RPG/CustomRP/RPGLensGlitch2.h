@@ -5,11 +5,11 @@ namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 
-#define RPG_CUSTOMRP_RPGLENSGLITCH2_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2C0C0)
+#define RPG_CUSTOMRP_RPGLENSGLITCH2_CTOR_OFFSET UNITYSDK_OFFSET(0x198F3090)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensGlitch2_TypeDefinitionIndex = 37826;
+	inline static constexpr unsigned int RPGLensGlitch2_TypeDefinitionIndex = 38755;
 
 	class RPGLensGlitch2 : public ::RPG::CustomRP::CustomVolumeComponent
 	{

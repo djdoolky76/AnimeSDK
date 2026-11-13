@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/CharacterAdventureSomatoType.h"
 #include "unitysdk/UnityEngine/AI/ObstacleAvoidanceType.h"
 
-#define GCNNPCDLELH_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x2E7B420)
+#define GCNNPCDLELH_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x3E53A40)
 
-inline static constexpr unsigned int GCNNPCDLELH_TypeDefinitionIndex = 57119;
+inline static constexpr unsigned int GCNNPCDLELH_TypeDefinitionIndex = 58348;
 
 	struct alignas(4) GCNNPCDLELH
 	{

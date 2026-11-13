@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PLCKNNJKNFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C7E70)
+#define PLCKNNJKNFD_CTOR_OFFSET UNITYSDK_OFFSET(0x20700390)
 
-inline static constexpr unsigned int PLCKNNJKNFD_TypeDefinitionIndex = 42169;
+inline static constexpr unsigned int PLCKNNJKNFD_TypeDefinitionIndex = 43144;
 
 	class PLCKNNJKNFD : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class LELIJDKDOOC;
 namespace System { class Object; }
 
-#define LELIJDKDOOC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9096A0)
-#define LELIJDKDOOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9096E0)
-#define LELIJDKDOOC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9096F0)
+#define LELIJDKDOOC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8258F0)
+#define LELIJDKDOOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F825930)
+#define LELIJDKDOOC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F825940)
 
-inline static constexpr unsigned int LELIJDKDOOC___c_TypeDefinitionIndex = 34480;
+inline static constexpr unsigned int LELIJDKDOOC___c_TypeDefinitionIndex = 35408;
 
 	class LELIJDKDOOC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x322C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FE20);
 		}
 
 		static ::System::Void _cctor()

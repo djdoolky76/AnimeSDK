@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleRemoveSkill; }
 
-#define IKFNFFFJIOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB49BE0)
-#define IKFNFFFJIOB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CB49BF0)
+#define IKFNFFFJIOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC36A10)
+#define IKFNFFFJIOB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1EC36A20)
 
-inline static constexpr unsigned int IKFNFFFJIOB_TypeDefinitionIndex = 43127;
+inline static constexpr unsigned int IKFNFFFJIOB_TypeDefinitionIndex = 44108;
 
 	class IKFNFFFJIOB : public ::BKABEBEPPJK
 	{

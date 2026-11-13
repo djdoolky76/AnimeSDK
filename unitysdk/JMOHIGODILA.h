@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class BLBHACNKKFC;
 
-#define JMOHIGODILA_CTOR_OFFSET UNITYSDK_OFFSET(0xB26DA30)
-#define JMOHIGODILA_GET_NOTIFY_OFFSET UNITYSDK_OFFSET(0xB26DA20)
+#define JMOHIGODILA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BC1B0)
+#define JMOHIGODILA_GET_NOTIFY_OFFSET UNITYSDK_OFFSET(0x1A0BC1A0)
 
-inline static constexpr unsigned int JMOHIGODILA_TypeDefinitionIndex = 76057;
+inline static constexpr unsigned int JMOHIGODILA_TypeDefinitionIndex = 78384;
 
 	class JMOHIGODILA : public ::System::Object
 	{

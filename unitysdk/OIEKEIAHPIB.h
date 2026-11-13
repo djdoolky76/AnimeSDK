@@ -8,18 +8,18 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OIEKEIAHPIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9667C0)
-#define OIEKEIAHPIB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C966A50)
-#define OIEKEIAHPIB_FILTER_OFFSET UNITYSDK_OFFSET(0x1C966960)
-#define OIEKEIAHPIB_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C966840)
+#define OIEKEIAHPIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E075070)
+#define OIEKEIAHPIB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E075300)
+#define OIEKEIAHPIB_FILTER_OFFSET UNITYSDK_OFFSET(0x1E075210)
+#define OIEKEIAHPIB_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1E0750F0)
 
-inline static constexpr unsigned int OIEKEIAHPIB_TypeDefinitionIndex = 42167;
+inline static constexpr unsigned int OIEKEIAHPIB_TypeDefinitionIndex = 43142;
 
 	class OIEKEIAHPIB
 	{
 	public:
-		::PLAGENLANML* MBKIEFPKECG; // 0x28
-		::EOLDAGHJDPI* OFJNMDOGNDP; // 0x30
+		::EOLDAGHJDPI* OFJNMDOGNDP; // 0x28
+		::PLAGENLANML* MBKIEFPKECG; // 0x30
 		::System::Boolean EGPMPLCFHEG; // 0x38
 		::System::Void _ctor(::PLAGENLANML* a1, ::GIFNELLKBFE* a2, ::System::Boolean a3)
 		{

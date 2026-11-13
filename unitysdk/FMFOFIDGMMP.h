@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FMFOFIDGMMP_TypeDefinitionIndex = 68740;
+inline static constexpr unsigned int FMFOFIDGMMP_TypeDefinitionIndex = 70692;
 
 	class FMFOFIDGMMP
 	{

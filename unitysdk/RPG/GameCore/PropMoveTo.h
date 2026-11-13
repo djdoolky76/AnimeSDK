@@ -10,13 +10,13 @@ namespace RPG::GameCore { class PropMoveTo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPMOVETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D921FA0)
-#define RPG_GAMECORE_PROPMOVETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D922060)
-#define RPG_GAMECORE_PROPMOVETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D921EC0)
+#define RPG_GAMECORE_PROPMOVETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8BF40)
+#define RPG_GAMECORE_PROPMOVETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF8C000)
+#define RPG_GAMECORE_PROPMOVETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF8BE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropMoveTo_TypeDefinitionIndex = 21582;
+	inline static constexpr unsigned int PropMoveTo_TypeDefinitionIndex = 21970;
 
 	class PropMoveTo : public ::RPG::GameCore::TaskConfig
 	{

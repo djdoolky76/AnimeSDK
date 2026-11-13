@@ -5,16 +5,16 @@ class FJFNJCPHFDM;
 class GAGKMDGBGFL;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define MGFNPLKAALN_CTOR_OFFSET UNITYSDK_OFFSET(0xB914C40)
-#define MGFNPLKAALN_FDLJEEGKKLI_OFFSET UNITYSDK_OFFSET(0xB914C50)
+#define MGFNPLKAALN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B33ABA0)
+#define MGFNPLKAALN_FDLJEEGKKLI_OFFSET UNITYSDK_OFFSET(0x1B33ABB0)
 
-inline static constexpr unsigned int MGFNPLKAALN_TypeDefinitionIndex = 80223;
+inline static constexpr unsigned int MGFNPLKAALN_TypeDefinitionIndex = 83000;
 
 	class MGFNPLKAALN : public ::System::Object
 	{
 	public:
-		::FJFNJCPHFDM* GKPHGLBPCKD; // 0x10
-		::GAGKMDGBGFL* MJHHLOPFDNK; // 0x18
+		::GAGKMDGBGFL* MJHHLOPFDNK; // 0x10
+		::FJFNJCPHFDM* GKPHGLBPCKD; // 0x18
 		::System::Void _ctor(::GAGKMDGBGFL* a1, ::FJFNJCPHFDM* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::GAGKMDGBGFL*, ::FJFNJCPHFDM*))((::PBYTE)hIl2Cpp + MGFNPLKAALN_CTOR_OFFSET))(this, a1, a2);

@@ -7,31 +7,31 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0852E0)
-#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB085320)
-#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__ONAFTERDESERIALIZE_B__28_0_OFFSET UNITYSDK_OFFSET(0xB085390)
-#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__SORTSPLITPOINTS_B__23_0_OFFSET UNITYSDK_OFFSET(0xB085330)
+#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF2C840)
+#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF2C880)
+#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__ONAFTERDESERIALIZE_B__28_0_OFFSET UNITYSDK_OFFSET(0x1CF2C8F0)
+#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__SORTSPLITPOINTS_B__23_0_OFFSET UNITYSDK_OFFSET(0x1CF2C890)
 
 namespace RPGTools::HoudiniToUnity
 {
-	inline static constexpr unsigned int CurveAttribute___c_TypeDefinitionIndex = 46934;
+	inline static constexpr unsigned int CurveAttribute___c_TypeDefinitionIndex = 47962;
 
 	class CurveAttribute___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Single, ::System::String*>** StaticGet___9__28_0()
-		{
-			return (::System::Func_2<::System::Single, ::System::String*>**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x370E0);
-		}
-
 		static ::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::String*>>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::String*>>**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x370E8);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::String*>>**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x2F280);
+		}
+
+		static ::System::Func_2<::System::Single, ::System::String*>** StaticGet___9__28_0()
+		{
+			return (::System::Func_2<::System::Single, ::System::String*>**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x2F288);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x370F0);
+			return (::System::Object**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x2F290);
 		}
 
 		static ::System::Void _cctor()

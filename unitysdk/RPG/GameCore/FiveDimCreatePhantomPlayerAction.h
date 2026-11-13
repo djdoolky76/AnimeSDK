@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimCreatePhantomPlayerAction; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCREATEPHANTOMPLAYERACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D689040)
-#define RPG_GAMECORE_FIVEDIMCREATEPHANTOMPLAYERACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D689050)
-#define RPG_GAMECORE_FIVEDIMCREATEPHANTOMPLAYERACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D689010)
+#define RPG_GAMECORE_FIVEDIMCREATEPHANTOMPLAYERACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E856120)
+#define RPG_GAMECORE_FIVEDIMCREATEPHANTOMPLAYERACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E856130)
+#define RPG_GAMECORE_FIVEDIMCREATEPHANTOMPLAYERACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8560F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCreatePhantomPlayerAction_TypeDefinitionIndex = 18667;
+	inline static constexpr unsigned int FiveDimCreatePhantomPlayerAction_TypeDefinitionIndex = 18827;
 
 	class FiveDimCreatePhantomPlayerAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -21,6 +21,7 @@ namespace RPG::GameCore
 		::System::Byte _padding0[0x7];
 		::System::String* Name; // 0x20
 		::System::Boolean InterruptSameName; // 0x28
+		::System::Boolean Permanent; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEPHANTOMPLAYERACTION_CTOR_OFFSET))(this);

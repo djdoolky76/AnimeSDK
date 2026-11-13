@@ -6,27 +6,27 @@ class OLGBOBMGFIA;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DCCFDMGDNGN_CTOR_OFFSET UNITYSDK_OFFSET(0xE233540)
-#define DCCFDMGDNGN_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xE2335E0)
-#define DCCFDMGDNGN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xE233640)
-#define DCCFDMGDNGN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE234180)
-#define DCCFDMGDNGN_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xE2336E0)
+#define DCCFDMGDNGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B1619A0)
+#define DCCFDMGDNGN_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0x1B161A40)
+#define DCCFDMGDNGN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1B161AA0)
+#define DCCFDMGDNGN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1B1625E0)
+#define DCCFDMGDNGN_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1B161B40)
 
-inline static constexpr unsigned int DCCFDMGDNGN_TypeDefinitionIndex = 74042;
+inline static constexpr unsigned int DCCFDMGDNGN_TypeDefinitionIndex = 76187;
 
 	class DCCFDMGDNGN : public ::System::Object
 	{
 	public:
-		::System::String* EOEABKONOAK; // 0x10
-		::System::String* EFAFKFONJHP; // 0x18
-		::System::String* CLPNGEGJBBE; // 0x20
-		::System::String* NKAACMGNNPK; // 0x28
-		::System::String* GLEBPCFAPMP; // 0x30
-		::System::String* EFNAJMADAHM; // 0x38
-		::System::String* HCDEOKNIGKG; // 0x40
-		::System::String* COCBDJEDAJM; // 0x48
-		::System::String* GOKAENLDALA; // 0x50
-		::System::String* FFBMNFMDBID; // 0x58
+		::System::String* EFAFKFONJHP; // 0x10
+		::System::String* GLEBPCFAPMP; // 0x18
+		::System::String* EOEABKONOAK; // 0x20
+		::System::String* HCDEOKNIGKG; // 0x28
+		::System::String* GOKAENLDALA; // 0x30
+		::System::String* CLPNGEGJBBE; // 0x38
+		::System::String* FFBMNFMDBID; // 0x40
+		::System::String* NKAACMGNNPK; // 0x48
+		::System::String* COCBDJEDAJM; // 0x50
+		::System::String* EFNAJMADAHM; // 0x58
 		::EKOGGFMOBNK FJCAKOIDONG; // 0x60
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{

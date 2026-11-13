@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A7C0)
-#define RPG_GAMECORE_RTABILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA1A7D0)
-#define RPG_GAMECORE_RTABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1A790)
+#define RPG_GAMECORE_RTABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF3BC40)
+#define RPG_GAMECORE_RTABILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF3BC50)
+#define RPG_GAMECORE_RTABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF3BC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAbilityConfig_TypeDefinitionIndex = 17648;
+	inline static constexpr unsigned int RtAbilityConfig_TypeDefinitionIndex = 17817;
 
 	class RtAbilityConfig : public ::RPG::GameCore::AbilityConfig
 	{

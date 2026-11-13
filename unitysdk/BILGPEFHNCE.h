@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimDoorConfig; }
 
-#define BILGPEFHNCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88CDC0)
+#define BILGPEFHNCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B7580)
 
-inline static constexpr unsigned int BILGPEFHNCE_TypeDefinitionIndex = 43476;
+inline static constexpr unsigned int BILGPEFHNCE_TypeDefinitionIndex = 44458;
 
 	class BILGPEFHNCE : public ::System::Object
 	{

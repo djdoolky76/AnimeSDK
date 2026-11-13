@@ -5,22 +5,22 @@ class HEJLOAOKDGE;
 namespace Sofa { class BaseSofaWindow; }
 namespace System { class Object; }
 
-#define BBKMLDGICCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E829C0)
-#define BBKMLDGICCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E829F0)
-#define BBKMLDGICCH___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x15E82A00)
-#define BBKMLDGICCH___C___CCTOR_B__13_1_OFFSET UNITYSDK_OFFSET(0x15E82AF0)
-#define BBKMLDGICCH___C___CCTOR_B__13_2_OFFSET UNITYSDK_OFFSET(0x15E82BE0)
-#define BBKMLDGICCH___C___CCTOR_B__13_3_OFFSET UNITYSDK_OFFSET(0x15E82CD0)
-#define BBKMLDGICCH___C___CCTOR_B__13_4_OFFSET UNITYSDK_OFFSET(0x15E82DE0)
+#define BBKMLDGICCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x199FB650)
+#define BBKMLDGICCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x199FB680)
+#define BBKMLDGICCH___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x199FB690)
+#define BBKMLDGICCH___C___CCTOR_B__13_1_OFFSET UNITYSDK_OFFSET(0x199FB780)
+#define BBKMLDGICCH___C___CCTOR_B__13_2_OFFSET UNITYSDK_OFFSET(0x199FB870)
+#define BBKMLDGICCH___C___CCTOR_B__13_3_OFFSET UNITYSDK_OFFSET(0x199FB960)
+#define BBKMLDGICCH___C___CCTOR_B__13_4_OFFSET UNITYSDK_OFFSET(0x199FBA70)
 
-inline static constexpr unsigned int BBKMLDGICCH___c_TypeDefinitionIndex = 80518;
+inline static constexpr unsigned int BBKMLDGICCH___c_TypeDefinitionIndex = 83298;
 
 	class BBKMLDGICCH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65230);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67890);
 		}
 
 		static ::System::Void _cctor()

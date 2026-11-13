@@ -3,7 +3,7 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-inline static constexpr unsigned int KHCJDCLPAMC_TypeDefinitionIndex = 43437;
+inline static constexpr unsigned int KHCJDCLPAMC_TypeDefinitionIndex = 44419;
 
 	struct alignas(8) KHCJDCLPAMC
 	{

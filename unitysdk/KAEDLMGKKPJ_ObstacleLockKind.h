@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KAEDLMGKKPJ_ObstacleLockKind_TypeDefinitionIndex = 77403;
+inline static constexpr unsigned int KAEDLMGKKPJ_ObstacleLockKind_TypeDefinitionIndex = 79737;
 
 	enum class KAEDLMGKKPJ_ObstacleLockKind : ::System::Int32
 	{

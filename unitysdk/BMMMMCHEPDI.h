@@ -5,17 +5,17 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define BMMMMCHEPDI_AEGMLJMJBDO_OFFSET UNITYSDK_OFFSET(0xBDBADA0)
-#define BMMMMCHEPDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBAD50)
-#define BMMMMCHEPDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDBB1E0)
+#define BMMMMCHEPDI_AEGMLJMJBDO_OFFSET UNITYSDK_OFFSET(0x1A751A60)
+#define BMMMMCHEPDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A751A10)
+#define BMMMMCHEPDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A751EA0)
 
-inline static constexpr unsigned int BMMMMCHEPDI_TypeDefinitionIndex = 78507;
+inline static constexpr unsigned int BMMMMCHEPDI_TypeDefinitionIndex = 81242;
 
 	class BMMMMCHEPDI : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x10
-		::RPG::GameCore::TransformComponent* NIDHDAOGNKO; // 0x18
+		::RPG::GameCore::TransformComponent* NIDHDAOGNKO; // 0x10
+		::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x18
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + BMMMMCHEPDI_CTOR_OFFSET))(this, a1);

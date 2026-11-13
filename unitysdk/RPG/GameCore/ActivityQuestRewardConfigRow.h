@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityQuestRewardConfigRow; }
 
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3452D0)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D344CC0)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8C600)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA8BFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestRewardConfigRow_TypeDefinitionIndex = 12303;
+	inline static constexpr unsigned int ActivityQuestRewardConfigRow_TypeDefinitionIndex = 12360;
 
 	class ActivityQuestRewardConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestTabGroupList; // 0x10
-		::System::UInt32 ActivityModule; // 0x18
-		::System::UInt32 ActivityRewardID; // 0x1C
-		::System::UInt32 FinalRewardQuest; // 0x20
+		::System::UInt32 ActivityRewardID; // 0x18
+		::System::UInt32 FinalRewardQuest; // 0x1C
+		::System::UInt32 ActivityModule; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_CTOR_OFFSET))(this);

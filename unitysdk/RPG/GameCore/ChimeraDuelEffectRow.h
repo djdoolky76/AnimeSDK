@@ -5,24 +5,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelEffectRow; }
 
-#define RPG_GAMECORE_CHIMERADUELEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D571660)
-#define RPG_GAMECORE_CHIMERADUELEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D571380)
+#define RPG_GAMECORE_CHIMERADUELEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9278C0)
+#define RPG_GAMECORE_CHIMERADUELEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F9275E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEffectRow_TypeDefinitionIndex = 11124;
+	inline static constexpr unsigned int ChimeraDuelEffectRow_TypeDefinitionIndex = 11140;
 
 	class ChimeraDuelEffectRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Exp; // 0x10
-		::System::Boolean ParamBool; // 0x14
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::ChimeraDuelServerEffectType EffectType; // 0x18
+		::System::Int32 ParamInt; // 0x10
+		::RPG::GameCore::ChimeraDuelServerEffectType EffectType; // 0x14
+		::System::UInt32 Exp; // 0x18
 		::System::UInt32 EffectID; // 0x1C
-		::System::Int32 Attack; // 0x20
+		::System::Boolean ParamBool; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Int32 Hp; // 0x24
-		::System::Int32 ParamInt; // 0x28
+		::System::Int32 Attack; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELEFFECTROW_CTOR_OFFSET))(this);

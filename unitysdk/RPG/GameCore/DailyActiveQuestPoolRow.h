@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DailyActiveQuestPoolRow; }
 
-#define RPG_GAMECORE_DAILYACTIVEQUESTPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C08F0)
-#define RPG_GAMECORE_DAILYACTIVEQUESTPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C07D0)
+#define RPG_GAMECORE_DAILYACTIVEQUESTPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF9D30)
+#define RPG_GAMECORE_DAILYACTIVEQUESTPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EFF9C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DailyActiveQuestPoolRow_TypeDefinitionIndex = 13115;
+	inline static constexpr unsigned int DailyActiveQuestPoolRow_TypeDefinitionIndex = 13183;
 
 	class DailyActiveQuestPoolRow : public ::System::Object
 	{

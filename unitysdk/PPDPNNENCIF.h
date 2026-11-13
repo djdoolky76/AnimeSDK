@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PPDPNNENCIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC375A80)
-#define PPDPNNENCIF_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xC375700)
-#define PPDPNNENCIF_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xC375A30)
-#define PPDPNNENCIF_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xC3759C0)
-#define PPDPNNENCIF_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0xC375750)
+#define PPDPNNENCIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A2100)
+#define PPDPNNENCIF_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x1B8A1D80)
+#define PPDPNNENCIF_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x1B8A20B0)
+#define PPDPNNENCIF_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x1B8A2040)
+#define PPDPNNENCIF_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0x1B8A1DD0)
 
-inline static constexpr unsigned int PPDPNNENCIF_TypeDefinitionIndex = 64393;
+inline static constexpr unsigned int PPDPNNENCIF_TypeDefinitionIndex = 65839;
 
-	class PPDPNNENCIF : public ::AMCOEFHHBPO
+	class PPDPNNENCIF : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* FPMHFDPGEOA; // 0x10

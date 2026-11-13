@@ -6,21 +6,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirRecommendConfigRow; }
 
-#define RPG_GAMECORE_PIXAIRRECOMMENDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EFD60)
-#define RPG_GAMECORE_PIXAIRRECOMMENDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EFAF0)
+#define RPG_GAMECORE_PIXAIRRECOMMENDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5E4C0)
+#define RPG_GAMECORE_PIXAIRRECOMMENDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE5E250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirRecommendConfigRow_TypeDefinitionIndex = 12137;
+	inline static constexpr unsigned int PixAirRecommendConfigRow_TypeDefinitionIndex = 12194;
 
 	class PixAirRecommendConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EquipList; // 0x10
 		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* CoreRecommendTags; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 CoreID; // 0x24
-		::RPG::Client::TextID Title; // 0x28
+		::RPG::Client::TextID Title; // 0x20
+		::System::UInt32 CoreID; // 0x30
+		::System::UInt32 ID; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRRECOMMENDCONFIGROW_CTOR_OFFSET))(this);

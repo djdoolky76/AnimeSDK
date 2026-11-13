@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DHKJJCNKNLI_AutoAbility_TypeDefinitionIndex = 77265;
+inline static constexpr unsigned int DHKJJCNKNLI_AutoAbility_TypeDefinitionIndex = 79599;
 
 	enum class DHKJJCNKNLI_AutoAbility : ::System::Int32
 	{

@@ -20,11 +20,11 @@ namespace CriWare { class CriAtomConfig_VitaManaVoicePoolConfig; }
 namespace CriWare { class CriAtomConfig_WebGLWebAudioVoicePoolConfig; }
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x166BE220)
+#define CRIWARE_CRIATOMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BFCA0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_TypeDefinitionIndex = 40152;
+	inline static constexpr unsigned int CriAtomConfig_TypeDefinitionIndex = 41127;
 
 	class CriAtomConfig : public ::System::Object
 	{

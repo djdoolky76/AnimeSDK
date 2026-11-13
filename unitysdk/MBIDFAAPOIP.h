@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMissionCustomValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MBIDFAAPOIP_CTOR_OFFSET UNITYSDK_OFFSET(0xB8550E0)
-#define MBIDFAAPOIP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB855110)
+#define MBIDFAAPOIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1B821480)
+#define MBIDFAAPOIP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B8214B0)
 
-inline static constexpr unsigned int MBIDFAAPOIP_TypeDefinitionIndex = 52579;
+inline static constexpr unsigned int MBIDFAAPOIP_TypeDefinitionIndex = 53685;
 
 	class MBIDFAAPOIP
 	{

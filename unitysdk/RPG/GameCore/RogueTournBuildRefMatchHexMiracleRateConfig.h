@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournBuildRefMatchHexMiracleRateConfig; }
 
-#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHHEXMIRACLERATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA077E0)
-#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHHEXMIRACLERATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA076B0)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHHEXMIRACLERATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF280C0)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHHEXMIRACLERATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF27F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuildRefMatchHexMiracleRateConfig_TypeDefinitionIndex = 17679;
+	inline static constexpr unsigned int RogueTournBuildRefMatchHexMiracleRateConfig_TypeDefinitionIndex = 17848;
 
 	class RogueTournBuildRefMatchHexMiracleRateConfig : public ::RPG::GameCore::JsonConfig
 	{

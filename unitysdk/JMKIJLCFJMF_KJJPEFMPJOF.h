@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIConfig_ProgressKeyframe; }
 
-#define JMKIJLCFJMF_KJJPEFMPJOF_NDKJPHKDGDP_OFFSET UNITYSDK_OFFSET(0xB263CF0)
+#define JMKIJLCFJMF_KJJPEFMPJOF_NDKJPHKDGDP_OFFSET UNITYSDK_OFFSET(0x1A0B25D0)
 
-inline static constexpr unsigned int JMKIJLCFJMF_KJJPEFMPJOF_TypeDefinitionIndex = 58423;
+inline static constexpr unsigned int JMKIJLCFJMF_KJJPEFMPJOF_TypeDefinitionIndex = 59679;
 
 	struct alignas(8) JMKIJLCFJMF_KJJPEFMPJOF
 	{

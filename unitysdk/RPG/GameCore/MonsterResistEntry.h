@@ -6,18 +6,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterResistEntry; }
 
-#define RPG_GAMECORE_MONSTERRESISTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D889CA0)
-#define RPG_GAMECORE_MONSTERRESISTENTRY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D889B50)
+#define RPG_GAMECORE_MONSTERRESISTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E47AA40)
+#define RPG_GAMECORE_MONSTERRESISTENTRY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E47A8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterResistEntry_TypeDefinitionIndex = 14173;
+	inline static constexpr unsigned int MonsterResistEntry_TypeDefinitionIndex = 14330;
 
 	class MonsterResistEntry : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint Value; // 0x10
-		::RPG::GameCore::ModifierBehaviorFlag Key; // 0x18
+		::RPG::GameCore::ModifierBehaviorFlag Key; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint Value; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERRESISTENTRY_CTOR_OFFSET))(this);

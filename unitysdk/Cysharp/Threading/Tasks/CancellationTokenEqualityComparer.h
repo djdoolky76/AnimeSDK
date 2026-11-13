@@ -4,21 +4,21 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0E7970)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E7960)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F0E7850)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F0E7900)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F15AEE0)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F15AED0)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F15ADC0)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F15AE70)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int CancellationTokenEqualityComparer_TypeDefinitionIndex = 38133;
+	inline static constexpr unsigned int CancellationTokenEqualityComparer_TypeDefinitionIndex = 39062;
 
 	class CancellationTokenEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::IEqualityComparer_1<::System::Threading::CancellationToken>** StaticGet_Default()
 		{
-			return (::System::Collections::Generic::IEqualityComparer_1<::System::Threading::CancellationToken>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenEqualityComparer")->GetStaticField(0x36820);
+			return (::System::Collections::Generic::IEqualityComparer_1<::System::Threading::CancellationToken>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenEqualityComparer")->GetStaticField(0x31D70);
 		}
 
 		::System::Void _ctor()

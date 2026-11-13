@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_ProtocolReConfirmElements_TypeDefinitionIndex = 46807;
+	inline static constexpr unsigned int UIConstants_ProtocolReConfirmElements_TypeDefinitionIndex = 47835;
 
 	class UIConstants_ProtocolReConfirmElements : public ::System::Object
 	{

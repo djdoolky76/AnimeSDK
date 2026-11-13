@@ -4,18 +4,18 @@
 class DAGNHGIBCPG;
 namespace System { class Object; }
 
-#define DAGNHGIBCPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E124EB0)
-#define DAGNHGIBCPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E124EE0)
-#define DAGNHGIBCPG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E124EF0)
+#define DAGNHGIBCPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x202A7D70)
+#define DAGNHGIBCPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x202A7DA0)
+#define DAGNHGIBCPG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x202A7DB0)
 
-inline static constexpr unsigned int DAGNHGIBCPG___c_TypeDefinitionIndex = 27852;
+inline static constexpr unsigned int DAGNHGIBCPG___c_TypeDefinitionIndex = 28429;
 
 	class DAGNHGIBCPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21AB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BAB0);
 		}
 
 		static ::System::Void _cctor()

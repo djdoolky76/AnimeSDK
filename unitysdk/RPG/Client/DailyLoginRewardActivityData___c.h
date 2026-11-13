@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBDF750)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDF790)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET UNITYSDK_OFFSET(0xCBDF7A0)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7F7AA0)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F7AE0)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B7F7AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 61609;
+	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 63007;
 
 	class DailyLoginRewardActivityData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BD00);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x21EA0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BD08);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x21EA8);
 		}
 
 		static ::System::Void _cctor()

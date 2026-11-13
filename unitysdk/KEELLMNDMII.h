@@ -5,9 +5,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KEELLMNDMII_CTOR_OFFSET UNITYSDK_OFFSET(0xB36E550)
+#define KEELLMNDMII_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D8460)
 
-inline static constexpr unsigned int KEELLMNDMII_TypeDefinitionIndex = 56326;
+inline static constexpr unsigned int KEELLMNDMII_TypeDefinitionIndex = 57540;
 
 	class KEELLMNDMII : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTimedEffect; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC4C96C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1__SHOWFUNCUNLOCKFLY_B__1_OFFSET UNITYSDK_OFFSET(0xC4C96D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B1480)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1__SHOWFUNCUNLOCKFLY_B__1_OFFSET UNITYSDK_OFFSET(0x1D6B1490)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService___c__DisplayClass6_1_TypeDefinitionIndex = 75294;
+	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService___c__DisplayClass6_1_TypeDefinitionIndex = 77621;
 
 	template <typename T>
 	class IdleLiveFuncUnlockFlyService___c__DisplayClass6_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
-		::RPG::Client::ActivityIdleLive::IdleLiveTimedEffect* timedEffect; // 0x18
+		::RPG::Client::ActivityIdleLive::IdleLiveTimedEffect* timedEffect; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1_CTOR_OFFSET))(this);

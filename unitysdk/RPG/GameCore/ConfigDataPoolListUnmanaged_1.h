@@ -4,7 +4,7 @@ class LELCKJPOPAO;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolListUnmanaged_1_TypeDefinitionIndex = 10794;
+	inline static constexpr unsigned int ConfigDataPoolListUnmanaged_1_TypeDefinitionIndex = 10810;
 
 	template <typename T>
 	struct alignas(8) ConfigDataPoolListUnmanaged_1

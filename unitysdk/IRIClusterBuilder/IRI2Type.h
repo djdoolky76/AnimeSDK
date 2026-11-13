@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define IRICLUSTERBUILDER_IRI2TYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1651E260)
+#define IRICLUSTERBUILDER_IRI2TYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1930B6E0)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRI2Type_TypeDefinitionIndex = 47739;
+	inline static constexpr unsigned int IRI2Type_TypeDefinitionIndex = 48769;
 
 	class IRI2Type : public ::UnityEngine::MonoBehaviour
 	{

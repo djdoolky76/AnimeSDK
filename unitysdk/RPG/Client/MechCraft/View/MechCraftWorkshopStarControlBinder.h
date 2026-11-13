@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 namespace RPG::Client { class UIStateCtrl; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPSTARCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD66D680)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPSTARCONTROLBINDER_GET_STATECTRL_OFFSET UNITYSDK_OFFSET(0xD66D5A0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPSTARCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E90BC70)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPSTARCONTROLBINDER_GET_STATECTRL_OFFSET UNITYSDK_OFFSET(0x1E90BB90)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftWorkshopStarControlBinder_TypeDefinitionIndex = 80080;
+	inline static constexpr unsigned int MechCraftWorkshopStarControlBinder_TypeDefinitionIndex = 82857;
 
 	class MechCraftWorkshopStarControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

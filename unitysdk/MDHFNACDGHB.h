@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MDHFNACDGHB_CCPGCKJDFAK_OFFSET UNITYSDK_OFFSET(0xB89E730)
-#define MDHFNACDGHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB89E7E0)
+#define MDHFNACDGHB_CCPGCKJDFAK_OFFSET UNITYSDK_OFFSET(0x183DE6F0)
+#define MDHFNACDGHB_CTOR_OFFSET UNITYSDK_OFFSET(0x183DE7A0)
 
-inline static constexpr unsigned int MDHFNACDGHB_TypeDefinitionIndex = 49078;
+inline static constexpr unsigned int MDHFNACDGHB_TypeDefinitionIndex = 50154;
 
 	class MDHFNACDGHB : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckBloodLinkDead; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOLEFCLAELL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DAD140)
-#define HOLEFCLAELL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DAD170)
+#define HOLEFCLAELL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF26DF0)
+#define HOLEFCLAELL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AF26E20)
 
-inline static constexpr unsigned int HOLEFCLAELL_TypeDefinitionIndex = 54494;
+inline static constexpr unsigned int HOLEFCLAELL_TypeDefinitionIndex = 55658;
 
 	class HOLEFCLAELL
 	{

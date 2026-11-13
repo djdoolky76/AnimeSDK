@@ -4,7 +4,7 @@
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH2_AABBWrap_TypeDefinitionIndex = 37496;
+	inline static constexpr unsigned int BVH2_AABBWrap_TypeDefinitionIndex = 38424;
 
 	struct alignas(4) BVH2_AABBWrap
 	{

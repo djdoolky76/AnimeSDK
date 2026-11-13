@@ -4,10 +4,10 @@
 namespace RPGTools { class TimelineData; }
 namespace System { class String; }
 
-#define NCEDGGKOMIH___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB039C0)
-#define NCEDGGKOMIH___C__DISPLAYCLASS35_0___GETTIMELINEPATH_B__0_OFFSET UNITYSDK_OFFSET(0xBB039F0)
+#define NCEDGGKOMIH___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x150F4C80)
+#define NCEDGGKOMIH___C__DISPLAYCLASS35_0___GETTIMELINEPATH_B__0_OFFSET UNITYSDK_OFFSET(0x150F4CB0)
 
-inline static constexpr unsigned int NCEDGGKOMIH___c__DisplayClass35_0_TypeDefinitionIndex = 48495;
+inline static constexpr unsigned int NCEDGGKOMIH___c__DisplayClass35_0_TypeDefinitionIndex = 49536;
 
 	class NCEDGGKOMIH___c__DisplayClass35_0 : public ::System::Object
 	{

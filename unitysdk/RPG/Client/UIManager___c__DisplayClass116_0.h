@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS116_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3ACA50)
-#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS116_0___RESTORESCENE_B__0_OFFSET UNITYSDK_OFFSET(0xE3B6240)
+#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS116_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1758C6D0)
+#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS116_0___RESTORESCENE_B__0_OFFSET UNITYSDK_OFFSET(0x17595E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIManager___c__DisplayClass116_0_TypeDefinitionIndex = 73082;
+	inline static constexpr unsigned int UIManager___c__DisplayClass116_0_TypeDefinitionIndex = 75196;
 
 	class UIManager___c__DisplayClass116_0 : public ::System::Object
 	{

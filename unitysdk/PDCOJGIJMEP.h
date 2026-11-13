@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define PDCOJGIJMEP_CTOR_OFFSET UNITYSDK_OFFSET(0xC0062D0)
+#define PDCOJGIJMEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AADECD0)
 
-inline static constexpr unsigned int PDCOJGIJMEP_TypeDefinitionIndex = 48372;
+inline static constexpr unsigned int PDCOJGIJMEP_TypeDefinitionIndex = 49413;
 
 	class PDCOJGIJMEP : public ::UnityEngine::Playables::PlayableBehaviour
 	{

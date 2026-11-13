@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FourRotateVoxelPortalConfig; }
 namespace RPG::GameCore { class FourRotateVoxelPortalTarget; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C3790)
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C37A0)
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C3760)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B72F0)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F7B7300)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7B72C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelPortalConfig_TypeDefinitionIndex = 16752;
+	inline static constexpr unsigned int FourRotateVoxelPortalConfig_TypeDefinitionIndex = 16918;
 
 	class FourRotateVoxelPortalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

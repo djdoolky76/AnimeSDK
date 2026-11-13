@@ -9,10 +9,10 @@ class MDIMPDIOOIE;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define GDFPOKAIKEE_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C44A050)
-#define GDFPOKAIKEE_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C449040)
+#define GDFPOKAIKEE_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x15B0A3F0)
+#define GDFPOKAIKEE_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x15B093E0)
 
-inline static constexpr unsigned int GDFPOKAIKEE_TypeDefinitionIndex = 41537;
+inline static constexpr unsigned int GDFPOKAIKEE_TypeDefinitionIndex = 42512;
 
 	class GDFPOKAIKEE : public ::System::Object
 	{

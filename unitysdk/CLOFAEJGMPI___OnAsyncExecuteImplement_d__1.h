@@ -6,18 +6,18 @@
 class CLOFAEJGMPI;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLOFAEJGMPI___ONASYNCEXECUTEIMPLEMENT_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C529A0)
-#define CLOFAEJGMPI___ONASYNCEXECUTEIMPLEMENT_D__1_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define CLOFAEJGMPI___ONASYNCEXECUTEIMPLEMENT_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3F246C0)
+#define CLOFAEJGMPI___ONASYNCEXECUTEIMPLEMENT_D__1_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xB480)
 
-inline static constexpr unsigned int CLOFAEJGMPI___OnAsyncExecuteImplement_d__1_TypeDefinitionIndex = 44191;
+inline static constexpr unsigned int CLOFAEJGMPI___OnAsyncExecuteImplement_d__1_TypeDefinitionIndex = 45266;
 
 	template <typename T>
 	struct alignas(8) CLOFAEJGMPI___OnAsyncExecuteImplement_d__1
 	{
-		::CLOFAEJGMPI* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
-		::System::Threading::CancellationToken cancelToken; // 0x38
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::CLOFAEJGMPI* __4__this; // 0x20
+		::System::Threading::CancellationToken cancelToken; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
 		::System::Int32 __1__state; // 0x40
 		::System::Void MoveNext()
 		{

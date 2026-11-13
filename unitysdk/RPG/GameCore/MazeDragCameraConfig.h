@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeDragCameraConfig; }
 
-#define RPG_GAMECORE_MAZEDRAGCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D837C20)
-#define RPG_GAMECORE_MAZEDRAGCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D837670)
+#define RPG_GAMECORE_MAZEDRAGCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6BD80)
+#define RPG_GAMECORE_MAZEDRAGCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6B920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeDragCameraConfig_TypeDefinitionIndex = 17628;
+	inline static constexpr unsigned int MazeDragCameraConfig_TypeDefinitionIndex = 17797;
 
 	class MazeDragCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

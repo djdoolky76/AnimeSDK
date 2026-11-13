@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueAdventureWolfGunSpecialTargetWeightMapConfig; }
 
-#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETWEIGHTMAPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D976E90)
-#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETWEIGHTMAPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D976E50)
+#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETWEIGHTMAPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F55C5B0)
+#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNSPECIALTARGETWEIGHTMAPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F55C570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdventureWolfGunSpecialTargetWeightMapConfig_TypeDefinitionIndex = 17901;
+	inline static constexpr unsigned int RogueAdventureWolfGunSpecialTargetWeightMapConfig_TypeDefinitionIndex = 18070;
 
 	class RogueAdventureWolfGunSpecialTargetWeightMapConfig : public ::RPG::GameCore::JsonConfig
 	{

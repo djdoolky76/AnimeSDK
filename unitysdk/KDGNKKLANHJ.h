@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimScrollAgentConfig; }
 
-#define KDGNKKLANHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB83320)
+#define KDGNKKLANHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2BEC0)
 
-inline static constexpr unsigned int KDGNKKLANHJ_TypeDefinitionIndex = 43366;
+inline static constexpr unsigned int KDGNKKLANHJ_TypeDefinitionIndex = 44347;
 
 	class KDGNKKLANHJ : public ::System::Object
 	{

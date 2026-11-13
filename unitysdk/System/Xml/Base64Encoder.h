@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_BASE64ENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE64760)
-#define SYSTEM_XML_BASE64ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EE64790)
-#define SYSTEM_XML_BASE64ENCODER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1EE64BB0)
+#define SYSTEM_XML_BASE64ENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F7240)
+#define SYSTEM_XML_BASE64ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1D1F7270)
+#define SYSTEM_XML_BASE64ENCODER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1D1F7690)
 
 namespace System::Xml
 {
@@ -13,8 +13,8 @@ namespace System::Xml
 	class Base64Encoder : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* leftOverBytes; // 0x10
-		::Il2CppArray<::System::Char>* charsLine; // 0x18
+		::Il2CppArray<::System::Char>* charsLine; // 0x10
+		::Il2CppArray<::System::Byte>* leftOverBytes; // 0x18
 		::System::Int32 leftOverBytesCount; // 0x20
 		::System::Void _ctor()
 		{

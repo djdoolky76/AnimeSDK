@@ -6,16 +6,16 @@ class CFAFCENLLLD;
 class KGPCBBIOGLB;
 namespace System { class String; }
 
-#define APBALBFNHIN_OICJKAGKNBB_CTOR_OFFSET UNITYSDK_OFFSET(0x158BE9D0)
+#define APBALBFNHIN_OICJKAGKNBB_CTOR_OFFSET UNITYSDK_OFFSET(0x184EB430)
 
-inline static constexpr unsigned int APBALBFNHIN_OICJKAGKNBB_TypeDefinitionIndex = 59545;
+inline static constexpr unsigned int APBALBFNHIN_OICJKAGKNBB_TypeDefinitionIndex = 60822;
 
 	class APBALBFNHIN_OICJKAGKNBB : public ::System::Object
 	{
 	public:
-		::System::String* MLACNPDMCGK; // 0x10
-		::KGPCBBIOGLB* FJCAKOIDONG; // 0x18
-		::CFAFCENLLLD* JCHIMPGIMCE; // 0x20
+		::CFAFCENLLLD* JCHIMPGIMCE; // 0x10
+		::System::String* MLACNPDMCGK; // 0x18
+		::KGPCBBIOGLB* FJCAKOIDONG; // 0x20
 		::RPG::Client::ByteHash16 HHPFNGFAJIA; // 0x28
 		::System::Int64 EEBBDOKAKOM; // 0x38
 		::System::Void _ctor()

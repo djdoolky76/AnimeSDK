@@ -3,10 +3,10 @@
 class PIPIGCPDNBO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MAEFAIFDAEF_CTOR_OFFSET UNITYSDK_OFFSET(0xB845910)
-#define MAEFAIFDAEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB845940)
+#define MAEFAIFDAEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DFAE0)
+#define MAEFAIFDAEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B6DFB10)
 
-inline static constexpr unsigned int MAEFAIFDAEF_TypeDefinitionIndex = 53887;
+inline static constexpr unsigned int MAEFAIFDAEF_TypeDefinitionIndex = 55051;
 
 	class MAEFAIFDAEF
 	{

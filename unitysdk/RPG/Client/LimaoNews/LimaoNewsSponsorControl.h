@@ -6,13 +6,13 @@ namespace RPG::Client::LimaoNews { class LimaoNewsSponsorItemControl; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3DC890)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3DC3F0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3DC120)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBEDB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1CBBE910)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1CBBE640)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsSponsorControl_TypeDefinitionIndex = 80398;
+	inline static constexpr unsigned int LimaoNewsSponsorControl_TypeDefinitionIndex = 83178;
 
 	class LimaoNewsSponsorControl : public ::Sofa::BaseSofaControl
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYCOOLDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DB010)
+#define RPG_CLIENT_LITTLEGAME_ROADRASH_ROADRASHABILITYCOOLDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0x207135E0)
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int RoadRashAbilityCoolDown_TypeDefinitionIndex = 42884;
+	inline static constexpr unsigned int RoadRashAbilityCoolDown_TypeDefinitionIndex = 43865;
 
 	class RoadRashAbilityCoolDown : public ::System::Object
 	{

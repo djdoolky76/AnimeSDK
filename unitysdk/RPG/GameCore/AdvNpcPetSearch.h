@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvNpcPetSearch; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVNPCPETSEARCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37AD00)
-#define RPG_GAMECORE_ADVNPCPETSEARCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D37AD20)
-#define RPG_GAMECORE_ADVNPCPETSEARCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D37ACB0)
+#define RPG_GAMECORE_ADVNPCPETSEARCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DC830)
+#define RPG_GAMECORE_ADVNPCPETSEARCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8DC850)
+#define RPG_GAMECORE_ADVNPCPETSEARCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DC7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcPetSearch_TypeDefinitionIndex = 19990;
+	inline static constexpr unsigned int AdvNpcPetSearch_TypeDefinitionIndex = 20324;
 
 	class AdvNpcPetSearch : public ::RPG::GameCore::TaskConfig
 	{

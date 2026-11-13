@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchContextDialogueTalkTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HMJAJLLNBJG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D76D70)
-#define HMJAJLLNBJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D76DE0)
+#define HMJAJLLNBJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3571C0)
+#define HMJAJLLNBJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A357230)
 
-inline static constexpr unsigned int HMJAJLLNBJG_TypeDefinitionIndex = 59099;
+inline static constexpr unsigned int HMJAJLLNBJG_TypeDefinitionIndex = 60374;
 
 	class HMJAJLLNBJG
 	{

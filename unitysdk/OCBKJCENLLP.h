@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ILPPBGLJABD.h"
 
-#define OCBKJCENLLP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD529E0)
+#define OCBKJCENLLP_CTOR_OFFSET UNITYSDK_OFFSET(0x19A04A20)
 
-inline static constexpr unsigned int OCBKJCENLLP_TypeDefinitionIndex = 62304;
+inline static constexpr unsigned int OCBKJCENLLP_TypeDefinitionIndex = 63717;
 
 	class OCBKJCENLLP : public ::ILPPBGLJABD
 	{

@@ -4,18 +4,18 @@
 class GGAMIKNEDGE;
 namespace System { class Object; }
 
-#define GGAMIKNEDGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E44A280)
-#define GGAMIKNEDGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E44A2C0)
-#define GGAMIKNEDGE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E44A2D0)
+#define GGAMIKNEDGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2008AFE0)
+#define GGAMIKNEDGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2008B020)
+#define GGAMIKNEDGE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2008B030)
 
-inline static constexpr unsigned int GGAMIKNEDGE___c_TypeDefinitionIndex = 29557;
+inline static constexpr unsigned int GGAMIKNEDGE___c_TypeDefinitionIndex = 30337;
 
 	class GGAMIKNEDGE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14FE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCA80);
 		}
 
 		static ::System::Void _cctor()

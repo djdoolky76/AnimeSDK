@@ -4,12 +4,12 @@
 namespace RPGTools::Timeline { class CharacterStopFullBodyChainData; }
 namespace RPGTools::Timeline { class CharacterStopFullBodyData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE8C2DE0)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C2F90)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x1E3F09C0)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F0B70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopFullBodyBehaviour_TypeDefinitionIndex = 47965;
+	inline static constexpr unsigned int CharacterStopFullBodyBehaviour_TypeDefinitionIndex = 48996;
 
 	class CharacterStopFullBodyBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

@@ -4,15 +4,15 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD35260)
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCD35250)
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD35150)
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD34D40)
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD34E40)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17BF65D0)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_CTOR_OFFSET UNITYSDK_OFFSET(0x17BF65C0)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17BF64C0)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17BF60B0)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x17BF61B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InvSceneRotationTransmitter_TypeDefinitionIndex = 70491;
+	inline static constexpr unsigned int Effect_InvSceneRotationTransmitter_TypeDefinitionIndex = 72466;
 
 	class Effect_InvSceneRotationTransmitter : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,12 +23,12 @@ namespace RPG::Client
 		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x28
 		static ::System::Int32* StaticGet_AIBNFJNLLPD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_InvSceneRotationTransmitter")->GetStaticField(0xA5E0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_InvSceneRotationTransmitter")->GetStaticField(0xCBD0);
 		}
 
 		static ::System::Int32* StaticGet_BNKGBAGOBEC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_InvSceneRotationTransmitter")->GetStaticField(0xA5E4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_InvSceneRotationTransmitter")->GetStaticField(0xCBD4);
 		}
 
 		::System::Void _ctor()

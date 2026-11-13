@@ -8,30 +8,30 @@ namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collision; }
 
-#define LDLBMDMFIEE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8DEC40)
-#define LDLBMDMFIEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DEE30)
-#define LDLBMDMFIEE_FBNDHBBKGCJ_OFFSET UNITYSDK_OFFSET(0x1C8DED90)
-#define LDLBMDMFIEE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C8DEB40)
+#define LDLBMDMFIEE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D638D20)
+#define LDLBMDMFIEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D638F00)
+#define LDLBMDMFIEE_FBNDHBBKGCJ_OFFSET UNITYSDK_OFFSET(0x1D638E60)
+#define LDLBMDMFIEE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1D638C20)
 
-inline static constexpr unsigned int LDLBMDMFIEE_TypeDefinitionIndex = 43534;
+inline static constexpr unsigned int LDLBMDMFIEE_TypeDefinitionIndex = 44516;
 
 	class LDLBMDMFIEE : public ::NOOHPODHIAA
 	{
 	public:
 		::RPG::PoolList_1<::UnityEngine::Collision*>* KNEONECEFKK; // 0x338
 		::RPG::PoolHashSet_1<::System::Int32>* NCIHCMEFKMP; // 0x340
-		::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x348
+		::System::Single GPGIEFKLNKA; // 0x348
+		::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x34C
 		::System::Byte _padding0[0x2C];
-		::UnityEngine::Vector3 KEJAHHOADEC; // 0x37C
-		::System::Boolean BNAPGMEKLHB; // 0x388
-		::System::Boolean IHLODLNFJKK; // 0x389
+		::System::Boolean BNAPGMEKLHB; // 0x380
+		::System::Boolean IHLODLNFJKK; // 0x381
 		::System::Byte _padding1[0x2];
-		::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x38C
+		::UnityEngine::Vector3 KEJAHHOADEC; // 0x384
+		::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x390
 		::System::Byte _padding2[0x2C];
-		::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x3C0
+		::System::Single MHPMADJGBJB; // 0x3C4
+		::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x3C8
 		::System::Byte _padding3[0x2C];
-		::System::Single MHPMADJGBJB; // 0x3F4
-		::System::Single GPGIEFKLNKA; // 0x3F8
 		::System::Int32 HMGBOLNBDGA; // 0x3FC
 		::System::Void _ctor()
 		{

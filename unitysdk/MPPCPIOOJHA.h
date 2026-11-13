@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class MonopolyUpdateInfoOnSwitchWorld; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPPCPIOOJHA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3F2F0)
-#define MPPCPIOOJHA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA3F550)
-#define MPPCPIOOJHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA3F300)
-#define MPPCPIOOJHA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA3F500)
-#define MPPCPIOOJHA_TICK_OFFSET UNITYSDK_OFFSET(0xBA3F590)
+#define MPPCPIOOJHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B22DC70)
+#define MPPCPIOOJHA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B22DED0)
+#define MPPCPIOOJHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B22DC80)
+#define MPPCPIOOJHA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B22DE80)
+#define MPPCPIOOJHA_TICK_OFFSET UNITYSDK_OFFSET(0x1B22DF10)
 
-inline static constexpr unsigned int MPPCPIOOJHA_TypeDefinitionIndex = 58228;
+inline static constexpr unsigned int MPPCPIOOJHA_TypeDefinitionIndex = 59484;
 
 	class MPPCPIOOJHA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::MonopolyUpdateInfoOnSwitchWorld* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::MonopolyUpdateInfoOnSwitchWorld* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyUpdateInfoOnSwitchWorld* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MonopolyUpdateInfoOnSwitchWorld*))((::PBYTE)hIl2Cpp + MPPCPIOOJHA_CTOR_OFFSET))(this, a1, a2);

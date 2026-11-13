@@ -4,11 +4,11 @@
 namespace Mono::Security::Cryptography { class RC4_BBE2E2AECC964004; }
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0039D0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CREATE_OFFSET UNITYSDK_OFFSET(0x1BFFE320)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFFEAD0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_GET_IV_OFFSET UNITYSDK_OFFSET(0x1C0039C0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_SET_IV_OFFSET UNITYSDK_OFFSET(0x1BFFF0E0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB27F90)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CREATE_OFFSET UNITYSDK_OFFSET(0x1EB22890)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB23040)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_GET_IV_OFFSET UNITYSDK_OFFSET(0x1EB27F80)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_SET_IV_OFFSET UNITYSDK_OFFSET(0x1EB23650)
 
 namespace Mono::Security::Cryptography
 {
@@ -17,14 +17,14 @@ namespace Mono::Security::Cryptography
 	class RC4_BBE2E2AECC964004 : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:
-		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
-		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0x25630);
-		}
-
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0x25638);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0x2DF70);
+		}
+
+		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
+		{
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0x2DF78);
 		}
 
 		::System::Void _ctor()

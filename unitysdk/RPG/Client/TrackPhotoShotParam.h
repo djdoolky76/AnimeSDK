@@ -3,13 +3,13 @@
 #include "unitysdk/RPG/Client/TrackPhotoShotTargetResult.h"
 namespace RPG::GameCore { class TrackPhotoTrashCanConfigRow; }
 
-#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xE2AC080)
-#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_GET_EXTRASCORE_OFFSET UNITYSDK_OFFSET(0xF2E90)
-#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_GET_SCORE_OFFSET UNITYSDK_OFFSET(0xF2E30)
+#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x1C604470)
+#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_GET_EXTRASCORE_OFFSET UNITYSDK_OFFSET(0x3EED210)
+#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_GET_SCORE_OFFSET UNITYSDK_OFFSET(0x3EED1B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrackPhotoShotParam_TypeDefinitionIndex = 60925;
+	inline static constexpr unsigned int TrackPhotoShotParam_TypeDefinitionIndex = 62301;
 
 	struct alignas(8) TrackPhotoShotParam
 	{

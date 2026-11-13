@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class SpecialAvatarRow; }
 
-#define ICHBMEFJIHP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E41220)
-#define ICHBMEFJIHP_JPCDOHJACOI_OFFSET UNITYSDK_OFFSET(0x15E41180)
+#define ICHBMEFJIHP_CTOR_OFFSET UNITYSDK_OFFSET(0x188CBD60)
+#define ICHBMEFJIHP_JPCDOHJACOI_OFFSET UNITYSDK_OFFSET(0x188CBCC0)
 
-inline static constexpr unsigned int ICHBMEFJIHP_TypeDefinitionIndex = 62656;
+inline static constexpr unsigned int ICHBMEFJIHP_TypeDefinitionIndex = 64090;
 
 	class ICHBMEFJIHP : public ::System::Object
 	{

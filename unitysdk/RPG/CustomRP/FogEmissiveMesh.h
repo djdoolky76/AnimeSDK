@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CUSTOMRP_FOGEMISSIVEMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC019A0)
-#define RPG_CUSTOMRP_FOGEMISSIVEMESH_START_OFFSET UNITYSDK_OFFSET(0x1CC01960)
-#define RPG_CUSTOMRP_FOGEMISSIVEMESH_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1CC01750)
+#define RPG_CUSTOMRP_FOGEMISSIVEMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x198C89B0)
+#define RPG_CUSTOMRP_FOGEMISSIVEMESH_START_OFFSET UNITYSDK_OFFSET(0x198C8970)
+#define RPG_CUSTOMRP_FOGEMISSIVEMESH_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x198C8760)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FogEmissiveMesh_TypeDefinitionIndex = 37731;
+	inline static constexpr unsigned int FogEmissiveMesh_TypeDefinitionIndex = 38660;
 
 	class FogEmissiveMesh : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,11 +4,11 @@ namespace RPG::Client { class BlushLockedTransformEntry; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHARACTERCUSTOMBLUSHMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC9BFD50)
+#define RPG_CLIENT_CHARACTERCUSTOMBLUSHMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0608D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterCustomBlushMonoPlugin_TypeDefinitionIndex = 70263;
+	inline static constexpr unsigned int CharacterCustomBlushMonoPlugin_TypeDefinitionIndex = 72229;
 
 	class CharacterCustomBlushMonoPlugin
 	{

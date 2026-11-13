@@ -4,18 +4,18 @@
 class IJEFCGNGHBD;
 namespace RPG::Client::Challenge { class ChallengeAvatarLineupSlotControl; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC936690)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0___BINDICON_B__0_OFFSET UNITYSDK_OFFSET(0xC9367E0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD3C60)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0___BINDICON_B__0_OFFSET UNITYSDK_OFFSET(0x1DDD3DB0)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass13_0_TypeDefinitionIndex = 81412;
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass13_0_TypeDefinitionIndex = 84192;
 
 	class ChallengeAvatarLineupSlotControl___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::ChallengeAvatarLineupSlotControl* __4__this; // 0x10
-		::IJEFCGNGHBD* vm; // 0x18
+		::IJEFCGNGHBD* vm; // 0x10
+		::RPG::Client::Challenge::ChallengeAvatarLineupSlotControl* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);

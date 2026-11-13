@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SYSTEM_APPCONTEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C070AE0)
-#define SYSTEM_APPCONTEXT_INITIALIZEDEFAULTSWITCHVALUES_OFFSET UNITYSDK_OFFSET(0x1C070520)
-#define SYSTEM_APPCONTEXT_TRYGETSWITCH_OFFSET UNITYSDK_OFFSET(0x1C070680)
+#define SYSTEM_APPCONTEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x17B057B0)
+#define SYSTEM_APPCONTEXT_INITIALIZEDEFAULTSWITCHVALUES_OFFSET UNITYSDK_OFFSET(0x17B051F0)
+#define SYSTEM_APPCONTEXT_TRYGETSWITCH_OFFSET UNITYSDK_OFFSET(0x17B05350)
 
 namespace System
 {
@@ -18,12 +18,12 @@ namespace System
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_s_switchMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("System", "AppContext")->GetStaticField(0xE740);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("System", "AppContext")->GetStaticField(0xC750);
 		}
 
 		static ::System::Boolean* StaticGet_s_defaultsInitialized()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "AppContext")->GetStaticField(0x2F20);
+			return (::System::Boolean*)UnitySDK::FromName("System", "AppContext")->GetStaticField(0x2AC0);
 		}
 
 		static ::System::Void _cctor()

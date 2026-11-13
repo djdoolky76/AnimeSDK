@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByElationTimeSkillCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPKJELIGIPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C1D70)
-#define JPKJELIGIPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2C1E50)
+#define JPKJELIGIPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5047A0)
+#define JPKJELIGIPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B504880)
 
-inline static constexpr unsigned int JPKJELIGIPO_TypeDefinitionIndex = 55431;
+inline static constexpr unsigned int JPKJELIGIPO_TypeDefinitionIndex = 56616;
 
 	class JPKJELIGIPO
 	{

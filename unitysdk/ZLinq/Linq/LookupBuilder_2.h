@@ -5,7 +5,7 @@ namespace ZLinq::Linq { template <typename T1, typename T2> class Grouping_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int LookupBuilder_2_TypeDefinitionIndex = 6140;
+	inline static constexpr unsigned int LookupBuilder_2_TypeDefinitionIndex = 6147;
 
 	template <typename T1, typename T2>
 	struct alignas(8) LookupBuilder_2

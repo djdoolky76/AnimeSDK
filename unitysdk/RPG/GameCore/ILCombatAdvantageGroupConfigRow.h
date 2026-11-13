@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ILCombatAdvantageGroupConfigRow; }
 
-#define RPG_GAMECORE_ILCOMBATADVANTAGEGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D749510)
-#define RPG_GAMECORE_ILCOMBATADVANTAGEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7492C0)
+#define RPG_GAMECORE_ILCOMBATADVANTAGEGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE82360)
+#define RPG_GAMECORE_ILCOMBATADVANTAGEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE82110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILCombatAdvantageGroupConfigRow_TypeDefinitionIndex = 13803;
+	inline static constexpr unsigned int ILCombatAdvantageGroupConfigRow_TypeDefinitionIndex = 13960;
 
 	class ILCombatAdvantageGroupConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint DamageRatio; // 0x10
-		::RPG::GameCore::FixPoint DamageTakenRatio; // 0x18
-		::System::UInt32 CombatAdvantageGroup; // 0x20
+		::System::UInt32 CombatAdvantageGroup; // 0x10
 		::System::Byte _padding0[0x4];
-		::System::Int64 CombatAdvantage; // 0x28
+		::System::Int64 CombatAdvantage; // 0x18
+		::RPG::GameCore::FixPoint DamageTakenRatio; // 0x20
+		::RPG::GameCore::FixPoint DamageRatio; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILCOMBATADVANTAGEGROUPCONFIGROW_CTOR_OFFSET))(this);

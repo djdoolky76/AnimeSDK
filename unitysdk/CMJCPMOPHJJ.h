@@ -11,24 +11,24 @@ namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CMJCPMOPHJJ_ADALJLPBDOE_OFFSET UNITYSDK_OFFSET(0xDA315F0)
-#define CMJCPMOPHJJ_BBGDOBDNAOB_OFFSET UNITYSDK_OFFSET(0xDA31560)
-#define CMJCPMOPHJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA30B00)
-#define CMJCPMOPHJJ_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xDA31690)
-#define CMJCPMOPHJJ_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0xDA31680)
-#define CMJCPMOPHJJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xDA30B60)
-#define CMJCPMOPHJJ_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0xDA314D0)
-#define CMJCPMOPHJJ_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0xDA30BB0)
+#define CMJCPMOPHJJ_ADALJLPBDOE_OFFSET UNITYSDK_OFFSET(0x1B19DFE0)
+#define CMJCPMOPHJJ_BBGDOBDNAOB_OFFSET UNITYSDK_OFFSET(0x1B19DF50)
+#define CMJCPMOPHJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B19D4F0)
+#define CMJCPMOPHJJ_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x1B19E080)
+#define CMJCPMOPHJJ_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0x1B19E070)
+#define CMJCPMOPHJJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1B19D550)
+#define CMJCPMOPHJJ_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0x1B19DEC0)
+#define CMJCPMOPHJJ_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0x1B19D5A0)
 
-inline static constexpr unsigned int CMJCPMOPHJJ_TypeDefinitionIndex = 57030;
+inline static constexpr unsigned int CMJCPMOPHJJ_TypeDefinitionIndex = 58257;
 
 	class CMJCPMOPHJJ : public ::BDENDNDOFLF
 	{
 	public:
-		::RPG::GameCore::AdventureCharacterController* MNBAPCPACFP; // 0x68
-		::RPG::GameCore::AdventureAbilityComponent* OHOFOIIPGFP; // 0x70
-		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x78
-		::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x7C
+		::RPG::GameCore::AdventureAbilityComponent* OHOFOIIPGFP; // 0x68
+		::RPG::GameCore::AdventureCharacterController* MNBAPCPACFP; // 0x70
+		::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x78
+		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x7C
 		// static const ::System::String* FHMJCJBODBH; // 0x0
 		// static const ::System::String* MACNCALOHEI; // 0x0
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::FiveDim { class SidePuzzleTargetData; }
 
-#define CAPEKIODMKH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC493110)
-#define CAPEKIODMKH___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET UNITYSDK_OFFSET(0xC495B50)
+#define CAPEKIODMKH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18FD0100)
+#define CAPEKIODMKH___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET UNITYSDK_OFFSET(0x18FD2B60)
 
-inline static constexpr unsigned int CAPEKIODMKH___c__DisplayClass4_0_TypeDefinitionIndex = 76834;
+inline static constexpr unsigned int CAPEKIODMKH___c__DisplayClass4_0_TypeDefinitionIndex = 79168;
 
 	class CAPEKIODMKH___c__DisplayClass4_0 : public ::System::Object
 	{

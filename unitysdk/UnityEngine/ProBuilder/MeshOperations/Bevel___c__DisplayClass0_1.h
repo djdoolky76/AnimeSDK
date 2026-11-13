@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/ProBuilder/EdgeLookup.h"
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1DACB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_1__BEVELEDGES_B__4_OFFSET UNITYSDK_OFFSET(0x1F1DDAB0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD6F35A0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_1__BEVELEDGES_B__4_OFFSET UNITYSDK_OFFSET(0xD6F63A0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int Bevel___c__DisplayClass0_1_TypeDefinitionIndex = 44480;
+	inline static constexpr unsigned int Bevel___c__DisplayClass0_1_TypeDefinitionIndex = 45555;
 
 	template <typename T>
 	class Bevel___c__DisplayClass0_1 : public ::System::Object

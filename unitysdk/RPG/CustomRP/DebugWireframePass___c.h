@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBFFA90)
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBFFAD0)
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS___C__INNEREXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1CBFFAE0)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x198C6AA0)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x198C6AE0)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS___C__INNEREXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x198C6AF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugWireframePass___c_TypeDefinitionIndex = 37566;
+	inline static constexpr unsigned int DebugWireframePass___c_TypeDefinitionIndex = 38494;
 
 	class DebugWireframePass___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x2C640);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x2C648);
+			return (::System::Object**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x283D0);
+		}
+
+		static ::System::Func_2<::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("RPG.CustomRP", "<>c")->GetStaticField(0x283D8);
 		}
 
 		static ::System::Void _cctor()

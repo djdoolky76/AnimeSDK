@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LimaoNews { class LimaoNewsEmployeeCheckData; }
 
-#define KFBPMGMFPLG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB383820)
-#define KFBPMGMFPLG___C__DISPLAYCLASS5_0__GETEMPLOYEECHECK_B__0_OFFSET UNITYSDK_OFFSET(0xB3882F0)
+#define KFBPMGMFPLG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x176C9A60)
+#define KFBPMGMFPLG___C__DISPLAYCLASS5_0__GETEMPLOYEECHECK_B__0_OFFSET UNITYSDK_OFFSET(0x176CE560)
 
-inline static constexpr unsigned int KFBPMGMFPLG___c__DisplayClass5_0_TypeDefinitionIndex = 80316;
+inline static constexpr unsigned int KFBPMGMFPLG___c__DisplayClass5_0_TypeDefinitionIndex = 83093;
 
 	class KFBPMGMFPLG___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -10,17 +10,17 @@ namespace Proto { class DisplayAvatarDetailInfo; }
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class String; }
 
-#define CDFNHAKFMIA_CTOR_OFFSET UNITYSDK_OFFSET(0xC763B70)
-#define CDFNHAKFMIA_GGGFIFKDHDA_OFFSET UNITYSDK_OFFSET(0xC763D30)
-#define CDFNHAKFMIA_MAPOJCHIIAG_OFFSET UNITYSDK_OFFSET(0xC763C20)
+#define CDFNHAKFMIA_CTOR_OFFSET UNITYSDK_OFFSET(0x173AE6B0)
+#define CDFNHAKFMIA_GGGFIFKDHDA_OFFSET UNITYSDK_OFFSET(0x173AE870)
+#define CDFNHAKFMIA_MAPOJCHIIAG_OFFSET UNITYSDK_OFFSET(0x173AE760)
 
-inline static constexpr unsigned int CDFNHAKFMIA_TypeDefinitionIndex = 62738;
+inline static constexpr unsigned int CDFNHAKFMIA_TypeDefinitionIndex = 64172;
 
 	class CDFNHAKFMIA : public ::System::Object
 	{
 	public:
-		::ILIMGHEIAMG* CEFLLELKFOP; // 0x10
-		::HABOIOEBDOA* LPFNKPGFIFA; // 0x18
+		::HABOIOEBDOA* LPFNKPGFIFA; // 0x10
+		::ILIMGHEIAMG* CEFLLELKFOP; // 0x18
 		::System::Void _ctor(::ILIMGHEIAMG* a1, ::HABOIOEBDOA* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::ILIMGHEIAMG*, ::HABOIOEBDOA*))((::PBYTE)hIl2Cpp + CDFNHAKFMIA_CTOR_OFFSET))(this, a1, a2);

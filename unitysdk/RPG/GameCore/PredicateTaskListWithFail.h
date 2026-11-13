@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class PredicateTaskListWithFail; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PREDICATETASKLISTWITHFAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9116F0)
-#define RPG_GAMECORE_PREDICATETASKLISTWITHFAIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D911700)
-#define RPG_GAMECORE_PREDICATETASKLISTWITHFAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9116C0)
+#define RPG_GAMECORE_PREDICATETASKLISTWITHFAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7B8F0)
+#define RPG_GAMECORE_PREDICATETASKLISTWITHFAIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF7B900)
+#define RPG_GAMECORE_PREDICATETASKLISTWITHFAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF7B8C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PredicateTaskListWithFail_TypeDefinitionIndex = 23816;
+	inline static constexpr unsigned int PredicateTaskListWithFail_TypeDefinitionIndex = 24273;
 
 	class PredicateTaskListWithFail : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtSkillAbort; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DAAMCAPPBNA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB07F0)
-#define DAAMCAPPBNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFB0820)
+#define DAAMCAPPBNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1993B850)
+#define DAAMCAPPBNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1993B880)
 
-inline static constexpr unsigned int DAAMCAPPBNA_TypeDefinitionIndex = 53931;
+inline static constexpr unsigned int DAAMCAPPBNA_TypeDefinitionIndex = 55095;
 
 	class DAAMCAPPBNA
 	{

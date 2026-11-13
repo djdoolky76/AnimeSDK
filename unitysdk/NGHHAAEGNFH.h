@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NGHHAAEGNFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA1920)
-#define NGHHAAEGNFH_GBCLMLJGKFE_OFFSET UNITYSDK_OFFSET(0xBBA1110)
-#define NGHHAAEGNFH_LMDJIJOKOCO_OFFSET UNITYSDK_OFFSET(0xBBA13C0)
-#define NGHHAAEGNFH_LMIDELPKLAH_OFFSET UNITYSDK_OFFSET(0xBBA0F00)
+#define NGHHAAEGNFH_CTOR_OFFSET UNITYSDK_OFFSET(0x18E8B760)
+#define NGHHAAEGNFH_GBCLMLJGKFE_OFFSET UNITYSDK_OFFSET(0x18E8AF50)
+#define NGHHAAEGNFH_LMDJIJOKOCO_OFFSET UNITYSDK_OFFSET(0x18E8B200)
+#define NGHHAAEGNFH_LMIDELPKLAH_OFFSET UNITYSDK_OFFSET(0x18E8AD40)
 
-inline static constexpr unsigned int NGHHAAEGNFH_TypeDefinitionIndex = 63894;
+inline static constexpr unsigned int NGHHAAEGNFH_TypeDefinitionIndex = 65336;
 
 	class NGHHAAEGNFH : public ::System::Object
 	{

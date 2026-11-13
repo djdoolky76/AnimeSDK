@@ -3,9 +3,9 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define CHFBOKNPNPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B6680)
+#define CHFBOKNPNPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0D370)
 
-inline static constexpr unsigned int CHFBOKNPNPN_TypeDefinitionIndex = 42063;
+inline static constexpr unsigned int CHFBOKNPNPN_TypeDefinitionIndex = 43038;
 
 	class CHFBOKNPNPN : public ::System::Exception
 	{

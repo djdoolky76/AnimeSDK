@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFED00)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__GETCONSTRAINTLASTPOSINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1ECFFF80)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19209250)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__GETCONSTRAINTLASTPOSINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1920A4C0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRootMotionBase___c__DisplayClass78_0_TypeDefinitionIndex = 45025;
+	inline static constexpr unsigned int SkeletonRootMotionBase___c__DisplayClass78_0_TypeDefinitionIndex = 46100;
 
 	class SkeletonRootMotionBase___c__DisplayClass78_0 : public ::System::Object
 	{

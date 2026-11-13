@@ -4,18 +4,18 @@
 class MHGGOEJBLCP;
 namespace System { class Object; }
 
-#define MHGGOEJBLCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA04050)
-#define MHGGOEJBLCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA04090)
-#define MHGGOEJBLCP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA040A0)
+#define MHGGOEJBLCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA5A9F0)
+#define MHGGOEJBLCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA5AA30)
+#define MHGGOEJBLCP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FA5AA40)
 
-inline static constexpr unsigned int MHGGOEJBLCP___c_TypeDefinitionIndex = 34669;
+inline static constexpr unsigned int MHGGOEJBLCP___c_TypeDefinitionIndex = 35597;
 
 	class MHGGOEJBLCP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51C90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48B50);
 		}
 
 		static ::System::Void _cctor()

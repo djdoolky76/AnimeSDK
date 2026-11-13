@@ -4,12 +4,12 @@
 class KGDADKNPPOL;
 namespace RPG::GameCore { class EraRegion; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE10B50)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS30_0___ONCURRENTREGIONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xCE12AF0)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6FE970)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS30_0___ONCURRENTREGIONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x1A700660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass30_0_TypeDefinitionIndex = 60510;
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass30_0_TypeDefinitionIndex = 61799;
 
 	class EraFlipperManager___c__DisplayClass30_0 : public ::System::Object
 	{

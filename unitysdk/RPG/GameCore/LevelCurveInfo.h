@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelCurveInfo; }
 namespace RPG::GameCore { class LevelCurvePointInfo; }
 
-#define RPG_GAMECORE_LEVELCURVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77A700)
-#define RPG_GAMECORE_LEVELCURVEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D77A710)
-#define RPG_GAMECORE_LEVELCURVEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77A6D0)
+#define RPG_GAMECORE_LEVELCURVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92D220)
+#define RPG_GAMECORE_LEVELCURVEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D92D230)
+#define RPG_GAMECORE_LEVELCURVEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D92D1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCurveInfo_TypeDefinitionIndex = 17376;
+	inline static constexpr unsigned int LevelCurveInfo_TypeDefinitionIndex = 17544;
 
 	class LevelCurveInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

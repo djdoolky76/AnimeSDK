@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/MVector2.h"
 class IOJGBIAJBIC;
 
-#define AICBMLHDOOJ_PJEMGKGLDOK_OFFSET UNITYSDK_OFFSET(0x3C298B0)
+#define AICBMLHDOOJ_PJEMGKGLDOK_OFFSET UNITYSDK_OFFSET(0x3DD17B0)
 
-inline static constexpr unsigned int AICBMLHDOOJ_TypeDefinitionIndex = 36558;
+inline static constexpr unsigned int AICBMLHDOOJ_TypeDefinitionIndex = 37486;
 
 	struct alignas(8) AICBMLHDOOJ
 	{

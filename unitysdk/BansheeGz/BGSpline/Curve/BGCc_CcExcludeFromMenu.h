@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCC_CCEXCLUDEFROMMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D11C0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCC_CCEXCLUDEFROMMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1922F6E0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCc_CcExcludeFromMenu_TypeDefinitionIndex = 35984;
+	inline static constexpr unsigned int BGCc_CcExcludeFromMenu_TypeDefinitionIndex = 36912;
 
 	class BGCc_CcExcludeFromMenu : public ::System::Attribute
 	{

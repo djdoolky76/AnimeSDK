@@ -5,14 +5,14 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentSystem___O_TypeDefinitionIndex = 69784;
+	inline static constexpr unsigned int EnvironmentSystem___O_TypeDefinitionIndex = 71743;
 
 	class EnvironmentSystem___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0____RestoreDeferLightingMaterialOnDispose()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x41310);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x53EA0);
 		}
 
 	};

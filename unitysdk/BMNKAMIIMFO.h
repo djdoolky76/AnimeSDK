@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvOverrideCameraModuleConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BMNKAMIIMFO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBD530)
-#define BMNKAMIIMFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDBD560)
+#define BMNKAMIIMFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A754210)
+#define BMNKAMIIMFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A754240)
 
-inline static constexpr unsigned int BMNKAMIIMFO_TypeDefinitionIndex = 54829;
+inline static constexpr unsigned int BMNKAMIIMFO_TypeDefinitionIndex = 55998;
 
 	class BMNKAMIIMFO
 	{

@@ -3,11 +3,11 @@
 class CEIKEECFCBI;
 namespace RPG::Client { class ListView; }
 
-#define RPG_CLIENT_UI_SAMPLES_BAGSAMPLEWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xE402CC0)
+#define RPG_CLIENT_UI_SAMPLES_BAGSAMPLEWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBC4DD0)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int BagSampleWindow_TypeDefinitionIndex = 73431;
+	inline static constexpr unsigned int BagSampleWindow_TypeDefinitionIndex = 75554;
 
 	class BagSampleWindow
 	{

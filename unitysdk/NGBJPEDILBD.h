@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class LGAGHNJOKHI;
 
-#define NGBJPEDILBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C110)
+#define NGBJPEDILBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2915E0)
 
-inline static constexpr unsigned int NGBJPEDILBD_TypeDefinitionIndex = 43191;
+inline static constexpr unsigned int NGBJPEDILBD_TypeDefinitionIndex = 44172;
 
 	class NGBJPEDILBD : public ::System::Object
 	{

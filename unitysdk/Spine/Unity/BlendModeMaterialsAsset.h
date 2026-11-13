@@ -4,13 +4,13 @@
 namespace Spine { class SkeletonData; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLYMATERIALS_OFFSET UNITYSDK_OFFSET(0x1ECD2BA0)
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECD2B70)
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD3630)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLYMATERIALS_OFFSET UNITYSDK_OFFSET(0x191DD160)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLY_OFFSET UNITYSDK_OFFSET(0x191DD130)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x191DDBF0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BlendModeMaterialsAsset_TypeDefinitionIndex = 45088;
+	inline static constexpr unsigned int BlendModeMaterialsAsset_TypeDefinitionIndex = 46163;
 
 	class BlendModeMaterialsAsset : public ::Spine::Unity::SkeletonDataModifierAsset
 	{

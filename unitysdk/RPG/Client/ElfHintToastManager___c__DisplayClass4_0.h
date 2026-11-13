@@ -5,22 +5,22 @@ namespace RPG::Client { class ElfRestaurantProgressData; }
 namespace RPG::Client { class UserPrefs; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCD9CC90)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xCD9D330)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0xCD9D520)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__2_OFFSET UNITYSDK_OFFSET(0xCD9D710)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AEA5E20)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0x1AEA66A0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0x1AEA6890)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__2_OFFSET UNITYSDK_OFFSET(0x1AEA6A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass4_0_TypeDefinitionIndex = 63701;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass4_0_TypeDefinitionIndex = 65143;
 
 	class ElfHintToastManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::UserPrefs* userPrefs; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedTableIDs; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedTableIDs; // 0x10
+		::RPG::Client::ElfRestaurantProgressData* currentProgressData; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedDecoratorIDs; // 0x20
-		::RPG::Client::ElfRestaurantProgressData* currentProgressData; // 0x28
+		::RPG::Client::UserPrefs* userPrefs; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

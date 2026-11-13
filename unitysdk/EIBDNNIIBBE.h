@@ -6,10 +6,10 @@ class KIEIGGGKJOD;
 class OBJANKHLNGO;
 namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 
-#define EIBDNNIIBBE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x154AFDB0)
-#define EIBDNNIIBBE_CTOR_OFFSET UNITYSDK_OFFSET(0x154AFDA0)
+#define EIBDNNIIBBE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19A89210)
+#define EIBDNNIIBBE_CTOR_OFFSET UNITYSDK_OFFSET(0x19A89200)
 
-inline static constexpr unsigned int EIBDNNIIBBE_TypeDefinitionIndex = 81157;
+inline static constexpr unsigned int EIBDNNIIBBE_TypeDefinitionIndex = 83937;
 
 	class EIBDNNIIBBE : public ::System::Object
 	{

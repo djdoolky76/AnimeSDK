@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareStanceRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPBFIFGBNGD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA332B0)
-#define MPBFIFGBNGD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA332E0)
+#define MPBFIFGBNGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B220530)
+#define MPBFIFGBNGD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B220560)
 
-inline static constexpr unsigned int MPBFIFGBNGD_TypeDefinitionIndex = 54576;
+inline static constexpr unsigned int MPBFIFGBNGD_TypeDefinitionIndex = 55741;
 
 	class MPBFIFGBNGD
 	{

@@ -4,10 +4,10 @@
 class NHBPBPEINCA;
 namespace System { class String; }
 
-#define LIPEFHDJOMK___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6D5600)
-#define LIPEFHDJOMK___C__DISPLAYCLASS0_0__FINDBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0xB6D5610)
+#define LIPEFHDJOMK___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x172F2600)
+#define LIPEFHDJOMK___C__DISPLAYCLASS0_0__FINDBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0x172F2610)
 
-inline static constexpr unsigned int LIPEFHDJOMK___c__DisplayClass0_0_TypeDefinitionIndex = 49695;
+inline static constexpr unsigned int LIPEFHDJOMK___c__DisplayClass0_0_TypeDefinitionIndex = 50771;
 
 	class LIPEFHDJOMK___c__DisplayClass0_0 : public ::System::Object
 	{

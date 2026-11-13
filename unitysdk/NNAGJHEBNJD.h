@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NNAGJHEBNJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBC937B0)
-#define NNAGJHEBNJD_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xBC93770)
-#define NNAGJHEBNJD_GET_ONLINEID_OFFSET UNITYSDK_OFFSET(0xBC93790)
-#define NNAGJHEBNJD_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xBC93780)
-#define NNAGJHEBNJD_SET_ONLINEID_OFFSET UNITYSDK_OFFSET(0xBC937A0)
+#define NNAGJHEBNJD_CTOR_OFFSET UNITYSDK_OFFSET(0x179D5390)
+#define NNAGJHEBNJD_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x179D5350)
+#define NNAGJHEBNJD_GET_ONLINEID_OFFSET UNITYSDK_OFFSET(0x179D5370)
+#define NNAGJHEBNJD_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x179D5360)
+#define NNAGJHEBNJD_SET_ONLINEID_OFFSET UNITYSDK_OFFSET(0x179D5380)
 
-inline static constexpr unsigned int NNAGJHEBNJD_TypeDefinitionIndex = 66736;
+inline static constexpr unsigned int NNAGJHEBNJD_TypeDefinitionIndex = 68672;
 
 	class NNAGJHEBNJD : public ::System::Object
 	{
 	public:
-		::System::String* _AccountID_k__BackingField; // 0x10
-		::System::String* _OnlineID_k__BackingField; // 0x18
+		::System::String* _OnlineID_k__BackingField; // 0x10
+		::System::String* _AccountID_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNAGJHEBNJD_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ActiveFMChannelSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CPIAINFPJNE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCF160)
-#define CPIAINFPJNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCCF190)
+#define CPIAINFPJNE_CTOR_OFFSET UNITYSDK_OFFSET(0x191802C0)
+#define CPIAINFPJNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x191802F0)
 
-inline static constexpr unsigned int CPIAINFPJNE_TypeDefinitionIndex = 52266;
+inline static constexpr unsigned int CPIAINFPJNE_TypeDefinitionIndex = 53372;
 
 	class CPIAINFPJNE
 	{

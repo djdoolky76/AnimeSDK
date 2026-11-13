@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueTournPersonaStyleExpChangeParam; }
 
-#define PHOOOABBECM_CTOR_OFFSET UNITYSDK_OFFSET(0xC251C80)
-#define PHOOOABBECM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC251C90)
+#define PHOOOABBECM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9BB360)
+#define PHOOOABBECM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1A9BB370)
 
-inline static constexpr unsigned int PHOOOABBECM_TypeDefinitionIndex = 67045;
+inline static constexpr unsigned int PHOOOABBECM_TypeDefinitionIndex = 68989;
 
 	class PHOOOABBECM : public ::System::Object
 	{

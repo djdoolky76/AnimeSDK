@@ -6,10 +6,10 @@ class OODMOIBKGCP;
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define OODMOIBKGCP___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF72090)
-#define OODMOIBKGCP___C__DISPLAYCLASS11_0__CREATEBOARD_B__0_OFFSET UNITYSDK_OFFSET(0xBF720A0)
+#define OODMOIBKGCP___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19693640)
+#define OODMOIBKGCP___C__DISPLAYCLASS11_0__CREATEBOARD_B__0_OFFSET UNITYSDK_OFFSET(0x19698110)
 
-inline static constexpr unsigned int OODMOIBKGCP___c__DisplayClass11_0_TypeDefinitionIndex = 76656;
+inline static constexpr unsigned int OODMOIBKGCP___c__DisplayClass11_0_TypeDefinitionIndex = 78987;
 
 	class OODMOIBKGCP___c__DisplayClass11_0 : public ::System::Object
 	{

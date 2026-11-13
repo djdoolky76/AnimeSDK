@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_VECTOR2PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2ADF10)
-#define UNITYENGINE_RENDERING_VECTOR2PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1F2AE060)
+#define UNITYENGINE_RENDERING_VECTOR2PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F661700)
+#define UNITYENGINE_RENDERING_VECTOR2PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1F661850)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Vector2Parameter_TypeDefinitionIndex = 35645;
+	inline static constexpr unsigned int Vector2Parameter_TypeDefinitionIndex = 36573;
 
 	class Vector2Parameter
 	{

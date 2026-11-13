@@ -6,91 +6,91 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine::UI { class ILayoutElement; }
 
-#define UNITYENGINE_UI_LAYOUTUTILITY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4F9350)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F9380)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETACTIVEENDENABLEDLAYOUTBEHAVIOURS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1F4F9390)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETACTIVEENDENABLEDLAYOUTBEHAVIOURS_B__13_1_OFFSET UNITYSDK_OFFSET(0x1F4F9440)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETFLEXIBLEHEIGHT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1F4F9E80)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETFLEXIBLEWIDTH_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F4F9930)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETMINHEIGHT_B__24_0_OFFSET UNITYSDK_OFFSET(0x1F4F9A40)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETMINWIDTH_B__21_0_OFFSET UNITYSDK_OFFSET(0x1F4F94F0)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDHEIGHT_B__25_0_OFFSET UNITYSDK_OFFSET(0x1F4F9B50)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDHEIGHT_B__25_1_OFFSET UNITYSDK_OFFSET(0x1F4F9C60)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDHEIGHT_B__25_2_OFFSET UNITYSDK_OFFSET(0x1F4F9D70)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDWIDTH_B__22_0_OFFSET UNITYSDK_OFFSET(0x1F4F9600)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDWIDTH_B__22_1_OFFSET UNITYSDK_OFFSET(0x1F4F9710)
-#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDWIDTH_B__22_2_OFFSET UNITYSDK_OFFSET(0x1F4F9820)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1856F730)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1856F760)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETACTIVEENDENABLEDLAYOUTBEHAVIOURS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1856F770)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETACTIVEENDENABLEDLAYOUTBEHAVIOURS_B__13_1_OFFSET UNITYSDK_OFFSET(0x1856F820)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETFLEXIBLEHEIGHT_B__26_0_OFFSET UNITYSDK_OFFSET(0x18570260)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETFLEXIBLEWIDTH_B__23_0_OFFSET UNITYSDK_OFFSET(0x1856FD10)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETMINHEIGHT_B__24_0_OFFSET UNITYSDK_OFFSET(0x1856FE20)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETMINWIDTH_B__21_0_OFFSET UNITYSDK_OFFSET(0x1856F8D0)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDHEIGHT_B__25_0_OFFSET UNITYSDK_OFFSET(0x1856FF30)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDHEIGHT_B__25_1_OFFSET UNITYSDK_OFFSET(0x18570040)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDHEIGHT_B__25_2_OFFSET UNITYSDK_OFFSET(0x18570150)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDWIDTH_B__22_0_OFFSET UNITYSDK_OFFSET(0x1856F9E0)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDWIDTH_B__22_1_OFFSET UNITYSDK_OFFSET(0x1856FAF0)
+#define UNITYENGINE_UI_LAYOUTUTILITY___C__GETPREFERREDWIDTH_B__22_2_OFFSET UNITYSDK_OFFSET(0x1856FC00)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutUtility___c_TypeDefinitionIndex = 6787;
+	inline static constexpr unsigned int LayoutUtility___c_TypeDefinitionIndex = 6798;
 
 	class LayoutUtility___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F060);
-		}
-
-		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__23_0()
-		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F068);
-		}
-
-		static ::System::Func_2<::UnityEngine::Component*, ::System::Boolean>** StaticGet___9__13_1()
-		{
-			return (::System::Func_2<::UnityEngine::Component*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F070);
-		}
-
-		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__22_2()
-		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F078);
-		}
-
-		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__24_0()
-		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F080);
-		}
-
-		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__21_0()
-		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F088);
-		}
-
-		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__26_0()
-		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F090);
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F5E0);
 		}
 
 		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F098);
-		}
-
-		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__25_1()
-		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F0A0);
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F5E8);
 		}
 
 		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__25_2()
 		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F0A8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F0B0);
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F5F0);
 		}
 
 		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__22_1()
 		{
-			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F0B8);
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F5F8);
+		}
+
+		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__26_0()
+		{
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F600);
 		}
 
 		static ::System::Func_2<::UnityEngine::Component*, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::UnityEngine::Component*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x3F0C0);
+			return (::System::Func_2<::UnityEngine::Component*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F608);
+		}
+
+		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__21_0()
+		{
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F610);
+		}
+
+		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__22_2()
+		{
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F618);
+		}
+
+		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__23_0()
+		{
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F620);
+		}
+
+		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__24_0()
+		{
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F628);
+		}
+
+		static ::System::Func_2<::UnityEngine::Component*, ::System::Boolean>** StaticGet___9__13_1()
+		{
+			return (::System::Func_2<::UnityEngine::Component*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F630);
+		}
+
+		static ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>** StaticGet___9__25_1()
+		{
+			return (::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F638);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x2F640);
 		}
 
 		static ::System::Void _cctor()

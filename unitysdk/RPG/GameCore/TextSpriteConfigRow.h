@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TextSpriteConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEXTSPRITECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB545E0)
-#define RPG_GAMECORE_TEXTSPRITECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB544B0)
+#define RPG_GAMECORE_TEXTSPRITECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C9240)
+#define RPG_GAMECORE_TEXTSPRITECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5C9110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextSpriteConfigRow_TypeDefinitionIndex = 15289;
+	inline static constexpr unsigned int TextSpriteConfigRow_TypeDefinitionIndex = 15445;
 
 	class TextSpriteConfigRow : public ::System::Object
 	{

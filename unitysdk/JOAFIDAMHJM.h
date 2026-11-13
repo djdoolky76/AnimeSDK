@@ -5,9 +5,9 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JOAFIDAMHJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB78390)
+#define JOAFIDAMHJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE21010)
 
-inline static constexpr unsigned int JOAFIDAMHJM_TypeDefinitionIndex = 43304;
+inline static constexpr unsigned int JOAFIDAMHJM_TypeDefinitionIndex = 44285;
 
 	class JOAFIDAMHJM : public ::System::Object
 	{

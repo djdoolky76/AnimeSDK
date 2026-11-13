@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/RogueTitanType.h"
 namespace RPG::Client { class RogueTournTitanBless; }
 
-#define BABICHJDNNH_DODNLPDHOKN_OAFIKDAEONJ_OFFSET UNITYSDK_OFFSET(0x15BC1C00)
+#define BABICHJDNNH_DODNLPDHOKN_OAFIKDAEONJ_OFFSET UNITYSDK_OFFSET(0x199C0990)
 
-inline static constexpr unsigned int BABICHJDNNH_DODNLPDHOKN_TypeDefinitionIndex = 72325;
+inline static constexpr unsigned int BABICHJDNNH_DODNLPDHOKN_TypeDefinitionIndex = 74402;
 
 	struct alignas(4) BABICHJDNNH_DODNLPDHOKN
 	{

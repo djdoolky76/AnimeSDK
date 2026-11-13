@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class StageRegionState; }
 
-#define RPG_GAMECORE_STAGEREGIONSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE6790)
-#define RPG_GAMECORE_STAGEREGIONSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE66B0)
+#define RPG_GAMECORE_STAGEREGIONSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B9BC0)
+#define RPG_GAMECORE_STAGEREGIONSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B9AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionState_TypeDefinitionIndex = 19191;
+	inline static constexpr unsigned int StageRegionState_TypeDefinitionIndex = 19381;
 
 	class StageRegionState : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-#define OFFGIKEAIFM___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBE39590)
-#define OFFGIKEAIFM___C__DISPLAYCLASS4_0__FOREACHPETID_B__0_OFFSET UNITYSDK_OFFSET(0xBE39A50)
+#define OFFGIKEAIFM___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17668970)
+#define OFFGIKEAIFM___C__DISPLAYCLASS4_0__FOREACHPETID_B__0_OFFSET UNITYSDK_OFFSET(0x17668E30)
 
-inline static constexpr unsigned int OFFGIKEAIFM___c__DisplayClass4_0_TypeDefinitionIndex = 75725;
+inline static constexpr unsigned int OFFGIKEAIFM___c__DisplayClass4_0_TypeDefinitionIndex = 78052;
 
 	class OFFGIKEAIFM___c__DisplayClass4_0 : public ::System::Object
 	{

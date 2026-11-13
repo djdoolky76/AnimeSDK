@@ -6,12 +6,12 @@ namespace RPG::CustomRP { class CRPGraphicsSettingsData_ClusterLightingSettings;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD4F10)
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS_GETLIGHTLEVEL_OFFSET UNITYSDK_OFFSET(0x1CBD5090)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C87E0)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS_GETLIGHTLEVEL_OFFSET UNITYSDK_OFFSET(0x1A1C8960)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_LocalLightSettings_TypeDefinitionIndex = 37660;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_LocalLightSettings_TypeDefinitionIndex = 38589;
 
 	class CRPGraphicsSettingsData_LocalLightSettings : public ::System::Object
 	{

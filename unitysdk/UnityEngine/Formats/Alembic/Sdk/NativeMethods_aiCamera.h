@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiCameraSample.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AICAMERA_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1F14EE90)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AICAMERA_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1E58EA20)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NativeMethods_aiCamera_TypeDefinitionIndex = 45795;
+	inline static constexpr unsigned int NativeMethods_aiCamera_TypeDefinitionIndex = 46824;
 
 	struct alignas(4) NativeMethods_aiCamera
 	{

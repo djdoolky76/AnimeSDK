@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimMiniGameExitType_TypeDefinitionIndex = 43564;
+	inline static constexpr unsigned int FiveDimMiniGameExitType_TypeDefinitionIndex = 44546;
 
 	enum class FiveDimMiniGameExitType : ::System::Int32
 	{

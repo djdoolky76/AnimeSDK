@@ -4,18 +4,18 @@
 class IMHOJPDMOJI;
 namespace System { class Object; }
 
-#define IMHOJPDMOJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E689E40)
-#define IMHOJPDMOJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E689E80)
-#define IMHOJPDMOJI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E689E90)
+#define IMHOJPDMOJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206BDC70)
+#define IMHOJPDMOJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206BDCB0)
+#define IMHOJPDMOJI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x206BDCC0)
 
-inline static constexpr unsigned int IMHOJPDMOJI___c_TypeDefinitionIndex = 31797;
+inline static constexpr unsigned int IMHOJPDMOJI___c_TypeDefinitionIndex = 32710;
 
 	class IMHOJPDMOJI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E040);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class HIFFJEEAFAA;
 namespace System { class Object; }
 
-#define HIFFJEEAFAA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5672F0)
-#define HIFFJEEAFAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E567330)
-#define HIFFJEEAFAA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E567340)
+#define HIFFJEEAFAA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2051EA30)
+#define HIFFJEEAFAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2051EA70)
+#define HIFFJEEAFAA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2051EA80)
 
-inline static constexpr unsigned int HIFFJEEAFAA___c_TypeDefinitionIndex = 27642;
+inline static constexpr unsigned int HIFFJEEAFAA___c_TypeDefinitionIndex = 28173;
 
 	class HIFFJEEAFAA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33B20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F650);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRI2Simulator_BHBEFCFGKMH_TypeDefinitionIndex = 47738;
+	inline static constexpr unsigned int IRI2Simulator_BHBEFCFGKMH_TypeDefinitionIndex = 48768;
 
 	struct alignas(4) IRI2Simulator_BHBEFCFGKMH
 	{

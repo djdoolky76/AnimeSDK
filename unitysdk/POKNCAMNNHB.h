@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetStanceCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define POKNCAMNNHB_CTOR_OFFSET UNITYSDK_OFFSET(0xC367580)
-#define POKNCAMNNHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3675B0)
+#define POKNCAMNNHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8939D0)
+#define POKNCAMNNHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B893A00)
 
-inline static constexpr unsigned int POKNCAMNNHB_TypeDefinitionIndex = 55569;
+inline static constexpr unsigned int POKNCAMNNHB_TypeDefinitionIndex = 56764;
 
 	class POKNCAMNNHB
 	{

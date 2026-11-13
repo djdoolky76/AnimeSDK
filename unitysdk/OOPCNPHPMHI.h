@@ -6,20 +6,20 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OOPCNPHPMHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8DFA0)
-#define OOPCNPHPMHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF8E650)
-#define OOPCNPHPMHI_GCBHJJHEOAO_OFFSET UNITYSDK_OFFSET(0xBF8DF00)
-#define OOPCNPHPMHI_GJHHNIDKKJD_OFFSET UNITYSDK_OFFSET(0xBF8E3C0)
-#define OOPCNPHPMHI_NKOICLEPKFF_OFFSET UNITYSDK_OFFSET(0xBF8E0B0)
-#define OOPCNPHPMHI_OKPBJMMOJHN_OFFSET UNITYSDK_OFFSET(0xBF8DEC0)
+#define OOPCNPHPMHI_CTOR_OFFSET UNITYSDK_OFFSET(0x196B5760)
+#define OOPCNPHPMHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196B5E10)
+#define OOPCNPHPMHI_GCBHJJHEOAO_OFFSET UNITYSDK_OFFSET(0x196B56C0)
+#define OOPCNPHPMHI_GJHHNIDKKJD_OFFSET UNITYSDK_OFFSET(0x196B5B80)
+#define OOPCNPHPMHI_NKOICLEPKFF_OFFSET UNITYSDK_OFFSET(0x196B5870)
+#define OOPCNPHPMHI_OKPBJMMOJHN_OFFSET UNITYSDK_OFFSET(0x196B5680)
 
-inline static constexpr unsigned int OOPCNPHPMHI_TypeDefinitionIndex = 75326;
+inline static constexpr unsigned int OOPCNPHPMHI_TypeDefinitionIndex = 77653;
 
 	class OOPCNPHPMHI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::FuncUnlockUiData*>* EJFNNGMBNLH; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* DPNPGDHCFBH; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* DPNPGDHCFBH; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::FuncUnlockUiData*>* EJFNNGMBNLH; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OOPCNPHPMHI_CTOR_OFFSET))(this);

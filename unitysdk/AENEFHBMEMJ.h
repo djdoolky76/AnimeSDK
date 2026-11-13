@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define AENEFHBMEMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C501A90)
-#define AENEFHBMEMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C5016C0)
+#define AENEFHBMEMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x208A4410)
+#define AENEFHBMEMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x208A4070)
 
-inline static constexpr unsigned int AENEFHBMEMJ_TypeDefinitionIndex = 41627;
+inline static constexpr unsigned int AENEFHBMEMJ_TypeDefinitionIndex = 42602;
 
 	class AENEFHBMEMJ : public ::System::Object
 	{

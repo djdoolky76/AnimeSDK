@@ -8,44 +8,44 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::UIElements::StyleSheets { class StyleSheetCache_SheetHandleKeyComparer; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F493CE0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_GETINITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1F493710)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD6E20)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_GETINITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1EFD6850)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int StyleSheetCache_TypeDefinitionIndex = 6012;
+	inline static constexpr unsigned int StyleSheetCache_TypeDefinitionIndex = 6020;
 
 	class StyleSheetCache : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleSheets::StylePropertyID>** StaticGet_s_NameToIDCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleSheets::StylePropertyID>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x2E4E0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StylePropertyID>*>** StaticGet_s_RulePropertyIDsCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StylePropertyID>*>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x2E4E8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_s_DeprecatedNames()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x2E4F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StylePropertyID>*>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x1BDB0);
 		}
 
 		static ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StyleValue>** StaticGet_s_InitialStyleValues()
 		{
-			return (::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StyleValue>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x2E4F8);
+			return (::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StyleValue>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x1BDB8);
 		}
 
 		static ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer** StaticGet_s_Comparer()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x2E500);
+			return (::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x1BDC0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleSheets::StylePropertyID>** StaticGet_s_NameToIDCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleSheets::StylePropertyID>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x1BDC8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_s_DeprecatedNames()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x1BDD0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>** StaticGet_s_EnumToIntCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x2E508);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "StyleSheetCache")->GetStaticField(0x1BDD8);
 		}
 
 		static ::System::Void _cctor()

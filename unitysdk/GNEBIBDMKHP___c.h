@@ -4,18 +4,18 @@
 class GNEBIBDMKHP;
 namespace System { class Object; }
 
-#define GNEBIBDMKHP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4AF2A0)
-#define GNEBIBDMKHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4AF2E0)
-#define GNEBIBDMKHP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4AF2F0)
+#define GNEBIBDMKHP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDFC200)
+#define GNEBIBDMKHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDFC240)
+#define GNEBIBDMKHP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FDFC250)
 
-inline static constexpr unsigned int GNEBIBDMKHP___c_TypeDefinitionIndex = 32273;
+inline static constexpr unsigned int GNEBIBDMKHP___c_TypeDefinitionIndex = 33186;
 
 	class GNEBIBDMKHP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FC20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19CD0);
 		}
 
 		static ::System::Void _cctor()

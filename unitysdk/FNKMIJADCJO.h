@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class NpcPossession; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNKMIJADCJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1586C240)
-#define FNKMIJADCJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1586C270)
+#define FNKMIJADCJO_CTOR_OFFSET UNITYSDK_OFFSET(0x17F1F9E0)
+#define FNKMIJADCJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F1FA10)
 
-inline static constexpr unsigned int FNKMIJADCJO_TypeDefinitionIndex = 53035;
+inline static constexpr unsigned int FNKMIJADCJO_TypeDefinitionIndex = 54195;
 
 	class FNKMIJADCJO
 	{

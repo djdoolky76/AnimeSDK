@@ -6,11 +6,11 @@ namespace RPG::GameCore { class SwitchCaseByAttackDamageType; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IPOLHCLEBED_CTOR_OFFSET UNITYSDK_OFFSET(0x16517BE0)
-#define IPOLHCLEBED_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16517E40)
-#define IPOLHCLEBED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165180F0)
+#define IPOLHCLEBED_CTOR_OFFSET UNITYSDK_OFFSET(0x19305490)
+#define IPOLHCLEBED_DISPOSE_OFFSET UNITYSDK_OFFSET(0x193056F0)
+#define IPOLHCLEBED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193059A0)
 
-inline static constexpr unsigned int IPOLHCLEBED_TypeDefinitionIndex = 55676;
+inline static constexpr unsigned int IPOLHCLEBED_TypeDefinitionIndex = 56874;
 
 	class IPOLHCLEBED
 	{

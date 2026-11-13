@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleAbility_ShowToast; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SHOWTOAST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D553AE0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SHOWTOAST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D553AF0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SHOWTOAST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D553A90)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SHOWTOAST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F355100)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SHOWTOAST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F355110)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SHOWTOAST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3550B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_ShowToast_TypeDefinitionIndex = 15737;
+	inline static constexpr unsigned int ChenLingBattleAbility_ShowToast_TypeDefinitionIndex = 15895;
 
 	class ChenLingBattleAbility_ShowToast : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

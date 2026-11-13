@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTextManagerMono_IEAIEMNHEJC_TypeDefinitionIndex = 72645;
+	inline static constexpr unsigned int SimpleTextManagerMono_IEAIEMNHEJC_TypeDefinitionIndex = 74724;
 
 	struct alignas(4) SimpleTextManagerMono_IEAIEMNHEJC
 	{

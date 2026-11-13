@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define LKNOMEIAOIA_CTOR_OFFSET UNITYSDK_OFFSET(0xB754AE0)
-#define LKNOMEIAOIA_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB753790)
+#define LKNOMEIAOIA_CTOR_OFFSET UNITYSDK_OFFSET(0x18CFF740)
+#define LKNOMEIAOIA_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x18CFE3F0)
 
-inline static constexpr unsigned int LKNOMEIAOIA_TypeDefinitionIndex = 80533;
+inline static constexpr unsigned int LKNOMEIAOIA_TypeDefinitionIndex = 83313;
 
 	class LKNOMEIAOIA : public ::System::Object
 	{

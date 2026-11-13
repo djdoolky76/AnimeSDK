@@ -9,7 +9,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__ContinueWith_d__61_1_TypeDefinitionIndex = 38421;
+	inline static constexpr unsigned int UniTaskExtensions__ContinueWith_d__61_1_TypeDefinitionIndex = 39350;
 
 	template <typename T>
 	struct alignas(8) UniTaskExtensions__ContinueWith_d__61_1

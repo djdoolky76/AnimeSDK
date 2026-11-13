@@ -7,23 +7,23 @@
 class FCOEMCEDLNL;
 class IEPCGBKKCHB;
 
-#define IEPCGBKKCHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEBF980)
-#define IEPCGBKKCHB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEBF560)
+#define IEPCGBKKCHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BA260)
+#define IEPCGBKKCHB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6B9E40)
 
-inline static constexpr unsigned int IEPCGBKKCHB_TypeDefinitionIndex = 14447;
+inline static constexpr unsigned int IEPCGBKKCHB_TypeDefinitionIndex = 14602;
 
 	class IEPCGBKKCHB : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* NNACKOBKFGE; // 0x10
-		::RPG::Client::TextID OENAMINOLLF; // 0x18
-		::System::Int32 DPICNGBHFAC; // 0x28
-		::System::UInt32 PHFMCACHFIJ; // 0x2C
-		::System::Int32 JAADBJBIBPH; // 0x30
-		::System::Int32 NALMBOOCCIN; // 0x34
-		::RPG::Client::TextID NMAHGFAPENI; // 0x38
-		::RPG::GameCore::PetMarbleTitleValue ACBKMOPHPLE; // 0x48
-		::RPG::GameCore::PetMarbleTitleCondition EKIJFPIPCKF; // 0x4C
+		::System::Int32 NALMBOOCCIN; // 0x18
+		::RPG::GameCore::PetMarbleTitleValue ACBKMOPHPLE; // 0x1C
+		::System::UInt32 PHFMCACHFIJ; // 0x20
+		::System::Int32 JAADBJBIBPH; // 0x24
+		::RPG::Client::TextID OENAMINOLLF; // 0x28
+		::System::Int32 DPICNGBHFAC; // 0x38
+		::RPG::GameCore::PetMarbleTitleCondition EKIJFPIPCKF; // 0x3C
+		::RPG::Client::TextID NMAHGFAPENI; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IEPCGBKKCHB_CTOR_OFFSET))(this);

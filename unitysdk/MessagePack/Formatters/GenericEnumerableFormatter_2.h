@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GenericEnumerableFormatter_2_TypeDefinitionIndex = 7387;
+	inline static constexpr unsigned int GenericEnumerableFormatter_2_TypeDefinitionIndex = 7398;
 
 	template <typename T1, typename T2>
 	class GenericEnumerableFormatter_2

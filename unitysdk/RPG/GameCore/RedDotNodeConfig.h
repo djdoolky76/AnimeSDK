@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RedDotNodeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REDDOTNODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D947EA0)
-#define RPG_GAMECORE_REDDOTNODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D947BD0)
+#define RPG_GAMECORE_REDDOTNODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2318E0)
+#define RPG_GAMECORE_REDDOTNODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F231610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RedDotNodeConfig_TypeDefinitionIndex = 17093;
+	inline static constexpr unsigned int RedDotNodeConfig_TypeDefinitionIndex = 17260;
 
 	class RedDotNodeConfig : public ::RPG::GameCore::JsonConfig
 	{

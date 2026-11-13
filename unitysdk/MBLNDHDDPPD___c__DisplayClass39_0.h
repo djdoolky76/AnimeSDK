@@ -4,10 +4,10 @@
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define MBLNDHDDPPD___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB864FA0)
-#define MBLNDHDDPPD___C__DISPLAYCLASS39_0__EVALUATE_COMPLEXSKILLAISOURCEHIMOKENOVAASSIST_B__0_OFFSET UNITYSDK_OFFSET(0xB866970)
+#define MBLNDHDDPPD___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B830DA0)
+#define MBLNDHDDPPD___C__DISPLAYCLASS39_0__EVALUATE_COMPLEXSKILLAISOURCEHIMOKENOVAASSIST_B__0_OFFSET UNITYSDK_OFFSET(0x1B832770)
 
-inline static constexpr unsigned int MBLNDHDDPPD___c__DisplayClass39_0_TypeDefinitionIndex = 54357;
+inline static constexpr unsigned int MBLNDHDDPPD___c__DisplayClass39_0_TypeDefinitionIndex = 55521;
 
 	class MBLNDHDDPPD___c__DisplayClass39_0 : public ::System::Object
 	{

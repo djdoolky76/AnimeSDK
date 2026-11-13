@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IAPIIEJHLMP_TypeDefinitionIndex = 28129;
+inline static constexpr unsigned int IAPIIEJHLMP_TypeDefinitionIndex = 28719;
 
 	enum class IAPIIEJHLMP : ::System::Int32
 	{

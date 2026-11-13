@@ -8,30 +8,30 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityStarFightGroupRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D351420)
-#define RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D350F60)
+#define RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA992C0)
+#define RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA98E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityStarFightGroupRow_TypeDefinitionIndex = 12392;
+	inline static constexpr unsigned int ActivityStarFightGroupRow_TypeDefinitionIndex = 12459;
 
 	class ActivityStarFightGroupRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TrialAvatar; // 0x10
+		::Il2CppArray<::System::UInt32>* EvaluateWave; // 0x10
 		::System::String* GroupPicPath; // 0x18
-		::Il2CppArray<::System::UInt32>* EvaluateWave; // 0x20
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* ElementList; // 0x28
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* ElementList; // 0x20
+		::Il2CppArray<::System::UInt32>* TrialAvatar; // 0x28
 		::System::UInt32 GroupID; // 0x30
+		::System::UInt32 ActivityModuleID; // 0x34
+		::System::UInt32 PerfectQuest; // 0x38
+		::System::UInt32 MazeBuffID; // 0x3C
+		::System::UInt32 TutorialGuideID; // 0x40
+		::RPG::GameCore::StarFightSeason Season; // 0x44
+		::System::UInt32 PerfectWave; // 0x48
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID GroupTitle; // 0x38
-		::System::UInt32 PerfectQuest; // 0x48
-		::System::UInt32 TutorialGuideID; // 0x4C
-		::System::UInt32 ActivityModuleID; // 0x50
-		::System::UInt32 PerfectWave; // 0x54
-		::RPG::GameCore::StarFightSeason Season; // 0x58
-		::System::UInt32 MazeBuffID; // 0x5C
-		::RPG::Client::TextID FightStageDesc; // 0x60
+		::RPG::Client::TextID FightStageDesc; // 0x50
+		::RPG::Client::TextID GroupTitle; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW_CTOR_OFFSET))(this);

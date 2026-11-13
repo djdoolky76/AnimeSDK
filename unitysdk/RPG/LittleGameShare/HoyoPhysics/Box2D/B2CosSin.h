@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2CosSin_TypeDefinitionIndex = 36637;
+	inline static constexpr unsigned int B2CosSin_TypeDefinitionIndex = 37565;
 
 	struct alignas(4) B2CosSin
 	{

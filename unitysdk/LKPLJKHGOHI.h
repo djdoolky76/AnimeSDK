@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByIsEliteMonster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKPLJKHGOHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB755AA0)
-#define LKPLJKHGOHI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB755AD0)
+#define LKPLJKHGOHI_CTOR_OFFSET UNITYSDK_OFFSET(0x18D00B80)
+#define LKPLJKHGOHI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18D00BB0)
 
-inline static constexpr unsigned int LKPLJKHGOHI_TypeDefinitionIndex = 54454;
+inline static constexpr unsigned int LKPLJKHGOHI_TypeDefinitionIndex = 55618;
 
 	class LKPLJKHGOHI
 	{

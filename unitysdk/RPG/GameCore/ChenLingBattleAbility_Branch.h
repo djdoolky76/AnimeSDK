@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class BaseChenLingBattlePredicate; }
 namespace RPG::GameCore { class ChenLingBattleAbility_Branch; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D551960)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D551970)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D551910)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F352E70)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F352E80)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F352E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_Branch_TypeDefinitionIndex = 15748;
+	inline static constexpr unsigned int ChenLingBattleAbility_Branch_TypeDefinitionIndex = 15906;
 
 	class ChenLingBattleAbility_Branch : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

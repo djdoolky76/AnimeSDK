@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareStageID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BCMCOLHLAHA_CTOR_OFFSET UNITYSDK_OFFSET(0x162D7420)
-#define BCMCOLHLAHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x162D7450)
+#define BCMCOLHLAHA_CTOR_OFFSET UNITYSDK_OFFSET(0x19D7F590)
+#define BCMCOLHLAHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19D7F5C0)
 
-inline static constexpr unsigned int BCMCOLHLAHA_TypeDefinitionIndex = 54571;
+inline static constexpr unsigned int BCMCOLHLAHA_TypeDefinitionIndex = 55736;
 
 	class BCMCOLHLAHA
 	{

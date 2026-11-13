@@ -8,26 +8,25 @@ namespace RPG::Client { class UIController; }
 namespace RPG::GameCore { class ShowEnvBuffDialog; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADIKBCCLKLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB13E990)
-#define ADIKBCCLKLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB13F400)
-#define ADIKBCCLKLG_DOKOMMCBAIH_OFFSET UNITYSDK_OFFSET(0xB13F800)
-#define ADIKBCCLKLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB13EA20)
-#define ADIKBCCLKLG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB13F3B0)
-#define ADIKBCCLKLG_TICK_OFFSET UNITYSDK_OFFSET(0xB13F4D0)
+#define ADIKBCCLKLG_CTOR_OFFSET UNITYSDK_OFFSET(0x182AE6A0)
+#define ADIKBCCLKLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x182AF110)
+#define ADIKBCCLKLG_DOKOMMCBAIH_OFFSET UNITYSDK_OFFSET(0x182AF510)
+#define ADIKBCCLKLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182AE730)
+#define ADIKBCCLKLG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x182AF0C0)
+#define ADIKBCCLKLG_TICK_OFFSET UNITYSDK_OFFSET(0x182AF1E0)
 
-inline static constexpr unsigned int ADIKBCCLKLG_TypeDefinitionIndex = 58639;
+inline static constexpr unsigned int ADIKBCCLKLG_TypeDefinitionIndex = 59906;
 
 	class ADIKBCCLKLG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::Client::UIController* CPIIOIPAAKK; // 0x18
 		::KFELGAIGHAP* CKMKMCAOLOG; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* NJIDIFMBIOC; // 0x28
-		::RPG::GameCore::ShowEnvBuffDialog* OFKGLJOAMLD; // 0x30
-		::RPG::Client::UIController* CPIIOIPAAKK; // 0x38
-		::System::Boolean PAIHBMIGDIO; // 0x40
-		::System::Byte _padding0[0x7];
-		::RPG::Client::TextID GGEAIODCDFK; // 0x48
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* NJIDIFMBIOC; // 0x30
+		::RPG::GameCore::ShowEnvBuffDialog* OFKGLJOAMLD; // 0x38
+		::RPG::Client::TextID GGEAIODCDFK; // 0x40
+		::System::Boolean PAIHBMIGDIO; // 0x50
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowEnvBuffDialog* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowEnvBuffDialog*))((::PBYTE)hIl2Cpp + ADIKBCCLKLG_CTOR_OFFSET))(this, a1, a2);

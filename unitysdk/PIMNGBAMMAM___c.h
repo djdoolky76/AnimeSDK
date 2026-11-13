@@ -4,18 +4,18 @@
 class PIMNGBAMMAM;
 namespace System { class Object; }
 
-#define PIMNGBAMMAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF41F80)
-#define PIMNGBAMMAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF41FC0)
-#define PIMNGBAMMAM___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1DF41FD0)
+#define PIMNGBAMMAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20556800)
+#define PIMNGBAMMAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20556840)
+#define PIMNGBAMMAM___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x20556850)
 
-inline static constexpr unsigned int PIMNGBAMMAM___c_TypeDefinitionIndex = 25069;
+inline static constexpr unsigned int PIMNGBAMMAM___c_TypeDefinitionIndex = 25547;
 
 	class PIMNGBAMMAM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35960);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D900);
 		}
 
 		static ::System::Void _cctor()

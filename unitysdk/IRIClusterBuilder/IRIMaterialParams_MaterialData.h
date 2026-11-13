@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRICLUSTERBUILDER_IRIMATERIALPARAMS_MATERIALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1651E2B0)
+#define IRICLUSTERBUILDER_IRIMATERIALPARAMS_MATERIALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1930B730)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRIMaterialParams_MaterialData_TypeDefinitionIndex = 47745;
+	inline static constexpr unsigned int IRIMaterialParams_MaterialData_TypeDefinitionIndex = 48775;
 
 	class IRIMaterialParams_MaterialData : public ::System::Object
 	{

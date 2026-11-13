@@ -5,10 +5,10 @@
 class DLNGPHPNPAN;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LEFDLIDEHNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB649020)
-#define LEFDLIDEHNA_IHCMPLNLICP_OFFSET UNITYSDK_OFFSET(0xB649030)
+#define LEFDLIDEHNA_CTOR_OFFSET UNITYSDK_OFFSET(0x18C2F4E0)
+#define LEFDLIDEHNA_IHCMPLNLICP_OFFSET UNITYSDK_OFFSET(0x18C2F4F0)
 
-inline static constexpr unsigned int LEFDLIDEHNA_TypeDefinitionIndex = 74776;
+inline static constexpr unsigned int LEFDLIDEHNA_TypeDefinitionIndex = 76930;
 
 	class LEFDLIDEHNA : public ::ONNMFEFHFMD
 	{

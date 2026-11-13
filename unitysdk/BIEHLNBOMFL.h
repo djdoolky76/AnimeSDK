@@ -5,10 +5,10 @@ class BIEHLNBOMFL;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define BIEHLNBOMFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D9850)
-#define BIEHLNBOMFL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D9700)
+#define BIEHLNBOMFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F193180)
+#define BIEHLNBOMFL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F193030)
 
-inline static constexpr unsigned int BIEHLNBOMFL_TypeDefinitionIndex = 19881;
+inline static constexpr unsigned int BIEHLNBOMFL_TypeDefinitionIndex = 20210;
 
 	class BIEHLNBOMFL : public ::RPG::GameCore::JsonConfig
 	{

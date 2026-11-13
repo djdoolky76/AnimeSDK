@@ -6,24 +6,23 @@ class CNIPJLLHIJA;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GCFONFDMPGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1595F640)
-#define GCFONFDMPGG_GET_CMTCONTENT_OFFSET UNITYSDK_OFFSET(0x1595F620)
-#define GCFONFDMPGG_GET_CMTS_OFFSET UNITYSDK_OFFSET(0x1595F5F0)
-#define GCFONFDMPGG_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0x1595F600)
-#define GCFONFDMPGG_GET_ISPOSTER_OFFSET UNITYSDK_OFFSET(0x1595F630)
-#define GCFONFDMPGG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1595F610)
+#define GCFONFDMPGG_CTOR_OFFSET UNITYSDK_OFFSET(0x19EA4170)
+#define GCFONFDMPGG_GET_CMTCONTENT_OFFSET UNITYSDK_OFFSET(0x19EA4150)
+#define GCFONFDMPGG_GET_CMTS_OFFSET UNITYSDK_OFFSET(0x19EA4120)
+#define GCFONFDMPGG_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0x19EA4130)
+#define GCFONFDMPGG_GET_ISPOSTER_OFFSET UNITYSDK_OFFSET(0x19EA4160)
+#define GCFONFDMPGG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19EA4140)
 
-inline static constexpr unsigned int GCFONFDMPGG_TypeDefinitionIndex = 79682;
+inline static constexpr unsigned int GCFONFDMPGG_TypeDefinitionIndex = 82459;
 
 	class GCFONFDMPGG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>* _Cmts_k__BackingField; // 0x10
-		::System::String* _HeadIcon_k__BackingField; // 0x18
-		::RPG::Client::TextID _Name_k__BackingField; // 0x20
-		::System::Boolean _IsPoster_k__BackingField; // 0x30
-		::System::Byte _padding0[0x7];
-		::RPG::Client::TextID _CmtContent_k__BackingField; // 0x38
+		::System::String* _HeadIcon_k__BackingField; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>* _Cmts_k__BackingField; // 0x18
+		::RPG::Client::TextID _CmtContent_k__BackingField; // 0x20
+		::RPG::Client::TextID _Name_k__BackingField; // 0x30
+		::System::Boolean _IsPoster_k__BackingField; // 0x40
 		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>* a1, ::System::String* a2, ::RPG::Client::TextID a3, ::RPG::Client::TextID a4, ::System::Boolean a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>*, ::System::String*, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Boolean))((::PBYTE)hIl2Cpp + GCFONFDMPGG_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

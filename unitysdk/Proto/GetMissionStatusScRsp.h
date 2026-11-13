@@ -14,86 +14,86 @@ namespace Proto { class GetMissionStatusScRsp; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_GETMISSIONSTATUSSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFC9F50)
-#define PROTO_GETMISSIONSTATUSSCRSP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCA580)
-#define PROTO_GETMISSIONSTATUSSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFC96B0)
-#define PROTO_GETMISSIONSTATUSSCRSP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFC9590)
-#define PROTO_GETMISSIONSTATUSSCRSP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC9420)
-#define PROTO_GETMISSIONSTATUSSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFC9790)
-#define PROTO_GETMISSIONSTATUSSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFC9760)
-#define PROTO_GETMISSIONSTATUSSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFC98F0)
-#define PROTO_GETMISSIONSTATUSSCRSP_GET_CURVERSIONFINISHEDMAINMISSIONIDLIST_OFFSET UNITYSDK_OFFSET(0x1DFC9730)
-#define PROTO_GETMISSIONSTATUSSCRSP_GET_DISABLEDMAINMISSIONIDLIST_OFFSET UNITYSDK_OFFSET(0x1DFC9710)
-#define PROTO_GETMISSIONSTATUSSCRSP_GET_FINISHEDMAINMISSIONIDLIST_OFFSET UNITYSDK_OFFSET(0x1DFC9700)
-#define PROTO_GETMISSIONSTATUSSCRSP_GET_MAINMISSIONMCVLIST_OFFSET UNITYSDK_OFFSET(0x1DFC9720)
-#define PROTO_GETMISSIONSTATUSSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFC93E0)
-#define PROTO_GETMISSIONSTATUSSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFC96E0)
-#define PROTO_GETMISSIONSTATUSSCRSP_GET_SUBMISSIONSTATUSLIST_OFFSET UNITYSDK_OFFSET(0x1DFC9740)
-#define PROTO_GETMISSIONSTATUSSCRSP_GET_UNFINISHEDMAINMISSIONIDLIST_OFFSET UNITYSDK_OFFSET(0x1DFC9750)
-#define PROTO_GETMISSIONSTATUSSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFCA2C0)
-#define PROTO_GETMISSIONSTATUSSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFCA150)
-#define PROTO_GETMISSIONSTATUSSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFC9410)
-#define PROTO_GETMISSIONSTATUSSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFC96F0)
-#define PROTO_GETMISSIONSTATUSSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC9CD0)
-#define PROTO_GETMISSIONSTATUSSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC9D30)
+#define PROTO_GETMISSIONSTATUSSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F4C8510)
+#define PROTO_GETMISSIONSTATUSSCRSP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C8B70)
+#define PROTO_GETMISSIONSTATUSSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1F4C7CB0)
+#define PROTO_GETMISSIONSTATUSSCRSP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F4C7B90)
+#define PROTO_GETMISSIONSTATUSSCRSP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C7A20)
+#define PROTO_GETMISSIONSTATUSSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F4C7D90)
+#define PROTO_GETMISSIONSTATUSSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F4C7D60)
+#define PROTO_GETMISSIONSTATUSSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F4C7EF0)
+#define PROTO_GETMISSIONSTATUSSCRSP_GET_CURVERSIONFINISHEDMAINMISSIONIDLIST_OFFSET UNITYSDK_OFFSET(0x1F4C7D00)
+#define PROTO_GETMISSIONSTATUSSCRSP_GET_DISABLEDMAINMISSIONIDLIST_OFFSET UNITYSDK_OFFSET(0x1F4C7D50)
+#define PROTO_GETMISSIONSTATUSSCRSP_GET_FINISHEDMAINMISSIONIDLIST_OFFSET UNITYSDK_OFFSET(0x1F4C7CE0)
+#define PROTO_GETMISSIONSTATUSSCRSP_GET_MAINMISSIONMCVLIST_OFFSET UNITYSDK_OFFSET(0x1F4C7CF0)
+#define PROTO_GETMISSIONSTATUSSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1F4C79E0)
+#define PROTO_GETMISSIONSTATUSSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1F4C7D20)
+#define PROTO_GETMISSIONSTATUSSCRSP_GET_SUBMISSIONSTATUSLIST_OFFSET UNITYSDK_OFFSET(0x1F4C7D10)
+#define PROTO_GETMISSIONSTATUSSCRSP_GET_UNFINISHEDMAINMISSIONIDLIST_OFFSET UNITYSDK_OFFSET(0x1F4C7D40)
+#define PROTO_GETMISSIONSTATUSSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F4C88C0)
+#define PROTO_GETMISSIONSTATUSSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F4C8740)
+#define PROTO_GETMISSIONSTATUSSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F4C7A10)
+#define PROTO_GETMISSIONSTATUSSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1F4C7D30)
+#define PROTO_GETMISSIONSTATUSSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F4C82C0)
+#define PROTO_GETMISSIONSTATUSSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F4C8320)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetMissionStatusScRsp_TypeDefinitionIndex = 30960;
+	inline static constexpr unsigned int GetMissionStatusScRsp_TypeDefinitionIndex = 31873;
 
 	class GetMissionStatusScRsp : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* disabledMainMissionIdList_; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* unfinishedMainMissionIdList_; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* finishedMainMissionIdList_; // 0x20
-		::Google::Protobuf::Collections::RepeatedField_1<::FJEFBKAKNAH*>* mainMissionMcvList_; // 0x28
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* curversionFinishedMainMissionIdList_; // 0x30
-		::Google::Protobuf::Collections::RepeatedField_1<::DGDHPPIHNMA*>* subMissionStatusList_; // 0x38
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x40
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* curversionFinishedMainMissionIdList_; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* disabledMainMissionIdList_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::DGDHPPIHNMA*>* subMissionStatusList_; // 0x20
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x28
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* finishedMainMissionIdList_; // 0x30
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* unfinishedMainMissionIdList_; // 0x38
+		::Google::Protobuf::Collections::RepeatedField_1<::FJEFBKAKNAH*>* mainMissionMcvList_; // 0x40
 		::System::UInt32 retcode_; // 0x48
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_unfinishedMainMissionIdList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_disabledMainMissionIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x42070);
-		}
-
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_finishedMainMissionIdList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x42078);
-		}
-
-		static ::Google::Protobuf::FieldCodec_1<::FJEFBKAKNAH*>** StaticGet__repeated_mainMissionMcvList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::FJEFBKAKNAH*>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x42080);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x50560);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_curversionFinishedMainMissionIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x42088);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x50568);
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Proto::GetMissionStatusScRsp*>** StaticGet__parser()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_finishedMainMissionIdList_codec()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::GetMissionStatusScRsp*>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x42090);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x50570);
 		}
 
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_disabledMainMissionIdList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::FJEFBKAKNAH*>** StaticGet__repeated_mainMissionMcvList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x42098);
+			return (::Google::Protobuf::FieldCodec_1<::FJEFBKAKNAH*>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x50578);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_unfinishedMainMissionIdList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x50580);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::DGDHPPIHNMA*>** StaticGet__repeated_subMissionStatusList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::DGDHPPIHNMA*>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x420A0);
+			return (::Google::Protobuf::FieldCodec_1<::DGDHPPIHNMA*>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x50588);
 		}
 
-		// static const ::System::Object RetcodeFieldNumber; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetMissionStatusScRsp*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetMissionStatusScRsp*>**)UnitySDK::FromName("Proto", "GetMissionStatusScRsp")->GetStaticField(0x50590);
+		}
+
 		// static const ::System::Object FinishedMainMissionIdListFieldNumber; // 0x0
-		// static const ::System::Object DisabledMainMissionIdListFieldNumber; // 0x0
 		// static const ::System::Object MainMissionMcvListFieldNumber; // 0x0
 		// static const ::System::Object CurversionFinishedMainMissionIdListFieldNumber; // 0x0
 		// static const ::System::Object SubMissionStatusListFieldNumber; // 0x0
+		// static const ::System::Object RetcodeFieldNumber; // 0x0
 		// static const ::System::Object UnfinishedMainMissionIdListFieldNumber; // 0x0
+		// static const ::System::Object DisabledMainMissionIdListFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_CTOR_OFFSET))(this);
@@ -124,24 +124,9 @@ namespace Proto
 			return ((::Proto::GetMissionStatusScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_Retcode()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_GET_RETCODE_OFFSET))(this);
-		}
-
-		::System::Void set_Retcode(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_SET_RETCODE_OFFSET))(this, a1);
-		}
-
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_FinishedMainMissionIdList()
 		{
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_GET_FINISHEDMAINMISSIONIDLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_DisabledMainMissionIdList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_GET_DISABLEDMAINMISSIONIDLIST_OFFSET))(this);
 		}
 
 		::Google::Protobuf::Collections::RepeatedField_1<::FJEFBKAKNAH*>* get_MainMissionMcvList()
@@ -159,9 +144,24 @@ namespace Proto
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::DGDHPPIHNMA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_GET_SUBMISSIONSTATUSLIST_OFFSET))(this);
 		}
 
+		::System::UInt32 get_Retcode()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_GET_RETCODE_OFFSET))(this);
+		}
+
+		::System::Void set_Retcode(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_SET_RETCODE_OFFSET))(this, a1);
+		}
+
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_UnfinishedMainMissionIdList()
 		{
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_GET_UNFINISHEDMAINMISSIONIDLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_DisabledMainMissionIdList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMISSIONSTATUSSCRSP_GET_DISABLEDMAINMISSIONIDLIST_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

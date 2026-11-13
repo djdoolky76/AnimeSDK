@@ -6,16 +6,16 @@ namespace System { class Object; }
 namespace System::Threading { class TimerCallback; }
 namespace System::Threading { class Timer_Scheduler; }
 
-#define SYSTEM_THREADING_TIMER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C134ED0)
-#define SYSTEM_THREADING_TIMER_CHANGE_1_OFFSET UNITYSDK_OFFSET(0x1C134AD0)
-#define SYSTEM_THREADING_TIMER_CHANGE_2_OFFSET UNITYSDK_OFFSET(0x1C134890)
-#define SYSTEM_THREADING_TIMER_CHANGE_OFFSET UNITYSDK_OFFSET(0x1C134AB0)
-#define SYSTEM_THREADING_TIMER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1347C0)
-#define SYSTEM_THREADING_TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C12B280)
-#define SYSTEM_THREADING_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C12C830)
-#define SYSTEM_THREADING_TIMER_GETTIMEMONOTONIC_OFFSET UNITYSDK_OFFSET(0x1C134C30)
-#define SYSTEM_THREADING_TIMER_INIT_OFFSET UNITYSDK_OFFSET(0x1C134760)
-#define SYSTEM_THREADING_TIMER_KEEPROOTEDWHILESCHEDULED_OFFSET UNITYSDK_OFFSET(0x1C12B2E0)
+#define SYSTEM_THREADING_TIMER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD80950)
+#define SYSTEM_THREADING_TIMER_CHANGE_1_OFFSET UNITYSDK_OFFSET(0x1DD80550)
+#define SYSTEM_THREADING_TIMER_CHANGE_2_OFFSET UNITYSDK_OFFSET(0x1DD80310)
+#define SYSTEM_THREADING_TIMER_CHANGE_OFFSET UNITYSDK_OFFSET(0x1DD80530)
+#define SYSTEM_THREADING_TIMER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD80240)
+#define SYSTEM_THREADING_TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD76CB0)
+#define SYSTEM_THREADING_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DD78260)
+#define SYSTEM_THREADING_TIMER_GETTIMEMONOTONIC_OFFSET UNITYSDK_OFFSET(0x1DD806B0)
+#define SYSTEM_THREADING_TIMER_INIT_OFFSET UNITYSDK_OFFSET(0x1DD801E0)
+#define SYSTEM_THREADING_TIMER_KEEPROOTEDWHILESCHEDULED_OFFSET UNITYSDK_OFFSET(0x1DD76D10)
 
 namespace System::Threading
 {
@@ -24,16 +24,15 @@ namespace System::Threading
 	class Timer : public ::System::MarshalByRefObject
 	{
 	public:
-		::System::Threading::TimerCallback* callback; // 0x18
-		::System::Object* state; // 0x20
-		::System::Boolean disposed; // 0x28
-		::System::Byte _padding0[0x7];
-		::System::Int64 due_time_ms; // 0x30
+		::System::Object* state; // 0x18
+		::System::Threading::TimerCallback* callback; // 0x20
+		::System::Int64 due_time_ms; // 0x28
+		::System::Int64 next_run; // 0x30
 		::System::Int64 period_ms; // 0x38
-		::System::Int64 next_run; // 0x40
+		::System::Boolean disposed; // 0x40
 		static ::System::Threading::Timer_Scheduler** StaticGet_scheduler()
 		{
-			return (::System::Threading::Timer_Scheduler**)UnitySDK::FromName("System.Threading", "Timer")->GetStaticField(0x2AA60);
+			return (::System::Threading::Timer_Scheduler**)UnitySDK::FromName("System.Threading", "Timer")->GetStaticField(0x18EE0);
 		}
 
 		::System::Void _ctor(::System::Threading::TimerCallback* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Int32 a4)

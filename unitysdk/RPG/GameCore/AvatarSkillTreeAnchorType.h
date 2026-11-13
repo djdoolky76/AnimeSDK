@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillTreeAnchorType_TypeDefinitionIndex = 12722;
+	inline static constexpr unsigned int AvatarSkillTreeAnchorType_TypeDefinitionIndex = 12789;
 
 	enum class AvatarSkillTreeAnchorType : ::System::Int32
 	{
@@ -30,5 +30,6 @@ namespace RPG::GameCore
 		Point20 = 20,
 		Point21 = 21,
 		Point22 = 22,
+		Point23 = 23,
 	};
 }

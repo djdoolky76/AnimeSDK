@@ -10,31 +10,31 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EvolveBuildShopRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDSHOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6589B0)
-#define RPG_GAMECORE_EVOLVEBUILDSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6583B0)
+#define RPG_GAMECORE_EVOLVEBUILDSHOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC7DE50)
+#define RPG_GAMECORE_EVOLVEBUILDSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1FC7D850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildShopRow_TypeDefinitionIndex = 11425;
+	inline static constexpr unsigned int EvolveBuildShopRow_TypeDefinitionIndex = 11476;
 
 	class EvolveBuildShopRow : public ::System::Object
 	{
 	public:
 		::System::String* ItemIcon; // 0x10
-		::Il2CppArray<::EFCGFNDLBGK*>* PriceList; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
-		::System::String* ItemBackground; // 0x28
-		::RPG::Client::TextID Category; // 0x30
-		::RPG::Client::TextID BuffTextFormat; // 0x40
-		::RPG::GameCore::EvolveBuildProtductType ShopType; // 0x50
-		::System::UInt32 LvMax; // 0x54
-		::RPG::Client::TextID TotalBuff; // 0x58
-		::RPG::Client::TextID ShopDesc; // 0x68
-		::System::UInt32 MazeBuffID; // 0x78
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x7C
-		::System::UInt32 ID; // 0x80
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
+		::System::String* ItemBackground; // 0x20
+		::Il2CppArray<::EFCGFNDLBGK*>* PriceList; // 0x28
+		::System::UInt32 ID; // 0x30
+		::System::UInt32 LvMax; // 0x34
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x38
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x88
+		::RPG::Client::TextID ShopDesc; // 0x40
+		::RPG::Client::TextID BuffTextFormat; // 0x50
+		::RPG::Client::TextID Category; // 0x60
+		::RPG::Client::TextID Name; // 0x70
+		::RPG::Client::TextID TotalBuff; // 0x80
+		::RPG::GameCore::EvolveBuildProtductType ShopType; // 0x90
+		::System::UInt32 MazeBuffID; // 0x94
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDSHOPROW_CTOR_OFFSET))(this);

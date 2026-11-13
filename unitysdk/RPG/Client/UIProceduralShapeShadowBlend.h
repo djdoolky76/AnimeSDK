@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProceduralShapeShadowBlend_TypeDefinitionIndex = 72702;
+	inline static constexpr unsigned int UIProceduralShapeShadowBlend_TypeDefinitionIndex = 74781;
 
 	enum class UIProceduralShapeShadowBlend : ::System::Int32
 	{

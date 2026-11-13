@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimAchievementConfig; }
 
-#define RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67FB80)
-#define RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D67F7D0)
+#define RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84CAC0)
+#define RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E84C710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAchievementConfig_TypeDefinitionIndex = 16669;
+	inline static constexpr unsigned int FiveDimAchievementConfig_TypeDefinitionIndex = 16835;
 
 	class FiveDimAchievementConfig : public ::RPG::GameCore::JsonConfig
 	{

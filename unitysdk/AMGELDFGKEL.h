@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByHPRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMGELDFGKEL_CTOR_OFFSET UNITYSDK_OFFSET(0x15572EA0)
-#define AMGELDFGKEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15572F80)
+#define AMGELDFGKEL_CTOR_OFFSET UNITYSDK_OFFSET(0x197D8EA0)
+#define AMGELDFGKEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197D8F80)
 
-inline static constexpr unsigned int AMGELDFGKEL_TypeDefinitionIndex = 55444;
+inline static constexpr unsigned int AMGELDFGKEL_TypeDefinitionIndex = 56632;
 
 	class AMGELDFGKEL
 	{

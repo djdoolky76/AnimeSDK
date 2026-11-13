@@ -4,18 +4,18 @@
 class NDMGIMOOFBL;
 namespace System { class Object; }
 
-#define NDMGIMOOFBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EABF9C0)
-#define NDMGIMOOFBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EABFA00)
-#define NDMGIMOOFBL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1EABFA10)
+#define NDMGIMOOFBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20303290)
+#define NDMGIMOOFBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203032D0)
+#define NDMGIMOOFBL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x203032E0)
 
-inline static constexpr unsigned int NDMGIMOOFBL___c_TypeDefinitionIndex = 29997;
+inline static constexpr unsigned int NDMGIMOOFBL___c_TypeDefinitionIndex = 30895;
 
 	class NDMGIMOOFBL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60080);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0E0);
 		}
 
 		static ::System::Void _cctor()

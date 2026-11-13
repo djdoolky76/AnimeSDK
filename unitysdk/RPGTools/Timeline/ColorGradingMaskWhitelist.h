@@ -4,7 +4,7 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskWhitelist_TypeDefinitionIndex = 48462;
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_TypeDefinitionIndex = 49503;
 
 	struct alignas(8) ColorGradingMaskWhitelist
 	{

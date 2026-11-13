@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitSrcType_TypeDefinitionIndex = 13688;
+	inline static constexpr unsigned int GridFightTraitSrcType_TypeDefinitionIndex = 13815;
 
 	enum class GridFightTraitSrcType : ::System::Int32
 	{
@@ -11,5 +11,7 @@ namespace RPG::GameCore
 		Equip = 1,
 		GainFrontTrait = 2,
 		Projection = 3,
+		TwoInOne = 4,
+		GainOtherRoleTrait = 5,
 	};
 }

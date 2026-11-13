@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE919930)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C764870)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int GaussianBlurTimelineClip_TypeDefinitionIndex = 48574;
+	inline static constexpr unsigned int GaussianBlurTimelineClip_TypeDefinitionIndex = 49615;
 
 	class GaussianBlurTimelineClip
 	{

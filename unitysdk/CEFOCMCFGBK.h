@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define CEFOCMCFGBK_CTOR_OFFSET UNITYSDK_OFFSET(0xC9CE820)
+#define CEFOCMCFGBK_CTOR_OFFSET UNITYSDK_OFFSET(0x173CFAF0)
 
-inline static constexpr unsigned int CEFOCMCFGBK_TypeDefinitionIndex = 77730;
+inline static constexpr unsigned int CEFOCMCFGBK_TypeDefinitionIndex = 80465;
 
 	class CEFOCMCFGBK : public ::System::Object
 	{

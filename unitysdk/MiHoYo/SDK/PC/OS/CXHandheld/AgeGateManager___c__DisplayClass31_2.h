@@ -4,19 +4,19 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA6180)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_2__PROCESSAGEGATETICKET_B__5_OFFSET UNITYSDK_OFFSET(0x1BEA6960)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1C35C800)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_2__PROCESSAGEGATETICKET_B__5_OFFSET UNITYSDK_OFFSET(0x1C35CFE0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass31_2_TypeDefinitionIndex = 8727;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass31_2_TypeDefinitionIndex = 8736;
 
 	template <typename T1, typename T2>
 	class AgeGateManager___c__DisplayClass31_2 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::CXHandheld::AgeGateManager* __4__this; // 0x10
-		::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog* errorDialog; // 0x18
+		::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog* errorDialog; // 0x10
+		::MiHoYo::SDK::PC::OS::CXHandheld::AgeGateManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_2_CTOR_OFFSET))(this);

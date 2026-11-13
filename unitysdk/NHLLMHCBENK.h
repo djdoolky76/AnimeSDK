@@ -6,24 +6,24 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NHLLMHCBENK_CTOR_OFFSET UNITYSDK_OFFSET(0xBBCE680)
-#define NHLLMHCBENK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBCE730)
-#define NHLLMHCBENK_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0xBBCE7A0)
-#define NHLLMHCBENK_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xBBCEEC0)
-#define NHLLMHCBENK_ONSKIP_OFFSET UNITYSDK_OFFSET(0xBBCEE70)
-#define NHLLMHCBENK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBCE7B0)
-#define NHLLMHCBENK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBCEB30)
-#define NHLLMHCBENK_TICK_OFFSET UNITYSDK_OFFSET(0xBBCEBA0)
+#define NHLLMHCBENK_CTOR_OFFSET UNITYSDK_OFFSET(0x148A8ED0)
+#define NHLLMHCBENK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x148A8F80)
+#define NHLLMHCBENK_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x148A8FF0)
+#define NHLLMHCBENK_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x148A9710)
+#define NHLLMHCBENK_ONSKIP_OFFSET UNITYSDK_OFFSET(0x148A96C0)
+#define NHLLMHCBENK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148A9000)
+#define NHLLMHCBENK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x148A9380)
+#define NHLLMHCBENK_TICK_OFFSET UNITYSDK_OFFSET(0x148A93F0)
 
-inline static constexpr unsigned int NHLLMHCBENK_TypeDefinitionIndex = 58011;
+inline static constexpr unsigned int NHLLMHCBENK_TypeDefinitionIndex = 59250;
 
 	class NHLLMHCBENK : public ::GELIALJDFBL
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Single>* FOAKPHLEJFG; // 0x18
-		::RPG::GameCore::GameEntityList* FPEOFLNHOOL; // 0x20
+		::RPG::GameCore::GameEntityList* FPEOFLNHOOL; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::RPG::GameCore::CharacterTriggerFreeStyleGraph* OFKGLJOAMLD; // 0x28
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::System::Collections::Generic::List_1<::System::Single>* FOAKPHLEJFG; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterTriggerFreeStyleGraph* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharacterTriggerFreeStyleGraph*))((::PBYTE)hIl2Cpp + NHLLMHCBENK_CTOR_OFFSET))(this, a1, a2);

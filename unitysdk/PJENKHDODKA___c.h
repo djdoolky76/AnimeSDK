@@ -4,18 +4,18 @@
 class PJENKHDODKA;
 namespace System { class Object; }
 
-#define PJENKHDODKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF48A20)
-#define PJENKHDODKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF48A60)
-#define PJENKHDODKA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DF48A70)
+#define PJENKHDODKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2055D4E0)
+#define PJENKHDODKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2055D520)
+#define PJENKHDODKA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2055D530)
 
-inline static constexpr unsigned int PJENKHDODKA___c_TypeDefinitionIndex = 25079;
+inline static constexpr unsigned int PJENKHDODKA___c_TypeDefinitionIndex = 25557;
 
 	class PJENKHDODKA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36320);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EA00);
 		}
 
 		static ::System::Void _cctor()

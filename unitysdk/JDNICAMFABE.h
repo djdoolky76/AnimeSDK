@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByFateContent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDNICAMFABE_CTOR_OFFSET UNITYSDK_OFFSET(0x166016B0)
-#define JDNICAMFABE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16601790)
+#define JDNICAMFABE_CTOR_OFFSET UNITYSDK_OFFSET(0x130595F0)
+#define JDNICAMFABE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x130596D0)
 
-inline static constexpr unsigned int JDNICAMFABE_TypeDefinitionIndex = 55433;
+inline static constexpr unsigned int JDNICAMFABE_TypeDefinitionIndex = 56619;
 
 	class JDNICAMFABE
 	{

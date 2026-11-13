@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_HINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDCEE630)
+#define RPG_CLIENT_PROP_HINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A525230)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int HintInfo_TypeDefinitionIndex = 78521;
+	inline static constexpr unsigned int HintInfo_TypeDefinitionIndex = 81256;
 
 	class HintInfo : public ::System::Object
 	{

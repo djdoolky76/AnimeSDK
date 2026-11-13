@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvPlayerEnterAlertDeviceTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GMIMODOENIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC7000)
-#define GMIMODOENIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AC7030)
+#define GMIMODOENIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16C7F4B0)
+#define GMIMODOENIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C7F4E0)
 
-inline static constexpr unsigned int GMIMODOENIJ_TypeDefinitionIndex = 52468;
+inline static constexpr unsigned int GMIMODOENIJ_TypeDefinitionIndex = 53574;
 
 	class GMIMODOENIJ
 	{

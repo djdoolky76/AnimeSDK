@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitPropCurveMoveArrived; }
 
-#define RPG_GAMECORE_WAITPROPCURVEMOVEARRIVED_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC70BE0)
-#define RPG_GAMECORE_WAITPROPCURVEMOVEARRIVED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC70C20)
-#define RPG_GAMECORE_WAITPROPCURVEMOVEARRIVED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC70B70)
+#define RPG_GAMECORE_WAITPROPCURVEMOVEARRIVED_CTOR_OFFSET UNITYSDK_OFFSET(0x207FE6E0)
+#define RPG_GAMECORE_WAITPROPCURVEMOVEARRIVED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x207FE720)
+#define RPG_GAMECORE_WAITPROPCURVEMOVEARRIVED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207FE670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropCurveMoveArrived_TypeDefinitionIndex = 21014;
+	inline static constexpr unsigned int WaitPropCurveMoveArrived_TypeDefinitionIndex = 21352;
 
 	class WaitPropCurveMoveArrived : public ::RPG::GameCore::TaskConfig
 	{

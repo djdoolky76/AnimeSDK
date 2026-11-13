@@ -9,25 +9,25 @@ namespace MiHoYo::SDK::PC::OS { class GooglePlayBillingPayInfo; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelGooglePlay; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF00B10)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BF02420)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x1BF02F00)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__4_OFFSET UNITYSDK_OFFSET(0x1BF02ED0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__6_OFFSET UNITYSDK_OFFSET(0x1BF02F90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7D180)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BF7EA90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x1BF7F570)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__4_OFFSET UNITYSDK_OFFSET(0x1BF7F540)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__6_OFFSET UNITYSDK_OFFSET(0x1BF7F600)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_0_TypeDefinitionIndex = 8575;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_0_TypeDefinitionIndex = 8584;
 
 	class HoYoChannelGooglePlay___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__6; // 0x10
+		::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* gamePayInfo; // 0x10
 		::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay* __4__this; // 0x18
-		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x20
-		::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* gamePayInfo; // 0x28
-		::System::Action* __9__4; // 0x30
-		::MiHoYo::SDK::AccountModel* accountModel; // 0x38
+		::System::Action* __9__4; // 0x20
+		::MiHoYo::SDK::AccountModel* accountModel; // 0x28
+		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__6; // 0x30
+		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0_CTOR_OFFSET))(this);

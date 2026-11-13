@@ -11,7 +11,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SelectIntAwaitWithCancellation_2__SelectAwaitWithCancellation_TypeDefinitionIndex = 45562;
+	inline static constexpr unsigned int SelectIntAwaitWithCancellation_2__SelectAwaitWithCancellation_TypeDefinitionIndex = 46591;
 
 	template <typename T1, typename T2>
 	class SelectIntAwaitWithCancellation_2__SelectAwaitWithCancellation : public ::Cysharp::Threading::Tasks::MoveNextSource

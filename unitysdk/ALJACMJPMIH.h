@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeCharacterRowData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ALJACMJPMIH_CTOR_OFFSET UNITYSDK_OFFSET(0x15561BF0)
-#define ALJACMJPMIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15561C20)
+#define ALJACMJPMIH_CTOR_OFFSET UNITYSDK_OFFSET(0x197C6290)
+#define ALJACMJPMIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197C62C0)
 
-inline static constexpr unsigned int ALJACMJPMIH_TypeDefinitionIndex = 54916;
+inline static constexpr unsigned int ALJACMJPMIH_TypeDefinitionIndex = 56088;
 
 	class ALJACMJPMIH
 	{

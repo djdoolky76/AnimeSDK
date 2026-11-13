@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DHCNDENHLGO.h"
 
-#define OIEEAAFAOON_CTOR_OFFSET UNITYSDK_OFFSET(0xBE73940)
+#define OIEEAAFAOON_CTOR_OFFSET UNITYSDK_OFFSET(0x18E22D20)
 
-inline static constexpr unsigned int OIEEAAFAOON_TypeDefinitionIndex = 81444;
+inline static constexpr unsigned int OIEEAAFAOON_TypeDefinitionIndex = 84224;
 
 	class OIEEAAFAOON : public ::DHCNDENHLGO
 	{

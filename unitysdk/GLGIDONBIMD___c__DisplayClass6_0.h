@@ -6,19 +6,19 @@ class MEHINBDPFCF;
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define GLGIDONBIMD___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA5D90)
-#define GLGIDONBIMD___C__DISPLAYCLASS6_0__LOADBLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x15AA6090)
-#define GLGIDONBIMD___C__DISPLAYCLASS6_0__LOADBLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x15AA6200)
-#define GLGIDONBIMD___C__DISPLAYCLASS6_0__LOADBLOCK_B__2_OFFSET UNITYSDK_OFFSET(0x15AA6240)
+#define GLGIDONBIMD___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16C5DEF0)
+#define GLGIDONBIMD___C__DISPLAYCLASS6_0__LOADBLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x16C5E1F0)
+#define GLGIDONBIMD___C__DISPLAYCLASS6_0__LOADBLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x16C5E360)
+#define GLGIDONBIMD___C__DISPLAYCLASS6_0__LOADBLOCK_B__2_OFFSET UNITYSDK_OFFSET(0x16C5E3A0)
 
-inline static constexpr unsigned int GLGIDONBIMD___c__DisplayClass6_0_TypeDefinitionIndex = 49089;
+inline static constexpr unsigned int GLGIDONBIMD___c__DisplayClass6_0_TypeDefinitionIndex = 50165;
 
 	class GLGIDONBIMD___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
+		::GLGIDONBIMD* __4__this; // 0x10
 		::MEHINBDPFCF* loadingTask; // 0x18
-		::GLGIDONBIMD* __4__this; // 0x20
+		::System::String* name; // 0x20
 		::System::Int32 blockResHandle; // 0x28
 		::System::Void _ctor()
 		{

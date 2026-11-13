@@ -3,7 +3,7 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int TaskVmInfo_TypeDefinitionIndex = 46928;
+	inline static constexpr unsigned int TaskVmInfo_TypeDefinitionIndex = 47956;
 
 	struct alignas(4) TaskVmInfo
 	{

@@ -4,18 +4,18 @@
 class NFEKGEAIMEO;
 namespace System { class Object; }
 
-#define NFEKGEAIMEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAD3F20)
-#define NFEKGEAIMEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD3F60)
-#define NFEKGEAIMEO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAD3F70)
+#define NFEKGEAIMEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE9C7B0)
+#define NFEKGEAIMEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE9C7F0)
+#define NFEKGEAIMEO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE9C800)
 
-inline static constexpr unsigned int NFEKGEAIMEO___c_TypeDefinitionIndex = 30656;
+inline static constexpr unsigned int NFEKGEAIMEO___c_TypeDefinitionIndex = 31562;
 
 	class NFEKGEAIMEO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63090);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FDC0);
 		}
 
 		static ::System::Void _cctor()

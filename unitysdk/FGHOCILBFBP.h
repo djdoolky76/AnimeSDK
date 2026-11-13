@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FGHOCILBFBP_TypeDefinitionIndex = 33886;
+inline static constexpr unsigned int FGHOCILBFBP_TypeDefinitionIndex = 34801;
 
 	enum class FGHOCILBFBP : ::System::Int32
 	{

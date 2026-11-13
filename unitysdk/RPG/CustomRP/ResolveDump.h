@@ -7,30 +7,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class FileInfo; }
 
-#define RPG_CUSTOMRP_RESOLVEDUMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC433B0)
-#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCPPGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x1CC41470)
-#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCSGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x1CC41590)
-#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_1_OFFSET UNITYSDK_OFFSET(0x1CC42AA0)
-#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1CC416B0)
-#define RPG_CUSTOMRP_RESOLVEDUMP__EXTRACTPATH_OFFSET UNITYSDK_OFFSET(0x1CC41A10)
-#define RPG_CUSTOMRP_RESOLVEDUMP__RESOLVE_OFFSET UNITYSDK_OFFSET(0x1CC41D00)
-#define RPG_CUSTOMRP_RESOLVEDUMP__SAVETOLOCAL_OFFSET UNITYSDK_OFFSET(0x1CC42CD0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1990A2F0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCPPGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x199083B0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCSGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x199084D0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_1_OFFSET UNITYSDK_OFFSET(0x199099E0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_OFFSET UNITYSDK_OFFSET(0x199085F0)
+#define RPG_CUSTOMRP_RESOLVEDUMP__EXTRACTPATH_OFFSET UNITYSDK_OFFSET(0x19908950)
+#define RPG_CUSTOMRP_RESOLVEDUMP__RESOLVE_OFFSET UNITYSDK_OFFSET(0x19908C40)
+#define RPG_CUSTOMRP_RESOLVEDUMP__SAVETOLOCAL_OFFSET UNITYSDK_OFFSET(0x19909C10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ResolveDump_TypeDefinitionIndex = 37744;
+	inline static constexpr unsigned int ResolveDump_TypeDefinitionIndex = 38673;
 
 	class ResolveDump : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet__CsCounter()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ResolveDump")->GetStaticField(0x9E30);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ResolveDump")->GetStaticField(0x8AD0);
 		}
 
 		static ::System::Int32* StaticGet__CppCounter()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ResolveDump")->GetStaticField(0x9E34);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ResolveDump")->GetStaticField(0x8AD4);
 		}
 
 		::System::Void _ctor()

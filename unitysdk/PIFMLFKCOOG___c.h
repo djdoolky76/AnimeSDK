@@ -4,18 +4,18 @@
 class PIFMLFKCOOG;
 namespace System { class Object; }
 
-#define PIFMLFKCOOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF17C20)
-#define PIFMLFKCOOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF17C60)
-#define PIFMLFKCOOG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF17C70)
+#define PIFMLFKCOOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2054BC00)
+#define PIFMLFKCOOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2054BC40)
+#define PIFMLFKCOOG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x2054BC50)
 
-inline static constexpr unsigned int PIFMLFKCOOG___c_TypeDefinitionIndex = 29333;
+inline static constexpr unsigned int PIFMLFKCOOG___c_TypeDefinitionIndex = 30034;
 
 	class PIFMLFKCOOG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34A20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BA90);
 		}
 
 		static ::System::Void _cctor()

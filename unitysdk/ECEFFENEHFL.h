@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvNpcResetEyeTransforms; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ECEFFENEHFL_CTOR_OFFSET UNITYSDK_OFFSET(0x12D06280)
-#define ECEFFENEHFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12D062B0)
+#define ECEFFENEHFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D4290)
+#define ECEFFENEHFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C3D42C0)
 
-inline static constexpr unsigned int ECEFFENEHFL_TypeDefinitionIndex = 52456;
+inline static constexpr unsigned int ECEFFENEHFL_TypeDefinitionIndex = 53562;
 
 	class ECEFFENEHFL
 	{

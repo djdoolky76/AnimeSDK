@@ -3,11 +3,11 @@
 #include "unitysdk/Sofa/Core/ObservableObject.h"
 class OBJANKHLNGO;
 
-#define SOFA_BASEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE96B840)
+#define SOFA_BASEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3D9B0)
 
 namespace Sofa
 {
-	inline static constexpr unsigned int BaseViewModel_TypeDefinitionIndex = 49699;
+	inline static constexpr unsigned int BaseViewModel_TypeDefinitionIndex = 50775;
 
 	class BaseViewModel : public ::Sofa::Core::ObservableObject
 	{

@@ -5,29 +5,29 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FIKIBJDOEGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x157A0330)
-#define FIKIBJDOEGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x157A0360)
-#define FIKIBJDOEGP___C__GETCOMBATPOWER_B__3_0_OFFSET UNITYSDK_OFFSET(0x157A0370)
-#define FIKIBJDOEGP___C__GETCOMBATPOWER_B__3_1_OFFSET UNITYSDK_OFFSET(0x157A0380)
+#define FIKIBJDOEGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19809C40)
+#define FIKIBJDOEGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19809C70)
+#define FIKIBJDOEGP___C__GETCOMBATPOWER_B__3_0_OFFSET UNITYSDK_OFFSET(0x19809C80)
+#define FIKIBJDOEGP___C__GETCOMBATPOWER_B__3_1_OFFSET UNITYSDK_OFFSET(0x19809C90)
 
-inline static constexpr unsigned int FIKIBJDOEGP___c_TypeDefinitionIndex = 62566;
+inline static constexpr unsigned int FIKIBJDOEGP___c_TypeDefinitionIndex = 63979;
 
 	class FIKIBJDOEGP___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63DC0);
-		}
-
 		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63DC8);
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61960);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61968);
 		}
 
 		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63DD0);
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61970);
 		}
 
 		static ::System::Void _cctor()

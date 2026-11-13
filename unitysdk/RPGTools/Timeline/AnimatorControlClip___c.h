@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8A2FD0)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A3010)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C__UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_B__6_0_OFFSET UNITYSDK_OFFSET(0xE8A3020)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3D10B0)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D10F0)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C__UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_B__6_0_OFFSET UNITYSDK_OFFSET(0x1E3D1100)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorControlClip___c_TypeDefinitionIndex = 47853;
+	inline static constexpr unsigned int AnimatorControlClip___c_TypeDefinitionIndex = 48884;
 
 	class AnimatorControlClip___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPGTools.Timeline", "<>c")->GetStaticField(0x6F810);
+			return (::System::Object**)UnitySDK::FromName("RPGTools.Timeline", "<>c")->GetStaticField(0x73A40);
 		}
 
 		static ::System::Func_2<::RPGTools::Timeline::AniamtorControlConfig*, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPGTools::Timeline::AniamtorControlConfig*, ::System::String*>**)UnitySDK::FromName("RPGTools.Timeline", "<>c")->GetStaticField(0x6F818);
+			return (::System::Func_2<::RPGTools::Timeline::AniamtorControlConfig*, ::System::String*>**)UnitySDK::FromName("RPGTools.Timeline", "<>c")->GetStaticField(0x73A48);
 		}
 
 		static ::System::Void _cctor()

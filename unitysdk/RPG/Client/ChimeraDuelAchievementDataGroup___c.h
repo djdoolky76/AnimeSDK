@@ -6,31 +6,31 @@ namespace RPG::Client { class ChimeraDuelItemData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB0F380)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB0F3C0)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP___C___SORTCHIMERAGROUPDATALIST_B__4_0_OFFSET UNITYSDK_OFFSET(0xCB0F3D0)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP___C___SORTITEMGROUPDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0xCB0F660)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE56B0)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE56F0)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP___C___SORTCHIMERAGROUPDATALIST_B__4_0_OFFSET UNITYSDK_OFFSET(0x1DFE5700)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP___C___SORTITEMGROUPDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0x1DFE5990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelAchievementDataGroup___c_TypeDefinitionIndex = 63295;
+	inline static constexpr unsigned int ChimeraDuelAchievementDataGroup___c_TypeDefinitionIndex = 64733;
 
 	class ChimeraDuelAchievementDataGroup___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ChimeraDuelItemData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChimeraDuelItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xFBE0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xFBE8);
+			return (::System::Comparison_1<::RPG::Client::ChimeraDuelItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE90);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ChimeraDuelChimeraData*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChimeraDuelChimeraData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xFBF0);
+			return (::System::Comparison_1<::RPG::Client::ChimeraDuelChimeraData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE98);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEEA0);
 		}
 
 		static ::System::Void _cctor()

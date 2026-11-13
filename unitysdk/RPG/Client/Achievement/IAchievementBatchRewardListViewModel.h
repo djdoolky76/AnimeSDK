@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Achievement
 {
-	inline static constexpr unsigned int IAchievementBatchRewardListViewModel_TypeDefinitionIndex = 82117;
+	inline static constexpr unsigned int IAchievementBatchRewardListViewModel_TypeDefinitionIndex = 84990;
 
 	class IAchievementBatchRewardListViewModel
 	{

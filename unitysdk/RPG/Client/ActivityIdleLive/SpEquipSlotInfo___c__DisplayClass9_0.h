@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC50DBD0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS9_0__GETSLOTIDBYTEAMSLOT_B__0_OFFSET UNITYSDK_OFFSET(0xC510080)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3ADBB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS9_0__GETSLOTIDBYTEAMSLOT_B__0_OFFSET UNITYSDK_OFFSET(0x1D3B0060)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipSlotInfo___c__DisplayClass9_0_TypeDefinitionIndex = 75243;
+	inline static constexpr unsigned int SpEquipSlotInfo___c__DisplayClass9_0_TypeDefinitionIndex = 77570;
 
 	class SpEquipSlotInfo___c__DisplayClass9_0 : public ::System::Object
 	{

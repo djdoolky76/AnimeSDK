@@ -7,19 +7,19 @@ namespace RPG::Client { class BattleAssetPreload_CharacterPreloadGroupBase; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define LDPPBELHLEI_BONCILIGGEE_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6423B0)
-#define LDPPBELHLEI_BONCILIGGEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB6424C0)
-#define LDPPBELHLEI_BONCILIGGEE_MOFKAJNCKGN_OFFSET UNITYSDK_OFFSET(0xB641640)
-#define LDPPBELHLEI_BONCILIGGEE_NGCABGCHICG_OFFSET UNITYSDK_OFFSET(0xB641C50)
+#define LDPPBELHLEI_BONCILIGGEE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ACA4990)
+#define LDPPBELHLEI_BONCILIGGEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ACA4AA0)
+#define LDPPBELHLEI_BONCILIGGEE_MOFKAJNCKGN_OFFSET UNITYSDK_OFFSET(0x1ACA3C20)
+#define LDPPBELHLEI_BONCILIGGEE_NGCABGCHICG_OFFSET UNITYSDK_OFFSET(0x1ACA4230)
 
-inline static constexpr unsigned int LDPPBELHLEI_BONCILIGGEE_TypeDefinitionIndex = 59705;
+inline static constexpr unsigned int LDPPBELHLEI_BONCILIGGEE_TypeDefinitionIndex = 60986;
 
 	class LDPPBELHLEI_BONCILIGGEE : public ::System::Object
 	{
 	public:
 		::RPG::Client::BattleAssetPreload_CharacterPreloadGroupBase* DBALOLNOLGL; // 0x10
-		::Collections::Pooled::PooledDictionary_2<::System::String*, ::System::Object*>* GLIKDELPEGH; // 0x18
-		::Collections::Pooled::PooledDictionary_2<::System::String*, ::System::Object*>* JAOJGPCKENL; // 0x20
+		::Collections::Pooled::PooledDictionary_2<::System::String*, ::System::Object*>* JAOJGPCKENL; // 0x18
+		::Collections::Pooled::PooledDictionary_2<::System::String*, ::System::Object*>* GLIKDELPEGH; // 0x20
 		::System::Boolean KNEJHCOHLNN; // 0x28
 		::System::Void _ctor()
 		{

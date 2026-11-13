@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightHandBookType_TypeDefinitionIndex = 13568;
+	inline static constexpr unsigned int GridFightHandBookType_TypeDefinitionIndex = 13677;
 
 	enum class GridFightHandBookType : ::System::Int32
 	{
@@ -13,5 +13,9 @@ namespace RPG::GameCore
 		HandBookPortal = 4,
 		HandBookMonster = 5,
 		HandBookTrait = 6,
+		HandBookSpotLight = 7,
+		HandBookAffix = 8,
+		HandBookPetPal = 9,
+		HandBookMax = 10,
 	};
 }

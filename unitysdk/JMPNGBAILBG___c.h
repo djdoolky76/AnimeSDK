@@ -4,18 +4,18 @@
 class JMPNGBAILBG;
 namespace System { class Object; }
 
-#define JMPNGBAILBG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7648B0)
-#define JMPNGBAILBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7648F0)
-#define JMPNGBAILBG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E764900)
+#define JMPNGBAILBG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFF9B20)
+#define JMPNGBAILBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFF9B60)
+#define JMPNGBAILBG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FFF9B70)
 
-inline static constexpr unsigned int JMPNGBAILBG___c_TypeDefinitionIndex = 32929;
+inline static constexpr unsigned int JMPNGBAILBG___c_TypeDefinitionIndex = 33844;
 
 	class JMPNGBAILBG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x655E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66D50);
 		}
 
 		static ::System::Void _cctor()

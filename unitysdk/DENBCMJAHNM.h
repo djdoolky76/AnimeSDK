@@ -3,10 +3,10 @@
 class PLMHECGLFFM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DENBCMJAHNM_CTOR_OFFSET UNITYSDK_OFFSET(0xE51B670)
-#define DENBCMJAHNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE51B6A0)
+#define DENBCMJAHNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3826A0)
+#define DENBCMJAHNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B3826D0)
 
-inline static constexpr unsigned int DENBCMJAHNM_TypeDefinitionIndex = 52311;
+inline static constexpr unsigned int DENBCMJAHNM_TypeDefinitionIndex = 53417;
 
 	class DENBCMJAHNM
 	{

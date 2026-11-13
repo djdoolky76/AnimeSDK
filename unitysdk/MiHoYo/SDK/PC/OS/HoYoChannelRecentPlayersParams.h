@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS { class XboxRecentPlayersParamExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELRECENTPLAYERSPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF05F60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELRECENTPLAYERSPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF05F50)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELRECENTPLAYERSPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF825D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELRECENTPLAYERSPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF825C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelRecentPlayersParams_TypeDefinitionIndex = 8639;
+	inline static constexpr unsigned int HoYoChannelRecentPlayersParams_TypeDefinitionIndex = 8648;
 
 	class HoYoChannelRecentPlayersParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

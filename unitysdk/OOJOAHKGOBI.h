@@ -5,19 +5,19 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define OOJOAHKGOBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF84AC0)
-#define OOJOAHKGOBI_JHKBGBMLBOI_OFFSET UNITYSDK_OFFSET(0xBF849C0)
+#define OOJOAHKGOBI_CTOR_OFFSET UNITYSDK_OFFSET(0x196ABCC0)
+#define OOJOAHKGOBI_JHKBGBMLBOI_OFFSET UNITYSDK_OFFSET(0x196ABBC0)
 
-inline static constexpr unsigned int OOJOAHKGOBI_TypeDefinitionIndex = 71639;
+inline static constexpr unsigned int OOJOAHKGOBI_TypeDefinitionIndex = 73627;
 
 	class OOJOAHKGOBI : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Text* JHNKMEDDFLH; // 0x10
-		::UnityEngine::Transform* IEIDNLCEAJG; // 0x18
-		::UnityEngine::UI::Text* HOKNLLFPFNB; // 0x20
-		::UnityEngine::UI::Image* GBMPJLHLAJC; // 0x28
-		::UnityEngine::UI::Text* BJBIDNHJAMF; // 0x30
+		::UnityEngine::UI::Image* GBMPJLHLAJC; // 0x10
+		::UnityEngine::UI::Text* BJBIDNHJAMF; // 0x18
+		::UnityEngine::Transform* IEIDNLCEAJG; // 0x20
+		::UnityEngine::UI::Text* HOKNLLFPFNB; // 0x28
+		::UnityEngine::UI::Text* JHNKMEDDFLH; // 0x30
 		// static const ::System::String* BDACPPLKLGL; // 0x0
 		::System::Void _ctor()
 		{

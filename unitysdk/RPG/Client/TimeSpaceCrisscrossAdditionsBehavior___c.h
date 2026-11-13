@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE282CD0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE282D10)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSBEHAVIOR___C___COLLECTRENDERERSTO_B__21_0_OFFSET UNITYSDK_OFFSET(0xE282D20)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A13C450)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A13C490)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSBEHAVIOR___C___COLLECTRENDERERSTO_B__21_0_OFFSET UNITYSDK_OFFSET(0x1A13C4A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossAdditionsBehavior___c_TypeDefinitionIndex = 70197;
+	inline static constexpr unsigned int TimeSpaceCrisscrossAdditionsBehavior___c_TypeDefinitionIndex = 72163;
 
 	class TimeSpaceCrisscrossAdditionsBehavior___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19450);
-		}
-
 		static ::System::Predicate_1<::UnityEngine::Renderer*>** StaticGet___9__21_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19458);
+			return (::System::Predicate_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x23A60);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x23A68);
 		}
 
 		static ::System::Void _cctor()

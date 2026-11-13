@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AnimWeighted; }
 namespace RPG::GameCore { class PropAnimTriggerRandomPlay; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPANIMTRIGGERRANDOMPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D917450)
-#define RPG_GAMECORE_PROPANIMTRIGGERRANDOMPLAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D917480)
-#define RPG_GAMECORE_PROPANIMTRIGGERRANDOMPLAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D917400)
+#define RPG_GAMECORE_PROPANIMTRIGGERRANDOMPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF81310)
+#define RPG_GAMECORE_PROPANIMTRIGGERRANDOMPLAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF81340)
+#define RPG_GAMECORE_PROPANIMTRIGGERRANDOMPLAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF812C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropAnimTriggerRandomPlay_TypeDefinitionIndex = 22244;
+	inline static constexpr unsigned int PropAnimTriggerRandomPlay_TypeDefinitionIndex = 22649;
 
 	class PropAnimTriggerRandomPlay : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,7 +3,7 @@
 class HIOAMIPNLIN;
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int LIFCDBLDNMD_ENKOAKGMOHA_TypeDefinitionIndex = 53900;
+inline static constexpr unsigned int LIFCDBLDNMD_ENKOAKGMOHA_TypeDefinitionIndex = 55064;
 
 	struct alignas(8) LIFCDBLDNMD_ENKOAKGMOHA
 	{

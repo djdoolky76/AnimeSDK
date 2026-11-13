@@ -5,18 +5,18 @@ namespace RPG::Client { class NewsTickerItem; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9CA390)
-#define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0__SETSETUPITEMCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xD9CAA90)
+#define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD8CE50)
+#define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0__SETSETUPITEMCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1AD8D4B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewsTicker___c__DisplayClass12_0_TypeDefinitionIndex = 68994;
+	inline static constexpr unsigned int NewsTicker___c__DisplayClass12_0_TypeDefinitionIndex = 70947;
 
 	class NewsTicker___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::XLua::LuaTable* luaSelf; // 0x10
-		::System::Action_3<::XLua::LuaTable*, ::RPG::Client::NewsTickerItem*, ::System::UInt32>* onSetupItem; // 0x18
+		::System::Action_3<::XLua::LuaTable*, ::RPG::Client::NewsTickerItem*, ::System::UInt32>* onSetupItem; // 0x10
+		::XLua::LuaTable* luaSelf; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0_CTOR_OFFSET))(this);

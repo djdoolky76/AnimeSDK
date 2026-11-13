@@ -4,16 +4,16 @@
 class KDPCEBNFPAC;
 namespace RPG::Client::Promises { class Promise; }
 
-#define KDPCEBNFPAC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB366110)
-#define KDPCEBNFPAC___C__DISPLAYCLASS6_0__SHOWFULLSCREENTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xB367430)
+#define KDPCEBNFPAC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D0070)
+#define KDPCEBNFPAC___C__DISPLAYCLASS6_0__SHOWFULLSCREENTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0x1B5D1380)
 
-inline static constexpr unsigned int KDPCEBNFPAC___c__DisplayClass6_0_TypeDefinitionIndex = 80169;
+inline static constexpr unsigned int KDPCEBNFPAC___c__DisplayClass6_0_TypeDefinitionIndex = 82946;
 
 	class KDPCEBNFPAC___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* hiddenPromise; // 0x10
-		::KDPCEBNFPAC* __4__this; // 0x18
+		::KDPCEBNFPAC* __4__this; // 0x10
+		::RPG::Client::Promises::Promise* hiddenPromise; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KDPCEBNFPAC___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);

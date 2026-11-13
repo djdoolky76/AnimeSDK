@@ -5,12 +5,12 @@ class MFBGPHGLFCD;
 namespace RPG::Client::BlindBox::Trade { class BlindBoxTradeFriendMarketInfo; }
 namespace RPG::Client::BlindBox::Trade { class PublicBlindBoxTradeOrder; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFRIENDMARKETINFO___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC892A90)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFRIENDMARKETINFO___C__DISPLAYCLASS16_0___BUILDCURRENTORDERS_B__0_OFFSET UNITYSDK_OFFSET(0xC893630)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFRIENDMARKETINFO___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5616C0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFRIENDMARKETINFO___C__DISPLAYCLASS16_0___BUILDCURRENTORDERS_B__0_OFFSET UNITYSDK_OFFSET(0x1C562270)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradeFriendMarketInfo___c__DisplayClass16_0_TypeDefinitionIndex = 74856;
+	inline static constexpr unsigned int BlindBoxTradeFriendMarketInfo___c__DisplayClass16_0_TypeDefinitionIndex = 77183;
 
 	class BlindBoxTradeFriendMarketInfo___c__DisplayClass16_0 : public ::System::Object
 	{

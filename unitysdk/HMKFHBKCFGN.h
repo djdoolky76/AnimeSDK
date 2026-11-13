@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Material; }
 
-#define HMKFHBKCFGN_EQUALS_OFFSET UNITYSDK_OFFSET(0x2E80550)
-#define HMKFHBKCFGN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2E80560)
+#define HMKFHBKCFGN_EQUALS_OFFSET UNITYSDK_OFFSET(0x3E5B7E0)
+#define HMKFHBKCFGN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3E5B7F0)
 
-inline static constexpr unsigned int HMKFHBKCFGN_TypeDefinitionIndex = 69839;
+inline static constexpr unsigned int HMKFHBKCFGN_TypeDefinitionIndex = 71798;
 
 	struct alignas(8) HMKFHBKCFGN
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Textmap::Parameter
 {
-	inline static constexpr unsigned int IndexedParameterContextGenericArray_1_TypeDefinitionIndex = 73375;
+	inline static constexpr unsigned int IndexedParameterContextGenericArray_1_TypeDefinitionIndex = 75492;
 
 	template <typename T>
 	class IndexedParameterContextGenericArray_1 : public ::PIHIPJCGCDB

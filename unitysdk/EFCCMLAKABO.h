@@ -5,302 +5,302 @@ class EHNACJOODNL;
 class HJEIEIFLDGN;
 namespace System { class String; }
 
-#define EFCCMLAKABO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C434260)
-#define EFCCMLAKABO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C434250)
-#define EFCCMLAKABO_DAAHJDFHNAD_OFFSET UNITYSDK_OFFSET(0x1C433F10)
-#define EFCCMLAKABO_DINKOBHKAEM_OFFSET UNITYSDK_OFFSET(0x1C433740)
-#define EFCCMLAKABO_EDCOEGCEHEJ_OFFSET UNITYSDK_OFFSET(0x1C433610)
-#define EFCCMLAKABO_EKIPPFECIGI_OFFSET UNITYSDK_OFFSET(0x1C4332A0)
-#define EFCCMLAKABO_GDGGKDHHFFE_OFFSET UNITYSDK_OFFSET(0x1C433FC0)
-#define EFCCMLAKABO_GET_BATTLESERVERVERSION_OFFSET UNITYSDK_OFFSET(0x1C434230)
-#define EFCCMLAKABO_IJNOHCCHBFC_OFFSET UNITYSDK_OFFSET(0x1C4341E0)
-#define EFCCMLAKABO_JDNEKCMEKDN_OFFSET UNITYSDK_OFFSET(0x1C433180)
-#define EFCCMLAKABO_KIFIEJGBNBP_OFFSET UNITYSDK_OFFSET(0x1C433550)
-#define EFCCMLAKABO_LMEMOPDBNKC_OFFSET UNITYSDK_OFFSET(0x1C400DC0)
-#define EFCCMLAKABO_MIIIFLCNJCI_OFFSET UNITYSDK_OFFSET(0x1C4333B0)
-#define EFCCMLAKABO_MNMOPBFLLLN_OFFSET UNITYSDK_OFFSET(0x1C433360)
-#define EFCCMLAKABO_NDPJFOCKFOM_OFFSET UNITYSDK_OFFSET(0x1C432DF0)
-#define EFCCMLAKABO_NEIBPACJKHC_OFFSET UNITYSDK_OFFSET(0x1C432D60)
-#define EFCCMLAKABO_NGEJJDJMAOB_OFFSET UNITYSDK_OFFSET(0x1C432FF0)
-#define EFCCMLAKABO_NGFBPDCIMDF_OFFSET UNITYSDK_OFFSET(0x1C433470)
-#define EFCCMLAKABO_OFEJGCCKCBD_OFFSET UNITYSDK_OFFSET(0x1C434190)
-#define EFCCMLAKABO_OJKMLDBBFGE_OFFSET UNITYSDK_OFFSET(0x1C4336D0)
-#define EFCCMLAKABO_OOCLHGCIMEP_OFFSET UNITYSDK_OFFSET(0x1C433500)
-#define EFCCMLAKABO_SET_BATTLESERVERVERSION_OFFSET UNITYSDK_OFFSET(0x1C434240)
+#define EFCCMLAKABO_CCTOR_OFFSET UNITYSDK_OFFSET(0x15AF47F0)
+#define EFCCMLAKABO_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF47E0)
+#define EFCCMLAKABO_DAAHJDFHNAD_OFFSET UNITYSDK_OFFSET(0x15AF44A0)
+#define EFCCMLAKABO_DINKOBHKAEM_OFFSET UNITYSDK_OFFSET(0x15AF3CD0)
+#define EFCCMLAKABO_EDCOEGCEHEJ_OFFSET UNITYSDK_OFFSET(0x15AF3BA0)
+#define EFCCMLAKABO_EKIPPFECIGI_OFFSET UNITYSDK_OFFSET(0x15AF3830)
+#define EFCCMLAKABO_GDGGKDHHFFE_OFFSET UNITYSDK_OFFSET(0x15AF4550)
+#define EFCCMLAKABO_GET_BATTLESERVERVERSION_OFFSET UNITYSDK_OFFSET(0x15AF47C0)
+#define EFCCMLAKABO_IJNOHCCHBFC_OFFSET UNITYSDK_OFFSET(0x15AF4770)
+#define EFCCMLAKABO_JDNEKCMEKDN_OFFSET UNITYSDK_OFFSET(0x15AF3710)
+#define EFCCMLAKABO_KIFIEJGBNBP_OFFSET UNITYSDK_OFFSET(0x15AF3AE0)
+#define EFCCMLAKABO_LMEMOPDBNKC_OFFSET UNITYSDK_OFFSET(0x15AC3830)
+#define EFCCMLAKABO_MIIIFLCNJCI_OFFSET UNITYSDK_OFFSET(0x15AF3940)
+#define EFCCMLAKABO_MNMOPBFLLLN_OFFSET UNITYSDK_OFFSET(0x15AF38F0)
+#define EFCCMLAKABO_NDPJFOCKFOM_OFFSET UNITYSDK_OFFSET(0x15AF3380)
+#define EFCCMLAKABO_NEIBPACJKHC_OFFSET UNITYSDK_OFFSET(0x15AF32F0)
+#define EFCCMLAKABO_NGEJJDJMAOB_OFFSET UNITYSDK_OFFSET(0x15AF3580)
+#define EFCCMLAKABO_NGFBPDCIMDF_OFFSET UNITYSDK_OFFSET(0x15AF3A00)
+#define EFCCMLAKABO_OFEJGCCKCBD_OFFSET UNITYSDK_OFFSET(0x15AF4720)
+#define EFCCMLAKABO_OJKMLDBBFGE_OFFSET UNITYSDK_OFFSET(0x15AF3C60)
+#define EFCCMLAKABO_OOCLHGCIMEP_OFFSET UNITYSDK_OFFSET(0x15AF3A90)
+#define EFCCMLAKABO_SET_BATTLESERVERVERSION_OFFSET UNITYSDK_OFFSET(0x15AF47D0)
 
-inline static constexpr unsigned int EFCCMLAKABO_TypeDefinitionIndex = 41391;
+inline static constexpr unsigned int EFCCMLAKABO_TypeDefinitionIndex = 42366;
 
 	class EFCCMLAKABO : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_EPFFDMJICHP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC30);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD30);
 		}
 
 		static ::System::String** StaticGet_FJOMPEHPGDE()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC38);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD38);
 		}
 
 		static ::System::String** StaticGet_HPMOGAIGMGO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC40);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD40);
 		}
 
 		static ::System::String** StaticGet_AKLODAADMMD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC48);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD48);
 		}
 
 		static ::System::String** StaticGet_GDEAMALKDLL()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC50);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD50);
 		}
 
 		static ::System::String** StaticGet_ACNKJMNFOGK()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC58);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD58);
 		}
 
 		static ::System::String** StaticGet__BattleServerVersion_k__BackingField()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC60);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD60);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_CCFOBNEMIHN()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC68);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD68);
 		}
 
 		static ::System::String** StaticGet_DAOLEFINHLH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC70);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD70);
 		}
 
 		static ::System::String** StaticGet_EKLLEMBJKDA()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC78);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD78);
 		}
 
 		static ::System::String** StaticGet_PGFPEGKMJAN()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC80);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD80);
 		}
 
 		static ::System::String** StaticGet_INEMMJPGJLN()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC88);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD88);
 		}
 
 		static ::System::String** StaticGet_CLCFBOLDFKN()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC90);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD90);
 		}
 
 		static ::System::String** StaticGet_IIHAENBMINB()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xC98);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD98);
 		}
 
 		static ::System::String** StaticGet_BOCOFJCKIIA()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCA0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDA0);
 		}
 
 		static ::System::String** StaticGet_EGJIFAIFHCL()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCA8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDA8);
 		}
 
 		static ::System::String** StaticGet_JKGADDELNBD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCB0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDB0);
 		}
 
 		static ::System::String** StaticGet_JMKPGCIJCKH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCB8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDB8);
 		}
 
 		static ::System::String** StaticGet_ADHFJDBANKM()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCC0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDC0);
 		}
 
 		static ::System::String** StaticGet_JCCGMAFBLHC()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCC8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDC8);
 		}
 
 		static ::System::String** StaticGet_NICEHNMDKPO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCD0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDD0);
 		}
 
 		static ::System::String** StaticGet_KLEHCKMOIFB()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCD8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDD8);
 		}
 
 		static ::System::String** StaticGet_EKKLNNDDDHB()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCE0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDE0);
 		}
 
 		static ::System::String** StaticGet_LMMFIPADDCK()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCE8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDE8);
 		}
 
 		static ::System::String** StaticGet_JKIONFJKGCO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCF0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDF0);
 		}
 
 		static ::System::String** StaticGet_AIHHAICCHDD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xCF8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDF8);
 		}
 
 		static ::EHNACJOODNL** StaticGet_FMIOEICDLPN()
 		{
-			return (::EHNACJOODNL**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD00);
+			return (::EHNACJOODNL**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE00);
 		}
 
 		static ::System::String** StaticGet_EAMFBHLKLJD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD08);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE08);
 		}
 
 		static ::System::String** StaticGet_PFCKINPNPBH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD10);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE10);
 		}
 
 		static ::System::String** StaticGet_OABLCOKHDCI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD18);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE18);
 		}
 
 		static ::System::String** StaticGet_KCBMFEHKKKC()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD20);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE20);
 		}
 
 		static ::System::String** StaticGet_JCFEEJIBJKP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD28);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE28);
 		}
 
 		static ::System::String** StaticGet_DELAFFLODPF()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD30);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE30);
 		}
 
 		static ::System::String** StaticGet_EFEFAPKGBHF()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD38);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE38);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_ABMFGLLCKEE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD40);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE40);
 		}
 
 		static ::System::String** StaticGet_KLLNGCOPDDF()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD48);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE48);
 		}
 
 		static ::System::String** StaticGet_HBHHOJDJIAI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD50);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE50);
 		}
 
 		static ::System::String** StaticGet_MAHBMJCEJOJ()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD58);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE58);
 		}
 
 		static ::System::String** StaticGet_LPHOPHDMEDJ()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD60);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE60);
 		}
 
 		static ::System::String** StaticGet_NKLLJCMEENE()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD68);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE68);
 		}
 
 		static ::System::String** StaticGet_HDCIJGIACLH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD70);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE70);
 		}
 
 		static ::System::String** StaticGet_IOOAFIGAJCN()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD78);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE78);
 		}
 
 		static ::System::String** StaticGet_OEBFDDOCJMP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD80);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE80);
 		}
 
 		static ::System::String** StaticGet_GMEPNPOGJCJ()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD88);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE88);
 		}
 
 		static ::System::String** StaticGet_MCILMIMDCGO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD90);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE90);
 		}
 
 		static ::System::String** StaticGet_JMBOABCKMJD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xD98);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xE98);
 		}
 
 		static ::System::String** StaticGet_FIEDLOHMFIB()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDA0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xEA0);
 		}
 
 		static ::System::String** StaticGet_KAMGDOKKNPM()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDA8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xEA8);
 		}
 
 		static ::System::String** StaticGet_MPNNNANFHJC()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDB0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xEB0);
 		}
 
 		static ::System::String** StaticGet_DKFPONDKOPP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDB8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xEB8);
 		}
 
 		static ::System::String** StaticGet_BKADPONBHCC()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDC0);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xEC0);
 		}
 
 		static ::System::String** StaticGet_ILPJHBOJOGP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDC8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xEC8);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_IGBAGPOOELK()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDD0);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xED0);
 		}
 
 		static ::System::String** StaticGet_CFNEOIAILOC()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xDD8);
+			return (::System::String**)UnitySDK::FromName("", "EFCCMLAKABO")->GetStaticField(0xED8);
 		}
 
 		// static const ::System::String* EANNFEGBHNI; // 0x0

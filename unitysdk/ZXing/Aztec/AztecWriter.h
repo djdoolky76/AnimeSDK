@@ -10,22 +10,22 @@ namespace System::Text { class Encoding; }
 namespace ZXing::Aztec::Internal { class AztecCode; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_AZTEC_AZTECWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F66CEF0)
-#define ZXING_AZTEC_AZTECWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F66EF20)
-#define ZXING_AZTEC_AZTECWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F66D7B0)
-#define ZXING_AZTEC_AZTECWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F66CFD0)
-#define ZXING_AZTEC_AZTECWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1F66EAB0)
+#define ZXING_AZTEC_AZTECWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17A673B0)
+#define ZXING_AZTEC_AZTECWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x17A69380)
+#define ZXING_AZTEC_AZTECWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x17A67C10)
+#define ZXING_AZTEC_AZTECWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x17A67460)
+#define ZXING_AZTEC_AZTECWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x17A68F10)
 
 namespace ZXing::Aztec
 {
-	inline static constexpr unsigned int AztecWriter_TypeDefinitionIndex = 7039;
+	inline static constexpr unsigned int AztecWriter_TypeDefinitionIndex = 7050;
 
 	class AztecWriter : public ::System::Object
 	{
 	public:
 		static ::System::Text::Encoding** StaticGet_DEFAULT_CHARSET()
 		{
-			return (::System::Text::Encoding**)UnitySDK::FromName("ZXing.Aztec", "AztecWriter")->GetStaticField(0x44030);
+			return (::System::Text::Encoding**)UnitySDK::FromName("ZXing.Aztec", "AztecWriter")->GetStaticField(0x297E0);
 		}
 
 		static ::System::Void _cctor()

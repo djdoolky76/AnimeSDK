@@ -4,16 +4,16 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkBossForceChangePhaseFlag; }
 
-#define HIFBACKJOHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6392F0)
-#define HIFBACKJOHL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C639300)
+#define HIFBACKJOHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C921AF0)
+#define HIFBACKJOHL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C921B00)
 
-inline static constexpr unsigned int HIFBACKJOHL_TypeDefinitionIndex = 36331;
+inline static constexpr unsigned int HIFBACKJOHL_TypeDefinitionIndex = 37259;
 
 	class HIFBACKJOHL : public ::AJBKGPOEBFG
 	{
 	public:
-		::EHMBINMCDGN* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* IGHAHBNLIJA; // 0x18
+		::EHMBINMCDGN* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* a1, ::EHMBINMCDGN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag*, ::EHMBINMCDGN*))((::PBYTE)hIl2Cpp + HIFBACKJOHL_CTOR_OFFSET))(this, a1, a2);

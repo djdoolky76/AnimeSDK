@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONDRAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16744800)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONDRAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E986470)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickDrag_OnDrag_TypeDefinitionIndex = 40256;
+	inline static constexpr unsigned int QuickDrag_OnDrag_TypeDefinitionIndex = 41231;
 
 	class QuickDrag_OnDrag
 	{

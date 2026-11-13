@@ -8,7 +8,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int Matcher_1_TypeDefinitionIndex = 10043;
+	inline static constexpr unsigned int Matcher_1_TypeDefinitionIndex = 10051;
 
 	template <typename T>
 	class Matcher_1 : public ::System::Object

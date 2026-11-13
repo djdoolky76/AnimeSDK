@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftPoseAdjuster_PosePointInfo.h"
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPOSEADJUSTER___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD64BE90)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPOSEADJUSTER___C__DISPLAYCLASS2_0__GETPOSEPOINT_B__0_OFFSET UNITYSDK_OFFSET(0xD64BEB0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPOSEADJUSTER___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEC660)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPOSEADJUSTER___C__DISPLAYCLASS2_0__GETPOSEPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x1DEEC680)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftPoseAdjuster___c__DisplayClass2_0_TypeDefinitionIndex = 79973;
+	inline static constexpr unsigned int MechCraftPoseAdjuster___c__DisplayClass2_0_TypeDefinitionIndex = 82750;
 
 	class MechCraftPoseAdjuster___c__DisplayClass2_0 : public ::System::Object
 	{

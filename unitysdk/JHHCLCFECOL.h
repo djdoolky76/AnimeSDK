@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PresetColliderStateBeforeFlipEraRegion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHHCLCFECOL_CTOR_OFFSET UNITYSDK_OFFSET(0xB1AD4D0)
-#define JHHCLCFECOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1AD500)
+#define JHHCLCFECOL_CTOR_OFFSET UNITYSDK_OFFSET(0x173DA0F0)
+#define JHHCLCFECOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173DA120)
 
-inline static constexpr unsigned int JHHCLCFECOL_TypeDefinitionIndex = 52769;
+inline static constexpr unsigned int JHHCLCFECOL_TypeDefinitionIndex = 53913;
 
 	class JHHCLCFECOL
 	{

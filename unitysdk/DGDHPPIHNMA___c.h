@@ -4,18 +4,18 @@
 class DGDHPPIHNMA;
 namespace System { class Object; }
 
-#define DGDHPPIHNMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E17DA30)
-#define DGDHPPIHNMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E17DA60)
-#define DGDHPPIHNMA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E17DA70)
+#define DGDHPPIHNMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2064A5D0)
+#define DGDHPPIHNMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2064A600)
+#define DGDHPPIHNMA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2064A610)
 
-inline static constexpr unsigned int DGDHPPIHNMA___c_TypeDefinitionIndex = 30922;
+inline static constexpr unsigned int DGDHPPIHNMA___c_TypeDefinitionIndex = 31835;
 
 	class DGDHPPIHNMA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F1A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29A80);
 		}
 
 		static ::System::Void _cctor()

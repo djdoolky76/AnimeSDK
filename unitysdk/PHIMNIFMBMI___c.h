@@ -4,18 +4,18 @@
 class PHIMNIFMBMI;
 namespace System { class Object; }
 
-#define PHIMNIFMBMI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF0FD40)
-#define PHIMNIFMBMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF0FD80)
-#define PHIMNIFMBMI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF0FD90)
+#define PHIMNIFMBMI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2025E100)
+#define PHIMNIFMBMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2025E140)
+#define PHIMNIFMBMI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x2025E150)
 
-inline static constexpr unsigned int PHIMNIFMBMI___c_TypeDefinitionIndex = 26648;
+inline static constexpr unsigned int PHIMNIFMBMI___c_TypeDefinitionIndex = 27179;
 
 	class PHIMNIFMBMI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33E00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A990);
 		}
 
 		static ::System::Void _cctor()

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class BattleAudioSwitch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LEHECFMEICB_CTOR_OFFSET UNITYSDK_OFFSET(0xB64D0C0)
-#define LEHECFMEICB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB64D0D0)
-#define LEHECFMEICB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB64D110)
-#define LEHECFMEICB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB64D380)
-#define LEHECFMEICB_TICK_OFFSET UNITYSDK_OFFSET(0xB64D3D0)
+#define LEHECFMEICB_CTOR_OFFSET UNITYSDK_OFFSET(0x18C335E0)
+#define LEHECFMEICB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C335F0)
+#define LEHECFMEICB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C33630)
+#define LEHECFMEICB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18C338A0)
+#define LEHECFMEICB_TICK_OFFSET UNITYSDK_OFFSET(0x18C338F0)
 
-inline static constexpr unsigned int LEHECFMEICB_TypeDefinitionIndex = 57947;
+inline static constexpr unsigned int LEHECFMEICB_TypeDefinitionIndex = 59184;
 
 	class LEHECFMEICB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::BattleAudioSwitch* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::BattleAudioSwitch* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::BattleAudioSwitch* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::BattleAudioSwitch*))((::PBYTE)hIl2Cpp + LEHECFMEICB_CTOR_OFFSET))(this, a1, a2);

@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 namespace RPG::GameCore { class FormationData; }
 
-#define CCGELMMFAJH_EMKGIBPKKNK_OFFSET UNITYSDK_OFFSET(0xC737BA0)
-#define CCGELMMFAJH_KNHALNMOJGL_OFFSET UNITYSDK_OFFSET(0xC737760)
+#define CCGELMMFAJH_EMKGIBPKKNK_OFFSET UNITYSDK_OFFSET(0x18FFA1A0)
+#define CCGELMMFAJH_KNHALNMOJGL_OFFSET UNITYSDK_OFFSET(0x18FF9D60)
 
-inline static constexpr unsigned int CCGELMMFAJH_TypeDefinitionIndex = 59302;
+inline static constexpr unsigned int CCGELMMFAJH_TypeDefinitionIndex = 60579;
 
 	class CCGELMMFAJH : public ::System::Object
 	{

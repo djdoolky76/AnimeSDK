@@ -4,18 +4,18 @@
 class LPADDGPLIKK;
 namespace System { class Object; }
 
-#define LPADDGPLIKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E99ABA0)
-#define LPADDGPLIKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E99ABD0)
-#define LPADDGPLIKK___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E99ABE0)
+#define LPADDGPLIKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200DE3C0)
+#define LPADDGPLIKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200DE3F0)
+#define LPADDGPLIKK___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x200DE400)
 
-inline static constexpr unsigned int LPADDGPLIKK___c_TypeDefinitionIndex = 33646;
+inline static constexpr unsigned int LPADDGPLIKK___c_TypeDefinitionIndex = 34561;
 
 	class LPADDGPLIKK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x436B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45BA0);
 		}
 
 		static ::System::Void _cctor()

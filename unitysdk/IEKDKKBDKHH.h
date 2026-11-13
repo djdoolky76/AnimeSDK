@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionFieldTransportLastCat; }
 
-#define IEKDKKBDKHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6648A0)
-#define IEKDKKBDKHH_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C6648B0)
+#define IEKDKKBDKHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C94CED0)
+#define IEKDKKBDKHH_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C94CEE0)
 
-inline static constexpr unsigned int IEKDKKBDKHH_TypeDefinitionIndex = 37385;
+inline static constexpr unsigned int IEKDKKBDKHH_TypeDefinitionIndex = 38313;
 
 	class IEKDKKBDKHH : public ::GPLOFONGBGI
 	{

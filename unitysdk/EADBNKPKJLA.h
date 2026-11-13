@@ -5,13 +5,13 @@ class ODCELNBAEIB;
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define EADBNKPKJLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1266CAD0)
-#define EADBNKPKJLA_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1266CCE0)
-#define EADBNKPKJLA_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1266CB60)
-#define EADBNKPKJLA_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x1266CC80)
-#define EADBNKPKJLA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1266CAF0)
+#define EADBNKPKJLA_CTOR_OFFSET UNITYSDK_OFFSET(0x181C7530)
+#define EADBNKPKJLA_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x181C7740)
+#define EADBNKPKJLA_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x181C75C0)
+#define EADBNKPKJLA_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x181C76E0)
+#define EADBNKPKJLA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x181C7550)
 
-inline static constexpr unsigned int EADBNKPKJLA_TypeDefinitionIndex = 79092;
+inline static constexpr unsigned int EADBNKPKJLA_TypeDefinitionIndex = 81868;
 
 	class EADBNKPKJLA : public ::System::Object
 	{
@@ -19,8 +19,8 @@ inline static constexpr unsigned int EADBNKPKJLA_TypeDefinitionIndex = 79092;
 		::UnityEngine::Transform* PDJGEDNLBKJ; // 0x10
 		::UnityEngine::GameObject* OJAHLJGABMJ; // 0x18
 		::System::Single KFNAJCFKJJM; // 0x20
-		::System::Single HBDJCFFDGDD; // 0x24
-		::System::Single BOCCPIAECFL; // 0x28
+		::System::Single BOCCPIAECFL; // 0x24
+		::System::Single HBDJCFFDGDD; // 0x28
 		::System::Single BPAIDCADMDO; // 0x2C
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{

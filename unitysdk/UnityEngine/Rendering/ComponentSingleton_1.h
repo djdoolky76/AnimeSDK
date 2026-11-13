@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ComponentSingleton_1_TypeDefinitionIndex = 35474;
+	inline static constexpr unsigned int ComponentSingleton_1_TypeDefinitionIndex = 36402;
 
 	template <typename T>
 	class ComponentSingleton_1 : public ::System::Object

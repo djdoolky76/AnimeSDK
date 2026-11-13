@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::PS { class PSWelcomeDialog; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF43050)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF43090)
-#define MIHOYO_SDK_PS_PSWELCOMEDIALOG___C__SHOW_B__19_0_OFFSET UNITYSDK_OFFSET(0x1BF430A0)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFBF620)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFBF660)
+#define MIHOYO_SDK_PS_PSWELCOMEDIALOG___C__SHOW_B__19_0_OFFSET UNITYSDK_OFFSET(0x1BFBF670)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSWelcomeDialog___c_TypeDefinitionIndex = 8945;
+	inline static constexpr unsigned int PSWelcomeDialog___c_TypeDefinitionIndex = 8954;
 
 	class PSWelcomeDialog___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x20F80);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18600);
 		}
 
 		static ::System::Action_1<::MiHoYo::SDK::PS::PSWelcomeDialog*>** StaticGet___9__19_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PS::PSWelcomeDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x20F88);
+			return (::System::Action_1<::MiHoYo::SDK::PS::PSWelcomeDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18608);
 		}
 
 		static ::System::Void _cctor()

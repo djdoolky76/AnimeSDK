@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PropSetVisibility; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETVISIBILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D926D20)
-#define RPG_GAMECORE_PROPSETVISIBILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D926D50)
-#define RPG_GAMECORE_PROPSETVISIBILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D926CD0)
+#define RPG_GAMECORE_PROPSETVISIBILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF907E0)
+#define RPG_GAMECORE_PROPSETVISIBILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF90810)
+#define RPG_GAMECORE_PROPSETVISIBILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF90790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetVisibility_TypeDefinitionIndex = 20397;
+	inline static constexpr unsigned int PropSetVisibility_TypeDefinitionIndex = 20732;
 
 	class PropSetVisibility : public ::RPG::GameCore::TaskConfig
 	{

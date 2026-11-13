@@ -8,26 +8,26 @@ namespace MessagePack::Formatters { class ByteListFormatter; }
 namespace MessagePack::Formatters { template <typename T> class ListFormatter_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB4F380)
-#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB4F370)
-#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB4F230)
-#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB4F190)
+#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1748E240)
+#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1748E230)
+#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1748E0F0)
+#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1748E050)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ByteListFormatter_TypeDefinitionIndex = 7377;
+	inline static constexpr unsigned int ByteListFormatter_TypeDefinitionIndex = 7388;
 
 	class ByteListFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::ByteListFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::ByteListFormatter**)UnitySDK::FromName("MessagePack.Formatters", "ByteListFormatter")->GetStaticField(0x480D0);
+			return (::MessagePack::Formatters::ByteListFormatter**)UnitySDK::FromName("MessagePack.Formatters", "ByteListFormatter")->GetStaticField(0x2C370);
 		}
 
 		static ::MessagePack::Formatters::ListFormatter_1<::System::Byte>** StaticGet_InnerFormatter()
 		{
-			return (::MessagePack::Formatters::ListFormatter_1<::System::Byte>**)UnitySDK::FromName("MessagePack.Formatters", "ByteListFormatter")->GetStaticField(0x480D8);
+			return (::MessagePack::Formatters::ListFormatter_1<::System::Byte>**)UnitySDK::FromName("MessagePack.Formatters", "ByteListFormatter")->GetStaticField(0x2C378);
 		}
 
 		::System::Void _ctor()

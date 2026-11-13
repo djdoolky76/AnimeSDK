@@ -4,9 +4,9 @@
 class GLPPDCIBMIH;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BKKCAANDKJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56D400)
+#define BKKCAANDKJI_CTOR_OFFSET UNITYSDK_OFFSET(0x17009460)
 
-inline static constexpr unsigned int BKKCAANDKJI_TypeDefinitionIndex = 36445;
+inline static constexpr unsigned int BKKCAANDKJI_TypeDefinitionIndex = 37373;
 
 	class BKKCAANDKJI : public ::System::Object
 	{

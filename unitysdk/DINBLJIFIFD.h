@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetDeathDragonSkillButtonState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DINBLJIFIFD_CTOR_OFFSET UNITYSDK_OFFSET(0xF21F330)
-#define DINBLJIFIFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF21F360)
+#define DINBLJIFIFD_CTOR_OFFSET UNITYSDK_OFFSET(0x18ED9F00)
+#define DINBLJIFIFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18ED9F30)
 
-inline static constexpr unsigned int DINBLJIFIFD_TypeDefinitionIndex = 55395;
+inline static constexpr unsigned int DINBLJIFIFD_TypeDefinitionIndex = 56580;
 
 	class DINBLJIFIFD
 	{

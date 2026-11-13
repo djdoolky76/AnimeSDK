@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MLKDDLHNNHH.h"
 
-#define MPKCHKFKHMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3AB60)
-#define MPKCHKFKHMA_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBA3AB70)
+#define MPKCHKFKHMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B228780)
+#define MPKCHKFKHMA_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B228790)
 
-inline static constexpr unsigned int MPKCHKFKHMA_TypeDefinitionIndex = 75357;
+inline static constexpr unsigned int MPKCHKFKHMA_TypeDefinitionIndex = 77684;
 
 	class MPKCHKFKHMA : public ::MLKDDLHNNHH
 	{

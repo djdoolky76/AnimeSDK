@@ -3,10 +3,10 @@
 class GLBAFPOFIKK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MHDAHIALMAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB92A3A0)
-#define MHDAHIALMAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB92A3D0)
+#define MHDAHIALMAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B3504B0)
+#define MHDAHIALMAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B3504E0)
 
-inline static constexpr unsigned int MHDAHIALMAO_TypeDefinitionIndex = 55496;
+inline static constexpr unsigned int MHDAHIALMAO_TypeDefinitionIndex = 56684;
 
 	class MHDAHIALMAO
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/AnimationClipMotionParams.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMGROUP_CHNFHCIFPAH_OFFSET UNITYSDK_OFFSET(0xE1200)
+#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMGROUP_CHNFHCIFPAH_OFFSET UNITYSDK_OFFSET(0x3ED7000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimationClipMotionParamGroup_TypeDefinitionIndex = 73254;
+	inline static constexpr unsigned int AnimationClipMotionParamGroup_TypeDefinitionIndex = 75370;
 
 	struct alignas(8) AnimationClipMotionParamGroup
 	{

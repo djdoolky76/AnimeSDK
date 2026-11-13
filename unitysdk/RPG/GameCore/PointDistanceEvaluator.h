@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PointDistanceEvaluator; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_POINTDISTANCEEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90F3C0)
-#define RPG_GAMECORE_POINTDISTANCEEVALUATOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D90F3D0)
-#define RPG_GAMECORE_POINTDISTANCEEVALUATOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D90F380)
+#define RPG_GAMECORE_POINTDISTANCEEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF795C0)
+#define RPG_GAMECORE_POINTDISTANCEEVALUATOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF795D0)
+#define RPG_GAMECORE_POINTDISTANCEEVALUATOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF79580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PointDistanceEvaluator_TypeDefinitionIndex = 15631;
+	inline static constexpr unsigned int PointDistanceEvaluator_TypeDefinitionIndex = 15789;
 
 	class PointDistanceEvaluator : public ::RPG::GameCore::PointEvaluatorByDistanceConfig
 	{

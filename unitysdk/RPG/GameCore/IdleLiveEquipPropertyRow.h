@@ -6,27 +6,27 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveEquipPropertyRow; }
 
-#define RPG_GAMECORE_IDLELIVEEQUIPPROPERTYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74CE20)
-#define RPG_GAMECORE_IDLELIVEEQUIPPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74C960)
+#define RPG_GAMECORE_IDLELIVEEQUIPPROPERTYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE85C70)
+#define RPG_GAMECORE_IDLELIVEEQUIPPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE857B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEquipPropertyRow_TypeDefinitionIndex = 11757;
+	inline static constexpr unsigned int IdleLiveEquipPropertyRow_TypeDefinitionIndex = 11814;
 
 	class IdleLiveEquipPropertyRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* RandomFactorList; // 0x10
-		::System::UInt32 OffsetQuantizeCount; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::RPG::GameCore::FixPoint LevelParam; // 0x20
-		::RPG::GameCore::FixPoint RarityPower; // 0x28
-		::RPG::GameCore::FixPoint RarityParam; // 0x30
-		::RPG::GameCore::FixPoint OffsetRange; // 0x38
-		::RPG::GameCore::FixPoint BasicParam; // 0x40
-		::System::Boolean IsRare; // 0x48
+		::RPG::GameCore::FixPoint RarityPower; // 0x18
+		::RPG::GameCore::FixPoint OffsetRange; // 0x20
+		::System::Boolean IsRare; // 0x28
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x4C
+		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x2C
+		::RPG::GameCore::FixPoint LevelParam; // 0x30
+		::RPG::GameCore::FixPoint RarityParam; // 0x38
+		::System::UInt32 ID; // 0x40
+		::System::UInt32 OffsetQuantizeCount; // 0x44
+		::RPG::GameCore::FixPoint BasicParam; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEEQUIPPROPERTYROW_CTOR_OFFSET))(this);

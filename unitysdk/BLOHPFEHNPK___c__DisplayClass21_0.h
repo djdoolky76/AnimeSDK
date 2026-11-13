@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightFormationRole; }
 
-#define BLOHPFEHNPK___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7D350)
-#define BLOHPFEHNPK___C__DISPLAYCLASS21_0__GETRECOMMENDEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0xBA7E720)
+#define BLOHPFEHNPK___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18B5BD40)
+#define BLOHPFEHNPK___C__DISPLAYCLASS21_0__GETRECOMMENDEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0x18B5D110)
 
-inline static constexpr unsigned int BLOHPFEHNPK___c__DisplayClass21_0_TypeDefinitionIndex = 64685;
+inline static constexpr unsigned int BLOHPFEHNPK___c__DisplayClass21_0_TypeDefinitionIndex = 66222;
 
 	class BLOHPFEHNPK___c__DisplayClass21_0 : public ::System::Object
 	{

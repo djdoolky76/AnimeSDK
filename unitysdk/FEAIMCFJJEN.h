@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HKFAAEBFADK;
 
-#define FEAIMCFJJEN_MMKEDDICDHK_OFFSET UNITYSDK_OFFSET(0x156D8B60)
+#define FEAIMCFJJEN_MMKEDDICDHK_OFFSET UNITYSDK_OFFSET(0x13088F40)
 
-inline static constexpr unsigned int FEAIMCFJJEN_TypeDefinitionIndex = 74654;
+inline static constexpr unsigned int FEAIMCFJJEN_TypeDefinitionIndex = 76802;
 
 	class FEAIMCFJJEN : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class GBNDHIOAMDF;
 namespace System { class Object; }
 
-#define GBNDHIOAMDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E406210)
-#define GBNDHIOAMDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E406250)
-#define GBNDHIOAMDF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E406260)
+#define GBNDHIOAMDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC53D40)
+#define GBNDHIOAMDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC53D80)
+#define GBNDHIOAMDF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC53D90)
 
-inline static constexpr unsigned int GBNDHIOAMDF___c_TypeDefinitionIndex = 27256;
+inline static constexpr unsigned int GBNDHIOAMDF___c_TypeDefinitionIndex = 27787;
 
 	class GBNDHIOAMDF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD080);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58180);
 		}
 
 		static ::System::Void _cctor()

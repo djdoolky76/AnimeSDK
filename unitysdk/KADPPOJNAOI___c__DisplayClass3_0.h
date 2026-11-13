@@ -6,18 +6,18 @@ class KADPPOJNAOI;
 class PMBMFHMKBNC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KADPPOJNAOI___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CD6B0)
-#define KADPPOJNAOI___C__DISPLAYCLASS3_0__SAVE_B__0_OFFSET UNITYSDK_OFFSET(0xB2CD720)
-#define KADPPOJNAOI___C__DISPLAYCLASS3_0__SAVE_B__2_OFFSET UNITYSDK_OFFSET(0xB2CD750)
+#define KADPPOJNAOI___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19DA9940)
+#define KADPPOJNAOI___C__DISPLAYCLASS3_0__SAVE_B__0_OFFSET UNITYSDK_OFFSET(0x19DA99B0)
+#define KADPPOJNAOI___C__DISPLAYCLASS3_0__SAVE_B__2_OFFSET UNITYSDK_OFFSET(0x19DA99E0)
 
-inline static constexpr unsigned int KADPPOJNAOI___c__DisplayClass3_0_TypeDefinitionIndex = 80244;
+inline static constexpr unsigned int KADPPOJNAOI___c__DisplayClass3_0_TypeDefinitionIndex = 83021;
 
 	class KADPPOJNAOI___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::GPLMLPKBGGE* applyingData; // 0x10
+		::KADPPOJNAOI* __4__this; // 0x10
 		::System::Collections::Generic::List_1<::GPLMLPKBGGE*>* savedData; // 0x18
-		::KADPPOJNAOI* __4__this; // 0x20
+		::GPLMLPKBGGE* applyingData; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KADPPOJNAOI___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

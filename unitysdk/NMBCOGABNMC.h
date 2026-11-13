@@ -8,18 +8,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define NMBCOGABNMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2075A0)
-#define NMBCOGABNMC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2075B0)
-#define NMBCOGABNMC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D207570)
+#define NMBCOGABNMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7632D0)
+#define NMBCOGABNMC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7632E0)
+#define NMBCOGABNMC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7632A0)
 
-inline static constexpr unsigned int NMBCOGABNMC_TypeDefinitionIndex = 22613;
+inline static constexpr unsigned int NMBCOGABNMC_TypeDefinitionIndex = 23028;
 
 	class NMBCOGABNMC : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* IHOPFAFJPHF; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::System::String* FHLJGDGMMHK; // 0x28
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::System::String* FHLJGDGMMHK; // 0x20
+		::RPG::GameCore::DynamicFloat* IHOPFAFJPHF; // 0x28
 		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x30
 		::System::Void _ctor()
 		{

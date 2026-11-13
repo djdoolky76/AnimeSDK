@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/BMAGJGLPIIF.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CRPVirtualCameraConfigList; }
@@ -8,12 +9,12 @@ namespace RPG::GameCore { class ElationUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ELATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D604AD0)
-#define RPG_GAMECORE_ELATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6047E0)
+#define RPG_GAMECORE_ELATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DB580)
+#define RPG_GAMECORE_ELATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0DB200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationConfig_TypeDefinitionIndex = 16542;
+	inline static constexpr unsigned int ElationConfig_TypeDefinitionIndex = 16708;
 
 	class ElationConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,7 +27,9 @@ namespace RPG::GameCore
 		::System::String* ReadyAnim; // 0x30
 		::System::String* ReadyLoopAnim; // 0x38
 		::System::String* ElationTexturePath; // 0x40
-		::RPG::GameCore::ElationUIConfig* UIConfig; // 0x48
+		::BMAGJGLPIIF ElationAtlasDivision; // 0x48
+		::BMAGJGLPIIF ElationAtlasScaleOffset; // 0x58
+		::RPG::GameCore::ElationUIConfig* UIConfig; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONCONFIG_CTOR_OFFSET))(this);

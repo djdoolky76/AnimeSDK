@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_HEU_HARCIMPORTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E4000)
+#define HOUDINIENGINEUNITY_HEU_HARCIMPORTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1760BFB0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HARCImports_TypeDefinitionIndex = 40524;
+	inline static constexpr unsigned int HEU_HARCImports_TypeDefinitionIndex = 41499;
 
 	class HEU_HARCImports : public ::System::Object
 	{

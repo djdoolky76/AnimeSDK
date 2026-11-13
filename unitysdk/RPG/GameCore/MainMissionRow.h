@@ -11,45 +11,45 @@ namespace RPG::GameCore { class MainMissionRow; }
 namespace RPG::GameCore { class MissionCondition; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINMISSIONROW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7CDE20)
-#define RPG_GAMECORE_MAINMISSIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CDE10)
-#define RPG_GAMECORE_MAINMISSIONROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D7CAD30)
-#define RPG_GAMECORE_MAINMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7CB3D0)
-#define RPG_GAMECORE_MAINMISSIONROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D7CDD80)
-#define RPG_GAMECORE_MAINMISSIONROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D7CDDE0)
+#define RPG_GAMECORE_MAINMISSIONROW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F080040)
+#define RPG_GAMECORE_MAINMISSIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F080030)
+#define RPG_GAMECORE_MAINMISSIONROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1F07CF30)
+#define RPG_GAMECORE_MAINMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F07D5D0)
+#define RPG_GAMECORE_MAINMISSIONROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1F07FFA0)
+#define RPG_GAMECORE_MAINMISSIONROW_RESET_OFFSET UNITYSDK_OFFSET(0x1F080000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionRow_TypeDefinitionIndex = 14142;
+	inline static constexpr unsigned int MainMissionRow_TypeDefinitionIndex = 14299;
 
 	class MainMissionRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* NextMainMissionList; // 0x10
-		::Il2CppArray<::System::UInt32>* SubRewardList; // 0x18
-		::Il2CppArray<::RPG::GameCore::MissionCondition*>* TakeParam; // 0x20
-		::Il2CppArray<::RPG::GameCore::MissionCondition*>* BeginParam; // 0x28
-		::System::UInt32 MissionStoryEvent; // 0x30
-		::System::UInt32 MissionPack; // 0x34
-		::RPG::GameCore::LogicOperation TakeOperation; // 0x38
-		::System::UInt32 ChapterID; // 0x3C
-		::System::UInt32 RewardID; // 0x40
-		::System::UInt32 TrackWeight; // 0x44
-		::System::UInt32 MissionAdvance; // 0x48
-		::System::UInt32 NextTrackMainMission; // 0x4C
-		::RPG::GameCore::LogicOperation BeginOperation; // 0x50
-		::RPG::GameCore::MainMissionType Type; // 0x54
-		::System::UInt32 DisplayPriority; // 0x58
-		::System::UInt32 WorldID; // 0x5C
-		::RPG::Client::TextID Name; // 0x60
-		::System::Boolean IsInRaid; // 0x70
+		::Il2CppArray<::RPG::GameCore::MissionCondition*>* TakeParam; // 0x10
+		::Il2CppArray<::RPG::GameCore::MissionCondition*>* BeginParam; // 0x18
+		::Il2CppArray<::System::UInt32>* SubRewardList; // 0x20
+		::Il2CppArray<::System::UInt32>* NextMainMissionList; // 0x28
+		::System::UInt32 MainMissionID; // 0x30
+		::RPG::GameCore::MainMissionSubType SubType; // 0x34
+		::System::UInt32 MissionAdvance; // 0x38
+		::System::UInt32 MissionPack; // 0x3C
+		::System::UInt32 WorldID; // 0x40
+		::System::UInt32 DisplayPriority; // 0x44
+		::RPG::GameCore::MainMissionType Type; // 0x48
+		::RPG::GameCore::LogicOperation BeginOperation; // 0x4C
+		::System::UInt32 RewardID; // 0x50
+		::System::Boolean IsInRaid; // 0x54
 		::System::Byte _padding0[0x3];
-		::System::UInt32 DisplayRewardID; // 0x74
-		::System::UInt32 MainMissionID; // 0x78
-		::RPG::GameCore::MainMissionSubType SubType; // 0x7C
+		::RPG::Client::TextID Name; // 0x58
+		::System::UInt32 ChapterID; // 0x68
+		::System::UInt32 TrackWeight; // 0x6C
+		::System::UInt32 MissionStoryEvent; // 0x70
+		::System::UInt32 NextTrackMainMission; // 0x74
+		::RPG::GameCore::LogicOperation TakeOperation; // 0x78
+		::System::UInt32 DisplayRewardID; // 0x7C
 		static ::System::String** StaticGet_CONFIG_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "MainMissionRow")->GetStaticField(0x18600);
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "MainMissionRow")->GetStaticField(0x20B30);
 		}
 
 		::System::Void _ctor()

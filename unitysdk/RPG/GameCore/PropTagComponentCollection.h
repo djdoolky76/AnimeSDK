@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropTagComponent; }
 namespace RPG::GameCore { class PropTagComponentCollection; }
 
-#define RPG_GAMECORE_PROPTAGCOMPONENTCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92DA50)
-#define RPG_GAMECORE_PROPTAGCOMPONENTCOLLECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92D990)
+#define RPG_GAMECORE_PROPTAGCOMPONENTCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF96EA0)
+#define RPG_GAMECORE_PROPTAGCOMPONENTCOLLECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF83330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTagComponentCollection_TypeDefinitionIndex = 17583;
+	inline static constexpr unsigned int PropTagComponentCollection_TypeDefinitionIndex = 17751;
 
 	class PropTagComponentCollection : public ::RPG::GameCore::JsonConfig
 	{

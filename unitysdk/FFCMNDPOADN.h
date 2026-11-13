@@ -7,25 +7,25 @@ class FCOEMCEDLNL;
 class FFCMNDPOADN;
 namespace System { class String; }
 
-#define FFCMNDPOADN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB6470)
-#define FFCMNDPOADN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDB6490)
-#define FFCMNDPOADN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDB6420)
+#define FFCMNDPOADN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E44C230)
+#define FFCMNDPOADN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E44C250)
+#define FFCMNDPOADN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E44C1E0)
 
-inline static constexpr unsigned int FFCMNDPOADN_TypeDefinitionIndex = 21493;
+inline static constexpr unsigned int FFCMNDPOADN_TypeDefinitionIndex = 21846;
 
 	class FFCMNDPOADN : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* CDMFNHJGGKF; // 0x18
-		::System::Boolean FIKBKDJAFON; // 0x20
-		::System::Boolean IOBJFEJFLJP; // 0x21
+		::System::Single IIPKCANDFBK; // 0x20
+		::System::Boolean FIKBKDJAFON; // 0x24
+		::System::Boolean IOBJFEJFLJP; // 0x25
 		::System::Byte _padding0[0x2];
-		::System::Single IIPKCANDFBK; // 0x24
-		::RPG::GameCore::PPEffectFilterPriorityGroup OMJNGMHJPBD; // 0x28
-		::RPG::GameCore::PPEffectFilterPriority NALMBOOCCIN; // 0x2C
-		::System::Single JGNDPDFEBBO; // 0x30
-		::System::Single IEHPFADHJFD; // 0x34
-		::System::Single KFLFCJLBCBC; // 0x38
+		::RPG::GameCore::PPEffectFilterPriority NALMBOOCCIN; // 0x28
+		::System::Single KFLFCJLBCBC; // 0x2C
+		::System::Single IEHPFADHJFD; // 0x30
+		::RPG::GameCore::PPEffectFilterPriorityGroup OMJNGMHJPBD; // 0x34
+		::System::Single JGNDPDFEBBO; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFCMNDPOADN_CTOR_OFFSET))(this);

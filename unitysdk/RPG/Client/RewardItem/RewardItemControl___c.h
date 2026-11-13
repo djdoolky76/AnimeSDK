@@ -12,253 +12,253 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEBE640)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEBE680)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_0_OFFSET UNITYSDK_OFFSET(0xDEBE690)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_1_OFFSET UNITYSDK_OFFSET(0xDEBE6B0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_2_OFFSET UNITYSDK_OFFSET(0xDEBE700)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDCOUNT_B__27_0_OFFSET UNITYSDK_OFFSET(0xDEBEB50)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDCOUNT_B__27_1_OFFSET UNITYSDK_OFFSET(0xDEBEBA0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_0_OFFSET UNITYSDK_OFFSET(0xDEBE750)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_1_OFFSET UNITYSDK_OFFSET(0xDEBE7A0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_2_OFFSET UNITYSDK_OFFSET(0xDEBE7F0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_3_OFFSET UNITYSDK_OFFSET(0xDEBE840)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_4_OFFSET UNITYSDK_OFFSET(0xDEBE890)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_5_OFFSET UNITYSDK_OFFSET(0xDEBEA40)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDNAMEPANEL_B__31_0_OFFSET UNITYSDK_OFFSET(0xDEBFA30)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDNAMEPANEL_B__31_1_OFFSET UNITYSDK_OFFSET(0xDEBFA80)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_0_OFFSET UNITYSDK_OFFSET(0xDEBEA60)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_1_OFFSET UNITYSDK_OFFSET(0xDEBEAB0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_2_OFFSET UNITYSDK_OFFSET(0xDEBEB00)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_0_OFFSET UNITYSDK_OFFSET(0xDEBF5B0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_1_OFFSET UNITYSDK_OFFSET(0xDEBF730)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_2_OFFSET UNITYSDK_OFFSET(0xDEBF8B0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_3_OFFSET UNITYSDK_OFFSET(0xDEBF720)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_4_OFFSET UNITYSDK_OFFSET(0xDEBF8A0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_5_OFFSET UNITYSDK_OFFSET(0xDEBFA20)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDREDDOT_B__32_0_OFFSET UNITYSDK_OFFSET(0xDEBFAD0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_0_OFFSET UNITYSDK_OFFSET(0xDEBEBF0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_10_OFFSET UNITYSDK_OFFSET(0xDEBEEF0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_11_OFFSET UNITYSDK_OFFSET(0xDEBF070)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_12_OFFSET UNITYSDK_OFFSET(0xDEBF1F0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_13_OFFSET UNITYSDK_OFFSET(0xDEBF370)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_14_OFFSET UNITYSDK_OFFSET(0xDEBF4F0)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_1_OFFSET UNITYSDK_OFFSET(0xDEBEC00)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_2_OFFSET UNITYSDK_OFFSET(0xDEBED80)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_3_OFFSET UNITYSDK_OFFSET(0xDEBEF00)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_4_OFFSET UNITYSDK_OFFSET(0xDEBF080)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_5_OFFSET UNITYSDK_OFFSET(0xDEBF200)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_6_OFFSET UNITYSDK_OFFSET(0xDEBF380)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_7_OFFSET UNITYSDK_OFFSET(0xDEBF500)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_8_OFFSET UNITYSDK_OFFSET(0xDEBF550)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_9_OFFSET UNITYSDK_OFFSET(0xDEBED70)
-#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___STATUSPANELVISIBLE_B__29_0_OFFSET UNITYSDK_OFFSET(0xDEBF5A0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1975D960)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1975D9A0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_0_OFFSET UNITYSDK_OFFSET(0x1975D9B0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_1_OFFSET UNITYSDK_OFFSET(0x1975D9D0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_2_OFFSET UNITYSDK_OFFSET(0x1975DA20)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDCOUNT_B__27_0_OFFSET UNITYSDK_OFFSET(0x1975DE70)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDCOUNT_B__27_1_OFFSET UNITYSDK_OFFSET(0x1975DEC0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_0_OFFSET UNITYSDK_OFFSET(0x1975DA70)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_1_OFFSET UNITYSDK_OFFSET(0x1975DAC0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_2_OFFSET UNITYSDK_OFFSET(0x1975DB10)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_3_OFFSET UNITYSDK_OFFSET(0x1975DB60)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_4_OFFSET UNITYSDK_OFFSET(0x1975DBB0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_5_OFFSET UNITYSDK_OFFSET(0x1975DD60)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDNAMEPANEL_B__31_0_OFFSET UNITYSDK_OFFSET(0x1975ED50)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDNAMEPANEL_B__31_1_OFFSET UNITYSDK_OFFSET(0x1975EDA0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_0_OFFSET UNITYSDK_OFFSET(0x1975DD80)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_1_OFFSET UNITYSDK_OFFSET(0x1975DDD0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_2_OFFSET UNITYSDK_OFFSET(0x1975DE20)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_0_OFFSET UNITYSDK_OFFSET(0x1975E8D0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_1_OFFSET UNITYSDK_OFFSET(0x1975EA50)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_2_OFFSET UNITYSDK_OFFSET(0x1975EBD0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_3_OFFSET UNITYSDK_OFFSET(0x1975EA40)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_4_OFFSET UNITYSDK_OFFSET(0x1975EBC0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_5_OFFSET UNITYSDK_OFFSET(0x1975ED40)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDREDDOT_B__32_0_OFFSET UNITYSDK_OFFSET(0x1975EDF0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_0_OFFSET UNITYSDK_OFFSET(0x1975DF10)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_10_OFFSET UNITYSDK_OFFSET(0x1975E210)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_11_OFFSET UNITYSDK_OFFSET(0x1975E390)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_12_OFFSET UNITYSDK_OFFSET(0x1975E510)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_13_OFFSET UNITYSDK_OFFSET(0x1975E690)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_14_OFFSET UNITYSDK_OFFSET(0x1975E810)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_1_OFFSET UNITYSDK_OFFSET(0x1975DF20)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_2_OFFSET UNITYSDK_OFFSET(0x1975E0A0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_3_OFFSET UNITYSDK_OFFSET(0x1975E220)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_4_OFFSET UNITYSDK_OFFSET(0x1975E3A0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_5_OFFSET UNITYSDK_OFFSET(0x1975E520)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_6_OFFSET UNITYSDK_OFFSET(0x1975E6A0)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_7_OFFSET UNITYSDK_OFFSET(0x1975E820)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_8_OFFSET UNITYSDK_OFFSET(0x1975E870)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_9_OFFSET UNITYSDK_OFFSET(0x1975E090)
+#define RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___STATUSPANELVISIBLE_B__29_0_OFFSET UNITYSDK_OFFSET(0x1975E8C0)
 
 namespace RPG::Client::RewardItem
 {
-	inline static constexpr unsigned int RewardItemControl___c_TypeDefinitionIndex = 79134;
+	inline static constexpr unsigned int RewardItemControl___c_TypeDefinitionIndex = 81910;
 
 	class RewardItemControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_5()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FA60);
-		}
-
-		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_14()
-		{
-			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FA68);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__26_1()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FA70);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_0()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FA78);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x6FFD0);
 		}
 
 		static ::System::Func_2<::LABEGKEFBPJ*, ::CEEGMMCFCBG*>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FA80);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x6FFD8);
 		}
 
 		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FA88);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__24_1()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FA90);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_2()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FA98);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x6FFE0);
 		}
 
 		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_9()
 		{
-			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAA0);
+			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x6FFE8);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_2()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__24_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAA8);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__26_2()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAB0);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__27_0()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAB8);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_4()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAC0);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__30_4()
-		{
-			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAC8);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__25_0()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAD0);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__31_1()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAD8);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_1()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAE0);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_6()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAE8);
-		}
-
-		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_11()
-		{
-			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAF0);
-		}
-
-		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_10()
-		{
-			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FAF8);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__24_2()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB00);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_5()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB08);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_1()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB10);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__28_7()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB18);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__30_1()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB20);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_8()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB28);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_4()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB30);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__26_0()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB38);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__25_3()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB40);
-		}
-
-		static ::System::Func_2<::JAMLOIADIDB*, ::System::Boolean>** StaticGet___9__25_5()
-		{
-			return (::System::Func_2<::JAMLOIADIDB*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB48);
-		}
-
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__30_2()
-		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB50);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x6FFF0);
 		}
 
 		static ::System::Func_4<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean, ::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__29_0()
 		{
-			return (::System::Func_4<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean, ::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB58);
-		}
-
-		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_13()
-		{
-			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB60);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__30_3()
-		{
-			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB68);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__30_5()
-		{
-			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB70);
+			return (::System::Func_4<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean, ::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x6FFF8);
 		}
 
 		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_12()
 		{
-			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB78);
+			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70000);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__26_0()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70008);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__25_3()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70010);
+		}
+
+		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_11()
+		{
+			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70018);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_1()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70020);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__26_2()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70028);
+		}
+
+		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_10()
+		{
+			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70030);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_4()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70038);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70040);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__26_1()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70048);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__25_0()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70050);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__30_1()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70058);
+		}
+
+		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_13()
+		{
+			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70060);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_6()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70068);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_2()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70070);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_8()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70078);
+		}
+
+		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_14()
+		{
+			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70080);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_4()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70088);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__30_4()
+		{
+			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70090);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__30_5()
+		{
+			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70098);
+		}
+
+		static ::System::Func_2<::JAMLOIADIDB*, ::System::Boolean>** StaticGet___9__25_5()
+		{
+			return (::System::Func_2<::JAMLOIADIDB*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700A0);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_0()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700A8);
 		}
 
 		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__27_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB80);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700B0);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_1()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700B8);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__31_1()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700C0);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__24_2()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700C8);
 		}
 
 		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_3()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB88);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700D0);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__32_0()
+		static ::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__30_3()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB90);
+			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700D8);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_2()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700E0);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__30_2()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700E8);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__28_7()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700F0);
 		}
 
 		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__31_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5FB98);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x700F8);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__32_0()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70100);
+		}
+
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__27_0()
+		{
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x70108);
 		}
 
 		static ::System::Void _cctor()

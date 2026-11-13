@@ -4,16 +4,16 @@
 class HNEJODMMPKC;
 namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 
-#define JBHBCLCLMKH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB5EE50)
-#define JBHBCLCLMKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5EEB0)
+#define JBHBCLCLMKH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DDFC700)
+#define JBHBCLCLMKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFC760)
 
-inline static constexpr unsigned int JBHBCLCLMKH_TypeDefinitionIndex = 42067;
+inline static constexpr unsigned int JBHBCLCLMKH_TypeDefinitionIndex = 43042;
 
 	class JBHBCLCLMKH : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LittleGameLevelVariableCollection* EABKOHGCHFP; // 0x10
-		::HNEJODMMPKC* KKNCHPMEJFN; // 0x18
+		::HNEJODMMPKC* KKNCHPMEJFN; // 0x10
+		::RPG::GameCore::LittleGameLevelVariableCollection* EABKOHGCHFP; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JBHBCLCLMKH_CTOR_OFFSET))(this);

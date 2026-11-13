@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BOFJHGFAJBN.h"
 
-#define CPADCLFMKLK_CTOR_OFFSET UNITYSDK_OFFSET(0xDCC7370)
+#define CPADCLFMKLK_CTOR_OFFSET UNITYSDK_OFFSET(0x19178660)
 
-inline static constexpr unsigned int CPADCLFMKLK_TypeDefinitionIndex = 49652;
+inline static constexpr unsigned int CPADCLFMKLK_TypeDefinitionIndex = 50728;
 
 	class CPADCLFMKLK : public ::BOFJHGFAJBN
 	{

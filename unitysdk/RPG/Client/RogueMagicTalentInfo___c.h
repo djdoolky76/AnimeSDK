@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueMagicTalentNodeData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUEMAGICTALENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF313A0)
-#define RPG_CLIENT_ROGUEMAGICTALENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF313D0)
-#define RPG_CLIENT_ROGUEMAGICTALENTINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xDF313E0)
+#define RPG_CLIENT_ROGUEMAGICTALENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB1EA40)
+#define RPG_CLIENT_ROGUEMAGICTALENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB1EA70)
+#define RPG_CLIENT_ROGUEMAGICTALENTINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CB1EA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicTalentInfo___c_TypeDefinitionIndex = 67441;
+	inline static constexpr unsigned int RogueMagicTalentInfo___c_TypeDefinitionIndex = 69385;
 
 	class RogueMagicTalentInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x655D0);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::RogueMagicTalentNodeData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueMagicTalentNodeData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x655D8);
+			return (::System::Comparison_1<::RPG::Client::RogueMagicTalentNodeData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x718F0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x718F8);
 		}
 
 		static ::System::Void _cctor()

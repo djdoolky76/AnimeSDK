@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPhotoGraphFovLevelRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCDMFDPPLIO_CTOR_OFFSET UNITYSDK_OFFSET(0xB32B170)
-#define KCDMFDPPLIO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB32B1A0)
+#define KCDMFDPPLIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A47E1D0)
+#define KCDMFDPPLIO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A47E200)
 
-inline static constexpr unsigned int KCDMFDPPLIO_TypeDefinitionIndex = 53163;
+inline static constexpr unsigned int KCDMFDPPLIO_TypeDefinitionIndex = 54325;
 
 	class KCDMFDPPLIO
 	{

@@ -5,24 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BackGroundMusicConfigRow; }
 
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D40A830)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D40A090)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2FE460)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2FDCC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BackGroundMusicConfigRow_TypeDefinitionIndex = 12818;
+	inline static constexpr unsigned int BackGroundMusicConfigRow_TypeDefinitionIndex = 12890;
 
 	class BackGroundMusicConfigRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 GroupID; // 0x10
-		::System::Boolean Unlock; // 0x14
-		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID MusicName; // 0x18
-		::RPG::Client::TextID UnlockDesc; // 0x28
-		::System::UInt32 ID; // 0x38
-		::System::Byte _padding1[0x4];
-		::RPG::Client::TextID BGMDesc; // 0x40
+		::System::UInt32 ID; // 0x14
+		::System::Boolean Unlock; // 0x18
+		::System::Byte _padding0[0x7];
+		::RPG::Client::TextID UnlockDesc; // 0x20
+		::RPG::Client::TextID BGMDesc; // 0x30
+		::RPG::Client::TextID MusicName; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW_CTOR_OFFSET))(this);

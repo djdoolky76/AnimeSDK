@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator_GrowSimState_TypeDefinitionIndex = 65720;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator_GrowSimState_TypeDefinitionIndex = 67646;
 
 	struct alignas(4) LightConeQuickGrowCalculator_GrowSimState
 	{

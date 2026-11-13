@@ -3,7 +3,7 @@
 class JDGOFBPECPM;
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int DPNFLBFDAMB_TypeDefinitionIndex = 43348;
+inline static constexpr unsigned int DPNFLBFDAMB_TypeDefinitionIndex = 44329;
 
 	struct alignas(8) DPNFLBFDAMB
 	{

@@ -5,11 +5,11 @@ namespace RPG::Client::FullBody { class Grounding_ODHIKODJAHF; }
 namespace RPG::Client::FullBody { class IKSolver; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_GROUNDERQUADRUPED_HPFNMMMLOAG_CTOR_OFFSET UNITYSDK_OFFSET(0xE8710)
+#define RPG_CLIENT_FULLBODY_GROUNDERQUADRUPED_HPFNMMMLOAG_CTOR_OFFSET UNITYSDK_OFFSET(0x3E62C00)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int GrounderQuadruped_HPFNMMMLOAG_TypeDefinitionIndex = 74234;
+	inline static constexpr unsigned int GrounderQuadruped_HPFNMMMLOAG_TypeDefinitionIndex = 76382;
 
 	struct alignas(8) GrounderQuadruped_HPFNMMMLOAG
 	{

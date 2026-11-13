@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define AKGKDDMPGPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CCCF00)
-#define AKGKDDMPGPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCCF40)
-#define AKGKDDMPGPA___C___CHOOSENEXTPOINT_B__16_0_OFFSET UNITYSDK_OFFSET(0x12CCCF50)
+#define AKGKDDMPGPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19D5ADF0)
+#define AKGKDDMPGPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19D5AE30)
+#define AKGKDDMPGPA___C___CHOOSENEXTPOINT_B__16_0_OFFSET UNITYSDK_OFFSET(0x19D5AE40)
 
-inline static constexpr unsigned int AKGKDDMPGPA___c_TypeDefinitionIndex = 60154;
+inline static constexpr unsigned int AKGKDDMPGPA___c_TypeDefinitionIndex = 61438;
 
 	class AKGKDDMPGPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single>>** StaticGet___9__16_0()
 		{
-			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x593C0);
+			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59920);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x593C8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59928);
 		}
 
 		static ::System::Void _cctor()

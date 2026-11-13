@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Console { class ConsoleUserAgreementDialog; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC72FE0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BC75DC0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0x185F8910)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG___C__DISPLAYCLASS29_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x185FB6F0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleUserAgreementDialog___c__DisplayClass29_0_TypeDefinitionIndex = 9012;
+	inline static constexpr unsigned int ConsoleUserAgreementDialog___c__DisplayClass29_0_TypeDefinitionIndex = 9021;
 
 	class ConsoleUserAgreementDialog___c__DisplayClass29_0 : public ::System::Object
 	{

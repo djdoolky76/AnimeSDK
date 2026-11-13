@@ -6,20 +6,20 @@ namespace RPG::Client::BlindBox::Pool { class BlindBoxPoolModule; }
 namespace RPG::Client::BlindBox::Pool { class IPoolContentEntry; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8878A0)
-#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C__DISPLAYCLASS1_0__SHOWBLINDBOXPOOLDETAILPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xC887B70)
-#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C__DISPLAYCLASS1_0__SHOWBLINDBOXPOOLDETAILPAGE_B__2_OFFSET UNITYSDK_OFFSET(0xC887D90)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C556470)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C__DISPLAYCLASS1_0__SHOWBLINDBOXPOOLDETAILPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1C556740)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C__DISPLAYCLASS1_0__SHOWBLINDBOXPOOLDETAILPAGE_B__2_OFFSET UNITYSDK_OFFSET(0x1C556960)
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
-	inline static constexpr unsigned int BlindBoxPoolPages___c__DisplayClass1_0_TypeDefinitionIndex = 74964;
+	inline static constexpr unsigned int BlindBoxPoolPages___c__DisplayClass1_0_TypeDefinitionIndex = 77291;
 
 	class BlindBoxPoolPages___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::BlindBox::Pool::BlindBoxPoolModule* module; // 0x10
-		::RPG::Client::BlindBox::Pool::IPoolContentEntry* targetEntry; // 0x18
-		::RPG::Client::UIFrameCapture* frameCapture; // 0x20
+		::RPG::Client::UIFrameCapture* frameCapture; // 0x10
+		::RPG::Client::BlindBox::Pool::BlindBoxPoolModule* module; // 0x18
+		::RPG::Client::BlindBox::Pool::IPoolContentEntry* targetEntry; // 0x20
 		::System::UInt32 blockId; // 0x28
 		::System::UInt32 poolId; // 0x2C
 		::System::Void _ctor()

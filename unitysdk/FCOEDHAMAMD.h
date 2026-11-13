@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIfGroupIsOccupied; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCOEDHAMAMD_CTOR_OFFSET UNITYSDK_OFFSET(0x156C41B0)
-#define FCOEDHAMAMD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156C41E0)
+#define FCOEDHAMAMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C02A320)
+#define FCOEDHAMAMD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C02A350)
 
-inline static constexpr unsigned int FCOEDHAMAMD_TypeDefinitionIndex = 52599;
+inline static constexpr unsigned int FCOEDHAMAMD_TypeDefinitionIndex = 53706;
 
 	class FCOEDHAMAMD
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFiveDimContainerDynamicFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKNLDILMLHM_CTOR_OFFSET UNITYSDK_OFFSET(0xB753250)
-#define LKNLDILMLHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB753280)
+#define LKNLDILMLHM_CTOR_OFFSET UNITYSDK_OFFSET(0x18CFDEB0)
+#define LKNLDILMLHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18CFDEE0)
 
-inline static constexpr unsigned int LKNLDILMLHM_TypeDefinitionIndex = 52821;
+inline static constexpr unsigned int LKNLDILMLHM_TypeDefinitionIndex = 53965;
 
 	class LKNLDILMLHM
 	{

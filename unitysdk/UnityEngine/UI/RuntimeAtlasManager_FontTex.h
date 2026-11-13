@@ -5,11 +5,11 @@ namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class Font; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_FONTTEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5104A0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_FONTTEX_CTOR_OFFSET UNITYSDK_OFFSET(0x18586B20)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_FontTex_TypeDefinitionIndex = 6824;
+	inline static constexpr unsigned int RuntimeAtlasManager_FontTex_TypeDefinitionIndex = 6835;
 
 	class RuntimeAtlasManager_FontTex : public ::System::Object
 	{

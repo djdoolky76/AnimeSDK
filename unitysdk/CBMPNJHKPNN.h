@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureTriggerTargetAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CBMPNJHKPNN_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A8690)
-#define CBMPNJHKPNN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4A86C0)
+#define CBMPNJHKPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x18FE5B50)
+#define CBMPNJHKPNN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FE5B80)
 
-inline static constexpr unsigned int CBMPNJHKPNN_TypeDefinitionIndex = 57930;
+inline static constexpr unsigned int CBMPNJHKPNN_TypeDefinitionIndex = 59167;
 
 	class CBMPNJHKPNN
 	{

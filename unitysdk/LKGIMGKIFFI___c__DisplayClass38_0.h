@@ -7,19 +7,19 @@ class LKGIMGKIFFI;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 
-#define LKGIMGKIFFI___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB73D220)
-#define LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xB740130)
-#define LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0xB740250)
+#define LKGIMGKIFFI___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18CE60B0)
+#define LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x18CE8FC0)
+#define LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0x18CE90E0)
 
-inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass38_0_TypeDefinitionIndex = 76761;
+inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass38_0_TypeDefinitionIndex = 79094;
 
 	class LKGIMGKIFFI___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
 		::LKGIMGKIFFI* __4__this; // 0x10
-		::UnityEngine::Quaternion enterDir; // 0x18
-		::UnityEngine::Vector3 enterCanonicalPos; // 0x28
-		::UnityEngine::Vector3 correctedCanonicalPos; // 0x34
+		::UnityEngine::Vector3 enterCanonicalPos; // 0x18
+		::UnityEngine::Vector3 correctedCanonicalPos; // 0x24
+		::UnityEngine::Quaternion enterDir; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LKGIMGKIFFI___C__DISPLAYCLASS38_0_CTOR_OFFSET))(this);

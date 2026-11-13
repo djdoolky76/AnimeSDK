@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnlockMainStreamingSource; }
 
-#define DGMIDLCAOLI_CTOR_OFFSET UNITYSDK_OFFSET(0xE84A0D0)
-#define DGMIDLCAOLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE84A100)
+#define DGMIDLCAOLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBEB70)
+#define DGMIDLCAOLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1ADBEBA0)
 
-inline static constexpr unsigned int DGMIDLCAOLI_TypeDefinitionIndex = 58843;
+inline static constexpr unsigned int DGMIDLCAOLI_TypeDefinitionIndex = 60111;
 
 	class DGMIDLCAOLI
 	{

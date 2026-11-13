@@ -6,16 +6,16 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
-#define SOFA_CORE_OBSERVABLEOBJECT_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC63600)
-#define SOFA_CORE_OBSERVABLEOBJECT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC63920)
-#define SOFA_CORE_OBSERVABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC63910)
-#define SOFA_CORE_OBSERVABLEOBJECT_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC63660)
-#define SOFA_CORE_OBSERVABLEOBJECT__GETPROPERTYCHANGEDEVENTARGS_OFFSET UNITYSDK_OFFSET(0x1EC63750)
-#define SOFA_CORE_OBSERVABLEOBJECT__ONPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC636C0)
+#define SOFA_CORE_OBSERVABLEOBJECT_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1E54D120)
+#define SOFA_CORE_OBSERVABLEOBJECT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E54D440)
+#define SOFA_CORE_OBSERVABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E54D430)
+#define SOFA_CORE_OBSERVABLEOBJECT_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1E54D180)
+#define SOFA_CORE_OBSERVABLEOBJECT__GETPROPERTYCHANGEDEVENTARGS_OFFSET UNITYSDK_OFFSET(0x1E54D270)
+#define SOFA_CORE_OBSERVABLEOBJECT__ONPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1E54D1E0)
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int ObservableObject_TypeDefinitionIndex = 44107;
+	inline static constexpr unsigned int ObservableObject_TypeDefinitionIndex = 45182;
 
 	class ObservableObject : public ::System::Object
 	{
@@ -23,12 +23,12 @@ namespace Sofa::Core
 		::System::ComponentModel::PropertyChangedEventHandler* PropertyChanged; // 0x10
 		static ::System::ComponentModel::PropertyChangedEventArgs** StaticGet__NULL_EVENT_ARGS()
 		{
-			return (::System::ComponentModel::PropertyChangedEventArgs**)UnitySDK::FromName("Sofa.Core", "ObservableObject")->GetStaticField(0x4A740);
+			return (::System::ComponentModel::PropertyChangedEventArgs**)UnitySDK::FromName("Sofa.Core", "ObservableObject")->GetStaticField(0x62030);
 		}
 
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>** StaticGet__PROPERTY_EVENT_ARGS()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)UnitySDK::FromName("Sofa.Core", "ObservableObject")->GetStaticField(0x4A748);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)UnitySDK::FromName("Sofa.Core", "ObservableObject")->GetStaticField(0x62038);
 		}
 
 		::System::Void _ctor()

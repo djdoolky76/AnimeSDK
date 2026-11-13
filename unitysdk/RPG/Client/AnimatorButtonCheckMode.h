@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorButtonCheckMode_TypeDefinitionIndex = 72500;
+	inline static constexpr unsigned int AnimatorButtonCheckMode_TypeDefinitionIndex = 74579;
 
 	enum class AnimatorButtonCheckMode : ::System::Int32
 	{

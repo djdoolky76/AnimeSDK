@@ -7,17 +7,17 @@ namespace RPG::GameCore { class AIDecisionBaseConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JNABEFHEFAM_CTOR_OFFSET UNITYSDK_OFFSET(0xB26E0B0)
-#define JNABEFHEFAM_HOIEGOENFHG_OFFSET UNITYSDK_OFFSET(0xB26E240)
-#define JNABEFHEFAM_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB26E310)
+#define JNABEFHEFAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BCD20)
+#define JNABEFHEFAM_HOIEGOENFHG_OFFSET UNITYSDK_OFFSET(0x1A0BCEB0)
+#define JNABEFHEFAM_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x1A0BCF80)
 
-inline static constexpr unsigned int JNABEFHEFAM_TypeDefinitionIndex = 54390;
+inline static constexpr unsigned int JNABEFHEFAM_TypeDefinitionIndex = 55554;
 
 	class JNABEFHEFAM : public ::JPEPPDMLPLG
 	{
 	public:
-		::System::Collections::Generic::List_1<::BEMKNPIFMBI*>* JGNOCCOBAGF; // 0x10
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x10
+		::System::Collections::Generic::List_1<::BEMKNPIFMBI*>* JGNOCCOBAGF; // 0x18
 		::RPG::GameCore::AIDecisionBaseConfig* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::AIDecisionBaseConfig* a1, ::RPG::GameCore::TaskContext* a2)
 		{

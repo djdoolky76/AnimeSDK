@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class AJPBKMBIGNC;
 
-#define JKNHENOJFIG___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB222380)
-#define JKNHENOJFIG___C__DISPLAYCLASS30_0__GETAGENDA_B__0_OFFSET UNITYSDK_OFFSET(0xB223610)
+#define JKNHENOJFIG___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17B2E730)
+#define JKNHENOJFIG___C__DISPLAYCLASS30_0__GETAGENDA_B__0_OFFSET UNITYSDK_OFFSET(0x17B2F990)
 
-inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass30_0_TypeDefinitionIndex = 81711;
+inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass30_0_TypeDefinitionIndex = 84492;
 
 	class JKNHENOJFIG___c__DisplayClass30_0 : public ::System::Object
 	{

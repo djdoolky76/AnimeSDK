@@ -8,18 +8,18 @@ class DamageTextStyle;
 namespace RPG::Client { class SimpleTextStyleController; }
 namespace UnityEngine { class Transform; }
 
-#define JFOJBNDEJFB_BLKAAEJPNBE_OFFSET UNITYSDK_OFFSET(0x16647820)
-#define JFOJBNDEJFB_CTOR_OFFSET UNITYSDK_OFFSET(0x16647890)
-#define JFOJBNDEJFB_DPGGDECJENG_OFFSET UNITYSDK_OFFSET(0x16647770)
-#define JFOJBNDEJFB__ONBIND_OFFSET UNITYSDK_OFFSET(0x166476A0)
+#define JFOJBNDEJFB_BLKAAEJPNBE_OFFSET UNITYSDK_OFFSET(0x1933DEB0)
+#define JFOJBNDEJFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1933DF20)
+#define JFOJBNDEJFB_DPGGDECJENG_OFFSET UNITYSDK_OFFSET(0x1933DE00)
+#define JFOJBNDEJFB__ONBIND_OFFSET UNITYSDK_OFFSET(0x1933DCC0)
 
-inline static constexpr unsigned int JFOJBNDEJFB_TypeDefinitionIndex = 71390;
+inline static constexpr unsigned int JFOJBNDEJFB_TypeDefinitionIndex = 73370;
 
 	class JFOJBNDEJFB : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::SimpleTextStyleController* AJAKCFLMCFO; // 0x60
-		::UnityEngine::Transform* DCEBIFLMAAF; // 0x68
+		::UnityEngine::Transform* DCEBIFLMAAF; // 0x60
+		::RPG::Client::SimpleTextStyleController* AJAKCFLMCFO; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JFOJBNDEJFB_CTOR_OFFSET))(this);

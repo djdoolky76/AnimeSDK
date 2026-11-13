@@ -4,12 +4,12 @@
 namespace RPG::Client { class GridFightPresentEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C10F0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__ADDPRESENT_B__0_OFFSET UNITYSDK_OFFSET(0xD1C1100)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF10730)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__ADDPRESENT_B__0_OFFSET UNITYSDK_OFFSET(0x1DF11D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass32_0_TypeDefinitionIndex = 64465;
+	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass32_0_TypeDefinitionIndex = 65951;
 
 	class GridFightOrbManager___c__DisplayClass32_0 : public ::System::Object
 	{

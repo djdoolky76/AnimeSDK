@@ -5,23 +5,23 @@ namespace RPG::Client { class MockAnimator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define JDHODOEHBKM_LACCACBOACA_OFFSET UNITYSDK_OFFSET(0x165BD0A0)
-#define JDHODOEHBKM_MFICHELGPFA_OFFSET UNITYSDK_OFFSET(0x165BCE70)
-#define JDHODOEHBKM_PEIAGNIBNNN_OFFSET UNITYSDK_OFFSET(0x165BCF00)
+#define JDHODOEHBKM_LACCACBOACA_OFFSET UNITYSDK_OFFSET(0x1698EE30)
+#define JDHODOEHBKM_MFICHELGPFA_OFFSET UNITYSDK_OFFSET(0x1698EC00)
+#define JDHODOEHBKM_PEIAGNIBNNN_OFFSET UNITYSDK_OFFSET(0x1698EC90)
 
-inline static constexpr unsigned int JDHODOEHBKM_TypeDefinitionIndex = 73331;
+inline static constexpr unsigned int JDHODOEHBKM_TypeDefinitionIndex = 75448;
 
 	class JDHODOEHBKM : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::Client::MockAnimator*>** StaticGet_GEINKILMOFD()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::MockAnimator*>**)UnitySDK::FromName("", "JDHODOEHBKM")->GetStaticField(0x6E8B0);
+			return (::System::Collections::Generic::List_1<::RPG::Client::MockAnimator*>**)UnitySDK::FromName("", "JDHODOEHBKM")->GetStaticField(0x67A60);
 		}
 
 		static ::System::Int32* StaticGet_CDEGBHMDMNI()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JDHODOEHBKM")->GetStaticField(0x155B0);
+			return (::System::Int32*)UnitySDK::FromName("", "JDHODOEHBKM")->GetStaticField(0x14740);
 		}
 
 		static ::RPG::Client::MockAnimator* MFICHELGPFA(::UnityEngine::Animator* a1)

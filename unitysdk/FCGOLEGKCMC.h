@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyHealData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCGOLEGKCMC_CTOR_OFFSET UNITYSDK_OFFSET(0x156B1380)
-#define FCGOLEGKCMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156B13B0)
+#define FCGOLEGKCMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C017570)
+#define FCGOLEGKCMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C0175A0)
 
-inline static constexpr unsigned int FCGOLEGKCMC_TypeDefinitionIndex = 55204;
+inline static constexpr unsigned int FCGOLEGKCMC_TypeDefinitionIndex = 56385;
 
 	class FCGOLEGKCMC
 	{

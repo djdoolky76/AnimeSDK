@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class NotifyDeadPartSelected; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OPILDEFFJEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA6520)
-#define OPILDEFFJEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFA6550)
+#define OPILDEFFJEP_CTOR_OFFSET UNITYSDK_OFFSET(0x18ABCBB0)
+#define OPILDEFFJEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18ABCBE0)
 
-inline static constexpr unsigned int OPILDEFFJEP_TypeDefinitionIndex = 56366;
+inline static constexpr unsigned int OPILDEFFJEP_TypeDefinitionIndex = 57580;
 
 	class OPILDEFFJEP
 	{

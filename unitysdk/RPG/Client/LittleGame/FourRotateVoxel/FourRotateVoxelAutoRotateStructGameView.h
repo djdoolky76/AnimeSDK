@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FourRotateVoxelStructGameView.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELAUTOROTATESTRUCTGAMEVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD455F70)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELAUTOROTATESTRUCTGAMEVIEW_DCGEOLANHKK_OFFSET UNITYSDK_OFFSET(0xD455F20)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELAUTOROTATESTRUCTGAMEVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAF9A0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELAUTOROTATESTRUCTGAMEVIEW_DCGEOLANHKK_OFFSET UNITYSDK_OFFSET(0x1CDAF950)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelAutoRotateStructGameView_TypeDefinitionIndex = 76851;
+	inline static constexpr unsigned int FourRotateVoxelAutoRotateStructGameView_TypeDefinitionIndex = 79185;
 
 	class FourRotateVoxelAutoRotateStructGameView : public ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView
 	{

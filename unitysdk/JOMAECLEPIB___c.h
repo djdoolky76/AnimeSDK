@@ -6,47 +6,47 @@ class PHCMIJEDENP;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JOMAECLEPIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2A2BC0)
-#define JOMAECLEPIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A2C00)
-#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_1_OFFSET UNITYSDK_OFFSET(0xB2A2C10)
-#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_2_OFFSET UNITYSDK_OFFSET(0xB2A2D60)
-#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_3_OFFSET UNITYSDK_OFFSET(0xB2A2D80)
-#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_4_OFFSET UNITYSDK_OFFSET(0xB2A2D40)
-#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_5_OFFSET UNITYSDK_OFFSET(0xB2A2EC0)
+#define JOMAECLEPIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4E4D40)
+#define JOMAECLEPIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E4D80)
+#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_1_OFFSET UNITYSDK_OFFSET(0x1B4E4D90)
+#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_2_OFFSET UNITYSDK_OFFSET(0x1B4E4EE0)
+#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_3_OFFSET UNITYSDK_OFFSET(0x1B4E4F00)
+#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_4_OFFSET UNITYSDK_OFFSET(0x1B4E4EC0)
+#define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_5_OFFSET UNITYSDK_OFFSET(0x1B4E5040)
 
-inline static constexpr unsigned int JOMAECLEPIB___c_TypeDefinitionIndex = 79762;
+inline static constexpr unsigned int JOMAECLEPIB___c_TypeDefinitionIndex = 82539;
 
 	class JOMAECLEPIB___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::GMDIBFIGIEG*, ::System::Boolean>** StaticGet___9__17_4()
+		static ::System::Func_2<::GMDIBFIGIEG*, ::System::Boolean>** StaticGet___9__17_5()
 		{
-			return (::System::Func_2<::GMDIBFIGIEG*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25000);
-		}
-
-		static ::System::Func_2<::PHCMIJEDENP*, ::System::Boolean>** StaticGet___9__17_1()
-		{
-			return (::System::Func_2<::PHCMIJEDENP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25008);
+			return (::System::Func_2<::GMDIBFIGIEG*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x295C0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25010);
-		}
-
-		static ::System::Func_2<::GMDIBFIGIEG*, ::System::Boolean>** StaticGet___9__17_5()
-		{
-			return (::System::Func_2<::GMDIBFIGIEG*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25018);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x295C8);
 		}
 
 		static ::System::Func_2<::PHCMIJEDENP*, ::System::UInt32>** StaticGet___9__17_3()
 		{
-			return (::System::Func_2<::PHCMIJEDENP*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25020);
+			return (::System::Func_2<::PHCMIJEDENP*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x295D0);
+		}
+
+		static ::System::Func_2<::GMDIBFIGIEG*, ::System::Boolean>** StaticGet___9__17_4()
+		{
+			return (::System::Func_2<::GMDIBFIGIEG*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x295D8);
+		}
+
+		static ::System::Func_2<::PHCMIJEDENP*, ::System::Boolean>** StaticGet___9__17_1()
+		{
+			return (::System::Func_2<::PHCMIJEDENP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x295E0);
 		}
 
 		static ::System::Func_2<::PHCMIJEDENP*, ::System::UInt32>** StaticGet___9__17_2()
 		{
-			return (::System::Func_2<::PHCMIJEDENP*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25028);
+			return (::System::Func_2<::PHCMIJEDENP*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x295E8);
 		}
 
 		static ::System::Void _cctor()

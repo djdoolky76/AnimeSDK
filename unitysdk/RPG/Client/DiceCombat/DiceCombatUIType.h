@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUIType_TypeDefinitionIndex = 76116;
+	inline static constexpr unsigned int DiceCombatUIType_TypeDefinitionIndex = 78443;
 
 	enum class DiceCombatUIType : ::System::Int32
 	{

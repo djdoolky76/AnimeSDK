@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ForcePlayerMoveForwardOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IAHLCPCGPPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15E020F0)
-#define IAHLCPCGPPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E02120)
+#define IAHLCPCGPPM_CTOR_OFFSET UNITYSDK_OFFSET(0x19422860)
+#define IAHLCPCGPPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19422890)
 
-inline static constexpr unsigned int IAHLCPCGPPM_TypeDefinitionIndex = 58126;
+inline static constexpr unsigned int IAHLCPCGPPM_TypeDefinitionIndex = 59365;
 
 	class IAHLCPCGPPM
 	{

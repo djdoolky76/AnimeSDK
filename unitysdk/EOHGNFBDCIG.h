@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareEnvProfilePath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EOHGNFBDCIG_CTOR_OFFSET UNITYSDK_OFFSET(0x155B5480)
-#define EOHGNFBDCIG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155B54B0)
+#define EOHGNFBDCIG_CTOR_OFFSET UNITYSDK_OFFSET(0x16B237C0)
+#define EOHGNFBDCIG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16B237F0)
 
-inline static constexpr unsigned int EOHGNFBDCIG_TypeDefinitionIndex = 53133;
+inline static constexpr unsigned int EOHGNFBDCIG_TypeDefinitionIndex = 54295;
 
 	class EOHGNFBDCIG
 	{

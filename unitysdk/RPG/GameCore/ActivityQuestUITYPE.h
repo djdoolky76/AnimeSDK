@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestUITYPE_TypeDefinitionIndex = 12311;
+	inline static constexpr unsigned int ActivityQuestUITYPE_TypeDefinitionIndex = 12368;
 
 	enum class ActivityQuestUITYPE : ::System::Int32
 	{

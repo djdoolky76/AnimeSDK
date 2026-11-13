@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Effect_PropScreenSpaceGPUParticleBehavior.h"
 
-#define MIOMHBKBMOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB95A970)
-#define MIOMHBKBMOE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB95A620)
+#define MIOMHBKBMOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A39BC30)
+#define MIOMHBKBMOE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1A39B8E0)
 
-inline static constexpr unsigned int MIOMHBKBMOE_TypeDefinitionIndex = 70472;
+inline static constexpr unsigned int MIOMHBKBMOE_TypeDefinitionIndex = 72447;
 
 	class MIOMHBKBMOE : public ::RPG::Client::Effect_PropScreenSpaceGPUParticleBehavior
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA55B50)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASE___C__DISPLAYCLASS5_0__SELECTCARD_B__2_OFFSET UNITYSDK_OFFSET(0xCA55BE0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E1640)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASE___C__DISPLAYCLASS5_0__SELECTCARD_B__2_OFFSET UNITYSDK_OFFSET(0x1D7E16D0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SelectCardPhase___c__DisplayClass5_0_TypeDefinitionIndex = 76315;
+	inline static constexpr unsigned int SelectCardPhase___c__DisplayClass5_0_TypeDefinitionIndex = 78646;
 
 	class SelectCardPhase___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 class OONGDLIDJJJ;
 namespace RPG::GameCore { class CheckCurrentAIPhaseAxis; }
 
-#define MGMHAGJFMDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB922A80)
-#define MGMHAGJFMDM_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB922A90)
+#define MGMHAGJFMDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B348A40)
+#define MGMHAGJFMDM_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x1B348A50)
 
-inline static constexpr unsigned int MGMHAGJFMDM_TypeDefinitionIndex = 54366;
+inline static constexpr unsigned int MGMHAGJFMDM_TypeDefinitionIndex = 55530;
 
 	class MGMHAGJFMDM : public ::BEMKNPIFMBI
 	{

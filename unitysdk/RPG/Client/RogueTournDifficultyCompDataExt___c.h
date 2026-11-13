@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTournDifficultyCompData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF92A60)
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF92AA0)
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C__DIFFICULTYCOMPLEVEL_B__0_0_OFFSET UNITYSDK_OFFSET(0xDF92AB0)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C883D30)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C883D70)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C__DIFFICULTYCOMPLEVEL_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C883D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDifficultyCompDataExt___c_TypeDefinitionIndex = 67586;
+	inline static constexpr unsigned int RogueTournDifficultyCompDataExt___c_TypeDefinitionIndex = 69530;
 
 	class RogueTournDifficultyCompDataExt___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69F20);
-		}
-
 		static ::System::Func_2<::RPG::Client::RogueTournDifficultyCompData*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournDifficultyCompData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69F28);
+			return (::System::Func_2<::RPG::Client::RogueTournDifficultyCompData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x728C0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x728C8);
 		}
 
 		static ::System::Void _cctor()

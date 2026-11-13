@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MCHECHNKADP_Category_TypeDefinitionIndex = 80214;
+inline static constexpr unsigned int MCHECHNKADP_Category_TypeDefinitionIndex = 82991;
 
 	enum class MCHECHNKADP_Category : ::System::Int32
 	{

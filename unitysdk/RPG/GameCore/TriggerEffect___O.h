@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEffect___O_TypeDefinitionIndex = 20269;
+	inline static constexpr unsigned int TriggerEffect___O_TypeDefinitionIndex = 20604;
 
 	class TriggerEffect___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x24A90);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x29BE0);
 		}
 
 	};

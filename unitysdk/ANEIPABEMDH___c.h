@@ -4,18 +4,18 @@
 class ANEIPABEMDH;
 namespace System { class Object; }
 
-#define ANEIPABEMDH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E630960)
-#define ANEIPABEMDH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6309A0)
-#define ANEIPABEMDH___C___CCTOR_B__73_0_OFFSET UNITYSDK_OFFSET(0x1E6309B0)
+#define ANEIPABEMDH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2019C540)
+#define ANEIPABEMDH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2019C580)
+#define ANEIPABEMDH___C___CCTOR_B__73_0_OFFSET UNITYSDK_OFFSET(0x2019C590)
 
-inline static constexpr unsigned int ANEIPABEMDH___c_TypeDefinitionIndex = 26866;
+inline static constexpr unsigned int ANEIPABEMDH___c_TypeDefinitionIndex = 27397;
 
 	class ANEIPABEMDH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46800);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B810);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsManagementPlanInfoItemViewModelState_TypeDefinitionIndex = 80427;
+	inline static constexpr unsigned int LimaoNewsManagementPlanInfoItemViewModelState_TypeDefinitionIndex = 83207;
 
 	enum class LimaoNewsManagementPlanInfoItemViewModelState : ::System::Int32
 	{

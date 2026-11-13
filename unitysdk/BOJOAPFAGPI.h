@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define BOJOAPFAGPI_MEGNJCHOGEE_OFFSET UNITYSDK_OFFSET(0xC192C70)
+#define BOJOAPFAGPI_MEGNJCHOGEE_OFFSET UNITYSDK_OFFSET(0x1A788540)
 
-inline static constexpr unsigned int BOJOAPFAGPI_TypeDefinitionIndex = 57564;
+inline static constexpr unsigned int BOJOAPFAGPI_TypeDefinitionIndex = 58792;
 
 	class BOJOAPFAGPI : public ::System::Object
 	{

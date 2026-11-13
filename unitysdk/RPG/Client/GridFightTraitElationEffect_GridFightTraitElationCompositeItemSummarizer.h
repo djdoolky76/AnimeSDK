@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 class JLKCBOIFJKC;
 namespace RPG::Client { class GridFightTraitElationEffect; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTTRAITELATIONCOMPOSITEITEMSUMMARIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B2A50)
-#define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTTRAITELATIONCOMPOSITEITEMSUMMARIZER_UPDATETRAITEFFECT_OFFSET UNITYSDK_OFFSET(0xD2B3130)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTTRAITELATIONCOMPOSITEITEMSUMMARIZER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FBA80)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTTRAITELATIONCOMPOSITEITEMSUMMARIZER_UPDATETRAITEFFECT_OFFSET UNITYSDK_OFFSET(0x1D3FC2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightTraitElationCompositeItemSummarizer_TypeDefinitionIndex = 65386;
+	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightTraitElationCompositeItemSummarizer_TypeDefinitionIndex = 67179;
 
-	class GridFightTraitElationEffect_GridFightTraitElationCompositeItemSummarizer : public ::AMCOEFHHBPO
+	class GridFightTraitElationEffect_GridFightTraitElationCompositeItemSummarizer : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::RPG::Client::GridFightTraitElationEffect* _TraitEffect; // 0x10

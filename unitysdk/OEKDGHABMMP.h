@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleMakeItemDie; }
 
-#define OEKDGHABMMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95E3A0)
-#define OEKDGHABMMP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C95E3B0)
+#define OEKDGHABMMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06CB10)
+#define OEKDGHABMMP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1E06CB20)
 
-inline static constexpr unsigned int OEKDGHABMMP_TypeDefinitionIndex = 43122;
+inline static constexpr unsigned int OEKDGHABMMP_TypeDefinitionIndex = 44103;
 
 	class OEKDGHABMMP : public ::BKABEBEPPJK
 	{

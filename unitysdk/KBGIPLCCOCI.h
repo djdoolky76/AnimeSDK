@@ -4,10 +4,10 @@
 class HGHEOOINJAK;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KBGIPLCCOCI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2F68F0)
-#define KBGIPLCCOCI_GOLDLOOIIGF_OFFSET UNITYSDK_OFFSET(0xB2F6690)
+#define KBGIPLCCOCI_CTOR_OFFSET UNITYSDK_OFFSET(0x19DD8280)
+#define KBGIPLCCOCI_GOLDLOOIIGF_OFFSET UNITYSDK_OFFSET(0x19DD8020)
 
-inline static constexpr unsigned int KBGIPLCCOCI_TypeDefinitionIndex = 75353;
+inline static constexpr unsigned int KBGIPLCCOCI_TypeDefinitionIndex = 77680;
 
 	class KBGIPLCCOCI : public ::System::Object
 	{

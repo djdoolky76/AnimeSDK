@@ -3,10 +3,10 @@
 class OPBLGCPAKKI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EFJGPFLHEIC_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4F520)
-#define EFJGPFLHEIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A4F550)
+#define EFJGPFLHEIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A338660)
+#define EFJGPFLHEIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A338690)
 
-inline static constexpr unsigned int EFJGPFLHEIC_TypeDefinitionIndex = 55501;
+inline static constexpr unsigned int EFJGPFLHEIC_TypeDefinitionIndex = 56689;
 
 	class EFJGPFLHEIC
 	{

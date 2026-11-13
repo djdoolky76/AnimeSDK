@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IDBPANIOMLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15E5C8E0)
-#define IDBPANIOMLJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E5C910)
+#define IDBPANIOMLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x188E9BA0)
+#define IDBPANIOMLJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188E9BD0)
 
-inline static constexpr unsigned int IDBPANIOMLJ_TypeDefinitionIndex = 55876;
+inline static constexpr unsigned int IDBPANIOMLJ_TypeDefinitionIndex = 57079;
 
 	class IDBPANIOMLJ
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define BMDLLJPCEDN_CTOR_OFFSET UNITYSDK_OFFSET(0xBD9ECD0)
+#define BMDLLJPCEDN_CTOR_OFFSET UNITYSDK_OFFSET(0x18B7A5F0)
 
-inline static constexpr unsigned int BMDLLJPCEDN_TypeDefinitionIndex = 47961;
+inline static constexpr unsigned int BMDLLJPCEDN_TypeDefinitionIndex = 48992;
 
 	class BMDLLJPCEDN : public ::System::Object
 	{

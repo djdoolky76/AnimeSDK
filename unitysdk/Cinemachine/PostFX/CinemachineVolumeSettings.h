@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CINEMACHINE_POSTFX_CINEMACHINEVOLUMESETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1669D300)
+#define CINEMACHINE_POSTFX_CINEMACHINEVOLUMESETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x208845B0)
 
 namespace Cinemachine::PostFX
 {
-	inline static constexpr unsigned int CinemachineVolumeSettings_TypeDefinitionIndex = 39885;
+	inline static constexpr unsigned int CinemachineVolumeSettings_TypeDefinitionIndex = 40814;
 
 	class CinemachineVolumeSettings : public ::UnityEngine::MonoBehaviour
 	{

@@ -6,10 +6,10 @@
 class FCOEMCEDLNL;
 class HECCJLJMCCE;
 
-#define HECCJLJMCCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6B5C0)
-#define HECCJLJMCCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE6B260)
+#define HECCJLJMCCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EDAE0)
+#define HECCJLJMCCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9ED780)
 
-inline static constexpr unsigned int HECCJLJMCCE_TypeDefinitionIndex = 11503;
+inline static constexpr unsigned int HECCJLJMCCE_TypeDefinitionIndex = 11554;
 
 	class HECCJLJMCCE : public ::System::Object
 	{
@@ -18,10 +18,10 @@ inline static constexpr unsigned int HECCJLJMCCE_TypeDefinitionIndex = 11503;
 		::Il2CppArray<::System::UInt32>* BIFDDEDBGAL; // 0x18
 		::RPG::Client::TextID OKHNDIGJMIG; // 0x20
 		::System::UInt32 MGNIIAODKMF; // 0x30
-		::System::UInt32 NNDOABPFDMI; // 0x34
-		::System::UInt32 LJPJOPFFGGF; // 0x38
-		::RPG::GameCore::FateMasterTalkSituation KLAGNGDGAIC; // 0x3C
-		::RPG::Client::TextID HHDKOKBHBCA; // 0x40
+		::System::UInt32 LJPJOPFFGGF; // 0x34
+		::RPG::Client::TextID HHDKOKBHBCA; // 0x38
+		::System::UInt32 NNDOABPFDMI; // 0x48
+		::RPG::GameCore::FateMasterTalkSituation KLAGNGDGAIC; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HECCJLJMCCE_CTOR_OFFSET))(this);

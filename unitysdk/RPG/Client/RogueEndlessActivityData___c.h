@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEENDLESSACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEF0B30)
-#define RPG_CLIENT_ROGUEENDLESSACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEF0B70)
-#define RPG_CLIENT_ROGUEENDLESSACTIVITYDATA___C___HASNEWAREA_B__5_0_OFFSET UNITYSDK_OFFSET(0xDEF0B80)
+#define RPG_CLIENT_ROGUEENDLESSACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7CFCB0)
+#define RPG_CLIENT_ROGUEENDLESSACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CFCF0)
+#define RPG_CLIENT_ROGUEENDLESSACTIVITYDATA___C___HASNEWAREA_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C7CFD00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueEndlessActivityData___c_TypeDefinitionIndex = 61656;
+	inline static constexpr unsigned int RogueEndlessActivityData___c_TypeDefinitionIndex = 63062;
 
 	class RogueEndlessActivityData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63120);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71020);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63128);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71028);
 		}
 
 		static ::System::Void _cctor()

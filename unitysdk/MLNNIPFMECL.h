@@ -5,10 +5,10 @@
 namespace RPG::Client { class NotifyHandler; }
 namespace System { class Object; }
 
-#define MLNNIPFMECL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B56D0)
-#define MLNNIPFMECL_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xB9B56E0)
+#define MLNNIPFMECL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B92ADB0)
+#define MLNNIPFMECL_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x1B92ADC0)
 
-inline static constexpr unsigned int MLNNIPFMECL_TypeDefinitionIndex = 73144;
+inline static constexpr unsigned int MLNNIPFMECL_TypeDefinitionIndex = 75258;
 
 	class MLNNIPFMECL : public ::GMBPBAHKLDB
 	{

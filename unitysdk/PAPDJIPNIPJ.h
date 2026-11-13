@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PAPDJIPNIPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBFD7EF0)
+#define PAPDJIPNIPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18AEFEE0)
 
-inline static constexpr unsigned int PAPDJIPNIPJ_TypeDefinitionIndex = 52784;
+inline static constexpr unsigned int PAPDJIPNIPJ_TypeDefinitionIndex = 53928;
 
 	class PAPDJIPNIPJ : public ::System::Object
 	{

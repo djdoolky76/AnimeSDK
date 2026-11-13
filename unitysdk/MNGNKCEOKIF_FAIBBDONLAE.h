@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/System/Object.h"
 
-#define MNGNKCEOKIF_FAIBBDONLAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD4B8B0)
+#define MNGNKCEOKIF_FAIBBDONLAE_CTOR_OFFSET UNITYSDK_OFFSET(0x16F81050)
 
-inline static constexpr unsigned int MNGNKCEOKIF_FAIBBDONLAE_TypeDefinitionIndex = 6261;
+inline static constexpr unsigned int MNGNKCEOKIF_FAIBBDONLAE_TypeDefinitionIndex = 6268;
 
 	class MNGNKCEOKIF_FAIBBDONLAE : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::MVector2>* LJDHGFECMHJ; // 0x10
-		::Il2CppArray<::System::Int32>* DEJPMFANBNK; // 0x18
-		::System::Single EODLMJJCHJP; // 0x20
-		::RPG::MVector2 NKAACMGNNPK; // 0x24
-		::RPG::MVector2 GNOKDJHJJAB; // 0x2C
-		::System::Int32 EIHHMIHLGLE; // 0x34
-		::System::Boolean MFIOOONDGJF; // 0x38
+		::Il2CppArray<::System::Int32>* DEJPMFANBNK; // 0x10
+		::Il2CppArray<::RPG::MVector2>* LJDHGFECMHJ; // 0x18
+		::RPG::MVector2 NKAACMGNNPK; // 0x20
+		::System::Int32 EIHHMIHLGLE; // 0x28
+		::System::Single EODLMJJCHJP; // 0x2C
+		::System::Boolean MFIOOONDGJF; // 0x30
 		::System::Byte _padding0[0x3];
+		::RPG::MVector2 GNOKDJHJJAB; // 0x34
 		::RPG::MVector2 EFNAJMADAHM; // 0x3C
 		::System::Void _ctor()
 		{

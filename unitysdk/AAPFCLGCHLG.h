@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapCharacterChangeSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AAPFCLGCHLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB0E0340)
-#define AAPFCLGCHLG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB0E0360)
+#define AAPFCLGCHLG_CTOR_OFFSET UNITYSDK_OFFSET(0x18C91130)
+#define AAPFCLGCHLG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x18C91150)
 
-inline static constexpr unsigned int AAPFCLGCHLG_TypeDefinitionIndex = 59183;
+inline static constexpr unsigned int AAPFCLGCHLG_TypeDefinitionIndex = 60460;
 
 	class AAPFCLGCHLG
 	{

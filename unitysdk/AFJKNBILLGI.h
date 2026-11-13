@@ -5,29 +5,29 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AFJKNBILLGI_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF08060)
-#define AFJKNBILLGI_CJDLJMKBNON_OFFSET UNITYSDK_OFFSET(0xCF076E0)
-#define AFJKNBILLGI_CJMELLLIEDE_OFFSET UNITYSDK_OFFSET(0xCF07D70)
-#define AFJKNBILLGI_CLOPDENLHGD_OFFSET UNITYSDK_OFFSET(0xCF07FC0)
-#define AFJKNBILLGI_EDJIMEKCDEM_OFFSET UNITYSDK_OFFSET(0xCF07DD0)
-#define AFJKNBILLGI_EKCBJICMGGC_OFFSET UNITYSDK_OFFSET(0xCF08000)
-#define AFJKNBILLGI_GABHJEMADGN_OFFSET UNITYSDK_OFFSET(0xCF07740)
-#define AFJKNBILLGI_KNPMDHNGNKP_OFFSET UNITYSDK_OFFSET(0xCF07F00)
-#define AFJKNBILLGI_OBADCLNHMJL_OFFSET UNITYSDK_OFFSET(0xCF07710)
+#define AFJKNBILLGI_CCTOR_OFFSET UNITYSDK_OFFSET(0x18DB3EF0)
+#define AFJKNBILLGI_CJDLJMKBNON_OFFSET UNITYSDK_OFFSET(0x18DB3550)
+#define AFJKNBILLGI_CJMELLLIEDE_OFFSET UNITYSDK_OFFSET(0x18DB3C00)
+#define AFJKNBILLGI_CLOPDENLHGD_OFFSET UNITYSDK_OFFSET(0x18DB3E50)
+#define AFJKNBILLGI_EDJIMEKCDEM_OFFSET UNITYSDK_OFFSET(0x18DB3C60)
+#define AFJKNBILLGI_EKCBJICMGGC_OFFSET UNITYSDK_OFFSET(0x18DB3E90)
+#define AFJKNBILLGI_GABHJEMADGN_OFFSET UNITYSDK_OFFSET(0x18DB35B0)
+#define AFJKNBILLGI_KNPMDHNGNKP_OFFSET UNITYSDK_OFFSET(0x18DB3D90)
+#define AFJKNBILLGI_OBADCLNHMJL_OFFSET UNITYSDK_OFFSET(0x18DB3580)
 
-inline static constexpr unsigned int AFJKNBILLGI_TypeDefinitionIndex = 56197;
+inline static constexpr unsigned int AFJKNBILLGI_TypeDefinitionIndex = 57409;
 
 	class AFJKNBILLGI : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>** StaticGet_ICPKEOFMIAO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "AFJKNBILLGI")->GetStaticField(0x40430);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "AFJKNBILLGI")->GetStaticField(0x12CC0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>** StaticGet_NNDOBIMOFEO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "AFJKNBILLGI")->GetStaticField(0x40438);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "AFJKNBILLGI")->GetStaticField(0x12CC8);
 		}
 
 		static ::System::Void _cctor()

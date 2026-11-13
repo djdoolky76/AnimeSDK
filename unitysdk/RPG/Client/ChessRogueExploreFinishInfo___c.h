@@ -5,25 +5,25 @@ class KIKDEEOGENM;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHESSROGUEEXPLOREFINISHINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCAF0070)
-#define RPG_CLIENT_CHESSROGUEEXPLOREFINISHINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCAF00B0)
-#define RPG_CLIENT_CHESSROGUEEXPLOREFINISHINFO___C__GET_RECORDAVATARS_B__78_0_OFFSET UNITYSDK_OFFSET(0xCAF00C0)
+#define RPG_CLIENT_CHESSROGUEEXPLOREFINISHINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8A4000)
+#define RPG_CLIENT_CHESSROGUEEXPLOREFINISHINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A4040)
+#define RPG_CLIENT_CHESSROGUEEXPLOREFINISHINFO___C__GET_RECORDAVATARS_B__78_0_OFFSET UNITYSDK_OFFSET(0x1D8A4050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueExploreFinishInfo___c_TypeDefinitionIndex = 66961;
+	inline static constexpr unsigned int ChessRogueExploreFinishInfo___c_TypeDefinitionIndex = 68905;
 
 	class ChessRogueExploreFinishInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::KIKDEEOGENM*>** StaticGet___9__78_0()
 		{
-			return (::System::Comparison_1<::KIKDEEOGENM*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC0D0);
+			return (::System::Comparison_1<::KIKDEEOGENM*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB6B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC0D8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB6B8);
 		}
 
 		static ::System::Void _cctor()

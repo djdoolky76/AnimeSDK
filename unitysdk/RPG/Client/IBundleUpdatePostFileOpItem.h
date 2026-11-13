@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IBundleUpdatePostFileOpItem_TypeDefinitionIndex = 61224;
+	inline static constexpr unsigned int IBundleUpdatePostFileOpItem_TypeDefinitionIndex = 62609;
 
 	class IBundleUpdatePostFileOpItem
 	{

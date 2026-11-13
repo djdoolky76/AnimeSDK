@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3EE140)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x208657B0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionUtils___c__DisplayClass43_0_TypeDefinitionIndex = 9682;
+	inline static constexpr unsigned int ReflectionUtils___c__DisplayClass43_0_TypeDefinitionIndex = 9690;
 
 	class ReflectionUtils___c__DisplayClass43_0 : public ::System::Object
 	{

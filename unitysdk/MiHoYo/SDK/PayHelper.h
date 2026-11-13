@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 
-#define MIHOYO_SDK_PAYHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF55800)
-#define MIHOYO_SDK_PAYHELPER_SUPPORTARBITRAYPARAMINCREATEORDER_OFFSET UNITYSDK_OFFSET(0x1BF554C0)
+#define MIHOYO_SDK_PAYHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF67560)
+#define MIHOYO_SDK_PAYHELPER_SUPPORTARBITRAYPARAMINCREATEORDER_OFFSET UNITYSDK_OFFSET(0x1AF67220)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PayHelper_TypeDefinitionIndex = 8024;
+	inline static constexpr unsigned int PayHelper_TypeDefinitionIndex = 8033;
 
 	class PayHelper : public ::System::Object
 	{

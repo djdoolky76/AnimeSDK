@@ -6,17 +6,17 @@ class ODGPPIHLOFF;
 namespace System { class Object; }
 namespace UnityEngine { class Object; }
 
-#define NPJKDMFBDFG___C__DISPLAYCLASS62_1_CTOR_OFFSET UNITYSDK_OFFSET(0xBD01130)
-#define NPJKDMFBDFG___C__DISPLAYCLASS62_1__PRELOADPROPERTYRESOURCES1_B__3_OFFSET UNITYSDK_OFFSET(0xBD05380)
+#define NPJKDMFBDFG___C__DISPLAYCLASS62_1_CTOR_OFFSET UNITYSDK_OFFSET(0x19D035F0)
+#define NPJKDMFBDFG___C__DISPLAYCLASS62_1__PRELOADPROPERTYRESOURCES1_B__3_OFFSET UNITYSDK_OFFSET(0x19D07860)
 
-inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass62_1_TypeDefinitionIndex = 49435;
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass62_1_TypeDefinitionIndex = 50511;
 
 	template <typename T>
 	class NPJKDMFBDFG___c__DisplayClass62_1 : public ::System::Object
 	{
 	public:
-		::NPJKDMFBDFG_IOINPFBOICM plpath; // 0x10
-		::System::Object* CS___8__locals1; // 0x20
+		::System::Object* CS___8__locals1; // 0x10
+		::NPJKDMFBDFG_IOINPFBOICM plpath; // 0x18
 		::ODGPPIHLOFF* hs; // 0x28
 		::System::Void _ctor()
 		{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideTopPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLPCLFKPMNE_CTOR_OFFSET UNITYSDK_OFFSET(0x15838A10)
-#define FLPCLFKPMNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15838A40)
+#define FLPCLFKPMNE_CTOR_OFFSET UNITYSDK_OFFSET(0x18973BD0)
+#define FLPCLFKPMNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18973C00)
 
-inline static constexpr unsigned int FLPCLFKPMNE_TypeDefinitionIndex = 58153;
+inline static constexpr unsigned int FLPCLFKPMNE_TypeDefinitionIndex = 59406;
 
 	class FLPCLFKPMNE
 	{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class AddBehaviorFlagForModifier; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define LJBOAKMIFKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DA900)
-#define LJBOAKMIFKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6DA930)
+#define LJBOAKMIFKM_CTOR_OFFSET UNITYSDK_OFFSET(0x172F78A0)
+#define LJBOAKMIFKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172F78D0)
 
-inline static constexpr unsigned int LJBOAKMIFKM_TypeDefinitionIndex = 55177;
+inline static constexpr unsigned int LJBOAKMIFKM_TypeDefinitionIndex = 56358;
 
 	class LJBOAKMIFKM
 	{

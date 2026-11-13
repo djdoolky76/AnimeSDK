@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ICHDMONJOBO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CEB4C00)
-#define ICHDMONJOBO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEB5180)
-#define ICHDMONJOBO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CEB4D70)
-#define ICHDMONJOBO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CEB46B0)
-#define ICHDMONJOBO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CEB4940)
-#define ICHDMONJOBO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CEB4E10)
-#define ICHDMONJOBO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CEB4E60)
-#define ICHDMONJOBO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CEB4C40)
-#define ICHDMONJOBO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CEB48E0)
-#define ICHDMONJOBO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CEB4A70)
-#define ICHDMONJOBO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEB4CD0)
-#define ICHDMONJOBO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEB4630)
+#define ICHDMONJOBO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E6AF500)
+#define ICHDMONJOBO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6AFA80)
+#define ICHDMONJOBO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E6AF670)
+#define ICHDMONJOBO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E6AEFB0)
+#define ICHDMONJOBO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E6AF240)
+#define ICHDMONJOBO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E6AF710)
+#define ICHDMONJOBO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E6AF760)
+#define ICHDMONJOBO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E6AF540)
+#define ICHDMONJOBO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E6AF1E0)
+#define ICHDMONJOBO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E6AF370)
+#define ICHDMONJOBO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E6AF5D0)
+#define ICHDMONJOBO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E6AEF30)
 
-inline static constexpr unsigned int ICHDMONJOBO_TypeDefinitionIndex = 11352;
+inline static constexpr unsigned int ICHDMONJOBO_TypeDefinitionIndex = 11403;
 
 	class ICHDMONJOBO : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantBehaviorConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantBehaviorConfigRow*>**)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x1F8C0);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x1F8C8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x1D7A0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantBehaviorConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantBehaviorConfigRow*>**)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x1D7A8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x1F8D0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x7260);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x1D7B0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x7261);
+			return (::System::Byte*)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x6540);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "ICHDMONJOBO")->GetStaticField(0x6541);
 		}
 
 		static ::System::Void _cctor()

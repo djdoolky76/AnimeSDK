@@ -8,11 +8,11 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Pair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FMAGDFMJFLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F5C90)
-#define FMAGDFMJFLI_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C5F5CA0)
-#define FMAGDFMJFLI_POGIHFGICGO_OFFSET UNITYSDK_OFFSET(0x1C5F6030)
+#define FMAGDFMJFLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA32E70)
+#define FMAGDFMJFLI_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1AA32E80)
+#define FMAGDFMJFLI_POGIHFGICGO_OFFSET UNITYSDK_OFFSET(0x1AA33210)
 
-inline static constexpr unsigned int FMAGDFMJFLI_TypeDefinitionIndex = 36374;
+inline static constexpr unsigned int FMAGDFMJFLI_TypeDefinitionIndex = 37302;
 
 	class FMAGDFMJFLI : public ::IFNMPBPNBIF
 	{

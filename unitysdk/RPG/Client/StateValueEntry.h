@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_STATEVALUEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xE12A220)
+#define RPG_CLIENT_STATEVALUEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1A917C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateValueEntry_TypeDefinitionIndex = 71008;
+	inline static constexpr unsigned int StateValueEntry_TypeDefinitionIndex = 72987;
 
 	class StateValueEntry : public ::System::Object
 	{

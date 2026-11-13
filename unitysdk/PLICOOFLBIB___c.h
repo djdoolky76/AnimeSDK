@@ -4,18 +4,18 @@
 class PLICOOFLBIB;
 namespace System { class Object; }
 
-#define PLICOOFLBIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF74BA0)
-#define PLICOOFLBIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF74BE0)
-#define PLICOOFLBIB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF74BF0)
+#define PLICOOFLBIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4AFFD0)
+#define PLICOOFLBIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B0010)
+#define PLICOOFLBIB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F4B0020)
 
-inline static constexpr unsigned int PLICOOFLBIB___c_TypeDefinitionIndex = 31281;
+inline static constexpr unsigned int PLICOOFLBIB___c_TypeDefinitionIndex = 32194;
 
 	class PLICOOFLBIB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D190);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44DD0);
 		}
 
 		static ::System::Void _cctor()

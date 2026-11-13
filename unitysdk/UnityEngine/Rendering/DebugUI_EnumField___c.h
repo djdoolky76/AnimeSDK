@@ -6,31 +6,31 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GUIContent; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2921B0)
-#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2921F0)
-#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__INITQUICKSEPARATORS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1F292260)
-#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__SET_AUTOENUM_B__16_0_OFFSET UNITYSDK_OFFSET(0x1F292200)
+#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4C02A0)
+#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C02E0)
+#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__INITQUICKSEPARATORS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1E4C0350)
+#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__SET_AUTOENUM_B__16_0_OFFSET UNITYSDK_OFFSET(0x1E4C02F0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_EnumField___c_TypeDefinitionIndex = 35535;
+	inline static constexpr unsigned int DebugUI_EnumField___c_TypeDefinitionIndex = 36463;
 
 	class DebugUI_EnumField___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::GUIContent*, ::System::String*>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::UnityEngine::GUIContent*, ::System::String*>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5A910);
-		}
-
 		static ::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5A918);
+			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x60DE0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5A920);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x60DE8);
+		}
+
+		static ::System::Func_2<::UnityEngine::GUIContent*, ::System::String*>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::UnityEngine::GUIContent*, ::System::String*>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x60DF0);
 		}
 
 		static ::System::Void _cctor()

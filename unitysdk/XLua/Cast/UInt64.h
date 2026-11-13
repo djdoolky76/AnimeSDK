@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define XLUA_CAST_UINT64_CTOR_OFFSET UNITYSDK_OFFSET(0x14CB4490)
+#define XLUA_CAST_UINT64_CTOR_OFFSET UNITYSDK_OFFSET(0xE7BC5C0)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int UInt64_TypeDefinitionIndex = 50300;
+	inline static constexpr unsigned int UInt64_TypeDefinitionIndex = 51351;
 
 	class UInt64
 	{

@@ -6,10 +6,10 @@ class LOJIKMHLCBL;
 class OINNEGOFKAA;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define NJIFALNCFJO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0A170)
-#define NJIFALNCFJO_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xBC0A1F0)
+#define NJIFALNCFJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A78C230)
+#define NJIFALNCFJO_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0x1A78C2B0)
 
-inline static constexpr unsigned int NJIFALNCFJO_TypeDefinitionIndex = 62551;
+inline static constexpr unsigned int NJIFALNCFJO_TypeDefinitionIndex = 63964;
 
 	class NJIFALNCFJO : public ::System::Object
 	{

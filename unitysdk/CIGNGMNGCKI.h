@@ -7,17 +7,17 @@ namespace RPG::Client { class EnvironmentSystem; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CIGNGMNGCKI_BAIDMFGNDPH_OFFSET UNITYSDK_OFFSET(0xCF6B4E0)
-#define CIGNGMNGCKI_BKJGMFOKKKN_OFFSET UNITYSDK_OFFSET(0xCF6B160)
-#define CIGNGMNGCKI_BMLEMLOIPPB_OFFSET UNITYSDK_OFFSET(0xCF6C6A0)
-#define CIGNGMNGCKI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF6B050)
-#define CIGNGMNGCKI_FNEGFGMCOJO_OFFSET UNITYSDK_OFFSET(0xCF6B690)
-#define CIGNGMNGCKI_GNCJAGHKEPO_OFFSET UNITYSDK_OFFSET(0xCF6B350)
-#define CIGNGMNGCKI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCF6D0F0)
-#define CIGNGMNGCKI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xCF6B060)
-#define CIGNGMNGCKI_OLKPOLHAIFM_OFFSET UNITYSDK_OFFSET(0xCF6D000)
+#define CIGNGMNGCKI_BAIDMFGNDPH_OFFSET UNITYSDK_OFFSET(0x16E45560)
+#define CIGNGMNGCKI_BKJGMFOKKKN_OFFSET UNITYSDK_OFFSET(0x16E451E0)
+#define CIGNGMNGCKI_BMLEMLOIPPB_OFFSET UNITYSDK_OFFSET(0x16E46720)
+#define CIGNGMNGCKI_CTOR_OFFSET UNITYSDK_OFFSET(0x16E450D0)
+#define CIGNGMNGCKI_FNEGFGMCOJO_OFFSET UNITYSDK_OFFSET(0x16E45710)
+#define CIGNGMNGCKI_GNCJAGHKEPO_OFFSET UNITYSDK_OFFSET(0x16E453D0)
+#define CIGNGMNGCKI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x16E47170)
+#define CIGNGMNGCKI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x16E450E0)
+#define CIGNGMNGCKI_OLKPOLHAIFM_OFFSET UNITYSDK_OFFSET(0x16E47080)
 
-inline static constexpr unsigned int CIGNGMNGCKI_TypeDefinitionIndex = 47298;
+inline static constexpr unsigned int CIGNGMNGCKI_TypeDefinitionIndex = 48327;
 
 	class CIGNGMNGCKI : public ::System::Object
 	{
@@ -28,17 +28,17 @@ inline static constexpr unsigned int CIGNGMNGCKI_TypeDefinitionIndex = 47298;
 		::UnityEngine::Vector3 BJNKIKNBFOJ; // 0x28
 		static ::System::Collections::Generic::List_1<::EnvLocalVolume*>** StaticGet_BNMOAACGJHG()
 		{
-			return (::System::Collections::Generic::List_1<::EnvLocalVolume*>**)UnitySDK::FromName("", "CIGNGMNGCKI")->GetStaticField(0x2E460);
+			return (::System::Collections::Generic::List_1<::EnvLocalVolume*>**)UnitySDK::FromName("", "CIGNGMNGCKI")->GetStaticField(0x18BC0);
 		}
 
 		static ::System::Collections::Generic::List_1<::EnvLocalVolume*>** StaticGet_LHEGFPCLBML()
 		{
-			return (::System::Collections::Generic::List_1<::EnvLocalVolume*>**)UnitySDK::FromName("", "CIGNGMNGCKI")->GetStaticField(0x2E468);
+			return (::System::Collections::Generic::List_1<::EnvLocalVolume*>**)UnitySDK::FromName("", "CIGNGMNGCKI")->GetStaticField(0x18BC8);
 		}
 
 		static ::System::Boolean* StaticGet_OBHCNLJCFGG()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CIGNGMNGCKI")->GetStaticField(0x9960);
+			return (::System::Boolean*)UnitySDK::FromName("", "CIGNGMNGCKI")->GetStaticField(0x58F0);
 		}
 
 		::System::Void _ctor(::RPG::Client::EnvironmentSystem* a1)

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OMCOBKDLALA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF19E80)
+#define OMCOBKDLALA_CTOR_OFFSET UNITYSDK_OFFSET(0x17D49450)
 
-inline static constexpr unsigned int OMCOBKDLALA_TypeDefinitionIndex = 48907;
+inline static constexpr unsigned int OMCOBKDLALA_TypeDefinitionIndex = 49964;
 
 	class OMCOBKDLALA : public ::System::Object
 	{

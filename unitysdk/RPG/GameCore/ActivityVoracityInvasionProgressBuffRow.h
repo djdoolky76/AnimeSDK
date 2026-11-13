@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityVoracityInvasionProgressBuffRow; }
 
-#define RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3570E0)
-#define RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D356F70)
+#define RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9EF90)
+#define RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA9EE50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityVoracityInvasionProgressBuffRow_TypeDefinitionIndex = 12544;
+	inline static constexpr unsigned int ActivityVoracityInvasionProgressBuffRow_TypeDefinitionIndex = 12611;
 
 	class ActivityVoracityInvasionProgressBuffRow : public ::System::Object
 	{
 	public:
-		::System::Double ProgressPercent; // 0x10
-		::System::UInt32 BuffID; // 0x18
-		::System::UInt32 BuffLevel; // 0x1C
+		::System::UInt32 BuffID; // 0x10
+		::System::UInt32 BuffLevel; // 0x14
+		::System::Double ProgressPercent; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_CTOR_OFFSET))(this);

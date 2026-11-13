@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DHCNDENHLGO.h"
 
-#define CIBCPIJIJGH_CTOR_OFFSET UNITYSDK_OFFSET(0xCF5D860)
-#define CIBCPIJIJGH_GET_TOTALROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0xCF5D850)
+#define CIBCPIJIJGH_CTOR_OFFSET UNITYSDK_OFFSET(0x16E33B00)
+#define CIBCPIJIJGH_GET_TOTALROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0x16E33AF0)
 
-inline static constexpr unsigned int CIBCPIJIJGH_TypeDefinitionIndex = 81446;
+inline static constexpr unsigned int CIBCPIJIJGH_TypeDefinitionIndex = 84226;
 
 	class CIBCPIJIJGH : public ::DHCNDENHLGO
 	{

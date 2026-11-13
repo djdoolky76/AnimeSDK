@@ -6,10 +6,10 @@ class FCOEMCEDLNL;
 class HAELNJMDBMN;
 namespace System { class String; }
 
-#define HAELNJMDBMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE4E5B0)
-#define HAELNJMDBMN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE4E350)
+#define HAELNJMDBMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D0A20)
+#define HAELNJMDBMN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9D07C0)
 
-inline static constexpr unsigned int HAELNJMDBMN_TypeDefinitionIndex = 14428;
+inline static constexpr unsigned int HAELNJMDBMN_TypeDefinitionIndex = 14585;
 
 	class HAELNJMDBMN : public ::System::Object
 	{

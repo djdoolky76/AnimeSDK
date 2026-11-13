@@ -4,9 +4,9 @@
 class BNLHGENFEHG;
 class FDPALAEIHPB;
 
-#define CEFAEJLOCFC_CTOR_OFFSET UNITYSDK_OFFSET(0xC77FDE0)
+#define CEFAEJLOCFC_CTOR_OFFSET UNITYSDK_OFFSET(0x173CC090)
 
-inline static constexpr unsigned int CEFAEJLOCFC_TypeDefinitionIndex = 76540;
+inline static constexpr unsigned int CEFAEJLOCFC_TypeDefinitionIndex = 78871;
 
 	class CEFAEJLOCFC : public ::DJJKNHPLHDI
 	{

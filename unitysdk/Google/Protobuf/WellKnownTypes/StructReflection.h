@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCTREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B891E90)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCTREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B891E30)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCTREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A9B40)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCTREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F3A9AE0)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int StructReflection_TypeDefinitionIndex = 5429;
+	inline static constexpr unsigned int StructReflection_TypeDefinitionIndex = 5434;
 
 	class StructReflection : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "StructReflection")->GetStaticField(0x256D0);
+			return (::Google::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "StructReflection")->GetStaticField(0x28720);
 		}
 
 		static ::System::Void _cctor()

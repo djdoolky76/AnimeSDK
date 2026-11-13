@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PPAEPHIFLBF_CTOR_OFFSET UNITYSDK_OFFSET(0xC36FD80)
+#define PPAEPHIFLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B89C1B0)
 
-inline static constexpr unsigned int PPAEPHIFLBF_TypeDefinitionIndex = 72407;
+inline static constexpr unsigned int PPAEPHIFLBF_TypeDefinitionIndex = 74486;
 
 	class PPAEPHIFLBF : public ::System::Object
 	{

@@ -10,7 +10,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToArray__ToArrayAsync_d__0_1_TypeDefinitionIndex = 45674;
+	inline static constexpr unsigned int ToArray__ToArrayAsync_d__0_1_TypeDefinitionIndex = 46703;
 
 	template <typename T>
 	struct alignas(8) ToArray__ToArrayAsync_d__0_1

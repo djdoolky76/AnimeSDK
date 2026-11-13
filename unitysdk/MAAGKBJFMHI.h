@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define MAAGKBJFMHI_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0xB836D90)
+#define MAAGKBJFMHI_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0x1B6D0F60)
 
-inline static constexpr unsigned int MAAGKBJFMHI_TypeDefinitionIndex = 55971;
+inline static constexpr unsigned int MAAGKBJFMHI_TypeDefinitionIndex = 57174;
 
 	struct alignas(8) MAAGKBJFMHI
 	{

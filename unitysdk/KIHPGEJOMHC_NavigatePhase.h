@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KIHPGEJOMHC_NavigatePhase_TypeDefinitionIndex = 53084;
+inline static constexpr unsigned int KIHPGEJOMHC_NavigatePhase_TypeDefinitionIndex = 54245;
 
 	enum class KIHPGEJOMHC_NavigatePhase : ::System::Int32
 	{

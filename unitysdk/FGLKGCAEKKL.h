@@ -7,18 +7,18 @@
 class NCJILFFNINI;
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define FGLKGCAEKKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1575CE90)
-#define FGLKGCAEKKL_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0x1575BC60)
-#define FGLKGCAEKKL_KMOFEGJDFDL_OFFSET UNITYSDK_OFFSET(0x1575BB40)
+#define FGLKGCAEKKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x18A92240)
+#define FGLKGCAEKKL_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0x18A91020)
+#define FGLKGCAEKKL_KMOFEGJDFDL_OFFSET UNITYSDK_OFFSET(0x18A90EF0)
 
-inline static constexpr unsigned int FGLKGCAEKKL_TypeDefinitionIndex = 55974;
+inline static constexpr unsigned int FGLKGCAEKKL_TypeDefinitionIndex = 57177;
 
 	class FGLKGCAEKKL : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::FixPoint* StaticGet_EPBPACPCLPP()
 		{
-			return (::RPG::GameCore::FixPoint*)UnitySDK::FromName("", "FGLKGCAEKKL")->GetStaticField(0x14410);
+			return (::RPG::GameCore::FixPoint*)UnitySDK::FromName("", "FGLKGCAEKKL")->GetStaticField(0x13550);
 		}
 
 		static ::System::Void _cctor()

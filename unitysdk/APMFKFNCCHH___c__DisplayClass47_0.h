@@ -4,10 +4,10 @@
 class APMFKFNCCHH;
 namespace System { class String; }
 
-#define APMFKFNCCHH___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BAF0B0)
-#define APMFKFNCCHH___C__DISPLAYCLASS47_0___ONTEXTLOADED_B__0_OFFSET UNITYSDK_OFFSET(0x15BB3150)
+#define APMFKFNCCHH___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18514CF0)
+#define APMFKFNCCHH___C__DISPLAYCLASS47_0___ONTEXTLOADED_B__0_OFFSET UNITYSDK_OFFSET(0x18518D60)
 
-inline static constexpr unsigned int APMFKFNCCHH___c__DisplayClass47_0_TypeDefinitionIndex = 73776;
+inline static constexpr unsigned int APMFKFNCCHH___c__DisplayClass47_0_TypeDefinitionIndex = 75900;
 
 	class APMFKFNCCHH___c__DisplayClass47_0 : public ::System::Object
 	{

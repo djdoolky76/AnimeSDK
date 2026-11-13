@@ -6,13 +6,13 @@ namespace RPG::GameCore { class GlobalModifyInsertAbilityPriority; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F1610)
-#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F1620)
-#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F15E0)
+#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED83990)
+#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED839A0)
+#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED83960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalModifyInsertAbilityPriority_TypeDefinitionIndex = 22667;
+	inline static constexpr unsigned int GlobalModifyInsertAbilityPriority_TypeDefinitionIndex = 23089;
 
 	class GlobalModifyInsertAbilityPriority : public ::RPG::GameCore::TaskConfig
 	{

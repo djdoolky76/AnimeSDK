@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CINEMACHINE_CINEMACHINEBRAIN_BRAINEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x16660490)
+#define CINEMACHINE_CINEMACHINEBRAIN_BRAINEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x19C3A970)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBrain_BrainEvent_TypeDefinitionIndex = 39720;
+	inline static constexpr unsigned int CinemachineBrain_BrainEvent_TypeDefinitionIndex = 40649;
 
 	class CinemachineBrain_BrainEvent
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByFateContentCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BLCGNLOKCAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA62D60)
-#define BLCGNLOKCAN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA62E40)
+#define BLCGNLOKCAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6748D0)
+#define BLCGNLOKCAN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A6749B0)
 
-inline static constexpr unsigned int BLCGNLOKCAN_TypeDefinitionIndex = 55435;
+inline static constexpr unsigned int BLCGNLOKCAN_TypeDefinitionIndex = 56621;
 
 	class BLCGNLOKCAN
 	{

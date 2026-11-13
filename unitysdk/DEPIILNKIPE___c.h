@@ -4,18 +4,18 @@
 class DEPIILNKIPE;
 namespace System { class Object; }
 
-#define DEPIILNKIPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E16B870)
-#define DEPIILNKIPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E16B8B0)
-#define DEPIILNKIPE___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1E16B8C0)
+#define DEPIILNKIPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFABDC0)
+#define DEPIILNKIPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFABE00)
+#define DEPIILNKIPE___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1FFABE10)
 
-inline static constexpr unsigned int DEPIILNKIPE___c_TypeDefinitionIndex = 26217;
+inline static constexpr unsigned int DEPIILNKIPE___c_TypeDefinitionIndex = 26744;
 
 	class DEPIILNKIPE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CB60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27BA0);
 		}
 
 		static ::System::Void _cctor()

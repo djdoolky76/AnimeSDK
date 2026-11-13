@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYCASEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA011A0)
+#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYCASEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEFF130)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int PVSRuntimeReplayCaseData_TypeDefinitionIndex = 73763;
+	inline static constexpr unsigned int PVSRuntimeReplayCaseData_TypeDefinitionIndex = 75887;
 
 	class PVSRuntimeReplayCaseData : public ::System::Object
 	{

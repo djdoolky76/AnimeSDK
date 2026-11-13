@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsMatchTeammateCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JNLHMIGDECO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2852C0)
-#define JNLHMIGDECO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2852F0)
+#define JNLHMIGDECO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0D3190)
+#define JNLHMIGDECO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A0D31C0)
 
-inline static constexpr unsigned int JNLHMIGDECO_TypeDefinitionIndex = 54675;
+inline static constexpr unsigned int JNLHMIGDECO_TypeDefinitionIndex = 55841;
 
 	class JNLHMIGDECO
 	{

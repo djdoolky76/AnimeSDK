@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropInitFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGMFLHBJIBM_CTOR_OFFSET UNITYSDK_OFFSET(0xB695CC0)
-#define LGMFLHBJIBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB695CF0)
+#define LGMFLHBJIBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAD930)
+#define LGMFLHBJIBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCAD960)
 
-inline static constexpr unsigned int LGMFLHBJIBM_TypeDefinitionIndex = 58328;
+inline static constexpr unsigned int LGMFLHBJIBM_TypeDefinitionIndex = 59584;
 
 	class LGMFLHBJIBM
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class HDJIGMBHENE;
 
-#define KKBLFDHCIEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB45E420)
-#define KKBLFDHCIEO_DEGFEAHKFCG_OFFSET UNITYSDK_OFFSET(0xB45E320)
+#define KKBLFDHCIEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1733A1E0)
+#define KKBLFDHCIEO_DEGFEAHKFCG_OFFSET UNITYSDK_OFFSET(0x1733A0E0)
 
-inline static constexpr unsigned int KKBLFDHCIEO_TypeDefinitionIndex = 61168;
+inline static constexpr unsigned int KKBLFDHCIEO_TypeDefinitionIndex = 62553;
 
 	class KKBLFDHCIEO : public ::System::Object
 	{

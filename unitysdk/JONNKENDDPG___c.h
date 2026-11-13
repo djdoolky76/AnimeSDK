@@ -4,18 +4,18 @@
 class JONNKENDDPG;
 namespace System { class Object; }
 
-#define JONNKENDDPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E77FEF0)
-#define JONNKENDDPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E77FF30)
-#define JONNKENDDPG___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E79CFF0)
+#define JONNKENDDPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8D4290)
+#define JONNKENDDPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8D42D0)
+#define JONNKENDDPG___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F8D42E0)
 
-inline static constexpr unsigned int JONNKENDDPG___c_TypeDefinitionIndex = 31072;
+inline static constexpr unsigned int JONNKENDDPG___c_TypeDefinitionIndex = 31985;
 
 	class JONNKENDDPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69170);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x686B0);
 		}
 
 		static ::System::Void _cctor()

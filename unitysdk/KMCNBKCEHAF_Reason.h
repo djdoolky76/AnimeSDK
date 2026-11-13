@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KMCNBKCEHAF_Reason_TypeDefinitionIndex = 60506;
+inline static constexpr unsigned int KMCNBKCEHAF_Reason_TypeDefinitionIndex = 61796;
 
 	enum class KMCNBKCEHAF_Reason : ::System::Int32
 	{

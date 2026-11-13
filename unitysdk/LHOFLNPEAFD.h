@@ -3,9 +3,9 @@
 #include "unitysdk/OEEKHELGHKF.h"
 #include "unitysdk/System/Object.h"
 
-#define LHOFLNPEAFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E0A70)
+#define LHOFLNPEAFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63AB50)
 
-inline static constexpr unsigned int LHOFLNPEAFD_TypeDefinitionIndex = 42024;
+inline static constexpr unsigned int LHOFLNPEAFD_TypeDefinitionIndex = 42999;
 
 	class LHOFLNPEAFD : public ::System::Object
 	{

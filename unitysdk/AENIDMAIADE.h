@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AENIDMAIADE_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFC2B0)
-#define AENIDMAIADE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCEFC2E0)
+#define AENIDMAIADE_CTOR_OFFSET UNITYSDK_OFFSET(0x18DA7910)
+#define AENIDMAIADE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18DA7940)
 
-inline static constexpr unsigned int AENIDMAIADE_TypeDefinitionIndex = 54574;
+inline static constexpr unsigned int AENIDMAIADE_TypeDefinitionIndex = 55739;
 
 	class AENIDMAIADE
 	{

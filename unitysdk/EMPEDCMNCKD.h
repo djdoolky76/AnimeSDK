@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EMPEDCMNCKD_TypeDefinitionIndex = 75224;
+inline static constexpr unsigned int EMPEDCMNCKD_TypeDefinitionIndex = 77551;
 
 	class EMPEDCMNCKD
 	{

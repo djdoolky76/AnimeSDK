@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IRogueTournHex; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE016F40)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS31_0__ISHEXEQUIPPED_B__0_OFFSET UNITYSDK_OFFSET(0xE018660)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D92E0)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS31_0__ISHEXEQUIPPED_B__0_OFFSET UNITYSDK_OFFSET(0x1E0DAA90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c__DisplayClass31_0_TypeDefinitionIndex = 72893;
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c__DisplayClass31_0_TypeDefinitionIndex = 75003;
 
 	class RogueTournPersonaHexEquipmentViewModel___c__DisplayClass31_0 : public ::System::Object
 	{

@@ -4,11 +4,11 @@ namespace RPG::Client { class RogueTournExhibitionInfo; }
 namespace RPG::GameCore { class RogueTournSetExhibitionBoothImage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBDAEGLIPBI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E762A0)
-#define BBDAEGLIPBI_MJPDNDBFKJC_OFFSET UNITYSDK_OFFSET(0x15E76A50)
-#define BBDAEGLIPBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E762D0)
+#define BBDAEGLIPBI_CTOR_OFFSET UNITYSDK_OFFSET(0x199EE9D0)
+#define BBDAEGLIPBI_MJPDNDBFKJC_OFFSET UNITYSDK_OFFSET(0x199EF180)
+#define BBDAEGLIPBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x199EEA00)
 
-inline static constexpr unsigned int BBDAEGLIPBI_TypeDefinitionIndex = 58497;
+inline static constexpr unsigned int BBDAEGLIPBI_TypeDefinitionIndex = 59753;
 
 	class BBDAEGLIPBI
 	{

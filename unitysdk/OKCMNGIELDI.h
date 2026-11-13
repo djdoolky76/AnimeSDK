@@ -3,9 +3,9 @@
 #include "unitysdk/DGFHDEOIOKG.h"
 #include "unitysdk/System/Object.h"
 
-#define OKCMNGIELDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C966F80)
+#define OKCMNGIELDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E075850)
 
-inline static constexpr unsigned int OKCMNGIELDI_TypeDefinitionIndex = 42216;
+inline static constexpr unsigned int OKCMNGIELDI_TypeDefinitionIndex = 43191;
 
 	class OKCMNGIELDI : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterMaterialTemplate; }
 
-#define RPG_GAMECORE_CHARACTERMATERIALTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D545040)
-#define RPG_GAMECORE_CHARACTERMATERIALTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D545000)
+#define RPG_GAMECORE_CHARACTERMATERIALTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3467F0)
+#define RPG_GAMECORE_CHARACTERMATERIALTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3467B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterMaterialTemplate_TypeDefinitionIndex = 17446;
+	inline static constexpr unsigned int CharacterMaterialTemplate_TypeDefinitionIndex = 17614;
 
 	class CharacterMaterialTemplate : public ::RPG::GameCore::JsonConfig
 	{

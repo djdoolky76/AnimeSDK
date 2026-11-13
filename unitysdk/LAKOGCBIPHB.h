@@ -3,9 +3,9 @@
 #include "unitysdk/OMAHHACEANO.h"
 class FCDDPJIEDGP;
 
-#define LAKOGCBIPHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DFD60)
+#define LAKOGCBIPHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B283B00)
 
-inline static constexpr unsigned int LAKOGCBIPHB_TypeDefinitionIndex = 57627;
+inline static constexpr unsigned int LAKOGCBIPHB_TypeDefinitionIndex = 58856;
 
 	class LAKOGCBIPHB : public ::OMAHHACEANO
 	{

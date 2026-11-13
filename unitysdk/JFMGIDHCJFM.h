@@ -5,11 +5,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define JFMGIDHCJFM_CTOR_OFFSET UNITYSDK_OFFSET(0x16643800)
-#define JFMGIDHCJFM_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x16643770)
-#define JFMGIDHCJFM_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x166436F0)
+#define JFMGIDHCJFM_CTOR_OFFSET UNITYSDK_OFFSET(0x19339E20)
+#define JFMGIDHCJFM_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x19339D90)
+#define JFMGIDHCJFM_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x19339D10)
 
-inline static constexpr unsigned int JFMGIDHCJFM_TypeDefinitionIndex = 69830;
+inline static constexpr unsigned int JFMGIDHCJFM_TypeDefinitionIndex = 71789;
 
 	class JFMGIDHCJFM : public ::System::Object
 	{

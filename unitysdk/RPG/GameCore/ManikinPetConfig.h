@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ManikinPetConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MANIKINPETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FB1B0)
-#define RPG_GAMECORE_MANIKINPETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7FADA0)
+#define RPG_GAMECORE_MANIKINPETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F085290)
+#define RPG_GAMECORE_MANIKINPETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F084E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinPetConfig_TypeDefinitionIndex = 17478;
+	inline static constexpr unsigned int ManikinPetConfig_TypeDefinitionIndex = 17646;
 
 	class ManikinPetConfig : public ::RPG::GameCore::JsonConfig
 	{

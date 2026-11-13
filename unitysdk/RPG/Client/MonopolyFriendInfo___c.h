@@ -5,31 +5,31 @@ namespace RPG::Client { class MonopolyFriendRankingDisplayDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD883FF0)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD884030)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0xD884040)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_1_OFFSET UNITYSDK_OFFSET(0xD884060)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7F1A90)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F1AD0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D7F1AE0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_1_OFFSET UNITYSDK_OFFSET(0x1D7F1B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyFriendInfo___c_TypeDefinitionIndex = 66258;
+	inline static constexpr unsigned int MonopolyFriendInfo___c_TypeDefinitionIndex = 68194;
 
 	class MonopolyFriendInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A860);
+			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71560);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A868);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71568);
 		}
 
 		static ::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A870);
+			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71570);
 		}
 
 		static ::System::Void _cctor()

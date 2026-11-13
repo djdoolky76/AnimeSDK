@@ -4,18 +4,18 @@
 class NIAFAFFMEMM;
 namespace System { class Object; }
 
-#define NIAFAFFMEMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAF74C0)
-#define NIAFAFFMEMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF7500)
-#define NIAFAFFMEMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAF7510)
+#define NIAFAFFMEMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204150C0)
+#define NIAFAFFMEMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20415100)
+#define NIAFAFFMEMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x20415110)
 
-inline static constexpr unsigned int NIAFAFFMEMM___c_TypeDefinitionIndex = 31722;
+inline static constexpr unsigned int NIAFAFFMEMM___c_TypeDefinitionIndex = 32635;
 
 	class NIAFAFFMEMM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64FE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61330);
 		}
 
 		static ::System::Void _cctor()

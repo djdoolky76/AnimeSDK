@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MainMissionData; }
 
-#define IMKFBCKMPNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x164CF810)
-#define IMKFBCKMPNJ_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0x164CF340)
+#define IMKFBCKMPNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DBFF0)
+#define IMKFBCKMPNJ_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0x1A5DBB20)
 
-inline static constexpr unsigned int IMKFBCKMPNJ_TypeDefinitionIndex = 66185;
+inline static constexpr unsigned int IMKFBCKMPNJ_TypeDefinitionIndex = 68121;
 
 	class IMKFBCKMPNJ : public ::System::Object
 	{

@@ -4,21 +4,21 @@
 class FLCPJJMHAGO;
 namespace RPG::Client { class RogueAeonData; }
 
-#define RPG_CLIENT_ROGUEAEONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xDEE3660)
-#define RPG_CLIENT_ROGUEAEONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDEE3730)
-#define RPG_CLIENT_ROGUEAEONDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0xDEE3740)
+#define RPG_CLIENT_ROGUEAEONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C7C27F0)
+#define RPG_CLIENT_ROGUEAEONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C28C0)
+#define RPG_CLIENT_ROGUEAEONDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x1C7C28D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueAeonData_TypeDefinitionIndex = 67466;
+	inline static constexpr unsigned int RogueAeonData_TypeDefinitionIndex = 69410;
 
 	class RogueAeonData : public ::System::Object
 	{
 	public:
-		::System::UInt32 MaxLevel; // 0x10
-		::System::UInt32 AeonID; // 0x14
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 Exp; // 0x1C
+		::System::UInt32 Level; // 0x10
+		::System::UInt32 Exp; // 0x14
+		::System::UInt32 AeonID; // 0x18
+		::System::UInt32 MaxLevel; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEAEONDATA_CTOR_OFFSET))(this);

@@ -6,14 +6,14 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define NEWTONSOFT_JSON_JSONEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C369810)
-#define NEWTONSOFT_JSON_JSONEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C369870)
-#define NEWTONSOFT_JSON_JSONEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C3698E0)
-#define NEWTONSOFT_JSON_JSONEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3697B0)
+#define NEWTONSOFT_JSON_JSONEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x18F4AF00)
+#define NEWTONSOFT_JSON_JSONEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x18F4AF60)
+#define NEWTONSOFT_JSON_JSONEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x18F4AFD0)
+#define NEWTONSOFT_JSON_JSONEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x18F4AEA0)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonException_TypeDefinitionIndex = 9588;
+	inline static constexpr unsigned int JsonException_TypeDefinitionIndex = 9596;
 
 	class JsonException : public ::System::Exception
 	{

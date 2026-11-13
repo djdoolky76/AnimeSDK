@@ -7,17 +7,17 @@ class FDLLLCJCOPH;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define FDLLLCJCOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB07B0)
-#define FDLLLCJCOPH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDB07C0)
-#define FDLLLCJCOPH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDB0770)
+#define FDLLLCJCOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E444930)
+#define FDLLLCJCOPH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E444940)
+#define FDLLLCJCOPH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4448F0)
 
-inline static constexpr unsigned int FDLLLCJCOPH_TypeDefinitionIndex = 23606;
+inline static constexpr unsigned int FDLLLCJCOPH_TypeDefinitionIndex = 24053;
 
 	class FDLLLCJCOPH : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* ALDLOOKHHGI; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::RPG::GameCore::DynamicFloat* ALDLOOKHHGI; // 0x20
 		::RPG::GameCore::PropertyModifyFunction DNKFJMBHINL; // 0x28
 		::System::Void _ctor()
 		{

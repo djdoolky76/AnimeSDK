@@ -6,15 +6,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_BBHDHKGNDOO_OFFSET UNITYSDK_OFFSET(0xCCF4570)
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCCF47C0)
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0xCCF3B30)
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_NKJNLBIJDLF_OFFSET UNITYSDK_OFFSET(0xCCF4660)
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0xCCF3E50)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_BBHDHKGNDOO_OFFSET UNITYSDK_OFFSET(0x17BB0020)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x17BB0270)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x17BAF5E0)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_NKJNLBIJDLF_OFFSET UNITYSDK_OFFSET(0x17BB0110)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x17BAF900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicMaterialLoader_RendererLoadItem_TypeDefinitionIndex = 68410;
+	inline static constexpr unsigned int DynamicMaterialLoader_RendererLoadItem_TypeDefinitionIndex = 70357;
 
 	class DynamicMaterialLoader_RendererLoadItem : public ::System::Object
 	{
@@ -24,7 +24,7 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::Material*>* _MatInsts; // 0x20
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet__TmpNameIDs()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("RPG.Client", "RendererLoadItem")->GetStaticField(0x2E5A0);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("RPG.Client", "RendererLoadItem")->GetStaticField(0x3A2F0);
 		}
 
 		::System::Void _ctor()

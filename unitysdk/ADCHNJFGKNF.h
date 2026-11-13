@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByStatusProbability; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADCHNJFGKNF_CTOR_OFFSET UNITYSDK_OFFSET(0xB133B60)
-#define ADCHNJFGKNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB133C40)
+#define ADCHNJFGKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x182A5940)
+#define ADCHNJFGKNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182A5A20)
 
-inline static constexpr unsigned int ADCHNJFGKNF_TypeDefinitionIndex = 55472;
+inline static constexpr unsigned int ADCHNJFGKNF_TypeDefinitionIndex = 56660;
 
 	class ADCHNJFGKNF
 	{

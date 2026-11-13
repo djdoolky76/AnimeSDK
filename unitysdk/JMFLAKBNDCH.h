@@ -4,7 +4,7 @@
 namespace R3 { template <typename T> class Observable_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int JMFLAKBNDCH_TypeDefinitionIndex = 49796;
+inline static constexpr unsigned int JMFLAKBNDCH_TypeDefinitionIndex = 50844;
 
 	class JMFLAKBNDCH : public ::System::Object
 	{

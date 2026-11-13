@@ -4,18 +4,18 @@
 class PHINPOJOJGD;
 namespace System { class Object; }
 
-#define PHINPOJOJGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF11550)
-#define PHINPOJOJGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF11590)
-#define PHINPOJOJGD___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1DF115A0)
+#define PHINPOJOJGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2025F920)
+#define PHINPOJOJGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2025F960)
+#define PHINPOJOJGD___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x2025F970)
 
-inline static constexpr unsigned int PHINPOJOJGD___c_TypeDefinitionIndex = 32689;
+inline static constexpr unsigned int PHINPOJOJGD___c_TypeDefinitionIndex = 33604;
 
 	class PHINPOJOJGD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34030);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3AB80);
 		}
 
 		static ::System::Void _cctor()

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetupAlleyTransportGuide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FKHLNPMHGGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157EF050)
-#define FKHLNPMHGGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157EF060)
-#define FKHLNPMHGGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157EF0A0)
-#define FKHLNPMHGGJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157EF100)
-#define FKHLNPMHGGJ_TICK_OFFSET UNITYSDK_OFFSET(0x157EF150)
+#define FKHLNPMHGGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AAA5800)
+#define FKHLNPMHGGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AAA5810)
+#define FKHLNPMHGGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AAA5850)
+#define FKHLNPMHGGJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AAA58B0)
+#define FKHLNPMHGGJ_TICK_OFFSET UNITYSDK_OFFSET(0x1AAA5900)
 
-inline static constexpr unsigned int FKHLNPMHGGJ_TypeDefinitionIndex = 58593;
+inline static constexpr unsigned int FKHLNPMHGGJ_TypeDefinitionIndex = 59858;
 
 	class FKHLNPMHGGJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetupAlleyTransportGuide* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetupAlleyTransportGuide* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetupAlleyTransportGuide* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetupAlleyTransportGuide*))((::PBYTE)hIl2Cpp + FKHLNPMHGGJ_CTOR_OFFSET))(this, a1, a2);

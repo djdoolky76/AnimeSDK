@@ -4,18 +4,18 @@
 class GCLPBMPOHLI;
 namespace System { class Object; }
 
-#define GCLPBMPOHLI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E414620)
-#define GCLPBMPOHLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E414650)
-#define GCLPBMPOHLI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E414660)
+#define GCLPBMPOHLI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2022CF80)
+#define GCLPBMPOHLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2022CFB0)
+#define GCLPBMPOHLI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x2022CFC0)
 
-inline static constexpr unsigned int GCLPBMPOHLI___c_TypeDefinitionIndex = 31320;
+inline static constexpr unsigned int GCLPBMPOHLI___c_TypeDefinitionIndex = 32233;
 
 	class GCLPBMPOHLI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF0E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C180);
 		}
 
 		static ::System::Void _cctor()

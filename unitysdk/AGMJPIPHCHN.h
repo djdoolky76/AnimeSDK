@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class IsometricEnableClusterLighting; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AGMJPIPHCHN_CTOR_OFFSET UNITYSDK_OFFSET(0xCF39390)
-#define AGMJPIPHCHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF393C0)
+#define AGMJPIPHCHN_CTOR_OFFSET UNITYSDK_OFFSET(0x19B100B0)
+#define AGMJPIPHCHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19B100E0)
 
-inline static constexpr unsigned int AGMJPIPHCHN_TypeDefinitionIndex = 52930;
+inline static constexpr unsigned int AGMJPIPHCHN_TypeDefinitionIndex = 54086;
 
 	class AGMJPIPHCHN
 	{

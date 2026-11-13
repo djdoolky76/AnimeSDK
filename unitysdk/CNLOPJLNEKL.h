@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFloorCustomString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CNLOPJLNEKL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA51BA0)
-#define CNLOPJLNEKL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA51BD0)
+#define CNLOPJLNEKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1914F5A0)
+#define CNLOPJLNEKL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1914F5D0)
 
-inline static constexpr unsigned int CNLOPJLNEKL_TypeDefinitionIndex = 52560;
+inline static constexpr unsigned int CNLOPJLNEKL_TypeDefinitionIndex = 53666;
 
 	class CNLOPJLNEKL
 	{

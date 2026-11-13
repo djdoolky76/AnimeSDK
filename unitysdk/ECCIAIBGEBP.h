@@ -6,19 +6,19 @@ namespace RPG::Client { class LongPressEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define ECCIAIBGEBP_CTOR_OFFSET UNITYSDK_OFFSET(0x12D03890)
-#define ECCIAIBGEBP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12D03B80)
-#define ECCIAIBGEBP_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0x12D03940)
+#define ECCIAIBGEBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D1960)
+#define ECCIAIBGEBP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C3D1C50)
+#define ECCIAIBGEBP_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0x1C3D1A10)
 
-inline static constexpr unsigned int ECCIAIBGEBP_TypeDefinitionIndex = 49904;
+inline static constexpr unsigned int ECCIAIBGEBP_TypeDefinitionIndex = 50952;
 
 	class ECCIAIBGEBP : public ::System::Object
 	{
 	public:
 		::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction*>* GBMLHDDJMJM; // 0x10
-		::RPG::Client::LongPressEvent* KANADECCJMH; // 0x18
+		::CEEGMMCFCBG* MKKLHFCCCNF; // 0x18
 		::UnityEngine::Events::UnityAction* MBOEDFCNCJF; // 0x20
-		::CEEGMMCFCBG* MKKLHFCCCNF; // 0x28
+		::RPG::Client::LongPressEvent* KANADECCJMH; // 0x28
 		::System::Void _ctor(::RPG::Client::LongPressEvent* a1, ::CEEGMMCFCBG* a2, ::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction*>* a3, ::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction*>* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::LongPressEvent*, ::CEEGMMCFCBG*, ::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction*>*, ::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction*>*))((::PBYTE)hIl2Cpp + ECCIAIBGEBP_CTOR_OFFSET))(this, a1, a2, a3, a4);

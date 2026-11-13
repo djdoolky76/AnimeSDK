@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class GOMPCGKKCJE;
 namespace System { class String; }
 
-#define GOMPCGKKCJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE47C70)
-#define GOMPCGKKCJE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE47CB0)
-#define GOMPCGKKCJE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE47BF0)
+#define GOMPCGKKCJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C8460)
+#define GOMPCGKKCJE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9C8470)
+#define GOMPCGKKCJE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9C8300)
 
-inline static constexpr unsigned int GOMPCGKKCJE_TypeDefinitionIndex = 23335;
+inline static constexpr unsigned int GOMPCGKKCJE_TypeDefinitionIndex = 23776;
 
 	class GOMPCGKKCJE : public ::KAKCDBGNJKN
 	{
 	public:
-		::System::String* BDACPPLKLGL; // 0x20
-		::System::String* LIBDKHPBKDA; // 0x28
+		::System::String* LIBDKHPBKDA; // 0x20
+		::System::String* BDACPPLKLGL; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOMPCGKKCJE_CTOR_OFFSET))(this);

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ReleaseEnvProfile; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CFIJIAJOIIP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC49900)
-#define CFIJIAJOIIP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC49910)
-#define CFIJIAJOIIP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC49950)
-#define CFIJIAJOIIP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC49D80)
-#define CFIJIAJOIIP_TICK_OFFSET UNITYSDK_OFFSET(0xCC49DD0)
+#define CFIJIAJOIIP_CTOR_OFFSET UNITYSDK_OFFSET(0x17822690)
+#define CFIJIAJOIIP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x178226A0)
+#define CFIJIAJOIIP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178226E0)
+#define CFIJIAJOIIP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17822B10)
+#define CFIJIAJOIIP_TICK_OFFSET UNITYSDK_OFFSET(0x17822B60)
 
-inline static constexpr unsigned int CFIJIAJOIIP_TypeDefinitionIndex = 58380;
+inline static constexpr unsigned int CFIJIAJOIIP_TypeDefinitionIndex = 59636;
 
 	class CFIJIAJOIIP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ReleaseEnvProfile* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ReleaseEnvProfile* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ReleaseEnvProfile* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ReleaseEnvProfile*))((::PBYTE)hIl2Cpp + CFIJIAJOIIP_CTOR_OFFSET))(this, a1, a2);

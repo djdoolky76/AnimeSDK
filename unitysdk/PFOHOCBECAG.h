@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvRestartGatheredRegion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PFOHOCBECAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC2116B0)
-#define PFOHOCBECAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2116E0)
+#define PFOHOCBECAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16D87120)
+#define PFOHOCBECAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D87150)
 
-inline static constexpr unsigned int PFOHOCBECAG_TypeDefinitionIndex = 57885;
+inline static constexpr unsigned int PFOHOCBECAG_TypeDefinitionIndex = 59122;
 
 	class PFOHOCBECAG
 	{

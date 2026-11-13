@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_TranslateInfo_TypeDefinitionIndex = 46255;
+	inline static constexpr unsigned int MHYSDKC_TranslateInfo_TypeDefinitionIndex = 47284;
 
 	class MHYSDKC_TranslateInfo : public ::System::Object
 	{

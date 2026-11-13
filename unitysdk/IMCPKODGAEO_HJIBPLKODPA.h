@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Material; }
 
-#define IMCPKODGAEO_HJIBPLKODPA_CTOR_OFFSET UNITYSDK_OFFSET(0x164C3A70)
+#define IMCPKODGAEO_HJIBPLKODPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5CFE60)
 
-inline static constexpr unsigned int IMCPKODGAEO_HJIBPLKODPA_TypeDefinitionIndex = 49005;
+inline static constexpr unsigned int IMCPKODGAEO_HJIBPLKODPA_TypeDefinitionIndex = 50074;
 
 	class IMCPKODGAEO_HJIBPLKODPA : public ::System::Object
 	{

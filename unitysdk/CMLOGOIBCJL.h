@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CMLOGOIBCJL_TypeDefinitionIndex = 64116;
+inline static constexpr unsigned int CMLOGOIBCJL_TypeDefinitionIndex = 65561;
 
 	class CMLOGOIBCJL
 	{

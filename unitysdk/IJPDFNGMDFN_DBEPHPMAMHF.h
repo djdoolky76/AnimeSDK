@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IJPDFNGMDFN_DBEPHPMAMHF_CTOR_OFFSET UNITYSDK_OFFSET(0x16468050)
+#define IJPDFNGMDFN_DBEPHPMAMHF_CTOR_OFFSET UNITYSDK_OFFSET(0x18066270)
 
-inline static constexpr unsigned int IJPDFNGMDFN_DBEPHPMAMHF_TypeDefinitionIndex = 58489;
+inline static constexpr unsigned int IJPDFNGMDFN_DBEPHPMAMHF_TypeDefinitionIndex = 59745;
 
 	class IJPDFNGMDFN_DBEPHPMAMHF : public ::System::Object
 	{

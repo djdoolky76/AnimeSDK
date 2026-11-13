@@ -5,17 +5,17 @@ class BBLBOEGCHOK;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define BBLBOEGCHOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC8D90)
-#define BBLBOEGCHOK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCC8DD0)
-#define BBLBOEGCHOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCC8D30)
+#define BBLBOEGCHOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC4090)
+#define BBLBOEGCHOK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC40D0)
+#define BBLBOEGCHOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC4030)
 
-inline static constexpr unsigned int BBLBOEGCHOK_TypeDefinitionIndex = 24158;
+inline static constexpr unsigned int BBLBOEGCHOK_TypeDefinitionIndex = 24617;
 
 	class BBLBOEGCHOK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::RPG::GameCore::TargetEvaluator* GAKEPLNFPGP; // 0x20
+		::RPG::GameCore::TargetEvaluator* GAKEPLNFPGP; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BBLBOEGCHOK_CTOR_OFFSET))(this);

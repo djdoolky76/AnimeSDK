@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class IncreaseMissionCustomValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OGPGCFOAOPE_CTOR_OFFSET UNITYSDK_OFFSET(0xBE57140)
-#define OGPGCFOAOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE57150)
-#define OGPGCFOAOPE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE57190)
-#define OGPGCFOAOPE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE571E0)
-#define OGPGCFOAOPE_TICK_OFFSET UNITYSDK_OFFSET(0xBE57230)
+#define OGPGCFOAOPE_CTOR_OFFSET UNITYSDK_OFFSET(0x18E053F0)
+#define OGPGCFOAOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18E05400)
+#define OGPGCFOAOPE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E05440)
+#define OGPGCFOAOPE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18E05490)
+#define OGPGCFOAOPE_TICK_OFFSET UNITYSDK_OFFSET(0x18E054E0)
 
-inline static constexpr unsigned int OGPGCFOAOPE_TypeDefinitionIndex = 52926;
+inline static constexpr unsigned int OGPGCFOAOPE_TypeDefinitionIndex = 54082;
 
 	class OGPGCFOAOPE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::IncreaseMissionCustomValue* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::IncreaseMissionCustomValue* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::IncreaseMissionCustomValue* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::IncreaseMissionCustomValue*))((::PBYTE)hIl2Cpp + OGPGCFOAOPE_CTOR_OFFSET))(this, a1, a2);

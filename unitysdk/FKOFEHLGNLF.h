@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareChallengeLeft; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FKOFEHLGNLF_CTOR_OFFSET UNITYSDK_OFFSET(0x158186F0)
-#define FKOFEHLGNLF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15818720)
+#define FKOFEHLGNLF_CTOR_OFFSET UNITYSDK_OFFSET(0x18952B30)
+#define FKOFEHLGNLF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18952B60)
 
-inline static constexpr unsigned int FKOFEHLGNLF_TypeDefinitionIndex = 54519;
+inline static constexpr unsigned int FKOFEHLGNLF_TypeDefinitionIndex = 55684;
 
 	class FKOFEHLGNLF
 	{

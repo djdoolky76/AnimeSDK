@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MUSICRHYTHMHINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD908550)
+#define RPG_CLIENT_MUSICRHYTHMHINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2AE360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmHintInfo_TypeDefinitionIndex = 60170;
+	inline static constexpr unsigned int MusicRhythmHintInfo_TypeDefinitionIndex = 61454;
 
 	class MusicRhythmHintInfo : public ::System::Object
 	{

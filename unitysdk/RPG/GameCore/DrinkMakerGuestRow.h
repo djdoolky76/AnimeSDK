@@ -6,28 +6,28 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerGuestRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERGUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F1CF0)
-#define RPG_GAMECORE_DRINKMAKERGUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F1410)
+#define RPG_GAMECORE_DRINKMAKERGUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CF740)
+#define RPG_GAMECORE_DRINKMAKERGUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3CEE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerGuestRow_TypeDefinitionIndex = 13184;
+	inline static constexpr unsigned int DrinkMakerGuestRow_TypeDefinitionIndex = 13258;
 
 	class DrinkMakerGuestRow : public ::System::Object
 	{
 	public:
-		::System::String* LinePath; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* BigIconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* FavorTagList; // 0x18
 		::Il2CppArray<::RPG::Client::TextID>* EmotionProblemList; // 0x20
-		::Il2CppArray<::System::UInt32>* FavorTagList; // 0x28
-		::System::String* BigIconPath; // 0x30
+		::System::String* LinePath; // 0x28
+		::System::String* IconPath; // 0x30
 		::System::UInt32 FinishSubMissionID; // 0x38
 		::System::UInt32 MaxFaith; // 0x3C
 		::System::UInt32 GuestID; // 0x40
-		::System::Byte _padding0[0x4];
+		::System::UInt32 FinishQuestID; // 0x44
 		::RPG::Client::TextID BartenderGuestDesc; // 0x48
-		::System::UInt32 FinishQuestID; // 0x58
-		::System::UInt32 MaxFaithReward; // 0x5C
+		::System::UInt32 MaxFaithReward; // 0x58
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID BartenderGuestName; // 0x60
 		::System::Void _ctor()
 		{

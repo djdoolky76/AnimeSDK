@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RefreshMunicipalPedestrian; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DDBMCCFAHDF_CTOR_OFFSET UNITYSDK_OFFSET(0xE255260)
-#define DDBMCCFAHDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE255290)
+#define DDBMCCFAHDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1772F450)
+#define DDBMCCFAHDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1772F480)
 
-inline static constexpr unsigned int DDBMCCFAHDF_TypeDefinitionIndex = 58377;
+inline static constexpr unsigned int DDBMCCFAHDF_TypeDefinitionIndex = 59633;
 
 	class DDBMCCFAHDF
 	{

@@ -5,18 +5,17 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntityList; }
 
-#define EFJCLCMOLGO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4F490)
+#define EFJCLCMOLGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3385D0)
 
-inline static constexpr unsigned int EFJCLCMOLGO_TypeDefinitionIndex = 47616;
+inline static constexpr unsigned int EFJCLCMOLGO_TypeDefinitionIndex = 48646;
 
 	class EFJCLCMOLGO : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntityList* KGKEPIJIABL; // 0x10
-		::RPG::GameCore::SkillUIPreShowType LFGLFCLEHMB; // 0x18
-		::System::Boolean MOKNCFJICIC; // 0x1C
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::FixPoint IFLBAAABKAI; // 0x20
+		::RPG::GameCore::FixPoint IFLBAAABKAI; // 0x18
+		::RPG::GameCore::SkillUIPreShowType LFGLFCLEHMB; // 0x20
+		::System::Boolean MOKNCFJICIC; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFJCLCMOLGO_CTOR_OFFSET))(this);

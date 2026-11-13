@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvStartIsometric; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGDOKCBDOHF_CTOR_OFFSET UNITYSDK_OFFSET(0xB17A610)
-#define BGDOKCBDOHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB17A640)
+#define BGDOKCBDOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x151B9070)
+#define BGDOKCBDOHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151B90A0)
 
-inline static constexpr unsigned int BGDOKCBDOHF_TypeDefinitionIndex = 52511;
+inline static constexpr unsigned int BGDOKCBDOHF_TypeDefinitionIndex = 53617;
 
 	class BGDOKCBDOHF
 	{

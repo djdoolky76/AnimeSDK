@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_PROBUILDER_PROJECTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F232BE0)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F232C20)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F232C30)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_1_OFFSET UNITYSDK_OFFSET(0x1F232C50)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2897F0)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A289830)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1A289840)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_1_OFFSET UNITYSDK_OFFSET(0x1A289860)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Projection___c_TypeDefinitionIndex = 44414;
+	inline static constexpr unsigned int Projection___c_TypeDefinitionIndex = 45489;
 
 	class Projection___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x68510);
+		}
+
 		static ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x51150);
+			return (::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x68518);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x51158);
-		}
-
-		static ::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x51160);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder", "<>c")->GetStaticField(0x68520);
 		}
 
 		static ::System::Void _cctor()

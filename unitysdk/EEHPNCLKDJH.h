@@ -6,11 +6,11 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define EEHPNCLKDJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD47D50)
-#define EEHPNCLKDJH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD47D60)
-#define EEHPNCLKDJH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD47D10)
+#define EEHPNCLKDJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0FF530)
+#define EEHPNCLKDJH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F0FF540)
+#define EEHPNCLKDJH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0FF4F0)
 
-inline static constexpr unsigned int EEHPNCLKDJH_TypeDefinitionIndex = 21975;
+inline static constexpr unsigned int EEHPNCLKDJH_TypeDefinitionIndex = 22366;
 
 	class EEHPNCLKDJH : public ::RPG::GameCore::AdvWaitingEventBase
 	{

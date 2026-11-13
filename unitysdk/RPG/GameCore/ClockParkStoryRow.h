@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClockParkStoryRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D597D60)
-#define RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D597600)
+#define RPG_GAMECORE_CLOCKPARKSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F50E320)
+#define RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F50DBC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStoryRow_TypeDefinitionIndex = 11178;
+	inline static constexpr unsigned int ClockParkStoryRow_TypeDefinitionIndex = 11194;
 
 	class ClockParkStoryRow : public ::System::Object
 	{

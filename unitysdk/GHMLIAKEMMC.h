@@ -4,9 +4,9 @@
 class BJBOCLCFBEO;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GHMLIAKEMMC_MLJHDMDHDOH_OFFSET UNITYSDK_OFFSET(0x15A1E950)
+#define GHMLIAKEMMC_MLJHDMDHDOH_OFFSET UNITYSDK_OFFSET(0x1A3CE7F0)
 
-inline static constexpr unsigned int GHMLIAKEMMC_TypeDefinitionIndex = 74538;
+inline static constexpr unsigned int GHMLIAKEMMC_TypeDefinitionIndex = 76686;
 
 	class GHMLIAKEMMC : public ::System::Object
 	{

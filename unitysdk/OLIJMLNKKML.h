@@ -3,10 +3,10 @@
 class MHJOIIOMENF;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLIJMLNKKML_CTOR_OFFSET UNITYSDK_OFFSET(0xBF05F70)
-#define OLIJMLNKKML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF05FA0)
+#define OLIJMLNKKML_CTOR_OFFSET UNITYSDK_OFFSET(0x178AC7E0)
+#define OLIJMLNKKML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178AC810)
 
-inline static constexpr unsigned int OLIJMLNKKML_TypeDefinitionIndex = 54869;
+inline static constexpr unsigned int OLIJMLNKKML_TypeDefinitionIndex = 56039;
 
 	class OLIJMLNKKML
 	{

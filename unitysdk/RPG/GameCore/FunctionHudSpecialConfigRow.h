@@ -7,25 +7,24 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class FunctionHudSpecialConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CB440)
-#define RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6CB0E0)
+#define RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5DC80)
+#define RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED5D920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunctionHudSpecialConfigRow_TypeDefinitionIndex = 13308;
+	inline static constexpr unsigned int FunctionHudSpecialConfigRow_TypeDefinitionIndex = 13380;
 
 	class FunctionHudSpecialConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* FirstWorldText; // 0x10
-		::System::String* OverrideIconPath; // 0x18
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* HideConditions; // 0x20
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* HideConditions; // 0x18
+		::System::String* OverrideIconPath; // 0x20
 		::Il2CppArray<::System::UInt32>* ActivityModuleIDList; // 0x28
 		::RPG::Client::TextID NotInScheduleToast; // 0x30
-		::System::Boolean ControlRightHud; // 0x40
-		::System::Boolean IsLargeBtn; // 0x41
-		::System::Byte _padding0[0x2];
-		::System::UInt32 ID; // 0x44
+		::System::UInt32 ID; // 0x40
+		::System::Boolean IsLargeBtn; // 0x44
+		::System::Boolean ControlRightHud; // 0x45
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW_CTOR_OFFSET))(this);

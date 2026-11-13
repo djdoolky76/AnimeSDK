@@ -6,25 +6,25 @@ namespace RPG::Client { class MonoEffect; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD45DD20)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD45DD60)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C___SOLVELIQUIDEFFECT_B__39_0_OFFSET UNITYSDK_OFFSET(0xD45DD70)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDB7740)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB7780)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C___SOLVELIQUIDEFFECT_B__39_0_OFFSET UNITYSDK_OFFSET(0x1CDB7790)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex = 76842;
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex = 79176;
 
 	class FourRotateVoxelGameStartCurve___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FourRotateVoxel", "<>c")->GetStaticField(0x2B7E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FourRotateVoxel", "<>c")->GetStaticField(0x48300);
 		}
 
 		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__39_0()
 		{
-			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("RPG.Client.LittleGame.FourRotateVoxel", "<>c")->GetStaticField(0x2B7E8);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("RPG.Client.LittleGame.FourRotateVoxel", "<>c")->GetStaticField(0x48308);
 		}
 
 		static ::System::Void _cctor()

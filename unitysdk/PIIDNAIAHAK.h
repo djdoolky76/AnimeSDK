@@ -14,31 +14,30 @@ namespace RPG::GameCore { template <typename T1, typename T2, typename T3> class
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIIDNAIAHAK_CCTOR_OFFSET UNITYSDK_OFFSET(0xC25EF80)
-#define PIIDNAIAHAK_CTOR_OFFSET UNITYSDK_OFFSET(0xC25BD00)
-#define PIIDNAIAHAK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC25DE00)
-#define PIIDNAIAHAK_FNDGHENFIBL_OFFSET UNITYSDK_OFFSET(0xC25EE20)
-#define PIIDNAIAHAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC25BF50)
-#define PIIDNAIAHAK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC25DD40)
-#define PIIDNAIAHAK_TICK_OFFSET UNITYSDK_OFFSET(0xC25DE50)
+#define PIIDNAIAHAK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9CB4D0)
+#define PIIDNAIAHAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A9C8480)
+#define PIIDNAIAHAK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A9CA350)
+#define PIIDNAIAHAK_FNDGHENFIBL_OFFSET UNITYSDK_OFFSET(0x1A9CB370)
+#define PIIDNAIAHAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A9C86D0)
+#define PIIDNAIAHAK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A9CA290)
+#define PIIDNAIAHAK_TICK_OFFSET UNITYSDK_OFFSET(0x1A9CA3A0)
 
-inline static constexpr unsigned int PIIDNAIAHAK_TypeDefinitionIndex = 55754;
+inline static constexpr unsigned int PIIDNAIAHAK_TypeDefinitionIndex = 56957;
 
 	class PIIDNAIAHAK : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TriggerParallelAbility* OFKGLJOAMLD; // 0x18
 		::System::Collections::Generic::List_1<::FABMDCOFHCG*>* PKGNHLKEFKE; // 0x20
-		::Il2CppArray<::GELIALJDFBL*>* PDJBMIJCFIK; // 0x28
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
-		::BNBNHLHIJAJ* ONPOGINJBCB; // 0x38
-		::System::Collections::Generic::List_1<::RPG::GameCore::Triple_3<::System::Boolean, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::GameEntityList*>*>* NEFGIAGAMLD; // 0x40
-		::System::Boolean MEHFJLMANBO; // 0x48
-		::System::Byte _padding0[0x7];
-		::RPG::GameCore::FixPoint OFNOKLJEBBO; // 0x50
+		::BNBNHLHIJAJ* ONPOGINJBCB; // 0x28
+		::Il2CppArray<::GELIALJDFBL*>* PDJBMIJCFIK; // 0x30
+		::System::Collections::Generic::List_1<::RPG::GameCore::Triple_3<::System::Boolean, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::GameEntityList*>*>* NEFGIAGAMLD; // 0x38
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x40
+		::RPG::GameCore::FixPoint OFNOKLJEBBO; // 0x48
+		::System::Boolean MEHFJLMANBO; // 0x50
 		static ::System::Type** StaticGet_MAEAGHJCHON()
 		{
-			return (::System::Type**)UnitySDK::FromName("", "PIIDNAIAHAK")->GetStaticField(0x6FC90);
+			return (::System::Type**)UnitySDK::FromName("", "PIIDNAIAHAK")->GetStaticField(0x736C0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerParallelAbility* a2)

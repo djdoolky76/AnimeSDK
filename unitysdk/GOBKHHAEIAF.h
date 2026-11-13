@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GOBKHHAEIAF_TypeDefinitionIndex = 27260;
+inline static constexpr unsigned int GOBKHHAEIAF_TypeDefinitionIndex = 27791;
 
 	enum class GOBKHHAEIAF : ::System::Int32
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MNHFLMDPMMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A8B50)
+#define MNHFLMDPMMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E87B490)
 
-inline static constexpr unsigned int MNHFLMDPMMP_TypeDefinitionIndex = 10848;
+inline static constexpr unsigned int MNHFLMDPMMP_TypeDefinitionIndex = 10864;
 
 	class MNHFLMDPMMP : public ::System::Object
 	{

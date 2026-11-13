@@ -5,19 +5,19 @@ class ODOJDFGEKFF;
 namespace RPG::GameCore { class ReleaseEnvProfileForStory; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KGAKHFJEDCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C6360)
-#define KGAKHFJEDCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3C6370)
-#define KGAKHFJEDCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3C63B0)
-#define KGAKHFJEDCM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3C6620)
-#define KGAKHFJEDCM_TICK_OFFSET UNITYSDK_OFFSET(0xB3C6670)
+#define KGAKHFJEDCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1770F690)
+#define KGAKHFJEDCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1770F6A0)
+#define KGAKHFJEDCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1770F6E0)
+#define KGAKHFJEDCM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1770F950)
+#define KGAKHFJEDCM_TICK_OFFSET UNITYSDK_OFFSET(0x1770F9A0)
 
-inline static constexpr unsigned int KGAKHFJEDCM_TypeDefinitionIndex = 58382;
+inline static constexpr unsigned int KGAKHFJEDCM_TypeDefinitionIndex = 59638;
 
 	class KGAKHFJEDCM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ReleaseEnvProfileForStory* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ReleaseEnvProfileForStory* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::ODOJDFGEKFF* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::ODOJDFGEKFF*))((::PBYTE)hIl2Cpp + KGAKHFJEDCM_CTOR_OFFSET))(this, a1, a2);

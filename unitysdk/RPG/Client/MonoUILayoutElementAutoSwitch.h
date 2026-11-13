@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
 namespace RPG::Client { class MonoUILayoutElementAutoSwitch_LayoutElementProperty; }
 
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_AWAKE_OFFSET UNITYSDK_OFFSET(0xD872F90)
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0xD873520)
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_NAJOPNMPHPF_OFFSET UNITYSDK_OFFSET(0xD873020)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D293210)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2937A0)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_NAJOPNMPHPF_OFFSET UNITYSDK_OFFSET(0x1D293280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_TypeDefinitionIndex = 72613;
+	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_TypeDefinitionIndex = 74692;
 
 	class MonoUILayoutElementAutoSwitch : public ::UnityEngine::EventSystems::UIBehaviour
 	{

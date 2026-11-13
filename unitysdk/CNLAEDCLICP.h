@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CNLAEDCLICP_TypeDefinitionIndex = 31730;
+inline static constexpr unsigned int CNLAEDCLICP_TypeDefinitionIndex = 32643;
 
 	enum class CNLAEDCLICP : ::System::Int32
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/FKNKNLGMACL.h"
 #include "unitysdk/System/Object.h"
 
-#define AOHCPPHPOLK_CTOR_OFFSET UNITYSDK_OFFSET(0x158A17E0)
+#define AOHCPPHPOLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1A846A10)
 
-inline static constexpr unsigned int AOHCPPHPOLK_TypeDefinitionIndex = 63226;
+inline static constexpr unsigned int AOHCPPHPOLK_TypeDefinitionIndex = 64664;
 
 	class AOHCPPHPOLK : public ::System::Object
 	{

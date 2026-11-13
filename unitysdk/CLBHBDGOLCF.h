@@ -5,20 +5,20 @@ namespace RPG::GameCore { class MonopolyShowSwitchFromSpeTransition; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLBHBDGOLCF_CTOR_OFFSET UNITYSDK_OFFSET(0xD76FD50)
-#define CLBHBDGOLCF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD7701D0)
-#define CLBHBDGOLCF_HAGCCEGONKL_OFFSET UNITYSDK_OFFSET(0xD76FEE0)
-#define CLBHBDGOLCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD76FD60)
-#define CLBHBDGOLCF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD770140)
-#define CLBHBDGOLCF_TICK_OFFSET UNITYSDK_OFFSET(0xD770250)
+#define CLBHBDGOLCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD58600)
+#define CLBHBDGOLCF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AD58A80)
+#define CLBHBDGOLCF_HAGCCEGONKL_OFFSET UNITYSDK_OFFSET(0x1AD58790)
+#define CLBHBDGOLCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AD58610)
+#define CLBHBDGOLCF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1AD589F0)
+#define CLBHBDGOLCF_TICK_OFFSET UNITYSDK_OFFSET(0x1AD58B00)
 
-inline static constexpr unsigned int CLBHBDGOLCF_TypeDefinitionIndex = 58222;
+inline static constexpr unsigned int CLBHBDGOLCF_TypeDefinitionIndex = 59478;
 
 	class CLBHBDGOLCF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::MonopolyShowSwitchFromSpeTransition* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::MonopolyShowSwitchFromSpeTransition* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyShowSwitchFromSpeTransition* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MonopolyShowSwitchFromSpeTransition*))((::PBYTE)hIl2Cpp + CLBHBDGOLCF_CTOR_OFFSET))(this, a1, a2);

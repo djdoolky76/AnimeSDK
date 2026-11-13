@@ -3,19 +3,18 @@
 #include "unitysdk/EFNJLACKEDH.h"
 class BKHHFIJCHEP;
 
-#define EPIKNKHCEDO_CTOR_OFFSET UNITYSDK_OFFSET(0x155C97B0)
-#define EPIKNKHCEDO_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0x155C98E0)
-#define EPIKNKHCEDO_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x155C97D0)
+#define EPIKNKHCEDO_CTOR_OFFSET UNITYSDK_OFFSET(0x16B38780)
+#define EPIKNKHCEDO_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0x16B388B0)
+#define EPIKNKHCEDO_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x16B387A0)
 
-inline static constexpr unsigned int EPIKNKHCEDO_TypeDefinitionIndex = 60363;
+inline static constexpr unsigned int EPIKNKHCEDO_TypeDefinitionIndex = 61648;
 
 	class EPIKNKHCEDO : public ::EFNJLACKEDH
 	{
 	public:
-		::System::Boolean KHMOBLGNNOD; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::Int32 BPILJHOEGJB; // 0x1C
-		::System::UInt32 PEBIINOIIMP; // 0x20
+		::System::Int32 BPILJHOEGJB; // 0x18
+		::System::UInt32 PEBIINOIIMP; // 0x1C
+		::System::Boolean KHMOBLGNNOD; // 0x20
 		::System::Void _ctor(::BKHHFIJCHEP* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::BKHHFIJCHEP*, ::System::UInt32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + EPIKNKHCEDO_CTOR_OFFSET))(this, a1, a2, a3, a4);

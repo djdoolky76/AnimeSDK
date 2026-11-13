@@ -6,25 +6,25 @@ namespace Cinemachine { class CinemachineOrbitalTransposer; }
 namespace Cinemachine { class CinemachineOrbitalTransposer_UpdateHeadingDelegate; }
 namespace System { class Object; }
 
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16688910)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16688940)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C___CTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x16688950)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19C62E00)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19C62E30)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C___CTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x19C62E40)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 39785;
+	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 40714;
 
 	class CinemachineOrbitalTransposer___c : public ::System::Object
 	{
 	public:
-		static ::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate** StaticGet___9__36_0()
-		{
-			return (::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate**)UnitySDK::FromName("Cinemachine", "<>c")->GetStaticField(0x523F0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cinemachine", "<>c")->GetStaticField(0x523F8);
+			return (::System::Object**)UnitySDK::FromName("Cinemachine", "<>c")->GetStaticField(0x55F70);
+		}
+
+		static ::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate** StaticGet___9__36_0()
+		{
+			return (::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate**)UnitySDK::FromName("Cinemachine", "<>c")->GetStaticField(0x55F78);
 		}
 
 		static ::System::Void _cctor()

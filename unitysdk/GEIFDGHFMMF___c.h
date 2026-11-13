@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GEIFDGHFMMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x159CE920)
-#define GEIFDGHFMMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159CE960)
-#define GEIFDGHFMMF___C__GET_PROPERTYTYPES_B__3_0_OFFSET UNITYSDK_OFFSET(0x159CE970)
+#define GEIFDGHFMMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17CDBD50)
+#define GEIFDGHFMMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17CDBD90)
+#define GEIFDGHFMMF___C__GET_PROPERTYTYPES_B__3_0_OFFSET UNITYSDK_OFFSET(0x17CDBDA0)
 
-inline static constexpr unsigned int GEIFDGHFMMF___c_TypeDefinitionIndex = 65017;
+inline static constexpr unsigned int GEIFDGHFMMF___c_TypeDefinitionIndex = 66613;
 
 	class GEIFDGHFMMF___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::AvatarPropertyType>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60150);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67950);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60158);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67958);
 		}
 
 		static ::System::Void _cctor()

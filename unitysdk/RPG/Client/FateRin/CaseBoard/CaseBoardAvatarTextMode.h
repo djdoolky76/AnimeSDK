@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardAvatarTextMode_TypeDefinitionIndex = 80770;
+	inline static constexpr unsigned int CaseBoardAvatarTextMode_TypeDefinitionIndex = 83550;
 
 	enum class CaseBoardAvatarTextMode : ::System::Int32
 	{

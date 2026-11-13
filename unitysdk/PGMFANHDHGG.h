@@ -6,20 +6,19 @@ class FCOEMCEDLNL;
 class PGMFANHDHGG;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define PGMFANHDHGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B57D0)
-#define PGMFANHDHGG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2B57E0)
-#define PGMFANHDHGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2B5790)
+#define PGMFANHDHGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7211B0)
+#define PGMFANHDHGG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7211C0)
+#define PGMFANHDHGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E721170)
 
-inline static constexpr unsigned int PGMFANHDHGG_TypeDefinitionIndex = 24125;
+inline static constexpr unsigned int PGMFANHDHGG_TypeDefinitionIndex = 24584;
 
 	class PGMFANHDHGG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* MDKGHHJBLOI; // 0x18
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::System::Boolean FMPDLMMILBG; // 0x28
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::DeathSource HFELBILEHNM; // 0x2C
+		::RPG::GameCore::DeathSource HFELBILEHNM; // 0x28
+		::System::Boolean FMPDLMMILBG; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PGMFANHDHGG_CTOR_OFFSET))(this);

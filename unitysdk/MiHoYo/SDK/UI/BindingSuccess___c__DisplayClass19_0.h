@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::UI { class BindingSuccess; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC44B0)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BFC4570)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D059150)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D059210)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingSuccess___c__DisplayClass19_0_TypeDefinitionIndex = 8387;
+	inline static constexpr unsigned int BindingSuccess___c__DisplayClass19_0_TypeDefinitionIndex = 8396;
 
 	class BindingSuccess___c__DisplayClass19_0 : public ::System::Object
 	{

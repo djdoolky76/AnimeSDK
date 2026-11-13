@@ -3,7 +3,7 @@
 #include "unitysdk/System/EventArgs.h"
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC9360)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C185C20)
 
 namespace System::ComponentModel
 {

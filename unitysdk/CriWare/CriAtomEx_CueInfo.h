@@ -7,11 +7,11 @@
 #include "unitysdk/CriWare/CriAtomEx_SilentMode.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEX_CUEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E89EA0)
+#define CRIWARE_CRIATOMEX_CUEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x3F1B2E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 39974;
+	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 40949;
 
 	struct alignas(8) CriAtomEx_CueInfo
 	{

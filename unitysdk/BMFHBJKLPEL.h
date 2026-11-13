@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareWaveCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BMFHBJKLPEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA0BF0)
-#define BMFHBJKLPEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBDA0C20)
+#define BMFHBJKLPEL_CTOR_OFFSET UNITYSDK_OFFSET(0x18B7C6A0)
+#define BMFHBJKLPEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18B7C6D0)
 
-inline static constexpr unsigned int BMFHBJKLPEL_TypeDefinitionIndex = 54589;
+inline static constexpr unsigned int BMFHBJKLPEL_TypeDefinitionIndex = 55754;
 
 	class BMFHBJKLPEL
 	{

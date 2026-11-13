@@ -7,32 +7,32 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_CLEARTMPRECYCLEDITEM_OFFSET UNITYSDK_OFFSET(0xE9CAEE0)
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_CREATEITEM_OFFSET UNITYSDK_OFFSET(0xE9D63D0)
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xE9CBAD0)
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_DESTROYALLITEM_OFFSET UNITYSDK_OFFSET(0xE9CE6F0)
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_GETITEM_OFFSET UNITYSDK_OFFSET(0xE9C8230)
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_INIT_OFFSET UNITYSDK_OFFSET(0xE9CBB50)
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_RECYCLEITEMREAL_OFFSET UNITYSDK_OFFSET(0xE9D6700)
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_RECYCLEITEM_OFFSET UNITYSDK_OFFSET(0xE9CAB60)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_CLEARTMPRECYCLEDITEM_OFFSET UNITYSDK_OFFSET(0x17134940)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_CREATEITEM_OFFSET UNITYSDK_OFFSET(0x1713F060)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x17134BC0)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_DESTROYALLITEM_OFFSET UNITYSDK_OFFSET(0x171377F0)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_GETITEM_OFFSET UNITYSDK_OFFSET(0x17132600)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_INIT_OFFSET UNITYSDK_OFFSET(0x17134C40)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_RECYCLEITEMREAL_OFFSET UNITYSDK_OFFSET(0x1713F390)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPOOL_RECYCLEITEM_OFFSET UNITYSDK_OFFSET(0x171345C0)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int StaggeredGridItemPool_TypeDefinitionIndex = 47681;
+	inline static constexpr unsigned int StaggeredGridItemPool_TypeDefinitionIndex = 48711;
 
 	class StaggeredGridItemPool : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::SuperScrollView::LoopStaggeredGridViewItem*>* mTmpPooledItemList; // 0x10
-		::System::Collections::Generic::List_1<::SuperScrollView::LoopStaggeredGridViewItem*>* mPooledItemList; // 0x18
-		::UnityEngine::GameObject* mPrefabObj; // 0x20
-		::System::String* mPrefabName; // 0x28
-		::UnityEngine::RectTransform* mItemParent; // 0x30
+		::UnityEngine::GameObject* mPrefabObj; // 0x10
+		::System::String* mPrefabName; // 0x18
+		::UnityEngine::RectTransform* mItemParent; // 0x20
+		::System::Collections::Generic::List_1<::SuperScrollView::LoopStaggeredGridViewItem*>* mPooledItemList; // 0x28
+		::System::Collections::Generic::List_1<::SuperScrollView::LoopStaggeredGridViewItem*>* mTmpPooledItemList; // 0x30
 		::System::Int32 mInitCreateCount; // 0x38
 		::System::Single mPadding; // 0x3C
 		static ::System::Int32* StaticGet_mCurItemIdCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("SuperScrollView", "StaggeredGridItemPool")->GetStaticField(0x4070);
+			return (::System::Int32*)UnitySDK::FromName("SuperScrollView", "StaggeredGridItemPool")->GetStaticField(0x5D90);
 		}
 
 		::System::Void _ctor()

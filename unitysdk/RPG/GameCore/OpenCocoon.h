@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class OpenCocoon; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_OPENCOCOON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B3460)
-#define RPG_GAMECORE_OPENCOCOON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8B34F0)
-#define RPG_GAMECORE_OPENCOCOON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B33B0)
+#define RPG_GAMECORE_OPENCOCOON_CTOR_OFFSET UNITYSDK_OFFSET(0x1F134A30)
+#define RPG_GAMECORE_OPENCOCOON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F134AC0)
+#define RPG_GAMECORE_OPENCOCOON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F134980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenCocoon_TypeDefinitionIndex = 22084;
+	inline static constexpr unsigned int OpenCocoon_TypeDefinitionIndex = 22489;
 
 	class OpenCocoon : public ::RPG::GameCore::TaskConfig
 	{

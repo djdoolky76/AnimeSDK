@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NHHJAONHDDG_TypeDefinitionIndex = 28726;
+inline static constexpr unsigned int NHHJAONHDDG_TypeDefinitionIndex = 29316;
 
 	enum class NHHJAONHDDG : ::System::Int32
 	{

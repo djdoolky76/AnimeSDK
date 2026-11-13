@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueBonusEventConfig; }
 
-#define RPG_GAMECORE_ROGUEBONUSEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D97DCD0)
-#define RPG_GAMECORE_ROGUEBONUSEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D97DC90)
+#define RPG_GAMECORE_ROGUEBONUSEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5634B0)
+#define RPG_GAMECORE_ROGUEBONUSEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F563470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBonusEventConfig_TypeDefinitionIndex = 17904;
+	inline static constexpr unsigned int RogueBonusEventConfig_TypeDefinitionIndex = 18073;
 
 	class RogueBonusEventConfig : public ::RPG::GameCore::JsonConfig
 	{

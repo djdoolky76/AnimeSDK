@@ -4,9 +4,9 @@
 class HNMPDFBGEFH;
 namespace System { class String; }
 
-#define BMGKNMGCEDD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBDAA320)
+#define BMGKNMGCEDD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x18B85E00)
 
-inline static constexpr unsigned int BMGKNMGCEDD_TypeDefinitionIndex = 82269;
+inline static constexpr unsigned int BMGKNMGCEDD_TypeDefinitionIndex = 85142;
 
 	class BMGKNMGCEDD : public ::System::Object
 	{

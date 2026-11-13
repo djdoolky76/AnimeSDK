@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class Object; }
 
-#define SKIRTIK_HAIRIKFREEAXISCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xE9688C0)
-#define SKIRTIK_HAIRIKFREEAXISCLASS_FBIGIJPAMPO_OFFSET UNITYSDK_OFFSET(0xE968830)
+#define SKIRTIK_HAIRIKFREEAXISCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3AA30)
+#define SKIRTIK_HAIRIKFREEAXISCLASS_FBIGIJPAMPO_OFFSET UNITYSDK_OFFSET(0x1AC3A9A0)
 
-inline static constexpr unsigned int SkirtIK_HairIKFreeAxisClass_TypeDefinitionIndex = 47258;
+inline static constexpr unsigned int SkirtIK_HairIKFreeAxisClass_TypeDefinitionIndex = 48286;
 
 	class SkirtIK_HairIKFreeAxisClass : public ::System::Object
 	{

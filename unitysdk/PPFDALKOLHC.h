@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/LittleGame/ChimeraDuelTurnBasedStageType.h"
 #include "unitysdk/System/Object.h"
 
-#define PPFDALKOLHC_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x1C9CAF90)
-#define PPFDALKOLHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CAFA0)
+#define PPFDALKOLHC_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x20703580)
+#define PPFDALKOLHC_CTOR_OFFSET UNITYSDK_OFFSET(0x20703590)
 
-inline static constexpr unsigned int PPFDALKOLHC_TypeDefinitionIndex = 41971;
+inline static constexpr unsigned int PPFDALKOLHC_TypeDefinitionIndex = 42946;
 
 	class PPFDALKOLHC : public ::System::Object
 	{

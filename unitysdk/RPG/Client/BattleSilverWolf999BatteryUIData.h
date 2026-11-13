@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_BATTLESILVERWOLF999BATTERYUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC858110)
+#define RPG_CLIENT_BATTLESILVERWOLF999BATTERYUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD86860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSilverWolf999BatteryUIData_TypeDefinitionIndex = 71466;
+	inline static constexpr unsigned int BattleSilverWolf999BatteryUIData_TypeDefinitionIndex = 73450;
 
 	class BattleSilverWolf999BatteryUIData : public ::System::Object
 	{

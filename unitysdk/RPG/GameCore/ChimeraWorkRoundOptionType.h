@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkRoundOptionType_TypeDefinitionIndex = 13015;
+	inline static constexpr unsigned int ChimeraWorkRoundOptionType_TypeDefinitionIndex = 13083;
 
 	enum class ChimeraWorkRoundOptionType : ::System::Int32
 	{

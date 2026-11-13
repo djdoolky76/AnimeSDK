@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace UnityEngine { class Texture; }
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF4E50)
-#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF4E40)
+#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3DFD3A0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x3DFD390)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_PPPatternParameter_TypeDefinitionIndex = 51860;
+	inline static constexpr unsigned int PPFilterStack_PPPatternParameter_TypeDefinitionIndex = 52946;
 
 	struct alignas(8) PPFilterStack_PPPatternParameter
 	{

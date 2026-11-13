@@ -6,18 +6,18 @@ class FLFPABDLADB;
 class LBJLBMOOJGM;
 namespace System { class Object; }
 
-#define FLFPABDLADB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC3E1A0)
-#define FLFPABDLADB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3DD50)
-#define FLFPABDLADB_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0x1EC3DD60)
+#define FLFPABDLADB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E527CE0)
+#define FLFPABDLADB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E527890)
+#define FLFPABDLADB_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0x1E5278A0)
 
-inline static constexpr unsigned int FLFPABDLADB_TypeDefinitionIndex = 44315;
+inline static constexpr unsigned int FLFPABDLADB_TypeDefinitionIndex = 45390;
 
 	class FLFPABDLADB : public ::System::Object
 	{
 	public:
 		static ::FLFPABDLADB** StaticGet_FMJPMFEDIJL()
 		{
-			return (::FLFPABDLADB**)UnitySDK::FromName("", "FLFPABDLADB")->GetStaticField(0x47850);
+			return (::FLFPABDLADB**)UnitySDK::FromName("", "FLFPABDLADB")->GetStaticField(0x60CA0);
 		}
 
 		::System::Void _ctor()

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int Abci_TypeDefinitionIndex = 45822;
+	inline static constexpr unsigned int Abci_TypeDefinitionIndex = 46851;
 
 	class Abci : public ::System::Object
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PropSetFollowRotate; }
 namespace RPG::GameCore { class PropSetFollowRotateGameObject; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETFOLLOWROTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9262A0)
-#define RPG_GAMECORE_PROPSETFOLLOWROTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9262B0)
-#define RPG_GAMECORE_PROPSETFOLLOWROTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D926270)
+#define RPG_GAMECORE_PROPSETFOLLOWROTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8FE70)
+#define RPG_GAMECORE_PROPSETFOLLOWROTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EF8FE80)
+#define RPG_GAMECORE_PROPSETFOLLOWROTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EF8FE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetFollowRotate_TypeDefinitionIndex = 22074;
+	inline static constexpr unsigned int PropSetFollowRotate_TypeDefinitionIndex = 22479;
 
 	class PropSetFollowRotate : public ::RPG::GameCore::TaskConfig
 	{

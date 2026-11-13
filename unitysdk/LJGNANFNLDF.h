@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define LJGNANFNLDF_CLEAR_OFFSET UNITYSDK_OFFSET(0xB711800)
-#define LJGNANFNLDF_CTOR_OFFSET UNITYSDK_OFFSET(0xB711850)
+#define LJGNANFNLDF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1732FDF0)
+#define LJGNANFNLDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1732FE40)
 
-inline static constexpr unsigned int LJGNANFNLDF_TypeDefinitionIndex = 54857;
+inline static constexpr unsigned int LJGNANFNLDF_TypeDefinitionIndex = 56027;
 
 	class LJGNANFNLDF : public ::System::Object
 	{

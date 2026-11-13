@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYFAULTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFE990)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYFAULTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F78DAE0)
 
 namespace System::Linq::Expressions::Interpreter
 {

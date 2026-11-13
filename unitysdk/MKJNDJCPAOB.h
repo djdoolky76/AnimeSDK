@@ -7,22 +7,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MKJNDJCPAOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB992E40)
-#define MKJNDJCPAOB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB992F40)
-#define MKJNDJCPAOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB992FF0)
-#define MKJNDJCPAOB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB993DE0)
-#define MKJNDJCPAOB_TICK_OFFSET UNITYSDK_OFFSET(0xB993E30)
+#define MKJNDJCPAOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B907670)
+#define MKJNDJCPAOB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B907770)
+#define MKJNDJCPAOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B907820)
+#define MKJNDJCPAOB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B908690)
+#define MKJNDJCPAOB_TICK_OFFSET UNITYSDK_OFFSET(0x1B9086E0)
 
-inline static constexpr unsigned int MKJNDJCPAOB_TypeDefinitionIndex = 55005;
+inline static constexpr unsigned int MKJNDJCPAOB_TypeDefinitionIndex = 56179;
 
 	class MKJNDJCPAOB : public ::GELIALJDFBL
 	{
 	public:
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* BNLAOKGEFLK; // 0x18
 		::RPG::GameCore::DispelStatus* OFKGLJOAMLD; // 0x20
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* FABICEFOKHC; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* BNLAOKGEFLK; // 0x38
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x30
+		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* FABICEFOKHC; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DispelStatus* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::DispelStatus*))((::PBYTE)hIl2Cpp + MKJNDJCPAOB_CTOR_OFFSET))(this, a1, a2);

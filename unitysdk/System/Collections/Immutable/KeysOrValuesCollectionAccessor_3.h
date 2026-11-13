@@ -6,7 +6,7 @@ namespace System::Collections::Immutable { template <typename T1, typename T2> c
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int KeysOrValuesCollectionAccessor_3_TypeDefinitionIndex = 6660;
+	inline static constexpr unsigned int KeysOrValuesCollectionAccessor_3_TypeDefinitionIndex = 6671;
 
 	template <typename T1, typename T2, typename T3>
 	class KeysOrValuesCollectionAccessor_3 : public ::System::Object

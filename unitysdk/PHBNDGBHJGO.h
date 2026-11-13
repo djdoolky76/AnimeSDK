@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KGLLENLBNFD.h"
 
-#define PHBNDGBHJGO_CTOR_OFFSET UNITYSDK_OFFSET(0xC22FBB0)
-#define PHBNDGBHJGO_ONINIT_OFFSET UNITYSDK_OFFSET(0xC22F840)
+#define PHBNDGBHJGO_CTOR_OFFSET UNITYSDK_OFFSET(0x16DAC810)
+#define PHBNDGBHJGO_ONINIT_OFFSET UNITYSDK_OFFSET(0x16DAC4A0)
 
-inline static constexpr unsigned int PHBNDGBHJGO_TypeDefinitionIndex = 61106;
+inline static constexpr unsigned int PHBNDGBHJGO_TypeDefinitionIndex = 62491;
 
 	class PHBNDGBHJGO : public ::KGLLENLBNFD
 	{

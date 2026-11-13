@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BPFKOIIMKBG.h"
 
-#define LKLOMEEPIEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xB74D610)
-#define LKLOMEEPIEM_CTOR_OFFSET UNITYSDK_OFFSET(0x19CC0)
+#define LKLOMEEPIEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x18CF8130)
+#define LKLOMEEPIEM_CTOR_OFFSET UNITYSDK_OFFSET(0x3E0B380)
 
-inline static constexpr unsigned int LKLOMEEPIEM_TypeDefinitionIndex = 57294;
+inline static constexpr unsigned int LKLOMEEPIEM_TypeDefinitionIndex = 58521;
 
 	struct alignas(4) LKLOMEEPIEM
 	{
@@ -18,7 +18,7 @@ inline static constexpr unsigned int LKLOMEEPIEM_TypeDefinitionIndex = 57294;
 		::System::Boolean CHFBGMPPOJJ; // 0x2D
 		static ::LKLOMEEPIEM* StaticGet_HGLIFJGHADE()
 		{
-			return (::LKLOMEEPIEM*)UnitySDK::FromName("", "LKLOMEEPIEM")->GetStaticField(0x12520);
+			return (::LKLOMEEPIEM*)UnitySDK::FromName("", "LKLOMEEPIEM")->GetStaticField(0x130B0);
 		}
 
 		::System::Void _ctor(::BPFKOIIMKBG a1, ::BPFKOIIMKBG a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6, ::System::Boolean a7)

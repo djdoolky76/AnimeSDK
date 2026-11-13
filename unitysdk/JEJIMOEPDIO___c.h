@@ -6,23 +6,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JEJIMOEPDIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1661EA20)
-#define JEJIMOEPDIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1661EA60)
-#define JEJIMOEPDIO___C__SHOULDEMPHASIZEWRONGLYPEAKED_B__0_0_OFFSET UNITYSDK_OFFSET(0x1661EA70)
+#define JEJIMOEPDIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x130739B0)
+#define JEJIMOEPDIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x130739F0)
+#define JEJIMOEPDIO___C__SHOULDEMPHASIZEWRONGLYPEAKED_B__0_0_OFFSET UNITYSDK_OFFSET(0x13073A00)
 
-inline static constexpr unsigned int JEJIMOEPDIO___c_TypeDefinitionIndex = 79415;
+inline static constexpr unsigned int JEJIMOEPDIO___c_TypeDefinitionIndex = 82192;
 
 	class JEJIMOEPDIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA9C0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x698E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA9C8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x698E8);
 		}
 
 		static ::System::Void _cctor()

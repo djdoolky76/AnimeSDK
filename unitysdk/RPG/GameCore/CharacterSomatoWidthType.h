@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSomatoWidthType_TypeDefinitionIndex = 24777;
+	inline static constexpr unsigned int CharacterSomatoWidthType_TypeDefinitionIndex = 25257;
 
 	enum class CharacterSomatoWidthType : ::System::Int32
 	{

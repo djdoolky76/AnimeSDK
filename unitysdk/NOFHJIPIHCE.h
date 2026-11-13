@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NOFHJIPIHCE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE46A0)
+#define NOFHJIPIHCE_CTOR_OFFSET UNITYSDK_OFFSET(0x19CE31D0)
 
-inline static constexpr unsigned int NOFHJIPIHCE_TypeDefinitionIndex = 47600;
+inline static constexpr unsigned int NOFHJIPIHCE_TypeDefinitionIndex = 48629;
 
 	class NOFHJIPIHCE : public ::System::Object
 	{

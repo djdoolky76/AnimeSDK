@@ -7,18 +7,18 @@ class IFOEBJMEFKG;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IFOEBJMEFKG___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15F22CC0)
-#define IFOEBJMEFKG___C__DISPLAYCLASS51_0___TRYRECOMMENDMOLDFOREXAM_B__0_OFFSET UNITYSDK_OFFSET(0x15F236E0)
-#define IFOEBJMEFKG___C__DISPLAYCLASS51_0___TRYRECOMMENDMOLDFOREXAM_B__2_OFFSET UNITYSDK_OFFSET(0x15F23790)
-#define IFOEBJMEFKG___C__DISPLAYCLASS51_0___TRYRECOMMENDMOLDFOREXAM_G__MATCHES_4_OFFSET UNITYSDK_OFFSET(0x15F238C0)
+#define IFOEBJMEFKG___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2B0D0)
+#define IFOEBJMEFKG___C__DISPLAYCLASS51_0___TRYRECOMMENDMOLDFOREXAM_B__0_OFFSET UNITYSDK_OFFSET(0x1BC2BB00)
+#define IFOEBJMEFKG___C__DISPLAYCLASS51_0___TRYRECOMMENDMOLDFOREXAM_B__2_OFFSET UNITYSDK_OFFSET(0x1BC2BBB0)
+#define IFOEBJMEFKG___C__DISPLAYCLASS51_0___TRYRECOMMENDMOLDFOREXAM_G__MATCHES_4_OFFSET UNITYSDK_OFFSET(0x1BC2BCE0)
 
-inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass51_0_TypeDefinitionIndex = 79446;
+inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass51_0_TypeDefinitionIndex = 82223;
 
 	class IFOEBJMEFKG___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
-		::CHGHIALKMFM* recommendMold; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* placedCountOfChip; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* placedCountOfChip; // 0x10
+		::CHGHIALKMFM* recommendMold; // 0x18
 		::IFOEBJMEFKG* __4__this; // 0x20
 		::System::Void _ctor()
 		{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ForbidBattleConditionOnStart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNHIALKGLHE_CTOR_OFFSET UNITYSDK_OFFSET(0x15865900)
-#define FNHIALKGLHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15865930)
+#define FNHIALKGLHE_CTOR_OFFSET UNITYSDK_OFFSET(0x17F190A0)
+#define FNHIALKGLHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F190D0)
 
-inline static constexpr unsigned int FNHIALKGLHE_TypeDefinitionIndex = 58125;
+inline static constexpr unsigned int FNHIALKGLHE_TypeDefinitionIndex = 59364;
 
 	class FNHIALKGLHE
 	{

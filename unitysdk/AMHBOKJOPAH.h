@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int AMHBOKJOPAH_TypeDefinitionIndex = 44084;
+inline static constexpr unsigned int AMHBOKJOPAH_TypeDefinitionIndex = 45159;
 
 	class AMHBOKJOPAH : public ::System::Object
 	{

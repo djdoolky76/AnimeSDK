@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JDCAPBNPOOK_TypeDefinitionIndex = 25296;
+inline static constexpr unsigned int JDCAPBNPOOK_TypeDefinitionIndex = 25774;
 
 	enum class JDCAPBNPOOK : ::System::Int32
 	{
@@ -23,4 +23,12 @@ inline static constexpr unsigned int JDCAPBNPOOK_TypeDefinitionIndex = 25296;
 		MDBHGMDBJGK = 111,
 		DICKKDIAEND = 112,
 		LKPOOOLNAJC = 113,
+		CLKHDBBDHFJ = 201,
+		DECONIENEJG = 202,
+		IJBCFCMIJNK = 203,
+		DJGAKCGLDLP = 204,
+		CBNLALMEPAA = 205,
+		NCMIMINMBDM = 206,
+		LPMLNCOJHDB = 207,
+		GIKNCJMJLFE = 208,
 	};

@@ -4,16 +4,16 @@
 class MBLJIEELMKN;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define OMCIPAFIHKB_CTOR_OFFSET UNITYSDK_OFFSET(0xBF199C0)
-#define OMCIPAFIHKB_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBF19880)
+#define OMCIPAFIHKB_CTOR_OFFSET UNITYSDK_OFFSET(0x17D48F90)
+#define OMCIPAFIHKB_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x17D48E50)
 
-inline static constexpr unsigned int OMCIPAFIHKB_TypeDefinitionIndex = 76282;
+inline static constexpr unsigned int OMCIPAFIHKB_TypeDefinitionIndex = 78613;
 
 	class OMCIPAFIHKB : public ::MLKDDLHNNHH
 	{
 	public:
-		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* FGHLCBFGPEE; // 0x20
-		::MBLJIEELMKN* CFEEPFPKAHL; // 0x28
+		::MBLJIEELMKN* CFEEPFPKAHL; // 0x20
+		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* FGHLCBFGPEE; // 0x28
 		::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::MBLJIEELMKN* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::MBLJIEELMKN*))((::PBYTE)hIl2Cpp + OMCIPAFIHKB_CTOR_OFFSET))(this, a1, a2);

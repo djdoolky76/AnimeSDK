@@ -4,18 +4,18 @@
 class NMCCBANNPKB;
 namespace System { class Object; }
 
-#define NMCCBANNPKB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB40C50)
-#define NMCCBANNPKB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB40C90)
-#define NMCCBANNPKB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB40CA0)
+#define NMCCBANNPKB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FECAC90)
+#define NMCCBANNPKB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FECACD0)
+#define NMCCBANNPKB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FECACE0)
 
-inline static constexpr unsigned int NMCCBANNPKB___c_TypeDefinitionIndex = 32199;
+inline static constexpr unsigned int NMCCBANNPKB___c_TypeDefinitionIndex = 33112;
 
 	class NMCCBANNPKB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A2C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D320);
 		}
 
 		static ::System::Void _cctor()

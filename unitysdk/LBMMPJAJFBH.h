@@ -4,21 +4,20 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class PELGFJHAPJM;
 
-#define LBMMPJAJFBH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8DE550)
-#define LBMMPJAJFBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DE5B0)
-#define LBMMPJAJFBH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C8DE4C0)
-#define LBMMPJAJFBH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C8DE510)
+#define LBMMPJAJFBH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D638410)
+#define LBMMPJAJFBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D638470)
+#define LBMMPJAJFBH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1D638380)
+#define LBMMPJAJFBH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1D6383D0)
 
-inline static constexpr unsigned int LBMMPJAJFBH_TypeDefinitionIndex = 43264;
+inline static constexpr unsigned int LBMMPJAJFBH_TypeDefinitionIndex = 44245;
 
 	class LBMMPJAJFBH : public ::System::Object
 	{
 	public:
 		::PELGFJHAPJM* MJIKMIOPCCM; // 0x10
-		::System::Boolean CMNINAHLHIK; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::Single IBKFEHNBIFF; // 0x1C
-		::UnityEngine::Vector3 DEFPBKMIAAJ; // 0x20
+		::System::Single IBKFEHNBIFF; // 0x18
+		::UnityEngine::Vector3 DEFPBKMIAAJ; // 0x1C
+		::System::Boolean CMNINAHLHIK; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBMMPJAJFBH_CTOR_OFFSET))(this);

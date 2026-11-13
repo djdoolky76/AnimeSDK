@@ -5,23 +5,23 @@ namespace RPG::Client { class MatchThreeGameProp; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define DDANMPNPJKG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE24FD40)
-#define DDANMPNPJKG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE24FD80)
-#define DDANMPNPJKG___C__ONEXECUTE_B__2_0_OFFSET UNITYSDK_OFFSET(0xE24FD90)
+#define DDANMPNPJKG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17729F00)
+#define DDANMPNPJKG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17729F40)
+#define DDANMPNPJKG___C__ONEXECUTE_B__2_0_OFFSET UNITYSDK_OFFSET(0x17729F50)
 
-inline static constexpr unsigned int DDANMPNPJKG___c_TypeDefinitionIndex = 65879;
+inline static constexpr unsigned int DDANMPNPJKG___c_TypeDefinitionIndex = 67811;
 
 	class DDANMPNPJKG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BDB0);
-		}
-
 		static ::System::Func_3<::RPG::Client::MatchThreeGameProp*, ::System::UInt32, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_3<::RPG::Client::MatchThreeGameProp*, ::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BDB8);
+			return (::System::Func_3<::RPG::Client::MatchThreeGameProp*, ::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x589F0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x589F8);
 		}
 
 		static ::System::Void _cctor()

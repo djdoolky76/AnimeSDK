@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KEOAJCCJIAI_TypeDefinitionIndex = 32367;
+inline static constexpr unsigned int KEOAJCCJIAI_TypeDefinitionIndex = 33280;
 
 	enum class KEOAJCCJIAI : ::System::Int32
 	{

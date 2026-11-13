@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroGunEnableBulletTime; }
 
-#define HFJIKJGELJD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C70AB0)
-#define HFJIKJGELJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C70AE0)
+#define HFJIKJGELJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1A22A540)
+#define HFJIKJGELJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A22A570)
 
-inline static constexpr unsigned int HFJIKJGELJD_TypeDefinitionIndex = 58953;
+inline static constexpr unsigned int HFJIKJGELJD_TypeDefinitionIndex = 60226;
 
 	class HFJIKJGELJD
 	{

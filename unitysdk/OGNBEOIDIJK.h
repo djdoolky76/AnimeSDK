@@ -4,10 +4,10 @@
 class LFBFPDMBMLC;
 class NOOHPODHIAA;
 
-#define OGNBEOIDIJK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C95EF50)
-#define OGNBEOIDIJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95EFF0)
+#define OGNBEOIDIJK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E06D6B0)
+#define OGNBEOIDIJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E06D750)
 
-inline static constexpr unsigned int OGNBEOIDIJK_TypeDefinitionIndex = 43543;
+inline static constexpr unsigned int OGNBEOIDIJK_TypeDefinitionIndex = 44525;
 
 	class OGNBEOIDIJK : public ::System::Object
 	{

@@ -6,23 +6,23 @@ class KIICEFFNEGG;
 namespace RPG::Client::PixAir { class PixAirGameProgressNodeViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDB43A80)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_GET_NODEVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xDB44D20)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_SET_NODEVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xDB44D30)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E367870)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_GET_NODEVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x1E368B10)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_SET_NODEVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x1E368B20)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGameProgressViewModel_TypeDefinitionIndex = 79257;
+	inline static constexpr unsigned int PixAirGameProgressViewModel_TypeDefinitionIndex = 82034;
 
 	class PixAirGameProgressViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeViewModel*>* _NodeViewModels_k__BackingField; // 0x20
-		::KIICEFFNEGG* _WindowService; // 0x28
-		::JIAPCHALLMF* _GameFlowService; // 0x30
+		::JIAPCHALLMF* _GameFlowService; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeViewModel*>* _NodeViewModels_k__BackingField; // 0x28
+		::KIICEFFNEGG* _WindowService; // 0x30
 		::System::UInt32 CurAreaID; // 0x38
-		::System::UInt32 CurNodeID; // 0x3C
-		::System::Single Progress; // 0x40
+		::System::Single Progress; // 0x3C
+		::System::UInt32 CurNodeID; // 0x40
 		::System::Void _ctor(::KIICEFFNEGG* a1, ::JIAPCHALLMF* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::KIICEFFNEGG*, ::JIAPCHALLMF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_CTOR_OFFSET))(this, a1, a2);

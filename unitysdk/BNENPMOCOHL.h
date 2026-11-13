@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasSecretWeak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BNENPMOCOHL_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC7010)
-#define BNENPMOCOHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBDC7040)
+#define BNENPMOCOHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A75DA80)
+#define BNENPMOCOHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A75DAB0)
 
-inline static constexpr unsigned int BNENPMOCOHL_TypeDefinitionIndex = 54618;
+inline static constexpr unsigned int BNENPMOCOHL_TypeDefinitionIndex = 55784;
 
 	class BNENPMOCOHL
 	{

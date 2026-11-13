@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesBuffDescOverrideRow; }
 
-#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F65D0)
-#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F6450)
+#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE64D30)
+#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE64BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesBuffDescOverrideRow_TypeDefinitionIndex = 12280;
+	inline static constexpr unsigned int PlanetFesBuffDescOverrideRow_TypeDefinitionIndex = 12337;
 
 	class PlanetFesBuffDescOverrideRow : public ::System::Object
 	{

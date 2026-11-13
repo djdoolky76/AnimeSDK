@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchTimeRewindStrikeSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOGCFJOAFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x15DA76A0)
-#define HOGCFJOAFLK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DA7710)
+#define HOGCFJOAFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF1F6A0)
+#define HOGCFJOAFLK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AF1F710)
 
-inline static constexpr unsigned int HOGCFJOAFLK_TypeDefinitionIndex = 59098;
+inline static constexpr unsigned int HOGCFJOAFLK_TypeDefinitionIndex = 60373;
 
 	class HOGCFJOAFLK
 	{

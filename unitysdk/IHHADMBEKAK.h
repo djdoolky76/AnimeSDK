@@ -3,10 +3,10 @@
 class OHONOHOIOJA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IHHADMBEKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x16411AB0)
-#define IHHADMBEKAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16411AE0)
+#define IHHADMBEKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x19F74060)
+#define IHHADMBEKAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F74090)
 
-inline static constexpr unsigned int IHHADMBEKAK_TypeDefinitionIndex = 55051;
+inline static constexpr unsigned int IHHADMBEKAK_TypeDefinitionIndex = 56227;
 
 	class IHHADMBEKAK
 	{

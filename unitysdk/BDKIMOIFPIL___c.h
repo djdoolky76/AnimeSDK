@@ -4,18 +4,18 @@
 class BDKIMOIFPIL;
 namespace System { class Object; }
 
-#define BDKIMOIFPIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8EC730)
-#define BDKIMOIFPIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EC770)
-#define BDKIMOIFPIL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8EC780)
+#define BDKIMOIFPIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9EE7C0)
+#define BDKIMOIFPIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9EE800)
+#define BDKIMOIFPIL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F9EE810)
 
-inline static constexpr unsigned int BDKIMOIFPIL___c_TypeDefinitionIndex = 29993;
+inline static constexpr unsigned int BDKIMOIFPIL___c_TypeDefinitionIndex = 30891;
 
 	class BDKIMOIFPIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x522A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47210);
 		}
 
 		static ::System::Void _cctor()

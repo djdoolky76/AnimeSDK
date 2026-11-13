@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EGHHBKBLDMM_TypeDefinitionIndex = 30465;
+inline static constexpr unsigned int EGHHBKBLDMM_TypeDefinitionIndex = 31371;
 
 	enum class EGHHBKBLDMM : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		BABPGAHNGIC = 6579,
-		LPMAMNPJPCE = 6591,
-		OGEDJJNHBIP = 6592,
-		MFGKBIAKPOA = 6583,
-		PBOPJOANNFH = 6600,
+		PBOPJOANNFH = 6587,
+		OGEDJJNHBIP = 6579,
+		MFGKBIAKPOA = 6590,
+		LPMAMNPJPCE = 6586,
+		BABPGAHNGIC = 6591,
 	};

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define KAFLLAALPMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB7A4B0)
+#define KAFLLAALPMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE23070)
 
-inline static constexpr unsigned int KAFLLAALPMO_TypeDefinitionIndex = 42106;
+inline static constexpr unsigned int KAFLLAALPMO_TypeDefinitionIndex = 43081;
 
 	class KAFLLAALPMO : public ::System::Object
 	{

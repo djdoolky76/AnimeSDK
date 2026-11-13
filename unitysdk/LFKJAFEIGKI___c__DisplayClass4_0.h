@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define LFKJAFEIGKI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB67AC30)
-#define LFKJAFEIGKI___C__DISPLAYCLASS4_0__OPENBUFFSELECTWINDOW_B__0_OFFSET UNITYSDK_OFFSET(0xB67B280)
+#define LFKJAFEIGKI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18C60860)
+#define LFKJAFEIGKI___C__DISPLAYCLASS4_0__OPENBUFFSELECTWINDOW_B__0_OFFSET UNITYSDK_OFFSET(0x18C60EB0)
 
-inline static constexpr unsigned int LFKJAFEIGKI___c__DisplayClass4_0_TypeDefinitionIndex = 81515;
+inline static constexpr unsigned int LFKJAFEIGKI___c__DisplayClass4_0_TypeDefinitionIndex = 84296;
 
 	class LFKJAFEIGKI___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -6,12 +6,12 @@ namespace RPG::GameCore { class TeamBuildGroupConfigRow; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define LLCICCEMLIO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB75B650)
-#define LLCICCEMLIO_CTOR_OFFSET UNITYSDK_OFFSET(0xB75B920)
-#define LLCICCEMLIO_GET_CANDIDATEAVATARIDS_OFFSET UNITYSDK_OFFSET(0xB75B640)
-#define LLCICCEMLIO_GET_ID_OFFSET UNITYSDK_OFFSET(0xB75B630)
+#define LLCICCEMLIO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1AFAAEE0)
+#define LLCICCEMLIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFAB1B0)
+#define LLCICCEMLIO_GET_CANDIDATEAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1AFAAED0)
+#define LLCICCEMLIO_GET_ID_OFFSET UNITYSDK_OFFSET(0x1AFAAEC0)
 
-inline static constexpr unsigned int LLCICCEMLIO_TypeDefinitionIndex = 68090;
+inline static constexpr unsigned int LLCICCEMLIO_TypeDefinitionIndex = 70036;
 
 	class LLCICCEMLIO : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableSortedDictionary_TypeDefinitionIndex = 6646;
+	inline static constexpr unsigned int ImmutableSortedDictionary_TypeDefinitionIndex = 6657;
 
 	class ImmutableSortedDictionary : public ::System::Object
 	{

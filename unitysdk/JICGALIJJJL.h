@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_DicePointCountCompare; }
 
-#define JICGALIJJJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C72D0)
-#define JICGALIJJJL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6C72F0)
+#define JICGALIJJJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C131A60)
+#define JICGALIJJJL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C131A80)
 
-inline static constexpr unsigned int JICGALIJJJL_TypeDefinitionIndex = 36361;
+inline static constexpr unsigned int JICGALIJJJL_TypeDefinitionIndex = 37289;
 
 	class JICGALIJJJL : public ::HHOHBHGLHHF
 	{

@@ -4,7 +4,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineDialogueShot_CMIGIEGHMFH_TypeDefinitionIndex = 49642;
+	inline static constexpr unsigned int CinemachineDialogueShot_CMIGIEGHMFH_TypeDefinitionIndex = 50718;
 
 	struct alignas(4) CinemachineDialogueShot_CMIGIEGHMFH
 	{

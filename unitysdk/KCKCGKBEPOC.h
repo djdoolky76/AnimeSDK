@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetIgnoreTimeRewindLockRangeLimit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCKCGKBEPOC_CTOR_OFFSET UNITYSDK_OFFSET(0xB334280)
-#define KCKCGKBEPOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3342B0)
+#define KCKCGKBEPOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1A487550)
+#define KCKCGKBEPOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A487580)
 
-inline static constexpr unsigned int KCKCGKBEPOC_TypeDefinitionIndex = 53389;
+inline static constexpr unsigned int KCKCGKBEPOC_TypeDefinitionIndex = 54551;
 
 	class KCKCGKBEPOC
 	{

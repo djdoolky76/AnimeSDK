@@ -5,10 +5,10 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 class WaveFloating;
 
-#define INTERACTPROXY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16529A20)
-#define INTERACTPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x16529A00)
+#define INTERACTPROXY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x19316EE0)
+#define INTERACTPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x19316EC0)
 
-inline static constexpr unsigned int InteractProxy_TypeDefinitionIndex = 47493;
+inline static constexpr unsigned int InteractProxy_TypeDefinitionIndex = 48522;
 
 	class InteractProxy : public ::System::Object
 	{

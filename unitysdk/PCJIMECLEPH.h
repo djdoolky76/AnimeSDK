@@ -10,7 +10,7 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int PCJIMECLEPH_TypeDefinitionIndex = 50013;
+inline static constexpr unsigned int PCJIMECLEPH_TypeDefinitionIndex = 51061;
 
 	class PCJIMECLEPH : public ::System::Object
 	{

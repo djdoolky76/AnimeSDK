@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DPCPMAMJABI_TypeDefinitionIndex = 54187;
+inline static constexpr unsigned int DPCPMAMJABI_TypeDefinitionIndex = 55351;
 
 	struct alignas(4) DPCPMAMJABI
 	{

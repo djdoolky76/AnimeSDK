@@ -4,12 +4,12 @@
 class AHIJMGKPIMF;
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_LOADSPRITETOSMOOTHMASKACTION___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE33FDA0)
-#define RPG_CLIENT_UI_UISTATECTRL_LOADSPRITETOSMOOTHMASKACTION___C__DISPLAYCLASS1_0__ONSTART_B__0_OFFSET UNITYSDK_OFFSET(0xE33FE70)
+#define RPG_CLIENT_UI_UISTATECTRL_LOADSPRITETOSMOOTHMASKACTION___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C73F0)
+#define RPG_CLIENT_UI_UISTATECTRL_LOADSPRITETOSMOOTHMASKACTION___C__DISPLAYCLASS1_0__ONSTART_B__0_OFFSET UNITYSDK_OFFSET(0x1C9C74C0)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int LoadSpriteToSmoothMaskAction___c__DisplayClass1_0_TypeDefinitionIndex = 74050;
+	inline static constexpr unsigned int LoadSpriteToSmoothMaskAction___c__DisplayClass1_0_TypeDefinitionIndex = 76196;
 
 	class LoadSpriteToSmoothMaskAction___c__DisplayClass1_0 : public ::System::Object
 	{

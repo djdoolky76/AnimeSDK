@@ -5,20 +5,20 @@
 class ILCJAJBPOMO;
 namespace System { class Object; }
 
-#define ILCJAJBPOMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E67CA00)
-#define ILCJAJBPOMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67CA40)
-#define ILCJAJBPOMO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E67CA50)
-#define ILCJAJBPOMO___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x1E67CA80)
-#define ILCJAJBPOMO___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x1E67CA90)
+#define ILCJAJBPOMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x206AF520)
+#define ILCJAJBPOMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x206AF560)
+#define ILCJAJBPOMO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x206AF570)
+#define ILCJAJBPOMO___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x206AF5A0)
+#define ILCJAJBPOMO___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x206AF5B0)
 
-inline static constexpr unsigned int ILCJAJBPOMO___c_TypeDefinitionIndex = 33379;
+inline static constexpr unsigned int ILCJAJBPOMO___c_TypeDefinitionIndex = 34294;
 
 	class ILCJAJBPOMO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x515C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BED0);
 		}
 
 		static ::System::Void _cctor()

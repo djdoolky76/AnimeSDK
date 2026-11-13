@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetupFreeStyleSupport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AIAIAJLGPNH_CTOR_OFFSET UNITYSDK_OFFSET(0xEB89010)
-#define AIAIAJLGPNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB89040)
+#define AIAIAJLGPNH_CTOR_OFFSET UNITYSDK_OFFSET(0x19B2EC20)
+#define AIAIAJLGPNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19B2EC50)
 
-inline static constexpr unsigned int AIAIAJLGPNH_TypeDefinitionIndex = 58013;
+inline static constexpr unsigned int AIAIAJLGPNH_TypeDefinitionIndex = 59252;
 
 	class AIAIAJLGPNH
 	{

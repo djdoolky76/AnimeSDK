@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define AMJFPOKLPFM_CTOR_OFFSET UNITYSDK_OFFSET(0x15576B90)
+#define AMJFPOKLPFM_CTOR_OFFSET UNITYSDK_OFFSET(0x197DCB90)
 
-inline static constexpr unsigned int AMJFPOKLPFM_TypeDefinitionIndex = 68412;
+inline static constexpr unsigned int AMJFPOKLPFM_TypeDefinitionIndex = 70359;
 
 	class AMJFPOKLPFM : public ::System::Attribute
 	{

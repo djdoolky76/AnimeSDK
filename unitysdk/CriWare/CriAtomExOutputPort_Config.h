@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomExOutputPort_Type.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXOUTPUTPORT_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166E31E0)
+#define CRIWARE_CRIATOMEXOUTPUTPORT_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1EC4E940)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExOutputPort_Config_TypeDefinitionIndex = 40051;
+	inline static constexpr unsigned int CriAtomExOutputPort_Config_TypeDefinitionIndex = 41026;
 
 	struct alignas(8) CriAtomExOutputPort_Config
 	{

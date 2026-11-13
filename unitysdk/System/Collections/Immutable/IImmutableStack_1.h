@@ -3,7 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int IImmutableStack_1_TypeDefinitionIndex = 6596;
+	inline static constexpr unsigned int IImmutableStack_1_TypeDefinitionIndex = 6607;
 
 	template <typename T>
 	class IImmutableStack_1

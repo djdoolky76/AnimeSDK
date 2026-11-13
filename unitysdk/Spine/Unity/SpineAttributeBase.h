@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEATTRIBUTEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED04BF0)
+#define SPINE_UNITY_SPINEATTRIBUTEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1920F0D0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAttributeBase_TypeDefinitionIndex = 45090;
+	inline static constexpr unsigned int SpineAttributeBase_TypeDefinitionIndex = 46165;
 
 	class SpineAttributeBase : public ::UnityEngine::PropertyAttribute
 	{

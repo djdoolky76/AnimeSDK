@@ -6,10 +6,10 @@ class FPKNBOLOOJM;
 namespace RPG::Client { class FateGameData; }
 namespace System { class String; }
 
-#define ECDNCIBDELM_EAGMKDOAOJF_OFFSET UNITYSDK_OFFSET(0x12D061E0)
-#define ECDNCIBDELM_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x12D06070)
+#define ECDNCIBDELM_EAGMKDOAOJF_OFFSET UNITYSDK_OFFSET(0x1C3D41F0)
+#define ECDNCIBDELM_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x1C3D4080)
 
-inline static constexpr unsigned int ECDNCIBDELM_TypeDefinitionIndex = 63993;
+inline static constexpr unsigned int ECDNCIBDELM_TypeDefinitionIndex = 65438;
 
 	class ECDNCIBDELM : public ::System::Object
 	{

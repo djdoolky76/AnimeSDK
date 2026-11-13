@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionSpawnAoeOnCurSectionRows; }
 
-#define KBNAAACAEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DD1D0)
-#define KBNAAACAEEO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C6DD1E0)
+#define KBNAAACAEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABECAC0)
+#define KBNAAACAEEO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1ABECAD0)
 
-inline static constexpr unsigned int KBNAAACAEEO_TypeDefinitionIndex = 37395;
+inline static constexpr unsigned int KBNAAACAEEO_TypeDefinitionIndex = 38323;
 
 	class KBNAAACAEEO : public ::GPLOFONGBGI
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetFloorCustomFloatV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DJLDEMGBACG_CTOR_OFFSET UNITYSDK_OFFSET(0xF234750)
-#define DJLDEMGBACG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF234780)
+#define DJLDEMGBACG_CTOR_OFFSET UNITYSDK_OFFSET(0x18BEDB60)
+#define DJLDEMGBACG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BEDB90)
 
-inline static constexpr unsigned int DJLDEMGBACG_TypeDefinitionIndex = 53233;
+inline static constexpr unsigned int DJLDEMGBACG_TypeDefinitionIndex = 54395;
 
 	class DJLDEMGBACG
 	{

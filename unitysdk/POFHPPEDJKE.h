@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int POFHPPEDJKE_TypeDefinitionIndex = 75938;
+inline static constexpr unsigned int POFHPPEDJKE_TypeDefinitionIndex = 78265;
 
 	class POFHPPEDJKE
 	{

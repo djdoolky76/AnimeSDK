@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define DBMLIDBCBKL_CTOR_OFFSET UNITYSDK_OFFSET(0xE22B6B0)
-#define DBMLIDBCBKL_IOBPNAFKJCH_OFFSET UNITYSDK_OFFSET(0xE22B630)
-#define DBMLIDBCBKL_MDOIFCJKHJK_OFFSET UNITYSDK_OFFSET(0xE22B670)
+#define DBMLIDBCBKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B157660)
+#define DBMLIDBCBKL_IOBPNAFKJCH_OFFSET UNITYSDK_OFFSET(0x1B1575E0)
+#define DBMLIDBCBKL_MDOIFCJKHJK_OFFSET UNITYSDK_OFFSET(0x1B157620)
 
-inline static constexpr unsigned int DBMLIDBCBKL_TypeDefinitionIndex = 47587;
+inline static constexpr unsigned int DBMLIDBCBKL_TypeDefinitionIndex = 48616;
 
 	class DBMLIDBCBKL : public ::System::Object
 	{

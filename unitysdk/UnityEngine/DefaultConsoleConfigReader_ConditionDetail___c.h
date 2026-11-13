@@ -5,10 +5,10 @@ namespace IniParserEx { class IniFile_SectionItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3B9090)
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3B90D0)
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__MATCHMODELNAMEREGEX_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F3B9280)
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__USEFORCURRENTPLATFORM_B__1_0_OFFSET UNITYSDK_OFFSET(0x1F3B90E0)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F712EC0)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F712F00)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__MATCHMODELNAMEREGEX_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F7130B0)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__USEFORCURRENTPLATFORM_B__1_0_OFFSET UNITYSDK_OFFSET(0x1F712F10)
 
 namespace UnityEngine
 {
@@ -19,17 +19,17 @@ namespace UnityEngine
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0xFC40);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0xDF50);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0xFC48);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0xDF58);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0xFC50);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine", "<>c")->GetStaticField(0xDF60);
 		}
 
 		static ::System::Void _cctor()

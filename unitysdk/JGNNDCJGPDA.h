@@ -5,16 +5,16 @@ class LJHCGAGNIKN;
 namespace System { class Type; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define JGNNDCJGPDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC64E80)
+#define JGNNDCJGPDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x20937A60)
 
-inline static constexpr unsigned int JGNNDCJGPDA_TypeDefinitionIndex = 43883;
+inline static constexpr unsigned int JGNNDCJGPDA_TypeDefinitionIndex = 44958;
 
 	class JGNNDCJGPDA : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::LJHCGAGNIKN*>** StaticGet_HFDLNJKMNKI()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::LJHCGAGNIKN*>**)UnitySDK::FromName("", "JGNNDCJGPDA")->GetStaticField(0xF80);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::LJHCGAGNIKN*>**)UnitySDK::FromName("", "JGNNDCJGPDA")->GetStaticField(0x1080);
 		}
 
 		static ::System::Void _cctor()

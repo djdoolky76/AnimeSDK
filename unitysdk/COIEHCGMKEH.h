@@ -3,10 +3,10 @@
 #include "unitysdk/GNGPLDGOEAI.h"
 namespace RPG::Client { class MonoExUICamera; }
 
-#define COIEHCGMKEH_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB0FA0)
-#define COIEHCGMKEH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xDCB0FB0)
+#define COIEHCGMKEH_CTOR_OFFSET UNITYSDK_OFFSET(0x19161F90)
+#define COIEHCGMKEH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x19161FA0)
 
-inline static constexpr unsigned int COIEHCGMKEH_TypeDefinitionIndex = 72965;
+inline static constexpr unsigned int COIEHCGMKEH_TypeDefinitionIndex = 75077;
 
 	class COIEHCGMKEH : public ::GNGPLDGOEAI
 	{

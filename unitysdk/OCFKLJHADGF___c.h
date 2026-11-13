@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define OCFKLJHADGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD59330)
-#define OCFKLJHADGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD59370)
-#define OCFKLJHADGF___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0xBD59380)
+#define OCFKLJHADGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19A0B5F0)
+#define OCFKLJHADGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19A0B630)
+#define OCFKLJHADGF___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x19A0B640)
 
-inline static constexpr unsigned int OCFKLJHADGF___c_TypeDefinitionIndex = 75162;
+inline static constexpr unsigned int OCFKLJHADGF___c_TypeDefinitionIndex = 77489;
 
 	class OCFKLJHADGF___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BC70);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x684D0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BC78);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x684D8);
 		}
 
 		static ::System::Void _cctor()

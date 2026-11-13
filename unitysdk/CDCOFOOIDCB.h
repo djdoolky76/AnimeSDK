@@ -8,12 +8,12 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 
-#define CDCOFOOIDCB_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC75F700)
-#define CDCOFOOIDCB_CTOR_OFFSET UNITYSDK_OFFSET(0xC75F600)
-#define CDCOFOOIDCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC75F730)
-#define CDCOFOOIDCB_INVOKE_OFFSET UNITYSDK_OFFSET(0xC75F6F0)
+#define CDCOFOOIDCB_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x173AA260)
+#define CDCOFOOIDCB_CTOR_OFFSET UNITYSDK_OFFSET(0x173AA160)
+#define CDCOFOOIDCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x173AA290)
+#define CDCOFOOIDCB_INVOKE_OFFSET UNITYSDK_OFFSET(0x173AA250)
 
-inline static constexpr unsigned int CDCOFOOIDCB_TypeDefinitionIndex = 74073;
+inline static constexpr unsigned int CDCOFOOIDCB_TypeDefinitionIndex = 76221;
 
 	class CDCOFOOIDCB : public ::System::MulticastDelegate
 	{

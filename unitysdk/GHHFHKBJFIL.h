@@ -7,18 +7,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define GHHFHKBJFIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE186C0)
-#define GHHFHKBJFIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE186D0)
-#define GHHFHKBJFIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE18680)
+#define GHHFHKBJFIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E63A240)
+#define GHHFHKBJFIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E63A250)
+#define GHHFHKBJFIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E63A200)
 
-inline static constexpr unsigned int GHHFHKBJFIL_TypeDefinitionIndex = 22324;
+inline static constexpr unsigned int GHHFHKBJFIL_TypeDefinitionIndex = 22729;
 
 	class GHHFHKBJFIL : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* AMHGLPIJMBN; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* JEEACGDIOCE; // 0x20
 		::System::String* LJPOEMIKGKB; // 0x28
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* JEEACGDIOCE; // 0x30
+		::RPG::GameCore::DynamicFloat* AMHGLPIJMBN; // 0x30
 		::System::Boolean KHCFEEHLEFH; // 0x38
 		::System::Void _ctor()
 		{

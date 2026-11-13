@@ -6,19 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyGridTypeConfigRow; }
 
-#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC04310)
-#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC040F0)
+#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DCB10)
+#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F5DC8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyGridTypeConfigRow_TypeDefinitionIndex = 15309;
+	inline static constexpr unsigned int TrainPartyGridTypeConfigRow_TypeDefinitionIndex = 15465;
 
 	class TrainPartyGridTypeConfigRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID GridTypeTipInfo; // 0x10
-		::RPG::Client::TextID GridTypeName; // 0x20
-		::RPG::GameCore::TrainPartyGridType GridType; // 0x30
+		::RPG::GameCore::TrainPartyGridType GridType; // 0x20
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID GridTypeName; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_CTOR_OFFSET))(this);

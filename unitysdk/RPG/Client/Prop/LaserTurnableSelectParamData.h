@@ -4,11 +4,11 @@
 namespace RPG::Client::Prop { class LaserTurnablePuzzleRing; }
 namespace RPG::GameCore { class OptionTriggerInfo; }
 
-#define RPG_CLIENT_PROP_LASERTURNABLESELECTPARAMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDD15400)
+#define RPG_CLIENT_PROP_LASERTURNABLESELECTPARAMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x171C53F0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LaserTurnableSelectParamData_TypeDefinitionIndex = 78671;
+	inline static constexpr unsigned int LaserTurnableSelectParamData_TypeDefinitionIndex = 81406;
 
 	class LaserTurnableSelectParamData : public ::System::Object
 	{

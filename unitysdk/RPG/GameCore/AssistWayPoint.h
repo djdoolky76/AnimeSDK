@@ -9,13 +9,13 @@ namespace RPG::GameCore { class AssistWayPointConditionMain; }
 namespace RPG::GameCore { class AssistWayPointDistanceCondition; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CB1E0)
-#define RPG_GAMECORE_ASSISTWAYPOINT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3CB1F0)
-#define RPG_GAMECORE_ASSISTWAYPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3CABC0)
+#define RPG_GAMECORE_ASSISTWAYPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB0480)
+#define RPG_GAMECORE_ASSISTWAYPOINT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DEB0580)
+#define RPG_GAMECORE_ASSISTWAYPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEAFE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPoint_TypeDefinitionIndex = 19005;
+	inline static constexpr unsigned int AssistWayPoint_TypeDefinitionIndex = 19192;
 
 	class AssistWayPoint : public ::RPG::GameCore::JsonConfig
 	{

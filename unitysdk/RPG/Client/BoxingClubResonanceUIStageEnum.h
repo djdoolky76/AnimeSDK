@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoxingClubResonanceUIStageEnum_TypeDefinitionIndex = 62956;
+	inline static constexpr unsigned int BoxingClubResonanceUIStageEnum_TypeDefinitionIndex = 64394;
 
 	enum class BoxingClubResonanceUIStageEnum : ::System::Int32
 	{

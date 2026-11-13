@@ -7,27 +7,27 @@ class JPHLJKCLBIJ;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define JCLLCEJLODJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x16597AB0)
-#define JCLLCEJLODJ_DJGOFKCPNGH_OFFSET UNITYSDK_OFFSET(0x16597940)
-#define JCLLCEJLODJ_FPDKCDDLHEF_OFFSET UNITYSDK_OFFSET(0x16597A40)
-#define JCLLCEJLODJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x165976F0)
-#define JCLLCEJLODJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x165975D0)
-#define JCLLCEJLODJ_LDHAAHGMOKF_OFFSET UNITYSDK_OFFSET(0x165979B0)
-#define JCLLCEJLODJ_LHOPBHMPAPE_OFFSET UNITYSDK_OFFSET(0x16597810)
+#define JCLLCEJLODJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x16967050)
+#define JCLLCEJLODJ_DJGOFKCPNGH_OFFSET UNITYSDK_OFFSET(0x16966EE0)
+#define JCLLCEJLODJ_FPDKCDDLHEF_OFFSET UNITYSDK_OFFSET(0x16966FE0)
+#define JCLLCEJLODJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x16966C90)
+#define JCLLCEJLODJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16966B70)
+#define JCLLCEJLODJ_LDHAAHGMOKF_OFFSET UNITYSDK_OFFSET(0x16966F50)
+#define JCLLCEJLODJ_LHOPBHMPAPE_OFFSET UNITYSDK_OFFSET(0x16966DB0)
 
-inline static constexpr unsigned int JCLLCEJLODJ_TypeDefinitionIndex = 62198;
+inline static constexpr unsigned int JCLLCEJLODJ_TypeDefinitionIndex = 63611;
 
 	class JCLLCEJLODJ : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Queue_1<::JPHLJKCLBIJ*>** StaticGet_HBBFNNKHKBE()
-		{
-			return (::System::Collections::Generic::Queue_1<::JPHLJKCLBIJ*>**)UnitySDK::FromName("", "JCLLCEJLODJ")->GetStaticField(0x6B6E0);
-		}
-
 		static ::System::Collections::Generic::Queue_1<::JPHLJKCLBIJ*>** StaticGet_ILDGNOBOEOA()
 		{
-			return (::System::Collections::Generic::Queue_1<::JPHLJKCLBIJ*>**)UnitySDK::FromName("", "JCLLCEJLODJ")->GetStaticField(0x6B6E8);
+			return (::System::Collections::Generic::Queue_1<::JPHLJKCLBIJ*>**)UnitySDK::FromName("", "JCLLCEJLODJ")->GetStaticField(0x66750);
+		}
+
+		static ::System::Collections::Generic::Queue_1<::JPHLJKCLBIJ*>** StaticGet_HBBFNNKHKBE()
+		{
+			return (::System::Collections::Generic::Queue_1<::JPHLJKCLBIJ*>**)UnitySDK::FromName("", "JCLLCEJLODJ")->GetStaticField(0x66758);
 		}
 
 		static ::System::Void _cctor()

@@ -6,18 +6,18 @@ class KJLOHDFBBOA;
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HDJHPJPDBAH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C2B960)
-#define HDJHPJPDBAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C2BA70)
-#define HDJHPJPDBAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C2BBD0)
+#define HDJHPJPDBAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7CC430)
+#define HDJHPJPDBAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B7CC540)
+#define HDJHPJPDBAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B7CC6A0)
 
-inline static constexpr unsigned int HDJHPJPDBAH_TypeDefinitionIndex = 55042;
+inline static constexpr unsigned int HDJHPJPDBAH_TypeDefinitionIndex = 56218;
 
 	class HDJHPJPDBAH
 	{
 	public:
-		::KFELGAIGHAP* CHOOMNGLJHI; // 0x28
+		::KFELGAIGHAP* LNMOCNDILJN; // 0x28
 		::System::Collections::Generic::List_1<::OILICJACMFA>* MDDKBNLNMBN; // 0x30
-		::KFELGAIGHAP* LNMOCNDILJN; // 0x38
+		::KFELGAIGHAP* CHOOMNGLJHI; // 0x38
 		::System::Collections::Generic::List_1<::OILICJACMFA>* AAECKGKGJFG; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::KJLOHDFBBOA* a2)
 		{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchCurrentDamageAttacker; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MKGJJIODMMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB990E50)
-#define MKGJJIODMMJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB990EC0)
+#define MKGJJIODMMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B904E40)
+#define MKGJJIODMMJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B904E90)
 
-inline static constexpr unsigned int MKGJJIODMMJ_TypeDefinitionIndex = 59117;
+inline static constexpr unsigned int MKGJJIODMMJ_TypeDefinitionIndex = 60393;
 
 	class MKGJJIODMMJ
 	{

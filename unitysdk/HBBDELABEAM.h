@@ -3,7 +3,7 @@
 class IEPENKDLLKN;
 namespace System { class String; }
 
-inline static constexpr unsigned int HBBDELABEAM_TypeDefinitionIndex = 42028;
+inline static constexpr unsigned int HBBDELABEAM_TypeDefinitionIndex = 43003;
 
 	struct alignas(8) HBBDELABEAM
 	{

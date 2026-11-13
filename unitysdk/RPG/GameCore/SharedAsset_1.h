@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SharedAsset_1_TypeDefinitionIndex = 56528;
+	inline static constexpr unsigned int SharedAsset_1_TypeDefinitionIndex = 57748;
 
 	template <typename T>
 	class SharedAsset_1 : public ::System::Object

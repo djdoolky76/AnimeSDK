@@ -4,16 +4,16 @@
 class DEJDNPBEBFG;
 class FCOEMCEDLNL;
 
-#define DEJDNPBEBFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE49F0)
-#define DEJDNPBEBFG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE4900)
+#define DEJDNPBEBFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F634090)
+#define DEJDNPBEBFG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F633FA0)
 
-inline static constexpr unsigned int DEJDNPBEBFG_TypeDefinitionIndex = 11711;
+inline static constexpr unsigned int DEJDNPBEBFG_TypeDefinitionIndex = 11768;
 
 	class DEJDNPBEBFG : public ::System::Object
 	{
 	public:
-		::System::UInt32 APAKCBFMCAB; // 0x10
-		::System::UInt32 ACCJKGEKHKP; // 0x14
+		::System::UInt32 ACCJKGEKHKP; // 0x10
+		::System::UInt32 APAKCBFMCAB; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DEJDNPBEBFG_CTOR_OFFSET))(this);

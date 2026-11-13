@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvPlayerAddAttachment; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IIKJIKENGDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16433A30)
-#define IIKJIKENGDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16433A60)
+#define IIKJIKENGDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x193D6A20)
+#define IIKJIKENGDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193D6A50)
 
-inline static constexpr unsigned int IIKJIKENGDJ_TypeDefinitionIndex = 52465;
+inline static constexpr unsigned int IIKJIKENGDJ_TypeDefinitionIndex = 53571;
 
 	class IIKJIKENGDJ
 	{

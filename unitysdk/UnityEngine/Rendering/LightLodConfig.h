@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightLodConfig_TypeDefinitionIndex = 4837;
+	inline static constexpr unsigned int LightLodConfig_TypeDefinitionIndex = 4841;
 
 	struct alignas(4) LightLodConfig
 	{

@@ -6,18 +6,18 @@ class GLLIPCNMDBO;
 class HGJFHGEPFPP;
 class JMPDHEIBHPL;
 
-#define JMPDHEIBHPL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB26DC30)
-#define JMPDHEIBHPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB26DC20)
-#define JMPDHEIBHPL_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB26DA40)
+#define JMPDHEIBHPL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0BC460)
+#define JMPDHEIBHPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BC450)
+#define JMPDHEIBHPL_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x1A0BC270)
 
-inline static constexpr unsigned int JMPDHEIBHPL_TypeDefinitionIndex = 77297;
+inline static constexpr unsigned int JMPDHEIBHPL_TypeDefinitionIndex = 79631;
 
 	class JMPDHEIBHPL : public ::System::Object
 	{
 	public:
 		static ::JMPDHEIBHPL** StaticGet_FMJPMFEDIJL()
 		{
-			return (::JMPDHEIBHPL**)UnitySDK::FromName("", "JMPDHEIBHPL")->GetStaticField(0x20D10);
+			return (::JMPDHEIBHPL**)UnitySDK::FromName("", "JMPDHEIBHPL")->GetStaticField(0x21240);
 		}
 
 		::System::Void _ctor()

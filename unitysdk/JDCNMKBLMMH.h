@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JDCNMKBLMMH_TypeDefinitionIndex = 74522;
+inline static constexpr unsigned int JDCNMKBLMMH_TypeDefinitionIndex = 76670;
 
 	class JDCNMKBLMMH
 	{

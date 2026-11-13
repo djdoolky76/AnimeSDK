@@ -4,10 +4,10 @@
 class CHGHIALKMFM;
 namespace System { class Object; }
 
-#define IFOEBJMEFKG___C__DISPLAYCLASS51_1_CTOR_OFFSET UNITYSDK_OFFSET(0x15F238B0)
-#define IFOEBJMEFKG___C__DISPLAYCLASS51_1___TRYRECOMMENDMOLDFOREXAM_B__6_OFFSET UNITYSDK_OFFSET(0x15F238D0)
+#define IFOEBJMEFKG___C__DISPLAYCLASS51_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2BCD0)
+#define IFOEBJMEFKG___C__DISPLAYCLASS51_1___TRYRECOMMENDMOLDFOREXAM_B__6_OFFSET UNITYSDK_OFFSET(0x1BC2BCF0)
 
-inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass51_1_TypeDefinitionIndex = 79447;
+inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass51_1_TypeDefinitionIndex = 82224;
 
 	template <typename T>
 	class IFOEBJMEFKG___c__DisplayClass51_1 : public ::System::Object

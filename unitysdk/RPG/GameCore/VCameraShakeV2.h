@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ShakeDistanceAttenuation; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERASHAKEV2_CHBIILFGEJA_OFFSET UNITYSDK_OFFSET(0x1DC521E0)
-#define RPG_GAMECORE_VCAMERASHAKEV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC52180)
-#define RPG_GAMECORE_VCAMERASHAKEV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC4EE70)
+#define RPG_GAMECORE_VCAMERASHAKEV2_CHBIILFGEJA_OFFSET UNITYSDK_OFFSET(0x1ED3D4A0)
+#define RPG_GAMECORE_VCAMERASHAKEV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3D440)
+#define RPG_GAMECORE_VCAMERASHAKEV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED3A690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraShakeV2_TypeDefinitionIndex = 16417;
+	inline static constexpr unsigned int VCameraShakeV2_TypeDefinitionIndex = 16581;
 
 	class VCameraShakeV2 : public ::RPG::GameCore::JsonConfig
 	{

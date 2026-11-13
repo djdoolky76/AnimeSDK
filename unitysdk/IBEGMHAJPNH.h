@@ -3,10 +3,10 @@
 class PEKCDLDLGJI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IBEGMHAJPNH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E1F9C0)
-#define IBEGMHAJPNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E1F9F0)
+#define IBEGMHAJPNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1943FDE0)
+#define IBEGMHAJPNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1943FE10)
 
-inline static constexpr unsigned int IBEGMHAJPNH_TypeDefinitionIndex = 55200;
+inline static constexpr unsigned int IBEGMHAJPNH_TypeDefinitionIndex = 56381;
 
 	class IBEGMHAJPNH
 	{

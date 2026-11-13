@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DFLJJBDNMCJ_TypeDefinitionIndex = 72058;
+inline static constexpr unsigned int DFLJJBDNMCJ_TypeDefinitionIndex = 74089;
 
 	class DFLJJBDNMCJ
 	{

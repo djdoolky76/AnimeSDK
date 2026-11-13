@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int OverrideLightType_TypeDefinitionIndex = 73607;
+	inline static constexpr unsigned int OverrideLightType_TypeDefinitionIndex = 75730;
 
 	enum class OverrideLightType : ::System::Int32
 	{

@@ -6,32 +6,31 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightRoleServantStarConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLESERVANTSTARCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D711400)
-#define RPG_GAMECORE_GRIDFIGHTROLESERVANTSTARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D710F00)
+#define RPG_GAMECORE_GRIDFIGHTROLESERVANTSTARCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5DB00)
+#define RPG_GAMECORE_GRIDFIGHTROLESERVANTSTARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA5D600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleServantStarConfigRow_TypeDefinitionIndex = 13518;
+	inline static constexpr unsigned int GridFightRoleServantStarConfigRow_TypeDefinitionIndex = 13613;
 
 	class GridFightRoleServantStarConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonOverrideConfig; // 0x10
-		::System::String* HPInherit; // 0x18
-		::System::String* SpeedInherit; // 0x20
-		::Il2CppArray<::System::UInt32>* SkillOverrideDest; // 0x28
-		::System::String* AIPath; // 0x30
+		::System::String* HPInherit; // 0x10
+		::System::String* SpeedBase; // 0x18
+		::System::String* HPBase; // 0x20
+		::System::String* JsonOverrideConfig; // 0x28
+		::System::String* SpeedInherit; // 0x30
 		::Il2CppArray<::System::UInt32>* SkillOverrideSrc; // 0x38
 		::Il2CppArray<::System::UInt32>* ServantShowSkiilIDList; // 0x40
-		::System::String* HPBase; // 0x48
-		::System::String* SpeedBase; // 0x50
-		::System::UInt32 ServantID; // 0x58
+		::System::String* AIPath; // 0x48
+		::Il2CppArray<::System::UInt32>* SkillOverrideDest; // 0x50
+		::System::UInt32 SpeedSkill; // 0x58
 		::System::UInt32 ID; // 0x5C
 		::System::UInt32 Star; // 0x60
-		::System::Byte _padding0[0x4];
+		::System::UInt32 ServantID; // 0x64
 		::RPG::GameCore::FixPoint Aggro; // 0x68
-		::System::UInt32 SpeedSkill; // 0x70
-		::System::UInt32 HPSkill; // 0x74
+		::System::UInt32 HPSkill; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLESERVANTSTARCONFIGROW_CTOR_OFFSET))(this);

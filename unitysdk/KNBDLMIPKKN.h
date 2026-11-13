@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ForceKill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KNBDLMIPKKN_CTOR_OFFSET UNITYSDK_OFFSET(0xB570C40)
-#define KNBDLMIPKKN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB570C50)
-#define KNBDLMIPKKN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB570C90)
-#define KNBDLMIPKKN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB571B80)
-#define KNBDLMIPKKN_TICK_OFFSET UNITYSDK_OFFSET(0xB571BD0)
+#define KNBDLMIPKKN_CTOR_OFFSET UNITYSDK_OFFSET(0x18F98F60)
+#define KNBDLMIPKKN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18F98F70)
+#define KNBDLMIPKKN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F98FB0)
+#define KNBDLMIPKKN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18F99EA0)
+#define KNBDLMIPKKN_TICK_OFFSET UNITYSDK_OFFSET(0x18F99EF0)
 
-inline static constexpr unsigned int KNBDLMIPKKN_TypeDefinitionIndex = 55073;
+inline static constexpr unsigned int KNBDLMIPKKN_TypeDefinitionIndex = 56249;
 
 	class KNBDLMIPKKN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ForceKill* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ForceKill* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ForceKill* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ForceKill*))((::PBYTE)hIl2Cpp + KNBDLMIPKKN_CTOR_OFFSET))(this, a1, a2);

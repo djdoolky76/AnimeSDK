@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StoryAdditionStreamingCenter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF8D70)
-#define RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF8C20)
+#define RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3CB940)
+#define RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3CB7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryAdditionStreamingCenter_TypeDefinitionIndex = 21240;
+	inline static constexpr unsigned int StoryAdditionStreamingCenter_TypeDefinitionIndex = 21583;
 
 	class StoryAdditionStreamingCenter : public ::RPG::GameCore::JsonConfig
 	{

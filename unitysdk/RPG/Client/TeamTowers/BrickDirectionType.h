@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int BrickDirectionType_TypeDefinitionIndex = 79023;
+	inline static constexpr unsigned int BrickDirectionType_TypeDefinitionIndex = 81799;
 
 	enum class BrickDirectionType : ::System::UInt32
 	{

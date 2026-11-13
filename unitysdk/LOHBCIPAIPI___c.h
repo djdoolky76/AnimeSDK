@@ -4,18 +4,18 @@
 class LOHBCIPAIPI;
 namespace System { class Object; }
 
-#define LOHBCIPAIPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E991D10)
-#define LOHBCIPAIPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E991D40)
-#define LOHBCIPAIPI___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1E991D50)
+#define LOHBCIPAIPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200D5490)
+#define LOHBCIPAIPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200D54C0)
+#define LOHBCIPAIPI___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x200D54D0)
 
-inline static constexpr unsigned int LOHBCIPAIPI___c_TypeDefinitionIndex = 25472;
+inline static constexpr unsigned int LOHBCIPAIPI___c_TypeDefinitionIndex = 25951;
 
 	class LOHBCIPAIPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41A80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45650);
 		}
 
 		static ::System::Void _cctor()

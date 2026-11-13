@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CPGHIOFODKC_IENCPPOEFKI_OFFSET UNITYSDK_OFFSET(0xEED00)
-#define CPGHIOFODKC_OHEKBCCJNFJ_OFFSET UNITYSDK_OFFSET(0xEECE0)
+#define CPGHIOFODKC_IENCPPOEFKI_OFFSET UNITYSDK_OFFSET(0x3E32600)
+#define CPGHIOFODKC_OHEKBCCJNFJ_OFFSET UNITYSDK_OFFSET(0x3E325E0)
 
-inline static constexpr unsigned int CPGHIOFODKC_TypeDefinitionIndex = 68435;
+inline static constexpr unsigned int CPGHIOFODKC_TypeDefinitionIndex = 70382;
 
 	struct alignas(4) CPGHIOFODKC
 	{

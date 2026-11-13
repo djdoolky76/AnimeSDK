@@ -4,10 +4,10 @@
 class FNJPHLBBNBC;
 namespace RPG::Client { class ConditionChecker; }
 
-#define MCCGEALKBBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB86DE40)
-#define MCCGEALKBBD_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0xB86DE50)
+#define MCCGEALKBBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1B83B090)
+#define MCCGEALKBBD_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x1B83B0A0)
 
-inline static constexpr unsigned int MCCGEALKBBD_TypeDefinitionIndex = 59906;
+inline static constexpr unsigned int MCCGEALKBBD_TypeDefinitionIndex = 61190;
 
 	class MCCGEALKBBD : public ::System::Object
 	{

@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SerializableHashSet_1_TypeDefinitionIndex = 51882;
+	inline static constexpr unsigned int SerializableHashSet_1_TypeDefinitionIndex = 52968;
 
 	template <typename T>
 	class SerializableHashSet_1 : public ::RPG::CustomRP::SerializableHashSetBase

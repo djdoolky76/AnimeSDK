@@ -6,11 +6,11 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class LittleGameAbilityTargetSelectorLaserTargetConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define DAADMLLEADB_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xDFB0520)
-#define DAADMLLEADB_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB06A0)
-#define DAADMLLEADB_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0xDFB05E0)
+#define DAADMLLEADB_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x1993B580)
+#define DAADMLLEADB_CTOR_OFFSET UNITYSDK_OFFSET(0x1993B700)
+#define DAADMLLEADB_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0x1993B640)
 
-inline static constexpr unsigned int DAADMLLEADB_TypeDefinitionIndex = 77386;
+inline static constexpr unsigned int DAADMLLEADB_TypeDefinitionIndex = 79720;
 
 	class DAADMLLEADB : public ::System::Object
 	{

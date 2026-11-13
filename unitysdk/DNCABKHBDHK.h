@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PerformanceDynamicLoadCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNCABKHBDHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1193B770)
-#define DNCABKHBDHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1193B7A0)
+#define DNCABKHBDHK_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB07E0)
+#define DNCABKHBDHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CB0810)
 
-inline static constexpr unsigned int DNCABKHBDHK_TypeDefinitionIndex = 53071;
+inline static constexpr unsigned int DNCABKHBDHK_TypeDefinitionIndex = 54231;
 
 	class DNCABKHBDHK
 	{

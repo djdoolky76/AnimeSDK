@@ -5,11 +5,11 @@ class KAKADGHNMFK;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define FBMAGNGKMNI_CTOR_OFFSET UNITYSDK_OFFSET(0x15699470)
-#define FBMAGNGKMNI_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0x156995B0)
-#define FBMAGNGKMNI_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x156994F0)
+#define FBMAGNGKMNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA556E0)
+#define FBMAGNGKMNI_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0x1BA55820)
+#define FBMAGNGKMNI_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x1BA55760)
 
-inline static constexpr unsigned int FBMAGNGKMNI_TypeDefinitionIndex = 77632;
+inline static constexpr unsigned int FBMAGNGKMNI_TypeDefinitionIndex = 80367;
 
 	class FBMAGNGKMNI : public ::OCFMCBFNLND
 	{

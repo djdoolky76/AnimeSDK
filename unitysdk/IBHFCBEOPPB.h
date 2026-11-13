@@ -5,10 +5,10 @@ class HMCDHNKOCGK;
 class NCJILFFNINI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IBHFCBEOPPB_CTOR_OFFSET UNITYSDK_OFFSET(0x15E28450)
-#define IBHFCBEOPPB_ENNJBMNBLNA_OFFSET UNITYSDK_OFFSET(0x15E28460)
+#define IBHFCBEOPPB_CTOR_OFFSET UNITYSDK_OFFSET(0x188B22F0)
+#define IBHFCBEOPPB_ENNJBMNBLNA_OFFSET UNITYSDK_OFFSET(0x188B2300)
 
-inline static constexpr unsigned int IBHFCBEOPPB_TypeDefinitionIndex = 55976;
+inline static constexpr unsigned int IBHFCBEOPPB_TypeDefinitionIndex = 57179;
 
 	class IBHFCBEOPPB : public ::BIPFHKKIKLH
 	{

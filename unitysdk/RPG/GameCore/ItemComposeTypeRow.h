@@ -5,25 +5,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemComposeTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCOMPOSETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D766330)
-#define RPG_GAMECORE_ITEMCOMPOSETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D765BC0)
+#define RPG_GAMECORE_ITEMCOMPOSETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9F1C0)
+#define RPG_GAMECORE_ITEMCOMPOSETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE9EA50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeTypeRow_TypeDefinitionIndex = 13840;
+	inline static constexpr unsigned int ItemComposeTypeRow_TypeDefinitionIndex = 13997;
 
 	class ItemComposeTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* TypeTextmapID; // 0x10
-		::System::String* UnlockDescribe; // 0x18
-		::System::String* TypeIconPath; // 0x20
-		::System::UInt32 MainTypeOrder; // 0x28
-		::System::UInt32 UnlockID; // 0x2C
-		::System::Boolean IsMainType; // 0x30
-		::System::Byte _padding0[0x3];
+		::System::String* TypeIconPath; // 0x10
+		::System::String* TypeTextmapID; // 0x18
+		::System::String* UnlockDescribe; // 0x20
+		::System::UInt32 UnlockID; // 0x28
+		::System::UInt32 MainTypeID; // 0x2C
+		::System::UInt32 MainTypeOrder; // 0x30
 		::System::UInt32 TypeID; // 0x34
-		::System::UInt32 MainTypeID; // 0x38
+		::System::Boolean IsMainType; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMCOMPOSETYPEROW_CTOR_OFFSET))(this);

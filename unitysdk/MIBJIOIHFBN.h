@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class VCameraModeChange; }
 
-#define MIBJIOIHFBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB948490)
-#define MIBJIOIHFBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9484A0)
-#define MIBJIOIHFBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9484E0)
-#define MIBJIOIHFBN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9486C0)
-#define MIBJIOIHFBN_TICK_OFFSET UNITYSDK_OFFSET(0xB948710)
+#define MIBJIOIHFBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B36F5B0)
+#define MIBJIOIHFBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B36F5C0)
+#define MIBJIOIHFBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B36F600)
+#define MIBJIOIHFBN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B36F7E0)
+#define MIBJIOIHFBN_TICK_OFFSET UNITYSDK_OFFSET(0x1B36F830)
 
-inline static constexpr unsigned int MIBJIOIHFBN_TypeDefinitionIndex = 53882;
+inline static constexpr unsigned int MIBJIOIHFBN_TypeDefinitionIndex = 55046;
 
 	class MIBJIOIHFBN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::VCameraModeChange* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::VCameraModeChange* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::VCameraModeChange* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::VCameraModeChange*))((::PBYTE)hIl2Cpp + MIBJIOIHFBN_CTOR_OFFSET))(this, a1, a2);

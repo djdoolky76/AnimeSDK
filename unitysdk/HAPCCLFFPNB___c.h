@@ -4,18 +4,18 @@
 class HAPCCLFFPNB;
 namespace System { class Object; }
 
-#define HAPCCLFFPNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4DE420)
-#define HAPCCLFFPNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4DE460)
-#define HAPCCLFFPNB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4DE470)
+#define HAPCCLFFPNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x200AA420)
+#define HAPCCLFFPNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200AA460)
+#define HAPCCLFFPNB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x200AA470)
 
-inline static constexpr unsigned int HAPCCLFFPNB___c_TypeDefinitionIndex = 31240;
+inline static constexpr unsigned int HAPCCLFFPNB___c_TypeDefinitionIndex = 32153;
 
 	class HAPCCLFFPNB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25340);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20640);
 		}
 
 		static ::System::Void _cctor()

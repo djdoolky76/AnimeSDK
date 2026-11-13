@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int OKMJKLGKGNA_TypeDefinitionIndex = 73900;
+inline static constexpr unsigned int OKMJKLGKGNA_TypeDefinitionIndex = 76028;
 
 	class OKMJKLGKGNA : public ::System::Object
 	{

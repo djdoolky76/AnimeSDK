@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IGooglePCOAuthDialog_TypeDefinitionIndex = 8472;
+	inline static constexpr unsigned int IGooglePCOAuthDialog_TypeDefinitionIndex = 8481;
 
 	class IGooglePCOAuthDialog
 	{

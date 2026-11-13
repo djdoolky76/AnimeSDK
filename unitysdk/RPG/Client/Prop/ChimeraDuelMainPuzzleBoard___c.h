@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC5CFD0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC5D010)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C__INITPUZZLE_B__6_0_OFFSET UNITYSDK_OFFSET(0xDC5D020)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C__INITPUZZLE_B__6_1_OFFSET UNITYSDK_OFFSET(0xDC5D040)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFFAEB0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFFAEF0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C__INITPUZZLE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BFFAF00)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C__INITPUZZLE_B__6_1_OFFSET UNITYSDK_OFFSET(0x1BFFAF20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleBoard___c_TypeDefinitionIndex = 78301;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBoard___c_TypeDefinitionIndex = 81036;
 
 	class ChimeraDuelMainPuzzleBoard___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Object*, ::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Object*, ::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x37CE0);
-		}
-
-		static ::System::Func_2<::System::Object*, ::UnityEngine::GameObject*>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::System::Object*, ::UnityEngine::GameObject*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x37CE8);
+			return (::System::Func_2<::System::Object*, ::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x56FE0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x37CF0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x56FE8);
+		}
+
+		static ::System::Func_2<::System::Object*, ::UnityEngine::GameObject*>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::System::Object*, ::UnityEngine::GameObject*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x56FF0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_IKSOLVER_NODE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB0B1A00)
-#define ROOTMOTION_FINALIK_IKSOLVER_NODE_CTOR_2_OFFSET UNITYSDK_OFFSET(0xB0B1A20)
-#define ROOTMOTION_FINALIK_IKSOLVER_NODE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0B19E0)
+#define ROOTMOTION_FINALIK_IKSOLVER_NODE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0C5640)
+#define ROOTMOTION_FINALIK_IKSOLVER_NODE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F0C5660)
+#define ROOTMOTION_FINALIK_IKSOLVER_NODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0C5620)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolver_Node_TypeDefinitionIndex = 46017;
+	inline static constexpr unsigned int IKSolver_Node_TypeDefinitionIndex = 47046;
 
 	class IKSolver_Node : public ::RootMotion::FinalIK::IKSolver_Point
 	{

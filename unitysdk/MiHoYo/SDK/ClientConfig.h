@@ -6,11 +6,11 @@
 namespace MiHoYo::SDK { class ConfigIniModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLIENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1F030)
+#define MIHOYO_SDK_CLIENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B45A640)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ClientConfig_TypeDefinitionIndex = 7889;
+	inline static constexpr unsigned int ClientConfig_TypeDefinitionIndex = 7898;
 
 	class ClientConfig : public ::System::Object
 	{

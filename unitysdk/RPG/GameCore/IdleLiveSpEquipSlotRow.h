@@ -6,22 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveSpEquipSlotRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESPEQUIPSLOTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D751C30)
-#define RPG_GAMECORE_IDLELIVESPEQUIPSLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D751980)
+#define RPG_GAMECORE_IDLELIVESPEQUIPSLOTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8AA80)
+#define RPG_GAMECORE_IDLELIVESPEQUIPSLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE8A7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpEquipSlotRow_TypeDefinitionIndex = 11766;
+	inline static constexpr unsigned int IdleLiveSpEquipSlotRow_TypeDefinitionIndex = 11823;
 
 	class IdleLiveSpEquipSlotRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::UInt32 TeamSlot; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::RPG::Client::TextID UnlockHint; // 0x20
-		::RPG::Client::TextID Title; // 0x30
-		::System::UInt32 UnlockID; // 0x40
+		::RPG::Client::TextID Title; // 0x18
+		::System::UInt32 ID; // 0x28
+		::System::UInt32 TeamSlot; // 0x2C
+		::System::UInt32 UnlockID; // 0x30
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID UnlockHint; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESPEQUIPSLOTROW_CTOR_OFFSET))(this);

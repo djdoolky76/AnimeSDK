@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ComplexSkillAIGlobalGroupLookup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A0B00)
-#define RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A0A00)
+#define RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F519870)
+#define RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F519770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIGlobalGroupLookup_TypeDefinitionIndex = 15568;
+	inline static constexpr unsigned int ComplexSkillAIGlobalGroupLookup_TypeDefinitionIndex = 15726;
 
 	class ComplexSkillAIGlobalGroupLookup : public ::RPG::GameCore::JsonConfig
 	{

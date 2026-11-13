@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class JDBJBNPMLNH;
 
-#define ICDMMENPNCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD91E0)
+#define ICDMMENPNCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D957320)
 
-inline static constexpr unsigned int ICDMMENPNCK_TypeDefinitionIndex = 43187;
+inline static constexpr unsigned int ICDMMENPNCK_TypeDefinitionIndex = 44168;
 
 	class ICDMMENPNCK : public ::System::Object
 	{

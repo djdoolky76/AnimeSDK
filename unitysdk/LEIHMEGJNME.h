@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LEIHMEGJNME_CTOR_OFFSET UNITYSDK_OFFSET(0xB64D5A0)
-#define LEIHMEGJNME_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB64D640)
+#define LEIHMEGJNME_CTOR_OFFSET UNITYSDK_OFFSET(0x18C33AC0)
+#define LEIHMEGJNME_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C33B60)
 
-inline static constexpr unsigned int LEIHMEGJNME_TypeDefinitionIndex = 54827;
+inline static constexpr unsigned int LEIHMEGJNME_TypeDefinitionIndex = 55996;
 
 	class LEIHMEGJNME
 	{

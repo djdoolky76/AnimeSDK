@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class NEOCEOCDEAF;
 
-#define CNHFDCJCFLL_CLEAR_OFFSET UNITYSDK_OFFSET(0xDA4AB90)
-#define CNHFDCJCFLL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA4AC30)
+#define CNHFDCJCFLL_CLEAR_OFFSET UNITYSDK_OFFSET(0x19148560)
+#define CNHFDCJCFLL_CTOR_OFFSET UNITYSDK_OFFSET(0x19148610)
 
-inline static constexpr unsigned int CNHFDCJCFLL_TypeDefinitionIndex = 56906;
+inline static constexpr unsigned int CNHFDCJCFLL_TypeDefinitionIndex = 58130;
 
 	class CNHFDCJCFLL : public ::System::Object
 	{

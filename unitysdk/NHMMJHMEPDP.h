@@ -3,10 +3,10 @@
 class HNKAHGBAJID;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHMMJHMEPDP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBD2D90)
-#define NHMMJHMEPDP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBD2DC0)
+#define NHMMJHMEPDP_CTOR_OFFSET UNITYSDK_OFFSET(0x148AFAF0)
+#define NHMMJHMEPDP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148AFB20)
 
-inline static constexpr unsigned int NHMMJHMEPDP_TypeDefinitionIndex = 58630;
+inline static constexpr unsigned int NHMMJHMEPDP_TypeDefinitionIndex = 59897;
 
 	class NHMMJHMEPDP
 	{

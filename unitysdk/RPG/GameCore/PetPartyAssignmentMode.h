@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetPartyAssignmentMode_TypeDefinitionIndex = 53506;
+	inline static constexpr unsigned int PetPartyAssignmentMode_TypeDefinitionIndex = 54668;
 
 	enum class PetPartyAssignmentMode : ::System::Int32
 	{

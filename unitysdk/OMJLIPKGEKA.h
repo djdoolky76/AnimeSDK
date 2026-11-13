@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleImmuneAttackBack; }
 
-#define OMJLIPKGEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96FAF0)
-#define OMJLIPKGEKA_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C96FB00)
+#define OMJLIPKGEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x17671890)
+#define OMJLIPKGEKA_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x176718A0)
 
-inline static constexpr unsigned int OMJLIPKGEKA_TypeDefinitionIndex = 43132;
+inline static constexpr unsigned int OMJLIPKGEKA_TypeDefinitionIndex = 44113;
 
 	class OMJLIPKGEKA : public ::BKABEBEPPJK
 	{

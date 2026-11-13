@@ -5,20 +5,20 @@ namespace RPG::GameCore { class FinishMazePuzzleChallenge; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKOFGNGDDCP_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CF910)
-#define KKOFGNGDDCP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4CF920)
-#define KKOFGNGDDCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4CF960)
-#define KKOFGNGDDCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB4CFAD0)
-#define KKOFGNGDDCP_TICK_OFFSET UNITYSDK_OFFSET(0xB4CFB20)
+#define KKOFGNGDDCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1735CA30)
+#define KKOFGNGDDCP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1735CA40)
+#define KKOFGNGDDCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1735CA80)
+#define KKOFGNGDDCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1735CBF0)
+#define KKOFGNGDDCP_TICK_OFFSET UNITYSDK_OFFSET(0x1735CC40)
 
-inline static constexpr unsigned int KKOFGNGDDCP_TypeDefinitionIndex = 52816;
+inline static constexpr unsigned int KKOFGNGDDCP_TypeDefinitionIndex = 53960;
 
 	class KKOFGNGDDCP : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::FinishMazePuzzleChallenge* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::PropComponent* GBLNDEKFNNJ; // 0x28
+		::RPG::GameCore::PropComponent* GBLNDEKFNNJ; // 0x20
+		::RPG::GameCore::FinishMazePuzzleChallenge* OFKGLJOAMLD; // 0x28
 		::System::UInt32 DNCPEJNPCBC; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::FinishMazePuzzleChallenge* a2)
 		{

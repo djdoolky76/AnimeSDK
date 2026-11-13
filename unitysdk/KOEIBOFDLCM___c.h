@@ -4,18 +4,18 @@
 class KOEIBOFDLCM;
 namespace System { class Object; }
 
-#define KOEIBOFDLCM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E882C90)
-#define KOEIBOFDLCM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E882CD0)
-#define KOEIBOFDLCM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E882CE0)
+#define KOEIBOFDLCM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205AE7E0)
+#define KOEIBOFDLCM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205AE820)
+#define KOEIBOFDLCM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x205AE830)
 
-inline static constexpr unsigned int KOEIBOFDLCM___c_TypeDefinitionIndex = 31878;
+inline static constexpr unsigned int KOEIBOFDLCM___c_TypeDefinitionIndex = 32791;
 
 	class KOEIBOFDLCM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x213E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20B00);
 		}
 
 		static ::System::Void _cctor()

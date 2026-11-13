@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define RPG_CLIENT_TEAMBUILDRECIPE___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C1270)
-#define RPG_CLIENT_TEAMBUILDRECIPE___C__DISPLAYCLASS21_0__CHECKCOLLETIONSCONTAINNUMBER_B__0_OFFSET UNITYSDK_OFFSET(0xE1C12F0)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1ACC2950)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C__DISPLAYCLASS21_0__CHECKCOLLETIONSCONTAINNUMBER_B__0_OFFSET UNITYSDK_OFFSET(0x1ACC29D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildRecipe___c__DisplayClass21_0_TypeDefinitionIndex = 68095;
+	inline static constexpr unsigned int TeamBuildRecipe___c__DisplayClass21_0_TypeDefinitionIndex = 70041;
 
 	class TeamBuildRecipe___c__DisplayClass21_0 : public ::System::Object
 	{

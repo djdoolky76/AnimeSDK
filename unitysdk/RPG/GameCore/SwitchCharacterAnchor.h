@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SwitchCharacterAnchor; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB13510)
-#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB13520)
-#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB134D0)
+#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1E683010)
+#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E683020)
+#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E682FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCharacterAnchor_TypeDefinitionIndex = 20825;
+	inline static constexpr unsigned int SwitchCharacterAnchor_TypeDefinitionIndex = 21162;
 
 	class SwitchCharacterAnchor : public ::RPG::GameCore::TaskConfig
 	{

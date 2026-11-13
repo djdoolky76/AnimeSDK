@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class MonopolyTriggerDailySettlement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FEGNMFNAIFP_CTOR_OFFSET UNITYSDK_OFFSET(0x156DD3E0)
-#define FEGNMFNAIFP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156DD4A0)
-#define FEGNMFNAIFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156DD3F0)
-#define FEGNMFNAIFP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156DD450)
-#define FEGNMFNAIFP_TICK_OFFSET UNITYSDK_OFFSET(0x156DD4F0)
+#define FEGNMFNAIFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1308DA00)
+#define FEGNMFNAIFP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1308DAC0)
+#define FEGNMFNAIFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1308DA10)
+#define FEGNMFNAIFP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1308DA70)
+#define FEGNMFNAIFP_TICK_OFFSET UNITYSDK_OFFSET(0x1308DB10)
 
-inline static constexpr unsigned int FEGNMFNAIFP_TypeDefinitionIndex = 58226;
+inline static constexpr unsigned int FEGNMFNAIFP_TypeDefinitionIndex = 59482;
 
 	class FEGNMFNAIFP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::MonopolyTriggerDailySettlement* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::MonopolyTriggerDailySettlement* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyTriggerDailySettlement* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MonopolyTriggerDailySettlement*))((::PBYTE)hIl2Cpp + FEGNMFNAIFP_CTOR_OFFSET))(this, a1, a2);

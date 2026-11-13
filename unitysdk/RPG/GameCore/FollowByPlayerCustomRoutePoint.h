@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FollowByPlayerCustomRoutePoint; }
 
-#define RPG_GAMECORE_FOLLOWBYPLAYERCUSTOMROUTEPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B9DA0)
-#define RPG_GAMECORE_FOLLOWBYPLAYERCUSTOMROUTEPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B9C60)
+#define RPG_GAMECORE_FOLLOWBYPLAYERCUSTOMROUTEPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7ADD70)
+#define RPG_GAMECORE_FOLLOWBYPLAYERCUSTOMROUTEPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7ADC30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FollowByPlayerCustomRoutePoint_TypeDefinitionIndex = 19988;
+	inline static constexpr unsigned int FollowByPlayerCustomRoutePoint_TypeDefinitionIndex = 20322;
 
 	class FollowByPlayerCustomRoutePoint : public ::RPG::GameCore::JsonConfig
 	{

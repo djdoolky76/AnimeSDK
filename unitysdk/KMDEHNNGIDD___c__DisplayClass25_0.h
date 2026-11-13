@@ -8,11 +8,11 @@ namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define KMDEHNNGIDD___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB53B6A0)
-#define KMDEHNNGIDD___C__DISPLAYCLASS25_0__CREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xB53C800)
-#define KMDEHNNGIDD___C__DISPLAYCLASS25_0__CREATELOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xB53C920)
+#define KMDEHNNGIDD___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17B99120)
+#define KMDEHNNGIDD___C__DISPLAYCLASS25_0__CREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x17B9A280)
+#define KMDEHNNGIDD___C__DISPLAYCLASS25_0__CREATELOBBY_B__1_OFFSET UNITYSDK_OFFSET(0x17B9A3B0)
 
-inline static constexpr unsigned int KMDEHNNGIDD___c__DisplayClass25_0_TypeDefinitionIndex = 63056;
+inline static constexpr unsigned int KMDEHNNGIDD___c__DisplayClass25_0_TypeDefinitionIndex = 64494;
 
 	class KMDEHNNGIDD___c__DisplayClass25_0 : public ::System::Object
 	{

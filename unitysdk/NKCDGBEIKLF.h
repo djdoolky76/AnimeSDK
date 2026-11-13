@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NKCDGBEIKLF_TypeDefinitionIndex = 24452;
+inline static constexpr unsigned int NKCDGBEIKLF_TypeDefinitionIndex = 24911;
 
 	enum class NKCDGBEIKLF : ::System::Int32
 	{

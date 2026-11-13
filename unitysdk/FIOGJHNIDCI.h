@@ -10,41 +10,41 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define FIOGJHNIDCI_CCTOR_OFFSET UNITYSDK_OFFSET(0x157A56E0)
-#define FIOGJHNIDCI_FMPAOKGPMNG_OFFSET UNITYSDK_OFFSET(0x157A4F70)
-#define FIOGJHNIDCI_HCLHNJJGMEH_1_OFFSET UNITYSDK_OFFSET(0x157A5170)
-#define FIOGJHNIDCI_HCLHNJJGMEH_2_OFFSET UNITYSDK_OFFSET(0x157A5580)
-#define FIOGJHNIDCI_KAIIMFPAFPL_1_OFFSET UNITYSDK_OFFSET(0x157A52A0)
-#define FIOGJHNIDCI_LOPDPKNMMHN_1_OFFSET UNITYSDK_OFFSET(0x157A5410)
+#define FIOGJHNIDCI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1980E550)
+#define FIOGJHNIDCI_FMPAOKGPMNG_OFFSET UNITYSDK_OFFSET(0x1980DDE0)
+#define FIOGJHNIDCI_HCLHNJJGMEH_1_OFFSET UNITYSDK_OFFSET(0x1980DFE0)
+#define FIOGJHNIDCI_HCLHNJJGMEH_2_OFFSET UNITYSDK_OFFSET(0x1980E3F0)
+#define FIOGJHNIDCI_KAIIMFPAFPL_1_OFFSET UNITYSDK_OFFSET(0x1980E110)
+#define FIOGJHNIDCI_LOPDPKNMMHN_1_OFFSET UNITYSDK_OFFSET(0x1980E280)
 
-inline static constexpr unsigned int FIOGJHNIDCI_TypeDefinitionIndex = 49526;
+inline static constexpr unsigned int FIOGJHNIDCI_TypeDefinitionIndex = 50602;
 
 	class FIOGJHNIDCI : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::System::String*, ::GGJFAFONDHN*>*>** StaticGet_PBFJBLKMBIA()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::System::String*, ::GGJFAFONDHN*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x55B80);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::EMLPMKPFLAH*>*>** StaticGet_PPLKOBMIICF()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::EMLPMKPFLAH*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x55B88);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::System::String*, ::GGJFAFONDHN*>*>** StaticGet_PPMMPMEAKBH()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::System::String*, ::GGJFAFONDHN*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x55B90);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::System::String*, ::GGJFAFONDHN*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x59130);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::UnityEngine::ScriptableObject*, ::EMLPMKPFLAH*>*>** StaticGet_HHDFAFLKINC()
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::System::String*, ::GGJFAFONDHN*>*>** StaticGet_PBFJBLKMBIA()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::UnityEngine::ScriptableObject*, ::EMLPMKPFLAH*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x55B98);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::System::String*, ::GGJFAFONDHN*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x59138);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::UnityEngine::ScriptableObject*, ::EMLPMKPFLAH*>*>** StaticGet_AGDMNDCMAEC()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::UnityEngine::ScriptableObject*, ::EMLPMKPFLAH*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x55BA0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::UnityEngine::ScriptableObject*, ::EMLPMKPFLAH*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x59140);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::UnityEngine::ScriptableObject*, ::EMLPMKPFLAH*>*>** StaticGet_HHDFAFLKINC()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::UnityEngine::ScriptableObject*, ::EMLPMKPFLAH*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x59148);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::EMLPMKPFLAH*>*>** StaticGet_PPLKOBMIICF()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::EMLPMKPFLAH*>*>**)UnitySDK::FromName("", "FIOGJHNIDCI")->GetStaticField(0x59150);
 		}
 
 		static ::System::Void _cctor()

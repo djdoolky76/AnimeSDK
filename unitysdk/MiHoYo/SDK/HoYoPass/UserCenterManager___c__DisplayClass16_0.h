@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class Web; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE50170)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__ONGETTHIRDTOKENINVOKED_B__0_OFFSET UNITYSDK_OFFSET(0x1BE51AF0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B698E10)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__ONGETTHIRDTOKENINVOKED_B__0_OFFSET UNITYSDK_OFFSET(0x1B69A7A0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager___c__DisplayClass16_0_TypeDefinitionIndex = 8279;
+	inline static constexpr unsigned int UserCenterManager___c__DisplayClass16_0_TypeDefinitionIndex = 8288;
 
 	class UserCenterManager___c__DisplayClass16_0 : public ::System::Object
 	{

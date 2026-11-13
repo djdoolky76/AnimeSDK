@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JJCPEDEHLON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB73030)
+#define JJCPEDEHLON_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE184D0)
 
-inline static constexpr unsigned int JJCPEDEHLON_TypeDefinitionIndex = 42951;
+inline static constexpr unsigned int JJCPEDEHLON_TypeDefinitionIndex = 43932;
 
 	class JJCPEDEHLON : public ::System::Object
 	{

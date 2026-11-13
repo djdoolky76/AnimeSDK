@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AbortInsertAbility; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ABORTINSERTABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D311910)
-#define RPG_GAMECORE_ABORTINSERTABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D311920)
-#define RPG_GAMECORE_ABORTINSERTABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3118E0)
+#define RPG_GAMECORE_ABORTINSERTABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4EF7D0)
+#define RPG_GAMECORE_ABORTINSERTABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4EF7E0)
+#define RPG_GAMECORE_ABORTINSERTABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4EF7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbortInsertAbility_TypeDefinitionIndex = 22666;
+	inline static constexpr unsigned int AbortInsertAbility_TypeDefinitionIndex = 23088;
 
 	class AbortInsertAbility : public ::RPG::GameCore::TaskConfig
 	{

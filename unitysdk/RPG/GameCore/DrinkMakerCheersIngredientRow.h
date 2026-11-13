@@ -6,25 +6,25 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerCheersIngredientRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERCHEERSINGREDIENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EE8F0)
-#define RPG_GAMECORE_DRINKMAKERCHEERSINGREDIENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5EE530)
+#define RPG_GAMECORE_DRINKMAKERCHEERSINGREDIENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CC340)
+#define RPG_GAMECORE_DRINKMAKERCHEERSINGREDIENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3CBF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCheersIngredientRow_TypeDefinitionIndex = 13203;
+	inline static constexpr unsigned int DrinkMakerCheersIngredientRow_TypeDefinitionIndex = 13277;
 
 	class DrinkMakerCheersIngredientRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* PhyParam; // 0x10
-		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x18
-		::Il2CppArray<::System::UInt32>* Color; // 0x20
-		::System::String* SmallIconPath; // 0x28
-		::System::String* IconPath; // 0x30
-		::Il2CppArray<::System::Single>* EffParam; // 0x38
-		::RPG::Client::TextID IngredientDesc; // 0x40
-		::System::UInt32 ID; // 0x50
+		::Il2CppArray<::System::UInt32>* Color; // 0x10
+		::System::String* IconPath; // 0x18
+		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x20
+		::Il2CppArray<::System::Single>* PhyParam; // 0x28
+		::Il2CppArray<::System::Single>* EffParam; // 0x30
+		::System::String* SmallIconPath; // 0x38
+		::System::UInt32 ID; // 0x40
 		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID IngredientDesc; // 0x48
 		::RPG::Client::TextID IngredientName; // 0x58
 		::System::Void _ctor()
 		{

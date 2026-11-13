@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByFastDeliverHasMultiRoute; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JNCIENHAIEF_CTOR_OFFSET UNITYSDK_OFFSET(0xB272C70)
-#define JNCIENHAIEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB272CA0)
+#define JNCIENHAIEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C2110)
+#define JNCIENHAIEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A0C2140)
 
-inline static constexpr unsigned int JNCIENHAIEF_TypeDefinitionIndex = 53114;
+inline static constexpr unsigned int JNCIENHAIEF_TypeDefinitionIndex = 54276;
 
 	class JNCIENHAIEF
 	{

@@ -4,41 +4,41 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDDFA00)
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDF9F0)
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETAUTHTICKETFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1BDDEB50)
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETCMDLINEMAP_OFFSET UNITYSDK_OFFSET(0x1BDDED90)
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1BDDF940)
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETDEEPLINKFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1BDDF7D0)
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETSTORAGETYPEFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1BDDF620)
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETTHIRDPARTYFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1BDDF3E0)
-#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETTRACEIDFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1BDDF1A0)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1962AAB0)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0x1962AAA0)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETAUTHTICKETFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x19629BC0)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETCMDLINEMAP_OFFSET UNITYSDK_OFFSET(0x19629E00)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1962A9F0)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETDEEPLINKFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1962A840)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETSTORAGETYPEFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1962A690)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETTHIRDPARTYFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1962A450)
+#define MIHOYO_SDK_WIN_WINDOWSUTILS_GETTRACEIDFROMCOMMANDLINE_OFFSET UNITYSDK_OFFSET(0x1962A210)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int WindowsUtils_TypeDefinitionIndex = 9487;
+	inline static constexpr unsigned int WindowsUtils_TypeDefinitionIndex = 9495;
 
 	class WindowsUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_cmdLineMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "WindowsUtils")->GetStaticField(0x30000);
-		}
-
 		static ::System::String** StaticGet_LOGIN_STORAGE_LOCAL_TYPE()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.Win", "WindowsUtils")->GetStaticField(0x30008);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_commandLineArgs()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "WindowsUtils")->GetStaticField(0x30010);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.Win", "WindowsUtils")->GetStaticField(0x228A0);
 		}
 
 		static ::System::String** StaticGet_LOGIN_STORAGE_SESSION_TYPE()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.Win", "WindowsUtils")->GetStaticField(0x30018);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.Win", "WindowsUtils")->GetStaticField(0x228A8);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_commandLineArgs()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "WindowsUtils")->GetStaticField(0x228B0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_cmdLineMap()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "WindowsUtils")->GetStaticField(0x228B8);
 		}
 
 		// static const ::System::String* LOGIN_AUTH_TICKET_KEY; // 0x0

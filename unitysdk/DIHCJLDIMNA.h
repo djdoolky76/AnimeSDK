@@ -8,19 +8,19 @@ class FCOEMCEDLNL;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define DIHCJLDIMNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF86A0)
-#define DIHCJLDIMNA_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1CCF8860)
-#define DIHCJLDIMNA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCF86B0)
-#define DIHCJLDIMNA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF8670)
+#define DIHCJLDIMNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7ED410)
+#define DIHCJLDIMNA_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1E7ED5D0)
+#define DIHCJLDIMNA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7ED420)
+#define DIHCJLDIMNA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7ED3E0)
 
-inline static constexpr unsigned int DIHCJLDIMNA_TypeDefinitionIndex = 22783;
+inline static constexpr unsigned int DIHCJLDIMNA_TypeDefinitionIndex = 23205;
 
 	class DIHCJLDIMNA : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
 		::System::String* FHLJGDGMMHK; // 0x18
-		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x20
-		::CMABCOBMACM PICEOEEKCIN; // 0x24
+		::CMABCOBMACM PICEOEEKCIN; // 0x20
+		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIHCJLDIMNA_CTOR_OFFSET))(this);

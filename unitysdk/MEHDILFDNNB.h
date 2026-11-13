@@ -3,10 +3,10 @@
 class IGDCNPMKMEB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MEHDILFDNNB_CTOR_OFFSET UNITYSDK_OFFSET(0xB8C7400)
-#define MEHDILFDNNB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8C7430)
+#define MEHDILFDNNB_CTOR_OFFSET UNITYSDK_OFFSET(0x17C57260)
+#define MEHDILFDNNB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17C57290)
 
-inline static constexpr unsigned int MEHDILFDNNB_TypeDefinitionIndex = 55060;
+inline static constexpr unsigned int MEHDILFDNNB_TypeDefinitionIndex = 56236;
 
 	class MEHDILFDNNB
 	{

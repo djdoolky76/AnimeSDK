@@ -4,9 +4,9 @@
 class LEGNLMENMJK;
 namespace RPG::Client::ChenLingBattle { class IEntity; }
 
-#define EJABHKKFFCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x154C98B0)
+#define EJABHKKFFCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19AA4FC0)
 
-inline static constexpr unsigned int EJABHKKFFCK_TypeDefinitionIndex = 76367;
+inline static constexpr unsigned int EJABHKKFFCK_TypeDefinitionIndex = 78698;
 
 	class EJABHKKFFCK : public ::System::Object
 	{

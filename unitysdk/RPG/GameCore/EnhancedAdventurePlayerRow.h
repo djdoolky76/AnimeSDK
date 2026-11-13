@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EnhancedAdventurePlayerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D615540)
-#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6153A0)
+#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0EBF30)
+#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F0EBD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnhancedAdventurePlayerRow_TypeDefinitionIndex = 12587;
+	inline static constexpr unsigned int EnhancedAdventurePlayerRow_TypeDefinitionIndex = 12654;
 
 	class EnhancedAdventurePlayerRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x10
-		::System::String* PlayerJsonPath; // 0x18
+		::System::String* PlayerJsonPath; // 0x10
+		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x18
 		::System::UInt32 EnhancedID; // 0x20
 		::System::UInt32 ID; // 0x24
 		::System::Void _ctor()

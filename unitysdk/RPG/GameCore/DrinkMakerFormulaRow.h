@@ -7,29 +7,29 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerFormulaRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERFORMULAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F08E0)
-#define RPG_GAMECORE_DRINKMAKERFORMULAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F03B0)
+#define RPG_GAMECORE_DRINKMAKERFORMULAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CE330)
+#define RPG_GAMECORE_DRINKMAKERFORMULAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3CDE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerFormulaRow_TypeDefinitionIndex = 13187;
+	inline static constexpr unsigned int DrinkMakerFormulaRow_TypeDefinitionIndex = 13261;
 
 	class DrinkMakerFormulaRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* IngredientList; // 0x10
+		::System::String* SmallIconPath; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::String* SmallIconPath; // 0x20
-		::System::UInt32 IceID; // 0x28
-		::System::Boolean IsChallengeMode; // 0x2C
-		::System::Boolean IsMission; // 0x2D
-		::System::Byte _padding0[0x2];
-		::RPG::Client::TextID FormulaDesc; // 0x30
-		::System::UInt32 FormulaID; // 0x40
-		::System::UInt32 DecoID; // 0x44
+		::Il2CppArray<::System::UInt32>* IngredientList; // 0x20
+		::RPG::Client::TextID FormulaDesc; // 0x28
+		::System::UInt32 CupID; // 0x38
+		::System::UInt32 DecoID; // 0x3C
+		::System::UInt32 IceID; // 0x40
+		::System::UInt32 UnlockParam; // 0x44
 		::System::UInt32 MixRate; // 0x48
-		::System::UInt32 CupID; // 0x4C
-		::System::UInt32 UnlockParam; // 0x50
+		::System::Boolean IsChallengeMode; // 0x4C
+		::System::Boolean IsMission; // 0x4D
+		::System::Byte _padding0[0x2];
+		::System::UInt32 FormulaID; // 0x50
 		::RPG::GameCore::DrinkMakerFormulaUnlockType UnlockType; // 0x54
 		::RPG::Client::TextID FormulaName; // 0x58
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F149DF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER___C__DISPLAYCLASS51_0__INITIALIZEAFTERLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x1F14A840)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E589980)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER___C__DISPLAYCLASS51_0__INITIALIZEAFTERLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x1E58A3D0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStreamPlayer___c__DisplayClass51_0_TypeDefinitionIndex = 45872;
+	inline static constexpr unsigned int AlembicStreamPlayer___c__DisplayClass51_0_TypeDefinitionIndex = 46901;
 
 	class AlembicStreamPlayer___c__DisplayClass51_0 : public ::System::Object
 	{

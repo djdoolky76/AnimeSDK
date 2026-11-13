@@ -7,23 +7,23 @@ namespace System { class Object; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERCOLOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0xAF40240)
-#define HDG_RDTSERIALIZERCOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40230)
-#define HDG_RDTSERIALIZERCOLOR_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF40280)
-#define HDG_RDTSERIALIZERCOLOR_READ_OFFSET UNITYSDK_OFFSET(0xAF404D0)
-#define HDG_RDTSERIALIZERCOLOR_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0xAF40270)
-#define HDG_RDTSERIALIZERCOLOR_WRITE_OFFSET UNITYSDK_OFFSET(0xAF402B0)
+#define HDG_RDTSERIALIZERCOLOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A6A8EF0)
+#define HDG_RDTSERIALIZERCOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A8EE0)
+#define HDG_RDTSERIALIZERCOLOR_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A6A8F30)
+#define HDG_RDTSERIALIZERCOLOR_READ_OFFSET UNITYSDK_OFFSET(0x1A6A9180)
+#define HDG_RDTSERIALIZERCOLOR_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0x1A6A8F20)
+#define HDG_RDTSERIALIZERCOLOR_WRITE_OFFSET UNITYSDK_OFFSET(0x1A6A8F60)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerColor_TypeDefinitionIndex = 46955;
+	inline static constexpr unsigned int rdtSerializerColor_TypeDefinitionIndex = 47983;
 
 	class rdtSerializerColor : public ::System::Object
 	{
 	public:
-		::System::Single r; // 0x10
-		::System::Single g; // 0x14
-		::System::Single a; // 0x18
+		::System::Single g; // 0x10
+		::System::Single a; // 0x14
+		::System::Single r; // 0x18
 		::System::Single b; // 0x1C
 		::System::Void _ctor()
 		{

@@ -4,10 +4,10 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class ByCompareCharacterNumber; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DDIFBCDICDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE2626B0)
-#define DDIFBCDICDJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE262770)
+#define DDIFBCDICDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1773CCC0)
+#define DDIFBCDICDJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1773CD80)
 
-inline static constexpr unsigned int DDIFBCDICDJ_TypeDefinitionIndex = 54522;
+inline static constexpr unsigned int DDIFBCDICDJ_TypeDefinitionIndex = 55687;
 
 	class DDIFBCDICDJ
 	{

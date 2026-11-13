@@ -4,10 +4,10 @@
 class MFLJIEBFMOF;
 namespace RPG::Client { class MonoDanmuItem; }
 
-#define MNBKMDODGJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9DF0F0)
-#define MNBKMDODGJL_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0xB9DEFA0)
+#define MNBKMDODGJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1890E110)
+#define MNBKMDODGJL_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x1890DFF0)
 
-inline static constexpr unsigned int MNBKMDODGJL_TypeDefinitionIndex = 68954;
+inline static constexpr unsigned int MNBKMDODGJL_TypeDefinitionIndex = 70907;
 
 	class MNBKMDODGJL : public ::System::Object
 	{

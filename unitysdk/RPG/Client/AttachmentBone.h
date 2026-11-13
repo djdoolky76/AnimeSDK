@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ATTACHMENTBONE_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A3720)
+#define RPG_CLIENT_ATTACHMENTBONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAADD30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachmentBone_TypeDefinitionIndex = 68440;
+	inline static constexpr unsigned int AttachmentBone_TypeDefinitionIndex = 70387;
 
 	class AttachmentBone : public ::System::Object
 	{

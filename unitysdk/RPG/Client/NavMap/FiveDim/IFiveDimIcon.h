@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimIcon_TypeDefinitionIndex = 74650;
+	inline static constexpr unsigned int IFiveDimIcon_TypeDefinitionIndex = 76798;
 
 	class IFiveDimIcon
 	{

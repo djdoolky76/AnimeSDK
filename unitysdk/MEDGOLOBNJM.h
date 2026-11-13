@@ -10,11 +10,11 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifierHint; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define MEDGOLOBNJM_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xB8B6AB0)
-#define MEDGOLOBNJM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB8B6920)
-#define MEDGOLOBNJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B6910)
+#define MEDGOLOBNJM_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x183F86D0)
+#define MEDGOLOBNJM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x183F8540)
+#define MEDGOLOBNJM_CTOR_OFFSET UNITYSDK_OFFSET(0x183F8530)
 
-inline static constexpr unsigned int MEDGOLOBNJM_TypeDefinitionIndex = 71326;
+inline static constexpr unsigned int MEDGOLOBNJM_TypeDefinitionIndex = 73303;
 
 	class MEDGOLOBNJM : public ::System::Object
 	{
@@ -23,9 +23,10 @@ inline static constexpr unsigned int MEDGOLOBNJM_TypeDefinitionIndex = 71326;
 		::Il2CppArray<::RPG::GameCore::FixPoint>* HLJCDHMCPAI; // 0x18
 		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x20
 		::System::Int32 CKOIMOLALEH; // 0x28
-		::System::Int32 NALMBOOCCIN; // 0x2C
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID NMAHGFAPENI; // 0x30
 		::RPG::GameCore::ModifierHintType INAHCAEDLEA; // 0x40
+		::System::Int32 NALMBOOCCIN; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MEDGOLOBNJM_CTOR_OFFSET))(this);

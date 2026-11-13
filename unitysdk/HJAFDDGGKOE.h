@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 class HJAFDDGGKOE;
 namespace System { class String; }
 
-#define HJAFDDGGKOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE873E0)
-#define HJAFDDGGKOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE87110)
+#define HJAFDDGGKOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E827930)
+#define HJAFDDGGKOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E827760)
 
-inline static constexpr unsigned int HJAFDDGGKOE_TypeDefinitionIndex = 22867;
+inline static constexpr unsigned int HJAFDDGGKOE_TypeDefinitionIndex = 23292;
 
 	class HJAFDDGGKOE : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* JGHAOCCGGPD; // 0x10
 		::RPG::MVector3 PPAEKJBDKAD; // 0x18
-		::RPG::MVector3 BNGJDBHHMFO; // 0x24
-		::System::Single LAJKDIGIBOF; // 0x30
+		::System::Single LAJKDIGIBOF; // 0x24
+		::RPG::MVector3 BNGJDBHHMFO; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJAFDDGGKOE_CTOR_OFFSET))(this);

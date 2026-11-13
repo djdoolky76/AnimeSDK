@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/FMChannelClientTransformMode.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_FMCHANNELCLIENTTRANSFORMMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCE55E60)
+#define RPG_CLIENT_FMCHANNELCLIENTTRANSFORMMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB932D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FMChannelClientTransformMonoPlugin_TypeDefinitionIndex = 70287;
+	inline static constexpr unsigned int FMChannelClientTransformMonoPlugin_TypeDefinitionIndex = 72253;
 
 	class FMChannelClientTransformMonoPlugin
 	{

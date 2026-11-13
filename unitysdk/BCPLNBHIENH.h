@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RecordAutoLayoutSnapShot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BCPLNBHIENH_CTOR_OFFSET UNITYSDK_OFFSET(0x162DDF60)
-#define BCPLNBHIENH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162DDF90)
+#define BCPLNBHIENH_CTOR_OFFSET UNITYSDK_OFFSET(0x19D87540)
+#define BCPLNBHIENH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19D87570)
 
-inline static constexpr unsigned int BCPLNBHIENH_TypeDefinitionIndex = 55280;
+inline static constexpr unsigned int BCPLNBHIENH_TypeDefinitionIndex = 56461;
 
 	class BCPLNBHIENH
 	{

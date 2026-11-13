@@ -5,23 +5,23 @@ namespace RPG::Client { class VoracityInvasionProgressBuffData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define EEDKHIFBBDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x13A2AD00)
-#define EEDKHIFBBDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2AD40)
-#define EEDKHIFBBDM___C__GETSORTEDBUFFLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x13A2AD50)
+#define EEDKHIFBBDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A312580)
+#define EEDKHIFBBDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3125C0)
+#define EEDKHIFBBDM___C__GETSORTEDBUFFLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A3125D0)
 
-inline static constexpr unsigned int EEDKHIFBBDM___c_TypeDefinitionIndex = 68269;
+inline static constexpr unsigned int EEDKHIFBBDM___c_TypeDefinitionIndex = 70215;
 
 	class EEDKHIFBBDM___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::VoracityInvasionProgressBuffData*>** StaticGet___9__2_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::VoracityInvasionProgressBuffData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FEF0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FEF8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72980);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::VoracityInvasionProgressBuffData*>** StaticGet___9__2_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::VoracityInvasionProgressBuffData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72988);
 		}
 
 		static ::System::Void _cctor()

@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GJJLJFICILH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A5EC40)
-#define GJJLJFICILH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A5EC70)
-#define GJJLJFICILH___C___ENSUREMODETYPESCACHE_B__3_0_OFFSET UNITYSDK_OFFSET(0x15A5EC80)
+#define GJJLJFICILH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8A5A30)
+#define GJJLJFICILH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8A5A60)
+#define GJJLJFICILH___C___ENSUREMODETYPESCACHE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A8A5A70)
 
-inline static constexpr unsigned int GJJLJFICILH___c_TypeDefinitionIndex = 74743;
+inline static constexpr unsigned int GJJLJFICILH___c_TypeDefinitionIndex = 76891;
 
 	class GJJLJFICILH___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68E30);
-		}
-
 		static ::System::Func_2<::RPG::Client::PetMarble::Level::PetMarbleLevelModeType, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::PetMarble::Level::PetMarbleLevelModeType, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68E38);
+			return (::System::Func_2<::RPG::Client::PetMarble::Level::PetMarbleLevelModeType, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F760);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F768);
 		}
 
 		static ::System::Void _cctor()

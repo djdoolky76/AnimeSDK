@@ -4,18 +4,18 @@
 class PAALDKHKOLE;
 namespace System { class Object; }
 
-#define PAALDKHKOLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEBC960)
-#define PAALDKHKOLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBC990)
-#define PAALDKHKOLE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEBC9A0)
+#define PAALDKHKOLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2036FFE0)
+#define PAALDKHKOLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20370010)
+#define PAALDKHKOLE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20370020)
 
-inline static constexpr unsigned int PAALDKHKOLE___c_TypeDefinitionIndex = 25963;
+inline static constexpr unsigned int PAALDKHKOLE___c_TypeDefinitionIndex = 26460;
 
 	class PAALDKHKOLE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B5C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BD50);
 		}
 
 		static ::System::Void _cctor()

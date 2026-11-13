@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define KALBNGGLCDO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC4D7D0)
-#define KALBNGGLCDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4D7C0)
-#define KALBNGGLCDO_GET_ID_OFFSET UNITYSDK_OFFSET(0x1EC4D7E0)
+#define KALBNGGLCDO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E537360)
+#define KALBNGGLCDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E537350)
+#define KALBNGGLCDO_GET_ID_OFFSET UNITYSDK_OFFSET(0x1E537370)
 
-inline static constexpr unsigned int KALBNGGLCDO_TypeDefinitionIndex = 44279;
+inline static constexpr unsigned int KALBNGGLCDO_TypeDefinitionIndex = 45354;
 
 	class KALBNGGLCDO : public ::System::Attribute
 	{

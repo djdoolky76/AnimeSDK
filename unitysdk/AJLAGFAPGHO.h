@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckModifierCallBackBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJLAGFAPGHO_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBF860)
-#define AJLAGFAPGHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CBF890)
+#define AJLAGFAPGHO_CTOR_OFFSET UNITYSDK_OFFSET(0x19D46130)
+#define AJLAGFAPGHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19D46160)
 
-inline static constexpr unsigned int AJLAGFAPGHO_TypeDefinitionIndex = 54501;
+inline static constexpr unsigned int AJLAGFAPGHO_TypeDefinitionIndex = 55666;
 
 	class AJLAGFAPGHO
 	{

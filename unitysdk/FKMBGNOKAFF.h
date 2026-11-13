@@ -6,25 +6,26 @@ class PAADPKGPFMJ;
 namespace RPG::GameCore { class FreeStyleAnimGroupEventConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FKMBGNOKAFF_CTOR_OFFSET UNITYSDK_OFFSET(0x15801D40)
-#define FKMBGNOKAFF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15802200)
-#define FKMBGNOKAFF_EKKEFCIPHPI_OFFSET UNITYSDK_OFFSET(0x15801FC0)
-#define FKMBGNOKAFF_HAGGMBLKIFL_OFFSET UNITYSDK_OFFSET(0x15801D20)
-#define FKMBGNOKAFF_IKACEFAFAJG_OFFSET UNITYSDK_OFFSET(0x15802090)
-#define FKMBGNOKAFF_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x15802160)
+#define FKMBGNOKAFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1893AA80)
+#define FKMBGNOKAFF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1893AF40)
+#define FKMBGNOKAFF_EKKEFCIPHPI_OFFSET UNITYSDK_OFFSET(0x1893AD00)
+#define FKMBGNOKAFF_HAGGMBLKIFL_OFFSET UNITYSDK_OFFSET(0x1893AA60)
+#define FKMBGNOKAFF_IKACEFAFAJG_OFFSET UNITYSDK_OFFSET(0x1893ADD0)
+#define FKMBGNOKAFF_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x1893AEA0)
 
-inline static constexpr unsigned int FKMBGNOKAFF_TypeDefinitionIndex = 57266;
+inline static constexpr unsigned int FKMBGNOKAFF_TypeDefinitionIndex = 58493;
 
 	class FKMBGNOKAFF : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* BAODKPDFNFC; // 0x10
-		::KFELGAIGHAP* KEBGDCCFDEF; // 0x18
-		::KFELGAIGHAP* MLFDPPFABHF; // 0x20
-		::RPG::GameCore::FreeStyleAnimGroupEventConfig* EABKOHGCHFP; // 0x28
-		::System::Int32 FJJHLAEBNLJ; // 0x30
-		::System::Boolean LEICGLBOIDL; // 0x34
-		::System::Boolean LMLJLOCBMDI; // 0x35
+		::KFELGAIGHAP* MLFDPPFABHF; // 0x10
+		::Il2CppArray<::System::Int32>* BAODKPDFNFC; // 0x18
+		::RPG::GameCore::FreeStyleAnimGroupEventConfig* EABKOHGCHFP; // 0x20
+		::KFELGAIGHAP* KEBGDCCFDEF; // 0x28
+		::System::Boolean LEICGLBOIDL; // 0x30
+		::System::Boolean LMLJLOCBMDI; // 0x31
+		::System::Byte _padding0[0x2];
+		::System::Int32 FJJHLAEBNLJ; // 0x34
 		::System::Void _ctor(::PAADPKGPFMJ* a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::FreeStyleAnimGroupEventConfig* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::PAADPKGPFMJ*, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::FreeStyleAnimGroupEventConfig*))((::PBYTE)hIl2Cpp + FKMBGNOKAFF_CTOR_OFFSET))(this, a1, a2, a3);

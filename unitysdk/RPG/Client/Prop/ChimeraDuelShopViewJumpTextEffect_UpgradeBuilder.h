@@ -4,18 +4,18 @@
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace RPG::Client::Prop { class ChimeraDuelShopViewJumpTextEffect; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0xDC6A4A0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEBUILDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6A410)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1C0061E0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEBUILDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C006160)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder_TypeDefinitionIndex = 78365;
+	inline static constexpr unsigned int ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder_TypeDefinitionIndex = 81100;
 
 	class ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChimeraDuelGameSessionChimera* _CacheB; // 0x10
-		::RPG::Client::ChimeraDuelGameSessionChimera* _CacheA; // 0x18
+		::RPG::Client::ChimeraDuelGameSessionChimera* _CacheA; // 0x10
+		::RPG::Client::ChimeraDuelGameSessionChimera* _CacheB; // 0x18
 		::System::Int32 TargetSlot; // 0x20
 		::System::Void _ctor(::RPG::Client::ChimeraDuelGameSessionChimera* a1, ::RPG::Client::ChimeraDuelGameSessionChimera* a2)
 		{

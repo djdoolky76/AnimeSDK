@@ -4,27 +4,27 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NAEEAOEHNAM_CLEAR_OFFSET UNITYSDK_OFFSET(0xBA51580)
-#define NAEEAOEHNAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA515E0)
-#define NAEEAOEHNAM_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xBA51560)
-#define NAEEAOEHNAM_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xBA51540)
-#define NAEEAOEHNAM_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xBA51570)
-#define NAEEAOEHNAM_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xBA51550)
+#define NAEEAOEHNAM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BAE8680)
+#define NAEEAOEHNAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE86F0)
+#define NAEEAOEHNAM_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x1BAE8660)
+#define NAEEAOEHNAM_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x1BAE8640)
+#define NAEEAOEHNAM_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x1BAE8670)
+#define NAEEAOEHNAM_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x1BAE8650)
 
-inline static constexpr unsigned int NAEEAOEHNAM_TypeDefinitionIndex = 53857;
+inline static constexpr unsigned int NAEEAOEHNAM_TypeDefinitionIndex = 55021;
 
 	class NAEEAOEHNAM : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x10
+		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
 		::RPG::GameCore::GameEntity* OBGGPEHLPBG; // 0x18
-		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x20
-		::System::Boolean LBAFIMAMNPL; // 0x28
-		::System::Boolean _LockDamageZero_k__BackingField; // 0x29
-		::System::Boolean GNIKNANDLNH; // 0x2A
-		::System::Boolean BPKFCCGIEPH; // 0x2B
-		::System::Boolean _IsPropagateAttack_k__BackingField; // 0x2C
-		::System::Boolean KFHFGGIGAKK; // 0x2D
+		::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x20
+		::System::Boolean BPKFCCGIEPH; // 0x28
+		::System::Boolean GNIKNANDLNH; // 0x29
+		::System::Boolean _IsPropagateAttack_k__BackingField; // 0x2A
+		::System::Boolean LBAFIMAMNPL; // 0x2B
+		::System::Boolean KFHFGGIGAKK; // 0x2C
+		::System::Boolean _LockDamageZero_k__BackingField; // 0x2D
 		::System::Byte _padding0[0x2];
 		::RPG::GameCore::FixPoint HDKGKHCCEGI; // 0x30
 		::System::Void _ctor()

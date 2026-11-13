@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePerformanceResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DDLIKFGGPIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE4E62B0)
-#define DDLIKFGGPIJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE4E62E0)
+#define DDLIKFGGPIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x17744420)
+#define DDLIKFGGPIJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17744450)
 
-inline static constexpr unsigned int DDLIKFGGPIJ_TypeDefinitionIndex = 52582;
+inline static constexpr unsigned int DDLIKFGGPIJ_TypeDefinitionIndex = 53688;
 
 	class DDLIKFGGPIJ
 	{

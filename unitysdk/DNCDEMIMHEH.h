@@ -4,10 +4,10 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define DNCDEMIMHEH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1193B870)
-#define DNCDEMIMHEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1193B810)
+#define DNCDEMIMHEH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x12CB08E0)
+#define DNCDEMIMHEH_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB0880)
 
-inline static constexpr unsigned int DNCDEMIMHEH_TypeDefinitionIndex = 67505;
+inline static constexpr unsigned int DNCDEMIMHEH_TypeDefinitionIndex = 69449;
 
 	class DNCDEMIMHEH : public ::System::Exception
 	{

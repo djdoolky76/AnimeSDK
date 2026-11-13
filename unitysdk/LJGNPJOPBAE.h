@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define LJGNPJOPBAE_CLEAR_OFFSET UNITYSDK_OFFSET(0xB711860)
-#define LJGNPJOPBAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7118C0)
+#define LJGNPJOPBAE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1732FE50)
+#define LJGNPJOPBAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1732FEB0)
 
-inline static constexpr unsigned int LJGNPJOPBAE_TypeDefinitionIndex = 60902;
+inline static constexpr unsigned int LJGNPJOPBAE_TypeDefinitionIndex = 62278;
 
 	class LJGNPJOPBAE : public ::System::Object
 	{
 	public:
 		::System::String* ECCIPKNJJLH; // 0x10
-		::RPG::Client::FMChannelSourceRequestPriority NALMBOOCCIN; // 0x18
-		::System::Single GCJMFBKLGHI; // 0x1C
-		::System::Single IEHPFADHJFD; // 0x20
+		::System::Single IEHPFADHJFD; // 0x18
+		::RPG::Client::FMChannelSourceRequestPriority NALMBOOCCIN; // 0x1C
+		::System::Single GCJMFBKLGHI; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJGNPJOPBAE_CTOR_OFFSET))(this);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 
-#define EICGHABDLPM_FDKIMLGCCNK_OFFSET UNITYSDK_OFFSET(0x154B0E70)
+#define EICGHABDLPM_FDKIMLGCCNK_OFFSET UNITYSDK_OFFSET(0x19A8A2D0)
 
-inline static constexpr unsigned int EICGHABDLPM_TypeDefinitionIndex = 75609;
+inline static constexpr unsigned int EICGHABDLPM_TypeDefinitionIndex = 77936;
 
 	class EICGHABDLPM : public ::System::Object
 	{

@@ -6,12 +6,12 @@ namespace RPG::GameCore { class FiveDimSidePuzzleConfig; }
 namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AE2F0)
-#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AE150)
+#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A2450)
+#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F7A22B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSidePuzzleConfig_TypeDefinitionIndex = 18562;
+	inline static constexpr unsigned int FiveDimSidePuzzleConfig_TypeDefinitionIndex = 18722;
 
 	class FiveDimSidePuzzleConfig : public ::RPG::GameCore::JsonConfig
 	{

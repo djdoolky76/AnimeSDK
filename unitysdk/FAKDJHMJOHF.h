@@ -8,12 +8,12 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 
-#define FAKDJHMJOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x15676C20)
-#define FAKDJHMJOHF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15676EF0)
-#define FAKDJHMJOHF_LLHHMDJOJLA_OFFSET UNITYSDK_OFFSET(0x15676CA0)
-#define FAKDJHMJOHF_LMKNFOBJMMK_OFFSET UNITYSDK_OFFSET(0x15676E00)
+#define FAKDJHMJOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2F400)
+#define FAKDJHMJOHF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BA2F6D0)
+#define FAKDJHMJOHF_LLHHMDJOJLA_OFFSET UNITYSDK_OFFSET(0x1BA2F480)
+#define FAKDJHMJOHF_LMKNFOBJMMK_OFFSET UNITYSDK_OFFSET(0x1BA2F5E0)
 
-inline static constexpr unsigned int FAKDJHMJOHF_TypeDefinitionIndex = 75360;
+inline static constexpr unsigned int FAKDJHMJOHF_TypeDefinitionIndex = 77687;
 
 	class FAKDJHMJOHF : public ::System::Object
 	{

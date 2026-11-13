@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KMGAJHEGPDG_TypeDefinitionIndex = 79187;
+inline static constexpr unsigned int KMGAJHEGPDG_TypeDefinitionIndex = 81964;
 
 	class KMGAJHEGPDG
 	{

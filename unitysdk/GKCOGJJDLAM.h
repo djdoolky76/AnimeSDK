@@ -3,10 +3,10 @@
 class AIGHNCCAJPL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKCOGJJDLAM_CTOR_OFFSET UNITYSDK_OFFSET(0x15A85C80)
-#define GKCOGJJDLAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A85CB0)
+#define GKCOGJJDLAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8CCC60)
+#define GKCOGJJDLAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A8CCC90)
 
-inline static constexpr unsigned int GKCOGJJDLAM_TypeDefinitionIndex = 54791;
+inline static constexpr unsigned int GKCOGJJDLAM_TypeDefinitionIndex = 55960;
 
 	class GKCOGJJDLAM
 	{

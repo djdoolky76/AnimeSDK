@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define IIMPMKALHPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x164443D0)
-#define IIMPMKALHPL_CTOR_OFFSET UNITYSDK_OFFSET(0x164445E0)
-#define IIMPMKALHPL_DDCENCNBHDN_OFFSET UNITYSDK_OFFSET(0x16444410)
+#define IIMPMKALHPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x193F45F0)
+#define IIMPMKALHPL_CTOR_OFFSET UNITYSDK_OFFSET(0x193F4800)
+#define IIMPMKALHPL_DDCENCNBHDN_OFFSET UNITYSDK_OFFSET(0x193F4630)
 
-inline static constexpr unsigned int IIMPMKALHPL_TypeDefinitionIndex = 73385;
+inline static constexpr unsigned int IIMPMKALHPL_TypeDefinitionIndex = 75505;
 
 	class IIMPMKALHPL : public ::System::Object
 	{

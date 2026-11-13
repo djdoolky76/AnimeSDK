@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ShowUI; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB9DB0)
-#define RPG_GAMECORE_SHOWUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB9DC0)
-#define RPG_GAMECORE_SHOWUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB9D80)
+#define RPG_GAMECORE_SHOWUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F2EE0)
+#define RPG_GAMECORE_SHOWUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F3F2EF0)
+#define RPG_GAMECORE_SHOWUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F3F2EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowUI_TypeDefinitionIndex = 23841;
+	inline static constexpr unsigned int ShowUI_TypeDefinitionIndex = 24298;
 
 	class ShowUI : public ::RPG::GameCore::TaskConfig
 	{

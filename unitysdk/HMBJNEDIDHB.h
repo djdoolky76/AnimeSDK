@@ -10,23 +10,23 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define HMBJNEDIDHB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CABEB70)
-#define HMBJNEDIDHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABED40)
-#define HMBJNEDIDHB_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CABECA0)
-#define HMBJNEDIDHB_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CABECF0)
+#define HMBJNEDIDHB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EFB30C0)
+#define HMBJNEDIDHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB3290)
+#define HMBJNEDIDHB_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1EFB31F0)
+#define HMBJNEDIDHB_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1EFB3240)
 
-inline static constexpr unsigned int HMBJNEDIDHB_TypeDefinitionIndex = 43651;
+inline static constexpr unsigned int HMBJNEDIDHB_TypeDefinitionIndex = 44634;
 
 	class HMBJNEDIDHB : public ::System::Object
 	{
 	public:
-		::KJFIKOKBCCA OBKOLHGMGCM; // 0x10
-		::RPG::GameCore::LevelTriggerInfo* BICMEIOIFIF; // 0xA0
-		::PNKCFFDKMJP* OIBKPJEGPOK; // 0xA8
-		::System::String* OENAMINOLLF; // 0xB0
-		::RPG::GCFreeClosure::FuncClosureR_2<::UnityEngine::Collider*, ::System::Boolean> NAMMCPHOCME; // 0xB8
+		::PNKCFFDKMJP* OIBKPJEGPOK; // 0x10
+		::KJFIKOKBCCA OBKOLHGMGCM; // 0x18
+		::RPG::PoolList_1<::UnityEngine::Collider*>* KIHEOMICPIE; // 0xA8
+		::RPG::GameCore::LevelTriggerInfo* BICMEIOIFIF; // 0xB0
+		::System::String* OENAMINOLLF; // 0xB8
+		::RPG::GCFreeClosure::FuncClosureR_2<::UnityEngine::Collider*, ::System::Boolean> NAMMCPHOCME; // 0xC0
 		::System::Byte _padding0[0x88];
-		::RPG::PoolList_1<::UnityEngine::Collider*>* KIHEOMICPIE; // 0x148
 		::HPKDNHLINPC IMDLGFPMPEK; // 0x150
 		::System::Void _ctor()
 		{

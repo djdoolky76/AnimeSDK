@@ -4,18 +4,18 @@
 class KEKEOMIMNFI;
 namespace System { class Object; }
 
-#define KEKEOMIMNFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7DFB30)
-#define KEKEOMIMNFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DFB70)
-#define KEKEOMIMNFI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7DFB80)
+#define KEKEOMIMNFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F99FC80)
+#define KEKEOMIMNFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F99FCC0)
+#define KEKEOMIMNFI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F99FCD0)
 
-inline static constexpr unsigned int KEKEOMIMNFI___c_TypeDefinitionIndex = 26706;
+inline static constexpr unsigned int KEKEOMIMNFI___c_TypeDefinitionIndex = 27237;
 
 	class KEKEOMIMNFI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11A70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAE50);
 		}
 
 		static ::System::Void _cctor()

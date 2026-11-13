@@ -5,13 +5,13 @@ namespace Spine { class Attachment; }
 namespace Spine { class BoundingBoxAttachment; }
 namespace System { class String; }
 
-#define SPINE_BOUNDINGBOXATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x1EC736B0)
-#define SPINE_BOUNDINGBOXATTACHMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC73670)
-#define SPINE_BOUNDINGBOXATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC70F60)
+#define SPINE_BOUNDINGBOXATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x16CBE350)
+#define SPINE_BOUNDINGBOXATTACHMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16CBE310)
+#define SPINE_BOUNDINGBOXATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x16CBBC90)
 
 namespace Spine
 {
-	inline static constexpr unsigned int BoundingBoxAttachment_TypeDefinitionIndex = 39653;
+	inline static constexpr unsigned int BoundingBoxAttachment_TypeDefinitionIndex = 40582;
 
 	class BoundingBoxAttachment : public ::Spine::VertexAttachment
 	{

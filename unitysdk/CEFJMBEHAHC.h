@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtStackInvisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CEFJMBEHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0xC782C60)
-#define CEFJMBEHAHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC782C90)
+#define CEFJMBEHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0x173CEF40)
+#define CEFJMBEHAHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173CEF70)
 
-inline static constexpr unsigned int CEFJMBEHAHC_TypeDefinitionIndex = 53907;
+inline static constexpr unsigned int CEFJMBEHAHC_TypeDefinitionIndex = 55071;
 
 	class CEFJMBEHAHC
 	{

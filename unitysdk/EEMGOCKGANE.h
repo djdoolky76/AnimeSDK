@@ -5,19 +5,25 @@ namespace RPG::GameCore { class GridFightShowRightCutIn; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define EEMGOCKGANE_CCTOR_OFFSET UNITYSDK_OFFSET(0x13A3EF80)
-#define EEMGOCKGANE_CTOR_OFFSET UNITYSDK_OFFSET(0x13A3E860)
-#define EEMGOCKGANE_DEKKHNOCEHA_OFFSET UNITYSDK_OFFSET(0x13A3EDD0)
-#define EEMGOCKGANE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A3E890)
+#define EEMGOCKGANE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A327510)
+#define EEMGOCKGANE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A326BC0)
+#define EEMGOCKGANE_DEKKHNOCEHA_OFFSET UNITYSDK_OFFSET(0x1A327260)
+#define EEMGOCKGANE_EFNPMGMIGGE_OFFSET UNITYSDK_OFFSET(0x1A3274B0)
+#define EEMGOCKGANE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A326BF0)
 
-inline static constexpr unsigned int EEMGOCKGANE_TypeDefinitionIndex = 58146;
+inline static constexpr unsigned int EEMGOCKGANE_TypeDefinitionIndex = 59394;
 
 	class EEMGOCKGANE
 	{
 	public:
 		static ::System::String** StaticGet_CHAFDLBIFPA()
 		{
-			return (::System::String**)UnitySDK::FromName("", "EEMGOCKGANE")->GetStaticField(0x6FF30);
+			return (::System::String**)UnitySDK::FromName("", "EEMGOCKGANE")->GetStaticField(0x72CE0);
+		}
+
+		static ::System::String** StaticGet_FEILIECHKAE()
+		{
+			return (::System::String**)UnitySDK::FromName("", "EEMGOCKGANE")->GetStaticField(0x72CE8);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GridFightShowRightCutIn* a2)
@@ -38,6 +44,11 @@ inline static constexpr unsigned int EEMGOCKGANE_TypeDefinitionIndex = 58146;
 		::System::String* DEKKHNOCEHA(::RPG::GameCore::GameEntity* a1)
 		{
 			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + EEMGOCKGANE_DEKKHNOCEHA_OFFSET))(this, a1);
+		}
+
+		::System::Boolean EFNPMGMIGGE()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EEMGOCKGANE_EFNPMGMIGGE_OFFSET))(this);
 		}
 
 	};

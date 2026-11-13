@@ -8,13 +8,13 @@ namespace RPG::GameCore { class VCameraConfig; }
 namespace RPG::GameCore { class VCameraConfigChange; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERACONFIGCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC506A0)
-#define RPG_GAMECORE_VCAMERACONFIGCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC506B0)
-#define RPG_GAMECORE_VCAMERACONFIGCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC50550)
+#define RPG_GAMECORE_VCAMERACONFIGCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3BC10)
+#define RPG_GAMECORE_VCAMERACONFIGCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED3BC20)
+#define RPG_GAMECORE_VCAMERACONFIGCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED3BAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraConfigChange_TypeDefinitionIndex = 23726;
+	inline static constexpr unsigned int VCameraConfigChange_TypeDefinitionIndex = 24182;
 
 	class VCameraConfigChange : public ::RPG::GameCore::TaskConfig
 	{

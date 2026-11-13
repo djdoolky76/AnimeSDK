@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NIMHLHECACH_IdleLiveBGMArea_TypeDefinitionIndex = 75267;
+inline static constexpr unsigned int NIMHLHECACH_IdleLiveBGMArea_TypeDefinitionIndex = 77594;
 
 	enum class NIMHLHECACH_IdleLiveBGMArea : ::System::Int32
 	{

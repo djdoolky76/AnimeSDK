@@ -6,19 +6,19 @@
 class PEKCKMDIAFL;
 namespace System { class String; }
 
-#define FOLFPAGNLOB_CTOR_OFFSET UNITYSDK_OFFSET(0x158EC4C0)
-#define FOLFPAGNLOB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x158EC550)
+#define FOLFPAGNLOB_CTOR_OFFSET UNITYSDK_OFFSET(0x18757340)
+#define FOLFPAGNLOB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x187573D0)
 
-inline static constexpr unsigned int FOLFPAGNLOB_TypeDefinitionIndex = 69800;
+inline static constexpr unsigned int FOLFPAGNLOB_TypeDefinitionIndex = 71759;
 
 	class FOLFPAGNLOB : public ::HGEGFCADEEC
 	{
 	public:
 		::PEKCKMDIAFL* CCDHDAGPMNA; // 0x28
 		::CelestialBodyType DJGDEEGEPCJ; // 0x30
-		::System::Single DMMINDDMKGC; // 0x34
-		::UnityEngine::Vector2 HMAGPLNGNMP; // 0x38
-		::System::Single JEJPHFEPFPN; // 0x40
+		::System::Single JEJPHFEPFPN; // 0x34
+		::System::Single DMMINDDMKGC; // 0x38
+		::UnityEngine::Vector2 HMAGPLNGNMP; // 0x3C
 		::System::Void _ctor(::System::String* a1, ::CelestialBodyType a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::CelestialBodyType))((::PBYTE)hIl2Cpp + FOLFPAGNLOB_CTOR_OFFSET))(this, a1, a2);

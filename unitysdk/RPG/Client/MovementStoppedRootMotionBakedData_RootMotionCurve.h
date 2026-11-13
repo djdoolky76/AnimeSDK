@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Keyframe.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_ROOTMOTIONCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0xEC5C0)
-#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_ROOTMOTIONCURVE_GET_PROTECTDISTANCE_OFFSET UNITYSDK_OFFSET(0xEC560)
+#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_ROOTMOTIONCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0x3E59D10)
+#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_ROOTMOTIONCURVE_GET_PROTECTDISTANCE_OFFSET UNITYSDK_OFFSET(0x3E59CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_RootMotionCurve_TypeDefinitionIndex = 68815;
+	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_RootMotionCurve_TypeDefinitionIndex = 70767;
 
 	struct alignas(8) MovementStoppedRootMotionBakedData_RootMotionCurve
 	{

@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAE1850)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DAE1700)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DAE15D0)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DAE14F0)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DAE1570)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DAE0BA0)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DAE0BE0)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DAE0E10)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAE0FE0)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DAE11D0)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DAE0F40)
-#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DAE0EA0)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3B4DB0)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E3B4C60)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E3B4B30)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E3B4A50)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E3B4AD0)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E3B4100)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E3B4140)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E3B4370)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3B4540)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E3B4730)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E3B44A0)
+#define RPG_GAMECORE_STAGEINVASIONBUFFEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E3B4400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInvasionBuffExcelTable_TypeDefinitionIndex = 15164;
+	inline static constexpr unsigned int StageInvasionBuffExcelTable_TypeDefinitionIndex = 15320;
 
 	class StageInvasionBuffExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionBuffRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionBuffRow*>**)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x1A430);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x1A438);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x19C10);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x1A440);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x19C18);
 		}
 
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionBuffRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x5BE0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StageInvasionBuffRow*>**)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x19C20);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x5BE1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x5B80);
+		}
+
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "StageInvasionBuffExcelTable")->GetStaticField(0x5B81);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class ALFGDDOFIIJ;
 
-#define DKMGHOMEDGP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA002E0)
-#define DKMGHOMEDGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA00360)
+#define DKMGHOMEDGP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB325F0)
+#define DKMGHOMEDGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB32670)
 
-inline static constexpr unsigned int DKMGHOMEDGP_TypeDefinitionIndex = 43399;
+inline static constexpr unsigned int DKMGHOMEDGP_TypeDefinitionIndex = 44380;
 
 	class DKMGHOMEDGP : public ::System::Object
 	{

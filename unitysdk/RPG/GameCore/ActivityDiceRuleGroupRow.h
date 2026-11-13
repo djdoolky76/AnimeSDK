@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityDiceRuleGroupRow; }
 
-#define RPG_GAMECORE_ACTIVITYDICERULEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3261F0)
-#define RPG_GAMECORE_ACTIVITYDICERULEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3260B0)
+#define RPG_GAMECORE_ACTIVITYDICERULEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E503470)
+#define RPG_GAMECORE_ACTIVITYDICERULEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E503330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceRuleGroupRow_TypeDefinitionIndex = 11272;
+	inline static constexpr unsigned int ActivityDiceRuleGroupRow_TypeDefinitionIndex = 11323;
 
 	class ActivityDiceRuleGroupRow : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CharacterChangePhase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ENDPJINEMJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1559CE70)
-#define ENDPJINEMJM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1559CE80)
-#define ENDPJINEMJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1559CEC0)
-#define ENDPJINEMJM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1559D260)
-#define ENDPJINEMJM_TICK_OFFSET UNITYSDK_OFFSET(0x1559D2B0)
+#define ENDPJINEMJM_CTOR_OFFSET UNITYSDK_OFFSET(0x188079B0)
+#define ENDPJINEMJM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x188079C0)
+#define ENDPJINEMJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18807A00)
+#define ENDPJINEMJM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18807DA0)
+#define ENDPJINEMJM_TICK_OFFSET UNITYSDK_OFFSET(0x18807DF0)
 
-inline static constexpr unsigned int ENDPJINEMJM_TypeDefinitionIndex = 54935;
+inline static constexpr unsigned int ENDPJINEMJM_TypeDefinitionIndex = 56107;
 
 	class ENDPJINEMJM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CharacterChangePhase* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CharacterChangePhase* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterChangePhase* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharacterChangePhase*))((::PBYTE)hIl2Cpp + ENDPJINEMJM_CTOR_OFFSET))(this, a1, a2);

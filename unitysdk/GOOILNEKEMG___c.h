@@ -4,18 +4,18 @@
 class GOOILNEKEMG;
 namespace System { class Object; }
 
-#define GOOILNEKEMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4C7140)
-#define GOOILNEKEMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C7180)
-#define GOOILNEKEMG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4C7190)
+#define GOOILNEKEMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCFC2A0)
+#define GOOILNEKEMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCFC2E0)
+#define GOOILNEKEMG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FCFC2F0)
 
-inline static constexpr unsigned int GOOILNEKEMG___c_TypeDefinitionIndex = 33739;
+inline static constexpr unsigned int GOOILNEKEMG___c_TypeDefinitionIndex = 34654;
 
 	class GOOILNEKEMG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x235F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C390);
 		}
 
 		static ::System::Void _cctor()

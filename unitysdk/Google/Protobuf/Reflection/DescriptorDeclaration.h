@@ -7,25 +7,25 @@ namespace Google::Protobuf::Reflection { class SourceCodeInfo_Types_Location; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORDECLARATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8428D0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORDECLARATION_FROMPROTO_OFFSET UNITYSDK_OFFSET(0x1B842AF0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORDECLARATION_GET_STARTLINE_OFFSET UNITYSDK_OFFSET(0x1B8428C0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORDECLARATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB9C20)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORDECLARATION_FROMPROTO_OFFSET UNITYSDK_OFFSET(0x1BEB9E40)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORDECLARATION_GET_STARTLINE_OFFSET UNITYSDK_OFFSET(0x1BEB9C10)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorDeclaration_TypeDefinitionIndex = 5527;
+	inline static constexpr unsigned int DescriptorDeclaration_TypeDefinitionIndex = 5532;
 
 	class DescriptorDeclaration : public ::System::Object
 	{
 	public:
 		::System::String* _TrailingComments_k__BackingField; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::System::String*>* _LeadingDetachedComments_k__BackingField; // 0x18
-		::Google::Protobuf::Reflection::IDescriptor* _Descriptor_k__BackingField; // 0x20
-		::System::String* _LeadingComments_k__BackingField; // 0x28
+		::System::String* _LeadingComments_k__BackingField; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::System::String*>* _LeadingDetachedComments_k__BackingField; // 0x20
+		::Google::Protobuf::Reflection::IDescriptor* _Descriptor_k__BackingField; // 0x28
 		::System::Int32 _EndColumn_k__BackingField; // 0x30
 		::System::Int32 _StartColumn_k__BackingField; // 0x34
-		::System::Int32 _StartLine_k__BackingField; // 0x38
-		::System::Int32 _EndLine_k__BackingField; // 0x3C
+		::System::Int32 _EndLine_k__BackingField; // 0x38
+		::System::Int32 _StartLine_k__BackingField; // 0x3C
 		::System::Void _ctor(::Google::Protobuf::Reflection::IDescriptor* a1, ::Google::Protobuf::Reflection::SourceCodeInfo_Types_Location* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::IDescriptor*, ::Google::Protobuf::Reflection::SourceCodeInfo_Types_Location*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORDECLARATION_CTOR_OFFSET))(this, a1, a2);

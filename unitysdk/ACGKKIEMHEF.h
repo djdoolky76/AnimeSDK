@@ -5,19 +5,19 @@ class ACGKKIEMHEF;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define ACGKKIEMHEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC779A0)
-#define ACGKKIEMHEF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CC779B0)
-#define ACGKKIEMHEF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC77970)
+#define ACGKKIEMHEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0165D0)
+#define ACGKKIEMHEF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E0165E0)
+#define ACGKKIEMHEF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0165A0)
 
-inline static constexpr unsigned int ACGKKIEMHEF_TypeDefinitionIndex = 21548;
+inline static constexpr unsigned int ACGKKIEMHEF_TypeDefinitionIndex = 21936;
 
 	class ACGKKIEMHEF : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* PAHHNMLMNLN; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* HINABLHELDI; // 0x20
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OFCDELJJMNP; // 0x28
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KKGNDNGNIDI; // 0x30
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OFCDELJJMNP; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KKGNDNGNIDI; // 0x28
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* HINABLHELDI; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACGKKIEMHEF_CTOR_OFFSET))(this);

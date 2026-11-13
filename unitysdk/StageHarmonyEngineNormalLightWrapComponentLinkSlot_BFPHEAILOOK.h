@@ -4,9 +4,9 @@
 namespace RPG::CustomRP { class CustomAdditionalLightData; }
 namespace UnityEngine { class Light; }
 
-#define STAGEHARMONYENGINENORMALLIGHTWRAPCOMPONENTLINKSLOT_BFPHEAILOOK_CTOR_OFFSET UNITYSDK_OFFSET(0xE985220)
+#define STAGEHARMONYENGINENORMALLIGHTWRAPCOMPONENTLINKSLOT_BFPHEAILOOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4ECC0)
 
-inline static constexpr unsigned int StageHarmonyEngineNormalLightWrapComponentLinkSlot_BFPHEAILOOK_TypeDefinitionIndex = 47370;
+inline static constexpr unsigned int StageHarmonyEngineNormalLightWrapComponentLinkSlot_BFPHEAILOOK_TypeDefinitionIndex = 48399;
 
 	class StageHarmonyEngineNormalLightWrapComponentLinkSlot_BFPHEAILOOK : public ::System::Object
 	{

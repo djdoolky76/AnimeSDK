@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StoryLineFloorDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYLINEFLOORDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAFA400)
-#define RPG_GAMECORE_STORYLINEFLOORDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAFA280)
+#define RPG_GAMECORE_STORYLINEFLOORDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3CCFD0)
+#define RPG_GAMECORE_STORYLINEFLOORDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3CCE50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryLineFloorDataRow_TypeDefinitionIndex = 15201;
+	inline static constexpr unsigned int StoryLineFloorDataRow_TypeDefinitionIndex = 15357;
 
 	class StoryLineFloorDataRow : public ::System::Object
 	{

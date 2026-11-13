@@ -4,10 +4,10 @@ class CEGJADNLKED;
 namespace RPG::GameCore { class ST_ByFoundSmartObject; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPJBFKCEENA_CTOR_OFFSET UNITYSDK_OFFSET(0x1590FF20)
-#define FPJBFKCEENA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1590FFE0)
+#define FPJBFKCEENA_CTOR_OFFSET UNITYSDK_OFFSET(0x1877DA90)
+#define FPJBFKCEENA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1877DB50)
 
-inline static constexpr unsigned int FPJBFKCEENA_TypeDefinitionIndex = 52192;
+inline static constexpr unsigned int FPJBFKCEENA_TypeDefinitionIndex = 53297;
 
 	class FPJBFKCEENA
 	{

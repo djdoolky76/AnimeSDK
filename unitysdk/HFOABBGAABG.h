@@ -6,10 +6,10 @@ class LMLFPLOLDIA;
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class Action; }
 
-#define HFOABBGAABG_GOPCNJKMHGJ_OFFSET UNITYSDK_OFFSET(0x15C807C0)
-#define HFOABBGAABG_JGBDDOKIMAI_OFFSET UNITYSDK_OFFSET(0x15C80720)
+#define HFOABBGAABG_GOPCNJKMHGJ_OFFSET UNITYSDK_OFFSET(0x1C432040)
+#define HFOABBGAABG_JGBDDOKIMAI_OFFSET UNITYSDK_OFFSET(0x1C431FF0)
 
-inline static constexpr unsigned int HFOABBGAABG_TypeDefinitionIndex = 54131;
+inline static constexpr unsigned int HFOABBGAABG_TypeDefinitionIndex = 55295;
 
 	class HFOABBGAABG : public ::System::Object
 	{

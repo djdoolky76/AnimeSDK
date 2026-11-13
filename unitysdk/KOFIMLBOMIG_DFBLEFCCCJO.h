@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 class BDFIKMEMFJF;
 
-#define KOFIMLBOMIG_DFBLEFCCCJO_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
+#define KOFIMLBOMIG_DFBLEFCCCJO_CTOR_OFFSET UNITYSDK_OFFSET(0x3D9DFE0)
 
-inline static constexpr unsigned int KOFIMLBOMIG_DFBLEFCCCJO_TypeDefinitionIndex = 55956;
+inline static constexpr unsigned int KOFIMLBOMIG_DFBLEFCCCJO_TypeDefinitionIndex = 57159;
 
 	struct alignas(8) KOFIMLBOMIG_DFBLEFCCCJO
 	{

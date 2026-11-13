@@ -5,13 +5,13 @@
 namespace UnityEngine::Tilemaps { class ITilemap; }
 namespace UnityEngine::Tilemaps { class Tilemap; }
 
-#define UNITYENGINE_TILEMAPS_ITILEMAP_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F47B9E0)
-#define UNITYENGINE_TILEMAPS_ITILEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F47B980)
-#define UNITYENGINE_TILEMAPS_ITILEMAP_REFRESHTILE_OFFSET UNITYSDK_OFFSET(0x1F47B990)
+#define UNITYENGINE_TILEMAPS_ITILEMAP_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x20973C10)
+#define UNITYENGINE_TILEMAPS_ITILEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x20973BB0)
+#define UNITYENGINE_TILEMAPS_ITILEMAP_REFRESHTILE_OFFSET UNITYSDK_OFFSET(0x20973BC0)
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int ITilemap_TypeDefinitionIndex = 5854;
+	inline static constexpr unsigned int ITilemap_TypeDefinitionIndex = 5862;
 
 	class ITilemap : public ::System::Object
 	{

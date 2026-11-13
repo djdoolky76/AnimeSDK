@@ -9,23 +9,23 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MANHOBHKDMG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8F51F0)
-#define MANHOBHKDMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F6520)
-#define MANHOBHKDMG_EDLAAGIFIEA_OFFSET UNITYSDK_OFFSET(0x1C8F5E30)
-#define MANHOBHKDMG_FMNOPFCHBAF_OFFSET UNITYSDK_OFFSET(0x1C8F62A0)
-#define MANHOBHKDMG_IBJEFGEPIJO_OFFSET UNITYSDK_OFFSET(0x1C8F5300)
-#define MANHOBHKDMG_IIGCBFIALAP_OFFSET UNITYSDK_OFFSET(0x1C8F5AD0)
-#define MANHOBHKDMG_JPJJIADOPAB_OFFSET UNITYSDK_OFFSET(0x1C8F5350)
-#define MANHOBHKDMG_KLNHCGEBKGF_OFFSET UNITYSDK_OFFSET(0x1C8F5F20)
-#define MANHOBHKDMG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C8F5010)
+#define MANHOBHKDMG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C25A2E0)
+#define MANHOBHKDMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25B6C0)
+#define MANHOBHKDMG_EDLAAGIFIEA_OFFSET UNITYSDK_OFFSET(0x1C25AF20)
+#define MANHOBHKDMG_FMNOPFCHBAF_OFFSET UNITYSDK_OFFSET(0x1C25B460)
+#define MANHOBHKDMG_IBJEFGEPIJO_OFFSET UNITYSDK_OFFSET(0x1C25A3F0)
+#define MANHOBHKDMG_IIGCBFIALAP_OFFSET UNITYSDK_OFFSET(0x1C25ABC0)
+#define MANHOBHKDMG_JPJJIADOPAB_OFFSET UNITYSDK_OFFSET(0x1C25A440)
+#define MANHOBHKDMG_KLNHCGEBKGF_OFFSET UNITYSDK_OFFSET(0x1C25B010)
+#define MANHOBHKDMG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C25A100)
 
-inline static constexpr unsigned int MANHOBHKDMG_TypeDefinitionIndex = 43025;
+inline static constexpr unsigned int MANHOBHKDMG_TypeDefinitionIndex = 44006;
 
 	class MANHOBHKDMG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::MFPCEFGHPIN>* CEKBMEGIPJP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::CAKNHIMMBOM*>* HIJPJBGAADF; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::CAKNHIMMBOM*>* HIJPJBGAADF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::MFPCEFGHPIN>* CEKBMEGIPJP; // 0x18
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* KLEIMNLINEE; // 0x20
 		::System::Void _ctor()
 		{

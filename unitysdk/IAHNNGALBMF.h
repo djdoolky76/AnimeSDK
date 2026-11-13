@@ -5,10 +5,10 @@
 class IPKOBBJPKML;
 namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 
-#define IAHNNGALBMF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E022E0)
-#define IAHNNGALBMF_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x15E022F0)
+#define IAHNNGALBMF_CTOR_OFFSET UNITYSDK_OFFSET(0x19422A50)
+#define IAHNNGALBMF_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x19422A60)
 
-inline static constexpr unsigned int IAHNNGALBMF_TypeDefinitionIndex = 67104;
+inline static constexpr unsigned int IAHNNGALBMF_TypeDefinitionIndex = 69048;
 
 	class IAHNNGALBMF : public ::OBDGDODGFAM
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 class JBGMDJBCHFO;
 
-#define ALNFHFDBDCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCDEAC0)
-#define ALNFHFDBDCH_GDNFNCJPDKD_OFFSET UNITYSDK_OFFSET(0x1DCDEAA0)
-#define ALNFHFDBDCH_ILJANLIPIKB_OFFSET UNITYSDK_OFFSET(0x1DCDEAB0)
+#define ALNFHFDBDCH_CTOR_OFFSET UNITYSDK_OFFSET(0x179826C0)
+#define ALNFHFDBDCH_GDNFNCJPDKD_OFFSET UNITYSDK_OFFSET(0x179826A0)
+#define ALNFHFDBDCH_ILJANLIPIKB_OFFSET UNITYSDK_OFFSET(0x179826B0)
 
-inline static constexpr unsigned int ALNFHFDBDCH_TypeDefinitionIndex = 6273;
+inline static constexpr unsigned int ALNFHFDBDCH_TypeDefinitionIndex = 6280;
 
 	class ALNFHFDBDCH : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* CDGOENMGNNH; // 0x10
-		::JBGMDJBCHFO* FGJCDIODHML; // 0x18
-		::System::Single CLPOMLADGFD; // 0x20
-		::System::Int32 FFJHGDOLECF; // 0x24
+		::JBGMDJBCHFO* FGJCDIODHML; // 0x10
+		::Il2CppArray<::System::Single>* CDGOENMGNNH; // 0x18
+		::System::Int32 FFJHGDOLECF; // 0x20
+		::System::Single CLPOMLADGFD; // 0x24
 		::System::Void _ctor(::System::Int32 a1, ::System::Single a2, ::JBGMDJBCHFO* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::JBGMDJBCHFO*))((::PBYTE)hIl2Cpp + ALNFHFDBDCH_CTOR_OFFSET))(this, a1, a2, a3);

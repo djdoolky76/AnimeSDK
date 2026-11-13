@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLadderClimbSlide_TypeDefinitionIndex = 18542;
+	inline static constexpr unsigned int FiveDimLadderClimbSlide_TypeDefinitionIndex = 18702;
 
 	enum class FiveDimLadderClimbSlide : ::System::UInt32
 	{

@@ -1,13 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class BFMDDFLMAKD;
+class HDCJJFDLHIO;
 class IHIDPEDODEN;
 class MGBHKCMHDOK;
 class NDPFOOJIAIJ;
 
-#define OFAEFNFLDLL_CIBJNMNLKMJ_OFFSET UNITYSDK_OFFSET(0xBE31A50)
+#define OFAEFNFLDLL_CIBJNMNLKMJ_OFFSET UNITYSDK_OFFSET(0x17660020)
+#define OFAEFNFLDLL_EOLKMCMKCLI_OFFSET UNITYSDK_OFFSET(0x176611D0)
+#define OFAEFNFLDLL_IEKAMEDLHHD_OFFSET UNITYSDK_OFFSET(0x176610B0)
+#define OFAEFNFLDLL_INIHKFEHDIJ_OFFSET UNITYSDK_OFFSET(0x17661470)
 
-inline static constexpr unsigned int OFAEFNFLDLL_TypeDefinitionIndex = 64394;
+inline static constexpr unsigned int OFAEFNFLDLL_TypeDefinitionIndex = 65841;
 
 	class OFAEFNFLDLL : public ::System::Object
 	{
@@ -15,6 +20,21 @@ inline static constexpr unsigned int OFAEFNFLDLL_TypeDefinitionIndex = 64394;
 		static ::MGBHKCMHDOK* CIBJNMNLKMJ(::IHIDPEDODEN* a1, ::NDPFOOJIAIJ* a2)
 		{
 			return ((::MGBHKCMHDOK*(*)(::IHIDPEDODEN*, ::NDPFOOJIAIJ*))((::PBYTE)hIl2Cpp + OFAEFNFLDLL_CIBJNMNLKMJ_OFFSET))(a1, a2);
+		}
+
+		static ::HDCJJFDLHIO* IEKAMEDLHHD(::BFMDDFLMAKD* a1)
+		{
+			return ((::HDCJJFDLHIO*(*)(::BFMDDFLMAKD*))((::PBYTE)hIl2Cpp + OFAEFNFLDLL_IEKAMEDLHHD_OFFSET))(a1);
+		}
+
+		static ::System::Boolean EOLKMCMKCLI(::HDCJJFDLHIO* a1)
+		{
+			return ((::System::Boolean(*)(::HDCJJFDLHIO*))((::PBYTE)hIl2Cpp + OFAEFNFLDLL_EOLKMCMKCLI_OFFSET))(a1);
+		}
+
+		static ::System::Void INIHKFEHDIJ(::HDCJJFDLHIO* a1, ::BFMDDFLMAKD* a2)
+		{
+			return ((::System::Void(*)(::HDCJJFDLHIO*, ::BFMDDFLMAKD*))((::PBYTE)hIl2Cpp + OFAEFNFLDLL_INIHKFEHDIJ_OFFSET))(a1, a2);
 		}
 
 	};

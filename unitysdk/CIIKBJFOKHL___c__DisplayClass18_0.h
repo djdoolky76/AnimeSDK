@@ -5,10 +5,10 @@ class ALMFLCJCHKP;
 class CIIKBJFOKHL;
 namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_WithAttributeRank; }
 
-#define CIIKBJFOKHL___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF7ED20)
-#define CIIKBJFOKHL___C__DISPLAYCLASS18_0___EVALUATEATTRIBUTERANKSOLDIERS_B__1_OFFSET UNITYSDK_OFFSET(0xCF83730)
+#define CIIKBJFOKHL___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16E5A650)
+#define CIIKBJFOKHL___C__DISPLAYCLASS18_0___EVALUATEATTRIBUTERANKSOLDIERS_B__1_OFFSET UNITYSDK_OFFSET(0x16E5F0A0)
 
-inline static constexpr unsigned int CIIKBJFOKHL___c__DisplayClass18_0_TypeDefinitionIndex = 77873;
+inline static constexpr unsigned int CIIKBJFOKHL___c__DisplayClass18_0_TypeDefinitionIndex = 80608;
 
 	class CIIKBJFOKHL___c__DisplayClass18_0 : public ::System::Object
 	{

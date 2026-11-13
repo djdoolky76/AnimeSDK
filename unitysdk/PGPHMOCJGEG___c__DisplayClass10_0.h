@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LevelLittleGameInfo; }
 
-#define PGPHMOCJGEG___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC22E740)
-#define PGPHMOCJGEG___C__DISPLAYCLASS10_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xC22EDC0)
+#define PGPHMOCJGEG___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16DAB390)
+#define PGPHMOCJGEG___C__DISPLAYCLASS10_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x16DABA00)
 
-inline static constexpr unsigned int PGPHMOCJGEG___c__DisplayClass10_0_TypeDefinitionIndex = 64207;
+inline static constexpr unsigned int PGPHMOCJGEG___c__DisplayClass10_0_TypeDefinitionIndex = 65652;
 
 	class PGPHMOCJGEG___c__DisplayClass10_0 : public ::System::Object
 	{

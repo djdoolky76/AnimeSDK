@@ -4,20 +4,20 @@
 namespace Google::Protobuf::Reflection { class FieldOptions; }
 namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDOPTIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B85D170)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDOPTIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B85D1B0)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDOPTIONS___C___CCTOR_B__89_0_OFFSET UNITYSDK_OFFSET(0x1B85D1C0)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDOPTIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BED4490)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDOPTIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED44D0)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDOPTIONS___C___CCTOR_B__89_0_OFFSET UNITYSDK_OFFSET(0x1BED44E0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldOptions___c_TypeDefinitionIndex = 5498;
+	inline static constexpr unsigned int FieldOptions___c_TypeDefinitionIndex = 5503;
 
 	class FieldOptions___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x20F90);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x20F70);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RestoreTeamFormationSnapshot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GICIKEAENEM_CTOR_OFFSET UNITYSDK_OFFSET(0x15A25A60)
-#define GICIKEAENEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A25A90)
+#define GICIKEAENEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D5A70)
+#define GICIKEAENEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A3D5AA0)
 
-inline static constexpr unsigned int GICIKEAENEM_TypeDefinitionIndex = 56386;
+inline static constexpr unsigned int GICIKEAENEM_TypeDefinitionIndex = 57605;
 
 	class GICIKEAENEM
 	{

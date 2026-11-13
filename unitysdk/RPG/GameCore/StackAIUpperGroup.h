@@ -6,13 +6,13 @@ namespace RPG::GameCore { class StackAIUpperGroup; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STACKAIUPPERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD4910)
-#define RPG_GAMECORE_STACKAIUPPERGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD4920)
-#define RPG_GAMECORE_STACKAIUPPERGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD48D0)
+#define RPG_GAMECORE_STACKAIUPPERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A7BC0)
+#define RPG_GAMECORE_STACKAIUPPERGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3A7BD0)
+#define RPG_GAMECORE_STACKAIUPPERGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3A7B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackAIUpperGroup_TypeDefinitionIndex = 23717;
+	inline static constexpr unsigned int StackAIUpperGroup_TypeDefinitionIndex = 24173;
 
 	class StackAIUpperGroup : public ::RPG::GameCore::TaskConfig
 	{

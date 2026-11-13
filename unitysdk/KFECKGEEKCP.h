@@ -6,23 +6,23 @@ namespace RPG::Client::Prop { class WolfBroPuzzleBoard; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitWolfBroPuzzleStartup; }
 
-#define KFECKGEEKCP_CTOR_OFFSET UNITYSDK_OFFSET(0xB38E480)
-#define KFECKGEEKCP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB38E9A0)
-#define KFECKGEEKCP_IKGIDBAJFGF_OFFSET UNITYSDK_OFFSET(0xB38EEB0)
-#define KFECKGEEKCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB38E5B0)
-#define KFECKGEEKCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB38E800)
-#define KFECKGEEKCP_TICK_OFFSET UNITYSDK_OFFSET(0xB38EB80)
+#define KFECKGEEKCP_CTOR_OFFSET UNITYSDK_OFFSET(0x176D4720)
+#define KFECKGEEKCP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x176D4C40)
+#define KFECKGEEKCP_IKGIDBAJFGF_OFFSET UNITYSDK_OFFSET(0x176D5010)
+#define KFECKGEEKCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x176D4850)
+#define KFECKGEEKCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x176D4AA0)
+#define KFECKGEEKCP_TICK_OFFSET UNITYSDK_OFFSET(0x176D4E20)
 
-inline static constexpr unsigned int KFECKGEEKCP_TypeDefinitionIndex = 58947;
+inline static constexpr unsigned int KFECKGEEKCP_TypeDefinitionIndex = 60220;
 
 	class KFECKGEEKCP : public ::GELIALJDFBL
 	{
 	public:
 		::KFELGAIGHAP* EHOAHCNLNAN; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::KFELGAIGHAP* BBLAHCCDCDH; // 0x20
 		::RPG::GameCore::WaitWolfBroPuzzleStartup* IGHAHBNLIJA; // 0x28
 		::RPG::Client::Prop::WolfBroPuzzleBoard* PNMFAOJNNIC; // 0x30
-		::KFELGAIGHAP* BBLAHCCDCDH; // 0x38
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitWolfBroPuzzleStartup* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitWolfBroPuzzleStartup*))((::PBYTE)hIl2Cpp + KFECKGEEKCP_CTOR_OFFSET))(this, a1, a2);

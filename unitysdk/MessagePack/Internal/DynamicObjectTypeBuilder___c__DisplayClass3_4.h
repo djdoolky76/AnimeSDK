@@ -4,19 +4,19 @@
 namespace System { class Object; }
 namespace System::Reflection { class FieldInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB84EF0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__BUILDTYPE_B__4_OFFSET UNITYSDK_OFFSET(0x1BB84F00)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4_CTOR_OFFSET UNITYSDK_OFFSET(0x174C3F80)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__BUILDTYPE_B__4_OFFSET UNITYSDK_OFFSET(0x174C3F90)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_4_TypeDefinitionIndex = 7329;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_4_TypeDefinitionIndex = 7340;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	class DynamicObjectTypeBuilder___c__DisplayClass3_4 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals4; // 0x10
-		::System::Reflection::FieldInfo* fi; // 0x18
+		::System::Reflection::FieldInfo* fi; // 0x10
+		::System::Object* CS___8__locals4; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4_CTOR_OFFSET))(this);

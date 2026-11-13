@@ -8,12 +8,12 @@ namespace RPG::GameCore { class PerformanceCommonConfig; }
 namespace RPG::GameCore { class PerformanceIDPair; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CB3F0)
-#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8CACA0)
+#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14D450)
+#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F14CD00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceCommonConfig_TypeDefinitionIndex = 19038;
+	inline static constexpr unsigned int PerformanceCommonConfig_TypeDefinitionIndex = 19225;
 
 	class PerformanceCommonConfig : public ::RPG::GameCore::JsonConfig
 	{

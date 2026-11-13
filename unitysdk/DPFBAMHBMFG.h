@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DPFBAMHBMFG_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF6170)
+#define DPFBAMHBMFG_CTOR_OFFSET UNITYSDK_OFFSET(0x191BB090)
 
-inline static constexpr unsigned int DPFBAMHBMFG_TypeDefinitionIndex = 80191;
+inline static constexpr unsigned int DPFBAMHBMFG_TypeDefinitionIndex = 82968;
 
 	class DPFBAMHBMFG : public ::System::Object
 	{

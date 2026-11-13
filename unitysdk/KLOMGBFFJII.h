@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KLOMGBFFJII_TypeDefinitionIndex = 34266;
+inline static constexpr unsigned int KLOMGBFFJII_TypeDefinitionIndex = 35194;
 
 	enum class KLOMGBFFJII : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		GBNHCNHFGJH = 7169,
-		PLEIMCMLAHB = 7162,
-		FONHJMCBCBK = 7164,
-		MEECLAKOPJD = 7170,
-		FCIBBMDNOGM = 7163,
+		PLEIMCMLAHB = 7163,
+		FCIBBMDNOGM = 7166,
+		MEECLAKOPJD = 7167,
+		GBNHCNHFGJH = 7170,
+		FONHJMCBCBK = 7168,
 	};

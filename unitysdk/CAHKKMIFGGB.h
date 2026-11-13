@@ -3,7 +3,7 @@
 class NDPFOOJIAIJ;
 namespace RPG::Client { class GridFightEquipTrackData; }
 
-inline static constexpr unsigned int CAHKKMIFGGB_TypeDefinitionIndex = 64923;
+inline static constexpr unsigned int CAHKKMIFGGB_TypeDefinitionIndex = 66494;
 
 	struct alignas(8) CAHKKMIFGGB
 	{

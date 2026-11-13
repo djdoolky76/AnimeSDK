@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByDieAnimFinished; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DIPEJKFJFCH_CTOR_OFFSET UNITYSDK_OFFSET(0xF2213F0)
-#define DIPEJKFJFCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF221420)
+#define DIPEJKFJFCH_CTOR_OFFSET UNITYSDK_OFFSET(0x18EDC000)
+#define DIPEJKFJFCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18EDC030)
 
-inline static constexpr unsigned int DIPEJKFJFCH_TypeDefinitionIndex = 54902;
+inline static constexpr unsigned int DIPEJKFJFCH_TypeDefinitionIndex = 56074;
 
 	class DIPEJKFJFCH
 	{

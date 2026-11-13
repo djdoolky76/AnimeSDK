@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DECMMBGLMFD_CTOR_OFFSET UNITYSDK_OFFSET(0xE501960)
-#define DECMMBGLMFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE501920)
+#define DECMMBGLMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x17760920)
+#define DECMMBGLMFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177608E0)
 
-inline static constexpr unsigned int DECMMBGLMFD_TypeDefinitionIndex = 57339;
+inline static constexpr unsigned int DECMMBGLMFD_TypeDefinitionIndex = 58567;
 
 	class DECMMBGLMFD : public ::System::Object
 	{

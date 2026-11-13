@@ -4,18 +4,18 @@
 class GAJPFLOMGEP;
 namespace System { class Object; }
 
-#define GAJPFLOMGEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3F22E0)
-#define GAJPFLOMGEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F2320)
-#define GAJPFLOMGEP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E3F2330)
+#define GAJPFLOMGEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC3FBC0)
+#define GAJPFLOMGEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC3FC00)
+#define GAJPFLOMGEP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC3FC10)
 
-inline static constexpr unsigned int GAJPFLOMGEP___c_TypeDefinitionIndex = 27482;
+inline static constexpr unsigned int GAJPFLOMGEP___c_TypeDefinitionIndex = 28013;
 
 	class GAJPFLOMGEP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA9E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55E80);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 namespace RPG::CustomRP { class CapsuleOcclusion_CapsuleTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_CAPSULEOCCLUSION_CAPSULETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xE483710)
-#define RPG_CUSTOMRP_CAPSULEOCCLUSION_CAPSULETRANSFORM_EOCEFJFIJLK_OFFSET UNITYSDK_OFFSET(0xE483740)
+#define RPG_CUSTOMRP_CAPSULEOCCLUSION_CAPSULETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x18248400)
+#define RPG_CUSTOMRP_CAPSULEOCCLUSION_CAPSULETRANSFORM_EOCEFJFIJLK_OFFSET UNITYSDK_OFFSET(0x18248430)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CapsuleOcclusion_CapsuleTransform_TypeDefinitionIndex = 51885;
+	inline static constexpr unsigned int CapsuleOcclusion_CapsuleTransform_TypeDefinitionIndex = 52971;
 
 	class CapsuleOcclusion_CapsuleTransform : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define DCIALJDPCMF_CTOR_OFFSET UNITYSDK_OFFSET(0xE23F550)
+#define DCIALJDPCMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B16DBA0)
 
-inline static constexpr unsigned int DCIALJDPCMF_TypeDefinitionIndex = 58615;
+inline static constexpr unsigned int DCIALJDPCMF_TypeDefinitionIndex = 59880;
 
 	class DCIALJDPCMF : public ::System::Object
 	{

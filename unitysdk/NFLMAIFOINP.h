@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchUnstageTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NFLMAIFOINP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB94380)
-#define NFLMAIFOINP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB943D0)
+#define NFLMAIFOINP_CTOR_OFFSET UNITYSDK_OFFSET(0x18E7C080)
+#define NFLMAIFOINP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18E7C0D0)
 
-inline static constexpr unsigned int NFLMAIFOINP_TypeDefinitionIndex = 59182;
+inline static constexpr unsigned int NFLMAIFOINP_TypeDefinitionIndex = 60459;
 
 	class NFLMAIFOINP
 	{

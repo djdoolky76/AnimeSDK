@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE91A640)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C765650)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int LensDistortionTimelineClip_TypeDefinitionIndex = 48578;
+	inline static constexpr unsigned int LensDistortionTimelineClip_TypeDefinitionIndex = 49619;
 
 	class LensDistortionTimelineClip
 	{

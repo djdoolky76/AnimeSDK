@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class AdventureDyingParam; }
 
-#define ILKJANNKCJO_CLEAR_OFFSET UNITYSDK_OFFSET(0x164B6040)
-#define ILKJANNKCJO_CTOR_OFFSET UNITYSDK_OFFSET(0x164B6090)
+#define ILKJANNKCJO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B5A97B0)
+#define ILKJANNKCJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A9800)
 
-inline static constexpr unsigned int ILKJANNKCJO_TypeDefinitionIndex = 57920;
+inline static constexpr unsigned int ILKJANNKCJO_TypeDefinitionIndex = 59157;
 
 	class ILKJANNKCJO : public ::System::Object
 	{

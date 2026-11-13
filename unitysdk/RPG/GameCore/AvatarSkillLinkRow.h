@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarSkillLinkRow; }
 
-#define RPG_GAMECORE_AVATARSKILLLINKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FCEA0)
-#define RPG_GAMECORE_AVATARSKILLLINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3FCD00)
+#define RPG_GAMECORE_AVATARSKILLLINKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F0C10)
+#define RPG_GAMECORE_AVATARSKILLLINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2F0A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillLinkRow_TypeDefinitionIndex = 12771;
+	inline static constexpr unsigned int AvatarSkillLinkRow_TypeDefinitionIndex = 12841;
 
 	class AvatarSkillLinkRow : public ::System::Object
 	{

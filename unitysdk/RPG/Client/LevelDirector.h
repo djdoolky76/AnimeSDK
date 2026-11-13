@@ -10,37 +10,37 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_LEVELDIRECTOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xD387CE0)
-#define RPG_CLIENT_LEVELDIRECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD387420)
-#define RPG_CLIENT_LEVELDIRECTOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD3876A0)
-#define RPG_CLIENT_LEVELDIRECTOR_GETPROJECTILECURVE_OFFSET UNITYSDK_OFFSET(0xD387C00)
-#define RPG_CLIENT_LEVELDIRECTOR_ISLEVELFRAMECAPTUREFULL_OFFSET UNITYSDK_OFFSET(0xD387870)
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELBLENDFRAMESTART_OFFSET UNITYSDK_OFFSET(0xD387B50)
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELCAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD387900)
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELCLEARCAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD387AF0)
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELRELEASECAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD387A40)
-#define RPG_CLIENT_LEVELDIRECTOR_TICK_OFFSET UNITYSDK_OFFSET(0xD3876F0)
-#define RPG_CLIENT_LEVELDIRECTOR__LOADPROJECTILECURVEASSET_OFFSET UNITYSDK_OFFSET(0xD3874E0)
-#define RPG_CLIENT_LEVELDIRECTOR__ONLEVELBLENDFRAMEREALLYSTART_OFFSET UNITYSDK_OFFSET(0xD387780)
+#define RPG_CLIENT_LEVELDIRECTOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEE5F10)
+#define RPG_CLIENT_LEVELDIRECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE5640)
+#define RPG_CLIENT_LEVELDIRECTOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CEE58C0)
+#define RPG_CLIENT_LEVELDIRECTOR_GETPROJECTILECURVE_OFFSET UNITYSDK_OFFSET(0x1CEE5E30)
+#define RPG_CLIENT_LEVELDIRECTOR_ISLEVELFRAMECAPTUREFULL_OFFSET UNITYSDK_OFFSET(0x1CEE5AA0)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELBLENDFRAMESTART_OFFSET UNITYSDK_OFFSET(0x1CEE5D80)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELCAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0x1CEE5B30)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELCLEARCAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0x1CEE5D20)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELRELEASECAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0x1CEE5C70)
+#define RPG_CLIENT_LEVELDIRECTOR_TICK_OFFSET UNITYSDK_OFFSET(0x1CEE5910)
+#define RPG_CLIENT_LEVELDIRECTOR__LOADPROJECTILECURVEASSET_OFFSET UNITYSDK_OFFSET(0x1CEE5700)
+#define RPG_CLIENT_LEVELDIRECTOR__ONLEVELBLENDFRAMEREALLYSTART_OFFSET UNITYSDK_OFFSET(0x1CEE59A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LevelDirector_TypeDefinitionIndex = 59303;
+	inline static constexpr unsigned int LevelDirector_TypeDefinitionIndex = 60580;
 
 	class LevelDirector : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameWorld* _WorldRef; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>* _CustomProjectileCurveMap; // 0x10
 		::RPG::Client::LevelDirector_LevelFrameBlendingEndOP* _BlendingEndOPDefault; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>* _CustomProjectileCurveMap; // 0x20
-		::System::Single _LevelBlendFrameDelayTimer; // 0x28
-		::System::Single _LevelBlendFrameDelayTime; // 0x2C
-		::System::Single _BlendFrameDuration; // 0x30
-		::RPG::Client::LevelDirector_CaptureUsage _CurrentCaptureUsage; // 0x34
-		::System::Single _BlendFrameStartWeight; // 0x38
+		::RPG::GameCore::GameWorld* _WorldRef; // 0x20
+		::System::Single _BlendFrameDuration; // 0x28
+		::RPG::Client::LevelDirector_CaptureUsage _CurrentCaptureUsage; // 0x2C
+		::System::Single _LevelBlendFrameDelayTime; // 0x30
+		::System::Single _BlendFrameStartWeight; // 0x34
+		::System::Single _LevelBlendFrameDelayTimer; // 0x38
 		static ::RPG::Client::LevelDirector_LevelFrameCaptureEndOP** StaticGet_CaptureEndOPDefault()
 		{
-			return (::RPG::Client::LevelDirector_LevelFrameCaptureEndOP**)UnitySDK::FromName("RPG.Client", "LevelDirector")->GetStaticField(0x185D0);
+			return (::RPG::Client::LevelDirector_LevelFrameCaptureEndOP**)UnitySDK::FromName("RPG.Client", "LevelDirector")->GetStaticField(0x2BE50);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::GameWorld* a1)

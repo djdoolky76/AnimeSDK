@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveAirline; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PCFGMBNGMKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF7800)
-#define PCFGMBNGMKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF7830)
+#define PCFGMBNGMKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1AACE180)
+#define PCFGMBNGMKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AACE1B0)
 
-inline static constexpr unsigned int PCFGMBNGMKJ_TypeDefinitionIndex = 58384;
+inline static constexpr unsigned int PCFGMBNGMKJ_TypeDefinitionIndex = 59640;
 
 	class PCFGMBNGMKJ
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class VibrationConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VIBRATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC61470)
-#define RPG_GAMECORE_VIBRATIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC61240)
+#define RPG_GAMECORE_VIBRATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED4C9E0)
+#define RPG_GAMECORE_VIBRATIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED4C7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VibrationConfig_TypeDefinitionIndex = 16403;
+	inline static constexpr unsigned int VibrationConfig_TypeDefinitionIndex = 16567;
 
 	class VibrationConfig : public ::RPG::GameCore::JsonConfig
 	{

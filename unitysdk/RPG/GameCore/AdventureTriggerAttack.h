@@ -12,13 +12,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A0CB0)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A0D10)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A0AB0)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E902040)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9020A0)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E901E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 20207;
+	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 20542;
 
 	class AdventureTriggerAttack : public ::RPG::GameCore::TaskConfig
 	{

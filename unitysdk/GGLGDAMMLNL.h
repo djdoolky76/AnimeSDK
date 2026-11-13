@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GGLGDAMMLNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73970)
+#define GGLGDAMMLNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA79A40)
 
-inline static constexpr unsigned int GGLGDAMMLNL_TypeDefinitionIndex = 42283;
+inline static constexpr unsigned int GGLGDAMMLNL_TypeDefinitionIndex = 43258;
 
 	class GGLGDAMMLNL : public ::System::Object
 	{

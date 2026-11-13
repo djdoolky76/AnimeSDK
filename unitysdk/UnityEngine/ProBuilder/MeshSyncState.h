@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int MeshSyncState_TypeDefinitionIndex = 44399;
+	inline static constexpr unsigned int MeshSyncState_TypeDefinitionIndex = 45474;
 
 	enum class MeshSyncState : ::System::Int32
 	{

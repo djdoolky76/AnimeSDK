@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE22400)
-#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE22440)
-#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__GETRESULTBARDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0xCE22450)
-#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__GETRESULTBARDATA_B__5_1_OFFSET UNITYSDK_OFFSET(0xCE22470)
+#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB4F040)
+#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4F080)
+#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__GETRESULTBARDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x1DB4F090)
+#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__GETRESULTBARDATA_B__5_1_OFFSET UNITYSDK_OFFSET(0x1DB4F0B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildLevelFromProto___c_TypeDefinitionIndex = 63798;
+	inline static constexpr unsigned int EvolveBuildLevelFromProto___c_TypeDefinitionIndex = 65240;
 
 	class EvolveBuildLevelFromProto___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::EvolveBuildResultBarData*>** StaticGet___9__5_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildResultBarData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x434E0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x434E8);
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildResultBarData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56F60);
 		}
 
 		static ::System::Func_2<::HLFOOKANNDE*, ::System::Double>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::HLFOOKANNDE*, ::System::Double>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x434F0);
+			return (::System::Func_2<::HLFOOKANNDE*, ::System::Double>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56F68);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56F70);
 		}
 
 		static ::System::Void _cctor()

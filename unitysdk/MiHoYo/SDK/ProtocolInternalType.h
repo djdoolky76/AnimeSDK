@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolInternalType_TypeDefinitionIndex = 7592;
+	inline static constexpr unsigned int ProtocolInternalType_TypeDefinitionIndex = 7601;
 
 	class ProtocolInternalType : public ::System::Object
 	{

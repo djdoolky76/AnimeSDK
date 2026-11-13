@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_GAMECOREUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA8E4B0)
-#define INCONTROL_UNITYDEVICEPROFILES_GAMECOREUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA8D0F0)
+#define INCONTROL_UNITYDEVICEPROFILES_GAMECOREUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xC607DF0)
+#define INCONTROL_UNITYDEVICEPROFILES_GAMECOREUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC606A30)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int GameCoreUnityProfile_TypeDefinitionIndex = 41037;
+	inline static constexpr unsigned int GameCoreUnityProfile_TypeDefinitionIndex = 42012;
 
 	class GameCoreUnityProfile : public ::InControl::InputDeviceProfile
 	{

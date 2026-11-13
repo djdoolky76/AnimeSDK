@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvRegisterPet; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CMDPFGKEABE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA21A20)
-#define CMDPFGKEABE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA21A50)
+#define CMDPFGKEABE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B18EDD0)
+#define CMDPFGKEABE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B18EE00)
 
-inline static constexpr unsigned int CMDPFGKEABE_TypeDefinitionIndex = 57884;
+inline static constexpr unsigned int CMDPFGKEABE_TypeDefinitionIndex = 59121;
 
 	class CMDPFGKEABE
 	{

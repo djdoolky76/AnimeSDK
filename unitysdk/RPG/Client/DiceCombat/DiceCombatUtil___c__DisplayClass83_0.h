@@ -4,12 +4,12 @@
 namespace RPG::Client::DiceCombat { class DiceCombatGlossaryTermData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC38E20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__GETGLOSSARYDATASBYIDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xCC3BBB0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C51C120)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__GETGLOSSARYDATASBYIDLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1C521470)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass83_0_TypeDefinitionIndex = 76103;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass83_0_TypeDefinitionIndex = 78430;
 
 	class DiceCombatUtil___c__DisplayClass83_0 : public ::System::Object
 	{

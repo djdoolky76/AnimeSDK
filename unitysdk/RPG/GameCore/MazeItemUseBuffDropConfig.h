@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeItemUseBuffDropConfig; }
 
-#define RPG_GAMECORE_MAZEITEMUSEBUFFDROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D839F30)
-#define RPG_GAMECORE_MAZEITEMUSEBUFFDROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D839EF0)
+#define RPG_GAMECORE_MAZEITEMUSEBUFFDROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6E0A0)
+#define RPG_GAMECORE_MAZEITEMUSEBUFFDROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6E060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeItemUseBuffDropConfig_TypeDefinitionIndex = 21757;
+	inline static constexpr unsigned int MazeItemUseBuffDropConfig_TypeDefinitionIndex = 22147;
 
 	class MazeItemUseBuffDropConfig : public ::RPG::GameCore::JsonConfig
 	{

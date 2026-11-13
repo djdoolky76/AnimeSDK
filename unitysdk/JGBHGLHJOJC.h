@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetTake; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JGBHGLHJOJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1664A700)
-#define JGBHGLHJOJC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1664A720)
+#define JGBHGLHJOJC_CTOR_OFFSET UNITYSDK_OFFSET(0x19343420)
+#define JGBHGLHJOJC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x19343440)
 
-inline static constexpr unsigned int JGBHGLHJOJC_TypeDefinitionIndex = 59203;
+inline static constexpr unsigned int JGBHGLHJOJC_TypeDefinitionIndex = 60480;
 
 	class JGBHGLHJOJC
 	{

@@ -6,23 +6,23 @@ class KLHPGILEONH_PFELJFNFAPF;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KLHPGILEONH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5233C0)
-#define KLHPGILEONH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB523400)
-#define KLHPGILEONH___C__GENSTATISTICS_B__4_0_OFFSET UNITYSDK_OFFSET(0xB523410)
+#define KLHPGILEONH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17B801F0)
+#define KLHPGILEONH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17B80230)
+#define KLHPGILEONH___C__GENSTATISTICS_B__4_0_OFFSET UNITYSDK_OFFSET(0x17B80240)
 
-inline static constexpr unsigned int KLHPGILEONH___c_TypeDefinitionIndex = 56011;
+inline static constexpr unsigned int KLHPGILEONH___c_TypeDefinitionIndex = 57214;
 
 	class KLHPGILEONH___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A440);
-		}
-
 		static ::System::Func_2<::System::Object*, ::ABFLKIBIFDM*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Object*, ::ABFLKIBIFDM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A448);
+			return (::System::Func_2<::System::Object*, ::ABFLKIBIFDM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x669B0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x669B8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define XLUA_MONOPINVOKECALLBACKATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x14DBD7D0)
+#define XLUA_MONOPINVOKECALLBACKATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x12BB0C20)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 50245;
+	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 51296;
 
 	class MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{

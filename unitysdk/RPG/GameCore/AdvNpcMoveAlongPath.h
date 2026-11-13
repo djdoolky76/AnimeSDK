@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AdvNpcMoveAlongPath; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37A740)
-#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D37A750)
-#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D37A700)
+#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DC270)
+#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8DC280)
+#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DC230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcMoveAlongPath_TypeDefinitionIndex = 20332;
+	inline static constexpr unsigned int AdvNpcMoveAlongPath_TypeDefinitionIndex = 20667;
 
 	class AdvNpcMoveAlongPath : public ::RPG::GameCore::TaskConfig
 	{

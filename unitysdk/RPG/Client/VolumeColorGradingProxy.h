@@ -1,52 +1,54 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/VolumeProxy_Priority.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace RPG::CustomRP { class RPGColorGrading; }
-namespace UnityEngine::Rendering { class Volume; }
 
-#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xE44EE30)
-#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_ENABLECOLORGRADING_OFFSET UNITYSDK_OFFSET(0xE44EDE0)
-#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xE44EBF0)
-#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_RELEASE_OFFSET UNITYSDK_OFFSET(0xE44ED10)
-#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xE44EC80)
+#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC7F570)
+#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_ENABLECOLORGRADING_OFFSET UNITYSDK_OFFSET(0x1BC7F3D0)
+#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_GET_CONTROLENABLED_OFFSET UNITYSDK_OFFSET(0x1BC7F420)
+#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_REGISTER_OFFSET UNITYSDK_OFFSET(0x1BC7F4B0)
+#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY_SET_CONTROLENABLED_OFFSET UNITYSDK_OFFSET(0x1BC7F460)
+#define RPG_CLIENT_VOLUMECOLORGRADINGPROXY__REGISTER_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BC7F5B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VolumeColorGradingProxy_TypeDefinitionIndex = 73017;
+	inline static constexpr unsigned int VolumeColorGradingProxy_TypeDefinitionIndex = 75130;
 
-	class VolumeColorGradingProxy : public ::UnityEngine::MonoBehaviour
+	class VolumeColorGradingProxy
 	{
 	public:
-		::RPG::CustomRP::RPGColorGrading* _ColorGrading; // 0x18
-		::System::Boolean _ColorGradingEnabled; // 0x20
-		::System::Boolean _ColorSaturationGlobalOverrideState; // 0x21
+		::System::Boolean _ColorGradingEnabled; // 0x38
+		::System::Boolean _ColorSaturationGlobalOverrideState; // 0x39
 		::System::Byte _padding0[0x2];
-		::UnityEngine::Vector4 _ColorSaturationGlobalColor; // 0x24
+		::UnityEngine::Vector4 _ColorSaturationGlobalColor; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::UnityEngine::Rendering::Volume* a1, ::UnityEngine::Rendering::VolumeProxy_Priority a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Volume*, ::UnityEngine::Rendering::VolumeProxy_Priority))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY_INIT_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Tick(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY_TICK_OFFSET))(this, a1);
-		}
-
-		::System::Void Release(::UnityEngine::Rendering::Volume* a1, ::UnityEngine::Rendering::VolumeProxy_Priority a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Volume*, ::UnityEngine::Rendering::VolumeProxy_Priority))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY_RELEASE_OFFSET))(this, a1, a2);
-		}
-
 		::System::Void EnableColorGrading(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY_ENABLECOLORGRADING_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_ControlEnabled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY_GET_CONTROLENABLED_OFFSET))(this);
+		}
+
+		::System::Void set_ControlEnabled(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY_SET_CONTROLENABLED_OFFSET))(this, a1);
+		}
+
+		::System::Void Register()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY_REGISTER_OFFSET))(this);
+		}
+
+		::System::Void _Register_b__4_0(::RPG::CustomRP::RPGColorGrading* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::RPGColorGrading*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMECOLORGRADINGPROXY__REGISTER_B__4_0_OFFSET))(this, a1);
 		}
 
 	};

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define EMOOOIOAINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33100)
+#define EMOOOIOAINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F6CB0)
 
-inline static constexpr unsigned int EMOOOIOAINK_TypeDefinitionIndex = 43783;
+inline static constexpr unsigned int EMOOOIOAINK_TypeDefinitionIndex = 44858;
 
 	class EMOOOIOAINK : public ::System::Object
 	{

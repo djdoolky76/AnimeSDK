@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerIceEffect; }
 
-#define KJNBMHIJCAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E6B10)
-#define KJNBMHIJCAM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6E6B20)
+#define KJNBMHIJCAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF63F0)
+#define KJNBMHIJCAM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1ABF6400)
 
-inline static constexpr unsigned int KJNBMHIJCAM_TypeDefinitionIndex = 36321;
+inline static constexpr unsigned int KJNBMHIJCAM_TypeDefinitionIndex = 37249;
 
 	class KJNBMHIJCAM : public ::AJBKGPOEBFG
 	{

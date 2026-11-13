@@ -7,13 +7,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Threading { class WaitCallback; }
 
-#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB25D0)
-#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CONNECT_B__0_OFFSET UNITYSDK_OFFSET(0xAFB3C30)
-#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CONNECT_B__1_OFFSET UNITYSDK_OFFSET(0xAFB3CC0)
+#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2E6AD0)
+#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CONNECT_B__0_OFFSET UNITYSDK_OFFSET(0x1E2E8190)
+#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x1E2E8220)
 
 namespace MiHoYo::SDK::KCP
 {
-	inline static constexpr unsigned int KCPManager___c__DisplayClass14_0_TypeDefinitionIndex = 46695;
+	inline static constexpr unsigned int KCPManager___c__DisplayClass14_0_TypeDefinitionIndex = 47723;
 
 	class KCPManager___c__DisplayClass14_0 : public ::System::Object
 	{

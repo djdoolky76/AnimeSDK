@@ -4,37 +4,37 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class RectTransform; }
 
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9CFC10)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xE9CF8D0)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEINHIERARCHY_OFFSET UNITYSDK_OFFSET(0xE9CF990)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLE_OFFSET UNITYSDK_OFFSET(0xE9CFA30)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_SETRECTTRANSFORMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xE9CF720)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x17138CF0)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0x171389B0)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEINHIERARCHY_OFFSET UNITYSDK_OFFSET(0x17138A70)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLE_OFFSET UNITYSDK_OFFSET(0x17138B10)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_SETRECTTRANSFORMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0x17138800)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int PosVisibleTool_TypeDefinitionIndex = 47637;
+	inline static constexpr unsigned int PosVisibleTool_TypeDefinitionIndex = 48667;
 
 	class PosVisibleTool : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet__VeryFarPos()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("SuperScrollView", "PosVisibleTool")->GetStaticField(0x3EB0);
-		}
-
-		static ::System::Int32* StaticGet_primeN2()
-		{
-			return (::System::Int32*)UnitySDK::FromName("SuperScrollView", "PosVisibleTool")->GetStaticField(0x3EBC);
-		}
-
-		static ::UnityEngine::Vector3* StaticGet__VeryFarWorldPos()
-		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("SuperScrollView", "PosVisibleTool")->GetStaticField(0x3EC0);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("SuperScrollView", "PosVisibleTool")->GetStaticField(0x5D50);
 		}
 
 		static ::System::Int32* StaticGet_primeN1()
 		{
-			return (::System::Int32*)UnitySDK::FromName("SuperScrollView", "PosVisibleTool")->GetStaticField(0x3ECC);
+			return (::System::Int32*)UnitySDK::FromName("SuperScrollView", "PosVisibleTool")->GetStaticField(0x5D5C);
+		}
+
+		static ::System::Int32* StaticGet_primeN2()
+		{
+			return (::System::Int32*)UnitySDK::FromName("SuperScrollView", "PosVisibleTool")->GetStaticField(0x5D60);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet__VeryFarWorldPos()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("SuperScrollView", "PosVisibleTool")->GetStaticField(0x5D64);
 		}
 
 		static ::System::Void _cctor()

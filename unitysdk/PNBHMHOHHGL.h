@@ -4,9 +4,9 @@
 class PMDPEENJIHC;
 namespace System { class String; }
 
-#define PNBHMHOHHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC32B570)
+#define PNBHMHOHHGL_CTOR_OFFSET UNITYSDK_OFFSET(0x184A9AC0)
 
-inline static constexpr unsigned int PNBHMHOHHGL_TypeDefinitionIndex = 64784;
+inline static constexpr unsigned int PNBHMHOHHGL_TypeDefinitionIndex = 66328;
 
 	class PNBHMHOHHGL : public ::System::Object
 	{

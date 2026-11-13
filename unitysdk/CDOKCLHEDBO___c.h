@@ -4,18 +4,18 @@
 class CDOKCLHEDBO;
 namespace System { class Object; }
 
-#define CDOKCLHEDBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E05F2F0)
-#define CDOKCLHEDBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E05F330)
-#define CDOKCLHEDBO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E05F340)
+#define CDOKCLHEDBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204C2E20)
+#define CDOKCLHEDBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204C2E60)
+#define CDOKCLHEDBO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x204C2E70)
 
-inline static constexpr unsigned int CDOKCLHEDBO___c_TypeDefinitionIndex = 32765;
+inline static constexpr unsigned int CDOKCLHEDBO___c_TypeDefinitionIndex = 33680;
 
 	class CDOKCLHEDBO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF790);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x62670);
 		}
 
 		static ::System::Void _cctor()

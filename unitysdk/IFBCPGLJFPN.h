@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ReinitProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFBCPGLJFPN_CTOR_OFFSET UNITYSDK_OFFSET(0x15EFD450)
-#define IFBCPGLJFPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EFD480)
+#define IFBCPGLJFPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC05090)
+#define IFBCPGLJFPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BC050C0)
 
-inline static constexpr unsigned int IFBCPGLJFPN_TypeDefinitionIndex = 55295;
+inline static constexpr unsigned int IFBCPGLJFPN_TypeDefinitionIndex = 56476;
 
 	class IFBCPGLJFPN
 	{

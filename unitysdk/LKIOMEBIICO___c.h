@@ -4,18 +4,18 @@
 class LKIOMEBIICO;
 namespace System { class Object; }
 
-#define LKIOMEBIICO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E963450)
-#define LKIOMEBIICO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E963490)
-#define LKIOMEBIICO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9634A0)
+#define LKIOMEBIICO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F993880)
+#define LKIOMEBIICO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9938C0)
+#define LKIOMEBIICO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F9938D0)
 
-inline static constexpr unsigned int LKIOMEBIICO___c_TypeDefinitionIndex = 34797;
+inline static constexpr unsigned int LKIOMEBIICO___c_TypeDefinitionIndex = 35725;
 
 	class LKIOMEBIICO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A930);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E610);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkChosenType_TypeDefinitionIndex = 10576;
+	inline static constexpr unsigned int TalkChosenType_TypeDefinitionIndex = 10592;
 
 	enum class TalkChosenType : ::System::Int32
 	{

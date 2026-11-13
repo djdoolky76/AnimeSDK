@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetFloorCustomStringV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KJIHNIDMOHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB451E30)
-#define KJIHNIDMOHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB451E60)
+#define KJIHNIDMOHC_CTOR_OFFSET UNITYSDK_OFFSET(0x19F190F0)
+#define KJIHNIDMOHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F19120)
 
-inline static constexpr unsigned int KJIHNIDMOHC_TypeDefinitionIndex = 53235;
+inline static constexpr unsigned int KJIHNIDMOHC_TypeDefinitionIndex = 54397;
 
 	class KJIHNIDMOHC
 	{

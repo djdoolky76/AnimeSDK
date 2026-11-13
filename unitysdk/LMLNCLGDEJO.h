@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FDNCLPGAKOA.h"
 
-#define LMLNCLGDEJO_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C9320)
+#define LMLNCLGDEJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD5930)
 
-inline static constexpr unsigned int LMLNCLGDEJO_TypeDefinitionIndex = 54284;
+inline static constexpr unsigned int LMLNCLGDEJO_TypeDefinitionIndex = 55448;
 
 	class LMLNCLGDEJO : public ::FDNCLPGAKOA
 	{

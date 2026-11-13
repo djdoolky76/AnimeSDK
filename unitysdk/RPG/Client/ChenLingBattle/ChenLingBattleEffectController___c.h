@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA35510)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA35550)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__PLAYLOOPPARTICLEEFFECTBYPATH_B__8_0_OFFSET UNITYSDK_OFFSET(0xCA35560)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7C0540)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C0580)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__PLAYLOOPPARTICLEEFFECTBYPATH_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D7C0590)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleEffectController___c_TypeDefinitionIndex = 76402;
+	inline static constexpr unsigned int ChenLingBattleEffectController___c_TypeDefinitionIndex = 78733;
 
 	class ChenLingBattleEffectController___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6ECF0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x71CB0);
 		}
 
 		static ::System::Action** StaticGet___9__8_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6ECF8);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x71CB8);
 		}
 
 		static ::System::Void _cctor()

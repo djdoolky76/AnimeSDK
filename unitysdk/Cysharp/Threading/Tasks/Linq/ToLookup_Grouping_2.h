@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToLookup_Grouping_2_TypeDefinitionIndex = 45692;
+	inline static constexpr unsigned int ToLookup_Grouping_2_TypeDefinitionIndex = 46721;
 
 	template <typename T1, typename T2>
 	class ToLookup_Grouping_2 : public ::System::Object

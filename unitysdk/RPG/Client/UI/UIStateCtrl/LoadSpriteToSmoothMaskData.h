@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_LOADSPRITETOSMOOTHMASKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE33FF50)
+#define RPG_CLIENT_UI_UISTATECTRL_LOADSPRITETOSMOOTHMASKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C75A0)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int LoadSpriteToSmoothMaskData_TypeDefinitionIndex = 74051;
+	inline static constexpr unsigned int LoadSpriteToSmoothMaskData_TypeDefinitionIndex = 76197;
 
 	class LoadSpriteToSmoothMaskData : public ::System::Object
 	{

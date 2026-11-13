@@ -6,14 +6,14 @@ namespace Google::Protobuf::Reflection { class TypeRegistry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B87F0A0)
-#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1B87EFE0)
-#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_FIND_OFFSET UNITYSDK_OFFSET(0x1B87EFF0)
-#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1B87EF80)
+#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F396D70)
+#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F396CB0)
+#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_FIND_OFFSET UNITYSDK_OFFSET(0x1F396CC0)
+#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1F396C50)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int TypeRegistry_TypeDefinitionIndex = 5577;
+	inline static constexpr unsigned int TypeRegistry_TypeDefinitionIndex = 5582;
 
 	class TypeRegistry : public ::System::Object
 	{
@@ -21,7 +21,7 @@ namespace Google::Protobuf::Reflection
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::Google::Protobuf::Reflection::MessageDescriptor*>* fullNameToMessageMap; // 0x10
 		static ::Google::Protobuf::Reflection::TypeRegistry** StaticGet__Empty_k__BackingField()
 		{
-			return (::Google::Protobuf::Reflection::TypeRegistry**)UnitySDK::FromName("Google.Protobuf.Reflection", "TypeRegistry")->GetStaticField(0x22250);
+			return (::Google::Protobuf::Reflection::TypeRegistry**)UnitySDK::FromName("Google.Protobuf.Reflection", "TypeRegistry")->GetStaticField(0x220F0);
 		}
 
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::Google::Protobuf::Reflection::MessageDescriptor*>* a1)

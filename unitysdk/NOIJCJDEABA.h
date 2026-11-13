@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OOCCBMLAELL;
 
-#define NOIJCJDEABA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE9710)
+#define NOIJCJDEABA_CTOR_OFFSET UNITYSDK_OFFSET(0x19CE86D0)
 
-inline static constexpr unsigned int NOIJCJDEABA_TypeDefinitionIndex = 80594;
+inline static constexpr unsigned int NOIJCJDEABA_TypeDefinitionIndex = 83374;
 
 	class NOIJCJDEABA : public ::System::Object
 	{

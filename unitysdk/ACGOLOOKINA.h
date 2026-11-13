@@ -3,10 +3,10 @@
 class DOHCNAGPAEM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ACGOLOOKINA_CTOR_OFFSET UNITYSDK_OFFSET(0xB11E7F0)
-#define ACGOLOOKINA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB11E820)
+#define ACGOLOOKINA_CTOR_OFFSET UNITYSDK_OFFSET(0x1828F230)
+#define ACGOLOOKINA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1828F260)
 
-inline static constexpr unsigned int ACGOLOOKINA_TypeDefinitionIndex = 52608;
+inline static constexpr unsigned int ACGOLOOKINA_TypeDefinitionIndex = 53715;
 
 	class ACGOLOOKINA
 	{

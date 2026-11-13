@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EOKPMOBCPAC_CTOR_OFFSET UNITYSDK_OFFSET(0x155B90D0)
+#define EOKPMOBCPAC_CTOR_OFFSET UNITYSDK_OFFSET(0x16B27550)
 
-inline static constexpr unsigned int EOKPMOBCPAC_TypeDefinitionIndex = 81271;
+inline static constexpr unsigned int EOKPMOBCPAC_TypeDefinitionIndex = 84051;
 
 	class EOKPMOBCPAC : public ::System::Object
 	{

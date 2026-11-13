@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 class IMABGHCOMFF;
 
-#define IMABGHCOMFF___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C474240)
-#define IMABGHCOMFF___C__DISPLAYCLASS19_0___CHECK_DUPLICATES_B__0_OFFSET UNITYSDK_OFFSET(0x1C474330)
+#define IMABGHCOMFF___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCECBB0)
+#define IMABGHCOMFF___C__DISPLAYCLASS19_0___CHECK_DUPLICATES_B__0_OFFSET UNITYSDK_OFFSET(0x1BCECCA0)
 
-inline static constexpr unsigned int IMABGHCOMFF___c__DisplayClass19_0_TypeDefinitionIndex = 41518;
+inline static constexpr unsigned int IMABGHCOMFF___c__DisplayClass19_0_TypeDefinitionIndex = 42493;
 
 	class IMABGHCOMFF___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::IMABGHCOMFF* __4__this; // 0x10
-		::Il2CppArray<::CIGLFKLHBGD>* edges; // 0x18
+		::Il2CppArray<::CIGLFKLHBGD>* edges; // 0x10
+		::IMABGHCOMFF* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMABGHCOMFF___C__DISPLAYCLASS19_0_CTOR_OFFSET))(this);

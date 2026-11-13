@@ -7,10 +7,10 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewMode
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudInputBrain; }
 namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 
-#define CAEBEEOCLLI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC1BCE40)
-#define CAEBEEOCLLI_CTOR_OFFSET UNITYSDK_OFFSET(0xC1BCDC0)
+#define CAEBEEOCLLI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1B61C880)
+#define CAEBEEOCLLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1B61C800)
 
-inline static constexpr unsigned int CAEBEEOCLLI_TypeDefinitionIndex = 80921;
+inline static constexpr unsigned int CAEBEEOCLLI_TypeDefinitionIndex = 83701;
 
 	class CAEBEEOCLLI : public ::System::Object
 	{

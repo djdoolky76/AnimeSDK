@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KIDPCOMKMKJ.h"
 
-#define KMEMMFHPJDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DA720)
-#define KMEMMFHPJDC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C8DA280)
+#define KMEMMFHPJDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6345B0)
+#define KMEMMFHPJDC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1D634110)
 
-inline static constexpr unsigned int KMEMMFHPJDC_TypeDefinitionIndex = 42474;
+inline static constexpr unsigned int KMEMMFHPJDC_TypeDefinitionIndex = 43449;
 
 	class KMEMMFHPJDC : public ::KIDPCOMKMKJ
 	{

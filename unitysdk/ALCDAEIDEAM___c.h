@@ -4,18 +4,18 @@
 class ALCDAEIDEAM;
 namespace System { class Object; }
 
-#define ALCDAEIDEAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3A7F20)
-#define ALCDAEIDEAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A7F50)
-#define ALCDAEIDEAM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3A7F60)
+#define ALCDAEIDEAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20015E80)
+#define ALCDAEIDEAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20015EB0)
+#define ALCDAEIDEAM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x20015EC0)
 
-inline static constexpr unsigned int ALCDAEIDEAM___c_TypeDefinitionIndex = 30896;
+inline static constexpr unsigned int ALCDAEIDEAM___c_TypeDefinitionIndex = 31809;
 
 	class ALCDAEIDEAM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40D90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36720);
 		}
 
 		static ::System::Void _cctor()

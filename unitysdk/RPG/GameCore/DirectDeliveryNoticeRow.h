@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DirectDeliveryNoticeRow; }
 
-#define RPG_GAMECORE_DIRECTDELIVERYNOTICEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E8F00)
-#define RPG_GAMECORE_DIRECTDELIVERYNOTICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E8D60)
+#define RPG_GAMECORE_DIRECTDELIVERYNOTICEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C6A40)
+#define RPG_GAMECORE_DIRECTDELIVERYNOTICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F3C68A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DirectDeliveryNoticeRow_TypeDefinitionIndex = 13146;
+	inline static constexpr unsigned int DirectDeliveryNoticeRow_TypeDefinitionIndex = 13220;
 
 	class DirectDeliveryNoticeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RewardList; // 0x10
-		::System::UInt32 ActivityModule; // 0x18
+		::System::UInt32 ID; // 0x18
 		::System::UInt32 UnlockQuestId; // 0x1C
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ActivityModule; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIRECTDELIVERYNOTICEROW_CTOR_OFFSET))(this);

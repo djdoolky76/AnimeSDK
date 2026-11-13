@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleMatchDetailRow; }
 
-#define RPG_GAMECORE_MARBLEMATCHDETAILROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8129A0)
-#define RPG_GAMECORE_MARBLEMATCHDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D812860)
+#define RPG_GAMECORE_MARBLEMATCHDETAILROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB46DD0)
+#define RPG_GAMECORE_MARBLEMATCHDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB46C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMatchDetailRow_TypeDefinitionIndex = 11869;
+	inline static constexpr unsigned int MarbleMatchDetailRow_TypeDefinitionIndex = 11926;
 
 	class MarbleMatchDetailRow : public ::System::Object
 	{

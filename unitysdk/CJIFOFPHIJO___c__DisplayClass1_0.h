@@ -5,9 +5,9 @@ class CJIFOFPHIJO;
 namespace RPG::Client::BlindBox::Pool { class BlindBoxOpenResultPet; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CJIFOFPHIJO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD20C6F0)
+#define CJIFOFPHIJO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x177D7A40)
 
-inline static constexpr unsigned int CJIFOFPHIJO___c__DisplayClass1_0_TypeDefinitionIndex = 74954;
+inline static constexpr unsigned int CJIFOFPHIJO___c__DisplayClass1_0_TypeDefinitionIndex = 77281;
 
 	class CJIFOFPHIJO___c__DisplayClass1_0 : public ::System::Object
 	{

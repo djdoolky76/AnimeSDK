@@ -6,10 +6,10 @@ class LPNIPNDEDDL;
 namespace Entitas { class IEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define LPNIPNDEDDL___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB82A4E0)
-#define LPNIPNDEDDL___C__DISPLAYCLASS46_0__INITBORDERPLATEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB82DC40)
+#define LPNIPNDEDDL___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C4620)
+#define LPNIPNDEDDL___C__DISPLAYCLASS46_0__INITBORDERPLATEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1B6C7D80)
 
-inline static constexpr unsigned int LPNIPNDEDDL___c__DisplayClass46_0_TypeDefinitionIndex = 76892;
+inline static constexpr unsigned int LPNIPNDEDDL___c__DisplayClass46_0_TypeDefinitionIndex = 79226;
 
 	class LPNIPNDEDDL___c__DisplayClass46_0 : public ::System::Object
 	{

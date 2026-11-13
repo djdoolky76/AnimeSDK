@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerInterface_TypeDefinitionIndex = 46960;
+	inline static constexpr unsigned int rdtSerializerInterface_TypeDefinitionIndex = 47988;
 
 	class rdtSerializerInterface
 	{

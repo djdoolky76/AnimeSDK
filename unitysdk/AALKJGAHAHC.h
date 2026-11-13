@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define AALKJGAHAHC_CLEAR_OFFSET UNITYSDK_OFFSET(0xB0CE590)
-#define AALKJGAHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CE5E0)
+#define AALKJGAHAHC_CLEAR_OFFSET UNITYSDK_OFFSET(0x18C7E610)
+#define AALKJGAHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0x18C7E660)
 
-inline static constexpr unsigned int AALKJGAHAHC_TypeDefinitionIndex = 54837;
+inline static constexpr unsigned int AALKJGAHAHC_TypeDefinitionIndex = 56007;
 
 	class AALKJGAHAHC : public ::System::Object
 	{

@@ -6,24 +6,24 @@ namespace RPG::GameCore { class AdventureCharacterFloatingTemplateConfigs; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DDAMICBNNNF_CMFEGAGLPGM_OFFSET UNITYSDK_OFFSET(0xE24F8A0)
-#define DDAMICBNNNF_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xE24F8F0)
-#define DDAMICBNNNF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xE24F630)
-#define DDAMICBNNNF_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xE24F850)
+#define DDAMICBNNNF_CMFEGAGLPGM_OFFSET UNITYSDK_OFFSET(0x17729810)
+#define DDAMICBNNNF_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x17729860)
+#define DDAMICBNNNF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x177295A0)
+#define DDAMICBNNNF_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0x177297C0)
 
-inline static constexpr unsigned int DDAMICBNNNF_TypeDefinitionIndex = 73302;
+inline static constexpr unsigned int DDAMICBNNNF_TypeDefinitionIndex = 75418;
 
 	class DDAMICBNNNF : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::AdventureCharacterFloatingTemplateConfigs** StaticGet_IGHAHBNLIJA()
-		{
-			return (::RPG::GameCore::AdventureCharacterFloatingTemplateConfigs**)UnitySDK::FromName("", "DDAMICBNNNF")->GetStaticField(0x5BD30);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AdventureCharacterFloatingTemplateConfig*>** StaticGet_GMIOIPNILMI()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AdventureCharacterFloatingTemplateConfig*>**)UnitySDK::FromName("", "DDAMICBNNNF")->GetStaticField(0x5BD38);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AdventureCharacterFloatingTemplateConfig*>**)UnitySDK::FromName("", "DDAMICBNNNF")->GetStaticField(0x58970);
+		}
+
+		static ::RPG::GameCore::AdventureCharacterFloatingTemplateConfigs** StaticGet_IGHAHBNLIJA()
+		{
+			return (::RPG::GameCore::AdventureCharacterFloatingTemplateConfigs**)UnitySDK::FromName("", "DDAMICBNNNF")->GetStaticField(0x58978);
 		}
 
 		// static const ::System::String* ICEPLFPKAHC; // 0x0

@@ -8,14 +8,14 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE92FE70)
-#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92FC40)
-#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92FE00)
-#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92FC30)
+#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA1B1B0)
+#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DA1AFE0)
+#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1B170)
+#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DA1AFD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowTalkRecordingDialogClip_TypeDefinitionIndex = 48302;
+	inline static constexpr unsigned int ShowTalkRecordingDialogClip_TypeDefinitionIndex = 49343;
 
 	class ShowTalkRecordingDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -23,17 +23,17 @@ namespace RPGTools::Timeline
 		::System::String* UILuaPath; // 0x18
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowTalkRecordingDialogClip")->GetStaticField(0x5E970);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowTalkRecordingDialogClip")->GetStaticField(0x92A0);
 		}
 
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowTalkRecordingDialogClip")->GetStaticField(0x5E978);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowTalkRecordingDialogClip")->GetStaticField(0x92A8);
 		}
 
 		static ::RPG::Client::NotifyType* StaticGet_CLOSE_NOTIFY_TYPE()
 		{
-			return (::RPG::Client::NotifyType*)UnitySDK::FromName("RPGTools.Timeline", "ShowTalkRecordingDialogClip")->GetStaticField(0x14270);
+			return (::RPG::Client::NotifyType*)UnitySDK::FromName("RPGTools.Timeline", "ShowTalkRecordingDialogClip")->GetStaticField(0x8A0);
 		}
 
 		::System::Void _ctor()

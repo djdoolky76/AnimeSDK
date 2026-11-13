@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCMarkType; }
 
-#define RPG_GAMECORE_ROGUEDLCMARKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D997AD0)
-#define RPG_GAMECORE_ROGUEDLCMARKTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9979B0)
+#define RPG_GAMECORE_ROGUEDLCMARKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57DA40)
+#define RPG_GAMECORE_ROGUEDLCMARKTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F57D920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCMarkType_TypeDefinitionIndex = 17912;
+	inline static constexpr unsigned int RogueDLCMarkType_TypeDefinitionIndex = 18081;
 
 	class RogueDLCMarkType : public ::RPG::GameCore::JsonConfig
 	{

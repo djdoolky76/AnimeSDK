@@ -5,10 +5,10 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::GameCore { class LittleGameLevelCurveInfo; }
 namespace System { class String; }
 
-#define LKDKEEDNMOJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8E1260)
-#define LKDKEEDNMOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E12D0)
+#define LKDKEEDNMOJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D63B340)
+#define LKDKEEDNMOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63B3B0)
 
-inline static constexpr unsigned int LKDKEEDNMOJ_TypeDefinitionIndex = 43669;
+inline static constexpr unsigned int LKDKEEDNMOJ_TypeDefinitionIndex = 44652;
 
 	class LKDKEEDNMOJ : public ::System::Object
 	{

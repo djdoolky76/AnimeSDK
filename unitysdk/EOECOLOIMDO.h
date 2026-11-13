@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ONLKOENMDNA.h"
 
-#define EOECOLOIMDO_CTOR_OFFSET UNITYSDK_OFFSET(0x155B2310)
+#define EOECOLOIMDO_CTOR_OFFSET UNITYSDK_OFFSET(0x16B206C0)
 
-inline static constexpr unsigned int EOECOLOIMDO_TypeDefinitionIndex = 49339;
+inline static constexpr unsigned int EOECOLOIMDO_TypeDefinitionIndex = 50415;
 
 	class EOECOLOIMDO : public ::ONLKOENMDNA
 	{

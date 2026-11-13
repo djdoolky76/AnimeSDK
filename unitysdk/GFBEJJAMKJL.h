@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsBattleEventEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GFBEJJAMKJL_CTOR_OFFSET UNITYSDK_OFFSET(0x159DD670)
-#define GFBEJJAMKJL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159DD6A0)
+#define GFBEJJAMKJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4856E0)
+#define GFBEJJAMKJL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B485710)
 
-inline static constexpr unsigned int GFBEJJAMKJL_TypeDefinitionIndex = 54635;
+inline static constexpr unsigned int GFBEJJAMKJL_TypeDefinitionIndex = 55801;
 
 	class GFBEJJAMKJL
 	{

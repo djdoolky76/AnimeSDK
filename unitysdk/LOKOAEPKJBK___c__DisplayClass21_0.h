@@ -4,10 +4,10 @@
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class VolumetricLight; }
 
-#define LOKOAEPKJBK___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8036B0)
-#define LOKOAEPKJBK___C__DISPLAYCLASS21_0__UNSERIALIZEASYNC_B__4_OFFSET UNITYSDK_OFFSET(0xB8041C0)
+#define LOKOAEPKJBK___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B8D80)
+#define LOKOAEPKJBK___C__DISPLAYCLASS21_0__UNSERIALIZEASYNC_B__4_OFFSET UNITYSDK_OFFSET(0x1A5B9890)
 
-inline static constexpr unsigned int LOKOAEPKJBK___c__DisplayClass21_0_TypeDefinitionIndex = 49075;
+inline static constexpr unsigned int LOKOAEPKJBK___c__DisplayClass21_0_TypeDefinitionIndex = 50151;
 
 	class LOKOAEPKJBK___c__DisplayClass21_0 : public ::System::Object
 	{

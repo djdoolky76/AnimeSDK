@@ -8,73 +8,73 @@ namespace RPG::Client { class GridFightShopSpecialGood; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD25B0E0)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD25B120)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET_UNSOLDSHOPGOODS_B__35_0_OFFSET UNITYSDK_OFFSET(0xD25B1F0)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPROLES_B__93_0_OFFSET UNITYSDK_OFFSET(0xD25B2A0)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPROLES_B__93_1_OFFSET UNITYSDK_OFFSET(0xD25B310)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPSPECIAL_B__95_0_OFFSET UNITYSDK_OFFSET(0xD25B380)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPSPECIAL_B__95_1_OFFSET UNITYSDK_OFFSET(0xD25B3F0)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__SYNC_B__9_0_OFFSET UNITYSDK_OFFSET(0xD25B130)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__TRYBUYROLE_B__14_1_OFFSET UNITYSDK_OFFSET(0xD25B170)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__TRYBUYROLE_B__14_2_OFFSET UNITYSDK_OFFSET(0xD25B1D0)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__UPDATE_B__10_0_OFFSET UNITYSDK_OFFSET(0xD25B150)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4E96A0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E96E0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET_UNSOLDSHOPGOODS_B__41_0_OFFSET UNITYSDK_OFFSET(0x1D4E97B0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPROLES_B__101_0_OFFSET UNITYSDK_OFFSET(0x1D4E9880)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPROLES_B__101_1_OFFSET UNITYSDK_OFFSET(0x1D4E98F0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPSPECIAL_B__103_0_OFFSET UNITYSDK_OFFSET(0x1D4E9960)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPSPECIAL_B__103_1_OFFSET UNITYSDK_OFFSET(0x1D4E99D0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__SYNC_B__14_0_OFFSET UNITYSDK_OFFSET(0x1D4E96F0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__TRYBUYROLE_B__19_1_OFFSET UNITYSDK_OFFSET(0x1D4E9730)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__TRYBUYROLE_B__19_2_OFFSET UNITYSDK_OFFSET(0x1D4E9790)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__UPDATE_B__15_0_OFFSET UNITYSDK_OFFSET(0x1D4E9710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleShop___c_TypeDefinitionIndex = 65229;
+	inline static constexpr unsigned int GridFightRoleShop___c_TypeDefinitionIndex = 66936;
 
 	class GridFightRoleShop___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>** StaticGet___9__93_0()
+		static ::System::Func_2<::RPG::Client::GridFightShopRole*, ::System::Int64>** StaticGet___9__19_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E9F0);
+			return (::System::Func_2<::RPG::Client::GridFightShopRole*, ::System::Int64>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD610);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>** StaticGet___9__35_0()
+		static ::System::Func_2<::BOPHDCKJMMN*, ::System::UInt32>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E9F8);
+			return (::System::Func_2<::BOPHDCKJMMN*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD618);
 		}
 
-		static ::System::Func_2<::BOPHDCKJMMN*, ::System::UInt32>** StaticGet___9__9_0()
+		static ::System::Func_2<::BOPHDCKJMMN*, ::System::UInt32>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::BOPHDCKJMMN*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA00);
+			return (::System::Func_2<::BOPHDCKJMMN*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD620);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::RPG::Client::GridFightShopSpecialGood*>** StaticGet___9__95_1()
+		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::RPG::Client::GridFightShopRole*>** StaticGet___9__101_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::RPG::Client::GridFightShopSpecialGood*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA08);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::RPG::Client::GridFightShopRole*>** StaticGet___9__93_1()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::RPG::Client::GridFightShopRole*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA10);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>** StaticGet___9__95_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA18);
+			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::RPG::Client::GridFightShopRole*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD628);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA20);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD630);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightShopRole*, ::System::UInt32>** StaticGet___9__14_2()
+		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>** StaticGet___9__41_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightShopRole*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA28);
+			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD638);
 		}
 
-		static ::System::Func_2<::BOPHDCKJMMN*, ::System::UInt32>** StaticGet___9__10_0()
+		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>** StaticGet___9__103_0()
 		{
-			return (::System::Func_2<::BOPHDCKJMMN*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA30);
+			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD640);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightShopRole*, ::System::Int64>** StaticGet___9__14_1()
+		static ::System::Func_2<::RPG::Client::GridFightShopRole*, ::System::UInt32>** StaticGet___9__19_2()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightShopRole*, ::System::Int64>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA38);
+			return (::System::Func_2<::RPG::Client::GridFightShopRole*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD648);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::RPG::Client::GridFightShopSpecialGood*>** StaticGet___9__103_1()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::RPG::Client::GridFightShopSpecialGood*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD650);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>** StaticGet___9__101_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightShopGood*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD658);
 		}
 
 		static ::System::Void _cctor()
@@ -87,49 +87,49 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C_CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 _Sync_b__9_0(::BOPHDCKJMMN* a1)
+		::System::UInt32 _Sync_b__14_0(::BOPHDCKJMMN* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::BOPHDCKJMMN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__SYNC_B__9_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::BOPHDCKJMMN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__SYNC_B__14_0_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _Update_b__10_0(::BOPHDCKJMMN* a1)
+		::System::UInt32 _Update_b__15_0(::BOPHDCKJMMN* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::BOPHDCKJMMN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__UPDATE_B__10_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::BOPHDCKJMMN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__UPDATE_B__15_0_OFFSET))(this, a1);
 		}
 
-		::System::Int64 _TryBuyRole_b__14_1(::RPG::Client::GridFightShopRole* a1)
+		::System::Int64 _TryBuyRole_b__19_1(::RPG::Client::GridFightShopRole* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::RPG::Client::GridFightShopRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__TRYBUYROLE_B__14_1_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::RPG::Client::GridFightShopRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__TRYBUYROLE_B__19_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _TryBuyRole_b__14_2(::RPG::Client::GridFightShopRole* a1)
+		::System::UInt32 _TryBuyRole_b__19_2(::RPG::Client::GridFightShopRole* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::GridFightShopRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__TRYBUYROLE_B__14_2_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::GridFightShopRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__TRYBUYROLE_B__19_2_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_UnsoldShopGoods_b__35_0(::RPG::Client::GridFightShopGood* a1)
+		::System::Boolean _get_UnsoldShopGoods_b__41_0(::RPG::Client::GridFightShopGood* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET_UNSOLDSHOPGOODS_B__35_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET_UNSOLDSHOPGOODS_B__41_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get__ShopRoles_b__93_0(::RPG::Client::GridFightShopGood* a1)
+		::System::Boolean _get__ShopRoles_b__101_0(::RPG::Client::GridFightShopGood* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPROLES_B__93_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPROLES_B__101_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightShopRole* _get__ShopRoles_b__93_1(::RPG::Client::GridFightShopGood* a1)
+		::RPG::Client::GridFightShopRole* _get__ShopRoles_b__101_1(::RPG::Client::GridFightShopGood* a1)
 		{
-			return ((::RPG::Client::GridFightShopRole*(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPROLES_B__93_1_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightShopRole*(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPROLES_B__101_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get__ShopSpecial_b__95_0(::RPG::Client::GridFightShopGood* a1)
+		::System::Boolean _get__ShopSpecial_b__103_0(::RPG::Client::GridFightShopGood* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPSPECIAL_B__95_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPSPECIAL_B__103_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightShopSpecialGood* _get__ShopSpecial_b__95_1(::RPG::Client::GridFightShopGood* a1)
+		::RPG::Client::GridFightShopSpecialGood* _get__ShopSpecial_b__103_1(::RPG::Client::GridFightShopGood* a1)
 		{
-			return ((::RPG::Client::GridFightShopSpecialGood*(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPSPECIAL_B__95_1_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightShopSpecialGood*(*)(::PVOID, ::RPG::Client::GridFightShopGood*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__GET__SHOPSPECIAL_B__103_1_OFFSET))(this, a1);
 		}
 
 	};

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 
-inline static constexpr unsigned int FOMHMBKPEDB_EAODHPPGPNO_TypeDefinitionIndex = 59043;
+inline static constexpr unsigned int FOMHMBKPEDB_EAODHPPGPNO_TypeDefinitionIndex = 60318;
 
 	struct alignas(4) FOMHMBKPEDB_EAODHPPGPNO
 	{

@@ -1,12 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PHIFCNHKOAI_PFHDDKOGAOK_TypeDefinitionIndex = 29589;
+inline static constexpr unsigned int PHIFCNHKOAI_PFHDDKOGAOK_TypeDefinitionIndex = 30393;
 
 	enum class PHIFCNHKOAI_PFHDDKOGAOK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		FFBEPFLBHPL = 1827,
-		JLCLHAKNMLL = 1194,
-		LFIDNOAECMN = 871,
+		FFBEPFLBHPL = 956,
+		JLCLHAKNMLL = 227,
+		LFIDNOAECMN = 856,
+		MCCMPFENGCD = 1278,
+		IJBCFCMIJNK = 441,
+		FLDEMEJEODJ = 1698,
+		KDBKIPPHMFI = 367,
+		IFDICIIOHHI = 1595,
+		GDAMHENIIDJ = 30,
+		GEPGMIEPBMB = 1946,
+		DPKFJEEJABC = 1975,
+		BMFKPELKAJF = 606,
 	};

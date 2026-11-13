@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ALBPEHOMADH_CTOR_OFFSET UNITYSDK_OFFSET(0x155559F0)
+#define ALBPEHOMADH_CTOR_OFFSET UNITYSDK_OFFSET(0x197B93B0)
 
-inline static constexpr unsigned int ALBPEHOMADH_TypeDefinitionIndex = 72397;
+inline static constexpr unsigned int ALBPEHOMADH_TypeDefinitionIndex = 74476;
 
 	class ALBPEHOMADH : public ::System::Object
 	{

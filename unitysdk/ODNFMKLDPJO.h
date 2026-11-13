@@ -6,18 +6,18 @@ namespace RPG::Client { class ForceKillMarkDataProvider; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define ODNFMKLDPJO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDEA9F0)
-#define ODNFMKLDPJO_IPKLEHABJDF_OFFSET UNITYSDK_OFFSET(0xBDEA670)
-#define ODNFMKLDPJO__ONBIND_OFFSET UNITYSDK_OFFSET(0xBDEA5C0)
+#define ODNFMKLDPJO_CTOR_OFFSET UNITYSDK_OFFSET(0x176161E0)
+#define ODNFMKLDPJO_IPKLEHABJDF_OFFSET UNITYSDK_OFFSET(0x17615E60)
+#define ODNFMKLDPJO__ONBIND_OFFSET UNITYSDK_OFFSET(0x17615D20)
 
-inline static constexpr unsigned int ODNFMKLDPJO_TypeDefinitionIndex = 71667;
+inline static constexpr unsigned int ODNFMKLDPJO_TypeDefinitionIndex = 73656;
 
 	class ODNFMKLDPJO : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* OHJCABBKJHA; // 0x60
-		::UnityEngine::RectTransform* NHDIHFJFJDA; // 0x68
-		::NAMMEJAABAM* ACAKMFDAHDM; // 0x70
+		::UnityEngine::RectTransform* NHDIHFJFJDA; // 0x60
+		::NAMMEJAABAM* ACAKMFDAHDM; // 0x68
+		::UnityEngine::Transform* OHJCABBKJHA; // 0x70
 		// static const ::System::Object IMCLIANMBCN; // 0x0
 		// static const ::System::Object KMKOOGLDPJA; // 0x0
 		// static const ::System::Object GKKGDEMCFBL; // 0x0

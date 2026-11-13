@@ -5,13 +5,13 @@
 #include "unitysdk/UnityEngine/TextCore/GlyphRect.h"
 namespace UnityEngine { class Sprite; }
 
-#define TMPRO_TMP_SPRITEGLYPH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2F5160)
-#define TMPRO_TMP_SPRITEGLYPH_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F2F51B0)
-#define TMPRO_TMP_SPRITEGLYPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F4E30)
+#define TMPRO_TMP_SPRITEGLYPH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x19BC8370)
+#define TMPRO_TMP_SPRITEGLYPH_CTOR_2_OFFSET UNITYSDK_OFFSET(0x19BC83C0)
+#define TMPRO_TMP_SPRITEGLYPH_CTOR_OFFSET UNITYSDK_OFFSET(0x19BC8040)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteGlyph_TypeDefinitionIndex = 44638;
+	inline static constexpr unsigned int TMP_SpriteGlyph_TypeDefinitionIndex = 45713;
 
 	class TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph
 	{

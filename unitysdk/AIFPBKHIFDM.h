@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
 #include "unitysdk/System/Object.h"
 
-#define AIFPBKHIFDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C85F810)
+#define AIFPBKHIFDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D863B40)
 
-inline static constexpr unsigned int AIFPBKHIFDM_TypeDefinitionIndex = 42258;
+inline static constexpr unsigned int AIFPBKHIFDM_TypeDefinitionIndex = 43233;
 
 	class AIFPBKHIFDM : public ::System::Object
 	{

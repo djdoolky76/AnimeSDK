@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextProcessingStack_1_TypeDefinitionIndex = 44668;
+	inline static constexpr unsigned int TMP_TextProcessingStack_1_TypeDefinitionIndex = 45743;
 
 	template <typename T>
 	struct alignas(8) TMP_TextProcessingStack_1

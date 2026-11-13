@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicScoreRow; }
 
-#define RPG_GAMECORE_ROGUEMAGICSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A8780)
-#define RPG_GAMECORE_ROGUEMAGICSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9A85D0)
+#define RPG_GAMECORE_ROGUEMAGICSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x207762F0)
+#define RPG_GAMECORE_ROGUEMAGICSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x20776140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicScoreRow_TypeDefinitionIndex = 14876;
+	inline static constexpr unsigned int RogueMagicScoreRow_TypeDefinitionIndex = 15032;
 
 	class RogueMagicScoreRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RoomNum; // 0x10
-		::System::UInt32 WeeklyScore; // 0x14
-		::System::UInt32 WorldLevel; // 0x18
-		::System::UInt32 LayerNum; // 0x1C
+		::System::UInt32 LayerNum; // 0x10
+		::System::UInt32 RoomNum; // 0x14
+		::System::UInt32 WeeklyScore; // 0x18
+		::System::UInt32 WorldLevel; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSCOREROW_CTOR_OFFSET))(this);

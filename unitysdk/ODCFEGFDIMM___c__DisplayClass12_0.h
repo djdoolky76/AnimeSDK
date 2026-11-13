@@ -4,10 +4,10 @@
 class ODCFEGFDIMM;
 namespace System { class Action; }
 
-#define ODCFEGFDIMM___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD81450)
-#define ODCFEGFDIMM___C__DISPLAYCLASS12_0___INITAUDIOPCK_B__1_OFFSET UNITYSDK_OFFSET(0xBD817C0)
+#define ODCFEGFDIMM___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A35240)
+#define ODCFEGFDIMM___C__DISPLAYCLASS12_0___INITAUDIOPCK_B__1_OFFSET UNITYSDK_OFFSET(0x19A355B0)
 
-inline static constexpr unsigned int ODCFEGFDIMM___c__DisplayClass12_0_TypeDefinitionIndex = 61152;
+inline static constexpr unsigned int ODCFEGFDIMM___c__DisplayClass12_0_TypeDefinitionIndex = 62537;
 
 	class ODCFEGFDIMM___c__DisplayClass12_0 : public ::System::Object
 	{

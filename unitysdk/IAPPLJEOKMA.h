@@ -5,20 +5,20 @@ namespace RPG::GameCore { class RogueTakeInitialScore; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define IAPPLJEOKMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15E1A470)
-#define IAPPLJEOKMA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E1A480)
-#define IAPPLJEOKMA_OLECHPLCOHK_OFFSET UNITYSDK_OFFSET(0x15E1A640)
-#define IAPPLJEOKMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E1A5A0)
-#define IAPPLJEOKMA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E1A5F0)
-#define IAPPLJEOKMA_TICK_OFFSET UNITYSDK_OFFSET(0x15E1A540)
+#define IAPPLJEOKMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1943A910)
+#define IAPPLJEOKMA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1943A920)
+#define IAPPLJEOKMA_OLECHPLCOHK_OFFSET UNITYSDK_OFFSET(0x1943AAE0)
+#define IAPPLJEOKMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1943AA40)
+#define IAPPLJEOKMA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1943AA90)
+#define IAPPLJEOKMA_TICK_OFFSET UNITYSDK_OFFSET(0x1943A9E0)
 
-inline static constexpr unsigned int IAPPLJEOKMA_TypeDefinitionIndex = 58474;
+inline static constexpr unsigned int IAPPLJEOKMA_TypeDefinitionIndex = 59730;
 
 	class IAPPLJEOKMA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RogueTakeInitialScore* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RogueTakeInitialScore* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueTakeInitialScore* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RogueTakeInitialScore*))((::PBYTE)hIl2Cpp + IAPPLJEOKMA_CTOR_OFFSET))(this, a1, a2);

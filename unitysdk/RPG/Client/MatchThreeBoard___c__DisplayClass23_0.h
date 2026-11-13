@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD57BB50)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__DOSWITCHPIECE_B__0_OFFSET UNITYSDK_OFFSET(0xD584140)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BACC0)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__DOSWITCHPIECE_B__0_OFFSET UNITYSDK_OFFSET(0x1D8C4BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass23_0_TypeDefinitionIndex = 65906;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass23_0_TypeDefinitionIndex = 67838;
 
 	class MatchThreeBoard___c__DisplayClass23_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBillboardInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLNFHEPHLKG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF0C140)
-#define OLNFHEPHLKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF0C170)
+#define OLNFHEPHLKG_CTOR_OFFSET UNITYSDK_OFFSET(0x178B42D0)
+#define OLNFHEPHLKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178B4300)
 
-inline static constexpr unsigned int OLNFHEPHLKG_TypeDefinitionIndex = 58530;
+inline static constexpr unsigned int OLNFHEPHLKG_TypeDefinitionIndex = 59794;
 
 	class OLNFHEPHLKG
 	{

@@ -3,13 +3,14 @@
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE93F1C0)
-#define RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_COOLOEPLAPI_OFFSET UNITYSDK_OFFSET(0xE93F230)
-#define RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE93F3D0)
+#define RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_AEDLGOMACIP_OFFSET UNITYSDK_OFFSET(0x1DA2AE90)
+#define RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x1DA2AC70)
+#define RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_COOLOEPLAPI_OFFSET UNITYSDK_OFFSET(0x1DA2ACE0)
+#define RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2AF20)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkFigureEvtBehaviour_TypeDefinitionIndex = 48385;
+	inline static constexpr unsigned int TalkFigureEvtBehaviour_TypeDefinitionIndex = 49426;
 
 	class TalkFigureEvtBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
@@ -34,6 +35,11 @@ namespace RPGTools::Timeline
 		::System::Void COOLOEPLAPI(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_COOLOEPLAPI_OFFSET))(this, a1);
+		}
+
+		static ::System::String* AEDLGOMACIP(::System::String* a1)
+		{
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKFIGUREEVTBEHAVIOUR_AEDLGOMACIP_OFFSET))(a1);
 		}
 
 	};

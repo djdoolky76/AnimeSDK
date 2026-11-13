@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsCharacterWeaknessActivated___O_TypeDefinitionIndex = 23545;
+	inline static constexpr unsigned int ByIsCharacterWeaknessActivated___O_TypeDefinitionIndex = 23991;
 
 	class ByIsCharacterWeaknessActivated___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x107E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x428A0);
 		}
 
 	};

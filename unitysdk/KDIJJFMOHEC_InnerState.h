@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KDIJJFMOHEC_InnerState_TypeDefinitionIndex = 75567;
+inline static constexpr unsigned int KDIJJFMOHEC_InnerState_TypeDefinitionIndex = 77894;
 
 	enum class KDIJJFMOHEC_InnerState : ::System::Int32
 	{

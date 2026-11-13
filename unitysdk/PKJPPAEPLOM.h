@@ -6,23 +6,23 @@
 class FCOEMCEDLNL;
 class PKJPPAEPLOM;
 
-#define PKJPPAEPLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CEBE0)
-#define PKJPPAEPLOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2CE8B0)
+#define PKJPPAEPLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E73AF00)
+#define PKJPPAEPLOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E73ABD0)
 
-inline static constexpr unsigned int PKJPPAEPLOM_TypeDefinitionIndex = 11490;
+inline static constexpr unsigned int PKJPPAEPLOM_TypeDefinitionIndex = 11541;
 
 	class PKJPPAEPLOM : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FateRoundType>* MLNNCPNNDOO; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* JAKDNHOHINO; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* LKJNMGCBCAK; // 0x20
-		::System::UInt32 MKPCBHODIFB; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* LKJNMGCBCAK; // 0x10
+		::Il2CppArray<::RPG::GameCore::FateRoundType>* MLNNCPNNDOO; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* JAKDNHOHINO; // 0x20
+		::System::UInt32 COPIFAPBMJH; // 0x28
 		::System::UInt32 HFGNHCDNPHL; // 0x2C
-		::System::UInt32 LOEPLBPFMEN; // 0x30
-		::System::UInt32 AENCLGAIGMD; // 0x34
-		::System::UInt32 COPIFAPBMJH; // 0x38
-		::System::UInt32 POCKPDCKPMA; // 0x3C
+		::System::UInt32 MKPCBHODIFB; // 0x30
+		::System::UInt32 POCKPDCKPMA; // 0x34
+		::System::UInt32 AENCLGAIGMD; // 0x38
+		::System::UInt32 LOEPLBPFMEN; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PKJPPAEPLOM_CTOR_OFFSET))(this);

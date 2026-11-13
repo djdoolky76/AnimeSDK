@@ -3,7 +3,7 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGERDISPLAYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A3650)
+#define SYSTEM_DIAGNOSTICS_DEBUGGERDISPLAYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0B0040)
 
 namespace System::Diagnostics
 {
@@ -12,9 +12,9 @@ namespace System::Diagnostics
 	class DebuggerDisplayAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* name; // 0x10
+		::System::String* value; // 0x10
 		::System::String* type; // 0x18
-		::System::String* value; // 0x20
+		::System::String* name; // 0x20
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_DEBUGGERDISPLAYATTRIBUTE_CTOR_OFFSET))(this, a1);

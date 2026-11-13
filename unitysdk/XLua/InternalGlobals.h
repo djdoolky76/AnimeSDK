@@ -11,55 +11,55 @@ namespace XLua { class InternalGlobals_TryArraySet; }
 namespace XLua { class ObjectTranslatorPool; }
 namespace XLua::LuaDLL { class lua_CSFunction; }
 
-#define XLUA_INTERNALGLOBALS_CCTOR_OFFSET UNITYSDK_OFFSET(0x14D981C0)
-#define XLUA_INTERNALGLOBALS_CTOR_OFFSET UNITYSDK_OFFSET(0x14DA1D70)
-#define XLUA_INTERNALGLOBALS_INITEXTENSIONMETHODS_00_OFFSET UNITYSDK_OFFSET(0x14D98950)
+#define XLUA_INTERNALGLOBALS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1355B2D0)
+#define XLUA_INTERNALGLOBALS_CTOR_OFFSET UNITYSDK_OFFSET(0x135652F0)
+#define XLUA_INTERNALGLOBALS_INITEXTENSIONMETHODS_00_OFFSET UNITYSDK_OFFSET(0x1355BA60)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals_TypeDefinitionIndex = 50095;
+	inline static constexpr unsigned int InternalGlobals_TypeDefinitionIndex = 51143;
 
 	class InternalGlobals : public ::System::Object
 	{
 	public:
-		static ::XLua::InternalGlobals_TryArraySet** StaticGet_genTryArraySetPtr()
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet_extensionMethodMap()
 		{
-			return (::XLua::InternalGlobals_TryArraySet**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x40080);
-		}
-
-		static ::Il2CppArray<::System::Byte>** StaticGet_strBuff()
-		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x40088);
-		}
-
-		static ::XLua::InternalGlobals_TryArrayGet** StaticGet_genTryArrayGetPtr()
-		{
-			return (::XLua::InternalGlobals_TryArrayGet**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x40090);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_supportOp()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x40098);
-		}
-
-		static ::XLua::ObjectTranslatorPool** StaticGet_objectTranslatorPool()
-		{
-			return (::XLua::ObjectTranslatorPool**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x400A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x51D40);
 		}
 
 		static ::XLua::LuaDLL::lua_CSFunction** StaticGet_LazyReflectionWrap()
 		{
-			return (::XLua::LuaDLL::lua_CSFunction**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x400A8);
+			return (::XLua::LuaDLL::lua_CSFunction**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x51D48);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet_extensionMethodMap()
+		static ::XLua::InternalGlobals_TryArrayGet** StaticGet_genTryArrayGetPtr()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x400B0);
+			return (::XLua::InternalGlobals_TryArrayGet**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x51D50);
+		}
+
+		static ::XLua::ObjectTranslatorPool** StaticGet_objectTranslatorPool()
+		{
+			return (::XLua::ObjectTranslatorPool**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x51D58);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_supportOp()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x51D60);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_strBuff()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x51D68);
+		}
+
+		static ::XLua::InternalGlobals_TryArraySet** StaticGet_genTryArraySetPtr()
+		{
+			return (::XLua::InternalGlobals_TryArraySet**)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x51D70);
 		}
 
 		static ::System::Int32* StaticGet_LUA_REGISTRYINDEX()
 		{
-			return (::System::Int32*)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0xF2C0);
+			return (::System::Int32*)UnitySDK::FromName("XLua", "InternalGlobals")->GetStaticField(0x11A50);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableFreelookCameraDragMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNMDLLJMKNA_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD35A0)
-#define DNMDLLJMKNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FD35D0)
+#define DNMDLLJMKNA_CTOR_OFFSET UNITYSDK_OFFSET(0x191966E0)
+#define DNMDLLJMKNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19196710)
 
-inline static constexpr unsigned int DNMDLLJMKNA_TypeDefinitionIndex = 58106;
+inline static constexpr unsigned int DNMDLLJMKNA_TypeDefinitionIndex = 59345;
 
 	class DNMDLLJMKNA
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TemperatureWeatherItemConfig; }
 namespace RPG::GameCore { class TemperatureWeatherUIConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEMPERATUREWEATHERUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB525F0)
-#define RPG_GAMECORE_TEMPERATUREWEATHERUICONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB52600)
-#define RPG_GAMECORE_TEMPERATUREWEATHERUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB525A0)
+#define RPG_GAMECORE_TEMPERATUREWEATHERUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C7130)
+#define RPG_GAMECORE_TEMPERATUREWEATHERUICONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1F5C7140)
+#define RPG_GAMECORE_TEMPERATUREWEATHERUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5C70E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TemperatureWeatherUIConfig_TypeDefinitionIndex = 22791;
+	inline static constexpr unsigned int TemperatureWeatherUIConfig_TypeDefinitionIndex = 23213;
 
 	class TemperatureWeatherUIConfig : public ::RPG::GameCore::WeatherUIBaseConfig
 	{

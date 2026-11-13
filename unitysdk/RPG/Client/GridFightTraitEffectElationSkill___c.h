@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightElationSkillConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONSKILL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2B1710)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONSKILL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B1750)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONSKILL___C___GETCONFIGS_B__1_0_OFFSET UNITYSDK_OFFSET(0xD2B1760)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONSKILL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3F90E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONSKILL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F9120)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONSKILL___C___GETCONFIGS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D3F9130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEffectElationSkill___c_TypeDefinitionIndex = 65377;
+	inline static constexpr unsigned int GridFightTraitEffectElationSkill___c_TypeDefinitionIndex = 67170;
 
 	class GridFightTraitEffectElationSkill___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightElationSkillConfig*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightElationSkillConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB1B0);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightElationSkillConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15B30);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB1B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15B38);
 		}
 
 		static ::System::Void _cctor()

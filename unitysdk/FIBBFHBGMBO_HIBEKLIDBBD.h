@@ -3,7 +3,7 @@
 class HIOEAKHGILF;
 namespace RPG::GameCore { class LittleGameEvent; }
 
-inline static constexpr unsigned int FIBBFHBGMBO_HIBEKLIDBBD_TypeDefinitionIndex = 76894;
+inline static constexpr unsigned int FIBBFHBGMBO_HIBEKLIDBBD_TypeDefinitionIndex = 79228;
 
 	struct alignas(8) FIBBFHBGMBO_HIBEKLIDBBD
 	{

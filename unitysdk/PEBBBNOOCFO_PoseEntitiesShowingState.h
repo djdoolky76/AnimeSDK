@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PEBBBNOOCFO_PoseEntitiesShowingState_TypeDefinitionIndex = 60607;
+inline static constexpr unsigned int PEBBBNOOCFO_PoseEntitiesShowingState_TypeDefinitionIndex = 61984;
 
 	enum class PEBBBNOOCFO_PoseEntitiesShowingState : ::System::Int32
 	{

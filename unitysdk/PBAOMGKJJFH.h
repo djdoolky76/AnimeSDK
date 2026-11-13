@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class DDKNIMHHNPA;
 
-#define PBAOMGKJJFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBFD9B10)
-#define PBAOMGKJJFH_GET_NOTIFY_OFFSET UNITYSDK_OFFSET(0xBFD9B00)
+#define PBAOMGKJJFH_CTOR_OFFSET UNITYSDK_OFFSET(0x18AF1AA0)
+#define PBAOMGKJJFH_GET_NOTIFY_OFFSET UNITYSDK_OFFSET(0x18AF1A90)
 
-inline static constexpr unsigned int PBAOMGKJJFH_TypeDefinitionIndex = 76058;
+inline static constexpr unsigned int PBAOMGKJJFH_TypeDefinitionIndex = 78385;
 
 	class PBAOMGKJJFH : public ::System::Object
 	{

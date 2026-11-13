@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC96CAD0)
-#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__DISPLAYCLASS7_0__GETAUTOFINISHEDREWARDS_B__0_OFFSET UNITYSDK_OFFSET(0xC96CF10)
+#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F4530)
+#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__DISPLAYCLASS7_0__GETAUTOFINISHEDREWARDS_B__0_OFFSET UNITYSDK_OFFSET(0x1B6F4980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeAutoSettleResult___c__DisplayClass7_0_TypeDefinitionIndex = 63102;
+	inline static constexpr unsigned int ChallengeAutoSettleResult___c__DisplayClass7_0_TypeDefinitionIndex = 64540;
 
 	class ChallengeAutoSettleResult___c__DisplayClass7_0 : public ::System::Object
 	{

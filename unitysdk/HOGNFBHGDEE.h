@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsHitAllCallBackStack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOGNFBHGDEE_CTOR_OFFSET UNITYSDK_OFFSET(0x15DAA340)
-#define HOGNFBHGDEE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DAA370)
+#define HOGNFBHGDEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF23770)
+#define HOGNFBHGDEE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AF237A0)
 
-inline static constexpr unsigned int HOGNFBHGDEE_TypeDefinitionIndex = 54663;
+inline static constexpr unsigned int HOGNFBHGDEE_TypeDefinitionIndex = 55829;
 
 	class HOGNFBHGDEE
 	{

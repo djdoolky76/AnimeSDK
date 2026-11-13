@@ -5,10 +5,10 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSDFTextEffect; }
 
-#define GMFEEACGAJI_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC1ED0)
-#define GMFEEACGAJI_GEOAKBLMIEG_OFFSET UNITYSDK_OFFSET(0x15AC1F80)
+#define GMFEEACGAJI_CTOR_OFFSET UNITYSDK_OFFSET(0x16C7A590)
+#define GMFEEACGAJI_GEOAKBLMIEG_OFFSET UNITYSDK_OFFSET(0x16C7A640)
 
-inline static constexpr unsigned int GMFEEACGAJI_TypeDefinitionIndex = 55766;
+inline static constexpr unsigned int GMFEEACGAJI_TypeDefinitionIndex = 56969;
 
 	class GMFEEACGAJI : public ::NFGENDDOCJJ
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/KDLIDKMMNOA.h"
 class BLPBNHJNGID;
 
-#define DAEAOGMOHHA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xDFB7B50)
-#define DAEAOGMOHHA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB7C30)
+#define DAEAOGMOHHA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x19942BB0)
+#define DAEAOGMOHHA_CTOR_OFFSET UNITYSDK_OFFSET(0x19942C00)
 
-inline static constexpr unsigned int DAEAOGMOHHA_TypeDefinitionIndex = 62630;
+inline static constexpr unsigned int DAEAOGMOHHA_TypeDefinitionIndex = 64057;
 
 	class DAEAOGMOHHA : public ::System::Object
 	{

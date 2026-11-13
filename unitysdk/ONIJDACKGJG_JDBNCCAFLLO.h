@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 
-#define ONIJDACKGJG_JDBNCCAFLLO_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2C3B0)
+#define ONIJDACKGJG_JDBNCCAFLLO_CTOR_OFFSET UNITYSDK_OFFSET(0x3E71160)
 
-inline static constexpr unsigned int ONIJDACKGJG_JDBNCCAFLLO_TypeDefinitionIndex = 37228;
+inline static constexpr unsigned int ONIJDACKGJG_JDBNCCAFLLO_TypeDefinitionIndex = 38156;
 
 	struct alignas(4) ONIJDACKGJG_JDBNCCAFLLO
 	{

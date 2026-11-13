@@ -5,12 +5,12 @@
 namespace RPGTools::Timeline::Discussion { class StandSlotUsageInfo; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_DISCUSSION_STANDSLOTUSAGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D1A40)
-#define RPGTOOLS_TIMELINE_DISCUSSION_STANDSLOTUSAGEINFO_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xE8D1900)
+#define RPGTOOLS_TIMELINE_DISCUSSION_STANDSLOTUSAGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F2300)
+#define RPGTOOLS_TIMELINE_DISCUSSION_STANDSLOTUSAGEINFO_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x1D8F21C0)
 
 namespace RPGTools::Timeline::Discussion
 {
-	inline static constexpr unsigned int StandSlotUsageInfo_TypeDefinitionIndex = 48781;
+	inline static constexpr unsigned int StandSlotUsageInfo_TypeDefinitionIndex = 49827;
 
 	class StandSlotUsageInfo : public ::System::Object
 	{

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FKAKCEHMOCA_CTOR_OFFSET UNITYSDK_OFFSET(0x157D8170)
-#define FKAKCEHMOCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157D8250)
+#define FKAKCEHMOCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1AA8DAC0)
+#define FKAKCEHMOCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AA8DBA0)
 
-inline static constexpr unsigned int FKAKCEHMOCA_TypeDefinitionIndex = 55410;
+inline static constexpr unsigned int FKAKCEHMOCA_TypeDefinitionIndex = 56595;
 
 	class FKAKCEHMOCA
 	{

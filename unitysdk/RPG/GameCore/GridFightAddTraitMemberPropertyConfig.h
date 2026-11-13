@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightAddTraitMemberPropertyConfig; }
 
-#define RPG_GAMECORE_GRIDFIGHTADDTRAITMEMBERPROPERTYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F7AA0)
-#define RPG_GAMECORE_GRIDFIGHTADDTRAITMEMBERPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F7A60)
+#define RPG_GAMECORE_GRIDFIGHTADDTRAITMEMBERPROPERTYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x205FAA20)
+#define RPG_GAMECORE_GRIDFIGHTADDTRAITMEMBERPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x205FA9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightAddTraitMemberPropertyConfig_TypeDefinitionIndex = 19474;
+	inline static constexpr unsigned int GridFightAddTraitMemberPropertyConfig_TypeDefinitionIndex = 19725;
 
 	class GridFightAddTraitMemberPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{

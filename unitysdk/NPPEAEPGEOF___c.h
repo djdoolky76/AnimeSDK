@@ -4,18 +4,18 @@
 class NPPEAEPGEOF;
 namespace System { class Object; }
 
-#define NPPEAEPGEOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB74D40)
-#define NPPEAEPGEOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB74D80)
-#define NPPEAEPGEOF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB74D90)
+#define NPPEAEPGEOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB85D80)
+#define NPPEAEPGEOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB85DC0)
+#define NPPEAEPGEOF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FB85DD0)
 
-inline static constexpr unsigned int NPPEAEPGEOF___c_TypeDefinitionIndex = 30658;
+inline static constexpr unsigned int NPPEAEPGEOF___c_TypeDefinitionIndex = 31564;
 
 	class NPPEAEPGEOF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE380);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55930);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define BINEKJFCLMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A660)
+#define BINEKJFCLMP_CTOR_OFFSET UNITYSDK_OFFSET(0x3E94620)
 
-inline static constexpr unsigned int BINEKJFCLMP_TypeDefinitionIndex = 64217;
+inline static constexpr unsigned int BINEKJFCLMP_TypeDefinitionIndex = 65662;
 
 	struct alignas(4) BINEKJFCLMP
 	{

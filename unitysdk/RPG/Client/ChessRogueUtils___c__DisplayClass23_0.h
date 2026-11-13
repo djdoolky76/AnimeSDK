@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB02070)
-#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__TELEPORTTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0xCB02800)
+#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD82A0)
+#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__TELEPORTTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1DFD8A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueUtils___c__DisplayClass23_0_TypeDefinitionIndex = 66937;
+	inline static constexpr unsigned int ChessRogueUtils___c__DisplayClass23_0_TypeDefinitionIndex = 68881;
 
 	class ChessRogueUtils___c__DisplayClass23_0 : public ::System::Object
 	{

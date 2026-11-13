@@ -5,9 +5,9 @@
 class PCOMPBCHHKC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DKFOGCDDCEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C7600)
+#define DKFOGCDDCEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA7BEE0)
 
-inline static constexpr unsigned int DKFOGCDDCEF_TypeDefinitionIndex = 36933;
+inline static constexpr unsigned int DKFOGCDDCEF_TypeDefinitionIndex = 37861;
 
 	class DKFOGCDDCEF : public ::System::Object
 	{

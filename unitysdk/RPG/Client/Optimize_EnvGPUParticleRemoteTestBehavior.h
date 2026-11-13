@@ -12,28 +12,28 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_BPBDDPHJNIJ_OFFSET UNITYSDK_OFFSET(0xDA0E350)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA0FB40)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xDA0D660)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDA0FB30)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xDA0D850)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_GOIOHECFANB_OFFSET UNITYSDK_OFFSET(0xDA0D8D0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_GPLLONMEDAC_OFFSET UNITYSDK_OFFSET(0xDA0D560)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_HOGNLODOIMF_OFFSET UNITYSDK_OFFSET(0xDA0F250)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_KEPMMNEBKCD_OFFSET UNITYSDK_OFFSET(0xDA0D080)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xDA0CF80)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xDA0E300)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_LJPHJNKNGIN_OFFSET UNITYSDK_OFFSET(0xDA0E470)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_MDCLOMBLHNO_OFFSET UNITYSDK_OFFSET(0xDA0ED50)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xDA0D4F0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xDA0D010)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_PKBEGJBNHGO_OFFSET UNITYSDK_OFFSET(0xDA0E090)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xDA0E2C0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xDA0D6D0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_BPBDDPHJNIJ_OFFSET UNITYSDK_OFFSET(0x1BF0C330)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF0DB20)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0x1BF0B640)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0DB10)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1BF0B830)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_GOIOHECFANB_OFFSET UNITYSDK_OFFSET(0x1BF0B8B0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_GPLLONMEDAC_OFFSET UNITYSDK_OFFSET(0x1BF0B540)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_HOGNLODOIMF_OFFSET UNITYSDK_OFFSET(0x1BF0D230)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_KEPMMNEBKCD_OFFSET UNITYSDK_OFFSET(0x1BF0B060)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1BF0AF60)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x1BF0C2E0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_LJPHJNKNGIN_OFFSET UNITYSDK_OFFSET(0x1BF0C450)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_MDCLOMBLHNO_OFFSET UNITYSDK_OFFSET(0x1BF0CD30)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x1BF0B4D0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x1BF0AFF0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_PKBEGJBNHGO_OFFSET UNITYSDK_OFFSET(0x1BF0C070)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0x1BF0C2A0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x1BF0B6B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex = 70833;
+	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex = 72812;
 
 	class Optimize_EnvGPUParticleRemoteTestBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -52,107 +52,107 @@ namespace RPG::Client
 		::UnityEngine::Material* _matInstance; // 0x80
 		static ::Il2CppArray<::UnityEngine::Matrix4x4>** StaticGet_s_EmptyOccluders()
 		{
-			return (::Il2CppArray<::UnityEngine::Matrix4x4>**)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0xE310);
-		}
-
-		static ::System::Int32* StaticGet__StencilOpID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E50);
-		}
-
-		static ::System::Int32* StaticGet__RangeMaxOldID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E54);
-		}
-
-		static ::System::Int32* StaticGet__DeltaTimeID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E58);
-		}
-
-		static ::System::Int32* StaticGet__NoiseTillingID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E5C);
+			return (::Il2CppArray<::UnityEngine::Matrix4x4>**)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x1F680);
 		}
 
 		static ::System::Int32* StaticGet__SizeID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E60);
-		}
-
-		static ::System::Int32* StaticGet__PosTexID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E64);
-		}
-
-		static ::System::Int32* StaticGet__NoiseScaleID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E68);
-		}
-
-		static ::System::Int32* StaticGet__EmissionScaleID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E6C);
-		}
-
-		static ::System::Int32* StaticGet__RangeMaxID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E70);
-		}
-
-		static ::System::Int32* StaticGet__RangeMinID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E74);
-		}
-
-		static ::System::Int32* StaticGet__FadingRateID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E78);
-		}
-
-		static ::System::Int32* StaticGet__OccluderMatrixID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E7C);
-		}
-
-		static ::System::Int32* StaticGet__TimeID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E80);
-		}
-
-		static ::System::Int32* StaticGet__DensityScaleID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E84);
-		}
-
-		static ::System::Int32* StaticGet__WindScaleID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E88);
-		}
-
-		static ::System::Int32* StaticGet__SpeedTexID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E8C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A10);
 		}
 
 		static ::System::Int32* StaticGet__WindID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E90);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A14);
 		}
 
-		static ::System::Int32* StaticGet__OccluderAsVolumeID()
+		static ::System::Int32* StaticGet__WindScaleID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E94);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A18);
+		}
+
+		static ::System::Int32* StaticGet__SpeedTexID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A1C);
+		}
+
+		static ::System::Int32* StaticGet__DensityScaleID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A20);
+		}
+
+		static ::System::Int32* StaticGet__NoiseTillingID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A24);
+		}
+
+		static ::System::Int32* StaticGet__DeltaTimeID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A28);
+		}
+
+		static ::System::Int32* StaticGet__OccluderMatrixID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A2C);
+		}
+
+		static ::System::Int32* StaticGet__PosTexID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A30);
 		}
 
 		static ::System::Int32* StaticGet__NoiseTexID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E98);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A34);
+		}
+
+		static ::System::Int32* StaticGet__StencilOpID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A38);
+		}
+
+		static ::System::Int32* StaticGet__NoiseScaleID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A3C);
+		}
+
+		static ::System::Int32* StaticGet__FadingRateID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A40);
+		}
+
+		static ::System::Int32* StaticGet__RangeMinID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A44);
+		}
+
+		static ::System::Int32* StaticGet__OccluderAsVolumeID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A48);
+		}
+
+		static ::System::Int32* StaticGet__RangeMaxOldID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A4C);
+		}
+
+		static ::System::Int32* StaticGet__TimeID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A50);
+		}
+
+		static ::System::Int32* StaticGet__EmissionScaleID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A54);
+		}
+
+		static ::System::Int32* StaticGet__RangeMaxID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A58);
 		}
 
 		static ::System::Int32* StaticGet__RangeMinOldID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x2E9C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Optimize_EnvGPUParticleRemoteTestBehavior")->GetStaticField(0x6A5C);
 		}
 
 		// static const ::System::Object KernelSpawn; // 0x0

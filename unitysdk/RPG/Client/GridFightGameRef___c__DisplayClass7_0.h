@@ -12,22 +12,22 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD154C60)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD15DBA0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD15DC10)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD15DC40)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD40560)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__0_OFFSET UNITYSDK_OFFSET(0x1CD40570)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__1_OFFSET UNITYSDK_OFFSET(0x1CD405E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__2_OFFSET UNITYSDK_OFFSET(0x1CD40610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass7_0_TypeDefinitionIndex = 64715;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass7_0_TypeDefinitionIndex = 66258;
 
 	class GridFightGameRef___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::GHHJNCOAIJF* req; // 0x10
-		::RPG::Client::GridFightGameRef* __4__this; // 0x18
-		::System::String* shareCode; // 0x20
-		::System::Action_1<::RPG::Client::GridFightGameRefHttpRspBody_1<::DPFBIPPLJAP*>*>* callback; // 0x28
+		::System::String* shareCode; // 0x10
+		::GHHJNCOAIJF* req; // 0x18
+		::System::Action_1<::RPG::Client::GridFightGameRefHttpRspBody_1<::DPFBIPPLJAP*>*>* callback; // 0x20
+		::RPG::Client::GridFightGameRef* __4__this; // 0x28
 		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x30
 		::System::Void _ctor()
 		{

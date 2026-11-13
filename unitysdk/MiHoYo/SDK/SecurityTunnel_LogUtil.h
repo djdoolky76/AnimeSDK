@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_LOGUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB04ABC0)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOGUTIL_FORMATBYTES_OFFSET UNITYSDK_OFFSET(0xB0404A0)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOGUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD275C0)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOGUTIL_FORMATBYTES_OFFSET UNITYSDK_OFFSET(0x1DD1CEC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_LogUtil_TypeDefinitionIndex = 46407;
+	inline static constexpr unsigned int SecurityTunnel_LogUtil_TypeDefinitionIndex = 47435;
 
 	class SecurityTunnel_LogUtil : public ::System::Object
 	{

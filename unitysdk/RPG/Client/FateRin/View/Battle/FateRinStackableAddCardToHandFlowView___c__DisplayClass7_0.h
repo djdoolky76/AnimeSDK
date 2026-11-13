@@ -5,18 +5,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC5E00)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0___CREATECARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCFC67E0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F58E0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0___CREATECARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1C4F62C0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinStackableAddCardToHandFlowView___c__DisplayClass7_0_TypeDefinitionIndex = 80703;
+	inline static constexpr unsigned int FateRinStackableAddCardToHandFlowView___c__DisplayClass7_0_TypeDefinitionIndex = 83483;
 
 	class FateRinStackableAddCardToHandFlowView___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* roots; // 0x10
-		::System::String* triggerName; // 0x18
+		::System::String* triggerName; // 0x10
+		::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* roots; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);

@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class PJECBIOOJKI;
 namespace System { class String; }
 
-#define PJECBIOOJKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2C7000)
-#define PJECBIOOJKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2C6EF0)
+#define PJECBIOOJKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E732870)
+#define PJECBIOOJKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E732760)
 
-inline static constexpr unsigned int PJECBIOOJKI_TypeDefinitionIndex = 13068;
+inline static constexpr unsigned int PJECBIOOJKI_TypeDefinitionIndex = 13136;
 
 	class PJECBIOOJKI : public ::System::Object
 	{

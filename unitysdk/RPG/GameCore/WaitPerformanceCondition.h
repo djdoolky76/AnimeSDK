@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitPerformanceCondition; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITPERFORMANCECONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6F480)
-#define RPG_GAMECORE_WAITPERFORMANCECONDITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6F4C0)
-#define RPG_GAMECORE_WAITPERFORMANCECONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6F410)
+#define RPG_GAMECORE_WAITPERFORMANCECONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x207FCF10)
+#define RPG_GAMECORE_WAITPERFORMANCECONDITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x207FCF50)
+#define RPG_GAMECORE_WAITPERFORMANCECONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x207FCEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPerformanceCondition_TypeDefinitionIndex = 23377;
+	inline static constexpr unsigned int WaitPerformanceCondition_TypeDefinitionIndex = 23822;
 
 	class WaitPerformanceCondition : public ::RPG::GameCore::TaskConfig
 	{

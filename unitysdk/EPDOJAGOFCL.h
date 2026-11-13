@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class ChimeraDuelBubbleData; }
 
-#define EPDOJAGOFCL_CTOR_OFFSET UNITYSDK_OFFSET(0x155C67F0)
-#define EPDOJAGOFCL_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0x155C6790)
+#define EPDOJAGOFCL_CTOR_OFFSET UNITYSDK_OFFSET(0x16B35090)
+#define EPDOJAGOFCL_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0x16B35030)
 
-inline static constexpr unsigned int EPDOJAGOFCL_TypeDefinitionIndex = 78287;
+inline static constexpr unsigned int EPDOJAGOFCL_TypeDefinitionIndex = 81022;
 
 	class EPDOJAGOFCL : public ::System::Object
 	{

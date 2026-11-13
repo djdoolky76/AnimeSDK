@@ -5,18 +5,18 @@ class DPOAHFJILKN;
 class IJEFCGNGHBD;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define MFFOAHKGEGD_CTOR_OFFSET UNITYSDK_OFFSET(0xB8EE790)
-#define MFFOAHKGEGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8EE800)
-#define MFFOAHKGEGD_GET_ICON_OFFSET UNITYSDK_OFFSET(0xB8EE770)
-#define MFFOAHKGEGD_GET_LACKEQUIP_OFFSET UNITYSDK_OFFSET(0xB8EE780)
+#define MFFOAHKGEGD_CTOR_OFFSET UNITYSDK_OFFSET(0x17C7E9E0)
+#define MFFOAHKGEGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17C7EA50)
+#define MFFOAHKGEGD_GET_ICON_OFFSET UNITYSDK_OFFSET(0x17C7E9C0)
+#define MFFOAHKGEGD_GET_LACKEQUIP_OFFSET UNITYSDK_OFFSET(0x17C7E9D0)
 
-inline static constexpr unsigned int MFFOAHKGEGD_TypeDefinitionIndex = 81422;
+inline static constexpr unsigned int MFFOAHKGEGD_TypeDefinitionIndex = 84202;
 
 	class MFFOAHKGEGD : public ::System::Object
 	{
 	public:
-		::IJEFCGNGHBD* _Icon_k__BackingField; // 0x10
-		::DPOAHFJILKN* _LackEquip_k__BackingField; // 0x18
+		::DPOAHFJILKN* _LackEquip_k__BackingField; // 0x10
+		::IJEFCGNGHBD* _Icon_k__BackingField; // 0x18
 		::System::Void _ctor(::RPG::AvatarSystem::IAvatar* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + MFFOAHKGEGD_CTOR_OFFSET))(this, a1);

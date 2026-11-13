@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateTraitSource_TypeDefinitionIndex = 64009;
+	inline static constexpr unsigned int IFateTraitSource_TypeDefinitionIndex = 65454;
 
 	class IFateTraitSource
 	{

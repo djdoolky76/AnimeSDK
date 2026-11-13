@@ -3,7 +3,7 @@
 #include "unitysdk/System/ComponentModel/TypeConverter.h"
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFC4210)
+#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C180940)
 
 namespace System::ComponentModel
 {
@@ -14,7 +14,7 @@ namespace System::ComponentModel
 	public:
 		static ::System::String** StaticGet_none()
 		{
-			return (::System::String**)UnitySDK::FromName("System.ComponentModel", "ReferenceConverter")->GetStaticField(0x2C130);
+			return (::System::String**)UnitySDK::FromName("System.ComponentModel", "ReferenceConverter")->GetStaticField(0x357E0);
 		}
 
 		static ::System::Void _cctor()

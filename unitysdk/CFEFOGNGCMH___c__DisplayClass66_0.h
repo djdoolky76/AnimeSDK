@@ -6,16 +6,16 @@ class HBFPEEPJOPK;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Exception; }
 
-#define CFEFOGNGCMH___C__DISPLAYCLASS66_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA0A3D0)
-#define CFEFOGNGCMH___C__DISPLAYCLASS66_0___STARTFINISHEDENDMATCHPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xCA0A650)
+#define CFEFOGNGCMH___C__DISPLAYCLASS66_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18852CA0)
+#define CFEFOGNGCMH___C__DISPLAYCLASS66_0___STARTFINISHEDENDMATCHPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0x18852F20)
 
-inline static constexpr unsigned int CFEFOGNGCMH___c__DisplayClass66_0_TypeDefinitionIndex = 81867;
+inline static constexpr unsigned int CFEFOGNGCMH___c__DisplayClass66_0_TypeDefinitionIndex = 84648;
 
 	class CFEFOGNGCMH___c__DisplayClass66_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>* promise; // 0x10
-		::CFEFOGNGCMH* __4__this; // 0x18
+		::CFEFOGNGCMH* __4__this; // 0x10
+		::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>* promise; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CFEFOGNGCMH___C__DISPLAYCLASS66_0_CTOR_OFFSET))(this);

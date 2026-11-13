@@ -5,20 +5,20 @@
 class KNHKBNKAJAN;
 namespace System { class Object; }
 
-#define KNHKBNKAJAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E876930)
-#define KNHKBNKAJAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E876970)
-#define KNHKBNKAJAN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E876980)
-#define KNHKBNKAJAN___C___CCTOR_B__38_1_OFFSET UNITYSDK_OFFSET(0x1E8769D0)
-#define KNHKBNKAJAN___C___CCTOR_B__38_2_OFFSET UNITYSDK_OFFSET(0x1E8769E0)
+#define KNHKBNKAJAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205A1B10)
+#define KNHKBNKAJAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205A1B50)
+#define KNHKBNKAJAN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x205A1B60)
+#define KNHKBNKAJAN___C___CCTOR_B__38_1_OFFSET UNITYSDK_OFFSET(0x205A1BB0)
+#define KNHKBNKAJAN___C___CCTOR_B__38_2_OFFSET UNITYSDK_OFFSET(0x205A1BC0)
 
-inline static constexpr unsigned int KNHKBNKAJAN___c_TypeDefinitionIndex = 26379;
+inline static constexpr unsigned int KNHKBNKAJAN___c_TypeDefinitionIndex = 26906;
 
 	class KNHKBNKAJAN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20060);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F770);
 		}
 
 		static ::System::Void _cctor()

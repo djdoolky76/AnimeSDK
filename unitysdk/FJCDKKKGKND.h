@@ -7,18 +7,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define FJCDKKKGKND_CTOR_OFFSET UNITYSDK_OFFSET(0x157B1560)
-#define FJCDKKKGKND_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x157B1380)
-#define FJCDKKKGKND_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x157B13A0)
-#define FJCDKKKGKND_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x157B1390)
+#define FJCDKKKGKND_CTOR_OFFSET UNITYSDK_OFFSET(0x1981B6E0)
+#define FJCDKKKGKND_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1981B500)
+#define FJCDKKKGKND_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1981B520)
+#define FJCDKKKGKND_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1981B510)
 
-inline static constexpr unsigned int FJCDKKKGKND_TypeDefinitionIndex = 48840;
+inline static constexpr unsigned int FJCDKKKGKND_TypeDefinitionIndex = 49886;
 
 	class FJCDKKKGKND : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* GEDIEOINCDK; // 0x10
-		::UnityEngine::GameObject* _SourceObject_k__BackingField; // 0x18
+		::UnityEngine::GameObject* _SourceObject_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* GEDIEOINCDK; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FJCDKKKGKND_CTOR_OFFSET))(this);

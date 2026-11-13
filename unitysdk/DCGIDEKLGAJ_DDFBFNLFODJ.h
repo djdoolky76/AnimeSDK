@@ -6,16 +6,16 @@ class HKJDDODAIAE;
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define DCGIDEKLGAJ_DDFBFNLFODJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE23EF10)
+#define DCGIDEKLGAJ_DDFBFNLFODJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1B16D550)
 
-inline static constexpr unsigned int DCGIDEKLGAJ_DDFBFNLFODJ_TypeDefinitionIndex = 71680;
+inline static constexpr unsigned int DCGIDEKLGAJ_DDFBFNLFODJ_TypeDefinitionIndex = 73671;
 
 	class DCGIDEKLGAJ_DDFBFNLFODJ : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* DHIPFJBEJPI; // 0x10
-		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
-		::HKJDDODAIAE* ALFPNBPHAPK; // 0x20
+		::HKJDDODAIAE* ALFPNBPHAPK; // 0x18
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x20
 		::DCGIDEKLGAJ_ForceKillMarkPanelType OPDIIFPICPB; // 0x28
 		::System::Void _ctor(::HKJDDODAIAE* a1, ::DCGIDEKLGAJ_ForceKillMarkPanelType a2, ::UnityEngine::Transform* a3)
 		{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByEntityExist; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ENELMGDKACO_CTOR_OFFSET UNITYSDK_OFFSET(0x1559D4A0)
-#define ENELMGDKACO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1559D4D0)
+#define ENELMGDKACO_CTOR_OFFSET UNITYSDK_OFFSET(0x18807FE0)
+#define ENELMGDKACO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18808010)
 
-inline static constexpr unsigned int ENELMGDKACO_TypeDefinitionIndex = 53112;
+inline static constexpr unsigned int ENELMGDKACO_TypeDefinitionIndex = 54274;
 
 	class ENELMGDKACO
 	{

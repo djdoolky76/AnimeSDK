@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageBattleEventConfig; }
 
-#define RPG_GAMECORE_STAGEBATTLEEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADB000)
-#define RPG_GAMECORE_STAGEBATTLEEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DADABA0)
+#define RPG_GAMECORE_STAGEBATTLEEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3AE590)
+#define RPG_GAMECORE_STAGEBATTLEEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3AE130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageBattleEventConfig_TypeDefinitionIndex = 23456;
+	inline static constexpr unsigned int StageBattleEventConfig_TypeDefinitionIndex = 23902;
 
 	class StageBattleEventConfig : public ::RPG::GameCore::JsonConfig
 	{

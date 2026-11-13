@@ -5,25 +5,25 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC887AB0)
-#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC887AF0)
-#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C__SHOWBLINDBOXPOOLDETAILPAGE_B__1_1_OFFSET UNITYSDK_OFFSET(0xC887B00)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C556680)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5566C0)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C__SHOWBLINDBOXPOOLDETAILPAGE_B__1_1_OFFSET UNITYSDK_OFFSET(0x1C5566D0)
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
-	inline static constexpr unsigned int BlindBoxPoolPages___c_TypeDefinitionIndex = 74963;
+	inline static constexpr unsigned int BlindBoxPoolPages___c_TypeDefinitionIndex = 77290;
 
 	class BlindBoxPoolPages___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__1_1()
-		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool.Ui", "<>c")->GetStaticField(0x63BD0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Pool.Ui", "<>c")->GetStaticField(0x63BD8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Pool.Ui", "<>c")->GetStaticField(0x69520);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__1_1()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool.Ui", "<>c")->GetStaticField(0x69528);
 		}
 
 		static ::System::Void _cctor()

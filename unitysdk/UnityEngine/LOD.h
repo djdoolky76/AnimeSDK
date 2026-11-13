@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Renderer; }
 
-#define UNITYENGINE_LOD_CTOR_OFFSET UNITYSDK_OFFSET(0x3C6F4D0)
+#define UNITYENGINE_LOD_CTOR_OFFSET UNITYSDK_OFFSET(0x3F71CF0)
 
 namespace UnityEngine
 {

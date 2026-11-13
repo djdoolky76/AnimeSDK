@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameSubMissionCondition; }
 
-#define RPG_GAMECORE_LITTLEGAMESUBMISSIONCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B9440)
-#define RPG_GAMECORE_LITTLEGAMESUBMISSIONCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B9300)
+#define RPG_GAMECORE_LITTLEGAMESUBMISSIONCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F269AD0)
+#define RPG_GAMECORE_LITTLEGAMESUBMISSIONCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F2699B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameSubMissionCondition_TypeDefinitionIndex = 18866;
+	inline static constexpr unsigned int LittleGameSubMissionCondition_TypeDefinitionIndex = 19028;
 
 	class LittleGameSubMissionCondition : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 class NJKFOJJDGGG;
 
-#define RPG_CLIENT_GRIDFIGHTUPGRADEROLEMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xD2C6090)
+#define RPG_CLIENT_GRIDFIGHTUPGRADEROLEMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA06D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightUpgradeRoleModifier_TypeDefinitionIndex = 65011;
+	inline static constexpr unsigned int GridFightUpgradeRoleModifier_TypeDefinitionIndex = 66607;
 
 	class GridFightUpgradeRoleModifier : public ::RPG::Client::GridFightGameModifier
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NDFBOPJIKAG_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1C900)
-#define NDFBOPJIKAG_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBB1C8E0)
-#define NDFBOPJIKAG_SET_DESC_OFFSET UNITYSDK_OFFSET(0xBB1C8F0)
+#define NDFBOPJIKAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16F9B250)
+#define NDFBOPJIKAG_GET_DESC_OFFSET UNITYSDK_OFFSET(0x16F9B230)
+#define NDFBOPJIKAG_SET_DESC_OFFSET UNITYSDK_OFFSET(0x16F9B240)
 
-inline static constexpr unsigned int NDFBOPJIKAG_TypeDefinitionIndex = 79664;
+inline static constexpr unsigned int NDFBOPJIKAG_TypeDefinitionIndex = 82441;
 
 	class NDFBOPJIKAG : public ::System::Object
 	{

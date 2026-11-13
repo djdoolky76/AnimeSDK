@@ -4,13 +4,13 @@ namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class Observer_1; }
 namespace System { class IDisposable; }
 
-#define R3_RETURNBOOLEAN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3F6700)
-#define R3_RETURNBOOLEAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F6660)
-#define R3_RETURNBOOLEAN_SUBSCRIBECORE_OFFSET UNITYSDK_OFFSET(0x1C3F6680)
+#define R3_RETURNBOOLEAN_CCTOR_OFFSET UNITYSDK_OFFSET(0x2091CDC0)
+#define R3_RETURNBOOLEAN_CTOR_OFFSET UNITYSDK_OFFSET(0x2091CD20)
+#define R3_RETURNBOOLEAN_SUBSCRIBECORE_OFFSET UNITYSDK_OFFSET(0x2091CD40)
 
 namespace R3
 {
-	inline static constexpr unsigned int ReturnBoolean_TypeDefinitionIndex = 35918;
+	inline static constexpr unsigned int ReturnBoolean_TypeDefinitionIndex = 36846;
 
 	class ReturnBoolean
 	{
@@ -18,12 +18,12 @@ namespace R3
 		::System::Boolean value; // 0x10
 		static ::R3::Observable_1<::System::Boolean>** StaticGet_False()
 		{
-			return (::R3::Observable_1<::System::Boolean>**)UnitySDK::FromName("R3", "ReturnBoolean")->GetStaticField(0xA30);
+			return (::R3::Observable_1<::System::Boolean>**)UnitySDK::FromName("R3", "ReturnBoolean")->GetStaticField(0x9E0);
 		}
 
 		static ::R3::Observable_1<::System::Boolean>** StaticGet_True()
 		{
-			return (::R3::Observable_1<::System::Boolean>**)UnitySDK::FromName("R3", "ReturnBoolean")->GetStaticField(0xA38);
+			return (::R3::Observable_1<::System::Boolean>**)UnitySDK::FromName("R3", "ReturnBoolean")->GetStaticField(0x9E8);
 		}
 
 		::System::Void _ctor(::System::Boolean a1)

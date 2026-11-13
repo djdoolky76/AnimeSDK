@@ -8,25 +8,25 @@ namespace RPG::GameCore { class SortTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LGPKDLCHPHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB699460)
-#define LGPKDLCHPHL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6995C0)
-#define LGPKDLCHPHL_HEGNDMHLBGN_OFFSET UNITYSDK_OFFSET(0xB69A8D0)
-#define LGPKDLCHPHL_OHBBIFDAMMG_OFFSET UNITYSDK_OFFSET(0xB69A8C0)
-#define LGPKDLCHPHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6997A0)
-#define LGPKDLCHPHL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB69A360)
-#define LGPKDLCHPHL_TICK_OFFSET UNITYSDK_OFFSET(0xB69A3B0)
+#define LGPKDLCHPHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB10E0)
+#define LGPKDLCHPHL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCB1240)
+#define LGPKDLCHPHL_HEGNDMHLBGN_OFFSET UNITYSDK_OFFSET(0x1BCB2440)
+#define LGPKDLCHPHL_OHBBIFDAMMG_OFFSET UNITYSDK_OFFSET(0x1BCB2430)
+#define LGPKDLCHPHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1BCB1420)
+#define LGPKDLCHPHL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1BCB1F50)
+#define LGPKDLCHPHL_TICK_OFFSET UNITYSDK_OFFSET(0x1BCB1FA0)
 
-inline static constexpr unsigned int LGPKDLCHPHL_TypeDefinitionIndex = 55634;
+inline static constexpr unsigned int LGPKDLCHPHL_TypeDefinitionIndex = 56832;
 
 	class LGPKDLCHPHL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::KFELGAIGHAP* FNLJDEPHGFK; // 0x20
-		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* FBAGEMHGIIB; // 0x28
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BLOMOEJJCIK; // 0x38
-		::RPG::GameCore::SortTargets* OFKGLJOAMLD; // 0x40
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x18
+		::RPG::GameCore::SortTargets* OFKGLJOAMLD; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BLOMOEJJCIK; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* FBAGEMHGIIB; // 0x38
+		::KFELGAIGHAP* FNLJDEPHGFK; // 0x40
 		::System::Boolean BGALIKOEDMJ; // 0x48
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SortTargets* a2)
 		{

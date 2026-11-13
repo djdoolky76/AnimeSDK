@@ -5,23 +5,23 @@ class EPADPABCFGH;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define HPGMGEOGOHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DBA9F0)
-#define HPGMGEOGOHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBAA30)
-#define HPGMGEOGOHE___C___SORTPOSLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0x15DBAA40)
+#define HPGMGEOGOHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF34C30)
+#define HPGMGEOGOHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF34C70)
+#define HPGMGEOGOHE___C___SORTPOSLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0x1AF34C80)
 
-inline static constexpr unsigned int HPGMGEOGOHE___c_TypeDefinitionIndex = 79341;
+inline static constexpr unsigned int HPGMGEOGOHE___c_TypeDefinitionIndex = 82118;
 
 	class HPGMGEOGOHE___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32600);
-		}
-
 		static ::System::Comparison_1<::EPADPABCFGH*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::EPADPABCFGH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32608);
+			return (::System::Comparison_1<::EPADPABCFGH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29330);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29338);
 		}
 
 		static ::System::Void _cctor()

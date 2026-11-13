@@ -8,12 +8,12 @@ namespace RPG::Client { class NetPacket; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define GEGGBMGKNGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD7ED80)
-#define GEGGBMGKNGC_GBJNJBKJJLA_OFFSET UNITYSDK_OFFSET(0x1DD7D9E0)
-#define GEGGBMGKNGC_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1DD72120)
-#define GEGGBMGKNGC_GHPNJOFKEOM_OFFSET UNITYSDK_OFFSET(0x1DD721F0)
+#define GEGGBMGKNGC_CTOR_OFFSET UNITYSDK_OFFSET(0x20334400)
+#define GEGGBMGKNGC_GBJNJBKJJLA_OFFSET UNITYSDK_OFFSET(0x20333040)
+#define GEGGBMGKNGC_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x20327600)
+#define GEGGBMGKNGC_GHPNJOFKEOM_OFFSET UNITYSDK_OFFSET(0x203276D0)
 
-inline static constexpr unsigned int GEGGBMGKNGC_TypeDefinitionIndex = 43959;
+inline static constexpr unsigned int GEGGBMGKNGC_TypeDefinitionIndex = 45034;
 
 	class GEGGBMGKNGC : public ::System::Object
 	{
@@ -22,7 +22,7 @@ inline static constexpr unsigned int GEGGBMGKNGC_TypeDefinitionIndex = 43959;
 		::HDIHFIHMEIB* OPKAFIEEJCK; // 0x18
 		static ::GEGGBMGKNGC** StaticGet_FLMODBLFAGD()
 		{
-			return (::GEGGBMGKNGC**)UnitySDK::FromName("", "GEGGBMGKNGC")->GetStaticField(0x5EE00);
+			return (::GEGGBMGKNGC**)UnitySDK::FromName("", "GEGGBMGKNGC")->GetStaticField(0x5E280);
 		}
 
 		::System::Void _ctor()

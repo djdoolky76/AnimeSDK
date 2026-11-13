@@ -6,11 +6,11 @@ class FEEDKBAABMP;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BBJBIFHOLGF_ABGELBMDOPK_OFFSET UNITYSDK_OFFSET(0x15E81590)
-#define BBJBIFHOLGF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15E814B0)
-#define BBJBIFHOLGF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E81540)
+#define BBJBIFHOLGF_ABGELBMDOPK_OFFSET UNITYSDK_OFFSET(0x199FA220)
+#define BBJBIFHOLGF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x199FA140)
+#define BBJBIFHOLGF_CTOR_OFFSET UNITYSDK_OFFSET(0x199FA1D0)
 
-inline static constexpr unsigned int BBJBIFHOLGF_TypeDefinitionIndex = 62554;
+inline static constexpr unsigned int BBJBIFHOLGF_TypeDefinitionIndex = 63967;
 
 	class BBJBIFHOLGF : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 namespace RPG::GameCore { class AdventureTriggerMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HKEODNKCBMG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D36540)
+#define HKEODNKCBMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1987CAC0)
 
-inline static constexpr unsigned int HKEODNKCBMG_TypeDefinitionIndex = 57927;
+inline static constexpr unsigned int HKEODNKCBMG_TypeDefinitionIndex = 59164;
 
 	class HKEODNKCBMG
 	{

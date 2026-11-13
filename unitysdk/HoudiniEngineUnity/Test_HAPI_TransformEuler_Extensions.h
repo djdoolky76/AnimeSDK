@@ -4,11 +4,11 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_TransformEuler.h"
 namespace HoudiniEngineUnity { class Test_HAPI_TransformEuler; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9920D0)
+#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x2087C300)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_TransformEuler_Extensions_TypeDefinitionIndex = 40707;
+	inline static constexpr unsigned int Test_HAPI_TransformEuler_Extensions_TypeDefinitionIndex = 41682;
 
 	class Test_HAPI_TransformEuler_Extensions : public ::System::Object
 	{

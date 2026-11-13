@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyActionConfigBase; }
 namespace RPG::GameCore { class TrainPartyCardEffectConfig; }
 
-#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC01D90)
-#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC01CA0)
+#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DABE0)
+#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F5DAAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCardEffectConfig_TypeDefinitionIndex = 18084;
+	inline static constexpr unsigned int TrainPartyCardEffectConfig_TypeDefinitionIndex = 18249;
 
 	class TrainPartyCardEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

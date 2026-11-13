@@ -4,18 +4,18 @@
 class INKPGECIDNE;
 namespace System { class Object; }
 
-#define INKPGECIDNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6981E0)
-#define INKPGECIDNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E698220)
-#define INKPGECIDNE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E698230)
+#define INKPGECIDNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F66F1E0)
+#define INKPGECIDNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F66F220)
+#define INKPGECIDNE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F66F230)
 
-inline static constexpr unsigned int INKPGECIDNE___c_TypeDefinitionIndex = 32911;
+inline static constexpr unsigned int INKPGECIDNE___c_TypeDefinitionIndex = 33826;
 
 	class INKPGECIDNE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53E50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50E50);
 		}
 
 		static ::System::Void _cctor()

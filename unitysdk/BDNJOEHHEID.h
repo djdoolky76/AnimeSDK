@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGameShare/ReplicatedCondition.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BDNJOEHHEID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C575870)
+#define BDNJOEHHEID_CTOR_OFFSET UNITYSDK_OFFSET(0x17011960)
 
-inline static constexpr unsigned int BDNJOEHHEID_TypeDefinitionIndex = 36880;
+inline static constexpr unsigned int BDNJOEHHEID_TypeDefinitionIndex = 37808;
 
 	class BDNJOEHHEID : public ::System::Attribute
 	{

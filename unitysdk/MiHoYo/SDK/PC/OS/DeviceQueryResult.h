@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_DEVICEQUERYRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE4CB0)
+#define MIHOYO_SDK_PC_OS_DEVICEQUERYRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B0DD740)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int DeviceQueryResult_TypeDefinitionIndex = 8642;
+	inline static constexpr unsigned int DeviceQueryResult_TypeDefinitionIndex = 8651;
 
 	class DeviceQueryResult : public ::System::Object
 	{

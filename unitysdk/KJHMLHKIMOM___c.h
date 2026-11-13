@@ -5,23 +5,23 @@ namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define KJHMLHKIMOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB451800)
-#define KJHMLHKIMOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB451840)
-#define KJHMLHKIMOM___C___REMOVEMAXSPEEDMODIFIER_B__9_0_OFFSET UNITYSDK_OFFSET(0xB451850)
+#define KJHMLHKIMOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19F18890)
+#define KJHMLHKIMOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19F188D0)
+#define KJHMLHKIMOM___C___REMOVEMAXSPEEDMODIFIER_B__9_0_OFFSET UNITYSDK_OFFSET(0x19F188E0)
 
-inline static constexpr unsigned int KJHMLHKIMOM___c_TypeDefinitionIndex = 58427;
+inline static constexpr unsigned int KJHMLHKIMOM___c_TypeDefinitionIndex = 59683;
 
 	class KJHMLHKIMOM___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*>** StaticGet___9__9_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51D30);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51D38);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x583C0);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*>** StaticGet___9__9_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x583C8);
 		}
 
 		static ::System::Void _cctor()

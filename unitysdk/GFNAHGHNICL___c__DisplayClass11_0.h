@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PMMOFOBCINL;
 
-#define GFNAHGHNICL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x159F1E00)
-#define GFNAHGHNICL___C__DISPLAYCLASS11_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x159F2FC0)
+#define GFNAHGHNICL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B49B2F0)
+#define GFNAHGHNICL___C__DISPLAYCLASS11_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B49C4B0)
 
-inline static constexpr unsigned int GFNAHGHNICL___c__DisplayClass11_0_TypeDefinitionIndex = 81479;
+inline static constexpr unsigned int GFNAHGHNICL___c__DisplayClass11_0_TypeDefinitionIndex = 84259;
 
 	class GFNAHGHNICL___c__DisplayClass11_0 : public ::System::Object
 	{

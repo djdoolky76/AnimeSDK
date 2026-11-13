@@ -8,11 +8,11 @@ class KLDGLJNPMHO;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOPMMOJPLBK_JGOCJFLBKGI_OFFSET UNITYSDK_OFFSET(0x15DB32D0)
-#define HOPMMOJPLBK_MDGNJPIMCPH_1_OFFSET UNITYSDK_OFFSET(0x15DB3710)
-#define HOPMMOJPLBK_MDGNJPIMCPH_OFFSET UNITYSDK_OFFSET(0x15DB34C0)
+#define HOPMMOJPLBK_JGOCJFLBKGI_OFFSET UNITYSDK_OFFSET(0x1AF2D0A0)
+#define HOPMMOJPLBK_MDGNJPIMCPH_1_OFFSET UNITYSDK_OFFSET(0x1AF2D4E0)
+#define HOPMMOJPLBK_MDGNJPIMCPH_OFFSET UNITYSDK_OFFSET(0x1AF2D290)
 
-inline static constexpr unsigned int HOPMMOJPLBK_TypeDefinitionIndex = 53728;
+inline static constexpr unsigned int HOPMMOJPLBK_TypeDefinitionIndex = 54892;
 
 	class HOPMMOJPLBK : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ACHERONSPACESLICER_SLICEPLANE_GET_INNORMAL_OFFSET UNITYSDK_OFFSET(0xDF810)
-#define RPG_CLIENT_ACHERONSPACESLICER_SLICEPLANE_GET_INPOINT_OFFSET UNITYSDK_OFFSET(0xDF770)
+#define RPG_CLIENT_ACHERONSPACESLICER_SLICEPLANE_GET_INNORMAL_OFFSET UNITYSDK_OFFSET(0x3E8C730)
+#define RPG_CLIENT_ACHERONSPACESLICER_SLICEPLANE_GET_INPOINT_OFFSET UNITYSDK_OFFSET(0x3E8C690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AcheronSpaceSlicer_SlicePlane_TypeDefinitionIndex = 70353;
+	inline static constexpr unsigned int AcheronSpaceSlicer_SlicePlane_TypeDefinitionIndex = 72319;
 
 	struct alignas(8) AcheronSpaceSlicer_SlicePlane
 	{

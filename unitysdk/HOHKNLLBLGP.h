@@ -4,11 +4,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerStanceCountDown; }
 
-#define HOHKNLLBLGP_CTOR_OFFSET UNITYSDK_OFFSET(0x15DAA9A0)
-#define HOHKNLLBLGP_GAAPHGOIMOD_OFFSET UNITYSDK_OFFSET(0x15DAAB70)
-#define HOHKNLLBLGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DAA9D0)
+#define HOHKNLLBLGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF23DE0)
+#define HOHKNLLBLGP_GAAPHGOIMOD_OFFSET UNITYSDK_OFFSET(0x1AF23FB0)
+#define HOHKNLLBLGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AF23E10)
 
-inline static constexpr unsigned int HOHKNLLBLGP_TypeDefinitionIndex = 55767;
+inline static constexpr unsigned int HOHKNLLBLGP_TypeDefinitionIndex = 56970;
 
 	class HOHKNLLBLGP
 	{

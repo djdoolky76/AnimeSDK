@@ -4,18 +4,18 @@
 class LFLMJKLKBIL;
 namespace System { class Object; }
 
-#define LFLMJKLKBIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E917E20)
-#define LFLMJKLKBIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E917E60)
-#define LFLMJKLKBIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E917E70)
+#define LFLMJKLKBIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAB2320)
+#define LFLMJKLKBIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAB2360)
+#define LFLMJKLKBIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FAB2370)
 
-inline static constexpr unsigned int LFLMJKLKBIL___c_TypeDefinitionIndex = 33033;
+inline static constexpr unsigned int LFLMJKLKBIL___c_TypeDefinitionIndex = 33948;
 
 	class LFLMJKLKBIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34090);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32CC0);
 		}
 
 		static ::System::Void _cctor()

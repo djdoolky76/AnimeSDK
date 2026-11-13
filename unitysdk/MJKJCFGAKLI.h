@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MJKJCFGAKLI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D187F80)
-#define MJKJCFGAKLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D188550)
-#define MJKJCFGAKLI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1880F0)
-#define MJKJCFGAKLI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1879F0)
-#define MJKJCFGAKLI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D187C80)
-#define MJKJCFGAKLI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D188190)
-#define MJKJCFGAKLI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1881E0)
-#define MJKJCFGAKLI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D187FC0)
-#define MJKJCFGAKLI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D187C20)
-#define MJKJCFGAKLI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D187DF0)
-#define MJKJCFGAKLI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D188050)
-#define MJKJCFGAKLI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D187970)
+#define MJKJCFGAKLI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1F58CB00)
+#define MJKJCFGAKLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F58D0D0)
+#define MJKJCFGAKLI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1F58CC70)
+#define MJKJCFGAKLI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1F58C570)
+#define MJKJCFGAKLI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1F58C800)
+#define MJKJCFGAKLI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1F58CD10)
+#define MJKJCFGAKLI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1F58CD60)
+#define MJKJCFGAKLI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1F58CB40)
+#define MJKJCFGAKLI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1F58C7A0)
+#define MJKJCFGAKLI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1F58C970)
+#define MJKJCFGAKLI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1F58CBD0)
+#define MJKJCFGAKLI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1F58C4F0)
 
-inline static constexpr unsigned int MJKJCFGAKLI_TypeDefinitionIndex = 13153;
+inline static constexpr unsigned int MJKJCFGAKLI_TypeDefinitionIndex = 13227;
 
 	class MJKJCFGAKLI : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DrinkMakerTagCombinationRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DrinkMakerTagCombinationRow*>**)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0x46C30);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0x47670);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0x46C38);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0x47678);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DrinkMakerTagCombinationRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0x46C40);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0x10940);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DrinkMakerTagCombinationRow*>**)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0x47680);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0x10941);
+			return (::System::Byte*)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0xDE40);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "MJKJCFGAKLI")->GetStaticField(0xDE41);
 		}
 
 		static ::System::Void _cctor()

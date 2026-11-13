@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JPDOEEEPCDF_HMCAOIAGHNO_TypeDefinitionIndex = 76579;
+inline static constexpr unsigned int JPDOEEEPCDF_HMCAOIAGHNO_TypeDefinitionIndex = 78910;
 
 	struct alignas(4) JPDOEEEPCDF_HMCAOIAGHNO
 	{

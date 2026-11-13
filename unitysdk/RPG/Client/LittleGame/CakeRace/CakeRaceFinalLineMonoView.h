@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceMonoView.h"
 namespace RPG::Client { class BaseShaderPropertyTransition; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEFINALLINEMONOVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD3FB1B0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEFINALLINEMONOVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBDFE30)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceFinalLineMonoView_TypeDefinitionIndex = 78153;
+	inline static constexpr unsigned int CakeRaceFinalLineMonoView_TypeDefinitionIndex = 80888;
 
 	class CakeRaceFinalLineMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PNIBEGNGNJB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D2E1760)
-#define PNIBEGNGNJB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2E1CE0)
-#define PNIBEGNGNJB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D2E18D0)
-#define PNIBEGNGNJB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2E1210)
-#define PNIBEGNGNJB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D2E14A0)
-#define PNIBEGNGNJB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D2E1970)
-#define PNIBEGNGNJB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D2E19C0)
-#define PNIBEGNGNJB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D2E17A0)
-#define PNIBEGNGNJB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2E1440)
-#define PNIBEGNGNJB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D2E15D0)
-#define PNIBEGNGNJB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2E1830)
-#define PNIBEGNGNJB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2E1190)
+#define PNIBEGNGNJB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E7AF900)
+#define PNIBEGNGNJB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7AFE80)
+#define PNIBEGNGNJB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E7AFA70)
+#define PNIBEGNGNJB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E7AF3B0)
+#define PNIBEGNGNJB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E7AF640)
+#define PNIBEGNGNJB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E7AFB10)
+#define PNIBEGNGNJB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E7AFB60)
+#define PNIBEGNGNJB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E7AF940)
+#define PNIBEGNGNJB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E7AF5E0)
+#define PNIBEGNGNJB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E7AF770)
+#define PNIBEGNGNJB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E7AF9D0)
+#define PNIBEGNGNJB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E7AF330)
 
-inline static constexpr unsigned int PNIBEGNGNJB_TypeDefinitionIndex = 12931;
+inline static constexpr unsigned int PNIBEGNGNJB_TypeDefinitionIndex = 13003;
 
 	class PNIBEGNGNJB : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakePerformanceConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakePerformanceConfigRow*>**)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0x51F30);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakePerformanceConfigRow*>**)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0x426F0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0x51F38);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0x426F8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0x51F40);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0x126F0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0x42700);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0x126F1);
+			return (::System::Byte*)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0xD560);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "PNIBEGNGNJB")->GetStaticField(0xD561);
 		}
 
 		static ::System::Void _cctor()

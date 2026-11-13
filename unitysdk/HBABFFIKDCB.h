@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HBABFFIKDCB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B92DE0)
+#define HBABFFIKDCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C14E030)
 
-inline static constexpr unsigned int HBABFFIKDCB_TypeDefinitionIndex = 58521;
+inline static constexpr unsigned int HBABFFIKDCB_TypeDefinitionIndex = 59785;
 
 	class HBABFFIKDCB : public ::System::Object
 	{

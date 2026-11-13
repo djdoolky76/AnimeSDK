@@ -4,18 +4,18 @@
 class LHLBFIOLAIA;
 namespace System { class Object; }
 
-#define LHLBFIOLAIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E938C90)
-#define LHLBFIOLAIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E938CD0)
-#define LHLBFIOLAIA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E938CE0)
+#define LHLBFIOLAIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201C1910)
+#define LHLBFIOLAIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201C1950)
+#define LHLBFIOLAIA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x201C1960)
 
-inline static constexpr unsigned int LHLBFIOLAIA___c_TypeDefinitionIndex = 26790;
+inline static constexpr unsigned int LHLBFIOLAIA___c_TypeDefinitionIndex = 27321;
 
 	class LHLBFIOLAIA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x378F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39760);
 		}
 
 		static ::System::Void _cctor()

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TransitionPerformConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRANSITIONPERFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0B5C0)
-#define RPG_GAMECORE_TRANSITIONPERFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC0B470)
+#define RPG_GAMECORE_TRANSITIONPERFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E314EA0)
+#define RPG_GAMECORE_TRANSITIONPERFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E314D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TransitionPerformConfig_TypeDefinitionIndex = 17639;
+	inline static constexpr unsigned int TransitionPerformConfig_TypeDefinitionIndex = 17808;
 
 	class TransitionPerformConfig : public ::RPG::GameCore::JsonConfig
 	{

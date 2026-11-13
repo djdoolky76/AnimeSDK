@@ -5,17 +5,17 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DBFKEKEDOGD_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFD6D30)
-#define DBFKEKEDOGD_JCIHMJGKNGG_OFFSET UNITYSDK_OFFSET(0xDFD6C40)
+#define DBFKEKEDOGD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B148720)
+#define DBFKEKEDOGD_JCIHMJGKNGG_OFFSET UNITYSDK_OFFSET(0x1B148630)
 
-inline static constexpr unsigned int DBFKEKEDOGD_TypeDefinitionIndex = 49480;
+inline static constexpr unsigned int DBFKEKEDOGD_TypeDefinitionIndex = 50556;
 
 	class DBFKEKEDOGD : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>** StaticGet_DPLKOLBOGDI()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>**)UnitySDK::FromName("", "DBFKEKEDOGD")->GetStaticField(0x57C20);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>**)UnitySDK::FromName("", "DBFKEKEDOGD")->GetStaticField(0x53D40);
 		}
 
 		static ::System::Void _cctor()

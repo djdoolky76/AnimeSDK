@@ -5,14 +5,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_OBJECTCAST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DBD870)
-#define XLUA_OBJECTCAST_CTOR_OFFSET UNITYSDK_OFFSET(0x14DBD7E0)
-#define XLUA_OBJECTCAST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DBD8F0)
-#define XLUA_OBJECTCAST_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DBD850)
+#define XLUA_OBJECTCAST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12BB0CC0)
+#define XLUA_OBJECTCAST_CTOR_OFFSET UNITYSDK_OFFSET(0x12BB0C30)
+#define XLUA_OBJECTCAST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12BB0D40)
+#define XLUA_OBJECTCAST_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BB0CA0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCast_TypeDefinitionIndex = 50231;
+	inline static constexpr unsigned int ObjectCast_TypeDefinitionIndex = 51282;
 
 	class ObjectCast : public ::System::MulticastDelegate
 	{

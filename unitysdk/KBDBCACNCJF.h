@@ -8,25 +8,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define KBDBCACNCJF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2E93B0)
-#define KBDBCACNCJF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2E95D0)
-#define KBDBCACNCJF_HBIDKMJBOCN_OFFSET UNITYSDK_OFFSET(0xB2E9C90)
-#define KBDBCACNCJF_IKFMHCMKFHJ_OFFSET UNITYSDK_OFFSET(0xB2EA080)
-#define KBDBCACNCJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2E9920)
+#define KBDBCACNCJF_CTOR_OFFSET UNITYSDK_OFFSET(0x19DCAEB0)
+#define KBDBCACNCJF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DCB0D0)
+#define KBDBCACNCJF_HBIDKMJBOCN_OFFSET UNITYSDK_OFFSET(0x19DCB790)
+#define KBDBCACNCJF_IKFMHCMKFHJ_OFFSET UNITYSDK_OFFSET(0x19DCBB80)
+#define KBDBCACNCJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19DCB420)
 
-inline static constexpr unsigned int KBDBCACNCJF_TypeDefinitionIndex = 53094;
+inline static constexpr unsigned int KBDBCACNCJF_TypeDefinitionIndex = 54255;
 
 	class KBDBCACNCJF
 	{
 	public:
-		::KFELGAIGHAP* LPEMKIEPOLK; // 0x28
-		::KFELGAIGHAP* PFNGAOGCGHH; // 0x30
-		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* HOBJAEBEIBK; // 0x38
-		::KFELGAIGHAP* KHCFHOHBBIA; // 0x40
-		::System::UInt32 CAJHBEBFDKD; // 0x48
-		::System::Boolean HDLKFIMOEGJ; // 0x4C
-		::System::Byte _padding0[0x3];
-		::KBDBCACNCJF_WaitState FFHNGPLFNHI; // 0x50
+		::KFELGAIGHAP* PFNGAOGCGHH; // 0x28
+		::KFELGAIGHAP* KHCFHOHBBIA; // 0x30
+		::KFELGAIGHAP* LPEMKIEPOLK; // 0x38
+		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* HOBJAEBEIBK; // 0x40
+		::KBDBCACNCJF_WaitState FFHNGPLFNHI; // 0x48
+		::System::UInt32 CAJHBEBFDKD; // 0x4C
+		::System::Boolean HDLKFIMOEGJ; // 0x50
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PhotoGraphWaitIdentifyFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PhotoGraphWaitIdentifyFinish*))((::PBYTE)hIl2Cpp + KBDBCACNCJF_CTOR_OFFSET))(this, a1, a2);

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GPLMMPJLOIH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B54750)
-#define GPLMMPJLOIH_GKAIEDGLJGF_OFFSET UNITYSDK_OFFSET(0x15B54760)
+#define GPLMMPJLOIH_CTOR_OFFSET UNITYSDK_OFFSET(0x17DC0E20)
+#define GPLMMPJLOIH_GKAIEDGLJGF_OFFSET UNITYSDK_OFFSET(0x17DC0E30)
 
-inline static constexpr unsigned int GPLMMPJLOIH_TypeDefinitionIndex = 57932;
+inline static constexpr unsigned int GPLMMPJLOIH_TypeDefinitionIndex = 59169;
 
 	class GPLMMPJLOIH : public ::NJIOAKCLACC
 	{

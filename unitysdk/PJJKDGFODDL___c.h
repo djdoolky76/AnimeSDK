@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define PJJKDGFODDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC28E3B0)
-#define PJJKDGFODDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC28E3E0)
-#define PJJKDGFODDL___C___RECONCILESELFPARTY_B__28_0_OFFSET UNITYSDK_OFFSET(0xC28E3F0)
+#define PJJKDGFODDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x14796F80)
+#define PJJKDGFODDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x14796FB0)
+#define PJJKDGFODDL___C___RECONCILESELFPARTY_B__29_0_OFFSET UNITYSDK_OFFSET(0x14796FC0)
 
-inline static constexpr unsigned int PJJKDGFODDL___c_TypeDefinitionIndex = 75637;
+inline static constexpr unsigned int PJJKDGFODDL___c_TypeDefinitionIndex = 77964;
 
 	class PJJKDGFODDL___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>** StaticGet___9__28_0()
+		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>** StaticGet___9__29_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FE60);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73AA0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FE68);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73AA8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ inline static constexpr unsigned int PJJKDGFODDL___c_TypeDefinitionIndex = 75637
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PJJKDGFODDL___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __ReconcileSelfParty_b__28_0(::System::ValueTuple_2<::System::UInt32, ::System::String*> a1, ::System::ValueTuple_2<::System::UInt32, ::System::String*> a2)
+		::System::Int32 __ReconcileSelfParty_b__29_0(::System::ValueTuple_2<::System::UInt32, ::System::String*> a1, ::System::ValueTuple_2<::System::UInt32, ::System::String*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::ValueTuple_2<::System::UInt32, ::System::String*>))((::PBYTE)hIl2Cpp + PJJKDGFODDL___C___RECONCILESELFPARTY_B__28_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::ValueTuple_2<::System::UInt32, ::System::String*>))((::PBYTE)hIl2Cpp + PJJKDGFODDL___C___RECONCILESELFPARTY_B__29_0_OFFSET))(this, a1, a2);
 		}
 
 	};

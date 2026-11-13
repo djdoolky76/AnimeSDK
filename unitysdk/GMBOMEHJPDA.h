@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AJPBKMBIGNC.h"
 
-#define GMBOMEHJPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABE7E0)
+#define GMBOMEHJPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x16C76CF0)
 
-inline static constexpr unsigned int GMBOMEHJPDA_TypeDefinitionIndex = 81671;
+inline static constexpr unsigned int GMBOMEHJPDA_TypeDefinitionIndex = 84452;
 
 	class GMBOMEHJPDA : public ::AJPBKMBIGNC
 	{

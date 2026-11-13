@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IBGIGFMLJDK_BDNNHJJPNDE_OFFSET UNITYSDK_OFFSET(0x15E253C0)
-#define IBGIGFMLJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E25440)
-#define IBGIGFMLJDK_DPDJOAOLJCI_OFFSET UNITYSDK_OFFSET(0x15E25080)
+#define IBGIGFMLJDK_BDNNHJJPNDE_OFFSET UNITYSDK_OFFSET(0x188AF2C0)
+#define IBGIGFMLJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x188AF340)
+#define IBGIGFMLJDK_DPDJOAOLJCI_OFFSET UNITYSDK_OFFSET(0x188AEF80)
 
-inline static constexpr unsigned int IBGIGFMLJDK_TypeDefinitionIndex = 66467;
+inline static constexpr unsigned int IBGIGFMLJDK_TypeDefinitionIndex = 68403;
 
 	class IBGIGFMLJDK : public ::System::Object
 	{

@@ -5,22 +5,22 @@ namespace RPG::Client::Prop { class JigsawItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LIBKOBLJDMC_BMLNJHOEMHK_OFFSET UNITYSDK_OFFSET(0xB6BC1A0)
-#define LIBKOBLJDMC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6BBBE0)
-#define LIBKOBLJDMC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6BBFF0)
-#define LIBKOBLJDMC_EAOCMDPLDHA_OFFSET UNITYSDK_OFFSET(0xB6BC3E0)
-#define LIBKOBLJDMC_EKAOPNJPPBD_OFFSET UNITYSDK_OFFSET(0xB6BC5E0)
-#define LIBKOBLJDMC_LDFHEEOGHPE_OFFSET UNITYSDK_OFFSET(0xB6BC050)
-#define LIBKOBLJDMC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB6BBCF0)
+#define LIBKOBLJDMC_BMLNJHOEMHK_OFFSET UNITYSDK_OFFSET(0x1BCD4BE0)
+#define LIBKOBLJDMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD4620)
+#define LIBKOBLJDMC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCD4A30)
+#define LIBKOBLJDMC_EAOCMDPLDHA_OFFSET UNITYSDK_OFFSET(0x1BCD4E20)
+#define LIBKOBLJDMC_EKAOPNJPPBD_OFFSET UNITYSDK_OFFSET(0x1BCD5020)
+#define LIBKOBLJDMC_LDFHEEOGHPE_OFFSET UNITYSDK_OFFSET(0x1BCD4A90)
+#define LIBKOBLJDMC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1BCD4730)
 
-inline static constexpr unsigned int LIBKOBLJDMC_TypeDefinitionIndex = 78647;
+inline static constexpr unsigned int LIBKOBLJDMC_TypeDefinitionIndex = 81382;
 
 	class LIBKOBLJDMC : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* ILLOMKAHNNH; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* CCHAAKOLCFL; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>* KGBKLAPGFMN; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>* KGBKLAPGFMN; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* CCHAAKOLCFL; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LIBKOBLJDMC_CTOR_OFFSET))(this);

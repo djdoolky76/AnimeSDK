@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InfiniteWaveSortByActivity340; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJONBPFHKNF_CTOR_OFFSET UNITYSDK_OFFSET(0xBC23800)
-#define NJONBPFHKNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC23830)
+#define NJONBPFHKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1A7A5CD0)
+#define NJONBPFHKNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A7A5D00)
 
-inline static constexpr unsigned int NJONBPFHKNF_TypeDefinitionIndex = 55126;
+inline static constexpr unsigned int NJONBPFHKNF_TypeDefinitionIndex = 56303;
 
 	class NJONBPFHKNF
 	{

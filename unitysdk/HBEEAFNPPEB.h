@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HBEEAFNPPEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA87940)
+#define HBEEAFNPPEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8DA80)
 
-inline static constexpr unsigned int HBEEAFNPPEB_TypeDefinitionIndex = 42142;
+inline static constexpr unsigned int HBEEAFNPPEB_TypeDefinitionIndex = 43117;
 
 	class HBEEAFNPPEB : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPGENERATOR_GROUPWEIGHTPAIR_LCHPJFNJIAI_OFFSET UNITYSDK_OFFSET(0xEA910)
+#define RPG_CLIENT_LOOPGENERATOR_GROUPWEIGHTPAIR_LCHPJFNJIAI_OFFSET UNITYSDK_OFFSET(0x3E388F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerator_GroupWeightPair_TypeDefinitionIndex = 72972;
+	inline static constexpr unsigned int LoopGenerator_GroupWeightPair_TypeDefinitionIndex = 75084;
 
 	struct alignas(8) LoopGenerator_GroupWeightPair
 	{

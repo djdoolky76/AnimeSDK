@@ -4,18 +4,18 @@
 class MGFAALHCHEF;
 namespace System { class Object; }
 
-#define MGFAALHCHEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9F6630)
-#define MGFAALHCHEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F6670)
-#define MGFAALHCHEF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E9F6680)
+#define MGFAALHCHEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB25C70)
+#define MGFAALHCHEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB25CB0)
+#define MGFAALHCHEF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FB25CC0)
 
-inline static constexpr unsigned int MGFAALHCHEF___c_TypeDefinitionIndex = 30848;
+inline static constexpr unsigned int MGFAALHCHEF___c_TypeDefinitionIndex = 31761;
 
 	class MGFAALHCHEF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x500F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51BA0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,9 +4,9 @@
 class FDPALAEIHPB;
 class HJNDPHEDAGM;
 
-#define FPJKIGOKMJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA44A90)
+#define FPJKIGOKMJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20F270)
 
-inline static constexpr unsigned int FPJKIGOKMJC_TypeDefinitionIndex = 42211;
+inline static constexpr unsigned int FPJKIGOKMJC_TypeDefinitionIndex = 43186;
 
 	class FPJKIGOKMJC : public ::DJJKNHPLHDI
 	{

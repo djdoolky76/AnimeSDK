@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define MJBMFJMAIGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB95DEA0)
-#define MJBMFJMAIGL_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB95D140)
+#define MJBMFJMAIGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1A39EF90)
+#define MJBMFJMAIGL_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x1A39E230)
 
-inline static constexpr unsigned int MJBMFJMAIGL_TypeDefinitionIndex = 81739;
+inline static constexpr unsigned int MJBMFJMAIGL_TypeDefinitionIndex = 84520;
 
 	class MJBMFJMAIGL : public ::System::Object
 	{

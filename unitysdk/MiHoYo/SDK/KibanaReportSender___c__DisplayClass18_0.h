@@ -5,13 +5,13 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_KIBANAREPORTSENDER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB9B00)
-#define MIHOYO_SDK_KIBANAREPORTSENDER___C__DISPLAYCLASS18_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0xAFBA200)
-#define MIHOYO_SDK_KIBANAREPORTSENDER___C__DISPLAYCLASS18_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0xAFBA940)
+#define MIHOYO_SDK_KIBANAREPORTSENDER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2EE030)
+#define MIHOYO_SDK_KIBANAREPORTSENDER___C__DISPLAYCLASS18_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1E2EE730)
+#define MIHOYO_SDK_KIBANAREPORTSENDER___C__DISPLAYCLASS18_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x1E2EEE70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaReportSender___c__DisplayClass18_0_TypeDefinitionIndex = 46569;
+	inline static constexpr unsigned int KibanaReportSender___c__DisplayClass18_0_TypeDefinitionIndex = 47597;
 
 	class KibanaReportSender___c__DisplayClass18_0 : public ::System::Object
 	{

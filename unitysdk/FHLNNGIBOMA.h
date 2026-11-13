@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByCheckFarmElementActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHLNNGIBOMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1577DAD0)
-#define FHLNNGIBOMA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1577DB00)
+#define FHLNNGIBOMA_CTOR_OFFSET UNITYSDK_OFFSET(0x18AB3210)
+#define FHLNNGIBOMA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18AB3240)
 
-inline static constexpr unsigned int FHLNNGIBOMA_TypeDefinitionIndex = 53107;
+inline static constexpr unsigned int FHLNNGIBOMA_TypeDefinitionIndex = 54269;
 
 	class FHLNNGIBOMA
 	{

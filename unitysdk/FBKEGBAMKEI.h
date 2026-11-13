@@ -4,10 +4,10 @@
 class APDMIIEDMLI_CFHOMFLPNNO;
 namespace RPG::GameCore { class MiConditionConfigBase; }
 
-#define FBKEGBAMKEI_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x15695820)
-#define FBKEGBAMKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x15695910)
+#define FBKEGBAMKEI_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x1BA51A80)
+#define FBKEGBAMKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA51B70)
 
-inline static constexpr unsigned int FBKEGBAMKEI_TypeDefinitionIndex = 59950;
+inline static constexpr unsigned int FBKEGBAMKEI_TypeDefinitionIndex = 61234;
 
 	class FBKEGBAMKEI : public ::System::Object
 	{

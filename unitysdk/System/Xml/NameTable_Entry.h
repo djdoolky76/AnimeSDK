@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace System::Xml { class NameTable_Entry; }
 
-#define SYSTEM_XML_NAMETABLE_ENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE781C0)
+#define SYSTEM_XML_NAMETABLE_ENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D20AC80)
 
 namespace System::Xml
 {

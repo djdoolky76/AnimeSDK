@@ -6,19 +6,19 @@ class HNNMAGMNHAG;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define HNNMAGMNHAG_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x15D99FB0)
-#define HNNMAGMNHAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D9A1A0)
-#define HNNMAGMNHAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D99F50)
-#define HNNMAGMNHAG_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x15D99F60)
+#define HNNMAGMNHAG_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x1A37D960)
+#define HNNMAGMNHAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A37DB50)
+#define HNNMAGMNHAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1A37D900)
+#define HNNMAGMNHAG_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x1A37D910)
 
-inline static constexpr unsigned int HNNMAGMNHAG_TypeDefinitionIndex = 79381;
+inline static constexpr unsigned int HNNMAGMNHAG_TypeDefinitionIndex = 82158;
 
 	class HNNMAGMNHAG : public ::System::Object
 	{
 	public:
 		static ::HNNMAGMNHAG** StaticGet_FMJPMFEDIJL()
 		{
-			return (::HNNMAGMNHAG**)UnitySDK::FromName("", "HNNMAGMNHAG")->GetStaticField(0x30920);
+			return (::HNNMAGMNHAG**)UnitySDK::FromName("", "HNNMAGMNHAG")->GetStaticField(0x21810);
 		}
 
 		::System::Void _ctor()

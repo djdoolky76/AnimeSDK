@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationAirlockConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONAIRLOCKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D801190)
-#define RPG_GAMECORE_MAPROTATIONAIRLOCKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D800E60)
+#define RPG_GAMECORE_MAPROTATIONAIRLOCKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08B230)
+#define RPG_GAMECORE_MAPROTATIONAIRLOCKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F08AF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationAirlockConfig_TypeDefinitionIndex = 17025;
+	inline static constexpr unsigned int MapRotationAirlockConfig_TypeDefinitionIndex = 17192;
 
 	class MapRotationAirlockConfig : public ::RPG::GameCore::JsonConfig
 	{

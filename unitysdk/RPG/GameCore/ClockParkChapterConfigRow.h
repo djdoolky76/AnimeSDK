@@ -6,28 +6,28 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClockParkChapterConfigRow; }
 
-#define RPG_GAMECORE_CLOCKPARKCHAPTERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58F160)
-#define RPG_GAMECORE_CLOCKPARKCHAPTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58E8B0)
+#define RPG_GAMECORE_CLOCKPARKCHAPTERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5057A0)
+#define RPG_GAMECORE_CLOCKPARKCHAPTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F504EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkChapterConfigRow_TypeDefinitionIndex = 11165;
+	inline static constexpr unsigned int ClockParkChapterConfigRow_TypeDefinitionIndex = 11181;
 
 	class ClockParkChapterConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChapterRoundIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* NextChapterID; // 0x18
-		::Il2CppArray<::System::UInt32>* ChapterStoryIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* CheckPointList; // 0x28
+		::Il2CppArray<::System::UInt32>* CheckPointList; // 0x20
+		::Il2CppArray<::System::UInt32>* ChapterStoryIDList; // 0x28
 		::Il2CppArray<::System::UInt32>* ChapterGamePlayRoundRandomList; // 0x30
-		::System::UInt32 ChapterAutoUnlock; // 0x38
+		::System::UInt32 SuccessToRoundID; // 0x38
 		::System::UInt32 ChapterID; // 0x3C
-		::System::UInt32 RewardID; // 0x40
+		::System::UInt32 ChapterAutoUnlock; // 0x40
 		::System::UInt32 RewardProgress; // 0x44
 		::RPG::Client::TextID ChapterTitle; // 0x48
 		::RPG::GameCore::ClockParkChapterType ChapterType; // 0x58
-		::System::UInt32 SuccessToRoundID; // 0x5C
+		::System::UInt32 RewardID; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKCHAPTERCONFIGROW_CTOR_OFFSET))(this);

@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class VCameraConfigChange; }
 
-#define PMCCDNCDGJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC30E3A0)
+#define PMCCDNCDGJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1889ADD0)
 
-inline static constexpr unsigned int PMCCDNCDGJJ_TypeDefinitionIndex = 69563;
+inline static constexpr unsigned int PMCCDNCDGJJ_TypeDefinitionIndex = 71520;
 
 	class PMCCDNCDGJJ : public ::System::Object
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_CSHARPONLYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A7A70)
+#define UNITYENGINE_CSHARPONLYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C8660)
 
 namespace UnityEngine
 {

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_SWITCHHANDDRAGHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE14B690)
-#define RPG_CLIENT_SWITCHHANDDRAGHANDLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xE14B640)
+#define RPG_CLIENT_SWITCHHANDDRAGHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEE0E0)
+#define RPG_CLIENT_SWITCHHANDDRAGHANDLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1CCEE090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwitchHandDragHandler_TypeDefinitionIndex = 72929;
+	inline static constexpr unsigned int SwitchHandDragHandler_TypeDefinitionIndex = 75039;
 
 	class SwitchHandDragHandler : public ::UnityEngine::MonoBehaviour
 	{

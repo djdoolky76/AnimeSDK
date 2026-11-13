@@ -3,7 +3,7 @@
 class GEDMHFPPBHN;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-inline static constexpr unsigned int EKCBMKJJDNL_ENEFIKAONIN_TypeDefinitionIndex = 72070;
+inline static constexpr unsigned int EKCBMKJJDNL_ENEFIKAONIN_TypeDefinitionIndex = 74103;
 
 	struct alignas(8) EKCBMKJJDNL_ENEFIKAONIN
 	{

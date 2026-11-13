@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F05D320)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F05D350)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__COMPLETE_B__27_0_OFFSET UNITYSDK_OFFSET(0x1F05D360)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF567F0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF56820)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__COMPLETE_B__27_0_OFFSET UNITYSDK_OFFSET(0x1CF56830)
 
 namespace System::Net::Sockets
 {
@@ -15,14 +15,14 @@ namespace System::Net::Sockets
 	class SocketAsyncResult___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("System.Net.Sockets", "<>c")->GetStaticField(0x33330);
-		}
-
 		static ::System::Threading::WaitCallback** StaticGet___9__27_0()
 		{
-			return (::System::Threading::WaitCallback**)UnitySDK::FromName("System.Net.Sockets", "<>c")->GetStaticField(0x33338);
+			return (::System::Threading::WaitCallback**)UnitySDK::FromName("System.Net.Sockets", "<>c")->GetStaticField(0x27CF0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.Net.Sockets", "<>c")->GetStaticField(0x27CF8);
 		}
 
 		static ::System::Void _cctor()

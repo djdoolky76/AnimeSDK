@@ -4,10 +4,10 @@
 class FMKEJLGKEMH;
 namespace System { class String; }
 
-#define APEKMFFAEHC___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B9C300)
-#define APEKMFFAEHC___C__DISPLAYCLASS3_0__FOLD_B__0_OFFSET UNITYSDK_OFFSET(0x15B9C350)
+#define APEKMFFAEHC___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x18501BF0)
+#define APEKMFFAEHC___C__DISPLAYCLASS3_0__FOLD_B__0_OFFSET UNITYSDK_OFFSET(0x18501C40)
 
-inline static constexpr unsigned int APEKMFFAEHC___c__DisplayClass3_0_TypeDefinitionIndex = 65309;
+inline static constexpr unsigned int APEKMFFAEHC___c__DisplayClass3_0_TypeDefinitionIndex = 67078;
 
 	class APEKMFFAEHC___c__DisplayClass3_0 : public ::System::Object
 	{

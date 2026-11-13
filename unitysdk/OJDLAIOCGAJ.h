@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OJDLAIOCGAJ_TypeDefinitionIndex = 25262;
+inline static constexpr unsigned int OJDLAIOCGAJ_TypeDefinitionIndex = 25740;
 
 	enum class OJDLAIOCGAJ : ::System::Int32
 	{

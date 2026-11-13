@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingFactorySpawnInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D797C10)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D797A90)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D946430)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9462C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingFactorySpawnInfo_TypeDefinitionIndex = 17303;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingFactorySpawnInfo_TypeDefinitionIndex = 17471;
 
 	class LevelPedestrianV2IntersectionChenLingFactorySpawnInfo : public ::RPG::GameCore::JsonConfig
 	{

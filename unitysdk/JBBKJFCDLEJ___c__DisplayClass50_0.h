@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define JBBKJFCDLEJ___C__DISPLAYCLASS50_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16558160)
-#define JBBKJFCDLEJ___C__DISPLAYCLASS50_0__ONNORMALEVENTDONE_B__0_OFFSET UNITYSDK_OFFSET(0x16558710)
+#define JBBKJFCDLEJ___C__DISPLAYCLASS50_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19A67FF0)
+#define JBBKJFCDLEJ___C__DISPLAYCLASS50_0__ONNORMALEVENTDONE_B__0_OFFSET UNITYSDK_OFFSET(0x19A685A0)
 
-inline static constexpr unsigned int JBBKJFCDLEJ___c__DisplayClass50_0_TypeDefinitionIndex = 60388;
+inline static constexpr unsigned int JBBKJFCDLEJ___c__DisplayClass50_0_TypeDefinitionIndex = 61673;
 
 	class JBBKJFCDLEJ___c__DisplayClass50_0 : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByMagicUnitCounter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IJNDFEFENJG_CTOR_OFFSET UNITYSDK_OFFSET(0x16462380)
-#define IJNDFEFENJG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16462460)
+#define IJNDFEFENJG_CTOR_OFFSET UNITYSDK_OFFSET(0x18060600)
+#define IJNDFEFENJG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x180606E0)
 
-inline static constexpr unsigned int IJNDFEFENJG_TypeDefinitionIndex = 55451;
+inline static constexpr unsigned int IJNDFEFENJG_TypeDefinitionIndex = 56639;
 
 	class IJNDFEFENJG
 	{

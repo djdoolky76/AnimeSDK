@@ -4,10 +4,10 @@
 namespace RPG::Client { class ActivityData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define HDIBBLCLIKC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C28100)
-#define HDIBBLCLIKC_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x15C28260)
+#define HDIBBLCLIKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C8AE0)
+#define HDIBBLCLIKC_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x1B7C8C40)
 
-inline static constexpr unsigned int HDIBBLCLIKC_TypeDefinitionIndex = 61718;
+inline static constexpr unsigned int HDIBBLCLIKC_TypeDefinitionIndex = 63124;
 
 	class HDIBBLCLIKC : public ::System::Object
 	{

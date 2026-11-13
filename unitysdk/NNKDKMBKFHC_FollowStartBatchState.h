@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NNKDKMBKFHC_FollowStartBatchState_TypeDefinitionIndex = 53512;
+inline static constexpr unsigned int NNKDKMBKFHC_FollowStartBatchState_TypeDefinitionIndex = 54674;
 
 	enum class NNKDKMBKFHC_FollowStartBatchState : ::System::Int32
 	{

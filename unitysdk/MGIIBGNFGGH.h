@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowFiveDimBillboardChestIcon; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGIIBGNFGGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB91A590)
-#define MGIIBGNFGGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB91A5C0)
+#define MGIIBGNFGGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B340530)
+#define MGIIBGNFGGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B340560)
 
-inline static constexpr unsigned int MGIIBGNFGGH_TypeDefinitionIndex = 52891;
+inline static constexpr unsigned int MGIIBGNFGGH_TypeDefinitionIndex = 54047;
 
 	class MGIIBGNFGGH
 	{

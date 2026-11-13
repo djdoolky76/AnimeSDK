@@ -3,10 +3,10 @@
 class MLOGMOLADMP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GGOHGKBIOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15A05C90)
-#define GGOHGKBIOPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A05CC0)
+#define GGOHGKBIOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AF1B0)
+#define GGOHGKBIOPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4AF1E0)
 
-inline static constexpr unsigned int GGOHGKBIOPO_TypeDefinitionIndex = 54942;
+inline static constexpr unsigned int GGOHGKBIOPO_TypeDefinitionIndex = 56114;
 
 	class GGOHGKBIOPO
 	{

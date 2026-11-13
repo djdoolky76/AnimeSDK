@@ -6,37 +6,37 @@ class FGAAFLAALBF;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE3F5A0)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE3F5E0)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETCOMMONTALK_B__21_0_OFFSET UNITYSDK_OFFSET(0xCE3F610)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETSTARTTALK_B__20_0_OFFSET UNITYSDK_OFFSET(0xCE3F5F0)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETVICTORYTALK_B__22_0_OFFSET UNITYSDK_OFFSET(0xCE3F630)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB6A550)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB6A590)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETCOMMONTALK_B__21_0_OFFSET UNITYSDK_OFFSET(0x1DB6A5C0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETSTARTTALK_B__20_0_OFFSET UNITYSDK_OFFSET(0x1DB6A5A0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETVICTORYTALK_B__22_0_OFFSET UNITYSDK_OFFSET(0x1DB6A5E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex = 63917;
+	inline static constexpr unsigned int ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex = 65359;
 
 	class ExpeditionBattleFlowTeamViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>** StaticGet___9__20_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46B70);
+			return (::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x589B0);
 		}
 
 		static ::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46B78);
+			return (::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x589B8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x589C0);
 		}
 
 		static ::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46B80);
-		}
-
-		static ::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>** StaticGet___9__20_0()
-		{
-			return (::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46B88);
+			return (::System::Func_2<::FGAAFLAALBF*, ::RPG::Client::TextID>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x589C8);
 		}
 
 		static ::System::Void _cctor()

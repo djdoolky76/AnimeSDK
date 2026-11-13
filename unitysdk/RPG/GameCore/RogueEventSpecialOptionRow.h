@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueEventSpecialOptionRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99EA40)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99E480)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x2076C5D0)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x2076C010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueEventSpecialOptionRow_TypeDefinitionIndex = 14816;
+	inline static constexpr unsigned int RogueEventSpecialOptionRow_TypeDefinitionIndex = 14972;
 
 	class RogueEventSpecialOptionRow : public ::System::Object
 	{

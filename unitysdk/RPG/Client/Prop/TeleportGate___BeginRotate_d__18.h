@@ -5,29 +5,29 @@ namespace RPG::Client::Prop { class TeleportGate; }
 namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_CTOR_OFFSET UNITYSDK_OFFSET(0xDDB4810)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDDB5280)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDDB57F0)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDDB5850)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDDB5800)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDDB5270)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_CTOR_OFFSET UNITYSDK_OFFSET(0x186F6BA0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x186F7610)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x186F7B80)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x186F7BE0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x186F7B90)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x186F7600)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGate___BeginRotate_d__18_TypeDefinitionIndex = 78888;
+	inline static constexpr unsigned int TeleportGate___BeginRotate_d__18_TypeDefinitionIndex = 81659;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18>
 	class TeleportGate___BeginRotate_d__18 : public ::System::Object
 	{
 	public:
 		::UnityEngine::AnimationCurve* speedCurve; // 0x10
-		::System::Object* __2__current; // 0x18
-		::RPG::Client::Prop::TeleportGate* __4__this; // 0x20
-		::System::Int32 __1__state; // 0x28
+		::RPG::Client::Prop::TeleportGate* __4__this; // 0x18
+		::System::Object* __2__current; // 0x20
+		::System::Single maxRotateSpeed; // 0x28
 		::System::Single targetYaw; // 0x2C
-		::System::Single _currentDeltaYaw_5__3; // 0x30
-		::System::Single maxRotateSpeed; // 0x34
-		::System::Single _needRotateAngle_5__2; // 0x38
+		::System::Single _needRotateAngle_5__2; // 0x30
+		::System::Int32 __1__state; // 0x34
+		::System::Single _currentDeltaYaw_5__3; // 0x38
 		::System::Single _initYaw_5__4; // 0x3C
 		::System::Void _ctor(::System::Int32 a1)
 		{

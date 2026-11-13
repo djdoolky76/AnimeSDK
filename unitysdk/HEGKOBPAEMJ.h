@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureExtraMPCost; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HEGKOBPAEMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C44010)
-#define HEGKOBPAEMJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C44040)
+#define HEGKOBPAEMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A1FA660)
+#define HEGKOBPAEMJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A1FA690)
 
-inline static constexpr unsigned int HEGKOBPAEMJ_TypeDefinitionIndex = 57897;
+inline static constexpr unsigned int HEGKOBPAEMJ_TypeDefinitionIndex = 59134;
 
 	class HEGKOBPAEMJ
 	{

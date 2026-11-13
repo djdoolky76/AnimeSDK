@@ -4,10 +4,10 @@
 class FJJPDJAEJHC;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define KFCPGNDPPFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB38A420)
-#define KFCPGNDPPFO_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB38A2E0)
+#define KFCPGNDPPFO_CTOR_OFFSET UNITYSDK_OFFSET(0x176D0630)
+#define KFCPGNDPPFO_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x176D04F0)
 
-inline static constexpr unsigned int KFCPGNDPPFO_TypeDefinitionIndex = 76266;
+inline static constexpr unsigned int KFCPGNDPPFO_TypeDefinitionIndex = 78597;
 
 	class KFCPGNDPPFO : public ::MLKDDLHNNHH
 	{

@@ -4,18 +4,18 @@
 class CAFPFNAKODN;
 namespace System { class Object; }
 
-#define CAFPFNAKODN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E02BDA0)
-#define CAFPFNAKODN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E02BDD0)
-#define CAFPFNAKODN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E02BDE0)
+#define CAFPFNAKODN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2034C750)
+#define CAFPFNAKODN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2034C780)
+#define CAFPFNAKODN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x2034C790)
 
-inline static constexpr unsigned int CAFPFNAKODN___c_TypeDefinitionIndex = 34079;
+inline static constexpr unsigned int CAFPFNAKODN___c_TypeDefinitionIndex = 34994;
 
 	class CAFPFNAKODN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60440);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F8E0);
 		}
 
 		static ::System::Void _cctor()

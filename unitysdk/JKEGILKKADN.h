@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int JKEGILKKADN_TypeDefinitionIndex = 49031;
+inline static constexpr unsigned int JKEGILKKADN_TypeDefinitionIndex = 50101;
 
 	struct alignas(4) JKEGILKKADN
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/MABHMGJMHFC_EventUsage.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MABHMGJMHFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1015F0)
+#define MABHMGJMHFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E42B430)
 
-inline static constexpr unsigned int MABHMGJMHFC_TypeDefinitionIndex = 25014;
+inline static constexpr unsigned int MABHMGJMHFC_TypeDefinitionIndex = 25492;
 
 	class MABHMGJMHFC : public ::System::Attribute
 	{

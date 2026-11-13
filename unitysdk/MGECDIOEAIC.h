@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ModifyEntityBoostPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGECDIOEAIC_CTOR_OFFSET UNITYSDK_OFFSET(0xB9116F0)
-#define MGECDIOEAIC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB911700)
-#define MGECDIOEAIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB911740)
-#define MGECDIOEAIC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB911D50)
-#define MGECDIOEAIC_TICK_OFFSET UNITYSDK_OFFSET(0xB911DA0)
+#define MGECDIOEAIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B336650)
+#define MGECDIOEAIC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B336660)
+#define MGECDIOEAIC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B3366A0)
+#define MGECDIOEAIC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B336CB0)
+#define MGECDIOEAIC_TICK_OFFSET UNITYSDK_OFFSET(0x1B336D00)
 
-inline static constexpr unsigned int MGECDIOEAIC_TypeDefinitionIndex = 55198;
+inline static constexpr unsigned int MGECDIOEAIC_TypeDefinitionIndex = 56379;
 
 	class MGECDIOEAIC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ModifyEntityBoostPoint* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ModifyEntityBoostPoint* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyEntityBoostPoint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifyEntityBoostPoint*))((::PBYTE)hIl2Cpp + MGECDIOEAIC_CTOR_OFFSET))(this, a1, a2);

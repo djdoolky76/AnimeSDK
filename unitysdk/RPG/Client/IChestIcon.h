@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChestIcon_TypeDefinitionIndex = 62911;
+	inline static constexpr unsigned int IChestIcon_TypeDefinitionIndex = 64349;
 
 	class IChestIcon
 	{

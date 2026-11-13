@@ -6,10 +6,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPGTools::Timeline { class CharacterStoryMoveSequenceData; }
 namespace UnityEngine { class Animator; }
 
-#define DJHIMOLCGHI_CTOR_OFFSET UNITYSDK_OFFSET(0xF2302A0)
-#define DJHIMOLCGHI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xF2302C0)
+#define DJHIMOLCGHI_CTOR_OFFSET UNITYSDK_OFFSET(0x18BE96C0)
+#define DJHIMOLCGHI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x18BE96E0)
 
-inline static constexpr unsigned int DJHIMOLCGHI_TypeDefinitionIndex = 53619;
+inline static constexpr unsigned int DJHIMOLCGHI_TypeDefinitionIndex = 54783;
 
 	class DJHIMOLCGHI : public ::FCILKBLLCFJ
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/KeyCode.h"
 
-#define SRDEBUGGER_SETTINGS_KEYBOARDSHORTCUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED25690)
+#define SRDEBUGGER_SETTINGS_KEYBOARDSHORTCUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D440DF0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int Settings_KeyboardShortcut_TypeDefinitionIndex = 37978;
+	inline static constexpr unsigned int Settings_KeyboardShortcut_TypeDefinitionIndex = 38907;
 
 	class Settings_KeyboardShortcut : public ::System::Object
 	{

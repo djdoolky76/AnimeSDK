@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ChronicleLogicConnectionNodeConfig; }
 namespace RPG::GameCore { class ChronicleNodeConfig; }
 namespace RPG::GameCore { class MissionChronicleConfig; }
 
-#define RPG_GAMECORE_MISSIONCHRONICLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D856C70)
-#define RPG_GAMECORE_MISSIONCHRONICLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D856AB0)
+#define RPG_GAMECORE_MISSIONCHRONICLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E9220)
+#define RPG_GAMECORE_MISSIONCHRONICLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6E9060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionChronicleConfig_TypeDefinitionIndex = 18979;
+	inline static constexpr unsigned int MissionChronicleConfig_TypeDefinitionIndex = 19166;
 
 	class MissionChronicleConfig : public ::RPG::GameCore::JsonConfig
 	{

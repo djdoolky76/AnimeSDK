@@ -4,9 +4,9 @@
 class NNOALJAEMCG;
 class OIHFMECAJBH;
 
-#define CDHILJAILCF_HLBOMGOBPPK_OFFSET UNITYSDK_OFFSET(0xC764D80)
+#define CDHILJAILCF_HLBOMGOBPPK_OFFSET UNITYSDK_OFFSET(0x173AF8C0)
 
-inline static constexpr unsigned int CDHILJAILCF_TypeDefinitionIndex = 64264;
+inline static constexpr unsigned int CDHILJAILCF_TypeDefinitionIndex = 65709;
 
 	class CDHILJAILCF : public ::System::Object
 	{

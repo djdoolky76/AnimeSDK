@@ -6,16 +6,16 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GJBIPAMPICI___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4E720)
-#define GJBIPAMPICI___C__DISPLAYCLASS2_0__SYNCHRONIZEONE_B__0_OFFSET UNITYSDK_OFFSET(0x15A4EDB0)
+#define GJBIPAMPICI___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FF610)
+#define GJBIPAMPICI___C__DISPLAYCLASS2_0__SYNCHRONIZEONE_B__0_OFFSET UNITYSDK_OFFSET(0x1A3FFCA0)
 
-inline static constexpr unsigned int GJBIPAMPICI___c__DisplayClass2_0_TypeDefinitionIndex = 80833;
+inline static constexpr unsigned int GJBIPAMPICI___c__DisplayClass2_0_TypeDefinitionIndex = 83613;
 
 	class GJBIPAMPICI___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TurnBasedModifierInstance* modifier; // 0x10
-		::System::Func_2<::RPG::GameCore::DynamicFloat*, ::RPG::GameCore::FixPoint>* __9__0; // 0x18
+		::System::Func_2<::RPG::GameCore::DynamicFloat*, ::RPG::GameCore::FixPoint>* __9__0; // 0x10
+		::RPG::GameCore::TurnBasedModifierInstance* modifier; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJBIPAMPICI___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

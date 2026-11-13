@@ -8,12 +8,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NOEOHKNBMOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9479C0)
-#define NOEOHKNBMOP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C947CC0)
-#define NOEOHKNBMOP_FILTER_OFFSET UNITYSDK_OFFSET(0x1C947B50)
-#define NOEOHKNBMOP_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C947A30)
+#define NOEOHKNBMOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0560A0)
+#define NOEOHKNBMOP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E0563A0)
+#define NOEOHKNBMOP_FILTER_OFFSET UNITYSDK_OFFSET(0x1E056230)
+#define NOEOHKNBMOP_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1E056110)
 
-inline static constexpr unsigned int NOEOHKNBMOP_TypeDefinitionIndex = 42168;
+inline static constexpr unsigned int NOEOHKNBMOP_TypeDefinitionIndex = 43143;
 
 	class NOEOHKNBMOP
 	{

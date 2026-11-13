@@ -4,10 +4,10 @@
 class IKCABGHHMOB;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FJADHEOOMFH___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x157AA270)
-#define FJADHEOOMFH___C__DISPLAYCLASS7_0__FINDNEARPOINTS_B__0_OFFSET UNITYSDK_OFFSET(0x157AA590)
+#define FJADHEOOMFH___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x198130A0)
+#define FJADHEOOMFH___C__DISPLAYCLASS7_0__FINDNEARPOINTS_B__0_OFFSET UNITYSDK_OFFSET(0x198133C0)
 
-inline static constexpr unsigned int FJADHEOOMFH___c__DisplayClass7_0_TypeDefinitionIndex = 52108;
+inline static constexpr unsigned int FJADHEOOMFH___c__DisplayClass7_0_TypeDefinitionIndex = 53213;
 
 	class FJADHEOOMFH___c__DisplayClass7_0 : public ::System::Object
 	{

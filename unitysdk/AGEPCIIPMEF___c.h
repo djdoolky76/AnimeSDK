@@ -4,18 +4,18 @@
 class AGEPCIIPMEF;
 namespace System { class Object; }
 
-#define AGEPCIIPMEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0FDD30)
-#define AGEPCIIPMEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0FDD60)
-#define AGEPCIIPMEF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E0FDD70)
+#define AGEPCIIPMEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F602430)
+#define AGEPCIIPMEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F602460)
+#define AGEPCIIPMEF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F602470)
 
-inline static constexpr unsigned int AGEPCIIPMEF___c_TypeDefinitionIndex = 27079;
+inline static constexpr unsigned int AGEPCIIPMEF___c_TypeDefinitionIndex = 27610;
 
 	class AGEPCIIPMEF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37460);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x416C0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPGlobalMutationNameStats_TypeDefinitionIndex = 4833;
+	inline static constexpr unsigned int CRPGlobalMutationNameStats_TypeDefinitionIndex = 4837;
 
 	struct alignas(8) CRPGlobalMutationNameStats
 	{

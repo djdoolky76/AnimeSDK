@@ -5,11 +5,11 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Texture; }
 
-#define GKDGIALCJIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A86270)
-#define GKDGIALCJIJ_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x15A861F0)
-#define GKDGIALCJIJ_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x15A86170)
+#define GKDGIALCJIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1A8CD250)
+#define GKDGIALCJIJ_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x1A8CD1D0)
+#define GKDGIALCJIJ_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A8CD150)
 
-inline static constexpr unsigned int GKDGIALCJIJ_TypeDefinitionIndex = 69825;
+inline static constexpr unsigned int GKDGIALCJIJ_TypeDefinitionIndex = 71784;
 
 	class GKDGIALCJIJ : public ::System::Object
 	{

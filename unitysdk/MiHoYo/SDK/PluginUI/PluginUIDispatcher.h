@@ -9,16 +9,16 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF5EC70)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF5DE20)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BF5DEB0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_MANUALLYSHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BF5E0A0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x1BF5E180)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONREGISTERTASK_OFFSET UNITYSDK_OFFSET(0x1BF5EBE0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF709D0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6FB80)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1AF6FC10)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_MANUALLYSHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1AF6FE00)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x1AF6FEE0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONREGISTERTASK_OFFSET UNITYSDK_OFFSET(0x1AF70940)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIDispatcher_TypeDefinitionIndex = 9149;
+	inline static constexpr unsigned int PluginUIDispatcher_TypeDefinitionIndex = 9158;
 
 	class PluginUIDispatcher : public ::MiHoYo::SDK::PluginUI::IPluginUIService
 	{
@@ -26,7 +26,7 @@ namespace MiHoYo::SDK::PluginUI
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* m_dicPluginUIName2ShowTask; // 0x18
 		static ::MiHoYo::SDK::PluginUI::PluginUIDispatcher** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::PluginUIDispatcher**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "PluginUIDispatcher")->GetStaticField(0x22550);
+			return (::MiHoYo::SDK::PluginUI::PluginUIDispatcher**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "PluginUIDispatcher")->GetStaticField(0x1AFD0);
 		}
 
 		::System::Void _ctor()

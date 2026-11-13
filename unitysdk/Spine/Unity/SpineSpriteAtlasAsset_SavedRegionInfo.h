@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/SpritePackingRotation.h"
 
-#define SPINE_UNITY_SPINESPRITEATLASASSET_SAVEDREGIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED07240)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_SAVEDREGIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x192116A0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineSpriteAtlasAsset_SavedRegionInfo_TypeDefinitionIndex = 45012;
+	inline static constexpr unsigned int SpineSpriteAtlasAsset_SavedRegionInfo_TypeDefinitionIndex = 46087;
 
 	class SpineSpriteAtlasAsset_SavedRegionInfo : public ::System::Object
 	{

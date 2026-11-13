@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class CFALFIPEHJH;
 
-#define CFALFIPEHJH___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F9F00)
-#define CFALFIPEHJH___C__DISPLAYCLASS35_0__DECELERATION_B__0_OFFSET UNITYSDK_OFFSET(0xC9FCE90)
+#define CFALFIPEHJH___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1883D6E0)
+#define CFALFIPEHJH___C__DISPLAYCLASS35_0__DECELERATION_B__0_OFFSET UNITYSDK_OFFSET(0x18840690)
 
-inline static constexpr unsigned int CFALFIPEHJH___c__DisplayClass35_0_TypeDefinitionIndex = 74187;
+inline static constexpr unsigned int CFALFIPEHJH___c__DisplayClass35_0_TypeDefinitionIndex = 76335;
 
 	class CFALFIPEHJH___c__DisplayClass35_0 : public ::System::Object
 	{

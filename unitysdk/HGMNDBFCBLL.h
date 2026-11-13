@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HGMNDBFCBLL_TypeDefinitionIndex = 25728;
+inline static constexpr unsigned int HGMNDBFCBLL_TypeDefinitionIndex = 26225;
 
 	enum class HGMNDBFCBLL : ::System::Int32
 	{

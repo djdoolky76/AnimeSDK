@@ -8,11 +8,11 @@ namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C11B130)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C11B190)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1C11B270)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1C11B320)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C11B330)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8FA220)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FA280)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1C8FA360)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1C8FA410)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C8FA420)
 
 namespace System::Threading
 {
@@ -21,12 +21,12 @@ namespace System::Threading
 	class QueueUserWorkItemCallback : public ::System::Object
 	{
 	public:
-		::System::Object* state; // 0x10
-		::System::Threading::ExecutionContext* context; // 0x18
-		::System::Threading::WaitCallback* callback; // 0x20
+		::System::Threading::WaitCallback* callback; // 0x10
+		::System::Object* state; // 0x18
+		::System::Threading::ExecutionContext* context; // 0x20
 		static ::System::Threading::ContextCallback** StaticGet_ccb()
 		{
-			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading", "QueueUserWorkItemCallback")->GetStaticField(0x25830);
+			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading", "QueueUserWorkItemCallback")->GetStaticField(0x17B30);
 		}
 
 		static ::System::Void _cctor()

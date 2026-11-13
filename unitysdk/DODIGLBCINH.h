@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RefreshAllTutorialNode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DODIGLBCINH_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDB600)
-#define DODIGLBCINH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FDB630)
+#define DODIGLBCINH_CTOR_OFFSET UNITYSDK_OFFSET(0x1919E960)
+#define DODIGLBCINH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1919E990)
 
-inline static constexpr unsigned int DODIGLBCINH_TypeDefinitionIndex = 58372;
+inline static constexpr unsigned int DODIGLBCINH_TypeDefinitionIndex = 59628;
 
 	class DODIGLBCINH
 	{

@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Predicate_1; }
 
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9359A0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION___C__DISPLAYCLASS35_0__GETNONBYPASSEDNETWORKIDS_B__0_OFFSET UNITYSDK_OFFSET(0x1B9359D0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x126D3E20)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION___C__DISPLAYCLASS35_0__GETNONBYPASSEDNETWORKIDS_B__0_OFFSET UNITYSDK_OFFSET(0x126D3E50)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGSession___c__DisplayClass35_0_TypeDefinitionIndex = 40546;
+	inline static constexpr unsigned int HEU_PDGSession___c__DisplayClass35_0_TypeDefinitionIndex = 41521;
 
 	class HEU_PDGSession___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:
-		::System::Predicate_1<::System::Int32>* __9__0; // 0x10
-		::Il2CppArray<::System::Int32>* allNetworkNodeIds; // 0x18
+		::Il2CppArray<::System::Int32>* allNetworkNodeIds; // 0x10
+		::System::Predicate_1<::System::Int32>* __9__0; // 0x18
 		::System::Int32 idx; // 0x20
 		::System::Void _ctor()
 		{

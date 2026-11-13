@@ -3,10 +3,10 @@
 class PGMFANHDHGG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KHPHINKLGKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB40F410)
-#define KHPHINKLGKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB40F440)
+#define KHPHINKLGKM_CTOR_OFFSET UNITYSDK_OFFSET(0x197A11C0)
+#define KHPHINKLGKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x197A11F0)
 
-inline static constexpr unsigned int KHPHINKLGKM_TypeDefinitionIndex = 53825;
+inline static constexpr unsigned int KHPHINKLGKM_TypeDefinitionIndex = 54989;
 
 	class KHPHINKLGKM
 	{

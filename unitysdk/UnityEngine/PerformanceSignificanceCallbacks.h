@@ -5,9 +5,9 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_PERFORMANCESIGNIFICANCECALLBACKS_ONLARGEOBJECTALLOCED_OFFSET UNITYSDK_OFFSET(0x1F3DCAA0)
-#define UNITYENGINE_PERFORMANCESIGNIFICANCECALLBACKS_ONPARTICLESYSTEMPREWARMHITCH_OFFSET UNITYSDK_OFFSET(0x1F3DCA70)
-#define UNITYENGINE_PERFORMANCESIGNIFICANCECALLBACKS_ONSTATSCOLLECTFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x1F3DCAD0)
+#define UNITYENGINE_PERFORMANCESIGNIFICANCECALLBACKS_ONLARGEOBJECTALLOCED_OFFSET UNITYSDK_OFFSET(0x203DB0F0)
+#define UNITYENGINE_PERFORMANCESIGNIFICANCECALLBACKS_ONPARTICLESYSTEMPREWARMHITCH_OFFSET UNITYSDK_OFFSET(0x203DB0C0)
+#define UNITYENGINE_PERFORMANCESIGNIFICANCECALLBACKS_ONSTATSCOLLECTFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x203DB120)
 
 namespace UnityEngine
 {
@@ -16,19 +16,19 @@ namespace UnityEngine
 	class PerformanceSignificanceCallbacks : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::UnityEngine::GameObject*, ::System::Double>** StaticGet_OnLargeObjectAllocedEvent()
-		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::System::Double>**)UnitySDK::FromName("UnityEngine", "PerformanceSignificanceCallbacks")->GetStaticField(0x125A0);
-		}
-
 		static ::System::Action_2<::UnityEngine::GameObject*, ::System::Double>** StaticGet_OnParticleSystemPrewarmHitchEvent()
 		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::System::Double>**)UnitySDK::FromName("UnityEngine", "PerformanceSignificanceCallbacks")->GetStaticField(0x125A8);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::System::Double>**)UnitySDK::FromName("UnityEngine", "PerformanceSignificanceCallbacks")->GetStaticField(0x10B90);
 		}
 
 		static ::System::Action** StaticGet_OnStatsCollectFrameInfoEvent()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine", "PerformanceSignificanceCallbacks")->GetStaticField(0x125B0);
+			return (::System::Action**)UnitySDK::FromName("UnityEngine", "PerformanceSignificanceCallbacks")->GetStaticField(0x10B98);
+		}
+
+		static ::System::Action_2<::UnityEngine::GameObject*, ::System::Double>** StaticGet_OnLargeObjectAllocedEvent()
+		{
+			return (::System::Action_2<::UnityEngine::GameObject*, ::System::Double>**)UnitySDK::FromName("UnityEngine", "PerformanceSignificanceCallbacks")->GetStaticField(0x10BA0);
 		}
 
 		static ::System::Void OnParticleSystemPrewarmHitch(::UnityEngine::GameObject* a1, ::System::Double a2)

@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int ITextPreprocessor_TypeDefinitionIndex = 44536;
+	inline static constexpr unsigned int ITextPreprocessor_TypeDefinitionIndex = 45611;
 
 	class ITextPreprocessor
 	{

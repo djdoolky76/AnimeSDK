@@ -5,12 +5,12 @@ namespace RPG::Client { class ActivityRewardCountCollection; }
 namespace RPG::Client { class ActivityRewardCountData; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xC59A550)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_GET_REWARDCOUNTS_OFFSET UNITYSDK_OFFSET(0xC59A560)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB8A70)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_DEBUGGERVIEW_GET_REWARDCOUNTS_OFFSET UNITYSDK_OFFSET(0x1DCB8A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardCountCollection_DebuggerView_TypeDefinitionIndex = 61785;
+	inline static constexpr unsigned int ActivityRewardCountCollection_DebuggerView_TypeDefinitionIndex = 63191;
 
 	class ActivityRewardCountCollection_DebuggerView : public ::System::Object
 	{

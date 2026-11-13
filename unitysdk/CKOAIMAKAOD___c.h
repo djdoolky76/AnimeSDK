@@ -5,29 +5,29 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CKOAIMAKAOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD766120)
-#define CKOAIMAKAOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD766150)
-#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_0_OFFSET UNITYSDK_OFFSET(0xD766160)
-#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_1_OFFSET UNITYSDK_OFFSET(0xD766240)
+#define CKOAIMAKAOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD4E660)
+#define CKOAIMAKAOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1AD4E6A0)
+#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1AD4E6B0)
+#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_1_OFFSET UNITYSDK_OFFSET(0x1AD4E790)
 
-inline static constexpr unsigned int CKOAIMAKAOD___c_TypeDefinitionIndex = 52404;
+inline static constexpr unsigned int CKOAIMAKAOD___c_TypeDefinitionIndex = 53510;
 
 	class CKOAIMAKAOD___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__7_1()
+		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__7_0()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45A80);
+			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x300C0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45A88);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x300C8);
 		}
 
-		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__7_0()
+		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__7_1()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45A90);
+			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x300D0);
 		}
 
 		static ::System::Void _cctor()

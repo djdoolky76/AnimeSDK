@@ -6,19 +6,19 @@ class NPGGECBGAAI;
 namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 namespace System { class String; }
 
-#define NPGGECBGAAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D218400)
-#define NPGGECBGAAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D218410)
-#define NPGGECBGAAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2183D0)
+#define NPGGECBGAAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F1580)
+#define NPGGECBGAAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5F1590)
+#define NPGGECBGAAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5F1550)
 
-inline static constexpr unsigned int NPGGECBGAAI_TypeDefinitionIndex = 21512;
+inline static constexpr unsigned int NPGGECBGAAI_TypeDefinitionIndex = 21865;
 
 	class NPGGECBGAAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x18
-		::System::String* KHCGJGHEGOC; // 0x20
+		::System::String* PBCOKCDEACK; // 0x18
+		::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x20
 		::System::String* DFPHHJLDMBG; // 0x28
-		::System::String* PBCOKCDEACK; // 0x30
+		::System::String* KHCGJGHEGOC; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPGGECBGAAI_CTOR_OFFSET))(this);

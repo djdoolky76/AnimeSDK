@@ -4,18 +4,18 @@
 class LILHIEALFOC;
 namespace System { class Object; }
 
-#define LILHIEALFOC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E945050)
-#define LILHIEALFOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E945090)
-#define LILHIEALFOC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9450A0)
+#define LILHIEALFOC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x201CE6A0)
+#define LILHIEALFOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201CE6E0)
+#define LILHIEALFOC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x201CE6F0)
 
-inline static constexpr unsigned int LILHIEALFOC___c_TypeDefinitionIndex = 26183;
+inline static constexpr unsigned int LILHIEALFOC___c_TypeDefinitionIndex = 26710;
 
 	class LILHIEALFOC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x382F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3AF20);
 		}
 
 		static ::System::Void _cctor()

@@ -7,9 +7,9 @@ namespace System::Collections { class Hashtable; }
 namespace System::Collections { class IDictionary; }
 namespace System::Collections { class IList; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A7460)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1C2A7500)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C2A7510)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD7E20)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1DAD7EC0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1DAD7ED0)
 
 namespace System::Runtime::Remoting::Channels
 {
@@ -18,9 +18,9 @@ namespace System::Runtime::Remoting::Channels
 	class SinkProviderData : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* children; // 0x10
+		::System::String* sinkName; // 0x10
 		::System::Collections::Hashtable* properties; // 0x18
-		::System::String* sinkName; // 0x20
+		::System::Collections::ArrayList* children; // 0x20
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_CTOR_OFFSET))(this, a1);

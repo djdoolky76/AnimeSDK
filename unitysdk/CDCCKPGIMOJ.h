@@ -3,10 +3,10 @@
 class DOAPHOAMCDH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CDCCKPGIMOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC75ECD0)
-#define CDCCKPGIMOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC75ED00)
+#define CDCCKPGIMOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x173A9350)
+#define CDCCKPGIMOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173A9380)
 
-inline static constexpr unsigned int CDCCKPGIMOJ_TypeDefinitionIndex = 52802;
+inline static constexpr unsigned int CDCCKPGIMOJ_TypeDefinitionIndex = 53946;
 
 	class CDCCKPGIMOJ
 	{

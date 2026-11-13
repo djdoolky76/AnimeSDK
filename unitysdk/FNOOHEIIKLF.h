@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckFightFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNOOHEIIKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x158852B0)
-#define FNOOHEIIKLF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158852E0)
+#define FNOOHEIIKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x17F39AC0)
+#define FNOOHEIIKLF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17F39AF0)
 
-inline static constexpr unsigned int FNOOHEIIKLF_TypeDefinitionIndex = 54498;
+inline static constexpr unsigned int FNOOHEIIKLF_TypeDefinitionIndex = 55662;
 
 	class FNOOHEIIKLF
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MarkAwardTargetUsed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EHOKNKBHALG_CTOR_OFFSET UNITYSDK_OFFSET(0x154AED00)
-#define EHOKNKBHALG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154AED30)
+#define EHOKNKBHALG_CTOR_OFFSET UNITYSDK_OFFSET(0x18BDF950)
+#define EHOKNKBHALG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BDF980)
 
-inline static constexpr unsigned int EHOKNKBHALG_TypeDefinitionIndex = 58208;
+inline static constexpr unsigned int EHOKNKBHALG_TypeDefinitionIndex = 59464;
 
 	class EHOKNKBHALG
 	{

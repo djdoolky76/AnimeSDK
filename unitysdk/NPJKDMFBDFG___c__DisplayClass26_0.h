@@ -4,10 +4,10 @@
 namespace EnviromentSystemV2Space { class EnvProfileV2; }
 namespace System { class String; }
 
-#define NPJKDMFBDFG___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFD220)
-#define NPJKDMFBDFG___C__DISPLAYCLASS26_0__LOADPROFILE_B__0_OFFSET UNITYSDK_OFFSET(0xBD04B00)
+#define NPJKDMFBDFG___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19CFF680)
+#define NPJKDMFBDFG___C__DISPLAYCLASS26_0__LOADPROFILE_B__0_OFFSET UNITYSDK_OFFSET(0x19D06FE0)
 
-inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass26_0_TypeDefinitionIndex = 49430;
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass26_0_TypeDefinitionIndex = 50506;
 
 	class NPJKDMFBDFG___c__DisplayClass26_0 : public ::System::Object
 	{

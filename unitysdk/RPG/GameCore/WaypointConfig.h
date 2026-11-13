@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class WaypointConfig; }
 
-#define RPG_GAMECORE_WAYPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC78720)
-#define RPG_GAMECORE_WAYPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC78660)
+#define RPG_GAMECORE_WAYPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x20806090)
+#define RPG_GAMECORE_WAYPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x20805FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaypointConfig_TypeDefinitionIndex = 17491;
+	inline static constexpr unsigned int WaypointConfig_TypeDefinitionIndex = 17659;
 
 	class WaypointConfig : public ::RPG::GameCore::JsonConfig
 	{

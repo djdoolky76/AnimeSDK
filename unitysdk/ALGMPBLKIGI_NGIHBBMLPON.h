@@ -4,9 +4,9 @@
 class EANKAFJCEEH;
 namespace RPG::GameCore { class BattleInstance; }
 
-#define ALGMPBLKIGI_NGIHBBMLPON_CTOR_OFFSET UNITYSDK_OFFSET(0x1555E4F0)
+#define ALGMPBLKIGI_NGIHBBMLPON_CTOR_OFFSET UNITYSDK_OFFSET(0x197C2980)
 
-inline static constexpr unsigned int ALGMPBLKIGI_NGIHBBMLPON_TypeDefinitionIndex = 71877;
+inline static constexpr unsigned int ALGMPBLKIGI_NGIHBBMLPON_TypeDefinitionIndex = 73898;
 
 	class ALGMPBLKIGI_NGIHBBMLPON : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBattleEndReason; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOLGIANJMNM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2DA70)
-#define MOLGIANJMNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA2DAA0)
+#define MOLGIANJMNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B21AC50)
+#define MOLGIANJMNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B21AC80)
 
-inline static constexpr unsigned int MOLGIANJMNM_TypeDefinitionIndex = 55351;
+inline static constexpr unsigned int MOLGIANJMNM_TypeDefinitionIndex = 56534;
 
 	class MOLGIANJMNM
 	{

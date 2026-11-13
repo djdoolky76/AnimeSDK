@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/PingPong/ProjectileOwnerType.h"
 #include "unitysdk/System/Object.h"
 
-#define APLNICFBMGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C87ED10)
+#define APLNICFBMGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A94C0)
 
-inline static constexpr unsigned int APLNICFBMGA_TypeDefinitionIndex = 42979;
+inline static constexpr unsigned int APLNICFBMGA_TypeDefinitionIndex = 43960;
 
 	class APLNICFBMGA : public ::System::Object
 	{

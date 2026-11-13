@@ -4,10 +4,10 @@
 class AFIKKAEOGFF;
 namespace RPG::GameCore { class FiveDimGravitySwitchLineConfig; }
 
-#define NCGGJCFDLBJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9155E0)
-#define NCGGJCFDLBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C915670)
+#define NCGGJCFDLBJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C27AC60)
+#define NCGGJCFDLBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27ACD0)
 
-inline static constexpr unsigned int NCGGJCFDLBJ_TypeDefinitionIndex = 43508;
+inline static constexpr unsigned int NCGGJCFDLBJ_TypeDefinitionIndex = 44490;
 
 	class NCGGJCFDLBJ : public ::System::Object
 	{

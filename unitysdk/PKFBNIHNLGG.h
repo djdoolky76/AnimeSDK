@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define PKFBNIHNLGG_CCTOR_OFFSET UNITYSDK_OFFSET(0xC2AD320)
-#define PKFBNIHNLGG_FJGGODFCDCJ_OFFSET UNITYSDK_OFFSET(0xDE750)
-#define PKFBNIHNLGG_KFPKDOLMMNC_OFFSET UNITYSDK_OFFSET(0xDE700)
+#define PKFBNIHNLGG_CCTOR_OFFSET UNITYSDK_OFFSET(0x147B89A0)
+#define PKFBNIHNLGG_FJGGODFCDCJ_OFFSET UNITYSDK_OFFSET(0x3DAF610)
+#define PKFBNIHNLGG_KFPKDOLMMNC_OFFSET UNITYSDK_OFFSET(0x3DAF5C0)
 
-inline static constexpr unsigned int PKFBNIHNLGG_TypeDefinitionIndex = 59006;
+inline static constexpr unsigned int PKFBNIHNLGG_TypeDefinitionIndex = 60279;
 
 	struct alignas(4) PKFBNIHNLGG
 	{
@@ -19,7 +19,7 @@ inline static constexpr unsigned int PKFBNIHNLGG_TypeDefinitionIndex = 59006;
 		::PKFBNIHNLGG__PropertyRawValues_e__FixedBuffer PDPFAANPNGG; // 0x18
 		static ::Il2CppArray<::RPG::GameCore::AbilityProperty>** StaticGet_FPECNMCINKN()
 		{
-			return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)UnitySDK::FromName("", "PKFBNIHNLGG")->GetStaticField(0x54D10);
+			return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)UnitySDK::FromName("", "PKFBNIHNLGG")->GetStaticField(0x68250);
 		}
 
 		// static const ::System::Object AIBKIIGHLBM; // 0x0

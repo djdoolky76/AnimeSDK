@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PS_LOGINMANAGER___C__DISPLAYCLASS33_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2C670)
-#define MIHOYO_SDK_PS_LOGINMANAGER___C__DISPLAYCLASS33_1__ONPS4LOGINCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1BF2D0D0)
+#define MIHOYO_SDK_PS_LOGINMANAGER___C__DISPLAYCLASS33_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA8C00)
+#define MIHOYO_SDK_PS_LOGINMANAGER___C__DISPLAYCLASS33_1__ONPS4LOGINCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1BFA9660)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass33_1_TypeDefinitionIndex = 8911;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass33_1_TypeDefinitionIndex = 8920;
 
 	template <typename T>
 	class LoginManager___c__DisplayClass33_1 : public ::System::Object

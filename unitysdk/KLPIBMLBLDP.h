@@ -6,11 +6,11 @@
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define KLPIBMLBLDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6EDBF0)
-#define KLPIBMLBLDP_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6ED720)
-#define KLPIBMLBLDP_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6ED650)
+#define KLPIBMLBLDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ABFD4C0)
+#define KLPIBMLBLDP_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1ABFCFF0)
+#define KLPIBMLBLDP_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1ABFCF20)
 
-inline static constexpr unsigned int KLPIBMLBLDP_TypeDefinitionIndex = 37204;
+inline static constexpr unsigned int KLPIBMLBLDP_TypeDefinitionIndex = 38132;
 
 	class KLPIBMLBLDP : public ::System::Object
 	{

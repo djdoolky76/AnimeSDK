@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityExpeditionGroupRow; }
 
-#define RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32F4D0)
-#define RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D32F350)
+#define RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E50C710)
+#define RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E50C590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityExpeditionGroupRow_TypeDefinitionIndex = 11457;
+	inline static constexpr unsigned int ActivityExpeditionGroupRow_TypeDefinitionIndex = 11508;
 
 	class ActivityExpeditionGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ExpeditionIdList; // 0x10
-		::System::UInt32 GroupID; // 0x18
-		::System::UInt32 ActivityModuleID; // 0x1C
+		::System::UInt32 ActivityModuleID; // 0x18
+		::System::UInt32 GroupID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW_CTOR_OFFSET))(this);

@@ -7,41 +7,41 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define AEBOGHAOMGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB14A7A0)
-#define AEBOGHAOMGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB14A7D0)
-#define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB14A7E0)
-#define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_1_OFFSET UNITYSDK_OFFSET(0xB14AB50)
-#define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_2_OFFSET UNITYSDK_OFFSET(0xB14AC10)
-#define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_3_OFFSET UNITYSDK_OFFSET(0xB14AC40)
+#define AEBOGHAOMGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x182BA620)
+#define AEBOGHAOMGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x182BA650)
+#define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_0_OFFSET UNITYSDK_OFFSET(0x182BA660)
+#define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_1_OFFSET UNITYSDK_OFFSET(0x182BA9D0)
+#define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_2_OFFSET UNITYSDK_OFFSET(0x182BAA90)
+#define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_3_OFFSET UNITYSDK_OFFSET(0x182BAAC0)
 
-inline static constexpr unsigned int AEBOGHAOMGP___c_TypeDefinitionIndex = 67239;
+inline static constexpr unsigned int AEBOGHAOMGP___c_TypeDefinitionIndex = 69183;
 
 	class AEBOGHAOMGP___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x472F0);
-		}
-
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x472F8);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44D00);
 		}
 
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>** StaticGet___9__1_3()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47300);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44D08);
 		}
 
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__1_1()
+		static ::System::Func_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47308);
+			return (::System::Func_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44D10);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47310);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44D18);
+		}
+
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__1_1()
+		{
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44D20);
 		}
 
 		static ::System::Void _cctor()

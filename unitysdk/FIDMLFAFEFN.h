@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define FIDMLFAFEFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15797750)
+#define FIDMLFAFEFN_CTOR_OFFSET UNITYSDK_OFFSET(0x19800D90)
 
-inline static constexpr unsigned int FIDMLFAFEFN_TypeDefinitionIndex = 73660;
+inline static constexpr unsigned int FIDMLFAFEFN_TypeDefinitionIndex = 75783;
 
 	class FIDMLFAFEFN : public ::System::Attribute
 	{

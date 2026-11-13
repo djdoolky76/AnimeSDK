@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_DEVACCOUNTMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE9790)
-#define RPG_CLIENT_DEVACCOUNTMODEL_ISACCOUNTUIDVALID_OFFSET UNITYSDK_OFFSET(0xCBE9800)
-#define RPG_CLIENT_DEVACCOUNTMODEL_ISUIDVALID_OFFSET UNITYSDK_OFFSET(0xCBE97B0)
+#define RPG_CLIENT_DEVACCOUNTMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B806480)
+#define RPG_CLIENT_DEVACCOUNTMODEL_ISACCOUNTUIDVALID_OFFSET UNITYSDK_OFFSET(0x1B8064F0)
+#define RPG_CLIENT_DEVACCOUNTMODEL_ISUIDVALID_OFFSET UNITYSDK_OFFSET(0x1B8064A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DevAccountModel_TypeDefinitionIndex = 61076;
+	inline static constexpr unsigned int DevAccountModel_TypeDefinitionIndex = 62461;
 
 	class DevAccountModel : public ::System::Object
 	{

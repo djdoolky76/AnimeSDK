@@ -7,12 +7,12 @@ namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace RPGTools::Timeline::Emotion { class EmoBlendShapeParam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DFAE0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8DF9F0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9007A0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1D9006B0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeAutoBlinkBehaviour_TypeDefinitionIndex = 48730;
+	inline static constexpr unsigned int EmoBlendShapeAutoBlinkBehaviour_TypeDefinitionIndex = 49776;
 
 	class EmoBlendShapeAutoBlinkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

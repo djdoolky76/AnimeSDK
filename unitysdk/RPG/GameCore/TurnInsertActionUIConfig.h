@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionBarUIConfig; }
 namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 
-#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC37F60)
-#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC37E40)
+#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3411A0)
+#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E341080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertActionUIConfig_TypeDefinitionIndex = 22659;
+	inline static constexpr unsigned int TurnInsertActionUIConfig_TypeDefinitionIndex = 23081;
 
 	class TurnInsertActionUIConfig : public ::RPG::GameCore::JsonConfig
 	{

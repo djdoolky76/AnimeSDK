@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class MapRotationVolumeEffectTransitPoint; }
 
-#define RPG_GAMECORE_MAPROTATIONVOLUMEEFFECTTRANSITPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D802E50)
-#define RPG_GAMECORE_MAPROTATIONVOLUMEEFFECTTRANSITPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D802D90)
+#define RPG_GAMECORE_MAPROTATIONVOLUMEEFFECTTRANSITPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08CF10)
+#define RPG_GAMECORE_MAPROTATIONVOLUMEEFFECTTRANSITPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F08CE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationVolumeEffectTransitPoint_TypeDefinitionIndex = 22304;
+	inline static constexpr unsigned int MapRotationVolumeEffectTransitPoint_TypeDefinitionIndex = 22709;
 
 	class MapRotationVolumeEffectTransitPoint : public ::RPG::GameCore::JsonConfig
 	{

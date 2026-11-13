@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BFINOGCFBMJ.h"
 
-#define PEMEKELOIFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC1EC2F0)
+#define PEMEKELOIFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x145408A0)
 
-inline static constexpr unsigned int PEMEKELOIFJ_TypeDefinitionIndex = 54321;
+inline static constexpr unsigned int PEMEKELOIFJ_TypeDefinitionIndex = 55485;
 
 	class PEMEKELOIFJ : public ::BFINOGCFBMJ
 	{

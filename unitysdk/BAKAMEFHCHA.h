@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class KPILLBAALJO;
 
-#define BAKAMEFHCHA_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0x15E64250)
+#define BAKAMEFHCHA_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0x199DC0E0)
 
-inline static constexpr unsigned int BAKAMEFHCHA_TypeDefinitionIndex = 77295;
+inline static constexpr unsigned int BAKAMEFHCHA_TypeDefinitionIndex = 79629;
 
 	class BAKAMEFHCHA : public ::System::Object
 	{

@@ -4,9 +4,9 @@
 class FABMDCOFHCG;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define GGAJMBMDHBP_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x2E7C720)
+#define GGAJMBMDHBP_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x3E73B30)
 
-inline static constexpr unsigned int GGAJMBMDHBP_TypeDefinitionIndex = 56239;
+inline static constexpr unsigned int GGAJMBMDHBP_TypeDefinitionIndex = 57451;
 
 	struct alignas(8) GGAJMBMDHBP
 	{

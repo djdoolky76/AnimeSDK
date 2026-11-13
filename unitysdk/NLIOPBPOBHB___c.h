@@ -4,18 +4,18 @@
 class NLIOPBPOBHB;
 namespace System { class Object; }
 
-#define NLIOPBPOBHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB38D10)
-#define NLIOPBPOBHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB38D40)
-#define NLIOPBPOBHB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB38D50)
+#define NLIOPBPOBHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA293A0)
+#define NLIOPBPOBHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA293D0)
+#define NLIOPBPOBHB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FA293E0)
 
-inline static constexpr unsigned int NLIOPBPOBHB___c_TypeDefinitionIndex = 33699;
+inline static constexpr unsigned int NLIOPBPOBHB___c_TypeDefinitionIndex = 34614;
 
 	class NLIOPBPOBHB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69E40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68B40);
 		}
 
 		static ::System::Void _cctor()

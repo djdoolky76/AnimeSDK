@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicValueRangeCallback; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_DYNAMICVALUERANGECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FEF50)
-#define RPG_GAMECORE_DYNAMICVALUERANGECALLBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FEAC0)
+#define RPG_GAMECORE_DYNAMICVALUERANGECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D5F50)
+#define RPG_GAMECORE_DYNAMICVALUERANGECALLBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1F0D5AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValueRangeCallback_TypeDefinitionIndex = 18228;
+	inline static constexpr unsigned int DynamicValueRangeCallback_TypeDefinitionIndex = 18390;
 
 	class DynamicValueRangeCallback : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityPropertyChangeReason_TypeDefinitionIndex = 10480;
+	inline static constexpr unsigned int AbilityPropertyChangeReason_TypeDefinitionIndex = 10491;
 
 	enum class AbilityPropertyChangeReason : ::System::Int32
 	{
@@ -19,9 +19,11 @@ namespace RPG::GameCore
 		ByUseSkillAdd = 9,
 		ByDealDamage = 10,
 		ByBeingDamage = 11,
-		ByDealHeal = 12,
+		Heal = 12,
 		ByModifySPTask = 13,
 		ReduceStanceRatioTask = 14,
-		ByDebugCommand = 15,
+		DirtyHPDamage = 15,
+		DirtyHPHeal = 16,
+		ByDebugCommand = 17,
 	};
 }

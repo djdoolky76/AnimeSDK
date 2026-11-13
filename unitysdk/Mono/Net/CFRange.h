@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define MONO_NET_CFRANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C5A4C0)
+#define MONO_NET_CFRANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x3F05B50)
 
 namespace Mono::Net
 {

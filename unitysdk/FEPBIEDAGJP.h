@@ -11,41 +11,40 @@ namespace RPG::Client { class CameraModuleConfigCollection; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
-#define FEPBIEDAGJP_CTOR_OFFSET UNITYSDK_OFFSET(0x15722190)
-#define FEPBIEDAGJP_GEBOAKHIBEB_OFFSET UNITYSDK_OFFSET(0x15723270)
-#define FEPBIEDAGJP_GGOHBJAEPNI_OFFSET UNITYSDK_OFFSET(0x15722FD0)
-#define FEPBIEDAGJP_KDOLFINHMOA_OFFSET UNITYSDK_OFFSET(0x157233B0)
-#define FEPBIEDAGJP_KFOPKEFOHFE_OFFSET UNITYSDK_OFFSET(0x15722450)
-#define FEPBIEDAGJP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15722300)
-#define FEPBIEDAGJP_MBHEIIKNABL_OFFSET UNITYSDK_OFFSET(0x15722F00)
-#define FEPBIEDAGJP_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0x157223E0)
-#define FEPBIEDAGJP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x157231C0)
+#define FEPBIEDAGJP_CTOR_OFFSET UNITYSDK_OFFSET(0x130D2790)
+#define FEPBIEDAGJP_GEBOAKHIBEB_OFFSET UNITYSDK_OFFSET(0x130D3860)
+#define FEPBIEDAGJP_GGOHBJAEPNI_OFFSET UNITYSDK_OFFSET(0x130D35C0)
+#define FEPBIEDAGJP_KDOLFINHMOA_OFFSET UNITYSDK_OFFSET(0x130D39A0)
+#define FEPBIEDAGJP_KFOPKEFOHFE_OFFSET UNITYSDK_OFFSET(0x130D2A40)
+#define FEPBIEDAGJP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x130D28F0)
+#define FEPBIEDAGJP_MBHEIIKNABL_OFFSET UNITYSDK_OFFSET(0x130D34F0)
+#define FEPBIEDAGJP_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0x130D29D0)
+#define FEPBIEDAGJP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x130D37B0)
 
-inline static constexpr unsigned int FEPBIEDAGJP_TypeDefinitionIndex = 69635;
+inline static constexpr unsigned int FEPBIEDAGJP_TypeDefinitionIndex = 71592;
 
 	class FEPBIEDAGJP : public ::MDILEMALGNC
 	{
 	public:
-		::RPG::Client::CameraBlendCurve* DGFHHPMPAHI; // 0x38
-		::OMJJNKHHKPG* KGIIAFKDLPD; // 0x40
+		::OMJJNKHHKPG* KGIIAFKDLPD; // 0x38
+		::RPG::Client::CameraBlendCurve* DGFHHPMPAHI; // 0x40
 		::RPG::Client::CameraBlendCurve* KJJOCBMBEHE; // 0x48
-		::System::Single PGMIOKKLHIE; // 0x50
-		::UnityEngine::Matrix4x4 OPMOGGALLPG; // 0x54
-		::System::Single BALGFJDINGK; // 0x94
-		::System::Single DBPIIKMFPEB; // 0x98
-		::RPG::Client::VCameraChangeDataState DNKMCBJLAGG; // 0x9C
-		::System::Single JFKGPGHOCIP; // 0xA0
-		::System::Single EKCHCNIINGF; // 0xA4
-		::RPG::Client::VCameraChangeDataState CFIKPOFNONJ; // 0xA8
-		::System::Single DEHHNEPJBBK; // 0xAC
-		::UnityEngine::Matrix4x4 GNGGKLEECHC; // 0xB0
-		::System::Single GHABAAOGBNO; // 0xF0
-		::System::Boolean BNFBHGLKPLP; // 0xF4
-		::System::Boolean EGKIAEIAMGM; // 0xF5
-		::System::Byte _padding0[0x2];
+		::System::Single BALGFJDINGK; // 0x50
+		::RPG::Client::VCameraChangeDataState DNKMCBJLAGG; // 0x54
+		::System::Single NLMAMDMLOGM; // 0x58
+		::UnityEngine::Matrix4x4 OPMOGGALLPG; // 0x5C
+		::RPG::Client::VCameraChangeDataState CFIKPOFNONJ; // 0x9C
+		::System::Single PGMIOKKLHIE; // 0xA0
+		::System::Single JFKGPGHOCIP; // 0xA4
+		::System::Single EKCHCNIINGF; // 0xA8
+		::System::Single KKHBNPPDKKL; // 0xAC
+		::System::Single DEHHNEPJBBK; // 0xB0
+		::System::Single DBPIIKMFPEB; // 0xB4
+		::UnityEngine::Matrix4x4 GNGGKLEECHC; // 0xB8
 		::System::Single GBPLPJPGMDG; // 0xF8
-		::System::Single KKHBNPPDKKL; // 0xFC
-		::System::Single NLMAMDMLOGM; // 0x100
+		::System::Single GHABAAOGBNO; // 0xFC
+		::System::Boolean BNFBHGLKPLP; // 0x100
+		::System::Boolean EGKIAEIAMGM; // 0x101
 		::System::Void _ctor(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraModuleConfigCollection* a2, ::RPG::Client::PipelineCameraGlobalConfig* a3, ::RPG::Client::CameraDataAndFlags* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraModuleConfigCollection*, ::RPG::Client::PipelineCameraGlobalConfig*, ::RPG::Client::CameraDataAndFlags*))((::PBYTE)hIl2Cpp + FEPBIEDAGJP_CTOR_OFFSET))(this, a1, a2, a3, a4);

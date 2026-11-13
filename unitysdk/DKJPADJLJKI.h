@@ -4,22 +4,22 @@
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define DKJPADJLJKI_CTOR_OFFSET UNITYSDK_OFFSET(0xF883110)
-#define DKJPADJLJKI_DKKJNPPHDPM_OFFSET UNITYSDK_OFFSET(0xF882F50)
-#define DKJPADJLJKI_HCOIAPLKJPG_OFFSET UNITYSDK_OFFSET(0xF883080)
-#define DKJPADJLJKI_IDMOBNIGBDP_OFFSET UNITYSDK_OFFSET(0xF882FD0)
-#define DKJPADJLJKI_PLBBBPJGBMH_OFFSET UNITYSDK_OFFSET(0xF882EA0)
-#define DKJPADJLJKI__ONBIND_OFFSET UNITYSDK_OFFSET(0xF882D10)
+#define DKJPADJLJKI_CTOR_OFFSET UNITYSDK_OFFSET(0x18C212D0)
+#define DKJPADJLJKI_DKKJNPPHDPM_OFFSET UNITYSDK_OFFSET(0x18C21110)
+#define DKJPADJLJKI_HCOIAPLKJPG_OFFSET UNITYSDK_OFFSET(0x18C21240)
+#define DKJPADJLJKI_IDMOBNIGBDP_OFFSET UNITYSDK_OFFSET(0x18C21190)
+#define DKJPADJLJKI_PLBBBPJGBMH_OFFSET UNITYSDK_OFFSET(0x18C21060)
+#define DKJPADJLJKI__ONBIND_OFFSET UNITYSDK_OFFSET(0x18C20E70)
 
-inline static constexpr unsigned int DKJPADJLJKI_TypeDefinitionIndex = 71992;
+inline static constexpr unsigned int DKJPADJLJKI_TypeDefinitionIndex = 74021;
 
 	class DKJPADJLJKI : public ::FMPCODLIOLG
 	{
 	public:
 		::UnityEngine::Transform* CDJGLKECPHI; // 0x60
-		::UnityEngine::Animation* JPHOOFFIAAH; // 0x68
-		::UnityEngine::Transform* FIACEDOMPEA; // 0x70
-		::UnityEngine::Transform* GHGAKNDLKGM; // 0x78
+		::UnityEngine::Transform* FIACEDOMPEA; // 0x68
+		::UnityEngine::Transform* GHGAKNDLKGM; // 0x70
+		::UnityEngine::Animation* JPHOOFFIAAH; // 0x78
 		// static const ::System::String* CMAAILAJKLG; // 0x0
 		// static const ::System::String* DGNLNMNPMGI; // 0x0
 		// static const ::System::String* ENFHEKDIEEN; // 0x0

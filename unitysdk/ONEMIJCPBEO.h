@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ONEMIJCPBEO_BNAEHOCIGGG_OFFSET UNITYSDK_OFFSET(0xBF49C10)
-#define ONEMIJCPBEO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF49D10)
-#define ONEMIJCPBEO_EKMPDLILAGK_OFFSET UNITYSDK_OFFSET(0xBF49B90)
-#define ONEMIJCPBEO_IJKKJGNGHNC_OFFSET UNITYSDK_OFFSET(0xBF49CC0)
-#define ONEMIJCPBEO_JGGEPNNADOO_OFFSET UNITYSDK_OFFSET(0xBF49C00)
-#define ONEMIJCPBEO_LCIJNBGNABG_OFFSET UNITYSDK_OFFSET(0xBF49C70)
-#define ONEMIJCPBEO_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0xBF49B80)
+#define ONEMIJCPBEO_BNAEHOCIGGG_OFFSET UNITYSDK_OFFSET(0x17D78EF0)
+#define ONEMIJCPBEO_CTOR_OFFSET UNITYSDK_OFFSET(0x17D78FF0)
+#define ONEMIJCPBEO_EKMPDLILAGK_OFFSET UNITYSDK_OFFSET(0x17D78E70)
+#define ONEMIJCPBEO_IJKKJGNGHNC_OFFSET UNITYSDK_OFFSET(0x17D78FA0)
+#define ONEMIJCPBEO_JGGEPNNADOO_OFFSET UNITYSDK_OFFSET(0x17D78EE0)
+#define ONEMIJCPBEO_LCIJNBGNABG_OFFSET UNITYSDK_OFFSET(0x17D78F50)
+#define ONEMIJCPBEO_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0x17D78E60)
 
-inline static constexpr unsigned int ONEMIJCPBEO_TypeDefinitionIndex = 49121;
+inline static constexpr unsigned int ONEMIJCPBEO_TypeDefinitionIndex = 50197;
 
 	class ONEMIJCPBEO : public ::System::Object
 	{
 	public:
-		::System::Single HBMCBCNLHCK; // 0x10
-		::System::Int32 MAHFJJMKBMD; // 0x14
-		::System::Single FOFNHNJJPCL; // 0x18
-		::System::Single HJMKPJNKOEF; // 0x1C
-		::System::Single FLJGBFNPAEI; // 0x20
-		::System::Int32 IGCDCFGJMCL; // 0x24
-		::System::Int32 CJGOBPIKNMO; // 0x28
+		::System::Int32 IGCDCFGJMCL; // 0x10
+		::System::Int32 CJGOBPIKNMO; // 0x14
+		::System::Single FLJGBFNPAEI; // 0x18
+		::System::Single FOFNHNJJPCL; // 0x1C
+		::System::Single HBMCBCNLHCK; // 0x20
+		::System::Single DNEAPBILMFH; // 0x24
+		::System::Int32 MAHFJJMKBMD; // 0x28
 		::System::Boolean NLGLAJFFIEH; // 0x2C
 		::System::Boolean GOLPOPGEFNA; // 0x2D
 		::System::Boolean ODLCMPKIAGE; // 0x2E
 		::System::Byte _padding0[0x1];
-		::System::Single DNEAPBILMFH; // 0x30
+		::System::Single HJMKPJNKOEF; // 0x30
 		static ::System::Int32* StaticGet_FMLJMOCHKNN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "ONEMIJCPBEO")->GetStaticField(0x145C0);
+			return (::System::Int32*)UnitySDK::FromName("", "ONEMIJCPBEO")->GetStaticField(0x146B0);
 		}
 
 		::System::Void _ctor()

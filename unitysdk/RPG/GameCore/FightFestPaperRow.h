@@ -6,30 +6,30 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FightFestPaperRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTPAPERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D676940)
-#define RPG_GAMECORE_FIGHTFESTPAPERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D676350)
+#define RPG_GAMECORE_FIGHTFESTPAPERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC9C010)
+#define RPG_GAMECORE_FIGHTFESTPAPERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1FC9BA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestPaperRow_TypeDefinitionIndex = 13288;
+	inline static constexpr unsigned int FightFestPaperRow_TypeDefinitionIndex = 13360;
 
 	class FightFestPaperRow : public ::System::Object
 	{
 	public:
-		::System::String* GameAdFigurePath; // 0x10
-		::Il2CppArray<::System::String*>* MainFgPathList; // 0x18
+		::Il2CppArray<::System::String*>* MainFgPathList; // 0x10
+		::System::String* CollectionBgPath; // 0x18
 		::Il2CppArray<::System::String*>* MainBgPathList; // 0x20
-		::System::String* CollectionFgPath; // 0x28
-		::System::String* InterviewBgPath; // 0x30
-		::System::String* InterviewFgPath; // 0x38
-		::System::String* CollectionBgPath; // 0x40
-		::RPG::Client::TextID MainPageDesc; // 0x48
-		::RPG::Client::TextID IssueNumberText; // 0x58
-		::RPG::Client::TextID MainPageTitle; // 0x68
-		::RPG::Client::TextID IssueNumber; // 0x78
-		::RPG::Client::TextID GameAdDesc; // 0x88
-		::System::UInt32 UnlockSubMissionID; // 0x98
-		::System::UInt32 PaperID; // 0x9C
+		::System::String* InterviewBgPath; // 0x28
+		::System::String* CollectionFgPath; // 0x30
+		::System::String* GameAdFigurePath; // 0x38
+		::System::String* InterviewFgPath; // 0x40
+		::RPG::Client::TextID IssueNumberText; // 0x48
+		::RPG::Client::TextID MainPageDesc; // 0x58
+		::RPG::Client::TextID IssueNumber; // 0x68
+		::System::UInt32 UnlockSubMissionID; // 0x78
+		::System::UInt32 PaperID; // 0x7C
+		::RPG::Client::TextID MainPageTitle; // 0x80
+		::RPG::Client::TextID GameAdDesc; // 0x90
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTPAPERROW_CTOR_OFFSET))(this);

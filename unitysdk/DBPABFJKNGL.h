@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DBPABFJKNGL_TypeDefinitionIndex = 81794;
+inline static constexpr unsigned int DBPABFJKNGL_TypeDefinitionIndex = 84575;
 
 	class DBPABFJKNGL
 	{

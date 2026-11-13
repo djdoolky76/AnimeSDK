@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MDIDLONHHLB_TypeDefinitionIndex = 57830;
+inline static constexpr unsigned int MDIDLONHHLB_TypeDefinitionIndex = 59067;
 
 	class MDIDLONHHLB
 	{

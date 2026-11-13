@@ -8,12 +8,12 @@ namespace SuperScrollView { class LoopGridViewItem; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5FC310)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL___C__DISPLAYCLASS19_0___REFRESHMOLDS_B__0_OFFSET UNITYSDK_OFFSET(0xD5FC870)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D2950)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL___C__DISPLAYCLASS19_0___REFRESHMOLDS_B__0_OFFSET UNITYSDK_OFFSET(0x1C6D2EB0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftChipMoldBankControl___c__DisplayClass19_0_TypeDefinitionIndex = 79854;
+	inline static constexpr unsigned int MechCraftCraftChipMoldBankControl___c__DisplayClass19_0_TypeDefinitionIndex = 82631;
 
 	class MechCraftCraftChipMoldBankControl___c__DisplayClass19_0 : public ::System::Object
 	{

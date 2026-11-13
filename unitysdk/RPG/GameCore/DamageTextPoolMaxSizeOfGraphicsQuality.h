@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DamageTextMobilePoolConfig; }
 namespace RPG::GameCore { class DamageTextPoolMaxSizeOfGraphicsQuality; }
 
-#define RPG_GAMECORE_DAMAGETEXTPOOLMAXSIZEOFGRAPHICSQUALITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C4DA0)
-#define RPG_GAMECORE_DAMAGETEXTPOOLMAXSIZEOFGRAPHICSQUALITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C4CE0)
+#define RPG_GAMECORE_DAMAGETEXTPOOLMAXSIZEOFGRAPHICSQUALITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFFE190)
+#define RPG_GAMECORE_DAMAGETEXTPOOLMAXSIZEOFGRAPHICSQUALITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EFFE0D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageTextPoolMaxSizeOfGraphicsQuality_TypeDefinitionIndex = 17142;
+	inline static constexpr unsigned int DamageTextPoolMaxSizeOfGraphicsQuality_TypeDefinitionIndex = 17309;
 
 	class DamageTextPoolMaxSizeOfGraphicsQuality : public ::RPG::GameCore::JsonConfig
 	{

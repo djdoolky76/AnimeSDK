@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StackAIUpperGroupForSpecified; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CBBLJFGGDBD_CTOR_OFFSET UNITYSDK_OFFSET(0xC4976A0)
-#define CBBLJFGGDBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4976D0)
+#define CBBLJFGGDBD_CTOR_OFFSET UNITYSDK_OFFSET(0x18FD47B0)
+#define CBBLJFGGDBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FD47E0)
 
-inline static constexpr unsigned int CBBLJFGGDBD_TypeDefinitionIndex = 47614;
+inline static constexpr unsigned int CBBLJFGGDBD_TypeDefinitionIndex = 48643;
 
 	class CBBLJFGGDBD
 	{

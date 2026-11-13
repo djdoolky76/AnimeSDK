@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/SDFSectorCoord.h"
 
-#define UNITYENGINE_SDFUTILS_GETSECTORCOORDHASH_OFFSET UNITYSDK_OFFSET(0x1F3FCA40)
+#define UNITYENGINE_SDFUTILS_GETSECTORCOORDHASH_OFFSET UNITYSDK_OFFSET(0x1F52D6B0)
 
 namespace UnityEngine
 {

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class RtBattleVCameraConfigChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ECKNFOACLIB_CTOR_OFFSET UNITYSDK_OFFSET(0x12D0DD40)
-#define ECKNFOACLIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12D0DD60)
+#define ECKNFOACLIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3DD500)
+#define ECKNFOACLIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C3DD520)
 
-inline static constexpr unsigned int ECKNFOACLIB_TypeDefinitionIndex = 54159;
+inline static constexpr unsigned int ECKNFOACLIB_TypeDefinitionIndex = 55323;
 
 	class ECKNFOACLIB : public ::FGAOFFOELCH
 	{

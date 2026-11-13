@@ -6,12 +6,12 @@ class BICALEAAKEL;
 namespace RPG::Client { class RogueTournModule; }
 namespace RPG::Client { template <typename T> class RPGHttpPlatformActResponse_1; }
 
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDFF71D0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS40_0__SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0xE006FA0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEBE2F0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS40_0__SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0x1CECE060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournModule___c__DisplayClass40_0_TypeDefinitionIndex = 67802;
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass40_0_TypeDefinitionIndex = 69747;
 
 	class RogueTournModule___c__DisplayClass40_0 : public ::System::Object
 	{

@@ -5,21 +5,21 @@ namespace Entitas { class IEntity; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define ENTITAS_SAFEAERC_CTOR_OFFSET UNITYSDK_OFFSET(0x1674B640)
-#define ENTITAS_SAFEAERC_GET_OWNERS_OFFSET UNITYSDK_OFFSET(0x1674DF20)
-#define ENTITAS_SAFEAERC_GET_RETAINCOUNT_OFFSET UNITYSDK_OFFSET(0x1674DF00)
-#define ENTITAS_SAFEAERC_RELEASE_OFFSET UNITYSDK_OFFSET(0x1674DFC0)
-#define ENTITAS_SAFEAERC_RETAIN_OFFSET UNITYSDK_OFFSET(0x1674DF30)
+#define ENTITAS_SAFEAERC_CTOR_OFFSET UNITYSDK_OFFSET(0x208528E0)
+#define ENTITAS_SAFEAERC_GET_OWNERS_OFFSET UNITYSDK_OFFSET(0x208551B0)
+#define ENTITAS_SAFEAERC_GET_RETAINCOUNT_OFFSET UNITYSDK_OFFSET(0x20855190)
+#define ENTITAS_SAFEAERC_RELEASE_OFFSET UNITYSDK_OFFSET(0x20855250)
+#define ENTITAS_SAFEAERC_RETAIN_OFFSET UNITYSDK_OFFSET(0x208551C0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int SafeAERC_TypeDefinitionIndex = 10016;
+	inline static constexpr unsigned int SafeAERC_TypeDefinitionIndex = 10024;
 
 	class SafeAERC : public ::System::Object
 	{
 	public:
-		::Entitas::IEntity* _entity; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::Object*>* _owners; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::Object*>* _owners; // 0x10
+		::Entitas::IEntity* _entity; // 0x18
 		::System::Void _ctor(::Entitas::IEntity* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_SAFEAERC_CTOR_OFFSET))(this, a1);

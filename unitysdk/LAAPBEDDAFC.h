@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddReShaEasterEggProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LAAPBEDDAFC_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CE8E0)
-#define LAAPBEDDAFC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5CE910)
+#define LAAPBEDDAFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B271F20)
+#define LAAPBEDDAFC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B271F50)
 
-inline static constexpr unsigned int LAAPBEDDAFC_TypeDefinitionIndex = 52326;
+inline static constexpr unsigned int LAAPBEDDAFC_TypeDefinitionIndex = 53432;
 
 	class LAAPBEDDAFC
 	{

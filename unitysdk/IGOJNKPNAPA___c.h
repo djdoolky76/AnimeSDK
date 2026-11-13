@@ -7,29 +7,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define IGOJNKPNAPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16408F80)
-#define IGOJNKPNAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16408FB0)
-#define IGOJNKPNAPA___C__HANDLEPOSTPROCESS_B__0_0_OFFSET UNITYSDK_OFFSET(0x16408FC0)
-#define IGOJNKPNAPA___C__HANDLEPOSTPROCESS_B__0_1_OFFSET UNITYSDK_OFFSET(0x16409320)
+#define IGOJNKPNAPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x19F66820)
+#define IGOJNKPNAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x19F66850)
+#define IGOJNKPNAPA___C__HANDLEPOSTPROCESS_B__0_0_OFFSET UNITYSDK_OFFSET(0x19F66860)
+#define IGOJNKPNAPA___C__HANDLEPOSTPROCESS_B__0_1_OFFSET UNITYSDK_OFFSET(0x19F66BC0)
 
-inline static constexpr unsigned int IGOJNKPNAPA___c_TypeDefinitionIndex = 67146;
+inline static constexpr unsigned int IGOJNKPNAPA___c_TypeDefinitionIndex = 69090;
 
 	class IGOJNKPNAPA___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61B70);
+		}
+
 		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::IEIIGGKKALK*>*, ::FNNIFBHNPDI*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::IEIIGGKKALK*>*, ::FNNIFBHNPDI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D630);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::IEIIGGKKALK*>*, ::FNNIFBHNPDI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61B78);
 		}
 
 		static ::System::Func_2<::IEIIGGKKALK*, ::System::UInt32>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::IEIIGGKKALK*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D638);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D640);
+			return (::System::Func_2<::IEIIGGKKALK*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61B80);
 		}
 
 		static ::System::Void _cctor()

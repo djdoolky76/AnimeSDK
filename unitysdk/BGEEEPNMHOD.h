@@ -3,10 +3,10 @@
 #include "unitysdk/MLKDDLHNNHH.h"
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define BGEEEPNMHOD_CTOR_OFFSET UNITYSDK_OFFSET(0xB17B110)
-#define BGEEEPNMHOD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB17AF90)
+#define BGEEEPNMHOD_CTOR_OFFSET UNITYSDK_OFFSET(0x151B9B80)
+#define BGEEEPNMHOD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x151B9A00)
 
-inline static constexpr unsigned int BGEEEPNMHOD_TypeDefinitionIndex = 76270;
+inline static constexpr unsigned int BGEEEPNMHOD_TypeDefinitionIndex = 78601;
 
 	class BGEEEPNMHOD : public ::MLKDDLHNNHH
 	{

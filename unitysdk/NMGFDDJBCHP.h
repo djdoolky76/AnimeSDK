@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NMGFDDJBCHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2098F0)
+#define NMGFDDJBCHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7655F0)
 
-inline static constexpr unsigned int NMGFDDJBCHP_TypeDefinitionIndex = 25032;
+inline static constexpr unsigned int NMGFDDJBCHP_TypeDefinitionIndex = 25510;
 
 	class NMGFDDJBCHP : public ::System::Attribute
 	{

@@ -9,45 +9,45 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB3320)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB3360)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C__BUILDDESERIALIZE_B__12_1_OFFSET UNITYSDK_OFFSET(0x1BBB4040)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C__BUILDSERIALIZE_B__11_1_OFFSET UNITYSDK_OFFSET(0x1BBB4020)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C__BUILDTYPE_B__9_0_OFFSET UNITYSDK_OFFSET(0x1BBB4000)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1BBB3370)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_1_OFFSET UNITYSDK_OFFSET(0x1BBB3450)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_2_OFFSET UNITYSDK_OFFSET(0x1BBB37C0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_3_OFFSET UNITYSDK_OFFSET(0x1BBB3AD0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_4_OFFSET UNITYSDK_OFFSET(0x1BBB3B70)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_5_OFFSET UNITYSDK_OFFSET(0x1BBB3CC0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_6_OFFSET UNITYSDK_OFFSET(0x1BBB3E10)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_7_OFFSET UNITYSDK_OFFSET(0x1BBB3F60)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF682B0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF682F0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C__BUILDDESERIALIZE_B__12_1_OFFSET UNITYSDK_OFFSET(0x1EF68FD0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C__BUILDSERIALIZE_B__11_1_OFFSET UNITYSDK_OFFSET(0x1EF68FB0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C__BUILDTYPE_B__9_0_OFFSET UNITYSDK_OFFSET(0x1EF68F90)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1EF68300)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_1_OFFSET UNITYSDK_OFFSET(0x1EF683E0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_2_OFFSET UNITYSDK_OFFSET(0x1EF68750)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_3_OFFSET UNITYSDK_OFFSET(0x1EF68A60)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_4_OFFSET UNITYSDK_OFFSET(0x1EF68B00)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_5_OFFSET UNITYSDK_OFFSET(0x1EF68C50)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_6_OFFSET UNITYSDK_OFFSET(0x1EF68DA0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER___C___CCTOR_B__5_7_OFFSET UNITYSDK_OFFSET(0x1EF68EF0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicUnionResolver___c_TypeDefinitionIndex = 7265;
+	inline static constexpr unsigned int DynamicUnionResolver___c_TypeDefinitionIndex = 7276;
 
 	class DynamicUnionResolver___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::MessagePack::UnionAttribute*, ::System::Int32>** StaticGet___9__9_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("MessagePack.Resolvers", "<>c")->GetStaticField(0x4E910);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Reflection::Emit::Label>** StaticGet___9__11_1()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Reflection::Emit::Label>**)UnitySDK::FromName("MessagePack.Resolvers", "<>c")->GetStaticField(0x4E918);
+			return (::System::Func_2<::MessagePack::UnionAttribute*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Resolvers", "<>c")->GetStaticField(0x33630);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Reflection::Emit::Label>** StaticGet___9__12_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Reflection::Emit::Label>**)UnitySDK::FromName("MessagePack.Resolvers", "<>c")->GetStaticField(0x4E920);
+			return (::System::Func_2<::System::Object*, ::System::Reflection::Emit::Label>**)UnitySDK::FromName("MessagePack.Resolvers", "<>c")->GetStaticField(0x33638);
 		}
 
-		static ::System::Func_2<::MessagePack::UnionAttribute*, ::System::Int32>** StaticGet___9__9_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::MessagePack::UnionAttribute*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Resolvers", "<>c")->GetStaticField(0x4E928);
+			return (::System::Object**)UnitySDK::FromName("MessagePack.Resolvers", "<>c")->GetStaticField(0x33640);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Reflection::Emit::Label>** StaticGet___9__11_1()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Reflection::Emit::Label>**)UnitySDK::FromName("MessagePack.Resolvers", "<>c")->GetStaticField(0x33648);
 		}
 
 		static ::System::Void _cctor()

@@ -16,30 +16,30 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EPKDEPFMIHD_AFOLPEHDGEP_OFFSET UNITYSDK_OFFSET(0x155CB160)
-#define EPKDEPFMIHD_CTOR_OFFSET UNITYSDK_OFFSET(0x155CB680)
-#define EPKDEPFMIHD_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0x155CA5C0)
-#define EPKDEPFMIHD_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x155CAAF0)
-#define EPKDEPFMIHD_EFKLLLLPAJH_OFFSET UNITYSDK_OFFSET(0x155CA5B0)
-#define EPKDEPFMIHD_FFGMGGDEDOD_OFFSET UNITYSDK_OFFSET(0x155CB350)
-#define EPKDEPFMIHD_FIOOLGJCKLK_OFFSET UNITYSDK_OFFSET(0x155CA7F0)
-#define EPKDEPFMIHD_HOKBCNGMDDO_OFFSET UNITYSDK_OFFSET(0x155CB5F0)
-#define EPKDEPFMIHD_IOEFCHEEDGC_OFFSET UNITYSDK_OFFSET(0x155CB4D0)
-#define EPKDEPFMIHD_NFOLJPPLKDH_OFFSET UNITYSDK_OFFSET(0x155CB560)
-#define EPKDEPFMIHD_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x155CA740)
+#define EPKDEPFMIHD_AFOLPEHDGEP_OFFSET UNITYSDK_OFFSET(0x16B3A150)
+#define EPKDEPFMIHD_CTOR_OFFSET UNITYSDK_OFFSET(0x16B3A670)
+#define EPKDEPFMIHD_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0x16B39590)
+#define EPKDEPFMIHD_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x16B39AD0)
+#define EPKDEPFMIHD_EFKLLLLPAJH_OFFSET UNITYSDK_OFFSET(0x16B39580)
+#define EPKDEPFMIHD_FFGMGGDEDOD_OFFSET UNITYSDK_OFFSET(0x16B3A340)
+#define EPKDEPFMIHD_FIOOLGJCKLK_OFFSET UNITYSDK_OFFSET(0x16B397D0)
+#define EPKDEPFMIHD_HOKBCNGMDDO_OFFSET UNITYSDK_OFFSET(0x16B3A5E0)
+#define EPKDEPFMIHD_IOEFCHEEDGC_OFFSET UNITYSDK_OFFSET(0x16B3A4C0)
+#define EPKDEPFMIHD_NFOLJPPLKDH_OFFSET UNITYSDK_OFFSET(0x16B3A550)
+#define EPKDEPFMIHD_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x16B39710)
 
-inline static constexpr unsigned int EPKDEPFMIHD_TypeDefinitionIndex = 53753;
+inline static constexpr unsigned int EPKDEPFMIHD_TypeDefinitionIndex = 54917;
 
 	class EPKDEPFMIHD : public ::GJPFGOGOLBI
 	{
 	public:
-		::System::Action_1<::MNBNFBAMKKI*>* MIJEEJDKJEO; // 0x18
-		::RPG::GameCore::GameEntity* KKFCJOJLGCO; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* NNDONLIHELA; // 0x20
+		::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* HPKBJIDDHKH; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope>, ::EKJEHDDDBII*>* MAJIBJBAIHG; // 0x30
-		::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* HPKBJIDDHKH; // 0x38
-		::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* HNOLNCCAEEB; // 0x40
-		::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* NNDONLIHELA; // 0x48
+		::RPG::GameCore::GameEntity* KKFCJOJLGCO; // 0x38
+		::System::Action_1<::MNBNFBAMKKI*>* MIJEEJDKJEO; // 0x40
+		::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* HNOLNCCAEEB; // 0x48
 		::System::UInt32 CBPPMDNFIMG; // 0x50
 		::System::Void _ctor()
 		{

@@ -6,29 +6,29 @@ class KHLDHMFKOCP_FHMFJBMKDMN;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define KHLDHMFKOCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBAEF00)
-#define KHLDHMFKOCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBAEF40)
-#define KHLDHMFKOCP___C___NOTIFYCOOPBOSSPVELEVELENDSTAT_B__158_0_OFFSET UNITYSDK_OFFSET(0x1CBAEFE0)
-#define KHLDHMFKOCP___C___REPLACECOOPBOSSWAVEITEMS_B__42_0_OFFSET UNITYSDK_OFFSET(0x1CBAEF50)
+#define KHLDHMFKOCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2EFAC0)
+#define KHLDHMFKOCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1A2EFB00)
+#define KHLDHMFKOCP___C___NOTIFYCOOPBOSSPVELEVELENDSTAT_B__158_0_OFFSET UNITYSDK_OFFSET(0x1A2EFBA0)
+#define KHLDHMFKOCP___C___REPLACECOOPBOSSWAVEITEMS_B__42_0_OFFSET UNITYSDK_OFFSET(0x1A2EFB10)
 
-inline static constexpr unsigned int KHLDHMFKOCP___c_TypeDefinitionIndex = 43072;
+inline static constexpr unsigned int KHLDHMFKOCP___c_TypeDefinitionIndex = 44053;
 
 	class KHLDHMFKOCP___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Predicate_1<::IOCAFIDJADI*>** StaticGet___9__42_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48C20);
+			return (::System::Predicate_1<::IOCAFIDJADI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x488F0);
 		}
 
 		static ::System::Predicate_1<::System::Object*>** StaticGet___9__158_0()
 		{
-			return (::System::Predicate_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48C28);
+			return (::System::Predicate_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x488F8);
 		}
 
-		static ::System::Predicate_1<::IOCAFIDJADI*>** StaticGet___9__42_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::IOCAFIDJADI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48C30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48900);
 		}
 
 		static ::System::Void _cctor()

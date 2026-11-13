@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 class BPMLCFOHMDB;
 
-#define BHPAGJNNOMM_ADKMGGOCFHA_OFFSET UNITYSDK_OFFSET(0xB48EA10)
+#define BHPAGJNNOMM_ADKMGGOCFHA_OFFSET UNITYSDK_OFFSET(0x1BAA12A0)
 
-inline static constexpr unsigned int BHPAGJNNOMM_TypeDefinitionIndex = 69748;
+inline static constexpr unsigned int BHPAGJNNOMM_TypeDefinitionIndex = 71705;
 
 	class BHPAGJNNOMM : public ::System::Object
 	{
 	public:
 		static ::System::UInt32* StaticGet_HHBHKCLDBIF()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "BHPAGJNNOMM")->GetStaticField(0x15330);
+			return (::System::UInt32*)UnitySDK::FromName("", "BHPAGJNNOMM")->GetStaticField(0x142E0);
 		}
 
 		static ::BPMLCFOHMDB* ADKMGGOCFHA(::BHPAGJNNOMM_VCameraType a1)

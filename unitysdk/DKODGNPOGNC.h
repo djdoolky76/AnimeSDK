@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TeamBoostCheck; }
 
-#define DKODGNPOGNC_CTOR_OFFSET UNITYSDK_OFFSET(0xF886A80)
-#define DKODGNPOGNC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF886A90)
-#define DKODGNPOGNC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF886AD0)
-#define DKODGNPOGNC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF886B20)
-#define DKODGNPOGNC_TICK_OFFSET UNITYSDK_OFFSET(0xF886B70)
+#define DKODGNPOGNC_CTOR_OFFSET UNITYSDK_OFFSET(0x18C24C60)
+#define DKODGNPOGNC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C24C70)
+#define DKODGNPOGNC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C24CB0)
+#define DKODGNPOGNC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18C24D00)
+#define DKODGNPOGNC_TICK_OFFSET UNITYSDK_OFFSET(0x18C24D50)
 
-inline static constexpr unsigned int DKODGNPOGNC_TypeDefinitionIndex = 58764;
+inline static constexpr unsigned int DKODGNPOGNC_TypeDefinitionIndex = 60032;
 
 	class DKODGNPOGNC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::TeamBoostCheck* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TeamBoostCheck* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TeamBoostCheck* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TeamBoostCheck*))((::PBYTE)hIl2Cpp + DKODGNPOGNC_CTOR_OFFSET))(this, a1, a2);

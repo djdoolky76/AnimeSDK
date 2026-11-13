@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByTriggeredTrackedSearch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNFMMHEDOPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF67A0)
-#define GNFMMHEDOPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AF67D0)
+#define GNFMMHEDOPM_CTOR_OFFSET UNITYSDK_OFFSET(0x18783EC0)
+#define GNFMMHEDOPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18783EF0)
 
-inline static constexpr unsigned int GNFMMHEDOPM_TypeDefinitionIndex = 53122;
+inline static constexpr unsigned int GNFMMHEDOPM_TypeDefinitionIndex = 54284;
 
 	class GNFMMHEDOPM
 	{

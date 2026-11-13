@@ -4,9 +4,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DBENHLHHAJK_CTOR_OFFSET UNITYSDK_OFFSET(0xF17E0)
+#define DBENHLHHAJK_CTOR_OFFSET UNITYSDK_OFFSET(0x3E713E0)
 
-inline static constexpr unsigned int DBENHLHHAJK_TypeDefinitionIndex = 56964;
+inline static constexpr unsigned int DBENHLHHAJK_TypeDefinitionIndex = 58190;
 
 	struct alignas(8) DBENHLHHAJK
 	{

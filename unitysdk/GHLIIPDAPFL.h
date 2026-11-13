@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define GHLIIPDAPFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA73D90)
-#define GHLIIPDAPFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73DE0)
+#define GHLIIPDAPFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DA79E40)
+#define GHLIIPDAPFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA79E90)
 
-inline static constexpr unsigned int GHLIIPDAPFL_TypeDefinitionIndex = 43392;
+inline static constexpr unsigned int GHLIIPDAPFL_TypeDefinitionIndex = 44373;
 
 	class GHLIIPDAPFL : public ::System::Object
 	{

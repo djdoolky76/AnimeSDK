@@ -2,13 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 class NJKFOJJDGGG;
+namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KFHGFEFAOHN_CTOR_OFFSET UNITYSDK_OFFSET(0xB39C640)
-#define KFHGFEFAOHN_GET_POSINDEXS_OFFSET UNITYSDK_OFFSET(0xB39C6E0)
-#define KFHGFEFAOHN_SET_POSINDEXS_OFFSET UNITYSDK_OFFSET(0xB39C6F0)
+#define KFHGFEFAOHN_CTOR_OFFSET UNITYSDK_OFFSET(0x176E2450)
+#define KFHGFEFAOHN_GET_POSINDEXS_OFFSET UNITYSDK_OFFSET(0x176E24F0)
+#define KFHGFEFAOHN_KKGOFMBMMAC_OFFSET UNITYSDK_OFFSET(0x176E2510)
+#define KFHGFEFAOHN_SET_POSINDEXS_OFFSET UNITYSDK_OFFSET(0x176E2500)
 
-inline static constexpr unsigned int KFHGFEFAOHN_TypeDefinitionIndex = 65005;
+inline static constexpr unsigned int KFHGFEFAOHN_TypeDefinitionIndex = 66601;
 
 	class KFHGFEFAOHN : public ::RPG::Client::GridFightGameModifier
 	{
@@ -27,6 +29,11 @@ inline static constexpr unsigned int KFHGFEFAOHN_TypeDefinitionIndex = 65005;
 		::System::Void set_PosIndexs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + KFHGFEFAOHN_SET_POSINDEXS_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IDictionary_2<::System::UInt32, ::System::UInt32>* KKGOFMBMMAC()
+		{
+			return ((::System::Collections::Generic::IDictionary_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFHGFEFAOHN_KKGOFMBMMAC_OFFSET))(this);
 		}
 
 	};

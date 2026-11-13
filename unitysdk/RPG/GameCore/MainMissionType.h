@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionType_TypeDefinitionIndex = 14133;
+	inline static constexpr unsigned int MainMissionType_TypeDefinitionIndex = 14290;
 
 	enum class MainMissionType : ::System::Int32
 	{

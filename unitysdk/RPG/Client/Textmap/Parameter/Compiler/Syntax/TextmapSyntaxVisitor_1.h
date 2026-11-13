@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Textmap::Parameter::Compiler::Syntax
 {
-	inline static constexpr unsigned int TextmapSyntaxVisitor_1_TypeDefinitionIndex = 73398;
+	inline static constexpr unsigned int TextmapSyntaxVisitor_1_TypeDefinitionIndex = 75521;
 
 	template <typename T>
 	class TextmapSyntaxVisitor_1 : public ::System::Object

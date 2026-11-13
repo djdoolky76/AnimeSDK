@@ -8,51 +8,51 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_PLESSEYWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6987E0)
-#define ZXING_ONED_PLESSEYWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F689880)
-#define ZXING_ONED_PLESSEYWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F697620)
-#define ZXING_ONED_PLESSEYWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F697570)
+#define ZXING_ONED_PLESSEYWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x17A92C10)
+#define ZXING_ONED_PLESSEYWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x17A83CC0)
+#define ZXING_ONED_PLESSEYWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x17A91A50)
+#define ZXING_ONED_PLESSEYWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x17A919A0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int PlesseyWriter_TypeDefinitionIndex = 6992;
+	inline static constexpr unsigned int PlesseyWriter_TypeDefinitionIndex = 7003;
 
 	class PlesseyWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_terminationWidths()
-		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x46380);
-		}
-
 		static ::Il2CppArray<::System::Int32>** StaticGet_endWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x46388);
-		}
-
-		static ::Il2CppArray<::System::Int32>** StaticGet_crc0Widths()
-		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x46390);
-		}
-
-		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_numberWidths()
-		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x46398);
-		}
-
-		static ::Il2CppArray<::System::Int32>** StaticGet_crc1Widths()
-		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x463A0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x2ABA0);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_startWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x463A8);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x2ABA8);
+		}
+
+		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_numberWidths()
+		{
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x2ABB0);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_terminationWidths()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x2ABB8);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_crc1Widths()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x2ABC0);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_crc0Widths()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x2ABC8);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_crcGrid()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x463B0);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("ZXing.OneD", "PlesseyWriter")->GetStaticField(0x2ABD0);
 		}
 
 		::System::Void _ctor()

@@ -5,20 +5,20 @@ class IEIGLAPKDNK;
 namespace RPG::GameCore { class ModifyTeamBoostPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMJGBAGDEGP_CTOR_OFFSET UNITYSDK_OFFSET(0x164CE840)
-#define IMJGBAGDEGP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164CE900)
-#define IMJGBAGDEGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164CE9A0)
-#define IMJGBAGDEGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164CECE0)
-#define IMJGBAGDEGP_TICK_OFFSET UNITYSDK_OFFSET(0x164CED30)
+#define IMJGBAGDEGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DB020)
+#define IMJGBAGDEGP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5DB0E0)
+#define IMJGBAGDEGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A5DB180)
+#define IMJGBAGDEGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A5DB4C0)
+#define IMJGBAGDEGP_TICK_OFFSET UNITYSDK_OFFSET(0x1A5DB510)
 
-inline static constexpr unsigned int IMJGBAGDEGP_TypeDefinitionIndex = 55222;
+inline static constexpr unsigned int IMJGBAGDEGP_TypeDefinitionIndex = 56403;
 
 	class IMJGBAGDEGP : public ::GELIALJDFBL
 	{
 	public:
-		::IEIGLAPKDNK* MFFNFOHJGGL; // 0x18
+		::RPG::GameCore::ModifyTeamBoostPoint* OFKGLJOAMLD; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::ModifyTeamBoostPoint* OFKGLJOAMLD; // 0x28
+		::IEIGLAPKDNK* MFFNFOHJGGL; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyTeamBoostPoint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifyTeamBoostPoint*))((::PBYTE)hIl2Cpp + IMJGBAGDEGP_CTOR_OFFSET))(this, a1, a2);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckTimeRewindEntityPauseBySkillCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDIPJPBLADB_CTOR_OFFSET UNITYSDK_OFFSET(0x165BFB30)
-#define JDIPJPBLADB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165BFB60)
+#define JDIPJPBLADB_CTOR_OFFSET UNITYSDK_OFFSET(0x169918C0)
+#define JDIPJPBLADB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x169918F0)
 
-inline static constexpr unsigned int JDIPJPBLADB_TypeDefinitionIndex = 53365;
+inline static constexpr unsigned int JDIPJPBLADB_TypeDefinitionIndex = 54527;
 
 	class JDIPJPBLADB
 	{

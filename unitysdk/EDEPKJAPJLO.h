@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvTrackNpcTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDEPKJAPJLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1330E130)
-#define EDEPKJAPJLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1330E160)
+#define EDEPKJAPJLO_CTOR_OFFSET UNITYSDK_OFFSET(0x186B6990)
+#define EDEPKJAPJLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x186B69C0)
 
-inline static constexpr unsigned int EDEPKJAPJLO_TypeDefinitionIndex = 52515;
+inline static constexpr unsigned int EDEPKJAPJLO_TypeDefinitionIndex = 53621;
 
 	class EDEPKJAPJLO
 	{

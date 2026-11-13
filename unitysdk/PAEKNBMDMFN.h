@@ -5,10 +5,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PAEKNBMDMFN_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBEF00)
-#define PAEKNBMDMFN_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xBFBEE60)
+#define PAEKNBMDMFN_CTOR_OFFSET UNITYSDK_OFFSET(0x18AD69E0)
+#define PAEKNBMDMFN_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x18AD6940)
 
-inline static constexpr unsigned int PAEKNBMDMFN_TypeDefinitionIndex = 77694;
+inline static constexpr unsigned int PAEKNBMDMFN_TypeDefinitionIndex = 80429;
 
 	class PAEKNBMDMFN : public ::HBLDGJCDJPF
 	{

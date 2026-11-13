@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AAGDLGIHHOE_TypeDefinitionIndex = 32490;
+inline static constexpr unsigned int AAGDLGIHHOE_TypeDefinitionIndex = 33405;
 
 	enum class AAGDLGIHHOE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		DFFBHAGPBJE = 5906,
-		NFMGANEMPNE = 5931,
-		EJDAHCIBGOF = 5929,
-		KABNELBBNKH = 5920,
-		PHEGNNDHALO = 5934,
-		FKBAFCOEHGG = 5932,
+		EJDAHCIBGOF = 5930,
+		DFFBHAGPBJE = 5938,
+		KABNELBBNKH = 5948,
+		FKBAFCOEHGG = 5935,
+		NFMGANEMPNE = 5950,
+		PHEGNNDHALO = 5942,
 	};

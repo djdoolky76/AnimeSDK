@@ -6,7 +6,7 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SimpRTXSceneResources_TypeDefinitionIndex = 4895;
+	inline static constexpr unsigned int SimpRTXSceneResources_TypeDefinitionIndex = 4900;
 
 	struct alignas(8) SimpRTXSceneResources
 	{

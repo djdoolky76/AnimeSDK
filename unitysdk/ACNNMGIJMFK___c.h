@@ -7,47 +7,47 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ACNNMGIJMFK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB128840)
-#define ACNNMGIJMFK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB128880)
-#define ACNNMGIJMFK___C__CHECKHASAVATARCONFLICT_B__5_0_OFFSET UNITYSDK_OFFSET(0xB128890)
-#define ACNNMGIJMFK___C__CHECKHASAVATARCONFLICT_B__5_1_OFFSET UNITYSDK_OFFSET(0xB1288A0)
-#define ACNNMGIJMFK___C___CONFIRMEQUIPMENTCONFLICTCLEAR_B__8_0_OFFSET UNITYSDK_OFFSET(0xB128990)
-#define ACNNMGIJMFK___C___FILLCONFLICTSTAGEINDICESTO_B__12_0_OFFSET UNITYSDK_OFFSET(0xB1289E0)
-#define ACNNMGIJMFK___C___FILLCONFLICTSTAGEINDICESTO_B__12_2_OFFSET UNITYSDK_OFFSET(0xB1289F0)
+#define ACNNMGIJMFK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x18299350)
+#define ACNNMGIJMFK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x18299390)
+#define ACNNMGIJMFK___C__CHECKHASAVATARCONFLICT_B__5_0_OFFSET UNITYSDK_OFFSET(0x182993A0)
+#define ACNNMGIJMFK___C__CHECKHASAVATARCONFLICT_B__5_1_OFFSET UNITYSDK_OFFSET(0x182993B0)
+#define ACNNMGIJMFK___C___CONFIRMEQUIPMENTCONFLICTCLEAR_B__8_0_OFFSET UNITYSDK_OFFSET(0x182994A0)
+#define ACNNMGIJMFK___C___FILLCONFLICTSTAGEINDICESTO_B__12_0_OFFSET UNITYSDK_OFFSET(0x182994F0)
+#define ACNNMGIJMFK___C___FILLCONFLICTSTAGEINDICESTO_B__12_2_OFFSET UNITYSDK_OFFSET(0x18299500)
 
-inline static constexpr unsigned int ACNNMGIJMFK___c_TypeDefinitionIndex = 81509;
+inline static constexpr unsigned int ACNNMGIJMFK___c_TypeDefinitionIndex = 84290;
 
 	class ACNNMGIJMFK___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44660);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__12_2()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44668);
-		}
-
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44670);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41630);
 		}
 
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::JLCJBFLKOJD*>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::JLCJBFLKOJD*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44678);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::JLCJBFLKOJD*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41638);
+		}
+
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41640);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__12_2()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41648);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41650);
 		}
 
 		static ::System::Func_2<::JLCJBFLKOJD*, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::JLCJBFLKOJD*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44680);
-		}
-
-		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44688);
+			return (::System::Func_2<::JLCJBFLKOJD*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41658);
 		}
 
 		static ::System::Void _cctor()

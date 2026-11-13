@@ -4,9 +4,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ABJEAECNPDK_PKOCDCNOAKH_OFFSET UNITYSDK_OFFSET(0x1C552AB0)
+#define ABJEAECNPDK_PKOCDCNOAKH_OFFSET UNITYSDK_OFFSET(0x16FEECE0)
 
-inline static constexpr unsigned int ABJEAECNPDK_TypeDefinitionIndex = 36395;
+inline static constexpr unsigned int ABJEAECNPDK_TypeDefinitionIndex = 37323;
 
 	class ABJEAECNPDK : public ::System::Object
 	{

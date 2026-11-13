@@ -4,18 +4,18 @@
 class LENDBHPIOJK;
 namespace System { class Object; }
 
-#define LENDBHPIOJK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E909E90)
-#define LENDBHPIOJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E909ED0)
-#define LENDBHPIOJK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E909EE0)
+#define LENDBHPIOJK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8260E0)
+#define LENDBHPIOJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F826120)
+#define LENDBHPIOJK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F826130)
 
-inline static constexpr unsigned int LENDBHPIOJK___c_TypeDefinitionIndex = 26413;
+inline static constexpr unsigned int LENDBHPIOJK___c_TypeDefinitionIndex = 26940;
 
 	class LENDBHPIOJK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32350);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FF40);
 		}
 
 		static ::System::Void _cctor()

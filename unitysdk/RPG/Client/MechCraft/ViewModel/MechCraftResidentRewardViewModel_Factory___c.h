@@ -5,25 +5,25 @@ namespace RPG::Client { class QuestData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTRESIDENTREWARDVIEWMODEL_FACTORY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD67B6F0)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTRESIDENTREWARDVIEWMODEL_FACTORY___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD67B730)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTRESIDENTREWARDVIEWMODEL_FACTORY___C__CREATE_B__8_0_OFFSET UNITYSDK_OFFSET(0xD67B740)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTRESIDENTREWARDVIEWMODEL_FACTORY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E91A420)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTRESIDENTREWARDVIEWMODEL_FACTORY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E91A460)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTRESIDENTREWARDVIEWMODEL_FACTORY___C__CREATE_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E91A470)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftResidentRewardViewModel_Factory___c_TypeDefinitionIndex = 79688;
+	inline static constexpr unsigned int MechCraftResidentRewardViewModel_Factory___c_TypeDefinitionIndex = 82465;
 
 	class MechCraftResidentRewardViewModel_Factory___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x4EE50);
-		}
-
 		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x4EE58);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x5CDA0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x5CDA8);
 		}
 
 		static ::System::Void _cctor()

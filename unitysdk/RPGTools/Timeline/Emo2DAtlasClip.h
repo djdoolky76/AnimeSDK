@@ -8,13 +8,13 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D3BC0)
-#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D3D50)
-#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D3BB0)
+#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D8F4470)
+#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F4600)
+#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1D8F4460)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int Emo2DAtlasClip_TypeDefinitionIndex = 48086;
+	inline static constexpr unsigned int Emo2DAtlasClip_TypeDefinitionIndex = 49117;
 
 	class Emo2DAtlasClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -23,6 +23,7 @@ namespace RPGTools::Timeline
 		::System::Boolean ChangeEyeWithBlinking; // 0x20
 		::System::Byte _padding0[0x3];
 		::RPG::Client::Emo2DAtlasConfig Config; // 0x24
+		::System::Int32 _BothEyeIndex; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CTOR_OFFSET))(this);

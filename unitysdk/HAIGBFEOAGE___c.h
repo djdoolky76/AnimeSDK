@@ -4,23 +4,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HAIGBFEOAGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBEFE10)
-#define HAIGBFEOAGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBEFE40)
-#define HAIGBFEOAGE___C__ISHEXSTR_B__12_0_OFFSET UNITYSDK_OFFSET(0x1EBEFE50)
+#define HAIGBFEOAGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAFBFE0)
+#define HAIGBFEOAGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAFC010)
+#define HAIGBFEOAGE___C__ISHEXSTR_B__12_0_OFFSET UNITYSDK_OFFSET(0x1CAFC020)
 
-inline static constexpr unsigned int HAIGBFEOAGE___c_TypeDefinitionIndex = 35196;
+inline static constexpr unsigned int HAIGBFEOAGE___c_TypeDefinitionIndex = 36124;
 
 	class HAIGBFEOAGE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52850);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C20);
 		}
 
 		static ::System::Func_2<::System::Char, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::System::Char, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52858);
+			return (::System::Func_2<::System::Char, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C28);
 		}
 
 		static ::System::Void _cctor()

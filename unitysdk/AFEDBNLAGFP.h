@@ -3,10 +3,10 @@
 class BBLBOEGCHOK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AFEDBNLAGFP_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFF710)
-#define AFEDBNLAGFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCEFF740)
+#define AFEDBNLAGFP_CTOR_OFFSET UNITYSDK_OFFSET(0x18DAAD60)
+#define AFEDBNLAGFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DAAD90)
 
-inline static constexpr unsigned int AFEDBNLAGFP_TypeDefinitionIndex = 53870;
+inline static constexpr unsigned int AFEDBNLAGFP_TypeDefinitionIndex = 55034;
 
 	class AFEDBNLAGFP
 	{

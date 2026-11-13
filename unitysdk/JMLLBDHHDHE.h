@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/Marble/MarbleEventType.h"
 #include "unitysdk/System/Object.h"
 
-#define JMLLBDHHDHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB75040)
+#define JMLLBDHHDHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE1DCC0)
 
-inline static constexpr unsigned int JMLLBDHHDHE_TypeDefinitionIndex = 43058;
+inline static constexpr unsigned int JMLLBDHHDHE_TypeDefinitionIndex = 44039;
 
 	class JMLLBDHHDHE : public ::System::Object
 	{

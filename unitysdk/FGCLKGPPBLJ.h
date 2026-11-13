@@ -8,26 +8,26 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
 
-#define FGCLKGPPBLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15746E20)
-#define FGCLKGPPBLJ_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x15747100)
-#define FGCLKGPPBLJ_FABMGFPLBNC_OFFSET UNITYSDK_OFFSET(0x15747380)
-#define FGCLKGPPBLJ_FIFKOODDLEM_OFFSET UNITYSDK_OFFSET(0x157473C0)
-#define FGCLKGPPBLJ_IAEEDOIHAHA_OFFSET UNITYSDK_OFFSET(0x15746D80)
-#define FGCLKGPPBLJ_KBLCPIHEKJN_OFFSET UNITYSDK_OFFSET(0x15747310)
-#define FGCLKGPPBLJ_NNJEOOMCPJE_OFFSET UNITYSDK_OFFSET(0x15747060)
-#define FGCLKGPPBLJ_OHCAPGGOAGE_OFFSET UNITYSDK_OFFSET(0x15747400)
-#define FGCLKGPPBLJ___INIT_B__3_0_OFFSET UNITYSDK_OFFSET(0x15747440)
+#define FGCLKGPPBLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x18A7AFB0)
+#define FGCLKGPPBLJ_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x18A7B290)
+#define FGCLKGPPBLJ_FABMGFPLBNC_OFFSET UNITYSDK_OFFSET(0x18A7B510)
+#define FGCLKGPPBLJ_FIFKOODDLEM_OFFSET UNITYSDK_OFFSET(0x18A7B550)
+#define FGCLKGPPBLJ_IAEEDOIHAHA_OFFSET UNITYSDK_OFFSET(0x18A7AF10)
+#define FGCLKGPPBLJ_KBLCPIHEKJN_OFFSET UNITYSDK_OFFSET(0x18A7B4A0)
+#define FGCLKGPPBLJ_NNJEOOMCPJE_OFFSET UNITYSDK_OFFSET(0x18A7B1F0)
+#define FGCLKGPPBLJ_OHCAPGGOAGE_OFFSET UNITYSDK_OFFSET(0x18A7B590)
+#define FGCLKGPPBLJ___INIT_B__3_0_OFFSET UNITYSDK_OFFSET(0x18A7B5D0)
 
-inline static constexpr unsigned int FGCLKGPPBLJ_TypeDefinitionIndex = 73048;
+inline static constexpr unsigned int FGCLKGPPBLJ_TypeDefinitionIndex = 75162;
 
 	class FGCLKGPPBLJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* BLICIKDLKOC; // 0x10
-		::System::String* JDIEAOBPPGL; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::String*>* EKEIGOABEJN; // 0x20
-		::System::String* HAMGKGDFKFK; // 0x28
-		::System::String* AJDOEJPFFBF; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::String*>* EKEIGOABEJN; // 0x10
+		::System::String* HAMGKGDFKFK; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* BLICIKDLKOC; // 0x20
+		::System::String* AJDOEJPFFBF; // 0x28
+		::System::String* JDIEAOBPPGL; // 0x30
 		::System::Void _ctor(::XLua::LuaTable* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + FGCLKGPPBLJ_CTOR_OFFSET))(this, a1);

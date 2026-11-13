@@ -4,18 +4,18 @@
 class CEJMDKPGPGP;
 namespace System { class Object; }
 
-#define CEJMDKPGPGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E069CD0)
-#define CEJMDKPGPGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E069D10)
-#define CEJMDKPGPGP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E069D20)
+#define CEJMDKPGPGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204CECB0)
+#define CEJMDKPGPGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204CECF0)
+#define CEJMDKPGPGP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x204CED00)
 
-inline static constexpr unsigned int CEJMDKPGPGP___c_TypeDefinitionIndex = 27946;
+inline static constexpr unsigned int CEJMDKPGPGP___c_TypeDefinitionIndex = 28536;
 
 	class CEJMDKPGPGP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10740);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x631D0);
 		}
 
 		static ::System::Void _cctor()

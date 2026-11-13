@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_ROADRASHTREVENTDETECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDEDBB40)
+#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_ROADRASHTREVENTDETECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BAE80)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig_TypeDefinitionIndex = 75899;
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig_TypeDefinitionIndex = 78226;
 
 	class RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkinType_TypeDefinitionIndex = 12713;
+	inline static constexpr unsigned int AvatarSkinType_TypeDefinitionIndex = 12780;
 
 	enum class AvatarSkinType : ::System::Int32
 	{

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_ADVENTUREBUFFDATA_CLONE_OFFSET UNITYSDK_OFFSET(0xE0F00)
-#define RPG_CLIENT_ADVENTUREBUFFDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xFDE0)
+#define RPG_CLIENT_ADVENTUREBUFFDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x3E0B520)
+#define RPG_CLIENT_ADVENTUREBUFFDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x3DB04F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureBuffData_TypeDefinitionIndex = 68104;
+	inline static constexpr unsigned int AdventureBuffData_TypeDefinitionIndex = 70050;
 
 	struct alignas(4) AdventureBuffData
 	{

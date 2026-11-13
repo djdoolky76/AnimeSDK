@@ -5,12 +5,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Text::RegularExpressions { class Match; }
 
-#define IFIX_CORE_PATCHMANAGER__READMETHOD_C__ANONSTOREY0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B99FFA0)
-#define IFIX_CORE_PATCHMANAGER__READMETHOD_C__ANONSTOREY0___M__0_OFFSET UNITYSDK_OFFSET(0x1B9AE8B0)
+#define IFIX_CORE_PATCHMANAGER__READMETHOD_C__ANONSTOREY0_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B0AC0)
+#define IFIX_CORE_PATCHMANAGER__READMETHOD_C__ANONSTOREY0___M__0_OFFSET UNITYSDK_OFFSET(0x1E8BF340)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager__readMethod_c__AnonStorey0_TypeDefinitionIndex = 7103;
+	inline static constexpr unsigned int PatchManager__readMethod_c__AnonStorey0_TypeDefinitionIndex = 7114;
 
 	class PatchManager__readMethod_c__AnonStorey0 : public ::System::Object
 	{

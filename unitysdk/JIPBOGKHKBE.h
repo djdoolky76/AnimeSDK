@@ -5,10 +5,10 @@ class DBEILICHGCG;
 class JBACCAGFHON;
 namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 
-#define JIPBOGKHKBE_CTOR_OFFSET UNITYSDK_OFFSET(0xB1F9CC0)
-#define JIPBOGKHKBE_FANJEMOGFGH_OFFSET UNITYSDK_OFFSET(0xB1F9CD0)
+#define JIPBOGKHKBE_CTOR_OFFSET UNITYSDK_OFFSET(0x174281C0)
+#define JIPBOGKHKBE_FANJEMOGFGH_OFFSET UNITYSDK_OFFSET(0x174281D0)
 
-inline static constexpr unsigned int JIPBOGKHKBE_TypeDefinitionIndex = 78097;
+inline static constexpr unsigned int JIPBOGKHKBE_TypeDefinitionIndex = 80832;
 
 	class JIPBOGKHKBE : public ::System::Object
 	{

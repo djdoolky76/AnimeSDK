@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PBHBHNNFDCM;
 
-#define GFACDFPGHPG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x159D96C0)
-#define GFACDFPGHPG_CTOR_OFFSET UNITYSDK_OFFSET(0x159D9A20)
+#define GFACDFPGHPG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x17CE6A10)
+#define GFACDFPGHPG_CTOR_OFFSET UNITYSDK_OFFSET(0x17CE6D70)
 
-inline static constexpr unsigned int GFACDFPGHPG_TypeDefinitionIndex = 75454;
+inline static constexpr unsigned int GFACDFPGHPG_TypeDefinitionIndex = 77781;
 
 	class GFACDFPGHPG : public ::System::Object
 	{

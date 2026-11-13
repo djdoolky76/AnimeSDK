@@ -14,24 +14,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KOJLADIPNKE_CPBJPMELDLA_CBJCJBMGBOL_OFFSET UNITYSDK_OFFSET(0xB594930)
-#define KOJLADIPNKE_CPBJPMELDLA_CTOR_OFFSET UNITYSDK_OFFSET(0xB593010)
-#define KOJLADIPNKE_CPBJPMELDLA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB593E00)
-#define KOJLADIPNKE_CPBJPMELDLA_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0xB594130)
-#define KOJLADIPNKE_CPBJPMELDLA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB5942D0)
+#define KOJLADIPNKE_CPBJPMELDLA_CBJCJBMGBOL_OFFSET UNITYSDK_OFFSET(0x191042C0)
+#define KOJLADIPNKE_CPBJPMELDLA_CTOR_OFFSET UNITYSDK_OFFSET(0x19102900)
+#define KOJLADIPNKE_CPBJPMELDLA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19103680)
+#define KOJLADIPNKE_CPBJPMELDLA_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0x191039E0)
+#define KOJLADIPNKE_CPBJPMELDLA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x19103BB0)
 
-inline static constexpr unsigned int KOJLADIPNKE_CPBJPMELDLA_TypeDefinitionIndex = 69279;
+inline static constexpr unsigned int KOJLADIPNKE_CPBJPMELDLA_TypeDefinitionIndex = 71233;
 
 	class KOJLADIPNKE_CPBJPMELDLA : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::String*>* BIDLPGEABJL; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::String*>* EDHDDJKIFDO; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::String*>* GBHBBLONPCN; // 0x20
-		::RPG::GameCore::LevelPedestrianV2MemberExtendFreeStyleConfig* EABKOHGCHFP; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::String*>* LADEEJFDJOH; // 0x30
-		::System::Collections::Generic::List_1<::System::String*>* EHLGLBENHEJ; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* LHDBMGGLFCA; // 0x40
+		::System::Collections::Generic::HashSet_1<::System::String*>* GBHBBLONPCN; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* EHLGLBENHEJ; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::String*>* LADEEJFDJOH; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* LHDBMGGLFCA; // 0x28
+		::RPG::GameCore::LevelPedestrianV2MemberExtendFreeStyleConfig* EABKOHGCHFP; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::String*>* BIDLPGEABJL; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::String*>* EDHDDJKIFDO; // 0x40
 		::RPG::GameCore::NPCBodySize FNCMBFHKKCK; // 0x48
 		::System::Void _ctor(::KOJLADIPNKE* a1, ::RPG::GameCore::LevelPedestrianV2ExtendFreeStyle* a2)
 		{

@@ -4,18 +4,18 @@
 class JIBBEEAIDIC;
 namespace System { class Object; }
 
-#define JIBBEEAIDIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E71B9D0)
-#define JIBBEEAIDIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E71BA10)
-#define JIBBEEAIDIC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E71BA20)
+#define JIBBEEAIDIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204B2670)
+#define JIBBEEAIDIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204B26B0)
+#define JIBBEEAIDIC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x204B26C0)
 
-inline static constexpr unsigned int JIBBEEAIDIC___c_TypeDefinitionIndex = 32681;
+inline static constexpr unsigned int JIBBEEAIDIC___c_TypeDefinitionIndex = 33596;
 
 	class JIBBEEAIDIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F590);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60830);
 		}
 
 		static ::System::Void _cctor()

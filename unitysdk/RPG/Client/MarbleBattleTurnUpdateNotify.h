@@ -4,21 +4,21 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0xD56ADA0)
-#define RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY_GET_ISENEMYTURN_OFFSET UNITYSDK_OFFSET(0xD56ACF0)
-#define RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY_SET_ISENEMYTURN_OFFSET UNITYSDK_OFFSET(0xD56AD40)
+#define RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E09C2E0)
+#define RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY_GET_ISENEMYTURN_OFFSET UNITYSDK_OFFSET(0x1E09C230)
+#define RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY_SET_ISENEMYTURN_OFFSET UNITYSDK_OFFSET(0x1E09C280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleTurnUpdateNotify_TypeDefinitionIndex = 65824;
+	inline static constexpr unsigned int MarbleBattleTurnUpdateNotify_TypeDefinitionIndex = 67756;
 
 	class MarbleBattleTurnUpdateNotify : public ::System::Object
 	{
 	public:
 		::System::Action* Callback; // 0x10
-		::System::Int32 Round; // 0x18
-		::System::UInt32 TurnPlayerId; // 0x1C
-		::RPG::Client::MarbleBattleAffiliationType AffiliationType; // 0x20
+		::RPG::Client::MarbleBattleAffiliationType AffiliationType; // 0x18
+		::System::Int32 Round; // 0x1C
+		::System::UInt32 TurnPlayerId; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY_CTOR_OFFSET))(this);

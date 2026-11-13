@@ -4,18 +4,18 @@ namespace RPG::GameCore { class DecalPuzzleStart; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define DKGLBAHLODM_CCTOR_OFFSET UNITYSDK_OFFSET(0xF875DD0)
-#define DKGLBAHLODM_CTOR_OFFSET UNITYSDK_OFFSET(0xF875790)
-#define DKGLBAHLODM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8757C0)
+#define DKGLBAHLODM_CCTOR_OFFSET UNITYSDK_OFFSET(0x18C13EC0)
+#define DKGLBAHLODM_CTOR_OFFSET UNITYSDK_OFFSET(0x18C13870)
+#define DKGLBAHLODM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C138A0)
 
-inline static constexpr unsigned int DKGLBAHLODM_TypeDefinitionIndex = 52731;
+inline static constexpr unsigned int DKGLBAHLODM_TypeDefinitionIndex = 53875;
 
 	class DKGLBAHLODM
 	{
 	public:
 		static ::System::String** StaticGet_IOHHOGLHHCF()
 		{
-			return (::System::String**)UnitySDK::FromName("", "DKGLBAHLODM")->GetStaticField(0x56070);
+			return (::System::String**)UnitySDK::FromName("", "DKGLBAHLODM")->GetStaticField(0x6D7F0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DecalPuzzleStart* a2)

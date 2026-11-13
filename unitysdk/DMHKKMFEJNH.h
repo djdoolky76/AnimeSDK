@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define DMHKKMFEJNH_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBC5A0)
-#define DMHKKMFEJNH_EFLNDNGCCGN_OFFSET UNITYSDK_OFFSET(0xFEBC1D0)
-#define DMHKKMFEJNH_NMNHDLBGDIE_OFFSET UNITYSDK_OFFSET(0xFEBC480)
+#define DMHKKMFEJNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1869A5D0)
+#define DMHKKMFEJNH_EFLNDNGCCGN_OFFSET UNITYSDK_OFFSET(0x1869A200)
+#define DMHKKMFEJNH_NMNHDLBGDIE_OFFSET UNITYSDK_OFFSET(0x1869A4B0)
 
-inline static constexpr unsigned int DMHKKMFEJNH_TypeDefinitionIndex = 73060;
+inline static constexpr unsigned int DMHKKMFEJNH_TypeDefinitionIndex = 75174;
 
 	class DMHKKMFEJNH : public ::System::Object
 	{
 	public:
-		::UnityEngine::EventSystems::PointerEventData* EPJJGFNHKEM; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* DAAEFLHHLHD; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* DAAEFLHHLHD; // 0x10
+		::UnityEngine::EventSystems::PointerEventData* EPJJGFNHKEM; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DMHKKMFEJNH_CTOR_OFFSET))(this);

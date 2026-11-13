@@ -3,7 +3,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaThreadStatus_TypeDefinitionIndex = 50248;
+	inline static constexpr unsigned int LuaThreadStatus_TypeDefinitionIndex = 51299;
 
 	enum class LuaThreadStatus : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ApplyMonsterPhaseOverrideConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADNEHABCMCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB145B20)
-#define ADNEHABCMCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB145B50)
+#define ADNEHABCMCM_CTOR_OFFSET UNITYSDK_OFFSET(0x182B56A0)
+#define ADNEHABCMCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182B56D0)
 
-inline static constexpr unsigned int ADNEHABCMCM_TypeDefinitionIndex = 55551;
+inline static constexpr unsigned int ADNEHABCMCM_TypeDefinitionIndex = 56743;
 
 	class ADNEHABCMCM
 	{

@@ -5,11 +5,11 @@ class FACKIAAMEHD;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ILAAABDFDMB_CTOR_OFFSET UNITYSDK_OFFSET(0x16493E10)
-#define ILAAABDFDMB_JLLPNPBPKIJ_OFFSET UNITYSDK_OFFSET(0x16493D70)
-#define ILAAABDFDMB_LPNPFLLAJCK_OFFSET UNITYSDK_OFFSET(0x16493CC0)
+#define ILAAABDFDMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B583310)
+#define ILAAABDFDMB_JLLPNPBPKIJ_OFFSET UNITYSDK_OFFSET(0x1B583270)
+#define ILAAABDFDMB_LPNPFLLAJCK_OFFSET UNITYSDK_OFFSET(0x1B5831C0)
 
-inline static constexpr unsigned int ILAAABDFDMB_TypeDefinitionIndex = 71814;
+inline static constexpr unsigned int ILAAABDFDMB_TypeDefinitionIndex = 73835;
 
 	class ILAAABDFDMB : public ::System::Object
 	{

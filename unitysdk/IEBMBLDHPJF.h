@@ -11,12 +11,12 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfBoss; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfMemory; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfStory; }
 
-#define IEBMBLDHPJF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15EDBE40)
-#define IEBMBLDHPJF_DJNKECFKIJC_OFFSET UNITYSDK_OFFSET(0x15EDBFB0)
-#define IEBMBLDHPJF_HCPELCFLADG_OFFSET UNITYSDK_OFFSET(0x15EDC0E0)
-#define IEBMBLDHPJF_PBMLOCMBHPI_OFFSET UNITYSDK_OFFSET(0x15EDC050)
+#define IEBMBLDHPJF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x177A01B0)
+#define IEBMBLDHPJF_DJNKECFKIJC_OFFSET UNITYSDK_OFFSET(0x177A0320)
+#define IEBMBLDHPJF_HCPELCFLADG_OFFSET UNITYSDK_OFFSET(0x177A0450)
+#define IEBMBLDHPJF_PBMLOCMBHPI_OFFSET UNITYSDK_OFFSET(0x177A03C0)
 
-inline static constexpr unsigned int IEBMBLDHPJF_TypeDefinitionIndex = 81463;
+inline static constexpr unsigned int IEBMBLDHPJF_TypeDefinitionIndex = 84243;
 
 	class IEBMBLDHPJF : public ::System::Object
 	{

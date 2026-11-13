@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class LJOLNGEEKFE;
 
-#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD054880)
-#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__TRYGETPLAYERBRIEFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD0594D0)
+#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0_CTOR_OFFSET UNITYSDK_OFFSET(0x19B01510)
+#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__TRYGETPLAYERBRIEFDATA_B__0_OFFSET UNITYSDK_OFFSET(0x19B06020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FriendModule___c__DisplayClass203_0_TypeDefinitionIndex = 64253;
+	inline static constexpr unsigned int FriendModule___c__DisplayClass203_0_TypeDefinitionIndex = 65698;
 
 	class FriendModule___c__DisplayClass203_0 : public ::System::Object
 	{

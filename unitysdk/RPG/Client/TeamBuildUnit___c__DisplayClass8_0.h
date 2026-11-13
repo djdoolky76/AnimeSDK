@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TEAMBUILDUNIT___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C1C10)
-#define RPG_CLIENT_TEAMBUILDUNIT___C__DISPLAYCLASS8_0__CHECKMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xE1C1CD0)
+#define RPG_CLIENT_TEAMBUILDUNIT___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1ACC32F0)
+#define RPG_CLIENT_TEAMBUILDUNIT___C__DISPLAYCLASS8_0__CHECKMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1ACC33B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildUnit___c__DisplayClass8_0_TypeDefinitionIndex = 68103;
+	inline static constexpr unsigned int TeamBuildUnit___c__DisplayClass8_0_TypeDefinitionIndex = 70049;
 
 	class TeamBuildUnit___c__DisplayClass8_0 : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define LDNLBGAJNBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70C1C0)
+#define LDNLBGAJNBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1AC1BAA0)
 
-inline static constexpr unsigned int LDNLBGAJNBC_TypeDefinitionIndex = 36881;
+inline static constexpr unsigned int LDNLBGAJNBC_TypeDefinitionIndex = 37809;
 
 	class LDNLBGAJNBC : public ::System::Attribute
 	{

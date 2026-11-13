@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StageIslandHLODConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEISLANDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE2450)
-#define RPG_GAMECORE_STAGEISLANDCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DAE2460)
-#define RPG_GAMECORE_STAGEISLANDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE2230)
+#define RPG_GAMECORE_STAGEISLANDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B59B0)
+#define RPG_GAMECORE_STAGEISLANDCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E3B59C0)
+#define RPG_GAMECORE_STAGEISLANDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B5790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageIslandConfig_TypeDefinitionIndex = 19131;
+	inline static constexpr unsigned int StageIslandConfig_TypeDefinitionIndex = 19319;
 
 	class StageIslandConfig : public ::RPG::GameCore::JsonConfig
 	{

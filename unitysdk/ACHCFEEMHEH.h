@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class QuestData; }
 
-#define ACHCFEEMHEH_CTOR_OFFSET UNITYSDK_OFFSET(0xB11E960)
-#define ACHCFEEMHEH_IAONPECOKLB_OFFSET UNITYSDK_OFFSET(0xB11E8C0)
+#define ACHCFEEMHEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1828F3A0)
+#define ACHCFEEMHEH_IAONPECOKLB_OFFSET UNITYSDK_OFFSET(0x1828F300)
 
-inline static constexpr unsigned int ACHCFEEMHEH_TypeDefinitionIndex = 80239;
+inline static constexpr unsigned int ACHCFEEMHEH_TypeDefinitionIndex = 83016;
 
 	class ACHCFEEMHEH : public ::System::Object
 	{

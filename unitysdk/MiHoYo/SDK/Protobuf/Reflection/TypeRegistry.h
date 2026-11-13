@@ -6,14 +6,14 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class TypeRegistry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_TYPEREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF2010)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_TYPEREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF2000)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_TYPEREGISTRY_FIND_OFFSET UNITYSDK_OFFSET(0x1BBCBE80)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_TYPEREGISTRY_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1BBF1FA0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_TYPEREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6B0B20)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_TYPEREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B0B10)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_TYPEREGISTRY_FIND_OFFSET UNITYSDK_OFFSET(0x1C68A9D0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_TYPEREGISTRY_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1C6B0AB0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int TypeRegistry_TypeDefinitionIndex = 35857;
+	inline static constexpr unsigned int TypeRegistry_TypeDefinitionIndex = 36785;
 
 	class TypeRegistry : public ::System::Object
 	{
@@ -21,7 +21,7 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*>* fullNameToMessageMap; // 0x10
 		static ::MiHoYo::SDK::Protobuf::Reflection::TypeRegistry** StaticGet__Empty_k__BackingField()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::TypeRegistry**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "TypeRegistry")->GetStaticField(0x5F510);
+			return (::MiHoYo::SDK::Protobuf::Reflection::TypeRegistry**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "TypeRegistry")->GetStaticField(0x67B00);
 		}
 
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*>* a1)

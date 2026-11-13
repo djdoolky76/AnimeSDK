@@ -3,7 +3,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledSet_1_Slot_TypeDefinitionIndex = 5126;
+	inline static constexpr unsigned int PooledSet_1_Slot_TypeDefinitionIndex = 5131;
 
 	template <typename T>
 	struct alignas(8) PooledSet_1_Slot

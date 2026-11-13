@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C7E490)
-#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C7E530)
+#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_CTOR_OFFSET UNITYSDK_OFFSET(0x3F103C0)
+#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3F10460)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIClip_ParentClipScope_TypeDefinitionIndex = 5169;
+	inline static constexpr unsigned int GUIClip_ParentClipScope_TypeDefinitionIndex = 5174;
 
 	struct alignas(4) GUIClip_ParentClipScope
 	{

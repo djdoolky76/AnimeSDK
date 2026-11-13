@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesAnimComposite; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESANIMCOMPOSITE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F2C70)
-#define RPG_GAMECORE_PLANETFESANIMCOMPOSITE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8F2950)
+#define RPG_GAMECORE_PLANETFESANIMCOMPOSITE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE613D0)
+#define RPG_GAMECORE_PLANETFESANIMCOMPOSITE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE610B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAnimComposite_TypeDefinitionIndex = 16253;
+	inline static constexpr unsigned int PlanetFesAnimComposite_TypeDefinitionIndex = 16411;
 
 	class PlanetFesAnimComposite : public ::RPG::GameCore::JsonConfig
 	{

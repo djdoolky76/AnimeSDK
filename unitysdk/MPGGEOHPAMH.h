@@ -5,21 +5,21 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class MonopolyCheckShouldSettle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPGGEOHPAMH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA37C50)
-#define MPGGEOHPAMH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA37F70)
-#define MPGGEOHPAMH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA37D50)
-#define MPGGEOHPAMH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA37F20)
-#define MPGGEOHPAMH_TICK_OFFSET UNITYSDK_OFFSET(0xBA380E0)
+#define MPGGEOHPAMH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B225330)
+#define MPGGEOHPAMH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B225660)
+#define MPGGEOHPAMH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B225430)
+#define MPGGEOHPAMH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1B225610)
+#define MPGGEOHPAMH_TICK_OFFSET UNITYSDK_OFFSET(0x1B2257D0)
 
-inline static constexpr unsigned int MPGGEOHPAMH_TypeDefinitionIndex = 58217;
+inline static constexpr unsigned int MPGGEOHPAMH_TypeDefinitionIndex = 59473;
 
 	class MPGGEOHPAMH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::MonopolyCheckShouldSettle* OFKGLJOAMLD; // 0x20
-		::KFELGAIGHAP* IJBFOGOBMLE; // 0x28
-		::KFELGAIGHAP* APPJBNPGGMI; // 0x30
+		::KFELGAIGHAP* IJBFOGOBMLE; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::KFELGAIGHAP* APPJBNPGGMI; // 0x28
+		::RPG::GameCore::MonopolyCheckShouldSettle* OFKGLJOAMLD; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyCheckShouldSettle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MonopolyCheckShouldSettle*))((::PBYTE)hIl2Cpp + MPGGEOHPAMH_CTOR_OFFSET))(this, a1, a2);

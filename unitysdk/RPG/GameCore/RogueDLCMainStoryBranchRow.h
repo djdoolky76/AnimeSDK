@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCMainStoryBranchRow; }
 
-#define RPG_GAMECORE_ROGUEDLCMAINSTORYBRANCHROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9954B0)
-#define RPG_GAMECORE_ROGUEDLCMAINSTORYBRANCHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D995340)
+#define RPG_GAMECORE_ROGUEDLCMAINSTORYBRANCHROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57B3B0)
+#define RPG_GAMECORE_ROGUEDLCMAINSTORYBRANCHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1F57B240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCMainStoryBranchRow_TypeDefinitionIndex = 14793;
+	inline static constexpr unsigned int RogueDLCMainStoryBranchRow_TypeDefinitionIndex = 14949;
 
 	class RogueDLCMainStoryBranchRow : public ::System::Object
 	{

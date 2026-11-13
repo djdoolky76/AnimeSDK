@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int PEKFHPMIPDD_TypeDefinitionIndex = 44081;
+inline static constexpr unsigned int PEKFHPMIPDD_TypeDefinitionIndex = 45156;
 
 	class PEKFHPMIPDD : public ::System::Object
 	{

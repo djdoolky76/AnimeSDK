@@ -7,18 +7,18 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_CHECKOBJECT_OFFSET UNITYSDK_OFFSET(0x1ED314D0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED317D0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_ONDATAREADY_OFFSET UNITYSDK_OFFSET(0x1ED31070)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ED31020)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1ED31040)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ED30E60)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_TRIGGERTABLEREFRESH_OFFSET UNITYSDK_OFFSET(0x1ED30FF0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED30EF0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_CHECKOBJECT_OFFSET UNITYSDK_OFFSET(0x1D44CBC0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D44CEC0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_ONDATAREADY_OFFSET UNITYSDK_OFFSET(0x1D44C760)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D44C710)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D44C730)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D44C550)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_TRIGGERTABLEREFRESH_OFFSET UNITYSDK_OFFSET(0x1D44C6E0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D44C5E0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerTableMemoryBlock_TypeDefinitionIndex = 38034;
+	inline static constexpr unsigned int ProfilerTableMemoryBlock_TypeDefinitionIndex = 38963;
 
 	class ProfilerTableMemoryBlock : public ::SRF::SRMonoBehaviourEx
 	{
@@ -29,17 +29,17 @@ namespace SRDebugger::UI::Controls
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Text*>* texts; // 0x58
 		static ::SRDebugger::UI::Controls::ProfilerTableMemoryBlock_GetTableSize** StaticGet_OnGetTable()
 		{
-			return (::SRDebugger::UI::Controls::ProfilerTableMemoryBlock_GetTableSize**)UnitySDK::FromName("SRDebugger.UI.Controls", "ProfilerTableMemoryBlock")->GetStaticField(0x35060);
+			return (::SRDebugger::UI::Controls::ProfilerTableMemoryBlock_GetTableSize**)UnitySDK::FromName("SRDebugger.UI.Controls", "ProfilerTableMemoryBlock")->GetStaticField(0x2F420);
 		}
 
 		static ::System::Action** StaticGet_DataReady()
 		{
-			return (::System::Action**)UnitySDK::FromName("SRDebugger.UI.Controls", "ProfilerTableMemoryBlock")->GetStaticField(0x35068);
+			return (::System::Action**)UnitySDK::FromName("SRDebugger.UI.Controls", "ProfilerTableMemoryBlock")->GetStaticField(0x2F428);
 		}
 
 		static ::System::Boolean* StaticGet_TriggerRefresh()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("SRDebugger.UI.Controls", "ProfilerTableMemoryBlock")->GetStaticField(0xABA0);
+			return (::System::Boolean*)UnitySDK::FromName("SRDebugger.UI.Controls", "ProfilerTableMemoryBlock")->GetStaticField(0x9550);
 		}
 
 		::System::Void _ctor()
